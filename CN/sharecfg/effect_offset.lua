@@ -2309,4 +2309,26 @@ end)()
 			0
 		}
 	}
+	pg.base.effect_offset.xilimeta_miaozhun = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1.6,
+			0
+		}
+	}
+	pg.base.effect_offset.bulisiter_alter_chase_hit = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1.6,
+			0
+		}
+	}
 end)()

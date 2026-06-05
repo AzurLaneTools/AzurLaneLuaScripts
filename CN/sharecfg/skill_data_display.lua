@@ -3837,6 +3837,8 @@ pg.skill_data_display.all = {
 	201761,
 	201763,
 	201773,
+	201790,
+	201798,
 	1011540,
 	1011541,
 	1090010,
@@ -19515,6 +19517,14 @@ end)()
 		id = 201773,
 		name = "「审判号」火力支援"
 	}
+	pg.base.skill_data_display[201790] = {
+		id = 201790,
+		name = "维度追猎"
+	}
+	pg.base.skill_data_display[201798] = {
+		id = 201798,
+		name = "灯下之影"
+	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
 		name = "最后的炮火 +"
@@ -19775,6 +19785,8 @@ end)()
 		id = 1005082,
 		name = "骑士之剑 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1005083] = {
 		id = 1005083,
 		name = "骑士之剑 +"
@@ -19783,8 +19795,6 @@ end)()
 		id = 1012940,
 		name = "For The Queen +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1013000] = {
 		id = 1013000,
 		name = "虚空的白骑兵 +"
@@ -20177,6 +20187,8 @@ end)()
 		id = 1013477,
 		name = "Redbell Flames"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1014990] = {
 		id = 1014990,
 		name = "火舌飞舞 +"
@@ -20185,8 +20197,6 @@ end)()
 		id = 1014991,
 		name = "火舌飞舞I +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1014992] = {
 		id = 1014992,
 		name = "火舌飞舞II +"

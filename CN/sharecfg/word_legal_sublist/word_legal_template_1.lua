@@ -1225,7 +1225,18 @@ temp = function()
 			["斯"] = {
 				["托"] = {
 					["尔"] = {
-						this = true
+						this = true,
+						["·"] = {
+							M = {
+								E = {
+									T = {
+										A = {
+											this = true
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			}

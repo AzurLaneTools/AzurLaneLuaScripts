@@ -276,12 +276,14 @@ end
 slot0.OnShow = function(slot0, slot1)
 	slot0:BlurPanel()
 
+	slot0.showType = slot1.showType or IslandSelectShipCard.SHOW_TYPE.PLACE
 	slot0.selectNum = slot1.selectNum or 1
 	slot0.selectedIds = slot1.selectedIds or {}
 	slot0.attrType = slot1.attrType
 	slot0.confirmFunc = slot1.confirmFunc
 	slot0.cancelFunc = slot1.cancelFunc
 	slot0.placeId = slot1.placeId
+	slot0.restId = slot1.restId
 	slot0.showBenefits = slot1.showBenefits
 	slot0.needWorkSpeed = slot1.needWorkSpeed or false
 	slot0.autoCollectionSelectShip = slot1.autoCollectionSelectShip
@@ -327,8 +329,8 @@ slot0.OnUpdateShip = function(slot0, slot1, slot2)
 		slot3 = slot0.cards[slot2]
 	end
 
-	slot4 = slot0.showShips[slot1 + 1]
-	slot5 = slot0.characterAgency:GetShipById(slot4)
+	slot5 = slot0.characterAgency
+	slot5 = slot5:GetShipById(slot0.showShips[slot1 + 1])
 
 	onButton(slot0, slot3.go, function ()
 		if uv0:CheckHasSelected(uv1) then
@@ -376,7 +378,12 @@ slot0.OnUpdateShip = function(slot0, slot1, slot2)
 
 		uv0:FlushInfo()
 	end, SFX_PANEL)
-	slot3:Update(slot4, slot0.attrType, slot0.placeId, slot0.selectedIds, slot0.autoCollectionSelectShip)
+
+	if slot0.showType == IslandSelectShipCard.SHOW_TYPE.PLACE then
+		slot3:Update(slot0.showType, slot4, slot0.attrType, slot0.placeId, slot0.selectedIds, slot0.autoCollectionSelectShip)
+	elseif slot0.showType == IslandSelectShipCard.SHOW_TYPE.RESTAURANT then
+		slot3:Update(slot0.showType, slot4, slot0.attrType, slot0.restId, slot0.selectedIds, slot0.autoCollectionSelectShip)
+	end
 end
 
 slot0.FlushShips = function(slot0, slot1)
@@ -462,17 +469,16 @@ slot0.FlushInfo = function(slot0)
 		setActive(slot0.energyTimeTextTf, false)
 	end
 
-	slot5 = slot1:GetSkill()
-	slot6 = slot5:IsUnlock()
+	slot6 = slot1:GetSkill():IsUnlock()
 
 	setActive(slot0.skill, slot6)
 	setActive(slot0.skillEmp, not slot6)
 	setText(slot0.skillEmpDes, i18n("island_need_star", slot1:GetSkillUnlockLevel()))
 
-	slot7 = slot5:IsEffectiveInPlace(slot0.placeId)
+	slot8 = slot6 and IslandSelectShipCard.GetSkillEffective(slot1, slot0.showType, slot0.showType == IslandSelectShipCard.SHOW_TYPE.PLACE and slot0.placeId or slot0.restId)
 
-	setActive(slot0.skillInuse, slot7)
-	setActive(slot0.skillUnuse, not slot7)
+	setActive(slot0.skillInuse, slot8)
+	setActive(slot0.skillUnuse, not slot8)
 
 	slot0.skillName.text = string.format("%s - %s", slot5:GetName(), "[Lv." .. slot5:GetLevel() .. "]")
 	slot0.skillDes.text = slot5:GetEffectDesc()

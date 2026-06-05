@@ -18,13 +18,15 @@ pg.island_shop_normal_template.all = {
 	50132,
 	50133,
 	50123,
+	50124,
 	10024,
 	10027,
 	10030,
 	10033,
 	10034,
 	10035,
-	10037
+	10037,
+	90001
 }
 pg.base = pg.base or {}
 pg.base.island_shop_normal_template = {}
@@ -244,6 +246,40 @@ pg.base.island_shop_normal_template = {}
 		refresh_time = 0,
 		unlock = ""
 	}
+	pg.base.island_shop_normal_template[50124] = {
+		refresh_player = "",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 50124,
+		refresh_time = 0,
+		unlock = "",
+		exist_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
 	pg.base.island_shop_normal_template[10024] = {
 		refresh_player = "",
 		exist_time = "always",
@@ -306,5 +342,39 @@ pg.base.island_shop_normal_template = {}
 		id = 10037,
 		refresh_time = 0,
 		unlock = ""
+	}
+	pg.base.island_shop_normal_template[90001] = {
+		refresh_player = "",
+		refresh_free = 0,
+		refresh_set = 0,
+		id = 90001,
+		refresh_time = 0,
+		unlock = "",
+		exist_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
 	}
 end)()

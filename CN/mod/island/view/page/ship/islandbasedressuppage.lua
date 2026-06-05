@@ -116,6 +116,7 @@ slot0.LoadCharacter = function(slot0, slot1)
 		slot6.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
 
 		uv0:OnCharLoaded()
+		GetOrAddComponent(uv0.role, typeof(CharacterFootprintMgr)):SetSpawnMode(1)
 	end)
 end
 

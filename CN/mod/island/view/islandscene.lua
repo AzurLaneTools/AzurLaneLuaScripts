@@ -12,6 +12,9 @@ slot0.preload = function(slot0, slot1)
 			uv0.super.preload(uv1, slot0)
 		end,
 		function (slot0)
+			IslandTaskActhelper.TriggerActTasks(slot0)
+		end,
+		function (slot0)
 			IslandTaskHelper.FixTaskLinksStory(slot0)
 		end
 	}, function ()
@@ -265,6 +268,7 @@ slot0.OnUpdateTrackTask = function(slot0, slot1, slot2)
 end
 
 slot0.OnAddedTask = function(slot0, slot1)
+	slot0.btnContainer:OnTaskUpdate()
 end
 
 slot0.OnUpdateTask = function(slot0, slot1)
@@ -275,6 +279,8 @@ slot0.OnUpdateTask = function(slot0, slot1)
 		slot0.taskTrackPanel:ExecuteAction("UpdateProgress", IslandTaskTrackCard.TYPES.OTHER)
 		slot0.btnContainer:OnTrackTaskChange()
 	end
+
+	slot0.btnContainer:OnTaskUpdate()
 end
 
 slot0.OnRemoveTask = function(slot0, slot1)
@@ -285,6 +291,8 @@ slot0.OnRemoveTask = function(slot0, slot1)
 		slot0.taskTrackPanel:ExecuteAction("RemoveTask", IslandTaskTrackCard.TYPES.OTHER)
 		slot0.btnContainer:OnTrackTaskChange()
 	end
+
+	slot0.btnContainer:OnTaskUpdate()
 end
 
 slot0.UpdateTaskInfo = function(slot0)
@@ -305,6 +313,7 @@ slot0.UpdateTaskInfo = function(slot0)
 	end
 
 	slot0.btnContainer:OnTrackTaskChange()
+	slot0.btnContainer:OnTaskUpdate()
 end
 
 slot0.OnSetUpCore = function(slot0, slot1, slot2)

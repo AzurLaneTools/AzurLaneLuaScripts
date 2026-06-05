@@ -4192,6 +4192,7 @@ pg.memory_template.all = {
 	5203,
 	5204,
 	5211,
+	5221,
 	10011,
 	10012,
 	10013,
@@ -79940,6 +79941,24 @@ end)()
 			"RUOQIZHIGUANG1"
 		}
 	}
+	pg.base.memory_template[5221] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "红树林的守护精灵",
+		condition = "开始「红树林的守护精灵」活动",
+		story = "HONGSHULINDESHOUHUJINGLING1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5221,
+		icon = "memory_hongshulindeshouhujingling",
+		is_open = 0,
+		unlock_pre = {
+			"HONGSHULINDESHOUHUJINGLING1"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80138,6 +80157,8 @@ end)()
 			"TEACHER3"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10032] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80156,8 +80177,6 @@ end)()
 			"TEACHER4"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10033] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81940,6 +81959,8 @@ end)()
 			"LINGHANGYUANTANXIN2"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20054] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81958,8 +81979,6 @@ end)()
 			"LINGHANGYUANTANXIN3"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20055] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83742,6 +83761,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA5"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20155] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83760,8 +83781,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA6"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20156] = {
 		ship_group = 0,
 		subtitle = "",

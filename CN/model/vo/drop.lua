@@ -206,6 +206,10 @@ slot0.getOwnedCount = function(slot0)
 	return switch(slot0.type, uv0.CountCase, uv0.CountDefault, slot0)
 end
 
+slot0.getOwnedLimit = function(slot0)
+	return switch(slot0.type, uv0.LimitCase, uv0.LimitDefault, slot0)
+end
+
 slot0.getSubClass = function(slot0)
 	return switch(slot0.type, uv0.SubClassCase, uv0.SubClassDefault, slot0)
 end
@@ -569,10 +573,10 @@ slot0.InitSwitch = function()
 			return slot1:GetItemById(slot0.id) and slot2.count or 0
 		end,
 		[DROP_TYPE_ICON_FRAME] = function (slot0)
-			return getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_ICON_FRAME, slot0.id) and (not slot1:expiredType() or not not slot1:isExpired()) and 1 or 0
+			return getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_ICON_FRAME, slot0.id) and slot1:isOwned() and 1 or 0
 		end,
 		[DROP_TYPE_CHAT_FRAME] = function (slot0)
-			return getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_CHAT_FRAME, slot0.id) and (not slot1:expiredType() or not not slot1:isExpired()) and 1 or 0
+			return getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_CHAT_FRAME, slot0.id) and slot1:isOwned() and 1 or 0
 		end,
 		[DROP_TYPE_WORLD_ITEM] = function (slot0)
 			if nowWorld().type ~= World.TypeFull then
@@ -686,6 +690,25 @@ slot0.InitSwitch = function()
 		else
 			return 0, false
 		end
+	end
+
+	uv0.LimitCase = {
+		[DROP_TYPE_FURNITURE] = function (slot0)
+			return slot0:getConfig("count")
+		end,
+		[DROP_TYPE_ICON_FRAME] = function (slot0)
+			return 1
+		end,
+		[DROP_TYPE_CHAT_FRAME] = function (slot0)
+			return 1
+		end,
+		[DROP_TYPE_SKIN] = function (slot0)
+			return 1
+		end
+	}
+
+	uv0.LimitDefault = function(slot0)
+		return 0
 	end
 
 	uv0.SubClassCase = {

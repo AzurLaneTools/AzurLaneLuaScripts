@@ -791,7 +791,7 @@ pg.base.item_data_frame = {}
 		time_second = 0,
 		id = 601,
 		time_limit_type = 0,
-		desc = "在炎炎夏日中感受片刻的清凉！\n<color=#A7A7AA>通过参与「啾啾冰淇淋」活动获取</color>",
+		desc = "在炎炎夏日中感受片刻的清凉！\n<color=#A7A7AA>通过参与「啾啾冰淇淋」活动获取</color>\n<color=#A7A7AA>通过「奖券商店」兑换获取</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[602] = {

@@ -1142,6 +1142,7 @@ pg.activity_template.all = {
 	50623,
 	50624,
 	50625,
+	50630,
 	51001,
 	51002,
 	51003,
@@ -1369,6 +1370,7 @@ pg.activity_template.all = {
 	990018,
 	990019,
 	990020,
+	990021,
 	999901
 }
 pg.activity_template.get_id_list_by_type = {
@@ -2073,6 +2075,7 @@ pg.activity_template.get_id_list_by_type = {
 		50471,
 		50480,
 		50610,
+		50630,
 		51001,
 		51005,
 		51011,
@@ -2095,7 +2098,8 @@ pg.activity_template.get_id_list_by_type = {
 		6019,
 		6020,
 		6021,
-		6023
+		6023,
+		990021
 	},
 	[19] = {
 		1093,
@@ -45106,7 +45110,7 @@ end)()
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 7,
+		is_show = 8,
 		config_client = "",
 		title_res_tag = "AnniversaryNineCoreActivityUI_subtitle_3",
 		id = 50612,
@@ -45625,12 +45629,112 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50630] = {
+		mark = 20260605,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 6,
+		title_res_tag = "OutPostCoreActivityUI_subtitle_4",
+		id = 50630,
+		page_core = "AnniversaryNineCoreActivityUI",
+		config_data = {
+			{
+				27155,
+				27156,
+				27157,
+				27158,
+				27159,
+				27160,
+				27161,
+				27162,
+				27163,
+				27164,
+				27165,
+				27166,
+				27167,
+				27168
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "AnniversaryNineEvertsenSkinPage",
+			ui_name = "AnniversaryNineEvertsenSkinPage",
+			sub_ui = {
+				"AnniversaryNineEvertsenTaskWinidow"
+			}
+		},
+		config_client = {
+			subType = 1,
+			unlock_task = {
+				{
+					27155,
+					27156
+				},
+				{
+					27157,
+					27158
+				},
+				{
+					27159,
+					27160
+				},
+				{
+					27161,
+					27162
+				},
+				{
+					27163,
+					27164
+				},
+				{
+					27165,
+					27166
+				},
+				{
+					27167,
+					27168
+				}
+			},
+			story = {
+				{
+					"HONGSHULINDESHOUHUJINGLING1"
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51001] = {
 		mark = 20260514,
 		type = 18,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 6,
+		is_show = 7,
 		title_res_tag = "AnniversaryNineCoreActivityUI_subtitle_6",
 		id = 51001,
 		page_core = "AnniversaryNineCoreActivityUI",
@@ -45886,11 +45990,15 @@ end)()
 		},
 		page_info = {
 			class_name = "OutPostOmenPage",
-			ui_name = "OutPostOmenPage"
+			ui_name = "OutPostOmenPage",
+			sub_ui = {
+				"OutPostOmenTaskWindow"
+			}
 		},
 		config_client = {
-			default_background = "star_level_bg_533",
 			task_id = 27025,
+			subType = 1,
+			default_background = "star_level_bg_533",
 			storys = {
 				411,
 				412,
@@ -46030,9 +46138,13 @@ end)()
 		},
 		page_info = {
 			class_name = "AnniversaryNineHwahJahSkinPage",
-			ui_name = "AnniversaryNineHwahJahSkinPage"
+			ui_name = "AnniversaryNineHwahJahSkinPage",
+			sub_ui = {
+				"AnniversaryNineHwahJahTaskWindow"
+			}
 		},
 		config_client = {
+			subType = 1,
 			unlock_task = {
 				{
 					27141,
@@ -49678,6 +49790,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[8083] = {
 		mark = 20241121,
 		page_info = "",
@@ -49747,8 +49861,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[8084] = {
 		mark = 20241121,
 		type = 82,
@@ -55007,6 +55119,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[2046] = {
 		mark = 20200423,
 		page_info = "",
@@ -55024,8 +55138,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[2047] = {
 		mark = 20200723,
 		page_info = "",
@@ -56792,7 +56904,7 @@ end)()
 		}
 	}
 	pg.base.activity_template[998001] = {
-		mark = 20260520,
+		mark = 20260605,
 		page_info = "",
 		type = 141,
 		login_pop = 0,
@@ -56808,8 +56920,8 @@ end)()
 			{
 				{
 					2026,
-					5,
-					20
+					6,
+					6
 				},
 				{
 					0,
@@ -56820,8 +56932,8 @@ end)()
 			{
 				{
 					2027,
-					5,
-					20
+					6,
+					3
 				},
 				{
 					23,
@@ -57642,6 +57754,46 @@ end)()
 					2026,
 					8,
 					6
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[990021] = {
+		mark = 20260605,
+		page_info = "",
+		type = 18,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990021,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
 				},
 				{
 					12,

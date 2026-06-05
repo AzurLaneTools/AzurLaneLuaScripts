@@ -306,6 +306,7 @@ slot0.ConfigGoScene = function(slot0, slot1, slot2)
 			mediator = ItemInfoMediator,
 			viewComponent = ItemInfoLayer,
 			data = {
+				groupName = LayerWeightConst.GROUP_TOP,
 				drop = Drop.New({
 					type = DROP_TYPE_ITEM,
 					id = slot1.itemId

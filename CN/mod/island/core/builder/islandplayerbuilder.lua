@@ -20,6 +20,7 @@ slot0.AddComponents = function(slot0, slot1, slot2)
 	slot4.center = Vector3(0, 0.96, 0)
 
 	GetOrAddComponent(slot1, typeof(CharacterHandleController))
+	GetOrAddComponent(slot1, typeof(CharacterFootprintMgr))
 end
 
 slot0.LoadAsset = function(slot0, slot1, slot2)

@@ -35,8 +35,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.rightPanel = slot0._tf:Find("adapt/right_panel")
 	slot0.togglePanel = slot0.rightPanel:Find("toggles/select_toggles")
 	slot0.saveBtn = slot0._tf:Find("adapt/save")
-	slot1 = slot0._tf
-	slot0.restBtn = slot1:Find("adapt/reset")
+	slot0.restBtn = slot0._tf:Find("adapt/reset")
 
 	setText(slot0.saveBtn:Find("Text"), i18n("word_save"))
 	setText(slot0.restBtn:Find("Text"), i18n("island_word_reset"))
@@ -104,9 +103,16 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0.color_lockedBtn:Find("Text"), i18n("island_dresscolorunlock"))
 
 	slot0.colorItemUIList = UIItemList.New(slot0.colorList, slot0.colorItem)
-	slot0.hatTF = slot0._tf:Find("adapt/hat")
+	slot0.hatTF = slot0._tf:Find("adapt/btns/hat")
 	slot0.hatOn = slot0.hatTF:Find("hatOn")
 	slot0.hatOff = slot0.hatTF:Find("hatOff")
+	slot0.morphTF = slot0._tf:Find("adapt/btns/morph")
+	slot0.morphBtn = slot0.morphTF and slot0.morphTF:Find("morphBtn")
+	slot0.morphBlocker = slot0._tf:Find("adapt/morph_blocker")
+
+	setActive(slot0.morphBlocker, false)
+
+	slot0.dressDetailPopup = IslandShipDressDescBox.New(slot0._tf, slot0.event, slot0.contextData)
 end
 
 slot0.CheckDressIsExclusive = function(slot0, slot1)
@@ -192,6 +198,10 @@ slot0.ClickDressCardItem = function(slot0, slot1)
 		end
 	end
 
+	if slot0.dressType == IslandShipDressHelperNew.DressType.Body and slot0.dressUpAgency:GetTwinCurId(slot2) and slot4 ~= 0 then
+		slot2 = slot4
+	end
+
 	slot0.curDressTypeDataDic[slot0.dressType] = slot2
 
 	slot0.shipDressHelper:ChangeDressByType(slot0.dressType, {
@@ -207,8 +217,21 @@ slot0.ClickDressCardItem = function(slot0, slot1)
 		end)()
 	})
 	slot0.dressRect:SetTotalCount(#slot0.dressList)
+	slot0:CheckHatAutoTakeOff(slot2)
 	slot0:UpdateHatDisplay()
+	slot0:UpdateMorphDisplay()
 	slot0:UpdateColorList(true)
+end
+
+slot0.CheckHatAutoTakeOff = function(slot0, slot1)
+	if slot0.dressType == IslandShipDressHelperNew.DressType.Body and (not slot0.dressUpAgency:GetBodyHatDressId(slot1) or slot2 == 0) then
+		slot0.curDressTypeDataDic[IslandShipDressHelperNew.DressType.Hat] = 0
+
+		slot0.shipDressHelper:ChangeDressByType(IslandShipDressHelperNew.DressType.Hat, {
+			id = 0,
+			colorId = 0
+		})
+	end
 end
 
 slot0.UpdateHatToggleDisplay = function(slot0, slot1)
@@ -236,16 +259,18 @@ slot0.UpdateHatDisplay = function(slot0)
 	end
 
 	setActive(slot0.hatTF, true)
-
-	slot6 = slot0.shipDressHelper
-
-	slot6:ChangeDressByType(pg.island_dress_template[slot3].type, {
+	slot0.shipDressHelper:ChangeDressByType(pg.island_dress_template[slot3].type, {
 		id = slot0.dressUpAgency:GetBodyHatIsOn(slot1, slot3) and slot3 or 0
 	})
 
 	slot0.curDressTypeDataDic[slot4] = slot5 and slot3 or 0
 
 	slot0:UpdateHatToggleDisplay(slot5)
+
+	if pg.island_dress_template[slot3].takeoff_btn_is_hide == 1 then
+		setActive(slot0.hatTF, false)
+	end
+
 	onButton(slot0, slot0.hatOn, function ()
 		if uv0.curDressTypeDataDic[uv1] ~= uv2 then
 			uv0.curDressTypeDataDic[uv1] = uv2
@@ -270,6 +295,137 @@ end
 
 slot0.OnDressInitItem = function(slot0, slot1)
 	slot0.dressCards[slot1] = IslandDressCard.New(slot1)
+end
+
+slot0.UpdateMorphDisplay = function(slot0)
+	if slot0.dressType ~= IslandShipDressHelperNew.DressType.Body then
+		setActive(slot0.morphTF, false)
+
+		return
+	end
+
+	if not slot0.curDressTypeDataDic[slot0.dressType] or slot1 == 0 then
+		setActive(slot0.morphTF, false)
+
+		return
+	end
+
+	slot2 = 0
+
+	if pg.island_dress_template[slot1].cloth_related and slot3 ~= 0 then
+		slot2 = slot3
+	end
+
+	if slot2 == 0 then
+		setActive(slot0.morphTF, false)
+
+		return
+	end
+
+	setActive(slot0.morphTF, true)
+	onButton(slot0, slot0.morphBtn, function ()
+		uv0:DoMorphSwitch(uv1, uv2)
+	end)
+end
+
+slot0.DoMorphSwitch = function(slot0, slot1, slot2)
+	if slot0.morphing then
+		return
+	end
+
+	slot0:SetMorphBlock(true)
+
+	if not slot0.shipDressHelper then
+		slot0:DoSwitch(slot2, function ()
+			uv0:SetMorphBlock(false)
+		end)
+
+		return
+	end
+
+	slot3 = slot0.shipDressHelper
+
+	slot3:DoMorphSwitch(slot1, slot2, function ()
+		slot0 = uv0
+
+		slot0:DoSwitch(uv1, function ()
+			uv0:SetMorphBlock(false)
+		end)
+	end)
+end
+
+slot0.SetMorphBlock = function(slot0, slot1)
+	slot0.morphing = slot1
+
+	setActive(slot0.morphBlocker, slot1)
+end
+
+slot0.CanEsc = function(slot0)
+	if slot0.morphing then
+		return false
+	end
+
+	return true
+end
+
+slot0.DoSwitch = function(slot0, slot1, slot2)
+	slot3 = IslandShipDressHelperNew.DressType.Body
+	slot0.curDressTypeDataDic[slot3] = slot1
+
+	slot0.shipDressHelper:ChangeDressByType(slot3, {
+		colorId = 0,
+		id = slot1
+	}, slot2)
+	slot0:CheckHatAutoTakeOff(slot1)
+	slot0:UpdateHatDisplay()
+	slot0:UpdateMorphDisplay()
+end
+
+slot0.AddLongPressListeners = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.isLongPress = false
+	slot6 = GetOrAddComponent(slot2, typeof(LongPressTrigger))
+	slot7 = slot6.onClick
+
+	slot7:RemoveAllListeners()
+
+	slot7 = slot6.onClick
+
+	slot7:AddListener(function ()
+		if uv0.isLongPress then
+			uv1()
+
+			return
+		end
+
+		uv2()
+	end)
+
+	slot7 = slot6.onLongPressed
+
+	slot7:RemoveAllListeners()
+
+	slot7 = slot6.onLongPressed
+
+	slot7:AddListener(function ()
+		uv0.isLongPress = true
+		slot0 = uv0._tf:InverseTransformPoint(tf(uv1).position)
+
+		uv0.dressDetailPopup:ExecuteAction("Show", uv2, uv3, Vector2(slot0.x - tf(uv1).sizeDelta.x / 2, slot0.y + tf(uv1).sizeDelta.y / 2))
+	end)
+
+	slot7 = slot6.onReleased
+
+	slot7:RemoveAllListeners()
+
+	slot7 = slot6.onReleased
+
+	slot7:AddListener(function ()
+		if uv0.isLongPress then
+			uv0.dressDetailPopup:ExecuteAction("Hide")
+
+			uv0.isLongPress = false
+		end
+	end)
 end
 
 slot0.OnDressUpdateItem = function(slot0, slot1, slot2)
@@ -300,16 +456,17 @@ slot0.OnDressUpdateItem = function(slot0, slot1, slot2)
 	setActive(slot3.redDot, slot4.needRedDot)
 
 	slot7 = nil
-	slot8 = slot4.id
+	slot9 = tf(slot2)
 
-	onButton(slot0, tf(slot2), function ()
+	slot0:AddLongPressListeners(IslandShipDressDescBox.TYPE.DRESS, slot2, slot4.id, function ()
 		uv0:ClickDressCardItem(uv1)
 	end)
 
 	slot10 = false
 
 	if slot0.shipId == 0 then
-		slot10 = (slot0.curDressTypeDataDic[slot0.dressType] ~= 0 and slot11 or nil) == slot4.id
+		slot12 = slot0.curDressTypeDataDic[slot0.dressType] ~= 0 and slot11 or nil
+		slot10 = slot12 == slot4.id or slot12 == slot4:getConfig("cloth_related")
 
 		setActive(slot3.exclusionTF, false)
 	else
@@ -334,9 +491,11 @@ slot0.OnSkinUpdateItem = function(slot0, slot1, slot2)
 		slot3 = slot0.skinCards[slot2]
 	end
 
+	slot4 = slot0.skinList[slot1 + 1]
+
 	setActive(tf(slot2):Find("changeColor"), true)
-	slot3:Update(slot0.skinList[slot1 + 1], slot0.curSkinId ~= 0 and slot6 or nil)
-	onButton(slot0, slot5, function ()
+	slot3:Update(slot4, slot0.curSkinId ~= 0 and slot6 or nil)
+	slot0:AddLongPressListeners(IslandShipDressDescBox.TYPE.SKIN, slot2, slot4, function ()
 		uv0:ClickSkinCardItem(uv1)
 	end)
 end
@@ -545,6 +704,7 @@ slot0.SwitchPage = function(slot0, slot1)
 		slot0:GetDressUpList()
 		slot0:UpdateDressUpList()
 		slot0:UpdateHatDisplay()
+		slot0:UpdateMorphDisplay()
 		slot0:UpdateOrderTxt()
 		slot0:UpdateColorList(true)
 	end
@@ -557,15 +717,17 @@ slot0.GetDressUpList = function(slot0)
 		slot4 = slot0.dressType
 
 		for slot4, slot5 in ipairs(slot0.dressUpAgency:GetHasDressByType(slot4)) do
-			table.insert(slot0.dressList, IslandDressItem.New({
-				id = slot5.id,
-				quality = pg.island_dress_template[slot5.id].quality,
-				needRedDot = slot5.state == 0
-			}))
+			if pg.island_dress_template[slot5.id].is_hide ~= 1 then
+				table.insert(slot0.dressList, IslandDressItem.New({
+					id = slot5.id,
+					quality = slot6.quality,
+					needRedDot = slot5.state == 0
+				}))
+			end
 		end
 	else
 		for slot4, slot5 in pairs(slot0.characterAgency:GetAllOwnDressDic()) do
-			if slot5:getConfigTable().type == slot0.dressType and slot5.num > 0 then
+			if slot5:getConfigTable().type == slot0.dressType and slot5.num > 0 and slot5:getConfigTable().is_hide ~= 1 then
 				table.insert(slot0.dressList, IslandDressItem.New({
 					id = slot5.id,
 					ownCount = slot5.num,
@@ -577,7 +739,7 @@ slot0.GetDressUpList = function(slot0)
 
 		for slot4, slot5 in pairs(slot0.characterAgency:GetShipHoldedDressDic()) do
 			for slot9, slot10 in ipairs(slot5) do
-				if slot10:getConfigTable().type == slot0.dressType then
+				if slot10:getConfigTable().type == slot0.dressType and slot10:getConfigTable().is_hide ~= 1 then
 					table.insert(slot0.dressList, IslandDressItem.New({
 						id = slot10.dress_id,
 						holdedShipId = slot10.ship_id,
@@ -782,8 +944,9 @@ slot0.ResetDressUp = function(slot0)
 			slot0.dressColorDic[slot6] = slot7
 		end
 
-		slot0:UpdateHatToggleDisplay(slot0.dressUpAgency:GetBodyHatIsOn(slot0.curDressTypeDataDic[IslandShipDressHelperNew.DressType.Body]))
 		slot0:UpdateDressUpList()
+		slot0:UpdateHatDisplay()
+		slot0:UpdateMorphDisplay()
 	else
 		slot1 = slot0.characterAgency
 		slot1 = slot1:GetShipById(slot0.shipId)
@@ -981,6 +1144,10 @@ slot0.SaveDressUpData = function(slot0, slot1)
 end
 
 slot0.CheckInReturn = function(slot0, slot1)
+	if slot0.morphing then
+		return
+	end
+
 	if not slot0:CheckDressIsDirty() then
 		existCall(slot1)
 
@@ -1275,6 +1442,11 @@ slot0.OnHide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	if slot0.shipDressHelper then
+		slot0.shipDressHelper:StopMorphSwitch()
+	end
+
+	slot0:SetMorphBlock(false)
 	ClearLScrollrect(slot0.dressRect)
 	ClearLScrollrect(slot0.skinRect)
 
@@ -1286,6 +1458,20 @@ slot0.OnDestroy = function(slot0)
 	end
 
 	slot0.dressCards = nil
+	slot1 = pairs
+	slot2 = slot0.skinCards or {}
+
+	for slot4, slot5 in slot1(slot2) do
+		slot5:Dispose()
+	end
+
+	slot0.skinCards = nil
+
+	if slot0.dressDetailPopup then
+		slot0.dressDetailPopup:Destroy()
+
+		slot0.dressDetailPopup = nil
+	end
 end
 
 return slot0

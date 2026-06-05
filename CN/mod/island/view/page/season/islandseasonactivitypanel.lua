@@ -112,6 +112,16 @@ slot0.setActivities = function(slot0, slot1)
 	slot0:flushTabs()
 end
 
+slot0.OnTaskUpdate = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.activities) do
+		if slot6:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_LIST and _.any(_.flatten(slot6:getIslandConfig("config_data")), function (slot0)
+			return slot0 == uv0
+		end) then
+			slot0:updateActivity(slot6)
+		end
+	end
+end
+
 slot0.updateActivity = function(slot0, slot1)
 	if ActivityConst.IslandPageIdLinks[slot1.id] then
 		for slot6, slot7 in ipairs(slot2) do
@@ -268,7 +278,15 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.OnHide = function(slot0)
-	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
+	slot4 = slot0._parentTf
+
+	slot0:UnOverlayPanel(slot0._tf, slot4)
+
+	for slot4, slot5 in pairs(slot0.pageDic) do
+		if slot5 and slot5:isShowing() then
+			slot5:Hide()
+		end
+	end
 end
 
 return slot0

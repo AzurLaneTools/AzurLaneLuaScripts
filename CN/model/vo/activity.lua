@@ -282,30 +282,39 @@ slot0.readyToAchieve = function(slot0)
 			return false
 		end,
 		[ActivityConst.ACTIVITY_TYPE_TASKS] = function (slot0)
-			slot1 = getProxy(TaskProxy)
+			if slot0:getConfig("config_client").subType then
+				return slot0:activityTasksSubTypeFunc(slot1)
+			end
 
-			if _.any(_.flatten(slot0:getConfig("config_data")), function (slot0)
+			slot2 = getProxy(TaskProxy)
+			slot3 = _.flatten(slot0:getConfig("config_data"))
+
+			if IslandTaskActhelper.IsIslandTaskAct(slot0) then
+				return IslandTaskActhelper.ShouldTipIslandTask(slot0)
+			end
+
+			if _.any(slot3, function (slot0)
 				return uv0:getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
 			end) then
 				return true
 			end
 
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE) and not slot3:isEnd() and slot3:getConfig("config_client").linkActID == slot0.id and slot3:readyToAchieve() then
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE) and not slot4:isEnd() and slot4:getConfig("config_client").linkActID == slot0.id and slot4:readyToAchieve() then
 				return true
 			end
 
 			if slot0:getConfig("config_client") and slot0:getConfig("config_client").decodeGameId and getProxy(MiniGameProxy):GetHubByGameId(slot0:getConfig("config_client").decodeGameId) then
-				slot6 = slot0:getConfig("config_data")
-				slot8 = _.all(slot6[#slot6], function (slot0)
+				slot7 = slot0:getConfig("config_data")
+				slot9 = _.all(slot7[#slot7], function (slot0)
 					return getProxy(TaskProxy):getFinishTaskById(slot0) ~= nil
 				end)
 
-				if slot5.ultimate <= 0 and slot8 then
+				if slot6.ultimate <= 0 and slot9 then
 					return true
 				end
 			end
 
-			if slot0:getConfig("config_client") and slot0:getConfig("config_client").linkTaskPoolAct and getProxy(ActivityProxy):getActivityById(slot0:getConfig("config_client").linkTaskPoolAct) and slot5:readyToAchieve() then
+			if slot0:getConfig("config_client") and slot0:getConfig("config_client").linkTaskPoolAct and getProxy(ActivityProxy):getActivityById(slot0:getConfig("config_client").linkTaskPoolAct) and slot6:readyToAchieve() then
 				return true
 			end
 
@@ -838,46 +847,49 @@ slot0.IsShowTipById = function(slot0)
 			end
 
 			return false
-		end,
-		[ActivityConst.OUT_POST_OMEN_TASKS] = function (slot0)
-			slot1 = 1
-			slot2 = getProxy(TaskProxy)
-			slot7 = true
-
-			for slot11 = 1, math.min(slot0:getNDay(), #slot0:getConfig("config_client").unlock_task) do
-				if not slot7 then
-					break
-				end
-
-				slot1 = slot11
-
-				if slot11 < slot6 then
-					for slot15, slot16 in ipairs(slot3[slot11]) do
-						if not slot2:getTaskById(slot16) and not slot2:getFinishTaskById(slot16) or slot17:getTaskStatus() ~= 2 then
-							slot7 = false
-
-							break
-						end
-					end
-				end
-			end
-
-			for slot11, slot12 in ipairs(slot3[math.min(slot1, slot5)]) do
-				if not (slot2:getTaskById(slot12) or slot2:getFinishTaskById(slot12)) then
-					return false
-				end
-
-				if slot13:getTaskStatus() == 1 then
-					return true
-				end
-			end
-
-			return false
 		end
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]
 
 	return tobool(slot1), slot1 and slot1(slot0)
+end
+
+slot0.activityTasksSubTypeFunc = function(slot0, slot1)
+	if slot1 == 1 then
+		slot2 = 1
+		slot3 = getProxy(TaskProxy)
+		slot8 = true
+
+		for slot12 = 1, math.min(slot0:getNDay(), #slot0:getConfig("config_client").unlock_task) do
+			if not slot8 then
+				break
+			end
+
+			slot2 = slot12
+
+			if slot12 < slot7 then
+				for slot16, slot17 in ipairs(slot4[slot12]) do
+					if not slot3:getTaskById(slot17) and not slot3:getFinishTaskById(slot17) or slot18:getTaskStatus() ~= 2 then
+						slot8 = false
+
+						break
+					end
+				end
+			end
+		end
+
+		for slot12, slot13 in ipairs(slot4[math.min(slot2, slot6)]) do
+			if not (slot3:getTaskById(slot13) or slot3:getFinishTaskById(slot13)) then
+				return false
+			end
+
+			if slot14:getTaskStatus() == 1 then
+				return true
+			end
+		end
+	end
+
+	return false
 end
 
 slot0.isShow = function(slot0)

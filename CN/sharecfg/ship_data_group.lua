@@ -871,7 +871,8 @@ pg.ship_data_group.all = {
 	30059,
 	30058,
 	30060,
-	30061
+	30061,
+	30062
 }
 pg.ship_data_group.get_id_list_by_group_type = {
 	[10000] = {
@@ -3055,6 +3056,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[970111] = {
 		30056
 	},
+	[970112] = {
+		30062
+	},
 	[970201] = {
 		30003
 	},
@@ -4354,7 +4358,8 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		30059,
 		30058,
 		30060,
-		30061
+		30061,
+		30062
 	}
 }
 pg.base = pg.base or {}
@@ -40094,6 +40099,41 @@ end)()
 				"限时活动：圣印前的同盟",
 				{
 					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[30062] = {
+		nationality = 97,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970112,
+		index_id = 30062,
+		code = 30062,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：META研究室-资讯同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701121
+					}
 				},
 				0
 			}

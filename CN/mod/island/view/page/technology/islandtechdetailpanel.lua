@@ -271,7 +271,7 @@ slot0.Show = function(slot0, slot1, slot2)
 end
 
 slot0.OnShipSelected = function(slot0, slot1)
-	if getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1):GetCurrentEnergy() < pg.island_formula[slot0.showTechVO:GetFormulaId()].stamina_cost then
+	if getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1):GetCurrentEnergy() < math.floor(pg.island_formula[slot0.showTechVO:GetFormulaId()].stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(slot1, slot0.placeId))) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("island_production_cost_notenough"))
 
 		return

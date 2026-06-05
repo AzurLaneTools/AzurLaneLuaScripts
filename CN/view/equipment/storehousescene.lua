@@ -5,6 +5,7 @@ slot3 = 1
 slot4 = 2
 slot5 = 1
 slot6 = 2
+slot7 = 3
 
 slot0.getUIName = function(slot0)
 	return "StoreHouseUI"
@@ -26,8 +27,8 @@ slot0.setEquipmentByIds = function(slot0, slot1)
 	end
 end
 
-slot7 = require("view.equipment.EquipmentSortCfg")
-slot8 = require("view.equipment.SpWeaponSortCfg")
+slot8 = require("view.equipment.EquipmentSortCfg")
+slot9 = require("view.equipment.SpWeaponSortCfg")
 
 slot0.init = function(slot0)
 	slot0.filterEquipWaitting = 0
@@ -78,7 +79,7 @@ slot0.init = function(slot0)
 
 	setActive(slot0.designTabRoot, false)
 
-	slot0.designTabs = CustomIndexLayer.Clone2Full(slot0.designTabRoot, 2)
+	slot0.designTabs = CustomIndexLayer.Clone2Full(slot0.designTabRoot, 3)
 	slot0.bottomBack = slot0.topItems:Find("adapt/bottom_back")
 	slot0.bottomPanel = slot0.bottomBack:Find("types")
 	slot0.materialToggle = slot0.bottomPanel:Find("material")
@@ -291,6 +292,8 @@ slot0.didEnter = function(slot0)
 		else
 			uv0:emit(EquipmentMediator.CLOSE_DESIGN_LAYER)
 		end
+
+		setActive(uv0.designTabs[uv2], slot0)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.designTabs[uv4], function (slot0)
 		if slot0 then
@@ -303,6 +306,15 @@ slot0.didEnter = function(slot0)
 		else
 			uv0:emit(EquipmentMediator.CLOSE_SPWEAPON_DESIGN_LAYER)
 		end
+	end, SFX_PANEL)
+	setActive(slot0.designTabs[uv5], slot0.contextData.designPage == uv3)
+
+	slot0.isShowAllDesign = false
+
+	onToggle(slot0, slot0.designTabs[uv5], function (slot0)
+		uv0.isShowAllDesign = slot0
+
+		uv0:emit(EquipmentMediator.DESIGN_FILTER_CHANGED, uv0.isShowAllDesign)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.mode == StoreHouseConst.DESTROY then
@@ -406,10 +418,10 @@ slot0.didEnter = function(slot0)
 	slot0:initEquipments()
 
 	slot0.asc = slot0.contextData.asc or false
-	slot0.contextData.sortData = slot0.contextData.sortData or uv6.sort[1]
+	slot0.contextData.sortData = slot0.contextData.sortData or uv7.sort[1]
 	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
 	slot0.contextData.spweaponIndexDatas = slot0.contextData.spweaponIndexDatas or {}
-	slot0.contextData.spweaponSortData = slot0.contextData.spweaponSortData or uv7.sort[1]
+	slot0.contextData.spweaponSortData = slot0.contextData.spweaponSortData or uv8.sort[1]
 
 	slot0:initSort()
 	setActive(slot0.itemView, false)

@@ -1,4 +1,5 @@
 slot0 = class("IslandSeasonPage", import("...base.IslandBasePage"))
+slot0.CLOSE = "IslandSeasonPage:CLOSE"
 slot0.PAGE_ACTIVITY = "activity"
 slot0.PAGE_PT = "pt"
 slot0.PAGE_TASK = "task"
@@ -92,17 +93,21 @@ slot0.OnLoaded = function(slot0)
 	slot0.playRoomPop:didEnter()
 end
 
-slot0.OnInit = function(slot0)
-	slot3 = slot0.blurTF
+slot0.Close = function(slot0, slot1)
+	slot0:emit(IslandMediator.PLAY_ROOM_MATCH_STOP)
+	slot0:Hide(slot1)
+end
 
-	onButton(slot0, slot3:Find("top/back"), function ()
-		uv0:emit(IslandMediator.PLAY_ROOM_MATCH_STOP)
-		uv0:Hide()
+slot0.OnInit = function(slot0)
+	slot1 = slot0.blurTF
+
+	onButton(slot0, slot1:Find("top/back"), function ()
+		uv0:Close(true)
 	end, SFX_PANEL)
 
-	slot3 = slot0.blurTF
+	slot4 = slot0.blurTF
 
-	onButton(slot0, slot3:Find("top/help"), function ()
+	onButton(slot0, slot4:Find("top/help"), function ()
 		uv0:ShowMsgBox({
 			type = IslandMsgBox.TYPE_WHITOUT_BTN,
 			content = i18n("island_season_help")
@@ -117,6 +122,9 @@ slot0.OnInit = function(slot0)
 			end
 		end, SFX_PANEL)
 	end)
+	slot0:bind(uv0.CLOSE, function ()
+		uv0:Close(false)
+	end)
 end
 
 slot0.AddListeners = function(slot0)
@@ -127,6 +135,10 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE, slot0.OnSubmitTaskDone)
 	slot0:AddListener(GAME.ISLAND_SHOP_OP_DONE, slot0.FlushShopPage)
 	slot0:AddListener(GAME.ISLAND_GET_SEASON_RANK_DONE, slot0.OnGetRankData)
+	slot0:AddListener(IslandTaskAgency.TASK_ADDED, slot0.OnTaskAdded)
+	slot0:AddListener(IslandTaskAgency.TASK_UPDATED, slot0.OnTaskUpdate)
+	slot0:AddListener(IslandTaskAgency.TASK_REMOVED, slot0.OnTaskRemove)
+	slot0:AddListener(IslandTaskAgency.TASK_FINISH, slot0.OnTaskFinish)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -137,6 +149,10 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE, slot0.OnSubmitTaskDone)
 	slot0:RemoveListener(GAME.ISLAND_SHOP_OP_DONE, slot0.FlushShopPage)
 	slot0:RemoveListener(GAME.ISLAND_GET_SEASON_RANK_DONE, slot0.OnGetRankData)
+	slot0:RemoveListener(IslandTaskAgency.TASK_ADDED, slot0.OnTaskAdded)
+	slot0:RemoveListener(IslandTaskAgency.TASK_UPDATED, slot0.OnTaskUpdate)
+	slot0:RemoveListener(IslandTaskAgency.TASK_REMOVED, slot0.OnTaskRemove)
+	slot0:RemoveListener(IslandTaskAgency.TASK_FINISH, slot0.OnTaskFinish)
 end
 
 slot0.OnShow = function(slot0, slot1)
@@ -184,6 +200,42 @@ slot0.SwitchPage = function(slot0)
 			slot0:UnOverlayPanel(slot0.blurTF, slot0._tf)
 		end
 	end
+end
+
+slot0.UpdateTaskAct = function(slot0, slot1)
+	slot0.pages[uv0.PAGE_ACTIVITY]:ExecuteAction("OnTaskUpdate", slot1)
+end
+
+slot0.OnTaskAdded = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	slot0:UpdateTaskAct(slot1.id)
+end
+
+slot0.OnTaskUpdate = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	slot0:UpdateTaskAct(slot1.id)
+end
+
+slot0.OnTaskRemove = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	slot0:UpdateTaskAct(slot1.id)
+end
+
+slot0.OnTaskFinish = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	slot0:UpdateTaskAct(slot1)
 end
 
 slot0.FlushActivityPage = function(slot0, slot1)

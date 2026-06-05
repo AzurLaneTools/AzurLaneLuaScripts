@@ -5293,7 +5293,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2026.3.12-2026.6.5</color>期间限时开放「{namecode:552}」的挑战，在此期间指挥官可挑战「{namecode:552}」累计其同步值获取<color=#92fc63>「{namecode:552}」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2026.6.5-2026.9.4</color>期间限时开放「布里斯托尔·META」的挑战，在此期间指挥官可挑战「布里斯托尔·META」累计其同步值获取<color=#92fc63>「布里斯托尔·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -5314,7 +5314,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一个信标最多能允许累计30位指挥官进行挑战
 
 5.战斗说明
-·挑战信标{namecode:552}暂不可使用指挥喵与潜艇
+·挑战信标布里斯托尔·META暂不可使用指挥喵与潜艇
 ·战斗结算时不会获得经验值，不会影响舰船心情值
 ·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
 ①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
@@ -5322,8 +5322,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标{namecode:552}挑战的进行，从第31天开始，即2026.4.12~2026.6.5期间，舰队挑战「{namecode:552}」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标{namecode:552}开放的日期增加，火力支援提供的伤害也会增加。
-※此支援只会在指挥官自己发现的信标{namecode:552}战斗中出现，每次挑战均会触发。]]
+随着信标布里斯托尔·META挑战的进行，从第31天开始，即2026.7.6~2026.9.4期间，舰队挑战「布里斯托尔·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标布里斯托尔·META开放的日期增加，火力支援提供的伤害也会增加。
+※此支援只会在指挥官自己发现的信标布里斯托尔·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
 }
@@ -21589,9 +21589,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2026.3.12-2026.6.5</color>期间限时开放「{namecode:552}」的「资讯同步」，通过「信标{namecode:552}」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「{namecode:552}」角色</color>
+·<color=#92fc63>2026.6.5-2026.9.4</color>期间限时开放「布里斯托尔·META」的「资讯同步」，通过「信标布里斯托尔·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「布里斯托尔·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「{namecode:552}」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「布里斯托尔·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -49097,7 +49097,7 @@ _G.pg.base.gametip.mall_award_get = {
 
 
 _G.pg.base.gametip.mall_order_wait_tip = {
-	tip = "下一批新订单："
+	tip = "新订单预计将在$1后到来"
 }
 
 
@@ -49350,6 +49350,41 @@ _G.pg.base.gametip.mall_level_max = {
 }
 
 
+_G.pg.base.gametip.equipment_design_chapter = {
+	tip = "作战档案"
+}
+
+
+_G.pg.base.gametip.equipment_design_tech = {
+	tip = "军部研究室：科研项目研发"
+}
+
+
+_G.pg.base.gametip.equipment_design_shop = {
+	tip = "商店兑换"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_expand = {
+	tip = "展开"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_fold = {
+	tip = "收起"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_skip = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.equipment_design_sub_title = {
+	tip = "该道具可以由以下方式获取："
+}
+
+
 _G.pg.base.gametip.mall_staff_position_full_tip = {
 	tip = "分配失败，已达到店员数量上限"
 }
@@ -49387,4 +49422,49 @@ _G.pg.base.gametip.littleyunxian_tip2 = {
 
 _G.pg.base.gametip.OutPostCoreActivityUI_subtitle_3 = {
 	tip = "若漆之光"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_4 = {
+	tip = "红树林的守护精灵"
+}
+
+
+_G.pg.base.gametip.island_dress_tag_twins = {
+	tip = "双形态服装"
+}
+
+
+_G.pg.base.gametip.island_dress_tag_sp_animator = {
+	tip = "专属动作"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_preview = {
+	tip = "服装详情"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_description = {
+	tip = "6月11日为止，每天零点解锁1个任务\n完成七日活动任务，可获得限定指挥官装扮【核心链接】等奖励"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_look_all = {
+	tip = "查看详情"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_progress = {
+	tip = "当前阶段 DAY$1/$2 "
+}
+
+
+_G.pg.base.gametip.island_mecha_task_lock_tip = {
+	tip = "$1月$2日解锁"
+}
+
+
+_G.pg.base.gametip.yearly_sign_in = {
+	tip = "年度累计签到"
 }

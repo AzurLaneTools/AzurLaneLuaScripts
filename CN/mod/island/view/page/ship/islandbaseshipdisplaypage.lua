@@ -141,6 +141,7 @@ slot0.LoadCharacter = function(slot0, slot1, slot2)
 			end
 		end
 
+		GetOrAddComponent(uv1.role, typeof(CharacterFootprintMgr)):SetSpawnMode(1)
 		uv1:OnCharLoaded(uv0.modelData)
 	end)
 end
@@ -157,6 +158,11 @@ slot0._LoadModel = function(slot0, slot1, slot2)
 			uv0(slot0, uv1.personal_ani)
 			pg.UIMgr.GetInstance():LoadingOff()
 		end)
+	elseif slot0:IsPreviewScene() then
+		slot0:GetPoolMgr():GetPreviewModel(slot3, function (slot0)
+			uv0(slot0, uv1.personal_ani)
+			pg.UIMgr.GetInstance():LoadingOff()
+		end, slot0:GetDressByType(), slot0:GetColorByDressId())
 	else
 		slot5 = slot0:GetPoolMgr()
 
@@ -187,6 +193,8 @@ slot0.UnloadCharacter = function(slot0, slot1)
 
 		if slot0.isCommander then
 			slot0:GetPoolMgr():ReturnCommanderModel(slot0.role)
+		elseif slot0:IsPreviewScene() then
+			Object.Destroy(slot0.role)
 		else
 			slot0:GetPoolMgr():ReturnCharacter(slot2.model, slot2.animator, slot0.role)
 		end
@@ -292,6 +300,18 @@ slot0.GetSmoothRotateObject = function(slot0)
 end
 
 slot0.OnCharLoaded = function(slot0)
+end
+
+slot0.IsPreviewScene = function(slot0)
+	return false
+end
+
+slot0.GetDressByType = function(slot0)
+	return {}
+end
+
+slot0.GetColorByDressId = function(slot0)
+	return {}
 end
 
 return slot0

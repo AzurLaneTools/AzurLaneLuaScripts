@@ -449,7 +449,14 @@ pg.island_task.all = {
 	90001010,
 	90001011,
 	90001012,
-	90001020
+	90001020,
+	90002001,
+	90002002,
+	90002003,
+	90002004,
+	90002005,
+	90002006,
+	90002007
 }
 pg.island_task.get_id_list_by_type = {
 	{
@@ -910,7 +917,14 @@ pg.island_task.get_id_list_by_type = {
 		90001010,
 		90001011,
 		90001012,
-		90001020
+		90001020,
+		90002001,
+		90002002,
+		90002003,
+		90002004,
+		90002005,
+		90002006,
+		90002007
 	}
 }
 pg.base = pg.base or {}
@@ -21951,6 +21965,433 @@ end)()
 			{
 				52,
 				4018,
+				1
+			}
+		}
+	}
+	pg.base.island_task[90002001] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "抚摸猫咪",
+		type = 9,
+		task_desc = "抚摸猫咪",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002001,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020011
+		},
+		reward_show = {
+			{
+				46,
+				1010015,
+				1
+			}
+		}
+	}
+	pg.base.island_task[90002002] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "获得任意农田作物个数*30",
+		type = 9,
+		task_desc = "获得任意农田作物个数*30",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002002,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020021
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	}
+	pg.base.island_task[90002003] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "交付任意岛屿订单",
+		type = 9,
+		task_desc = "交付任意岛屿订单",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002003,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020031
+		},
+		reward_show = {
+			{
+				46,
+				1030014,
+				1
+			}
+		}
+	}
+	pg.base.island_task[90002004] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "委派生产任意资材",
+		type = 9,
+		task_desc = "委派生产任意资材",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002004,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020041
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	}
+	pg.base.island_task[90002005] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "和角色进行一次互动",
+		type = 9,
+		task_desc = "和角色进行一次互动",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002005,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020051
+		},
+		reward_show = {
+			{
+				46,
+				1020014,
+				1
+			}
+		}
+	}
+	pg.base.island_task[90002006] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "完成任意货运委托",
+		type = 9,
+		task_desc = "完成任意货运委托",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002006,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020061
+		},
+		reward_show = {
+			{
+				41,
+				1,
+				1000
+			}
+		}
+	}
+	pg.base.island_task[90002007] = {
+		trigger_data = 0,
+		trigger_tips = 0,
+		name = "获得任意餐品三次",
+		type = 9,
+		task_desc = "获得任意餐品三次",
+		map_trigger_tips = 0,
+		complete_type = 3,
+		trigger_type = 2,
+		com_page = "",
+		complete_data = 0,
+		reward_exp = 0,
+		complete_tips = "",
+		is_tech_task = 0,
+		count_offset = 1,
+		series = "",
+		navigation = 0,
+		map_complete_tips = 0,
+		rec_perform = "",
+		com_perform = "",
+		series_name = "",
+		id = 90002007,
+		unlock_condition = {},
+		unlock_time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		link_task = {},
+		target_id = {
+			900020071
+		},
+		reward_show = {
+			{
+				46,
+				1060013,
 				1
 			}
 		}

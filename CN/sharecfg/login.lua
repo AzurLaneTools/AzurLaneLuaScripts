@@ -84,7 +84,8 @@ pg.login.all = {
 	88,
 	89,
 	90,
-	91
+	91,
+	25091
 }
 pg.base = pg.base or {}
 pg.base.login = {}
@@ -93,6 +94,7 @@ pg.base.login = {}
 	pg.base.login[1] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 1,
 		login_static = "login",
 		login_cri = "",
@@ -128,6 +130,7 @@ pg.base.login = {}
 	pg.base.login[2] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 2,
 		login_static = "login",
 		login_cri = "",
@@ -163,6 +166,7 @@ pg.base.login = {}
 	pg.base.login[3] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 3,
 		login_static = "login",
 		login_cri = "",
@@ -198,6 +202,7 @@ pg.base.login = {}
 	pg.base.login[4] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 4,
 		login_static = "login",
 		login_cri = "",
@@ -233,6 +238,7 @@ pg.base.login = {}
 	pg.base.login[5] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 5,
 		login_static = "login_0921",
 		login_cri = "",
@@ -268,6 +274,7 @@ pg.base.login = {}
 	pg.base.login[7] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 7,
 		login_static = "login_newyear",
 		login_cri = "",
@@ -303,6 +310,7 @@ pg.base.login = {}
 	pg.base.login[8] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 8,
 		login_static = "login",
 		login_cri = "loginbg",
@@ -338,6 +346,7 @@ pg.base.login = {}
 	pg.base.login[9] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 9,
 		login_static = "login_0214",
 		login_cri = "",
@@ -373,6 +382,7 @@ pg.base.login = {}
 	pg.base.login[10] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 10,
 		login_static = "login",
 		login_cri = "",
@@ -408,6 +418,7 @@ pg.base.login = {}
 	pg.base.login[11] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 11,
 		login_static = "",
 		login_cri = "loginbg_0401",
@@ -443,6 +454,7 @@ pg.base.login = {}
 	pg.base.login[13] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 13,
 		login_static = "login",
 		login_cri = "",
@@ -478,6 +490,7 @@ pg.base.login = {}
 	pg.base.login[14] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 14,
 		login_static = "login",
 		login_cri = "",
@@ -513,6 +526,7 @@ pg.base.login = {}
 	pg.base.login[15] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 15,
 		login_static = "login",
 		login_cri = "",
@@ -548,6 +562,7 @@ pg.base.login = {}
 	pg.base.login[16] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 16,
 		login_static = "login",
 		login_cri = "",
@@ -583,6 +598,7 @@ pg.base.login = {}
 	pg.base.login[19] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 19,
 		login_static = "login_ryza",
 		login_cri = "",
@@ -618,6 +634,7 @@ pg.base.login = {}
 	pg.base.login[20] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 20,
 		login_static = "login",
 		login_cri = "",
@@ -652,6 +669,7 @@ pg.base.login = {}
 	}
 	pg.base.login[21] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 21,
 		login_static = "login",
 		login_cri = "",
@@ -713,6 +731,7 @@ pg.base.login = {}
 	}
 	pg.base.login[22] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 22,
 		login_static = "login",
 		login_cri = "",
@@ -774,6 +793,7 @@ pg.base.login = {}
 	}
 	pg.base.login[23] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 23,
 		login_static = "login",
 		login_cri = "loginbg_0223",
@@ -836,6 +856,7 @@ pg.base.login = {}
 	pg.base.login[24] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 24,
 		login_static = "login",
@@ -845,6 +866,7 @@ pg.base.login = {}
 	pg.base.login[27] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 27,
 		login_static = "login",
@@ -853,6 +875,7 @@ pg.base.login = {}
 	}
 	pg.base.login[28] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 28,
 		login_static = "login",
 		login_cri = "",
@@ -915,6 +938,7 @@ pg.base.login = {}
 	pg.base.login[29] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 29,
 		login_static = "login",
 		login_cri = "",
@@ -950,6 +974,7 @@ pg.base.login = {}
 	pg.base.login[30] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 30,
 		login_static = "login",
 		login_cri = "",
@@ -984,6 +1009,7 @@ pg.base.login = {}
 	}
 	pg.base.login[31] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 31,
 		login_static = "login_0817_2",
 		login_cri = "loginbg",
@@ -1046,6 +1072,7 @@ pg.base.login = {}
 	pg.base.login[32] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 32,
 		login_static = "login_0817_1",
@@ -1055,6 +1082,7 @@ pg.base.login = {}
 	pg.base.login[33] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 33,
 		login_static = "login",
 		login_cri = "",
@@ -1090,6 +1118,7 @@ pg.base.login = {}
 	pg.base.login[34] = {
 		op_play = 1,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 34,
 		login_static = "login",
@@ -1098,6 +1127,7 @@ pg.base.login = {}
 	}
 	pg.base.login[35] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 35,
 		login_static = "login_0921",
 		login_cri = "",
@@ -1159,6 +1189,7 @@ pg.base.login = {}
 	}
 	pg.base.login[36] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 36,
 		login_static = "login",
 		login_cri = "",
@@ -1220,6 +1251,7 @@ pg.base.login = {}
 	}
 	pg.base.login[37] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 37,
 		login_static = "login_0929",
 		login_cri = "",
@@ -1281,6 +1313,7 @@ pg.base.login = {}
 	}
 	pg.base.login[38] = {
 		op_play = 1,
+		effective_channel = 0,
 		date = "stop",
 		id = 38,
 		login_static = "login",
@@ -1317,6 +1350,7 @@ pg.base.login = {}
 	pg.base.login[39] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 39,
 		login_static = "login",
 		login_cri = "",
@@ -1351,6 +1385,7 @@ pg.base.login = {}
 	}
 	pg.base.login[40] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 40,
 		login_static = "login",
 		login_cri = "",
@@ -1412,6 +1447,7 @@ pg.base.login = {}
 	}
 	pg.base.login[41] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 41,
 		login_static = "login_1031",
 		login_cri = "",
@@ -1473,6 +1509,7 @@ pg.base.login = {}
 	}
 	pg.base.login[42] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 42,
 		login_static = "login",
 		login_cri = "",
@@ -1535,6 +1572,7 @@ pg.base.login = {}
 	pg.base.login[43] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 43,
 		login_static = "login",
 		login_cri = "",
@@ -1570,6 +1608,7 @@ pg.base.login = {}
 	pg.base.login[44] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 44,
 		login_static = "login",
@@ -1579,6 +1618,7 @@ pg.base.login = {}
 	pg.base.login[45] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 45,
 		login_static = "login",
@@ -1588,6 +1628,7 @@ pg.base.login = {}
 	pg.base.login[46] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 46,
 		login_static = "login",
 		login_cri = "",
@@ -1623,6 +1664,7 @@ pg.base.login = {}
 	pg.base.login[47] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 47,
 		login_static = "login",
 		login_cri = "",
@@ -1658,6 +1700,7 @@ pg.base.login = {}
 	pg.base.login[48] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 48,
 		login_static = "login",
 		login_cri = "",
@@ -1693,6 +1736,7 @@ pg.base.login = {}
 	pg.base.login[49] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 49,
 		login_static = "login_0401",
 		login_cri = "",
@@ -1728,6 +1772,7 @@ pg.base.login = {}
 	pg.base.login[52] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 52,
 		login_static = "login",
 		login_cri = "",
@@ -1763,6 +1808,7 @@ pg.base.login = {}
 	pg.base.login[53] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 53,
 		login_static = "login",
 		login_cri = "",
@@ -1798,6 +1844,7 @@ pg.base.login = {}
 	pg.base.login[54] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 54,
 		login_static = "login",
 		login_cri = "",
@@ -1833,6 +1880,7 @@ pg.base.login = {}
 	pg.base.login[55] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 55,
 		login_static = "login",
 		login_cri = "",
@@ -1868,6 +1916,7 @@ pg.base.login = {}
 	pg.base.login[56] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 56,
 		login_static = "login",
 		login_cri = "",
@@ -1902,6 +1951,7 @@ pg.base.login = {}
 	}
 	pg.base.login[57] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 57,
 		login_static = "login",
 		login_cri = "",
@@ -1964,6 +2014,7 @@ pg.base.login = {}
 	pg.base.login[59] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 59,
 		login_static = "login",
 		login_cri = "",
@@ -1999,6 +2050,7 @@ pg.base.login = {}
 	pg.base.login[60] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 60,
 		login_static = "login",
 		login_cri = "",
@@ -2034,6 +2086,7 @@ pg.base.login = {}
 	pg.base.login[61] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 61,
 		login_static = "login",
 		login_cri = "",
@@ -2069,6 +2122,7 @@ pg.base.login = {}
 	pg.base.login[62] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 62,
 		login_static = "login",
 		login_cri = "",
@@ -2103,6 +2157,7 @@ pg.base.login = {}
 	}
 	pg.base.login[63] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 63,
 		login_static = "login_0227",
 		login_cri = "",
@@ -2165,6 +2220,7 @@ pg.base.login = {}
 	pg.base.login[64] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 64,
 		login_static = "login",
 		login_cri = "",
@@ -2200,6 +2256,7 @@ pg.base.login = {}
 	pg.base.login[65] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 65,
 		login_static = "login_0401",
 		login_cri = "",
@@ -2235,6 +2292,7 @@ pg.base.login = {}
 	pg.base.login[66] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 66,
 		login_static = "login",
@@ -2244,6 +2302,7 @@ pg.base.login = {}
 	pg.base.login[67] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 67,
 		login_static = "login_0424",
 		login_cri = "",
@@ -2279,6 +2338,7 @@ pg.base.login = {}
 	pg.base.login[68] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 68,
 		login_static = "login",
 		login_cri = "",
@@ -2314,6 +2374,7 @@ pg.base.login = {}
 	pg.base.login[69] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 69,
 		login_static = "login",
@@ -2323,6 +2384,7 @@ pg.base.login = {}
 	pg.base.login[70] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 70,
 		login_static = "login",
 		login_cri = "",
@@ -2358,6 +2420,7 @@ pg.base.login = {}
 	pg.base.login[71] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 71,
 		login_static = "login",
@@ -2367,6 +2430,7 @@ pg.base.login = {}
 	pg.base.login[72] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 72,
 		login_static = "login",
@@ -2376,6 +2440,7 @@ pg.base.login = {}
 	pg.base.login[73] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 73,
 		login_static = "login",
@@ -2385,6 +2450,7 @@ pg.base.login = {}
 	pg.base.login[74] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 74,
 		login_static = "login",
@@ -2394,6 +2460,7 @@ pg.base.login = {}
 	pg.base.login[75] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 75,
 		login_static = "login",
 		login_cri = "",
@@ -2429,6 +2496,7 @@ pg.base.login = {}
 	pg.base.login[76] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 76,
 		login_static = "login",
 		login_cri = "",
@@ -2464,6 +2532,7 @@ pg.base.login = {}
 	pg.base.login[77] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 77,
 		login_static = "login",
 		login_cri = "",
@@ -2499,6 +2568,7 @@ pg.base.login = {}
 	pg.base.login[78] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 78,
 		login_static = "login",
@@ -2508,6 +2578,7 @@ pg.base.login = {}
 	pg.base.login[79] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 79,
 		login_static = "login",
@@ -2517,6 +2588,7 @@ pg.base.login = {}
 	pg.base.login[80] = {
 		op_play = 1,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 80,
 		login_static = "login_0101",
@@ -2526,6 +2598,7 @@ pg.base.login = {}
 	pg.base.login[81] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 81,
 		login_static = "login",
 		login_cri = "",
@@ -2560,6 +2633,7 @@ pg.base.login = {}
 	}
 	pg.base.login[82] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 82,
 		login_static = "login",
 		login_cri = "",
@@ -2622,6 +2696,7 @@ pg.base.login = {}
 	pg.base.login[83] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 83,
 		login_static = "login_qiye",
 		login_cri = "",
@@ -2656,6 +2731,7 @@ pg.base.login = {}
 	}
 	pg.base.login[84] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 84,
 		login_static = "login",
 		login_cri = "",
@@ -2718,6 +2794,7 @@ pg.base.login = {}
 	pg.base.login[85] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		id = 85,
 		login_static = "login_qiye",
 		login_cri = "",
@@ -2753,6 +2830,7 @@ pg.base.login = {}
 	pg.base.login[86] = {
 		op_play = 0,
 		op_time = "",
+		effective_channel = 0,
 		date = "stop",
 		id = 86,
 		login_static = "login",
@@ -2761,6 +2839,7 @@ pg.base.login = {}
 	}
 	pg.base.login[87] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 87,
 		login_static = "login",
 		login_cri = "",
@@ -2822,6 +2901,7 @@ pg.base.login = {}
 	}
 	pg.base.login[88] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 88,
 		login_static = "login_0401",
 		login_cri = "",
@@ -2883,6 +2963,7 @@ pg.base.login = {}
 	}
 	pg.base.login[89] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 89,
 		login_static = "login",
 		login_cri = "",
@@ -2944,6 +3025,7 @@ pg.base.login = {}
 	}
 	pg.base.login[90] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 90,
 		login_static = "login_doa",
 		login_cri = "",
@@ -3005,8 +3087,71 @@ pg.base.login = {}
 	}
 	pg.base.login[91] = {
 		op_play = 1,
+		effective_channel = 0,
 		id = 91,
 		login_static = "login",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			"timer",
+			{
+				{
+					2026,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.login[25091] = {
+		op_play = 1,
+		effective_channel = 25,
+		id = 25091,
+		login_static = "login_qiye",
 		login_cri = "",
 		bgm = "",
 		date = {

@@ -586,6 +586,7 @@ pg.player_resource.all = {
 	3021,
 	3022,
 	3023,
+	3024,
 	3106,
 	3137,
 	4001,
@@ -2167,6 +2168,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	synchronize_ark = {
 		3001
+	},
+	synchronize_bulisituoer = {
+		3024
 	},
 	synchronize_canglong = {
 		3005
@@ -5527,6 +5531,11 @@ end)()
 		name = "synchronize_leigensibao",
 		itemid = 21922
 	}
+	pg.base.player_resource[3024] = {
+		id = 3024,
+		name = "synchronize_bulisituoer",
+		itemid = 21923
+	}
 	pg.base.player_resource[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -5607,13 +5616,13 @@ end)()
 		name = "Battlepass_14",
 		itemid = 59510
 	}
+end)()
+(function ()
 	pg.base.player_resource[4015] = {
 		id = 4015,
 		name = "Battlepass_15",
 		itemid = 59525
 	}
-end)()
-(function ()
 	pg.base.player_resource[4016] = {
 		id = 4016,
 		name = "Battlepass_16",

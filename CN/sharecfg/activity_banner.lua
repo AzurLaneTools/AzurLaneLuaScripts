@@ -12,6 +12,7 @@ pg.activity_banner.all = {
 	7,
 	8,
 	9,
+	10,
 	90,
 	91,
 	95,
@@ -32,10 +33,11 @@ pg.activity_banner.get_id_list_by_type = {
 		5,
 		6,
 		7,
-		8
+		9,
+		10
 	},
 	[3] = {
-		9
+		8
 	},
 	[9] = {
 		90,
@@ -74,8 +76,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					5,
-					28
+					6,
+					8
 				},
 				{
 					0,
@@ -87,7 +89,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					4
+					9
 				},
 				{
 					23,
@@ -100,6 +102,76 @@ pg.base.activity_banner = {}
 	pg.base.activity_banner[2] = {
 		type = 2,
 		id = 2,
+		pic = "temp9",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[3] = {
+		type = 2,
+		id = 3,
+		pic = "temp11",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[4] = {
+		type = 2,
+		id = 4,
 		pic = "temp2",
 		param = {
 			"scene get boat",
@@ -135,9 +207,9 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[3] = {
+	pg.base.activity_banner[5] = {
 		type = 2,
-		id = 3,
+		id = 5,
 		pic = "temp3",
 		param = {
 			"scene core activity",
@@ -172,9 +244,9 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[4] = {
+	pg.base.activity_banner[6] = {
 		type = 2,
-		id = 4,
+		id = 6,
 		pic = "temp4",
 		param = {
 			"scene charge",
@@ -209,102 +281,66 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[5] = {
+	pg.base.activity_banner[7] = {
 		type = 2,
-		id = 5,
+		id = 7,
 		pic = "temp5",
 		param = {
 			"scene charge",
 			{
-				wrap = 4
+				wrap = 2
 			}
 		},
 		time = {
-			{
-				{
-					2026,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[6] = {
-		type = 2,
-		id = 6,
-		pic = "temp6",
-		param = {
-			"dorm 3d select"
-		},
-		time = {
-			{
-				{
-					2026,
-					5,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[7] = {
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"crusing"
-		},
-		time = {
-			{
-				{
-					2026,
-					6,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2026,
 					6,
 					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[8] = {
+		param = "50630",
+		type = 3,
+		id = 8,
+		pic = "temp6",
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					12
 				},
 				{
 					12,
@@ -314,9 +350,43 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[8] = {
+	pg.base.activity_banner[9] = {
 		type = 2,
-		id = 8,
+		id = 9,
+		pic = "temp7",
+		param = {
+			"metacharacter"
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					12
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[10] = {
+		type = 2,
+		id = 10,
 		pic = "temp8",
 		param = {
 			"scene core activity",
@@ -342,38 +412,6 @@ pg.base.activity_banner = {}
 					2026,
 					6,
 					12
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[9] = {
-		param = "51013",
-		type = 3,
-		id = 9,
-		pic = "temp9",
-		time = {
-			{
-				{
-					2026,
-					5,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					5
 				},
 				{
 					12,

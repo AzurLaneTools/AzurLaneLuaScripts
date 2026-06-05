@@ -25,7 +25,7 @@ slot0.execute = function(slot0, slot1)
 
 			slot7 = uv6:GetCharacterAgency():GetShipById(slot3.ship_id)
 
-			slot7:UpdateEnergy(slot7:GetCurrentEnergy() - slot5.stamina_cost * uv5)
+			slot7:UpdateEnergy(slot7:GetCurrentEnergy() - math.floor(slot5.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(slot3.ship_id, uv1))) * uv5)
 			slot7:UpdateEnergyBeginRecoverTime(slot3:GetFinishTime())
 			uv7:sendNotification(GAME.ISLAND_FINISH_DELEGATION_DONE, {
 				slotId = uv2

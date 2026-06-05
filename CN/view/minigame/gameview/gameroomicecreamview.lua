@@ -126,7 +126,7 @@ slot0.initUI = function(slot0)
 	onButton(slot0, slot0.mainUI:Find("bg/btn_help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.icecreamgame_tip.tip
+			helps = uv0:getGameRoomData().game_help
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.mainUI:Find("bg/btn_start"), function ()

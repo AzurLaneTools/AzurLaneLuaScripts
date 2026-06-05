@@ -1410,7 +1410,7 @@ slot0.initUI = function(slot0)
 	onButton(slot0, findTF(slot0.menuUI, "btnRule"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.five_duomaomao.tip
+			helps = uv0:getGameRoomData().game_help
 		})
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0.menuUI, "btnStart"), function ()
