@@ -4,25 +4,6 @@ slot0.word_legal_template_2 = {}
 slot1 = slot0.word_legal_template_2
 
 temp = function()
-	uv0["부"] = {
-		["시"] = {
-			this = true
-		},
-		["아"] = {
-			[" "] = {
-				["벨"] = {
-					["루"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["헤"] = {
 		["이"] = {
 			["즐"] = {
@@ -1331,6 +1312,32 @@ temp = function()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["몬"] = {
+		["트"] = {
+			["필"] = {
+				["리"] = {
+					["어"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["덴"] = {
+		["버"] = {
+			this = true
 		}
 	}
 end

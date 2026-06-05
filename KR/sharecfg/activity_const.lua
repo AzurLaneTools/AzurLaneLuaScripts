@@ -1213,3 +1213,8 @@ end)()
 		act_id = 51005
 	}
 end)()
+(function ()
+	pg.base.activity_const.MALL_MAIN_ACTIVITY_ID = {
+		act_id = 50619
+	}
+end)()

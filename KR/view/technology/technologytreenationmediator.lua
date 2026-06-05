@@ -35,12 +35,16 @@ end
 slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
+	getProxy(TechnologyNationProxy):refreshRedPoint()
+
 	if slot1:getName() == TechnologyConst.START_TEC_BTN_SUCCESS then
 		slot0.viewComponent:updateTecListData()
 		slot0.viewComponent:updateTecItem(slot3)
+		slot0.viewComponent:updateAllTecItemRp()
 	elseif slot2 == TechnologyConst.FINISH_TEC_SUCCESS then
 		slot0.viewComponent:updateTecListData()
 		slot0.viewComponent:updateTecItem(slot3)
+		slot0.viewComponent:updateAllTecItemRp()
 	elseif slot2 == TechnologyConst.CLOSE_TECHNOLOGY_NATION_LAYER_NOTIFICATION then
 		slot0.viewComponent:closeMyself()
 	elseif slot2 == TechnologyConst.GOT_TEC_CAMP_AWARD then
@@ -48,6 +52,7 @@ slot0.handleNotification = function(slot0, slot1)
 
 		slot0.viewComponent:updateTecItem(slot3.groupID)
 		slot0.viewComponent:updateOneStepBtn()
+		slot0.viewComponent:updateAllTecItemRp()
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awardList)
 	elseif slot2 == TechnologyConst.GOT_TEC_CAMP_AWARD_ONESTEP then
 		slot0.viewComponent:updateTecItemList()

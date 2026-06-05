@@ -7,11 +7,29 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.preload = function(slot0, slot1)
-	slot0._preloadBGSprite = nil
+	slot0._preloadPicType = nil
+	slot0._preloadPicPath = nil
+	slot0._preloadPicSprite = nil
+	slot0._preloadBgFitMode = PlayerPrefs.GetInt("bgFitMode", 0)
+	slot2, slot3 = nil
 
-	if slot0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE and "bg/star_level_bg_211" or uv0.GetRandomBGPath() then
-		LoadSpriteAsync(slot2, function (slot0)
-			uv0._preloadBGSprite = slot0
+	if slot0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE then
+		slot2 = AppreciatePicConst.TYPE_GALLERY
+		slot3 = "bg/star_level_bg_211"
+	elseif AppreciatePicConst.getRandomLoadingPic() then
+		slot2 = slot4.type
+		slot3 = slot4.path
+	else
+		slot2 = AppreciatePicConst.TYPE_GALLERY
+		slot3 = "loadingbg/login"
+	end
+
+	slot0._preloadPicType = slot2
+	slot0._preloadPicPath = slot3
+
+	if slot3 then
+		LoadSpriteAsync(slot3, function (slot0)
+			uv0._preloadPicSprite = slot0
 
 			uv1()
 		end)
@@ -35,15 +53,24 @@ slot0.init = function(slot0)
 		uv0:emit(CombatLoadMediator.FINISH, uv0._loadObs)
 	end)
 
-	slot3 = slot0._tf:Find("bg")
-	slot4 = slot0._tf:Find("bg2")
-	slot0.bg = PlayerPrefs.GetInt("bgFitMode", 0) == 1 and slot4 or slot3
+	slot0.bg = (slot0._preloadBgFitMode or PlayerPrefs.GetInt("bgFitMode", 0)) == 1 and slot0._tf:Find("GalleryFit") or slot0._tf:Find("GalleryEnv")
+	slot6 = slot0._tf:Find("Manga")
+	slot0.mangaPicImg = slot0._tf:Find("Manga/Pic")
 
-	SetActive(slot3, slot5 ~= 1)
-	SetActive(slot4, slot5 == 1)
+	slot7 = function(slot0)
+		SetActive(uv0, uv1 ~= 1)
+		SetActive(uv2, uv1 == 1)
+		SetActive(uv3, false)
+		setImageSprite(uv4.bg, slot0 or LoadSprite("loadingbg/login"))
+	end
 
-	if slot0._preloadBGSprite then
-		setImageSprite(slot0.bg, slot0._preloadBGSprite)
+	if slot0._preloadPicType == AppreciatePicConst.TYPE_MANGA and slot0._preloadPicSprite then
+		SetActive(slot3, false)
+		SetActive(slot4, false)
+		SetActive(slot6, true)
+		setImageSprite(slot0.mangaPicImg, slot0._preloadPicSprite)
+	else
+		slot7(slot0._preloadPicSprite)
 	end
 
 	slot0._tipsText = slot1:Find("tipsText"):GetComponent(typeof(Text))
@@ -136,11 +163,23 @@ slot0.Preload = function(slot0)
 	end
 
 	if BATTLE_DEBUG and BATTLE_FREE_SUBMARINE then
-		for slot13, slot14 in ipairs(getProxy(FleetProxy):getFleetById(11):getTeamByName(TeamType.Submarine)) do
-			table.insert(loadShip, slot2:getShipById(slot14))
+		slot7 = {}
+
+		for slot14, slot15 in ipairs(getProxy(FleetProxy):getFleetById(11):getTeamByName(TeamType.Submarine)) do
+			table.insert(slot7, slot2:getShipById(slot15))
 		end
 
-		uv0.addCommanderBuffRes(slot8:buildBattleBuffList())
+		slot11, slot12 = slot1.GetPlayerShipResource(slot7, slot0.contextData.system)
+
+		for slot16, slot17 in ipairs(slot11) do
+			slot1:AddPreloadResource(slot17)
+		end
+
+		for slot16, slot17 in ipairs(slot12) do
+			slot1:AddPreloadCV(slot17)
+		end
+
+		uv0.addCommanderBuffRes(slot9:buildBattleBuffList())
 	end
 
 	slot8 = 0

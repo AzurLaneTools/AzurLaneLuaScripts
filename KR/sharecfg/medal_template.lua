@@ -128,7 +128,9 @@ pg.medal_template.all = {
 	200121,
 	200131,
 	200141,
-	200151
+	200151,
+	200161,
+	200171
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2896,6 +2898,48 @@ end)()
 		rank = 1,
 		id = 200151,
 		explain1 = "「유람자 모집 계획」",
+		explain2 = "이벤트"
+	}
+	pg.base.medal_template[200161] = {
+		target_id = "50607",
+		name = "성인 동맹 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "신성 연합 제국에서 수여하는 기념 훈장. 검은 영역을 물리친 위대한 승리를 기념하며\n——신의 빛이 동맹의 영원함을 지켜보리라.",
+		next = 0,
+		icon = "9161",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9161",
+		condition = "「성인 전의 동맹」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200161,
+		explain1 = "「성인 전의 동맹」",
+		explain2 = "이벤트"
+	}
+	pg.base.medal_template[200171] = {
+		target_id = "50616",
+		name = "호화로운 휴일 기념장",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "골든 베이를 마음껏 즐기는 것이야말로 바캉스를 만끽하는 방법♪\n——그 여정은 놀라움과 고급스러움으로 가득 차 있으리♪",
+		next = 0,
+		icon = "9171",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9171",
+		condition = "「럭셔리! 드림! 골든 베이」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200171,
+		explain1 = "「럭셔리! 드림! 골든 베이」",
 		explain2 = "이벤트"
 	}
 end)()

@@ -87,21 +87,11 @@ slot0.OnQuickTaskComplete = function(slot0, slot1, slot2)
 	if slot0.result == 0 then
 		getProxy(BagProxy):removeItemById(tonumber(Item.QUICK_TASK_PASS_TICKET_ID), tonumber(slot1:getConfig("quick_finish")))
 		QuickTaskCommand.AddGuildLivness(slot1)
-
-		slot7 = PlayerConst.addTranDrop(slot0.award_list, {
-			taskId = slot1.id
-		})
-
-		if slot1:getConfig("type") ~= 8 then
-			slot3:removeTask(slot1)
-		else
-			slot1.submitTime = 1
-
-			slot3:updateTask(slot1)
-		end
-
+		SubmitTaskCommand.OnSubmitSuccess(slot1)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("battlepass_task_quickfinish3"))
-		pg.m02:sendNotification(GAME.SUBMIT_TASK_DONE, slot7, {
+		pg.m02:sendNotification(GAME.SUBMIT_TASK_DONE, PlayerConst.addTranDrop(slot0.award_list, {
+			taskId = slot1.id
+		}), {
 			slot1.id
 		})
 

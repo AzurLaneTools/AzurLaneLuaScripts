@@ -55,7 +55,7 @@ slot0.listNotificationInterests = function(slot0)
 		TaskProxy.TASK_ADDED,
 		TaskProxy.TASK_UPDATED,
 		TaskProxy.TASK_REMOVED,
-		TaskProxy.TASK_FINISH,
+		TaskProxy.TASK_DELETE,
 		GAME.SUBMIT_TASK_DONE,
 		ActivityProxy.ACTIVITY_UPDATED
 	}
@@ -64,7 +64,7 @@ end
 slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == TaskProxy.TASK_ADDED or slot2 == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED or slot2 == TaskProxy.TASK_FINISH then
+	if slot1:getName() == TaskProxy.TASK_ADDED or slot2 == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED or slot2 == TaskProxy.TASK_DELETE then
 		slot0.viewComponent:setTaskList(slot0:getTaskByIds())
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then
 		slot5 = getProxy(ActivityProxy):getActivityById(ActivityConst.ANNIVERSARY_TASK_LIST_ID)

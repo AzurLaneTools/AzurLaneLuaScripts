@@ -25,18 +25,14 @@ pg.activity_banner.all = {
 	202
 }
 pg.activity_banner.get_id_list_by_type = {
-	{
-		7
-	},
-	{
+	[2] = {
 		1,
 		2,
+		3,
 		4,
 		5,
-		6
-	},
-	{
-		3,
+		6,
+		7,
 		8,
 		9
 	},
@@ -67,39 +63,19 @@ pg.base.activity_banner = {}
 
 (function ()
 	pg.base.activity_banner[1] = {
-		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
-		}
-	}
-	pg.base.activity_banner[2] = {
-		time = "stop",
-		type = 2,
-		id = 2,
-		pic = "temp2",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		}
-	}
-	pg.base.activity_banner[3] = {
-		param = "51005",
-		type = 3,
-		id = 3,
-		pic = "temp3",
+		},
 		time = {
 			{
 				{
 					2026,
-					5,
-					28
+					6,
+					5
 				},
 				{
 					0,
@@ -111,7 +87,82 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[2] = {
+		type = 2,
+		id = 2,
+		pic = "temp2",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
 					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					28
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[3] = {
+		type = 2,
+		id = 3,
+		pic = "temp3",
+		param = {
+			"scene core activity",
+			{
+				coreName = "GeZiURCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					28
 				},
 				{
 					12,
@@ -122,7 +173,6 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[4] = {
-		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -131,17 +181,68 @@ pg.base.activity_banner = {}
 			{
 				wrap = 4
 			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	}
 	pg.base.activity_banner[5] = {
-		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
 		param = {
-			"scene shop",
+			"scene charge",
 			{
-				warp = "shopstreet"
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	}
@@ -150,17 +251,17 @@ pg.base.activity_banner = {}
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene core activity",
+			"scene shop",
 			{
-				coreName = "OutPostCoreActivityUI"
+				warp = "shopstreet"
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					5,
-					28
+					6,
+					5
 				},
 				{
 					0,
@@ -172,34 +273,29 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					5
+					27
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	}
 	pg.base.activity_banner[7] = {
-		param = "https://game.bilibili.com/blhx/2026-ninth-anniversary/h5",
-		time = "stop",
-		type = 1,
+		type = 2,
 		id = 7,
-		pic = "temp7"
-	}
-	pg.base.activity_banner[8] = {
-		param = "51001",
-		type = 3,
-		id = 8,
-		pic = "temp8",
+		pic = "temp7",
+		param = {
+			"scene court yard"
+		},
 		time = {
 			{
 				{
 					2026,
-					5,
-					28
+					6,
+					5
 				},
 				{
 					0,
@@ -211,7 +307,44 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[8] = {
+		type = 2,
+		id = 8,
+		pic = "temp8",
+		param = {
+			"scene core activity",
+			{
+				coreName = "AnniversaryNineCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
 					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					28
 				},
 				{
 					12,
@@ -222,16 +355,18 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[9] = {
-		param = "51002",
-		type = 3,
+		type = 2,
 		id = 9,
 		pic = "temp9",
+		param = {
+			"crusing"
+		},
 		time = {
 			{
 				{
 					2026,
-					5,
-					28
+					6,
+					8
 				},
 				{
 					0,
@@ -243,7 +378,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					5
+					28
 				},
 				{
 					12,
@@ -276,10 +411,35 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	}
 	pg.base.activity_banner[100] = {
 		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",

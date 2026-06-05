@@ -949,3 +949,22 @@ temp = function()
 end
 
 temp()
+
+temp = function()
+	uv0["부"] = {
+		["시"] = {
+			this = true
+		},
+		["아"] = {
+			[" "] = {
+				["벨"] = {
+					["루"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()

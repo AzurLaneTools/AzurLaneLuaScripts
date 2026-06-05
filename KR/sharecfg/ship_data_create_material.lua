@@ -228,15 +228,13 @@ pg.base.ship_data_create_material = {}
 			"<color=#3dc6ff>R</color>: 51%",
 			"노멀: 28.8%",
 			" ",
-			"<color=#ff5e39>소비에츠키 소유즈</color>: 1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>괴츠 폰 베를리힝겐</color>: 1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>오그네보이</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>프린츠 모리츠</color>: 2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>파먀티 메르쿠리야·META</color>: 0.5%",
+			"<color=#ffde38>엘베·META</color>: 0.5%",
 			" ",
-			"<color=#d797ff>폴타바</color>: 2.5%(<color=#92fc63>up!</color>)",
-			"",
-			"※같은 레어도의 건조 획득 확률은 동일합니다."
+			"<color=#d797ff>Z15</color>: 2.5%(<color=#92fc63>up!</color>)"
 		}
 	}
 	pg.base.ship_data_create_material[11] = {

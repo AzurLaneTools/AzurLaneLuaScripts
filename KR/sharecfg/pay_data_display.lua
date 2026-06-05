@@ -109,6 +109,8 @@ pg.pay_data_display.all = {
 	9012,
 	9013,
 	9014,
+	9016,
+	9017,
 	1000,
 	1001,
 	1002,
@@ -137,6 +139,7 @@ pg.pay_data_display.all = {
 	1025,
 	1026,
 	1027,
+	1028,
 	1304,
 	2001,
 	2002,
@@ -203,6 +206,9 @@ pg.pay_data_display.all = {
 	2074,
 	2075,
 	2076,
+	2079,
+	2080,
+	2081,
 	5011,
 	5012,
 	5013,
@@ -12477,11 +12483,11 @@ end)()
 	}
 	pg.base.pay_data_display[9011] = {
 		picture = "fudai32",
-		name = "2026 춘절 복주머니·I",
+		name = "춘절 복주머니 2026A",
 		type = 1,
 		second_text = "대량의 보상",
 		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
-		subject = "2026 춘절 복주머니·I",
+		subject = "춘절 복주머니 2026A",
 		first_pay_double = 0,
 		gem = 0,
 		tag = 2,
@@ -12499,7 +12505,7 @@ end)()
 		extra_gem = 0,
 		id = 9011,
 		airijp_id = "com.yostarjp.azurlane.diamond193",
-		name_display = "2026 춘절 복주머니·I",
+		name_display = "춘절 복주머니 2026A",
 		first_text = "랜덤 스킨과 다이아",
 		akashi_pick = 1,
 		skin_inquire_relation = 86224,
@@ -12611,11 +12617,11 @@ end)()
 	}
 	pg.base.pay_data_display[9012] = {
 		picture = "fudai21",
-		name = "2025 춘절 복주머니·I 복각",
+		name = "춘절 복주머니 2025A (복각)",
 		type = 1,
 		second_text = "대량의 보상",
 		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
-		subject = "2025 춘절 복주머니·I 복각",
+		subject = "춘절 복주머니 2025A (복각)",
 		first_pay_double = 0,
 		gem = 0,
 		tag = 2,
@@ -12633,7 +12639,7 @@ end)()
 		extra_gem = 0,
 		id = 9012,
 		airijp_id = "com.yostarjp.azurlane.diamond194",
-		name_display = "2025 춘절 복주머니·I 복각",
+		name_display = "춘절 복주머니 2025A (복각)",
 		first_text = "랜덤 스킨과 다이아",
 		akashi_pick = 1,
 		skin_inquire_relation = 86210,
@@ -12745,11 +12751,11 @@ end)()
 	}
 	pg.base.pay_data_display[9013] = {
 		picture = "fudai33",
-		name = "2026 춘절 복주머니·II",
+		name = "춘절 복주머니 2026B",
 		type = 1,
 		second_text = "대량의 보상",
 		descrip = "함선 스킨 1개, 「다이아」×2026 등의 아이템을 획득할 수 있습니다.",
-		subject = "2026 춘절 복주머니·II",
+		subject = "춘절 복주머니 2026B",
 		first_pay_double = 0,
 		gem = 0,
 		tag = 2,
@@ -12767,7 +12773,7 @@ end)()
 		extra_gem = 0,
 		id = 9013,
 		airijp_id = "com.yostarjp.azurlane.diamond195",
-		name_display = "2026 춘절 복주머니·II",
+		name_display = "춘절 복주머니 2026B",
 		first_text = "랜덤 스킨",
 		akashi_pick = 1,
 		skin_inquire_relation = 86225,
@@ -12879,11 +12885,11 @@ end)()
 	}
 	pg.base.pay_data_display[9014] = {
 		picture = "fudai22",
-		name = "2025 춘절 복주머니·II 복각",
+		name = "춘절 복주머니 2025B (복각)",
 		type = 1,
 		second_text = "대량의 보상",
 		descrip = "함선 스킨 1개, 「다이아」×2025 등의 아이템을 획득할 수 있습니다.",
-		subject = "2025 춘절 복주머니·II 복각",
+		subject = "춘절 복주머니 2025B (복각)",
 		first_pay_double = 0,
 		gem = 0,
 		tag = 2,
@@ -12901,7 +12907,7 @@ end)()
 		extra_gem = 0,
 		id = 9014,
 		airijp_id = "com.yostarjp.azurlane.diamond196",
-		name_display = "2025 춘절 복주머니·II 복각",
+		name_display = "춘절 복주머니 2025B (복각)",
 		first_text = "랜덤 스킨",
 		akashi_pick = 1,
 		skin_inquire_relation = 86211,
@@ -13002,6 +13008,274 @@ end)()
 			{
 				2,
 				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	}
+	pg.base.pay_data_display[9016] = {
+		picture = "fudai35",
+		name = "수영복 패키지(2026)·I",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "랜덤 스킨*1, 다이아×2026 등 획득 가능",
+		subject = "수영복 패키지(2026)·I",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift186",
+		extra_gem = 0,
+		id = 9016,
+		airijp_id = "com.yostarjp.azurlane.diamond203",
+		name_display = "수영복 패키지(2026)·I",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86227,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86227,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81235,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86227,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	}
+	pg.base.pay_data_display[9017] = {
+		picture = "fudai24",
+		name = "수영복 패키지(2025)·I 복각",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "랜덤 스킨*1, 다이아×2025 등 획득 가능",
+		subject = "수영복 패키지(2025)·I 복각",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift187",
+		extra_gem = 0,
+		id = 9017,
+		airijp_id = "com.yostarjp.azurlane.diamond204",
+		name_display = "수영복 패키지(2025)·I 복각",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86213,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81213,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86213,
 				1
 			},
 			{
@@ -15391,6 +15665,91 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+	pg.base.pay_data_display[1028] = {
+		picture = "battlepass_1",
+		name = "특허 투어 패스(26.6)",
+		type = 0,
+		second_text = "",
+		descrip = "구매 시 월드 투어의 투어 PT 1,500 획득 및 SP 보상 오픈",
+		subject = "특허 투어 패스(26.6)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 12000,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift190",
+		extra_gem = 0,
+		id = 1028,
+		airijp_id = "com.yostarjp.azurlane.seasonpass29",
+		name_display = "특허 투어 패스(26.6)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4029,
+				1500
+			},
+			{
+				8,
+				65117,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7029,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
 	pg.base.pay_data_display[1304] = {
 		picture = "battlepass_winter_1",
 		name = "봄날 특허 투어 패스",
@@ -15499,7 +15858,7 @@ end)()
 		id_str = "alkrgift32",
 		extra_gem = 0,
 		id = 2001,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "PR함 개발 패키지(제1기)",
 		first_text = "특별계획함 ",
 		akashi_pick = 1,
@@ -15766,7 +16125,7 @@ end)()
 		id_str = "alkrgift35",
 		extra_gem = 0,
 		id = 2005,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "PR함 개발 패키지(제2기)",
 		first_text = "특별계획함 ",
 		akashi_pick = 1,
@@ -16481,7 +16840,7 @@ end)()
 		id_str = "alkrgift63",
 		extra_gem = 0,
 		id = 2015,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "PR함 개발 패키지(제3기)",
 		first_text = "특별계획함 ",
 		akashi_pick = 1,
@@ -17527,7 +17886,7 @@ end)()
 		id_str = "alkrgift96",
 		extra_gem = 0,
 		id = 2027,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "PR함 개발 패키지(제4기)",
 		first_text = "특별계획함 ",
 		akashi_pick = 1,
@@ -17903,7 +18262,7 @@ end)()
 		id_str = "alkrgift102",
 		extra_gem = 0,
 		id = 2032,
-		airijp_id = "com.yostarjp.azurlane.ui",
+		airijp_id = "",
 		name_display = "전투 UI·레인보우",
 		first_text = "",
 		akashi_pick = 1,
@@ -18382,7 +18741,7 @@ end)()
 		id_str = "alkrgift112",
 		extra_gem = 0,
 		id = 2037,
-		airijp_id = "com.yostarjp.azurlane.ui3",
+		airijp_id = "",
 		name_display = "성탄설경 테마 패키지",
 		first_text = "",
 		akashi_pick = 1,
@@ -18861,7 +19220,7 @@ end)()
 		id_str = "alkrgift135",
 		extra_gem = 0,
 		id = 2042,
-		airijp_id = "com.yostarjp.azurlane.ui6",
+		airijp_id = "",
 		name_display = "전투 UI·파라오",
 		first_text = "",
 		akashi_pick = 1,
@@ -19114,7 +19473,7 @@ end)()
 		id_str = "alkrgift139",
 		extra_gem = 0,
 		id = 2045,
-		airijp_id = "com.yostarjp.azurlane.ui9",
+		airijp_id = "",
 		name_display = "전투 UI·유전자의 기원",
 		first_text = "",
 		akashi_pick = 1,
@@ -19593,7 +19952,7 @@ end)()
 		id_str = "alkrgift145",
 		extra_gem = 0,
 		id = 2050,
-		airijp_id = "com.yostarjp.azurlane.ui12",
+		airijp_id = "",
 		name_display = "전투 UI·시사이드",
 		first_text = "",
 		akashi_pick = 1,
@@ -19855,7 +20214,7 @@ end)()
 		id_str = "alkrgift150",
 		extra_gem = 0,
 		id = 2053,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "PR함 개발 패키지(제5기)",
 		first_text = "특별계획함 ",
 		akashi_pick = 1,
@@ -20123,7 +20482,7 @@ end)()
 		id_str = "alkrgift156",
 		extra_gem = 0,
 		id = 2057,
-		airijp_id = "com.yostarjp.azurlane.ui15",
+		airijp_id = "",
 		name_display = "전투 UI·닌자",
 		first_text = "",
 		akashi_pick = 1,
@@ -20612,7 +20971,7 @@ end)()
 		id_str = "alkrgift167",
 		extra_gem = 0,
 		id = 2068,
-		airijp_id = "com.yostarjp.azurlane.ui18",
+		airijp_id = "",
 		name_display = "전투 UI·메이드 카페",
 		first_text = "",
 		akashi_pick = 1,
@@ -20875,7 +21234,7 @@ end)()
 		id_str = "alkrgift176",
 		extra_gem = 0,
 		id = 2074,
-		airijp_id = "com.yostarjp.azurlane.ui21",
+		airijp_id = "",
 		name_display = "전투 UI·봄빛 여관",
 		first_text = "",
 		akashi_pick = 1,
@@ -20928,6 +21287,8 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2075] = {
 		picture = "ui8",
 		name = "전투 UI·봄빛 여관 (기초)",
@@ -21114,6 +21475,269 @@ end)()
 			}
 		}
 	}
+	pg.base.pay_data_display[2079] = {
+		picture = "ui9",
+		name = "전투 UI·호화로운 골든",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI·호화로운 골든",
+		subject = "전투 UI·호화로운 골든",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 15000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 109,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift188",
+		extra_gem = 0,
+		id = 2079,
+		airijp_id = "",
+		name_display = "전투 UI·호화로운 골든",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				208,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				208,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[2080] = {
+		picture = "ui9",
+		name = "전투 UI·호화로운 골든(기초)",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI·호화로운 골든, 물자×1000 획득 가능",
+		subject = "전투 UI·호화로운 골든(기초)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 15000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 109,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift188",
+		extra_gem = 0,
+		id = 2080,
+		airijp_id = "com.yostarjp.azurlane.ui25",
+		name_display = "전투 UI·호화로운 골든(기초)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40080,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2081] = {
+		picture = "ui9",
+		name = "전투 UI·호화로운 골든(럭셔리)",
+		type = 0,
+		second_text = "",
+		descrip = "전투 UI·호화로운 골든, 다이아×3060 획득 가능",
+		subject = "전투 UI·호화로운 골든(럭셔리)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 52000,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 109,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift189",
+		extra_gem = 0,
+		id = 2081,
+		airijp_id = "com.yostarjp.azurlane.ui26",
+		name_display = "전투 UI·호화로운 골든(럭셔리)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				208,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40081,
+				1
+			}
+		}
+	}
 	pg.base.pay_data_display[5011] = {
 		picture = "pack_day1",
 		name = "할인 패키지I",
@@ -21207,8 +21831,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[5012] = {
 		picture = "pack_day2",
 		name = "할인 패키지II",

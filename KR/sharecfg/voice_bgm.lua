@@ -141,35 +141,10 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	}
-	pg.base.voice_bgm.ActivityShop50486 = {
-		default_bgm = "story-wanderingcity-future",
+	pg.base.voice_bgm.ActivityShop50611 = {
+		default_bgm = "theme-hrr",
 		special_bgm = "",
-		bgm = "story-wanderingcity-future"
-	}
-	pg.base.voice_bgm.ActivityShop50430 = {
-		default_bgm = "story-china-0226-pv",
-		special_bgm = "",
-		bgm = "story-china-0226-pv"
-	}
-	pg.base.voice_bgm.ActivityShop50464 = {
-		default_bgm = "theme-merkuriameta",
-		special_bgm = "",
-		bgm = "theme-merkuriameta"
-	}
-	pg.base.voice_bgm.ActivityShop6035 = {
-		default_bgm = "doa_story1",
-		special_bgm = "",
-		bgm = "doa_story1"
-	}
-	pg.base.voice_bgm.ActivityShop50807 = {
-		default_bgm = "doa_huanzhuang",
-		special_bgm = "",
-		bgm = "doa_huanzhuang"
-	}
-	pg.base.voice_bgm.ActivityShop50829 = {
-		default_bgm = "story-tulipa",
-		special_bgm = "",
-		bgm = "story-tulipa"
+		bgm = "theme-hrr"
 	}
 	pg.base.voice_bgm.BuildShipScene = {
 		default_bgm = "main",
@@ -506,8 +481,6 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "ryza-4"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.KelifulanSkinPage = {
 		default_bgm = "story-musicanniversary-gorgeous",
 		special_bgm = "",
@@ -533,6 +506,8 @@ end)()
 		special_bgm = "",
 		bgm = "hunhe-story"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.NewMeixiV4SkirmishPage = {
 		default_bgm = "Beverly_short_inst",
 		special_bgm = "",
@@ -1203,8 +1178,6 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-8"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.EducateCharProfileScene = {
 		default_bgm = "story-richang-8",
 		special_bgm = "",
@@ -1230,6 +1203,8 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-sooth"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.MaoxiV4TaskPage = {
 		default_bgm = "story-richang-sooth",
 		special_bgm = "",
@@ -1705,8 +1680,6 @@ end)()
 		special_bgm = "",
 		bgm = "story-roma-outside"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.YidaliV3SkinRePage = {
 		default_bgm = "story-italy",
 		special_bgm = "",
@@ -1732,6 +1705,8 @@ end)()
 		special_bgm = "",
 		bgm = "theme-donghuang"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.AirForceOfDragonEmperyUI = {
 		default_bgm = "theme-donghuang",
 		special_bgm = "",
@@ -2207,8 +2182,6 @@ end)()
 		special_bgm = "",
 		bgm = "story-musicanniversary-gorgeous"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.CommanderManualLayer = {
 		default_bgm = "level",
 		special_bgm = "",
@@ -2234,6 +2207,8 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-12"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.WillOfDeathPage = {
 		default_bgm = "brs-1-inst",
 		special_bgm = "",
@@ -2709,8 +2684,6 @@ end)()
 		special_bgm = "",
 		bgm = "story-weimu-link"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.WinterFestival2025SkinMagazinePage2 = {
 		default_bgm = "story-fantasyland-light",
 		special_bgm = "",
@@ -2736,6 +2709,8 @@ end)()
 		special_bgm = "",
 		bgm = "blueocean-image"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.BuildLoginRePage = {
 		default_bgm = "theme-starsea-core",
 		special_bgm = "",
@@ -3005,5 +2980,65 @@ end)()
 		default_bgm = "theme-tulipa",
 		special_bgm = "",
 		bgm = "theme-tulipa"
+	}
+	pg.base.voice_bgm.GeZiURMainPage = {
+		default_bgm = "story-hrr",
+		special_bgm = "",
+		bgm = "story-hrr"
+	}
+	pg.base.voice_bgm.GeZiURExchangePage = {
+		default_bgm = "theme-hrr",
+		special_bgm = "",
+		bgm = "theme-hrr"
+	}
+	pg.base.voice_bgm.GeZiURPTPage = {
+		default_bgm = "battle-hrr",
+		special_bgm = "",
+		bgm = "battle-hrr"
+	}
+	pg.base.voice_bgm.AnniversaryNineMainPage = {
+		default_bgm = "theme-goldensea",
+		special_bgm = "",
+		bgm = "theme-goldensea"
+	}
+	pg.base.voice_bgm.MallMapScene = {
+		default_bgm = "theme-goldensea",
+		special_bgm = "",
+		bgm = "theme-goldensea"
+	}
+	pg.base.voice_bgm.MallScene = {
+		default_bgm = "story-richang-wavelight",
+		special_bgm = "",
+		bgm = "story-richang-wavelight"
+	}
+	pg.base.voice_bgm.AnniversaryNineGamePage = {
+		default_bgm = "story-richang-softlight",
+		special_bgm = "",
+		bgm = "story-richang-softlight"
+	}
+	pg.base.voice_bgm.AnniversaryNinthReturnAwardPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	}
+	pg.base.voice_bgm.AnniversaryNineLoginPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	}
+	pg.base.voice_bgm.AnniversaryNineInvitationPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	}
+	pg.base.voice_bgm.GeZiMedalAlbumView = {
+		default_bgm = "theme-hrr",
+		special_bgm = "",
+		bgm = "theme-hrr"
+	}
+	pg.base.voice_bgm.FujinBayMedalAlbumView = {
+		default_bgm = "theme-goldensea",
+		special_bgm = "",
+		bgm = "theme-goldensea"
 	}
 end)()

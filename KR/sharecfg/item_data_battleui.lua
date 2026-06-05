@@ -17,13 +17,15 @@ pg.item_data_battleui.all = {
 	112,
 	113,
 	114,
+	115,
 	201,
 	202,
 	203,
 	204,
 	205,
 	206,
-	207
+	207,
+	208
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -237,6 +239,21 @@ pg.base.item_data_battleui = {}
 			1
 		}
 	}
+	pg.base.item_data_battleui[115] = {
+		name = "블루 코어",
+		key = "SkinNormal_20260528",
+		display_icon = "ui_115",
+		unlock = "특허 투어 패스 29기 보상",
+		is_unlock = 1,
+		rare = 3,
+		desc = "녹슨 기계의 심장이 다시금 고동치고, 푸른 코어의 잔음이 오래된 문명의 메아리를 퍼뜨린다.",
+		id = 115,
+		icon = "115",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
 	pg.base.item_data_battleui[201] = {
 		name = "크리스마스",
 		key = "SkinNormal_20241209",
@@ -349,6 +366,23 @@ pg.base.item_data_battleui = {}
 		desc = "여관의 활기와 온기, 불꽃놀이와 초롱불, 폭죽 소리에 휩싸여 평소와는 다른 새해맞이 대결을 즐겨보자. ",
 		id = 207,
 		icon = "207",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[208] = {
+		name = "호화로운 골든",
+		key = "SkinElite_20260520",
+		display_icon = "ui_208",
+		unlock = "상점 구매 (전투 UI·호화로운 골든)",
+		is_unlock = 1,
+		rare = 4,
+		desc = "흐르는 황금이 그려내는 별빛 프레임, 눈부신 다이아몬드가 촘촘히 박힌 버튼――모든 전투를 호화찬란한 꿈으로 바꾸어 준다.",
+		id = 208,
+		icon = "208",
 		scene = {},
 		rare_display = {
 			1,

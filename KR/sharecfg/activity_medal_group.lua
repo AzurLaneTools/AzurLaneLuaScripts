@@ -18,7 +18,9 @@ pg.activity_medal_group.all = {
 	50359,
 	50405,
 	50441,
-	50482
+	50482,
+	50607,
+	50616
 }
 pg.base = pg.base or {}
 pg.base.activity_medal_group = {}
@@ -27,7 +29,6 @@ pg.base.activity_medal_group = {}
 	pg.base.activity_medal_group[5711] = {
 		id = 5711,
 		entrance_picture = "medalAlbum/5711",
-		task_show = "",
 		group_name = "별빛 아래의 석양",
 		is_out_of_print = 0,
 		activity_link = {
@@ -62,12 +63,15 @@ pg.base.activity_medal_group = {}
 				65500,
 				1
 			}
+		},
+		task_show = {
+			21043,
+			21043
 		}
 	}
 	pg.base.activity_medal_group[5769] = {
 		id = 5769,
 		entrance_picture = "medalAlbum/5769",
-		task_show = "",
 		group_name = "봄맞이 패션 협주곡",
 		is_out_of_print = 0,
 		activity_link = {
@@ -98,12 +102,15 @@ pg.base.activity_medal_group = {}
 				65510,
 				1
 			}
+		},
+		task_show = {
+			-1,
+			21126
 		}
 	}
 	pg.base.activity_medal_group[5812] = {
 		id = 5812,
 		entrance_picture = "medalAlbum/5812",
-		task_show = "",
 		group_name = "새장에 갇힌 신의 빛",
 		is_out_of_print = 0,
 		activity_link = {
@@ -138,12 +145,15 @@ pg.base.activity_medal_group = {}
 				65540,
 				1
 			}
+		},
+		task_show = {
+			21286,
+			21286
 		}
 	}
 	pg.base.activity_medal_group[5875] = {
 		id = 5875,
 		entrance_picture = "medalAlbum/5875",
-		task_show = "",
 		group_name = "병원 탐방",
 		is_out_of_print = 0,
 		activity_link = {
@@ -178,6 +188,10 @@ pg.base.activity_medal_group = {}
 				65570,
 				1
 			}
+		},
+		task_show = {
+			21659,
+			21659
 		}
 	}
 	pg.base.activity_medal_group[5913] = {
@@ -241,7 +255,6 @@ pg.base.activity_medal_group = {}
 	pg.base.activity_medal_group[5970] = {
 		id = 5970,
 		entrance_picture = "medalAlbum/5970",
-		task_show = "",
 		group_name = "높은 탑의 장미",
 		is_out_of_print = 0,
 		activity_link = {
@@ -276,12 +289,15 @@ pg.base.activity_medal_group = {}
 				65602,
 				1
 			}
+		},
+		task_show = {
+			21714,
+			21714
 		}
 	}
 	pg.base.activity_medal_group[5971] = {
 		id = 5971,
 		entrance_picture = "medalAlbum/5971",
-		task_show = "",
 		group_name = "다시 돌아온 한여름!",
 		is_out_of_print = 0,
 		activity_link = {
@@ -315,12 +331,15 @@ pg.base.activity_medal_group = {}
 				65611,
 				1
 			}
+		},
+		task_show = {
+			21723,
+			21723
 		}
 	}
 	pg.base.activity_medal_group[50021] = {
 		id = 50021,
 		entrance_picture = "MedalAlbum/50021",
-		task_show = "",
 		group_name = "네온 시티의 탐색자",
 		is_out_of_print = 0,
 		activity_link = {
@@ -351,12 +370,15 @@ pg.base.activity_medal_group = {}
 				65631,
 				1
 			}
+		},
+		task_show = {
+			-1,
+			21776
 		}
 	}
 	pg.base.activity_medal_group[50087] = {
 		id = 50087,
 		entrance_picture = "medalAlbum/50087",
-		task_show = "",
 		group_name = "「심연 아래의 비밀」",
 		is_out_of_print = 0,
 		activity_link = {
@@ -391,12 +413,15 @@ pg.base.activity_medal_group = {}
 				65665,
 				1
 			}
+		},
+		task_show = {
+			21802,
+			21802
 		}
 	}
 	pg.base.activity_medal_group[50136] = {
 		id = 50136,
 		entrance_picture = "medalAlbum/50136",
-		task_show = "",
 		group_name = "아마하라에 바치는 춤",
 		is_out_of_print = 0,
 		activity_link = {
@@ -432,12 +457,15 @@ pg.base.activity_medal_group = {}
 				65685,
 				1
 			}
+		},
+		task_show = {
+			21844,
+			21835
 		}
 	}
 	pg.base.activity_medal_group[50209] = {
 		id = 50209,
 		entrance_picture = "medalAlbum/50209",
-		task_show = "",
 		group_name = "",
 		is_out_of_print = 0,
 		activity_link = {
@@ -473,12 +501,15 @@ pg.base.activity_medal_group = {}
 				65722,
 				1
 			}
+		},
+		task_show = {
+			21858,
+			21849
 		}
 	}
 	pg.base.activity_medal_group[50295] = {
 		id = 50295,
 		entrance_picture = "medalAlbum/50295",
-		task_show = "",
 		group_name = "창공에 울리는 소리",
 		is_out_of_print = 0,
 		activity_link = {
@@ -514,12 +545,15 @@ pg.base.activity_medal_group = {}
 				65785,
 				1
 			}
+		},
+		task_show = {
+			21882,
+			21873
 		}
 	}
 	pg.base.activity_medal_group[50359] = {
 		id = 50359,
 		entrance_picture = "medalAlbum/50359",
-		task_show = "",
 		group_name = "명암과 패션, 촬영 진행 중!",
 		is_out_of_print = 0,
 		activity_link = {
@@ -550,12 +584,15 @@ pg.base.activity_medal_group = {}
 				65802,
 				1
 			}
+		},
+		task_show = {
+			-1,
+			21883
 		}
 	}
 	pg.base.activity_medal_group[50405] = {
 		id = 50405,
 		entrance_picture = "medalAlbum/50405",
-		task_show = "",
 		group_name = "신춘 주옥 명품회",
 		is_out_of_print = 0,
 		activity_link = {
@@ -586,12 +623,15 @@ pg.base.activity_medal_group = {}
 				65848,
 				1
 			}
+		},
+		task_show = {
+			-1,
+			21892
 		}
 	}
 	pg.base.activity_medal_group[50441] = {
 		id = 50441,
 		entrance_picture = "medalAlbum/50441",
-		task_show = "",
 		group_name = "봄빛 여관 Online",
 		is_out_of_print = 0,
 		activity_link = {
@@ -627,12 +667,15 @@ pg.base.activity_medal_group = {}
 				65860,
 				1
 			}
+		},
+		task_show = {
+			21910,
+			21901
 		}
 	}
 	pg.base.activity_medal_group[50482] = {
 		id = 50482,
 		entrance_picture = "medalAlbum/50482",
-		task_show = "",
 		group_name = "유람자 모집 계획",
 		is_out_of_print = 0,
 		activity_link = {
@@ -668,6 +711,97 @@ pg.base.activity_medal_group = {}
 				65886,
 				1
 			}
+		},
+		task_show = {
+			21923,
+			21914
+		}
+	}
+	pg.base.activity_medal_group[50607] = {
+		id = 50607,
+		entrance_picture = "MedalAlbum/50607",
+		group_name = "圣印前的同盟",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50607,
+				{
+					21924,
+					21925,
+					21926,
+					21927,
+					21928,
+					21929,
+					21930,
+					21931,
+					21932,
+					21933
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "GeZiMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				335,
+				1
+			},
+			{
+				8,
+				65920,
+				1
+			}
+		},
+		task_show = {
+			21933,
+			21924
+		}
+	}
+	pg.base.activity_medal_group[50616] = {
+		id = 50616,
+		entrance_picture = "MedalAlbum/50616",
+		group_name = "奢华！享梦！浮金湾！",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50616,
+				{
+					21934,
+					21935,
+					21936,
+					21937,
+					21938,
+					21939,
+					21940,
+					21941,
+					21968
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "FujinBayMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				338,
+				1
+			},
+			{
+				8,
+				65929,
+				1
+			}
+		},
+		task_show = {
+			21968,
+			21934
 		}
 	}
 end)()

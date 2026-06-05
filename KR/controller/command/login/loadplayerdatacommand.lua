@@ -293,6 +293,10 @@ slot0.execute = function(slot0, slot1)
 		{
 			PlayRoomProxy,
 			true
+		},
+		{
+			LoadingPicProxy,
+			true
 		}
 	})
 

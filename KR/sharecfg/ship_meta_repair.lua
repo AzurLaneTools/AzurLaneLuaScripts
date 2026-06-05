@@ -2974,7 +2974,107 @@ pg.ship_meta_repair.all = {
 	58417,
 	58418,
 	58419,
-	58420
+	58420,
+	60101,
+	60102,
+	60103,
+	60104,
+	60105,
+	60106,
+	60107,
+	60108,
+	60109,
+	60110,
+	60201,
+	60202,
+	60203,
+	60204,
+	60205,
+	60206,
+	60207,
+	60208,
+	60209,
+	60210,
+	60211,
+	60212,
+	60213,
+	60214,
+	60215,
+	60216,
+	60217,
+	60218,
+	60219,
+	60220,
+	60401,
+	60402,
+	60403,
+	60404,
+	60405,
+	60406,
+	60407,
+	60408,
+	60409,
+	60410,
+	60411,
+	60412,
+	60413,
+	60414,
+	60415,
+	60416,
+	60417,
+	60418,
+	60419,
+	60420,
+	61301,
+	61302,
+	61303,
+	61304,
+	61305,
+	61306,
+	61307,
+	61308,
+	61309,
+	61310,
+	61311,
+	61312,
+	61313,
+	61314,
+	61315,
+	61316,
+	61317,
+	61318,
+	61319,
+	61320,
+	61321,
+	61322,
+	61323,
+	61324,
+	61325,
+	61326,
+	61327,
+	61328,
+	61329,
+	61330,
+	61401,
+	61402,
+	61403,
+	61404,
+	61405,
+	61406,
+	61407,
+	61408,
+	61409,
+	61410,
+	61411,
+	61412,
+	61413,
+	61414,
+	61415,
+	61416,
+	61417,
+	61418,
+	61419,
+	61420
 }
 pg.base = pg.base or {}
 pg.base.ship_meta_repair = {}
@@ -32752,6 +32852,1008 @@ end)()
 		repair_exp = 100,
 		item_id = 21121,
 		id = 58420,
+		item_num = 20,
+		effect_attr = {
+			"reload",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60101] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 60101,
+		item_num = 4,
+		effect_attr = {
+			"cannon",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60102] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 60102,
+		item_num = 4,
+		effect_attr = {
+			"cannon",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60103] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 60103,
+		item_num = 4,
+		effect_attr = {
+			"cannon",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60104] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 60104,
+		item_num = 4,
+		effect_attr = {
+			"cannon",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[60105] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 60105,
+		item_num = 8,
+		effect_attr = {
+			"cannon",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[60106] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 60106,
+		item_num = 8,
+		effect_attr = {
+			"cannon",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60107] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 60107,
+		item_num = 8,
+		effect_attr = {
+			"cannon",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60108] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 60108,
+		item_num = 8,
+		effect_attr = {
+			"cannon",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60109] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 60109,
+		item_num = 8,
+		effect_attr = {
+			"cannon",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60110] = {
+		repair_exp = 100,
+		item_id = 21101,
+		id = 60110,
+		item_num = 12,
+		effect_attr = {
+			"cannon",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60201] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60201,
+		item_num = 4,
+		effect_attr = {
+			"torpedo",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[60202] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60202,
+		item_num = 4,
+		effect_attr = {
+			"torpedo",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[60203] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60203,
+		item_num = 4,
+		effect_attr = {
+			"torpedo",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[60204] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60204,
+		item_num = 4,
+		effect_attr = {
+			"torpedo",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[60205] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60205,
+		item_num = 8,
+		effect_attr = {
+			"torpedo",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60206] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60206,
+		item_num = 8,
+		effect_attr = {
+			"torpedo",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60207] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60207,
+		item_num = 8,
+		effect_attr = {
+			"torpedo",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60208] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60208,
+		item_num = 8,
+		effect_attr = {
+			"torpedo",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60209] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60209,
+		item_num = 8,
+		effect_attr = {
+			"torpedo",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60210] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60210,
+		item_num = 12,
+		effect_attr = {
+			"torpedo",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60211] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60211,
+		item_num = 12,
+		effect_attr = {
+			"torpedo",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[60212] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60212,
+		item_num = 12,
+		effect_attr = {
+			"torpedo",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[60213] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60213,
+		item_num = 12,
+		effect_attr = {
+			"torpedo",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[60214] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60214,
+		item_num = 12,
+		effect_attr = {
+			"torpedo",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[60215] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60215,
+		item_num = 16,
+		effect_attr = {
+			"torpedo",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60216] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60216,
+		item_num = 16,
+		effect_attr = {
+			"torpedo",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60217] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60217,
+		item_num = 16,
+		effect_attr = {
+			"torpedo",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60218] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60218,
+		item_num = 16,
+		effect_attr = {
+			"torpedo",
+			4
+		}
+	}
+end)()
+(function ()
+	pg.base.ship_meta_repair[60219] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60219,
+		item_num = 16,
+		effect_attr = {
+			"torpedo",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60220] = {
+		repair_exp = 100,
+		item_id = 21131,
+		id = 60220,
+		item_num = 20,
+		effect_attr = {
+			"torpedo",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60401] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60401,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[60402] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60402,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[60403] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60403,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[60404] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60404,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[60405] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60405,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[60406] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60406,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60407] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60407,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60408] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60408,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60409] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60409,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60410] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60410,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[60411] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60411,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[60412] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60412,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[60413] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60413,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[60414] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60414,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[60415] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60415,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[60416] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60416,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60417] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60417,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60418] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60418,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60419] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60419,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[60420] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 60420,
+		item_num = 20,
+		effect_attr = {
+			"reload",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[61301] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61301,
+		item_num = 4,
+		effect_attr = {
+			"air",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61302] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61302,
+		item_num = 4,
+		effect_attr = {
+			"air",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61303] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61303,
+		item_num = 4,
+		effect_attr = {
+			"air",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61304] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61304,
+		item_num = 4,
+		effect_attr = {
+			"air",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61305] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61305,
+		item_num = 8,
+		effect_attr = {
+			"air",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61306] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61306,
+		item_num = 8,
+		effect_attr = {
+			"air",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61307] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61307,
+		item_num = 8,
+		effect_attr = {
+			"air",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61308] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61308,
+		item_num = 8,
+		effect_attr = {
+			"air",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61309] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61309,
+		item_num = 8,
+		effect_attr = {
+			"air",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61310] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61310,
+		item_num = 12,
+		effect_attr = {
+			"air",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61311] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61311,
+		item_num = 12,
+		effect_attr = {
+			"air",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61312] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61312,
+		item_num = 12,
+		effect_attr = {
+			"air",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61313] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61313,
+		item_num = 12,
+		effect_attr = {
+			"air",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61314] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61314,
+		item_num = 12,
+		effect_attr = {
+			"air",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61315] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61315,
+		item_num = 16,
+		effect_attr = {
+			"air",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61316] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61316,
+		item_num = 16,
+		effect_attr = {
+			"air",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61317] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61317,
+		item_num = 16,
+		effect_attr = {
+			"air",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61318] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61318,
+		item_num = 16,
+		effect_attr = {
+			"air",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61319] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61319,
+		item_num = 16,
+		effect_attr = {
+			"air",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61320] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61320,
+		item_num = 20,
+		effect_attr = {
+			"air",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61321] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61321,
+		item_num = 20,
+		effect_attr = {
+			"air",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[61322] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61322,
+		item_num = 20,
+		effect_attr = {
+			"air",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[61323] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61323,
+		item_num = 20,
+		effect_attr = {
+			"air",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[61324] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61324,
+		item_num = 20,
+		effect_attr = {
+			"air",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[61325] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61325,
+		item_num = 24,
+		effect_attr = {
+			"air",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[61326] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61326,
+		item_num = 24,
+		effect_attr = {
+			"air",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[61327] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61327,
+		item_num = 24,
+		effect_attr = {
+			"air",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[61328] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61328,
+		item_num = 24,
+		effect_attr = {
+			"air",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[61329] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61329,
+		item_num = 24,
+		effect_attr = {
+			"air",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[61330] = {
+		repair_exp = 100,
+		item_id = 21111,
+		id = 61330,
+		item_num = 28,
+		effect_attr = {
+			"air",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[61401] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61401,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61402] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61402,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61403] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61403,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61404] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61404,
+		item_num = 4,
+		effect_attr = {
+			"reload",
+			1
+		}
+	}
+	pg.base.ship_meta_repair[61405] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61405,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61406] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61406,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61407] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61407,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61408] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61408,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61409] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61409,
+		item_num = 8,
+		effect_attr = {
+			"reload",
+			2
+		}
+	}
+	pg.base.ship_meta_repair[61410] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61410,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[61411] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61411,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[61412] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61412,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[61413] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61413,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[61414] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61414,
+		item_num = 12,
+		effect_attr = {
+			"reload",
+			3
+		}
+	}
+	pg.base.ship_meta_repair[61415] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61415,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[61416] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61416,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[61417] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61417,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[61418] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61418,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[61419] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61419,
+		item_num = 16,
+		effect_attr = {
+			"reload",
+			4
+		}
+	}
+	pg.base.ship_meta_repair[61420] = {
+		repair_exp = 100,
+		item_id = 21121,
+		id = 61420,
 		item_num = 20,
 		effect_attr = {
 			"reload",

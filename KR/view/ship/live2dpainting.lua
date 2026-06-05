@@ -5,7 +5,9 @@ slot0.STATE_DISPOSE = 2
 slot1 = {
 	"button",
 	"vocal",
-	"interaction"
+	"interaction",
+	"bgm",
+	"bgmsingle"
 }
 slot2 = {
 	"button",
@@ -21,6 +23,16 @@ slot3 = {
 	},
 	interaction = {
 		sheet_name = "se-SkinInteractive"
+	},
+	bgm = {
+		loop = true,
+		bgm = true,
+		sheet_name = "se-skin"
+	},
+	bgmsingle = {
+		loop = false,
+		bgm = true,
+		sheet_name = "se-skin"
 	}
 }
 slot0.COMMON_XIAQI_RESULT = "xiaqi_result"
@@ -107,6 +119,7 @@ slot0.GenerateData = function(slot0)
 			slot0.gyro = slot0:GetShipSkinConfig().gyro or 0
 			slot0.shipL2dId = slot0:GetShipSkinConfig().ship_l2d_id
 			slot0.skinId = slot0:GetShipSkinConfig().id
+			slot0.shopPreView = slot1.shopPreView or false
 			slot0.spineUseLive2d = false
 
 			if slot0.skinId then
@@ -173,6 +186,10 @@ slot13 = function(slot0, slot1)
 		return true
 	end
 
+	if (slot1 == "change_in" or slot1 == "change_out") and slot0.idleIndex ~= 0 then
+		return false
+	end
+
 	if slot0.drags then
 		for slot5, slot6 in ipairs(slot0.drags) do
 			if slot6:getExtendAction() then
@@ -222,6 +239,12 @@ slot14 = function(slot0, slot1, slot2)
 	if not slot0.isPlaying or slot2 then
 		if uv1.action2Id[slot1] then
 			slot0.playActionName = slot1
+
+			if HXSet.isHx() and slot0:checkActionExist(slot1 .. "_hx") then
+				slot3 = slot3 + 1000
+			elseif HXSet.isHx() and slot0._shopPreView and slot0:checkActionExist(slot1 .. "_shophx") then
+				slot3 = slot3 + 2000
+			end
 
 			slot0.liveCom:SetAction(slot3)
 
@@ -452,6 +475,10 @@ slot18 = function(slot0, slot1)
 			if slot19.enable then
 				slot0.liveCom:ChangeParameterData(slot19.com, slot19.value)
 			end
+		end
+
+		if slot0.drags[slot9].parameterName == "ParamBGM_loop" then
+			pg.CriMgr.GetInstance():ChangeBgmVolume(slot0.drags[slot9]:getParameterTarget())
 		end
 	end
 
@@ -693,17 +720,26 @@ slot20 = function(slot0, slot1)
 		if table.contains(uv0, string.split(slot0.stringParameter, "_")[1]) then
 			slot2 = uv1.live2dData.ship:getSkinId()
 			slot3, slot4 = nil
+			slot6 = false
+			slot7 = 100
 
 			if uv2[slot1[1]].cv_voice then
 				slot3 = pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot2))
 				slot4 = "vocal_" .. slot1[2] .. "_" .. pg.ship_skin_template[slot2].group_index
+			elseif slot5.bgm then
+				slot3 = slot5.sheet_name
+				slot4 = "skin-" .. pg.ship_skin_template[slot2].ship_group .. "_" .. slot1[2]
+				slot7 = slot1[3] and tonumber(slot1[3]) / 100 or 1
 			else
 				slot3 = slot5.sheet_name
+				slot6 = slot5.loop
 				slot4 = slot2 .. "_" .. slot1[2]
 			end
 
 			if slot5.cv_voice then
 				uv1:playL2dVoice(slot3, slot4, table.contains(uv3, slot1[1]))
+			elseif slot5.bgm then
+				pg.CriMgr.GetInstance():PlayPaintingBgm(slot3, slot4, slot6, slot7, uv1.liveCom:GetCubismParameter("ParamBGM_loop") and slot8.Value or 1)
 			end
 		end
 	end)
@@ -751,6 +787,12 @@ slot20 = function(slot0, slot1)
 		slot0:changeParamaterValue("Paramring", 0)
 	end
 
+	if slot0._shopPreView and HXSet.isHx() then
+		slot0:changeParamaterValue("shop_hx", 1)
+	else
+		slot0:changeParamaterValue("shop_hx", 0)
+	end
+
 	if HXSet.isHx() then
 		slot0:changeParamaterValue("l2d_hx", 1)
 	else
@@ -770,6 +812,10 @@ slot20 = function(slot0, slot1)
 	slot0:offsetL2dPositonDelay(0.3, 6)
 	uv13(slot0, "idle", true)
 	Live2DPainting.SetL2dSortingLayer(slot1, LayerWeightConst.L2D_DEFAULT_LAYER)
+end
+
+slot0.UpdateL2dBgmVolume = function(slot0)
+	pg.CriMgr.GetInstance():ChangeBgmVolume(slot0.liveCom:GetCubismParameter("ParamBGM_loop") and slot1.Value or 1)
 end
 
 slot0.Ctor = function(slot0, slot1, slot2)
@@ -836,7 +882,6 @@ slot0.SetVisible = function(slot0, slot1)
 			uv1(uv0, "idle", true)
 		end)
 	else
-		slot0:stopVoice()
 		slot0:setReactPos(true)
 		slot0:saveLive2dData()
 		slot0:changeIdleIndex(0)
@@ -844,9 +889,6 @@ slot0.SetVisible = function(slot0, slot1)
 
 		slot0._readlyToStop = true
 	end
-end
-
-slot0.loadL2dLinkData = function(slot0)
 end
 
 slot0.loadLive2dData = function(slot0)
@@ -865,8 +907,6 @@ slot0.loadLive2dData = function(slot0)
 		slot0:changeIdleIndex(0)
 
 		slot0.saveActionAbleId = nil
-
-		slot0:loadL2dLinkData()
 	else
 		slot1, slot2 = Live2dConst.GetL2dSaveData(slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id)
 		slot3 = Live2dConst.GetDragActionIndex(slot2, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) or 1
@@ -947,6 +987,10 @@ slot0.saveLive2dData = function(slot0)
 			slot0.drags[slot5]:saveData()
 		end
 	end
+
+	if slot0.liveCom:GetCubismParameter("ParamBGM_loop") then
+		Live2dConst.SaveL2dBgmVolume(slot1, slot2.Value)
+	end
 end
 
 slot0.changeActionIdle = function(slot0)
@@ -981,14 +1025,6 @@ end
 
 slot0.l2dCharEnable = function(slot0, slot1)
 	slot0._l2dCharEnable = slot1
-end
-
-slot0.inShopPreView = function(slot0, slot1)
-	slot0._shopPreView = slot1
-
-	if slot1 then
-		slot0:changeParamaterValue("shop_hx", 1)
-	end
 end
 
 slot0.getDragEnable = function(slot0, slot1)
@@ -1367,7 +1403,7 @@ slot0.Dispose = function(slot0)
 		slot0.dftCom:SetCommonEvent(nil)
 	end
 
-	slot0:stopVoice()
+	pg.CriMgr.GetInstance():DisposePaintingBgm()
 	slot0:unloadCueSheet()
 
 	if slot0._tf and LeanTween.isTweening(go(slot0._tf)) then
@@ -1464,20 +1500,6 @@ slot0.unloadCueSheet = function(slot0)
 	end
 
 	slot0.loadSheets = {}
-end
-
-slot0.stopVoice = function(slot0)
-	if not slot0.playingSheetInfo then
-		return
-	end
-
-	for slot4, slot5 in ipairs(slot0.playingSheetInfo) do
-		if slot5 then
-			slot5:PlaybackStop()
-		end
-	end
-
-	slot0.playingSheetInfo = {}
 end
 
 slot0.playL2dVoice = function(slot0, slot1, slot2, slot3)

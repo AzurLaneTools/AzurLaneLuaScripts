@@ -151,7 +151,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40124
+			40124,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[29902] = {
@@ -255,7 +256,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40124
+			40124,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[39901] = {
@@ -359,7 +361,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40124
+			40124,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[39902] = {
@@ -463,7 +466,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40124
+			40124,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[49901] = {
@@ -567,7 +571,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40124
+			40124,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[89901] = {
@@ -671,7 +676,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40124
+			40124,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[19901] = {
@@ -775,7 +781,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40125
+			40125,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[19902] = {
@@ -879,7 +886,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40125
+			40125,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[39903] = {
@@ -983,7 +991,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40125
+			40125,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[39904] = {
@@ -1300,7 +1309,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40125
+			40125,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[29903] = {
@@ -1404,7 +1414,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40130
+			40130,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[29904] = {
@@ -1614,7 +1625,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40130
+			40130,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[49904] = {
@@ -1718,7 +1730,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40130
+			40130,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[89902] = {
@@ -1823,7 +1836,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40130
+			40130,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[19903] = {
@@ -1927,7 +1941,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40139
+			40139,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[39905] = {
@@ -2228,7 +2243,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40139
+			40139,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[69901] = {
@@ -2333,7 +2349,8 @@ pg.base.ship_data_blueprint = {}
 			100
 		},
 		gain_item_id = {
-			40139
+			40139,
+			40142
 		}
 	}
 	pg.base.ship_data_blueprint[29905] = {

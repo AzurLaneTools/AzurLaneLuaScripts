@@ -243,7 +243,7 @@ slot0.timeCall = function(slot0)
 				slot1:ResetTechCancelCnt()
 
 				if slot1:getWeeklyTask() and slot2:isExpire() then
-					getProxy(TaskProxy):removeTaskById(slot2:GetPresonTaskId())
+					getProxy(TaskProxy):deleteTaskById(slot2:GetPresonTaskId())
 
 					slot1.weeklyTaskFlag = 0
 				end

@@ -108,6 +108,7 @@ slot5.DoWhenAddBuff = function(slot0, slot1)
 
 	slot0:addInitFX(slot2)
 	slot0:addLastFX(slot2)
+	slot0:updateLastFXStackText(slot2)
 end
 
 slot5.onBuffStack = function(slot0, slot1)
@@ -138,6 +139,8 @@ slot5.DoWhenStackBuff = function(slot0, slot1)
 			end
 		end
 	end
+
+	slot0:updateLastFXStackText(slot2)
 end
 
 slot5.onBuffRemove = function(slot0, slot1)
@@ -212,6 +215,32 @@ slot5.addLastFX = function(slot0, slot1)
 		table.insert(slot4, slot0:generateLastFX(slot2, slot2.last_effect))
 
 		slot0._buffLastEffects[slot1] = slot4
+	end
+end
+
+slot5.updateLastFXStackText = function(slot0, slot1)
+	if type(uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1).last_effect_stack_text) ~= "table" then
+		return
+	end
+
+	if type(slot3.node) ~= "string" or slot4 == "" then
+		return
+	end
+
+	if not slot0._owner:GetUnitData():GetBuff(slot1) then
+		return
+	end
+
+	slot7 = "X" .. (slot5:GetStack() or 1)
+
+	if not slot0._buffLastEffects[slot1] then
+		return
+	end
+
+	for slot12, slot13 in ipairs(slot8) do
+		if slot13 and slot13.transform:Find(slot4) then
+			setText(slot14, slot7)
+		end
 	end
 end
 

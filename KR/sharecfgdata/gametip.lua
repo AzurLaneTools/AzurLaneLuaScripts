@@ -9691,6 +9691,11 @@ _G.pg.base.gametip.ship_remould_warning_521024 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_403994 = {
+	tip = "개조(근대화 개수) 실시 시 <color=#92fc63>[주포 포좌 +1]</color>\n주포 보정이 120%로 변경\n계속하시겠습니까?"
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "보이스 갱신"
 }
@@ -12537,7 +12542,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「엘리제」, 「샌디」, 「유키노」 등장 확률 UP!"
+	tip = "한정 건조를 200회 실시하면 「괴츠 폰 베를리힝겐」 100% 획득 가능! (최대 4척까지)"
 }
 
 
@@ -15133,10 +15138,10 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "「선택 가능한 특별 건조」란, 상시 3종류의 일반 건조 중 하나를 베이스로 삼아, 특정 함선을 선택하여 그 함선을 픽업 상태(출현율 UP)로 만드는 특별 건조 시스템을 말합니다. "
 		},
 		{
-			info = "1. 「소형함 건조」, 「대형함 건조」, 「특형함 건조」 중 하나를 골라 특별 건조의 베이스로 만들 수 있습니다. （UR 함선은 「대형함 건조」, 「특형함 건조」 에서만 출현합니다."
+			info = "1. 「소형함 건조」, 「대형함 건조」, 「특형함 건조」 중 하나를 골라 특별 건조의 베이스로 만들 수 있습니다. (UR 함선은 「대형함 건조」, 「특형함 건조」에서만 출현합니다."
 		},
 		{
-			info = "2. 같은 건조 내에서 출현하는 함선 중 두 종류를 골라 「픽업 상태(출현율 UP 상태)」로 만들 수 있습니다.<color=#FF5C5C>(※ 2025년 4월 9일까지 상시 건조 상태가 된 함선만 출현합니다. 또한, UR 함선을 선택한 경우, 선택하지 않은 UR 함선은 건조에서 출현하지 않습니다.)</color>"
+			info = "2. 같은 건조 내에서 출현하는 함선 중 두 종류를 골라 「픽업 상태」(출현율 UP 상태)로 만들 수 있습니다.<color=#FF5C5C>(※ 2026년 4월 8일까지 상시 건조 상태가 된 함선만 출현합니다. 또한, UR 함선을 선택한 경우, 선택하지 않은 UR 함선은 건조에서 출현하지 않습니다.)</color>"
 		},
 		{
 			info = "3. 「선택 가능한 특별 건조」에서 「픽업」으로 선택된 함선의 출현율은 레어도에 따라 다음과 같이 분류됩니다.\n<color=#ff5e39>UR</color>: 1.2% <color=#ffde38>SSR</color>: 2%  <color=#d797ff>SR</color>: 2.5%  <color=#3dc6ff>R: 2.5%</color>  N: 2.5%"
@@ -39372,17 +39377,17 @@ _G.pg.base.gametip.daily_level_go = {
 
 
 _G.pg.base.gametip.yumia_main_tip_1 = {
-	tip = "한정 건조"
+	tip = ""
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_2 = {
-	tip = "한정 해역"
+	tip = ""
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_3 = {
-	tip = "스킨"
+	tip = ""
 }
 
 
@@ -48450,6 +48455,80 @@ _G.pg.base.gametip.exchange_code_skin_tip = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2606 = {
+	tip = "2026/6/8 ~ 2026/8/7 이벤트 기간 중에 월드 투어 <icon name=pt w=0.5 h=0.5/>획득 합계 보상으로<color=#854747> 「쾨니히스베르크·META」</color> 등 획득 가능"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2606 = {
+	tip = {
+		{
+			info = [[
+■ 이벤트 진행 기간
+ 2026.6.8(월) 0:00 ~ 2026.8.7(금) 23:59
+
+■ 개요
+「월드 투어」란, 이벤트 진행 중에 임무를 클리어하고 「투어 PT」를 모아, 획득한 투어 PT 합계에 따라 보상을 얻을 수 있는 이벤트입니다. 
+또한, 기본 투어 보상에는 추가적으로 「특허 투어 보상」이 존재하며, 상점 아이템 「특허 투어 패스」를 구매하면 특허 투어 보상을 획득할 수 있습니다. 
+기본 투어 보상으로는 함선 「쾨니히스베르크·META」, 특허 투어 보상으로는 구축함 「미유키」의 한정 스킨인 「떡과 해프닝」을 획득할 수 있습니다. 
+
+■플레이 방법
+·「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+·상기 「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+ 또한 「특허 투어 패스」를 구매하면, 15단계 분량의 보상(투어 PT 1,500)을 획득할 수 있습니다. 
+·「투어 PT」의 합계에 따라 투어 보상을 얻을 수 있습니다. 투어 보상은 두 가지가 있습니다. 
+ ①기본 투어 보상
+ 「투어 PT」의 획득 수에 따라 얻을 수 있는 보상. 총 100단계가 있습니다.
+ ②특허 투어 보상
+ 「특허 투어 패스」를 구매하면 오픈되는 추가 보상. 기본 투어 보상과 동일하게 총 100단계가 있으며, 기본 투어 보상과 같은 단계의 특허 투어 보상을 획득할 수 있습니다. 
+·이벤트가 종료되면 획득한 투어 PT는 초기화됩니다. 
+
+■Tips
+·플레이 스타일
+　월드 투어에는 총 100단계가 있으며, 단숨에 마지막 단계까지 클리어할 수 없도록 만들어져 있습니다. 평소대로 퀘스트를 클리어하면서 임무를 처리하거나, 원하는 보상을 정해 신속하게 클리어하는 등, 자신의 플레이 스타일에 따라 즐기는 것을 추천합니다. 
+
+·특허 투어 패스
+ 상점에서 「특허 투어 패스」를 구매하면, 특별한 아이템과 함께 「투어 PT」를 1,500PT 획득할 수 있습니다. 또한, 추가 한정 스킨은 「특허 투어 패스」 구매로 오픈되는 「특허 투어 보상」으로만 획득할 수 있습니다. 이 점 주의하시기 바랍니다. 
+
+·임무 스킵(권장하지 않습니다)
+ 「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다. 
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2606 = {
+	tip = {
+		{
+			info = [[
+■ 월드 투어에 대해
+·「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+
+·「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+
+·「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다……
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2606 = {
+	tip = "월드 투어·29기"
+}
+
+
 _G.pg.base.gametip.littleMusashi_npc = {
 	tip = {
 		{
@@ -48487,11 +48566,488 @@ _G.pg.base.gametip["260514_story_title_en"] = {
 }
 
 
+_G.pg.base.gametip.mall_title = {
+	tip = "골든 베이"
+}
+
+
+_G.pg.base.gametip.mall_title_en = {
+	tip = "EVENT"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type1 = {
+	tip = "지점"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type2 = {
+	tip = "휴가 이야기"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type3 = {
+	tip = "특별 이야기"
+}
+
+
+_G.pg.base.gametip.mall_point_name_type4 = {
+	tip = "함선 이야기"
+}
+
+
+_G.pg.base.gametip.mall_order_char_header = {
+	tip = "오더:"
+}
+
+
+_G.pg.base.gametip.mall_order_need_attrs_header = {
+	tip = "필요 점원 능력:"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_staff = {
+	tip = "점원 배치"
+}
+
+
+_G.pg.base.gametip.mall_right_title_upgrade = {
+	tip = "쇼핑몰 개요"
+}
+
+
+_G.pg.base.gametip.mall_round_header = {
+	tip = "턴:"
+}
+
+
+_G.pg.base.gametip.mall_level_header = {
+	tip = "쇼핑몰 LV:"
+}
+
+
+_G.pg.base.gametip.mall_input_header = {
+	tip = "드림 기분 제출 수:"
+}
+
+
+_G.pg.base.gametip.mall_summary_btn = {
+	tip = "드림 기분 획득 합계:"
+}
+
+
+_G.pg.base.gametip.mall_evaluate_title = {
+	tip = "영업 종료  고객 평가"
+}
+
+
+_G.pg.base.gametip.mall_summary_title = {
+	tip = "매출 현황"
+}
+
+
+_G.pg.base.gametip.mall_floor_income_header = {
+	tip = "$1F 매출"
+}
+
+
+_G.pg.base.gametip.mall_total_income_header = {
+	tip = "총매출"
+}
+
+
+_G.pg.base.gametip.mall_balance_header = {
+	tip = "잔여"
+}
+
+
+_G.pg.base.gametip.mall_open_title = {
+	tip = "영업 중..."
+}
+
+
+_G.pg.base.gametip.mall_help = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>럭셔리! 드림! 골든 베이」</color> 플레이 방법
+
+  <b>플레이 방법</b>:
+  1.  이벤트 기간 중, 쇼핑몰 시설의 각 층 매장에 <color=#92fc63>「점원 만쥬」</color>를 배치하여 각 매장의 평가 점수를 올릴 수 있습니다. 점원 배치 후 <color=#92fc63>「영업 시작」</color>을 탭하면 쇼핑몰 영업을 시작할 수 있으며, 각 함선들의 평가를 받음과 동시에 이벤트 Pt인 <color=#92fc63>「드림 기분」</color>을 획득할 수 있습니다. 
+   2.  또한, 이벤트 기간 중 함선들의 특별 주문인 <color=#92fc63>「만쥬 오더」</color>를 점원 만쥬와 매칭시킬 수 있습니다. 주문이 완료되면 해당 함선의 <color=#92fc63>특별 스토리</color>와 <color=#92fc63>새로운 「점원 만쥬」</color>를 오픈할 수 있으며, 추가로 <color=#92fc63>「드림 기분」</color> 등의 보상을 획득할 수 있습니다. 
+   3.  쇼핑몰 경영 화면 우측의 <color=#92fc63>「강화 조건 확인」</color> 버튼을 탭하면 <color=#92fc63>「쇼핑몰 Lv」</color>이 상승하는 데 필요한 여러 조건을 확인할 수 있습니다. 조건을 만족하면 「쇼핑몰 Lv」이 상승하고, 점원을 배치할 수 있는 매장과 <color=#92fc63>「만쥬 오더」</color>가 오픈되어 <color=#92fc63>「드림 기분」</color> 획득량을 늘릴 수 있습니다. 
+
+  <b>보상 안내</b>:
+  1.  이벤트 기간 중, 화면 우측의 <color=#92fc63>「경영 보상 확인」</color> 버튼을 탭하여 <color=#92fc63>「드림 기분」</color>을 제출하면 다양한 보상을 획득할 수 있습니다. 
+  2.  해당 <color=#92fc63>「드림 기분」</color> 제출 수 보상(획득 합계 보상)은 이벤트 기간 중 순차적으로 오픈됩니다. 다음 보상이 아직 오픈되지 않은 상태에서는 쇼핑몰 경영에 상한선이 존재합니다. 6월 7일(일)에 <color=#92fc63>「드림 기분」</color>의 모든 보상이 오픈됩니다. 
+
+<b>이벤트 기간</b>: 
+2026.6.3 ~ 2026.6.25 점검 전까지, 경영 보상은 2026.7.1 23:59까지 획득할 수 있습니다.
+]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.mall_floor_lock = {
+	tip = "매장 미오픈"
+}
+
+
+_G.pg.base.gametip.mall_rank_close = {
+	tip = "휴업"
+}
+
+
+_G.pg.base.gametip.mall_rank_s = {
+	tip = "S"
+}
+
+
+_G.pg.base.gametip.mall_rank_a = {
+	tip = "A"
+}
+
+
+_G.pg.base.gametip.mall_rank_b = {
+	tip = "B"
+}
+
+
+_G.pg.base.gametip.mall_staff_in_floor = {
+	tip = "근무 중"
+}
+
+
+_G.pg.base.gametip.mall_staff_in_order = {
+	tip = "처리 중"
+}
+
+
+_G.pg.base.gametip.mall_remove_floor_sure = {
+	tip = "쇼핑몰 매장에 배치 중입니다. 만쥬 오더 처리에 배정하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_doing = {
+	tip = "처리 중"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_complete = {
+	tip = "오더 완성"
+}
+
+
+_G.pg.base.gametip.mall_input_btn = {
+	tip = "드림 기분 제출"
+}
+
+
+_G.pg.base.gametip.mall_order_btn_start = {
+	tip = "처리 시작"
+}
+
+
+_G.pg.base.gametip.mall_upgrade_title = {
+	tip = "쇼핑몰 LV이 상승했습니다!"
+}
+
+
+_G.pg.base.gametip.mall_right_title_summary = {
+	tip = "LV UP 조건"
+}
+
+
+_G.pg.base.gametip.mall_change_floor_sure = {
+	tip = "점원은 다른 층에 배치되어 있습니다. 선택 중인 층에 배치하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.mall_change_order_sure = {
+	tip = "만쥬 오더를 처리하는 중이라, 선택 중인 층에 배치할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.mall_award_can_get = {
+	tip = "수령 가능"
+}
+
+
+_G.pg.base.gametip.mall_award_get = {
+	tip = "수령 완료"
+}
+
+
+_G.pg.base.gametip.mall_order_wait_tip = {
+	tip = "다음 오더:"
+}
+
+
+_G.pg.base.gametip.mall_order_unlock_lv_tip = {
+	tip = "쇼핑몰 LV을 상승시켜 오더를\n출현시키세요."
+}
+
+
+_G.pg.base.gametip.mall_order_need_staff_header = {
+	tip = "필요 점원 수량:"
+}
+
+
+_G.pg.base.gametip.mall_get_all_btn = {
+	tip = "일괄 수령"
+}
+
+
+_G.pg.base.gametip.mall_award_got = {
+	tip = "수령 완료"
+}
+
+
+_G.pg.base.gametip.loading_picture_lack = {
+	tip = "커스텀 로딩 이미지가 미활성화 상태입니다."
+}
+
+
+_G.pg.base.gametip.loading_title = {
+	tip = "현재 로딩 이미지"
+}
+
+
+_G.pg.base.gametip.loading_start_set = {
+	tip = "커스텀 로딩 이미지 활성화"
+}
+
+
+_G.pg.base.gametip.loading_pic_chosen = {
+	tip = "선택 완료"
+}
+
+
+_G.pg.base.gametip.loading_pic_tip = {
+	tip = "이전 화면으로 돌아가시겠습니까? (변경 내용이 저장되지 않습니다)"
+}
+
+
+_G.pg.base.gametip.loading_pic_max = {
+	tip = "선택 가능한 최대치를 초과했습니다."
+}
+
+
+_G.pg.base.gametip.loading_pic_min = {
+	tip = "1장 이상 선택하세요."
+}
+
+
+_G.pg.base.gametip.loading_quit_tip = {
+	tip = "커스텀 로딩 이미지가 미활성화 상태면, 로딩 중에 무작위로 이미지가 표시됩니다. 돌아가시겠습니까?"
+}
+
+
+_G.pg.base.gametip.loading_set_tip = {
+	tip = "버튼을 탭하여 이미지를 로딩 이미지로 추가할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.loading_chosen_blank = {
+	tip = "조건을 만족하는 이미지가 없습니다."
+}
+
+
+_G.pg.base.gametip.sort_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sortgame_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivity_subtitle_1 = {
+	tip = "럭셔리! 드림! 골든 베이"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivity_subtitle_2 = {
+	tip = "캐리어 대작전!"
+}
+
+
+_G.pg.base.gametip.mall_unlock_date_tip = {
+	tip = "$1월 $2일에 경영을 재개할 수 있습니다(새로운 보상 오픈 예정)."
+}
+
+
+_G.pg.base.gametip.mall_finished_all_tip = {
+	tip = "모든 보상 획득 완료"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_1 = {
+	tip = "디폴트"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_2 = {
+	tip = "진척"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_3 = {
+	tip = "전체"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_4 = {
+	tip = "오픈 가능"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_5 = {
+	tip = "미오픈"
+}
+
+
+_G.pg.base.gametip.memory_filter_option_6 = {
+	tip = "캐릭터 미획득"
+}
+
+
+_G.pg.base.gametip.memory_filter_title_1 = {
+	tip = "필터링"
+}
+
+
+_G.pg.base.gametip.memory_filter_title_2 = {
+	tip = "FILTER"
+}
+
+
+_G.pg.base.gametip.memory_goto = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.memory_unlock = {
+	tip = "탭하여 오픈"
+}
+
+
+_G.pg.base.gametip.mall_char_lock = {
+	tip = "오더 완료 시 오픈"
+}
+
+
+_G.pg.base.gametip.mall_title_lock = {
+	tip = "쇼핑몰 LV UP 시\n오픈"
+}
+
+
+_G.pg.base.gametip.mall_continue_to_unlock = {
+	tip = "쇼핑몰 LV UP 시 오픈"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_1 = {
+	tip = "성인 전의 동맹"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_2 = {
+	tip = "심잠 보급지"
+}
+
+
+_G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_3 = {
+	tip = "UR 교환"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_1 = {
+	tip = "로그인 보너스"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_2 = {
+	tip = "특별 축제"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_3 = {
+	tip = "동원지령"
+}
+
+
+_G.pg.base.gametip.anniversary_nine_main_page = {
+	tip = "기념장"
+}
+
+
 _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
 	tip = "아름다운 휴일"
 }
 
 
 _G.pg.base.gametip.Outpost_20260514_Detail = {
-	tip = "상세 확인"
+	tip = "상세 내용 확인"
+}
+
+
+_G.pg.base.gametip.mall_level_max = {
+	tip = "쇼핑몰 Lv이 최대에 달했습니다."
+}
+
+
+_G.pg.base.gametip.mall_staff_position_full_tip = {
+	tip = "점원 배치 수가 최대에 달해, 배치할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.mall_gold_input_success_tip = {
+	tip = "제출했습니다!"
+}
+
+
+_G.pg.base.gametip.mall_floor_all_empty_tip = {
+	tip = "오픈한 매장에 점원을 배치하세요."
+}
+
+
+_G.pg.base.gametip.mall_unlock_date_tip2 = {
+	tip = "$1월 $2일에 오픈"
+}
+
+
+_G.pg.base.gametip.mall_order_finished_all_tip = {
+	tip = "모든 만쥬 오더를 처리했습니다."
 }

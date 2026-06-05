@@ -2,7 +2,7 @@ slot0 = class("TaskProxy", import(".NetProxy"))
 slot0.TASK_ADDED = "task added"
 slot0.TASK_UPDATED = "task updated"
 slot0.TASK_REMOVED = "task removed"
-slot0.TASK_FINISH = "task finish"
+slot0.TASK_DELETE = "task deleted"
 slot0.TASK_PROGRESS_UPDATE = "task TASK_PROGRESS_UPDATE"
 slot0.WEEK_TASK_UPDATED = "week task updated"
 slot0.WEEK_TASKS_ADDED = "week tasks added"
@@ -32,7 +32,7 @@ slot0.register = function(slot0)
 	end)
 	slot0:on(20004, function (slot0)
 		for slot4, slot5 in ipairs(slot0.id_list) do
-			uv0:removeTaskById(slot5)
+			uv0:deleteTaskById(slot5)
 		end
 	end)
 	slot0:on(20015, function (slot0)
@@ -162,7 +162,7 @@ end
 
 slot0.removeActData = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
-		slot0:removeTaskById(slot7.id)
+		slot0:deleteTaskById(slot7.id)
 	end
 end
 
@@ -183,7 +183,7 @@ slot0.clearTimeOut = function(slot0)
 	end
 
 	for slot6 = 1, #slot2 do
-		slot0:removeTask(slot2[slot6])
+		slot0:deleteTask(slot2[slot6])
 	end
 end
 
@@ -342,8 +342,28 @@ slot0.removeTaskById = function(slot0, slot1)
 	slot0.finishData[slot1].submitTime = pg.TimeMgr.GetInstance():GetServerTime()
 	slot0.data[slot1] = nil
 
-	slot0.facade:sendNotification(uv0.TASK_REMOVED, slot2)
+	slot0:sendNotification(uv0.TASK_REMOVED, slot2)
 	slot0:checkTmpTask(slot1)
+end
+
+slot0.deleteTask = function(slot0, slot1)
+	assert(isa(slot1, Task), "should be an instance of Task")
+	slot0:deleteTaskById(slot1.id)
+end
+
+slot0.deleteTaskById = function(slot0, slot1)
+	if slot0.submittingTask[slot1] then
+		print("正在提交的任务不予删除，id:" .. slot1)
+
+		return
+	end
+
+	slot0.data[slot1] = nil
+	slot0.finishData[slot1] = nil
+
+	if tobool(slot0.data[slot1] or slot0.finishData[slot1]) then
+		slot0:sendNotification(uv0.TASK_DELETE, slot2)
+	end
 end
 
 slot0.getmingshiTaskID = function(slot0, slot1)

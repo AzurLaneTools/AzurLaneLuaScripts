@@ -364,6 +364,16 @@ pg.task_meta_data_template.all = {
 	100533,
 	100534,
 	100535,
+	100551,
+	100552,
+	100553,
+	100554,
+	100555,
+	100561,
+	100562,
+	100563,
+	100564,
+	100565,
 	200001,
 	200002,
 	200003,
@@ -543,7 +553,15 @@ pg.task_meta_data_template.all = {
 	200441,
 	200442,
 	200443,
-	200444
+	200444,
+	200461,
+	200462,
+	200463,
+	200464,
+	200471,
+	200472,
+	200473,
+	200474
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3435,6 +3453,86 @@ end)()
 		target_num = 1,
 		desc = "레겐스부르크·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	}
+	pg.base.task_meta_data_template[100551] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100551,
+		target_num = 1,
+		desc = "쾨니히스베르크·META를 편성한 함대로 전투에서 1회 승리"
+	}
+	pg.base.task_meta_data_template[100552] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100552,
+		target_num = 1,
+		desc = "쾨니히스베르크·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100553] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100553,
+		target_num = 1,
+		desc = "쾨니히스베르크·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100554] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100554,
+		target_num = 1,
+		desc = "쾨니히스베르크·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100555] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100555,
+		target_num = 1,
+		desc = "쾨니히스베르크·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100561] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970605",
+		id = 100561,
+		target_num = 1,
+		desc = "엘베·META를 편성한 함대로 전투에서 1회 승리"
+	}
+	pg.base.task_meta_data_template[100562] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970605",
+		id = 100562,
+		target_num = 1,
+		desc = "엘베·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100563] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970605",
+		id = 100563,
+		target_num = 1,
+		desc = "엘베·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100564] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970605",
+		id = 100564,
+		target_num = 1,
+		desc = "엘베·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100565] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970605",
+		id = 100565,
+		target_num = 1,
+		desc = "엘베·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	}
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3675,6 +3773,8 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 베스탈·META를 사용해 70 이상 레벨의 적 1회 격파"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200083] = {
 		target_id = "90",
 		sub_type = 302,
@@ -3755,8 +3855,6 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 하타카제·META를 사용해 100 이상 레벨의 적 1회 격파"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200111] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4477,6 +4575,8 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 그렌빌·META를 포함한 함대로 Lv70 이상의 적 격파"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200333] = {
 		target_id = "90",
 		sub_type = 302,
@@ -4557,8 +4657,6 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 카와카제·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200361] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4878,5 +4976,69 @@ end)()
 		id = 200444,
 		target_num = 1,
 		desc = "대형작전에서 레겐스부르크·META를 포함한 함대로 Lv100 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200461] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200461,
+		target_num = 1,
+		desc = "대형작전에서 쾨니히스베르크·META를 포함한 함대로 1회 승리"
+	}
+	pg.base.task_meta_data_template[200462] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200462,
+		target_num = 1,
+		desc = "대형작전에서 쾨니히스베르크·META를 포함한 함대로 Lv70 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200463] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200463,
+		target_num = 1,
+		desc = "대형작전에서 쾨니히스베르크·META를 포함한 함대로 Lv90 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200464] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200464,
+		target_num = 1,
+		desc = "대형작전에서 쾨니히스베르크·META를 포함한 함대로 Lv100 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200471] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970605",
+		id = 200471,
+		target_num = 1,
+		desc = "대형작전에서 엘베·META를 포함한 함대로 1회 승리"
+	}
+	pg.base.task_meta_data_template[200472] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970605",
+		id = 200472,
+		target_num = 1,
+		desc = "대형작전에서 엘베·META를 포함한 함대로 Lv70 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200473] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970605",
+		id = 200473,
+		target_num = 1,
+		desc = "대형작전에서 엘베·META를 포함한 함대로 Lv90 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200474] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970605",
+		id = 200474,
+		target_num = 1,
+		desc = "대형작전에서 엘베·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 end)()

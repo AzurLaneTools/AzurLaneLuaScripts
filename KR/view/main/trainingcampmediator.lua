@@ -38,14 +38,11 @@ slot0.register = function(slot0)
 	end)
 end
 
-slot0.TASK_ADDED = "task added"
-slot0.TASK_UPDATED = "task updated"
-slot0.TASK_REMOVED = "task removed"
-
 slot0.listNotificationInterests = function(slot0)
 	return {
 		TaskProxy.TASK_UPDATED,
 		TaskProxy.TASK_REMOVED,
+		TaskProxy.TASK_DELETE,
 		GAME.SUBMIT_TASK_DONE,
 		ActivityProxy.ACTIVITY_OPERATION_DONE
 	}
@@ -54,7 +51,7 @@ end
 slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED then
+	if slot1:getName() == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED or slot2 == TaskProxy.TASK_DELETE then
 		slot0.viewComponent:switchPageByMediator()
 		slot0.viewComponent:updateSwitchBtnsTag()
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then

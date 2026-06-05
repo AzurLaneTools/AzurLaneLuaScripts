@@ -162,16 +162,17 @@ slot0.InitDetail = function(slot0)
 		slot2:Find("frame/container/record_2/equip_btn"),
 		slot2:Find("frame/container/record_3/equip_btn")
 	}
-	slot1 = slot0.quickPanel
-	slot0.nameSearchInput = slot1:Find("serachPanel/search")
-	slot1 = slot0.nameSearchInput
-	slot0.nameSearchText = slot1:Find("holder")
+	slot0.searchBar = RecordableSearchBar.New(RecordableSearchBar.CreateData({
+		uiName = "RecordableSearchBarUI4ShipDetailView",
+		holder = i18n("search_equipment"),
+		onInputChanged = function ()
+			uv0:updateQuickPanel(true)
+		end,
+		key = slot0.__cname,
+		parent = slot0.quickPanel,
+		anchoredPosition = Vector3(-623, -34, 0)
+	}))
 
-	setText(slot0.nameSearchText, i18n("search_equipment"))
-	setInputText(slot0.nameSearchInput, "")
-	onInputChanged(slot0, slot0.nameSearchInput, function ()
-		uv0:updateQuickPanel(true)
-	end)
 	setActive(slot0.detailPanel, true)
 	setActive(slot0.attrs, true)
 	setActive(slot0.recordPanel, false)
@@ -512,7 +513,7 @@ slot0.OnSelected = function(slot0, slot1)
 end
 
 slot0.UpdateUI = function(slot0)
-	setInputText(slot0.nameSearchInput, "")
+	slot0.searchBar:ClearInputText()
 
 	slot1 = slot0:GetShipVO()
 
@@ -733,7 +734,7 @@ slot0.getEquipments = function(slot0)
 	slot1 = getProxy(BayProxy)
 	slot2 = slot0:GetShipVO()
 	slot6 = getProxy(EquipmentProxy):getEquipmentsByFillter(slot2:getShipType(), pg.ship_data_template[slot2.configId]["equip_" .. slot0.selectedEquip.index])
-	slot7 = getInputText(slot0.nameSearchInput)
+	slot7 = slot0.searchBar:GetInputText()
 
 	if slot0.equipingFlag then
 		slot11 = function(slot0, slot1)
@@ -975,7 +976,6 @@ slot0.clearListener = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
-	triggerToggle(slot0.quickPanel:Find("serachPanel/Image"), true)
 	setParent(slot0.randomFlagToggle, slot0._tf)
 	slot0:clearListener()
 	removeAllChildren(slot0.equipmentsGrid)
@@ -1003,6 +1003,12 @@ slot0.OnDestroy = function(slot0)
 	slot0.shipDetailLogicPanel:detach()
 
 	slot0.shareData = nil
+
+	if slot0.searchBar then
+		slot0.searchBar:Dispose()
+
+		slot0.searchBar = nil
+	end
 end
 
 return slot0

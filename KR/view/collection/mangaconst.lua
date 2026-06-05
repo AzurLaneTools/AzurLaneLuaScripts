@@ -39,4 +39,12 @@ slot0.isMangaLikeByID = function(slot0)
 	return table.contains(getProxy(AppreciateProxy):getMangaLikeIDList(), slot0)
 end
 
+slot0.GetMangaPicPathByID = function(slot0)
+	if not pg.cartoon[slot0] then
+		return nil
+	end
+
+	return uv0.MANGA_PATH_PREFIX .. slot1.resource
+end
+
 return slot0

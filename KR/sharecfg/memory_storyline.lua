@@ -97,7 +97,8 @@ pg.memory_storyline.all = {
 	92,
 	93,
 	94,
-	95
+	95,
+	96
 }
 pg.base = pg.base or {}
 pg.base.memory_storyline = {}
@@ -2556,18 +2557,48 @@ pg.base.memory_storyline = {}
 		}
 	}
 	pg.base.memory_storyline[95] = {
+		description = [[
+「기사, 괴츠 폰 베를리힝겐.」
+「이 성인 앞에서 엄숙히 맹세합니다.」
+「어떤 대가를 치르더라도 목숨을 아끼지 않고」
+「반드시 이 신성한 대지를 지키겠습니다.」
+「계속 싸워, 이윽고――」]],
+		name = "성인 전의 동맹",
+		column = 59,
+		world_id = "",
+		bgm = "theme-hrr",
+		row = 0,
+		chapter = 5,
+		memory_lock = 0,
+		id = 95,
+		icon = "InterludeOne_2",
+		sort = 1,
+		memory_id = {
+			1,
+			365
+		},
+		shipnation = {
+			4,
+			10,
+			6
+		},
+		link_event = {
+			96
+		}
+	}
+	pg.base.memory_storyline[96] = {
 		description = "敬请期待",
 		name = "敬请期待",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 59,
+		column = 60,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 95,
+		id = 96,
 		icon = "",
 		sort = 0
 	}

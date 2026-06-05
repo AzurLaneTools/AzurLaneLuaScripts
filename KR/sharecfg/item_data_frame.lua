@@ -650,12 +650,12 @@ pg.base.item_data_frame = {}
 		scene = {}
 	}
 	pg.base.item_data_frame[341] = {
-		name = "신성 맹약",
-		gain_by = "",
+		name = "성스러운 맹약",
+		gain_by = "성인 전의 동맹",
 		time_second = 0,
 		id = 341,
 		time_limit_type = 0,
-		desc = "추후 진행 예정인 이벤트에서 획득 가능",
+		desc = "「검으로 약속하고, 서한으로 서약하노라. 신성한 동맹은 목숨이 다할 때까지 계속되리니.」\n<color=#A7A7AA>「성인 전의 동맹」 이벤트 참가</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[401] = {

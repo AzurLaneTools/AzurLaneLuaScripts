@@ -6,6 +6,7 @@ slot0.CHALLANGE = 4
 slot0.MINI_GAME = 5
 slot0.SHOP_BUY = 6
 slot0.GO_TASK = 7
+slot0.MINI_GAME_ACT = 8
 
 slot0.OnInit = function(slot0)
 	slot0.shopProxy = getProxy(ShopsProxy)
@@ -223,6 +224,16 @@ slot0.taskTypeDic = {
 		end
 
 		return slot4 .. "/" .. #slot1, slot3
+	end,
+	[slot0.MINI_GAME_ACT] = function (slot0, slot1, slot2)
+		slot4 = slot1[2]
+		slot6 = getProxy(MiniGameProxy):GetHubByGameId(slot1[1]).count == 0
+
+		return slot6 and "1/1" or "0/1", not slot6 and function ()
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
+				id = uv0
+			})
+		end or nil
 	end
 }
 

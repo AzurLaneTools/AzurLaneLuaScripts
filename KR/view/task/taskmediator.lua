@@ -132,6 +132,7 @@ slot0.listNotificationInterests = function(slot0)
 		TaskProxy.TASK_ADDED,
 		TaskProxy.TASK_UPDATED,
 		TaskProxy.TASK_REMOVED,
+		TaskProxy.TASK_DELETE,
 		GAME.SUBMIT_TASK_DONE,
 		uv0.TASK_FILTER,
 		GAME.BEGIN_STAGE_DONE,
@@ -174,7 +175,7 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 
 		slot0.viewComponent:updateTask(slot3)
-	elseif slot2 == TaskProxy.TASK_REMOVED then
+	elseif slot2 == TaskProxy.TASK_REMOVED or slot2 == TaskProxy.TASK_DELETE then
 		slot0.viewComponent:removeTask(slot3)
 	elseif slot2 == uv0.TASK_FILTER then
 		slot0.viewComponent:GoToFilter(slot3)

@@ -16404,6 +16404,68 @@ _G.pg.base.item_data_statistics[21059] = {
 }
 
 
+_G.pg.base.item_data_statistics[21060] = {
+	open_directly = 0,
+	name = "결정: 쾨니히스베르크·META",
+	type = 4,
+	display = "쾨니히스베르크·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21060",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21061] = {
+	open_directly = 0,
+	name = "결정: 엘베·META",
+	type = 4,
+	display = "엘베·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21061",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21061,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -17199,6 +17261,37 @@ _G.pg.base.item_data_statistics[21922] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21922,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21923] = {
+	open_directly = 0,
+	name = "엘베·META 동기화 수치",
+	type = 4,
+	display = "엘베·META의 동기화 수치",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21923",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21923,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -29432,6 +29525,131 @@ _G.pg.base.item_data_statistics[30383] = {
 }
 
 
+_G.pg.base.item_data_statistics[30384] = {
+	open_directly = 1,
+	name = "장비스킨 상자 (샤이닝 주얼리)",
+	type = 11,
+	display = "랜덤으로 장비스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshehuapaidui",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30381",
+	id = 30384,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4366,
+			1
+		},
+		{
+			9,
+			4367,
+			1
+		},
+		{
+			9,
+			4368,
+			1
+		},
+		{
+			9,
+			4369,
+			1
+		},
+		{
+			9,
+			4370,
+			1
+		},
+		{
+			9,
+			4371,
+			1
+		},
+		{
+			9,
+			4372,
+			1
+		},
+		{
+			9,
+			4373,
+			1
+		},
+		{
+			9,
+			4374,
+			1
+		},
+		{
+			9,
+			4375,
+			1
+		},
+		{
+			9,
+			4376,
+			1
+		},
+		{
+			9,
+			4377,
+			1
+		},
+		{
+			9,
+			4378,
+			1
+		},
+		{
+			9,
+			4379,
+			1
+		},
+		{
+			9,
+			4380,
+			1
+		},
+		{
+			9,
+			4381,
+			1
+		},
+		{
+			9,
+			4382,
+			1
+		},
+		{
+			9,
+			4383,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -31209,6 +31427,58 @@ _G.pg.base.item_data_statistics[30434] = {
 		{
 			9,
 			2120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30435] = {
+	open_directly = 1,
+	name = "무작위 장비 스킨",
+	type = 11,
+	display = "크루즈 보상 장비 스킨을 무작위로 하나 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111229",
+	id = 30435,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2121,
+			1
+		},
+		{
+			9,
+			2122,
+			1
+		},
+		{
+			9,
+			2123,
+			1
+		},
+		{
+			9,
+			2124,
 			1
 		}
 	},
@@ -45248,6 +45518,219 @@ _G.pg.base.item_data_statistics[30567] = {
 }
 
 
+_G.pg.base.item_data_statistics[30568] = {
+	open_directly = 0,
+	name = "지향형 장비스킨 상자 (샤이닝 주얼리)",
+	type = 13,
+	display = "사용하면 장비스킨(샤이닝 주얼리) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshehuapaiduizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30568,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4366,
+			1
+		},
+		{
+			9,
+			4367,
+			1
+		},
+		{
+			9,
+			4368,
+			1
+		},
+		{
+			9,
+			4369,
+			1
+		},
+		{
+			9,
+			4370,
+			1
+		},
+		{
+			9,
+			4371,
+			1
+		},
+		{
+			9,
+			4372,
+			1
+		},
+		{
+			9,
+			4373,
+			1
+		},
+		{
+			9,
+			4374,
+			1
+		},
+		{
+			9,
+			4375,
+			1
+		},
+		{
+			9,
+			4376,
+			1
+		},
+		{
+			9,
+			4377,
+			1
+		},
+		{
+			9,
+			4378,
+			1
+		},
+		{
+			9,
+			4379,
+			1
+		},
+		{
+			9,
+			4380,
+			1
+		},
+		{
+			9,
+			4381,
+			1
+		},
+		{
+			9,
+			4382,
+			1
+		},
+		{
+			9,
+			4383,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4366,
+			1
+		},
+		{
+			9,
+			4367,
+			1
+		},
+		{
+			9,
+			4368,
+			1
+		},
+		{
+			9,
+			4369,
+			1
+		},
+		{
+			9,
+			4370,
+			1
+		},
+		{
+			9,
+			4371,
+			1
+		},
+		{
+			9,
+			4372,
+			1
+		},
+		{
+			9,
+			4373,
+			1
+		},
+		{
+			9,
+			4374,
+			1
+		},
+		{
+			9,
+			4375,
+			1
+		},
+		{
+			9,
+			4376,
+			1
+		},
+		{
+			9,
+			4377,
+			1
+		},
+		{
+			9,
+			4378,
+			1
+		},
+		{
+			9,
+			4379,
+			1
+		},
+		{
+			9,
+			4380,
+			1
+		},
+		{
+			9,
+			4381,
+			1
+		},
+		{
+			9,
+			4382,
+			1
+		},
+		{
+			9,
+			4383,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "지향형 부속T4",
@@ -49113,6 +49596,53 @@ _G.pg.base.item_data_statistics[40070] = {
 }
 
 
+_G.pg.base.item_data_statistics[40071] = {
+	open_directly = 1,
+	name = "아이템을 대량으로 획득할 수 있습니다.",
+	type = 17,
+	display = "아이템을 대량으로 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/web_2511_1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4072",
+	id = 40071,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			100
+		},
+		{
+			1,
+			1,
+			75000
+		},
+		{
+			2,
+			15003,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40074] = {
 	open_directly = 1,
 	name = "전투 UI·메이드 카페(기초)",
@@ -49271,6 +49801,189 @@ _G.pg.base.item_data_statistics[40078] = {
 			1,
 			14,
 			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40080] = {
+	open_directly = 1,
+	name = "전투 UI·호화로운 골든(기초)",
+	type = 17,
+	display = "구매하면 전투 UI 테마·호화로운 골든, 물자×1000 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui9",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4080",
+	id = 40080,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			208,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40081] = {
+	open_directly = 1,
+	name = "전투 UI·호화로운 골든(럭셔리)",
+	type = 17,
+	display = "구매하면 전투 UI 테마·호화로운 골든, 다이아×3060 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui9",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4081",
+	id = 40081,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			208,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40082] = {
+	open_directly = 1,
+	name = "함선 육성 종합 보급 패키지",
+	type = 17,
+	display = "구매하면 시제형 부린 MKⅡ×5, 공격 교본 T4×5, 방어 교본 T4×5, 지원 교본T4×5, 함선 연습 데이터 T2×100 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/web_2605_1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4082",
+	id = 40082,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			5
+		},
+		{
+			2,
+			16004,
+			5
+		},
+		{
+			2,
+			16014,
+			5
+		},
+		{
+			2,
+			16024,
+			5
+		},
+		{
+			2,
+			16502,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40083] = {
+	open_directly = 1,
+	name = "건조 종합 보급 패키지",
+	type = 17,
+	display = "구매하면 성정 큐브×100, 물자×7500, 고속건조재×50 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/web_2605_2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4083",
+	id = 40083,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40142,
+			1
+		},
+		{
+			2,
+			42030,
+			343
 		}
 	},
 	price = {},
@@ -51063,6 +51776,139 @@ _G.pg.base.item_data_statistics[40141] = {
 	shiptrans_id = {},
 	combination_display = {},
 	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40142] = {
+	open_directly = 0,
+	name = "PR 특별계획함 교환 티켓·종합형Ⅰ",
+	type = 17,
+	display = [[
+개발 도크 화면에서 1~4기 PR 특별계획함(Lv1)을 1명 선택해서 획득 가능. 
+ <color=#92fc63>대상 캐릭터를 모두 입수한 경우</color>, 창고에서 사용하면 다음 아이템 획득 가능
+ 과학 연구 테스트 데이터·5기×300
+지향형 개조 도면 T3×5
+지향형 개조 도면 T2×10
+성정 큐브×5
+물자×20000]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/research_1_4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4211",
+	id = 40142,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20104,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {
+		{
+			ship_unlock,
+			29901
+		},
+		{
+			ship_unlock,
+			29902
+		},
+		{
+			ship_unlock,
+			39901
+		},
+		{
+			ship_unlock,
+			39902
+		},
+		{
+			ship_unlock,
+			49901
+		},
+		{
+			ship_unlock,
+			89901
+		},
+		{
+			ship_unlock,
+			19901
+		},
+		{
+			ship_unlock,
+			19902
+		},
+		{
+			ship_unlock,
+			39903
+		},
+		{
+			ship_unlock,
+			99901
+		},
+		{
+			ship_unlock,
+			29903
+		},
+		{
+			ship_unlock,
+			49903
+		},
+		{
+			ship_unlock,
+			49904
+		},
+		{
+			ship_unlock,
+			89902
+		},
+		{
+			ship_unlock,
+			19903
+		},
+		{
+			ship_unlock,
+			49906
+		},
+		{
+			ship_unlock,
+			69901
+		}
+	}
 }
 
 
@@ -96135,6 +96981,37 @@ _G.pg.base.item_data_statistics[59857] = {
 }
 
 
+_G.pg.base.item_data_statistics[59858] = {
+	open_directly = 0,
+	name = "九周年纪念币",
+	type = 1,
+	display = "九周年活动「TH9纪念签到」获取——碧蓝九久，上舰开浪",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/59858",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59858,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59900] = {
 	open_directly = 0,
 	name = "코어 데이터",
@@ -106065,6 +106942,298 @@ _G.pg.base.item_data_statistics[60580] = {
 }
 
 
+_G.pg.base.item_data_statistics[60581] = {
+	open_directly = 0,
+	name = "여름 초대장 2026",
+	type = 21,
+	display = "사용하면 SSR 함선 중 1명을 골라 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60581,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3301,
+		3302,
+		3303,
+		3304,
+		3305,
+		3306,
+		3307,
+		3308
+	},
+	limit = {},
+	open_ui = {
+		"login_year",
+		"t_ninth"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60582] = {
+	open_directly = 0,
+	name = "재너스의 답례",
+	type = 1,
+	display = "초대에 대한 재너스의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60582,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60583] = {
+	open_directly = 0,
+	name = "엠덴의 답례",
+	type = 1,
+	display = "초대에 대한 엠덴의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60583,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60584] = {
+	open_directly = 0,
+	name = "시리우스의 답례",
+	type = 1,
+	display = "초대에 대한 시리우스의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60584,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60585] = {
+	open_directly = 0,
+	name = "타슈켄트의 답례",
+	type = 1,
+	display = "초대에 대한 타슈켄트의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60585,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60586] = {
+	open_directly = 0,
+	name = "그라프 체펠린의 답례",
+	type = 1,
+	display = "초대에 대한 그라프 체펠린의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60586,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60587] = {
+	open_directly = 0,
+	name = "다이호의 답례",
+	type = 1,
+	display = "초대에 대한 다이호의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60587,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60588] = {
+	open_directly = 0,
+	name = "소비에츠카야 벨로루시아의 답례",
+	type = 1,
+	display = "초대에 대한 소비에츠카야 벨로루시아의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60588,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60589] = {
+	open_directly = 0,
+	name = "볼티모어의 답례",
+	type = 1,
+	display = "초대에 대한 볼티모어의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60589,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[68063] = {
 	open_directly = 1,
 	name = "换装抵扣礼包(沙滩的慵懒主宰)",
@@ -110080,6 +111249,73 @@ _G.pg.base.item_data_statistics[81233] = {
 }
 
 
+_G.pg.base.item_data_statistics[81235] = {
+	open_directly = 1,
+	name = "수영복 패키지(2026)·I",
+	type = 17,
+	display = "랜덤 스킨*1, 고급 지향형 강화 유닛·8기×2, 다이아×2026, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai35",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998331",
+	id = 81235,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86227,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81407] = {
 	open_directly = 1,
 	name = "봄날 선택 패키지1",
@@ -110770,6 +112006,43 @@ _G.pg.base.item_data_statistics[81439] = {
 		{
 			7,
 			405052,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81440] = {
+	open_directly = 1,
+	name = "仅予一人的华宴",
+	type = 17,
+	display = "指挥官，邀请函上说“诚邀胡德女士共赴一场特别的宴会”……那么所谓特别之处，难道是仅有你我二人的景致和这指尖的惊喜吗？",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/hude_6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "908111",
+	id = 81440,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			204035,
 			1
 		}
 	},

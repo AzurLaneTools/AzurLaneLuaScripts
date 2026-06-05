@@ -1218,6 +1218,25 @@ pg.equip_skin_template.all = {
 	4363,
 	4364,
 	4365,
+	4366,
+	4367,
+	4368,
+	4369,
+	4370,
+	4371,
+	4372,
+	4373,
+	4374,
+	4375,
+	4376,
+	4377,
+	4378,
+	4379,
+	4380,
+	4381,
+	4382,
+	4383,
+	4384,
 	1001,
 	1002,
 	1003,
@@ -1496,6 +1515,10 @@ pg.equip_skin_template.all = {
 	2118,
 	2119,
 	2120,
+	2121,
+	2122,
+	2123,
+	2124,
 	3001,
 	3002,
 	3003,
@@ -1527,7 +1550,6 @@ pg.equip_skin_template.all = {
 	3046,
 	3047,
 	3048,
-	3049,
 	3050,
 	3051,
 	3052,
@@ -1544,7 +1566,12 @@ pg.equip_skin_template.all = {
 	3067,
 	3068,
 	3069,
-	3074
+	3074,
+	3079,
+	3080,
+	3081,
+	3082,
+	3083
 }
 pg.base = pg.base or {}
 pg.base.equip_skin_template = {}
@@ -50199,6 +50226,782 @@ end)()
 			54014
 		}
 	}
+	pg.base.equip_skin_template[4366] = {
+		hit_sfx = "",
+		bullet_name = "zidan_fangxingbaoshi",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102201",
+		name = "캔디 주얼탄",
+		desc = "정교하게 세공된 커팅이 찬란하게 빛난다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4366,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4367] = {
+		hit_sfx = "",
+		bullet_name = "zidan_xinxingzuanshi",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102202",
+		name = "하트 다이아탄",
+		desc = "투명하게 빛나는 보석이 마음을 사로잡는다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4367,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_xinxingzuanshi_hit",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4368] = {
+		hit_sfx = "",
+		bullet_name = "zidan_jinzhu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102203",
+		name = "골든 비즈탄",
+		desc = "양손 가득한 은은한 사치.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4368,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4369] = {
+		hit_sfx = "",
+		bullet_name = "yulei_zuanshishoubiao",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102204",
+		name = "주얼리 워치 어뢰",
+		desc = "손끝이 스치는 순간마저도 반짝인다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4369,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_zuanshishoubiao_hit",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4370] = {
+		hit_sfx = "",
+		bullet_name = "yulei_shuangcengshoulian",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102205",
+		name = "블루 브레이슬릿 어뢰",
+		desc = "손목 위의 푸른 은하가 차갑고도 요염하게 빛난다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4370,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_shuangcengshoulian_hit",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4371] = {
+		hit_sfx = "",
+		bullet_name = "yulei_shuijingerzhui",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102206",
+		name = "크리스털 이어링 어뢰",
+		desc = "흔들리는 수정이 가득한 별빛을 비춘다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4371,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4372] = {
+		hit_sfx = "",
+		bullet_name = "paodan_zhenzhuxianglian",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102207",
+		name = "문 네크리스 포탄",
+		desc = "목에 걸린 보석의 따스한 온기.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4372,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4373] = {
+		hit_sfx = "",
+		bullet_name = "paodan_shoutibao",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102208",
+		name = "돈가방 포탄",
+		desc = "들고 있는 건 가방이 아니라, 사치 그 자체.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4373,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4374] = {
+		hit_sfx = "",
+		bullet_name = "paodan_huangguan",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102209",
+		name = "블루 크라운 포탄",
+		desc = "부와 지위를 상징하는 전설의 왕관.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4374,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4375] = {
+		hit_sfx = "",
+		bullet_name = "feiji_gouwujiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102210",
+		name = "쇼핑 만쥬 (뇌격)",
+		desc = "이것도 저것도 다 살거야 쥬쥬~",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4375,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_shuangcengshoulian",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+	pg.base.equip_skin_template[4376] = {
+		hit_sfx = "",
+		bullet_name = "feiji_gouwujiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102210",
+		name = "쇼핑 만쥬 (전투)",
+		desc = "이것도 저것도 다 살거야 쥬쥬~",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_shoutibao",
+		id = 4376,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4377] = {
+		hit_sfx = "",
+		bullet_name = "feiji_gouwujiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102210",
+		name = "쇼핑 만쥬 (폭격)",
+		desc = "이것도 저것도 다 살거야 쥬쥬~",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_shoutibao",
+		id = 4377,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
+	pg.base.equip_skin_template[4378] = {
+		hit_sfx = "",
+		bullet_name = "feiji_haochejiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102211",
+		name = "슈퍼카 만쥬 (뇌격)",
+		desc = "NOS, 그것은 폭발적인 가속.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4378,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_zuanshishoubiao",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+	pg.base.equip_skin_template[4379] = {
+		hit_sfx = "",
+		bullet_name = "feiji_haochejiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102211",
+		name = "슈퍼카 만쥬 (전투)",
+		desc = "NOS, 그것은 폭발적인 가속.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_huangguan",
+		id = 4379,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4380] = {
+		hit_sfx = "",
+		bullet_name = "feiji_haochejiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102211",
+		name = "슈퍼카 만쥬 (폭격)",
+		desc = "NOS, 그것은 폭발적인 가속.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_huangguan",
+		id = 4380,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
+	pg.base.equip_skin_template[4381] = {
+		hit_sfx = "",
+		bullet_name = "feiji_zhubaojiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102212",
+		name = "주얼리 만쥬 (뇌격)",
+		desc = "보석을 두르고, 눈부시고 빛나게.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4381,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_shuijingerzhui",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+	pg.base.equip_skin_template[4382] = {
+		hit_sfx = "",
+		bullet_name = "feiji_zhubaojiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102212",
+		name = "주얼리 만쥬 (전투)",
+		desc = "보석을 두르고, 눈부시고 빛나게.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zhenzhuxianglian",
+		id = 4382,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4383] = {
+		hit_sfx = "",
+		bullet_name = "feiji_zhubaojiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102212",
+		name = "주얼리 만쥬 (폭격)",
+		desc = "보석을 두르고, 눈부시고 빛나게.",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zhenzhuxianglian",
+		id = 4383,
+		themeid = 84,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
+	pg.base.equip_skin_template[4384] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "100075",
+		name = "无惧骄阳（设备）",
+		desc = "어떤 눈부신 햇살이라도 이 모자에 박힌 보석에는 미치지 못한다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4384,
+		themeid = 47,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_tanzhaodeng",
+		orbit_slg = "",
+		orbit_ui = "shebei_tanzhaodengui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.26,
+				2.26,
+				-2.93
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				2.43,
+				-7.26
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
 	pg.base.equip_skin_template[1001] = {
 		hit_sfx = "",
 		bullet_name = "Nep_bullet_shizi",
@@ -52836,6 +53639,8 @@ end)()
 			54010
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[1214] = {
 		hit_sfx = "",
 		bullet_name = "feiji_weifengxianzi",
@@ -53596,8 +54401,6 @@ end)()
 			61504
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[1413] = {
 		hit_sfx = "",
 		bullet_name = "feiji_banxiang",
@@ -56907,6 +57710,8 @@ end)()
 			"wash"
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[2005] = {
 		hit_sfx = "",
 		bullet_name = "",
@@ -57749,8 +58554,6 @@ end)()
 			24000
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[2024] = {
 		hit_sfx = "",
 		bullet_name = "yulei_aixin",
@@ -61324,6 +62127,8 @@ end)()
 			"wash"
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[2109] = {
 		hit_sfx = "",
 		bullet_name = "zidan_queyu",
@@ -61867,6 +62672,187 @@ end)()
 			"wash"
 		}
 	}
+	pg.base.equip_skin_template[2121] = {
+		hit_sfx = "",
+		bullet_name = "zidan_bianhuanchilun",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96845",
+		name = "무한동력 톱니바퀴탄",
+		desc = "수천만 번을 계속해서 회전하는 톱니바퀴.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2121,
+		themeid = 109,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_bianhuanchilun_hit",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[2122] = {
+		hit_sfx = "",
+		bullet_name = "yulei_huocheyancong",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96846",
+		name = "정적의 굴뚝 어뢰",
+		desc = "연기의 흔적은 남았지만, 화로의 불꽃은 어디에도 없나니.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2122,
+		themeid = 109,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_huocheyancong_hit",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[2123] = {
+		hit_sfx = "",
+		bullet_name = "paodan_huntianyi",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96847",
+		name = "의궤 유산 포탄",
+		desc = "별들이 공전하는 위대한 의궤는 사계절을 나누네.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2123,
+		themeid = 109,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[2124] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96848",
+		name = "환몽의 새장",
+		desc = "기관의 명동은 멈추지 않으나, 꿈은 오래된 우리에 갇힌 채.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2124,
+		themeid = 109,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_longzhongniao",
+		orbit_slg = "",
+		orbit_ui = "shebei_longzhongniaoui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.2,
+				-2.03,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-10,
+				-147.5
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
 	pg.base.equip_skin_template[3001] = {
 		hit_sfx = "",
 		bullet_name = "",
@@ -62202,8 +63188,6 @@ end)()
 			54014
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[3013] = {
 		hit_sfx = "",
 		bullet_name = "feiji_tianchengyulei",
@@ -63274,65 +64258,6 @@ end)()
 			"wash"
 		}
 	}
-	pg.base.equip_skin_template[3049] = {
-		hit_sfx = "",
-		bullet_name = "",
-		type = 1,
-		preview_hit_distance = 0,
-		icon = "99170",
-		name = "优米雅设备芙米拉占坑",
-		desc = "优米雅设备占坑",
-		ship_config_id = 100011,
-		derivate_boom = "",
-		id = 3049,
-		themeid = 199,
-		mirror = 0,
-		rarity = 4,
-		orbit_combat = "shebei_youmiyadeng",
-		orbit_slg = "",
-		orbit_ui = "shebei_youmiyadengui",
-		miss_sfx = "",
-		orbit_rotate = false,
-		derivate_bullet = "",
-		fire_fx_name = "",
-		hit_fx_name = "",
-		orbit_combat_anima_change = "",
-		orbit_ui_back = 1,
-		derivate_torpedo = "",
-		ship_skin_id = 0,
-		orbit_slg_bound = "",
-		equip_type = {
-			10
-		},
-		weapon_ids = {
-			101,
-			101
-		},
-		double_char_bone = {
-			1,
-			0,
-			1
-		},
-		orbit_combat_bound = {
-			"face",
-			{
-				-0.1,
-				-1.3,
-				-0.91
-			}
-		},
-		orbit_ui_bound = {
-			"face",
-			{
-				48,
-				132
-			}
-		},
-		orbit_hidden_action = {
-			"sleep",
-			"wash"
-		}
-	}
 	pg.base.equip_skin_template[3050] = {
 		hit_sfx = "",
 		bullet_name = "zidan_bingqiang",
@@ -64129,6 +65054,264 @@ end)()
 			24000,
 			24000,
 			24000
+		}
+	}
+	pg.base.equip_skin_template[3079] = {
+		hit_sfx = "",
+		bullet_name = "yulei_hongsemaichong",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99198",
+		name = "크림슨 펄스 어뢰",
+		desc = "펄스 추진으로 고속 돌격을 감행한다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3079,
+		themeid = 199,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[3080] = {
+		hit_sfx = "",
+		bullet_name = "paodan_xuesebianfu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99199",
+		name = "크림슨 배트 포탄",
+		desc = "춤추듯 내려오는 피의 박쥐는 위기의 전조.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3080,
+		themeid = 199,
+		double_char_bone = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "",
+		orbit_slg = "",
+		orbit_ui = "",
+		orbit_combat_bound = "",
+		miss_sfx = "",
+		orbit_rotate = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[3081] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99200",
+		name = "크림슨 패밀리어",
+		desc = "날아오르는 강철 날개가 적에게 폭격의 비를 퍼붓는다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3081,
+		themeid = 199,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_piaofubianfu",
+		orbit_slg = "",
+		orbit_ui = "shebei_piaofubianfuui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-2.31,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				2,
+				32
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
+	pg.base.equip_skin_template[3082] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99201",
+		name = "크림슨 암즈",
+		desc = "공수를 겸비하고 있는, 자유자재로 늘어나고 줄어드는 팔.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3082,
+		themeid = 199,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_jiqichushou",
+		orbit_slg = "",
+		orbit_ui = "shebei_jiqichushouui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.12,
+				-2.032,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-17,
+				45
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
+	pg.base.equip_skin_template[3083] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99202",
+		name = "노 모어 선샤인",
+		desc = "어떤 눈부신 햇살이라도 이 모자에 박힌 보석에는 미치지 못한다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3083,
+		themeid = 199,
+		mirror = 0,
+		rarity = 4,
+		orbit_combat = "shebei_wujujiaoyang",
+		orbit_slg = "",
+		orbit_ui = "shebei_wujujiaoyangui",
+		miss_sfx = "",
+		orbit_rotate = false,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_combat_anima_change = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.12,
+				-1.96,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-16,
+				143.8
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
 		}
 	}
 end)()

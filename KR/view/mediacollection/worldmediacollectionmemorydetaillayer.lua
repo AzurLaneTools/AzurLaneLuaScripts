@@ -91,7 +91,7 @@ slot0.PlayMemory = function(slot0, slot1)
 
 		slot3 = pg.NewStoryMgr.GetInstance()
 
-		slot3:Play(slot1.story, function ()
+		slot3:ReViewPlay(slot1.story, function ()
 			setActive(uv0.memoryMask, false)
 		end, true)
 	elseif slot1.type == 2 then

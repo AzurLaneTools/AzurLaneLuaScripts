@@ -6,6 +6,7 @@ end
 
 slot0.init = function(slot0)
 	slot0.recallBtn = slot0._tf:Find("Main/recall")
+	slot0.recallBtn2 = slot0._tf:Find("Main/recall2")
 	slot0.cryptolaliaBtn = slot0._tf:Find("Main/cryptolalia")
 	slot0.archiveBtn = slot0._tf:Find("Main/archive")
 	slot0.archiveLockTF = slot0.archiveBtn:Find("lock")
@@ -36,6 +37,9 @@ slot0.didEnter = function(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.recallBtn, function ()
 		uv0:emit(WorldMediaCollectionEntranceMediator.OPEN_RECALL)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.recallBtn2, function ()
+		uv0:emit(WorldMediaCollectionEntranceMediator.OPEN_NEWRECALL)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.cryptolaliaBtn, function ()
 		if LOCK_CRYPTOLALIA then

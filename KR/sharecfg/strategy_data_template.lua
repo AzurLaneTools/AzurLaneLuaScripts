@@ -368,6 +368,13 @@ pg.strategy_data_template.all = {
 	201741,
 	201742,
 	201743,
+	201750,
+	201754,
+	201755,
+	201759,
+	201763,
+	201764,
+	201765,
 	205001,
 	205002,
 	205003,
@@ -4628,6 +4635,93 @@ end)()
 		iconSize = "",
 		buff_type = 0,
 		id = 201743,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201750] = {
+		buff_id = 0,
+		name = "검은 영역의 침식",
+		desc = "악의 구현체가 격파되면 새로운 악의 구현체를 출현시켜 주변에 있는 악의 구현체 수를 늘린다. \n——검은 영역의 침식으로 인해 악의가 증폭된다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201750,
+		icon = "201750",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201754] = {
+		buff_id = 201754,
+		name = "심판호의 지원",
+		desc = "「심판호」의 정찰 지원으로 전투 중 아군의 명중 및 주는 크리티컬 피해량이 5% 증가한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201754,
+		icon = "201754",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201755] = {
+		buff_id = 201755,
+		name = "흑일의 비상",
+		desc = "해역 전투 중 심판형 무장 기구의 지원이 출현한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201755,
+		icon = "201755",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201759] = {
+		buff_id = 201759,
+		name = "신광의 그물",
+		desc = "해역 전투 중 신광의 그물의 지원이 출현하여, 명중한 적의 기동과 항속을 감소시킨다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201759,
+		icon = "201270",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201763] = {
+		buff_id = 201763,
+		name = "궤도 타격",
+		desc = "해역 전투 중 오비탈 캐논의 지원 공격이 출현한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201763,
+		icon = "201763",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201764] = {
+		buff_id = 0,
+		name = "챌린지 모드",
+		desc = "보스는 <color=#92fc63>내구도가 20% 미만이 되면 강화 상태가 되며</color>, 3초간 지속되는 피해량 감소 효과를 받고, 내구를 최대치의 30%만큼 추가로 회복한다. 그 후 공격 형태가 바뀌어 공격이 거세지지만, <color=#92fc63>1초마다 내구를 최대치의 0.5%만큼 잃는다</color>.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201764,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201765] = {
+		buff_id = 0,
+		name = "챌린지 모드",
+		desc = [[
+전투 중 아군이 받는 회복 효과는 보스에게 탈취당하며, 1회당 보스의 내구가 <color=#92fc63>최대치의 1%만큼 회복된다</color>. 보스의 검은 탄막은 항공 공격으로 제거할 수 없다. 
+ 보스는 <color=#92fc63>내구가 20% 미만이 되면 강화 상태가 되며</color>, 3초간 지속되는 피해량 감소 효과를 받고 내구를 최대치의 30%만큼 추가로 회복한다. 그 후 공격 형태가 바뀌어 공격이 거세지지만, <color=#92fc63>1초마다 내구를 최대치의 0.5%만큼 잃는다</color>. 
+
+  어려움 모드 특징:
+ 적이 주는 피해량이<color=#ffc038>대폭 상승</color>한다. 대형 탄막은 항공 공격이나 실드로 제거할 수 없다. 
+ 아군 선봉함대의 <color=#92fc63>명중 판정이 선봉함대의 선두 함선만으로 한정되어, 명중 판정 범위가 대폭 감소</color>한다. 
+ 함선이 피격되면 일정 시간 무적 상태가 된다. 
+
+ 다음 장비 및 스킬은 무효화된다.
+[래빗 라스트 스탠드], [레인보우 프로젝트], [절체절명], [불굴의 의지 ]]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201765,
 		icon = "200908",
 		arg = {}
 	}

@@ -175,7 +175,7 @@ slot0.getIslandRarity = function(slot0)
 end
 
 slot0.getCount = function(slot0)
-	if slot0.type == DROP_TYPE_OPERATION or slot0.type == DROP_TYPE_LOVE_LETTER then
+	if slot0.type == DROP_TYPE_OPERATION or slot0.type == DROP_TYPE_LOVE_LETTER or MallActivity.IsStaffDrop(slot0) then
 		return 1
 	else
 		return slot0.count
@@ -1256,9 +1256,26 @@ slot0.InitSwitch = function()
 							end
 
 							slot0:updateActivity(slot1)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_MALL] = function ()
+							if uv1.id ~= uv0:getConfig("config_data")[1] then
+								uv0:AddStaff(uv1.id, uv1.count)
+							else
+								uv0:AddGold(uv1.count)
+							end
+
+							getProxy(ActivityProxy):updateActivity(uv0)
+
+							if slot1 then
+								pg.m02:sendNotification(GAME.ACTIVITY_MALL_OP, {
+									activity_id = uv0.id,
+									cmd = ActivityMallOPCommand.CMD.GET_STAFF_DATA,
+									arg1 = uv1.count
+								})
+							end
 						end
 					}, function ()
-						assert(uv0 .. "对应" .. type .. "错误")
+						assert(uv0 .. "对应" .. uv1 .. "错误")
 					end)
 				end
 			})
