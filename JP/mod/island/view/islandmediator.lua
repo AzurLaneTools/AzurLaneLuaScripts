@@ -101,6 +101,8 @@ slot0.CHEATER_TAVERN_CANCEL_DELEGATE = "IslandMediator:CHEATER_TAVERN_CANCEL_DEL
 slot0.CHEATER_TAVERN_START_SOLO_GAME = "IslandMediator:CHEATER_TAVERN_START_SOLO_GAME"
 slot0.CHEATER_TAVERN_END_SOLO_GAME = "IslandMediator:CHEATER_TAVERN_END_SOLO_GAME"
 slot0.SHOW_MSG_BOX = "IslandMediator:SHOW_MSG_BOX"
+slot0.OPEN_MACHA_MODEL_PREVIEW = "IslandMediator:OPEN_MACHA_MODEL_PREVIEW"
+slot0.SKIP_MAP = "IslandMediator:SKIP_MAP"
 
 slot0._register = function(slot0)
 	slot0:bind(uv0.RESET_SHIP_ORDER, function (slot0)
@@ -777,7 +779,9 @@ slot0._listNotificationInterests = function(slot0)
 		GAME.PLAY_ROOM_MATCH_REDAY_ROOM_REFRESH,
 		GAME.ISLAND_CHEATER_DELEGATE_NOTIFY,
 		CheaterTavernEvent.CLOSE_SHIP_SELECT_PAGE,
-		IslandProxy.PRESS_BACK
+		IslandProxy.PRESS_BACK,
+		uv0.OPEN_MACHA_MODEL_PREVIEW,
+		uv0.SKIP_MAP
 	}
 end
 
@@ -786,6 +790,10 @@ slot0._handleNotification = function(slot0, slot1)
 
 	if slot1:getName() == GAME.ISLAND_PROSPERITY_AWARD_DONE or slot2 == GAME.ISLAND_CONVERT_SEASON_PT_DONE or slot2 == GAME.ISLAND_GET_SEASON_PT_AWARD_DONE or slot2 == GAME.ISLAND_GET_ACHV_AWARD_DONE or slot2 == GAME.ISLAND_FINISH_TECH_DONE or slot2 == GAME.ISLAND_FINISH_TECH_IMMD_DONE or slot2 == GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE or slot2 == GAME.SUBMIT_ACTIVITY_TASK_IN_ISLAND_DONE or slot2 == GAME.ISLAND_GET_POINT_AWARD_DONE or slot2 == GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE or slot2 == GAME.ISLAND_EXCHANGE_ITEM_DONE or slot2 == GAME.ISLAND_SHIP_ORDER_OP_DONE or slot2 == GAME.ISLAND_GET_DELEGATION_AWARD_DONE or slot2 == GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE then
 		slot0.viewComponent:HandleAwardDisplay(slot3.dropData, slot3.callback)
+	elseif slot2 == uv0.OPEN_MACHA_MODEL_PREVIEW then
+		slot0.viewComponent:OpenPage(IslandMechaModelPreviewPage)
+	elseif slot2 == uv0.SKIP_MAP then
+		slot0.viewComponent:emit(IslandBaseMediator.SWITCH_MAP, slot3.mapId)
 	elseif slot2 == GAME.ISLAND_INVITE_SHIP_DONE then
 		slot0:HandleShipDisplay(slot3.ship)
 	elseif slot2 == GAME.ISLAND_TAKE_AUTO_COLLECTION_DONE then

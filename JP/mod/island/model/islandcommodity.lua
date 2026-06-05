@@ -1,4 +1,10 @@
 slot0 = class("IslandCommodity", import("model.vo.BaseVO"))
+slot0.TAG = {
+	HOT = 4,
+	NEW = 3,
+	TIME = 2,
+	NONE = 1
+}
 slot1 = pg.pay_data_display
 
 slot0.Ctor = function(slot0, slot1, slot2)
@@ -10,6 +16,14 @@ end
 
 slot0.bindConfigTable = function(slot0)
 	return pg.island_shop_goods
+end
+
+slot0.SetCfgSortIdx = function(slot0, slot1)
+	slot0.cfgSortIdx = slot1
+end
+
+slot0.GetCfgSortIdx = function(slot0)
+	return slot0.cfgSortIdx or slot0.id
 end
 
 slot0.GetName = function(slot0)
@@ -30,6 +44,18 @@ end
 
 slot0.GetItems = function(slot0)
 	return slot0:getConfig("items")
+end
+
+slot0.GetDisplayItems = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0:GetItems()) do
+		if not uv0.IsHideCommondity(slot6) then
+			table.insert(slot1, slot6)
+		end
+	end
+
+	return slot1
 end
 
 slot0.GetItemsWithPt = function(slot0)
@@ -67,7 +93,7 @@ slot0.IsShowHave = function(slot0)
 end
 
 slot0.IsShowHold = function(slot0)
-	return slot0:getConfig("have_show") == 1 and #slot0:GetItems() == 1
+	return slot0:getConfig("have_show") == 1
 end
 
 slot0.GetDiscount = function(slot0)
@@ -108,6 +134,22 @@ slot0.GetPayConfig = function(slot0)
 	return uv0[slot0:GetPayId()]
 end
 
+slot0.GetTag = function(slot0)
+	return switch(slot0:getConfig("tag") or 0, {
+		[0] = function ()
+			return uv0:IsTimeLimitCommodity() and uv1.TAG.TIME or uv1.TAG.NONE
+		end,
+		function ()
+			return uv0.TAG.NEW
+		end,
+		function ()
+			return uv0.TAG.HOT
+		end
+	}, function ()
+		return uv0.TAG.NONE
+	end)
+end
+
 slot0.IsTimeLimitCommodity = function(slot0)
 	if type(slot0:getConfig("time")) == "table" then
 		return true
@@ -142,6 +184,16 @@ slot0.GetDressType = function(slot0)
 	end
 
 	return slot2.type
+end
+
+slot0.IsHideCommondity = function(slot0)
+	slot2 = slot0.id or slot0[2]
+
+	if (slot0.type or slot0[1]) == DROP_TYPE_ISLAND_DRESS and pg.island_dress_template[slot2] and slot3.is_hide == 1 then
+		return true
+	end
+
+	return false
 end
 
 return slot0

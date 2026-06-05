@@ -24,7 +24,8 @@ pg.world_joint_boss_template.all = {
 	19,
 	20,
 	21,
-	22
+	22,
+	23
 }
 pg.base = pg.base or {}
 pg.base.world_joint_boss_template = {}
@@ -575,7 +576,7 @@ pg.base.world_joint_boss_template = {}
 	pg.base.world_joint_boss_template[17] = {
 		name = "大鳳(META)",
 		boss_level_id = 241,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "dafeng",
 		meta_id = 970705,
@@ -745,6 +746,7 @@ pg.base.world_joint_boss_template = {}
 	pg.base.world_joint_boss_template[22] = {
 		name = "レーゲンスブルク(META)",
 		boss_level_id = 316,
+		state = "stop",
 		item_id = 100000,
 		painting = "leigensibao",
 		meta_id = 970211,
@@ -761,32 +763,6 @@ pg.base.world_joint_boss_template = {}
 				"敵ユニットが<color=#92fc63>戦闘不能か画面から離脱した場合</color>、レーゲンスブルク(META)の火力と雷装が15%アップする。"
 			}
 		},
-		state = {
-			{
-				{
-					2026,
-					3,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		p_offset = {
 			-330,
 			470,
@@ -798,6 +774,69 @@ pg.base.world_joint_boss_template = {}
 			470,
 			0.65,
 			0.65
+		}
+	}
+	pg.base.world_joint_boss_template[23] = {
+		name = "ブリストル(META)",
+		boss_level_id = 331,
+		item_id = 100000,
+		painting = "bulisituoer",
+		meta_id = 970112,
+		id = 23,
+		description = {
+			{
+				"ランプ使用_目星極振り",
+				3,
+				"戦闘中、ブリストル(META)はランプを使って特定のエリアを明るく照らし、そのエリアにある味方の<color=#92fc63>回避率を大幅ダウンさせる</color>。"
+			},
+			{
+				"次元追う狩猟",
+				2,
+				"DATA-857がブリストル(META)に随伴している時、ブリストル(META)が与えるダメージが20%アップし、受けるダメージが20％軽減される%。\n<color=#92fc63>任意の味方が【完全回避】もしくは【無敵】状態になった</color>時、DATA-857はブリストル(META)の随伴を解除し、【完全回避】もしくは【無敵】状態の味方1名（前衛艦隊先頭・主力艦隊旗艦が優先的に選択される）に対して<color=#92fc63>対象の耐久上限に応じてダメージを与え続ける</color>；その味方が【完全回避】もしくは【無敵】を解除した時、DATA-857も随伴を再開する。"
+			},
+			{
+				"ランプ下暗し",
+				1,
+				"戦闘開始からしばらく経過すると、ランプの周りに謎の生物が出現する——戦場にいる敵と味方にちょっとした影響を与える？\n謎の生物が場にいる限り、<color=#92fc63>場にいる全員の命中が少し低下する</color>。"
+			}
+		},
+		state = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-392,
+			457,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			-261,
+			495,
+			0.7,
+			0.7
 		}
 	}
 end)()

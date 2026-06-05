@@ -47,7 +47,6 @@ slot0.didEnter = function(slot0)
 	slot0.paintTf = findTF(slot0.ad, "paint")
 	slot0.spineContainer = findTF(slot0.ad, "paint/spinePainting")
 	slot0.l2dContainner = findTF(slot0.ad, "paint/live2d")
-	slot0.paintingContainer = findTF(slot0.ad, "paint")
 	slot0.paintingFitter = findTF(slot0.ad, "paint/fitter")
 	slot0.effectContainer = findTF(slot0.ad, "paint/effect")
 	slot0.flushAnimator = GetComponent(findTF(slot0.ad, "flush"), typeof(Animator))
@@ -56,6 +55,10 @@ slot0.didEnter = function(slot0)
 	slot0.btnDebug = findTF(slot0.ad, "btnDebug")
 	slot0.effectTf = findTF(slot0.ad, "effect")
 
+	print("init tf pos = " .. slot0._tf.anchoredPosition.x .. "," .. slot0._tf.anchoredPosition.y)
+	print("init ad pos = " .. slot0.ad.anchoredPosition.x .. "," .. slot0.ad.anchoredPosition.y)
+	print("init painting pos = " .. slot0.paintTf.anchoredPosition.x .. "," .. slot0.paintTf.anchoredPosition.y)
+	print("init l2dContainner pos = " .. slot0.l2dContainner.anchoredPosition.x .. "," .. slot0.l2dContainner.anchoredPosition.y)
 	onButton(slot0, slot0.btnClose, function ()
 		if not uv0.loading then
 			uv0:closeView()
@@ -70,6 +73,13 @@ slot0.didEnter = function(slot0)
 			if not isActive(uv0.paintTf) then
 				SetActive(uv0.paintTf, true)
 			end
+
+			print("set tf pos = " .. uv0._tf.anchoredPosition.x .. "," .. uv0._tf.anchoredPosition.y)
+			print("set ad pos = " .. uv0.ad.anchoredPosition.x .. "," .. uv0.ad.anchoredPosition.y)
+			print("set painting pos = " .. uv0.paintTf.anchoredPosition.x .. "," .. uv0.paintTf.anchoredPosition.y)
+			print("set l2dContainner pos = " .. uv0.l2dContainner.anchoredPosition.x .. "," .. uv0.l2dContainner.anchoredPosition.y)
+			print("set painting pos = " .. uv0.triggerData.pos.x .. "," .. uv0.triggerData.pos.y)
+			print("set painting scale = " .. uv0.triggerData.scale)
 
 			uv0.paintTf.anchoredPosition = uv0.triggerData.pos
 			uv0.paintTf.localScale = Vector3(uv0.triggerData.scale, uv0.triggerData.scale, uv0.triggerData.scale)
@@ -168,7 +178,7 @@ slot0.movePaint = function(slot0, slot1)
 	slot3 = slot0.triggerData.move_time
 
 	if slot0.triggerData.move and slot3 then
-		slot4 = LeanTween.moveLocal(go(slot0.paintingContainer), slot2, slot3)
+		slot4 = LeanTween.moveLocal(go(slot0.paintTf), slot2, slot3)
 
 		slot4:setOnComplete(System.Action(function ()
 			if uv0 then
@@ -224,7 +234,7 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 
 		slot8 = slot4:getPainting()
 
-		LoadPaintingPrefabAsync(slot0.paintingContainer, slot8, slot8, "mainNormal", function (slot0)
+		LoadPaintingPrefabAsync(slot0.paintTf, slot8, slot8, "mainNormal", function (slot0)
 			uv0.loading = false
 
 			if not IsNil(findTF(slot0, "shop_hx")) and uv0.isShop then
@@ -237,6 +247,9 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 		if not isActive(slot0.paintTf) then
 			SetActive(slot0.paintTf, true)
 		end
+
+		print("set l2d painting pos = " .. slot0.paintTf.anchoredPosition.x .. "," .. slot0.paintTf.anchoredPosition.y)
+		print("set l2d l2dContainner pos = " .. slot0.l2dContainner.anchoredPosition.x .. "," .. slot0.l2dContainner.anchoredPosition.y)
 
 		slot0.live2dChar = Live2DPainting.New(Live2DPainting.GenerateData({
 			ship = slot4,
@@ -260,7 +273,7 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 
 		slot8 = slot4:getPainting()
 
-		LoadPaintingPrefabAsync(slot0.paintingContainer, slot8, slot8, "mainNormal", function ()
+		LoadPaintingPrefabAsync(slot0.paintTf, slot8, slot8, "mainNormal", function ()
 			uv0.loading = false
 		end)
 	end
@@ -314,8 +327,8 @@ slot0.willExit = function(slot0)
 	slot0.flushEevent:SetTriggerEvent(nil)
 	slot0.flushEevent:SetEndEvent(nil)
 
-	if LeanTween.isTweening(go(slot0.paintingContainer)) then
-		LeanTween.cancel(go(slot0.paintingContainer))
+	if LeanTween.isTweening(go(slot0.paintTf)) then
+		LeanTween.cancel(go(slot0.paintTf))
 	end
 
 	if slot0.live2dChar then

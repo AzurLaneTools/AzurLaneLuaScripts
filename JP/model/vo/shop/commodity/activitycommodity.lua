@@ -167,4 +167,16 @@ slot0.Selectable = function(slot0)
 	return false
 end
 
+slot0.GetDropList = function(slot0)
+	slot1 = {}
+
+	table.insert(slot1, Drop.New({
+		count = 1,
+		type = slot0:getConfig("commodity_type"),
+		id = slot0:getConfig("commodity_id")
+	}))
+
+	return slot1
+end
+
 return slot0

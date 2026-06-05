@@ -372,12 +372,12 @@ slot0.SwitchPool = function(slot0, slot1)
 	slot6 = slot1:getConfigTable()
 	slot7, slot8 = nil
 	slot7 = (not slot1:IsActivity() or slot2:getBuildActivityCfgByID(slot6.id)) and slot2:getNoneActBuildActivityCfgByID(slot6.id)
-	slot9 = LoadSprite
-	slot9 = slot7 and slot7.buildship_tip
+	slot10 = slot7 and slot7.bg or "loadingbg/bg_" .. slot6.icon
+	slot10 = slot7 and slot7.buildship_tip
 
-	slot0.tipSTxt:SetText(slot9 and HXSet.hxLan(slot9) or i18n("buildship_" .. slot4 .. "_tip"))
+	slot0.tipSTxt:SetText(slot10 and HXSet.hxLan(slot10) or i18n("buildship_" .. slot4 .. "_tip"))
 
-	slot0._tf:Find("gallery/bg"):GetComponent(typeof(Image)).sprite = slot9(slot7 and slot7.bg or "loadingbg/bg_" .. slot6.icon)
+	slot0._tf:Find("gallery/bg"):GetComponent(typeof(Image)).sprite = LoadSprite(HXSet.HxPath(slot10))
 
 	setText(slot0._tf:Find("gallery/item_bg/item/Text"), slot6.number_1)
 	setText(slot0._tf:Find("gallery/item_bg/gold/Text"), slot6.use_gold)
@@ -387,10 +387,10 @@ slot0.SwitchPool = function(slot0, slot1)
 	slot0:UpdateTestBtn(slot1)
 	slot0:UpdateBuildPoolPaiting(slot1)
 
-	slot13 = {}
+	slot14 = {}
 
 	if slot1:getConfig("exchange_count") > 0 then
-		table.insert(slot13, function (slot0)
+		table.insert(slot14, function (slot0)
 			if getProxy(BuildShipProxy):getRegularExchangeCount() < pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_request or PlayerPrefs.GetString("REGULAR_BUILD_MAX_TIP", "") == pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d") then
 				slot0()
 			else
@@ -424,9 +424,7 @@ slot0.SwitchPool = function(slot0, slot1)
 				return
 			end
 
-			slot1 = uv0.contextData.msgbox
-
-			slot1:ExecuteAction("Show", uv0.useTicket and {
+			uv0.contextData.msgbox:ExecuteAction("Show", uv0.useTicket and {
 				buildType = "ticket",
 				itemVO = Item.New({
 					id = slot0:getConfig("config_client")[1],
@@ -491,13 +489,41 @@ slot0.UpdateBuildPoolPaiting = function(slot0, slot1)
 	if slot0.painting ~= slot2 then
 		slot3 = function()
 			uv0.painting = uv1
+
+			uv0:Hx4Channel()
 		end
+
+		slot0:RevertHxChannel()
 
 		if slot0.buildPainting then
 			setBuildPaintingPrefabAsync(slot0.patingTF, slot2, "build", slot3)
 		else
 			setPaintingPrefabAsync(slot0.patingTF, slot2, "build", slot3)
 		end
+	end
+end
+
+slot3 = function(slot0)
+	if slot0.patingTF:Find("fitter").childCount <= 0 then
+		return nil
+	end
+
+	if IsNil(slot1:GetChild(0)) then
+		return nil
+	end
+
+	return slot2:Find("build_hx_ch" .. pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony())
+end
+
+slot0.Hx4Channel = function(slot0)
+	if not IsNil(uv0(slot0)) then
+		setActive(slot1, HXSet.isHx())
+	end
+end
+
+slot0.RevertHxChannel = function(slot0)
+	if not IsNil(uv0(slot0)) then
+		setActive(slot1, false)
 	end
 end
 
@@ -623,6 +649,7 @@ slot0.ShowOrHide = function(slot0, slot1)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:RevertHxChannel()
 	slot0:RemoveAllTimer()
 
 	slot0.activityTimer = nil

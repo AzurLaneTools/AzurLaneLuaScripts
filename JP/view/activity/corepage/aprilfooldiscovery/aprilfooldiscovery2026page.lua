@@ -17,7 +17,7 @@ slot0.OnInit = function(slot0)
 	slot0.loader = AutoLoader.New()
 
 	for slot5 = 1, #uv0 do
-		slot0.loader:GetSprite("UI/CoreActivity/AprilFoolDiscovery2026Page_atlas", string.sub(uv0, slot5, slot5), slot0.items[slot5]:Find("Character"), true)
+		slot0.loader:GetSprite("UI/AprilFoolDiscovery2026Page_atlas", string.sub(uv0, slot5, slot5), slot0.items[slot5]:Find("Character"), true)
 	end
 
 	slot0._funcsLink = {}

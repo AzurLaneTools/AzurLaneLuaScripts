@@ -235,7 +235,7 @@ slot1.CheckFModeEvent = function(slot0, slot1, slot2, slot3)
 	slot4, slot5 = nil
 
 	string.gsub(slot1, "event:/cv/(.+)/(.+)", function (slot0, slot1)
-		uv0 = "cv-" .. slot0 .. (tobool(ShipWordHelper.CVBattleKey[string.gsub(slot1, "_%w+", "")]) and "-battle" or "")
+		uv0 = "cv-" .. slot0 .. (tobool(ShipWordHelper.CVBattleKey[string.gsub(slot1, "_%w+", "")]) and "-battle" or "") .. (tobool(ShipWordHelper.CVGiftKey[slot1]) and "-gift" or "")
 		uv1 = slot1
 	end)
 	string.gsub(slot1, "event:/tb/(.+)/(.+)", function (slot0, slot1)

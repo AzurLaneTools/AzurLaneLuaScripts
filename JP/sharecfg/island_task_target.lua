@@ -505,7 +505,14 @@ pg.island_task_target.all = {
 	900010101,
 	900010111,
 	900010121,
-	900010201
+	900010201,
+	900020011,
+	900020021,
+	900020031,
+	900020041,
+	900020051,
+	900020061,
+	900020071
 }
 pg.base = pg.base or {}
 pg.base.island_task_target = {}
@@ -6034,6 +6041,81 @@ end)()
 		target_num = 3000,
 		target_param = {
 			101
+		}
+	}
+	pg.base.island_task_target[900020011] = {
+		tips = "",
+		jump_ui = "",
+		name = "ねこを撫でる",
+		type = 1,
+		id = 900020011,
+		target_num = 1,
+		target_param = {
+			6201
+		}
+	}
+	pg.base.island_task_target[900020021] = {
+		tips = "10010040",
+		jump_ui = "",
+		name = "任意の農作物を30個入手する",
+		type = 53,
+		id = 900020021,
+		target_num = 30,
+		target_param = {
+			10121
+		}
+	}
+	pg.base.island_task_target[900020031] = {
+		tips = "",
+		jump_ui = "6",
+		name = "任意の離島依頼を1個こなす",
+		type = 54,
+		id = 900020031,
+		target_num = 1,
+		target_param = {
+			0
+		}
+	}
+	pg.base.island_task_target[900020041] = {
+		tips = "",
+		jump_ui = "",
+		name = "資源生産枠に仲間を配置する",
+		type = 7,
+		id = 900020041,
+		target_num = 1,
+		target_param = {
+			0
+		}
+	}
+	pg.base.island_task_target[900020051] = {
+		tips = "",
+		jump_ui = "",
+		name = "仲間とインタラクトする",
+		type = 55,
+		id = 900020051,
+		target_num = 1,
+		target_param = ""
+	}
+	pg.base.island_task_target[900020061] = {
+		tips = "",
+		jump_ui = "7",
+		name = "任意の輸送委託を1回こなす",
+		type = 12,
+		id = 900020061,
+		target_num = 1,
+		target_param = {
+			0
+		}
+	}
+	pg.base.island_task_target[900020071] = {
+		tips = "",
+		jump_ui = "",
+		name = "任意の料理を3個入手する",
+		type = 53,
+		id = 900020071,
+		target_num = 3,
+		target_param = {
+			20000
 		}
 	}
 end)()

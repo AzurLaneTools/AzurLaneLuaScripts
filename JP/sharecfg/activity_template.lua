@@ -954,6 +954,7 @@ pg.activity_template.all = {
 	50623,
 	50624,
 	50625,
+	50630,
 	51001,
 	51002,
 	51003,
@@ -1369,6 +1370,7 @@ pg.activity_template.all = {
 	990018,
 	990019,
 	990020,
+	990021,
 	999901
 }
 pg.activity_template.get_id_list_by_type = {
@@ -2121,6 +2123,8 @@ pg.activity_template.get_id_list_by_type = {
 		6020,
 		6021,
 		6023,
+		50610,
+		50630,
 		51001,
 		51005,
 		51011,
@@ -2140,7 +2144,8 @@ pg.activity_template.get_id_list_by_type = {
 		50323,
 		50444,
 		50471,
-		50480
+		50480,
+		990021
 	},
 	[19] = {
 		1093,
@@ -2626,7 +2631,6 @@ pg.activity_template.get_id_list_by_type = {
 		50821,
 		50833,
 		50604,
-		50610,
 		50621,
 		51013,
 		50006,
@@ -35050,15 +35054,37 @@ end)()
 	}
 	pg.base.activity_template[50610] = {
 		mark = 20260520,
-		type = 74,
+		type = 18,
 		login_pop = 0,
-		config_id = 5962,
+		config_id = 3,
 		is_show = 4,
-		config_client = "",
 		title_res_tag = "AnniversaryNineCoreActivityUI_subtitle_2",
 		id = 50610,
 		page_core = "AnniversaryNineCoreActivityUI",
-		config_data = {},
+		config_data = {
+			{
+				27026
+			},
+			{
+				27027
+			},
+			{
+				27028
+			},
+			{
+				27029
+			},
+			{
+				27030
+			},
+			{
+				27031
+			},
+			{
+				27032,
+				27033
+			}
+		},
 		time = {
 			"timer",
 			{
@@ -35089,6 +35115,9 @@ end)()
 		page_info = {
 			class_name = "AnniversaryNineInvitationPage",
 			ui_name = "AnniversaryNineInvitationPage"
+		},
+		config_client = {
+			mini_game_id = 84
 		}
 	}
 	pg.base.activity_template[50611] = {
@@ -35135,7 +35164,8 @@ end)()
 			4031,
 			4032,
 			4033,
-			4034
+			4034,
+			4035
 		},
 		time = {
 			"timer",
@@ -35182,7 +35212,7 @@ end)()
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 7,
+		is_show = 8,
 		config_client = "",
 		title_res_tag = "AnniversaryNineCoreActivityUI_subtitle_3",
 		id = 50612,
@@ -35324,7 +35354,7 @@ end)()
 			21939,
 			21940,
 			21941,
-			21942
+			21968
 		},
 		time = {
 			"timer",
@@ -35701,12 +35731,112 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50630] = {
+		mark = 20260605,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 6,
+		title_res_tag = "OutPostCoreActivityUI_subtitle_4",
+		id = 50630,
+		page_core = "AnniversaryNineCoreActivityUI",
+		config_data = {
+			{
+				27155,
+				27156,
+				27157,
+				27158,
+				27159,
+				27160,
+				27161,
+				27162,
+				27163,
+				27164,
+				27165,
+				27166,
+				27167,
+				27168
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "AnniversaryNineEvertsenSkinPage",
+			ui_name = "AnniversaryNineEvertsenSkinPage",
+			sub_ui = {
+				"AnniversaryNineEvertsenTaskWinidow"
+			}
+		},
+		config_client = {
+			subType = 1,
+			unlock_task = {
+				{
+					27155,
+					27156
+				},
+				{
+					27157,
+					27158
+				},
+				{
+					27159,
+					27160
+				},
+				{
+					27161,
+					27162
+				},
+				{
+					27163,
+					27164
+				},
+				{
+					27165,
+					27166
+				},
+				{
+					27167,
+					27168
+				}
+			},
+			story = {
+				{
+					"HONGSHULINDESHOUHUJINGLING1"
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51001] = {
 		mark = 20260514,
 		type = 18,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 6,
+		is_show = 7,
 		title_res_tag = "AnniversaryNineCoreActivityUI_subtitle_6",
 		id = 51001,
 		page_core = "AnniversaryNineCoreActivityUI",
@@ -35962,11 +36092,15 @@ end)()
 		},
 		page_info = {
 			class_name = "OutPostOmenPage",
-			ui_name = "OutPostOmenPage"
+			ui_name = "OutPostOmenPage",
+			sub_ui = {
+				"OutPostOmenTaskWindow"
+			}
 		},
 		config_client = {
-			default_background = "star_level_bg_533",
 			task_id = 27025,
+			subType = 1,
+			default_background = "star_level_bg_533",
 			storys = {
 				411,
 				412,
@@ -36106,9 +36240,13 @@ end)()
 		},
 		page_info = {
 			class_name = "AnniversaryNineHwahJahSkinPage",
-			ui_name = "AnniversaryNineHwahJahSkinPage"
+			ui_name = "AnniversaryNineHwahJahSkinPage",
+			sub_ui = {
+				"AnniversaryNineHwahJahTaskWindow"
+			}
 		},
 		config_client = {
+			subType = 1,
 			unlock_task = {
 				{
 					27141,
@@ -38324,6 +38462,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[8125] = {
 		mark = 20260417,
 		type = 3,
@@ -38367,8 +38507,6 @@ end)()
 			ui_name = "NewServerLoginPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[8126] = {
 		mark = 20260417,
 		page_info = "",
@@ -42726,6 +42864,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50131] = {
 		mark = 20250912,
 		page_info = "",
@@ -42740,8 +42880,6 @@ end)()
 		id = 50131,
 		page_core = ""
 	}
-end)()
-(function ()
 	pg.base.activity_template[50132] = {
 		mark = 20250912,
 		page_info = "",
@@ -46213,6 +46351,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50284] = {
 		mark = 20251218,
 		time = "stop",
@@ -46300,8 +46440,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50285] = {
 		mark = 20251218,
 		type = 13,
@@ -50947,6 +51085,8 @@ end)()
 			bg = "loadingbg/bg_build_4_act"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50434] = {
 		mark = 20260226,
 		page_info = "",
@@ -51045,8 +51185,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50435] = {
 		mark = 20260226,
 		time = "stop",
@@ -54087,6 +54225,46 @@ end)()
 					2026,
 					8,
 					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[990021] = {
+		mark = 20260605,
+		page_info = "",
+		type = 18,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990021,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
 				},
 				{
 					16,

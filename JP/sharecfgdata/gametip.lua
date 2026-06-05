@@ -5979,8 +5979,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2026.3.12-2026.6.5</color>
-META戦・レーゲンスブルク(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2026.6.5-2026.9.4</color>
+META戦・ブリストル(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -21912,7 +21912,7 @@ _G.pg.base.gametip.equip_ammo_type_11 = {
 
 
 _G.pg.base.gametip.common_daily_limit = {
-	tip = "每日上限(未使用)"
+	tip = "毎日上限(未使用)"
 }
 
 
@@ -21935,7 +21935,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することができます。
 
-※<color=#92fc63>2026.3.12-2026.6.5</color>レーゲンスブルク(META) META戦開放期間は「レーゲンスブルク(META)」の解析Ptを入手できます。
+※<color=#92fc63>2026.6.5-2026.9.4</color>ブリストル(META) META戦開放期間は「ブリストル(META)」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -37802,7 +37802,7 @@ _G.pg.base.gametip.blackfriday_main_tip = {
 ·ショップ
 ショップではキャンペーンPtで報酬と交換可能
 ·お得パック
-3.5 0時まで每日無料パックとお得パックが1つずつ開放されます]]
+3.5 0時まで毎日無料パックとお得パックが1つずつ開放されます]]
 		}
 	}
 }
@@ -49855,6 +49855,41 @@ _G.pg.base.gametip.mall_level_max = {
 }
 
 
+_G.pg.base.gametip.equipment_design_chapter = {
+	tip = "作戦履歴"
+}
+
+
+_G.pg.base.gametip.equipment_design_tech = {
+	tip = "科学研究室：研究項目開発"
+}
+
+
+_G.pg.base.gametip.equipment_design_shop = {
+	tip = "ショップ交換"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_expand = {
+	tip = "表示"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_fold = {
+	tip = "隠す"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_skip = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.equipment_design_sub_title = {
+	tip = "下記の方法で入手可能："
+}
+
+
 _G.pg.base.gametip.mall_staff_position_full_tip = {
 	tip = "店員配置数が最大のため、配置できません"
 }
@@ -49892,4 +49927,49 @@ _G.pg.base.gametip.littleyunxian_tip2 = {
 
 _G.pg.base.gametip.OutPostCoreActivityUI_subtitle_3 = {
 	tip = "若漆の輝き"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_4 = {
+	tip = "着せ替え任務"
+}
+
+
+_G.pg.base.gametip.island_dress_tag_twins = {
+	tip = "デュアルフォーム着せ替え"
+}
+
+
+_G.pg.base.gametip.island_dress_tag_sp_animator = {
+	tip = "専用アクション"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_preview = {
+	tip = "着せ替え詳細"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_description = {
+	tip = "6/11（木）まで毎日解放される任務をクリアすると\n離島着せ替え「コア接続」を入手可能"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_look_all = {
+	tip = "詳細確認"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_progress = {
+	tip = "現在進捗 DAY$1/$2 "
+}
+
+
+_G.pg.base.gametip.island_mecha_task_lock_tip = {
+	tip = "$1月$2日開放"
+}
+
+
+_G.pg.base.gametip.yearly_sign_in = {
+	tip = "年間ログイン"
 }

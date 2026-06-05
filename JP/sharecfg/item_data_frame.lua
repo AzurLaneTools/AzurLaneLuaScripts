@@ -781,7 +781,7 @@ pg.base.item_data_frame = {}
 		time_second = 0,
 		id = 601,
 		time_limit_type = 0,
-		desc = "暑い夏に涼しき瞬間のアイスチャット！\n<color=#A7A7AA>「饅頭アイス」イベント参加で入手可能</color>",
+		desc = "暑い夏に涼しき瞬間のアイスチャット！\n<color=#A7A7AA>「饅頭アイス」イベント参加で入手可能</color>\n<color=#A7A7AA>ゲームロビー報酬にて入手可能</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[602] = {

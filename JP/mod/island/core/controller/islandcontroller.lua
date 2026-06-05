@@ -102,6 +102,7 @@ end
 slot0.AddListeners = function(slot0)
 	slot0:AddIslandListener(IslandVisitorAgency.VISITOR_ADD, slot0.OnPlayerAdd)
 	slot0:AddIslandListener(IslandVisitorAgency.VISITOR_EXIT, slot0.OnPlayerExit)
+	slot0:AddIslandListener(IslandDressUpAgency.MORPH_PLAYER_DRESS, slot0.OnPlayerMorphDress)
 	slot0:AddIslandListener(IslandDressUpAgency.CHANGE_PLAYER_DRESS, slot0.OnPlayerChangeDress)
 	slot0:AddIslandListener(IslandCharacterAgency.CHANGE_CHARACTER_DRESS, slot0.OnShipChangeDress)
 	slot0:AddIslandListener(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, slot0.OnSyncDataUpdate)
@@ -155,6 +156,7 @@ end
 slot0.RemoveListeners = function(slot0)
 	slot0:RemoveIslandListener(IslandVisitorAgency.VISITOR_ADD, slot0.OnPlayerAdd)
 	slot0:RemoveIslandListener(IslandVisitorAgency.VISITOR_EXIT, slot0.OnPlayerExit)
+	slot0:RemoveIslandListener(IslandDressUpAgency.MORPH_PLAYER_DRESS, slot0.OnPlayerMorphDress)
 	slot0:RemoveIslandListener(IslandDressUpAgency.CHANGE_PLAYER_DRESS, slot0.OnPlayerChangeDress)
 	slot0:RemoveIslandListener(IslandCharacterAgency.CHANGE_CHARACTER_DRESS, slot0.OnShipChangeDress)
 	slot0:RemoveIslandListener(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, slot0.OnSyncDataUpdate)
@@ -474,6 +476,10 @@ end
 slot0.OnPlayerExit = function(slot0, slot1)
 	slot0:NotifiyCore(ISLAND_EVT.RMOVE_UNIT, IslandConst.UNIT_LIST_PLAYER, slot1.id)
 	slot0.islandSyncMgr:OnVisitorExit(slot1.id)
+end
+
+slot0.OnPlayerMorphDress = function(slot0, ...)
+	slot0:NotifiyCore(ISLAND_EVT.MORPH_FORM_CHANGE, ...)
 end
 
 slot0.OnPlayerChangeDress = function(slot0, slot1, slot2)

@@ -345,7 +345,8 @@ pg.island_shop_goods.all = {
 	99000201,
 	99000202,
 	99000301,
-	99000302
+	99000302,
+	461060015
 }
 pg.base = pg.base or {}
 pg.base.island_shop_goods = {}
@@ -14823,6 +14824,82 @@ end)()
 				47,
 				99000302,
 				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[461060015] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "バトルスーツ",
+		desc = "購入すると着せ替え「バトルスーツ」を入手可能",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_1060015",
+		pay_id = 0,
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 461060015,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			1100
+		},
+		items = {
+			{
+				46,
+				1060015,
+				1
+			},
+			{
+				46,
+				1060014,
+				1
+			},
+			{
+				46,
+				1070015,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					12,
+					0,
+					0
+				}
 			}
 		}
 	}

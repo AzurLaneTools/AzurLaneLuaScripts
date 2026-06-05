@@ -4161,6 +4161,7 @@ pg.memory_template.all = {
 	5203,
 	5204,
 	5211,
+	5221,
 	10000,
 	10001,
 	10002,
@@ -79375,6 +79376,24 @@ end)()
 			"RUOQIZHIGUANG1"
 		}
 	}
+	pg.base.memory_template[5221] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "マングローブの守護精霊",
+		condition = "「マングローブの守護精霊」を参加する",
+		story = "HONGSHULINDESHOUHUJINGLING1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5221,
+		icon = "memory_hongshulindeshouhujingling",
+		is_open = 0,
+		unlock_pre = {
+			"HONGSHULINDESHOUHUJINGLING1"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80131,6 +80150,8 @@ end)()
 			"NEPU_DAILY6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10042] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80149,8 +80170,6 @@ end)()
 			"NEPU_DAILY7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10043] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81933,6 +81952,8 @@ end)()
 			"LINGHANGYUANTANXIN9"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20061] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81951,8 +81972,6 @@ end)()
 			"LINGHANGYUANTANXIN10"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20062] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83735,6 +83754,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA12"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20162] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83753,8 +83774,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA13"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20163] = {
 		ship_group = 0,
 		subtitle = "",

@@ -109,7 +109,9 @@ pg.mini_game.all = {
 	1018,
 	1019,
 	1020,
-	1021
+	1021,
+	1025,
+	1026
 }
 pg.base = pg.base or {}
 pg.base.mini_game = {}
@@ -3909,5 +3911,73 @@ end)()
 		id = 1021,
 		hub_id = 45,
 		request_data = 1
+	}
+	pg.base.mini_game[1025] = {
+		is_ranking = 0,
+		view_name = "GameRoomHideSeekView",
+		game_room = 24,
+		type = 1,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "小游戏厅躲猫猫",
+		config_csv = "",
+		id = 1025,
+		hub_id = 45,
+		request_data = 1,
+		simple_config_data = {}
+	}
+	pg.base.mini_game[1026] = {
+		is_ranking = 0,
+		view_name = "GameRoomIceCreamView",
+		game_room = 25,
+		type = 1,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "小游戏厅冰激凌",
+		config_csv = "",
+		id = 1026,
+		hub_id = 45,
+		request_data = 1,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54050,
+					2
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					2,
+					20012,
+					2
+				},
+				{
+					14,
+					601,
+					1
+				}
+			}
+		}
 	}
 end)()

@@ -31,6 +31,14 @@ slot0.OnFirstFlush = function(slot0)
 end
 
 slot0.OnUpdateFlush = function(slot0)
+	for slot4 = 1, #slot0.taskGroup do
+		if slot0.taskProxy:getTaskVO(slot0.taskGroup[slot4]) and slot5:getTaskStatus() == 1 then
+			slot0:emit(ActivityMediator.ON_TASK_SUBMIT, slot5)
+
+			return
+		end
+	end
+
 	slot0:RefreshTaskState()
 	slot0:RefreshProgress()
 	slot0:RefreshButtons()

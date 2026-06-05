@@ -272,6 +272,14 @@ slot0.isHxPropose = function()
 	return not uv0.codeMode and PLATFORM_CODE == PLATFORM_CH and LOCK_PROPOSE_SHIP
 end
 
+slot0.HxPath = function(slot0)
+	if PLATFORM_CODE == PLATFORM_CH and HXSet.isHx() then
+		return checkABExist(slot0 .. "_hx_ch" .. pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony()) and slot2 or slot0
+	else
+		return slot0
+	end
+end
+
 slot0.hxPathList = {
 	"live2d",
 	"painting",

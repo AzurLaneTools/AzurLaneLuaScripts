@@ -45,6 +45,7 @@ pg.equip_upgrade_template.all = {
 	701,
 	702,
 	704,
+	707,
 	708,
 	1001,
 	1002,
@@ -2980,6 +2981,12 @@ pg.base.equip_upgrade_template = {}
 				720,
 				31300,
 				false
+			},
+			{
+				2925,
+				720,
+				31320,
+				false
 			}
 		},
 		links = {
@@ -3086,6 +3093,16 @@ pg.base.equip_upgrade_template = {}
 				},
 				{
 					2318,
+					720
+				}
+			},
+			{
+				{
+					2632,
+					720
+				},
+				{
+					2768,
 					720
 				}
 			}
@@ -5150,7 +5167,7 @@ pg.base.equip_upgrade_template = {}
 		category2 = 8,
 		id = 408,
 		canvasSize = {
-			2250,
+			2700,
 			630
 		},
 		canvasPadding = {
@@ -5190,6 +5207,12 @@ pg.base.equip_upgrade_template = {}
 				2025,
 				450,
 				48040,
+				false
+			},
+			{
+				2475,
+				450,
+				48060,
 				false
 			}
 		},
@@ -5240,6 +5263,16 @@ pg.base.equip_upgrade_template = {}
 				{
 					968,
 					180
+				}
+			},
+			{
+				{
+					2182,
+					450
+				},
+				{
+					2318,
+					450
 				}
 			}
 		}
@@ -5630,11 +5663,11 @@ pg.base.equip_upgrade_template = {}
 	}
 	pg.base.equip_upgrade_template[702] = {
 		category1 = 7,
-		category2 = 2,
+		category2 = 31,
 		id = 702,
 		canvasSize = {
 			2250,
-			1125
+			1350
 		},
 		canvasPadding = {
 			1,
@@ -5679,6 +5712,12 @@ pg.base.equip_upgrade_template = {}
 				2025,
 				675,
 				85500,
+				false
+			},
+			{
+				2025,
+				900,
+				85580,
 				false
 			}
 		},
@@ -5764,6 +5803,20 @@ pg.base.equip_upgrade_template = {}
 					1732,
 					450
 				}
+			},
+			{
+				{
+					2025,
+					754
+				},
+				{
+					2025,
+					810
+				},
+				{
+					2025,
+					821
+				}
 			}
 		}
 	}
@@ -5830,6 +5883,123 @@ pg.base.equip_upgrade_template = {}
 				{
 					968,
 					450
+				}
+			}
+		}
+	}
+	pg.base.equip_upgrade_template[707] = {
+		category1 = 7,
+		category2 = 7,
+		id = 707,
+		canvasSize = {
+			1800,
+			765
+		},
+		canvasPadding = {
+			1,
+			4
+		},
+		gridSize = {
+			45,
+			45
+		},
+		equipments = {
+			{
+				225,
+				270,
+				85820,
+				false
+			},
+			{
+				1125,
+				270,
+				85840,
+				false
+			},
+			{
+				1575,
+				270,
+				85860,
+				false
+			},
+			{
+				1575,
+				495,
+				85880,
+				false
+			}
+		},
+		links = {
+			{
+				{
+					382,
+					270
+				},
+				{
+					968,
+					270
+				}
+			},
+			{
+				{
+					2025,
+					349
+				},
+				{
+					2025,
+					416
+				}
+			},
+			{
+				{
+					1282,
+					270
+				},
+				{
+					1418,
+					270
+				},
+				{
+					1282,
+					270
+				},
+				{
+					1395,
+					270
+				},
+				{
+					1395,
+					495
+				},
+				{
+					1418,
+					495
+				}
+			},
+			{
+				{
+					1282,
+					270
+				},
+				{
+					1418,
+					270
+				},
+				{
+					1282,
+					270
+				},
+				{
+					1395,
+					270
+				},
+				{
+					1395,
+					495
+				},
+				{
+					1418,
+					495
 				}
 			}
 		}
@@ -6345,7 +6515,7 @@ pg.base.equip_upgrade_template = {}
 		id = 1006,
 		canvasSize = {
 			3150,
-			900
+			1170
 		},
 		canvasPadding = {
 			1,
@@ -6379,6 +6549,24 @@ pg.base.equip_upgrade_template = {}
 				450,
 				90620,
 				false
+			},
+			{
+				675,
+				720,
+				6140,
+				false
+			},
+			{
+				1125,
+				720,
+				90640,
+				false
+			},
+			{
+				2025,
+				720,
+				90660,
+				false
 			}
 		},
 		links = {
@@ -6410,6 +6598,40 @@ pg.base.equip_upgrade_template = {}
 				{
 					2768,
 					450
+				}
+			},
+			{
+				{
+					225,
+					529
+				},
+				{
+					225,
+					720
+				},
+				{
+					518,
+					720
+				}
+			},
+			{
+				{
+					832,
+					720
+				},
+				{
+					968,
+					720
+				}
+			},
+			{
+				{
+					1282,
+					720
+				},
+				{
+					1868,
+					720
 				}
 			}
 		}

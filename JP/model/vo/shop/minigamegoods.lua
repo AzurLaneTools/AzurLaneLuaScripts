@@ -23,7 +23,7 @@ slot0.bindConfigTable = function(slot0)
 end
 
 slot0.CanPurchase = function(slot0)
-	if slot0:getConfig("drop_type") == DROP_TYPE_SKIN and getProxy(ShipSkinProxy):getSkinById(slot0:getConfig("goods")[1]) then
+	if slot0:GetDropInfo():getOwnedLimit() > 0 and slot2 <= slot1:getOwnedCount() then
 		return false
 	end
 

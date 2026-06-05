@@ -341,6 +341,7 @@ pg.fleet_tech_ship_class.all = {
 	970109,
 	970110,
 	970111,
+	970112,
 	970201,
 	970202,
 	970203,
@@ -4463,6 +4464,17 @@ end)()
 		nation = 97,
 		ships = {
 			970111
+		}
+	}
+	pg.base.fleet_tech_ship_class[970112] = {
+		shiptype = 1,
+		name = "ブリストル(META)",
+		t_level = 3,
+		id = 970112,
+		t_level_1 = 23,
+		nation = 97,
+		ships = {
+			970112
 		}
 	}
 	pg.base.fleet_tech_ship_class[970201] = {

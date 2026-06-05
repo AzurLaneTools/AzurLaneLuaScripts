@@ -24,6 +24,7 @@ slot0.preload = function(slot0, slot1)
 		slot3 = "loadingbg/login"
 	end
 
+	slot3 = HXSet.HxPath(slot3)
 	slot0._preloadPicType = slot2
 	slot0._preloadPicPath = slot3
 
