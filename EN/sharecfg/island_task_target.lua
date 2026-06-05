@@ -6057,7 +6057,7 @@ end)()
 	pg.base.island_task_target[900020021] = {
 		tips = "10010040",
 		jump_ui = "",
-		name = "获得任意农田作物个数*30",
+		name = "Collect 30 crops.",
 		type = 53,
 		id = 900020021,
 		target_num = 30,
@@ -6068,7 +6068,7 @@ end)()
 	pg.base.island_task_target[900020031] = {
 		tips = "",
 		jump_ui = "6",
-		name = "Complete island requests.",
+		name = "Complete any Island Request.",
 		type = 54,
 		id = 900020031,
 		target_num = 1,
@@ -6099,7 +6099,7 @@ end)()
 	pg.base.island_task_target[900020061] = {
 		tips = "",
 		jump_ui = "7",
-		name = "Complete 1 Transport Job.",
+		name = "Complete any Transport Job.",
 		type = 12,
 		id = 900020061,
 		target_num = 1,
@@ -6110,7 +6110,7 @@ end)()
 	pg.base.island_task_target[900020071] = {
 		tips = "",
 		jump_ui = "",
-		name = "获得任意餐品三次",
+		name = "Collect 3 meals.",
 		type = 53,
 		id = 900020071,
 		target_num = 3,

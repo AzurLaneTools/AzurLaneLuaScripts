@@ -78235,7 +78235,7 @@ end)()
 		type = 1,
 		number = 0,
 		title = "Guardian Fae of the Mangroves",
-		condition = "开始「红树林的守护精灵」活动",
+		condition = "Begin the Guardian Fae of the Mangroves event.",
 		story = "HONGSHULINDESHOUHUJINGLING1",
 		mask = "bg/bg_memory",
 		task = 0,

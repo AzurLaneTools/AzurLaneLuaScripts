@@ -19317,11 +19317,11 @@ end)()
 	}
 	pg.base.skill_data_display[201790] = {
 		id = 201790,
-		name = "维度追猎"
+		name = "Sic 'Em, Data 857!"
 	}
 	pg.base.skill_data_display[201798] = {
 		id = 201798,
-		name = "灯下之影"
+		name = "The Shadow Within the Lantern"
 	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,

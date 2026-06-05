@@ -22094,9 +22094,9 @@ end)()
 	pg.base.island_task[90002003] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "Complete 1 Island Request.",
+		name = "Complete any Island Request.",
 		type = 9,
-		task_desc = "Complete 1 Island Request.",
+		task_desc = "Complete any Island Request.",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,
@@ -22155,9 +22155,9 @@ end)()
 	pg.base.island_task[90002004] = {
 		trigger_data = 0,
 		trigger_tips = 0,
-		name = "Assign a task to any character.",
+		name = "Assign a character to a material production slot.",
 		type = 9,
-		task_desc = "Assign a task to any character.",
+		task_desc = "Assign a character to a material production slot.",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,

@@ -212,7 +212,7 @@ pg.base.survey_data_template = {}
 		uo_url = "https://usersurvey.wjx.cn/vm/twi78ax.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		main_url = "https://survey.yostar.net/vm/m6X8Lfd.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		id = 1013,
-		name = "260605问卷",
+		name = "Survey",
 		main_activity = "365863051",
 		ios_activity = "252629969",
 		uo_activity = "252629896",
