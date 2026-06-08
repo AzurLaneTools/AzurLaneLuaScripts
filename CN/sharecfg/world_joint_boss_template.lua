@@ -833,7 +833,7 @@ pg.base.world_joint_boss_template = {}
 			0.7
 		},
 		p_offset_other = {
-			-261,
+			261,
 			495,
 			0.7,
 			0.7
