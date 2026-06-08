@@ -3976,7 +3976,7 @@ pg.base.activity_event_avatarframe = {}
 			{
 				2026,
 				6,
-				9
+				5
 			},
 			{
 				0,
