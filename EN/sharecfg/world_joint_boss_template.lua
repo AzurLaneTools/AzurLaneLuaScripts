@@ -922,7 +922,7 @@ pg.base.world_joint_boss_template = {}
 			{
 				"The Shadow Within the Lantern",
 				1,
-				"Some time after the start of battle, an eldritch creature will appear within the lantern's vicinity, affecting both your ships and the enemy in mysterious ways.\nWhile the eldritch creature is present, <color=#92fc63>all ships on the battlefield has slightly reduced ACC</color>."
+				"some time after the start of battle, an eldritch creature will appear within the lantern's vicinity, affecting both your ships and the enemy in mysterious ways.\nWhile the eldritch creature is present, <color=#92fc63>all ships on the battlefield has slightly reduced ACC</color>."
 			}
 		},
 		state = {
