@@ -39377,17 +39377,17 @@ _G.pg.base.gametip.daily_level_go = {
 
 
 _G.pg.base.gametip.yumia_main_tip_1 = {
-	tip = "한정 건조"
+	tip = ""
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_2 = {
-	tip = "한정 해역"
+	tip = ""
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_3 = {
-	tip = "스킨"
+	tip = ""
 }
 
 
