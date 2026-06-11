@@ -2250,6 +2250,7 @@ pg.base.equip_skin_theme_template = {}
 			3075,
 			3076,
 			3077,
+			3078,
 			3079,
 			3080,
 			3081,

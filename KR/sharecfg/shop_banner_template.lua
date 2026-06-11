@@ -224,7 +224,7 @@ pg.base.shop_banner_template = {}
 		},
 		relation_param = {
 			1,
-			9015
+			9018
 		}
 	}
 	pg.base.shop_banner_template[21] = {
@@ -268,7 +268,7 @@ pg.base.shop_banner_template = {}
 		},
 		relation_param = {
 			1,
-			9012
+			9019
 		}
 	}
 	pg.base.shop_banner_template[22] = {

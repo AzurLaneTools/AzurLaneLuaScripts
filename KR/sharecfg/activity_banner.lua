@@ -33,7 +33,9 @@ pg.activity_banner.get_id_list_by_type = {
 		5,
 		6,
 		7,
-		8,
+		8
+	},
+	[3] = {
 		9
 	},
 	[9] = {
@@ -187,7 +189,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					5
+					11
 				},
 				{
 					0,
@@ -251,17 +253,14 @@ pg.base.activity_banner = {}
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2026,
 					6,
-					5
+					11
 				},
 				{
 					0,
@@ -273,7 +272,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					27
+					17
 				},
 				{
 					23,
@@ -288,14 +287,14 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene court yard"
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2026,
 					6,
-					5
+					1
 				},
 				{
 					0,
@@ -307,12 +306,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					27
+					5
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -355,18 +354,16 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[9] = {
-		type = 2,
+		param = "51013",
+		type = 3,
 		id = 9,
 		pic = "temp9",
-		param = {
-			"crusing"
-		},
 		time = {
 			{
 				{
 					2026,
 					6,
-					8
+					11
 				},
 				{
 					0,

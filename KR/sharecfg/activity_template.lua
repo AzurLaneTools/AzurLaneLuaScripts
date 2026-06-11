@@ -1180,6 +1180,12 @@ pg.activity_template.all = {
 	51004,
 	51005,
 	51006,
+	51011,
+	51012,
+	51013,
+	51014,
+	51015,
+	51007,
 	7001,
 	7004,
 	7005,
@@ -1942,6 +1948,9 @@ pg.activity_template.get_id_list_by_type = {
 		50619,
 		50624,
 		51006,
+		51014,
+		51015,
+		51007,
 		1103,
 		1104,
 		1105,
@@ -2037,7 +2046,8 @@ pg.activity_template.get_id_list_by_type = {
 		6027,
 		50254,
 		50501,
-		50832
+		50832,
+		51012
 	},
 	[16] = {
 		4896,
@@ -2231,6 +2241,7 @@ pg.activity_template.get_id_list_by_type = {
 		50610,
 		51001,
 		51005,
+		51011,
 		6000,
 		6001,
 		6002,
@@ -2822,6 +2833,7 @@ pg.activity_template.get_id_list_by_type = {
 		50833,
 		50604,
 		50621,
+		51013,
 		1110,
 		6006,
 		6010,
@@ -48028,7 +48040,7 @@ end)()
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 5,
+		is_show = 7,
 		config_client = "",
 		title_res_tag = "AnniversaryNineCoreActivityUI_subtitle_3",
 		id = 50612,
@@ -48839,6 +48851,348 @@ end)()
 					12,
 					0,
 					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51011] = {
+		mark = 20260528,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 5,
+		title_res_tag = "OutPostCoreActivityUI_subtitle_3",
+		id = 51011,
+		page_core = "AnniversaryNineCoreActivityUI",
+		config_data = {
+			{
+				27141,
+				27142,
+				27143,
+				27144,
+				27145,
+				27146,
+				27147,
+				27148,
+				27149,
+				27150,
+				27151,
+				27152,
+				27153,
+				27154
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					28
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "AnniversaryNineHwahJahSkinPage",
+			ui_name = "AnniversaryNineHwahJahSkinPage"
+		},
+		config_client = {
+			unlock_task = {
+				{
+					27141,
+					27142
+				},
+				{
+					27143,
+					27144
+				},
+				{
+					27145,
+					27146
+				},
+				{
+					27147,
+					27148
+				},
+				{
+					27149,
+					27150
+				},
+				{
+					27151,
+					27152
+				},
+				{
+					27153,
+					27154
+				}
+			},
+			story = {
+				{
+					"RUOQIZHIGUANG1"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51012] = {
+		mark = 20260528,
+		page_info = "",
+		type = 15,
+		login_pop = 0,
+		config_id = 303211,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51012,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					28
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51013] = {
+		mark = 20260528,
+		type = 74,
+		login_pop = 0,
+		config_id = 51013,
+		is_show = 52,
+		title_res_tag = "xiaoyunxian",
+		id = 51013,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					28
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "LittleYunXianPage",
+			ui_name = "LittleYunXianPage"
+		},
+		config_client = {
+			task_act_id = 51014
+		}
+	}
+	pg.base.activity_template[51014] = {
+		mark = 20260528,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51014,
+		page_core = "",
+		config_data = {
+			27101,
+			27102,
+			27103,
+			27104,
+			27105,
+			27106,
+			27107,
+			27108,
+			27109,
+			27110,
+			27111,
+			27112,
+			27113,
+			27114,
+			27115,
+			27116,
+			27117,
+			27118,
+			27119,
+			27120,
+			27121,
+			27122,
+			27123,
+			27124,
+			27125,
+			27126,
+			27127,
+			27128,
+			27129,
+			27130,
+			27131
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					28
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			ptActID = {
+				51013
+			}
+		}
+	}
+	pg.base.activity_template[51015] = {
+		mark = 20260528,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51015,
+		page_core = "",
+		config_data = {
+			27132,
+			27133
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					28
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51007] = {
+		mark = 20260528,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51007,
+		page_core = "",
+		config_data = {
+			27034
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -50102,6 +50456,8 @@ end)()
 			ui_name = "CrusingDisplayActPage19"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7020] = {
 		mark = 20241121,
 		type = 54,
@@ -50420,8 +50776,6 @@ end)()
 			ui_name = "CrusingDisplayActPage25"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7026] = {
 		mark = 20251120,
 		type = 54,
@@ -55273,6 +55627,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[20559] = {
 		mark = 20200924,
 		page_info = "",
@@ -55538,8 +55894,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[20617] = {
 		mark = 20201217,
 		page_info = "",
@@ -59382,6 +59736,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[25029] = {
 		mark = 20190822,
 		page_info = "",
@@ -59484,8 +59840,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[25035] = {
 		mark = 20200416,
 		page_info = "",

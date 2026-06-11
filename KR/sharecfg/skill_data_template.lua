@@ -1435,6 +1435,8 @@ pg.skill_data_template.all = {
 	152380,
 	152390,
 	152410,
+	152440,
+	152450,
 	18010,
 	18040,
 	18050,
@@ -1720,6 +1722,8 @@ pg.skill_data_template.all = {
 	22262,
 	22271,
 	22272,
+	22281,
+	22282,
 	22311,
 	22312,
 	22411,
@@ -121932,6 +121936,259 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[152440] = {
+		desc_get = "",
+		name = "선경을 유람하는 여정",
+		type = 1,
+		max_level = 10,
+		desc = "전투 시작 10초 후 및 이후 20초마다 특수 탄막 $1(을)를 전개하고(위력은 스킬 레벨에 따라 다름), 10초간 자신의 기동·대공이 $2 상승한다. 해역 출격 중에 소속 함대가 적 함대를 1개 격파할 때마다 자신이 주는 피해량이 $3 상승한다(최대 3회까지 중첩 가능).",
+		id = 152440,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152450] = {
+		desc_get = "",
+		name = "비경의 진귀한 보물",
+		type = 3,
+		max_level = 10,
+		desc = [[
+전투 시작 시 및 전투 중 20초마다 발동하여 다음 3가지 효과 중 무작위로 1개씩을 발동시킨다.
+ ① 자신의 포격·장전·명중 $1 상승
+ ② 자신의 어뢰 장비의 크리티컬율 $1 증가 및 크리티컬 피해량 $2 증가
+ ③ 자신의 내구를 최대치의 $1만큼 회복
+ 각각의 효과는 한 전투당 1회만 발동할 수 있으며, 3가지 효과가 모두 발동한 경우 이 효과는 더 이상 발동하지 않는다.]],
+		id = 152450,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[18010] = {
 		desc_get = "",
 		name = "MKV 철갑탄 +",
@@ -128368,6 +128625,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19310] = {
 		desc_get = "",
 		name = "반격의 방패",
@@ -128625,8 +128884,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19330] = {
 		desc_get = "",
 		name = "탐구자의 현안",
@@ -136883,6 +137140,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20142] = {
 		desc_get = "",
 		name = "전탄 발사 - 클리블랜드급II",
@@ -136911,8 +137170,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20212] = {
 		desc_get = "",
 		name = "전탄 발사 - 펜사콜라급II",
@@ -138285,6 +138542,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22162] = {
 		desc_get = "",
 		name = "전탄 발사 - 유바리형II",
@@ -138313,8 +138572,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22212] = {
 		desc_get = "",
 		name = "전탄 발사 - 후루타카형II",
@@ -138532,6 +138789,34 @@ end)()
 		max_level = 1,
 		desc = "주포 공격을 6회 실시할 때마다 전탄 발사Ⅱ - 이부키급을 전개한다.",
 		id = 22272,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[22281] = {
+		desc_get = "",
+		name = "전탄 발사Ⅰ",
+		type = 1,
+		max_level = 1,
+		desc = "주포 공격을 12회 실시할 때마다 전탄 발사 - 운젠급Ⅰ을 전개한다.",
+		id = 22281,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[22282] = {
+		desc_get = "",
+		name = "전탄 발사Ⅱ",
+		type = 1,
+		max_level = 1,
+		desc = "주포 공격을 8회 실시할 때마다 전탄 발사 - 운젠급Ⅱ를 전개한다.",
+		id = 22282,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -139659,6 +139944,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[26111] = {
 		desc_get = "",
 		name = "전탄발사I",
@@ -139715,8 +140002,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[26211] = {
 		desc_get = "",
 		name = "전탄 발사-탈린I",
@@ -141061,6 +141346,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29321] = {
 		desc_get = "",
 		name = "특수 탄막 - 쉬르쿠프I",
@@ -141121,8 +141408,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29341] = {
 		desc_get = "",
 		name = "특수탄막 - 알바코어I",
@@ -142471,6 +142756,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29832] = {
 		desc_get = "",
 		name = "특수 탄막-폼페오 마뇨II",
@@ -142527,8 +142814,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29852] = {
 		desc_get = "",
 		name = "특수 탄막-저비스II",
@@ -143873,6 +144158,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30362] = {
 		desc_get = "",
 		name = "특수 탄막 - 팬시Ⅱ",
@@ -143929,8 +144216,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30382] = {
 		desc_get = "",
 		name = "특수 탄막 - 포츠머스 어드벤처Ⅱ",
@@ -148741,6 +149026,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106020] = {
 		desc_get = "",
 		name = "명랑한 미뉴에트",
@@ -149140,8 +149427,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106060] = {
 		desc_get = "",
 		name = "노을꽃",
@@ -157786,6 +158071,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[108280] = {
 		desc_get = "",
 		name = "사운드라스 풀 버스트+",
@@ -158390,8 +158677,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[108320] = {
 		desc_get = "",
 		name = "정신 차려!",
@@ -166183,6 +166468,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[111270] = {
 		desc_get = "",
 		name = "풍기 문란 바로잡기",
@@ -166695,8 +166982,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[112040] = {
 		desc_get = "",
 		name = "★Rock Fire",
@@ -173695,6 +173980,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800220] = {
 		desc_get = "",
 		name = "비상하는 날개",
@@ -173885,8 +174172,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800252] = {
 		desc_get = "",
 		name = "섬멸의 횃불·{namecode:85}II",
@@ -178339,6 +178624,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800777] = {
 		desc_get = "",
 		name = "빛을 쫓는 화염·라 갈리소니에르II",
@@ -178760,8 +179047,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800811] = {
 		desc_get = "",
 		name = "일렁이는 불꽃·U-556 I",
@@ -183722,6 +184007,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801330] = {
 		desc_get = "",
 		name = "안개의 보호",
@@ -183876,8 +184163,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801347] = {
 		desc_get = "",
 		name = "구조의 이치·카스미Ⅱ",
@@ -189330,6 +189615,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801901] = {
 		desc_get = "",
 		name = "섬멸의 횃불·유다치Ⅰ",
@@ -189394,8 +189681,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801910] = {
 		desc_get = "",
 		name = "전술 보조입니다",
@@ -193174,6 +193459,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[902320] = {
 		desc_get = "",
 		name = "고속 장전 요원",
@@ -193230,8 +193517,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[902360] = {
 		desc_get = "",
 		name = "때가 무르익었나니",
@@ -205521,6 +205806,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1019030] = {
 		desc_get = "",
 		name = "제왕의 위압+",
@@ -206192,8 +206479,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1012640] = {
 		desc_get = "",
 		name = "사르데냐의 위압+",

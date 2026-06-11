@@ -562,6 +562,12 @@ pg.drop_data_restore.all = {
 	631,
 	632,
 	633,
+	641,
+	642,
+	643,
+	644,
+	645,
+	646,
 	634,
 	635,
 	636,
@@ -5761,6 +5767,60 @@ end)()
 		drop_id = 0,
 		target_id = 329
 	}
+	pg.base.drop_data_restore[641] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 641,
+		resource_num = 1280,
+		drop_id = 998332,
+		target_id = 499063
+	}
+	pg.base.drop_data_restore[642] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 642,
+		resource_num = 1260,
+		drop_id = 998332,
+		target_id = 201355
+	}
+	pg.base.drop_data_restore[643] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 643,
+		resource_num = 1180,
+		drop_id = 998332,
+		target_id = 899013
+	}
+	pg.base.drop_data_restore[644] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 644,
+		resource_num = 1050,
+		drop_id = 998332,
+		target_id = 402074
+	}
+	pg.base.drop_data_restore[645] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 645,
+		resource_num = 880,
+		drop_id = 998332,
+		target_id = 502013
+	}
+	pg.base.drop_data_restore[646] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 646,
+		resource_num = 780,
+		drop_id = 998332,
+		target_id = 107225
+	}
 	pg.base.drop_data_restore[634] = {
 		target_type = 7,
 		resource_type = 14,
@@ -6076,6 +6136,8 @@ end)()
 		drop_id = 4987,
 		target_id = 207043
 	}
+end)()
+(function ()
 	pg.base.drop_data_restore[1287] = {
 		target_type = 7,
 		resource_type = 14,
@@ -6130,8 +6192,6 @@ end)()
 		drop_id = 998503,
 		target_id = 408131
 	}
-end)()
-(function ()
 	pg.base.drop_data_restore[1293] = {
 		target_type = 7,
 		resource_type = 14,
@@ -6978,6 +7038,8 @@ end)()
 		drop_id = 4982,
 		target_id = 202292
 	}
+end)()
+(function ()
 	pg.base.drop_data_restore[20044] = {
 		target_type = 7,
 		resource_type = 14,
@@ -7032,8 +7094,6 @@ end)()
 		drop_id = 998550,
 		target_id = 602031
 	}
-end)()
-(function ()
 	pg.base.drop_data_restore[20069] = {
 		target_type = 7,
 		resource_type = 14,

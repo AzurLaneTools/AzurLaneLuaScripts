@@ -381,6 +381,7 @@ pg.ship_data_strengthen.all = {
 	30318,
 	30319,
 	30320,
+	30321,
 	30401,
 	30402,
 	30403,
@@ -9918,6 +9919,30 @@ end)()
 			13
 		}
 	}
+	pg.base.ship_data_strengthen[30321] = {
+		id = 30321,
+		durability = {
+			50,
+			50,
+			0,
+			0,
+			48
+		},
+		level_exp = {
+			25,
+			30,
+			0,
+			0,
+			25
+		},
+		attr_exp = {
+			28,
+			17,
+			0,
+			0,
+			12
+		}
+	}
 	pg.base.ship_data_strengthen[30401] = {
 		id = 30401,
 		durability = {
@@ -10422,6 +10447,8 @@ end)()
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[30516] = {
 		id = 30516,
 		durability = {
@@ -10446,8 +10473,6 @@ end)()
 			11
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[30517] = {
 		id = 30517,
 		durability = {
@@ -12824,6 +12849,8 @@ end)()
 			11
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[40405] = {
 		id = 40405,
 		durability = {
@@ -12848,8 +12875,6 @@ end)()
 			11
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[40406] = {
 		id = 40406,
 		durability = {
@@ -15226,6 +15251,8 @@ end)()
 			8
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[60801] = {
 		id = 60801,
 		durability = {
@@ -15250,8 +15277,6 @@ end)()
 			6
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[60802] = {
 		id = 60802,
 		durability = {
@@ -17628,6 +17653,8 @@ end)()
 			13
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[960015] = {
 		id = 960015,
 		durability = {
@@ -17652,8 +17679,6 @@ end)()
 			14
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[960016] = {
 		id = 960016,
 		durability = {
@@ -20030,6 +20055,8 @@ end)()
 			0
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[39904] = {
 		id = 39904,
 		durability = {
@@ -20054,8 +20081,6 @@ end)()
 			0
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[49902] = {
 		id = 49902,
 		durability = {

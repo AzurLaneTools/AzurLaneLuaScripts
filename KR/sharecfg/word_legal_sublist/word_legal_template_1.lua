@@ -808,7 +808,18 @@ temp = function()
 			this = true
 		},
 		["베"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		},
 		["리"] = {
 			["제"] = {
@@ -941,25 +952,6 @@ temp = function()
 						["드"] = {
 							this = true
 						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["부"] = {
-		["시"] = {
-			this = true
-		},
-		["아"] = {
-			[" "] = {
-				["벨"] = {
-					["루"] = {
-						this = true
 					}
 				}
 			}

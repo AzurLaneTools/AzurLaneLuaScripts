@@ -523,6 +523,11 @@ pg.player_resource.all = {
 	705,
 	706,
 	711,
+	712,
+	713,
+	714,
+	715,
+	716,
 	950,
 	951,
 	952,
@@ -1488,6 +1493,15 @@ pg.player_resource.get_id_list_by_name = {
 	limit_skinticket92 = {
 		705
 	},
+	limit_skinticket93 = {
+		716
+	},
+	limit_skinticket94 = {
+		713
+	},
+	limit_skinticket95 = {
+		714
+	},
 	liuzhounianhaidao_pt = {
 		350
 	},
@@ -1784,6 +1798,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	skinTicket118 = {
 		706
+	},
+	skinTicket119 = {
+		715
 	},
 	skinTicket12 = {
 		181
@@ -2423,6 +2440,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	xiaoxinnong_pt = {
 		319
+	},
+	xiaoyunxian_pt = {
+		712
 	},
 	xinghai_pt1 = {
 		384
@@ -5192,6 +5212,31 @@ end)()
 		name = "union15_pt",
 		itemid = 66036
 	}
+	pg.base.player_resource[712] = {
+		id = 712,
+		name = "xiaoyunxian_pt",
+		itemid = 66037
+	}
+	pg.base.player_resource[713] = {
+		id = 713,
+		name = "limit_skinticket94",
+		itemid = 68295
+	}
+	pg.base.player_resource[714] = {
+		id = 714,
+		name = "limit_skinticket95",
+		itemid = 68296
+	}
+	pg.base.player_resource[715] = {
+		id = 715,
+		name = "skinTicket119",
+		itemid = 65990
+	}
+	pg.base.player_resource[716] = {
+		id = 716,
+		name = "limit_skinticket93",
+		itemid = 68294
+	}
 	pg.base.player_resource[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -5567,6 +5612,8 @@ end)()
 		name = "Battlepass_15",
 		itemid = 59525
 	}
+end)()
+(function ()
 	pg.base.player_resource[4016] = {
 		id = 4016,
 		name = "Battlepass_16",
@@ -5592,8 +5639,6 @@ end)()
 		name = "Battlepass_20",
 		itemid = 65057
 	}
-end)()
-(function ()
 	pg.base.player_resource[4021] = {
 		id = 4021,
 		name = "Battlepass_21",

@@ -1161,8 +1161,11 @@ end
 slot0.createLive2D = function(slot0, slot1)
 	slot2 = pg.Live2DMgr.GetInstance()
 	slot0.live2dRequestId = slot2:GetLive2DModelAsync(slot1, function (slot0)
+		slot1 = slot0.transform
+
+		GetOrAddComponent(slot1, typeof(DftAniEvent))
 		HotfixHelper.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
-		slot0.transform:SetParent(uv0.targetActorTF:Find("live2d"), true)
+		slot1:SetParent(uv0.targetActorTF:Find("live2d"), true)
 
 		slot3 = nil
 		slot3 = (not uv0.reviewSkinID or uv0.reviewSkinID) and (not uv0.proposeSkin or uv0.proposeSkin.id) and uv0.shipVO:getSkinId()
@@ -1193,6 +1196,19 @@ slot0.createLive2D = function(slot0, slot1)
 
 		if slot6.lip_sync_gain and slot7 ~= 0 then
 			slot2:GetChild(0):GetComponent("CubismCriSrcMouthInput").Gain = slot7
+		end
+
+		if uv1 == "mojiaduoer_4" then
+			uv0.l2dChar:AddParameterValue(uv0.l2dChar:GetCubismParameter("ParamAngleX1"), 3, CubismParameterBlendMode.Override)
+			uv0.l2dChar:AddParameterValue(uv0.l2dChar:GetCubismParameter("touch_drag45"), 7, CubismParameterBlendMode.Override)
+		end
+
+		if uv0.l2dChar:GetCubismParameter("l2d_hx") then
+			if HXSet.isHx() then
+				uv0.l2dChar:AddParameterValue(slot9, 1, CubismParameterBlendMode.Override)
+			else
+				uv0.l2dChar:AddParameterValue(slot9, 0, CubismParameterBlendMode.Override)
+			end
 		end
 
 		if slot8 and slot8 ~= 0 then

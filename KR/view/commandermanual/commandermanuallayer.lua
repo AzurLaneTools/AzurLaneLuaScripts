@@ -388,15 +388,16 @@ slot0.ShowGuidePage = function(slot0)
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.guidePages[slot1 + 1]
+			slot4 = slot3:getConfig("name")
 
 			setActive(slot2:Find("lock0/lock"), not slot3.isUnlock)
 			setActive(slot2:Find("tip"), slot3:ShouldShowTip())
 
-			slot4 = slot2:Find("mask/name"):GetComponent("ScrollText")
+			slot6 = slot2:Find("mask/name"):GetComponent("ScrollText")
 
-			slot4:SetText(slot3.isUnlock and slot3:getConfig("name") or slot3:getConfig("lock_name"))
+			slot6:SetText(slot3.isUnlock and slot4 or slot3:getConfig("lock_name") or "")
 			setText(slot2:Find("en"), slot3:getConfig("eng_name"))
-			slot2:Find("select/mask/name"):GetComponent("ScrollText"):SetText(slot3:getConfig("name"))
+			slot2:Find("select/mask/name"):GetComponent("ScrollText"):SetText(tostring(slot4 or ""))
 			setText(slot2:Find("select/en"), slot3:getConfig("eng_name"))
 
 			slot2:GetComponent(typeof(CanvasGroup)).alpha = slot3.isUnlock and 1 or 0.5

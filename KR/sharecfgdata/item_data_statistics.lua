@@ -111316,6 +111316,73 @@ _G.pg.base.item_data_statistics[81235] = {
 }
 
 
+_G.pg.base.item_data_statistics[81236] = {
+	open_directly = 1,
+	name = "수영복 패키지(2026)·II",
+	type = 17,
+	display = "랜덤 수영복 스킨*1, 상급 지향형 강화 유닛·8기×2, 다이아×2026, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai36",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998332",
+	id = 81236,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86228,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81407] = {
 	open_directly = 1,
 	name = "봄날 선택 패키지1",

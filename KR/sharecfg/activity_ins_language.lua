@@ -7736,6 +7736,77 @@ pg.activity_ins_language.all = {
 	"op_reply_642_1_1",
 	"ins_op_642_1_2",
 	"op_reply_642_1_2",
+	"ins_650",
+	"ins_discuss_650_1",
+	"ins_reply_650_1_1",
+	"ins_reply_650_1_2",
+	"ins_reply_650_1_3",
+	"ins_reply_650_1_4",
+	"ins_discuss_650_2",
+	"ins_reply_650_2_1",
+	"ins_reply_650_2_2",
+	"ins_reply_650_2_3",
+	"ins_reply_650_2_4",
+	"ins_op_650_1_1",
+	"op_reply_650_1_1",
+	"ins_op_650_1_2",
+	"op_reply_650_1_2",
+	"ins_651",
+	"ins_discuss_651_1",
+	"ins_reply_651_1_1",
+	"ins_reply_651_1_2",
+	"ins_discuss_651_2",
+	"ins_reply_651_2_1",
+	"ins_reply_651_2_2",
+	"ins_reply_651_2_3",
+	"ins_reply_651_2_4",
+	"ins_op_651_1_1",
+	"op_reply_651_1_1",
+	"ins_op_651_1_2",
+	"op_reply_651_1_2",
+	"ins_652",
+	"ins_discuss_652_1",
+	"ins_reply_652_1_1",
+	"ins_reply_652_1_2",
+	"ins_reply_652_1_3",
+	"ins_reply_652_1_4",
+	"ins_discuss_652_2",
+	"ins_reply_652_2_1",
+	"ins_reply_652_2_2",
+	"ins_reply_652_2_3",
+	"ins_op_652_1_1",
+	"op_reply_652_1_1",
+	"ins_op_652_1_2",
+	"op_reply_652_1_2",
+	"ins_653",
+	"ins_discuss_653_1",
+	"ins_reply_653_1_1",
+	"ins_reply_653_1_2",
+	"ins_reply_653_1_3",
+	"ins_discuss_653_2",
+	"ins_reply_653_2_1",
+	"ins_reply_653_2_2",
+	"ins_reply_653_2_3",
+	"ins_reply_653_2_4",
+	"ins_op_653_1_1",
+	"op_reply_653_1_1",
+	"ins_op_653_1_2",
+	"op_reply_653_1_2",
+	"ins_654",
+	"ins_discuss_654_1",
+	"ins_reply_654_1_1",
+	"ins_reply_654_1_2",
+	"ins_reply_654_1_3",
+	"ins_reply_654_1_4",
+	"ins_reply_654_1_5",
+	"ins_discuss_654_2",
+	"ins_reply_654_2_1",
+	"ins_reply_654_2_2",
+	"ins_reply_654_2_3",
+	"ins_op_654_1_1",
+	"op_reply_654_1_1",
+	"ins_op_654_1_2",
+	"op_reply_654_1_2",
 	"ins_644",
 	"ins_discuss_644_1",
 	"ins_reply_644_1_1",
@@ -7941,6 +8012,33 @@ pg.activity_ins_language.all = {
 	"op_reply_20003_2_3",
 	"op_reply_20003_2_4",
 	"op_reply_20003_2_5",
+	"ins_20006",
+	"ins_discuss_20006_1",
+	"ins_discuss_20006_2",
+	"ins_reply_20006_2_1",
+	"ins_discuss_20006_3",
+	"ins_discuss_20006_4",
+	"ins_reply_20006_4_1",
+	"ins_reply_20006_4_2",
+	"ins_reply_20006_4_3",
+	"ins_discuss_20006_5",
+	"ins_reply_20006_5_1",
+	"ins_reply_20006_5_2",
+	"ins_reply_20006_5_3",
+	"ins_discuss_20006_6",
+	"ins_discuss_20006_7",
+	"ins_reply_20006_7_1",
+	"ins_discuss_20006_8",
+	"ins_reply_20006_8_1",
+	"ins_reply_20006_8_2",
+	"ins_op_20006_1_1",
+	"op_reply_20006_1_1",
+	"op_reply_20006_1_2",
+	"op_reply_20006_1_3",
+	"op_reply_20006_1_4",
+	"ins_op_20006_1_2",
+	"op_reply_20006_2_1",
+	"op_reply_20006_2_2",
 	"ins_20005",
 	"ins_discuss_20005_1",
 	"ins_discuss_20005_2",
@@ -31334,6 +31432,221 @@ end)()
 	pg.base.activity_ins_language.op_reply_642_1_2 = {
 		value = "이히힛♪ 멋진 사진 건지면 지휘관한테 제일 먼저 보여줄게!♪"
 	}
+	pg.base.activity_ins_language.ins_650 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_650_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_650_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_650_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_650_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_650_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_650_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_650_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_650_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_650_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_650_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_650_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_650_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_650_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_650_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_651 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_651_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_651_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_651_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_651_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_651_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_651_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_651_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_651_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_651_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_651_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_651_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_651_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_652 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_652_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_652_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_652_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_652_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_652_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_652_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_652_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_652_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_652_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_652_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_652_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_652_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_652_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_653 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_653_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_653_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_653_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_653_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_653_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_653_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_653_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_653_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_653_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_653_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_653_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_653_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_653_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_654 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_654_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_654_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_654_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_654_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_654_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_654_1_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_654_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_654_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_654_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_654_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_654_1_1 = {
+		value = ""
+	}
+end)()
+(function ()
+	pg.base.activity_ins_language.op_reply_654_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_654_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_654_1_2 = {
+		value = ""
+	}
 	pg.base.activity_ins_language.ins_644 = {
 		value = ""
 	}
@@ -31538,8 +31851,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_643_1_1 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_643_1_2 = {
 		value = ""
 	}
@@ -31627,6 +31938,8 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20001_14 = {
 		value = "다들 밥 먹었어? 아침엔 뭐 먹었어? 점심엔? 저녁엔?"
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_discuss_20001_15 = {
 		value = "정말 아무거나 올려도 되는 건가요?! 그럼 전 보물 지도를 올릴게요! 다 같이 잃어버린 보물을 찾으러 가는 거예요!"
 	}
@@ -31840,8 +32153,6 @@ end)()
 	pg.base.activity_ins_language.ins_op_20004_1_2 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.op_reply_20004_2_1 = {
 		value = ""
 	}
@@ -31929,6 +32240,8 @@ end)()
 	pg.base.activity_ins_language.op_reply_20003_1_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.op_reply_20003_1_2 = {
 		value = ""
 	}
@@ -31951,6 +32264,87 @@ end)()
 		value = ""
 	}
 	pg.base.activity_ins_language.op_reply_20003_2_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_20006 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20006_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20006_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20006_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20006_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20006_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20006_4_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20006_4_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20006_4_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20006_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20006_5_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20006_5_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20006_5_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20006_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20006_7 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20006_7_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20006_8 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20006_8_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20006_8_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20006_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20006_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20006_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20006_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20006_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20006_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20006_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20006_2_2 = {
 		value = ""
 	}
 	pg.base.activity_ins_language.ins_20005 = {

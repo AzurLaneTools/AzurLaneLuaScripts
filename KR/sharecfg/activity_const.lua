@@ -1210,7 +1210,7 @@ end)()
 		act_id = 990015
 	}
 	pg.base.activity_const.OUT_POST_OMEN_TASKS = {
-		act_id = 51005
+		act_id = 51011
 	}
 end)()
 (function ()

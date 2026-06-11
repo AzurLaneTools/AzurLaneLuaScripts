@@ -39377,17 +39377,17 @@ _G.pg.base.gametip.daily_level_go = {
 
 
 _G.pg.base.gametip.yumia_main_tip_1 = {
-	tip = ""
+	tip = "한정 건조"
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_2 = {
-	tip = ""
+	tip = "한정 해역"
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_3 = {
-	tip = ""
+	tip = "스킨"
 }
 
 
@@ -48529,6 +48529,33 @@ _G.pg.base.gametip.cruise_title_2606 = {
 }
 
 
+_G.pg.base.gametip.littleyunxian_npc = {
+	tip = {
+		{
+			info = "■ 개요\n「꼬마 선인의 보물찾기」는 이벤트 시작 시에 임시로 가입하는 [꼬마 운젠]의 「호감도」를 기간 한정 임무를 클리어함으로써 쌓아, [꼬마 운젠]을 정식으로 가입시키는 이벤트입니다. "
+		},
+		{
+			info = "■ 플레이 방법\n1. 이벤트 기간 중에 특정 이벤트를 수행하면 「호감도」를 획득할 수 있습니다. 획득한 「호감도」가 일정 수치에 도달하면 「호감도 보상」을 획득할 수 있습니다."
+		},
+		{
+			info = "2. [꼬마 운젠]은 호감도 보상(7단계째)의 「정식 가입」을 달성하지 않으면 서약할 수 없으며, 퇴역 및 강화·한계 돌파 재료로 선택할 수 없습니다. "
+		},
+		{
+			info = "3. 이벤트 종료 시까지 이벤트 페이지의 「호감도 보상」을 마지막까지 수령하면, [꼬마 운젠]을 「정식 가입」시킬 수 있습니다. 이벤트 종료 시, 「정식 가입」하지 않은 [꼬마 운젠]은 모항에서 사라집니다. "
+		},
+		{
+			info = "4. 호감도 보상은 6/17(수)까지 매일 한 단계씩 오픈됩니다. "
+		},
+		{
+			info = "5. 임시 가입 상태인 [꼬마 운젠]은 대형 작전(META전 포함)에는 참여할 수 없습니다. "
+		},
+		{
+			info = "7. 임시 가입 상태인 [꼬마 운젠]은 대함대 작전에 참여할 수 없습니다. "
+		}
+	}
+}
+
+
 _G.pg.base.gametip.littleMusashi_npc = {
 	tip = {
 		{
@@ -48978,6 +49005,11 @@ _G.pg.base.gametip.mall_continue_to_unlock = {
 }
 
 
+_G.pg.base.gametip.mall_pos_lock = {
+	tip = "쇼핑몰 LV UP 시 오픈"
+}
+
+
 _G.pg.base.gametip.GeZiURCoreActivityUI_subtitle_1 = {
 	tip = "성인 전의 동맹"
 }
@@ -49050,4 +49082,19 @@ _G.pg.base.gametip.mall_unlock_date_tip2 = {
 
 _G.pg.base.gametip.mall_order_finished_all_tip = {
 	tip = "모든 만쥬 오더를 처리했습니다."
+}
+
+
+_G.pg.base.gametip.littleyunxian_tip1 = {
+	tip = "PHASE"
+}
+
+
+_G.pg.base.gametip.littleyunxian_tip2 = {
+	tip = "누적"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_3 = {
+	tip = "옻칠의 광채"
 }

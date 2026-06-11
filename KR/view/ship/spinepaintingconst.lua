@@ -1651,6 +1651,117 @@ slot0.ship_drag_datas = {
 				}
 			}
 		}
+	},
+	aimudeng_5_asmr = {
+		multiple_face = {},
+		hit_area = {
+			"asmr_001",
+			"asmr_002",
+			"asmr_003",
+			"asmr_004",
+			"asmr_005",
+			"asmr_006",
+			"asmr_007",
+			"asmr_007_1",
+			"asmr_008",
+			"asmr_009",
+			"asmr_010"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_001",
+					is_default = true,
+					action = "asmr_001",
+					hit = "asmr_001"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_002",
+					is_default = true,
+					action = "asmr_002",
+					hit = "asmr_002"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_003",
+					is_default = true,
+					action = "asmr_003",
+					hit = "asmr_003"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_004",
+					is_default = true,
+					action = "asmr_004",
+					hit = "asmr_004"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_005",
+					is_default = true,
+					action = "asmr_005",
+					hit = "asmr_005"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_006",
+					is_default = true,
+					action = "asmr_006",
+					hit = "asmr_006"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_007",
+					is_default = true,
+					action = "asmr_007",
+					hit = "asmr_007"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_008",
+					is_default = true,
+					action = "asmr_008",
+					hit = "asmr_008"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_009",
+					is_default = true,
+					action = "asmr_009",
+					hit = "asmr_009"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_010",
+					is_default = true,
+					action = "asmr_010",
+					hit = "asmr_010"
+				}
+			}
+		}
 	}
 }
 slot0.ship_effect_action_able = {

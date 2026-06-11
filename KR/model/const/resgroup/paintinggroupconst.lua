@@ -146,6 +146,15 @@ return {
 
 		return slot1
 	end,
+	GetPaintingNameListForMallAct = function (slot0)
+		slot1 = {}
+
+		for slot5, slot6 in ipairs(pg.activity_mall_custom_order.all) do
+			uv0.AddPaintingNameBySkinID(slot1, pg.activity_mall_custom_order[slot6].char)
+		end
+
+		return slot1
+	end,
 	PaintingDownload = function (slot0)
 		slot1 = {}
 

@@ -4145,6 +4145,7 @@ pg.memory_template.all = {
 	5202,
 	5203,
 	5204,
+	5211,
 	10000,
 	10001,
 	10002,
@@ -79061,6 +79062,24 @@ end)()
 			"SHEHUAXIANGMENGFUJINWAN24"
 		}
 	}
+	pg.base.memory_template[5211] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "옻칠의 광채",
+		condition = "「옻칠의 광채」에 참여",
+		story = "RUOQIZHIGUANG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5211,
+		icon = "memory_ruoqizhiguang",
+		is_open = 0,
+		unlock_pre = {
+			"RUOQIZHIGUANG1"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80105,6 +80124,8 @@ end)()
 			"YINGHUA14"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10072] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80123,8 +80144,6 @@ end)()
 			"TACT50000"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10073] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81907,6 +81926,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20088] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81925,8 +81946,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA8"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20089] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83709,6 +83728,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA39"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20189] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83727,8 +83748,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA40"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20190] = {
 		ship_group = 0,
 		subtitle = "",

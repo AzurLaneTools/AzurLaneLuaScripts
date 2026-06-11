@@ -44,6 +44,8 @@ slot0.init = function(slot0)
 	slot0._pageIndex = slot0.contextData.index or 1
 	slot0._hideExpire = false
 	slot0._trophyTFList = {}
+	slot0._trophyViewCache = {}
+	slot0._trophyMatCache = {}
 	slot0.cardItems = {}
 	slot0.cardList = slot0.rtScrollContent:GetComponent("LScrollRect")
 
@@ -57,6 +59,97 @@ slot0.init = function(slot0)
 
 	slot0.cardList.onReturnItem = function(slot0, slot1)
 		uv0:onReturnCard(slot0, slot1)
+	end
+
+	slot0._loader = AutoLoader.New()
+end
+
+slot0.checkTrophyVisible = function(slot0, slot1, slot2, slot3)
+	if slot1:GetTrophyPage() ~= slot2 then
+		return false
+	end
+
+	slot4 = false
+
+	if slot3 == "all" then
+		slot4 = true
+	elseif slot3 == "claimed" then
+		slot4 = slot1:getMaxClaimedTrophy() ~= nil
+	end
+
+	if slot2 == uv0.PAGE_LIMITED and slot0._hideExpire and slot1:IsExpire() == 1 and not slot1:getProgressTrophy():isClaimed() then
+		slot4 = false
+	end
+
+	return slot4
+end
+
+slot0.ensureTrophyViewCache = function(slot0, slot1)
+	if slot0._trophyViewCache[slot1] then
+		return slot2
+	end
+
+	slot3 = cloneTplTo(slot0._trophyUpperTpl, slot0._trophyContainer)
+	slot4 = cloneTplTo(slot0._trophyLowerTpl, slot0._trophyContainer)
+
+	slot7 = function()
+		slot1 = uv0.trophyGroups[uv1]:getProgressTrophy()
+
+		if not uv0._trophyTFList[uv1] then
+			return
+		end
+
+		if slot1:canClaimed() and not slot1:isClaimed() then
+			if not slot2:IsPlaying() then
+				uv0:emit(TrophyGalleryMediator.ON_TROPHY_CLAIM, slot1.id)
+			end
+		elseif not slot2:IsPlaying() then
+			uv0:openTrophyDetail(slot0, slot1)
+		end
+	end
+
+	onButton(slot0, slot3.transform:Find("frame"), slot7)
+	onButton(slot0, slot4.transform:Find("frame"), slot7)
+	setActive(slot3, false)
+	setActive(slot4, false)
+
+	slot2 = {
+		upperGO = slot3,
+		lowerGO = slot4,
+		upperView = TrophyView.New(slot3),
+		lowerView = TrophyView.New(slot4)
+	}
+	slot0._trophyViewCache[slot1] = slot2
+
+	return slot2
+end
+
+slot0.updateTrophyViewByFilter = function(slot0, slot1, slot2, slot3)
+	if slot3 == "all" then
+		slot1:UpdateTrophyGroup(slot2)
+	elseif slot3 == "claimed" then
+		slot1:ClaimForm(slot2)
+	elseif slot3 == "unclaim" then
+		slot1:ProgressingForm(slot2)
+	end
+end
+
+slot0.updateTrophyReminderMaterial = function(slot0, slot1)
+	if slot0._trophyMatCache[slot1:GetTrophyClaimTipsID()] then
+		slot1:SetTrophyReminderMaterial(slot3)
+
+		return
+	end
+
+	if checkABExist("artresource/effect/xunzhang/materials/" .. slot2) then
+		slot5 = slot0._loader
+
+		slot5:LoadBundle(slot4, function (slot0)
+			slot1 = slot0:LoadAssetSync(uv0, typeof(Material), false, false)
+			uv1._trophyMatCache[uv0] = slot1
+
+			uv2:SetTrophyReminderMaterial(slot1)
+		end)
 	end
 end
 
@@ -140,56 +233,30 @@ end
 slot0.updateTrophyList = function(slot0)
 	slot0._trophyTFList = {}
 
-	removeAllChildren(slot0._trophyContainer)
+	for slot4, slot5 in pairs(slot0._trophyViewCache) do
+		setActive(slot5.upperGO, false)
+		setActive(slot5.lowerGO, false)
+	end
 
 	slot1 = uv0.Filter[slot0._filterIndex]
 	slot2 = slot0._pageIndex
-	slot3 = 0
+	slot3 = 1
 
 	for slot7, slot8 in pairs(slot0.trophyGroups) do
-		if slot8:GetTrophyPage() == slot2 then
-			slot9 = nil
+		if slot0:checkTrophyVisible(slot8, slot2, slot1) then
+			slot9 = slot0:ensureTrophyViewCache(slot7)
+			slot10 = math.fmod(slot3, 2) == 1
+			slot11 = slot10 and slot9.upperGO or slot9.lowerGO
+			slot13 = slot10 and slot9.upperView or slot9.lowerView
 
-			if slot1 == "all" then
-				slot9 = true
-			elseif slot1 == "claimed" then
-				slot9 = slot8:getMaxClaimedTrophy() ~= nil
-			end
+			setActive(slot11, true)
+			setActive(slot10 and slot9.lowerGO or slot9.upperGO, false)
+			slot11.transform:SetSiblingIndex(slot3 - 1)
+			slot0:updateTrophyViewByFilter(slot13, slot8, slot1)
+			slot0:updateTrophyReminderMaterial(slot13)
 
-			if slot2 == uv0.PAGE_LIMITED and slot0._hideExpire and slot8:IsExpire() == 1 and not slot8:getProgressTrophy():isClaimed() then
-				slot9 = false
-			end
-
-			if slot9 then
-				slot10 = nil
-				slot13 = TrophyView.New(cloneTplTo((math.fmod(slot3, 2) ~= 0 or slot0._trophyUpperTpl) and slot0._trophyLowerTpl, slot0._trophyContainer))
-
-				if slot1 == "all" then
-					slot13:UpdateTrophyGroup(slot8)
-				elseif slot1 == "claimed" then
-					slot13:ClaimForm(slot8)
-				elseif slot1 == "unclaim" then
-					slot13:ProgressingForm(slot8)
-				end
-
-				slot18 = slot0._reminderRes
-
-				slot13:SetTrophyReminder(Instantiate(slot18:Find(slot13:GetTrophyClaimTipsID())))
-
-				slot0._trophyTFList[slot7] = slot13
-				slot3 = slot3 + 1
-				slot17 = slot12.transform
-
-				onButton(slot0, slot17:Find("frame"), function ()
-					if uv0.trophyGroups[uv1]:getProgressTrophy():canClaimed() and not slot1:isClaimed() then
-						if not uv2:IsPlaying() then
-							uv0:emit(TrophyGalleryMediator.ON_TROPHY_CLAIM, slot1.id)
-						end
-					elseif not uv2:IsPlaying() then
-						uv0:openTrophyDetail(slot0, slot1)
-					end
-				end)
-			end
+			slot0._trophyTFList[slot7] = slot13
+			slot3 = slot3 + 1
 		end
 	end
 end
@@ -348,6 +415,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	slot0._loader:Clear()
 	pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(slot0.toggleLoveLetter:Find("tip"))
 
 	slot3 = slot0.rtCountLevelPanel

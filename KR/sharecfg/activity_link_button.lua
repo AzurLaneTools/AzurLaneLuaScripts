@@ -513,8 +513,31 @@ pg.base.activity_link_button = {}
 		group_id = 2,
 		order = 2,
 		time = {
-			"default",
-			50611
+			"timer",
+			{
+				{
+					2026,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					28
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
 		}
 	}
 	pg.base.activity_link_button[111] = {

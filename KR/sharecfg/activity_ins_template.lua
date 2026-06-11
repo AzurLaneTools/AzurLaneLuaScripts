@@ -635,6 +635,11 @@ pg.activity_ins_template.all = {
 	640,
 	641,
 	642,
+	650,
+	651,
+	652,
+	653,
+	654,
 	644,
 	646,
 	647,
@@ -645,6 +650,7 @@ pg.activity_ins_template.all = {
 	20002,
 	20003,
 	20004,
+	20006,
 	20005
 }
 pg.base = pg.base or {}
@@ -26845,6 +26851,141 @@ end)()
 			7059
 		}
 	}
+	pg.base.activity_ins_template[650] = {
+		ship_group = 90107,
+		name = "Mogador",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "mojiaduoer_4",
+		id = 650,
+		group_id = 650,
+		time = {
+			{
+				2026,
+				6,
+				11
+			},
+			{
+				13,
+				21,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[651] = {
+		ship_group = 20135,
+		name = "Janus",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "yanusi_7",
+		id = 651,
+		group_id = 651,
+		time = {
+			{
+				2026,
+				6,
+				12
+			},
+			{
+				10,
+				27,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[652] = {
+		ship_group = 40207,
+		name = "Emden ",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "aimudeng_5",
+		id = 652,
+		group_id = 652,
+		time = {
+			{
+				2026,
+				6,
+				13
+			},
+			{
+				16,
+				28,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[653] = {
+		ship_group = 30405,
+		name = "Amagi",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "tiancheng_cv_3",
+		id = 653,
+		group_id = 653,
+		time = {
+			{
+				2026,
+				6,
+				14
+			},
+			{
+				12,
+				16,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[654] = {
+		ship_group = 49906,
+		name = "August.V.Parseval",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "aogusite_4",
+		id = 654,
+		group_id = 654,
+		time = {
+			{
+				2026,
+				6,
+				15
+			},
+			{
+				19,
+				8,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
 	pg.base.activity_ins_template[644] = {
 		ship_group = 40815,
 		name = "U-2501>w<",
@@ -27108,6 +27249,33 @@ end)()
 			},
 			{
 				11,
+				0,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20006] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "「모항 이야기」에 새로운 장소 오픈! 푸슌의 기묘한 대모험 (2)",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20006,
+		group_id = 20006,
+		time = {
+			{
+				2026,
+				6,
+				11
+			},
+			{
+				14,
 				0,
 				17
 			}

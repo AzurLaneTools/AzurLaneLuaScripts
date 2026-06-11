@@ -183528,6 +183528,32 @@ _G.pg.base.item_virtual_data_statistics[65903] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65990] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권",
+	display = "「스킨 체험」 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료 시 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65990,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65910] = {
 	drop_gold_max = 0,
 	name = "스킨 체험권 (2026.5.20까지)",
@@ -185755,6 +185781,84 @@ _G.pg.base.item_virtual_data_statistics[66019] = {
 	drop_oil_max = 0,
 	virtual_type = 22,
 	id = 66019,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66020] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권",
+	display = "「스킨 체험」 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료 시 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66020,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66037] = {
+	drop_gold_max = 0,
+	name = "호감도 - 꼬마 운젠",
+	display = "이벤트 「꼬마 선인의 보물찾기」·호감도",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/xiaoyunxian_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66037,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66038] = {
+	drop_gold_max = 0,
+	name = "小云仙转换虚拟道具（不显示）",
+	display = "看不到看不到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 51012,
+	album_config = "",
+	icon = "Props/xiaoyunxian_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 17,
+	id = 66038,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -195388,6 +195492,57 @@ _G.pg.base.item_virtual_data_statistics[86227] = {
 		{
 			401141,
 			1740
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86228] = {
+	drop_gold_max = 0,
+	name = "랜덤 스킨",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86228,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			499063,
+			1300
+		},
+		{
+			201355,
+			1300
+		},
+		{
+			899013,
+			1300
+		},
+		{
+			402074,
+			1600
+		},
+		{
+			502013,
+			2000
+		},
+		{
+			107225,
+			2500
 		}
 	}
 }
@@ -256012,7 +256167,7 @@ _G.pg.base.item_virtual_data_statistics[200787] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{
@@ -256149,7 +256304,7 @@ _G.pg.base.item_virtual_data_statistics[200788] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{
@@ -256286,7 +256441,7 @@ _G.pg.base.item_virtual_data_statistics[200789] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{
@@ -256839,7 +256994,7 @@ _G.pg.base.item_virtual_data_statistics[200793] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{
@@ -256976,7 +257131,7 @@ _G.pg.base.item_virtual_data_statistics[200794] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{
@@ -257113,7 +257268,7 @@ _G.pg.base.item_virtual_data_statistics[200795] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{
