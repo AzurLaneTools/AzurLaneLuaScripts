@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"指挥官，该动筷了！\n\n<size=45>六　美食攻心的谋略</size>",
+					"指揮官，該動筷子了！\n\n<size=45>6.美食攻心的謀略</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-5",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后的时光，济安和我就在厨房里度过。",
+			say = "之後的時光，濟安和我就在廚房度過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "从炒菜到烘焙，为了确保各种入门级操作济安都能理解，全程都是手把手教学。",
+			say = "從炒菜到烘焙，為了確保各種入門級操作濟安都能理解，全程都是手把手教學。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "直至深夜，我和她才从厨房离开。",
+			say = "直到深夜，我和她才從廚房離開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "托指挥官的福，我学到了不少呢~",
+			say = "託指揮官的福，我學到了不少呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "做饭原来基础入门都这么复杂……",
+			say = "做菜原來基礎入門這麼複雜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，看来我真的不该对着龙武的操作依葫芦画瓢的。",
+			say = "哎呀，看來我真的不該對著龍武的操作依葫蘆畫瓢的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？依葫芦画瓢是怎么回事？",
+			say = "嗯？依葫蘆畫瓢是怎麼回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……最开始龙武她还让我进厨房的时候，我是提过要跟她学两手的。",
+			say = "嗯……最開始龍武她還讓我進廚房的時候，我是提過要跟她學兩手的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她说看不懂的地方可以问她，我都看懂了呀，所以就充满了自信呢~",
+			say = "她說看不懂的地方可以問她，我都看懂了呀，所以就充滿了自信呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再然后……就被勒令不准进厨房了……欸嘿☆",
+			say = "再然後……就被勒令不准進廚房了……欸嘿☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……原来如此。",
+			say = "……原來如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过指挥官这下可以放心了，明天我会努力重新做一份美味的食物来招待您的哦~",
+			say = "不過指揮官這下可以放心了，明天我會努力重新做一份美味的食物來招待您的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐我可是非常有自信，明天一定会成功呢。",
+			say = "姐姐我可是非常有自信，明天一定會成功呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这么笃定么？",
+			say = "這麼篤定嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是因为我已经在指挥官的帮助下，获得了能让食物变美味的最重要的佐料哦~♪",
+			say = "那是因為我已經在指揮官的幫助下，獲得了能讓食物變得美味的最重要的佐料哦~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "实际上，我选择下厨的原因……不只是为了给您补充营养这么简单。",
+			say = "實際上，我選擇下廚的原因……不只是為了幫您補充營養這麼簡單。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还有别的含义吗？",
+			say = "還有別的意思嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然。姐姐我原本可是想要用美食抓住您的心呢。",
+			say = "當然。姐姐我原本可是想要用美食抓住您的心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过呢，我已经想明白了……",
+			say = "不過呢，我已經想明白了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "重要的不是美食，也不是这以美食为名的计谋，而是——",
+			say = "重要的不是美食，也不是這以美食為名的計謀，而是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女拖长了尾音，却又在关键的位置戛然而止，换上了一副略带狡黠的笑容。",
+			say = "少女拖長了尾音，卻又在關鍵的位置戛然而止，換上了一副略帶狡猾的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……我又想了想，现在还不是说这句话的时候呢~",
+			say = "不……我又想了想，現在還不是說這句話的時候呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谜底，就留在您明天来验收我今日的特训成果的时候揭晓吧！",
+			say = "謎底，就留在您明天來驗收我今日的特訓成果的時候揭曉吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

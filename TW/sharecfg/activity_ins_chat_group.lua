@@ -58,6 +58,9 @@ pg.activity_ins_chat_group.all = {
 	53,
 	54,
 	55,
+	72,
+	73,
+	74,
 	75,
 	76,
 	77,
@@ -564,6 +567,11 @@ pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 		232,
 		233,
 		234
+	},
+	[50209] = {
+		72,
+		73,
+		74
 	},
 	[50212] = {
 		266,
@@ -3476,6 +3484,126 @@ pg.base.activity_ins_chat_group = {}
 			1972
 		}
 	}
+	pg.base.activity_ins_chat_group[72] = {
+		ship_group = 50209,
+		name = "排憂解難",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
+		id = 72,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			2509,
+			2510,
+			2511,
+			2512,
+			2513,
+			2514,
+			2515,
+			2516,
+			2517,
+			2518,
+			2519,
+			2520,
+			2521,
+			2522,
+			2523,
+			2524,
+			2525,
+			2526,
+			2527,
+			2528,
+			2529,
+			2530,
+			2531,
+			2532,
+			2533,
+			2534,
+			2535,
+			2536,
+			2537,
+			2538
+		}
+	}
+	pg.base.activity_ins_chat_group[73] = {
+		ship_group = 50209,
+		name = "下廚",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
+		id = 73,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			2539,
+			2540,
+			2541,
+			2542,
+			2543,
+			2544,
+			2545,
+			2546,
+			2547,
+			2548,
+			2549,
+			2550,
+			2551,
+			2552,
+			2553,
+			2554,
+			2555,
+			2556,
+			2557,
+			2558,
+			2559,
+			2560,
+			2561,
+			2562,
+			2563,
+			2564,
+			2565,
+			2566,
+			2567,
+			2568,
+			2569,
+			2570,
+			2571
+		}
+	}
+	pg.base.activity_ins_chat_group[74] = {
+		ship_group = 50209,
+		name = "儀式感",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
+		id = 74,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			2572,
+			2573,
+			2574,
+			2575,
+			2576,
+			2577,
+			2578,
+			2579,
+			2580,
+			2581,
+			2582,
+			2583,
+			2584,
+			2585,
+			2586,
+			2587,
+			2588,
+			2589,
+			2590,
+			2591,
+			2592,
+			2593,
+			2594,
+			2595
+		}
+	}
 	pg.base.activity_ins_chat_group[75] = {
 		ship_group = 60508,
 		name = "靈感再現",
@@ -5292,6 +5420,8 @@ pg.base.activity_ins_chat_group = {}
 			4178
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_ins_chat_group[123] = {
 		ship_group = 20235,
 		name = "尼羅河粽子",
@@ -5408,8 +5538,6 @@ pg.base.activity_ins_chat_group = {}
 			4261
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_ins_chat_group[126] = {
 		ship_group = 20139,
 		name = "驚喜",
@@ -9133,6 +9261,8 @@ end)()
 			7203
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_ins_chat_group[232] = {
 		ship_group = 49910,
 		name = "魔女的工作",
@@ -9249,8 +9379,6 @@ end)()
 			7286
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_ins_chat_group[235] = {
 		ship_group = 119901,
 		name = "自然之音",

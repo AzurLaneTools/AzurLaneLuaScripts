@@ -141,6 +141,21 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	}
+	pg.base.voice_bgm.ActivityShop6035 = {
+		default_bgm = "doa_story1",
+		special_bgm = "",
+		bgm = "doa_story1"
+	}
+	pg.base.voice_bgm.ActivityShop50807 = {
+		default_bgm = "doa_huanzhuang",
+		special_bgm = "",
+		bgm = "doa_huanzhuang"
+	}
+	pg.base.voice_bgm.ActivityShop50829 = {
+		default_bgm = "story-tulipa",
+		special_bgm = "",
+		bgm = "story-tulipa"
+	}
 	pg.base.voice_bgm.ActivityShop50611 = {
 		default_bgm = "theme-hrr",
 		special_bgm = "",
@@ -160,21 +175,6 @@ pg.base.voice_bgm = {}
 		default_bgm = "theme-merkuriameta",
 		special_bgm = "",
 		bgm = "theme-merkuriameta"
-	}
-	pg.base.voice_bgm.ActivityShop6035 = {
-		default_bgm = "doa_story1",
-		special_bgm = "",
-		bgm = "doa_story1"
-	}
-	pg.base.voice_bgm.ActivityShop50807 = {
-		default_bgm = "doa_huanzhuang",
-		special_bgm = "",
-		bgm = "doa_huanzhuang"
-	}
-	pg.base.voice_bgm.ActivityShop50829 = {
-		default_bgm = "story-tulipa",
-		special_bgm = "",
-		bgm = "story-tulipa"
 	}
 	pg.base.voice_bgm.BuildShipScene = {
 		default_bgm = "main",
@@ -2730,6 +2730,21 @@ end)()
 		default_bgm = "doa_story3",
 		special_bgm = "",
 		bgm = "doa_story3"
+	}
+	pg.base.voice_bgm.AnniversaryNineHwahJahSkinPage = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
+	}
+	pg.base.voice_bgm.HolidayHwahJahSkinPage = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
+	}
+	pg.base.voice_bgm.LittleYunXianPage = {
+		default_bgm = "story-afterrain-soft",
+		special_bgm = "",
+		bgm = "story-afterrain-soft"
 	}
 	pg.base.voice_bgm.HeLanMainRePage = {
 		default_bgm = "theme-tulipa",

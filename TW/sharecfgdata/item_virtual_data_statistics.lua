@@ -184675,6 +184675,32 @@ _G.pg.base.item_virtual_data_statistics[65901] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65990] = {
+	drop_gold_max = 0,
+	name = "換裝體驗券",
+	display = "用於「限時體驗商店」兌換角色限時換裝，2026年6月24日後將無法使用",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65990,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65918] = {
 	drop_gold_max = 0,
 	name = "神聖聯合帝國金幣",
@@ -186824,6 +186850,84 @@ _G.pg.base.item_virtual_data_statistics[66019] = {
 	drop_oil_max = 0,
 	virtual_type = 22,
 	id = 66019,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66020] = {
+	drop_gold_max = 0,
+	name = "換裝體驗券",
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66020,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66037] = {
+	drop_gold_max = 0,
+	name = "友好度-{namecode:563}",
+	display = "用於「獨立小仙尋寶中」活動提升角色好感，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/xiaoyunxian_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66037,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66038] = {
+	drop_gold_max = 0,
+	name = "隨機換裝",
+	display = "看不到看不到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 51012,
+	album_config = "",
+	icon = "Props/xiaoyunxian_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 17,
+	id = 66038,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -198432,6 +198536,57 @@ _G.pg.base.item_virtual_data_statistics[86227] = {
 		{
 			401141,
 			1740
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86228] = {
+	drop_gold_max = 0,
+	name = "隨機換裝",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86228,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			499063,
+			1300
+		},
+		{
+			201355,
+			1300
+		},
+		{
+			899013,
+			1300
+		},
+		{
+			402074,
+			1600
+		},
+		{
+			502013,
+			2000
+		},
+		{
+			107225,
+			2500
 		}
 	}
 }
@@ -258772,7 +258927,7 @@ _G.pg.base.item_virtual_data_statistics[200787] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{
@@ -258909,7 +259064,7 @@ _G.pg.base.item_virtual_data_statistics[200788] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{
@@ -259046,7 +259201,7 @@ _G.pg.base.item_virtual_data_statistics[200789] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{
@@ -259599,7 +259754,7 @@ _G.pg.base.item_virtual_data_statistics[200793] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{
@@ -259736,7 +259891,7 @@ _G.pg.base.item_virtual_data_statistics[200794] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{
@@ -259873,7 +260028,7 @@ _G.pg.base.item_virtual_data_statistics[200795] = {
 		},
 		{
 			4,
-			101071,
+			103021,
 			1
 		},
 		{

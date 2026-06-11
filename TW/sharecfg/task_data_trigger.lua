@@ -107,6 +107,7 @@ pg.task_data_trigger.all = {
 	104,
 	105,
 	106,
+	107,
 	108,
 	114,
 	115,
@@ -367,6 +368,9 @@ pg.task_data_trigger.get_id_list_by_group_id = {
 	},
 	[50207] = {
 		98
+	},
+	[50209] = {
+		107
 	},
 	[50601] = {
 		95
@@ -1275,6 +1279,14 @@ end)()
 		type = 2,
 		id = 106,
 		group_id = 50105
+	}
+	pg.base.task_data_trigger[107] = {
+		task_id = 500091,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 107,
+		group_id = 50209
 	}
 	pg.base.task_data_trigger[108] = {
 		task_id = 500101,

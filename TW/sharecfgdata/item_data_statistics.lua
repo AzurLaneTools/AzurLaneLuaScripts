@@ -95729,7 +95729,7 @@ _G.pg.base.item_data_statistics[81214] = {
 	display_effect = "",
 	link_id = 0,
 	is_world = 0,
-	icon = "Props/fudai15",
+	icon = "Props/fudai25",
 	order = 0,
 	rarity = 4,
 	max_num = 0,
@@ -97448,6 +97448,73 @@ _G.pg.base.item_data_statistics[81235] = {
 		{
 			2,
 			86227,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81236] = {
+	open_directly = 1,
+	name = "慶典禮盒（2026）",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2026，心智單元*50，心智魔方*20，高級定向藍圖·八期*2，快速完成工具*10，家具幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai36",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998332",
+	id = 81236,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86228,
 			1
 		},
 		{

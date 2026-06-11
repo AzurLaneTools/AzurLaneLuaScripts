@@ -1434,6 +1434,8 @@ pg.skill_data_template.all = {
 	152380,
 	152390,
 	152410,
+	152440,
+	152450,
 	18010,
 	18040,
 	18050,
@@ -1716,6 +1718,8 @@ pg.skill_data_template.all = {
 	22262,
 	22271,
 	22272,
+	22281,
+	22282,
 	22311,
 	22312,
 	22411,
@@ -121841,6 +121845,254 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[152440] = {
+		desc_get = "",
+		name = "雲遊仙境之旅",
+		type = 1,
+		max_level = 10,
+		desc = "戰鬥開始後10秒及之後每20秒發射一輪特殊彈幕$1（威力依據技能等級），同時自身機動、防空提高$2，持續10秒；關卡出擊中，自身所在編隊每擊破一個敵方艦隊，自身造成的傷害提高$3（最高疊加三層）",
+		id = 152440,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152450] = {
+		desc_get = "",
+		name = "秘境的珍奇寶物",
+		type = 3,
+		max_level = 10,
+		desc = "戰鬥開始時及之後每20秒觸發一次，從以下三種效果中隨機獲得一種：①自身炮擊、裝填、命中屬性提高$1②自身裝備的魚雷武器的暴擊率提高$1、暴擊傷害提高$2③自身回覆$1的耐久；已經獲得的效果不會重覆獲得，獲得全部效果後不再觸發",
+		id = 152450,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[18010] = {
 		desc_get = "",
 		name = "MKV型穿甲彈 +",
@@ -128395,6 +128647,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19350] = {
 		desc_get = "",
 		name = "輔助機構「S.P.」",
@@ -128688,8 +128942,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19370] = {
 		desc_get = "",
 		name = "奥丁更换鱼雷弹幕形态效果ID占位",
@@ -136440,6 +136692,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20222] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -136468,8 +136722,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20232] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -137842,6 +138094,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22222] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -137870,8 +138124,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22232] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -138033,6 +138285,34 @@ end)()
 		max_level = 1,
 		desc = "主炮每進行6次攻擊，觸發全彈發射-{namecode:152}級II",
 		id = 22272,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[22281] = {
+		desc_get = "",
+		name = "全彈發射I",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每進行12次攻擊，觸發全彈發射-{namecode:294}級I",
+		id = 22281,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[22282] = {
+		desc_get = "",
+		name = "全彈發射II",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每進行8次攻擊，觸發全彈發射-{namecode:294}級II",
+		id = 22282,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -139216,6 +139496,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[26211] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -139272,8 +139554,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[28011] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -140618,6 +140898,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29321] = {
 		desc_get = "",
 		name = "專屬彈幕-速科夫I",
@@ -140678,8 +140960,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29341] = {
 		desc_get = "",
 		name = "專屬彈幕-大青花魚I",
@@ -142028,6 +142308,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29832] = {
 		desc_get = "",
 		name = "專屬彈幕-龐培·馬格諾II",
@@ -142084,8 +142366,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29852] = {
 		desc_get = "",
 		name = "專屬彈幕-傑維斯II",
@@ -143430,6 +143710,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30362] = {
 		desc_get = "",
 		name = "專屬彈幕-幻想號II",
@@ -143486,8 +143768,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30382] = {
 		desc_get = "",
 		name = "專屬彈幕-樸茨茅斯冒險號II",
@@ -148271,6 +148551,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[105150] = {
 		desc_get = "",
 		name = "塔羅占卜師",
@@ -148713,8 +148995,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106040] = {
 		desc_get = "",
 		name = "必殺☆大爆發",
@@ -157384,6 +157664,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[108260] = {
 		desc_get = "",
 		name = "炎龍展翼 +",
@@ -157808,8 +158090,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[108300] = {
 		desc_get = "",
 		name = "桑德拉斯 爆發射擊",
@@ -165855,6 +166135,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[111230] = {
 		desc_get = "",
 		name = "生物兵器",
@@ -166093,8 +166375,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[112020] = {
 		desc_get = "",
 		name = "超越世界·限制解除 +",
@@ -173504,6 +173784,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800202] = {
 		desc_get = "",
 		name = "破敵之炬·{namecode:78}II",
@@ -173566,8 +173848,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800220] = {
 		desc_get = "",
 		name = "翱翔之翼",
@@ -178056,6 +178336,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800760] = {
 		desc_get = "",
 		name = "裁決之斧",
@@ -178210,8 +178492,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800777] = {
 		desc_get = "",
 		name = "逐光之焰·拉·加利索尼埃II",
@@ -183444,6 +183724,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801302] = {
 		desc_get = "",
 		name = "破敵之炬·威奇塔II",
@@ -183589,8 +183871,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801330] = {
 		desc_get = "",
 		name = "霞之守護",
@@ -188861,6 +189141,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801867] = {
 		desc_get = "",
 		name = "逐光之焰·敦克爾克II",
@@ -189195,8 +189477,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801901] = {
 		desc_get = "",
 		name = "破敵之炬·{namecode:16}I",
@@ -192661,6 +192941,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1010390] = {
 		desc_get = "",
 		name = "不破之盾 +",
@@ -193211,8 +193493,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1010690] = {
 		desc_get = "",
 		name = "鐵血之鷹 +",
@@ -205967,6 +206247,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090010] = {
 		desc_get = "",
 		name = "艦隊航母·光榮",
@@ -206474,8 +206756,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090050] = {
 		desc_get = "",
 		name = "火力全開·{namecode:46}",

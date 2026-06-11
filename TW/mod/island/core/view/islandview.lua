@@ -1554,6 +1554,10 @@ slot0.GetPlayerPosition = function(slot0)
 	return slot0.player:GetCurrentPosition()
 end
 
+slot0.GetPlayerLastGroundedPosition = function(slot0)
+	return slot0.player:LastGroundedPosition()
+end
+
 slot0.GetUnitPosition = function(slot0, slot1)
 	return slot0:GetUnitModule(slot1) and slot2._go.transform.position
 end

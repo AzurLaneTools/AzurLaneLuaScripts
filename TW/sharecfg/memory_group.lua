@@ -258,6 +258,7 @@ pg.memory_group.all = {
 	364,
 	365,
 	366,
+	367,
 	501,
 	502,
 	503,
@@ -362,6 +363,7 @@ pg.memory_group.all = {
 	604,
 	605,
 	606,
+	607,
 	608,
 	614,
 	615,
@@ -6866,6 +6868,20 @@ end)()
 			5204
 		}
 	}
+	pg.base.memory_group[367] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51011,
+		title = "若漆之光",
+		auto_unlock = "",
+		subtype = 3,
+		id = 367,
+		group_id = "",
+		memories = {
+			5211
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7867,6 +7883,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[548] = {
 		ship_group = 30180,
 		icon = "title_chara_juanbo",
@@ -7889,8 +7907,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[549] = {
 		ship_group = 10306,
 		icon = "title_chara_botelan",
@@ -9162,6 +9178,28 @@ end)()
 			4145,
 			4146,
 			4147
+		},
+		group_id = {
+			10000
+		}
+	}
+	pg.base.memory_group[607] = {
+		ship_group = 50209,
+		icon = "title_chara_jian",
+		type = 3,
+		link_event = 0,
+		title = "指揮官，該動筷子了！",
+		auto_unlock = "",
+		subtype = 0,
+		id = 607,
+		memories = {
+			4181,
+			4182,
+			4183,
+			4184,
+			4185,
+			4186,
+			4187
 		},
 		group_id = {
 			10000

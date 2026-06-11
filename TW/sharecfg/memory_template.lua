@@ -3243,6 +3243,13 @@ pg.memory_template.all = {
 	4172,
 	4173,
 	4174,
+	4181,
+	4182,
+	4183,
+	4184,
+	4185,
+	4186,
+	4187,
 	4191,
 	4192,
 	4193,
@@ -3913,6 +3920,7 @@ pg.memory_template.all = {
 	5202,
 	5203,
 	5204,
+	5211,
 	10011,
 	10012,
 	10013,
@@ -62471,6 +62479,132 @@ end)()
 			"SHISHANGTEKANXINCHUNSI4"
 		}
 	}
+	pg.base.memory_template[4181] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "愛的美食療癒",
+		condition = "解鎖「指揮官，該動筷子了！」任務1",
+		story = "JIAN1",
+		mask = "bg/bg_memory",
+		task = 500091,
+		year = 0,
+		id = 4181,
+		icon = "memory_jian",
+		is_open = 0,
+		unlock_pre = {
+			"JIAN1"
+		}
+	}
+	pg.base.memory_template[4182] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "指揮官，該動筷子了",
+		condition = "解鎖「指揮官，該動筷子了！」任務2",
+		story = "JIAN2",
+		mask = "bg/bg_memory",
+		task = 500092,
+		year = 0,
+		id = 4182,
+		icon = "memory_jian",
+		is_open = 0,
+		unlock_pre = {
+			"JIAN2"
+		}
+	}
+	pg.base.memory_template[4183] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "製作美食的方法！",
+		condition = "解鎖「指揮官，該動筷子了！」任務3",
+		story = "JIAN3",
+		mask = "bg/bg_memory",
+		task = 500093,
+		year = 0,
+		id = 4183,
+		icon = "memory_jian",
+		is_open = 0,
+		unlock_pre = {
+			"JIAN3"
+		}
+	}
+	pg.base.memory_template[4184] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "廚藝特訓！",
+		condition = "解鎖「指揮官，該動筷子了！」任務4",
+		story = "JIAN4",
+		mask = "bg/bg_memory",
+		task = 500094,
+		year = 0,
+		id = 4184,
+		icon = "memory_jian",
+		is_open = 0,
+		unlock_pre = {
+			"JIAN4"
+		}
+	}
+	pg.base.memory_template[4185] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "無法輕言放棄",
+		condition = "解鎖「指揮官，該動筷子了！」任務5",
+		story = "JIAN5",
+		mask = "bg/bg_memory",
+		task = 500095,
+		year = 0,
+		id = 4185,
+		icon = "memory_jian",
+		is_open = 0,
+		unlock_pre = {
+			"JIAN5"
+		}
+	}
+	pg.base.memory_template[4186] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "美食攻心的謀略",
+		condition = "解鎖「指揮官，該動筷子了！」任務6",
+		story = "JIAN6",
+		mask = "bg/bg_memory",
+		task = 500096,
+		year = 0,
+		id = 4186,
+		icon = "memory_jian",
+		is_open = 0,
+		unlock_pre = {
+			"JIAN6"
+		}
+	}
+	pg.base.memory_template[4187] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "其名為愛",
+		condition = "解鎖「指揮官，該動筷子了！」任務7",
+		story = "JIAN7",
+		mask = "bg/bg_memory",
+		task = 500097,
+		year = 0,
+		id = 4187,
+		icon = "memory_jian",
+		is_open = 0,
+		unlock_pre = {
+			"JIAN7"
+		}
+	}
 	pg.base.memory_template[4191] = {
 		ship_group = 0,
 		subtitle = "",
@@ -63443,6 +63577,8 @@ end)()
 			"MOJIADUOER7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4261] = {
 		ship_group = 0,
 		subtitle = "",
@@ -63569,8 +63705,6 @@ end)()
 			"SHENGULAIXIN7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4268] = {
 		ship_group = 0,
 		subtitle = "",
@@ -65245,6 +65379,8 @@ end)()
 			"GAOTASHANGDEQIANGWEI35"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4416] = {
 		ship_group = 0,
 		subtitle = "",
@@ -65371,8 +65507,6 @@ end)()
 			"HUANYINGMITUZHEGUANQIAPIAN3"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4434] = {
 		ship_group = 0,
 		subtitle = "",
@@ -67047,6 +67181,8 @@ end)()
 			"CHONGYINGDEYAOYUE7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4601] = {
 		ship_group = 0,
 		subtitle = "",
@@ -67173,8 +67309,6 @@ end)()
 			"QIWUYUTIANYUANZHISHANG7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4608] = {
 		ship_group = 0,
 		subtitle = "",
@@ -68849,6 +68983,8 @@ end)()
 			"JUFENGYUZIYOUQUNDAO2"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4723] = {
 		ship_group = 0,
 		subtitle = "",
@@ -68975,8 +69111,6 @@ end)()
 			"JUFENGYUZIYOUQUNDAO9"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4730] = {
 		ship_group = 0,
 		subtitle = "",
@@ -70653,6 +70787,8 @@ end)()
 			"XIANGCHEYUTIANQIONGZHIYIN5"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4886] = {
 		ship_group = 0,
 		subtitle = "",
@@ -70779,8 +70915,6 @@ end)()
 			"1996001"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4893] = {
 		ship_group = 0,
 		subtitle = "",
@@ -72457,6 +72591,8 @@ end)()
 			"CHUNMANKEZHAN19"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5030] = {
 		ship_group = 0,
 		subtitle = "",
@@ -72583,8 +72719,6 @@ end)()
 			"MANYOUZHEZHAOMUJIHUA6"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5047] = {
 		ship_group = 0,
 		subtitle = "",
@@ -74259,6 +74393,8 @@ end)()
 			"SHEHUAXIANGMENGFUJINWAN8"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5189] = {
 		ship_group = 0,
 		subtitle = "",
@@ -74385,8 +74521,6 @@ end)()
 			"SHEHUAXIANGMENGFUJINWAN15"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5196] = {
 		ship_group = 0,
 		subtitle = "",
@@ -74547,6 +74681,24 @@ end)()
 		is_open = 0,
 		unlock_pre = {
 			"SHEHUAXIANGMENGFUJINWAN24"
+		}
+	}
+	pg.base.memory_template[5211] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "若漆之光",
+		condition = "開始「若漆之光」活動",
+		story = "RUOQIZHIGUANG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5211,
+		icon = "memory_ruoqizhiguang",
+		is_open = 0,
+		unlock_pre = {
+			"RUOQIZHIGUANG1"
 		}
 	}
 	pg.base.memory_template[10011] = {
@@ -76043,6 +76195,8 @@ end)()
 			"LINGHANGYUANHAOGANDU1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20045] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76187,8 +76341,6 @@ end)()
 			"LINGHANGYUANTANXIN1"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20053] = {
 		ship_group = 0,
 		subtitle = "",
@@ -77845,6 +77997,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI8"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20146] = {
 		ship_group = 0,
 		subtitle = "",

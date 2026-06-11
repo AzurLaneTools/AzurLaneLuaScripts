@@ -270,7 +270,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_fujinwan_cg4",
 			hidePaintObj = true,
-			say = "下一秒便像宛如熟知水性的魚兒，從我懷中靈巧而安靜地滑入水中。",
+			say = "下一秒便宛如熟知水性的魚兒，從我懷中靈巧而安靜地滑入水中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -236,6 +236,7 @@ slot0.UpdateStaffAttrsCond = function(slot0, slot1)
 	setText(slot1:Find("desc"):Find("Text"), i18n("mall_order_need_attrs_header"))
 
 	slot3 = true
+	slot0.needShowAttrIds = {}
 
 	for slot7, slot8 in ipairs(slot0.targetAttrs) do
 		if not (slot8 <= slot0.curAttrs[slot7]) then
@@ -245,6 +246,7 @@ slot0.UpdateStaffAttrsCond = function(slot0, slot1)
 		setActive(slot2:Find("list/" .. slot7), slot8 > 0)
 
 		if slot8 > 0 then
+			table.insert(slot0.needShowAttrIds, slot7)
 			setText(slot2:Find("list/" .. slot7 .. "/Text"), setColorStr(slot0.curAttrs[slot7], slot9 and "#4c9922" or "#df6126") .. "/" .. slot8)
 		end
 	end
@@ -421,7 +423,7 @@ slot0.OnUpdateStaffItem = function(slot0, slot1, slot2)
 		slot3 = slot0.cards[slot2]
 	end
 
-	slot3:Update(slot0.staffList[slot1 + 1], slot0.selectedIds)
+	slot3:Update(slot0.staffList[slot1 + 1], slot0.selectedIds, false, slot0.needShowAttrIds)
 end
 
 slot0.UpdateOrderSlotTpl = function(slot0, slot1, slot2)

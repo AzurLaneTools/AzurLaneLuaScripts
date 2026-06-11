@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"指挥官，该动筷了！\n\n<size=45>七　其名为爱</size>",
+					"指揮官，該動筷子了！\n\n<size=45>7.其名為愛</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "第二天一整天我都没见到济安的身影。",
+			say = "第二天一整天我都沒見到濟安的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "直到傍晚时分，来到走廊时，正好和济安撞了个满怀。",
+			say = "直到傍晚時分，來到走廊時，我正好和濟安撞了個滿懷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀~看来指挥官也很迫不及待看到姐姐我准备的美食呢。",
+			say = "哎呀~看來指揮官也很迫不及待看到姐姐我準備的美食呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "还没来得及细问济安准备了什么，就被对方以“期待惊喜”之名推进了她的房间。",
+			say = "還來不及細問濟安準備了什麼，就被對方以「期待驚喜」之名推進了她的房間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "港区·济安的房间",
+			say = "港區·濟安的房間",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "对方显然早有准备，窗帘被她拉上，杜绝了夕阳潜入窥探的可能性。",
+			say = "對方顯然早有準備，窗簾被她拉上，杜絕了夕陽潛入窺探的可能性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "房间内漆黑一片，让少女贴在我耳畔的温热吐息格外鲜明。",
+			say = "房間內漆黑一片，讓少女貼在我耳畔的溫熱吐息格外鮮明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "准备好迎接惊喜了吗，指挥官？",
+			say = "準備好迎接驚喜了嗎，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么——",
+			say = "那麼——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgm = "story-richang-8",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "灯亮了，映入眼帘的是几样用餐盘盖盖住的食物。",
+			say = "燈亮了，映入眼簾的是幾樣用餐盤蓋住的食物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "济安的嘴角噙着一抹笑意，旋即轻巧地将餐盘盖揭开，露出其中色香俱全的食物。",
+			say = "濟安的嘴角噙著一抹笑意，旋即輕巧地將餐盤蓋揭開，露出其中色香俱全的食物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……至少看起来非常正常……）",
+			say = "（嗯……至少看起來非常正常……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看起来很不错吧，指挥官~",
+			say = "看起來很不錯吧，指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "确实，尤其是和之前相比，整体品相进步非常大。",
+			say = "確實，尤其是和之前相比，整體品相進步非常大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（甚至说是奇迹都不为过。）",
+			say = "（甚至說是奇蹟都不為過。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您继续夸，我在听~",
+			say = "您繼續誇，我在聽~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 0,
-			say = "剩下的夸奖，要等尝过之后才能解锁了。",
+			say = "剩下的誇獎，要等到嚐過之後才能解鎖了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官真是狡猾呢，那姐姐我也不藏着掖着啦。",
+			say = "指揮官真是狡猾呢，那姐姐我也不藏著掖著啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "接过济安递来的餐具，再看向眼前几道菜肴，感觉恍若隔世。",
+			say = "接過濟安遞來的餐具，再看向眼前幾道菜餚，感覺恍若隔世。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "克服了无数苦难，耗费了无数的体力和精力……这是我和济安全力以赴的证明。",
+			say = "克服了無數苦難，耗費了無數的體力和精力……這是我和濟安全力以赴的證明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "想必它的味道不会令人失望——",
+			say = "想必它的味道不會令人失望——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "难以言喻的滋味在口中炸开。",
+			say = "難以言喻的滋味在口中炸開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "视觉和味觉向大脑传递着完全不同的奇妙感受，让我的味蕾和大脑进行起激烈的辩论。",
+			say = "視覺和味覺向大腦傳遞著完全不同的奇妙感受，讓我的味蕾和大腦進行激烈的辯論。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "努力咽下食物后，胃海翻涌。",
+			say = "努力吞下食物後，胃海翻湧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，您怎么了？",
+			say = "指揮官，您怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳，嗯……让我缓缓……",
+			say = "咳，嗯……讓我緩緩……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,19 +436,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "少女期待的眼神让我把如实描述的想法咽了下去。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_157",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "要怎么说呢，很难用语言来还原这个味道。",
+			say = "少女期待的眼神讓我把如實描述的想法吞了下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +448,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "充盈的汁水……非常丰满的味蕾体验……",
+			say = "要怎麼說呢，很難用語言來還原這個味道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +460,19 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "总的来说，我个人觉得……还不错。",
+			say = "充盈的汁水……非常豐滿的味蕾體驗…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_157",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "總的來說，我個人覺得……還不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为什么笑了？",
+			say = "為什麼笑了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您果然还是在纵容着我呢。",
+			say = "您果然還是在縱容我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐我做的饭菜的味道，还是不太好，对吧？",
+			say = "姐姐我做的飯菜的味道，還是不太好，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不得不说，虽然您拼命掩饰了，但真实的反应还是从眼神里流露出来了呢~",
+			say = "不得不說，雖然您拼命掩飾了，但真實的反應還是從眼神流露出來了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您纵容着这样的我，又如同坚固的后盾，扶持我走过心思摇摆不定的时刻。",
+			say = "您縱容著這樣的我，又如同堅固的後盾，扶持我走過心思搖擺不定的時刻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一向习惯倾听别人烦恼的我，现在因为您想要解决我的烦恼……而更加情难自禁了。",
+			say = "一向習慣傾聽別人煩惱的我，現在因為您想要解決我的煩惱……而更加情難自禁了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "少女笑着缓缓贴近，用双手捧起了我的脸。",
+			say = "少女笑著緩緩貼近，用雙手捧起了我的臉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然味道的确不如人意……但指挥官也算是尝过了姐姐我认真准备的疗愈美食呢。",
+			say = "雖然味道的確不如人意……但指揮官也算是嚐過了姐姐我認真準備的療癒美食呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在，该轮到我了哦？",
+			say = "現在，該輪到我了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "昨天晚上那句没说完的话，现在才是说出来的好时机呢……",
+			say = "昨天晚上那句沒說完的話，現在才是說出來的好時機呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "济安灵巧的手指一颗颗解开我领口的扣子，接下来的话语消融在唇齿接触间。",
+			say = "濟安靈巧的手指一顆顆解開我領口的釦子，接下來的話語消融在唇齒接觸間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您才是我的……美味疗法呢~♡",
+			say = "您才是我的……那美味療法呢~♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

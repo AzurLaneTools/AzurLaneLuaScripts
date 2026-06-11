@@ -12125,12 +12125,12 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "朱塞佩·加里波底、阿爾弗雷多·奧里亞尼  建造追加！"
+	tip = "雅努斯、曼徹斯特 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "李奧納多·達·文西  建造追加！"
+	tip = "阿爾比恩 建造追加！"
 }
 
 
@@ -41713,6 +41713,36 @@ _G.pg.base.gametip.exchange_code_skin_tip = {
 }
 
 
+_G.pg.base.gametip.littleyunxian_npc = {
+	tip = {
+		{
+			info = "獨立小仙尋寶中說明："
+		},
+		{
+			info = "1.活動期間，玩家可獲得臨時npc角色「{namecode:563}」，臨時角色不可誓約、不可退役、不可被選為強化突破材料。"
+		},
+		{
+			info = "2.活動期間，完成活動任務，可獲得臨時npc角色「{namecode:563}」的友好度。"
+		},
+		{
+			info = "3.6月17日為止，每日解鎖1個可達成的友好度階段。"
+		},
+		{
+			info = "4.在活動結束前累計獲得10000點友好度，可領取獎勵並將臨時角色「{namecode:563}」轉化為永久角色。"
+		},
+		{
+			info = "5.在活動結束後，未完成轉化的臨時角色「{namecode:563}」將離開港區，不返還已經消耗的強化、突破等培養材料。"
+		},
+		{
+			info = "6.npc角色無法參與大型作戰。"
+		},
+		{
+			info = "7.npc角色無法參與大艦隊作戰中的事件派遣、攻堅隊和首領戰。"
+		}
+	}
+}
+
+
 _G.pg.base.gametip.littleMusashi_npc = {
 	tip = {
 		{
@@ -42237,4 +42267,19 @@ _G.pg.base.gametip.mall_unlock_date_tip2 = {
 
 _G.pg.base.gametip.mall_order_finished_all_tip = {
 	tip = "已完成所有啾啾訂製訂單"
+}
+
+
+_G.pg.base.gametip.littleyunxian_tip1 = {
+	tip = "PHASE"
+}
+
+
+_G.pg.base.gametip.littleyunxian_tip2 = {
+	tip = "累計"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_3 = {
+	tip = "若漆之光"
 }

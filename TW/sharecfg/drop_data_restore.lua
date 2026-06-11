@@ -403,6 +403,12 @@ pg.drop_data_restore.all = {
 	630,
 	631,
 	632,
+	641,
+	642,
+	643,
+	644,
+	645,
+	646,
 	634,
 	635,
 	636,
@@ -4416,6 +4422,60 @@ end)()
 	}
 end)()
 (function ()
+	pg.base.drop_data_restore[641] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 641,
+		resource_num = 1280,
+		drop_id = 998332,
+		target_id = 499063
+	}
+	pg.base.drop_data_restore[642] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 642,
+		resource_num = 1260,
+		drop_id = 998332,
+		target_id = 201355
+	}
+	pg.base.drop_data_restore[643] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 643,
+		resource_num = 1180,
+		drop_id = 998332,
+		target_id = 899013
+	}
+	pg.base.drop_data_restore[644] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 644,
+		resource_num = 1050,
+		drop_id = 998332,
+		target_id = 402074
+	}
+	pg.base.drop_data_restore[645] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 645,
+		resource_num = 880,
+		drop_id = 998332,
+		target_id = 502013
+	}
+	pg.base.drop_data_restore[646] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 646,
+		resource_num = 780,
+		drop_id = 998332,
+		target_id = 107225
+	}
 	pg.base.drop_data_restore[634] = {
 		target_type = 7,
 		resource_type = 14,
@@ -5262,6 +5322,8 @@ end)()
 		drop_id = 4930,
 		target_id = 107071
 	}
+end)()
+(function ()
 	pg.base.drop_data_restore[10007] = {
 		target_type = 7,
 		resource_type = 14,
@@ -5316,8 +5378,6 @@ end)()
 		drop_id = 4931,
 		target_id = 403033
 	}
-end)()
-(function ()
 	pg.base.drop_data_restore[10013] = {
 		target_type = 7,
 		resource_type = 14,
@@ -6164,6 +6224,8 @@ end)()
 		drop_id = 4939,
 		target_id = 299033
 	}
+end)()
+(function ()
 	pg.base.drop_data_restore[10107] = {
 		target_type = 7,
 		resource_type = 14,
@@ -6218,8 +6280,6 @@ end)()
 		drop_id = 998101,
 		target_id = 407031
 	}
-end)()
-(function ()
 	pg.base.drop_data_restore[10113] = {
 		target_type = 7,
 		resource_type = 14,
@@ -7066,6 +7126,8 @@ end)()
 		drop_id = 998106,
 		target_id = 102264
 	}
+end)()
+(function ()
 	pg.base.drop_data_restore[10207] = {
 		target_type = 7,
 		resource_type = 14,
@@ -7120,8 +7182,6 @@ end)()
 		drop_id = 998106,
 		target_id = 301582
 	}
-end)()
-(function ()
 	pg.base.drop_data_restore[10213] = {
 		target_type = 7,
 		resource_type = 14,
@@ -7968,6 +8028,8 @@ end)()
 		drop_id = 998324,
 		target_id = 102134
 	}
+end)()
+(function ()
 	pg.base.drop_data_restore[10307] = {
 		target_type = 7,
 		resource_type = 14,
