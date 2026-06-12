@@ -672,7 +672,9 @@ pg.activity_ins_ship_group_template.all = {
 	40114,
 	40115,
 	40317,
-	40507
+	40507,
+	20309,
+	10106
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -6717,6 +6719,24 @@ end)()
 		background = "",
 		sculpture = "gezi",
 		nationality = 4,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[20309] = {
+		ship_group = 20309,
+		name = "Sussex",
+		background = "",
+		sculpture = "susaikesi",
+		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10106] = {
+		ship_group = 10106,
+		name = "Craven",
+		background = "",
+		sculpture = "keleiwen",
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	}

@@ -12,19 +12,19 @@ slot0.init = function(slot0)
 	slot1 = slot0._tf
 	slot0.mainPanel = slot1:Find("frame")
 	slot0.toggles = {
-		[Ship.STATE_REST] = slot0._tf:Find("frame/top/rest"),
-		[Ship.STATE_TRAIN] = slot0._tf:Find("frame/top/train")
+		[DormShip.FLOOR_2] = slot0._tf:Find("frame/top/rest"),
+		[DormShip.FLOOR_1] = slot0._tf:Find("frame/top/train")
 	}
 	slot0.animations = {
-		[Ship.STATE_REST] = slot0._tf:Find("frame/top/rest"):GetComponent(typeof(Animation)),
-		[Ship.STATE_TRAIN] = slot0._tf:Find("frame/top/train"):GetComponent(typeof(Animation))
+		[DormShip.FLOOR_2] = slot0._tf:Find("frame/top/rest"):GetComponent(typeof(Animation)),
+		[DormShip.FLOOR_1] = slot0._tf:Find("frame/top/train"):GetComponent(typeof(Animation))
 	}
 	slot0.animationName = {
-		[Ship.STATE_REST] = {
+		[DormShip.FLOOR_2] = {
 			"anim_backyard_shipinfo_rest_Select",
 			"anim_backyard_shipinfo_rest_unSelect"
 		},
-		[Ship.STATE_TRAIN] = {
+		[DormShip.FLOOR_1] = {
 			"anim_backyard_shipinfo_train_Select",
 			"anim_backyard_shipinfo_train_unSelect"
 		}
@@ -85,11 +85,11 @@ slot0.didEnter = function(slot0)
 			return
 		end
 
-		slot0 = uv0.contextData.type or Ship.STATE_TRAIN
+		slot0 = uv0.contextData.type or DormShip.FLOOR_1
 
 		for slot5, slot6 in ipairs({
-			Ship.STATE_TRAIN,
-			Ship.STATE_REST
+			DormShip.FLOOR_1,
+			DormShip.FLOOR_2
 		}) do
 			triggerToggle(uv0.toggles[slot6], slot6 == slot0)
 		end
@@ -102,15 +102,15 @@ slot0.GetCardTypeCnt = function(slot0, slot1)
 	slot4 = 0
 	slot5 = 0
 
-	if slot1 == Ship.STATE_TRAIN then
+	if slot1 == DormShip.FLOOR_1 then
 		slot3 = slot2.exp_pos
 		slot4 = slot2:getConfig("training_ship_number")
-	elseif slot1 == Ship.STATE_REST then
+	elseif slot1 == DormShip.FLOOR_2 then
 		slot3 = slot2.rest_pos
 		slot4 = slot2:getConfig("fix_ship_number")
 	end
 
-	slot6 = slot2:GetStateShipCnt(slot1)
+	slot6 = slot2:GetFloorShipCnt(slot1)
 
 	return {
 		slot6,
@@ -128,16 +128,16 @@ slot0.SwitchToPage = function(slot0, slot1)
 
 	slot0:UpdateSlots()
 
-	if slot1 == Ship.STATE_TRAIN then
+	if slot1 == DormShip.FLOOR_1 then
 		slot0.descTxt.text = i18n("backyard_traning_tip")
-	elseif slot1 == Ship.STATE_REST then
+	elseif slot1 == DormShip.FLOOR_2 then
 		slot0.descTxt.text = i18n("backyard_rest_tip")
 	end
 end
 
 slot0.UpdateSlots = function(slot0)
 	slot1 = slot0.type
-	slot4 = getProxy(DormProxy):getRawData():GetStateShips(slot1)
+	slot4 = getProxy(DormProxy):getRawData():GetBayShipOnFloor(slot1)
 	slot5 = 0
 	slot6 = {}
 

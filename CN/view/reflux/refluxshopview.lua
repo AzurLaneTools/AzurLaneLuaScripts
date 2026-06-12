@@ -66,11 +66,10 @@ slot0.initUI = function(slot0)
 
 	slot0.packTimerList = {}
 	slot0.packNextTimerList = {}
-	slot4 = tf(Instantiate(GetComponent(slot0._tf, "ItemList").prefabItem[0]))
+	slot2 = slot0.itemTpl:Find("CommonItemTemplate")
 
-	setActive(slot4:Find("icon_bg/count"), true)
-	setParent(slot4, slot0.itemTpl)
-	setLocalScale(slot4, {
+	setActive(slot2:Find("icon_bg/count"), true)
+	setLocalScale(slot2, {
 		x = 0.45,
 		y = 0.45
 	})
@@ -114,33 +113,20 @@ slot0.updateOutline = function(slot0)
 end
 
 slot0.updateItem = function(slot0, slot1, slot2)
-	slot3 = slot1:Find("Frame")
-	slot4 = slot1:Find("Icon")
-	slot7 = slot2.id or slot2[2]
+	slot5 = slot1:Find("Count")
+	slot8 = slot2.count or slot2[3]
 
-	setText(slot1:Find("Count"), slot2.count or slot2[3])
-
-	if (slot2.type or slot2[1]) ~= DROP_TYPE_SHIP then
-		setImageSprite(slot4, LoadSprite(Drop.New({
-			type = slot6,
-			id = slot7
-		}):getIcon()))
-	else
-		setImageSprite(slot4, LoadSprite("QIcon/" .. Ship.New({
-			configId = slot7
-		}):getPainting()))
-	end
-
-	setActive(slot3, false)
-	setActive(slot4, false)
+	setText(slot5, slot8)
+	setActive(slot1:Find("Frame"), false)
+	setActive(slot1:Find("Icon"), false)
 	setActive(slot5, false)
 
-	slot9 = findTF(slot1, "CommonItemTemplate(Clone)")
+	slot9 = findTF(slot1, "CommonItemTemplate")
 
 	setActive(slot9, true)
 	updateDrop(slot9, {
-		type = slot6,
-		id = slot7,
+		type = slot2.type or slot2[1],
+		id = slot2.id or slot2[2],
 		count = slot8
 	})
 end

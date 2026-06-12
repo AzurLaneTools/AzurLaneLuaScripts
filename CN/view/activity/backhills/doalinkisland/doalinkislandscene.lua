@@ -34,14 +34,10 @@ slot0.init = function(slot0)
 	slot0._map:GetComponent(typeof(UnityEngine.Canvas)).sortingOrder = slot2 - 3
 	slot0.map_tebiezuozhan:GetComponent(typeof(UnityEngine.Canvas)).sortingOrder = slot2 - 1
 	slot0.map_bridge:GetComponent(typeof(UnityEngine.Canvas)).sortingOrder = slot2 - 1
-	slot3 = GetComponent(slot0._map, "ItemList")
+	slot3 = slot0._map:Find("DOAhoushan_hailang")
 
-	for slot7 = 1, 1 do
-		slot9 = tf(Instantiate(slot3.prefabItem[slot7 - 1]))
-
-		pg.ViewUtils.SetSortingOrder(slot9, slot2 - 2)
-		setParent(slot9, slot0._map)
-	end
+	pg.ViewUtils.SetSortingOrder(slot3, slot2 - 2)
+	setParent(slot3, slot0._map)
 
 	slot0.loader = AutoLoader.New()
 end

@@ -35,6 +35,7 @@ slot0.register = function(slot0)
 				skin = slot3
 			},
 			onRemoved = function ()
+				setActive(uv0.viewComponent.blurPanel, true)
 				setActive(uv0.viewComponent._tf, true)
 			end
 		}))

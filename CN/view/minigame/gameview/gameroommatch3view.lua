@@ -493,14 +493,15 @@ slot0.startGame = function(slot0)
 			uv0.gamePage:GetComponent("CanvasGroup").alpha = slot0
 		end))
 		UpdateBeat:RemoveListener(uv0.handle)
-	end, slot0.infinite and uv1 or uv2)
+	end, uv1)
+	slot5 = slot0
 	slot0.handle = UpdateBeat:CreateListener(function ()
 		setText(uv0.countdownText, math.floor(uv1.time))
 
 		if uv1.time <= uv2 and not isActive(uv0.warning) then
 			setActive(uv0.warning, true)
 		end
-	end, slot0)
+	end, slot5)
 
 	slot1:Start()
 	UpdateBeat:AddListener(slot0.handle)
@@ -512,13 +513,13 @@ slot0.startGame = function(slot0)
 
 	slot0.tileIndicies = {}
 
-	for slot5 = -1, uv4 + 2 do
+	for slot5 = -1, uv3 + 2 do
 		slot0.tileIndicies[slot5] = {}
 	end
 
 	slot0.tileTfs = {}
 
-	for slot5 = -1, uv4 + 2 do
+	for slot5 = -1, uv3 + 2 do
 		slot0.tileTfs[slot5] = {}
 	end
 
@@ -550,7 +551,7 @@ slot0.startGame = function(slot0)
 		uv0.hint2:GetComponent("Animator"):SetBool("selected", true)
 	end
 
-	slot0.hintTimer = Timer.New(slot0.hintFunc, uv5)
+	slot0.hintTimer = Timer.New(slot0.hintFunc, uv4)
 
 	slot0.hintTimer:Start()
 end

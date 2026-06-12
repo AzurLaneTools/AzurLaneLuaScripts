@@ -3086,66 +3086,14 @@ pg.base.login = {}
 		}
 	}
 	pg.base.login[91] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		effective_channel = 0,
+		date = "stop",
 		id = 91,
 		login_static = "login",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2026,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			"timer",
-			{
-				{
-					2026,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	}
 	pg.base.login[25091] = {
 		op_play = 1,

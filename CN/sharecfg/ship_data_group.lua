@@ -24627,6 +24627,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -25059,6 +25070,17 @@ end)()
 				"限时活动：空相交汇点",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -26258,6 +26280,28 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"进行重型、特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"常驻UR兑换",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -26438,6 +26482,16 @@ end)()
 				"限时活动：空相交汇点",
 				{
 					""
+				},
+				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -38163,11 +38217,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9705011
+						warp = "meta"
 					}
 				},
 				0
@@ -38198,11 +38252,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9706011
+						warp = "meta"
 					}
 				},
 				0
@@ -38268,11 +38322,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9706021
+						warp = "meta"
 					}
 				},
 				0
@@ -38338,11 +38392,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9705011
+						warp = "meta"
 					}
 				},
 				0
@@ -38373,11 +38427,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702021
+						warp = "meta"
 					}
 				},
 				0
@@ -38443,11 +38497,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9703011
+						warp = "meta"
 					}
 				},
 				0
@@ -38513,11 +38567,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701011
+						warp = "meta"
 					}
 				},
 				0
@@ -38548,11 +38602,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701021
+						warp = "meta"
 					}
 				},
 				0
@@ -38618,11 +38672,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702031
+						warp = "meta"
 					}
 				},
 				0
@@ -38688,11 +38742,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702041
+						warp = "meta"
 					}
 				},
 				0
@@ -38728,6 +38782,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -38755,11 +38820,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9712011
+						warp = "meta"
 					}
 				},
 				0
@@ -38825,11 +38890,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701031
+						warp = "meta"
 					}
 				},
 				0

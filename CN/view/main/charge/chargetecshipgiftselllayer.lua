@@ -60,20 +60,16 @@ end
 slot0.findUI = function(slot0)
 	slot1 = slot0._tf
 	slot0.bg = slot1:Find("BG")
-	slot3 = slot0._tf
-	slot0.itemTpl = slot3:Find("ItemTpl")
-	slot3 = slot0.itemTpl
-
-	setParent(Instantiate(GetComponent(slot0._tf, "ItemList").prefabItem[0]), slot3:Find("Container"), false)
-
-	slot4 = slot0._tf
-	slot0.giftTpl = slot4:Find("GiftTpl")
-	slot4 = slot0._tf
-	slot0.giftContainer = slot4:Find("List")
+	slot1 = slot0._tf
+	slot0.itemTpl = slot1:Find("ItemTpl")
+	slot1 = slot0._tf
+	slot0.giftTpl = slot1:Find("GiftTpl")
+	slot1 = slot0._tf
+	slot0.giftContainer = slot1:Find("List")
 	slot0.giftUIItemList = UIItemList.New(slot0.giftContainer, slot0.giftTpl)
-	slot4 = slot0.giftUIItemList
+	slot1 = slot0.giftUIItemList
 
-	slot4:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:updateGiftTF(slot2, uv0.goodVOShowList[slot1 + 1])
 		end

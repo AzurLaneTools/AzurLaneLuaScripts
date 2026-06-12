@@ -4474,4 +4474,12 @@ end)()
 		description = "",
 		key_value = 1
 	}
+	pg.base.gameset.world_cruise_due_days = {
+		description = "",
+		key_value = 7
+	}
+	pg.base.gameset.world_cruise_comp_time = {
+		description = "",
+		key_value = 30
+	}
 end)()

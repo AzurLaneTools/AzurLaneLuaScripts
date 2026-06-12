@@ -38,22 +38,34 @@ slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.ACT_NEW_PT_DONE then
-		slot4 = slot0.viewComponent
+		if slot0:IsAwardHandledByParent() then
+			slot0.viewComponent:UpdateView()
+		else
+			slot4 = slot0.viewComponent
 
-		slot4:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
-			uv0.viewComponent:UpdateView()
-		end)
+			slot4:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
+				uv0.viewComponent:UpdateView()
+			end)
+		end
 	elseif slot2 == GAME.ACTIVITY_MALL_OP_DONE then
 		if slot3.cmd == ActivityMallOPCommand.CMD.INPUT_GOLD then
 			slot0.viewComponent:UpdateView()
 		end
 	elseif slot2 == GAME.SUBMIT_TASK_AWARD_DOWN then
-		slot4 = slot0.viewComponent
+		if slot0:IsAwardHandledByParent() then
+			slot0.viewComponent:UpdateView()
+		else
+			slot4 = slot0.viewComponent
 
-		slot4:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
-			uv0.viewComponent:UpdateView()
-		end)
+			slot4:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
+				uv0.viewComponent:UpdateView()
+			end)
+		end
 	end
+end
+
+slot0.IsAwardHandledByParent = function(slot0)
+	return slot0.contextData and slot0.contextData.awardHandledByParent
 end
 
 slot0.remove = function(slot0)

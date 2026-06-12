@@ -89,8 +89,8 @@ slot0.OnFlush = function(slot0, slot1)
 
 	if bit.band(slot1, BackYardConst.DORM_UPDATE_TYPE_UPDATEFOOD) > 0 or bit.band(slot1, BackYardConst.DORM_UPDATE_TYPE_LEVEL) > 0 or bit.band(slot1, BackYardConst.DORM_UPDATE_TYPE_USEFOOD) > 0 or bit.band(slot1, BackYardConst.DORM_UPDATE_TYPE_EXTENDFOOD) > 0 then
 		slot3 = pg.dorm_data_template[slot2.id].capacity
-		slot0.stockBar.value = slot2.food / (slot3 + slot2.dorm_food_max)
-		slot0.stockTxt.text = math.ceil(slot2.food) .. "/" .. slot3 + slot2.dorm_food_max
+		slot0.stockBar.value = slot2.food / (slot3 + slot2:GetFoodMax())
+		slot0.stockTxt.text = math.ceil(slot2.food) .. "/" .. slot3 + slot2:GetFoodMax()
 	end
 
 	slot0:UpdateFloor()
@@ -113,10 +113,10 @@ end
 slot0.UpdateTrainBtn = function(slot0)
 	if slot0.contextData.floor == 1 then
 		slot0.trainBtnLabel.text = i18n("courtyard_label_train")
-		slot0.trainBtnTxt.text = slot0.dorm:GetStateShipCnt(Ship.STATE_TRAIN) .. "/" .. slot0.dorm.exp_pos
+		slot0.trainBtnTxt.text = slot0.dorm:GetFloorShipCnt(DormShip.FLOOR_1) .. "/" .. slot0.dorm.exp_pos
 	elseif slot0.contextData.floor == 2 then
 		slot0.trainBtnLabel.text = i18n("courtyard_label_rest")
-		slot0.trainBtnTxt.text = slot0.dorm:GetStateShipCnt(Ship.STATE_REST) .. "/" .. slot0.dorm.rest_pos
+		slot0.trainBtnTxt.text = slot0.dorm:GetFloorShipCnt(DormShip.FLOOR_2) .. "/" .. slot0.dorm.rest_pos
 	end
 end
 
@@ -135,7 +135,7 @@ slot0.CalcStockLeftTime = function(slot0)
 
 	slot0.stockTimeTxt.text = ""
 
-	if slot0.dorm:GetStateShipCnt(Ship.STATE_TRAIN) <= 0 or slot1.food <= 0 then
+	if slot0.dorm:GetFloorShipCnt(DormShip.FLOOR_1) <= 0 or slot1.food <= 0 then
 		return
 	end
 

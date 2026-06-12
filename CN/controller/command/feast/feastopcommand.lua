@@ -48,7 +48,7 @@ slot0.execute = function(slot0, slot1)
 				slot1:AddRefreshTimer()
 				uv0:sendNotification(GAME.FEAST_OP_DONE, {
 					cmd = FeastDorm.OP_RANDOM_SHIPS,
-					ships = slot2:GetPutShipList(),
+					ships = slot2:GetBayShipOnFloor(),
 					awards = {}
 				})
 			else

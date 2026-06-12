@@ -2680,6 +2680,11 @@ _G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
 }
 
 
+_G.pg.base.gametip.mail_takeAttachment_error_equipment_overlimit = {
+	tip = "以下奖励因超出持有上限，领取后会转换为$1，是否继续领取"
+}
+
+
 _G.pg.base.gametip.mail_confirm_set_important_flag = {
 	tip = "是否设定为重要邮件？"
 }
@@ -12520,17 +12525,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "{namecode:462}、{namecode:450} 建造追加！"
+	tip = "{namecode:514} 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "马赛曲 建造追加！"
+	tip = "{namecode:516}、{namecode:510} 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "怨仇、百眼巨人 建造追加！"
+	tip = "{namecode:514}、{namecode:515} 建造追加！"
 }
 
 
@@ -49332,6 +49337,21 @@ _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_3 = {
 
 _G.pg.base.gametip.anniversary_nine_main_page = {
 	tip = "纪念手册"
+}
+
+
+_G.pg.base.gametip.refux_cg_title = {
+	tip = "欢迎回家"
+}
+
+
+_G.pg.base.gametip.shop_skin_already_inuse = {
+	tip = "正在穿戴"
+}
+
+
+_G.pg.base.gametip.world_cruise_due_tips = {
+	tip = "$1剩余$2天结束，注意关注阶段和奖励领取情况哦！"
 }
 
 

@@ -117,7 +117,13 @@ end
 
 slot0.GetChannelUIDIncludeHarmony = function(slot0)
 	slot1 = function()
-		return uv0:GetChannelUID() == "harmony" and 9999 or tonumber(slot0)
+		if uv0:GetChannelUID() == "harmony" then
+			return 9999
+		elseif tonumber(slot0) then
+			return slot1
+		else
+			return slot0 or 0
+		end
 	end
 
 	if slot0:IsTestServer() or IsUnityEditor then

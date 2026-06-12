@@ -3611,6 +3611,12 @@ pg.skill_data_display.all = {
 	1011872,
 	1011873,
 	1011874,
+	1018301,
+	1018303,
+	1018305,
+	1019301,
+	1019302,
+	1019303,
 	200002,
 	200005,
 	200008,
@@ -4022,6 +4028,9 @@ pg.skill_data_display.all = {
 	1019263,
 	1014170,
 	1014171,
+	1012471,
+	1010800,
+	1010801,
 	1090020,
 	1090042,
 	1090043,
@@ -4103,7 +4112,12 @@ pg.skill_data_display.all = {
 	1090451,
 	1090452,
 	1090453,
-	1090462
+	1090462,
+	1090471,
+	1090481,
+	1090482,
+	1090483,
+	1090484
 }
 pg.base = pg.base or {}
 pg.base.skill_data_display = {}
@@ -18609,6 +18623,30 @@ end)()
 		id = 1011874,
 		name = "神射手·改 +"
 	}
+	pg.base.skill_data_display[1018301] = {
+		id = 1018301,
+		name = "剑光断罪"
+	}
+	pg.base.skill_data_display[1018303] = {
+		id = 1018303,
+		name = "枪火裁决 "
+	}
+	pg.base.skill_data_display[1018305] = {
+		id = 1018305,
+		name = "断罪之炎.改 +"
+	}
+	pg.base.skill_data_display[1019301] = {
+		id = 1019301,
+		name = "剑光断罪"
+	}
+	pg.base.skill_data_display[1019302] = {
+		id = 1019302,
+		name = "断罪之炎.改"
+	}
+	pg.base.skill_data_display[1019303] = {
+		id = 1019303,
+		name = "断罪之炎.改"
+	}
 	pg.base.skill_data_display[200002] = {
 		id = 200002,
 		name = "飞空战舰支援"
@@ -18957,6 +18995,8 @@ end)()
 		id = 200775,
 		name = "命运的枪火"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200776] = {
 		id = 200776,
 		name = "无法回避的命运"
@@ -18981,8 +19021,6 @@ end)()
 		id = 200785,
 		name = "实验型轰炸机支援"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200791] = {
 		id = 200791,
 		name = "「我们」的终结"
@@ -19359,6 +19397,8 @@ end)()
 		id = 201385,
 		name = "女王之光号"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201419] = {
 		id = 201419,
 		name = "女王之光号"
@@ -19383,8 +19423,6 @@ end)()
 		id = 201496,
 		name = "舰炮齐射"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201497] = {
 		id = 201497,
 		name = "鱼雷齐射"
@@ -19761,6 +19799,8 @@ end)()
 		id = 1011371,
 		name = "致命穿透 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1005071] = {
 		id = 1005071,
 		name = "骑士之盾 +"
@@ -19785,8 +19825,6 @@ end)()
 		id = 1005082,
 		name = "骑士之剑 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1005083] = {
 		id = 1005083,
 		name = "骑士之剑 +"
@@ -20163,6 +20201,8 @@ end)()
 		id = 1012582,
 		name = "机关禁止"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1019160] = {
 		id = 1019160,
 		name = "Heavy Barrel Blaster +"
@@ -20187,8 +20227,6 @@ end)()
 		id = 1013477,
 		name = "Redbell Flames"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1014990] = {
 		id = 1014990,
 		name = "火舌飞舞 +"
@@ -20260,6 +20298,18 @@ end)()
 	pg.base.skill_data_display[1014171] = {
 		id = 1014171,
 		name = "Kirov Reporting! +"
+	}
+	pg.base.skill_data_display[1012471] = {
+		id = 1012471,
+		name = "陨翼双鲨 +"
+	}
+	pg.base.skill_data_display[1010800] = {
+		id = 1010800,
+		name = "五航战 +"
+	}
+	pg.base.skill_data_display[1010801] = {
+		id = 1010801,
+		name = "五航战 +"
 	}
 	pg.base.skill_data_display[1090020] = {
 		id = 1090020,
@@ -20553,6 +20603,8 @@ end)()
 		id = 1090420,
 		name = "火力全开·威严"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090421] = {
 		id = 1090421,
 		name = "火力全开·威严"
@@ -20588,5 +20640,25 @@ end)()
 	pg.base.skill_data_display[1090462] = {
 		id = 1090462,
 		name = "炮术指挥·格伦维尔"
+	}
+	pg.base.skill_data_display[1090471] = {
+		id = 1090471,
+		name = "快速装填·{namecode:34}"
+	}
+	pg.base.skill_data_display[1090481] = {
+		id = 1090481,
+		name = "袖珍战列舰·{namecode:429}"
+	}
+	pg.base.skill_data_display[1090482] = {
+		id = 1090482,
+		name = "袖珍战列舰·{namecode:429}"
+	}
+	pg.base.skill_data_display[1090483] = {
+		id = 1090483,
+		name = "袖珍战列舰·{namecode:429}"
+	}
+	pg.base.skill_data_display[1090484] = {
+		id = 1090484,
+		name = "袖珍战列舰·{namecode:429}"
 	}
 end)()
