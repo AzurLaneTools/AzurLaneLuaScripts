@@ -83,10 +83,11 @@ slot0.execute = function(slot0, slot1)
 		slot10 = {}
 
 		table.insert(slot10, function (slot0, slot1)
-			slot3, slot4 = CheckOverflow(GetItemsOverflowDic(slot1), true)
+			slot2 = CheckEquipLimit(slot1)
+			slot4, slot5 = CheckOverflow(GetItemsOverflowDic(slot1), true)
 
-			if not slot3 then
-				switch(slot4, {
+			if not slot4 then
+				switch(slot5, {
 					gold = function ()
 						pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title"))
 					end,
@@ -101,7 +102,30 @@ slot0.execute = function(slot0, slot1)
 					end
 				})
 			else
-				slot0(slot4)
+				if slot2 then
+					slot6 = {}
+
+					for slot10, slot11 in ipairs(slot2) do
+						table.insert(slot6, Drop.New({
+							type = DROP_TYPE_EQUIP,
+							id = slot11[1],
+							count = slot11[2]
+						}))
+					end
+
+					uv0:sendNotification(GAME.MAIL_DOUBLE_CONFIREMATION_MSGBOX, {
+						content = "mail_takeAttachment_error_equipment_overlimit",
+						type = MailProxy.MailMessageBoxType.ReDropConfirm,
+						onYes = function ()
+							uv0(uv1)
+						end,
+						dropList = slot6
+					})
+
+					return
+				end
+
+				slot0(slot5)
 			end
 		end)
 		table.insert(slot10, function (slot0, slot1)

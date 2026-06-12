@@ -122,7 +122,7 @@ slot0.register = function(slot0)
 			configId = slot1.configId,
 			date = slot1.date
 		})
-		getProxy(DormProxy):_ClearNewFlag(slot1.configId)
+		getProxy(DormProxy):getRawData():ClearNewFlagById(slot1.configId)
 
 		slot4 = uv0.dorm:GetFurniture(slot1.configId)
 

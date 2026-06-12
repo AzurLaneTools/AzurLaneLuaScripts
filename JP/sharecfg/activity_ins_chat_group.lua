@@ -326,7 +326,10 @@ pg.activity_ins_chat_group.all = {
 	321,
 	322,
 	323,
-	324
+	324,
+	325,
+	326,
+	327
 }
 pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 	[101] = {
@@ -805,6 +808,11 @@ pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 		87,
 		88,
 		89
+	},
+	[90111] = {
+		325,
+		326,
+		327
 	},
 	[90401] = {
 		141,
@@ -14438,6 +14446,112 @@ end)()
 			9749,
 			9750,
 			9751
+		}
+	}
+	pg.base.activity_ins_chat_group[325] = {
+		ship_group = 90111,
+		name = "茶会ゲーム",
+		group_ii = 0,
+		unlock_desc = "キャラ入手",
+		id = 325,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			9752,
+			9753,
+			9754,
+			9755,
+			9756,
+			9757,
+			9758,
+			9759,
+			9760,
+			9761,
+			9762,
+			9763,
+			9764,
+			9765,
+			9766,
+			9767,
+			9768,
+			9769,
+			9770,
+			9771,
+			9772,
+			9773
+		}
+	}
+	pg.base.activity_ins_chat_group[326] = {
+		ship_group = 90111,
+		name = "エレガントのままで",
+		group_ii = 0,
+		unlock_desc = "好感度愛達成",
+		id = 326,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			9774,
+			9775,
+			9776,
+			9777,
+			9778,
+			9779,
+			9780,
+			9781,
+			9782,
+			9783,
+			9784,
+			9785,
+			9786,
+			9787,
+			9788,
+			9789,
+			9790,
+			9791,
+			9792,
+			9793,
+			9794,
+			9795,
+			9796,
+			9797,
+			9798,
+			9799
+		}
+	}
+	pg.base.activity_ins_chat_group[327] = {
+		ship_group = 90111,
+		name = "進んで残業を？",
+		group_ii = 0,
+		unlock_desc = "ケッコン済",
+		id = 327,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			9800,
+			9801,
+			9802,
+			9803,
+			9804,
+			9805,
+			9806,
+			9807,
+			9808,
+			9809,
+			9810,
+			9811,
+			9812,
+			9813,
+			9814,
+			9815,
+			9816,
+			9817,
+			9818,
+			9819,
+			9820,
+			9821,
+			9822,
+			9823,
+			9824
 		}
 	}
 end)()

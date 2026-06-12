@@ -652,7 +652,8 @@ pg.activity_ins_template.all = {
 	20003,
 	20004,
 	20006,
-	20005
+	20005,
+	20007
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -27347,6 +27348,33 @@ end)()
 				11,
 				0,
 				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20007] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "「母港物語」火山の謎を探ろう！撫順の奇妙な大冒険（3）",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20007,
+		group_id = 20007,
+		time = {
+			{
+				2026,
+				6,
+				12
+			},
+			{
+				15,
+				17,
+				0
 			}
 		},
 		time_persist = {},

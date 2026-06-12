@@ -29,9 +29,7 @@ end
 
 slot0.OnLoad = function(slot0, slot1)
 	if slot0.live2dChar then
-		slot0.live2dChar:Dispose()
-
-		slot0.live2dChar = nil
+		slot0:OnUnload()
 	end
 
 	slot0.actionWaiting = false
@@ -53,7 +51,7 @@ slot0.OnLoad = function(slot0, slot1)
 
 		if uv0._initTriggerAction then
 			for slot4, slot5 in ipairs(uv0._initTriggerAction) do
-				if uv0.live2dChar:checkActionExist(pg.AssistantInfo.assistantEvents[slot5].action) then
+				if uv0.live2dChar:checkActionExist(pg.AssistantInfo.GetAssistantEvents(slot5).action) then
 					uv0.live2dChar:TriggerAction(slot6)
 
 					uv0._initTriggerAction = nil

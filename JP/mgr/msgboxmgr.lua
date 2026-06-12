@@ -688,7 +688,45 @@ slot12 = function(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-slot13 = function(slot0, slot1)
+slot13 = function(slot0)
+	if not slot0 then
+		return false
+	end
+
+	for slot4, slot5 in ipairs(slot0) do
+		slot8 = slot6[2] and slot6[2].warp == "meta"
+
+		if slot5[2] and slot6[1] == "SHOP" and slot8 then
+			return true
+		end
+	end
+
+	return false
+end
+
+slot14 = function(slot0)
+	if not slot0 then
+		return false
+	end
+
+	for slot4, slot5 in ipairs(slot0) do
+		if slot5[2] and slot6[1] == "GETBOAT" then
+			return true
+		end
+	end
+
+	return false
+end
+
+slot15 = function(slot0)
+	if Ship.isMetaShipByConfigID(slot0.shipId) then
+		return getProxy(MetaCharacterProxy):getMetaProgressVOByID(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot0.shipId)) and (slot2:isInAct() or slot2:isInArchive()) or uv0(slot0.list) or uv1(slot0.list)
+	end
+
+	return true
+end
+
+slot16 = function(slot0, slot1)
 	slot0:commonSetting(slot1)
 
 	slot0._window.sizeDelta = Vector2(slot0._defaultSize.x, 520)
@@ -700,8 +738,7 @@ slot13 = function(slot0, slot1)
 		id = slot1.shipId
 	}, slot1)
 
-	slot3 = nil
-	slot3 = not Ship.isMetaShipByConfigID(slot1.shipId) or getProxy(MetaCharacterProxy):getMetaProgressVOByID(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot1.shipId)) and (slot5:isInAct() or slot5:isInArchive()) and true
+	slot3 = uv0(slot1)
 	slot0.obtainSkipList = slot0.obtainSkipList or UIItemList.New(slot0._obtainPanel:Find("skipable_list"), slot0._obtainPanel:Find("skipable_list/tpl"))
 
 	slot0.obtainSkipList:make(function (slot0, slot1, slot2)

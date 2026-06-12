@@ -141,6 +141,21 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	}
+	pg.base.voice_bgm.ActivityShop50486 = {
+		default_bgm = "story-wanderingcity-future",
+		special_bgm = "",
+		bgm = "story-wanderingcity-future"
+	}
+	pg.base.voice_bgm.ActivityShop50430 = {
+		default_bgm = "story-china-0226-pv",
+		special_bgm = "",
+		bgm = "story-china-0226-pv"
+	}
+	pg.base.voice_bgm.ActivityShop50464 = {
+		default_bgm = "theme-merkuriameta",
+		special_bgm = "",
+		bgm = "theme-merkuriameta"
+	}
 	pg.base.voice_bgm.ActivityShop6035 = {
 		default_bgm = "doa_story1",
 		special_bgm = "",
@@ -150,6 +165,11 @@ pg.base.voice_bgm = {}
 		default_bgm = "doa_huanzhuang",
 		special_bgm = "",
 		bgm = "doa_huanzhuang"
+	}
+	pg.base.voice_bgm.ActivityShop50829 = {
+		default_bgm = "story-tulipa",
+		special_bgm = "",
+		bgm = "story-tulipa"
 	}
 	pg.base.voice_bgm.ActivityShop50611 = {
 		default_bgm = "theme-hrr",
@@ -486,6 +506,8 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "theme-partydress"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.RyzaPtPage = {
 		default_bgm = "ryza-4",
 		special_bgm = "",
@@ -506,8 +528,6 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "hunhe-eagle"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.NewMeixiV4PtPage = {
 		default_bgm = "hunhe-story",
 		special_bgm = "",
@@ -1183,6 +1203,8 @@ end)()
 		special_bgm = "",
 		bgm = "votefes-start"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.EducateCharDockScene = {
 		default_bgm = "story-richang-8",
 		special_bgm = "",
@@ -1203,8 +1225,6 @@ end)()
 		special_bgm = "",
 		bgm = "main-chunjie2"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.ChkalovTecCatchupPage = {
 		default_bgm = "theme-designshipVI",
 		special_bgm = "",
@@ -1685,6 +1705,8 @@ end)()
 		special_bgm = "",
 		bgm = "story-roma-inside"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.YidaliV3PtRePage = {
 		default_bgm = "story-roma-outside",
 		special_bgm = "",
@@ -1705,8 +1727,6 @@ end)()
 		special_bgm = "",
 		bgm = "battle-nightmare-theme"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.GhostSkinStoryActPage = {
 		default_bgm = "story-ghostnight-fascinsting",
 		special_bgm = "",
@@ -2187,6 +2207,8 @@ end)()
 		special_bgm = "",
 		bgm = "story-musicanniversary-gorgeous"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.AnniversaryEightLoginPage = {
 		default_bgm = "story-musicanniversary-gorgeous",
 		special_bgm = "",
@@ -2207,8 +2229,6 @@ end)()
 		special_bgm = "",
 		bgm = "story-villaisland-light"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.ChangFengSkinPage = {
 		default_bgm = "china-party",
 		special_bgm = "",
@@ -2689,6 +2709,8 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-9"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.TianqiongMedalAlbumView = {
 		default_bgm = "story-weimu-link",
 		special_bgm = "",
@@ -2709,8 +2731,6 @@ end)()
 		special_bgm = "",
 		bgm = "story-weimu-link"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.MeixiT2FrameRePage = {
 		default_bgm = "theme-starsea-core",
 		special_bgm = "",
@@ -3000,6 +3020,11 @@ end)()
 		default_bgm = "theme-tulipa",
 		special_bgm = "",
 		bgm = "theme-tulipa"
+	}
+	pg.base.voice_bgm.XiaoXinNongPtPage2 = {
+		default_bgm = "story-richang-10",
+		special_bgm = "",
+		bgm = "story-richang-10"
 	}
 	pg.base.voice_bgm.GeZiURMainPage = {
 		default_bgm = "story-hrr",

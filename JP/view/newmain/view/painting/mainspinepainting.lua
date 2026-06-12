@@ -208,8 +208,8 @@ slot0.PrepareTriggerAction = function(slot0, slot1)
 	slot3 = false
 	slot4 = ""
 
-	if pg.AssistantInfo.assistantEvents[slot1] then
-		slot3 = slot0.spinePainting:getAnimationExist(pg.AssistantInfo.assistantEvents[slot1].action)
+	if pg.AssistantInfo.GetAssistantEvents(slot1) then
+		slot3 = slot0.spinePainting:getAnimationExist(pg.AssistantInfo.GetAssistantEvents(slot1).action)
 		slot4 = slot0.spinePainting:getIdleName()
 	end
 
@@ -227,8 +227,8 @@ end
 slot0.GetEventExit = function(slot0, slot1)
 	slot2 = false
 
-	if pg.AssistantInfo.assistantEvents[slot1] then
-		slot2 = slot0.spinePainting:getAnimationExist(pg.AssistantInfo.assistantEvents[slot1].action)
+	if pg.AssistantInfo.GetAssistantEvents(slot1) then
+		slot2 = slot0.spinePainting:getAnimationExist(pg.AssistantInfo.GetAssistantEvents(slot1).action)
 	end
 
 	return slot2

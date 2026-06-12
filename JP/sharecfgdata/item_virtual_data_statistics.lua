@@ -184086,8 +184086,8 @@ _G.pg.base.item_virtual_data_statistics[65920] = {
 
 _G.pg.base.item_virtual_data_statistics[65921] = {
 	drop_gold_max = 0,
-	name = "ステッカー：神性総連帝国",
-	display = "ステッカー：神性総連帝国",
+	name = "ステッカー：神聖総連帝国",
+	display = "ステッカー：神聖総連帝国",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -186360,6 +186360,58 @@ _G.pg.base.item_virtual_data_statistics[66031] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 66031,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66032] = {
+	drop_gold_max = 0,
+	name = "友好度-信濃ちゃん",
+	display = "イベント「甜き夢は共に」・友好度",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/xiaoxinnong_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66032,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66033] = {
+	drop_gold_max = 0,
+	name = "小信浓转换虚拟道具（不显示）",
+	display = "看不到看不到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 51022,
+	album_config = "",
+	icon = "Props/xiaoxinnong_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 17,
+	id = 66033,
 	display_icon = {},
 	price = {},
 	index = {},

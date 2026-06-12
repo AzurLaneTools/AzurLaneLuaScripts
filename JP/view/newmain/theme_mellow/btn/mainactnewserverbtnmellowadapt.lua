@@ -5,11 +5,23 @@ slot0.GetContainer = function(slot0)
 end
 
 slot0.OnRegister = function(slot0)
-	slot0.redDot = RedDotNode.New(slot0._tf:Find("tip"), {
-		pg.RedDotMgr.TYPES.NEW_SERVER
-	})
+	slot1 = slot0._tf
+	slot0.redDotUI = slot1:Find("tip")
+	slot1 = pg.EasyRedDotMgr.GetInstance()
 
-	pg.redDotHelper:AddNode(slot0.redDot)
+	slot1:RegisterRedDot(slot0.redDotUI, {
+		"NEW_SERVER"
+	}, function (slot0)
+		setActive(slot0, NewServerCarnivalScene.isTip())
+	end)
+end
+
+slot0.OnClear = function(slot0)
+	if slot0.redDotUI then
+		pg.EasyRedDotMgr.GetInstance():UnRegisterRedDot(slot0.redDotUI)
+
+		slot0.redDotUI = nil
+	end
 end
 
 return slot0

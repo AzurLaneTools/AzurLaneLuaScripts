@@ -294,9 +294,6 @@ seriesAsync({
 				pg.NewStoryMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
-				pg.RedDotMgr.GetInstance():Init(slot0)
-			end,
-			function (slot0)
 				pg.EasyRedDotMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)

@@ -14,6 +14,7 @@ slot0.DEAL_CMD_LIST = {
 }
 slot0.MailMessageBoxType = {
 	OverflowConfirm = 3,
+	ReDropConfirm = 5,
 	ShowTips = 2,
 	ReceiveAward = 1,
 	RewardStoreroom = 4

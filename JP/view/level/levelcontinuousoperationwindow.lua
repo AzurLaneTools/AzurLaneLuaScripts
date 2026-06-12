@@ -56,7 +56,14 @@ slot0.didEnter = function(slot0)
 	slot0._pageUtil:setMaxNum(slot3)
 
 	if slot3 >= 0 then
-		slot0.contextData.battleTimes = math.min(slot3, slot0.contextData.battleTimes or 1)
+		slot4 = slot0.contextData.oilCost
+		slot5 = getProxy(PlayerProxy):getRawData().oil
+		slot6 = math.floor(slot5 / slot4)
+
+		warning(slot4, slot5, slot6)
+
+		slot0.contextData.battleTimes = math.min(slot3, slot6)
+		slot0.contextData.battleTimes = math.max(slot0.contextData.battleTimes, 1)
 	end
 
 	slot0._pageUtil:setDefaultNum(slot0.contextData.battleTimes)

@@ -12,27 +12,43 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0._bg = slot0._tf:Find("bg")
+	slot1 = slot0._tf
+	slot0._bg = slot1:Find("bg")
+	slot2 = slot0._bg
 
-	setText(slot0._bg:Find("day/Text"), i18n("word_harbour"))
-	setText(slot0._bg:Find("night/Text"), i18n("word_harbour"))
+	setText(slot2:Find("day/Text"), i18n("word_harbour"))
+
+	slot2 = slot0._bg
+
+	setText(slot2:Find("night/Text"), i18n("word_harbour"))
 
 	slot0.timeCfg = pg.gameset.main_live_area_time.description
-	slot0._coverBtn = slot0._tf:Find("cover_btn")
-	slot0._academyBtn = slot0._tf:Find("school_btn")
-	slot0._haremBtn = slot0._tf:Find("backyard_btn")
-	slot0._commanderBtn = slot0._tf:Find("commander_btn")
-	slot0._educateBtn = slot0._tf:Find("educate_btn")
-	slot0._islandBtn = slot0._tf:Find("island_btn")
-	slot0.islandAwardTF = slot0._islandBtn:Find("banners/award")
+	slot1 = slot0._tf
+	slot0._coverBtn = slot1:Find("cover_btn")
+	slot1 = slot0._tf
+	slot0._academyBtn = slot1:Find("school_btn")
+	slot1 = slot0._tf
+	slot0._haremBtn = slot1:Find("backyard_btn")
+	slot1 = slot0._tf
+	slot0._commanderBtn = slot1:Find("commander_btn")
+	slot1 = slot0._tf
+	slot0._educateBtn = slot1:Find("educate_btn")
+	slot1 = slot0._tf
+	slot0._islandBtn = slot1:Find("island_btn")
+	slot1 = slot0._islandBtn
+	slot0.islandAwardTF = slot1:Find("banners/award")
+	slot2 = slot0.islandAwardTF
 
-	setText(slot0.islandAwardTF:Find("Text"), i18n("island_post_acceptable"))
+	setText(slot2:Find("Text"), i18n("island_post_acceptable"))
 
-	slot0.islandEmptyTF = slot0._islandBtn:Find("banners/empty")
+	slot1 = slot0._islandBtn
+	slot0.islandEmptyTF = slot1:Find("banners/empty")
+	slot2 = slot0.islandEmptyTF
 
-	setText(slot0.islandEmptyTF:Find("Text"), i18n("island_post_vacant"))
+	setText(slot2:Find("Text"), i18n("island_post_vacant"))
 
-	slot0._dormBtn = slot0._tf:Find("dorm_btn")
+	slot1 = slot0._tf
+	slot0._dormBtn = slot1:Find("dorm_btn")
 	slot1 = slot0._islandBtn
 	slot0._islandBtnEffect = slot1:Find("VX")
 	slot0.coverPage = LivingAreaCoverPage.New(slot0._tf, slot0.event, {
@@ -43,23 +59,43 @@ slot0.OnLoaded = function(slot0)
 			uv0:UpdateCoverTemp(slot0)
 		end
 	})
-	slot4 = {
-		slot5
-	}
-	slot5 = pg.RedDotMgr.TYPES.COMMANDER
-	slot0.redList = {
-		RedDotNode.New(slot0._haremBtn:Find("tip"), {
-			pg.RedDotMgr.TYPES.COURTYARD
-		}),
-		SelfRefreshRedDotNode.New(slot0._academyBtn:Find("tip"), {
-			pg.RedDotMgr.TYPES.SCHOOL
-		}),
-		SelfRefreshRedDotNode.New(slot0._commanderBtn:Find("tip"), slot4)
+	slot1 = pg.EasyRedDotMgr.GetInstance()
+	slot3 = slot0._haremBtn
+	slot3 = slot0._academyBtn
+	slot3 = slot0._commanderBtn
+	slot0.redDotUIList = {
+		slot3:Find("tip"),
+		slot3:Find("tip"),
+		slot3:Find("tip")
 	}
 
-	for slot4, slot5 in ipairs(slot0.redList) do
-		pg.redDotHelper:AddNode(slot5)
-	end
+	slot1:RegisterRedDot(slot0.redDotUIList[1], {
+		"COURTYARD"
+	}, function (slot0)
+		setActive(slot0, getProxy(DormProxy):IsShowRedDot())
+	end)
+	slot1:RegisterRedDot(slot0.redDotUIList[2], {
+		"SCHOOL"
+	}, function (slot0)
+		setActive(slot0, getProxy(NavalAcademyProxy):IsShowTip())
+	end)
+	slot1:RegisterRedDot(slot0.redDotUIList[3], {
+		"COMMANDER"
+	}, function (slot0)
+		if getProxy(PlayerProxy):getRawData().level < 40 then
+			setActive(slot0, false)
+
+			return
+		end
+
+		slot1 = getProxy(CommanderProxy):IsFinishAllBox()
+
+		if not LOCK_CATTERY then
+			setActive(slot0, slot1 or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse())
+		else
+			setActive(slot0, slot1)
+		end
+	end)
 end
 
 slot0.OnInit = function(slot0)
@@ -336,11 +372,13 @@ slot0.Hide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
-	for slot4, slot5 in ipairs(slot0.redList) do
-		pg.redDotHelper:RemoveNode(slot5)
+	slot1 = pg.EasyRedDotMgr.GetInstance()
+
+	for slot5, slot6 in ipairs(slot0.redDotUIList) do
+		slot1:UnRegisterRedDot(slot6)
 	end
 
-	slot0.redList = nil
+	slot0.redDotUIList = nil
 
 	slot0.mediator:Dispose()
 

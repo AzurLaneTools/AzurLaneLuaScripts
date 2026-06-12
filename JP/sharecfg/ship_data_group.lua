@@ -24925,6 +24925,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -25357,6 +25368,17 @@ end)()
 				"イベント：覆天せし万象の塵",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -26574,6 +26596,28 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造、特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"常設UR交換",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -26754,6 +26798,16 @@ end)()
 				"イベント：覆天せし万象の塵",
 				{
 					""
+				},
+				0
+			},
+			{
+				"演習ショップ(ランダム出現)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -38434,11 +38488,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9705011
+						warp = "meta"
 					}
 				},
 				0
@@ -38469,11 +38523,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9706011
+						warp = "meta"
 					}
 				},
 				0
@@ -38539,11 +38593,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9706021
+						warp = "meta"
 					}
 				},
 				0
@@ -38609,11 +38663,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9705011
+						warp = "meta"
 					}
 				},
 				0
@@ -38644,11 +38698,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702021
+						warp = "meta"
 					}
 				},
 				0
@@ -38714,11 +38768,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9703011
+						warp = "meta"
 					}
 				},
 				0
@@ -38784,11 +38838,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701011
+						warp = "meta"
 					}
 				},
 				0
@@ -38819,11 +38873,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701021
+						warp = "meta"
 					}
 				},
 				0
@@ -38889,11 +38943,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9703021
+						warp = "meta"
 					}
 				},
 				0
@@ -38959,11 +39013,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702041
+						warp = "meta"
 					}
 				},
 				0
@@ -38999,6 +39053,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -39026,11 +39091,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9712011
+						warp = "meta"
 					}
 				},
 				0
@@ -39096,11 +39161,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"メタラボ・シーズン任務",
+				"METAショップ交換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701031
+						warp = "meta"
 					}
 				},
 				0

@@ -20,9 +20,6 @@ slot0.OnRegister = function(slot0)
 end
 
 slot0.OnClear = function(slot0)
-	if slot0.redDot then
-		pg.redDotHelper:RemoveNode(slot0.redDot)
-	end
 end
 
 return slot0

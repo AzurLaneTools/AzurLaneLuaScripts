@@ -34,22 +34,60 @@ slot0.register = function(slot0)
 			data = slot0
 		})
 	end)
+	slot0:RequestPopEvent()
+end
 
-	slot0.isLoadExp = nil
+slot0.OnEnterBackyard = function(slot0)
+	slot0:SettlementShipExp()
+end
 
-	slot0:on(19009, function (slot0)
-		uv0.isLoadExp = true
-		uv0.data.load_exp = uv0.data.load_exp + slot0.exp
-		uv0.data.load_food = uv0.data.load_food + slot0.food_consume
+slot0.OnExitBackyard = function(slot0)
+	slot0:ClearRequestShipExp()
+end
 
-		uv0:updateFood(slot0.food_consume)
-		uv0:sendNotification(GAME.BACKYARD_ADD_EXP, slot0.exp)
-	end)
-	slot0:on(19010, function (slot0)
-		for slot4, slot5 in ipairs(slot0.pop_list) do
-			uv0:addInimacyAndMoney(slot0.pop_list[slot4].id, slot0.pop_list[slot4].intimacy, slot0.pop_list[slot4].dorm_icon)
-		end
-	end)
+slot0.SettlementShipExp = function(slot0)
+	slot0:ClearRequestShipExp()
+
+	if slot0.data:ShouldRequestShipExp() then
+		slot0:sendNotification(GAME.BACKYARD_REQUEST_SHIP_EXP)
+	else
+		slot0:RequestShipExp()
+	end
+end
+
+slot0.RequestShipExp = function(slot0)
+	slot0.requestShipExpTimer = Timer.New(function ()
+		uv0:ClearRequestShipExp()
+		uv0:sendNotification(GAME.BACKYARD_REQUEST_SHIP_EXP)
+	end, slot0.data:GetNextSettlementShipExpTime() - pg.TimeMgr.GetInstance():GetServerTime(), 1)
+
+	slot0.requestShipExpTimer:Start()
+end
+
+slot0.ClearRequestShipExp = function(slot0)
+	if slot0.requestShipExpTimer then
+		slot0.requestShipExpTimer:Stop()
+
+		slot0.requestShipExpTimer = nil
+	end
+end
+
+slot0.RequestPopEvent = function(slot0)
+	slot0:ClearRequestPopEvent()
+
+	slot0.requestEventTimer = Timer.New(function ()
+		uv0:sendNotification(GAME.BACKYARD_REQUEST_POP_EVENT)
+	end, pg.gameset.dorm_pop_time.key_value, -1)
+
+	slot0.requestEventTimer:Start()
+end
+
+slot0.ClearRequestPopEvent = function(slot0)
+	if slot0.requestEventTimer then
+		slot0.requestEventTimer:Stop()
+
+		slot0.requestEventTimer = nil
+	end
 end
 
 slot0.GetVisitorShip = function(slot0)
@@ -58,151 +96,6 @@ end
 
 slot0.SetVisitorShip = function(slot0, slot1)
 	slot0.visitorShip = slot1
-end
-
-slot0.getBackYardShips = function(slot0)
-	slot1 = {}
-	slot2 = getProxy(BayProxy)
-
-	for slot6, slot7 in ipairs(slot0.data.shipIds) do
-		if slot2:getShipById(slot7) then
-			slot1[slot8.id] = slot8
-		else
-			print("not found ship >>>", slot7)
-		end
-	end
-
-	return slot1
-end
-
-slot0.addShip = function(slot0, slot1)
-	slot0.data:addShip(slot1)
-	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
-end
-
-slot0.exitYardById = function(slot0, slot1)
-	slot2 = slot0:getShipById(slot1)
-
-	assert(slot2, "ship should exist")
-	slot0.data:deleteShip(slot1)
-	slot0:sendNotification(uv0.SHIP_EXIT, slot2)
-	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
-end
-
-slot0.getShipById = function(slot0, slot1)
-	if slot0:getBackYardShips()[slot1] then
-		return slot2[slot1]
-	end
-end
-
-slot0.getShipsByState = function(slot0, slot1)
-	slot3 = {}
-
-	for slot7, slot8 in pairs(slot0:getBackYardShips()) do
-		if slot8.state == slot1 then
-			slot3[slot8.id] = slot8
-		end
-	end
-
-	return slot3
-end
-
-slot0.getTrainShipIds = function(slot0)
-	return _.keys(slot0:getShipsByState(Ship.STATE_TRAIN) or {})
-end
-
-slot0.getRestShipIds = function(slot0)
-	return _.keys(slot0:getShipsByState(Ship.STATE_REST) or {})
-end
-
-slot0.getTrainShipCount = function(slot0)
-	return #slot0:getTrainShipIds()
-end
-
-slot0.addInimacyAndMoney = function(slot0, slot1, slot2, slot3)
-	if not getProxy(BayProxy):getShipById(slot1) then
-		return
-	end
-
-	slot5:updateStateInfo34(slot2, slot3)
-	slot4:updateShip(slot5)
-	slot0:sendNotification(uv0.INIMACY_AND_MONEY_ADD, {
-		id = slot1,
-		intimacy = slot2,
-		money = slot3
-	})
-	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
-end
-
-slot0.UpdateInimacyAndMoney = function(slot0)
-	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
-end
-
-slot0.clearInimacyAndMoney = function(slot0, slot1)
-	if not getProxy(BayProxy):getShipById(slot1) then
-		return
-	end
-
-	slot3:addLikability(slot3.state_info_3)
-	getProxy(PlayerProxy):getRawData():addResources({
-		dormMoney = slot3.state_info_4
-	})
-	slot3:updateStateInfo34(0, 0)
-	slot2:updateShip(slot3)
-	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
-end
-
-slot0.isLackOfFood = function(slot0)
-	if slot0:getTrainShipCount() == 0 then
-		return false
-	end
-
-	slot2 = slot0:getRestFood()
-
-	if not slot0.isLoadExp then
-		slot2 = slot2 - slot0.data.load_food
-	end
-
-	return slot2 <= 0
-end
-
-slot0.havePopEvent = function(slot0)
-	for slot5, slot6 in pairs(slot0:getBackYardShips()) do
-		if slot6:hasStateInfo3Or4() then
-			return true
-		end
-	end
-
-	return false
-end
-
-slot0.AddFurniture = function(slot0, slot1)
-	assert(isa(slot1, Furniture))
-	slot0.data:AddFurniture(slot1)
-	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_FURNITURE)
-end
-
-slot0.AddFurnitrues = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot1) do
-		slot0.data:AddFurniture(Furniture.New({
-			count = 1,
-			id = slot6
-		}))
-	end
-
-	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_FURNITURE)
-end
-
-slot0.ClearNewFlag = function(slot0)
-	for slot5, slot6 in pairs(slot0.data:GetPurchasedFurnitures()) do
-		slot6:ClearNewFlag()
-	end
-end
-
-slot0._ClearNewFlag = function(slot0, slot1)
-	if slot0.data:GetPurchasedFurnitures()[slot1] then
-		slot3:ClearNewFlag()
-	end
 end
 
 slot0.addDorm = function(slot0, slot1)
@@ -227,16 +120,6 @@ slot0.getData = function(slot0)
 	return (slot0.data or Dorm.New({
 		id = 1
 	})):clone()
-end
-
-slot0.updateFood = function(slot0, slot1)
-	slot0.data:consumeFood(slot1)
-	slot0.data:restNextTime()
-	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_UPDATEFOOD)
-end
-
-slot0.getRestFood = function(slot0)
-	return slot0.data.food
 end
 
 slot0.GetCustomThemeTemplates = function(slot0)
@@ -455,9 +338,14 @@ slot0.GetTag7Furnitures = function(slot0)
 end
 
 slot0.IsShowRedDot = function(slot0)
-	slot3 = getProxy(DormProxy)
+	slot4 = getProxy(DormProxy):getRawData()
 
-	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CourtYardMediator") and (slot3:isLackOfFood() or slot3:havePopEvent() or getProxy(SettingsProxy):IsTipNewTheme() or getProxy(SettingsProxy):IsTipNewGemFurniture())
+	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CourtYardMediator") and (slot4:IsLackOfFood() or slot4:AnyShipExistIntimacyOrMoney() or getProxy(SettingsProxy):IsTipNewTheme() or getProxy(SettingsProxy):IsTipNewGemFurniture())
+end
+
+slot0.remove = function(slot0)
+	slot0:ClearRequestPopEvent()
+	slot0:ClearRequestShipExp()
 end
 
 return slot0

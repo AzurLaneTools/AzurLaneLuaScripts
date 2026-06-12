@@ -49,7 +49,10 @@ slot0.TriggerMarks = function(slot0, ...)
 	for slot5, slot6 in ipairs({
 		...
 	}) do
-		for slot10, slot11 in pairs(slot0.markDic[slot6]) do
+		slot7 = pairs
+		slot8 = slot0.markDic[slot6] or {}
+
+		for slot10, slot11 in slot7(slot8) do
 			if IsNil(slot10) then
 				slot1[slot10] = false
 			elseif slot11 then
@@ -62,7 +65,6 @@ slot0.TriggerMarks = function(slot0, ...)
 		if slot6 then
 			slot0.registerDic[slot5][2](slot5)
 		else
-			warning(slot5)
 			slot0:UnRegisterRedDot(slot5)
 		end
 	end

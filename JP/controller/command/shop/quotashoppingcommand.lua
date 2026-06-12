@@ -23,18 +23,15 @@ slot0.execute = function(slot0, slot1)
 		count = slot4
 	}, 16202, function (slot0)
 		if slot0.result == 0 then
-			slot2 = uv0:getQuotaShop()
-
-			slot2:getGoodsById(uv1):addBuyCount(uv2)
-			uv0:updateQuotaShop(slot2)
+			uv0:updateQuotaShop(uv0:getQuotaShop())
 			reducePlayerOwn({
-				type = uv3.resource_category,
-				id = uv3.resource_type,
-				count = uv3.resource_num * uv2
+				type = uv1.resource_category,
+				id = uv1.resource_type,
+				count = uv1.resource_num * uv2
 			})
-			uv4:sendNotification(GAME.QUOTA_SHOPPING_DONE, {
+			uv3:sendNotification(GAME.QUOTA_SHOPPING_DONE, {
 				awards = PlayerConst.addTranDrop(slot0.drop_list),
-				id = uv1
+				id = uv4
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))

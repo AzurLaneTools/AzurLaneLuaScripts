@@ -1,4 +1,5 @@
 slot0 = class("MainCrusingActSequence")
+slot1 = false
 
 slot0.Execute = function(slot0, slot1)
 	slot4 = {}
@@ -14,6 +15,45 @@ slot0.Execute = function(slot0, slot1)
 				uv1:ShowWindow(slot0)
 			end)
 		end
+
+		table.insert(slot4, function (slot0)
+			if uv0 then
+				slot0()
+
+				return
+			end
+
+			if PlayerPrefs.GetInt("crusing_last_remind_day_" .. math.floor((uv1.stopTime - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)) == 1 then
+				slot0()
+
+				return
+			end
+
+			uv0 = true
+			slot5 = i18n("cruise_title_" .. pg.battlepass_event_pt[uv1.id].map_name)
+
+			if slot2 <= pg.gameset.world_cruise_due_days.key_value then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					showStopRemind = true,
+					hideNo = true,
+					content = i18n("world_cruise_due_tips", slot5, slot2),
+					onYes = function ()
+						if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
+							PlayerPrefs.SetInt("crusing_last_remind_day_" .. uv0, 1)
+						end
+
+						uv1()
+					end,
+					onClose = function ()
+						if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
+							PlayerPrefs.SetInt("crusing_last_remind_day_" .. uv0, 1)
+						end
+
+						uv1()
+					end
+				})
+			end
+		end)
 	end
 
 	seriesAsync(slot4, slot1)

@@ -175,7 +175,7 @@ slot0.CollectIdleEvents = function(slot0, slot1)
 		end
 
 		if #slot2 == 0 then
-			slot2 = slot0:FilterExistEvents(uv0.IdleEvents)
+			slot2 = slot0:FilterExistEvents(uv0.GetShipMainEvents(slot0.ship:getSkinId(), -1))
 
 			if getProxy(TaskProxy):getNotFinishCount() and getProxy(TaskProxy):getNotFinishCount() > 0 and slot1 ~= "mission" then
 				table.insert(slot2, "mission")
@@ -190,7 +190,7 @@ slot0.FilterExistEvents = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot1) do
-		if uv0.assistantEvents[slot7] and slot8.dialog and EducateCharWordHelper.ExistWord(slot0.ship.educateCharId, slot8.dialog) then
+		if pg.AssistantInfo.GetAssistantEvents(slot7) and slot8.dialog and EducateCharWordHelper.ExistWord(slot0.ship.educateCharId, slot8.dialog) then
 			table.insert(slot2, slot7)
 		end
 	end
@@ -199,7 +199,7 @@ slot0.FilterExistEvents = function(slot0, slot1)
 end
 
 slot0.CollectTouchEvents = function(slot0)
-	return slot0:FilterExistEvents(uv0.PaintingTouchEvents)
+	return slot0:FilterExistEvents(uv0.GetShipTouchEvents(slot0.ship:getSkinId(), slot0.ship:getCVIntimacy()))
 end
 
 slot0.EnableOrDisableMove = function(slot0, slot1)

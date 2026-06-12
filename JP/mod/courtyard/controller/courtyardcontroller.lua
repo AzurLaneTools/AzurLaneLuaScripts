@@ -50,7 +50,9 @@ slot0.SetUp = function(slot0)
 
 	for slot8, slot9 in ipairs(slot1.ships) do
 		table.insert(slot4, function (slot0)
-			uv0:AddShip(uv1)
+			slot1 = uv0.popList[uv1.id] or {}
+
+			uv2:AddShip(uv1, slot1[1] or 0, slot1[2] or 0)
 			onNextTick(slot0)
 		end)
 	end
@@ -115,28 +117,24 @@ slot0.AddFurniture = function(slot0, slot1, slot2)
 	slot0:CheckChange()
 end
 
-slot0.AddShip = function(slot0, slot1)
+slot0.AddShip = function(slot0, slot1, slot2, slot3)
 	if not slot0.storey then
 		return
 	end
 
-	slot2 = slot0:DataToShip(slot1)
+	slot4 = slot0:DataToShip(slot1, slot2, slot3)
 
 	if slot1:IsDoubleSkin() then
-		slot2:SetSide(1)
+		slot4:SetSide(1)
 
-		slot3 = slot0:DataToShip(slot1)
-		slot3.id = slot3.id + CourtYardConst.DOUBLE_SKIN_ADD
+		slot5 = slot0:DataToShip(slot1, 0, 0)
+		slot5.id = slot5.id + CourtYardConst.DOUBLE_SKIN_ADD
 
-		slot3:SetSide(2)
-
-		slot3.inimacy = 0
-		slot3.coin = 0
-
-		slot0:CreateShip(slot2)
-		slot0:CreateShip(slot3)
+		slot5:SetSide(2)
+		slot0:CreateShip(slot4)
+		slot0:CreateShip(slot5)
 	else
-		slot0:CreateShip(slot2)
+		slot0:CreateShip(slot4)
 	end
 end
 
@@ -477,11 +475,11 @@ slot0.DataToFurnitureVO = function(slot0, slot1)
 	end
 end
 
-slot0.DataToShip = function(slot0, slot1)
+slot0.DataToShip = function(slot0, slot1, slot2, slot3)
 	if slot0.system == CourtYardConst.SYSTEM_FEAST then
 		return CourtYardFeastShip.New(slot0, slot1)
 	else
-		return CourtYardShip.New(slot0, slot1)
+		return CourtYardShip.New(slot0, slot1, slot2, slot3)
 	end
 end
 

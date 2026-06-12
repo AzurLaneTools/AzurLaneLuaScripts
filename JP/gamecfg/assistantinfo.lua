@@ -2,42 +2,6 @@ pg = pg or {}
 slot1 = {}
 pg.AssistantInfo = slot1
 slot1.assistantEvents = {
-	idleRandom1 = {
-		action = "main_1",
-		dialog = "main_1"
-	},
-	idleRandom2 = {
-		action = "main_2",
-		dialog = "main_2"
-	},
-	idleRandom3 = {
-		action = "main_3",
-		dialog = "main_3"
-	},
-	idleRandom4 = {
-		action = "idle_1",
-		dialog = "main_4"
-	},
-	idleRandom5 = {
-		action = "idle_2",
-		dialog = "main_5"
-	},
-	idleRandom6 = {
-		action = "idle_3",
-		dialog = "main_6"
-	},
-	idleRandom7 = {
-		action = "main_4",
-		dialog = "main_4"
-	},
-	idleRandom8 = {
-		action = "main_5",
-		dialog = "main_5"
-	},
-	idleRandom9 = {
-		action = "main_7",
-		dialog = "main_7"
-	},
 	event_complete = {
 		action = "complete",
 		dialog = "expedition"
@@ -135,53 +99,67 @@ slot1.assistantEvents = {
 		dialog = "feeling5"
 	}
 }
+
+slot1.GetShipTouchEvents = function(slot0, slot1)
+	slot2 = uv0.GetShipMainEvents(slot0, slot1 or -1)
+
+	table.insert(slot2, "TouchBody")
+
+	return slot2
+end
+
+slot1.GetShipMainEvents = function(slot0, slot1)
+	if not slot0 then
+		return {}
+	end
+
+	slot2 = {}
+
+	for slot7 = 1, ShipWordHelper.GetMainSceneWordCnt(slot0, slot1) do
+		table.insert(slot2, "main_" .. slot7)
+	end
+
+	return slot2
+end
+
+slot1.GetAssistantEvents = function(slot0)
+	slot1 = slot0:find("main_", 1, true)
+
+	if slot0:find("main_", 1, true) == 1 then
+		return {
+			action = slot0,
+			dialog = slot0
+		}
+	end
+
+	return uv0.assistantEvents[slot0]
+end
+
+slot1.GetAssistantEventsByDialog = function(slot0)
+	slot1 = slot0:find("main_", 1, true)
+
+	if slot0:find("main_", 1, true) == 1 then
+		return {
+			action = slot0,
+			dialog = slot0
+		}
+	end
+
+	for slot5, slot6 in pairs(uv0.assistantEvents) do
+		if slot6.dialog == slot0 then
+			return slot6
+		end
+	end
+
+	return nil
+end
+
 slot1.assistantTouchParts = {
 	"TouchSpecial",
 	"TouchHead",
 	"TouchBody"
 }
-slot1.assistantTouchEvents = {
-	{
-		"TouchSpecial"
-	},
-	{
-		"TouchHead"
-	},
-	{
-		"TouchBody",
-		"idleRandom1",
-		"idleRandom2",
-		"idleRandom3",
-		"idleRandom4",
-		"idleRandom5",
-		"idleRandom6",
-		"idleRandom7",
-		"idleRandom8",
-		"idleRandom9"
-	}
-}
-slot1.useNewTouchEventShip = {
-	[205131] = {
-		assistantTouchEventsNew = {
-			{
-				"TouchSpecial"
-			},
-			{
-				"TouchHead"
-			},
-			{
-				"TouchBody",
-				"idleRandom1",
-				"idleRandom2",
-				"idleRandom3",
-				"idleRandom4",
-				"idleRandom5",
-				"idleRandom6",
-				"idleRandom8"
-			}
-		}
-	}
-}
+slot1.useNewTouchEventShip = {}
 slot1.action2Id = {
 	touch_drag19 = 120,
 	touch_idle52 = 253,
@@ -384,27 +362,6 @@ slot1.action2Words = {
 slot1.idleActions = {
 	slot1.action2Id.idle
 }
-slot1.IdleEvents = {
-	"idleRandom1",
-	"idleRandom2",
-	"idleRandom3",
-	"idleRandom4",
-	"idleRandom5",
-	"idleRandom6",
-	"idleRandom7",
-	"idleRandom8",
-	"idleRandom9"
-}
-slot1.PaintingTouchEvents = {
-	"TouchBody",
-	"idleRandom1",
-	"idleRandom2",
-	"idleRandom3",
-	"idleRandom4",
-	"idleRandom5",
-	"idleRandom6",
-	"idleRandom9"
-}
 slot1.PaintingTouchParts = {
 	["3"] = "TouchHead",
 	["22"] = "TouchBody",
@@ -423,11 +380,15 @@ slot1.getAssistantTouchEvents = function(slot0, slot1)
 		slot0 = 1
 	end
 
-	if uv0.useNewTouchEventShip and uv0.useNewTouchEventShip[slot1] then
-		return uv0.useNewTouchEventShip[slot1].assistantTouchEventsNew[slot0]
+	slot2 = {}
+
+	if slot0 == 3 then
+		slot2 = uv0.GetShipTouchEvents(slot1, -1)
+	else
+		table.insert(slot2, uv0.assistantTouchParts[slot0])
 	end
 
-	return uv0.assistantTouchEvents[slot0]
+	return slot2
 end
 
 slot1.getPaintingTouchEvents = function(slot0)
@@ -451,7 +412,7 @@ slot1.filterAssistantEvents = function(slot0, slot1, slot2)
 	slot4 = ShipWordHelper.GetMainSceneWordCnt(slot1, slot2 or 0)
 
 	for slot8, slot9 in ipairs(slot0) do
-		if string.split(uv0.assistantEvents[slot9].dialog, "_")[1] == "main" then
+		if string.split(uv0.GetAssistantEvents(slot9).dialog, "_")[1] == "main" then
 			if tonumber(slot12[2]) <= slot4 then
 				table.insert(slot3, slot9)
 			end

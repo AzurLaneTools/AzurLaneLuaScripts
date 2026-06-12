@@ -16,7 +16,7 @@ slot0.didEnter = function(slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end)
 
-	slot0.shipCardTpl = slot0._tf:GetComponent("ItemList").prefabItem[0]
+	slot0.shipCardTpl = slot0._tf:Find("ShipCardTpl")
 	slot0.startBtn = findTF(slot0._tf, "ships_container/start_btn")
 
 	setActive(slot0.startBtn, false)
@@ -84,6 +84,9 @@ slot0.initRivalInfo = function(slot0)
 
 	slot2 = function(slot0, slot1, slot2, slot3)
 		slot4 = cloneTplTo(uv0.shipCardTpl, slot2)
+
+		setActive(slot4, true)
+
 		slot4.localScale = Vector3(1.1, 1.1, 1)
 
 		setActive(slot4:Find("content"), slot3 ~= nil)

@@ -961,6 +961,8 @@ pg.activity_template.all = {
 	51004,
 	51005,
 	51006,
+	51021,
+	51022,
 	51011,
 	51012,
 	51013,
@@ -1924,6 +1926,7 @@ pg.activity_template.get_id_list_by_type = {
 		18,
 		6027,
 		50832,
+		51022,
 		51012,
 		50254,
 		50501
@@ -2632,6 +2635,7 @@ pg.activity_template.get_id_list_by_type = {
 		50833,
 		50604,
 		50621,
+		51021,
 		51013,
 		50006,
 		50015,
@@ -34586,12 +34590,12 @@ end)()
 				{
 					2026,
 					6,
-					12
+					17
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		},
@@ -34625,9 +34629,7 @@ end)()
 				21973,
 				21974
 			},
-			daily_task = {
-				21953
-			}
+			daily_task = {}
 		}
 	}
 	pg.base.activity_template[50603] = {
@@ -34642,7 +34644,6 @@ end)()
 		id = 50603,
 		page_core = "",
 		config_data = {
-			21953,
 			21954,
 			21955,
 			21956,
@@ -34682,12 +34683,12 @@ end)()
 				{
 					2026,
 					6,
-					12
+					17
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -35500,12 +35501,12 @@ end)()
 				{
 					2026,
 					6,
-					12
+					17
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		},
@@ -36081,12 +36082,12 @@ end)()
 				{
 					2026,
 					6,
-					17
+					12
 				},
 				{
-					23,
-					59,
-					59
+					16,
+					0,
+					0
 				}
 			}
 		},
@@ -36174,12 +36175,95 @@ end)()
 				{
 					2026,
 					6,
-					17
+					12
 				},
 				{
-					23,
-					59,
-					59
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51021] = {
+		mark = 20260612,
+		type = 74,
+		login_pop = 0,
+		config_id = 51021,
+		is_show = 46,
+		config_client = "",
+		title_res_tag = "xiaoxinnong",
+		id = 51021,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "XiaoXinNongPtPage2",
+			ui_name = "XiaoXinNongPtPage2"
+		}
+	}
+	pg.base.activity_template[51022] = {
+		mark = 20260612,
+		page_info = "",
+		type = 15,
+		login_pop = 0,
+		config_id = 307141,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51022,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					16,
+					0,
+					0
 				}
 			}
 		}
@@ -36229,7 +36313,7 @@ end)()
 				{
 					2026,
 					6,
-					18
+					12
 				},
 				{
 					16,
@@ -36314,7 +36398,7 @@ end)()
 				{
 					2026,
 					6,
-					14
+					12
 				},
 				{
 					16,
@@ -36352,7 +36436,7 @@ end)()
 				{
 					2026,
 					6,
-					14
+					12
 				},
 				{
 					16,
@@ -36430,7 +36514,7 @@ end)()
 				{
 					2026,
 					6,
-					14
+					12
 				},
 				{
 					16,
@@ -36478,7 +36562,7 @@ end)()
 				{
 					2026,
 					6,
-					14
+					12
 				},
 				{
 					16,
@@ -38377,6 +38461,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[8111] = {
 		mark = 20251120,
 		type = 3,
@@ -38462,8 +38548,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[8125] = {
 		mark = 20260417,
 		type = 3,
@@ -42783,6 +42867,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50129] = {
 		mark = 20250912,
 		page_info = "",
@@ -42864,8 +42950,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50131] = {
 		mark = 20250912,
 		page_info = "",
@@ -46253,6 +46337,8 @@ end)()
 			PTID = 596
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50282] = {
 		mark = 20251218,
 		page_info = "",
@@ -46351,8 +46437,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50284] = {
 		mark = 20251218,
 		time = "stop",
@@ -51047,6 +51131,8 @@ end)()
 		id = 50431,
 		page_core = ""
 	}
+end)()
+(function ()
 	pg.base.activity_template[50432] = {
 		mark = 20260226,
 		page_info = "",
@@ -51085,8 +51171,6 @@ end)()
 			bg = "loadingbg/bg_build_4_act"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50434] = {
 		mark = 20260226,
 		page_info = "",

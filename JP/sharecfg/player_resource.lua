@@ -522,6 +522,7 @@ pg.player_resource.all = {
 	704,
 	705,
 	706,
+	707,
 	711,
 	712,
 	713,
@@ -2444,6 +2445,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	xiaoxinnong_pt = {
 		319
+	},
+	xiaoxinnong_pt2 = {
+		707
 	},
 	xiaoyunxian_pt = {
 		712
@@ -5211,6 +5215,11 @@ end)()
 		name = "skinTicket118",
 		itemid = 65989
 	}
+	pg.base.player_resource[707] = {
+		id = 707,
+		name = "xiaoxinnong_pt2",
+		itemid = 66032
+	}
 	pg.base.player_resource[711] = {
 		id = 711,
 		name = "union15_pt",
@@ -5611,13 +5620,13 @@ end)()
 		name = "Battlepass_13",
 		itemid = 59493
 	}
+end)()
+(function ()
 	pg.base.player_resource[4014] = {
 		id = 4014,
 		name = "Battlepass_14",
 		itemid = 59510
 	}
-end)()
-(function ()
 	pg.base.player_resource[4015] = {
 		id = 4015,
 		name = "Battlepass_15",

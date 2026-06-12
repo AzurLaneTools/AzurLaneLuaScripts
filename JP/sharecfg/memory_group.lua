@@ -394,6 +394,7 @@ pg.memory_group.all = {
 	620,
 	621,
 	622,
+	623,
 	1000,
 	1001,
 	1002,
@@ -9964,6 +9965,28 @@ end)()
 			5115,
 			5116,
 			5117
+		},
+		group_id = {
+			10000
+		}
+	}
+	pg.base.memory_group[623] = {
+		ship_group = 60508,
+		icon = "title_chara_lafeier",
+		type = 3,
+		link_event = 0,
+		title = "心に描くもの",
+		auto_unlock = "",
+		subtype = 0,
+		id = 623,
+		memories = {
+			5231,
+			5232,
+			5233,
+			5234,
+			5235,
+			5236,
+			5237
 		},
 		group_id = {
 			10000

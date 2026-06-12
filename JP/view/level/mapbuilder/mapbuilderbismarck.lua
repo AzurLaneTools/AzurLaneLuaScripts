@@ -13,12 +13,16 @@ slot0.GetAtlasPath = function(slot0)
 end
 
 slot1 = {
+	[2100582.0] = "yellow",
+	[1720026.0] = "red",
+	[2100592.0] = "red",
+	[2100591.0] = "blue",
+	[1720011.0] = "blue",
 	[1720012.0] = "red",
 	[1720025.0] = "blue",
-	[1720026.0] = "red",
 	[1720001.0] = "green",
 	[1720002.0] = "yellow",
-	[1720011.0] = "blue"
+	[2100581.0] = "green"
 }
 
 slot0.OnInit = function(slot0)
@@ -80,14 +84,9 @@ slot0.UpdateCustomButtons = function(slot0)
 		setActive(slot0.sceneParent.btnNext, false)
 
 		slot4 = getProxy(ChapterProxy)
-		slot4 = slot4:getMapsByActivities(slot1:getConfig("on_activity"))
 
-		setActive(slot0.buttonDown, _.detect(slot4, function (slot0)
-			return slot0.id == uv0.id + 1
-		end))
-		setActive(slot0.buttonUp, _.detect(slot4, function (slot0)
-			return slot0.id == uv0.id - 1
-		end))
+		setActive(slot0.buttonDown, tobool(slot4:getMapById(slot1.id + 1)))
+		setActive(slot0.buttonUp, tobool(slot4:getMapById(slot1.id - 1)))
 		LeanTween.cancel(go(slot0.buttonUp), true)
 		LeanTween.cancel(go(slot0.buttonDown), true)
 	end

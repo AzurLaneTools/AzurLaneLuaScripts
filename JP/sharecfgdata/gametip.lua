@@ -3357,6 +3357,11 @@ _G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
 }
 
 
+_G.pg.base.gametip.mail_takeAttachment_error_equipment_overlimit = {
+	tip = "下記報酬が所持可能数上限を越えているため、受け取ると自動で$1に変換されます。受け取りますか？"
+}
+
+
 _G.pg.base.gametip.mail_confirm_set_important_flag = {
 	tip = "メールを保護しますか？"
 }
@@ -12887,17 +12892,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ブリュンヒルデ」「ブリュッヒャー」常設実装！"
+	tip = "「ビスマルクZwei」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「マルセイエーズ」常設実装！"
+	tip = "「レーゲンスブルク」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「インプラカブル」「アーガス」常設実装！"
+	tip = "「ビスマルクZwei」「U-556(META)」常設実装！"
 }
 
 
@@ -26906,8 +26911,8 @@ _G.pg.base.gametip.tech_package_tip = {
 	tip = [[
 ※交換アイテムは１回しか購入できません
 ※交換アイテムのみを購入した場合、
-   交換アイテム＋強化ユニットセットを追加で
-   購入することはできません（強化ユニットセットは追加で購入できます）
+   交換アイテム＋強化ユニットセットを追加で
+   購入することはできません（強化ユニットセットは追加で購入できます）
 ※購入したアイテムはメールボックスに送られます]]
 }
 
@@ -49383,16 +49388,6 @@ _G.pg.base.gametip["260514_story_title_en"] = {
 }
 
 
-_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
-	tip = "麗しい休日"
-}
-
-
-_G.pg.base.gametip.Outpost_20260514_Detail = {
-	tip = "詳細確認"
-}
-
-
 _G.pg.base.gametip.mall_title = {
 	tip = "ゴールデン・ベイ"
 }
@@ -49847,6 +49842,26 @@ _G.pg.base.gametip.anniversary_nine_main_page = {
 
 _G.pg.base.gametip.refux_cg_title = {
 	tip = "指揮官応援"
+}
+
+
+_G.pg.base.gametip.shop_skin_already_inuse = {
+	tip = "適用中"
+}
+
+
+_G.pg.base.gametip.world_cruise_due_tips = {
+	tip = "$1はあと$2日後に終了する予定。報酬受取を忘れずに！"
+}
+
+
+_G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
+	tip = "麗しい休日"
+}
+
+
+_G.pg.base.gametip.Outpost_20260514_Detail = {
+	tip = "詳細確認"
 }
 
 

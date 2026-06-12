@@ -207,7 +207,7 @@ slot0.onListenerTrigger = function(slot0, slot1, slot2)
 			slot0.nextTriggerTime = slot0.limitTime
 		end
 	elseif slot1 == Live2DPainting.ON_ACTION_PLAY then
-		slot0.nextTriggerTime = slot0.limitTime <= 1 and slot0.limitTime or 1
+		slot0.nextTriggerTime = slot0.limitTime <= 0.2 and slot0.limitTime or 0.2
 	end
 end
 
@@ -1022,7 +1022,7 @@ slot0.updateTrigger = function(slot0)
 			slot0:onEventCallback(Live2DPainting.EVENT_GET_PARAMETER, {
 				name = slot0.actionTrigger.parameter and slot0.actionTrigger.parameter or slot0.parameterName
 			}, function (slot0)
-				print("获取到数值 " .. uv0 .. " = " .. slot0)
+				print("获取到数值 " .. uv0 .. " = " .. slot0, "匹配范围 = " .. uv1[1] .. " - " .. uv1[2])
 
 				if uv1[1] <= slot0 and slot0 < uv1[2] then
 					print("数值范围内，开始触发动作  = " .. tostring(uv2.id))

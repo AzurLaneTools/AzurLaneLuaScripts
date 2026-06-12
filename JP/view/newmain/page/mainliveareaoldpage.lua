@@ -5,19 +5,47 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0._academyBtn = slot0._tf:Find("school_btn")
-	slot0._haremBtn = slot0._tf:Find("backyard_btn")
-	slot0._commanderBtn = slot0._tf:Find("commander_btn")
+	slot1 = slot0._tf
+	slot0._academyBtn = slot1:Find("school_btn")
+	slot1 = slot0._tf
+	slot0._haremBtn = slot1:Find("backyard_btn")
+	slot1 = slot0._tf
+	slot0._commanderBtn = slot1:Find("commander_btn")
+	slot1 = pg.EasyRedDotMgr.GetInstance()
+	slot2 = slot0._haremBtn
+	slot0._haremTip = slot2:Find("tip")
+	slot2 = slot0._academyBtn
+	slot0._academyTip = slot2:Find("tip")
+	slot2 = slot0._commanderBtn
+	slot0._commanderTip = slot2:Find("tip")
 
-	pg.redDotHelper:AddNode(RedDotNode.New(slot0._haremBtn:Find("tip"), {
-		pg.RedDotMgr.TYPES.COURTYARD
-	}))
-	pg.redDotHelper:AddNode(SelfRefreshRedDotNode.New(slot0._academyBtn:Find("tip"), {
-		pg.RedDotMgr.TYPES.SCHOOL
-	}))
-	pg.redDotHelper:AddNode(SelfRefreshRedDotNode.New(slot0._commanderBtn:Find("tip"), {
-		pg.RedDotMgr.TYPES.COMMANDER
-	}))
+	slot1:RegisterRedDot(slot0._haremTip, {
+		"COURTYARD"
+	}, function (slot0)
+		setActive(slot0, getProxy(DormProxy):IsShowRedDot())
+	end)
+	slot1:RegisterRedDot(slot0._academyTip, {
+		"SCHOOL"
+	}, function (slot0)
+		setActive(slot0, getProxy(NavalAcademyProxy):IsShowTip())
+	end)
+	slot1:RegisterRedDot(slot0._commanderTip, {
+		"COMMANDER"
+	}, function (slot0)
+		if getProxy(PlayerProxy):getRawData().level < 40 then
+			setActive(slot0, false)
+
+			return
+		end
+
+		slot1 = getProxy(CommanderProxy):IsFinishAllBox()
+
+		if not LOCK_CATTERY then
+			setActive(slot0, slot1 or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse())
+		else
+			setActive(slot0, slot1)
+		end
+	end)
 end
 
 slot0.OnInit = function(slot0)
@@ -68,6 +96,11 @@ slot0.Hide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot1 = pg.EasyRedDotMgr.GetInstance()
+
+	slot1:UnRegisterRedDot(slot0._haremTip)
+	slot1:UnRegisterRedDot(slot0._academyTip)
+	slot1:UnRegisterRedDot(slot0._commanderTip)
 	slot0:Hide()
 end
 
