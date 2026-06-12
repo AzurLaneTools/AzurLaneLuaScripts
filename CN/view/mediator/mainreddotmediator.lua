@@ -29,7 +29,12 @@ slot0.GetNotifyDic = function(slot0)
 			MailProxy.UPDATE_ATTACHMENT_COUNT
 		},
 		BUILD = {
-			BuildShipProxy.TIMEUP
+			BuildShipProxy.TIMEUP,
+			BuildShipProxy.UPDATED,
+			BuildShipProxy.REMOVED,
+			GAME.BUILD_SHIP_IMMEDIATELY_DONE,
+			GAME.GET_SHIP_DONE,
+			GAME.CONFIRM_GET_SHIP
 		},
 		GUILD = {
 			GuildProxy.GUILD_UPDATED,
