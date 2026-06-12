@@ -5302,7 +5302,7 @@ _G.pg.base.weapon_property_2[184100] = {
 
 _G.pg.base.weapon_property_2[184101] = {
 	torpedo_ammo = 0,
-	type = 1,
+	type = 2,
 	fire_fx = "",
 	recover_time = 0,
 	charge_param = "",

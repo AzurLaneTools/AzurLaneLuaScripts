@@ -15,6 +15,7 @@ slot0.OnFirstFlush = function(slot0)
 			mediator = MallAwardMediator,
 			viewComponent = MallAwardLayer,
 			data = {
+				awardHandledByParent = true,
 				onExit = function ()
 					uv0:refreshRed()
 				end
