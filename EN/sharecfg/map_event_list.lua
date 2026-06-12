@@ -383,6 +383,20 @@ pg.map_event_list.all = {
 	2100534,
 	2100535,
 	2100536,
+	2100582,
+	2100583,
+	2100584,
+	2100585,
+	2100586,
+	2100587,
+	2100588,
+	2100592,
+	2100593,
+	2100594,
+	2100595,
+	2100596,
+	2100597,
+	2100598,
 	2200071,
 	2200072,
 	2200073,
@@ -6423,6 +6437,212 @@ end)()
 		},
 		help_pictures = {}
 	}
+	pg.base.map_event_list[2100582] = {
+		help_open = 1,
+		chapter_id = 2100582,
+		event_list = {
+			801,
+			802,
+			807
+		},
+		event_list_loop = {
+			801,
+			804
+		},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100583] = {
+		help_open = 0,
+		chapter_id = 2100583,
+		event_list = {
+			801,
+			802,
+			809
+		},
+		event_list_loop = {
+			801,
+			804
+		},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100584] = {
+		help_open = 0,
+		chapter_id = 2100584,
+		event_list = {
+			801,
+			802,
+			810
+		},
+		event_list_loop = {
+			801,
+			805
+		},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100585] = {
+		help_open = 0,
+		chapter_id = 2100585,
+		event_list = {
+			801,
+			802,
+			811
+		},
+		event_list_loop = {
+			801,
+			805
+		},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100586] = {
+		help_open = 0,
+		chapter_id = 2100586,
+		event_list = {
+			801,
+			806
+		},
+		event_list_loop = {
+			801,
+			806
+		},
+		help_pictures = {}
+	}
+	pg.base.map_event_list[2100587] = {
+		help_open = 0,
+		chapter_id = 2100587,
+		event_list = {
+			801,
+			802,
+			808
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100588] = {
+		help_open = 0,
+		chapter_id = 2100588,
+		event_list = {
+			801,
+			802,
+			812
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100592] = {
+		help_open = 1,
+		chapter_id = 2100592,
+		event_list = {
+			801,
+			802,
+			807
+		},
+		event_list_loop = {
+			801,
+			804
+		},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100593] = {
+		help_open = 0,
+		chapter_id = 2100593,
+		event_list = {
+			801,
+			802,
+			809
+		},
+		event_list_loop = {
+			801,
+			804
+		},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100594] = {
+		help_open = 0,
+		chapter_id = 2100594,
+		event_list = {
+			801,
+			802,
+			810
+		},
+		event_list_loop = {
+			801,
+			805
+		},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100595] = {
+		help_open = 0,
+		chapter_id = 2100595,
+		event_list = {
+			801,
+			802,
+			811
+		},
+		event_list_loop = {
+			801,
+			805
+		},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100596] = {
+		help_open = 0,
+		chapter_id = 2100596,
+		event_list = {
+			801,
+			806
+		},
+		event_list_loop = {
+			801,
+			806
+		},
+		help_pictures = {}
+	}
+	pg.base.map_event_list[2100597] = {
+		help_open = 0,
+		chapter_id = 2100597,
+		event_list = {
+			801,
+			802,
+			808
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
+	pg.base.map_event_list[2100598] = {
+		help_open = 0,
+		chapter_id = 2100598,
+		event_list = {
+			801,
+			802,
+			812
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_bisimaiz"
+		}
+	}
 	pg.base.map_event_list[2200071] = {
 		help_open = 1,
 		chapter_id = 2200071,
@@ -6483,6 +6703,8 @@ end)()
 			"helpbg/coastalgun_2"
 		}
 	}
+end)()
+(function ()
 	pg.base.map_event_list[2200082] = {
 		help_open = 0,
 		chapter_id = 2200082,

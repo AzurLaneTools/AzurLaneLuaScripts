@@ -64,6 +64,7 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 1,
+				hpSigned = 0,
 				skill_id = 16050,
 				hpLowerBound = 0.4
 			}
@@ -75,8 +76,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 0.4,
 				skill_id = 16051,
-				hpUpperBound = 0.4
+				hpSigned = 0
 			}
 		}
 	}

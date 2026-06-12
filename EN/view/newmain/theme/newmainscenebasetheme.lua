@@ -18,8 +18,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.wordView = slot0:GetWordView()
 	slot0.changeView = slot0:GetChangeSkinView()
 	slot0.asmrChatView = slot0:GetAsmrChatView()
-
-	pg.redDotHelper:Init(slot0:GetRedDots())
+	slot0.redDotUIList = slot0:RegisterRedDots()
 end
 
 slot0.Show = function(slot0, slot1)
@@ -208,7 +207,15 @@ slot0.OnDestroy = function(slot0)
 		slot0.asmrChatView = nil
 	end
 
-	pg.redDotHelper:Clear()
+	slot1 = pg.EasyRedDotMgr.GetInstance()
+	slot2 = ipairs
+	slot3 = slot0.redDotUIList or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot1:UnRegisterRedDot(slot6)
+	end
+
+	slot0.redDotUIList = nil
 end
 
 slot0.GetPbList = function(slot0)
@@ -289,7 +296,7 @@ slot0.GetAsmrChatView = function(slot0)
 	assert(false)
 end
 
-slot0.GetRedDots = function(slot0)
+slot0.RegisterRedDots = function(slot0)
 	return {}
 end
 

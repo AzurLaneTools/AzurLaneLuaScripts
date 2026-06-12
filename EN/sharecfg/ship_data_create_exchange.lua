@@ -59,7 +59,8 @@ pg.base.ship_data_create_exchange = {}
 			205131,
 			305101,
 			107101,
-			207071
+			207071,
+			405051
 		}
 	}
 	pg.base.ship_data_create_exchange[4620] = {

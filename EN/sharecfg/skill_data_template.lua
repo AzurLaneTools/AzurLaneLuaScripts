@@ -2911,6 +2911,8 @@ pg.skill_data_template.all = {
 	902360,
 	902370,
 	902380,
+	902390,
+	902400,
 	1010140,
 	1010270,
 	1010390,
@@ -3025,6 +3027,10 @@ pg.skill_data_template.all = {
 	1014140,
 	1019260,
 	1014170,
+	1012470,
+	1010800,
+	1019300,
+	1018300,
 	1090010,
 	1090020,
 	1090030,
@@ -3067,7 +3073,9 @@ pg.skill_data_template.all = {
 	1090430,
 	1090450,
 	1090440,
-	1090460
+	1090460,
+	1090470,
+	1090480
 }
 pg.base = pg.base or {}
 pg.base.skill_data_template = {}
@@ -144655,7 +144663,9 @@ end)()
 		max_level = 1,
 		desc = "When this boat's OXY reaches 0 and she resurfaces: activates All Out Assault - I-404 I and decreases this boat's DMG taken by 20.0% for 5s.",
 		id = 30521,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 30527
+		},
 		world_death_mark = {
 			1
 		},
@@ -144669,7 +144679,9 @@ end)()
 		max_level = 1,
 		desc = "When this boat's OXY reaches 0 and she resurfaces: activates All Out Assault - I-404 II and decreases this boat's DMG taken by 40.0% for 5s.",
 		id = 30522,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 30528
+		},
 		world_death_mark = {
 			1
 		},
@@ -144879,7 +144891,9 @@ end)()
 		max_level = 1,
 		desc = "When this boat's OXY reaches 0 and she resurfaces, activates All Out Assault I: U-2501.",
 		id = 30601,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 30603
+		},
 		world_death_mark = {
 			1
 		},
@@ -144893,7 +144907,9 @@ end)()
 		max_level = 1,
 		desc = "When this boat's OXY reaches 0 and she resurfaces, activates All Out Assault II: U-2501.",
 		id = 30602,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 30604
+		},
 		world_death_mark = {
 			1
 		},
@@ -193235,6 +193251,34 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[902390] = {
+		desc_get = "",
+		name = "Rapid Triangulation",
+		type = 3,
+		max_level = 1,
+		desc = "Increases this ship's Main Gun efficiency by 10.0%.",
+		id = 902390,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[902400] = {
+		desc_get = "",
+		name = "Privateer's Heroism",
+		type = 1,
+		max_level = 1,
+		desc = "Increases this ship's Main Gun efficiency by 10.0% and additionally grants the effects of Slash Attack - Spread: The ship in the frontmost position of your Vanguard performs a slash attack. Slash attack pattern, range, and DMG are based on the number of ships equipped with slash attack gear, the ships' hull type, and the equipped module's effects.",
+		id = 902400,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[1010140] = {
 		desc_get = "",
 		name = "Eagle's Tears+",
@@ -205094,6 +205138,8 @@ When this ship's Divine Marksman barrage activates, if there is an enemy with th
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1010720] = {
 		desc_get = "",
 		name = "Guarding Shield+",
@@ -205486,8 +205532,6 @@ When this ship's Divine Marksman barrage activates, if there is an enemy with th
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1019030] = {
 		desc_get = "",
 		name = "Monarch's Coercion+",
@@ -206586,47 +206630,7 @@ end)()
 			}
 		},
 		desc_add = {
-			{
-				{
-					"1.0%",
-					"+1.0%"
-				},
-				{
-					"2.0%",
-					"+1.0%"
-				},
-				{
-					"3.0%",
-					"+1.0%"
-				},
-				{
-					"4.0%",
-					"+1.0%"
-				},
-				{
-					"5.0%",
-					"+1.0%"
-				},
-				{
-					"6.0%",
-					"+1.0%"
-				},
-				{
-					"7.0%",
-					"+1.0%"
-				},
-				{
-					"8.0%",
-					"+1.0%"
-				},
-				{
-					"9.0%",
-					"+1.0%"
-				},
-				{
-					"10.0%"
-				}
-			},
+			cc,
 			{
 				{
 					"5.0%",
@@ -208786,6 +208790,684 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 				},
 				{
 					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1012470] = {
+		desc_get = "",
+		name = "Double The Gato+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this boat's DMG dealt to CVs by $1. At the start of battle, if there are any other Gato-class submarines in the same fleet: increases this boat's Torpedo DMG by $3. When this boat surfaces due to running out of OXY or when leaving the battle: fires a $2 special torpedo barrage (DMG is based on the skill's level); when sortied with any version of Albacore in the same fleet: torpedoes from this skill's barrage will always critically strike, dealing 20.0% increased Crit DMG.",
+		id = 1012470,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.2%"
+				},
+				{
+					"6.2%",
+					"+1.2%"
+				},
+				{
+					"7.4%",
+					"+1.6%"
+				},
+				{
+					"9.0%",
+					"+1.5%"
+				},
+				{
+					"10.5%",
+					"+1.5%"
+				},
+				{
+					"12.0%",
+					"+2.0%"
+				},
+				{
+					"14.0%",
+					"+1.8%"
+				},
+				{
+					"15.8%",
+					"+1.8%"
+				},
+				{
+					"17.6%",
+					"+2.4%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1010800] = {
+		desc_get = "",
+		name = "Fifth Carrier Division+",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's AVI by $1 and Crit Rate by $2. Every 20s: launches a $3 special airstrike (DMG is based on the skill's level); when sortied with any version of Shoukaku in the same fleet: reduces this ship's DMG taken by $1.",
+		id = 1010800,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"8.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"LV1",
+				"LV10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"8.0%",
+					"+1.2%"
+				},
+				{
+					"9.2%",
+					"+1.2%"
+				},
+				{
+					"10.4%",
+					"+1.6%"
+				},
+				{
+					"12.0%",
+					"+1.2%"
+				},
+				{
+					"13.2%",
+					"+1.2%"
+				},
+				{
+					"14.4%",
+					"+1.6%"
+				},
+				{
+					"16.0%",
+					"+1.2%"
+				},
+				{
+					"17.2%",
+					"+1.2%"
+				},
+				{
+					"18.4%",
+					"+1.6%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1019300] = {
+		desc_get = "",
+		name = "Flintlock Burst (A)",
+		type = 3,
+		max_level = 10,
+		desc = "Every 10s: activates a $4 Steelflash Judgment special attack (DMG is based on the skill's level). Every $1s: fires a special barrage that ignores enemy shields and heals this ship for 15.0% of the DMG dealt (barrage DMG is based on the skill's level). When this ship sinks an enemy: increases this ship's FP and EVA by $2 and RLD by $3 until the end of the battle. Can be stacked up to 3 times; if this ship is in the frontmost position of your Vanguard at the start of the battle: immediately gives all 3 stacks of this buff.",
+		id = 1019300,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30",
+				"20"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"1.5%",
+				"7.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30",
+					"-1"
+				},
+				{
+					"29",
+					"-1"
+				},
+				{
+					"28",
+					"-1"
+				},
+				{
+					"27",
+					"-1"
+				},
+				{
+					"26",
+					"-1"
+				},
+				{
+					"25",
+					"-1"
+				},
+				{
+					"24",
+					"-1"
+				},
+				{
+					"23",
+					"-1"
+				},
+				{
+					"22",
+					"-2"
+				},
+				{
+					"20"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.6%"
+				},
+				{
+					"2.1%",
+					"+0.6%"
+				},
+				{
+					"2.7%",
+					"+0.6%"
+				},
+				{
+					"3.3%",
+					"+0.6%"
+				},
+				{
+					"3.9%",
+					"+0.6%"
+				},
+				{
+					"4.5%",
+					"+0.6%"
+				},
+				{
+					"5.1%",
+					"+0.6%"
+				},
+				{
+					"5.7%",
+					"+0.6%"
+				},
+				{
+					"6.3%",
+					"+0.7%"
+				},
+				{
+					"7.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1018300] = {
+		desc_get = "",
+		name = "Flintlock Burst (A)+",
+		type = 3,
+		max_level = 10,
+		desc = "Every 10s: activates a $4 Steelflash Judgment special attack (DMG is based on the skill's level). Every $1s: fires a special barrage that ignores enemy shields and heals this ship for 20.0% of the DMG dealt (barrage DMG is based on the skill's level). When this ship sinks an enemy: increases this ship's FP and EVA by $2 and RLD by $3 until the end of the battle. Whenever an allied flagship launches an airstrike or fires a Main Gun salvo: activates a $4 Burstfire Judgment special attack (DMG is based on the skill's level; 5s cooldown between activations).",
+		id = 1018300,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30",
+				"20"
+			},
+			{
+				"3.0%",
+				"15.0%"
+			},
+			{
+				"4.5%",
+				"21.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30",
+					"-1"
+				},
+				{
+					"29",
+					"-1"
+				},
+				{
+					"28",
+					"-1"
+				},
+				{
+					"27",
+					"-1"
+				},
+				{
+					"26",
+					"-1"
+				},
+				{
+					"25",
+					"-1"
+				},
+				{
+					"24",
+					"-1"
+				},
+				{
+					"23",
+					"-1"
+				},
+				{
+					"22",
+					"-2"
+				},
+				{
+					"20"
+				}
+			},
+			{
+				{
+					"3.0%",
+					"+1.2%"
+				},
+				{
+					"4.2%",
+					"+1.2%"
+				},
+				{
+					"5.4%",
+					"+1.2%"
+				},
+				{
+					"6.6%",
+					"+1.2%"
+				},
+				{
+					"7.8%",
+					"+1.2%"
+				},
+				{
+					"9.0%",
+					"+1.5%"
+				},
+				{
+					"10.5%",
+					"+1.5%"
+				},
+				{
+					"12.0%",
+					"+1.5%"
+				},
+				{
+					"13.5%",
+					"+1.5%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+1.8%"
+				},
+				{
+					"6.3%",
+					"+1.8%"
+				},
+				{
+					"8.1%",
+					"+1.8%"
+				},
+				{
+					"9.9%",
+					"+1.8%"
+				},
+				{
+					"11.7%",
+					"+1.8%"
+				},
+				{
+					"13.5%",
+					"+1.8%"
+				},
+				{
+					"15.3%",
+					"+1.8%"
+				},
+				{
+					"17.1%",
+					"+1.8%"
+				},
+				{
+					"18.9%",
+					"+2.1%"
+				},
+				{
+					"21.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}
@@ -214339,6 +215021,479 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 				},
 				{
 					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1090470] = {
+		desc_get = "",
+		name = "Quick Reload - Kisaragi",
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: $1 chance to increase this ship's FP and RLD by $2 for 10s. Once per battle, when this ship's HP falls below 20.0% as a result of DMG taken: restores $3 of this ship's Max HP.",
+		id = 1090470,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"15.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1090480] = {
+		desc_get = "",
+		name = "Pocket Battleship - Deutschland",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's DMG dealt to DDs and CLs by $1. If there are other Iron Blood ships in the same fleet: increases those ship's FP, TRP, EVA, ACC, and AA by $7.\nAt the start of battle, if this ship is in the frontmost position of the Vanguard: increases this ship's EVA by $2, Main Gun Crit Rate by $3, Main Gun Crit DMG by $3, and reduces her DMG taken by $4 until the end of battle; if this ship is in any other position: increases this ship's FP and TRP by $5 until the end of battle, and fires a $6 special barrage every 15s that penetrates shields (DMG is based on the skill's level).",
+		id = 1090480,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"35.0%"
+			},
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"1.0%",
+				"3.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+2.2%"
+				},
+				{
+					"17.2%",
+					"+2.2%"
+				},
+				{
+					"19.4%",
+					"+2.2%"
+				},
+				{
+					"21.6%",
+					"+2.2%"
+				},
+				{
+					"23.8%",
+					"+2.2%"
+				},
+				{
+					"26.0%",
+					"+2.2%"
+				},
+				{
+					"28.2%",
+					"+2.2%"
+				},
+				{
+					"30.4%",
+					"+2.2%"
+				},
+				{
+					"32.6%",
+					"+2.4%"
+				},
+				{
+					"35.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
 				}
 			}
 		}

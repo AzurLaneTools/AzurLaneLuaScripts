@@ -871,7 +871,7 @@ Over 3000 points: 260 Game Tickets]]
 		game_help = {
 			{
 				info = [[
-- Operation: Patisserie II Overview -
+- Operation: Patisserie Overview -
 See what the manjuus want to order, then pick out the correct dessert from the left side of the screen by tapping on it.
 Completing orders correctly scores you points. Try to get as high a score as possible before the timer runs out.
 

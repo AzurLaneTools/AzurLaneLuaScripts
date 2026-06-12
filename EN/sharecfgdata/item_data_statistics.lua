@@ -49497,53 +49497,6 @@ _G.pg.base.item_data_statistics[40070] = {
 }
 
 
-_G.pg.base.item_data_statistics[40071] = {
-	open_directly = 1,
-	name = "General Build Supply Pack",
-	type = 17,
-	display = "Contains loads of valuable rewards.",
-	other_resource_cost = "[]",
-	replace_item = 0,
-	usage = "usage_drop",
-	display_effect = "OpenBox",
-	link_id = 0,
-	is_world = 0,
-	icon = "Props/web_2511_1",
-	order = 0,
-	rarity = 4,
-	max_num = 0,
-	time_limit = 0,
-	virtual_type = 0,
-	other_item_cost = "[]",
-	usage_arg = "4072",
-	id = 40071,
-	compose_number = 0,
-	target_id = 0,
-	display_icon = {
-		{
-			2,
-			20001,
-			100
-		},
-		{
-			1,
-			1,
-			75000
-		},
-		{
-			2,
-			15003,
-			50
-		}
-	},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {},
-	limit = {}
-}
-
-
 _G.pg.base.item_data_statistics[40074] = {
 	open_directly = 1,
 	name = "Battle UI Pack – Maid Café (Basic)",

@@ -24956,6 +24956,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -25388,6 +25399,17 @@ end)()
 				"Event: Confluence of Nothingness",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -26605,6 +26627,28 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"Heavy/Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"UR Exchange",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -26785,6 +26829,16 @@ end)()
 				"Event: Confluence of Nothingness",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -38171,11 +38225,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9705011
+						warp = "meta"
 					}
 				},
 				0
@@ -38206,11 +38260,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9706011
+						warp = "meta"
 					}
 				},
 				0
@@ -38276,11 +38330,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9706021
+						warp = "meta"
 					}
 				},
 				0
@@ -38346,11 +38400,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9705011
+						warp = "meta"
 					}
 				},
 				0
@@ -38381,11 +38435,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702021
+						warp = "meta"
 					}
 				},
 				0
@@ -38451,11 +38505,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9703011
+						warp = "meta"
 					}
 				},
 				0
@@ -38521,11 +38575,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701011
+						warp = "meta"
 					}
 				},
 				0
@@ -38556,11 +38610,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701021
+						warp = "meta"
 					}
 				},
 				0
@@ -38626,11 +38680,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702031
+						warp = "meta"
 					}
 				},
 				0
@@ -38696,11 +38750,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702041
+						warp = "meta"
 					}
 				},
 				0
@@ -38736,6 +38790,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -38763,11 +38828,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9712011
+						warp = "meta"
 					}
 				},
 				0
@@ -38833,11 +38898,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"Event: Cruise Missions",
+				"META Shop Exchange",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701031
+						warp = "meta"
 					}
 				},
 				0

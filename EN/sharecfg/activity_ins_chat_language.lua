@@ -9753,7 +9753,80 @@ pg.activity_ins_chat_language.all = {
 	9748,
 	9749,
 	9750,
-	9751
+	9751,
+	9752,
+	9753,
+	9754,
+	9755,
+	9756,
+	9757,
+	9758,
+	9759,
+	9760,
+	9761,
+	9762,
+	9763,
+	9764,
+	9765,
+	9766,
+	9767,
+	9768,
+	9769,
+	9770,
+	9771,
+	9772,
+	9773,
+	9774,
+	9775,
+	9776,
+	9777,
+	9778,
+	9779,
+	9780,
+	9781,
+	9782,
+	9783,
+	9784,
+	9785,
+	9786,
+	9787,
+	9788,
+	9789,
+	9790,
+	9791,
+	9792,
+	9793,
+	9794,
+	9795,
+	9796,
+	9797,
+	9798,
+	9799,
+	9800,
+	9801,
+	9802,
+	9803,
+	9804,
+	9805,
+	9806,
+	9807,
+	9808,
+	9809,
+	9810,
+	9811,
+	9812,
+	9813,
+	9814,
+	9815,
+	9816,
+	9817,
+	9818,
+	9819,
+	9820,
+	9821,
+	9822,
+	9823,
+	9824
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -95935,5 +96008,650 @@ end)()
 		type = 5,
 		id = 9751,
 		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9752] = {
+		param = "Commander, we will be hosting a tea party in the banquet hall at 7 tomorrow evening.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9752,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9753] = {
+		param = "I, Le Malin, cordially invite you to join us at this gathering.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9753,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9754] = {
+		param = "I do hope to see you there.",
+		ship_group = 90111,
+		type = 1,
+		id = 9754,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Sounds good. I happen to have some free time."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9755] = {
+		param = "Sounds good. I happen to have some free time.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9755,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9756] = {
+		param = "Screenshotted, and sent. Mission accomplished~",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9756,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9757] = {
+		param = "*yawn*... Eepy...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9757,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9758] = {
+		param = "So, Commander, got any questions?",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9758,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9759] = {
+		param = "If not, I'm going to sleep. So please say no.",
+		ship_group = 90111,
+		type = 1,
+		id = 9759,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I do, actually. Will I get to enjoy tea brewed by you?"
+			},
+			{
+				3,
+				"I do, actually. Will I get to try your sweets?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9760] = {
+		param = "I do, actually. Will I get to enjoy tea brewed by you?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9760,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9761] = {
+		param = "I do, actually. Will I get to try your sweets?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9761,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9762] = {
+		param = "57",
+		ship_group = 90111,
+		option = "",
+		type = 4,
+		id = 9762,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9763] = {
+		param = "My only job was to \"invite the Commander with utmost elegance.\"",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9763,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9764] = {
+		param = "But, like... showing up to a tea party would require me to put on airs the whole time.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9764,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9765] = {
+		param = "The very thought is tiring me out...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9765,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9766] = {
+		param = "To make matters worse, the other girls like setting up a whole bunch of interactive games for us to play.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9766,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9767] = {
+		param = "In other words, it's a huge pain in the rear. So fortunately, I'm gonna have to pass.",
+		ship_group = 90111,
+		type = 1,
+		id = 9767,
+		flag = 0,
+		option = {
+			{
+				4,
+				"That's a shame."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9768] = {
+		param = "That's a shame. I was just thinking about bringing a little prize for the games– something I'm sure you'd enjoy.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9768,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9769] = {
+		param = "Something I'd enjoy?",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9769,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9770] = {
+		param = "Surely you don't mean...!",
+		ship_group = 90111,
+		type = 1,
+		id = 9770,
+		flag = 4,
+		option = {
+			{
+				5,
+				"Who knows?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9771] = {
+		param = "Who knows? Your odds might be pretty good.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9771,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[9772] = {
+		param = "While we're on that topic, there are a few games that actually seem interesting.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9772,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[9773] = {
+		param = "See you at tomorrow's party!",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9773,
+		flag = 5
+	}
+	pg.base.activity_ins_chat_language[9774] = {
+		param = "Sleepy...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9774,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9775] = {
+		param = "Wanna laze around...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9775,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9776] = {
+		param = "Wanna go to bed...",
+		ship_group = 90111,
+		type = 1,
+		id = 9776,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Same."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9777] = {
+		param = "Same.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9777,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9778] = {
+		param = "Why does staying elegant drain so much energy... It's like I have to watch my every step as soon as I go out...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9778,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9779] = {
+		param = "Like when I'm super sleepy...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9779,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9780] = {
+		param = "I can't even yawn without being discreet about it.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9780,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9781] = {
+		param = "What would happen if I accidentally conked out...?",
+		ship_group = 90111,
+		type = 1,
+		id = 9781,
+		flag = 1,
+		option = {
+			{
+				2,
+				"If that ever happened..."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9782] = {
+		param = "If that ever happened, I'd just say that you stayed up late working overtime with me.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9782,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9783] = {
+		param = "Woah, you'd cover for me? Thanks...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9783,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9784] = {
+		param = "But, an excuse like that would only work once. Twice if we're lucky.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9784,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9785] = {
+		param = "Besides... if I accidentally fell asleep, my sleeping power levels would be revealed to the world!",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9785,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9786] = {
+		param = "All it takes is a single pose not being elegant enough...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9786,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9787] = {
+		param = "In any case, I'm gonna need an easy way to wake myself up...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9787,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9788] = {
+		param = "Commander, come up with something for me, fast!",
+		ship_group = 90111,
+		type = 1,
+		id = 9788,
+		flag = 2,
+		option = {
+			{
+				3,
+				"How about extremely bitter coffee?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9789] = {
+		param = "How about extremely bitter coffee? Plug your nose and chug it down, and that should do the trick.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9789,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9790] = {
+		param = "42",
+		ship_group = 90111,
+		option = "",
+		type = 4,
+		id = 9790,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9791] = {
+		param = "Are you serious? Can't come up with anything better?",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9791,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9792] = {
+		param = "You KNOW I can't stand bitter things, right?",
+		ship_group = 90111,
+		type = 1,
+		id = 9792,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Let's try a different angle..."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9793] = {
+		param = "Let's try tackling this from a different angle. If you just have to stay elegant...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9793,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9794] = {
+		param = "What about coming up with a sleeping pose that is elegant beyond reproach?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9794,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9795] = {
+		param = "...A low-energy way of staying elegant!",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9795,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9796] = {
+		param = "Commander, are you a genius or something?!",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9796,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9797] = {
+		param = "I suddenly feel super motivated! Time to practice sleeping in your office right this instant!",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9797,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9798] = {
+		param = "But as for how to do that elegantly, I'll leave that up to you, Commander.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9798,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9799] = {
+		param = "20",
+		ship_group = 90111,
+		option = "",
+		type = 4,
+		id = 9799,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[9800] = {
+		param = "Commander, I need your help.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9800,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9801] = {
+		param = "Please give me a wake-up call after you get up in the morning.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9801,
+		flag = 0
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[9802] = {
+		param = "And don't hang up until you're a hundred percent sure that I'm up.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9802,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[9803] = {
+		param = "Otherwise, I might just go back to sleep...",
+		ship_group = 90111,
+		type = 1,
+		id = 9803,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Tomorrow? Don't you have the day off?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9804] = {
+		param = "Tomorrow? Don't you have the day off?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9804,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9805] = {
+		param = "You're not going to spend that time getting some extra rest?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9805,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9806] = {
+		param = "But, you're going to be working all day tomorrow.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9806,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9807] = {
+		param = "I want to keep you company.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9807,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9808] = {
+		param = "Even though it's supposed to be a holiday, you're going to be all alone in the office...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9808,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[9809] = {
+		param = "The very thought makes my heart ache...",
+		ship_group = 90111,
+		type = 1,
+		id = 9809,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Thanks for thinking of me."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9810] = {
+		param = "Thanks for thinking of me.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9810,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9811] = {
+		param = "Your kind thoughts are already enough. I just want you to get some good rest.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9811,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9812] = {
+		param = "You don't get it, Commander...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9812,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9813] = {
+		param = "Rather than being stuck in my room by myself...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9813,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9814] = {
+		param = "I'd prefer to slack off right beside you!",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9814,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9815] = {
+		param = "Err, oops. Ignore that typo.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9815,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[9816] = {
+		param = "As the poisoned blade that protects you, of course it would be better to remain at your side!",
+		ship_group = 90111,
+		type = 1,
+		id = 9816,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Typo, huh?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[9817] = {
+		param = "A common typo. The keys are like right next to each other, after all...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 9817,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9818] = {
+		param = "Anyways...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9818,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9819] = {
+		param = "I shall assist with your duties.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9819,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9820] = {
+		param = "That way, I can remain by your side all day long.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9820,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9821] = {
+		param = "But as a reward for my efforts, please take me to a nice restaurant after we're done.",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9821,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9822] = {
+		param = "Also, after a day of hard work, I'll probably be so tired I won't be able to walk...",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9822,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9823] = {
+		param = "So when that time comes, I'll be counting on you to give me a piggyback ride~♪",
+		ship_group = 90111,
+		option = "",
+		type = 1,
+		id = 9823,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[9824] = {
+		param = "66",
+		ship_group = 90111,
+		option = "",
+		type = 4,
+		id = 9824,
+		flag = 3
 	}
 end)()

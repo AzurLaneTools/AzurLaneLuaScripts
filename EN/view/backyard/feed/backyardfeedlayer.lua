@@ -86,7 +86,7 @@ slot0.InitCharChat = function(slot0, slot1)
 
 	slot0.chatTxt2.text = ""
 
-	if slot1:GetStateShipCnt(Ship.STATE_TRAIN) <= 0 then
+	if slot1:GetFloorShipCnt(DormShip.FLOOR_1) <= 0 then
 		slot0.chatTxt2.text = i18n("backyard_backyardGranaryLayer_noShip")
 	elseif slot1.food <= 0 then
 		slot0.chatTxt2.text = i18n("backyard_backyardGranaryLayer_word")

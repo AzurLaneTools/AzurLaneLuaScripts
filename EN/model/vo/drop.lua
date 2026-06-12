@@ -1024,7 +1024,10 @@ slot0.InitSwitch = function()
 				slot2.date = pg.TimeMgr.GetInstance():GetServerTime()
 			end
 
-			slot1:AddFurniture(slot2)
+			slot3 = slot1:getRawData()
+
+			slot3:AddFurniture(slot2)
+			slot1:updateDrom(slot3, BackYardConst.DORM_UPDATE_TYPE_FURNITURE)
 		end,
 		[DROP_TYPE_SKIN] = function (slot0)
 			getProxy(ShipSkinProxy):addSkin(ShipSkin.New({

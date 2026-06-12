@@ -3346,6 +3346,11 @@ _G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
 }
 
 
+_G.pg.base.gametip.mail_takeAttachment_error_equipment_overlimit = {
+	tip = "You are unable to hold any more of the following items, so they will automatically be converted to $1 upon receipt. Are you sure you want to continue?"
+}
+
+
 _G.pg.base.gametip.mail_confirm_set_important_flag = {
 	tip = "Mark as important"
 }
@@ -12983,17 +12988,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Brünhilde and Blücher added to standard build pool!"
+	tip = "Bismarck Zwei added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Marseillaise added to standard build pool!"
+	tip = "Regensburg and others added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Implacable and Argus added to standard build pool!"
+	tip = "Bismarck Zwei and U-556 META added to standard build pool!"
 }
 
 
@@ -49565,6 +49570,21 @@ _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_3 = {
 
 _G.pg.base.gametip.anniversary_nine_main_page = {
 	tip = "Commemoration"
+}
+
+
+_G.pg.base.gametip.refux_cg_title = {
+	tip = "Welcome Home"
+}
+
+
+_G.pg.base.gametip.shop_skin_already_inuse = {
+	tip = "In Use"
+}
+
+
+_G.pg.base.gametip.world_cruise_due_tips = {
+	tip = "$1 ends in $2 day(s). Please make sure to collect your rewards!"
 }
 
 

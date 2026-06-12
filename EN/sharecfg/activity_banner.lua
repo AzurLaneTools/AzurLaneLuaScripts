@@ -27,7 +27,6 @@ pg.activity_banner.get_id_list_by_type = {
 	[2] = {
 		1,
 		2,
-		3,
 		4,
 		5,
 		6,
@@ -35,6 +34,7 @@ pg.activity_banner.get_id_list_by_type = {
 		9
 	},
 	[3] = {
+		3,
 		8
 	},
 	[9] = {
@@ -75,7 +75,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					8
+					12
 				},
 				{
 					0,
@@ -87,7 +87,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					9
+					17
 				},
 				{
 					23,
@@ -98,78 +98,9 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[2] = {
+		time = "stop",
 		type = 2,
 		id = 2,
-		pic = "temp9",
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					6,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[3] = {
-		type = 2,
-		id = 3,
-		pic = "temp11",
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					6,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[4] = {
-		type = 2,
-		id = 4,
 		pic = "temp2",
 		param = {
 			"scene get boat",
@@ -177,112 +108,19 @@ pg.base.activity_banner = {}
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					12
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	}
-	pg.base.activity_banner[5] = {
-		type = 2,
-		id = 5,
-		pic = "temp3",
-		param = {
-			"scene core activity",
-			{
-				coreName = "GeZiURCoreActivityUI"
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					12
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
+	pg.base.activity_banner[3] = {
+		param = "51005",
+		time = "stop",
+		type = 3,
+		id = 3,
+		pic = "temp3"
 	}
-	pg.base.activity_banner[6] = {
+	pg.base.activity_banner[4] = {
 		type = 2,
-		id = 6,
+		id = 4,
 		pic = "temp4",
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					5,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[7] = {
-		type = 2,
-		id = 7,
-		pic = "temp5",
 		param = {
 			"scene charge",
 			{
@@ -294,7 +132,69 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					5
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[5] = {
+		time = "stop",
+		type = 2,
+		id = 5,
+		pic = "temp5",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+	pg.base.activity_banner[6] = {
+		time = "stop",
+		type = 2,
+		id = 6,
+		pic = "temp6",
+		param = {
+			"scene core activity",
+			{
+				coreName = "OutPostCoreActivityUI"
+			}
+		}
+	}
+	pg.base.activity_banner[7] = {
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					12
 				},
 				{
 					0,
@@ -317,16 +217,16 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[8] = {
-		param = "50630",
+		param = "51021",
 		type = 3,
 		id = 8,
-		pic = "temp6",
+		pic = "temp8",
 		time = {
 			{
 				{
 					2026,
 					6,
-					5
+					12
 				},
 				{
 					0,
@@ -338,12 +238,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					12
+					17
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -351,16 +251,20 @@ pg.base.activity_banner = {}
 	pg.base.activity_banner[9] = {
 		type = 2,
 		id = 9,
-		pic = "temp7",
+		pic = "temp9",
 		param = {
-			"metacharacter"
+			"scene level",
+			{
+				open_remaster = true,
+				isEX = true
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					6,
-					5
+					12
 				},
 				{
 					0,
@@ -372,12 +276,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					12
+					17
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -405,35 +309,10 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
-		time = {
-			{
-				{
-					2026,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "limit_skin"
 	}
 	pg.base.activity_banner[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",

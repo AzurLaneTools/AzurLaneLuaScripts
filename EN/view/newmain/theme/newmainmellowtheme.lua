@@ -14,11 +14,7 @@ slot0.OnLoaded = function(slot0)
 
 	onToggle(slot0, slot0.switcher, function (slot0)
 		uv0.switcherAnimationPlayer:Play(slot0 and "anim_newmain_switch_1to2" or "anim_newmain_switch_2to1")
-		_.each(_.select(uv0:GetRedDots(), function (slot0)
-			return isa(slot0, SwitcherRedDotNode)
-		end), function (slot0)
-			slot0:RefreshSelf()
-		end)
+		pg.EasyRedDotMgr.GetInstance():TriggerMarks("COLLECTION", "FRIEND", "MEMORY_REVIEW", "EVENT")
 	end, SFX_PANEL)
 	slot0:Register()
 end
@@ -179,62 +175,185 @@ slot0.OnAsmrTurnning = function(slot0, slot1)
 	setActive(findTF(slot0._tf, "s"), not slot1)
 end
 
-slot0.GetRedDots = function(slot0)
-	return {
-		RedDotNode.New(slot0._tf:Find("frame/bottom/frame/task/tip"), {
-			pg.RedDotMgr.TYPES.TASK
-		}),
-		MailRedDotNode4Mellow.New(slot0._tf:Find("frame/top/btns/mail")),
-		RedDotNode.New(slot0._tf:Find("frame/bottom/frame/build/tip"), {
-			pg.RedDotMgr.TYPES.BUILD
-		}),
-		RedDotNode.New(slot0._tf:Find("frame/bottom/frame/guild/tip"), {
-			pg.RedDotMgr.TYPES.GUILD
-		}),
-		RedDotNode.New(slot0._tf:Find("frame/top/icon_front/tip"), {
-			pg.RedDotMgr.TYPES.ATTIRE
-		}),
-		RedDotNode.New(slot0._tf:Find("frame/right/2/menor/root/tip"), {
-			pg.RedDotMgr.TYPES.MEMORY_REVIEW
-		}),
-		RedDotNode.New(slot0._tf:Find("frame/right/2/collection/root/tip"), {
-			pg.RedDotMgr.TYPES.COLLECTION
-		}),
-		RedDotNode.New(slot0._tf:Find("frame/right/2/friend/root/tip"), {
-			pg.RedDotMgr.TYPES.FRIEND
-		}),
-		RedDotNode.New(slot0._tf:Find("frame/left/extend/tip"), {
-			pg.RedDotMgr.TYPES.COMMISSION
-		}),
-		SettingsRedDotNode.New(slot0._tf:Find("frame/top/btns/settings/tip"), {
-			pg.RedDotMgr.TYPES.SETTTING
-		}),
-		RedDotNode.New(slot0._tf:Find("frame/top/btns/noti/tip"), {
-			pg.RedDotMgr.TYPES.SERVER
-		}),
-		RedDotNode.New(slot0._tf:Find("frame/bottom/frame/tech/tip"), {
-			pg.RedDotMgr.TYPES.BLUEPRINT
-		}),
-		RedDotNode.New(slot0._tf:Find("frame/right/1/battle/root/tip"), {
-			pg.RedDotMgr.TYPES.EVENT
-		}),
-		RedDotNode.New(slot0._tf:Find("frame/bottom/frame/live/tip"), {
-			pg.RedDotMgr.TYPES.COURTYARD,
-			pg.RedDotMgr.TYPES.SCHOOL,
-			pg.RedDotMgr.TYPES.COMMANDER,
-			pg.RedDotMgr.TYPES.DORM3D_SHOP_TIMELIMIT,
-			pg.RedDotMgr.TYPES.EDUCATE_NEW_CHILD,
-			pg.RedDotMgr.TYPES.ISLAND_3D
-		}),
-		SwitcherRedDotNode.New(slot0._tf:Find("frame/right/switch"), {
-			pg.RedDotMgr.TYPES.COLLECTION,
-			pg.RedDotMgr.TYPES.FRIEND,
-			pg.RedDotMgr.TYPES.MEMORY_REVIEW
-		}, true),
-		SwitcherRedDotNode.New(slot0._tf:Find("frame/right/switch"), {
-			pg.RedDotMgr.TYPES.EVENT
-		}, false)
-	}
+slot0.RegisterRedDots = function(slot0)
+	slot1 = pg.EasyRedDotMgr.GetInstance()
+	slot2 = {}
+
+	(function (slot0, slot1, slot2)
+		uv0:RegisterRedDot(slot0, slot1, slot2)
+		table.insert(uv1, slot0)
+	end)(slot0._tf:Find("frame/bottom/frame/task/tip"), {
+		"TASK"
+	}, function (slot0)
+		setActive(slot0, getProxy(TaskProxy):getCanReceiveCount() > 0 or getProxy(AvatarFrameProxy):getCanReceiveCount() > 0)
+	end)
+
+	slot4 = slot0._tf:Find("frame/top/btns/mail")
+	slot5 = findTF(slot4, "tip")
+	slot6 = findTF(slot4, "Text"):GetComponent(typeof(Text))
+
+	if MAIL_COUNT_LIMIT <= getProxy(MailProxy).total then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_2"))
+	elseif slot7.total > MAIL_COUNT_LIMIT * 0.9 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot7.total, MAIL_COUNT_LIMIT))
+	end
+
+	slot3(slot4, {
+		"MAIL"
+	}, function (slot0)
+		slot2 = 99
+
+		if getProxy(MailProxy):GetUnreadCount() > 0 then
+			SetActive(uv0, true)
+
+			uv1.text = slot2 < slot1 and slot2 .. "+" or tostring(slot1)
+		else
+			SetActive(uv0, false)
+
+			uv1.text = ""
+		end
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/bottom/frame/build/tip"), {
+		"BUILD"
+	}, function (slot0)
+		setActive(slot0, getProxy(BuildShipProxy):getFinishCount() > 0 or tobool(getProxy(ActivityProxy):IsShowFreeBuildMark(true)))
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/bottom/frame/guild/tip"), {
+		"GUILD"
+	}, function (slot0)
+		setActive(slot0, getProxy(GuildProxy):ShouldShowTip())
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/top/icon_front/tip"), {
+		"ATTIRE"
+	}, function (slot0)
+		setActive(slot0, getProxy(AttireProxy):IsShowRedDot() or getProxy(SettingsProxy):ShouldEducateCharTip() or getProxy(ActivityProxy):IsTipLoveLetterMail())
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/right/2/menor/root/tip"), {
+		"MEMORY_REVIEW"
+	}, function (slot0)
+		if not (getProxy(PlayerProxy):getRawData() and _.any(pg.memory_group.all, function (slot0)
+			return PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. uv0.id .. " " .. slot0, 0) == 1
+		end)) and getProxy(LoveLetterProxy):getRawData() and getProxy(LoveLetterProxy):IsTipUnlockLetter() then
+			slot2 = true
+		end
+
+		setActive(slot0, tobool(slot2))
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/right/2/collection/root/tip"), {
+		"COLLECTION"
+	}, function (slot0)
+		setActive(slot0, getProxy(CollectionProxy):hasFinish() or getProxy(AppreciateProxy):isGalleryHaveNewRes() or getProxy(AppreciateProxy):isMusicHaveNewRes() or getProxy(AppreciateProxy):isMangaHaveNewRes())
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/right/2/friend/root/tip"), {
+		"FRIEND"
+	}, function (slot0)
+		setActive(slot0, getProxy(NotificationProxy):getRequestCount() > 0 or getProxy(FriendProxy):getNewMsgCount() > 0)
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/left/extend/tip"), {
+		"COMMISSION"
+	}, function (slot0)
+		setActive(slot0, getProxy(PlayerProxy):IsShowCommssionTip())
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/top/btns/settings/tip"), {
+		"SETTING"
+	}, function (slot0)
+		setActive(slot0, PlayerPrefs.GetInt("firstIntoOtherPanel", 0) == 0)
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/top/btns/noti/tip"), {
+		"SERVER"
+	}, function (slot0)
+		setActive(slot0, #getProxy(ServerNoticeProxy):getServerNotices(false) > 0 and getProxy(ServerNoticeProxy):hasNewNotice())
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/bottom/frame/tech/tip"), {
+		"BLUEPRINT"
+	}, function (slot0)
+		setActive(slot0, getProxy(TechnologyProxy):IsShowTip())
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/right/1/battle/root/tip"), {
+		"EVENT"
+	}, function (slot0)
+		setActive(slot0, getProxy(EventProxy):hasFinishState() or LimitChallengeConst.IsShowRedPoint())
+	end)
+
+	slot9 = slot0._tf
+
+	slot3(slot9:Find("frame/bottom/frame/live/tip"), {
+		"COURTYARD",
+		"SCHOOL",
+		"COMMANDER",
+		"DORM3D_SHOP_TIMELIMIT",
+		"EDUCATE_NEW_CHILD",
+		"ISLAND_3D"
+	}, function (slot0)
+		slot2 = false
+
+		if getProxy(PlayerProxy):getRawData().level >= 40 then
+			slot3 = getProxy(CommanderProxy):IsFinishAllBox()
+			slot2 = not LOCK_CATTERY and (slot3 or getProxy(CommanderProxy):AnyCatteryExistOP() or getProxy(CommanderProxy):AnyCatteryCanUse()) or slot3
+		end
+
+		setActive(slot0, getProxy(DormProxy):IsShowRedDot() or getProxy(NavalAcademyProxy):IsShowTip() or slot2 or pg.SystemOpenMgr.GetInstance():isOpenSystem(slot1.level, "SelectDorm3DMediator") and Dorm3dShopUI.ShouldShowAllTip() or NewEducateHelper.IsShowNewChildTip() or getProxy(SystemTipProxy):IsIslandRedDotTip())
+	end)
+
+	slot8 = slot0._tf
+	slot8 = slot8:Find("frame/right/switch")
+	slot9 = slot8:GetComponent(typeof(Toggle))
+
+	slot3(slot8:Find("on"), {
+		"COLLECTION",
+		"FRIEND",
+		"MEMORY_REVIEW"
+	}, function (slot0)
+		setActive(slot0, (getProxy(CollectionProxy):hasFinish() or getProxy(AppreciateProxy):isGalleryHaveNewRes() or getProxy(AppreciateProxy):isMusicHaveNewRes() or getProxy(AppreciateProxy):isMangaHaveNewRes() or getProxy(NotificationProxy):getRequestCount() > 0 or getProxy(FriendProxy):getNewMsgCount() > 0 or (function ()
+			if getProxy(PlayerProxy):getRawData() and _.any(pg.memory_group.all, function (slot0)
+				return PlayerPrefs.GetInt("MEMORY_GROUP_NOTIFICATION" .. uv0.id .. " " .. slot0, 0) == 1
+			end) then
+				return true
+			end
+
+			return tobool(getProxy(LoveLetterProxy):getRawData() and getProxy(LoveLetterProxy):IsTipUnlockLetter())
+		end)()) and not uv0.isOn)
+	end)
+	slot3(slot8:Find("off"), {
+		"EVENT"
+	}, function (slot0)
+		setActive(slot0, (getProxy(EventProxy):hasFinishState() or LimitChallengeConst.IsShowRedPoint()) and uv0.isOn)
+	end)
+
+	return slot2
 end
 
 return slot0

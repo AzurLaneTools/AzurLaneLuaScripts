@@ -404,6 +404,7 @@ slot0.init = function(slot0)
 	slot0.mailConfirmationSubView = MailConfirmationWindow.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.mailOverflowWindowSubView = MailOverflowWindow.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.mailStoreroomRewardSubView = MailRewardWindow.New(slot0._tf, slot0.event, slot0.contextData)
+	slot0.mailReDropWindowSubView = MailReDropWindow.New(slot0._tf, slot0.event, slot0.contextData)
 
 	setText(slot0.rtBtnLeftDeleteAll:Find("Text"), i18n("mail_deleteread_button"))
 	setText(slot0.rtBtnLeftManager:Find("Text"), i18n("mail_manage_button"))
@@ -906,6 +907,8 @@ slot0.onBackPressed = function(slot0)
 		slot0.mailOverflowWindowSubView:Hide()
 	elseif slot0.mailStoreroomRewardSubView:isShowing() then
 		slot0.mailStoreroomRewardSubView:Hide()
+	elseif slot0.mailReDropWindowSubView:isShowing() then
+		slot0.mailReDropWindowSubView:Hide()
 	else
 		triggerButton(slot0.rtAdapt:Find("CommonTitleAndBack/back_btn"))
 	end
@@ -917,6 +920,7 @@ slot0.willExit = function(slot0)
 	slot0.mailConfirmationSubView:Destroy()
 	slot0.mailOverflowWindowSubView:Destroy()
 	slot0.mailStoreroomRewardSubView:Destroy()
+	slot0.mailReDropWindowSubView:Destroy()
 end
 
 slot0.ShowDoubleConfiremationMsgBox = function(slot0, slot1)
@@ -924,6 +928,8 @@ slot0.ShowDoubleConfiremationMsgBox = function(slot0, slot1)
 		slot0.mailOverflowWindowSubView:ExecuteAction("Show", slot1)
 	elseif slot1.type == MailProxy.MailMessageBoxType.RewardStoreroom then
 		slot0.mailStoreroomRewardSubView:ExecuteAction("Show", slot1)
+	elseif slot1.type == MailProxy.MailMessageBoxType.ReDropConfirm then
+		slot0.mailReDropWindowSubView:ExecuteAction("Show", slot1)
 	else
 		slot0.mailConfirmationSubView:ExecuteAction("Show", slot1)
 	end

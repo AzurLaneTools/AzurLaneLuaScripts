@@ -42,7 +42,8 @@ pg.activity_banner_notice.all = {
 	37,
 	38,
 	39,
-	40
+	40,
+	41
 }
 pg.base = pg.base or {}
 pg.base.activity_banner_notice = {}
@@ -381,6 +382,16 @@ pg.base.activity_banner_notice = {}
 			"scene core activity",
 			{
 				coreName = "GeZiURCoreActivityUI"
+			}
+		}
+	}
+	pg.base.activity_banner_notice[41] = {
+		id = 41,
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		}
 	}

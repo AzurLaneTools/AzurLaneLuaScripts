@@ -3571,6 +3571,12 @@ pg.skill_data_display.all = {
 	1011872,
 	1011873,
 	1011874,
+	1018301,
+	1018303,
+	1018305,
+	1019301,
+	1019302,
+	1019303,
 	200002,
 	200005,
 	200008,
@@ -3982,6 +3988,9 @@ pg.skill_data_display.all = {
 	1019263,
 	1014170,
 	1014171,
+	1012471,
+	1010800,
+	1010801,
 	1090020,
 	1090042,
 	1090043,
@@ -4063,7 +4072,12 @@ pg.skill_data_display.all = {
 	1090451,
 	1090452,
 	1090453,
-	1090462
+	1090462,
+	1090471,
+	1090481,
+	1090482,
+	1090483,
+	1090484
 }
 pg.base = pg.base or {}
 pg.base.skill_data_display = {}
@@ -18407,6 +18421,30 @@ end)()
 		id = 1011874,
 		name = "Divine Marksman (R)+"
 	}
+	pg.base.skill_data_display[1018301] = {
+		id = 1018301,
+		name = "Steelflash Judgment"
+	}
+	pg.base.skill_data_display[1018303] = {
+		id = 1018303,
+		name = "Burstfire Judgment"
+	}
+	pg.base.skill_data_display[1018305] = {
+		id = 1018305,
+		name = "Flintlock Burst (A)+"
+	}
+	pg.base.skill_data_display[1019301] = {
+		id = 1019301,
+		name = "Steelflash Judgment"
+	}
+	pg.base.skill_data_display[1019302] = {
+		id = 1019302,
+		name = "Flintlock Burst (A)"
+	}
+	pg.base.skill_data_display[1019303] = {
+		id = 1019303,
+		name = "Flintlock Burst (A)"
+	}
 	pg.base.skill_data_display[200002] = {
 		id = 200002,
 		name = "Air Armada Support"
@@ -18515,6 +18553,8 @@ end)()
 		id = 200193,
 		name = "Core Upgrade - Damage Control Lv.2"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200194] = {
 		id = 200194,
 		name = "Core Upgrade - Damage Control Lv.3"
@@ -18539,8 +18579,6 @@ end)()
 		id = 200326,
 		name = "Basilica Control Device - Recovering"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200327] = {
 		id = 200327,
 		name = "Basilica Control Device - Stable"
@@ -18917,6 +18955,8 @@ end)()
 		id = 295008,
 		name = "Blessing of Revivals and Baths"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[295009] = {
 		id = 295009,
 		name = "Blessing of Wisdom"
@@ -18941,8 +18981,6 @@ end)()
 		id = 200977,
 		name = "Eagle Union Elite Damage Control"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200983] = {
 		id = 200983,
 		name = "Crimson Shade"
@@ -19319,6 +19357,8 @@ end)()
 		id = 201790,
 		name = "Sic 'Em, Data 857!"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201798] = {
 		id = 201798,
 		name = "The Shadow Within the Lantern"
@@ -19343,8 +19383,6 @@ end)()
 		id = 1010732,
 		name = "The Demon+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011620] = {
 		id = 1011620,
 		name = "Predestined Launch+"
@@ -19721,6 +19759,8 @@ end)()
 		id = 1019110,
 		name = "Augmented HE Ammo+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1019111] = {
 		id = 1019111,
 		name = "Augmented HE Ammo+"
@@ -19745,8 +19785,6 @@ end)()
 		id = 1014091,
 		name = "Cleanse Impurity+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1010260] = {
 		id = 1010260,
 		name = "Armageddon Cannon+"
@@ -20059,6 +20097,18 @@ end)()
 		id = 1014171,
 		name = "Kirov Reporting! +"
 	}
+	pg.base.skill_data_display[1012471] = {
+		id = 1012471,
+		name = "Double The Gato+"
+	}
+	pg.base.skill_data_display[1010800] = {
+		id = 1010800,
+		name = "Fifth Carrier Division+"
+	}
+	pg.base.skill_data_display[1010801] = {
+		id = 1010801,
+		name = "Fifth Carrier Division+"
+	}
 	pg.base.skill_data_display[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -20111,6 +20161,8 @@ end)()
 		id = 1090120,
 		name = "Piercing Shells – Z46"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090121] = {
 		id = 1090121,
 		name = "Piercing Shells – Z46"
@@ -20147,8 +20199,6 @@ end)()
 		id = 1090210,
 		name = "Emergency Maneuvers - Fortune"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090211] = {
 		id = 1090211,
 		name = "Emergency Maneuvers - Fortune"
@@ -20388,5 +20438,25 @@ end)()
 	pg.base.skill_data_display[1090462] = {
 		id = 1090462,
 		name = "Artillery Command: Grenville"
+	}
+	pg.base.skill_data_display[1090471] = {
+		id = 1090471,
+		name = "Quick Reload - Kisaragi"
+	}
+	pg.base.skill_data_display[1090481] = {
+		id = 1090481,
+		name = "Pocket Battleship - Deutschland"
+	}
+	pg.base.skill_data_display[1090482] = {
+		id = 1090482,
+		name = "Pocket Battleship - Deutschland"
+	}
+	pg.base.skill_data_display[1090483] = {
+		id = 1090483,
+		name = "Pocket Battleship - Deutschland"
+	}
+	pg.base.skill_data_display[1090484] = {
+		id = 1090484,
+		name = "Pocket Battleship - Deutschland"
 	}
 end)()

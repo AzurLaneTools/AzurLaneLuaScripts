@@ -4,14 +4,27 @@ slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.data
 	slot5 = nil
-	slot5 = (not slot2.isMine or Dorm.New(slot3)) and FriendDorm.New(slot3)
 	slot6 = {}
 
-	for slot10, slot11 in ipairs(slot3.ship_id_list) do
-		table.insert(slot6, slot11)
+	if slot2.isMine then
+		slot5 = Dorm.New(slot3)
+		slot7 = ipairs
+		slot8 = slot3.ship_list or {}
+
+		for slot10, slot11 in slot7(slot8) do
+			table.insert(slot6, DormShip.New(slot11))
+		end
+	else
+		slot5 = FriendDorm.New(slot3)
+		slot7 = ipairs
+		slot8 = slot3.ship_list or {}
+
+		for slot10, slot11 in slot7(slot8) do
+			table.insert(slot6, FriendDormShip.New(slot11))
+		end
 	end
 
-	slot5:setShipIds(slot6)
+	slot5:SetShips(slot6)
 
 	slot7 = {}
 

@@ -5,11 +5,11 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.tpl = slot0._go:GetComponent("ItemList").prefabItem[0]
+	slot0.tpl = slot0._tf:Find("ShipCardTpl")
 	slot0.closeBtn = slot0._tf:Find("frame/close")
 	slot0.sendBtn = slot0._tf:Find("frame/btn")
-	slot2 = slot0._tf
-	slot0.sendBtnGray = slot2:Find("frame/btn/gray")
+	slot1 = slot0._tf
+	slot0.sendBtnGray = slot1:Find("frame/btn/gray")
 	slot0.slots = {
 		slot0._tf:Find("frame/ship1"),
 		slot0._tf:Find("frame/ship2")
@@ -100,7 +100,10 @@ slot0.UpdateSlot = function(slot0, slot1, slot2, slot3)
 
 	if slot3 then
 		if not slot5 then
-			cloneTplTo(slot0.tpl, slot2):SetAsFirstSibling()
+			slot5 = cloneTplTo(slot0.tpl, slot2)
+
+			setActive(slot5, true)
+			slot5:SetAsFirstSibling()
 		end
 
 		slot7 = slot0.items[slot1] or DockyardShipItem.New(slot5)

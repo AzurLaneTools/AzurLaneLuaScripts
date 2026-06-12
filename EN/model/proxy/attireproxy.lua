@@ -152,6 +152,8 @@ slot0.clearNew = function(slot0)
 	for slot4, slot5 in pairs(slot0.data.combatUIStyles) do
 		slot5:clearNew()
 	end
+
+	pg.EasyRedDotMgr.GetInstance():TriggerMarks("ATTIRE")
 end
 
 slot0.getExpiredChaces = function(slot0)

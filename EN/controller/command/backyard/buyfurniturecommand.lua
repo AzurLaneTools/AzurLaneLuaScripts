@@ -53,9 +53,15 @@ slot0.execute = function(slot0, slot1)
 					uv5:ResetSystemTheme(slot2.themeId)
 				end
 
-				uv5:AddFurnitrues(uv4)
+				slot3 = uv5:getRawData()
 
-				for slot6, slot7 in ipairs(uv4) do
+				slot3:AddFurnitrues(uv4)
+
+				slot7 = BackYardConst.DORM_UPDATE_TYPE_FURNITURE
+
+				uv5:updateDrom(slot3, slot7)
+
+				for slot7, slot8 in ipairs(uv4) do
 					-- Nothing
 				end
 
