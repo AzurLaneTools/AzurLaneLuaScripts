@@ -56,14 +56,26 @@ slot2.GetObject = function(slot0)
 
 	if not slot0:IsEmpty() then
 		slot2 = (slot2 ~= nil or slot0.list.Head) and slot0.usedEnd.Next
-		slot0.usedEnd = slot2
-		slot1 = slot2.Data
-		slot0.map[slot1] = slot2
 
-		LuaHelper.ResetTF(slot1.transform)
+		while slot2 do
+			if slot2.Data and not IsNil(slot1) and slot1.transform and not IsNil(slot1.transform) then
+				slot0.usedEnd = slot2
+				slot0.map[slot1] = slot2
 
-		if not slot0.keepActive and slot0.parentActive then
-			slot1:SetActive(true)
+				LuaHelper.ResetTF(slot1.transform)
+
+				if not slot0.keepActive and slot0.parentActive then
+					slot1:SetActive(true)
+				end
+
+				break
+			end
+
+			slot0.map[slot1] = nil
+
+			slot0.list:Remove(slot2)
+
+			slot2 = slot2.Next
 		end
 	else
 		slot1 = Object.Instantiate(slot0.template)
@@ -98,8 +110,6 @@ end
 
 slot2.Recycle = function(slot0, slot1)
 	if slot0.map[slot1] == nil then
-		uv0.Destroy(slot1)
-
 		return
 	end
 
@@ -124,12 +134,18 @@ slot2.Recycle = function(slot0, slot1)
 	slot0.list:Remove(slot2)
 	slot0.list:AddNodeLast(slot2)
 
-	slot2.liveTime = uv1.TimeMgr.GetInstance():GetCombatTime() + slot0.resizeTime
+	slot2.liveTime = uv0.TimeMgr.GetInstance():GetCombatTime() + slot0.resizeTime
 end
 
 slot2.AllRecycle = function(slot0)
-	for slot4, slot5 in pairs(slot0.map) do
-		slot0:Recycle(slot4)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.map) do
+		table.insert(slot1, slot5)
+	end
+
+	for slot5, slot6 in ipairs(slot1) do
+		slot0:Recycle(slot6)
 	end
 end
 
