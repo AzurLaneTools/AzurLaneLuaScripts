@@ -253,7 +253,7 @@ slot0.TriggerNextEventAuto = function(slot0)
 
 	slot0.timer = Timer.New(function ()
 		uv0:OnTimerTriggerEvent()
-	end, 5, 1, true)
+	end, 30, 1, true)
 
 	slot0.timer:Start()
 end

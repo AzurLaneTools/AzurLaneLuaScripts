@@ -52,6 +52,8 @@ slot0.Execute = function(slot0, slot1)
 						uv1()
 					end
 				})
+			else
+				slot0()
 			end
 		end)
 	end

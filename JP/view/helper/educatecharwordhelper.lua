@@ -62,6 +62,16 @@ slot0.RawGetCVKey = function(slot0)
 	return uv0[slot0].voice
 end
 
+slot0.GetMainSceneWordCnt = function(slot0, slot1)
+	slot3 = 0
+
+	if uv0[slot0] and slot2[ShipWordHelper.WORD_TYPE_MAIN] and slot2[ShipWordHelper.WORD_TYPE_MAIN] ~= "" then
+		slot3 = #string.split(slot2[ShipWordHelper.WORD_TYPE_MAIN], "|")
+	end
+
+	return slot3
+end
+
 slot0.GetExpression = function(slot0, slot1)
 	slot2 = uv0[slot0]
 	slot3 = ""

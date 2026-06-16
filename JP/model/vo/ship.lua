@@ -173,7 +173,7 @@ slot0.getEnergyPrint = function(slot0)
 end
 
 slot0.getIntimacy = function(slot0)
-	return slot0.intimacy
+	return slot0.intimacy or 0
 end
 
 slot0.getCVIntimacy = function(slot0)
