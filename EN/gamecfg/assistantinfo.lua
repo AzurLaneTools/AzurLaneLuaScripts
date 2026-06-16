@@ -114,8 +114,10 @@ slot1.GetShipMainEvents = function(slot0, slot1)
 	end
 
 	slot2 = {}
+	slot3 = nil
+	slot3 = (uv0.ship_skin_template[slot0].skin_type ~= ShipSkin.SKIN_TYPE_TB or EducateCharWordHelper.GetMainSceneWordCnt(NewEducateHelper.GetSecIdBySkinId(slot0))) and ShipWordHelper.GetMainSceneWordCnt(slot0, slot1)
 
-	for slot7 = 1, ShipWordHelper.GetMainSceneWordCnt(slot0, slot1) do
+	for slot7 = 1, slot3 do
 		table.insert(slot2, "main_" .. slot7)
 	end
 

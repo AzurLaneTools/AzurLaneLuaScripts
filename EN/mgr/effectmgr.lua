@@ -9,17 +9,19 @@ slot1.Ctor = function(slot0)
 	})
 
 	slot0.commonEffectEvent = function(slot0)
-		if uv0.effectCbMap[slot0] == nil then
-			uv1:DestroyOb(slot0)
-
+		if slot0 == nil or IsNil(slot0) then
 			return
 		end
+
+		if uv0.effectCbMap[slot0] == nil then
+			return
+		end
+
+		uv0.effectCbMap[slot0] = nil
 
 		if slot1[2] ~= nil then
 			slot2(slot0)
 		end
-
-		uv0.effectCbMap[slot0] = nil
 
 		if slot1[1] then
 			uv1:DestroyOb(slot0)
