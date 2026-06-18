@@ -126,6 +126,8 @@ slot0.UpdateButtons = function(slot0)
 	slot0.sceneParent:updatePtActivity(underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
 		return slot0:getConfig("config_id") == uv0
 	end))
+	setActive(slot0.sceneParent.rightChapter:Find("event_btns/tickets"), slot3)
+	slot0.sceneParent:updateRemasterTicket()
 	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot3 and slot2 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd() and slot4)
 end
 
