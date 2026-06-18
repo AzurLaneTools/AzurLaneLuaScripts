@@ -20,7 +20,7 @@ slot0.Init = function(slot0, slot1)
 	slot0.name = slot1.name
 
 	if slot0:GetBaseOrder() ~= "floor" then
-		setCanvasOverrideSorting(slot0._tf, true)
+		SetCanvasOverrideSorting(slot0._tf, true)
 	end
 
 	uv0.UpdatePos(slot0, NewPos(unpack(slot1.pos)))

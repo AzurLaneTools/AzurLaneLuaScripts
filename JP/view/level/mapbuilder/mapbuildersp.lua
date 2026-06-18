@@ -111,7 +111,11 @@ slot0.UpdateButtons = function(slot0)
 	uv0.super.UpdateButtons(slot0)
 
 	slot1, slot2 = slot0.contextData.map:isActivity()
-	slot3 = slot0.contextData.map:isRemaster()
+
+	if slot0.contextData.map:isRemaster() then
+		slot0.sceneParent:updateRemasterInfo()
+	end
+
 	slot4 = slot0.contextData.displayMode == uv0.DISPLAY.BATTLE
 
 	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and slot4 and not slot3 and slot2 and slot0.sceneParent:IsActShopActive())
@@ -122,6 +126,8 @@ slot0.UpdateButtons = function(slot0)
 	slot0.sceneParent:updatePtActivity(underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
 		return slot0:getConfig("config_id") == uv0
 	end))
+	setActive(slot0.sceneParent.rightChapter:Find("event_btns/tickets"), slot3)
+	slot0.sceneParent:updateRemasterTicket()
 	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot3 and slot2 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd() and slot4)
 end
 
@@ -273,36 +279,44 @@ slot0.SetDisplayMode = function(slot0, slot1)
 end
 
 slot0.UpdateView = function(slot0)
-	slot1 = string.split(slot0.contextData.map:getConfig("name"), "||")
+	slot2 = string.split(slot0.contextData.map:getConfig("name"), "||")
 
 	if slot0.contextData.displayMode == uv0.DISPLAY.STORY then
-		setText(slot0.sceneParent.chapterName, string.split(slot1[1], "·")[1] .. i18n("levelscene_title_story"))
+		setText(slot0.sceneParent.chapterName, string.split(slot2[1], "·")[1] .. i18n("levelscene_title_story"))
 	else
-		setText(slot0.sceneParent.chapterName, slot1[1])
+		setText(slot0.sceneParent.chapterName, slot2[1])
 	end
 
-	slot0.sceneParent.loader:GetSpriteQuiet("chapterno", "chapter" .. slot0.contextData.map:getMapTitleNumber(), slot0.sceneParent.chapterNoTitle, true)
+	slot0.sceneParent.loader:GetSpriteQuiet("chapterno", "chapter" .. slot1:getMapTitleNumber(), slot0.sceneParent.chapterNoTitle, true)
 
 	slot0.contextData.displayMode = slot0.contextData.displayMode or uv0.DISPLAY.BATTLE
 
 	uv0.super.UpdateView(slot0)
 
-	slot3 = slot0.contextData.displayMode == uv0.DISPLAY.BATTLE
+	slot4 = slot0.contextData.displayMode == uv0.DISPLAY.BATTLE
 
-	setActive(slot0._tf:Find("Battle"), slot3)
-	setActive(slot0._tf:Find("Story"), not slot3)
+	setActive(slot0._tf:Find("Battle"), slot4)
+	setActive(slot0._tf:Find("Story"), not slot4)
 	setActive(slot0.battleLayer:Find("Mask/Story/BattleTip"), false)
-	setActive(slot0.storyLayer:Find("Battle/BattleTip"), getProxy(ChapterProxy):IsActivitySPChapterActive(slot0.contextData.map:getConfig("on_activity")) and SettingsProxy.IsShowActivityMapSPTip())
+	setActive(slot0.storyLayer:Find("Battle/BattleTip"), getProxy(ChapterProxy):IsActivitySPChapterActive(slot1:getConfig("on_activity")) and SettingsProxy.IsShowActivityMapSPTip())
 
-	slot5 = slot0.battleLayer:Find("Mask"):GetComponent(typeof(RectMask2D))
+	slot6 = slot0.battleLayer:Find("Mask"):GetComponent(typeof(RectMask2D))
 
 	if type(slot0.spStoryIDs) ~= "table" or #slot0.spStoryIDs == 0 then
-		slot5.enabled = true
+		if slot1:isRemaster() then
+			setActive(slot0.battleLayer:Find("Mask"), false)
+
+			slot8, slot9 = slot1:isActivity()
+
+			setActive(slot0.sceneParent.remasterBtn, OPEN_REMASTER and (slot7 or not slot8 and not slot1:isEscort() and not slot1:isSkirmish()))
+		else
+			slot6.enabled = true
+		end
 	end
 
 	slot0:UpdateStoryTask()
 
-	if slot3 then
+	if slot4 then
 		slot0:UpdateBonusPtIconPath()
 		slot0:UpdateBattle()
 		slot0.sceneParent:SwitchMapBG(slot0.contextData.map)
@@ -1221,7 +1235,7 @@ slot0.PlayStory = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.UpdateStoryTask = function(slot0)
-	if not slot0.activity:getConfig("config_client").task_id then
+	if not (slot0.activity and slot0.activity:getConfig("config_client").task_id) then
 		return
 	end
 

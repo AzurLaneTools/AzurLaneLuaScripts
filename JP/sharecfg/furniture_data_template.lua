@@ -22255,7 +22255,7 @@ end)()
 	pg.base.furniture_data_template[283] = {
 		can_rotate = 0,
 		describe = "審判廷製の聖堂施設のミニチュア。構内の草木の一本一本をよく再現している。",
-		gain_by = "",
+		gain_by = "夢幻の間奏曲；コア限定ショップ",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,

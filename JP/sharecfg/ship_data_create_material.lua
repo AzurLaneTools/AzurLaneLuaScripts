@@ -221,13 +221,13 @@ pg.base.ship_data_create_material = {}
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：28.8%",
 			" ",
-			"<color=#ff5e39>ゲッツ・フォン・ベルリヒンゲン</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>アルザス</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>プリンツ・モーリッツ</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>ブレンヌス</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>エルベ(META)</color>：0.5%",
+			"<color=#ffde38>ベアルン(META)</color>：0.5%",
 			" ",
-			"<color=#d797ff>Z15</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>フルーレ</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	}
 	pg.base.ship_data_create_material[11] = {

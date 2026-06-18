@@ -35,7 +35,7 @@ slot1 = {
 			slot0.size = slot1.size or NewPos(1, 1)
 			slot0.canHide = slot1.hide
 
-			setCanvasOverrideSorting(slot0._tf, true)
+			SetCanvasOverrideSorting(slot0._tf, true)
 			slot0:UpdatePos(slot1.pos - NewPos(0, slot0:GetSize().y - 1))
 
 			slot0.realPos = slot1.realPos or slot0.pos

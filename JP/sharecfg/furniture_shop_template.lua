@@ -48073,9 +48073,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48085,9 +48085,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48109,9 +48109,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48121,9 +48121,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48145,9 +48145,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48157,9 +48157,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48181,9 +48181,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48193,9 +48193,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48217,9 +48217,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48229,9 +48229,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48253,9 +48253,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48265,9 +48265,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48289,9 +48289,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48301,9 +48301,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48325,9 +48325,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48337,9 +48337,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48361,9 +48361,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48373,9 +48373,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48397,9 +48397,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48409,9 +48409,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48433,9 +48433,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48445,9 +48445,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48469,9 +48469,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48481,9 +48481,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48505,9 +48505,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48517,9 +48517,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48541,9 +48541,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48553,9 +48553,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48577,9 +48577,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48589,9 +48589,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48613,9 +48613,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48625,9 +48625,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48649,9 +48649,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48661,9 +48661,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48685,9 +48685,9 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					12
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -48697,9 +48697,9 @@ end)()
 			},
 			{
 				{
-					2025,
-					10,
-					2
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -48712,686 +48712,211 @@ end)()
 	pg.base.furniture_shop_template[312001] = {
 		not_for_sale = 0,
 		gem_price = 450,
+		time = "always",
 		id = 312001,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 150,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312002] = {
 		not_for_sale = 0,
 		gem_price = 450,
+		time = "always",
 		id = 312002,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 150,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312101] = {
 		not_for_sale = 0,
 		gem_price = 240,
+		time = "always",
 		id = 312101,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 80,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312102] = {
 		not_for_sale = 0,
 		gem_price = 60,
+		time = "always",
 		id = 312102,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 20,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312103] = {
 		not_for_sale = 0,
 		gem_price = 240,
+		time = "always",
 		id = 312103,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 80,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312104] = {
 		not_for_sale = 0,
 		gem_price = 120,
+		time = "always",
 		id = 312104,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 40,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312105] = {
 		not_for_sale = 0,
 		gem_price = 240,
+		time = "always",
 		id = 312105,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 80,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312106] = {
 		not_for_sale = 0,
 		gem_price = 60,
+		time = "always",
 		id = 312106,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 20,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312107] = {
 		not_for_sale = 0,
 		gem_price = 120,
+		time = "always",
 		id = 312107,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 40,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312108] = {
 		not_for_sale = 0,
 		gem_price = 120,
+		time = "always",
 		id = 312108,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 40,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312109] = {
 		not_for_sale = 0,
 		gem_price = 450,
+		time = "always",
 		id = 312109,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 150,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312110] = {
 		not_for_sale = 0,
 		gem_price = 60,
+		time = "always",
 		id = 312110,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 20,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312111] = {
 		not_for_sale = 0,
 		gem_price = 60,
+		time = "always",
 		id = 312111,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 20,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312112] = {
 		not_for_sale = 0,
 		gem_price = 60,
+		time = "always",
 		id = 312112,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 20,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312113] = {
 		not_for_sale = 0,
 		gem_price = 60,
+		time = "always",
 		id = 312113,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 20,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312114] = {
 		not_for_sale = 0,
 		gem_price = 80,
+		time = "always",
 		id = 312114,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 0,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312115] = {
 		not_for_sale = 0,
 		gem_price = 80,
+		time = "always",
 		id = 312115,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 0,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312301] = {
 		not_for_sale = 0,
 		gem_price = 120,
+		time = "always",
 		id = 312301,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 40,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[312302] = {
 		not_for_sale = 0,
 		gem_price = 120,
+		time = "always",
 		id = 312302,
 		collaboration_furniture_time = "",
 		discount = 0,
 		dorm_icon_price = 40,
 		new = 0,
-		discount_time = "",
-		time = {
-			{
-				{
-					2025,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		discount_time = ""
 	}
 	pg.base.furniture_shop_template[313001] = {
 		not_for_sale = 0,

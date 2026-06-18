@@ -183977,6 +183977,32 @@ _G.pg.base.item_virtual_data_statistics[65990] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65991] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2026.6.24まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2026.6.24まで）で削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65991,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65910] = {
 	drop_gold_max = 0,
 	name = "試着貸出チケット（2026.5.6まで）",
@@ -186438,6 +186464,110 @@ _G.pg.base.item_virtual_data_statistics[66036] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 66036,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66041] = {
+	drop_gold_max = 0,
+	name = "輝きのクリスタル破片",
+	display = "「赫輝のマルティリウム」の収集Pt。イベント終了時に削除される",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/huiguang_pt1",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66041,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66042] = {
+	drop_gold_max = 0,
+	name = "URチケット",
+	display = "イベントページ・ショップにてUR艦船「モガドール」と交換できる特殊Pt。イベント終了後に削除される",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/huiguang_pt2",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66042,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66043] = {
+	drop_gold_max = 0,
+	name = "建造支援チケット",
+	display = "イベント「赫輝のマルティリウム」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 51044,
+	album_config = "",
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 66043,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66044] = {
+	drop_gold_max = 0,
+	name = "訓練Pt",
+	display = "「作戦準備 D」報酬交換用アイテム。イベント終了後に削除される。",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/xunliandianshu_m1",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66044,
 	display_icon = {},
 	price = {},
 	index = {},
