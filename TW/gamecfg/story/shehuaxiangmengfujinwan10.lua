@@ -500,7 +500,7 @@ return {
 			hideRecordIco = true,
 			actor = 403171,
 			nameColor = "#A9F548FF",
-			say = "她伸出手在我的身後摸索，尋找泳衣的卡扣，而我則咬住了那些鍊飾的扣環。",
+			say = "她伸出手在身後摸索，尋找泳衣的卡扣，而我則咬住了那些鍊飾的扣環。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

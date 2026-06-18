@@ -22,6 +22,14 @@ slot0.getUIName = function(slot0)
 	return "GameRoomCookUI"
 end
 
+slot0.preload = function(slot0, slot1)
+	AssetBundleHelper.StoreAssetBundle(uv0.path, false, true)
+
+	slot0.cookGameUIAtlasStored = true
+
+	slot1()
+end
+
 slot0.didEnter = function(slot0)
 	slot0:initEvent()
 	slot0:initData()
@@ -1097,6 +1105,12 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	if slot0.cookGameUIAtlasStored then
+		AssetBundleHelper.UnstoreAssetBundle(uv0.path, true)
+
+		slot0.cookGameUIAtlasStored = false
+	end
+
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end

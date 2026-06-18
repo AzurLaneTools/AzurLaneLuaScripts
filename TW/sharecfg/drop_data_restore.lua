@@ -4545,7 +4545,7 @@ end)()
 		type = 1,
 		id = 649,
 		resource_num = 980,
-		drop_id = 908111,
+		drop_id = 0,
 		target_id = 204035
 	}
 	pg.base.drop_data_restore[1142] = {

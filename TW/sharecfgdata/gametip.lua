@@ -42245,6 +42245,41 @@ _G.pg.base.gametip.mall_level_max = {
 }
 
 
+_G.pg.base.gametip.equipment_design_chapter = {
+	tip = "作戰檔案"
+}
+
+
+_G.pg.base.gametip.equipment_design_tech = {
+	tip = "軍部研究室：科研項目研發"
+}
+
+
+_G.pg.base.gametip.equipment_design_shop = {
+	tip = "商店兌換"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_expand = {
+	tip = "展開"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_fold = {
+	tip = "收起"
+}
+
+
+_G.pg.base.gametip.equipment_design_btn_skip = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.equipment_design_sub_title = {
+	tip = "該道具可以由以下方式獲得："
+}
+
+
 _G.pg.base.gametip.mall_staff_position_full_tip = {
 	tip = "分配失敗，已達店員數量上限"
 }
@@ -42282,4 +42317,44 @@ _G.pg.base.gametip.littleyunxian_tip2 = {
 
 _G.pg.base.gametip.OutPostCoreActivityUI_subtitle_3 = {
 	tip = "若漆之光"
+}
+
+
+_G.pg.base.gametip.OutPostCoreActivityUI_subtitle_4 = {
+	tip = "紅樹林的守護精靈"
+}
+
+
+_G.pg.base.gametip.island_dress_tag_twins = {
+	tip = "双形态服装"
+}
+
+
+_G.pg.base.gametip.island_dress_tag_sp_animator = {
+	tip = "专属动作"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_preview = {
+	tip = "服装详情"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_description = {
+	tip = "6月11日为止，每天零点解锁1个任务\n完成七日活动任务，可获得限定指挥官装扮【核心链接】等奖励"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_look_all = {
+	tip = "查看详情"
+}
+
+
+_G.pg.base.gametip.island_mecha_task_progress = {
+	tip = "当前阶段 DAY$1/$2 "
+}
+
+
+_G.pg.base.gametip.island_mecha_task_lock_tip = {
+	tip = "$1月$2日解锁"
 }

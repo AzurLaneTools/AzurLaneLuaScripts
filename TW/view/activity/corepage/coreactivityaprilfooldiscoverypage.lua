@@ -94,7 +94,7 @@ slot0.OnUpdateFlush = function(slot0)
 	slot2 = #slot0.activity.data2_list == #slot0.keyList
 
 	if (slot0.activity.data1 > 0 and "activity_bg_aprilfool_final" or "activity_bg_aprilfool_discovery") ~= slot0.bgName then
-		setImageSprite(slot0.bg, LoadSprite("ui/activityuipage/AprilFoolDiscoveryPage_atlas", slot3))
+		setImageSprite(slot0.bg, LoadSprite("ui/AprilFoolDiscoveryPage_atlas", slot3))
 
 		slot0.bg:GetComponent(typeof(Image)).enabled = true
 		slot0.bgName = slot3
@@ -138,7 +138,7 @@ slot0.OnUpdateFlush = function(slot0)
 				})
 			end
 		end)
-		slot0.loader:GetSprite("UI/ActivityUIPage/AprilFoolDiscoveryPage_atlas", uv1[slot12], slot10:Find("state"))
+		slot0.loader:GetSprite("UI/AprilFoolDiscoveryPage_atlas", uv1[slot12], slot10:Find("state"))
 		setActive(slot10:Find("character"), slot12 == 3)
 	end
 

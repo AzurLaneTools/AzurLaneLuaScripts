@@ -321,12 +321,12 @@ slot0.CheckCanAddMaxTimes = function(slot0)
 		slot2 = math.min(slot2, math.floor((slot1:GetItemById(slot8[1]) and slot10:GetCount() or 0) / (slot8[2] + slot3)))
 	end
 
-	return math.min(math.floor(slot0.selectedShip:GetCurrentEnergy() / slot0.formulaCfg.stamina_cost), slot2)
+	return math.min(math.floor(slot0.selectedShip:GetCurrentEnergy() / slot0:GetOneFormulaEnergyCost()), slot2)
 end
 
 slot0.RefreshCanStart = function(slot0)
 	slot2 = function()
-		if uv0.selectedShip:GetCurrentEnergy() < math.floor(uv0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(uv0.selectedShipId, uv0.placeId))) * (uv0.addDelegateFormulaTimes and uv0.curSelectCount - uv0.addDelegateFormulaTimes or uv0.curSelectCount) then
+		if uv0.selectedShip:GetCurrentEnergy() < uv0:GetOneFormulaEnergyCost() * (uv0.addDelegateFormulaTimes and uv0.curSelectCount - uv0.addDelegateFormulaTimes or uv0.curSelectCount) then
 			return false
 		end
 
@@ -511,7 +511,7 @@ slot0.RefreshShip = function(slot0)
 end
 
 slot0.RefreshShipEnergy = function(slot0)
-	slot3 = math.floor(slot0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(slot0.selectedShipId, slot0.placeId))) * (slot0.addDelegateFormulaTimes and slot0.curSelectCount - slot0.addDelegateFormulaTimes or slot0.curSelectCount)
+	slot3 = slot0:GetOneFormulaEnergyCost() * (slot0.addDelegateFormulaTimes and slot0.curSelectCount - slot0.addDelegateFormulaTimes or slot0.curSelectCount)
 
 	if slot0.selectedShipId == 1 then
 		slot3 = 0
@@ -718,6 +718,10 @@ slot0.GetAttrGrowingValueByBuff = function(slot0, slot1, slot2)
 	end
 
 	return 0
+end
+
+slot0.GetOneFormulaEnergyCost = function(slot0)
+	return math.floor(slot0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(slot0.selectedShipId, slot0.placeId)))
 end
 
 slot0.OnHide = function(slot0)

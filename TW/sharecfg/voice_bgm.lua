@@ -2736,11 +2736,6 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-light"
 	}
-	pg.base.voice_bgm.HolidayHwahJahSkinPage = {
-		default_bgm = "story-richang-light",
-		special_bgm = "",
-		bgm = "story-richang-light"
-	}
 	pg.base.voice_bgm.LittleYunXianPage = {
 		default_bgm = "story-afterrain-soft",
 		special_bgm = "",
@@ -2810,5 +2805,10 @@ end)()
 		default_bgm = "theme-goldensea",
 		special_bgm = "",
 		bgm = "theme-goldensea"
+	}
+	pg.base.voice_bgm.AnniversaryNineEvertsenSkinPage = {
+		default_bgm = "story-tulipa",
+		special_bgm = "",
+		bgm = "story-tulipa"
 	}
 end)()

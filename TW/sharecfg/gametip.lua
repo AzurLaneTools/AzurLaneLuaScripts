@@ -25856,36 +25856,96 @@ cs.gametip = {
 		1134812,
 		108
 	},
-	mall_staff_position_full_tip = {
+	equipment_design_chapter = {
 		1134920,
+		100
+	},
+	equipment_design_tech = {
+		1135020,
+		121
+	},
+	equipment_design_shop = {
+		1135141,
+		97
+	},
+	equipment_design_btn_expand = {
+		1135238,
+		97
+	},
+	equipment_design_btn_fold = {
+		1135335,
+		95
+	},
+	equipment_design_btn_skip = {
+		1135430,
+		95
+	},
+	equipment_design_sub_title = {
+		1135525,
+		130
+	},
+	mall_staff_position_full_tip = {
+		1135655,
 		132
 	},
 	mall_gold_input_success_tip = {
-		1135052,
+		1135787,
 		106
 	},
 	mall_floor_all_empty_tip = {
-		1135158,
+		1135893,
 		127
 	},
 	mall_unlock_date_tip2 = {
-		1135285,
+		1136020,
 		101
 	},
 	mall_order_finished_all_tip = {
-		1135386,
+		1136121,
 		124
 	},
 	littleyunxian_tip1 = {
-		1135510,
+		1136245,
 		87
 	},
 	littleyunxian_tip2 = {
-		1135597,
+		1136332,
 		88
 	},
 	OutPostCoreActivityUI_subtitle_3 = {
-		1135685,
+		1136420,
 		108
+	},
+	OutPostCoreActivityUI_subtitle_4 = {
+		1136528,
+		120
+	},
+	island_dress_tag_twins = {
+		1136648,
+		101
+	},
+	island_dress_tag_sp_animator = {
+		1136749,
+		104
+	},
+	island_mecha_task_preview = {
+		1136853,
+		101
+	},
+	island_mecha_task_description = {
+		1136954,
+		226
+	},
+	island_mecha_task_look_all = {
+		1137180,
+		102
+	},
+	island_mecha_task_progress = {
+		1137282,
+		112
+	},
+	island_mecha_task_lock_tip = {
+		1137394,
+		106
 	}
 }

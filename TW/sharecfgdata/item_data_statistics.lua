@@ -15841,9 +15841,9 @@ _G.pg.base.item_data_statistics[21055] = {
 
 _G.pg.base.item_data_statistics[21056] = {
 	open_directly = 0,
-	name = "结晶：龙骑兵·META",
+	name = "結晶：龍騎兵·META",
 	type = 4,
-	display = "龙骑兵·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	display = "龍騎兵·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -82289,6 +82289,37 @@ _G.pg.base.item_data_statistics[59856] = {
 	shiptrans_id = {
 		107974
 	},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[59857] = {
+	open_directly = 0,
+	name = "電氣增幅裝置紀念版",
+	type = 1,
+	display = "參與活動「電器功率增幅中」的紀念品禮物",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/electboostdevice_re",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59857,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
 	combination_display = {},
 	limit = {}
 }

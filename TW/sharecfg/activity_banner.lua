@@ -14,6 +14,11 @@ pg.activity_banner.all = {
 	9,
 	10,
 	11,
+	12,
+	13,
+	14,
+	15,
+	16,
 	90,
 	91,
 	95,
@@ -60,15 +65,18 @@ pg.activity_banner.all = {
 }
 pg.activity_banner.get_id_list_by_type = {
 	[2] = {
-		1,
 		2,
 		3,
 		4,
-		5,
 		6,
 		7,
 		8,
+		9,
+		10,
 		11,
+		12,
+		13,
+		16,
 		1000,
 		1001,
 		1002,
@@ -95,8 +103,10 @@ pg.activity_banner.get_id_list_by_type = {
 		1025
 	},
 	[3] = {
-		9,
-		10,
+		1,
+		5,
+		14,
+		15,
 		1003
 	},
 	[8] = {
@@ -135,8 +145,179 @@ pg.base.activity_banner = {}
 
 (function ()
 	pg.base.activity_banner[1] = {
-		type = 2,
+		param = "50630",
+		type = 3,
 		id = 1,
+		pic = "temp11",
+		time = {
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					2
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[2] = {
+		type = 2,
+		id = 2,
+		pic = "temp12",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[3] = {
+		type = 2,
+		id = 3,
+		pic = "temp13",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[4] = {
+		type = 2,
+		id = 4,
+		pic = "temp14",
+		param = {
+			"scene Cryptolalia",
+			{}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[5] = {
+		param = "50099",
+		type = 3,
+		id = 5,
+		pic = "temp15",
+		time = {
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[6] = {
+		type = 2,
+		id = 6,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
@@ -169,9 +350,9 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[2] = {
+	pg.base.activity_banner[7] = {
 		type = 2,
-		id = 2,
+		id = 7,
 		pic = "temp2",
 		param = {
 			"scene get boat",
@@ -207,9 +388,9 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[3] = {
+	pg.base.activity_banner[8] = {
 		type = 2,
-		id = 3,
+		id = 8,
 		pic = "temp3",
 		param = {
 			"scene core activity",
@@ -244,9 +425,9 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[4] = {
+	pg.base.activity_banner[9] = {
 		type = 2,
-		id = 4,
+		id = 9,
 		pic = "temp4",
 		param = {
 			"scene charge",
@@ -281,9 +462,9 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[5] = {
+	pg.base.activity_banner[10] = {
 		type = 2,
-		id = 5,
+		id = 10,
 		pic = "temp5",
 		param = {
 			"scene charge",
@@ -318,9 +499,9 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[6] = {
+	pg.base.activity_banner[11] = {
 		type = 2,
-		id = 6,
+		id = 11,
 		pic = "temp6",
 		param = {
 			"scene shop",
@@ -355,9 +536,9 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[7] = {
+	pg.base.activity_banner[12] = {
 		type = 2,
-		id = 7,
+		id = 12,
 		pic = "temp7",
 		param = {
 			"scene court yard"
@@ -389,9 +570,9 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[8] = {
+	pg.base.activity_banner[13] = {
 		type = 2,
-		id = 8,
+		id = 13,
 		pic = "temp8",
 		param = {
 			"scene core activity",
@@ -426,10 +607,10 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[9] = {
+	pg.base.activity_banner[14] = {
 		param = "50618",
 		type = 3,
-		id = 9,
+		id = 14,
 		pic = "temp9",
 		time = {
 			{
@@ -458,17 +639,17 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[10] = {
+	pg.base.activity_banner[15] = {
 		param = "50298",
 		time = "stop",
 		type = 3,
-		id = 10,
+		id = 15,
 		pic = "temp10"
 	}
-	pg.base.activity_banner[11] = {
+	pg.base.activity_banner[16] = {
 		time = "stop",
 		type = 2,
-		id = 11,
+		id = 16,
 		pic = "temp11",
 		param = {
 			"scene get boat",

@@ -951,6 +951,7 @@ pg.activity_template.all = {
 	50093,
 	50094,
 	50095,
+	50099,
 	50100,
 	50101,
 	50102,
@@ -1156,6 +1157,7 @@ pg.activity_template.all = {
 	50623,
 	50624,
 	50625,
+	50630,
 	51001,
 	51003,
 	51004,
@@ -3525,11 +3527,13 @@ pg.activity_template.get_id_list_by_type = {
 		5990,
 		50033,
 		50068,
+		50099,
 		50104,
 		50133,
 		50266,
 		50296,
 		50610,
+		50630,
 		51001,
 		51005,
 		51011,
@@ -44361,6 +44365,78 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50099] = {
+		mark = 20260618,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 49,
+		config_client = "",
+		title_res_tag = "dianqi",
+		id = 50099,
+		page_core = "",
+		config_data = {
+			{
+				21821,
+				21822
+			},
+			{
+				21823,
+				21824
+			},
+			{
+				21825,
+				21826
+			},
+			{
+				21827,
+				21828
+			},
+			{
+				21829,
+				21830
+			},
+			{
+				21831,
+				21832
+			},
+			{
+				21833,
+				21834
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AierdeliqiAlterItemRePage",
+			ui_name = "AierdeliqiAlterItemRePage"
+		}
+	}
 	pg.base.activity_template[50100] = {
 		mark = 20250912,
 		page_info = "",
@@ -47264,6 +47340,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50211] = {
 		mark = 20251211,
 		page_info = "",
@@ -47321,8 +47399,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50212] = {
 		mark = 20251211,
 		page_info = "",
@@ -52638,6 +52714,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50483] = {
 		mark = 20260402,
 		type = 74,
@@ -52690,8 +52768,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50484] = {
 		mark = 20260402,
 		page_info = "",
@@ -55481,12 +55557,112 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50630] = {
+		mark = 20260618,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 6,
+		title_res_tag = "OutPostCoreActivityUI_subtitle_4",
+		id = 50630,
+		page_core = "AnniversaryNineCoreActivityUI",
+		config_data = {
+			{
+				27155,
+				27156,
+				27157,
+				27158,
+				27159,
+				27160,
+				27161,
+				27162,
+				27163,
+				27164,
+				27165,
+				27166,
+				27167,
+				27168
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					2
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AnniversaryNineEvertsenSkinPage",
+			ui_name = "AnniversaryNineEvertsenSkinPage",
+			sub_ui = {
+				"AnniversaryNineEvertsenTaskWinidow"
+			}
+		},
+		config_client = {
+			subType = 1,
+			unlock_task = {
+				{
+					27155,
+					27156
+				},
+				{
+					27157,
+					27158
+				},
+				{
+					27159,
+					27160
+				},
+				{
+					27161,
+					27162
+				},
+				{
+					27163,
+					27164
+				},
+				{
+					27165,
+					27166
+				},
+				{
+					27167,
+					27168
+				}
+			},
+			story = {
+				{
+					"HONGSHULINDESHOUHUJINGLING1"
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51001] = {
 		mark = 20260528,
 		type = 18,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 6,
+		is_show = 7,
 		title_res_tag = "AnniversaryNineCoreActivityUI_subtitle_6",
 		id = 51001,
 		page_core = "AnniversaryNineCoreActivityUI",
@@ -55697,11 +55873,15 @@ end)()
 		},
 		page_info = {
 			class_name = "OutPostOmenPage",
-			ui_name = "OutPostOmenPage"
+			ui_name = "OutPostOmenPage",
+			sub_ui = {
+				"OutPostOmenTaskWindow"
+			}
 		},
 		config_client = {
-			default_background = "star_level_bg_533",
 			task_id = 27025,
+			subType = 1,
+			default_background = "star_level_bg_533",
 			storys = {
 				411,
 				412,
@@ -55841,9 +56021,13 @@ end)()
 		},
 		page_info = {
 			class_name = "AnniversaryNineHwahJahSkinPage",
-			ui_name = "AnniversaryNineHwahJahSkinPage"
+			ui_name = "AnniversaryNineHwahJahSkinPage",
+			sub_ui = {
+				"AnniversaryNineHwahJahTaskWindow"
+			}
 		},
 		config_client = {
+			subType = 1,
 			unlock_task = {
 				{
 					27141,
@@ -58210,6 +58394,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1114] = {
 		mark = 20251211,
 		page_info = "",
@@ -58302,8 +58488,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[2001] = {
 		mark = 20180327,
 		page_info = "",
@@ -61287,6 +61471,8 @@ end)()
 			ui_name = "shenshengxvmupage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40180] = {
 		mark = 20201126,
 		page_info = "",
@@ -61335,8 +61521,6 @@ end)()
 			1260041
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40182] = {
 		mark = 20201126,
 		page_info = "",
@@ -64085,6 +64269,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40280] = {
 		mark = 20210325,
 		page_info = "",
@@ -64113,8 +64299,6 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40282] = {
 		mark = 20210325,
 		page_info = "",
@@ -67306,6 +67490,8 @@ end)()
 			15787
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40381] = {
 		mark = 20210812,
 		page_info = "",
@@ -67347,8 +67533,6 @@ end)()
 			15055
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40383] = {
 		mark = 20210812,
 		time = "stop",
@@ -71374,6 +71558,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40488] = {
 		mark = 20211223,
 		page_info = "",
@@ -71470,8 +71656,6 @@ end)()
 			itemid = 42005
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40490] = {
 		mark = 20211223,
 		type = 18,
@@ -74939,6 +75123,8 @@ end)()
 			ui_name = "xiaotianchengptpage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40590] = {
 		mark = 20220324,
 		page_info = "",
@@ -74982,8 +75168,6 @@ end)()
 			214
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40592] = {
 		mark = 20220407,
 		page_info = "",
@@ -77969,6 +78153,8 @@ end)()
 			ui_name = "saratogaskinpage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40733] = {
 		mark = 20220804,
 		page_info = "",
@@ -78027,8 +78213,6 @@ end)()
 			entrance_bg = "activitybanner/temp10"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40735] = {
 		mark = 20220804,
 		page_info = "",
@@ -80374,6 +80558,8 @@ end)()
 			18014
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40942] = {
 		mark = 20221117,
 		page_info = "",
@@ -80430,8 +80616,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40944] = {
 		mark = 20221117,
 		page_info = "",
@@ -83361,6 +83545,8 @@ end)()
 			288
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41081] = {
 		mark = 20230216,
 		page_info = "",
@@ -83424,8 +83610,6 @@ end)()
 			painting = "jifu_pt"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41083] = {
 		mark = 20230216,
 		time = "stop",
@@ -86877,6 +87061,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41230] = {
 		mark = 20230713,
 		time = "stop",
@@ -86932,8 +87118,6 @@ end)()
 			17882
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41232] = {
 		mark = 20230713,
 		type = 74,
@@ -91213,6 +91397,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41344] = {
 		mark = 20231012,
 		page_info = "",
@@ -91248,8 +91434,6 @@ end)()
 		id = 41345,
 		page_core = ""
 	}
-end)()
-(function ()
 	pg.base.activity_template[41346] = {
 		mark = 20231012,
 		page_info = "",
@@ -94826,6 +95010,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[45067] = {
 		mark = 20250430,
 		type = 70,
@@ -94933,8 +95119,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[45069] = {
 		mark = 20250430,
 		page_info = "",

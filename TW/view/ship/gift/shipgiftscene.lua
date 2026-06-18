@@ -128,6 +128,8 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	slot0:StopPreVoice()
+
 	for slot4, slot5 in ipairs(slot0.eventList) do
 		slot0:disconnect(slot5)
 	end
@@ -242,6 +244,12 @@ slot0.OnGiftSuccess = function(slot0, slot1)
 	slot0.selectCnt = 0
 
 	slot0:RefreshUI()
+
+	slot8 = slot3 == ShipGiftConst.GIFT_FAVORITE_STATE.HATE
+
+	eachChild(slot0.adapt:Find("VX"), function (slot0, slot1)
+		setActive(slot0, not uv0)
+	end)
 	slot0.anim:Play("anim_ShipGiftUI_success")
 end
 
@@ -332,6 +340,12 @@ slot0.displayShipWord = function(slot0, slot1, slot2)
 		else
 			slot10()
 		end
+	end
+end
+
+slot0.StopPreVoice = function(slot0)
+	if slot0.preVoiceContent ~= nil then
+		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0.preVoiceContent)
 	end
 end
 

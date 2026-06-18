@@ -145,14 +145,10 @@ slot0.IsTimelimitShopTip = function(slot0)
 	return underscore.any(slot0 and {
 		getProxy(ApartmentProxy):getRoom(slot0)
 	} or underscore.values(getProxy(ApartmentProxy).roomData), function (slot0)
-		slot1 = slot0:GetFurnitures()
-
 		return _.any(pg.dorm3d_furniture_template.get_id_list_by_room_id[slot0:GetConfigID()] or {}, function (slot0)
 			return Dorm3dFurniture.New({
 				configId = slot0
-			}):GetEndTime() > 0 and slot1:InShopTime() and not _.detect(uv0, function (slot0)
-				return slot0:GetConfigID() == uv0
-			end)
+			}):GetEndTime() > 0 and slot1:InShopTime() and Dorm3dFurniture.GetViewedFlag(slot0) == 0
 		end)
 	end)
 end

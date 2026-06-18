@@ -30,7 +30,8 @@ pg.soundstory_template.all = {
 	25,
 	26,
 	27,
-	28
+	28,
+	29
 }
 pg.base = pg.base or {}
 pg.base.soundstory_template = {}
@@ -74,7 +75,7 @@ pg.base.soundstory_template = {}
 		overview = "「指揮官喜歡大海嗎，樫野我很喜歡哦！」\n和樫野一起享受碧海陽光 \n冰涼的海水也無法掩蓋她熾熱的內心",
 		order = 2,
 		audition_text = "呼，真開心呀♪嘿嘿，有點不小心鬧過頭了呢。 有多久沒在海邊像這樣玩的這麼開心了呢？",
-		time = "stop",
+		time = "always",
 		ship_id = 31901,
 		id = 2,
 		captions_color = "#2e78d0",
@@ -412,9 +413,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
-					8,
-					7
+					2026,
+					6,
+					18
 				},
 				{
 					0,
@@ -424,9 +425,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
-					8,
-					20
+					2026,
+					6,
+					24
 				},
 				{
 					23,
@@ -1329,6 +1330,59 @@ pg.base.soundstory_template = {}
 					2026,
 					2,
 					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.soundstory_template[29] = {
+		story_pic = "",
+		name = "浴室中的親密接觸",
+		story_resource_JP = "soundStory29_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "十二棱子",
+		audition_resource_JP = "ss-960010-1",
+		overview = "游泳結束後前往浴室，聽到洗澡間傳來快樂的哼歌聲……但是此刻想要離開的話，已經來不及了~",
+		order = 2,
+		audition_text = "唔……有一種好難形容的感覺！",
+		ship_id = 960010,
+		id = 29,
+		captions_color = "#5d2528",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					6,
+					24
 				},
 				{
 					23,

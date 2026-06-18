@@ -29,6 +29,10 @@ slot0.CVBattleKey = {
 	warcry = "warcry",
 	mvp = "mvp"
 }
+slot0.CVGiftKey = {
+	gift_prefer = "gift_prefer",
+	present_like = "present_like"
+}
 slot6 = false
 
 slot7 = function(...)

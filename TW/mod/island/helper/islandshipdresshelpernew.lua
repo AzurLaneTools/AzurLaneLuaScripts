@@ -25,6 +25,12 @@ slot0.ComponentType = {
 	Headware = 4,
 	Hair = 3
 }
+slot0.DressType2ComponentType = {
+	[slot0.DressType.Body] = slot0.ComponentType.Body,
+	[slot0.DressType.Face] = slot0.ComponentType.Face,
+	[slot0.DressType.Hair] = slot0.ComponentType.Hair,
+	[slot0.DressType.Hat] = slot0.ComponentType.Headware
+}
 
 slot0.Ctor = function(slot0, slot1)
 	if slot1 then
@@ -268,8 +274,35 @@ slot0.OnRoleLoaded = function(slot0, slot1, slot2, slot3)
 	slot0.modelData = slot2
 	slot0.roleTF = slot1
 	slot0.hasTF = true
+	slot0.commanderPartTokens = {}
 
 	slot0:InitDressTF(slot3)
+end
+
+slot0.IsRoleValid = function(slot0, slot1)
+	if not slot0.hasTF then
+		return false
+	end
+
+	if not slot0.roleTF or IsNil(slot0.roleTF) or slot0.roleTF.childCount <= 0 then
+		return false
+	end
+
+	if slot1 and IsNil(slot1) then
+		return false
+	end
+
+	return true
+end
+
+slot0.ResetFootprint = function(slot0)
+	if not slot0.roleTF or IsNil(slot0.roleTF) then
+		return
+	end
+
+	if slot0.roleTF:GetComponent(typeof(CharacterFootprintMgr)) then
+		slot1:ResetFootprint()
+	end
 end
 
 slot0.RemoveDressTF = function(slot0)
@@ -281,56 +314,179 @@ slot0.RemoveDressTF = function(slot0)
 	end
 
 	slot0.pageDressTFDic = {}
+
+	slot0:ResetFootprint()
 end
 
 slot0.ChangeCommanderPartColor = function(slot0, slot1, slot2)
+	if not uv0.DressType2ComponentType[slot1] then
+		return
+	end
+
+	if not slot0:IsRoleValid() then
+		return
+	end
+
 	if slot2 == 0 then
-		GraphicsInterface.Instance:ResetCharacterComponentMaterialData(slot0.roleTF:GetChild(0).gameObject, uv0.ComponentType.Hair)
+		GraphicsInterface.Instance:ResetCharacterComponentMaterialData(slot0.roleTF:GetChild(0).gameObject, slot3)
 	else
 		GraphicsInterface.Instance:SetCharacterComponentMaterialData(slot0.roleTF:GetChild(0).gameObject, pg.island_dress_colordiff_template[slot2].model)
 	end
 end
 
-slot0.ChangeCommanderPart = function(slot0, slot1, slot2)
-	slot4 = slot2.colorId
-	slot0.commanderDressDic[slot1] = slot2.id
+slot0.SetCommanderHairBlendShape = function(slot0, slot1)
+	if not slot1 or slot1 == 0 then
+		GraphicsInterface.Instance:SetCharacterBlendShape(slot0, uv0.ComponentType.Hair, 0, 0)
+		GraphicsInterface.Instance:SetCharacterBlendShape(slot0, uv0.ComponentType.Hair, 1, 0)
 
-	slot5 = function()
-		if (uv0.commanderDressDic[uv1.DressType.Hat] or 0) == 0 then
-			GraphicsInterface.Instance:SetCharacterBlendShape(uv0.roleTF:GetChild(0).gameObject, uv1.ComponentType.Hair, 0, 0)
-			GraphicsInterface.Instance:SetCharacterBlendShape(uv0.roleTF:GetChild(0).gameObject, uv1.ComponentType.Hair, 1, 0)
-		else
-			slot1 = pg.island_dress_template[slot0].sub_type - 1
-
-			GraphicsInterface.Instance:SetCharacterBlendShape(uv0.roleTF:GetChild(0).gameObject, uv1.ComponentType.Hair, slot1, 100)
-			GraphicsInterface.Instance:SetCharacterBlendShape(uv0.roleTF:GetChild(0).gameObject, uv1.ComponentType.Hair, 1 - slot1, 0)
-		end
+		return
 	end
+
+	if not pg.island_dress_template[slot1] then
+		return
+	end
+
+	slot3 = slot2.sub_type - 1
+
+	GraphicsInterface.Instance:SetCharacterBlendShape(slot0, uv0.ComponentType.Hair, slot3, 100)
+	GraphicsInterface.Instance:SetCharacterBlendShape(slot0, uv0.ComponentType.Hair, 1 - slot3, 0)
+end
+
+slot0.SetCommanderHairAndFaceShow = function(slot0, slot1)
+	GraphicsInterface.Instance:SetCharacterComponentShow(slot0, uv0.ComponentType.Hair, slot1)
+	GraphicsInterface.Instance:SetCharacterComponentShow(slot0, uv0.ComponentType.Face, slot1)
+end
+
+slot0.RefreshCommanderHatState = function(slot0, slot1)
+	uv0.SetCommanderHairBlendShape(slot0, slot1)
+
+	slot2 = true
+
+	if slot1 and slot1 ~= 0 then
+		slot2 = not pg.island_dress_template[slot1] or slot3.head_hide ~= 1
+	end
+
+	uv0.SetCommanderHairAndFaceShow(slot0, slot2)
+end
+
+slot0.LoadCommanderComponent = function(slot0, slot1, slot2, slot3)
+	if not pg.island_dress_template[slot1] then
+		existCall(slot3)
+
+		return
+	end
+
+	slot5 = slot4.model
+
+	if slot2 == 0 or slot2 == nil then
+		GraphicsInterface.Instance:LoadCharacterComponent(slot0, slot5, slot3)
+	else
+		GraphicsInterface.Instance:LoadCharacterComponentAndMaterial(slot0, slot5, pg.island_dress_colordiff_template[slot2].model, slot3)
+	end
+end
+
+slot0.LoadCommanderBaseAnimator = function(slot0)
+	if uv0.CommanderBaseRuntimeController then
+		existCall(slot0, uv0.CommanderBaseRuntimeController)
+
+		return
+	end
+
+	if (pg.island_unit_character[0] and slot1.animator or "") == "" then
+		existCall(slot0)
+
+		return
+	end
+
+	slot3 = IslandAssetLoadDispatcher.Instance
+
+	slot3:Enqueue(slot2, "", typeof(RuntimeAnimatorController), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		uv0.CommanderBaseRuntimeController = slot0
+
+		existCall(uv1, slot0)
+	end), true, true)
+end
+
+slot0.BuildCommanderCustomParts = function(slot0, slot1, slot2, slot3)
+	slot4 = nil
+	slot5 = 0
 
 	slot6 = function()
-		if uv0 == uv1.DressType.Hat then
-			uv2:ChangeCommanderPartShow(uv0, true)
-			uv3()
-		elseif uv0 == uv1.DressType.Hair then
-			uv3()
-		elseif uv0 == uv1.DressType.Face then
-			uv2.roleTF:GetChild(0).gameObject:GetComponent(typeof(Animator)):Play(pg.island_dress_template[uv4].face_clip == "" and "idle" or slot0.face_clip, 4)
+		uv0 = uv0 + 1
+
+		if uv0 == #uv1.CommanderCustom then
+			uv1.RefreshCommanderHatState(uv3, uv2(uv1.DressType.Hat) or 0)
+			existCall(uv4, uv5, uv2(uv1.DressType.Body) or 0)
 		end
 	end
 
-	if slot2.id ~= 0 then
-		slot8 = pg.island_dress_template[slot3].model
-
-		if slot4 == 0 or slot4 == nil then
-			GraphicsInterface.Instance:LoadCharacterComponent(slot0.roleTF:GetChild(0).gameObject, slot8, slot6)
+	for slot10, slot11 in ipairs(uv0.CommanderCustom) do
+		if (slot1(slot11) or 0) == 0 then
+			if slot11 == uv0.DressType.Hat then
+				GraphicsInterface.Instance:SetCharacterComponentShow(slot0, uv0.ComponentType.Headware, false, slot6)
+			else
+				slot6()
+			end
 		else
-			GraphicsInterface.Instance:LoadCharacterComponentAndMaterial(slot0.roleTF:GetChild(0).gameObject, slot8, pg.island_dress_colordiff_template[slot4].model, slot6)
+			if pg.island_dress_template[slot12] and slot13.face_clip ~= "" then
+				slot4 = slot13.face_clip
+			end
+
+			uv0.LoadCommanderComponent(slot0, slot12, slot2 and slot2(slot12) or 0, slot6)
+		end
+	end
+end
+
+slot0.ChangeCommanderPart = function(slot0, slot1, slot2, slot3)
+	if not slot0:IsRoleValid() then
+		existCall(slot3)
+
+		return
+	end
+
+	slot4 = slot2.id
+	slot5 = slot2.colorId
+	slot6 = slot0.roleTF:GetChild(0).gameObject
+	slot0.commanderPartTokens = slot0.commanderPartTokens or {}
+	slot0.commanderPartTokens[slot1] = (slot0.commanderPartTokens[slot1] or 0) + 1
+	slot7 = slot0.commanderPartTokens[slot1]
+	slot0.commanderDressDic[slot1] = slot4
+
+	slot8 = function()
+		if uv0 ~= (uv1.commanderPartTokens and uv1.commanderPartTokens[uv2] or 0) or not uv1:IsRoleValid(uv3) then
+			existCall(uv4)
+
+			return
+		end
+
+		if uv2 == uv5.DressType.Hat then
+			uv1:ChangeCommanderPartShow(uv2, true)
+			uv5.RefreshCommanderHatState(uv3, uv6)
+		elseif uv2 == uv5.DressType.Hair then
+			uv5.RefreshCommanderHatState(uv3, uv1.commanderDressDic[uv5.DressType.Hat] or 0)
+		elseif uv2 == uv5.DressType.Face then
+			slot1 = pg.island_dress_template[uv6].face_clip == "" and "idle" or slot0.face_clip
+
+			if uv3:GetComponent(typeof(Animator)) and not IsNil(slot2) then
+				slot2:Play(slot1, 4)
+			end
+		elseif uv2 == uv5.DressType.Body then
+			uv1:ApplyAnimatorOverride(uv6, uv4)
 		end
 	end
 
-	if slot1 == uv0.DressType.Hat and slot3 == 0 then
-		slot0:ChangeCommanderPartShow(slot1, false)
-		slot5()
+	if slot4 ~= 0 then
+		uv0.LoadCommanderComponent(slot6, slot4, slot5, slot8)
+	end
+
+	if slot1 == uv0.DressType.Hat then
+		if slot4 == 0 then
+			slot0:ChangeCommanderPartShow(slot1, false)
+			uv0.RefreshCommanderHatState(slot6, 0)
+			existCall(slot3)
+		end
+	elseif slot1 == uv0.DressType.Body and slot4 == 0 then
+		slot0:ApplyAnimatorOverride(0, slot3)
 	end
 end
 
@@ -346,18 +502,36 @@ slot0.LoadDressObjectItem = function(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		if uv1 ~= uv0.shipId then
+		if not uv0.currentDressDataDic[uv1] then
 			return
 		end
 
-		if uv0.currentDressDataDic[uv2].id ~= uv3 then
+		if uv2 ~= uv0.shipId then
 			return
 		end
 
-		slot1 = Object.Instantiate(slot0)
+		if slot1.id ~= uv3 then
+			return
+		end
 
-		pg.ViewUtils.SetLayer(slot1.transform, uv0.isScene and Layer.Default or Layer.Character3D)
-		switch(uv2, {
+		if uv1 == uv4.DressType.Footprint then
+			slot2 = GetOrAddComponent(uv0.roleTF, typeof(CharacterFootprintMgr))
+			slot3 = Vector3(0, 0, 0)
+
+			if uv5.offset ~= "" then
+				slot3 = Vector3(uv5.offset[1], uv5.offset[2], uv5.offset[3])
+			end
+
+			slot2:SetFootprintPrefab(uv5.footprint_type, slot0, slot3)
+			existCall(uv6)
+
+			return
+		end
+
+		slot2 = Object.Instantiate(slot0)
+
+		pg.ViewUtils.SetLayer(slot2.transform, uv0.isScene and Layer.Default or Layer.Character3D)
+		switch(uv1, {
 			[uv4.DressType.BackDecorate] = function ()
 				slot0 = uv0.roleTF.transform
 
@@ -423,23 +597,12 @@ slot0.LoadDressObjectItem = function(slot0, slot1, slot2, slot3)
 				slot2.lerpSpeed = slot3[2]
 				slot2.recordInterval = slot3[3]
 				slot2.rotationOffest = slot1
-			end,
-			[uv4.DressType.Footprint] = function ()
-				slot0 = Vector3(0, 0, 0)
-
-				if uv0.offset ~= "" then
-					slot0 = Vector3(uv0.offset[1], uv0.offset[2], uv0.offset[3])
-				end
-
-				setParent(uv1, uv2.roleTF)
-
-				uv1.transform.localPosition = slot0
 			end
 		})
 
-		uv0.pageDressTFDic[uv3] = slot1
+		uv0.pageDressTFDic[uv3] = slot2
 
-		existCall(uv6, slot1)
+		existCall(uv6, slot2)
 	end), true, true))
 end
 
@@ -452,7 +615,9 @@ slot0.ChangeDressObject = function(slot0, slot1, slot2, slot3)
 		end
 
 		if slot5 ~= 0 then
-			if slot0.pageDressTFDic[slot5] then
+			if slot1 == uv0.DressType.Footprint then
+				slot0:ResetFootprint()
+			elseif slot0.pageDressTFDic[slot5] then
 				Object.Destroy(slot6)
 
 				slot0.pageDressTFDic[slot5] = nil
@@ -479,7 +644,7 @@ slot0.ChangeDressByType = function(slot0, slot1, slot2, slot3)
 	end
 
 	if table.contains(uv0.CommanderCustom, slot1) then
-		slot0:ChangeCommanderPart(slot1, slot2)
+		slot0:ChangeCommanderPart(slot1, slot2, slot3)
 	else
 		slot0:ChangeDressObject(slot1, slot2, slot3)
 	end
@@ -490,6 +655,10 @@ slot0.ChangeCommanderPartShow = function(slot0, slot1, slot2)
 		return
 	end
 
+	if not slot0:IsRoleValid() then
+		return
+	end
+
 	GraphicsInterface.Instance:SetCharacterComponentShow(slot0.roleTF:GetChild(0).gameObject, uv0.ComponentType.Headware, slot2)
 end
 
@@ -497,30 +666,25 @@ slot0.ChangeModelTransfromByUnitId = function(slot0, slot1, slot2, slot3)
 	slot0.gcCnt = slot0.gcCnt + 1
 	slot4 = pg.island_unit_character[slot1]
 	slot0.hasTF = false
+	slot0.commanderPartTokens = {}
+	slot0.animatorOverrideToken = (slot0.animatorOverrideToken or 0) + 1
 
+	slot0:StopMorphSwitch()
 	slot0:RemoveDressTF()
 
 	slot0.dataAfterRoleInit = slot0.currentDressDataDic
 	slot0.currentDressDataDic = {}
-	slot5 = slot0.roleTF
-	slot6 = pg.UIMgr.GetInstance()
 
-	slot6:LoadingOn()
-
-	slot6 = _IslandCore
-	slot6 = slot6:GetPoolMgr()
-
-	slot6:ReturnCharacterModel(slot0.modelData.model, slot0.modelData.animator, slot5:GetChild(0).gameObject, true)
+	pg.UIMgr.GetInstance():LoadingOn()
+	_IslandCore:GetPoolMgr():ReturnCharacterModel(slot0.modelData.model, slot0.modelData.animator, slot0.roleTF:GetChild(0).gameObject, true)
 
 	slot0.modelData = {
 		model = slot4.model,
 		animator = slot4.animator,
 		personal_ani = slot4.personal_ani
 	}
-	slot6 = _IslandCore
-	slot6 = slot6:GetPoolMgr()
 
-	slot6:GetCharacterModel(slot0.modelData.model, slot0.modelData.animator, function (slot0)
+	_IslandCore:GetPoolMgr():GetCharacterModel(slot0.modelData.model, slot0.modelData.animator, function (slot0)
 		pg.UIMgr.GetInstance():LoadingOff()
 
 		uv0.hasTF = true
@@ -548,7 +712,10 @@ end
 slot0.ChangeModelTransfromByUnitIdAndChangeDress = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = pg.island_unit_character[slot1]
 	slot0.hasTF = false
+	slot0.commanderPartTokens = {}
+	slot0.animatorOverrideToken = (slot0.animatorOverrideToken or 0) + 1
 
+	slot0:StopMorphSwitch()
 	slot0:RemoveDressTF()
 
 	slot0.dataAfterRoleInit = slot0.currentDressDataDic
@@ -603,9 +770,99 @@ slot0.ChangeModelTransfromByUnitIdAndChangeDress = function(slot0, slot1, slot2,
 	end, true)
 end
 
+slot0.ApplyAnimatorOverride = function(slot0, slot1, slot2)
+	if not slot0.hasTF then
+		existCall(slot2)
+
+		return
+	end
+
+	if IsNil(slot0.roleTF) then
+		existCall(slot2)
+
+		return
+	end
+
+	if not slot0.roleTF:GetChild(0).gameObject:GetComponent(typeof(Animator)) then
+		existCall(slot2)
+
+		return
+	end
+
+	slot0.animatorOverrideToken = (slot0.animatorOverrideToken or 0) + 1
+	slot5 = slot0.animatorOverrideToken
+	slot6 = slot1 ~= 0 and pg.island_dress_template[slot1] or nil
+
+	if (slot6 and slot6.special_animator or "") == "" then
+		uv0.LoadCommanderBaseAnimator(function (slot0)
+			if IsNil(uv0.roleTF) then
+				existCall(uv1)
+
+				return
+			end
+
+			if not uv0.hasTF then
+				existCall(uv1)
+
+				return
+			end
+
+			if uv2 ~= uv0.animatorOverrideToken then
+				existCall(uv1)
+
+				return
+			end
+
+			if uv0.roleTF:GetChild(0).gameObject:GetComponent(typeof(Animator)) and not IsNil(slot1) and slot0 then
+				slot1.runtimeAnimatorController = slot0
+
+				slot1:Rebind()
+				slot1:Update(0)
+				slot1:Play("idle", 4)
+			end
+
+			existCall(uv1)
+		end)
+
+		return
+	end
+
+	slot8 = IslandAssetLoadDispatcher.Instance
+
+	slot8:Enqueue(slot7, "", typeof(UnityEngine.RuntimeAnimatorController), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		if IsNil(uv0.roleTF) then
+			existCall(uv1)
+
+			return
+		end
+
+		if not uv0.hasTF then
+			existCall(uv1)
+
+			return
+		end
+
+		if uv2 ~= uv0.animatorOverrideToken then
+			existCall(uv1)
+
+			return
+		end
+
+		if uv0.roleTF:GetChild(0).gameObject:GetComponent(typeof(Animator)) and not IsNil(slot1) then
+			slot1.runtimeAnimatorController = slot0
+		end
+
+		existCall(uv1)
+	end), true, true)
+end
+
 slot0.Destroy = function(slot0)
 	slot0.curIsland = nil
+	slot0.hasTF = false
+	slot0.commanderPartTokens = {}
+	slot0.animatorOverrideToken = (slot0.animatorOverrideToken or 0) + 1
 
+	slot0:StopMorphSwitch()
 	slot0:RemoveDressTF()
 
 	slot1 = ipairs
@@ -616,6 +873,17 @@ slot0.Destroy = function(slot0)
 	end
 
 	slot0.loadingIdList = nil
+	slot0.roleTF = nil
+end
+
+slot0.InvalidateRole = function(slot0)
+	slot0.hasTF = false
+	slot0.commanderPartTokens = {}
+	slot0.animatorOverrideToken = (slot0.animatorOverrideToken or 0) + 1
+
+	slot0:StopMorphSwitch()
+
+	slot0.roleTF = nil
 end
 
 slot0.ResetDressUp = function(slot0)
@@ -648,6 +916,111 @@ slot0.ResetDressUp = function(slot0)
 			})
 		end
 	end
+end
+
+slot0.DoMorphSwitch = function(slot0, slot1, slot2, slot3)
+	slot5 = slot0.roleTF and slot4.childCount > 0 and slot4:GetChild(0)
+
+	if not (slot5 and slot5.gameObject:GetComponent(typeof(Animator))) then
+		existCall(slot3)
+
+		return
+	end
+
+	slot0:StopMorphSwitch()
+
+	slot0.morphTimer = uv0.PlayMorphAndWait(slot6, pg.island_dress_template[slot1].cut_out_state, slot1, function ()
+		uv0.morphTimer = nil
+
+		existCall(uv1, uv2)
+	end)
+end
+
+slot0.StopMorphSwitch = function(slot0)
+	if slot0.morphTimer then
+		slot0.morphTimer:Stop()
+
+		slot0.morphTimer = nil
+	end
+end
+
+slot0.PlayMorphAndWait = function(slot0, slot1, slot2, slot3)
+	for slot7 = 1, slot0.layerCount do
+		slot0:CrossFadeInFixedTime(slot1, 0, slot7 - 1)
+	end
+
+	slot7 = false
+	slot8 = false
+	slot9 = false
+	slot10, slot11 = nil
+
+	FrameTimer.New(function ()
+		if IsNil(uv0) then
+			uv1()
+
+			return
+		end
+
+		if uv0:IsInTransition(0) then
+			return
+		end
+
+		if uv0:GetCurrentAnimatorStateInfo(0):IsName(uv2) then
+			uv3 = true
+		end
+
+		if uv3 and slot0.normalizedTime >= 1 then
+			uv1()
+		end
+	end, 1, -1):Start()
+	Timer.New(function ()
+		if uv0 then
+			return
+		end
+
+		if uv1 then
+			return
+		end
+
+		uv1 = true
+
+		if uv2 then
+			uv2:Stop()
+
+			uv2 = nil
+		end
+
+		if uv3 then
+			uv3:Stop()
+
+			uv3 = nil
+		end
+
+		existCall(uv4)
+	end, (pg.island_dress_template[slot2] and slot4.morph_wait_frames or 30) / 30 + 0.2, 1):Start()
+
+	return {
+		Stop = function ()
+			if uv0 then
+				return
+			end
+
+			uv1 = true
+			uv0 = true
+
+			if uv2 then
+				uv2:Stop()
+
+				uv2 = nil
+			end
+
+			if uv3 then
+				uv3:Stop()
+
+				uv3 = nil
+			end
+		end
+	}
 end
 
 return slot0

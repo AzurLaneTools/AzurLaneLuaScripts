@@ -52,7 +52,7 @@ slot0.GetOrder = function(slot0)
 end
 
 slot0.GetGoodIds = function(slot0)
-	return slot0:getConfig("goods_id")
+	return type(slot0:getConfig("goods_id")) == "table" and slot0:getConfig("goods_id") or {}
 end
 
 slot0.IsNormalShop = function(slot0)
@@ -159,6 +159,7 @@ slot0.SortCommodities = function(slot0)
 
 	for slot5, slot6 in ipairs(slot0:GetGoodIds()) do
 		if slot0:GetCommodityById(slot6) then
+			slot7:SetCfgSortIdx(slot5)
 			table.insert(slot1, slot7)
 		end
 	end
@@ -189,17 +190,21 @@ slot0.UpdateCommodity = function(slot0, slot1, slot2)
 end
 
 slot0.GetBanners = function(slot0)
-	if slot0:GetShowType() ~= 1 then
+	if slot0:GetShowType() ~= IslandConst.SHOP_TYPE_RECOMMENDATION_5 and slot0:GetShowType() ~= IslandConst.SHOP_TYPE_RECOMMENDATION_1 then
 		return nil
 	end
 
 	slot1 = {}
+	slot2 = ipairs
+	slot3 = uv0.get_id_list_by_shop_page_id[slot0.id] or {}
 
-	for slot5, slot6 in ipairs(uv0.get_id_list_by_shop_page_id[slot0.id]) do
+	for slot5, slot6 in slot2(slot3) do
 		if pg.TimeMgr.GetInstance():inTime(uv0[slot6].time) then
 			table.insert(slot1, slot7)
 		end
 	end
+
+	return slot1
 end
 
 slot0.IsInTime = function(slot0)

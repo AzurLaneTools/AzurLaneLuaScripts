@@ -46,6 +46,8 @@ slot0.register = function(slot0)
 	slot0.weakTable = setmetatable({}, {
 		__mode = "v"
 	})
+	slot0.equipmentDesignObtainWays = {}
+	slot0.equipmentDesignObtainWayIndexed = false
 end
 
 slot0.getEquipmentSkins = function(slot0)
@@ -482,6 +484,132 @@ slot0.OnShipEquipsRemove = function(slot0, slot1, slot2, slot3)
 	slot1.shipPos = slot3
 
 	slot0.weakTable.equipsDict:RemoveEquipment(slot1)
+end
+
+slot0.BuildEquipmentDesignObtainWayIndex = function(slot0)
+	if slot0.equipmentDesignObtainWayIndexed then
+		return
+	end
+
+	slot1 = function(slot0)
+		return slot0 == DROP_TYPE_ITEM or slot0 == DROP_TYPE_VITEM
+	end
+
+	slot2 = {}
+
+	slot3 = function(slot0)
+		if uv0[slot0] then
+			return uv0[slot0]
+		end
+
+		slot1 = {}
+
+		if Item.getConfigData(slot0) then
+			if slot2.type == Item.DESIGN_TYPE then
+				table.insert(slot1, slot0)
+			end
+
+			slot3 = ipairs
+			slot4 = slot2.display_icon or {}
+
+			for slot6, slot7 in slot3(slot4) do
+				slot9 = slot7[2]
+
+				if uv1(slot7[1]) and Item.getConfigData(slot9) and slot10.type == Item.DESIGN_TYPE then
+					table.insert(slot1, slot9)
+				end
+			end
+		end
+
+		uv0[slot0] = slot1
+
+		return slot1
+	end
+
+	slot4 = function(slot0)
+		uv0.equipmentDesignObtainWays[slot0] = uv0.equipmentDesignObtainWays[slot0] or {
+			{},
+			false,
+			false
+		}
+
+		return uv0.equipmentDesignObtainWays[slot0]
+	end
+
+	slot5 = function(slot0)
+		return slot0.act_id == 0 or slot0.act_id == 100001
+	end
+
+	for slot9, slot10 in ipairs(pg.chapter_template.all) do
+		if slot5(pg.chapter_template[slot10]) then
+			slot12 = slot11.awards or {}
+			slot13 = {}
+
+			for slot17, slot18 in ipairs(slot12) do
+				slot20 = slot18[2]
+
+				if slot1(slot18[1]) then
+					for slot24, slot25 in ipairs(slot3(slot20)) do
+						if not slot13[slot25] then
+							table.insert(slot4(slot25)[1], slot10)
+
+							slot13[slot25] = true
+						end
+					end
+				end
+			end
+		end
+	end
+
+	for slot9, slot10 in ipairs(pg.technology_data_template.all) do
+		slot11 = pg.technology_data_template[slot10].drop_client or {}
+
+		for slot15, slot16 in ipairs(slot11) do
+			slot18 = slot16[2]
+
+			if slot1(slot16[1]) then
+				for slot22, slot23 in ipairs(slot3(slot18)) do
+					slot4(slot23)[2] = true
+				end
+			end
+		end
+	end
+
+	if getProxy(ShopsProxy):getFragmentShop() then
+		for slot11, slot12 in ipairs(slot6:GetCommodities(designId)) do
+			for slot16, slot17 in ipairs(slot12:GetDropList()) do
+				slot19 = slot17.id
+
+				if slot17.type == DROP_TYPE_ITEM and Item.getConfigData(slot19) and slot20.type == Item.DESIGN_TYPE then
+					slot4(slot20.id)[3] = true
+				end
+			end
+		end
+	end
+
+	slot0.equipmentDesignObtainWayIndexed = true
+end
+
+slot0.ShouldShowEquipmentDesignObtainWay = function(slot0, slot1)
+	slot0:BuildEquipmentDesignObtainWayIndex()
+
+	if not slot0.equipmentDesignObtainWays[slot1] then
+		return false
+	end
+
+	return #slot2[1] > 0 or slot2[2] or slot2[3]
+end
+
+slot0.GetObtainWay4EquipmentDesign = function(slot0, slot1)
+	slot0:BuildEquipmentDesignObtainWayIndex()
+
+	slot0.equipmentDesignObtainWays[slot1] = slot0.equipmentDesignObtainWays[slot1] or {
+		{},
+		false,
+		false
+	}
+
+	return slot0.equipmentDesignObtainWays[slot1]
 end
 
 return slot0

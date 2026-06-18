@@ -113,6 +113,36 @@ slot0.GetChannelUID = function(slot0)
 	return slot1
 end
 
+slot0.IsTestServer = function(slot0)
+	return NetConst.getwayType == 2
+end
+
+slot0.GetChannelUIDIncludeHarmony = function(slot0)
+	slot1 = function()
+		return uv0:GetChannelUID() == "harmony" and 9999 or tonumber(slot0)
+	end
+
+	if slot0:IsTestServer() or IsUnityEditor then
+		slot2 = nil
+
+		if not PathMgr.FileExists((not IsUnityEditor or PathMgr.getAssetBundle("../localization.txt")) and Application.persistentDataPath .. "/localization.txt") then
+			return slot1()
+		end
+
+		if (PathMgr.ReadAllLines(slot2).Length <= 2 or not slot3[2]) and not "" or slot4 == "" then
+			return slot1()
+		end
+
+		if tonumber(slot4:match("^%s*ChannelUID%s*=%s*(%d+)")) then
+			return slot5
+		else
+			return slot1()
+		end
+	else
+		return slot1()
+	end
+end
+
 slot0.GetLoginType = function(slot0)
 	if PathMgr.FileExists(Application.persistentDataPath .. "/server_config.txt") then
 		return LoginType.PLATFORM_INNER
