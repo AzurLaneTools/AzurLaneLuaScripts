@@ -181834,6 +181834,32 @@ _G.pg.base.item_virtual_data_statistics[65990] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65991] = {
+	drop_gold_max = 0,
+	name = "Rental Outfit Voucher",
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65991,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65910] = {
 	drop_gold_max = 0,
 	name = "Rental Outfit Voucher (Toward Tulipa's Seas)",
@@ -184277,58 +184303,6 @@ _G.pg.base.item_virtual_data_statistics[66033] = {
 }
 
 
-_G.pg.base.item_virtual_data_statistics[66034] = {
-	drop_gold_max = 0,
-	name = "Golden Crystal Fragments",
-	display = "\"Light of the Martyrium\" event currency. Removed after the event ends.",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	album_config = "",
-	icon = "Props/huiguang_pt1",
-	order = 0,
-	rarity = 2,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 66034,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
-_G.pg.base.item_virtual_data_statistics[66035] = {
-	drop_gold_max = 0,
-	name = "UR Voucher",
-	display = "Can be used to claim the UR shipgirl Mogador from the event page or the shop. Removed after the event ends.",
-	type = 98,
-	is_world = 0,
-	shop_id = -1,
-	replace_item = 0,
-	time_limit = 0,
-	link_id = 0,
-	album_config = "",
-	icon = "Props/huiguang_pt2",
-	order = 0,
-	rarity = 3,
-	max_num = 0,
-	drop_oil_max = 0,
-	virtual_type = 0,
-	id = 66035,
-	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {}
-}
-
-
 _G.pg.base.item_virtual_data_statistics[66036] = {
 	drop_gold_max = 0,
 	name = "Returnee Points",
@@ -184347,6 +184321,110 @@ _G.pg.base.item_virtual_data_statistics[66036] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 66036,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66041] = {
+	drop_gold_max = 0,
+	name = "Golden Crystal Fragments",
+	display = "\"Light of the Martyrium Rerun\" event currency. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/huiguang_pt1",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66041,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66042] = {
+	drop_gold_max = 0,
+	name = "UR Voucher",
+	display = "Can be used to claim the UR shipgirl Mogador from the event page or the shop. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/huiguang_pt2",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66042,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66043] = {
+	drop_gold_max = 0,
+	name = "Shipbuilding Support Ticket",
+	display = "A limited construction ticket for use during the \"Light of the Martyrium Rerun\" event. Removed after the event ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 51044,
+	album_config = "",
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 66043,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66044] = {
+	drop_gold_max = 0,
+	name = "Training Points",
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/xunliandianshu_m1",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66044,
 	display_icon = {},
 	price = {},
 	index = {},

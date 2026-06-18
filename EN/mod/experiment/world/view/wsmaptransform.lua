@@ -14,7 +14,7 @@ slot0.SetModelOrder = function(slot0, slot1, slot2)
 	assert(slot0.transform)
 
 	if not GetComponent(slot0.transform, typeof(Canvas)) then
-		setCanvasOverrideSorting(slot0.transform, true)
+		SetCanvasOverrideSorting(slot0.transform, true)
 	end
 
 	slot3 = 0

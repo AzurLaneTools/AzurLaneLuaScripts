@@ -40,7 +40,7 @@ slot0.updateRedPoint = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0:UnOverlayPanel(slot0.blurPanel, slot0._tf)
 
 	slot0.rightLSC.onReturnItem = nil
 
@@ -122,11 +122,11 @@ slot0.addBtnListener = function(slot0)
 	onToggle(slot0, slot0.switchBtn, function (slot0)
 		if slot0 then
 			setActive(uv0.pointTF, false)
-			pg.UIMgr.GetInstance():OverlayPanel(uv0.blurPanel)
+			uv0:OverlayPanel(uv0.blurPanel)
 			uv0:emit(TechnologyConst.OPEN_TECHNOLOGY_NATION_LAYER)
 		else
 			setActive(uv0.pointTF, true)
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.blurPanel, uv0._tf)
+			uv0:UnOverlayPanel(uv0.blurPanel, uv0._tf)
 			uv0:emit(TechnologyConst.CLOSE_TECHNOLOGY_NATION_LAYER)
 		end
 	end, SFX_PANEL)

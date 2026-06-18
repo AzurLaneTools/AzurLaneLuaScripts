@@ -141,6 +141,11 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	}
+	pg.base.voice_bgm.ActivityShop51032 = {
+		default_bgm = "story-startravel",
+		special_bgm = "",
+		bgm = "story-startravel"
+	}
 	pg.base.voice_bgm.ActivityShop50486 = {
 		default_bgm = "story-wanderingcity-future",
 		special_bgm = "",
@@ -501,13 +506,13 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "theme-partydress"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.AnniversarySixLoginPage = {
 		default_bgm = "theme-partydress",
 		special_bgm = "",
 		bgm = "theme-partydress"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.RyzaPtPage = {
 		default_bgm = "ryza-4",
 		special_bgm = "",
@@ -1198,13 +1203,13 @@ end)()
 		special_bgm = "",
 		bgm = "level"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.EducateMapScene = {
 		default_bgm = "votefes-start",
 		special_bgm = "",
 		bgm = "votefes-start"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.EducateCharDockScene = {
 		default_bgm = "story-richang-8",
 		special_bgm = "",
@@ -1700,13 +1705,13 @@ end)()
 		special_bgm = "",
 		bgm = "battle-boss-italy"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.YidaliV3MainRePage = {
 		default_bgm = "story-roma-inside",
 		special_bgm = "",
 		bgm = "story-roma-inside"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.YidaliV3PtRePage = {
 		default_bgm = "story-roma-outside",
 		special_bgm = "",
@@ -2202,13 +2207,13 @@ end)()
 		special_bgm = "",
 		bgm = "story-royalnavy-serious"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.CelebrationPage = {
 		default_bgm = "story-musicanniversary-gorgeous",
 		special_bgm = "",
 		bgm = "story-musicanniversary-gorgeous"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.AnniversaryEightLoginPage = {
 		default_bgm = "story-musicanniversary-gorgeous",
 		special_bgm = "",
@@ -2704,13 +2709,13 @@ end)()
 		special_bgm = "",
 		bgm = "story-fantasyland-summer"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.HamanIITaskSkinPage = {
 		default_bgm = "story-richang-9",
 		special_bgm = "",
 		bgm = "story-richang-9"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.TianqiongMedalAlbumView = {
 		default_bgm = "story-weimu-link",
 		special_bgm = "",
@@ -3006,6 +3011,11 @@ end)()
 		special_bgm = "",
 		bgm = "doa_story3"
 	}
+	pg.base.voice_bgm.HolidayHwahJahSkinPage = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
+	}
 	pg.base.voice_bgm.AnniversaryNineHwahJahSkinPage = {
 		default_bgm = "story-richang-light",
 		special_bgm = "",
@@ -3090,5 +3100,30 @@ end)()
 		default_bgm = "story-tulipa",
 		special_bgm = "",
 		bgm = "story-tulipa"
+	}
+	pg.base.voice_bgm.LuminousMainPage = {
+		default_bgm = "theme-lightheven",
+		special_bgm = "",
+		bgm = "theme-lightheven"
+	}
+	pg.base.voice_bgm.LuminousPtPage = {
+		default_bgm = "theme-lightheven",
+		special_bgm = "",
+		bgm = "theme-lightheven"
+	}
+	pg.base.voice_bgm.LuminousFramePage = {
+		default_bgm = "theme-schoolfuture",
+		special_bgm = "",
+		bgm = "theme-schoolfuture"
+	}
+	pg.base.voice_bgm.LuminousTaskPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	}
+	pg.base.voice_bgm.LuminousLoginPage = {
+		default_bgm = "story-startravel",
+		special_bgm = "",
+		bgm = "story-startravel"
 	}
 end)()

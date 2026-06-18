@@ -12983,22 +12983,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Götz von Berlichingen guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Get Alsace guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Bismarck Zwei added to standard build pool!"
+	tip = "Strasbourg, Dupleix added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Regensburg and others added to standard build pool!"
+	tip = "L'Audacieux added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Bismarck Zwei and U-556 META added to standard build pool!"
+	tip = "Bismarck Zwei, U-556 META added to standard build pool!"
 }
 
 
