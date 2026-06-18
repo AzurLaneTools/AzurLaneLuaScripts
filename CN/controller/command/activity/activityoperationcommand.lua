@@ -872,6 +872,7 @@ slot0.performance = function(slot0, slot1, slot2, slot3, slot4)
 
 		getProxy(ActivityProxy):updateActivity(uv1)
 		uv3:sendNotification(ActivityProxy.ACTIVITY_OPERATION_DONE, uv6.activity_id)
+		existCall(uv6.callback)
 	end)
 
 	(function ()

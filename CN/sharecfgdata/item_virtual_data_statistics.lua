@@ -184640,6 +184640,32 @@ _G.pg.base.item_virtual_data_statistics[65990] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65991] = {
+	drop_gold_max = 0,
+	name = "换装体验券",
+	display = "用于「限时体验商店」兑换角色限时换装",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65991,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65918] = {
 	drop_gold_max = 0,
 	name = "神圣联合帝国金币",
@@ -187127,6 +187153,110 @@ _G.pg.base.item_virtual_data_statistics[66036] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 66036,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66041] = {
+	drop_gold_max = 0,
+	name = "辉光碎晶",
+	display = "用于「绽放于辉光之城」复刻活动的常规兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/huiguang_pt1",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66041,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66042] = {
+	drop_gold_max = 0,
+	name = "审判庭事件报告书",
+	display = "用于「绽放于辉光之城」复刻活动的特殊兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/huiguang_pt2",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66042,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66043] = {
+	drop_gold_max = 0,
+	name = "单次建造券",
+	display = "于「绽放于辉光之城」活动限时复刻中获取，可以免费进行一次「绽放于辉光之城」限定建造（活动结束后消失）",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 51044,
+	album_config = "",
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 66043,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66044] = {
+	drop_gold_max = 0,
+	name = "训练点数",
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/xunliandianshu_m1",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66044,
 	display_icon = {},
 	price = {},
 	index = {},

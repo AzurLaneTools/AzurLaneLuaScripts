@@ -12520,17 +12520,17 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 {namecode:557}(最多4次)"
+	tip = "每累计建造200次可获得海上传奇舰船 阿尔萨斯(最多4次)"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "{namecode:514} 建造追加！"
+	tip = "斯特拉斯堡、迪普莱克斯 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:516}、{namecode:510} 建造追加！"
+	tip = "果敢 建造追加！"
 }
 
 

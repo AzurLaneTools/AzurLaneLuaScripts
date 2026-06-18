@@ -529,6 +529,15 @@ pg.player_resource.all = {
 	714,
 	715,
 	716,
+	717,
+	718,
+	719,
+	720,
+	721,
+	722,
+	732,
+	733,
+	734,
 	950,
 	951,
 	952,
@@ -1177,6 +1186,12 @@ pg.player_resource.get_id_list_by_name = {
 	huiguang_pt2 = {
 		411
 	},
+	huiguang_pt3 = {
+		717
+	},
+	huiguang_pt4 = {
+		718
+	},
 	idolMasterPT = {
 		215
 	},
@@ -1224,6 +1239,15 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	limit_skinticket10 = {
 		467
+	},
+	limit_skinticket105 = {
+		732
+	},
+	limit_skinticket106 = {
+		733
+	},
+	limit_skinticket107 = {
+		734
 	},
 	limit_skinticket11 = {
 		468
@@ -1503,6 +1527,15 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	limit_skinticket95 = {
 		714
+	},
+	limit_skinticket96 = {
+		719
+	},
+	limit_skinticket97 = {
+		720
+	},
+	limit_skinticket98 = {
+		721
 	},
 	liuzhounianhaidao_pt = {
 		350
@@ -1806,6 +1839,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	skinTicket12 = {
 		181
+	},
+	skinTicket120 = {
+		722
 	},
 	skinTicket13 = {
 		184
@@ -5250,6 +5286,51 @@ end)()
 		name = "limit_skinticket93",
 		itemid = 68294
 	}
+	pg.base.player_resource[717] = {
+		id = 717,
+		name = "huiguang_pt3",
+		itemid = 66041
+	}
+	pg.base.player_resource[718] = {
+		id = 718,
+		name = "huiguang_pt4",
+		itemid = 66042
+	}
+	pg.base.player_resource[719] = {
+		id = 719,
+		name = "limit_skinticket96",
+		itemid = 68303
+	}
+	pg.base.player_resource[720] = {
+		id = 720,
+		name = "limit_skinticket97",
+		itemid = 68304
+	}
+	pg.base.player_resource[721] = {
+		id = 721,
+		name = "limit_skinticket98",
+		itemid = 68305
+	}
+	pg.base.player_resource[722] = {
+		id = 722,
+		name = "skinTicket120",
+		itemid = 65991
+	}
+	pg.base.player_resource[732] = {
+		id = 732,
+		name = "limit_skinticket105",
+		itemid = 68321
+	}
+	pg.base.player_resource[733] = {
+		id = 733,
+		name = "limit_skinticket106",
+		itemid = 68322
+	}
+	pg.base.player_resource[734] = {
+		id = 734,
+		name = "limit_skinticket107",
+		itemid = 68323
+	}
 	pg.base.player_resource[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -5575,6 +5656,8 @@ end)()
 		name = "battlepass_4",
 		itemid = 59280
 	}
+end)()
+(function ()
 	pg.base.player_resource[4005] = {
 		id = 4005,
 		name = "battlepass_5",
@@ -5620,8 +5703,6 @@ end)()
 		name = "Battlepass_13",
 		itemid = 59493
 	}
-end)()
-(function ()
 	pg.base.player_resource[4014] = {
 		id = 4014,
 		name = "Battlepass_14",
