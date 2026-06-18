@@ -48,6 +48,10 @@ pg.ship_meta_breakout.all = {
 	9701112,
 	9701113,
 	9701114,
+	9701121,
+	9701122,
+	9701123,
+	9701124,
 	9702011,
 	9702012,
 	9702013,
@@ -946,6 +950,69 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
+	pg.base.ship_meta_breakout[9701121] = {
+		breakout_view = "[염추의 재·브리스톨] 습득 / 무기 보정 +2%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9701122,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701121,
+		item1 = 21062,
+		level = 10,
+		weapon_ids = {
+			80641
+		}
+	}
+	pg.base.ship_meta_breakout[9701122] = {
+		breakout_view = "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 무기 보정 +3%",
+		item2 = 21001,
+		pre_id = 9701121,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9701123,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701122,
+		item1 = 21062,
+		level = 30,
+		weapon_ids = {
+			108,
+			108
+		}
+	}
+	pg.base.ship_meta_breakout[9701123] = {
+		breakout_view = "[염추의 재·브리스톨] 강화 / 무기 보정 +5%",
+		item2 = 21001,
+		pre_id = 9701122,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9701124,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9701123,
+		item1 = 21062,
+		level = 70,
+		weapon_ids = {
+			80642
+		}
+	}
+	pg.base.ship_meta_breakout[9701124] = {
+		breakout_view = "없음",
+		item2 = 21001,
+		pre_id = 9701123,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9701124,
+		item1 = 21062,
+		level = 0,
+		weapon_ids = {}
+	}
 	pg.base.ship_meta_breakout[9702011] = {
 		breakout_view = "스킬 [섬멸의 횃불·헬레나] 습득/주포 효율 5% 향상",
 		item2 = 21001,
@@ -1765,6 +1832,8 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9703021] = {
 		breakout_view = "[염추의 재] 스킬 습득 / 주포 보정 +5%",
 		item2 = 21001,
@@ -1828,8 +1897,6 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9703031] = {
 		breakout_view = "[염추의 재 - 포슈] 습득 / 주포 보정 +5%",
 		item2 = 21001,
@@ -3423,6 +3490,8 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9706051] = {
 		breakout_view = "[염추의 재·엘베] 습득 / 폭격기 수 +1 / 전투기 보정 +5%",
 		item2 = 21001,
@@ -3492,8 +3561,6 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9707011] = {
 		breakout_view = "스킬 [격침의 횃불] 습득/모든 뇌격기+1/뇌격기 효율 5% 상승",
 		item2 = 21001,

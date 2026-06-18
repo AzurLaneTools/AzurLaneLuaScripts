@@ -24,7 +24,8 @@ pg.world_joint_boss_template.all = {
 	19,
 	20,
 	21,
-	22
+	22,
+	23
 }
 pg.base = pg.base or {}
 pg.base.world_joint_boss_template = {}
@@ -575,7 +576,7 @@ pg.base.world_joint_boss_template = {}
 	pg.base.world_joint_boss_template[17] = {
 		name = "다이호·META",
 		boss_level_id = 241,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "dafeng",
 		meta_id = 970705,
@@ -795,6 +796,7 @@ pg.base.world_joint_boss_template = {}
 	pg.base.world_joint_boss_template[22] = {
 		name = "레겐스부르크·META",
 		boss_level_id = 316,
+		state = "stop",
 		item_id = 100000,
 		painting = "leigensibao",
 		meta_id = 970211,
@@ -811,32 +813,6 @@ pg.base.world_joint_boss_template = {}
 				"적 유닛이 <color=#92fc63>전투 불능에 빠지거나 화면에서 이탈</color>하면, 레겐스부르크·META의 포격과 뇌장이 15% 상승한다. "
 			}
 		},
-		state = {
-			{
-				{
-					2026,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					18
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		p_offset = {
 			-330,
 			470,
@@ -848,6 +824,69 @@ pg.base.world_joint_boss_template = {}
 			470,
 			0.65,
 			0.65
+		}
+	}
+	pg.base.world_joint_boss_template[23] = {
+		name = "브리스톨·META",
+		boss_level_id = 331,
+		item_id = 100000,
+		painting = "bulisituoer",
+		meta_id = 970112,
+		id = 23,
+		description = {
+			{
+				"램프 사용 - 관찰력 올인",
+				3,
+				"전투 중 브리스톨·META는 램프를 사용해 특정 구역을 밝게 비추며, 해당 구역에 있는 아군의 <color=#92fc63>회피율을 크게 감소</color>시킨다."
+			},
+			{
+				"차원을 쫓는 사냥",
+				2,
+				"DATA-857이 브리스톨·META를 수행 중일 때 브리스톨·META가 주는 피해량이 20% 증가하고 받는 피해량은 20% 감소한다. \n<color=#92fc63>임의의 아군이 [완전 회피] 또는 [무적] 상태가 되면</color>, DATA-857은 브리스톨·META 수행을 해제하고, [완전 회피] 또는 [무적] 상태인 아군 1명(선봉함대 선두 함선 및 주력함대 기함을 우선적으로 선택)에게 <color=#92fc63>대상의 최대 내구 수치에 비례한 지속 피해를 가</color>한다. 해당 아군의 [완전 회피] 또는 [무적] 상태가 해제되면 DATA-857은 다시 브리스톨·META 수행에 돌아간다. "
+			},
+			{
+				"등잔 밑이 어둡다",
+				1,
+				"전투 시작 후 일정 시간이 지나면 램프 주변에 수수께끼의 생물이 출현한다. 이 생물은 전장의 적과 아군 모두에게 약간의 영향을 끼칠 수 있다. \n수수께끼의 생물이 전장에 존재하는 동안, <color=#92fc63>전장에 있는 모든 유닛의 명중이 소폭 감소</color>한다. "
+			}
+		},
+		state = {
+			{
+				{
+					2026,
+					6,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					17
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		p_offset = {
+			-392,
+			457,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			261,
+			495,
+			0.7,
+			0.7
 		}
 	}
 end)()

@@ -95,7 +95,9 @@ pg.skill_world_display.all = {
 	802141,
 	802142,
 	802201,
-	802202
+	802202,
+	802271,
+	802272
 }
 pg.base = pg.base or {}
 pg.base.skill_world_display = {}
@@ -4219,6 +4221,20 @@ pg.base.skill_world_display = {}
 		desc_get = "",
 		id = 802202,
 		desc = "[대형 작전]\n주포 공격을 8회 실시할 때마다 특수 탄막Ⅱ를 전개한다. 엘리트 함대 혹은 보스 함대와 교전할 경우, 자신이 주는 피해량이 5% 상승한다.",
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_world_display[802271] = {
+		desc_get = "",
+		id = 802271,
+		desc = "[대형 작전]\n주포 공격을 15회 실시할 때마다 특수 탄막Ⅰ을 전개한다. 엘리트 함대 혹은 보스 함대와 교전할 경우, 자신이 받는 피해량이 2% 감소한다.",
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_world_display[802272] = {
+		desc_get = "",
+		id = 802272,
+		desc = "[대형 작전]\n주포 공격을 10회 실시할 때마다 특수 탄막Ⅱ를 전개한다. 엘리트 함대 혹은 보스 함대와 교전할 경우, 자신이 받는 피해량이 6% 감소한다.",
 		desc_get_add = {},
 		desc_add = {}
 	}

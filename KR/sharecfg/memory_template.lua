@@ -4146,6 +4146,7 @@ pg.memory_template.all = {
 	5203,
 	5204,
 	5211,
+	5221,
 	10000,
 	10001,
 	10002,
@@ -79080,6 +79081,24 @@ end)()
 			"RUOQIZHIGUANG1"
 		}
 	}
+	pg.base.memory_template[5221] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "맹그로브의 수호정령",
+		condition = "「맹그로브의 수호정령」에 참여",
+		story = "HONGSHULINDESHOUHUJINGLING1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5221,
+		icon = "memory_hongshulindeshouhujingling",
+		is_open = 0,
+		unlock_pre = {
+			"HONGSHULINDESHOUHUJINGLING1"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80106,6 +80125,8 @@ end)()
 			"YINGHUA13"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10064] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80124,8 +80145,6 @@ end)()
 			"YINGHUA14"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10072] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81908,6 +81927,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA5"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20087] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81926,8 +81947,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA6"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20088] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83710,6 +83729,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA38"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20188] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83728,8 +83749,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA39"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20189] = {
 		ship_group = 0,
 		subtitle = "",

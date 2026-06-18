@@ -16466,6 +16466,37 @@ _G.pg.base.item_data_statistics[21061] = {
 }
 
 
+_G.pg.base.item_data_statistics[21062] = {
+	open_directly = 0,
+	name = "결정: 브리스톨·META",
+	type = 4,
+	display = "브리스톨·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21062",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21062,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -17274,9 +17305,9 @@ _G.pg.base.item_data_statistics[21922] = {
 
 _G.pg.base.item_data_statistics[21923] = {
 	open_directly = 0,
-	name = "엘베·META 동기화 수치",
+	name = "브리스톨·META 동기화 수치",
 	type = 4,
-	display = "엘베·META의 동기화 수치",
+	display = "브리스톨·META의 동기화 수치",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -49813,9 +49844,9 @@ _G.pg.base.item_data_statistics[40078] = {
 
 _G.pg.base.item_data_statistics[40080] = {
 	open_directly = 1,
-	name = "전투 UI·호화로운 골든(기초)",
+	name = "전투 UI·골든 베이 (단품)",
 	type = 17,
-	display = "구매하면 전투 UI 테마·호화로운 골든, 물자×1000 획득 가능",
+	display = "구매하면 전투 UI 테마·골든 베이, 물자×1000 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -49855,9 +49886,9 @@ _G.pg.base.item_data_statistics[40080] = {
 
 _G.pg.base.item_data_statistics[40081] = {
 	open_directly = 1,
-	name = "전투 UI·호화로운 골든(럭셔리)",
+	name = "전투 UI·골든 베이 (세트)",
 	type = 17,
-	display = "구매하면 전투 UI 테마·호화로운 골든, 다이아×3060 획득 가능",
+	display = "구매하면 전투 UI 테마·골든 베이, 다이아×3060 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -51786,7 +51817,7 @@ _G.pg.base.item_data_statistics[40142] = {
 	display = [[
 개발 도크 화면에서 1~4기 PR 특별계획함(Lv1)을 1명 선택해서 획득 가능. 
  <color=#92fc63>대상 캐릭터를 모두 입수한 경우</color>, 창고에서 사용하면 다음 아이템 획득 가능
- 과학 연구 테스트 데이터·5기×300
+ 과학 연구 테스트 데이터·4기×300
 지향형 개조 도면 T3×5
 지향형 개조 도면 T2×10
 성정 큐브×5
@@ -106944,7 +106975,7 @@ _G.pg.base.item_data_statistics[60580] = {
 
 _G.pg.base.item_data_statistics[60581] = {
 	open_directly = 0,
-	name = "여름 초대장 2026",
+	name = "여름의 초대장 2026",
 	type = 21,
 	display = "사용하면 SSR 함선 중 1명을 골라 획득 가능",
 	other_resource_cost = "[]",
@@ -111253,7 +111284,7 @@ _G.pg.base.item_data_statistics[81235] = {
 	open_directly = 1,
 	name = "수영복 패키지(2026)·I",
 	type = 17,
-	display = "랜덤 스킨*1, 고급 지향형 강화 유닛·8기×2, 다이아×2026, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
+	display = "수영복 패키지(2026)·I 범위 내의 랜덤 스킨×1, 상급 지향형 강화 유닛·8기×2, 다이아×2026, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",

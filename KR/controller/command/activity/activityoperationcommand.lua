@@ -152,8 +152,17 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 				slot2 = slot1.day
 			end
 
-			getProxy(ActivityProxy):updateActivity(uv0)
 			table.insert(uv0.data1_list, slot2)
+
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOGIN_RECORD) and not slot3:isEnd() then
+				slot3.data1 = slot3.data1 + 1
+				slot3.data2 = slot3.data2 + 1
+				slot3.data3 = math.max(slot3.data3, slot3.data2)
+
+				getProxy(ActivityProxy):updateActivity(slot3)
+			end
+
+			getProxy(ActivityProxy):updateActivity(uv0)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_CHARGEAWARD] = function ()
 			uv0.data2 = 1

@@ -294,117 +294,82 @@ slot0.ReturnOpUI = function(slot0, slot1)
 	slot0:GetPool(uv0):ReturnObject(slot1)
 end
 
+slot0.BuildPreviewPart = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = {}
+
+	table.insert(slot5, function (slot0)
+		IslandShipDressHelperNew.BuildCommanderCustomParts(uv2, function (slot0)
+			return uv0[slot0] or 0
+		end, function (slot0)
+			return uv0[slot0] or 0
+		end, slot0)
+	end)
+	seriesAsync(slot5, slot4)
+end
+
 slot0.BuildCommanderPart = function(slot0, slot1, slot2)
 	slot3 = {}
-	slot4 = nil
 
 	table.insert(slot3, function (slot0)
-		slot1 = 0
-		slot2 = getProxy(IslandProxy)
-		slot2 = slot2:GetIsland()
-		slot3 = slot2:GetDressUpAgency()
-		slot4 = slot3:IsNew()
+		slot1 = getProxy(IslandProxy)
+		slot1 = slot1:GetIsland()
+		slot2 = slot1:GetDressUpAgency()
+		slot3 = slot2:IsNew()
 
-		slot5 = function()
-			uv0 = uv0 + 1
-
-			if uv0 == #IslandShipDressHelperNew.CommanderCustom then
-				slot0 = IslandShipDressHelperNew.DressType.Hat
-
-				if (uv1 and IslandShipDressHelperNew.GetInitDressByType(slot0) or uv2:GetDressByType(slot0)) ~= 0 then
-					GraphicsInterface.Instance:SetCharacterBlendShape(uv3, IslandShipDressHelperNew.ComponentType.Hair, pg.island_dress_template[slot1].sub_type - 1, 100)
-				end
-
-				uv4()
-			end
-		end
-
-		for slot9, slot10 in ipairs(IslandShipDressHelperNew.CommanderCustom) do
-			slot11 = slot4 and IslandShipDressHelperNew.GetInitDressByType(slot10) or slot3:GetDressByType(slot10)
-			slot12 = slot3:GetCurrentColorByDressId(slot11)
-
-			if slot11 == 0 then
-				GraphicsInterface.Instance:SetCharacterComponentShow(uv0, IslandShipDressHelperNew.ComponentType.Headware, false, slot5)
-			else
-				slot14 = pg.island_dress_template[slot11].model
-
-				if slot12 == 0 then
-					GraphicsInterface.Instance:LoadCharacterComponent(uv0, slot14, slot5)
-				else
-					GraphicsInterface.Instance:LoadCharacterComponentAndMaterial(uv0, slot14, pg.island_dress_colordiff_template[slot12].model, slot5)
-				end
-
-				if slot13.face_clip ~= "" then
-					uv1 = slot13.face_clip
-				end
-			end
-		end
+		IslandShipDressHelperNew.BuildCommanderCustomParts(uv0, function (slot0)
+			return uv0 and IslandShipDressHelperNew.GetInitDressByType(slot0) or uv1:GetDressByType(slot0)
+		end, function (slot0)
+			return uv0:GetCurrentColorByDressId(slot0)
+		end, slot0)
 	end)
-	seriesAsync(slot3, function ()
-		uv0(uv1)
-	end)
+	seriesAsync(slot3, slot2)
 end
 
 slot0.BuildVisterPart = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
-	slot6 = nil
 
 	table.insert(slot5, function (slot0)
-		slot1 = 0
-
 		if not (uv0 and getProxy(IslandProxy):GetIsland() or getProxy(IslandProxy):GetSharedIsland()):GetVisitorAgency():GetPlayer(uv1) then
 			slot0()
 
 			return
 		end
 
-		slot5 = function()
-			uv0 = uv0 + 1
-
-			if uv0 == #IslandShipDressHelperNew.CommanderCustom then
-				if uv1:GetDressByType(IslandShipDressHelperNew.DressType.Hat) ~= 0 then
-					GraphicsInterface.Instance:SetCharacterBlendShape(uv2, IslandShipDressHelperNew.ComponentType.Hair, pg.island_dress_template[slot1].sub_type - 1, 100)
-				end
-
-				uv3()
-			end
-		end
-
-		for slot9, slot10 in ipairs(IslandShipDressHelperNew.CommanderCustom) do
-			slot11 = slot4:GetDressByType(slot10)
-			slot12 = slot4:GetCurrentColorByDressId(slot11)
-
-			if slot11 == 0 then
-				GraphicsInterface.Instance:SetCharacterComponentShow(uv2, IslandShipDressHelperNew.ComponentType.Headware, false, slot5)
-			else
-				slot14 = pg.island_dress_template[slot11].model
-
-				if slot12 == 0 then
-					GraphicsInterface.Instance:LoadCharacterComponent(uv2, slot14, slot5)
-				else
-					GraphicsInterface.Instance:LoadCharacterComponentAndMaterial(uv2, slot14, pg.island_dress_colordiff_template[slot12].model, slot5)
-				end
-
-				if slot13.face_clip ~= "" then
-					uv3 = slot13.face_clip
-				end
-			end
-		end
+		IslandShipDressHelperNew.BuildCommanderCustomParts(uv2, function (slot0)
+			return uv0:GetDressByType(slot0)
+		end, function (slot0)
+			return uv0:GetCurrentColorByDressId(slot0)
+		end, slot0)
 	end)
-	seriesAsync(slot5, function ()
-		uv0(uv1)
-	end)
+	seriesAsync(slot5, slot4)
 end
 
-slot0.LoadAnimator = function(slot0, slot1, slot2, slot3, slot4)
-	slot5 = IslandAssetLoadDispatcher.Instance
+slot0.LoadAnimator = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = IslandAssetLoadDispatcher.Instance
 
-	table.insert(slot0.loadingIdList, slot5:Enqueue(slot3, "", typeof(RuntimeAnimatorController), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	table.insert(slot0.loadingIdList, slot6:Enqueue(slot3, "", typeof(RuntimeAnimatorController), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		GetOrAddComponent(uv0.transform, typeof(Animator)).runtimeAnimatorController = slot0
 		uv1 = uv1 or "idle"
 
 		slot1:Play(uv1, 4)
-		uv2()
+
+		slot2 = uv2 and uv2 ~= 0 and pg.island_dress_template[uv2] or nil
+
+		if (slot2 and slot2.special_animator or "") == "" then
+			uv3()
+
+			return
+		end
+
+		slot4 = IslandAssetLoadDispatcher.Instance
+
+		table.insert(uv4.loadingIdList, slot4:Enqueue(slot3, "", typeof(UnityEngine.RuntimeAnimatorController), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			if not IsNil(uv0) then
+				uv1.runtimeAnimatorController = slot0
+			end
+
+			uv2()
+		end), true, true))
 	end), true, true))
 end
 
@@ -414,6 +379,35 @@ slot0.NestModel = function(slot0, slot1)
 	setParent(slot1.transform, slot3.transform, false)
 
 	return slot3
+end
+
+slot0.GetPreviewModel = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = {}
+	slot6 = nil
+
+	table.insert(slot5, function (slot0)
+		slot1 = IslandAssetLoadDispatcher.Instance
+
+		table.insert(uv2.loadingIdList, slot1:Enqueue(uv0.model, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			uv0 = Object.Instantiate(slot0)
+
+			uv1()
+		end), true, true))
+	end)
+	table.insert(slot5, function (slot0)
+		uv0:BuildPreviewPart(uv1, uv2 or {}, uv3 or {}, slot0)
+	end)
+	table.insert(slot5, function (slot0, slot1, slot2)
+		uv0:LoadAnimator(uv1, slot1, uv2.animator, slot0, slot2)
+	end)
+	table.insert(slot5, function (slot0)
+		uv0 = uv1:NestModel(uv0)
+
+		slot0()
+	end)
+	seriesAsync(slot5, function ()
+		uv0(uv1)
+	end)
 end
 
 slot0.GetCommanderModel = function(slot0, slot1, slot2, slot3, slot4, slot5)
@@ -439,8 +433,8 @@ slot0.GetCommanderModel = function(slot0, slot1, slot2, slot3, slot4, slot5)
 		end)
 	end
 
-	table.insert(slot6, function (slot0, slot1)
-		uv0:LoadAnimator(uv1, slot1, uv2.animator, slot0)
+	table.insert(slot6, function (slot0, slot1, slot2)
+		uv0:LoadAnimator(uv1, slot1, uv2.animator, slot0, slot2)
 	end)
 	table.insert(slot6, function (slot0)
 		uv0 = uv1:NestModel(uv0)

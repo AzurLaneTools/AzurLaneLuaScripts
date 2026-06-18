@@ -268,6 +268,7 @@ pg.memory_group.all = {
 	365,
 	366,
 	367,
+	368,
 	501,
 	502,
 	503,
@@ -7188,6 +7189,20 @@ end)()
 			5211
 		}
 	}
+	pg.base.memory_group[368] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50630,
+		title = "에버트센 콜라보 스토리",
+		auto_unlock = "",
+		subtype = 3,
+		id = 368,
+		group_id = "",
+		memories = {
+			5221
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7969,6 +7984,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[537] = {
 		ship_group = 20208,
 		icon = "title_chara_xiefeierde",
@@ -7991,8 +8008,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[538] = {
 		ship_group = 20220,
 		icon = "title_chara_tianlangxing",

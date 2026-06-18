@@ -47,6 +47,10 @@ slot0.InitBtns = function(slot0)
 	slot0:Flush()
 end
 
+slot0.OnTaskUpdate = function(slot0)
+	slot0.btns.season:TipCheck()
+end
+
 slot0.OnUnlockSystem = function(slot0, slot1)
 	if table.contains(slot0.unlockIds, slot1) then
 		for slot5, slot6 in pairs(slot0.btns) do

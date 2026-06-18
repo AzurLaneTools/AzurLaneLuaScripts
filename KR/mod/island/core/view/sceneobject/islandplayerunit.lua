@@ -64,6 +64,7 @@ slot3.OnAttach = function(slot0, slot1)
 	slot0:InitFarmCheckWorldObject()
 
 	slot0.objTfList = {}
+	slot0.toolIdMap = {}
 	slot0.islandid = slot0:GetView():GetIsland().id
 	slot0.isSelfIsland = getProxy(PlayerProxy):getRawData().id == slot0.islandid
 end
@@ -349,7 +350,11 @@ slot3.LoadInteractiveTool = function(slot0, slot1)
 		slot0.toolId = slot1
 	end
 
-	if slot0.objTfList[slot0.toolId] then
+	slot0.currentToolId = IslandAnimationAttachmentHelper.ResolveId(slot0.animator, slot0.toolId)
+	slot0.toolIdMap[slot1] = slot0.currentToolId
+	slot0.toolIdMap[slot0.toolId] = slot0.currentToolId
+
+	if slot0.objTfList[slot0.currentToolId] then
 		setActive(slot2, true)
 		setParent(slot2, slot0._tf)
 		pg.ViewUtils.SetLayer(slot2, Layer.UIHidden)
@@ -357,17 +362,17 @@ slot3.LoadInteractiveTool = function(slot0, slot1)
 		return
 	end
 
-	slot3 = pg.island_animation_attachments[slot0.toolId]
-	slot0.objTfList[slot0.toolId] = Object.Instantiate(LoadAny(slot3.model, nil)).transform
-	GetOrAddComponent(slot0.objTfList[slot0.toolId], typeof(Animator)).runtimeAnimatorController = LoadAny(slot3.animator, nil, typeof(RuntimeAnimatorController))
+	slot3 = pg.island_animation_attachments[slot0.currentToolId]
+	slot0.objTfList[slot0.currentToolId] = Object.Instantiate(LoadAny(slot3.model, nil)).transform
+	GetOrAddComponent(slot0.objTfList[slot0.currentToolId], typeof(Animator)).runtimeAnimatorController = LoadAny(slot3.animator, nil, typeof(RuntimeAnimatorController))
 
-	setParent(slot0.objTfList[slot0.toolId], slot0._tf)
-	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.UIHidden)
+	setParent(slot0.objTfList[slot0.currentToolId], slot0._tf)
+	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.currentToolId], Layer.UIHidden)
 end
 
-slot3.UnLoadInteractiveTool = function(slot0)
-	if slot0.objTfList[slot0.toolId] then
-		setActive(slot0.objTfList[slot0.toolId], false)
+slot3.UnLoadInteractiveTool = function(slot0, slot1)
+	if slot0.objTfList[slot0.toolIdMap[slot1] or slot0.currentToolId or IslandAnimationAttachmentHelper.ResolveId(slot0.animator, slot1)] then
+		setActive(slot0.objTfList[slot2], false)
 	end
 end
 
@@ -419,11 +424,19 @@ slot3.StateEnterHandle = function(slot0, slot1, slot2)
 end
 
 slot3.StateEnterFixHandle = function(slot0, slot1, slot2)
-	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.Default)
+	slot3 = slot0.toolIdMap[slot2] or slot0.currentToolId
+
+	if slot1 == uv0.LoadToolHandle and slot3 and slot0.objTfList[slot3] then
+		pg.ViewUtils.SetLayer(slot0.objTfList[slot3], Layer.Default)
+	end
 end
 
 slot3.StateExitFixHandle = function(slot0, slot1, slot2)
-	pg.ViewUtils.SetLayer(slot0.objTfList[slot0.toolId], Layer.UIHidden)
+	slot3 = slot0.toolIdMap[slot2] or slot0.currentToolId
+
+	if slot1 == uv0.LoadToolHandle and slot3 and slot0.objTfList[slot3] then
+		pg.ViewUtils.SetLayer(slot0.objTfList[slot3], Layer.UIHidden)
+	end
 end
 
 slot3.StateExitHandle = function(slot0, slot1, slot2)

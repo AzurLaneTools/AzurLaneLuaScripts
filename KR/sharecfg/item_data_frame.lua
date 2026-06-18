@@ -776,12 +776,12 @@ pg.base.item_data_frame = {}
 		scene = {}
 	}
 	pg.base.item_data_frame[601] = {
-		name = "아이스크림 기념",
+		name = "아이스크림 기념품",
 		gain_by = "",
 		time_second = 0,
 		id = 601,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>무더운 여름날 잠깐의 시원함을 느껴봐!</color>\n「쥬쥬 아이스크림」 이벤트에 참여하여 획득",
+		desc = "뜨거운 여름에 시원함을 안겨주세요! \n<color=#A7A7AA>「만쥬 아이스크림」 이벤트에 참여하여 획득 가능</color>\n<color=#A7A7AA>게임 로비 보상에서 획득 가능</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[602] = {

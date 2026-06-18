@@ -3820,6 +3820,8 @@ pg.skill_data_display.all = {
 	201761,
 	201763,
 	201773,
+	201790,
+	201798,
 	1011540,
 	1011541,
 	1090010,
@@ -19430,6 +19432,14 @@ end)()
 		id = 201773,
 		name = "「심판호」 화력 지원"
 	}
+	pg.base.skill_data_display[201790] = {
+		id = 201790,
+		name = "차원 추적자"
+	}
+	pg.base.skill_data_display[201798] = {
+		id = 201798,
+		name = "등불 아래의 그림자"
+	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
 		name = "최후의 포화 +"
@@ -19758,6 +19768,8 @@ end)()
 		id = 1011493,
 		name = "수제 마카롱"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011496] = {
 		id = 1011496,
 		name = "정면 화력 투사 +"
@@ -19766,8 +19778,6 @@ end)()
 		id = 1011003,
 		name = "영용포격+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011004] = {
 		id = 1011004,
 		name = "영용포격+"
@@ -20160,6 +20170,8 @@ end)()
 		id = 1014170,
 		name = "Kirov Reporting! +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1014171] = {
 		id = 1014171,
 		name = "Kirov Reporting! +"
@@ -20168,8 +20180,6 @@ end)()
 		id = 1090020,
 		name = "화력전개·카를스루에"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090042] = {
 		id = 1090042,
 		name = "1센트 동전(소량)"

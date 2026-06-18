@@ -3061,4 +3061,9 @@ end)()
 		special_bgm = "",
 		bgm = "theme-goldensea"
 	}
+	pg.base.voice_bgm.AnniversaryNineEvertsenSkinPage = {
+		default_bgm = "story-tulipa",
+		special_bgm = "",
+		bgm = "story-tulipa"
+	}
 end)()

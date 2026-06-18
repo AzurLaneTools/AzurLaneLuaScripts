@@ -1071,7 +1071,9 @@ slot0.showStoryUI = function(slot0, slot1)
 
 			uv0.onWords = true
 
-			uv0:TypeWriter()
+			if uv1 and uv1 ~= "" then
+				uv0:TypeWriter()
+			end
 
 			uv0.initStory = true
 

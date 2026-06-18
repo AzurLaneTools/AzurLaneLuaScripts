@@ -90,6 +90,10 @@ slot0.UpdataHighScore = function(slot0, slot1, slot2)
 		slot4 = slot3.highScores[slot1][1]
 	end
 
+	if slot2[1] < slot4 then
+		slot2[1] = slot4
+	end
+
 	if slot4 <= slot2[1] then
 		slot3.highScores[slot1] = slot2
 

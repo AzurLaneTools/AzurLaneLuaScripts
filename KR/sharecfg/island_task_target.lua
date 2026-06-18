@@ -505,7 +505,14 @@ pg.island_task_target.all = {
 	900010101,
 	900010111,
 	900010121,
-	900010201
+	900010201,
+	900020011,
+	900020021,
+	900020031,
+	900020041,
+	900020051,
+	900020061,
+	900020071
 }
 pg.base = pg.base or {}
 pg.base.island_task_target = {}
@@ -6034,6 +6041,81 @@ end)()
 		target_num = 3000,
 		target_param = {
 			101
+		}
+	}
+	pg.base.island_task_target[900020011] = {
+		tips = "",
+		jump_ui = "",
+		name = "고양이 쓰다듬기",
+		type = 1,
+		id = 900020011,
+		target_num = 1,
+		target_param = {
+			6201
+		}
+	}
+	pg.base.island_task_target[900020021] = {
+		tips = "10010040",
+		jump_ui = "",
+		name = "임의의 농작물 30개 획득",
+		type = 53,
+		id = 900020021,
+		target_num = 30,
+		target_param = {
+			10121
+		}
+	}
+	pg.base.island_task_target[900020031] = {
+		tips = "",
+		jump_ui = "6",
+		name = "임의의 아일랜드 의뢰 1개 처리",
+		type = 54,
+		id = 900020031,
+		target_num = 1,
+		target_param = {
+			0
+		}
+	}
+	pg.base.island_task_target[900020041] = {
+		tips = "",
+		jump_ui = "",
+		name = "자원 생산 슬롯에 동료 배치",
+		type = 7,
+		id = 900020041,
+		target_num = 1,
+		target_param = {
+			0
+		}
+	}
+	pg.base.island_task_target[900020051] = {
+		tips = "",
+		jump_ui = "",
+		name = "동료와 상호작용하기",
+		type = 55,
+		id = 900020051,
+		target_num = 1,
+		target_param = ""
+	}
+	pg.base.island_task_target[900020061] = {
+		tips = "",
+		jump_ui = "7",
+		name = "임의의 수송 의뢰 1회 처리",
+		type = 12,
+		id = 900020061,
+		target_num = 1,
+		target_param = {
+			0
+		}
+	}
+	pg.base.island_task_target[900020071] = {
+		tips = "",
+		jump_ui = "",
+		name = "임의의 요리 3개 획득",
+		type = 53,
+		id = 900020071,
+		target_num = 3,
+		target_param = {
+			20000
 		}
 	}
 end)()

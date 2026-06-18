@@ -33,6 +33,7 @@ slot0.OnAttach = function(slot0, slot1)
 	end)
 
 	slot0.objTfList = {}
+	slot0.toolIdMap = {}
 
 	if slot0.behaviourTreeOwner then
 		slot2, slot3 = slot0:GetDataVO():GetPersonality()
@@ -44,15 +45,13 @@ end
 
 slot0.StateEnterHandle = function(slot0, slot1, slot2)
 	if slot1 == uv0.LoadToolHandle then
-		slot3 = slot0:GetToolId(slot2)
-
 		slot0:LoadInteractiveTool(slot2)
 	end
 end
 
 slot0.StateEnterFixHandle = function(slot0, slot1, slot2)
-	if slot1 == uv0.LoadToolHandle then
-		pg.ViewUtils.SetLayer(slot0.objTfList[slot0:GetToolId(slot2)], Layer.Default)
+	if slot1 == uv0.LoadToolHandle and (slot0.toolIdMap[slot2] or slot0.currentToolId or slot0:GetToolId(slot2)) and slot0.objTfList[slot3] then
+		pg.ViewUtils.SetLayer(slot0.objTfList[slot3], Layer.Default)
 	end
 end
 
@@ -69,29 +68,33 @@ slot0.GetToolId = function(slot0, slot1)
 end
 
 slot0.LoadInteractiveTool = function(slot0, slot1)
+	slot1 = IslandAnimationAttachmentHelper.ResolveId(slot0:GetAnimator(), slot1)
+	slot0.currentToolId = slot1
+	slot0.toolIdMap[slot1] = slot1
+
 	if slot0.objTfList[slot1] then
-		setActive(slot2, true)
-		setParent(slot2, slot0._tf)
-		pg.ViewUtils.SetLayer(slot2, Layer.UIHidden)
+		setActive(slot3, true)
+		setParent(slot3, slot0._tf)
+		pg.ViewUtils.SetLayer(slot3, Layer.UIHidden)
 
 		return
 	end
 
-	slot4 = pg.island_animation_attachments[slot1].model
+	slot5 = pg.island_animation_attachments[slot1].model
 
 	if (slot1 == pg.island_set.island_manage_animation_extroversion.key_value_int or slot1 == pg.island_set.island_manage_animation_introverted.key_value_int) and slot0.behaviourTreeOwner.graph.blackboard:GetVariable("systemId").value ~= 0 then
-		slot4 = pg.island_manage_restaurant[slot5].performance_param
+		slot5 = pg.island_manage_restaurant[slot6].performance_param
 	end
 
-	slot0.objTfList[slot1] = Object.Instantiate(LoadAny(slot4, nil)).transform
-	GetOrAddComponent(slot0.objTfList[slot1], typeof(Animator)).runtimeAnimatorController = LoadAny(slot3.animator, nil, typeof(RuntimeAnimatorController))
+	slot0.objTfList[slot1] = Object.Instantiate(LoadAny(slot5, nil)).transform
+	GetOrAddComponent(slot0.objTfList[slot1], typeof(Animator)).runtimeAnimatorController = LoadAny(slot4.animator, nil, typeof(RuntimeAnimatorController))
 
 	setParent(slot0.objTfList[slot1], slot0._tf)
 	pg.ViewUtils.SetLayer(slot0.objTfList[slot1], Layer.UIHidden)
 end
 
 slot0.UnLoadInteractiveTool = function(slot0, slot1)
-	if slot0.objTfList[slot1] then
+	if slot0.objTfList[slot0.toolIdMap[slot1] or IslandAnimationAttachmentHelper.ResolveId(slot0:GetAnimator(), slot1)] then
 		setActive(slot0.objTfList[slot1], false)
 	end
 end

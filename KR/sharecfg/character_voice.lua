@@ -86,7 +86,8 @@ pg.character_voice.all = {
 	"asmr_007",
 	"asmr_008",
 	"asmr_009",
-	"asmr_010"
+	"asmr_010",
+	"gift_prefer"
 }
 pg.base = pg.base or {}
 pg.base.character_voice = {}
@@ -1177,6 +1178,19 @@ pg.base.character_voice = {}
 		resource_key = "asmr_010",
 		spine_action = "asmr_010",
 		profile_index = 77,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	}
+	pg.base.character_voice.gift_prefer = {
+		voice_name = "선물",
+		key = "gift_prefer",
+		resource_key = "present_like",
+		spine_action = "normal",
+		profile_index = 78,
 		sp_trans_l2d = 0,
 		l2d_action = "",
 		unlock_condition = {

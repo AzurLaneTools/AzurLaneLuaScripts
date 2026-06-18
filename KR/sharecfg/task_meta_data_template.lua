@@ -374,6 +374,11 @@ pg.task_meta_data_template.all = {
 	100563,
 	100564,
 	100565,
+	100571,
+	100572,
+	100573,
+	100574,
+	100575,
 	200001,
 	200002,
 	200003,
@@ -561,7 +566,11 @@ pg.task_meta_data_template.all = {
 	200471,
 	200472,
 	200473,
-	200474
+	200474,
+	200481,
+	200482,
+	200483,
+	200484
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3533,6 +3542,46 @@ end)()
 		target_num = 1,
 		desc = "엘베·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	}
+	pg.base.task_meta_data_template[100571] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970112",
+		id = 100571,
+		target_num = 1,
+		desc = "브리스톨·META를 편성한 함대로 전투에서 1회 승리"
+	}
+	pg.base.task_meta_data_template[100572] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970112",
+		id = 100572,
+		target_num = 1,
+		desc = "브리스톨·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100573] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970112",
+		id = 100573,
+		target_num = 1,
+		desc = "브리스톨·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100574] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970112",
+		id = 100574,
+		target_num = 1,
+		desc = "브리스톨·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100575] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970112",
+		id = 100575,
+		target_num = 1,
+		desc = "브리스톨·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	}
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3733,6 +3782,8 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 U-556.META를 사용해 1회 승리"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200072] = {
 		target_id = "70",
 		sub_type = 302,
@@ -3773,8 +3824,6 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 베스탈·META를 사용해 70 이상 레벨의 적 1회 격파"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200083] = {
 		target_id = "90",
 		sub_type = 302,
@@ -4535,6 +4584,8 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 네바다·META를 포함한 함대로 1회 승리"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200322] = {
 		target_id = "70",
 		sub_type = 302,
@@ -4575,8 +4626,6 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 그렌빌·META를 포함한 함대로 Lv70 이상의 적 격파"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200333] = {
 		target_id = "90",
 		sub_type = 302,
@@ -5040,5 +5089,37 @@ end)()
 		id = 200474,
 		target_num = 1,
 		desc = "대형작전에서 엘베·META를 포함한 함대로 Lv100 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200481] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970112",
+		id = 200481,
+		target_num = 1,
+		desc = "대형작전에서 브리스톨·META를 포함한 함대로 1회 승리"
+	}
+	pg.base.task_meta_data_template[200482] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970112",
+		id = 200482,
+		target_num = 1,
+		desc = "대형작전에서 브리스톨·META를 포함한 함대로 Lv70 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200483] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970112",
+		id = 200483,
+		target_num = 1,
+		desc = "대형작전에서 브리스톨·META를 포함한 함대로 Lv90 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200484] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970112",
+		id = 200484,
+		target_num = 1,
+		desc = "대형작전에서 브리스톨·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 end)()

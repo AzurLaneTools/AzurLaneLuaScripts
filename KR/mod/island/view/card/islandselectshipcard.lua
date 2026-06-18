@@ -1,4 +1,8 @@
 slot0 = class("IslandSelectShipCard")
+slot0.SHOW_TYPE = {
+	PLACE = 1,
+	RESTAURANT = 2
+}
 slot0.SKILL_COLOR = {
 	Color.NewHex("3DFF00"),
 	Color.NewHex("808080")
@@ -38,58 +42,56 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.skillUnuse = slot0.iconsTF:Find("skill/skill_dark")
 end
 
-slot0.Update = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot0.ship = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1)
-	slot0.id = slot1
-	slot0.attrType = slot2
-	slot0.buildingId = slot3
+slot0.Update = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot0.type = slot1
+	slot0.ship = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot2)
+	slot0.id = slot2
+	slot0.attrType = slot3
+	slot0.buildingId = slot4
 
-	slot0:UpdateSelected(slot4)
+	slot0:UpdateSelected(slot5)
 	GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. IslandShip.StaticGetPrefab(slot0.id), "", slot0.iconTF)
 
-	slot7 = slot0.ship:GetAttr(IslandShipAttr.ATTRS[slot0.attrType])
+	slot8 = slot0.ship:GetAttr(IslandShipAttr.ATTRS[slot0.attrType])
 
-	if IslandProductTimeHelper.GetAttributeAddPercentByAttribute(slot1, slot0.attrType) ~= 0 then
-		slot7 = math.floor(slot7 * (1 + 0.01 * slot8)) or slot7
+	if IslandProductTimeHelper.GetAttributeAddPercentByAttribute(slot2, slot0.attrType) ~= 0 then
+		slot8 = math.floor(slot8 * (1 + 0.01 * slot9)) or slot8
 	end
 
-	slot9 = slot0.ship:GetAttrGradeByValue(slot7)
+	slot10 = slot0.ship:GetAttrGradeByValue(slot8)
 
-	for slot13, slot14 in ipairs(slot0.attrTfList) do
-		if slot14 ~= "" then
-			setActive(slot14, slot9 == slot13)
+	for slot14, slot15 in ipairs(slot0.attrTfList) do
+		if slot15 ~= "" then
+			setActive(slot15, slot10 == slot14)
 		end
 	end
 
-	slot10 = slot0.ship:GetName()
+	slot11 = slot0.ship:GetName()
 
 	setText(slot0.nameTF, shortenString(slot0.ship:GetName(), 5))
 
-	slot11 = slot0.ship:GetCurrentEnergy()
-	slot12 = slot0.ship:GetMaxEnergy()
+	slot12 = slot0.ship:GetCurrentEnergy()
+	slot13 = slot0.ship:GetMaxEnergy()
 
-	setSlider(slot0.energySliderTF, 0, 1, slot11 / slot12)
-	setText(slot0.energyTF, slot11 .. "/" .. slot12)
+	setSlider(slot0.energySliderTF, 0, 1, slot12 / slot13)
+	setText(slot0.energyTF, slot12 .. "/" .. slot13)
 	slot0:UpdateFollowMask()
 
-	if slot5 then
-		slot13 = false
+	if slot6 then
+		slot14 = false
 
-		for slot17, slot18 in pairs(slot5) do
-			if slot0.id == slot18 then
-				slot13 = true
+		for slot18, slot19 in pairs(slot6) do
+			if slot0.id == slot19 then
+				slot14 = true
 			end
 		end
 
-		if slot13 then
+		if slot14 then
 			setActive(slot0.workingMaskTF, true)
 		end
 	end
 
-	slot14 = slot0.ship:GetSkill():IsEffectiveInPlace(slot0.buildingId)
-
-	setActive(slot0.skillInuse, slot14)
-	setActive(slot0.skillUnuse, not slot14)
+	slot0:UpdateSkillEffective(slot0.type, slot0.buildingId)
 end
 
 slot0.UpdateFollowMask = function(slot0)
@@ -103,6 +105,35 @@ slot0.UpdateSelected = function(slot0, slot1)
 	slot0.selectedIds = slot1
 
 	setActive(slot0.selectedTF, table.contains(slot0.selectedIds, slot0.id))
+end
+
+slot0.UpdateSkillEffective = function(slot0, slot1, slot2)
+	slot3 = uv0.GetSkillEffective(slot0.ship, slot1, slot2)
+
+	setActive(slot0.skillInuse, slot3)
+	setActive(slot0.skillUnuse, not slot3)
+end
+
+slot0.GetSkillEffective = function(slot0, slot1, slot2)
+	if not slot1 or not slot2 then
+		return false
+	end
+
+	if slot0:GetSkill():IsAllEffectiveType() then
+		return true
+	end
+
+	if slot1 == uv0.SHOW_TYPE.PLACE and slot3:IsPlaceDefaultEffectiveType() then
+		return true
+	end
+
+	if slot1 == uv0.SHOW_TYPE.PLACE then
+		return slot3:IsEffectiveInPlace(slot2)
+	elseif slot1 == uv0.SHOW_TYPE.RESTAURANT then
+		return slot3:IsEffectiveInRest(slot2)
+	end
+
+	return false
 end
 
 slot0.Dispose = function(slot0)

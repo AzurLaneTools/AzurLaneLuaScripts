@@ -1193,7 +1193,8 @@ slot0.LoadMeshPainting = function(slot0, slot1, slot2)
 			uv2:ClearMeshPainting()
 		end
 
-		uv2:CheckShowShopHx(slot0.transform:Find("shop_hx"), uv4)
+		uv2:CheckShowShopHx(slot0.transform:Find("shop_hx"))
+		uv2:CheckShowShopHx(slot0.transform:Find("shop_hx_ch" .. pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony()))
 	end)
 end
 
@@ -1272,7 +1273,7 @@ slot0.LoadSpinePainting = function(slot0, slot1)
 			uv0:ClearSpinePainting()
 		end
 
-		uv0:CheckShowShopHx(slot0._tf:Find("shop_hx"), uv1)
+		uv0:CheckShowShopHx(slot0._tf:Find("shop_hx"))
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 end
@@ -1288,7 +1289,13 @@ slot0.ClearSpinePainting = function(slot0)
 	end
 end
 
-slot0.CheckShowShopHx = function(slot0, slot1, slot2)
+slot0.CheckShowShopHx = function(slot0, slot1)
+	if IsNil(slot1) then
+		return
+	end
+
+	setActive(slot1, false)
+
 	if PLATFORM_CODE ~= PLATFORM_CH then
 		return
 	end
@@ -1297,9 +1304,7 @@ slot0.CheckShowShopHx = function(slot0, slot1, slot2)
 		return
 	end
 
-	if not IsNil(slot1) then
-		setActive(slot1, true)
-	end
+	setActive(slot1, true)
 end
 
 slot0.RevertShopHx = function(slot0, slot1)
