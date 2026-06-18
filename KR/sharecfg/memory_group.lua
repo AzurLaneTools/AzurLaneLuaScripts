@@ -7194,7 +7194,7 @@ end)()
 		icon = "title_event",
 		type = 2,
 		link_event = 50630,
-		title = "에버트센 콜라보 스토리",
+		title = "맹그로브의 수호정령",
 		auto_unlock = "",
 		subtype = 3,
 		id = 368,

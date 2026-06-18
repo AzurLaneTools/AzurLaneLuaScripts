@@ -5641,7 +5641,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2026.6.19 ~ 2026.9.18</color>
+<color=#92fc63>2026.6.18 ~ 2026.9.17</color>
 META전 브리스톨·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. 
 (※<color=#ff5c5c>동기화 수치 및 동기화 수치 획득 합계 보상은 진행 기간이 종료된 후에 초기화됩니다.</color>)
 
@@ -21527,7 +21527,7 @@ META 연구실에서는 다음 조작을 실시할 수 있습니다.
 ·동기화 수치가 일정 수준에 도달하면 「META 함선」을 획득할 수 있습니다. 
 ·「META」 함선을 이미 획득한 상태라면, 함선의 조작 화면에서 「정보 동기화」로 동기화 수치 관련 정보를 확인할 수 있습니다. 
 
-※<color=#92fc63>2026.6.19 ~ 2026.9.18</color> 브리스톨·META의 META전 오픈 기간 동안에는 「브리스톨·META」의 동기화 수치를 획득할 수 있습니다. 
+※<color=#92fc63>2026.6.18 ~ 2026.9.17</color> 브리스톨·META의 META전 오픈 기간 동안에는 「브리스톨·META」의 동기화 수치를 획득할 수 있습니다. 
  동기화 수치 및 동기화 수치 총 획득 수 보상은 진행 기간 종료 후에 초기화됩니다. 
 
 ■ 「META」 함선의 의장 강화
@@ -39377,17 +39377,17 @@ _G.pg.base.gametip.daily_level_go = {
 
 
 _G.pg.base.gametip.yumia_main_tip_1 = {
-	tip = "한정 건조"
+	tip = ""
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_2 = {
-	tip = "한정 해역"
+	tip = ""
 }
 
 
 _G.pg.base.gametip.yumia_main_tip_3 = {
-	tip = "스킨"
+	tip = ""
 }
 
 
@@ -49136,7 +49136,7 @@ _G.pg.base.gametip.OutPostCoreActivityUI_subtitle_3 = {
 
 
 _G.pg.base.gametip.OutPostCoreActivityUI_subtitle_4 = {
-	tip = "스킨 임무"
+	tip = "맹그로브의 수호정령"
 }
 
 

@@ -992,7 +992,6 @@ pg.base.island_dress_template = {}
 		belongto = 1,
 		tech_id = 0,
 		exclusive_skin = "",
-		jump_page = "자동으로 따라다니는 스마트 비행체. 생동감 넘치는 표정으로 상태를 보여주는 귀여운 작은 동반자.",
 		is_hide = 0,
 		id = 1010015,
 		footprint_type = 0,
@@ -1007,6 +1006,12 @@ pg.base.island_dress_template = {}
 			-82.445,
 			40.654,
 			50.205
+		},
+		jump_page = {
+			{
+				"시즌III - 코어 접속",
+				{}
+			}
 		}
 	}
 	pg.base.island_dress_template[1020001] = {
@@ -1581,7 +1586,6 @@ pg.base.island_dress_template = {}
 		belongto = 1,
 		tech_id = 0,
 		exclusive_skin = "",
-		jump_page = "은회색 금속 외피가 전신을 감싸고 있으며, 장갑 하나하나가 정밀하게 단조되어 인간형 강철 요새라 부를 만하다.",
 		is_hide = 0,
 		id = 1020014,
 		footprint_type = 0,
@@ -1593,6 +1597,12 @@ pg.base.island_dress_template = {}
 		},
 		scale = {
 			0.8
+		},
+		jump_page = {
+			{
+				"시즌III - 코어 접속",
+				{}
+			}
 		}
 	}
 	pg.base.island_dress_template[1030001] = {
