@@ -2020,9 +2020,16 @@ pg.skill_data_display.all = {
 	152383,
 	152391,
 	152412,
+	152421,
 	152441,
 	152451,
 	152452,
+	152461,
+	152481,
+	152482,
+	152491,
+	152492,
+	152493,
 	18010,
 	18040,
 	18041,
@@ -12227,6 +12234,10 @@ end)()
 		id = 152412,
 		name = "不焚的血契之稿"
 	}
+	pg.base.skill_data_display[152421] = {
+		id = 152421,
+		name = "哇啊！小锤！"
+	}
 	pg.base.skill_data_display[152441] = {
 		id = 152441,
 		name = "云游仙境之旅"
@@ -12238,6 +12249,30 @@ end)()
 	pg.base.skill_data_display[152452] = {
 		id = 152452,
 		name = "秘境的珍奇宝物"
+	}
+	pg.base.skill_data_display[152461] = {
+		id = 152461,
+		name = "虚实的幻术师"
+	}
+	pg.base.skill_data_display[152481] = {
+		id = 152481,
+		name = "剑技·肉类全解"
+	}
+	pg.base.skill_data_display[152482] = {
+		id = 152482,
+		name = "剑技·肉类全解"
+	}
+	pg.base.skill_data_display[152491] = {
+		id = 152491,
+		name = "烤肉美食家"
+	}
+	pg.base.skill_data_display[152492] = {
+		id = 152492,
+		name = "烤肉美食家"
+	}
+	pg.base.skill_data_display[152493] = {
+		id = 152493,
+		name = "烤肉美食家"
 	}
 	pg.base.skill_data_display[18010] = {
 		id = 18010,
@@ -12535,6 +12570,8 @@ end)()
 		id = 19002,
 		name = "塞壬之敌"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19010] = {
 		id = 19010,
 		name = "MKV型穿甲弹"
@@ -12563,8 +12600,6 @@ end)()
 		id = 19050,
 		name = "心神合一"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19060] = {
 		id = 19060,
 		name = "一闪"
@@ -12937,6 +12972,8 @@ end)()
 		id = 19491,
 		name = "跃动与回复之勇"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19492] = {
 		id = 19492,
 		name = "跃动与回复之勇"
@@ -12965,8 +13002,6 @@ end)()
 		id = 19511,
 		name = "开拓与探险之途"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19520] = {
 		id = 19520,
 		name = "开拓与探险之途"
@@ -13339,6 +13374,8 @@ end)()
 		id = 20022,
 		name = "全弹发射II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[20031] = {
 		id = 20031,
 		name = "全弹发射I"
@@ -13367,8 +13404,6 @@ end)()
 		id = 20061,
 		name = "全弹发射I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[20062] = {
 		id = 20062,
 		name = "全弹发射II"
@@ -13741,6 +13776,8 @@ end)()
 		id = 22121,
 		name = "全弹发射I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[22122] = {
 		id = 22122,
 		name = "全弹发射II"
@@ -13769,8 +13806,6 @@ end)()
 		id = 22152,
 		name = "全弹发射II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[22161] = {
 		id = 22161,
 		name = "全弹发射I"
@@ -14143,6 +14178,8 @@ end)()
 		id = 28032,
 		name = "全弹发射II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[28111] = {
 		id = 28111,
 		name = "全弹发射I"
@@ -14171,8 +14208,6 @@ end)()
 		id = 28271,
 		name = "全弹发射I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[28272] = {
 		id = 28272,
 		name = "全弹发射II"
@@ -14545,6 +14580,8 @@ end)()
 		id = 29451,
 		name = "专属弹幕-克利夫兰(μ兵装)I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[29452] = {
 		id = 29452,
 		name = "专属弹幕-克利夫兰(μ兵装)II"
@@ -14573,8 +14610,6 @@ end)()
 		id = 29482,
 		name = "专属弹幕-{namecode:50}II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[29491] = {
 		id = 29491,
 		name = "专属弹幕-黛朵I"
@@ -14947,6 +14982,8 @@ end)()
 		id = 30422,
 		name = "专属弹幕-巴拉卡少校II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[30431] = {
 		id = 30431,
 		name = "专属弹幕-圣塔菲I"
@@ -14975,8 +15012,6 @@ end)()
 		id = 30485,
 		name = "专属弹幕-{namecode:545}I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[30486] = {
 		id = 30486,
 		name = "专属弹幕-{namecode:545}II"
@@ -15349,6 +15384,8 @@ end)()
 		id = 105063,
 		name = "天使之音—机动"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[105064] = {
 		id = 105064,
 		name = "天使之音—命中"
@@ -15377,8 +15414,6 @@ end)()
 		id = 105100,
 		name = "鬼神☆百鬼！"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[105101] = {
 		id = 105101,
 		name = "强化失败了..."
@@ -15751,6 +15786,8 @@ end)()
 		id = 106491,
 		name = "伊莉丝的战术指导"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[106501] = {
 		id = 106501,
 		name = "讲师的责任"
@@ -15779,8 +15816,6 @@ end)()
 		id = 106542,
 		name = "镖无虚发"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[106543] = {
 		id = 106543,
 		name = "镖无虚发"
@@ -16153,6 +16188,8 @@ end)()
 		id = 109010,
 		name = "闪光爆裂"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[109011] = {
 		id = 109011,
 		name = "闪光爆裂"
@@ -16181,8 +16218,6 @@ end)()
 		id = 109050,
 		name = "冰结百合"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[109055] = {
 		id = 109055,
 		name = "冰结百合"
@@ -16555,6 +16590,8 @@ end)()
 		id = 111081,
 		name = "异星植物伙伴 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[111084] = {
 		id = 111084,
 		name = "异星植物伙伴 +"
@@ -16583,8 +16620,6 @@ end)()
 		id = 111106,
 		name = "变形·刃"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[111110] = {
 		id = 111110,
 		name = "武装变幻 +"
@@ -16957,6 +16992,8 @@ end)()
 		id = 115092,
 		name = "贯穿者"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[115093] = {
 		id = 115093,
 		name = "天际疾驰者"
@@ -16985,8 +17022,6 @@ end)()
 		id = 115113,
 		name = "天际疾驰者 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[115141] = {
 		id = 115141,
 		name = "食时之城"
@@ -17359,6 +17394,8 @@ end)()
 		id = 800091,
 		name = "烬火鹰翼"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800092] = {
 		id = 800092,
 		name = "烬火鹰翼"
@@ -17387,8 +17424,6 @@ end)()
 		id = 800122,
 		name = "破敌之炬·海伦娜II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800125] = {
 		id = 800125,
 		name = "破敌之炬·海伦娜I"
@@ -17761,6 +17796,8 @@ end)()
 		id = 800653,
 		name = "不再哭泣"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800654] = {
 		id = 800654,
 		name = "不再哭泣 +"
@@ -17789,8 +17826,6 @@ end)()
 		id = 800705,
 		name = "破敌之炬·谢菲尔德I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800707] = {
 		id = 800707,
 		name = "破敌之炬·谢菲尔德II"
@@ -18163,6 +18198,8 @@ end)()
 		id = 801551,
 		name = "陌路同行"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801561] = {
 		id = 801561,
 		name = "逐光之焰·{namecode:425}I"
@@ -18191,8 +18228,6 @@ end)()
 		id = 801581,
 		name = "独行的骑士"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801591] = {
 		id = 801591,
 		name = "逐光之焰·博尔扎诺I"
@@ -18565,6 +18600,8 @@ end)()
 		id = 1011592,
 		name = "空域控制 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012670] = {
 		id = 1012670,
 		name = "巨龙之链 +"
@@ -18593,8 +18630,6 @@ end)()
 		id = 1010310,
 		name = "神射手 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1010311] = {
 		id = 1010311,
 		name = "王家之剑"
@@ -18967,6 +19002,8 @@ end)()
 		id = 200597,
 		name = "信仰之河"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200619] = {
 		id = 200619,
 		name = "传奇旗舰"
@@ -18995,8 +19032,6 @@ end)()
 		id = 200775,
 		name = "命运的枪火"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200776] = {
 		id = 200776,
 		name = "无法回避的命运"
@@ -19369,6 +19404,8 @@ end)()
 		id = 201378,
 		name = "辉翼狮支援"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201379] = {
 		id = 201379,
 		name = "辉翼狮支援"
@@ -19397,8 +19434,6 @@ end)()
 		id = 201385,
 		name = "女王之光号"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201419] = {
 		id = 201419,
 		name = "女王之光号"
@@ -19771,6 +19806,8 @@ end)()
 		id = 1012621,
 		name = "特尔尼之盾 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012622] = {
 		id = 1012622,
 		name = "特尔尼之盾 +"
@@ -19799,8 +19836,6 @@ end)()
 		id = 1011371,
 		name = "致命穿透 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1005071] = {
 		id = 1005071,
 		name = "骑士之盾 +"
@@ -20173,6 +20208,8 @@ end)()
 		id = 1012571,
 		name = "随伴之翼 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012572] = {
 		id = 1012572,
 		name = "随伴之翼 +"
@@ -20201,8 +20238,6 @@ end)()
 		id = 1012582,
 		name = "机关禁止"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1019160] = {
 		id = 1019160,
 		name = "Heavy Barrel Blaster +"
@@ -20575,6 +20610,8 @@ end)()
 		id = 1090404,
 		name = "战术记录:Schwarz"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090405] = {
 		id = 1090405,
 		name = "战术记录:Ausgewogen"
@@ -20603,8 +20640,6 @@ end)()
 		id = 1090420,
 		name = "火力全开·威严"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090421] = {
 		id = 1090421,
 		name = "火力全开·威严"

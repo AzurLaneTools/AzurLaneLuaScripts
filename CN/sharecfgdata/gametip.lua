@@ -37709,7 +37709,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至6月17日24时；]]
+ ※ 奖励领取界面将延长至7月15日24时；]]
 		}
 	}
 }
@@ -38037,6 +38037,11 @@ _G.pg.base.gametip.dorm3d_room_floor_1 = {
 
 _G.pg.base.gametip.dorm3d_room_floor_2 = {
 	tip = "汐语小筑"
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_3 = {
+	tip = "聆风之隅"
 }
 
 
@@ -49487,4 +49492,87 @@ _G.pg.base.gametip.island_mecha_task_lock_tip = {
 
 _G.pg.base.gametip.yearly_sign_in = {
 	tip = "年度累计签到"
+}
+
+
+_G.pg.base.gametip.DreamTourCoreActivity_subtitle_1 = {
+	tip = "美梦巡演奇妙夜"
+}
+
+
+_G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
+	tip = "美梦补给站"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_button = {
+	tip = "洗车游戏"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_tiiiiiip = {
+	tip = [[
+1.在限定时间内清除车辆上的所有污渍，即可完成洗车任务。
+2.共有3种污渍：灰尘、油渍和猫爪印，
+3.不同污渍需要使用对应的水枪才能清除干净。
+4.赛车女郎会在洗车过程中陪伴玩家完成任务。
+5.水流不小心冲到赛车女郎的话，将根据被冲到的部位影响她的心情值。
+6.心情值提升到一定阶段，会解锁新的动作。
+7.心情值达到满值后，会发生意想不到的事情。
+8.限定时间结束后，会根据车辆的清洁度进行评分。 ]]
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_mood = {
+	tip = "心动值"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_clean = {
+	tip = "清洁度 "
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_retry = {
+	tip = "再来一次"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_exit = {
+	tip = "退出"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_title = {
+	tip = "玩法说明"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_carwash = {
+	tip = "维修区工作站"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_table = {
+	tip = "工房"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_chair = {
+	tip = "客厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_bed = {
+	tip = "卧室"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_overtime = {
+	tip = "宿舍礼物即将过期，请尽快使用。"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_overtime_title = {
+	tip = "过期提示"
 }

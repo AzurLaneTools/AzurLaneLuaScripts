@@ -714,7 +714,139 @@ pg.dorm3d_ins_chat_language.all = {
 	708,
 	709,
 	710,
-	711
+	711,
+	712,
+	713,
+	714,
+	715,
+	716,
+	717,
+	718,
+	719,
+	720,
+	721,
+	722,
+	723,
+	724,
+	725,
+	726,
+	727,
+	728,
+	729,
+	730,
+	731,
+	732,
+	733,
+	734,
+	735,
+	736,
+	737,
+	738,
+	739,
+	740,
+	741,
+	742,
+	743,
+	744,
+	745,
+	746,
+	747,
+	748,
+	749,
+	750,
+	751,
+	752,
+	753,
+	754,
+	755,
+	756,
+	757,
+	758,
+	759,
+	760,
+	761,
+	762,
+	763,
+	764,
+	765,
+	766,
+	767,
+	768,
+	769,
+	770,
+	771,
+	772,
+	773,
+	774,
+	775,
+	776,
+	777,
+	778,
+	779,
+	780,
+	781,
+	782,
+	783,
+	784,
+	785,
+	786,
+	787,
+	788,
+	789,
+	790,
+	791,
+	792,
+	793,
+	794,
+	795,
+	796,
+	797,
+	798,
+	799,
+	800,
+	801,
+	802,
+	803,
+	804,
+	805,
+	806,
+	807,
+	808,
+	809,
+	810,
+	811,
+	812,
+	813,
+	814,
+	815,
+	816,
+	817,
+	818,
+	819,
+	820,
+	821,
+	822,
+	823,
+	824,
+	825,
+	826,
+	827,
+	828,
+	829,
+	830,
+	831,
+	832,
+	833,
+	834,
+	835,
+	836,
+	837,
+	838,
+	839,
+	840,
+	841,
+	842,
+	843
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_chat_language = {}
@@ -6925,6 +7057,1194 @@ end)()
 		option = "",
 		type = 1,
 		id = 711,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[712] = {
+		param = "指挥官，我看到你的车有点脏了",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 712,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[713] = {
+		param = "需要我帮你做一下清洁保养吗？",
+		ship_group = 79902,
+		type = 1,
+		id = 713,
+		flag = 0,
+		option = {
+			{
+				1,
+				"好啊"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[714] = {
+		param = "好啊，谢谢你",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 714,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[715] = {
+		param = "嗯，那下次指挥官来的时候就把车交给我吧",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 715,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[716] = {
+		param = "如果指挥官想把车做什么改装的话，也可以跟我说",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 716,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[717] = {
+		param = "以纳希莫夫的技术……指挥官想改造成会变形的都可以",
+		ship_group = 79902,
+		type = 1,
+		id = 717,
+		flag = 1,
+		option = {
+			{
+				2,
+				"什么变形？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[718] = {
+		param = "什么变形？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 718,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[719] = {
+		param = "指挥官有没有看过汽车变形成机器人的电影？",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 719,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[720] = {
+		param = "很帅对吧",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 720,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[721] = {
+		param = "而且从理论上来说，是可行",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 721,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[722] = {
+		param = "但是由于变形结构的高度复杂性",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 722,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[723] = {
+		param = "最后的成品很可能故障率极高，使用寿命也会很短",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 723,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[724] = {
+		param = "不过如果指挥官只是想试试看的话……也不是不可以",
+		ship_group = 79902,
+		type = 1,
+		id = 724,
+		flag = 2,
+		option = {
+			{
+				3,
+				"原来如此"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[725] = {
+		param = "原来如此",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 725,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[726] = {
+		param = "如果指挥官希望加强座驾的防御或者进攻能力",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 726,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[727] = {
+		param = "我这边还有其他更成熟的设计",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 727,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[728] = {
+		param = "指挥官可以来我这边看看详细的方案",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 728,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[729] = {
+		param = "指挥官你好，我是线缆",
+		ship_group = 79902,
+		type = 1,
+		id = 729,
+		flag = 0,
+		option = {
+			{
+				1,
+				"线缆？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[730] = {
+		param = "线缆？是尾巴，不是纳希莫夫？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 730,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[731] = {
+		param = "纳希莫夫已经睡着了",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 731,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[732] = {
+		param = "现在是线缆在跟你联系",
+		ship_group = 79902,
+		type = 1,
+		id = 732,
+		flag = 1,
+		option = {
+			{
+				2,
+				"那……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[733] = {
+		param = "那……纳希莫夫醒着的时候你为什么不说话？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 733,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[734] = {
+		param = "因为……线缆没有发声模块，只能趁她睡着了偷偷说",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 734,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[735] = {
+		param = "线缆明天也想见到指挥官，指挥官会来吗？",
+		ship_group = 79902,
+		type = 1,
+		id = 735,
+		flag = 2,
+		option = {
+			{
+				3,
+				"要是线缆让我摸摸的话……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[736] = {
+		param = "要是线缆让我摸摸的话……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 736,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[737] = {
+		param = "这个……好吧",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 737,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[738] = {
+		param = "可以让指挥官摸一小会，但是不能碰到接口那边",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 738,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[739] = {
+		param = "那里……很敏感",
+		ship_group = 79902,
+		type = 1,
+		id = 739,
+		flag = 3,
+		option = {
+			{
+				4,
+				"所以你其实就是纳希莫夫吧"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[740] = {
+		param = "所以你其实就是纳希莫夫吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 740,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[741] = {
+		param = "喵！不、不是，是线缆！",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 741,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[742] = {
+		param = "纳希莫夫要醒了，我先下线了！",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 742,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[743] = {
+		param = "指挥官记得明天要来！",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 743,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[744] = {
+		param = "指挥官，我有一处珍藏的隐蔽钓鱼点",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 744,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[745] = {
+		param = "要一起去试试吗？",
+		ship_group = 79902,
+		type = 1,
+		id = 745,
+		flag = 0,
+		option = {
+			{
+				1,
+				"没想到……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[746] = {
+		param = "没想到纳希莫夫会提出钓鱼",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 746,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[747] = {
+		param = "自己钓起来的鱼，很鲜，比直接买到的鱼好吃",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 747,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[748] = {
+		param = "而且钓鱼很好玩",
+		ship_group = 79902,
+		type = 1,
+		id = 748,
+		flag = 1,
+		option = {
+			{
+				2,
+				"是等待收获的乐趣?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[749] = {
+		param = "是等待收获的乐趣？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 749,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[750] = {
+		param = "嗯",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 750,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[751] = {
+		param = "把新制作的钓具架设好，实时根据天气，水流等情况调整参数",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 751,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[752] = {
+		param = "再通过钓鱼收获来确认性能",
+		ship_group = 79902,
+		type = 1,
+		id = 752,
+		flag = 2,
+		option = {
+			{
+				3,
+				"等等，你那真的是钓具？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[753] = {
+		param = "等等，你那真的是钓具？运用违禁手段捕鱼可是禁止的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 753,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[754] = {
+		param = "不会的",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 754,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[755] = {
+		param = "我仔细研究过相关资料，确保不会违规",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 755,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[756] = {
+		param = "最新的钓具采用了仿生学设计",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 756,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[757] = {
+		param = "能让鱼钩像小虫一样扭动，同时释放诱饵气味分子",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 757,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[758] = {
+		param = "根据前几次测试，该钓具能将鱼钩入水3分钟内的上钩率提高73%",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 758,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[759] = {
+		param = "指挥官也来试看看吧",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 759,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[760] = {
+		param = "指挥官好像对房间里的布置特别感兴趣，是发现什么可以提高效率的地方了吗？",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 760,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[761] = {
+		param = "因为我已经习惯了这种布置，所以可能会存在盲点",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 761,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[762] = {
+		param = "想听听指挥官的建议",
+		ship_group = 79902,
+		type = 1,
+		id = 762,
+		flag = 0,
+		option = {
+			{
+				1,
+				"已经足够高效了"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[763] = {
+		param = "已经足够高效了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 763,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[764] = {
+		param = "适合自己的房间才是最好的房间",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 764,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[765] = {
+		param = "嗯",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 765,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[766] = {
+		param = "指挥官说得没错",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 766,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[767] = {
+		param = "但房间里以前只有我一个“变量”，现在又引入了指挥官这个新“变量”",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 767,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[768] = {
+		param = "所以我还是希望能研究出在变量增加后，继续确保高效的方案",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 768,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[769] = {
+		param = "保证我和指挥官，都能高效",
+		ship_group = 79902,
+		type = 1,
+		id = 769,
+		flag = 1,
+		option = {
+			{
+				2,
+				"等下我来找你一起想吧"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[770] = {
+		param = "等下我来找你一起想吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 770,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[771] = {
+		param = "嗯，好",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 771,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[772] = {
+		param = "能同时满足两个人要求的方案，还是需要两个人一起思考",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 772,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[773] = {
+		param = "根据记录，指挥官今天接触了线缆五次",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 773,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[774] = {
+		param = "可以询问一下指挥官为什么会对线缆这么感兴趣吗?",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 774,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[775] = {
+		param = "我想作为改进方向的参考",
+		ship_group = 79902,
+		type = 1,
+		id = 775,
+		flag = 0,
+		option = {
+			{
+				1,
+				"准确来说"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[776] = {
+		param = "准确来说",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 776,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[777] = {
+		param = "是尾巴在你不注意的时候把我缠住了五次",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 777,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[778] = {
+		param = "然后我解开了五次",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 778,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[779] = {
+		param = "原来是这样吗？",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 779,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[780] = {
+		param = "抱……抱歉，给指挥官造成困扰了",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 780,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[781] = {
+		param = "我会检查线缆的行为日志，尽快把反复缠住指挥官的bug修复",
+		ship_group = 79902,
+		type = 1,
+		id = 781,
+		flag = 1,
+		option = {
+			{
+				2,
+				"没事"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[782] = {
+		param = "没事，我也挺喜欢的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 782,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[783] = {
+		param = "嗯……那我需要重新考虑一下了",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 783,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[784] = {
+		param = "既然指挥官喜欢的话……这个bug就先不修了",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 784,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[785] = {
+		param = "刚刚收到的礼物……是指挥官送来的第十份",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 785,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[786] = {
+		param = "纳希莫夫对指挥官的好感度提升到了新的节点",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 786,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[787] = {
+		param = "即将触发新互动内容",
+		ship_group = 79902,
+		type = 1,
+		id = 787,
+		flag = 0,
+		option = {
+			{
+				1,
+				"等一下"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[788] = {
+		param = "等一下，这个“好感度”是哪里来的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 788,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[789] = {
+		param = "这个是我为自己开发的新功能",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 789,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[790] = {
+		param = "根据设定，达到一定条件后就能解锁新内容",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 790,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[791] = {
+		param = "能有序推进和指挥官之间的情感进程，非常高效便捷",
+		ship_group = 79902,
+		type = 1,
+		id = 791,
+		flag = 1,
+		option = {
+			{
+				2,
+				"那刚刚是触发了什么新互动？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[792] = {
+		param = "那刚刚是触发了什么新互动？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 792,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[793] = {
+		param = "我将邀请指挥官前去一起购物",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 793,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[794] = {
+		param = "购物行为完成后，解锁邀请指挥官一起用餐",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 794,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[795] = {
+		param = "一起用餐完成后，解锁邀请指挥官一起看电影",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 795,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[796] = {
+		param = "根据指挥官选择的电影类型，会解锁后续不同内容",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 796,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[797] = {
+		param = "嗯……事件规划上是这么写的",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 797,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[798] = {
+		param = "指挥官，我们先一起去购物吧！",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 798,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[799] = {
+		param = "指挥官",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 799,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[800] = {
+		param = "天气预报出现了偏差，你才刚走就开始下雨了",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 800,
+		flag = 0
+	}
+end)()
+(function ()
+	pg.base.dorm3d_ins_chat_language[801] = {
+		param = "你有被淋湿吗？",
+		ship_group = 79902,
+		type = 1,
+		id = 801,
+		flag = 0,
+		option = {
+			{
+				1,
+				"还好"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[802] = {
+		param = "还好，我找了地方躲雨",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 802,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[803] = {
+		param = "指挥官请稍等，我马上送伞过来",
+		ship_group = 79902,
+		type = 1,
+		id = 803,
+		flag = 1,
+		option = {
+			{
+				2,
+				"谢谢"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[804] = {
+		param = "谢谢，但会不会耽误你工作？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 804,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[805] = {
+		param = "保证指挥官不受天气影响很重要，在目前的工作中优先级最高",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 805,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[806] = {
+		param = "所以请指挥官把自己现在所在地点发给我吧",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 806,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[807] = {
+		param = "我马上就到",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 807,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[808] = {
+		param = "这几天总有小猫偷偷溜到房间里来",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 808,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[809] = {
+		param = "指挥官想过来跟它们玩吗？",
+		ship_group = 79902,
+		type = 1,
+		id = 809,
+		flag = 0,
+		option = {
+			{
+				1,
+				"猫咪们是很可爱"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[810] = {
+		param = "猫咪们是很可爱，可惜有点胆小",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 810,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[811] = {
+		param = "我一伸手就都躲到猫爬架上去了，够不着",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 811,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[812] = {
+		param = "嗯，猫咪警惕性高是正常的，需要先让它们熟悉你的存在才行",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 812,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[813] = {
+		param = "我想想……可以先在房间里放一些有指挥官气味的东西，让它们慢慢习惯",
+		ship_group = 79902,
+		type = 1,
+		id = 813,
+		flag = 1,
+		option = {
+			{
+				2,
+				"然后呢？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[814] = {
+		param = "然后呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 814,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[815] = {
+		param = "可以试试先蹲下来，和它们保持平视",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 815,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[816] = {
+		param = "不要一直盯着看，猫咪会觉得那是威胁的信号",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 816,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[817] = {
+		param = "手里放点零食，伸出去的时候别动，等它们自己过来",
+		ship_group = 79902,
+		type = 1,
+		id = 817,
+		flag = 2,
+		option = {
+			{
+				3,
+				"你怎么知道得这么清楚？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[818] = {
+		param = "你怎么知道得这么清楚？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 818,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[819] = {
+		param = "嗯……因为它们总来我这里蹭吃的",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 819,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[820] = {
+		param = "我观察研究过一段时间",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 820,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[821] = {
+		param = "指挥官，最近几次见到你的时候，感觉你看起来都有点累",
+		ship_group = 79902,
+		type = 1,
+		id = 821,
+		flag = 0,
+		option = {
+			{
+				1,
+				"最近……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[822] = {
+		param = "最近工作比较多，经常需要加班",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 822,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[823] = {
+		param = "港区的事务……很复杂，我不太帮得上忙",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 823,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[824] = {
+		param = "但是应该我有办法能帮助指挥官缓解疲劳",
+		ship_group = 79902,
+		type = 1,
+		id = 824,
+		flag = 1,
+		option = {
+			{
+				2,
+				"什么办法？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[825] = {
+		param = "什么办法？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 825,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[826] = {
+		param = "我……可以帮指挥官按摩",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 826,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[827] = {
+		param = "之前特意研究过人体肌肉结构和放松手法，理论方面没有问题",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 827,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[828] = {
+		param = "只是还没有实践过，不知道有没有效果……",
+		ship_group = 79902,
+		type = 1,
+		id = 828,
+		flag = 2,
+		option = {
+			{
+				3,
+				"那就拜托你了"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[829] = {
+		param = "那就拜托你了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 829,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[830] = {
+		param = "嗯，就这么说定了",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 830,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[831] = {
+		param = "下次指挥官累的时候，就直接来找我吧",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 831,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[832] = {
+		param = "不管是肩膀还是后背……我都可以的",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 832,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[833] = {
+		param = "想多拍几张跟指挥官在一起时的照片",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 833,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[834] = {
+		param = "但不知道摆什么姿势拍出来才好看，指挥官有什么建议吗？",
+		ship_group = 79902,
+		type = 1,
+		id = 834,
+		flag = 0,
+		option = {
+			{
+				1,
+				"不需要刻意去凹造型"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[835] = {
+		param = "不需要刻意去凹造型，纳希莫夫自然的状态就很可爱",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 835,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[836] = {
+		param = "自然状态么……",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 836,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[837] = {
+		param = "可是我平时就只有在工作和睡觉而已，不太会注意到自己看起来是什么样",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 837,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[838] = {
+		param = "为什么会可爱呢？",
+		ship_group = 79902,
+		type = 1,
+		id = 838,
+		flag = 1,
+		option = {
+			{
+				2,
+				"认真工作的样子……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[839] = {
+		param = "纳希莫夫认真工作的样子，本身就很有魅力",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 839,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[840] = {
+		param = "原来如此",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 840,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[841] = {
+		param = "纳希莫夫看指挥官工作时也有这样的感觉",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 841,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[842] = {
+		param = "看来需要之后在指挥官的办公室架设一批数据采集装置",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 842,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[843] = {
+		param = "研究一下“认真工作的魅力”在哪里",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 843,
 		flag = 2
 	}
 end)()

@@ -70,7 +70,16 @@ pg.dorm3d_furniture_template.all = {
 	1414,
 	1415,
 	1461,
-	1462
+	1462,
+	2101,
+	2102,
+	2103,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2161
 }
 pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 	{
@@ -154,6 +163,17 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		1415,
 		1461,
 		1462
+	},
+	[21] = {
+		2101,
+		2102,
+		2103,
+		2111,
+		2112,
+		2113,
+		2114,
+		2115,
+		2161
 	}
 }
 pg.base = pg.base or {}
@@ -1946,6 +1966,223 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/study"
+		}
+	}
+	pg.base.dorm3d_furniture_template[2101] = {
+		rarity = 3,
+		name = "纸壳小窝 ",
+		unlock_tips = "",
+		type = 4,
+		room_id = 21,
+		desc = "纸板拼接而成的小窝，轻巧易挪动，简约却又不失舒适，很适合她喜欢蜷缩在小地方的睡眠习惯。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2101,
+		target_slots = {
+			2210101
+		},
+		touch_id = {
+			{
+				79902,
+				7990210
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2102] = {
+		rarity = 3,
+		name = "多用置物架",
+		unlock_tips = "",
+		type = 6,
+		room_id = 21,
+		desc = "五层开放格架从地面延伸到视线平行处，书籍、工具等物件各得其所。生活的痕迹就摆在那里，每一格都是随手可触的日常。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2102,
+		target_slots = {
+			2210201
+		},
+		touch_id = {
+			{
+				79902,
+				7990220
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2103] = {
+		rarity = 3,
+		name = "阳光暖意沙发",
+		unlock_tips = "",
+		type = 5,
+		room_id = 21,
+		desc = "纯白沙发围成温暖的转角，橙色靠垫如阳光碎片点缀其间。搭配同色矮桌与绒毯，每一处都适合放松休息。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2103,
+		target_slots = {
+			2210301
+		},
+		touch_id = {
+			{
+				79902,
+				7990230
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2111] = {
+		rarity = 2,
+		name = "窗边绿植",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "摆放在窗边的绿色盆栽，枝干挺拔，叶片舒展，为房间注入满满的生机与自然气息。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_flowerpot01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2111,
+		target_slots = {
+			2210303
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2112] = {
+		rarity = 2,
+		name = "猫猫坐垫",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "厚实柔软的圆形坐垫，放在哪里，哪里就成了可以赖着不走的地方。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_cushion01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2112,
+		target_slots = {
+			2210304
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2113] = {
+		rarity = 2,
+		name = "原子球模型",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "原子球与晶体结构的科学艺术装置，既可作为物理爱好者的收藏，也是格调独特的桌面摆件。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_decoration01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2113,
+		target_slots = {
+			2210302
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2114] = {
+		rarity = 2,
+		name = "黄釉圆瓶",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "圆滚滚的黄色瓷瓶，釉面温润光亮，造型憨厚可爱，像一只被拉长的甜甜圈。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_ceram01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2114,
+		target_slots = {
+			2210103
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2115] = {
+		rarity = 2,
+		name = "香薰瓶",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "明黄色的陶瓷小瓶中插着纤细的扩香棒，无需点燃香气便悄然弥漫，缓缓充盈整个房间。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_cosmetic01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2115,
+		target_slots = {
+			2210102
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2161] = {
+		rarity = 4,
+		name = "魔方检测仪",
+		type = 6,
+		room_id = 21,
+		desc = "圆形的检测仪缓缓转动，屏幕上的数据如星河流淌，按下启动键的那一刻，或许会揭开什么科学奥秘呢~",
+		is_exclusive = 1,
+		model = "Pay_Naximofuhostel/pre_db_naximofu_basement01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_PremiumFurniture1",
+		acesses = "",
+		id = 2161,
+		target_slots = {
+			2210201
+		},
+		touch_id = {
+			{
+				79902,
+				7990240
+			}
+		},
+		shop_id = {
+			270701
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture2161"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/basement/pre_db_naximofu_basement01_0"
 		}
 	}
 end)()

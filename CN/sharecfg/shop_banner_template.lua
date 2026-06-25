@@ -67,7 +67,7 @@ pg.base.shop_banner_template = {}
 				{
 					2026,
 					6,
-					18
+					25
 				},
 				{
 					0,
@@ -79,7 +79,7 @@ pg.base.shop_banner_template = {}
 				{
 					2026,
 					6,
-					18
+					30
 				},
 				{
 					23,
@@ -510,7 +510,7 @@ pg.base.shop_banner_template = {}
 				{
 					2026,
 					6,
-					18
+					25
 				},
 				{
 					0,
@@ -522,7 +522,7 @@ pg.base.shop_banner_template = {}
 				{
 					2026,
 					7,
-					1
+					15
 				},
 				{
 					23,

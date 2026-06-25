@@ -42,7 +42,10 @@ slot0.GetDefaultSystemClasses = function()
 	return {
 		SlideExtraSystem,
 		Dorm3dStockingMgr,
-		TeleportSystem
+		TeleportSystem,
+		RoomIKSystem,
+		RoomTouchSystem,
+		AimIKSystem
 	}
 end
 

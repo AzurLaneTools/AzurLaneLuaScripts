@@ -5,13 +5,33 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.InitCharacter = function(slot0, slot1)
+	slot0:InitCharacterRoot()
+	slot0:InitCharacterAimIK()
+	slot0:InitCharacterAnimator()
+	slot0:InitCharacterHierarchy()
+	slot0:InitCharacterCollider()
+	slot0:InitCharacterCloth()
+	slot0:InitCharacterIKRoot()
+	slot0:InitCharacterTouchEvent(slot1)
+	slot0:InitCharacterAnimationEvent()
+	slot0:InitCharacterEffects()
+	slot0:InitCharacterBlackboard(slot1)
+	slot0:InitCharacterLayer()
+	slot0:InitCharacterController()
+	slot0:InitCharacterTransparency()
+	slot0:InitCharacterAnimationDispatcher()
+end
+
+slot0.InitCharacterRoot = function(slot0)
 	slot0.lady = slot0.ladyGameObject.transform
 
 	slot0.lady:SetParent(slot0:Get("mainCameraTF"))
 	slot0.lady:SetParent(nil)
+end
 
-	slot2 = slot0.lady
-	slot0.ladyHeadIKComp = slot2:GetComponent(typeof(HeadAimIK))
+slot0.InitCharacterAimIK = function(slot0)
+	slot1 = slot0.lady
+	slot0.ladyHeadIKComp = slot1:GetComponent(typeof(HeadAimIK))
 	slot0.ladyHeadIKComp.AimTarget = slot0:Get("mainCameraTF"):Find("AimTarget")
 	slot0.ladyHeadIKData = {
 		DampTime = slot0.ladyHeadIKComp.DampTime,
@@ -19,18 +39,25 @@ slot0.InitCharacter = function(slot0, slot1)
 		BodyWeight = slot0.ladyHeadIKComp.BodyWeight,
 		HeadWeight = slot0.ladyHeadIKComp.HeadWeight
 	}
-	slot2 = {}
+end
+
+slot0.InitCharacterAnimator = function(slot0)
+	slot0.ladyAnimator = slot0.lady:GetComponent(typeof(Animator))
+	slot0.ladyAnimBaseLayerIndex = slot0.ladyAnimator:GetLayerIndex("Base Layer")
+	slot0.ladyAnimFaceLayerIndex = slot0.ladyAnimator:GetLayerIndex("Face")
+end
+
+slot0.InitCharacterHierarchy = function(slot0)
+	slot1 = {}
 
 	table.Foreach(DormConst.boneMap, function (slot0, slot1)
 		uv0[slot1] = slot0
 	end)
 
-	slot0.ladyAnimator = slot0.lady:GetComponent(typeof(Animator))
-	slot0.ladyAnimBaseLayerIndex = slot0.ladyAnimator:GetLayerIndex("Base Layer")
-	slot0.ladyAnimFaceLayerIndex = slot0.ladyAnimator:GetLayerIndex("Face")
 	slot0.ladyBoneMaps = {}
+	slot2 = slot0.lady
 
-	table.IpairsCArray(slot0.lady:GetComponentsInChildren(typeof(Transform), true), function (slot0, slot1)
+	table.IpairsCArray(slot2:GetComponentsInChildren(typeof(Transform), true), function (slot0, slot1)
 		if slot1.name == "BodyCollider" then
 			uv0.ladyCollider = slot1
 
@@ -49,11 +76,14 @@ slot0.InitCharacter = function(slot0, slot1)
 			uv0.ladyBoneMaps[uv1[slot1.name]] = slot1
 		end
 	end)
+end
 
+slot0.InitCharacterCollider = function(slot0)
 	slot0.ladyColliders = {}
 	slot0.ladyTouchColliders = {}
+	slot2 = slot0.lady
 
-	table.IpairsCArray(slot0.lady:GetComponentsInChildren(typeof(UnityEngine.Collider), true), function (slot0, slot1)
+	table.IpairsCArray(slot2:GetComponentsInChildren(typeof(UnityEngine.Collider), true), function (slot0, slot1)
 		if slot1:GetType():Equals(typeof(UnityEngine.MeshCollider)) then
 			return
 		end
@@ -67,7 +97,9 @@ slot0.InitCharacter = function(slot0, slot1)
 		table.insert(uv0.ladyTouchColliders, slot2)
 		setActive(slot2, false)
 	end)
+end
 
+slot0.InitCharacterCloth = function(slot0)
 	slot0.clothComps = {}
 	slot0.ladyClothCompSettings = {}
 
@@ -92,20 +124,32 @@ slot0.InitCharacter = function(slot0, slot1)
 		}
 	end)
 	slot0:EnableCloth(false)
+end
 
-	slot0.ladyIKRoot = slot0.lady:Find("IKLayers")
+slot0.InitCharacterIKRoot = function(slot0)
+	slot1 = slot0.lady
+	slot0.ladyIKRoot = slot1:Find("IKLayers")
 
 	eachChild(slot0.ladyIKRoot, function (slot0)
 		setActive(slot0, false)
 	end)
-	GetComponent(slot0.lady, typeof(EventTriggerListener)):AddPointClickFunc(function (slot0, slot1)
+end
+
+slot0.InitCharacterTouchEvent = function(slot0, slot1)
+	slot2 = GetComponent(slot0.lady, typeof(EventTriggerListener))
+
+	slot2:AddPointClickFunc(function (slot0, slot1)
 		if slot1.rawPointerPress.transform == uv0.ladyCollider then
 			uv0:Emit(Dorm3dRoomTemplateScene.CLICK_CHARACTER, uv1)
-		else
-			uv0:Emit(Dorm3dRoomTemplateScene.ON_TOUCH_CHARACTER, table.keyof(uv0.IKSettings.Colliders, slot1.rawPointerPress.transform) or slot1.rawPointerPress.name)
 		end
 	end)
-	slot0.ladyAnimator:GetComponent("DftAniEvent"):SetCommonEvent(function (slot0)
+end
+
+slot0.InitCharacterAnimationEvent = function(slot0)
+	slot1 = slot0.ladyAnimator
+	slot1 = slot1:GetComponent("DftAniEvent")
+
+	slot1:SetCommonEvent(function (slot0)
 		if uv0.nowState and slot0.animatorStateInfo:IsName(uv0.nowState) then
 			existCall(uv0.stateCallback)
 
@@ -130,8 +174,10 @@ slot0.InitCharacter = function(slot0, slot1)
 
 	slot0.animEventCallbacks = {}
 	slot0.animCallbacks = {}
+end
 
-	slot7 = function(slot0, slot1, slot2)
+slot0.InitCharacterEffects = function(slot0)
+	slot1 = function(slot0, slot1, slot2)
 		uv0:Get("loader"):GetPrefab(slot0, slot1, function (slot0)
 			slot0.name = uv0
 			uv1[uv0] = tf(slot0)
@@ -146,13 +192,13 @@ slot0.InitCharacter = function(slot0, slot1)
 	slot0.effectHeart = slot0.ladyHeadCenter:Find("effectHeart")
 
 	if not slot0.effectHeart then
-		slot7("dorm3d/effect/prefab/function/vfx_function_aixin02", "vfx_function_aixin02", "effectHeart")
+		slot1("dorm3d/effect/prefab/function/vfx_function_aixin02", "vfx_function_aixin02", "effectHeart")
 	end
 
 	slot0.ladyWatchFloat = slot0.ladyHeadCenter:Find("ladyWatchFloat")
 
 	if not slot0.ladyWatchFloat then
-		slot7("dorm3d/effect/prefab/function/vfx_talk_mark", "vfx_talk_mark", "ladyWatchFloat")
+		slot1("dorm3d/effect/prefab/function/vfx_talk_mark", "vfx_talk_mark", "ladyWatchFloat")
 	end
 
 	if slot0.tfPendintItem then
@@ -160,7 +206,9 @@ slot0.InitCharacter = function(slot0, slot1)
 			setParent(uv0.tfPendintItem, uv0.lady)
 		end)
 	end
+end
 
+slot0.InitCharacterBlackboard = function(slot0, slot1)
 	slot0.ladyOwner = GetComponent(slot0.lady, "GraphOwner")
 	slot0.ladyBlackboard = GetComponent(slot0.lady, "Blackboard")
 
@@ -168,18 +216,29 @@ slot0.InitCharacter = function(slot0, slot1)
 	onNextTick(function ()
 		uv0.ladyOwner.enabled = true
 	end)
-	pg.ViewUtils.SetLayer(slot0.lady, Layer.Character3D)
+end
 
+slot0.InitCharacterLayer = function(slot0)
+	pg.ViewUtils.SetLayer(slot0.lady, Layer.Character3D)
+end
+
+slot0.InitCharacterController = function(slot0)
 	slot0.characterController = GetOrAddComponent(slot0.ladyGameObject, typeof(CharacterController))
 	slot0.characterController.enabled = false
 	slot0.characterController.center = DormConst.CHARACTER_CONTROLLER.center
 	slot0.characterController.radius = DormConst.CHARACTER_CONTROLLER.radius
 	slot0.characterController.height = DormConst.CHARACTER_CONTROLLER.height
 	slot0.characterController.stepOffset = DormConst.CHARACTER_CONTROLLER.stepOffset
+end
+
+slot0.InitCharacterTransparency = function(slot0)
 	slot0.transparencyComp = GetOrAddComponent(slot0.lady, typeof(CharacterTransparency))
 	slot0.transparencyComp.player = slot0:Get("player")
 	slot0.transparencyComp.minDistance = DormConst.TRANSPARENCY_MIN_DISTANCE
 	slot0.transparencyComp.maxDistance = DormConst.TRANSPARENCY_MAX_DISTANCE
+end
+
+slot0.InitCharacterAnimationDispatcher = function(slot0)
 	slot0.animationEventDispatcher = GetOrAddComponent(slot0.lady, typeof(DormAnimationEventDispatcher))
 	slot0.animationEventDispatcher.listenLayer = slot0.ladyAnimBaseLayerIndex
 end

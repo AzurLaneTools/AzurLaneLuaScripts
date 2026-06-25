@@ -16,7 +16,9 @@ pg.dorm3d_camera_photo_frame.all = {
 	1010,
 	1011,
 	1012,
-	1013
+	1013,
+	1014,
+	1015
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_camera_photo_frame = {}
@@ -168,7 +170,7 @@ pg.base.dorm3d_camera_photo_frame = {}
 		farme_path = "photo_frame_Wood",
 		frameTfName = "WoodFrame",
 		desc = "获得后可以在相机功能中解锁雅致胡桃相框",
-		unlock_text = "{namecode:199}5级解锁",
+		unlock_text = "{namecode:199}契合度5级解锁",
 		id = 1008,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_Wood_small",
@@ -207,8 +209,8 @@ pg.base.dorm3d_camera_photo_frame = {}
 		rarity = 3,
 		farme_path = "photo_frame_player",
 		frameTfName = "PlayerFrame",
-		desc = "获得后可以在相机功能中解锁雅致影音之窗相框",
-		unlock_text = "{namecode:97}5级解锁",
+		desc = "获得后可以在相机功能中解锁影音之窗相框",
+		unlock_text = "{namecode:97}契合度5级解锁",
 		id = 1010,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_player_small",
@@ -247,8 +249,8 @@ pg.base.dorm3d_camera_photo_frame = {}
 		rarity = 3,
 		farme_path = "photo_frame_picture",
 		frameTfName = "PictureFrame",
-		desc = "获得后可以在相机功能中解锁雅致奢金印象相框",
-		unlock_text = "{namecode:480}5级解锁",
+		desc = "获得后可以在相机功能中解锁奢金印象相框",
+		unlock_text = "{namecode:480}契合度5级解锁",
 		id = 1012,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_picture_small",
@@ -275,6 +277,46 @@ pg.base.dorm3d_camera_photo_frame = {}
 		unlock = {
 			1,
 			49905,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_camera_photo_frame[1014] = {
+		name = "显像旧梦",
+		rarity = 3,
+		farme_path = "photo_frame_tv",
+		frameTfName = "TVFrame",
+		desc = "获得后可以在相机功能中解锁显像旧梦相框",
+		unlock_text = "纳希莫夫海军上将契合度5级解锁",
+		id = 1014,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_tv_small",
+		unlock = {
+			1,
+			79902,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_camera_photo_frame[1015] = {
+		name = "全息留影",
+		rarity = 3,
+		farme_path = "photo_frame_projection",
+		frameTfName = "TVFrame",
+		desc = "获得后可以在相机功能中解锁全息留影相框",
+		unlock_text = "纳希莫夫海军上将契合度13级解锁",
+		id = 1015,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_projection_small",
+		unlock = {
+			1,
+			79902,
 			13
 		},
 		watermark_location = {

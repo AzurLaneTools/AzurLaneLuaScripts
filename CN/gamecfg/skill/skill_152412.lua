@@ -246,7 +246,6 @@ return {
 	desc = "支援炮击",
 	painting = "gezi",
 	id = 152412,
-	castCV = "skill",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

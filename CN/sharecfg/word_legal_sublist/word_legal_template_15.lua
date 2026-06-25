@@ -4,6 +4,16 @@ slot0.word_legal_template_15 = {}
 slot1 = slot0.word_legal_template_15
 
 temp = function()
+	uv0["七"] = {
+		["省"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["奇"] = {
 		["尔"] = {
 			["沙"] = {
@@ -466,16 +476,6 @@ temp()
 temp = function()
 	uv0["凪"] = {
 		["咲"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["环"] = {
-		this = {
 			this = true
 		}
 	}

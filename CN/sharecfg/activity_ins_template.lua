@@ -647,13 +647,17 @@ pg.activity_ins_template.all = {
 	648,
 	649,
 	643,
+	655,
+	656,
+	657,
 	20001,
 	20002,
 	20003,
 	20004,
 	20006,
 	20005,
-	20007
+	20007,
+	20008
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -27177,6 +27181,87 @@ end)()
 		time_persist = {},
 		npc_discuss_persist = {}
 	}
+	pg.base.activity_ins_template[655] = {
+		ship_group = 81801,
+		name = "Cherbourg",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "sebao",
+		id = 655,
+		group_id = 655,
+		time = {
+			{
+				2026,
+				6,
+				25
+			},
+			{
+				14,
+				8,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[656] = {
+		ship_group = 80602,
+		name = "Arromanches",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "aluomangshi",
+		id = 656,
+		group_id = 656,
+		time = {
+			{
+				2026,
+				6,
+				26
+			},
+			{
+				17,
+				35,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[657] = {
+		ship_group = 80106,
+		name = "L'Intrépide",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "wuju",
+		id = 657,
+		group_id = 657,
+		time = {
+			{
+				2026,
+				6,
+				27
+			},
+			{
+				18,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
 	pg.base.activity_ins_template[20001] = {
 		ship_group = 0,
 		name = "",
@@ -27360,6 +27445,33 @@ end)()
 			{
 				15,
 				17,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20008] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港区新闻】美梦巡演马戏团正式开幕，人气高涨！",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20008,
+		group_id = 20008,
+		time = {
+			{
+				2026,
+				6,
+				25
+			},
+			{
+				16,
+				0,
 				0
 			}
 		},

@@ -57,7 +57,17 @@ pg.dorm3d_ins_language.all = {
 	"aijier_2_1",
 	"aijier_2_1_1",
 	"aijier_2_2",
-	"aijier_2_2_1"
+	"aijier_2_2_1",
+	"naximofu_1",
+	"naximofu_1_1",
+	"naximofu_1_1_1",
+	"naximofu_1_2",
+	"naximofu_1_2_1",
+	"naximofu_2",
+	"naximofu_2_1",
+	"naximofu_2_1_1",
+	"naximofu_2_2",
+	"naximofu_2_2_1"
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_language = {}
@@ -336,6 +346,56 @@ pg.base.dorm3d_ins_language = {}
 	pg.base.dorm3d_ins_language.aijier_2_2_1 = {
 		value = "那要不要一起……享受这个难得的午后？",
 		key = "aijier_2_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1 = {
+		value = "刚刚的互动游戏节目才看到一半，忽然电视机故障了……然后怎么拍都拍不好了",
+		key = "naximofu_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_1 = {
+		value = "我这里有节目录像，要待会拿过去跟你一起看么？",
+		key = "naximofu_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_1_1 = {
+		value = "谢谢指挥官，随时欢迎你来",
+		key = "naximofu_1_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_2 = {
+		value = "我知道那个游戏的规则，要一起来玩玩么？",
+		key = "naximofu_1_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_2_1 = {
+		value = "听起来不错，指挥官什么时候能过来？",
+		key = "naximofu_1_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2 = {
+		value = "太空里的其他星星是什么样子呢？",
+		key = "naximofu_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_1 = {
+		value = "以后有机会，一起去看看吧。",
+		key = "naximofu_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_1_1 = {
+		value = "嗯！到时候我要带上新烤的小鱼干……",
+		key = "naximofu_2_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_2 = {
+		value = "说不定有邪恶外星人的秘密基地",
+		key = "naximofu_2_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_2_1 = {
+		value = "装备确认无误，准备战斗。",
+		key = "naximofu_2_2_1",
 		is_active = "0"
 	}
 end)()

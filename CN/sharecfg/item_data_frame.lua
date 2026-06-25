@@ -102,6 +102,8 @@ pg.item_data_frame.all = {
 	1010,
 	1011,
 	1012,
+	1013,
+	1014,
 	10001,
 	10002,
 	10003,
@@ -1001,6 +1003,26 @@ pg.base.item_data_frame = {}
 		desc = "铁色的旗帜在浪潮间翻涌，一顶金冠于此加冕，象征着海洋的无上权柄。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:480}的契合度等级获取</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[1013] = {
+		name = "聚电装置",
+		gain_by = "",
+		time_second = 0,
+		id = 1013,
+		time_limit_type = 0,
+		desc = "绿色的脉冲电流在装置间噼啪作响，跃动的电光猫耳与灯泡一同闪烁。\n<color=#A7A7AA>通过提升「宿舍计划」中纳希莫夫海军上将的契合度等级获取</color>",
+		scene = {}
+	}
+	pg.base.item_data_frame[1014] = {
+		name = "赛博问候 ",
+		gain_by = "",
+		time_second = 0,
+		id = 1014,
+		time_limit_type = 0,
+		desc = "爪印与尾巴在数据流中浮现，那是来自赛博空间的猫猫问候。\n<color=#A7A7AA>通过提升「宿舍计划」中纳希莫夫海军上将的契合度等级获取</color>",
+		scene = {}
+	}
+end)()
+(function ()
 	pg.base.item_data_frame[10001] = {
 		name = "限界的挑战者·双子座",
 		gain_by = "",
@@ -1019,8 +1041,6 @@ pg.base.item_data_frame = {}
 		desc = "结晶之中闪烁着巨蟹座的光芒，献给勇于挑战极限的指挥官！\n<color=#A7A7AA>通过参与「限界挑战」获取 （23.07.01-23.07.31）</color>",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10003] = {
 		name = "限界的挑战者·狮子座",
 		gain_by = "",

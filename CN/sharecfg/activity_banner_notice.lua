@@ -43,7 +43,8 @@ pg.activity_banner_notice.all = {
 	38,
 	39,
 	40,
-	41
+	41,
+	42
 }
 pg.base = pg.base or {}
 pg.base.activity_banner_notice = {}
@@ -392,6 +393,15 @@ pg.base.activity_banner_notice = {}
 			{
 				designPage = 2,
 				warp = "WARP_TO_DESIGN"
+			}
+		}
+	}
+	pg.base.activity_banner_notice[42] = {
+		id = 42,
+		param = {
+			"scene core activity",
+			{
+				coreName = "DreamTourCoreActivityUI"
 			}
 		}
 	}

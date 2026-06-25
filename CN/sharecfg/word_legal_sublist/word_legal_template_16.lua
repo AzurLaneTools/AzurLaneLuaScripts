@@ -4,6 +4,16 @@ slot0.word_legal_template_16 = {}
 slot1 = slot0.word_legal_template_16
 
 temp = function()
+	uv0["环"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["雫"] = {
 		this = {
 			this = true

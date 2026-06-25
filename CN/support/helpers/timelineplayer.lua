@@ -1,6 +1,6 @@
 slot0 = class("TimelinePlayer")
 
-slot0.Ctor = function(slot0, slot1)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.comDirector = slot1:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
 
 	if GetComponent(slot1, typeof(TimelineSpeed)) then
@@ -16,7 +16,7 @@ slot0.Ctor = function(slot0, slot1)
 	end)
 	slot0.comDirector:Stop()
 
-	slot0.comDirector.extrapolationMode = ReflectionHelp.RefGetField(typeof("UnityEngine.Playables.DirectorWrapMode"), "Hold", nil)
+	slot0.comDirector.extrapolationMode = slot2 or ReflectionHelp.RefGetField(typeof("UnityEngine.Playables.DirectorWrapMode"), "Hold", nil)
 
 	TimelineSupport.InitTimeline(slot0.comDirector)
 end

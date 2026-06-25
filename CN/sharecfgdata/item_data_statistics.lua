@@ -11731,6 +11731,37 @@ _G.pg.base.item_data_statistics[15023] = {
 }
 
 
+_G.pg.base.item_data_statistics[15024] = {
+	open_directly = 0,
+	name = "维修区工作站建设券",
+	type = 100,
+	display = "用于扩建维修区工作站功能区域的建设开发券。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/15022",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 15024,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[16001] = {
 	open_directly = 0,
 	name = "舰艇攻击教材T1",
@@ -29840,6 +29871,131 @@ _G.pg.base.item_data_statistics[30384] = {
 }
 
 
+_G.pg.base.item_data_statistics[30385] = {
+	open_directly = 1,
+	name = "外观装备箱(童话乐园)",
+	type = 11,
+	display = "可以获得一件随机的童话乐园风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghualeyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30382",
+	id = 30385,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外观装备箱(世界巡游)",
@@ -46150,6 +46306,219 @@ _G.pg.base.item_data_statistics[30568] = {
 }
 
 
+_G.pg.base.item_data_statistics[30569] = {
+	open_directly = 0,
+	name = "定向外观装备箱(童话乐园)",
+	type = 13,
+	display = "使用后可从「童话乐园」主题外观装备中任意选择一种获得1个",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghualeyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30569,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "定向部件T4",
@@ -53304,6 +53673,43 @@ _G.pg.base.item_data_statistics[40142] = {
 			69901
 		}
 	}
+}
+
+
+_G.pg.base.item_data_statistics[40144] = {
+	open_directly = 1,
+	name = "梦幻乐园特别礼包",
+	type = 17,
+	display = "购买三件指定换装可获得永恒礼盒*1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 50660,
+	is_world = 0,
+	icon = "Props/black5bundle2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 40144,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			15006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -132477,6 +132883,357 @@ _G.pg.base.item_data_statistics[68323] = {
 	combination_display = {},
 	usage_arg = {
 		90511
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68306] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(布偶熊里面的是……？)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>瑟堡</color>换装<color=#92fc63FF>布偶熊里面的是……？</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88110",
+	id = 68306,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68309,
+			1
+		},
+		{
+			2,
+			68312,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68307] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(足尖弓矢)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>阿罗芒什</color>换装<color=#92fc63FF>足尖弓矢</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88111",
+	id = 68307,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68310,
+			1
+		},
+		{
+			2,
+			68313,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68308] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(好戏开幕！惊奇Show)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>马可波罗</color>换装<color=#92fc63FF>好戏开幕！惊奇Show</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88112",
+	id = 68308,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68311,
+			1
+		},
+		{
+			2,
+			68314,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68309] = {
+	open_directly = 0,
+	name = "换装抵扣券(布偶熊里面的是……？)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>瑟堡</color>换装<color=#92fc63FF>布偶熊里面的是……？</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68309,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71378
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68310] = {
+	open_directly = 0,
+	name = "换装抵扣券(足尖弓矢)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>阿罗芒什</color>换装<color=#92fc63FF>足尖弓矢</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68310,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71372
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68311] = {
+	open_directly = 0,
+	name = "换装抵扣券(好戏开幕！惊奇Show)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>马可波罗</color>换装<color=#92fc63FF>好戏开幕！惊奇Show</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年6月30日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68311,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71376
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68312] = {
+	open_directly = 0,
+	name = "换装体验券(布偶熊里面的是……？)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>瑟堡</color>换装<color=#92fc63FF>布偶熊里面的是……？</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68312,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90503
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68313] = {
+	open_directly = 0,
+	name = "换装体验券(足尖弓矢)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>阿罗芒什</color>换装<color=#92fc63FF>足尖弓矢</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68313,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90504
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68314] = {
+	open_directly = 0,
+	name = "换装体验券(好戏开幕！惊奇Show)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>马可波罗</color>换装<color=#92fc63FF>好戏开幕！惊奇Show</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年6月30日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68314,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90505
 	},
 	limit = {}
 }

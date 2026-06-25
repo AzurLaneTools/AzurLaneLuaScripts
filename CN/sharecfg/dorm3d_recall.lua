@@ -34,7 +34,11 @@ pg.dorm3d_recall.all = {
 	141,
 	142,
 	143,
-	144
+	144,
+	211,
+	212,
+	213,
+	214
 }
 pg.dorm3d_recall.get_id_list_by_story_id = {
 	[10010] = {
@@ -132,6 +136,18 @@ pg.dorm3d_recall.get_id_list_by_story_id = {
 	},
 	[140541] = {
 		144
+	},
+	[210510] = {
+		211
+	},
+	[210520] = {
+		212
+	},
+	[210530] = {
+		213
+	},
+	[210541] = {
+		214
 	}
 }
 pg.base = pg.base or {}
@@ -572,6 +588,61 @@ pg.base.dorm3d_recall = {}
 		unlock = {
 			3,
 			4990501
+		}
+	}
+	pg.base.dorm3d_recall[211] = {
+		story_id = 210510,
+		name = "高效清洁方案",
+		type = 1,
+		id = 211,
+		image = "recall_211",
+		unlock_text = "契合度4级后解锁",
+		desc = "甜度飙升的秘密，藏在“帮你清理”的高效方案里~",
+		unlock = {
+			1,
+			79902,
+			4
+		}
+	}
+	pg.base.dorm3d_recall[212] = {
+		story_id = 210520,
+		name = "晨间的温暖",
+		type = 1,
+		id = 212,
+		image = "recall_212",
+		unlock_text = "契合度8级后解锁",
+		desc = "想要依赖的，是你怀中令人安心的温暖~",
+		unlock = {
+			1,
+			79902,
+			8
+		}
+	}
+	pg.base.dorm3d_recall[213] = {
+		story_id = 210530,
+		name = "维修专家",
+		type = 1,
+		id = 213,
+		image = "recall_213",
+		unlock_text = "契合度12级后解锁",
+		desc = "指挥官，你好像也需要修理了喵~",
+		unlock = {
+			1,
+			79902,
+			12
+		}
+	}
+	pg.base.dorm3d_recall[214] = {
+		story_id = 210541,
+		name = "隐藏的本能",
+		type = 1,
+		id = 214,
+		image = "recall_214",
+		unlock_text = "赠送本能训练器后解锁",
+		desc = "面对逗猫棒，本能似乎比数据更加诚实~",
+		unlock = {
+			3,
+			7990201
 		}
 	}
 end)()

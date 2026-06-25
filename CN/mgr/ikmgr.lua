@@ -37,7 +37,7 @@ slot0.UnregisterEnv = function(slot0)
 	slot0.onIKLayerDrag = nil
 	slot0.onIKLayerAction = nil
 
-	slot0:ResetActiveIKs()
+	slot0:ExitIKStatus()
 
 	slot0.ladyIKRoot = nil
 	slot0.ladyBoneMaps = nil
@@ -98,9 +98,11 @@ slot0.SetIKStatus = function(slot0, slot1)
 end
 
 slot0.ExitIKStatus = function(slot0)
-	slot0:ResetActiveIKs()
+	slot0:ResetAllIKLayers()
 
 	slot0.readyIKLayers = nil
+	slot0.ikHandler = nil
+	slot0.ikRevertHandler = nil
 
 	table.clear(slot0.activeIKLayers)
 	table.clear(slot0.cacheIKInfos)
@@ -350,18 +352,67 @@ slot0.ResetIK = function(slot0, slot1)
 	end
 end
 
+slot0.ResetIKLayers = function(slot0, slot1)
+	slot2 = {}
+
+	_.each(slot1 or {}, function (slot0)
+		if not slot0 or uv0[slot0] then
+			return
+		end
+
+		uv0[slot0] = true
+
+		if uv1.ladyIKRoot and uv1.ladyIKRoot:Find(slot0:GetControllerPath()) and not IsNil(slot2) then
+			setActive(slot2, false)
+		end
+
+		if uv1.cacheIKInfos[slot0] then
+			slot5 = slot3.weights
+
+			table.Foreach(slot3.solvers, function (slot0, slot1)
+				slot1.IKPositionWeight = uv0[slot0]
+			end)
+		end
+	end)
+end
+
+slot0.ResetAllIKLayers = function(slot0)
+	slot1 = {}
+
+	slot2 = function(slot0)
+		if not slot0 then
+			return
+		end
+
+		table.insert(uv0, slot0)
+	end
+
+	_.each(slot0.readyIKLayers or {}, slot2)
+	_.each(slot0.activeIKLayers or {}, slot2)
+	_.each(_.keys(slot0.holdingStatus), slot2)
+
+	if slot0.ikHandler then
+		slot2(slot0.ikHandler.ikData)
+	end
+
+	slot0:ResetIKLayers(slot1)
+	table.clear(slot0.activeIKLayers)
+	table.clear(slot0.holdingStatus)
+
+	slot0.ikHandler = nil
+	slot0.ikRevertHandler = nil
+
+	if slot0.moveTimer then
+		slot0.moveTimer:Stop()
+
+		slot0.moveTimer = nil
+	end
+end
+
 slot0.ResetActiveIKs = function(slot0)
 	table.insertto(slot0.activeIKLayers, _.keys(slot0.holdingStatus))
 	table.clear(slot0.holdingStatus)
-	_.each(slot0.activeIKLayers, function (slot0)
-		setActive(uv0.ladyIKRoot:Find(slot0:GetControllerPath()):GetComponent(typeof(RootMotion.FinalIK.IKExecutionOrder)), false)
-
-		slot4 = uv0.cacheIKInfos[slot0].weights
-
-		table.Foreach(uv0.cacheIKInfos[slot0].solvers, function (slot0, slot1)
-			slot1.IKPositionWeight = uv0[slot0]
-		end)
-	end)
+	slot0:ResetIKLayers(slot0.activeIKLayers)
 	table.clear(slot0.activeIKLayers)
 
 	if slot0.moveTimer then
@@ -386,9 +437,19 @@ slot0.PlayIKAction = function(slot0, slot1)
 end
 
 slot0.PlayIKMove = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	if slot0.moveTimer then
+		slot0.moveTimer:Stop()
+
+		slot0.moveTimer = nil
+	end
+
+	slot0.ikRevertHandler = nil
+
 	if not _.detect(slot0.readyIKLayers, function (slot0)
 		return slot0:GetTriggerName() == uv0
 	end) then
+		existCall(slot6)
+
 		return
 	end
 
@@ -396,6 +457,8 @@ slot0.PlayIKMove = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0:OnDragBegin(slot2, slot1, true)
 
 	if not slot0.ikHandler then
+		existCall(slot6)
+
 		return
 	end
 
@@ -406,9 +469,12 @@ slot0.PlayIKMove = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot11 = function()
 		if not uv0.ikHandler or uv1 < Time.time then
 			uv0:ReleaseDrag()
-			uv0.moveTimer:Stop()
 
-			uv0.moveTimer = nil
+			if uv0.moveTimer then
+				uv0.moveTimer:Stop()
+
+				uv0.moveTimer = nil
+			end
 
 			existCall(uv2)
 
@@ -419,10 +485,6 @@ slot0.PlayIKMove = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		slot3 = pg.UIMgr.GetInstance().uiCamera:Find("Canvas").rect
 
 		uv0:HandleBodyDrag(Vector2.New(slot1.x / slot3.width * Screen.width, slot1.y / slot3.height * Screen.height))
-	end
-
-	if slot0.moveTimer then
-		slot0.moveTimer:Stop()
 	end
 
 	slot0.moveTimer = FrameTimer.New(slot11, 1, -1)

@@ -28,6 +28,11 @@ slot0.SetModelOrder = function(slot0, slot1, slot2)
 	if slot3 + slot0.modelOrder ~= 0 then
 		WorldConst.ArrayEffectOrder(slot0.transform, slot3)
 	end
+
+	slot0:ModelOrderChanged()
+end
+
+slot0.ModelOrderChanged = function(slot0)
 end
 
 slot0.ClearModelOrder = function(slot0)

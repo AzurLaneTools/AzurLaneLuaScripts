@@ -24,7 +24,11 @@ pg.dorm3d_ins_npc_template.all = {
 	19,
 	20,
 	21,
-	22
+	22,
+	23,
+	24,
+	25,
+	26
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_npc_template = {}
@@ -183,5 +187,33 @@ pg.base.dorm3d_ins_npc_template = {}
 		time = 10,
 		npc_reply = "",
 		id = 22
+	}
+	pg.base.dorm3d_ins_npc_template[23] = {
+		ship_group = 79902,
+		message = "naximofu_1_1_1",
+		time = 30,
+		npc_reply = "",
+		id = 23
+	}
+	pg.base.dorm3d_ins_npc_template[24] = {
+		ship_group = 79902,
+		message = "naximofu_1_2_1",
+		time = 10,
+		npc_reply = "",
+		id = 24
+	}
+	pg.base.dorm3d_ins_npc_template[25] = {
+		ship_group = 79902,
+		message = "naximofu_2_1_1",
+		time = 30,
+		npc_reply = "",
+		id = 25
+	}
+	pg.base.dorm3d_ins_npc_template[26] = {
+		ship_group = 79902,
+		message = "naximofu_2_2_1",
+		time = 10,
+		npc_reply = "",
+		id = 26
 	}
 end)()

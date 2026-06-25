@@ -69,7 +69,8 @@ slot0.register = function(slot0)
 					range = {
 						slot6.start_time,
 						slot6.stop_time
-					}
+					},
+					order = slot6.sort_order
 				}
 
 				uv0:CheckConfigOverwrite(slot1, slot6.id, uv0.forbiddenSkinOverwriteList[slot6.id])
@@ -112,6 +113,10 @@ slot0.AddConfigOverwrite = function(slot0, slot1, slot2)
 				return "stop"
 			end
 		})
+
+		if slot2.order >= 0 then
+			pg.shop_template[slot1].order = slot2.order
+		end
 	end
 end
 
@@ -119,6 +124,7 @@ slot0.RemoveConfigOverwrite = function(slot0, slot1)
 	if slot0.overwriteFlag[slot1] then
 		slot0.overwriteFlag[slot1] = nil
 		pg.shop_template[slot1].time = nil
+		pg.shop_template[slot1].order = nil
 	end
 end
 
