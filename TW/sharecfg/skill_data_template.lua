@@ -144153,7 +144153,9 @@ end)()
 		max_level = 1,
 		desc = "氧氣不足浮上水面時，觸發專屬彈幕-{namecode:303}I，5秒內自身受到傷害降低20%",
 		id = 30521,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 30527
+		},
 		world_death_mark = {
 			1
 		},
@@ -144167,7 +144169,9 @@ end)()
 		max_level = 1,
 		desc = "氧氣不足浮上水面時，觸發專屬彈幕-{namecode:303}II，5秒內自身受到傷害降低40%",
 		id = 30522,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 30528
+		},
 		world_death_mark = {
 			1
 		},
@@ -144377,7 +144381,9 @@ end)()
 		max_level = 1,
 		desc = "氧氣不足浮上水面時，觸發專屬彈幕-{namecode:558}I",
 		id = 30601,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 30603
+		},
 		world_death_mark = {
 			1
 		},
@@ -144391,7 +144397,9 @@ end)()
 		max_level = 1,
 		desc = "氧氣不足浮上水面時，觸發專屬彈幕-{namecode:558}II",
 		id = 30602,
-		system_transform = {},
+		system_transform = {
+			[11.0] = 30604
+		},
 		world_death_mark = {
 			1
 		},
@@ -205838,47 +205846,7 @@ end)()
 			}
 		},
 		desc_add = {
-			{
-				{
-					"1.0%",
-					"+1.0%"
-				},
-				{
-					"2.0%",
-					"+1.0%"
-				},
-				{
-					"3.0%",
-					"+1.0%"
-				},
-				{
-					"4.0%",
-					"+1.0%"
-				},
-				{
-					"5.0%",
-					"+1.0%"
-				},
-				{
-					"6.0%",
-					"+1.0%"
-				},
-				{
-					"7.0%",
-					"+1.0%"
-				},
-				{
-					"8.0%",
-					"+1.0%"
-				},
-				{
-					"9.0%",
-					"+1.0%"
-				},
-				{
-					"10.0%"
-				}
-			},
+			cc,
 			{
 				{
 					"5.0%",

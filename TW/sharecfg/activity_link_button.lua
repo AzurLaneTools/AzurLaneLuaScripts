@@ -131,7 +131,7 @@ pg.base.activity_link_button = {}
 
 (function ()
 	pg.base.activity_link_button[1] = {
-		param = "5802",
+		param = "5860",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -141,7 +141,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			5802
+			5860
 		}
 	}
 	pg.base.activity_link_button[2] = {
@@ -167,7 +167,7 @@ pg.base.activity_link_button = {}
 		order = 99
 	}
 	pg.base.activity_link_button[10] = {
-		param = "50605",
+		param = "5860",
 		name = "event_map",
 		text_pic = "text_event_map",
 		type = 0,
@@ -177,7 +177,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			50605
+			5860
 		}
 	}
 	pg.base.activity_link_button[11] = {

@@ -85,6 +85,9 @@ pg.activity_ins_chat_group.all = {
 	96,
 	97,
 	98,
+	99,
+	100,
+	101,
 	102,
 	103,
 	104,
@@ -637,6 +640,11 @@ pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 		275,
 		276,
 		277
+	},
+	[70203] = {
+		99,
+		100,
+		101
 	},
 	[70208] = {
 		111,
@@ -4690,6 +4698,158 @@ pg.base.activity_ins_chat_group = {}
 			3417
 		}
 	}
+	pg.base.activity_ins_chat_group[99] = {
+		ship_group = 70203,
+		name = "寵物",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
+		id = 99,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			3418,
+			3419,
+			3420,
+			3421,
+			3422,
+			3423,
+			3424,
+			3425,
+			3426,
+			3427,
+			3428,
+			3429,
+			3430,
+			3431,
+			3432,
+			3433,
+			3434,
+			3435,
+			3436,
+			3437,
+			3438,
+			3439,
+			3440,
+			3441,
+			3442,
+			3443,
+			3444,
+			3445,
+			3446,
+			3447,
+			3448,
+			3449,
+			3450,
+			3451,
+			3452
+		}
+	}
+	pg.base.activity_ins_chat_group[100] = {
+		ship_group = 70203,
+		name = "互相監督",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
+		id = 100,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			3453,
+			3454,
+			3455,
+			3456,
+			3457,
+			3458,
+			3459,
+			3460,
+			3461,
+			3462,
+			3463,
+			3464,
+			3465,
+			3466,
+			3467,
+			3468,
+			3469,
+			3470,
+			3471,
+			3472,
+			3473,
+			3474,
+			3475,
+			3476,
+			3477,
+			3478,
+			3479,
+			3480,
+			3481,
+			3482,
+			3483,
+			3484,
+			3485,
+			3486,
+			3487,
+			3488,
+			3489,
+			3490,
+			3491,
+			3492
+		}
+	}
+	pg.base.activity_ins_chat_group[101] = {
+		ship_group = 70203,
+		name = "新裝",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
+		id = 101,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			3493,
+			3494,
+			3495,
+			3496,
+			3497,
+			3498,
+			3499,
+			3500,
+			3501,
+			3502,
+			3503,
+			3504,
+			3505,
+			3506,
+			3507,
+			3508,
+			3509,
+			3510,
+			3511,
+			3512,
+			3513,
+			3514,
+			3515,
+			3516,
+			3517,
+			3518,
+			3519,
+			3520,
+			3521,
+			3522,
+			3523,
+			3524,
+			3525,
+			3526,
+			3527,
+			3528,
+			3529,
+			3530,
+			3531,
+			3532,
+			3533,
+			3534,
+			3535,
+			3536
+		}
+	}
 	pg.base.activity_ins_chat_group[102] = {
 		ship_group = 110201,
 		name = "植物交流",
@@ -5294,6 +5454,8 @@ pg.base.activity_ins_chat_group = {}
 			4085
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_ins_chat_group[120] = {
 		ship_group = 20138,
 		name = "罪孽深重之人",
@@ -5420,8 +5582,6 @@ pg.base.activity_ins_chat_group = {}
 			4178
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_ins_chat_group[123] = {
 		ship_group = 20235,
 		name = "尼羅河粽子",
@@ -9151,6 +9311,8 @@ end)()
 			7126
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_ins_chat_group[229] = {
 		ship_group = 69903,
 		name = "課題選擇",
@@ -9261,8 +9423,6 @@ end)()
 			7203
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_ins_chat_group[232] = {
 		ship_group = 49910,
 		name = "魔女的工作",

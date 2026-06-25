@@ -51,7 +51,7 @@ slot0.InitPainting = function(slot0, slot1, slot2)
 	if slot0.dormVO.food == 0 then
 		setText(slot0.emptyTF, i18n("backyard_backyardGranaryLayer_noFood"))
 	else
-		assert(#string.split(i18n("backyard_addExp_Info", pg.TimeMgr.GetInstance():DescCDTime(pg.TimeMgr.GetInstance():GetServerTime() - slot0.dormVO.load_time), slot0.dormVO.load_food, slot2), "||") > 0, "gametip ==> backyard_addExp_Info 必须用||分开")
+		assert(#string.split(i18n("backyard_addExp_Info", pg.TimeMgr.GetInstance():DescCDTime(pg.TimeMgr.GetInstance():GetServerTime() - (slot0.contextData.time or 0)), slot0.contextData.food or 0, slot2), "||") > 0, "gametip ==> backyard_addExp_Info 必须用||分开")
 
 		slot6 = slot0._tf:Find("ship_word/text_contain1")
 		slot7 = 0
@@ -90,7 +90,7 @@ slot0.UpdateShips = function(slot0)
 
 	slot0.uilist:align(#slot1)
 
-	slot3 = slot0.dormVO.load_exp
+	slot3 = slot0.contextData.exp or 0
 	slot4 = {}
 
 	for slot8, slot9 in pairs(slot0.cards) do

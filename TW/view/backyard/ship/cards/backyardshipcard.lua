@@ -67,7 +67,7 @@ slot0.OnFlush = function(slot0)
 		slot9 = slot9 + tonumber(slot14:getConfig("benefit_effect"))
 	end
 
-	if slot0.type == Ship.STATE_TRAIN then
+	if slot0.type == DormShip.FLOOR_1 then
 		slot2:updateProps({
 			{
 				i18n("word_lv"),
@@ -90,7 +90,7 @@ slot0.OnFlush = function(slot0)
 				10 * (slot1:getRecoverEnergyPoint() + Ship.BACKYARD_1F_ENERGY_ADDITION + (slot5[slot1.id] or 0)) .. (slot9 > 0 and setColorStr("+" .. 10 * slot9, COLOR_GREEN) or "") .. "/h"
 			}
 		})
-	elseif slot0.type == Ship.STATE_REST then
+	elseif slot0.type == DormShip.FLOOR_2 then
 		slot2:updateProps1({
 			{
 				i18n("word_lv"),
@@ -107,8 +107,8 @@ slot0.OnFlush = function(slot0)
 		})
 	end
 
-	setActive(slot2.propsTr, slot0.type == Ship.STATE_TRAIN)
-	setActive(slot2.propsTr1, slot0.type == Ship.STATE_REST)
+	setActive(slot2.propsTr, slot0.type == DormShip.FLOOR_1)
+	setActive(slot2.propsTr1, slot0.type == DormShip.FLOOR_2)
 end
 
 slot0.CalcShipAddExpSpeed = function(slot0)
@@ -121,7 +121,7 @@ end
 slot0.GetBaseExp = function(slot0, slot1)
 	slot2 = getProxy(PlayerProxy):getRawData()
 
-	if slot1:GetStateShipCnt(Ship.STATE_TRAIN) <= 0 then
+	if slot1:GetFloorShipCnt(DormShip.FLOOR_1) <= 0 then
 		return 0
 	end
 

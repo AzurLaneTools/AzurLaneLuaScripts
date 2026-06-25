@@ -523,6 +523,10 @@ pg.expedition_data_by_map.all = {
 	2100502,
 	2100511,
 	2100512,
+	2100541,
+	2100542,
+	2100551,
+	2100552,
 	2200000,
 	2200010,
 	2200020,
@@ -14168,7 +14172,7 @@ end)()
 		ani_name = "Map_1710001",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -14218,7 +14222,7 @@ end)()
 		ani_name = "Map_1710002",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -14268,7 +14272,7 @@ end)()
 		ani_name = "Map_1710003",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -14318,7 +14322,7 @@ end)()
 		ani_name = "Map_1710004",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -14368,7 +14372,7 @@ end)()
 		ani_name = "Map_1710005",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -14418,7 +14422,7 @@ end)()
 		ani_name = "Map_1710005",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -31039,6 +31043,246 @@ end)()
 		anchor = {
 			0.5,
 			0.5
+		}
+	}
+	pg.base.expedition_data_by_map[2100541] = {
+		map = 2100541,
+		name = "定向折疊·上篇|| ||CHAPTER EX||EX",
+		bgm = "theme-schoolfuture",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "DINGXIANGZHEDIE1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1700001",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1700001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100551,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100543
+					},
+					"map_1700001_zhuanzhi"
+				}
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100542] = {
+		map = 2100542,
+		name = "定向折疊·下篇|| ||CHAPTER EX||EX",
+		bgm = "theme-aostelab",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "DINGXIANGZHEDIE13",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1700002",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1700002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100552,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100546
+					},
+					"map_1700002_zhuanzhi"
+				}
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100551] = {
+		map = 2100551,
+		name = "定向折疊·上篇|| ||CHAPTER EX||EX",
+		bgm = "theme-schoolfuture",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "DINGXIANGZHEDIE1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1700003",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1700003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100541,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100553
+					},
+					"map_1700003_zhuanzhi"
+				}
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100552] = {
+		map = 2100552,
+		name = "定向折疊·下篇|| ||CHAPTER EX||EX",
+		bgm = "theme-aostelab",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "DINGXIANGZHEDIE13",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1700004",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1700004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100542,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100556
+					},
+					"map_1700004_zhuanzhi"
+				}
+			}
 		}
 	}
 	pg.base.expedition_data_by_map[2200000] = {

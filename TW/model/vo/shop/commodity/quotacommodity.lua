@@ -9,7 +9,15 @@ slot0.canPurchase = function(slot0)
 end
 
 slot0.GetPurchasableCnt = function(slot0)
-	return slot0:GetLimitGoodCount() - slot0.buyCount
+	return math.max(slot0:GetLimitGoodCount() - slot0:GetOwnedGoodCount(), 0)
+end
+
+slot0.GetOwnedGoodCount = function(slot0)
+	return Drop.New({
+		id = slot0:getConfig("commodity_id"),
+		type = slot0:getConfig("commodity_type"),
+		count = slot0:getConfig("num")
+	}):getOwnedCount()
 end
 
 slot0.GetLimitGoodCount = function(slot0)

@@ -2690,6 +2690,11 @@ _G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
 }
 
 
+_G.pg.base.gametip.mail_takeAttachment_error_equipment_overlimit = {
+	tip = "以下獎勵因超出持有上限，領取後會轉換為$1，是否繼續領取"
+}
+
+
 _G.pg.base.gametip.mail_confirm_set_important_flag = {
 	tip = "是否設定為重要郵件？"
 }
@@ -12115,22 +12120,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "格茨·馮·貝利欣根、莫里茨親王、Z15  建造機率UP！"
+	tip = "怨仇、斯庫拉、百眼巨人  建造機率UP！"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "羅馬、博爾扎諾  建造追加！"
+	tip = "約克鎮II、北安普敦II  建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "雅努斯、曼徹斯特 建造追加！"
+	tip = "哈曼II 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "阿爾比恩 建造追加！"
+	tip = "約克鎮II、大黃蜂II 建造追加！"
 }
 
 
@@ -25710,7 +25715,7 @@ _G.pg.base.gametip.blackfriday_help = {
 
 
 _G.pg.base.gametip.eventshop_time_hint = {
-	tip = "兌換時間截止至$1 24時"
+	tip = "兌換時間截止至$1 維護"
 }
 
 
@@ -42227,6 +42232,21 @@ _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_3 = {
 
 _G.pg.base.gametip.anniversary_nine_main_page = {
 	tip = "紀念手冊"
+}
+
+
+_G.pg.base.gametip.refux_cg_title = {
+	tip = "歡迎回家"
+}
+
+
+_G.pg.base.gametip.shop_skin_already_inuse = {
+	tip = "正在穿戴"
+}
+
+
+_G.pg.base.gametip.world_cruise_due_tips = {
+	tip = "$1剩餘$2天結束，注意關注階段和獎勵領取情況哦！"
 }
 
 

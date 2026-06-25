@@ -89,16 +89,17 @@ slot0.AddCard = function(slot0, slot1, slot2, slot3)
 
 		slot8 = slot3:getRecoverEnergyPoint() + slot0.activity:GetEnergyRecoverAddition()
 		slot9 = 0
+		slot11, slot12 = getProxy(DormProxy):getRawData():InBackYard(slot3.id)
 
-		if slot3.state == Ship.STATE_REST or slot3.state == Ship.STATE_TRAIN then
-			if slot3.state == Ship.STATE_TRAIN then
+		if slot11 then
+			if slot12 == DormShip.FLOOR_1 then
 				slot8 = slot8 + Ship.BACKYARD_1F_ENERGY_ADDITION
-			elseif slot3.state == Ship.STATE_REST then
+			elseif slot12 == DormShip.FLOOR_2 then
 				slot8 = slot8 + Ship.BACKYARD_2F_ENERGY_ADDITION
 			end
 
-			for slot13, slot14 in ipairs(BuffHelper.GetBackYardEnergyBuffs()) do
-				slot9 = slot9 + tonumber(slot14:getConfig("benefit_effect"))
+			for slot16, slot17 in ipairs(BuffHelper.GetBackYardEnergyBuffs()) do
+				slot9 = slot9 + tonumber(slot17:getConfig("benefit_effect"))
 			end
 		end
 

@@ -70,7 +70,6 @@ pg.activity_banner.get_id_list_by_type = {
 		4,
 		6,
 		7,
-		8,
 		9,
 		10,
 		11,
@@ -105,6 +104,7 @@ pg.activity_banner.get_id_list_by_type = {
 	[3] = {
 		1,
 		5,
+		8,
 		14,
 		15,
 		1003
@@ -251,9 +251,9 @@ pg.base.activity_banner = {}
 	pg.base.activity_banner[4] = {
 		type = 2,
 		id = 4,
-		pic = "temp14",
+		pic = "temp1",
 		param = {
-			"scene Cryptolalia",
+			"scene skinshop",
 			{}
 		},
 		time = {
@@ -261,7 +261,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					18
+					25
 				},
 				{
 					0,
@@ -272,8 +272,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					24
+					7,
+					1
 				},
 				{
 					23,
@@ -318,17 +318,19 @@ pg.base.activity_banner = {}
 	pg.base.activity_banner[6] = {
 		type = 2,
 		id = 6,
-		pic = "temp1",
+		pic = "temp2",
 		param = {
-			"scene skinshop",
-			{}
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					6,
-					5
+					25
 				},
 				{
 					0,
@@ -339,8 +341,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					24
+					7,
+					1
 				},
 				{
 					23,
@@ -353,12 +355,11 @@ pg.base.activity_banner = {}
 	pg.base.activity_banner[7] = {
 		type = 2,
 		id = 7,
-		pic = "temp2",
+		pic = "temp3",
 		param = {
-			"scene get boat",
+			"scene shop",
 			{
-				projectName = "new",
-				page = 1
+				warp = "shopstreet"
 			}
 		},
 		time = {
@@ -366,7 +367,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					5
+					25
 				},
 				{
 					0,
@@ -377,11 +378,11 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					25
+					7,
+					1
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -389,21 +390,16 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[8] = {
-		type = 2,
+		param = "5860",
+		type = 3,
 		id = 8,
-		pic = "temp3",
-		param = {
-			"scene core activity",
-			{
-				coreName = "GeZiURCoreActivityUI"
-			}
-		},
+		pic = "temp14",
 		time = {
 			{
 				{
 					2026,
 					6,
-					5
+					25
 				},
 				{
 					0,
@@ -414,8 +410,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					25
+					7,
+					2
 				},
 				{
 					14,
@@ -430,9 +426,10 @@ pg.base.activity_banner = {}
 		id = 9,
 		pic = "temp4",
 		param = {
-			"scene charge",
+			"scene level",
 			{
-				wrap = 4
+				open_remaster = true,
+				isSP = false
 			}
 		},
 		time = {
@@ -440,7 +437,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					5
+					25
 				},
 				{
 					0,
@@ -451,11 +448,11 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					24
+					7,
+					2
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -689,7 +686,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					5
+					25
 				},
 				{
 					0,
@@ -700,8 +697,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					24
+					7,
+					1
 				},
 				{
 					23,

@@ -58,9 +58,6 @@ slot0.InitUI = function(slot0)
 	slot0.buyNormalBtn = slot0.normalWindow:Find("buyNormalButton")
 	slot0.buySpecialBtn = slot0.specialWindow:Find("buySpecialButton")
 	slot0.itemTpl = slot0._tf:Find("itemTpl")
-
-	setParent(Instantiate(GetComponent(slot0._tf, "ItemList").prefabItem[0]), slot0.itemTpl:Find("Container"), false)
-
 	slot0.normalList = UIItemList.New(slot0.normalWindow:Find("list"), slot0.itemTpl)
 	slot0.specialList = UIItemList.New(slot0.specialWindow:Find("list"), slot0.itemTpl)
 

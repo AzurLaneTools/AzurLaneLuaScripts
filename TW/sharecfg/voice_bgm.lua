@@ -141,6 +141,21 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	}
+	pg.base.voice_bgm.ActivityShop50486 = {
+		default_bgm = "story-wanderingcity-future",
+		special_bgm = "",
+		bgm = "story-wanderingcity-future"
+	}
+	pg.base.voice_bgm.ActivityShop50430 = {
+		default_bgm = "story-china-0226-pv",
+		special_bgm = "",
+		bgm = "story-china-0226-pv"
+	}
+	pg.base.voice_bgm.ActivityShop50464 = {
+		default_bgm = "theme-merkuriameta",
+		special_bgm = "",
+		bgm = "theme-merkuriameta"
+	}
 	pg.base.voice_bgm.ActivityShop6035 = {
 		default_bgm = "doa_story1",
 		special_bgm = "",
@@ -160,21 +175,6 @@ pg.base.voice_bgm = {}
 		default_bgm = "theme-hrr",
 		special_bgm = "",
 		bgm = "theme-hrr"
-	}
-	pg.base.voice_bgm.ActivityShop50486 = {
-		default_bgm = "story-wanderingcity-future",
-		special_bgm = "",
-		bgm = "story-wanderingcity-future"
-	}
-	pg.base.voice_bgm.ActivityShop50430 = {
-		default_bgm = "story-china-0226-pv",
-		special_bgm = "",
-		bgm = "story-china-0226-pv"
-	}
-	pg.base.voice_bgm.ActivityShop50464 = {
-		default_bgm = "theme-merkuriameta",
-		special_bgm = "",
-		bgm = "theme-merkuriameta"
 	}
 	pg.base.voice_bgm.BuildShipScene = {
 		default_bgm = "main",
@@ -2745,6 +2745,11 @@ end)()
 		default_bgm = "theme-tulipa",
 		special_bgm = "",
 		bgm = "theme-tulipa"
+	}
+	pg.base.voice_bgm.XiaoXinNongPtPage2 = {
+		default_bgm = "story-richang-10",
+		special_bgm = "",
+		bgm = "story-richang-10"
 	}
 	pg.base.voice_bgm.GeZiURMainPage = {
 		default_bgm = "story-hrr",

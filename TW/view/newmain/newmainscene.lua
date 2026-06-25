@@ -227,7 +227,11 @@ slot0.init = function(slot0)
 		slot0.liveAreaPage = MainLiveAreaPage.New(slot0._tf, slot0.event)
 	end
 
-	pg.redDotHelper = MainReddotView.New()
+	slot0.subMediator = MainReddotMediator.New()
+	slot1 = pg.m02
+
+	slot1:registerMediator(slot0.subMediator)
+
 	slot0.sequenceView = MainSequenceView.New()
 	slot0.awakeSequenceView = MainAwakeSequenceView.New()
 	slot4 = slot0._tf
@@ -277,7 +281,6 @@ slot0.didEnter = function(slot0)
 	slot0:bind(NewMainScene.EXIT_SILENT_VIEW, function ()
 		uv0:ExitSilentView()
 		uv0:SetUpSilentChecker()
-		pg.redDotHelper:_Refresh()
 	end)
 	slot0:bind(NewMainScene.ON_SKIN_FREEUSAGE_DESC, function (slot0, slot1)
 		uv0.skinExperienceDisplayPage:ExecuteAction("Show", slot1)
@@ -496,7 +499,6 @@ slot0.Refresh = function(slot0)
 			uv0.effectView:Refresh(slot1)
 			uv0.theme:Refresh(slot1)
 			uv0:PlayBgm(slot1)
-			pg.redDotHelper:Refresh()
 			slot0()
 		end,
 		function (slot0)
@@ -521,7 +523,6 @@ slot0.OnDisVisible = function(slot0)
 		slot0.theme:Disable()
 	end
 
-	pg.redDotHelper:Disable()
 	slot0.buffDescPage:Disable()
 	slot0.silentChecker:Disable()
 
@@ -634,9 +635,9 @@ slot0.willExit = function(slot0)
 
 	slot0.effectView = nil
 
-	pg.redDotHelper:Dispose()
+	pg.m02:removeMediator(slot0.subMediator.__cname)
 
-	pg.redDotHelper = nil
+	slot0.subMediator = nil
 
 	slot0.buffDescPage:Destroy()
 

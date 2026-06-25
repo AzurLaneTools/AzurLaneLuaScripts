@@ -93,13 +93,15 @@ slot0.ShipStatusToTag = function(slot0, slot1)
 			i18n("word_status_inEvent")
 		}
 	elseif uv0.checkShipFlag(slot0, slot1, "inBackyard") then
-		if slot0.state == Ship.STATE_REST then
+		slot3, slot4 = getProxy(DormProxy):getRawData():InBackYard(slot0.id)
+
+		if slot3 and slot4 == DormShip.FLOOR_2 then
 			return {
 				"shipstatus",
 				"purple",
 				i18n("word_status_rest")
 			}
-		elseif slot0.state == Ship.STATE_TRAIN then
+		elseif slot3 and slot4 == DormShip.FLOOR_1 then
 			return {
 				"shipstatus",
 				"purple",

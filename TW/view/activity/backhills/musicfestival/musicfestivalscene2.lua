@@ -36,12 +36,6 @@ slot0.init = function(slot0)
 	}
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.MusicFestivalGraph2"))
 	slot0._map:GetComponent(typeof(UnityEngine.Canvas)).sortingOrder = (slot0._tf:GetComponentInParent(typeof(UnityEngine.Canvas)) and slot1.sortingOrder) - 2
-	slot3 = GetComponent(slot0._map, "ItemList")
-
-	for slot7 = 1, 3 do
-		setParent(tf(Instantiate(slot3.prefabItem[slot7 - 1])), slot0._map)
-	end
-
 	slot0.loader = AutoLoader.New()
 end
 

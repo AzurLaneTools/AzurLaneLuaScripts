@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"独占时光\n\n<size=45>四 被挟持的指挥官</size>",
+					"獨佔時光\n\n<size=45>4 被挾持的指揮官</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-9",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "动物园·冰雪区",
+			say = "動物園·冰雪區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "喂食结束后，我们准备离开，企鹅们悠闲地聚在一起，似乎对我们的存在不再那么好奇。",
+			say = "餵食結束後，我們準備離開，企鵝們悠閒地聚在一起，似乎對我們的存在不再那麼好奇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "正当我转身迈步时，裤脚忽然被什么东西拽住，低头一看，一只企鹅正用喙紧紧叼着我的衣角，眼神坚定得惊人。",
+			say = "正當我轉身邁步時，褲腳忽然被什麼東西拽住，低頭一看，一隻企鵝正用喙緊緊叼著我的衣角，眼神堅定得驚人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "呃……恰巴耶夫，它是不是有点不想让我走？",
+			say = "呃……恰巴耶夫，它是不是有點不想讓我走？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说不定，它是想将指挥官强行留下哦？",
+			say = "說不定，它是想將指揮官強行留下哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来企鹅也难以抵挡指挥官的魅力呢~",
+			say = "看來企鵝也難以抵擋指揮官的魅力呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "我试着轻轻向前迈步，企鹅却稳稳地站在原地，甚至还用翅膀拍了拍我的小腿，像是在警告我别轻举妄动。",
+			say = "我試著輕輕向前邁步，但企鵝穩穩地站在原地，甚至還用翅膀拍了拍我的小腿，像是在警告我別輕舉妄動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "这下，周围的几只企鹅也注意到了这场“挟持事件“，有的歪头围观，有的则扑腾着靠近，像是在策应同伴的行动。",
+			say = "這下，周圍的幾隻企鵝也注意到了這場「挾持事件」，有的歪頭圍觀，有的則撲騰著靠近，像是在策應同伴的行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……所以我现在是被企鹅扣押了吗？",
+			say = "……所以我現在是被企鵝扣押了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“扣押”未免太严肃了，或许它是在邀请你呢。",
+			say = "「扣押」未免太嚴肅了，或許它是在邀請你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "恰巴耶夫双手抱胸，饶有兴趣地看着这一幕，完全没有要帮忙的意思。",
+			say = "恰巴耶夫雙手抱胸，饒有興趣地看著這一幕，完全沒有要幫忙的意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你打算见死不救？",
+			say = "妳打算見死不救？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，这种时候，应该由指挥官展示一下谈判能力吧？",
+			say = "哎呀，這種時候，應該由指揮官來展示一下談判能力吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我看你就是想看热闹……",
+			say = "我看妳就是想看熱鬧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "我无奈地叹了口气，蹲下身子，试图和这只顽固的企鹅对话。",
+			say = "我無奈地嘆了口氣，蹲下身子，試著和這隻頑固的企鵝對話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,18 +236,18 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我真的得走了，你这样拽着我，我可没法继续去下一个地方了。",
+			say = "我真的得走了，你這樣拉著我，我可沒辦法繼續去下一個地方了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不如我再喂你一条小鱼，你放我走？",
+					content = "不如我再餵你一條小魚，你放我走？",
 					flag = 1
 				},
 				{
-					content = "你要是再不松口，我可要使劲了。",
+					content = "你要是再不鬆口，我可要使勁了。",
 					flag = 2
 				}
 			}
@@ -260,7 +260,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不如我再喂你一条小鱼，你放我走？",
+			say = "不如我再餵你一條小魚，你放我走？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "企鹅歪了歪头，似乎在思考这是否是一笔划算的交易。",
+			say = "企鵝歪了歪頭，似乎在思考這是否是一筆划算的交易。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "然而，它最终只是抖了抖翅膀，态度坚定，显然不打算轻易妥协。",
+			say = "然而，它最終只是抖了抖翅膀，態度堅定，顯然不打算輕易妥協。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来指挥官的贿赂手段，还是差了一点诚意。",
+			say = "看來指揮官的賄賂手段，還是差了一點誠意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你要是再不松口，我可要使劲了。",
+			say = "你要是再不鬆口，我可要使勁了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "企鹅并没有被这番威胁吓到，反而还用喙咬得更紧了些，像是打定主意要扣押我一段时间。",
+			say = "企鵝並沒有被這番威脅嚇到，反而還用喙咬得更緊了些，像是打定主意要扣押我一段時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "强行突破的话，指挥官可要小心别把衣服撕坏了哦。",
+			say = "強行突破的話，指揮官可要小心別把衣服撕壞了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "就在僵持不下的时候，恰巴耶夫忽然弯下腰，轻轻伸出手，指尖在企鹅的脑袋上揉了揉。",
+			say = "就在僵持不下的時候，恰巴耶夫忽然彎下腰，輕輕伸出手，指尖在企鵝的頭上揉了揉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好了，别再欺负指挥官了，乖~",
+			say = "好了，別再欺負指揮官了，乖~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "她的声音轻柔，安抚着这脾气倔强的小动物。",
+			say = "她的聲音輕柔，安撫著這隻脾氣倔強的小動物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "企鹅竟然真的放开了我的衣角，抬起头看着恰巴耶夫，发出一声轻轻地叫声，随后慢悠悠地后退了一步。",
+			say = "企鵝竟然真的放開了我的衣角，抬起頭看著恰巴耶夫，發出一聲輕輕地叫聲，隨後慢悠悠地後退了一步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "为什么它会听你的？",
+			say = "為什麼它會聽你的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许……是喂食时的驯化起作用了~",
+			say = "或許……是餵食時的馴化起作用了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "终于恢复自由，我松了口气，正准备起身，意外的变故发生了——",
+			say = "終於恢復自由，我鬆了一口氣，正準備起身，意外的變故發生了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "那只企鹅突然一跃，直接跳进了近旁的水池里，激起了一片水花，而我……被溅了个正着。",
+			say = "那隻企鵝突然一躍，直接跳進了近旁的水池裡，激起了一片水花，而我……被濺了個正著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来它不光会挟持人质，还懂得报复呢~",
+			say = "看來它不光會挾持人質，還懂得報復呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这家伙……真是成精了吧。",
+			say = "這傢伙……真是成精了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看来只能去换件衣服了。",
+			say = "看來只能去換件衣服了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……地图上显示，隔壁就是纪念品商店。",
+			say = "嗯……地圖上顯示，隔壁就是紀念品商店。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "商店肯定有纪念服饰出售。",
+			say = "商店肯定有紀念服飾出售。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要换装了啊——能让我看看指挥官不一样的风格，似乎也不错？",
+			say = "要換裝了啊——能讓我看看指揮官不一樣的風格，似乎也不錯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "应该多谢刚才那只企鹅才对啊~",
+			say = "應該多謝剛才那隻企鵝才對啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "她轻笑着，眸光流转，似乎对即将到来的“换装”环节抱有几分期待。",
+			say = "她輕笑著，眸光流轉，似乎對即將到來的「換裝」環節抱有幾分期待。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "我无奈地叹了口气，朝着园区的纪念品商店走去，而恰巴耶夫则步履轻快地跟上，显然对这场小插曲颇感满意。",
+			say = "我無奈地嘆了口氣，朝著園區的紀念品商店走去，而恰巴耶夫則步履輕快地跟上，顯然對這場小插曲頗感滿意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

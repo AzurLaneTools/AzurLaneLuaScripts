@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"独占时光\n\n<size=45>六 夜幕相送</size>",
+					"獨佔時光\n\n<size=45>6 夜幕相送</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·滨海大道",
+			say = "港區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_night",
 			hidePaintObj = true,
-			say = "在动物园玩了个尽兴后，我和恰巴耶夫踏着夜色来到了滨海大道。",
+			say = "在動物園玩了個盡興後，我和恰巴耶夫踏著夜色返回了港區。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_night",
 			hidePaintObj = true,
-			say = "海风带着些许湿润的凉意，恰巴耶夫的步伐不紧不慢，仿佛在刻意拖延着时间。",
+			say = "海風帶著些許濕潤的涼意，恰巴耶夫的步伐不緊不慢，彷彿在刻意拖延時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你今天好像特别黏人。",
+			say = "妳今天好像特別黏人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦？指挥官不喜欢吗？",
+			say = "哦？指揮官不喜歡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也不是……只是和平时的你有点不一样。",
+			say = "也不是……只是和平時的妳有點不一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟你平时总是被公文包围，今天难得能出来约会，可是千载难逢的机会。",
+			say = "畢竟你平常總是被公文包圍，今天難得能出來約會，可是千載難逢的機會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你说得好像我每天都泡在文件堆里一样。",
+			say = "妳說得好像我每天都泡在文件堆裡一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道不是吗？指挥官，你知道你刚刚皱眉的表情看起来像什么吗？",
+			say = "難道不是嗎？指揮官，你知道你剛剛皺眉的表情看起來像什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "像是又在盘算着回去要处理哪些工作——我可不允许！",
+			say = "像是又在盤算著回去要處理哪些工作——我可不允許！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "习惯了，总觉得回去之后还有事情要处理。",
+			say = "習慣了，總覺得回去之後還有事情要處理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看吧，这就是问题所在。你已经被那些公文驯化了，指挥官。",
+			say = "看吧，這就是問題所在。你已經被那些公文馴化了，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，我才要亲自护送你回去，确保你不会被公文偷偷抢走。",
+			say = "所以，我才要親自護送你回去，確保你不會被公文偷偷搶走。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "送到这里就行了，你也该回去了。",
+			say = "送到這裡就行了，妳也該回去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道是担心被我发现你要继续工作？",
+			say = "難道是擔心被我發現你要繼續工作？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是说，你怕我送到指挥室，会发生什么……“意外”？",
+			say = "還是說，你怕我送到指揮室，會發生什麼……「意外」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你明知道我不是那个意思。",
+			say = "妳明知道我不是那個意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦？可指挥官今天可是亲口说过，要亲自搜身呢……",
+			say = "哦？可指揮官今天可是親口說過，要親自搜身呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不会这么轻易就放过我了吧？",
+			say = "不會這麼輕易就放過我了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你还真是记得清楚。",
+			say = "妳還真是記得清楚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官的承诺，我怎么可能不在意~",
+			say = "指揮官的承諾，我怎麼可能不在乎~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦，我送你回去，顺便给你一个……履行承诺的机会。",
+			say = "好啦，我送你回去，順便給你一個……履行承諾的機會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_night",
 			hidePaintObj = true,
-			say = "她说得理直气壮，我无奈地摇摇头，没再反驳，继续向指挥室走去。",
+			say = "她說得理直氣壯，我無奈地搖搖頭，沒再反駁，繼續往指揮室走去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，指挥官反应这么快，让人不禁怀疑……你是不是，其实还挺期待的？",
+			say = "哎呀，指揮官反應這麼快，讓人不禁懷疑……你是不是，其實還挺期待的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你又在脑补一些奇怪的东西了。",
+			say = "妳又在腦補一些奇怪的東西了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是指挥官的表情……怎么看都不像是不情愿的样子哦？",
+			say = "可是指揮官的表情……怎麼看都不像是不情願的樣子哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么容易害羞，可不太像是你的风格呢。",
+			say = "這麼容易害羞，可不太像是你的風格呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_night",
 			hidePaintObj = true,
-			say = "她的语调轻快，步伐悠闲，偶尔偏头看我，像是在欣赏着什么风景。",
+			say = "她的語調輕快，步伐悠閒，偶爾偏頭看我，像是在欣賞著什麼風景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天的游玩还算愉快吧？",
+			say = "今天的遊玩還算愉快吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还不错，至少比处理公文轻松多了。",
+			say = "還不錯，至少比處理公文輕鬆多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "什么成功了一半？",
+			say = "什麼成功了一半？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,18 +472,18 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让指挥官习惯把更多的时间，分给我一点。",
+			say = "讓指揮官習慣把更多的時間，分給我一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "习惯这东西……是会让人失去戒心的。",
+					content = "習慣這東西……是會讓人失去戒心的。",
 					flag = 1
 				},
 				{
-					content = "你今天比平时更直白……",
+					content = "妳今天比平常更直白……",
 					flag = 2
 				}
 			}
@@ -496,7 +496,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "习惯这东西……是会让人失去戒心的。",
+			say = "習慣這東西……是會讓人失去戒心的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那不是更好吗？一旦习惯了，就算想逃，也逃不掉了哦~",
+			say = "那不是更好嗎？一旦習慣了，就算想逃，也逃不掉了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你今天比平时更直白……",
+			say = "妳今天比平常更直白……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我只是想看看，指挥官的极限在哪儿~",
+			say = "我只是想看看，指揮官的極限在哪裡~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_main_night",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，我的护送任务就完成了。接下来……",
+			say = "那麼，我的護送任務就完成了。接下來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_night",
 			hidePaintObj = true,
-			say = "站在指挥室门前，恰巴耶夫停下脚步，目光在门把手上停留片刻，随后缓缓移向我。",
+			say = "站在指揮室門前，恰巴耶夫停下腳步，目光在門把上停留片刻，隨後緩緩移向我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "接下来？",
+			say = "接下來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你不会忘了，我还给你准备了一份“礼物”吧~",
+			say = "你不會忘了，我還為你準備了一份「禮物」吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

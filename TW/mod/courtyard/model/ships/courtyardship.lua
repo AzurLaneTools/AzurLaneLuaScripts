@@ -11,13 +11,13 @@ slot0.STATE_STOP = 8
 slot0.STATE_INTERACT = 9
 slot0.STATE_CANCEL_INTERACT = 10
 
-slot0.Ctor = function(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.id = slot2.id
 	slot0.configId = slot2.configId
 	slot0.prefab = slot2:getPrefab()
 	slot0.attachments = slot2:getAttachmentPrefab()
-	slot0.inimacy = slot2.state_info_3 or 0
-	slot0.coin = slot2.state_info_4 or 0
+	slot0.inimacy = slot4 or 0
+	slot0.coin = slot3 or 0
 	slot0.skinId = slot2.skinId
 	slot0.groupId = slot2.groupId
 	slot0.config = pg.ship_data_statistics[slot0.configId]

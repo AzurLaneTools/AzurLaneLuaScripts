@@ -77,7 +77,7 @@ slot0.init = function(slot0)
 
 	slot0.blinks = {}
 	slot0.tweenItems = {}
-	slot0.shipCardTpl = slot0._tf:GetComponent("ItemList").prefabItem[0]
+	slot0.shipCardTpl = slot0._tf:Find("ShipCardTpl")
 
 	slot0._tf:SetAsLastSibling()
 
@@ -246,7 +246,7 @@ slot0.displayAwards = function(slot0)
 		if slot0.title ~= uv0.TITLE.SHIP then
 			cloneTplTo(slot0.itemTpl, slot0.container)
 		else
-			cloneTplTo(slot0.shipCardTpl, cloneTplTo(slot0.shipTpl, slot0.container), "ship_tpl")
+			setActive(cloneTplTo(slot0.shipCardTpl, cloneTplTo(slot0.shipTpl, slot0.container), "ship_tpl"), true)
 		end
 	end
 

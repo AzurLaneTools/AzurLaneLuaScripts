@@ -33,17 +33,10 @@ slot0.init = function(slot0)
 		slot0.map_middle
 	}
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.NewyearFestivalGraph2"))
-	slot0._map:GetComponent(typeof(UnityEngine.Canvas)).sortingOrder = (slot0._tf:GetComponentInParent(typeof(UnityEngine.Canvas)) and slot1.sortingOrder or 0) - 2
-	slot3 = GetComponent(slot0._map, "ItemList")
+	slot2 = slot0._tf:GetComponentInParent(typeof(UnityEngine.Canvas)) and slot1.sortingOrder or 0
+	slot0._map:GetComponent(typeof(UnityEngine.Canvas)).sortingOrder = slot2 - 2
 
-	for slot7 = 1, 1 do
-		if not IsNil(slot3.prefabItem[slot7 - 1]) then
-			slot9 = tf(Instantiate(slot8))
-
-			setParent(slot9, slot0._map)
-			pg.ViewUtils.SetSortingOrder(slot9, slot2 - 1)
-		end
-	end
+	pg.ViewUtils.SetSortingOrder(slot0._map:Find("xuehezhan_snow01"), slot2 - 1)
 end
 
 slot0.didEnter = function(slot0)

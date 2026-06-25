@@ -366,6 +366,7 @@ pg.memory_group.all = {
 	606,
 	607,
 	608,
+	609,
 	614,
 	615,
 	618,
@@ -9237,6 +9238,28 @@ end)()
 			4255,
 			4256,
 			4257
+		},
+		group_id = {
+			10000
+		}
+	}
+	pg.base.memory_group[609] = {
+		ship_group = 70203,
+		icon = "title_chara_qiabayefu",
+		type = 3,
+		link_event = 0,
+		title = "獨佔時光",
+		auto_unlock = "",
+		subtype = 0,
+		id = 609,
+		memories = {
+			4291,
+			4292,
+			4293,
+			4294,
+			4295,
+			4296,
+			4297
 		},
 		group_id = {
 			10000

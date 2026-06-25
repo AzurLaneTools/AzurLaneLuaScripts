@@ -350,7 +350,7 @@ pg.base.gameset = {}
 	}
 	pg.base.gameset.activity_res_id = {
 		description = "",
-		key_value = 470
+		key_value = 478
 	}
 	pg.base.gameset.activity_lottery_rewards = {
 		key_value = 0,
@@ -1967,7 +1967,7 @@ end)()
 	}
 	pg.base.gameset.skin_ticket = {
 		description = "",
-		key_value = 706
+		key_value = 479
 	}
 	pg.base.gameset.order_pt_max = {
 		key_value = 0,
@@ -4142,5 +4142,13 @@ end)()
 	pg.base.gameset.exchangecode_ios_on = {
 		description = "",
 		key_value = 0
+	}
+	pg.base.gameset.world_cruise_due_days = {
+		description = "",
+		key_value = 7
+	}
+	pg.base.gameset.world_cruise_comp_time = {
+		description = "",
+		key_value = 30
 	}
 end)()

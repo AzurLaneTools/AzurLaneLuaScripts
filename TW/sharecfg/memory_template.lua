@@ -3318,6 +3318,13 @@ pg.memory_template.all = {
 	4281,
 	4282,
 	4283,
+	4291,
+	4292,
+	4293,
+	4294,
+	4295,
+	4296,
+	4297,
 	4301,
 	4302,
 	4303,
@@ -63832,6 +63839,132 @@ end)()
 			"1360006"
 		}
 	}
+	pg.base.memory_template[4291] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "指揮權的短暫移交",
+		condition = "解鎖「獨佔時光」任務1",
+		story = "QIABAYEFU1",
+		mask = "bg/bg_memory",
+		task = 500111,
+		year = 0,
+		id = 4291,
+		icon = "memory_qiabayefu",
+		is_open = 0,
+		unlock_pre = {
+			"QIABAYEFU1"
+		}
+	}
+	pg.base.memory_template[4292] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "忠誠與佔有",
+		condition = "解鎖「獨佔時光」任務2",
+		story = "QIABAYEFU2",
+		mask = "bg/bg_memory",
+		task = 500112,
+		year = 0,
+		id = 4292,
+		icon = "memory_qiabayefu",
+		is_open = 0,
+		unlock_pre = {
+			"QIABAYEFU2"
+		}
+	}
+	pg.base.memory_template[4293] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "企鵝的禮物",
+		condition = "解鎖「獨佔時光」任務3",
+		story = "QIABAYEFU3",
+		mask = "bg/bg_memory",
+		task = 500113,
+		year = 0,
+		id = 4293,
+		icon = "memory_qiabayefu",
+		is_open = 0,
+		unlock_pre = {
+			"QIABAYEFU3"
+		}
+	}
+	pg.base.memory_template[4294] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "被挾持的指揮官",
+		condition = "解鎖「獨佔時光」任務4",
+		story = "QIABAYEFU4",
+		mask = "bg/bg_memory",
+		task = 500114,
+		year = 0,
+		id = 4294,
+		icon = "memory_qiabayefu",
+		is_open = 0,
+		unlock_pre = {
+			"QIABAYEFU4"
+		}
+	}
+	pg.base.memory_template[4295] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "換裝難題",
+		condition = "解鎖「獨佔時光」任務5",
+		story = "QIABAYEFU5",
+		mask = "bg/bg_memory",
+		task = 500115,
+		year = 0,
+		id = 4295,
+		icon = "memory_qiabayefu",
+		is_open = 0,
+		unlock_pre = {
+			"QIABAYEFU5"
+		}
+	}
+	pg.base.memory_template[4296] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "夜幕相送",
+		condition = "解鎖「獨佔時光」任務6",
+		story = "QIABAYEFU6",
+		mask = "bg/bg_memory",
+		task = 500116,
+		year = 0,
+		id = 4296,
+		icon = "memory_qiabayefu",
+		is_open = 0,
+		unlock_pre = {
+			"QIABAYEFU6"
+		}
+	}
+	pg.base.memory_template[4297] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "獨佔的證明",
+		condition = "解鎖「獨佔時光」任務7",
+		story = "QIABAYEFU7",
+		mask = "bg/bg_memory",
+		task = 500117,
+		year = 0,
+		id = 4297,
+		icon = "memory_qiabayefu",
+		is_open = 0,
+		unlock_pre = {
+			"QIABAYEFU7"
+		}
+	}
 	pg.base.memory_template[4301] = {
 		ship_group = 0,
 		subtitle = "",
@@ -65254,6 +65387,8 @@ end)()
 			"GAOTASHANGDEQIANGWEI28"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4409] = {
 		ship_group = 0,
 		subtitle = "",
@@ -65380,8 +65515,6 @@ end)()
 			"GAOTASHANGDEQIANGWEI35"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4416] = {
 		ship_group = 0,
 		subtitle = "",
@@ -67056,6 +67189,8 @@ end)()
 			"SHISHANGTEKANJIARIYOUXIAN7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4591] = {
 		ship_group = 0,
 		subtitle = "",
@@ -67182,8 +67317,6 @@ end)()
 			"CHONGYINGDEYAOYUE7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4601] = {
 		ship_group = 0,
 		subtitle = "",
@@ -68858,6 +68991,8 @@ end)()
 			"GANGQUJIARIGUIGUAIGUSHIJIII3"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4714] = {
 		ship_group = 0,
 		subtitle = "",
@@ -68984,8 +69119,6 @@ end)()
 			"JUFENGYUZIYOUQUNDAO2"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4723] = {
 		ship_group = 0,
 		subtitle = "",
@@ -70660,6 +70793,8 @@ end)()
 			"ZHIMEIHAOSHIJIE7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4878] = {
 		ship_group = 0,
 		subtitle = "",
@@ -70788,8 +70923,6 @@ end)()
 			"XIANGCHEYUTIANQIONGZHIYIN5"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4886] = {
 		ship_group = 0,
 		subtitle = "",
@@ -72466,6 +72599,8 @@ end)()
 			"CHUNMANKEZHAN12"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5023] = {
 		ship_group = 0,
 		subtitle = "",
@@ -72592,8 +72727,6 @@ end)()
 			"CHUNMANKEZHAN19"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5030] = {
 		ship_group = 0,
 		subtitle = "",
@@ -74268,6 +74401,8 @@ end)()
 			"SHEHUAXIANGMENGFUJINWAN1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5182] = {
 		ship_group = 0,
 		subtitle = "",
@@ -74394,8 +74529,6 @@ end)()
 			"SHEHUAXIANGMENGFUJINWAN8"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5189] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76070,6 +76203,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA37"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20037] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76196,8 +76331,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA44"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20044] = {
 		ship_group = 0,
 		subtitle = "",
@@ -77872,6 +78005,8 @@ end)()
 			"LINGYANGZHEXINZHIXUYU9"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20138] = {
 		ship_group = 0,
 		subtitle = "",
@@ -77998,8 +78133,6 @@ end)()
 			"LINGYANGZHELAIFANGJISHI7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20145] = {
 		ship_group = 0,
 		subtitle = "",

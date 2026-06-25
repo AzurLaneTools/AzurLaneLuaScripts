@@ -227,13 +227,13 @@ pg.base.ship_data_create_material = {}
 			"<color=#3dc6ff>稀有艦船</color>：51%",
 			"普通艦船：28.8%",
 			" ",
-			"<color=#ff5e39>格茨·馮·貝利欣根</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>怨仇</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>莫里茨親王</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>斯庫拉</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>易北·META</color>：0.5%",
+			"<color=#ffde38>皇家橡樹</color>：0.5%",
 			" ",
-			"<color=#d797ff>Z15</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>百眼巨人</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	}
 	pg.base.ship_data_create_material[11] = {

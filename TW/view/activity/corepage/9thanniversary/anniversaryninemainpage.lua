@@ -11,7 +11,16 @@ end
 
 slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.btnGo, function ()
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.MALL_MAP)
+		uv0:emit(ActivityMediator.ON_ADD_SUBLAYER, Context.New({
+			mediator = MallAwardMediator,
+			viewComponent = MallAwardLayer,
+			data = {
+				awardHandledByParent = true,
+				onExit = function ()
+					uv0:refreshRed()
+				end
+			}
+		}))
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnManual, function ()
 		uv0:emit(ActivityMediator.ON_ADD_SUBLAYER, Context.New({
@@ -28,7 +37,7 @@ slot0.OnUpdateFlush = function(slot0)
 end
 
 slot0.refreshRed = function(slot0)
-	setActive(slot0.redPoint, MallMapScene.IsEntranceTip())
+	setActive(slot0.redPoint, uv0.IsMallAwardTip())
 
 	slot1, slot2 = uv0.GetFujinBayMedalTaskCount()
 
@@ -39,8 +48,16 @@ slot0.IsShowReminder = function(slot0)
 	return uv0.IsTip()
 end
 
+slot0.IsMallAwardTip = function()
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MALL) or slot0:isEnd() then
+		return false
+	end
+
+	return MallAwardLayer.IsAwardTip() or MallAwardLayer.IsInputTip() or MallAwardLayer.IsTaskTip()
+end
+
 slot0.IsTip = function()
-	return MallMapScene.IsEntranceTip() or uv0.IsFujinBayMedalTaskTip()
+	return uv0.IsMallAwardTip() or uv0.IsFujinBayMedalTaskTip()
 end
 
 slot0.IsFujinBayMedalTaskTip = function()

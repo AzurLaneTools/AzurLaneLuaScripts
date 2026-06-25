@@ -78,6 +78,13 @@ slot0.updateCrusingEntrance = function(slot0)
 
 		slot2 = slot1:GetCrusingInfo()
 
+		if math.floor((slot1.stopTime - pg.TimeMgr.GetInstance():GetServerTime()) / 86400) <= pg.gameset.world_cruise_due_days.key_value then
+			setActive(slot0.activityCrusingBtn:Find("LastDay"), true)
+			setText(slot0.activityCrusingBtn:Find("LastDay/text"), i18n("guild_left_supply_day", slot4))
+		else
+			setActive(slot0.activityCrusingBtn:Find("LastDay"), false)
+		end
+
 		setText(slot0.activityCrusingBtn:Find("Text"), slot2.phase .. "/" .. #slot2.awardList)
 		setActive(slot0.activityCrusingBtn:Find("tip"), #slot1:GetCrusingUnreceiveAward() > 0)
 	else

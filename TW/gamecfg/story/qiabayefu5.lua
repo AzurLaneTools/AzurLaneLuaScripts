@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"独占时光\n\n<size=45>五 换装难题</size>",
+					"獨佔時光\n\n<size=45>5 換裝難題</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "纪念品商店内，货架上摆满了各式各样的动物周边。",
+			say = "紀念品商店內，貨架上擺滿了各式各樣的動物週邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "北极熊连体睡衣？鲨鱼尾巴卫衣？指挥官喜欢哪一款呢？",
+			say = "北極熊連身睡衣？鯊魚尾巴帽T？指揮官喜歡哪一款呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……为什么所有衣服都这么可爱？",
+			say = "……為什麼所有衣服都這麼可愛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为这里是动物园呀，指挥官难道还指望着找到一件“战术风”的T恤吗？",
+			say = "因為這裡是動物園呀，指揮官難道還想說能找到一件「戰術風」的T恤嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "至少应该有……低调点的选项吧。",
+			say = "至少應該要有……低調點的選項吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可爱的东西不好吗？适合度假，适合放松……也会让人眼前一亮呢~",
+			say = "可愛的東西不好嗎？適合渡假，適合放鬆……也會讓人眼睛一亮呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这种很难穿着在外面行走吧……",
+			say = "這種很難穿著在外面行走吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么说来，指挥官的偏好是“低调而深沉”？",
+			say = "這麼說來，指揮官的偏好是「低調而深沉」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那到不至于，但至少要符合我日常形象。",
+			say = "那到不至於，但至少要符合我日常形象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "日常形象……指挥官是在意别人眼中的自己呢，还是——在意某个人的目光？",
+			say = "日常形象……指揮官是在意別人眼中的自己呢，還是——在意某個人的目光？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我只是想要一件正常点的衣服。",
+			say = "……我只是想要一件正常點的衣服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "我翻看了一圈，最终选了一件黑底白色剪影的款式，虽然有企鹅图案，但至少没有那么显眼。",
+			say = "我翻看了一圈，最後選了一件黑底白色剪影的款式，雖然有企鵝圖案，但至少沒有那麼顯眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官选了一件最无趣的呢。",
+			say = "指揮官選了一件最無聊的呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这件比较符合我的风格。",
+			say = "這件比較符合我的風格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "未必哦，指挥官的“隐藏风格”……说不定连指挥官自己都不了解呢~",
+			say = "未必哦，指揮官的「隱藏風格」……說不定連指揮官自己都不了解呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "什么意思？",
+			say = "什麼意思？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不急，等我找机会验证一下。",
+			say = "不急，等我找機會驗證一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "结账后，我拿着衣服走向更衣室，换掉了因企鹅恶作剧而湿透的上衣。",
+			say = "結帳後，我拿著衣服走向更衣室，換掉了因企鵝惡作劇而濕透的上衣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "走出更衣室时，恰巴耶夫已经等在门口，她身侧的口袋微微鼓起，似乎塞了什么东西。",
+			say = "走出更衣室時，恰巴耶夫已經等在門口，她身側的口袋微微鼓起，似乎塞了什麼東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你买了什么？",
+			say = "妳買了什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……真是让人在意的回答。",
+			say = "……真是讓人在意的回答。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果指挥官忍不住想知道的话，也可以……回去后再问问看？",
+			say = "如果指揮官忍不住想知道的話，也可以……回去後再問問看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看来你是打算故意吊我胃口？",
+			say = "看來妳是打算故意吊我胃口？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么会呢，我只是觉得——",
+			say = "怎麼會呢，我只是覺得——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "惊喜，只有在合适的时机揭晓，才会更加有趣。",
+			say = "驚喜，只有在適當的時機揭曉，才會更加有趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以，你买的东西是给我的？",
+			say = "所以，妳買的東西是給我的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等一下，衣领这里……",
+			say = "等一下，衣領這裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "恰巴耶夫伸手拂过我的衣领，指尖摩挲着我的脖颈，带起一阵酥麻。",
+			say = "恰巴耶夫伸手拂過我的衣領，指尖摩挲著我的脖頸，帶起一陣酥麻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不要转移话题。",
+			say = "不要轉移話題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官很在意这个？",
+			say = "指揮官很在意這個？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那要不要来搜身检查一下？",
+			say = "那要不要來搜身檢查一下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官愿意亲自搜查的话，我可是很乐意配合的。",
+			say = "指揮官願意親自搜索的話，我可是很樂意配合的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "恰巴耶夫拉起我的手按在她的胸口。感受着她的心跳，我迟疑了一下，还是抽回了手。",
+			say = "恰巴耶夫拉起我的手按在她的胸口。感受著她的心跳，我遲疑了一下，還是抽回了手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "等回去再说。",
+			say = "等回去再說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就这么说好了哟~",
+			say = "那就這麼說好了喲~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

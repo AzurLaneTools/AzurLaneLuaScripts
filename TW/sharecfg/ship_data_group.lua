@@ -6369,6 +6369,17 @@ pg.base.ship_data_group = {}
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -8610,6 +8621,17 @@ pg.base.ship_data_group = {}
 					""
 				},
 				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -10287,6 +10309,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"進行重型、特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -10362,6 +10395,17 @@ end)()
 				"限時活動：定向折疊",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -10664,6 +10708,16 @@ end)()
 				"限時活動：定向折疊",
 				{
 					""
+				},
+				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -36288,11 +36342,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：世界巡遊",
+				"META商店兌換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9705011
+						warp = "meta"
 					}
 				},
 				0
@@ -36323,11 +36377,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：世界巡遊",
+				"META商店兌換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9706011
+						warp = "meta"
 					}
 				},
 				0
@@ -36393,11 +36447,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：世界巡遊",
+				"META商店兌換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9706021
+						warp = "meta"
 					}
 				},
 				0
@@ -36463,11 +36517,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：世界巡遊",
+				"META商店兌換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9705021
+						warp = "meta"
 					}
 				},
 				0
@@ -36498,11 +36552,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：世界巡遊",
+				"META商店兌換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702021
+						warp = "meta"
 					}
 				},
 				0
@@ -36568,11 +36622,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：世界巡遊",
+				"META商店兌換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9703011
+						warp = "meta"
 					}
 				},
 				0
@@ -36638,11 +36692,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：世界巡遊",
+				"META商店兌換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701011
+						warp = "meta"
 					}
 				},
 				0
@@ -36673,11 +36727,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：世界巡遊",
+				"META商店兌換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701021
+						warp = "meta"
 					}
 				},
 				0
@@ -36743,11 +36797,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：世界巡遊",
+				"META商店兌換",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702031
+						warp = "meta"
 					}
 				},
 				0

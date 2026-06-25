@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"独占时光\n\n<size=45>七 独占的证明</size>",
+					"獨佔時光\n\n<size=45>7 獨佔的證明</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "我关上指挥室的门，转身看向恰巴耶夫。她姿态慵懒地倚在桌沿，含笑望着我，像是在等待什么。",
+			say = "我關上指揮室的門，轉身看向恰巴耶夫。她姿態慵懶地倚在桌沿，含笑著看著我，像是在等待什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "现在可以告诉我了吧？礼物是什么？",
+			say = "現在可以告訴我了吧？禮物是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，指挥官竟然这么积极地追问呢。",
+			say = "哎呀，指揮官竟然這麼積極地追問呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不会是因为……好奇心已经快忍不住了吧？",
+			say = "不會是因為……好奇心已經快忍不住了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你自己说的，让我亲自检查。",
+			say = "妳自己說的，讓我親自檢查一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，我可没忘哦。",
+			say = "哼哼，我可沒忘哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那指挥官要怎么检查呢？想从哪里开始？",
+			say = "那指揮官要怎麼檢查呢？想從哪裡開始？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "她微微抬起下巴，语气轻快，却带着点刻意的挑衅。我也不再犹豫，直接伸手探向她的口袋。",
+			say = "她微微抬起下巴，語氣輕快，卻帶著點刻意的挑釁。我也不再猶豫，直接伸手探向她的口袋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,18 +151,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "我将物品从她口袋中取出——是一条毛绒绒的项圈，金属扣环在灯光下泛着微光。",
+			say = "我將物品從她口袋中取出——是一條毛絨絨的項圈，金屬扣環在燈光下泛著微光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你该不会想让我戴上吧？",
+					content = "妳該不會想讓我戴上吧？",
 					flag = 1
 				},
 				{
-					content = "这礼物……有点超出我的预期。",
+					content = "這份禮物……有點超出我的預期。",
 					flag = 2
 				}
 			}
@@ -175,7 +175,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你该不会想让我戴上吧？",
+			say = "妳該不會想讓我戴上吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，指挥官是不是早就猜到会有这种“惊喜”了呢？",
+			say = "呵呵，指揮官是不是早就猜到會有這種「驚喜」了呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这礼物……有点超出我的预期。",
+			say = "這份禮物……有點超出我的預期。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，那指挥官的“预期”到底是什么呢？",
+			say = "哎呀，那指揮官的「預期」到底是什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看你的表情，似乎也不是很抗拒嘛~",
+			say = "看你的表情，似乎也不是很抗拒~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "她抬起手，缓缓地举起项圈，目光静静地落在我的颈侧。",
+			say = "她抬起手，緩緩地舉起項圈，目光靜靜地落在我的頸側。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官愿意让我亲手为你戴上吗？",
+			say = "指揮官願意讓我親手為你戴上嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你这话听起来怎么像是某种仪式？",
+			say = "妳這話聽起來怎麼像是某種儀式？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟是重要的东西……当然要郑重一点。来吧，别害羞~",
+			say = "畢竟是重要的東西……當然要鄭重一點。來吧，別害羞~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "她的指尖轻轻碰触到我的脖颈，带着一丝微凉的触感，缓缓扣上了项圈的金属扣环。",
+			say = "她的指尖輕輕碰觸到我的脖頸，帶著一絲微涼的觸感，緩緩扣上了項圈的金屬扣環。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样就好了……嗯，果然比我想象的还要合适。",
+			say = "這樣就好了……嗯，果然比我想像的還要合適。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这到底是哪方面的“合适”？",
+			say = "這到底是哪方面的「合適」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然是……和我期待的画面一模一样呢。",
+			say = "當然是……跟我期待的畫面一模一樣呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "她的目光流连在我的锁骨上，嘴角扬起一个意味深长的笑。",
+			say = "她的目光流連在我的鎖骨上，嘴角揚起一個意味深長的笑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "被你得逞了。",
+			say = "被妳得逞了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是，指挥官自己也没有拒绝呀~",
+			say = "可是，指揮官自己也沒有拒絕呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "她微微倾身，呼吸拂过我的耳侧，声音柔得像是呢喃。",
+			say = "她微微傾身，呼吸拂過我的耳側，聲音柔得像是呢喃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然已经习惯了被我独占……那就让我，再靠近一点吧？",
+			say = "既然已經習慣了被我獨佔……那就讓我，再靠近一點吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "她的手落在我的肩上，指尖缓缓向上，最终停在项圈的金属扣上，微微用力收紧了一点。",
+			say = "她的手落在我的肩膀上，指尖緩緩向上，最後停在項圈的金屬扣上，微微用力收緊了一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你再这么继续下去，我可就要反击了。",
+			say = "妳再這麼繼續下去，我可就要反擊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦？指挥官的“反击”……我可要好好期待一下呢~",
+			say = "哦？指揮官的「反擊」……我可要好好期待一下呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -42,7 +42,8 @@ pg.re_map_template.all = {
 	38,
 	39,
 	40,
-	41
+	41,
+	44
 }
 pg.base = pg.base or {}
 pg.base.re_map_template = {}
@@ -2406,6 +2407,76 @@ pg.base.re_map_template = {}
 				{
 					2,
 					11034
+				},
+				"D2"
+			}
+		}
+	}
+	pg.base.re_map_template[44] = {
+		id = 44,
+		name = "定向折叠常驻复刻",
+		bg = "temp_yuekechengII",
+		memory_group = 235,
+		activity_type = 1,
+		order = 44,
+		config_data = {
+			2100541,
+			2100542,
+			2100543,
+			2100544,
+			2100545,
+			2100546,
+			2100551,
+			2100552,
+			2100553,
+			2100554,
+			2100555,
+			2100556
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		drop_gain = {
+			{
+				2100556,
+				4,
+				107121,
+				60
+			},
+			{}
+		},
+		drop_display_sp = {
+			{
+				{
+					4,
+					107121
+				},
+				"B3、D3"
+			}
+		},
+		drop_display = {
+			{
+				{
+					2,
+					11054
+				},
+				"D3"
+			},
+			{
+				{
+					2,
+					11005
 				},
 				"D2"
 			}
