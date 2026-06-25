@@ -45840,7 +45840,7 @@ end)()
 			ui_name = "DreamTourMainPage"
 		},
 		config_client = {
-			shopItemID = 71371,
+			shopItemID = 71378,
 			task_id = 27265,
 			entrance_bg = "activitybanner/temp10",
 			PTID = 726

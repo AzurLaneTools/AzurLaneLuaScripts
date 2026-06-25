@@ -188,7 +188,7 @@ pg.base.dorm3d_holylight = {}
 		texture = "dorm3dholylight/Eff_smoke_116",
 		id = 79902101,
 		invert = 1,
-		default_threshold = 0.8,
+		default_threshold = 0.75,
 		skin_id = 799021,
 		target_bone = "all/Bip001/Bip001 Pelvis",
 		color = {
@@ -216,7 +216,7 @@ pg.base.dorm3d_holylight = {}
 		texture = "dorm3dholylight/Eff_smoke_116",
 		id = 79902102,
 		invert = 1,
-		default_threshold = 0.8,
+		default_threshold = 0.75,
 		skin_id = 799022,
 		target_bone = "all/Bip001/Bip001 Pelvis",
 		color = {
@@ -244,7 +244,7 @@ pg.base.dorm3d_holylight = {}
 		texture = "dorm3dholylight/Eff_smoke_116",
 		id = 79902103,
 		invert = 1,
-		default_threshold = 1,
+		default_threshold = 0.75,
 		skin_id = 799023,
 		target_bone = "all/Bip001/Bip001 Pelvis",
 		color = {
@@ -254,8 +254,8 @@ pg.base.dorm3d_holylight = {}
 			1
 		},
 		base_size = {
-			96,
-			96
+			128,
+			128
 		},
 		axis = {
 			1,
@@ -272,7 +272,7 @@ pg.base.dorm3d_holylight = {}
 		texture = "dorm3dholylight/Eff_smoke_116",
 		id = 79902104,
 		invert = 1,
-		default_threshold = 1,
+		default_threshold = 0.75,
 		skin_id = 799024,
 		target_bone = "all/Bip001/Bip001 Pelvis",
 		color = {
@@ -282,8 +282,8 @@ pg.base.dorm3d_holylight = {}
 			1
 		},
 		base_size = {
-			96,
-			96
+			128,
+			128
 		},
 		axis = {
 			1,
