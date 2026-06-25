@@ -143,7 +143,7 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "stare_01-start",
+							name = "think_01-start",
 							time = 0,
 							type = "action",
 							skip = true
@@ -183,7 +183,7 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "stare_01-start",
+							name = "enjoy_01-start",
 							time = 0,
 							type = "action",
 							skip = true

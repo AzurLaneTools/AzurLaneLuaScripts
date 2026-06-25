@@ -166714,7 +166714,7 @@ end)()
 				{
 					2,
 					{
-						"touch_idle6"
+						"touch_idle26"
 					},
 					0
 				}

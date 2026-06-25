@@ -148,14 +148,14 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "stare_01-start",
+							name = "shy_01",
 							time = 0,
 							type = "action",
 							skip = true
 						},
 						{
 							skip = true,
-							name = "Face_smile_start",
+							name = "Face_shy_start",
 							type = "action"
 						},
 						{
@@ -188,14 +188,14 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "stare_01-start",
+							name = "happy_01-start",
 							time = 0,
 							type = "action",
 							skip = true
 						},
 						{
 							skip = true,
-							name = "Face_smile_start",
+							name = "Face_shy_start",
 							type = "action"
 						},
 						{
