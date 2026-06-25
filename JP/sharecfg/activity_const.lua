@@ -1200,4 +1200,7 @@ end)()
 	pg.base.activity_const.MALL_MAIN_ACTIVITY_ID = {
 		act_id = 50619
 	}
+	pg.base.activity_const.FREE_PACKAGE_SHOW_TIME_ID = {
+		act_id = 60824
+	}
 end)()

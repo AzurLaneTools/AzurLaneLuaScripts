@@ -108,7 +108,7 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "stare_01-start",
+							name = "hello_01-start",
 							time = 0,
 							type = "action",
 							skip = true
