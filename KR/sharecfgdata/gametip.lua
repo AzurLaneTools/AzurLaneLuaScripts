@@ -3050,6 +3050,11 @@ _G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
 }
 
 
+_G.pg.base.gametip.mail_takeAttachment_error_equipment_overlimit = {
+	tip = "다음 보상이 보유 가능 개수 제한을 초과하여, 수령하면 자동으로 $1으로 변환됩니다. 수령하시겠습니까?"
+}
+
+
 _G.pg.base.gametip.mail_confirm_set_important_flag = {
 	tip = "메일을 보존하시겠습니까?"
 }
@@ -12547,17 +12552,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「브륀힐드」, 「블뤼허」 상시 건조 추가!"
+	tip = "「비스마르크 Zwei」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「Z16」 상시 건조 추가!"
+	tip = "「레겐스부르크」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「임플래커블」, 「아거스」 상시 건조 추가!"
+	tip = "「비스마르크 Zwei」, 「U-556·META」 상시 건조 추가!"
 }
 
 
@@ -49045,6 +49050,21 @@ _G.pg.base.gametip.anniversary_nine_main_page = {
 }
 
 
+_G.pg.base.gametip.refux_cg_title = {
+	tip = "지휘관 응원"
+}
+
+
+_G.pg.base.gametip.shop_skin_already_inuse = {
+	tip = "적용 중"
+}
+
+
+_G.pg.base.gametip.world_cruise_due_tips = {
+	tip = "$1(은)는 앞으로 $2일 후에 종료될 예정입니다. 보상을 잊지 말고 수령하세요!"
+}
+
+
 _G.pg.base.gametip.AnniversaryNineCoreActivityUI_subtitle_6 = {
 	tip = "아름다운 휴일"
 }
@@ -49061,12 +49081,12 @@ _G.pg.base.gametip.mall_level_max = {
 
 
 _G.pg.base.gametip.equipment_design_chapter = {
-	tip = "작전 이력"
+	tip = "작전 문서"
 }
 
 
 _G.pg.base.gametip.equipment_design_tech = {
-	tip = "과학연구실: 연구 항목 오픈"
+	tip = "군부연구실: 연구 항목 오픈"
 }
 
 
@@ -49136,7 +49156,7 @@ _G.pg.base.gametip.OutPostCoreActivityUI_subtitle_3 = {
 
 
 _G.pg.base.gametip.OutPostCoreActivityUI_subtitle_4 = {
-	tip = "맹그로브의 수호정령"
+	tip = "스킨 임무"
 }
 
 

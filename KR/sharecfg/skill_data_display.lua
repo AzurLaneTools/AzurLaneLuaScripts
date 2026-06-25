@@ -3594,6 +3594,12 @@ pg.skill_data_display.all = {
 	1011872,
 	1011873,
 	1011874,
+	1018301,
+	1018303,
+	1018305,
+	1019301,
+	1019302,
+	1019303,
 	200002,
 	200005,
 	200008,
@@ -4005,6 +4011,9 @@ pg.skill_data_display.all = {
 	1019263,
 	1014170,
 	1014171,
+	1012471,
+	1010800,
+	1010801,
 	1090020,
 	1090042,
 	1090043,
@@ -4086,7 +4095,12 @@ pg.skill_data_display.all = {
 	1090451,
 	1090452,
 	1090453,
-	1090462
+	1090462,
+	1090471,
+	1090481,
+	1090482,
+	1090483,
+	1090484
 }
 pg.base = pg.base or {}
 pg.base.skill_data_display = {}
@@ -18522,6 +18536,30 @@ end)()
 		id = 1011874,
 		name = "절대 명중의 숙녀·改+"
 	}
+	pg.base.skill_data_display[1018301] = {
+		id = 1018301,
+		name = "슬래시 콤비네이션"
+	}
+	pg.base.skill_data_display[1018303] = {
+		id = 1018303,
+		name = "버스트 콤비네이션"
+	}
+	pg.base.skill_data_display[1018305] = {
+		id = 1018305,
+		name = "단죄의 불꽃·改+"
+	}
+	pg.base.skill_data_display[1019301] = {
+		id = 1019301,
+		name = "슬래시 콤비네이션"
+	}
+	pg.base.skill_data_display[1019302] = {
+		id = 1019302,
+		name = "단죄의 불꽃·改"
+	}
+	pg.base.skill_data_display[1019303] = {
+		id = 1019303,
+		name = "단죄의 불꽃·改"
+	}
 	pg.base.skill_data_display[200002] = {
 		id = 200002,
 		name = "공중 전함 지원"
@@ -18538,6 +18576,8 @@ end)()
 		id = 200038,
 		name = "섬멸의 횃불-열"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200040] = {
 		id = 200040,
 		name = "섬멸의 횃불-정"
@@ -18562,8 +18602,6 @@ end)()
 		id = 200119,
 		name = "생명 전환"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200120] = {
 		id = 200120,
 		name = "엘리먼트 지배"
@@ -18940,6 +18978,8 @@ end)()
 		id = 200839,
 		name = "심판의 창"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200840] = {
 		id = 200840,
 		name = "로열의 검"
@@ -18964,8 +19004,6 @@ end)()
 		id = 200848,
 		name = "소유권 변경 - 「신성한 검」"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200849] = {
 		id = 200849,
 		name = "「Explosion」"
@@ -19342,6 +19380,8 @@ end)()
 		id = 201532,
 		name = "아마하라 가호 - 비늘"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201547] = {
 		id = 201547,
 		name = "군도 유적 지원"
@@ -19366,8 +19406,6 @@ end)()
 		id = 201672,
 		name = "탈구축의 관측"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201673] = {
 		id = 201673,
 		name = "아직 꺼지지 않은 의지"
@@ -19434,7 +19472,7 @@ end)()
 	}
 	pg.base.skill_data_display[201790] = {
 		id = 201790,
-		name = "차원 추적자"
+		name = "차원 추적"
 	}
 	pg.base.skill_data_display[201798] = {
 		id = 201798,
@@ -19744,6 +19782,8 @@ end)()
 		id = 1012323,
 		name = "Gassing Breath +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1013551] = {
 		id = 1013551,
 		name = "스마일 헌터 +"
@@ -19768,8 +19808,6 @@ end)()
 		id = 1011493,
 		name = "수제 마카롱"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011496] = {
 		id = 1011496,
 		name = "정면 화력 투사 +"
@@ -20146,6 +20184,8 @@ end)()
 		id = 1012914,
 		name = "불사조의 깃털"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012915] = {
 		id = 1012915,
 		name = "요괴 = 언데드"
@@ -20170,11 +20210,21 @@ end)()
 		id = 1014170,
 		name = "Kirov Reporting! +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1014171] = {
 		id = 1014171,
 		name = "Kirov Reporting! +"
+	}
+	pg.base.skill_data_display[1012471] = {
+		id = 1012471,
+		name = "날개 잃은 상어+"
+	}
+	pg.base.skill_data_display[1010800] = {
+		id = 1010800,
+		name = "5항전+"
+	}
+	pg.base.skill_data_display[1010801] = {
+		id = 1010801,
+		name = "5항전+"
 	}
 	pg.base.skill_data_display[1090020] = {
 		id = 1090020,
@@ -20503,5 +20553,25 @@ end)()
 	pg.base.skill_data_display[1090462] = {
 		id = 1090462,
 		name = "포술 지휘·그렌빌"
+	}
+	pg.base.skill_data_display[1090471] = {
+		id = 1090471,
+		name = "쾌속 장전·키사라기"
+	}
+	pg.base.skill_data_display[1090481] = {
+		id = 1090481,
+		name = "포켓 전함 - 도이칠란트"
+	}
+	pg.base.skill_data_display[1090482] = {
+		id = 1090482,
+		name = "포켓 전함 - 도이칠란트"
+	}
+	pg.base.skill_data_display[1090483] = {
+		id = 1090483,
+		name = "포켓 전함 - 도이칠란트"
+	}
+	pg.base.skill_data_display[1090484] = {
+		id = 1090484,
+		name = "포켓 전함 - 도이칠란트"
 	}
 end)()

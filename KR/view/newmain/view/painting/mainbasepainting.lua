@@ -218,7 +218,7 @@ slot0.TryToTriggerEvent = function(slot0, slot1)
 end
 
 slot0._TriggerEvent = function(slot0, slot1)
-	if uv0.assistantEvents[slot1].dialog ~= "" then
+	if pg.AssistantInfo.GetAssistantEvents(slot1).dialog ~= "" then
 		slot0:DisplayWord(slot2.dialog)
 	else
 		slot0:TriggerNextEventAuto()
@@ -429,7 +429,7 @@ slot0.CollectIdleEvents = function(slot0, slot1)
 		end
 
 		if #slot2 == 0 then
-			slot2 = uv0.filterAssistantEvents(Clone(uv0.IdleEvents), slot0.ship:getSkinId(), slot0.ship:getCVIntimacy())
+			slot2 = uv0.GetShipMainEvents(slot0.ship:getSkinId(), slot0.ship:getCVIntimacy())
 
 			if getProxy(TaskProxy):getNotFinishCount() and getProxy(TaskProxy):getNotFinishCount() > 0 and slot1 ~= "mission" then
 				table.insert(slot2, "mission")
@@ -441,19 +441,25 @@ slot0.CollectIdleEvents = function(slot0, slot1)
 end
 
 slot0.CollectTouchEvents = function(slot0)
-	return uv0.filterAssistantEvents(uv0.PaintingTouchEvents, slot0.ship:getSkinId(), slot0.ship:getCVIntimacy())
+	slot1 = slot0.ship:getCVIntimacy()
+
+	return uv0.filterAssistantEvents(uv0.GetShipTouchEvents(slot0.ship:getSkinId(), slot1), slot0.ship:getSkinId(), slot1)
 end
 
 slot0.GetTouchEvent = function(slot0, slot1)
+	slot2 = slot0.ship:getCVIntimacy()
+
 	return uv0.filterAssistantEvents(uv0.getAssistantTouchEvents(slot1, slot0.ship:getSkinId()), slot0.ship:getSkinId(), 0)
 end
 
 slot0.GetIdleEvents = function(slot0)
-	return uv0.filterAssistantEvents(uv0.IdleEvents, slot0.ship:getSkinId(), 0)
+	slot1 = slot0.ship:getCVIntimacy()
+
+	return uv0.filterAssistantEvents(uv0.GetShipMainEvents(slot0.ship:getSkinId(), 0), slot0.ship:getSkinId(), 0)
 end
 
 slot0.GetEventConfig = function(slot0, slot1)
-	return uv0.assistantEvents[slot1]
+	return pg.AssistantInfo.GetAssistantEvents(slot1)
 end
 
 slot0.GetSpecialTouchEvent = function(slot0, slot1)

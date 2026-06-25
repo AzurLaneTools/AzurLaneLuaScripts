@@ -59,7 +59,7 @@ slot0.OnClick = function(slot0)
 			slot4 = slot0:GetTouchEvent(slot3)
 			slot1 = slot4[math.ceil(math.random(#slot4))]
 		else
-			slot4 = slot0:GetIdleEvents()
+			slot4 = slot0:GetTouchEvent()
 			slot1 = slot4[math.floor(math.Random(0, #slot4)) + 1]
 		end
 	end
@@ -73,12 +73,8 @@ slot0.GetTouchEvent = function(slot0, slot1)
 	return uv0.filterAssistantEvents(uv0.getAssistantTouchEvents(slot1), slot0.ship:getSkinId(), 0)
 end
 
-slot0.GetIdleEvents = function(slot0)
-	return uv0.filterAssistantEvents(uv0.IdleEvents, slot0.ship:getSkinId(), 0)
-end
-
 slot0.GetEventConfig = function(slot0, slot1)
-	return uv0.assistantEvents[slot1]
+	return pg.AssistantInfo.GetAssistantEvents(slot1)
 end
 
 slot0.TriggerEvent = function(slot0, slot1)

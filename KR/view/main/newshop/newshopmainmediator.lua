@@ -456,7 +456,7 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == ShopsProxy.QUOTA_SHOP_UPDATED then
 		slot0.viewComponent:OnUpdateShop(NewShopsScene.TYPE_QUOTA, slot3.shop)
 	elseif slot2 == GAME.QUOTA_SHOPPING_DONE then
-		slot0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_QUOTA_SHOP, getProxy(ShopsProxy):getQuotaShop(), slot3.id)
+		slot0.viewComponent:OnUpdateCommodity(NewShopsScene.TYPE_QUOTA, getProxy(ShopsProxy):getQuotaShop(), slot3.id)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == GAME.MINI_GAME_SHOP_BUY_DONE then
 		if slot3.list and #slot4 > 0 then

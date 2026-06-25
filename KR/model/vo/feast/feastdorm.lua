@@ -1,4 +1,4 @@
-slot0 = class("FeastDorm", import("model.vo.NewBackYard.Dorm"))
+slot0 = class("FeastDorm", import("model.vo.Dorm.Dorm"))
 slot0.OP_RANDOM_SHIPS = 0
 slot0.OP_ENTER = 1
 slot0.OP_MAKE_TICKET = 2
@@ -102,7 +102,7 @@ slot0.GetPutFurnitureList = function(slot0, slot1)
 	return slot2
 end
 
-slot0.GetPutShipList = function(slot0, slot1)
+slot0.GetBayShipOnFloor = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.feastShips) do

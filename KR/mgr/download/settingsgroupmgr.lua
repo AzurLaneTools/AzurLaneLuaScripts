@@ -78,3 +78,15 @@ slot1.onFinish = function(slot0, slot1, slot2, slot3)
 		slot4.state = uv0.State.Fail
 	end
 end
+
+slot1.CheckGroupUpdateTip = function(slot0)
+	slot1 = BundleWizard.Inst:GetGroupMgr(slot0)
+
+	slot1:CheckD()
+
+	if slot1.state == DownloadState.CheckToUpdate then
+		return false
+	else
+		return not GroupHelper.IsGroupVerLastest(slot0)
+	end
+end

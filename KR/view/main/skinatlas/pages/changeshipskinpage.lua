@@ -226,7 +226,7 @@ slot0.FlushShips = function(slot0)
 
 			ShipDetailCard.New(slot2.gameObject):update(slot3, uv0.skin.id)
 			setActive(slot4.maskStatusOb, slot3:getSkinId() == uv0.skin.id)
-			setText(slot4.maskStatusOb:Find("Text"), "-  " .. i18n("index_CANTUSE") .. "  -")
+			setText(slot4.maskStatusOb:Find("Text"), "-  " .. i18n("shop_skin_already_inuse") .. "  -")
 			setActive(slot2:Find("phantom_mark"), slot3.phantomId > 0)
 			onToggle(uv0, slot4.tr, function (slot0)
 				if uv0:getSkinId() == uv1.skin.id then

@@ -1181,6 +1181,8 @@ pg.activity_template.all = {
 	51004,
 	51005,
 	51006,
+	51021,
+	51022,
 	51011,
 	51012,
 	51013,
@@ -2049,6 +2051,7 @@ pg.activity_template.get_id_list_by_type = {
 		50254,
 		50501,
 		50832,
+		51022,
 		51012
 	},
 	[16] = {
@@ -2837,6 +2840,7 @@ pg.activity_template.get_id_list_by_type = {
 		50833,
 		50604,
 		50621,
+		51021,
 		51013,
 		1110,
 		6006,
@@ -47456,9 +47460,7 @@ end)()
 				21973,
 				21974
 			},
-			daily_task = {
-				21953
-			}
+			daily_task = {}
 		}
 	}
 	pg.base.activity_template[50603] = {
@@ -47473,7 +47475,6 @@ end)()
 		id = 50603,
 		page_core = "",
 		config_data = {
-			21953,
 			21954,
 			21955,
 			21956,
@@ -48963,6 +48964,89 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[51021] = {
+		mark = 20260612,
+		type = 74,
+		login_pop = 0,
+		config_id = 51021,
+		is_show = 46,
+		config_client = "",
+		title_res_tag = "xiaoxinnong",
+		id = 51021,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "XiaoXinNongPtPage2",
+			ui_name = "XiaoXinNongPtPage2"
+		}
+	}
+	pg.base.activity_template[51022] = {
+		mark = 20260612,
+		page_info = "",
+		type = 15,
+		login_pop = 0,
+		config_id = 307141,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51022,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51011] = {
 		mark = 20260528,
 		type = 18,
@@ -50379,6 +50463,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7017] = {
 		mark = 20240530,
 		type = 54,
@@ -50515,8 +50601,6 @@ end)()
 			ui_name = "CrusingDisplayActPage18"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7019] = {
 		mark = 20240926,
 		type = 54,
@@ -55607,6 +55691,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[20533] = {
 		mark = 20200709,
 		page_info = "",
@@ -55697,8 +55783,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[20535] = {
 		mark = 20200709,
 		page_info = "",
@@ -59797,6 +59881,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[25026] = {
 		mark = 20180627,
 		page_info = "",
@@ -59831,8 +59917,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[25028] = {
 		mark = 20190731,
 		page_info = "",

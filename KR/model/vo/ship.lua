@@ -18,11 +18,6 @@ slot0.WEAPON_COUNT = 3
 slot0.PREFAB_EQUIP = 4
 slot0.MAX_SKILL_LEVEL = 10
 slot0.ENERGY_RECOVER_TIME = 360
-slot0.STATE_NORMAL = 1
-slot0.STATE_REST = 2
-slot0.STATE_CLASS = 3
-slot0.STATE_COLLECT = 4
-slot0.STATE_TRAIN = 5
 slot2 = 4
 slot3 = 100
 slot4 = 120
@@ -178,7 +173,7 @@ slot0.getEnergyPrint = function(slot0)
 end
 
 slot0.getIntimacy = function(slot0)
-	return slot0.intimacy
+	return slot0.intimacy or 0
 end
 
 slot0.getCVIntimacy = function(slot0)
@@ -367,29 +362,23 @@ slot0.Ctor = function(slot0, slot1)
 		end
 	end
 
-	slot3 = slot1.state or {}
-	slot0.state = slot3.state or 0
-	slot0.state_info_1 = slot3.state_info_1 or 0
-	slot0.state_info_2 = slot3.state_info_2 or 0
-	slot0.state_info_3 = slot3.state_info_3 or 0
-	slot0.state_info_4 = slot3.state_info_4 or 0
 	slot0.equipmentSkins = {}
 	slot0.equipments = {}
 
 	if slot1.equip_info_list then
-		slot4 = ipairs
-		slot5 = slot1.equip_info_list or {}
+		slot3 = ipairs
+		slot4 = slot1.equip_info_list or {}
 
-		for slot7, slot8 in slot4(slot5) do
-			slot0.equipments[slot7] = slot8.id > 0 and Equipment.New({
+		for slot6, slot7 in slot3(slot4) do
+			slot0.equipments[slot6] = slot7.id > 0 and Equipment.New({
 				count = 1,
-				id = slot8.id,
-				config_id = slot8.id,
-				skinId = slot8.skinId
+				id = slot7.id,
+				config_id = slot7.id,
+				skinId = slot7.skinId
 			}) or false
-			slot0.equipmentSkins[slot7] = slot8.skinId > 0 and slot8.skinId or 0
+			slot0.equipmentSkins[slot6] = slot7.skinId > 0 and slot7.skinId or 0
 
-			slot0:reletiveEquipSkin(slot7)
+			slot0:reletiveEquipSkin(slot6)
 		end
 	end
 
@@ -400,27 +389,27 @@ slot0.Ctor = function(slot0, slot1)
 	end
 
 	slot0.skills = {}
-	slot4 = ipairs
-	slot5 = slot1.skill_id_list or {}
+	slot3 = ipairs
+	slot4 = slot1.skill_id_list or {}
 
-	for slot7, slot8 in slot4(slot5) do
-		slot0:updateSkill(slot8)
+	for slot6, slot7 in slot3(slot4) do
+		slot0:updateSkill(slot7)
 	end
 
 	slot0.star = slot0:getConfig("rarity")
 	slot0.transforms = {}
-	slot4 = ipairs
-	slot5 = slot1.transform_list or {}
+	slot3 = ipairs
+	slot4 = slot1.transform_list or {}
 
-	for slot7, slot8 in slot4(slot5) do
-		slot0.transforms[slot8.id] = {
-			id = slot8.id,
-			level = slot8.level
+	for slot6, slot7 in slot3(slot4) do
+		slot0.transforms[slot7.id] = {
+			id = slot7.id,
+			level = slot7.level
 		}
 	end
 
 	slot0.createTime = slot1.create_time or 0
-	slot0.virgin = getProxy(CollectionProxy) and slot4.shipGroups[slot0.groupId] == nil
+	slot0.virgin = getProxy(CollectionProxy) and slot3.shipGroups[slot0.groupId] == nil
 
 	if table.indexof({
 		pg.gameset.test_ship_config_1.key_value,
@@ -432,11 +421,11 @@ slot0.Ctor = function(slot0, slot1)
 			3,
 			4
 		}
-	elseif slot6 == 2 then
+	elseif slot5 == 2 then
 		slot0.testShip = {
 			5
 		}
-	elseif slot6 == 3 then
+	elseif slot5 == 3 then
 		slot0.testShip = {
 			6
 		}
@@ -445,30 +434,30 @@ slot0.Ctor = function(slot0, slot1)
 	end
 
 	slot0.maxIntimacy = pg.intimacy_template[#pg.intimacy_template.all].upper_bound
-	slot7 = 0
+	slot6 = 0
 
 	if not HXSet.isHxSkin() then
-		slot7 = slot1.skin_id or 0
+		slot6 = slot1.skin_id or 0
 	end
 
 	slot0.phantomDic = {}
 
-	slot0:updateSkinId(slot7, 0)
+	slot0:updateSkinId(slot6, 0)
 
-	slot8 = ipairs
-	slot9 = slot1.skin_shadow_list or {}
+	slot7 = ipairs
+	slot8 = slot1.skin_shadow_list or {}
 
-	for slot11, slot12 in slot8(slot9) do
-		slot0:updateSkinId(slot12.value, slot12.key)
+	for slot10, slot11 in slot7(slot8) do
+		slot0:updateSkinId(slot11.value, slot11.key)
 	end
 
 	slot0.noChangeSkin = slot1.noChangeSkin or false
 	slot0.phantomRandomFlag = {}
-	slot8 = ipairs
-	slot9 = slot1.char_random_flag or {}
+	slot7 = ipairs
+	slot8 = slot1.char_random_flag or {}
 
-	for slot11, slot12 in slot8(slot9) do
-		slot0:updateRandomFlag(1, slot12)
+	for slot10, slot11 in slot7(slot8) do
+		slot0:updateRandomFlag(1, slot11)
 	end
 
 	if slot1.name and slot1.name ~= "" then
@@ -754,15 +743,6 @@ slot0.getRemouldPainting = function(slot0)
 	return slot2.painting
 end
 
-slot0.updateStateInfo34 = function(slot0, slot1, slot2)
-	slot0.state_info_3 = slot1
-	slot0.state_info_4 = slot2
-end
-
-slot0.hasStateInfo3Or4 = function(slot0)
-	return slot0.state_info_3 ~= 0 or slot0.state_info_4 ~= 0
-end
-
 slot0.isTestShip = function(slot0)
 	return slot0.testShip
 end
@@ -894,10 +874,6 @@ end
 
 slot0.getSkinTypes = function(slot0, slot1)
 	return pg.ship_data_template[slot0.configId]["equip_" .. slot1] or {}
-end
-
-slot0.updateState = function(slot0, slot1)
-	slot0.state = slot1
 end
 
 slot0.addSkillExp = function(slot0, slot1, slot2)

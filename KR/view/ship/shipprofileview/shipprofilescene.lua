@@ -151,6 +151,7 @@ slot0.didEnter = function(slot0)
 
 	slot4 = function()
 		setActive(uv0._tf, false)
+		setActive(uv0.blurPanel, false)
 		uv0:emit(ShipProfileMediator.CLICK_ROTATE_BTN, uv0.shipGroup, uv0.showTrans, uv0.skin)
 	end
 
@@ -728,12 +729,8 @@ slot0.UpdatePaintingFace = function(slot0, slot1)
 	if slot0.spinePainting then
 		slot5 = nil
 
-		for slot9, slot10 in pairs(pg.AssistantInfo.assistantEvents) do
-			if slot10.dialog == slot4 then
-				slot5 = slot10.action
-
-				break
-			end
+		if pg.AssistantInfo.GetAssistantEventsByDialog(slot4) then
+			slot5 = pg.AssistantInfo.GetAssistantEventsByDialog(slot4).action
 		end
 
 		if ShipExpressionHelper.GetExpression(slot0.paintingName, slot4, slot2.maxfavor, slot1.skin.id) ~= "" then

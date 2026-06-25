@@ -73,9 +73,9 @@ end
 slot0.GetMaxSel = function(slot0, slot1, slot2)
 	slot3 = 0
 
-	if slot2 == Ship.STATE_TRAIN then
+	if slot2 == DormShip.FLOOR_1 then
 		slot3 = slot1.exp_pos
-	elseif slot2 == Ship.STATE_REST then
+	elseif slot2 == DormShip.FLOOR_2 then
 		slot3 = slot1.rest_pos
 	end
 
@@ -88,8 +88,10 @@ slot0.GetSelectedShips = function(slot0, slot1, slot2, slot3)
 	slot6 = {}
 	slot7 = {}
 
-	for slot11, slot12 in ipairs(slot1.shipIds) do
-		if getProxy(BayProxy):RawGetShipById(slot12).state == slot2 then
+	for slot11, slot12 in ipairs(slot1:GetShips()) do
+		slot13 = getProxy(BayProxy):RawGetShipById(slot12.id)
+
+		if slot12:IsSameFloor(slot2) then
 			table.insert(slot5, slot13.id)
 
 			if slot13.id ~= slot4 then
@@ -120,7 +122,7 @@ slot0.OnShip = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.OnSelected = function(slot0, slot1, slot2, slot3, slot4)
-	slot5 = getProxy(DormProxy):getRawData():GetStateShipsById(slot1)
+	slot5 = getProxy(DormProxy):getRawData():GetDicBayShipOnFloor(slot1)
 
 	pg.UIMgr.GetInstance():LoadingOn()
 
@@ -158,7 +160,7 @@ slot0.OnSelected = function(slot0, slot1, slot2, slot3, slot4)
 		if not slot5[slot11] then
 			table.insert(slot0.contextData.shipIdToAdd, {
 				slot11,
-				slot1 == Ship.STATE_TRAIN and 1 or 2
+				slot1
 			})
 		end
 	end

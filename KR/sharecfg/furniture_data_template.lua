@@ -280,6 +280,7 @@ pg.furniture_data_template.all = {
 	100083,
 	100084,
 	100085,
+	100086,
 	200001,
 	200002,
 	200003,
@@ -3807,6 +3808,7 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		100083,
 		100084,
 		100085,
+		100086,
 		200001,
 		200002,
 		200003,
@@ -10551,6 +10553,7 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		100083,
 		100084,
 		100085,
+		100086,
 		54104,
 		54105
 	},
@@ -14339,6 +14342,7 @@ pg.furniture_data_template.get_id_list_by_type = {
 		100073,
 		100077,
 		100083,
+		100086,
 		30123,
 		35128,
 		36125,
@@ -30008,6 +30012,87 @@ end)()
 		},
 		interAction_group = {}
 	}
+	pg.base.furniture_data_template[100086] = {
+		advice = 0,
+		name = "깜짝 외발자전거 ",
+		count = 1,
+		type = 11,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "caiqiuduluncheicon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 100086,
+		comfortable = 0,
+		describe = "공 던지기 공연도 깜짝 선물의 일부랍니다~ ",
+		dorm_id = 0,
+		tag = 6,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caiqiuduluncheB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"caiqiuduluncheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	}
 	pg.base.furniture_data_template[200001] = {
 		advice = 0,
 		name = "꿈속의 소파 한 구석",
@@ -31334,6 +31419,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[1201] = {
 		can_rotate = 0,
 		describe = "쾨니히스베르크가 마지못해 공출한 그 녀석. 이걸로 전기료도 줄겠네!",
@@ -31372,8 +31459,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[1202] = {
 		can_rotate = 0,
 		describe = "아무리 가난하다 해도 차를 즐기는 건 포기할 수 없어! 차 도구는 일단 이 정도로.",
@@ -35478,6 +35563,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[5301] = {
 		can_rotate = 0,
 		describe = "잠수함용으로 설계된 현창이지만, 방에도 달아봤다.",
@@ -35516,8 +35603,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[5302] = {
 		can_rotate = 0,
 		describe = "메탈 블러드 제국 깃발.",
@@ -39905,6 +39990,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[11113] = {
 		can_rotate = 0,
 		describe = "건물과 정원을 나누는 경계선",
@@ -39943,8 +40030,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[11114] = {
 		can_rotate = 0,
 		describe = "멋들어진 화단. 관리해주도록 하자.",
@@ -44257,6 +44342,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[14119] = {
 		can_rotate = 0,
 		describe = "\"떨어지지 않도록 조심하세요~\"",
@@ -44321,8 +44408,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[14120] = {
 		can_rotate = 0,
 		describe = "뿅뿅뿅~ 만쥬함대 전멸!? 원반은 가구였다!",
@@ -49167,6 +49252,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[19103] = {
 		can_rotate = 0,
 		describe = "한 번 더 앉을 수 있다쿵!",
@@ -49218,8 +49305,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[19104] = {
 		can_rotate = 0,
 		describe = "설날에 장식하는 등롱.",
@@ -53812,6 +53897,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[23001] = {
 		can_rotate = 0,
 		describe = "넘어지지 않도록 조심!",
@@ -53847,8 +53934,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[23002] = {
 		can_rotate = 0,
 		describe = "쥬쥬가 그려져 있는 벽지",
@@ -58741,6 +58826,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[28108] = {
 		can_rotate = 0,
 		describe = "색깔이 다채로운 꽃잎 의자 시리즈 중 하나.",
@@ -58792,8 +58879,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[28109] = {
 		can_rotate = 0,
 		describe = "색깔이 다채로운 꽃잎 의자 시리즈 중 하나.",
@@ -63542,6 +63627,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[30302] = {
 		can_rotate = 0,
 		describe = "일기예보를 형상화 한 악세서리",
@@ -63580,8 +63667,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[30303] = {
 		can_rotate = 0,
 		describe = "무지갯빛으로 꾸며진 벽시계",
@@ -68073,6 +68158,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[36303] = {
 		can_rotate = 0,
 		describe = "비싸보이는 족자",
@@ -68111,8 +68198,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[36304] = {
 		can_rotate = 0,
 		describe = "객실에 장식된 이국적 문양의 걸이 장식",
@@ -72508,6 +72593,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[39302] = {
 		can_rotate = 0,
 		describe = "신춘을 맞이하자.",
@@ -72546,8 +72633,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[39303] = {
 		can_rotate = 0,
 		describe = "행운을 기원하는 벽걸이 커튼의 한쪽",
@@ -76991,6 +77076,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[43118] = {
 		can_rotate = 0,
 		describe = "키즈나 아이의 다양한 의상이나 장식품을 모티브로 한 아이템이 수납된 벽장 ……이제 언제든 키즈나 아이가 될 수 있다!",
@@ -77029,8 +77116,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[43119] = {
 		can_rotate = 0,
 		describe = "키즈나 아이를 이미지한 소파. 딱히 가상적인 요소는 없다. 이거 레알?!",
@@ -81286,6 +81371,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[46108] = {
 		can_rotate = 0,
 		describe = "레코드 모양이 새겨진 바닥이에요~",
@@ -81324,8 +81411,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[46109] = {
 		can_rotate = 1,
 		describe = "응...? 고장난 듯 하네요...",
@@ -85588,6 +85673,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[50111] = {
 		can_rotate = 1,
 		describe = "이 도로는 현재 통행 금지라고…쥬!",
@@ -85626,8 +85713,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[50112] = {
 		can_rotate = 1,
 		describe = "적당히 쉬어야 더 멀리 갈 수 있어.",
@@ -90082,6 +90167,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[55116] = {
 		can_rotate = 0,
 		describe = "바다의 메이드가 싸우는 전쟁터!",
@@ -90120,8 +90207,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[55117] = {
 		can_rotate = 1,
 		describe = "화장을 하거나 장신구를 수납할 수 있다.",
@@ -94390,6 +94475,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[59110] = {
 		can_rotate = 0,
 		describe = "음...오늘은 뭘 입을까~",
@@ -94428,8 +94515,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[59111] = {
 		can_rotate = 0,
 		describe = "부들부들 편안해요~",
@@ -98789,6 +98874,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[63106] = {
 		can_rotate = 0,
 		describe = "이동이 편리한 의자. 의외로 편안하다.",
@@ -98840,8 +98927,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[63107] = {
 		can_rotate = 0,
 		describe = "어떤 맛 피자를 주문하시겠습니까쥬?",
@@ -103226,6 +103311,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[70001] = {
 		can_rotate = 0,
 		describe = "우리의 노랫소리가 우주에 울려 퍼지도록!",
@@ -103261,8 +103348,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[70002] = {
 		can_rotate = 0,
 		describe = "우리의 노랫소리가 우주에 울려 퍼지도록!",
@@ -107835,6 +107920,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[73122] = {
 		advice = 0,
 		name = "쥬쥬 썰매",
@@ -107912,8 +107999,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[73301] = {
 		can_rotate = 0,
 		describe = "나무로 조각된 사슴 머리 장식",
@@ -112291,6 +112376,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[78002] = {
 		can_rotate = 0,
 		describe = "사르데냐 유명 관광지——「거룩한 위광이 당신을 보우해요~」",
@@ -112326,8 +112413,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[78101] = {
 		can_rotate = 0,
 		describe = "거룩한 빛이 당신과 나를 감싸요~",
@@ -116604,6 +116689,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[82110] = {
 		can_rotate = 0,
 		describe = "누가 어디서 소란을 피우냐쥬!",
@@ -116642,8 +116729,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[82111] = {
 		can_rotate = 0,
 		describe = "기, 긴장된다쥬!",
@@ -121094,6 +121179,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[85126] = {
 		advice = 0,
 		name = "카페 캣타워",
@@ -121165,8 +121252,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[85127] = {
 		can_rotate = 0,
 		describe = "편안히 휴식할 수 있는 안락한 자리",
@@ -125259,6 +125344,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[89122] = {
 		can_rotate = 0,
 		describe = "독서를 합시다~",
@@ -125297,8 +125384,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[89123] = {
 		can_rotate = 0,
 		describe = "마음을 안정시키고 삶을 음미해요~",
@@ -129340,6 +129425,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[93117] = {
 		can_rotate = 0,
 		describe = "아직 몇 바퀴 더 돌 수 있어.",
@@ -129378,8 +129465,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[93118] = {
 		can_rotate = 0,
 		describe = "한가롭게 떠 있기만 해도… 좋아요.",
@@ -133707,6 +133792,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[97001] = {
 		can_rotate = 0,
 		describe = "색, 향, 맛을 모두 갖춘 놀이공원!",
@@ -133742,8 +133829,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[97002] = {
 		can_rotate = 0,
 		describe = "색, 향, 맛을 모두 갖춘 놀이공원!",
@@ -138156,6 +138241,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[300103] = {
 		can_rotate = 0,
 		describe = "숨바꼭질에 적합한 작은 덤불",
@@ -138194,8 +138281,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[300104] = {
 		can_rotate = 0,
 		describe = "향긋한 바비큐~",
@@ -143037,6 +143122,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[303112] = {
 		can_rotate = 0,
 		describe = "이야기를 들려주지 않으면 장난칠 테다!",
@@ -143081,8 +143168,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[303113] = {
 		can_rotate = 0,
 		describe = "크아앙! …윽, 혀 깨물었다…",
@@ -147642,6 +147727,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[307106] = {
 		advice = 0,
 		name = "용주",
@@ -147713,8 +147800,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[307107] = {
 		can_rotate = 0,
 		describe = "추운 겨울에도 꽃을 피우는 한 그루의 아름다움.",
@@ -152248,6 +152333,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[312002] = {
 		can_rotate = 0,
 		describe = "스피드! 열정! 전속력으로 발진!",
@@ -152289,8 +152376,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[312101] = {
 		can_rotate = 0,
 		describe = "정열과 스피드의 농후한 맛이다쥬쥬!",
@@ -157087,6 +157172,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[317001] = {
 		can_rotate = 0,
 		describe = "쓰러지기 전에 푹 쉬어둬.",
@@ -157122,8 +157209,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[317002] = {
 		can_rotate = 0,
 		describe = "쓰러지기 전에 푹 쉬어둬.",
@@ -161780,6 +161865,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[321114] = {
 		advice = 0,
 		name = "튤리퍼의 꽃배",
@@ -161866,8 +161953,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[321115] = {
 		can_rotate = 0,
 		describe = "부드러운 꽃잎 무늬 러그. 구름처럼 폭신폭신한 감촉이 발에 닿는 느낌이 정말 좋다.",
@@ -166311,6 +166396,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[327108] = {
 		can_rotate = 0,
 		describe = "정원에 컬러풀한 아름다움을 더하는 장식용 화단",
@@ -166349,8 +166436,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[327109] = {
 		can_rotate = 0,
 		describe = "반짝이는 결정화.",
@@ -171009,6 +171094,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[331309] = {
 		can_rotate = 0,
 		describe = "환경 시뮬레이션 창. 고요한 풍경, 또는 장대한 풍경 등 취향에 따라 풍경을 전환할 수 있다.",
@@ -171061,8 +171148,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[333001] = {
 		can_rotate = 0,
 		describe = "케이크와 고양이를 테마로 한 메이드 하우스. 포근하고 달콤한 향기♪",
@@ -175841,6 +175926,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[337108] = {
 		can_rotate = 0,
 		describe = "반쯤 묻힌 바위. 걸려 넘어지지 않게 조심하자.",
@@ -175879,8 +175966,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[337109] = {
 		can_rotate = 0,
 		describe = "상쾌한 푸른색이 순식간에 나만의 그늘을 만들어 준다.",

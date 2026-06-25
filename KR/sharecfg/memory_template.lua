@@ -4147,6 +4147,13 @@ pg.memory_template.all = {
 	5204,
 	5211,
 	5221,
+	5231,
+	5232,
+	5233,
+	5234,
+	5235,
+	5236,
+	5237,
 	10000,
 	10001,
 	10002,
@@ -79099,6 +79106,132 @@ end)()
 			"HONGSHULINDESHOUHUJINGLING1"
 		}
 	}
+	pg.base.memory_template[5231] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "그림에 깃들지 않는 영혼",
+		condition = "「마음에 그리는 것 1」 시작",
+		story = "LAFEIER1",
+		mask = "bg/bg_memory",
+		task = 500251,
+		year = 0,
+		id = 5231,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER1"
+		}
+	}
+	pg.base.memory_template[5232] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "필요한 것",
+		condition = "「마음에 그리는 것 2」 시작",
+		story = "LAFEIER2",
+		mask = "bg/bg_memory",
+		task = 500252,
+		year = 0,
+		id = 5232,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER2"
+		}
+	}
+	pg.base.memory_template[5233] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "간접 키스?",
+		condition = "「마음에 그리는 것 3」 시작",
+		story = "LAFEIER3",
+		mask = "bg/bg_memory",
+		task = 500253,
+		year = 0,
+		id = 5233,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER3"
+		}
+	}
+	pg.base.memory_template[5234] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "평범하지 않은 풍경",
+		condition = "「마음에 그리는 것 4」 시작",
+		story = "LAFEIER4",
+		mask = "bg/bg_memory",
+		task = 500254,
+		year = 0,
+		id = 5234,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER4"
+		}
+	}
+	pg.base.memory_template[5235] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "두근거림을 찾아서",
+		condition = "「마음에 그리는 것 5」 시작",
+		story = "LAFEIER5",
+		mask = "bg/bg_memory",
+		task = 500255,
+		year = 0,
+		id = 5235,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER5"
+		}
+	}
+	pg.base.memory_template[5236] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "있는 그대로의 모습을 찾아서",
+		condition = "「마음에 그리는 것 6」 시작",
+		story = "LAFEIER6",
+		mask = "bg/bg_memory",
+		task = 500256,
+		year = 0,
+		id = 5236,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER6"
+		}
+	}
+	pg.base.memory_template[5237] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "마음이 이끄는 대로",
+		condition = "「마음에 그리는 것 7」 시작",
+		story = "LAFEIER7",
+		mask = "bg/bg_memory",
+		task = 500257,
+		year = 0,
+		id = 5237,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"LAFEIER7"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -79999,6 +80132,8 @@ end)()
 			"YINGHUA6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10057] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80125,8 +80260,6 @@ end)()
 			"YINGHUA13"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10064] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81801,6 +81934,8 @@ end)()
 			"LINGHANGYUANTANXIN28"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20080] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81927,8 +82062,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA5"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20087] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83603,6 +83736,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA31"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20181] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83729,8 +83864,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA38"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20188] = {
 		ship_group = 0,
 		subtitle = "",

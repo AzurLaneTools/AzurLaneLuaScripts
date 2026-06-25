@@ -154,6 +154,12 @@ slot5.ClearPaintingRes = function(slot0, slot1)
 end
 
 slot5.DestroyOb = function(slot0, slot1)
+	if slot1 == nil or IsNil(slot1) then
+		return
+	end
+
+	slot0._ob2Pool[slot1] = nil
+
 	if slot0._ob2Pool[slot1] then
 		slot2:Recycle(slot1)
 	else

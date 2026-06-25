@@ -44,7 +44,7 @@ slot0.register = function(slot0)
 			mediator = NewBackYardShipInfoMediator,
 			viewComponent = NewBackYardShipInfoLayer,
 			data = {
-				type = Ship.STATE_TRAIN,
+				type = DormShip.FLOOR_1,
 				MaxRsetPos = _courtyard:GetController():GetMaxCntForShip()
 			}
 		}))
@@ -54,7 +54,7 @@ slot0.register = function(slot0)
 			mediator = NewBackYardShipInfoMediator,
 			viewComponent = NewBackYardShipInfoLayer,
 			data = {
-				type = Ship.STATE_REST,
+				type = DormShip.FLOOR_2,
 				MaxRsetPos = _courtyard:GetController():GetMaxCntForShip()
 			}
 		}))
@@ -142,9 +142,7 @@ slot0.handleNotification = function(slot0, slot1)
 			return
 		end
 
-		if not CourtYardMediator.firstTimeAddExp and not pg.NewGuideMgr.GetInstance():IsBusy() then
-			CourtYardMediator.firstTimeAddExp = true
-
+		if slot3.isTipSettle and not pg.NewGuideMgr.GetInstance():IsBusy() then
 			slot0:SettleExp(slot3)
 		elseif not slot0.isTipFood then
 			slot0.viewComponent:ShowAddFoodTip()
@@ -152,7 +150,7 @@ slot0.handleNotification = function(slot0, slot1)
 
 		slot0.isTipFood = true
 	elseif slot2 == GAME.LOAD_LAYERS then
-		CourtYardMediator.firstTimeAddExp = true
+		-- Nothing
 	elseif slot2 == GAME.REMOVE_LAYERS then
 		slot0.viewComponent:OnRemoveLayer(slot3)
 	elseif slot2 == CourtYardEvent._NO_POS_TO_ADD_SHIP then
@@ -198,18 +196,17 @@ slot0.handleCourtyardNotification = function(slot0, slot1, slot2, slot3)
 	elseif slot1 == GAME.ON_RECONNECTION then
 		slot0.viewComponent:OnReconnection()
 	elseif slot1 == GAME.ADD_SHIP_DONE then
-		if ({
-			Ship.STATE_TRAIN,
-			Ship.STATE_REST
-		})[getProxy(DormProxy).floor] == getProxy(BayProxy):getShipById(slot2.id).state then
-			_courtyard:GetController():AddShip(slot4)
+		slot4 = getProxy(BayProxy):getShipById(slot2.id)
+
+		if getProxy(DormProxy).floor == slot2.type then
+			_courtyard:GetController():AddShip(slot4, 0, 0)
 		end
 	elseif slot1 == GAME.BACKYARD_ADD_INTIMACY_DONE then
 		_courtyard:GetController():ClearShipIntimacy(slot2.id)
 	elseif slot1 == GAME.BACKYARD_ONE_KEY_DONE then
 		for slot7, slot8 in ipairs(slot2.shipIds) do
-			_courtyard:GetController():ClearShipCoin(slot8)
-			_courtyard:GetController():ClearShipIntimacy(slot8)
+			_courtyard:GetController():ClearShipCoin(slot8.id)
+			_courtyard:GetController():ClearShipIntimacy(slot8.id)
 		end
 	elseif slot1 == GAME.EXTEND_BACKYARD_AREA_DONE then
 		_courtyard:GetController():LevelUp()
@@ -258,15 +255,8 @@ slot0.SettleExp = function(slot0, slot1)
 	end
 
 	slot4 = getProxy(BayProxy)
-	slot5 = 0
-
-	for slot9, slot10 in ipairs(getProxy(DormProxy):getRawData().shipIds) do
-		if slot4:RawGetShipById(slot10) and slot11.state == Ship.STATE_TRAIN then
-			slot5 = slot5 + 1
-		end
-	end
-
-	slot6 = slot3.load_exp * slot5
+	slot5 = getProxy(DormProxy):getRawData():GetFloorShipCnt(DormShip.FLOOR_1)
+	slot6 = slot1.exp * slot5
 
 	if slot5 ~= 0 and (slot6 ~= 0 or slot3.food ~= 0) then
 		onNextTick(function ()
@@ -275,7 +265,10 @@ slot0.SettleExp = function(slot0, slot1)
 				viewComponent = BackYardSettlementLayer,
 				data = {
 					oldShips = uv1.oldShips,
-					newShips = uv1.newShips
+					newShips = uv1.newShips,
+					exp = uv1.exp,
+					food = uv1.food,
+					time = uv1.time
 				}
 			}))
 		end)
@@ -352,7 +345,8 @@ slot0.GenCourtYardData = function(slot0, slot1)
 				id = slot1,
 				level = slot3.level,
 				furnitures = slot3:GetPutFurnitureList(slot1),
-				ships = slot3:GetPutShipList(slot1)
+				ships = slot3:GetBayShipOnFloor(slot1),
+				popList = slot3:GetShipsMoneyAndIntimacy()
 			}
 		},
 		storeyId = slot1,

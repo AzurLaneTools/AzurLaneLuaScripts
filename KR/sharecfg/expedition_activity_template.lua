@@ -1508,8 +1508,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				7
 			}
 		}
@@ -1520,8 +1520,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				7
 			}
 		}
@@ -1532,8 +1532,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				7
 			}
 		}
@@ -1544,8 +1544,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				7
 			}
 		}
@@ -1556,8 +1556,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				7
 			}
 		}
@@ -1568,8 +1568,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				8
 			}
 		}
@@ -1580,8 +1580,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				8
 			}
 		}
@@ -1592,8 +1592,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				8
 			}
 		}
@@ -1604,8 +1604,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				8
 			}
 		}
@@ -1616,8 +1616,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				8
 			}
 		}
@@ -1628,8 +1628,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				9
 			}
 		}
@@ -1640,8 +1640,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				9
 			}
 		}
@@ -1652,8 +1652,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				9
 			}
 		}
@@ -1664,8 +1664,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				9
 			}
 		}
@@ -1676,8 +1676,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				9
 			}
 		}
@@ -1688,8 +1688,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				10
 			}
 		}
@@ -1700,8 +1700,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				10
 			}
 		}
@@ -1712,8 +1712,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				10
 			}
 		}
@@ -1724,8 +1724,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				10
 			}
 		}
@@ -1736,8 +1736,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				10
 			}
 		}
@@ -1748,8 +1748,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				11
 			}
 		}
@@ -1760,8 +1760,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				11
 			}
 		}
@@ -1772,8 +1772,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				11
 			}
 		}
@@ -1784,8 +1784,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				11
 			}
 		}
@@ -1796,8 +1796,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				11
 			}
 		}
@@ -1808,8 +1808,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				12
 			}
 		}
@@ -1820,8 +1820,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				12
 			}
 		}
@@ -1832,8 +1832,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				12
 			}
 		}
@@ -1844,8 +1844,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				12
 			}
 		}
@@ -1856,8 +1856,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				12
 			}
 		}
@@ -1868,8 +1868,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				13
 			}
 		}
@@ -1880,8 +1880,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				13
 			}
 		}
@@ -1892,8 +1892,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				13
 			}
 		}
@@ -1904,8 +1904,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				13
 			}
 		}
@@ -1916,8 +1916,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				13
 			}
 		}
@@ -1928,8 +1928,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				14
 			}
 		}
@@ -1940,8 +1940,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				14
 			}
 		}
@@ -1952,8 +1952,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				14
 			}
 		}
@@ -1964,8 +1964,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				14
 			}
 		}
@@ -1976,8 +1976,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				14
 			}
 		}
@@ -1988,8 +1988,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				15
 			}
 		}
@@ -2000,8 +2000,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				15
 			}
 		}
@@ -2012,8 +2012,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				15
 			}
 		}
@@ -2024,8 +2024,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				15
 			}
 		}
@@ -2036,8 +2036,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				15
 			}
 		}
@@ -2048,8 +2048,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				16
 			}
 		}
@@ -2060,8 +2060,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				16
 			}
 		}
@@ -2072,8 +2072,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				16
 			}
 		}
@@ -2084,8 +2084,8 @@ pg.base.expedition_activity_template = {}
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				16
 			}
 		}
@@ -2098,8 +2098,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				16
 			}
 		}
@@ -2110,8 +2110,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				17
 			}
 		}
@@ -2122,8 +2122,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				17
 			}
 		}
@@ -2134,8 +2134,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				17
 			}
 		}
@@ -2146,8 +2146,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				17
 			}
 		}
@@ -2158,8 +2158,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				17
 			}
 		}
@@ -2170,8 +2170,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				18
 			}
 		}
@@ -2182,8 +2182,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				18
 			}
 		}
@@ -2194,8 +2194,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				18
 			}
 		}
@@ -2206,8 +2206,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				18
 			}
 		}
@@ -2218,8 +2218,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				19
 			}
 		}
@@ -2230,8 +2230,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				19
 			}
 		}
@@ -2242,8 +2242,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				19
 			}
 		}
@@ -2254,8 +2254,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				19
 			}
 		}
@@ -2266,8 +2266,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				20
 			}
 		}
@@ -2278,8 +2278,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				20
 			}
 		}
@@ -2290,8 +2290,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				20
 			}
 		}
@@ -2302,8 +2302,8 @@ end)()
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				6026,
-				654,
+				51021,
+				707,
 				20
 			}
 		}

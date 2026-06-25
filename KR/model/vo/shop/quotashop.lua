@@ -5,9 +5,9 @@ slot0.Ctor = function(slot0)
 	slot0.goods = {}
 
 	for slot5, slot6 in ipairs(pg.quota_shop_template[1].shop_goods) do
+		slot7 = slot0:getOwnedGoodCount(slot6)
 		slot0.goods[slot6] = Goods.Create({
-			shop_id = slot6,
-			buy_count = slot0:getOwnedGoodCount(slot6)
+			shop_id = slot6
 		}, Goods.TYPE_QUOTA)
 	end
 end

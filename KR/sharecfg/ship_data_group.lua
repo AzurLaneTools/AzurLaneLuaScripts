@@ -24637,9 +24637,20 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 오엽각 교차점",
+				"이벤트: 오엽각 교차점",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -25060,9 +25071,20 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 오엽각 교차점",
+				"이벤트: 오엽각 교차점",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -26264,9 +26286,31 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 오엽각 교차점",
+				"이벤트: 오엽각 교차점",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조, 특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"상설 UR 함선 교환",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -26435,9 +26479,19 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 오엽각 교차점",
+				"이벤트: 오엽각 교차점",
 				{
 					""
+				},
+				0
+			},
+			{
+				"연습 상점(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -37812,11 +37866,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드 투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9705011
+						warp = "meta"
 					}
 				},
 				0
@@ -37847,11 +37901,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드 투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9706011
+						warp = "meta"
 					}
 				},
 				0
@@ -37917,11 +37971,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드 투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9706021
+						warp = "meta"
 					}
 				},
 				0
@@ -37987,11 +38041,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드 투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9705011
+						warp = "meta"
 					}
 				},
 				0
@@ -38022,11 +38076,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드 투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702021
+						warp = "meta"
 					}
 				},
 				0
@@ -38092,11 +38146,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9703011
+						warp = "meta"
 					}
 				},
 				0
@@ -38162,11 +38216,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701011
+						warp = "meta"
 					}
 				},
 				0
@@ -38197,11 +38251,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701021
+						warp = "meta"
 					}
 				},
 				0
@@ -38267,11 +38321,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드 투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702031
+						warp = "meta"
 					}
 				},
 				0
@@ -38337,11 +38391,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드 투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9702041
+						warp = "meta"
 					}
 				},
 				0
@@ -38372,9 +38426,20 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 오엽각 교차점",
+				"이벤트: 오엽각 교차점",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -38404,11 +38469,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드 투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9712011
+						warp = "meta"
 					}
 				},
 				0
@@ -38474,11 +38539,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드 투어",
+				"META상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701031
+						warp = "meta"
 					}
 				},
 				0
@@ -39714,7 +39779,7 @@ end)()
 				{
 					"METACHARACTER",
 					{
-						autoOpenShipConfigID = 9702111
+						autoOpenShipConfigID = 9702121
 					}
 				},
 				0

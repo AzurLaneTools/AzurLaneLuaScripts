@@ -145,7 +145,7 @@ slot0.register = function(slot0)
 end
 
 slot0.listNotificationInterests = function(slot0)
-	slot1 = {
+	return {
 		GAME.REMOVE_LAYERS,
 		GAME.GET_GUILD_INFO_DONE,
 		GAME.GET_GUILD_CHAT_LIST_DONE,
@@ -191,25 +191,12 @@ slot0.listNotificationInterests = function(slot0)
 		MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION,
 		GAME.REQ_NEW_INSTAGRAM_DATA_DONE
 	}
-
-	for slot5, slot6 in pairs(pg.redDotHelper:GetNotifyType()) do
-		for slot10, slot11 in pairs(slot6) do
-			if not table.contains(slot1, slot11) then
-				table.insert(slot1, slot11)
-			end
-		end
-	end
-
-	return slot1
 end
 
 slot0.handleNotification = function(slot0, slot1)
-	slot2 = slot1:getName()
 	slot3 = slot1:getBody()
 
-	pg.redDotHelper:Notify(slot2)
-
-	if slot2 == GAME.ON_OPEN_INS_LAYER then
+	if slot1:getName() == GAME.ON_OPEN_INS_LAYER then
 		slot0.viewComponent:emit(uv0.SKIP_INS)
 	elseif slot2 == NotificationProxy.FRIEND_REQUEST_ADDED or slot2 == NotificationProxy.FRIEND_REQUEST_REMOVED or slot2 == FriendProxy.FRIEND_NEW_MSG or slot2 == FriendProxy.FRIEND_UPDATED or slot2 == ChatProxy.NEW_MSG or slot2 == GuildProxy.NEW_MSG_ADDED or slot2 == GAME.GET_GUILD_INFO_DONE or slot2 == GAME.GET_GUILD_CHAT_LIST_DONE then
 		slot0.viewComponent:emit(GAME.ANY_CHAT_MSG_UPDATE)

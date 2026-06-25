@@ -24,6 +24,12 @@ slot0.Dispose = function(slot0)
 		end)
 	end
 
+	for slot4, slot5 in pairs(slot0.tplDic) do
+		slot0.tplDic[slot4] = nil
+	end
+
+	slot0.tplDic = nil
+
 	slot0:Clear()
 end
 

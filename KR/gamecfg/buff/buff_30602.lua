@@ -14,9 +14,11 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onSubmarineFloat"
+				"onSubmarineFloat",
+				"onSubmarineFreeSpecial"
 			},
 			arg_list = {
+				quota = 1,
 				skill_id = 30602,
 				target = "TargetSelf"
 			}

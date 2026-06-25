@@ -73,6 +73,7 @@ slot0.OnInitPanle = function(slot0)
 		PlayerPrefs.DeleteKey("firstIntoOtherPanel")
 		PlayerPrefs.SetInt("firstIntoOtherPanel", 1)
 		PlayerPrefs.Save()
+		pg.EasyRedDotMgr.GetInstance():TriggerMarks("SETTING")
 	end
 end
 

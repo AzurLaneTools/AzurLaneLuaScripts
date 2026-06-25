@@ -139,7 +139,7 @@ slot0.handleNotification = function(slot0, slot1)
 
 			for slot11, slot12 in slot8(slot9) do
 				table.insert(slot7, function (slot0)
-					_courtyard:GetController():AddShip(uv0)
+					_courtyard:GetController():AddShip(uv0, 0, 0)
 					onNextTick(slot0)
 				end)
 			end

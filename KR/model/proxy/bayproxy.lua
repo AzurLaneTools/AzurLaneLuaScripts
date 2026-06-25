@@ -112,13 +112,10 @@ slot0.recoverAllShipEnergy = function(slot0)
 	slot1 = pg.energy_template[3].upper_bound - 1
 	slot2 = pg.energy_template[4].upper_bound
 	slot3 = {}
-	slot4 = getProxy(ActivityProxy)
-	slot4 = slot4:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING)
-	slot7 = getProxy(ActivityProxy)
-	slot8 = slot7
+	slot4 = getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING)
 	slot9 = ActivityConst.ACTIVITY_TYPE_HOTSPRING_2
 
-	table.insertto(slot4, slot7.getActivitiesByType(slot8, slot9))
+	table.insertto(slot4, getProxy(ActivityProxy):getActivitiesByType(slot9))
 	table.Foreach(slot4, function (slot0, slot1)
 		if slot1 and not slot1:isEnd() then
 			slot2 = slot1:GetEnergyRecoverAddition()
@@ -129,32 +126,35 @@ slot0.recoverAllShipEnergy = function(slot0)
 		end
 	end)
 
-	for slot8, slot9 in pairs(slot0.data) do
-		slot10 = slot9:getRecoverEnergyPoint()
-		slot11 = 0
-		slot12 = slot1
+	slot5 = getProxy(DormProxy):getRawData()
 
-		if slot9.state == Ship.STATE_REST or slot9.state == Ship.STATE_TRAIN then
-			if slot9.state == Ship.STATE_TRAIN then
-				slot11 = slot11 + Ship.BACKYARD_1F_ENERGY_ADDITION
-			elseif slot9.state == Ship.STATE_REST then
-				slot11 = slot11 + Ship.BACKYARD_2F_ENERGY_ADDITION
+	for slot9, slot10 in pairs(slot0.data) do
+		slot11 = slot10:getRecoverEnergyPoint()
+		slot12 = 0
+		slot13 = slot1
+		slot14, slot15 = slot5:InBackYard(slot10.id)
+
+		if slot14 then
+			if slot15 == DormShip.FLOOR_1 then
+				slot12 = slot12 + Ship.BACKYARD_1F_ENERGY_ADDITION
+			elseif slot15 == DormShip.FLOOR_2 then
+				slot12 = slot12 + Ship.BACKYARD_2F_ENERGY_ADDITION
 			end
 
-			for slot16, slot17 in ipairs(BuffHelper.GetBackYardEnergyBuffs()) do
-				slot11 = slot11 + tonumber(slot17:getConfig("benefit_effect"))
+			for slot19, slot20 in ipairs(BuffHelper.GetBackYardEnergyBuffs()) do
+				slot12 = slot12 + tonumber(slot20:getConfig("benefit_effect"))
 			end
 
-			slot12 = slot2
+			slot13 = slot2
 		end
 
-		if slot3[slot9.id] then
-			slot11 = slot11 + slot3[slot9.id]
-			slot12 = slot2
+		if slot3[slot10.id] then
+			slot12 = slot12 + slot3[slot10.id]
+			slot13 = slot2
 		end
 
-		slot9:setEnergy(math.min(slot9:getEnergy() + math.max(math.min(slot10, slot12 - slot9:getEnergy()), 0) + slot11, slot2))
-		slot0:updateShip(slot9)
+		slot10:setEnergy(math.min(slot10:getEnergy() + math.max(math.min(slot11, slot13 - slot10:getEnergy()), 0) + slot12, slot2))
+		slot0:updateShip(slot10)
 	end
 end
 
@@ -885,6 +885,10 @@ slot0.getDelegationRecommendShips = function(slot0, slot1)
 	slot4 = math.max(slot1.template.ship_lv, 2)
 
 	table.sort(slot0:getShipsByTypes(slot1.template.ship_type), function (slot0, slot1)
+		if slot0.maxLevel == slot0.level ~= (slot1.maxLevel == slot1.level) then
+			return slot2
+		end
+
 		return slot1.level < slot0.level
 	end)
 

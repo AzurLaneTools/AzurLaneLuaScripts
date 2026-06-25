@@ -651,7 +651,8 @@ pg.activity_ins_template.all = {
 	20003,
 	20004,
 	20006,
-	20005
+	20005,
+	20007
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -27305,6 +27306,33 @@ end)()
 				11,
 				0,
 				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20007] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "「모항 이야기」 화산의 수수께끼를 파헤치자! 푸슌의 기묘한 대모험 (3)",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20007,
+		group_id = 20007,
+		time = {
+			{
+				2026,
+				6,
+				25
+			},
+			{
+				15,
+				17,
+				0
 			}
 		},
 		time_persist = {},

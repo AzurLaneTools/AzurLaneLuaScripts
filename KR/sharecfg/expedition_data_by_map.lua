@@ -583,6 +583,10 @@ pg.expedition_data_by_map.all = {
 	2100562,
 	2100571,
 	2100572,
+	2100581,
+	2100582,
+	2100591,
+	2100592,
 	2200000,
 	2200010,
 	2200020,
@@ -34143,6 +34147,426 @@ end)()
 			}
 		}
 	}
+	pg.base.expedition_data_by_map[2100581] = {
+		map = 2100581,
+		name = "오엽각 교차점·상편|| ||CHAPTER EX||E.X.",
+		bgm = "main-arbitrationsystem-theme",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "KONGXIANGJIAOHUIDIAN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1720001",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 5,
+		bg = "Map_1720005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100591,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100583
+					},
+					"red"
+				}
+			},
+			{
+				3,
+				{
+					{
+						2100583
+					},
+					"blue"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100581
+					},
+					"map_1720001"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100582
+					},
+					"map_1720002"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100587
+					},
+					"map_1720003"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100583
+					},
+					"map_1720004"
+				}
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100582] = {
+		map = 2100582,
+		name = "오엽각 교차점·하편|| ||CHAPTER EX||E.X.",
+		bgm = "battle-thedevilXV-control",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "KONGXIANGJIAOHUIDIAN19",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1720002",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 5,
+		bg = "Map_1720009",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100592,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100586
+					},
+					"yuanhuan"
+				}
+			},
+			{
+				3,
+				{
+					{
+						2100586
+					},
+					"yuanhuan_none"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100588
+					},
+					"build_light_red"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100584
+					},
+					"map_1720006"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100585
+					},
+					"map_1720007"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100588
+					},
+					"map_1720008"
+				}
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100591] = {
+		map = 2100591,
+		name = "오엽각 교차점·상편|| ||CHAPTER EX||E.X.",
+		bgm = "main-arbitrationsystem-theme",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "KONGXIANGJIAOHUIDIAN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1720001",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 5,
+		bg = "Map_1720005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100581,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100593
+					},
+					"red"
+				}
+			},
+			{
+				3,
+				{
+					{
+						2100593
+					},
+					"blue"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100591
+					},
+					"map_1720001"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100592
+					},
+					"map_1720002"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100597
+					},
+					"map_1720003"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100593
+					},
+					"map_1720004"
+				}
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100592] = {
+		map = 2100592,
+		name = "오엽각 교차점·하편|| ||CHAPTER EX||E.X.",
+		bgm = "battle-thedevilXV-control",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "KONGXIANGJIAOHUIDIAN19",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1720002",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 5,
+		bg = "Map_1720009",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100582,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100596
+					},
+					"yuanhuan"
+				}
+			},
+			{
+				3,
+				{
+					{
+						2100596
+					},
+					"yuanhuan_none"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100598
+					},
+					"build_light_red"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100594
+					},
+					"map_1720006"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100595
+					},
+					"map_1720007"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100598
+					},
+					"map_1720008"
+				}
+			}
+		}
+	}
 	pg.base.expedition_data_by_map[2200000] = {
 		map = 2200000,
 		name = "노력, 희망과 계획 || ||SP. CHAPTER||SP.",
@@ -35009,6 +35433,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.expedition_data_by_map[2200160] = {
 		map = 2200160,
 		name = "불타는 아이리스 회상곡|| ||CHAPTER SP||S.P.",
@@ -35188,8 +35614,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.expedition_data_by_map[9920012] = {
 		map = 9920012,
 		name = "거울에 비친 이색 - 후편|| ||EX CHAPTER||E.X.",
