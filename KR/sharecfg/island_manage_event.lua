@@ -25,7 +25,7 @@ pg.base.island_manage_event = {}
 		}
 	}
 	pg.base.island_manage_event[2] = {
-		name = "메탈 블러드 사절 방문",
+		name = "건강의 날",
 		influence_bonus = 20,
 		id = 2,
 		banner = 0,
