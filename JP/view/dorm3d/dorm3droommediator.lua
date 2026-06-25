@@ -1,4 +1,4 @@
-slot0 = class("Dorm3dRoomMediator", import("view.base.ContextMediator"))
+slot0 = class("Dorm3dRoomMediator", import("view.dorm3d.Core.Dorm3dBaseMediator"))
 slot0.TRIGGER_FAVOR = "Dorm3dRoomMediator.TRIGGER_FAVOR"
 slot0.FAVOR_LEVEL_UP = "Dorm3dRoomMediator.FAVOR_LEVEL_UP"
 slot0.TALKING_EVENT_FINISH = "Dorm3dRoomMediator.TALKING_EVENT_FINISH"
@@ -26,6 +26,7 @@ slot0.GUIDE_CHECK_LEVEL_UP = "Dorm3dRoomMediator.GUIDE_CHECK_LEVEL_UP"
 slot0.Camera_Pinch_Value_Change = "Dorm3dRoomMediator.Camera_Pinch_Value_Change"
 slot0.ENTER_VOLLEYBALL = "Dorm3dRoomMediator.ENTER_VOLLEYBALL"
 slot0.ENTER_DANCE = "Dorm3dRoomMediator.ENTER_DANCE"
+slot0.ENTER_CARWASH = "Dorm3dRoomMediator.ENTER_CARWASH"
 slot0.ON_DROP_CLIENT = "Dorm3dRoomMediator.ON_DROP_CLIENT"
 slot0.UPDATE_FAVOR_DISPLAY = "Dorm3dRoomMediator.UPDATE_FAVOR_DISPLAY"
 slot0.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE = "Dorm3dRoomMediator.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE"
@@ -240,6 +241,11 @@ slot0.register = function(slot0)
 			groupId = slot1
 		})
 	end)
+	slot0:bind(uv0.ENTER_CARWASH, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DORM3D_CAR_WASH, {
+			groupId = slot1
+		})
+	end)
 	slot0:bind(uv0.ON_DROP_CLIENT, function (slot0, slot1)
 		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_DROP_CLIENT, slot1)
 	end)
@@ -373,33 +379,6 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot0.viewComponent:LoadCharacterAdditionally(slot2.addIds, slot2.callback)
 		end
 	}
-end
-
-slot0.handleNotification = function(slot0, slot1)
-	uv0.super.handleNotification(slot0, slot1)
-
-	slot2 = slot1:getName()
-	slot3 = slot1:getBody()
-
-	if slot0.viewComponent.systemManager then
-		slot0.viewComponent.systemManager:BroadcastNotification(slot2, slot3)
-	end
-end
-
-slot0.listNotificationInterests = function(slot0)
-	slot1 = underscore.keys(slot0.handleDic or {})
-
-	if slot0.viewComponent and slot0.viewComponent.systemManager then
-		slot1 = table.mergeArray(slot1, slot0.viewComponent.systemManager:GetAllInterests(), true)
-	else
-		for slot6, slot7 in ipairs(DormConst.GetDefaultSystemClasses()) do
-			if slot7.GetInterests then
-				slot1 = table.mergeArray(slot1, slot7.GetInterests())
-			end
-		end
-	end
-
-	return slot1
 end
 
 slot0.remove = function(slot0)

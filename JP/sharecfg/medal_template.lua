@@ -130,7 +130,8 @@ pg.medal_template.all = {
 	200141,
 	200151,
 	200161,
-	200171
+	200171,
+	200181
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2940,6 +2941,27 @@ end)()
 		rank = 1,
 		id = 200171,
 		explain1 = "「豪華絢爛！ゴールデン・ベイ」",
+		explain2 = "イベント"
+	}
+	pg.base.medal_template[200181] = {
+		target_id = "50659",
+		name = "サーカス記念勲章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "幕が上がり、照明が煌めき、ステージ上を舞う紙に描かれるのは心躍るアート・オブ・マジック！終わらないサーカスショーへようこそ！\n――すべての夢が、サーカスナイトのように輝きますように！",
+		next = 0,
+		icon = "9181",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9181",
+		condition = "「幻夢のカヴァルカード」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200181,
+		explain1 = "「幻夢のカヴァルカード」",
 		explain2 = "イベント"
 	}
 end)()

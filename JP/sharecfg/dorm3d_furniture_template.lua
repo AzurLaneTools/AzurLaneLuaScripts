@@ -70,7 +70,16 @@ pg.dorm3d_furniture_template.all = {
 	1414,
 	1415,
 	1461,
-	1462
+	1462,
+	2101,
+	2102,
+	2103,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2161
 }
 pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 	{
@@ -154,6 +163,17 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		1415,
 		1461,
 		1462
+	},
+	[21] = {
+		2101,
+		2102,
+		2103,
+		2111,
+		2112,
+		2113,
+		2114,
+		2115,
+		2161
 	}
 }
 pg.base = pg.base or {}
@@ -1946,6 +1966,223 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/study"
+		}
+	}
+	pg.base.dorm3d_furniture_template[2101] = {
+		rarity = 3,
+		name = "ダンボールお家",
+		unlock_tips = "",
+		type = 4,
+		room_id = 21,
+		desc = "ダンボールをつなぎ合わせて作り上げた寝床。軽くて運搬しやすく、シンプルながら快適さも十分。よく丸まって寝る彼女の習性にピッタリ",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2101,
+		target_slots = {
+			2210101
+		},
+		touch_id = {
+			{
+				79902,
+				7990210
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2102] = {
+		rarity = 3,
+		name = "マルチストレージラック",
+		unlock_tips = "",
+		type = 6,
+		room_id = 21,
+		desc = "5段のオープンシェルフに本や工具などがそれぞれの場所に収まっている。生活の痕跡がそのまま飾られていて、どの棚も手が届く日常の一部。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2102,
+		target_slots = {
+			2210201
+		},
+		touch_id = {
+			{
+				79902,
+				7990220
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2103] = {
+		rarity = 3,
+		name = "陽だまりの温もりソファ",
+		unlock_tips = "",
+		type = 5,
+		room_id = 21,
+		desc = "温かみのある純白のソファと、陽だまりのかけらのようなオレンジ色のクッション。同色のローテーブルとブランケットと合わせて、どこに座っても安らぎの場所に。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2103,
+		target_slots = {
+			2210301
+		},
+		touch_id = {
+			{
+				79902,
+				7990230
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2111] = {
+		rarity = 2,
+		name = "窓辺の観葉植物",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "窓辺に置かれた緑の鉢植え。枝がすっと伸び、葉が広がり、部屋に生命力と自然の息吹が満ち溢れる。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_flowerpot01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2111,
+		target_slots = {
+			2210303
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2112] = {
+		rarity = 2,
+		name = "ネコクッション",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "厚みがあって柔らかい丸型クッション。どこに置こうと、そこがネコにとっては離れたくない最高の居場所になる。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_cushion01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2112,
+		target_slots = {
+			2210304
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2113] = {
+		rarity = 2,
+		name = "球棒モデル",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "原子や晶構造をモチーフにしたサイエンスアート。物理好きにとってのコレクションの一品でありつつ、個性的なデスク飾りにもなる",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_decoration01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2113,
+		target_slots = {
+			2210302
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2114] = {
+		rarity = 2,
+		name = "黄釉の陶磁器",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "ぷっくり丸い黄色い陶磁器。釉薬がなめらかで艶やか。かわいい形が引き伸ばされたドーナツのよう。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_ceram01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2114,
+		target_slots = {
+			2210103
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2115] = {
+		rarity = 2,
+		name = "アロマボトル",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "細いアロマスティックが差し込まれている、鮮やかな黄色の小さな陶製ボトル。火を灯さなくても、香りでゆっくりと部屋中を馨しくしてくれる。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_cosmetic01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2115,
+		target_slots = {
+			2210102
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2161] = {
+		rarity = 4,
+		name = "回転式検測器",
+		type = 6,
+		room_id = 21,
+		desc = "丸型の検測器がゆっくりと回転し、画面に流れるデータは星河のよう。起動ボタンを押した瞬間、何か科学的な秘密が明かされるかも。",
+		is_exclusive = 1,
+		model = "Pay_Naximofuhostel/pre_db_naximofu_basement01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_PremiumFurniture1",
+		acesses = "",
+		id = 2161,
+		target_slots = {
+			2210201
+		},
+		touch_id = {
+			{
+				79902,
+				7990240
+			}
+		},
+		shop_id = {
+			270701
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture2161"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/basement/pre_db_naximofu_basement01_0"
 		}
 	}
 end)()

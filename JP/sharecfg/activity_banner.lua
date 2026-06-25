@@ -28,14 +28,12 @@ pg.activity_banner.get_id_list_by_type = {
 		1,
 		2,
 		3,
+		4,
 		5,
 		6,
+		7,
 		8,
 		9
-	},
-	[3] = {
-		4,
-		7
 	},
 	[9] = {
 		90,
@@ -75,7 +73,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					18
+					25
 				},
 				{
 					0,
@@ -86,8 +84,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					24
+					7,
+					8
 				},
 				{
 					23,
@@ -98,19 +96,9 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[2] = {
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"scene skinshop",
-			{}
-		}
-	}
-	pg.base.activity_banner[3] = {
-		type = 2,
-		id = 3,
-		pic = "temp3",
 		param = {
 			"scene get boat",
 			{
@@ -123,7 +111,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					18
+					25
 				},
 				{
 					0,
@@ -134,8 +122,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					25
+					7,
+					9
 				},
 				{
 					16,
@@ -145,17 +133,22 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[4] = {
-		param = "51033",
-		type = 3,
-		id = 4,
-		pic = "temp4",
+	pg.base.activity_banner[3] = {
+		type = 2,
+		id = 3,
+		pic = "temp3",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					6,
-					18
+					25
 				},
 				{
 					0,
@@ -166,8 +159,45 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[4] = {
+		type = 2,
+		id = 4,
+		pic = "temp4",
+		param = {
+			"scene core activity",
+			{
+				coreName = "DreamTourCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
 					6,
 					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					9
 				},
 				{
 					16,
@@ -192,7 +222,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					18
+					25
 				},
 				{
 					0,
@@ -203,8 +233,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					24
+					7,
+					8
 				},
 				{
 					23,
@@ -215,50 +245,18 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[6] = {
-		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		}
-	}
-	pg.base.activity_banner[7] = {
-		param = "50630",
-		time = "stop",
-		type = 3,
-		id = 7,
-		pic = "temp7"
-	}
-	pg.base.activity_banner[8] = {
-		time = "stop",
-		type = 2,
-		id = 8,
-		pic = "temp8",
-		param = {
-			"metacharacter"
-		}
-	}
-	pg.base.activity_banner[9] = {
-		type = 2,
-		id = 9,
-		pic = "temp9",
-		param = {
-			"scene level",
-			{
-				open_remaster = true,
-				isSP = true
-			}
+			"scene court yard"
 		},
 		time = {
 			{
 				{
 					2026,
 					6,
-					18
+					25
 				},
 				{
 					0,
@@ -269,14 +267,98 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[7] = {
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
+		time = {
+			{
+				{
+					2026,
 					6,
 					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[8] = {
+		type = 2,
+		id = 8,
+		pic = "temp8",
+		param = {
+			"dorm 3d select"
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					9
 				},
 				{
 					16,
 					0,
 					0
 				}
+			}
+		}
+	}
+	pg.base.activity_banner[9] = {
+		time = "stop",
+		type = 2,
+		id = 9,
+		pic = "temp9",
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = true
 			}
 		}
 	}
@@ -311,7 +393,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					6,
-					18
+					25
 				},
 				{
 					0,
@@ -322,8 +404,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					24
+					7,
+					8
 				},
 				{
 					23,

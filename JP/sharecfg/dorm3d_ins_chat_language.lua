@@ -714,7 +714,139 @@ pg.dorm3d_ins_chat_language.all = {
 	708,
 	709,
 	710,
-	711
+	711,
+	712,
+	713,
+	714,
+	715,
+	716,
+	717,
+	718,
+	719,
+	720,
+	721,
+	722,
+	723,
+	724,
+	725,
+	726,
+	727,
+	728,
+	729,
+	730,
+	731,
+	732,
+	733,
+	734,
+	735,
+	736,
+	737,
+	738,
+	739,
+	740,
+	741,
+	742,
+	743,
+	744,
+	745,
+	746,
+	747,
+	748,
+	749,
+	750,
+	751,
+	752,
+	753,
+	754,
+	755,
+	756,
+	757,
+	758,
+	759,
+	760,
+	761,
+	762,
+	763,
+	764,
+	765,
+	766,
+	767,
+	768,
+	769,
+	770,
+	771,
+	772,
+	773,
+	774,
+	775,
+	776,
+	777,
+	778,
+	779,
+	780,
+	781,
+	782,
+	783,
+	784,
+	785,
+	786,
+	787,
+	788,
+	789,
+	790,
+	791,
+	792,
+	793,
+	794,
+	795,
+	796,
+	797,
+	798,
+	799,
+	800,
+	801,
+	802,
+	803,
+	804,
+	805,
+	806,
+	807,
+	808,
+	809,
+	810,
+	811,
+	812,
+	813,
+	814,
+	815,
+	816,
+	817,
+	818,
+	819,
+	820,
+	821,
+	822,
+	823,
+	824,
+	825,
+	826,
+	827,
+	828,
+	829,
+	830,
+	831,
+	832,
+	833,
+	834,
+	835,
+	836,
+	837,
+	838,
+	839,
+	840,
+	841,
+	842,
+	843
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_chat_language = {}
@@ -6925,6 +7057,1194 @@ end)()
 		option = "",
 		type = 1,
 		id = 711,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[712] = {
+		param = "指揮官、車がちょっと汚れてる",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 712,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[713] = {
+		param = "クリーニングとメンテナンスをしていい？",
+		ship_group = 79902,
+		type = 1,
+		id = 713,
+		flag = 0,
+		option = {
+			{
+				1,
+				"いいの？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[714] = {
+		param = "いいの？ありがとう",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 714,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[715] = {
+		param = "うん。じゃあ次来た時に、ナヒーモフに車を預けて",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 715,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[716] = {
+		param = "何か改造したいところがあったら相談して",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 716,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[717] = {
+		param = "ナヒーモフの技術なら……変形モノにだってできる",
+		ship_group = 79902,
+		type = 1,
+		id = 717,
+		flag = 1,
+		option = {
+			{
+				2,
+				"変形モノ？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[718] = {
+		param = "変形モノ？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 718,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[719] = {
+		param = "指揮官、車がロボットに変形する映画は見たことある？",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 719,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[720] = {
+		param = "かっこいいでしょ",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 720,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[721] = {
+		param = "しかも理論上では実現できるよ",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 721,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[722] = {
+		param = "ただ、変形機構は複雑だから",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 722,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[723] = {
+		param = "最終的な完成品は故障率が高く、寿命も短くなると思う",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 723,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[724] = {
+		param = "指揮官が試してみたいなら……作れないことはない",
+		ship_group = 79902,
+		type = 1,
+		id = 724,
+		flag = 2,
+		option = {
+			{
+				3,
+				"なるほど"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[725] = {
+		param = "なるほどね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 725,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[726] = {
+		param = "車の防御力や攻撃力を強化したいなら",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 726,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[727] = {
+		param = "他にもっと完成度の高い設計があるから",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 727,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[728] = {
+		param = "詳しいプランを見て検討して",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 728,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[729] = {
+		param = "指揮官こんにちは、ナヒーモフのケーブルだよ",
+		ship_group = 79902,
+		type = 1,
+		id = 729,
+		flag = 0,
+		option = {
+			{
+				1,
+				"ケーブル？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[730] = {
+		param = "ケーブル？ナヒーモフじゃなくて、しっぽ？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 730,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[731] = {
+		param = "ナヒーモフはもう寝てる",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 731,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[732] = {
+		param = "今はケーブルが指揮官と連絡してる",
+		ship_group = 79902,
+		type = 1,
+		id = 732,
+		flag = 1,
+		option = {
+			{
+				2,
+				"じゃあ……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[733] = {
+		param = "じゃあ……ナヒーモフが起きてる時にはなんで話さないの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 733,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[734] = {
+		param = "……ケーブルには発声モジュールがないから、ナヒーモフが寝てる間だけ指揮官と話せるの",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 734,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[735] = {
+		param = "明日も指揮官に会いたい。指揮官、来てくれる？",
+		ship_group = 79902,
+		type = 1,
+		id = 735,
+		flag = 2,
+		option = {
+			{
+				3,
+				"ケーブルをなでなでさせてくれるなら……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[736] = {
+		param = "ケーブルをなでなでさせてくれるなら……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 736,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[737] = {
+		param = "それは……いいよ",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 737,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[738] = {
+		param = "少しの間なら触っていいよ。でもコネクタのところはダメ",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 738,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[739] = {
+		param = "そこは……敏感だから",
+		ship_group = 79902,
+		type = 1,
+		id = 739,
+		flag = 3,
+		option = {
+			{
+				4,
+				"やっぱりナヒーモフだな"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[740] = {
+		param = "やっぱりナヒーモフだな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 740,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[741] = {
+		param = "にゃ！ち、違う、ケーブルだよ！",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 741,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[742] = {
+		param = "ナヒーモフが目を覚ますから、またね！",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 742,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[743] = {
+		param = "明日、絶対に来て！",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 743,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[744] = {
+		param = "とっておきの秘密の釣りスポットを知ってるけど",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 744,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[745] = {
+		param = "一緒に行かない？",
+		ship_group = 79902,
+		type = 1,
+		id = 745,
+		flag = 0,
+		option = {
+			{
+				1,
+				"まさか……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[746] = {
+		param = "ナヒーモフが釣りに誘うなんて",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 746,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[747] = {
+		param = "自分で釣った魚は新鮮で、買った魚より美味しい",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 747,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[748] = {
+		param = "釣り、楽しいし",
+		ship_group = 79902,
+		type = 1,
+		id = 748,
+		flag = 1,
+		option = {
+			{
+				2,
+				"アタリが楽しいのかな？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[749] = {
+		param = "アタリが楽しいのかな？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 749,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[750] = {
+		param = "うん",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 750,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[751] = {
+		param = "釣り道具を設置して、天気や水流に合わせてリアルタイムでパラメータを調整した後",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 751,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[752] = {
+		param = "釣果で性能を確認できるから",
+		ship_group = 79902,
+		type = 1,
+		id = 752,
+		flag = 2,
+		option = {
+			{
+				3,
+				"それって本当に釣り道具？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[753] = {
+		param = "それって本当に釣り道具？釣りにもルールはあるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 753,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[754] = {
+		param = "大丈夫",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 754,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[755] = {
+		param = "関連規則をしっかり研究したから、ルール違反にならないよ",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 755,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[756] = {
+		param = "最新の釣り道具は、バイオニクス設計を採用していて",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 756,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[757] = {
+		param = "釣り針が虫みたいにくねくねと動くと同時に、誘引物質の匂い分子を放出する",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 757,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[758] = {
+		param = "この前のテストでは、投入後3分以内の釣れる確率を73%向上させた",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 758,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[759] = {
+		param = "指揮官も一緒に試してみよう？",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 759,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[760] = {
+		param = "部屋のレイアウトに興味があるみたいだけど、作業効率を上げられそうなところでも見つかったの？",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 760,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[761] = {
+		param = "ナヒーモフは慣れすぎてるから、もしかしたら盲点があるかもしれない",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 761,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[762] = {
+		param = "指揮官のアドバイスが聞きたい",
+		ship_group = 79902,
+		type = 1,
+		id = 762,
+		flag = 0,
+		option = {
+			{
+				1,
+				"十分効率的だよ"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[763] = {
+		param = "十分効率的だよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 763,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[764] = {
+		param = "やっぱり自分に合った部屋が一番だ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 764,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[765] = {
+		param = "うん",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 765,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[766] = {
+		param = "指揮官の言う通り",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 766,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[767] = {
+		param = "部屋には今までナヒーモフだけが「変数」だったのに、指揮官という新しい「変数」が増えた",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 767,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[768] = {
+		param = "変数が増えた後でも効率を維持できる案を検討したい",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 768,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[769] = {
+		param = "二人とも効率的に過ごせるように",
+		ship_group = 79902,
+		type = 1,
+		id = 769,
+		flag = 1,
+		option = {
+			{
+				2,
+				"後でナヒーモフのところで一緒に考えよう"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[770] = {
+		param = "後でナヒーモフのところで一緒に考えよう",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 770,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[771] = {
+		param = "うん、ヨシ",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 771,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[772] = {
+		param = "二人の要求を同時に満たすには、やっぱり一緒に考えないと",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 772,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[773] = {
+		param = "ログでは、指揮官は今日ケーブルに5回触れた",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 773,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[774] = {
+		param = "指揮官がなぜそんなにケーブルに興味があるのか、聞いてもいい？",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 774,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[775] = {
+		param = "改善の参考にしたいから",
+		ship_group = 79902,
+		type = 1,
+		id = 775,
+		flag = 0,
+		option = {
+			{
+				1,
+				"正確に言うと"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[776] = {
+		param = "正確に言うと",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 776,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[777] = {
+		param = "ナヒーモフが見てない間に、しっぽがこっちに5回巻きついた",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 777,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[778] = {
+		param = "それで自分は5回解いた",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 778,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[779] = {
+		param = "そうだったの？",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 779,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[780] = {
+		param = "ご……ごめん、指揮官に迷惑かけて",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 780,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[781] = {
+		param = "ケーブルの行動ログを確認して、指揮官に巻きつくバグを早く修正するから",
+		ship_group = 79902,
+		type = 1,
+		id = 781,
+		flag = 1,
+		option = {
+			{
+				2,
+				"大丈夫"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[782] = {
+		param = "大丈夫。巻き付かれる感じも悪くない",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 782,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[783] = {
+		param = "うん……じゃあちょっと考え直す",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 783,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[784] = {
+		param = "指揮官がいいなら……とりあえず修正しなくていい",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 784,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[785] = {
+		param = "さっきもらったプレゼントは……指揮官からもらった10個目",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 785,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[786] = {
+		param = "指揮官への好感度が新しい段階まで上昇した",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 786,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[787] = {
+		param = "新しいインタラクティブコンテンツがもうすぐ開放されるよ",
+		ship_group = 79902,
+		type = 1,
+		id = 787,
+		flag = 0,
+		option = {
+			{
+				1,
+				"ちょっと待って"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[788] = {
+		param = "ちょっと待って、「好感度」って話はどこから出てきたの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 788,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[789] = {
+		param = "ナヒーモフが自分のために開発した新機能だよ",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 789,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[790] = {
+		param = "一定の条件を満たすと新しいコンテンツが解放される",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 790,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[791] = {
+		param = "指揮官との関係の進展を計画的に進められて、すごく効率的で便利",
+		ship_group = 79902,
+		type = 1,
+		id = 791,
+		flag = 1,
+		option = {
+			{
+				2,
+				"で、さっきので何が開放されたの？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[792] = {
+		param = "で、さっきので何が開放されたの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 792,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[793] = {
+		param = "これから指揮官を一緒に買い物に誘う",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 793,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[794] = {
+		param = "買い物が完了すると、一緒に食事が開放される",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 794,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[795] = {
+		param = "一緒に食事が完了すると、一緒に映画鑑賞が開放される",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 795,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[796] = {
+		param = "そして、指揮官が選ぶ映画のジャンルによって、その後の展開が変わる",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 796,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[797] = {
+		param = "うん……イベントプランにそう書いた",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 797,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[798] = {
+		param = "指揮官、まず一緒に買い物しよう！",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 798,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[799] = {
+		param = "指揮官",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 799,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[800] = {
+		param = "天気予報が外れて、指揮官が出た直後に雨が降り出したけど",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 800,
+		flag = 0
+	}
+end)()
+(function ()
+	pg.base.dorm3d_ins_chat_language[801] = {
+		param = "指揮官、雨に濡れなかった？",
+		ship_group = 79902,
+		type = 1,
+		id = 801,
+		flag = 0,
+		option = {
+			{
+				1,
+				"大丈夫"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[802] = {
+		param = "大丈夫、雨宿りできる場所を見つけた",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 802,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[803] = {
+		param = "少し待ってて。今から傘を届けに行く",
+		ship_group = 79902,
+		type = 1,
+		id = 803,
+		flag = 1,
+		option = {
+			{
+				2,
+				"ありがとう"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[804] = {
+		param = "ありがとう、でもナヒーモフの仕事の邪魔にならない？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 804,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[805] = {
+		param = "指揮官が天気に影響されないようにするほうが大事。今の仕事の中での最優先事項",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 805,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[806] = {
+		param = "指揮官、今いる場所を教えて",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 806,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[807] = {
+		param = "すぐに行く",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 807,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[808] = {
+		param = "ここ数日、子猫たちがいつの間にか部屋に入り込んできてて……",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 808,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[809] = {
+		param = "指揮官、子猫たちと一緒に遊ばない？",
+		ship_group = 79902,
+		type = 1,
+		id = 809,
+		flag = 0,
+		option = {
+			{
+				1,
+				"子猫たちはかわいい"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[810] = {
+		param = "子猫たちはかわいい。でもちょっと臆病だから……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 810,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[811] = {
+		param = "手を伸ばしたらみんなキャットタワーに逃げたんだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 811,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[812] = {
+		param = "うん。警戒心が強いのは普通。まずは指揮官の存在に慣れさせないと",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 812,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[813] = {
+		param = "ええと……まずは、指揮官の匂いがするものを部屋に置いて、少しずつ慣れさせよう",
+		ship_group = 79902,
+		type = 1,
+		id = 813,
+		flag = 1,
+		option = {
+			{
+				2,
+				"それから？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[814] = {
+		param = "それから？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 814,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[815] = {
+		param = "今度会った時、しゃがんで猫と目線を合わせてみて",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 815,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[816] = {
+		param = "ずっと見つめるのは、猫にとって威圧のサインになる",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 816,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[817] = {
+		param = "それから、手のひらにおやつを置いて猫に伸ばしてみて。それで猫が寄ってくるまで待とう",
+		ship_group = 79902,
+		type = 1,
+		id = 817,
+		flag = 2,
+		option = {
+			{
+				3,
+				"詳しいね"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[818] = {
+		param = "詳しいね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 818,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[819] = {
+		param = "うん……子猫たちはいつも餌をねだりにくるから",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 819,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[820] = {
+		param = "しばらく観察して研究した",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 820,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[821] = {
+		param = "指揮官、最近ナヒーモフと会っても、いつも疲れて見える…",
+		ship_group = 79902,
+		type = 1,
+		id = 821,
+		flag = 0,
+		option = {
+			{
+				1,
+				"最近……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[822] = {
+		param = "最近仕事が多くて、よく残業してて",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 822,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[823] = {
+		param = "母港の業務は……複雑。ナヒーモフはあまり役に立てそうにない",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 823,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[824] = {
+		param = "でも指揮官の疲れを和らげる方法はあると思う",
+		ship_group = 79902,
+		type = 1,
+		id = 824,
+		flag = 1,
+		option = {
+			{
+				2,
+				"どんな方法？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[825] = {
+		param = "どんな方法？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 825,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[826] = {
+		param = "ナヒーモフが……指揮官にマッサージをする",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 826,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[827] = {
+		param = "前に人体の筋肉の構造とリラクゼーション技術を研究したけど……",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 827,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[828] = {
+		param = "実践したことはないから、効果があるかどうかわからない……",
+		ship_group = 79902,
+		type = 1,
+		id = 828,
+		flag = 2,
+		option = {
+			{
+				3,
+				"じゃあお願いするよ"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[829] = {
+		param = "じゃあお願いするよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 829,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[830] = {
+		param = "うん、じゃあそういうことで",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 830,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[831] = {
+		param = "疲れた時は、直接ナヒーモフのとこに来て",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 831,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[832] = {
+		param = "肩でも背中でも……どこでも揉んであげるから",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 832,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[833] = {
+		param = "指揮官と一緒の写真をもっと撮りたい",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 833,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[834] = {
+		param = "でも、どんなポーズで撮ればいいかわからなくて…指揮官、何かアドバイスはない？",
+		ship_group = 79902,
+		type = 1,
+		id = 834,
+		flag = 0,
+		option = {
+			{
+				1,
+				"無理にポーズをとらなくていい"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[835] = {
+		param = "無理にポーズをとらなくていいよ。自然体のナヒーモフも可愛いから",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 835,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[836] = {
+		param = "自然体……",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 836,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[837] = {
+		param = "ナヒーモフは普段仕事と睡眠しかしてないから、自分がどう見えてるかあまり気にしていない",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 837,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[838] = {
+		param = "そんなナヒーモフがなぜ可愛いの？",
+		ship_group = 79902,
+		type = 1,
+		id = 838,
+		flag = 1,
+		option = {
+			{
+				2,
+				"真剣に仕事する姿……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[839] = {
+		param = "ナヒーモフが真剣に仕事してる姿がすごく魅力的だよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 839,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[840] = {
+		param = "なるほどね",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 840,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[841] = {
+		param = "ナヒーモフも指揮官の仕事してる姿を見てると、そう感じる",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 841,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[842] = {
+		param = "あとで執務室にデータ収集装置を設置しないと",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 842,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[843] = {
+		param = "「真剣に働く魅力」がどこにあるのか、研究してみるね",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 843,
 		flag = 2
 	}
 end)()

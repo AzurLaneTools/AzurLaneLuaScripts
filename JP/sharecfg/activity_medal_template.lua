@@ -144,7 +144,15 @@ pg.activity_medal_template.all = {
 	5061604,
 	5061605,
 	5061606,
-	5061607
+	5061607,
+	5065901,
+	5065902,
+	5065903,
+	5065904,
+	5065905,
+	5065906,
+	5065907,
+	5065908
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -324,6 +332,16 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5061605,
 		5061606,
 		5061607
+	},
+	[50659] = {
+		5065901,
+		5065902,
+		5065903,
+		5065904,
+		5065905,
+		5065906,
+		5065907,
+		5065908
 	}
 }
 pg.base = pg.base or {}
@@ -2035,5 +2053,101 @@ end)()
 		activity_medal_name = "ステッカー：黄金ビル",
 		id = 5061607,
 		medal_asset = "ActivityMedal/5061607"
+	}
+	pg.base.activity_medal_template[5065901] = {
+		activity_medal_desc = "いざ開演！幻夢のカヴァルカード！",
+		next_medal = 0,
+		item = 65993,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "1",
+		task_id = 21976,
+		activity_medal_name = "ステッカー：サーカス",
+		id = 5065901,
+		medal_asset = "ActivityMedal/5065901"
+	}
+	pg.base.activity_medal_template[5065902] = {
+		activity_medal_desc = "奇跡を見届ける時間だよー！",
+		next_medal = 0,
+		item = 65994,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "2",
+		task_id = 21977,
+		activity_medal_name = "ステッカー：ハットとウサギ",
+		id = 5065902,
+		medal_asset = "ActivityMedal/5065902"
+	}
+	pg.base.activity_medal_template[5065903] = {
+		activity_medal_desc = "スタッフが美味しくいただきました（嘘",
+		next_medal = 0,
+		item = 65995,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "3",
+		task_id = 21978,
+		activity_medal_name = "ステッカー：鳥と火の輪",
+		id = 5065903,
+		medal_asset = "ActivityMedal/5065903"
+	}
+	pg.base.activity_medal_template[5065904] = {
+		activity_medal_desc = "アマチュアはパフォーマンスに驚き、プロはトリックを見極める",
+		next_medal = 0,
+		item = 65996,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "4",
+		task_id = 21979,
+		activity_medal_name = "ステッカー：キラーボックス",
+		id = 5065904,
+		medal_asset = "ActivityMedal/5065904"
+	}
+	pg.base.activity_medal_template[5065905] = {
+		activity_medal_desc = "饅頭、アウトォ！",
+		next_medal = 0,
+		item = 65997,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "5",
+		task_id = 21980,
+		activity_medal_name = "ステッカー：フライング饅頭",
+		id = 5065905,
+		medal_asset = "ActivityMedal/5065905"
+	}
+	pg.base.activity_medal_template[5065906] = {
+		activity_medal_desc = "足で弓を引いてみる？",
+		next_medal = 0,
+		item = 65998,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "6",
+		task_id = 21981,
+		activity_medal_name = "ステッカー：レッグアーチェリー",
+		id = 5065906,
+		medal_asset = "ActivityMedal/5065906"
+	}
+	pg.base.activity_medal_template[5065907] = {
+		activity_medal_desc = "たかがブラシだよ、そんな力なんてないって！",
+		next_medal = 0,
+		item = 65999,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "7",
+		task_id = 21982,
+		activity_medal_name = "ステッカー：ブラッシングアート",
+		id = 5065907,
+		medal_asset = "ActivityMedal/5065907"
+	}
+	pg.base.activity_medal_template[5065908] = {
+		activity_medal_desc = "ここまで来たし、中に入ろっか",
+		next_medal = 0,
+		item = 66045,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "8",
+		task_id = 21983,
+		activity_medal_name = "ステッカー：サーカスチケット",
+		id = 5065908,
+		medal_asset = "ActivityMedal/5065908"
 	}
 end)()

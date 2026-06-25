@@ -420,7 +420,16 @@ pg.activity_sp_story.all = {
 	456,
 	457,
 	458,
-	459
+	459,
+	461,
+	462,
+	463,
+	464,
+	465,
+	466,
+	467,
+	468,
+	469
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -9073,6 +9082,179 @@ end)()
 			{
 				4,
 				458
+			}
+		}
+	}
+	pg.base.activity_sp_story[461] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "bg_qimiaoye_cg1",
+		name = "EPS-1 月光の案内人",
+		story = "MEIMENGXUNYANQIMIAOYE1",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 461,
+		lock = ""
+	}
+	pg.base.activity_sp_story[462] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-1をクリア",
+		change_background = "bg_qimiaoye_1",
+		name = "EPS-2 夢の守秘者",
+		story = "MEIMENGXUNYANQIMIAOYE2",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 462,
+		pre_event = {
+			461
+		},
+		lock = {
+			{
+				4,
+				461
+			}
+		}
+	}
+	pg.base.activity_sp_story[463] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-2をクリア",
+		change_background = "star_level_bg_665",
+		name = "EPS-3 フレイムダンス",
+		story = "MEIMENGXUNYANQIMIAOYE3",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 463,
+		pre_event = {
+			462
+		},
+		lock = {
+			{
+				4,
+				462
+			}
+		}
+	}
+	pg.base.activity_sp_story[464] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-3をクリア",
+		change_background = "star_level_bg_665",
+		name = "EPS-4 脱出マジック",
+		story = "MEIMENGXUNYANQIMIAOYE4",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 464,
+		pre_event = {
+			463
+		},
+		lock = {
+			{
+				4,
+				463
+			}
+		}
+	}
+	pg.base.activity_sp_story[465] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-4をクリア",
+		change_background = "star_level_bg_665",
+		name = "EPS-5 発明家・オン・ブランコ",
+		story = "MEIMENGXUNYANQIMIAOYE5",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 465,
+		pre_event = {
+			464
+		},
+		lock = {
+			{
+				4,
+				464
+			}
+		}
+	}
+	pg.base.activity_sp_story[466] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-5をクリア",
+		change_background = "star_level_bg_665",
+		name = "EPS-6 夢のブラシ",
+		story = "MEIMENGXUNYANQIMIAOYE6",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 466,
+		pre_event = {
+			465
+		},
+		lock = {
+			{
+				4,
+				465
+			}
+		}
+	}
+	pg.base.activity_sp_story[467] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-6をクリア",
+		change_background = "star_level_bg_665",
+		name = "EPS-7 ときめきワンショット",
+		story = "MEIMENGXUNYANQIMIAOYE7",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 467,
+		pre_event = {
+			466
+		},
+		lock = {
+			{
+				4,
+				466
+			}
+		}
+	}
+	pg.base.activity_sp_story[468] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-7をクリア",
+		change_background = "bg_qimiaoye_2",
+		name = "EPS-8 最後の仲間",
+		story = "MEIMENGXUNYANQIMIAOYE8",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 468,
+		pre_event = {
+			467
+		},
+		lock = {
+			{
+				4,
+				467
+			}
+		}
+	}
+	pg.base.activity_sp_story[469] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-8をクリア",
+		change_background = "star_level_bg_523",
+		name = "EPS-9 ショーは終わらない",
+		story = "MEIMENGXUNYANQIMIAOYE9",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 469,
+		pre_event = {
+			468
+		},
+		lock = {
+			{
+				4,
+				468
 			}
 		}
 	}

@@ -16,14 +16,45 @@ slot0.SetApartment = function(slot0, slot1)
 	slot0:UpdateFavorDisplay()
 end
 
-slot0.init = function(slot0)
-	uv0.super.init(slot0)
-
+slot0.InitSubViews = function(slot0)
 	slot0.videoPlayer = VoiceChatLoader.New(slot0._tf)
 	slot0.stockingView = Dorm3dStockingView.New(slot0._tf, slot0.event, setmetatable({}, {
 		__index = slot0.contextData
 	}))
+	slot2 = slot0.rtRole
+	slot0.rtRoleTouchSubView = Dorm3dRTRoleTouchSubView.New(slot2:Find("Touch"), slot0.event, setmetatable({
+		onClick = function (slot0)
+			uv0:emit(RoomTouchSystem.ENTER_TOUCH_MODE, slot0)
+		end
+	}, {
+		__index = slot0.contextData
+	}))
+	slot2 = slot0._tf
+	slot0.aimIKView = Dorm3dAimIKView.New(slot2:Find("AimIKControl"), slot0.event, setmetatable({}, {
+		__index = slot0.contextData
+	}))
+	slot0.ikView = Dorm3dIKView.New(slot0._tf, slot0.event, {
+		GetApartment = function ()
+			return uv0.apartment
+		end,
+		GetCurrentLadyEnv = function ()
+			return uv0:GetCurrentLadyEnv()
+		end,
+		GetSceneItem = function (slot0)
+			return uv0:GetSceneItem(slot0)
+		end,
+		GetScreenPosition = function (slot0, slot1)
+			return uv0:GetScreenPosition(slot0, slot1)
+		end,
+		GetLocalPosition = function (slot0, slot1)
+			return uv0:GetLocalPosition(slot0, slot1)
+		end
+	})
+	slot0.touchView = Dorm3dTouchView.New(slot0._tf, slot0.event, {})
+end
 
+slot0.init = function(slot0)
+	uv0.super.init(slot0)
 	Shader.SetGlobalFloat("_ScreenClipOff", 1)
 
 	slot0.uiContainer = slot0._tf:Find("UI")
@@ -218,83 +249,6 @@ slot0.init = function(slot0)
 			uv0:ShiftZoneSafe(uv1)
 		end, SFX_PANEL)
 	end)
-
-	slot2 = slot0.uiContainer:Find("walk")
-	slot3 = slot0.uiContainer:Find("ik")
-
-	onButton(slot0, slot3:Find("btn_back"), function ()
-		if uv0.ikSpecialCall then
-			uv0.ikSpecialCall = nil
-
-			existCall(uv0.ikSpecialCall)
-		else
-			uv0:ExitTouchMode()
-		end
-	end, SFX_DORM_BACK)
-	onButton(slot0, slot3:Find("btn_back_heartbeat"), function ()
-		uv0:ExitHeartbeatMode()
-	end, SFX_DORM_BACK)
-	setActive(slot3:Find("btn_back_heartbeat"), false)
-	onButton(slot0, slot3:Find("btn_back/help"), function ()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_HELP,
-			helps = i18n("roll_gametip")
-		})
-	end, SFX_PANEL)
-	onButton(slot0, slot3:Find("Right/btn_camera"), function ()
-		uv0:CycleIKCameraGroup()
-	end, SFX_PANEL)
-	onButton(slot0, slot3:Find("Right/MenuSmall"), function ()
-		setActive(uv0:Find("Right/MenuSmall"), false)
-		setActive(uv0:Find("Right/Menu"), true)
-	end, SFX_PANEL)
-	onButton(slot0, slot3:Find("Right/Menu/Collapse"), function ()
-		setActive(uv0:Find("Right/Menu"), false)
-		setActive(uv0:Find("Right/MenuSmall"), true)
-	end, SFX_PANEL)
-	onButton(slot0, slot3:Find("Right/Menu"), function ()
-		setActive(uv0:Find("Right"), false)
-		uv1:emit(Dorm3dRoomMediator.OPEN_SKIN_SELECT_LAYER, uv1.apartment:GetConfigID(), uv1:GetCurrentLadyEnv(), function (slot0, slot1, slot2)
-			seriesAsync({
-				function (slot0)
-					uv0:SetIKState(false, slot0)
-				end,
-				function (slot0)
-					uv0:SwitchCharacterSkin(uv1, uv2)
-					uv3:SwitchIKConfig(uv0, uv0.ikConfig.id)
-					uv3:SetIKState(true, slot0)
-				end
-			})
-		end, function ()
-			setActive(uv0:Find("Right"), true)
-		end, true)
-	end, SFX_PANEL)
-
-	slot4 = slot0._tf:Find("IKControl")
-	slot0.ikTipsRoot = slot4:Find("Tips")
-
-	setActive(slot0.ikTipsRoot, false)
-
-	slot0.ikClickTipsRoot = slot4:Find("ClickTips")
-
-	setActive(slot0.ikClickTipsRoot, false)
-
-	slot0.ikHand = slot4:Find("Handler")
-
-	setActive(slot0.ikHand, false)
-	eachChild(slot0.ikHand, function (slot0)
-		setActive(slot0, false)
-	end)
-
-	slot0.ikTextTipsRoot = slot4:Find("TextTips")
-
-	setActive(slot0.ikTextTipsRoot, false)
-	eachChild(slot0.ikTextTipsRoot, function (slot0)
-		setActive(slot0, false)
-	end)
-
-	slot0.ikControlUI = slot4
-
 	onButton(slot0, slot0.uiContainer:Find("accompany"):Find("btn_back"), function ()
 		uv0:ExitAccompanyMode()
 	end, SFX_DORM_BACK)
@@ -317,14 +271,14 @@ slot0.init = function(slot0)
 	setActive(slot0.rtFavorUpDaily, false)
 
 	slot0.rtStaminaPop = slot0._tf:Find("Toast/stamina")
-	slot6 = slot0.rtStaminaPop:GetComponent("DftAniEvent")
+	slot3 = slot0.rtStaminaPop:GetComponent("DftAniEvent")
 
-	slot6:SetTriggerEvent(function (slot0)
+	slot3:SetTriggerEvent(function (slot0)
 		slot1, slot2 = getProxy(ApartmentProxy):getStamina()
 
 		setText(uv0.rtStaminaPop:Find("Text"), string.format("%d/%d", slot1, slot2))
 	end)
-	slot6:SetEndEvent(function (slot0)
+	slot3:SetEndEvent(function (slot0)
 		setActive(uv0.rtStaminaPop, false)
 	end)
 	setActive(slot0.rtStaminaPop, false)
@@ -349,19 +303,19 @@ slot0.init = function(slot0)
 		end))
 	end, SFX_PANEL)
 
-	slot7 = slot0.uiContainer:Find("watch")
+	slot4 = slot0.uiContainer:Find("watch")
 
-	onButton(slot0, slot7:Find("btn_back"), function ()
+	onButton(slot0, slot4:Find("btn_back"), function ()
 		uv0:ExitWatchMode()
 	end, SFX_DORM_BACK)
-	onButton(slot0, slot7:Find("btn_back/help"), function ()
+	onButton(slot0, slot4:Find("btn_back/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = i18n("roll_gametip")
 		})
 	end, SFX_PANEL)
 
-	slot0.rtStaminaDisplay = slot7:Find("stamina")
+	slot0.rtStaminaDisplay = slot4:Find("stamina")
 	slot0.rtRole = slot0.uiContainer:Find("watch/Role")
 
 	onButton(slot0, slot0.rtRole:Find("Talk"), function ()
@@ -376,15 +330,6 @@ slot0.init = function(slot0)
 		end)
 	end, SFX_DORM_CLICK)
 	setText(slot0.rtRole:Find("Talk/bg/Text"), i18n("dorm3d_talk"))
-
-	slot0.rtRoleTouchSubView = Dorm3dRTRoleTouchSubView.New(slot0.rtRole:Find("Touch"), slot0.event, setmetatable({
-		onClick = function (slot0)
-			uv0:EnterTouchMode(slot0)
-		end
-	}, {
-		__index = slot0.contextData
-	}))
-
 	onButton(slot0, slot0.rtRole:Find("Gift"), function ()
 		uv0:emit(uv0.SHOW_BLOCK)
 		uv0:ActiveStateCamera("gift", function ()
@@ -477,9 +422,9 @@ slot0.init = function(slot0)
 	setText(slot0.rtRole:Find("MiniGame/bg/Text"), i18n("dorm3d_minigame_button1"))
 
 	if not slot0.room:isPersonalRoom() then
-		slot10 = slot0.rtRole
+		slot7 = slot0.rtRole
 
-		onButton(slot0, slot10:Find("PublicGame"), switch(slot0.room.id, {
+		onButton(slot0, slot7:Find("PublicGame"), switch(slot0.room.id, {
 			[4] = function ()
 				return function ()
 					uv0:emit(Dorm3dRoomMediator.ENTER_VOLLEYBALL, uv0.apartment:GetConfigID())
@@ -489,61 +434,55 @@ slot0.init = function(slot0)
 				return function ()
 					uv0:emit(Dorm3dRoomMediator.ENTER_DANCE, uv0.apartment:GetConfigID())
 				end
+			end,
+			[26] = function ()
+				return function ()
+					uv0:emit(Dorm3dRoomMediator.ENTER_CARWASH, uv0.apartment:GetConfigID())
+				end
 			end
 		}), SFX_DORM_CLICK)
 
-		slot9 = slot0.rtRole
+		slot6 = slot0.rtRole
 
-		setText(slot9:Find("PublicGame/bg/Text"), switch(slot0.room.id, {
+		setText(slot6:Find("PublicGame/bg/Text"), switch(slot0.room.id, {
 			[4] = function ()
 				return i18n("dorm3d_volleyball_button")
 			end,
 			[16] = function ()
 				return i18n("dorm3d_dance_button")
+			end,
+			[26] = function ()
+				return i18n("dorm3d_carwash_button")
 			end
 		}))
 	end
 
-	slot10 = slot0.rtRole
-
-	onButton(slot0, slot10:Find("Performance"), function ()
-		slot0 = uv0
-
-		slot0:DoTalk(20500, function ()
+	onButton(slot0, slot0.rtRole:Find("Performance"), function ()
+		uv0:DoTalk(20500, function ()
 			pg.TipsMgr.GetInstance():ShowTips("Success!")
 		end)
 	end, SFX_DORM_CLICK)
 
-	slot8 = slot0._tf
-	slot0.rtFloatPage = slot8:Find("FloatPage")
-	slot8 = slot0.rtFloatPage
-	slot0.tplFloat = slot8:Find("tpl")
+	slot0.rtFloatPage = slot0._tf:Find("FloatPage")
+	slot0.tplFloat = slot0.rtFloatPage:Find("tpl")
 
 	setActive(slot0.tplFloat, false)
 	eachChild(cloneTplTo(slot0.tplFloat, slot0.rtFloatPage, "lady"), function (slot0)
 		setActive(slot0, slot0.name == "walk")
 	end)
 
-	slot9 = slot0._tf
-	slot0._joystick = slot9:Find("Stick")
+	slot0._joystick = slot0._tf:Find("Stick")
 
 	setActive(slot0._joystick, false)
-
-	slot9 = slot0._joystick
-	slot9 = slot9:GetComponent(typeof(SlideController))
-
-	slot9:SetStickFunc(function (slot0)
+	slot0._joystick:GetComponent(typeof(SlideController)):SetStickFunc(function (slot0)
 		uv0:emit(uv0.ON_STICK_MOVE, slot0)
 	end)
 
-	slot10 = slot0._tf
-	slot0.povLayer = slot10:Find("POVControl")
+	slot0.povLayer = slot0._tf:Find("POVControl")
 
 	setActive(slot0.povLayer, false)
 	(function ()
-		slot0 = uv0.povLayer
-		slot0 = slot0:Find("Move")
-		slot0 = slot0:GetComponent(typeof(SlideController))
+		slot0 = uv0.povLayer:Find("Move"):GetComponent(typeof(SlideController))
 
 		slot0:AddBeginDragFunc(function (slot0, slot1)
 			uv0:emit(uv0.ON_POV_STICK_MOVE_BEGIN, slot1)
@@ -554,80 +493,18 @@ slot0.init = function(slot0)
 		slot0:AddDragEndFunc(function (slot0, slot1)
 			uv0:emit(uv0.ON_POV_STICK_MOVE_END, slot1)
 		end)
-
-		slot1 = uv0.povLayer
-		slot1 = slot1:Find("View")
-		slot1 = slot1:GetComponent(typeof(SlideController))
-
-		slot1:SetStickFunc(function (slot0)
+		uv0.povLayer:Find("View"):GetComponent(typeof(SlideController)):SetStickFunc(function (slot0)
 			uv0:emit(uv0.ON_POV_STICK_VIEW, slot0)
 		end)
 	end)()
 
-	slot0.ikControlLayer = slot4:Find("ControlLayer")
+	slot0.rtExtraScreen = slot0._tf:Find("ExtraScreen")
+	slot0.rtTimelineScreen = slot0.rtExtraScreen:Find("TimelineScreen")
 
-	(function ()
-		slot0 = nil
-		slot1 = uv0.ikControlLayer
-		slot1 = slot1:GetComponent(typeof(SlideController))
-
-		slot1:AddBeginDragFunc(function (slot0, slot1)
-			if not uv0:GetCurrentLadyEnv().IKSettings then
-				return
-			end
-
-			if #CameraMgr.instance:Raycast(slot2.IKSettings.CameraRaycaster, slot1.position):ToTable() > 0 then
-				slot5 = slot4[1].gameObject.transform
-				slot6 = table.keyof(slot2.IKSettings.Colliders, slot5)
-
-				warning(slot5, slot6)
-
-				if slot6 then
-					uv0:emit(uv1.ON_BEGIN_DRAG_CHARACTER_BODY, slot2, slot6, slot3)
-
-					uv2 = tobool(slot2.ikHandler)
-
-					return
-				end
-			end
-		end)
-		slot1:AddDragFunc(function (slot0, slot1)
-			slot2 = slot1.position
-
-			if uv0:GetCurrentLadyEnv().ikHandler then
-				uv0:emit(uv1.ON_DRAG_CHARACTER_BODY, slot3, slot2)
-
-				return
-			end
-
-			if uv2 then
-				return
-			end
-
-			uv0:emit(uv0.ON_STICK_MOVE, slot1.delta)
-		end)
-		slot1:AddDragEndFunc(function (slot0, slot1)
-			uv0 = nil
-
-			if uv1:GetCurrentLadyEnv().ikHandler then
-				uv1:emit(uv2.ON_RELEASE_CHARACTER_BODY, slot2)
-
-				return
-			end
-		end)
-	end)()
-
-	slot12 = slot0._tf
-	slot0.rtExtraScreen = slot12:Find("ExtraScreen")
-	slot12 = slot0.rtExtraScreen
-	slot0.rtTouchGamePanel = slot12:Find("TouchGame")
-	slot12 = slot0.rtExtraScreen
-	slot0.rtTimelineScreen = slot12:Find("TimelineScreen")
-	slot14 = slot0.rtTimelineScreen
-
-	onButton(slot0, slot14:Find("btn_skip"), function ()
+	onButton(slot0, slot0.rtTimelineScreen:Find("btn_skip"), function ()
 		existCall(uv0.timelineFinishCall)
 	end, SFX_CANCEL)
+	slot0:InitSubViews()
 
 	slot0.uiStack = {}
 	slot0.uiStore = {}
@@ -676,20 +553,6 @@ slot0.BindEvent = function(slot0)
 	end)
 	slot0:bind(slot0.CHANGE_WATCH, function (slot0, slot1)
 		uv0:ChangeCanWatchState(uv0.ladyDict[slot1])
-	end)
-	slot0:bind(slot0.ON_TOUCH_CHARACTER, function (slot0, slot1)
-		if not uv0:GetBlackboardValue(uv0:GetCurrentLadyEnv(), "inIK") then
-			return
-		end
-
-		uv0:OnTouchCharacterBody(slot1)
-	end)
-	slot0:bind(uv0.ON_IK_STATUS_CHANGED, function (slot0, slot1, slot2)
-		if not uv0:GetBlackboardValue(uv0:GetCurrentLadyEnv(), "inTouching") then
-			return
-		end
-
-		uv0:DoTouch(slot1, slot2)
 	end)
 	slot0:bind(slot0.ON_ENTER_SECTOR, function (slot0, slot1)
 		uv0:ChangeCanWatchState(uv0.ladyDict[slot1])
@@ -773,7 +636,6 @@ slot0.SetUI = function(slot0, slot1, ...)
 	slot0:TempHideContact(slot0.uiState ~= "base")
 	slot0:SetFloatEnable(slot0.uiState == "walk")
 	setActive(slot0.rtFloatPage, slot0.uiState == "walk")
-	setActive(slot0.ikControlUI, slot0.uiState == "ik")
 
 	if slot0.uiState ~= "stocking" then
 		slot0.stockingView:Hide()
@@ -818,11 +680,10 @@ slot0.SetUI = function(slot0, slot1, ...)
 				slot1 = slot1 + 0.066
 			end
 
-			setActive(uv0.rtRole:Find("Gift/bg/Tip"), Dorm3dGift.NeedViewTip(uv0.apartment:GetConfigID()))
+			setActive(uv0.rtRole:Find("Gift/bg/Tip"), Dorm3dGift.NeedViewTip(uv0.apartment:GetConfigID()) or getProxy(ApartmentProxy):HasShipGroupGiftExpireSoon(slot2))
 		end,
 		ik = function ()
-			setActive(uv0.uiContainer:Find("ik/Right/MenuSmall"), uv0.room:isPersonalRoom() and not uv0.performanceInfo)
-			setActive(uv0.uiContainer:Find("ik/Right/Menu"), false)
+			uv0:emit(Dorm3dIKView.RESET_ENTRY_MENU, uv0.room:isPersonalRoom() and not uv0.performanceInfo)
 		end,
 		walk = function ()
 			setText(uv0.uiContainer:Find("walk/dialogue/content"), i18n("dorm3d_removable", uv0.apartment:getConfig("name")))
@@ -1034,155 +895,10 @@ end
 
 slot0.EnterTouchPerformance = function(slot0)
 	if not slot0.room:getApartmentZoneConfig(slot0:GetCurrentLadyEnv().ladyBaseZone, "touch_performance", slot0.apartment:GetConfigID()) or slot2 == 0 then
-		slot0:EnterTouchMode()
+		slot0:emit(RoomTouchSystem.ENTER_TOUCH_MODE)
 	else
 		slot0:DoTalk(slot2)
 	end
-end
-
-slot0.EnterTouchMode = function(slot0, slot1)
-	if slot0:GetBlackboardValue(slot0:GetCurrentLadyEnv(), "inTouching") then
-		return
-	end
-
-	slot0.touchConfig = pg.dorm3d_touch_data[slot1 or slot0.room:getApartmentZoneConfig(slot2.ladyBaseZone, "touch_id", slot0.apartment:GetConfigID())]
-
-	if not slot0.touchConfig then
-		warning("dorm3d_touch_data no config for id:" .. tostring(slot1))
-
-		return
-	end
-
-	slot0.inTouchGame = slot0.touchConfig.heartbeat_enable > 0
-
-	setActive(slot0.rtTouchGamePanel, slot0.inTouchGame)
-
-	if slot0.inTouchGame then
-		slot0.touchCount = 0
-		slot0.touchLevel = 1
-		slot0.lastCount = 0
-		slot0.topCount = 0
-
-		slot0:UpdateTouchGameDisplay()
-		setSlider(slot0.rtTouchGamePanel:Find("slider"), 0, 100, slot0.touchCount >= 200 and 100 or slot0.touchCount % 100)
-		quickPlayAnimation(slot0.rtTouchGamePanel, "anim_dorm3d_touch_in")
-		quickPlayAnimation(slot0.rtTouchGamePanel:Find("slider/icon"), "anim_dorm3d_touch_icon")
-
-		slot0.downTimer = Timer.New(function ()
-			slot0 = pg.dorm3d_set.reduce_interaction.key_value_int
-
-			if uv0.touchLevel > 1 then
-				slot0 = pg.dorm3d_set.reduce_heartbeat.key_value_int
-			end
-
-			uv0:UpdateTouchCount(slot0)
-		end, 1, -1)
-
-		slot0.downTimer:Start()
-	end
-
-	slot3 = {}
-
-	table.insert(slot3, function (slot0)
-		uv0:SetBlackboardValue(uv1, "inTouching", true)
-		uv0:emit(uv0.SHOW_BLOCK)
-		uv0:SetUI(slot0, "blank")
-	end)
-	table.insert(slot3, function (slot0)
-		uv0:SwitchIKConfig(uv1, uv0.touchConfig.ik_status[1])
-		setActive(uv0.uiContainer:Find("ik/btn_back"), true)
-		uv0:SetIKState(true, slot0)
-	end)
-	table.insert(slot3, function (slot0)
-		existCall(slot0)
-	end)
-	seriesAsync(slot3, function ()
-		Shader.SetGlobalFloat("_ScreenClipOff", 0)
-		uv0:emit(uv0.HIDE_BLOCK)
-	end)
-end
-
-slot0.ExitTouchMode = function(slot0)
-	if not slot0:GetBlackboardValue(slot0:GetCurrentLadyEnv(), "inTouching") then
-		return
-	end
-
-	slot2 = {}
-
-	if slot0.inTouchGame then
-		table.insert(slot2, function (slot0)
-			uv0:emit(uv0.SHOW_BLOCK)
-			quickPlayAnimation(uv0.rtTouchGamePanel, "anim_dorm3d_touch_out")
-			onDelayTick(slot0, 0.5)
-		end)
-		table.insert(slot2, function (slot0)
-			slot1 = 0
-
-			for slot5, slot6 in ipairs(uv0.touchConfig.heartbeat_favor) do
-				if uv0.topCount < slot6[1] then
-					break
-				else
-					slot1 = slot6[2]
-				end
-			end
-
-			if slot1 > 0 then
-				uv0:emit(Dorm3dRoomMediator.TRIGGER_FAVOR, uv0.apartment.configId, slot1)
-			end
-
-			uv0.touchCount = nil
-			uv0.touchLevel = nil
-			uv0.topCount = nil
-
-			if uv0.downTimer then
-				uv0.downTimer:Stop()
-
-				uv0.downTimer = nil
-			end
-
-			uv0.inTouchGame = false
-
-			setActive(uv0.rtTouchGamePanel, false)
-			Shader.SetGlobalFloat("_ScreenClipOff", 1)
-			slot0()
-		end)
-	else
-		table.insert(slot2, function (slot0)
-			uv0:emit(uv0.SHOW_BLOCK)
-
-			if uv0.touchConfig.default_favor > 0 then
-				uv0:emit(Dorm3dRoomMediator.TRIGGER_FAVOR, uv0.apartment.configId, slot1)
-			end
-
-			Shader.SetGlobalFloat("_ScreenClipOff", 1)
-			slot0()
-		end)
-	end
-
-	table.insert(slot2, function (slot0)
-		uv0.ikConfig = {
-			character_position = uv0.ladyBaseZone,
-			character_action = uv1.touchConfig.finish_action
-		}
-
-		uv1:emit(Dorm3dStockingMgr.ON_EXIT_TOUCH_MODE)
-		uv1:SetIKState(false, slot0)
-	end)
-	table.insert(slot2, function (slot0)
-		uv0.ikConfig = nil
-		uv1.blockIK = nil
-
-		uv1:SetUI(slot0, "back")
-	end)
-	seriesAsync(slot2, function ()
-		uv0:SetBlackboardValue(uv1, "inTouching", false)
-		uv0:emit(uv0.HIDE_BLOCK)
-
-		uv0.touchConfig = nil
-		uv0.touchExitCall = nil
-
-		existCall(uv0.touchExitCall)
-	end)
 end
 
 slot0.ChangeWalkScene = function(slot0, slot1, slot2, slot3)
@@ -1291,403 +1007,6 @@ slot0.DisableMiniGameCutIn = function(slot0)
 	pg.CameraRTMgr.GetInstance():Clean(GetOrAddComponent(slot1:Find("bg/mask/cut_in"), "CameraRTUI"))
 	setActive(slot1, false)
 	setActive(slot0.tfCutIn, false)
-end
-
-slot0.SwitchIKConfig = function(slot0, slot1, slot2)
-	warning("switchIkstatus", slot2)
-
-	if pg.dorm3d_ik_status[slot2].skin_id ~= slot1.skinId then
-		slot5 = _.detect(pg.dorm3d_ik_status.get_id_list_by_base[slot3.base], function (slot0)
-			return pg.dorm3d_ik_status[slot0].skin_id == uv0.skinId
-		end)
-
-		assert(slot5, string.format("Missing Status Config By Skin: %s original Status: %s", slot1.skinId, slot2))
-
-		slot3 = pg.dorm3d_ik_status[slot5]
-	end
-
-	slot1.ikConfig = slot3
-end
-
-slot0.SetIKState = function(slot0, slot1, slot2, slot3)
-	slot3 = slot3 or {}
-	slot4 = slot0:GetCurrentLadyEnv()
-	slot5 = {}
-
-	if slot1 then
-		table.insert(slot5, function (slot0)
-			uv0:SetBlackboardValue(uv1, "inIK", true)
-			uv0:emit(uv0.SHOW_BLOCK)
-			setActive(uv0.uiContainer:Find("ik/Right/btn_camera"), #pg.dorm3d_ik_status.get_id_list_by_camera_group[uv1.ikConfig.camera_group] > 1)
-			setActive(uv0.ikControlUI, true)
-			slot0()
-		end)
-
-		if slot0.uiState ~= "ik" then
-			table.insert(slot5, function (slot0)
-				uv0:SetUI(slot0, "ik")
-			end)
-		end
-
-		table.insert(slot5, function (slot0)
-			Shader.SetGlobalFloat("_ScreenClipOff", 0)
-			uv0:SetIKStatus(uv1, uv1.ikConfig, slot0, uv2)
-		end)
-		table.insert(slot5, function (slot0)
-			uv0:emit(uv0.HIDE_BLOCK)
-			slot0()
-		end)
-	else
-		assert(slot0.uiState == "ik")
-		table.insert(slot5, function (slot0)
-			setActive(uv0.ikControlUI, false)
-			uv0:emit(uv0.SHOW_BLOCK)
-			Shader.SetGlobalFloat("_ScreenClipOff", 1)
-			slot0()
-		end)
-		table.insert(slot5, function (slot0)
-			uv0:ExitIKStatus(uv1, uv1.ikConfig, slot0, uv2)
-			uv0:ResetSceneItemAnimators()
-		end)
-		table.insert(slot5, function (slot0)
-			uv0:SetUI(slot0, "back")
-		end)
-		table.insert(slot5, function (slot0)
-			uv0:SetBlackboardValue(uv1, "inIK", false)
-			uv0:emit(uv0.HIDE_BLOCK)
-			slot0()
-		end)
-	end
-
-	seriesAsync(slot5, slot2)
-end
-
-slot0.TouchModeAction = function(slot0, slot1, slot2, slot3, ...)
-	return switch(slot3, {
-		function (slot0, slot1)
-			return function (slot0)
-				seriesAsync({
-					function (slot0)
-						if not uv0 or uv0 == "" then
-							return slot0()
-						end
-
-						uv1:PlaySingleAction(uv2, uv0, slot0)
-					end,
-					function (slot0)
-						uv0:SwitchIKConfig(uv1, uv2)
-						uv0:SetIKState(true, slot0)
-					end,
-					slot0
-				})
-			end
-		end,
-		function ()
-			return function ()
-				if uv0.ikSpecialCall then
-					uv0.ikSpecialCall = nil
-
-					existCall(uv0.ikSpecialCall)
-				else
-					uv0:ExitTouchMode()
-				end
-			end
-		end,
-		function (slot0, slot1)
-			return function (slot0)
-				uv0:PlaySingleAction(uv1, uv2, slot0)
-			end
-		end,
-		function (slot0, slot1, slot2)
-			return function (slot0)
-				seriesAsync({
-					function (slot0)
-						uv0:DoTalk(uv1, slot0)
-					end,
-					function (slot0)
-						if not uv0 or uv0 == 0 then
-							return slot0()
-						end
-
-						uv1:SwitchIKConfig(uv2, uv0)
-						uv1:SetIKState(true, slot0)
-					end,
-					slot0
-				})
-			end
-		end,
-		function (slot0, slot1, slot2, slot3)
-			return function (slot0)
-				uv0:PlaySceneItemAnim(uv1, uv2)
-				uv0:PlaySingleAction(uv3, slot0)
-			end
-		end,
-		function (slot0)
-			return function (slot0)
-				if #pg.dorm3d_ik_touch[uv0].scene_item == 0 then
-					return
-				end
-
-				if not uv1:GetSceneItem(slot1.scene_item) then
-					warning(string.format("dorm3d_ik_touch:%d without scene_item:%s", uv0, slot1.scene_item))
-
-					return
-				end
-
-				if not IsNil(slot2:Find(uv2)) then
-					setActive(slot3, false)
-					setActive(slot3, true)
-				end
-
-				slot0()
-			end
-		end,
-		function (slot0)
-			slot1 = pg.dorm3d_ik_touch_move[slot0]
-			slot2 = slot1.target_ik
-			slot3 = slot1.move_time
-			slot4 = slot1.ik_point
-			slot5 = slot1.touch_step
-			uv0.IKSettings.forceMove = uv0.IKSettings.forceMove or {}
-			slot6[slot2] = uv0.IKSettings.forceMove[slot2] or {}
-			slot6[slot2].count = slot6[slot2].count or 0
-
-			return function (slot0)
-				seriesAsync({
-					function (slot0)
-						if uv0[uv1].count >= #uv2 then
-							return slot0()
-						end
-
-						slot1 = Dorm3dIK.New({
-							configId = uv1
-						})
-						slot3 = uv0[uv1].count
-						slot4 = uv2[slot3 + 1] - (slot3 == 0 and 0 or uv2[slot3])
-						uv0[uv1].count = slot3 + 1
-
-						pg.IKMgr.GetInstance():ResetIK(slot1:GetTriggerBoneName())
-						pg.IKMgr.GetInstance():PlayIKMove(uv5.raycastCamera:WorldToScreenPoint(uv4.IKSettings.Colliders[slot1:GetTriggerBoneName()].position), slot1:GetTriggerBoneName(), Vector2.New(unpack(uv3)), uv2[slot3 + 1], uv6, function ()
-							uv0[uv1].count = 0
-
-							uv2()
-						end)
-					end,
-					slot0
-				})
-			end
-		end,
-		function (slot0)
-			return function (slot0)
-				uv0:emit(Dorm3dStockingMgr.SET_STOCKING_STATUS, uv1)
-			end
-		end,
-		function (slot0, slot1)
-			return function ()
-				uv0.ikSwitchSkinId = uv0.apartment:GetCurSkinId()
-
-				uv1:SwitchCharacterSkin(uv0.apartment:GetConfigID(), uv2)
-				uv0:SwitchIKConfig(uv1, uv3)
-				uv0:SetIKState(true)
-			end
-		end
-	}, function ()
-		return function ()
-		end
-	end, ...)
-end
-
-slot0.OnTriggerIK = function(slot0, slot1)
-	if slot0:GetCurrentLadyEnv().ikTimelineMode then
-		slot0:ExitIKTimelineStatus(slot2)
-
-		if slot1:GetTimelineAction() then
-			slot0.nowTimelinePlayer:TriggerEvent(slot3)
-		end
-
-		return
-	end
-
-	if not slot2.ikConfig then
-		return
-	end
-
-	if not slot2.ikActionDict[slot1:GetControllerPath()] then
-		return
-	end
-
-	slot0.blockIK = true
-
-	slot0:TouchModeAction(slot2, slot1:GetConfigID(), unpack(slot4))(function ()
-		uv0:ResetIKTipTimer()
-
-		uv0.blockIK = nil
-	end)
-end
-
-slot0.OnTouchCharacterBody = function(slot0, slot1)
-	if not slot0:GetCurrentLadyEnv().ikConfig then
-		return
-	end
-
-	if type(slot2.ikConfig.touch_data) ~= "table" then
-		return
-	end
-
-	for slot6, slot7 in ipairs(slot2.iKTouchDatas) do
-		slot8, slot9, slot10 = unpack(slot7)
-
-		if pg.dorm3d_ik_touch[slot8].body == slot1 then
-			if #slot11.action_emote > 0 then
-				slot0:PlayFaceAnim(slot2, slot12)
-			end
-
-			if type(slot11.vibrate) == "table" and VibrateMgr.Instance:IsSupport() then
-				slot14 = {}
-				slot15 = {}
-				slot16 = {}
-
-				underscore.each(slot13, function (slot0)
-					slot1 = slot0[1]
-
-					if PLATFORM == PLATFORM_IPHONEPLAYER then
-						slot1 = slot1 / 1000
-					end
-
-					table.insert(uv0, slot1)
-					table.insert(uv1, slot0[2])
-					table.insert(uv2, 1)
-				end)
-
-				if PLATFORM == PLATFORM_ANDROID then
-					VibrateMgr.Instance:VibrateWaveform(slot14, slot15)
-				elseif PLATFORM == PLATFORM_IPHONEPLAYER then
-					VibrateMgr.Instance:VibrateWaveform(slot14, slot15, slot16)
-				end
-			end
-
-			slot0.blockIK = true
-
-			slot0:TouchModeAction(slot2, slot8, unpack(slot10))(function ()
-				uv0:ResetIKTipTimer()
-
-				uv0.blockIK = nil
-			end)
-
-			return
-		end
-	end
-end
-
-slot0.UpdateTouchGameDisplay = function(slot0)
-	setActive(slot0.rtTouchGamePanel:Find("effect_bg"), slot0.touchLevel == 2)
-	setActive(slot0.rtTouchGamePanel:Find("slider/icon/beating"), slot0.touchLevel == 2)
-
-	if slot0.touchLevel == 1 then
-		setActive(slot0.uiContainer:Find("ik/btn_back"), true)
-		setActive(slot0.uiContainer:Find("ik/btn_back_heartbeat"), false)
-		quickPlayAnimation(slot0.rtTouchGamePanel, "anim_dorm3d_touch_change_out")
-		quickPlayAnimation(slot0.rtTouchGamePanel:Find("slider/icon"), "anim_dorm3d_touch_icon")
-	elseif slot0.touchLevel == 2 then
-		setActive(slot0.uiContainer:Find("ik/btn_back"), false)
-		setActive(slot0.uiContainer:Find("ik/btn_back_heartbeat"), true)
-		quickPlayAnimation(slot0.rtTouchGamePanel, "anim_dorm3d_touch_change")
-		quickPlayAnimation(slot0.rtTouchGamePanel:Find("slider/icon"), "anim_dorm3d_touch_icon_1")
-		pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_heartbeat")
-	end
-end
-
-slot0.UpdateTouchCount = function(slot0, slot1)
-	if slot0.touchLevel > 1 then
-		slot1 = math.min(0, slot1)
-	end
-
-	slot0.touchCount = math.clamp(slot0.touchCount + slot1, 0, 100)
-
-	if slot0.sliderLT and LeanTween.isTweening(slot0.sliderLT) then
-		LeanTween.cancel(slot0.sliderLT)
-
-		slot0.sliderLT = nil
-	end
-
-	setSlider(slot0.rtTouchGamePanel:Find("slider"), 0, 100, slot0.touchCount)
-
-	slot2 = nil
-
-	if slot0.touchCount >= 100 then
-		slot2 = 2
-	elseif slot0.touchCount <= 0 then
-		slot2 = 1
-	end
-
-	if slot2 and slot2 ~= slot0.touchLevel then
-		if slot0.blockIK then
-			return
-		end
-
-		slot0.touchLevel = slot2
-
-		if slot0.touchConfig.ik_status[slot2] then
-			if slot2 > 1 then
-				slot0.touchCount = 200
-			elseif slot2 == 1 then
-				slot0.touchCount = 0
-			end
-
-			slot4 = slot0:GetCurrentLadyEnv()
-
-			seriesAsync({
-				function (slot0)
-					uv0:ShowBlackScreen(true, slot0)
-				end,
-				function (slot0)
-					uv0:SwitchIKConfig(uv1, uv2)
-					uv0:SetIKState(true, slot0)
-
-					if uv3 > 1 and uv0.touchConfig.heartbeat_enter_anim ~= "" then
-						uv0:SwitchAnim(uv1, uv0.touchConfig.heartbeat_enter_anim)
-					end
-				end,
-				function (slot0)
-					uv0:ShowBlackScreen(false, slot0)
-				end
-			})
-		end
-
-		slot0:UpdateTouchCount(0)
-		slot0:UpdateTouchGameDisplay()
-	end
-
-	slot0.topCount = math.max(slot0.topCount, slot0.touchCount)
-end
-
-slot0.ExitHeartbeatMode = function(slot0)
-	if not slot0.touchLevel or slot0.touchLevel == 1 then
-		return
-	end
-
-	slot0.touchCount = 0
-
-	slot0:UpdateTouchCount(0)
-end
-
-slot0.DoTouch = function(slot0, slot1, slot2)
-	if slot0.inTouchGame then
-		switch(slot2, {
-			function ()
-				uv0:UpdateTouchCount(pg.dorm3d_set.rapport_heartbeat.key_value_int)
-			end,
-			function ()
-				uv0:UpdateTouchCount(pg.dorm3d_set.rapport_heartbeat.key_value_int)
-			end,
-			function ()
-				uv0:UpdateTouchCount(pg.dorm3d_set.rapport_heartbeat.key_value_int)
-			end,
-			function ()
-				uv0:UpdateTouchCount(pg.dorm3d_set.rapport_heartbeat_trriger.key_value_int)
-			end
-		})
-	end
 end
 
 slot0.DoTalk = function(slot0, slot1, slot2)
@@ -2139,9 +1458,8 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 			end,
 			function ()
 				return function (slot0)
-					uv0.touchExitCall = slot0
-
-					uv0:EnterTouchMode()
+					uv0:emit(RoomTouchSystem.SET_TOUCH_EXIT_CALL, slot0)
+					uv0:emit(RoomTouchSystem.ENTER_TOUCH_MODE)
 				end
 			end,
 			function ()
@@ -2277,19 +1595,17 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 			function ()
 				return function (slot0)
 					if uv0.name == "set" then
-						uv1:SwitchIKConfig(uv1:GetCurrentLadyEnv(), uv0.params.state)
-						setActive(uv1.uiContainer:Find("ik/btn_back"), not uv0.params.hide_back)
-
-						uv1.ikSpecialCall = slot0
-
-						uv1:SetIKState(true)
+						uv1:emit(RoomIKSystem.SET_IK_CONFIG, uv1:GetCurrentLadyEnv(), uv0.params.state)
+						uv1:emit(Dorm3dIKView.SET_BACK_BUTTON_ACTIVE, not uv0.params.hide_back)
+						uv1:emit(RoomIKSystem.SET_IK_SPECIAL_CALL, slot0)
+						uv1:emit(RoomIKSystem.SET_IK_STATE, true)
 					else
 						if uv0.name == "back" then
 							slot1 = uv1
 							slot1:GetCurrentLadyEnv().ikConfig = uv0.params
 							slot2 = uv1
 
-							slot2:SetIKState(false, function ()
+							slot2:emit(RoomIKSystem.SET_IK_STATE, false, function ()
 								uv0.ikConfig = nil
 
 								existCall(uv1)
@@ -2609,18 +1925,23 @@ slot0.TalkingEventHandle = function(slot0, slot1)
 						uv2()
 					end,
 					timeline = function ()
-						if uv0.inTouchGame then
-							setActive(uv0.rtTouchGamePanel, false)
+						slot0 = {}
+
+						uv0:emit(RoomTouchSystem.GET_TOUCH_GAME_STATE, slot0)
+
+						if slot0.inTouchGame then
+							uv0:emit(RoomTouchSystem.UPDATE_TOUCH_PANEL, false)
 						end
 
-						slot0 = uv0
+						slot1 = uv0
 
-						slot0:PlayTimeline(uv1, function (slot0, slot1)
-							setActive(uv0.rtTouchGamePanel, uv0.inTouchGame)
+						slot1:PlayTimeline(uv1, function (slot0, slot1)
+							uv0:emit(RoomTouchSystem.GET_TOUCH_GAME_STATE, uv1)
+							uv0:emit(RoomTouchSystem.UPDATE_TOUCH_PANEL, uv1.inTouchGame)
 
-							uv1.notifiCallback = slot1
+							uv2.notifiCallback = slot1
 
-							uv2()
+							uv3()
 						end)
 					end,
 					clickOption = function ()
@@ -2640,6 +1961,16 @@ slot0.TalkingEventHandle = function(slot0, slot1)
 					expression = function ()
 						uv0:emit(uv0.PLAY_EXPRESSION, uv1)
 						uv2()
+					end,
+					blackscreen = function ()
+						uv0.LTs = uv0.LTs or {}
+
+						uv0:ShowBlackScreen(true, function ()
+							table.insert(uv0.LTs, LeanTween.delayedCall(uv1.time, System.Action(function ()
+								uv0:ShowBlackScreen(false)
+								uv1()
+							end)).uniqueId)
+						end)
 					end
 				}, function ()
 					assert(false, "op type error:", uv0.type)
@@ -2669,6 +2000,8 @@ slot0.CheckQueue = function(slot0)
 	elseif slot0.room:isPersonalRoom() and slot0:CheckLevelUp() then
 		-- Nothing
 	elseif slot0.apartment and slot0:CheckEnterDeal() then
+		-- Nothing
+	elseif slot0.apartment and slot0:CheckGiftExpireSoon() then
 		-- Nothing
 	elseif slot0.apartment and slot0:CheckActiveTalk() then
 		-- Nothing
@@ -2785,6 +2118,40 @@ slot0.CheckGuide = function(slot0)
 	end
 
 	return false
+end
+
+slot0.CheckGiftExpireSoon = function(slot0)
+	if not slot0.room:isPersonalRoom() then
+		return false
+	end
+
+	if #getProxy(ApartmentProxy):GetShipGroupGiftExpireSoonTipIds(slot0.apartment:GetConfigID()) <= 0 then
+		return false
+	end
+
+	_.each(slot1, function (slot0)
+		Dorm3dGift.SetExpireSoonTipFlag(slot0)
+	end)
+
+	slot2 = function()
+		uv0:CheckQueue()
+	end
+
+	pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_MSGBOX, {
+		title = i18n("dorm3d_gift_overtime_title"),
+		contentText = i18n("dorm3d_gift_overtime"),
+		btnList = {
+			{
+				type = pg.NewStyleMsgboxMgr.BUTTON_TYPE.confirm,
+				name = i18n("msgbox_text_confirm"),
+				func = slot2,
+				sound = SFX_CONFIRM
+			}
+		},
+		onClose = slot2
+	})
+
+	return true
 end
 
 slot0.CheckFavorTrigger = function(slot0)
@@ -2951,23 +2318,68 @@ slot0.CheckLevelUp = function(slot0)
 	return false
 end
 
-slot0.GetIKHandTF = function(slot0)
-	return slot0.ikHand
+slot0.EnterTouchMode = function(slot0, slot1)
+	slot0:emit(RoomTouchSystem.ENTER_TOUCH_MODE, slot1)
+end
+
+slot0.ExitTouchMode = function(slot0)
+	slot0:emit(RoomTouchSystem.EXIT_TOUCH_MODE)
+end
+
+slot0.ExitHeartbeatMode = function(slot0)
+	slot0:emit(RoomTouchSystem.EXIT_HEARTBEAT_MODE)
+end
+
+slot0.SwitchIKConfig = function(slot0, slot1, slot2)
+	slot0:emit(RoomIKSystem.SET_IK_CONFIG, slot1, slot2)
+end
+
+slot0.SetIKState = function(slot0, slot1, slot2, slot3)
+	slot0:emit(RoomIKSystem.SET_IK_STATE, slot1, slot2, slot3)
+end
+
+slot0.TouchModeAction = function(slot0, slot1, slot2, slot3, ...)
+	slot4 = slot0:GetExtraSystem(RoomTouchSystem)
+
+	assert(slot4, "RoomTouchSystem not found")
+
+	return slot4:TouchModeAction(slot1, slot2, slot3, ...)
+end
+
+slot0.OnTriggerIK = function(slot0, slot1)
+	slot2 = slot0:GetExtraSystem(RoomIKSystem)
+
+	assert(slot2, "RoomIKSystem not found")
+
+	return slot2:OnTriggerIK(slot1)
+end
+
+slot0.UpdateTouchGameDisplay = function(slot0)
+	if not slot0:GetExtraSystem(RoomTouchSystem) then
+		return
+	end
+
+	slot0:emit(RoomTouchSystem.UPDATE_TOUCH_LEVEL, slot1.touchLevel)
+end
+
+slot0.UpdateTouchCount = function(slot0, slot1)
+	slot2 = slot0:GetExtraSystem(RoomTouchSystem)
+
+	assert(slot2, "RoomTouchSystem not found")
+
+	return slot2:UpdateTouchCount(slot1)
+end
+
+slot0.DoTouch = function(slot0, slot1, slot2)
+	slot3 = slot0:GetExtraSystem(RoomTouchSystem)
+
+	assert(slot3, "RoomTouchSystem not found")
+
+	return slot3:DoTouch(slot1, slot2)
 end
 
 slot0.CycleIKCameraGroup = function(slot0)
-	assert(slot0:GetBlackboardValue(slot0:GetCurrentLadyEnv(), "inIK"))
-	seriesAsync({
-		function (slot0)
-			pg.IKMgr.GetInstance():ResetActiveIKs()
-
-			slot1 = uv0.ikConfig
-			slot3 = pg.dorm3d_ik_status.get_id_list_by_camera_group[slot1.camera_group]
-
-			uv1:SwitchIKConfig(uv0, slot3[table.indexof(slot3, slot1.id) % #slot3 + 1])
-			uv1:SetIKState(true)
-		end
-	})
+	slot0:emit(RoomIKSystem.CYCLE_IK_CAMERA_GROUP)
 end
 
 slot0.TempHideUI = function(slot0, slot1, slot2)
@@ -2998,24 +2410,12 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	if slot0.downTimer then
-		slot0.downTimer:Stop()
-
-		slot0.downTimer = nil
-	end
-
 	if slot0.LTs then
 		underscore.map(slot0.LTs, function (slot0)
 			LeanTween.cancel(slot0)
 		end)
 
 		slot0.LTs = nil
-	end
-
-	if slot0.sliderLT then
-		LeanTween.cancel(slot0.sliderLT)
-
-		slot0.sliderLT = nil
 	end
 
 	for slot4, slot5 in pairs(slot0.ladyDict) do
@@ -3037,6 +2437,19 @@ slot0.willExit = function(slot0)
 	slot0.canTriggerAccompanyPerformance = nil
 
 	slot0.videoPlayer:Destroy()
+
+	if slot0.ikView then
+		slot0.ikView:Dispose()
+
+		slot0.ikView = nil
+	end
+
+	if slot0.touchView then
+		slot0.touchView:Dispose()
+
+		slot0.touchView = nil
+	end
+
 	uv0.super.willExit(slot0)
 end
 

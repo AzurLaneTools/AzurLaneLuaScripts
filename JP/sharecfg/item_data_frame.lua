@@ -101,6 +101,8 @@ pg.item_data_frame.all = {
 	1010,
 	1011,
 	1012,
+	1013,
+	1014,
 	10001,
 	10002,
 	10003,
@@ -991,6 +993,24 @@ pg.base.item_data_frame = {}
 		desc = "荒波の中で鋼色の旗が翻り、戴かれる黄金の冠は至高なる海の権能を示せり\n<color=#A7A7AA>「交流宿舎」でエーギルの親密度を上げると入手可能</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[1013] = {
+		name = "集電装置",
+		gain_by = "",
+		time_second = 0,
+		id = 1013,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>バチバチとインパルスの電流が躍動し、電球も電光ライトのネコミミもキラリと輝く</color>\n「交流宿舎」でアドミラル・ナヒーモフの親密度を上げると入手可能",
+		scene = {}
+	}
+	pg.base.item_data_frame[1014] = {
+		name = "サイバネティック・アイサツ",
+		gain_by = "",
+		time_second = 0,
+		id = 1014,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>データストリームに、ネコパンチとネコシッポ現る！ドーモ、サイバー空間のネコアイサツ＝です</color>\n「交流宿舎」でアドミラル・ナヒーモフの親密度を上げると入手可能",
+		scene = {}
+	}
 	pg.base.item_data_frame[10001] = {
 		name = "限界挑戦・ふたご座",
 		gain_by = "",
@@ -1000,6 +1020,8 @@ pg.base.item_data_frame = {}
 		desc = "<size=24>「ふたご座」限界挑戦ステージクリア記念。己の限界に挑む勇気のある指揮官に贈る<color=#A7A7AA>「限界挑戦」で入手可能（23.06.15-23.06.30）</color></size>",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10002] = {
 		name = "限界挑戦・かに座",
 		gain_by = "",
@@ -1018,8 +1040,6 @@ pg.base.item_data_frame = {}
 		desc = "<size=24>「しし座」限界挑戦ステージクリア記念。己の限界に挑む勇気のある指揮官に贈る<color=#A7A7AA>「限界挑戦」で入手可能（23.08.01-23.08.31）</color></size>",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10004] = {
 		name = "限界挑戦・おとめ座",
 		gain_by = "",

@@ -38524,6 +38524,11 @@ _G.pg.base.gametip.dorm3d_room_floor_2 = {
 }
 
 
+_G.pg.base.gametip.dorm3d_room_floor_3 = {
+	tip = "ヴィラ"
+}
+
+
 _G.pg.base.gametip.please_input_1_99 = {
 	tip = "1～99を入力"
 }
@@ -49987,4 +49992,87 @@ _G.pg.base.gametip.island_mecha_task_lock_tip = {
 
 _G.pg.base.gametip.yearly_sign_in = {
 	tip = "年間ログイン"
+}
+
+
+_G.pg.base.gametip.DreamTourCoreActivity_subtitle_1 = {
+	tip = "幻夢のカヴァルカード"
+}
+
+
+_G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
+	tip = "幻夢補給地"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_button = {
+	tip = "ミニゲーム"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_tiiiiiip = {
+	tip = [[
+1.洗浄ホースを使って汚れを洗い流し、車をピカピカにしよう！
+ 2.汚れは3種類：ホコリ、油汚れ、ねこの足跡
+ 3.汚れの種類によって洗浄ホースを変える必要があります。
+ 4.艦船が一緒に頑張ってくれるが、洗浄ホースの水がうっかり当たると……？
+ 5.水が当たる場所に応じて、仲間の「気分」が変わります。
+ 6.「気分」が一定数値を越えると、特別な演出が開放…？
+ 7.さらに「気分」がMAXになると、思わぬイベントが…？
+ 8.ゲーム時間が0になると、車の「洗浄値」に応じてスコアが計算されます]]
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_mood = {
+	tip = "気分"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_clean = {
+	tip = "洗浄値"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_retry = {
+	tip = "もう一回"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_exit = {
+	tip = "戻る"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_title = {
+	tip = "遊び方"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_carwash = {
+	tip = "ガレージ"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_table = {
+	tip = "作業場"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_chair = {
+	tip = "リビング"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_bed = {
+	tip = "寝室"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_overtime = {
+	tip = "有効期限終了間近のプレゼントがあります"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_overtime_title = {
+	tip = "終了間近"
 }

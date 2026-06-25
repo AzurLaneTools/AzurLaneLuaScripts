@@ -67,7 +67,46 @@ pg.base.shop_banner_template = {}
 				{
 					2026,
 					6,
-					18
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		param = {
+			"scene skinshop",
+			{}
+		}
+	}
+	pg.base.shop_banner_template[11] = {
+		name = "banner_big",
+		type = 2,
+		time_lable = 1,
+		pic = "shopbanner/shop_skin2",
+		id = 11,
+		relation_param = "",
+		order = 9,
+		time = {
+			{
+				{
+					2026,
+					6,
+					22
 				},
 				{
 					0,
@@ -88,20 +127,6 @@ pg.base.shop_banner_template = {}
 				}
 			}
 		},
-		param = {
-			"scene skinshop",
-			{}
-		}
-	}
-	pg.base.shop_banner_template[11] = {
-		name = "banner_big",
-		time = "stop",
-		type = 2,
-		time_lable = 1,
-		pic = "shopbanner/shop_skin2",
-		id = 11,
-		relation_param = "",
-		order = 9,
 		param = {
 			"scene skinshop",
 			{}
@@ -485,7 +510,7 @@ pg.base.shop_banner_template = {}
 				{
 					2026,
 					6,
-					18
+					25
 				},
 				{
 					0,
@@ -497,7 +522,7 @@ pg.base.shop_banner_template = {}
 				{
 					2026,
 					7,
-					1
+					15
 				},
 				{
 					23,

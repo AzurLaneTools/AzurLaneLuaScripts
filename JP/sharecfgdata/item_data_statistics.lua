@@ -11349,6 +11349,37 @@ _G.pg.base.item_data_statistics[15023] = {
 }
 
 
+_G.pg.base.item_data_statistics[15024] = {
+	open_directly = 0,
+	name = "ガレージ開放チケット",
+	type = 100,
+	display = "交流宿舎のガレージ開放に使われる特別チケット",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/15022",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 15024,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[16001] = {
 	open_directly = 0,
 	name = "攻撃教科書T1",
@@ -29420,6 +29451,131 @@ _G.pg.base.item_data_statistics[30384] = {
 }
 
 
+_G.pg.base.item_data_statistics[30385] = {
+	open_directly = 1,
+	name = "装備外装箱(メルヘンランド)",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghualeyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30382",
+	id = 30385,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -45730,6 +45886,219 @@ _G.pg.base.item_data_statistics[30568] = {
 }
 
 
+_G.pg.base.item_data_statistics[30569] = {
+	open_directly = 0,
+	name = "選択装備外装箱（メルヘンランド）",
+	type = 13,
+	display = "使用すると、装備外装（メルヘンランド）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghualeyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30569,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "指向性強化パーツT4",
@@ -52278,6 +52647,43 @@ _G.pg.base.item_data_statistics[40142] = {
 			69901
 		}
 	}
+}
+
+
+_G.pg.base.item_data_statistics[40144] = {
+	open_directly = 1,
+	name = "サーカスパックSP",
+	type = 17,
+	display = "対象着せ替え3着購入で誓いの指輪入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 50660,
+	is_world = 0,
+	icon = "Props/black5bundle2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 40144,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			15006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
 }
 
 

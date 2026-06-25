@@ -57,7 +57,17 @@ pg.dorm3d_ins_language.all = {
 	"aijier_2_1",
 	"aijier_2_1_1",
 	"aijier_2_2",
-	"aijier_2_2_1"
+	"aijier_2_2_1",
+	"naximofu_1",
+	"naximofu_1_1",
+	"naximofu_1_1_1",
+	"naximofu_1_2",
+	"naximofu_1_2_1",
+	"naximofu_2",
+	"naximofu_2_1",
+	"naximofu_2_1_1",
+	"naximofu_2_2",
+	"naximofu_2_2_1"
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_language = {}
@@ -336,6 +346,56 @@ pg.base.dorm3d_ins_language = {}
 	pg.base.dorm3d_ins_language.aijier_2_2_1 = {
 		value = "それじゃあ一緒に……せっかくの午後を楽しもうじゃない",
 		key = "aijier_2_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1 = {
+		value = "ゲーム参加型番組を見てたら、いきなりテレビが壊れた……どう叩いても直らない…",
+		key = "naximofu_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_1 = {
+		value = "録画してあるから、後で一緒に見る？",
+		key = "naximofu_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_1_1 = {
+		value = "ありがとう指揮官、いつでもいいよ",
+		key = "naximofu_1_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_2 = {
+		value = "そのゲームで一緒に遊ぶ？",
+		key = "naximofu_1_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_2_1 = {
+		value = "いいね、指揮官はいつ来れそう？",
+		key = "naximofu_1_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2 = {
+		value = "ほかの星ってどんな感じなんだろう？",
+		key = "naximofu_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_1 = {
+		value = "機会があったら一緒に見に行こう",
+		key = "naximofu_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_1_1 = {
+		value = "うん！その時はできたての煮干しを持っていく……",
+		key = "naximofu_2_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_2 = {
+		value = "悪の宇宙人の秘密基地があるかも",
+		key = "naximofu_2_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_2_1 = {
+		value = "装備確認、ヨシ。ナヒーモフ、戦闘準備完了",
+		key = "naximofu_2_2_1",
 		is_active = "0"
 	}
 end)()

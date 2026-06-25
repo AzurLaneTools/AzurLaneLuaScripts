@@ -616,11 +616,36 @@ slot0.DidEnterLevelMainUI = function(slot0, slot1)
 		slot0.contextData.StopAutoFightFlag = nil
 	end
 
-	if slot0.contextData.ToTrackingData then
-		slot0:sendNotification(slot0.contextData.ToTrackingData[1], slot0.contextData.ToTrackingData[2])
+	slot0:TryEnterPendingChapter()
+end
 
-		slot0.contextData.ToTrackingData = nil
+slot0.TryEnterPendingChapter = function(slot0)
+	if not slot0.contextData.pendingEnterChapterId then
+		return
 	end
+
+	if not slot0.contextData.map or not slot0.viewComponent.mapBuilder then
+		return
+	end
+
+	if slot0.contextData.chapterVO and slot0.contextData.chapterVO.id == slot1 then
+		slot0.contextData.pendingEnterChapterId = nil
+
+		return
+	end
+
+	if not getProxy(ChapterProxy):getChapterById(slot1) or not slot2.active then
+		return
+	end
+
+	slot0.contextData.pendingEnterChapterId = nil
+	slot0.waitingTracking = nil
+
+	slot0.viewComponent:resetLevelGrid()
+
+	slot0.viewComponent.FirstEnterChapter = slot2.id
+
+	slot0.viewComponent:switchToChapter(slot2)
 end
 
 slot0.RegisterTrackEvent = function(slot0)
@@ -718,6 +743,10 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:emit(slot2, unpackEx(slot3))
 	elseif slot2 == GAME.TRACKING_DONE then
 		slot0.waitingTracking = nil
+
+		if slot0.contextData.pendingEnterChapterId == slot3.id then
+			slot0.contextData.pendingEnterChapterId = nil
+		end
 
 		slot0.viewComponent:resetLevelGrid()
 

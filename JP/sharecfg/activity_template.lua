@@ -955,6 +955,16 @@ pg.activity_template.all = {
 	50624,
 	50625,
 	50630,
+	50651,
+	50652,
+	50653,
+	50654,
+	50655,
+	50656,
+	50657,
+	50658,
+	50659,
+	50660,
 	51001,
 	51002,
 	51003,
@@ -987,6 +997,7 @@ pg.activity_template.all = {
 	51046,
 	51047,
 	51048,
+	51049,
 	51050,
 	7011,
 	7012,
@@ -1012,6 +1023,8 @@ pg.activity_template.all = {
 	7501,
 	7502,
 	7503,
+	7505,
+	7506,
 	8050,
 	8051,
 	8052,
@@ -1443,6 +1456,7 @@ pg.activity_template.get_id_list_by_type = {
 		50816,
 		50828,
 		50614,
+		50658,
 		51037,
 		50012,
 		50053,
@@ -1612,6 +1626,7 @@ pg.activity_template.get_id_list_by_type = {
 		50825,
 		50605,
 		50606,
+		50651,
 		51033,
 		51034,
 		50003,
@@ -1808,6 +1823,9 @@ pg.activity_template.get_id_list_by_type = {
 		50616,
 		50619,
 		50624,
+		50656,
+		50657,
+		50659,
 		51006,
 		51014,
 		51015,
@@ -1815,6 +1833,7 @@ pg.activity_template.get_id_list_by_type = {
 		51035,
 		51046,
 		51048,
+		51049,
 		10138,
 		50005,
 		50011,
@@ -1933,6 +1952,7 @@ pg.activity_template.get_id_list_by_type = {
 		50807,
 		50829,
 		50611,
+		50655,
 		51032,
 		50007,
 		50052,
@@ -2002,6 +2022,7 @@ pg.activity_template.get_id_list_by_type = {
 		50827,
 		50599,
 		50625,
+		50654,
 		51039,
 		50009,
 		50019,
@@ -2161,6 +2182,7 @@ pg.activity_template.get_id_list_by_type = {
 		51005,
 		51011,
 		51041,
+		7506,
 		50000,
 		50032,
 		50033,
@@ -2265,6 +2287,7 @@ pg.activity_template.get_id_list_by_type = {
 		50803,
 		50824,
 		50601,
+		50653,
 		51036,
 		50010,
 		50020,
@@ -2668,6 +2691,7 @@ pg.activity_template.get_id_list_by_type = {
 		50833,
 		50604,
 		50621,
+		50652,
 		51021,
 		51013,
 		51031,
@@ -2794,6 +2818,7 @@ pg.activity_template.get_id_list_by_type = {
 		7501,
 		7502,
 		7503,
+		7505,
 		50044,
 		50372,
 		990014
@@ -2937,6 +2962,7 @@ pg.activity_template.get_id_list_by_type = {
 		7303
 	},
 	[131] = {
+		50660,
 		50242
 	},
 	[132] = {
@@ -34304,6 +34330,7 @@ end)()
 	pg.base.activity_template[50837] = {
 		mark = 20260326,
 		page_info = "",
+		time = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -34322,33 +34349,6 @@ end)()
 			21949,
 			21950,
 			21951
-		},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_template[50838] = {
@@ -35867,6 +35867,534 @@ end)()
 				{
 					"HONGSHULINDESHOUHUJINGLING1"
 				}
+			}
+		}
+	}
+	pg.base.activity_template[50651] = {
+		mark = 20260625,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "DreamTourCoreActivity_subtitle_1",
+		id = 50651,
+		page_core = "DreamTourCoreActivityUI",
+		config_data = {
+			2040001,
+			2040002,
+			2040003,
+			2040021,
+			2040022,
+			2040023,
+			2040041
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					9
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "DreamTourMainPage",
+			ui_name = "DreamTourMainPage"
+		},
+		config_client = {
+			shopItemID = 71378,
+			task_id = 27265,
+			entrance_bg = "activitybanner/temp10",
+			PTID = 726
+		}
+	}
+	pg.base.activity_template[50652] = {
+		mark = 20260625,
+		type = 74,
+		login_pop = 0,
+		config_id = 50652,
+		is_show = 2,
+		title_res_tag = "DreamTourCoreActivity_subtitle_2",
+		id = 50652,
+		page_core = "DreamTourCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DreamTourPtPage",
+			ui_name = "DreamTourPtPage"
+		},
+		config_client = {
+			shopLinkActID = 50655,
+			highValueItemSort = {
+				13,
+				21,
+				23,
+				25,
+				28
+			}
+		}
+	}
+	pg.base.activity_template[50653] = {
+		mark = 20260625,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50653,
+		page_core = "",
+		config_data = {
+			{
+				31921,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[50654] = {
+		mark = 20260625,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 726,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 50654,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[50655] = {
+		mark = 20260625,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50655,
+		page_core = "",
+		config_data = {
+			4101,
+			4102,
+			4103,
+			4104,
+			4105,
+			4106,
+			4107,
+			4108,
+			4109,
+			4110,
+			4111,
+			4112,
+			4113,
+			4114,
+			4115,
+			4116,
+			4117,
+			4118,
+			4119,
+			4120,
+			4121,
+			4122,
+			4123,
+			4124,
+			4125
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_helanSP",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 726,
+			use_secretary = false,
+			painting = "aluomangshi_pt"
+		}
+	}
+	pg.base.activity_template[50656] = {
+		mark = 20260625,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50656,
+		page_core = "",
+		config_data = {
+			27251,
+			27252,
+			27253,
+			27254,
+			27255,
+			27256,
+			27257,
+			27258,
+			27259,
+			27260,
+			27261,
+			27262,
+			27263,
+			27264,
+			27265
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					9
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[50657] = {
+		mark = 20260625,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50657,
+		page_core = "",
+		config_data = {
+			27305
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[50658] = {
+		mark = 20260625,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50658,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					9
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "「シェルブール」「プリンツ・アーダルベルト」出現確率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%",
+				"<color=#ffde38>シェルブール</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>プリンツ・アーダルベルト</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>アローマンシュ</color>：0.5%"
+			}
+		}
+	}
+	pg.base.activity_template[50659] = {
+		mark = 20260625,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50659,
+		page_core = "",
+		config_data = {
+			21975,
+			21976,
+			21977,
+			21978,
+			21979,
+			21980,
+			21981,
+			21982,
+			21983,
+			21984
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[50660] = {
+		mark = 20260625,
+		page_info = "",
+		type = 131,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50660,
+		page_core = "",
+		config_data = {
+			{
+				818011,
+				806021,
+				605082
+			},
+			907705
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			packageID = 60824,
+			drop = {
+				2,
+				15006,
+				1
 			}
 		}
 	}
@@ -37557,6 +38085,48 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[51049] = {
+		mark = 260625,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51049,
+		page_core = "",
+		config_data = {
+			27305
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51050] = {
 		mark = 20260618,
 		type = 115,
@@ -37945,6 +38515,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7015] = {
 		mark = 20240130,
 		type = 54,
@@ -38592,8 +39164,6 @@ end)()
 			ui_name = "CrusingDisplayActPage25"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7026] = {
 		mark = 20251120,
 		type = 54,
@@ -39157,6 +39727,149 @@ end)()
 		page_info = {
 			class_name = "IslandSignPage",
 			ui_name = "IslandSignPage"
+		}
+	}
+	pg.base.activity_template[7505] = {
+		mark = 20260625,
+		type = 89,
+		login_pop = 99,
+		config_id = 0,
+		is_show = 44,
+		config_client = "",
+		title_res_tag = "DormSignThree",
+		id = 7505,
+		page_core = "",
+		config_data = {
+			{
+				23920
+			},
+			{
+				23921
+			},
+			{
+				23922
+			},
+			{
+				23923
+			},
+			{
+				23924
+			},
+			{
+				23925
+			},
+			{
+				23926
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					12,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormSignThirdPage",
+			ui_name = "DormSignThirdPage"
+		}
+	}
+	pg.base.activity_template[7506] = {
+		mark = 20260625,
+		type = 18,
+		login_pop = 99,
+		config_id = 3,
+		is_show = 44,
+		title_res_tag = "DormTask",
+		id = 7506,
+		page_core = "",
+		config_data = {
+			{
+				27400,
+				27401,
+				27402,
+				27403,
+				27404,
+				27405,
+				27406
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					9
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormTaskPage",
+			ui_name = "DormTaskPage"
+		},
+		config_client = {
+			subType = 1,
+			unlock_task = {
+				{
+					27400
+				},
+				{
+					27401
+				},
+				{
+					27402
+				},
+				{
+					27403
+				},
+				{
+					27404
+				},
+				{
+					27405
+				},
+				{
+					27406
+				}
+			}
 		}
 	}
 	pg.base.activity_template[8050] = {
@@ -42700,6 +43413,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50085] = {
 		mark = 20250814,
 		time = "stop",
@@ -43051,8 +43766,6 @@ end)()
 			12004
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50101] = {
 		mark = 20250904,
 		type = 69,
@@ -46308,6 +47021,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50232] = {
 		mark = 20251113,
 		page_info = "",
@@ -46711,8 +47426,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50250] = {
 		mark = 20251120,
 		page_info = "",
@@ -50707,6 +51420,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50400] = {
 		mark = 20260212,
 		page_info = "",
@@ -51328,8 +52043,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50413] = {
 		mark = 20260212,
 		type = 3,
@@ -55329,6 +56042,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990020] = {
 		mark = 20260507,
 		page_info = "",

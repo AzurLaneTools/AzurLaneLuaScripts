@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "没关系",
+			say = "いいよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

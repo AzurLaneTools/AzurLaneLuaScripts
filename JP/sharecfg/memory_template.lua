@@ -4169,6 +4169,15 @@ pg.memory_template.all = {
 	5235,
 	5236,
 	5237,
+	5241,
+	5242,
+	5243,
+	5244,
+	5245,
+	5246,
+	5247,
+	5248,
+	5249,
 	10000,
 	10001,
 	10002,
@@ -79527,6 +79536,168 @@ end)()
 			"LAFEIER7"
 		}
 	}
+	pg.base.memory_template[5241] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "月光の案内人",
+		condition = "ストーリーモードに移動する",
+		story = "MEIMENGXUNYANQIMIAOYE1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5241,
+		icon = "memory_meimengxunyanqimiaoye1",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE1"
+		}
+	}
+	pg.base.memory_template[5242] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "夢の守秘者",
+		condition = "EPS-1開始",
+		story = "MEIMENGXUNYANQIMIAOYE2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5242,
+		icon = "memory_meimengxunyanqimiaoye2",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE2"
+		}
+	}
+	pg.base.memory_template[5243] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "フレイムダンス",
+		condition = "EPS-2開始",
+		story = "MEIMENGXUNYANQIMIAOYE3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5243,
+		icon = "memory_meimengxunyanqimiaoye3",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE3"
+		}
+	}
+	pg.base.memory_template[5244] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "脱出マジック",
+		condition = "EPS-3開始",
+		story = "MEIMENGXUNYANQIMIAOYE4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5244,
+		icon = "memory_meimengxunyanqimiaoye4",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE4"
+		}
+	}
+	pg.base.memory_template[5245] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "発明家・オン・ブランコ",
+		condition = "EPS-4開始",
+		story = "MEIMENGXUNYANQIMIAOYE5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5245,
+		icon = "memory_meimengxunyanqimiaoye5",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE5"
+		}
+	}
+	pg.base.memory_template[5246] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "夢のブラシ",
+		condition = "EPS-5開始",
+		story = "MEIMENGXUNYANQIMIAOYE6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5246,
+		icon = "memory_meimengxunyanqimiaoye6",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE6"
+		}
+	}
+	pg.base.memory_template[5247] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ときめきワンショット",
+		condition = "EPS-6開始",
+		story = "MEIMENGXUNYANQIMIAOYE7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5247,
+		icon = "memory_meimengxunyanqimiaoye7",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE7"
+		}
+	}
+	pg.base.memory_template[5248] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "最後の仲間",
+		condition = "EPS-7開始",
+		story = "MEIMENGXUNYANQIMIAOYE8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5248,
+		icon = "memory_meimengxunyanqimiaoye8",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE8"
+		}
+	}
+	pg.base.memory_template[5249] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ショーは終わらない",
+		condition = "EPS-8開始",
+		story = "MEIMENGXUNYANQIMIAOYE9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5249,
+		icon = "memory_meimengxunyanqimiaoye8",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE9"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -79995,6 +80166,8 @@ end)()
 			"NICONICO4"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10026] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80157,8 +80330,6 @@ end)()
 			"TEACHER6"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10035] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81797,6 +81968,8 @@ end)()
 			"LINGHANGYUANHAOGANDU1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20045] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81959,8 +82132,6 @@ end)()
 			"LINGHANGYUANTANXIN2"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20054] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83599,6 +83770,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI8"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20146] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83761,8 +83934,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA5"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20155] = {
 		ship_group = 0,
 		subtitle = "",

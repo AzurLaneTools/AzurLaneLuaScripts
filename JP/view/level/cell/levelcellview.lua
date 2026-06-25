@@ -56,6 +56,10 @@ slot0.ResetCanvasOrder = function(slot0)
 	end
 
 	pg.ViewUtils.SetSortingOrder(slot0.tf, slot0.line.row * ChapterConst.PriorityPerRow + slot0:GetOrder())
+	slot0:OnCanvasUpDate()
+end
+
+slot0.OnCanvasUpDate = function(slot0)
 end
 
 slot0.GetCurrentOrder = function(slot0)

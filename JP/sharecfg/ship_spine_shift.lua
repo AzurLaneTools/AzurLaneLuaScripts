@@ -588,4 +588,11 @@ pg.base.ship_spine_shift = {}
 			-25.6
 		}
 	}
+	pg.base.ship_spine_shift.makeboluo_3 = {
+		spine = "makeboluo_3",
+		mainui_shift = {
+			3.9,
+			-39.6
+		}
+	}
 end)()

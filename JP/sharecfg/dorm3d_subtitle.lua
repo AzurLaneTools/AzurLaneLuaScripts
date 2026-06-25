@@ -229,7 +229,45 @@ pg.dorm3d_subtitle.all = {
 	12052,
 	12053,
 	12054,
-	12055
+	12055,
+	21001,
+	21002,
+	21003,
+	21004,
+	21005,
+	21006,
+	21007,
+	21008,
+	21009,
+	21010,
+	21011,
+	21012,
+	21013,
+	21014,
+	21015,
+	21016,
+	21021,
+	21022,
+	21023,
+	21024,
+	21025,
+	21026,
+	21027,
+	21028,
+	21029,
+	21030,
+	21031,
+	21032,
+	21033,
+	21034,
+	21035,
+	21036,
+	21037,
+	21038,
+	21039,
+	21040,
+	21041,
+	21042
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_subtitle = {}
@@ -1142,5 +1180,157 @@ end)()
 	pg.base.dorm3d_subtitle[12055] = {
 		id = 12055,
 		subtitle = "今宵も……よろしくお願いいたしますわ♥"
+	}
+	pg.base.dorm3d_subtitle[21001] = {
+		id = 21001,
+		subtitle = "ん……これ、指揮官も食べてみて"
+	}
+	pg.base.dorm3d_subtitle[21002] = {
+		id = 21002,
+		subtitle = "ほどよい甘さで……美味しい"
+	}
+	pg.base.dorm3d_subtitle[21003] = {
+		id = 21003,
+		subtitle = "ん…？…なんで……急に甘くなって……"
+	}
+	pg.base.dorm3d_subtitle[21004] = {
+		id = 21004,
+		subtitle = "指揮官、口元に食べ物が……取ってあげるね"
+	}
+	pg.base.dorm3d_subtitle[21005] = {
+		id = 21005,
+		subtitle = "うん……解析の結果……こ、これが最も効率的な取り方……"
+	}
+	pg.base.dorm3d_subtitle[21006] = {
+		id = 21006,
+		subtitle = "ん……設備稼働、ヨシ……パラメータ、オールグリーン……"
+	}
+	pg.base.dorm3d_subtitle[21007] = {
+		id = 21007,
+		subtitle = "んぅ……気持ちいい……うにゃ〜"
+	}
+	pg.base.dorm3d_subtitle[21008] = {
+		id = 21008,
+		subtitle = "あ、指揮官……"
+	}
+	pg.base.dorm3d_subtitle[21009] = {
+		id = 21009,
+		subtitle = "ポカポカあたたかい……もうちょっと、寄り掛からせて"
+	}
+	pg.base.dorm3d_subtitle[21010] = {
+		id = 21010,
+		subtitle = "あと一分……一分だけでいいから……"
+	}
+	pg.base.dorm3d_subtitle[21011] = {
+		id = 21011,
+		subtitle = "うん……コンデンサーモジュール交換、ヨシ。接触不良だった配線も再接続済み"
+	}
+	pg.base.dorm3d_subtitle[21012] = {
+		id = 21012,
+		subtitle = "指揮官、これで――"
+	}
+	pg.base.dorm3d_subtitle[21013] = {
+		id = 21013,
+		subtitle = "あっ……"
+	}
+	pg.base.dorm3d_subtitle[21014] = {
+		id = 21014,
+		subtitle = "床のケーブルに……足を取られちゃった……"
+	}
+	pg.base.dorm3d_subtitle[21015] = {
+		id = 21015,
+		subtitle = "指揮官？熱い――"
+	}
+	pg.base.dorm3d_subtitle[21016] = {
+		id = 21016,
+		subtitle = "指揮官も、なんか……修理が必要みたいにゃ～"
+	}
+	pg.base.dorm3d_subtitle[21021] = {
+		id = 21021,
+		subtitle = "んん……シンプルな構造で、仕組みも原始的なのに……つい目で追ってしまう……"
+	}
+	pg.base.dorm3d_subtitle[21022] = {
+		id = 21022,
+		subtitle = "むぅ……"
+	}
+	pg.base.dorm3d_subtitle[21023] = {
+		id = 21023,
+		subtitle = "研究対象として気になっただけ…"
+	}
+	pg.base.dorm3d_subtitle[21024] = {
+		id = 21024,
+		subtitle = "んぅ……急に動かすなんて……イジワル"
+	}
+	pg.base.dorm3d_subtitle[21025] = {
+		id = 21025,
+		subtitle = "デバイスを止めたままにして……捕獲分析に必要な条件だから"
+	}
+	pg.base.dorm3d_subtitle[21026] = {
+		id = 21026,
+		subtitle = "うにゃっ——！"
+	}
+	pg.base.dorm3d_subtitle[21027] = {
+		id = 21027,
+		subtitle = "うん、捕まえた……訓練すれば効果はちゃんと出るみたい……"
+	}
+	pg.base.dorm3d_subtitle[21028] = {
+		id = 21028,
+		subtitle = "指揮官……これ欲しい？……じゃあ、獲物……あげる"
+	}
+	pg.base.dorm3d_subtitle[21029] = {
+		id = 21029,
+		subtitle = "むにゃ……て、テストの妨害しないで……！"
+	}
+	pg.base.dorm3d_subtitle[21030] = {
+		id = 21030,
+		subtitle = "ん……ご褒美？……じゃあ続けてもいいよ……"
+	}
+	pg.base.dorm3d_subtitle[21031] = {
+		id = 21031,
+		subtitle = "んぅ……いい気持ち……にゃぁあ〜！"
+	}
+	pg.base.dorm3d_subtitle[21032] = {
+		id = 21032,
+		subtitle = "指揮官……テスト対象……変更したほうがよさそう"
+	}
+	pg.base.dorm3d_subtitle[21033] = {
+		id = 21033,
+		subtitle = "指揮官、テスト対象変更したよ……今度はナヒーモフの番…"
+	}
+	pg.base.dorm3d_subtitle[21034] = {
+		id = 21034,
+		subtitle = "こうすれば……指揮官にマーキングできるよ…"
+	}
+	pg.base.dorm3d_subtitle[21035] = {
+		id = 21035,
+		subtitle = "ここ……あとここも……全部、安心できる匂い……"
+	}
+	pg.base.dorm3d_subtitle[21036] = {
+		id = 21036,
+		subtitle = "指揮官の匂い……ちゃんと覚える……"
+	}
+	pg.base.dorm3d_subtitle[21037] = {
+		id = 21037,
+		subtitle = "んぅ……これで合ってる……？"
+	}
+	pg.base.dorm3d_subtitle[21038] = {
+		id = 21038,
+		subtitle = "ん………ちゅっ……"
+	}
+	pg.base.dorm3d_subtitle[21039] = {
+		id = 21039,
+		subtitle = "……これで……指揮官はナヒーモフのもの……"
+	}
+	pg.base.dorm3d_subtitle[21040] = {
+		id = 21040,
+		subtitle = "んぅ……指揮官の匂い……大好き……"
+	}
+	pg.base.dorm3d_subtitle[21041] = {
+		id = 21041,
+		subtitle = "指揮官、大好き……"
+	}
+	pg.base.dorm3d_subtitle[21042] = {
+		id = 21042,
+		subtitle = "ずっと……ずっと一緒……"
 	}
 end)()
