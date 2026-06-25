@@ -725,7 +725,7 @@ slot0.SetCharaCard = function(slot0)
 			setActive(slot2:Find("tedian"), slot6)
 			GetImageSpriteFromAtlasAsync(slot7, "", slot2:Find("mask/Dorm3dIconTpl/icon"))
 			setActive(slot2:Find("favor"), slot3.type == 2)
-			setText(slot2:Find("name"), slot3.name)
+			setScrollText(slot2:Find("name/text"), slot3.name)
 			uv2:SetBubbles(UIItemList.New(slot2:Find("bubbles/content"), slot2:Find("bubbles/content/tpl")), slot8)
 
 			slot12 = CommonCommodity.New({

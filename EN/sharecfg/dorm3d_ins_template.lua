@@ -13,7 +13,9 @@ pg.dorm3d_ins_template.all = {
 	30707201,
 	30707202,
 	49905201,
-	49905202
+	49905202,
+	79902201,
+	79902202
 }
 pg.dorm3d_ins_template.get_id_list_by_ship_group = {
 	[10517] = {
@@ -38,6 +40,10 @@ pg.dorm3d_ins_template.get_id_list_by_ship_group = {
 	[49905] = {
 		49905201,
 		49905202
+	},
+	[79902] = {
+		79902201,
+		79902202
 	}
 }
 pg.base = pg.base or {}
@@ -181,7 +187,7 @@ pg.base.dorm3d_ins_template = {}
 	}
 	pg.base.dorm3d_ins_template[49905201] = {
 		ship_group = 49905,
-		name = "Ägir ",
+		name = "Ägir",
 		sculpture = "aijier",
 		picture = "Ins_499051",
 		message = "aijier_1",
@@ -196,7 +202,7 @@ pg.base.dorm3d_ins_template = {}
 	}
 	pg.base.dorm3d_ins_template[49905202] = {
 		ship_group = 49905,
-		name = "Ägir ",
+		name = "Ägir",
 		sculpture = "aijier",
 		picture = "Ins_499052",
 		message = "aijier_2",
@@ -207,6 +213,36 @@ pg.base.dorm3d_ins_template = {}
 		discuss = {
 			21,
 			22
+		}
+	}
+	pg.base.dorm3d_ins_template[79902201] = {
+		ship_group = 79902,
+		name = "Admiral Nakhimov",
+		sculpture = "naximofu",
+		picture = "Ins_799021",
+		message = "naximofu_1",
+		background = "ins_199032_bg",
+		id = 79902201,
+		group_id = 1,
+		npc_discuss = "",
+		discuss = {
+			23,
+			24
+		}
+	}
+	pg.base.dorm3d_ins_template[79902202] = {
+		ship_group = 79902,
+		name = "Admiral Nakhimov",
+		sculpture = "naximofu",
+		picture = "Ins_799022",
+		message = "naximofu_2",
+		background = "ins_199032_bg",
+		id = 79902202,
+		group_id = 1,
+		npc_discuss = "",
+		discuss = {
+			25,
+			26
 		}
 	}
 end)()

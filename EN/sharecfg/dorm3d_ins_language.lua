@@ -57,7 +57,17 @@ pg.dorm3d_ins_language.all = {
 	"aijier_2_1",
 	"aijier_2_1_1",
 	"aijier_2_2",
-	"aijier_2_2_1"
+	"aijier_2_2_1",
+	"naximofu_1",
+	"naximofu_1_1",
+	"naximofu_1_1_1",
+	"naximofu_1_2",
+	"naximofu_1_2_1",
+	"naximofu_2",
+	"naximofu_2_1",
+	"naximofu_2_1_1",
+	"naximofu_2_2",
+	"naximofu_2_2_1"
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_language = {}
@@ -336,6 +346,56 @@ pg.base.dorm3d_ins_language = {}
 	pg.base.dorm3d_ins_language.aijier_2_2_1 = {
 		value = "Come over, Commander... Let's make this afternoon one to remember.",
 		key = "aijier_2_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1 = {
+		value = "I was watching an interactive game show when, suddenly, the TV started malfunctioning... It won't work no matter how much I try.",
+		key = "naximofu_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_1 = {
+		value = "I recorded it. How about we watch it together later?",
+		key = "naximofu_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_1_1 = {
+		value = "Thank you, Commander. Any time works for me.",
+		key = "naximofu_1_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_2 = {
+		value = "Should we play it together, too?",
+		key = "naximofu_1_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_1_2_1 = {
+		value = "That sounds fun. When can you come over?",
+		key = "naximofu_1_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2 = {
+		value = "What are the other stars up there like?",
+		key = "naximofu_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_1 = {
+		value = "Let's go stargaze some time.",
+		key = "naximofu_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_1_1 = {
+		value = "Okay! I'll bring fresh-roasted dried fish, too...",
+		key = "naximofu_2_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_2 = {
+		value = "We might find a secret base belonging to evil aliens.",
+		key = "naximofu_2_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.naximofu_2_2_1 = {
+		value = "Checking equipment status... Done. I'm ready for combat any time.",
+		key = "naximofu_2_2_1",
 		is_active = "0"
 	}
 end)()

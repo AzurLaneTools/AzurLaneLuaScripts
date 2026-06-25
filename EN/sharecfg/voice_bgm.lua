@@ -181,6 +181,11 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "theme-hrr"
 	}
+	pg.base.voice_bgm.ActivityShop50655 = {
+		default_bgm = "story-magicalnight-pv",
+		special_bgm = "",
+		bgm = "story-magicalnight-pv"
+	}
 	pg.base.voice_bgm.BuildShipScene = {
 		default_bgm = "main",
 		special_bgm = "",
@@ -501,13 +506,13 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "theme-starsea-core"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.AnniversarySixInvitationPage = {
 		default_bgm = "theme-partydress",
 		special_bgm = "",
 		bgm = "theme-partydress"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.AnniversarySixLoginPage = {
 		default_bgm = "theme-partydress",
 		special_bgm = "",
@@ -1198,13 +1203,13 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-quiet"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.EducateScheduleScene = {
 		default_bgm = "level",
 		special_bgm = "",
 		bgm = "level"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.EducateMapScene = {
 		default_bgm = "votefes-start",
 		special_bgm = "",
@@ -1700,13 +1705,13 @@ end)()
 		special_bgm = "",
 		bgm = "story-italy"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.Yidaliv3LoginRePage = {
 		default_bgm = "battle-boss-italy",
 		special_bgm = "",
 		bgm = "battle-boss-italy"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.YidaliV3MainRePage = {
 		default_bgm = "story-roma-inside",
 		special_bgm = "",
@@ -2202,13 +2207,13 @@ end)()
 		special_bgm = "",
 		bgm = "theme-warmwinter-daily"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.UrExTrafalgarPage = {
 		default_bgm = "story-royalnavy-serious",
 		special_bgm = "",
 		bgm = "story-royalnavy-serious"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.CelebrationPage = {
 		default_bgm = "story-musicanniversary-gorgeous",
 		special_bgm = "",
@@ -2704,13 +2709,13 @@ end)()
 		special_bgm = "",
 		bgm = "theme-fushun-adventure"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.WinterFestival2025SkinMagazinePage = {
 		default_bgm = "story-fantasyland-summer",
 		special_bgm = "",
 		bgm = "story-fantasyland-summer"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.HamanIITaskSkinPage = {
 		default_bgm = "story-richang-9",
 		special_bgm = "",
@@ -3125,5 +3130,30 @@ end)()
 		default_bgm = "story-startravel",
 		special_bgm = "",
 		bgm = "story-startravel"
+	}
+	pg.base.voice_bgm.DreamTourMainPage = {
+		default_bgm = "theme-magicalnight-mystic",
+		special_bgm = "",
+		bgm = "theme-magicalnight-mystic"
+	}
+	pg.base.voice_bgm.DreamTourPtPage = {
+		default_bgm = "story-magicalnight-pv",
+		special_bgm = "",
+		bgm = "story-magicalnight-pv"
+	}
+	pg.base.voice_bgm.DreamTourMedalAlbumView = {
+		default_bgm = "story-magicalnight-pv",
+		special_bgm = "",
+		bgm = "story-magicalnight-pv"
+	}
+	pg.base.voice_bgm.DormSignThirdPage = {
+		default_bgm = "story-room-pit",
+		special_bgm = "",
+		bgm = "story-room-pit"
+	}
+	pg.base.voice_bgm.DormTaskPage = {
+		default_bgm = "story-room-nakhimov",
+		special_bgm = "",
+		bgm = "story-room-nakhimov"
 	}
 end)()

@@ -11423,6 +11423,37 @@ _G.pg.base.item_data_statistics[15023] = {
 }
 
 
+_G.pg.base.item_data_statistics[15024] = {
+	open_directly = 0,
+	name = "Garage Construction Permit",
+	type = 100,
+	display = "A special permit that unlocks the Garage feature in the Private Quarters.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/15022",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 15024,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[16001] = {
 	open_directly = 0,
 	name = "T1 Offensive Skill Book",
@@ -29374,6 +29405,131 @@ _G.pg.base.item_data_statistics[30384] = {
 }
 
 
+_G.pg.base.item_data_statistics[30385] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Märchen Marvels)",
+	type = 11,
+	display = "Contains a random Märchen Marvels-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghualeyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30382",
+	id = 30385,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -45684,6 +45840,219 @@ _G.pg.base.item_data_statistics[30568] = {
 }
 
 
+_G.pg.base.item_data_statistics[30569] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Märchen Marvels)",
+	type = 13,
+	display = "Can be opened to receive 1 Märchen Marvels gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghualeyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30569,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "Universal T4 Part",
@@ -51785,6 +52154,43 @@ Coins x20000.]],
 			69901
 		}
 	}
+}
+
+
+_G.pg.base.item_data_statistics[40144] = {
+	open_directly = 1,
+	name = "Dream Circus SP Pack",
+	type = 17,
+	display = "Purchase 3 of the designated skins to get a Promise Ring.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 50660,
+	is_world = 0,
+	icon = "Props/black5bundle2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 40144,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			15006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -116252,6 +116658,73 @@ _G.pg.base.item_data_statistics[81441] = {
 		{
 			2,
 			86422,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81442] = {
+	open_directly = 1,
+	name = "Sparkling Dreams Lucky Box",
+	type = 17,
+	display = "Contains 1x random skin, 2x Special General Blueprints - Series 8, 2026x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai101",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998575",
+	id = 81442,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86423,
 			1
 		},
 		{

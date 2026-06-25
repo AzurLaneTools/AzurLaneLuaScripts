@@ -63,6 +63,9 @@ slot0.init = function(slot0)
 	slot0.rtLayer = slot0._tf:Find("Layer")
 	slot0.floorData = _.keys(pg.dorm3d_rooms.get_id_list_by_in_map)
 
+	table.sort(slot0.floorData, function (slot0, slot1)
+		return (tonumber(string.match(slot0, "%d+")) or 0) < (tonumber(string.match(slot1, "%d+")) or 0)
+	end)
 	slot0:SetMapSwitch()
 end
 
@@ -215,9 +218,17 @@ slot0.UpdateIconState = function(slot0, slot1)
 
 	slot5 = getProxy(PlayerProxy):getRawData().id
 
-	if slot2:Find("tip") then
-		setActive(slot2:Find("tip"), PlayerPrefs.GetInt(slot5 .. "_dorm3dRoomInviteSuccess_" .. slot1, 1) == 0)
+	if slot1 == 4 then
+		setActive(slot2:Find("inivite_tip"), PlayerPrefs.GetInt(slot5 .. "_dorm3dRoomInviteSuccess_" .. slot1, 1) == 0)
 	end
+
+	setActive(slot2:Find("tip"), (function ()
+		if not uv0 or not uv0:isPersonalRoom() then
+			return false
+		end
+
+		return getProxy(ApartmentProxy):HasShipGroupGiftExpireSoon(uv0:getConfig("character")[1])
+	end)())
 end
 
 slot0.UpdateShowIcon = function(slot0, slot1, slot2)

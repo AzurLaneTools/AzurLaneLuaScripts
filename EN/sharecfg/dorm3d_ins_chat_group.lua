@@ -45,7 +45,17 @@ pg.dorm3d_ins_chat_group.all = {
 	49905107,
 	49905108,
 	49905109,
-	49905110
+	49905110,
+	79902101,
+	79902102,
+	79902103,
+	79902104,
+	79902105,
+	79902106,
+	79902107,
+	79902108,
+	79902109,
+	79902110
 }
 pg.dorm3d_ins_chat_group.get_id_list_by_ship_group = {
 	[10517] = {
@@ -101,6 +111,18 @@ pg.dorm3d_ins_chat_group.get_id_list_by_ship_group = {
 		49905108,
 		49905109,
 		49905110
+	},
+	[79902] = {
+		79902101,
+		79902102,
+		79902103,
+		79902104,
+		79902105,
+		79902106,
+		79902107,
+		79902108,
+		79902109,
+		79902110
 	}
 }
 pg.base = pg.base or {}
@@ -1195,6 +1217,228 @@ pg.base.dorm3d_ins_chat_group = {}
 			709,
 			710,
 			711
+		}
+	}
+	pg.base.dorm3d_ins_chat_group[79902101] = {
+		ship_group = 79902,
+		name = "Time for a Drive",
+		unlock_desc = "Visit Admiral Nakhimov's private quarters 1 time.",
+		type = "1",
+		id = 79902101,
+		content = {
+			712,
+			713,
+			714,
+			715,
+			716,
+			717,
+			718,
+			719,
+			720,
+			721,
+			722,
+			723,
+			724,
+			725,
+			726,
+			727,
+			728
+		}
+	}
+	pg.base.dorm3d_ins_chat_group[79902102] = {
+		ship_group = 79902,
+		name = "I'm Nakhimov's Cable!",
+		unlock_desc = "Visit Admiral Nakhimov's private quarters over 2 days.",
+		type = "1",
+		id = 79902102,
+		content = {
+			729,
+			730,
+			731,
+			732,
+			733,
+			734,
+			735,
+			736,
+			737,
+			738,
+			739,
+			740,
+			741,
+			742,
+			743
+		}
+	}
+	pg.base.dorm3d_ins_chat_group[79902103] = {
+		ship_group = 79902,
+		name = "Let's Go Fishing",
+		unlock_desc = "Visit Admiral Nakhimov's private quarters over 4 days.",
+		type = "1",
+		id = 79902103,
+		content = {
+			744,
+			745,
+			746,
+			747,
+			748,
+			749,
+			750,
+			751,
+			752,
+			753,
+			754,
+			755,
+			756,
+			757,
+			758,
+			759
+		}
+	}
+	pg.base.dorm3d_ins_chat_group[79902104] = {
+		ship_group = 79902,
+		name = "In-Room Variables",
+		unlock_desc = "Collect 20 items inside Admiral Nakhimov's private quarters.",
+		type = "1",
+		id = 79902104,
+		content = {
+			760,
+			761,
+			762,
+			763,
+			764,
+			765,
+			766,
+			767,
+			768,
+			769,
+			770,
+			771,
+			772
+		}
+	}
+	pg.base.dorm3d_ins_chat_group[79902105] = {
+		ship_group = 79902,
+		name = "How to Coil Scientifically",
+		unlock_desc = "Touch Admiral Nakhimov 3 times in her private quarters.",
+		type = "1",
+		id = 79902105,
+		content = {
+			773,
+			774,
+			775,
+			776,
+			777,
+			778,
+			779,
+			780,
+			781,
+			782,
+			783,
+			784
+		}
+	}
+	pg.base.dorm3d_ins_chat_group[79902106] = {
+		ship_group = 79902,
+		name = "Affection System",
+		unlock_desc = "Give Admiral Nakhimov 5 gifts.",
+		type = "1",
+		id = 79902106,
+		content = {
+			833,
+			834,
+			835,
+			836,
+			837,
+			838,
+			839,
+			840,
+			841,
+			842,
+			843
+		}
+	}
+	pg.base.dorm3d_ins_chat_group[79902107] = {
+		ship_group = 79902,
+		name = "Sudden Rain",
+		unlock_desc = "Visit Admiral Nakhimov's private quarters 7 times.",
+		type = "1",
+		id = 79902107,
+		content = {
+			799,
+			800,
+			801,
+			802,
+			803,
+			804,
+			805,
+			806,
+			807
+		}
+	}
+	pg.base.dorm3d_ins_chat_group[79902108] = {
+		ship_group = 79902,
+		name = "Feline Habits",
+		unlock_desc = "Talk to Admiral Nakhimov in her private quarters 15 times.",
+		type = "1",
+		id = 79902108,
+		content = {
+			808,
+			809,
+			810,
+			811,
+			812,
+			813,
+			814,
+			815,
+			816,
+			817,
+			818,
+			819,
+			820
+		}
+	}
+	pg.base.dorm3d_ins_chat_group[79902109] = {
+		ship_group = 79902,
+		name = "Relieving Fatigue",
+		unlock_desc = "Touch Admiral Nakhimov 5 times in her private quarters.",
+		type = "1",
+		id = 79902109,
+		content = {
+			821,
+			822,
+			823,
+			824,
+			825,
+			826,
+			827,
+			828,
+			829,
+			830,
+			831,
+			832
+		}
+	}
+	pg.base.dorm3d_ins_chat_group[79902110] = {
+		ship_group = 79902,
+		name = "The Charms of Hard Work",
+		unlock_desc = "Give Admiral Nakhimov 10 gifts.",
+		type = "1",
+		id = 79902110,
+		content = {
+			785,
+			786,
+			787,
+			788,
+			789,
+			790,
+			791,
+			792,
+			793,
+			794,
+			795,
+			796,
+			797,
+			798
 		}
 	}
 end)()

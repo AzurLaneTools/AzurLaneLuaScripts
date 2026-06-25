@@ -179,6 +179,28 @@ slot0.getApartmentGiftCount = function(slot0, slot1)
 	return nil
 end
 
+slot0.HasGiftExpireSoon = function(slot0)
+	for slot4, slot5 in pairs(slot0.giftBag) do
+		if slot5 > 0 and Dorm3dGift.IsExpireSoon(slot4) then
+			return true
+		end
+	end
+
+	return false
+end
+
+slot0.HasShipGroupGiftExpireSoon = function(slot0, slot1)
+	return _.any(pg.dorm3d_gift.get_id_list_by_ship_group_id[slot1] or {}, function (slot0)
+		return uv0:getGiftCount(slot0) > 0 and Dorm3dGift.IsExpireSoon(slot0)
+	end)
+end
+
+slot0.GetShipGroupGiftExpireSoonTipIds = function(slot0, slot1)
+	return _.filter(pg.dorm3d_gift.get_id_list_by_ship_group_id[slot1] or {}, function (slot0)
+		return uv0:getGiftCount(slot0) > 0 and Dorm3dGift.IsExpireSoon(slot0) and Dorm3dGift.GetExpireSoonTipFlag(slot0) == 0
+	end)
+end
+
 slot0.addGiftGiveCount = function(slot0, slot1, slot2)
 	slot0.giftGiveCount[slot1] = slot0.giftGiveCount[slot1] + slot2
 end

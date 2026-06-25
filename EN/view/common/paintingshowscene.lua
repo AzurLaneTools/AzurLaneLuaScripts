@@ -43,6 +43,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
+	slot0._tf.sizeDelta = Vector2(Screen.width, Screen.height)
 	slot0.ad = findTF(slot0._tf, "ad")
 	slot0.paintTf = findTF(slot0.ad, "paint")
 	slot0.spineContainer = findTF(slot0.ad, "paint/spinePainting")
@@ -55,6 +56,7 @@ slot0.didEnter = function(slot0)
 	slot0.btnDebug = findTF(slot0.ad, "btnDebug")
 	slot0.effectTf = findTF(slot0.ad, "effect")
 
+	warning("init tf parent pos = " .. slot0._tf.parent.position.x .. "," .. slot0._tf.parent.position.y)
 	warning("init tf pos = " .. slot0._tf.anchoredPosition.x .. "," .. slot0._tf.anchoredPosition.y)
 	warning("init ad pos = " .. slot0.ad.anchoredPosition.x .. "," .. slot0.ad.anchoredPosition.y)
 	warning("init painting pos = " .. slot0.paintTf.anchoredPosition.x .. "," .. slot0.paintTf.anchoredPosition.y)
@@ -207,7 +209,7 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 			parent = slot0.spineContainer,
 			effectParent = slot0.effectContainer
 		}), function (slot0)
-			for slot5, slot6 in ipairs(slot0:GetSpineTrasform():GetComponent(typeof(ItemList)).prefabItem:ToTable()) do
+			for slot5, slot6 in ipairs(slot0:GetSpineTransform():GetComponent(typeof(ItemList)).prefabItem:ToTable()) do
 				if GetComponent(slot6, typeof(Canvas)) then
 					RemoveComponent(slot7, typeof(Canvas))
 				end

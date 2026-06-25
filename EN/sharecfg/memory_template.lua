@@ -4110,6 +4110,15 @@ pg.memory_template.all = {
 	5235,
 	5236,
 	5237,
+	5241,
+	5242,
+	5243,
+	5244,
+	5245,
+	5246,
+	5247,
+	5248,
+	5249,
 	10011,
 	10012,
 	10013,
@@ -78382,6 +78391,168 @@ end)()
 			"LAFEIER7"
 		}
 	}
+	pg.base.memory_template[5241] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Moonlit Guide",
+		condition = "Enter Story Mode.",
+		story = "MEIMENGXUNYANQIMIAOYE1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5241,
+		icon = "memory_meimengxunyanqimiaoye1",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE1"
+		}
+	}
+	pg.base.memory_template[5242] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Guardian of Dreams",
+		condition = "Unlock EPS-1",
+		story = "MEIMENGXUNYANQIMIAOYE2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5242,
+		icon = "memory_meimengxunyanqimiaoye2",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE2"
+		}
+	}
+	pg.base.memory_template[5243] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Feet on Fire",
+		condition = "Unlock EPS-2",
+		story = "MEIMENGXUNYANQIMIAOYE3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5243,
+		icon = "memory_meimengxunyanqimiaoye3",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE3"
+		}
+	}
+	pg.base.memory_template[5244] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Escape Magic",
+		condition = "Unlock EPS-3",
+		story = "MEIMENGXUNYANQIMIAOYE4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5244,
+		icon = "memory_meimengxunyanqimiaoye4",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE4"
+		}
+	}
+	pg.base.memory_template[5245] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Inventor on the Swing",
+		condition = "Unlock EPS-4",
+		story = "MEIMENGXUNYANQIMIAOYE5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5245,
+		icon = "memory_meimengxunyanqimiaoye5",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE5"
+		}
+	}
+	pg.base.memory_template[5246] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Paintbrush of Dreams",
+		condition = "Unlock EPS-5",
+		story = "MEIMENGXUNYANQIMIAOYE6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5246,
+		icon = "memory_meimengxunyanqimiaoye6",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE6"
+		}
+	}
+	pg.base.memory_template[5247] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Love's Arrow Strikes True",
+		condition = "Unlock EPS-6",
+		story = "MEIMENGXUNYANQIMIAOYE7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5247,
+		icon = "memory_meimengxunyanqimiaoye7",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE7"
+		}
+	}
+	pg.base.memory_template[5248] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Final Companion",
+		condition = "Unlock EPS-7",
+		story = "MEIMENGXUNYANQIMIAOYE8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5248,
+		icon = "memory_meimengxunyanqimiaoye8",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE8"
+		}
+	}
+	pg.base.memory_template[5249] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Show Must Go On",
+		condition = "Unlock EPS-8",
+		story = "MEIMENGXUNYANQIMIAOYE9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5249,
+		icon = "memory_meimengxunyanqimiaoye8",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE9"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -79912,6 +80083,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA28"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20028] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80074,8 +80247,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA37"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20037] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81714,6 +81885,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA47"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20128] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81876,8 +82049,6 @@ end)()
 			"LINGYANGZHEXINZHIXUYU9"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20138] = {
 		ship_group = 0,
 		subtitle = "",

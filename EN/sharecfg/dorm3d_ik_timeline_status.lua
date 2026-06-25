@@ -25,7 +25,10 @@ pg.dorm3d_ik_timeline_status.all = {
 	26,
 	27,
 	28,
-	29
+	29,
+	30,
+	31,
+	32
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ik_timeline_status = {}
@@ -194,6 +197,27 @@ pg.base.dorm3d_ik_timeline_status = {}
 		char_id = 30707,
 		ik_id = {
 			59999912
+		}
+	}
+	pg.base.dorm3d_ik_timeline_status[30] = {
+		id = 30,
+		char_id = 79902,
+		ik_id = {
+			79999901
+		}
+	}
+	pg.base.dorm3d_ik_timeline_status[31] = {
+		id = 31,
+		char_id = 79902,
+		ik_id = {
+			79999902
+		}
+	}
+	pg.base.dorm3d_ik_timeline_status[32] = {
+		id = 32,
+		char_id = 79902,
+		ik_id = {
+			79999903
 		}
 	}
 end)()

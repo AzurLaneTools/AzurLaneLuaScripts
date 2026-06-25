@@ -229,7 +229,45 @@ pg.dorm3d_subtitle.all = {
 	12052,
 	12053,
 	12054,
-	12055
+	12055,
+	21001,
+	21002,
+	21003,
+	21004,
+	21005,
+	21006,
+	21007,
+	21008,
+	21009,
+	21010,
+	21011,
+	21012,
+	21013,
+	21014,
+	21015,
+	21016,
+	21021,
+	21022,
+	21023,
+	21024,
+	21025,
+	21026,
+	21027,
+	21028,
+	21029,
+	21030,
+	21031,
+	21032,
+	21033,
+	21034,
+	21035,
+	21036,
+	21037,
+	21038,
+	21039,
+	21040,
+	21041,
+	21042
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_subtitle = {}
@@ -1142,5 +1180,157 @@ end)()
 	pg.base.dorm3d_subtitle[12055] = {
 		id = 12055,
 		subtitle = "Let's make tonight... one to remember♥"
+	}
+	pg.base.dorm3d_subtitle[21001] = {
+		id = 21001,
+		subtitle = "Mm... Commander, try this."
+	}
+	pg.base.dorm3d_subtitle[21002] = {
+		id = 21002,
+		subtitle = "It's just the right level of sweetness... Delicious."
+	}
+	pg.base.dorm3d_subtitle[21003] = {
+		id = 21003,
+		subtitle = "Hm? Why is it suddenly sweeter?"
+	}
+	pg.base.dorm3d_subtitle[21004] = {
+		id = 21004,
+		subtitle = "Some got on your lip... I'll clean it off for you."
+	}
+	pg.base.dorm3d_subtitle[21005] = {
+		id = 21005,
+		subtitle = "Right... According to my analysis, th-this should be the most efficient way..."
+	}
+	pg.base.dorm3d_subtitle[21006] = {
+		id = 21006,
+		subtitle = "Zzz... Systems normal... Parameters all green..."
+	}
+	pg.base.dorm3d_subtitle[21007] = {
+		id = 21007,
+		subtitle = "Mm... That feels good... Mreow..."
+	}
+	pg.base.dorm3d_subtitle[21008] = {
+		id = 21008,
+		subtitle = "Ah, Commander..."
+	}
+	pg.base.dorm3d_subtitle[21009] = {
+		id = 21009,
+		subtitle = "You're so warm... Let me hold you for a little longer."
+	}
+	pg.base.dorm3d_subtitle[21010] = {
+		id = 21010,
+		subtitle = "Just one more minute, please..."
+	}
+	pg.base.dorm3d_subtitle[21011] = {
+		id = 21011,
+		subtitle = "Condenser module replacement is complete... Loose ribbon cable has been reattached."
+	}
+	pg.base.dorm3d_subtitle[21012] = {
+		id = 21012,
+		subtitle = "Commander, I think–"
+	}
+	pg.base.dorm3d_subtitle[21013] = {
+		id = 21013,
+		subtitle = "Ah..."
+	}
+	pg.base.dorm3d_subtitle[21014] = {
+		id = 21014,
+		subtitle = "These cables on the floor tripped me up..."
+	}
+	pg.base.dorm3d_subtitle[21015] = {
+		id = 21015,
+		subtitle = "Commander? You feel so hot..."
+	}
+	pg.base.dorm3d_subtitle[21016] = {
+		id = 21016,
+		subtitle = "Do you need repairs?"
+	}
+	pg.base.dorm3d_subtitle[21021] = {
+		id = 21021,
+		subtitle = "Mm... Its structure is simple, and its inner workings are primitive... but I can't help but follow it with my eyes."
+	}
+	pg.base.dorm3d_subtitle[21022] = {
+		id = 21022,
+		subtitle = "Hmm..."
+	}
+	pg.base.dorm3d_subtitle[21023] = {
+		id = 21023,
+		subtitle = "It's only piqued my interest as a researcher..."
+	}
+	pg.base.dorm3d_subtitle[21024] = {
+		id = 21024,
+		subtitle = "Meow... Quit moving it so fast... That's no fair."
+	}
+	pg.base.dorm3d_subtitle[21025] = {
+		id = 21025,
+		subtitle = "Hold it still... This is necessary for performing capture analysis."
+	}
+	pg.base.dorm3d_subtitle[21026] = {
+		id = 21026,
+		subtitle = "Mreeeow!"
+	}
+	pg.base.dorm3d_subtitle[21027] = {
+		id = 21027,
+		subtitle = "There... I've got it. So its instructive effects are real."
+	}
+	pg.base.dorm3d_subtitle[21028] = {
+		id = 21028,
+		subtitle = "Commander... Do you want this? Okay... You can have this prey."
+	}
+	pg.base.dorm3d_subtitle[21029] = {
+		id = 21029,
+		subtitle = "Meow... D-don't interfere with my tests!"
+	}
+	pg.base.dorm3d_subtitle[21030] = {
+		id = 21030,
+		subtitle = "Hm? A reward? Okay, we can keep going..."
+	}
+	pg.base.dorm3d_subtitle[21031] = {
+		id = 21031,
+		subtitle = "That feels good... Mreeeow!"
+	}
+	pg.base.dorm3d_subtitle[21032] = {
+		id = 21032,
+		subtitle = "Commander... I think we should test something else now."
+	}
+	pg.base.dorm3d_subtitle[21033] = {
+		id = 21033,
+		subtitle = "Commander, I've changed the test subject. It's my turn now..."
+	}
+	pg.base.dorm3d_subtitle[21034] = {
+		id = 21034,
+		subtitle = "Now I can mark you..."
+	}
+	pg.base.dorm3d_subtitle[21035] = {
+		id = 21035,
+		subtitle = "Here, and here... This is the scent of safety and security..."
+	}
+	pg.base.dorm3d_subtitle[21036] = {
+		id = 21036,
+		subtitle = "I'll imprint your smell on my memory..."
+	}
+	pg.base.dorm3d_subtitle[21037] = {
+		id = 21037,
+		subtitle = "Hm? Is this how it's done?"
+	}
+	pg.base.dorm3d_subtitle[21038] = {
+		id = 21038,
+		subtitle = "Mm... Mwah..."
+	}
+	pg.base.dorm3d_subtitle[21039] = {
+		id = 21039,
+		subtitle = "Now... You're mine..."
+	}
+	pg.base.dorm3d_subtitle[21040] = {
+		id = 21040,
+		subtitle = "Mm... I love your scent, Commander..."
+	}
+	pg.base.dorm3d_subtitle[21041] = {
+		id = 21041,
+		subtitle = "And I love you..."
+	}
+	pg.base.dorm3d_subtitle[21042] = {
+		id = 21042,
+		subtitle = "We'll be together forever..."
 	}
 end)()

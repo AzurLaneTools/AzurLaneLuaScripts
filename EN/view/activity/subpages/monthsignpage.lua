@@ -1,20 +1,41 @@
 slot0 = class("MonthSignPage", import("...base.BaseActivityPage"))
 slot0.SHOW_RE_MONTH_SIGN = "show re month sign award"
+slot0.MILESTONE_SPECIAL_DATA = "month_sign_milestone_day"
 slot0.MONTH_SIGN_SHOW = {}
+slot0.MONTH_SIGN_SP_DAYS = {
+	30,
+	60,
+	120,
+	240,
+	300
+}
 
 slot0.OnInit = function(slot0)
 	slot0.bg = slot0._tf:Find("bg")
 	slot0.items = slot0._tf:Find("items")
 	slot0.item = slot0.items:Find("item")
+	slot0.spDay = slot0._tf:Find("sp_day")
+	slot0.spDayEffects = {}
 	slot0.monthSignReSignUI = MonthSignReSignUI.New(slot0._tf, slot0.event, nil)
 
-	slot0:bind(uv0.SHOW_RE_MONTH_SIGN, function (slot0, slot1, slot2)
+	slot4 = function(slot0, slot1, slot2)
 		if not uv0.monthSignReSignUI:GetLoaded() then
 			uv0.monthSignReSignUI:Load()
 		end
 
 		uv0.monthSignReSignUI:ActionInvoke("setAwardShow", slot1, slot2)
-	end)
+	end
+
+	slot0:bind(uv0.SHOW_RE_MONTH_SIGN, slot4)
+
+	for slot4, slot5 in ipairs(MonthSignPage.MONTH_SIGN_SP_DAYS) do
+		slot6 = slot0.spDay:Find(slot5 .. "days")
+		slot0.spDayEffects[slot5] = slot6
+
+		setActive(slot6, false)
+	end
+
+	setActive(slot0.spDay, false)
 	setText(slot0._tf:Find("login/Text"), i18n("yearly_sign_in"))
 	setText(slot0._tf:Find("login/count/Text"), i18n("word_date"))
 end
@@ -79,6 +100,7 @@ slot0.OnUpdateFlush = function(slot0)
 		return
 	end
 
+	slot0:UpdateLoginInfo()
 	slot0.list:align(slot0.monthDays)
 
 	if slot0.specialTag then
@@ -112,6 +134,12 @@ slot0.showReMonthSign = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	if slot0.spEffectLT then
+		LeanTween.cancel(slot0.spEffectLT)
+
+		slot0.spEffectLT = nil
+	end
+
 	removeAllChildren(slot0.items)
 
 	slot0.monthSignPageTool = nil
@@ -140,6 +168,57 @@ slot0.UpdateLoginInfo = function(slot0)
 		setText(slot2:Find("month"), string.format("%02d/%02d/%02d-%02d/%02d/%02d", slot4[1][1] % 100, slot4[1][2], slot4[1][3], slot5[1][1] % 100, slot5[1][2], slot5[1][3]))
 		setText(slot2:Find("count/day"), slot1:getData1())
 	end
+end
+
+slot0.TryShowSpEffect = function(slot0, slot1)
+	slot6 = slot0:GetEffectLeftTime(slot0.spDayEffects[slot0.activity:getSpecialData(uv0.MILESTONE_SPECIAL_DATA)]:Find("heidi"):GetComponent(typeof("UnityEngine.ParticleSystem")))
+
+	slot0.activity:setSpecialData(uv0.MILESTONE_SPECIAL_DATA, nil)
+	setActive(slot0.spDay, true)
+
+	if slot0.spEffectLT then
+		LeanTween.cancel(slot0.spEffectLT)
+
+		slot0.spEffectLT = nil
+	end
+
+	setActive(slot3, true)
+
+	slot7 = LeanTween.value(go(slot3), 0, 1, slot6)
+	slot0.spEffectLT = slot7:setOnComplete(System.Action(function ()
+		uv0.spEffectLT = nil
+
+		uv0:HideSPEffect(uv1)
+	end)).uniqueId
+end
+
+slot0.GetEffectLeftTime = function(slot0, slot1)
+	slot2 = slot1.main
+
+	return slot2.startDelay.constantMax + slot2.duration + slot2.startLifetime.constantMax
+end
+
+slot0.HideSPEffect = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.spDayEffects) do
+		if slot6 then
+			setActive(slot6, false)
+		end
+	end
+
+	setActive(slot0.spDay, false)
+	existCall(slot1)
+end
+
+slot0.ShouldPlaySpEffect = function(slot0)
+	if not slot0 then
+		return false
+	end
+
+	if slot0:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
+		return false
+	end
+
+	return slot0:getSpecialData(uv0.MILESTONE_SPECIAL_DATA) and table.contains(uv0.MONTH_SIGN_SP_DAYS, slot1)
 end
 
 return slot0

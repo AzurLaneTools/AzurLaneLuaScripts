@@ -162,6 +162,7 @@ pg.pay_data_display.all = {
 	165,
 	166,
 	167,
+	168,
 	1000,
 	1001,
 	1002,
@@ -19544,6 +19545,140 @@ end)()
 			}
 		}
 	}
+	pg.base.pay_data_display[168] = {
+		picture = "fudai102",
+		name = "Sparkling Dreams Lucky Box",
+		type = 1,
+		second_text = "Many Rewards",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Sparkling Dreams Lucky Box",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.luckybag89",
+		extra_gem = 0,
+		id = 168,
+		airijp_id = "com.yostaren.azurlane.luckybag89",
+		name_display = "Sparkling Dreams Lucky Box",
+		first_text = "Random Skin",
+		akashi_pick = 1,
+		skin_inquire_relation = 86423,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86423,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86423,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81442,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86423,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	}
 	pg.base.pay_data_display[1000] = {
 		picture = "battlepass_1",
 		name = "Fair Winds Cruise Pass",
@@ -22958,6 +23093,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2014] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
@@ -23076,8 +23213,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2015] = {
 		picture = "tech3_display",
 		name = "PR Construction Pack - Series 3",

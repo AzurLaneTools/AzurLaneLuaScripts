@@ -16,7 +16,9 @@ pg.dorm3d_camera_photo_frame.all = {
 	1010,
 	1011,
 	1012,
-	1013
+	1013,
+	1014,
+	1015
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_camera_photo_frame = {}
@@ -275,6 +277,46 @@ pg.base.dorm3d_camera_photo_frame = {}
 		unlock = {
 			1,
 			49905,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_camera_photo_frame[1014] = {
+		name = "Retro",
+		rarity = 3,
+		farme_path = "photo_frame_tv",
+		frameTfName = "TVFrame",
+		desc = "Unlocks the Retro frame for the camera feature.",
+		unlock_text = "Reach Admiral Nakhimov Intimacy Lv.5",
+		id = 1014,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_tv_small",
+		unlock = {
+			1,
+			79902,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_camera_photo_frame[1015] = {
+		name = "Holofilm",
+		rarity = 3,
+		farme_path = "photo_frame_projection",
+		frameTfName = "TVFrame",
+		desc = "Unlocks the Holofilm frame for the camera feature.",
+		unlock_text = "Reach Admiral Nakhimov Intimacy Lv.13",
+		id = 1015,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_projection_small",
+		unlock = {
+			1,
+			79902,
 			13
 		},
 		watermark_location = {

@@ -397,6 +397,13 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["罗"] = {
+			["芒"] = {
+				["什"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

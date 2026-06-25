@@ -945,7 +945,8 @@ slot0.isShow = function(slot0)
 		end)
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_RYZA and table.contains({
 		ActivityConst.DORM_SIGN_ID,
-		ActivityConst.DORM_SIGN_ID_2
+		ActivityConst.DORM_SIGN_ID_2,
+		ActivityConst.DORM_SIGN_ID_3
 	}, slot0:getConfig("id")) then
 		return #getProxy(ActivityProxy):getActivityById(slot0:getConfig("id")):getConfig("config_data") ~= #getProxy(ActivityTaskProxy):getFinishTaskById(slot0:getConfig("id"))
 	end

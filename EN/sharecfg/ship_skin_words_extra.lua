@@ -423,7 +423,11 @@ pg.ship_skin_words_extra.all = {
 	401140,
 	401150,
 	204030,
-	202200
+	202200,
+	818010,
+	806020,
+	801060,
+	699010
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_words_extra = {}
@@ -7525,12 +7529,14 @@ end)()
 		}
 	}
 	pg.base.ship_skin_words_extra[403100] = {
-		touch = "",
 		feeling3 = "",
 		win_mvp = "",
 		upgrade = "",
 		expedition = "",
+		main_extra = "",
+		home = "",
 		mission = "",
+		touch2 = "",
 		id = 403100,
 		skill = "",
 		unlock = "",
@@ -7539,46 +7545,24 @@ end)()
 		feeling4 = "",
 		feeling1 = "",
 		hp_warning = "",
+		feeling5 = "",
 		main = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		battle = "",
-		login = {
+		login = "",
+		detail = "",
+		headtouch = {
 			{
 				1100,
-				"Howdy. Finished charging your batteries? I can help if you still need more energy."
+				"Huh? This is praise, right? Thanks."
 			}
 		},
-		home = {
+		touch = {
 			{
 				1100,
-				"I'm gonna open the window and get some fresh air in here. C'mon! Breathe in, breathe out!"
-			}
-		},
-		detail = {
-			{
-				1100,
-				"Yeah, hey... Hmm... Huh? Me? I'm as carefree as can be. What about you? Something you wanna get off your chest?"
-			}
-		},
-		main_extra = {
-			{
-				1100,
-				"Man, your desk is just loaded with neat stuff. Hehehe, ain't never a dull moment in your office~|I'm like a human shredder, tearing paperwork you don't wanna do into ribbons... Hmm. You sure you can still manage with this amount?|It's not so bad doing the same task all day when you've got someone to vibe with~|Heard Strasser sat Heinrich down and made her read a book for once. Maybe I should find something to read before bedtime."
-			}
-		},
-		touch2 = {
-			{
-				1100,
-				"You've really got a, uh, keen interest in women's bodies."
-			}
-		},
-		feeling5 = {
-			{
-				1100,
-				"You down to hang out with me today? Ah, right, you've got work... Tell you what, I'll help you with it. First order of business: putting a smile on your face~"
+				"I was thinking I'd do something fun with you before today's training. Yeah, THAT kinda fun."
 			}
 		}
 	}
@@ -10638,7 +10622,6 @@ end)()
 		hp_warning = "",
 		main = "",
 		profile = "",
-		headtouch = "",
 		feeling2 = "",
 		login = {
 			{
@@ -10662,6 +10645,12 @@ end)()
 			{
 				1100,
 				"I've got a brilliant plan B, so do your worst!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heheh! Charging complete!♪ Now I'm at full throttle again!♪"
 			}
 		},
 		detail = {
@@ -29684,6 +29673,268 @@ end)()
 			{
 				1100,
 				"There is no greater joy and honour than being able to indulge in your warmth... my one and only beloved Master."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[818010] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 818010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"I'm bored of everyday small talk. Let's skip the boring etiquette and have some fun, heheheh!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Let's go to the cafeteria together for a romantic, full-course Iris-style meal. Imagine the looks on everybody else's faces while they're having quick meals! Heheheheh!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hmm? The spot you should be touching is right here, isn't it...? I'm sure it'll be more fun and thrilling... Heheheh."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Why does your office door lead to my room now? Hehe, it's just a little trick of mine~ The look on your face made it all worth it.|Let's flip a coin. If it's heads, we'll go do paperwork. If it's tails... let's do something more fun... Oh. It's standing on its edge? Isn't that funny!|Tadaaa! Work's over, which means it's time for our date! Let's get going... You want me to wait? No way! I'm at the end of my patience♪"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Heheheh. Are you getting bored of the dull days, too?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Aaah. Try not to bore me too soon, now... Heheheh♥"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I used to think that fun things were like sand on a beach – you can't have them all, and they'll slip through your fingers eventually. But then... I met you, Commander. You're my one-of-a-kind, inexhaustible treasure."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[806020] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 806020,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Com-man-der! Heheh... Seeing you again makes me super happy!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander! Great work on that last mission! May I give you a massage? ...Huh? Don't worry, I won't be too rough! It'll be okay!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heheh... Keep going, Commander! I'll tell you when you've petted me enough♪"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, I just discovered this cool pose! Basically, I wrap my legs around your waist like this... and now, I can use you to do stretches!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I was playing hopscotch just now, but I accidentally held the chalk too hard and broke it to bits... It was really pretty to see it fall down like a rainbow of powder!|Commander~ It's break time! Get over here so I can show you the after-exercise massage I just learned!|Whoa! Commander, why are you watching my practice videos? ...Let me watch with you! I'll sit in your lap – it's my personal VIP seat!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hm? You wanna touch Marteau? Be my guest!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Heheh... Don't underestimate how flexible I am!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"With my super-invincible Arromanches Hug, I'm gonna give you all of my joy, passion, and devoted love all at once! Hnnngh... Do you feel it, Commander?!"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[801060] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 801060,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Heheh... I smell something even better than barbecue meat. *sniff*... You smell delicious... Umm, I mean, welcome home! I just made barbecue. Come eat up!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good work, Commander! Relax and let me knead and tenderize those shoulders. Does it feel good? Hmm... How else can I make you taste even better?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hehe, that feels nice. Smells good, too..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, are you tired? Wanna lie down on me and take a nap? I'll be the perfect, immobile cushion for you!|Urgh, my tummy's rumbling... Meat... Where's the meat? Do you have it? Thank goodness!|Just one more piece left... No, this is for the Commander... Huh? Can I really have half of it?!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Mmm... I wanna jump into your arms and take a big whiff of your scent!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Heheh, I'm used to this, so it won't surprise me anymore. Come with me now♪"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I wanna give you a hug... May I? Here I come... Huggies! You and I will be together forever, like meat and potatoes!"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[699010] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 699010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Come, Commander, let us achieve magnificent things together in our sugar-sweet days. I can hardly wait to begin!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"I organized today's work while you were absent. And now let's finish them together! For this is the responsibility we share!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Does this please you? Very well. Do as you wish."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"You wish to add a new chapter to the life story of Marco Polo? Magnificent. So, what will you write? You simply must include my ambition, of course... but you might wish to add something about our ordinary days of love as well!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Your talents are wasted on that trifling paperwork! The real battlefield is not here, but out there! We really need to be applying our efforts to formulating expansion and changing the game!|My domain is your domain, and my status is your status. In other words, they are the result of our combined efforts! How magnificent!|How strange... I haven't had a single response to the collaboration plan I put out. Did I overestimate their efficiency?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Have you thought of a way to achieve our ambitions? Not yet? Hehehe... What perfect timing, for I have an idea to share right now!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You know, no matter how much time passes, you always – Mngh?!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"It was always my dream to conquer all I laid my eyes upon. However, I have now found a magnificent dream that will bring me even greater satisfaction. That's right. It is to carve the name of Marco Polo onto everything you do and accomplish!"
 			}
 		}
 	}

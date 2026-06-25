@@ -70,7 +70,16 @@ pg.dorm3d_furniture_template.all = {
 	1414,
 	1415,
 	1461,
-	1462
+	1462,
+	2101,
+	2102,
+	2103,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2161
 }
 pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 	{
@@ -154,6 +163,17 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		1415,
 		1461,
 		1462
+	},
+	[21] = {
+		2101,
+		2102,
+		2103,
+		2111,
+		2112,
+		2113,
+		2114,
+		2115,
+		2161
 	}
 }
 pg.base = pg.base or {}
@@ -1946,6 +1966,223 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/study"
+		}
+	}
+	pg.base.dorm3d_furniture_template[2101] = {
+		rarity = 3,
+		name = "Cardboard Abode",
+		unlock_tips = "",
+		type = 4,
+		room_id = 21,
+		desc = "A bed made out of a cardboard box. It's light, portable, simple, and comfortable all at once. What better bed for a girl who likes to curl up at night?",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2101,
+		target_slots = {
+			2210101
+		},
+		touch_id = {
+			{
+				79902,
+				7990210
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2102] = {
+		rarity = 3,
+		name = "Multipurpose Storage Rack",
+		unlock_tips = "",
+		type = 6,
+		room_id = 21,
+		desc = "The five-tier open shelf has books, tools, and other essentials sorted neatly within. Adorned with the traces of everyday life, it keeps all of one's needs readily within reach.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2102,
+		target_slots = {
+			2210201
+		},
+		touch_id = {
+			{
+				79902,
+				7990220
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2103] = {
+		rarity = 3,
+		name = "Sun-Warmed Spot",
+		unlock_tips = "",
+		type = 5,
+		room_id = 21,
+		desc = "A warm, white sofa decorated with the sunny, orange cushions. The matching low table and blanket make it a perfectly inviting place to relax.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2103,
+		target_slots = {
+			2210301
+		},
+		touch_id = {
+			{
+				79902,
+				7990230
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2111] = {
+		rarity = 2,
+		name = "Windowside Plant",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "A potted plant by the window, with upright branches and unfurled leaves, breathing life and a touch of nature into the space.",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_flowerpot01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2111,
+		target_slots = {
+			2210303
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2112] = {
+		rarity = 2,
+		name = "Kitty Cushion",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "A hefty, but soft cushion. No matter where it's placed, it becomes the perfect place of rest for any kitty.",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_cushion01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2112,
+		target_slots = {
+			2210304
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2113] = {
+		rarity = 2,
+		name = "Ball-and-Stick Model",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "This science-themed art piece is inspired by atomic models and crystal structures. It serves as a collectible for lovers of physics and a unique desktop decoration.",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_decoration01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2113,
+		target_slots = {
+			2210302
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2114] = {
+		rarity = 2,
+		name = "Glazed Porcelain",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "A plump, yellow porcelain item. It has a lustrous glaze and charming, plump shape... much like a donut.",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_ceram01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2114,
+		target_slots = {
+			2210103
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2115] = {
+		rarity = 2,
+		name = "Aroma Diffuser",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "This ceramic vessel holds slender incense sticks. They carry a lovely fragrance throughout the room.",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_cosmetic01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2115,
+		target_slots = {
+			2210102
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2161] = {
+		rarity = 4,
+		name = "Revolving Data Inspector",
+		type = 6,
+		room_id = 21,
+		desc = "The circular scanner slowly rotates as data flows across the screen like stars in the sky. Who knows what scientific mysteries will be unveiled when the start button is pressed?",
+		is_exclusive = 1,
+		model = "Pay_Naximofuhostel/pre_db_naximofu_basement01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_PremiumFurniture1",
+		acesses = "",
+		id = 2161,
+		target_slots = {
+			2210201
+		},
+		touch_id = {
+			{
+				79902,
+				7990240
+			}
+		},
+		shop_id = {
+			270701
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture2161"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/basement/pre_db_naximofu_basement01_0"
 		}
 	}
 end)()

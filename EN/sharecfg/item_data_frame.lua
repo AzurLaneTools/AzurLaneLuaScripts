@@ -99,6 +99,8 @@ pg.item_data_frame.all = {
 	1010,
 	1011,
 	1012,
+	1013,
+	1014,
 	10001,
 	10002,
 	10003,
@@ -971,6 +973,24 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>A steel-blue flag flutters amidst the surging waves, a golden crown placed atop it to symbolize its dominion over the sea.</color>\nCan be obtained by raising Ägir's Intimacy in the Private Quarters.",
 		scene = {}
 	}
+	pg.base.item_data_frame[1013] = {
+		name = "Charging Device",
+		gain_by = "",
+		time_second = 0,
+		id = 1013,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Green currents of electricity pulse, with cat ears and bulbs flashing in unison.</color>\nCan be obtained by raising Admiral Nakhimov's Intimacy in the Private Quarters.",
+		scene = {}
+	}
+	pg.base.item_data_frame[1014] = {
+		name = "Cybernetic Greeting",
+		gain_by = "",
+		time_second = 0,
+		id = 1014,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Paw prints and cat tail have appeared in the data stream! It's a hyperspace kitty's greeting.</color>\nCan be obtained by raising Admiral Nakhimov's Intimacy in the Private Quarters.",
+		scene = {}
+	}
 	pg.base.item_data_frame[10001] = {
 		name = "Extreme Challenge - Gemini",
 		gain_by = "",
@@ -998,6 +1018,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Leo. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 8/1/23 – 8/31/23 Season.",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10004] = {
 		name = "Extreme Challenge - Virgo",
 		gain_by = "",
@@ -1016,8 +1038,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Libra. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \nObtained from [Extreme Challenge] during the 10/1/23 - 10/31/23 Season.",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10006] = {
 		name = "Extreme Challenge - Scorpio",
 		gain_by = "",

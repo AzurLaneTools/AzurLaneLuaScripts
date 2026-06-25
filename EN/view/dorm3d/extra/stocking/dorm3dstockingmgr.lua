@@ -309,7 +309,7 @@ slot0.SetStockingStatus = function(slot0, slot1)
 	warning(">>>>>>>>>>> enter stocking mode <<<<<<<<<<", slot1)
 	seriesAsync({
 		function (slot0)
-			uv0:Func("SetIKState", false, slot0, {
+			uv0:Emit(RoomIKSystem.SET_IK_STATE, false, slot0, {
 				ignoreResetExtraItem = true
 			})
 		end,
@@ -365,8 +365,8 @@ slot0.ExitStockingStatus = function(slot0)
 			uv0:Func("ResetSceneItemAnimators")
 			uv0:Func("ResetTempHideSceneItems", uv0.ladyEnv)
 			uv0:Func("RevertCameraOrbit")
-			uv0:Func("SwitchIKConfig", uv0.ladyEnv, uv0.cacheIkStatus)
-			uv0:Func("SetIKState", true)
+			uv0:Emit(RoomIKSystem.SET_IK_CONFIG, uv0.ladyEnv, uv0.cacheIkStatus)
+			uv0:Emit(RoomIKSystem.SET_IK_STATE, true)
 			slot0()
 		end
 	})

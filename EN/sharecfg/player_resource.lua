@@ -535,6 +535,12 @@ pg.player_resource.all = {
 	720,
 	721,
 	722,
+	726,
+	727,
+	728,
+	729,
+	730,
+	731,
 	732,
 	733,
 	734,
@@ -813,6 +819,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	activity_xunzhang18 = {
 		700
+	},
+	activity_xunzhang19 = {
+		727
 	},
 	activity_xunzhang2 = {
 		460
@@ -1240,6 +1249,12 @@ pg.player_resource.get_id_list_by_name = {
 	limit_skinticket10 = {
 		467
 	},
+	limit_skinticket100 = {
+		729
+	},
+	limit_skinticket101 = {
+		730
+	},
 	limit_skinticket105 = {
 		732
 	},
@@ -1537,6 +1552,9 @@ pg.player_resource.get_id_list_by_name = {
 	limit_skinticket98 = {
 		721
 	},
+	limit_skinticket99 = {
+		728
+	},
 	liuzhounianhaidao_pt = {
 		350
 	},
@@ -1744,6 +1762,9 @@ pg.player_resource.get_id_list_by_name = {
 	sadingSPlianzhan_pt = {
 		616
 	},
+	sebao_pt = {
+		726
+	},
 	shanluan_mission_pt = {
 		381
 	},
@@ -1842,6 +1863,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	skinTicket120 = {
 		722
+	},
+	skinTicket121 = {
+		731
 	},
 	skinTicket13 = {
 		184
@@ -5316,6 +5340,36 @@ end)()
 		name = "skinTicket120",
 		itemid = 65991
 	}
+	pg.base.player_resource[726] = {
+		id = 726,
+		name = "sebao_pt",
+		itemid = 66051
+	}
+	pg.base.player_resource[727] = {
+		id = 727,
+		name = "activity_xunzhang19",
+		itemid = 65992
+	}
+	pg.base.player_resource[728] = {
+		id = 728,
+		name = "limit_skinticket99",
+		itemid = 68312
+	}
+	pg.base.player_resource[729] = {
+		id = 729,
+		name = "limit_skinticket100",
+		itemid = 68313
+	}
+	pg.base.player_resource[730] = {
+		id = 730,
+		name = "limit_skinticket101",
+		itemid = 68314
+	}
+	pg.base.player_resource[731] = {
+		id = 731,
+		name = "skinTicket121",
+		itemid = 66040
+	}
 	pg.base.player_resource[732] = {
 		id = 732,
 		name = "limit_skinticket105",
@@ -5626,6 +5680,8 @@ end)()
 		name = "synchronize_bulisituoer",
 		itemid = 21923
 	}
+end)()
+(function ()
 	pg.base.player_resource[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -5656,8 +5712,6 @@ end)()
 		name = "battlepass_4",
 		itemid = 59280
 	}
-end)()
-(function ()
 	pg.base.player_resource[4005] = {
 		id = 4005,
 		name = "battlepass_5",

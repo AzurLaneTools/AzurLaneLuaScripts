@@ -387,6 +387,7 @@ pg.skill_data_template.all = {
 	61080,
 	61090,
 	61100,
+	61110,
 	7000,
 	9010,
 	9020,
@@ -1434,8 +1435,14 @@ pg.skill_data_template.all = {
 	152380,
 	152390,
 	152410,
+	152420,
+	152430,
 	152440,
 	152450,
+	152460,
+	152470,
+	152480,
+	152490,
 	18010,
 	18040,
 	18050,
@@ -2158,6 +2165,8 @@ pg.skill_data_template.all = {
 	30602,
 	30611,
 	30612,
+	30621,
+	30622,
 	101010,
 	101020,
 	101030,
@@ -13774,6 +13783,20 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61110] = {
+		desc_get = "",
+		name = "Master of Laughter",
+		type = 0,
+		max_level = 0,
+		desc = "Changes the BGM when equipped. If other gear that changes the BGM is active simultaneously, only a randomly chosen one will take effect.",
+		id = 61110,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -14552,6 +14575,8 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[9120] = {
 		desc_get = "",
 		name = "Future Content ",
@@ -14566,8 +14591,6 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[9709] = {
 		desc_get = "",
 		name = "Future Content ",
@@ -21725,6 +21748,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10960] = {
 		desc_get = "Grants the following buffs to Ayanami, Akatsuki, Ikazuchi, Inazuma, Fubuki and Hibiki: increases FP and EVA by 15.0% (30.0% when fully upgraded) and TRP by 4.0% (10.0% when fully upgraded.)",
 		name = "Special Lead Ship",
@@ -21831,8 +21856,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10970] = {
 		desc_get = "",
 		name = "Fighting Mary",
@@ -30108,6 +30131,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11950] = {
 		desc_get = "",
 		name = "Concerto of the Unfreezing Port",
@@ -30259,8 +30284,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11960] = {
 		desc_get = "",
 		name = "Star of the Shimmering Fjord",
@@ -39669,6 +39692,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13020] = {
 		desc_get = "",
 		name = "Lod Obstrel",
@@ -39732,8 +39757,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13030] = {
 		desc_get = "",
 		name = "Warcry of Unity",
@@ -49301,6 +49324,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14020] = {
 		desc_get = "",
 		name = "I'll Protect the Vanguard!",
@@ -49452,8 +49477,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14030] = {
 		desc_get = "",
 		name = "Ontological Rudder",
@@ -60654,6 +60677,8 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15020] = {
 		desc_get = "",
 		name = "Knockout Shot",
@@ -60796,8 +60821,6 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15030] = {
 		desc_get = "",
 		name = "Taking One for the Team",
@@ -72600,6 +72623,8 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16030] = {
 		desc_get = "",
 		name = "Violet Lightning Storm",
@@ -72697,8 +72722,6 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16040] = {
 		desc_get = "",
 		name = "Tempestuous Blade",
@@ -84125,6 +84148,8 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17040] = {
 		desc_get = "",
 		name = "Coalescence of Cloudshade and Etherlight",
@@ -84231,8 +84256,6 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17050] = {
 		desc_get = "",
 		name = "荡涤诸恶跨队BUFFID占用",
@@ -95254,6 +95277,8 @@ When this ship hits an enemy with her Secondary Guns, or when an Iris Libre or V
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150100] = {
 		desc_get = "",
 		name = "『临界爆发』跨队ID占用",
@@ -95268,8 +95293,6 @@ When this ship hits an enemy with her Secondary Guns, or when an Iris Libre or V
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150120] = {
 		desc_get = "",
 		name = "Symphony Rehearsal",
@@ -106743,6 +106766,8 @@ If any enemies are affected by Jet-Black Paint, the Crit Rate of this special ba
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151090] = {
 		desc_get = "",
 		name = "Welkin Blessing",
@@ -106885,8 +106910,6 @@ If any enemies are affected by Jet-Black Paint, the Crit Rate of this special ba
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151100] = {
 		desc_get = "",
 		name = "Genius's Intuition",
@@ -118593,6 +118616,8 @@ During battle, when this ship has taken DMG totaling to 25.0% of her max HP, or 
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152060] = {
 		desc_get = "",
 		name = "I'll Handle This!",
@@ -118735,8 +118760,6 @@ During battle, when this ship has taken DMG totaling to 25.0% of her max HP, or 
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152070] = {
 		desc_get = "",
 		name = "I'll Whoop You!",
@@ -121941,6 +121964,164 @@ At the start of battle, this ship gains the following effects based on the numbe
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[152420] = {
+		desc_get = "",
+		name = "Woah! It's Marteau!",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship launches an airstrike: throws a $1 Marteau that can hit underwater enemies, pierces shields, and always critically strikes (DMG is based on the skill's level); enemies hit by Marteau are inflicted with Armor Break, a special Burn debuff, a special Flooding debuff, and have their SPD and AA reduced by 8.0%, lasting for 6s (DMG of the special Burn and Flooding debuffs are based on AVI and the skill's level).",
+		id = 152420,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152430] = {
+		desc_get = "",
+		name = "Woohoo! Ready to Fire!",
+		type = 3,
+		max_level = 10,
+		desc = "At the start of battle: increases this ship's AVI and AA by $1, and increases the flight speed of this ship's aircraft by 5. Once per battle, when this ship's aircraft shoots down an enemy aircraft: increases this ship's ACC by $2 until the end of battle.",
+		id = 152430,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"30.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+1.1%"
+				},
+				{
+					"21.1%",
+					"+1.1%"
+				},
+				{
+					"22.2%",
+					"+1.1%"
+				},
+				{
+					"23.3%",
+					"+1.1%"
+				},
+				{
+					"24.4%",
+					"+1.1%"
+				},
+				{
+					"25.5%",
+					"+1.1%"
+				},
+				{
+					"26.6%",
+					"+1.1%"
+				},
+				{
+					"27.7%",
+					"+1.1%"
+				},
+				{
+					"28.8%",
+					"+1.2%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[152440] = {
 		desc_get = "",
 		name = "Journey to Wonderland",
@@ -122190,6 +122371,511 @@ Each effect can only be activated once per battle. When all 3 effects have been 
 				},
 				{
 					"20.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152460] = {
+		desc_get = "",
+		name = "Illusionist of Fact and Fiction",
+		type = 2,
+		max_level = 10,
+		desc = "At the start of battle: increases this ship's AA and EVA by $1. If this ship has a large-caliber Main Gun equipped: increases this ship's Main Gun efficiency by 10.0%. Once per battle, if this ship's total DMG taken exceeds 20.0% of her Max HP: increases this ship's SPD by 4 and restores $2 of her Max HP.",
+		id = 152460,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152470] = {
+		desc_get = "",
+		name = "Seeing Isn't Believing",
+		type = 2,
+		max_level = 10,
+		desc = "Every 20s: deploys a zone around this ship that lasts for 8s. While this zone persists: increases this ship's Dodge Rate by $1; additionally, reduces the DMG taken of allied Vanguard ships inside the zone by $1, and reduces the ACC and SPD of enemies inside the zone by $2 and 10.0% respectively.",
+		id = 152470,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152480] = {
+		desc_get = "",
+		name = "Bladework: Master of Anatomy",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of battle: increases this ship's FP and ACC by $1. Every 15s: fires a $2 special barrage (DMG is based on the skill's level); enemies hit by this barrage take $3 more DMG from L'Intrépide.",
+		id = 152480,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152490] = {
+		desc_get = "",
+		name = "Meat Lover",
+		type = 2,
+		max_level = 10,
+		desc = "30s after the battle starts: L'Intrépide gains the Chow Down status, reducing her SPD by 10.0% and DMG taken by $1 for 8s. When the Chow Down status expires: increases this ship's AA and EVA by $2 until the end of battle, and generates a barrier that can absorb up to $3 of this ship's Max HP.",
+		id = 152490,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
 				}
 			}
 		}
@@ -128001,6 +128687,8 @@ Every 10s, or when a ship in your fleet fires her AA Gun: increases your Vanguar
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19250] = {
 		desc_get = "",
 		name = "Emotion Inhibition Module",
@@ -128691,8 +129379,6 @@ Every 10s, or when a ship in your fleet fires her AA Gun: increases your Vanguar
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19320] = {
 		desc_get = "",
 		name = "Ausgewogen",
@@ -137062,6 +137748,8 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20121] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -137160,8 +137848,6 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20211] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -138464,6 +139150,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22132] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -138562,8 +139250,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22211] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -139866,6 +140552,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[26011] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -139964,8 +140652,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[26112] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -141268,6 +141954,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29271] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -141366,8 +142054,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29302] = {
 		desc_get = "",
 		name = "Future Content ",
@@ -142678,6 +143364,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29782] = {
 		desc_get = "",
 		name = "All-Out Assault II",
@@ -142776,8 +143464,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29821] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -144080,6 +144766,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30312] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -144178,8 +144866,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30351] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -144937,6 +145623,34 @@ end)()
 		max_level = 1,
 		desc = "Every 6 times the Main Gun is fired: activates All Out Assault II: P-Class; every 10 times the special secondary gun is fired: activates Torpedo Barrage II.",
 		id = 30612,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30621] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Cherbourg once every 12 times the Main Guns are fired.",
+		id = 30621,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30622] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Cherbourg once every 8 times the Main Guns are fired.",
+		id = 30622,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -148154,6 +148868,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[105150] = {
 		desc_get = "",
 		name = "Tarot Card Divination",
@@ -149101,8 +149817,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106090] = {
 		desc_get = "",
 		name = "Not-So-Gentle Sister",
@@ -157271,6 +157985,8 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[108260] = {
 		desc_get = "",
 		name = "Take to the Skies+",
@@ -158223,8 +158939,6 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[108350] = {
 		desc_get = "",
 		name = "Dragon Figurine",
@@ -165759,6 +166473,8 @@ Once per battle, when this ship's HP falls below 80.0% as a result of DMG taken,
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[111230] = {
 		desc_get = "",
 		name = "Living Weapon",
@@ -166561,8 +167277,6 @@ Once per battle, when this ship's HP falls below 80.0% as a result of DMG taken,
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[112070] = {
 		desc_get = "",
 		name = "Trial of Death+",
@@ -173269,6 +173983,8 @@ When the battle ends, for each Clone on the battlefield, Kurumi Tokisaki gains 5
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800207] = {
 		desc_get = "",
 		name = "Ashen Might - Fusou II",
@@ -173537,8 +174253,6 @@ When the battle ends, for each Clone on the battlefield, Kurumi Tokisaki gains 5
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800260] = {
 		desc_get = "",
 		name = "Seething Chains",
@@ -177911,6 +178625,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800772] = {
 		desc_get = "",
 		name = "Cinders of Hope - La Galissonnière II",
@@ -178412,8 +179128,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800817] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -183213,6 +183927,8 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801307] = {
 		desc_get = "",
 		name = "Ashen Might - Wichita II",
@@ -183708,8 +184424,6 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801370] = {
 		desc_get = "",
 		name = "The Rain Weaves and Disperses",
@@ -188677,6 +189391,8 @@ Additionally, once per battle each, the following effects activate based on the 
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801880] = {
 		desc_get = "",
 		name = "Swift Hunt",
@@ -189226,8 +189942,6 @@ Additionally, once per battle each, the following effects activate based on the 
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801932] = {
 		desc_get = "",
 		name = "Ashen Might - Dewey II",
@@ -193025,6 +193739,8 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[902230] = {
 		desc_get = "",
 		name = "Tempesta's Protection",
@@ -193151,8 +193867,6 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[902320] = {
 		desc_get = "",
 		name = "Fast Loading Crew",
@@ -203721,6 +204435,8 @@ The DMG of both these barrages is based on the skill's level.]],
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1013050] = {
 		desc_get = "",
 		name = "Long Live the Revolution!+",
@@ -205138,8 +205854,6 @@ When this ship's Divine Marksman barrage activates, if there is an enemy with th
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1010720] = {
 		desc_get = "",
 		name = "Guarding Shield+",

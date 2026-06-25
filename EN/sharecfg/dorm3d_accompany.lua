@@ -15,7 +15,9 @@ pg.dorm3d_accompany.all = {
 	121,
 	122,
 	141,
-	142
+	142,
+	211,
+	212
 }
 pg.dorm3d_accompany.get_id_list_by_ship_id = {
 	[10517] = {
@@ -42,6 +44,10 @@ pg.dorm3d_accompany.get_id_list_by_ship_id = {
 	[49905] = {
 		141,
 		142
+	},
+	[79902] = {
+		211,
+		212
 	}
 }
 pg.base = pg.base or {}
@@ -334,6 +340,50 @@ pg.base.dorm3d_accompany = {}
 			5,
 			16,
 			49905
+		}
+	}
+	pg.base.dorm3d_accompany[211] = {
+		sceneInfo = "map_naximofu_01|Naximofu_DB/Naximofuhostel",
+		name = "日常相伴",
+		performance_time = 20,
+		image = "naximofu_accompany_room",
+		ship_id = 79902,
+		resource_room = 21,
+		timeline = "Xiangban_personal_79902",
+		id = 211,
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {}
+	}
+	pg.base.dorm3d_accompany[212] = {
+		sceneInfo = "map_carwash_01|Carwash",
+		name = "休闲相伴",
+		performance_time = 20,
+		image = "carwash_accompany",
+		ship_id = 79902,
+		resource_room = 26,
+		timeline = "Xiangban_carwash_79902",
+		id = 212,
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {
+			5,
+			21,
+			79902
 		}
 	}
 end)()

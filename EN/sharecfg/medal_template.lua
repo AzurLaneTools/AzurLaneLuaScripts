@@ -130,7 +130,8 @@ pg.medal_template.all = {
 	200141,
 	200151,
 	200161,
-	200171
+	200171,
+	200181
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2940,6 +2941,27 @@ A medal based on the Anchorage National Observatory.
 		rank = 1,
 		id = 200171,
 		explain1 = "The Opulent! The Glamorous! Luxury Bay!",
+		explain2 = "Event"
+	}
+	pg.base.medal_template[200181] = {
+		target_id = "50659",
+		name = "Miracle by Midnight Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "The curtains rise, the lights shimmer, origami wings take flight, and the magical paintbrush dances! Welcome to the never-ending circus!\nMay your dreams shine brightly in this miraculous midnight moment!",
+		next = 0,
+		icon = "9181",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9181",
+		condition = "Collect 8 stickers in Miracle by Midnight.",
+		rank = 1,
+		id = 200181,
+		explain1 = "Miracle by Midnight",
 		explain2 = "Event"
 	}
 end)()

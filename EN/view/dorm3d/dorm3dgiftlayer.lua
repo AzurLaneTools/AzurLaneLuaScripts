@@ -100,8 +100,18 @@ slot0.UpdateSelectToggle = function(slot0, slot1)
 	end
 
 	slot0.toggleState = slot1
+
+	slot0:UpdateFilterGiftIds()
+	slot0.giftItemList:align(#slot0.filterGiftIds)
+end
+
+slot0.UpdateFilterGiftIds = function(slot0)
 	slot0.filterGiftIds = underscore.filter(slot0.giftIds, function (slot0)
-		return uv0 == "all" or uv0 == "normal" == (pg.dorm3d_gift[slot0].ship_group_id == 0)
+		if pg.dorm3d_gift[slot0].hide_if_not_owned == 1 and uv0.proxy:getGiftCount(slot0) <= 0 then
+			return false
+		end
+
+		return uv0.toggleState == "all" or uv0.toggleState == "normal" == (slot1.ship_group_id == 0)
 	end)
 
 	table.sort(slot0.filterGiftIds, CompareFuncs({
@@ -109,13 +119,19 @@ slot0.UpdateSelectToggle = function(slot0, slot1)
 			return (uv0.proxy:getGiftCount(slot0) > 0 and -1 or 1) * (pg.dorm3d_gift[slot0].ship_group_id == 0 and 1 or 2)
 		end,
 		function (slot0)
-			return pg.dorm3d_gift[slot0].ship_group_id > 0 and uv0.proxy:isGiveGiftDone(slot0) and 1 or 0
+			return Dorm3dGift.IsSingleGiveGift(slot0) and uv0.proxy:isGiveGiftDone(slot0) and 1 or 0
 		end,
 		function (slot0)
 			return slot0
 		end
 	}))
-	slot0.giftItemList:align(#slot0.filterGiftIds)
+
+	if slot0.selectGiftId and not table.indexof(slot0.filterGiftIds, slot0.selectGiftId) then
+		slot0.selectGiftId = nil
+		slot0.selectGiftCount = nil
+
+		slot0:UpdateConfirmBtn()
+	end
 end
 
 slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
@@ -136,17 +152,18 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 	setActive(slot4:Find("bg/normal"), not slot6)
 	setActive(slot4:Find("bg/pro"), slot6)
 	setText(slot4:Find("info/Text"), i18n("dorm3d_gift_owner_num") .. string.format("%d", slot5.count))
+	setActive(slot4:Find("info/overtime"), Dorm3dGift.IsExpireSoon(slot2))
 
 	slot7 = slot4:Find("info/effect")
 
 	setActive(slot7:Find("favor"), true)
 	setText(slot7:Find("favor/number"), "+" .. pg.dorm3d_favor_trigger[slot5.cfg.favor_trigger_id].num)
-	setActive(slot7:Find("story"), slot6)
+	setActive(slot7:Find("story"), pg.dorm3d_gift[slot2].unlock_dialogue_id ~= 0)
 	onButton(slot0, slot4:Find("info/btn_info"), function ()
 		uv0:OpenLackWindow(uv1)
 	end, SFX_PANEL)
 
-	slot9 = slot6 and slot0.proxy:isGiveGiftDone(slot2)
+	slot10 = Dorm3dGift.IsSingleGiveGift(slot2) and slot0.proxy:isGiveGiftDone(slot2)
 
 	setActive(slot4:Find("info/lack"), Dorm3dGift.New({
 		configId = slot2
@@ -163,11 +180,11 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 			count = slot13
 		})
 
-		setActive(slot4:Find("info/lack/tip"), slot6 and not slot9 and Dorm3dGift.GetViewedFlag(slot2) == 0)
+		setActive(slot4:Find("info/lack/tip"), slot6 and not slot10 and Dorm3dGift.GetViewedFlag(slot2) == 0)
 
 		slot17 = nil
 
-		_.each(slot10:getConfig("shop_id"), function (slot0)
+		_.each(slot9:getConfig("shop_id"), function (slot0)
 			if pg.shop_template[slot0].group_type == 2 then
 				uv0 = math.max(slot1.group_limit, uv0)
 			end
@@ -175,7 +192,7 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 
 		if 0 > 0 then
 			slot17 = {
-				getProxy(ApartmentProxy):GetGiftShopCount(slot10:GetConfigID()),
+				getProxy(ApartmentProxy):GetGiftShopCount(slot9:GetConfigID()),
 				slot18
 			}
 		end
@@ -213,7 +230,7 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 		end, SFX_PANEL)
 	end
 
-	setActive(slot1:Find("mask"), slot9)
+	setActive(slot1:Find("mask"), slot10)
 	setText(slot1:Find("mask/Image/Text"), i18n("dorm3d_already_gifted"))
 
 	slot12 = function(slot0)
@@ -260,12 +277,15 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 
 		setActive(uv4:Find("base/PageUtil"), slot0)
 	end, SFX_PANEL)
-	setToggleEnabled(slot1, not slot9)
+	setToggleEnabled(slot1, not slot10)
 	triggerToggle(slot1, slot3)
 end
 
 slot0.SingleUpdateGift = function(slot0, slot1)
-	if table.indexof(slot0.filterGiftIds, slot1) > 0 then
+	slot0:UpdateFilterGiftIds()
+	slot0.giftItemList:align(#slot0.filterGiftIds)
+
+	if table.indexof(slot0.filterGiftIds, slot1) then
 		slot0:UpdateGift(slot0.giftItemList.container:GetChild(slot2 - 1), slot1, true)
 	end
 end
@@ -291,7 +311,7 @@ end
 
 slot0.ConfirmGiveGifts = function(slot0)
 	if slot0.proxy:getGiftCount(slot0.selectGiftId) == 0 then
-		if pg.dorm3d_gift[slot0.selectGiftId].ship_group_id > 0 and slot0.proxy:isGiveGiftDone(slot0.selectGiftId) then
+		if Dorm3dGift.IsSingleGiveGift(slot0.selectGiftId) and slot0.proxy:isGiveGiftDone(slot0.selectGiftId) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_shop_gift_already_given"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_shop_gift_not_owned"))
@@ -324,7 +344,7 @@ slot0.ConfirmGiveGifts = function(slot0)
 end
 
 slot0.AfterGiveGift = function(slot0, slot1)
-	if table.indexof(slot0.filterGiftIds, slot1.giftId) > 0 then
+	if table.indexof(slot0.filterGiftIds, slot1.giftId) then
 		quickPlayAnimation(slot0.giftItemList.container:GetChild(slot3 - 1), "anim_dorm3d_giftui_Select")
 	end
 

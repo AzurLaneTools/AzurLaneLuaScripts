@@ -1974,4 +1974,16 @@ end)()
 		actor_name = "Yumi Tōma",
 		code = 508
 	}
+	pg.base.voice_actor_CN[509] = {
+		actor_name = "Rin Kusumi",
+		code = 509
+	}
+	pg.base.voice_actor_CN[510] = {
+		actor_name = "Mayu Iizuka",
+		code = 510
+	}
+	pg.base.voice_actor_CN[511] = {
+		actor_name = "Aika Wakuno",
+		code = 511
+	}
 end)()

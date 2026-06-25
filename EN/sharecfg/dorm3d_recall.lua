@@ -34,7 +34,11 @@ pg.dorm3d_recall.all = {
 	141,
 	142,
 	143,
-	144
+	144,
+	211,
+	212,
+	213,
+	214
 }
 pg.dorm3d_recall.get_id_list_by_story_id = {
 	[10010] = {
@@ -132,6 +136,18 @@ pg.dorm3d_recall.get_id_list_by_story_id = {
 	},
 	[140541] = {
 		144
+	},
+	[210510] = {
+		211
+	},
+	[210520] = {
+		212
+	},
+	[210530] = {
+		213
+	},
+	[210541] = {
+		214
 	}
 }
 pg.base = pg.base or {}
@@ -572,6 +588,61 @@ pg.base.dorm3d_recall = {}
 		unlock = {
 			3,
 			4990501
+		}
+	}
+	pg.base.dorm3d_recall[211] = {
+		story_id = 210510,
+		name = "High-Efficiency Plan",
+		type = 1,
+		id = 211,
+		image = "recall_211",
+		unlock_text = "Reach Nakhimov Intimacy Lv. 4",
+		desc = "The secret to sweetness lies in the method.",
+		unlock = {
+			1,
+			79902,
+			4
+		}
+	}
+	pg.base.dorm3d_recall[212] = {
+		story_id = 210520,
+		name = "Morning Warmth",
+		type = 1,
+		id = 212,
+		image = "recall_212",
+		unlock_text = "Reach Nakhimov Intimacy Lv. 8",
+		desc = "Your warm embrace is the most relaxing thing.",
+		unlock = {
+			1,
+			79902,
+			8
+		}
+	}
+	pg.base.dorm3d_recall[213] = {
+		story_id = 210530,
+		name = "Maintenance Expert",
+		type = 1,
+		id = 213,
+		image = "recall_213",
+		unlock_text = "Reach Nakhimov Intimacy Lv. 12",
+		desc = "Commander... It looks like you need repairs, meow~",
+		unlock = {
+			1,
+			79902,
+			12
+		}
+	}
+	pg.base.dorm3d_recall[214] = {
+		story_id = 210541,
+		name = "Hidden Instinct",
+		type = 1,
+		id = 214,
+		image = "recall_214",
+		unlock_text = "Unlocked after gifting Instinct Instructor.",
+		desc = "In front of a cat toy, instincts trump data.",
+		unlock = {
+			3,
+			7990201
 		}
 	}
 end)()

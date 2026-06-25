@@ -144,7 +144,15 @@ pg.activity_medal_template.all = {
 	5061604,
 	5061605,
 	5061606,
-	5061607
+	5061607,
+	5065901,
+	5065902,
+	5065903,
+	5065904,
+	5065905,
+	5065906,
+	5065907,
+	5065908
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -324,6 +332,16 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5061605,
 		5061606,
 		5061607
+	},
+	[50659] = {
+		5065901,
+		5065902,
+		5065903,
+		5065904,
+		5065905,
+		5065906,
+		5065907,
+		5065908
 	}
 }
 pg.base = pg.base or {}
@@ -1195,7 +1213,7 @@ pg.base.activity_medal_template = {}
 		medal_asset = "ActivityMedal/5013601"
 	}
 	pg.base.activity_medal_template[5013602] = {
-		activity_medal_desc = "Behold the soaring phoenix's majestic dance; hearken to its cries that echo through Amahara above.",
+		activity_medal_desc = "Behold the soaring phoenix's majestic dance",
 		next_medal = 0,
 		item = 65687,
 		remake_task_id = 0,
@@ -2035,5 +2053,101 @@ end)()
 		activity_medal_name = "Sticker: Tower of Luxury",
 		id = 5061607,
 		medal_asset = "ActivityMedal/5061607"
+	}
+	pg.base.activity_medal_template[5065901] = {
+		activity_medal_desc = "Let's get this show on the road! Come one, come all to the world of surprises!",
+		next_medal = 0,
+		item = 65993,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "1",
+		task_id = 21976,
+		activity_medal_name = "Sticker: A World of Surprises",
+		id = 5065901,
+		medal_asset = "ActivityMedal/5065901"
+	}
+	pg.base.activity_medal_template[5065902] = {
+		activity_medal_desc = "Time to witness a miracle!",
+		next_medal = 0,
+		item = 65994,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "2",
+		task_id = 21977,
+		activity_medal_name = "Sticker: Hat Trick",
+		id = 5065902,
+		medal_asset = "ActivityMedal/5065902"
+	}
+	pg.base.activity_medal_template[5065903] = {
+		activity_medal_desc = "No staff members were turned into dinner during the making of this stunt.",
+		next_medal = 0,
+		item = 65995,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "3",
+		task_id = 21978,
+		activity_medal_name = "Sticker: Ring of Fire",
+		id = 5065903,
+		medal_asset = "ActivityMedal/5065903"
+	}
+	pg.base.activity_medal_template[5065904] = {
+		activity_medal_desc = "Amateurs marvel at the spectacle, pros marvel at the details.",
+		next_medal = 0,
+		item = 65996,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "4",
+		task_id = 21979,
+		activity_medal_name = "Sticker: Escape Artist",
+		id = 5065904,
+		medal_asset = "ActivityMedal/5065904"
+	}
+	pg.base.activity_medal_template[5065905] = {
+		activity_medal_desc = "Manjuu, out!",
+		next_medal = 0,
+		item = 65997,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "5",
+		task_id = 21980,
+		activity_medal_name = "Sticker: Flying Manjuu",
+		id = 5065905,
+		medal_asset = "ActivityMedal/5065905"
+	}
+	pg.base.activity_medal_template[5065906] = {
+		activity_medal_desc = "Can you truly be cool without knowing how to shoot a bow with your feet?",
+		next_medal = 0,
+		item = 65998,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "6",
+		task_id = 21981,
+		activity_medal_name = "Sticker: Foot Archery",
+		id = 5065906,
+		medal_asset = "ActivityMedal/5065906"
+	}
+	pg.base.activity_medal_template[5065907] = {
+		activity_medal_desc = "It's just a paintbrush. How powerful could it be?",
+		next_medal = 0,
+		item = 65999,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "7",
+		task_id = 21982,
+		activity_medal_name = "Sticker: Colorful Paintbrush",
+		id = 5065907,
+		medal_asset = "ActivityMedal/5065907"
+	}
+	pg.base.activity_medal_template[5065908] = {
+		activity_medal_desc = "You came all the way here. Don't back out now.",
+		next_medal = 0,
+		item = 66045,
+		remake_task_id = 0,
+		group = 50659,
+		prefab_node = "8",
+		task_id = 21983,
+		activity_medal_name = "Sticker: Circus Ticket",
+		id = 5065908,
+		medal_asset = "ActivityMedal/5065908"
 	}
 end)()

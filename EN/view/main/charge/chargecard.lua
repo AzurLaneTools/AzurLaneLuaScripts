@@ -102,33 +102,34 @@ slot0.updateCharge = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.numLeftText, false)
 
 	slot7, slot8 = slot1:inTime()
+	slot9 = slot1:getConfig("id") == ActivityConst.FREE_PACKAGE_SHOW_TIME_ID
 
-	if slot7 and not slot1:isFree() and slot8 and slot8 > 0 then
+	if slot7 and (not slot1:isFree() or slot9) and slot8 and slot8 > 0 then
 		setActive(slot0.numLeftText, true)
 
-		slot9, slot10, slot11 = pg.TimeMgr.GetInstance():parseTimeFrom(slot8)
+		slot10, slot11, slot12 = pg.TimeMgr.GetInstance():parseTimeFrom(slot8)
 
-		if slot9 > 0 then
-			setText(slot0.numLeftText, i18n("shop_goods_left_day", slot9))
-		elseif slot10 > 0 then
-			setText(slot0.numLeftText, i18n("shop_goods_left_hour", slot10))
-		elseif slot11 then
-			setText(slot0.numLeftText, i18n("shop_goods_left_minute", slot11 > 0 and slot11 or 1))
+		if slot10 > 0 then
+			setText(slot0.numLeftText, i18n("shop_goods_left_day", slot10))
+		elseif slot11 > 0 then
+			setText(slot0.numLeftText, i18n("shop_goods_left_hour", slot11))
+		elseif slot12 then
+			setText(slot0.numLeftText, i18n("shop_goods_left_minute", slot12 > 0 and slot12 or 1))
 		end
 
-		slot12 = 60
-		slot13 = 3600
-		slot15 = nil
+		slot13 = 60
+		slot14 = 3600
+		slot16 = nil
 
 		if 86400 <= slot8 then
-			slot15 = slot8 % slot14
+			slot16 = slot8 % slot15
+		elseif slot14 <= slot8 then
+			slot16 = slot8 % slot14
 		elseif slot13 <= slot8 then
-			slot15 = slot8 % slot13
-		elseif slot12 <= slot8 then
-			slot15 = slot8 % slot12
+			slot16 = slot8 % slot13
 		end
 
-		if slot15 and slot15 > 0 then
+		if slot16 and slot16 > 0 then
 			if slot0.countDownTimer then
 				slot0.countDownTimer:Stop()
 
@@ -137,7 +138,7 @@ slot0.updateCharge = function(slot0, slot1, slot2, slot3)
 
 			slot0.countDownTimer = Timer.New(function ()
 				uv0:updateGemItem(uv1, uv2)
-			end, slot15, 1)
+			end, slot16, 1)
 
 			slot0.countDownTimer:Start()
 		end
@@ -149,13 +150,13 @@ slot0.updateCharge = function(slot0, slot1, slot2, slot3)
 		slot0:updateImport(slot0:GetPayDisplayItemData(slot1))
 	end
 
-	slot10 = slot1.buyCount
-	slot11 = slot1:getLimitCount()
+	slot11 = slot1.buyCount
+	slot12 = slot1:getLimitCount()
 
 	if slot1:getConfig("limit_type") == 2 then
-		setText(slot0.limitText, i18n("charge_limit_all", slot11 - slot10, slot11))
-	elseif slot9 == 4 then
-		setText(slot0.limitText, i18n("charge_limit_daily", slot11 - slot10, slot11))
+		setText(slot0.limitText, i18n("charge_limit_all", slot12 - slot11, slot12))
+	elseif slot10 == 4 then
+		setText(slot0.limitText, i18n("charge_limit_daily", slot12 - slot11, slot12))
 	else
 		setText(slot0.limitText, "")
 	end
@@ -232,33 +233,34 @@ slot0.updateGemItem = function(slot0, slot1, slot2)
 	setActive(slot0.numLeftText, false)
 
 	slot7, slot8 = slot1:inTime()
+	slot9 = slot1:getConfig("id") == ActivityConst.FREE_PACKAGE_SHOW_TIME_ID
 
-	if slot7 and not slot1:isFree() and slot8 and slot8 > 0 then
+	if slot7 and (not slot1:isFree() or slot9) and slot8 and slot8 > 0 then
 		setActive(slot0.numLeftText, true)
 
-		slot9, slot10, slot11 = pg.TimeMgr.GetInstance():parseTimeFrom(slot8)
+		slot10, slot11, slot12 = pg.TimeMgr.GetInstance():parseTimeFrom(slot8)
 
-		if slot9 > 0 then
-			setText(slot0.numLeftText, i18n("shop_goods_left_day", slot9))
-		elseif slot10 > 0 then
-			setText(slot0.numLeftText, i18n("shop_goods_left_hour", slot10))
-		elseif slot11 then
-			setText(slot0.numLeftText, i18n("shop_goods_left_minute", slot11 > 0 and slot11 or 1))
+		if slot10 > 0 then
+			setText(slot0.numLeftText, i18n("shop_goods_left_day", slot10))
+		elseif slot11 > 0 then
+			setText(slot0.numLeftText, i18n("shop_goods_left_hour", slot11))
+		elseif slot12 then
+			setText(slot0.numLeftText, i18n("shop_goods_left_minute", slot12 > 0 and slot12 or 1))
 		end
 
-		slot12 = 60
-		slot13 = 3600
-		slot15 = nil
+		slot13 = 60
+		slot14 = 3600
+		slot16 = nil
 
 		if 86400 <= slot8 then
-			slot15 = slot8 % slot14
+			slot16 = slot8 % slot15
+		elseif slot14 <= slot8 then
+			slot16 = slot8 % slot14
 		elseif slot13 <= slot8 then
-			slot15 = slot8 % slot13
-		elseif slot12 <= slot8 then
-			slot15 = slot8 % slot12
+			slot16 = slot8 % slot13
 		end
 
-		if slot15 and slot15 > 0 then
+		if slot16 and slot16 > 0 then
 			if slot0.countDownTimer then
 				slot0.countDownTimer:Stop()
 
@@ -267,7 +269,7 @@ slot0.updateGemItem = function(slot0, slot1, slot2)
 
 			slot0.countDownTimer = Timer.New(function ()
 				uv0:updateGemItem(uv1, uv2)
-			end, slot15, 1)
+			end, slot16, 1)
 
 			slot0.countDownTimer:Start()
 		end
@@ -276,18 +278,18 @@ slot0.updateGemItem = function(slot0, slot1, slot2)
 	setActive(slot0.name, true)
 
 	if #slot1:getConfig("effect_args") > 0 then
-		if Item.getConfigData(slot9[1]) then
-			setScrollText(slot0.name, slot10.name)
+		if Item.getConfigData(slot10[1]) then
+			setScrollText(slot0.name, slot11.name)
 			slot0:updateImport(slot0:GetShopDisplayItemData(slot1))
 
-			if slot0:CheckSkinDiscounItem(slot10.display_icon) then
-				slot0:UpdateShipIcon(slot11)
+			if slot0:CheckSkinDiscounItem(slot11.display_icon) then
+				slot0:UpdateShipIcon(slot12)
 			end
 		end
 
 		slot0.iconTF.sprite = GetSpriteFromAtlas("chargeicon/1", "")
 
-		LoadSpriteAsync(slot10.icon, function (slot0)
+		LoadSpriteAsync(slot11.icon, function (slot0)
 			if slot0 and not IsNil(uv0.iconTF) then
 				uv0.iconTF.sprite = slot0
 			end

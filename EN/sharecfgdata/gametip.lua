@@ -38345,6 +38345,11 @@ _G.pg.base.gametip.dorm3d_room_floor_2 = {
 }
 
 
+_G.pg.base.gametip.dorm3d_room_floor_3 = {
+	tip = "Villa"
+}
+
+
 _G.pg.base.gametip.please_input_1_99 = {
 	tip = "Enter a number from 1 to 99"
 }
@@ -49720,4 +49725,87 @@ _G.pg.base.gametip.island_mecha_task_lock_tip = {
 
 _G.pg.base.gametip.yearly_sign_in = {
 	tip = "Yearly Logins"
+}
+
+
+_G.pg.base.gametip.DreamTourCoreActivity_subtitle_1 = {
+	tip = "Miracle by Midnight"
+}
+
+
+_G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
+	tip = "Dreamy Supply Station"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_button = {
+	tip = "Minigame"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_tiiiiiip = {
+	tip = [[
+1. Use the cleaning hose to wash away the muck and make your car sparkly clean!
+2. There are three types of muck to be cleaned: dirt, oil stains, and cat pawprints.
+3. Each type of muck can only be cleaned using its corresponding hose.
+4. Your shipgirls are willing to help you out... but what happens if they get splashed by the hose?
+5. Your shipgirls' mood will change based on where they get splashed.
+6. If the mood level hits a certain amount, you might be able to unlock a special animation...
+7. If the mood level reaches MAX, something special might even happen.
+8. When time runs out, you'll be scored based on how clean the car is.]]
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_mood = {
+	tip = "Mood"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_clean = {
+	tip = "Cleanliness"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_retry = {
+	tip = "Retry"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_exit = {
+	tip = "Back"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_title = {
+	tip = "Rules"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_carwash = {
+	tip = "Garage"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_table = {
+	tip = "Workshop"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_chair = {
+	tip = "Living Room"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_bed = {
+	tip = "Bedroom"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_overtime = {
+	tip = "You have a gift that is about to expire."
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_overtime_title = {
+	tip = "Expiration Notice"
 }

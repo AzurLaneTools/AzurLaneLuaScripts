@@ -1066,6 +1066,10 @@ end
 slot0.setSurveyState = function(slot0, slot1)
 	if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SURVEY) and not slot2:isEnd() then
 		slot0.surveyState = slot1
+
+		if slot1 > 0 then
+			slot0:sendNotification(GAME.SURVEY_DONE, slot2)
+		end
 	end
 end
 
