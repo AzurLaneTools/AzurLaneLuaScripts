@@ -154,7 +154,7 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "emotion_01-start",
+							name = "excited_01-start",
 							time = 0,
 							type = "action",
 							skip = true
