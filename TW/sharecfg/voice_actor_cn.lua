@@ -1938,6 +1938,10 @@ end)()
 		actor_name = "山田美鈴",
 		code = 481
 	}
+	pg.base.voice_actor_CN[482] = {
+		actor_name = "本田貴子",
+		code = 482
+	}
 	pg.base.voice_actor_CN[483] = {
 		actor_name = "富樫美鈴",
 		code = 483
@@ -2010,12 +2014,12 @@ end)()
 		actor_name = "大森心",
 		code = 500
 	}
+end)()
+(function ()
 	pg.base.voice_actor_CN[501] = {
 		actor_name = "吉田有里",
 		code = 501
 	}
-end)()
-(function ()
 	pg.base.voice_actor_CN[502] = {
 		actor_name = "野村香菜子",
 		code = 502

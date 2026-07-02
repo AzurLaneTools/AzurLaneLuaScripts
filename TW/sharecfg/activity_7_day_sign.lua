@@ -49,6 +49,7 @@ pg.activity_7_day_sign.all = {
 	67,
 	68,
 	70,
+	71,
 	73,
 	83,
 	84,
@@ -1406,6 +1407,26 @@ pg.base.activity_7_day_sign = {}
 			{
 				8,
 				65082,
+				3
+			}
+		}
+	}
+	pg.base.activity_7_day_sign[71] = {
+		id = 71,
+		front_drops = {
+			{
+				8,
+				65088,
+				3
+			},
+			{
+				1,
+				488,
+				1000
+			},
+			{
+				8,
+				65088,
 				3
 			}
 		}

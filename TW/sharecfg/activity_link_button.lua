@@ -131,7 +131,7 @@ pg.base.activity_link_button = {}
 
 (function ()
 	pg.base.activity_link_button[1] = {
-		param = "5860",
+		param = "5890",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -141,7 +141,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			5860
+			5888
 		}
 	}
 	pg.base.activity_link_button[2] = {
@@ -167,7 +167,7 @@ pg.base.activity_link_button = {}
 		order = 99
 	}
 	pg.base.activity_link_button[10] = {
-		param = "5860",
+		param = "",
 		name = "event_map",
 		text_pic = "text_event_map",
 		type = 0,
@@ -177,7 +177,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			5860
+			5888
 		}
 	}
 	pg.base.activity_link_button[11] = {
@@ -468,18 +468,18 @@ pg.base.activity_link_button = {}
 	}
 	pg.base.activity_link_button[109] = {
 		name = "event_core",
-		text_pic = "text_event_core",
+		text_pic = "text_event_blackfriday",
 		type = 16,
-		pic = "event_core",
+		pic = "event_blackfriday",
 		id = 109,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			7305
+			50234
 		},
 		param = {
-			"WinterFestival2025CoreActivityUI",
+			"PSSCoreActivityUI",
 			"JINNIANDECUXIAOXINGSHISHI1"
 		}
 	}

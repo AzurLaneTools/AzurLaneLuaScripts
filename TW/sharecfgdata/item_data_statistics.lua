@@ -50557,6 +50557,43 @@ _G.pg.base.item_data_statistics[40140] = {
 }
 
 
+_G.pg.base.item_data_statistics[40141] = {
+	open_directly = 1,
+	name = "疾速狂熱特別禮包",
+	type = 17,
+	display = "購買三件指定換裝可獲得誓約之戒*1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 50242,
+	is_world = 0,
+	icon = "Props/black5bundle1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 40141,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			15006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40142] = {
 	open_directly = 0,
 	name = "最高方案快速研​​發券·綜合型Ⅰ",

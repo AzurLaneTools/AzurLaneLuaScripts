@@ -123,6 +123,7 @@ pg.activity_shop_extra.all = {
 	5004,
 	5005,
 	5006,
+	5007,
 	5008,
 	5009,
 	5010,
@@ -250,6 +251,7 @@ pg.activity_shop_extra.get_id_list_by_commodity_type = {
 		5004,
 		5005,
 		5006,
+		5007,
 		5008,
 		5009,
 		5010,
@@ -4795,6 +4797,44 @@ end)()
 				},
 				{
 					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_shop_extra[5007] = {
+		num_limit = 1,
+		activity = 50234,
+		commodity_type = 7,
+		shop_tag = 2,
+		num = 1,
+		commodity_id = 405025,
+		end_by_maintenance = 1,
+		scene = "",
+		id = 5007,
+		order = 1,
+		time = {
+			{
+				{
+					2026,
+					7,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					14,
 					59,
 					59
 				}

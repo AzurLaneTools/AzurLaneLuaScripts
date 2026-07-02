@@ -237,6 +237,7 @@ pg.memory_group.all = {
 	342,
 	343,
 	344,
+	345,
 	346,
 	347,
 	348,
@@ -6308,6 +6309,22 @@ end)()
 			4749
 		}
 	}
+	pg.base.memory_group[345] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50235,
+		title = "港區時尚特刊：疾馳熱浪",
+		auto_unlock = "",
+		subtype = 3,
+		id = 345,
+		group_id = "",
+		memories = {
+			4761,
+			4762,
+			4763
+		}
+	}
 	pg.base.memory_group[346] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -7855,6 +7872,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[546] = {
 		ship_group = 60302,
 		icon = "title_chara_zhala",
@@ -7877,8 +7896,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[547] = {
 		ship_group = 70201,
 		icon = "title_chara_afuleer",

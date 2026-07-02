@@ -3966,8 +3966,13 @@ pg.skill_data_display.all = {
 	1012431,
 	1012432,
 	1012435,
+	1012640,
 	10151811,
 	1011911,
+	1011472,
+	1012570,
+	1012571,
+	1012572,
 	1014990,
 	1014991,
 	1014992,
@@ -19986,6 +19991,10 @@ end)()
 		id = 1012435,
 		name = "Lucky A +"
 	}
+	pg.base.skill_data_display[1012640] = {
+		id = 1012640,
+		name = "薩丁的威壓+"
+	}
 	pg.base.skill_data_display[10151811] = {
 		id = 10151811,
 		name = "最終聖裁+"
@@ -19993,6 +20002,22 @@ end)()
 	pg.base.skill_data_display[1011911] = {
 		id = 1011911,
 		name = "鷹擊長空 +"
+	}
+	pg.base.skill_data_display[1011472] = {
+		id = 1011472,
+		name = "Nasty Asty +"
+	}
+	pg.base.skill_data_display[1012570] = {
+		id = 1012570,
+		name = "隨伴之翼+"
+	}
+	pg.base.skill_data_display[1012571] = {
+		id = 1012571,
+		name = "隨伴之翼+"
+	}
+	pg.base.skill_data_display[1012572] = {
+		id = 1012572,
+		name = "隨伴之翼+"
 	}
 	pg.base.skill_data_display[1014990] = {
 		id = 1014990,
@@ -20118,6 +20143,8 @@ end)()
 		id = 1090211,
 		name = "緊急迴避·命運女神"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090220] = {
 		id = 1090220,
 		name = "裝填指揮·{namecode:421}"
@@ -20138,8 +20165,6 @@ end)()
 		id = 1090240,
 		name = "水雷戰隊·{namecode:38}"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090242] = {
 		id = 1090242,
 		name = "水雷戰隊·{namecode:38}"

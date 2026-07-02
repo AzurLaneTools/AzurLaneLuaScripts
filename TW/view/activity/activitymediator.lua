@@ -416,12 +416,13 @@ slot0.register = function(slot0)
 			callback = slot1.callback
 		})
 	end)
-	slot0:bind(uv0.ON_ACT_SHOPPING, function (slot0, slot1, slot2, slot3, slot4)
+	slot0:bind(uv0.ON_ACT_SHOPPING, function (slot0, slot1, slot2, slot3, slot4, slot5)
 		uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
 			activity_id = slot1,
 			cmd = slot2,
 			arg1 = slot3,
-			arg2 = slot4
+			arg2 = slot4,
+			callback = slot5
 		})
 	end)
 	slot0:bind(uv0.ON_ACTIVITY_TASK_SUBMIT, function (slot0, slot1)
@@ -602,6 +603,8 @@ slot0.initNotificationHandleDic = function(slot0)
 			}, Goods.TYPE_CHARGE))
 		end,
 		[GAME.SHOPPING_DONE] = function (slot0, slot1)
+			warning("yzh")
+
 			slot3 = slot0.viewComponent
 
 			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards, function ()

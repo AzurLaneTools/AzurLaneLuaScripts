@@ -176384,6 +176384,84 @@ _G.pg.base.item_virtual_data_statistics[65087] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65088] = {
+	drop_gold_max = 0,
+	name = "單次建造券",
+	display = "於「極地風暴」活動限時復刻中獲取，可以免費進行一次期間限定建造（活動結束後消失）",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5896,
+	album_config = "",
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65088,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65089] = {
+	drop_gold_max = 0,
+	name = "換裝體驗券",
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65089,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65090] = {
+	drop_gold_max = 0,
+	name = "極地風暴Pt",
+	display = "用於「極地風暴」復刻活動兌換，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 300001,
+	album_config = "",
+	icon = "Props/jidifengbao_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65090,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65091] = {
 	drop_gold_max = 0,
 	name = "換裝體驗券",
@@ -181491,6 +181569,149 @@ _G.pg.base.item_virtual_data_statistics[65730] = {
 		2,
 		5020908
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65735] = {
+	drop_gold_max = 0,
+	name = "換裝體驗券",
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65735,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65736] = {
+	drop_gold_max = 0,
+	name = "外觀裝備(常世夜遊)",
+	display = "隨機獲得一件「常世夜遊」主題外觀裝備",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/equipskin_drop_display",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65736,
+	display_icon = {
+		{
+			9,
+			830,
+			1
+		},
+		{
+			9,
+			831,
+			1
+		},
+		{
+			9,
+			832,
+			1
+		},
+		{
+			9,
+			833,
+			1
+		},
+		{
+			9,
+			834,
+			1
+		},
+		{
+			9,
+			835,
+			1
+		},
+		{
+			9,
+			836,
+			1
+		},
+		{
+			9,
+			837,
+			1
+		},
+		{
+			9,
+			838,
+			1
+		},
+		{
+			9,
+			839,
+			1
+		},
+		{
+			9,
+			840,
+			1
+		},
+		{
+			9,
+			841,
+			1
+		},
+		{
+			9,
+			842,
+			1
+		},
+		{
+			9,
+			843,
+			1
+		},
+		{
+			9,
+			844,
+			1
+		},
+		{
+			9,
+			845,
+			1
+		},
+		{
+			9,
+			846,
+			1
+		},
+		{
+			9,
+			847,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

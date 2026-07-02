@@ -68,11 +68,6 @@ pg.base.activity_series_enemy = {}
 		pass_awards_display = {
 			{
 				1,
-				487,
-				2
-			},
-			{
-				1,
 				488,
 				40
 			},
@@ -126,11 +121,6 @@ pg.base.activity_series_enemy = {}
 			}
 		},
 		pass_awards_display = {
-			{
-				1,
-				487,
-				5
-			},
 			{
 				1,
 				488,
@@ -202,11 +192,6 @@ pg.base.activity_series_enemy = {}
 			}
 		},
 		pass_awards_display = {
-			{
-				1,
-				487,
-				8
-			},
 			{
 				1,
 				488,
@@ -284,11 +269,6 @@ pg.base.activity_series_enemy = {}
 			}
 		},
 		pass_awards_display = {
-			{
-				1,
-				487,
-				12
-			},
 			{
 				1,
 				488,

@@ -964,7 +964,7 @@ slot0.SetEmptyAction = function(slot0, slot1)
 	end
 end
 
-slot0.GetSpineTrasform = function(slot0)
+slot0.GetSpineTransform = function(slot0)
 	return slot0._tf
 end
 

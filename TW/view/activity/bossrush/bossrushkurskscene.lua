@@ -275,30 +275,36 @@ slot0.UpdateStory = function(slot0)
 		slot2 = uv0.nodes[slot1:GetIconName()].trans
 		slot3 = slot1:IsActive(uv0.activity, uv0.ptActivity)
 		slot4 = slot1:IsReaded()
+		slot6 = true
+
+		if slot1:GetStory() and slot5 ~= "" then
+			uv2 = uv2 + (uv1:IsPlayed(slot5) and 1 or 0)
+			uv3 = uv3 + 1
+		end
 
 		if slot1:GetType() == BossRushStoryNode.NODE_TYPE.NORMAL then
 			uv0.loader:GetSprite(uv0:GetAtalsName(), slot3 and "story_green_active" or "story_green", slot2:GetChild(0), true)
-		elseif slot5 == BossRushStoryNode.NODE_TYPE.EVENT then
+		elseif slot7 == BossRushStoryNode.NODE_TYPE.EVENT then
 			setActive(slot2, slot3)
 			uv0.loader:GetSprite(uv0:GetAtalsName(), slot3 and "story_yellow_active" or "story_yellow", slot2:GetChild(0), true)
-		elseif slot5 == BossRushStoryNode.NODE_TYPE.BATTLE then
+		elseif slot7 == BossRushStoryNode.NODE_TYPE.BATTLE then
 			-- Nothing
 		end
 
-		if slot3 then
+		if slot3 and not slot4 then
 			setAnchoredPosition(uv0.storyBar, uv0._tf:Find("Story"):InverseTransformPoint(slot2.position))
 			setText(uv0.storyBar:Find("Text"), slot1:GetName())
-			uv0.loader:GetSprite(uv0:GetAtalsName(), uv1[slot5], uv0.storyBar, true)
+			uv0.loader:GetSprite(uv0:GetAtalsName(), uv4[slot7], uv0.storyBar, true)
 			onButton(uv0, uv0.storyBar, function ()
 				uv1:PlayStory(uv0:GetStory(), function ()
 					uv0:UpdateView()
 				end)
 			end)
 
-			uv2 = true
+			uv5 = true
 		end
 
-		slot6 = slot1:GetActiveLink()
+		slot8 = slot1:GetActiveLink()
 
 		(function ()
 			if uv0 == 0 or not uv1 then

@@ -350,7 +350,7 @@ pg.base.gameset = {}
 	}
 	pg.base.gameset.activity_res_id = {
 		description = "",
-		key_value = 478
+		key_value = 488
 	}
 	pg.base.gameset.activity_lottery_rewards = {
 		key_value = 0,
@@ -1967,7 +1967,7 @@ end)()
 	}
 	pg.base.gameset.skin_ticket = {
 		description = "",
-		key_value = 479
+		key_value = 586
 	}
 	pg.base.gameset.order_pt_max = {
 		key_value = 0,

@@ -29005,9 +29005,9 @@ _G.pg.base.gametip.series_enemy_storyreward = {
 _G.pg.base.gametip.series_enemy_help = {
 	tip = [[
 活動規則：
-<color=#92fc63>2023.8.24-2023.9.7維護</color>期間開啟限時活動「極地風暴」
+<color=#92fc63>2026.7.2-2026.7.9維護</color>期間開啟限時復刻活動「極地風暴」
 1. 本次活分為「作戰模式」、「故事模式」，在「作戰模式」中通關關卡可獲得PT值，逐步解鎖「故事模式」中階段劇情。
-2. 「作戰模式」中採用連戰玩法，即上陣多只隊伍逐一挑戰多個小關，全部獲勝後整個關卡通關，獲得獎勵
+2. 「作戰模式」中採用連戰玩法，即上陣多隻隊伍逐一挑戰多個小關，全部獲勝後整個關卡通關，獲得獎勵
 3. 部分關卡可通過切換「多隊出擊」、「單隊連戰」兩種模式，「單隊連戰」可使用單個隊伍挑戰所有小關，「多隊出擊」為不同隊伍挑戰各個關卡，「多隊出擊」可獲得額外獎勵
 4. 「作戰模式」中EX關卡不具有任何消耗，EX關卡中獲得積分計入排行榜，不會獲得任何獎勵
 5. 累計PT值可在「作戰模式」中領取各色獎勵，完成「故事模式」中所有階段劇情，可獲得「限定裝備」]]
@@ -40168,12 +40168,57 @@ _G.pg.base.gametip.shop_sell_ended = {
 
 
 _G.pg.base.gametip.general_activity_side_bar1 = {
-	tip = "春季換裝返場"
+	tip = "賽道上的等候 "
 }
 
 
 _G.pg.base.gametip.general_activity_side_bar2 = {
-	tip = "春季特別巡遊"
+	tip = "港區時尚特刊 "
+}
+
+
+_G.pg.base.gametip.general_activity_side_bar3 = {
+	tip = "BF Cruise Missions"
+}
+
+
+_G.pg.base.gametip.general_activity_side_bar4 = {
+	tip = "BF Ltd. Rerun Outfits"
+}
+
+
+_G.pg.base.gametip.black5_bundle_desc = {
+	tip = "購買三件指定換裝可獲得誓約之戒*1"
+}
+
+
+_G.pg.base.gametip.black5_bundle_purchased = {
+	tip = "已購買"
+}
+
+
+_G.pg.base.gametip.black5_bundle_tip = {
+	tip = "購買全部即獲得"
+}
+
+
+_G.pg.base.gametip.black5_bundle_buy_all = {
+	tip = "購買全部"
+}
+
+
+_G.pg.base.gametip.black5_bundle_popup = {
+	tip = "是否消耗<color=#92fc63>$1</color>鑽石購買<color=#92fc63>$2</color>"
+}
+
+
+_G.pg.base.gametip.black5_bundle_receive = {
+	tip = "領取獎勵"
+}
+
+
+_G.pg.base.gametip.black5_bundle_button = {
+	tip = "特別禮包"
 }
 
 
@@ -40184,6 +40229,30 @@ _G.pg.base.gametip.skinshop_on_sale_tip = {
 
 _G.pg.base.gametip.skinshop_on_sale_tip_2 = {
 	tip = "福袋在售"
+}
+
+
+_G.pg.base.gametip.blackfriday_cruise_task_tips = {
+	tip = "已完成："
+}
+
+
+_G.pg.base.gametip.blackfriday_cruise_task_unlock = {
+	tip = "該日任務將於$1天$2時解鎖"
+}
+
+
+_G.pg.base.gametip.blackfriday_cruise_task_day = {
+	tip = "第$1日"
+}
+
+
+_G.pg.base.gametip.black5_bundle_help = {
+	tip = {
+		{
+			info = "若已購買部分造型，可透過補差價方式獲得剩餘禮包內容。\n本禮包購買時不支援使用換裝抵扣券，如需使用，可在造型商店單獨購買造型時使用。"
+		}
+	}
 }
 
 

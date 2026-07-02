@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			bgm = "story-richang-6",
-			say = "推开整备区的栅栏，午后的阳光将地面烤得很热，空气里散发着机油和橡胶的气味。",
+			say = "推開整備區的柵欄，午後的陽光將地面烤得很熱，空氣裡散發著機油和橡膠的氣味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "埃塞克斯正跨坐在赛车的引擎盖上，水枪在她手中灵巧地转动，仔细冲洗着车身的每一个角落。",
+			say = "艾塞克斯正跨坐在賽車的引擎蓋上，水槍在她手中靈巧地轉動，仔細沖洗車身的每個角落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "埃塞克斯，准备时间快结束了，进展如何？",
+			say = "艾塞克斯，準備時間快結束了，進度如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "交给我吧指挥官，已经到最后的工序了。",
+			say = "交給我吧指揮官，已經到最後的工序了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "你的车在太阳下晒了这么久，需要好好降下温才行。",
+			say = "你的車在太陽下曬了這麼久，需要好好降下溫才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "指挥官也不想等会坐在蒸笼里比赛吧？",
+			say = "指揮官也不想待會坐在蒸籠裡比賽吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "她的脸颊被太阳晒得微微泛红，几缕头发贴在上面，汗珠顺着发梢滴落在车盖上。",
+			say = "她的臉頰被太陽曬得微微泛紅，幾縷頭髮貼在上面，汗珠順著髮梢滴落在車蓋上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "不过比起车……现在的你，才是需要降温的那个吧。",
+			say = "不過比起車子……現在的妳，才是需要降溫的那個吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "我从旁边的冰桶里抽出一条毛巾递过去。",
+			say = "我從旁邊的冰桶裡抽出一條毛巾遞過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "快降降温吧。",
+			say = "快降降溫吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "埃塞克斯接过了毛巾，敷了敷脸颊，状态明显好了许多。",
+			say = "艾塞克斯接過了毛巾，敷了敷臉頰，狀態明顯好了很多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "这点辛苦不算什么，我想让你的赛车在最好的状态下参赛！",
+			say = "這點辛苦不算什麼，我想讓你的賽車在最好的狀態下參賽！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "而且说到降温——",
+			say = "而且說到降溫——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "她突然狡黠一笑，重新握住水枪，开始调节起水压。",
+			say = "她突然狡猾一笑，重新握住水槍，開始調整起水壓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "你不会是想……",
+			say = "妳不會是想……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "这时她已经调整好水压，将枪口对准我，脸上带着灿烂的笑容。",
+			say = "這時她已經調整好水壓，將槍口對準我，臉上帶著燦爛的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "指挥官也来和我一起降温吧！",
+			say = "指揮官也來跟我一起降溫吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "然而，预想中的水流并没有出现，她疑惑地低头检查枪口，又拍了拍机身。",
+			say = "然而，預想中的水流並沒有出現，她疑惑地低頭檢查槍口，又拍了拍機身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "咦？明明刚才还……",
+			say = "咦？明明剛才還……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "埃塞克斯，你的腿……压在水管上了。",
+			say = "艾塞克斯，妳的腿……壓在水管上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "正说着，没等她完全移开身体，我已经伸手拽动了那根被她压住的软管。",
+			say = "正說著，沒等她完全移開身體，我已經伸手拉動了那根被她壓住的軟管。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "啊！等等别——",
+			say = "啊！等等別——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "积蓄的水流猛然喷发，将埃塞克斯全身浇得湿透，头发黏在她的脖颈上，不断滴落着水珠。",
+			say = "積蓄的水流猛然噴發，將艾塞克斯全身澆得濕透，頭髮黏在她的脖頸上，不斷滴落著水珠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "指挥官！……我还没准备好！你怎么就……",
+			say = "指揮官！……我還沒準備好！你怎麼就…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "不、不过还好……我的温度也算是降下来了~",
+			say = "不、不過還好……我的溫度也算是降下來了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "她看着自己彻底湿透的衣服，又看了看旁边的我，忽然像是想到了什么。",
+			say = "她看著自己徹底濕透的衣服，又看了看旁邊的我，突然像是想到了什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "那就……继续一起降温吧！",
+			say = "那就……繼續一起降溫吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "埃塞克斯抓住我赛车服的前襟，阻止我后退，她身上的水汽沁入了我的胸口，带来一片清凉。",
+			say = "艾塞克斯抓住我賽車服的前襟，阻止我後退，她身上的水汽沁入了我的胸口，帶來一片清涼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "……埃塞克斯？",
+			say = "……艾塞克斯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "这样的话，指挥官是不是也凉快了许多了呢？",
+			say = "這樣的話，指揮官是不是也涼快了許多了呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "她抬起还滴着水的手，湿漉漉的食指贴在我的胸口，小心翼翼地画着什么。",
+			say = "她抬起還滴著水的手，濕漉漉的食指貼在我的胸口，小心翼翼地畫著什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "冰凉的触感透过赛车服的面料，清晰地传递到我的皮肤上，激起一阵细微的战栗。",
+			say = "冰冷的觸感透過賽車服的布料，清晰地傳遞到我的皮膚上，激起一陣細微的戰慄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "指挥官等下就带着这个，第一个冲线吧！",
+			say = "指揮官等下就帶著這個，第一個衝線吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "她终于抬起头，松开了手，脸上带着羞涩和得意的神情。",
+			say = "她終於抬起頭，鬆開了手，臉上帶著羞澀和得意的神情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			hideRecordIco = true,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "我低头看去，只见胸口的赛车服上，被她画出了一个荡漾着水痕的爱心。",
+			say = "我低頭看去，只見胸口的賽車服上，被她畫出了一個蕩漾著水痕的愛心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "快去吧！我在终点等你！",
+			say = "快去吧！我在終點等你！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			actor = 107097,
 			nameColor = "#A9F548FF",
-			say = "赢了比赛，我就告诉你这颗爱心的含义~",
+			say = "贏了比賽，我就告訴你這顆愛心的意思~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

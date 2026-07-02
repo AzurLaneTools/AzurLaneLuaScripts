@@ -371,6 +371,8 @@ pg.ship_skin_words_extra.all = {
 	9600140,
 	9600150,
 	9600160,
+	107090,
+	405020,
 	11500010,
 	11500020,
 	11500030,
@@ -25971,6 +25973,117 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_skin_words_extra[107090] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 107090,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"歡迎回來，指揮官！……欸？不自覺又用了正式的語氣？只、只是想到是您回來了，才想用正式的態度迎接……"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"請您再多停留一下子……"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"指揮官，如果在未來的某一天，我也能成為被後輩們憧憬的存在……那一定是因為，您給了我成為憧憬之人的勇氣。|能和您一起度過這樣平靜的午後，感覺也不錯……就讓我為您泡杯咖啡吧？|……啊！我剛才只是在看之前的作戰紀錄……不、不是在分析戰術，只是在影像中看到了您的身影，稍微有點……移不開視線……"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"嗯？要跟我聊聊嗎？當然可以！——欸，竟然是出擊任務嗎……？"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"突、突然襲擊……？！"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"指揮官對我的愛與信任，我已經完全感受到了。我會用一輩子的時間去證明，您的選擇沒有錯，我就是您獨一無二的艾塞克斯！"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[405020] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 405020,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"指揮官，你終於來了……看來，等待終究是會有回應的。"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"忍受寂寞本是我最擅長的事……可如今，與你分別的一分一秒竟都變得無比漫長……|偶爾出門的時候會忍不住想到，還有人在等著我……突然就會感受到時間流逝得非常快。|於我而言，指揮官你就像破開冰層的初陽……請允許我，再靠近你一點點。"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"……體溫，很暖。"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"……一刻也無法忍耐了嗎？我此刻的感受，竟與你相同……"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"在無止境的等待中，我曾千百次望向苦寒的盡頭，期待著所有的絕望、苦悶和寂寞消散的那個瞬間……而此刻，這份期待終於成真——只因為，你來到了我的身邊。"
+			}
+		}
+	}
 	pg.base.ship_skin_words_extra[11500010] = {
 		touch = "",
 		feeling3 = "",
@@ -28049,6 +28162,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_skin_words_extra[303140] = {
 		feeling3 = "",
 		win_mvp = "",
@@ -28185,8 +28300,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_skin_words_extra[702010] = {
 		feeling3 = "",
 		win_mvp = "",

@@ -3638,6 +3638,9 @@ pg.memory_template.all = {
 	4747,
 	4748,
 	4749,
+	4761,
+	4762,
+	4763,
 	4771,
 	4781,
 	4782,
@@ -69605,6 +69608,60 @@ end)()
 			"JUFENGYUZIYOUQUNDAO29"
 		}
 	}
+	pg.base.memory_template[4761] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "極速祝福之吻",
+		condition = "完成「港區時尚特刊：疾馳熱浪」紐澤西的簽到",
+		story = "SHISHANGTEKANJICHIRELANG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 4761,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJICHIRELANG1"
+		}
+	}
+	pg.base.memory_template[4762] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "奪冠的香檳一刻",
+		condition = "完成「港區時尚特刊：疾馳熱浪」納希莫夫海軍上將的簽到",
+		story = "SHISHANGTEKANJICHIRELANG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 4762,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJICHIRELANG2"
+		}
+	}
+	pg.base.memory_template[4763] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "水漾在疾馳之前",
+		condition = "完成「港區時尚特刊：疾馳熱浪」艾塞克斯的簽到",
+		story = "SHISHANGTEKANJICHIRELANG3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 4763,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANJICHIRELANG3"
+		}
+	}
 	pg.base.memory_template[4771] = {
 		ship_group = 0,
 		subtitle = "",
@@ -70739,6 +70796,8 @@ end)()
 			"ZHIMEIHAOSHIJIE4"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4875] = {
 		ship_group = 0,
 		subtitle = "",
@@ -70793,8 +70852,6 @@ end)()
 			"ZHIMEIHAOSHIJIE7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4878] = {
 		ship_group = 0,
 		subtitle = "",
@@ -72545,6 +72602,8 @@ end)()
 			"CHUNMANKEZHAN9"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5020] = {
 		ship_group = 0,
 		subtitle = "",
@@ -72599,8 +72658,6 @@ end)()
 			"CHUNMANKEZHAN12"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5023] = {
 		ship_group = 0,
 		subtitle = "",
@@ -74347,6 +74404,8 @@ end)()
 			"SHENGYINQIANDETONGMENG37"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5178] = {
 		ship_group = 0,
 		subtitle = "",
@@ -74401,8 +74460,6 @@ end)()
 			"SHEHUAXIANGMENGFUJINWAN1"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5182] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76149,6 +76206,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA34"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20034] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76203,8 +76262,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA37"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20037] = {
 		ship_group = 0,
 		subtitle = "",
@@ -77951,6 +78008,8 @@ end)()
 			"LINGYANGZHEXINZHIXUYU6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20134] = {
 		ship_group = 0,
 		subtitle = "",
@@ -78005,8 +78064,6 @@ end)()
 			"LINGYANGZHEXINZHIXUYU9"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20138] = {
 		ship_group = 0,
 		subtitle = "",

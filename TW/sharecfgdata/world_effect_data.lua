@@ -5214,12 +5214,12 @@ _G.pg.base.world_effect_data[1472] = {
 	effect_type = 10,
 	log_text = "",
 	sound_effects = "",
-	autoflag = "",
 	id = 1472,
 	autoactivate = 0,
 	effect_paramater = {
 		1411
-	}
+	},
+	autoflag = {}
 }
 
 
