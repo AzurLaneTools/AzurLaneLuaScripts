@@ -49,7 +49,8 @@ pg.re_map_template.all = {
 	45,
 	46,
 	47,
-	48
+	48,
+	49
 }
 pg.base = pg.base or {}
 pg.base.re_map_template = {}
@@ -2830,6 +2831,57 @@ pg.base.re_map_template = {}
 					11029
 				},
 				"HT5"
+			}
+		}
+	}
+	pg.base.re_map_template[49] = {
+		id = 49,
+		name = "幻梦间奏曲常驻复刻",
+		bg = "temp_sitelasibao",
+		memory_group = 293,
+		activity_type = 2,
+		order = 49,
+		config_data = {
+			2200171,
+			2200172,
+			2200173,
+			2200174,
+			2200175,
+			2200176
+		},
+		chapter_progress = {
+			33,
+			66,
+			100,
+			33,
+			66,
+			100
+		},
+		drop_gain = {
+			{
+				2200176,
+				4,
+				901141,
+				60
+			},
+			{}
+		},
+		drop_display_sp = {
+			{
+				{
+					4,
+					901141
+				},
+				"HT3"
+			}
+		},
+		drop_display = {
+			{
+				{
+					2,
+					11048
+				},
+				"HT3"
 			}
 		}
 	}

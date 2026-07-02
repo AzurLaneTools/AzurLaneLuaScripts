@@ -4,24 +4,6 @@ slot0.word_legal_template_9 = {}
 slot1 = slot0.word_legal_template_9
 
 temp = function()
-	uv0["상"] = {
-		[" "] = {
-			["마"] = {
-				["르"] = {
-					["티"] = {
-						["뉴"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["골"] = {
 		["든"] = {
 			[" "] = {

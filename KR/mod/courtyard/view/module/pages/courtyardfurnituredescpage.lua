@@ -13,6 +13,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.contentTxt = findTF(slot0._tf, "desc/container/frame/content"):GetComponent(typeof(Text))
 	slot0.comtableTxt = findTF(slot0._tf, "desc/container/frame/comfortable_container/Text"):GetComponent(typeof(Text))
 	slot0.approachTxt = findTF(slot0._tf, "desc/container/frame/approach_container/Text"):GetComponent(typeof(Text))
+	slot0.approachLongTxt = findTF(slot0._tf, "desc/container/frame/approach_container/TextLong"):GetComponent(typeof(Text))
+	slot0.approachLabel = findTF(slot0._tf, "desc/container/frame/approach_container/label")
 	slot0.dateTxt = findTF(slot0._tf, "desc/container/frame/date_container/Text"):GetComponent(typeof(Text))
 	slot0.voiceBtn = findTF(slot0._tf, "desc/container/frame/music_btn/voice")
 	slot0.bgVoiceBtn = findTF(slot0._tf, "desc/container/frame/music_btn/bg_voice")
@@ -20,7 +22,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.musicalInstrumentsBtn = findTF(slot0._tf, "desc/container/frame/music_btn/play")
 
 	setText(findTF(slot0._tf, "desc/container/frame/comfortable_container/label"), i18n("word_comfort_level"))
-	setText(findTF(slot0._tf, "desc/container/frame/approach_container/label"), i18n("word_get_way"))
+	setText(slot0.approachLabel, i18n("word_get_way"))
 	setText(findTF(slot0._tf, "desc/container/frame/date_container/label"), i18n("word_get_date"))
 	setText(findTF(slot0._tf, "desc/ok_btn/text"), i18n("word_ok"))
 end
@@ -69,7 +71,9 @@ slot0.Show = function(slot0, slot1)
 	slot0.dateTxt.text = getProxy(DormProxy):getRawData():GetFurniture(slot1.configId) and slot4:getDate() or slot1:GetAddDate()
 	slot0.comtableTxt.text = "+" .. slot1:GetComfortable()
 	slot0.contentTxt.text = slot1:GetDescription()
-	slot0.approachTxt.text = slot1:GetAddMode()
+
+	slot0:ShowTxt()
+
 	slot0.typeTxt.text = slot1:GetGametipType()
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
@@ -78,6 +82,20 @@ slot0.Show = function(slot0, slot1)
 
 	setActive(slot0.approachTxt.gameObject.transform.parent, not slot5)
 	setActive(slot0.dateTxt.gameObject.transform.parent, not slot5)
+end
+
+slot0.ShowTxt = function(slot0)
+	slot1 = slot0.furniture:GetAddMode()
+	slot0.approachTxt.text = slot1
+	slot0.approachLongTxt.text = i18n("word_get_way") .. slot1
+
+	Canvas.ForceUpdateCanvases()
+
+	slot4 = slot0.approachTxt:GetComponent(typeof(RectTransform)).rect.width < slot0.approachTxt.preferredWidth
+
+	setActive(slot0.approachTxt.gameObject, not slot4)
+	setActive(slot0.approachLongTxt.gameObject, slot4)
+	setActive(slot0.approachLabel, not slot4)
 end
 
 slot0.Close = function(slot0)

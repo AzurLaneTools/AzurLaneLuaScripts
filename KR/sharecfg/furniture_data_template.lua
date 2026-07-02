@@ -21923,7 +21923,7 @@ end)()
 	pg.base.furniture_data_template[283] = {
 		can_rotate = 0,
 		describe = "심판정의 성당 시설을 축소해서 만든 미니어처. 시설 내의 풀 한 포기까지 충실히 재현하고 있다.",
-		gain_by = "",
+		gain_by = "이벤트 「환몽 간주곡」;코어 데이터 상점(한정)",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,

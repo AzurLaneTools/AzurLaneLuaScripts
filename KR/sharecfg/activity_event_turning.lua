@@ -12,7 +12,8 @@ pg.activity_event_turning.all = {
 	7,
 	8,
 	9,
-	10
+	10,
+	11
 }
 pg.base = pg.base or {}
 pg.base.activity_event_turning = {}
@@ -589,6 +590,61 @@ pg.base.activity_event_turning = {}
 			},
 			{
 				25635
+			}
+		},
+		story_list = {},
+		story_task = {}
+	}
+	pg.base.activity_event_turning[11] = {
+		type = 1,
+		id = 11,
+		total_num = 0,
+		groupid_list = {},
+		task_table = {
+			{
+				27281
+			},
+			{
+				27282
+			},
+			{
+				27283
+			},
+			{
+				27284
+			},
+			{
+				27285
+			},
+			{
+				27286
+			},
+			{
+				27287
+			},
+			{
+				27288
+			},
+			{
+				27289
+			},
+			{
+				27290
+			},
+			{
+				27291
+			},
+			{
+				27292
+			},
+			{
+				27293
+			},
+			{
+				27294
+			},
+			{
+				27295
 			}
 		},
 		story_list = {},

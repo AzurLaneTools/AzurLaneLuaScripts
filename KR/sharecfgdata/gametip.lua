@@ -12547,17 +12547,17 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "한정 건조를 200회 실시하면 「괴츠 폰 베를리힝겐」 100% 획득 가능! (최대 4척까지)"
+	tip = "한정 건조를 총 200회 실시하면 「알자스」 100% 획득 가능! (최대 4척까지)"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「비스마르크 Zwei」 상시 건조 추가!"
+	tip = "「스트라스부르」, 「듀플렉스」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「레겐스부르크」 상시 건조 추가!"
+	tip = "「로데슈」 상시 건조 추가!"
 }
 
 

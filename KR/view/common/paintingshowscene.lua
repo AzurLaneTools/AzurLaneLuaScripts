@@ -43,6 +43,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
+	slot0._tf.sizeDelta = Vector2(Screen.width, Screen.height)
 	slot0.ad = findTF(slot0._tf, "ad")
 	slot0.paintTf = findTF(slot0.ad, "paint")
 	slot0.spineContainer = findTF(slot0.ad, "paint/spinePainting")
@@ -55,10 +56,11 @@ slot0.didEnter = function(slot0)
 	slot0.btnDebug = findTF(slot0.ad, "btnDebug")
 	slot0.effectTf = findTF(slot0.ad, "effect")
 
-	print("init tf pos = " .. slot0._tf.anchoredPosition.x .. "," .. slot0._tf.anchoredPosition.y)
-	print("init ad pos = " .. slot0.ad.anchoredPosition.x .. "," .. slot0.ad.anchoredPosition.y)
-	print("init painting pos = " .. slot0.paintTf.anchoredPosition.x .. "," .. slot0.paintTf.anchoredPosition.y)
-	print("init l2dContainner pos = " .. slot0.l2dContainner.anchoredPosition.x .. "," .. slot0.l2dContainner.anchoredPosition.y)
+	warning("init tf parent pos = " .. slot0._tf.parent.position.x .. "," .. slot0._tf.parent.position.y)
+	warning("init tf pos = " .. slot0._tf.anchoredPosition.x .. "," .. slot0._tf.anchoredPosition.y)
+	warning("init ad pos = " .. slot0.ad.anchoredPosition.x .. "," .. slot0.ad.anchoredPosition.y)
+	warning("init painting pos = " .. slot0.paintTf.anchoredPosition.x .. "," .. slot0.paintTf.anchoredPosition.y)
+	warning("init l2dContainner pos = " .. slot0.l2dContainner.anchoredPosition.x .. "," .. slot0.l2dContainner.anchoredPosition.y)
 	onButton(slot0, slot0.btnClose, function ()
 		if not uv0.loading then
 			uv0:closeView()
@@ -74,12 +76,12 @@ slot0.didEnter = function(slot0)
 				SetActive(uv0.paintTf, true)
 			end
 
-			print("set tf pos = " .. uv0._tf.anchoredPosition.x .. "," .. uv0._tf.anchoredPosition.y)
-			print("set ad pos = " .. uv0.ad.anchoredPosition.x .. "," .. uv0.ad.anchoredPosition.y)
-			print("set painting pos = " .. uv0.paintTf.anchoredPosition.x .. "," .. uv0.paintTf.anchoredPosition.y)
-			print("set l2dContainner pos = " .. uv0.l2dContainner.anchoredPosition.x .. "," .. uv0.l2dContainner.anchoredPosition.y)
-			print("set painting pos = " .. uv0.triggerData.pos.x .. "," .. uv0.triggerData.pos.y)
-			print("set painting scale = " .. uv0.triggerData.scale)
+			warning("set tf pos = " .. uv0._tf.anchoredPosition.x .. "," .. uv0._tf.anchoredPosition.y)
+			warning("set ad pos = " .. uv0.ad.anchoredPosition.x .. "," .. uv0.ad.anchoredPosition.y)
+			warning("set painting pos = " .. uv0.paintTf.anchoredPosition.x .. "," .. uv0.paintTf.anchoredPosition.y)
+			warning("set l2dContainner pos = " .. uv0.l2dContainner.anchoredPosition.x .. "," .. uv0.l2dContainner.anchoredPosition.y)
+			warning("set painting pos = " .. uv0.triggerData.pos.x .. "," .. uv0.triggerData.pos.y)
+			warning("set painting scale = " .. uv0.triggerData.scale)
 
 			uv0.paintTf.anchoredPosition = uv0.triggerData.pos
 			uv0.paintTf.localScale = Vector3(uv0.triggerData.scale, uv0.triggerData.scale, uv0.triggerData.scale)
@@ -207,7 +209,7 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 			parent = slot0.spineContainer,
 			effectParent = slot0.effectContainer
 		}), function (slot0)
-			for slot5, slot6 in ipairs(slot0:GetSpineTrasform():GetComponent(typeof(ItemList)).prefabItem:ToTable()) do
+			for slot5, slot6 in ipairs(slot0:GetSpineTransform():GetComponent(typeof(ItemList)).prefabItem:ToTable()) do
 				if GetComponent(slot6, typeof(Canvas)) then
 					RemoveComponent(slot7, typeof(Canvas))
 				end
@@ -248,8 +250,8 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 			SetActive(slot0.paintTf, true)
 		end
 
-		print("set l2d painting pos = " .. slot0.paintTf.anchoredPosition.x .. "," .. slot0.paintTf.anchoredPosition.y)
-		print("set l2d l2dContainner pos = " .. slot0.l2dContainner.anchoredPosition.x .. "," .. slot0.l2dContainner.anchoredPosition.y)
+		warning("set l2d painting pos = " .. slot0.paintTf.anchoredPosition.x .. "," .. slot0.paintTf.anchoredPosition.y)
+		warning("set l2d l2dContainner pos = " .. slot0.l2dContainner.anchoredPosition.x .. "," .. slot0.l2dContainner.anchoredPosition.y)
 
 		slot0.live2dChar = Live2DPainting.New(Live2DPainting.GenerateData({
 			ship = slot4,

@@ -605,6 +605,8 @@ pg.expedition_data_by_map.all = {
 	2200141,
 	2200150,
 	2200160,
+	2200170,
+	2200171,
 	9920001,
 	9920002,
 	9920011,
@@ -19890,7 +19892,7 @@ end)()
 	}
 	pg.base.expedition_data_by_map[1810001] = {
 		map = 1810001,
-		name = "휘광의 성에서 피어나라·전편|| ||CHAPTER EX||E.X.",
+		name = "휘광의 성에서 피어나라·상편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-lightheven",
 		type = 4,
 		anchor = "",
@@ -19902,7 +19904,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1810006",
 		default_background = "",
-		on_activity = 5331,
+		on_activity = 51033,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -19961,7 +19963,7 @@ end)()
 	}
 	pg.base.expedition_data_by_map[1810002] = {
 		map = 1810002,
-		name = "휘광의 성에서 피어나라·후편|| ||CHAPTER EX||E.X.",
+		name = "휘광의 성에서 피어나라·하편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-lightheven",
 		type = 4,
 		anchor = "",
@@ -19973,7 +19975,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1810007",
 		default_background = "",
-		on_activity = 5331,
+		on_activity = 51033,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -20021,7 +20023,7 @@ end)()
 	}
 	pg.base.expedition_data_by_map[1810011] = {
 		map = 1810011,
-		name = "휘광의 성에서 피어나라·전편|| ||CHAPTER EX||E.X.",
+		name = "휘광의 성에서 피어나라·상편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-lightheven",
 		type = 5,
 		anchor = "",
@@ -20033,7 +20035,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1810002",
 		default_background = "",
-		on_activity = 5331,
+		on_activity = 51033,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -20092,7 +20094,7 @@ end)()
 	}
 	pg.base.expedition_data_by_map[1810012] = {
 		map = 1810012,
-		name = "휘광의 성에서 피어나라·후편|| ||CHAPTER EX||E.X.",
+		name = "휘광의 성에서 피어나라·하편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-lightheven",
 		type = 5,
 		anchor = "",
@@ -20104,7 +20106,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1810003",
 		default_background = "",
-		on_activity = 5331,
+		on_activity = 51033,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -20165,7 +20167,7 @@ end)()
 		ani_name = "Map_1810004",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 5331,
+		on_activity = 51033,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -20215,7 +20217,7 @@ end)()
 		ani_name = "Map_1810008",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 5331,
+		on_activity = 51033,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -35482,6 +35484,132 @@ end)()
 			{
 				0,
 				-465
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2200170] = {
+		map = 2200170,
+		name = "환몽 간주곡|| ||CHAPTER EX||E.X.",
+		bgm = "story-musicanniversary-gorgeous",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1820001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 10,
+		bg = "Map_1820001",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2200170,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2200171,
+				2200174
+			},
+			{
+				2200172,
+				2200175
+			},
+			{
+				2200173,
+				2200176
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2200171] = {
+		map = 2200171,
+		name = "환몽 간주곡|| ||CHAPTER EX||E.X.",
+		bgm = "story-musicanniversary-gorgeous",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1820001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 10,
+		bg = "Map_1820001",
+		story_id = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2200171,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2200171,
+				2200174
+			},
+			{
+				2200172,
+				2200175
+			},
+			{
+				2200173,
+				2200176
 			}
 		}
 	}

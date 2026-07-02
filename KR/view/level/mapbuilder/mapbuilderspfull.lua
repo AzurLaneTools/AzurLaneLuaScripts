@@ -18,6 +18,15 @@ end
 slot0.UpdateButtons = function(slot0)
 	uv0.super.UpdateButtons(slot0)
 
+	slot1 = slot0:getMaps()
+	slot2 = {}
+
+	if slot0.contextData.map:isRemaster() then
+		slot2 = pg.re_map_template[slot0.contextData.map:getRemaster()].drop_gain
+	end
+
+	setActive(slot0.sceneParent.eventContainer, #slot2 <= 0 and #slot1 <= 1)
+
 	if slot0.contextData.displayMode == uv0.DISPLAY.BATTLE then
 		slot0:UpdateSwitchMapButtons()
 	else
@@ -58,75 +67,79 @@ end
 slot0.UpdateSwitchMapButtons = function(slot0)
 	slot1 = slot0.contextData.displayMode == uv0.DISPLAY.BATTLE
 	slot2, slot3 = slot0.contextData.map:isActivity()
-	slot6 = nil
+	slot4 = slot0.contextData.map
 
-	UIItemList.StaticAlign(slot0.mapSwitchList, slot0.mapSwitchList:GetChild(0), #_.select((not slot0.contextData.map:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot4.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(slot4:getConfig("on_activity")), function (slot0)
-		return slot0:getMapType() ~= Map.ACTIVITY_HARD
-	end), function (slot0, slot1, slot2)
-		if slot0 ~= UIItemList.EventUpdate then
-			return
-		end
+	if #slot0:getMaps() > 1 then
+		slot8 = slot0.mapSwitchList
 
-		slot3 = uv0[slot1 + 1]
-		slot4 = slot3:getMapType()
-
-		setActive(slot2:Find("Unselect"), slot3.id ~= uv1.id)
-		setActive(slot2:Find("Selected"), slot3.id == uv1.id)
-
-		slot5 = nil
-
-		if #(slot3:getConfig("map_name") or "") > 0 then
-			slot5 = i18n(slot6)
-		elseif slot4 == Map.ACT_EXTRA then
-			if slot3:getChapters()[1]:IsSpChapter() then
-				slot5 = i18n("levelscene_mapselect_sp")
-			else
-				slot5 = i18n("levelscene_mapselect_ex")
-			end
-		else
-			slot8 = assert
-			slot9 = slot3.id % 10 == 1 or slot7 == 2
-
-			slot8(slot9)
-
-			slot5 = i18n("levelscene_mapselect_part" .. slot7)
-		end
-
-		if slot4 == Map.ACT_EXTRA and slot3:getChapters()[1]:IsSpChapter() then
-			setActive(slot2:Find("Tip"), slot3.id ~= uv1.id and getProxy(ChapterProxy):IsActivitySPChapterActive(pg.expedition_data_by_map[slot7:getConfig("map")].on_activity) and SettingsProxy.IsShowActivityMapSPTip())
-		end
-
-		setText(slot2:Find("Unselect/Text"), slot5)
-		setText(slot2:Find("Selected/Text"), slot5)
-
-		slot7, slot8 = slot3:isUnlock()
-		slot9 = getProxy(PlayerProxy):getRawData().id
-		slot10 = nil
-
-		if slot7 then
-			slot10 = PlayerPrefs.GetInt("MapFirstUnlock" .. slot3.id .. "_" .. slot9, 0) == 0
-		end
-
-		setActive(slot2:Find("Unselect/Lock"), not slot7 or slot10)
-		onButton(uv2, slot2, function ()
-			if uv0.id == uv1.id then
+		UIItemList.StaticAlign(slot0.mapSwitchList, slot8:GetChild(0), #slot5, function (slot0, slot1, slot2)
+			if slot0 ~= UIItemList.EventUpdate then
 				return
 			end
 
-			if uv2 then
-				uv3:emit(LevelUIConst.SET_MAP, uv0.id)
-			else
-				pg.TipsMgr.GetInstance():ShowTips(uv4)
-			end
-		end, SFX_PANEL)
-	end)
+			slot3 = uv0[slot1 + 1]
+			slot4 = slot3:getMapType()
 
-	slot8 = setActive
-	slot9 = slot0.sceneParent.actExtraRank
+			setActive(slot2:Find("Unselect"), slot3.id ~= uv1.id)
+			setActive(slot2:Find("Selected"), slot3.id == uv1.id)
+
+			slot5 = nil
+
+			if #(slot3:getConfig("map_name") or "") > 0 then
+				slot5 = i18n(slot6)
+			elseif slot4 == Map.ACT_EXTRA then
+				if slot3:getChapters()[1]:IsSpChapter() then
+					slot5 = i18n("levelscene_mapselect_sp")
+				else
+					slot5 = i18n("levelscene_mapselect_ex")
+				end
+			else
+				slot8 = assert
+				slot9 = slot3.id % 10 == 1 or slot7 == 2
+
+				slot8(slot9)
+
+				slot5 = i18n("levelscene_mapselect_part" .. slot7)
+			end
+
+			if slot4 == Map.ACT_EXTRA and slot3:getChapters()[1]:IsSpChapter() then
+				setActive(slot2:Find("Tip"), slot3.id ~= uv1.id and getProxy(ChapterProxy):IsActivitySPChapterActive(pg.expedition_data_by_map[slot7:getConfig("map")].on_activity) and SettingsProxy.IsShowActivityMapSPTip())
+			end
+
+			setText(slot2:Find("Unselect/Text"), slot5)
+			setText(slot2:Find("Selected/Text"), slot5)
+
+			slot7, slot8 = slot3:isUnlock()
+			slot9 = getProxy(PlayerProxy):getRawData().id
+			slot10 = nil
+
+			if slot7 then
+				slot10 = PlayerPrefs.GetInt("MapFirstUnlock" .. slot3.id .. "_" .. slot9, 0) == 0
+			end
+
+			setActive(slot2:Find("Unselect/Lock"), not slot7 or slot10)
+			onButton(uv2, slot2, function ()
+				if uv0.id == uv1.id then
+					return
+				end
+
+				if uv2 then
+					uv3:emit(LevelUIConst.SET_MAP, uv0.id)
+				else
+					pg.TipsMgr.GetInstance():ShowTips(uv4)
+				end
+			end, SFX_PANEL)
+		end)
+	else
+		setActive(slot0._tf:Find("Battle/MapItems"), false)
+	end
+
+	slot7 = setActive
+	slot8 = slot0.sceneParent.actExtraRank
 
 	if slot4:getConfig("type") == Map.ACT_EXTRA then
-		slot11 = getProxy(ActivityProxy)
-		slot10 = _.any(slot11:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK), function (slot0)
+		slot10 = getProxy(ActivityProxy)
+		slot9 = _.any(slot10:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK), function (slot0)
 			if not slot0 or slot0:isEnd() then
 				return
 			end
@@ -143,46 +156,58 @@ slot0.UpdateSwitchMapButtons = function(slot0)
 			end)
 		end)
 	else
-		slot10 = false
+		slot9 = false
 	end
 
-	slot8(slot9, slot10)
-	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not slot5 and slot0.sceneParent:IsActShopActive())
+	slot7(slot8, slot9)
+	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not inRemasterMap and slot0.sceneParent:IsActShopActive())
 
-	slot8 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
-	slot9 = slot8 and not slot8:isEnd() and slot8:GetConfigClientSetting("PTID")
+	slot7 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
+	slot8 = slot7 and not slot7:isEnd() and slot7:GetConfigClientSetting("PTID")
 
 	slot0.sceneParent:updatePtActivity(underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
 		return slot0:getConfig("config_id") == uv0
 	end))
-	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot5 and slot3 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd() and slot1)
+	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not inRemasterMap and slot3 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd() and slot1)
 	slot0.sceneParent:updateCountDown()
 end
 
 slot0.PlayEnterAnim = function(slot0)
+	slot1 = slot0.contextData.map
+
+	if #slot0:getMaps() > 1 then
+		slot5 = slot0.mapSwitchList
+
+		UIItemList.StaticAlign(slot0.mapSwitchList, slot5:GetChild(0), #slot2, function (slot0, slot1, slot2)
+			if slot0 ~= UIItemList.EventUpdate then
+				return
+			end
+
+			slot4, slot5 = uv0[slot1 + 1]:isUnlock()
+			slot6 = getProxy(PlayerProxy):getRawData().id
+			slot7 = nil
+
+			if slot4 then
+				slot7 = PlayerPrefs.GetInt("MapFirstUnlock" .. slot3.id .. "_" .. slot6, 0) == 0
+			end
+
+			setActive(slot2:Find("Unselect/Lock"), not slot4 or slot7)
+
+			if slot7 then
+				quickPlayAnimation(slot2:Find("Unselect"), "anim_spfullui_unlock")
+				PlayerPrefs.SetInt("MapFirstUnlock" .. slot3.id .. "_" .. slot6, 1)
+			end
+		end)
+	else
+		setActive(slot0._tf:Find("Battle/MapItems"), false)
+	end
+end
+
+slot0.getMaps = function(slot0)
 	slot3 = nil
 
-	UIItemList.StaticAlign(slot0.mapSwitchList, slot0.mapSwitchList:GetChild(0), #_.select((not slot0.contextData.map:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot1.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(slot1:getConfig("on_activity")), function (slot0)
+	return _.select((not slot0.contextData.map:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot1.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(slot1:getConfig("on_activity")), function (slot0)
 		return slot0:getMapType() ~= Map.ACTIVITY_HARD
-	end), function (slot0, slot1, slot2)
-		if slot0 ~= UIItemList.EventUpdate then
-			return
-		end
-
-		slot4, slot5 = uv0[slot1 + 1]:isUnlock()
-		slot6 = getProxy(PlayerProxy):getRawData().id
-		slot7 = nil
-
-		if slot4 then
-			slot7 = PlayerPrefs.GetInt("MapFirstUnlock" .. slot3.id .. "_" .. slot6, 0) == 0
-		end
-
-		setActive(slot2:Find("Unselect/Lock"), not slot4 or slot7)
-
-		if slot7 then
-			quickPlayAnimation(slot2:Find("Unselect"), "anim_spfullui_unlock")
-			PlayerPrefs.SetInt("MapFirstUnlock" .. slot3.id .. "_" .. slot6, 1)
-		end
 	end)
 end
 

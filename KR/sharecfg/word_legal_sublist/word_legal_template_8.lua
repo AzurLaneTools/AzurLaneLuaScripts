@@ -4,34 +4,6 @@ slot0.word_legal_template_8 = {}
 slot1 = slot0.word_legal_template_8
 
 temp = function()
-	uv0["화"] = {
-		["지"] = {
-			["아"] = {
-				this = true,
-				["·"] = {
-					["改"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["이"] = {
-			["트"] = {
-				[" "] = {
-					["하"] = {
-						["트"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["딩"] = {
 		["안"] = {
 			this = true
@@ -594,6 +566,24 @@ temp = function()
 				E = {
 					T = {
 						A = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["상"] = {
+		[" "] = {
+			["마"] = {
+				["르"] = {
+					["티"] = {
+						["뉴"] = {
 							this = true
 						}
 					}
