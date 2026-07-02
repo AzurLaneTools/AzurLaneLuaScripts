@@ -295,7 +295,7 @@ return {
 			hideRecordIco = true,
 			actor = 799023,
 			nameColor = "#A9F548FF",
-			say = "納西莫夫？妳還好嗎？",
+			say = "納希莫夫？妳還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
