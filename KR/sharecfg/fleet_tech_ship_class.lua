@@ -1448,7 +1448,7 @@ pg.base.fleet_tech_ship_class = {}
 	}
 	pg.base.fleet_tech_ship_class[20402] = {
 		shiptype = 4,
-		name = "어드미럴급",
+		name = "아드미랄급",
 		t_level = 6,
 		id = 20402,
 		t_level_1 = 57,

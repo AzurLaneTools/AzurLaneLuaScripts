@@ -320,7 +320,7 @@ pg.base.dorm3d_shop_template = {}
 	}
 	pg.base.dorm3d_shop_template[13] = {
 		rarity = 3,
-		name = "로맨틱 만점",
+		name = "낭만 만점",
 		type = 2,
 		room_id = 0,
 		unlock = "",

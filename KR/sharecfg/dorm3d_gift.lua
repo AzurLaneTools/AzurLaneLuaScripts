@@ -150,7 +150,7 @@ pg.base.dorm3d_gift = {}
 	}
 	pg.base.dorm3d_gift[1021002] = {
 		display = "그윽하고 매혹적인 향기를 내뿜는 꽃다발. 장미와 그 외 붉은색을 기조로 하는 꽃들이 열정적이고도 로맨틱한 분위기를 자아내고 있다.",
-		name = "로맨틱 만점",
+		name = "낭만 만점",
 		unlock_dialogue_id = 0,
 		rarity = 3,
 		ship_group_id = 0,
@@ -750,8 +750,8 @@ pg.base.dorm3d_gift = {}
 		}
 	}
 	pg.base.dorm3d_gift[7990261] = {
-		display = "원양어업을 모티브로 한 바디필로우. 부드러운 촉감과 포근한 감촉을 자랑한다. 꼭 끌어안고 멍하니 쉬어도 좋고, 기대어 휴식을 취해도 좋다.",
-		name = "원양어업 바디필로우",
+		display = "극지 어획을 모티브로 한 베개. 부드러운 촉감과 포근한 감촉을 자랑한다. 꼭 끌어안고 멍하니 쉬어도 좋고, 기대어 휴식을 취해도 좋다.",
+		name = "극지 어획 베개 ",
 		unlock_dialogue_id = 0,
 		rarity = 4,
 		ship_group_id = 79902,
@@ -779,8 +779,8 @@ pg.base.dorm3d_gift = {}
 			{
 				{
 					2026,
-					6,
-					25
+					7,
+					9
 				},
 				{
 					0,
@@ -792,7 +792,7 @@ pg.base.dorm3d_gift = {}
 				{
 					2026,
 					7,
-					16
+					30
 				},
 				{
 					23,
