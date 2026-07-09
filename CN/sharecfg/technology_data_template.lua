@@ -429,6 +429,7 @@ pg.technology_data_template.all = {
 	735,
 	736,
 	737,
+	738,
 	741,
 	742,
 	743,
@@ -750,6 +751,7 @@ pg.technology_data_template.all = {
 	1733,
 	1734,
 	1735,
+	1736,
 	1801,
 	1802,
 	1803,
@@ -17101,6 +17103,46 @@ end)()
 			}
 		}
 	}
+	pg.base.technology_data_template[738] = {
+		id = 738,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "E-125-MI",
+		lv_limit = 50,
+		desc = "对现实武器设备的解析，将为新型装备的研发提供决定性的参考，至于解析期间的装备损耗，只能说是必要的投入了",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 8,
+		sub_name = "中型项目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30043,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13053,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	}
 	pg.base.technology_data_template[741] = {
 		id = 741,
 		rarity = 1,
@@ -19929,6 +19971,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.technology_data_template[876] = {
 		id = 876,
 		rarity = 1,
@@ -19969,8 +20013,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.technology_data_template[877] = {
 		id = 877,
 		rarity = 1,
@@ -23992,6 +24034,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.technology_data_template[1226] = {
 		id = 1226,
 		rarity = 3,
@@ -24026,8 +24070,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.technology_data_template[1231] = {
 		id = 1231,
 		rarity = 3,
@@ -28019,6 +28061,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.technology_data_template[1611] = {
 		id = 1611,
 		rarity = 3,
@@ -28059,8 +28103,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.technology_data_template[1612] = {
 		id = 1612,
 		rarity = 3,
@@ -29971,6 +30013,46 @@ end)()
 			{
 				2,
 				13054,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	}
+	pg.base.technology_data_template[1736] = {
+		id = 1736,
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		name = "E-825-MI",
+		lv_limit = 80,
+		desc = "对现实武器设备的解析，将为新型装备的研发提供决定性的参考，至于解析期间的装备损耗，只能说是必要的投入了",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 8,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "item_3",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				10014,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13053,
 				1
 			},
 			{

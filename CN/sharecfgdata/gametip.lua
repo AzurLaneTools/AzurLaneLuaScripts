@@ -14646,9 +14646,9 @@ _G.pg.base.gametip.blueprint_simulation_confirm_29906 = {
 是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
 <color=#ff5c5c>实际性能以获得舰船为准</color>）
 使用装备：<color=#92fc63>
-试作型双联装406mmSKC主炮
-双联装TbtsKC36式150mm主炮
-试作型四联装30mm机炮
+试作型三联装419mm主炮MK.I
+双联装114mm高平两用炮MarkIV
+20mm厄利孔高射炮MkII
 </color></size>]]
 }
 
