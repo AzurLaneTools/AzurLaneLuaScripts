@@ -34,24 +34,12 @@ slot0.register = function(slot0)
 			if not pg.activity_template[slot5.id] then
 				Debugger.LogError("活动acvitity_template不存在: " .. slot5.id)
 			else
-				if Activity.Create(slot5):getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
-					if slot6:checkBattleTimeInBossAct() then
-						uv0:InitActtivityFleet(slot6, slot5)
-					end
-				elseif slot7 == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
-					uv0:InitActtivityFleet(slot6, slot5)
-				elseif slot7 == ActivityConst.ACTIVITY_TYPE_PARAMETER then
+				if Activity.Create(slot5):getConfig("type") == ActivityConst.ACTIVITY_TYPE_PARAMETER then
 					uv0:addActivityParameter(slot6)
-				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
-					uv0:InitActtivityFleet(slot6, slot5)
-				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
-					uv0:InitActtivityFleet(slot6, slot5)
-				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
-					uv0:InitActtivityFleet(slot6, slot5)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE then
 					uv0:CheckDailyEventRequest(slot6)
-				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
-					uv0:InitActtivityFleet(slot6, slot5)
+				else
+					uv0:CheckCreateActivityFleet(slot6, slot5)
 				end
 
 				uv0.data[slot5.id] = slot6
@@ -78,10 +66,6 @@ slot0.register = function(slot0)
 			uv0:monitorTaskList(slot2)
 		end
 
-		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot3:isEnd() then
-			uv0:InitActivityBossData(uv0.data[slot3.id])
-		end
-
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
 		(function ()
 			if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) then
@@ -91,7 +75,7 @@ slot0.register = function(slot0)
 			uv0:sendNotification(GAME.REQUEST_ATELIER, slot0.id)
 		end)()
 
-		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot5:isEnd() then
+		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot4:isEnd() then
 			getProxy(EventProxy):CheckAddActivityEvent()
 		end
 
@@ -106,15 +90,14 @@ slot0.register = function(slot0)
 			uv0:addActivityParameter(slot1)
 		end
 
+		if not uv0.data[slot1.id] or slot2 == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+			uv0:CheckCreateActivityFleet(slot1, slot0.activity_info)
+		end
+
 		if not uv0.data[slot1.id] then
 			uv0:addActivity(slot1)
 		else
 			uv0:updateActivity(slot1)
-		end
-
-		if slot2 == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
-			uv0:InitActtivityFleet(slot1, slot0.activity_info)
-			uv0:InitActivityBossData(slot1)
 		end
 
 		uv0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
@@ -124,7 +107,7 @@ slot0.register = function(slot0)
 	slot0:on(40009, function (slot0)
 		slot2 = nil
 
-		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) or uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB) then
+		if uv0:GetBossActivityByChapterId(slot0.arg1) or uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB) then
 			slot2 = slot1:GetSeriesData()
 		end
 
@@ -144,7 +127,7 @@ slot0.register = function(slot0)
 			uv0:updateActivity(slot0)
 		end)()
 
-		if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) then
+		if not uv0:getActivityById(slot0.act_id) then
 			return
 		end
 
@@ -853,6 +836,25 @@ slot0.monitorTaskList = function(slot0, slot1)
 	end
 end
 
+slot0.CheckCreateActivityFleet = function(slot0, slot1, slot2)
+	switch(slot1:getConfig("type"), {
+		[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = function ()
+			if uv0:checkBattleTimeInBossAct() then
+				uv1:InitActtivityFleet(uv0, uv2)
+			end
+
+			uv1:InitActivityBossData(uv0)
+		end,
+		[ActivityConst.ACTIVITY_TYPE_CHALLENGE] = function ()
+			uv0:InitActtivityFleet(uv1, uv2)
+		end,
+		[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = ActivityConst.ACTIVITY_TYPE_CHALLENGE,
+		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = ActivityConst.ACTIVITY_TYPE_CHALLENGE,
+		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE] = ActivityConst.ACTIVITY_TYPE_CHALLENGE,
+		[ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB] = ActivityConst.ACTIVITY_TYPE_CHALLENGE
+	})
+end
+
 slot0.InitActtivityFleet = function(slot0, slot1, slot2)
 	getProxy(FleetProxy):addActivityFleet(slot1, slot2.group_list)
 end
@@ -1110,6 +1112,91 @@ end
 
 slot0.IsTipLoveLetterMail = function(slot0)
 	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_MAIL) and not slot1:isEnd() and slot1:readyToAchieve()
+end
+
+slot0.GetBossRushActivities = function(slot0, slot1)
+	slot2 = getProxy(ActivityProxy)
+
+	return _.select(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH), function (slot0)
+		slot1 = pg.activity_task_permanent[slot0.id] ~= nil
+
+		if uv0 then
+			return slot1 and not slot0:isEnd()
+		else
+			slot2 = not slot1 and not slot0:isEnd()
+
+			return slot2
+		end
+	end)
+end
+
+slot0.GetBossRushActivitity = function(slot0, slot1)
+	return slot0:GetBossRushActivities(slot1)[1]
+end
+
+slot0.GetBossRushActivityById = function(slot0, slot1)
+	if slot0:getActivityById(slot1) and slot2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSRUSH and not slot2:isEnd() then
+		return slot2
+	end
+
+	return nil
+end
+
+slot0.GetBossActivityByChapterId = function(slot0, slot1)
+	for slot6, slot7 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH)) do
+		if not slot7:isEnd() and table.contains(slot7:getConfig("config_data"), slot1) then
+			return slot7
+		end
+	end
+
+	return nil
+end
+
+slot0.GetFakeGiftPackActivity = function(slot0, slot1)
+	slot0.skinCommodityActDic = slot0.skinCommodityActDic or {}
+
+	if slot0.skinCommodityActDic[slot1.id] then
+		if not slot0.skinCommodityActDic[slot1.id]:isEnd() then
+			return slot2
+		end
+
+		slot0.skinCommodityActDic[slot1.id] = nil
+	end
+
+	slot5 = {
+		ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE,
+		slot6
+	}
+	slot6 = ActivityConst.ACTIVITY_TYPE_TIMES_FAKE_PACKAGE
+
+	for slot5, slot6 in ipairs(slot0:getActivitiesByTypes(slot5)) do
+		if switch(slot6:getConfig("type"), {
+			[ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE] = function ()
+				if not uv0:isEnd() and uv0.data1 < 1 then
+					slot1 = uv0
+					slot0 = underscore.any(slot1:getConfig("config_data")[1], function (slot0)
+						return pg.ship_skin_template[slot0].shop_id == uv0.id
+					end)
+				else
+					slot0 = false
+				end
+
+				return slot0
+			end,
+			[ActivityConst.ACTIVITY_TYPE_TIMES_FAKE_PACKAGE] = function ()
+				slot0 = pg.activity_giftpackage[uv0:getConfig("config_id")]
+
+				return not uv0:isEnd() and uv0.data1 < slot0.limit_count and underscore.any(slot0.skin, function (slot0)
+					return pg.ship_skin_template[slot0].shop_id == uv0.id
+				end)
+			end
+		}, function ()
+		end) then
+			slot0.skinCommodityActDic[slot1.id] = slot6
+
+			return slot6
+		end
+	end
 end
 
 return slot0

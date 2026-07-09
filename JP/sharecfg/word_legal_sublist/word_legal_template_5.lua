@@ -274,6 +274,9 @@ temp = function()
 	uv0["高"] = {
 		["雄"] = {
 			this = true
+		},
+		["梁"] = {
+			this = true
 		}
 	}
 end

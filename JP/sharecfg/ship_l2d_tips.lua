@@ -23,7 +23,8 @@ pg.ship_l2d_tips.all = {
 	904021,
 	907013,
 	405032,
-	818011
+	818011,
+	703021
 }
 pg.base = pg.base or {}
 pg.base.ship_l2d_tips = {}
@@ -2328,6 +2329,55 @@ pg.base.ship_l2d_tips = {}
 				offset = {
 					0,
 					75
+				}
+			}
+		},
+		tips_scale = {
+			{
+				drawable = {},
+				scale = {
+					1,
+					1,
+					1
+				}
+			}
+		},
+		idle_black_list = {
+			{
+				drawable = {},
+				idle = {
+					0
+				}
+			}
+		},
+		anim_white_list = {
+			{
+				drawable = {
+					"TouchDrag99"
+				},
+				white_list = {
+					"touch_drag1"
+				}
+			}
+		}
+	}
+	pg.base.ship_l2d_tips[703021] = {
+		id = 703021,
+		tips_icon = {
+			{
+				icon = "l2dui",
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag2"
+				}
+			}
+		},
+		tips_offset = {
+			{
+				drawable = {},
+				offset = {
+					0,
+					0
 				}
 			}
 		},

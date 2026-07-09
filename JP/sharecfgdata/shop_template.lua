@@ -62459,11 +62459,12 @@ _G.pg.base.shop_template[70831] = {
 	resource_num = 980,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 20,
+	order = 74,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -62476,32 +62477,6 @@ _G.pg.base.shop_template[70831] = {
 	limit_args = {},
 	effect_args = {
 		702071
-	},
-	time = {
-		{
-			{
-				2026,
-				2,
-				26
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2026,
-				3,
-				11
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -62519,11 +62494,12 @@ _G.pg.base.shop_template[70832] = {
 	resource_num = 1180,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 20,
+	order = 74,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -62536,32 +62512,6 @@ _G.pg.base.shop_template[70832] = {
 	limit_args = {},
 	effect_args = {
 		703021
-	},
-	time = {
-		{
-			{
-				2026,
-				2,
-				26
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2026,
-				3,
-				11
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -62579,11 +62529,12 @@ _G.pg.base.shop_template[70833] = {
 	resource_num = 880,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 20,
+	order = 74,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -62596,32 +62547,6 @@ _G.pg.base.shop_template[70833] = {
 	limit_args = {},
 	effect_args = {
 		705071
-	},
-	time = {
-		{
-			{
-				2026,
-				2,
-				26
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2026,
-				3,
-				11
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -62639,11 +62564,12 @@ _G.pg.base.shop_template[70834] = {
 	resource_num = 1080,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 20,
+	order = 74,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -62656,32 +62582,6 @@ _G.pg.base.shop_template[70834] = {
 	limit_args = {},
 	effect_args = {
 		701025
-	},
-	time = {
-		{
-			{
-				2026,
-				2,
-				26
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2026,
-				3,
-				11
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -62699,11 +62599,12 @@ _G.pg.base.shop_template[70835] = {
 	resource_num = 880,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 20,
+	order = 74,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -62716,32 +62617,6 @@ _G.pg.base.shop_template[70835] = {
 	limit_args = {},
 	effect_args = {
 		603042
-	},
-	time = {
-		{
-			{
-				2026,
-				2,
-				26
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2026,
-				3,
-				11
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -62759,11 +62634,12 @@ _G.pg.base.shop_template[70836] = {
 	resource_num = 980,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 20,
+	order = 74,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -62776,32 +62652,6 @@ _G.pg.base.shop_template[70836] = {
 	limit_args = {},
 	effect_args = {
 		907012
-	},
-	time = {
-		{
-			{
-				2026,
-				2,
-				26
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2026,
-				3,
-				11
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -62819,11 +62669,12 @@ _G.pg.base.shop_template[70837] = {
 	resource_num = 880,
 	first_text = "",
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 20,
+	order = 74,
 	akashi_pick = 0,
+	time = "always",
 	group = 0,
 	num = 1,
 	package_tag = "",
@@ -62836,32 +62687,6 @@ _G.pg.base.shop_template[70837] = {
 	limit_args = {},
 	effect_args = {
 		499032
-	},
-	time = {
-		{
-			{
-				2026,
-				2,
-				26
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2026,
-				3,
-				11
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 

@@ -850,11 +850,17 @@ end
 
 setBlackMask = function(slot0, slot1, slot2)
 	if slot1 then
-		slot2 = slot2 or {}
-		GetOrAddComponent(slot0, "UIMaterialAdjuster").Recursive = tobool(defaultValue(slot2.recursive, true))
+		slot2 = setmetatable(slot2 or {}, {
+			__index = {
+				recursive = true,
+				color = Color(0, 0, 0, 0.2)
+			}
+		})
+		slot3 = GetOrAddComponent(slot0, "UIMaterialAdjuster")
+		slot3.Recursive = slot2.recursive
 		slot4 = Material.New(pg.ShaderMgr.GetInstance():GetShader("M02/Unlit Colored_Alpha_UI"))
 
-		slot4:SetColor("_Color", slot2.color or Color(0, 0, 0, 0.2))
+		slot4:SetColor("_Color", slot2.color)
 
 		slot3.adjusterMaterial = slot4
 		slot3.enabled = true

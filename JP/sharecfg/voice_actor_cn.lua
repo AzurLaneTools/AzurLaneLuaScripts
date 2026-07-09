@@ -1962,4 +1962,16 @@ end)()
 		actor_name = "和久野愛佳",
 		code = 511
 	}
+	pg.base.voice_actor_CN[512] = {
+		actor_name = "小鹿なお",
+		code = 512
+	}
+	pg.base.voice_actor_CN[513] = {
+		actor_name = "三浦千幸",
+		code = 513
+	}
+	pg.base.voice_actor_CN[514] = {
+		actor_name = "星谷美緒",
+		code = 514
+	}
 end)()

@@ -96,6 +96,10 @@ slot0.getKey = function(slot0)
 	return slot0.id .. "_" .. slot0.type
 end
 
+slot0.getBuyCount = function(slot0)
+	return slot0.buyCount or 0
+end
+
 slot0.updateBuyCount = function(slot0, slot1)
 	slot0.buyCount = slot1
 end

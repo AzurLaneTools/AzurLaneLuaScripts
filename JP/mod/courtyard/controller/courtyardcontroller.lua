@@ -424,7 +424,7 @@ slot0.OnApplicationPaused = function(slot0)
 end
 
 slot0.OnOpenLayerOrCloseLayer = function(slot0, slot1, slot2)
-	if not slot2 or not slot0.storey then
+	if not slot0.storey then
 		return
 	end
 

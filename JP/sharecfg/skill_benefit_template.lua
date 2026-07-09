@@ -445,7 +445,17 @@ pg.skill_benefit_template.all = {
 	15238007,
 	15238008,
 	15238009,
-	15238010
+	15238010,
+	19012001,
+	19012002,
+	19012003,
+	19012004,
+	19012005,
+	19012006,
+	19012007,
+	19012008,
+	19012009,
+	19012010
 }
 pg.base = pg.base or {}
 pg.base.skill_benefit_template = {}
@@ -6556,6 +6566,136 @@ end)()
 		limit = {},
 		effect = {
 			152390
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[19012001] = {
+		lv = 1,
+		skill_group_level = 0,
+		type = 5,
+		id = 19012001,
+		skill_id = 190120,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			190150
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[19012002] = {
+		lv = 2,
+		skill_group_level = 0,
+		type = 5,
+		id = 19012002,
+		skill_id = 190120,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			190150
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[19012003] = {
+		lv = 3,
+		skill_group_level = 0,
+		type = 5,
+		id = 19012003,
+		skill_id = 190120,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			190150
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[19012004] = {
+		lv = 4,
+		skill_group_level = 0,
+		type = 5,
+		id = 19012004,
+		skill_id = 190120,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			190150
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[19012005] = {
+		lv = 5,
+		skill_group_level = 0,
+		type = 5,
+		id = 19012005,
+		skill_id = 190120,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			190150
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[19012006] = {
+		lv = 6,
+		skill_group_level = 0,
+		type = 5,
+		id = 19012006,
+		skill_id = 190120,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			190150
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[19012007] = {
+		lv = 7,
+		skill_group_level = 0,
+		type = 5,
+		id = 19012007,
+		skill_id = 190120,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			190150
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[19012008] = {
+		lv = 8,
+		skill_group_level = 0,
+		type = 5,
+		id = 19012008,
+		skill_id = 190120,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			190150
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[19012009] = {
+		lv = 9,
+		skill_group_level = 0,
+		type = 5,
+		id = 19012009,
+		skill_id = 190120,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			190150
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[19012010] = {
+		lv = 10,
+		skill_group_level = 0,
+		type = 5,
+		id = 19012010,
+		skill_id = 190120,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			190150
 		},
 		world_extra_effect = {}
 	}

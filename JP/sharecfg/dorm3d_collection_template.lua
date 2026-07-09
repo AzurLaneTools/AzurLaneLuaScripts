@@ -4644,7 +4644,7 @@ end)()
 		time = 0,
 		room_id = 21,
 		desc = "クラシックな陶磁器の鉢に茂った観葉植物。青々とした葉が部屋に自然の活気をもたらす",
-		text = "dorm3d_naximofu_chair",
+		text = "dorm3d_naximofu_bed",
 		id = 2112,
 		icon = "3Ddrom_naximofu_item12",
 		model = {

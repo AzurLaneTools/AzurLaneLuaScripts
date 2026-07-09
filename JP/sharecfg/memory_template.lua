@@ -4169,6 +4169,13 @@ pg.memory_template.all = {
 	5235,
 	5236,
 	5237,
+	5251,
+	5252,
+	5253,
+	5254,
+	5255,
+	5256,
+	5257,
 	5241,
 	5242,
 	5243,
@@ -79536,6 +79543,132 @@ end)()
 			"LAFEIER7"
 		}
 	}
+	pg.base.memory_template[5251] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "無視できない異常",
+		condition = "「絶対的な笑顔のために1」開始",
+		story = "PULIMAOSI1",
+		mask = "bg/bg_memory",
+		task = 500261,
+		year = 0,
+		id = 5251,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI1"
+		}
+	}
+	pg.base.memory_template[5252] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "絶対的な「包丁さばき」？",
+		condition = "「絶対的な笑顔のために2」開始",
+		story = "PULIMAOSI2",
+		mask = "bg/bg_memory",
+		task = 500262,
+		year = 0,
+		id = 5252,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI2"
+		}
+	}
+	pg.base.memory_template[5253] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "遊園地のシャープシューター",
+		condition = "「絶対的な笑顔のために3」開始",
+		story = "PULIMAOSI3",
+		mask = "bg/bg_memory",
+		task = 500263,
+		year = 0,
+		id = 5253,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI3"
+		}
+	}
+	pg.base.memory_template[5254] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "許されない雨",
+		condition = "「絶対的な笑顔のために4」開始",
+		story = "PULIMAOSI4",
+		mask = "bg/bg_memory",
+		task = 500264,
+		year = 0,
+		id = 5254,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI4"
+		}
+	}
+	pg.base.memory_template[5255] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "鋼の花火",
+		condition = "「絶対的な笑顔のために5」開始",
+		story = "PULIMAOSI5",
+		mask = "bg/bg_memory",
+		task = 500265,
+		year = 0,
+		id = 5255,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI5"
+		}
+	}
+	pg.base.memory_template[5256] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "羽根トラブル",
+		condition = "「絶対的な笑顔のために6」開始",
+		story = "PULIMAOSI6",
+		mask = "bg/bg_memory",
+		task = 500266,
+		year = 0,
+		id = 5256,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI6"
+		}
+	}
+	pg.base.memory_template[5257] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "眉をひそめる理由",
+		condition = "「絶対的な笑顔のために7」開始",
+		story = "PULIMAOSI7",
+		mask = "bg/bg_memory",
+		task = 500267,
+		year = 0,
+		id = 5257,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI7"
+		}
+	}
 	pg.base.memory_template[5241] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80040,6 +80173,8 @@ end)()
 			"1060000"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10019] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80166,8 +80301,6 @@ end)()
 			"NICONICO4"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10026] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81842,6 +81975,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA38"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20038] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81968,8 +82103,6 @@ end)()
 			"LINGHANGYUANHAOGANDU1"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20045] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83644,6 +83777,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20139] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83770,8 +83905,6 @@ end)()
 			"LINGYANGZHELAIFANGJISHI8"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20146] = {
 		ship_group = 0,
 		subtitle = "",

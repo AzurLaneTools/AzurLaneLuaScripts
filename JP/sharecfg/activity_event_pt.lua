@@ -406,7 +406,8 @@ pg.activity_event_pt.all = {
 	50463,
 	50477,
 	50652,
-	51021
+	51021,
+	51062
 }
 pg.base = pg.base or {}
 pg.base.activity_event_pt = {}
@@ -81228,6 +81229,79 @@ end)()
 			5,
 			6,
 			7
+		}
+	}
+	pg.base.activity_event_pt[51062] = {
+		convert_resource_type = 0,
+		pic_list = "",
+		type = 2,
+		convert_pay = "",
+		end_time = "",
+		buff_group = "",
+		buff_time = "",
+		id_2 = 51062,
+		link_id = 0,
+		unlock_story = "",
+		target_buff = "",
+		drop_display = "",
+		pt_list = "",
+		id = 51062,
+		pt = 4,
+		target = {
+			100,
+			300,
+			500,
+			800,
+			1100,
+			1400,
+			1800
+		},
+		drop_client = {
+			{
+				2,
+				20109,
+				10
+			},
+			{
+				2,
+				20109,
+				20
+			},
+			{
+				2,
+				42080,
+				6
+			},
+			{
+				2,
+				20109,
+				30
+			},
+			{
+				2,
+				20001,
+				5
+			},
+			{
+				2,
+				20109,
+				40
+			},
+			{
+				2,
+				42086,
+				6
+			}
+		},
+		allplayer = {},
+		day_unlock = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
 		}
 	}
 end)()

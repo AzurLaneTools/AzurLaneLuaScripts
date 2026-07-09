@@ -27,7 +27,8 @@ pg.activity_task_permanent.all = {
 	6020,
 	6021,
 	6022,
-	6023
+	6023,
+	50521
 }
 pg.base = pg.base or {}
 pg.base.activity_task_permanent = {}
@@ -41,6 +42,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "夏の大作戦？",
 		id = 6000,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35000,
@@ -60,6 +62,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "新学期 ",
 		id = 6001,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35007,
@@ -92,6 +95,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "白衣の天使OR悪魔",
 		id = 6002,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35027,
@@ -111,6 +115,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "春風の十字星",
 		id = 6003,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35034,
@@ -143,6 +148,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "微酔の夜宴",
 		id = 6004,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35054,
@@ -169,6 +175,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "母港の特別宴会",
 		id = 6005,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35068,
@@ -195,6 +202,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "カオティック ハロウィンナイト",
 		id = 6006,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -206,6 +214,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "聖夜ナッツ！",
 		id = 6007,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35082,
@@ -232,6 +241,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "オペレーション・クリスマス",
 		id = 6008,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35096,
@@ -258,6 +268,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "愛と平和の聖夜祭",
 		id = 6009,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35110,
@@ -278,6 +289,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "異国風アイドル？",
 		id = 6010,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -289,6 +301,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "月刊マンガJavelin",
 		id = 6011,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35118,
@@ -319,6 +332,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "理科実験タイム！",
 		id = 6012,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35136,
@@ -349,6 +363,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "カラフルセレモニー！",
 		id = 6013,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35154,
@@ -375,6 +390,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "激奏のポラリス",
 		id = 6014,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35168,
@@ -401,6 +417,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "悪戯ハロウィン",
 		id = 6015,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35182,
@@ -427,6 +444,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "36年Z組　ニーミ先生",
 		id = 6016,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35196,
@@ -459,6 +477,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "雪のチャーミングタイム",
 		id = 6017,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -470,6 +489,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "饅頭チョコ工場",
 		id = 6018,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35216,
@@ -489,6 +509,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "隅っコのひまわり",
 		id = 6019,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35223,
@@ -515,6 +536,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "ふんわりリテール",
 		id = 6020,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35244,
@@ -541,6 +563,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "春日ゆらり",
 		id = 6021,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35258,
@@ -567,6 +590,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "U-410の特別鍛錬",
 		id = 6022,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -578,6 +602,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "灯の初春",
 		id = 6023,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35272,
@@ -595,5 +620,17 @@ pg.base.activity_task_permanent = {}
 			35284,
 			35285
 		}
+	}
+	pg.base.activity_task_permanent[50521] = {
+		gametip = "测试配置",
+		banner_route = "permanent_yamashiro",
+		gametip_extra = "测试配置",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "测试配置",
+		id = 50521,
+		activity_group = 2000,
+		over_task_id = "",
+		eliminate_task_id = {}
 	}
 end)()

@@ -45,14 +45,16 @@ slot0.execute = function(slot0, slot1)
 		cost_type = slot4
 	}, 16206, function (slot0)
 		if slot0.ret == 0 then
-			uv0:UnlockCryptolalia(uv1)
-			uv0:consume({
-				[id2res(uv2.id)] = uv2.count
+			slot1 = getProxy(PlayerProxy):getData()
+
+			slot1:UnlockCryptolalia(uv0)
+			slot1:consume({
+				[id2res(uv1.id)] = uv1.count
 			})
-			getProxy(PlayerProxy):updatePlayer(uv0)
+			getProxy(PlayerProxy):updatePlayer(slot1)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("cryptolalia_exchange_success"))
-			uv3:sendNotification(GAME.UNLOCK_CRYPTOLALIA_DONE, {
-				id = uv1
+			uv2:sendNotification(GAME.UNLOCK_CRYPTOLALIA_DONE, {
+				id = uv0
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.ret] .. slot0.ret)

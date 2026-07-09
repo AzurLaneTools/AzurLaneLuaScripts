@@ -812,6 +812,11 @@ pg.ship_data_group.all = {
 	20040,
 	20041,
 	20042,
+	20043,
+	20044,
+	20045,
+	20046,
+	20047,
 	30001,
 	30002,
 	30003,
@@ -1722,6 +1727,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[29905] = {
 		20023
 	},
+	[29906] = {
+		20043
+	},
 	[30101] = {
 		151
 	},
@@ -2223,6 +2231,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[39907] = {
 		20034
 	},
+	[39908] = {
+		20044
+	},
 	[40101] = {
 		233
 	},
@@ -2510,6 +2521,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	},
 	[49910] = {
 		20039
+	},
+	[49911] = {
+		20045
 	},
 	[50101] = {
 		253
@@ -2904,6 +2918,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[89904] = {
 		20037
 	},
+	[89905] = {
+		20046
+	},
 	[90101] = {
 		351
 	},
@@ -2984,6 +3001,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	},
 	[119901] = {
 		20042
+	},
+	[129901] = {
+		20047
 	},
 	[960001] = {
 		571
@@ -4300,7 +4320,12 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		20038,
 		20040,
 		20041,
-		20042
+		20042,
+		20043,
+		20044,
+		20045,
+		20046,
+		20047
 	},
 	{
 		30001,
@@ -30984,6 +31009,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -31143,6 +31179,17 @@ end)()
 				"イベント：星霜海嵐",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -31412,6 +31459,17 @@ end)()
 				"イベント：星霜海嵐",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -38462,6 +38520,181 @@ end)()
 					"SHIPBLUEPRINT",
 					{
 						shipGroupId = 119901
+					}
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[20043] = {
+		nationality = 2,
+		type = 4,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 29906,
+		index_id = 20043,
+		code = 20043,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 29906
+					}
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[20044] = {
+		nationality = 3,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 39908,
+		index_id = 20044,
+		code = 20044,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"C",
+			"A",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39908
+					}
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[20045] = {
+		nationality = 4,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 49911,
+		index_id = 20045,
+		code = 20045,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49911
+					}
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[20046] = {
+		nationality = 8,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 89905,
+		index_id = 20046,
+		code = 20046,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"A",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 89905
+					}
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[20047] = {
+		nationality = 12,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 129901,
+		index_id = 20047,
+		code = 20047,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"A",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 129901
 					}
 				},
 				0

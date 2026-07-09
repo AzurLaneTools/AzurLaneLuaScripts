@@ -897,6 +897,7 @@ pg.activity_template.all = {
 	6038,
 	6040,
 	6041,
+	50521,
 	50801,
 	50803,
 	50804,
@@ -926,7 +927,6 @@ pg.activity_template.all = {
 	50833,
 	50834,
 	50835,
-	50837,
 	50838,
 	50598,
 	50599,
@@ -965,6 +965,7 @@ pg.activity_template.all = {
 	50658,
 	50659,
 	50660,
+	50837,
 	51001,
 	51002,
 	51003,
@@ -1815,7 +1816,6 @@ pg.activity_template.get_id_list_by_type = {
 		50831,
 		50834,
 		50835,
-		50837,
 		50838,
 		50598,
 		50603,
@@ -1826,6 +1826,7 @@ pg.activity_template.get_id_list_by_type = {
 		50656,
 		50657,
 		50659,
+		50837,
 		51006,
 		51014,
 		51015,
@@ -2836,6 +2837,7 @@ pg.activity_template.get_id_list_by_type = {
 	[93] = {
 		5402,
 		5888,
+		50521,
 		50013,
 		50351
 	},
@@ -32807,6 +32809,26 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50521] = {
+		mark = 20260709,
+		page_info = "",
+		time = "stop",
+		type = 93,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50521,
+		page_core = "",
+		config_data = {
+			1001001,
+			1001002,
+			1001003
+		},
+		config_client = {
+			scene = "BossRushKurskReScene"
+		}
+	}
 	pg.base.activity_template[50801] = {
 		mark = 20260423,
 		page_info = "",
@@ -33075,6 +33097,8 @@ end)()
 			fightLinkActID = 50804
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50807] = {
 		mark = 20260423,
 		page_info = "",
@@ -33156,8 +33180,6 @@ end)()
 			painting = "haixiao_pt"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50809] = {
 		mark = 20260423,
 		page_info = "",
@@ -34325,30 +34347,6 @@ end)()
 					0
 				}
 			}
-		}
-	}
-	pg.base.activity_template[50837] = {
-		mark = 20260326,
-		page_info = "",
-		time = "",
-		type = 13,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_client = "",
-		title_res_tag = "",
-		id = 50837,
-		page_core = "",
-		config_data = {
-			21952,
-			21944,
-			21945,
-			21946,
-			21947,
-			21948,
-			21949,
-			21950,
-			21951
 		}
 	}
 	pg.base.activity_template[50838] = {
@@ -36398,6 +36396,30 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50837] = {
+		mark = 20260326,
+		page_info = "",
+		time = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50837,
+		page_core = "",
+		config_data = {
+			21952,
+			21944,
+			21945,
+			21946,
+			21947,
+			21948,
+			21949,
+			21950,
+			21951
+		}
+	}
 	pg.base.activity_template[51001] = {
 		mark = 20260514,
 		type = 18,
@@ -38432,6 +38454,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7014] = {
 		mark = 20231123,
 		type = 54,
@@ -38515,8 +38539,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7015] = {
 		mark = 20240130,
 		type = 54,
@@ -43364,6 +43386,8 @@ end)()
 			first_sfx = "qiyuanxiademimi"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50084] = {
 		mark = 20250814,
 		time = "stop",
@@ -43413,8 +43437,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50085] = {
 		mark = 20250814,
 		time = "stop",
@@ -46951,6 +46973,8 @@ end)()
 			ui_name = "ChongYingFrameRePage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50231] = {
 		mark = 20251113,
 		time = "stop",
@@ -47021,8 +47045,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50232] = {
 		mark = 20251113,
 		page_info = "",
@@ -51372,6 +51394,8 @@ end)()
 			65815
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50385] = {
 		mark = 20260205,
 		page_info = "",
@@ -51418,8 +51442,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50400] = {
 		mark = 20260212,
 		page_info = "",
@@ -55991,6 +56013,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990019] = {
 		mark = 20260507,
 		page_info = "",
@@ -56040,8 +56064,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990020] = {
 		mark = 20260507,
 		page_info = "",

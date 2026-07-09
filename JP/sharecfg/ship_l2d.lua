@@ -167707,7 +167707,8 @@ end)()
 				{
 					2,
 					{
-						"TouchDrag32"
+						"TouchDrag32",
+						"TouchIdle13"
 					},
 					0
 				}

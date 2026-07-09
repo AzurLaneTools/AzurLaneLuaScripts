@@ -318,6 +318,10 @@ slot0.readyToAchieve = function(slot0)
 				return true
 			end
 
+			if slot0:getConfig("config_client") and slot0:getConfig("config_client").link_act and getProxy(ActivityProxy):getActivityById(slot0:getConfig("config_client").link_act) and slot6:readyToAchieve() then
+				return true
+			end
+
 			return false
 		end,
 		[ActivityConst.ACTIVITY_TYPE_TASK_LIST] = function (...)
@@ -1019,7 +1023,7 @@ end
 slot0.getNotificationMsg = function(slot0)
 	slot2 = ActivityProxy.ACTIVITY_SHOW_AWARDS
 
-	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SHOP or slot1 == ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE then
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SHOP or slot1 == ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE or slot1 == ActivityConst.ACTIVITY_TYPE_TIMES_FAKE_PACKAGE then
 		slot2 = ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS
 	elseif slot1 == ActivityConst.ACTIVITY_TYPE_LOTTERY then
 		slot2 = ActivityProxy.ACTIVITY_LOTTERY_SHOW_AWARDS

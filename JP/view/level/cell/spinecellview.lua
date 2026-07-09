@@ -71,7 +71,7 @@ slot0.UnloadSpine = function(slot0)
 end
 
 slot0.UpdateSortingOrder = function(slot0)
-	slot0.spineRole:SetSortLayer(GetComponent(slot0.tf, typeof(Canvas)).sortingOrder - 2)
+	slot1 = GetComponent(slot0.tf, typeof(Canvas)).sortingOrder
 end
 
 slot0.SetSpineVisible = function(slot0, slot1)

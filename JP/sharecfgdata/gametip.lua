@@ -5323,6 +5323,11 @@ _G.pg.base.gametip.levelScene_activate_remaster = {
 }
 
 
+_G.pg.base.gametip.levelScene_activate_remaster_1 = {
+	tip = "ステージを開放するには<color=#ffde38>データキーx$1</color>を消費します。\nステージを開放しますか？"
+}
+
+
 _G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "データキーが不足しています"
 }
@@ -5339,22 +5344,19 @@ _G.pg.base.gametip.levelScene_remaster_help_tip = {
 			info = "<color=#92fc63>データキー</color>とは：\n<color=#92fc63>データキー</color>とは、過去開催済みのイベントステージや再度攻略できる<color=#92fc63>作戦履歴</color>を一定期間開放できるアイテムです。\n<color=#92fc63>作戦履歴</color>に実装されるまでに、過去にプレイした際のステージの攻略進捗は引き継がれません。"
 		},
 		{
-			info = "    \n    1.<color=#92fc63>データキー</color>は現状、毎日のデイリー任務で4個手に入れることができます"
+			info = "    \n    1.<color=#92fc63>データキー</color>は現状、毎日のキー入手ボタンタップで20個を手に入れることができます"
 		},
 		{
-			info = "    2.<color=#92fc63>データキー</color>は最大60個まで所持できます。60個所持している状態で新たに手に入れた超過分の<color=#92fc63>データキー</color>は自動で削除されます"
+			info = "    2.<color=#92fc63>データキー</color>は最大300個まで所持できます。300個所持している状態で新たに手に入れた超過分の<color=#92fc63>データキー</color>は自動で削除されます"
 		},
 		{
-			info = "    3.<color=#92fc63>データキー</color>1個につき、<color=#92fc63>作戦履歴</color>の常設イベントステージを1回開放することが可能です"
+			info = "    3.<color=#92fc63>作戦履歴</color>内のイベントのエクストラステージ以外のステージに挑戦できます"
 		},
 		{
-			info = "    4.<color=#92fc63>作戦履歴</color>内のイベントのエクストラステージ以外のステージに挑戦できます"
+			info = "    4.作戦履歴で常設されたイベントのストーリーは、当該イベントの最後のステージをクリアすると一括で開放されます"
 		},
 		{
-			info = "    5.作戦履歴で常設されたイベントのストーリーは、当該イベントの最後のステージをクリアすると一括で開放されます"
-		},
-		{
-			info = "    6.一部の作戦履歴のステージでは、敵中枢艦隊を60回撃破すると、1度だけSSR艦船を入手できます"
+			info = "    5.一部の作戦履歴のステージでは、敵中枢艦隊を60回撃破すると、1度だけSSR艦船を入手できます"
 		}
 	}
 }
@@ -7151,6 +7153,11 @@ _G.pg.base.gametip.word_shipNation_danmachi = {
 
 _G.pg.base.gametip.word_shipNation_dal = {
 	tip = "Date A Live"
+}
+
+
+_G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
+	tip = "ペドレーリア"
 }
 
 
@@ -12051,7 +12058,7 @@ DR特別計画艦について：
 (new!)・一部の特別計画艦は、「強化ユニット」を所持していない時でも、代わりに資金を消費して竜骨編纂を進捗させることができます。
 
 弾幕確認機能とは
- ・特別計画艦Ⅱ期・Ⅲ期・Ⅳ期・Ⅴ期・Ⅵ期・Ⅶ期・Ⅷ期の「弾幕仕様」を確認できる機能になります。
+ ・特別計画艦Ⅱ期・Ⅲ期・Ⅳ期・Ⅴ期・Ⅵ期・Ⅶ期・Ⅷ期・Ⅸ期の「弾幕仕様」を確認できる機能になります。
  ・「弾幕確認」をタップすると、該当の艦を使用した模擬戦（イベントバトル）が始まります。
  ※模擬戦における艦の耐久・装填などの性能は実際の性能とは異なります。
 
@@ -12892,12 +12899,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ストラスブール」「デュプレクス」常設実装！"
+	tip = "「クルスク」「セヴァストポリ」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ローダシュー」常設実装！"
+	tip = "「ヴォロシーロフ」常設実装！"
 }
 
 
@@ -14964,6 +14971,71 @@ _G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
 試作型283mm/54.5三連装砲
 100mm二連装九八式高角砲改
 二連装57mm/L60ボフォース対空機関砲 Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_29906 = {
+	tip = [[
+<size=28>
+弾幕確認機能（模擬戦）を起動しますか？
+<color=#ff5c5c>（※実際の艦の性能と異なります</color>）
+使用兵装：<color=#92fc63>
+試作型406mmSKC連装砲
+150mmTbtsKC/36連装砲
+試作型四連装30mm機関砲
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_129901 = {
+	tip = [[
+<size=28>
+弾幕確認機能（模擬戦）を起動しますか？
+<color=#ff5c5c>（※実際の艦の性能と異なります</color>）
+使用兵装：<color=#92fc63>
+381mm連装砲改
+試作型127mm連装高角砲Mk16
+76mm連装RF砲Mk37
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39908 = {
+	tip = [[
+<size=28>
+弾幕確認機能（模擬戦）を起動しますか？
+<color=#ff5c5c>（※実際の艦の性能と異なります</color>）
+使用兵装：<color=#92fc63>
+試作型150mm三連装五式高角砲
+試作型610mm四連装魚雷（巡洋艦用）
+100mm連装高角砲
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89905 = {
+	tip = [[
+<size=28>
+弾幕確認機能（模擬戦）を起動しますか？
+<color=#ff5c5c>（※実際の艦の性能と異なります</color>）
+使用兵装：<color=#92fc63>
+試作型127mm連装砲Mle1948
+550mm三連装魚雷
+二連装57mm/L60ボフォース対空機関砲Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49911 = {
+	tip = [[
+<size=28>
+弾幕確認機能（模擬戦）を起動しますか？
+<color=#ff5c5c>（※実際の艦の性能と異なります</color>）
+使用兵装：<color=#92fc63>
+試作型艦上式La-9
+試作艦載型Ta 152 C-1/R14
+試作型艦上式La-9
 </color></size>]]
 }
 
@@ -49992,6 +50064,16 @@ _G.pg.base.gametip.island_mecha_task_progress = {
 
 _G.pg.base.gametip.island_mecha_task_lock_tip = {
 	tip = "$1月$2日開放"
+}
+
+
+_G.pg.base.gametip.bossrush_act_remaster_close_prev_one_tip = {
+	tip = "作戦履歴を開放しますか？現在開放中の作戦履歴に挑戦できなくなります"
+}
+
+
+_G.pg.base.gametip.charge_title_getskin = {
+	tip = "-"
 }
 
 

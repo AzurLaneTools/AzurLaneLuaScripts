@@ -280,6 +280,7 @@ pg.name_code.all = {
 	310,
 	311,
 	312,
+	313,
 	400,
 	401,
 	402,
@@ -445,6 +446,8 @@ pg.name_code.all = {
 	561,
 	562,
 	564,
+	565,
+	566,
 	10000,
 	10001,
 	10002,
@@ -2401,6 +2404,13 @@ end)()
 		code = "木津",
 		nation = 0
 	}
+	pg.base.name_code[313] = {
+		name = "高梁",
+		type = 1,
+		id = 313,
+		code = "高梁",
+		nation = 0
+	}
 	pg.base.name_code[400] = {
 		name = "Z1",
 		type = 1,
@@ -2555,6 +2565,8 @@ end)()
 		code = "ケーニヒスベルク",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[422] = {
 		name = "カールスルーエ",
 		type = 1,
@@ -2562,8 +2574,6 @@ end)()
 		code = "カールスルーエ",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[423] = {
 		name = "ケルン",
 		type = 1,
@@ -3257,6 +3267,8 @@ end)()
 		code = "ヒンデンブルク",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[522] = {
 		name = "旗風(META)",
 		type = 1,
@@ -3264,8 +3276,6 @@ end)()
 		code = "旗風(META)",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[523] = {
 		name = "ジャン·バール",
 		type = 1,
@@ -3558,6 +3568,20 @@ end)()
 		type = 1,
 		id = 564,
 		code = "ゲッツ・フォン・ベルリヒンゲン",
+		nation = 0
+	}
+	pg.base.name_code[565] = {
+		name = "マックス・インメルマン",
+		type = 1,
+		id = 565,
+		code = "マックス・インメルマン",
+		nation = 0
+	}
+	pg.base.name_code[566] = {
+		name = "古の鋼のドラゴンにして永遠の命を持つ空を司りし者",
+		type = 1,
+		id = 566,
+		code = "古の鋼のドラゴンにして永遠の命を持つ空を司りし者",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {

@@ -15,30 +15,34 @@ slot0.execute = function(slot0, slot1)
 
 			slot3 = PlayerConst.GetTranAwards(uv0, slot0)
 			getProxy(ActivityProxy):GetBossRushRuntime(slot1.id).settlementData = nil
+			slot6 = nil
 
 			if getProxy(ActivityProxy):GetBossRushRuntime(uv0.actId).settlementData.win then
 				slot1:AddPassSeries(slot5.seriesId)
+				getProxy(ChapterProxy):addRemasterPassCount(slot5.seriesId, uv0.actId)
+
+				slot6 = BossRushChapterRemasterHelper.GetActivityRemasterByFinalSeriesId(uv0.actId, slot5.seriesId) and slot7.memory_group
 
 				if slot1:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
 					slot1:AddUsedBonus(slot5.seriesId)
 				end
 			end
 
-			for slot9, slot10 in ipairs(slot5) do
-				table.insertto(slot3, slot10.drops)
-				table.insertto(slot3, slot10.extraDrops)
+			for slot10, slot11 in ipairs(slot5) do
+				table.insertto(slot3, slot11.drops)
+				table.insertto(slot3, slot11.extraDrops)
 			end
 
 			if slot2 then
 				slot2:AddFinalResults(slot5)
 			end
 
-			slot6 = getProxy(ActivityProxy)
+			slot7 = getProxy(ActivityProxy)
 
-			slot6:updateActivity(slot1)
+			slot7:updateActivity(slot1)
 			seriesAsync({
-				function (slot0)
-					slot1 = {
+				function (slot0, slot1)
+					slot2 = {
 						seriesData = uv0,
 						activityId = uv1.actId,
 						awards = uv2,
@@ -46,12 +50,17 @@ slot0.execute = function(slot0, slot1)
 					}
 
 					if uv1.callback then
-						uv1.callback(slot1)
+						uv1.callback(slot2)
 					else
-						uv3:sendNotification(GAME.BOSSRUSH_SETTLE_DONE, slot1)
+						uv3:sendNotification(GAME.BOSSRUSH_SETTLE_DONE, slot2)
 					end
 				end,
 				function (slot0)
+					if not BossRushChapterRemasterHelper.UnlockMemoryGroupStoriesAndShowMsgBox(uv0, function (slot0)
+						uv0(slot0)
+					end) then
+						slot0({})
+					end
 				end
 			})
 
