@@ -17,7 +17,9 @@ pg.dorm3d_gift.all = {
 	1051702,
 	3070701,
 	3070702,
-	4990501
+	4990501,
+	7990201,
+	7990261
 }
 pg.dorm3d_gift.get_id_list_by_ship_group_id = {
 	[0] = {
@@ -48,6 +50,10 @@ pg.dorm3d_gift.get_id_list_by_ship_group_id = {
 	},
 	[49905] = {
 		4990501
+	},
+	[79902] = {
+		7990201,
+		7990261
 	}
 }
 pg.base = pg.base or {}
@@ -61,6 +67,8 @@ pg.base.dorm3d_gift = {}
 		rarity = 2,
 		shop_id = "",
 		ship_group_id = 0,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1009,
 		id = 1021001,
 		icon = "dorm3dicon/3Ddrom_everyone_CommonGift3",
@@ -88,6 +96,10 @@ pg.base.dorm3d_gift = {}
 			{
 				49905,
 				140301
+			},
+			{
+				79902,
+				210301
 			}
 		},
 		unlock_tips = {},
@@ -127,6 +139,12 @@ pg.base.dorm3d_gift = {}
 				{
 					"banner_aijier"
 				}
+			},
+			{
+				79902,
+				{
+					"banner_naximofu"
+				}
 			}
 		}
 	}
@@ -136,6 +154,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 0,
 		rarity = 3,
 		ship_group_id = 0,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1010,
 		id = 1021002,
 		icon = "dorm3dicon/3Ddrom_everyone_CommonGift2",
@@ -163,6 +183,10 @@ pg.base.dorm3d_gift = {}
 			{
 				49905,
 				140302
+			},
+			{
+				79902,
+				210302
 			}
 		},
 		shop_id = {
@@ -209,6 +233,12 @@ pg.base.dorm3d_gift = {}
 				{
 					"banner_aijier"
 				}
+			},
+			{
+				79902,
+				{
+					"banner_naximofu"
+				}
 			}
 		}
 	}
@@ -218,6 +248,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 0,
 		rarity = 4,
 		ship_group_id = 0,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1019,
 		id = 1021003,
 		icon = "dorm3dicon/3Ddrom_everyone_CommonGift1",
@@ -245,6 +277,10 @@ pg.base.dorm3d_gift = {}
 			{
 				49905,
 				140303
+			},
+			{
+				79902,
+				210303
 			}
 		},
 		shop_id = {
@@ -288,6 +324,12 @@ pg.base.dorm3d_gift = {}
 				{
 					"banner_aijier"
 				}
+			},
+			{
+				79902,
+				{
+					"banner_naximofu"
+				}
 			}
 		}
 	}
@@ -297,6 +339,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 10060,
 		rarity = 4,
 		ship_group_id = 20220,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 2022001,
 		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift2",
@@ -327,6 +371,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 10070,
 		rarity = 4,
 		ship_group_id = 20220,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 2022002,
 		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift1",
@@ -357,6 +403,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 10080,
 		rarity = 4,
 		ship_group_id = 20220,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 2022003,
 		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift4",
@@ -387,6 +435,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 29991,
 		rarity = 4,
 		ship_group_id = 30221,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 3022101,
 		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift1",
@@ -417,6 +467,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 20530,
 		rarity = 4,
 		ship_group_id = 30221,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 3022102,
 		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift2",
@@ -447,6 +499,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 30510,
 		rarity = 4,
 		ship_group_id = 19903,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 1990301,
 		icon = "dorm3dicon/3Ddrom_ankeleiqi_FancyGift1",
@@ -477,6 +531,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 30550,
 		rarity = 4,
 		ship_group_id = 19903,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 1990302,
 		icon = "dorm3dicon/3Ddrom_ankeleiqi_FancyGift2",
@@ -507,6 +563,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 110541,
 		rarity = 4,
 		ship_group_id = 10517,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 1051701,
 		icon = "dorm3dicon/3Ddrom_xinzexi_CommonFurniture4",
@@ -537,6 +595,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 110551,
 		rarity = 4,
 		ship_group_id = 10517,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 1051702,
 		icon = "dorm3dicon/3Ddrom_xinzexi_PremiumGift2",
@@ -567,6 +627,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 120541,
 		rarity = 4,
 		ship_group_id = 30707,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 3070701,
 		icon = "dorm3dicon/3Ddrom_dafeng_FancyGift1",
@@ -597,6 +659,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 120551,
 		rarity = 4,
 		ship_group_id = 30707,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 3070702,
 		icon = "dorm3dicon/3Ddrom_dafeng_FancyGift2",
@@ -627,6 +691,8 @@ pg.base.dorm3d_gift = {}
 		unlock_dialogue_id = 140541,
 		rarity = 4,
 		ship_group_id = 49905,
+		time = "always",
+		hide_if_not_owned = 0,
 		favor_trigger_id = 1004,
 		id = 4990501,
 		icon = "dorm3dicon/3Ddrom_aijier_FancyGift1",
@@ -647,6 +713,91 @@ pg.base.dorm3d_gift = {}
 				49905,
 				{
 					"banner_gift4990501"
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_gift[7990201] = {
+		display = "물고기 인형으로 시선을 사로잡는, 「본능 훈련기」라는 이름의 장난감. \n공중에서 호를 그리며 상대의 가장 순수한 본능을 끌어내기 위해 끊임없는 유혹을 건넨다.",
+		name = "본능 훈련기",
+		unlock_dialogue_id = 210541,
+		rarity = 4,
+		ship_group_id = 79902,
+		time = "always",
+		hide_if_not_owned = 0,
+		favor_trigger_id = 1004,
+		id = 7990201,
+		icon = "dorm3dicon/3Ddrom_naximofu_FancyGift1",
+		reply_dialogue_id = {
+			{
+				79902,
+				210304
+			}
+		},
+		shop_id = {
+			260701
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				79902,
+				{
+					"banner_gift7990201"
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_gift[7990261] = {
+		display = "원양어업을 모티브로 한 바디필로우. 부드러운 촉감과 포근한 감촉을 자랑한다. 꼭 끌어안고 멍하니 쉬어도 좋고, 기대어 휴식을 취해도 좋다.",
+		name = "원양어업 바디필로우",
+		unlock_dialogue_id = 0,
+		rarity = 4,
+		ship_group_id = 79902,
+		hide_if_not_owned = 1,
+		favor_trigger_id = 1099,
+		id = 7990261,
+		icon = "dorm3dicon/3Ddrom_naximofu_FancyGift9",
+		reply_dialogue_id = {
+			{
+				79902,
+				210302
+			}
+		},
+		shop_id = {},
+		unlock_tips = {},
+		unlock_banners = {
+			{
+				79902,
+				{
+					"banner_naximofu"
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					6,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}

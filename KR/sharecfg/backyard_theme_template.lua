@@ -125,7 +125,8 @@ pg.backyard_theme_template.all = {
 	135,
 	136,
 	137,
-	138
+	138,
+	139
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5364,6 +5365,40 @@ end)()
 			338113,
 			338114,
 			338115
+		}
+	}
+	pg.base.backyard_theme_template[139] = {
+		Cfg_1 = 5,
+		name = "깜짝 서커스",
+		desc = "깜짝 서커스에서 웃음 가득한 즐거운 시간을 보내자♪",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 139,
+		id = 139,
+		icon = "mxtthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			339001,
+			339002,
+			339101,
+			339102,
+			339103,
+			339104,
+			339105,
+			339106,
+			339107,
+			339108,
+			339109,
+			339110,
+			339111,
+			339112,
+			339113,
+			339114
 		}
 	}
 end)()

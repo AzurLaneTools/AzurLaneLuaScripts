@@ -45,7 +45,10 @@ pg.dorm3d_shop_template.all = {
 	39,
 	40,
 	41,
-	42
+	42,
+	43,
+	44,
+	45
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_shop_template = {}
@@ -826,7 +829,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 16,
 		id = 36,
 		realroom_id = 0,
-		order = "5",
+		order = "6",
 		panel = {
 			2
 		},
@@ -846,7 +849,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1154,
 		id = 37,
 		realroom_id = 0,
-		order = "5",
+		order = "6",
 		panel = {
 			1,
 			2,
@@ -869,7 +872,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1223,
 		id = 38,
 		realroom_id = 0,
-		order = "5",
+		order = "6",
 		panel = {
 			1,
 			2,
@@ -892,7 +895,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 324,
 		id = 39,
 		realroom_id = 0,
-		order = "5",
+		order = "6",
 		panel = {
 			1,
 			2,
@@ -915,7 +918,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1462,
 		id = 40,
 		realroom_id = 0,
-		order = "4",
+		order = "6",
 		panel = {
 			1,
 			2,
@@ -938,7 +941,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1051702,
 		id = 41,
 		realroom_id = 0,
-		order = "4",
+		order = "6",
 		panel = {
 			2,
 			3,
@@ -960,7 +963,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 3070702,
 		id = 42,
 		realroom_id = 0,
-		order = "2",
+		order = "6",
 		panel = {
 			2,
 			3,
@@ -971,6 +974,71 @@ pg.base.dorm3d_shop_template = {}
 		},
 		banners = {
 			"banner_gift3070702"
+		}
+	}
+	pg.base.dorm3d_shop_template[43] = {
+		rarity = 4,
+		name = "큐브 검출기",
+		type = 1,
+		room_id = 79902,
+		unlock = "",
+		item_id = 2161,
+		id = 43,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270701
+		},
+		banners = {
+			"banner_furniture2161"
+		}
+	}
+	pg.base.dorm3d_shop_template[44] = {
+		rarity = 4,
+		name = "본능 훈련기",
+		type = 2,
+		room_id = 79902,
+		unlock = "",
+		item_id = 7990201,
+		id = 44,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260701
+		},
+		banners = {
+			"banner_gift7990201"
+		}
+	}
+	pg.base.dorm3d_shop_template[45] = {
+		rarity = 4,
+		name = "차고 초대장: 아드미랄 나히모프",
+		type = 3,
+		room_id = 79902,
+		unlock = "",
+		item_id = 26,
+		id = 45,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			2
+		},
+		shop_id = {
+			270121
+		},
+		banners = {
+			"banner_carwash1"
 		}
 	}
 end)()

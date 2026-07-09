@@ -12,7 +12,10 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._parent = slot2
 
 	pg.DelegateInfo.New(slot0)
+	slot0:InitUI()
+end
 
+slot0.InitUI = function(slot0)
 	slot0._mask = findTF(slot0._tf, "mask")
 	slot0._medalIcon = findTF(slot0._tf, "icon")
 	slot0._medalLock = findTF(slot0._tf, "lock")

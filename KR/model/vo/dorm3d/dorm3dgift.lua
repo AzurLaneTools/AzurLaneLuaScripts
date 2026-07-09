@@ -24,6 +24,38 @@ slot0.GetDesc = function(slot0)
 	return slot0:getConfig("display")
 end
 
+slot0.InTime = function(slot0)
+	return pg.TimeMgr.GetInstance():inTime(slot0:getConfig("time"))
+end
+
+slot0.IsSingleGiveGift = function(slot0)
+	return pg.dorm3d_gift[slot0].unlock_dialogue_id ~= 0
+end
+
+slot0.IsExpireSoon = function(slot0)
+	if type(pg.dorm3d_gift[slot0].time) ~= "table" or #slot1 <= 1 then
+		return false
+	end
+
+	slot2 = pg.TimeMgr.GetInstance()
+
+	return slot2:inTime(slot1) and slot2:parseTimeFromConfig(slot1[2]) - slot2:GetServerTime() <= 172800
+end
+
+slot0.GetExpireSoonTipFlag = function(slot0)
+	return PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftExpireSoonTip_" .. slot0, 0)
+end
+
+slot0.SetExpireSoonTipFlag = function(slot0)
+	if uv0.GetExpireSoonTipFlag(slot0) > 0 then
+		return
+	end
+
+	PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftExpireSoonTip_" .. slot0, 1)
+
+	return true
+end
+
 slot0.GetShopID = function(slot0)
 	slot2 = getProxy(ApartmentProxy):GetGiftShopCount(slot0.configId)
 
@@ -74,13 +106,13 @@ slot0.NeedViewTip = function(slot0)
 		return _.any(uv1.get_id_list_by_ship_group_id[slot0], function (slot0)
 			return Dorm3dGift.New({
 				configId = slot0
-			}):GetShopID() and not getProxy(ApartmentProxy):isGiveGiftDone(slot0) and Dorm3dGift.GetViewedFlag(slot0) == 0
+			}):GetShopID() and type(slot1:getConfig("time")) ~= "table" and (not Dorm3dGift.IsSingleGiveGift(slot0) or not getProxy(ApartmentProxy):isGiveGiftDone(slot0)) and Dorm3dGift.GetViewedFlag(slot0) == 0
 		end)
 	end)
 end
 
 slot0.NeedViewTipByGiftId = function(slot0)
-	return Dorm3dGift.GetViewedFlag(slot0) == 0 and not getProxy(ApartmentProxy):isGiveGiftDone(slot0)
+	return Dorm3dGift.GetViewedFlag(slot0) == 0 and (not Dorm3dGift.IsSingleGiveGift(slot0) or not getProxy(ApartmentProxy):isGiveGiftDone(slot0))
 end
 
 slot0.GetViewedFlag = function(slot0)

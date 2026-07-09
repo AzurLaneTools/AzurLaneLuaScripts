@@ -365,6 +365,22 @@ end
 temp()
 
 temp = function()
+	uv0["랑"] = {
+		["트"] = {
+			["레"] = {
+				["피"] = {
+					["드"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["잔"] = {
 		[" "] = {
 			["다"] = {
@@ -566,24 +582,6 @@ temp = function()
 				E = {
 					T = {
 						A = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["상"] = {
-		[" "] = {
-			["마"] = {
-				["르"] = {
-					["티"] = {
-						["뉴"] = {
 							this = true
 						}
 					}

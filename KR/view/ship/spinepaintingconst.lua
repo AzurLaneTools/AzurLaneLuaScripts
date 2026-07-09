@@ -1762,6 +1762,75 @@ slot0.ship_drag_datas = {
 				}
 			}
 		}
+	},
+	aluomangshi_2 = {
+		multiple_face = {},
+		hit_area = {
+			"random",
+			"skin_1",
+			"skin_2"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					click = true,
+					idle = "normal",
+					active = true,
+					hit = "random",
+					action = {
+						"drag1",
+						"drag2",
+						"drag3"
+					},
+					change_idle = {
+						"ex1",
+						"ex2",
+						"ex3"
+					}
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					active = true,
+					hit = "random",
+					idle = {
+						"ex1",
+						"ex2",
+						"ex3"
+					},
+					action = {
+						"drag_ex1",
+						"drag_ex2",
+						"drag_ex3"
+					}
+				},
+				{
+					click = true,
+					skin_change = "2",
+					skin = "1",
+					hit = "skin_1",
+					idle = {
+						"normal",
+						"ex1",
+						"ex2",
+						"ex3"
+					}
+				},
+				{
+					click = true,
+					skin_change = "1",
+					skin = "2",
+					hit = "skin_2",
+					idle = {
+						"normal",
+						"ex1",
+						"ex2",
+						"ex3"
+					}
+				}
+			}
+		}
 	}
 }
 slot0.ship_effect_action_able = {

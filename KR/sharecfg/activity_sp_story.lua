@@ -420,7 +420,16 @@ pg.activity_sp_story.all = {
 	456,
 	457,
 	458,
-	459
+	459,
+	461,
+	462,
+	463,
+	464,
+	465,
+	466,
+	467,
+	468,
+	469
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -9073,6 +9082,179 @@ end)()
 			{
 				4,
 				458
+			}
+		}
+	}
+	pg.base.activity_sp_story[461] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "bg_qimiaoye_cg1",
+		name = "EPS-1 달빛의 안내자",
+		story = "MEIMENGXUNYANQIMIAOYE1",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 461,
+		lock = ""
+	}
+	pg.base.activity_sp_story[462] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-1 클리어",
+		change_background = "bg_qimiaoye_1",
+		name = "EPS-2 꿈의 수호자",
+		story = "MEIMENGXUNYANQIMIAOYE2",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 462,
+		pre_event = {
+			461
+		},
+		lock = {
+			{
+				4,
+				461
+			}
+		}
+	}
+	pg.base.activity_sp_story[463] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-2 클리어",
+		change_background = "star_level_bg_665",
+		name = "EPS-3 플레임 댄스",
+		story = "MEIMENGXUNYANQIMIAOYE3",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 463,
+		pre_event = {
+			462
+		},
+		lock = {
+			{
+				4,
+				462
+			}
+		}
+	}
+	pg.base.activity_sp_story[464] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-3 클리어",
+		change_background = "star_level_bg_665",
+		name = "EPS-4 탈출 마술",
+		story = "MEIMENGXUNYANQIMIAOYE4",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 464,
+		pre_event = {
+			463
+		},
+		lock = {
+			{
+				4,
+				463
+			}
+		}
+	}
+	pg.base.activity_sp_story[465] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-4 클리어",
+		change_background = "star_level_bg_665",
+		name = "EPS-5 그네를 탄 발명가",
+		story = "MEIMENGXUNYANQIMIAOYE5",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 465,
+		pre_event = {
+			464
+		},
+		lock = {
+			{
+				4,
+				464
+			}
+		}
+	}
+	pg.base.activity_sp_story[466] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-5 클리어",
+		change_background = "star_level_bg_665",
+		name = "EPS-6 꿈의 붓",
+		story = "MEIMENGXUNYANQIMIAOYE6",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 466,
+		pre_event = {
+			465
+		},
+		lock = {
+			{
+				4,
+				465
+			}
+		}
+	}
+	pg.base.activity_sp_story[467] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-6 클리어",
+		change_background = "star_level_bg_665",
+		name = "EPS-7 설레는 원샷",
+		story = "MEIMENGXUNYANQIMIAOYE7",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 467,
+		pre_event = {
+			466
+		},
+		lock = {
+			{
+				4,
+				466
+			}
+		}
+	}
+	pg.base.activity_sp_story[468] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-7 클리어",
+		change_background = "bg_qimiaoye_2",
+		name = "EPS-8 마지막 동료",
+		story = "MEIMENGXUNYANQIMIAOYE8",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 468,
+		pre_event = {
+			467
+		},
+		lock = {
+			{
+				4,
+				467
+			}
+		}
+	}
+	pg.base.activity_sp_story[469] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-8 클리어",
+		change_background = "star_level_bg_523",
+		name = "EPS-9 쇼는 계속되어야 한다",
+		story = "MEIMENGXUNYANQIMIAOYE9",
+		change_bgm = "theme-magicalnight-mystic",
+		id = 469,
+		pre_event = {
+			468
+		},
+		lock = {
+			{
+				4,
+				468
 			}
 		}
 	}

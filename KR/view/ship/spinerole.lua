@@ -47,6 +47,8 @@ slot0.Load = function(slot0, slot1, slot2, slot3)
 
 			uv0._model.transform.localPosition = Vector3.zero
 
+			setActive(uv0._model.transform, true)
+
 			if uv2 then
 				uv2()
 			end
@@ -88,6 +90,7 @@ end
 
 slot0.Init = function(slot0)
 	slot0.state = uv0.STATE_INITED
+	slot0._sortLayerCount = 0
 	slot0._modleGraphic = slot0._model:GetComponent("SkeletonGraphic")
 	slot0._modleAnim = slot0._model:GetComponent("SpineAnimUI")
 	slot0._attachmentList = {}
@@ -136,46 +139,87 @@ slot0.loadOrbitUI = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = ResourceMgr.Inst
 
 	slot7:getAssetAsync(slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0.state ~= uv1.STATE_DISPOSE then
-			slot1 = uv2 .. "_bound"
-			slot2 = uv3[slot1][1]
-			slot3 = uv3[slot1][2]
-
-			for slot9, slot10 in ipairs(Object.Instantiate(slot0):GetComponentsInChildren(typeof(Spine.Unity.SkeletonGraphic)):ToTable()) do
-				slot10.raycastTarget = false
+		if tf(slot0).childCount > 1 then
+			for slot5 = 1, slot1 do
+				uv0:CreateOrbitUI(slot5, slot0, uv1, uv2, uv3, uv4, uv5)
 			end
-
-			slot4.transform.localPosition = Vector2(slot3[1], slot3[2])
-			slot4.transform.localScale = Vector3.one
-			slot6 = SpineAnimUI.AddFollower(uv4, uv0._model.transform, slot4.transform)
-			uv0._attachmentList[slot6] = {
-				p = uv5,
-				hiddenActionList = uv3.orbit_hidden_action,
-				index = uv6,
-				back = uv3.orbit_ui_back
-			}
-			slot6:GetComponent("Spine.Unity.BoneFollowerGraphic").followSkeletonFlip = false
-
-			if uv3.orbit_rotate then
-				slot7.followBoneRotation = true
-				slot8 = slot4.transform.localEulerAngles
-				slot4.transform.localEulerAngles = Vector3(slot8.x, slot8.y, slot8.z - 90)
-			else
-				slot7.followBoneRotation = false
-			end
-
-			if uv3.orbit_ui_back == 1 then
-				slot6:SetParent(uv0._modelRoot.transform, false)
-				slot6:SetAsFirstSibling()
-			else
-				slot6:SetParent(uv0._modelRoot.transform, false)
-				slot6:SetAsLastSibling()
-			end
-
-			SetActive(slot6, uv0._visible)
-			uv0:sortAttachmentGO()
+		else
+			uv0:CreateOrbitUI(0, slot0, uv1, uv2, uv3, uv4, uv5)
 		end
 	end), true, true)
+end
+
+slot0.CreateOrbitUI = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+	if slot0.state == uv0.STATE_DISPOSE then
+		return
+	end
+
+	slot8 = slot3 .. "_bound"
+	slot9 = slot7[slot8][1]
+	slot10 = slot7[slot8][2]
+	slot11 = Object.Instantiate(slot2)
+	slot12 = 0
+
+	if slot1 ~= 0 then
+		for slot17 = slot11.transform.childCount, 1, -1 do
+			slot18 = slot11.transform:GetChild(slot17 - 1)
+
+			if slot17 ~= slot1 then
+				Destroy(slot18.gameObject)
+			elseif slot18:GetComponent(typeof(Canvas)) then
+				slot12 = slot19.sortingOrder
+
+				RemoveComponent(slot18.transform, "Canvas")
+			end
+		end
+	elseif slot11.transform:GetChild(0):GetComponent(typeof(Canvas)) then
+		RemoveComponent(slot13.transform, "Canvas")
+	end
+
+	for slot17, slot18 in ipairs(slot11:GetComponentsInChildren(typeof(Spine.Unity.SkeletonGraphic)):ToTable()) do
+		slot18.raycastTarget = false
+	end
+
+	slot11.transform.localPosition = Vector2(slot10[1], slot10[2])
+	slot11.transform.localScale = Vector3.one
+	slot14 = SpineAnimUI.AddFollower(slot5, slot0._model.transform, slot11.transform)
+	slot0._attachmentList[slot14] = {
+		tf = slot11.transform,
+		p = slot4,
+		hiddenActionList = slot7.orbit_hidden_action,
+		index = slot6,
+		back = slot7.orbit_ui_back,
+		sortOrder = slot12
+	}
+	slot14:GetComponent("Spine.Unity.BoneFollowerGraphic").followSkeletonFlip = false
+
+	if slot7.orbit_rotate_ui ~= "" and slot7.orbit_rotate_ui == true then
+		slot15.followBoneRotation = true
+		slot16 = slot11.transform.localEulerAngles
+		slot11.transform.localEulerAngles = Vector3(slot16.x, slot16.y, slot16.z - 90)
+	else
+		slot15.followBoneRotation = false
+	end
+
+	if slot12 and slot12 < 0 then
+		slot14:SetParent(slot0._modelRoot.transform, false)
+		slot14:SetAsFirstSibling()
+	elseif slot12 and slot12 > 0 then
+		slot14:SetParent(slot0._modelRoot.transform, false)
+		slot14:SetAsLastSibling()
+	elseif slot7.orbit_ui_back == 1 then
+		slot14:SetParent(slot0._modelRoot.transform, false)
+		slot14:SetAsFirstSibling()
+	else
+		slot14:SetParent(slot0._modelRoot.transform, false)
+		slot14:SetAsLastSibling()
+	end
+
+	SetActive(slot14, false)
+	onNextTick(function ()
+		SetActive(uv0, uv1._visible)
+	end)
+	slot0:sortAttachmentGO()
 end
 
 slot0.sortAttachmentGO = function(slot0)
@@ -186,7 +230,8 @@ slot0.sortAttachmentGO = function(slot0)
 			tf = slot5,
 			index = slot6.index,
 			back = slot6.back,
-			p = slot6.p
+			p = slot6.p,
+			sortOrder = slot6.sortOrder
 		})
 	end
 
@@ -195,10 +240,12 @@ slot0.sortAttachmentGO = function(slot0)
 	end)
 
 	for slot5, slot6 in ipairs(slot1) do
-		if slot6.back ~= 1 then
+		if slot6.back ~= 1 and slot6.sortOrder == 0 then
 			slot6.tf:SetAsLastSibling()
 
 			break
+		elseif slot6.back == 1 and slot6.sortOrder == 0 then
+			slot6.tf:SetAsFirstSibling()
 		end
 	end
 end
@@ -361,7 +408,7 @@ end
 
 slot0.HiddenAttachmentByAction = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._attachmentList) do
-		SetActive(slot5, not table.contains(slot6.hiddenActionList, slot1))
+		SetActive(slot5, not table.contains(slot6.hiddenActionList, slot1) and slot0._visible)
 	end
 end
 
@@ -546,6 +593,7 @@ slot0.Dispose = function(slot0)
 		slot0._modleGraphic = nil
 		slot0._modleAnim = nil
 		slot0._attachmentList = nil
+		slot0._sortLayerCount = 0
 	end
 
 	slot0.state = uv0.STATE_DISPOSE

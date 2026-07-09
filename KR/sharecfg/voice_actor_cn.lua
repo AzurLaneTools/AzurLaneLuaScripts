@@ -1970,4 +1970,16 @@ end)()
 		actor_name = "Yumi Tōma",
 		code = 508
 	}
+	pg.base.voice_actor_CN[509] = {
+		actor_name = "쿠스미 린",
+		code = 509
+	}
+	pg.base.voice_actor_CN[510] = {
+		actor_name = "이이즈카 마유",
+		code = 510
+	}
+	pg.base.voice_actor_CN[511] = {
+		actor_name = "와쿠노 아이카",
+		code = 511
+	}
 end)()

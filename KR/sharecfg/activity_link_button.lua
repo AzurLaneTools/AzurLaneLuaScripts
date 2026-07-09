@@ -175,7 +175,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51033
+			50651
 		}
 	}
 	pg.base.activity_link_button[11] = {
@@ -490,7 +490,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[109] = {
-		param = "YunLongSPCoreActivityUI",
+		param = "DreamTourCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -500,7 +500,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			50483
+			50652
 		}
 	}
 	pg.base.activity_link_button[110] = {

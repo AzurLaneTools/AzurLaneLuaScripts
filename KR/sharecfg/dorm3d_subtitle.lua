@@ -229,7 +229,45 @@ pg.dorm3d_subtitle.all = {
 	12052,
 	12053,
 	12054,
-	12055
+	12055,
+	21001,
+	21002,
+	21003,
+	21004,
+	21005,
+	21006,
+	21007,
+	21008,
+	21009,
+	21010,
+	21011,
+	21012,
+	21013,
+	21014,
+	21015,
+	21016,
+	21021,
+	21022,
+	21023,
+	21024,
+	21025,
+	21026,
+	21027,
+	21028,
+	21029,
+	21030,
+	21031,
+	21032,
+	21033,
+	21034,
+	21035,
+	21036,
+	21037,
+	21038,
+	21039,
+	21040,
+	21041,
+	21042
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_subtitle = {}
@@ -1142,5 +1180,157 @@ end)()
 	pg.base.dorm3d_subtitle[12055] = {
 		id = 12055,
 		subtitle = "오늘 밤도…… 잘 부탁드릴게요♥"
+	}
+	pg.base.dorm3d_subtitle[21001] = {
+		id = 21001,
+		subtitle = "음…… 이거, 지휘관도 먹어봐."
+	}
+	pg.base.dorm3d_subtitle[21002] = {
+		id = 21002,
+		subtitle = "딱 적당히 달아서…… 맛있어."
+	}
+	pg.base.dorm3d_subtitle[21003] = {
+		id = 21003,
+		subtitle = "음…? 왜…… 갑자기 더 달콤해진 거지……?"
+	}
+	pg.base.dorm3d_subtitle[21004] = {
+		id = 21004,
+		subtitle = "지휘관, 입가에 음식이…… 떼어줄게."
+	}
+	pg.base.dorm3d_subtitle[21005] = {
+		id = 21005,
+		subtitle = "응…… 해석 결과상…… 이, 이게 가장 효율적인 제거 방법이야……"
+	}
+	pg.base.dorm3d_subtitle[21006] = {
+		id = 21006,
+		subtitle = "음…… 가동 상태, 이상 없음…… 파라미터, 올 그린……"
+	}
+	pg.base.dorm3d_subtitle[21007] = {
+		id = 21007,
+		subtitle = "으음…… 기분 좋아…… 냐앙~"
+	}
+	pg.base.dorm3d_subtitle[21008] = {
+		id = 21008,
+		subtitle = "아, 지휘관……"
+	}
+	pg.base.dorm3d_subtitle[21009] = {
+		id = 21009,
+		subtitle = "너무 따뜻해…… 조금만 더 기대게 해줘."
+	}
+	pg.base.dorm3d_subtitle[21010] = {
+		id = 21010,
+		subtitle = "앞으로 1분…… 1분만 더……"
+	}
+	pg.base.dorm3d_subtitle[21011] = {
+		id = 21011,
+		subtitle = "음…… 콘덴서 모듈 교체, 이상 없음. 접촉 불량이었던 배선도 재연결 완료."
+	}
+	pg.base.dorm3d_subtitle[21012] = {
+		id = 21012,
+		subtitle = "지휘관, 이제는――"
+	}
+	pg.base.dorm3d_subtitle[21013] = {
+		id = 21013,
+		subtitle = "앗……"
+	}
+	pg.base.dorm3d_subtitle[21014] = {
+		id = 21014,
+		subtitle = "바닥 케이블에…… 발이 걸려버렸어……"
+	}
+	pg.base.dorm3d_subtitle[21015] = {
+		id = 21015,
+		subtitle = "지휘관? 뜨거워――"
+	}
+	pg.base.dorm3d_subtitle[21016] = {
+		id = 21016,
+		subtitle = "지휘관도, 뭔가…… 수리가 필요해 보여."
+	}
+	pg.base.dorm3d_subtitle[21021] = {
+		id = 21021,
+		subtitle = "으음…… 단순한 구조에 메커니즘도 원시적인데…… 나도 모르게 쳐다보게 돼……"
+	}
+	pg.base.dorm3d_subtitle[21022] = {
+		id = 21022,
+		subtitle = "으으……"
+	}
+	pg.base.dorm3d_subtitle[21023] = {
+		id = 21023,
+		subtitle = "연구 대상으로서 신경이 쓰였을 뿐이야…"
+	}
+	pg.base.dorm3d_subtitle[21024] = {
+		id = 21024,
+		subtitle = "음…… 갑자기 움직이다니…… 심술궂어."
+	}
+	pg.base.dorm3d_subtitle[21025] = {
+		id = 21025,
+		subtitle = "장치를 멈춘 채로 둬 줘…… 포획 분석에 필요한 조건이니까."
+	}
+	pg.base.dorm3d_subtitle[21026] = {
+		id = 21026,
+		subtitle = "냐앙――!"
+	}
+	pg.base.dorm3d_subtitle[21027] = {
+		id = 21027,
+		subtitle = "응, 잡았다…… 훈련하면 효과는 확실히 나오는 모양이네……"
+	}
+	pg.base.dorm3d_subtitle[21028] = {
+		id = 21028,
+		subtitle = "지휘관…… 갖고 싶어?…… 그럼, 이 사냥감…… 줄게."
+	}
+	pg.base.dorm3d_subtitle[21029] = {
+		id = 21029,
+		subtitle = "냐앙…… 테, 테스트를 방해하지 마……!"
+	}
+	pg.base.dorm3d_subtitle[21030] = {
+		id = 21030,
+		subtitle = "음…… 포상이야?…… 그럼 계속해도 돼……"
+	}
+	pg.base.dorm3d_subtitle[21031] = {
+		id = 21031,
+		subtitle = "으응…… 기분 좋아…… 냐아아~!"
+	}
+	pg.base.dorm3d_subtitle[21032] = {
+		id = 21032,
+		subtitle = "지휘관…… 테스트 대상을…… 변경하는 게 좋겠어."
+	}
+	pg.base.dorm3d_subtitle[21033] = {
+		id = 21033,
+		subtitle = "지휘관, 테스트 대상이 변경됐어…… 이번엔 나히모프 차례야…"
+	}
+	pg.base.dorm3d_subtitle[21034] = {
+		id = 21034,
+		subtitle = "이러면…… 지휘관에게 마킹할 수 있어…"
+	}
+	pg.base.dorm3d_subtitle[21035] = {
+		id = 21035,
+		subtitle = "여기…… 그리고 여기도…… 전부 마음이 놓이는 냄새……"
+	}
+	pg.base.dorm3d_subtitle[21036] = {
+		id = 21036,
+		subtitle = "지휘관의 냄새…… 똑똑히 기억할게……"
+	}
+	pg.base.dorm3d_subtitle[21037] = {
+		id = 21037,
+		subtitle = "으음…… 이러면 되나……?"
+	}
+	pg.base.dorm3d_subtitle[21038] = {
+		id = 21038,
+		subtitle = "읍……… 쪽……"
+	}
+	pg.base.dorm3d_subtitle[21039] = {
+		id = 21039,
+		subtitle = "……이제…… 지휘관은 나히모프 거야……"
+	}
+	pg.base.dorm3d_subtitle[21040] = {
+		id = 21040,
+		subtitle = "으응…… 지휘관의 냄새…… 정말 좋아……"
+	}
+	pg.base.dorm3d_subtitle[21041] = {
+		id = 21041,
+		subtitle = "지휘관, 좋아해……"
+	}
+	pg.base.dorm3d_subtitle[21042] = {
+		id = 21042,
+		subtitle = "계속…… 늘 함께 있자……"
 	}
 end)()

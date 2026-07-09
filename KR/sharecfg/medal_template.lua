@@ -130,7 +130,8 @@ pg.medal_template.all = {
 	200141,
 	200151,
 	200161,
-	200171
+	200171,
+	200181
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2940,6 +2941,27 @@ end)()
 		rank = 1,
 		id = 200171,
 		explain1 = "「럭셔리! 드림! 골든 베이」",
+		explain2 = "이벤트"
+	}
+	pg.base.medal_template[200181] = {
+		target_id = "50659",
+		name = "서커스 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "막이 오르고, 조명이 반짝이며, 무대 위를 흩날리는 종이에 그려지는 가슴 뛰는 마법의 예술! 끝나지 않는 서커스 쇼에 오신 것을 환영합니다! \n――모든 꿈이 서커스의 밤처럼 찬란하게 빛나기를!",
+		next = 0,
+		icon = "9181",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9181",
+		condition = "「환몽의 카발카드」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200181,
+		explain1 = "「환몽의 카발카드」",
 		explain2 = "이벤트"
 	}
 end)()

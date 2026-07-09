@@ -37699,6 +37699,11 @@ _G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
 }
 
 
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_3 = {
+	tip = "별장"
+}
+
+
 _G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
 	tip = "오늘"
 }
@@ -37786,6 +37791,11 @@ _G.pg.base.gametip.dorm3d_room_floor_1 = {
 
 _G.pg.base.gametip.dorm3d_room_floor_2 = {
 	tip = "로프트"
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_3 = {
+	tip = "빌라"
 }
 
 
@@ -49197,4 +49207,87 @@ _G.pg.base.gametip.island_mecha_task_lock_tip = {
 
 _G.pg.base.gametip.yearly_sign_in = {
 	tip = "연간 로그인"
+}
+
+
+_G.pg.base.gametip.DreamTourCoreActivity_subtitle_1 = {
+	tip = "환몽의 카발카드"
+}
+
+
+_G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
+	tip = "환몽 보급지"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_button = {
+	tip = "미니 게임"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_tiiiiiip = {
+	tip = [[
+1. 세척 호스를 사용해 오염을 씻어 내고, 차량을 반짝반짝하게 닦으세요! 
+ 2. 오염에는 먼지, 기름때, 고양이 발자국의 3종류가 있습니다.
+ 3. 오염 종류에 따라 사용하는 세척 호스를 바꿔야 합니다. 
+ 4. 함선들이 함께 세차를 도와주지만, 실수로 세척 호스의 물을 맞히면……? 
+ 5. 물이 닿는 부위에 따라 동료의 「기분」 이 달라집니다. 
+ 6.「기분」이 일정 수치에 도달하면 특별한 연출이 해제됩니다. 
+ 7. 또한 「기분」이 MAX가 되면 뜻밖의 이벤트가 발생할지도……? 
+ 8. 게임 시간이 0이 되면 차량의 「세척도」 에 따라 점수가 계산됩니다.]]
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_mood = {
+	tip = "기분"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_clean = {
+	tip = "세척도"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_retry = {
+	tip = "한 번 더"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_exit = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_title = {
+	tip = "플레이 방법"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_carwash = {
+	tip = "차고"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_table = {
+	tip = "작업장"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_chair = {
+	tip = "거실"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_bed = {
+	tip = "침실"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_overtime = {
+	tip = "유효기간이 얼마 남지 않은 선물이 있습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_overtime_title = {
+	tip = "곧 종료됨"
 }

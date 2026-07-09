@@ -8,7 +8,8 @@ pg.dorm3d_dorm_template.all = {
 	19903,
 	10517,
 	30707,
-	49905
+	49905,
+	79902
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_dorm_template = {}
@@ -60,6 +61,14 @@ pg.base.dorm3d_dorm_template = {}
 		bind_room = 14,
 		asset_name = "Aijier_DB",
 		id = 49905,
+		default_appellation = "지휘관"
+	}
+	pg.base.dorm3d_dorm_template[79902] = {
+		skin_model = 799021,
+		name = "아드미랄 나히모프",
+		bind_room = 21,
+		asset_name = "Naximofu_DB",
+		id = 79902,
 		default_appellation = "지휘관"
 	}
 end)()

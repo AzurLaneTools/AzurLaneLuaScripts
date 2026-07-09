@@ -22,7 +22,8 @@ pg.ship_l2d_tips.all = {
 	102134,
 	904021,
 	907013,
-	405032
+	405032,
+	818011
 }
 pg.base = pg.base or {}
 pg.base.ship_l2d_tips = {}
@@ -2263,6 +2264,98 @@ pg.base.ship_l2d_tips = {}
 					1,
 					1,
 					1
+				}
+			}
+		}
+	}
+	pg.base.ship_l2d_tips[818011] = {
+		id = 818011,
+		tips_icon = {
+			{
+				icon = "l2dui",
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag2",
+					"TouchDrag3",
+					"TouchDrag9",
+					"TouchDrag10",
+					"TouchDrag11",
+					"TouchDrag12",
+					"TouchDrag13",
+					"TouchDrag14",
+					"TouchDrag15",
+					"TouchDrag16",
+					"TouchDrag17",
+					"TouchIdle1",
+					"TouchIdle2",
+					"TouchDrag4",
+					"TouchDrag5",
+					"TouchDrag6",
+					"TouchIdle3",
+					"TouchIdle4",
+					"TouchIdle5",
+					"TouchIdle6",
+					"TouchIdle7",
+					"TouchDrag7",
+					"TouchIdle8",
+					"TouchIdle9",
+					"TouchIdle10",
+					"TouchIdle11",
+					"TouchIdle12",
+					"TouchIdle13",
+					"TouchDrag27",
+					"TouchDrag28",
+					"TouchIdle14",
+					"TouchIdle15",
+					"TouchIdle16",
+					"TouchDrag29",
+					"TouchDrag30",
+					"TouchDrag32",
+					"TouchIdle13",
+					"TouchDrag8",
+					"TouchDrag31",
+					"TouchDrag34",
+					"TouchDrag35",
+					"TouchDrag33"
+				}
+			}
+		},
+		tips_offset = {
+			{
+				drawable = {
+					"TouchDrag35"
+				},
+				offset = {
+					0,
+					75
+				}
+			}
+		},
+		tips_scale = {
+			{
+				drawable = {},
+				scale = {
+					1,
+					1,
+					1
+				}
+			}
+		},
+		idle_black_list = {
+			{
+				drawable = {},
+				idle = {
+					0
+				}
+			}
+		},
+		anim_white_list = {
+			{
+				drawable = {
+					"TouchDrag99"
+				},
+				white_list = {
+					"touch_drag1"
 				}
 			}
 		}

@@ -211,6 +211,10 @@ slot0.execute = function(slot0, slot1)
 
 			if uv0:getConfig("enter_story") and slot1 ~= "" and uv1:isCrossStoryLimit(slot2) and not uv2:isRemaster() and not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
 				if tonumber(slot1) and slot4 > 0 then
+					if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
+						slot5.data.pendingEnterChapterId = uv3
+					end
+
 					uv1:sendNotification(GAME.BEGIN_STAGE, {
 						system = SYSTEM_PERFORM,
 						stageId = slot4,

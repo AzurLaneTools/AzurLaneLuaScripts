@@ -1924,7 +1924,7 @@ end)()
 	}
 	pg.base.gameset.skin_ticket = {
 		description = "",
-		key_value = 722
+		key_value = 731
 	}
 	pg.base.gameset.order_pt_max = {
 		key_value = 0,
@@ -4032,7 +4032,7 @@ end)()
 		key_value = 20251113,
 		description = {
 			{
-				60697
+				60824
 			},
 			{}
 		}
@@ -4041,7 +4041,7 @@ end)()
 		key_value = 20251113,
 		description = {
 			{
-				60697
+				60824
 			},
 			{}
 		}

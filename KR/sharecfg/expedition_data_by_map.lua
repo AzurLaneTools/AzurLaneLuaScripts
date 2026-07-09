@@ -467,6 +467,9 @@ pg.expedition_data_by_map.all = {
 	2030012,
 	2030025,
 	2030026,
+	2040001,
+	2040002,
+	2040003,
 	2100000,
 	2100001,
 	2100010,
@@ -28231,6 +28234,216 @@ end)()
 			459
 		}
 	}
+	pg.base.expedition_data_by_map[2040001] = {
+		map = 2040001,
+		name = "환몽의 카발카드|| ||CHAPTER EX||E.X.",
+		bgm = "theme-magicalnight-mystic",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2040001",
+		ani_controller = "",
+		default_background = "bg_qimiaoye_cg1",
+		on_activity = 50651,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2040001",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-magicalnight-mystic",
+		uifx = "",
+		bind_map = 2040001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2040001,
+				2040021
+			},
+			{
+				2040002,
+				2040022
+			},
+			{
+				2040003,
+				2040023
+			}
+		},
+		story_id = {
+			461,
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469
+		}
+	}
+	pg.base.expedition_data_by_map[2040002] = {
+		map = 2040002,
+		name = "환몽의 카발카드|| ||CHAPTER EX||E.X.",
+		bgm = "theme-magicalnight-mystic",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2040001",
+		ani_controller = "",
+		default_background = "bg_qimiaoye_cg1",
+		on_activity = 50651,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2040001",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-magicalnight-mystic",
+		uifx = "",
+		bind_map = 2040002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2040001,
+				2040021
+			},
+			{
+				2040002,
+				2040022
+			},
+			{
+				2040003,
+				2040023
+			}
+		},
+		story_id = {
+			461,
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469
+		}
+	}
+	pg.base.expedition_data_by_map[2040003] = {
+		map = 2040003,
+		name = "환몽의 카발카드·SP|| ||CHAPTER EX||E.X.",
+		bgm = "theme-magicalnight-mystic",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2040002",
+		ani_controller = "",
+		default_background = "bg_qimiaoye_cg1",
+		on_activity = 50651,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2040002",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-magicalnight-mystic",
+		uifx = "",
+		bind_map = 2040002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2040041
+			}
+		},
+		story_id = {
+			461,
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469
+		}
+	}
 	pg.base.expedition_data_by_map[2100000] = {
 		map = 2100000,
 		name = "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
@@ -29847,6 +30060,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.expedition_data_by_map[2100170] = {
 		map = 2100170,
 		name = "디바인 트래지코미디·상편|| ||CHAPTER EX||E.X.",
@@ -29997,8 +30212,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.expedition_data_by_map[2100181] = {
 		map = 2100181,
 		name = "샌드 플레이·하편| ||CHAPTER EX||E.X.",
@@ -35285,6 +35498,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.expedition_data_by_map[2200140] = {
 		map = 2200140,
 		name = "템페스타와 청춘의 샘·상편|| ||CHAPTER EX||E.X.",
@@ -35435,8 +35650,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.expedition_data_by_map[2200160] = {
 		map = 2200160,
 		name = "불타는 아이리스 회상곡|| ||CHAPTER SP||S.P.",

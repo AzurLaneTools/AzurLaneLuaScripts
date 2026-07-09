@@ -16,7 +16,9 @@ pg.dorm3d_camera_photo_frame.all = {
 	1010,
 	1011,
 	1012,
-	1013
+	1013,
+	1014,
+	1015
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_camera_photo_frame = {}
@@ -275,6 +277,46 @@ pg.base.dorm3d_camera_photo_frame = {}
 		unlock = {
 			1,
 			49905,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_camera_photo_frame[1014] = {
+		name = "레트로 현상",
+		rarity = 3,
+		farme_path = "photo_frame_tv",
+		frameTfName = "TVFrame",
+		desc = "획득하면 카메라 기능에서 프레임 적용 가능",
+		unlock_text = "아드미랄 나히모프 친밀도 Lv5 달성 시 오픈",
+		id = 1014,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_tv_small",
+		unlock = {
+			1,
+			79902,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_camera_photo_frame[1015] = {
+		name = "홀로 필름",
+		rarity = 3,
+		farme_path = "photo_frame_projection",
+		frameTfName = "TVFrame",
+		desc = "획득하면 카메라 기능에서 프레임 적용 가능",
+		unlock_text = "아드미랄 나히모프 친밀도 Lv13 달성 시 오픈",
+		id = 1015,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_projection_small",
+		unlock = {
+			1,
+			79902,
 			13
 		},
 		watermark_location = {

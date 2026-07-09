@@ -27,7 +27,13 @@ pg.dorm3d_camera_zone_template.all = {
 	16001,
 	16002,
 	16003,
-	16004
+	16004,
+	21001,
+	21002,
+	21003,
+	26001,
+	26002,
+	26003
 }
 pg.dorm3d_camera_zone_template.get_id_list_by_room_id = {
 	{
@@ -70,6 +76,16 @@ pg.dorm3d_camera_zone_template.get_id_list_by_room_id = {
 		16002,
 		16003,
 		16004
+	},
+	[21] = {
+		21001,
+		21002,
+		21003
+	},
+	[26] = {
+		26001,
+		26002,
+		26003
 	}
 }
 pg.base = pg.base or {}
@@ -1746,6 +1762,337 @@ pg.base.dorm3d_camera_zone_template = {}
 					16018,
 					16019,
 					16020
+				}
+			}
+		},
+		special_furniture = {},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	}
+	pg.base.dorm3d_camera_zone_template[21001] = {
+		name = "침실",
+		record_time = 60,
+		room_id = 21,
+		id = 21001,
+		watch_camera = "Bed",
+		regular_anim = {
+			{
+				79902,
+				{
+					21001,
+					21002,
+					21003,
+					21004,
+					21005,
+					21006,
+					21007,
+					21008,
+					21009,
+					21010,
+					21011,
+					21012,
+					21013,
+					21014,
+					21015
+				}
+			}
+		},
+		special_furniture = {
+			{
+				2101,
+				2210101
+			}
+		},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	}
+	pg.base.dorm3d_camera_zone_template[21002] = {
+		name = "작업장",
+		record_time = 60,
+		room_id = 21,
+		id = 21002,
+		watch_camera = "Table",
+		regular_anim = {
+			{
+				79902,
+				{
+					21001,
+					21002,
+					21003,
+					21004,
+					21005,
+					21006,
+					21007,
+					21008,
+					21009,
+					21010,
+					21011,
+					21012,
+					21013,
+					21014,
+					21015
+				}
+			}
+		},
+		special_furniture = {
+			{
+				2102,
+				2210201
+			},
+			{
+				2161,
+				2210201
+			}
+		},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	}
+	pg.base.dorm3d_camera_zone_template[21003] = {
+		name = "거실",
+		record_time = 60,
+		room_id = 21,
+		id = 21003,
+		watch_camera = "Chair",
+		regular_anim = {
+			{
+				79902,
+				{
+					21001,
+					21002,
+					21003,
+					21004,
+					21005,
+					21006,
+					21007,
+					21008,
+					21009,
+					21010,
+					21011,
+					21012,
+					21013,
+					21014,
+					21015
+				}
+			}
+		},
+		special_furniture = {
+			{
+				2103,
+				2210301
+			}
+		},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	}
+	pg.base.dorm3d_camera_zone_template[26001] = {
+		name = "격납 구역",
+		record_time = 60,
+		room_id = 26,
+		id = 26001,
+		watch_camera = "Parking",
+		regular_anim = {
+			{
+				79902,
+				{
+					26001,
+					26002,
+					26003,
+					26004,
+					26005
+				}
+			}
+		},
+		special_furniture = {},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	}
+	pg.base.dorm3d_camera_zone_template[26002] = {
+		name = "휴식 구역",
+		record_time = 60,
+		room_id = 26,
+		id = 26002,
+		watch_camera = "Relax",
+		regular_anim = {
+			{
+				79902,
+				{
+					26001,
+					26002,
+					26003,
+					26004,
+					26005
+				}
+			}
+		},
+		special_furniture = {},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	}
+	pg.base.dorm3d_camera_zone_template[26003] = {
+		name = "훈련 구역",
+		record_time = 60,
+		room_id = 26,
+		id = 26003,
+		watch_camera = "Train",
+		regular_anim = {
+			{
+				79902,
+				{
+					26001,
+					26002,
+					26003,
+					26004,
+					26005
 				}
 			}
 		},

@@ -86,6 +86,7 @@ pg.equip_skin_theme_template.all = {
 	82,
 	83,
 	84,
+	85,
 	101,
 	102,
 	103,
@@ -1987,6 +1988,30 @@ pg.base.equip_skin_theme_template = {}
 			4381,
 			4382,
 			4383
+		}
+	}
+	pg.base.equip_skin_theme_template[85] = {
+		id = 85,
+		name = "메르헨 랜드",
+		ids = {
+			4384,
+			4385,
+			4386,
+			4387,
+			4388,
+			4389,
+			4390,
+			4391,
+			4392,
+			4393,
+			4394,
+			4395,
+			4396,
+			4397,
+			4398,
+			4399,
+			4400,
+			4401
 		}
 	}
 	pg.base.equip_skin_theme_template[101] = {

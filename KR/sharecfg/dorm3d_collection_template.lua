@@ -189,7 +189,42 @@ pg.dorm3d_collection_template.all = {
 	1422,
 	1423,
 	1424,
-	1425
+	1425,
+	2101,
+	2102,
+	2103,
+	2104,
+	2105,
+	2106,
+	2107,
+	2108,
+	2109,
+	2110,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2116,
+	2117,
+	2118,
+	2119,
+	2120,
+	2121,
+	2122,
+	2123,
+	2124,
+	2125,
+	2601,
+	2602,
+	2603,
+	2604,
+	2605,
+	2606,
+	2607,
+	2608,
+	2609,
+	2610
 }
 pg.dorm3d_collection_template.get_id_list_by_room_id = {
 	{
@@ -393,6 +428,45 @@ pg.dorm3d_collection_template.get_id_list_by_room_id = {
 		1607,
 		1608,
 		1609
+	},
+	[21] = {
+		2101,
+		2102,
+		2103,
+		2104,
+		2105,
+		2106,
+		2107,
+		2108,
+		2109,
+		2110,
+		2111,
+		2112,
+		2113,
+		2114,
+		2115,
+		2116,
+		2117,
+		2118,
+		2119,
+		2120,
+		2121,
+		2122,
+		2123,
+		2124,
+		2125
+	},
+	[26] = {
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2607,
+		2608,
+		2609,
+		2610
 	}
 }
 pg.base = pg.base or {}
@@ -4327,6 +4401,703 @@ end)()
 		},
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_decoration21/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2101] = {
+		name = "로켓 모형",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "정교하게 제작된 로켓 미니어처 모형. 방에 SF 분위기를 더해 준다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2101,
+		icon = "3Ddrom_naximofu_item1",
+		model = {
+			"fbx/litmap_03/day/pre_db_decoration32"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_decoration32/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2102] = {
+		name = "둥근 도자기",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "주황색과 노란색의 둥근 도자기. 매끄럽고 선명한 유약이 특징이며, 함께 놓으면 서로를 더욱 돋보이게 한다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2102,
+		icon = "3Ddrom_naximofu_item2",
+		model = {
+			"fbx/litmap_03/day/pre_db_ceram29"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_ceram29/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2103] = {
+		name = "유리 술병",
+		award = 0,
+		time = 2,
+		room_id = 21,
+		desc = "유리로 만든 술병. 단순하면서도 날렵한 병 속에 「생명의 물」이 담겨 있다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2103,
+		icon = "3Ddrom_naximofu_item3",
+		model = {
+			"fbx/litmap_03/night/pre_db_drink18"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_drink18/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2104] = {
+		name = "레트로 TV",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "투박한 레트로 TV. 다이얼과 버튼이 갖춰져 있어 어딘가 향수를 불러일으킨다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2104,
+		icon = "3Ddrom_naximofu_item4",
+		model = {
+			"fbx/litmap_03/day/pre_db_electrical25"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_electrical25/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2105] = {
+		name = "부드러운 타월",
+		award = 0,
+		time = 2,
+		room_id = 21,
+		desc = "촉감이 부드러운 목욕 타월. 뛰어난 흡수력을 자랑한다.",
+		text = "dorm3d_naximofu_bed",
+		id = 2105,
+		icon = "3Ddrom_naximofu_item5",
+		model = {
+			"fbx/litmap_03/night/pre_db_towel02_01"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_towel02_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2106] = {
+		name = "2단 수납장",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "심플하고 실용적인 2단 수납장. 문이 부드럽게 열리고 닫혀 생활용품을 보관하기에 적합하다.",
+		text = "dorm3d_naximofu_bed",
+		id = 2106,
+		icon = "3Ddrom_naximofu_item6",
+		model = {
+			"fbx/litmap_03/day/pre_db_cupboard42"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_cupboard42/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2107] = {
+		name = "고양이 귀 볼 체어",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "푹신한 쿠션이 채워진 볼 체어에 고양이 귀 장식을 더했다. 편안한 쿠션감과 귀여운 분위기를 갖추고 있다.",
+		text = "dorm3d_naximofu_bed",
+		id = 2107,
+		icon = "3Ddrom_naximofu_item7",
+		model = {
+			"fbx/litmap_03/day/pre_db_chair30"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_chair30/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2108] = {
+		name = "레코드판",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "클래식한 레코드판. 표면의 홈이 선명하게 새겨져, 플레이어에 올리면 기분 좋은 선율이 흘러나온다.",
+		text = "dorm3d_naximofu_bed",
+		id = 2108,
+		icon = "3Ddrom_naximofu_item8",
+		model = {
+			"fbx/litmap_03/day/pre_db_decoration30"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_decoration30/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2109] = {
+		name = "폼폼 장식",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "끈에 매달린 작은 폼폼 장식. 살짝 건드리기만 해도 흔들리며, 귀여운 매력과 함께 스트레스 해소에도 도움이 된다.",
+		text = "dorm3d_naximofu_bed",
+		id = 2109,
+		icon = "3Ddrom_naximofu_item9",
+		model = {
+			"fbx/litmap_03/day/pre_db_toy18_7"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_toy18_7/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2110] = {
+		name = "티슈 케이스",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "귀여운 고양이 모양의 티슈 케이스. 티슈를 꺼내는 순간마저 즐거워진다.",
+		text = "dorm3d_naximofu_bed",
+		id = 2110,
+		icon = "3Ddrom_naximofu_item10",
+		model = {
+			"fbx/litmap_03/day/pre_db_plasticbox03"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_plasticbox03/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2111] = {
+		name = "오렌지 벽등",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "따뜻한 오렌지색 갓으로 감싼 둥근 벽등. 불을 켜면 은은한 빛이 퍼져 방에 포근함을 더해 준다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2111,
+		icon = "3Ddrom_naximofu_item11",
+		model = {
+			"fbx/litmap_03/day/pre_db_walllamp02"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_walllamp02/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2112] = {
+		name = "관엽식물 분재 I",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "고전적인 도자기 화분에 심어진 관엽식물. 싱그러운 잎이 공간에 자연의 생기를 불어넣는다.",
+		text = "dorm3d_naximofu_bed",
+		id = 2112,
+		icon = "3Ddrom_naximofu_item12",
+		model = {
+			"fbx/litmap_03/day/pre_db_flowerpot26_1"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_flowerpot26_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2113] = {
+		name = "박스 스크래쳐",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "골판지 박스 소재의 고양이 스크래쳐. 표면에는 사용감이 느껴지는 옅은 발톱 자국이 남아 있다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2113,
+		icon = "3Ddrom_naximofu_item13",
+		model = {
+			"fbx/litmap_03/day/pre_db_toy17_1"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_toy17_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2114] = {
+		name = "천장형 TV",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "천장에 매달린 TV. 누운 자세로 시청할 수 있어 편안하게 시간을 보낼 수 있다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2114,
+		icon = "3Ddrom_naximofu_item14",
+		model = {
+			"fbx/litmap_03/day/pre_db_electrical27"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_electrical27/vfx_wupintishi01"
+		}
+	}
+end)()
+(function ()
+	pg.base.dorm3d_collection_template[2115] = {
+		name = "책더미",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "무심하게 쌓아 올린 책더미. 최근의 독서 흔적이 고스란히 남아 있다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2115,
+		icon = "3Ddrom_naximofu_item15",
+		model = {
+			"fbx/litmap_03/day/pre_db_book30_1"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_book30_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2116] = {
+		name = "고양이 식기 세트",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "깨끗하고 실용적인 도자기 그릇 세트. 사료용과 물용 그릇이 나란히 놓여 있다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2116,
+		icon = "3Ddrom_naximofu_item16",
+		model = {
+			"fbx/litmap_03/day/pre_db_tableware55"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_tableware55/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2117] = {
+		name = "웜톤 데스크 램프",
+		award = 0,
+		time = 2,
+		room_id = 21,
+		desc = "콤팩트한 데스크 램프. 안정적이고 부드러운 빛으로 책상 한편을 밝혀 준다.",
+		text = "dorm3d_naximofu_bed",
+		id = 2117,
+		icon = "3Ddrom_naximofu_item17",
+		model = {
+			"fbx/litmap_03/night/pre_db_desklamp07_on"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_desklamp07_on/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2118] = {
+		name = "테크놀로직 라이트",
+		award = 0,
+		time = 2,
+		room_id = 21,
+		desc = "펜던트형 디자인의 조명. 넓게 퍼지는 빛이 아래 공간을 구석구석 비춰 준다.",
+		text = "dorm3d_naximofu_bed",
+		id = 2118,
+		icon = "3Ddrom_naximofu_item18",
+		model = {
+			"fbx/litmap_03/night/pre_db_chandelier28_on"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_chandelier28_on/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2119] = {
+		name = "로우 캐비닛",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "낮은 스타일로 만들어진 수납장. 거실의 생활용품을 보관하기에 적합하다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2119,
+		icon = "3Ddrom_naximofu_item19",
+		model = {
+			"fbx/litmap_03/day/pre_db_cupboard40"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_cupboard40/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2120] = {
+		name = "엘리베이터 버튼",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "덩그러니 놓여 있는 엘리베이터 버튼. 괜히 한 번 눌러 보고 싶어진다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2120,
+		icon = "3Ddrom_naximofu_item20",
+		model = {
+			"fbx/litmap_03/day/pre_db_naximofu_button01"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_naximofu_button01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2121] = {
+		name = "테이블 & 스툴",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "원형 테이블과 원형 스툴. 적당한 높이로 오후의 여유를 즐기기에 안성맞춤이다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2121,
+		icon = "3Ddrom_naximofu_item21",
+		model = {
+			"fbx/litmap_03/day/pre_db_naximofu_table02_01"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_naximofu_table02_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2122] = {
+		name = "사각 스피커",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "무선 연결을 지원하는 사각형 스피커. 언제든 좋아하는 음악을 재생할 수 있다.",
+		text = "dorm3d_naximofu_bed",
+		id = 2122,
+		icon = "3Ddrom_naximofu_item22",
+		model = {
+			"fbx/litmap_03/day/pre_db_electrical21_01"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_electrical21_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2123] = {
+		name = "관엽식물 분재 II",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "고전적인 도자기 화분에 심어진 관엽식물. 싱그러운 잎이 공간에 자연의 생기를 불어넣는다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2123,
+		icon = "3Ddrom_naximofu_item23",
+		model = {
+			"fbx/litmap_03/day/pre_db_flowerpot26"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_flowerpot26/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2124] = {
+		name = "레코드 플레이어",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "세련된 디자인의 스탠드형 레코드 플레이어. 현대적인 디자인으로 따뜻한 음색을 들려준다.",
+		text = "dorm3d_naximofu_bed",
+		id = 2124,
+		icon = "3Ddrom_naximofu_item24",
+		model = {
+			"fbx/litmap_03/day/pre_db_decoration31"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_decoration31/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2125] = {
+		name = "푹신한 고양이 침대",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "쿠션이 가득 채워진 원형 고양이 침대. 한 번 들어가면 나오기 싫어질 만큼 포근하다.",
+		text = "dorm3d_naximofu_chair",
+		id = 2125,
+		icon = "3Ddrom_naximofu_item25",
+		model = {
+			"fbx/litmap_03/day/pre_db_bed06_1"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_bed06_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2601] = {
+		name = "고화질 TV",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "슬림한 디자인의 큰 화면을 가진 고화질 TV. 선명한 영상으로 뛰어난 몰입감을 선사하며, 어떤 공간에도 자연스럽게 어우러진다.",
+		text = "dorm3d_collection_carwash",
+		id = 2601,
+		icon = "3Ddrom_carwash_item1",
+		model = {
+			"fbx/litmap_05/pre_db_appliances09"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_appliances09/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2602] = {
+		name = "스트리트 스케이트보드",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "주문 제작된 스트리트 스케이트보드. 안정적인 주행감과 경쾌한 회전 성능을 갖춰 이동은 물론 스포츠용으로도 제격이다.",
+		text = "dorm3d_collection_carwash",
+		id = 2602,
+		icon = "3Ddrom_carwash_item2",
+		model = {
+			"fbx/litmap_05/pre_db_sportinggoods08_02"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_sportinggoods08_02/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2603] = {
+		name = "듀얼 헤드 커피머신",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "다기능 듀얼 헤드 커피머신. 한 번에 두 잔을 동시에 추출할 수 있어, 짧은 시간 안에 갓 내린 커피를 즐길 수 있다.",
+		text = "dorm3d_collection_carwash",
+		id = 2603,
+		icon = "3Ddrom_carwash_item3",
+		model = {
+			"fbx/litmap_05/pre_db_electrical23_group_01"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_electrical23_group_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2604] = {
+		name = "영예의 트로피",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "레이스에서 거머쥔 영예의 트로피. 바람처럼 서킷을 질주한 끝에 손에 넣은 영광의 증표.",
+		text = "dorm3d_collection_carwash",
+		id = 2604,
+		icon = "3Ddrom_carwash_item4",
+		model = {
+			"fbx/litmap_05/pre_db_decoration33c_02"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_decoration33c_02/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2605] = {
+		name = "와인 세트",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "와인을 즐기기 위한 도구가 모두 갖춰져 있어, 언제 어디서나 테이스팅을 즐길 수 있다.",
+		text = "dorm3d_collection_carwash",
+		id = 2605,
+		icon = "3Ddrom_carwash_item5",
+		model = {
+			"fbx/litmap_05/pre_db_tableware56_group_1"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_tableware56_group_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2606] = {
+		name = "우승 트로피",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "금도금으로 장식된 우승 트로피. 최고 수준의 레이스를 제패한 정상급 드라이버에게 수여된다.",
+		text = "dorm3d_collection_carwash",
+		id = 2606,
+		icon = "3Ddrom_carwash_item6",
+		model = {
+			"fbx/litmap_05/pre_db_decoration34"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_decoration34/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2607] = {
+		name = "캐치 스틱",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "순발력을 시험하는 캐치 스틱 게임. 반사 신경을 효과적으로 단련할 수 있다.",
+		text = "dorm3d_collection_carwash",
+		id = 2607,
+		icon = "3Ddrom_carwash_item7",
+		model = {
+			"no_bake/pre_db_entertainment01"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"no_bake/pre_db_entertainment01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2608] = {
+		name = "레이싱 시뮬레이터",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "실제와 같은 주행 감각을 구현한 레이싱 시뮬레이터. 서킷 밖에서도 최적의 훈련 환경을 제공한다.",
+		text = "dorm3d_collection_carwash",
+		id = 2608,
+		icon = "3Ddrom_carwash_item8",
+		model = {
+			"no_bake/pre_db_cw_racingsim01"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"no_bake/pre_db_cw_racingsim01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2609] = {
+		name = "프로 레이싱 슈트",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "프로 드라이버를 위한 레이싱 슈트. 난연성 소재를 사용해 뛰어난 내화성을 갖췄으며, 마모와 충격에도 강해, 우수한 성능을 자랑한다.",
+		text = "dorm3d_collection_carwash",
+		id = 2609,
+		icon = "3Ddrom_carwash_item9",
+		model = {
+			"fbx/litmap_05/pre_db_cloth12_1"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_cloth12_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2610] = {
+		name = "차량 세척 세트",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "레이스 피트에서 사용하는 전문 세척 장비. 사용이 간편하면서도 뛰어난 세척 성능을 자랑한다.",
+		text = "dorm3d_collection_carwash",
+		id = 2610,
+		icon = "3Ddrom_carwash_item10",
+		model = {
+			"fbx/litmap_05/pre_db_electrical16"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_electrical16/vfx_wupintishi01"
 		}
 	}
 end)()

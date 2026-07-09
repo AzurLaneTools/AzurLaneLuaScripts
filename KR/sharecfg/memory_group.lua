@@ -269,6 +269,7 @@ pg.memory_group.all = {
 	366,
 	367,
 	368,
+	369,
 	501,
 	502,
 	503,
@@ -7204,6 +7205,28 @@ end)()
 			5221
 		}
 	}
+	pg.base.memory_group[369] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50651,
+		title = "환몽의 카발카드",
+		auto_unlock = "",
+		subtype = 2,
+		id = 369,
+		group_id = "",
+		memories = {
+			5241,
+			5242,
+			5243,
+			5244,
+			5245,
+			5246,
+			5247,
+			5248,
+			5249
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7963,6 +7986,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[536] = {
 		ship_group = 10310,
 		icon = "title_chara_wensensi",
@@ -7985,8 +8010,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[537] = {
 		ship_group = 20208,
 		icon = "title_chara_xiefeierde",

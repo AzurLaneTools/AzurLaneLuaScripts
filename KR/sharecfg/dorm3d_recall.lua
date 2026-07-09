@@ -34,7 +34,11 @@ pg.dorm3d_recall.all = {
 	141,
 	142,
 	143,
-	144
+	144,
+	211,
+	212,
+	213,
+	214
 }
 pg.dorm3d_recall.get_id_list_by_story_id = {
 	[10010] = {
@@ -132,6 +136,18 @@ pg.dorm3d_recall.get_id_list_by_story_id = {
 	},
 	[140541] = {
 		144
+	},
+	[210510] = {
+		211
+	},
+	[210520] = {
+		212
+	},
+	[210530] = {
+		213
+	},
+	[210541] = {
+		214
 	}
 }
 pg.base = pg.base or {}
@@ -240,7 +256,7 @@ pg.base.dorm3d_recall = {}
 		type = 1,
 		id = 8,
 		image = "gift_03",
-		unlock_text = "『완벽한 메이드 마음가짐』 선물 시 오픈",
+		unlock_text = "『완벽한 메이드의 마음가짐』 선물 시 오픈",
 		desc = "아침 햇살 속에서 들려오는 그녀의 목소리. ……행복한 하루가 지금 시작된다.",
 		unlock = {
 			3,
@@ -512,7 +528,7 @@ pg.base.dorm3d_recall = {}
 		type = 1,
 		id = 125,
 		image = "recall_125",
-		unlock_text = "주홍색의 유혹 선물 시 오픈",
+		unlock_text = "선홍빛 유혹 선물 시 오픈",
 		desc = "살결에 닿는 비단의 질감. 단순한 옷 갈아입기일까? 아니면 달콤한 함정일까?",
 		unlock = {
 			3,
@@ -572,6 +588,61 @@ pg.base.dorm3d_recall = {}
 		unlock = {
 			3,
 			4990501
+		}
+	}
+	pg.base.dorm3d_recall[211] = {
+		story_id = 210510,
+		name = "효율적인 처리 방법",
+		type = 1,
+		id = 211,
+		image = "recall_211",
+		unlock_text = "아드미랄 나히모프 친밀도 Lv4 달성 시 오픈",
+		desc = "달콤한 비밀은 효율적인 처리법 속에 숨겨져 있나니――",
+		unlock = {
+			1,
+			79902,
+			4
+		}
+	}
+	pg.base.dorm3d_recall[212] = {
+		story_id = 210520,
+		name = "이른 아침의 온기",
+		type = 1,
+		id = 212,
+		image = "recall_212",
+		unlock_text = "아드미랄 나히모프 친밀도 Lv8 달성 시 오픈",
+		desc = "가장 큰 안도감을 주는 것은 당신의 품속 온기.",
+		unlock = {
+			1,
+			79902,
+			8
+		}
+	}
+	pg.base.dorm3d_recall[213] = {
+		story_id = 210530,
+		name = "능숙한 정비",
+		type = 1,
+		id = 213,
+		image = "recall_213",
+		unlock_text = "아드미랄 나히모프 친밀도 Lv12 달성 시 오픈",
+		desc = "지휘관도 왠지…… 수리가 필요할 것 같다냥~",
+		unlock = {
+			1,
+			79902,
+			12
+		}
+	}
+	pg.base.dorm3d_recall[214] = {
+		story_id = 210541,
+		name = "숨겨진 본능",
+		type = 1,
+		id = 214,
+		image = "recall_214",
+		unlock_text = "본능 훈련기 구매 시 오픈",
+		desc = "고양이 장난감 앞에서는 데이터보다 본능이 더 솔직하다.",
+		unlock = {
+			3,
+			7990201
 		}
 	}
 end)()

@@ -714,7 +714,139 @@ pg.dorm3d_ins_chat_language.all = {
 	708,
 	709,
 	710,
-	711
+	711,
+	712,
+	713,
+	714,
+	715,
+	716,
+	717,
+	718,
+	719,
+	720,
+	721,
+	722,
+	723,
+	724,
+	725,
+	726,
+	727,
+	728,
+	729,
+	730,
+	731,
+	732,
+	733,
+	734,
+	735,
+	736,
+	737,
+	738,
+	739,
+	740,
+	741,
+	742,
+	743,
+	744,
+	745,
+	746,
+	747,
+	748,
+	749,
+	750,
+	751,
+	752,
+	753,
+	754,
+	755,
+	756,
+	757,
+	758,
+	759,
+	760,
+	761,
+	762,
+	763,
+	764,
+	765,
+	766,
+	767,
+	768,
+	769,
+	770,
+	771,
+	772,
+	773,
+	774,
+	775,
+	776,
+	777,
+	778,
+	779,
+	780,
+	781,
+	782,
+	783,
+	784,
+	785,
+	786,
+	787,
+	788,
+	789,
+	790,
+	791,
+	792,
+	793,
+	794,
+	795,
+	796,
+	797,
+	798,
+	799,
+	800,
+	801,
+	802,
+	803,
+	804,
+	805,
+	806,
+	807,
+	808,
+	809,
+	810,
+	811,
+	812,
+	813,
+	814,
+	815,
+	816,
+	817,
+	818,
+	819,
+	820,
+	821,
+	822,
+	823,
+	824,
+	825,
+	826,
+	827,
+	828,
+	829,
+	830,
+	831,
+	832,
+	833,
+	834,
+	835,
+	836,
+	837,
+	838,
+	839,
+	840,
+	841,
+	842,
+	843
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_chat_language = {}
@@ -6925,6 +7057,1194 @@ end)()
 		option = "",
 		type = 1,
 		id = 711,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[712] = {
+		param = "지휘관, 차가 좀 더러워졌던데.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 712,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[713] = {
+		param = "세차랑 정비를 좀 해줘도 될까?",
+		ship_group = 79902,
+		type = 1,
+		id = 713,
+		flag = 0,
+		option = {
+			{
+				1,
+				"정말?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[714] = {
+		param = "정말? 고마워.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 714,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[715] = {
+		param = "응. 그럼 다음에 올 때 차를 맡겨줘.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 715,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[716] = {
+		param = "개조하고 싶은 부분이 있으면 말하고.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 716,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[717] = {
+		param = "나히모프의 기술이면…… 변신 기능도 추가할 수 있어.",
+		ship_group = 79902,
+		type = 1,
+		id = 717,
+		flag = 1,
+		option = {
+			{
+				2,
+				"변신?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[718] = {
+		param = "변신?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 718,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[719] = {
+		param = "지휘관, 자동차가 로봇으로 변신하는 영화 본 적 있지?",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 719,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[720] = {
+		param = "멋지잖아.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 720,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[721] = {
+		param = "이론상으로는 구현할 수 있거든.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 721,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[722] = {
+		param = "그래도 변신 구조가 복잡해서",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 722,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[723] = {
+		param = "최종 완성품은 고장률이 높고 수명도 짧아질 거라고 생각해.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 723,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[724] = {
+		param = "지휘관이 해보고 싶으면…… 못 만들 것도 없지만.",
+		ship_group = 79902,
+		type = 1,
+		id = 724,
+		flag = 2,
+		option = {
+			{
+				3,
+				"그렇구나"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[725] = {
+		param = "그렇구나.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 725,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[726] = {
+		param = "차의 방어력이나 공격력을 키우고 싶다면",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 726,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[727] = {
+		param = "다른 더 완성도 높은 설계가 있으니까",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 727,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[728] = {
+		param = "설계도를 보고 검토해 봐.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 728,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[729] = {
+		param = "지휘관, 안녕. 나히모프의 케이블이야.",
+		ship_group = 79902,
+		type = 1,
+		id = 729,
+		flag = 0,
+		option = {
+			{
+				1,
+				"케이블?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[730] = {
+		param = "케이블? 나히모프가 아니라 꼬리라고?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 730,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[731] = {
+		param = "나히모프는 지금 자고 있어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 731,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[732] = {
+		param = "지금은 케이블이 지휘관이랑 연락하는 거야.",
+		ship_group = 79902,
+		type = 1,
+		id = 732,
+		flag = 1,
+		option = {
+			{
+				2,
+				"그럼……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[733] = {
+		param = "그럼…… 나히모프가 깨어있을 때는 왜 조용히 있어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 733,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[734] = {
+		param = "……케이블에 음성 모듈이 없어서, 나히모프가 자는 동안에만 지휘관과 말할 수 있거든.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 734,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[735] = {
+		param = "내일도 보고 싶은데… 지휘관, 와줄 거지?",
+		ship_group = 79902,
+		type = 1,
+		id = 735,
+		flag = 2,
+		option = {
+			{
+				3,
+				"케이블을 쓰다듬게 해주면……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[736] = {
+		param = "케이블을 쓰다듬게 해주면……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 736,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[737] = {
+		param = "그건…… 괜찮아.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 737,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[738] = {
+		param = "잠깐 동안이라면 만져도 돼. 하지만 커넥터 부분은 안 돼.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 738,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[739] = {
+		param = "거기는…… 민감하니까.",
+		ship_group = 79902,
+		type = 1,
+		id = 739,
+		flag = 3,
+		option = {
+			{
+				4,
+				"역시 나히모프 같은데?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[740] = {
+		param = "역시 나히모프 같은데?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 740,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[741] = {
+		param = "냐앗! 아, 아니야, 케이블이야!",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 741,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[742] = {
+		param = "나히모프가 깰 테니까, 다음에 봐!",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 742,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[743] = {
+		param = "내일, 꼭 와줘!",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 743,
+		flag = 4
+	}
+	pg.base.dorm3d_ins_chat_language[744] = {
+		param = "나만 아는 비밀 낚시 장소가 있는데…",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 744,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[745] = {
+		param = "같이 안 갈래?",
+		ship_group = 79902,
+		type = 1,
+		id = 745,
+		flag = 0,
+		option = {
+			{
+				1,
+				"설마……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[746] = {
+		param = "나히모프가 낚시를 가자고 할 줄이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 746,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[747] = {
+		param = "직접 잡은 생선은 신선해서 사 먹는 것보다 맛있어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 747,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[748] = {
+		param = "낚시가 재미있기도 하고.",
+		ship_group = 79902,
+		type = 1,
+		id = 748,
+		flag = 1,
+		option = {
+			{
+				2,
+				"낚을 때 손맛 때문에?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[749] = {
+		param = "낚을 때 손맛 때문에?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 749,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[750] = {
+		param = "응.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 750,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[751] = {
+		param = "낚시 도구를 설치하고, 날씨나 물 흐름에 맞춰 실시간으로 파라미터를 조정한 다음",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 751,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[752] = {
+		param = "수확량으로 성능을 확인할 수 있거든.",
+		ship_group = 79902,
+		type = 1,
+		id = 752,
+		flag = 2,
+		option = {
+			{
+				3,
+				"진짜 낚시 도구 맞아?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[753] = {
+		param = "그거 진짜 낚시 도구 맞아? 낚시에도 규칙이란 게 있다고.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 753,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[754] = {
+		param = "괜찮아.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 754,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[755] = {
+		param = "관련 규칙을 잘 연구해서, 위반하는 내용은 없어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 755,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[756] = {
+		param = "최신 낚시 도구는 바이오닉스 설계를 적용해서",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 756,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[757] = {
+		param = "낚싯바늘이 벌레처럼 꿈틀거리는 동시에 유인 물질의 냄새 분자를 방출해.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 757,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[758] = {
+		param = "지난 테스트에서는 던진 후 3분 이내에 낚을 확률을 73% 올렸어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 758,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[759] = {
+		param = "지휘관도 같이 해볼래?",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 759,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[760] = {
+		param = "방 배치에 관심이 있는 모양인데, 작업 효율을 올릴 만한 부분이라도 찾은 거야?",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 760,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[761] = {
+		param = "너무 익숙해져서 나히모프가 미처 보지 못한 맹점이 있을지도 몰라.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 761,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[762] = {
+		param = "지휘관의 조언을 듣고 싶어.",
+		ship_group = 79902,
+		type = 1,
+		id = 762,
+		flag = 0,
+		option = {
+			{
+				1,
+				"충분히 효율적이야"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[763] = {
+		param = "충분히 효율적이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 763,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[764] = {
+		param = "역시 자기한테 맞는 방이 제일이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 764,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[765] = {
+		param = "응.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 765,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[766] = {
+		param = "지휘관 말이 맞아.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 766,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[767] = {
+		param = "방에는 지금까지 나히모프만이 「변수」였는데, 지휘관이라는 새로운 「변수」가 늘었어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 767,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[768] = {
+		param = "변수가 늘어난 후에도 효율을 유지할 수 있는 방안을 검토하고 싶어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 768,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[769] = {
+		param = "둘 다 효율적으로 지낼 수 있도록.",
+		ship_group = 79902,
+		type = 1,
+		id = 769,
+		flag = 1,
+		option = {
+			{
+				2,
+				"나중에 나히모프 방에서 같이 생각하자"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[770] = {
+		param = "나중에 나히모프 방에서 같이 생각하자.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 770,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[771] = {
+		param = "응, 좋아.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 771,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[772] = {
+		param = "우리가 원하는 바를 동시에 만족시키려면 그러는 편이 좋겠지.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 772,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[773] = {
+		param = "로그를 보면, 지휘관은 오늘 케이블을 5번 만졌어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 773,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[774] = {
+		param = "왜 그렇게 케이블에 관심이 많은지 물어봐도 돼?",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 774,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[775] = {
+		param = "개선하는 데 참고하고 싶거든.",
+		ship_group = 79902,
+		type = 1,
+		id = 775,
+		flag = 0,
+		option = {
+			{
+				1,
+				"정확히 말하면"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[776] = {
+		param = "정확히 말하면",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 776,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[777] = {
+		param = "나히모프가 안 보는 사이에 꼬리가 나한테 5번 감겼거든.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 777,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[778] = {
+		param = "그래서 내가 5번 풀어낸 거고.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 778,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[779] = {
+		param = "그랬어?",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 779,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[780] = {
+		param = "미…… 미안. 민폐를 끼쳤네.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 780,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[781] = {
+		param = "케이블의 행동 로그를 확인해서, 지휘관에게 감기는 버그를 빨리 고칠게.",
+		ship_group = 79902,
+		type = 1,
+		id = 781,
+		flag = 1,
+		option = {
+			{
+				2,
+				"괜찮아"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[782] = {
+		param = "괜찮아. 감기는 느낌이 나쁘지 않았거든.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 782,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[783] = {
+		param = "음…… 그럼 다시 고려할게.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 783,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[784] = {
+		param = "지휘관이 괜찮으면…… 일단 수정은 안 하는 방향으로 갈게.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 784,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[785] = {
+		param = "방금 받은 건…… 지휘관에게 받은 10번째 선물이야.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 785,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[786] = {
+		param = "지휘관을 향한 호감도가 새로운 단계로 올라갔어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 786,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[787] = {
+		param = "새로운 상호작용 콘텐츠가 곧 열릴 거야.",
+		ship_group = 79902,
+		type = 1,
+		id = 787,
+		flag = 0,
+		option = {
+			{
+				1,
+				"잠깐만"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[788] = {
+		param = "잠깐만, 「호감도」라는 얘기는 어디서 나온 거야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 788,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[789] = {
+		param = "나히모프 자신을 위해 개발한 새 기능이야.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 789,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[790] = {
+		param = "일정 조건을 만족하면 새 콘텐츠가 열려.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 790,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[791] = {
+		param = "지휘관과의 관계 진전을 계획적으로 진행할 수 있어서 아주 효율적이고 편해.",
+		ship_group = 79902,
+		type = 1,
+		id = 791,
+		flag = 1,
+		option = {
+			{
+				2,
+				"그래서 방금은 뭐가 열린 거야?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[792] = {
+		param = "그래서 방금은 뭐가 열린 거야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 792,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[793] = {
+		param = "이제 지휘관을 쇼핑하자고 부를 거야.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 793,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[794] = {
+		param = "쇼핑이 끝나면 같이 식사할 수 있는 기능이 열려.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 794,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[795] = {
+		param = "식사가 끝나면 같이 영화를 감상할 수 있게 돼.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 795,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[796] = {
+		param = "그리고 지휘관이 고르는 영화 장르에 따라 그 뒤의 전개가 바뀌지.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 796,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[797] = {
+		param = "응…… 이벤트 계획에 그렇게 적었어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 797,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[798] = {
+		param = "지휘관, 우선은 같이 쇼핑하자!",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 798,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[799] = {
+		param = "지휘관.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 799,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[800] = {
+		param = "일기 예보랑 다르게 지휘관이 나간 직후에 비가 내리기 시작했는데",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 800,
+		flag = 0
+	}
+end)()
+(function ()
+	pg.base.dorm3d_ins_chat_language[801] = {
+		param = "비에 맞지는 않았어?",
+		ship_group = 79902,
+		type = 1,
+		id = 801,
+		flag = 0,
+		option = {
+			{
+				1,
+				"괜찮아"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[802] = {
+		param = "괜찮아, 비를 피할 만한 곳을 찾았거든.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 802,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[803] = {
+		param = "잠깐만 기다려 줘. 지금 우산을 전해주러 갈게.",
+		ship_group = 79902,
+		type = 1,
+		id = 803,
+		flag = 1,
+		option = {
+			{
+				2,
+				"고마워"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[804] = {
+		param = "고맙기는 하지만, 괜히 일하는데 방해되는 거 아냐?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 804,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[805] = {
+		param = "지휘관이 날씨에 영향받지 않게 하는 게 더 중요해. 지금 일 중에서 최우선 사항이야.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 805,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[806] = {
+		param = "지휘관, 지금 어디 있는지 알려 줘.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 806,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[807] = {
+		param = "바로 갈게.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 807,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[808] = {
+		param = "요 며칠 새 아기 고양이들이 모르는 사이에 방에 들어왔거든……",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 808,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[809] = {
+		param = "지휘관, 아기 고양이들이랑 같이 놀래?",
+		ship_group = 79902,
+		type = 1,
+		id = 809,
+		flag = 0,
+		option = {
+			{
+				1,
+				"다들 귀엽네"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[810] = {
+		param = "다들 귀엽네. 하지만 내가 무서운지……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 810,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[811] = {
+		param = "손을 뻗었더니 다들 캣타워로 도망쳤어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 811,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[812] = {
+		param = "응. 보통 저렇게 경계심이 강해. 우선은 지휘관의 존재에 익숙해지게 해줘야지.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 812,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[813] = {
+		param = "음…… 우선 지휘관 냄새가 나는 물건을 방에 두고 조금씩 익숙해지게 하자.",
+		ship_group = 79902,
+		type = 1,
+		id = 813,
+		flag = 1,
+		option = {
+			{
+				2,
+				"그 다음엔?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[814] = {
+		param = "그 다음엔?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 814,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[815] = {
+		param = "다음에는 가만히 앉아서 고양이와 눈을 맞춰봐.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 815,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[816] = {
+		param = "계속 쳐다보면 고양이에게 위압감을 줄 수 있으니 조심해.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 816,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[817] = {
+		param = "그리고 손바닥에 간식을 올려놓고 고양이에게 뻗어봐. 그러고 다가올 때까지 기다리는 거야.",
+		ship_group = 79902,
+		type = 1,
+		id = 817,
+		flag = 2,
+		option = {
+			{
+				3,
+				"잘 아네"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[818] = {
+		param = "잘 아네",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 818,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[819] = {
+		param = "응…… 아기 고양이들이 항상 먹이를 달라고 오거든.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 819,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[820] = {
+		param = "한동안 관찰하면서 연구했어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 820,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[821] = {
+		param = "지휘관, 요즘 만날 때마다 항상 피곤해 보여……",
+		ship_group = 79902,
+		type = 1,
+		id = 821,
+		flag = 0,
+		option = {
+			{
+				1,
+				"요즘……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[822] = {
+		param = "요즘 일이 많아서 야근을 자주 했더니 그런가 봐.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 822,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[823] = {
+		param = "모항 업무…… 어렵지. 나히모프도 별로 도움은 안 될 것 같아.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 823,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[824] = {
+		param = "하지만 지휘관의 피로를 덜어줄 방법은 있어.",
+		ship_group = 79902,
+		type = 1,
+		id = 824,
+		flag = 1,
+		option = {
+			{
+				2,
+				"어떤 방법?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[825] = {
+		param = "어떤 방법이야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 825,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[826] = {
+		param = "나히모프가…… 지휘관에게 마사지를 해주는 방법.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 826,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[827] = {
+		param = "전에 인체 근육 구조랑 이완 기술을 연구하긴 했는데……",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 827,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[828] = {
+		param = "해본 적은 없어서 효과가 있을지는 모르겠어……",
+		ship_group = 79902,
+		type = 1,
+		id = 828,
+		flag = 2,
+		option = {
+			{
+				3,
+				"그럼 부탁할게"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[829] = {
+		param = "그럼 부탁할게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 829,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[830] = {
+		param = "응, 좋아.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 830,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[831] = {
+		param = "피곤할 때는 곧장 나히모프 방으로 와줘.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 831,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[832] = {
+		param = "어깨든 등이든…… 어디든 주물러 줄 테니까.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 832,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[833] = {
+		param = "지휘관이랑 사진을 더 많이 찍고 싶어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 833,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[834] = {
+		param = "하지만 어떤 포즈로 찍어야 할지 모르겠어… 지휘관, 조언 좀 해줘.",
+		ship_group = 79902,
+		type = 1,
+		id = 834,
+		flag = 0,
+		option = {
+			{
+				1,
+				"억지로 포즈 안 잡아도 돼"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[835] = {
+		param = "억지로 포즈 안 잡아도 돼. 평소의 자연스러운 나히모프도 귀여우니까.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 835,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[836] = {
+		param = "자연스러운 나히모프……",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 836,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[837] = {
+		param = "사실 나히모프는 평소에 일하고 자는 것밖에 안 해서, 어떻게 보일지 별로 신경 안 쓰거든.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 837,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[838] = {
+		param = "그런 나히모프가 왜 귀여운 거야?",
+		ship_group = 79902,
+		type = 1,
+		id = 838,
+		flag = 1,
+		option = {
+			{
+				2,
+				"진지하게 일하는 모습이……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[839] = {
+		param = "나히모프가 진지하게 일하는 모습이 아주 매력적이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 839,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[840] = {
+		param = "그렇구나",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 840,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[841] = {
+		param = "나히모프도 지휘관이 일하는 모습을 보면 그렇게 느껴.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 841,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[842] = {
+		param = "나중에 집무실에 데이터 수집 장치를 설치해야겠어.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 842,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[843] = {
+		param = "「진지하게 일하는 매력」이 어디에 있는지 연구해 볼게.",
+		ship_group = 79902,
+		option = "",
+		type = 1,
+		id = 843,
 		flag = 2
 	}
 end)()

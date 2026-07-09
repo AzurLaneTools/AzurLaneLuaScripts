@@ -70,7 +70,16 @@ pg.dorm3d_furniture_template.all = {
 	1414,
 	1415,
 	1461,
-	1462
+	1462,
+	2101,
+	2102,
+	2103,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2161
 }
 pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 	{
@@ -154,6 +163,17 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		1415,
 		1461,
 		1462
+	},
+	[21] = {
+		2101,
+		2102,
+		2103,
+		2111,
+		2112,
+		2113,
+		2114,
+		2115,
+		2161
 	}
 }
 pg.base = pg.base or {}
@@ -1055,10 +1075,10 @@ pg.base.dorm3d_furniture_template = {}
 	}
 	pg.base.dorm3d_furniture_template[324] = {
 		rarity = 5,
-		name = "동심 낙원",
+		name = "퓨어 랜드",
 		type = 4,
 		room_id = 3,
-		desc = "폭신폭신한 하트 쿠션과 반짝이는 장난감 램프. 오션 블루빛 꿈으로 물든 동심 낙원에 오신 것을 환영합니다.",
+		desc = "폭신폭신한 하트 쿠션과 반짝이는 장난감 램프. 오션 블루빛 꿈으로 물든 퓨어 랜드에 오신 것을 환영합니다.",
 		is_exclusive = 1,
 		model = "Pay_Anchoragehostel/Ah_Sp_ValentinesDay/pre_db_aklq_sp_vd01",
 		is_special = 1,
@@ -1946,6 +1966,223 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/study"
+		}
+	}
+	pg.base.dorm3d_furniture_template[2101] = {
+		rarity = 3,
+		name = "골판지 하우스",
+		unlock_tips = "",
+		type = 4,
+		room_id = 21,
+		desc = "골판지를 이어 붙여 만든 잠자리. 가볍고 옮기기 쉬우며, 단순한 구조지만 편안함은 충분하다. 둥글게 몸을 말고 자는 그녀의 습성에 잘 맞는다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2101,
+		target_slots = {
+			2210101
+		},
+		touch_id = {
+			{
+				79902,
+				7990210
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2102] = {
+		rarity = 3,
+		name = "멀티 수납 선반",
+		unlock_tips = "",
+		type = 6,
+		room_id = 21,
+		desc = "5단 오픈 선반에 책과 공구 등이 제자리에 가지런히 놓여 있다. 생활의 흔적이 그대로 장식처럼 녹아들어, 모든 선반이 손에 닿는 일상의 일부이다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2102,
+		target_slots = {
+			2210201
+		},
+		touch_id = {
+			{
+				79902,
+				7990220
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2103] = {
+		rarity = 3,
+		name = "햇살의 온기 소파",
+		unlock_tips = "",
+		type = 5,
+		room_id = 21,
+		desc = "따스한 느낌의 순백색 소파와 햇살 조각을 닮은 주황색 쿠션. 같은 색상의 로우 테이블과 담요까지 갖춰져 있어, 어디에 앉든 편안한 휴식 공간이 된다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2103,
+		target_slots = {
+			2210301
+		},
+		touch_id = {
+			{
+				79902,
+				7990230
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2111] = {
+		rarity = 2,
+		name = "창가의 관엽식물",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "창가에 놓인 초록빛 화분. 가지는 곧게 뻗고 잎은 풍성하게 퍼져, 방 안에 생명력과 자연의 숨결을 가득 채워 준다.",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_flowerpot01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2111,
+		target_slots = {
+			2210303
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2112] = {
+		rarity = 2,
+		name = "고양이 쿠션",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "도톰하고 부드러운 원형 쿠션. 어디에 두든 그곳은 고양이에게 떠나기 싫은 최고의 휴식처가 된다.",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_cushion01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2112,
+		target_slots = {
+			2210304
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2113] = {
+		rarity = 2,
+		name = "원자 모형",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "원자와 결정 구조를 모티브로 한 과학 예술품. 물리를 좋아하는 사람에게는 훌륭한 수집품이자, 개성 넘치는 책상 장식이 될 것이다.",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_decoration01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2113,
+		target_slots = {
+			2210302
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2114] = {
+		rarity = 2,
+		name = "노란 유약 도자기",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "통통하고 둥근 노란색 도자기. 유약에는 매끄럽고 윤기가 흐르며, 귀여운 모습은 길게 늘어난 도넛을 떠올리게 한다.",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_ceram01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2114,
+		target_slots = {
+			2210103
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2115] = {
+		rarity = 2,
+		name = "아로마 병",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "가느다란 아로마 스틱이 꽂혀 있는 선명한 노란색의 작은 도자기 병. 불을 켜지 않아도 은은한 향이 천천히 방 안 가득 퍼져 나간다.",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_cosmetic01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2115,
+		target_slots = {
+			2210102
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2161] = {
+		rarity = 4,
+		name = "큐브 검출기",
+		type = 6,
+		room_id = 21,
+		desc = "원형 탐지기가 천천히 회전하며, 화면에 흐르는 데이터가 은하수처럼 펼쳐진다. 기동 버튼을 누르면, 어떤 과학적 비밀이 밝혀질지도 모른다.",
+		is_exclusive = 1,
+		model = "Pay_Naximofuhostel/pre_db_naximofu_basement01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_PremiumFurniture1",
+		acesses = "",
+		id = 2161,
+		target_slots = {
+			2210201
+		},
+		touch_id = {
+			{
+				79902,
+				7990240
+			}
+		},
+		shop_id = {
+			270701
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture2161"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/basement/pre_db_naximofu_basement01_0"
 		}
 	}
 end)()

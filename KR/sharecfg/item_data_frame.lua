@@ -101,6 +101,8 @@ pg.item_data_frame.all = {
 	1010,
 	1011,
 	1012,
+	1013,
+	1014,
 	10001,
 	10002,
 	10003,
@@ -991,6 +993,24 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>거친 파도 속에서 나부끼는 강철의 깃발, 머리에 얹힌 황금의 왕관으로 지고한 바다의 권능을 드러내나니</color>\n「교류 숙소」에서 에기르의 호감도를 올리면 획득 가능",
 		scene = {}
 	}
+	pg.base.item_data_frame[1013] = {
+		name = "집전 장치",
+		gain_by = "",
+		time_second = 0,
+		id = 1013,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>찌릿찌릿한 전류가 춤추고, 전구와 네온 고양이 귀도 반짝반짝 빛난다</color>.\n「교류 숙소」에서 아드미랄 나히모프의 친밀도를 올리면 획득 가능",
+		scene = {}
+	}
+	pg.base.item_data_frame[1014] = {
+		name = "사이버네틱 인사",
+		gain_by = "",
+		time_second = 0,
+		id = 1014,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>데이터 스트림 속에 고양이 펀치와 고양이 꼬리 등장! 안녕하세요! 사이버 공간의 고양이가 인사드립니다</color>.\n「교류 숙소」에서 아드미랄 나히모프의 친밀도를 올리면 획득 가능",
+		scene = {}
+	}
 	pg.base.item_data_frame[10001] = {
 		name = "한계 챌린지·쌍둥이 자리",
 		gain_by = "",
@@ -1000,6 +1020,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>\"쌍둥이 자리\" 한계 챌린지 스테이지 클리어 기념. 자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물.</color>\n\"한계 챌린지\"에서 획득 가능(23.07.01 ~ 23.07.31)",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10002] = {
 		name = "한계 챌린지·게자리",
 		gain_by = "",
@@ -1018,8 +1040,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>\"사자자리\" 한계 챌린지 스테이지 클리어 기념. 자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물</color>\n\"한계 챌린지\"에서 획득 가능(23.09.01 ~ 23.09.30)",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10004] = {
 		name = "한계 챌린지·처녀자리",
 		gain_by = "",

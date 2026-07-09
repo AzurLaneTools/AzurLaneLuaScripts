@@ -61,7 +61,21 @@ pg.dorm3d_ins_unlock.all = {
 	49905201,
 	49905202,
 	49905301,
-	49905302
+	49905302,
+	79902101,
+	79902102,
+	79902103,
+	79902104,
+	79902105,
+	79902106,
+	79902107,
+	79902108,
+	79902109,
+	79902110,
+	79902201,
+	79902202,
+	79902301,
+	79902302
 }
 pg.dorm3d_ins_unlock.get_id_list_by_type = {
 	{
@@ -106,7 +120,17 @@ pg.dorm3d_ins_unlock.get_id_list_by_type = {
 		49905107,
 		49905108,
 		49905109,
-		49905110
+		49905110,
+		79902101,
+		79902102,
+		79902103,
+		79902104,
+		79902105,
+		79902106,
+		79902107,
+		79902108,
+		79902109,
+		79902110
 	},
 	{
 		10517301,
@@ -114,7 +138,9 @@ pg.dorm3d_ins_unlock.get_id_list_by_type = {
 		30707301,
 		30707302,
 		49905301,
-		49905302
+		49905302,
+		79902301,
+		79902302
 	},
 	{
 		19,
@@ -127,7 +153,9 @@ pg.dorm3d_ins_unlock.get_id_list_by_type = {
 		30707201,
 		30707202,
 		49905201,
-		49905202
+		49905202,
+		79902201,
+		79902202
 	}
 }
 pg.base = pg.base or {}
@@ -663,6 +691,132 @@ pg.base.dorm3d_ins_unlock = {}
 		type = 2,
 		id = 49905302,
 		content = 49905302,
+		trigger_type = 101
+	}
+	pg.base.dorm3d_ins_unlock[79902101] = {
+		text = "纳希莫夫海军上将进入宿舍1天",
+		trigger_num = 1,
+		trigger_id = 0,
+		type = 1,
+		id = 79902101,
+		content = 79902101,
+		trigger_type = 152
+	}
+	pg.base.dorm3d_ins_unlock[79902102] = {
+		text = "纳希莫夫海军上将解锁宿舍2天",
+		trigger_num = 2,
+		trigger_id = 0,
+		type = 1,
+		id = 79902102,
+		content = 79902102,
+		trigger_type = 151
+	}
+	pg.base.dorm3d_ins_unlock[79902103] = {
+		text = "纳希莫夫海军上将解锁宿舍4天",
+		trigger_num = 4,
+		trigger_id = 0,
+		type = 1,
+		id = 79902103,
+		content = 79902103,
+		trigger_type = 151
+	}
+	pg.base.dorm3d_ins_unlock[79902104] = {
+		text = "수집 아이템 20개 오픈",
+		trigger_num = 20,
+		trigger_id = 0,
+		type = 1,
+		id = 79902104,
+		content = 79902104,
+		trigger_type = 153
+	}
+	pg.base.dorm3d_ins_unlock[79902105] = {
+		text = "상호작용 누적 3회",
+		trigger_num = 3,
+		trigger_id = 0,
+		type = 1,
+		id = 79902105,
+		content = 79902105,
+		trigger_type = 156
+	}
+	pg.base.dorm3d_ins_unlock[79902106] = {
+		text = "纳希莫夫海军上将累计赠礼5次",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 1,
+		id = 79902106,
+		content = 79902106,
+		trigger_type = 157
+	}
+	pg.base.dorm3d_ins_unlock[79902107] = {
+		text = "纳希莫夫海军上将解锁宿舍7天",
+		trigger_num = 7,
+		trigger_id = 0,
+		type = 1,
+		id = 79902107,
+		content = 79902107,
+		trigger_type = 151
+	}
+	pg.base.dorm3d_ins_unlock[79902108] = {
+		text = "대화 누적 15회",
+		trigger_num = 15,
+		trigger_id = 0,
+		type = 1,
+		id = 79902108,
+		content = 79902108,
+		trigger_type = 155
+	}
+	pg.base.dorm3d_ins_unlock[79902109] = {
+		text = "상호작용 누적 5회",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 1,
+		id = 79902109,
+		content = 79902109,
+		trigger_type = 156
+	}
+	pg.base.dorm3d_ins_unlock[79902110] = {
+		text = "纳希莫夫海军上将累计赠礼10次",
+		trigger_num = 10,
+		trigger_id = 0,
+		type = 1,
+		id = 79902110,
+		content = 79902110,
+		trigger_type = 157
+	}
+	pg.base.dorm3d_ins_unlock[79902201] = {
+		text = "纳希莫夫海军上将契合度5级",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 3,
+		id = 79902201,
+		content = 79902201,
+		trigger_type = 101
+	}
+	pg.base.dorm3d_ins_unlock[79902202] = {
+		text = "纳希莫夫海军上将契合度10级",
+		trigger_num = 10,
+		trigger_id = 0,
+		type = 3,
+		id = 79902202,
+		content = 79902202,
+		trigger_type = 101
+	}
+	pg.base.dorm3d_ins_unlock[79902301] = {
+		text = "纳希莫夫海军上将进入宿舍1天",
+		trigger_num = 1,
+		trigger_id = 0,
+		type = 2,
+		id = 79902301,
+		content = 79902301,
+		trigger_type = 152
+	}
+	pg.base.dorm3d_ins_unlock[79902302] = {
+		text = "纳希莫夫海军上将契合度12级",
+		trigger_num = 12,
+		trigger_id = 0,
+		type = 2,
+		id = 79902302,
+		content = 79902302,
 		trigger_type = 101
 	}
 end)()

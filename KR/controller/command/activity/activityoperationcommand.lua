@@ -143,23 +143,29 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_MONTHSIGN] = function ()
 			slot1 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
-			slot2 = nil
 
 			if uv0:getSpecialData("reMonthSignDay") ~= nil then
-				slot2 = uv0:getSpecialData("reMonthSignDay")
+				day = uv0:getSpecialData("reMonthSignDay")
 				uv0.data3 = uv0.data3 and uv0.data3 + 1 or 1
 			else
-				slot2 = slot1.day
+				day = slot1.day
 			end
 
-			table.insert(uv0.data1_list, slot2)
+			uv0:setSpecialData(MonthSignPage.MILESTONE_SPECIAL_DATA, nil)
+			table.insert(uv0.data1_list, day)
 
-			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOGIN_RECORD) and not slot3:isEnd() then
-				slot3.data1 = slot3.data1 + 1
-				slot3.data2 = slot3.data2 + 1
-				slot3.data3 = math.max(slot3.data3, slot3.data2)
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOGIN_RECORD) and not slot2:isEnd() then
+				slot2.data1 = slot2.data1 + 1
+				slot2.data2 = slot2.data2 + 1
+				slot2.data3 = math.max(slot2.data3, slot2.data2)
 
-				getProxy(ActivityProxy):updateActivity(slot3)
+				for slot6, slot7 in ipairs(MonthSignPage.MONTH_SIGN_SP_DAYS) do
+					if slot7 == slot2.data1 then
+						uv0:setSpecialData(MonthSignPage.MILESTONE_SPECIAL_DATA, slot7)
+					end
+				end
+
+				getProxy(ActivityProxy):updateActivity(slot2)
 			end
 
 			getProxy(ActivityProxy):updateActivity(uv0)

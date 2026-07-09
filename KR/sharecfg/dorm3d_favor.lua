@@ -92,7 +92,22 @@ pg.dorm3d_favor.all = {
 	14012,
 	14013,
 	14014,
-	14015
+	14015,
+	21001,
+	21002,
+	21003,
+	21004,
+	21005,
+	21006,
+	21007,
+	21008,
+	21009,
+	21010,
+	21011,
+	21012,
+	21013,
+	21014,
+	21015
 }
 pg.dorm3d_favor.get_id_list_by_char_id = {
 	[10517] = {
@@ -196,6 +211,23 @@ pg.dorm3d_favor.get_id_list_by_char_id = {
 		14013,
 		14014,
 		14015
+	},
+	[79902] = {
+		21001,
+		21002,
+		21003,
+		21004,
+		21005,
+		21006,
+		21007,
+		21008,
+		21009,
+		21010,
+		21011,
+		21012,
+		21013,
+		21014,
+		21015
 	}
 }
 pg.base = pg.base or {}
@@ -1750,6 +1782,265 @@ pg.base.dorm3d_favor = {}
 			{
 				14,
 				1012,
+				1
+			}
+		},
+		levelup_client_item = {}
+	}
+	pg.base.dorm3d_favor[21001] = {
+		char_id = 79902,
+		levelup_trigger_type = 1,
+		id = 21001,
+		levelup_trigger_param = "10001",
+		favor_exp = 0,
+		level = 1,
+		levelup_item = {},
+		levelup_client_item = {}
+	}
+	pg.base.dorm3d_favor[21002] = {
+		char_id = 79902,
+		levelup_trigger_type = 2,
+		id = 21002,
+		levelup_trigger_param = "10002",
+		favor_exp = 40,
+		level = 2,
+		levelup_item = {
+			{
+				27,
+				1021001,
+				1
+			},
+			{
+				29,
+				102101,
+				1
+			}
+		},
+		levelup_client_item = {}
+	}
+	pg.base.dorm3d_favor[21003] = {
+		char_id = 79902,
+		levelup_trigger_type = 2,
+		id = 21003,
+		levelup_trigger_param = "10003",
+		favor_exp = 200,
+		level = 3,
+		levelup_item = {
+			{
+				26,
+				2111,
+				1
+			}
+		},
+		levelup_client_item = {}
+	}
+	pg.base.dorm3d_favor[21004] = {
+		char_id = 79902,
+		levelup_trigger_type = 2,
+		id = 21004,
+		levelup_trigger_param = "10004",
+		favor_exp = 400,
+		level = 4,
+		levelup_item = {
+			{
+				14,
+				1013,
+				1
+			}
+		},
+		levelup_client_item = {
+			{
+				3,
+				211,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_favor[21005] = {
+		char_id = 79902,
+		levelup_trigger_type = 1,
+		id = 21005,
+		levelup_trigger_param = "10005",
+		favor_exp = 800,
+		level = 5,
+		levelup_item = {},
+		levelup_client_item = {
+			{
+				2,
+				1014,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_favor[21006] = {
+		char_id = 79902,
+		levelup_trigger_type = 2,
+		id = 21006,
+		levelup_trigger_param = "10006",
+		favor_exp = 1000,
+		level = 6,
+		levelup_item = {
+			{
+				26,
+				2112,
+				1
+			}
+		},
+		levelup_client_item = {}
+	}
+	pg.base.dorm3d_favor[21007] = {
+		char_id = 79902,
+		levelup_trigger_type = 1,
+		id = 21007,
+		levelup_trigger_param = "10007",
+		favor_exp = 1500,
+		level = 7,
+		levelup_item = {
+			{
+				29,
+				102102,
+				1
+			}
+		},
+		levelup_client_item = {}
+	}
+	pg.base.dorm3d_favor[21008] = {
+		char_id = 79902,
+		levelup_trigger_type = 1,
+		id = 21008,
+		levelup_trigger_param = "10008",
+		favor_exp = 2000,
+		level = 8,
+		levelup_item = {
+			{
+				26,
+				2113,
+				1
+			}
+		},
+		levelup_client_item = {
+			{
+				3,
+				212,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_favor[21009] = {
+		char_id = 79902,
+		levelup_trigger_type = 3,
+		id = 21009,
+		levelup_trigger_param = "10009",
+		favor_exp = 3000,
+		level = 9,
+		levelup_item = {
+			{
+				27,
+				1021002,
+				1
+			}
+		},
+		levelup_client_item = {}
+	}
+	pg.base.dorm3d_favor[21010] = {
+		char_id = 79902,
+		levelup_trigger_type = 3,
+		id = 21010,
+		levelup_trigger_param = "10010",
+		favor_exp = 4000,
+		level = 10,
+		levelup_item = {
+			{
+				29,
+				102103,
+				1
+			}
+		},
+		levelup_client_item = {}
+	}
+end)()
+(function ()
+	pg.base.dorm3d_favor[21011] = {
+		char_id = 79902,
+		levelup_trigger_type = 3,
+		id = 21011,
+		levelup_trigger_param = "10011",
+		favor_exp = 5000,
+		level = 11,
+		levelup_item = {
+			{
+				26,
+				2115,
+				1
+			}
+		},
+		levelup_client_item = {}
+	}
+	pg.base.dorm3d_favor[21012] = {
+		char_id = 79902,
+		levelup_trigger_type = 1,
+		id = 21012,
+		levelup_trigger_param = "10012",
+		favor_exp = 6000,
+		level = 12,
+		levelup_item = {
+			{
+				27,
+				1021002,
+				1
+			}
+		},
+		levelup_client_item = {
+			{
+				3,
+				213,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_favor[21013] = {
+		char_id = 79902,
+		levelup_trigger_type = 1,
+		id = 21013,
+		levelup_trigger_param = "10013",
+		favor_exp = 7000,
+		level = 13,
+		levelup_item = {},
+		levelup_client_item = {
+			{
+				2,
+				1015,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_favor[21014] = {
+		char_id = 79902,
+		levelup_trigger_type = 4,
+		id = 21014,
+		levelup_trigger_param = "10014",
+		favor_exp = 8000,
+		level = 14,
+		levelup_item = {
+			{
+				26,
+				2114,
+				1
+			}
+		},
+		levelup_client_item = {}
+	}
+	pg.base.dorm3d_favor[21015] = {
+		char_id = 79902,
+		levelup_trigger_type = 3,
+		id = 21015,
+		levelup_trigger_param = "10015",
+		favor_exp = 9000,
+		level = 15,
+		levelup_item = {
+			{
+				14,
+				1014,
 				1
 			}
 		},

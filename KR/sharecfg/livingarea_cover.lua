@@ -22,7 +22,10 @@ pg.livingarea_cover.all = {
 	101203,
 	101401,
 	101402,
-	101403
+	101403,
+	102101,
+	102102,
+	102103
 }
 pg.base = pg.base or {}
 pg.base.livingarea_cover = {}
@@ -255,5 +258,41 @@ pg.base.livingarea_cover = {}
 		id = 101403,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101403_icon"
+	}
+	pg.base.livingarea_cover[102101] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "곁에서 느껴지는 온도",
+		nighttime_res = "102101_bg_night",
+		daytime_res = "102101_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「곁에서 느껴지는 온도」로 적용 가능",
+		unlock_text = "아드미랄 나히모프의 숙소 친밀도 Lv2 달성 시 오픈",
+		id = 102101,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102101_icon"
+	}
+	pg.base.livingarea_cover[102102] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "함께하는 숙면",
+		nighttime_res = "102102_bg_night",
+		daytime_res = "102102_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「함께하는 숙면」으로 적용 가능",
+		unlock_text = "아드미랄 나히모프의 숙소 친밀도 Lv7 달성 시 오픈",
+		id = 102102,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102102_icon"
+	}
+	pg.base.livingarea_cover[102103] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "동반 작업",
+		nighttime_res = "102103_bg_night",
+		daytime_res = "102103_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「동반 작업」으로 적용 가능",
+		unlock_text = "아드미랄 나히모프의 숙소 친밀도 Lv10 달성 시 오픈",
+		id = 102103,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102103_icon"
 	}
 end)()

@@ -20,7 +20,8 @@ pg.activity_medal_group.all = {
 	50441,
 	50482,
 	50607,
-	50616
+	50616,
+	50659
 }
 pg.base = pg.base or {}
 pg.base.activity_medal_group = {}
@@ -802,6 +803,50 @@ pg.base.activity_medal_group = {}
 		task_show = {
 			21968,
 			21934
+		}
+	}
+	pg.base.activity_medal_group[50659] = {
+		id = 50659,
+		entrance_picture = "MedalAlbum/50659",
+		group_name = "美梦巡演奇妙夜",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50659,
+				{
+					21975,
+					21976,
+					21977,
+					21978,
+					21979,
+					21980,
+					21981,
+					21982,
+					21983,
+					21984
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "DreamTourMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				339,
+				1
+			},
+			{
+				8,
+				65992,
+				1
+			}
+		},
+		task_show = {
+			21984,
+			21975
 		}
 	}
 end)()
