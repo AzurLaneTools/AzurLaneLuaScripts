@@ -10073,6 +10073,192 @@ _G.pg.base.item_data_statistics[13055] = {
 }
 
 
+_G.pg.base.item_data_statistics[13056] = {
+	open_directly = 0,
+	name = "Prototype Triple 419mm Mk. I Main Gun Mount T0 Design",
+	type = 9,
+	display = "Prototype Triple 419mm Mk. I Main Gun Mount T0 Design",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/24420",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13056,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13057] = {
+	open_directly = 0,
+	name = "Prototype Twin 127mm Mk 16 Dual-Purpose Gun Mount T0 Design",
+	type = 9,
+	display = "Prototype Twin 127mm Mk 16 Dual-Purpose Gun Mount T0 Design",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/11280",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13057,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13058] = {
+	open_directly = 0,
+	name = "Prototype Quadruple 610mm Cruiser Torpedo Mount T0 Design",
+	type = 9,
+	display = "Prototype Quadruple 610mm Cruiser Torpedo Mount T0 Design",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/35280",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13059] = {
+	open_directly = 0,
+	name = "Prototype Twin 127mm Mle 1948 Naval Gun T0 Design",
+	type = 9,
+	display = "Prototype Twin 127mm Mle 1948 Naval Gun T0 Design",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/51400",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13059,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13060] = {
+	open_directly = 0,
+	name = "Prototype Triple 550mm Improved (Ammo Mod) Torpedo Mount",
+	type = 9,
+	display = "Prototype Triple 550mm Improved (Ammo Mod) Torpedo Mount",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/5680",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13061] = {
+	open_directly = 0,
+	name = "Prototype Carrier-Based Ta 152 C-1/R14 T0 Design",
+	type = 9,
+	display = "Prototype Carrier-Based Ta 152 C-1/R14 T0 Design",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/49080",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13061,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[14001] = {
 	open_directly = 0,
 	name = "Prototype Weapon Blueprint - Series 1",
@@ -10790,6 +10976,96 @@ Prototype Triple 180mm B-1-P Model 1932 (Impr.) Main Gun Mount T0 Design]],
 		{
 			2,
 			13054,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[14009] = {
+	open_directly = 0,
+	name = "Prototype Weapon Blueprint S9",
+	type = 13,
+	display = [[
+Can be converted to one of the following SR gear blueprints:
+Prototype Triple 419mm Mk. I Main Gun Mount T0 Design
+Prototype Twin 127mm Mk 16 Dual-Purpose Gun Mount T0 Design
+Prototype Quadruple 610mm Cruiser Torpedo Mount T0 Design
+Prototype Twin 127mm Mle 1948 Naval Gun T0 Design
+Prototype Triple 550mm Improved (Ammo Mod) Torpedo Mount
+]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/14009",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 14009,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			13056,
+			1
+		},
+		{
+			2,
+			13057,
+			1
+		},
+		{
+			2,
+			13058,
+			1
+		},
+		{
+			2,
+			13059,
+			1
+		},
+		{
+			2,
+			13060,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			13056,
+			1
+		},
+		{
+			2,
+			13057,
+			1
+		},
+		{
+			2,
+			13058,
+			1
+		},
+		{
+			2,
+			13059,
+			1
+		},
+		{
+			2,
+			13060,
 			1
 		}
 	},
@@ -14356,6 +14632,74 @@ _G.pg.base.item_data_statistics[20107] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 20107,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[20108] = {
+	open_directly = 0,
+	name = "Combat Data Pack - Series 8",
+	type = 18,
+	display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 8 Combat Data Collection missions.<color=#ff5c5c>(Can be converted into Prototype Cores).</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/20108",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 20108,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[20109] = {
+	open_directly = 0,
+	name = "Combat Data Pack - Series 9",
+	type = 18,
+	display = "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 9 Combat Data Collection missions.<color=#ff5c5c>(Can be converted into Prototype Cores).</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/20109",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 20109,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -50326,6 +50670,122 @@ _G.pg.base.item_data_statistics[40083] = {
 }
 
 
+_G.pg.base.item_data_statistics[40086] = {
+	open_directly = 1,
+	name = "PR Voucher & Blueprint Bundle - Series 6",
+	type = 17,
+	display = "Contains loads of valuable rewards.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech6_promotion",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4086",
+	id = 40086,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40145,
+			1
+		},
+		{
+			2,
+			42050,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40087] = {
+	open_directly = 1,
+	name = "PR Voucher Pack - Series 6",
+	type = 17,
+	display = "Contains loads of valuable rewards.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech6_normal",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4087",
+	id = 40087,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40145,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40088] = {
+	open_directly = 1,
+	name = "PR Blueprint Pack - Series 6",
+	type = 17,
+	display = "Contains loads of valuable rewards.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech6_promotion",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4088",
+	id = 40088,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42050,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "Promise Crate",
@@ -52191,6 +52651,84 @@ _G.pg.base.item_data_statistics[40144] = {
 	shiptrans_id = {},
 	combination_display = {},
 	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40145] = {
+	open_directly = 0,
+	name = "PR Voucher - Series 6",
+	type = 17,
+	display = [[
+Use this item to instantly unlock any Series 6 PR ship at Development Level 1. Eligible ships:
+Shimanto, Felix Schultz, Flandre
+<color=#92fc63>If you already have all eligible ships</color>, using this item will instead give you the following: 
+Combat Data Pack - Series 6 x 300
+T3 General Retrofit Blueprint x 5
+T2 General Retrofit Blueprint x 10
+Wisdom Cube x 5
+Coins x 20,000]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/research6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4212",
+	id = 40145,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20106,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {
+		{
+			ship_unlock,
+			39906
+		},
+		{
+			ship_unlock,
+			49908
+		},
+		{
+			ship_unlock,
+			99902
+		}
+	}
 }
 
 
@@ -81808,6 +82346,722 @@ _G.pg.base.item_data_statistics[42076] = {
 	shiptrans_id = {},
 	combination_display = {},
 	usage_arg = {
+		{
+			2,
+			42072,
+			1
+		},
+		{
+			2,
+			42075,
+			1
+		},
+		{
+			2,
+			42063,
+			1
+		},
+		{
+			2,
+			42064,
+			1
+		},
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42080] = {
+	open_directly = 0,
+	name = "General Blueprint - Series 9",
+	type = 13,
+	display = "Can be converted to a Blueprint for any of the Series 1 through 9 Priority ships.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42080",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42080,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42081,
+			1
+		},
+		{
+			2,
+			42082,
+			1
+		},
+		{
+			2,
+			42084,
+			1
+		},
+		{
+			2,
+			42071,
+			1
+		},
+		{
+			2,
+			42073,
+			1
+		},
+		{
+			2,
+			42074,
+			1
+		},
+		{
+			2,
+			42061,
+			1
+		},
+		{
+			2,
+			42062,
+			1
+		},
+		{
+			2,
+			42065,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			42081,
+			1
+		},
+		{
+			2,
+			42082,
+			1
+		},
+		{
+			2,
+			42084,
+			1
+		},
+		{
+			2,
+			42071,
+			1
+		},
+		{
+			2,
+			42073,
+			1
+		},
+		{
+			2,
+			42074,
+			1
+		},
+		{
+			2,
+			42061,
+			1
+		},
+		{
+			2,
+			42062,
+			1
+		},
+		{
+			2,
+			42065,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42081] = {
+	open_directly = 0,
+	name = "Blueprint - Duncan",
+	type = 12,
+	display = "Blueprint for Royal Navy BB Duncan.\n<color=#92fc63>Can be used in the Shipyard to increase Duncan's stats once you've finished developing her.</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42081",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42081,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42082] = {
+	open_directly = 0,
+	name = "Blueprint - Takahashi",
+	type = 12,
+	display = "Blueprint for Sakura Empire CL Takahashi.\n<color=#92fc63>Can be used in the Shipyard to increase Takahashi's stats once you've finished developing her.</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42082",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42082,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42083] = {
+	open_directly = 0,
+	name = "Blueprint - Max Immelmann",
+	type = 12,
+	display = "Blueprint for Iron Blood CV Max Immelmann.\n<color=#92fc63>Can be used in the Shipyard to increase Max Immelmann's stats once you've finished developing her.</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42083",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42083,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42084] = {
+	open_directly = 0,
+	name = "Blueprint - Orage",
+	type = 12,
+	display = "Blueprint for Iris Libre DD Orage.\n<color=#92fc63>Can be used in the Shipyard to increase Orage's stats once you've finished developing her.</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42084",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42084,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42085] = {
+	open_directly = 0,
+	name = "Blueprint - Valparaíso",
+	type = 12,
+	display = "Blueprint for Liga de Pedrería BB Valparaíso.\n<color=#92fc63>Can be used in the Shipyard to increase Valparaíso's stats once you've finished developing her.</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42085",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42085,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42086] = {
+	open_directly = 0,
+	name = "Special General Blueprint - Series 9",
+	type = 13,
+	display = "Can be converted to a Blueprint for any of the Series 2 through 9 DR ships.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42086",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42086,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42083,
+			1
+		},
+		{
+			2,
+			42085,
+			1
+		},
+		{
+			2,
+			42072,
+			1
+		},
+		{
+			2,
+			42075,
+			1
+		},
+		{
+			2,
+			42063,
+			1
+		},
+		{
+			2,
+			42064,
+			1
+		},
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			42083,
+			1
+		},
+		{
+			2,
+			42085,
+			1
+		},
 		{
 			2,
 			42072,

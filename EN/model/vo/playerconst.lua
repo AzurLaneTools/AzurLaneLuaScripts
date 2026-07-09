@@ -9,6 +9,7 @@ slot0.ResGoldField = 7
 slot0.ResGuildCoin = 8
 slot0.ResBlueprintFragment = 9
 slot0.ResClassField = 10
+slot0.ResFreeDiamond = 14
 slot0.ResStoreGold = 16
 slot0.ResStoreOil = 17
 slot0.ResIslandGold = 18

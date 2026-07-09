@@ -127,50 +127,34 @@ slot0.register = function(slot0)
 		})
 	end)
 	slot0:bind(uv0.OPEN_GIFT_ACT_LAYER, function (slot0, slot1)
-		uv0:addSubLayers(Context.New({
-			mediator = ChargeActGiftMediator,
-			viewComponent = ChargeActGiftLayer,
-			data = {
-				actId = slot1
-			}
-		}))
+		uv0:sendNotification(NewShopMainMediator.ON_SUBLAYER_EVENT, {
+			NewShopMainMediator.OPEN_GIFT_ACT_LAYER,
+			slot1
+		})
 	end)
 end
 
-slot0.listNotificationInterests = function(slot0)
-	return {
-		NewShopMainScene.CLOSE_ALL_LAYER,
-		PlayerProxy.UPDATED,
-		GAME.SKIN_SHOPPIGN_DONE,
-		GAME.SKIN_COUPON_SHOPPING_DONE,
-		GAME.BUY_FURNITURE_DONE,
-		NewShopMainMediator.NOTI_UPDATE_CURRENT,
-		GAME.CHARGE_OPERATION_DONE
-	}
-end
-
-slot0.handleNotification = function(slot0, slot1)
-	slot3 = slot1:getBody()
-	slot4 = slot1:getType()
-
-	if slot1:getName() == NewShopMainScene.CLOSE_ALL_LAYER then
-		slot0.viewComponent:closeView()
-	elseif slot2 == PlayerProxy.UPDATED then
-		slot0.viewComponent:SetResource()
-	else
-		if slot2 == GAME.SKIN_SHOPPIGN_DONE or slot2 == GAME.SKIN_COUPON_SHOPPING_DONE then
-			if pg.shop_template[slot3.id] and (slot5.genre == ShopArgs.SkinShop or slot5.genre == ShopArgs.SkinShopTimeLimit) then
-				if pg.ship_skin_template[slot5.effect_args[1]].skin_type == ShipSkin.SKIN_TYPE_TB then
+slot0.initNotificationHandleDic = function(slot0)
+	slot0.handleDic = {
+		[NewShopMainScene.CLOSE_ALL_LAYER] = function (slot0, slot1)
+			slot0.viewComponent:closeView()
+		end,
+		[PlayerProxy.UPDATED] = function (slot0, slot1)
+			slot0.viewComponent:SetResource()
+		end,
+		[GAME.SKIN_SHOPPIGN_DONE] = function (slot0, slot1)
+			if pg.shop_template[slot1:getBody().id] and (slot3.genre == ShopArgs.SkinShop or slot3.genre == ShopArgs.SkinShopTimeLimit) then
+				if pg.ship_skin_template[slot3.effect_args[1]].skin_type == ShipSkin.SKIN_TYPE_TB then
 					slot0:addSubLayers(Context.New({
 						mediator = NewSkinTBMediator,
 						viewComponent = NewSkinTBLayer,
 						data = {
-							skinId = slot5.effect_args[1],
-							timeLimit = slot5.genre == ShopArgs.SkinShopTimeLimit
+							skinId = slot3.effect_args[1],
+							timeLimit = slot3.genre == ShopArgs.SkinShopTimeLimit
 						}
 					}))
 				else
-					slot7 = function()
+					slot5 = function()
 						uv0:addSubLayers(Context.New({
 							mediator = NewSkinMediator,
 							viewComponent = NewSkinLayer,
@@ -181,37 +165,37 @@ slot0.handleNotification = function(slot0, slot1)
 						}))
 					end
 
-					if PaintingShowScene.GetSkinShowAble(slot6) then
+					if PaintingShowScene.GetSkinShowAble(slot4) then
 						slot0:addSubLayers(Context.New({
 							mediator = PaintingShowMediator,
 							viewComponent = PaintingShowScene,
 							data = {
 								is_shop = true,
-								skinId = slot6,
-								callback = slot7
+								skinId = slot4,
+								callback = slot5
 							}
 						}))
 					else
-						slot7()
+						slot5()
 					end
 				end
 
-				slot0.viewComponent:OnShopping(slot3.id)
+				slot0.viewComponent:OnShopping(slot2.id)
 				pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
 			end
-
-			return
-		end
-
-		if slot2 == GAME.BUY_FURNITURE_DONE then
-			slot0.viewComponent:OnFurnitureUpdate(slot4[1])
-		elseif slot2 == NewShopMainMediator.NOTI_UPDATE_CURRENT then
+		end,
+		[GAME.SKIN_COUPON_SHOPPING_DONE] = GAME.SKIN_SHOPPIGN_DONE,
+		[GAME.BUY_FURNITURE_DONE] = function (slot0, slot1)
+			slot0.viewComponent:OnFurnitureUpdate(slot1:getType()[1])
+		end,
+		[NewShopMainMediator.NOTI_UPDATE_CURRENT] = function (slot0, slot1)
 			slot0.viewComponent:GetAllCommodities()
 			slot0.viewComponent:Refresh(true)
-		elseif slot2 == GAME.CHARGE_OPERATION_DONE then
+		end,
+		[GAME.CHARGE_OPERATION_DONE] = function (slot0, slot1)
 			slot0.viewComponent:closeView()
 		end
-	end
+	}
 end
 
 return slot0

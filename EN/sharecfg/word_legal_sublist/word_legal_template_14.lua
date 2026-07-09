@@ -4,224 +4,6 @@ slot0.word_legal_template_14 = {}
 slot1 = slot0.word_legal_template_14
 
 temp = function()
-	uv0["托"] = {
-		["里"] = {
-			["拆"] = {
-				["利"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["塔"] = {
-		["什"] = {
-			["干"] = {
-				this = true,
-				["("] = {
-					["μ"] = {
-						["兵"] = {
-							["装"] = {
-								[")"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["林"] = {
-			this = true
-		},
-		["尔"] = {
-			["图"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["神"] = {
-		["速"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["洪"] = {
-		["亮"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["灵"] = {
-		["敏"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["基"] = {
-		["辅"] = {
-			this = true
-		},
-		["洛"] = {
-			["夫"] = {
-				this = true,
-				["·"] = {
-					M = {
-						E = {
-							T = {
-								A = {
-									this = true,
-									["（"] = {
-										["后"] = {
-											["排"] = {
-												["）"] = {
-													this = true
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["凶"] = {
-		["猛"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["顽"] = {
-		["皮"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["水"] = {
-		["星"] = {
-			["纪"] = {
-				["念"] = {
-					this = true,
-					["."] = {
-						["改"] = {
-							this = true
-						}
-					},
-					["·"] = {
-						M = {
-							E = {
-								T = {
-									A = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["濑"] = {
-			["伊"] = {
-				["织"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["恰"] = {
-		["巴"] = {
-			["耶"] = {
-				["夫"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["古"] = {
-		["比"] = {
-			["雪"] = {
-				["夫"] = {
-					this = true
-				}
-			}
-		},
-		["手"] = {
-			["川"] = {
-				["唯"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["摩"] = {
-		["尔"] = {
-			["曼"] = {
-				["斯"] = {
-					["克"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["红"] = {
 		["色"] = {
 			["山"] = {
@@ -463,6 +245,16 @@ end
 temp()
 
 temp = function()
+	uv0["瑟"] = {
+		["堡"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["勒"] = {
 		["马"] = {
 			["尔"] = {
@@ -509,6 +301,223 @@ temp = function()
 	uv0["果"] = {
 		["敢"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["敦"] = {
+		["刻"] = {
+			["尔"] = {
+				["克"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["让"] = {
+		["·"] = {
+			["巴"] = {
+				["尔"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["简"] = {
+		["·"] = {
+			["布"] = {
+				["罗"] = {
+					["伊"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["霞"] = {
+		["飞"] = {
+			this = true
+		},
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["峦"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["虒"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["滨"] = {
+		["江"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["玛"] = {
+		["丽"] = {
+			["·"] = {
+				["西"] = {
+					["莱"] = {
+						["斯"] = {
+							["特"] = {
+								["号"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["克"] = {
+			["西"] = {
+				["米"] = {
+					["莉"] = {
+						["安"] = {
+							["·"] = {
+								["伊"] = {
+									["梅"] = {
+										["拉"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["莉"] = {
+			["萝"] = {
+				["丝"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["冈"] = {
+		["依"] = {
+			["沙"] = {
+				["瓦"] = {
+					["号"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["君"] = {
+		["主"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["菈"] = {
+		["菈"] = {
+			["·"] = {
+				["撒"] = {
+					["塔"] = {
+						["琳"] = {
+							["·"] = {
+								["戴"] = {
+									["比"] = {
+										["路"] = {
+											["克"] = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["梦"] = {
+		["梦"] = {
+			["·"] = {
+				["贝"] = {
+					["莉"] = {
+						["雅"] = {
+							["·"] = {
+								["戴"] = {
+									["比"] = {
+										["路"] = {
+											["克"] = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

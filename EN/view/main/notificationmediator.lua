@@ -17,7 +17,7 @@ slot0.register = function(slot0)
 			MainRandomFlagShipSequence.ForceRandom()
 		elseif slot2 == "$ force gc" then
 			gcAll(true)
-		elseif slot2:match("$ rndskin print %d+") and Application.isEditor then
+		elseif slot2:match("%$ rndskin print %d+") and Application.isEditor then
 			MainRandomFlagShipSequence.CalcRatio(tonumber(string.gmatch(slot2, "%d+")()), function (slot0)
 				getProxy(ChatProxy):addNewMsg(ChatMsg.New(ChatConst.ChannelWorld, {
 					richText = true,
@@ -26,7 +26,9 @@ slot0.register = function(slot0)
 					timestamp = pg.TimeMgr.GetInstance():GetServerTime()
 				}))
 			end)
-		elseif slot2:match("^$ (%S+)") then
+		elseif slot2:match("^%$ battletest") then
+			uv0:sendNotification(NewMainMediator.DEBUG_BATTLE_LOOP, slot2)
+		elseif slot2:match("^%$ %S+") then
 			slot3 = {}
 
 			for slot7, slot8 in slot2:gmatch("%s+(%S+)") do

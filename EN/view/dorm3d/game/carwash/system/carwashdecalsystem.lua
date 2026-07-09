@@ -140,22 +140,21 @@ slot0.OnShootLogic = function(slot0, slot1)
 		end) then
 			slot0:GenerateDecalAtScreenCenter(slot0.selectedCarDecalType, slot4)
 		end
-	end
 
-	for slot14, slot15 in ipairs(slot8) do
-		if CarWashConst.GetStainsConfig(slot15.decalType) then
-			slot18 = slot0.currentGunType == slot16.targetGunType
+		for slot14, slot15 in ipairs(slot8) do
+			if CarWashConst.GetStainsConfig(slot15.decalType) then
+				slot18 = slot0.currentGunType == slot16.targetGunType
 
-			if 0 + (slot18 and slot16.fadePerSec or 0) + (slot18 and (slot16.coverDecal and _.any(slot8, function (slot0)
-				return slot0.decalType == uv0.coverDecal
-			end)) and slot16.coverBuff or 0) > 0 then
-				slot15:SetAlpha(slot15.Alpha - slot17 * uv0.ON_SHOOT_INTERVAL)
-				warning(string.format("Decal %s alpha: %f", slot15.name, slot15.Alpha))
-			end
+				if 0 + (slot18 and slot16.fadePerSec or 0) + (slot18 and (slot16.coverDecal and _.any(slot8, function (slot0)
+					return slot0.decalType == uv0.coverDecal
+				end)) and slot16.coverBuff or 0) > 0 then
+					slot15:SetAlpha(slot15.Alpha - slot17 * uv0.ON_SHOOT_INTERVAL)
+				end
 
-			if slot15.Alpha <= 0 then
-				StaticDecalSpawner.Despawn(slot15)
-				slot0:Emit(CarWashGameFlowSystem.DECREASE_STAINS_COUNT, 1)
+				if slot15.Alpha <= 0 then
+					StaticDecalSpawner.Despawn(slot15)
+					slot0:Emit(CarWashGameFlowSystem.DECREASE_STAINS_COUNT, 1)
+				end
 			end
 		end
 	end
@@ -171,8 +170,6 @@ slot0.GetCapsuleColliderRadius = function(slot0, slot1)
 	if slot1:GetComponent(typeof("UnityEngine.CapsuleCollider")) then
 		slot3 = slot2.radius * 2 - 0.01
 	end
-
-	warning("CapsuleCollider not found on characterTf: " .. slot1.name .. "use default radius")
 
 	return math.min(slot3, CarWashConst.DEFAULT_LADY_DECAL_SIZE)
 end

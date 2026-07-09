@@ -50,83 +50,83 @@ SCENE = {
 	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
 	DEPOTSCENE = "scene depot scene",
 	OTHER_WORLD_TEMPLE_SCENE = "other world temple scene",
+	BOSSRUSH_DAL_COLLAB = "bossrush dal collab",
 	REDPACKEY = "scene RED PACKEY",
-	SHIP_GIFT = "scene ship gift",
 	NEW_EDUCATE_MAP = "NEW_EDUCATE_MAP",
 	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
+	SCULPTURE = "sculpture",
 	ISLAND_TASK = "island task",
-	CARD_TOWER_MODE_SELECT = "CARD_TOWER_MODE_SELECT",
 	ACTIVITY = "scene activity",
 	REDPACKEYLOTTERY = "scene RED PACKEY LOTTERY",
 	BULLETINBOARD = "scene bulletinboard",
-	CARD_TOWER_DIFFICULTY_SELECT = "CARD_TOWER_DIFFICULTY_SELECT",
+	CARD_TOWER_MODE_SELECT = "CARD_TOWER_MODE_SELECT",
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
-	CARD_TOWER_CHARACTER_SELECT_DETAIL = "CARD_TOWER_CHARACTER_SELECT_DETAIL",
+	CARD_TOWER_DIFFICULTY_SELECT = "CARD_TOWER_DIFFICULTY_SELECT",
 	BACKYARD = "scene court yard",
 	DORM3D_SLIDE = "DORM3D_SLIDE",
 	RYZA_URBAN_AREA = "RYZA_URBAN_AREA",
+	CARD_TOWER_CELL_SELECT = "CARD_TOWER_CELL_SELECT",
 	COMMANDERCAT = "scene commander cat room",
 	MEDIA_COLLECTION_ENTRANCE = "media collection entrance",
-	CRYPTOLALIA = "scene Cryptolalia",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
-	US_CASTLE_2023 = "US_CASTLE_2023",
+	CRYPTOLALIA = "scene Cryptolalia",
 	WORLD_FLEET_SELECT = "world fleet select",
 	DREAMLAND_PREVIEW = "DREAMLAND_PREVIEW",
 	SPRING_FESTIVAL_BACKHILL_2023 = "SPRING FESTIVAL BackHill 2023",
-	LAUNCH_BALL_TASK = "LAUNCH_BALL_TASK",
+	RESOLVEEQUIP = "scene resolve equip",
 	SECRET_SHIPYARD = "SECRET_SHIPYARD",
 	HARBOR_BACKHILL = "HARBOR_BACKHILL",
-	TEMPESTA_MEDAL_COLLECTION = "tempesta medal collection",
+	LAUNCH_BALL_TASK = "LAUNCH_BALL_TASK",
 	TRANSITION = "scene transition",
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
 	JIUJIU_EXPEDITION = "jiujiu expedition ",
+	TEMPESTA_MEDAL_COLLECTION = "tempesta medal collection",
 	CASTLE_MAIN = "CASTLE_MAIN",
-	SENRANKAGURA_MEDAL = "senrankagura medal",
 	SENRANKAGURA_TRAIN = "senrankagura train",
 	CHALLENGE_MAIN_SCENE = "challenge main scene",
 	OTHERWORLD_BACKHILL = "OTHERWORLD_BACKHILL",
+	SPRING_FESTIVAL_BACKHILL_2024 = "SPRING_FESTIVAL_BACKHILL_2024",
 	NEW_EDUCATE = "NEW_EDUCATE",
-	SCULPTURE = "sculpture",
+	SHIP_GIFT = "scene ship gift",
 	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
-	EDUCATE_DOCK = "EDUCATE_DOCK",
 	WORLD_COLLECTION = "world collection",
 	SNAPSHOT = "snapshot",
 	DORM3D_AR = "DORM3D_AR",
-	BOSSRUSH_DAL_COLLAB = "bossrush dal collab",
+	EDUCATE_PROFILE = "EDUCATE_PROFILE",
 	SELTECHNOLOGY = "seltechnology",
-	SPRING_FESTIVAL_BACKHILL_2024 = "SPRING_FESTIVAL_BACKHILL_2024",
+	BOSSRUSH_REMASTER = "bossrush remaster",
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
+	SENRANKAGURA_MEDAL = "senrankagura medal",
 	OTHERWORLD_MAP = "OTHERWORLD_MAP",
-	MUSIC_FESTIVAL3 = "music festival 3",
 	CHARGE_MENU = "scene charge_menu",
 	HOTSPRING = "hotSpring",
 	EQUIPSCENE = "scene equip",
-	EDUCATE_PROFILE = "EDUCATE_PROFILE",
+	MUSIC_FESTIVAL3 = "music festival 3",
 	HOLIDAY_VILLA_MAP = "holiday villa map",
 	TECHNOLOGY_TREE_SCENE = "technology tree scene",
 	FEAST = "scene Feast",
 	NEWYEAR_BACKHILL_2023 = "NEWYEAR BACKHILL 2023",
+	LINER = "LINER",
 	LINER_BACKHILL = "LINER_BACKHILL",
-	THIRD_ANNIVERSARY_AKIBA = "third anniversary Akiba",
 	EXERCISEFORMATION = "scene exerciseformation",
+	THIRD_ANNIVERSARY_AKIBA = "third anniversary Akiba",
 	PUBLIC_GUILD = "public guild",
 	LiquorFloor = "LiquorFloor",
-	COWBOY_TOWN_BACKHILL = "COWBOY_TOWN_BACKHILL",
 	HOTSPRING_REDPACKET = "hotSpring redpacket",
-	RESOLVEEQUIP = "scene resolve equip",
-	DORM3D_VOLLEYBALL = "dorm 3d volleyball",
+	COWBOY_TOWN_BACKHILL = "COWBOY_TOWN_BACKHILL",
+	US_CASTLE_2023 = "US_CASTLE_2023",
 	BILLBOARD = "scene billboard",
 	DREAMLAND = "DREAMLAND",
+	DORM3D_VOLLEYBALL = "dorm 3d volleyball",
 	DORM3D_ROOM = "dorm 3d room",
-	DOALINK_ISLAND = "scene DOALink Island",
 	ROGUE_FINAL_RESULT = "ROGUE_FINAL_RESULT",
 	NEW_EDUCATE_SCHEDULE = "NEW_EDUCATE_SCHEDULE",
 	OTHER_WORLD_TASK_LAYER = "other world task scene",
-	CARD_TOWER_CELL_SELECT = "CARD_TOWER_CELL_SELECT",
+	DOALINK_ISLAND = "scene DOALink Island",
+	CARD_TOWER_CHARACTER_SELECT_DETAIL = "CARD_TOWER_CHARACTER_SELECT_DETAIL",
 	MONOPOLY_WORLD = "MONOPOLY WORLD",
-	GHOSTSKINPAGE = "GhostSkinPage",
 	SHOP = "scene shop",
 	SINGLE_ACTIVITY = "single activity",
 	BACKYARD_THEME_TEMPLATE = "backyard theme template",
@@ -137,16 +137,16 @@ SCENE = {
 	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
 	FIREWORK_AND_SPRING = "firework and spring",
 	PROBABILITY_SKINSHOP = "scene probability skinshop",
-	BOSS_SINGLE_PRECOMBAT = "BossSinglePreCombat",
+	PUZZLE_CONNECT = "puzzle connect",
 	NEW_EDUCATE_SELECT = "NEW_EDUCATE_SELECT",
 	BOSSRUSH_MAIN = "bossrush main",
-	LINER = "LINER",
+	BOSS_SINGLE_PRECOMBAT = "BossSinglePreCombat",
 	EDUCATE_SCHEDULE = "EDUCATE_SCHEDULE",
-	PAINTING_SHOW = "painting show",
+	EDUCATE_DOCK = "EDUCATE_DOCK",
 	CHUZHENG = "scene chuzheng",
 	GETBOAT = "scene get boat",
+	PAINTING_SHOW = "painting show",
 	HOLIDAY_VILLA_HOTSPRING = "HOLIDAY_VILLA_HOTSPRING",
-	COLLECTION_BOOK = "collection book",
 	NAVALACADEMYSCENE = "naval academy scene",
 	ANNIVERSARY = "anniversary",
 	NEWYEAR_BACKHILL_2022 = "scene NEWYEAR BACKHILL 2022",
@@ -157,25 +157,26 @@ SCENE = {
 	NEWYEAR_BACKHILL_2024 = "NEWYEAR_BACKHILL_2024",
 	NEWYEAR_SQUARE = "newyear square",
 	CORE_ACTIVITY = "scene core activity",
-	NEW_SHOP = "new shop",
+	COLLECTION_BOOK = "collection book",
 	ATELIER_COMPOSITE = "ATELIER_COMPOSITE",
 	RYZA_TASK = "ryza task scene",
-	ISLAND = "scene island",
+	NEW_SHOP = "new shop",
 	DORM3DSELECT = "dorm 3d select",
+	ISLAND = "scene island",
 	CITY_REBUILD_MAP = "city rebuild map",
 	EIGHTH_HOTSPRING = "eighth hotspring",
-	LOVE_LETTER_ACTIVITY = "love letter activity",
 	TRAININGCAMP = "trainingcamp",
-	ZHANG_WU_BOSS = "zhang wu boss",
+	LOVE_LETTER_ACTIVITY = "love letter activity",
 	LINK_LINK = "link link",
 	HOTSPRING_SHOP = "hotSpring shop",
-	PUZZLE_CONNECT = "puzzle connect",
+	ZHANG_WU_BOSS = "zhang wu boss",
 	ANNIVERSARY_ISLAND_WORKBENCH = "anniversary island workbench",
 	ATTIRE = "scene attire",
 	VOTESCHEDULE = "scene vote schedule",
-	MALL = "MALL",
+	GHOSTSKINPAGE = "GhostSkinPage",
 	CLASS = "scene class",
 	MALL_MAP = "MALL_MAP",
+	MALL = "MALL",
 	RANDOM_DOCKYARD = "random dockyard",
 	VOTE = "scene vote",
 	LOGIN = "scene login",
@@ -817,6 +818,34 @@ slot0 = {
 		slot0.mediator = SpringFestival2023Mediator
 		slot0.viewComponent = SpringFestival2023Scene
 	end,
+	[SCENE.BOSSRUSH_REMASTER] = function (slot0, slot1)
+		assert(slot0.data.id, "BossRushRemaster Scene must have activity id")
+		(function ()
+			if not uv0 or uv0:isEnd() then
+				return
+			end
+
+			if not uv0:getConfig("config_client").scene then
+				return
+			end
+
+			uv1 = _G[slot0]
+
+			if not uv0:getConfig("config_client").mediator then
+				return
+			end
+
+			uv2 = _G[slot1]
+		end)()
+		assert(BossRushKurskScene, "Activity_template not set scene in config_client: " .. (getProxy(ActivityProxy):GetBossRushActivityById(slot0.data.id) and slot4.id or "NIL"))
+
+		slot0.mediator = BossRushKurskMediator
+		slot0.viewComponent = slot2
+
+		slot0:extendData({
+			activityID = slot4.id
+		})
+	end,
 	[SCENE.BOSSRUSH_MAIN] = function (slot0, slot1)
 		(function ()
 			if not uv0 or uv0:isEnd() then
@@ -835,7 +864,7 @@ slot0 = {
 
 			uv2 = _G[slot1]
 		end)()
-		assert(BossRushKurskScene, "Activity_template not set scene in config_client: " .. (getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) and slot4.id or "NIL"))
+		assert(BossRushKurskScene, "Activity_template not set scene in config_client: " .. (getProxy(ActivityProxy):GetBossRushActivitity(false) and slot4.id or "NIL"))
 
 		slot0.mediator = BossRushKurskMediator
 		slot0.viewComponent = slot2

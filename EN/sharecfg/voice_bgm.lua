@@ -3156,4 +3156,9 @@ end)()
 		special_bgm = "",
 		bgm = "story-room-nakhimov"
 	}
+	pg.base.voice_bgm.ConsumeGemSignInPage = {
+		default_bgm = "story-richang-partynight",
+		special_bgm = "",
+		bgm = "story-richang-partynight"
+	}
 end)()

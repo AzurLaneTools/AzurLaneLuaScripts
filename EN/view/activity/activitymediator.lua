@@ -338,7 +338,7 @@ slot0.register = function(slot0)
 			uv0.viewComponent:updateEntrances()
 		end
 
-		if getProxy(ActivityPermanentProxy):getDoingActivity() then
+		if getProxy(ActivityPermanentProxy):getDoingActivity(ActivityPermanentProxy.TYPE_NORMAL_ACTIVITY) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("activity_permanent_tips3"))
 			uv0.viewComponent:verifyTabs(slot2.id)
 		else
@@ -352,7 +352,7 @@ slot0.register = function(slot0)
 		end
 	end)
 	slot0:bind(uv0.FINISH_ACTIVITY_PERMANENT, function (slot0)
-		slot1 = getProxy(ActivityPermanentProxy):getDoingActivity()
+		slot1 = getProxy(ActivityPermanentProxy):getDoingActivity(ActivityPermanentProxy.TYPE_NORMAL_ACTIVITY)
 
 		assert(slot1:canPermanentFinish(), "error permanent activity finish")
 		uv0:sendNotification(GAME.ACTIVITY_PERMANENT_FINISH, {
@@ -593,10 +593,18 @@ slot0.initNotificationHandleDic = function(slot0)
 			end)
 		end,
 		[GAME.ACTIVITY_PERMANENT_START_DONE] = function (slot0, slot1)
-			slot0.viewComponent:verifyTabs(slot1:getBody().id)
+			if not getProxy(ActivityPermanentProxy):IsNormalActivityId(slot1:getBody().id) then
+				return
+			end
+
+			slot0.viewComponent:verifyTabs(slot2.id)
 		end,
 		[GAME.ACTIVITY_PERMANENT_FINISH_DONE] = function (slot0, slot1)
-			slot0.viewComponent:emit(ActivityMediator.ACTIVITY_PERMANENT, slot1:getBody().activity_id)
+			if not getProxy(ActivityPermanentProxy):IsNormalActivityId(slot1:getBody().activity_id) then
+				return
+			end
+
+			slot0.viewComponent:emit(ActivityMediator.ACTIVITY_PERMANENT, slot2.activity_id)
 		end,
 		[GAME.MEMORYBOOK_UNLOCK_AWARD_DONE] = function (slot0, slot1)
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards)

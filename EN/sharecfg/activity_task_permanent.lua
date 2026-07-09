@@ -27,7 +27,8 @@ pg.activity_task_permanent.all = {
 	6020,
 	6021,
 	6022,
-	6023
+	6023,
+	50521
 }
 pg.base = pg.base or {}
 pg.base.activity_task_permanent = {}
@@ -41,6 +42,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Summer offensive",
 		id = 6000,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35000,
@@ -60,6 +62,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Back to school",
 		id = 6001,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35007,
@@ -92,6 +95,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Angel or Devil in White?",
 		id = 6002,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35027,
@@ -111,6 +115,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Sea Star on Shore",
 		id = 6003,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35034,
@@ -143,6 +148,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Woozy Party ",
 		id = 6004,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35054,
@@ -169,6 +175,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "The Special Banquet ",
 		id = 6005,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35068,
@@ -195,6 +202,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Halloween Chaos ",
 		id = 6006,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -206,6 +214,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Holiday Special ",
 		id = 6007,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35082,
@@ -232,6 +241,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Operation: Christmas! ",
 		id = 6008,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35096,
@@ -258,6 +268,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Holy Night Festival of Love and Peace",
 		id = 6009,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35110,
@@ -278,6 +289,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "A Foreign Idol?",
 		id = 6010,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -289,6 +301,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Monthly Manga Javelin",
 		id = 6011,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35118,
@@ -319,6 +332,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Science Rules!",
 		id = 6012,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35136,
@@ -349,6 +363,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Colorful Ceremony ",
 		id = 6013,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35154,
@@ -375,6 +390,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Fubuki Halation",
 		id = 6014,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35168,
@@ -401,6 +417,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Mischievous Halloween",
 		id = 6015,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35182,
@@ -427,6 +444,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Class of '36, Group Z Professor Z23",
 		id = 6016,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35196,
@@ -459,6 +477,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Enchanting Snowy Night",
 		id = 6017,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -470,6 +489,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Manjuu Manufactory",
 		id = 6018,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35216,
@@ -489,6 +509,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Wallflower in the Corner",
 		id = 6019,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35223,
@@ -515,6 +536,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Fluttering Fanfare",
 		id = 6020,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35244,
@@ -541,6 +563,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Spring Breeze Leisure",
 		id = 6021,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35258,
@@ -567,6 +590,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "U-410's Special Training",
 		id = 6022,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -578,6 +602,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "Hatsuharu in the Limelight",
 		id = 6023,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35272,
@@ -595,5 +620,17 @@ pg.base.activity_task_permanent = {}
 			35284,
 			35285
 		}
+	}
+	pg.base.activity_task_permanent[50521] = {
+		gametip = "测试配置",
+		banner_route = "permanent_yamashiro",
+		gametip_extra = "测试配置",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "测试配置",
+		id = 50521,
+		activity_group = 2000,
+		over_task_id = "",
+		eliminate_task_id = {}
 	}
 end)()

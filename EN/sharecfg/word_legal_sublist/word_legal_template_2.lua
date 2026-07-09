@@ -1770,6 +1770,13 @@ temp = function()
 			}
 		},
 		r = {
+			a = {
+				g = {
+					e = {
+						this = true
+					}
+				}
+			},
 			i = {
 				g = {
 					a = {
@@ -2071,6 +2078,21 @@ temp = function()
 						n = {
 							t = {
 								this = true
+							}
+						}
+					}
+				},
+				p = {
+					a = {
+						r = {
+							a = {
+								["í"] = {
+									s = {
+										o = {
+											this = true
+										}
+									}
+								}
 							}
 						}
 					}

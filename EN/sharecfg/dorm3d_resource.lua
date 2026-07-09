@@ -549,7 +549,7 @@ pg.base.dorm3d_resource = {}
 	}
 	pg.base.dorm3d_resource[799024] = {
 		ship_group = 79902,
-		name = "纳希莫夫赛车服",
+		name = "Nakhimov's Race Uniform",
 		model_id = "naximofu_racing_carwash",
 		remarks = "",
 		stocking_pos = "",

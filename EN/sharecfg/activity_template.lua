@@ -1115,6 +1115,7 @@ pg.activity_template.all = {
 	50492,
 	50493,
 	50500,
+	50521,
 	50801,
 	50803,
 	50804,
@@ -1144,7 +1145,6 @@ pg.activity_template.all = {
 	50833,
 	50834,
 	50835,
-	50837,
 	50838,
 	50598,
 	50599,
@@ -1182,6 +1182,7 @@ pg.activity_template.all = {
 	50657,
 	50658,
 	50659,
+	50837,
 	51001,
 	51002,
 	51003,
@@ -2593,7 +2594,6 @@ pg.activity_template.get_id_list_by_type = {
 		50831,
 		50834,
 		50835,
-		50837,
 		50838,
 		50598,
 		50603,
@@ -2604,6 +2604,7 @@ pg.activity_template.get_id_list_by_type = {
 		50656,
 		50657,
 		50659,
+		50837,
 		51006,
 		51014,
 		51015,
@@ -4062,7 +4063,8 @@ pg.activity_template.get_id_list_by_type = {
 		5402,
 		5888,
 		50013,
-		50351
+		50351,
+		50521
 	},
 	[94] = {
 		5403,
@@ -55454,6 +55456,26 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+	pg.base.activity_template[50521] = {
+		mark = 20260709,
+		page_info = "",
+		time = "stop",
+		type = 93,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50521,
+		page_core = "",
+		config_data = {
+			1001001,
+			1001002,
+			1001003
+		},
+		config_client = {
+			scene = "BossRushKurskReScene"
+		}
+	}
 	pg.base.activity_template[50801] = {
 		mark = 20260423,
 		page_info = "",
@@ -56943,56 +56965,6 @@ end)()
 		config_data = {
 			25592,
 			25593
-		},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_template[50837] = {
-		mark = 20260326,
-		page_info = "",
-		type = 13,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_client = "",
-		title_res_tag = "",
-		id = 50837,
-		page_core = "",
-		config_data = {
-			21952,
-			21944,
-			21945,
-			21946,
-			21947,
-			21948,
-			21949,
-			21950,
-			21951
 		},
 		time = {
 			"timer",
@@ -58989,6 +58961,56 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50837] = {
+		mark = 20260326,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50837,
+		page_core = "",
+		config_data = {
+			21952,
+			21944,
+			21945,
+			21946,
+			21947,
+			21948,
+			21949,
+			21950,
+			21951
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51001] = {
 		mark = 20260514,
 		type = 18,
@@ -60122,6 +60144,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[51037] = {
 		mark = 20260618,
 		page_info = "",
@@ -60165,8 +60189,6 @@ end)()
 			bg = "loadingbg/bg_build_4_act"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[51038] = {
 		mark = 20260618,
 		page_info = "",
@@ -65464,6 +65486,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[2062] = {
 		mark = 20210715,
 		page_info = "",
@@ -65481,8 +65505,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[2063] = {
 		mark = 20210805,
 		page_info = "",
@@ -69437,6 +69459,8 @@ end)()
 			rank_act_id = 30075
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30075] = {
 		mark = 20190214,
 		page_info = "",
@@ -69451,8 +69475,6 @@ end)()
 		id = 30075,
 		page_core = ""
 	}
-end)()
-(function ()
 	pg.base.activity_template[30076] = {
 		mark = 20190214,
 		page_info = "",
@@ -72463,6 +72485,8 @@ end)()
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30176] = {
 		mark = 20190731,
 		page_info = "",
@@ -72477,8 +72501,6 @@ end)()
 		id = 30176,
 		page_core = ""
 	}
-end)()
-(function ()
 	pg.base.activity_template[30177] = {
 		mark = 20190731,
 		time = "stop",
@@ -75142,6 +75164,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30283] = {
 		mark = 20191121,
 		page_info = "",
@@ -75158,8 +75182,6 @@ end)()
 			stageid = 9801
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30284] = {
 		mark = 20191121,
 		time = "stop",
@@ -77930,6 +77952,8 @@ end)()
 			7
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30383] = {
 		mark = 20200409,
 		page_info = "",
@@ -77946,8 +77970,6 @@ end)()
 			30381
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30384] = {
 		mark = 20200416,
 		time = "stop",
@@ -80762,6 +80784,8 @@ end)()
 			15830
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30483] = {
 		mark = 20200820,
 		page_info = "",
@@ -80783,8 +80807,6 @@ end)()
 			1400013
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30484] = {
 		mark = 20200820,
 		page_info = "",
@@ -83137,6 +83159,8 @@ end)()
 			itemid = 42003
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30811] = {
 		mark = 20210408,
 		page_info = "",
@@ -83199,8 +83223,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30812] = {
 		mark = 20210422,
 		page_info = "",
@@ -89331,6 +89353,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990018] = {
 		mark = 20260507,
 		page_info = "",
@@ -89380,8 +89404,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990019] = {
 		mark = 20260507,
 		page_info = "",

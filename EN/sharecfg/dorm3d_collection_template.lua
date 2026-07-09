@@ -4615,7 +4615,7 @@ she finds a better version of herself than the day before.]],
 		time = 0,
 		room_id = 21,
 		desc = "A decorative plant displayed in a classic ceramic pot. Its verdant leaves naturally add a touch of life to the room.",
-		text = "dorm3d_naximofu_chair",
+		text = "dorm3d_naximofu_bed",
 		id = 2112,
 		icon = "3Ddrom_naximofu_item12",
 		model = {

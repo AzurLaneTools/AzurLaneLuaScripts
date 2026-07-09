@@ -300,6 +300,12 @@ slot2.ExitBattle = function(slot0)
 end
 
 slot2.Stop = function(slot0, slot1)
+	if slot0:GetBattleType() == SYSTEM_TEST then
+		InDebugBattleLoop = nil
+
+		pg.TipsMgr.GetInstance():ShowTips("interrupt")
+	end
+
 	slot0:disableCommon()
 	slot0._baseUI:exitBattle(slot1)
 end

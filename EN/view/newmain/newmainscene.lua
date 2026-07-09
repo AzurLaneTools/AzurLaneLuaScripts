@@ -1,24 +1,24 @@
 slot0 = class("NewMainScene", import("..base.BaseUI"))
 slot0.THEME_CLASSIC = 1
 slot0.THEME_MELLOW = 2
-slot0.OPEN_LIVEAREA = "NewMainScene:OPEN_LIVEAREA"
-slot0.UPDATE_COVER = "NewMainScene:UPDATE_COVER"
-slot0.FOLD = "NewMainScene:FOLD"
-slot0.HIDE = "NewMainScene:HIDE"
-slot0.CHAT_STATE_CHANGE = "NewMainScene:CHAT_STATE_CHANGE"
-slot0.ON_CHANGE_SKIN = "NewMainScene:ON_CHANGE_SKIN"
-slot0.ON_BUFF_DESC = "NewMainScene:ON_BUFF_DESC"
-slot0.ON_SKIN_FREEUSAGE_DESC = "NewMainScene:ON_SKIN_FREEUSAGE_DESC"
-slot0.ENABLE_PAITING_MOVE = "NewMainScene:ENABLE_PAITING_MOVE"
-slot0.ENABLE_PAITING_SCALE = "NewMainScene:ENABLE_PAITING_SCALE"
-slot0.SAVE_PART_SCALE = "NewMainScene:SAVE_PART_SCALE"
-slot0.RESET_PAITING_SCALE = "NewMainScene:RESET_PAITING_SCALE"
-slot0.SET_SCALE_PART_CONTENT = "NewMainScene:SET_SCALE_PART_CONTENT"
-slot0.ON_ENTER_DONE = "NewMainScene:ON_ENTER_DONE"
-slot0.ENTER_SILENT_VIEW = "NewMainScene:ENTER_SILENT_VIEW"
-slot0.EXIT_SILENT_VIEW = "NewMainScene:EXIT_SILENT_VIEW"
-slot0.L2D_BOUND_CHANGE = "NewMainScene:L2D_BOUND_CHANGE"
-slot0.RESET_L2D = "NewMainScene:RESET_L2D"
+slot0.OPEN_LIVEAREA = "NewMainScene.OPEN_LIVEAREA"
+slot0.UPDATE_COVER = "NewMainScene.UPDATE_COVER"
+slot0.FOLD = "NewMainScene.FOLD"
+slot0.HIDE = "NewMainScene.HIDE"
+slot0.CHAT_STATE_CHANGE = "NewMainScene.CHAT_STATE_CHANGE"
+slot0.ON_CHANGE_SKIN = "NewMainScene.ON_CHANGE_SKIN"
+slot0.ON_BUFF_DESC = "NewMainScene.ON_BUFF_DESC"
+slot0.ON_SKIN_FREEUSAGE_DESC = "NewMainScene.ON_SKIN_FREEUSAGE_DESC"
+slot0.ENABLE_PAITING_MOVE = "NewMainScene.ENABLE_PAITING_MOVE"
+slot0.ENABLE_PAITING_SCALE = "NewMainScene.ENABLE_PAITING_SCALE"
+slot0.SAVE_PART_SCALE = "NewMainScene.SAVE_PART_SCALE"
+slot0.RESET_PAITING_SCALE = "NewMainScene.RESET_PAITING_SCALE"
+slot0.SET_SCALE_PART_CONTENT = "NewMainScene.SET_SCALE_PART_CONTENT"
+slot0.ON_ENTER_DONE = "NewMainScene.ON_ENTER_DONE"
+slot0.ENTER_SILENT_VIEW = "NewMainScene.ENTER_SILENT_VIEW"
+slot0.EXIT_SILENT_VIEW = "NewMainScene.EXIT_SILENT_VIEW"
+slot0.L2D_BOUND_CHANGE = "NewMainScene.L2D_BOUND_CHANGE"
+slot0.RESET_L2D = "NewMainScene.RESET_L2D"
 
 slot0.getUIName = function(slot0)
 	return "NewMainUI"
@@ -302,6 +302,13 @@ slot0.SetUp = function(slot0, slot1, slot2)
 
 	seriesAsync({
 		function (slot0)
+			if uv0:CheckDebugBattleLoop() then
+				return
+			else
+				slot0()
+			end
+		end,
+		function (slot0)
 			uv0.awakeSequenceView:Execute(slot0)
 		end,
 		function (slot0)
@@ -448,6 +455,35 @@ slot0.UpdateFlagShip = function(slot0, slot1, slot2)
 	slot0.theme:OnSwitchToNextShip(slot1)
 end
 
+slot0.CheckDebugBattleLoop = function(slot0)
+	if not InDebugBattleLoop then
+		return false
+	end
+
+	if #InDebugBattleLoop.tempList == 0 then
+		if #slot1.loopStages > 0 then
+			slot2 = table.remove(slot1.loopStages, 1)
+
+			for slot6 = 1, slot1.loopCount do
+				table.insert(slot1.tempList, slot2)
+			end
+		else
+			InDebugBattleLoop = nil
+
+			pg.TipsMgr.GetInstance():ShowTips("finish")
+
+			return false
+		end
+	end
+
+	slot2 = table.remove(slot1.tempList, 1)
+
+	print(string.format("【正在执行关卡%s的第%d次战斗循环】", slot2, slot1.loopCount - #slot1.tempList))
+	slot0:emit(NewMainMediator.DEBUG_BATTLE_LOOP, slot2)
+
+	return true
+end
+
 slot0.PlayChangeSkinActionOut = function(slot0, slot1)
 	slot0.paintingView:PlayChangeSkinActionOut(slot1)
 end
@@ -484,6 +520,13 @@ slot0.Refresh = function(slot0)
 	slot0.mainCG.blocksRaycasts = false
 
 	seriesAsync({
+		function (slot0)
+			if uv0:CheckDebugBattleLoop() then
+				return
+			else
+				slot0()
+			end
+		end,
 		function (slot0)
 			uv0.awakeSequenceView:Execute(slot0)
 		end,

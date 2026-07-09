@@ -390,6 +390,7 @@ pg.memory_group.all = {
 	621,
 	622,
 	623,
+	624,
 	1000,
 	1001,
 	1002,
@@ -9836,6 +9837,28 @@ end)()
 			5235,
 			5236,
 			5237
+		},
+		group_id = {
+			10000
+		}
+	}
+	pg.base.memory_group[624] = {
+		ship_group = 29905,
+		icon = "title_chara_pulimaosi",
+		type = 3,
+		link_event = 0,
+		title = "For the Perfect Smile",
+		auto_unlock = "",
+		subtype = 0,
+		id = 624,
+		memories = {
+			5251,
+			5252,
+			5253,
+			5254,
+			5255,
+			5256,
+			5257
 		},
 		group_id = {
 			10000

@@ -21,6 +21,16 @@ slot0.execute = function(slot0, slot1)
 	end
 end
 
+slot1 = function(slot0, slot1, slot2)
+	if slot2 == PlayerConst.ResDiamond then
+		return slot1:getChargeGem() - slot0:getChargeGem()
+	elseif slot2 == PlayerConst.ResFreeDiamond then
+		return slot1:getFreeGem() - slot0:getFreeGem()
+	end
+
+	return slot1:getResource(slot2) - slot0:getResource(slot2)
+end
+
 slot0.UpdateActivies = function(slot0, slot1, slot2)
 	slot0.activityProxy = slot0.activityProxy or getProxy(ActivityProxy)
 	slot3 = {}
@@ -78,9 +88,20 @@ slot0.UpdateActivies = function(slot0, slot1, slot2)
 		if slot8:getDataConfig("pt") > 0 then
 			assert(slot9)
 
-			slot3[slot9] = slot3[slot9] or slot2:getResource(slot9) - slot1:getResource(slot9)
+			slot10 = slot9 == PlayerConst.ResDiamond and {
+				PlayerConst.ResFreeDiamond,
+				PlayerConst.ResDiamond
+			} or {
+				slot9
+			}
+			slot11 = 0
 
-			uv0.UpdateActivity(slot8, slot3[slot9])
+			for slot15, slot16 in ipairs(slot10) do
+				slot3[slot16] = slot3[slot16] or uv1(slot1, slot2, slot16)
+				slot11 = slot11 + slot3[slot16]
+			end
+
+			uv0.UpdateActivity(slot8, slot11)
 		end
 	end
 end

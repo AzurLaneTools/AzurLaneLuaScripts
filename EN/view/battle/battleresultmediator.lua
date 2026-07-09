@@ -649,6 +649,7 @@ slot0.handleNotification = function(slot0, slot1)
 				actId = slot5,
 				seriesData = slot6,
 				win = slot7,
+				OnClose = slot3.callback,
 				isAutoFight = slot0.contextData.isAutoFight
 			}
 		}), true)

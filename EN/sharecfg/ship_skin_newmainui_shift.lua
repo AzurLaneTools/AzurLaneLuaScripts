@@ -195,7 +195,9 @@ pg.ship_skin_newmainui_shift.all = {
 	605082,
 	699012,
 	403103,
-	608022
+	608022,
+	299060,
+	399080
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_newmainui_shift = {}
@@ -9401,6 +9403,102 @@ end)()
 			0,
 			1,
 			0
+		}
+	}
+	pg.base.ship_skin_newmainui_shift[299060] = {
+		skin = 299060,
+		skin_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		l2d_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		spine_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			0,
+			0,
+			0,
+			1,
+			9.410005
+		},
+		skin_shop_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			31.2
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			31.46999
+		}
+	}
+	pg.base.ship_skin_newmainui_shift[399080] = {
+		skin = 399080,
+		skin_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		l2d_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		spine_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			38.45,
+			0,
+			0,
+			1,
+			344.63
+		},
+		skin_shop_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			326.99
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			332.4
 		}
 	}
 end)()

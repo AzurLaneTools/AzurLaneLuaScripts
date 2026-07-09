@@ -280,6 +280,7 @@ pg.name_code.all = {
 	310,
 	311,
 	312,
+	313,
 	400,
 	401,
 	402,
@@ -445,6 +446,8 @@ pg.name_code.all = {
 	561,
 	562,
 	564,
+	565,
+	566,
 	10000,
 	10001,
 	10002,
@@ -2401,6 +2404,13 @@ end)()
 		code = "Kizu",
 		nation = 0
 	}
+	pg.base.name_code[313] = {
+		name = "Takahashi",
+		type = 1,
+		id = 313,
+		code = "Takahashi",
+		nation = 0
+	}
 	pg.base.name_code[400] = {
 		name = "Z1",
 		type = 1,
@@ -2555,6 +2565,8 @@ end)()
 		code = "Königsberg",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[422] = {
 		name = "Karlsruhe",
 		type = 1,
@@ -2562,8 +2574,6 @@ end)()
 		code = "Karlsruhe",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[423] = {
 		name = "Köln",
 		type = 1,
@@ -3257,6 +3267,8 @@ end)()
 		code = "Hindenburg",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[522] = {
 		name = "Hatakaze META",
 		type = 1,
@@ -3264,8 +3276,6 @@ end)()
 		code = "Hatakaze META",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[523] = {
 		name = "Jean Bart",
 		type = 1,
@@ -3558,6 +3568,20 @@ end)()
 		type = 1,
 		id = 564,
 		code = "Götz von Berlichingen",
+		nation = 0
+	}
+	pg.base.name_code[565] = {
+		name = "Max Immelmann",
+		type = 1,
+		id = 565,
+		code = "Max Immelmann",
+		nation = 0
+	}
+	pg.base.name_code[566] = {
+		name = "Ancient Dragon of Steel, Immortal Monarch of the Welkin",
+		type = 1,
+		id = 566,
+		code = "Ancient Dragon of Steel, Immortal Monarch of the Welkin",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {

@@ -195,6 +195,10 @@ slot0.getInitFlag = function(slot0)
 end
 
 slot0.getNormalIdleName = function(slot0)
+	if HXSet.isHx() and slot0.shipDragData and slot0.shipDragData.hx_idle then
+		return slot0.shipDragData.hx_idle
+	end
+
 	return "normal"
 end
 

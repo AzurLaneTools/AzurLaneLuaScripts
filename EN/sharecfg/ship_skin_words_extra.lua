@@ -427,7 +427,12 @@ pg.ship_skin_words_extra.all = {
 	818010,
 	806020,
 	801060,
-	699010
+	699010,
+	499110,
+	1299010,
+	299060,
+	399080,
+	899050
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_words_extra = {}
@@ -7533,10 +7538,7 @@ end)()
 		win_mvp = "",
 		upgrade = "",
 		expedition = "",
-		main_extra = "",
-		home = "",
 		mission = "",
-		touch2 = "",
 		id = 403100,
 		skill = "",
 		unlock = "",
@@ -7545,24 +7547,57 @@ end)()
 		feeling4 = "",
 		feeling1 = "",
 		hp_warning = "",
-		feeling5 = "",
 		main = "",
 		profile = "",
 		mission_complete = "",
 		feeling2 = "",
 		battle = "",
-		login = "",
-		detail = "",
+		login = {
+			{
+				1100,
+				"Howdy. Finished charging your batteries? I can help if you still need more energy."
+			}
+		},
+		home = {
+			{
+				1100,
+				"I'm gonna open the window and get some fresh air in here. C'mon! Breathe in, breathe out!"
+			}
+		},
 		headtouch = {
 			{
 				1100,
 				"Huh? This is praise, right? Thanks."
 			}
 		},
+		detail = {
+			{
+				1100,
+				"Yeah, hey... Hmm... Huh? Me? I'm as carefree as can be. What about you? Something you wanna get off your chest?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Man, your desk is just loaded with neat stuff. Hehehe, ain't never a dull moment in your office~|I'm like a human shredder, tearing paperwork you don't wanna do into ribbons... Hmm. You sure you can still manage with this amount?|It's not so bad doing the same task all day when you've got someone to vibe with~|Heard Strasser sat Heinrich down and made her read a book for once. Maybe I should find something to read before bedtime."
+			}
+		},
 		touch = {
 			{
 				1100,
 				"I was thinking I'd do something fun with you before today's training. Yeah, THAT kinda fun."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You've really got a, uh, keen interest in women's bodies."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"You down to hang out with me today? Ah, right, you've got work... Tell you what, I'll help you with it. First order of business: putting a smile on your face~"
 			}
 		}
 	}
@@ -29935,6 +29970,336 @@ end)()
 			{
 				1100,
 				"It was always my dream to conquer all I laid my eyes upon. However, I have now found a magnificent dream that will bring me even greater satisfaction. That's right. It is to carve the name of Marco Polo onto everything you do and accomplish!"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[499110] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 499110,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Your breath, body temperature, heartbeat... Dragonspeaker, you truly mesmerize me. May I lie on top of you? Can I give you a little nibble? Don't worry, I'll be careful. I wouldn't want to break you, after all~♪"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"The Dragonspeaker and Max Immelmann – Let our names resound across these skies!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back. Here, take this. These flowers are a token of my feelings... They're different from the last ones I gave you? Well of course. It's a surprise! It wouldn't be a surprise if they're the same~"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Which piece of clothing should I slice up this time~?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Want me to help you out with anything? All it'll cost you is one kiss. Ahaha~♪|Before I met you, I never thought being alone was a particularly painful thing... Dragonspeaker, you changed me. So, please don't leave me alone too much, okay? Please and thank you~♪|Hmph... this book says that it's customary to say \"I love you\" every day and give roses to humans you love... \"Old-fashioned,\" you say? I think it's quite romantic.|Steel wings and a fiery breath are not enough to conquer the skies. A variety of supportive equipment is also required, including that coffee machine of yours... In other words, I've learned how to use everything~♪ Now then, how about trying some of the coffee I brewed?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Oh? Have you finally grasped the importance of doing things one step at a time?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"...Grab me from behind. Hurry~♥"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Come to think of it... A great dragon roused from its long slumber is the one who needs care and pampering. Won't you give some care and affection tonight... Dragonspeaker?♪"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[1299010] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 1299010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, whenever you open this door, I shall always be waiting for you – this is a harbor you can always dock in."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Victory is ours. May I celebrate this moment in your warm embrace?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander. Just lean against me and rest awhile – Shh, don't be in such in a hurry. Just come closer... yes, a bit more, just like that... Make yourself at ease. I'll always be here for you."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Yes, I'm right here with you."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, let me see your hand. Now... close your eyes, and follow my chant... Let your burdens melt away. Feel the pulsating ruby in your heart.|I've started to develop a habit – every time I hear footsteps, I can't help but wonder if it's you...|The ore goes to the factory, the fur goes to the frigid north... Every shipment has a place where it belongs. I'm simply helping them find the way.|Commander, will you listen to my song? In this song, I am a dream that offers you solace, the one always awaiting your return, and a presence who will always keep you in her thoughts."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"The ruby will sulk if you simply give it a few pats every now and then, you know~?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ahhn... Is this ruby... that fascinating to you?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"A harbor is a cycle of greetings and partings. Cargo and ships come and go, yet there was never a moment where I thought something would stay with me forever – until I met you."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[299060] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		id = 299060,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"No matter how long we are apart, know this: I shall always be waiting for your return."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Please do as I say and return to the safe house to rest. I shall stay up and be by your side."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Are you going to assign me a mission? If not, then please continue..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Completing my missions too quickly means I cannot spend as much time by your side. And yet, it isn't right that I prolong them unnecessarily either... I must find the perfect pace.|I have never looked at you from this angle before, Commander... Ahem. Do you have any plans after today's mission? Would you like to go and see a film with me?|There is a delicious curry among the meal pouches we received recently. Would you like to have some with me?|If crime would give me wings to reach you, I would – Oh, don't do that? Alright."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Do you have instructions for me? Please whisper them into my ear so they don't leak."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"I have assembled a list of missions, Commander. Could you make a decision as to where to start?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You have transmitted to me both your feelings and your warmth. I shall respond with my own..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I shan't waste a single minute, a single second, of my life as long as we are together. Allow me to devote my whole self to serve, protect, and love you."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[399080] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 399080,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"While you were away, I decorated your office with my threads.... Heehee, don't worry. It's only what is needed to build our nest. When I miss you, however, the threads might get a little anxious...♡"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back to the nest~ Now then, let my threads clean away some of this worldly dust that has gotten stuck onto you... little by little, until you become mine alone~♥"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Ahh... it's like I'm in paradise... let me indulge in this moment a bit longer~♡"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I have never revealed the location of the cavern in which I cultivated my skills to anyone else... but if you wish to leave the worldly realm behind, I can guide you there, and we can find peace together.|Mmfh... If I leave my scent on your arm, up to your neck... then, my very being will be etched upon your body~|Gift-giving is the act of forging bonds. Nest-building is the act of weaving destiny. And I have already sewn my very being into threads, threads that have woven their way into the gaps of your life... In other words, we are now bound by unbreakable karmic ties~♪|Ehehe... Just a little more, and it'll soon be finished... A perfect nest for the two of us, drenched in love-soaked threads~♥"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"The place you just touched... throbs with pain and pleasure alike... Ahahaha~♥"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ahh, what an intoxicating aroma... I simply can't resist the urge to taste you~♥"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Now matter how much affection others may have towards you, I want you to only have eyes for me. Indeed, you are my implacable obsession, the nectar that quenches my thirst... I want your gaze and your warmth to snuff out my breath~♥"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[899050] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 899050,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Thanks to you, I'm able to endure this boring job... Now that you've seen how hard I'm working, how about a stroll with me afterwards?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"...You're not hurt, are you? If you don't absolutely have to go, send me out instead. You don't have to leap into danger yourself every time..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Is it break time already? Huh, work seems to fly by these days for whatever reason..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Ahem... Yaaay! I just cleared a no-damage hardcore run, the fastest time in the whole port! (I was loud enough for the Commander to hear me for sure, right...?)|...Remember to stay hydrated. (If I show my considerate side like this, then the Commander is sure to feel warm and fuzzy all day!)|Here, I made some food for you. (I secretly learned how to make fried rice the other day... If you like it, I'll make it for you every day.)|...You'll be out for business for a few days, so you want me to behave myself? ...That's your way of saying hello to me? ...Well, whatever. Have fun. Doesn't bother me at all... (Ohmygod it bothers me so much...)"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"...... (Commander's trying to get my attention... Am I about to be asked out on a date?! Umm... what's the best way of saying yes...?!)"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"*sigh*... If you're going to touch me, you might as well use both hands... It'll be more efficient that way..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I want more of you. I want more of your love... Hey, if I hold you tight like this... would you give me your everything?"
 			}
 		}
 	}

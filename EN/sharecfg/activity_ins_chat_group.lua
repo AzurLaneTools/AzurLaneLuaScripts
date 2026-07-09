@@ -339,7 +339,10 @@ pg.activity_ins_chat_group.all = {
 	334,
 	335,
 	336,
-	337
+	337,
+	341,
+	342,
+	343
 }
 pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 	[101] = {
@@ -504,6 +507,11 @@ pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 		114,
 		115,
 		116
+	},
+	[29905] = {
+		341,
+		342,
+		343
 	},
 	[30116] = {
 		284,
@@ -14973,6 +14981,126 @@ end)()
 			10094,
 			10095,
 			10096
+		}
+	}
+	pg.base.activity_ins_chat_group[341] = {
+		ship_group = 29905,
+		name = "Perfect Cleanliness",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
+		id = 341,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			10172,
+			10173,
+			10174,
+			10175,
+			10176,
+			10177,
+			10178,
+			10179,
+			10180,
+			10181,
+			10182,
+			10183,
+			10184,
+			10185,
+			10186,
+			10187,
+			10188,
+			10189,
+			10190,
+			10191,
+			10192,
+			10193,
+			10194,
+			10195,
+			10196
+		}
+	}
+	pg.base.activity_ins_chat_group[342] = {
+		ship_group = 29905,
+		name = "The Arithmetic of Happiness",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
+		id = 342,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			10197,
+			10198,
+			10199,
+			10200,
+			10201,
+			10202,
+			10203,
+			10204,
+			10205,
+			10206,
+			10207,
+			10208,
+			10209,
+			10210,
+			10211,
+			10212,
+			10213,
+			10214,
+			10215,
+			10216,
+			10217,
+			10218,
+			10219,
+			10220,
+			10221,
+			10222,
+			10223,
+			10224,
+			10225,
+			10226,
+			10227,
+			10228,
+			10229,
+			10230,
+			10231,
+			10232
+		}
+	}
+	pg.base.activity_ins_chat_group[343] = {
+		ship_group = 29905,
+		name = "Break Time",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
+		id = 343,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			10233,
+			10234,
+			10235,
+			10236,
+			10237,
+			10238,
+			10239,
+			10240,
+			10241,
+			10242,
+			10243,
+			10244,
+			10245,
+			10246,
+			10247,
+			10248,
+			10249,
+			10250,
+			10251,
+			10252,
+			10253,
+			10254,
+			10255,
+			10256,
+			10257,
+			10258
 		}
 	}
 end)()

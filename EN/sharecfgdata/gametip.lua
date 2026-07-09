@@ -5305,6 +5305,11 @@ _G.pg.base.gametip.levelScene_activate_remaster = {
 }
 
 
+_G.pg.base.gametip.levelScene_activate_remaster_1 = {
+	tip = "Unlocking this stage requires <color=#ffde38>1 Data Key</color>.\nWould you like to unlock this stage?"
+}
+
+
 _G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "You do not have enough Data Keys."
 }
@@ -5321,10 +5326,10 @@ _G.pg.base.gametip.levelScene_remaster_help_tip = {
 			info = "- Data Keys Info -\n· You can use Data Keys to play on event stages found on the War Archives screen.\n· Any progress you've made on an event stage prior to its addition to the War Archives does not carry over."
 		},
 		{
-			info = "\n· You can acquire <color=#92fc63>4</color> Data Keys a day from the War Archives menu."
+			info = "\n· You can acquire <color=#92fc63>20</color> Data Keys a day from the War Archives menu."
 		},
 		{
-			info = "· You can store up to <color=#92fc63>60</color> Data Keys at a time. Any Data Keys you collect beyond this point will be <color=#92fc63>discarded</color>."
+			info = "· You can store up to <color=#92fc63>300</color> Data Keys at a time. Any Data Keys you collect beyond this point will be <color=#92fc63>discarded</color>."
 		},
 		{
 			info = "· Using 1 Data Key lets you do <color=#92fc63>1 run</color> on any archived event stage of your choosing."
@@ -7161,6 +7166,11 @@ _G.pg.base.gametip.word_shipNation_danmachi = {
 
 _G.pg.base.gametip.word_shipNation_dal = {
 	tip = "Date A Live"
+}
+
+
+_G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
+	tip = "Liga de Pedrería"
 }
 
 
@@ -12988,12 +12998,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Strasbourg, Dupleix added to standard build pool!"
+	tip = "Kursk and Sevastopol added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "L'Audacieux added to standard build pool!"
+	tip = "Voroshilov added to standard build pool!"
 }
 
 
@@ -15042,6 +15052,71 @@ Equipment: <color=#92fc63>
 Prototype Triple 283mm/54.5 Main Gun Mount
 Twin 100mm Type 98 Kai High-Angle Gun Mount
 Twin 57mm/L60 Bofors Mle 1951 AA Gun Mount
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_29906 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
+Equipment: <color=#92fc63>
+Prototype 406mm SK C/34 Main Gun Mount
+Twin 150mm TbtsK C/36 Main Gun Mount
+Prototype Quadruple 30mm AA Gun Mount
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_129901 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
+Equipment: <color=#92fc63>
+Twin 381mm Main Gun Mount
+Prototype Twin 127mm Mk16 Dual-Purpose Gun Mount
+Twin 76mm RF Mk 37 Gun Mount
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39908 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
+Equipment: <color=#92fc63>
+Prototype Triple 150mm Type 5 High-Angle Gun Mount
+Prototype Quadruple 610mm Cruiser Torpedo Mount
+Twin 100mm AA Gun Mount
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89905 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
+Equipment: <color=#92fc63>
+Prototype Twin 127mm Mle 1948 Naval Gun
+550mm Triple Torpedo Mount
+Twin 57mm/L60 Bofors Mle 1951 AA Gun Mount
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49911 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
+Equipment: <color=#92fc63>
+Prototype Carrier-Based La-9
+Prototype Carrier-Based Ta 152 C-1/R14
+Prototype Carrier-Based La-9
 </color></size>]]
 }
 
@@ -49725,6 +49800,16 @@ _G.pg.base.gametip.island_mecha_task_progress = {
 
 _G.pg.base.gametip.island_mecha_task_lock_tip = {
 	tip = "Unlocks on $1/$2"
+}
+
+
+_G.pg.base.gametip.bossrush_act_remaster_close_prev_one_tip = {
+	tip = "Would you like to unlock this War Archive? The currently-open War Archives file will be closed."
+}
+
+
+_G.pg.base.gametip.charge_title_getskin = {
+	tip = "随机获得一件全新换装"
 }
 
 

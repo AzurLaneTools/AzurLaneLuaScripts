@@ -782,6 +782,10 @@ slot0.updateMod = function(slot0)
 		return
 	end
 
+	if not slot0.contextData.shipBluePrintVO or not slot1:isUnlock() or not slot1:isFetched() then
+		return
+	end
+
 	slot0:updateModPanel()
 	slot0:updateModAdditionPanel()
 end

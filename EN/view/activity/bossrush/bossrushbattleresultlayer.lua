@@ -438,6 +438,10 @@ end
 slot0.willExit = function(slot0)
 	slot0:UnOverlayPanel(slot0._tf)
 	slot0.loader:Clear()
+
+	if slot0.contextData.OnClose then
+		slot0.contextData.OnClose()
+	end
 end
 
 return slot0
