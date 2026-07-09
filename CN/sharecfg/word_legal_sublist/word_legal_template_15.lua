@@ -199,6 +199,54 @@ end
 temp()
 
 temp = function()
+	uv0["邓"] = {
+		["肯"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["狒"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["瓦"] = {
+		["尔"] = {
+			["帕"] = {
+				["莱"] = {
+					["索"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["暴"] = {
+		["风"] = {
+			["雨"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["幻"] = {
 		["想"] = {
 			["号"] = {
@@ -426,57 +474,6 @@ temp = function()
 					this = true
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["湊"] = {
-		["阿"] = {
-			["库"] = {
-				["娅"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["紫"] = {
-		["咲"] = {
-			["诗"] = {
-				["音"] = {
-					this = true
-				}
-			}
-		},
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["穗"] = {
-		["香"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["凪"] = {
-		["咲"] = {
-			this = true
 		}
 	}
 end

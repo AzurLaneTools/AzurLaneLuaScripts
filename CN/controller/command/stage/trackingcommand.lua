@@ -25,37 +25,38 @@ slot0.execute = function(slot0, slot1)
 	slot10.loopFlag = slot6
 	slot11 = slot9:getMapById(slot10:getConfig("map"))
 	slot12 = slot9:GetContinuousData(SYSTEM_SCENARIO)
-	slot13 = nil
+	slot13 = slot9:getRemasterTicketCost()
+	slot14 = nil
 
 	seriesAsync({
 		function (slot0)
-			if uv0:isRemaster() and uv1.remasterTickets <= 0 then
+			if uv0:isRemaster() and uv1.remasterTickets < uv2 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_tickets_not_enough"))
-				uv2:sendNotification(GAME.TRACKING_ERROR, {
-					chapter = uv3
+				uv3:sendNotification(GAME.TRACKING_ERROR, {
+					chapter = uv4
 				})
 
 				return
 			end
 
-			if uv0:isActivity() and not uv0:isRemaster() and not uv3:inActTime() then
+			if uv0:isActivity() and not uv0:isRemaster() and not uv4:inActTime() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_close"))
-				uv2:sendNotification(GAME.TRACKING_ERROR, {
-					chapter = uv3
+				uv3:sendNotification(GAME.TRACKING_ERROR, {
+					chapter = uv4
 				})
 
 				return
 			end
 
-			if uv3:isTriesLimit() and not uv3:enoughTimes2Start() then
-				if uv3:IsSpChapter() then
+			if uv4:isTriesLimit() and not uv4:enoughTimes2Start() then
+				if uv4:IsSpChapter() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("sp_no_quota"))
 				else
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
 				end
 
-				uv2:sendNotification(GAME.TRACKING_ERROR, {
-					chapter = uv3
+				uv3:sendNotification(GAME.TRACKING_ERROR, {
+					chapter = uv4
 				})
 
 				return
@@ -65,17 +66,17 @@ slot0.execute = function(slot0, slot1)
 
 			if uv0:getMapType() == Map.ELITE and not slot1:IsEliteEnabled() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
-				uv2:sendNotification(GAME.TRACKING_ERROR, {
-					chapter = uv3
+				uv3:sendNotification(GAME.TRACKING_ERROR, {
+					chapter = uv4
 				})
 
 				return
 			end
 
-			if uv3.active then
+			if uv4.active then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_strategying"))
-				uv2:sendNotification(GAME.TRACKING_ERROR, {
-					chapter = uv3
+				uv3:sendNotification(GAME.TRACKING_ERROR, {
+					chapter = uv4
 				})
 
 				return
@@ -83,8 +84,8 @@ slot0.execute = function(slot0, slot1)
 
 			if uv0:isEscort() and uv1:getMaxEscortChallengeTimes() <= uv1.escortChallengeTimes then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("escort_less_count_to_combat"))
-				uv2:sendNotification(GAME.TRACKING_ERROR, {
-					chapter = uv3
+				uv3:sendNotification(GAME.TRACKING_ERROR, {
+					chapter = uv4
 				})
 
 				return
@@ -177,7 +178,7 @@ slot0.execute = function(slot0, slot1)
 			if uv0:isRemaster() and PlayerPrefs.GetString("remaster_tip") ~= pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d") and (not uv1 or uv1:IsFirstBattle()) then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					showStopRemind = true,
-					content = i18n("levelScene_activate_remaster"),
+					content = i18n("levelScene_activate_remaster_1", getProxy(ChapterProxy):getRemasterTicketCost()),
 					onYes = function ()
 						if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
 							PlayerPrefs.SetString("remaster_tip", pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d"))
@@ -326,7 +327,7 @@ slot0.sendProto = function(slot0)
 			end
 
 			if slot3:isRemaster() then
-				slot1.remasterTickets = slot1.remasterTickets - 1
+				slot1:updateRemasterTicketsNum(slot1.remasterTickets - slot1:getRemasterTicketCost())
 			end
 
 			if slot1:GetContinuousData(SYSTEM_SCENARIO) then

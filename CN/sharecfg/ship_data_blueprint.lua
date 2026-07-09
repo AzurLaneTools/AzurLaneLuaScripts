@@ -44,7 +44,12 @@ pg.ship_data_blueprint.all = {
 	49910,
 	69903,
 	79903,
-	119901
+	119901,
+	29906,
+	39908,
+	49911,
+	89905,
+	129901
 }
 pg.base = pg.base or {}
 pg.base.ship_data_blueprint = {}
@@ -3039,7 +3044,9 @@ pg.base.ship_data_blueprint = {}
 			100,
 			100
 		},
-		gain_item_id = {}
+		gain_item_id = {
+			40145
+		}
 	}
 	pg.base.ship_data_blueprint[49908] = {
 		unlock_word = "铁血阵营科技点数达到<color=#92fc63>850</color>",
@@ -3141,7 +3148,9 @@ pg.base.ship_data_blueprint = {}
 			100,
 			100
 		},
-		gain_item_id = {}
+		gain_item_id = {
+			40145
+		}
 	}
 	pg.base.ship_data_blueprint[49909] = {
 		unlock_word = "铁血阵营科技点数达到<color=#92fc63>950</color>",
@@ -3335,7 +3344,9 @@ pg.base.ship_data_blueprint = {}
 			100,
 			100
 		},
-		gain_item_id = {}
+		gain_item_id = {
+			40145
+		}
 	}
 	pg.base.ship_data_blueprint[19905] = {
 		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>950</color>",
@@ -4286,5 +4297,461 @@ pg.base.ship_data_blueprint = {}
 		normal_display = {
 			"空袭航空属性Lv.1"
 		}
+	}
+	pg.base.ship_data_blueprint[29906] = {
+		unlock_word = "皇家阵营科技点数达到<color=#92fc63>700</color>",
+		name = "邓肯",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
+		simulate_dungeon = 9943,
+		luck_story = "",
+		strengthen_item = 42081,
+		blueprint_version = 9,
+		id = 29906,
+		unlock_task_open_condition = {
+			60431
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60432,
+				0
+			},
+			{
+				60433,
+				86400
+			},
+			{
+				60434,
+				172800
+			},
+			{
+				60435,
+				259200
+			},
+			{
+				60436,
+				345600
+			},
+			{
+				60437,
+				432000
+			},
+			{
+				60438,
+				518400
+			},
+			{
+				60439,
+				518400
+			}
+		},
+		strengthen_effect = {
+			4301,
+			4302,
+			4303,
+			4304,
+			4305,
+			4306,
+			4307,
+			4308,
+			4309,
+			4310,
+			4311,
+			4312,
+			4313,
+			4314,
+			4315,
+			4316,
+			4317,
+			4318,
+			4319,
+			4320,
+			4321,
+			4322,
+			4323,
+			4324,
+			4325,
+			4326,
+			4327,
+			4328,
+			4329,
+			4330
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	}
+	pg.base.ship_data_blueprint[39908] = {
+		unlock_word = "重樱阵营科技点数达到<color=#92fc63>1000</color>",
+		name = "高梁",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
+		simulate_dungeon = 9944,
+		luck_story = "",
+		strengthen_item = 42082,
+		blueprint_version = 9,
+		id = 39908,
+		unlock_task_open_condition = {
+			60441
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60442,
+				0
+			},
+			{
+				60443,
+				86400
+			},
+			{
+				60444,
+				172800
+			},
+			{
+				60445,
+				259200
+			},
+			{
+				60446,
+				345600
+			},
+			{
+				60447,
+				432000
+			},
+			{
+				60448,
+				518400
+			},
+			{
+				60449,
+				518400
+			}
+		},
+		strengthen_effect = {
+			4401,
+			4402,
+			4403,
+			4404,
+			4405,
+			4406,
+			4407,
+			4408,
+			4409,
+			4410,
+			4411,
+			4412,
+			4413,
+			4414,
+			4415,
+			4416,
+			4417,
+			4418,
+			4419,
+			4420,
+			4421,
+			4422,
+			4423,
+			4424,
+			4425,
+			4426,
+			4427,
+			4428,
+			4429,
+			4430
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	}
+	pg.base.ship_data_blueprint[49911] = {
+		unlock_word = "铁血阵营科技点数达到<color=#92fc63>1050</color>",
+		name = "马克斯·殷麦曼",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
+		simulate_dungeon = 9945,
+		luck_story = "",
+		strengthen_item = 42083,
+		blueprint_version = 9,
+		id = 49911,
+		unlock_task_open_condition = {
+			60451
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60452,
+				0
+			},
+			{
+				60453,
+				86400
+			},
+			{
+				60454,
+				172800
+			},
+			{
+				60455,
+				259200
+			},
+			{
+				60456,
+				345600
+			},
+			{
+				60457,
+				432000
+			},
+			{
+				60458,
+				518400
+			},
+			{
+				60459,
+				518400
+			}
+		},
+		strengthen_effect = {
+			4501,
+			4502,
+			4503,
+			4504,
+			4505,
+			4506,
+			4507,
+			4508,
+			4509,
+			4510,
+			4511,
+			4512,
+			4513,
+			4514,
+			4515,
+			4516,
+			4517,
+			4518,
+			4519,
+			4520,
+			4521,
+			4522,
+			4523,
+			4524,
+			4525,
+			4526,
+			4527,
+			4528,
+			4529,
+			4530
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	}
+	pg.base.ship_data_blueprint[89905] = {
+		unlock_word = "自由鸢尾阵营科技点数达到<color=#92fc63>280</color>",
+		name = "暴风雨",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
+		simulate_dungeon = 9946,
+		luck_story = "",
+		strengthen_item = 42084,
+		blueprint_version = 9,
+		id = 89905,
+		unlock_task_open_condition = {
+			60461
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60462,
+				0
+			},
+			{
+				60463,
+				86400
+			},
+			{
+				60464,
+				172800
+			},
+			{
+				60465,
+				259200
+			},
+			{
+				60466,
+				345600
+			},
+			{
+				60467,
+				432000
+			},
+			{
+				60468,
+				518400
+			},
+			{
+				60469,
+				518400
+			}
+		},
+		strengthen_effect = {
+			4601,
+			4602,
+			4603,
+			4604,
+			4605,
+			4606,
+			4607,
+			4608,
+			4609,
+			4610,
+			4611,
+			4612,
+			4613,
+			4614,
+			4615,
+			4616,
+			4617,
+			4618,
+			4619,
+			4620,
+			4621,
+			4622,
+			4623,
+			4624,
+			4625,
+			4626,
+			4627,
+			4628,
+			4629,
+			4630
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
+	}
+	pg.base.ship_data_blueprint[129901] = {
+		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>950</color>、皇家阵营科技点数达到<color=#92fc63>1000</color>",
+		name = "瓦尔帕莱索",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
+		simulate_dungeon = 9947,
+		luck_story = "",
+		strengthen_item = 42085,
+		blueprint_version = 9,
+		id = 129901,
+		unlock_task_open_condition = {
+			60470,
+			60471
+		},
+		change_skill = {},
+		unlock_task = {
+			{
+				60472,
+				0
+			},
+			{
+				60473,
+				86400
+			},
+			{
+				60474,
+				172800
+			},
+			{
+				60475,
+				259200
+			},
+			{
+				60476,
+				345600
+			},
+			{
+				60477,
+				432000
+			},
+			{
+				60478,
+				518400
+			},
+			{
+				60479,
+				518400
+			}
+		},
+		strengthen_effect = {
+			4701,
+			4702,
+			4703,
+			4704,
+			4705,
+			4706,
+			4707,
+			4708,
+			4709,
+			4710,
+			4711,
+			4712,
+			4713,
+			4714,
+			4715,
+			4716,
+			4717,
+			4718,
+			4719,
+			4720,
+			4721,
+			4722,
+			4723,
+			4724,
+			4725,
+			4726,
+			4727,
+			4728,
+			4729,
+			4730
+		},
+		fate_strengthen = {},
+		attr_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		gain_item_id = {}
 	}
 end)()

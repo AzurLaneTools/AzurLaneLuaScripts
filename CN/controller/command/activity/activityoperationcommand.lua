@@ -58,6 +58,15 @@ slot0.execute = function(slot0, slot1)
 
 				return true
 			end
+		end,
+		[ActivityConst.ACTIVITY_TYPE_TIMES_FAKE_PACKAGE] = function ()
+			slot0 = uv0.costDrop
+
+			if slot0:getOwnedCount() < slot0.count then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
+
+				return true
+			end
 		end
 	}) then
 		return
@@ -711,6 +720,11 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 
 			reducePlayerOwn(uv1.costDrop)
 		end,
+		[ActivityConst.ACTIVITY_TYPE_TIMES_FAKE_PACKAGE] = function ()
+			uv0.data1 = uv0.data1 + 1
+
+			reducePlayerOwn(uv1.costDrop)
+		end,
 		[ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_UP] = function ()
 			uv0:SetTargetGroupId(uv1.arg1)
 			uv0:AddChangeCount()
@@ -858,6 +872,10 @@ slot0.performance = function(slot0, slot1, slot2, slot3, slot4)
 				end
 			end,
 			[ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE] = function ()
+				getProxy(ActivityProxy):updateActivity(uv0)
+				uv1:sendNotification(NewShopMainMediator.NOTI_UPDATE_CURRENT)
+			end,
+			[ActivityConst.ACTIVITY_TYPE_TIMES_FAKE_PACKAGE] = function ()
 				getProxy(ActivityProxy):updateActivity(uv0)
 				uv1:sendNotification(NewShopMainMediator.NOTI_UPDATE_CURRENT)
 			end

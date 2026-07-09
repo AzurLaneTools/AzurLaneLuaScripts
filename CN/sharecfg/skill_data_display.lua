@@ -2299,6 +2299,7 @@ pg.skill_data_display.all = {
 	19981,
 	19986,
 	19993,
+	190041,
 	20007,
 	20011,
 	20012,
@@ -3229,6 +3230,23 @@ pg.skill_data_display.all = {
 	190011,
 	190012,
 	190013,
+	190061,
+	190071,
+	190081,
+	190082,
+	190091,
+	190112,
+	190121,
+	190131,
+	190133,
+	190134,
+	190136,
+	190138,
+	190139,
+	190141,
+	190142,
+	190143,
+	190152,
 	200026,
 	200203,
 	600031,
@@ -4124,7 +4142,12 @@ pg.skill_data_display.all = {
 	1090481,
 	1090482,
 	1090483,
-	1090484
+	1090484,
+	1090491,
+	1090492,
+	1090493,
+	1090494,
+	1090495
 }
 pg.base = pg.base or {}
 pg.base.skill_data_display = {}
@@ -13354,6 +13377,10 @@ end)()
 		id = 19993,
 		name = "以坚挫锐"
 	}
+	pg.base.skill_data_display[190041] = {
+		id = 190041,
+		name = "激荡苍穹之影"
+	}
 	pg.base.skill_data_display[20007] = {
 		id = 20007,
 		name = "蓄能爆发"
@@ -13370,12 +13397,12 @@ end)()
 		id = 20021,
 		name = "全弹发射I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[20022] = {
 		id = 20022,
 		name = "全弹发射II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[20031] = {
 		id = 20031,
 		name = "全弹发射I"
@@ -13772,12 +13799,12 @@ end)()
 		id = 22112,
 		name = "全弹发射II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[22121] = {
 		id = 22121,
 		name = "全弹发射I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[22122] = {
 		id = 22122,
 		name = "全弹发射II"
@@ -14174,12 +14201,12 @@ end)()
 		id = 28031,
 		name = "全弹发射I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[28032] = {
 		id = 28032,
 		name = "全弹发射II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[28111] = {
 		id = 28111,
 		name = "全弹发射I"
@@ -14576,12 +14603,12 @@ end)()
 		id = 29442,
 		name = "专属弹幕-棘鳍II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[29451] = {
 		id = 29451,
 		name = "专属弹幕-克利夫兰(μ兵装)I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[29452] = {
 		id = 29452,
 		name = "专属弹幕-克利夫兰(μ兵装)II"
@@ -14978,12 +15005,12 @@ end)()
 		id = 30421,
 		name = "专属弹幕-巴拉卡少校I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[30422] = {
 		id = 30422,
 		name = "专属弹幕-巴拉卡少校II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[30431] = {
 		id = 30431,
 		name = "专属弹幕-圣塔菲I"
@@ -15380,12 +15407,12 @@ end)()
 		id = 105062,
 		name = "天使之音—防御"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[105063] = {
 		id = 105063,
 		name = "天使之音—机动"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[105064] = {
 		id = 105064,
 		name = "天使之音—命中"
@@ -15782,12 +15809,12 @@ end)()
 		id = 106490,
 		name = "伊莉丝的战术指导"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[106491] = {
 		id = 106491,
 		name = "伊莉丝的战术指导"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[106501] = {
 		id = 106501,
 		name = "讲师的责任"
@@ -16184,12 +16211,12 @@ end)()
 		id = 108454,
 		name = "那什么光线！ +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[109010] = {
 		id = 109010,
 		name = "闪光爆裂"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[109011] = {
 		id = 109011,
 		name = "闪光爆裂"
@@ -16586,12 +16613,12 @@ end)()
 		id = 111074,
 		name = "异星植物伙伴"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[111081] = {
 		id = 111081,
 		name = "异星植物伙伴 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[111084] = {
 		id = 111084,
 		name = "异星植物伙伴 +"
@@ -16988,12 +17015,12 @@ end)()
 		id = 115091,
 		name = "束缚者"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[115092] = {
 		id = 115092,
 		name = "贯穿者"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[115093] = {
 		id = 115093,
 		name = "天际疾驰者"
@@ -17093,6 +17120,74 @@ end)()
 	pg.base.skill_data_display[190013] = {
 		id = 190013,
 		name = "凛冬生存准则"
+	}
+	pg.base.skill_data_display[190061] = {
+		id = 190061,
+		name = "风暴将至"
+	}
+	pg.base.skill_data_display[190071] = {
+		id = 190071,
+		name = "无畏风暴"
+	}
+	pg.base.skill_data_display[190081] = {
+		id = 190081,
+		name = "清扫任务开始"
+	}
+	pg.base.skill_data_display[190082] = {
+		id = 190082,
+		name = "清扫任务开始"
+	}
+	pg.base.skill_data_display[190091] = {
+		id = 190091,
+		name = "专业特工的从容"
+	}
+	pg.base.skill_data_display[190112] = {
+		id = 190112,
+		name = "晶焰归航之诗"
+	}
+	pg.base.skill_data_display[190121] = {
+		id = 190121,
+		name = "宝石治愈之歌"
+	}
+	pg.base.skill_data_display[190131] = {
+		id = 190131,
+		name = "Capture Web"
+	}
+	pg.base.skill_data_display[190133] = {
+		id = 190133,
+		name = "Capture Web"
+	}
+	pg.base.skill_data_display[190134] = {
+		id = 190134,
+		name = "Capture Web"
+	}
+	pg.base.skill_data_display[190136] = {
+		id = 190136,
+		name = "Capture Web"
+	}
+	pg.base.skill_data_display[190138] = {
+		id = 190138,
+		name = "Capture Web"
+	}
+	pg.base.skill_data_display[190139] = {
+		id = 190139,
+		name = "Capture Web"
+	}
+	pg.base.skill_data_display[190141] = {
+		id = 190141,
+		name = "石窟的蜘蛛巢"
+	}
+	pg.base.skill_data_display[190142] = {
+		id = 190142,
+		name = "石窟的蜘蛛巢"
+	}
+	pg.base.skill_data_display[190143] = {
+		id = 190143,
+		name = "石窟的蜘蛛巢"
+	}
+	pg.base.skill_data_display[190152] = {
+		id = 190152,
+		name = "宝石治愈之歌"
 	}
 	pg.base.skill_data_display[200026] = {
 		id = 200026,
@@ -17322,6 +17417,8 @@ end)()
 		id = 800030,
 		name = "荣光之锋"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800031] = {
 		id = 800031,
 		name = "荣光之锋"
@@ -17394,8 +17491,6 @@ end)()
 		id = 800091,
 		name = "烬火鹰翼"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800092] = {
 		id = 800092,
 		name = "烬火鹰翼"
@@ -17724,6 +17819,8 @@ end)()
 		id = 800500,
 		name = "殇视之剑"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800501] = {
 		id = 800501,
 		name = "殇视之剑"
@@ -17796,8 +17893,6 @@ end)()
 		id = 800653,
 		name = "不再哭泣"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800654] = {
 		id = 800654,
 		name = "不再哭泣 +"
@@ -18126,6 +18221,8 @@ end)()
 		id = 801374,
 		name = "雨织雨散II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801390] = {
 		id = 801390,
 		name = "穿云的天斩"
@@ -18198,8 +18295,6 @@ end)()
 		id = 801551,
 		name = "陌路同行"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801561] = {
 		id = 801561,
 		name = "逐光之焰·{namecode:425}I"
@@ -18528,6 +18623,8 @@ end)()
 		id = 902201,
 		name = "幻想之环"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1010140] = {
 		id = 1010140,
 		name = "白鹰之泪 +"
@@ -18600,8 +18697,6 @@ end)()
 		id = 1011592,
 		name = "空域控制 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012670] = {
 		id = 1012670,
 		name = "巨龙之链 +"
@@ -18930,6 +19025,8 @@ end)()
 		id = 200547,
 		name = "陆上神国-I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200548] = {
 		id = 200548,
 		name = "陆上神国-II"
@@ -19002,8 +19099,6 @@ end)()
 		id = 200597,
 		name = "信仰之河"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200619] = {
 		id = 200619,
 		name = "传奇旗舰"
@@ -19332,6 +19427,8 @@ end)()
 		id = 201196,
 		name = "永恒之星"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201197] = {
 		id = 201197,
 		name = "永恒之星"
@@ -19404,8 +19501,6 @@ end)()
 		id = 201378,
 		name = "辉翼狮支援"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201379] = {
 		id = 201379,
 		name = "辉翼狮支援"
@@ -19734,6 +19829,8 @@ end)()
 		id = 1012600,
 		name = "Rose Bombardamento +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012601] = {
 		id = 1012601,
 		name = "Rose Bombardamento +"
@@ -19806,8 +19903,6 @@ end)()
 		id = 1012621,
 		name = "特尔尼之盾 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012622] = {
 		id = 1012622,
 		name = "特尔尼之盾 +"
@@ -20136,6 +20231,8 @@ end)()
 		id = 1010191,
 		name = "复仇打击 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1010192] = {
 		id = 1010192,
 		name = "复仇打击 +"
@@ -20208,8 +20305,6 @@ end)()
 		id = 1012571,
 		name = "随伴之翼 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012572] = {
 		id = 1012572,
 		name = "随伴之翼 +"
@@ -20538,6 +20633,8 @@ end)()
 		id = 1090350,
 		name = "火力全开·{namecode:37}"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090351] = {
 		id = 1090351,
 		name = "便携式落雷制造器"
@@ -20610,8 +20707,6 @@ end)()
 		id = 1090404,
 		name = "战术记录:Schwarz"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090405] = {
 		id = 1090405,
 		name = "战术记录:Ausgewogen"
@@ -20695,5 +20790,25 @@ end)()
 	pg.base.skill_data_display[1090484] = {
 		id = 1090484,
 		name = "袖珍战列舰·{namecode:429}"
+	}
+	pg.base.skill_data_display[1090491] = {
+		id = 1090491,
+		name = "装填号令·彭萨科拉"
+	}
+	pg.base.skill_data_display[1090492] = {
+		id = 1090492,
+		name = "装填号令·彭萨科拉"
+	}
+	pg.base.skill_data_display[1090493] = {
+		id = 1090493,
+		name = "装填号令·彭萨科拉"
+	}
+	pg.base.skill_data_display[1090494] = {
+		id = 1090494,
+		name = "装填号令·彭萨科拉"
+	}
+	pg.base.skill_data_display[1090495] = {
+		id = 1090495,
+		name = "装填号令·彭萨科拉"
 	}
 end)()

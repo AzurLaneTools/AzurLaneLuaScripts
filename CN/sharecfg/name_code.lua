@@ -280,6 +280,7 @@ pg.name_code.all = {
 	310,
 	311,
 	312,
+	313,
 	400,
 	401,
 	402,
@@ -445,6 +446,8 @@ pg.name_code.all = {
 	561,
 	562,
 	564,
+	565,
+	566,
 	10000,
 	10001,
 	10002,
@@ -2401,6 +2404,13 @@ end)()
 		code = "貘",
 		nation = 0
 	}
+	pg.base.name_code[313] = {
+		name = "高梁",
+		type = 1,
+		id = 313,
+		code = "狒 ",
+		nation = 0
+	}
 	pg.base.name_code[400] = {
 		name = "Z1",
 		type = 1,
@@ -2555,6 +2565,8 @@ end)()
 		code = "阿尔伯缇娜",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[422] = {
 		name = "卡尔斯鲁厄",
 		type = 1,
@@ -2562,8 +2574,6 @@ end)()
 		code = "夏璐尔",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[423] = {
 		name = "科隆",
 		type = 1,
@@ -3257,6 +3267,8 @@ end)()
 		code = "希尔德加德",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[522] = {
 		name = "旗风·META",
 		type = 1,
@@ -3264,8 +3276,6 @@ end)()
 		code = "樋·META",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[523] = {
 		name = "让·巴尔",
 		type = 1,
@@ -3558,6 +3568,20 @@ end)()
 		type = 1,
 		id = 564,
 		code = "贝格海姆",
+		nation = 0
+	}
+	pg.base.name_code[565] = {
+		name = "马克斯·殷麦曼",
+		type = 1,
+		id = 565,
+		code = "玛克西米莉安·伊梅拉 ",
+		nation = 0
+	}
+	pg.base.name_code[566] = {
+		name = "马克斯·远古的钢铁之龙·长生的天空主宰·殷麦曼",
+		type = 1,
+		id = 566,
+		code = "玛克西米莉安·远古的钢铁之龙·长生的天空主宰·伊梅拉 ",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {

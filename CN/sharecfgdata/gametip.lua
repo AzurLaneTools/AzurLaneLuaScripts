@@ -4633,6 +4633,11 @@ _G.pg.base.gametip.levelScene_activate_remaster = {
 }
 
 
+_G.pg.base.gametip.levelScene_activate_remaster_1 = {
+	tip = "进入所选关卡需要消耗<color=#ffde38>档案秘钥x$1</color>，\n是否进入？"
+}
+
+
 _G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "入场券数量不足"
 }
@@ -6467,6 +6472,11 @@ _G.pg.base.gametip.word_shipNation_danmachi = {
 
 _G.pg.base.gametip.word_shipNation_dal = {
 	tip = "Date A Live"
+}
+
+
+_G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
+	tip = "晶环联盟"
 }
 
 
@@ -12525,12 +12535,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "斯特拉斯堡、迪普莱克斯 建造追加！"
+	tip = "库尔斯克、塞瓦斯托波尔 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "果敢 建造追加！"
+	tip = "伏罗希洛夫 建造追加！"
 }
 
 
@@ -14626,6 +14636,71 @@ _G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
 试作型三联装283mm/54.5主炮
 双联100mm98式高射炮改
 双联装57mm/L60博福斯对空机炮Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_29906 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型双联装406mmSKC主炮
+双联装TbtsKC36式150mm主炮
+试作型四联装30mm机炮
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_129901 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+双联装381mm主炮改
+试作型双联装127mm高平两用炮Mk16
+双联装76mmRF火炮Mk37
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39908 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型三联装150mm五式高平两用炮
+试作型四联装610mm鱼雷（巡洋用）
+100mm连装高炮
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89905 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作型双联装127mm主炮Mle1948
+三联装550mm鱼雷
+双联装57mm/L60博福斯对空机炮Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49911 = {
+	tip = [[
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
+试作舰载型La-9
+试作舰载型Ta 152C-1/R14
+试作舰载型La-9
 </color></size>]]
 }
 
@@ -37950,6 +38025,11 @@ _G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
 }
 
 
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_3 = {
+	tip = "聆风之隅 "
+}
+
+
 _G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
 	tip = "今天"
 }
@@ -49490,6 +49570,16 @@ _G.pg.base.gametip.island_mecha_task_lock_tip = {
 }
 
 
+_G.pg.base.gametip.bossrush_act_remaster_close_prev_one_tip = {
+	tip = "确认要开启该档案吗？当前开启的旧档案将关闭"
+}
+
+
+_G.pg.base.gametip.charge_title_getskin = {
+	tip = "随机获得一件全新换装"
+}
+
+
 _G.pg.base.gametip.yearly_sign_in = {
 	tip = "年度累计签到"
 }
@@ -49575,4 +49665,19 @@ _G.pg.base.gametip.dorm3d_gift_overtime = {
 
 _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 	tip = "过期提示"
+}
+
+
+_G.pg.base.gametip.ConsumeGem_tip = {
+	tip = {
+		{
+			info = "远航回礼说明："
+		},
+		{
+			info = "1.活动期间，通过在游戏内消耗钻石，累计达到指定数量，可以在活动页面领取阶段奖励。"
+		},
+		{
+			info = "2.该活动仅消耗钻石生效，商店内的直购礼包不参与活动。"
+		}
+	}
 }

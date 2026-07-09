@@ -28,19 +28,20 @@ slot0.execute = function(slot0, slot1)
 			slot8 = {}
 
 			for slot12, slot13 in pairs(slot2:GetBayShipOnFloor(DormShip.FLOOR_1)) do
-				slot14 = Clone(slot13)
+				slot14 = slot6:getShipById(slot13.id)
+				slot15 = slot6:getShipById(slot13.id)
 
-				if slot13.level ~= slot13:getMaxLevel() then
-					slot13:addExp(slot4)
-					slot6:updateShip(slot13)
+				if slot15.level ~= slot15:getMaxLevel() then
+					slot15:addExp(slot4)
+					slot6:updateShip(slot15)
 					uv0:sendNotification(GAME.BACKYARD_SHIP_EXP_ADDED, {
-						id = slot13.id,
+						id = slot15.id,
 						exp = slot4
 					})
 				end
 
-				slot7[slot13.id] = slot13
-				slot8[slot13.id] = slot14
+				slot7[slot15.id] = slot15
+				slot8[slot14.id] = slot14
 			end
 
 			uv0:sendNotification(DormProxy.SHIPS_EXP_ADDED, {

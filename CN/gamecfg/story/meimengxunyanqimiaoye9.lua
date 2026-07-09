@@ -9,7 +9,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
-			bgName = "star_level_bg_1104",
+			bgName = "star_level_bg_523",
 			bgm = "story-magicalnight-pv",
 			actor = 0,
 			nameColor = "#A9F548FF",
@@ -32,7 +32,7 @@ return {
 		{
 			actor = 0,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_1104",
+			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
@@ -45,7 +45,7 @@ return {
 		{
 			actor = 0,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_1104",
+			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
@@ -58,7 +58,7 @@ return {
 		{
 			actor = 0,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_1104",
+			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
@@ -71,7 +71,7 @@ return {
 		{
 			actor = 0,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_1104",
+			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
@@ -93,10 +93,18 @@ return {
 				speed = 0.05,
 				speedUp = 0.01
 			},
+			flashout = {
+				dur = 1,
+				black = false,
+				alpha = {
+					0,
+					1
+				}
+			},
 			flashin = {
 				dur = 1,
 				black = false,
-				delay = 0,
+				delay = 1,
 				alpha = {
 					1,
 					0

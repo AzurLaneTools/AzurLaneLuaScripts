@@ -164,10 +164,6 @@ slot0.getLimitCount = function(slot0)
 	return 0
 end
 
-slot0.getBuyCount = function(slot0)
-	return slot0.buyCount or 0
-end
-
 slot0.GetDiscountItem = function(slot0)
 	if slot0:IsItemDiscountType() then
 		return SkinCouponActivity.StaticGetItemConfig(slot0.id)

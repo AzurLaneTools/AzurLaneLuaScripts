@@ -4,6 +4,57 @@ slot0.word_legal_template_16 = {}
 slot1 = slot0.word_legal_template_16
 
 temp = function()
+	uv0["湊"] = {
+		["阿"] = {
+			["库"] = {
+				["娅"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["紫"] = {
+		["咲"] = {
+			["诗"] = {
+				["音"] = {
+					this = true
+				}
+			}
+		},
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["穗"] = {
+		["香"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["凪"] = {
+		["咲"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["环"] = {
 		this = {
 			this = true

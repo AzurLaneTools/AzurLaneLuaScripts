@@ -264,6 +264,7 @@ pg.fleet_tech_ship_template.all = {
 	29903,
 	29904,
 	29905,
+	29906,
 	30101,
 	30102,
 	30104,
@@ -420,6 +421,7 @@ pg.fleet_tech_ship_template.all = {
 	39905,
 	39906,
 	39907,
+	39908,
 	40101,
 	40109,
 	40102,
@@ -508,6 +510,7 @@ pg.fleet_tech_ship_template.all = {
 	49908,
 	49909,
 	49910,
+	49911,
 	50101,
 	50102,
 	50103,
@@ -621,6 +624,7 @@ pg.fleet_tech_ship_template.all = {
 	80203,
 	80204,
 	89904,
+	89905,
 	80301,
 	80302,
 	80303,
@@ -662,6 +666,7 @@ pg.fleet_tech_ship_template.all = {
 	110101,
 	110201,
 	119901,
+	129901,
 	960001,
 	960002,
 	960003,
@@ -6113,6 +6118,28 @@ end)()
 			2
 		}
 	}
+	pg.base.fleet_tech_ship_template[29906] = {
+		max_star = 6,
+		pt_level = 39,
+		add_level_attr = 2,
+		pt_upgrage = 52,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 20403,
+		id = 29906,
+		add_get_value = 2,
+		pt_get = 26,
+		add_get_shiptype = {
+			4,
+			5,
+			10
+		},
+		add_level_shiptype = {
+			4,
+			5,
+			10
+		}
+	}
 	pg.base.fleet_tech_ship_template[30101] = {
 		max_star = 5,
 		pt_level = 8,
@@ -6949,6 +6976,8 @@ end)()
 			21
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_template[30158] = {
 		max_star = 5,
 		pt_level = 12,
@@ -6971,8 +7000,6 @@ end)()
 			21
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_template[30159] = {
 		max_star = 5,
 		pt_level = 8,
@@ -9014,6 +9041,8 @@ end)()
 			7
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_template[30717] = {
 		max_star = 6,
 		pt_level = 21,
@@ -9034,8 +9063,6 @@ end)()
 			7
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_template[30801] = {
 		max_star = 6,
 		pt_level = 9,
@@ -9376,6 +9403,24 @@ end)()
 			4,
 			5,
 			10
+		}
+	}
+	pg.base.fleet_tech_ship_template[39908] = {
+		max_star = 6,
+		pt_level = 25,
+		add_level_attr = 3,
+		pt_upgrage = 33,
+		add_get_attr = 4,
+		add_level_value = 1,
+		class = 30208,
+		id = 39908,
+		add_get_value = 1,
+		pt_get = 16,
+		add_get_shiptype = {
+			2
+		},
+		add_level_shiptype = {
+			2
 		}
 	}
 	pg.base.fleet_tech_ship_template[40101] = {
@@ -11060,6 +11105,8 @@ end)()
 			2
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_template[49904] = {
 		max_star = 6,
 		pt_level = 72,
@@ -11104,8 +11151,6 @@ end)()
 			18
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_template[49906] = {
 		max_star = 6,
 		pt_level = 54,
@@ -11212,6 +11257,26 @@ end)()
 			4,
 			5,
 			10
+		}
+	}
+	pg.base.fleet_tech_ship_template[49911] = {
+		max_star = 6,
+		pt_level = 92,
+		add_level_attr = 5,
+		pt_upgrage = 124,
+		add_get_attr = 1,
+		add_level_value = 2,
+		class = 40704,
+		id = 49911,
+		add_get_value = 1,
+		pt_get = 62,
+		add_get_shiptype = {
+			6,
+			7
+		},
+		add_level_shiptype = {
+			6,
+			7
 		}
 	}
 	pg.base.fleet_tech_ship_template[50101] = {
@@ -13106,6 +13171,8 @@ end)()
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_template[70506] = {
 		max_star = 5,
 		pt_level = 48,
@@ -13172,8 +13239,6 @@ end)()
 			10
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_template[70509] = {
 		max_star = 6,
 		pt_level = 66,
@@ -13542,6 +13607,28 @@ end)()
 		},
 		add_level_shiptype = {
 			2
+		}
+	}
+	pg.base.fleet_tech_ship_template[89905] = {
+		max_star = 6,
+		pt_level = 26,
+		add_level_attr = 3,
+		pt_upgrage = 36,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 80105,
+		id = 89905,
+		add_get_value = 1,
+		pt_get = 18,
+		add_get_shiptype = {
+			1,
+			20,
+			21
+		},
+		add_level_shiptype = {
+			1,
+			20,
+			21
 		}
 	}
 	pg.base.fleet_tech_ship_template[80301] = {
@@ -14413,6 +14500,28 @@ end)()
 			18
 		}
 	}
+	pg.base.fleet_tech_ship_template[129901] = {
+		max_star = 6,
+		pt_level = 86,
+		add_level_attr = 8,
+		pt_upgrage = 114,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 120501,
+		id = 129901,
+		add_get_value = 2,
+		pt_get = 56,
+		add_get_shiptype = {
+			4,
+			5,
+			10
+		},
+		add_level_shiptype = {
+			4,
+			5,
+			10
+		}
+	}
 	pg.base.fleet_tech_ship_template[960001] = {
 		max_star = 6,
 		pt_level = 12,
@@ -15173,6 +15282,8 @@ end)()
 			2
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_template[970209] = {
 		max_star = 6,
 		pt_level = 23,
@@ -15267,8 +15378,6 @@ end)()
 			18
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_template[970302] = {
 		max_star = 6,
 		pt_level = 52,

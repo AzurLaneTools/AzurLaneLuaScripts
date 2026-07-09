@@ -45,6 +45,10 @@ slot0.NATION_LIST = {
 		key = 11
 	},
 	{
+		name = "word_shipNation_jinghuanlianmeng",
+		key = 12
+	},
+	{
 		name = "word_shipNation_meta_index",
 		key = 97
 	}

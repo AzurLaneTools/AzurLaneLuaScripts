@@ -59,8 +59,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpUpperBound = 0.3,
+				quota = 1,
 				hpSigned = 0,
+				hpUpperBound = 0.3,
 				skill_id = 152304,
 				hpLowerBound = 0
 			}

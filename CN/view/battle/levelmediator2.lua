@@ -44,6 +44,7 @@ slot0.ON_SUBMIT_TASK = "LevelMediator2:ON_SUBMIT_TASK"
 slot0.ON_VOTE_BOOK = "LevelMediator2:ON_VOTE_BOOK"
 slot0.GET_CHAPTER_DROP_SHIP_LIST = "LevelMediator2:GET_CHAPTER_DROP_SHIP_LIST"
 slot0.ON_CHAPTER_REMASTER_AWARD = "LevelMediator2:ON_CHAPTER_REMASTER_AWARD"
+slot0.ON_BOSSRUSH_REMASTER_ACTIVITY = "LevelMediator2:ON_BOSSRUSH_REMASTER_ACTIVITY"
 slot0.ENTER_WORLD = "LevelMediator2:ENTER_WORLD"
 slot0.ON_OPEN_ACT_BOSS_BATTLE = "LevelMediator2:ON_OPEN_ACT_BOSS_BATTLE"
 slot0.ON_BOSSRUSH_MAP = "LevelMediator2:ON_BOSSRUSH_MAP"
@@ -460,6 +461,13 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN, function (slot0)
 		uv0:sendNotification(GAME.GET_REMASTER_TICKETS)
 	end)
+	slot0:bind(uv0.ON_BOSSRUSH_REMASTER_ACTIVITY, function (slot0, slot1)
+		uv0.bossRushRemasterActivityId = slot1
+
+		uv0:sendNotification(GAME.ACTIVITY_PERMANENT_START, {
+			activity_id = slot1
+		})
+	end)
 	slot0:bind(uv0.ON_SUBMIT_TASK, function (slot0, slot1)
 		uv0:sendNotification(GAME.SUBMIT_TASK, slot1)
 	end)
@@ -517,10 +525,11 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.ENTER_WORLD, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
 	end)
-	slot0:bind(uv0.ON_CHAPTER_REMASTER_AWARD, function (slot0, slot1, slot2)
+	slot0:bind(uv0.ON_CHAPTER_REMASTER_AWARD, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.CHAPTER_REMASTER_AWARD_RECEIVE, {
 			chapterId = slot1,
-			pos = slot2
+			pos = slot2,
+			actId = slot3
 		})
 	end)
 	slot0:bind(uv0.ON_OPEN_ACT_BOSS_BATTLE, function (slot0)
@@ -716,6 +725,7 @@ slot0.listNotificationInterests = function(slot0)
 		LevelUIConst.CONTINUOUS_OPERATION,
 		uv0.ON_SPITEM_CHANGED,
 		GAME.GET_REMASTER_TICKETS_DONE,
+		GAME.ACTIVITY_PERMANENT_START_DONE,
 		VoteProxy.VOTE_ORDER_BOOK_DELETE,
 		VoteProxy.VOTE_ORDER_BOOK_UPDATE,
 		GAME.VOTE_BOOK_BE_UPDATED_DONE,
@@ -1170,6 +1180,20 @@ slot0.handleNotification = function(slot0, slot1)
 			slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 				uv0.viewComponent:updateRemasterTicket()
 			end)
+		elseif slot2 == GAME.ACTIVITY_PERMANENT_START_DONE then
+			if (slot3 and slot3.id) ~= slot0.bossRushRemasterActivityId then
+				return
+			end
+
+			if not getProxy(ActivityPermanentProxy):IsActivityIdByType(slot4, ActivityPermanentProxy.TYPE_REMASTER_ACTIVITY) then
+				return
+			end
+
+			slot0.bossRushRemasterActivityId = nil
+
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_REMASTER, {
+				id = slot4
+			})
 		elseif slot2 == CommanderProxy.PREFAB_FLEET_UPDATE then
 			slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
 			slot0.viewComponent:updateCommanderPrefab()
@@ -1331,38 +1355,8 @@ slot0.OnExitChapter = function(slot0, slot1, slot2, slot3)
 
 				if _.any(slot5, function (slot0)
 					return slot0 == uv0.id
-				end) then
-					slot8 = underscore.filter(pg.memory_group[slot4.memory_group].memories, function (slot0)
-						return not pg.NewStoryMgr.GetInstance():IsPlayed(pg.memory_template[slot0].unlock_pre, true)
-					end)
-
-					underscore.each(slot8, function (slot0)
-						for slot4, slot5 in ipairs(pg.memory_template[slot0].unlock_pre) do
-							slot6, slot7 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot5)
-
-							pg.NewStoryMgr.GetInstance():SetPlayedFlag(slot6)
-						end
-					end)
-
-					if #slot8 > 0 then
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							yesText = "text_go",
-							content = i18n("levelScene_remaster_story_tip", pg.memory_group[slot6].title),
-							onYes = function ()
-								uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_COLLECTION, {
-									page = WorldMediaCollectionScene.PAGE_MEMORTY,
-									memoryGroup = uv1
-								})
-							end,
-							onNo = function ()
-								PlayerPrefs.SetInt("MEMORY_GROUP_NOTIFICATION" .. getProxy(PlayerProxy):getRawData().id .. " " .. uv0, 1)
-								PlayerPrefs.Save()
-								uv1()
-							end
-						})
-
-						return
-					end
+				end) and BossRushChapterRemasterHelper.UnlockMemoryGroupStoriesAndShowMsgBox(slot4.memory_group, slot0) then
+					return
 				end
 			end
 

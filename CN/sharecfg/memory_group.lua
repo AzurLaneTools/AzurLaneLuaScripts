@@ -399,6 +399,7 @@ pg.memory_group.all = {
 	621,
 	622,
 	623,
+	624,
 	1000,
 	1001,
 	1002,
@@ -10060,6 +10061,28 @@ end)()
 			10000
 		}
 	}
+	pg.base.memory_group[624] = {
+		ship_group = 29905,
+		icon = "title_chara_pulimaosi",
+		type = 3,
+		link_event = 0,
+		title = "为了绝对的笑容",
+		auto_unlock = "",
+		subtype = 0,
+		id = 624,
+		memories = {
+			5251,
+			5252,
+			5253,
+			5254,
+			5255,
+			5256,
+			5257
+		},
+		group_id = {
+			10000
+		}
+	}
 	pg.base.memory_group[1000] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -10240,6 +10263,8 @@ end)()
 			20127
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[1004] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -10262,8 +10287,6 @@ end)()
 			20136
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[1005] = {
 		ship_group = 0,
 		icon = "title_event",

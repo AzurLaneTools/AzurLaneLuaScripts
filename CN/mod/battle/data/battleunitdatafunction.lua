@@ -719,9 +719,9 @@ slot33.AuxBoost = function(slot0)
 end
 
 slot33.GetSLGStrategyBuffByCombatBuffID = function(slot0)
-	for slot4, slot5 in pairs(uv0) do
-		if slot5.buff_id == slot0 then
-			return slot5
+	for slot4, slot5 in ipairs(uv0.all) do
+		if slot5 == slot0 then
+			return uv0[slot0]
 		end
 	end
 end

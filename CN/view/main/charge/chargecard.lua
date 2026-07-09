@@ -150,7 +150,7 @@ slot0.updateCharge = function(slot0, slot1, slot2, slot3)
 		slot0:updateImport(slot0:GetPayDisplayItemData(slot1))
 	end
 
-	slot11 = slot1.buyCount
+	slot11 = slot1:getBuyCount()
 	slot12 = slot1:getLimitCount()
 
 	if slot1:getConfig("limit_type") == 2 then
@@ -203,7 +203,7 @@ end
 slot0.updateGemItem = function(slot0, slot1, slot2)
 	setText(slot0.limitText, "")
 
-	slot4 = slot1.buyCount or 0
+	slot4 = slot1:getBuyCount()
 
 	if slot1:getLimitCount() > 0 then
 		setText(slot0.limitText, i18n("charge_limit_all", slot3 - slot4, slot3))

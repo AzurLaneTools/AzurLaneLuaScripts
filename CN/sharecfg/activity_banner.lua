@@ -26,14 +26,16 @@ pg.activity_banner.all = {
 pg.activity_banner.get_id_list_by_type = {
 	[2] = {
 		1,
-		2,
 		3,
-		4,
 		5,
 		6,
 		7,
 		8,
 		9
+	},
+	[3] = {
+		2,
+		4
 	},
 	[9] = {
 		90,
@@ -72,8 +74,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					25
+					7,
+					9
 				},
 				{
 					0,
@@ -84,8 +86,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					30
+					7,
+					11
 				},
 				{
 					23,
@@ -96,22 +98,16 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[2] = {
-		type = 2,
+		param = "51063",
+		type = 3,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
 		time = {
 			{
 				{
 					2026,
-					6,
-					25
+					7,
+					9
 				},
 				{
 					0,
@@ -123,44 +119,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					9
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[3] = {
-		type = 2,
-		id = 3,
-		pic = "temp3",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					6,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					30
+					22
 				},
 				{
 					23,
@@ -170,42 +129,25 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[4] = {
+	pg.base.activity_banner[3] = {
+		time = "stop",
 		type = 2,
-		id = 4,
-		pic = "temp4",
+		id = 3,
+		pic = "temp3",
 		param = {
-			"scene core activity",
+			"scene get boat",
 			{
-				coreName = "DreamTourCoreActivityUI"
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					6,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					7,
-					9
-				},
-				{
-					12,
-					0,
-					0
-				}
+				projectName = "new",
+				page = 1
 			}
 		}
+	}
+	pg.base.activity_banner[4] = {
+		param = "51033",
+		time = "stop",
+		type = 3,
+		id = 4,
+		pic = "temp4"
 	}
 	pg.base.activity_banner[5] = {
 		type = 2,
@@ -221,8 +163,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					6,
-					25
+					7,
+					9
 				},
 				{
 					0,
@@ -234,7 +176,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					8
+					15
 				},
 				{
 					23,
@@ -249,14 +191,17 @@ pg.base.activity_banner = {}
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene court yard"
+			"shipblueprint",
+			{
+				shipGroupId = 29906
+			}
 		},
 		time = {
 			{
 				{
 					2026,
-					6,
-					25
+					7,
+					9
 				},
 				{
 					0,
@@ -268,12 +213,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					8
+					16
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -283,17 +228,17 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene shop",
+			"scene charge",
 			{
-				warp = "shopstreet"
+				wrap = 4
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					6,
-					25
+					7,
+					9
 				},
 				{
 					0,
@@ -305,12 +250,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					8
+					16
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -320,14 +265,18 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"dorm 3d select"
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
-					6,
-					25
+					7,
+					9
 				},
 				{
 					0,
@@ -339,7 +288,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					9
+					16
 				},
 				{
 					12,
@@ -350,7 +299,6 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[9] = {
-		time = "stop",
 		type = 2,
 		id = 9,
 		pic = "temp9",
@@ -359,6 +307,32 @@ pg.base.activity_banner = {}
 			{
 				open_remaster = true,
 				isSP = true
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					12,
+					0,
+					0
+				}
 			}
 		}
 	}

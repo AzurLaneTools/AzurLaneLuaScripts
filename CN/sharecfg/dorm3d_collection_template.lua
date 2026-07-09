@@ -4586,7 +4586,7 @@ end)()
 		time = 0,
 		room_id = 21,
 		desc = "经典陶瓷花盆搭配茂盛绿植，叶片青翠欲滴，为房间注入自然生机。",
-		text = "dorm3d_naximofu_chair",
+		text = "dorm3d_naximofu_bed",
 		id = 2112,
 		icon = "3Ddrom_naximofu_item12",
 		model = {

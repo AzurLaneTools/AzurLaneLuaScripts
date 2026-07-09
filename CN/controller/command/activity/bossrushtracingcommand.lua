@@ -68,9 +68,18 @@ slot0.execute = function(slot0, slot1)
 		return
 	end
 
-	slot17 = pg.ConnectionMgr.GetInstance()
+	slot18 = getProxy(ChapterProxy)
 
-	slot17:Send(11202, {
+	if (slot2.remasterTicketCost or BossRushChapterRemasterHelper.GetPermanentActivityTicketCost(slot4, slot2.seriesId)) > 0 and slot18.remasterTickets < slot17 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_tickets_not_enough"))
+		slot0:sendNotification(GAME.BOSSRUSH_TRACE_ERROR)
+
+		return
+	end
+
+	slot19 = pg.ConnectionMgr.GetInstance()
+
+	slot19:Send(11202, {
 		cmd = 1,
 		activity_id = slot4,
 		arg1 = slot3,
@@ -90,6 +99,10 @@ slot0.execute = function(slot0, slot1)
 				getProxy(PlayerProxy):updatePlayer(slot2)
 			end
 
+			if uv3 > 0 then
+				uv4:updateRemasterTicketsNum(uv4.remasterTickets - uv3)
+			end
+
 			(function ()
 				if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK) then
 					return
@@ -98,10 +111,10 @@ slot0.execute = function(slot0, slot1)
 				slot0:ResetLast()
 				getProxy(ActivityProxy):updateActivity(slot0)
 			end)()
-			uv3:sendNotification(GAME.BOSSRUSH_TRACE_DONE, uv1)
+			uv5:sendNotification(GAME.BOSSRUSH_TRACE_DONE, uv1)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
-			uv3:sendNotification(GAME.BOSSRUSH_TRACE_ERROR, slot0.result)
+			uv5:sendNotification(GAME.BOSSRUSH_TRACE_ERROR, slot0.result)
 		end
 	end)
 end

@@ -34,7 +34,10 @@ pg.activity_series_enemy.all = {
 	5002,
 	5003,
 	5004,
-	5005
+	5005,
+	1001001,
+	1001002,
+	1001003
 }
 pg.base = pg.base or {}
 pg.base.activity_series_enemy = {}
@@ -2423,6 +2426,169 @@ pg.base.activity_series_enemy = {}
 			0.2,
 			1000,
 			0.8
+		}
+	}
+	pg.base.activity_series_enemy[1001001] = {
+		oil = 0,
+		name = "压制：格陵兰 ",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "TC1",
+		pos_x = "0.10703125",
+		pos_y = "0.157291667",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = "任务目标：压制塞壬格陵兰要塞，解除清除者对极地海域的电磁压制，为全局战场提供支援。 ",
+		collection_group_id = 104,
+		whether_singlefight = 0,
+		id = 1001001,
+		limitation = {},
+		expedition_id = {
+			1719101
+		},
+		boss_icon = {
+			{
+				"qinraozhe",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				58839
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[1001002] = {
+		oil = 0,
+		name = "夺回：北地群岛",
+		type = 1,
+		pre_chapter = 1001001,
+		chapter_name = "TC2",
+		pos_x = "0.34609375",
+		pos_y = "0.347916667",
+		count = 0,
+		ex_count = "",
+		profiles = "任务目标：夺回曾经的前进基地，如今的塞壬北地群岛要塞，削弱清除者对于极地的控制力。 ",
+		collection_group_id = 105,
+		whether_singlefight = 1,
+		id = 1001002,
+		limitation = {},
+		expedition_id = {
+			1719201,
+			1719202
+		},
+		boss_icon = {
+			{
+				"qinraozhe",
+				2
+			},
+			{
+				"qingchuzhe",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				58838
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[1001003] = {
+		oil = 0,
+		name = "侦察：北极点",
+		type = 1,
+		pre_chapter = 1001002,
+		chapter_name = "TC3",
+		pos_x = "0.50546875",
+		pos_y = "0.080208333",
+		count = 0,
+		ex_count = "",
+		profiles = "任务目标：对塞壬北极点要塞进行抵近侦察，尽可能收集数据以协助对于清除者战略意图的研究。 ",
+		collection_group_id = 106,
+		whether_singlefight = 1,
+		id = 1001003,
+		limitation = {},
+		expedition_id = {
+			1719301,
+			1719302,
+			1719303
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"kuersike",
+				3
+			},
+			{
+				"qingchuzhe",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				58837
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
 		}
 	}
 end)()

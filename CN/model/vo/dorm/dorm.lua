@@ -236,6 +236,10 @@ slot0.GetNextSettlementShipExpTime = function(slot0)
 end
 
 slot0.UpdateNextSettlementShipExpTime = function(slot0, slot1)
+	if slot1 <= pg.TimeMgr.GetInstance():GetServerTime() then
+		slot1 = slot2 + 10
+	end
+
 	slot0.nextAddShipExpTime = slot1
 end
 
