@@ -15062,9 +15062,9 @@ _G.pg.base.gametip.blueprint_simulation_confirm_29906 = {
 Would you like to start a Battle Simulation?
 (<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
 Equipment: <color=#92fc63>
-Prototype 406mm SK C/34 Main Gun Mount
-Twin 150mm TbtsK C/36 Main Gun Mount
-Prototype Quadruple 30mm AA Gun Mount
+Prototype Triple 419mm Mk. I Main Gun Mount
+Twin 114mm (QF Mk IV Prototype)
+Single 20mm Oerlikon (Mark II)
 </color></size>]]
 }
 
