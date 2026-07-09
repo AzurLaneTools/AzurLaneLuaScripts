@@ -7,7 +7,8 @@ pg.survey_data_template.all = {
 	1002,
 	1004,
 	1009,
-	1010
+	1010,
+	1014
 }
 pg.base = pg.base or {}
 pg.base.survey_data_template = {}
@@ -90,6 +91,23 @@ pg.base.survey_data_template = {}
 		main_activity = "344746594",
 		ios_activity = "344745283",
 		uo_activity = "344745703",
+		bonus = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	}
+	pg.base.survey_data_template[1014] = {
+		ios_url = "https://usersurvey.wjx.cn/vm/mBYmfYc.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		uo_url = "https://usersurvey.wjx.cn/vm/eDwrY3J.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&## ",
+		main_url = "https://usersurvey.wjx.cn/vm/rGqpU4e.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		id = 1014,
+		name = "《碧蓝航线》9周年调研问卷",
+		main_activity = "367254314",
+		ios_activity = "367301381",
+		uo_activity = "367299798",
 		bonus = {
 			{
 				2,

@@ -26,6 +26,8 @@ slot0.Hide = function(slot0)
 end
 
 slot0.Dispose = function(slot0)
+	slot0:cleanManagedTween()
+	slot0:disposeEvent()
 	pg.DelegateInfo.Dispose(slot0)
 end
 

@@ -55,7 +55,9 @@ pg.honormedal_goods_list.all = {
 	50,
 	51,
 	52,
-	53
+	53,
+	54,
+	55
 }
 pg.base = pg.base or {}
 pg.base.honormedal_goods_list = {}
@@ -1057,6 +1059,40 @@ pg.base.honormedal_goods_list = {}
 		order = 34,
 		goods = {
 			30208
+		}
+	}
+	pg.base.honormedal_goods_list[54] = {
+		goods_rarity = 4,
+		goods_purchase_limit = 15,
+		price = 20,
+		type = 2,
+		group = 10039,
+		num = 1,
+		goods_name = "定向藍圖・八期",
+		goods_type = 1,
+		id = 54,
+		is_ship = 0,
+		goods_icon = "Props/42070",
+		order = 7,
+		goods = {
+			42070
+		}
+	}
+	pg.base.honormedal_goods_list[55] = {
+		goods_rarity = 5,
+		goods_purchase_limit = 5,
+		price = 20,
+		type = 2,
+		group = 10040,
+		num = 1,
+		goods_name = "高級定向藍圖・八期",
+		goods_type = 1,
+		id = 55,
+		is_ship = 0,
+		goods_icon = "Props/42076",
+		order = 6,
+		goods = {
+			42076
 		}
 	}
 end)()

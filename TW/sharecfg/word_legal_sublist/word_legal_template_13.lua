@@ -4,6 +4,24 @@ slot0.word_legal_template_13 = {}
 slot1 = slot0.word_legal_template_13
 
 temp = function()
+	uv0["云"] = {
+		["仙"] = {
+			["（"] = {
+				["后"] = {
+					["排"] = {
+						["）"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["和"] = {
 		["睦"] = {
 			["號"] = {

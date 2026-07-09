@@ -8,7 +8,8 @@ pg.technology_catchup_template.all = {
 	3,
 	4,
 	5,
-	6
+	6,
+	7
 }
 pg.base = pg.base or {}
 pg.base.technology_catchup_template = {}
@@ -150,6 +151,29 @@ pg.base.technology_catchup_template = {}
 		ur_char = {
 			19904,
 			49909
+		}
+	}
+	pg.base.technology_catchup_template[7] = {
+		obtain_max = 300,
+		obtain_max_per_ur = 150,
+		id = 7,
+		char_choice = {
+			89904,
+			39907,
+			19905,
+			69902,
+			79902
+		},
+		blueprint_max = {
+			508,
+			508,
+			508,
+			728,
+			728
+		},
+		ur_char = {
+			69902,
+			79902
 		}
 	}
 end)()

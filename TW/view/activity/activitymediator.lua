@@ -465,6 +465,9 @@ end
 
 slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {
+		[GAME.SURVEY_DONE] = function (slot0, slot1)
+			slot0.viewComponent:removeActivity(slot1:getBody().id)
+		end,
 		[ActivityProxy.ACTIVITY_ADDED] = function (slot0, slot1)
 			if slot1:getBody():getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
 				return
@@ -487,11 +490,19 @@ slot0.initNotificationHandleDic = function(slot0)
 				slot0.viewComponent:updateActivity()
 			end
 
+			if MonthSignPage.ShouldPlaySpEffect(slot3) and slot0.viewComponent.pageDic[slot3.id] then
+				slot4:ActionInvoke("TryShowSpEffect", function ()
+					uv0:showNextActivity(uv1:getConfig("page_core"))
+				end)
+
+				return
+			end
+
 			if ActivityConst.AOERLIANG_TASK_ID == slot2 then
 				return
 			end
 
-			slot0:showNextActivity(getProxy(ActivityProxy):getActivityById(slot2):getConfig("page_core"))
+			slot0:showNextActivity(slot3:getConfig("page_core"))
 		end,
 		[ActivityProxy.ACTIVITY_SHOW_AWARDS] = function (slot0, slot1)
 			slot3 = slot1:getBody().awards

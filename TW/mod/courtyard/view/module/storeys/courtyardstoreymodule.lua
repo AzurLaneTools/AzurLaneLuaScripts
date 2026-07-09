@@ -327,9 +327,15 @@ slot0.OnRemoveIllegalityItem = function(slot0)
 end
 
 slot0.OnOpenLayer = function(slot0, slot1)
+	if not slot0._layerCount then
+		slot0._layerCount = 0
+	end
+
+	slot0._layerCount = slot0._layerCount + (slot1 and 1 or -1)
+
 	for slot5, slot6 in pairs(slot0.modules) do
 		if isa(slot6, CourtYardShipModule) then
-			slot6:HideAttachment(slot1)
+			slot6:HideAttachment(slot0._layerCount ~= 0)
 		end
 	end
 end

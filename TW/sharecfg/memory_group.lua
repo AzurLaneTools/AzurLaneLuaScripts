@@ -261,6 +261,7 @@ pg.memory_group.all = {
 	366,
 	367,
 	368,
+	369,
 	501,
 	502,
 	503,
@@ -6915,6 +6916,28 @@ end)()
 			5221
 		}
 	}
+	pg.base.memory_group[369] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50651,
+		title = "美夢巡演奇妙夜",
+		auto_unlock = "",
+		subtype = 2,
+		id = 369,
+		group_id = "",
+		memories = {
+			5241,
+			5242,
+			5243,
+			5244,
+			5245,
+			5246,
+			5247,
+			5248,
+			5249
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7850,6 +7873,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[545] = {
 		ship_group = 10803,
 		icon = "title_chara_jiqi",
@@ -7872,8 +7897,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[546] = {
 		ship_group = 60302,
 		icon = "title_chara_zhala",

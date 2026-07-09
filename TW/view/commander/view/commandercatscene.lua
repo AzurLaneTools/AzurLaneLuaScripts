@@ -76,7 +76,7 @@ slot0.init = function(slot0)
 		[uv0.PAGE_DOCK] = CommanderCatDockPage.New(slot0.pageContainer, slot0.event, slot0.contextData)
 	}
 	slot0.detailPage = CommanderDetailPage.New(slot0.pageContainer, slot0.event, slot0.contextData)
-	slot0.contextData.msgBox = CommanderMsgBoxPage.New(slot0._tf, slot0.event)
+	slot0.contextData.msgBox = CommanderMsgBoxPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
 	slot0.contextData.treePanel = CommanderTreePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
 	slot0.commanderPaintingUtil = CommanderPaintingUtil.New(slot0.paintingTF)
 	slot0.resources = {

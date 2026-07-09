@@ -139,4 +139,5 @@ CubismRenderController = Live2D.Cubism.Rendering.CubismRenderController
 CubismSortingMode = Live2D.Cubism.Rendering.CubismSortingMode
 CubismModel = Live2D.Cubism.Core.CubismModel
 RuntimeAnimatorController = UnityEngine.RuntimeAnimatorController
+SkeletonGraphic = Spine.Unity.SkeletonGraphic
 SpineAnimationState = Spine.AnimationState

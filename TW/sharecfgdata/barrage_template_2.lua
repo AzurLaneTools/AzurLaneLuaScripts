@@ -378,6 +378,66 @@ _G.pg.base.barrage_template_2[82336] = {
 }
 
 
+_G.pg.base.barrage_template_2[170578] = {
+	offset_prioritise = false,
+	delta_offset_x = 0,
+	offset_x = 0,
+	delta_delay = 0,
+	delay = 0,
+	delta_offset_z = -3,
+	delta_angle = 0,
+	primal_repeat = 3,
+	offset_z = 4.5,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 170578,
+	senior_delay = 0,
+	angle = 0,
+	trans_ID = -1
+}
+
+
+_G.pg.base.barrage_template_2[170579] = {
+	offset_prioritise = false,
+	delta_offset_x = -3,
+	offset_x = -3,
+	delta_delay = 0,
+	delay = 0,
+	delta_offset_z = -2,
+	delta_angle = 0,
+	primal_repeat = 2,
+	offset_z = 7,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 170579,
+	senior_delay = 0,
+	angle = 0,
+	trans_ID = -1
+}
+
+
+_G.pg.base.barrage_template_2[170580] = {
+	offset_prioritise = false,
+	delta_offset_x = -3,
+	offset_x = -3,
+	delta_delay = 0,
+	delay = 0,
+	delta_offset_z = 2,
+	delta_angle = 0,
+	primal_repeat = 2,
+	offset_z = -7,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 170580,
+	senior_delay = 0,
+	angle = 0,
+	trans_ID = -1
+}
+
+
 _G.pg.base.barrage_template_2[171010] = {
 	offset_prioritise = false,
 	delta_offset_x = 0,
@@ -493,6 +553,46 @@ _G.pg.base.barrage_template_2[171015] = {
 	senior_repeat = 0,
 	id = 171015,
 	senior_delay = 0,
+	angle = 0,
+	trans_ID = -1
+}
+
+
+_G.pg.base.barrage_template_2[171016] = {
+	offset_prioritise = false,
+	delta_offset_x = -2,
+	offset_x = 3,
+	delta_delay = 0,
+	delay = 0,
+	delta_offset_z = 3,
+	delta_angle = 0,
+	primal_repeat = 7,
+	offset_z = 0,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 1,
+	id = 171016,
+	senior_delay = 0.3,
+	angle = 0,
+	trans_ID = -1
+}
+
+
+_G.pg.base.barrage_template_2[171017] = {
+	offset_prioritise = false,
+	delta_offset_x = -2,
+	offset_x = 3,
+	delta_delay = 0,
+	delay = 0,
+	delta_offset_z = -3,
+	delta_angle = 0,
+	primal_repeat = 7,
+	offset_z = 0,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 1,
+	id = 171017,
+	senior_delay = 0.3,
 	angle = 0,
 	trans_ID = -1
 }

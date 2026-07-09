@@ -25,6 +25,10 @@ slot0.OnLoaded = function(slot0)
 	slot0.scaleSetBtnX = slot0.scaleSetBtn.localPosition.x
 	slot0.btnSelectX = slot0.moveBtn.localPosition.x
 	slot0.showing = false
+	slot0.pageCG = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
+	slot0.pageCG.ignoreParentGroups = true
+	slot0.pageCG.interactable = true
+	slot0.pageCG.blocksRaycasts = true
 end
 
 slot0.OnInit = function(slot0)

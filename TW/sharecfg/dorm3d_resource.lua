@@ -17,7 +17,11 @@ pg.dorm3d_resource.all = {
 	307071,
 	307073,
 	499051,
-	499053
+	499053,
+	799021,
+	799022,
+	799023,
+	799024
 }
 pg.dorm3d_resource.get_id_list_by_ship_group = {
 	[10517] = {
@@ -45,6 +49,12 @@ pg.dorm3d_resource.get_id_list_by_ship_group = {
 	[49905] = {
 		499051,
 		499053
+	},
+	[79902] = {
+		799021,
+		799022,
+		799023,
+		799024
 	}
 }
 pg.base = pg.base or {}
@@ -66,6 +76,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_tianlangxing_db_noshoes_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -88,6 +99,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_tianlangxing_swim_noshoes_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "diantou",
 		switch_anim = "ganjin",
@@ -118,6 +130,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_tianlangxing_bunny_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -149,6 +162,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_nengdai_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -171,6 +185,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_nengdai_swim_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "shuohua_sikao",
 		switch_anim = "shuohua_chuaishou",
@@ -202,6 +217,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_ankeleiqi_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -224,6 +240,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_ankeleiqi_swim_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -255,6 +272,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_ankeleiqi_stock_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 0,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -278,6 +296,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_xinzexi_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -306,6 +325,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_xinzexi_bunny_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -335,6 +355,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_dafeng_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -371,6 +392,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_dafeng_bunny_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -402,6 +424,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_aijier_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -424,6 +447,7 @@ pg.base.dorm3d_resource = {}
 		origin_model = "pre_char_aijier_bunny_mod",
 		hidden_part_apply_in_timeline = 0,
 		hx_component = "",
+		is_show_change_skin = 1,
 		animator = "",
 		wear_anim = "",
 		switch_anim = "",
@@ -437,6 +461,117 @@ pg.base.dorm3d_resource = {}
 			5,
 			16,
 			49905
+		},
+		hidden_part = {}
+	}
+	pg.base.dorm3d_resource[799021] = {
+		ship_group = 79902,
+		name = "纳希莫夫常服",
+		model_id = "naximofu_noshoes",
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 0,
+		unlock = "",
+		unlock_text = "",
+		picture = "regular",
+		type = 1,
+		origin_model = "pre_char_naximofu_mod",
+		hidden_part_apply_in_timeline = 0,
+		hx_component = "",
+		is_show_change_skin = 1,
+		animator = "",
+		wear_anim = "",
+		switch_anim = "",
+		id = 799021,
+		head_Icon = "dorm3Dchar/naximofu",
+		tags = {},
+		hidden_part = {}
+	}
+	pg.base.dorm3d_resource[799022] = {
+		ship_group = 79902,
+		name = "纳希莫夫赛车服",
+		model_id = "naximofu_racing",
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 270121,
+		unlock_text = "在维修区工作站中购买角色皮肤",
+		picture = "regular",
+		type = 2,
+		origin_model = "pre_char_naximofu_racing_mod",
+		hidden_part_apply_in_timeline = 0,
+		hx_component = "",
+		is_show_change_skin = 0,
+		animator = "",
+		wear_anim = "",
+		switch_anim = "",
+		id = 799022,
+		head_Icon = "dorm3Dchar/naximofu",
+		tags = {
+			"carwash",
+			"touch"
+		},
+		unlock = {
+			5,
+			26,
+			79902
+		},
+		hidden_part = {}
+	}
+	pg.base.dorm3d_resource[799023] = {
+		ship_group = 79902,
+		name = "纳希莫夫赛车服",
+		model_id = "naximofu_racing_noshoes",
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 270121,
+		unlock_text = "在维修区工作站中购买角色皮肤",
+		picture = "regular",
+		type = 2,
+		origin_model = "pre_char_naximofu_racing_lz_mod",
+		hidden_part_apply_in_timeline = 0,
+		hx_component = "",
+		is_show_change_skin = 1,
+		animator = "",
+		wear_anim = "",
+		switch_anim = "",
+		id = 799023,
+		head_Icon = "dorm3Dchar/naximofu",
+		tags = {},
+		unlock = {
+			5,
+			26,
+			79902
+		},
+		hidden_part = {}
+	}
+	pg.base.dorm3d_resource[799024] = {
+		ship_group = 79902,
+		name = "纳希莫夫赛车服",
+		model_id = "naximofu_racing_carwash",
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 0,
+		unlock_text = "在维修区工作站中购买角色皮肤",
+		picture = "regular",
+		type = 2,
+		origin_model = "pre_char_naximofu_racing_mod",
+		hidden_part_apply_in_timeline = 0,
+		hx_component = "",
+		is_show_change_skin = 0,
+		animator = "",
+		wear_anim = "",
+		switch_anim = "",
+		id = 799024,
+		head_Icon = "dorm3Dchar/naximofu",
+		tags = {},
+		unlock = {
+			5,
+			26,
+			79902
 		},
 		hidden_part = {}
 	}

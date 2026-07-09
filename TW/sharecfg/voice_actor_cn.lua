@@ -2048,4 +2048,16 @@ end)()
 		actor_name = "冬馬由美",
 		code = 508
 	}
+	pg.base.voice_actor_CN[509] = {
+		actor_name = "久住琳",
+		code = 509
+	}
+	pg.base.voice_actor_CN[510] = {
+		actor_name = "飯塚麻結",
+		code = 510
+	}
+	pg.base.voice_actor_CN[511] = {
+		actor_name = "和久野愛佳",
+		code = 511
+	}
 end)()

@@ -10626,6 +10626,97 @@ _G.pg.base.item_data_statistics[14007] = {
 }
 
 
+_G.pg.base.item_data_statistics[14008] = {
+	open_directly = 0,
+	name = "原型科研圖紙·S-VIII",
+	type = 13,
+	display = [[
+使用後可從超稀有科研裝備(VIII期)的設計圖中任意選擇一張
+兌換列表如下：
+「試作型三聯裝283mm/54.5主炮T0設計圖」
+「試作型三聯裝406mm/45主炮Mk7T0設計圖」
+「試作型六聯裝Scotti20mm機炮Model1941T0設計圖」
+「試作型四聯裝533毫米魚雷Si 270T0設計圖」
+「試作型B-1-P 三聯裝180mm主炮Model1932改T0設計圖」
+]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/14008",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 14008,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			13050,
+			1
+		},
+		{
+			2,
+			13051,
+			1
+		},
+		{
+			2,
+			13052,
+			1
+		},
+		{
+			2,
+			13053,
+			1
+		},
+		{
+			2,
+			13054,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			13050,
+			1
+		},
+		{
+			2,
+			13051,
+			1
+		},
+		{
+			2,
+			13052,
+			1
+		},
+		{
+			2,
+			13053,
+			1
+		},
+		{
+			2,
+			13054,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[15001] = {
 	open_directly = 0,
 	name = "榮譽勳章",
@@ -14120,6 +14211,40 @@ _G.pg.base.item_data_statistics[20106] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 20106,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[20107] = {
+	open_directly = 0,
+	name = "科研測試數據・七期",
+	type = 18,
+	display = "研發部門總結的測試數據，<color=#92fc63>在開發船塢內使用</color>可增加10000點科研七期角色技術測試經驗進度<color=#ff5c5c>（在倉庫中解析會獲得設計原型，無法獲得經驗）</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/20107",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 20107,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -28547,6 +28672,131 @@ _G.pg.base.item_data_statistics[30384] = {
 		{
 			9,
 			4383,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30385] = {
+	open_directly = 1,
+	name = "外觀裝備箱(童話樂園)",
+	type = 11,
+	display = "可以獲得一件隨機的童話樂園風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghualeyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30382",
+	id = 30385,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
 			1
 		}
 	},
@@ -44531,6 +44781,219 @@ _G.pg.base.item_data_statistics[30568] = {
 		{
 			9,
 			4383,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30569] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(童話樂園)",
+	type = 13,
+	display = "使用後可從「童話樂園」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtonghualeyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30569,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4384,
+			1
+		},
+		{
+			9,
+			4385,
+			1
+		},
+		{
+			9,
+			4386,
+			1
+		},
+		{
+			9,
+			4387,
+			1
+		},
+		{
+			9,
+			4388,
+			1
+		},
+		{
+			9,
+			4389,
+			1
+		},
+		{
+			9,
+			4390,
+			1
+		},
+		{
+			9,
+			4391,
+			1
+		},
+		{
+			9,
+			4392,
+			1
+		},
+		{
+			9,
+			4393,
+			1
+		},
+		{
+			9,
+			4394,
+			1
+		},
+		{
+			9,
+			4395,
+			1
+		},
+		{
+			9,
+			4396,
+			1
+		},
+		{
+			9,
+			4397,
+			1
+		},
+		{
+			9,
+			4398,
+			1
+		},
+		{
+			9,
+			4399,
+			1
+		},
+		{
+			9,
+			4400,
+			1
+		},
+		{
+			9,
+			4401,
 			1
 		}
 	},

@@ -339,8 +339,12 @@ slot0.playPaintingInitSkin = function(slot0)
 		slot2 = slot0:GetDefaultSkeletonSkin()
 	end
 
-	if slot2 and slot0._skeletonGraphic and slot0._skeletonGraphic.SkeletonData and slot0._skeletonGraphic.SkeletonData:FindSkin(slot2) ~= nil then
-		slot0:SetSkeletonSkin(slot2)
+	if slot2 and slot0._skeletonGraphic and slot0._skeletonGraphic.SkeletonData then
+		if slot0._skeletonGraphic.SkeletonData:FindSkin(slot2) ~= nil then
+			slot0:SetSkeletonSkin(slot2)
+		elseif slot0._skeletonGraphic.SkeletonData:FindSkin("default") ~= nil then
+			slot0:SetSkeletonSkin("default")
+		end
 	end
 end
 
@@ -373,7 +377,22 @@ slot0.updateHitArea = function(slot0)
 
 				if slot7.hit and not slot9 then
 					if findTF(slot0._tf, "hitArea/" .. slot8) then
-						setActive(slot10, slot7.idle == slot0._idleName)
+						slot11 = true
+						slot12 = true
+
+						if slot7.idle and type(slot7.idle) == "string" then
+							slot11 = slot7.idle == slot0._idleName
+						elseif slot7.idle and type(slot7.idle) == "table" then
+							slot11 = table.contains(slot7.idle, slot0._idleName)
+						end
+
+						if slot7.skin and type(slot7.skin) == "string" then
+							slot12 = slot7.skin == slot0._skeletonSkin
+						elseif slot7.skin and type(slot7.skin) == "table" then
+							slot12 = table.contains(slot7.skin, slot0._skeletonSkin)
+						end
+
+						setActive(slot10, slot11 and slot12)
 					else
 						print("hit area " .. slot8 .. "is not exist")
 					end
@@ -416,6 +435,7 @@ slot0.SetSkeletonSkin = function(slot0, slot1)
 
 	slot0:SetSkin(slot1)
 	slot0:updateSkeletonGraphicTime()
+	slot0:updateHitArea()
 end
 
 slot0.SetDefaultSkeletonSkin = function(slot0)
@@ -473,66 +493,67 @@ slot0.changePaintingNormal = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot3.change_idle
-	slot6 = slot3.fold
-	slot7 = slot3.effect_hide
-	slot8 = slot3.action_cv
-	slot9 = slot3.finish_cv
-	slot10 = slot3.alpha_data and slot3.alpha_data or nil
-	slot11 = slot3.skin_change and slot3.skin_change or nil
-	slot12 = slot3.clear_track and slot3.clear_track or nil
-	slot13 = nil
+	slot5 = slot3.fold
+	slot6 = slot3.effect_hide
+	slot7 = slot3.action_cv
+	slot8 = slot3.finish_cv
+	slot9 = slot3.alpha_data and slot3.alpha_data or nil
+	slot11 = slot3.clear_track and slot3.clear_track or nil
+	slot12 = slot3.idle and slot3.idle or nil
+	slot14 = slot3.action
+	slot15 = slot3.event
+	slot16 = slot3.skin_change and slot3.skin_change or nil
+	slot17, slot18, slot19 = nil
 
-	if type(slot3.action) == "string" then
-		slot13 = slot3.action
-	elseif type(slot3.action) == "table" then
-		slot13 = slot3.action[math.random(1, #slot3.action)]
+	if type(slot3.change_idle) == "table" and type(slot14) == "table" then
+		slot20 = math.random(1, #slot14)
+		slot17 = slot14[slot20]
+		slot19 = slot13[slot20]
+	elseif type(slot12) == "table" and type(slot14) == "table" then
+		slot17 = slot14[table.indexof(slot12, slot0:getIdleName())]
+
+		if type(slot13) == "table" then
+			slot19 = slot13[slot20]
+		end
 	end
 
-	slot14 = nil
+	if not slot17 then
+		if type(slot14) == "string" then
+			slot17 = slot14
+		elseif type(slot14) == "table" then
+			slot17 = slot14[math.random(1, #slot14)]
+		end
+	end
 
-	if type(slot3.event) == "string" then
-		slot14 = slot3.event
-	elseif type(slot3.event) == "table" then
-		slot14 = slot3.event[math.random(1, #slot3.event)]
+	if not slot19 then
+		if type(slot13) == "string" then
+			slot19 = slot13
+		elseif type(slot13) == "table" then
+			slot19 = slot13[math.random(1, #slot13)]
+		end
+	end
+
+	if not slot18 then
+		if type(slot15) == "string" then
+			slot18 = slot15
+		elseif type(slot15) == "table" then
+			slot18 = slot15[math.random(1, #slot15)]
+		end
 	end
 
 	if slot1 == SpinePaintingConst.drag_type_normal then
-		if slot10 and #slot10 > 0 then
-			for slot18, slot19 in ipairs(slot10) do
-				slot20 = slot19[1]
-				slot21 = slot19[2]
-				slot22 = slot19[3]
-				slot23 = slot0:getSlotAlpha(slot20)
-
-				if not slot0:getStepSlotAlha(slot20) and slot23 then
-					slot24, slot25 = nil
-
-					for slot29, slot30 in ipairs(slot21) do
-						if math.abs(slot23 - slot30) <= 0.1 then
-							slot25 = slot29 + 1
-						end
-
-						if slot25 == slot29 then
-							slot24 = slot30
-						end
-					end
-
-					if slot24 or slot21[1] then
-						slot0:setStepSlotAlpha(slot20, slot24, slot22)
-					end
-				end
-			end
+		if slot9 and #slot9 > 0 then
+			slot0:SetAlphaData(slot9)
 		end
 
-		slot16 = slot3.material_time and slot3.material_time or nil
+		slot21 = slot3.material_time and slot3.material_time or nil
 
 		if slot3.material and slot3.material or nil then
 			if LeanTween.isTweening(go(slot0._tf)) then
 				return false
 			end
 
-			slot0:getSpineMaterial(slot15, function (slot0)
+			slot0:getSpineMaterial(slot20, function (slot0)
 				uv0._skeletonGraphic.material = slot0
 
 				if uv1 then
@@ -545,19 +566,21 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 			end)
 		end
 
-		if slot12 and #slot12 > 0 then
-			for slot20, slot21 in ipairs(slot12) do
-				slot0:SetEmptyAction(slot21)
+		if slot11 and #slot11 > 0 then
+			for slot25, slot26 in ipairs(slot11) do
+				slot0:SetEmptyAction(slot26)
 			end
 		end
 
-		if slot13 and slot13 ~= "" and slot0:checkActionPlayAble(slot13, false, 0) then
-			if slot6 then
+		if slot17 and slot17 ~= "" and slot0:checkActionPlayAble(slot17, false, 0) then
+			print("播放动作 .." .. slot17 .. "下一个待机动作 .. " .. slot19)
+
+			if slot5 then
 				pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, true)
 			end
 
-			slot0:setEffectVisible(slot7, false)
-			slot0:SetActionWithFinishCallback(slot13, 0, function ()
+			slot0:setEffectVisible(slot6, false)
+			slot0:SetActionWithFinishCallback(slot17, 0, function ()
 				if uv0 and uv0 ~= "" then
 					uv1:changeSkeletonSkin(uv0)
 				end
@@ -583,17 +606,17 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 			end)
 		end
 
-		if not slot13 or slot13 == "" then
-			if slot11 and slot11 ~= "" then
-				slot0:changeSkeletonSkin(slot11)
+		if not slot17 or slot17 == "" then
+			if slot16 and slot16 ~= "" then
+				slot0:changeSkeletonSkin(slot16)
 			end
 
-			if slot5 and slot5 ~= "" then
-				slot0:changePaintingIdle(slot5)
+			if slot19 and slot19 ~= "" then
+				slot0:changePaintingIdle(slot19)
 			end
 
-			if slot14 and type(slot14) == "string" and slot0._eventTriggerCall then
-				slot0._eventTriggerCall(slot14)
+			if slot18 and type(slot18) == "string" and slot0._eventTriggerCall then
+				slot0._eventTriggerCall(slot18)
 			end
 
 			return false
@@ -601,6 +624,33 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	return true
+end
+
+slot0.SetAlphaData = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		slot7 = slot6[1]
+		slot8 = slot6[2]
+		slot9 = slot6[3]
+		slot10 = slot0:getSlotAlpha(slot7)
+
+		if not slot0:getStepSlotAlha(slot7) and slot10 then
+			slot11, slot12 = nil
+
+			for slot16, slot17 in ipairs(slot8) do
+				if math.abs(slot10 - slot17) <= 0.1 then
+					slot12 = slot16 + 1
+				end
+
+				if slot12 == slot16 then
+					slot11 = slot17
+				end
+			end
+
+			if slot11 or slot8[1] then
+				slot0:setStepSlotAlpha(slot7, slot11, slot9)
+			end
+		end
+	end
 end
 
 slot0.PlayCv = function(slot0, slot1)
@@ -651,17 +701,13 @@ slot0.matchDragFlag = function(slot0, slot1, slot2, slot3)
 		return false
 	end
 
-	if slot2.idle and slot6 ~= "" and slot0:getIdleName() ~= slot6 then
+	if slot2.idle and type(slot6) == "string" and slot0:getIdleName() ~= slot6 then
+		return false
+	elseif slot6 and type(slot6) == "table" and not table.contains(slot6, slot0:getIdleName()) then
 		return false
 	end
 
-	slot7 = slot2.is_default
-
-	if slot0:getIdleName() ~= slot0:getNormalIdleName() and slot7 and slot7 ~= "" then
-		return false
-	end
-
-	if slot2.favor and slot8 >= 0 and slot0._spinePaintingData.ship:getCVIntimacy() and slot9 < slot8 then
+	if slot2.favor and slot7 >= 0 and slot0._spinePaintingData.ship:getCVIntimacy() and slot8 < slot7 then
 		return false
 	end
 

@@ -12295,6 +12295,11 @@ _G.pg.base.gametip.tec_catchup_6 = {
 }
 
 
+_G.pg.base.gametip.tec_catchup_7 = {
+	tip = "七期"
+}
+
+
 _G.pg.base.gametip.tec_notice = {
 	tip = "完成科研$1研發加速所有任務後解鎖"
 }
@@ -36739,7 +36744,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活動進行時，指揮官可在<color=#92fc63>活動頁面或回憶介面</color>透過指定入口進入「紀念貼紙」收集頁面；
  ※ 活動結束後指揮官將只能透過<color=#92fc63>回憶介面</color>指定入口進入「紀念貼紙」收集頁面；
  ※ 「紀念貼紙」可以通過完成對應活動任務獲取；
- ※ 獎勵領取介面將延長至7月1日24時；]]
+ ※ 獎勵領取介面將延長至7月29日24時；]]
 		}
 	}
 }
@@ -42446,4 +42451,14 @@ _G.pg.base.gametip.island_mecha_task_progress = {
 
 _G.pg.base.gametip.island_mecha_task_lock_tip = {
 	tip = "$1月$2日解锁"
+}
+
+
+_G.pg.base.gametip.DreamTourCoreActivity_subtitle_1 = {
+	tip = "美夢巡演奇妙夜"
+}
+
+
+_G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
+	tip = "美夢補給站"
 }

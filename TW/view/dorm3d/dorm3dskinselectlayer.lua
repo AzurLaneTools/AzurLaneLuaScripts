@@ -116,7 +116,7 @@ end
 
 slot0.FlushSkinList = function(slot0)
 	_.each(slot0.contextData.ladyEnv.skinIdList, function (slot0)
-		if slot0 ~= 199033 then
+		if uv0.skinDic[slot0]:IsShow() then
 			if ApartmentProxy.CheckUnlockConfig(uv0.skinDic[slot0]:GetUnlock()) then
 				table.insert(uv1, slot0)
 			else

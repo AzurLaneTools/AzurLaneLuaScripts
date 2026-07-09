@@ -28,7 +28,7 @@ pg.base.activity_const = {}
 		act_id = 171
 	}
 	pg.base.activity_const.ACT_NPC_SHIP_ID = {
-		act_id = 50832
+		act_id = 51022
 	}
 	pg.base.activity_const.SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -1225,5 +1225,11 @@ end)()
 	}
 	pg.base.activity_const.MALL_MAIN_ACTIVITY_ID = {
 		act_id = 50619
+	}
+	pg.base.activity_const.FREE_PACKAGE_SHOW_TIME_ID = {
+		act_id = 60824
+	}
+	pg.base.activity_const.DORM_SIGN_ID_3 = {
+		act_id = 7505
 	}
 end)()

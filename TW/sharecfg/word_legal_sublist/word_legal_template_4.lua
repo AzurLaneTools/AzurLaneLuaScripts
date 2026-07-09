@@ -115,6 +115,9 @@ temp = function()
 		},
 		["敵"] = {
 			this = true
+		},
+		["懼"] = {
+			this = true
 		}
 	}
 end

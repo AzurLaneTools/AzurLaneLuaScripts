@@ -61,9 +61,9 @@ pg.activity_banner.get_id_list_by_type = {
 		1,
 		2,
 		3,
+		4,
 		5,
 		6,
-		7,
 		16,
 		1000,
 		1001,
@@ -91,7 +91,7 @@ pg.activity_banner.get_id_list_by_type = {
 		1025
 	},
 	[3] = {
-		4,
+		7,
 		15,
 		1003
 	},
@@ -142,7 +142,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					2
+					9
 				},
 				{
 					0,
@@ -154,7 +154,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					8
+					22
 				},
 				{
 					23,
@@ -169,14 +169,18 @@ pg.base.activity_banner = {}
 		id = 2,
 		pic = "temp3",
 		param = {
-			"scene skinshop"
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					7,
-					2
+					9
 				},
 				{
 					0,
@@ -188,10 +192,10 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					8
+					23
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -213,7 +217,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					2
+					9
 				},
 				{
 					0,
@@ -225,7 +229,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					8
+					22
 				},
 				{
 					23,
@@ -236,16 +240,21 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[4] = {
-		param = "5890",
-		type = 3,
+		type = 2,
 		id = 4,
 		pic = "temp4",
+		param = {
+			"scene core activity",
+			{
+				coreName = "DreamTourCoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					7,
-					2
+					9
 				},
 				{
 					0,
@@ -257,7 +266,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					9
+					23
 				},
 				{
 					14,
@@ -272,18 +281,14 @@ pg.base.activity_banner = {}
 		id = 5,
 		pic = "temp5",
 		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
+			"scene court yard"
 		},
 		time = {
 			{
 				{
 					2026,
 					7,
-					2
+					9
 				},
 				{
 					0,
@@ -295,10 +300,10 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					9
+					22
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -310,25 +315,12 @@ pg.base.activity_banner = {}
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene get boat",
+			"scene shop",
 			{
-				projectName = "new",
-				page = 1
+				warp = "shopstreet"
 			}
 		},
 		time = {
-			{
-				{
-					2026,
-					7,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2026,
@@ -336,7 +328,19 @@ pg.base.activity_banner = {}
 					9
 				},
 				{
-					14,
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					22
+				},
+				{
+					23,
 					59,
 					59
 				}
@@ -344,12 +348,10 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[7] = {
-		type = 2,
+		param = "51021",
+		type = 3,
 		id = 7,
 		pic = "temp7",
-		param = {
-			"scene court yard"
-		},
 		time = {
 			{
 				{
@@ -367,10 +369,10 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					8
+					23
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -427,7 +429,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					2
+					9
 				},
 				{
 					0,
@@ -439,7 +441,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					8
+					22
 				},
 				{
 					23,

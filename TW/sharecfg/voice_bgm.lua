@@ -181,6 +181,11 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "theme-hrr"
 	}
+	pg.base.voice_bgm.ActivityShop50655 = {
+		default_bgm = "story-magicalnight-pv",
+		special_bgm = "",
+		bgm = "story-magicalnight-pv"
+	}
 	pg.base.voice_bgm.BuildShipScene = {
 		default_bgm = "main",
 		special_bgm = "",
@@ -501,13 +506,13 @@ pg.base.voice_bgm = {}
 		special_bgm = "",
 		bgm = "theme-starsea-core"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.AnniversarySixInvitationPage = {
 		default_bgm = "theme-partydress",
 		special_bgm = "",
 		bgm = "theme-partydress"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.AnniversarySixLoginPage = {
 		default_bgm = "theme-partydress",
 		special_bgm = "",
@@ -1198,13 +1203,13 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-quiet"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.EducateScheduleScene = {
 		default_bgm = "level",
 		special_bgm = "",
 		bgm = "level"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.EducateMapScene = {
 		default_bgm = "votefes-start",
 		special_bgm = "",
@@ -1700,13 +1705,13 @@ end)()
 		special_bgm = "",
 		bgm = "battle-boss-italy"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.YidaliV3MainRePage = {
 		default_bgm = "story-roma-inside",
 		special_bgm = "",
 		bgm = "story-roma-inside"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.YidaliV3PtRePage = {
 		default_bgm = "story-roma-outside",
 		special_bgm = "",
@@ -2202,13 +2207,13 @@ end)()
 		special_bgm = "",
 		bgm = "bar-soft"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.SecretsAbyssMGPage = {
 		default_bgm = "story-game-rhythm",
 		special_bgm = "",
 		bgm = "story-game-rhythm"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.MassenaMedalAlbumView = {
 		default_bgm = "story-enzecheng-theme",
 		special_bgm = "",
@@ -2704,13 +2709,13 @@ end)()
 		special_bgm = "",
 		bgm = "doa_huanzhuang"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.DOADailyStoryPage = {
 		default_bgm = "doa-song-day05",
 		special_bgm = "",
 		bgm = "doa-song-day05"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.DOAYearHotSpringUI = {
 		default_bgm = "doa_story3",
 		special_bgm = "",
@@ -2845,5 +2850,20 @@ end)()
 		default_bgm = "story-tulipa",
 		special_bgm = "",
 		bgm = "story-tulipa"
+	}
+	pg.base.voice_bgm.DreamTourMainPage = {
+		default_bgm = "theme-magicalnight-mystic",
+		special_bgm = "",
+		bgm = "theme-magicalnight-mystic"
+	}
+	pg.base.voice_bgm.DreamTourPtPage = {
+		default_bgm = "story-magicalnight-pv",
+		special_bgm = "",
+		bgm = "story-magicalnight-pv"
+	}
+	pg.base.voice_bgm.DreamTourMedalAlbumView = {
+		default_bgm = "story-magicalnight-pv",
+		special_bgm = "",
+		bgm = "story-magicalnight-pv"
 	}
 end)()

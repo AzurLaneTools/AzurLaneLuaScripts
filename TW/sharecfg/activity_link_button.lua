@@ -28,15 +28,7 @@ pg.activity_link_button.all = {
 	107,
 	108,
 	109,
-	110,
-	111,
-	112,
-	113,
-	114,
-	115,
-	117,
-	116,
-	121
+	110
 }
 pg.activity_link_button.get_id_list_by_name = {
 	event_Atelier = {
@@ -66,16 +58,9 @@ pg.activity_link_button.get_id_list_by_name = {
 		102
 	},
 	event_core = {
-		109,
-		114,
-		117,
-		116
+		109
 	},
 	event_core_2 = {
-		113,
-		115
-	},
-	event_core_3 = {
 		110
 	},
 	event_dreamland = {
@@ -91,11 +76,7 @@ pg.activity_link_button.get_id_list_by_name = {
 		104
 	},
 	event_map = {
-		10,
-		121
-	},
-	event_map_2 = {
-		111
+		10
 	},
 	event_map_sub = {
 		11
@@ -109,9 +90,6 @@ pg.activity_link_button.get_id_list_by_name = {
 	},
 	event_old_act = {
 		13
-	},
-	event_second_map = {
-		112
 	},
 	event_senran = {
 		101
@@ -177,7 +155,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			5888
+			50651
 		}
 	}
 	pg.base.activity_link_button[11] = {
@@ -467,13 +445,27 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[109] = {
+		param = "DreamTourCoreActivityUI",
 		name = "event_core",
-		text_pic = "text_event_blackfriday",
+		text_pic = "text_event_core",
 		type = 16,
-		pic = "event_blackfriday",
+		pic = "event_core",
 		id = 109,
 		group_id = 1,
 		order = 1,
+		time = {
+			"default",
+			50652
+		}
+	}
+	pg.base.activity_link_button[110] = {
+		name = "event_core_2",
+		text_pic = "text_event_blackfriday",
+		type = 16,
+		pic = "event_blackfriday",
+		id = 110,
+		group_id = 2,
+		order = 2,
 		time = {
 			"default",
 			50234
@@ -481,129 +473,6 @@ pg.base.activity_link_button = {}
 		param = {
 			"PSSCoreActivityUI",
 			"JINNIANDECUXIAOXINGSHISHI1"
-		}
-	}
-	pg.base.activity_link_button[110] = {
-		param = "AnniversaryNineCoreActivityUI",
-		name = "event_core_3",
-		text_pic = "text_event_core3",
-		type = 16,
-		pic = "event_core3",
-		id = 110,
-		group_id = 2,
-		order = 2,
-		time = {
-			"default",
-			50611
-		}
-	}
-	pg.base.activity_link_button[111] = {
-		param = "ALYCoreActivityUI",
-		name = "event_map_2",
-		text_pic = "text_event_ryzaAtelierRe",
-		type = 16,
-		pic = "event_ryzaAtelierRe",
-		id = 111,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			50042
-		}
-	}
-	pg.base.activity_link_button[112] = {
-		param = "0",
-		name = "event_second_map",
-		text_pic = "text_event_ryza_map",
-		type = 0,
-		pic = "event_ryza_map",
-		id = 112,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			50042
-		}
-	}
-	pg.base.activity_link_button[113] = {
-		param = "EighthAnniversaryJpCoreActivityUI",
-		name = "event_core_2",
-		time = "stop",
-		text_pic = "text_event_special",
-		type = 16,
-		pic = "event_special",
-		id = 113,
-		group_id = 1,
-		order = 1
-	}
-	pg.base.activity_link_button[114] = {
-		param = "WinterFestival2025CoreActivityUI",
-		name = "event_core",
-		text_pic = "text_event_core3",
-		type = 16,
-		pic = "event_core3",
-		id = 114,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			50298
-		}
-	}
-	pg.base.activity_link_button[115] = {
-		param = "AnniversaryNineCoreActivityUI",
-		name = "event_core_2",
-		text_pic = "text_event_core2",
-		type = 16,
-		pic = "event_core2",
-		id = 115,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			50630
-		}
-	}
-	pg.base.activity_link_button[117] = {
-		param = "GeZiURCoreActivityUI",
-		name = "event_core",
-		text_pic = "text_event_core3",
-		type = 16,
-		pic = "event_core3",
-		id = 117,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			50608
-		}
-	}
-	pg.base.activity_link_button[116] = {
-		param = "HolidayCoreActivityUI",
-		name = "event_core",
-		text_pic = "text_event_core3",
-		type = 16,
-		pic = "event_core3",
-		id = 116,
-		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			51001
-		}
-	}
-	pg.base.activity_link_button[121] = {
-		param = "",
-		name = "event_map",
-		text_pic = "text_event_map",
-		type = 0,
-		pic = "event_map2",
-		id = 121,
-		group_id = 2,
-		order = 2,
-		time = {
-			"default",
-			50825
 		}
 	}
 end)()

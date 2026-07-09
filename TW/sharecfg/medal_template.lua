@@ -130,7 +130,8 @@ pg.medal_template.all = {
 	200141,
 	200151,
 	200161,
-	200171
+	200171,
+	200181
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2940,6 +2941,27 @@ end)()
 		rank = 1,
 		id = 200171,
 		explain1 = "「奢華！享夢！浮金灣！」",
+		explain2 = "活動紀念"
+	}
+	pg.base.medal_template[200181] = {
+		target_id = "50659",
+		name = "美夢巡演紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "大幕拉開，燈光亮起，摺紙為翼，魔術作筆。歡迎來到這場永不落幕的奇妙巡遊~\n——願你的每一個夢，都如馬戲團的夜晚般絢爛！",
+		next = 0,
+		icon = "9181",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9181",
+		condition = "收集8個「美夢巡迴奇妙夜」紀念貼紙。",
+		rank = 1,
+		id = 200181,
+		explain1 = "「美夢巡演奇妙夜」",
 		explain2 = "活動紀念"
 	}
 end)()

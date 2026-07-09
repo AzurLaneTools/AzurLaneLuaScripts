@@ -133,6 +133,7 @@ slot0.Update = function(slot0, slot1)
 	if slot1 == nil or slot1 == WorldMapFleet.EventUpdateShipOrder then
 		slot0:LoadModel(WorldConst.ModelSpine, slot2:GetPrefab(), nil, true, function ()
 			uv0.model:SetParent(uv0.transform:Find("ship"), false)
+			uv0:ModelOrderChanged()
 		end)
 	end
 
@@ -142,6 +143,12 @@ slot0.Update = function(slot0, slot1)
 
 	if slot1 == nil or slot1 == WorldMapFleet.EventUpdateDamageLevel then
 		slot0:UpdateDamageLevel()
+	end
+end
+
+slot0.ModelOrderChanged = function(slot0)
+	if slot0.spineRole and slot0.modelOrder then
+		slot0.spineRole:SetSortLayer(slot0.modelOrder + 2)
 	end
 end
 

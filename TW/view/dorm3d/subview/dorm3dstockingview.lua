@@ -40,16 +40,13 @@ slot0.InitHint = function(slot0)
 		if uv0.time <= 0 then
 			uv0.time = uv1.TIP_WAIT_TIME
 
-			setActive(uv0.tipTF, false)
-			setActive(uv0.clickTF, false)
-		else
-			uv0.time = uv0.time - 0.1
-
 			if isActive(uv0.tipTF) == false then
 				setActive(uv0.tipTF, true)
 				setActive(uv0.clickTF, true)
 				uv0:FlushHint()
 			end
+		else
+			uv0.time = uv0.time - 0.1
 		end
 	end, 0.1, -1)
 end

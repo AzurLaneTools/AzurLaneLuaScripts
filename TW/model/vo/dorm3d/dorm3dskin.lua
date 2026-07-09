@@ -90,4 +90,8 @@ slot0.GetModelName = function(slot0)
 	return slot0:getConfig("model_id")
 end
 
+slot0.IsShow = function(slot0)
+	return slot0:getConfig("is_show_change_skin") == 1
+end
+
 return slot0

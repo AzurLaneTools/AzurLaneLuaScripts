@@ -648,6 +648,7 @@ pg.ship_data_strengthen.all = {
 	80103,
 	80104,
 	80105,
+	80106,
 	80107,
 	80108,
 	80109,
@@ -663,9 +664,11 @@ pg.ship_data_strengthen.all = {
 	80502,
 	80503,
 	80601,
+	80602,
 	80701,
 	80702,
 	80801,
+	81801,
 	90101,
 	90102,
 	90103,
@@ -16304,6 +16307,30 @@ end)()
 			15
 		}
 	}
+	pg.base.ship_data_strengthen[80106] = {
+		id = 80106,
+		durability = {
+			19,
+			79,
+			0,
+			0,
+			54
+		},
+		level_exp = {
+			35,
+			20,
+			0,
+			0,
+			15
+		},
+		attr_exp = {
+			6,
+			26,
+			0,
+			0,
+			14
+		}
+	}
 	pg.base.ship_data_strengthen[80107] = {
 		id = 80107,
 		durability = {
@@ -16664,6 +16691,30 @@ end)()
 			14
 		}
 	}
+	pg.base.ship_data_strengthen[80602] = {
+		id = 80602,
+		durability = {
+			0,
+			0,
+			0,
+			69,
+			49
+		},
+		level_exp = {
+			0,
+			0,
+			0,
+			30,
+			35
+		},
+		attr_exp = {
+			0,
+			0,
+			0,
+			46,
+			12
+		}
+	}
 	pg.base.ship_data_strengthen[80701] = {
 		id = 80701,
 		durability = {
@@ -16734,6 +16785,30 @@ end)()
 			0,
 			0,
 			5
+		}
+	}
+	pg.base.ship_data_strengthen[81801] = {
+		id = 81801,
+		durability = {
+			52,
+			0,
+			0,
+			0,
+			46
+		},
+		level_exp = {
+			25,
+			0,
+			0,
+			0,
+			30
+		},
+		attr_exp = {
+			29,
+			0,
+			0,
+			0,
+			12
 		}
 	}
 	pg.base.ship_data_strengthen[90101] = {
@@ -17552,6 +17627,8 @@ end)()
 			11
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[960011] = {
 		id = 960011,
 		durability = {
@@ -17624,8 +17701,6 @@ end)()
 			13
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[960014] = {
 		id = 960014,
 		durability = {
@@ -19954,6 +20029,8 @@ end)()
 			0
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[49909] = {
 		id = 49909,
 		durability = {
@@ -20026,8 +20103,6 @@ end)()
 			0
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[39907] = {
 		id = 39907,
 		durability = {

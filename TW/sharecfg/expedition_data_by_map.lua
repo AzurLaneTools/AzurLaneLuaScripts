@@ -419,6 +419,9 @@ pg.expedition_data_by_map.all = {
 	2030012,
 	2030025,
 	2030026,
+	2040001,
+	2040002,
+	2040003,
 	2100000,
 	2100001,
 	2100010,
@@ -25767,6 +25770,216 @@ end)()
 			459
 		}
 	}
+	pg.base.expedition_data_by_map[2040001] = {
+		map = 2040001,
+		name = "美夢巡迴奇妙夜|| ||CHAPTER EX||E.X.",
+		bgm = "theme-magicalnight-mystic",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2040001",
+		ani_controller = "",
+		default_background = "bg_qimiaoye_cg1",
+		on_activity = 50651,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2040001",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-magicalnight-mystic",
+		uifx = "",
+		bind_map = 2040001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2040001,
+				2040021
+			},
+			{
+				2040002,
+				2040022
+			},
+			{
+				2040003,
+				2040023
+			}
+		},
+		story_id = {
+			461,
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469
+		}
+	}
+	pg.base.expedition_data_by_map[2040002] = {
+		map = 2040002,
+		name = "美夢巡迴奇妙夜|| ||CHAPTER EX||E.X.",
+		bgm = "theme-magicalnight-mystic",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2040001",
+		ani_controller = "",
+		default_background = "bg_qimiaoye_cg1",
+		on_activity = 50651,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2040001",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-magicalnight-mystic",
+		uifx = "",
+		bind_map = 2040002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2040001,
+				2040021
+			},
+			{
+				2040002,
+				2040022
+			},
+			{
+				2040003,
+				2040023
+			}
+		},
+		story_id = {
+			461,
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469
+		}
+	}
+	pg.base.expedition_data_by_map[2040003] = {
+		map = 2040003,
+		name = "美夢巡演奇妙夜·SP|| ||CHAPTER EX||E.X.",
+		bgm = "theme-magicalnight-mystic",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2040002",
+		ani_controller = "",
+		default_background = "bg_qimiaoye_cg1",
+		on_activity = 50651,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_2040002",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-magicalnight-mystic",
+		uifx = "",
+		bind_map = 2040002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2040041
+			}
+		},
+		story_id = {
+			461,
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469
+		}
+	}
 	pg.base.expedition_data_by_map[2100000] = {
 		map = 2100000,
 		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
@@ -29783,6 +29996,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.expedition_data_by_map[2100411] = {
 		map = 2100411,
 		name = "復興的讚美詩·上篇|| ||CHAPTER EX||E.X.",
@@ -29933,8 +30148,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.expedition_data_by_map[2100422] = {
 		map = 2100422,
 		name = "逆轉彩虹之塔·下篇|| ||CHAPTER EX||EX",

@@ -58,6 +58,16 @@ end
 temp()
 
 temp = function()
+	uv0["瑟"] = {
+		["堡"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["勒"] = {
 		["馬"] = {
 			["爾"] = {
@@ -500,24 +510,6 @@ temp = function()
 				["弗"] = {
 					["里"] = {
 						["德"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["云"] = {
-		["仙"] = {
-			["（"] = {
-				["后"] = {
-					["排"] = {
-						["）"] = {
 							this = true
 						}
 					}

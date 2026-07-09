@@ -25,7 +25,12 @@ pg.dorm3d_scene_animator.all = {
 	2020,
 	2021,
 	2022,
-	2023
+	2023,
+	3001,
+	3002,
+	3003,
+	3004,
+	3005
 }
 pg.dorm3d_scene_animator.get_id_list_by_room_id = {
 	{
@@ -66,6 +71,13 @@ pg.dorm3d_scene_animator.get_id_list_by_room_id = {
 	[16] = {
 		2014,
 		2017
+	},
+	[21] = {
+		3001,
+		3002,
+		3003,
+		3004,
+		3005
 	}
 }
 pg.base = pg.base or {}
@@ -186,5 +198,30 @@ pg.base.dorm3d_scene_animator = {}
 		id = 2023,
 		room_id = 14,
 		item_name = "FurnitureSlots/1140201/pre_db_aijier_study01(Clone)/pre_db_aje_chair01"
+	}
+	pg.base.dorm3d_scene_animator[3001] = {
+		id = 3001,
+		room_id = 21,
+		item_name = "no_bake_pay_prop/bedroom/pre_db_naximofu_bed01_0/pre_db_nxmf_bed01_00"
+	}
+	pg.base.dorm3d_scene_animator[3002] = {
+		id = 3002,
+		room_id = 21,
+		item_name = "no_bake_pay_prop/basement/pre_db_naximofu_basement01_0/pre_db_nxmf_frame01_0"
+	}
+	pg.base.dorm3d_scene_animator[3003] = {
+		id = 3003,
+		room_id = 21,
+		item_name = "no_bake_pay_prop/livingroom/pre_db_naximofu_living01_0/pre_db_nxmf_sofa01_0"
+	}
+	pg.base.dorm3d_scene_animator[3004] = {
+		id = 3004,
+		room_id = 21,
+		item_name = "FurnitureSlots/2210201/pre_db_naximofu_basement01(Clone)"
+	}
+	pg.base.dorm3d_scene_animator[3005] = {
+		id = 3005,
+		room_id = 21,
+		item_name = "FurnitureSlots/2210201/pre_db_naximofu_basement01(Clone)/all/fbx_db_nxmf_equipment01/vfx_desk02"
 	}
 end)()

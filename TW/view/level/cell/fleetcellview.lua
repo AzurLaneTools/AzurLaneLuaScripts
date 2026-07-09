@@ -126,6 +126,10 @@ slot2.unloadSpine = function(slot0)
 	uv0.super.UnloadSpine(slot0)
 end
 
+slot2.OnCanvasUpDate = function(slot0)
+	uv0.UpdateSortingOrder(slot0)
+end
+
 slot2.Clear = function(slot0)
 	uv0.ClearSpine(slot0)
 	uv1.super.Clear(slot0)

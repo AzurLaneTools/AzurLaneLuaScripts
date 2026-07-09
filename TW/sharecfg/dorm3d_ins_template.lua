@@ -181,7 +181,7 @@ pg.base.dorm3d_ins_template = {}
 	}
 	pg.base.dorm3d_ins_template[49905201] = {
 		ship_group = 49905,
-		name = "Ägir ",
+		name = "Ägir",
 		sculpture = "aijier",
 		picture = "Ins_499051",
 		message = "aijier_1",
@@ -196,7 +196,7 @@ pg.base.dorm3d_ins_template = {}
 	}
 	pg.base.dorm3d_ins_template[49905202] = {
 		ship_group = 49905,
-		name = "Ägir ",
+		name = "Ägir",
 		sculpture = "aijier",
 		picture = "Ins_499052",
 		message = "aijier_2",

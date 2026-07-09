@@ -3932,6 +3932,15 @@ pg.memory_template.all = {
 	5204,
 	5211,
 	5221,
+	5241,
+	5242,
+	5243,
+	5244,
+	5245,
+	5246,
+	5247,
+	5248,
+	5249,
 	10011,
 	10012,
 	10013,
@@ -74910,6 +74919,168 @@ end)()
 			"HONGSHULINDESHOUHUJINGLING1"
 		}
 	}
+	pg.base.memory_template[5241] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "月光下的引路者",
+		condition = "進入劇情模式",
+		story = "MEIMENGXUNYANQIMIAOYE1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5241,
+		icon = "memory_meimengxunyanqimiaoye1",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE1"
+		}
+	}
+	pg.base.memory_template[5242] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "美夢的守祕人",
+		condition = "進入 EPS-1",
+		story = "MEIMENGXUNYANQIMIAOYE2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5242,
+		icon = "memory_meimengxunyanqimiaoye2",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE2"
+		}
+	}
+	pg.base.memory_template[5243] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "第一場演出：火焰之舞",
+		condition = "進入 EPS-2",
+		story = "MEIMENGXUNYANQIMIAOYE3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5243,
+		icon = "memory_meimengxunyanqimiaoye3",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE3"
+		}
+	}
+	pg.base.memory_template[5244] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "第二場：受困的魔術",
+		condition = "進入 EPS-3",
+		story = "MEIMENGXUNYANQIMIAOYE4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5244,
+		icon = "memory_meimengxunyanqimiaoye4",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE4"
+		}
+	}
+	pg.base.memory_template[5245] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "第三場演出：鞦韆上的發明家",
+		condition = "進入 EPS-4",
+		story = "MEIMENGXUNYANQIMIAOYE5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5245,
+		icon = "memory_meimengxunyanqimiaoye5",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE5"
+		}
+	}
+	pg.base.memory_template[5246] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "第四場演出：夢幻畫筆",
+		condition = "進入 EPS-5",
+		story = "MEIMENGXUNYANQIMIAOYE6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5246,
+		icon = "memory_meimengxunyanqimiaoye6",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE6"
+		}
+	}
+	pg.base.memory_template[5247] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "第五場演出：一箭心動",
+		condition = "進入 EPS-6",
+		story = "MEIMENGXUNYANQIMIAOYE7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5247,
+		icon = "memory_meimengxunyanqimiaoye7",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE7"
+		}
+	}
+	pg.base.memory_template[5248] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "最後一位同伴",
+		condition = "進入 EPS-7",
+		story = "MEIMENGXUNYANQIMIAOYE8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5248,
+		icon = "memory_meimengxunyanqimiaoye8",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE8"
+		}
+	}
+	pg.base.memory_template[5249] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "美好永不落幕",
+		condition = "進入 EPS-8",
+		story = "MEIMENGXUNYANQIMIAOYE9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5249,
+		icon = "memory_meimengxunyanqimiaoye8",
+		is_open = 0,
+		unlock_pre = {
+			"MEIMENGXUNYANQIMIAOYE9"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76044,6 +76215,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA25"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20025] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76206,8 +76379,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA34"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20034] = {
 		ship_group = 0,
 		subtitle = "",
@@ -77846,6 +78017,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA44"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20125] = {
 		ship_group = 0,
 		subtitle = "",
@@ -78008,8 +78181,6 @@ end)()
 			"LINGYANGZHEXINZHIXUYU6"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20134] = {
 		ship_group = 0,
 		subtitle = "",

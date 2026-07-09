@@ -672,7 +672,11 @@ pg.activity_ins_ship_group_template.all = {
 	40114,
 	40115,
 	40317,
-	40507
+	40507,
+	81801,
+	80602,
+	80106,
+	60505
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -710,7 +714,7 @@ pg.base.activity_ins_ship_group_template = {}
 		name = "GascogneT8",
 		background = "",
 		sculpture = "jiasikenie_3",
-		nationality = 0,
+		nationality = 9,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1585,7 +1589,7 @@ end)()
 		name = "Le.Triomphant",
 		background = "",
 		sculpture = "kaixuan",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1594,7 +1598,7 @@ end)()
 		name = "P.P.O",
 		background = "",
 		sculpture = "xukufu",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1603,7 +1607,7 @@ end)()
 		name = "Vauquelin",
 		background = "",
 		sculpture = "wokelan",
-		nationality = 0,
+		nationality = 9,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1612,7 +1616,7 @@ end)()
 		name = "Tartu",
 		background = "",
 		sculpture = "taertu",
-		nationality = 0,
+		nationality = 9,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1630,7 +1634,7 @@ end)()
 		name = "Richelieu",
 		background = "",
 		sculpture = "lisailiu",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1639,7 +1643,7 @@ end)()
 		name = "Algérie",
 		background = "",
 		sculpture = "aerjiliya",
-		nationality = 0,
+		nationality = 9,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -2116,7 +2120,7 @@ end)()
 		name = "L.Téméraire",
 		background = "",
 		sculpture = "lumang_4",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -2152,7 +2156,7 @@ end)()
 		name = "S.Louis",
 		background = "",
 		sculpture = "luyijiushi",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -2170,7 +2174,7 @@ end)()
 		name = "L.Opiniâtre",
 		background = "",
 		sculpture = "juejiang",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -2179,7 +2183,7 @@ end)()
 		name = "Béarn",
 		background = "",
 		sculpture = "beiyaen",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -2784,7 +2788,7 @@ end)()
 		name = "Jeanne d'Arc",
 		background = "",
 		sculpture = "shengnvzhende_3",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -3324,7 +3328,7 @@ end)()
 		name = "DancerEmile",
 		background = "",
 		sculpture = "aimierbeierding",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -3938,7 +3942,7 @@ end)()
 		name = "Le Terrible",
 		background = "",
 		sculpture = "kebu",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4073,7 +4077,7 @@ end)()
 		name = "Brézé",
 		background = "",
 		sculpture = "Mayebuleize_2",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4280,7 +4284,7 @@ end)()
 		name = "Brest",
 		background = "",
 		sculpture = "buleisite",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4516,7 +4520,7 @@ end)()
 		name = "Guichen",
 		background = "",
 		sculpture = "jishang",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4525,7 +4529,7 @@ end)()
 		name = "Suffren",
 		background = "",
 		sculpture = "xufulun",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4552,7 +4556,7 @@ end)()
 		name = "Lyon",
 		background = "",
 		sculpture = "liang",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -5182,7 +5186,7 @@ end)()
 		name = "Strasbourg",
 		background = "",
 		sculpture = "sitelasibao",
-		nationality = 0,
+		nationality = 9,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -6717,6 +6721,42 @@ end)()
 		background = "",
 		sculpture = "gezi",
 		nationality = 4,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[81801] = {
+		ship_group = 81801,
+		name = "Cherbourg ",
+		background = "",
+		sculpture = "sebao",
+		nationality = 8,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[80602] = {
+		ship_group = 80602,
+		name = "Arromanches ",
+		background = "",
+		sculpture = "aluomangshi",
+		nationality = 8,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[80106] = {
+		ship_group = 80106,
+		name = "L'Intrépide ",
+		background = "",
+		sculpture = "wuju",
+		nationality = 8,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[60505] = {
+		ship_group = 60505,
+		name = "Conte di Cavour",
+		background = "",
+		sculpture = "jiafuerbojue",
+		nationality = 6,
 		type = 1,
 		sculpture_ii = ""
 	}
