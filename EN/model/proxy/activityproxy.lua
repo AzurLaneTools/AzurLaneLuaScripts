@@ -1188,6 +1188,8 @@ slot0.GetFakeGiftPackActivity = function(slot0, slot1)
 
 				return not uv0:isEnd() and uv0.data1 < slot0.limit_count and underscore.any(slot0.skin, function (slot0)
 					return pg.ship_skin_template[slot0].shop_id == uv0.id
+				end) and not underscore.all(slot0.skin, function (slot0)
+					return getProxy(ShipSkinProxy):hasNonLimitSkin(slot0)
 				end)
 			end
 		}, function ()

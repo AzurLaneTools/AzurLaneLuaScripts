@@ -315,7 +315,9 @@ slot0.OpenGiftActLayer = function(slot0, slot1)
 				name = slot2:getName(),
 				tipExtra = i18n("charge_title_getskin"),
 				extraItems = slot4,
-				descExtra = slot0.desc,
+				descExtra = slot0[underscore.all(slot0.special_skin, function (slot0)
+					return uv0:hasNonLimitSkin(slot0)
+				end) and "desc_2" or "desc_1"],
 				price = slot3,
 				tagType = slot1:getConfig("tag"),
 				onYes = function ()

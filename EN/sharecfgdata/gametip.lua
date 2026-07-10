@@ -5306,7 +5306,7 @@ _G.pg.base.gametip.levelScene_activate_remaster = {
 
 
 _G.pg.base.gametip.levelScene_activate_remaster_1 = {
-	tip = "Unlocking this stage requires <color=#ffde38>1 Data Key</color>.\nWould you like to unlock this stage?"
+	tip = "Unlocking this stage requires <color=#ffde38>$1 Data Key(s)</color>.\nWould you like to unlock this stage?"
 }
 
 
@@ -15063,8 +15063,8 @@ Would you like to start a Battle Simulation?
 (<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
 Equipment: <color=#92fc63>
 Prototype Triple 419mm Mk. I Main Gun Mount
-Twin 114mm (QF Mk IV Prototype)
-Single 20mm Oerlikon (Mark II)
+Twin 114mm Dual-Purpose Mark IV
+Single 20mm Mk II Oerlikon AA Gun Mount
 </color></size>]]
 }
 

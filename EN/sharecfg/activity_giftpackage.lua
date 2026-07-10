@@ -12,9 +12,10 @@ pg.base.activity_giftpackage = {}
 	pg.base.activity_giftpackage[1] = {
 		limit_count = 3,
 		price = 750,
+		desc_1 = "若前两次未获得<icon name=spskin w=0.7 h=0.7/>特殊换装，第三次必定获得\n(若已获得<icon name=spskin w=0.7 h=0.7/>特殊换装，后续将获得<color=#92fc63>其他静态换装</color>)",
 		id = 1,
 		shop_id = 60826,
-		desc = "若前两次未获得<icon name=spskin w=0.7 h=0.7/>特殊换装，第三次必定获得",
+		desc_2 = "若前两次未获得<icon name=spskin w=0.7 h=0.7/>特殊换装，第三次必定获得\n(<color=#92fc63>您已获得</color><icon name=spskin w=0.7 h=0.7/>特殊换装，后续将获得<color=#92fc63>其他静态换装</color>)",
 		special_skin = {
 			199042
 		},
