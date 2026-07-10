@@ -306,7 +306,7 @@ return {
 			hideRecordIco = true,
 			actor = 608022,
 			nameColor = "#A9F548FF",
-			say = "我……為你們打造的？",
+			say = "我……為妳們打造的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
