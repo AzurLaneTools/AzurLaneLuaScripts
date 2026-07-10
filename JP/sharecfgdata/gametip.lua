@@ -7157,7 +7157,7 @@ _G.pg.base.gametip.word_shipNation_dal = {
 
 
 _G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
-	tip = "ペドレーリア"
+	tip = "ペドレリーア"
 }
 
 
@@ -14981,9 +14981,9 @@ _G.pg.base.gametip.blueprint_simulation_confirm_29906 = {
 弾幕確認機能（模擬戦）を起動しますか？
 <color=#ff5c5c>（※実際の艦の性能と異なります</color>）
 使用兵装：<color=#92fc63>
-試作型406mmSKC連装砲
-150mmTbtsKC/36連装砲
-試作型四連装30mm機関砲
+試作型419mm三連装砲MK.I
+114mm連装両用砲MarkIV
+20mmエリコン高角砲MkII
 </color></size>]]
 }
 
