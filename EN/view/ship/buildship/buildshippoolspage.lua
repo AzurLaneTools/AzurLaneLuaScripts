@@ -424,9 +424,7 @@ slot0.SwitchPool = function(slot0, slot1)
 				return
 			end
 
-			slot1 = uv0.contextData.msgbox
-
-			slot1:ExecuteAction("Show", uv0.useTicket and {
+			uv0.contextData.msgbox:ExecuteAction("Show", uv0.useTicket and {
 				buildType = "ticket",
 				itemVO = Item.New({
 					id = slot0:getConfig("config_client")[1],
