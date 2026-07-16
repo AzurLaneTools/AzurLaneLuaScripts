@@ -9,6 +9,8 @@ slot0.execute = function(slot0, slot1)
 		if slot0.result == 0 then
 			getProxy(AuctionGameProxy):FinishBid(uv0)
 			uv1:sendNotification(GAME.AUCTION_GAME_BID_DONE, uv0)
+		elseif slot0.result == 12 then
+			uv1:sendNotification(GAME.AUCTION_GAME_KICK)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end

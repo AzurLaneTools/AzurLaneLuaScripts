@@ -27196,11 +27196,7 @@ _G.pg.base.gametip.newserver_activity_tip = {
 			info = "<color=#92fc63>· Availability</color>\nThis campaign lasts from the day you logged in with your newly-created account until 11:59 PM on the 21st day since account creation. You can also see how much longer the campaign is active on the corresponding event banner.\n"
 		},
 		{
-			info = [[
-<color=#92fc63>· Newcomer Missions</color>
-Eligible players can complete special missions to earn Campaign Points. There are two types of missions: daily missions, which update every day at midnight local server time, and one-time missions, which may only be completed once.
-Completing some of these missions yields additional rewards as well, including the shipgirls Ark Royal, U-47, and Sirius.
-]]
+			info = "<color=#92fc63>· Newcomer Missions</color>\nEligible players can complete special missions to earn Campaign Points. There are two types of missions: daily missions, which update every day at midnight local server time, and one-time missions, which may only be completed once.\n"
 		},
 		{
 			info = [[
@@ -50149,7 +50145,7 @@ _G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_3 = {
 
 
 _G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_1 = {
-	tip = "An Android's Journey"
+	tip = "Main Page"
 }
 
 
@@ -50712,4 +50708,9 @@ _G.pg.base.gametip.auction_relief_tip_2 = {
 
 _G.pg.base.gametip.nier_a2_item_got = {
 	tip = "Collected"
+}
+
+
+_G.pg.base.gametip.auction_network_timeout = {
+	tip = "Connection lost. You have left the match."
 }

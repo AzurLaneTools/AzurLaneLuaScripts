@@ -86,6 +86,8 @@ slot0.init = function(slot0)
 	setText(slot2:Find("lock/Text"), i18n("cruise_shop_no_open"))
 
 	slot0.contextData.windowForCharge = WorldCruiseChargePage.New(slot0._tf, slot0.event)
+
+	slot0:Hx4Channel()
 end
 
 slot0.didEnter = function(slot0)
@@ -219,6 +221,16 @@ slot0.willExit = function(slot0)
 		slot5:Destroy()
 
 		slot5 = nil
+	end
+end
+
+slot2 = function(slot0)
+	return slot0._tf:Find("bg/bg_1/hx_ch" .. pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony())
+end
+
+slot0.Hx4Channel = function(slot0)
+	if not IsNil(uv0(slot0)) then
+		setActive(slot1, HXSet.isHx())
 	end
 end
 

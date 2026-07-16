@@ -96,6 +96,22 @@ slot0.OnKick = function(slot0)
 	}))
 end
 
+slot0.OnReconnection = function(slot0)
+	slot0:emit(BaseUI.ON_ADD_SUBLAYER, Context.New({
+		viewComponent = AuctionGameMainMsgLayer,
+		mediator = AuctionGameMainMsgMediator,
+		data = {
+			content = i18n("auction_network_timeout"),
+			comformCallback = function ()
+				uv0:closeView()
+			end,
+			cancelCallback = function ()
+				uv0:closeView()
+			end
+		}
+	}))
+end
+
 slot0.OnNoBid = function(slot0)
 	slot1 = getProxy(AuctionGameProxy)
 

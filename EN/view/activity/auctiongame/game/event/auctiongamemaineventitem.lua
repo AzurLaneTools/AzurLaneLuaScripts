@@ -29,6 +29,10 @@ slot0.didEnter = function(slot0, slot1)
 	setText(slot0.uiNameText, shortenString(slot2.name, 9))
 	setText(slot0.uiDescText, slot2.describe)
 	LoadSpriteAsync(slot2.icon, function (slot0)
+		if IsNil(uv0.uiIconImage) then
+			return
+		end
+
 		uv0.uiIconImage.sprite = slot0
 	end)
 end

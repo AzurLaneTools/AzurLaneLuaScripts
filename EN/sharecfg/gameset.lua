@@ -3901,6 +3901,7 @@ end)()
 	pg.base.gameset.levellimit_skintype = {
 		key_value = 15,
 		description = {
+			7,
 			9,
 			19,
 			9999

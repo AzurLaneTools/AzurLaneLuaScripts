@@ -1274,6 +1274,7 @@ slot0.LoadSpinePainting = function(slot0, slot1)
 		end
 
 		uv0:CheckShowShopHx(slot0._tf:Find("shop_hx"))
+		uv0:CheckShowShopHx(slot0._tf:Find("shop_hx_ch" .. pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony()))
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 end

@@ -55,7 +55,7 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot0.viewComponent:emit(AuctionGameMainRightView.SWITCH_EMOJI)
 		end,
 		[GAME.ON_RECONNECTION] = function (slot0, slot1)
-			slot0.viewComponent:closeView()
+			slot0.viewComponent:OnReconnection()
 		end
 	}
 end
