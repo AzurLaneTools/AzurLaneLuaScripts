@@ -614,6 +614,12 @@ slot0.GameLogout = function(slot0)
 	slot0:ExitSilentView()
 end
 
+slot0.OnPlayerUpdated = function(slot0)
+	if slot0.theme and slot0.theme:GetLoaded() then
+		slot0.theme:OnPlayerUpdated()
+	end
+end
+
 slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 

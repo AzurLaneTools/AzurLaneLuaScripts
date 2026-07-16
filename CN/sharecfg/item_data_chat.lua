@@ -20,6 +20,8 @@ pg.item_data_chat.all = {
 	606,
 	607,
 	610,
+	611,
+	612,
 	10001,
 	10002,
 	10003,
@@ -171,6 +173,22 @@ pg.base.item_data_chat = {}
 		id = 610,
 		time_limit_type = 0,
 		desc = "漫步于海滨，倾听海浪的细语。\n<color=#A7A7AAFF>通过参与「夏日重建！海岛别墅度假计划！」活动获取</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[611] = {
+		name = "全息竞拍",
+		time_second = 0,
+		id = 611,
+		time_limit_type = 0,
+		desc = "全息投影，定格竞拍一瞬！\n<color=#A7A7AAFF>通过参与「特别竞拍时刻」活动获取</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[612] = {
+		name = "S级数据流",
+		time_second = 0,
+		id = 612,
+		time_limit_type = 0,
+		desc = "数据奔涌，胜负尽在此刻！\n<color=#A7A7AAFF>通过参与「特别竞拍时刻」活动获取</color>",
 		scene = {}
 	}
 	pg.base.item_data_chat[10001] = {

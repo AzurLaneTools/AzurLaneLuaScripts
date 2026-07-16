@@ -1416,6 +1416,16 @@ pg.equip_skin_template.all = {
 	1526,
 	1527,
 	1528,
+	1529,
+	1530,
+	1531,
+	1532,
+	1533,
+	1534,
+	1535,
+	1536,
+	1537,
+	1538,
 	2001,
 	2002,
 	2003,
@@ -59634,6 +59644,496 @@ end)()
 			54014
 		}
 	}
+	pg.base.equip_skin_template[1529] = {
+		orbit_slg = "",
+		name = "战斗用战术目镜（设备）",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "98641",
+		orbit_rotate = false,
+		orbit_combat = "shebei_yanzhao",
+		ship_config_id = 100011,
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 1529,
+		hit_sfx = "",
+		desc = "仿照战斗用战术目镜而做成的外观样式。",
+		derivate_boom = "",
+		orbit_ui = "shebei_yanzhaoui",
+		mirror = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.02,
+				-0.25,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				10.7,
+				-11.1
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
+	pg.base.equip_skin_template[1530] = {
+		orbit_slg = "",
+		name = "随行支援辅助机（设备）",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "98642",
+		orbit_rotate = false,
+		orbit_combat = "shebei_fuzhuji",
+		ship_config_id = 100011,
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 1530,
+		hit_sfx = "",
+		desc = "仿照随行支援辅助机（POD）而做成的外观样式。",
+		derivate_boom = "",
+		orbit_ui = "shebei_fuzhujiui",
+		mirror = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.65,
+				-0.34,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				61.17,
+				-52.25
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
+	pg.base.equip_skin_template[1531] = {
+		orbit_slg = "",
+		name = "白之契约（设备）",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "98643",
+		orbit_rotate = false,
+		orbit_combat = "shebei_baizhiqiyue",
+		ship_config_id = 100011,
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 1531,
+		hit_sfx = "",
+		desc = "仿照白之契约而做成的外观样式。",
+		derivate_boom = "",
+		orbit_ui = "shebei_baizhiqiyueui",
+		mirror = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.304,
+				-1.7,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-10.11,
+				-147
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
+	pg.base.equip_skin_template[1532] = {
+		orbit_slg = "",
+		name = "四〇式战术刀（设备）",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "98644",
+		orbit_rotate = false,
+		orbit_combat = "shebei_silingshi",
+		ship_config_id = 100011,
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 1532,
+		hit_sfx = "",
+		desc = "仿照四〇式战术刀而做成的外观样式。",
+		derivate_boom = "",
+		orbit_ui = "shebei_silingshiui",
+		mirror = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.35,
+				-1.32,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-10.11,
+				-147
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
+	pg.base.equip_skin_template[1533] = {
+		orbit_slg = "",
+		name = "Hack Burst",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "98611",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "zidan_nier_squarebullet",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 1533,
+		hit_sfx = "",
+		desc = "仿照在防火墙内激烈战斗时使用的子弹所做的设计。",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[1534] = {
+		orbit_slg = "",
+		name = "Double Burst",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "98612",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "zidan_nier_circlebullet",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 1534,
+		hit_sfx = "",
+		desc = "仿照在防火墙内激烈战斗时使用的子弹所做的设计。",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[1535] = {
+		orbit_slg = "",
+		name = "铁管鱼雷",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "98621",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "yulei_nier_irontube",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 1535,
+		hit_sfx = "",
+		desc = "仿照普通铁管而设计的鱼雷样式。",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[1536] = {
+		orbit_slg = "",
+		name = "龙骑枪鱼雷",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "98622",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "yulei_nier_dragonspear",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 1536,
+		hit_sfx = "",
+		desc = "仿照龙骑枪而设计的鱼雷样式。",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[1537] = {
+		orbit_slg = "",
+		name = "机械生命体炮弹",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "98613",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "paodan_nier_robothead",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 1537,
+		hit_sfx = "",
+		desc = "仿照机械生物的头部而设计的炮弹样式。",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[1538] = {
+		orbit_slg = "",
+		name = "三式拳套炮弹",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "98614",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "paodan_nier_fist",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 1538,
+		hit_sfx = "",
+		desc = "仿照旧式型号拳套而设计的炮弹样式。",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
 	pg.base.equip_skin_template[2001] = {
 		orbit_slg = "",
 		name = "流星鱼雷",
@@ -63104,6 +63604,8 @@ end)()
 			107
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[2082] = {
 		orbit_slg = "",
 		name = "先锋无人机（鱼雷机）",
@@ -63534,8 +64036,6 @@ end)()
 			24000
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[2092] = {
 		orbit_slg = "",
 		name = "天启光轮",
@@ -67674,6 +68174,8 @@ end)()
 			24000
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[3069] = {
 		orbit_slg = "",
 		name = "瑞马焰火盒",
@@ -68162,8 +68664,6 @@ end)()
 			"wash"
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[3083] = {
 		orbit_slg = "",
 		name = "无惧骄阳",

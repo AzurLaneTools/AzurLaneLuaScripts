@@ -650,6 +650,8 @@ pg.activity_ins_template.all = {
 	655,
 	656,
 	657,
+	658,
+	659,
 	20001,
 	20002,
 	20003,
@@ -27257,6 +27259,60 @@ end)()
 			{
 				18,
 				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[658] = {
+		ship_group = 71379,
+		name = "A2",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "A2",
+		id = 658,
+		group_id = 658,
+		time = {
+			{
+				2026,
+				7,
+				16
+			},
+			{
+				10,
+				20,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[659] = {
+		ship_group = 71380,
+		name = "2B",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "2B",
+		id = 659,
+		group_id = 659,
+		time = {
+			{
+				2026,
+				7,
+				17
+			},
+			{
+				17,
+				30,
 				0
 			}
 		},

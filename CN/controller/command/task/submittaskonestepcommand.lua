@@ -54,20 +54,7 @@ slot0.execute = function(slot0, slot1)
 			end
 
 			SubmitTaskCommand.AddGuildLivness(slot7)
-
-			if slot7:getConfig("type") == Task.TYPE_REFLUX then
-				getProxy(RefluxProxy):addPtAfterSubTasks({
-					slot7
-				})
-			end
-
-			if slot7:getConfig("type") ~= 8 then
-				uv0:removeTask(slot7)
-			else
-				slot7.submitTime = 1
-
-				uv0:updateTask(slot7)
-			end
+			SubmitTaskCommand.CheckTaskType(slot7)
 
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot9:isEnd() and table.contains(slot9:getConfig("config_data")[1] or {}, slot7.id) then
 				slot8:monitorTaskList(slot9)

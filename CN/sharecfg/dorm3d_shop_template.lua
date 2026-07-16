@@ -48,7 +48,8 @@ pg.dorm3d_shop_template.all = {
 	42,
 	43,
 	44,
-	45
+	45,
+	46
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_shop_template = {}
@@ -1039,6 +1040,29 @@ pg.base.dorm3d_shop_template = {}
 		},
 		banners = {
 			"banner_carwash1"
+		}
+	}
+	pg.base.dorm3d_shop_template[46] = {
+		rarity = 4,
+		name = "深红逸趣",
+		type = 1,
+		room_id = 49905,
+		unlock = "",
+		item_id = 1463,
+		id = 46,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270603
+		},
+		banners = {
+			"banner_furniture1463"
 		}
 	}
 end)()

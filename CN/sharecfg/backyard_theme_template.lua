@@ -132,7 +132,8 @@ pg.backyard_theme_template.all = {
 	136,
 	137,
 	138,
-	139
+	139,
+	140
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5649,6 +5650,30 @@ end)()
 			339112,
 			339113,
 			339114
+		}
+	}
+	pg.base.backyard_theme_template[140] = {
+		Cfg_1 = 5,
+		name = "地堡舱室",
+		desc = "踏入环绕于轨道的地堡居住区，在这灰白基调的舱室中短暂休整",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 140,
+		id = 140,
+		icon = "nierthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			340001,
+			340002,
+			340101,
+			340102,
+			340103,
+			340104
 		}
 	}
 end)()

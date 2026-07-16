@@ -7948,6 +7948,35 @@ pg.activity_ins_language.all = {
 	"op_reply_657_1_1",
 	"ins_op_657_1_2",
 	"op_reply_657_1_2",
+	"ins_658",
+	"ins_discuss_658_1",
+	"ins_reply_658_1_1",
+	"ins_reply_658_1_2",
+	"ins_reply_658_1_3",
+	"ins_discuss_658_2",
+	"ins_reply_658_2_1",
+	"ins_reply_658_2_2",
+	"ins_reply_658_2_3",
+	"ins_reply_658_2_4",
+	"ins_op_658_1_1",
+	"op_reply_658_1_1",
+	"ins_op_658_1_2",
+	"op_reply_658_1_2",
+	"ins_659",
+	"ins_discuss_659_1",
+	"ins_reply_659_1_1",
+	"ins_reply_659_1_2",
+	"ins_reply_659_1_3",
+	"ins_reply_659_1_4",
+	"ins_reply_659_1_5",
+	"ins_discuss_659_2",
+	"ins_reply_659_2_1",
+	"ins_reply_659_2_2",
+	"ins_reply_659_2_3",
+	"ins_op_659_1_1",
+	"op_reply_659_1_1",
+	"ins_op_659_1_2",
+	"op_reply_659_1_2",
 	"ins_20001",
 	"ins_discuss_20001_1",
 	"ins_reply_20001_1_1",
@@ -32228,6 +32257,93 @@ end)()
 	pg.base.activity_ins_language.op_reply_657_1_2 = {
 		value = ""
 	}
+	pg.base.activity_ins_language.ins_658 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_658_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_658_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_658_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_658_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_658_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_658_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_659 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_659_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_659_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_659_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_659_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_659_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_659_1_2 = {
+		value = ""
+	}
 	pg.base.activity_ins_language.ins_20001 = {
 		value = "欢迎你关注啾啾热点频道！\\n这里将为你追踪港区时事热点，带来最新鲜、最有趣的新闻报道和日常杂谈，当然也接受匿名投稿~\\n啾频道将与你一起，开启这段全新的旅程！"
 	}
@@ -32309,6 +32425,8 @@ end)()
 	pg.base.activity_ins_language.op_reply_20001_1_4 = {
 		value = "这下指挥官必须要光明正大投稿了"
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_op_20001_1_2 = {
 		value = "恭喜啾啾热点频道上线！"
 	}
@@ -32396,8 +32514,6 @@ end)()
 	pg.base.activity_ins_language.op_reply_20002_1_3 = {
 		value = "好燃啊！话说到底做到了什么……？"
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.op_reply_20002_1_4 = {
 		value = "不知道！但只要这么说，就会有一股力量从胸口涌出来！"
 	}
@@ -32611,6 +32727,8 @@ end)()
 	pg.base.activity_ins_language.op_reply_20003_2_4 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.op_reply_20003_2_5 = {
 		value = ""
 	}
@@ -32698,8 +32816,6 @@ end)()
 	pg.base.activity_ins_language.ins_20005 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20005_1 = {
 		value = ""
 	}
@@ -32913,6 +33029,8 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20008_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20008_2_1 = {
 		value = ""
 	}
@@ -33000,8 +33118,6 @@ end)()
 	pg.base.activity_ins_language.ins_20009 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20009_1 = {
 		value = ""
 	}

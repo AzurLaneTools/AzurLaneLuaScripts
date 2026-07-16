@@ -261219,3 +261219,107 @@ _G.pg.base.item_virtual_data_statistics[200820] = {
 		}
 	}
 }
+
+
+_G.pg.base.item_virtual_data_statistics[970001] = {
+	drop_gold_max = 0,
+	name = "拍卖场虚拟币",
+	display = "此币为拍卖场专用虚拟筹码……友情提示：花掉的虚拟币可以再赚，拍下的藏品们不退不换~",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/auction_coin",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 31,
+	id = 970001,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970002] = {
+	drop_gold_max = 0,
+	name = "藏品获取清单 ",
+	display = "该清单记录着持有者在拍卖场中获得过的藏品，是持有者在竞拍中大显身手的证明~",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/auction_pt_1",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970002,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970003] = {
+	drop_gold_max = 0,
+	name = "竞拍时刻表情专辑",
+	display = "获得后立刻自动开启，开启可获得竞拍时刻表情专辑限定表情（1-4）\n可在表情选项的「默认」选项卡中找到并发出此系列表情",
+	type = 98,
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/970003",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970003,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970004] = {
+	drop_gold_max = 0,
+	name = "竞拍时刻表情专辑",
+	display = "获得后立刻自动开启，开启可获得竞拍时刻表情专辑限定表情（5-9）\n可在表情选项的「默认」选项卡中找到并发出此系列表情",
+	type = 98,
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/970003",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970004,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}

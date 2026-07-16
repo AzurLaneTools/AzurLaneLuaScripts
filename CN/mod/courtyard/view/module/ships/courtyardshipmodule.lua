@@ -272,7 +272,7 @@ end
 
 slot0.HideAttachment = function(slot0, slot1)
 	if slot0._role then
-		slot0._role:SetVisible(not slot1)
+		slot0._role:SetOrbitVisible(not slot1)
 	end
 end
 

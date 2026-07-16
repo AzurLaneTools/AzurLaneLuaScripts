@@ -25,7 +25,8 @@ pg.item_data_battleui.all = {
 	205,
 	206,
 	207,
-	208
+	208,
+	209
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -383,6 +384,23 @@ pg.base.item_data_battleui = {}
 		desc = "金色的流光勾勒出星星的轮廓，璀璨的钻石镶嵌于按键之间，让每一次交锋都如同置身于奢华梦境。",
 		id = 208,
 		icon = "208",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[209] = {
+		name = "寄叶协议",
+		key = "SkinElite_20260715",
+		display_icon = "ui_209",
+		unlock = "寄叶协议战斗主题礼包获取",
+		is_unlock = 1,
+		rare = 4,
+		desc = "单调色彩构筑的极简风格指挥界面，机械纹路与战术视窗有序展开，仿佛接入寄叶部队的作战协议之中。",
+		id = 209,
+		icon = "209",
 		scene = {},
 		rare_display = {
 			1,

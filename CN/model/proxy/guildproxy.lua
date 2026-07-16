@@ -725,7 +725,7 @@ slot0.ShouldShowBattleTip = function(slot0)
 		slot2 = slot0:ShouldShowMainTip() or not slot5 and (GuildMember.IsAdministrator(slot1:getSelfDuty()) and slot1:ShouldTipActiveEvent()) and slot4() or slot5 and not slot0:GetBattleBtnRecord()
 
 		if slot5 then
-			slot2 = slot2 or slot5:IsParticipant() and slot5:AnyMissionFirstFleetCanFroamtion() or slot3(slot5) or not slot7 and not slot5:IsLimitedJoin()
+			slot2 = slot2 or slot5:IsParticipant() and slot5:AnyMissionCanFormation() or slot3(slot5) or not slot7 and not slot5:IsLimitedJoin()
 		end
 	end
 

@@ -12,12 +12,14 @@ slot0.DIALOGUE_WORLD = 3
 slot0.DIALOGUE_DORM = 4
 slot0.HIGH_TYPE_LINE = 1
 slot0.HIGH_TYPE_GAMEOBJECT = 2
+slot0.HIGH_TYPE_FLOAT = 3
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.delay = slot1.delay
 	slot0.waitScene = slot1.waitScene
 	slot0.code = slot1.code
 	slot0.alpha = slot1.alpha
+	slot0.mask = defaultValue(slot1.mask, false)
 	slot0.isWorld = defaultValue(slot1.isWorld, true)
 	slot0.styleData = slot0:GenStyleData(slot1.style)
 	slot0.highLightData = slot0:GenHighLightData(slot1.style)
@@ -25,6 +27,10 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.spriteUI = slot0:GenSpriteSearchData(slot1.spriteui)
 	slot0.sceneName = slot1.style and slot1.style.scene
 	slot0.otherTriggerTarget = slot1.style and slot1.style.trigger
+end
+
+slot0.CanClick = function(slot0)
+	return not slot0.mask
 end
 
 slot0.UpdateIsWorld = function(slot0, slot1)

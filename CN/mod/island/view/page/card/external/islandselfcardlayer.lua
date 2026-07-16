@@ -175,6 +175,8 @@ slot0.UpdataAchvItem = function(slot0, slot1, slot2)
 end
 
 slot0.Flush = function(slot0)
+	slot0.card.achvList = getProxy(IslandProxy):GetIsland():GetAchievementAgency():UpdataAchLv(slot0.card.achvList)
+
 	slot0:UpdataPhoto()
 	slot0:UpdataLabels()
 	slot0:UpdataInfos()
@@ -292,7 +294,10 @@ slot0.OnSetAchvsDone = function(slot0, slot1)
 
 	slot2:ExecuteAction("Hide")
 
-	slot0.card.achvList = slot1
+	slot3 = getProxy(IslandProxy)
+	slot3 = slot3:GetIsland()
+	slot3 = slot3:GetAchievementAgency()
+	slot0.card.achvList = slot3:UpdataAchLv(slot1)
 	slot2 = slot0.achvUIList
 
 	slot2:align(uv0.ACHV_SHOW_CNT)

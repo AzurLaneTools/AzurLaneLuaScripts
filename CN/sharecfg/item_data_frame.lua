@@ -90,6 +90,7 @@ pg.item_data_frame.all = {
 	611,
 	613,
 	614,
+	615,
 	1001,
 	1002,
 	1003,
@@ -895,6 +896,15 @@ pg.base.item_data_frame = {}
 		desc = "吉庆盈门福运转，灯笼高挂照财来~\n<color=#A7A7AA>通过参与「春满客栈Online」获取</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[615] = {
+		name = "竞拍终结者",
+		gain_by = "",
+		time_second = 0,
+		id = 615,
+		time_limit_type = 0,
+		desc = "全场目光向你看齐，你就是拍卖场无可争议的传说！\n<color=#A7A7AA>通过参与「特别竞拍时刻」获取</color>",
+		scene = {}
+	}
 	pg.base.item_data_frame[1001] = {
 		name = "甜蜜邀约",
 		gain_by = "",
@@ -1012,6 +1022,8 @@ pg.base.item_data_frame = {}
 		desc = "绿色的脉冲电流在装置间噼啪作响，跃动的电光猫耳与灯泡一同闪烁。\n<color=#A7A7AA>通过提升「宿舍计划」中纳希莫夫海军上将的契合度等级获取</color>",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1014] = {
 		name = "赛博问候 ",
 		gain_by = "",
@@ -1021,8 +1033,6 @@ pg.base.item_data_frame = {}
 		desc = "爪印与尾巴在数据流中浮现，那是来自赛博空间的猫猫问候。\n<color=#A7A7AA>通过提升「宿舍计划」中纳希莫夫海军上将的契合度等级获取</color>",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10001] = {
 		name = "限界的挑战者·双子座",
 		gain_by = "",

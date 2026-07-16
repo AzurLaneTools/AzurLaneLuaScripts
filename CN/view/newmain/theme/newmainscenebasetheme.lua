@@ -111,6 +111,12 @@ slot0.OnSwitchToNextShip = function(slot0, slot1)
 	end
 end
 
+slot0.OnPlayerUpdated = function(slot0)
+	if slot0:GetTopPanel() then
+		slot1:Refresh()
+	end
+end
+
 slot0.Refresh = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.panels) do
 		slot6:Refresh()

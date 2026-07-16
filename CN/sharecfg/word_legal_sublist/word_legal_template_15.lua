@@ -340,6 +340,9 @@ temp = function()
 	uv0["2"] = {
 		["2"] = {
 			this = true
+		},
+		B = {
+			this = true
 		}
 	}
 end

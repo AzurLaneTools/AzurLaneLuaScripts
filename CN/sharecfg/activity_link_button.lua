@@ -36,7 +36,9 @@ pg.activity_link_button.all = {
 	115,
 	117,
 	116,
-	121
+	121,
+	122,
+	131
 }
 pg.activity_link_button.get_id_list_by_name = {
 	event_Atelier = {
@@ -69,12 +71,14 @@ pg.activity_link_button.get_id_list_by_name = {
 		109,
 		114,
 		117,
-		116
+		116,
+		122
 	},
 	event_core_2 = {
 		110,
 		113,
-		115
+		115,
+		131
 	},
 	event_dreamland = {
 		103
@@ -604,6 +608,34 @@ pg.base.activity_link_button = {}
 		time = {
 			"default",
 			50825
+		}
+	}
+	pg.base.activity_link_button[122] = {
+		param = "NieRAutomataCoreActivityUI",
+		name = "event_core",
+		text_pic = "text_event_core3",
+		type = 16,
+		pic = "event_core3",
+		id = 122,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			50841
+		}
+	}
+	pg.base.activity_link_button[131] = {
+		param = "AuctionGameCoreActivityUI",
+		name = "event_core_2",
+		text_pic = "text_event_auction",
+		type = 16,
+		pic = "event_auction",
+		id = 131,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			970002
 		}
 	}
 end)()

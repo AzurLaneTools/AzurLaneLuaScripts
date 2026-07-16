@@ -1,4 +1,5 @@
 slot0 = class("MainBaseActivityBtn")
+slot0.UPDATED_TIP = "MainBaseActivityBtn::UPDATED_TIP"
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.tpl = slot1

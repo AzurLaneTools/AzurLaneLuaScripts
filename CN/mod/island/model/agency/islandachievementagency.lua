@@ -111,6 +111,23 @@ slot0.GetGotGroupMaxStageList = function(slot0)
 	return underscore.values(slot3)
 end
 
+slot0.UpdataAchLv = function(slot0, slot1)
+	slot2 = {}
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot0:GetGotGroupMaxStageList()) do
+		slot4[pg.island_achievement[slot9].group] = slot9
+	end
+
+	for slot8, slot9 in ipairs(slot1) do
+		table.insert(slot2, slot4[pg.island_achievement[slot9].group])
+	end
+
+	slot4 = nil
+
+	return slot2
+end
+
 slot0.GetGroup = function(slot0, slot1)
 	return slot0.groupDic[slot1]
 end

@@ -58,41 +58,40 @@ slot0.Reflush = function(slot0, slot1)
 end
 
 slot0.Play = function(slot0)
-	slot1 = pg.music_collect_config[slot0.list[slot0.index]].music
+	slot0.cacheMusicName = pg.music_collect_config[slot0.list[slot0.index]].music
 
-	if not slot0.cueData then
-		slot0.cueData = CueData.GetCueData()
-	end
+	onNextTick(function ()
+		slot0 = CueData.GetCueData()
+		slot0.channelName = pg.CriMgr.C_GALLERY_MUSIC
+		slot0.cueSheetName = uv0
+		slot0.cueName = ""
+		slot1 = CriWareMgr.Inst
 
-	slot0.cueData.channelName = pg.CriMgr.C_GALLERY_MUSIC
-	slot0.cueData.cueSheetName = slot1
-	slot0.cueData.cueName = ""
-	slot2 = CriWareMgr.Inst
+		slot1:PlaySound(slot0, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
+			uv0.playbackInfo = slot0
 
-	slot2:PlaySound(slot0.cueData, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
-		uv0.playbackInfo = slot0
+			uv0.playbackInfo:SetIgnoreAutoUnload(true)
 
-		uv0.playbackInfo:SetIgnoreAutoUnload(true)
+			uv0.finishDic[uv0.index] = true
 
-		uv0.finishDic[uv0.index] = true
+			existCall(uv0.callbackDic.startCall, uv0.playbackInfo:GetLength())
 
-		existCall(uv0.callbackDic.startCall, uv0.playbackInfo:GetLength())
+			if not uv0.timer then
+				uv0.timer = Timer.New(function ()
+					if not uv0.playbackInfo then
+						return
+					end
 
-		if not uv0.timer then
-			uv0.timer = Timer.New(function ()
-				if not uv0.playbackInfo then
-					return
-				end
+					existCall(uv0.callbackDic.progressCall, uv0.playbackInfo:GetTime())
 
-				existCall(uv0.callbackDic.progressCall, uv0.playbackInfo:GetTime())
+					if uv0.playbackInfo.playback:GetStatus():ToInt() == 3 then
+						uv0:Finish()
+					end
+				end, 0.033, -1)
 
-				if uv0.playbackInfo.playback:GetStatus():ToInt() == 3 then
-					uv0:Finish()
-				end
-			end, 0.033, -1)
-
-			uv0.timer:Start()
-		end
+				uv0.timer:Start()
+			end
+		end)
 	end)
 end
 
@@ -102,7 +101,14 @@ slot0.Stop = function(slot0)
 	end
 
 	slot0.playbackInfo:SetStartTime(0)
-	CriWareMgr.Inst:StopSound(slot0.cueData, CriWareMgr.CRI_FADE_TYPE.NONE)
+	slot0.playbackInfo:SetIgnoreAutoUnload(false)
+
+	slot1 = CueData.GetCueData()
+	slot1.channelName = pg.CriMgr.C_GALLERY_MUSIC
+	slot1.cueSheetName = slot0.cacheMusicName
+	slot1.cueName = ""
+
+	CriWareMgr.Inst:StopSound(slot1, CriWareMgr.CRI_FADE_TYPE.NONE)
 
 	slot0.playbackInfo = nil
 

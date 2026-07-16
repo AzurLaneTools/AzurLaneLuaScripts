@@ -23,7 +23,7 @@ slot3 = function(slot0)
 	end
 end
 
-slot4 = function(slot0, slot1, slot2)
+slot4 = function(slot0, slot1, slot2, slot3)
 	if pg.SeriesGuideMgr.GetInstance():isRunning() then
 		uv0(slot2)
 
@@ -50,10 +50,19 @@ slot4 = function(slot0, slot1, slot2)
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_TUTORIAL_COMPLETE_4)
 	end
 
-	pg.m02:sendNotification(GAME.STORY_UPDATE, {
-		storyId = slot0
-	})
-	pg.NewGuideMgr.GetInstance():Play(slot0, slot1, slot2)
+	if slot3 then
+		pg.NewGuideMgr.GetInstance():Play(slot0, slot1, function ()
+			pg.m02:sendNotification(GAME.STORY_UPDATE, {
+				storyId = uv0
+			})
+			existCall(uv1)
+		end)
+	else
+		pg.m02:sendNotification(GAME.STORY_UPDATE, {
+			storyId = slot0
+		})
+		pg.NewGuideMgr.GetInstance():Play(slot0, slot1, slot2)
+	end
 end
 
 slot0.Play = function(slot0, slot1, slot2)
@@ -96,8 +105,8 @@ slot0.PlayChapter = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.PlayByGuideId = function(slot0, slot1, slot2, slot3)
-	uv0(slot1, slot2, slot3)
+slot0.PlayByGuideId = function(slot0, slot1, slot2, slot3, slot4)
+	uv0(slot1, slot2, slot3, slot4)
 end
 
 slot0.FixGuide = function(slot0, slot1)

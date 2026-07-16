@@ -297,6 +297,14 @@ slot0.execute = function(slot0, slot1)
 		{
 			LoadingPicProxy,
 			true
+		},
+		{
+			AuctionGameBaseProxy,
+			true
+		},
+		{
+			AuctionGameProxy,
+			true
 		}
 	})
 
@@ -322,6 +330,8 @@ slot0.execute = function(slot0, slot1)
 			})
 		end
 
+		uv0:sendNotification(GAME.AUCTION_GAME_INIT, {})
+
 		if uv1 then
 			pg.PushNotificationMgr.GetInstance():Reset()
 			pg.SdkMgr.GetInstance():CreateRole(slot2.id, slot2.name, slot2.level, slot2.registerTime, slot2:getTotalGem())
@@ -346,6 +356,7 @@ slot0.execute = function(slot0, slot1)
 		uv0:sendNotification(GAME.REQUEST_MINI_GAME, {
 			type = MiniGameRequestCommand.REQUEST_HUB_DATA
 		})
+		uv0:sendNotification(GAME.REQUEST_EMOJI_INFO_FROM_SERVER)
 		LimitChallengeConst.RequestInfo()
 
 		if not LOCK_EDUCATE_SYSTEM then

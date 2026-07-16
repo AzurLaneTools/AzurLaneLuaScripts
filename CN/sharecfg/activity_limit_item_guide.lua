@@ -159,7 +159,29 @@ pg.activity_limit_item_guide.all = {
 	185,
 	186,
 	187,
-	188
+	188,
+	189,
+	190,
+	191,
+	192,
+	193,
+	194,
+	195,
+	196,
+	197,
+	198,
+	199,
+	200,
+	201,
+	202,
+	203,
+	204,
+	205,
+	206,
+	207,
+	208,
+	209,
+	210
 }
 pg.activity_limit_item_guide.get_id_list_by_activity = {
 	[4937] = {
@@ -334,6 +356,30 @@ pg.activity_limit_item_guide.get_id_list_by_activity = {
 		177,
 		178,
 		179
+	},
+	[50844] = {
+		189,
+		190,
+		191,
+		192,
+		193,
+		194,
+		195,
+		196,
+		197,
+		198,
+		199,
+		200,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210
 	}
 }
 pg.base = pg.base or {}
@@ -3276,6 +3322,383 @@ end)()
 					}
 				},
 				"补给商店兑换"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[189] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 189,
+		drop_id = 11700021,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50840,
+				"「自动步兵人形之旅」-「旅程：2B」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[190] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 190,
+		drop_id = 11700011,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50846,
+				"「自动步兵人形之旅」-「旅程：A2」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[191] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 191,
+		drop_id = 340103,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50840,
+				"「自动步兵人形之旅」-「旅程：2B」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[192] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 192,
+		drop_id = 340104,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50840,
+				"「自动步兵人形之旅」-「旅程：2B」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[193] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 193,
+		drop_id = 340101,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50845,
+				"「自动步兵人形之旅」-「挑战关」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[194] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 194,
+		drop_id = 340102,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50845,
+				"「自动步兵人形之旅」-「挑战关」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[195] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 195,
+		drop_id = 340001,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50846,
+				"「自动步兵人形之旅」-「旅程：A2」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[196] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 196,
+		drop_id = 340002,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50846,
+				"「自动步兵人形之旅」-「旅程：A2」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[197] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 197,
+		drop_id = 340105,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[198] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 198,
+		drop_id = 1529,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50840,
+				"「自动步兵人形之旅」-「旅程：2B」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[199] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 199,
+		drop_id = 1530,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50840,
+				"「自动步兵人形之旅」-「旅程：2B」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[200] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 200,
+		drop_id = 1531,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50840,
+				"「自动步兵人形之旅」-「旅程：2B」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[201] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 201,
+		drop_id = 1532,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50846,
+				"「自动步兵人形之旅」-「旅程：A2」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[202] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 202,
+		drop_id = 1533,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50846,
+				"「自动步兵人形之旅」-「旅程：A2」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[203] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 203,
+		drop_id = 1534,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50846,
+				"「自动步兵人形之旅」-「旅程：A2」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[204] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 204,
+		drop_id = 1535,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50846,
+				"「自动步兵人形之旅」-「旅程：A2」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[205] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 205,
+		drop_id = 1536,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50846,
+				"「自动步兵人形之旅」-「旅程：A2」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[206] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 206,
+		drop_id = 1537,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50846,
+				"「自动步兵人形之旅」-「旅程：A2」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[207] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 207,
+		drop_id = 1538,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50846,
+				"「自动步兵人形之旅」-「旅程：A2」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[208] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 208,
+		drop_id = 15480,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50840,
+				"「自动步兵人形之旅」-「旅程：2B」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[209] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 209,
+		drop_id = 15460,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50846,
+				"「自动步兵人形之旅」-「旅程：A2」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[210] = {
+		is_new = 1,
+		activity = 50844,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 210,
+		drop_id = 341,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50845,
+				"「自动步兵人形之旅」-「挑战关」活动奖励"
 			}
 		}
 	}

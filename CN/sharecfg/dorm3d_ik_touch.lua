@@ -32,6 +32,8 @@ pg.dorm3d_ik_touch.all = {
 	5005004,
 	6004001,
 	6004002,
+	6004003,
+	6004004,
 	7001001,
 	7001002,
 	7001003
@@ -495,6 +497,38 @@ pg.base.dorm3d_ik_touch = {}
 				100,
 				0.2
 			}
+		}
+	}
+	pg.base.dorm3d_ik_touch[6004003] = {
+		hold_time = 0,
+		body = "",
+		tip_offset = "",
+		scene_item = "FurnitureSlots/1140301/pre_db_aijier_living01(Clone)/pre_db_aje_table02/all/ZZ/fbx_db_ceram28b3",
+		trigger_type = 1,
+		ik_move = "",
+		char_id = 49905,
+		vibrate = "",
+		action_emote = "",
+		id = 6004003
+	}
+	pg.base.dorm3d_ik_touch[6004004] = {
+		hold_time = 0,
+		body = "LeftFoot",
+		scene_item = "",
+		trigger_type = 1,
+		ik_move = "",
+		char_id = 49905,
+		action_emote = "",
+		id = 6004004,
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		},
+		tip_offset = {
+			0,
+			0
 		}
 	}
 	pg.base.dorm3d_ik_touch[7001001] = {

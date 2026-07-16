@@ -6480,6 +6480,11 @@ _G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_nierautomata = {
+	tip = "NieR Automata"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "重置"
 }
@@ -49595,6 +49600,341 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.nier_a2_text_block_day1 = {
+	tip = {
+		{
+			info = "不知是何时开始，A2发现自己正行走在一条金属走廊中。走廊的窗外高楼林立，走廊的前方似乎永无尽头。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-A-1
+//:阶段识别：1-7
+//:通行密码：D.O.S
+<b>A2</b>：进入陷阱了？在什么时候……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day2 = {
+	tip = {
+		{
+			info = "不过，A2还是设法抵达了走廊的尽头。她调查了紧闭的大门，在数据库中寻找起继续前进的“钥匙”。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-A-2
+//:阶段识别：2-7
+//:通行密码：▇▇▇▇
+//:通行密码更新：HELLO
+<b>A2</b>：这种门直接破坏掉更方便……嗯？通行密码正在被修改……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day3 = {
+	tip = {
+		{
+			info = "大门打开后，走廊的结构在A2的眼前发生了改变。在一处凭空出现的房间中，A2找到了一份地图。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-A-3
+//:阶段识别：3-7
+//:通行密码：▇▇▇▇
+//:通行密码更新：REVISEDMAP
+<b>A2</b>：地图似乎没有问题……肯定有人在外部帮忙。可会是谁呢？]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day4 = {
+	tip = {
+		{
+			info = "有了地图的帮助，A2顺利穿过了如同血管般复杂的走廊。在一处标记为重要物资点的房间中，A2发现了一身从未见过的装备。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-A-4
+//:阶段识别：4-7
+//:通行密码：▇▇▇▇
+//:通行密码更新：UPGRADE
+<b>A2</b>：这身装备……是定制的啊。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day5 = {
+	tip = {
+		{
+			info = "A2注意到，每当自己抵达某类特殊区域后，地图就会进行一次更新。而这类特殊区域的判定标准就是——通行密码是否具有含义。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-A-5
+//:阶段识别：5-7
+//:通行密码：DREAMWEAVER
+<b>A2</b>：……人造人是不会做梦的。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day6 = {
+	tip = {
+		{
+			info = "走廊连接着房间，房间又连着新一条走廊，整座设施仿佛是一个无穷无尽的循环。唯一有明确变化的，只有特殊区域的通行密码。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-A-6
+//:阶段识别：6-7
+//:通行密码：UNKNOWN_UNDEFINED
+<b>A2</b>：……这次算是什么密码。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day7 = {
+	tip = {
+		{
+			info = "终于，在A2的耐心即将彻底耗尽，打算抛开地图，使用某些更加直接的手段创造捷径的时候，地图上出现了代表出口的房间。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-A-7
+//:阶段识别：7-7
+//:通行密码：▇▇▇▇
+//:通行密码更新：EXIT
+<b>A2</b>：这就意味着能出去了吧？多谢帮忙。那么，外面的世界现在变成了什么样呢……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day_fin = {
+	tip = {
+		{
+			info = ""
+		},
+		{
+			info = "//:HAPPEENDING"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day1 = {
+	tip = {
+		{
+			info = "不知是何时开始，2B发现自己来到了一片滨海沙滩上。近在咫尺的海水与天空呈现出一种病态的灰蓝色，仿佛彰显着其中蕴含的危险。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-B-1
+//:阶段识别：1-7
+//:通行密码：MIRRORSEA
+<b>2B</b>：辅助机不见了，这里是……大海？]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day2 = {
+	tip = {
+		{
+			info = "果然，敌人如预期般蜂拥而至。一场并不艰难但仍需谨慎应对的战斗后，2B调查起这些从未见过的新型敌人来。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-B-2
+//:阶段识别：2-7
+//:通行密码：EXECUTOR
+<b>2B</b>：刚才的敌人不像是机械生命体呢……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day3 = {
+	tip = {
+		{
+			info = "海滩的尽头突兀的矗立着一扇大门。2B穿过门扉，发现自己进入了一处封闭的房间，房间的中央静静陈列着一套型号未知的装备。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-B-3
+//:阶段识别：3-7
+//:通行密码：▇▇▇▇
+//:通行密码更新：UPGRADE
+<b>2B</b>：“舰装”？这装备…似乎是海战特化型。使用起来的话应该没什么危险。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day4 = {
+	tip = {
+		{
+			info = "2B穿戴好装备后，一面书架出现在房间中，随之一起出现的还有一扇虚掩的门。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-B-4
+//:阶段识别：4-7
+//:通行密码：▇▇▇▇
+//:通行密码更新：SKILLBOOK
+<b>2B</b>：攻击教材，防御教材，辅助教材……原来如此，配合那些装备一同使用的么。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day5 = {
+	tip = {
+		{
+			info = "2B走出房间后，看到的是一条通向下一个房间的走廊。而后，是更多的走廊和更多的房间。整条路如此漫长，仿佛永无尽头。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-B-5
+//:阶段识别：5-7
+//:通行密码：VITUALTOWER
+<b>2B</b>：……或许，这里是某个超巨型设施的内部。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day6 = {
+	tip = {
+		{
+			info = "终于，在推开某扇和上一扇别无二致的门后，2B看到了似曾相识的灰蓝色天空与大海。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-B-6
+//:阶段识别：6-7
+//:通行密码：EXPERIMENTERSYSTEM
+<b>2B</b>：又来到了海面上……也就是说，敌人又要出现了。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day7 = {
+	tip = {
+		{
+			info = "这一次的战斗结束后，2B穿过门扉来到了一个放满补给品的房间。房间中还有一扇敞开的门，门外的惊涛巨浪清晰可见。"
+		},
+		{
+			info = [[
+//:区域识别：NODE-B-2
+//:阶段识别：7-7
+//:通行密码：▇▇▇▇
+//:通行密码更新：EXIT
+<b>2B</b>：出口……或许是陷阱，但还是优先离开这里。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day_fin = {
+	tip = {
+		{
+			info = ""
+		},
+		{
+			info = "//:HAPPEENDING"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_core_countdown = {
+	tip = "活动时间剩余：$1天$2小时"
+}
+
+
+_G.pg.base.gametip.nier_core_award_check = {
+	tip = "查看奖励"
+}
+
+
+_G.pg.base.gametip.nier_core_task_desc = {
+	tip = "击沉任意敌人"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_day = {
+	tip = "DAY$1"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_unlock_desc = {
+	tip = "$1月$2日解锁"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_detail = {
+	tip = "查看详情"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_progress = {
+	tip = "当前进度"
+}
+
+
+_G.pg.base.gametip.nier_award_char = {
+	tip = "角色"
+}
+
+
+_G.pg.base.gametip.nier_award_furniture = {
+	tip = "家具"
+}
+
+
+_G.pg.base.gametip.nier_award_equip_skin = {
+	tip = "外观装备"
+}
+
+
+_G.pg.base.gametip.nier_award_sp_equip = {
+	tip = "特殊兵装"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_3 = {
+	tip = "旅程：2B"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_1 = {
+	tip = "自动步兵人形之旅"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_5 = {
+	tip = "奖励汇总"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_4 = {
+	tip = "挑战关"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_2 = {
+	tip = "旅程：A2"
+}
+
+
 _G.pg.base.gametip.dorm3d_carwash_button = {
 	tip = "洗车游戏"
 }
@@ -49668,6 +50008,479 @@ _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 }
 
 
+_G.pg.base.gametip.auction_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_5"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_6"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_7"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_8"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.auction_currency_noenough = {
+	tip = "虚拟币不足 "
+}
+
+
+_G.pg.base.gametip.auction_preorder_tips = {
+	tip = "是否花费虚拟币*$1进行藏品预购?"
+}
+
+
+_G.pg.base.gametip.auction_preorder_tips_1 = {
+	tip = "预购藏品将在倒计时结束后可查看"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_0 = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_1 = {
+	tip = "白"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_2 = {
+	tip = "蓝"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_3 = {
+	tip = "紫"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_4 = {
+	tip = "金"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_5 = {
+	tip = "彩"
+}
+
+
+_G.pg.base.gametip.auction_game_punishment = {
+	tip = [[
+每累计3次消极行为将禁止匹配30分钟。
+请指挥官认真对待竞拍对局。
+
+今日累计消极行为:$1次]]
+}
+
+
+_G.pg.base.gametip.auction_game_match_forbidden = {
+	tip = "禁止匹配"
+}
+
+
+_G.pg.base.gametip.auction_game_match_warning = {
+	tip = "提前退出对局，不参与当局收益结算，仅扣除门票 "
+}
+
+
+_G.pg.base.gametip.auction_game_bid_phase = {
+	tip = "开始出价"
+}
+
+
+_G.pg.base.gametip.auction_game_kick = {
+	tip = "检测到竞拍者多次未操作，已被请离拍卖场"
+}
+
+
+_G.pg.base.gametip.auction_game_nobid_tip = {
+	tip = "当前无有效出价，本局竞拍流局"
+}
+
+
+_G.pg.base.gametip.auction_game_cannot_forfeit = {
+	tip = "已经出价，无法弃权"
+}
+
+
+_G.pg.base.gametip.auction_game_forfeit_tip = {
+	tip = "放弃后，本轮及后续所有轮次将不可出价，是否确认?"
+}
+
+
+_G.pg.base.gametip.auction_game_wait_bid_phase = {
+	tip = "未到出价阶段"
+}
+
+
+_G.pg.base.gametip.auction_game_min_bid = {
+	tip = "出价需大于$1"
+}
+
+
+_G.pg.base.gametip.auction_game_bid_confirm = {
+	tip = "当前出价为：$1，是否确认出价?"
+}
+
+
+_G.pg.base.gametip.auction_game_exceeds_max_value = {
+	tip = "持有虚拟币已达上限"
+}
+
+
+_G.pg.base.gametip.auction_game_prepare = {
+	tip = "拍卖场准备中……"
+}
+
+
+_G.pg.base.gametip.auction_main_handbook = {
+	tip = "藏品图鉴"
+}
+
+
+_G.pg.base.gametip.auction_main_public_notice = {
+	tip = "公示栏"
+}
+
+
+_G.pg.base.gametip.auction_main_done = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.auction_main_doing = {
+	tip = "操作中"
+}
+
+
+_G.pg.base.gametip.auction_main_personal_event = {
+	tip = "个人事件"
+}
+
+
+_G.pg.base.gametip.auction_main_public_event = {
+	tip = "公共事件"
+}
+
+
+_G.pg.base.gametip.auction_main_select_event = {
+	tip = "选择本轮个人事件"
+}
+
+
+_G.pg.base.gametip.auction_main_pt = {
+	tip = "持有"
+}
+
+
+_G.pg.base.gametip.auction_main_bid_price = {
+	tip = "已出价："
+}
+
+
+_G.pg.base.gametip.auction_main_win = {
+	tip = "中标"
+}
+
+
+_G.pg.base.gametip.auction_main_fail = {
+	tip = "流拍"
+}
+
+
+_G.pg.base.gametip.auction_main_match_exit = {
+	tip = "是否确认取消匹配"
+}
+
+
+_G.pg.base.gametip.auction_settlement_quick = {
+	tip = "一键跳过"
+}
+
+
+_G.pg.base.gametip.auction_settlement_session = {
+	tip = "场次"
+}
+
+
+_G.pg.base.gametip.auction_settlement_name = {
+	tip = "中标人"
+}
+
+
+_G.pg.base.gametip.auction_settlement_price = {
+	tip = "中标价"
+}
+
+
+_G.pg.base.gametip.auction_settlement_value = {
+	tip = "藏品总价值"
+}
+
+
+_G.pg.base.gametip.auction_settlement_revenue = {
+	tip = "收益"
+}
+
+
+_G.pg.base.gametip.auction_settlement_dividend = {
+	tip = "分红"
+}
+
+
+_G.pg.base.gametip.auction_block_emoji = {
+	tip = "屏蔽表情"
+}
+
+
+_G.pg.base.gametip.auction_ready = {
+	tip = "对局准备中，请稍等"
+}
+
+
+_G.pg.base.gametip.auction_cancel = {
+	tip = "取 消"
+}
+
+
+_G.pg.base.gametip.auction_confirm = {
+	tip = "确 定"
+}
+
+
+_G.pg.base.gametip.auction_signin_task = {
+	tip = "任务"
+}
+
+
+_G.pg.base.gametip.auction_signin_goto = {
+	tip = "前往竞拍"
+}
+
+
+_G.pg.base.gametip.auction_signin_collect = {
+	tip = "全部领取"
+}
+
+
+_G.pg.base.gametip.auction_pt_tip = {
+	tip = "已获得："
+}
+
+
+_G.pg.base.gametip.auction_pt_collected = {
+	tip = "前往竞拍"
+}
+
+
+_G.pg.base.gametip.auction_pt_info = {
+	tip = "※奖励领取时间于8月12日24时截止"
+}
+
+
+_G.pg.base.gametip.auction_not_enough_assets = {
+	tip = "虚拟币要求：$1"
+}
+
+
+_G.pg.base.gametip.auction_forbidden_tip = {
+	tip = "检测到多次消极行为，需等待$1秒"
+}
+
+
+_G.pg.base.gametip.auction_value = {
+	tip = "藏品价值"
+}
+
+
+_G.pg.base.gametip.auction_ticket = {
+	tip = "门票"
+}
+
+
+_G.pg.base.gametip.auction_matching = {
+	tip = "匹配中"
+}
+
+
+_G.pg.base.gametip.auction_assistant = {
+	tip = "形象展示"
+}
+
+
+_G.pg.base.gametip.auction_activity_closed = {
+	tip = "活动结束"
+}
+
+
+_G.pg.base.gametip.auction_activity_closed_tip = {
+	tip = "活动已结束"
+}
+
+
+_G.pg.base.gametip.auction_collection_title = {
+	tip = "藏品图鉴"
+}
+
+
+_G.pg.base.gametip.auction_tab_text_1 = {
+	tip = "竞拍时刻"
+}
+
+
+_G.pg.base.gametip.auction_tab_text_2 = {
+	tip = "藏品登记处"
+}
+
+
+_G.pg.base.gametip.auction_matches_title = {
+	tip = "参与局数"
+}
+
+
+_G.pg.base.gametip.auction_success_cnt_title = {
+	tip = "中标局数"
+}
+
+
+_G.pg.base.gametip.auction_success_rate_title = {
+	tip = "盈亏比"
+}
+
+
+_G.pg.base.gametip.auction_currency_title = {
+	tip = "持有虚拟币"
+}
+
+
+_G.pg.base.gametip.auction_total_profit_title = {
+	tip = "总盈利"
+}
+
+
+_G.pg.base.gametip.auction_highest_profit_title = {
+	tip = "单局最高收益"
+}
+
+
+_G.pg.base.gametip.auction_collection_type_title = {
+	tip = "藏品种类"
+}
+
+
+_G.pg.base.gametip.auction_collection_price_title = {
+	tip = "藏品总价值"
+}
+
+
+_G.pg.base.gametip.auction_task_daily = {
+	tip = "日常"
+}
+
+
+_G.pg.base.gametip.auction_task_challenge = {
+	tip = "挑战"
+}
+
+
+_G.pg.base.gametip.auction_bid_keyboard_clear = {
+	tip = "归零"
+}
+
+
+_G.pg.base.gametip.auction_round_instant_buy = {
+	tip = "当前轮次中标倍率：$1"
+}
+
+
+_G.pg.base.gametip.auction_collect_unlock = {
+	tip = "已解锁："
+}
+
+
+_G.pg.base.gametip.auction_show_common_event = {
+	tip = "显示公共事件"
+}
+
+
+_G.pg.base.gametip.auction_show_personal_event = {
+	tip = "显示个人事件"
+}
+
+
+_G.pg.base.gametip.auction_store_estimate = {
+	tip = "仓库显示区价值预估:$1-$2"
+}
+
+
+_G.pg.base.gametip.auction_relief_tip = {
+	tip = "竞拍补给准备就绪，\n请指挥官注意查收。"
+}
+
+
+_G.pg.base.gametip.auction_relief_tip_2 = {
+	tip = "当前虚拟币少于500000，可领取竞拍补给：虚拟币*500000\n 今日可领取次数$1/$2"
+}
+
+
 _G.pg.base.gametip.ConsumeGem_tip = {
 	tip = {
 		{
@@ -49680,4 +50493,9 @@ _G.pg.base.gametip.ConsumeGem_tip = {
 			info = "2.该活动仅消耗钻石生效，商店内的直购礼包不参与活动。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip.nier_a2_item_got = {
+	tip = "已领取"
 }

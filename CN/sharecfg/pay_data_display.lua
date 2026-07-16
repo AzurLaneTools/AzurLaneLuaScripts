@@ -221,6 +221,9 @@ pg.pay_data_display.all = {
 	2079,
 	2080,
 	2081,
+	2085,
+	2086,
+	2087,
 	2088,
 	2089,
 	2090,
@@ -23154,6 +23157,269 @@ end)()
 			{
 				2,
 				40081,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2085] = {
+		picture = "ui10",
+		name = "寄叶协议主题礼包",
+		type = 0,
+		second_text = "",
+		descrip = "可获得战斗界面主题 寄叶协议*1",
+		subject = "寄叶协议主题礼包",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 78,
+		descrip_extra = "此处不会被看到",
+		limit_group = 110,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "",
+		extra_gem = 0,
+		id = 2085,
+		airijp_id = "",
+		name_display = "寄叶协议主题礼包",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				209,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				209,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[2086] = {
+		picture = "ui10",
+		name = "寄叶协议主题礼包(基础版)",
+		type = 0,
+		second_text = "",
+		descrip = "可获得战斗界面主题 寄叶协议*1,1000物资",
+		subject = "寄叶协议主题礼包(基础版)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 78,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		limit_group = 110,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui27",
+		extra_gem = 0,
+		id = 2086,
+		airijp_id = "com.yostarjp.azurlane.ui27",
+		name_display = "寄叶协议主题礼包(基础版)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40084,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2087] = {
+		picture = "ui10",
+		name = "寄叶协议主题礼包(豪华版)",
+		type = 0,
+		second_text = "",
+		descrip = "可获得战斗界面主题 寄叶协议*1,3060钻石",
+		subject = "寄叶协议主题礼包(豪华版)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 258,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		limit_group = 110,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui28",
+		extra_gem = 0,
+		id = 2087,
+		airijp_id = "com.yostarjp.azurlane.ui28",
+		name_display = "寄叶协议主题礼包(豪华版)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40085,
 				1
 			}
 		}

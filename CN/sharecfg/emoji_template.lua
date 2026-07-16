@@ -183,7 +183,212 @@ pg.emoji_template.all = {
 	1041,
 	1042,
 	1043,
-	1044
+	1044,
+	2001,
+	2002,
+	2003,
+	2004,
+	2005,
+	2006,
+	2007,
+	2008,
+	2009
+}
+pg.emoji_template.get_id_list_by_auction = {
+	[0] = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
+		39,
+		40,
+		41,
+		42,
+		43,
+		44,
+		45,
+		46,
+		47,
+		48,
+		49,
+		50,
+		51,
+		52,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		65,
+		66,
+		67,
+		68,
+		100,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228,
+		229,
+		230,
+		231,
+		232,
+		233,
+		234,
+		235,
+		236,
+		237,
+		238,
+		239,
+		240,
+		241,
+		242,
+		243,
+		244,
+		245,
+		246,
+		247,
+		248,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320,
+		321,
+		322,
+		323,
+		324,
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
+		358,
+		359,
+		360,
+		361,
+		362,
+		363,
+		365,
+		366,
+		367,
+		368,
+		369,
+		370,
+		371,
+		372,
+		373,
+		374,
+		375,
+		1041,
+		1042,
+		1043,
+		1044
+	},
+	{
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009
+	}
 }
 pg.base = pg.base or {}
 pg.base.emoji_template = {}
@@ -191,6 +396,7 @@ pg.base.emoji_template = {}
 (function ()
 	pg.base.emoji_template[1] = {
 		achieve = 0,
+		auction = 0,
 		index = 41,
 		pic = "1",
 		desc = "<color=#92fc63>[不可以！]</color>",
@@ -204,6 +410,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[2] = {
 		achieve = 0,
+		auction = 0,
 		index = 42,
 		pic = "2",
 		desc = "<color=#92fc63>[开玩笑的]</color>",
@@ -217,6 +424,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[3] = {
 		achieve = 0,
+		auction = 0,
 		index = 43,
 		pic = "3",
 		desc = "<color=#92fc63>[胆小鬼]</color>",
@@ -230,6 +438,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[4] = {
 		achieve = 0,
+		auction = 0,
 		index = 44,
 		pic = "4",
 		desc = "<color=#92fc63>[给我跪下]</color>",
@@ -243,6 +452,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[5] = {
 		achieve = 0,
+		auction = 0,
 		index = 45,
 		pic = "5",
 		desc = "<color=#92fc63>[通宵]</color>",
@@ -256,6 +466,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[6] = {
 		achieve = 0,
+		auction = 0,
 		index = 46,
 		pic = "6",
 		desc = "<color=#92fc63>[要来吗？]</color>",
@@ -269,6 +480,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[7] = {
 		achieve = 0,
+		auction = 0,
 		index = 47,
 		pic = "7",
 		desc = "<color=#92fc63>[咕嘿嘿…]</color>",
@@ -282,6 +494,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[8] = {
 		achieve = 0,
+		auction = 0,
 		index = 48,
 		pic = "8",
 		desc = "<color=#92fc63>[I’LL BE BACK]</color>",
@@ -295,6 +508,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[9] = {
 		achieve = 0,
+		auction = 0,
 		index = 49,
 		pic = "9",
 		desc = "<color=#92fc63>[怎么办呢~]</color>",
@@ -308,6 +522,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[10] = {
 		achieve = 0,
+		auction = 0,
 		index = 50,
 		pic = "10",
 		desc = "<color=#92fc63>[笨蛋]</color>",
@@ -321,6 +536,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[11] = {
 		achieve = 0,
+		auction = 0,
 		index = 51,
 		pic = "11",
 		desc = "<color=#92fc63>[萌]</color>",
@@ -334,6 +550,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[12] = {
 		achieve = 0,
+		auction = 0,
 		index = 52,
 		pic = "12",
 		desc = "<color=#92fc63>[早安]</color>",
@@ -347,6 +564,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[13] = {
 		achieve = 0,
+		auction = 0,
 		index = 53,
 		pic = "13",
 		desc = "<color=#92fc63>[OK]</color>",
@@ -360,6 +578,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[14] = {
 		achieve = 0,
+		auction = 0,
 		index = 54,
 		pic = "14",
 		desc = "<color=#92fc63>[拉紧]</color>",
@@ -373,6 +592,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[15] = {
 		achieve = 0,
+		auction = 0,
 		index = 55,
 		pic = "15",
 		desc = "<color=#92fc63>[变态！]</color>",
@@ -386,6 +606,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[16] = {
 		achieve = 0,
+		auction = 0,
 		index = 56,
 		pic = "16",
 		desc = "<color=#92fc63>[优雅]</color>",
@@ -399,6 +620,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[17] = {
 		achieve = 0,
+		auction = 0,
 		index = 57,
 		pic = "17",
 		desc = "<color=#92fc63>[女仆看见了]</color>",
@@ -412,6 +634,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[18] = {
 		achieve = 0,
+		auction = 0,
 		index = 58,
 		pic = "18",
 		desc = "<color=#92fc63>[迷上我了吗？]</color>",
@@ -425,6 +648,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[19] = {
 		achieve = 0,
+		auction = 0,
 		index = 59,
 		pic = "19",
 		desc = "<color=#92fc63>[差劲]</color>",
@@ -438,6 +662,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[20] = {
 		achieve = 0,
+		auction = 0,
 		index = 60,
 		pic = "20",
 		desc = "<color=#92fc63>[晚安]</color>",
@@ -451,6 +676,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[21] = {
 		achieve = 0,
+		auction = 0,
 		index = 61,
 		pic = "21",
 		desc = "<color=#92fc63>[发现猎物]</color>",
@@ -464,6 +690,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[22] = {
 		achieve = 0,
+		auction = 0,
 		index = 62,
 		pic = "22",
 		desc = "<color=#92fc63>[限界突破]</color>",
@@ -477,6 +704,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[23] = {
 		achieve = 0,
+		auction = 0,
 		index = 63,
 		pic = "23",
 		desc = "<color=#92fc63>[揍你哦]</color>",
@@ -490,6 +718,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[24] = {
 		achieve = 0,
+		auction = 0,
 		index = 64,
 		pic = "24",
 		desc = "<color=#92fc63>[请多指教]</color>",
@@ -503,6 +732,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[25] = {
 		achieve = 0,
+		auction = 0,
 		index = 65,
 		pic = "25",
 		desc = "<color=#92fc63>[！？]</color>",
@@ -516,6 +746,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[26] = {
 		achieve = 0,
+		auction = 0,
 		index = 66,
 		pic = "26",
 		desc = "<color=#92fc63>[谢谢茄子]</color>",
@@ -529,6 +760,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[27] = {
 		achieve = 0,
+		auction = 0,
 		index = 67,
 		pic = "27",
 		desc = "<color=#92fc63>[紧急事件]</color>",
@@ -542,6 +774,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[28] = {
 		achieve = 0,
+		auction = 0,
 		index = 68,
 		pic = "28",
 		desc = "<color=#92fc63>[殿下~！]</color>",
@@ -555,6 +788,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[29] = {
 		achieve = 0,
+		auction = 0,
 		index = 69,
 		pic = "29",
 		desc = "<color=#92fc63>[真走运！]</color>",
@@ -568,6 +802,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[30] = {
 		achieve = 0,
+		auction = 0,
 		index = 70,
 		pic = "30",
 		desc = "<color=#92fc63>[吃的！]</color>",
@@ -581,6 +816,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[31] = {
 		achieve = 0,
+		auction = 0,
 		index = 71,
 		pic = "31",
 		desc = "<color=#92fc63>[说啥呢]</color>",
@@ -594,6 +830,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[32] = {
 		achieve = 0,
+		auction = 0,
 		index = 72,
 		pic = "32",
 		desc = "<color=#92fc63>[就是这样]</color>",
@@ -607,6 +844,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[33] = {
 		achieve = 1,
+		auction = 0,
 		index = 73,
 		pic = "33",
 		desc = "<color=#92fc63>[惊了]</color>",
@@ -620,6 +858,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[34] = {
 		achieve = 1,
+		auction = 0,
 		index = 74,
 		pic = "34",
 		desc = "<color=#92fc63>[快住手]</color>",
@@ -633,6 +872,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[35] = {
 		achieve = 1,
+		auction = 0,
 		index = 75,
 		pic = "35",
 		desc = "<color=#92fc63>[抓到你了~]</color>",
@@ -646,6 +886,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[36] = {
 		achieve = 1,
+		auction = 0,
 		index = 76,
 		pic = "36",
 		desc = "<color=#92fc63>[好热啊…]</color>",
@@ -659,6 +900,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[37] = {
 		achieve = 1,
+		auction = 0,
 		index = 83,
 		pic = "37",
 		desc = "<color=#92fc63>[还不睡]</color>",
@@ -672,6 +914,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[38] = {
 		achieve = 1,
+		auction = 0,
 		index = 84,
 		pic = "38",
 		desc = "<color=#92fc63>[眠眠]</color>",
@@ -685,6 +928,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[39] = {
 		achieve = 1,
+		auction = 0,
 		index = 85,
 		pic = "39",
 		desc = "<color=#92fc63>[准备万全]</color>",
@@ -698,6 +942,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[40] = {
 		achieve = 1,
+		auction = 0,
 		index = 86,
 		pic = "40",
 		desc = "<color=#92fc63>[再等等]</color>",
@@ -711,6 +956,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[41] = {
 		achieve = 0,
+		auction = 0,
 		index = 1001,
 		pic = "akk",
 		desc = "<color=#92fc63>[惊]</color>",
@@ -724,6 +970,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[42] = {
 		achieve = 0,
+		auction = 0,
 		index = 1002,
 		pic = "beifa",
 		desc = "<color=#92fc63>[吓]</color>",
@@ -737,6 +984,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[43] = {
 		achieve = 0,
+		auction = 0,
 		index = 1003,
 		pic = "biaoqiang",
 		desc = "<color=#92fc63>[耶]</color>",
@@ -750,6 +998,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[44] = {
 		achieve = 0,
+		auction = 0,
 		index = 1004,
 		pic = "buli",
 		desc = "<color=#92fc63>[啦啦]</color>",
@@ -763,6 +1012,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[45] = {
 		achieve = 0,
+		auction = 0,
 		index = 1005,
 		pic = "dujiaoshou",
 		desc = "<color=#92fc63>[爱心]</color>",
@@ -776,6 +1026,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[46] = {
 		achieve = 0,
+		auction = 0,
 		index = 1006,
 		pic = "fangzhou",
 		desc = "<color=#92fc63>[鼻血]</color>",
@@ -789,6 +1040,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[47] = {
 		achieve = 0,
+		auction = 0,
 		index = 1007,
 		pic = "gaoxiong",
 		desc = "<color=#92fc63>[不]</color>",
@@ -802,6 +1054,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[48] = {
 		achieve = 0,
+		auction = 0,
 		index = 1008,
 		pic = "haiwangxing",
 		desc = "<color=#92fc63>[点头]</color>",
@@ -815,6 +1068,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[49] = {
 		achieve = 0,
+		auction = 0,
 		index = 1009,
 		pic = "haman",
 		desc = "<color=#92fc63>[生气]</color>",
@@ -828,6 +1082,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[50] = {
 		achieve = 0,
+		auction = 0,
 		index = 1010,
 		pic = "kedie",
 		desc = "<color=#92fc63>[墨镜]</color>",
@@ -841,6 +1096,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[51] = {
 		achieve = 0,
+		auction = 0,
 		index = 1011,
 		pic = "lafei",
 		desc = "<color=#92fc63>[冒泡]</color>",
@@ -854,6 +1110,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[52] = {
 		achieve = 0,
+		auction = 0,
 		index = 1012,
 		pic = "lingbo",
 		desc = "<color=#92fc63>[窘迫]</color>",
@@ -867,6 +1124,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[54] = {
 		achieve = 0,
+		auction = 0,
 		index = 1014,
 		pic = "mingshi",
 		desc = "<color=#92fc63>[流汗]</color>",
@@ -880,6 +1138,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[55] = {
 		achieve = 0,
+		auction = 0,
 		index = 1015,
 		pic = "muyue",
 		desc = "<color=#92fc63>[发呆]</color>",
@@ -893,6 +1152,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[56] = {
 		achieve = 0,
+		auction = 0,
 		index = 1016,
 		pic = "naerxun",
 		desc = "<color=#92fc63>[嘎喔]</color>",
@@ -906,6 +1166,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[57] = {
 		achieve = 0,
+		auction = 0,
 		index = 1017,
 		pic = "neet",
 		desc = "<color=#92fc63>[躺]</color>",
@@ -919,6 +1180,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[58] = {
 		achieve = 0,
+		auction = 0,
 		index = 1018,
 		pic = "ninghai",
 		desc = "<color=#92fc63>[疑惑]</color>",
@@ -932,6 +1194,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[59] = {
 		achieve = 0,
+		auction = 0,
 		index = 1019,
 		pic = "qiye",
 		desc = "<color=#92fc63>[…]</color>",
@@ -945,6 +1208,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[60] = {
 		achieve = 0,
+		auction = 0,
 		index = 1020,
 		pic = "ruihe",
 		desc = "<color=#92fc63>[拍手]</color>",
@@ -958,6 +1222,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[61] = {
 		achieve = 0,
+		auction = 0,
 		index = 1021,
 		pic = "ruyue",
 		desc = "<color=#92fc63>[害怕]</color>",
@@ -971,6 +1236,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[62] = {
 		achieve = 0,
+		auction = 0,
 		index = 1022,
 		pic = "shancheng",
 		desc = "<color=#92fc63>[晕]</color>",
@@ -984,6 +1250,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[63] = {
 		achieve = 0,
+		auction = 0,
 		index = 1023,
 		pic = "xiefei",
 		desc = "<color=#92fc63>[鄙视]</color>",
@@ -997,6 +1264,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[65] = {
 		achieve = 0,
+		auction = 0,
 		index = 1025,
 		pic = "z23",
 		desc = "<color=#92fc63>[发脾气]</color>",
@@ -1010,6 +1278,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[66] = {
 		achieve = 0,
+		auction = 0,
 		index = 1024,
 		pic = "xixue",
 		desc = "<color=#92fc63>[鬼脸]</color>",
@@ -1023,6 +1292,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[67] = {
 		achieve = 1,
+		auction = 0,
 		index = 1026,
 		pic = "zhaohe_4",
 		desc = "<color=#92fc63>[怒了！]</color>",
@@ -1036,6 +1306,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[68] = {
 		achieve = 1,
+		auction = 0,
 		index = 1027,
 		pic = "yingrui_4",
 		desc = "<color=#92fc63>[看这里！]</color>",
@@ -1049,6 +1320,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[100] = {
 		achieve = 0,
+		auction = 0,
 		index = 2001,
 		pic = "imsgSticke_akagi",
 		desc = "<color=#92fc63>[热情似火]</color>",
@@ -1062,6 +1334,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[101] = {
 		achieve = 0,
+		auction = 0,
 		index = 2002,
 		pic = "imsgSticke_akashi",
 		desc = "<color=#92fc63>[今天来点什么？]</color>",
@@ -1075,6 +1348,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[102] = {
 		achieve = 0,
+		auction = 0,
 		index = 2003,
 		pic = "imsgSticke_arkroyal",
 		desc = "<color=#92fc63>[awsl]</color>",
@@ -1088,6 +1362,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[103] = {
 		achieve = 0,
+		auction = 0,
 		index = 2004,
 		pic = "imsgSticke_enterprise",
 		desc = "<color=#92fc63>[唔嗯？]</color>",
@@ -1101,6 +1376,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[104] = {
 		achieve = 0,
+		auction = 0,
 		index = 2005,
 		pic = "imsgSticke_hammann",
 		desc = "<color=#92fc63>[啊呜呜！]</color>",
@@ -1114,6 +1390,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[105] = {
 		achieve = 0,
+		auction = 0,
 		index = 2006,
 		pic = "imsgSticke_kaga",
 		desc = "<color=#92fc63>[我没生气]</color>",
@@ -1127,6 +1404,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[106] = {
 		achieve = 0,
+		auction = 0,
 		index = 2007,
 		pic = "imsgSticke_laffey",
 		desc = "<color=#92fc63>[来点拉菲么]</color>",
@@ -1140,6 +1418,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[107] = {
 		achieve = 0,
+		auction = 0,
 		index = 2008,
 		pic = "imsgSticke_longisland",
 		desc = "<color=#92fc63>[泪流成河]</color>",
@@ -1153,6 +1432,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[108] = {
 		achieve = 0,
+		auction = 0,
 		index = 2009,
 		pic = "imsgSticke_mutsuki",
 		desc = "<color=#92fc63>[？？？]</color>",
@@ -1166,6 +1446,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[109] = {
 		achieve = 0,
+		auction = 0,
 		index = 2010,
 		pic = "imsgSticke_portland",
 		desc = "<color=#92fc63>[萌萌哒]</color>",
@@ -1179,6 +1460,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[110] = {
 		achieve = 0,
+		auction = 0,
 		index = 2011,
 		pic = "imsgSticke_sandiego",
 		desc = "<color=#92fc63>[等我改造完...]</color>",
@@ -1192,6 +1474,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[111] = {
 		achieve = 0,
+		auction = 0,
 		index = 2012,
 		pic = "imsgSticke_shiratsuyu",
 		desc = "<color=#92fc63>[Zzzz]</color>",
@@ -1205,6 +1488,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[112] = {
 		achieve = 0,
+		auction = 0,
 		index = 2013,
 		pic = "imsgSticke_tirpitz",
 		desc = "<color=#92fc63>[沉思ing]</color>",
@@ -1218,6 +1502,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[113] = {
 		achieve = 0,
+		auction = 0,
 		index = 2014,
 		pic = "imsgSticke_unicorn",
 		desc = "<color=#92fc63>[要不要锉两刀？]</color>",
@@ -1231,6 +1516,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[114] = {
 		achieve = 0,
+		auction = 0,
 		index = 2015,
 		pic = "imsgSticke_warspite",
 		desc = "<color=#92fc63>[哦豁，完蛋]</color>",
@@ -1244,6 +1530,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[201] = {
 		achieve = 0,
+		auction = 0,
 		index = 1,
 		pic = "line_part2_1",
 		desc = "<color=#92fc63>[逮捕]</color>",
@@ -1257,6 +1544,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[202] = {
 		achieve = 0,
+		auction = 0,
 		index = 2,
 		pic = "line_part2_2",
 		desc = "<color=#92fc63>[鼓足气势]</color>",
@@ -1270,6 +1558,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[203] = {
 		achieve = 0,
+		auction = 0,
 		index = 3,
 		pic = "line_part2_3",
 		desc = "<color=#92fc63>[休息中]</color>",
@@ -1283,6 +1572,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[204] = {
 		achieve = 0,
+		auction = 0,
 		index = 4,
 		pic = "line_part2_4",
 		desc = "<color=#92fc63>[你是笨蛋吗？]</color>",
@@ -1296,6 +1586,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[205] = {
 		achieve = 0,
+		auction = 0,
 		index = 5,
 		pic = "line_part2_5",
 		desc = "<color=#92fc63>[速度太慢了！]</color>",
@@ -1309,6 +1600,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[206] = {
 		achieve = 0,
+		auction = 0,
 		index = 6,
 		pic = "line_part2_6",
 		desc = "<color=#92fc63>[抱抱]</color>",
@@ -1322,6 +1614,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[207] = {
 		achieve = 0,
+		auction = 0,
 		index = 7,
 		pic = "line_part2_7",
 		desc = "<color=#92fc63>[想死一次吗？]</color>",
@@ -1335,6 +1628,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[208] = {
 		achieve = 0,
+		auction = 0,
 		index = 8,
 		pic = "line_part2_8",
 		desc = "<color=#92fc63>[Victory]</color>",
@@ -1348,6 +1642,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[209] = {
 		achieve = 0,
+		auction = 0,
 		index = 9,
 		pic = "line_part2_9",
 		desc = "<color=#92fc63>[憎恨一切]</color>",
@@ -1361,6 +1656,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[210] = {
 		achieve = 0,
+		auction = 0,
 		index = 10,
 		pic = "line_part2_10",
 		desc = "<color=#92fc63>[加油♡加油♡]</color>",
@@ -1374,6 +1670,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[211] = {
 		achieve = 0,
+		auction = 0,
 		index = 11,
 		pic = "line_part2_11",
 		desc = "<color=#92fc63>[正确答案]</color>",
@@ -1387,6 +1684,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[212] = {
 		achieve = 0,
+		auction = 0,
 		index = 12,
 		pic = "line_part2_12",
 		desc = "<color=#92fc63>[咦？]</color>",
@@ -1400,6 +1698,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[213] = {
 		achieve = 0,
+		auction = 0,
 		index = 13,
 		pic = "line_part2_13",
 		desc = "<color=#92fc63>[爱情表现]</color>",
@@ -1413,6 +1712,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[214] = {
 		achieve = 0,
+		auction = 0,
 		index = 14,
 		pic = "line_part2_14",
 		desc = "<color=#92fc63>[！？]</color>",
@@ -1426,6 +1726,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[215] = {
 		achieve = 0,
+		auction = 0,
 		index = 15,
 		pic = "line_part2_15",
 		desc = "<color=#92fc63>[任务完成]</color>",
@@ -1439,6 +1740,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[216] = {
 		achieve = 0,
+		auction = 0,
 		index = 16,
 		pic = "line_part2_16",
 		desc = "<color=#92fc63>[空气玩家？]</color>",
@@ -1452,6 +1754,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[217] = {
 		achieve = 0,
+		auction = 0,
 		index = 17,
 		pic = "line_part2_17",
 		desc = "<color=#92fc63>[超辣]</color>",
@@ -1465,6 +1768,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[218] = {
 		achieve = 0,
+		auction = 0,
 		index = 18,
 		pic = "line_part2_18",
 		desc = "<color=#92fc63>[这是品味哦]</color>",
@@ -1478,6 +1782,7 @@ pg.base.emoji_template = {}
 	}
 	pg.base.emoji_template[219] = {
 		achieve = 0,
+		auction = 0,
 		index = 19,
 		pic = "line_part2_19",
 		desc = "<color=#92fc63>[一起喝！]</color>",
@@ -1493,6 +1798,7 @@ end)()
 (function ()
 	pg.base.emoji_template[220] = {
 		achieve = 0,
+		auction = 0,
 		index = 20,
 		pic = "line_part2_20",
 		desc = "<color=#92fc63>[超可爱]</color>",
@@ -1506,6 +1812,7 @@ end)()
 	}
 	pg.base.emoji_template[221] = {
 		achieve = 0,
+		auction = 0,
 		index = 21,
 		pic = "line_part2_21",
 		desc = "<color=#92fc63>[不准看！]</color>",
@@ -1519,6 +1826,7 @@ end)()
 	}
 	pg.base.emoji_template[222] = {
 		achieve = 0,
+		auction = 0,
 		index = 22,
 		pic = "line_part2_22",
 		desc = "<color=#92fc63>[见敌必杀]</color>",
@@ -1532,6 +1840,7 @@ end)()
 	}
 	pg.base.emoji_template[223] = {
 		achieve = 0,
+		auction = 0,
 		index = 23,
 		pic = "line_part2_23",
 		desc = "<color=#92fc63>[提不起劲]</color>",
@@ -1545,6 +1854,7 @@ end)()
 	}
 	pg.base.emoji_template[224] = {
 		achieve = 0,
+		auction = 0,
 		index = 24,
 		pic = "line_part2_24",
 		desc = "<color=#92fc63>[期待哦]</color>",
@@ -1558,6 +1868,7 @@ end)()
 	}
 	pg.base.emoji_template[225] = {
 		achieve = 0,
+		auction = 0,
 		index = 25,
 		pic = "line_part2_25",
 		desc = "<color=#92fc63>[没有的不存在的]</color>",
@@ -1571,6 +1882,7 @@ end)()
 	}
 	pg.base.emoji_template[226] = {
 		achieve = 0,
+		auction = 0,
 		index = 26,
 		pic = "line_part2_26",
 		desc = "<color=#92fc63>[欢迎回来]</color>",
@@ -1584,6 +1896,7 @@ end)()
 	}
 	pg.base.emoji_template[227] = {
 		achieve = 0,
+		auction = 0,
 		index = 27,
 		pic = "line_part2_27",
 		desc = "<color=#92fc63>[呵呵呵…]</color>",
@@ -1597,6 +1910,7 @@ end)()
 	}
 	pg.base.emoji_template[228] = {
 		achieve = 0,
+		auction = 0,
 		index = 28,
 		pic = "line_part2_28",
 		desc = "<color=#92fc63>[刚起床]</color>",
@@ -1610,6 +1924,7 @@ end)()
 	}
 	pg.base.emoji_template[229] = {
 		achieve = 0,
+		auction = 0,
 		index = 29,
 		pic = "line_part2_29",
 		desc = "<color=#92fc63>[无妨]</color>",
@@ -1623,6 +1938,7 @@ end)()
 	}
 	pg.base.emoji_template[230] = {
 		achieve = 0,
+		auction = 0,
 		index = 30,
 		pic = "line_part2_30",
 		desc = "<color=#92fc63>[有问题吗？]</color>",
@@ -1636,6 +1952,7 @@ end)()
 	}
 	pg.base.emoji_template[231] = {
 		achieve = 0,
+		auction = 0,
 		index = 31,
 		pic = "line_part2_31",
 		desc = "<color=#92fc63>[Excellent]</color>",
@@ -1649,6 +1966,7 @@ end)()
 	}
 	pg.base.emoji_template[232] = {
 		achieve = 0,
+		auction = 0,
 		index = 32,
 		pic = "line_part2_32",
 		desc = "<color=#92fc63>[为什么？为什么？]</color>",
@@ -1662,6 +1980,7 @@ end)()
 	}
 	pg.base.emoji_template[233] = {
 		achieve = 0,
+		auction = 0,
 		index = 33,
 		pic = "line_part2_33",
 		desc = "<color=#92fc63>[谢谢惠顾喵]</color>",
@@ -1675,6 +1994,7 @@ end)()
 	}
 	pg.base.emoji_template[234] = {
 		achieve = 0,
+		auction = 0,
 		index = 34,
 		pic = "line_part2_34",
 		desc = "<color=#92fc63>[♪]</color>",
@@ -1688,6 +2008,7 @@ end)()
 	}
 	pg.base.emoji_template[235] = {
 		achieve = 0,
+		auction = 0,
 		index = 35,
 		pic = "line_part2_35",
 		desc = "<color=#92fc63>[真拿你那没办法]</color>",
@@ -1701,6 +2022,7 @@ end)()
 	}
 	pg.base.emoji_template[236] = {
 		achieve = 0,
+		auction = 0,
 		index = 36,
 		pic = "line_part2_36",
 		desc = "<color=#92fc63>[好吃…]</color>",
@@ -1714,6 +2036,7 @@ end)()
 	}
 	pg.base.emoji_template[237] = {
 		achieve = 0,
+		auction = 0,
 		index = 37,
 		pic = "line_part2_37",
 		desc = "<color=#92fc63>[突破天际]</color>",
@@ -1727,6 +2050,7 @@ end)()
 	}
 	pg.base.emoji_template[238] = {
 		achieve = 0,
+		auction = 0,
 		index = 38,
 		pic = "line_part2_38",
 		desc = "<color=#92fc63>[刚出货！]</color>",
@@ -1740,6 +2064,7 @@ end)()
 	}
 	pg.base.emoji_template[239] = {
 		achieve = 0,
+		auction = 0,
 		index = 39,
 		pic = "line_part2_39",
 		desc = "<color=#92fc63>[哒！]</color>",
@@ -1753,6 +2078,7 @@ end)()
 	}
 	pg.base.emoji_template[240] = {
 		achieve = 0,
+		auction = 0,
 		index = 40,
 		pic = "line_part2_40",
 		desc = "<color=#92fc63>[大碗装]</color>",
@@ -1766,6 +2092,7 @@ end)()
 	}
 	pg.base.emoji_template[241] = {
 		achieve = 1,
+		auction = 0,
 		index = 77,
 		pic = "241",
 		desc = "<color=#92fc63>[开饭啦]</color>",
@@ -1779,6 +2106,7 @@ end)()
 	}
 	pg.base.emoji_template[242] = {
 		achieve = 1,
+		auction = 0,
 		index = 78,
 		pic = "242",
 		desc = "<color=#92fc63>[闪亮登场]</color>",
@@ -1792,6 +2120,7 @@ end)()
 	}
 	pg.base.emoji_template[243] = {
 		achieve = 1,
+		auction = 0,
 		index = 79,
 		pic = "243",
 		desc = "<color=#92fc63>[吃什么呢？]</color>",
@@ -1805,6 +2134,7 @@ end)()
 	}
 	pg.base.emoji_template[244] = {
 		achieve = 1,
+		auction = 0,
 		index = 80,
 		pic = "244",
 		desc = "<color=#92fc63>[让我看看]</color>",
@@ -1818,6 +2148,7 @@ end)()
 	}
 	pg.base.emoji_template[245] = {
 		achieve = 1,
+		auction = 0,
 		index = 81,
 		pic = "245",
 		desc = "<color=#92fc63>[按摩按摩]</color>",
@@ -1831,6 +2162,7 @@ end)()
 	}
 	pg.base.emoji_template[246] = {
 		achieve = 1,
+		auction = 0,
 		index = 82,
 		pic = "246",
 		desc = "<color=#92fc63>[乖巧]</color>",
@@ -1844,6 +2176,7 @@ end)()
 	}
 	pg.base.emoji_template[247] = {
 		achieve = 1,
+		auction = 0,
 		index = 83,
 		pic = "247",
 		desc = "<color=#92fc63>[别看]</color>",
@@ -1857,6 +2190,7 @@ end)()
 	}
 	pg.base.emoji_template[248] = {
 		achieve = 1,
+		auction = 0,
 		index = 84,
 		pic = "248",
 		desc = "<color=#92fc63>[大大]</color>",
@@ -1870,6 +2204,7 @@ end)()
 	}
 	pg.base.emoji_template[301] = {
 		achieve = 0,
+		auction = 0,
 		index = 970,
 		pic = "part2_abc",
 		desc = "<color=#92fc63>[打call]</color>",
@@ -1883,6 +2218,7 @@ end)()
 	}
 	pg.base.emoji_template[302] = {
 		achieve = 0,
+		auction = 0,
 		index = 971,
 		pic = "part2_arky",
 		desc = "<color=#92fc63>[咔嚓]</color>",
@@ -1896,6 +2232,7 @@ end)()
 	}
 	pg.base.emoji_template[303] = {
 		achieve = 0,
+		auction = 0,
 		index = 972,
 		pic = "part2_aks3",
 		desc = "<color=#92fc63>[要掉了]</color>",
@@ -1909,6 +2246,7 @@ end)()
 	}
 	pg.base.emoji_template[304] = {
 		achieve = 0,
+		auction = 0,
 		index = 973,
 		pic = "part2_aynm",
 		desc = "<color=#92fc63>[停下来啊！]</color>",
@@ -1922,6 +2260,7 @@ end)()
 	}
 	pg.base.emoji_template[305] = {
 		achieve = 0,
+		auction = 0,
 		index = 974,
 		pic = "part2_bbr",
 		desc = "<color=#92fc63>[点赞]</color>",
@@ -1935,6 +2274,7 @@ end)()
 	}
 	pg.base.emoji_template[306] = {
 		achieve = 0,
+		auction = 0,
 		index = 975,
 		pic = "part2_bil",
 		desc = "<color=#92fc63>[变魔术]</color>",
@@ -1948,6 +2288,7 @@ end)()
 	}
 	pg.base.emoji_template[307] = {
 		achieve = 0,
+		auction = 0,
 		index = 976,
 		pic = "part2_brcr",
 		desc = "<color=#92fc63>[脸红]</color>",
@@ -1961,6 +2302,7 @@ end)()
 	}
 	pg.base.emoji_template[308] = {
 		achieve = 0,
+		auction = 0,
 		index = 977,
 		pic = "part2_crb",
 		desc = "<color=#92fc63>[一起喝？]</color>",
@@ -1974,6 +2316,7 @@ end)()
 	}
 	pg.base.emoji_template[309] = {
 		achieve = 0,
+		auction = 0,
 		index = 978,
 		pic = "part2_dih",
 		desc = "<color=#92fc63>[吓晕]</color>",
@@ -1987,6 +2330,7 @@ end)()
 	}
 	pg.base.emoji_template[310] = {
 		achieve = 0,
+		auction = 0,
 		index = 979,
 		pic = "part2_edrj",
 		desc = "<color=#92fc63>[充电ing]</color>",
@@ -2000,6 +2344,7 @@ end)()
 	}
 	pg.base.emoji_template[311] = {
 		achieve = 0,
+		auction = 0,
 		index = 980,
 		pic = "part2_etpriz",
 		desc = "<color=#92fc63>[去吧！]</color>",
@@ -2013,6 +2358,7 @@ end)()
 	}
 	pg.base.emoji_template[312] = {
 		achieve = 0,
+		auction = 0,
 		index = 981,
 		pic = "part2_flfy",
 		desc = "<color=#92fc63>[大哭]</color>",
@@ -2026,6 +2372,7 @@ end)()
 	}
 	pg.base.emoji_template[313] = {
 		achieve = 0,
+		auction = 0,
 		index = 982,
 		pic = "part2_fs",
 		desc = "<color=#92fc63>[闪闪红花]</color>",
@@ -2039,6 +2386,7 @@ end)()
 	}
 	pg.base.emoji_template[314] = {
 		achieve = 0,
+		auction = 0,
 		index = 983,
 		pic = "part2_hbk",
 		desc = "<color=#92fc63>[吹奏]</color>",
@@ -2052,6 +2400,7 @@ end)()
 	}
 	pg.base.emoji_template[315] = {
 		achieve = 0,
+		auction = 0,
 		index = 984,
 		pic = "part2_hnnn",
 		desc = "<color=#92fc63>[水管]</color>",
@@ -2065,6 +2414,7 @@ end)()
 	}
 	pg.base.emoji_template[316] = {
 		achieve = 0,
+		auction = 0,
 		index = 985,
 		pic = "part2_hp",
 		desc = "<color=#92fc63>[气]</color>",
@@ -2078,6 +2428,7 @@ end)()
 	}
 	pg.base.emoji_template[317] = {
 		achieve = 0,
+		auction = 0,
 		index = 986,
 		pic = "part2_jbr",
 		desc = "<color=#92fc63>[被戳]</color>",
@@ -2091,6 +2442,7 @@ end)()
 	}
 	pg.base.emoji_template[318] = {
 		achieve = 0,
+		auction = 0,
 		index = 987,
 		pic = "part2_lp",
 		desc = "<color=#92fc63>[咕嘟咕嘟]</color>",
@@ -2104,6 +2456,7 @@ end)()
 	}
 	pg.base.emoji_template[319] = {
 		achieve = 0,
+		auction = 0,
 		index = 988,
 		pic = "part2_mknm",
 		desc = "<color=#92fc63>[欸嘿嘿]</color>",
@@ -2117,6 +2470,7 @@ end)()
 	}
 	pg.base.emoji_template[320] = {
 		achieve = 0,
+		auction = 0,
 		index = 989,
 		pic = "part2_mks",
 		desc = "<color=#92fc63>[失落]</color>",
@@ -2130,6 +2484,7 @@ end)()
 	}
 	pg.base.emoji_template[321] = {
 		achieve = 0,
+		auction = 0,
 		index = 990,
 		pic = "part2_sdeig",
 		desc = "<color=#92fc63>[跑来跑去]</color>",
@@ -2143,6 +2498,7 @@ end)()
 	}
 	pg.base.emoji_template[322] = {
 		achieve = 0,
+		auction = 0,
 		index = 991,
 		pic = "part2_srcy",
 		desc = "<color=#92fc63>[晕头转向]</color>",
@@ -2156,6 +2512,7 @@ end)()
 	}
 	pg.base.emoji_template[323] = {
 		achieve = 0,
+		auction = 0,
 		index = 992,
 		pic = "part2_ync",
 		desc = "<color=#92fc63>[唱歌]</color>",
@@ -2169,6 +2526,7 @@ end)()
 	}
 	pg.base.emoji_template[324] = {
 		achieve = 0,
+		auction = 0,
 		index = 993,
 		pic = "part2_z23",
 		desc = "<color=#92fc63>[听我上课！]</color>",
@@ -2182,6 +2540,7 @@ end)()
 	}
 	pg.base.emoji_template[351] = {
 		achieve = 0,
+		auction = 0,
 		index = 937,
 		pic = "part3_amz",
 		desc = "<color=#92fc63>[点这里]</color>",
@@ -2195,6 +2554,7 @@ end)()
 	}
 	pg.base.emoji_template[352] = {
 		achieve = 0,
+		auction = 0,
 		index = 938,
 		pic = "part3_ynm",
 		desc = "<color=#92fc63>[灵魂出窍]</color>",
@@ -2208,6 +2568,7 @@ end)()
 	}
 	pg.base.emoji_template[353] = {
 		achieve = 0,
+		auction = 0,
 		index = 939,
 		pic = "part3_bc2",
 		desc = "<color=#92fc63>[嘲讽]</color>",
@@ -2221,6 +2582,7 @@ end)()
 	}
 	pg.base.emoji_template[354] = {
 		achieve = 0,
+		auction = 0,
 		index = 940,
 		pic = "part3_cl",
 		desc = "<color=#92fc63>[吃披萨]</color>",
@@ -2234,6 +2596,7 @@ end)()
 	}
 	pg.base.emoji_template[355] = {
 		achieve = 0,
+		auction = 0,
 		index = 941,
 		pic = "part3_ent",
 		desc = "<color=#92fc63>[锵]</color>",
@@ -2247,6 +2610,7 @@ end)()
 	}
 	pg.base.emoji_template[356] = {
 		achieve = 0,
+		auction = 0,
 		index = 942,
 		pic = "part3_ess",
 		desc = "<color=#92fc63>[柠檬]</color>",
@@ -2260,6 +2624,7 @@ end)()
 	}
 	pg.base.emoji_template[357] = {
 		achieve = 0,
+		auction = 0,
 		index = 943,
 		pic = "part3_fmdb",
 		desc = "<color=#92fc63>[收拾你]</color>",
@@ -2273,6 +2638,7 @@ end)()
 	}
 	pg.base.emoji_template[358] = {
 		achieve = 0,
+		auction = 0,
 		index = 944,
 		pic = "part3_gbbb",
 		desc = "<color=#92fc63>[双重闪亮]</color>",
@@ -2286,6 +2652,7 @@ end)()
 	}
 	pg.base.emoji_template[359] = {
 		achieve = 0,
+		auction = 0,
 		index = 945,
 		pic = "part3_gkk",
 		desc = "<color=#92fc63>[我来了]</color>",
@@ -2299,6 +2666,7 @@ end)()
 	}
 	pg.base.emoji_template[360] = {
 		achieve = 0,
+		auction = 0,
 		index = 946,
 		pic = "part3_hd",
 		desc = "<color=#92fc63>[砰砰]</color>",
@@ -2312,6 +2680,7 @@ end)()
 	}
 	pg.base.emoji_template[361] = {
 		achieve = 0,
+		auction = 0,
 		index = 947,
 		pic = "part3_hr",
 		desc = "<color=#92fc63>[歌唱生命]</color>",
@@ -2325,6 +2694,7 @@ end)()
 	}
 	pg.base.emoji_template[362] = {
 		achieve = 0,
+		auction = 0,
 		index = 948,
 		pic = "part3_jbr",
 		desc = "<color=#92fc63>[标枪]</color>",
@@ -2338,6 +2708,7 @@ end)()
 	}
 	pg.base.emoji_template[363] = {
 		achieve = 0,
+		auction = 0,
 		index = 949,
 		pic = "part3_lp",
 		desc = "<color=#92fc63>[兔耳飞]</color>",
@@ -2351,6 +2722,7 @@ end)()
 	}
 	pg.base.emoji_template[365] = {
 		achieve = 0,
+		auction = 0,
 		index = 951,
 		pic = "part3_ms",
 		desc = "<color=#92fc63>[加班]</color>",
@@ -2364,6 +2736,7 @@ end)()
 	}
 	pg.base.emoji_template[366] = {
 		achieve = 0,
+		auction = 0,
 		index = 952,
 		pic = "part3_qer",
 		desc = "<color=#92fc63>[要哭了]</color>",
@@ -2377,6 +2750,7 @@ end)()
 	}
 	pg.base.emoji_template[367] = {
 		achieve = 0,
+		auction = 0,
 		index = 953,
 		pic = "part3_ron",
 		desc = "<color=#92fc63>[微笑靠近]</color>",
@@ -2390,6 +2764,7 @@ end)()
 	}
 	pg.base.emoji_template[368] = {
 		achieve = 0,
+		auction = 0,
 		index = 954,
 		pic = "part3_srtg",
 		desc = "<color=#92fc63>[小海豹]</color>",
@@ -2403,6 +2778,7 @@ end)()
 	}
 	pg.base.emoji_template[369] = {
 		achieve = 0,
+		auction = 0,
 		index = 955,
 		pic = "part3_tlpc",
 		desc = "<color=#92fc63>[极限愤怒]</color>",
@@ -2416,6 +2792,7 @@ end)()
 	}
 	pg.base.emoji_template[370] = {
 		achieve = 0,
+		auction = 0,
 		index = 956,
 		pic = "part3_ty",
 		desc = "<color=#92fc63>[花花]</color>",
@@ -2429,6 +2806,7 @@ end)()
 	}
 	pg.base.emoji_template[371] = {
 		achieve = 0,
+		auction = 0,
 		index = 957,
 		pic = "part3_wsfit2",
 		desc = "<color=#92fc63>[真没办法]</color>",
@@ -2442,6 +2820,7 @@ end)()
 	}
 	pg.base.emoji_template[372] = {
 		achieve = 0,
+		auction = 0,
 		index = 958,
 		pic = "part3_ykkj",
 		desc = "<color=#92fc63>[哇哈哈]</color>",
@@ -2455,6 +2834,7 @@ end)()
 	}
 	pg.base.emoji_template[373] = {
 		achieve = 0,
+		auction = 0,
 		index = 959,
 		pic = "part3_ynp",
 		desc = "<color=#92fc63>[超美味！]</color>",
@@ -2468,6 +2848,7 @@ end)()
 	}
 	pg.base.emoji_template[374] = {
 		achieve = 0,
+		auction = 0,
 		index = 960,
 		pic = "part3_z23",
 		desc = "<color=#92fc63>[快停下啊！]</color>",
@@ -2481,6 +2862,7 @@ end)()
 	}
 	pg.base.emoji_template[375] = {
 		achieve = 0,
+		auction = 0,
 		index = 950,
 		pic = "part3_mnc",
 		desc = "<color=#92fc63>[哼哼]</color>",
@@ -2494,6 +2876,7 @@ end)()
 	}
 	pg.base.emoji_template[1041] = {
 		achieve = 1,
+		auction = 0,
 		index = 87,
 		pic = "1041",
 		desc = "<color=#92fc63>[惊]</color>",
@@ -2507,6 +2890,7 @@ end)()
 	}
 	pg.base.emoji_template[1042] = {
 		achieve = 1,
+		auction = 0,
 		index = 88,
 		pic = "1042",
 		desc = "<color=#92fc63>[开工！]</color>",
@@ -2520,6 +2904,7 @@ end)()
 	}
 	pg.base.emoji_template[1043] = {
 		achieve = 1,
+		auction = 0,
 		index = 89,
 		pic = "1043",
 		desc = "<color=#92fc63>[使命必达！]</color>",
@@ -2533,12 +2918,139 @@ end)()
 	}
 	pg.base.emoji_template[1044] = {
 		achieve = 1,
+		auction = 0,
 		index = 90,
 		pic = "1044",
 		desc = "<color=#92fc63>[已下线……]</color>",
 		item_name = "聊天表情：已下线……",
 		item_desc = "聊天表情：已下线……可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		id = 1044,
+		icon = "",
+		type = {
+			1
+		}
+	}
+	pg.base.emoji_template[2001] = {
+		achieve = 1,
+		auction = 1,
+		index = 91,
+		pic = "auction_1",
+		desc = "<color=#92fc63>[还好吗？]</color>",
+		item_name = "聊天表情：还好吗？",
+		item_desc = "聊天表情：还好吗？可以在表情选项的「默认」选项卡中找到并发出此表情。 ",
+		id = 2001,
+		icon = "",
+		type = {
+			1
+		}
+	}
+	pg.base.emoji_template[2002] = {
+		achieve = 1,
+		auction = 1,
+		index = 92,
+		pic = "auction_2",
+		desc = "<color=#92fc63>[势在必得！]</color>",
+		item_name = "聊天表情：势在必得！",
+		item_desc = "聊天表情：势在必得！可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		id = 2002,
+		icon = "",
+		type = {
+			1
+		}
+	}
+	pg.base.emoji_template[2003] = {
+		achieve = 1,
+		auction = 1,
+		index = 93,
+		pic = "auction_3",
+		desc = "<color=#92fc63>[梭哈！]</color>",
+		item_name = "聊天表情：梭哈！",
+		item_desc = "聊天表情：梭哈！可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		id = 2003,
+		icon = "",
+		type = {
+			1
+		}
+	}
+	pg.base.emoji_template[2004] = {
+		achieve = 1,
+		auction = 1,
+		index = 94,
+		pic = "auction_4",
+		desc = "<color=#92fc63>[什么？！]</color>",
+		item_name = "聊天表情：什么？！",
+		item_desc = "聊天表情：什么？！可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		id = 2004,
+		icon = "",
+		type = {
+			1
+		}
+	}
+	pg.base.emoji_template[2005] = {
+		achieve = 1,
+		auction = 1,
+		index = 95,
+		pic = "auction_5",
+		desc = "<color=#92fc63>[牌没有问题]</color>",
+		item_name = "聊天表情：牌没有问题",
+		item_desc = "聊天表情：牌没有问题，可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		id = 2005,
+		icon = "",
+		type = {
+			1
+		}
+	}
+	pg.base.emoji_template[2006] = {
+		achieve = 1,
+		auction = 1,
+		index = 96,
+		pic = "auction_6",
+		desc = "<color=#92fc63>[搞快点！]</color>",
+		item_name = "聊天表情：搞快点！",
+		item_desc = "聊天表情：搞快点！可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		id = 2006,
+		icon = "",
+		type = {
+			1
+		}
+	}
+	pg.base.emoji_template[2007] = {
+		achieve = 1,
+		auction = 1,
+		index = 97,
+		pic = "auction_7",
+		desc = "<color=#92fc63>[别和我抢！]</color>",
+		item_name = "聊天表情：别和我抢！",
+		item_desc = "聊天表情：别和我抢！可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		id = 2007,
+		icon = "",
+		type = {
+			1
+		}
+	}
+	pg.base.emoji_template[2008] = {
+		achieve = 1,
+		auction = 1,
+		index = 98,
+		pic = "auction_8",
+		desc = "<color=#92fc63>[掰掰~]</color>",
+		item_name = "聊天表情：掰掰~",
+		item_desc = "聊天表情：掰掰~可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		id = 2008,
+		icon = "",
+		type = {
+			1
+		}
+	}
+	pg.base.emoji_template[2009] = {
+		achieve = 1,
+		auction = 1,
+		index = 99,
+		pic = "auction_9",
+		desc = "<color=#92fc63>[窝腰烟牌~]</color>",
+		item_name = "聊天表情：窝腰烟牌～",
+		item_desc = "聊天表情：窝腰烟牌～，可以在表情选项的「默认」选项卡中找到并发出此表情",
+		id = 2009,
 		icon = "",
 		type = {
 			1
