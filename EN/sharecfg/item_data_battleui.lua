@@ -25,7 +25,8 @@ pg.item_data_battleui.all = {
 	205,
 	206,
 	207,
-	208
+	208,
+	209
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -383,6 +384,23 @@ pg.base.item_data_battleui = {}
 		desc = "A river of gold coalesces into the shape of stars, each button studded with glistening diamonds. Transform every battle into an opulent, glamorous dream.",
 		id = 208,
 		icon = "208",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[209] = {
+		name = "YoRHa",
+		key = "SkinElite_20260715",
+		display_icon = "ui_209",
+		unlock = "Buy the Battle UI Pack - YoRHa",
+		is_unlock = 1,
+		rare = 4,
+		desc = "A minimalist, monochrome UI. Its impersonal, mechanical patterns and tactical interface are arranged in an orderly manner, creating an atmosphere reminiscent of the YoRHa squadron.",
+		id = 209,
+		icon = "209",
 		scene = {},
 		rare_display = {
 			1,

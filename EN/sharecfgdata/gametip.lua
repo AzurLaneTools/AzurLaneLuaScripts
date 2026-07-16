@@ -5332,7 +5332,7 @@ _G.pg.base.gametip.levelScene_remaster_help_tip = {
 			info = "· You can store up to <color=#92fc63>300</color> Data Keys at a time. Any Data Keys you collect beyond this point will be <color=#92fc63>discarded</color>."
 		},
 		{
-			info = "· Using 1 Data Key lets you do <color=#92fc63>1 run</color> on any archived event stage of your choosing."
+			info = "· Use Data Keys to gain access to <color=#92fc63>1 run</color> on any archived event stage of your choosing."
 		},
 		{
 			info = "· You can play on any stage from a given archived event, except for EX Stages, if applicable."
@@ -7171,6 +7171,11 @@ _G.pg.base.gametip.word_shipNation_dal = {
 
 _G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
 	tip = "Liga de Pedrería"
+}
+
+
+_G.pg.base.gametip.word_shipNation_nierautomata = {
+	tip = "NieR:Automata"
 }
 
 
@@ -49828,6 +49833,341 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.nier_a2_text_block_day1 = {
+	tip = {
+		{
+			info = "A2 suddenly finds herself walking alone down a metallic corridor. The corridor seems to stretch on endlessly, towering buildings lining the skies of the world through the windows."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-A-1
+//:STAGE IDENTIFICATION: 1-7
+//:ACCESS CODE: D.O.S.
+<b>A2</b>: A trap? When did this happen...?]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day2 = {
+	tip = {
+		{
+			info = "Somehow, A2 manages to reach a door at the end of the corridor. She examines the tightly-shut door and begins to search in her database for the \"\"key\"\" needed to proceed."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-A-2
+//:STAGE IDENTIFICATION: 2-7
+//:ACCESS CODE: ▇▇▇▇
+//ACCESS CODE CHANGED: HELLO
+<b>A2</b>: Might be easier to just bust this door down... Hmm? The access code just changed...?]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day3 = {
+	tip = {
+		{
+			info = "The moment the door opens, the entire structure of the corridor begins to shift. In a room that had not been there a moment ago, A2 finds a map."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-A-3
+//:STAGE IDENTIFICATION: 3-7
+//:ACCESS CODE: ▇▇▇▇
+//ACCESS CODE CHANGED: REVISEDMAP
+<b>A2</b>: At a glance, this map seems pretty accurate... Does that mean an external force is trying to assist me? But who?]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day4 = {
+	tip = {
+		{
+			info = "Using the map as a guide, A2 effortlessly navigates her way through the intricate network of corridors sprawling like blood vessels. In a room marked as a storage area for important supplies, she finds equipment she's never seen before."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-A-4
+//:STAGE IDENTIFICATION: 4-7
+//:ACCESS CODE: ▇▇▇▇
+//ACCESS CODE CHANGED: UPGRADE
+<b>A2</b>: This gear... Is it custom-made?]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day5 = {
+	tip = {
+		{
+			info = "A2 notices that the map would update each time she reaches a special area. She can tell that by something specific: whether the access code has a meaning."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-A-5
+//:STAGE IDENTIFICATION: 5-7
+//:ACCESS CODE: DREAMWEAVER
+<b>A2</b>: ...Androids don't dream.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day6 = {
+	tip = {
+		{
+			info = "Corridors lead to rooms, and rooms lead to more corridors. In this seemingly endless loop, only the changing access codes show that she's reached another area."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-A-6
+//:STAGE IDENTIFICATION: 6-7
+//:ACCESS CODE: UNKNOWN_UNDEFINED
+<b>A2</b>: ...Looks like even the access code is giving up on me.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day7 = {
+	tip = {
+		{
+			info = "Just as A2 is beginning to lose patience with the map and considering abandoning the thing altogether, the room indicating an exit finally appears before her."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-A-7
+//:STAGE IDENTIFICATION: 7-7
+//:ACCESS CODE: ▇▇▇▇
+//ACCESS CODE CHANGED: EXIT
+<b>A2</b>: Am I finally out of this place? Appreciate the help. Now then, let's see what's happened to the outside world.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day_fin = {
+	tip = {
+		{
+			info = ""
+		},
+		{
+			info = "//:HAPPY ENDING"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day1 = {
+	tip = {
+		{
+			info = "2B finds herself standing at the water's edge. The sea and sky, close enough to touch, give off a sickly gray-blue hue, as if hinting at the dangers they conceal."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-B-1
+//:STAGE IDENTIFICATION: 1-7
+//:ACCESS CODE: MIRRORSEA
+<b>2B</b>: My pod's not here... Is this... the ocean?]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day2 = {
+	tip = {
+		{
+			info = "As expected, enemies begin to swarm forth one after the next. 2B takes note of these unfamiliar new enemy types while carefully maneuvering and fending off their attacks."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-B-2
+//:STAGE IDENTIFICATION: 2-7
+//:ACCESS CODE: EXECUTOR
+<b>2B</b>: I don't think those enemies I just fought were machine lifeforms at all...]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day3 = {
+	tip = {
+		{
+			info = "At the edge of a sandy beach looms a large door, materializing out of nowhere. Beyond the door is a sealed-off space. What appears to be combat gear of an unknown model number sits in the middle of the room, as if quietly waiting."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-B-3
+//:STAGE IDENTIFICATION: 3-7
+//:ACCESS CODE: ▇▇▇▇
+//ACCESS CODE CHANGED: UPGRADE
+<b>2B</b>: ""Rigging""? This equipment... seems specialized for naval use. It does not appear to pose any danger to me.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day4 = {
+	tip = {
+		{
+			info = "'As she dons her newly-acquired equipment, a bookshelf appears in the room as if in response, together with an imposing half-ajar doorway."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-B-4
+//:STAGE IDENTIFICATION: 4-7
+//:ACCESS CODE: ▇▇▇▇
+://ACCESS CODE CHANGED: SKILLBOOK
+<b>2B</b>: Offense, defense, and support... Skill books, huh? That makes sense. These must provide instructions for how to master this equipment.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day5 = {
+	tip = {
+		{
+			info = "The room she just left stretches out into another corridor, which then leads to another room. Beyond that, there are more corridors, then more rooms, as if never ending."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-B-5
+//:STAGE IDENTIFICATION: 5-7
+//:ACCESS CODE: VIRTUALTOWER
+<b>2B</b>: ...I assume this is the interior of some megastructure.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day6 = {
+	tip = {
+		{
+			info = "After pushing through set after set of visually-indistinguishable doors, the gray-blue sea and skies finally come into view again."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-B-6
+//:STAGE IDENTIFICATION: 6-7
+//:ACCESS CODE: EXPERIMENTERSYSTEM
+<b>2B</b>: The ocean again, huh... Extrapolating from previous trends, more enemies are likely to appear.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day7 = {
+	tip = {
+		{
+			info = "After the battle ends, 2B steps through another doorway into a room full of supplies. Inside is another open door, leading straight to a place with raging, roiling waves."
+		},
+		{
+			info = [[
+//:AREA IDENTIFICATION: NODE-B-2
+//:STAGE IDENTIFICATION: 7-7
+//:ACCESS CODE: ▇▇▇▇
+//ACCESS CODE CHANGED: EXIT
+<b>2B</b>: The exit, huh... It might be a trap, but escaping from this place takes top priority.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day_fin = {
+	tip = {
+		{
+			info = ""
+		},
+		{
+			info = "//:HAPPY ENDING"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_core_countdown = {
+	tip = "Time Remaining: $1 d $2 hr"
+}
+
+
+_G.pg.base.gametip.nier_core_award_check = {
+	tip = "Check Rewards"
+}
+
+
+_G.pg.base.gametip.nier_core_task_desc = {
+	tip = "Defeat an enemy"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_day = {
+	tip = "DAY $1"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_unlock_desc = {
+	tip = "Unlocks $1/$2"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_detail = {
+	tip = "Details"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_progress = {
+	tip = "Current Progress"
+}
+
+
+_G.pg.base.gametip.nier_award_char = {
+	tip = "Characters"
+}
+
+
+_G.pg.base.gametip.nier_award_furniture = {
+	tip = "Furniture"
+}
+
+
+_G.pg.base.gametip.nier_award_equip_skin = {
+	tip = "Gear Skins"
+}
+
+
+_G.pg.base.gametip.nier_award_sp_equip = {
+	tip = "Augments"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_3 = {
+	tip = "2B's Journey"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_1 = {
+	tip = "An Android's Journey"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_5 = {
+	tip = "Rewards"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_4 = {
+	tip = "Event Stages"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_2 = {
+	tip = "A2's Journey"
+}
+
+
 _G.pg.base.gametip.dorm3d_carwash_button = {
 	tip = "Minigame"
 }
@@ -49898,4 +50238,478 @@ _G.pg.base.gametip.dorm3d_gift_overtime = {
 
 _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 	tip = "Expiration Notice"
+}
+
+
+_G.pg.base.gametip.auction_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_5"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_6"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_7"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_8"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.auction_currency_noenough = {
+	tip = "Insufficient Bid Coins."
+}
+
+
+_G.pg.base.gametip.auction_preorder_tips = {
+	tip = "Are you sure you'd like to place $1 coins to order items?"
+}
+
+
+_G.pg.base.gametip.auction_preorder_tips_1 = {
+	tip = "Come back later to check on the order results."
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_0 = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_1 = {
+	tip = "N"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_2 = {
+	tip = "R"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_3 = {
+	tip = "E"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_4 = {
+	tip = "SR"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_5 = {
+	tip = "UR"
+}
+
+
+_G.pg.base.gametip.auction_game_punishment = {
+	tip = "Repeated instances of unsportsmanlike conduct will make you ineligible for matchmaking."
+}
+
+
+_G.pg.base.gametip.auction_game_match_forbidden = {
+	tip = "Matchmaking currently unavailable."
+}
+
+
+_G.pg.base.gametip.auction_game_match_warning = {
+	tip = "If you quit the game while an auction is in progress, you will forfeit your entry fee and potential earnings."
+}
+
+
+_G.pg.base.gametip.auction_game_bid_phase = {
+	tip = "Begin Bidding"
+}
+
+
+_G.pg.base.gametip.auction_game_kick = {
+	tip = "The auction has ended due to extended inactivity."
+}
+
+
+_G.pg.base.gametip.auction_game_nobid_tip = {
+	tip = "Bidding unsuccessful: no bids met the minimum price."
+}
+
+
+_G.pg.base.gametip.auction_game_cannot_forfeit = {
+	tip = "You have already placed your bid and are unable to withdraw."
+}
+
+
+_G.pg.base.gametip.auction_game_forfeit_tip = {
+	tip = "If you withdraw, you will not be able to bid again for the duration of this auction. Proceed?"
+}
+
+
+_G.pg.base.gametip.auction_game_wait_bid_phase = {
+	tip = "Please wait before placing your bid."
+}
+
+
+_G.pg.base.gametip.auction_game_min_bid = {
+	tip = "You must bid a minimum amount of $1."
+}
+
+
+_G.pg.base.gametip.auction_game_bid_confirm = {
+	tip = "Would you like to place a bid of $1?"
+}
+
+
+_G.pg.base.gametip.auction_game_exceeds_max_value = {
+	tip = "You cannot hold any more Bid Coins."
+}
+
+
+_G.pg.base.gametip.auction_game_prepare = {
+	tip = "Setting up auction..."
+}
+
+
+_G.pg.base.gametip.auction_main_handbook = {
+	tip = "Item Logbook"
+}
+
+
+_G.pg.base.gametip.auction_main_public_notice = {
+	tip = "Bulletin Board"
+}
+
+
+_G.pg.base.gametip.auction_main_done = {
+	tip = "Done"
+}
+
+
+_G.pg.base.gametip.auction_main_doing = {
+	tip = "Thinking"
+}
+
+
+_G.pg.base.gametip.auction_main_personal_event = {
+	tip = "Individual Event"
+}
+
+
+_G.pg.base.gametip.auction_main_public_event = {
+	tip = "Group Event"
+}
+
+
+_G.pg.base.gametip.auction_main_select_event = {
+	tip = "Choose Individual Event"
+}
+
+
+_G.pg.base.gametip.auction_main_pt = {
+	tip = "Held"
+}
+
+
+_G.pg.base.gametip.auction_main_bid_price = {
+	tip = "Bids Placed:"
+}
+
+
+_G.pg.base.gametip.auction_main_win = {
+	tip = "Success"
+}
+
+
+_G.pg.base.gametip.auction_main_fail = {
+	tip = "Failed"
+}
+
+
+_G.pg.base.gametip.auction_main_match_exit = {
+	tip = "Would you like to cancel matchmaking?"
+}
+
+
+_G.pg.base.gametip.auction_settlement_quick = {
+	tip = "Skip"
+}
+
+
+_G.pg.base.gametip.auction_settlement_session = {
+	tip = "Auction"
+}
+
+
+_G.pg.base.gametip.auction_settlement_name = {
+	tip = "Winner"
+}
+
+
+_G.pg.base.gametip.auction_settlement_price = {
+	tip = "Winning Bid"
+}
+
+
+_G.pg.base.gametip.auction_settlement_value = {
+	tip = "Total Value:"
+}
+
+
+_G.pg.base.gametip.auction_settlement_revenue = {
+	tip = "Revenue"
+}
+
+
+_G.pg.base.gametip.auction_settlement_dividend = {
+	tip = "Earnings"
+}
+
+
+_G.pg.base.gametip.auction_block_emoji = {
+	tip = "Hide Emojis"
+}
+
+
+_G.pg.base.gametip.auction_ready = {
+	tip = "Setting up auction..."
+}
+
+
+_G.pg.base.gametip.auction_cancel = {
+	tip = "Cancel"
+}
+
+
+_G.pg.base.gametip.auction_confirm = {
+	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.auction_signin_task = {
+	tip = "Missions"
+}
+
+
+_G.pg.base.gametip.auction_signin_goto = {
+	tip = "Go"
+}
+
+
+_G.pg.base.gametip.auction_signin_collect = {
+	tip = "Collect All"
+}
+
+
+_G.pg.base.gametip.auction_pt_tip = {
+	tip = "Collected"
+}
+
+
+_G.pg.base.gametip.auction_pt_collected = {
+	tip = "Go"
+}
+
+
+_G.pg.base.gametip.auction_pt_info = {
+	tip = "*Rewards must be collected before 8/12 23:59."
+}
+
+
+_G.pg.base.gametip.auction_not_enough_assets = {
+	tip = "Coins Needed: $1"
+}
+
+
+_G.pg.base.gametip.auction_forbidden_tip = {
+	tip = "Matchmaking available in $1."
+}
+
+
+_G.pg.base.gametip.auction_value = {
+	tip = "Lot Value:"
+}
+
+
+_G.pg.base.gametip.auction_ticket = {
+	tip = "Participation Fee:"
+}
+
+
+_G.pg.base.gametip.auction_matching = {
+	tip = "Matching..."
+}
+
+
+_G.pg.base.gametip.auction_assistant = {
+	tip = "Character"
+}
+
+
+_G.pg.base.gametip.auction_activity_closed = {
+	tip = "Event Concluded"
+}
+
+
+_G.pg.base.gametip.auction_activity_closed_tip = {
+	tip = "The event has ended."
+}
+
+
+_G.pg.base.gametip.auction_collection_title = {
+	tip = "Item Logbook"
+}
+
+
+_G.pg.base.gametip.auction_tab_text_1 = {
+	tip = "Top Bidder"
+}
+
+
+_G.pg.base.gametip.auction_tab_text_2 = {
+	tip = "Registration"
+}
+
+
+_G.pg.base.gametip.auction_matches_title = {
+	tip = "Auctions Attended:"
+}
+
+
+_G.pg.base.gametip.auction_success_cnt_title = {
+	tip = "Successful Bids:"
+}
+
+
+_G.pg.base.gametip.auction_success_rate_title = {
+	tip = "Success Rate:"
+}
+
+
+_G.pg.base.gametip.auction_currency_title = {
+	tip = "Coins Held:"
+}
+
+
+_G.pg.base.gametip.auction_total_profit_title = {
+	tip = "Total Earnings:"
+}
+
+
+_G.pg.base.gametip.auction_highest_profit_title = {
+	tip = "Highest Earnings:"
+}
+
+
+_G.pg.base.gametip.auction_collection_type_title = {
+	tip = "Item Types:"
+}
+
+
+_G.pg.base.gametip.auction_collection_price_title = {
+	tip = "Total Value:"
+}
+
+
+_G.pg.base.gametip.auction_task_daily = {
+	tip = "Daily"
+}
+
+
+_G.pg.base.gametip.auction_task_challenge = {
+	tip = "Challenge"
+}
+
+
+_G.pg.base.gametip.auction_bid_keyboard_clear = {
+	tip = "Clear"
+}
+
+
+_G.pg.base.gametip.auction_round_instant_buy = {
+	tip = "Current Round Multiplier: $1"
+}
+
+
+_G.pg.base.gametip.auction_collect_unlock = {
+	tip = "Unlocked:"
+}
+
+
+_G.pg.base.gametip.auction_show_common_event = {
+	tip = "Display Group Events"
+}
+
+
+_G.pg.base.gametip.auction_show_personal_event = {
+	tip = "Display Individual Events"
+}
+
+
+_G.pg.base.gametip.auction_store_estimate = {
+	tip = "Estimated Value Range: $1 - $2"
+}
+
+
+_G.pg.base.gametip.auction_relief_tip = {
+	tip = "Your auction supplies have arrived.\nPlease make sure to collect them."
+}
+
+
+_G.pg.base.gametip.auction_relief_tip_2 = {
+	tip = "When you have fewer than 500,000 Bid Coins, you are able to collect an additional 500,000 Bid Coins.\nClaims remaining today: $1/$2."
+}
+
+
+_G.pg.base.gametip.nier_a2_item_got = {
+	tip = "Collected"
 }

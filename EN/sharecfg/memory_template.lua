@@ -4110,6 +4110,9 @@ pg.memory_template.all = {
 	5235,
 	5236,
 	5237,
+	5261,
+	5262,
+	5263,
 	5251,
 	5252,
 	5253,
@@ -78398,6 +78401,60 @@ end)()
 			"LAFEIER7"
 		}
 	}
+	pg.base.memory_template[5261] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Prologue",
+		condition = "Start the event.",
+		story = "ZIDONGBUBINGRENXINGZHILV1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5261,
+		icon = "memory_zidongbubingrenxingzhilv",
+		is_open = 0,
+		unlock_pre = {
+			"ZIDONGBUBINGRENXINGZHILV1"
+		}
+	}
+	pg.base.memory_template[5262] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "NODE-A",
+		condition = "Clear A2's Journey.",
+		story = "ZIDONGBUBINGRENXINGZHILV2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5262,
+		icon = "memory_zidongbubingrenxingzhilv",
+		is_open = 0,
+		unlock_pre = {
+			"ZIDONGBUBINGRENXINGZHILV2"
+		}
+	}
+	pg.base.memory_template[5263] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "NODE-B",
+		condition = "Clear 2B's Journey.",
+		story = "ZIDONGBUBINGRENXINGZHILV3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5263,
+		icon = "memory_zidongbubingrenxingzhilv",
+		is_open = 0,
+		unlock_pre = {
+			"ZIDONGBUBINGRENXINGZHILV3"
+		}
+	}
 	pg.base.memory_template[5251] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80036,6 +80093,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA18"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20018] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80090,8 +80149,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA21"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20021] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81838,6 +81895,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA37"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20118] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81892,8 +81951,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA40"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20121] = {
 		ship_group = 0,
 		subtitle = "",

@@ -13,7 +13,7 @@ pg.base.activity_ship_create = {}
 (function ()
 	pg.base.activity_ship_create[1] = {
 		id = 1,
-		activity_id = 50618,
+		activity_id = 30896,
 		create_id = 7,
 		pickup_num = 2,
 		pickup_list = {
@@ -113,8 +113,10 @@ pg.base.activity_ship_create = {}
 			302141,
 			302231,
 			401021,
+			401161,
 			401191,
 			401231,
+			401991,
 			402011,
 			402021,
 			402031,
@@ -122,6 +124,7 @@ pg.base.activity_ship_create = {}
 			402061,
 			402071,
 			402081,
+			402101,
 			501051,
 			501061,
 			501081,
@@ -148,6 +151,7 @@ pg.base.activity_ship_create = {}
 			702041,
 			702051,
 			702061,
+			702071,
 			801021,
 			801071,
 			801081,
@@ -156,6 +160,8 @@ pg.base.activity_ship_create = {}
 			901021,
 			901031,
 			901131,
+			901141,
+			902021,
 			9600031
 		},
 		ratio_display = {
@@ -167,7 +173,7 @@ pg.base.activity_ship_create = {}
 	}
 	pg.base.activity_ship_create[2] = {
 		id = 2,
-		activity_id = 50618,
+		activity_id = 30896,
 		create_id = 8,
 		pickup_num = 2,
 		pickup_list = {
@@ -229,6 +235,7 @@ pg.base.activity_ship_create = {}
 			305101,
 			305121,
 			307081,
+			403021,
 			403031,
 			403041,
 			403091,
@@ -236,7 +243,9 @@ pg.base.activity_ship_create = {}
 			403111,
 			404031,
 			404041,
+			404051,
 			405031,
+			405051,
 			503011,
 			504011,
 			603041,
@@ -246,14 +255,18 @@ pg.base.activity_ship_create = {}
 			605031,
 			605071,
 			703011,
+			703021,
 			705041,
 			705051,
 			705061,
+			705071,
 			718011,
 			805011,
 			903011,
 			903021,
+			903031,
 			904011,
+			904021,
 			9600021
 		},
 		ratio_display = {
@@ -266,7 +279,7 @@ pg.base.activity_ship_create = {}
 	}
 	pg.base.activity_ship_create[3] = {
 		id = 3,
-		activity_id = 50618,
+		activity_id = 30896,
 		create_id = 6,
 		pickup_num = 2,
 		pickup_list = {
@@ -334,6 +347,7 @@ pg.base.activity_ship_create = {}
 			317011,
 			319011,
 			405031,
+			405051,
 			406011,
 			406021,
 			407011,
@@ -354,7 +368,8 @@ pg.base.activity_ship_create = {}
 			808011,
 			907011,
 			9600041,
-			9600051
+			9600051,
+			9708011
 		},
 		ratio_display = {
 			250,

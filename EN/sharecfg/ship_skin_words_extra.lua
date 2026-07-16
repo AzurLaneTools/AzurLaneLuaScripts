@@ -432,7 +432,9 @@ pg.ship_skin_words_extra.all = {
 	1299010,
 	299060,
 	399080,
-	899050
+	899050,
+	11700010,
+	11700020
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_words_extra = {}
@@ -30300,6 +30302,157 @@ end)()
 			{
 				1100,
 				"I want more of you. I want more of your love... Hey, if I hold you tight like this... would you give me your everything?"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[11700010] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		id = 11700010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"About time. So, what are we doing today?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Piece of cake."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"They're no match for us."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Don't do that again, understand?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"This so-called ship rigging... seems somewhat similar to our flight units."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"It's nice and quiet here. I can tell you've been fighting day and night to protect this place... I know what that's like.|Being with all of you reminds me of the time I spent with my old comrades.|I've never had the time or place to be able to rest before... I don't know what I should do with my time."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"If you still have work that needs to be done, I wouldn't mind helping you with that."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"You went through all that effort to get those missions done, so make sure everything is in order."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"...You really should cherish your life more."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Being by myself is easier, less to worry about. But being here isn't so bad either."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[11700020] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		id = 11700020,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"I'm looking forward to our time together today, Commander."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Confirming complete elimination of enemy aircraft. We can return safely now."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Enemy aircraft detected. Leave this to me."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Just as we fight against machine lifeforms, you fight against the Sirens... Looks like we all have a duty to keep on fighting."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Your port is a lot livelier than our Bunker.|Battler models absolutely require operator support, so we are always grateful for it.|While rest is not essential for us androids, some downtime is needed once in a while."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"It seems you still have some unfinished work. Is there anything I can help with?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"It seems you've completed a mission. I can take care of the settlement procedures."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"There should've been no issues with maintenance... But feel free to inspect as much as you'd like."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"The war against machine lifeforms seems endless... but will your fight against the Sirens end? Until peace has been restored, I will be your blade."
 			}
 		}
 	}

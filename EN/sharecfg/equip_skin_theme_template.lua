@@ -85,6 +85,7 @@ pg.equip_skin_theme_template.all = {
 	83,
 	84,
 	85,
+	86,
 	101,
 	102,
 	103,
@@ -1962,6 +1963,22 @@ pg.base.equip_skin_theme_template = {}
 			4399,
 			4400,
 			4401
+		}
+	}
+	pg.base.equip_skin_theme_template[86] = {
+		id = 86,
+		name = "NieR:Automata",
+		ids = {
+			1529,
+			1530,
+			1531,
+			1532,
+			1533,
+			1534,
+			1535,
+			1536,
+			1537,
+			1538
 		}
 	}
 	pg.base.equip_skin_theme_template[101] = {

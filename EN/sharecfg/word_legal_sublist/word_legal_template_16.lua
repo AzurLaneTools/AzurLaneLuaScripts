@@ -350,6 +350,16 @@ end
 temp()
 
 temp = function()
+	uv0.A = {
+		["2"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["侌"] = {
 		this = {
 			this = true

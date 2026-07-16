@@ -993,7 +993,7 @@ pg.base.mini_game_hub = {}
 		signet_reward = {}
 	}
 	pg.base.mini_game_hub[71] = {
-		reward = 910083,
+		reward = 0,
 		reward_display = "",
 		reward_need = 7,
 		reborn_times = 1,

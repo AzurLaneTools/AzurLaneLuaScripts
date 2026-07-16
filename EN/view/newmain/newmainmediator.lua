@@ -265,6 +265,12 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot2 = slot1:getBody().context
 
 			slot0.viewComponent:emit(NewMainMediator.REMOVE_LAYERS, slot1:getBody())
+		end,
+		[PlayerProxy.UPDATED] = function (slot0, slot1)
+			slot0.viewComponent:OnPlayerUpdated()
+		end,
+		[ActivityProxy.UPDATED_TIP] = function (slot0, slot1)
+			slot0.viewComponent:emit(MainBaseActivityBtn.UPDATED_TIP)
 		end
 	}
 end

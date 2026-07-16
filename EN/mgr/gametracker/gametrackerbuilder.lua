@@ -628,4 +628,80 @@ slot0.BuildCheaterTavernResult = function(slot0, slot1, slot2, slot3, slot4, slo
 	}, {})
 end
 
+slot0.BuildAuctionEnter = function()
+	return uv0(50001, {}, {})
+end
+
+slot0.BuildAuctionHelp = function()
+	return uv0(50002, {}, {})
+end
+
+slot0.BuildPreorder = function(slot0, slot1)
+	return uv0(50003, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildNameCard = function(slot0, slot1)
+	return uv0(50004, {
+		slot0,
+		slot1
+	}, {})
+end
+
+slot0.BuildAuctionSettlement = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	return uv0(50005, {
+		slot1,
+		slot2,
+		slot3,
+		slot4,
+		slot5
+	}, {
+		slot0
+	})
+end
+
+slot0.BuildAuctionMatching = function(slot0, slot1, slot2)
+	return uv0(50006, {
+		slot0,
+		slot1,
+		slot2
+	}, {})
+end
+
+slot0.BuildAuctionChooseEvent = function(slot0, slot1, slot2, slot3)
+	return uv0(50007, {
+		slot0,
+		slot1,
+		slot2,
+		slot3
+	}, {})
+end
+
+slot0.BuildAuctionBid = function(slot0, slot1, slot2, slot3, slot4)
+	return uv0(50008, {
+		slot0,
+		slot1,
+		slot2,
+		slot3,
+		slot4
+	}, {})
+end
+
+slot0.BuildAuctionFinish = function(slot0, slot1, slot2)
+	return uv0(50009, {
+		slot0,
+		slot1,
+		slot2
+	}, {})
+end
+
+slot0.BuildAuctionExit = function(slot0, slot1)
+	return uv0(50010, {
+		slot0,
+		slot1
+	}, {})
+end
+
 return slot0

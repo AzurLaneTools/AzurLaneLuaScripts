@@ -8,7 +8,7 @@ SCENE = {
 	NEWGUILD = "scene newguild",
 	COMBATLOAD = "scene combat load",
 	KINDERGARTEN = "KINDERGARTEN",
-	MAINUI = "scene mainUI",
+	AUCTION_GAME_MAIN_GUIDE = "auction game main guide",
 	SKINATALAS = "scene skinatals",
 	EVENT = "scene event",
 	FRIEND = "scene friend",
@@ -116,7 +116,7 @@ SCENE = {
 	LiquorFloor = "LiquorFloor",
 	HOTSPRING_REDPACKET = "hotSpring redpacket",
 	COWBOY_TOWN_BACKHILL = "COWBOY_TOWN_BACKHILL",
-	US_CASTLE_2023 = "US_CASTLE_2023",
+	AUCTION_GAME_MAIN = "auction game main",
 	BILLBOARD = "scene billboard",
 	DREAMLAND = "DREAMLAND",
 	DORM3D_VOLLEYBALL = "dorm 3d volleyball",
@@ -184,8 +184,12 @@ SCENE = {
 	SUMMARY = "summary",
 	MUSIC_FESTIVAL2 = "music festival 2",
 	IDOL_MEDAL_COLLECTION_SCENE3 = "IDOL_MEDAL_COLLECTION_SCENE3",
+	AUCTION_GAME_ENTRANCE = "auction game entrance",
 	SUMMER_FEAST = "summer feast",
+	US_CASTLE_2023 = "US_CASTLE_2023",
+	MAINUI = "scene mainUI",
 	BACKHILL_SUMMERPARK_2022 = "BACKHILL_SUMMERPARK_2022",
+	AUCTION_GAME_MAIN_SETTLEMENT = "auction game settlement",
 	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
 	SSSS_ACADEMY = "SSSS ACADEMY",
 	BIANDUI = "scene biandui",
@@ -216,6 +220,7 @@ SCENE = {
 	ANNIVERSARY_ISLAND_SEA = "anniversary island sea",
 	AIRFORCE_DRAGONEMPERY = "scene AirForceOfDragonEmpery",
 	SPRING_FESTIVAL_BACKHILL_2022 = "springfestival BackHill 2022",
+	AUCTION_GAME_PREORDER_BOX_SETTLEMENT = "auction game preorder box settlement",
 	METACHARACTER = "metacharacter",
 	MILITARYEXERCISE = " scene militaryexercise",
 	ISLAND_WORLD_MAP = "island world map",
@@ -1168,6 +1173,26 @@ slot0 = {
 	[SCENE.MALL] = function (slot0, slot1)
 		slot0.mediator = MallMediator
 		slot0.viewComponent = MallScene
+	end,
+	[SCENE.AUCTION_GAME_ENTRANCE] = function (slot0, slot1)
+		slot0.mediator = AuctionGameEntranceMediator
+		slot0.viewComponent = AuctionGameEntranceScene
+	end,
+	[SCENE.AUCTION_GAME_MAIN] = function (slot0, slot1)
+		slot0.mediator = AuctionGameMainMediator
+		slot0.viewComponent = AuctionGameMainScene
+	end,
+	[SCENE.AUCTION_GAME_MAIN_GUIDE] = function (slot0, slot1)
+		slot0.mediator = AuctionGameMainMediator
+		slot0.viewComponent = AuctionGameMainGuideScene
+	end,
+	[SCENE.AUCTION_GAME_MAIN_SETTLEMENT] = function (slot0, slot1)
+		slot0.mediator = AuctionGameMainSettlementMediator
+		slot0.viewComponent = AuctionGameMainSettlementScene
+	end,
+	[SCENE.AUCTION_GAME_PREORDER_BOX_SETTLEMENT] = function (slot0, slot1)
+		slot0.mediator = AuctionGamePreorderBoxSettlementMediator
+		slot0.viewComponent = AuctionGamePreorderBoxSettlementScene
 	end
 }
 
@@ -1711,6 +1736,33 @@ slot1 = {
 			paintingNameList = PaintingGroupConst.GetPaintingNameListForMallAct(),
 			finishFunc = slot1
 		})
+	end,
+	AuctionGameEntranceMediator = function (slot0, slot1)
+		slot2 = {}
+
+		table.insert(slot2, function (slot0)
+			pg.m02:sendNotification(GAME.PLAY_ROOM_EXIT_ROOM, {
+				arg = 0,
+				callback = slot0
+			})
+		end)
+		table.insert(slot2, function (slot0)
+			getProxy(AuctionGameBaseProxy):SetNeedInitFlag(true)
+			pg.m02:sendNotification(GAME.AUCTION_GAME_INIT, {
+				callback = slot0
+			})
+		end)
+		seriesAsync(slot2, slot1)
+	end,
+	AuctionGameNameCardMediator = function (slot0, slot1)
+		slot2 = {}
+
+		table.insert(slot2, function (slot0)
+			pg.m02:sendNotification(GAME.AUCTION_GAME_INIT, {
+				callback = slot0
+			})
+		end)
+		seriesAsync(slot2, slot1)
 	end
 }
 

@@ -15,6 +15,7 @@ slot0.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT = "ActivityProxy ACTIVITY_SHOW_LOTTERY_
 slot0.ACTIVITY_SHOW_RED_PACKET_AWARDS = "ActivityProxy ACTIVITY_SHOW_RED_PACKET_AWARDS"
 slot0.ACTIVITY_SHOW_SHAKE_BEADS_RESULT = "ActivityProxy ACTIVITY_SHOW_SHAKE_BEADS_RESULT"
 slot0.ACTIVITY_EXCHANGE_RESOURCES = "ActivityProxy ACTIVITY_EXCHANGE_RESOURCES"
+slot0.UPDATED_TIP = "ActivityProxy UPDATED_TIP"
 slot0.ACTIVITY_PT_ID = 110
 
 slot0.register = function(slot0)
@@ -1153,16 +1154,6 @@ slot0.GetBossActivityByChapterId = function(slot0, slot1)
 end
 
 slot0.GetFakeGiftPackActivity = function(slot0, slot1)
-	slot0.skinCommodityActDic = slot0.skinCommodityActDic or {}
-
-	if slot0.skinCommodityActDic[slot1.id] then
-		if not slot0.skinCommodityActDic[slot1.id]:isEnd() then
-			return slot2
-		end
-
-		slot0.skinCommodityActDic[slot1.id] = nil
-	end
-
 	slot5 = {
 		ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE,
 		slot6
@@ -1194,8 +1185,6 @@ slot0.GetFakeGiftPackActivity = function(slot0, slot1)
 			end
 		}, function ()
 		end) then
-			slot0.skinCommodityActDic[slot1.id] = slot6
-
 			return slot6
 		end
 	end

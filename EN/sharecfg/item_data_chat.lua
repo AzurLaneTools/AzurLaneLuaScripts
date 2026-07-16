@@ -18,6 +18,8 @@ pg.item_data_chat.all = {
 	606,
 	607,
 	610,
+	611,
+	612,
 	10001,
 	10002,
 	10003,
@@ -153,6 +155,22 @@ pg.base.item_data_chat = {}
 		id = 610,
 		time_limit_type = 0,
 		desc = "Walk along the beach and lend an ear to the waves. \n<color=#A7A7AAFF>Obtained by participating in the Midsummer Returns: The Villa Reconstruction event.</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[611] = {
+		name = "Holographic Auction",
+		time_second = 0,
+		id = 611,
+		time_limit_type = 0,
+		desc = "Lock your greatest auction success in a dazzling holographic display!\n<color=#A7A7AA>Obtained from the \"Top Bidder\" event.</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[612] = {
+		name = "Level S Datastream",
+		time_second = 0,
+		id = 612,
+		time_limit_type = 0,
+		desc = "The data is pouring in – seize the moment of victory!\n<color=#A7A7AA>Obtained from the \"Top Bidder\" event.</color>",
 		scene = {}
 	}
 	pg.base.item_data_chat[10001] = {

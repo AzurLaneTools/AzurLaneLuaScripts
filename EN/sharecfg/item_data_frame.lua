@@ -87,6 +87,7 @@ pg.item_data_frame.all = {
 	611,
 	612,
 	614,
+	615,
 	1001,
 	1002,
 	1003,
@@ -865,6 +866,15 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>Lanterns hung high light the way for wealth's path to your home, soon to be filled with good fortune.</color> Obtained by participating in the Springtide Inn Online event.",
 		scene = {}
 	}
+	pg.base.item_data_frame[615] = {
+		name = "Top Bidder Tycoon",
+		gain_by = "",
+		time_second = 0,
+		id = 615,
+		time_limit_type = 0,
+		desc = "All eyes are on you now: you are the tycoon of the auction house!\n<color=#A7A7AA>Obtained from the \"Top Bidder\" event.</color>",
+		scene = {}
+	}
 	pg.base.item_data_frame[1001] = {
 		name = "Sweet Rendezvous",
 		gain_by = "Private Quarters: Sirius",
@@ -1009,6 +1019,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Cancer. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 7/1/23 - 7/31/23 Season.",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10003] = {
 		name = "Extreme Challenge - Leo",
 		gain_by = "",
@@ -1018,8 +1030,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Leo. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 8/1/23 – 8/31/23 Season.",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10004] = {
 		name = "Extreme Challenge - Virgo",
 		gain_by = "",

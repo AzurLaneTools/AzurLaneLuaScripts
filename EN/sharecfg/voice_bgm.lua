@@ -3156,9 +3156,44 @@ end)()
 		special_bgm = "",
 		bgm = "story-room-nakhimov"
 	}
+	pg.base.voice_bgm.NieRAutomataKillPage = {
+		default_bgm = "nier-ruinscity-b-1",
+		special_bgm = "",
+		bgm = "nier-ruinscity-b-1"
+	}
+	pg.base.voice_bgm.NieRAutomataMainPage = {
+		default_bgm = "nier-az-story",
+		special_bgm = "",
+		bgm = "nier-az-story"
+	}
+	pg.base.voice_bgm.NieRAutomataAwardPage = {
+		default_bgm = "nier-ruinscity-a-2",
+		special_bgm = "",
+		bgm = "nier-ruinscity-a-2"
+	}
+	pg.base.voice_bgm.NieRAutomataStagePage = {
+		default_bgm = "nier-ruinscity-b-2",
+		special_bgm = "",
+		bgm = "nier-ruinscity-b-2"
+	}
+	pg.base.voice_bgm.NieRAutomataOmenPage = {
+		default_bgm = "nier-ruinscity-a-1",
+		special_bgm = "",
+		bgm = "nier-ruinscity-a-1"
+	}
 	pg.base.voice_bgm.ConsumeGemSignInPage = {
 		default_bgm = "story-richang-partynight",
 		special_bgm = "",
 		bgm = "story-richang-partynight"
+	}
+	pg.base.voice_bgm.AuctionGameCoreActivityUI = {
+		default_bgm = "story-room-pit",
+		special_bgm = "",
+		bgm = "story-room-pit"
+	}
+	pg.base.voice_bgm.AuctionGameEntranceScene = {
+		default_bgm = "story-room-pit",
+		special_bgm = "",
+		bgm = "story-room-pit"
 	}
 end)()

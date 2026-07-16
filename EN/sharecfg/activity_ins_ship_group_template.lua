@@ -680,7 +680,10 @@ pg.activity_ins_ship_group_template.all = {
 	80106,
 	60505,
 	10114,
-	10143
+	10143,
+	71379,
+	71380,
+	70569
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -6797,6 +6800,33 @@ end)()
 		background = "",
 		sculpture = "haerxibaoweier",
 		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[71379] = {
+		ship_group = 71379,
+		name = "A2",
+		background = "",
+		sculpture = "A2",
+		nationality = 7,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[71380] = {
+		ship_group = 71380,
+		name = "2B",
+		background = "",
+		sculpture = "2B",
+		nationality = 7,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[70569] = {
+		ship_group = 70569,
+		name = "Downes",
+		background = "",
+		sculpture = "tangsi",
+		nationality = 7,
 		type = 1,
 		sculpture_ii = ""
 	}

@@ -63,6 +63,10 @@ slot1.MakeAimBiasBar = function(slot0, slot1)
 	slot1:AddAimBiasBar(slot1._HPBarTf:Find("biasBar"))
 end
 
+slot1.MakeShieldBar = function(slot0, slot1)
+	slot1:AddShieldBar(slot1._HPBarTf:Find("shieldBar"))
+end
+
 slot1.MakeChargeArea = function(slot0, slot1)
 	slot2 = slot0:GetSceneMediator():InstantiateCharacterComponent(slot0.CHARGE_AREA_NAME)
 	slot2.transform.localEulerAngles = Vector3(60, 0, 0)

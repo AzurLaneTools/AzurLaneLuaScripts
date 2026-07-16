@@ -3184,6 +3184,22 @@ pg.skill_data_display.all = {
 	115200,
 	115210,
 	115220,
+	117019,
+	117020,
+	117029,
+	117025,
+	117026,
+	117030,
+	117039,
+	117053,
+	117059,
+	117060,
+	117061,
+	117062,
+	117063,
+	117070,
+	117073,
+	117079,
 	190001,
 	190002,
 	190003,
@@ -16895,6 +16911,70 @@ end)()
 		id = 115220,
 		name = "Shiryon"
 	}
+	pg.base.skill_data_display[117019] = {
+		id = 117019,
+		name = "Subjugation: Frontline Construct"
+	}
+	pg.base.skill_data_display[117020] = {
+		id = 117020,
+		name = "Faith"
+	}
+	pg.base.skill_data_display[117029] = {
+		id = 117029,
+		name = "Faith"
+	}
+	pg.base.skill_data_display[117025] = {
+		id = 117025,
+		name = "Reset"
+	}
+	pg.base.skill_data_display[117026] = {
+		id = 117026,
+		name = "Faith"
+	}
+	pg.base.skill_data_display[117030] = {
+		id = 117030,
+		name = "Subjugation: Frontline Construct+"
+	}
+	pg.base.skill_data_display[117039] = {
+		id = 117039,
+		name = "Subjugation: Frontline Construct+"
+	}
+	pg.base.skill_data_display[117053] = {
+		id = 117053,
+		name = "Devastating Cleave"
+	}
+	pg.base.skill_data_display[117059] = {
+		id = 117059,
+		name = "Devastating Cleave"
+	}
+	pg.base.skill_data_display[117060] = {
+		id = 117060,
+		name = "Vengeance"
+	}
+	pg.base.skill_data_display[117061] = {
+		id = 117061,
+		name = "Vengeance"
+	}
+	pg.base.skill_data_display[117062] = {
+		id = 117062,
+		name = "Vengeance"
+	}
+	pg.base.skill_data_display[117063] = {
+		id = 117063,
+		name = "Vengeance"
+	}
+	pg.base.skill_data_display[117070] = {
+		id = 117070,
+		name = "Devastating Cleave+"
+	}
+	pg.base.skill_data_display[117073] = {
+		id = 117073,
+		name = "Devastating Cleave+"
+	}
+	pg.base.skill_data_display[117079] = {
+		id = 117079,
+		name = "Devastating Cleave+"
+	}
 	pg.base.skill_data_display[190001] = {
 		id = 190001,
 		name = "Steelsurge Concerto"
@@ -16911,6 +16991,8 @@ end)()
 		id = 190011,
 		name = "Winter Survival Rules"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[190012] = {
 		id = 190012,
 		name = "Winter Survival Rules"
@@ -16975,8 +17057,6 @@ end)()
 		id = 190141,
 		name = "Webwoven Zen Grotto"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[190142] = {
 		id = 190142,
 		name = "Webwoven Zen Grotto"
@@ -17313,6 +17393,8 @@ end)()
 		id = 800121,
 		name = "Ashen Might - Helena I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800122] = {
 		id = 800122,
 		name = "Ashen Might - Helena II"
@@ -17377,8 +17459,6 @@ end)()
 		id = 800165,
 		name = "Flickering Light - Souryuu I "
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800167] = {
 		id = 800167,
 		name = "Flickering Light - Souryuu II"
@@ -17715,6 +17795,8 @@ end)()
 		id = 800702,
 		name = "Ashen Might - Sheffield II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800705] = {
 		id = 800705,
 		name = "Ashen Might - Sheffield I"
@@ -17779,8 +17861,6 @@ end)()
 		id = 800775,
 		name = "Cinders of Hope - La Galissonnière"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800777] = {
 		id = 800777,
 		name = "Cinders of Hope - La Galissonnière"
@@ -18117,6 +18197,8 @@ end)()
 		id = 801573,
 		name = "Flame and Fulminance"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801581] = {
 		id = 801581,
 		name = "The Lone Knight"
@@ -18181,8 +18263,6 @@ end)()
 		id = 801726,
 		name = "Gunfire Blitz"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801741] = {
 		id = 801741,
 		name = "Cinders of Hope - Grenville I"
@@ -18519,6 +18599,8 @@ end)()
 		id = 1013051,
 		name = "Long Live the Revolution!+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1010310] = {
 		id = 1010310,
 		name = "Divine Marksman+"
@@ -18583,8 +18665,6 @@ end)()
 		id = 200005,
 		name = "Air Armada Support"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200008] = {
 		id = 200008,
 		name = "Air Armada Support"
@@ -18921,6 +19001,8 @@ end)()
 		id = 200774,
 		name = "Courageous Shelling"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200775] = {
 		id = 200775,
 		name = "Urd's Fate-Piercer"
@@ -18985,8 +19067,6 @@ end)()
 		id = 200837,
 		name = "Explosion"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200838] = {
 		id = 200838,
 		name = "Blazing Slash"
@@ -19323,6 +19403,8 @@ end)()
 		id = 201384,
 		name = "Support – Queen's Light"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201385] = {
 		id = 201385,
 		name = "Support – Queen's Light"
@@ -19387,8 +19469,6 @@ end)()
 		id = 201530,
 		name = "Amahara's Blessing - Uroko"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201531] = {
 		id = 201531,
 		name = "Amahara's Blessing - Uroko"
@@ -19725,6 +19805,8 @@ end)()
 		id = 1011370,
 		name = "Fatal Perforation+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011371] = {
 		id = 1011371,
 		name = "Fatal Perforation+"
@@ -19789,8 +19871,6 @@ end)()
 		id = 1012320,
 		name = "Poisonous Sting+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012322] = {
 		id = 1012322,
 		name = "Poisonous Sting+"
@@ -20127,6 +20207,8 @@ end)()
 		id = 1012581,
 		name = "Don't Move An Inch!"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012582] = {
 		id = 1012582,
 		name = "Don't Move An Inch!"
@@ -20191,8 +20273,6 @@ end)()
 		id = 1012912,
 		name = "Phoenix's Plumage!"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012913] = {
 		id = 1012913,
 		name = "Undying Demon"
@@ -20529,6 +20609,8 @@ end)()
 		id = 1090410,
 		name = "Tactical Record: Jöttun's Jaws"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090420] = {
 		id = 1090420,
 		name = "Full Firepower - Grozny"
@@ -20593,8 +20675,6 @@ end)()
 		id = 1090491,
 		name = "Reload Order - Pensacola"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090492] = {
 		id = 1090492,
 		name = "Reload Order - Pensacola"

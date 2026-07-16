@@ -38,7 +38,8 @@ slot0.GetType2Class = function()
 		[ActivityConst.ACTIVITY_TYPE_CITY_REBUILD] = VirtualBagActivity,
 		[ActivityConst.ACTIVITY_TYPE_ISLAND_DRAW_AWARD] = DrawAwardActivity,
 		[ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_UP] = LoveLetterActivity,
-		[ActivityConst.ACTIVITY_TYPE_MALL] = MallActivity
+		[ActivityConst.ACTIVITY_TYPE_MALL] = MallActivity,
+		[ActivityConst.ACTIVITY_TYPE_AUCTION_GAME] = AuctionGameActivity
 	}
 
 	return uv0

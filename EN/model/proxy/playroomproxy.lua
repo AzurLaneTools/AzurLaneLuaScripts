@@ -471,7 +471,7 @@ slot6.UpdateGameLoadData = function(slot0, slot1)
 
 	slot0.gameLoadData:UpdateData(slot1)
 
-	if slot2 then
+	if slot2 and slot0.roomData then
 		slot0.roomData.roomState = PlayRoomConst.PLAY_ROOM_STATE.PLAYING
 
 		slot0:ExitMatchReadyRoom()

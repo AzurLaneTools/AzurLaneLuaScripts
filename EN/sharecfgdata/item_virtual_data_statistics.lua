@@ -184409,6 +184409,58 @@ _G.pg.base.item_virtual_data_statistics[66014] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[66015] = {
+	drop_gold_max = 0,
+	name = "Newcomers' Build Ticket",
+	display = "Can be used to build shipgirls in the Campaign pool. Acquired through the Newcomers' Support Campaign.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 30898,
+	album_config = "",
+	icon = "Props/buildTicket_newserver",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 66015,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66016] = {
+	drop_gold_max = 0,
+	name = "Campaign Pts",
+	display = "Newcomers' Support Campaign shop currency. Removed after the campaign ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/newserver_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66016,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66018] = {
 	drop_gold_max = 0,
 	name = "Venus Points",
@@ -260530,4 +260582,108 @@ _G.pg.base.item_virtual_data_statistics[200820] = {
 			1
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970001] = {
+	drop_gold_max = 0,
+	name = "Bid Coin",
+	display = "A virtual currency used for auctions. Friendly Reminder: You can always earn back the coins you've lost, but any items you win are non-refundable and non-exchangeable.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/auction_coin",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 31,
+	id = 970001,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970002] = {
+	drop_gold_max = 0,
+	name = "Item Acquisition List",
+	display = "A document detailing the holder's successful bids. Proof of one's great prowess on the auction floor.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/auction_pt_1",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970002,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970003] = {
+	drop_gold_max = 0,
+	name = "Top Bidder Sticker Album",
+	display = "This item will be automatically opened when obtained. Unlocks access to sets 1-4 of the limited Top Bidder stickers.\nCan be found in the Default section of chat stickers.",
+	type = 98,
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/970003",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970003,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970004] = {
+	drop_gold_max = 0,
+	name = "Top Bidder Sticker Album",
+	display = "This item will be automatically opened when obtained. Unlocks access to sets 5-9 of the limited Top Bidder stickers.\nCan be found in the Default section of chat stickers.",
+	type = 98,
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/970003",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970004,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }

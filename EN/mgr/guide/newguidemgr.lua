@@ -51,6 +51,7 @@ slot0.Init = function(slot0, slot1)
 		uv0.uiFinder = GuideUIFinder.New(uv0._tf)
 		uv0.uiDuplicator = GuideUIDuplicator.New(uv0._tf:Find("target"))
 		uv0.uiLoader = GuideUILoader.New(uv0._tf:Find("target"))
+		uv0.uiFloatCollctor = GuideUIFloatCollector.New(uv0._tf:Find("target"))
 		uv0.dialogueWindows = {
 			[GuideStep.DIALOGUE_BLUE] = uv0._tf:Find("windows/window_1")
 		}
@@ -193,15 +194,12 @@ slot0.Stop = function(slot0)
 		slot0.uiFinder:Clear()
 		slot0.uiDuplicator:Clear()
 		slot0.uiLoader:Clear()
+		slot0.uiFloatCollctor:Clear()
 		slot0:Clear()
 	end
 end
 
 slot0.NextStep = function(slot0)
-	if not IsUnityEditor then
-		return
-	end
-
 	if slot0.state == uv0 and slot0.player then
 		slot0.player:NextOne()
 	end
@@ -277,6 +275,7 @@ slot0.Exit = function(slot0)
 	slot0.uiFinder:Clear()
 	slot0.uiDuplicator:Clear()
 	slot0.uiLoader:Clear()
+	slot0.uiFloatCollctor:Clear()
 
 	slot0.state = uv0
 end

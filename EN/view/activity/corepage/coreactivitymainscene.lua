@@ -219,7 +219,9 @@ slot0.verifyTabs = function(slot0, slot1)
 		return
 	end
 
-	triggerToggle(slot0.tabs:Find(tostring(slot2:getConfig("is_show"))), true)
+	if slot0.tabs:Find(tostring(slot2:getConfig("is_show"))) then
+		triggerToggle(slot4, true)
+	end
 end
 
 slot0.GetActiveActivity = function(slot0)

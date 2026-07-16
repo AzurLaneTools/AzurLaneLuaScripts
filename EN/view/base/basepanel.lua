@@ -30,6 +30,18 @@ slot0.attach = function(slot0, slot1)
 		end
 	end
 
+	slot0.bind = function(slot0, ...)
+		if slot0.parent then
+			slot0.parent:bind(...)
+		end
+	end
+
+	slot0.disconnect = function(slot0, slot1)
+		if slot0.parent then
+			slot0.parent:disconnect(slot1)
+		end
+	end
+
 	setActive(slot0._go, true)
 	pg.DelegateInfo.New(slot0)
 end
@@ -42,6 +54,8 @@ slot0.detach = function(slot0)
 
 		slot0.parent = nil
 		slot0.emit = nil
+		slot0.bind = nil
+		slot0.disconnect = nil
 		slot0.exited = true
 	end
 end

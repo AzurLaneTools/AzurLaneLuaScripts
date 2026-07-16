@@ -49,7 +49,7 @@ slot0.OnInit = function(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		uv0:emit(IslandSelfCardMediator.SET_CARD_ACHVS, uv0.selectedIds)
+		uv0:emit(IslandSelfCardMediator.SET_CARD_ACHVS, getProxy(IslandProxy):GetIsland():GetAchievementAgency():UpdataAchLv(uv0.selectedIds))
 	end, SFX_PANEL)
 
 	slot0.cards = {}
@@ -87,6 +87,10 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 
 		uv0:UpdateTitle()
 	end, SFX_PANEL)
+end
+
+slot0.GetNewSelectedIds = function(slot0, slot1)
+	slot2 = {}
 end
 
 slot0.Show = function(slot0, slot1, slot2)

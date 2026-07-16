@@ -104,6 +104,8 @@ slot0.UpdateClick = function(slot0)
 end
 
 slot0.updateGiftWindow = function(slot0)
+	setText(slot0.buyNormalBtn:Find("Price/BuyText"), i18n("word_buy"))
+	setText(slot0.buyNormalBtn:Find("Price/content/Text"), slot0.normalGoodVO:getConfig("money"))
 	onButton(slot0, slot0.buyNormalBtn, function ()
 		pg.m02:sendNotification(GAME.CHARGE_OPERATION, {
 			shopId = uv0.normalGoodVO.id
@@ -111,6 +113,8 @@ slot0.updateGiftWindow = function(slot0)
 		uv0:ClearPreviewer()
 		uv0:closeView()
 	end, SFX_PANEL)
+	setText(slot0.buySpecialBtn:Find("Price/BuyText"), i18n("word_buy"))
+	setText(slot0.buySpecialBtn:Find("Price/content/Text"), slot0.specailGoodVO:getConfig("money"))
 
 	slot5 = SFX_PANEL
 

@@ -625,6 +625,11 @@ pg.dorm3d_ik.all = {
 	60053001,
 	60053002,
 	60053003,
+	60061000,
+	60061001,
+	60062000,
+	60063000,
+	60063001,
 	61011000,
 	61012000,
 	61013000,
@@ -649,6 +654,11 @@ pg.dorm3d_ik.all = {
 	61053001,
 	61053002,
 	61053003,
+	61061000,
+	61061001,
+	61062000,
+	61063000,
+	61063001,
 	61091000,
 	61091001,
 	61092000,
@@ -45221,6 +45231,373 @@ end)()
 			}
 		}
 	}
+	pg.base.dorm3d_ik[60061000] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 49905,
+		back_time = 1,
+		head_track = "",
+		timeline_action = "",
+		controller = "BedRightThighIK",
+		action_emote = "Face_amazed_start",
+		id = 60061000,
+		trigger_param = {
+			2,
+			"RightThigh"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"RightThigh"
+			},
+			{
+				"RightFoot"
+			}
+		},
+		rect = {
+			-450,
+			-430,
+			900,
+			600
+		},
+		trigger_rect = {
+			-550,
+			-530,
+			1400,
+			900
+		},
+		plane_rotation = {
+			{
+				0.108287,
+				-0.8532434,
+				0.2645511,
+				-0.4361907
+			},
+			{
+				-0.02251505,
+				0.3808557,
+				0.03198234,
+				0.9238068
+			}
+		},
+		plane_scale = {
+			{
+				0.1591991,
+				0.1629937,
+				0.3936299
+			},
+			{
+				0.58,
+				0.5,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_ik[60061001] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 49905,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "PayDeskChestIK2",
+		action_emote = "Face_shy_start",
+		id = 60061001,
+		trigger_param = {
+			2,
+			"Chest"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-650,
+			-500,
+			1400,
+			1000
+		},
+		trigger_rect = {
+			-700,
+			-600,
+			1600,
+			1200
+		},
+		plane_rotation = {
+			{
+				-0.1494484,
+				-0.8844433,
+				-0.2227977,
+				0.3818201
+			},
+			{
+				-0.04533571,
+				0.7854667,
+				0.000571066,
+				-0.617241
+			},
+			{
+				0.5956174,
+				-0.6010711,
+				-0.3793606,
+				0.374218
+			}
+		},
+		plane_scale = {
+			{
+				0.4463155,
+				0.4568495,
+				0.3936299
+			},
+			{
+				0.2163399,
+				0.05211236,
+				1
+			},
+			{
+				0.07628826,
+				0.08270419,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_ik[60062000] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 49905,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "PayDeskChestIK2",
+		action_emote = "Face_shy_start",
+		id = 60062000,
+		trigger_param = {
+			2,
+			"Chest"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-650,
+			-500,
+			1400,
+			1000
+		},
+		trigger_rect = {
+			-700,
+			-600,
+			1600,
+			1200
+		},
+		plane_rotation = {
+			{
+				-0.1494484,
+				-0.8844433,
+				-0.2227977,
+				0.3818201
+			},
+			{
+				-0.04533571,
+				0.7854667,
+				0.000571066,
+				-0.617241
+			},
+			{
+				0.5956174,
+				-0.6010711,
+				-0.3793606,
+				0.374218
+			}
+		},
+		plane_scale = {
+			{
+				0.4463155,
+				0.4568495,
+				0.3936299
+			},
+			{
+				0.2163399,
+				0.05211236,
+				1
+			},
+			{
+				0.07628826,
+				0.08270419,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_ik[60063000] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 49905,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "PayDeskChestIK2",
+		action_emote = "Face_shy_start",
+		id = 60063000,
+		trigger_param = {
+			2,
+			"Chest"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-650,
+			-500,
+			1400,
+			1000
+		},
+		trigger_rect = {
+			-700,
+			-600,
+			1600,
+			1200
+		},
+		plane_rotation = {
+			{
+				-0.1494484,
+				-0.8844433,
+				-0.2227977,
+				0.3818201
+			},
+			{
+				-0.04533571,
+				0.7854667,
+				0.000571066,
+				-0.617241
+			},
+			{
+				0.5956174,
+				-0.6010711,
+				-0.3793606,
+				0.374218
+			}
+		},
+		plane_scale = {
+			{
+				0.4463155,
+				0.4568495,
+				0.3936299
+			},
+			{
+				0.2163399,
+				0.05211236,
+				1
+			},
+			{
+				0.07628826,
+				0.08270419,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_ik[60063001] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 49905,
+		back_time = 0.8,
+		head_track = "",
+		timeline_action = "",
+		controller = "PayBedLeftFootIK",
+		action_emote = "Face_smile_start",
+		id = 60063001,
+		trigger_param = {
+			2,
+			"LeftFoot"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"LeftThigh"
+			},
+			{
+				"LeftFoot"
+			}
+		},
+		rect = {
+			-500,
+			-150,
+			1200,
+			700
+		},
+		trigger_rect = {
+			-650,
+			-200,
+			1600,
+			1200
+		},
+		plane_rotation = {
+			{
+				0.108287,
+				-0.8532434,
+				0.2645511,
+				-0.4361907
+			},
+			{
+				-0.06890359,
+				0.728848,
+				-0.1107668,
+				-0.6721337
+			}
+		},
+		plane_scale = {
+			{
+				0.1591991,
+				0.1629937,
+				0.3936299
+			},
+			{
+				0.6508646,
+				0.4135009,
+				1
+			}
+		}
+	}
 	pg.base.dorm3d_ik[61011000] = {
 		action_back_time = 0,
 		tip_offset = "",
@@ -46945,6 +47322,373 @@ end)()
 			{
 				0.1180465,
 				0.1432278,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_ik[61061000] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 49905,
+		back_time = 1,
+		head_track = "",
+		timeline_action = "",
+		controller = "BedRightThighIK",
+		action_emote = "Face_amazed_start",
+		id = 61061000,
+		trigger_param = {
+			2,
+			"RightThigh"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"RightThigh"
+			},
+			{
+				"RightFoot"
+			}
+		},
+		rect = {
+			-450,
+			-430,
+			900,
+			600
+		},
+		trigger_rect = {
+			-550,
+			-530,
+			1400,
+			900
+		},
+		plane_rotation = {
+			{
+				0.108287,
+				-0.8532434,
+				0.2645511,
+				-0.4361907
+			},
+			{
+				-0.02251505,
+				0.3808557,
+				0.03198234,
+				0.9238068
+			}
+		},
+		plane_scale = {
+			{
+				0.1591991,
+				0.1629937,
+				0.3936299
+			},
+			{
+				0.58,
+				0.5,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_ik[61061001] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 49905,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "PayDeskChestIK2",
+		action_emote = "Face_shy_start",
+		id = 61061001,
+		trigger_param = {
+			2,
+			"Chest"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-650,
+			-500,
+			1400,
+			1000
+		},
+		trigger_rect = {
+			-700,
+			-600,
+			1600,
+			1200
+		},
+		plane_rotation = {
+			{
+				-0.1494484,
+				-0.8844433,
+				-0.2227977,
+				0.3818201
+			},
+			{
+				-0.04533571,
+				0.7854667,
+				0.000571066,
+				-0.617241
+			},
+			{
+				0.5956174,
+				-0.6010711,
+				-0.3793606,
+				0.374218
+			}
+		},
+		plane_scale = {
+			{
+				0.4463155,
+				0.4568495,
+				0.3936299
+			},
+			{
+				0.2163399,
+				0.05211236,
+				1
+			},
+			{
+				0.07628826,
+				0.08270419,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_ik[61062000] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 49905,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "PayDeskChestIK2",
+		action_emote = "Face_shy_start",
+		id = 61062000,
+		trigger_param = {
+			2,
+			"Chest"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-650,
+			-500,
+			1400,
+			1000
+		},
+		trigger_rect = {
+			-700,
+			-600,
+			1600,
+			1200
+		},
+		plane_rotation = {
+			{
+				-0.1494484,
+				-0.8844433,
+				-0.2227977,
+				0.3818201
+			},
+			{
+				-0.04533571,
+				0.7854667,
+				0.000571066,
+				-0.617241
+			},
+			{
+				0.5956174,
+				-0.6010711,
+				-0.3793606,
+				0.374218
+			}
+		},
+		plane_scale = {
+			{
+				0.4463155,
+				0.4568495,
+				0.3936299
+			},
+			{
+				0.2163399,
+				0.05211236,
+				1
+			},
+			{
+				0.07628826,
+				0.08270419,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_ik[61063000] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 49905,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "PayDeskChestIK2",
+		action_emote = "Face_shy_start",
+		id = 61063000,
+		trigger_param = {
+			2,
+			"Chest"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-650,
+			-500,
+			1400,
+			1000
+		},
+		trigger_rect = {
+			-700,
+			-600,
+			1600,
+			1200
+		},
+		plane_rotation = {
+			{
+				-0.1494484,
+				-0.8844433,
+				-0.2227977,
+				0.3818201
+			},
+			{
+				-0.04533571,
+				0.7854667,
+				0.000571066,
+				-0.617241
+			},
+			{
+				0.5956174,
+				-0.6010711,
+				-0.3793606,
+				0.374218
+			}
+		},
+		plane_scale = {
+			{
+				0.4463155,
+				0.4568495,
+				0.3936299
+			},
+			{
+				0.2163399,
+				0.05211236,
+				1
+			},
+			{
+				0.07628826,
+				0.08270419,
+				1
+			}
+		}
+	}
+	pg.base.dorm3d_ik[61063001] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 49905,
+		back_time = 0.8,
+		head_track = "",
+		timeline_action = "",
+		controller = "PayBedLeftFootIK",
+		action_emote = "Face_smile_start",
+		id = 61063001,
+		trigger_param = {
+			2,
+			"LeftFoot"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"LeftThigh"
+			},
+			{
+				"LeftFoot"
+			}
+		},
+		rect = {
+			-500,
+			-150,
+			1200,
+			700
+		},
+		trigger_rect = {
+			-650,
+			-200,
+			1600,
+			1200
+		},
+		plane_rotation = {
+			{
+				0.108287,
+				-0.8532434,
+				0.2645511,
+				-0.4361907
+			},
+			{
+				-0.06890359,
+				0.728848,
+				-0.1107668,
+				-0.6721337
+			}
+		},
+		plane_scale = {
+			{
+				0.1591991,
+				0.1629937,
+				0.3936299
+			},
+			{
+				0.6508646,
+				0.4135009,
 				1
 			}
 		}
@@ -50261,6 +51005,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.dorm3d_ik[71044001] = {
 		action_back_time = 0,
 		tip_offset = "",

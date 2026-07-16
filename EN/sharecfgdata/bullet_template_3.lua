@@ -27448,3 +27448,2854 @@ _G.pg.base.bullet_template_3[3406017] = {
 		}
 	}
 }
+
+
+_G.pg.base.bullet_template_3[3409001] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 5,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409001,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		directHit = true,
+		shrapnel = {
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409002,
+				barrage_ID = 3409002
+			},
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409003,
+				barrage_ID = 3409003
+			},
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409004,
+				barrage_ID = 3409004
+			},
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409005,
+				barrage_ID = 3409005
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409002] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 9,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409002,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {
+		time = 1.3,
+		range = 16
+	},
+	attach_buff = {
+		{
+			buff_id = 200454,
+			effect_id = "AlertArea_looping"
+		}
+	},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409003] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 1,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "A2_slash_enemy",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "A2_slash_enemy",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409003,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409004] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 1,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.1,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 2,
+	id = 3409004,
+	random_damage_rate = 0,
+	damage_type = {
+		3,
+		3.9,
+		3.9
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		16,
+		16,
+		16
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409005] = {
+	range_offset = 0,
+	modle_ID = "jianqi_blue",
+	type = 5,
+	velocity = 10,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMissBig",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "ShellMissBig",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 2,
+	id = 3409005,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1.3,
+		1.3
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		4,
+		1,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		shrapnel = {
+			{
+				initialSplit = true,
+				bullet_ID = 3409006,
+				emitterType = "BattleBulletEmitter",
+				inheritAngle = 1,
+				barrage_ID = 3409006
+			},
+			{
+				initialSplit = true,
+				bullet_ID = 3409007,
+				emitterType = "BattleBulletEmitter",
+				inheritAngle = 1,
+				barrage_ID = 3409007
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409006] = {
+	range_offset = 0,
+	modle_ID = "jiantouzidan10",
+	type = 1,
+	velocity = 10,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409006,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409007] = {
+	range_offset = 0,
+	modle_ID = "cave_bullet06",
+	type = 1,
+	velocity = 1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409007,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {
+		{
+			u = 0.05,
+			flip = false,
+			v = 0,
+			t = 2
+		},
+		{
+			u = 0,
+			flip = false,
+			v = 0,
+			t = 2.5
+		}
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409008] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 5,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409008,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		shrapnel = {
+			{
+				bullet_ID = 3409010,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409010
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409009] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 5,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409009,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		shrapnel = {
+			{
+				bullet_ID = 3409011,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409010
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409010] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 5,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409010,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		shrapnel = {
+			{
+				bullet_ID = 3409012,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409011
+			},
+			{
+				bullet_ID = 3409013,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409012
+			},
+			{
+				bullet_ID = 3409014,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409013
+			},
+			{
+				bullet_ID = 3409015,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409014
+			},
+			{
+				bullet_ID = 3409016,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409015
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409011] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 5,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409011,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		shrapnel = {
+			{
+				bullet_ID = 3409012,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409015
+			},
+			{
+				bullet_ID = 3409013,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409014
+			},
+			{
+				bullet_ID = 3409014,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409013
+			},
+			{
+				bullet_ID = 3409015,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409012
+			},
+			{
+				bullet_ID = 3409016,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409011
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409012] = {
+	range_offset = 0,
+	modle_ID = "kedouzidan_cyan",
+	type = 1,
+	velocity = 4,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 80,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409012,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409013] = {
+	range_offset = 0,
+	modle_ID = "kedouzidan_cyan",
+	type = 1,
+	velocity = 4.4,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 80,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409013,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409014] = {
+	range_offset = 0,
+	modle_ID = "kedouzidan_cyan",
+	type = 1,
+	velocity = 4.8,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 80,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409014,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409015] = {
+	range_offset = 0,
+	modle_ID = "kedouzidan_cyan",
+	type = 1,
+	velocity = 5.2,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 80,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409015,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409016] = {
+	range_offset = 0,
+	modle_ID = "kedouzidan_cyan",
+	type = 1,
+	velocity = 5.6,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 80,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409016,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409017] = {
+	range_offset = 0,
+	modle_ID = "jianqi_blue",
+	type = 1,
+	velocity = 8,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMissBig",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "ShellMissBig",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 2,
+	id = 3409017,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1.3,
+		1.3
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		4,
+		1,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409018] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 5,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409018,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		shrapnel = {
+			{
+				bullet_ID = 3409019,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 1
+			},
+			{
+				bullet_ID = 3409020,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 1
+			},
+			{
+				bullet_ID = 3409021,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 1
+			},
+			{
+				bullet_ID = 3409022,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 1
+			},
+			{
+				bullet_ID = 3409023,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 1
+			},
+			{
+				bullet_ID = 3409024,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 1
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409019] = {
+	range_offset = 0,
+	modle_ID = "Bullet3_faxi",
+	type = 1,
+	velocity = 4,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409019,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.5,
+		1.5,
+		1.5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409020] = {
+	range_offset = 0,
+	modle_ID = "Bullet3_faxi",
+	type = 1,
+	velocity = 4.5,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409020,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.5,
+		1.5,
+		1.5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409021] = {
+	range_offset = 0,
+	modle_ID = "Bullet3_faxi",
+	type = 1,
+	velocity = 5,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409021,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.5,
+		1.5,
+		1.5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409022] = {
+	range_offset = 0,
+	modle_ID = "Bullet3_faxi",
+	type = 1,
+	velocity = 5.5,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409022,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.5,
+		1.5,
+		1.5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409023] = {
+	range_offset = 0,
+	modle_ID = "Bullet3_faxi",
+	type = 1,
+	velocity = 6,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409023,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.5,
+		1.5,
+		1.5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409024] = {
+	range_offset = 0,
+	modle_ID = "Bullet3_faxi",
+	type = 1,
+	velocity = 6.5,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409024,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.5,
+		1.5,
+		1.5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409025] = {
+	range_offset = 0,
+	modle_ID = "Bullet2_faxi",
+	type = 1,
+	velocity = 5,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409025,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {
+		{
+			u = 0,
+			flip = false,
+			v = 0.2,
+			t = 0
+		},
+		{
+			u = 0.1,
+			flip = false,
+			v = 0,
+			t = 1
+		}
+	},
+	cld_box = {
+		1.5,
+		1.5,
+		1.5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409026] = {
+	range_offset = 0,
+	modle_ID = "Bullet2_faxi",
+	type = 1,
+	velocity = 5,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409026,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {
+		{
+			u = 0,
+			flip = false,
+			v = -0.2,
+			t = 0
+		},
+		{
+			u = 0.1,
+			flip = false,
+			v = 0,
+			t = 1
+		}
+	},
+	cld_box = {
+		1.5,
+		1.5,
+		1.5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409101] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 5,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409101,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		directHit = true,
+		shrapnel = {
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409102,
+				barrage_ID = 3409102
+			},
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409103,
+				barrage_ID = 3409103
+			},
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409104,
+				barrage_ID = 3409104
+			},
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409105,
+				barrage_ID = 3409105
+			},
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409105,
+				barrage_ID = 3409106
+			},
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409105,
+				barrage_ID = 3409107
+			},
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409105,
+				barrage_ID = 3409108
+			},
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3409106,
+				barrage_ID = 3409109
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409102] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 9,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409102,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {
+		time = 1.3,
+		range = 16
+	},
+	attach_buff = {
+		{
+			buff_id = 200454,
+			effect_id = "AlertArea_looping"
+		}
+	},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409103] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 1,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "2B_zhanji_all_enemy",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "2B_zhanji_all_enemy",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409103,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409104] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 1,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "2B_slash_enemy",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "2B_slash_enemy",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409104,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409105] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 1,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.1,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 2,
+	id = 3409105,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1.3,
+		1.3
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		16,
+		16,
+		16
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409106] = {
+	range_offset = 0,
+	modle_ID = "2B_daoguangzidan01",
+	type = 5,
+	velocity = 10,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMissBig",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "ShellMissBig",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 2,
+	id = 3409106,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1.3,
+		1.3
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		4,
+		1,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		shrapnel = {
+			{
+				initialSplit = true,
+				bullet_ID = 3409107,
+				emitterType = "BattleBulletEmitter",
+				inheritAngle = 1,
+				barrage_ID = 3409110
+			},
+			{
+				initialSplit = true,
+				bullet_ID = 3409108,
+				emitterType = "BattleBulletEmitter",
+				inheritAngle = 1,
+				barrage_ID = 3409111
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409107] = {
+	range_offset = 0,
+	modle_ID = "jiantouzidan12",
+	type = 1,
+	velocity = 10,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409107,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409108] = {
+	range_offset = 0,
+	modle_ID = "cave_bullet09",
+	type = 1,
+	velocity = 2,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409108,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409109] = {
+	range_offset = 0,
+	modle_ID = "hwxqb_2",
+	type = 1,
+	velocity = 5,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409109,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {
+		{
+			u = 0,
+			flip = false,
+			v = -0.05,
+			t = 0
+		},
+		{
+			u = 0,
+			flip = false,
+			v = 0,
+			t = 2
+		}
+	},
+	cld_box = {
+		1.5,
+		1.5,
+		1.5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409110] = {
+	range_offset = 0,
+	modle_ID = "hwxqb_2",
+	type = 1,
+	velocity = 5,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409110,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {
+		{
+			u = 0,
+			flip = false,
+			v = 0.05,
+			t = 0
+		},
+		{
+			u = 0,
+			flip = false,
+			v = 0,
+			t = 2
+		}
+	},
+	cld_box = {
+		1.5,
+		1.5,
+		1.5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409111] = {
+	range_offset = 0,
+	modle_ID = "2B_daoguangzidan01",
+	type = 1,
+	velocity = 8,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMissBig",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "ShellMissBig",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 2,
+	id = 3409111,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1.3,
+		1.3
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		4,
+		1,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409112] = {
+	range_offset = 0,
+	modle_ID = "2B_daoguangzidan02",
+	type = 1,
+	velocity = 12,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "ShellMissBig",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "ShellMissBig",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 2,
+	id = 3409112,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1.3,
+		1.3
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		4,
+		1,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409113] = {
+	range_offset = 0,
+	modle_ID = "2B_daoguangzidan03",
+	type = 1,
+	velocity = 10,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "ShellMissBig",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "ShellMissBig",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 2,
+	id = 3409113,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1.3,
+		1.3
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		4,
+		1,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409114] = {
+	range_offset = 0,
+	modle_ID = "bullet_dayu04",
+	type = 5,
+	velocity = 8,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409114,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			3,
+			0.8
+		},
+		{
+			3,
+			1
+		},
+		{
+			3,
+			1.3
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		lastTime = 0.01,
+		ignoreShield = true,
+		shrapnel = {
+			{
+				bullet_ID = 3409116,
+				initialSplit = true,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409118
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409115] = {
+	range_offset = 0,
+	modle_ID = "bullet_dayu08",
+	type = 5,
+	velocity = 8,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409115,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			3,
+			0.8
+		},
+		{
+			3,
+			1
+		},
+		{
+			3,
+			1.3
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		lastTime = 0.01,
+		ignoreShield = true,
+		shrapnel = {
+			{
+				bullet_ID = 3409117,
+				initialSplit = true,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409119
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409116] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 5,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409116,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		shrapnel = {
+			{
+				bullet_ID = 3409118,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409120
+			},
+			XID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409117] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 5,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3409117,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		shrapnel = {
+			{
+				bullet_ID = 3409119,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 3409120
+			},
+			XID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_3[3409118] = {
+	range_offset = 0,
+	modle_ID = "BulletGER_yellow",
+	type = 1,
+	velocity = 2.5,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409118,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_3[3409119] = {
+	range_offset = 0,
+	modle_ID = "BulletGER_white",
+	type = 1,
+	velocity = 2.5,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3409119,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		0.9,
+		0.8
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
