@@ -50499,3 +50499,8 @@ _G.pg.base.gametip.ConsumeGem_tip = {
 _G.pg.base.gametip.nier_a2_item_got = {
 	tip = "已领取"
 }
+
+
+_G.pg.base.gametip.auction_network_timeout = {
+	tip = "网络环境异常，已退出对局"
+}

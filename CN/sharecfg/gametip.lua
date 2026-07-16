@@ -30935,5 +30935,9 @@ cs.gametip = {
 	nier_a2_item_got = {
 		1326055,
 		89
+	},
+	auction_network_timeout = {
+		1326144,
+		123
 	}
 }

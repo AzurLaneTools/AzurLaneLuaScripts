@@ -164,6 +164,7 @@ slot0.OnFirstFlush = function(slot0)
 	slot0:LocalInit()
 	slot0:LocalFresh()
 	slot0:InitBtn()
+	slot0:Hx4Channel()
 end
 
 slot0.OnUpdateFlush = function(slot0)
@@ -202,6 +203,16 @@ slot0.GetWorldPtData = function(slot0, slot1)
 			cmd = 2,
 			activity_id = slot0.ptData:GetId()
 		})
+	end
+end
+
+slot1 = function(slot0)
+	return slot0._tf:Find("rw/hx_ch" .. pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony())
+end
+
+slot0.Hx4Channel = function(slot0)
+	if not IsNil(uv0(slot0)) then
+		setActive(slot1, HXSet.isHx())
 	end
 end
 

@@ -41,6 +41,9 @@ slot0.didEnter = function(slot0, slot1)
 				slot1.preserveAspect = true
 			end
 
+			tf(slot0).anchoredPosition = Vector2.zero
+			rtf(slot0).sizeDelta = Vector2.New(210, 210)
+
 			if slot0:GetComponent("Animator") then
 				slot2.enabled = false
 			end
