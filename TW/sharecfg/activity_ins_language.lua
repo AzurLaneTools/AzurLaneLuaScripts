@@ -27045,315 +27045,315 @@ end)()
 		value = "跟你一樣就好了"
 	}
 	pg.base.activity_ins_language.ins_541 = {
-		value = ""
+		value = "噢！！天上的視野果然很好呢！"
 	}
 	pg.base.activity_ins_language.ins_discuss_541_1 = {
-		value = ""
+		value = "妳這是在體驗飛行？"
 	}
 	pg.base.activity_ins_language.ins_reply_541_1_1 = {
-		value = ""
+		value = "體驗飛行是其中一點啦，更重要的是在高空中取景——！"
 	}
 	pg.base.activity_ins_language.ins_reply_541_1_2 = {
-		value = ""
+		value = "阿蒂利奧也想體驗飛行~"
 	}
 	pg.base.activity_ins_language.ins_reply_541_1_3 = {
-		value = ""
+		value = "安克拉治……也想飛高……取景……畫畫！"
 	}
 	pg.base.activity_ins_language.ins_reply_541_1_4 = {
-		value = ""
+		value = "都來！同伴多！力量大！靈感來！"
 	}
 	pg.base.activity_ins_language.ins_discuss_541_2 = {
-		value = ""
+		value = "這種簡易的飛行裝置，居然真的能載人啊？"
 	}
 	pg.base.activity_ins_language.ins_reply_541_2_1 = {
-		value = ""
+		value = "不過安全措施似乎不大完善，是不是有些危險？"
 	}
 	pg.base.activity_ins_language.ins_reply_541_2_2 = {
-		value = ""
+		value = "沒事的，只要不超重什麼的，一般是不會有問題的~"
 	}
 	pg.base.activity_ins_language.ins_reply_541_2_3 = {
-		value = ""
+		value = "我製作的時候有添加安全措施的！出現危機狀況就會啟動，儘管放心！"
 	}
 	pg.base.activity_ins_language.ins_reply_541_2_4 = {
-		value = ""
+		value = "……"
 	}
 	pg.base.activity_ins_language.ins_reply_541_2_5 = {
-		value = ""
+		value = "妳們別在港區玩，我怕被砸到！！"
 	}
 	pg.base.activity_ins_language.ins_op_541_1_1 = {
-		value = ""
+		value = "是不是飛得有點太高了？注意安全"
 	}
 	pg.base.activity_ins_language.op_reply_541_1_1 = {
-		value = ""
+		value = "這個高度剛好給指揮官來一個從天而降的擁抱——！"
 	}
 	pg.base.activity_ins_language.ins_op_541_1_2 = {
-		value = ""
+		value = "期待取材結束後誕生的傑作！"
 	}
 	pg.base.activity_ins_language.op_reply_541_1_2 = {
-		value = ""
+		value = "等我畫完了會第一時間給您看的~！請期待著！"
 	}
 	pg.base.activity_ins_language.ins_542 = {
-		value = ""
+		value = "偷偷進去的話，指揮官會不會生氣呢~？"
 	}
 	pg.base.activity_ins_language.ins_discuss_542_1 = {
-		value = ""
+		value = "指揮官一定會生氣的吧？還是不要進去了。"
 	}
 	pg.base.activity_ins_language.ins_reply_542_1_1 = {
-		value = ""
+		value = "哼哼！要的就是讓指揮官生氣！我出發了！"
 	}
 	pg.base.activity_ins_language.ins_reply_542_1_2 = {
-		value = ""
+		value = "易北也要一起！等等我！"
 	}
 	pg.base.activity_ins_language.ins_discuss_542_2 = {
-		value = ""
+		value = "不知小女子與友人可有機會與女孩結伴進入冒險？"
 	}
 	pg.base.activity_ins_language.ins_reply_542_2_1 = {
-		value = ""
+		value = "江湖悠悠！（友人飛雲來了！"
 	}
 	pg.base.activity_ins_language.ins_reply_542_2_2 = {
-		value = ""
+		value = "快哉快哉！（遞上計劃書，人走了"
 	}
 	pg.base.activity_ins_language.ins_reply_542_2_3 = {
-		value = ""
+		value = "撫順叫我來的……怎麼都這麼說話……？（這樣對嗎？"
 	}
 	pg.base.activity_ins_language.ins_reply_542_2_4 = {
-		value = ""
+		value = "怎麼突然自稱小女子……？（是不是誤入什麼奇怪的隊列了？"
 	}
 	pg.base.activity_ins_language.ins_reply_542_2_5 = {
-		value = ""
+		value = "意思是要跟我一起進去？走！（這裡是要寫點什麼嗎？"
 	}
 	pg.base.activity_ins_language.ins_discuss_542_3 = {
-		value = ""
+		value = "等等、為什麼找到這裡來了喵！不可以進去喵！！"
 	}
 	pg.base.activity_ins_language.ins_reply_542_3_1 = {
-		value = ""
+		value = "綠頭貓咪急了"
 	}
 	pg.base.activity_ins_language.ins_reply_542_3_2 = {
-		value = ""
+		value = "綠頭貓咪急了"
 	}
 	pg.base.activity_ins_language.ins_reply_542_3_3 = {
-		value = ""
+		value = "哦哦~~？莫非裡面藏著什麼寶物？"
 	}
 	pg.base.activity_ins_language.ins_reply_542_3_4 = {
-		value = ""
+		value = "寶物？我這就帶著船團過來！"
 	}
 	pg.base.activity_ins_language.ins_reply_542_3_5 = {
-		value = ""
+		value = "才沒有什麼寶物喵！不准叫人喵！不能進去喵！！"
 	}
 	pg.base.activity_ins_language.ins_op_542_1_1 = {
-		value = ""
+		value = "港區裡還有這種地方嗎？"
 	}
 	pg.base.activity_ins_language.op_reply_542_1_1 = {
-		value = ""
+		value = "看來我這是發現了不得了的地方了，指揮官你也來玩嘛！"
 	}
 	pg.base.activity_ins_language.ins_op_542_1_2 = {
-		value = ""
+		value = "我會生氣"
 	}
 end)()
 (function ()
 	pg.base.activity_ins_language.op_reply_542_1_2 = {
-		value = ""
+		value = "就等您這句話了！請快點懲罰我吧~！"
 	}
 	pg.base.activity_ins_language.ins_543 = {
-		value = ""
+		value = "接下來的一句，該怎麼寫比較好呢…"
 	}
 	pg.base.activity_ins_language.ins_discuss_543_1 = {
-		value = ""
+		value = "這麼冷的天還坐在戶外……來點伏特加吧！肯定能燃起來的！"
 	}
 	pg.base.activity_ins_language.ins_reply_543_1_1 = {
-		value = ""
+		value = "雖然措辭不講究，但意境有了。"
 	}
 	pg.base.activity_ins_language.ins_reply_543_1_2 = {
-		value = ""
+		value = "啊……？"
 	}
 	pg.base.activity_ins_language.ins_discuss_543_2 = {
-		value = ""
+		value = "前幾句都是什麼，我來幫妳參謀參謀？"
 	}
 	pg.base.activity_ins_language.ins_reply_543_2_1 = {
-		value = ""
+		value = "撫順小姐也會寫詩嗎？"
 	}
 	pg.base.activity_ins_language.ins_reply_543_2_2 = {
-		value = ""
+		value = "不會！但是海天會啊！"
 	}
 	pg.base.activity_ins_language.ins_reply_543_2_3 = {
-		value = ""
+		value = "我在寫的詩和東煌的詩結構不太一樣啦。"
 	}
 	pg.base.activity_ins_language.ins_reply_543_2_4 = {
-		value = ""
+		value = "對啊，那我不就能考住她了？"
 	}
 	pg.base.activity_ins_language.ins_reply_543_2_5 = {
-		value = ""
+		value = "？"
 	}
 	pg.base.activity_ins_language.ins_discuss_543_3 = {
-		value = ""
+		value = "名畫《拉斐爾在享受溫泉》構思開始！"
 	}
 	pg.base.activity_ins_language.ins_reply_543_3_1 = {
-		value = ""
+		value = "……難道不該是雪中的卡爾杜奇嗎？拉斐爾在哪裡？"
 	}
 	pg.base.activity_ins_language.ins_reply_543_3_2 = {
-		value = ""
+		value = "這題我會答~拉斐爾嘛，當然在享受溫泉咯！"
 	}
 	pg.base.activity_ins_language.ins_reply_543_3_3 = {
-		value = ""
+		value = "嘻嘻嘻"
 	}
 	pg.base.activity_ins_language.ins_reply_543_3_4 = {
-		value = ""
+		value = "……我也想泡了，最後再想五分鐘。"
 	}
 	pg.base.activity_ins_language.ins_op_543_1_1 = {
-		value = ""
+		value = "看起來好冷，回去再想吧？"
 	}
 	pg.base.activity_ins_language.op_reply_543_1_1 = {
-		value = ""
+		value = "我就是在家裡沒靈感才出來的……我可以去指揮室想嗎？"
 	}
 	pg.base.activity_ins_language.ins_op_543_1_2 = {
-		value = ""
+		value = "42"
 	}
 	pg.base.activity_ins_language.op_reply_543_1_2 = {
-		value = ""
+		value = "抱歉，指揮官……我覺得不能這麼寫！"
 	}
 	pg.base.activity_ins_language.ins_544 = {
-		value = ""
+		value = "晚上沒什麼工作，就好好放鬆。"
 	}
 	pg.base.activity_ins_language.ins_discuss_544_1 = {
-		value = ""
+		value = "旁邊的書很可疑欸~？"
 	}
 	pg.base.activity_ins_language.ins_reply_544_1_1 = {
-		value = ""
+		value = "看封面好像不是軍事書籍吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_544_1_2 = {
-		value = ""
+		value = "嗯——是很可疑！"
 	}
 	pg.base.activity_ins_language.ins_reply_544_1_3 = {
-		value = ""
+		value = "這幾本書我好像在海天的房間裡看過……！"
 	}
 	pg.base.activity_ins_language.ins_reply_544_1_4 = {
-		value = ""
+		value = "這，這個！是加強指揮作戰默契關係的參考而已！"
 	}
 	pg.base.activity_ins_language.ins_discuss_544_2 = {
-		value = ""
+		value = "白天咖啡，晚上奶茶，這就是參謀的續航力麼"
 	}
 	pg.base.activity_ins_language.ins_reply_544_2_1 = {
-		value = ""
+		value = "但是有些人的工作已經結束了，有些人卻……"
 	}
 	pg.base.activity_ins_language.ins_reply_544_2_2 = {
-		value = ""
+		value = "莫非妳還在忙嗎？我點杯咖啡給你吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_544_2_3 = {
-		value = ""
+		value = "我覺得我需要的不是咖啡……"
 	}
 	pg.base.activity_ins_language.ins_reply_544_2_4 = {
-		value = ""
+		value = "那要不然你別工作了？"
 	}
 	pg.base.activity_ins_language.ins_reply_544_2_5 = {
-		value = ""
+		value = "黑咖啡不加糖，謝謝"
 	}
 	pg.base.activity_ins_language.ins_reply_544_2_6 = {
-		value = ""
+		value = "不客氣"
 	}
 	pg.base.activity_ins_language.ins_op_544_1_1 = {
-		value = ""
+		value = "好好放鬆一下吧，辛苦了"
 	}
 	pg.base.activity_ins_language.op_reply_544_1_1 = {
-		value = ""
+		value = "嗯，指揮官您也是~"
 	}
 	pg.base.activity_ins_language.ins_op_544_1_2 = {
-		value = ""
+		value = "我也很在意一旁的書籍"
 	}
 	pg.base.activity_ins_language.op_reply_544_1_2 = {
-		value = ""
+		value = "只是參考而已，指揮官不要在意這些細節！"
 	}
 	pg.base.activity_ins_language.ins_545 = {
-		value = ""
+		value = "為指揮官特別準備的葡萄~"
 	}
 	pg.base.activity_ins_language.ins_discuss_545_1 = {
-		value = ""
+		value = "這個葡萄看起來好好吃！"
 	}
 	pg.base.activity_ins_language.ins_reply_545_1_1 = {
-		value = ""
+		value = "姐姐，我們用包子跟濟安換葡萄吧！"
 	}
 	pg.base.activity_ins_language.ins_reply_545_1_2 = {
-		value = ""
+		value = "雖然很想答應，不過還是下次吧~這次的特大葡萄有限，要優先給指揮官喔~"
 	}
 	pg.base.activity_ins_language.ins_discuss_545_2 = {
-		value = ""
+		value = "……妳是不是偷吃葡萄了？"
 	}
 	pg.base.activity_ins_language.ins_reply_545_2_1 = {
-		value = ""
+		value = "沒有，我怎麼會做這種事呢？"
 	}
 	pg.base.activity_ins_language.ins_reply_545_2_2 = {
-		value = ""
+		value = "咳、衣服上都沾到葡萄汁了……"
 	}
 	pg.base.activity_ins_language.ins_discuss_545_3 = {
-		value = ""
+		value = "好大的葡萄！感覺還蠻少見的！"
 	}
 	pg.base.activity_ins_language.ins_reply_545_3_1 = {
-		value = ""
+		value = "是的，這個品種的葡萄不多見，我也是好不容易才拿到手的"
 	}
 	pg.base.activity_ins_language.ins_reply_545_3_2 = {
-		value = ""
+		value = "是在哪裡買的？我也想購入一些"
 	}
 	pg.base.activity_ins_language.ins_reply_545_3_3 = {
-		value = ""
+		value = "想買超大超甜葡萄請蹲守我的動態， 本週五晚八點半限量50份準時開搶~！"
 	}
 	pg.base.activity_ins_language.ins_op_545_1_1 = {
-		value = ""
+		value = "啊——"
 	}
 	pg.base.activity_ins_language.op_reply_545_1_1 = {
-		value = ""
+		value = "來啦~啊——請吃~"
 	}
 	pg.base.activity_ins_language.ins_op_545_1_2 = {
-		value = ""
+		value = "好吃，愛吃"
 	}
 	pg.base.activity_ins_language.op_reply_545_1_2 = {
-		value = ""
+		value = "指揮官喜歡就好~"
 	}
 	pg.base.activity_ins_language.ins_546 = {
-		value = ""
+		value = "審判結果：無罪。（僅限本次哦~）"
 	}
 	pg.base.activity_ins_language.ins_discuss_546_1 = {
-		value = ""
+		value = "審判的是指揮官……？那……如有罪惡，就由我來將♡其♡伏♡誅♡"
 	}
 	pg.base.activity_ins_language.ins_reply_546_1_1 = {
-		value = ""
+		value = "莫加多爾，衣衫不整，有罪。"
 	}
 	pg.base.activity_ins_language.ins_reply_546_1_2 = {
-		value = ""
+		value = "……審判的對象不是我！"
 	}
 	pg.base.activity_ins_language.ins_reply_546_1_3 = {
-		value = ""
+		value = "審判官們都齊聚一堂了呢，呵呵~♪"
 	}
 	pg.base.activity_ins_language.ins_discuss_546_2 = {
-		value = ""
+		value = "哼哼哼~你就是傳聞中的審判者是嗎？叛惡者！Z43前來應戰！"
 	}
 	pg.base.activity_ins_language.ins_reply_546_2_1 = {
-		value = ""
+		value = "審判麼？呵呵~餘可從不畏懼虛偽的審判"
 	}
 	pg.base.activity_ins_language.ins_reply_546_2_2 = {
-		value = ""
+		value = "那麼，直面我吧！我將審判你們的靈魂！"
 	}
 	pg.base.activity_ins_language.ins_reply_546_2_3 = {
-		value = ""
+		value = "鼓掌鼓掌，大家都很入戲呢~"
 	}
 	pg.base.activity_ins_language.ins_discuss_546_3 = {
-		value = ""
+		value = "天平上羽毛材質看起來不錯，之後拿來做成除塵撣吧。"
 	}
 	pg.base.activity_ins_language.ins_reply_546_3_1 = {
-		value = ""
+		value = "好主意~也算是循環利用了~"
 	}
 	pg.base.activity_ins_language.ins_reply_546_3_2 = {
-		value = ""
+		value = "看來優秀的女僕還要具備「把角色扮演用完的道具回收利用」的職業素養！"
 	}
 	pg.base.activity_ins_language.ins_op_546_1_1 = {
-		value = ""
+		value = "已經完全代入人設了！"
 	}
 	pg.base.activity_ins_language.op_reply_546_1_1 = {
-		value = ""
+		value = "嗯~角色的設定很不錯呢……您有興趣的話，要不要更深入一些了解呢？"
 	}
 	pg.base.activity_ins_language.ins_op_546_1_2 = {
-		value = ""
+		value = "那下次呢？"
 	}
 	pg.base.activity_ins_language.op_reply_546_1_2 = {
-		value = ""
+		value = "下次的話——你想要什麼審判結果呢？"
 	}
 	pg.base.activity_ins_language.ins_547 = {
 		value = "高空彈跳，推薦，爽！"
@@ -28438,202 +28438,202 @@ end)()
 		value = "嗯。指揮官有興趣的話，我教你……"
 	}
 	pg.base.activity_ins_language.ins_570 = {
-		value = ""
+		value = "演出道具為什麼……解不開了……！"
 	}
 	pg.base.activity_ins_language.ins_discuss_570_1 = {
-		value = ""
+		value = "我明明準備了鑰匙、備用鑰匙、和備用鑰匙的備用鑰匙，結果都掉在了拿不到的位置……"
 	}
 	pg.base.activity_ins_language.ins_reply_570_1_1 = {
-		value = ""
+		value = "那妳是怎麼拿到手機打字的？"
 	}
 	pg.base.activity_ins_language.ins_reply_570_1_2 = {
-		value = ""
+		value = "因為手機剛好在手邊啊"
 	}
 	pg.base.activity_ins_language.ins_reply_570_1_3 = {
-		value = ""
+		value = "啊！我找到藏在手機包裡的備用備用備用鑰匙！但是被另一把安全鎖鎖住了！"
 	}
 	pg.base.activity_ins_language.ins_reply_570_1_4 = {
-		value = ""
+		value = "了不起"
 	}
 	pg.base.activity_ins_language.ins_discuss_570_2 = {
-		value = ""
+		value = "在港區廢棄倉庫——"
 	}
 	pg.base.activity_ins_language.ins_reply_570_2_1 = {
-		value = ""
+		value = "一處任何探測器都發現不了的地方——"
 	}
 	pg.base.activity_ins_language.ins_reply_570_2_2 = {
-		value = ""
+		value = "……妳們在說什麼，感覺好恐怖"
 	}
 	pg.base.activity_ins_language.ins_reply_570_2_3 = {
-		value = ""
+		value = "呼呼呼，是時候釋放被壓抑的力量了！"
 	}
 	pg.base.activity_ins_language.ins_reply_570_2_4 = {
-		value = ""
+		value = "喵？！不許艦裝展開！不要破壞電影佈景喵！"
 	}
 	pg.base.activity_ins_language.ins_op_570_1_1 = {
-		value = ""
+		value = "別慌，我來救妳！"
 	}
 	pg.base.activity_ins_language.op_reply_570_1_1 = {
-		value = ""
+		value = "太好了……得救了！"
 	}
 	pg.base.activity_ins_language.ins_op_570_1_2 = {
-		value = ""
+		value = "正好可以跟後面幾場戲一起拍了！"
 	}
 	pg.base.activity_ins_language.op_reply_570_1_2 = {
-		value = ""
+		value = "咦……？後面，還有戲嗎？"
 	}
 	pg.base.activity_ins_language.ins_571 = {
-		value = ""
+		value = "還沒到發車時間，先睡一下Zzz"
 	}
 	pg.base.activity_ins_language.ins_discuss_571_1 = {
-		value = ""
+		value = "工作辛苦了，好好休息吧~"
 	}
 	pg.base.activity_ins_language.ins_reply_571_1_1 = {
-		value = ""
+		value = "嗯，妳已經很努力了，該休息了"
 	}
 	pg.base.activity_ins_language.ins_reply_571_1_2 = {
-		value = ""
+		value = "但是早就已經到工作時間了啊……？"
 	}
 	pg.base.activity_ins_language.ins_reply_571_1_3 = {
-		value = ""
+		value = "那哈爾福德，工作加油~"
 	}
 	pg.base.activity_ins_language.ins_reply_571_1_4 = {
-		value = ""
+		value = "加油！"
 	}
 	pg.base.activity_ins_language.ins_reply_571_1_5 = {
-		value = ""
+		value = "……等等，不對！"
 	}
 	pg.base.activity_ins_language.ins_reply_571_1_6 = {
-		value = ""
+		value = "為什麼是我加油！"
 	}
 	pg.base.activity_ins_language.ins_discuss_571_2 = {
-		value = ""
+		value = "看上去好舒服……眠眠"
 	}
 	pg.base.activity_ins_language.ins_reply_571_2_1 = {
-		value = ""
+		value = "眠眠……"
 	}
 	pg.base.activity_ins_language.ins_reply_571_2_2 = {
-		value = ""
+		value = "……眠眠？"
 	}
 	pg.base.activity_ins_language.ins_reply_571_2_3 = {
-		value = ""
+		value = "眠眠~"
 	}
 	pg.base.activity_ins_language.ins_reply_571_2_4 = {
-		value = ""
+		value = "眠眠zZZ"
 	}
 	pg.base.activity_ins_language.ins_op_571_1_1 = {
-		value = ""
+		value = "眠眠！"
 	}
 	pg.base.activity_ins_language.op_reply_571_1_1 = {
-		value = ""
+		value = "眠眠——"
 	}
 	pg.base.activity_ins_language.ins_op_571_1_2 = {
-		value = ""
+		value = "那什麼時候發車呢？"
 	}
 	pg.base.activity_ins_language.op_reply_571_1_2 = {
-		value = ""
+		value = "等到發車的時候就發車了……"
 	}
 	pg.base.activity_ins_language.ins_572 = {
-		value = ""
+		value = "自主學習提升中~"
 	}
 	pg.base.activity_ins_language.ins_discuss_572_1 = {
-		value = ""
+		value = "哇哦，這個就是傳說中的網課嘛……"
 	}
 	pg.base.activity_ins_language.ins_reply_572_1_1 = {
-		value = ""
+		value = "沒錯哦~沒錯哦~"
 	}
 	pg.base.activity_ins_language.ins_reply_572_1_2 = {
-		value = ""
+		value = "好有意思，提起我學習的興趣了！"
 	}
 	pg.base.activity_ins_language.ins_reply_572_1_3 = {
-		value = ""
+		value = "飛雲，這個可不是網課~"
 	}
 	pg.base.activity_ins_language.ins_reply_572_1_4 = {
-		value = ""
+		value = "是啊，人家明明在開玩笑呢，撫順，妳不會當真了吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_572_1_5 = {
-		value = ""
+		value = "對的，沒錯……嘿嘿嘿，我是在開玩笑的，小朋友不要當真哦！"
 	}
 	pg.base.activity_ins_language.ins_discuss_572_2 = {
-		value = ""
+		value = "如果我沒記錯的話，現在還是工作時間吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_572_2_1 = {
-		value = ""
+		value = "哈爾福德長官好！妳不是也在刷JUUs嘛~"
 	}
 	pg.base.activity_ins_language.ins_reply_572_2_2 = {
-		value = ""
+		value = "這是什麼奇怪的稱呼，我只是……抽空看一眼"
 	}
 	pg.base.activity_ins_language.ins_reply_572_2_3 = {
-		value = ""
+		value = "哼哼，我懂我懂~戰略性抽空"
 	}
 	pg.base.activity_ins_language.ins_reply_572_2_4 = {
-		value = ""
+		value = "我來給妳看一看真正認真工作的人是什麼樣子的吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_572_2_5 = {
-		value = ""
+		value = "什麼樣子的？"
 	}
 	pg.base.activity_ins_language.ins_reply_572_2_6 = {
-		value = ""
+		value = "@Dupleix"
 	}
 	pg.base.activity_ins_language.ins_reply_572_2_7 = {
-		value = ""
+		value = "沒反應，看到了吧~"
 	}
 	pg.base.activity_ins_language.ins_op_572_1_1 = {
-		value = ""
+		value = "那工作做的如何了呢？"
 	}
 	pg.base.activity_ins_language.op_reply_572_1_1 = {
-		value = ""
+		value = "正在穩步處理中哦~"
 	}
 	pg.base.activity_ins_language.ins_op_572_1_2 = {
-		value = ""
+		value = "這個遊戲好像有點意思"
 	}
 	pg.base.activity_ins_language.op_reply_572_1_2 = {
-		value = ""
+		value = "超有意思哦~~之後我們一起去玩吧~"
 	}
 	pg.base.activity_ins_language.ins_573 = {
-		value = ""
+		value = "不許動！舉起手來！"
 	}
 	pg.base.activity_ins_language.ins_discuss_573_1 = {
-		value = ""
+		value = "好多警戒線！是獨家新聞的味道……"
 	}
 	pg.base.activity_ins_language.ins_reply_573_1_1 = {
-		value = ""
+		value = "是勁爆八卦的味道……"
 	}
 	pg.base.activity_ins_language.ins_reply_573_1_2 = {
-		value = ""
+		value = "可疑人員，舉起手來！"
 	}
 	pg.base.activity_ins_language.ins_reply_573_1_3 = {
-		value = ""
+		value = "別開槍，我投降！"
 	}
 	pg.base.activity_ins_language.ins_reply_573_1_4 = {
-		value = ""
+		value = "投降喵！"
 	}
 	pg.base.activity_ins_language.ins_reply_573_1_5 = {
-		value = ""
+		value = "哼哼哼~乖乖接受檢查吧~"
 	}
 	pg.base.activity_ins_language.ins_discuss_573_2 = {
-		value = ""
+		value = "戰鬥到底！"
 	}
 	pg.base.activity_ins_language.ins_reply_573_2_1 = {
-		value = ""
+		value = "啊……我倒下了！"
 	}
 	pg.base.activity_ins_language.ins_reply_573_2_2 = {
-		value = ""
+		value = "咦……？可是我還沒開槍！"
 	}
 	pg.base.activity_ins_language.ins_reply_573_2_3 = {
-		value = ""
+		value = "這不顯得您槍法準嗎！"
 	}
 	pg.base.activity_ins_language.ins_op_573_1_1 = {
-		value = ""
+		value = "來協助我調查案吧！"
 	}
 	pg.base.activity_ins_language.op_reply_573_1_1 = {
-		value = ""
+		value = "就等你這句話了~讓我們一起把臥底抓出來吧！"
 	}
 	pg.base.activity_ins_language.ins_op_573_1_2 = {
-		value = ""
+		value = "海王星警部，妳是臥底嗎？"
 	}
 	pg.base.activity_ins_language.op_reply_573_1_2 = {
-		value = ""
+		value = "不是哦（確信）"
 	}
 	pg.base.activity_ins_language.ins_574 = {
 		value = "好美的景色啊～海風好舒服～"
@@ -31016,363 +31016,363 @@ end)()
 		value = "嗯，我也很期待與指揮官今日的合作"
 	}
 	pg.base.activity_ins_language.ins_634 = {
-		value = ""
+		value = "居然被發現了呢~"
 	}
 	pg.base.activity_ins_language.ins_discuss_634_1 = {
-		value = ""
+		value = "這是想要偷偷潛入什麼地方呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_634_1_1 = {
-		value = ""
+		value = "反正……不是指揮官那邊！"
 	}
 	pg.base.activity_ins_language.ins_reply_634_1_2 = {
-		value = ""
+		value = "真的嗎？盯——"
 	}
 	pg.base.activity_ins_language.ins_reply_634_1_3 = {
-		value = ""
+		value = "……盯——"
 	}
 	pg.base.activity_ins_language.ins_reply_634_1_4 = {
-		value = ""
+		value = "在大庭廣眾之下說出來了"
 	}
 	pg.base.activity_ins_language.ins_discuss_634_2 = {
-		value = ""
+		value = "好高深的忍術……{namecode:209}姐，請賜教！"
 	}
 	pg.base.activity_ins_language.ins_reply_634_2_1 = {
-		value = ""
+		value = "{namecode:307}也想學~！"
 	}
 	pg.base.activity_ins_language.ins_reply_634_2_2 = {
-		value = ""
+		value = "欸？要當老師？我嗎？"
 	}
 	pg.base.activity_ins_language.ins_op_634_1_1 = {
-		value = ""
+		value = "好像聽到了水滴落下的聲音……是錯覺嗎？"
 	}
 	pg.base.activity_ins_language.op_reply_634_1_1 = {
-		value = ""
+		value = "不是錯覺哦，我就在指揮官的身邊呢~"
 	}
 	pg.base.activity_ins_language.ins_op_634_1_2 = {
-		value = ""
+		value = "隱身術？我也想學"
 	}
 	pg.base.activity_ins_language.op_reply_634_1_2 = {
-		value = ""
+		value = "秘術不可外傳~不過，倒是可以讓你從另一個角度體驗下呢♪"
 	}
 	pg.base.activity_ins_language.ins_635 = {
-		value = ""
+		value = "……我是不會屈服的！"
 	}
 	pg.base.activity_ins_language.ins_discuss_635_1 = {
-		value = ""
+		value = "加油！在逃脫魔術裡，這也是SSS級難度！"
 	}
 	pg.base.activity_ins_language.ins_reply_635_1_1 = {
-		value = ""
+		value = "沒錯！這麼密集的雷射，就算是{namecode:307}也要花好一陣子才能溜出去！"
 	}
 	pg.base.activity_ins_language.ins_reply_635_1_2 = {
-		value = ""
+		value = "救命……要完蛋了啦！嚶——！"
 	}
 	pg.base.activity_ins_language.ins_discuss_635_2 = {
-		value = ""
+		value = "放心！我開發的超級雷射更衣裝置只會融化衣物和裝備，對身體完全無害哦！"
 	}
 	pg.base.activity_ins_language.ins_reply_635_2_1 = {
-		value = ""
+		value = "為什麼會有這麼奇怪的裝置啊？！"
 	}
 	pg.base.activity_ins_language.ins_reply_635_2_2 = {
-		value = ""
+		value = "為了提升效率！只要啟動裝置，不用動手就可以快速脫掉衣服！是不是很方便？"
 	}
 end)()
 (function ()
 	pg.base.activity_ins_language.ins_reply_635_2_3 = {
-		value = ""
+		value = "聽起來真的很省力……也幫我做一個吧"
 	}
 	pg.base.activity_ins_language.ins_reply_635_2_4 = {
-		value = ""
+		value = "？？？"
 	}
 	pg.base.activity_ins_language.ins_op_635_1_1 = {
-		value = ""
+		value = "我這就關掉雷射裝置"
 	}
 	pg.base.activity_ins_language.op_reply_635_1_1 = {
-		value = ""
+		value = "……難道你不想看嗎？真的一點也不想看嗎？！"
 	}
 	pg.base.activity_ins_language.ins_op_635_1_2 = {
-		value = ""
+		value = "我幫你送來了替換的衣物"
 	}
 	pg.base.activity_ins_language.op_reply_635_1_2 = {
-		value = ""
+		value = "謝謝……那能不能……親手幫我穿上……"
 	}
 	pg.base.activity_ins_language.ins_636 = {
-		value = ""
+		value = "電量補充完畢~"
 	}
 	pg.base.activity_ins_language.ins_discuss_636_1 = {
-		value = ""
+		value = "接下來就該觸發一場惡戰了吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_636_1_1 = {
-		value = ""
+		value = "妳潛入黑暗，對毫無防備的敵人發動反攻！"
 	}
 	pg.base.activity_ins_language.ins_reply_636_1_2 = {
-		value = ""
+		value = "就這麼一路殺出重圍，擊敗了幕後反派，並救出了指揮官——"
 	}
 	pg.base.activity_ins_language.ins_reply_636_1_3 = {
-		value = ""
+		value = "嗯嗯，真是不錯的情節呢，讓人大飽眼福了"
 	}
 	pg.base.activity_ins_language.ins_reply_636_1_4 = {
-		value = ""
+		value = "嗯嗯，真是不錯的情節呢，就這樣演吧~！"
 	}
 	pg.base.activity_ins_language.ins_discuss_636_2 = {
-		value = ""
+		value = "咦，尾巴的用途又增加了……？"
 	}
 	pg.base.activity_ins_language.ins_reply_636_2_1 = {
-		value = ""
+		value = "龍神小姐，還是不要輕易嘗試危險動作哦"
 	}
 	pg.base.activity_ins_language.ins_op_636_1_1 = {
-		value = ""
+		value = "手機正好沒電了……"
 	}
 	pg.base.activity_ins_language.op_reply_636_1_1 = {
-		value = ""
+		value = "交給我吧～尾巴已經為你準備好了~"
 	}
 	pg.base.activity_ins_language.ins_op_636_1_2 = {
-		value = ""
+		value = "一起衝出重圍吧！"
 	}
 	pg.base.activity_ins_language.op_reply_636_1_2 = {
-		value = ""
+		value = "呵呵呵~讓我們一起把麻煩都處理掉吧~"
 	}
 	pg.base.activity_ins_language.ins_637 = {
-		value = ""
+		value = "這個數據……還真是驚人呢"
 	}
 	pg.base.activity_ins_language.ins_discuss_637_1 = {
-		value = ""
+		value = "需要幫忙嗎？我隨時可以支援"
 	}
 	pg.base.activity_ins_language.ins_reply_637_1_1 = {
-		value = ""
+		value = "那就麻煩你了，我還好多東西沒搞懂呢"
 	}
 	pg.base.activity_ins_language.ins_reply_637_1_2 = {
-		value = ""
+		value = "看起來好像很有趣！算我一個！"
 	}
 	pg.base.activity_ins_language.ins_reply_637_1_3 = {
-		value = ""
+		value = "還有我還有我！"
 	}
 	pg.base.activity_ins_language.ins_reply_637_1_4 = {
-		value = ""
+		value = "呵呵，那就麻煩各位了~"
 	}
 	pg.base.activity_ins_language.ins_discuss_637_2 = {
-		value = ""
+		value = "用它打一場的話，一定會更痛快吧！"
 	}
 	pg.base.activity_ins_language.ins_reply_637_2_1 = {
-		value = ""
+		value = "說得好！能讓我們變強的東西－就該全力握在手中！"
 	}
 	pg.base.activity_ins_language.ins_reply_637_2_2 = {
-		value = ""
+		value = "呵呵…已經能想像到它在戰場上華麗起舞的樣子了~"
 	}
 	pg.base.activity_ins_language.ins_reply_637_2_3 = {
-		value = ""
+		value = "……各位的思路，還真是跳躍呢"
 	}
 	pg.base.activity_ins_language.ins_op_637_1_1 = {
-		value = ""
+		value = "能讓你這麼驚訝，看來收穫不小"
 	}
 	pg.base.activity_ins_language.op_reply_637_1_1 = {
-		value = ""
+		value = "是的，指揮官要一起看看嗎？"
 	}
 	pg.base.activity_ins_language.ins_op_637_1_2 = {
-		value = ""
+		value = "看來得提前準備好適配這種火力的新戰術了"
 	}
 	pg.base.activity_ins_language.op_reply_637_1_2 = {
-		value = ""
+		value = "呵呵，我也會盡快完成數據測試的"
 	}
 	pg.base.activity_ins_language.ins_638 = {
-		value = ""
+		value = "這裡居然有這麼多各式各樣的cosplay服飾和道具……"
 	}
 	pg.base.activity_ins_language.ins_discuss_638_1 = {
-		value = ""
+		value = "啊！是Cosplay的同好！要一起試穿衣服嗎？"
 	}
 	pg.base.activity_ins_language.ins_reply_638_1_1 = {
-		value = ""
+		value = "我這裡還有一些明石小姐那裡都沒有的服飾和道具哦！"
 	}
 	pg.base.activity_ins_language.ins_reply_638_1_2 = {
-		value = ""
+		value = "啊，好、好的！請多指教！"
 	}
 	pg.base.activity_ins_language.ins_discuss_638_2 = {
-		value = ""
+		value = "遇到找不到的款式的話……如果不嫌棄，我可以試著做一件"
 	}
 	pg.base.activity_ins_language.ins_reply_638_2_1 = {
-		value = ""
+		value = "縫紉就請交給我吧！我很樂意幫忙"
 	}
 	pg.base.activity_ins_language.ins_reply_638_2_2 = {
-		value = ""
+		value = "若是遇到工藝上的難題，我也可以幫忙處理"
 	}
 	pg.base.activity_ins_language.ins_reply_638_2_3 = {
-		value = ""
+		value = "謝謝大家……我好開心"
 	}
 	pg.base.activity_ins_language.ins_op_638_1_1 = {
-		value = ""
+		value = "有沒有哪套衣服特別吸引妳？"
 	}
 	pg.base.activity_ins_language.op_reply_638_1_1 = {
-		value = ""
+		value = "嗯！有一件看起來輕飄飄的衣服非常漂亮！"
 	}
 	pg.base.activity_ins_language.ins_op_638_1_2 = {
-		value = ""
+		value = "是不是看到了特別想試試的服裝？"
 	}
 	pg.base.activity_ins_language.op_reply_638_1_2 = {
-		value = ""
+		value = "是的！有一套看起來非常酷，很想試試的忍者裝扮！"
 	}
 	pg.base.activity_ins_language.ins_639 = {
-		value = ""
+		value = "如果妳有故事要說，我就有杯酒為妳而調"
 	}
 	pg.base.activity_ins_language.ins_discuss_639_1 = {
-		value = ""
+		value = "呵呵，看來這裡能喝到不少特別的酒呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_639_1_1 = {
-		value = ""
+		value = "哦？這些故事……莫非都與契約者有關？"
 	}
 	pg.base.activity_ins_language.ins_reply_639_1_2 = {
-		value = ""
+		value = "興登堡小姐若想聽聽，何不一起來呢？呵呵~"
 	}
 	pg.base.activity_ins_language.ins_reply_639_1_3 = {
-		value = ""
+		value = "哎呀呀，好像聽到了很有意思的事呢~"
 	}
 	pg.base.activity_ins_language.ins_discuss_639_2 = {
-		value = ""
+		value = "好漂亮的顏色…一定很好喝！"
 	}
 	pg.base.activity_ins_language.ins_reply_639_2_1 = {
-		value = ""
+		value = "五顏六色的，像飲料一樣！我也想嚐嚐！"
 	}
 	pg.base.activity_ins_language.ins_reply_639_2_2 = {
-		value = ""
+		value = "喂，妳們幾個，可別喝太多了"
 	}
 	pg.base.activity_ins_language.ins_reply_639_2_3 = {
-		value = ""
+		value = "放心，我會為妳們特調無酒精的雞尾酒的"
 	}
 	pg.base.activity_ins_language.ins_op_639_1_1 = {
-		value = ""
+		value = "一杯酒對應一個故事？"
 	}
 	pg.base.activity_ins_language.op_reply_639_1_1 = {
-		value = ""
+		value = "呵呵，這就要看指揮官的故事值不值得我破例了呢♪"
 	}
 	pg.base.activity_ins_language.ins_op_639_1_2 = {
-		value = ""
+		value = "那「今天沒什麼特別的事」，能換到什麼呢？"
 	}
 	pg.base.activity_ins_language.op_reply_639_1_2 = {
-		value = ""
+		value = "平淡的日常本身，也是值得品嚐的風味呢~"
 	}
 	pg.base.activity_ins_language.ins_640 = {
-		value = ""
+		value = "港區居然發生過這麼多形形色色的事嗎……"
 	}
 	pg.base.activity_ins_language.ins_discuss_640_1 = {
-		value = ""
+		value = "嘿嘿，我還有更獨家的內幕消息喔！"
 	}
 	pg.base.activity_ins_language.ins_reply_640_1_1 = {
-		value = ""
+		value = "我這裡也有超——多秘密情報呢！喵哈哈~"
 	}
 	pg.base.activity_ins_language.ins_reply_640_1_2 = {
-		value = ""
+		value = "真的嗎？！請、請務必讓我參考一下！"
 	}
 	pg.base.activity_ins_language.ins_reply_640_1_3 = {
-		value = ""
+		value = "……這種情況，難道沒人管管嗎？"
 	}
 	pg.base.activity_ins_language.ins_discuss_640_2 = {
-		value = ""
+		value = "阿蒂利奧也有很多有趣的故事書！"
 	}
 	pg.base.activity_ins_language.ins_reply_640_2_1 = {
-		value = ""
+		value = "故事……安克拉治，也知道！"
 	}
 	pg.base.activity_ins_language.ins_reply_640_2_2 = {
-		value = ""
+		value = "港區的軼事，法蘭德斯也聽過一些呢"
 	}
 	pg.base.activity_ins_language.ins_reply_640_2_3 = {
-		value = ""
+		value = "哦哦……！看來素材根本用不完呢！"
 	}
 	pg.base.activity_ins_language.ins_reply_640_2_4 = {
-		value = ""
+		value = "啊呀……這些逸聞，怕經過了不少藝術加工吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_640_2_5 = {
-		value = ""
+		value = "虛實的邊界，本來就是故事最迷人嘛~"
 	}
 	pg.base.activity_ins_language.ins_op_640_1_1 = {
-		value = ""
+		value = "在這麼多素材裡，找到妳想畫的主角了嗎？"
 	}
 	pg.base.activity_ins_language.op_reply_640_1_1 = {
-		value = ""
+		value = "主角還沒定……但靈感已經記滿了！"
 	}
 	pg.base.activity_ins_language.ins_op_640_1_2 = {
-		value = ""
+		value = "看來妳很享受在這裡的取材生活"
 	}
 	pg.base.activity_ins_language.op_reply_640_1_2 = {
-		value = ""
+		value = "嗯！每天都有新發現，靈感根本用不完！"
 	}
 	pg.base.activity_ins_language.ins_641 = {
-		value = ""
+		value = "啊咧，奇怪……為什麼每次走到這附近的時候收音機就會出問題呢？"
 	}
 	pg.base.activity_ins_language.ins_discuss_641_1 = {
-		value = ""
+		value = "多半是接觸不良吧？我幫你檢查一下線路吧"
 	}
 	pg.base.activity_ins_language.ins_reply_641_1_1 = {
-		value = ""
+		value = "哇！這個構造好特別！好想知道裡面是什麼樣的！"
 	}
 	pg.base.activity_ins_language.ins_reply_641_1_2 = {
-		value = ""
+		value = "不行哦，這可是派蒂很重要的寶貝！"
 	}
 	pg.base.activity_ins_language.ins_reply_641_1_3 = {
-		value = ""
+		value = "欸~相信我嘛！我可是連爆炸都能復原的天才哦！"
 	}
 	pg.base.activity_ins_language.ins_discuss_641_2 = {
-		value = ""
+		value = "等等！這附近……該不會有什麼幹擾電波的神祕現象吧？！"
 	}
 	pg.base.activity_ins_language.ins_reply_641_2_1 = {
-		value = ""
+		value = "也有可能只是單純的訊號差吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_641_2_2 = {
-		value = ""
+		value = "啊……阿爾薩斯明白！就像靠近指揮官時會心跳紊亂一樣…"
 	}
 	pg.base.activity_ins_language.ins_reply_641_2_3 = {
-		value = ""
+		value = "資料蒐集分析完畢…附近大概率為訊號管制區"
 	}
 	pg.base.activity_ins_language.ins_reply_641_2_4 = {
-		value = ""
+		value = "喔~是這樣啊…那派蒂以後去別的地方玩好了~"
 	}
 	pg.base.activity_ins_language.ins_op_641_1_1 = {
-		value = ""
+		value = "聽起來像是個謎題，想一起在這附近找原因嗎？"
 	}
 	pg.base.activity_ins_language.op_reply_641_1_1 = {
-		value = ""
+		value = "和指揮官一起調查？好像很有趣！派蒂加入！"
 	}
 	pg.base.activity_ins_language.ins_op_641_1_2 = {
-		value = ""
+		value = "這麼在意它，是在聽什麼特別的節目嗎？"
 	}
 	pg.base.activity_ins_language.op_reply_641_1_2 = {
-		value = ""
+		value = "嗯！因為總是能聽到很多從來沒聽過的、很有意思的節目呢！"
 	}
 	pg.base.activity_ins_language.ins_642 = {
-		value = ""
+		value = "幫港區自拍的時候遇到了同樣喜歡拍照的同伴！耶~"
 	}
 	pg.base.activity_ins_language.ins_discuss_642_1 = {
-		value = ""
+		value = "這可是記者的基本功呢！隨時都能發現值得紀錄的瞬間~"
 	}
 	pg.base.activity_ins_language.ins_reply_642_1_1 = {
-		value = ""
+		value = "沒錯！熱愛才是捕捉決定性瞬間的秘訣！"
 	}
 	pg.base.activity_ins_language.ins_reply_642_1_2 = {
-		value = ""
+		value = "嗯！我完全同意！"
 	}
 	pg.base.activity_ins_language.ins_discuss_642_2 = {
-		value = ""
+		value = "拍得真棒！千乃妳很有一套嘛~"
 	}
 	pg.base.activity_ins_language.ins_reply_642_2_1 = {
-		value = ""
+		value = "呵呵，如果指甲換成紅色，在鏡頭裡會更顯眼哦"
 	}
 	pg.base.activity_ins_language.ins_reply_642_2_2 = {
-		value = ""
+		value = "欸~好主意！我剛好有紅色的，下次就塗上試試！"
 	}
 	pg.base.activity_ins_language.ins_reply_642_2_3 = {
-		value = ""
+		value = "看來我們的興趣很相投呢。下次小聚，請務必也來聊聊？"
 	}
 	pg.base.activity_ins_language.ins_reply_642_2_4 = {
-		value = ""
+		value = "真的嗎？太好了！我一定會去的！"
 	}
 	pg.base.activity_ins_language.ins_op_642_1_1 = {
-		value = ""
+		value = "又多了個能一起自拍的朋友"
 	}
 	pg.base.activity_ins_language.op_reply_642_1_1 = {
-		value = ""
+		value = "嗯！發現同好的感覺超棒的！耶~"
 	}
 	pg.base.activity_ins_language.ins_op_642_1_2 = {
-		value = ""
+		value = "期待看到妳們合作的作品"
 	}
 	pg.base.activity_ins_language.op_reply_642_1_2 = {
-		value = ""
+		value = "嘿嘿，下次如果拍出超棒照片的話，第一個給指揮官看！"
 	}
 	pg.base.activity_ins_language.ins_650 = {
 		value = ""
@@ -31590,237 +31590,237 @@ end)()
 		value = ""
 	}
 	pg.base.activity_ins_language.ins_644 = {
-		value = ""
+		value = ">w<"
 	}
 	pg.base.activity_ins_language.ins_discuss_644_1 = {
-		value = ""
+		value = "這是怎麼做到的？好厲害！"
 	}
 	pg.base.activity_ins_language.ins_reply_644_1_1 = {
-		value = ""
+		value = "安克拉治……也想學！"
 	}
 	pg.base.activity_ins_language.ins_reply_644_1_2 = {
-		value = ""
+		value = "這有什麼難的！看我來吐個披薩形狀的泡泡！"
 	}
 	pg.base.activity_ins_language.ins_reply_644_1_3 = {
-		value = ""
+		value = "怎麼樣了怎麼樣了？妳成功了嗎？"
 	}
 	pg.base.activity_ins_language.ins_reply_644_1_4 = {
-		value = ""
+		value = "她被嗆到了……得好好檢查下身體才行"
 	}
 	pg.base.activity_ins_language.ins_discuss_644_2 = {
-		value = ""
+		value = "好方便的訊息傳遞方式！解決了水下不能說話的難題"
 	}
 	pg.base.activity_ins_language.ins_reply_644_2_1 = {
-		value = ""
+		value = "也解決了看不到表情的難題"
 	}
 	pg.base.activity_ins_language.ins_reply_644_2_2 = {
-		value = ""
+		value = "用通訊器應該也有差不多的效果吧……？"
 	}
 	pg.base.activity_ins_language.ins_reply_644_2_3 = {
-		value = ""
+		value = "完全不一樣！這種方式更好玩！"
 	}
 	pg.base.activity_ins_language.ins_op_644_1_1 = {
-		value = ""
+		value = "感到開心妳就笑一笑♪"
 	}
 	pg.base.activity_ins_language.op_reply_644_1_1 = {
-		value = ""
+		value = "指揮官回復了我……{namecode:558}，很開心o(*//▿//*)q"
 	}
 	pg.base.activity_ins_language.ins_op_644_1_2 = {
-		value = ""
+		value = "我也想學，{namecode:558}老師"
 	}
 	pg.base.activity_ins_language.op_reply_644_1_2 = {
-		value = ""
+		value = "沒問題，我來當面為指揮官示範幾次吧(o°▿°)o"
 	}
 	pg.base.activity_ins_language.ins_646 = {
-		value = ""
+		value = "我帶了見面禮~能讓我進屋嗎~？"
 	}
 	pg.base.activity_ins_language.ins_discuss_646_1 = {
-		value = ""
+		value = "好有禮貌的乖孩子~"
 	}
 	pg.base.activity_ins_language.ins_reply_646_1_1 = {
-		value = ""
+		value = "沒有得到主人的邀請，就沒辦法隨便進屋呢！"
 	}
 	pg.base.activity_ins_language.ins_reply_646_1_2 = {
-		value = ""
+		value = "對血族來說，這可是常識"
 	}
 	pg.base.activity_ins_language.ins_reply_646_1_3 = {
-		value = ""
+		value = "原來是這樣~血族的大家，都是講禮貌的好孩子呢~"
 	}
 	pg.base.activity_ins_language.ins_discuss_646_2 = {
-		value = ""
+		value = "那個，窗戶其實不是用來進屋的……"
 	}
 	pg.base.activity_ins_language.ins_reply_646_2_1 = {
-		value = ""
+		value = "這樣比較有儀式感~"
 	}
 	pg.base.activity_ins_language.ins_reply_646_2_2 = {
-		value = ""
+		value = "本小姐懂的哦！從窗戶進出，才可能最大程度感受飛翔的魅力~"
 	}
 	pg.base.activity_ins_language.ins_op_646_1_1 = {
-		value = ""
+		value = "下次來也可以試試按門鈴"
 	}
 	pg.base.activity_ins_language.op_reply_646_1_1 = {
-		value = ""
+		value = "不需要～只要指揮官同意了一次，之後我就可以自由進出了呢～"
 	}
 	pg.base.activity_ins_language.ins_op_646_1_2 = {
-		value = ""
+		value = "多謝妳的水果，味道很不錯"
 	}
 	pg.base.activity_ins_language.op_reply_646_1_2 = {
-		value = ""
+		value = "不用謝~還有更美味的珍饈指揮官沒有品嚐呢~"
 	}
 	pg.base.activity_ins_language.ins_647 = {
-		value = ""
+		value = "嘻嘻，是取之不盡用之不竭的神燈喔~"
 	}
 	pg.base.activity_ins_language.ins_discuss_647_1 = {
-		value = ""
+		value = "奇怪……我聽到的傳聞明明是：只要喝下神燈中的神力之水，就能實現願望……"
 	}
 	pg.base.activity_ins_language.ins_reply_647_1_1 = {
-		value = ""
+		value = "實現願望？那已經是昨天的怪談版本了~過時了啦~"
 	}
 	pg.base.activity_ins_language.ins_reply_647_1_2 = {
-		value = ""
+		value = "怪談的迭代速度，居然如此之快……！"
 	}
 end)()
 (function ()
 	pg.base.activity_ins_language.ins_reply_647_1_3 = {
-		value = ""
+		value = "誰讓人家又有了新靈感嘛~嘻嘻~"
 	}
 	pg.base.activity_ins_language.ins_discuss_647_2 = {
-		value = ""
+		value = "好厲害~這個神燈用來澆花一定很方便~"
 	}
 	pg.base.activity_ins_language.ins_reply_647_2_1 = {
-		value = ""
+		value = "感覺有種說不出的違和感……"
 	}
 	pg.base.activity_ins_language.ins_reply_647_2_2 = {
-		value = ""
+		value = "神燈應該是燈才對吧，為什麼可以倒出水……？"
 	}
 	pg.base.activity_ins_language.ins_reply_647_2_3 = {
-		value = ""
+		value = "為什麼不反過來想想呢~正因為能倒出水來，所以才是神燈喔~！"
 	}
 	pg.base.activity_ins_language.ins_discuss_647_3 = {
-		value = ""
+		value = "水管用好了的話，我就收起來啦？"
 	}
 	pg.base.activity_ins_language.ins_reply_647_3_1 = {
-		value = ""
+		value = "再等一下下嘛~神燈的神力還沒有完全展現出來哦？嘻嘻~"
 	}
 	pg.base.activity_ins_language.ins_op_647_1_1 = {
-		value = ""
+		value = "總覺得在這裡游泳可以獲得增益效果"
 	}
 	pg.base.activity_ins_language.op_reply_647_1_1 = {
-		value = ""
+		value = "親自來試試，就能知道有沒有了哦~指揮官~"
 	}
 	pg.base.activity_ins_language.ins_op_647_1_2 = {
-		value = ""
+		value = "神力，居然是透過水管來輸送的……"
 	}
 	pg.base.activity_ins_language.op_reply_647_1_2 = {
-		value = ""
+		value = "沒錯~神燈，很神奇吧？"
 	}
 	pg.base.activity_ins_language.ins_648 = {
-		value = ""
+		value = "誤入薯條派對，現在走不掉了……"
 	}
 	pg.base.activity_ins_language.ins_discuss_648_1 = {
-		value = ""
+		value = "海鷗真的很熱情呢~為大家準備了超多的薯條"
 	}
 	pg.base.activity_ins_language.ins_reply_648_1_1 = {
-		value = ""
+		value = "好多薯條！這下必須要參加……呃，必須要來守護沙灘的秩序了！"
 	}
 	pg.base.activity_ins_language.ins_discuss_648_2 = {
-		value = ""
+		value = "有薯條派對？！在哪裡我也要去！我可以來和妳交換位置哦！"
 	}
 	pg.base.activity_ins_language.ins_reply_648_2_1 = {
-		value = ""
+		value = "在、在碼頭……"
 	}
 	pg.base.activity_ins_language.ins_reply_648_2_2 = {
-		value = ""
+		value = "去碼頭整點薯條！"
 	}
 	pg.base.activity_ins_language.ins_reply_648_2_3 = {
-		value = ""
+		value = "去碼頭整點薯條！"
 	}
 	pg.base.activity_ins_language.ins_op_648_1_1 = {
-		value = ""
+		value = "不想吃薯條的話，要不要一起去吃漢堡？我來接妳"
 	}
 	pg.base.activity_ins_language.op_reply_648_1_1 = {
-		value = ""
+		value = "沒關係的，我想和指揮官一起吃薯條……！這樣，就能記住薯條的好了…"
 	}
 	pg.base.activity_ins_language.ins_op_648_1_2 = {
-		value = ""
+		value = "我可以幫妳代吃"
 	}
 	pg.base.activity_ins_language.op_reply_648_1_2 = {
-		value = ""
+		value = "謝謝指揮官！我的那份薯條，就交給你了……！"
 	}
 	pg.base.activity_ins_language.ins_649 = {
-		value = ""
+		value = "怎麼還沒到岸邊……？"
 	}
 	pg.base.activity_ins_language.ins_discuss_649_1 = {
-		value = ""
+		value = "看起來是因為海浪推力比水球動力大一些，導致合力朝向了海的方向"
 	}
 	pg.base.activity_ins_language.ins_reply_649_1_1 = {
-		value = ""
+		value = "加油，腳步再快一點就能勝過海浪了！相信妳身體的潛能！"
 	}
 	pg.base.activity_ins_language.ins_discuss_649_2 = {
-		value = ""
+		value = "別慌，我來指導妳如何在海上生存吧！"
 	}
 	pg.base.activity_ins_language.ins_reply_649_2_1 = {
-		value = ""
+		value = "推薦提前閱讀《孤島求生生存守則》、《避難所搭建教學》作為知識儲備，我發給妳"
 	}
 	pg.base.activity_ins_language.ins_reply_649_2_2 = {
-		value = ""
+		value = "還有最重要的這本，《如何消磨時間》"
 	}
 	pg.base.activity_ins_language.ins_discuss_649_3 = {
-		value = ""
+		value = "好巧~我也在海上墜機了！妳在哪？我們組隊吧！"
 	}
 	pg.base.activity_ins_language.ins_reply_649_3_1 = {
-		value = ""
+		value = "我不太清楚~四周只能看到海……"
 	}
 	pg.base.activity_ins_language.ins_reply_649_3_2 = {
-		value = ""
+		value = "我也是！看來我們離得很近~很快就能碰面了！"
 	}
 	pg.base.activity_ins_language.ins_op_649_1_1 = {
-		value = ""
+		value = "先原地等待救援吧，我來救妳"
 	}
 	pg.base.activity_ins_language.op_reply_649_1_1 = {
-		value = ""
+		value = "太好了指揮官，人家在海上等你~"
 	}
 	pg.base.activity_ins_language.ins_op_649_1_2 = {
-		value = ""
+		value = "是載具又出問題了……？"
 	}
 	pg.base.activity_ins_language.op_reply_649_1_2 = {
-		value = ""
+		value = "水上步行球目前還能正常使用…這次是「道路」出問題了啦~！"
 	}
 	pg.base.activity_ins_language.ins_643 = {
-		value = ""
+		value = "飛機好慢……等不及了！我先走一步！"
 	}
 	pg.base.activity_ins_language.ins_discuss_643_1 = {
-		value = ""
+		value = "好像——"
 	}
 	pg.base.activity_ins_language.ins_reply_643_1_1 = {
-		value = ""
+		value = "還能——"
 	}
 	pg.base.activity_ins_language.ins_reply_643_1_2 = {
-		value = ""
+		value = "再快點！"
 	}
 	pg.base.activity_ins_language.ins_discuss_643_2 = {
-		value = ""
+		value = "要超速了！請保持安全速度前進！"
 	}
 	pg.base.activity_ins_language.ins_reply_643_2_1 = {
-		value = ""
+		value = "嗯？原來港區有速度限制的嗎？"
 	}
 	pg.base.activity_ins_language.ins_reply_643_2_2 = {
-		value = ""
+		value = "……難道沒有？"
 	}
 	pg.base.activity_ins_language.ins_reply_643_2_3 = {
-		value = ""
+		value = "怎麼可能會有那種東西！"
 	}
 	pg.base.activity_ins_language.ins_op_643_1_1 = {
-		value = ""
+		value = "晚上還回來吃飯嗎？"
 	}
 	pg.base.activity_ins_language.op_reply_643_1_1 = {
-		value = ""
+		value = "當然！而且還要跟指揮官一起！"
 	}
 	pg.base.activity_ins_language.ins_op_643_1_2 = {
-		value = ""
+		value = "爆燃吧——！"
 	}
 	pg.base.activity_ins_language.op_reply_643_1_2 = {
-		value = ""
+		value = "雷火之心——！"
 	}
 	pg.base.activity_ins_language.ins_655 = {
 		value = ""
