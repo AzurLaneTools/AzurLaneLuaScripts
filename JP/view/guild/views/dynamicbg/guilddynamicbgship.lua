@@ -90,6 +90,16 @@ slot0.IsCanWalkPonit = function(slot0, slot1)
 	end
 end
 
+slot0.GetMoveDir = function(slot0, slot1)
+	if slot1.position.x < slot0.grid.position.x then
+		return -1
+	elseif slot0.grid.position.x < slot1.position.x then
+		return 1
+	end
+
+	return slot0._tf.localScale.x < 0 and -1 or 1
+end
+
 slot0.StartMove = function(slot0)
 	slot1 = slot0.grid
 
@@ -100,8 +110,10 @@ slot0.StartMove = function(slot0)
 	else
 		slot0.stepCnt = slot0.stepCnt - 1
 		slot4 = slot2[math.random(1, #slot2)]
+		slot5 = slot0.path[slot4.x][slot4.y]
 
-		slot0:MoveToGrid(slot0.path[slot4.x][slot4.y])
+		slot0:UpdateShipDir(slot0:GetMoveDir(slot5))
+		slot0:MoveToGrid(slot5)
 	end
 end
 
@@ -148,11 +160,12 @@ slot0.MoveNext = function(slot0, slot1, slot2, slot3)
 
 	slot1:Lock()
 	slot0:SetAction("walk")
-	slot0:UpdateShipDir(slot1.position.x < slot0.grid.position.x and -1 or 1)
+	slot0:UpdateShipDir(slot0:GetMoveDir(slot1))
 
 	slot5 = slot1:GetCenterPosition()
+	slot6 = LeanTween.moveLocal(slot0._go, Vector3(slot5.x, slot5.y, 0), 1 / slot0.speed)
 
-	LeanTween.moveLocal(slot0._go, Vector3(slot5.x, slot5.y, 0), 1 / slot0.speed):setOnComplete(System.Action(function ()
+	slot6:setOnComplete(System.Action(function ()
 		if uv0.exited then
 			return
 		end
@@ -210,6 +223,7 @@ slot0.SetAction = function(slot0, slot1)
 	slot0.actionName = slot1
 
 	slot0.spineChar:SetAction(slot1, 0)
+	slot0:NorDirByFather()
 end
 
 slot0.SetAsLastSibling = function(slot0)
@@ -228,13 +242,26 @@ slot0.MoveToFurniture = function(slot0, slot1)
 	end)
 end
 
+slot0.UpdateNameAndTagDir = function(slot0, slot1)
+	slot2 = 1 / slot0.scale * slot1
+
+	if slot0.nameTF then
+		slot0.nameTF.localScale = Vector3(slot2, 1 / slot0.scale, 1)
+	end
+
+	if slot0.isCommander and slot0.tagTF then
+		slot0.tagTF.localScale = Vector3(slot2, 1 / slot0.scale, 1)
+	end
+end
+
 slot0.UpdateShipDir = function(slot0, slot1)
 	slot0._tf.localScale = Vector3(slot1 * slot0.scale, slot0.scale, slot0.scale)
-	slot0.nameTF.localScale = Vector3(1 / slot0.scale * slot1, slot0.nameTF.localScale.y, 1)
 
-	if slot0.isCommander then
-		slot0.tagTF.localScale = Vector3(slot2, slot0.tagTF.localScale.y, 1)
-	end
+	slot0:UpdateNameAndTagDir(slot1)
+end
+
+slot0.NorDirByFather = function(slot0)
+	slot0:UpdateNameAndTagDir(slot0._tf.localScale.x < 0 and -1 or 1)
 end
 
 slot0.InterActionFurniture = function(slot0, slot1)
@@ -250,6 +277,7 @@ slot0.InterActionFurniture = function(slot0, slot1)
 
 	assert(slot5)
 	slot0:SetAction(slot5)
+	slot0:UpdateShipDir(slot2)
 	slot0:CancelInterAction(slot1)
 end
 
@@ -263,6 +291,7 @@ slot0.CancelInterAction = function(slot0, slot1)
 		setParent(uv0._tf, uv0.parent)
 		assert(uv0.grid)
 		uv0:SetPosition(uv0.grid, true)
+		uv0:NorDirByFather()
 		uv0:AddRandomMove()
 	end, math.random(15, 30), 1)
 

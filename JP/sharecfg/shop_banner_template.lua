@@ -71,7 +71,7 @@ pg.base.shop_banner_template = {}
 	pg.base.shop_banner_template[11] = {
 		name = "banner_big",
 		type = 2,
-		time_lable = 0,
+		time_lable = 1,
 		pic = "shopbanner/shop_skin2",
 		id = 11,
 		relation_param = "",
@@ -81,7 +81,7 @@ pg.base.shop_banner_template = {}
 				{
 					2026,
 					7,
-					9
+					16
 				},
 				{
 					0,
@@ -93,12 +93,12 @@ pg.base.shop_banner_template = {}
 				{
 					2026,
 					7,
-					16
+					29
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		},

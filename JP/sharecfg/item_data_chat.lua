@@ -19,6 +19,8 @@ pg.item_data_chat.all = {
 	606,
 	607,
 	610,
+	611,
+	612,
 	10001,
 	10002,
 	10003,
@@ -162,6 +164,22 @@ pg.base.item_data_chat = {}
 		id = 610,
 		time_limit_type = 0,
 		desc = "海辺を歩き、さざなみの声に耳を傾けよう。\n<color=#A7A7AAFF>「盛夏再び！リゾート再建計画！」参加で入手可能</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[611] = {
+		name = "ホロオークション",
+		time_second = 0,
+		id = 611,
+		time_limit_type = 0,
+		desc = "ホログラフィックで、落札の瞬間を記録しよう！\n<color=#A7A7AAFF>イベント「特別オークション」で入手可能</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[612] = {
+		name = "レベルSデータストリーム",
+		time_second = 0,
+		id = 612,
+		time_limit_type = 0,
+		desc = "データが迸り、勝負はこの一瞬！\n<color=#A7A7AAFF>イベント「特別オークション」で入手可能</color>",
 		scene = {}
 	}
 	pg.base.item_data_chat[10001] = {

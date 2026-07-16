@@ -89,6 +89,7 @@ pg.item_data_frame.all = {
 	611,
 	613,
 	614,
+	615,
 	1001,
 	1002,
 	1003,
@@ -885,6 +886,15 @@ pg.base.item_data_frame = {}
 		desc = "大吉満載、福が巡って運が上がる。提灯高々、巡る財は我が家に～\n<color=#A7A7AA>「春色旅籠Online」参加で入手</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[615] = {
+		name = "オークションマスター",
+		gain_by = "",
+		time_second = 0,
+		id = 615,
+		time_limit_type = 0,
+		desc = "全員の視線を一身に集めた、あなたこそがオークションのレジェンドだ！\n<color=#A7A7AA>イベント「特別オークション」で入手可能</color>",
+		scene = {}
+	}
 	pg.base.item_data_frame[1001] = {
 		name = "スイートランデブー",
 		gain_by = "",
@@ -1011,6 +1021,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>データストリームに、ネコパンチとネコシッポ現る！ドーモ、サイバー空間のネコアイサツ＝です</color>\n「交流宿舎」でアドミラル・ナヒーモフの親密度を上げると入手可能",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10001] = {
 		name = "限界挑戦・ふたご座",
 		gain_by = "",
@@ -1020,8 +1032,6 @@ pg.base.item_data_frame = {}
 		desc = "<size=24>「ふたご座」限界挑戦ステージクリア記念。己の限界に挑む勇気のある指揮官に贈る<color=#A7A7AA>「限界挑戦」で入手可能（23.06.15-23.06.30）</color></size>",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10002] = {
 		name = "限界挑戦・かに座",
 		gain_by = "",

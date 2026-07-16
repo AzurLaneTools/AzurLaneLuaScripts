@@ -300,6 +300,9 @@ temp = function()
 			["目"] = {
 				this = true
 			}
+		},
+		B = {
+			this = true
 		}
 	}
 end
@@ -386,6 +389,16 @@ temp = function()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0.A = {
+		["2"] = {
+			this = true
 		}
 	}
 end

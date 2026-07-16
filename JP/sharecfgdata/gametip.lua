@@ -7161,6 +7161,11 @@ _G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_nierautomata = {
+	tip = "ニーア オートマタ"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "クリア"
 }
@@ -50092,6 +50097,341 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.nier_a2_text_block_day1 = {
+	tip = {
+		{
+			info = "A2は自分がいつの間にか、独りメタリックな回廊を歩んでいることに気づく。回廊はどこまでも果てしなく続いており、窓の外には天高く伸びた建物が立ち並んでいた"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-A-1
+//:ステージ識別：1-7
+//:アクセスコード：D.O.S
+<b>A2</b>：罠だと？いつの間に……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day2 = {
+	tip = {
+		{
+			info = "それでも、A2はどうにか回廊の端にある扉へと辿り着いた。固く閉ざされた扉を調べ、データベースの中から先へ進むための「鍵」を探し始める。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-A-2
+//ステージ識別：2-7
+//:アクセスコード：▇▇▇▇
+//:アクセスコード更新：HELLO
+<b>A2</b>：こんな扉、ぶち破った方が楽……ん？コードが変更されている……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day3 = {
+	tip = {
+		{
+			info = "扉が開くと同時に、回廊の構造が変貌する。何もないところに突如現れた部屋の中で、A2はマップを手に入れた。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-A-3
+//:ステージ識別：3-7
+//:アクセスコード：▇▇▇▇
+//:アクセスコード更新：REVISEDMAP
+<b>A2</b>：マップは正確そうだな……外部からのサポートがあるのは間違いない。でも、一体誰が？]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day4 = {
+	tip = {
+		{
+			info = "マップを頼りに、血管のように入り組んだ回廊を難なく突き進んでいくA2。重要物資の保管場所と記された部屋で、彼女は見たこともない装備を発見した。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-A-4
+//:ステージ識別：4-7
+//:アクセスコード：▇▇▇▇
+//:アクセスコード更新：UPGRADE
+<b>A2</b>：この装備…オーダーメイドか]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day5 = {
+	tip = {
+		{
+			info = "特殊エリアに到達するたび、マップが更新されていくことに気づくA2。そのエリアが特殊かどうかを判定する基準は――アクセスコードが「意味を成す言葉」であるか否かだった。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-A-5
+//:ステージ識別：5-7
+//:アクセスコード：DREAMWEAVER
+<b>A2</b>：……アンドロイドは夢を見ないんだよ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day6 = {
+	tip = {
+		{
+			info = "回廊が部屋に繋がり、部屋がまた新たな回廊へと続く。無限のループに陥っているような状況の中、唯一明確な変化を見せたのは、特殊エリアのアクセスコードだけであった。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-A-6
+//:ステージ識別：6-7
+//:アクセスコード：UNKNOWN_UNDEFINED
+<b>A2</b>：……アクセスコードはこれで正しいのか？]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day7 = {
+	tip = {
+		{
+			info = "ついに堪忍袋の緒が切れ、A2がマップを捨てて強行突破を図ろうとしたその時、ようやく出口を示す部屋がマップに表示された。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-A-7
+//:ステージ識別：7-7
+//:アクセスコード：▇▇▇▇
+//:アクセスコード更新：EXIT
+<b>A2</b>：これで出られるってことでいいのか？協力感謝する。さて、外の世界はどうなってるか……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day_fin = {
+	tip = {
+		{
+			info = ""
+		},
+		{
+			info = "//:HAPPYENDING"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day1 = {
+	tip = {
+		{
+			info = "2Bは自分がいつの間にか、波打ち際に立っていることに気づく。間近に迫る海と空は、底知れぬ危うさを孕んだかのように、昏く淀んだ灰青色に染まっている。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-B-1
+//:ステージ識別：1-7
+//:アクセスコード：MIRRORSEA
+<b>2B</b>：ポッドがいない……ここは…海？]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day2 = {
+	tip = {
+		{
+			info = "予想通り、敵が次々と群がってきた。慎重に立ち回り相手を退けた2Bは、見慣れぬ敵新型の調査を開始する。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-B-2
+//:ステージ識別：2-7
+//:アクセスコード：EXECUTOR
+<b>2B</b>：さっきの敵は機械生命体ではなかったようだけど……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day3 = {
+	tip = {
+		{
+			info = "砂浜の端に、唐突にそびえ立つ大きな扉があった。扉を抜けた先には密閉された空間が広がり、その中央には型番不明の装備が静かに格納されていた。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-B-3
+//:ステージ識別：3-7
+//:アクセスコード：▇▇▇▇
+//:アクセスコード更新：UPGRADE
+<b>2B</b>：「艤装」？この装備…海戦に特化しているみたい。使う分には危険はなさそう]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day4 = {
+	tip = {
+		{
+			info = "手に入れた装備を身に纏うと、部屋の中に本棚が現れ、それと呼応するかのように、ひときわ存在感を放つ半開きの扉が姿を現した。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-B-4
+//:ステージ識別：4-7
+//:アクセスコード：▇▇▇▇
+//:アクセスコード更新：SKILLBOOK
+<b>2B</b>：攻撃、防御、支援の……スキルブック？……なるほど、装備を使いこなすためのもののようね]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day5 = {
+	tip = {
+		{
+			info = "部屋の外に続いていたのは、次なる区画へと続く回廊だった。その先にはさらなる廊下、部屋へと続いていく……まるで、終わりなど存在しないかのような錯覚さえ覚える。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-B-5
+//:ステージ識別：5-7
+//:アクセスコード：VITUALTOWER
+<b>2B</b>：……おそらくここは、超巨大建築物の内部なのだろう]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day6 = {
+	tip = {
+		{
+			info = "全く見分けの付かない扉を幾度も押し開けた末、再び2Bの視界に灰青色の空と海が飛び込んできた。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-B-6
+//:ステージ識別：6-7
+//:アクセスコード：EXPERIMENTERSYSTEM
+<b>2B</b>：また海……ということは今までの傾向から、敵が出現すると予想]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day7 = {
+	tip = {
+		{
+			info = "戦闘を終えて扉を抜けると、そこは補給物資が整然と並ぶ部屋だった。中には開け放たれた扉があり、その向こうには荒れ狂う波がはっきりと見える。"
+		},
+		{
+			info = [[
+//:エリア識別：NODE-B-2
+//:ステージ識別：7-7
+//:アクセスコード：▇▇▇▇
+//:アクセスコード更新：EXIT
+<b>2B</b>：出口……罠かもしれないけど、ここからの脱出を優先する]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day_fin = {
+	tip = {
+		{
+			info = ""
+		},
+		{
+			info = "//:HAPPYENDING"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_core_countdown = {
+	tip = "残り：$1日$2時間"
+}
+
+
+_G.pg.base.gametip.nier_core_award_check = {
+	tip = "報酬確認"
+}
+
+
+_G.pg.base.gametip.nier_core_task_desc = {
+	tip = "任意の敵を撃破"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_day = {
+	tip = "DAY$1"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_unlock_desc = {
+	tip = "$1月$2日に開放"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_detail = {
+	tip = "詳細確認"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_progress = {
+	tip = "現在進捗"
+}
+
+
+_G.pg.base.gametip.nier_award_char = {
+	tip = "キャラ"
+}
+
+
+_G.pg.base.gametip.nier_award_furniture = {
+	tip = "家具"
+}
+
+
+_G.pg.base.gametip.nier_award_equip_skin = {
+	tip = "装備外装"
+}
+
+
+_G.pg.base.gametip.nier_award_sp_equip = {
+	tip = "特殊装備"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_3 = {
+	tip = "2Bの旅"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_1 = {
+	tip = "自動歩兵人形の旅"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_5 = {
+	tip = "報酬一覧"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_4 = {
+	tip = "特別ステージ"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_2 = {
+	tip = "A2の旅"
+}
+
+
 _G.pg.base.gametip.dorm3d_carwash_button = {
 	tip = "ミニゲーム"
 }
@@ -50162,4 +50502,478 @@ _G.pg.base.gametip.dorm3d_gift_overtime = {
 
 _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 	tip = "終了間近"
+}
+
+
+_G.pg.base.gametip.auction_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_5"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_6"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_7"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_8"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.auction_currency_noenough = {
+	tip = "コインが不足しています"
+}
+
+
+_G.pg.base.gametip.auction_preorder_tips = {
+	tip = "$1のコインを消費しオート落札予約を行いますか？"
+}
+
+
+_G.pg.base.gametip.auction_preorder_tips_1 = {
+	tip = "時間経過後、オート落札結果を確認できます"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_0 = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_1 = {
+	tip = "N"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_2 = {
+	tip = "R"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_3 = {
+	tip = "SR"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_4 = {
+	tip = "SSR"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_5 = {
+	tip = "UR"
+}
+
+
+_G.pg.base.gametip.auction_game_punishment = {
+	tip = "長時間操作がなかった・ゲームが正常に終了できなかった場合、一定期間マッチングを行えません"
+}
+
+
+_G.pg.base.gametip.auction_game_match_forbidden = {
+	tip = "現在はマッチングできません"
+}
+
+
+_G.pg.base.gametip.auction_game_match_warning = {
+	tip = "オークション進行中にゲームを終了すると、利益を獲得できず参加費のみが消費されます"
+}
+
+
+_G.pg.base.gametip.auction_game_bid_phase = {
+	tip = "入札開始"
+}
+
+
+_G.pg.base.gametip.auction_game_kick = {
+	tip = "長時間操作がなかったため、オークションが自動棄権になりました"
+}
+
+
+_G.pg.base.gametip.auction_game_nobid_tip = {
+	tip = "入札が最低価格を満たしていないため、落札不成立になります"
+}
+
+
+_G.pg.base.gametip.auction_game_cannot_forfeit = {
+	tip = "既に入札したため、棄権できません"
+}
+
+
+_G.pg.base.gametip.auction_game_forfeit_tip = {
+	tip = "棄権するとオークション終了まで入札できません。棄権しますか？"
+}
+
+
+_G.pg.base.gametip.auction_game_wait_bid_phase = {
+	tip = "入札前です"
+}
+
+
+_G.pg.base.gametip.auction_game_min_bid = {
+	tip = "$1以上の金額で入札する必要があります"
+}
+
+
+_G.pg.base.gametip.auction_game_bid_confirm = {
+	tip = "$1で入札しますか？"
+}
+
+
+_G.pg.base.gametip.auction_game_exceeds_max_value = {
+	tip = "オークションコイン所持数が最大になっています"
+}
+
+
+_G.pg.base.gametip.auction_game_prepare = {
+	tip = "オークション準備中……"
+}
+
+
+_G.pg.base.gametip.auction_main_handbook = {
+	tip = "出品物図鑑"
+}
+
+
+_G.pg.base.gametip.auction_main_public_notice = {
+	tip = "掲示板"
+}
+
+
+_G.pg.base.gametip.auction_main_done = {
+	tip = "完了"
+}
+
+
+_G.pg.base.gametip.auction_main_doing = {
+	tip = "思考中"
+}
+
+
+_G.pg.base.gametip.auction_main_personal_event = {
+	tip = "個人イベント"
+}
+
+
+_G.pg.base.gametip.auction_main_public_event = {
+	tip = "全体イベント"
+}
+
+
+_G.pg.base.gametip.auction_main_select_event = {
+	tip = "個人イベント選択"
+}
+
+
+_G.pg.base.gametip.auction_main_pt = {
+	tip = "所持"
+}
+
+
+_G.pg.base.gametip.auction_main_bid_price = {
+	tip = "入札済："
+}
+
+
+_G.pg.base.gametip.auction_main_win = {
+	tip = "落札"
+}
+
+
+_G.pg.base.gametip.auction_main_fail = {
+	tip = "不成立"
+}
+
+
+_G.pg.base.gametip.auction_main_match_exit = {
+	tip = "マッチングをキャンセルしますか？"
+}
+
+
+_G.pg.base.gametip.auction_settlement_quick = {
+	tip = "スキップ"
+}
+
+
+_G.pg.base.gametip.auction_settlement_session = {
+	tip = "オークション"
+}
+
+
+_G.pg.base.gametip.auction_settlement_name = {
+	tip = "落札者"
+}
+
+
+_G.pg.base.gametip.auction_settlement_price = {
+	tip = "落札金額"
+}
+
+
+_G.pg.base.gametip.auction_settlement_value = {
+	tip = "合計価値"
+}
+
+
+_G.pg.base.gametip.auction_settlement_revenue = {
+	tip = "利益"
+}
+
+
+_G.pg.base.gametip.auction_settlement_dividend = {
+	tip = "分配金"
+}
+
+
+_G.pg.base.gametip.auction_block_emoji = {
+	tip = "スタンプ非表示"
+}
+
+
+_G.pg.base.gametip.auction_ready = {
+	tip = "オークション準備中"
+}
+
+
+_G.pg.base.gametip.auction_cancel = {
+	tip = "戻る"
+}
+
+
+_G.pg.base.gametip.auction_confirm = {
+	tip = "確定"
+}
+
+
+_G.pg.base.gametip.auction_signin_task = {
+	tip = "任務"
+}
+
+
+_G.pg.base.gametip.auction_signin_goto = {
+	tip = "オークションへ"
+}
+
+
+_G.pg.base.gametip.auction_signin_collect = {
+	tip = "一括受取"
+}
+
+
+_G.pg.base.gametip.auction_pt_tip = {
+	tip = "入手済"
+}
+
+
+_G.pg.base.gametip.auction_pt_collected = {
+	tip = "オークションへ"
+}
+
+
+_G.pg.base.gametip.auction_pt_info = {
+	tip = "※報酬は8/12（水）23:59まで入手可能"
+}
+
+
+_G.pg.base.gametip.auction_not_enough_assets = {
+	tip = "コイン必要：$1"
+}
+
+
+_G.pg.base.gametip.auction_forbidden_tip = {
+	tip = "$1後に再度マッチングできます"
+}
+
+
+_G.pg.base.gametip.auction_value = {
+	tip = "出品物価値"
+}
+
+
+_G.pg.base.gametip.auction_ticket = {
+	tip = "参加費"
+}
+
+
+_G.pg.base.gametip.auction_matching = {
+	tip = "マッチング中"
+}
+
+
+_G.pg.base.gametip.auction_assistant = {
+	tip = "キャラ表示"
+}
+
+
+_G.pg.base.gametip.auction_activity_closed = {
+	tip = "イベント終了"
+}
+
+
+_G.pg.base.gametip.auction_activity_closed_tip = {
+	tip = "イベントは終了しました"
+}
+
+
+_G.pg.base.gametip.auction_collection_title = {
+	tip = "出品物図鑑"
+}
+
+
+_G.pg.base.gametip.auction_tab_text_1 = {
+	tip = "オークション"
+}
+
+
+_G.pg.base.gametip.auction_tab_text_2 = {
+	tip = "出品物登録"
+}
+
+
+_G.pg.base.gametip.auction_matches_title = {
+	tip = "参加回数"
+}
+
+
+_G.pg.base.gametip.auction_success_cnt_title = {
+	tip = "落札回数"
+}
+
+
+_G.pg.base.gametip.auction_success_rate_title = {
+	tip = "競売勝率"
+}
+
+
+_G.pg.base.gametip.auction_currency_title = {
+	tip = "所持コイン"
+}
+
+
+_G.pg.base.gametip.auction_total_profit_title = {
+	tip = "合計利益"
+}
+
+
+_G.pg.base.gametip.auction_highest_profit_title = {
+	tip = "最高利益"
+}
+
+
+_G.pg.base.gametip.auction_collection_type_title = {
+	tip = "出品物種類"
+}
+
+
+_G.pg.base.gametip.auction_collection_price_title = {
+	tip = "合計価値"
+}
+
+
+_G.pg.base.gametip.auction_task_daily = {
+	tip = "デイリー"
+}
+
+
+_G.pg.base.gametip.auction_task_challenge = {
+	tip = "一回限り"
+}
+
+
+_G.pg.base.gametip.auction_bid_keyboard_clear = {
+	tip = "リセット"
+}
+
+
+_G.pg.base.gametip.auction_round_instant_buy = {
+	tip = "現在の即決落札倍率：$1"
+}
+
+
+_G.pg.base.gametip.auction_collect_unlock = {
+	tip = "解放済："
+}
+
+
+_G.pg.base.gametip.auction_show_common_event = {
+	tip = "全体イベントを表示"
+}
+
+
+_G.pg.base.gametip.auction_show_personal_event = {
+	tip = "個人イベントを表示"
+}
+
+
+_G.pg.base.gametip.auction_store_estimate = {
+	tip = "表示中価値レンジ：$1-$2"
+}
+
+
+_G.pg.base.gametip.auction_relief_tip = {
+	tip = "追加資金受取可能\n受け取りをお忘れなく"
+}
+
+
+_G.pg.base.gametip.auction_relief_tip_2 = {
+	tip = "コインが500000以下のため、追加（コイン×500000）を受取できます\n本日残り受取可能回数$1/$2"
+}
+
+
+_G.pg.base.gametip.nier_a2_item_got = {
+	tip = "受取済"
 }

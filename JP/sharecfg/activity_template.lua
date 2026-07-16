@@ -927,6 +927,12 @@ pg.activity_template.all = {
 	50833,
 	50834,
 	50835,
+	50840,
+	50841,
+	50844,
+	50845,
+	50846,
+	50847,
 	50838,
 	50598,
 	50599,
@@ -1045,6 +1051,11 @@ pg.activity_template.all = {
 	10129,
 	10130,
 	10138,
+	30896,
+	970000,
+	970001,
+	970002,
+	970003,
 	50000,
 	50001,
 	50002,
@@ -1816,6 +1827,8 @@ pg.activity_template.get_id_list_by_type = {
 		50831,
 		50834,
 		50835,
+		50841,
+		50847,
 		50838,
 		50598,
 		50603,
@@ -1836,6 +1849,7 @@ pg.activity_template.get_id_list_by_type = {
 		51048,
 		51049,
 		10138,
+		970001,
 		50005,
 		50011,
 		50017,
@@ -2177,6 +2191,7 @@ pg.activity_template.get_id_list_by_type = {
 		6020,
 		6021,
 		6023,
+		50846,
 		50610,
 		50630,
 		51001,
@@ -2184,6 +2199,7 @@ pg.activity_template.get_id_list_by_type = {
 		51011,
 		51041,
 		7506,
+		970002,
 		50000,
 		50032,
 		50033,
@@ -2444,6 +2460,7 @@ pg.activity_template.get_id_list_by_type = {
 		5579,
 		5957,
 		50618,
+		30896,
 		50113
 	},
 	[56] = {
@@ -2690,12 +2707,14 @@ pg.activity_template.get_id_list_by_type = {
 		50806,
 		50821,
 		50833,
+		50840,
 		50604,
 		50621,
 		50652,
 		51021,
 		51013,
 		51031,
+		970003,
 		50006,
 		50015,
 		50049,
@@ -2860,6 +2879,7 @@ pg.activity_template.get_id_list_by_type = {
 		5690,
 		5988,
 		6032,
+		50844,
 		50064,
 		50066,
 		50155,
@@ -2897,6 +2917,7 @@ pg.activity_template.get_id_list_by_type = {
 	[111] = {
 		5260,
 		5989,
+		50845,
 		50371
 	},
 	[112] = {
@@ -2978,6 +2999,9 @@ pg.activity_template.get_id_list_by_type = {
 	},
 	[135] = {
 		50434
+	},
+	[136] = {
+		970000
 	},
 	[140] = {
 		50602
@@ -34349,6 +34373,443 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50840] = {
+		mark = 20260716,
+		type = 74,
+		login_pop = 0,
+		config_id = 50840,
+		is_show = 3,
+		title_res_tag = "NieRAutomataCoreActivityUI_subtitle_3",
+		id = 50840,
+		page_core = "NieRAutomataCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "NieRAutomataKillPage",
+			ui_name = "NieRAutomataKillPage"
+		},
+		config_client = {
+			typewriterSpeed = 0.03,
+			story = {
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{
+					"ZIDONGBUBINGRENXINGZHILV3"
+				}
+			},
+			text_block = {
+				{
+					"nier_2b_text_block_day1"
+				},
+				{
+					"nier_2b_text_block_day2"
+				},
+				{
+					"nier_2b_text_block_day3"
+				},
+				{
+					"nier_2b_text_block_day4"
+				},
+				{
+					"nier_2b_text_block_day5"
+				},
+				{
+					"nier_2b_text_block_day6"
+				},
+				{
+					"nier_2b_text_block_day7"
+				},
+				{
+					"nier_2b_text_block_day_fin"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[50841] = {
+		mark = 20260716,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "NieRAutomataCoreActivityUI_subtitle_1",
+		id = 50841,
+		page_core = "NieRAutomataCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "NieRAutomataMainPage",
+			ui_name = "NieRAutomataMainPage"
+		},
+		config_client = {
+			intro_story = {
+				"ZIDONGBUBINGRENXINGZHILV1"
+			}
+		}
+	}
+	pg.base.activity_template[50844] = {
+		mark = 20260716,
+		type = 103,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 5,
+		title_res_tag = "NieRAutomataCoreActivityUI_subtitle_5",
+		id = 50844,
+		page_core = "NieRAutomataCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "NieRAutomataAwardPage",
+			ui_name = "NieRAutomataAwardPage"
+		},
+		config_client = {
+			furniture_theme_link = {
+				2,
+				{
+					"scene court yard",
+					{}
+				}
+			},
+			medal_link = {
+				2,
+				{
+					"TOLOVE_COLLAB_BACKHILL"
+				}
+			},
+			equipskin_box_link = {
+				drop_type = 2,
+				drop_id = 30362,
+				list = {
+					{
+						2,
+						{
+							"scene shop",
+							{
+								warp = "shopstreet"
+							}
+						},
+						"军需商店兑换"
+					},
+					{
+						2,
+						{
+							"scene level",
+							{}
+						},
+						"活动关卡掉落"
+					}
+				}
+			}
+		}
+	}
+	pg.base.activity_template[50845] = {
+		mark = 20260716,
+		type = 111,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 4,
+		title_res_tag = "NieRAutomataCoreActivityUI_subtitle_4",
+		id = 50845,
+		page_core = "NieRAutomataCoreActivityUI",
+		config_data = {
+			4001,
+			4002,
+			4003
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "NieRAutomataStagePage",
+			ui_name = "NieRAutomataStagePage"
+		},
+		config_client = {
+			task = {
+				27320,
+				27321,
+				27322
+			}
+		}
+	}
+	pg.base.activity_template[50846] = {
+		mark = 20260716,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 2,
+		title_res_tag = "NieRAutomataCoreActivityUI_subtitle_2",
+		id = 50846,
+		page_core = "NieRAutomataCoreActivityUI",
+		config_data = {
+			{
+				27306,
+				27307,
+				27308,
+				27309,
+				27310,
+				27311,
+				27312,
+				27313,
+				27314,
+				27315,
+				27316,
+				27317,
+				27318,
+				27319
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "NieRAutomataOmenPage",
+			ui_name = "NieRAutomataOmenPage"
+		},
+		config_client = {
+			subType = 1,
+			typewriterSpeed = 0.03,
+			unlock_task = {
+				{
+					27306,
+					27307
+				},
+				{
+					27308,
+					27309
+				},
+				{
+					27310,
+					27311
+				},
+				{
+					27312,
+					27313
+				},
+				{
+					27314,
+					27315
+				},
+				{
+					27316,
+					27317
+				},
+				{
+					27318,
+					27319
+				}
+			},
+			story = {
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{
+					"ZIDONGBUBINGRENXINGZHILV2"
+				}
+			},
+			text_block = {
+				{
+					"nier_a2_text_block_day1"
+				},
+				{
+					"nier_a2_text_block_day2"
+				},
+				{
+					"nier_a2_text_block_day3"
+				},
+				{
+					"nier_a2_text_block_day4"
+				},
+				{
+					"nier_a2_text_block_day5"
+				},
+				{
+					"nier_a2_text_block_day6"
+				},
+				{
+					"nier_a2_text_block_day7"
+				},
+				{
+					"nier_a2_text_block_day_fin"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[50847] = {
+		mark = 20260716,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50847,
+		page_core = "",
+		config_data = {
+			27320,
+			27321,
+			27322
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
 	pg.base.activity_template[50838] = {
 		mark = 20260520,
 		page_info = "",
@@ -38065,6 +38526,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[51048] = {
 		mark = 20260618,
 		page_info = "",
@@ -38454,8 +38917,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7014] = {
 		mark = 20231123,
 		type = 54,
@@ -40743,6 +41204,281 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[30896] = {
+		mark = 20260701,
+		page_info = "",
+		type = 55,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 30896,
+		page_core = "",
+		config_data = {
+			1,
+			2,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[970000] = {
+		mark = 20260716,
+		page_info = "",
+		type = 136,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 4,
+		config_data = "",
+		title_res_tag = "",
+		id = 970000,
+		page_core = "AuctionGameCoreActivityUI",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			itemID = 970001,
+			taskActID = 970001
+		}
+	}
+	pg.base.activity_template[970001] = {
+		mark = 20260716,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 3,
+		config_client = "",
+		title_res_tag = "",
+		id = 970001,
+		page_core = "AuctionGameCoreActivityUI",
+		config_data = {
+			100000,
+			100001,
+			100002,
+			100003,
+			100004,
+			100005,
+			100006,
+			100007,
+			100008,
+			100009,
+			100010,
+			100011,
+			100012,
+			100013,
+			100014,
+			100015,
+			100016,
+			100017,
+			100018,
+			100019,
+			100020,
+			100021,
+			100022,
+			100023,
+			100024,
+			100025,
+			100026,
+			100027,
+			100028,
+			100029,
+			100030,
+			100031,
+			100032,
+			100033,
+			100034,
+			100035,
+			100036,
+			100037,
+			100038,
+			100039,
+			100040,
+			100041,
+			100042,
+			100043,
+			100044
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[970002] = {
+		mark = 20260716,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 1,
+		config_client = "",
+		title_res_tag = "auction_tab_text_1",
+		id = 970002,
+		page_core = "AuctionGameCoreActivityUI",
+		config_data = {
+			{
+				100101,
+				100102,
+				100103,
+				100104,
+				100105,
+				100106,
+				100107
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AuctionGameLoginPage",
+			ui_name = "AuctionGameLoginPage"
+		}
+	}
+	pg.base.activity_template[970003] = {
+		mark = 20260716,
+		type = 74,
+		login_pop = 0,
+		config_id = 970003,
+		is_show = 2,
+		title_res_tag = "auction_tab_text_2",
+		id = 970003,
+		page_core = "AuctionGameCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AuctionGamePtPage",
+			ui_name = "AuctionGamePtPage"
+		},
+		config_client = {
+			highValueItemSort = {
+				7,
+				12,
+				13
+			}
+		}
+	}
 	pg.base.activity_template[50000] = {
 		mark = 20250619,
 		time = "stop",
@@ -42802,6 +43538,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50063] = {
 		mark = 20250724,
 		time = "stop",
@@ -43386,8 +44124,6 @@ end)()
 			first_sfx = "qiyuanxiademimi"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50084] = {
 		mark = 20250814,
 		time = "stop",
@@ -46435,7 +47171,7 @@ end)()
 					13
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -46519,7 +47255,7 @@ end)()
 					13
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -46558,7 +47294,7 @@ end)()
 					13
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -46577,6 +47313,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50218] = {
 		mark = 20251106,
 		page_info = "",
@@ -46973,8 +47711,6 @@ end)()
 			ui_name = "ChongYingFrameRePage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50231] = {
 		mark = 20251113,
 		time = "stop",
@@ -47986,7 +48722,7 @@ end)()
 					8
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -50793,6 +51529,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50374] = {
 		mark = 20260205,
 		page_info = "",
@@ -51394,8 +52132,6 @@ end)()
 			65815
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50385] = {
 		mark = 20260205,
 		page_info = "",
@@ -55520,6 +56256,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990006] = {
 		mark = 20260205,
 		page_info = "",
@@ -56013,8 +56751,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990019] = {
 		mark = 20260507,
 		page_info = "",

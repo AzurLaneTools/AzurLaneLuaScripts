@@ -70,6 +70,14 @@ slot0.execute = function(slot0, slot1)
 			end)
 		elseif slot5[1] == "MINI_GAME" and slot5[2] then
 			slot0:sendNotification(GAME.GO_MINI_GAME, slot5[2])
+		elseif slot5[2] and slot5[2].unlockActivityID then
+			if getProxy(ActivityProxy):getActivityById(slot5[2].unlockActivityID) and not slot6:isEnd() then
+				slot0:sendNotification(GAME.GO_SCENE, SCENE[slot5[1]], slot5[2])
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
+
+				return
+			end
 		else
 			slot0:sendNotification(GAME.GO_SCENE, SCENE[slot5[1]], slot5[2])
 		end

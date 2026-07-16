@@ -2613,7 +2613,7 @@ end)()
 		}
 	}
 	pg.base.gameset.dayandnight_bgm = {
-		key_value = 6025,
+		key_value = 50841,
 		description = {
 			{
 				{
@@ -2621,7 +2621,7 @@ end)()
 					5
 				},
 				"bg_main_night",
-				"doa-song-night06"
+				"nier-ruinscity-b-1"
 			},
 			{
 				{
@@ -2629,7 +2629,7 @@ end)()
 					8
 				},
 				"bg_main_twilight",
-				"doa-song-day03"
+				"nier-ruinscity-a-1"
 			},
 			{
 				{
@@ -2637,7 +2637,7 @@ end)()
 					16
 				},
 				"bg_main_day",
-				"doa-song-day03"
+				"nier-ruinscity-a-1"
 			},
 			{
 				{
@@ -2645,7 +2645,7 @@ end)()
 					19
 				},
 				"bg_main_twilight",
-				"doa-song-day03"
+				"nier-ruinscity-a-1"
 			},
 			{
 				{
@@ -2653,7 +2653,7 @@ end)()
 					24
 				},
 				"bg_main_night",
-				"doa-song-night06"
+				"nier-ruinscity-b-1"
 			}
 		}
 	}
@@ -4494,5 +4494,184 @@ end)()
 	pg.base.gameset.world_cruise_comp_time = {
 		description = "",
 		key_value = 30
+	}
+	pg.base.gameset.auction_event_choose_time = {
+		description = "",
+		key_value = 25
+	}
+	pg.base.gameset.auction_bid_time = {
+		description = "",
+		key_value = 60
+	}
+	pg.base.gameset.auction_publicity_time = {
+		description = "",
+		key_value = 5
+	}
+	pg.base.gameset.auction_collection_limit = {
+		description = "",
+		key_value = 10
+	}
+	pg.base.gameset.auction_divided = {
+		description = "",
+		key_value = 15
+	}
+	pg.base.gameset.auction_preorder_price = {
+		description = "",
+		key_value = 150000
+	}
+	pg.base.gameset.auction_preorder_open = {
+		description = "",
+		key_value = 1
+	}
+	pg.base.gameset.auction_maximum = {
+		description = "",
+		key_value = 60
+	}
+	pg.base.gameset.auction_emoji_duration = {
+		description = "",
+		key_value = 5
+	}
+	pg.base.gameset.auction_emoji_cd = {
+		description = "",
+		key_value = 5
+	}
+	pg.base.gameset.auction_currency_ceiling = {
+		description = "",
+		key_value = 1000000000
+	}
+	pg.base.gameset.auction_matching_limit = {
+		key_value = 0,
+		description = {
+			55,
+			75
+		}
+	}
+	pg.base.gameset.auction_match_loading_timeout = {
+		description = "",
+		key_value = 15
+	}
+	pg.base.gameset.auction_bot_frame = {
+		key_value = 0,
+		description = {
+			101,
+			102,
+			104,
+			105,
+			107,
+			108,
+			109,
+			110,
+			111
+		}
+	}
+	pg.base.gameset.auction_bot_ship = {
+		key_value = 0,
+		description = {
+			101171,
+			201211,
+			401231,
+			301051
+		}
+	}
+	pg.base.gameset.auction_bot_bid_b = {
+		key_value = 0,
+		description = {
+			{
+				101625,
+				211950
+			},
+			{
+				132275,
+				282600
+			},
+			{
+				192925,
+				343250
+			},
+			{
+				263575,
+				413900
+			},
+			{
+				404225,
+				474550
+			}
+		}
+	}
+	pg.base.gameset.auction_bot_bid_a = {
+		key_value = 0,
+		description = {
+			{
+				341000,
+				683200
+			},
+			{
+				465400,
+				907600
+			},
+			{
+				689800,
+				1052000
+			},
+			{
+				824200,
+				1366400
+			},
+			{
+				1078600,
+				1630800
+			}
+		}
+	}
+	pg.base.gameset.auction_bot_bid_s = {
+		key_value = 0,
+		description = {
+			{
+				1406250,
+				2153500
+			},
+			{
+				1820750,
+				2738000
+			},
+			{
+				1855250,
+				3572500
+			},
+			{
+				2789750,
+				4407000
+			},
+			{
+				3524250,
+				5041500
+			}
+		}
+	}
+	pg.base.gameset.auction_bot_time_event = {
+		key_value = 0,
+		description = {
+			3,
+			10
+		}
+	}
+	pg.base.gameset.auction_bot_time_bid = {
+		key_value = 0,
+		description = {
+			5,
+			20
+		}
+	}
+	pg.base.gameset.auction_relief_payment_limit = {
+		description = "",
+		key_value = 500000
+	}
+	pg.base.gameset.auction_relief_payment_count = {
+		description = "",
+		key_value = 3
+	}
+	pg.base.gameset.auction_relief_payment = {
+		description = "",
+		key_value = 500000
 	}
 end)()

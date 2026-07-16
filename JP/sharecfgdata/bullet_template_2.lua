@@ -1962,6 +1962,270 @@ _G.pg.base.bullet_template_2[168300] = {
 }
 
 
+_G.pg.base.bullet_template_2[168291] = {
+	range_offset = 0,
+	modle_ID = "2B_daoguangzidan01",
+	type = 1,
+	velocity = 13,
+	antisub_enhancement = 0,
+	out_bound = 1,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMiss",
+	miss_sfx = "battle/sink",
+	alert_fx = "",
+	hit_fx = "jianqi_shouji_fire",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 168291,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {
+		{
+			u = 0.09,
+			flip = false,
+			v = 0,
+			t = 0.2
+		}
+	},
+	cld_box = {
+		4,
+		1,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_2[168292] = {
+	range_offset = 0,
+	modle_ID = "2B_zhanji_all",
+	type = 2,
+	velocity = 0,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168292,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 1
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = 0,
+		targetOffsetX = -5,
+		airdrop = true,
+		offsetY = 20,
+		timeToExplode = 2.3,
+		offsetX = -5,
+		diveFilter = {
+			1,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168293] = {
+	range_offset = 0,
+	modle_ID = "2B_slash",
+	type = 2,
+	velocity = 0,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168293,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 1
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = 0,
+		targetOffsetX = -5,
+		airdrop = true,
+		offsetY = 20,
+		timeToExplode = 5,
+		offsetX = -5,
+		diveFilter = {
+			1,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168294] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 2,
+	velocity = 0,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "AlertArea",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168294,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 12
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = 0,
+		targetOffsetX = -5,
+		airdrop = true,
+		offsetY = 20,
+		timeToExplode = 0.1,
+		offsetX = -5,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
 _G.pg.base.bullet_template_2[168301] = {
 	range_offset = 0,
 	modle_ID = "kuasheHE",
@@ -2139,6 +2403,470 @@ _G.pg.base.bullet_template_2[168303] = {
 		ignoreB = true,
 		ignoreShield = true
 	}
+}
+
+
+_G.pg.base.bullet_template_2[168304] = {
+	range_offset = 0,
+	modle_ID = "2B_daoguangzidan02",
+	type = 1,
+	velocity = 13,
+	antisub_enhancement = 0,
+	out_bound = 1,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMissBig",
+	miss_sfx = "battle/sink",
+	alert_fx = "",
+	hit_fx = "jianqi_shouji_fire",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 168304,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {
+		{
+			u = 0.09,
+			flip = false,
+			v = 0,
+			t = 0.2
+		}
+	},
+	cld_box = {
+		4,
+		1,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_2[168305] = {
+	range_offset = 0,
+	modle_ID = "2B_daoguangzidan03",
+	type = 1,
+	velocity = 13,
+	antisub_enhancement = 0,
+	out_bound = 1,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMissBig",
+	miss_sfx = "battle/sink",
+	alert_fx = "",
+	hit_fx = "jianqi_shouji_fire",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 168305,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {
+		{
+			u = 0.09,
+			flip = false,
+			v = 0,
+			t = 0.2
+		}
+	},
+	cld_box = {
+		4,
+		1,
+		8
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_2[168306] = {
+	range_offset = 0,
+	modle_ID = "A2_daoguang_hit",
+	type = 2,
+	velocity = 0,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168306,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 1
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = 0,
+		targetOffsetX = -5,
+		airdrop = true,
+		offsetY = 20,
+		timeToExplode = 2.3,
+		offsetX = -5,
+		diveFilter = {
+			1,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168307] = {
+	range_offset = 0,
+	modle_ID = "A2_slash",
+	type = 2,
+	velocity = 0,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168307,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 1
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = 0,
+		targetOffsetX = -5,
+		airdrop = true,
+		offsetY = 20,
+		timeToExplode = 5,
+		offsetX = -5,
+		diveFilter = {
+			1,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168308] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 2,
+	velocity = 0,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "AlertArea",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 6,
+	id = 168308,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		},
+		{
+			2,
+			1.4
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 12
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = 0,
+		targetOffsetX = -5,
+		airdrop = true,
+		offsetY = 20,
+		timeToExplode = 0.1,
+		offsetX = -5,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[168355] = {
+	range_offset = 10,
+	modle_ID = "A2_zhanji2",
+	type = 1,
+	velocity = 13,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMiss",
+	miss_sfx = "battle/sink",
+	alert_fx = "",
+	hit_fx = "CAHit",
+	range = 150,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 168355,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.2
+		},
+		{
+			2,
+			1.2
+		},
+		{
+			2,
+			1.2
+		}
+	},
+	acceleration = {
+		{
+			u = 0.08,
+			flip = false,
+			v = 0,
+			t = 0
+		}
+	},
+	cld_box = {
+		8,
+		1,
+		16
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {
+		{
+			rant = 10000,
+			buff_id = 117059,
+			group_level = 1
+		}
+	},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_2[168356] = {
+	range_offset = 10,
+	modle_ID = "A2_zhanji2",
+	type = 1,
+	velocity = 13,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMiss",
+	miss_sfx = "battle/sink",
+	alert_fx = "",
+	hit_fx = "CAHit",
+	range = 150,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 168356,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.2
+		},
+		{
+			2,
+			1.2
+		},
+		{
+			2,
+			1.2
+		}
+	},
+	acceleration = {
+		{
+			u = 0.08,
+			flip = false,
+			v = 0,
+			t = 0
+		}
+	},
+	cld_box = {
+		8,
+		1,
+		16
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {
+		{
+			rant = 10000,
+			buff_id = 117079,
+			group_level = 1
+		},
+		{
+			rant = 10000,
+			buff_id = 117078,
+			group_level = 1
+		}
+	},
+	extra_param = {}
 }
 
 
@@ -3646,6 +4374,7 @@ _G.pg.base.bullet_template_2[168334] = {
 		ignoreB = true,
 		ignoreShield = true,
 		lastTime = 0.1,
+		dontRotate = true,
 		shrapnel = {
 			{
 				initialSplit = true,

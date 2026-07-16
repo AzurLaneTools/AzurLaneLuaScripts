@@ -25,7 +25,8 @@ pg.item_data_battleui.all = {
 	205,
 	206,
 	207,
-	208
+	208,
+	209
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -383,6 +384,23 @@ pg.base.item_data_battleui = {}
 		desc = "流れるゴールドが描く星のフレーム、燦々たるダイヤが散りばめられたボタン——すべての戦いを絢爛豪華な夢へと変えてくれる。",
 		id = 208,
 		icon = "208",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[209] = {
+		name = "ヨルハ",
+		key = "SkinElite_20260715",
+		display_icon = "ui_209",
+		unlock = "ショップ購入（戦闘UI・ヨルハ）",
+		is_unlock = 1,
+		rare = 4,
+		desc = "ミニマイズに構築されたモノトーンのUI。無機質な機械模様と戦術インターフェイスが整然と配置され、ヨルハ部隊のような雰囲気を演出してくれる",
+		id = 209,
+		icon = "209",
 		scene = {},
 		rare_display = {
 			1,

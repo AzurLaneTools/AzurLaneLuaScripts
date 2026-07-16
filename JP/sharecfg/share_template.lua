@@ -21,7 +21,8 @@ pg.share_template.all = {
 	16,
 	17,
 	18,
-	19
+	19,
+	20
 }
 pg.base = pg.base or {}
 pg.base.share_template = {}
@@ -366,6 +367,26 @@ pg.base.share_template = {}
 			"/OverlayCamera/Overlay/UIMain/Dorm3dPhotoShareUI(Clone)/PhotoImg",
 			"/OverlayCamera/Overlay/UIMain/Dorm3dPhotoShareUI(Clone)/ConfirmBtn",
 			"/OverlayCamera/Overlay/UIMain/Dorm3dPhotoShareUI(Clone)/ShareBtn",
+			"/OverlayCamera/Overlay/UIOverlay/TipPanel(Clone)"
+		}
+	}
+	pg.base.share_template[20] = {
+		description = "#碧蓝航线#",
+		name = "港区竞拍分享界面",
+		deck = 2,
+		move_comps = "",
+		camera = "OverlayCamera",
+		show_comps = "",
+		id = 20,
+		qrcode_location = {
+			-308,
+			88
+		},
+		hidden_comps = {
+			"/OverlayCamera/Overlay/UIEffect/ClickEffect(Clone)",
+			"/OverlayCamera/Overlay/UIMain/adapt/rightPanel/shareBtn",
+			"/OverlayCamera/Overlay/UIMain/adapt/rightPanel/cancelBtn",
+			"/OverlayCamera/Overlay/UIMain/adapt/leftPanel/revealBtn",
 			"/OverlayCamera/Overlay/UIOverlay/TipPanel(Clone)"
 		}
 	}

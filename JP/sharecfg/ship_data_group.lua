@@ -770,6 +770,8 @@ pg.ship_data_group.all = {
 	10154,
 	10155,
 	10156,
+	10171,
+	10172,
 	20001,
 	20002,
 	20003,
@@ -3505,6 +3507,12 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	},
 	[1150006] = {
 		10156
+	},
+	[1170001] = {
+		10171
+	},
+	[1170002] = {
+		10172
 	}
 }
 pg.ship_data_group.get_id_list_by_handbook_type = {
@@ -4276,7 +4284,9 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		10153,
 		10154,
 		10155,
-		10156
+		10156,
+		10171,
+		10172
 	},
 	{
 		20001,
@@ -37050,6 +37060,70 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_data_group[10171] = {
+		nationality = 117,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1170001,
+		index_id = 10171,
+		code = 10171,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：自動歩兵人形の旅",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[10172] = {
+		nationality = 117,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1170002,
+		index_id = 10172,
+		code = 10172,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：自動歩兵人形の旅",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
 	pg.base.ship_data_group[20001] = {
 		nationality = 2,
 		type = 2,
@@ -38174,6 +38248,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[20033] = {
 		nationality = 1,
 		type = 1,
@@ -38244,8 +38320,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[20035] = {
 		nationality = 6,
 		type = 3,

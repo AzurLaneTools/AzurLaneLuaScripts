@@ -79,6 +79,8 @@ pg.pay_data_display.all = {
 	77,
 	78,
 	79,
+	80,
+	81,
 	82,
 	83,
 	84,
@@ -216,6 +218,9 @@ pg.pay_data_display.all = {
 	2079,
 	2080,
 	2081,
+	2085,
+	2086,
+	2087,
 	2088,
 	2089,
 	2090,
@@ -9143,6 +9148,254 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+	pg.base.pay_data_display[80] = {
+		picture = "fudai17",
+		name = "復刻L2D着せ替え福袋2025B",
+		type = 1,
+		second_text = "大量な報酬",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		subject = "復刻L2D着せ替え福袋2025B",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 3800,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi180",
+		extra_gem = 0,
+		id = 80,
+		airijp_id = "com.yostarjp.azurlane.diamond168",
+		name_display = "復刻L2D着せ替え福袋2025B",
+		first_text = "ランダム着せ替えとダイヤ",
+		akashi_pick = 1,
+		skin_inquire_relation = 86411,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86411,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86411,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81419,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86411,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			}
+		}
+	}
+	pg.base.pay_data_display[81] = {
+		picture = "fudai18",
+		name = "復刻L2D着せ替え福袋2025A",
+		type = 1,
+		second_text = "大量な報酬",
+		descrip = "<size=18>下記L2D着せ替え中の未所持着せ替えをランダムで1着（全部所持している場合自動でダイヤに変換されます）とその他アイテムを入手できます</size>",
+		subject = "復刻L2D着せ替え福袋2025A",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1200,
+		descrip_extra = "※福袋はメールボックスに贈られます\n※全部所持している場合自動でダイヤ×1080に変換されます",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi181",
+		extra_gem = 0,
+		id = 81,
+		airijp_id = "com.yostarjp.azurlane.diamond169",
+		name_display = "復刻L2D着せ替え福袋2025A",
+		first_text = "ランダム着せ替え",
+		akashi_pick = 1,
+		skin_inquire_relation = 86412,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86412,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81420,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86412,
+				1
+			}
+		}
+	}
 	pg.base.pay_data_display[82] = {
 		picture = "fudai19",
 		name = "新年福袋2025A",
@@ -12112,6 +12365,8 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[9006] = {
 		picture = "fudai_L2d_new",
 		name = "復刻L2D着せ替え福袋2026A",
@@ -12360,8 +12615,6 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[9008] = {
 		picture = "fudai19",
 		name = "新年福袋2025A・復刻",
@@ -21293,6 +21546,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2059] = {
 		picture = "ui6",
 		name = "戦闘UI・シノビ（セット）",
@@ -21494,8 +21749,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2064] = {
 		picture = "boxSkill",
 		name = "教科書パック",
@@ -22635,6 +22888,269 @@ end)()
 			{
 				2,
 				40081,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2085] = {
+		picture = "ui10",
+		name = "戦闘UI・ヨルハ",
+		type = 0,
+		second_text = "",
+		descrip = "戦闘UI・ヨルハ",
+		subject = "戦闘UI・ヨルハ",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1600,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 110,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "",
+		extra_gem = 0,
+		id = 2085,
+		airijp_id = "",
+		name_display = "戦闘UI・ヨルハ",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				209,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				209,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[2086] = {
+		picture = "ui10",
+		name = "戦闘UI・ヨルハ（単品）",
+		type = 0,
+		second_text = "",
+		descrip = "戦闘UI・ヨルハ、資金×1000を入手可能",
+		subject = "戦闘UI・ヨルハ（単品）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1600,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 110,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui27",
+		extra_gem = 0,
+		id = 2086,
+		airijp_id = "com.yostarjp.azurlane.ui27",
+		name_display = "戦闘UI・ヨルハ（単品）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40084,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2087] = {
+		picture = "ui10",
+		name = "戦闘UI・ヨルハ（セット）",
+		type = 0,
+		second_text = "",
+		descrip = "戦闘UI・ヨルハ、ダイヤ×3060を入手可能",
+		subject = "戦闘UI・ヨルハ（セット）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 4700,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		limit_group = 110,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.ui28",
+		extra_gem = 0,
+		id = 2087,
+		airijp_id = "com.yostarjp.azurlane.ui28",
+		name_display = "戦闘UI・ヨルハ（セット）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					7,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40085,
 				1
 			}
 		}

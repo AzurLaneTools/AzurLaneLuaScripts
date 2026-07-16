@@ -196603,6 +196603,158 @@ _G.pg.base.item_virtual_data_statistics[86228] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[86411] = {
+	drop_gold_max = 0,
+	name = "ランダム衣装",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86411,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			307083,
+			850
+		},
+		{
+			199031,
+			850
+		},
+		{
+			105172,
+			850
+		},
+		{
+			307075,
+			850
+		},
+		{
+			305102,
+			860
+		},
+		{
+			118021,
+			850
+		},
+		{
+			319013,
+			775
+		},
+		{
+			103244,
+			850
+		},
+		{
+			102053,
+			775
+		},
+		{
+			207053,
+			850
+		},
+		{
+			907013,
+			790
+		},
+		{
+			137060,
+			850
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86412] = {
+	drop_gold_max = 0,
+	name = "ランダム衣装",
+	display = [[
+下記L2D着せ替え中の未所持着せ替えをランダムで1着（全部所持している場合自動でダイヤ×1080に変換されます）を入手できます。
+各着せ替えの出現確率は同じで、出現着せ替えは下記になります：
+ラフィーⅡ うとうとビジーデー；
+ヘレナ 光輝のトライアングルウェーブ；
+セントルイス プールデッキ・アフタヌーン；
+リノ バニーリノ！；
+ブレマートン ゆったりリラックスタイム；
+ピッツバーグ ガールズ・カウンター；
+ノースカロライナ 内なる力と正義；
+ニュージャージー 盛夏のレジャータイム；
+グアム チャーミング・ステージング；
+エンタープライズ スカイスケープ・ダイバー；
+アンカレッジ ドルフィンブルー・レッスン；
+キアサージ オールナイト・チャージ；
+シリアス パラダイス・コニー；
+デヴォンシャー デーモン・サディスティック；
+ヴァンガード どっちつかずマスカレード；
+イラストリアス 2人の勉強タイム；
+フォーミダブル 恋心、ときめく日直；
+アバークロンビー ミスチーフ・レッド；
+チェシャー ファンシー・ナイトドリーム；
+初月 葉月の恋模様；
+酒匂 恋愛一色華乙女；
+渡良瀬 灰かぶりの奇術衣裳；
+雲仙 晴海水遊；
+天城(空母) 紅鳶の寸閑；
+武蔵 菫兎のスナイピングゲーム；
+尾張 我が願いは愛情なり；
+大鳳 白浜のデイドリーム；
+信濃 雅夢の白浜；
+天城 玉座落鸞；
+樫野 花咲くラブリーストレイン；
+白龍 急竹繁刀；
+エムデン 白黒のパルティータ；
+レーゲンスブルク 闇龍と光の海岸；
+プリンツ・オイゲン この夜に酔いしれ；
+プリンツ・アーダルベルト バスルーム・アクシデント；
+リュッツォウ 永き夜のノーブルレッド；
+ウルリッヒ・フォン・フッテン 孤高のイグニッションタイム；
+フリードリヒ・デア・グローセ 真夏の夜の親昵；
+エーギル 鉄血母港のメイドラッへ；
+ヒンデンブルク パラリティク・バーサス；
+ローマ 真夜中の白鳥；
+ソビエツキー・ソユーズ フォールスカイ・エージェント；
+アルザス 陽差しの秘蹟、過熱す；
+パンルヴェ フレーシュに幸あれ；
+モガドール 悶々ロッカーシークレット；
+ストラスブール 謡精舞うサーキット；
+クレマンソー ブリーズ・スプレンディド；
+ジョッフル 祝福のスタートダッシュ；
+ゴールデン・ハインド 古城のキラーレディ；]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86412,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[100000] = {
 	drop_gold_max = 0,
 	name = "META座標情報",
@@ -260255,4 +260407,108 @@ _G.pg.base.item_virtual_data_statistics[200820] = {
 			1
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970001] = {
+	drop_gold_max = 0,
+	name = "オークションコイン",
+	display = "オークション専用のバーチャルチップ……注意：使ったコインはまだ稼げるけど、落札した出品物は返品・交換できないよー",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/auction_coin",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 31,
+	id = 970001,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970002] = {
+	drop_gold_max = 0,
+	name = "出品物入手リスト",
+	display = "持ち主が落札した出品物を細かく記載した書類。オークションイベントでの大活躍の証明",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/auction_pt_1",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970002,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970003] = {
+	drop_gold_max = 0,
+	name = "オークションスタンプ",
+	display = "入手すると、オークションシリーズのチャットスタンプを解放可能（1-4）\nチャットスタンプの「デフォルト」で使用可能",
+	type = 98,
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/970003",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970003,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970004] = {
+	drop_gold_max = 0,
+	name = "オークションスタンプ",
+	display = "入手すると、オークションシリーズのチャットスタンプを解放可能（5-9）\nチャットスタンプの「デフォルト」で使用可能",
+	type = 98,
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/970003",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970004,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }

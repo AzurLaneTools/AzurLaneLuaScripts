@@ -671,13 +671,9 @@ slot0.BuildFormationIds = function(slot0)
 		[FleetType.Normal] = 2,
 		[FleetType.Submarine] = 0
 	}
-	slot3 = {
-		[FleetType.Normal] = 1,
-		[FleetType.Submarine] = 1
-	}
 
-	for slot7, slot8 in ipairs(pg.world_stage_template) do
-		if slot8.stage_key <= slot0:GetProgress() then
+	for slot6, slot7 in ipairs(pg.world_stage_template.all) do
+		if pg.world_stage_template[slot7].stage_key <= slot0:GetProgress() then
 			slot2[FleetType.Normal] = math.max(slot2[FleetType.Normal], slot8.fleet_num)
 		else
 			break
@@ -688,47 +684,46 @@ slot0.BuildFormationIds = function(slot0)
 		slot2[FleetType.Submarine] = 1
 	end
 
-	for slot7, slot8 in pairs(slot1) do
-		for slot12 = 1, slot2[slot7] do
-			table.insert(slot8, uv0())
+	slot3 = ipairs
+	slot4 = slot0:IsActivate() and slot0:GetFleets() or slot0:GetDefaultFleets()
+
+	for slot6, slot7 in slot3(slot4) do
+		slot8 = slot7:GetFleetType()
+
+		if #slot1[slot8] < slot2[slot8] then
+			table.insert(slot1[slot8], slot7:BuildFormationIds())
 		end
 	end
 
-	slot4 = ipairs
-	slot5 = slot0:IsActivate() and slot0:GetFleets() or slot0:GetDefaultFleets()
-
-	for slot7, slot8 in slot4(slot5) do
-		slot9 = slot8:GetFleetType()
-
-		if slot3[slot9] <= slot2[slot9] then
-			slot1[slot9][slot10] = slot8:BuildFormationIds()
-			slot3[slot9] = slot10 + 1
+	for slot6, slot7 in pairs(slot1) do
+		for slot11 = 1, slot2[slot6] do
+			slot7[slot11] = slot7[slot11] or uv0()
 		end
 	end
 
-	slot4 = nil
+	slot3 = nil
 
-	for slot9, slot10 in pairs(slot0:GetTaskProxy():getTasks()) do
-		if slot10.config.complete_condition == WorldConst.TaskTypeFleetExpansion and slot10:isAlive() then
-			slot4 = slot10.config.complete_parameter[1]
+	for slot8, slot9 in pairs(slot0:GetTaskProxy():getTasks()) do
+		if slot9.config.complete_condition == WorldConst.TaskTypeFleetExpansion and slot9:isAlive() then
+			slot3 = slot9.config.complete_parameter[1]
 
 			break
 		end
 	end
 
-	if slot4 then
-		for slot9 = #slot1[FleetType.Normal] + 1, slot4 do
-			slot1[FleetType.Normal][slot9] = uv0()
+	if slot3 then
+		for slot8 = #slot1[FleetType.Normal] + 1, slot3 do
+			slot1[FleetType.Normal][slot8] = uv0()
 		end
 	end
 
-	slot6 = 0
+	slot5 = 0
 
-	for slot10, slot11 in pairs(slot1) do
-		slot6 = slot6 + #slot11
+	for slot9, slot10 in pairs(slot1) do
+		slot5 = slot5 + #slot10
 	end
 
-	return slot4 and WorldConst.FleetExpansion or WorldConst.FleetRedeploy, slot1, slot6
+	return slot3 and WorldConst.FleetExpansion or WorldConst.FleetRedeploy, slot1, slot5
 end
 
 slot0.FormationIds2NetIds = function(slot0, slot1)

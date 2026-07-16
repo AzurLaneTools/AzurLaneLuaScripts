@@ -7929,6 +7929,35 @@ pg.activity_ins_language.all = {
 	"op_reply_657_1_1",
 	"ins_op_657_1_2",
 	"op_reply_657_1_2",
+	"ins_658",
+	"ins_discuss_658_1",
+	"ins_reply_658_1_1",
+	"ins_reply_658_1_2",
+	"ins_reply_658_1_3",
+	"ins_discuss_658_2",
+	"ins_reply_658_2_1",
+	"ins_reply_658_2_2",
+	"ins_reply_658_2_3",
+	"ins_reply_658_2_4",
+	"ins_op_658_1_1",
+	"op_reply_658_1_1",
+	"ins_op_658_1_2",
+	"op_reply_658_1_2",
+	"ins_659",
+	"ins_discuss_659_1",
+	"ins_reply_659_1_1",
+	"ins_reply_659_1_2",
+	"ins_reply_659_1_3",
+	"ins_reply_659_1_4",
+	"ins_reply_659_1_5",
+	"ins_discuss_659_2",
+	"ins_reply_659_2_1",
+	"ins_reply_659_2_2",
+	"ins_reply_659_2_3",
+	"ins_op_659_1_1",
+	"op_reply_659_1_1",
+	"ins_op_659_1_2",
+	"op_reply_659_1_2",
 	"ins_20001",
 	"ins_discuss_20001_1",
 	"ins_reply_20001_1_1",
@@ -32152,6 +32181,93 @@ end)()
 	pg.base.activity_ins_language.op_reply_657_1_2 = {
 		value = ""
 	}
+	pg.base.activity_ins_language.ins_658 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_658_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_658_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_658_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_658_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_658_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_658_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_659 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_659_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_659_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_659_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_659_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_659_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_659_1_2 = {
+		value = ""
+	}
 	pg.base.activity_ins_language.ins_20001 = {
 		value = "飛行機って遅いんだね……アタシが追い抜いちゃお！"
 	}
@@ -32290,6 +32406,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20002_8_1 = {
 		value = "技術サポートが必要なら明石に言うにゃ！いい感じで見積ってあげるにゃ♪"
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_discuss_20002_9 = {
 		value = "インタラクティブって……指揮官様と密着できるアレですか？それなら大鳳はもう……楽しみましたわ♡"
 	}
@@ -32377,8 +32495,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20004_3_1 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20004_4 = {
 		value = ""
 	}
@@ -32592,6 +32708,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20006_8_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20006_8_2 = {
 		value = ""
 	}
@@ -32679,8 +32797,6 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20005_13 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20005_13_1 = {
 		value = ""
 	}
@@ -32894,6 +33010,8 @@ end)()
 	pg.base.activity_ins_language.op_reply_20008_1_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.op_reply_20008_1_2 = {
 		value = ""
 	}
@@ -32981,8 +33099,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20009_11_1 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20009_11_2 = {
 		value = ""
 	}

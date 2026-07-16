@@ -50882,6 +50882,90 @@ _G.pg.base.item_data_statistics[40083] = {
 }
 
 
+_G.pg.base.item_data_statistics[40084] = {
+	open_directly = 1,
+	name = "戦闘UI・ヨルハ（単品）",
+	type = 17,
+	display = "購入すると戦闘UI・ヨルハ、資金×1000を入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui10",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4084",
+	id = 40084,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			209,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40085] = {
+	open_directly = 1,
+	name = "戦闘UI・ヨルハ（セット）",
+	type = 17,
+	display = "購入すると戦闘UI・ヨルハ、ダイヤ×3060を入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui10",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4085",
+	id = 40085,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			209,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40086] = {
 	open_directly = 1,
 	name = "PR艦船Ⅵ期交換アイテム＋強化ユニットセット",

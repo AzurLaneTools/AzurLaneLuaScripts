@@ -968,4 +968,11 @@ slot0.UpdateGuideIndex = function(slot0, slot1, slot2)
 	end
 end
 
+slot0.GetDisplayShipList = function(slot0)
+	slot2 = nil
+	slot3, slot4 = uv0((not getProxy(SettingsProxy):IsOpenRandomFlagShip() or slot1:GetRandomFlagShipList()) and slot0:GetShipPhantomMarks())
+
+	return slot3
+end
+
 return slot0

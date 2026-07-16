@@ -277,7 +277,7 @@ slot0.UpdateItems = function(slot0, slot1)
 				color = Color(0, 0, 0, 0.6)
 			})
 			setActive(slot2:Find("got"), slot3.got)
-			setActive(slot2:Find("icon_bg/special"), slot3.special)
+			setActive(slot2:Find("special"), slot3.special)
 		end
 	end)
 end
