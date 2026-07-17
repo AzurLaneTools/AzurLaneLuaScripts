@@ -30928,16 +30928,20 @@ cs.gametip = {
 		1325518,
 		183
 	},
-	ConsumeGem_tip = {
+	donot_send_emoji_frequently = {
 		1325701,
+		115
+	},
+	ConsumeGem_tip = {
+		1325816,
 		354
 	},
 	nier_a2_item_got = {
-		1326055,
+		1326170,
 		89
 	},
 	auction_network_timeout = {
-		1326144,
+		1326259,
 		123
 	}
 }

@@ -50481,6 +50481,11 @@ _G.pg.base.gametip.auction_relief_tip_2 = {
 }
 
 
+_G.pg.base.gametip.donot_send_emoji_frequently = {
+	tip = "请勿频繁发送表情"
+}
+
+
 _G.pg.base.gametip.ConsumeGem_tip = {
 	tip = {
 		{

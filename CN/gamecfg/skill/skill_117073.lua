@@ -22,7 +22,7 @@ return {
 			type = "BattleSkillAddBuff",
 			target_choise = "TargetSelf",
 			arg_list = {
-				buff_id = 117053
+				buff_id = 117073
 			}
 		}
 	}

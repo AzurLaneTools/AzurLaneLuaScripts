@@ -2,95 +2,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					group = 117070,
-					number = 1,
-					attr = "isInvincible"
-				}
-			},
-			{
-				type = "BattleBuffAddTag",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					tag = "isInvincible_1"
-				}
-			},
-			{
-				type = "BattleBuffHP",
+				type = "BattleBuffCleanse",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					maxHPRatio = 0.1
+					buff_id_list = {
+						117072
+					}
 				}
 			},
-			{
-				type = "BattleBuffAddBuff",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					buff_id = 117074,
-					target = "TargetSelf"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					group = 117070,
-					number = 1,
-					attr = "isInvincible"
-				}
-			},
-			{
-				type = "BattleBuffAddTag",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					tag = "isInvincible_1"
-				}
-			},
-			{
-				type = "BattleBuffHP",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					maxHPRatio = 0.1
-				}
-			},
-			{
-				type = "BattleBuffAddBuff",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					buff_id = 117074,
-					target = "TargetSelf"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
@@ -137,95 +58,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					group = 117070,
-					number = 1,
-					attr = "isInvincible"
-				}
-			},
-			{
-				type = "BattleBuffAddTag",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					tag = "isInvincible_1"
-				}
-			},
-			{
-				type = "BattleBuffHP",
+				type = "BattleBuffCleanse",
 				trigger = {
 					"onAttach"
 				},
 				arg_list = {
-					maxHPRatio = 0.1
+					buff_id_list = {
+						117072
+					}
 				}
 			},
-			{
-				type = "BattleBuffAddBuff",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					buff_id = 117074,
-					target = "TargetSelf"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					group = 117070,
-					number = 1,
-					attr = "isInvincible"
-				}
-			},
-			{
-				type = "BattleBuffAddTag",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					tag = "isInvincible_1"
-				}
-			},
-			{
-				type = "BattleBuffHP",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					maxHPRatio = 0.1
-				}
-			},
-			{
-				type = "BattleBuffAddBuff",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					buff_id = 117074,
-					target = "TargetSelf"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
@@ -272,6 +114,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117072
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -317,6 +170,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117072
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -362,6 +226,17 @@ return {
 	{
 		effect_list = {
 			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117072
+					}
+				}
+			},
+			{
 				type = "BattleBuffAddAttr",
 				trigger = {
 					"onAttach",
@@ -406,6 +281,241 @@ return {
 	},
 	{
 		effect_list = {
+			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117072
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					group = 117070,
+					number = 1,
+					attr = "isInvincible"
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
+				}
+			},
+			{
+				type = "BattleBuffHP",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117074,
+					target = "TargetSelf"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117072
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					group = 117070,
+					number = 1,
+					attr = "isInvincible"
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
+				}
+			},
+			{
+				type = "BattleBuffHP",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117074,
+					target = "TargetSelf"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117072
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					group = 117070,
+					number = 1,
+					attr = "isInvincible"
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
+				}
+			},
+			{
+				type = "BattleBuffHP",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117074,
+					target = "TargetSelf"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117072
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					group = 117070,
+					number = 1,
+					attr = "isInvincible"
+				}
+			},
+			{
+				type = "BattleBuffAddTag",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					tag = "isInvincible_1"
+				}
+			},
+			{
+				type = "BattleBuffHP",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					maxHPRatio = 0.1
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id = 117074,
+					target = "TargetSelf"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffCleanse",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					buff_id_list = {
+						117072
+					}
+				}
+			},
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
