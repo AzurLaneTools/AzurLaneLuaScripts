@@ -43,31 +43,67 @@ slot0.GetTypewriterSpeed = function(slot0)
 	return slot0.activity:getConfig("config_client").typewriterSpeed and slot2 or 0.1
 end
 
+slot0.InvalidateWriter = function(slot0)
+	slot0.writerToken = (slot0.writerToken or 0) + 1
+
+	if slot0.desc1 then
+		GetOrAddComponent(slot0.desc1, typeof(Typewriter)).endFunc = nil
+	end
+
+	if slot0.desc2 then
+		GetOrAddComponent(slot0.desc2, typeof(Typewriter)).endFunc = nil
+	end
+end
+
 slot0.Playwriter = function(slot0)
-	slot1 = {}
+	slot0:InvalidateWriter()
+
+	slot1 = slot0.writerToken
+
+	slot2 = function()
+		return uv0.writerToken == uv1 and uv0._go and isActive(uv0._go)
+	end
+
+	slot3 = {}
 
 	if not slot0.finishAll then
-		table.insert(slot1, function (slot0)
-			slot2 = GetOrAddComponent(uv0.desc1, typeof(Typewriter))
-
-			slot2.endFunc = function()
-				uv0()
+		table.insert(slot3, function (slot0)
+			if not uv0() then
+				return
 			end
 
-			slot2:setSpeed(uv0:GetTypewriterSpeed())
+			slot2 = GetOrAddComponent(uv1.desc1, typeof(Typewriter))
+
+			slot2.endFunc = function()
+				if not uv0() then
+					return
+				end
+
+				uv1()
+			end
+
+			slot2:setSpeed(uv1:GetTypewriterSpeed())
 			slot2:Play()
 		end)
 	else
-		table.insert(slot1, function (slot0)
-			if checkExist(uv0.activity:getConfig("config_client").story, {
-				uv0.nday
+		table.insert(slot3, function (slot0)
+			if not uv0() then
+				return
+			end
+
+			if checkExist(uv1.activity:getConfig("config_client").story, {
+				uv1.nday
 			}, {
 				1
 			}) and not pg.NewStoryMgr.GetInstance():IsPlayed(slot2) then
 				slot3 = pg.NewStoryMgr.GetInstance()
 
 				slot3:Play(slot2, function ()
-					uv0()
+					if not uv0() then
+						return
+					end
+
+					uv1()
 				end)
 			else
 				slot0()
@@ -75,19 +111,27 @@ slot0.Playwriter = function(slot0)
 		end)
 	end
 
-	table.insert(slot1, function (slot0)
-		setActive(uv0.desc2, true)
-
-		slot2 = GetOrAddComponent(uv0.desc2, typeof(Typewriter))
-
-		slot2.endFunc = function()
-			uv0()
+	table.insert(slot3, function (slot0)
+		if not uv0() then
+			return
 		end
 
-		slot2:setSpeed(uv0:GetTypewriterSpeed())
+		setActive(uv1.desc2, true)
+
+		slot2 = GetOrAddComponent(uv1.desc2, typeof(Typewriter))
+
+		slot2.endFunc = function()
+			if not uv0() then
+				return
+			end
+
+			uv1()
+		end
+
+		slot2:setSpeed(uv1:GetTypewriterSpeed())
 		slot2:Play()
 	end)
-	seriesAsync(slot1, callback)
+	seriesAsync(slot3)
 end
 
 slot0.LocalFresh = function(slot0, slot1)
@@ -224,12 +268,16 @@ slot0.GetProgressColor = function(slot0)
 end
 
 slot0.OnHideFlush = function(slot0)
+	slot0:InvalidateWriter()
+
 	if slot0.taskWindow:isShowing() then
 		slot0.taskWindow:Hide()
 	end
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:InvalidateWriter()
+
 	if slot0.taskWindow then
 		slot0.taskWindow:Hide()
 		slot0.taskWindow:Destroy()

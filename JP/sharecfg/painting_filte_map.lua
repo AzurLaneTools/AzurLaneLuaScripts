@@ -16513,6 +16513,7 @@ end)()
 		key = "shenxue_4",
 		res_list = {
 			"painting/shenxue_4_tex",
+			"painting/shenxue_4_shophx_tex",
 			"painting/shenxue_4_rw_tex",
 			"painting/shenxue_4_n_rw_tex",
 			"painting/shenxue_4_n_bj_tex",

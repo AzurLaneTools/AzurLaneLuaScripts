@@ -18,7 +18,7 @@ slot0.Init = function(slot0)
 		end
 
 		if pg.TimeMgr.GetInstance():GetServerTime() < slot0:GetSendEmojiTimestamp() + pg.gameset.auction_emoji_duration.key_value then
-			pg.TipsMgr.GetInstance():ShowTips("请勿频繁发送表情")
+			pg.TipsMgr.GetInstance():ShowTips(i18n("donot_send_emoji_frequently"))
 
 			return
 		end

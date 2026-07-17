@@ -110,25 +110,53 @@ slot0.GetTypewriterSpeed = function(slot0)
 	return slot0.activity:getConfig("config_client").typewriterSpeed and slot2 or 0.1
 end
 
+slot0.InvalidateWriter = function(slot0)
+	slot0.writerToken = (slot0.writerToken or 0) + 1
+
+	if slot0.desc1 then
+		GetOrAddComponent(slot0.desc1, typeof(Typewriter)).endFunc = nil
+	end
+
+	if slot0.desc2 then
+		GetOrAddComponent(slot0.desc2, typeof(Typewriter)).endFunc = nil
+	end
+end
+
 slot0.Playwriter = function(slot0)
-	slot1 = {}
+	slot0:InvalidateWriter()
+
+	slot1 = slot0.writerToken
+
+	slot2 = function()
+		return uv0.writerToken == uv1 and uv0._go and isActive(uv0._go)
+	end
+
+	slot3 = {}
 
 	if not slot0.finishAll then
-		table.insert(slot1, function (slot0)
-			slot2 = GetOrAddComponent(uv0.desc1, typeof(Typewriter))
-
-			slot2.endFunc = function()
-				uv0()
+		table.insert(slot3, function (slot0)
+			if not uv0() then
+				return
 			end
 
-			slot2:setSpeed(uv0:GetTypewriterSpeed())
+			slot2 = GetOrAddComponent(uv1.desc1, typeof(Typewriter))
+
+			slot2.endFunc = function()
+				if not uv0() then
+					return
+				end
+
+				uv1()
+			end
+
+			slot2:setSpeed(uv1:GetTypewriterSpeed())
 			slot2:Play()
 		end)
 	else
-		slot2 = slot0.ptData
-		slot2, slot3, slot4 = slot2:GetLevelProgress()
+		slot4 = slot0.ptData
+		slot4, slot5, slot6 = slot4:GetLevelProgress()
 
-		table.insert(slot1, function (slot0)
+		table.insert(slot3, function (slot0)
 			if checkExist(uv0.activity:getConfig("config_client").story, {
 				uv1
 			}, {
@@ -137,7 +165,11 @@ slot0.Playwriter = function(slot0)
 				slot3 = pg.NewStoryMgr.GetInstance()
 
 				slot3:Play(slot2, function ()
-					uv0()
+					if not uv0() then
+						return
+					end
+
+					uv1()
 				end)
 			else
 				slot0()
@@ -145,25 +177,34 @@ slot0.Playwriter = function(slot0)
 		end)
 	end
 
-	table.insert(slot1, function (slot0)
-		setActive(uv0.desc2, true)
-
-		slot2 = GetOrAddComponent(uv0.desc2, typeof(Typewriter))
-
-		slot2.endFunc = function()
-			uv0()
+	table.insert(slot3, function (slot0)
+		if not uv0() then
+			return
 		end
 
-		slot2:setSpeed(uv0:GetTypewriterSpeed())
+		setActive(uv1.desc2, true)
+
+		slot2 = GetOrAddComponent(uv1.desc2, typeof(Typewriter))
+
+		slot2.endFunc = function()
+			if not uv0() then
+				return
+			end
+
+			uv1()
+		end
+
+		slot2:setSpeed(uv1:GetTypewriterSpeed())
 		slot2:Play()
 	end)
-	seriesAsync(slot1, callback)
+	seriesAsync(slot3)
 end
 
 slot0.OnFirstFlush = function(slot0)
 	slot0:LocalInit()
 	slot0:LocalFresh()
 	slot0:InitBtn()
+	slot0:Hx4Channel()
 end
 
 slot0.OnUpdateFlush = function(slot0)
@@ -203,6 +244,24 @@ slot0.GetWorldPtData = function(slot0, slot1)
 			activity_id = slot0.ptData:GetId()
 		})
 	end
+end
+
+slot1 = function(slot0)
+	return slot0._tf:Find("rw/hx_ch" .. pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony())
+end
+
+slot0.Hx4Channel = function(slot0)
+	if not IsNil(uv0(slot0)) then
+		setActive(slot1, HXSet.isHx())
+	end
+end
+
+slot0.OnHideFlush = function(slot0)
+	slot0:InvalidateWriter()
+end
+
+slot0.OnDestroy = function(slot0)
+	slot0:InvalidateWriter()
 end
 
 return slot0

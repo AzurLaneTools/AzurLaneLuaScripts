@@ -11,6 +11,8 @@ slot0.execute = function(slot0, slot1)
 			uv0:SetPersonalEventSelectedID(uv1)
 			uv0:UpdateEventEffect(slot0.public_event_effect)
 			uv2:sendNotification(GAME.AUCTION_GAME_EVENT_SELECTED_ID_DONE, slot0)
+		elseif slot0.result == 12 then
+			uv2:sendNotification(GAME.AUCTION_GAME_KICK)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end

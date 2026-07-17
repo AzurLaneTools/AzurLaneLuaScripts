@@ -80,6 +80,7 @@ end
 
 slot0.OnFirstFlush = function(slot0)
 	slot0:InitData()
+	slot0:Hx4Channel()
 end
 
 slot0.OnUpdateFlush = function(slot0)
@@ -336,6 +337,24 @@ end
 slot0.OnDestroy = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.boxTF)
 	uv0.super.OnDestroy(slot0)
+end
+
+slot1 = function(slot0)
+	slot1 = pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony()
+
+	return slot0._tf:Find("AD/bg_1/Role_right/hx_ch" .. slot1), slot0._tf:Find("AD/bg_1/Role_left/hx_ch" .. slot1)
+end
+
+slot0.Hx4Channel = function(slot0)
+	slot1, slot2 = uv0(slot0)
+
+	if not IsNil(slot1) then
+		setActive(slot1, HXSet.isHx())
+	end
+
+	if not IsNil(slot2) then
+		setActive(slot2, HXSet.isHx())
+	end
 end
 
 return slot0
