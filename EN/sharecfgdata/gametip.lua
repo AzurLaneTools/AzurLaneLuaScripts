@@ -50577,7 +50577,7 @@ _G.pg.base.gametip.auction_value = {
 
 
 _G.pg.base.gametip.auction_ticket = {
-	tip = "Participation Fee:"
+	tip = "Join Fee:"
 }
 
 
