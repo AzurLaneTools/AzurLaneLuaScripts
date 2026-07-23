@@ -29874,6 +29874,131 @@ _G.pg.base.item_data_statistics[30385] = {
 }
 
 
+_G.pg.base.item_data_statistics[30386] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Hospital of Horrors)",
+	type = 11,
+	display = "Use to obtain a random Hospital of Horrors-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxguaitanbingqu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30383",
+	id = 30386,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4402,
+			1
+		},
+		{
+			9,
+			4403,
+			1
+		},
+		{
+			9,
+			4404,
+			1
+		},
+		{
+			9,
+			4405,
+			1
+		},
+		{
+			9,
+			4406,
+			1
+		},
+		{
+			9,
+			4407,
+			1
+		},
+		{
+			9,
+			4408,
+			1
+		},
+		{
+			9,
+			4409,
+			1
+		},
+		{
+			9,
+			4410,
+			1
+		},
+		{
+			9,
+			4411,
+			1
+		},
+		{
+			9,
+			4412,
+			1
+		},
+		{
+			9,
+			4413,
+			1
+		},
+		{
+			9,
+			4414,
+			1
+		},
+		{
+			9,
+			4415,
+			1
+		},
+		{
+			9,
+			4416,
+			1
+		},
+		{
+			9,
+			4417,
+			1
+		},
+		{
+			9,
+			4418,
+			1
+		},
+		{
+			9,
+			4419,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -46390,6 +46515,219 @@ _G.pg.base.item_data_statistics[30569] = {
 		{
 			9,
 			4401,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30570] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Hospital of Horrors)",
+	type = 13,
+	display = "Can be opened to receive 1 Hospital of Horrors-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxguaitanbingquzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30570,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4402,
+			1
+		},
+		{
+			9,
+			4403,
+			1
+		},
+		{
+			9,
+			4404,
+			1
+		},
+		{
+			9,
+			4405,
+			1
+		},
+		{
+			9,
+			4406,
+			1
+		},
+		{
+			9,
+			4407,
+			1
+		},
+		{
+			9,
+			4408,
+			1
+		},
+		{
+			9,
+			4409,
+			1
+		},
+		{
+			9,
+			4410,
+			1
+		},
+		{
+			9,
+			4411,
+			1
+		},
+		{
+			9,
+			4412,
+			1
+		},
+		{
+			9,
+			4413,
+			1
+		},
+		{
+			9,
+			4414,
+			1
+		},
+		{
+			9,
+			4415,
+			1
+		},
+		{
+			9,
+			4416,
+			1
+		},
+		{
+			9,
+			4417,
+			1
+		},
+		{
+			9,
+			4418,
+			1
+		},
+		{
+			9,
+			4419,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4402,
+			1
+		},
+		{
+			9,
+			4403,
+			1
+		},
+		{
+			9,
+			4404,
+			1
+		},
+		{
+			9,
+			4405,
+			1
+		},
+		{
+			9,
+			4406,
+			1
+		},
+		{
+			9,
+			4407,
+			1
+		},
+		{
+			9,
+			4408,
+			1
+		},
+		{
+			9,
+			4409,
+			1
+		},
+		{
+			9,
+			4410,
+			1
+		},
+		{
+			9,
+			4411,
+			1
+		},
+		{
+			9,
+			4412,
+			1
+		},
+		{
+			9,
+			4413,
+			1
+		},
+		{
+			9,
+			4414,
+			1
+		},
+		{
+			9,
+			4415,
+			1
+		},
+		{
+			9,
+			4416,
+			1
+		},
+		{
+			9,
+			4417,
+			1
+		},
+		{
+			9,
+			4418,
+			1
+		},
+		{
+			9,
+			4419,
 			1
 		}
 	},
@@ -118073,6 +118411,73 @@ _G.pg.base.item_data_statistics[81442] = {
 		{
 			2,
 			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81443] = {
+	open_directly = 1,
+	name = "Loving Care Lucky Box",
+	type = 17,
+	display = "Contains 1x random skin, 2x Special General Blueprints - Series 9, 2026x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai103",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998576",
+	id = 81443,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86424,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
 			2
 		},
 		{

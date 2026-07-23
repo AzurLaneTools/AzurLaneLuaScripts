@@ -1443,6 +1443,12 @@ pg.skill_data_template.all = {
 	152470,
 	152480,
 	152490,
+	152500,
+	152510,
+	152520,
+	152530,
+	152540,
+	152550,
 	18010,
 	18040,
 	18050,
@@ -2174,6 +2180,10 @@ pg.skill_data_template.all = {
 	30652,
 	30621,
 	30622,
+	30641,
+	30642,
+	30661,
+	30662,
 	101010,
 	101020,
 	101030,
@@ -122907,6 +122917,705 @@ Each effect can only be activated once per battle. When all 3 effects have been 
 			}
 		}
 	}
+	pg.base.skill_data_template[152500] = {
+		desc_get = "",
+		name = "Superbly Sophisticated Aesthetics",
+		type = 2,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's AA by $1 and EVA by $2. During battle, increases the AA of allies with lower AA than this ship by $3. Once per battle, when an enemy aircraft is shot down within your fleet's Anti-Air Gun range: reduces your Main Fleet's DMG taken from aircraft by $2 until the battle ends (does not stack).",
+		id = 152500,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152510] = {
+		desc_get = "",
+		name = "Superbly Magnificent Overture",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's FP, TRP, and ACC by $1. During battle, increases this ship's Crit Rate against enemies with less than 30.0% Max HP by $2. When an allied flagship launches an Airstrike or fires her Main Guns: fires a $3 special barrage (DMG is based on the skill's level; 5s cooldown between activations).",
+		id = 152510,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152520] = {
+		desc_get = "",
+		name = "Combat Orders, Received!",
+		type = 3,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's Main Gun Crit Rate and Crit DMG by $1. When this ship attacks with her equipped Main Guns: increases this ship's FP and TRP by $2 (stacks up to 3 times); at 3 stacks, increases this ship's AA by 30.0% until the end of battle. Once per battle, when this ship takes a total amount of DMG equal to 20.0% of her Max HP: increases all other Vanguard ships' FP, ACC, and RLD by $3.",
+		id = 152520,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"2.5%",
+				"7.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152530] = {
+		desc_get = "",
+		name = "Maintenance Orders, Received!",
+		type = 2,
+		max_level = 10,
+		desc = "Every 12s: fires a $1 special barrage (DMG is based on the skill's level). Once per battle, when this ship's HP falls below 20.0% as a result of DMG taken: restores 2.0% of this ship's HP per second, lasting for 10s.",
+		id = 152530,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152540] = {
+		desc_get = "",
+		name = "Royal Knight-in-Training's Aid",
+		type = 2,
+		max_level = 10,
+		desc = "During battle, increases this ship's FP, TRP, and AA by $1. Once per battle, when the Vanguard fleet has taken 20 instances of DMG: deploys a barrier for all Vanguard ships that can absorb DMG equal to $2 of Griffin's Max HP, lasting until the end of battle.",
+		id = 152540,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152550] = {
+		desc_get = "",
+		name = "Griffin's Charge",
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: fires a $1 special barrage (DMG is based on the skill's level); enemies hit by this special barrage take 12.0% increased shelling DMG from your Vanguard's DDs and CLs for 5s (does not stack). As long as this ship remains afloat: increases all other Vanguard ships' EVA and AA by $2.",
+		id = 152550,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells+",
@@ -128085,6 +128794,8 @@ Every 10s, or when a ship in your fleet fires her AA Gun: increases your Vanguar
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19190] = {
 		desc_get = "",
 		name = "Blazing Peaks",
@@ -128714,8 +129425,6 @@ Every 10s, or when a ship in your fleet fires her AA Gun: increases your Vanguar
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19250] = {
 		desc_get = "",
 		name = "Emotion Inhibition Module",
@@ -138146,6 +138855,8 @@ Once per battle, this ship gains the following effects upon falling below 40.0% 
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20062] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -138230,8 +138941,6 @@ Once per battle, this ship gains the following effects upon falling below 40.0% 
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20092] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -139548,6 +140257,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22081] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -139632,8 +140343,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22121] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -140950,6 +141659,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[25212] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -141034,8 +141745,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[25232] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -142352,6 +143061,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29222] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
@@ -142436,8 +143147,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29252] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
@@ -143762,6 +144471,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29741] = {
 		desc_get = "",
 		name = "All-Out Assault I",
@@ -143846,8 +144557,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29771] = {
 		desc_get = "",
 		name = "All-Out Assault I",
@@ -145164,6 +145873,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30271] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -145248,8 +145959,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30301] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -146231,6 +146940,62 @@ end)()
 		max_level = 1,
 		desc = "Activates All Out Assault I: Cherbourg once every 8 times the Main Guns are fired.",
 		id = 30622,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30641] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Superb once every 12 times the Main Guns are fired.",
+		id = 30641,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30642] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Superb once every 8 times the Main Guns are fired.",
+		id = 30642,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30661] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Surrey once every 9 times the Main Guns are fired.",
+		id = 30661,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30662] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Surrey once every 6 times the Main Guns are fired.",
+		id = 30662,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -148027,6 +148792,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[104060] = {
 		desc_get = "",
 		name = "Melty World",
@@ -148832,8 +149599,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[105080] = {
 		desc_get = "",
 		name = "The Summer Flower We Watch",
@@ -157121,6 +157886,8 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[108060] = {
 		desc_get = "",
 		name = "Ever-Burning Flame",
@@ -157956,8 +158723,6 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[108160] = {
 		desc_get = "",
 		name = "Instance Domination: Wings",
@@ -165185,6 +165950,8 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[111050] = {
 		desc_get = "",
 		name = "Overpowering Will",
@@ -166560,8 +167327,6 @@ Once per battle, when this ship's HP falls below 80.0% as a result of DMG taken,
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[111180] = {
 		desc_get = "",
 		name = "Overbearing Outside, Softie Inside",
@@ -174607,6 +175372,8 @@ At the start of battle, this ship gains the following effects if equipping any p
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[201017] = {
 		desc_get = "",
 		name = "Fargo Direct Drone",
@@ -175332,8 +176099,6 @@ At the start of battle, this ship gains the following effects if equipping any p
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800077] = {
 		desc_get = "",
 		name = "Ashen Might - Hiryuu II",
@@ -179103,6 +179868,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800580] = {
 		desc_get = "",
 		name = "Vicious Rend",
@@ -179596,8 +180363,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800635] = {
 		desc_get = "",
 		name = "Cinders of Hope - Fortune",
@@ -184437,6 +185202,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801122] = {
 		desc_get = "",
 		name = "Flickering Light - Pamiat' Merkuria II",
@@ -184804,8 +185571,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801170] = {
 		desc_get = "",
 		name = "Neverending Night's Kiss",
@@ -190066,6 +190831,8 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801675] = {
 		desc_get = "",
 		name = "Ashen Might - Hornet I",
@@ -190532,8 +191299,6 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801741] = {
 		desc_get = "",
 		name = "Cinders of Hope - Grenville I",
@@ -195300,6 +196065,8 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802231] = {
 		desc_get = "",
 		name = "Cinders of Hope - Elbe I",
@@ -195721,8 +196488,6 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802277] = {
 		desc_get = "",
 		name = "Cinders of Hope - Bristol II",
@@ -201956,6 +202721,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1010750] = {
 		desc_get = "",
 		name = "The Nick+",
@@ -203178,8 +203945,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1010090] = {
 		desc_get = "",
 		name = "I Am No. 1!+",
@@ -216214,6 +216979,8 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090290] = {
 		desc_get = "",
 		name = "Double Torpedo - Shiranui",
@@ -217581,8 +218348,6 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090420] = {
 		desc_get = "",
 		name = "Full Firepower - Grozny",

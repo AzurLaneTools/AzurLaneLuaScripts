@@ -86,6 +86,7 @@ pg.equip_skin_theme_template.all = {
 	84,
 	85,
 	86,
+	87,
 	101,
 	102,
 	103,
@@ -1981,6 +1982,30 @@ pg.base.equip_skin_theme_template = {}
 			1538
 		}
 	}
+	pg.base.equip_skin_theme_template[87] = {
+		id = 87,
+		name = "Hospital of Horrors",
+		ids = {
+			4402,
+			4403,
+			4404,
+			4405,
+			4406,
+			4407,
+			4408,
+			4409,
+			4410,
+			4411,
+			4412,
+			4413,
+			4414,
+			4415,
+			4416,
+			4417,
+			4418,
+			4419
+		}
+	}
 	pg.base.equip_skin_theme_template[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -2247,7 +2272,8 @@ pg.base.equip_skin_theme_template = {}
 			3080,
 			3081,
 			3082,
-			3083
+			3083,
+			3084
 		}
 	}
 end)()

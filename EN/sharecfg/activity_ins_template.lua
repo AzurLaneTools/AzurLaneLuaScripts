@@ -652,6 +652,9 @@ pg.activity_ins_template.all = {
 	657,
 	658,
 	659,
+	660,
+	661,
+	662,
 	20001,
 	20002,
 	20003,
@@ -660,7 +663,8 @@ pg.activity_ins_template.all = {
 	20005,
 	20007,
 	20008,
-	20009
+	20009,
+	20010
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -27333,6 +27337,87 @@ end)()
 		time_persist = {},
 		npc_discuss_persist = {}
 	}
+	pg.base.activity_ins_template[660] = {
+		ship_group = 20237,
+		name = "Superb",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "huali",
+		id = 660,
+		group_id = 660,
+		time = {
+			{
+				2026,
+				7,
+				23
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[661] = {
+		ship_group = 20314,
+		name = "Surrey",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "Sali",
+		id = 661,
+		group_id = 661,
+		time = {
+			{
+				2026,
+				7,
+				24
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[662] = {
+		ship_group = 20115,
+		name = "Griffin",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "gelifen",
+		id = 662,
+		group_id = 662,
+		time = {
+			{
+				2026,
+				7,
+				25
+			},
+			{
+				11,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
 	pg.base.activity_ins_template[20001] = {
 		ship_group = 0,
 		name = "",
@@ -27570,6 +27655,33 @@ end)()
 			{
 				11,
 				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20010] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "[Port Exclusive] Special Interview with Ghost-Story Author Prinz Moritz!",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20010,
+		group_id = 20010,
+		time = {
+			{
+				2026,
+				7,
+				23
+			},
+			{
+				13,
+				15,
 				0
 			}
 		},

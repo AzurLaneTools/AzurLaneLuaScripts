@@ -8,8 +8,9 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.isloading = false
 end
 
-slot0.Init = function(slot0, slot1)
+slot0.Init = function(slot0, slot1, slot2)
 	slot0.isScale = slot1
+	slot0.isOverflow = slot2
 
 	if slot0.isloading then
 		return
@@ -17,9 +18,9 @@ slot0.Init = function(slot0, slot1)
 
 	if not slot0._tf then
 		slot0.isloading = true
-		slot2 = ResourceMgr.Inst
+		slot3 = ResourceMgr.Inst
 
-		slot2:getAssetAsync("ui/" .. slot0:GetUIName(), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		slot3:getAssetAsync("ui/" .. slot0:GetUIName(), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			uv0.isloading = false
 
 			if uv0.exited then

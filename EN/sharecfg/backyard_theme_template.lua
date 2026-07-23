@@ -129,7 +129,8 @@ pg.backyard_theme_template.all = {
 	137,
 	138,
 	139,
-	140
+	140,
+	141
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5569,6 +5570,48 @@ end)()
 			340102,
 			340103,
 			340104
+		}
+	}
+	pg.base.backyard_theme_template[141] = {
+		Cfg_1 = 5,
+		name = "Abandoned Hospital",
+		desc = "Explore the dilapidated treatment rooms and bleak corridors of this abandoned hospital.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 141,
+		id = 141,
+		icon = "yi3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			341001,
+			341002,
+			341101,
+			341102,
+			341103,
+			341104,
+			341105,
+			341106,
+			341107,
+			341108,
+			341109,
+			341110,
+			341111,
+			341112,
+			341113,
+			341114,
+			341115,
+			341116,
+			341117,
+			341118,
+			341301,
+			341302,
+			341303,
+			341304
 		}
 	}
 end)()

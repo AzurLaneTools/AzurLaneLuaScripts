@@ -174,6 +174,7 @@ pg.ship_data_group.all = {
 	92,
 	93,
 	94,
+	748,
 	691,
 	96,
 	100,
@@ -224,6 +225,7 @@ pg.ship_data_group.all = {
 	328,
 	692,
 	393,
+	746,
 	119,
 	120,
 	337,
@@ -235,6 +237,7 @@ pg.ship_data_group.all = {
 	126,
 	552,
 	632,
+	747,
 	127,
 	128,
 	451,
@@ -1399,6 +1402,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[20114] = {
 		94
 	},
+	[20115] = {
+		748
+	},
 	[20116] = {
 		96
 	},
@@ -1555,6 +1561,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[20236] = {
 		692
 	},
+	[20237] = {
+		746
+	},
 	[20301] = {
 		119
 	},
@@ -1587,6 +1596,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	},
 	[20313] = {
 		632
+	},
+	[20314] = {
+		747
 	},
 	[20401] = {
 		127
@@ -3663,6 +3675,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		92,
 		93,
 		94,
+		748,
 		691,
 		96,
 		100,
@@ -3713,6 +3726,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		328,
 		692,
 		393,
+		746,
 		119,
 		120,
 		337,
@@ -3724,6 +3738,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		126,
 		552,
 		632,
+		747,
 		127,
 		128,
 		451,
@@ -12433,6 +12448,38 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_data_group[748] = {
+		nationality = 2,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 20115,
+		index_id = 171,
+		code = 748,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Authentic Horror Story: Escape from White Night Manor!",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
 	pg.base.ship_data_group[691] = {
 		nationality = 2,
 		type = 1,
@@ -13795,6 +13842,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[423] = {
 		nationality = 2,
 		type = 2,
@@ -13831,8 +13880,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[112] = {
 		nationality = 2,
 		type = 2,
@@ -14718,6 +14765,38 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_data_group[746] = {
+		nationality = 2,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 20237,
+		index_id = 220,
+		code = 746,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Authentic Horror Story: Escape from White Night Manor!",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
 	pg.base.ship_data_group[119] = {
 		nationality = 2,
 		type = 3,
@@ -15303,6 +15382,38 @@ end)()
 		description = {
 			{
 				"Event: From Zero to Hero",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[747] = {
+		nationality = 2,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 20314,
+		index_id = 232,
+		code = 747,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"A",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Authentic Horror Story: Escape from White Night Manor!",
 				{
 					""
 				},
@@ -18408,6 +18519,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[165] = {
 		nationality = 3,
 		type = 1,
@@ -18537,8 +18650,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[287] = {
 		nationality = 3,
 		type = 1,
@@ -22684,6 +22795,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[220] = {
 		nationality = 3,
 		type = 6,
@@ -22805,8 +22918,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[223] = {
 		nationality = 3,
 		type = 6,
@@ -26852,6 +26963,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[591] = {
 		nationality = 4,
 		type = 6,
@@ -26980,8 +27093,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[669] = {
 		nationality = 4,
 		type = 7,
@@ -31082,6 +31193,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[577] = {
 		nationality = 7,
 		type = 2,
@@ -31211,8 +31324,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[727] = {
 		nationality = 7,
 		type = 3,
@@ -34812,6 +34923,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[10062] = {
 		nationality = 106,
 		type = 5,
@@ -34908,8 +35021,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[10065] = {
 		nationality = 106,
 		type = 5,
@@ -38123,6 +38234,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[20036] = {
 		nationality = 7,
 		type = 7,
@@ -38228,8 +38341,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[20038] = {
 		nationality = 1,
 		type = 5,

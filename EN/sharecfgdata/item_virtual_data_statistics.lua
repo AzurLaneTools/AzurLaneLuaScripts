@@ -184932,6 +184932,319 @@ _G.pg.base.item_virtual_data_statistics[66051] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[66052] = {
+	drop_gold_max = 0,
+	name = "Authentic Horror Story Medal",
+	display = "A faint light lingers, a door remains closed. Within the depths of this abandoned hospital, a secret lies. In this place where horror and mystery intertwine, uncover the path to freedom!\n– Welcome to White Night Manor~",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Medal/9191",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66052,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		1,
+		200191
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66053] = {
+	drop_gold_max = 0,
+	name = "Sticker: White Night Manor",
+	display = "Heeehehehe! This will be a horror story for the ages! Super thrilling, and super scary!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107801",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66053,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107801
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66054] = {
+	drop_gold_max = 0,
+	name = "Sticker: Night Patroller",
+	display = "Which patient will I be visiting today, peep?",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107802",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66054,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107802
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66055] = {
+	drop_gold_max = 0,
+	name = "Sticker: Suspicious Notebook",
+	display = "Remember to follow the precautions within... or else.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107803",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66055,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107803
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66056] = {
+	drop_gold_max = 0,
+	name = "Sticker: Medical Axe",
+	display = "Do hospitals usually carry, uhh... axe-shaped medical instruments?",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107804",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66056,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107804
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66057] = {
+	drop_gold_max = 0,
+	name = "Sticker: Double the Dosage",
+	display = "One for good health, two for bravery!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107805",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66057,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107805
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66058] = {
+	drop_gold_max = 0,
+	name = "Sticker: Feel the Beat",
+	display = "Watch out! They're coming!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107806",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66058,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107806
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66059] = {
+	drop_gold_max = 0,
+	name = "Sticker: Say Ahh",
+	display = "Just like that. Open your mouth, and say ahh~",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107807",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66059,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107807
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66060] = {
+	drop_gold_max = 0,
+	name = "Sticker: Off Limits",
+	display = "Zombie outbreak in 10... 9... 8...",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107808",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66060,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107808
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66061] = {
+	drop_gold_max = 0,
+	name = "True Memoirs",
+	display = "\"Authentic Horror Story: Escape from White Night Manor!\" event currency, used to purchase rewards in the exchange shop. Removed after the event ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/66061",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66061,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66062] = {
+	drop_gold_max = 0,
+	name = "Rental Outfit Voucher",
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66062,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68081] = {
 	drop_gold_max = 0,
 	name = "Trust - Little Ägir",
@@ -196899,6 +197212,57 @@ _G.pg.base.item_virtual_data_statistics[86423] = {
 		{
 			608022,
 			1800
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86424] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = "",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86424,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			9600072,
+			1500
+		},
+		{
+			299052,
+			1500
+		},
+		{
+			202371,
+			2000
+		},
+		{
+			203141,
+			1780
+		},
+		{
+			401112,
+			1620
+		},
+		{
+			201151,
+			1600
 		}
 	}
 }
@@ -260582,6 +260946,214 @@ _G.pg.base.item_virtual_data_statistics[200820] = {
 			1
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200821] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200821,
+	display_icon = {
+		{
+			2,
+			46,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			21,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200822] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200822,
+	display_icon = {
+		{
+			2,
+			10092,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		},
+		{
+			2,
+			10035,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200823] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200823,
+	display_icon = {
+		{
+			2,
+			10092,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10035,
+			1
+		},
+		{
+			2,
+			13006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200824] = {
+	drop_gold_max = 0,
+	name = "Mystery Design",
+	display = "Chance to receive following designs",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200824,
+	display_icon = {
+		{
+			2,
+			10092,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10035,
+			1
+		},
+		{
+			2,
+			13006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

@@ -97,13 +97,9 @@ pg.base.ship_data_create_material = {}
 			"<color=#d797ff>Elite</color>: 12%",
 			"<color=#3dc6ff>Rare</color>: 51%",
 			"Common: 30%",
-			"<color=#ffde38>Elise</color>: 2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>Superb</color>: 2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>Shandy</color>: 2.0%<color=#92FC63>(up!)</color>",
-			" ",
-			"<color=#ffde38>Yukino</color>: 2.0%<color=#92FC63>(up!)</color>",
-			" ",
-			"<color=#ffde38>Tsukushi</color>: 0.5%"
+			"<color=#ffde38>Surrey</color>: 2.0%<color=#92FC63>(up!)</color>"
 		}
 	}
 	pg.base.ship_data_create_material[5] = {

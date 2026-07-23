@@ -415,8 +415,8 @@ slot0.GetAssessRankIdx = function(slot0)
 	slot2 = slot0.roundData:GetExtraFactor()
 	slot3 = slot0:GetAttrSum()
 
-	for slot8, slot9 in ipairs(pg.child2_target[slot1].attr_sum_level) do
-		if slot3 >= slot9[1] * slot2 and slot3 <= slot9[2] * slot2 then
+	for slot8 = #pg.child2_target[slot1].attr_sum_level, 1, -1 do
+		if slot3 >= slot4[slot8] * slot2 then
 			return slot8
 		end
 	end

@@ -28,7 +28,7 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "talk_02-start",
+							name = "GGX_invite_01-start",
 							time = 0,
 							type = "action",
 							skip = true
@@ -67,13 +67,6 @@ return {
 				data = {
 					op_list = {
 						{
-							param = "Play",
-							name = "doubt_01-start",
-							time = 0,
-							type = "action",
-							skip = true
-						},
-						{
 							skip = true,
 							name = "Face_smile_start",
 							type = "action"
@@ -107,13 +100,6 @@ return {
 				data = {
 					op_list = {
 						{
-							param = "Play",
-							name = "sad_01-start",
-							time = 0,
-							type = "action",
-							skip = true
-						},
-						{
 							skip = true,
 							name = "Face_helpless_start",
 							type = "action"
@@ -146,13 +132,6 @@ return {
 				name = STORY_EVENT.TEST,
 				data = {
 					op_list = {
-						{
-							param = "Play",
-							name = "Idle",
-							time = 0,
-							type = "action",
-							skip = true
-						},
 						{
 							skip = true,
 							name = "Face_happy_start",

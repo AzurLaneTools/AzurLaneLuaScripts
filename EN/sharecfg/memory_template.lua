@@ -4110,6 +4110,18 @@ pg.memory_template.all = {
 	5235,
 	5236,
 	5237,
+	5271,
+	5272,
+	5273,
+	5274,
+	5275,
+	5276,
+	5277,
+	5278,
+	5279,
+	5280,
+	5281,
+	5282,
 	5261,
 	5262,
 	5263,
@@ -4129,6 +4141,7 @@ pg.memory_template.all = {
 	5247,
 	5248,
 	5249,
+	5311,
 	10011,
 	10012,
 	10013,
@@ -78401,6 +78414,222 @@ end)()
 			"LAFEIER7"
 		}
 	}
+	pg.base.memory_template[5271] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Admission",
+		condition = "Enter Story Mode.",
+		story = "GUAITANJISHI1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5271,
+		icon = "memory_guaitanjishi1",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI1"
+		}
+	}
+	pg.base.memory_template[5272] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Escape the Hospital!",
+		condition = "Enter WN-1",
+		story = "GUAITANJISHI2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5272,
+		icon = "memory_guaitanjishi3",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI2"
+		}
+	}
+	pg.base.memory_template[5273] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Endless Corridor",
+		condition = "Enter WN-2",
+		story = "GUAITANJISHI3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5273,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI3"
+		}
+	}
+	pg.base.memory_template[5274] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Behind the Scenes",
+		condition = "Enter WN-3",
+		story = "GUAITANJISHI4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5274,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI4"
+		}
+	}
+	pg.base.memory_template[5275] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Cross the River",
+		condition = "Enter WN-4",
+		story = "GUAITANJISHI5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5275,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI5"
+		}
+	}
+	pg.base.memory_template[5276] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Suspicious Door",
+		condition = "Enter WN-5",
+		story = "GUAITANJISHI6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5276,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI6"
+		}
+	}
+	pg.base.memory_template[5277] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Evil Hospital Director",
+		condition = "Enter WN-6",
+		story = "GUAITANJISHI7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5277,
+		icon = "memory_guaitanjishi4",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI7"
+		}
+	}
+	pg.base.memory_template[5278] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Reunion and Hope",
+		condition = "Enter WN-7",
+		story = "GUAITANJISHI8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5278,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI8"
+		}
+	}
+	pg.base.memory_template[5279] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Craving for Truth",
+		condition = "Enter WN-8",
+		story = "GUAITANJISHI9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5279,
+		icon = "memory_guaitanjishi5",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI9"
+		}
+	}
+	pg.base.memory_template[5280] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "No Entry",
+		condition = "Enter WN-9",
+		story = "2049601",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5280,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"2049601"
+		}
+	}
+	pg.base.memory_template[5281] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "Conquering the White Night",
+		condition = "Enter WN-10",
+		story = "2049602",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5281,
+		icon = "memory_guaitanjishi6",
+		is_open = 0,
+		unlock_pre = {
+			"2049602"
+		}
+	}
+	pg.base.memory_template[5282] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Epilogue",
+		condition = "Enter WN-11",
+		story = "GUAITANJISHI12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5282,
+		icon = "memory_guaitanjishi6",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI12"
+		}
+	}
 	pg.base.memory_template[5261] = {
 		ship_group = 0,
 		subtitle = "",
@@ -78741,6 +78970,24 @@ end)()
 		is_open = 0,
 		unlock_pre = {
 			"MEIMENGXUNYANQIMIAOYE9"
+		}
+	}
+	pg.base.memory_template[5311] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "特别竞拍时刻",
+		condition = "Start the event.",
+		story = "TEBIEJINGPAISHIKE1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5311,
+		icon = "memory_tebiejingpaishike",
+		is_open = 0,
+		unlock_pre = {
+			"TEBIEJINGPAISHIKE1"
 		}
 	}
 	pg.base.memory_template[10011] = {
@@ -79859,6 +80106,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA5"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20005] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80093,8 +80342,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA18"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20018] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81661,6 +81908,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA24"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20105] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81895,8 +82144,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA37"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20118] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83463,6 +83710,8 @@ end)()
 			"TANSUOZHELAIFANGJISHI1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20207] = {
 		ship_group = 0,
 		subtitle = "",

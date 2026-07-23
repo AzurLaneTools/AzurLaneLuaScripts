@@ -197,6 +197,7 @@ pg.furniture_data_template.all = {
 	338,
 	339,
 	341,
+	342,
 	100002,
 	100003,
 	100004,
@@ -3574,7 +3575,32 @@ pg.furniture_data_template.all = {
 	340102,
 	340103,
 	340104,
-	340105
+	340105,
+	341001,
+	341002,
+	341101,
+	341102,
+	341103,
+	341104,
+	341105,
+	341106,
+	341107,
+	341108,
+	341109,
+	341110,
+	341111,
+	341112,
+	341113,
+	341114,
+	341115,
+	341116,
+	341117,
+	341118,
+	341119,
+	341301,
+	341302,
+	341303,
+	341304
 }
 pg.furniture_data_template.get_id_list_by_themeId = {
 	[0] = {
@@ -3769,6 +3795,7 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		338,
 		339,
 		341,
+		342,
 		100002,
 		100003,
 		100004,
@@ -7401,6 +7428,33 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		340103,
 		340104,
 		340105
+	},
+	[141] = {
+		341001,
+		341002,
+		341101,
+		341102,
+		341103,
+		341104,
+		341105,
+		341106,
+		341107,
+		341108,
+		341109,
+		341110,
+		341111,
+		341112,
+		341113,
+		341114,
+		341115,
+		341116,
+		341117,
+		341118,
+		341119,
+		341301,
+		341302,
+		341303,
+		341304
 	}
 }
 pg.furniture_data_template.get_id_list_by_tag = {
@@ -9685,7 +9739,25 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		340101,
 		340102,
 		340103,
-		340104
+		340104,
+		341101,
+		341102,
+		341103,
+		341104,
+		341105,
+		341106,
+		341107,
+		341108,
+		341109,
+		341110,
+		341111,
+		341112,
+		341113,
+		341114,
+		341115,
+		341116,
+		341117,
+		341118
 	},
 	{
 		1108,
@@ -9977,7 +10049,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		337002,
 		338002,
 		339002,
-		340002
+		340002,
+		341002
 	},
 	{
 		1001,
@@ -10105,7 +10178,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		337001,
 		338001,
 		339001,
-		340001
+		340001,
+		341001
 	},
 	{
 		1301,
@@ -10497,7 +10571,11 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		335301,
 		335302,
 		336301,
-		336302
+		336302,
+		341301,
+		341302,
+		341303,
+		341304
 	},
 	{
 		1,
@@ -10909,7 +10987,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		336115,
 		338116,
 		339115,
-		340105
+		340105,
+		341119
 	},
 	{
 		106,
@@ -10989,7 +11068,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		335,
 		338,
 		339,
-		341
+		341,
+		342
 	}
 }
 pg.furniture_data_template.get_id_list_by_type = {
@@ -11120,7 +11200,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		337002,
 		338002,
 		339002,
-		340002
+		340002,
+		341002
 	},
 	{
 		120,
@@ -13402,7 +13483,26 @@ pg.furniture_data_template.get_id_list_by_type = {
 		340101,
 		340103,
 		340104,
-		340105
+		340105,
+		341101,
+		341102,
+		341103,
+		341104,
+		341105,
+		341106,
+		341107,
+		341108,
+		341109,
+		341110,
+		341111,
+		341112,
+		341113,
+		341114,
+		341115,
+		341116,
+		341117,
+		341118,
+		341119
 	},
 	{
 		1108,
@@ -13694,7 +13794,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		337001,
 		338001,
 		339001,
-		340001
+		340001,
+		341001
 	},
 	{
 		1101,
@@ -14240,7 +14341,11 @@ pg.furniture_data_template.get_id_list_by_type = {
 		335301,
 		335302,
 		336301,
-		336302
+		336302,
+		341301,
+		341302,
+		341303,
+		341304
 	},
 	{
 		1,
@@ -14408,6 +14513,7 @@ pg.furniture_data_template.get_id_list_by_type = {
 		338,
 		339,
 		341,
+		342,
 		100002,
 		100004,
 		100005,
@@ -24258,6 +24364,54 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	}
+	pg.base.furniture_data_template[342] = {
+		can_rotate = 0,
+		name = "White Night Manor Operating Table",
+		gain_by = "Authentic Horror Story: Escape from White Night Manor!",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "shoushutaixunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Hurry up and lie down! You're about to become the star of the newest, hottest horror flick!",
+		advice = 0,
+		id = 342,
+		tag = 8,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"shoushutaixunzhang",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
 	pg.base.furniture_data_template[100002] = {
 		advice = 0,
 		name = "Air Pump of Friendship",
@@ -24791,6 +24945,8 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[100008] = {
 		advice = 0,
 		name = "Portable Shrine ",
@@ -24878,8 +25034,6 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[100009] = {
 		advice = 0,
 		name = "Mechanical Stage",
@@ -31240,6 +31394,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[1302] = {
 		can_rotate = 0,
 		name = "Broken Window (Day)",
@@ -31278,8 +31434,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[1303] = {
 		can_rotate = 0,
 		name = "Broken Window (Night)",
@@ -35384,6 +35538,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[7001] = {
 		can_rotate = 0,
 		name = "Squishy Flooring",
@@ -35419,8 +35575,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[7002] = {
 		can_rotate = 0,
 		name = "Squishy Wallpaper",
@@ -39830,6 +39984,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[11118] = {
 		can_rotate = 0,
 		name = "Little Pink Table",
@@ -39880,8 +40036,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[11119] = {
 		can_rotate = 0,
 		name = "Little Pink Chair",
@@ -44202,6 +44356,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[14303] = {
 		can_rotate = 0,
 		name = "Airlock",
@@ -44240,8 +44396,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[14304] = {
 		can_rotate = 0,
 		name = "Spacesuit",
@@ -49052,6 +49206,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[19109] = {
 		can_rotate = 0,
 		name = "Giant Snack Box",
@@ -49164,8 +49320,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[19110] = {
 		can_rotate = 0,
 		name = "Garden Flower Bed",
@@ -53744,6 +53898,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[23105] = {
 		can_rotate = 0,
 		name = "Manjuu Table",
@@ -53810,8 +53966,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[23106] = {
 		can_rotate = 1,
 		name = "Numbers Carpet",
@@ -58652,6 +58806,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[28114] = {
 		can_rotate = 1,
 		name = "Honeypot",
@@ -58704,8 +58860,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[28115] = {
 		can_rotate = 0,
 		name = "Forest Nightstand",
@@ -63480,6 +63634,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[33001] = {
 		can_rotate = 0,
 		name = "Festival Wallpaper",
@@ -63515,8 +63671,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[33002] = {
 		can_rotate = 0,
 		name = "Festival Flooring",
@@ -67953,6 +68107,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[38105] = {
 		can_rotate = 0,
 		name = "Large Stone",
@@ -68004,8 +68160,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[38106] = {
 		can_rotate = 0,
 		name = "Small Stone",
@@ -72298,6 +72452,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[41001] = {
 		can_rotate = 0,
 		name = "Rollercoaster Wallpaper",
@@ -72333,8 +72489,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[41002] = {
 		can_rotate = 0,
 		name = "Amusement Park Flooring",
@@ -76844,6 +76998,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[44116] = {
 		can_rotate = 0,
 		name = "Booties Bathtub",
@@ -76932,8 +77088,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[44117] = {
 		can_rotate = 0,
 		name = "Rainy Café Chair",
@@ -81120,6 +81274,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[47103] = {
 		can_rotate = 0,
 		name = "Burger Beanie Bed",
@@ -81171,8 +81327,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[47104] = {
 		can_rotate = 0,
 		name = "Baseball Stool",
@@ -85383,6 +85537,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[50107] = {
 		can_rotate = 1,
 		name = "Speed Limit Sign",
@@ -85421,8 +85577,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[50108] = {
 		can_rotate = 1,
 		name = "Route Sign",
@@ -89851,6 +90005,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[55112] = {
 		can_rotate = 1,
 		name = "D20 Chair",
@@ -89902,8 +90058,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[55113] = {
 		can_rotate = 1,
 		name = "Duel Device",
@@ -94185,6 +94339,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[59106] = {
 		can_rotate = 0,
 		name = "Sugary Sweet Staircase",
@@ -94223,8 +94379,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[59107] = {
 		can_rotate = 0,
 		name = "Heart-shaped Rose Garden",
@@ -98571,6 +98725,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[63102] = {
 		can_rotate = 0,
 		name = "Pizzeria Rectangular Table",
@@ -98609,8 +98765,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[63103] = {
 		can_rotate = 0,
 		name = "Pizza Bed",
@@ -103050,6 +103204,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[69110] = {
 		can_rotate = 0,
 		name = "Infirmary Potted Plant",
@@ -103088,8 +103244,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[69111] = {
 		can_rotate = 0,
 		name = "Infirmary Sickbed",
@@ -107715,6 +107869,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[73101] = {
 		can_rotate = 0,
 		name = "Cozy Christmas Table",
@@ -107791,8 +107947,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[73102] = {
 		can_rotate = 0,
 		name = "Large Brown Teddy Bear",
@@ -112096,6 +112250,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[77002] = {
 		can_rotate = 0,
 		name = "Wonderland Wallpaper",
@@ -112131,8 +112287,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[77101] = {
 		can_rotate = 0,
 		name = "Wonderland Street Light",
@@ -116476,6 +116630,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[81113] = {
 		can_rotate = 0,
 		name = "Classroom Wall w/ Windows",
@@ -116514,8 +116670,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[81116] = {
 		can_rotate = 0,
 		name = "Classroom TV",
@@ -120887,6 +121041,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[84187] = {
 		advice = 0,
 		name = "Alexis Kerib (New Order) Manjuu-Suit",
@@ -120973,8 +121129,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[84188] = {
 		advice = 0,
 		name = "Rogue Kaiser Gridman Manjuu-Suit",
@@ -125187,6 +125341,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[88305] = {
 		can_rotate = 0,
 		name = "A Real Crow",
@@ -125225,8 +125381,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[89001] = {
 		can_rotate = 0,
 		name = "Empery Chic Flooring",
@@ -129290,6 +129444,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[92301] = {
 		can_rotate = 0,
 		name = "Ceiling Lamp",
@@ -129328,8 +129484,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[92306] = {
 		can_rotate = 1,
 		name = "Colored Poster",
@@ -133523,6 +133677,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[96102] = {
 		can_rotate = 0,
 		name = "Sunfish Recliner",
@@ -133574,8 +133730,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[96103] = {
 		can_rotate = 0,
 		name = "Manjuu Lounge Chair 1",
@@ -137992,6 +138146,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[99115] = {
 		can_rotate = 0,
 		name = "Bathhouse Screen",
@@ -138030,8 +138186,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[99116] = {
 		can_rotate = 0,
 		name = "Bathhouse Stone",
@@ -142655,6 +142809,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[302127] = {
 		advice = 0,
 		name = "Palais Circular Carpet",
@@ -142813,8 +142969,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[302128] = {
 		advice = 0,
 		name = "Palais Bar",
@@ -147281,6 +147435,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[306102] = {
 		can_rotate = 0,
 		name = "Night Club Table w/ Bucket",
@@ -147319,8 +147475,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[306103] = {
 		can_rotate = 0,
 		name = "Neon Amp",
@@ -152030,6 +152184,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[310309] = {
 		can_rotate = 0,
 		name = "Starry Wall Light 4",
@@ -152068,8 +152224,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[310310] = {
 		can_rotate = 0,
 		name = "Backstage Clothes Rack",
@@ -156909,6 +157063,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[316112] = {
 		can_rotate = 0,
 		name = "Snippity Snappity Scissors",
@@ -156958,8 +157114,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[316113] = {
 		can_rotate = 0,
 		name = "Cannon Flower",
@@ -161627,6 +161781,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[320301] = {
 		can_rotate = 0,
 		name = "Med Station Eye Chart",
@@ -161671,8 +161827,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[320302] = {
 		can_rotate = 0,
 		name = "Med Station Window 1",
@@ -166229,6 +166383,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[326002] = {
 		can_rotate = 0,
 		name = "Workspace Wallpaper",
@@ -166264,8 +166420,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[326101] = {
 		can_rotate = 0,
 		name = "Mana Converter",
@@ -170827,6 +170981,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[331105] = {
 		can_rotate = 0,
 		name = "Airship Table B",
@@ -170865,8 +171021,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[331106] = {
 		can_rotate = 0,
 		name = "Vitals Monitor A",
@@ -175627,6 +175781,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[336105] = {
 		can_rotate = 0,
 		name = "Command Center Server",
@@ -175671,8 +175827,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[336106] = {
 		can_rotate = 0,
 		name = "Command Center Case",
@@ -178947,6 +179101,1144 @@ end)()
 					false
 				}
 			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341001] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "dibanyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/dibanyi3",
+		canputon = 0,
+		count = 1,
+		describe = "Explore the dilapidated treatment rooms and bleak corridors of this abandoned hospital.",
+		advice = 0,
+		tag = 4,
+		id = 341001,
+		deblocking = 1,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341002] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "qiangbiyi3icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/qiangbiyi3",
+		canputon = 0,
+		count = 1,
+		describe = "Explore the dilapidated treatment rooms and bleak corridors of this abandoned hospital.",
+		advice = 0,
+		tag = 3,
+		id = 341002,
+		deblocking = 1,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341101] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "bingchuangyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/bingchuangyi3",
+		canputon = 0,
+		count = 1,
+		describe = "Sleep now. Everything will be fine when... if... you wake up...",
+		advice = 0,
+		id = 341101,
+		tag = 1,
+		comfortable = 3,
+		deblocking = 1,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					18.1,
+					27.5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341102] = {
+		can_rotate = 0,
+		name = "Shattered Medical Cabinet",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "boliguiyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Beware of broken glass.",
+		advice = 0,
+		id = 341102,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"boliguiyi3",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341103] = {
+		can_rotate = 0,
+		name = "Abandoned Water Tank",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "bolishuigangyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "A water tank filled with isolated specimens. Nothing good can come of opening it...",
+		advice = 0,
+		id = 341103,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bolishuigangyi3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341104] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Corridor",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "changqiangyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "An old, bleak corridor. Whatever screams once tore through these halls have now fallen silent...",
+		advice = 0,
+		id = 341104,
+		tag = 1,
+		comfortable = 3,
+		deblocking = 1,
+		size = {
+			1,
+			24
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"changqiangyi3",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341105] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Bench",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "changyiyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/changyiyi3",
+		canputon = 0,
+		count = 1,
+		describe = "A reprieve from crushing anxiety... or a place for it to fester?",
+		advice = 0,
+		id = 341105,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21.8,
+					14.3
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341106] = {
+		can_rotate = 0,
+		name = "Abandoned Bedside Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "chuangtouguiyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/chuangtouguiyi3",
+		canputon = 0,
+		count = 1,
+		describe = "A perfectly ordinary storage space found in any hospital room...",
+		advice = 0,
+		tag = 1,
+		id = 341106,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341107] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Stretcher",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "danjiayi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Built sturdily, able to withstand rough conditions... and horrific transformations.",
+		advice = 0,
+		id = 341107,
+		tag = 1,
+		comfortable = 3,
+		deblocking = 1,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"danjiayi3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341108] = {
+		can_rotate = 0,
+		name = "Torn Cubicle Curtains",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "gelianyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/gelianyi3",
+		canputon = 0,
+		count = 2,
+		describe = "Well... they sure don't provide much privacy anymore.",
+		advice = 0,
+		tag = 1,
+		id = 341108,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341109] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Assistantjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "hugongjiuyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "This stoic, dedicated manjuu is always ready and willing to serve, even when there are no longer patients to care for...",
+		advice = 0,
+		id = 341109,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"hugongjiuyi3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341110] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Nursejuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "hushijiuyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Behave yourself... or you get the JAB!",
+		advice = 0,
+		id = 341110,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"hushijiuyi3",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341111] = {
+		can_rotate = 0,
+		name = "Medical Waste Bin",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "lajitongyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/lajitongyi3",
+		canputon = 0,
+		count = 1,
+		describe = "A stalwart trash bin that has dealt with medical waste for two decades. Don't call it a has-bin.",
+		advice = 0,
+		tag = 1,
+		id = 341111,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341112] = {
+		advice = 0,
+		name = "Abandoned Isolation Tank",
+		count = 1,
+		type = 2,
+		dir = 0,
+		rarity = 3,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 141,
+		icon = "peiyangminyi3icon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 341112,
+		comfortable = 3,
+		describe = "A broken tank containing an unidentified experimental substance. One would be wise not to touch it...",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"peiyangminyi3B",
+				"normal"
+			},
+			{
+				"peiyangminyi3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{
+				{
+					2.4,
+					66.9
+				},
+				{
+					154,
+					332.36
+				},
+				"yi3/peiyangminyi3_mask"
+			},
+			{
+				-2.3,
+				-74.3
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341113] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "shafayi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/shafayi3",
+		canputon = 0,
+		count = 1,
+		describe = "Don't you want to experience what it feels like... to sink?",
+		advice = 0,
+		id = 341113,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-27.4,
+					10
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341114] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Storage 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "shounagui2yi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/shounagui2yi3",
+		canputon = 0,
+		count = 1,
+		describe = "Already \"occupied\"...",
+		advice = 0,
+		tag = 1,
+		id = 341114,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341115] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Storage 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "shounaguiyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/shounaguiyi3",
+		canputon = 0,
+		count = 1,
+		describe = "If something dangerous happens, don't panic. Hop inside one of these!",
+		advice = 0,
+		tag = 1,
+		id = 341115,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341116] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital IV Stand",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "shuyejiayi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/shuyejiayi3",
+		canputon = 0,
+		count = 1,
+		describe = "Can serve as a makeshift weapon in a pinch.",
+		advice = 0,
+		tag = 1,
+		id = 341116,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341117] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Cart",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "tuicheyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/tuicheyi3",
+		canputon = 0,
+		count = 1,
+		describe = "All it brings now are horrible screeching noises.",
+		advice = 0,
+		tag = 1,
+		id = 341117,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341118] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Washbasin",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "xishouchiyi3icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "Wet. Apply soap. Palm-to-palm. Scrub between the fingers. Rinse. Dry. Run.",
+		advice = 0,
+		id = 341118,
+		tag = 1,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xishouchiyi3",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341119] = {
+		advice = 0,
+		name = "Abandoned Hospital Counter",
+		count = 1,
+		type = 2,
+		dir = 0,
+		rarity = 4,
+		belong = 1,
+		is_get_time_note = 0,
+		is_3d_obj = 0,
+		gain_by = "",
+		themeId = 141,
+		icon = "qiantaiyi3icon",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		effect = "",
+		spine_combine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 341119,
+		comfortable = 4,
+		describe = "Shhh. Don't make any sounds. Stay crouched, and it might not notice you.",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiantaiyi3B",
+				"normal"
+			},
+			{
+				"qiantaiyi3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341301] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Whiteboard",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "baibanyi3icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/baibanyi3",
+		canputon = 0,
+		count = 1,
+		describe = "The text has heavily faded with age... You'll have to get closer to see what it says.",
+		advice = 0,
+		tag = 5,
+		id = 341301,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341302] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Wall Light",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "bidengyi3icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		count = 1,
+		describe = "A wall light emitting a strange, spectral glow. Probably best to not worry about it too much...",
+		advice = 0,
+		id = 341302,
+		tag = 5,
+		comfortable = 2,
+		deblocking = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bidengyi3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341303] = {
+		can_rotate = 0,
+		name = "Broken Hospital Windows",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "chuanghuyi3icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/chuanghuyi3",
+		canputon = 0,
+		count = 2,
+		describe = "Great, now we don't have to open the windows anymore for ventilation. Too bad we can't shut them either.",
+		advice = 0,
+		tag = 5,
+		id = 341303,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[341304] = {
+		can_rotate = 0,
+		name = "Abandoned Hospital Blackboard",
+		gain_by = "",
+		type = 6,
+		followBone = "",
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 141,
+		icon = "heibanyi3icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi3/heibanyi3",
+		canputon = 0,
+		count = 1,
+		describe = "Layers and layers of erasure and rewriting. A testament to the busyness of the past, and the deathly silence of the present.",
+		advice = 0,
+		dir = 0,
+		id = 341304,
+		tag = 5,
+		comfortable = 3,
+		deblocking = 1,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

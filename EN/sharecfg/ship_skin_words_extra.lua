@@ -428,6 +428,9 @@ pg.ship_skin_words_extra.all = {
 	806020,
 	801060,
 	699010,
+	201150,
+	202370,
+	203140,
 	499110,
 	1299010,
 	299060,
@@ -29972,6 +29975,190 @@ end)()
 			{
 				1100,
 				"It was always my dream to conquer all I laid my eyes upon. However, I have now found a magnificent dream that will bring me even greater satisfaction. That's right. It is to carve the name of Marco Polo onto everything you do and accomplish!"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[201150] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 201150,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, you're here! Hey, Griffy! Quit flying around! And don't lunge into the Commander's arms, either! Th-that's my spot... Huh? You're fine with it?!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Thanks for the words of encouragement! I'll work even harder now... but wait, can I train while I'm in your arms?!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"So tigers are the kings of the forest, right? But if a tiger lunged at you, you'd totally take it down with a sliding tackle!|Oh, you still have one set of your exercises left? Okay. If I help you with your work... will you train with me?|Hehe... Oh. I-I was just staring because, umm... I was observing the secret of your strength... Never mind! It's nothing, okay?!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"If you've got an order for me, I'll get right on it! O-oh, you just wanna relax together? Fine by me, of course!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I-it's embarrassing, but I'll do my best!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I read in a book that love is the strongest power in the world. What does that mean? Is it literal, or...? I guess I do feel a little stronger lately..."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[202370] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 202370,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Greetings, Commander. Allow me to adjust your clothes before you start the day. I always look forward to this part."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"A victory ceremony isn't complete without you, Commander."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome home. The tea and snacks are ready. But first, may I have a hug? Consider it a celebration of your homecoming."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"That touch... Is this how you thank me for a hard day's work?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You'd like to sit and chat? Okay, then I'll get some tea and snacks ready... Huh? You don't need any? But if I don't make something, I won't know what to do with myself!|Etiquette isn't just about following an example. It means maximizing your personal charm... Commander, let me teach you more. I want to save up all of my anticipation for you.|Outfit coordination is important, you know. Knowing what to wear and when, what color necktie to wear... Oh, but YOU make anything look good♪"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I can feel your love for me in every gesture of yours... You've taught me many things, too, Commander♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander... If somebody sees this, I won't be able to explain it away as an etiquette lecture, you know."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I've spent a long time thinking about how I feel, in hopes of expressing them in the most preferable words, at the perfect moment, and with utmost elegance... but I failed. My feelings are just too intense... If I'm making no sense, I apologize. It's just that I love you."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[203140] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 203140,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, welcome back. I noticed your desk was empty, so I prepared tea for you as per your usual orders. Was that... the right thing to do?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Thank you for your hard work, Commander. According to your previous arrangements, I will record the battle results and prepare a drink for you... Wait... Should I chill the drink before serving it, or give it to you hot? What was the right order, again...?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"When you stroke my hair... I feel appreciated. The next time I do something right, I would like it if you did that."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, do you have any new orders for me? In that case, I will follow previous orders and quietly remain by your side.|Since you asked me to make tea last time, I memorized your preferred temperature. Now I can make tea for you without awaiting orders. Does this mean... I've become a little more proactive?|I spent some time working on today's supply data... Once I've calculated it myself, I'd like it if you checked the result with me. That way, we can spot any errors together."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander... If that is what you desire, then I know what to do..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander... I've discovered something fascinating. Even though you haven't said anything, I know exactly what must be done. Maybe this is... the mutual understanding we've cultivated."
 			}
 		}
 	}

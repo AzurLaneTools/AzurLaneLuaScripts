@@ -7,6 +7,9 @@ slot0.GetPassedLayer = function(slot0)
 		end,
 		[ActivityConst.ZENGKEHAIJUNSHANGJIANG_BOSS_RUSH_ID] = function ()
 			return BossRushSardiniaPassedLayer
+		end,
+		[ActivityConst.ESCAPE_BOSS_RUSH_ID] = function ()
+			return BossRushEscapeManorPassedLayer
 		end
 	}, function ()
 		return checkExist(pg.activity_template[uv0], {
@@ -24,6 +27,9 @@ slot0.GetEXBattleResultLayer = function(slot0)
 		end,
 		[ActivityConst.ZENGKEHAIJUNSHANGJIANG_BOSS_RUSH_ID] = function ()
 			return BossRushVerZenkerEXBattleResultLayer
+		end,
+		[ActivityConst.ESCAPE_BOSS_RUSH_ID] = function ()
+			return BossRushEscapeManorBattleResultLayer
 		end
 	}, function ()
 		return checkExist(pg.activity_template[uv0], {

@@ -1998,4 +1998,12 @@ end)()
 		actor_name = "Mio Hoshitani",
 		code = 514
 	}
+	pg.base.voice_actor_CN[515] = {
+		actor_name = "Aira Iryo",
+		code = 515
+	}
+	pg.base.voice_actor_CN[516] = {
+		actor_name = "Saya Fukuzumi",
+		code = 516
+	}
 end)()

@@ -64,7 +64,7 @@ slot0.Show = function(slot0, slot1)
 	setText(slot0.ownerLimit:Find("Text"), slot1.count .. "/" .. (slot1.count_limit or 0))
 
 	if #slot1.skipable_list > 1 then
-		setSizeDelta(slot0.window, Vector2(716, 391 + 50 * (slot4 - 1)))
+		slot0:setWindowSize(slot4 - 1)
 	end
 
 	UIItemList.StaticAlign(slot0.list, slot0.tpl, slot4, function (slot0, slot1, slot2)
@@ -88,6 +88,10 @@ slot0.Show = function(slot0, slot1)
 			Canvas.ForceUpdateCanvases()
 		end
 	end)
+end
+
+slot0.setWindowSize = function(slot0, slot1)
+	setSizeDelta(slot0.window, Vector2(716, 391 + 50 * slot1))
 end
 
 slot0.Hide = function(slot0)

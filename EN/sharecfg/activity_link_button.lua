@@ -67,8 +67,7 @@ pg.activity_link_button.get_id_list_by_name = {
 		109,
 		114,
 		117,
-		116,
-		122
+		116
 	},
 	event_core_2 = {
 		110,
@@ -103,7 +102,8 @@ pg.activity_link_button.get_id_list_by_name = {
 	},
 	event_minigame = {
 		20,
-		108
+		108,
+		122
 	},
 	event_old_act = {
 		13
@@ -175,7 +175,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			50651
+			51071
 		}
 	}
 	pg.base.activity_link_button[11] = {
@@ -549,7 +549,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[117] = {
-		param = "GeZiURCoreActivityUI",
+		param = "EscapeManorCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core3",
 		type = 16,
@@ -559,7 +559,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			50608
+			51071
 		}
 	}
 	pg.base.activity_link_button[116] = {
@@ -592,10 +592,10 @@ pg.base.activity_link_button = {}
 	}
 	pg.base.activity_link_button[122] = {
 		param = "NieRAutomataCoreActivityUI",
-		name = "event_core",
+		name = "event_minigame",
 		text_pic = "text_event_core3",
 		type = 16,
-		pic = "event_core3",
+		pic = "event_minigame",
 		id = 122,
 		group_id = 1,
 		order = 1,

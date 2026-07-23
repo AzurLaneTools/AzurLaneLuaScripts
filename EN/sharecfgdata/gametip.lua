@@ -12998,7 +12998,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Alsace guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Rate UP for Superb and Surrey!"
 }
 
 
@@ -17442,6 +17442,11 @@ _G.pg.base.gametip.msgbox_repair_l2d = {
 
 _G.pg.base.gametip.msgbox_repair_painting = {
 	tip = "Download \nArt Asset"
+}
+
+
+_G.pg.base.gametip.msgbox_repair_cv = {
+	tip = "Repair voice assets."
 }
 
 
@@ -49829,6 +49834,44 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_1 = {
+	tip = "Event"
+}
+
+
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_2 = {
+	tip = "Supply Station"
+}
+
+
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_3 = {
+	tip = "Rewards"
+}
+
+
+_G.pg.base.gametip.escape_manor_series_help = {
+	tip = {
+		{
+			info = [[
+<b>Event Period:</b>
+-<color=#92fc63>7/23 - 8/6 maintenance.</color>
+-During the "Authentic Horror Story: Escape from White Night Manor!" event, you will form multiple fleets to challenge special event stages, and collect event points to earn great rewards.
+How to Play:
+1. On the event page, you can toggle between the story content and the combat stages by tapping on the Story/Combat tabs on the bottom left-hand side of the screen.
+2. On the Combat Prep interface, form a fleet to challenge a special event stage. After clearing one difficulty, you will unlock the subsequent difficulty.
+3. Stages may feature multiple battles during a single sortie.
+4. While sortieing, you may configure and sortie as many fleets as corresponding to the number of battles in that stage. The number of sortie fleets can be toggled between <color=#92fc63>Solo Challenge and Coalition Battle</color> on the Combat Prep interface.
+During Solo Challenge, one fleet will fight against all the battles in that stage.
+During Coalition Battle, you will have to configure multiple fleets for each battle, and each fleet will take turns fighting in the corresponding battles.
+5. Completing all the battles in a stage will be considered clearing the stage, and you will earn event points. You will earn additional rewards for clearing a stage through a Coalition Battle.
+6. Accumulate event points to obtain the limited ship, Griffin, and the new gear, Prototype Twin 234mm Main Gun Mount.
+7. Unlock all story chapters to get a limited gear skin, Dentures Shell.
+]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.nier_a2_text_block_day1 = {
 	tip = {
 		{
@@ -50713,4 +50756,24 @@ _G.pg.base.gametip.nier_a2_item_got = {
 
 _G.pg.base.gametip.auction_network_timeout = {
 	tip = "Connection lost. You have left the match."
+}
+
+
+_G.pg.base.gametip.escape_series_pt = {
+	tip = "Total: $1"
+}
+
+
+_G.pg.base.gametip.escape_series_rank = {
+	tip = "Ranking"
+}
+
+
+_G.pg.base.gametip.escape_series_task = {
+	tip = "Event Missions"
+}
+
+
+_G.pg.base.gametip.escape_story_reward_count = {
+	tip = "Play through the whole story to get a limited gear skin."
 }

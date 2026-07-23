@@ -2242,7 +2242,7 @@ slot0.switchToMap = function(slot0, slot1)
 	end)):setEase(LeanTweenType.easeOutSine).uniqueId)
 
 	slot4 = nil
-	slot5 = LeanTween.value(go(slot0.map), slot0.map.pivot, (slot0.contextData.map:getConfig("anchor") ~= "" or Vector2.zero) and Vector2(unpack(slot3)), uv0)
+	slot5 = LeanTween.value(go(slot0.map), slot0.map.pivot, (slot0.contextData.map:getConfig("anchor") ~= "" or Vector2(0.5, 0.5)) and Vector2(unpack(slot3)), uv0)
 
 	slot5:setOnUpdateVector2(function (slot0)
 		uv0.map.pivot = slot0
@@ -2369,16 +2369,42 @@ end
 
 slot0.SwitchMapBG = function(slot0, slot1, slot2, slot3)
 	slot4, slot5, slot6 = slot0:GetMapBG(slot1, slot2)
+	slot7 = {}
 
-	if not slot5 then
-		slot0:SwitchBG(slot4, nil, slot3)
+	if slot5 then
+		table.insert(slot7, function (slot0)
+			uv0:PlayMapTransition("LevelMapTransition_" .. uv1, uv2, slot0)
+		end)
+	end
 
+	seriesAsync(slot7, function ()
+		uv0:SwitchBGMapType(uv1:getConfig("pos_type"))
+		uv0:SwitchBG(uv2, nil, uv3)
+	end)
+end
+
+slot0.SwitchBGMapType = function(slot0, slot1)
+	if slot0.posType == slot1 then
 		return
 	end
 
-	slot0:PlayMapTransition("LevelMapTransition_" .. slot5, slot6, function ()
-		uv0:SwitchBG(uv1, nil, uv2)
-	end)
+	for slot5, slot6 in ipairs({
+		slot0.map,
+		slot0.float
+	}) do
+		GetOrAddComponent(slot6, typeof(AspectRatioFitter)).aspectRatio = 1.7777777777777777
+		slot7.enabled = slot1 == 0
+
+		if slot1 == 1 then
+			slot6.anchorMin = Vector2(0.5, 0.5)
+			slot6.anchorMax = Vector2(0.5, 0.5)
+
+			setSizeDelta(slot7, {
+				x = 2520,
+				y = 1440
+			})
+		end
+	end
 end
 
 slot0.GetMapBG = function(slot0, slot1, slot2)

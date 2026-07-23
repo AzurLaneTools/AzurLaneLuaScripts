@@ -1254,6 +1254,24 @@ pg.equip_skin_template.all = {
 	4399,
 	4400,
 	4401,
+	4402,
+	4403,
+	4404,
+	4405,
+	4406,
+	4407,
+	4408,
+	4409,
+	4410,
+	4411,
+	4412,
+	4413,
+	4414,
+	4415,
+	4416,
+	4417,
+	4418,
+	4419,
 	1001,
 	1002,
 	1003,
@@ -1581,7 +1599,8 @@ pg.equip_skin_template.all = {
 	3080,
 	3081,
 	3082,
-	3083
+	3083,
+	3084
 }
 pg.base = pg.base or {}
 pg.base.equip_skin_template = {}
@@ -52921,6 +52940,741 @@ end)()
 			54014
 		}
 	}
+	pg.base.equip_skin_template[4402] = {
+		orbit_slg = "",
+		name = "Stabilizing Capsule Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102401",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "zidan_jiaonang",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4402,
+		hit_sfx = "",
+		desc = "Dosage is the difference between medicine and an explosive.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_jiaonang_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4403] = {
+		orbit_slg = "",
+		name = "Call Button Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102402",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "zidan_hujiaoling",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4403,
+		hit_sfx = "",
+		desc = "When pushing the button isn't enough to get their attention...",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_hujiaoling_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4404] = {
+		orbit_slg = "",
+		name = "Reliable Bandages Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102403",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "zidan_chuangketie",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4404,
+		hit_sfx = "",
+		desc = "We're even, right? Look, I gave you bandages!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4405] = {
+		orbit_slg = "",
+		name = "Heartrate Monitor Torpedo",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102404",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "yulei_xintiao",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4405,
+		hit_sfx = "",
+		desc = "My heart's beating so fast... Could this feeling be...?",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_xintiao_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4406] = {
+		orbit_slg = "",
+		name = "Rusted Scissors Torpedo",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102405",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "yulei_shoushuqian",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4406,
+		hit_sfx = "",
+		desc = "Make sure to maintain your medical equipment, snip!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_shoushuqian_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4407] = {
+		orbit_slg = "",
+		name = "Syringe Torpedo",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102406",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "yulei_dazhentong",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4407,
+		hit_sfx = "",
+		desc = "Don't be scared, don't be scared. Just a prick, and it'll be all over.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4408] = {
+		orbit_slg = "",
+		name = "Horrific Manjuu Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102407",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "paodan_pinhewawa",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4408,
+		hit_sfx = "",
+		desc = "I'M COMING FOR YOU, PEEP~",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4409] = {
+		orbit_slg = "",
+		name = "Operating Light Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102408",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "paodan_shoushudeng",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4409,
+		hit_sfx = "",
+		desc = "Provides immaculate vibes for taking apart your enemies!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4410] = {
+		orbit_slg = "",
+		name = "Discarded Wheelchair Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102409",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "paodan_lunyi",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4410,
+		hit_sfx = "",
+		desc = "SCREEEEECH! SCRAAAATCH!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4411] = {
+		orbit_slg = "",
+		name = "Culture Tank (Torpedo)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102410",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "feiji_peiyangmin",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4411,
+		hit_sfx = "",
+		desc = "Stay away. Do not touch.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_dazhentong",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+	pg.base.equip_skin_template[4412] = {
+		orbit_slg = "",
+		name = "Culture Tank (Fighter)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102410",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "feiji_peiyangmin",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4412,
+		hit_sfx = "",
+		desc = "Stay away. Do not touch.",
+		derivate_boom = "paodan_lunyi",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4413] = {
+		orbit_slg = "",
+		name = "Culture Tank (Bomber)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102410",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "feiji_peiyangmin",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4413,
+		hit_sfx = "",
+		desc = "Stay away. Do not touch.",
+		derivate_boom = "paodan_lunyi",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
+	pg.base.equip_skin_template[4414] = {
+		orbit_slg = "",
+		name = "Hospital Bed (Torpedo)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102411",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "feiji_shoushuchuang",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4414,
+		hit_sfx = "",
+		desc = "Behave yourself and get back in bed!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_shoushuqian",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+	pg.base.equip_skin_template[4415] = {
+		orbit_slg = "",
+		name = "Hospital Bed (Fighter)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102411",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "feiji_shoushuchuang",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4415,
+		hit_sfx = "",
+		desc = "Behave yourself and get back in bed!",
+		derivate_boom = "paodan_shoushudeng",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4416] = {
+		orbit_slg = "",
+		name = "Hospital Bed (Bomber)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102411",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "feiji_shoushuchuang",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4416,
+		hit_sfx = "",
+		desc = "Behave yourself and get back in bed!",
+		derivate_boom = "paodan_shoushudeng",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
+	pg.base.equip_skin_template[4417] = {
+		orbit_slg = "",
+		name = "Containment Cage (Torpedo)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102412",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "feiji_longzi",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4417,
+		hit_sfx = "",
+		desc = "Are you even supposed to see these in a hospital?!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_xintiao",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+	pg.base.equip_skin_template[4418] = {
+		orbit_slg = "",
+		name = "Containment Cage (Fighter)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102412",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "feiji_longzi",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4418,
+		hit_sfx = "",
+		desc = "Are you even supposed to see these in a hospital?!",
+		derivate_boom = "paodan_pinhewawa",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4419] = {
+		orbit_slg = "",
+		name = "Containment Cage (Bomber)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102412",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 86,
+		bullet_name = "feiji_longzi",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4419,
+		hit_sfx = "",
+		desc = "Are you even supposed to see these in a hospital?!",
+		derivate_boom = "paodan_pinhewawa",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
 	pg.base.equip_skin_template[1001] = {
 		orbit_slg = "",
 		name = "Joypad Shell (P)",
@@ -54194,6 +54948,8 @@ end)()
 			54014
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[1117] = {
 		orbit_slg = "",
 		name = "Anniversary Mini-AI (Torpedo)",
@@ -54929,8 +55685,6 @@ end)()
 			54014
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[1215] = {
 		orbit_slg = "",
 		name = "Illuminated Sylph Plane (Torpedo)",
@@ -58350,6 +59104,8 @@ end)()
 			24000
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[1516] = {
 		orbit_slg = "",
 		name = "Flying Yoshinon",
@@ -59157,8 +59913,6 @@ end)()
 			101
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[1534] = {
 		orbit_slg = "",
 		name = "Double Burst",
@@ -62837,6 +63591,8 @@ end)()
 			107
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[2082] = {
 		orbit_slg = "",
 		name = "Forerunner UAV (Torpedo)",
@@ -63637,8 +64393,6 @@ end)()
 			24000
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[2100] = {
 		orbit_slg = "",
 		name = "Ring of Antinomy",
@@ -66134,7 +66888,7 @@ end)()
 		orbit_rotate = false,
 		orbit_combat = "shebei_mojing",
 		ship_config_id = 100011,
-		orbit_rotate_ui = "",
+		orbit_rotate_ui = true,
 		orbit_combat_anima_change = "",
 		themeid = 199,
 		bullet_name = "",
@@ -66176,8 +66930,8 @@ end)()
 		orbit_ui_bound = {
 			"face",
 			{
-				0,
-				82
+				89,
+				1.9
 			}
 		},
 		orbit_hidden_action = {
@@ -67363,6 +68117,48 @@ end)()
 		orbit_hidden_action = {
 			"sleep",
 			"wash"
+		}
+	}
+	pg.base.equip_skin_template[3084] = {
+		orbit_slg = "",
+		name = "Dentures Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99203",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 199,
+		bullet_name = "paodan_jiaya",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 3084,
+		hit_sfx = "",
+		desc = "Look what happens when you don't brush your teeth properly.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
 		}
 	}
 end)()

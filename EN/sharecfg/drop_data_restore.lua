@@ -984,6 +984,12 @@ pg.drop_data_restore.all = {
 	1394,
 	1395,
 	1396,
+	1397,
+	1398,
+	1399,
+	1400,
+	1401,
+	1402,
 	5000,
 	5001,
 	5002,
@@ -9963,6 +9969,60 @@ end)()
 		drop_id = "998575",
 		target_id = 608022
 	}
+	pg.base.drop_data_restore[1397] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1397,
+		resource_num = 1200,
+		drop_id = "998576",
+		target_id = 9600072
+	}
+	pg.base.drop_data_restore[1398] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1398,
+		resource_num = 1260,
+		drop_id = "998576",
+		target_id = 299052
+	}
+	pg.base.drop_data_restore[1399] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1399,
+		resource_num = 980,
+		drop_id = "998576",
+		target_id = 202371
+	}
+	pg.base.drop_data_restore[1400] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1400,
+		resource_num = 880,
+		drop_id = "998576",
+		target_id = 203141
+	}
+	pg.base.drop_data_restore[1401] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1401,
+		resource_num = 800,
+		drop_id = "998576",
+		target_id = 401112
+	}
+	pg.base.drop_data_restore[1402] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1402,
+		resource_num = 780,
+		drop_id = "998576",
+		target_id = 201151
+	}
 	pg.base.drop_data_restore[5000] = {
 		target_type = 7,
 		resource_type = 1,
@@ -10080,6 +10140,8 @@ end)()
 		drop_id = "65166",
 		target_id = 108032
 	}
+end)()
+(function ()
 	pg.base.drop_data_restore[5013] = {
 		target_type = 7,
 		resource_type = 1,
@@ -10134,8 +10196,6 @@ end)()
 		drop_id = "65242",
 		target_id = 308051
 	}
-end)()
-(function ()
 	pg.base.drop_data_restore[5019] = {
 		target_type = 7,
 		resource_type = 1,
@@ -10982,6 +11042,8 @@ end)()
 		drop_id = "998562",
 		target_id = 399022
 	}
+end)()
+(function ()
 	pg.base.drop_data_restore[20067] = {
 		target_type = 7,
 		resource_type = 14,
@@ -11036,8 +11098,6 @@ end)()
 		drop_id = "998567",
 		target_id = 205161
 	}
-end)()
-(function ()
 	pg.base.drop_data_restore[20073] = {
 		target_type = 7,
 		resource_type = 14,

@@ -738,6 +738,9 @@ temp = function()
 				this = true
 			}
 		},
+		["丽"] = {
+			this = true
+		},
 		["甲"] = {
 			this = true,
 			["·"] = {
