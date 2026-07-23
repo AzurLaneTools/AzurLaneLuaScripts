@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "电视机打不开了，我打算拆开看看里面是什么情况。~",
+			say = "텔레비전이 안 켜져서 분해해서 내부를 확인하려고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

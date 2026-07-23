@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "催毛线球？等等……线缆怎么自己动起来了？",
+			say = "털실 뭉치? 잠깐만…… 케이블이 멋대로 움직이기 시작했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
