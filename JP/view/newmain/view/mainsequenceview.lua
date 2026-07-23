@@ -30,6 +30,7 @@ slot0.Ctor = function(slot0)
 		MainMetaSkillSequence.New(),
 		MainCrusingActSequence.New(),
 		MainReceiveBossRushAwardsSequence.New(),
+		MainReceiveRemasterBossRushAwardsSequence.New(),
 		MainActivateInsTopicSequence.New(),
 		MainCheckTrackerSequence.New(),
 		MainNotificationWindowSequence.New(),

@@ -12899,7 +12899,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "限定建造200回で「アルザス」を確定で入手可能！（最大4隻まで）"
+	tip = "「シュパーブ」「サリー」出現確率UP!"
 }
 
 
@@ -17573,6 +17573,11 @@ _G.pg.base.gametip.msgbox_repair_l2d = {
 
 _G.pg.base.gametip.msgbox_repair_painting = {
 	tip = "立ち絵アセットDL"
+}
+
+
+_G.pg.base.gametip.msgbox_repair_cv = {
+	tip = "ボイス修復"
 }
 
 
@@ -50097,6 +50102,44 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_1 = {
+	tip = "白夜ヴィラより脱出せよ"
+}
+
+
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_2 = {
+	tip = "脱出補給地"
+}
+
+
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_3 = {
+	tip = "報酬一覧"
+}
+
+
+_G.pg.base.gametip.escape_manor_series_help = {
+	tip = {
+		{
+			info = [[
+<b>イベント期間：</b>
+·<color=#92fc63>7.23-8.6メンテ；</color>
+·イベント「怪談実録 白夜ヴィラより脱出せよ！」とは、艦隊を編成し特別ステージに出撃することでイベントPtアイテム「白夜ヴィラ怪談実録」を入手し、イベント報酬を獲得するイベントです。
+
+遊び方
+·イベントステージ選択画面では、左下のボタンで「戦闘準備」「ストーリー閲覧」を切り替えることができます。
+·「戦闘準備」では、艦隊を編成し特別ステージに挑戦することができます。特別ステージは低難易度のステージをクリアすると、高い難易度のステージが開放されます。
+· 一部特別ステージは、一度の出撃で複数回の戦闘が行われます。
+· 出撃の際に、戦闘の回数だけ艦隊を編成し出撃させることができます。出撃艦隊の個数は出撃準備画面で<color=#92fc63>「単独出撃」・「協同出撃」</color>を切り替えられます。
+--　単独出撃では、1個の艦隊でステージのすべての戦闘を行います。各戦闘開始時、出撃中の艦隊の耐久や状態がリセットされます。
+-- 協同出撃では、ステージの戦闘に応じてそれぞれ艦隊を編成し出撃させ、戦闘をそれぞれの艦隊にて行います。複数個の艦隊で出撃（協同出撃）した場合、追加の報酬を入手できます
+· イベントPtを貯めると、イベントPt累計入手数報酬で<color=#92fc63>新規艦船「グリフィン」</color>、<color=#92fc63>新規装備「試作型234mm連装砲」</color>を入手できます。
+8. 「ストーリー」モードですべてのストーリーを開放すると、新規装備外装「入れ歯砲弾」を入手できます。
+。]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.nier_a2_text_block_day1 = {
 	tip = {
 		{
@@ -50986,4 +51029,24 @@ _G.pg.base.gametip.nier_a2_item_got = {
 
 _G.pg.base.gametip.auction_network_timeout = {
 	tip = "接続環境に異常があるため、オークションから退出しました"
+}
+
+
+_G.pg.base.gametip.escape_series_pt = {
+	tip = "累計：$1"
+}
+
+
+_G.pg.base.gametip.escape_series_rank = {
+	tip = "順位"
+}
+
+
+_G.pg.base.gametip.escape_series_task = {
+	tip = "限定任務"
+}
+
+
+_G.pg.base.gametip.escape_story_reward_count = {
+	tip = "ストーリー全クリアで限定装備外装入手可能"
 }

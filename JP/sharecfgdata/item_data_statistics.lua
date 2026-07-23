@@ -29921,6 +29921,131 @@ _G.pg.base.item_data_statistics[30385] = {
 }
 
 
+_G.pg.base.item_data_statistics[30386] = {
+	open_directly = 1,
+	name = "装備外装箱(怪談病院)",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxguaitanbingqu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30383",
+	id = 30386,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4402,
+			1
+		},
+		{
+			9,
+			4403,
+			1
+		},
+		{
+			9,
+			4404,
+			1
+		},
+		{
+			9,
+			4405,
+			1
+		},
+		{
+			9,
+			4406,
+			1
+		},
+		{
+			9,
+			4407,
+			1
+		},
+		{
+			9,
+			4408,
+			1
+		},
+		{
+			9,
+			4409,
+			1
+		},
+		{
+			9,
+			4410,
+			1
+		},
+		{
+			9,
+			4411,
+			1
+		},
+		{
+			9,
+			4412,
+			1
+		},
+		{
+			9,
+			4413,
+			1
+		},
+		{
+			9,
+			4414,
+			1
+		},
+		{
+			9,
+			4415,
+			1
+		},
+		{
+			9,
+			4416,
+			1
+		},
+		{
+			9,
+			4417,
+			1
+		},
+		{
+			9,
+			4418,
+			1
+		},
+		{
+			9,
+			4419,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -46437,6 +46562,219 @@ _G.pg.base.item_data_statistics[30569] = {
 		{
 			9,
 			4401,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30570] = {
+	open_directly = 0,
+	name = "選択装備外装箱（怪談病院）",
+	type = 13,
+	display = "使用すると、装備外装（怪談病院）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxguaitanbingquzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30570,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4402,
+			1
+		},
+		{
+			9,
+			4403,
+			1
+		},
+		{
+			9,
+			4404,
+			1
+		},
+		{
+			9,
+			4405,
+			1
+		},
+		{
+			9,
+			4406,
+			1
+		},
+		{
+			9,
+			4407,
+			1
+		},
+		{
+			9,
+			4408,
+			1
+		},
+		{
+			9,
+			4409,
+			1
+		},
+		{
+			9,
+			4410,
+			1
+		},
+		{
+			9,
+			4411,
+			1
+		},
+		{
+			9,
+			4412,
+			1
+		},
+		{
+			9,
+			4413,
+			1
+		},
+		{
+			9,
+			4414,
+			1
+		},
+		{
+			9,
+			4415,
+			1
+		},
+		{
+			9,
+			4416,
+			1
+		},
+		{
+			9,
+			4417,
+			1
+		},
+		{
+			9,
+			4418,
+			1
+		},
+		{
+			9,
+			4419,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4402,
+			1
+		},
+		{
+			9,
+			4403,
+			1
+		},
+		{
+			9,
+			4404,
+			1
+		},
+		{
+			9,
+			4405,
+			1
+		},
+		{
+			9,
+			4406,
+			1
+		},
+		{
+			9,
+			4407,
+			1
+		},
+		{
+			9,
+			4408,
+			1
+		},
+		{
+			9,
+			4409,
+			1
+		},
+		{
+			9,
+			4410,
+			1
+		},
+		{
+			9,
+			4411,
+			1
+		},
+		{
+			9,
+			4412,
+			1
+		},
+		{
+			9,
+			4413,
+			1
+		},
+		{
+			9,
+			4414,
+			1
+		},
+		{
+			9,
+			4415,
+			1
+		},
+		{
+			9,
+			4416,
+			1
+		},
+		{
+			9,
+			4417,
+			1
+		},
+		{
+			9,
+			4418,
+			1
+		},
+		{
+			9,
+			4419,
 			1
 		}
 	},

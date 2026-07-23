@@ -16,6 +16,10 @@ slot0.OnClick = function(slot0)
 	slot0.event:emit(NewMainMediator.SKIP_INS)
 end
 
+slot0.OnRegister = function(slot0)
+	slot0.initX = getAnchoredPosition(slot0._tf).x
+end
+
 slot0.OnInit = function(slot0)
 	slot0.animator = slot0._tf:Find("icon"):GetComponent(typeof(Animator))
 	slot1 = getProxy(InstagramProxy):ShouldShowTip() or getProxy(InstagramChatProxy):ShouldShowTip() or getProxy(InstagramProxy):ShouldShowTip()
@@ -26,6 +30,7 @@ slot0.OnInit = function(slot0)
 	slot0._tf.localScale = slot0.isScale and Vector3(0.85, 0.85, 1) or Vector3(1, 1, 1)
 
 	setAnchoredPosition(slot0._tf, {
+		x = slot0.isOverflow and slot0.initX - 200 or slot0.initX,
 		y = slot0.isScale and -950 or -752.5
 	})
 end

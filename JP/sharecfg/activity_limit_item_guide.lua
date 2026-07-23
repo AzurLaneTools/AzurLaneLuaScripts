@@ -181,7 +181,11 @@ pg.activity_limit_item_guide.all = {
 	207,
 	208,
 	209,
-	210
+	210,
+	211,
+	212,
+	213,
+	214
 }
 pg.activity_limit_item_guide.get_id_list_by_activity = {
 	[4937] = {
@@ -380,6 +384,12 @@ pg.activity_limit_item_guide.get_id_list_by_activity = {
 		208,
 		209,
 		210
+	},
+	[51079] = {
+		211,
+		212,
+		213,
+		214
 	}
 }
 pg.base = pg.base or {}
@@ -3679,6 +3689,76 @@ end)()
 				3,
 				50845,
 				"「自動歩兵人形の旅」-「特別ステージ」クリア報酬"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[211] = {
+		is_new = 1,
+		activity = 51079,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 211,
+		drop_id = 342,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51073,
+				"「怪談実録 白夜ヴィラより脱出せよ！」- 「脱出補給地」 イベント報酬"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[212] = {
+		is_new = 1,
+		activity = 51079,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 212,
+		drop_id = 3084,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush main"
+				},
+				"「怪談実録 白夜ヴィラより脱出せよ！」- 「ストーリー」モードをクリア"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[213] = {
+		is_new = 1,
+		activity = 51079,
+		count = 4,
+		type = 4,
+		order = 0,
+		id = 213,
+		drop_id = 201151,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51073,
+				"「怪談実録 白夜ヴィラより脱出せよ！」- 「脱出補給地」 イベント報酬"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[214] = {
+		is_new = 1,
+		activity = 51079,
+		count = 1,
+		type = 1,
+		order = 0,
+		id = 214,
+		drop_id = 735,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51071,
+				"「怪談実録 白夜ヴィラより脱出せよ！」-  イベント画面右上の「実績」で各種任務をクリア"
 			}
 		}
 	}

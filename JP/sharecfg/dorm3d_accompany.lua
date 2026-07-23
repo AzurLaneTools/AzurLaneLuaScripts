@@ -382,7 +382,7 @@ pg.base.dorm3d_accompany = {}
 		jump_trigger = {},
 		unlock = {
 			5,
-			21,
+			26,
 			79902
 		}
 	}

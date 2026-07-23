@@ -5,6 +5,7 @@ slot0.TYPE_DEFAULT_RES = 2
 slot0.TYPE_L2D = 4
 slot0.TYPE_PAINTING = 8
 slot0.TYPE_CIPHER = 16
+slot0.TYPE_CV = 32
 
 slot0.Init = function(slot0, slot1)
 	LoadAndInstantiateAsync("ui", "RepairUI", function (slot0)
@@ -23,7 +24,8 @@ slot0.Init = function(slot0, slot1)
 			uv0:InitDefaultResBtn(),
 			uv0:InitL2dBtn(),
 			uv0:InitPaintingBtn(),
-			uv0:InitCipherBtn()
+			uv0:InitCipherBtn(),
+			uv0:InitCvBtn()
 		}
 		uv0.uiItemList = UIItemList.New(uv0._tf:Find("window/buttons"), uv0._tf:Find("window/buttons/custom_button_1"))
 
@@ -88,8 +90,22 @@ slot0.InitCipherBtn = function(slot0)
 	}
 end
 
+slot0.InitCvBtn = function(slot0)
+	return {
+		type = uv0.TYPE_CV,
+		text = i18n("msgbox_repair_cv"),
+		onCallback = function ()
+			if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-cv.csv") then
+				BundleWizard.Inst:GetGroupMgr("CV"):StartVerifyForLua()
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
+			end
+		end
+	}
+end
+
 slot0.Repair = function(slot0, slot1)
-	slot2 = slot1 or bit.bor(uv0.TYPE_DEFAULT_RES, uv0.TYPE_L2D, uv0.TYPE_PAINTING, uv0.TYPE_CIPHER)
+	slot2 = slot1 or bit.bor(uv0.TYPE_DEFAULT_RES, uv0.TYPE_L2D, uv0.TYPE_PAINTING, uv0.TYPE_CIPHER, uv0.TYPE_CV)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0.btns) do

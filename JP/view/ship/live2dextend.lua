@@ -153,4 +153,14 @@ slot0.GetXiaQiMatchsIndex = function(slot0, slot1)
 	return slot3
 end
 
+slot0.CustomSmoothValue = function(slot0, slot1, slot2, slot3, slot4)
+	if slot2 == nil or slot2 <= 0 then
+		return slot1, 0
+	end
+
+	slot3 = math.min(math.max((slot3 or 0) + (slot4 or Time.deltaTime), 0), slot2)
+
+	return slot0 + (slot1 - slot0) * slot3 / slot2, slot3
+end
+
 return slot0

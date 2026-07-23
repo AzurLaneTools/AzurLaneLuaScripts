@@ -5277,7 +5277,7 @@ end)()
 		commodity_id = 301043,
 		end_by_maintenance = 0,
 		id = 145,
-		order = 10,
+		order = 17,
 		scene = {
 			"crusing",
 			{}

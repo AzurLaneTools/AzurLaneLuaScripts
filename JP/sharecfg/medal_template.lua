@@ -131,7 +131,8 @@ pg.medal_template.all = {
 	200151,
 	200161,
 	200171,
-	200181
+	200181,
+	200191
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2962,6 +2963,27 @@ end)()
 		rank = 1,
 		id = 200181,
 		explain1 = "「幻夢のカヴァルカード」",
+		explain2 = "イベント"
+	}
+	pg.base.medal_template[200191] = {
+		target_id = "51078",
+		name = "怪談実録記念勲章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "仄かな明かりが未だ消えず、扉は閉ざされたまま。廃病院の奥には人知れぬ秘密が隠されている。怪談と手がかりが交錯するこの場所で、出口への道筋を探し求めよう！\n——白夜ヴィラへようこそ～",
+		next = 0,
+		icon = "9191",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9191",
+		condition = "「怪談実録：白夜ヴィラより脱出せよ！」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200191,
+		explain1 = "「怪談実録：白夜ヴィラより脱出せよ！」",
 		explain2 = "イベント"
 	}
 end)()

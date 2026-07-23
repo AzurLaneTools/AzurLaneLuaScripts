@@ -82,9 +82,9 @@ pg.base.voice_bgm = {}
 		bgm = "main"
 	}
 	pg.base.voice_bgm.LoginScene = {
-		default_bgm = "nier-ruinscity-a-1",
+		default_bgm = "login",
 		special_bgm = "",
-		bgm = "nier-ruinscity-a-1"
+		bgm = "login"
 	}
 	pg.base.voice_bgm.NewMainScene = {
 		default_bgm = "main",
@@ -3156,6 +3156,21 @@ end)()
 		special_bgm = "",
 		bgm = "story-room-nakhimov"
 	}
+	pg.base.voice_bgm.EscapeManorMainPage = {
+		default_bgm = "story-hospitalnight-outshow",
+		special_bgm = "",
+		bgm = "story-hospitalnight-outshow"
+	}
+	pg.base.voice_bgm.EscapeManorPtPage = {
+		default_bgm = "story-hospitalnight-outshow",
+		special_bgm = "",
+		bgm = "story-hospitalnight-outshow"
+	}
+	pg.base.voice_bgm.EscapeManorCollectPage = {
+		default_bgm = "story-hospitalnight-outshow",
+		special_bgm = "",
+		bgm = "story-hospitalnight-outshow"
+	}
 	pg.base.voice_bgm.NieRAutomataKillPage = {
 		default_bgm = "nier-ruinscity-b-1",
 		special_bgm = "",
@@ -3195,5 +3210,12 @@ end)()
 		default_bgm = "story-room-pit",
 		special_bgm = "",
 		bgm = "story-room-pit"
+	}
+end)()
+(function ()
+	pg.base.voice_bgm.BossRushEscapeManorScene = {
+		default_bgm = "theme-hospitalnight-mystic",
+		special_bgm = "",
+		bgm = "theme-hospitalnight-mystic"
 	}
 end)()

@@ -35,6 +35,11 @@ pg.activity_series_enemy.all = {
 	5003,
 	5004,
 	5005,
+	6001,
+	6002,
+	6003,
+	6004,
+	6005,
 	1001001,
 	1001002,
 	1001003
@@ -2412,6 +2417,333 @@ pg.base.activity_series_enemy = {}
 			{
 				"gaoxiong_7",
 				3
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		},
+		ex_count = {
+			8000,
+			20,
+			0.2,
+			1000,
+			0.8
+		}
+	}
+	pg.base.activity_series_enemy[6001] = {
+		oil = 0,
+		name = "一般病室",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "简单",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = "普通の個室タイプの病室。照明が柔らかく病床は清潔でよく整っているが、扉には鍵がかかっている",
+		collection_group_id = 104,
+		whether_singlefight = 0,
+		id = 6001,
+		limitation = {},
+		expedition_id = {
+			2049101
+		},
+		boss_icon = {
+			{
+				"sali_2",
+				3
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				736,
+				40
+			},
+			{
+				2,
+				200821,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54012,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[6002] = {
+		oil = 0,
+		name = "集中治療室",
+		type = 1,
+		pre_chapter = 6001,
+		chapter_name = "普通",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = "重症患者用のICU。関係者以外立ち入り禁止",
+		collection_group_id = 105,
+		whether_singlefight = 1,
+		id = 6002,
+		limitation = {},
+		expedition_id = {
+			2049201,
+			2049202
+		},
+		boss_icon = {
+			{
+				"sali_2",
+				3
+			},
+			{
+				"gelifen_2",
+				1
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				736,
+				140
+			},
+			{
+				2,
+				200822,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				736,
+				25
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[6003] = {
+		oil = 0,
+		name = "ナースステーション",
+		type = 1,
+		pre_chapter = 6002,
+		chapter_name = "困难",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = "ナースが日々過ごしている場所。極めて危険",
+		collection_group_id = 106,
+		whether_singlefight = 1,
+		id = 6003,
+		limitation = {},
+		expedition_id = {
+			2049301,
+			2049302,
+			2049303
+		},
+		boss_icon = {
+			{
+				"gelifen_2",
+				1
+			},
+			{
+				"z11_3",
+				1
+			},
+			{
+				"pulimaosi_3",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				736,
+				360
+			},
+			{
+				2,
+				200823,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				736,
+				60
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
+		}
+	}
+	pg.base.activity_series_enemy[6004] = {
+		oil = 0,
+		name = "地下区画",
+		type = 2,
+		pre_chapter = 6003,
+		chapter_name = "S.P",
+		pos_x = "0",
+		pos_y = "0",
+		count = 1,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = "白夜ヴィラの地下区画。メイン病棟の真下には数々の人知れない秘密が隠されている",
+		collection_group_id = 107,
+		whether_singlefight = 0,
+		id = 6004,
+		limitation = {},
+		expedition_id = {
+			2049401,
+			2049402,
+			2049403,
+			2049404
+		},
+		boss_icon = {
+			{
+				"z11_3",
+				1
+			},
+			{
+				"pulimaosi_3",
+				2
+			},
+			{
+				"gelifen_2",
+				1
+			},
+			{
+				"gangyishawa_3",
+				24
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				736,
+				800
+			},
+			{
+				2,
+				200824,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54016,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			40,
+			16
+		}
+	}
+	pg.base.activity_series_enemy[6005] = {
+		oil = 0,
+		name = "ヘリポート",
+		type = 3,
+		pre_chapter = 6004,
+		chapter_name = "E.X",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		additional_awards_display = "",
+		profiles = "白夜ヴィラは交通が不便な秘境に位置しているため、ヘリは素早く出入りできる数少ない手段のひとつになっている",
+		pass_awards_display = "",
+		collection_group_id = 0,
+		whether_singlefight = 0,
+		id = 6005,
+		limitation = {},
+		expedition_id = {
+			2049501,
+			2049502,
+			2049503,
+			2049504,
+			2049505
+		},
+		boss_icon = {
+			{
+				"z11_3",
+				1
+			},
+			{
+				"pulimaosi_3",
+				2
+			},
+			{
+				"z11_3",
+				1
+			},
+			{
+				"gangyishawa_3",
+				24
+			},
+			{
+				"huali_2",
+				2
 			}
 		},
 		defeat_story = {},

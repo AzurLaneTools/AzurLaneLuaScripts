@@ -1206,4 +1206,15 @@ end)()
 	pg.base.activity_const.DORM_SIGN_ID_3 = {
 		act_id = 7505
 	}
+	pg.base.activity_const.ESCAPE_BOSS_RUSH_ID = {
+		act_id = 51071
+	}
+	pg.base.activity_const.ESCAPE_BOSS_RUSH_TASK_ACT_ID = {
+		act_id = 51074
+	}
+end)()
+(function ()
+	pg.base.activity_const.ESCAPE_BOSS_RUSH_PT_ID = {
+		act_id = 51073
+	}
 end)()
