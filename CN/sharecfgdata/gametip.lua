@@ -12535,7 +12535,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 阿尔萨斯(最多4次)"
+	tip = "华丽、萨里 建造概率UP!"
 }
 
 
@@ -17038,6 +17038,11 @@ _G.pg.base.gametip.msgbox_repair_l2d = {
 
 _G.pg.base.gametip.msgbox_repair_painting = {
 	tip = "修复立绘"
+}
+
+
+_G.pg.base.gametip.msgbox_repair_cv = {
+	tip = "修复语音"
 }
 
 
@@ -37789,7 +37794,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至7月15日24时；]]
+ ※ 奖励领取界面将延长至8月12日24时；]]
 		}
 	}
 }
@@ -49600,6 +49605,44 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_1 = {
+	tip = "逃离白夜山庄"
+}
+
+
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_2 = {
+	tip = "逃生补给站"
+}
+
+
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_3 = {
+	tip = "奖励汇总"
+}
+
+
+_G.pg.base.gametip.escape_manor_series_help = {
+	tip = {
+		{
+			info = [[
+<b>活动时间：</b>
+·<color=#92fc63>7.23-8.6维护；</color>
+·活动期间开启限时活动「怪谈纪实：逃离白夜山庄！」。
+
+<b>活动说明：</b>
+·本次作战分为<color=#92fc63>【作战模式】</color>和<color=#92fc63>【剧情模式】</color>。
+·在【作战模式】中，指挥官可上阵多只队伍按照顺序分别挑战各个关卡，完成关卡内全部挑战后视为关卡通关并获得奖励。
+·同时，部分关卡可切换<color=#92fc63>「单队连战」</color>、<color=#92fc63>「多队出击」</color>两种模式：
+--「单队连战」为单只队伍挑战各个关卡。选择「单队连战」模式时，每个关卡开始前角色耐久值及各类状态均将重置。
+--「多队出击」为不同队伍挑战各个关卡。选择「多队出击」模式时，可获得额外奖励。
+
+·指挥官可以通过作战模式获取「白夜山庄纪实」，累计收集「怪谈纪实」可获得角色<color=#92fc63>「格里芬」</color>、装备<color=#92fc63>「试作型双联装234mm主炮」</color>在内的大量奖励。
+
+·完成【剧情模式】的全部内容后，可获得限定纪念外观<color=#92fc63>「假牙炮弹」</color>。]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.nier_a2_text_block_day1 = {
 	tip = {
 		{
@@ -50503,6 +50546,26 @@ _G.pg.base.gametip.ConsumeGem_tip = {
 
 _G.pg.base.gametip.nier_a2_item_got = {
 	tip = "已领取"
+}
+
+
+_G.pg.base.gametip.escape_series_pt = {
+	tip = "累计：$1"
+}
+
+
+_G.pg.base.gametip.escape_series_rank = {
+	tip = "排行榜"
+}
+
+
+_G.pg.base.gametip.escape_series_task = {
+	tip = "活动任务"
+}
+
+
+_G.pg.base.gametip.escape_story_reward_count = {
+	tip = "通关全部剧情后可以获得限定纪念外观"
 }
 
 

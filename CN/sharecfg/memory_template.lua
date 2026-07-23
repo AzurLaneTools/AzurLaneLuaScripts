@@ -4200,6 +4200,18 @@ pg.memory_template.all = {
 	5235,
 	5236,
 	5237,
+	5271,
+	5272,
+	5273,
+	5274,
+	5275,
+	5276,
+	5277,
+	5278,
+	5279,
+	5280,
+	5281,
+	5282,
 	5261,
 	5262,
 	5263,
@@ -4219,6 +4231,7 @@ pg.memory_template.all = {
 	5247,
 	5248,
 	5249,
+	5311,
 	10011,
 	10012,
 	10013,
@@ -80111,6 +80124,224 @@ end)()
 			"LAFEIER7"
 		}
 	}
+	pg.base.memory_template[5271] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "入院",
+		condition = "进入剧情模式",
+		story = "GUAITANJISHI1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5271,
+		icon = "memory_guaitanjishi1",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI1"
+		}
+	}
+	pg.base.memory_template[5272] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "病房逃生！",
+		condition = "进入 WN-1",
+		story = "GUAITANJISHI2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5272,
+		icon = "memory_guaitanjishi3",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI2"
+		}
+	}
+	pg.base.memory_template[5273] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "无限回廊",
+		condition = "进入 WN-2",
+		story = "GUAITANJISHI3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5273,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI3"
+		}
+	}
+	pg.base.memory_template[5274] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "游戏的幕后",
+		condition = "进入 WN-3",
+		story = "GUAITANJISHI4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5274,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI4"
+		}
+	}
+end)()
+(function ()
+	pg.base.memory_template[5275] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "渡河",
+		condition = "进入 WN-4",
+		story = "GUAITANJISHI5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5275,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI5"
+		}
+	}
+	pg.base.memory_template[5276] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "古怪的门扉",
+		condition = "进入 WN-5",
+		story = "GUAITANJISHI6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5276,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI6"
+		}
+	}
+	pg.base.memory_template[5277] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "邪恶院长的手术时间",
+		condition = "进入 WN-6",
+		story = "GUAITANJISHI7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5277,
+		icon = "memory_guaitanjishi4",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI7"
+		}
+	}
+	pg.base.memory_template[5278] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "重逢与希望",
+		condition = "进入 WN-7",
+		story = "GUAITANJISHI8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5278,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI8"
+		}
+	}
+	pg.base.memory_template[5279] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "真实之欲",
+		condition = "进入 WN-8",
+		story = "GUAITANJISHI9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5279,
+		icon = "memory_guaitanjishi5",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI9"
+		}
+	}
+	pg.base.memory_template[5280] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "此路不通",
+		condition = "进入 WN-9",
+		story = "2049601",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5280,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"2049601"
+		}
+	}
+	pg.base.memory_template[5281] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "飞越白夜",
+		condition = "进入 WN-10",
+		story = "2049602",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5281,
+		icon = "memory_guaitanjishi6",
+		is_open = 0,
+		unlock_pre = {
+			"2049602"
+		}
+	}
+	pg.base.memory_template[5282] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "后日谈",
+		condition = "进入 WN-11",
+		story = "GUAITANJISHI12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5282,
+		icon = "memory_guaitanjishi6",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI12"
+		}
+	}
 	pg.base.memory_template[5261] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80183,8 +80414,6 @@ end)()
 			"PULIMAOSI1"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5252] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80453,6 +80682,24 @@ end)()
 		is_open = 0,
 		unlock_pre = {
 			"MEIMENGXUNYANQIMIAOYE9"
+		}
+	}
+	pg.base.memory_template[5311] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "特别竞拍时刻",
+		condition = "首次进入活动页",
+		story = "TEBIEJINGPAISHIKE1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5311,
+		icon = "memory_tebiejingpaishike",
+		is_open = 0,
+		unlock_pre = {
+			"TEBIEJINGPAISHIKE1"
 		}
 	}
 	pg.base.memory_template[10011] = {
@@ -81751,6 +81998,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA15"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20015] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81985,8 +82234,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA28"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20028] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83553,6 +83800,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA34"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20115] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83787,8 +84036,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA47"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20128] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85355,6 +85602,8 @@ end)()
 			"TANSUOZHELAIFANGJISHI11"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20217] = {
 		ship_group = 0,
 		subtitle = "",

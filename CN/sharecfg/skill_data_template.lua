@@ -1443,6 +1443,12 @@ pg.skill_data_template.all = {
 	152470,
 	152480,
 	152490,
+	152500,
+	152510,
+	152520,
+	152530,
+	152540,
+	152550,
 	18010,
 	18040,
 	18050,
@@ -2174,6 +2180,10 @@ pg.skill_data_template.all = {
 	30652,
 	30621,
 	30622,
+	30641,
+	30642,
+	30661,
+	30662,
 	101010,
 	101020,
 	101030,
@@ -122853,6 +122863,705 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[152500] = {
+		desc_get = "",
+		name = "繁复美学",
+		type = 2,
+		max_level = 10,
+		desc = "战斗开始时，自身防空属性提高$1、机动属性提高$2；战斗中，我方所有防空属性低于自身的角色防空属性提高$3，防空圈内敌方飞机被击落时，降低我方主力舰队受到的航空伤害$2，效果持续至战斗结束，不可叠加",
+		id = 152500,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152510] = {
+		desc_get = "",
+		name = "华丽开幕",
+		type = 1,
+		max_level = 10,
+		desc = "战斗开始时，自身炮击、雷击、命中属性提高$1；战斗中，自身对当前耐久值低于30%的敌方单位暴击率提高$2，我方旗舰发动空袭或主炮武器开火时，自身触发一轮特殊弹幕$3（每5秒最多触发一次，威力依据技能等级）",
+		id = 152510,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152520] = {
+		desc_get = "",
+		name = "作战命令，确认！",
+		type = 3,
+		max_level = 10,
+		desc = "战斗开始时，自身主炮暴击率和暴击伤害提高$1；自身装备的主炮武器开火时，自身炮击、雷击属性提高$2，属性提升效果最高叠加3次，叠加至满层时，使自身防空属性提高30%（防空属性提升效果持续至战斗结束）；战斗中，自身累计受到最大耐久值20%的伤害时触发，队伍中除自身外前排先锋角色炮击、命中、装填属性提高$3",
+		id = 152520,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"2.5%",
+				"7.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152530] = {
+		desc_get = "",
+		name = "维修命令，确认！",
+		type = 2,
+		max_level = 10,
+		desc = "战斗开始后每12秒触发一轮特殊弹幕$1（威力依据技能等级）；在战斗中受到伤害，导致耐久低于20%时，10秒内每秒回复自身2%耐久（每场战斗最多触发一次）",
+		id = 152530,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152540] = {
+		desc_get = "",
+		name = "战后支援",
+		type = 2,
+		max_level = 10,
+		desc = "战斗中，自身炮击、雷击、防空属性提高$1；我方先锋舰队成员共计受到20次伤害后，为所有先锋舰队成员增加一个护盾，护盾可抵消相当于格里芬自身耐久$2的伤害，持续至战斗结束，该效果每场战斗仅可触发一次。",
+		id = 152540,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152550] = {
+		desc_get = "",
+		name = "狮鹫突击",
+		type = 1,
+		max_level = 10,
+		desc = "战斗开始后，每20秒触发一轮特殊弹幕$1(威力依据技能等级），被特殊弹幕命中的敌方单位在接下来的5秒内受到来自我方先锋编队中驱逐舰和轻巡洋舰的炮击伤害提高12%（该效果不可叠加）；自身在队伍中(存活)时，提高先锋舰队角色机动、防空$2。",
+		id = 152550,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[18010] = {
 		desc_get = "",
 		name = "MKV型穿甲弹 +",
@@ -128025,6 +128734,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19190] = {
 		desc_get = "",
 		name = "怒火连峰",
@@ -128654,8 +129365,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19250] = {
 		desc_get = "",
 		name = "感知抑制模块",
@@ -138065,6 +138774,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20062] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -138149,8 +138860,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20092] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -139467,6 +140176,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22081] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -139551,8 +140262,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22121] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -140869,6 +141578,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[25212] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -140953,8 +141664,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[25232] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -142271,6 +142980,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29222] = {
 		desc_get = "",
 		name = "专属弹幕-{namecode:152}II",
@@ -142355,8 +143066,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29252] = {
 		desc_get = "",
 		name = "专属弹幕-路易九世II",
@@ -143681,6 +144390,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29741] = {
 		desc_get = "",
 		name = "专属弹幕-安克雷奇I",
@@ -143765,8 +144476,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29771] = {
 		desc_get = "",
 		name = "专属弹幕-{namecode:447}I",
@@ -145083,6 +145792,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30271] = {
 		desc_get = "",
 		name = "专属弹幕-布伦努斯I",
@@ -145167,8 +145878,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30301] = {
 		desc_get = "",
 		name = "专属弹幕-哈尔福德I",
@@ -146150,6 +146859,62 @@ end)()
 		max_level = 1,
 		desc = "主炮每进行8次攻击，触发专属弹幕-瑟堡II",
 		id = 30622,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30641] = {
+		desc_get = "",
+		name = "专属弹幕-华丽I",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行12次攻击，触发专属弹幕-华丽I",
+		id = 30641,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30642] = {
+		desc_get = "",
+		name = "专属弹幕-华丽II",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行8次攻击，触发专属弹幕-华丽II",
+		id = 30642,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30661] = {
+		desc_get = "",
+		name = "专属弹幕-萨里I",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行9次攻击，触发专属弹幕-萨里I",
+		id = 30661,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30662] = {
+		desc_get = "",
+		name = "专属弹幕-萨里II",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行6次攻击，触发专属弹幕-萨里II",
+		id = 30662,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -147919,6 +148684,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[103060] = {
 		desc_get = "",
 		name = "百合根",
@@ -148748,8 +149515,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[104040] = {
 		desc_get = "",
 		name = "绝对清楚宣言",
@@ -156984,6 +157749,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[107110] = {
 		desc_get = "",
 		name = "迷路的偶像",
@@ -157782,8 +158549,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[108040] = {
 		desc_get = "",
 		name = "能量脉冲",
@@ -165291,6 +166056,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[110220] = {
 		desc_get = "",
 		name = "New Link Chance！",
@@ -165705,8 +166472,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[111030] = {
 		desc_get = "",
 		name = "发明!战斗!Almighty! +",
@@ -173798,6 +174563,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[190000] = {
 		desc_get = "",
 		name = "钢铁洪流的和声",
@@ -174380,7 +175147,7 @@ end)()
 		name = "清扫任务开始",
 		type = 1,
 		max_level = 10,
-		desc = "战斗开始时，自身炮击、命中属性提高$1；若自身处于非旗舰位，战斗开始后每30秒，自身下一次主炮攻击造成的伤害提高$1（该效果不可叠加）；自身装备的主炮武器开火时，触发一轮特殊弹幕$2（威力依据技能等级），被命中的敌方单位受到高爆弹伤害提高5%，持续5秒；邓肯对轻巡洋舰、重巡洋舰造成的伤害额外提高$3",
+		desc = "战斗开始时，自身炮击、命中属性提高$1；若自身处于非旗舰位，战斗开始后每30秒，自身下一次主炮攻击造成的伤害提高$1（该效果不可叠加）；自身装备的主炮武器开火时，触发一轮特殊弹幕$2（威力依据技能等级），被命中的敌方单位受到高爆弹伤害提高5%，持续6秒；邓肯对轻巡洋舰、重巡洋舰造成的伤害额外提高$3",
 		id = 190080,
 		system_transform = {},
 		world_death_mark = {
@@ -175227,8 +175994,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[190140] = {
 		desc_get = "",
 		name = "石窟的蜘蛛巢",
@@ -179426,6 +180191,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800520] = {
 		desc_get = "",
 		name = "殇视之盾",
@@ -179847,8 +180614,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800575] = {
 		desc_get = "",
 		name = "破敌之炬·声望I",
@@ -184553,6 +185318,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801055] = {
 		desc_get = "",
 		name = "逐光之焰·基洛夫I",
@@ -185136,8 +185903,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801110] = {
 		desc_get = "",
 		name = "交织的回忆",
@@ -189944,6 +190709,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801600] = {
 		desc_get = "",
 		name = "永夜之暗",
@@ -190806,8 +191573,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801671] = {
 		desc_get = "",
 		name = "破敌之炬·大黄蜂I",
@@ -195496,6 +196261,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802171] = {
 		desc_get = "",
 		name = "逐光之焰·{namecode:423}I",
@@ -195908,8 +196675,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802210] = {
 		desc_get = "",
 		name = "这里交给我！",
@@ -201358,6 +202123,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1011120] = {
 		desc_get = "",
 		name = "胜利之歌 +",
@@ -202521,8 +203288,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1010490] = {
 		desc_get = "",
 		name = "姐妹同心 +",
@@ -215466,6 +216231,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090170] = {
 		desc_get = "",
 		name = "穿甲防护·{namecode:57}",
@@ -216688,8 +217455,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090270] = {
 		desc_get = "",
 		name = "战术指挥·{namecode:424}",

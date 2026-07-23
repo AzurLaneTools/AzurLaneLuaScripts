@@ -223,6 +223,9 @@ temp = function()
 				["利"] = {
 					this = true
 				}
+			},
+			["芬"] = {
+				this = true
 			}
 		},
 		["拉"] = {

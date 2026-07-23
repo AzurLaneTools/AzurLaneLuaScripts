@@ -7977,6 +7977,53 @@ pg.activity_ins_language.all = {
 	"op_reply_659_1_1",
 	"ins_op_659_1_2",
 	"op_reply_659_1_2",
+	"ins_660",
+	"ins_discuss_660_1",
+	"ins_reply_660_1_1",
+	"ins_reply_660_1_2",
+	"ins_reply_660_1_3",
+	"ins_reply_660_1_4",
+	"ins_discuss_660_2",
+	"ins_reply_660_2_1",
+	"ins_reply_660_2_2",
+	"ins_reply_660_2_3",
+	"ins_op_660_1_1",
+	"op_reply_660_1_1",
+	"ins_op_660_1_2",
+	"op_reply_660_1_2",
+	"ins_661",
+	"ins_discuss_661_1",
+	"ins_reply_661_1_1",
+	"ins_reply_661_1_2",
+	"ins_reply_661_1_3",
+	"ins_reply_661_1_4",
+	"ins_reply_661_1_5",
+	"ins_discuss_661_2",
+	"ins_reply_661_2_1",
+	"ins_reply_661_2_2",
+	"ins_reply_661_2_3",
+	"ins_reply_661_2_4",
+	"ins_reply_661_2_5",
+	"ins_reply_661_2_6",
+	"ins_op_661_1_1",
+	"op_reply_661_1_1",
+	"ins_op_661_1_2",
+	"op_reply_661_1_2",
+	"ins_662",
+	"ins_discuss_662_1",
+	"ins_reply_662_1_1",
+	"ins_reply_662_1_2",
+	"ins_reply_662_1_3",
+	"ins_discuss_662_2",
+	"ins_reply_662_2_1",
+	"ins_reply_662_2_2",
+	"ins_discuss_662_3",
+	"ins_reply_662_3_1",
+	"ins_reply_662_3_2",
+	"ins_op_662_1_1",
+	"op_reply_662_1_1",
+	"ins_op_662_1_2",
+	"op_reply_662_1_2",
 	"ins_20001",
 	"ins_discuss_20001_1",
 	"ins_reply_20001_1_1",
@@ -8261,7 +8308,38 @@ pg.activity_ins_language.all = {
 	"op_reply_20009_1_3",
 	"ins_op_20009_1_2",
 	"op_reply_20009_2_1",
-	"op_reply_20009_2_2"
+	"op_reply_20009_2_2",
+	"ins_20010",
+	"ins_discuss_20010_1",
+	"ins_discuss_20010_2",
+	"ins_discuss_20010_3",
+	"ins_discuss_20010_4",
+	"ins_reply_20010_4_1",
+	"ins_discuss_20010_5",
+	"ins_reply_20010_5_1",
+	"ins_discuss_20010_6",
+	"ins_reply_20010_6_1",
+	"ins_discuss_20010_7",
+	"ins_reply_20010_7_1",
+	"ins_discuss_20010_8",
+	"ins_reply_20010_8_1",
+	"ins_reply_20010_8_2",
+	"ins_discuss_20010_9",
+	"ins_reply_20010_9_1",
+	"ins_reply_20010_9_2",
+	"ins_reply_20010_9_3",
+	"ins_discuss_20010_10",
+	"ins_reply_20010_10_1",
+	"ins_op_20010_1_1",
+	"op_reply_20010_1_1",
+	"op_reply_20010_1_2",
+	"op_reply_20010_1_3",
+	"ins_op_20010_1_2",
+	"op_reply_20010_2_1",
+	"op_reply_20010_2_2",
+	"op_reply_20010_2_3",
+	"op_reply_20010_2_4",
+	"op_reply_20010_2_5"
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_language = {}
@@ -32344,6 +32422,149 @@ end)()
 	pg.base.activity_ins_language.op_reply_659_1_2 = {
 		value = ""
 	}
+	pg.base.activity_ins_language.ins_660 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_660_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_660_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_660_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_660_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_660_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_660_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_660_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_660_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_660_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_660_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_660_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_660_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_660_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_661 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_661_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_661_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_661_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_661_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_661_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_661_1_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_661_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_661_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_661_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_661_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_661_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_661_2_5 = {
+		value = ""
+	}
+end)()
+(function ()
+	pg.base.activity_ins_language.ins_reply_661_2_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_661_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_661_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_661_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_661_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_662 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_662_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_662_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_662_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_662_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_662_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_662_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_662_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_662_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_662_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_662_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_662_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_662_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_662_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_662_1_2 = {
+		value = ""
+	}
 	pg.base.activity_ins_language.ins_20001 = {
 		value = "欢迎你关注啾啾热点频道！\\n这里将为你追踪港区时事热点，带来最新鲜、最有趣的新闻报道和日常杂谈，当然也接受匿名投稿~\\n啾频道将与你一起，开启这段全新的旅程！"
 	}
@@ -32425,8 +32646,6 @@ end)()
 	pg.base.activity_ins_language.op_reply_20001_1_4 = {
 		value = "这下指挥官必须要光明正大投稿了"
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_op_20001_1_2 = {
 		value = "恭喜啾啾热点频道上线！"
 	}
@@ -32586,6 +32805,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20004_5_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20004_5_3 = {
 		value = ""
 	}
@@ -32727,8 +32948,6 @@ end)()
 	pg.base.activity_ins_language.op_reply_20003_2_4 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.op_reply_20003_2_5 = {
 		value = ""
 	}
@@ -32888,6 +33107,8 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20005_14 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20005_14_1 = {
 		value = ""
 	}
@@ -33029,8 +33250,6 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20008_2 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20008_2_1 = {
 		value = ""
 	}
@@ -33190,6 +33409,8 @@ end)()
 	pg.base.activity_ins_language.op_reply_20009_1_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.op_reply_20009_1_2 = {
 		value = ""
 	}
@@ -33203,6 +33424,99 @@ end)()
 		value = ""
 	}
 	pg.base.activity_ins_language.op_reply_20009_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_20010 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20010_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20010_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20010_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20010_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20010_4_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20010_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20010_5_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20010_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20010_6_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20010_7 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20010_7_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20010_8 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20010_8_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20010_8_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20010_9 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20010_9_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20010_9_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20010_9_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20010_10 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20010_10_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20010_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20010_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20010_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20010_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20010_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20010_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20010_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20010_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20010_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20010_2_5 = {
 		value = ""
 	}
 end)()

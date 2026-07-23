@@ -21,7 +21,8 @@ pg.activity_medal_group.all = {
 	50482,
 	50607,
 	50616,
-	50659
+	50659,
+	51078
 }
 pg.base = pg.base or {}
 pg.base.activity_medal_group = {}
@@ -847,6 +848,45 @@ pg.base.activity_medal_group = {}
 		task_show = {
 			21984,
 			21975
+		}
+	}
+	pg.base.activity_medal_group[51078] = {
+		id = 51078,
+		entrance_picture = "medalAlbum/51078",
+		group_name = "怪谈纪实：逃离白夜山庄！",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				51078,
+				{
+					21988,
+					21989,
+					21990,
+					21991,
+					21992,
+					21993,
+					21994,
+					21995,
+					21996
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "EscapeManorMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{},
+			{
+				8,
+				66052,
+				1
+			}
+		},
+		task_show = {
+			-1,
+			21988
 		}
 	}
 end)()

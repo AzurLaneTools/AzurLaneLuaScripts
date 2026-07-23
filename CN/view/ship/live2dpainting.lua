@@ -7,13 +7,10 @@ slot1 = {
 	"vocal",
 	"interaction",
 	"bgm",
-	"bgmsingle"
+	"bgmsingle",
+	"bgmvolume"
 }
 slot2 = {
-	"button",
-	"interaction"
-}
-slot3 = {
 	button = {
 		sheet_name = "se-SkinButton"
 	},
@@ -33,13 +30,17 @@ slot3 = {
 		loop = false,
 		bgm = true,
 		sheet_name = "se-skin"
+	},
+	bgmvolume = {
+		change_volume = true,
+		sheet_name = ""
 	}
 }
 slot0.COMMON_XIAQI_RESULT = "xiaqi_result"
-slot4 = nil
-slot5 = 5
-slot6 = 3
-slot7 = 0.3
+slot3 = nil
+slot4 = 5
+slot5 = 3
+slot6 = 0.3
 slot0.DRAG_TIME_ACTION = 1
 slot0.DRAG_CLICK_ACTION = 2
 slot0.DRAG_DOWN_ACTION = 3
@@ -72,7 +73,7 @@ slot0.NOTICE_ACTION_LIST = {
 	slot0.ON_ACTION_XY_TRIGGER,
 	slot0.ON_ACTION_DRAG_TRIGGER
 }
-slot8 = {
+slot7 = {
 	[slot0.ON_ACTION_PLAY] = "动作播放 1",
 	[slot0.ON_ACTION_DRAG_CLICK] = "动作点击 2",
 	[slot0.ON_ACTION_CHANGE_IDLE] = "改变idle 3",
@@ -94,7 +95,7 @@ slot0.relation_type_drag_x = 101
 slot0.relation_type_drag_y = 102
 slot0.relation_type_action_index = 103
 slot0.relation_type_idle = 104
-slot9 = {
+slot8 = {
 	CubismParameterBlendMode.Override,
 	CubismParameterBlendMode.Additive,
 	CubismParameterBlendMode.Multiply
@@ -152,7 +153,7 @@ slot0.GenerateData = function(slot0)
 	return slot1
 end
 
-slot10 = function(slot0)
+slot9 = function(slot0)
 	slot1 = slot0.live2dData:GetShipSkinConfig()
 	slot3 = slot1.lip_smoothing
 
@@ -165,7 +166,7 @@ slot10 = function(slot0)
 	end
 end
 
-slot11 = function(slot0)
+slot10 = function(slot0)
 	if slot0.live2dData:GetShipSkinConfig().l2d_para_range ~= nil and type(slot2) == "table" then
 		for slot6, slot7 in pairs(slot2) do
 			slot0.liveCom:SetParaRange(slot6, slot7)
@@ -173,11 +174,11 @@ slot11 = function(slot0)
 	end
 end
 
-slot12 = function(slot0)
+slot11 = function(slot0)
 	return not slot0._readlyToStop
 end
 
-slot13 = function(slot0, slot1)
+slot12 = function(slot0, slot1)
 	if not slot1 or slot1 == "" then
 		return false
 	end
@@ -223,7 +224,7 @@ slot13 = function(slot0, slot1)
 	return true
 end
 
-slot14 = function(slot0, slot1, slot2)
+slot13 = function(slot0, slot1, slot2)
 	if not uv0(slot0, slot1) then
 		return false
 	end
@@ -267,19 +268,19 @@ slot14 = function(slot0, slot1, slot2)
 	return false
 end
 
-slot15 = function(slot0, slot1)
+slot14 = function(slot0, slot1)
 	slot0.liveCom:SetCenterPart("Drawables/TouchHead", Vector3.zero)
 
 	slot0.liveCom.DampingTime = 0.3
 end
 
-slot16 = function(slot0, slot1, slot2)
+slot15 = function(slot0, slot1, slot2)
 	if table.contains(Live2DPainting.NOTICE_ACTION_LIST, slot1) then
 		slot0:onListenerHandle(slot1, slot2)
 	end
 end
 
-slot17 = function(slot0, slot1, slot2)
+slot16 = function(slot0, slot1, slot2)
 	if slot1 == Live2DPainting.EVENT_ACTION_APPLY then
 		slot3 = slot2.id
 		slot5 = slot2.callback
@@ -425,7 +426,7 @@ end
 slot0.getDragCommonData = function(slot0, slot1)
 end
 
-slot18 = function(slot0, slot1)
+slot17 = function(slot0, slot1)
 	if not slot0._l2dCharEnable then
 		return
 	end
@@ -478,7 +479,7 @@ slot18 = function(slot0, slot1)
 		end
 
 		if slot0.drags[slot9].parameterName == "ParamBGM_loop" then
-			pg.CriMgr.GetInstance():ChangeBgmVolume(slot0.drags[slot9]:getParameterTarget())
+			pg.CriMgr.GetInstance():ChangePaintingBgmVolume(slot0.drags[slot9]:getParameterTarget())
 		end
 	end
 
@@ -505,7 +506,7 @@ slot18 = function(slot0, slot1)
 	end
 end
 
-slot19 = function(slot0)
+slot18 = function(slot0)
 	slot0.drags = {}
 	slot0.dragParts = {}
 	slot0.dragCommonData = {}
@@ -664,7 +665,7 @@ slot0.changeTriggerFlag = function(slot0, slot1)
 	slot0.useEventTriggerFlag = slot1
 end
 
-slot20 = function(slot0, slot1)
+slot19 = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 
@@ -675,9 +676,9 @@ slot20 = function(slot0, slot1)
 	slot0._tf.localPosition = slot0.live2dData.position
 	slot0.liveCom = slot1:GetComponent(typeof(Live2dChar))
 	slot0._animator = slot1:GetComponent(typeof(Animator))
+	slot0.cubismModelCom = slot1:GetComponent(typeof(CubismModel))
 	slot0.loadSheets = {}
 	slot0.playingSheetInfo = {}
-	slot0.cubismModelCom = slot1:GetComponent(typeof(CubismModel))
 	slot0.animationClipNames = {}
 
 	if slot0._animator and slot0._animator.runtimeAnimatorController then
@@ -685,8 +686,6 @@ slot20 = function(slot0, slot1)
 			table.insert(slot0.animationClipNames, slot7.name)
 		end
 	end
-
-	slot2 = uv0.action2Id.idle
 
 	slot0.liveCom:SetReactMotions(uv0.idleActions)
 
@@ -718,28 +717,39 @@ slot20 = function(slot0, slot1)
 
 	slot0.dftCom:SetCommonEvent(function (slot0)
 		if table.contains(uv0, string.split(slot0.stringParameter, "_")[1]) then
-			slot2 = uv1.live2dData.ship:getSkinId()
-			slot3, slot4 = nil
+			slot2 = uv1[slot1[1]]
+			slot3 = uv2.live2dData.ship:getSkinId()
+			slot4, slot5 = nil
 			slot6 = false
 			slot7 = 100
+			slot8 = not tobool(slot2.cv_voice)
+			slot9 = slot2.change_volume and slot2.change_volume or false
 
-			if uv2[slot1[1]].cv_voice then
-				slot3 = pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot2))
-				slot4 = "vocal_" .. slot1[2] .. "_" .. pg.ship_skin_template[slot2].group_index
-			elseif slot5.bgm then
-				slot3 = slot5.sheet_name
-				slot4 = "skin-" .. pg.ship_skin_template[slot2].ship_group .. "_" .. slot1[2]
+			if slot2.cv_voice then
+				slot4 = pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot3))
+				slot5 = "vocal_" .. slot1[2] .. "_" .. pg.ship_skin_template[slot3].group_index
+			elseif slot2.bgm then
+				slot4 = slot2.sheet_name
+				slot5 = "skin-" .. pg.ship_skin_template[slot3].ship_group .. "_" .. slot1[2]
 				slot7 = slot1[3] and tonumber(slot1[3]) / 100 or 1
 			else
-				slot3 = slot5.sheet_name
-				slot6 = slot5.loop
-				slot4 = slot2 .. "_" .. slot1[2]
+				slot4 = slot2.sheet_name
+				slot6 = slot2.loop
+				slot5 = slot3 .. "_" .. slot1[2]
 			end
 
-			if slot5.cv_voice then
-				uv1:playL2dVoice(slot3, slot4, table.contains(uv3, slot1[1]))
-			elseif slot5.bgm then
-				pg.CriMgr.GetInstance():PlayPaintingBgm(slot3, slot4, slot6, slot7, uv1.liveCom:GetCubismParameter("ParamBGM_loop") and slot8.Value or 1)
+			if slot4 and slot4 ~= "" and slot5 and slot5 ~= "" then
+				if slot2.bgm then
+					pg.CriMgr.GetInstance():PlayPaintingBgm(slot4, slot5, slot6, slot7, uv2.liveCom:GetCubismParameter("ParamBGM_loop") and slot10.Value or 1)
+				else
+					uv2:playL2dVoice(slot4, slot5, slot8)
+				end
+			end
+
+			if slot9 and tonumber(slot1[2]) / 100 and slot10 >= 0 then
+				pg.CriMgr.GetInstance():changeBGMVolume(slot10 * pg.CriMgr.GetInstance():getBGMVolume())
+
+				uv2.changeBgmVolume = true
 			end
 		end
 	end)
@@ -755,20 +765,20 @@ slot20 = function(slot0, slot1)
 	end
 
 	if slot0.live2dData.l2dDragRate and #slot0.live2dData.l2dDragRate > 0 then
-		slot0.liveCom.DragRateX = slot0.live2dData.l2dDragRate[1] * uv4
-		slot0.liveCom.DragRateY = slot0.live2dData.l2dDragRate[2] * uv5
-		slot0.liveCom.DampingTime = slot0.live2dData.l2dDragRate[3] * uv6
+		slot0.liveCom.DragRateX = slot0.live2dData.l2dDragRate[1] * uv3
+		slot0.liveCom.DragRateY = slot0.live2dData.l2dDragRate[2] * uv4
+		slot0.liveCom.DampingTime = slot0.live2dData.l2dDragRate[3] * uv5
 	end
 
+	uv6(slot0)
 	uv7(slot0)
 	uv8(slot0)
-	uv9(slot0)
 	slot0:setEnableActions({})
 	slot0:setIgnoreActions({})
 	slot0:changeIdleIndex(0)
 
 	if slot0.live2dData.shipL2dId and #slot0.live2dData.shipL2dId > 0 then
-		uv10(slot0)
+		uv9(slot0)
 		slot0:loadLive2dData()
 
 		slot0.timer = Timer.New(function ()
@@ -776,10 +786,10 @@ slot20 = function(slot0, slot1)
 		end, 0.03333333333333333, -1)
 
 		slot0.timer:Start()
-		uv11(slot0)
+		uv10(slot0)
 	end
 
-	slot0.state = uv12.STATE_INITED
+	slot0.state = uv11.STATE_INITED
 
 	if slot0.live2dData and slot0.live2dData.ship and slot0.live2dData.ship.propose then
 		slot0:changeParamaterValue("Paramring", 1)
@@ -800,22 +810,22 @@ slot20 = function(slot0, slot1)
 	end
 
 	if slot0.delayChangeParamater and #slot0.delayChangeParamater > 0 then
-		for slot6 = 1, #slot0.delayChangeParamater do
-			slot7 = slot0.delayChangeParamater[slot6]
+		for slot5 = 1, #slot0.delayChangeParamater do
+			slot6 = slot0.delayChangeParamater[slot5]
 
-			slot0:changeParamaterValue(slot7[1], slot7[2])
+			slot0:changeParamaterValue(slot6[1], slot6[2])
 		end
 
 		slot0.delayChangeParamater = nil
 	end
 
 	slot0:offsetL2dPositonDelay(0.3, 6)
-	uv13(slot0, "idle", true)
+	uv12(slot0, "idle", true)
 	Live2DPainting.SetL2dSortingLayer(slot1, LayerWeightConst.L2D_DEFAULT_LAYER)
 end
 
 slot0.UpdateL2dBgmVolume = function(slot0)
-	pg.CriMgr.GetInstance():ChangeBgmVolume(slot0.liveCom:GetCubismParameter("ParamBGM_loop") and slot1.Value or 1)
+	pg.CriMgr.GetInstance():ChangePaintingBgmVolume(slot0.liveCom:GetCubismParameter("ParamBGM_loop") and slot1.Value or 1)
 end
 
 slot0.Ctor = function(slot0, slot1, slot2)
@@ -1420,6 +1430,10 @@ slot0.Dispose = function(slot0)
 		LeanTween.cancel(go(slot0._tf))
 	end
 
+	if slot0.changeBgmVolume then
+		pg.CriMgr.GetInstance():changeBGMVolume(pg.CriMgr.GetInstance():getBGMVolume())
+	end
+
 	slot0:saveLive2dData()
 
 	slot0._readlyToStop = false
@@ -1475,8 +1489,6 @@ slot0.clearMaskTexture = function(slot0, slot1)
 		for slot8 = 0, slot3.RenderTextures.Length - 1 do
 			slot4[slot8]:Release()
 		end
-
-		slot3.RenderTextureCount = 0
 	end
 end
 

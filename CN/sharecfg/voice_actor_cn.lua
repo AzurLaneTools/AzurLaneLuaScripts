@@ -2072,4 +2072,12 @@ end)()
 		actor_name = "星谷美绪",
 		code = 514
 	}
+	pg.base.voice_actor_CN[515] = {
+		actor_name = "井料爱良",
+		code = 515
+	}
+	pg.base.voice_actor_CN[516] = {
+		actor_name = "福积沙耶",
+		code = 516
+	}
 end)()

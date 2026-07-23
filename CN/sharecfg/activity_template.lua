@@ -1193,6 +1193,15 @@ pg.activity_template.all = {
 	51061,
 	51062,
 	51063,
+	51070,
+	51071,
+	51072,
+	51073,
+	51074,
+	51076,
+	51077,
+	51078,
+	51079,
 	7011,
 	7012,
 	7013,
@@ -1487,7 +1496,8 @@ pg.activity_template.get_id_list_by_type = {
 		50828,
 		50614,
 		50658,
-		51037
+		51037,
+		51070
 	},
 	{
 		8064,
@@ -1863,6 +1873,8 @@ pg.activity_template.get_id_list_by_type = {
 		51015,
 		51035,
 		51046,
+		51074,
+		51078,
 		1103,
 		1104,
 		1105,
@@ -2008,7 +2020,8 @@ pg.activity_template.get_id_list_by_type = {
 		50599,
 		50625,
 		50654,
-		51039
+		51039,
+		51076
 	},
 	[17] = {
 		21,
@@ -2278,7 +2291,8 @@ pg.activity_template.get_id_list_by_type = {
 		50824,
 		50601,
 		50653,
-		51036
+		51036,
+		51077
 	},
 	[29] = {
 		5201,
@@ -2699,6 +2713,7 @@ pg.activity_template.get_id_list_by_type = {
 		51013,
 		51031,
 		51062,
+		51073,
 		1110,
 		6006,
 		6010,
@@ -2859,13 +2874,15 @@ pg.activity_template.get_id_list_by_type = {
 		5888,
 		50013,
 		50351,
-		50521
+		50521,
+		51071
 	},
 	[94] = {
 		5403,
 		5889,
 		50014,
-		50352
+		50352,
+		51072
 	},
 	[100] = {
 		5561,
@@ -2892,7 +2909,8 @@ pg.activity_template.get_id_list_by_type = {
 		50066,
 		50155,
 		50249,
-		50844
+		50844,
+		51079
 	},
 	[104] = {
 		4963
@@ -48613,6 +48631,476 @@ end)()
 			link_act = 51062
 		}
 	}
+	pg.base.activity_template[51070] = {
+		mark = 20260723,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51070,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51071] = {
+		mark = 20260723,
+		type = 93,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "EscapeManorCoreActivity_subtitle_1",
+		id = 51071,
+		page_core = "EscapeManorCoreActivityUI",
+		config_data = {
+			6001,
+			6002,
+			6003,
+			6004,
+			6005
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EscapeManorMainPage",
+			ui_name = "EscapeManorMainPage"
+		},
+		config_client = {
+			openStory = "GUAITANJISHI1",
+			shopItemID = 71384,
+			mediator = "BossRushEscapeManorMediator",
+			PTID = 736,
+			scene = "BossRushEscapeManorScene",
+			task_id = 27329,
+			entrance_bg = "activitybanner/temp10",
+			tasks = {
+				27329
+			},
+			storys = {
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187
+			},
+			storybg = {},
+			levelbg = {},
+			storybgm = {
+				{
+					1,
+					"theme-hospitalnight-mystic"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51072] = {
+		mark = 20260723,
+		page_info = "",
+		type = 94,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		title_res_tag = "",
+		id = 51072,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51073] = {
+		mark = 20260723,
+		type = 74,
+		login_pop = 0,
+		config_id = 51073,
+		is_show = 2,
+		title_res_tag = "EscapeManorCoreActivity_subtitle_2",
+		id = 51073,
+		page_core = "EscapeManorCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EscapeManorPtPage",
+			ui_name = "EscapeManorPtPage"
+		},
+		config_client = {
+			highValueItemSort = {
+				11,
+				19,
+				23,
+				29,
+				33,
+				37
+			}
+		}
+	}
+	pg.base.activity_template[51074] = {
+		mark = 20260723,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51074,
+		page_core = "",
+		config_data = {
+			27323,
+			27324,
+			27325,
+			27326,
+			27327,
+			27328,
+			27329,
+			27330,
+			27331,
+			27332,
+			27333
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51076] = {
+		mark = 20260723,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 736,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 51076,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51077] = {
+		mark = 20260723,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51077,
+		page_core = "",
+		config_data = {
+			{
+				31920,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51078] = {
+		mark = 20260723,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51078,
+		page_core = "",
+		config_data = {
+			21988,
+			21989,
+			21990,
+			21991,
+			21992,
+			21993,
+			21994,
+			21995,
+			21996
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51079] = {
+		mark = 20260723,
+		type = 103,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 3,
+		title_res_tag = "EscapeManorCoreActivity_subtitle_3",
+		id = 51079,
+		page_core = "EscapeManorCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EscapeManorCollectPage",
+			ui_name = "EscapeManorCollectPage",
+			sub_ui = {
+				"EscapeManorCollectMsgBox"
+			}
+		},
+		config_client = {
+			furniture_theme_link = {
+				2,
+				{
+					"scene court yard",
+					{}
+				}
+			},
+			equipskin_box_link = {
+				drop_type = 2,
+				drop_id = 30386,
+				list = {
+					{
+						2,
+						{
+							"scene shop",
+							{
+								warp = "shopstreet"
+							}
+						},
+						"军需商店兑换"
+					}
+				}
+			}
+		}
+	}
 	pg.base.activity_template[7011] = {
 		mark = 20230525,
 		time = "stop",
@@ -48670,6 +49158,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7012] = {
 		mark = 20230720,
 		time = "stop",
@@ -49275,8 +49765,6 @@ end)()
 			ui_name = "CrusingDisplayActPage20"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7021] = {
 		mark = 20250123,
 		type = 54,
@@ -56312,6 +56800,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1108] = {
 		mark = 20251204,
 		page_info = "",
@@ -56822,8 +57312,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[2002] = {
 		mark = 20180327,
 		page_info = "",
@@ -59364,6 +59852,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[970000] = {
 		mark = 20260716,
 		page_info = "",
@@ -59831,8 +60321,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990005] = {
 		mark = 20260205,
 		page_info = "",

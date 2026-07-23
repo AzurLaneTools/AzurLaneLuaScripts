@@ -199,7 +199,12 @@ pg.ship_skin_newmainui_shift.all = {
 	299060,
 	399080,
 	11700011,
-	11700021
+	11700021,
+	202371,
+	203141,
+	9600072,
+	299052,
+	201150
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_newmainui_shift = {}
@@ -9567,6 +9572,248 @@ end)()
 		},
 		spine_shift = {
 			207.4,
+			0,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_shop_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		}
+	}
+	pg.base.ship_skin_newmainui_shift[202371] = {
+		skin = 202371,
+		skin_shift = {
+			-217.18,
+			0,
+			0,
+			1
+		},
+		l2d_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		spine_shift = {
+			217.18,
+			0,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			-53,
+			-13.99996,
+			0,
+			1.2,
+			306.18
+		},
+		skin_shop_shift = {
+			-26.2,
+			-31,
+			0,
+			1.17
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			331.6
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			329.61
+		}
+	}
+	pg.base.ship_skin_newmainui_shift[203141] = {
+		skin = 203141,
+		skin_shift = {
+			-226,
+			-65,
+			0,
+			1.1
+		},
+		l2d_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		spine_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			-4,
+			-23.69996,
+			0,
+			1.2,
+			259.65
+		},
+		skin_shop_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			268.93
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			265.3
+		}
+	}
+	pg.base.ship_skin_newmainui_shift[9600072] = {
+		skin = 9600072,
+		skin_shift = {
+			-15.17999,
+			0,
+			0,
+			1
+		},
+		l2d_shift = {
+			15.17999,
+			0,
+			0,
+			1
+		},
+		spine_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_shop_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		}
+	}
+end)()
+(function ()
+	pg.base.ship_skin_newmainui_shift[299052] = {
+		skin = 299052,
+		skin_shift = {
+			-83.8,
+			0,
+			0,
+			1
+		},
+		l2d_shift = {
+			83.8,
+			0,
+			0,
+			1
+		},
+		spine_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		battle_result_display_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_shop_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		formation_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		},
+		skin_card_shift = {
+			0,
+			0,
+			0,
+			1,
+			0
+		}
+	}
+	pg.base.ship_skin_newmainui_shift[201150] = {
+		skin = 201150,
+		skin_shift = {
+			0,
+			-39.8,
+			0,
+			1
+		},
+		l2d_shift = {
+			0,
+			0,
+			0,
+			1
+		},
+		spine_shift = {
+			0,
 			0,
 			0,
 			1

@@ -97,13 +97,9 @@ pg.base.ship_data_create_material = {}
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>伊莉丝</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>华丽</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>香迪</color>：2.0%<color=#92FC63>(up!)</color>",
-			" ",
-			"<color=#ffde38>千乃</color>：2.0%<color=#92FC63>(up!)</color>",
-			" ",
-			"<color=#ffde38>筑紫</color>：0.5%"
+			"<color=#ffde38>萨里</color>：2.0%<color=#92FC63>(up!)</color>"
 		}
 	}
 	pg.base.ship_data_create_material[5] = {
