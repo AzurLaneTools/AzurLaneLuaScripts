@@ -838,7 +838,12 @@ pg.ship_data_strengthen.all = {
 	49910,
 	69903,
 	79903,
-	119901
+	119901,
+	49911,
+	129901,
+	29906,
+	39908,
+	89905
 }
 pg.base = pg.base or {}
 pg.base.ship_data_strengthen = {}
@@ -20902,6 +20907,126 @@ end)()
 	}
 	pg.base.ship_data_strengthen[119901] = {
 		id = 119901,
+		durability = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		level_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		attr_exp = {
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	}
+	pg.base.ship_data_strengthen[49911] = {
+		id = 49911,
+		durability = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		level_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		attr_exp = {
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	}
+	pg.base.ship_data_strengthen[129901] = {
+		id = 129901,
+		durability = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		level_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		attr_exp = {
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	}
+	pg.base.ship_data_strengthen[29906] = {
+		id = 29906,
+		durability = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		level_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		attr_exp = {
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	}
+	pg.base.ship_data_strengthen[39908] = {
+		id = 39908,
+		durability = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		level_exp = {
+			100,
+			100,
+			100,
+			100,
+			100
+		},
+		attr_exp = {
+			0,
+			0,
+			0,
+			0,
+			0
+		}
+	}
+	pg.base.ship_data_strengthen[89905] = {
+		id = 89905,
 		durability = {
 			0,
 			0,

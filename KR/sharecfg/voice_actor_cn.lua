@@ -1982,4 +1982,16 @@ end)()
 		actor_name = "와쿠노 아이카",
 		code = 511
 	}
+	pg.base.voice_actor_CN[512] = {
+		actor_name = "오지카 나오",
+		code = 512
+	}
+	pg.base.voice_actor_CN[513] = {
+		actor_name = "미우라 치유키",
+		code = 513
+	}
+	pg.base.voice_actor_CN[514] = {
+		actor_name = "호시타니 미오",
+		code = 514
+	}
 end)()

@@ -1412,7 +1412,157 @@ pg.ship_strengthen_blueprint.all = {
 	4227,
 	4228,
 	4229,
-	4230
+	4230,
+	4301,
+	4302,
+	4303,
+	4304,
+	4305,
+	4306,
+	4307,
+	4308,
+	4309,
+	4310,
+	4311,
+	4312,
+	4313,
+	4314,
+	4315,
+	4316,
+	4317,
+	4318,
+	4319,
+	4320,
+	4321,
+	4322,
+	4323,
+	4324,
+	4325,
+	4326,
+	4327,
+	4328,
+	4329,
+	4330,
+	4401,
+	4402,
+	4403,
+	4404,
+	4405,
+	4406,
+	4407,
+	4408,
+	4409,
+	4410,
+	4411,
+	4412,
+	4413,
+	4414,
+	4415,
+	4416,
+	4417,
+	4418,
+	4419,
+	4420,
+	4421,
+	4422,
+	4423,
+	4424,
+	4425,
+	4426,
+	4427,
+	4428,
+	4429,
+	4430,
+	4501,
+	4502,
+	4503,
+	4504,
+	4505,
+	4506,
+	4507,
+	4508,
+	4509,
+	4510,
+	4511,
+	4512,
+	4513,
+	4514,
+	4515,
+	4516,
+	4517,
+	4518,
+	4519,
+	4520,
+	4521,
+	4522,
+	4523,
+	4524,
+	4525,
+	4526,
+	4527,
+	4528,
+	4529,
+	4530,
+	4601,
+	4602,
+	4603,
+	4604,
+	4605,
+	4606,
+	4607,
+	4608,
+	4609,
+	4610,
+	4611,
+	4612,
+	4613,
+	4614,
+	4615,
+	4616,
+	4617,
+	4618,
+	4619,
+	4620,
+	4621,
+	4622,
+	4623,
+	4624,
+	4625,
+	4626,
+	4627,
+	4628,
+	4629,
+	4630,
+	4701,
+	4702,
+	4703,
+	4704,
+	4705,
+	4706,
+	4707,
+	4708,
+	4709,
+	4710,
+	4711,
+	4712,
+	4713,
+	4714,
+	4715,
+	4716,
+	4717,
+	4718,
+	4719,
+	4720,
+	4721,
+	4722,
+	4723,
+	4724,
+	4725,
+	4726,
+	4727,
+	4728,
+	4729,
+	4730
 }
 pg.base = pg.base or {}
 pg.base.ship_strengthen_blueprint = {}
@@ -40666,6 +40816,4149 @@ end)()
 			"【안티 세이렌 】강화",
 			"폭탄 공습Lv.4",
 			"주포 보정+15％"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4301] = {
+		effect_breakout = 0,
+		effect_desc = "도감 오픈: 로그인, 모항 귀환, 자기소개",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4301,
+		need_exp = 20,
+		lv = 1,
+		change_skill = "",
+		effect = {
+			102,
+			76,
+			0,
+			0,
+			46
+		},
+		effect_dialog = {
+			"login",
+			"home",
+			"profile"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4302] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4302,
+		need_exp = 20,
+		lv = 2,
+		change_skill = "",
+		effect = {
+			102,
+			76,
+			0,
+			0,
+			46
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4303] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4303,
+		need_exp = 20,
+		lv = 3,
+		change_skill = "",
+		effect = {
+			102,
+			76,
+			0,
+			0,
+			46
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4304] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4304,
+		need_exp = 20,
+		lv = 4,
+		change_skill = "",
+		effect = {
+			102,
+			76,
+			0,
+			0,
+			46
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4305] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +364|대공 +15|주포 보정 +5%|도감 오픈: 메인1, 전투 시작, 임무",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4305,
+		need_exp = 50,
+		lv = 5,
+		change_skill = "",
+		effect = {
+			102,
+			76,
+			0,
+			0,
+			46
+		},
+		effect_attr = {
+			{
+				"durability",
+				364
+			},
+			{
+				"antiaircraft",
+				15
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_dialog = {
+			"main1",
+			"battle",
+			"mission"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4306] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4306,
+		need_exp = 40,
+		lv = 6,
+		change_skill = "",
+		effect = {
+			204,
+			152,
+			0,
+			0,
+			92
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4307] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4307,
+		need_exp = 40,
+		lv = 7,
+		change_skill = "",
+		effect = {
+			204,
+			152,
+			0,
+			0,
+			92
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4308] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4308,
+		need_exp = 40,
+		lv = 8,
+		change_skill = "",
+		effect = {
+			204,
+			152,
+			0,
+			0,
+			92
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4309] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4309,
+		need_exp = 40,
+		lv = 9,
+		change_skill = "",
+		effect = {
+			204,
+			152,
+			0,
+			0,
+			92
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4310] = {
+		effect_breakout = 299062,
+		effect_desc = "한계돌파 ★4|도감 오픈: 메인 2, 승리, 패배",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4310,
+		need_exp = 80,
+		lv = 10,
+		change_skill = "",
+		effect = {
+			204,
+			152,
+			0,
+			0,
+			92
+		},
+		effect_dialog = {
+			"main2",
+			"win_mvp",
+			"lose"
+		},
+		extra_desc = {
+			"[안티 세이렌] 습득",
+			"주포 포좌 +1"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4311] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4311,
+		need_exp = 60,
+		lv = 11,
+		change_skill = "",
+		effect = {
+			306,
+			228,
+			0,
+			0,
+			138
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4312] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4312,
+		need_exp = 60,
+		lv = 12,
+		change_skill = "",
+		effect = {
+			306,
+			228,
+			0,
+			0,
+			138
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4313] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4313,
+		need_exp = 60,
+		lv = 13,
+		change_skill = "",
+		effect = {
+			306,
+			228,
+			0,
+			0,
+			138
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4314] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4314,
+		need_exp = 60,
+		lv = 14,
+		change_skill = "",
+		effect = {
+			306,
+			228,
+			0,
+			0,
+			138
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4315] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +728|대공 +31|대공 장비 보정 +10%|도감 오픈: 메인3, 터치1, 임무 완료",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4315,
+		need_exp = 120,
+		lv = 15,
+		change_skill = "",
+		effect = {
+			306,
+			228,
+			0,
+			0,
+			138
+		},
+		effect_attr = {
+			{
+				"durability",
+				728
+			},
+			{
+				"antiaircraft",
+				31
+			}
+		},
+		effect_equipment_proficiency = {
+			3,
+			0.1
+		},
+		effect_dialog = {
+			"main3",
+			"touch",
+			"mission_complete"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4316] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4316,
+		need_exp = 100,
+		lv = 16,
+		change_skill = "",
+		effect = {
+			408,
+			304,
+			0,
+			0,
+			184
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4317] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4317,
+		need_exp = 100,
+		lv = 17,
+		change_skill = "",
+		effect = {
+			408,
+			304,
+			0,
+			0,
+			184
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4318] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4318,
+		need_exp = 100,
+		lv = 18,
+		change_skill = "",
+		effect = {
+			408,
+			304,
+			0,
+			0,
+			184
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4319] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4319,
+		need_exp = 100,
+		lv = 19,
+		change_skill = "",
+		effect = {
+			408,
+			304,
+			0,
+			0,
+			184
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4320] = {
+		effect_breakout = 299063,
+		effect_desc = "한계돌파 ★5|도감 오픈: 스킬, 우편, 의뢰 완료",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4320,
+		need_exp = 200,
+		lv = 20,
+		change_skill = "",
+		effect = {
+			408,
+			304,
+			0,
+			0,
+			184
+		},
+		effect_dialog = {
+			"skill",
+			"mail",
+			"expedition"
+		},
+		extra_desc = {
+			"[안티 세이렌] 강화",
+			"부포 포좌 +1",
+			"주포 보정 +10%"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4321] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4321,
+		need_exp = 150,
+		lv = 21,
+		change_skill = "",
+		effect = {
+			510,
+			380,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4322] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4322,
+		need_exp = 150,
+		lv = 22,
+		change_skill = "",
+		effect = {
+			510,
+			380,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4323] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4323,
+		need_exp = 150,
+		lv = 23,
+		change_skill = "",
+		effect = {
+			510,
+			380,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4324] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4324,
+		need_exp = 150,
+		lv = 24,
+		change_skill = "",
+		effect = {
+			510,
+			380,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4325] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +1091|대공 +46|도감 오픈: 손상(大)",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4325,
+		need_exp = 300,
+		lv = 25,
+		change_skill = "",
+		effect = {
+			510,
+			380,
+			0,
+			0,
+			230
+		},
+		effect_attr = {
+			{
+				"durability",
+				1091
+			},
+			{
+				"antiaircraft",
+				46
+			}
+		},
+		effect_dialog = {
+			"touch2",
+			"hp_warning"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4326] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4326,
+		need_exp = 200,
+		lv = 26,
+		change_skill = "",
+		effect = {
+			510,
+			380,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4327] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4327,
+		need_exp = 200,
+		lv = 27,
+		change_skill = "",
+		effect = {
+			510,
+			380,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4328] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4328,
+		need_exp = 200,
+		lv = 28,
+		change_skill = "",
+		effect = {
+			510,
+			380,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4329] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4329,
+		need_exp = 200,
+		lv = 29,
+		change_skill = "",
+		effect = {
+			510,
+			380,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4330] = {
+		effect_breakout = 299064,
+		effect_desc = "한계돌파 ★6",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4330,
+		need_exp = 400,
+		lv = 30,
+		change_skill = "",
+		effect = {
+			510,
+			380,
+			0,
+			0,
+			230
+		},
+		extra_desc = {
+			"[안티 세이렌] 습득",
+			"주포 포좌 +1",
+			"주포 보정 +15%"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4401] = {
+		effect_breakout = 0,
+		effect_desc = "도감 오픈: 로그인, 모항 귀환, 자기소개",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4401,
+		need_exp = 20,
+		lv = 1,
+		change_skill = "",
+		effect = {
+			53,
+			122,
+			0,
+			0,
+			46
+		},
+		effect_dialog = {
+			"login",
+			"home",
+			"profile"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4402] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4402,
+		need_exp = 20,
+		lv = 2,
+		change_skill = "",
+		effect = {
+			53,
+			122,
+			0,
+			0,
+			46
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4403] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4403,
+		need_exp = 20,
+		lv = 3,
+		change_skill = "",
+		effect = {
+			53,
+			122,
+			0,
+			0,
+			46
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4404] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4404,
+		need_exp = 20,
+		lv = 4,
+		change_skill = "",
+		effect = {
+			53,
+			122,
+			0,
+			0,
+			46
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4405] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +254|대공 +23|어뢰 장전 수 +1|도감 오픈: 메인1, 전투 시작, 임무",
+		extra_desc = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4405,
+		need_exp = 50,
+		lv = 5,
+		change_skill = "",
+		effect = {
+			53,
+			122,
+			0,
+			0,
+			46
+		},
+		effect_attr = {
+			{
+				"durability",
+				254
+			},
+			{
+				"antiaircraft",
+				23
+			}
+		},
+		effect_base = {
+			1,
+			2,
+			1
+		},
+		effect_dialog = {
+			"main1",
+			"battle",
+			"mission"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4406] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4406,
+		need_exp = 40,
+		lv = 6,
+		change_skill = "",
+		effect = {
+			106,
+			244,
+			0,
+			0,
+			92
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4407] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4407,
+		need_exp = 40,
+		lv = 7,
+		change_skill = "",
+		effect = {
+			106,
+			244,
+			0,
+			0,
+			92
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4408] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4408,
+		need_exp = 40,
+		lv = 8,
+		change_skill = "",
+		effect = {
+			106,
+			244,
+			0,
+			0,
+			92
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4409] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4409,
+		need_exp = 40,
+		lv = 9,
+		change_skill = "",
+		effect = {
+			106,
+			244,
+			0,
+			0,
+			92
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4410] = {
+		effect_breakout = 399082,
+		effect_desc = "한계돌파 ★4|도감 오픈: 메인 2, 승리, 패배",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4410,
+		need_exp = 80,
+		lv = 10,
+		change_skill = "",
+		effect = {
+			106,
+			244,
+			0,
+			0,
+			92
+		},
+		effect_dialog = {
+			"main2",
+			"win_mvp",
+			"lose"
+		},
+		extra_desc = {
+			"[안티 세이렌] 습득",
+			"특수 탄막 I 습득",
+			"어뢰 동시 장전 가능",
+			"어뢰 보정 +5%"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4411] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4411,
+		need_exp = 60,
+		lv = 11,
+		change_skill = "",
+		effect = {
+			159,
+			366,
+			0,
+			0,
+			138
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4412] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4412,
+		need_exp = 60,
+		lv = 12,
+		change_skill = "",
+		effect = {
+			159,
+			366,
+			0,
+			0,
+			138
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4413] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4413,
+		need_exp = 60,
+		lv = 13,
+		change_skill = "",
+		effect = {
+			159,
+			366,
+			0,
+			0,
+			138
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4414] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4414,
+		need_exp = 60,
+		lv = 14,
+		change_skill = "",
+		effect = {
+			159,
+			366,
+			0,
+			0,
+			138
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4415] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +507|대공 +46|시작 시 어뢰 +1|주포 보정 +10%|도감 오픈: 메인3, 터치1, 임무 완료",
+		extra_desc = "",
+		effect_base = "",
+		need_lv = 10,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4415,
+		need_exp = 120,
+		lv = 15,
+		change_skill = "",
+		effect = {
+			159,
+			366,
+			0,
+			0,
+			138
+		},
+		effect_attr = {
+			{
+				"durability",
+				507
+			},
+			{
+				"antiaircraft",
+				46
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.1
+		},
+		effect_preload = {
+			0,
+			1,
+			0
+		},
+		effect_dialog = {
+			"main3",
+			"touch",
+			"mission_complete"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4416] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4416,
+		need_exp = 100,
+		lv = 16,
+		change_skill = "",
+		effect = {
+			212,
+			488,
+			0,
+			0,
+			184
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4417] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4417,
+		need_exp = 100,
+		lv = 17,
+		change_skill = "",
+		effect = {
+			212,
+			488,
+			0,
+			0,
+			184
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4418] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4418,
+		need_exp = 100,
+		lv = 18,
+		change_skill = "",
+		effect = {
+			212,
+			488,
+			0,
+			0,
+			184
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4419] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4419,
+		need_exp = 100,
+		lv = 19,
+		change_skill = "",
+		effect = {
+			212,
+			488,
+			0,
+			0,
+			184
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4420] = {
+		effect_breakout = 399083,
+		effect_desc = "한계돌파 ★5|주포 포좌 +1|도감 오픈: 스킬, 우편, 의뢰 완료",
+		effect_attr = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4420,
+		need_exp = 200,
+		lv = 20,
+		change_skill = "",
+		effect = {
+			212,
+			488,
+			0,
+			0,
+			184
+		},
+		effect_base = {
+			2,
+			2,
+			1
+		},
+		effect_dialog = {
+			"skill",
+			"mail",
+			"expedition"
+		},
+		extra_desc = {
+			"[안티 세이렌] 강화",
+			"어뢰 보정 +10%",
+			"주포 보정 +10%"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4421] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4421,
+		need_exp = 150,
+		lv = 21,
+		change_skill = "",
+		effect = {
+			265,
+			610,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4422] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4422,
+		need_exp = 150,
+		lv = 22,
+		change_skill = "",
+		effect = {
+			265,
+			610,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4423] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4423,
+		need_exp = 150,
+		lv = 23,
+		change_skill = "",
+		effect = {
+			265,
+			610,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4424] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4424,
+		need_exp = 150,
+		lv = 24,
+		change_skill = "",
+		effect = {
+			265,
+			610,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4425] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +761|대공 +70|대공 장비 보정 +10%|도감 오픈: 손상(大)",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4425,
+		need_exp = 300,
+		lv = 25,
+		change_skill = "",
+		effect = {
+			265,
+			610,
+			0,
+			0,
+			230
+		},
+		effect_attr = {
+			{
+				"durability",
+				761
+			},
+			{
+				"antiaircraft",
+				70
+			}
+		},
+		effect_equipment_proficiency = {
+			3,
+			0.1
+		},
+		effect_dialog = {
+			"touch2",
+			"hp_warning"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4426] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4426,
+		need_exp = 200,
+		lv = 26,
+		change_skill = "",
+		effect = {
+			265,
+			610,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4427] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4427,
+		need_exp = 200,
+		lv = 27,
+		change_skill = "",
+		effect = {
+			265,
+			610,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4428] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4428,
+		need_exp = 200,
+		lv = 28,
+		change_skill = "",
+		effect = {
+			265,
+			610,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4429] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4429,
+		need_exp = 200,
+		lv = 29,
+		change_skill = "",
+		effect = {
+			265,
+			610,
+			0,
+			0,
+			230
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4430] = {
+		effect_breakout = 399084,
+		effect_desc = "한계돌파 ★6|시작 시 어뢰 +1",
+		effect_attr = "",
+		effect_base = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4430,
+		need_exp = 400,
+		lv = 30,
+		change_skill = "",
+		effect = {
+			265,
+			610,
+			0,
+			0,
+			230
+		},
+		effect_preload = {
+			0,
+			2,
+			0
+		},
+		extra_desc = {
+			"[안티 세이렌] 강화",
+			"특수 탄막 강화",
+			"어뢰 보정 +15%"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4501] = {
+		effect_breakout = 0,
+		effect_desc = "도감 오픈: 로그인, 모항 귀환, 자기소개",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4501,
+		need_exp = 30,
+		lv = 1,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			142,
+			36
+		},
+		effect_dialog = {
+			"login",
+			"home",
+			"profile"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4502] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4502,
+		need_exp = 30,
+		lv = 2,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			142,
+			36
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4503] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4503,
+		need_exp = 30,
+		lv = 3,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			142,
+			36
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4504] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4504,
+		need_exp = 30,
+		lv = 4,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			142,
+			36
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4505] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +373|대공 +14|폭격기 수 +1|뇌격기 수 +1|도감 오픈: 메인1, 전투 시작, 임무",
+		extra_desc = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4505,
+		need_exp = 80,
+		lv = 5,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			142,
+			36
+		},
+		effect_attr = {
+			{
+				"durability",
+				373
+			},
+			{
+				"antiaircraft",
+				14
+			}
+		},
+		effect_base = {
+			1,
+			2,
+			2
+		},
+		effect_dialog = {
+			"main1",
+			"battle",
+			"mission"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4506] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4506,
+		need_exp = 60,
+		lv = 6,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			284,
+			72
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4507] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4507,
+		need_exp = 60,
+		lv = 7,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			284,
+			72
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4508] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4508,
+		need_exp = 60,
+		lv = 8,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			284,
+			72
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4509] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4509,
+		need_exp = 60,
+		lv = 9,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			284,
+			72
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4510] = {
+		effect_breakout = 499112,
+		effect_desc = "한계돌파 ★4|도감 오픈: 메인 2, 승리, 패배",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4510,
+		need_exp = 120,
+		lv = 10,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			284,
+			72
+		},
+		effect_dialog = {
+			"main2",
+			"win_mvp",
+			"lose"
+		},
+		extra_desc = {
+			"[안티 세이렌] 습득",
+			"폭격기 보정 +5%",
+			"뇌격기 보정 +5%"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4511] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4511,
+		need_exp = 90,
+		lv = 11,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			426,
+			108
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4512] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4512,
+		need_exp = 90,
+		lv = 12,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			426,
+			108
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4513] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4513,
+		need_exp = 90,
+		lv = 13,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			426,
+			108
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4514] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4514,
+		need_exp = 90,
+		lv = 14,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			426,
+			108
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4515] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +747|대공 +28|전투기 수 +1|폭격기 보정 +10%|도감 오픈: 메인3, 터치1, 임무 완료",
+		extra_desc = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4515,
+		need_exp = 180,
+		lv = 15,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			426,
+			108
+		},
+		effect_attr = {
+			{
+				"durability",
+				747
+			},
+			{
+				"antiaircraft",
+				28
+			}
+		},
+		effect_equipment_proficiency = {
+			2,
+			0.1
+		},
+		effect_base = {
+			2,
+			2,
+			2
+		},
+		effect_dialog = {
+			"main3",
+			"touch",
+			"mission_complete"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4516] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4516,
+		need_exp = 150,
+		lv = 16,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			568,
+			144
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4517] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4517,
+		need_exp = 150,
+		lv = 17,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			568,
+			144
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4518] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4518,
+		need_exp = 150,
+		lv = 18,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			568,
+			144
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4519] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4519,
+		need_exp = 150,
+		lv = 19,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			568,
+			144
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4520] = {
+		effect_breakout = 499113,
+		effect_desc = "한계돌파 ★5|도감 오픈: 스킬, 우편, 의뢰 완료",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4520,
+		need_exp = 300,
+		lv = 20,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			568,
+			144
+		},
+		effect_dialog = {
+			"skill",
+			"mail",
+			"expedition"
+		},
+		extra_desc = {
+			"[안티 세이렌] 강화",
+			"격납고 용량 +1",
+			"전투기 보정 +10%",
+			"폭격기 슬롯에 뇌격기 장착 가능"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4521] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4521,
+		need_exp = 220,
+		lv = 21,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			710,
+			180
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4522] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4522,
+		need_exp = 220,
+		lv = 22,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			710,
+			180
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4523] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4523,
+		need_exp = 220,
+		lv = 23,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			710,
+			180
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4524] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4524,
+		need_exp = 220,
+		lv = 24,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			710,
+			180
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4525] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +1120|대공 +41|뇌격기 보정+10%|함재기 수 +1|도감 오픈: 손상(大)",
+		extra_desc = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4525,
+		need_exp = 450,
+		lv = 25,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			710,
+			180
+		},
+		effect_attr = {
+			{
+				"durability",
+				1120
+			},
+			{
+				"antiaircraft",
+				41
+			}
+		},
+		effect_equipment_proficiency = {
+			3,
+			0.1
+		},
+		effect_base = {
+			3,
+			3,
+			3
+		},
+		effect_dialog = {
+			"touch2",
+			"hp_warning"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4526] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4526,
+		need_exp = 300,
+		lv = 26,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			710,
+			180
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4527] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4527,
+		need_exp = 300,
+		lv = 27,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			710,
+			180
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4528] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4528,
+		need_exp = 300,
+		lv = 28,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			710,
+			180
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4529] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4529,
+		need_exp = 300,
+		lv = 29,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			710,
+			180
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4530] = {
+		effect_breakout = 499114,
+		effect_desc = "한계돌파 ★6",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4530,
+		need_exp = 600,
+		lv = 30,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			710,
+			180
+		},
+		extra_desc = {
+			"[안티 세이렌] 강화",
+			"함재기 보정 +5%",
+			"뇌격기 슬롯에 전투기 장착 가능"
+		}
+	}
+end)()
+(function ()
+	pg.base.ship_strengthen_blueprint[4601] = {
+		effect_breakout = 0,
+		effect_desc = "도감 오픈: 로그인, 모항 귀환, 자기소개",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4601,
+		need_exp = 20,
+		lv = 1,
+		change_skill = "",
+		effect = {
+			38,
+			128,
+			0,
+			0,
+			59
+		},
+		effect_dialog = {
+			"login",
+			"home",
+			"profile"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4602] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4602,
+		need_exp = 20,
+		lv = 2,
+		change_skill = "",
+		effect = {
+			38,
+			128,
+			0,
+			0,
+			59
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4603] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4603,
+		need_exp = 20,
+		lv = 3,
+		change_skill = "",
+		effect = {
+			38,
+			128,
+			0,
+			0,
+			59
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4604] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4604,
+		need_exp = 20,
+		lv = 4,
+		change_skill = "",
+		effect = {
+			38,
+			128,
+			0,
+			0,
+			59
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4605] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +104|대공 +8|어뢰 장전 수 +1|도감 오픈: 메인1, 전투 시작, 임무",
+		extra_desc = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4605,
+		need_exp = 50,
+		lv = 5,
+		change_skill = "",
+		effect = {
+			38,
+			128,
+			0,
+			0,
+			59
+		},
+		effect_attr = {
+			{
+				"durability",
+				104
+			},
+			{
+				"antiaircraft",
+				8
+			}
+		},
+		effect_base = {
+			1,
+			2,
+			1
+		},
+		effect_dialog = {
+			"main1",
+			"battle",
+			"mission"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4606] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4606,
+		need_exp = 40,
+		lv = 6,
+		change_skill = "",
+		effect = {
+			76,
+			256,
+			0,
+			0,
+			118
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4607] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4607,
+		need_exp = 40,
+		lv = 7,
+		change_skill = "",
+		effect = {
+			76,
+			256,
+			0,
+			0,
+			118
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4608] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4608,
+		need_exp = 40,
+		lv = 8,
+		change_skill = "",
+		effect = {
+			76,
+			256,
+			0,
+			0,
+			118
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4609] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4609,
+		need_exp = 40,
+		lv = 9,
+		change_skill = "",
+		effect = {
+			76,
+			256,
+			0,
+			0,
+			118
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4610] = {
+		effect_breakout = 899052,
+		effect_desc = "한계돌파 ★4|도감 오픈: 메인 2, 승리, 패배",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4610,
+		need_exp = 80,
+		lv = 10,
+		change_skill = "",
+		effect = {
+			76,
+			256,
+			0,
+			0,
+			118
+		},
+		effect_dialog = {
+			"main2",
+			"win_mvp",
+			"lose"
+		},
+		extra_desc = {
+			"[안티 세이렌] 습득",
+			"주포 보정 +5%",
+			"특수 탄막 I 습득"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4611] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4611,
+		need_exp = 60,
+		lv = 11,
+		change_skill = "",
+		effect = {
+			114,
+			384,
+			0,
+			0,
+			177
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4612] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4612,
+		need_exp = 60,
+		lv = 12,
+		change_skill = "",
+		effect = {
+			114,
+			384,
+			0,
+			0,
+			177
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4613] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4613,
+		need_exp = 60,
+		lv = 13,
+		change_skill = "",
+		effect = {
+			114,
+			384,
+			0,
+			0,
+			177
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4614] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4614,
+		need_exp = 60,
+		lv = 14,
+		change_skill = "",
+		effect = {
+			114,
+			384,
+			0,
+			0,
+			177
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4615] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +207|대공 +15|어뢰 보정 +10%|시작 시 어뢰 +1|도감 오픈: 메인3, 터치1, 임무 완료",
+		extra_desc = "",
+		effect_base = "",
+		need_lv = 10,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4615,
+		need_exp = 120,
+		lv = 15,
+		change_skill = "",
+		effect = {
+			114,
+			384,
+			0,
+			0,
+			177
+		},
+		effect_attr = {
+			{
+				"durability",
+				207
+			},
+			{
+				"antiaircraft",
+				15
+			}
+		},
+		effect_equipment_proficiency = {
+			2,
+			0.1
+		},
+		effect_preload = {
+			0,
+			1,
+			0
+		},
+		effect_dialog = {
+			"main3",
+			"touch",
+			"mission_complete"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4616] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4616,
+		need_exp = 100,
+		lv = 16,
+		change_skill = "",
+		effect = {
+			152,
+			512,
+			0,
+			0,
+			236
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4617] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4617,
+		need_exp = 100,
+		lv = 17,
+		change_skill = "",
+		effect = {
+			152,
+			512,
+			0,
+			0,
+			236
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4618] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4618,
+		need_exp = 100,
+		lv = 18,
+		change_skill = "",
+		effect = {
+			152,
+			512,
+			0,
+			0,
+			236
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4619] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4619,
+		need_exp = 100,
+		lv = 19,
+		change_skill = "",
+		effect = {
+			152,
+			512,
+			0,
+			0,
+			236
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4620] = {
+		effect_breakout = 899053,
+		effect_desc = "한계돌파 ★5|도감 오픈: 스킬, 우편, 의뢰 완료",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4620,
+		need_exp = 200,
+		lv = 20,
+		change_skill = "",
+		effect = {
+			152,
+			512,
+			0,
+			0,
+			236
+		},
+		effect_dialog = {
+			"skill",
+			"mail",
+			"expedition"
+		},
+		extra_desc = {
+			"[안티 세이렌] 강화",
+			"대공 장비 보정 +10%"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4621] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4621,
+		need_exp = 150,
+		lv = 21,
+		change_skill = "",
+		effect = {
+			190,
+			640,
+			0,
+			0,
+			295
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4622] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4622,
+		need_exp = 150,
+		lv = 22,
+		change_skill = "",
+		effect = {
+			190,
+			640,
+			0,
+			0,
+			295
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4623] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4623,
+		need_exp = 150,
+		lv = 23,
+		change_skill = "",
+		effect = {
+			190,
+			640,
+			0,
+			0,
+			295
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4624] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4624,
+		need_exp = 150,
+		lv = 24,
+		change_skill = "",
+		effect = {
+			190,
+			640,
+			0,
+			0,
+			295
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4625] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +311|대공 +23|도감 오픈: 손상(大)",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4625,
+		need_exp = 300,
+		lv = 25,
+		change_skill = "",
+		effect = {
+			190,
+			640,
+			0,
+			0,
+			295
+		},
+		effect_attr = {
+			{
+				"durability",
+				311
+			},
+			{
+				"antiaircraft",
+				23
+			}
+		},
+		effect_dialog = {
+			"touch2",
+			"hp_warning"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4626] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4626,
+		need_exp = 200,
+		lv = 26,
+		change_skill = "",
+		effect = {
+			190,
+			640,
+			0,
+			0,
+			295
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4627] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4627,
+		need_exp = 200,
+		lv = 27,
+		change_skill = "",
+		effect = {
+			190,
+			640,
+			0,
+			0,
+			295
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4628] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4628,
+		need_exp = 200,
+		lv = 28,
+		change_skill = "",
+		effect = {
+			190,
+			640,
+			0,
+			0,
+			295
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4629] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4629,
+		need_exp = 200,
+		lv = 29,
+		change_skill = "",
+		effect = {
+			190,
+			640,
+			0,
+			0,
+			295
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4630] = {
+		effect_breakout = 899054,
+		effect_desc = "한계돌파 ★6",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4630,
+		need_exp = 400,
+		lv = 30,
+		change_skill = "",
+		effect = {
+			190,
+			640,
+			0,
+			0,
+			295
+		},
+		extra_desc = {
+			"[안티 세이렌] 강화",
+			"특수 탄막 강화",
+			"무기 보정 +5%",
+			"설비에 따른 능력치 증가 +30%"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4701] = {
+		effect_breakout = 0,
+		effect_desc = "도감 오픈: 로그인, 모항 귀환, 자기소개",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4701,
+		need_exp = 30,
+		lv = 1,
+		change_skill = "",
+		effect = {
+			124,
+			0,
+			0,
+			0,
+			48
+		},
+		effect_dialog = {
+			"login",
+			"home",
+			"profile"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4702] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4702,
+		need_exp = 30,
+		lv = 2,
+		change_skill = "",
+		effect = {
+			124,
+			0,
+			0,
+			0,
+			48
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4703] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4703,
+		need_exp = 30,
+		lv = 3,
+		change_skill = "",
+		effect = {
+			124,
+			0,
+			0,
+			0,
+			48
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4704] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4704,
+		need_exp = 30,
+		lv = 4,
+		change_skill = "",
+		effect = {
+			124,
+			0,
+			0,
+			0,
+			48
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4705] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +387|대공 +20|주포 보정 +5%|부포 포좌 +1|도감 오픈: 메인1, 전투 시작, 임무",
+		extra_desc = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4705,
+		need_exp = 80,
+		lv = 5,
+		change_skill = "",
+		effect = {
+			124,
+			0,
+			0,
+			0,
+			48
+		},
+		effect_attr = {
+			{
+				"durability",
+				387
+			},
+			{
+				"antiaircraft",
+				20
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_base = {
+			1,
+			2,
+			1
+		},
+		effect_dialog = {
+			"main1",
+			"battle",
+			"mission"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4706] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4706,
+		need_exp = 60,
+		lv = 6,
+		change_skill = "",
+		effect = {
+			248,
+			0,
+			0,
+			0,
+			96
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4707] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4707,
+		need_exp = 60,
+		lv = 7,
+		change_skill = "",
+		effect = {
+			248,
+			0,
+			0,
+			0,
+			96
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4708] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4708,
+		need_exp = 60,
+		lv = 8,
+		change_skill = "",
+		effect = {
+			248,
+			0,
+			0,
+			0,
+			96
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4709] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 1,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4709,
+		need_exp = 60,
+		lv = 9,
+		change_skill = "",
+		effect = {
+			248,
+			0,
+			0,
+			0,
+			96
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4710] = {
+		effect_breakout = 1299012,
+		effect_desc = "한계돌파 ★4|주포 보정 +5%|도감 오픈: 메인 2, 승리, 패배",
+		effect_attr = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4710,
+		need_exp = 120,
+		lv = 10,
+		change_skill = "",
+		effect = {
+			248,
+			0,
+			0,
+			0,
+			96
+		},
+		effect_base = {
+			1,
+			2,
+			1
+		},
+		effect_dialog = {
+			"main2",
+			"win_mvp",
+			"lose"
+		},
+		extra_desc = {
+			"[안티 세이렌] 습득",
+			"주포 포좌 +1"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4711] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4711,
+		need_exp = 90,
+		lv = 11,
+		change_skill = "",
+		effect = {
+			372,
+			0,
+			0,
+			0,
+			144
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4712] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4712,
+		need_exp = 90,
+		lv = 12,
+		change_skill = "",
+		effect = {
+			372,
+			0,
+			0,
+			0,
+			144
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4713] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4713,
+		need_exp = 90,
+		lv = 13,
+		change_skill = "",
+		effect = {
+			372,
+			0,
+			0,
+			0,
+			144
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4714] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4714,
+		need_exp = 90,
+		lv = 14,
+		change_skill = "",
+		effect = {
+			372,
+			0,
+			0,
+			0,
+			144
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4715] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +773|대공 +40|부포 보정 +10%|도감 오픈: 메인3, 터치1, 임무 완료",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4715,
+		need_exp = 180,
+		lv = 15,
+		change_skill = "",
+		effect = {
+			372,
+			0,
+			0,
+			0,
+			144
+		},
+		effect_attr = {
+			{
+				"durability",
+				773
+			},
+			{
+				"antiaircraft",
+				40
+			}
+		},
+		effect_equipment_proficiency = {
+			2,
+			0.1
+		},
+		effect_dialog = {
+			"main3",
+			"touch",
+			"mission_complete"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4716] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4716,
+		need_exp = 150,
+		lv = 16,
+		change_skill = "",
+		effect = {
+			496,
+			0,
+			0,
+			0,
+			192
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4717] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4717,
+		need_exp = 150,
+		lv = 17,
+		change_skill = "",
+		effect = {
+			496,
+			0,
+			0,
+			0,
+			192
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4718] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4718,
+		need_exp = 150,
+		lv = 18,
+		change_skill = "",
+		effect = {
+			496,
+			0,
+			0,
+			0,
+			192
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4719] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 10,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4719,
+		need_exp = 150,
+		lv = 19,
+		change_skill = "",
+		effect = {
+			496,
+			0,
+			0,
+			0,
+			192
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4720] = {
+		effect_breakout = 1299013,
+		effect_desc = "한계돌파 ★5|부포 포좌 +1|도감 오픈: 스킬, 우편, 의뢰 완료",
+		effect_attr = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4720,
+		need_exp = 300,
+		lv = 20,
+		change_skill = "",
+		effect = {
+			496,
+			0,
+			0,
+			0,
+			192
+		},
+		effect_base = {
+			2,
+			3,
+			1
+		},
+		effect_dialog = {
+			"skill",
+			"mail",
+			"expedition"
+		},
+		extra_desc = {
+			"[안티 세이렌] 강화",
+			"주포 장전 상한 +1",
+			"주포 보정 +10%"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4721] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4721,
+		need_exp = 220,
+		lv = 21,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			240
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4722] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4722,
+		need_exp = 220,
+		lv = 22,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			240
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4723] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4723,
+		need_exp = 220,
+		lv = 23,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			240
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4724] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4724,
+		need_exp = 220,
+		lv = 24,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			240
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4725] = {
+		effect_breakout = 0,
+		effect_desc = "내구 +1160|대공 +61|주포 보정 +5%|도감 오픈: 손상(大)",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_skill = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4725,
+		need_exp = 450,
+		lv = 25,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			240
+		},
+		effect_attr = {
+			{
+				"durability",
+				1160
+			},
+			{
+				"antiaircraft",
+				61
+			}
+		},
+		effect_equipment_proficiency = {
+			1,
+			0.05
+		},
+		effect_dialog = {
+			"touch2",
+			"hp_warning"
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4726] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4726,
+		need_exp = 300,
+		lv = 26,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			240
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4727] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4727,
+		need_exp = 300,
+		lv = 27,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			240
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4728] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4728,
+		need_exp = 300,
+		lv = 28,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			240
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4729] = {
+		effect_breakout = 0,
+		effect_desc = "",
+		extra_desc = "",
+		effect_attr = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 30,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 0,
+		effect_skin = 0,
+		id = 4729,
+		need_exp = 300,
+		lv = 29,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			240
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4730] = {
+		effect_breakout = 1299014,
+		effect_desc = "한계돌파 ★6|주포 포좌+1",
+		effect_attr = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4730,
+		need_exp = 600,
+		lv = 30,
+		change_skill = "",
+		effect = {
+			620,
+			0,
+			0,
+			0,
+			240
+		},
+		effect_base = {
+			2,
+			3,
+			1
+		},
+		extra_desc = {
+			"[안티 세이렌] 강화",
+			"주포 보정 +15%"
 		}
 	}
 end)()

@@ -144,6 +144,28 @@ slot0.GetShipConfigIDListByPoolList = function(slot0)
 	return slot1
 end
 
+slot0.GetLightPoolBlueDestroyerShipConfigIDList = function(slot0, slot1, slot2)
+	slot1 = slot1 or 3
+	slot2 = slot2 or 1
+	slot3 = {}
+
+	if type(slot0 or 2) ~= "number" or type(slot1) ~= "number" or type(slot2) ~= "number" or type(pg.ship_data_create) ~= "table" or type(pg.ship_data_statistics) ~= "table" then
+		return slot3
+	end
+
+	for slot7, slot8 in pairs(pg.ship_data_create) do
+		if type(slot7) == "number" and type(slot8) == "table" then
+			slot10 = pg.ship_data_statistics[slot7]
+
+			if type(slot8[slot0]) == "number" and slot9 > 0 and type(slot10) == "table" and slot10.rarity == slot1 and slot10.type == slot2 then
+				table.insert(slot3, slot7)
+			end
+		end
+	end
+
+	return slot3
+end
+
 slot0.GetActID2MemoryMap = function()
 	slot0 = {}
 
@@ -308,23 +330,24 @@ SpecialFilteForChange = function()
 	end
 
 	slot1(PaintingfilteConst.GetConstPoolShipConfigIDList())
+	slot1(PaintingfilteConst.GetLightPoolBlueDestroyerShipConfigIDList())
 	slot1(PaintingfilteConst.GetNPCShipConfigIDList())
 	slot1(PaintingfilteConst.GetCreateExchangeShipConfigIDList())
 
 	if pg.painting_filte_config.current_sale_skin == 1 then
-		slot6 = PaintingfilteConst.GetNormalShopSkinIDList()
+		slot7 = PaintingfilteConst.GetNormalShopSkinIDList()
 
-		warning("normalShopSkinIDList:" .. #slot6)
-		slot2(slot6)
-
-		slot7 = PaintingfilteConst.GetActShopSkinIDList()
-
-		warning("actShopSkinIDList:" .. #slot7)
+		warning("normalShopSkinIDList:" .. #slot7)
 		slot2(slot7)
+
+		slot8 = PaintingfilteConst.GetActShopSkinIDList()
+
+		warning("actShopSkinIDList:" .. #slot8)
+		slot2(slot8)
 	end
 
-	for slot9, slot10 in ipairs(pg.secretary_special_ship.all) do
-		uv2(slot0, pg.secretary_special_ship[slot10].prefab)
+	for slot10, slot11 in ipairs(pg.secretary_special_ship.all) do
+		uv2(slot0, pg.secretary_special_ship[slot11].prefab)
 	end
 
 	return table.concat(slot0, ";")

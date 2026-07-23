@@ -280,6 +280,7 @@ pg.name_code.all = {
 	310,
 	311,
 	312,
+	313,
 	400,
 	401,
 	402,
@@ -445,6 +446,8 @@ pg.name_code.all = {
 	561,
 	562,
 	564,
+	565,
+	566,
 	10000,
 	10001,
 	10002,
@@ -2401,6 +2404,13 @@ end)()
 		code = "키즈",
 		nation = 0
 	}
+	pg.base.name_code[313] = {
+		name = "타카하시",
+		type = 1,
+		id = 313,
+		code = "타카하시",
+		nation = 0
+	}
 	pg.base.name_code[400] = {
 		name = "Z1",
 		type = 1,
@@ -2555,6 +2565,8 @@ end)()
 		code = "쾨니히스베르크",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[422] = {
 		name = "카를스루에",
 		type = 1,
@@ -2562,8 +2574,6 @@ end)()
 		code = "카를스루에",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[423] = {
 		name = "쾰른",
 		type = 1,
@@ -3257,6 +3267,8 @@ end)()
 		code = "希尔德加德",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[522] = {
 		name = "旗风·META",
 		type = 1,
@@ -3264,8 +3276,6 @@ end)()
 		code = "樋·META",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[523] = {
 		name = "장 바르",
 		type = 1,
@@ -3558,6 +3568,20 @@ end)()
 		type = 1,
 		id = 564,
 		code = "괴츠 폰 베를리힝겐",
+		nation = 0
+	}
+	pg.base.name_code[565] = {
+		name = "막스 임멜만",
+		type = 1,
+		id = 565,
+		code = "막스 임멜만",
+		nation = 0
+	}
+	pg.base.name_code[566] = {
+		name = "고대의 강철 드래곤이자 영원의 생명을 지닌, 하늘을 다스리는 자",
+		type = 1,
+		id = 566,
+		code = "고대의 강철 드래곤이자 영원의 생명을 지닌, 하늘을 다스리는 자",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {

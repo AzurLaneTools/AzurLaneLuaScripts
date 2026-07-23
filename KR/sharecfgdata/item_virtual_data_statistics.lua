@@ -2119,6 +2119,140 @@ _G.pg.base.item_virtual_data_statistics[52092] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[52101] = {
+	drop_gold_max = 0,
+	name = "강화 유닛(랜덤)",
+	display = "랜덤으로 다음 강화 유닛을 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/52001",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 52101,
+	display_icon = {
+		{
+			2,
+			42085,
+			1
+		},
+		{
+			2,
+			42083,
+			1
+		},
+		{
+			2,
+			42081,
+			1
+		},
+		{
+			2,
+			42082,
+			1
+		},
+		{
+			2,
+			42084,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[52102] = {
+	drop_gold_max = 0,
+	name = "장비 설계도(랜덤)",
+	display = "랜덤으로 다음 설계도를 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 52102,
+	display_icon = {
+		{
+			2,
+			13061,
+			1
+		},
+		{
+			2,
+			13057,
+			1
+		},
+		{
+			2,
+			13056,
+			1
+		},
+		{
+			2,
+			13058,
+			1
+		},
+		{
+			2,
+			13059,
+			1
+		},
+		{
+			2,
+			13060,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13007,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[53000] = {
 	drop_gold_max = 0,
 	name = "장비 & 설계도 (랜덤) ",

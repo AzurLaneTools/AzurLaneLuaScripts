@@ -192,9 +192,7 @@ slot0.confirm = function(slot0, slot1)
 			})
 		end
 	elseif slot1:isActGiftPackage() then
-		slot0:emit(NewShopMainMediator.OPEN_LAYER, ChargeActGiftLayer, ChargeActGiftMediator, {
-			actId = slot1:getBindActivity().id
-		})
+		slot0:emit(NewShopMainMediator.OPEN_GIFT_ACT_LAYER, slot1:getBindActivity().id)
 	else
 		slot2 = {}
 

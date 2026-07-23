@@ -1116,6 +1116,7 @@ pg.activity_template.all = {
 	50491,
 	50492,
 	50493,
+	50521,
 	50801,
 	50803,
 	50804,
@@ -1145,8 +1146,6 @@ pg.activity_template.all = {
 	50833,
 	50834,
 	50835,
-	50836,
-	50837,
 	50838,
 	50598,
 	50599,
@@ -1184,6 +1183,8 @@ pg.activity_template.all = {
 	50658,
 	50659,
 	50660,
+	50836,
+	50837,
 	51001,
 	51002,
 	51003,
@@ -1602,8 +1603,8 @@ pg.activity_template.get_id_list_by_type = {
 		50473,
 		50814,
 		50822,
-		50836,
 		50609,
+		50836,
 		51043,
 		8009,
 		8029,
@@ -1981,7 +1982,6 @@ pg.activity_template.get_id_list_by_type = {
 		50831,
 		50834,
 		50835,
-		50837,
 		50838,
 		50598,
 		50603,
@@ -1991,6 +1991,7 @@ pg.activity_template.get_id_list_by_type = {
 		50624,
 		50656,
 		50659,
+		50837,
 		51006,
 		51014,
 		51015,
@@ -3020,7 +3021,8 @@ pg.activity_template.get_id_list_by_type = {
 		5402,
 		5888,
 		50013,
-		50351
+		50351,
+		50521
 	},
 	[94] = {
 		5403,
@@ -45619,6 +45621,26 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50521] = {
+		mark = 20260709,
+		page_info = "",
+		time = "stop",
+		type = 93,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50521,
+		page_core = "",
+		config_data = {
+			1001001,
+			1001002,
+			1001003
+		},
+		config_client = {
+			scene = "BossRushKurskReScene"
+		}
+	}
 	pg.base.activity_template[50801] = {
 		mark = 20260423,
 		page_info = "",
@@ -47133,75 +47155,6 @@ end)()
 					12,
 					0,
 					0
-				}
-			}
-		}
-	}
-	pg.base.activity_template[50836] = {
-		mark = 20260430,
-		time = "stop",
-		type = 3,
-		login_pop = 0,
-		config_id = 94,
-		is_show = 47,
-		title_res_tag = "YidaliV2_login",
-		id = 50836,
-		page_core = "",
-		config_data = {},
-		page_info = {
-			class_name = "InvitePageKR",
-			ui_name = "InvitePageKR"
-		},
-		config_client = {
-			manulSign = true
-		}
-	}
-	pg.base.activity_template[50837] = {
-		mark = 20260326,
-		page_info = "",
-		type = 13,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_client = "",
-		title_res_tag = "",
-		id = 50837,
-		page_core = "",
-		config_data = {
-			21952,
-			21944,
-			21945,
-			21946,
-			21947,
-			21948,
-			21949,
-			21950,
-			21951
-		},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					5,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					5,
-					27
-				},
-				{
-					23,
-					59,
-					59
 				}
 			}
 		}
@@ -49159,6 +49112,75 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50836] = {
+		mark = 20260430,
+		time = "stop",
+		type = 3,
+		login_pop = 0,
+		config_id = 94,
+		is_show = 47,
+		title_res_tag = "YidaliV2_login",
+		id = 50836,
+		page_core = "",
+		config_data = {},
+		page_info = {
+			class_name = "InvitePageKR",
+			ui_name = "InvitePageKR"
+		},
+		config_client = {
+			manulSign = true
+		}
+	}
+	pg.base.activity_template[50837] = {
+		mark = 20260326,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50837,
+		page_core = "",
+		config_data = {
+			21952,
+			21944,
+			21945,
+			21946,
+			21947,
+			21948,
+			21949,
+			21950,
+			21951
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					5,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					5,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51001] = {
 		mark = 20260514,
 		type = 18,
@@ -50183,6 +50205,8 @@ end)()
 			PTID = 717
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[51035] = {
 		mark = 20260618,
 		page_info = "",
@@ -50247,8 +50271,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[51036] = {
 		mark = 20260618,
 		page_info = "",
@@ -55855,6 +55877,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[6006] = {
 		mark = 20211028,
 		time = "stop",
@@ -55892,8 +55916,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6007] = {
 		mark = 20211223,
 		time = "stop",
@@ -60371,6 +60393,8 @@ end)()
 			ui_name = "AnniversaryEightLoginJpPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[21011] = {
 		mark = 20260326,
 		type = 56,
@@ -60415,8 +60439,6 @@ end)()
 			ui_name = "AnniversaryEightJpReturnAwardPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[21012] = {
 		mark = 20260326,
 		page_info = "",

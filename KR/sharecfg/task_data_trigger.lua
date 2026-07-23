@@ -123,7 +123,8 @@ pg.task_data_trigger.all = {
 	120,
 	121,
 	122,
-	123
+	123,
+	124
 }
 pg.task_data_trigger.get_id_list_by_group_id = {
 	[0] = {
@@ -275,6 +276,9 @@ pg.task_data_trigger.get_id_list_by_group_id = {
 	},
 	[20712] = {
 		110
+	},
+	[29905] = {
+		124
 	},
 	[30109] = {
 		25
@@ -1463,5 +1467,13 @@ end)()
 		type = 2,
 		id = 123,
 		group_id = 60508
+	}
+	pg.base.task_data_trigger[124] = {
+		task_id = 500261,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 124,
+		group_id = 29905
 	}
 end)()

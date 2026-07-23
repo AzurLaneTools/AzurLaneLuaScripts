@@ -10259,6 +10259,192 @@ _G.pg.base.item_data_statistics[13055] = {
 }
 
 
+_G.pg.base.item_data_statistics[13056] = {
+	open_directly = 0,
+	name = "시제형 419mm 3연장포 MK.I T0 설계도",
+	type = 9,
+	display = "시제형 419mm 3연장포 MK.I T0 설계도",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/24420",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13056,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13057] = {
+	open_directly = 0,
+	name = "시제형 127mm 연장고각포 Mk16 T0 설계도",
+	type = 9,
+	display = "시제형 127mm 연장고각포 Mk16 T0 설계도",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/11280",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13057,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13058] = {
+	open_directly = 0,
+	name = "시제형 610mm 4연장 어뢰(순양함용) T0 설계도",
+	type = 9,
+	display = "시제형 610mm 4연장 어뢰(순양함용) T0 설계도",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/35280",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13059] = {
+	open_directly = 0,
+	name = "시제형 127mm 연장포 Mle1948 T0 설계도",
+	type = 9,
+	display = "시제형 127mm 연장포 Mle1948 T0 설계도",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/51400",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13059,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13060] = {
+	open_directly = 0,
+	name = "시제형 550mm 3연장 어뢰改(탄약 조정) T0 설계도",
+	type = 9,
+	display = "시제형 550mm 3연장 어뢰改(탄약 조정) T0 설계도",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/5680",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[13061] = {
+	open_directly = 0,
+	name = "시제 함재형 Ta 152 C-1/R14 T0 설계도",
+	type = 9,
+	display = "시제 함재형 Ta 152 C-1/R14 T0 설계도",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/49080",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 13061,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[14001] = {
 	open_directly = 0,
 	name = "원형 과학 연구 도면·S-I",
@@ -10984,6 +11170,97 @@ _G.pg.base.item_data_statistics[14008] = {
 		{
 			2,
 			13054,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[14009] = {
+	open_directly = 0,
+	name = "원형 과학 연구 도면·S-Ⅸ",
+	type = 13,
+	display = [[
+사용하면 SSR 개발 장비(9기) 설계도 중 1장을 골라 획득 가능. 
+다음 아이템 획득 가능:
+시제형 419mm 3연장포 MK.I T0 설계도　
+시제형 127mm 연장고각포 Mk16 T0 설계도 　
+시제형 610mm 4연장 어뢰(순양함용) T0 설계도　
+시제형 127mm 연장포 Mle1948 T0 설계도　
+시제형 550mm 3연장 어뢰改(탄약 조정) T0 설계도　
+]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/14009",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 14009,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			13056,
+			1
+		},
+		{
+			2,
+			13057,
+			1
+		},
+		{
+			2,
+			13058,
+			1
+		},
+		{
+			2,
+			13059,
+			1
+		},
+		{
+			2,
+			13060,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			13056,
+			1
+		},
+		{
+			2,
+			13057,
+			1
+		},
+		{
+			2,
+			13058,
+			1
+		},
+		{
+			2,
+			13059,
+			1
+		},
+		{
+			2,
+			13060,
 			1
 		}
 	},
@@ -14561,6 +14838,74 @@ _G.pg.base.item_data_statistics[20107] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 20107,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[20108] = {
+	open_directly = 0,
+	name = "전술 데이터 패키지·8기",
+	type = 18,
+	display = "과학부에서 제작한 전술 데이터베이스. 특별 계획 8기의 개발 임무 경험치를 10,000 축적시킬 수 있다. <color=#ff5c5c>(창고에서 원형 설계로 분석 가능)</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/20108",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 20108,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[20109] = {
+	open_directly = 0,
+	name = "전술 데이터 패키지·9기",
+	type = 18,
+	display = "과학부에서 제작한 전술 데이터베이스. 특별 계획 9기의 개발 임무 경험치를 10,000 축적시킬 수 있다. <color=#ff5c5c>(창고에서 원형 설계로 분석 가능)</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/20109",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 20109,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -50394,6 +50739,122 @@ _G.pg.base.item_data_statistics[40083] = {
 }
 
 
+_G.pg.base.item_data_statistics[40086] = {
+	open_directly = 1,
+	name = "PR함 개발 패키지(제6기)·고급",
+	type = 17,
+	display = "아이템을 대량으로 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech6_promotion",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4086",
+	id = 40086,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40145,
+			1
+		},
+		{
+			2,
+			42050,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40087] = {
+	open_directly = 1,
+	name = "PR함 개발 패키지(제6기)·일반",
+	type = 17,
+	display = "아이템을 대량으로 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech6_normal",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4087",
+	id = 40087,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40145,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40088] = {
+	open_directly = 1,
+	name = "PR함 개발 패키지(제6기)·업그레이드",
+	type = 17,
+	display = "아이템을 대량으로 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech6_promotion",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4088",
+	id = 40088,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42050,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "백년가약 패키지",
@@ -52346,6 +52807,84 @@ _G.pg.base.item_data_statistics[40144] = {
 	shiptrans_id = {},
 	combination_display = {},
 	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40145] = {
+	open_directly = 0,
+	name = "PR함 가속 개발권·제6기",
+	type = 17,
+	display = [[
+사용 시 다음 PR 특별계획함 중 1척 개방(입수 및 강화 레벨 1) 가능. 
+펠릭스 슐츠, 시만토, 플랑드르
+<color=#92fc63>상기 함선을 모두 입수한 경우</color>, 창고에서 사용하면 다음 아이템을 획득할 수 있습니다.
+과학 연구 테스트 데이터·6기×300
+지향형 개조 도면 T3×5
+지향형 개조 도면T2×10
+성정 큐브×5
+물자×20,000]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/research6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4212",
+	id = 40145,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20106,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {
+		{
+			ship_unlock,
+			39906
+		},
+		{
+			ship_unlock,
+			49908
+		},
+		{
+			ship_unlock,
+			99902
+		}
+	}
 }
 
 
@@ -79407,6 +79946,722 @@ _G.pg.base.item_data_statistics[42076] = {
 	shiptrans_id = {},
 	combination_display = {},
 	usage_arg = {
+		{
+			2,
+			42072,
+			1
+		},
+		{
+			2,
+			42075,
+			1
+		},
+		{
+			2,
+			42063,
+			1
+		},
+		{
+			2,
+			42064,
+			1
+		},
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42080] = {
+	open_directly = 0,
+	name = "지향형 강화 유닛·9기",
+	type = 13,
+	display = "사용하면 특별계획함 1~9기 PR함선의 강화 유닛을 1개 선택해서 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42080",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42080,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42081,
+			1
+		},
+		{
+			2,
+			42082,
+			1
+		},
+		{
+			2,
+			42084,
+			1
+		},
+		{
+			2,
+			42071,
+			1
+		},
+		{
+			2,
+			42073,
+			1
+		},
+		{
+			2,
+			42074,
+			1
+		},
+		{
+			2,
+			42061,
+			1
+		},
+		{
+			2,
+			42062,
+			1
+		},
+		{
+			2,
+			42065,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			42081,
+			1
+		},
+		{
+			2,
+			42082,
+			1
+		},
+		{
+			2,
+			42084,
+			1
+		},
+		{
+			2,
+			42071,
+			1
+		},
+		{
+			2,
+			42073,
+			1
+		},
+		{
+			2,
+			42074,
+			1
+		},
+		{
+			2,
+			42061,
+			1
+		},
+		{
+			2,
+			42062,
+			1
+		},
+		{
+			2,
+			42065,
+			1
+		},
+		{
+			2,
+			42052,
+			1
+		},
+		{
+			2,
+			42053,
+			1
+		},
+		{
+			2,
+			42055,
+			1
+		},
+		{
+			2,
+			42042,
+			1
+		},
+		{
+			2,
+			42043,
+			1
+		},
+		{
+			2,
+			42044,
+			1
+		},
+		{
+			2,
+			42031,
+			1
+		},
+		{
+			2,
+			42034,
+			1
+		},
+		{
+			2,
+			42035,
+			1
+		},
+		{
+			2,
+			42021,
+			1
+		},
+		{
+			2,
+			42023,
+			1
+		},
+		{
+			2,
+			42024,
+			1
+		},
+		{
+			2,
+			42025,
+			1
+		},
+		{
+			2,
+			42011,
+			1
+		},
+		{
+			2,
+			42012,
+			1
+		},
+		{
+			2,
+			42013,
+			1
+		},
+		{
+			2,
+			42016,
+			1
+		},
+		{
+			2,
+			42001,
+			1
+		},
+		{
+			2,
+			42002,
+			1
+		},
+		{
+			2,
+			42003,
+			1
+		},
+		{
+			2,
+			42004,
+			1
+		},
+		{
+			2,
+			42005,
+			1
+		},
+		{
+			2,
+			42006,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42081] = {
+	open_directly = 0,
+	name = "강화 유닛: 던컨",
+	type = 12,
+	display = "로열 네이비 전함 「던컨」의 강화 유닛. \n<color=#92fc63>「던컨」 개발 완료 후에 개발도크에서 「던컨」의 성능을 강화할 수 있다. </color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42081",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42081,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42082] = {
+	open_directly = 0,
+	name = "강화 유닛: 타카하시",
+	type = 12,
+	display = "사쿠라 엠파이어 경순양함 「타카하시」의 강화 유닛. \n<color=#92fc63>「타카하시」 개발 완료 후에 개발도크에서 「타카하시」의 성능을 강화할 수 있다. </color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42082",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42082,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42083] = {
+	open_directly = 0,
+	name = "강화 유닛: 막스 임멜만",
+	type = 12,
+	display = "메탈 블러드 항공모함 「막스 임멜만」의 강화 유닛. \n<color=#92fc63>「막스 임멜만」 개발 완료 후에 개발도크에서 「막스 임멜만」의 성능을 강화할 수 있다. </color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42083",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42083,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42084] = {
+	open_directly = 0,
+	name = "강화 유닛: 오라주",
+	type = 12,
+	display = "아이리스 리브레 구축함 「오라주」의 강화 유닛. \n<color=#92fc63>「오라주」 개발 완료 후에 개발도크에서 「오라주」의 성능을 강화할 수 있다. </color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42084",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42084,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		5
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	}
+}
+
+
+_G.pg.base.item_data_statistics[42085] = {
+	open_directly = 0,
+	name = "강화 유닛: 발파라이소",
+	type = 12,
+	display = "페드레리아 전함 「발파라이소」의 강화 유닛. \n<color=#92fc63>「발파라이소」 개발 완료 후에 개발도크에서 「발파라이소」의 성능을 강화할 수 있다. </color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_blueprint",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42085",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42085,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		20
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		10
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[42086] = {
+	open_directly = 0,
+	name = "고급 지향형 강화 유닛·9기",
+	type = 13,
+	display = "사용하면 특별계획함 2~9기 DR함선의 강화 유닛을 1개 선택해서 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/42086",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 42086,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42083,
+			1
+		},
+		{
+			2,
+			42085,
+			1
+		},
+		{
+			2,
+			42072,
+			1
+		},
+		{
+			2,
+			42075,
+			1
+		},
+		{
+			2,
+			42063,
+			1
+		},
+		{
+			2,
+			42064,
+			1
+		},
+		{
+			2,
+			42051,
+			1
+		},
+		{
+			2,
+			42054,
+			1
+		},
+		{
+			2,
+			42041,
+			1
+		},
+		{
+			2,
+			42045,
+			1
+		},
+		{
+			2,
+			42032,
+			1
+		},
+		{
+			2,
+			42033,
+			1
+		},
+		{
+			2,
+			42022,
+			1
+		},
+		{
+			2,
+			42014,
+			1
+		},
+		{
+			2,
+			42015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			42083,
+			1
+		},
+		{
+			2,
+			42085,
+			1
+		},
 		{
 			2,
 			42072,

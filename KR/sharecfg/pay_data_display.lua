@@ -211,6 +211,10 @@ pg.pay_data_display.all = {
 	2079,
 	2080,
 	2081,
+	2088,
+	2089,
+	2090,
+	2091,
 	5011,
 	5012,
 	5013,
@@ -22004,6 +22008,273 @@ end)()
 			{
 				2,
 				40081,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2088] = {
+		picture = "tech6_display",
+		name = "PR함 개발 패키지(제6기)",
+		type = 0,
+		second_text = "+강화 유닛",
+		descrip = "특별계획함·6기와 교환할 수 있는 아이템 등을 획득할 수 있습니다.",
+		subject = "PR함 개발 패키지(제6기)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 20000,
+		descrip_extra = "이 문구는 표시되지 않음",
+		limit_group = 6,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 0,
+		limit_type = 3,
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "",
+		extra_gem = 0,
+		id = 2088,
+		airijp_id = "",
+		name_display = "PR함 개발 패키지(제6기)",
+		first_text = "특별계획함",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40145,
+				1
+			},
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40145,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2089] = {
+		picture = "tech6_promotion",
+		name = "PR함 개발 패키지(제6기)·고급",
+		type = 0,
+		second_text = "",
+		descrip = "내용",
+		subject = "PR함 개발 패키지(제6기)·고급",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 20000,
+		descrip_extra = "* 이미 PR함선·6기를 모두 소지하고 있는 경우에는 사용 시에 아이템으로 변환됩니다(아이콘을 탭하여 확인).",
+		limit_group = 6,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 0,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift194",
+		extra_gem = 0,
+		id = 2089,
+		airijp_id = "com.yostarjp.azurlane.tech16",
+		name_display = "PR함 개발 패키지(제6기)·고급",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40145,
+				1
+			},
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40145,
+				1
+			},
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40086,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2090] = {
+		picture = "tech6_normal",
+		name = "PR함 개발 패키지(제6기)·일반",
+		type = 0,
+		second_text = "",
+		descrip = "내용",
+		subject = "PR함 개발 패키지(제6기)·일반",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 12000,
+		descrip_extra = "* 이미 PR함선·6기를 모두 소지하고 있는 경우에는 사용 시에 아이템으로 변환됩니다(아이콘을 탭하여 확인).",
+		limit_group = 6,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 0,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift193",
+		extra_gem = 0,
+		id = 2090,
+		airijp_id = "com.yostarjp.azurlane.tech17",
+		name_display = "PR함 개발 패키지(제6기)·일반",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40145,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40145,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40087,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2091] = {
+		picture = "tech6_promotion",
+		name = "PR함 개발 패키지(제6기)·업그레이드",
+		type = 0,
+		second_text = "",
+		descrip = "내용",
+		subject = "강화 유닛",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 8900,
+		descrip_extra = "구매하면 지향형 강화 유닛·6기×343개 획득 가능",
+		limit_group = 6,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 0,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift195",
+		extra_gem = 0,
+		id = 2091,
+		airijp_id = "com.yostarjp.azurlane.tech18",
+		name_display = "강화 유닛",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40088,
 				1
 			}
 		}

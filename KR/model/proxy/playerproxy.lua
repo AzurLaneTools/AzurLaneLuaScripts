@@ -150,9 +150,11 @@ slot0.UpdatePlayerRes = function(slot0, slot1)
 		end
 	end
 
-	slot0.data:addResources(slot2)
-	slot0.data:consume(slot3)
-	slot0:updatePlayer(slot0.data)
+	slot4 = slot0.data:clone()
+
+	slot4:addResources(slot2)
+	slot4:consume(slot3)
+	slot0:updatePlayer(slot4)
 end
 
 slot0.updatePlayerMedalDisplay = function(slot0, slot1)

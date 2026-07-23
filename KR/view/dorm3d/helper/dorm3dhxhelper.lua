@@ -98,6 +98,28 @@ slot0.ShowHolyLight = function(slot0, slot1, slot2)
 	end)
 end
 
+slot0.SetModelHolyLightActive = function(slot0, slot1, slot2)
+	if not HXSet.isHx() then
+		return false
+	end
+
+	if not slot0 or IsNil(slot0) or not slot1 or IsNil(slot1) then
+		return false
+	end
+
+	slot3 = false
+
+	for slot7 = 0, slot1.childCount - 1 do
+		if slot1:GetChild(slot7):GetComponent(typeof(HolyLightController)) and slot9.targetBone and not IsNil(slot10) and slot10:IsChildOf(slot0) then
+			setActive(slot8, slot2)
+
+			slot3 = true
+		end
+	end
+
+	return slot3
+end
+
 slot0.GetHolyLightScreenShotInfo = function(slot0)
 	slot1 = {}
 	slot2 = {}

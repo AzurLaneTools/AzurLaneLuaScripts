@@ -135,21 +135,14 @@ slot0.GetPreloadList = function(slot0)
 	slot2 = {}
 	slot3 = nil
 	slot4 = ys.Battle.BattleResourceManager.GetInstance()
-	slot5 = getProxy(FleetProxy)
 	slot6 = getProxy(BayProxy)
 	slot8 = getProxy(ActivityProxy):getActivityById(slot0.actId):GetSeriesData()
 	slot10 = slot8:GetFleetIds()
-	slot11 = slot10[slot8:GetStaegLevel() + 1]
-	slot12 = slot10[#slot10]
+	slot12, slot13 = slot8:GetStageFleets(slot8:GetMode(), slot8:GetStaegLevel() + 1)
+	slot14 = getProxy(FleetProxy):getActivityFleets()[slot0.actId]
+	slot16 = slot14[slot13]
 
-	if slot8:GetMode() == BossRushSeriesData.MODE.SINGLE then
-		slot11 = slot10[1]
-	end
-
-	slot14 = slot5:getActivityFleets()[slot0.actId]
-	slot16 = slot14[slot12]
-
-	if slot14[slot11] then
+	if slot14[slot12] then
 		for slot21, slot22 in ipairs(slot15:GetRawShipIds()) do
 			table.insert(slot1, slot6:getShipById(slot22))
 		end

@@ -4,63 +4,6 @@ slot0.word_legal_template_4 = {}
 slot1 = slot0.word_legal_template_4
 
 temp = function()
-	uv0["테"] = {
-		["네"] = {
-			["시"] = {
-				this = true
-			}
-		},
-		["세"] = {
-			["우"] = {
-				["스"] = {
-					this = true
-				}
-			}
-		},
-		["러"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["캘"] = {
-		["리"] = {
-			["포"] = {
-				["니"] = {
-					["아"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["콜"] = {
-		["로"] = {
-			["라"] = {
-				["도"] = {
-					this = true,
-					["·"] = {
-						["改"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["메"] = {
 		["릴"] = {
 			["랜"] = {
@@ -1077,6 +1020,111 @@ temp = function()
 	uv0["괌"] = {
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["비"] = {
+		["글"] = {
+			this = true
+		},
+		["스"] = {
+			["마"] = {
+				["르"] = {
+					["크"] = {
+						this = true,
+						[" "] = {
+							Z = {
+								w = {
+									e = {
+										i = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["토"] = {
+			["리"] = {
+				["오"] = {
+					[" "] = {
+						["베"] = {
+							["네"] = {
+								["토"] = {
+									this = true
+								}
+							}
+						},
+						["쿠"] = {
+							["니"] = {
+								["베"] = {
+									["르"] = {
+										["티"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["불"] = {
+		["독"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["코"] = {
+		["멧"] = {
+			this = true
+		},
+		["테"] = {
+			["가"] = {
+				["와"] = {
+					[" "] = {
+						["유"] = {
+							["이"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["폭"] = {
+		["스"] = {
+			["하"] = {
+				["운"] = {
+					["드"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

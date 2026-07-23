@@ -34,7 +34,10 @@ pg.activity_series_enemy.all = {
 	5002,
 	5003,
 	5004,
-	5005
+	5005,
+	1001001,
+	1001002,
+	1001003
 }
 pg.base = pg.base or {}
 pg.base.activity_series_enemy = {}
@@ -2423,6 +2426,169 @@ pg.base.activity_series_enemy = {}
 			0.2,
 			1000,
 			0.8
+		}
+	}
+	pg.base.activity_series_enemy[1001001] = {
+		oil = 0,
+		name = "EASY：교란 저지",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "TC1",
+		pos_x = "0.10703125",
+		pos_y = "0.157291667",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = "작전 목표：서부에 있는 세이렌 요새를 제압하고, 재밍 장치를 파괴하여 기간 통신망을 복구하라!",
+		collection_group_id = 104,
+		whether_singlefight = 0,
+		id = 1001001,
+		limitation = {},
+		expedition_id = {
+			1719101
+		},
+		boss_icon = {
+			{
+				"qinraozhe",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				58839
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[1001002] = {
+		oil = 0,
+		name = "NORMAL：기상 복원",
+		type = 1,
+		pre_chapter = 1001001,
+		chapter_name = "TC2",
+		pos_x = "0.34609375",
+		pos_y = "0.347916667",
+		count = 0,
+		ex_count = "",
+		profiles = "작전 목표：동부에 있는 세이렌 방어선을 돌파하고, 기상 제어 장치를 파괴하여 각 해역의 이상 기상을 정상화하라!",
+		collection_group_id = 105,
+		whether_singlefight = 1,
+		id = 1001002,
+		limitation = {},
+		expedition_id = {
+			1719201,
+			1719202
+		},
+		boss_icon = {
+			{
+				"qinraozhe",
+				2
+			},
+			{
+				"qingchuzhe",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				58838
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[1001003] = {
+		oil = 0,
+		name = "HARD：기지 탈환",
+		type = 1,
+		pre_chapter = 1001002,
+		chapter_name = "TC3",
+		pos_x = "0.50546875",
+		pos_y = "0.080208333",
+		count = 0,
+		ex_count = "",
+		profiles = "작전 목표：북부의 조사 기지를 탈환하고, 주변의 세이렌 생산 시설을 파괴하여 적 증원 병력의 증강을 저지하라!",
+		collection_group_id = 106,
+		whether_singlefight = 1,
+		id = 1001003,
+		limitation = {},
+		expedition_id = {
+			1719301,
+			1719302,
+			1719303
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"kuersike",
+				3
+			},
+			{
+				"qingchuzhe",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				58837
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
 		}
 	}
 end)()

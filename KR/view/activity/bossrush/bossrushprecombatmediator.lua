@@ -211,11 +211,30 @@ slot0.bindEvent = function(slot0)
 				end
 			end,
 			function (slot0)
-				getProxy(ActivityProxy):InitContinuousTime(uv0)
-				uv1:sendNotification(GAME.BOSSRUSH_TRACE, {
-					actId = uv1.contextData.actId,
-					seriesId = uv1.contextData.seriesData.id,
-					mode = uv1.contextData.mode
+				if BossRushChapterRemasterHelper.GetPermanentActivityTicketCost(uv0.contextData.actId, uv0.contextData.seriesData.id) <= 0 then
+					slot0()
+
+					return
+				end
+
+				if getProxy(ChapterProxy).remasterTickets < slot1 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_tickets_not_enough"))
+
+					return
+				end
+
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("levelScene_activate_remaster_1", slot1),
+					onYes = slot0
+				})
+			end,
+			function (slot0)
+				getProxy(ActivityProxy):InitContinuousTime(uv1)
+				uv0:sendNotification(GAME.BOSSRUSH_TRACE, {
+					actId = uv0.contextData.actId,
+					seriesId = uv0.contextData.seriesData.id,
+					mode = uv0.contextData.mode,
+					remasterTicketCost = BossRushChapterRemasterHelper.GetPermanentActivityTicketCost(uv0.contextData.actId, uv0.contextData.seriesData.id)
 				})
 			end
 		})
@@ -313,6 +332,7 @@ end
 slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.BOSSRUSH_TRACE_DONE,
+		GAME.BOSSRUSH_TRACE_ERROR,
 		GAME.BEGIN_STAGE_DONE,
 		GAME.BEGIN_STAGE_ERRO,
 		uv0.CONTINUOUS_OPERATION
@@ -338,6 +358,8 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:emit(BossRushPreCombatMediator.ON_START, slot3.battleTimes)
 	elseif slot2 == GAME.BOSSRUSH_TRACE_DONE then
 		slot0.viewComponent:emit(uv0.BEGIN_STAGE)
+	elseif slot2 == GAME.BOSSRUSH_TRACE_ERROR then
+		return
 	end
 end
 

@@ -11002,6 +11002,90 @@ _G.pg.base.weapon_name[53493] = {
 }
 
 
+_G.pg.base.weapon_name[53500] = {
+	id = 53500,
+	name = "2 x 폭탄 (스킵 폭격)"
+}
+
+
+_G.pg.base.weapon_name[53501] = {
+	id = 53501,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53502] = {
+	id = 53502,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53503] = {
+	id = 53503,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53504] = {
+	id = 53504,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53505] = {
+	id = 53505,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53506] = {
+	id = 53506,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53507] = {
+	id = 53507,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53508] = {
+	id = 53508,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53509] = {
+	id = 53509,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53510] = {
+	id = 53510,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53511] = {
+	id = 53511,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53512] = {
+	id = 53512,
+	base = 53500
+}
+
+
+_G.pg.base.weapon_name[53513] = {
+	id = 53513,
+	base = 53500
+}
+
+
 _G.pg.base.weapon_name[59000] = {
 	id = 59000,
 	name = "2 x MG FF 20mm기관포"

@@ -27,7 +27,8 @@ pg.activity_task_permanent.all = {
 	6020,
 	6021,
 	6022,
-	6023
+	6023,
+	50521
 }
 pg.base = pg.base or {}
 pg.base.activity_task_permanent = {}
@@ -41,6 +42,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "여름의 대작전?",
 		id = 6000,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35000,
@@ -60,6 +62,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "새 학기",
 		id = 6001,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35007,
@@ -92,6 +95,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "백의의 천사 or 악마?",
 		id = 6002,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35027,
@@ -111,6 +115,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "해변의 십자성!!",
 		id = 6003,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35034,
@@ -143,6 +148,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "한 잔 마실래?",
 		id = 6004,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35054,
@@ -169,6 +175,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "모항의 특별 연회",
 		id = 6005,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35068,
@@ -195,6 +202,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "혼돈의 핼러윈 나이트",
 		id = 6006,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -206,6 +214,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "한정 성탄",
 		id = 6007,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35082,
@@ -232,6 +241,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "성탄 선물 대작전",
 		id = 6008,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35096,
@@ -258,6 +268,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "사랑과 평화의 성야제",
 		id = 6009,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35110,
@@ -278,6 +289,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "이국의 아이돌?",
 		id = 6010,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -289,6 +301,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "월간 만화Javelin",
 		id = 6011,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35118,
@@ -319,6 +332,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "이과 실험시간!",
 		id = 6012,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35136,
@@ -349,6 +363,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "오색찬란한 연회",
 		id = 6013,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35154,
@@ -375,6 +390,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "격주의 폴라리스",
 		id = 6014,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35168,
@@ -401,6 +417,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "장난스런 핼러윈",
 		id = 6015,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35182,
@@ -427,6 +444,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "가르쳐줘! Z23 선생님",
 		id = 6016,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35196,
@@ -459,6 +477,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "눈의 차밍 타임",
 		id = 6017,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -470,6 +489,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "쥬쥬 초콜릿 공방",
 		id = 6018,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35216,
@@ -489,6 +509,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "외톨이 해바라기",
 		id = 6019,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35223,
@@ -515,6 +536,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "하늘하늘 리본",
 		id = 6020,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35244,
@@ -541,6 +563,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "한가로운 봄날",
 		id = 6021,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35258,
@@ -567,6 +590,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "특별 훈련",
 		id = 6022,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -578,6 +602,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "등불의 하츠하루",
 		id = 6023,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35272,
@@ -595,5 +620,17 @@ pg.base.activity_task_permanent = {}
 			35284,
 			35285
 		}
+	}
+	pg.base.activity_task_permanent[50521] = {
+		gametip = "测试配置",
+		banner_route = "permanent_yamashiro",
+		gametip_extra = "测试配置",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "测试配置",
+		id = 50521,
+		activity_group = 2000,
+		over_task_id = "",
+		eliminate_task_id = {}
 	}
 end)()

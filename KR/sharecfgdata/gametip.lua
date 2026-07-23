@@ -4983,6 +4983,11 @@ _G.pg.base.gametip.levelScene_activate_remaster = {
 }
 
 
+_G.pg.base.gametip.levelScene_activate_remaster_1 = {
+	tip = "스테이지를 오픈하려면 <color=#ffde38>데이터 키×$1</color>개가 필요합니다. \n스테이지를 오픈하시겠습니까?"
+}
+
+
 _G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "데이터 키가 부족합니다."
 }
@@ -4996,25 +5001,22 @@ _G.pg.base.gametip.levelScene_remaster_do_not_open = {
 _G.pg.base.gametip.levelScene_remaster_help_tip = {
 	tip = {
 		{
-			info = "작전 문서 설명:\n작전 문서란, 특수 작전 파일을 연구하여 모의 작전을 진행하는 시스템입니다. 과거 플레이한 특수 작전 스테이지 진척 상황은 이어지지 않습니다. "
+			info = "<color=#92fc63>데이터 키</color> 설명:\n<color=#92fc63>데이터 키</color>는 과거에 진행된 이벤트 스테이지 및 다시 공략 가능한 <color=#92fc63>작전 문서</color>를 일정 기간 오픈할 수 있는 아이템입니다. \n<color=#92fc63>작전 문서</color>에 추가되기 전에 이미 플레이한 스테이지 진척 상황은 이어지지 않습니다. "
 		},
 		{
-			info = "    \n1.<color=#92fc63>데이터 키</color>는 현재 상황에서는 매일 선택 화면에서 4개를 입수할 수 있습니다."
+			info = "    \n    1. <color=#92fc63>데이터 키</color>는 현재 매일 키 획득 버튼을 누르면 20개를 획득할 수 있습니다."
 		},
 		{
-			info = "2.<color=#92fc63>데이터 키</color>는 최대 60개까지 소지 가능하며, 상한을 초과하여 입수한 <color=#92fc63>데이터 키</color>는 자동으로 사라집니다."
+			info = "    2. <color=#92fc63>데이터 키</color>는 최대 300개까지 보유할 수 있습니다. 300개를 보유한 상태에서 추가로 획득한 <color=#92fc63>데이터 키</color>의 초과분은 자동으로 삭제됩니다."
 		},
 		{
-			info = "3.<color=#92fc63>데이터 키</color>를 사용하여, 선택한 특수 작전 스테이지를 개방할 수 있습니다."
+			info = "    3. <color=#92fc63>작전 문서</color>에서는 이벤트의 EX 스테이지를 제외한 모든 스테이지에 도전할 수 있습니다."
 		},
 		{
-			info = "4.특수 작전 스테이지에서 철수할 경우 데이터 키는 반환되지 않습니다."
+			info = "    4. 상설화된 <color=#92fc63>작전 문서</color> 이벤트의 스토리는 해당 이벤트의 마지막 스테이지를 클리어하면 일괄 오픈됩니다."
 		},
 		{
-			info = "5.작전 문서 스테이지 내 스토리는 지정 스테이지를 클리어하면 한꺼번에 해제되며, 진도에 따라 점차 해제되지 않습니다. 자세한 해제 조건은 해당 회상 화면에서 확인할 수 있습니다."
-		},
-		{
-			info = "6. 일부 작전 문서 스테이지에 함선 확정 인양 시스템 신규 추가. 지정 스테이지 60회 클리어 시 해당 함선 획득 가능. 1회만 획득 가능."
+			info = "    5. 일부 <color=#92fc63>작전 문서</color>의 스테이지에서는 보스 함대를 60회 격파하면 SSR 함선을 1회에 한해 획득할 수 있습니다."
 		}
 	}
 }
@@ -6813,6 +6815,11 @@ _G.pg.base.gametip.word_shipNation_danmachi = {
 
 _G.pg.base.gametip.word_shipNation_dal = {
 	tip = "Date A Live"
+}
+
+
+_G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
+	tip = "페드레리아"
 }
 
 
@@ -12552,12 +12559,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「스트라스부르」, 「듀플렉스」 상시 건조 추가!"
+	tip = "「쿠르스크」, 「세바스토폴」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「로데슈」 상시 건조 추가!"
+	tip = "「보로실로프」 상시 건조 추가!"
 }
 
 
@@ -14654,6 +14661,71 @@ _G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
 파일럿형 283mm/54.5 3연장포 
 100mm 2연장 98식 고각포 개조
 2연장 57mm/L60 보포스 대공 기관포 Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_29906 = {
+	tip = [[
+<size=28>
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>(※ 실제 함선 성능과 다름)</color>
+사용 장비: <color=#92fc63>
+시제형 419mm 3연장포 Mk.I
+114mm 연장 양용포 MarkIV
+20mm 엘리콘 고각포 MkII
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_129901 = {
+	tip = [[
+<size=28>
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>(※ 실제 함선 성능과 다름)</color>
+사용 장비: <color=#92fc63>
+381mm 연장포改
+시제형 127mm 연장고각포 Mk16
+76mm 연장 RF포 Mk37
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39908 = {
+	tip = [[
+<size=28>
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>(※ 실제 함선 성능과 다름)</color>
+사용 장비: <color=#92fc63>
+시제형 150mm 3연장 5식 고각포
+시제형 610mm 4연장 어뢰 (순양함용)
+100mm 연장고각포
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89905 = {
+	tip = [[
+<size=28>
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c>(※ 실제 함선 성능과 다름)</color>
+사용 장비: <color=#92fc63>
+시제형 127mm 연장포 Mle1948
+550mm 3연장 어뢰
+2연장 57mm/L60 보포스 대공기관포 Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49911 = {
+	tip = [[
+<size=28>
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+(※ 실제 함선 성능과 다름)
+사용 장비: <color=#ff5c5c>
+시제형 함상식 La-9
+시제 함재형 Ta 152 C-1/R14
+시제형 함상식 La-9
 </color></size>]]
 }
 
@@ -49205,6 +49277,16 @@ _G.pg.base.gametip.island_mecha_task_lock_tip = {
 }
 
 
+_G.pg.base.gametip.bossrush_act_remaster_close_prev_one_tip = {
+	tip = "작전 문서를 오픈하시겠습니까? 현재 오픈되어 있는 작전 문서에 도전할 수 없게 됩니다."
+}
+
+
+_G.pg.base.gametip.charge_title_getskin = {
+	tip = "随机获得一件全新换装"
+}
+
+
 _G.pg.base.gametip.yearly_sign_in = {
 	tip = "연간 로그인"
 }
@@ -49290,4 +49372,19 @@ _G.pg.base.gametip.dorm3d_gift_overtime = {
 
 _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 	tip = "곧 종료됨"
+}
+
+
+_G.pg.base.gametip.ConsumeGem_tip = {
+	tip = {
+		{
+			info = "远航回礼说明："
+		},
+		{
+			info = "1.活动期间，通过在游戏内消耗钻石，累计达到指定数量，可以在活动页面领取阶段奖励。"
+		},
+		{
+			info = "2.该活动仅消耗钻石生效，商店内的直购礼包不参与活动。"
+		}
+	}
 }

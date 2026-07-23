@@ -4154,6 +4154,13 @@ pg.memory_template.all = {
 	5235,
 	5236,
 	5237,
+	5251,
+	5252,
+	5253,
+	5254,
+	5255,
+	5256,
+	5257,
 	5241,
 	5242,
 	5243,
@@ -79241,6 +79248,132 @@ end)()
 			"LAFEIER7"
 		}
 	}
+	pg.base.memory_template[5251] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "무시할 수 없는 이상",
+		condition = "「절대적인 미소를 위해 1」 시작",
+		story = "PULIMAOSI1",
+		mask = "bg/bg_memory",
+		task = 500261,
+		year = 0,
+		id = 5251,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI1"
+		}
+	}
+	pg.base.memory_template[5252] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "절대적인 「칼솜씨」?",
+		condition = "「절대적인 미소를 위해 2」 시작",
+		story = "PULIMAOSI2",
+		mask = "bg/bg_memory",
+		task = 500262,
+		year = 0,
+		id = 5252,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI2"
+		}
+	}
+	pg.base.memory_template[5253] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "유원지의 명사수",
+		condition = "「절대적인 미소를 위해 3」 시작",
+		story = "PULIMAOSI3",
+		mask = "bg/bg_memory",
+		task = 500263,
+		year = 0,
+		id = 5253,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI3"
+		}
+	}
+	pg.base.memory_template[5254] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "용납할 수 없는 비",
+		condition = "「절대적인 미소를 위해 4」 시작",
+		story = "PULIMAOSI4",
+		mask = "bg/bg_memory",
+		task = 500264,
+		year = 0,
+		id = 5254,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI4"
+		}
+	}
+	pg.base.memory_template[5255] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "강철의 불꽃",
+		condition = "「절대적인 미소를 위해 5」 시작",
+		story = "PULIMAOSI5",
+		mask = "bg/bg_memory",
+		task = 500265,
+		year = 0,
+		id = 5255,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI5"
+		}
+	}
+	pg.base.memory_template[5256] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "깃털 트러블",
+		condition = "「절대적인 미소를 위해 6」 시작",
+		story = "PULIMAOSI6",
+		mask = "bg/bg_memory",
+		task = 500266,
+		year = 0,
+		id = 5256,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI6"
+		}
+	}
+	pg.base.memory_template[5257] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "미간을 찌푸리는 이유",
+		condition = "「절대적인 미소를 위해 7」 시작",
+		story = "PULIMAOSI7",
+		mask = "bg/bg_memory",
+		task = 500267,
+		year = 0,
+		id = 5257,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI7"
+		}
+	}
 	pg.base.memory_template[5241] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80015,6 +80148,8 @@ end)()
 			"NEPU_DAILY5"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10041] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80141,8 +80276,6 @@ end)()
 			"NEPU_STAGE301"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10048] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81817,6 +81950,8 @@ end)()
 			"LINGHANGYUANTANXIN12"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20064] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81943,8 +82078,6 @@ end)()
 			"LINGHANGYUANTANXIN19"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20071] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83619,6 +83752,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA15"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20165] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83745,8 +83880,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA22"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20172] = {
 		ship_group = 0,
 		subtitle = "",

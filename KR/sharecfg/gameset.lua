@@ -1826,11 +1826,11 @@ end)()
 	}
 	pg.base.gameset.reactivity_ticket_max = {
 		description = "",
-		key_value = 60
+		key_value = 300
 	}
 	pg.base.gameset.reactivity_ticket_daily = {
 		description = "",
-		key_value = 4
+		key_value = 20
 	}
 	pg.base.gameset.max_commander_bag = {
 		description = "",
@@ -2003,6 +2003,14 @@ end)()
 			},
 			{
 				20107,
+				10000
+			},
+			{
+				20108,
+				10000
+			},
+			{
+				20109,
 				10000
 			}
 		}
@@ -2680,7 +2688,9 @@ end)()
 			42060,
 			42066,
 			42070,
-			42076
+			42076,
+			42080,
+			42086
 		}
 	}
 	pg.base.gameset.submarine_chapter_activate_time = {
