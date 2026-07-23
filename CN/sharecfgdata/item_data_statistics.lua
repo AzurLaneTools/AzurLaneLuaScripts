@@ -134645,9 +134645,9 @@ _G.pg.base.item_data_statistics[68324] = {
 
 _G.pg.base.item_data_statistics[68325] = {
 	open_directly = 1,
-	name = "换装抵扣礼包(白衣天使的全身检查)",
+	name = "换装抵扣礼包(纯白天使的全身检查)",
 	type = 17,
-	display = "购买后可获得<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>白衣天使的全身检查</color>的钻石抵扣券等道具",
+	display = "购买后可获得<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>纯白天使的全身检查</color>的钻石抵扣券等道具",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -134768,9 +134768,9 @@ _G.pg.base.item_data_statistics[68327] = {
 
 _G.pg.base.item_data_statistics[68328] = {
 	open_directly = 0,
-	name = "换装抵扣券(白衣天使的全身检查)",
+	name = "换装抵扣券(纯白天使的全身检查)",
 	type = 1,
-	display = "持有此道具时，购买<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>白衣天使的全身检查</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年7月29日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	display = "持有此道具时，购买<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>纯白天使的全身检查</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年7月29日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_shop_discount",
@@ -134882,9 +134882,9 @@ _G.pg.base.item_data_statistics[68330] = {
 
 _G.pg.base.item_data_statistics[68331] = {
 	open_directly = 0,
-	name = "换装体验券(白衣天使的全身检查)",
+	name = "换装体验券(纯白天使的全身检查)",
 	type = 1,
-	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>白衣天使的全身检查</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年7月29日 23:59，过期后此道具将消失</color>",
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>普利茅斯</color>换装<color=#92fc63FF>纯白天使的全身检查</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年7月29日 23:59，过期后此道具将消失</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_skin_exp",
