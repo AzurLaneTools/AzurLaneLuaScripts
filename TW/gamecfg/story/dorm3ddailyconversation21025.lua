@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}来陪我一起玩躲猫猫吧。",
+			say = "{dorm3d}來陪我玩躲貓貓吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,14 +57,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我来找你就好，要开始数了——",
+			say = "我來找你就好，要開始數了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "等等、多长时间没找到算输？",
+					content = "等等、多長時間沒找到算輸？",
 					flag = 1
 				}
 			},
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不用有时间限制吧？",
+			say = "不用有時間限制吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "反正……不管{dorm3d}藏在哪里，我都能很快找到的。",
+			say = "反正……不管{dorm3d}藏在哪裡，我都能很快找到的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

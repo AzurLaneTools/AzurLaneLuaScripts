@@ -10,18 +10,25 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnFirstFlush = function(slot0)
-	onButton(slot0, slot0.btnGo, function ()
-		uv0:emit(ActivityMediator.ON_ADD_SUBLAYER, Context.New({
-			mediator = MallAwardMediator,
-			viewComponent = MallAwardLayer,
-			data = {
-				awardHandledByParent = true,
-				onExit = function ()
-					uv0:refreshRed()
-				end
-			}
-		}))
-	end, SFX_PANEL)
+	if slot0:GetMallActOpen() then
+		onButton(slot0, slot0.btnGo, function ()
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.MALL_MAP)
+		end, SFX_PANEL)
+	else
+		onButton(slot0, slot0.btnGo, function ()
+			uv0:emit(ActivityMediator.ON_ADD_SUBLAYER, Context.New({
+				mediator = MallAwardMediator,
+				viewComponent = MallAwardLayer,
+				data = {
+					awardHandledByParent = true,
+					onExit = function ()
+						uv0:refreshRed()
+					end
+				}
+			}))
+		end, SFX_PANEL)
+	end
+
 	onButton(slot0, slot0.btnManual, function ()
 		uv0:emit(ActivityMediator.ON_ADD_SUBLAYER, Context.New({
 			mediator = MedalAlbumTemplateMediator,
@@ -30,6 +37,12 @@ slot0.OnFirstFlush = function(slot0)
 	end, SFX_PANEL)
 	setText(slot0.Txtmanual, i18n("anniversary_nine_main_page"))
 	slot0:refreshRed()
+end
+
+slot0.GetMallActOpen = function(slot0)
+	slot2 = slot0.coreActivityUI:GetActivityIdByPageClass("AnniversaryNineGamePage") and getProxy(ActivityProxy):getActivityById(slot1)
+
+	return slot2 ~= nil and not slot2:isEnd()
 end
 
 slot0.OnUpdateFlush = function(slot0)

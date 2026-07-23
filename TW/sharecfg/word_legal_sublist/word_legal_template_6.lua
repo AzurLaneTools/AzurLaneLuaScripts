@@ -4,83 +4,6 @@ slot0.word_legal_template_6 = {}
 slot1 = slot0.word_legal_template_6
 
 temp = function()
-	uv0["厭"] = {
-		["戰"] = {
-			this = true,
-			["."] = {
-				["改"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["前"] = {
-		["衛"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["納"] = {
-		["爾"] = {
-			["遜"] = {
-				this = true,
-				["."] = {
-					["改"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["希"] = {
-			["莫"] = {
-				["夫"] = {
-					["海"] = {
-						["軍"] = {
-							["上"] = {
-								["將"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["豪"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["復"] = {
-		["仇"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["皇"] = {
 		["家"] = {
 			["橡"] = {
@@ -461,6 +384,75 @@ temp = function()
 			["歸"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["陽"] = {
+		["炎"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["野"] = {
+		["分"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["初"] = {
+		["春"] = {
+			this = true
+		},
+		["霜"] = {
+			this = true
+		},
+		["月"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["若"] = {
+		["葉"] = {
+			this = true
+		},
+		["月"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["有"] = {
+		["明"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["親"] = {
+		["潮"] = {
+			this = true
 		}
 	}
 end

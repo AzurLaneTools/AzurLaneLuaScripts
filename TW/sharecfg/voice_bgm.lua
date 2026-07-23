@@ -2866,4 +2866,9 @@ end)()
 		special_bgm = "",
 		bgm = "story-magicalnight-pv"
 	}
+	pg.base.voice_bgm.ConsumeGemSignInPage = {
+		default_bgm = "story-richang-partynight",
+		special_bgm = "",
+		bgm = "story-richang-partynight"
+	}
 end)()

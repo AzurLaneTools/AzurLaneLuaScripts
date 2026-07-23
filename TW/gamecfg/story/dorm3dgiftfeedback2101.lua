@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_freegift_voice1/drom3d_nakhimov_freegift_voice1",
 			actorName = 79902,
 			nameColor = "#FFFFFF",
-			say = "这个是……送给我的？嗯……谢谢，我很喜欢。",
+			say = "這個是……送給我的？嗯……謝謝，我很喜歡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

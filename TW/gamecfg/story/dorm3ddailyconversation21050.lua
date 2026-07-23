@@ -17,14 +17,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，我发现了一部比较吓人的电影……要一起看吗？",
+			say = "{dorm3d}，我發現了一部比較嚇人的電影……要一起看嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你喜欢看这种类型的？",
+					content = "你喜歡看這種類別型的？",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯，喜欢。",
+			say = "嗯，喜歡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "因为在电影的吓人镜头时，可以很自然地抱住{dorm3d}。",
+			say = "因為在電影的嚇人鏡頭時，可以很自然地抱住{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "约会教程里是这样写的……不对吗？",
+			say = "約會教程裡面是這樣寫的……不對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯，教程说的没错。。",
+			say = "嗯，教程說的沒錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那{dorm3d}也准备好……等到了吓人的地方，我就抱过来。",
+			say = "那{dorm3d}也準備好……等到了嚇人的地方，我就抱過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

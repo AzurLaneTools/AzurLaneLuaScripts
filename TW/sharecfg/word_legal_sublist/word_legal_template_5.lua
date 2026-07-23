@@ -4,61 +4,6 @@ slot0.word_legal_template_5 = {}
 slot1 = slot0.word_legal_template_5
 
 temp = function()
-	uv0["吸"] = {
-		["血"] = {
-			["鬼"] = {
-				this = true,
-				["·"] = {
-					M = {
-						E = {
-							T = {
-								A = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["丘"] = {
-		["比"] = {
-			["特"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["澤"] = {
-		["西"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["回"] = {
-		["聲"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["愛"] = {
 		["斯"] = {
 			["基"] = {
@@ -593,6 +538,83 @@ temp = function()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["厭"] = {
+		["戰"] = {
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["前"] = {
+		["衛"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["納"] = {
+		["爾"] = {
+			["遜"] = {
+				this = true,
+				["."] = {
+					["改"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["希"] = {
+			["莫"] = {
+				["夫"] = {
+					["海"] = {
+						["軍"] = {
+							["上"] = {
+								["將"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["豪"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["復"] = {
+		["仇"] = {
+			this = true
 		}
 	}
 end

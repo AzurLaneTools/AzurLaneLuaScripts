@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_hello9/drom3d_nakhimov_hello9",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "所有工作都已完成，现在是和{dorm3d}的独处时间……",
+			say = "所有工作都已完成，現在是和{dorm3d}的獨處時間…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

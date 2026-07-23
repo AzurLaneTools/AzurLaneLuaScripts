@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_freegift_voice3/drom3d_nakhimov_freegift_voice3",
 			actorName = 79902,
 			nameColor = "#FFFFFF",
-			say = "唔喵……好好闻的味道……{dorm3d}在礼物里加了荆芥吗？",
+			say = "唔喵……好好聞的味道……指揮官在禮物裡加了貓薄荷嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

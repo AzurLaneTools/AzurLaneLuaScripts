@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_ik_furniture1_tone6/drom3d_nakhimov_ik_furniture1_tone6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "呜……！好强的吸力……指、指挥官！",
+			say = "嗚……！好強的吸力……指、指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

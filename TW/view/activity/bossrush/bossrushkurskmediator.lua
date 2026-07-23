@@ -41,23 +41,27 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
 	end)
 
-	slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH)
+	slot1 = slot0.contextData.activityID
 
-	slot0.viewComponent:SetActivity(slot1)
+	assert(slot1, "activityID is required by BossRushVerZenkerMediator")
 
-	slot2 = slot1:GetConfigClientSetting("PTID")
+	slot2 = getProxy(ActivityProxy):getActivityById(slot1)
 
-	for slot7, slot8 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)) do
-		if slot8:getDataConfig("pt") == slot2 then
-			slot0.viewComponent:SetPtActivity(slot8)
+	slot0.viewComponent:SetActivity(slot2)
+
+	slot3 = slot2:GetConfigClientSetting("PTID")
+
+	for slot8, slot9 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)) do
+		if slot9:getDataConfig("pt") == slot3 then
+			slot0.viewComponent:SetPtActivity(slot9)
 
 			break
 		end
 	end
 
-	slot4 = slot0.viewComponent
+	slot5 = slot0.viewComponent
 
-	slot4:addbubbleMsgBox(function (slot0)
+	slot5:addbubbleMsgBox(function (slot0)
 		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossRushTotalRewardPanelMediator) then
 			return
 		end
@@ -65,9 +69,9 @@ slot0.register = function(slot0)
 		slot0()
 	end)
 
-	slot4 = slot0.viewComponent
+	slot5 = slot0.viewComponent
 
-	slot4:addbubbleMsgBox(function (slot0)
+	slot5:addbubbleMsgBox(function (slot0)
 		pg.GuildMsgBoxMgr.GetInstance():NotificationForBattle(slot0)
 	end)
 end

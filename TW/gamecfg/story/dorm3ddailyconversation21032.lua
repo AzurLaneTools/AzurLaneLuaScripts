@@ -17,14 +17,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这是新家务机器人的设计图，{dorm3d}觉得怎么样？",
+			say = "這是新家務機器人的設計圖，{dorm3d}覺得怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "下半身怎么没有腿？",
+					content = "下半身怎麼沒有腿？",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "最初方案是完全的人形，后面发现需要兼顾扫地和拖地的功能，就把腿改成了吸盘。",
+			say = "最初方案是完全的人形，後面發現需要兼顧掃地和拖地的功能，就把腿改成了吸磁碟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这样平衡性也比较好，反正腿只是装饰而已，{dorm3d}一定懂的吧？",
+			say = "這樣平衡性也比較好，反正腿只是裝飾而已，{dorm3d}一定懂的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

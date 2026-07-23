@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_hello5/drom3d_nakhimov_hello5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "今天港区的阳光很好……我正在调试窗户的角度，想让房间里更暖和一些。",
+			say = "今天港區的陽光很好……我正在調試窗戶的角度，想讓房間裡更溫暖一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

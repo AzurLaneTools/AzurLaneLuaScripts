@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "今天早上起床发现自己被线缆捆住了，花了好一会才解开。",
+			say = "今天早上起床發現自己被纜線捆住了，花了好一會兒才解開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,14 +57,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我想在床边设置一个线缆诱捕目标。",
+			say = "我想在床邊設置一個纜線誘捕目標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那是什么？",
+					content = "那是什麼？",
 					flag = 1
 				}
 			},
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "就是用来引诱线缆缠过去的东西。",
+			say = "就是用來引誘纜線纏過去的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}不要动哦，我给你做个全身扫描……~",
+			say = "{dorm3d}不要動哦，我幫你做個全身掃描……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……数据采集完成了。",
+			say = "嗯……數據採集完成了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这样就可以做一个和{dorm3d}差不多大小的抱枕，让线缆去缠它。",
+			say = "這樣就可以做一個和{dorm3d}差不多大小的抱枕，讓纜線去纏它。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不过效果好不好……还得试过才知道。",
+			say = "不過效果好不好……還得試過才知道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

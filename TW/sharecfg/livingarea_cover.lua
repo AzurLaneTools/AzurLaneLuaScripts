@@ -22,7 +22,10 @@ pg.livingarea_cover.all = {
 	101203,
 	101401,
 	101402,
-	101403
+	101403,
+	102101,
+	102102,
+	102103
 }
 pg.base = pg.base or {}
 pg.base.livingarea_cover = {}
@@ -255,5 +258,41 @@ pg.base.livingarea_cover = {}
 		id = 101403,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "101403_icon"
+	}
+	pg.base.livingarea_cover[102101] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "暖意依偎",
+		nighttime_res = "102101_bg_night",
+		daytime_res = "102101_bg_day",
+		rarity = 3,
+		desc = "獲得後可以在生活區封面功能中解鎖暖意依偎封面",
+		unlock_text = "納希莫夫海軍上將宿舍契合度2級解鎖",
+		id = 102101,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102101_icon"
+	}
+	pg.base.livingarea_cover[102102] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "共眠時刻",
+		nighttime_res = "102102_bg_night",
+		daytime_res = "102102_bg_day",
+		rarity = 3,
+		desc = "獲得後可以在生活區封面功能中解鎖暖共眠時刻封面",
+		unlock_text = "納希莫夫海軍上將宿舍契合度7級解鎖",
+		id = 102102,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102102_icon"
+	}
+	pg.base.livingarea_cover[102103] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "屏息待你",
+		nighttime_res = "102103_bg_night",
+		daytime_res = "102103_bg_day",
+		rarity = 3,
+		desc = "獲得後可以在生活區封面功能中解鎖屏息待你封面",
+		unlock_text = "納希莫夫海軍上將宿舍契合度10級解鎖",
+		id = 102103,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102103_icon"
 	}
 end)()

@@ -794,7 +794,113 @@ pg.dorm3d_dialogue_group.all = {
 	140228,
 	140229,
 	140230,
-	140231
+	140231,
+	210001,
+	210002,
+	210003,
+	210004,
+	210005,
+	210006,
+	210007,
+	210008,
+	210009,
+	210010,
+	210011,
+	210012,
+	210013,
+	210014,
+	210015,
+	210016,
+	210017,
+	210018,
+	210019,
+	210020,
+	210021,
+	210022,
+	210023,
+	210024,
+	210025,
+	210026,
+	210027,
+	210028,
+	210029,
+	210030,
+	210031,
+	210032,
+	210033,
+	210034,
+	210035,
+	210036,
+	210037,
+	210038,
+	210039,
+	210040,
+	210041,
+	210042,
+	210043,
+	210044,
+	210045,
+	210046,
+	210047,
+	210048,
+	210049,
+	210050,
+	210051,
+	210052,
+	210053,
+	210054,
+	210055,
+	210101,
+	210102,
+	210103,
+	210104,
+	210105,
+	210106,
+	210107,
+	210108,
+	210109,
+	210110,
+	210111,
+	210112,
+	210113,
+	210114,
+	210115,
+	210301,
+	210302,
+	210303,
+	210304,
+	210510,
+	210511,
+	210520,
+	210521,
+	210530,
+	210531,
+	210541,
+	210542,
+	210543,
+	210601,
+	210602,
+	210201,
+	210202,
+	210203,
+	210204,
+	210205,
+	210206,
+	210207,
+	210208,
+	210209,
+	210210,
+	210211,
+	210212,
+	210220,
+	210221,
+	210222,
+	210223,
+	210224,
+	210225,
+	210226,
+	210227,
+	210228
 }
 pg.dorm3d_dialogue_group.get_id_list_by_char_id = {
 	[10517] = {
@@ -1600,6 +1706,114 @@ pg.dorm3d_dialogue_group.get_id_list_by_char_id = {
 		140229,
 		140230,
 		140231
+	},
+	[79902] = {
+		210001,
+		210002,
+		210003,
+		210004,
+		210005,
+		210006,
+		210007,
+		210008,
+		210009,
+		210010,
+		210011,
+		210012,
+		210013,
+		210014,
+		210015,
+		210016,
+		210017,
+		210018,
+		210019,
+		210020,
+		210021,
+		210022,
+		210023,
+		210024,
+		210025,
+		210026,
+		210027,
+		210028,
+		210029,
+		210030,
+		210031,
+		210032,
+		210033,
+		210034,
+		210035,
+		210036,
+		210037,
+		210038,
+		210039,
+		210040,
+		210041,
+		210042,
+		210043,
+		210044,
+		210045,
+		210046,
+		210047,
+		210048,
+		210049,
+		210050,
+		210051,
+		210052,
+		210053,
+		210054,
+		210055,
+		210101,
+		210102,
+		210103,
+		210104,
+		210105,
+		210106,
+		210107,
+		210108,
+		210109,
+		210110,
+		210111,
+		210112,
+		210113,
+		210114,
+		210115,
+		210301,
+		210302,
+		210303,
+		210304,
+		210510,
+		210511,
+		210520,
+		210521,
+		210530,
+		210531,
+		210541,
+		210542,
+		210543,
+		210601,
+		210602,
+		210201,
+		210202,
+		210203,
+		210204,
+		210205,
+		210206,
+		210207,
+		210208,
+		210209,
+		210210,
+		210211,
+		210212,
+		210220,
+		210221,
+		210222,
+		210223,
+		210224,
+		210225,
+		210226,
+		210227,
+		210228
 	}
 }
 pg.dorm3d_dialogue_group.get_id_list_by_room_id = {
@@ -2410,6 +2624,116 @@ pg.dorm3d_dialogue_group.get_id_list_by_room_id = {
 		140053,
 		140054,
 		140055
+	},
+	[21] = {
+		210001,
+		210002,
+		210003,
+		210004,
+		210005,
+		210006,
+		210007,
+		210008,
+		210009,
+		210010,
+		210011,
+		210012,
+		210013,
+		210014,
+		210015,
+		210016,
+		210017,
+		210018,
+		210019,
+		210020,
+		210021,
+		210022,
+		210023,
+		210024,
+		210025,
+		210026,
+		210027,
+		210028,
+		210029,
+		210030,
+		210031,
+		210032,
+		210033,
+		210034,
+		210035,
+		210036,
+		210037,
+		210038,
+		210039,
+		210040,
+		210041,
+		210042,
+		210043,
+		210044,
+		210045,
+		210046,
+		210047,
+		210048,
+		210049,
+		210050,
+		210101,
+		210102,
+		210103,
+		210104,
+		210105,
+		210106,
+		210107,
+		210108,
+		210109,
+		210110,
+		210111,
+		210112,
+		210113,
+		210114,
+		210115,
+		210301,
+		210302,
+		210303,
+		210304,
+		210510,
+		210511,
+		210520,
+		210521,
+		210530,
+		210531,
+		210541,
+		210542,
+		210543,
+		210601,
+		210602,
+		210201,
+		210202,
+		210203,
+		210204,
+		210205,
+		210206,
+		210207,
+		210208,
+		210209,
+		210210,
+		210211,
+		210212,
+		210220,
+		210221,
+		210222,
+		210223,
+		210224,
+		210225,
+		210226,
+		210227,
+		210228
+	},
+	[26] = {
+		210051,
+		210052,
+		210053,
+		210054,
+		210055
 	}
 }
 pg.base = pg.base or {}
@@ -17539,6 +17863,2027 @@ end)()
 		unlock = {
 			1,
 			49905,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210001] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21001",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210001,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210002] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21002",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210002,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210003] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21003",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210003,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210004] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21004",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210004,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210005] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21005",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210005,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210006] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21006",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210006,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210007] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21007",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210007,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210008] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21008",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210008,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+end)()
+(function ()
+	pg.base.dorm3d_dialogue_group[210009] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21009",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210009,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210010] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21010",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210010,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210011] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21011",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210011,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210012] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21012",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210012,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210013] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21013",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210013,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210014] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21014",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210014,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210015] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21015",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210015,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210016] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21016",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210016,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210017] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21017",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210017,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210018] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21018",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210018,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210019] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21019",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210019,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210020] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21020",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210020,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210021] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21021",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210021,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210022] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21022",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210022,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210023] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21023",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210023,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210024] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21024",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210024,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210025] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21025",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210025,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			6
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210026] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21026",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210026,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210027] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21027",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210027,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210028] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21028",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210028,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210029] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21029",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210029,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210030] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21030",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210030,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210031] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21031",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210031,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210032] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21032",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210032,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210033] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21033",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210033,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210034] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21034",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210034,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210035] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21035",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210035,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210036] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21036",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210036,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210037] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21037",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210037,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210038] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21038",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210038,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210039] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21039",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210039,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210040] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21040",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210040,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210041] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21041",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210041,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210042] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21042",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210042,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210043] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21043",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210043,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210044] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21044",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210044,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210045] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21045",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210045,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210046] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21046",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210046,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210047] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21047",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210047,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210048] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21048",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210048,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210049] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21049",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210049,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210050] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21050",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210050,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			11
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210051] = {
+		reward = 0,
+		room_id = 26,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21051",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210051,
+		action_type = "stand",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210052] = {
+		reward = 0,
+		room_id = 26,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21052",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210052,
+		action_type = "stand",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210053] = {
+		reward = 0,
+		room_id = 26,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21053",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210053,
+		action_type = "stand",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210054] = {
+		reward = 0,
+		room_id = 26,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21054",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210054,
+		action_type = "stand",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210055] = {
+		reward = 0,
+		room_id = 26,
+		trigger_area = "",
+		type = 200,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DDAILYCONVERSATION21055",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210055,
+		action_type = "stand",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210101] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21001",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210101,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210102] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21002",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210102,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210103] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21003",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210103,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210104] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21004",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210104,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210105] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21005",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210105,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210106] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21006",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210106,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210107] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21007",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210107,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210108] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21008",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210108,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210109] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21009",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210109,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210110] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21010",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210110,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210111] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21011",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210111,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210112] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21012",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210112,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210113] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21013",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210113,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210114] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21014",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210114,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210115] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 104,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DHELLO21015",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210115,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210301] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 402,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DGIFTFEEDBACK2101",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210301,
+		action_type = "stand",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210302] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 402,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DGIFTFEEDBACK2102",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210302,
+		action_type = "stand",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210303] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 402,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DGIFTFEEDBACK2103",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210303,
+		action_type = "stand",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210304] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 402,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DGIFTFEEDBACK2104",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210304,
+		action_type = "stand",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210510] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 700,
+		bgm = "",
+		performance_type = 1,
+		story = "DormLvPerformance2101",
+		char_id = 79902,
+		extend_loading = 1,
+		id = 210510,
+		action_type = "sit",
+		trigger_config = {
+			21
+		},
+		unlock = {
+			1,
+			79902,
+			4
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210511] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 600,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3TIMELINE21001",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210511,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			4
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210520] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 700,
+		bgm = "",
+		performance_type = 1,
+		story = "DormLvPerformance2102",
+		char_id = 79902,
+		extend_loading = 1,
+		id = 210520,
+		action_type = "sit",
+		trigger_config = {
+			21
+		},
+		unlock = {
+			1,
+			79902,
+			8
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210521] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 600,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3TIMELINE21002",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210521,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			8
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210530] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 700,
+		bgm = "",
+		performance_type = 1,
+		story = "DormLvPerformance2103",
+		char_id = 79902,
+		extend_loading = 1,
+		id = 210530,
+		action_type = "sit",
+		trigger_config = {
+			21
+		},
+		unlock = {
+			1,
+			79902,
+			12
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210531] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 600,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3TIMELINE21003",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210531,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			12
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210541] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 700,
+		bgm = "",
+		performance_type = 1,
+		story = "DormLvPerformance2104",
+		char_id = 79902,
+		extend_loading = 1,
+		id = 210541,
+		action_type = "sit",
+		trigger_config = {
+			21
+		},
+		unlock = {
+			3,
+			7990201
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210542] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 600,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DGIFTAVG21041",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210542,
+		action_type = "sit",
+		unlock = {
+			3,
+			7990201
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210543] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 600,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3TIMELINE21004",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210543,
+		action_type = "sit",
+		unlock = {
+			3,
+			7990201
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210601] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 800,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DVIDEO2101",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210601,
+		action_type = "stand",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210602] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 800,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DVIDEO2102",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210602,
+		action_type = "stand",
+		unlock = {
+			1,
+			79902,
+			8
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210201] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21001",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210201,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210202] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21002",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210202,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210203] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21003",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210203,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210204] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21004",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210204,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210205] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21005",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210205,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210206] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21006",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210206,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210207] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21007",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210207,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210208] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21008",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210208,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210209] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21009",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210209,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210210] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21010",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210210,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210211] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21011",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210211,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210212] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21012",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210212,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210220] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21020",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210220,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210221] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21021",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210221,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210222] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21022",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210222,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210223] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21023",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210223,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210224] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21024",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210224,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210225] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21025",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210225,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210226] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21026",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210226,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210227] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21027",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210227,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
+			1
+		}
+	}
+	pg.base.dorm3d_dialogue_group[210228] = {
+		reward = 0,
+		room_id = 21,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH21028",
+		char_id = 79902,
+		extend_loading = 0,
+		id = 210228,
+		action_type = "sit",
+		unlock = {
+			1,
+			79902,
 			1
 		}
 	}

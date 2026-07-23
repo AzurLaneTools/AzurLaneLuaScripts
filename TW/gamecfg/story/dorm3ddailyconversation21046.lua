@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}带了小鱼干！是送给我的吗？",
+			say = "{dorm3d}帶了小魚乾！是送給我的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯，好吃。美味程度100%……因为是{dorm3d}送的，所以再加10%。",
+			say = "嗯，好吃。美味程度100%……因為是{dorm3d}送的，所以再加10%。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "唔……那这个评估体系就有问题。",
+			say = "唔……那這個評估體係就有問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "应该引入一个“{dorm3d}附加系数”，在原有上限基础上额外计算。~",
+			say = "應該引入一個「{dorm3d}附加係數」，在原有上限基末期上額外計算。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "看到很厉害的程序时，会忽然觉得——“这段代码写得真好”。",
+			say = "看到很厲害的程序時，會忽然覺得——「這段程式碼寫得真好」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "然后仔细研究，摘录下来，收藏在文件夹里。",
+			say = "然後仔細研究，摘錄影下來，收藏在文件夾裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "就像看到美味的小鱼干，忍不住想存起来一样。",
+			say = "就像看到美味的小魚乾，忍不住想存起來一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，你也会收藏小鱼干吗？",
+			say = "{dorm3d}，你也會收藏小魚乾嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

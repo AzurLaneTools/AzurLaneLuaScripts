@@ -4,62 +4,6 @@ slot0.word_legal_template_2 = {}
 slot1 = slot0.word_legal_template_2
 
 temp = function()
-	uv0["科"] = {
-		["爾"] = {
-			["克"] = {
-				this = true
-			}
-		},
-		["羅"] = {
-			["拉"] = {
-				["多"] = {
-					this = true,
-					["·"] = {
-						["改"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["隆"] = {
-			this = true,
-			["·"] = {
-				["改"] = {
-					this = true
-				},
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["洛"] = {
-			["蒂"] = {
-				["婭"] = {
-					["·"] = {
-						["巴"] = {
-							["蘭"] = {
-								["茨"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["金"] = {
 		["伯"] = {
 			["利"] = {
@@ -188,6 +132,19 @@ temp = function()
 										}
 									}
 								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["克"] = {
+			["斯"] = {
+				["·"] = {
+					["英"] = {
+						["麥"] = {
+							["曼"] = {
+								this = true
 							}
 						}
 					}
@@ -1083,6 +1040,32 @@ temp = function()
 				["納"] = {
 					this = true
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["彭"] = {
+		["薩"] = {
+			["科"] = {
+				["拉"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鹽"] = {
+		["湖"] = {
+			["城"] = {
+				this = true
 			}
 		}
 	}

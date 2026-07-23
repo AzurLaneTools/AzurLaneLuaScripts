@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_hello15/drom3d_nakhimov_hello15",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "晚安，{dorm3d}……今晚，我可以抱着你的手臂入睡吗？……最喜欢你了，喵~",
+			say = "晚安，{dorm3d}…今晚，我可以抱著你的手臂入睡嗎？……最喜歡你了，喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

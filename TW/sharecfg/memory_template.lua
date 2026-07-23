@@ -3932,6 +3932,13 @@ pg.memory_template.all = {
 	5204,
 	5211,
 	5221,
+	5251,
+	5252,
+	5253,
+	5254,
+	5255,
+	5256,
+	5257,
 	5241,
 	5242,
 	5243,
@@ -74919,6 +74926,132 @@ end)()
 			"HONGSHULINDESHOUHUJINGLING1"
 		}
 	}
+	pg.base.memory_template[5251] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "無法忽視的異常",
+		condition = "解鎖「為了絕對的笑容」任務1",
+		story = "PULIMAOSI1",
+		mask = "bg/bg_memory",
+		task = 500261,
+		year = 0,
+		id = 5251,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI1"
+		}
+	}
+	pg.base.memory_template[5252] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "絕對完美的「刀工」",
+		condition = "解鎖「為了絕對的笑容」任務2",
+		story = "PULIMAOSI2",
+		mask = "bg/bg_memory",
+		task = 500262,
+		year = 0,
+		id = 5252,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI2"
+		}
+	}
+	pg.base.memory_template[5253] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "遊樂園的神槍手",
+		condition = "解鎖「為了絕對的笑容」任務3",
+		story = "PULIMAOSI3",
+		mask = "bg/bg_memory",
+		task = 500263,
+		year = 0,
+		id = 5253,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI3"
+		}
+	}
+	pg.base.memory_template[5254] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "不被允許的雨",
+		condition = "解鎖「為了絕對的笑容」任務4",
+		story = "PULIMAOSI4",
+		mask = "bg/bg_memory",
+		task = 500264,
+		year = 0,
+		id = 5254,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI4"
+		}
+	}
+	pg.base.memory_template[5255] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "鋼鐵的煙火",
+		condition = "解鎖「為了絕對的笑容」任務5",
+		story = "PULIMAOSI5",
+		mask = "bg/bg_memory",
+		task = 500265,
+		year = 0,
+		id = 5255,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI5"
+		}
+	}
+	pg.base.memory_template[5256] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "羽毛之災",
+		condition = "解鎖「為了絕對的笑容」任務6",
+		story = "PULIMAOSI6",
+		mask = "bg/bg_memory",
+		task = 500266,
+		year = 0,
+		id = 5256,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI6"
+		}
+	}
+	pg.base.memory_template[5257] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "眉頭皺起的理由",
+		condition = "解鎖「為了絕對的笑容」任務7",
+		story = "PULIMAOSI7",
+		mask = "bg/bg_memory",
+		task = 500267,
+		year = 0,
+		id = 5257,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"PULIMAOSI7"
+		}
+	}
 	pg.base.memory_template[5241] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76089,6 +76222,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA18"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20018] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76215,8 +76350,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA25"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20025] = {
 		ship_group = 0,
 		subtitle = "",
@@ -77891,6 +78024,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA37"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20118] = {
 		ship_group = 0,
 		subtitle = "",
@@ -78017,8 +78152,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA44"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20125] = {
 		ship_group = 0,
 		subtitle = "",

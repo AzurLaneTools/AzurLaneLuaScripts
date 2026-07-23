@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "做饭？平时一般不会自己做。",
+			say = "做飯？平時一般不會自己做。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "之前试过一次……被油溅到了。",
+			say = "之前試過一次……被油濺到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "线缆吓得当场竖起来，差点把头顶的灯管给戳坏了。",
+			say = "纜線嚇得當場豎起來，差點把頭頂的燈管給戳壞了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "后来想了想，厨房这种东西……还是拆掉比较安全。",
+			say = "後來想了想，廚房這種東西……還是拆掉比較安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "饿了的话，有面包和小鱼干。{dorm3d}要吃吗？",
+			say = "餓了的話，有麵包和小魚乾。{dorm3d}要吃嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "虽然硬了点……但管饱。",
+			say = "雖然硬了點……但管飽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

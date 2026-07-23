@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，你看到电视遥控器了吗？",
+			say = "{dorm3d}，你看到電視遙控器了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "刚才还在沙发上，一转身就不见了。",
+			say = "剛才還在沙發上，一轉身就不見了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "可能是被线缆卷到角落去了。",
+			say = "可能是被纜線捲到角落去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这样啊……算了，手动换台也一样。",
+			say = "這樣啊……算了，手動換台也一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}想看什么频道？我帮你换。",
+			say = "{dorm3d}想看什麼頻道？我幫你換。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

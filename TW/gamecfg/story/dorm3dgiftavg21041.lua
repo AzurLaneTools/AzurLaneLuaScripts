@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_gift_timeline01_voice1/drom3d_nakhimov_gift_timeline01_voice1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，你送给我的这个本能训练器……很可能会干扰工作间运行的设备。",
+			say = "{dorm3d}，你送給我的這個本能訓練器…很可能會干擾工作間運作的設備。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -60,7 +60,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_gift_timeline01_voice2/drom3d_nakhimov_gift_timeline01_voice2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "所以安全起见，想请指挥官来配合我进行仪器的稳定性分析。",
+			say = "所以安全起見，想請指揮官來配合我進行儀器的穩定分析。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

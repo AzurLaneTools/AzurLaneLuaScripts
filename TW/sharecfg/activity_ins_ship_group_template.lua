@@ -676,7 +676,9 @@ pg.activity_ins_ship_group_template.all = {
 	81801,
 	80602,
 	80106,
-	60505
+	60505,
+	10114,
+	10143
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -5449,7 +5451,7 @@ end)()
 		name = "公共頻道",
 		background = "200",
 		sculpture = "200",
-		nationality = 12,
+		nationality = 13,
 		type = 2,
 		sculpture_ii = ""
 	}
@@ -5458,7 +5460,7 @@ end)()
 		name = "下午茶福利",
 		background = "200",
 		sculpture = "201",
-		nationality = 12,
+		nationality = 13,
 		type = 2,
 		sculpture_ii = ""
 	}
@@ -5467,7 +5469,7 @@ end)()
 		name = "活動籌備組",
 		background = "200",
 		sculpture = "202",
-		nationality = 12,
+		nationality = 13,
 		type = 2,
 		sculpture_ii = ""
 	}
@@ -6757,6 +6759,24 @@ end)()
 		background = "",
 		sculpture = "jiafuerbojue",
 		nationality = 6,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10114] = {
+		ship_group = 10114,
+		name = "Foote",
+		background = "",
+		sculpture = "fute",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10143] = {
+		ship_group = 10143,
+		name = "Halsey Powell",
+		background = "",
+		sculpture = "haerxibaoweier",
+		nationality = 1,
 		type = 1,
 		sculpture_ii = ""
 	}

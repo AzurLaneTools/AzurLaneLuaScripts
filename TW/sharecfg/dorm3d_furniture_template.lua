@@ -66,7 +66,16 @@ pg.dorm3d_furniture_template.all = {
 	1414,
 	1415,
 	1461,
-	1462
+	1462,
+	2101,
+	2102,
+	2103,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2161
 }
 pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 	{
@@ -144,6 +153,17 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		1415,
 		1461,
 		1462
+	},
+	[21] = {
+		2101,
+		2102,
+		2103,
+		2111,
+		2112,
+		2113,
+		2114,
+		2115,
+		2161
 	}
 }
 pg.base = pg.base or {}
@@ -1807,6 +1827,223 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/study"
+		}
+	}
+	pg.base.dorm3d_furniture_template[2101] = {
+		rarity = 3,
+		name = "紙殼小窩",
+		unlock_tips = "",
+		type = 4,
+		room_id = 21,
+		desc = "紙板拼接而成的小窩，輕巧易挪動，簡約卻又不失舒適，很適合她喜歡蜷縮在小地方的睡眠習慣。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2101,
+		target_slots = {
+			2210101
+		},
+		touch_id = {
+			{
+				79902,
+				7990210
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2102] = {
+		rarity = 3,
+		name = "多用置物架",
+		unlock_tips = "",
+		type = 6,
+		room_id = 21,
+		desc = "五層開放格架從地面延伸到視線平行處，書籍、工具等物件各得其所。生活的痕跡就擺在那裡，每一格都是隨手可觸的日常。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2102,
+		target_slots = {
+			2210201
+		},
+		touch_id = {
+			{
+				79902,
+				7990220
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2103] = {
+		rarity = 3,
+		name = "陽光暖意沙發",
+		unlock_tips = "",
+		type = 5,
+		room_id = 21,
+		desc = "純白沙發圍成溫暖的轉角，橙色靠墊如陽光碎片點綴其間。搭配同色矮桌與絨毯，每一處都適合放鬆休息。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2103,
+		target_slots = {
+			2210301
+		},
+		touch_id = {
+			{
+				79902,
+				7990230
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2111] = {
+		rarity = 2,
+		name = "窗邊綠植",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "擺放在窗邊的綠色盆栽，枝幹挺拔，葉片舒展，為房間注入滿滿的生機與自然氣息。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_flowerpot01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2111,
+		target_slots = {
+			2210303
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2112] = {
+		rarity = 2,
+		name = "貓貓坐墊",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "厚實柔軟的圓形坐墊，放在哪裡，哪裡就成了可以賴著不走的地方。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_cushion01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2112,
+		target_slots = {
+			2210304
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2113] = {
+		rarity = 2,
+		name = "原子球模型",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "原子球與晶體結構的科學藝術裝置，既可作為物理愛好者的收藏，也是格調獨特的桌面擺件。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_decoration01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2113,
+		target_slots = {
+			2210302
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2114] = {
+		rarity = 2,
+		name = "黃釉圓瓶",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "圓滾滾的黃色瓷瓶，釉面溫潤光亮，造型憨厚可愛，像一隻被拉長的甜甜圈。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_ceram01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2114,
+		target_slots = {
+			2210103
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2115] = {
+		rarity = 2,
+		name = "香薰瓶",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 21,
+		desc = "明黃色的陶瓷小瓶，插著纖細的香，點燃後青煙裊裊，香氣緩緩瀰漫整個房間。",
+		is_exclusive = 0,
+		model = "Pay_Naximofuhostel/pre_db_nxmf_cosmetic01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 2115,
+		target_slots = {
+			2210102
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2161] = {
+		rarity = 4,
+		name = "魔方檢測儀",
+		type = 6,
+		room_id = 21,
+		desc = "圓形的檢測儀緩緩轉動，螢幕上的數據如星河流淌，按下啟動鍵的那一刻，或許會揭開什麼科學奧秘~",
+		is_exclusive = 1,
+		model = "Pay_Naximofuhostel/pre_db_naximofu_basement01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_naximofu_PremiumFurniture1",
+		acesses = "",
+		id = 2161,
+		target_slots = {
+			2210201
+		},
+		touch_id = {
+			{
+				79902,
+				7990240
+			}
+		},
+		shop_id = {
+			270701
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture2161"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/basement/pre_db_naximofu_basement01_0"
 		}
 	}
 end)()

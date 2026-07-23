@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "喜欢的事情？晒太阳……待在{dorm3d}身边……",
+			say = "喜歡的事情？曬太陽……待在{dorm3d}身邊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,14 +57,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "还有写代码。坐上椅子，一会天就黑了。",
+			say = "還有寫程式碼。坐上椅子，待會天就黑了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是喜欢工作的类型？",
+					content = "是喜歡工作的類別型？",
 					flag = 1
 				}
 			},
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯。所以{dorm3d}要工作的话——",
+			say = "嗯。所以{dorm3d}要工作的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不管到多晚，我可以陪你一起工作。不说话，就在旁边工作。",
+			say = "不管到多晚，我可以陪你一起工作。不說話，就在旁邊工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

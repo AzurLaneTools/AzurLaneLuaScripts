@@ -11,7 +11,9 @@ pg.dorm3d_rooms.all = {
 	11,
 	12,
 	14,
-	16
+	16,
+	21,
+	26
 }
 pg.dorm3d_rooms.get_id_list_by_in_map = {
 	floor_1 = {
@@ -26,6 +28,10 @@ pg.dorm3d_rooms.get_id_list_by_in_map = {
 		12,
 		14,
 		16
+	},
+	floor_3 = {
+		21,
+		26
 	}
 }
 pg.base = pg.base or {}
@@ -893,6 +899,159 @@ pg.base.dorm3d_rooms = {}
 					16018,
 					16019,
 					16020
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_rooms[21] = {
+		assets_prefix = "Naximofu",
+		resource_name = "Naximofu_DB",
+		type = 2,
+		id = 21,
+		invite_cost = "",
+		in_map = "floor_3",
+		room = "納希莫夫海軍上將",
+		invite_mark = "",
+		tag = "",
+		room_bgm = "story-room-nakhimov",
+		invite_icon = "",
+		invite_banner = "",
+		room_des = "",
+		scene_info = "map_naximofu_01|Naximofu_DB/Naximofuhostel",
+		is_common = 0,
+		character = {
+			79902
+		},
+		character_pay = {},
+		character_welcome = {
+			{
+				79902,
+				0
+			}
+		},
+		character_range = {
+			1
+		},
+		unlock_item = {},
+		default_zone = {
+			{
+				79902,
+				"Chair"
+			}
+		},
+		furniture_zones = {
+			21001,
+			21002,
+			21003
+		},
+		recall_list = {
+			211,
+			212,
+			213,
+			214
+		},
+		ar_anim = {
+			{
+				79902,
+				{
+					21001,
+					21002,
+					21003,
+					21004,
+					21005,
+					21006,
+					21007,
+					21008,
+					21009,
+					21010,
+					21011,
+					21012,
+					21013,
+					21014,
+					21015
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_rooms[26] = {
+		assets_prefix = "Carwash",
+		resource_name = "Carwash",
+		type = 1,
+		id = 26,
+		in_map = "floor_3",
+		room = "維修區工作站",
+		tag = "carwash",
+		room_bgm = "story-room-pit",
+		room_des = "扳手、儀表、零件……在金屬的微光里，享受從容的精密時光。",
+		scene_info = "map_carwash_01|Carwash",
+		is_common = 0,
+		character = {},
+		character_pay = {
+			79902
+		},
+		character_welcome = {
+			{
+				79902,
+				0
+			}
+		},
+		character_range = {
+			0,
+			3
+		},
+		unlock_item = {
+			{
+				2,
+				15024,
+				1
+			}
+		},
+		default_zone = {
+			{
+				79902,
+				"Parking"
+			}
+		},
+		furniture_zones = {},
+		recall_list = {},
+		invite_cost = {
+			{
+				79902,
+				270121
+			}
+		},
+		invite_banner = {
+			{
+				79902,
+				{
+					"banner_carwash1"
+				}
+			}
+		},
+		invite_icon = {
+			{
+				79902,
+				"dorm3dicon/3Ddrom_invitation"
+			}
+		},
+		invite_mark = {
+			{
+				79902,
+				{
+					5,
+					6
+				}
+			}
+		},
+		ar_anim = {
+			{
+				79902,
+				{
+					26001,
+					26001,
+					26003,
+					26004,
+					26005
 				}
 			}
 		}

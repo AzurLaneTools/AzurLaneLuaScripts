@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，这里有零食。烟熏鱼干，很好吃的。",
+			say = "{dorm3d}，這裡有零食。煙燻魚乾，很好吃的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,14 +57,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你尝尝看。",
+			say = "你嚐嚐看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……很有特色。",
+					content = " ……很有特色。",
 					flag = 1
 				}
 			},
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "对吧？我也喜欢！",
+			say = "對吧？我也喜歡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这里还有很多——我们今天午饭就吃这个吧！",
+			say = "這裡還有很多——我們今天午飯就吃這個吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

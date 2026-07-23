@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "最近好像很喜欢做这个动作？",
+			say = "最近好像很喜歡做這個動作？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……蹭蹭是种很有效率的缓解疲劳方式。",
+			say = "嗯……蹭蹭是種很有效率的緩解疲勞方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "如果一段时间没见到{dorm3d}，心里就会有点烦躁。",
+			say = "如果一段時間沒見到{dorm3d}，心裡就會有點煩躁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "而蹭蹭缓解烦躁的效果……是对话的3.5倍，非常高效。",
+			say = "而蹭蹭緩解煩躁的效果……是對話的3.5倍，非常有效率。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……这是经过数据验证的，不是随便说的。",
+			say = "……這是經過數據驗證的，不是隨便說的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

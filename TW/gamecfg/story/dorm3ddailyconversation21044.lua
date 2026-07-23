@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，要来一杯吗？",
+			say = "{dorm3d}，要來一杯嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "伏特加的酒精含量比较高，能很轻易地进入微醺状态。",
+			say = "伏特加的酒精含量比較高，能很輕易地進入微醺狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "有时候思路卡住了，喝一点反而会有一些平时想不到的想法。",
+			say = "有時候思路卡住了，喝一點反而會有一些平時想不到的想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "纳希莫夫现在有产生什么新想法？",
+			say = "納希莫夫現在有產生什麼新想法？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "想……想被{dorm3d}抱在怀里……一边摸头……一边挠下巴……",
+			say = "想……想被{dorm3d}抱在懷裡……一邊摸頭……一邊撓下巴……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……代码报错，死循环，重启调试……",
+			say = "……程式碼報錯，死循圓環，重啟偵錯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "咦，代码变成小鱼干了……还长出了翅膀……",
+			say = "咦，程式碼變成小魚乾了……還長出了翅膀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "别飞……小鱼干……喵！",
+			say = "別飛……小魚乾……喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,14 +137,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……{dorm3d}？你怎么在这里，有看到我的小鱼干吗？",
+			say = "……{dorm3d}？你怎麼在這裡，有看到我的小魚乾嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你刚才睡着了，是梦里的吧。",
+					content = "你剛才睡著了，是夢裡的吧。",
 					flag = 1
 				}
 			},
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "梦里？好可惜……本来还想分你一半的。",
+			say = "夢裡？好可惜……本來還想分你一半的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

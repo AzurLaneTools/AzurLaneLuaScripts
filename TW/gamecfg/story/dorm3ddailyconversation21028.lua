@@ -17,14 +17,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，你今天想做什么？",
+			say = "{dorm3d}，你今天想做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "嗯……天气不错，一起去逛街？",
+					content = "嗯……天氣不錯，一起去逛街？",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "逛街？我很少在街上闲逛，一般会列好清单，规划最优采购路线……",
+			say = "逛街？我很少在街上閒逛，一般會列好清單，規劃最優採購路線……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "等一下，是和{dorm3d}一起去吗？",
+			say = "等一下，是和{dorm3d}一起去嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我们现在出发吧，效率什么的……路上再说。",
+			say = "我們現在出發吧，效率什麼的……路上再說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

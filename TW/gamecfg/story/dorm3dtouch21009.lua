@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_ik_tone10/drom3d_nakhimov_ik_tone10",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "喜欢这对“猫耳”吗？",
+			say = "喜歡這對「貓耳」嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

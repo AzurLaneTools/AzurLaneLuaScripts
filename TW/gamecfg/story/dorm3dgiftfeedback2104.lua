@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_gift1_voice1/drom3d_nakhimov_gift1_voice1",
 			actorName = 79902,
 			nameColor = "#FFFFFF",
-			say = "欸？本能训练器？原来是这个名字吗……",
+			say = "欸？本能訓練器？原來是這個名字嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_gift1_voice2/drom3d_nakhimov_gift1_voice2",
 			actorName = 79902,
 			nameColor = "#FFFFFF",
-			say = "可以快点试试吗？左右左右……目光不由自主……",
+			say = "可以快點試試嗎？左右左右……目光不由自主……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

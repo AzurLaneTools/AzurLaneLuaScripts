@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_ik_furniture1_tone1/drom3d_nakhimov_ik_furniture1_tone1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "指挥官……你也好奇检测的结果吗？",
+			say = "指揮官……你也好奇檢測的結果嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

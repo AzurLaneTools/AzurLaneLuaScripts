@@ -1183,71 +1183,71 @@ end)()
 	}
 	pg.base.dorm3d_subtitle[21001] = {
 		id = 21001,
-		subtitle = "嗯……这个，指挥官也尝尝。"
+		subtitle = "嗯……這個，指揮官也嚐嚐。"
 	}
 	pg.base.dorm3d_subtitle[21002] = {
 		id = 21002,
-		subtitle = "甜度适中……很好吃。"
+		subtitle = "甜度適中……很好吃。"
 	}
 	pg.base.dorm3d_subtitle[21003] = {
 		id = 21003,
-		subtitle = "欸……为什么……突然变甜了许多……"
+		subtitle = "欸……為什麼……突然變甜了許多……"
 	}
 	pg.base.dorm3d_subtitle[21004] = {
 		id = 21004,
-		subtitle = "指挥官，你的嘴边有残留物……我帮你清理一下。"
+		subtitle = "指揮官，你的嘴邊有殘留物……我幫你清理一下。"
 	}
 	pg.base.dorm3d_subtitle[21005] = {
 		id = 21005,
-		subtitle = "嗯……这是经过分析后……最、最高效的清理方案……喵~"
+		subtitle = "嗯…這是經過分析後…最、最有效率的清理方案…喵~"
 	}
 	pg.base.dorm3d_subtitle[21006] = {
 		id = 21006,
-		subtitle = "嗯……设备运行完美……所有参数都很正常……"
+		subtitle = "嗯……設備運作完美……所有參數都很正常……"
 	}
 	pg.base.dorm3d_subtitle[21007] = {
 		id = 21007,
-		subtitle = "唔……好舒适……喵~"
+		subtitle = "嗯……好舒適……喵~"
 	}
 	pg.base.dorm3d_subtitle[21008] = {
 		id = 21008,
-		subtitle = "欸，是指挥官。"
+		subtitle = "欸，是指揮官。"
 	}
 	pg.base.dorm3d_subtitle[21009] = {
 		id = 21009,
-		subtitle = "你身上好暖和……让我再靠一会儿。"
+		subtitle = "你身上好暖和……讓我再靠一下子。"
 	}
 	pg.base.dorm3d_subtitle[21010] = {
 		id = 21010,
-		subtitle = "就再抱一分钟……真的就一分钟……"
+		subtitle = "就再抱一分鐘……真的就一分鐘……"
 	}
 	pg.base.dorm3d_subtitle[21011] = {
 		id = 21011,
-		subtitle = "嗯……电容模块更换完成，接触不良的排线也重新接好了。"
+		subtitle = "嗯……電容模組更換完成，接觸不良的排線也重新接好了。"
 	}
 	pg.base.dorm3d_subtitle[21012] = {
 		id = 21012,
-		subtitle = "指挥官，这样应该就——"
+		subtitle = "指揮官，這樣應該就——"
 	}
 	pg.base.dorm3d_subtitle[21013] = {
 		id = 21013,
-		subtitle = "喵呜......"
+		subtitle = "喵嗚……"
 	}
 	pg.base.dorm3d_subtitle[21014] = {
 		id = 21014,
-		subtitle = "都怪地上这些线缆……不小心被绊倒了……"
+		subtitle = "都怪地上這些纜線……不小心被絆倒了……"
 	}
 	pg.base.dorm3d_subtitle[21015] = {
 		id = 21015,
-		subtitle = "指挥官？好烫——"
+		subtitle = "指揮官？好燙——"
 	}
 	pg.base.dorm3d_subtitle[21016] = {
 		id = 21016,
-		subtitle = "指挥官，你好像也……需要修理了喵~"
+		subtitle = "指揮官，你好像也………需要修理了喵"
 	}
 	pg.base.dorm3d_subtitle[21021] = {
 		id = 21021,
-		subtitle = "喵……结构简单，原理低级，但是……目光会不由自主地被吸引……"
+		subtitle = "喵……結構簡單，原理低級，但是……目光會不由自主地被吸引……"
 	}
 	pg.base.dorm3d_subtitle[21022] = {
 		id = 21022,
@@ -1255,35 +1255,35 @@ end)()
 	}
 	pg.base.dorm3d_subtitle[21023] = {
 		id = 21023,
-		subtitle = "只是引起了我的研究兴趣。"
+		subtitle = "只是引起了我的研究興趣。"
 	}
 	pg.base.dorm3d_subtitle[21024] = {
 		id = 21024,
-		subtitle = "唔……喵……突然这样快速地移动……好狡猾……"
+		subtitle = "嗯……喵……突然這樣快速地移動……好狡猾……"
 	}
 	pg.base.dorm3d_subtitle[21025] = {
 		id = 21025,
-		subtitle = "请保持静止……这是进行捕获分析的必要条件。"
+		subtitle = "請保持靜止……這是進行捕獲分析的必要條件。"
 	}
 	pg.base.dorm3d_subtitle[21026] = {
 		id = 21026,
-		subtitle = "呜喵——！"
+		subtitle = "嗚喵——！"
 	}
 	pg.base.dorm3d_subtitle[21027] = {
 		id = 21027,
-		subtitle = "唔~精准捕获……看来训练效果是存在的……"
+		subtitle = "唔~精準捕獲……看來訓練效果是存在的……"
 	}
 	pg.base.dorm3d_subtitle[21028] = {
 		id = 21028,
-		subtitle = "指挥官……是想要这个……猎物、给你~ "
+		subtitle = "指揮官……是想要這個……獵物、給你~"
 	}
 	pg.base.dorm3d_subtitle[21029] = {
 		id = 21029,
-		subtitle = "唔……请、请停止干扰测试……！"
+		subtitle = "嗯……請、請停止干擾測試……！"
 	}
 	pg.base.dorm3d_subtitle[21030] = {
 		id = 21030,
-		subtitle = "欸……是奖励？嗯……那继续喵~"
+		subtitle = "欸……是獎勵？嗯……那繼續喵~"
 	}
 	pg.base.dorm3d_subtitle[21031] = {
 		id = 21031,
@@ -1291,27 +1291,27 @@ end)()
 	}
 	pg.base.dorm3d_subtitle[21032] = {
 		id = 21032,
-		subtitle = "指挥官……测试目标……似乎需要变更了。"
+		subtitle = "指揮官……測試目標……似乎需要變更了。"
 	}
 	pg.base.dorm3d_subtitle[21033] = {
 		id = 21033,
-		subtitle = "指挥官……测试目标变更！该轮到我了~"
+		subtitle = "指揮官……測試目標變更！該輪到我了~"
 	}
 	pg.base.dorm3d_subtitle[21034] = {
 		id = 21034,
-		subtitle = "这样……指挥官就打上我的标签了。"
+		subtitle = "這樣……指揮官就打上我的標籤了。"
 	}
 	pg.base.dorm3d_subtitle[21035] = {
 		id = 21035,
-		subtitle = "这里……这里……是安心的气味~"
+		subtitle = "這裡……這裡……是安心的氣味~"
 	}
 	pg.base.dorm3d_subtitle[21036] = {
 		id = 21036,
-		subtitle = " 我要把指挥官的气息，牢牢记住……喵……"
+		subtitle = "我要把指揮官的氣息，牢牢記住……喵……"
 	}
 	pg.base.dorm3d_subtitle[21037] = {
 		id = 21037,
-		subtitle = "唔……是、是这样做的么……"
+		subtitle = "嗯……是、是這樣做的嗎……"
 	}
 	pg.base.dorm3d_subtitle[21038] = {
 		id = 21038,
@@ -1319,18 +1319,18 @@ end)()
 	}
 	pg.base.dorm3d_subtitle[21039] = {
 		id = 21039,
-		subtitle = "唔……这样……指挥官就属于我了喵…… "
+		subtitle = "嗯……這樣……指揮官就屬於我了喵……"
 	}
 	pg.base.dorm3d_subtitle[21040] = {
 		id = 21040,
-		subtitle = "呼……指挥官的味道……最好了……"
+		subtitle = "呼……指揮官的味道……最好了……"
 	}
 	pg.base.dorm3d_subtitle[21041] = {
 		id = 21041,
-		subtitle = "最喜欢你了…… "
+		subtitle = "最喜歡你了……"
 	}
 	pg.base.dorm3d_subtitle[21042] = {
 		id = 21042,
-		subtitle = "要这样……一直、一直在一起喵…… "
+		subtitle = "要這樣……一直、一直在一起喵……"
 	}
 end)()

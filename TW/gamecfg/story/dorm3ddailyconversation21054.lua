@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "由我来担任{dorm3d}的赛车领航员？",
+			say = "由我來擔任{dorm3d}的賽車領航員？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "听起来是一项很有挑战性的工作。",
+			say = "聽起來是一項很有挑戰性的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "需要先找一些资料进行系统性的学习。",
+			say = "需要先找一些資料進行系統性的學習。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "必要情况下……让线缆来接手方向盘，通过预先输入的指令进行驾驶操作。",
+			say = "必要情況下……讓纜線來接手方向盤，通過預先輸入的指令執行駕駛操作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样应该算犯规吧……",
+			say = "這樣應該算犯規吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "犯规了吗？那就作为紧急情况下的安全预案好了……",
+			say = "犯規了嗎？那就作為緊急情況下的安全預案好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

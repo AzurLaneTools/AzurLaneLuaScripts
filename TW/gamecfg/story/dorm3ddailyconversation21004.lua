@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "电视开不了？拍两下就行。",
+			say = "電視開不了？拍兩下就行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯，就是这样操作的。",
+			say = "嗯，就是這樣操作的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "两下开机，一下换台，三下是调整清晰度……嗯，很方便。",
+			say = "兩下開機，一下換台，三下是調整清晰度…嗯，很方便。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那要怎么关机？",
+			say = "那怎麼關機？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "关机拔电源就好了，真是奇怪的问题。",
+			say = "關機拔電源就好了，真是奇怪的問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

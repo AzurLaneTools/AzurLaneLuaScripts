@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_ik_gfit1_tone6/drom3d_nakhimov_ik_gfit1_tone6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "呜……呜嘻嘻~指、指挥官……这样摸会很痒的……！",
+			say = "嗚……嗚嘻嘻~指、指揮官……這樣摸會很癢的……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

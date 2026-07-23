@@ -213,6 +213,8 @@ slot0.OnCreateItem = function(slot0, slot1, slot2)
 	end
 
 	slot0.modules[slot1:GetDeathType() .. slot1.id] = slot4
+
+	slot0:UpdateAttachment()
 end
 
 slot0.OnAddItem = function(slot0)
@@ -333,9 +335,13 @@ slot0.OnOpenLayer = function(slot0, slot1)
 
 	slot0._layerCount = slot0._layerCount + (slot1 and 1 or -1)
 
-	for slot5, slot6 in pairs(slot0.modules) do
-		if isa(slot6, CourtYardShipModule) then
-			slot6:HideAttachment(slot0._layerCount ~= 0)
+	slot0:UpdateAttachment()
+end
+
+slot0.UpdateAttachment = function(slot0)
+	for slot4, slot5 in pairs(slot0.modules) do
+		if isa(slot5, CourtYardShipModule) then
+			slot5:HideAttachment(slot0._layerCount ~= 0)
 		end
 	end
 end

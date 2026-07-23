@@ -15,7 +15,9 @@ pg.dorm3d_gift.all = {
 	1051702,
 	3070701,
 	3070702,
-	4990501
+	4990501,
+	7990201,
+	7990261
 }
 pg.dorm3d_gift.get_id_list_by_ship_group_id = {
 	[0] = {
@@ -44,6 +46,10 @@ pg.dorm3d_gift.get_id_list_by_ship_group_id = {
 	},
 	[49905] = {
 		4990501
+	},
+	[79902] = {
+		7990201,
+		7990261
 	}
 }
 pg.base = pg.base or {}
@@ -124,6 +130,12 @@ pg.base.dorm3d_gift = {}
 				49905,
 				{
 					"banner_aijier"
+				}
+			},
+			{
+				79902,
+				{
+					"banner_naximofu"
 				}
 			}
 		}
@@ -209,6 +221,12 @@ pg.base.dorm3d_gift = {}
 				{
 					"banner_aijier"
 				}
+			},
+			{
+				79902,
+				{
+					"banner_naximofu"
+				}
 			}
 		}
 	}
@@ -289,6 +307,12 @@ pg.base.dorm3d_gift = {}
 				49905,
 				{
 					"banner_aijier"
+				}
+			},
+			{
+				79902,
+				{
+					"banner_naximofu"
 				}
 			}
 		}
@@ -609,6 +633,91 @@ pg.base.dorm3d_gift = {}
 				49905,
 				{
 					"banner_gift4990501"
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_gift[7990201] = {
+		display = "名為本能訓練器的玩具，用一尾布魚勾住所有的視線。\n每當它如活物般在空中劃出弧線，都是在誘惑著被訓練者顯露出最純粹的本能。",
+		name = "本能訓練器",
+		unlock_dialogue_id = 210541,
+		rarity = 4,
+		ship_group_id = 79902,
+		time = "always",
+		hide_if_not_owned = 0,
+		favor_trigger_id = 1004,
+		id = 7990201,
+		icon = "dorm3dicon/3Ddrom_naximofu_FancyGift1",
+		reply_dialogue_id = {
+			{
+				79902,
+				210304
+			}
+		},
+		shop_id = {
+			260701
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				79902,
+				{
+					"banner_gift7990201"
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_gift[7990261] = {
+		display = "極地漁獲造型的抱枕，手感柔軟，抱在懷里十分暖和。\n不管是用來消磨閒暇時光，還是在休息時充當依靠，都很實用。",
+		name = "極地漁獲抱枕",
+		unlock_dialogue_id = 0,
+		rarity = 4,
+		ship_group_id = 79902,
+		hide_if_not_owned = 1,
+		favor_trigger_id = 1099,
+		id = 7990261,
+		icon = "dorm3dicon/3Ddrom_naximofu_FancyGift9",
+		reply_dialogue_id = {
+			{
+				79902,
+				210302
+			}
+		},
+		shop_id = {},
+		unlock_tips = {},
+		unlock_banners = {
+			{
+				79902,
+				{
+					"banner_naximofu"
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					14,
+					59,
+					59
 				}
 			}
 		}

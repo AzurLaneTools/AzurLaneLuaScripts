@@ -17,14 +17,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，那边的绝缘胶帮忙递一下。",
+			say = "{dorm3d}，那邊的絕緣膠帶幫忙遞一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "给，这次是在做什么工作？",
+					content = "給妳，這次是在做什麼工作？",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "把房间里的线路做一点小改造。",
+			say = "把房間裡的線路做一點小改造。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}住进来的话，插座位置和灯光角度都得调整一下。",
+			say = "{dorm3d}住進來的話，插座位置和燈光角度都得調整一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "纸箱也得换成双人的，还有……{dorm3d}也来帮忙想一想吧~",
+			say = "紙箱也得換成雙人的，還有……{dorm3d}也來幫忙想想吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

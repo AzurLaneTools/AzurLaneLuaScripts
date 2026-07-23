@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，来陪我做个实验吧。",
+			say = "{dorm3d}，來陪我做個實驗吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "想测试一下室内环境下，手和头发摩擦产生的静电量。",
+			say = "想測試一下室內環境下，手和頭髮摩擦產生的靜電量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "辅助观测设备会自动采集相关数据。",
+			say = "輔助觀測設備會自動採集相關數據。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}负责把手放在我的头上持续摩擦就可以了。",
+			say = "{dorm3d}負責把手放在我的頭上持續摩擦就可以了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……要摸……摩擦久一点才能把数据收集完整。",
+			say = "嗯……要摸……摩擦久一點才能把資料收集完整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

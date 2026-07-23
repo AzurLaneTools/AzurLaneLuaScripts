@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_hello11/drom3d_nakhimov_hello11",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "脸……有点红吗？因为从听到{dorm3d}脚步声的时候，就在想象{dorm3d}抚摸这里的温度……",
+			say = "臉……有點紅嗎？因為從聽到{dorm3d}腳步聲的時候，就在想像{dorm3d}撫摸這裡的溫度……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

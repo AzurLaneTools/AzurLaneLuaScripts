@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那袋猫粮是之前采购备用食品时有点好奇买的。",
+			say = "那袋貓糧是之前採購備用食品時有點好奇買的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "但是太难吃了，硬邦邦的，味道也很奇怪，就一直放在那里了……",
+			say = "但是太難吃了，硬邦邦的，味道也很奇怪，就一直放在那裡了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}要是听到附近有小猫在喵喵叫的话，可以拿去投喂哦~",
+			say = "{dorm3d}要是聽到附近有小貓在喵喵叫的話，可以拿去投餵哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不是“喵——”，是“喵~喵~”，这样才是饿了。",
+			say = "不是「喵——」，是「喵~喵~」，這樣才是餓了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

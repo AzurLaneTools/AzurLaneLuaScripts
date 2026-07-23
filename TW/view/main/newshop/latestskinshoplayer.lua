@@ -1671,27 +1671,13 @@ slot0.FlushGifgPackBtn = function(slot0, slot1)
 				uv1:emit(LatestSkinShopMediator.OPEN_GIFT_PACK_LAYER, uv0, uv2, uv3)
 			end
 		end, SFX_PANEL)
-	else
-		slot9 = ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE
+	elseif getProxy(ActivityProxy):GetFakeGiftPackActivity(slot1) then
+		slot7 = slot0.giftPackBtn
 
-		for slot9, slot10 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot9)) do
-			if slot10 and not slot10:isEnd() and slot10.data1 < 1 and underscore.any(slot10:getConfig("config_data")[1], function (slot0)
-				return pg.ship_skin_template[slot0].shop_id == uv0.id
-			end) then
-				slot2 = slot10
-
-				break
-			end
-		end
-
-		if slot2 then
-			slot7 = slot0.giftPackBtn
-
-			setText(slot7:Find("title"), i18n("skinshop_on_sale_tip"))
-			onButton(slot0, slot0.giftPackBtn, function ()
-				uv0:emit(LatestSkinShopMediator.OPEN_GIFT_ACT_LAYER, uv1.id)
-			end, SFX_PANEL)
-		end
+		setText(slot7:Find("title"), i18n("skinshop_on_sale_tip"))
+		onButton(slot0, slot0.giftPackBtn, function ()
+			uv0:emit(LatestSkinShopMediator.OPEN_GIFT_ACT_LAYER, uv1.id)
+		end, SFX_PANEL)
 	end
 
 	setActive(slot0.giftPackBtn, slot2)

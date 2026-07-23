@@ -4,75 +4,6 @@ slot0.word_legal_template_7 = {}
 slot1 = slot0.word_legal_template_7
 
 temp = function()
-	uv0["陽"] = {
-		["炎"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["野"] = {
-		["分"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["初"] = {
-		["春"] = {
-			this = true
-		},
-		["霜"] = {
-			this = true
-		},
-		["月"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["若"] = {
-		["葉"] = {
-			this = true
-		},
-		["月"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["有"] = {
-		["明"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["親"] = {
-		["潮"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["島"] = {
 		["風"] = {
 			this = true
@@ -428,6 +359,91 @@ temp()
 temp = function()
 	uv0["花"] = {
 		["月"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["涼"] = {
+		["月"] = {
+			this = true
+		},
+		["波"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["風"] = {
+		["雲"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["杪"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["藤"] = {
+		["波"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["五"] = {
+		["十"] = {
+			["鈴"] = {
+				this = true
+			}
+		},
+		["河"] = {
+			["琴"] = {
+				["里"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["名"] = {
+		["取"] = {
+			this = true
+		},
+		["寄"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["由"] = {
+		["良"] = {
 			this = true
 		}
 	}

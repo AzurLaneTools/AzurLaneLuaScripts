@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "老鼠？没有哦。{dorm3d}怕这个？",
+			say = "老鼠？沒有哦。{dorm3d}怕這個嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯？你是说……有只机器猫，睡觉时被老鼠咬掉了耳朵？",
+			say = "嗯？你是說……有機器貓，睡覺時被老鼠咬掉了耳朵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "很可怕，有必要增加一些防御工事……",
+			say = "很可怕，有必要增加一些防禦工事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我要去画设计图了，{dorm3d}有什么建议吗？",
+			say = "我要去畫設計圖了，{dorm3d}有什麼靈感嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

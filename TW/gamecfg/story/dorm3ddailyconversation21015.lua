@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，你身上有很好闻的味道。",
+			say = "{dorm3d}，你身上有很好聞的味道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不是荆芥，嗯……说不上来……就是让人很安心，连线缆都放松下来了。",
+			say = "不是荊芥，嗯……說不上來……就是讓人很安心，連纜線都放鬆下來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "线缆正在分析气味成分。",
+			say = "纜線正在分析氣味成分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "在分析结果出来之前，就在{dorm3d}身边多待一会吧。",
+			say = "在分析結果實出來之前，就在{dorm3d}身邊多待一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

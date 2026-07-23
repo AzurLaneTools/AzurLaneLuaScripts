@@ -4,208 +4,6 @@ slot0.word_legal_template_11 = {}
 slot1 = slot0.word_legal_template_11
 
 temp = function()
-	uv0["寰"] = {
-		["昌"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["鎮"] = {
-		["海"] = {
-			this = true,
-			["."] = {
-				["改"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["定"] = {
-		["安"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["龐"] = {
-		["培"] = {
-			["·"] = {
-				["馬"] = {
-					["格"] = {
-						["諾"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["焦"] = {
-		["蘇"] = {
-			["埃"] = {
-				["·"] = {
-					["卡"] = {
-						["爾"] = {
-							["杜"] = {
-								["奇"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["扎"] = {
-		["拉"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["的"] = {
-		["里"] = {
-			["雅"] = {
-				["斯"] = {
-					["德"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["維"] = {
-		["托"] = {
-			["里"] = {
-				["奧"] = {
-					["·"] = {
-						["維"] = {
-							["內"] = {
-								["托"] = {
-									this = true
-								}
-							}
-						},
-						["庫"] = {
-							["尼"] = {
-								["貝"] = {
-									["爾"] = {
-										["蒂"] = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["達"] = {
-			["號"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["安"] = {
-		["德"] = {
-			["烈"] = {
-				["亞"] = {
-					["·"] = {
-						["多"] = {
-							["里"] = {
-								["亞"] = {
-									this = true,
-									["·"] = {
-										M = {
-											E = {
-												T = {
-													A = {
-														this = true
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["妮"] = {
-			["女"] = {
-				["王"] = {
-					["復"] = {
-						["仇"] = {
-							["號"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["克"] = {
-			["拉"] = {
-				["治"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["帝"] = {
-		["國"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["托"] = {
 		["里"] = {
 			["切"] = {
@@ -528,6 +326,149 @@ temp = function()
 	uv0["吉"] = {
 		["尚"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["迪"] = {
+		["蓋"] = {
+			["·"] = {
+				["特"] = {
+					["魯"] = {
+						["安"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["黎"] = {
+		["胥"] = {
+			["留"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["潘"] = {
+		["勒"] = {
+			["韋"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["速"] = {
+		["科"] = {
+			["夫"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["瑟"] = {
+		["堡"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["勒"] = {
+		["馬"] = {
+			["爾"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["沃"] = {
+		["克"] = {
+			["蘭"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鈍"] = {
+		["劍"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["銳"] = {
+		["劍"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["惡"] = {
+		["毒"] = {
+			this = true,
+			["("] = {
+				["μ"] = {
+					["兵"] = {
+						["裝"] = {
+							[")"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["敦"] = {
+		["克"] = {
+			["爾"] = {
+				["克"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

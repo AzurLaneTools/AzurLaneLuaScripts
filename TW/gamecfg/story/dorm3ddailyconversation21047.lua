@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，工房的所有设备都给你开放了最高权限。",
+			say = "{dorm3d}，工房的所有裝置都給你開放了最高權限。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,14 +57,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "使用设备之前，记得先看一下这本注意事项和日志。",
+			say = "使用裝置之前，記得先看一下這本注意事項和日誌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我看看……“今天{dorm3d}来了，很高兴……但没有摸摸，失落……”",
+					content = "我看看…「今天{dorm3d}來了，很高興……但沒有摸摸，失落……」",
 					flag = 1
 				}
 			},
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那个应该不是日志……{dorm3d}可以先不要看吗？",
+			say = "那個應該不是日誌……{dorm3d}可以先不要看嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

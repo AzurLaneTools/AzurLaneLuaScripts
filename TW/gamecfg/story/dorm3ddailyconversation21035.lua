@@ -17,14 +17,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，来陪我玩格斗游戏吧。",
+			say = "{dorm3d}，來陪我玩格鬥遊戲吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你喜欢玩这个？",
+					content = "你喜歡玩這個？",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯，还挺擅长的。",
+			say = "嗯，還挺擅長的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}要来和我比试一下吗？",
+			say = "{dorm3d}要來和我比試一下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你可以用手柄，我用线缆直接接入就行。",
+			say = "你可以用手把，我用纜線直接接入就行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这样反应会快一点……",
+			say = "這樣反應會快一點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

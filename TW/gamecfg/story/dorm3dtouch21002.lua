@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_ik_tone13/drom3d_nakhimov_ik_tone13",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "指挥官，一起做些有趣的事情吧……",
+			say = "指揮官，一起做些有趣的事吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

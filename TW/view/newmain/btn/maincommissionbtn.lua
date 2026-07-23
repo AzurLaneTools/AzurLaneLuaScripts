@@ -5,7 +5,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 
 	slot0.animTime = slot3 or 0.2
 
-	slot0:bind(GAME.REMOVE_LAYERS, function (slot0, slot1)
+	slot0:bind(NewMainMediator.REMOVE_LAYERS, function (slot0, slot1)
 		uv0:OnRemoveLayer(slot1.context)
 	end)
 end

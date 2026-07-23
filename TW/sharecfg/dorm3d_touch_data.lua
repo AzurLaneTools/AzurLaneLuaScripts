@@ -51,7 +51,11 @@ pg.dorm3d_touch_data.all = {
 	4990530,
 	4990540,
 	4990550,
-	4990590
+	4990590,
+	7990210,
+	7990220,
+	7990230,
+	7990240
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_touch_data = {}
@@ -1233,6 +1237,102 @@ pg.base.dorm3d_touch_data = {}
 		},
 		ik_status = {
 			610910
+		}
+	}
+	pg.base.dorm3d_touch_data[7990210] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 7990210,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			700110
+		}
+	}
+	pg.base.dorm3d_touch_data[7990220] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 7990220,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			700210
+		}
+	}
+	pg.base.dorm3d_touch_data[7990230] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 7990230,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			700310
+		}
+	}
+	pg.base.dorm3d_touch_data[7990240] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 7990240,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			700410
 		}
 	}
 end)()

@@ -17,14 +17,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，我点了两杯奶茶，要一起喝吗？",
+			say = "{dorm3d}，我點了兩杯奶茶，要一起喝嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好，我们一人一杯？",
+					content = "好，我們一人一杯？",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "可是……这两杯是不同的味道，我都想尝尝。",
+			say = "可是……這兩杯是不同的味道，我都想嚐嚐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "所以我要了四根吸管哦。",
+			say = "所以我要了四根吸管喔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这样我们都可以尝到两种味道的奶茶了。",
+			say = "這樣我們都可以嚐到兩種味道的奶茶了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

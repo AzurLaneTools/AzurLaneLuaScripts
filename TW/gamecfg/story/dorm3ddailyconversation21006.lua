@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这个味道是……",
+			say = "這個味道是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我房间里怎么会有荆芥的气味，哈……哈哈……",
+			say = "我房間裡怎麼會有荊芥的氣味，哈……哈哈……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "明明只是普通的草本植物……为什么会……",
+			say = "明明只是普通的草本植物……為什麼會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "好像是{dorm3d}的身上……传来的……",
+			say = "好像是{dorm3d}的身上……傳來的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "唔，要忍不住了……喵……",
+			say = "唔，要忍不住了…喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

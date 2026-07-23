@@ -248,7 +248,7 @@ slot0.GetRearChaptersOfRemaster = function(slot0)
 
 	slot1 = getProxy(ChapterProxy)
 
-	table.Foreach(_.reduce(pg.re_map_template[slot0].config_data, {}, function (slot0, slot1)
+	table.Foreach(_.reduce(BossRushChapterRemasterHelper.GetChapterIds(slot0), {}, function (slot0, slot1)
 		slot0[slot5] = slot0[uv0:getMapById(uv0:getChapterById(slot1, true):getConfig("map")):getConfig("type")] or {}
 
 		table.insert(slot0[slot5], slot1)

@@ -686,9 +686,9 @@ slot0.LoadSingleCharacter = function(slot0, slot1, slot2)
 
 	if slot0.room:isPersonalRoom() then
 		for slot13, slot14 in ipairs(slot5:GetAllModelIds()) do
-			if not table.contains(slot4.skinIdList, slot14) and Dorm3dSkin.New({
+			if not table.contains(slot4.skinIdList, slot14) and (Dorm3dSkin.New({
 				configId = slot14
-			}):IsShow() then
+			}):IsShow() or slot14 == 199033) then
 				if checkABExist(string.format("dorm3d/character/%s/prefabs/%s", slot6, slot8:GetModelName())) then
 					table.insert(slot4.skinIdList, slot14)
 					table.insert(slot3, function (slot0)
@@ -1696,17 +1696,19 @@ slot0.HideCharacterBylayer = function(slot0, slot1)
 
 	for slot7 = 0, slot1.lady:Find("all").childCount - 1 do
 		if slot3:GetChild(slot7).name ~= slot2 then
-			pg.ViewUtils.SetLayer(slot8, Layer.Environment3D)
+			pg.ViewUtils.SetLayer(slot8, Layer.UIHidden)
 		end
 	end
 
 	if slot1.tfPendintItem then
-		pg.ViewUtils.SetLayer(slot1.tfPendintItem, Layer.Environment3D)
+		pg.ViewUtils.SetLayer(slot1.tfPendintItem, Layer.UIHidden)
 	end
 
 	if slot1.ladyWatchFloat then
-		pg.ViewUtils.SetLayer(slot1.ladyWatchFloat, Layer.Environment3D)
+		pg.ViewUtils.SetLayer(slot1.ladyWatchFloat, Layer.UIHidden)
 	end
+
+	Dorm3dHxHelper.SetModelHolyLightActive(slot1.lady, slot0.holyLightRoot, false)
 end
 
 slot0.RevertCharacterBylayer = function(slot0, slot1)
@@ -1725,6 +1727,8 @@ slot0.RevertCharacterBylayer = function(slot0, slot1)
 	if slot1.ladyWatchFloat then
 		pg.ViewUtils.SetLayer(slot1.ladyWatchFloat, Layer.Default)
 	end
+
+	Dorm3dHxHelper.SetModelHolyLightActive(slot1.lady, slot0.holyLightRoot, true)
 end
 
 slot0.EnterFurnitureWatchMode = function(slot0)

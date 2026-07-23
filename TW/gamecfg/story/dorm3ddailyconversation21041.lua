@@ -17,14 +17,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，能坐近一点吗？",
+			say = "{dorm3d}，能坐近一點嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "怎么了？",
+					content = "怎麼了？",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "想更了解{dorm3d}一点。",
+			say = "想更了解{dorm3d}一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不是通过线缆……而是皮肤的温度，心跳的节奏……",
+			say = "不是通過纜線……而是皮膚的溫度，心跳的節奏……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "可以吗？",
+			say = "可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

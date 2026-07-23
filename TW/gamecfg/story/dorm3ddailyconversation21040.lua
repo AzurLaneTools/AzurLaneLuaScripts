@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，新开发的智能驾驶系统完成了，兼容海陆空多种载具。",
+			say = "{dorm3d}，新開發的智慧駕駛系統完成了，相容海陸空多種載具。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "需要为你的交通工具安装上吗？",
+			say = "需要為你的交通工具安裝上嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "请放心，各种突发情况的响应速度都在0.03秒之内。",
+			say = "請放心，各種突發情況的反應速度都在0.03秒之內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "对它说“回家”，还会自己开回这里来，非常方便。",
+			say = "對它說「回家」，還會自己開回這裡來，非常方便。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

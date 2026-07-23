@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_hello14/drom3d_nakhimov_hello14",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "脖颈后面……有点痒。没、没有生病……只是想要{dorm3d}帮我轻轻吹一下……",
+			say = "脖頸後面……有點癢。沒、沒有生病……只是想要{dorm3d}幫我輕輕吹一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

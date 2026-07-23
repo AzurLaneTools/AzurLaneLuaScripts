@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊，这本书是……",
+			say = "啊，這本書是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "《小猫的喂养》？纳希莫夫是想养小猫了么？",
+			say = "《小貓的餵養》？納希莫夫想養小貓了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不是……不对，是、是想养小猫。",
+			say = "不是……不對，是、想養小貓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "紧张？没有紧张……是{dorm3d}的错觉。",
+			say = "緊張？沒有緊張……是{dorm3d}的錯覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

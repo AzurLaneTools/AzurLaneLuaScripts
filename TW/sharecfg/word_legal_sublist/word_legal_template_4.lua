@@ -4,111 +4,6 @@ slot0.word_legal_template_4 = {}
 slot1 = slot0.word_legal_template_4
 
 temp = function()
-	uv0["企"] = {
-		["業"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["大"] = {
-		["黃"] = {
-			["蜂"] = {
-				this = true,
-				I = {
-					I = {
-						this = true
-					}
-				},
-				["·"] = {
-					M = {
-						E = {
-							T = {
-								A = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["青"] = {
-			["花"] = {
-				["魚"] = {
-					this = true,
-					["("] = {
-						["μ"] = {
-							["兵"] = {
-								["裝"] = {
-									[")"] = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["鬥"] = {
-			["犬"] = {
-				this = true
-			}
-		},
-		["潮"] = {
-			this = true
-		},
-		["鳳"] = {
-			this = true,
-			["("] = {
-				["μ"] = {
-					["兵"] = {
-						["裝"] = {
-							[")"] = {
-								this = true
-							}
-						}
-					}
-				}
-			},
-			["·"] = {
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["膽"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["胡"] = {
-		["蜂"] = {
-			this = true
-		},
-		["德"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["無"] = {
 		["畏"] = {
 			this = true
@@ -519,6 +414,61 @@ temp = function()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["吸"] = {
+		["血"] = {
+			["鬼"] = {
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["丘"] = {
+		["比"] = {
+			["特"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["澤"] = {
+		["西"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["回"] = {
+		["聲"] = {
+			this = true
 		}
 	}
 end

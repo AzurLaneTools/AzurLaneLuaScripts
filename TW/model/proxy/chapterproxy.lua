@@ -247,7 +247,7 @@ slot0.buildRemasterMaps = function(slot0)
 	uv0.RemasterToMaps = {}
 	slot1 = {}
 
-	_.each(pg.re_map_template.all, function (slot0)
+	_.each(BossRushChapterRemasterHelper.GetAllNonActivityIds(), function (slot0)
 		_.each(pg.re_map_template[slot0].config_data, function (slot0)
 			assert(not uv1[uv0.baseMaps[pg.chapter_template[slot0].map].id] or uv1[slot1.id] == uv2, "remaster chapter error:" .. slot0)
 
@@ -265,7 +265,7 @@ slot0.buildRemasterMaps = function(slot0)
 end
 
 slot0.IsChapterInRemaster = function(slot0, slot1)
-	return _.detect(pg.re_map_template.all, function (slot0)
+	return _.detect(BossRushChapterRemasterHelper.GetAllNonActivityIds(), function (slot0)
 		return _.any(pg.re_map_template[slot0].config_data, function (slot0)
 			return slot0 == uv0
 		end)
@@ -1056,6 +1056,10 @@ slot0.updateRemasterTicketsNum = function(slot0, slot1)
 	slot0.remasterTickets = slot1
 end
 
+slot0.getRemasterTicketCost = function(slot0)
+	return 5
+end
+
 slot0.resetDailyCount = function(slot0)
 	slot0.remasterDailyCount = 0
 end
@@ -1155,14 +1159,17 @@ slot0.buildRemasterInfo = function(slot0)
 	slot0.remasterInfo = {}
 
 	for slot4, slot5 in ipairs(pg.re_map_template.all) do
-		for slot9, slot10 in ipairs(pg.re_map_template[slot5].drop_gain) do
-			if #slot10 > 0 then
-				slot11, slot12, slot13, slot14 = unpack(slot10)
-				slot0.remasterInfo[slot11] = defaultValue(slot0.remasterInfo[slot11], {})
-				slot0.remasterInfo[slot11][slot9] = {
+		slot7 = pg.re_map_template[slot5].activity_id or 0
+
+		for slot11, slot12 in ipairs(slot6.drop_gain) do
+			if #slot12 > 0 then
+				slot13, slot14, slot15, slot16 = unpack(slot12)
+				slot0.remasterInfo[slot7] = defaultValue(slot0.remasterInfo[slot7], {})
+				slot0.remasterInfo[slot7][slot13] = defaultValue(slot0.remasterInfo[slot7][slot13], {})
+				slot0.remasterInfo[slot7][slot13][slot11] = {
 					count = 0,
 					receive = false,
-					max = slot14
+					max = slot16
 				}
 			end
 		end
@@ -1177,34 +1184,48 @@ slot0.checkRemasterInfomation = function(slot0)
 	end
 end
 
-slot0.addRemasterPassCount = function(slot0, slot1)
-	if not slot0.remasterInfo[slot1] then
+slot0.getRemasterInfo = function(slot0, slot1, slot2, slot3)
+	if not (slot0.remasterInfo and slot0.remasterInfo[slot1 or 0]) then
+		return nil
+	end
+
+	if not slot4[slot2] then
+		return nil
+	end
+
+	if slot3 then
+		return slot5[slot3]
+	end
+
+	return slot5
+end
+
+slot0.addRemasterPassCount = function(slot0, slot1, slot2)
+	if not slot0:getRemasterInfo(slot2, slot1) then
 		return
 	end
 
-	slot2 = nil
+	slot4 = nil
 
-	for slot6, slot7 in pairs(slot0.remasterInfo[slot1]) do
-		if slot7.count < slot7.max then
-			slot7.count = slot7.count + 1
-			slot2 = true
+	for slot8, slot9 in pairs(slot3) do
+		if slot9.count < slot9.max then
+			slot9.count = slot9.count + 1
+			slot4 = true
 		end
 	end
 
-	if slot2 then
+	if slot4 then
 		slot0:sendNotification(uv0.CHAPTER_REMASTER_INFO_UPDATED)
 	end
 end
 
-slot0.markRemasterPassReceive = function(slot0, slot1, slot2)
-	slot3 = slot0.remasterInfo[slot1][slot2]
-
-	if not slot0.remasterInfo[slot1][slot2] then
+slot0.markRemasterPassReceive = function(slot0, slot1, slot2, slot3)
+	if not slot0:getRemasterInfo(slot3, slot1, slot2) then
 		return
 	end
 
-	if not slot3.receive then
-		slot3.receive = true
+	if not slot4.receive then
+		slot4.receive = true
 
 		slot0:sendNotification(uv0.CHAPTER_REMASTER_INFO_UPDATED)
 	end
@@ -1213,8 +1234,10 @@ end
 slot0.anyRemasterAwardCanReceive = function(slot0)
 	for slot4, slot5 in pairs(slot0.remasterInfo) do
 		for slot9, slot10 in pairs(slot5) do
-			if not slot10.receive and slot10.max <= slot10.count then
-				return true
+			for slot14, slot15 in pairs(slot10) do
+				if not slot15.receive and slot15.max <= slot15.count then
+					return true
+				end
 			end
 		end
 	end

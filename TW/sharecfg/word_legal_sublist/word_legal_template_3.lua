@@ -4,32 +4,6 @@ slot0.word_legal_template_3 = {}
 slot1 = slot0.word_legal_template_3
 
 temp = function()
-	uv0["彭"] = {
-		["薩"] = {
-			["科"] = {
-				["拉"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["鹽"] = {
-		["湖"] = {
-			["城"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["北"] = {
 		["安"] = {
 			["普"] = {
@@ -809,6 +783,111 @@ temp = function()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["企"] = {
+		["業"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["大"] = {
+		["黃"] = {
+			["蜂"] = {
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				},
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["青"] = {
+			["花"] = {
+				["魚"] = {
+					this = true,
+					["("] = {
+						["μ"] = {
+							["兵"] = {
+								["裝"] = {
+									[")"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["鬥"] = {
+			["犬"] = {
+				this = true
+			}
+		},
+		["潮"] = {
+			this = true
+		},
+		["鳳"] = {
+			this = true,
+			["("] = {
+				["μ"] = {
+					["兵"] = {
+						["裝"] = {
+							[")"] = {
+								this = true
+							}
+						}
+					}
+				}
+			},
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["膽"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["胡"] = {
+		["蜂"] = {
+			this = true
+		},
+		["德"] = {
+			this = true
 		}
 	}
 end

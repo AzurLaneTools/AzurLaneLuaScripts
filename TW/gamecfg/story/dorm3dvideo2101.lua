@@ -7,10 +7,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone1/dorm3d_nakhimov_telephone1",
 			wait = 1,
-			say = "唔……信号正常……角度正常……这样就……",
+			say = "嗯……訊號正常……角度正常……這樣就……",
 			options = {
 				{
-					content = "纳希莫夫？",
+					content = "納希莫夫？",
 					flag = 1
 				}
 			},
@@ -46,7 +46,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone2/dorm3d_nakhimov_telephone2",
 			wait = 1,
-			say = "欸，指挥官……通话已经开始了？",
+			say = "欸，指揮官……通話已經開始了？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -79,10 +79,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone3/dorm3d_nakhimov_telephone3",
 			wait = 1,
-			say = "唔……这个时间，打扰到指挥官办公了吗？",
+			say = "嗯……這個時間，打擾到指揮官辦公了嗎？",
 			options = {
 				{
-					content = "不打扰，我刚好也想听你说话了。",
+					content = "不打擾，我剛好也想聽妳說話了。",
 					flag = 1
 				}
 			},
@@ -118,7 +118,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone4/dorm3d_nakhimov_telephone4",
 			wait = 1,
-			say = "嗯……我正在调试手机的视频通话功能。",
+			say = "嗯……我正在調整手機的視訊通話功能。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -151,7 +151,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone5/dorm3d_nakhimov_telephone5",
 			wait = 1,
-			say = "本来是想等晚些，指挥官有空了再打电话过去的。",
+			say = "本來是想等晚點，指揮官有空了再打電話過去的。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -184,7 +184,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone6/dorm3d_nakhimov_telephone6",
 			wait = 1,
-			say = "但好像线缆不小心误触了……",
+			say = "但好像纜線不小心誤觸了……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -217,7 +217,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone7/dorm3d_nakhimov_telephone7",
 			wait = 1,
-			say = "唔……其、其实在通话之前，我找了好久的摆放位置。",
+			say = "不……其實、其實在通話之前，我找了好久的擺放位置。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -250,12 +250,12 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone8/dorm3d_nakhimov_telephone8",
 			wait = 1,
-			say = "想着放在哪里拍效果最好……通话开始要和指挥官聊什么……"
+			say = "想著放在哪裡拍效果最好……通話開始要跟指揮官聊什麼……"
 		},
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone9/dorm3d_nakhimov_telephone9",
 			wait = 2,
-			say = "比如之前指挥官让我帮忙检修的那个设备。",
+			say = "例如之前指揮官讓我幫忙檢修的那個設備。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -288,7 +288,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone10/dorm3d_nakhimov_telephone10",
 			wait = 2,
-			say = "但那个已经修好了，没什么可以聊的。",
+			say = "但那個已經修好了，沒什麼好聊的。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -321,7 +321,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone11/dorm3d_nakhimov_telephone11",
 			wait = 1,
-			say = "就又想着要不要假装还有疑问……这样就能多聊一会……",
+			say = "就又想著要不要假裝還有疑問……這樣就能多聊一下子……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -354,7 +354,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone12/dorm3d_nakhimov_telephone12",
 			wait = 1,
-			say = "还有……用什么样的姿势……表情……之类的。",
+			say = "還有……用什麼樣的姿勢……表情……之類的。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -387,7 +387,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone13/dorm3d_nakhimov_telephone13",
 			wait = 1,
-			say = "但现在真的开始通话了……却又忘记该怎么做了。",
+			say = "但現在真的開始通話了……卻又忘記該怎麼做了。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -420,7 +420,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone14/dorm3d_nakhimov_telephone14",
 			wait = 1,
-			say = "唔……真的比想象中更难呢，会有种莫名的紧张感。",
+			say = "唔……真的比想像中更難呢，會有種莫名的緊張感。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -453,10 +453,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone15/dorm3d_nakhimov_telephone15",
 			wait = 2,
-			say = "明明隔着屏幕，却比面对面时更让人……心跳加速。",
+			say = "明明隔著螢幕，卻比面對面時更讓人……心跳加速。",
 			options = {
 				{
-					content = "不用掩饰，现在这种紧张害羞的样子就很可爱。",
+					content = "不用掩飾，現在這種緊張害羞的樣子就很可愛。",
 					flag = 1
 				}
 			},
@@ -492,7 +492,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone16/dorm3d_nakhimov_telephone16",
 			wait = 0.5,
-			say = "是、是这样么……那我下次就不做那些准备了。",
+			say = "是、是這樣嗎……那我下次就不做那些準備了。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -525,7 +525,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone17/dorm3d_nakhimov_telephone17",
 			wait = 0.5,
-			say = "指挥官也……可以随时随地跟我通话。",
+			say = "指揮官也……可以隨時隨地跟我通話。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -558,7 +558,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_nakhimov_telephone18/dorm3d_nakhimov_telephone18",
 			wait = 0.5,
-			say = "我会一直等着指挥官的。",
+			say = "我會一直等指揮官的。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {

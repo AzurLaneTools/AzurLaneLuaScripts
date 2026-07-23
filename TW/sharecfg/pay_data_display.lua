@@ -99,6 +99,10 @@ pg.pay_data_display.all = {
 	2079,
 	2080,
 	2081,
+	2088,
+	2089,
+	2090,
+	2091,
 	4001,
 	4002,
 	4003,
@@ -9908,6 +9912,273 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+	pg.base.pay_data_display[2088] = {
+		picture = "tech6_display",
+		name = "最高方案研發禮包（六期）",
+		type = 0,
+		second_text = "+大量藍圖",
+		descrip = "可獲得最高方案快速研發券·六期*1、定向藍圖·六期*343",
+		subject = "最高方案研發禮包（六期）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 490,
+		descrip_extra = "此處不會被看到",
+		limit_group = 6,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan",
+		extra_gem = 0,
+		id = 2088,
+		airijp_id = "",
+		name_display = "最高方案研發禮包六期",
+		first_text = "快速研發",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40145,
+				1
+			},
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40145,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2089] = {
+		picture = "tech6_promotion",
+		name = "最高方案研發禮包（六期）高級版",
+		type = 0,
+		second_text = "",
+		descrip = "禮包內容",
+		subject = "最高方案研發禮包（六期）高級版",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 490,
+		descrip_extra = "*最高方案快速研發券·六期獎勵可能發生變化，點擊道具查看詳情",
+		limit_group = 6,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan16",
+		extra_gem = 0,
+		id = 2089,
+		airijp_id = "com.yostarjp.azurlane.tech16",
+		name_display = "高級版",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40145,
+				1
+			},
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40145,
+				1
+			},
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40086,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2090] = {
+		picture = "tech6_normal",
+		name = "最高方案研發禮包（六期）標準版",
+		type = 0,
+		second_text = "",
+		descrip = "禮包內容",
+		subject = "最高方案研發禮包（六期）標準版",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 330,
+		descrip_extra = "*最高方案快速研發券·六期獎勵可能發生變化，點擊道具查看詳情",
+		limit_group = 6,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan17",
+		extra_gem = 0,
+		id = 2090,
+		airijp_id = "com.yostarjp.azurlane.tech17",
+		name_display = "標準版",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40145,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40145,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40087,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2091] = {
+		picture = "tech6_promotion",
+		name = "最高方案研發禮包（六期）升級版",
+		type = 0,
+		second_text = "",
+		descrip = "禮包內容",
+		subject = "最高方案研發禮包（六期）升級版",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 190,
+		descrip_extra = "升級為高級版後可獲得定向藍圖·六期x343",
+		limit_group = 6,
+		package_tag = "",
+		type_order = 0,
+		package_sort_id = 3,
+		limit_type = 3,
+		first_icon = "",
+		limit_arg = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan18",
+		extra_gem = 0,
+		id = 2091,
+		airijp_id = "com.yostarjp.azurlane.tech18",
+		name_display = "高級版",
+		first_text = "",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42050,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40088,
+				1
+			}
+		}
+	}
 	pg.base.pay_data_display[4001] = {
 		picture = "TWAndroid_l",
 		name = "GP限時補給 ",
@@ -10004,6 +10275,8 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[4002] = {
 		picture = "lihe3_l",
 		name = "週年禮盒·I",
@@ -10462,8 +10735,6 @@ pg.base.pay_data_display = {}
 		limit_args = {},
 		drop_item = {}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[4006] = {
 		picture = "fudai4",
 		name = "2021春節福袋·I",
@@ -20409,6 +20680,8 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[5001] = {
 		picture = "pack_day1",
 		name = "特賣禮包I",
@@ -20671,8 +20944,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[5005] = {
 		picture = "pack_day5",
 		name = "特賣禮包V",

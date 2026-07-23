@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_hello10/drom3d_nakhimov_hello10",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "欢迎进来……我正在试着修那个旧电视，不过{dorm3d}来了，它可以再等一会儿。",
+			say = "歡迎進來……我正在試著修那個舊電視，不過{dorm3d}來了，它可以再等一會兒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

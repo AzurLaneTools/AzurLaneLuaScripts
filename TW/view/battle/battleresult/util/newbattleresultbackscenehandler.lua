@@ -193,6 +193,7 @@ slot0.ExitRushBossSystem = function(slot0, slot1, slot2)
 			actId = slot4,
 			seriesData = slot5,
 			win = slot6,
+			OnClose = slot2.callback,
 			isAutoFight = slot0.contextData.isAutoFight
 		}
 	}), true)

@@ -2730,7 +2730,9 @@ end)()
 			42060,
 			42066,
 			42070,
-			42076
+			42076,
+			42080,
+			42086
 		}
 	}
 	pg.base.gameset.submarine_chapter_activate_time = {

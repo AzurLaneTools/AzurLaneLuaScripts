@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_hello2/drom3d_nakhimov_hello2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你来得正好，我刚打开一包小鱼干……要一起吃吗？",
+			say = "你來得正好，我剛打開一包小魚乾……要一起吃嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

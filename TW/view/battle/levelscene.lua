@@ -1273,57 +1273,50 @@ slot0.updateRemasterInfo = function(slot0)
 	end
 
 	slot1 = getProxy(ChapterProxy)
-	slot2 = nil
+	slot3 = BossRushChapterRemasterHelper.ChapterAwardInfo(slot0.contextData.map:getRemaster())
 
-	if slot0.contextData.map:getRemaster() and #pg.re_map_template[slot3].drop_gain > 0 then
-		for slot7, slot8 in ipairs(pg.re_map_template[slot3].drop_gain) do
-			if #slot8 > 0 and slot1.remasterInfo[slot8[1]][slot7].receive == false then
-				slot2 = {
-					slot7,
-					slot8
-				}
+	setActive(slot0.remasterAwardBtn, slot3)
 
-				break
-			end
-		end
-	end
+	if slot3 then
+		slot5, slot6, slot7, slot8, slot9 = unpack(slot3[2])
+		slot10 = slot1:getRemasterInfo(slot3[3], slot5, slot3[1])
 
-	setActive(slot0.remasterAwardBtn, slot2)
-
-	if slot2 then
-		slot5, slot6, slot7, slot8 = unpack(slot2[2])
-		slot9 = slot1.remasterInfo[slot5][slot2[1]]
-
-		setText(slot0.remasterAwardBtn:Find("Text"), slot9.count .. "/" .. slot8)
+		setText(slot0.remasterAwardBtn:Find("Text"), slot10.count .. "/" .. slot8)
 		updateDrop(slot0.remasterAwardBtn:Find("IconTpl"), {
 			type = slot6,
 			id = slot7
 		})
-		setActive(slot0.remasterAwardBtn:Find("tip"), slot8 <= slot9.count)
+		setActive(slot0.remasterAwardBtn:Find("tip"), slot8 <= slot10.count)
 		onButton(slot0, slot0.remasterAwardBtn, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideYes = true,
 				hideNo = true,
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				drop = {
-					type = uv0,
-					id = uv1
+					type = uv2,
+					id = uv3
 				},
 				remaster = {
-					word = i18n("level_remaster_tip4", pg.chapter_template[uv2].chapter_name),
-					number = uv3.count .. "/" .. uv4,
-					btn_text = i18n(uv3.count < uv4 and "level_remaster_tip2" or "level_remaster_tip3"),
+					word = i18n("level_remaster_tip4", BossRushChapterRemasterHelper.GetAwardName(uv0, uv1)),
+					number = uv4.count .. "/" .. uv5,
+					btn_text = i18n(uv4.count < uv5 and "level_remaster_tip2" or "level_remaster_tip3"),
 					btn_call = function ()
 						if uv0.count < uv1 then
-							slot1, slot2 = uv3:getMapById(pg.chapter_template[uv2].map):isUnlock()
+							if uv2 and uv2 > 0 then
+								uv3:emit(LevelMediator2.ON_BOSSRUSH_REMASTER_ACTIVITY, uv2)
+
+								return
+							end
+
+							slot1, slot2 = uv5:getMapById(pg.chapter_template[uv4].map):isUnlock()
 
 							if not slot1 then
 								pg.TipsMgr.GetInstance():ShowTips(slot2)
 							else
-								uv4:ShowSelectedMap(slot0)
+								uv3:ShowSelectedMap(slot0)
 							end
 						else
-							uv4:emit(LevelMediator2.ON_CHAPTER_REMASTER_AWARD, uv2, uv5)
+							uv3:emit(LevelMediator2.ON_CHAPTER_REMASTER_AWARD, uv4, uv6, uv2)
 						end
 					end
 				}

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "尾巴？是线缆吧，它有很多功能的。",
+			say = "尾巴？是纜線吧，它有很多功能的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不仅可以数据传输，还能做维修接口……",
+			say = "不僅可以數據傳輸，還能做維修接口……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "缠住{dorm3d}？嗯……没有这样的特殊功能。",
+			say = "纏住{dorm3d}？嗯……沒有這樣的特殊功能。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "它就是，自己会这样。",
+			say = "它就是，自己會這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

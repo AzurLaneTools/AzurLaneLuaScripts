@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "呼……啊，今天阳光真好。",
+			say = "呼……啊，今天陽光真好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "纳希莫夫想出去玩么？",
+			say = "納希莫夫想出去玩嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯，我知道一个地方好玩。",
+			say = "嗯，我知道一個地方好玩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "有很多花，很多蝴蝶，是只有我知道的地方哦。",
+			say = "有很多花，很多蝴蝶，是只有我知道的地方喔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，我们去抓蝴蝶吧！",
+			say = "{dorm3d}，我們去抓蝴蝶吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

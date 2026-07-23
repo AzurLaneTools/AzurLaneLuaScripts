@@ -39,7 +39,10 @@ pg.dorm3d_shop_template.all = {
 	39,
 	40,
 	41,
-	42
+	42,
+	43,
+	44,
+	45
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_shop_template = {}
@@ -832,6 +835,71 @@ pg.base.dorm3d_shop_template = {}
 		},
 		banners = {
 			"banner_gift3070702"
+		}
+	}
+	pg.base.dorm3d_shop_template[43] = {
+		rarity = 4,
+		name = "魔方檢測儀",
+		type = 1,
+		room_id = 79902,
+		unlock = "",
+		item_id = 2161,
+		id = 43,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270701
+		},
+		banners = {
+			"banner_furniture2161"
+		}
+	}
+	pg.base.dorm3d_shop_template[44] = {
+		rarity = 4,
+		name = "本能訓練器",
+		type = 2,
+		room_id = 79902,
+		unlock = "",
+		item_id = 7990201,
+		id = 44,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260701
+		},
+		banners = {
+			"banner_gift7990201"
+		}
+	}
+	pg.base.dorm3d_shop_template[45] = {
+		rarity = 4,
+		name = "納希莫夫海軍上將維修區工作站邀請函",
+		type = 3,
+		room_id = 79902,
+		unlock = "",
+		item_id = 26,
+		id = 45,
+		realroom_id = 0,
+		order = "3",
+		panel = {
+			2
+		},
+		shop_id = {
+			270121
+		},
+		banners = {
+			"banner_carwash1"
 		}
 	}
 end)()

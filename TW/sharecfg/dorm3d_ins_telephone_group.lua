@@ -9,7 +9,9 @@ pg.dorm3d_ins_telephone_group.all = {
 	30707301,
 	30707302,
 	49905301,
-	49905302
+	49905302,
+	79902301,
+	79902302
 }
 pg.dorm3d_ins_telephone_group.get_id_list_by_ship_group = {
 	[10517] = {
@@ -23,6 +25,10 @@ pg.dorm3d_ins_telephone_group.get_id_list_by_ship_group = {
 	[49905] = {
 		49905301,
 		49905302
+	},
+	[79902] = {
+		79902301,
+		79902302
 	}
 }
 pg.base = pg.base or {}
@@ -99,6 +105,30 @@ pg.base.dorm3d_ins_telephone_group = {}
 		content = {
 			14,
 			140602
+		}
+	}
+	pg.base.dorm3d_ins_telephone_group[79902301] = {
+		ship_group = 79902,
+		name = "納希莫夫海軍上將視訊通話",
+		background = "voice_placeholder",
+		type = 1,
+		id = 79902301,
+		unlock_desc = "進入納希莫夫海軍上將宿舍",
+		content = {
+			21,
+			210601
+		}
+	}
+	pg.base.dorm3d_ins_telephone_group[79902302] = {
+		ship_group = 79902,
+		name = "納希莫夫海軍上將視訊通話",
+		background = "voice_placeholder",
+		type = 1,
+		id = 79902302,
+		unlock_desc = "納希莫夫海軍上將契合度12級",
+		content = {
+			21,
+			210602
 		}
 	}
 end)()

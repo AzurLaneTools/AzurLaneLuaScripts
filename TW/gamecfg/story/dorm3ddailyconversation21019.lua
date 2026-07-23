@@ -17,14 +17,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}说带了……有趣的东西？是什么呢？",
+			say = "{dorm3d}說帶了……有趣的東西？是什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "一个毛线球。",
+					content = "一個毛線球。",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "催毛线球？等等……线缆怎么自己动起来了？",
+			say = "毛線球？等等……纜線怎麼自己動起來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "左边……右边……",
+			say = "左邊……右邊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

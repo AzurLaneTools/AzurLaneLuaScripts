@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这个日志文件是用来记录问题和解决方法的，类似错题本……有很多珍贵的思路。",
+			say = "這個日誌檔是用來紀錄問題和解決方法的，類別似錯誤題本……有很多珍貴的思路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}有兴趣的话，我可以给你仔细讲讲。",
+			say = "{dorm3d}有興趣的話，我可以給你仔細講講。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "比如“栈溢出导致崩溃时的症状及解决方法”……唔，这个比较不好解释……",
+			say = "比如「堆疊溢出導致崩潰時的症狀及解決方法」……唔，這個比較不好解釋……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我们看下一个……“想趴在{dorm3d}的怀里蹭蹭蹭”……这、这种内容……很少的！",
+			say = "我們看下一個……「想趴在{dorm3d}的懷裡蹭蹭蹭」……這、這種內容……很少的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "只是偶尔会有……在想不出解决方案的时候……脑子里就会想……",
+			say = "只是偶爾會有………在想不出解決方案的時候…腦子裡就會想……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "唔……可、可以吗？就一下。",
+			say = "唔……可、可以嗎？就一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

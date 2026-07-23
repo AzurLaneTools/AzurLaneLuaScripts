@@ -57,14 +57,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "喵——啊，{dorm3d}，在你身边太安心了，一不小心就……",
+			say = "喵——啊，{dorm3d}，在你身邊太安心了，一不小心就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没关系。",
+					content = "沒關係。",
 					flag = 1
 				}
 			},
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那……可以……再待一会儿吗？",
+			say = "那……可以……再待一下子嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

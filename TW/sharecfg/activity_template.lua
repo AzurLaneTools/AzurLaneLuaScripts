@@ -1214,6 +1214,8 @@ pg.activity_template.all = {
 	7305,
 	7501,
 	7502,
+	7505,
+	7506,
 	8009,
 	8010,
 	8019,
@@ -3604,6 +3606,7 @@ pg.activity_template.get_id_list_by_type = {
 		51001,
 		51005,
 		51011,
+		7506,
 		6000,
 		6001,
 		6002,
@@ -4849,6 +4852,7 @@ pg.activity_template.get_id_list_by_type = {
 		50044,
 		7501,
 		7502,
+		7505,
 		40950
 	},
 	[90] = {
@@ -58599,6 +58603,149 @@ end)()
 			ui_name = "DormSignTwoPage"
 		}
 	}
+	pg.base.activity_template[7505] = {
+		mark = 20260723,
+		type = 89,
+		login_pop = 99,
+		config_id = 0,
+		is_show = 44,
+		config_client = "",
+		title_res_tag = "DormSignThree",
+		id = 7505,
+		page_core = "",
+		config_data = {
+			{
+				23920
+			},
+			{
+				23921
+			},
+			{
+				23922
+			},
+			{
+				23923
+			},
+			{
+				23924
+			},
+			{
+				23925
+			},
+			{
+				23926
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					12,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormSignThirdPage",
+			ui_name = "DormSignThirdPage"
+		}
+	}
+	pg.base.activity_template[7506] = {
+		mark = 20260723,
+		type = 18,
+		login_pop = 99,
+		config_id = 3,
+		is_show = 44,
+		title_res_tag = "DormTask",
+		id = 7506,
+		page_core = "",
+		config_data = {
+			{
+				27400,
+				27401,
+				27402,
+				27403,
+				27404,
+				27405,
+				27406
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormTaskPage",
+			ui_name = "DormTaskPage"
+		},
+		config_client = {
+			subType = 1,
+			unlock_task = {
+				{
+					27400
+				},
+				{
+					27401
+				},
+				{
+					27402
+				},
+				{
+					27403
+				},
+				{
+					27404
+				},
+				{
+					27405
+				},
+				{
+					27406
+				}
+			}
+		}
+	}
 	pg.base.activity_template[8009] = {
 		mark = 20220414,
 		type = 3,
@@ -61752,6 +61899,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[6006] = {
 		mark = 20211028,
 		time = "stop",
@@ -61855,8 +62004,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6008] = {
 		mark = 20211223,
 		time = "stop",
@@ -65018,6 +65165,8 @@ end)()
 			ui_name = "MutsukiNewYearSkinPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40237] = {
 		mark = 20210204,
 		page_info = "",
@@ -65069,8 +65218,6 @@ end)()
 		id = 40238,
 		page_core = ""
 	}
-end)()
-(function ()
 	pg.base.activity_template[40239] = {
 		mark = 20210204,
 		page_info = "",
@@ -67970,6 +68117,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40338] = {
 		mark = 20210603,
 		page_info = "",
@@ -68032,8 +68181,6 @@ end)()
 			entrance_bg = "activitybanner/temp15"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40340] = {
 		mark = 20210610,
 		page_info = "",
@@ -72026,6 +72173,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40441] = {
 		mark = 20211008,
 		page_info = "",
@@ -72123,8 +72272,6 @@ end)()
 			entrance_bg = "activitybanner/temp15"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40443] = {
 		mark = 20211008,
 		type = 74,
@@ -75796,6 +75943,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40545] = {
 		mark = 20220217,
 		page_info = "",
@@ -75886,8 +76035,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40547] = {
 		mark = 20220217,
 		page_info = "",
@@ -79093,6 +79240,8 @@ end)()
 		id = 40639,
 		page_core = ""
 	}
+end)()
+(function ()
 	pg.base.activity_template[40640] = {
 		mark = 20220601,
 		page_info = "",
@@ -79173,8 +79322,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40660] = {
 		mark = 20220609,
 		type = 18,
@@ -81480,6 +81627,8 @@ end)()
 			17997
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40822] = {
 		mark = 20220922,
 		time = "stop",
@@ -81524,8 +81673,6 @@ end)()
 			entrance_bg = "activitybanner/temp10"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40891] = {
 		mark = 20221020,
 		page_info = "",
@@ -84378,6 +84525,8 @@ end)()
 			ui_name = "U410VictoryPtPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41011] = {
 		mark = 20230112,
 		time = "stop",
@@ -84464,8 +84613,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41013] = {
 		mark = 20230112,
 		page_info = "",
@@ -87614,6 +87761,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41162] = {
 		mark = 20230518,
 		page_info = "",
@@ -87701,8 +87850,6 @@ end)()
 			itemid = 42022
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41164] = {
 		mark = 20230518,
 		type = 70,
@@ -91233,6 +91380,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41299] = {
 		mark = 20230817,
 		page_info = "",
@@ -91304,8 +91453,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41301] = {
 		mark = 20230824,
 		page_info = "",
@@ -95690,6 +95837,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[45023] = {
 		mark = 20201009,
 		page_info = "",
@@ -95737,8 +95886,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[45025] = {
 		mark = 20200930,
 		type = 20,

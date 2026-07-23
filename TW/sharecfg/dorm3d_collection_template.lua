@@ -189,7 +189,42 @@ pg.dorm3d_collection_template.all = {
 	1422,
 	1423,
 	1424,
-	1425
+	1425,
+	2101,
+	2102,
+	2103,
+	2104,
+	2105,
+	2106,
+	2107,
+	2108,
+	2109,
+	2110,
+	2111,
+	2112,
+	2113,
+	2114,
+	2115,
+	2116,
+	2117,
+	2118,
+	2119,
+	2120,
+	2121,
+	2122,
+	2123,
+	2124,
+	2125,
+	2601,
+	2602,
+	2603,
+	2604,
+	2605,
+	2606,
+	2607,
+	2608,
+	2609,
+	2610
 }
 pg.dorm3d_collection_template.get_id_list_by_room_id = {
 	{
@@ -393,6 +428,45 @@ pg.dorm3d_collection_template.get_id_list_by_room_id = {
 		1607,
 		1608,
 		1609
+	},
+	[21] = {
+		2101,
+		2102,
+		2103,
+		2104,
+		2105,
+		2106,
+		2107,
+		2108,
+		2109,
+		2110,
+		2111,
+		2112,
+		2113,
+		2114,
+		2115,
+		2116,
+		2117,
+		2118,
+		2119,
+		2120,
+		2121,
+		2122,
+		2123,
+		2124,
+		2125
+	},
+	[26] = {
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2607,
+		2608,
+		2609,
+		2610
 	}
 }
 pg.base = pg.base or {}
@@ -4273,6 +4347,703 @@ end)()
 		},
 		vfx_prefab = {
 			"fbx/litmap_01/pre_db_decoration21/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2101] = {
+		name = "火箭模型",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "一枚精緻的航空火箭模型，給房間增添了幾分科幻氣息。",
+		text = "dorm3d_naximofu_chair",
+		id = 2101,
+		icon = "3Ddrom_naximofu_item1",
+		model = {
+			"fbx/litmap_03/day/pre_db_decoration32"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_decoration32/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2102] = {
+		name = "圓潤瓷瓶",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "一橙一黃兩隻圓潤瓷瓶，釉面光滑色澤明亮，並排擺放相映成趣。",
+		text = "dorm3d_naximofu_chair",
+		id = 2102,
+		icon = "3Ddrom_naximofu_item2",
+		model = {
+			"fbx/litmap_03/day/pre_db_ceram29"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_ceram29/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2103] = {
+		name = "玻璃酒瓶",
+		award = 0,
+		time = 2,
+		room_id = 21,
+		desc = "透明玻璃酒瓶，瓶身簡約通透，可以直接看到瓶中的「生命之水」。",
+		text = "dorm3d_naximofu_chair",
+		id = 2103,
+		icon = "3Ddrom_naximofu_item3",
+		model = {
+			"fbx/litmap_03/night/pre_db_drink18"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_drink18/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2104] = {
+		name = "老式電視機",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "方正厚實的老式電視機，旋鈕按鍵齊全，自帶幾分懷舊質感。",
+		text = "dorm3d_naximofu_chair",
+		id = 2104,
+		icon = "3Ddrom_naximofu_item4",
+		model = {
+			"fbx/litmap_03/day/pre_db_electrical25"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_electrical25/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2105] = {
+		name = "親膚浴巾",
+		award = 0,
+		time = 2,
+		room_id = 21,
+		desc = "觸感細膩的親膚浴巾，吸水性極佳，隨手可取用方便。",
+		text = "dorm3d_naximofu_bed",
+		id = 2105,
+		icon = "3Ddrom_naximofu_item5",
+		model = {
+			"fbx/litmap_03/night/pre_db_towel02_01"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_towel02_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2106] = {
+		name = "雙層儲物櫃",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "簡約實用的雙層儲物櫃，櫃門開合順滑，收納日常小物剛剛好。",
+		text = "dorm3d_naximofu_bed",
+		id = 2106,
+		icon = "3Ddrom_naximofu_item6",
+		model = {
+			"fbx/litmap_03/day/pre_db_cupboard42"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_cupboard42/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2107] = {
+		name = "貓耳球椅",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "填充了軟墊的球椅，外加貓耳裝飾點綴，坐感舒適又帶幾分俏皮。",
+		text = "dorm3d_naximofu_bed",
+		id = 2107,
+		icon = "3Ddrom_naximofu_item7",
+		model = {
+			"fbx/litmap_03/day/pre_db_chair30"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_chair30/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2108] = {
+		name = "黑膠唱片",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "經典黑膠唱片，表面紋路清晰，放入唱機即可流淌出動人旋律。",
+		text = "dorm3d_naximofu_bed",
+		id = 2108,
+		icon = "3Ddrom_naximofu_item8",
+		model = {
+			"fbx/litmap_03/day/pre_db_decoration30"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_decoration30/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2109] = {
+		name = "懸掛絨球",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "用繩吊起的小絨球，輕輕一碰便來回晃動，逗趣解壓。",
+		text = "dorm3d_naximofu_bed",
+		id = 2109,
+		icon = "3Ddrom_naximofu_item9",
+		model = {
+			"fbx/litmap_03/day/pre_db_toy18_7"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_toy18_7/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2110] = {
+		name = "貓貓紙巾盒",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "可愛的貓貓造型，讓日常取紙也變得有趣。",
+		text = "dorm3d_naximofu_bed",
+		id = 2110,
+		icon = "3Ddrom_naximofu_item10",
+		model = {
+			"fbx/litmap_03/day/pre_db_plasticbox03"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_plasticbox03/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2111] = {
+		name = "暖橙壁燈",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "圓形壁燈裹著暖橙外殼，點亮時光線柔和，為房間增添一抹暖意。",
+		text = "dorm3d_naximofu_chair",
+		id = 2111,
+		icon = "3Ddrom_naximofu_item11",
+		model = {
+			"fbx/litmap_03/day/pre_db_walllamp02"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_walllamp02/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2112] = {
+		name = "綠植盆栽Ⅰ",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "經典陶瓷花盆搭配茂盛綠植，葉片青翠欲滴，為房間注入自然生機。",
+		text = "dorm3d_naximofu_bed",
+		id = 2112,
+		icon = "3Ddrom_naximofu_item12",
+		model = {
+			"fbx/litmap_03/day/pre_db_flowerpot26_1"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_flowerpot26_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2113] = {
+		name = "瓦楞貓抓板",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "瓦楞紙材質貓抓板，表面已有淺淺抓痕。",
+		text = "dorm3d_naximofu_chair",
+		id = 2113,
+		icon = "3Ddrom_naximofu_item13",
+		model = {
+			"fbx/litmap_03/day/pre_db_toy17_1"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_toy17_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2114] = {
+		name = "吊掛電視機",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "電視機吊裝於天花板，仰臥即可觀看，視角舒適省力。",
+		text = "dorm3d_naximofu_chair",
+		id = 2114,
+		icon = "3Ddrom_naximofu_item14",
+		model = {
+			"fbx/litmap_03/day/pre_db_electrical27"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_electrical27/vfx_wupintishi01"
+		}
+	}
+end)()
+(function ()
+	pg.base.dorm3d_collection_template[2115] = {
+		name = "書堆疊",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "隨手壘起的書堆，記錄著她最近的閱讀軌跡。",
+		text = "dorm3d_naximofu_chair",
+		id = 2115,
+		icon = "3Ddrom_naximofu_item15",
+		model = {
+			"fbx/litmap_03/day/pre_db_book30_1"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_book30_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2116] = {
+		name = "貓碗套裝",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "兩隻陶瓷小碗，一食一水並排擺放，整潔又實用。",
+		text = "dorm3d_naximofu_chair",
+		id = 2116,
+		icon = "3Ddrom_naximofu_item16",
+		model = {
+			"fbx/litmap_03/day/pre_db_tableware55"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_tableware55/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2117] = {
+		name = "暖光小檯燈",
+		award = 0,
+		time = 2,
+		room_id = 21,
+		desc = "小巧的桌面檯燈，光線穩定柔和，點亮桌面一角。",
+		text = "dorm3d_naximofu_bed",
+		id = 2117,
+		icon = "3Ddrom_naximofu_item17",
+		model = {
+			"fbx/litmap_03/night/pre_db_desklamp07_on"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_desklamp07_on/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2118] = {
+		name = "科技感吊燈",
+		award = 0,
+		time = 2,
+		room_id = 21,
+		desc = "垂吊式設計，光線均勻灑落，照亮下方每一寸空間。",
+		text = "dorm3d_naximofu_bed",
+		id = 2118,
+		icon = "3Ddrom_naximofu_item18",
+		model = {
+			"fbx/litmap_03/night/pre_db_chandelier28_on"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_chandelier28_on/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2119] = {
+		name = "置物矮櫃",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "貼地設計的矮櫃，收納客廳常用雜物不佔視覺空間。",
+		text = "dorm3d_naximofu_chair",
+		id = 2119,
+		icon = "3Ddrom_naximofu_item19",
+		model = {
+			"fbx/litmap_03/day/pre_db_cupboard40"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_cupboard40/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2120] = {
+		name = "電梯按鈕",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "單獨擺放的電梯按鈕，總讓人想按按試試看。",
+		text = "dorm3d_naximofu_chair",
+		id = 2120,
+		icon = "3Ddrom_naximofu_item20",
+		model = {
+			"fbx/litmap_03/day/pre_db_naximofu_button01"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_naximofu_button01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2121] = {
+		name = "桌凳套裝",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "圓桌圓凳簡約搭配，高低適中剛剛好，午後閒暇的完美群組合。",
+		text = "dorm3d_naximofu_chair",
+		id = 2121,
+		icon = "3Ddrom_naximofu_item21",
+		model = {
+			"fbx/litmap_03/day/pre_db_naximofu_table02_01"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_naximofu_table02_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2122] = {
+		name = "方形音箱",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "支援無線連接的方形音箱，隨時播放喜歡的音樂。",
+		text = "dorm3d_naximofu_bed",
+		id = 2122,
+		icon = "3Ddrom_naximofu_item22",
+		model = {
+			"fbx/litmap_03/day/pre_db_electrical21_01"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_electrical21_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2123] = {
+		name = "綠植盆栽Ⅱ",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "經典陶瓷花盆搭配茂盛綠植，葉片青翠欲滴，為房間注入自然生機。",
+		text = "dorm3d_naximofu_chair",
+		id = 2123,
+		icon = "3Ddrom_naximofu_item23",
+		model = {
+			"fbx/litmap_03/day/pre_db_flowerpot26"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_flowerpot26/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2124] = {
+		name = "直立式唱片機",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "造型前衛的立式唱片機，現代感十足的同時保留溫暖音色。",
+		text = "dorm3d_naximofu_bed",
+		id = 2124,
+		icon = "3Ddrom_naximofu_item24",
+		model = {
+			"fbx/litmap_03/day/pre_db_decoration31"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_decoration31/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2125] = {
+		name = "舒適貓窩",
+		award = 0,
+		time = 0,
+		room_id = 21,
+		desc = "圓形貓窩鋪滿軟墊，邊緣微微隆起，躺進去便不想起來。",
+		text = "dorm3d_naximofu_chair",
+		id = 2125,
+		icon = "3Ddrom_naximofu_item25",
+		model = {
+			"fbx/litmap_03/day/pre_db_bed06_1"
+		},
+		unlock = {
+			1,
+			79902,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_bed06_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2601] = {
+		name = "高清電視",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "大尺寸高清電視，機身纖薄畫面清晰，兼顧觀影沉浸感與空間適配。",
+		text = "dorm3d_collection_carwash",
+		id = 2601,
+		icon = "3Ddrom_carwash_item1",
+		model = {
+			"fbx/litmap_05/pre_db_appliances09"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_appliances09/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2602] = {
+		name = "街頭滑板",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "定制款街頭滑板，滑行穩定轉彎靈活，是代步或運動的首選。",
+		text = "dorm3d_collection_carwash",
+		id = 2602,
+		icon = "3Ddrom_carwash_item2",
+		model = {
+			"fbx/litmap_05/pre_db_sportinggoods08_02"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_sportinggoods08_02/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2603] = {
+		name = "雙頭咖啡機",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "多功能雙頭咖啡機，可同時萃取兩杯咖啡，只需片刻便可出杯。",
+		text = "dorm3d_collection_carwash",
+		id = 2603,
+		icon = "3Ddrom_carwash_item3",
+		model = {
+			"fbx/litmap_05/pre_db_electrical23_group_01"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_electrical23_group_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2604] = {
+		name = "榮譽獎杯",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "在賽車比賽中奪得的榮譽獎杯，是在賽場風馳電掣所獲得的榮耀。",
+		text = "dorm3d_collection_carwash",
+		id = 2604,
+		icon = "3Ddrom_carwash_item4",
+		model = {
+			"fbx/litmap_05/pre_db_decoration33c_02"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_decoration33c_02/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2605] = {
+		name = "紅酒套裝",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "紅酒調製用具一應俱全，隨時隨地開啟品酒時刻。",
+		text = "dorm3d_collection_carwash",
+		id = 2605,
+		icon = "3Ddrom_carwash_item5",
+		model = {
+			"fbx/litmap_05/pre_db_tableware56_group_1"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_tableware56_group_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2606] = {
+		name = "冠軍獎杯",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "通體鎏金的冠軍獎杯，頒給在最高級賽事中奪冠的優秀車手。",
+		text = "dorm3d_collection_carwash",
+		id = 2606,
+		icon = "3Ddrom_carwash_item6",
+		model = {
+			"fbx/litmap_05/pre_db_decoration34"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_decoration34/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2607] = {
+		name = "反應訓練器",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "考驗反應能力的接棒機，可以有效鍛煉手眼協調能力。",
+		text = "dorm3d_collection_carwash",
+		id = 2607,
+		icon = "3Ddrom_carwash_item7",
+		model = {
+			"no_bake/pre_db_entertainment01"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"no_bake/pre_db_entertainment01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2608] = {
+		name = "賽車模擬器",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "具有真實操縱感的模擬賽車設備，是賽場外訓練的最佳選擇。",
+		text = "dorm3d_collection_carwash",
+		id = 2608,
+		icon = "3Ddrom_carwash_item8",
+		model = {
+			"no_bake/pre_db_cw_racingsim01"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"no_bake/pre_db_cw_racingsim01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2609] = {
+		name = "專業賽車服",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "車手必備的專業賽車服，具有防火阻燃、耐磨耐撞等多項功能。",
+		text = "dorm3d_collection_carwash",
+		id = 2609,
+		icon = "3Ddrom_carwash_item9",
+		model = {
+			"fbx/litmap_05/pre_db_cloth12_1"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_cloth12_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2610] = {
+		name = "賽車清洗用具",
+		award = 0,
+		time = 0,
+		room_id = 26,
+		desc = "賽車維修區常見的清洗用具，操作簡單且清洗效果一流。",
+		text = "dorm3d_collection_carwash",
+		id = 2610,
+		icon = "3Ddrom_carwash_item10",
+		model = {
+			"fbx/litmap_05/pre_db_electrical16"
+		},
+		unlock = {},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_electrical16/vfx_wupintishi01"
 		}
 	}
 end)()

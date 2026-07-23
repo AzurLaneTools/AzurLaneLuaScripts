@@ -4622,6 +4622,11 @@ _G.pg.base.gametip.levelScene_activate_remaster = {
 }
 
 
+_G.pg.base.gametip.levelScene_activate_remaster_1 = {
+	tip = "進入所選關卡需要消耗<color=#ffde38>檔案秘鑰x$1</color>，\n是否進入？"
+}
+
+
 _G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "入場券數量不足"
 }
@@ -6440,6 +6445,11 @@ _G.pg.base.gametip.word_shipNation_danmachi = {
 
 _G.pg.base.gametip.word_shipNation_dal = {
 	tip = "Date A Live"
+}
+
+
+_G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
+	tip = "晶環聯盟"
 }
 
 
@@ -14165,6 +14175,71 @@ _G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
 試作型三聯裝283mm/54.5主炮
 雙聯100mm98式高射炮改
 雙聯裝57mm/L60博福斯對空機炮Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_29906 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型三聯裝419mm主炮MK.I
+雙聯裝114mm高平兩用炮MarkIV
+20mm厄利孔高射炮MkII
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_129901 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+雙聯裝381mm主炮改
+試作型雙聯裝127mm高平兩用炮Mk16
+雙聯裝76mmRF火炮Mk37
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39908 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型三聯裝150mm五式高平兩用炮
+試作型四聯裝610mm魚雷（巡洋用）
+100mm連裝高炮
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89905 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型雙聯裝127mm主炮Mle1948
+三聯裝550mm魚雷
+雙聯裝57mm/L60博福斯對空機炮Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49911 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？(模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作艦載型La-9
+試作艦載型Ta 152C-1/R14
+試作艦載型La-9
 </color></size>]]
 }
 
@@ -37075,6 +37150,11 @@ _G.pg.base.gametip.dorm3d_room_floor_2 = {
 }
 
 
+_G.pg.base.gametip.dorm3d_room_floor_3 = {
+	tip = "聆風之隅"
+}
+
+
 _G.pg.base.gametip.please_input_1_99 = {
 	tip = "請輸入1~99"
 }
@@ -42454,6 +42534,16 @@ _G.pg.base.gametip.island_mecha_task_lock_tip = {
 }
 
 
+_G.pg.base.gametip.bossrush_act_remaster_close_prev_one_tip = {
+	tip = "確認要開啟該檔案嗎？當前開啟的舊檔案將關閉"
+}
+
+
+_G.pg.base.gametip.charge_title_getskin = {
+	tip = "隨機獲得一件全新換裝"
+}
+
+
 _G.pg.base.gametip.DreamTourCoreActivity_subtitle_1 = {
 	tip = "美夢巡演奇妙夜"
 }
@@ -42461,4 +42551,77 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_1 = {
 
 _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 	tip = "美夢補給站"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_button = {
+	tip = "洗車遊戲"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_tiiiiiip = {
+	tip = [[
+1.在限定時間內清除車輛上的所有污漬，即可完成洗車任務。
+2.共有3種污漬：灰塵、油漬和貓爪印，
+3.不同污漬需要使用對應的水槍才能清除幹凈。
+4.賽車女郎會在洗車過程中陪伴玩家完成任務。
+5.水流不小心沖到賽車女郎的話，將根據被沖到的部位影響她的心情值。
+6.心情值提升到一定階段，會解鎖新的動作。
+7.心情值達到滿值後，會發生意想不到的事情。
+8.限定時間結束後，會根據車輛的清潔度進行評分。]]
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_mood = {
+	tip = "心動值"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_clean = {
+	tip = "清潔度"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_retry = {
+	tip = "再來一次"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_exit = {
+	tip = "退出"
+}
+
+
+_G.pg.base.gametip.dorm3d_carwash_title = {
+	tip = "玩法說明"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_carwash = {
+	tip = "維修區工作站"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_table = {
+	tip = "工房"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_chair = {
+	tip = "客廳"
+}
+
+
+_G.pg.base.gametip.dorm3d_naximofu_bed = {
+	tip = "臥室"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_overtime = {
+	tip = "宿舍禮物即將過期，請盡快使用。"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_overtime_title = {
+	tip = "過期提示"
 }

@@ -31,37 +31,42 @@ end
 slot0.init = function(slot0)
 	slot0.top = slot0._tf:Find("Top")
 	slot0.map = slot0._tf:Find("Map")
-	slot0.seriesNodes = _.map(_.range(slot0._tf:Find("Battle/Nodes").childCount), function (slot0)
-		return uv0._tf:Find("Battle/Nodes"):GetChild(slot0 - 1)
-	end)
+	slot0.seriesNodes = {}
+
+	for slot5 = 1, slot0._tf:Find("Battle/Nodes").childCount do
+		if isActive(slot1:GetChild(slot5 - 1)) then
+			table.insert(slot0.seriesNodes, slot6)
+		end
+	end
+
 	slot0.ptText = slot0._tf:Find("Battle/Reward/Text")
 	slot0.nodes = {}
-	slot4 = "Map"
+	slot5 = "Map"
 
-	for slot4 = 1, slot0._tf:Find(slot4).childCount do
-		slot5 = slot0._tf:Find("Map"):GetChild(slot4 - 1)
-		slot0.nodes[slot5.name] = {
+	for slot5 = 1, slot0._tf:Find(slot5).childCount do
+		slot6 = slot0._tf:Find("Map"):GetChild(slot5 - 1)
+		slot0.nodes[slot6.name] = {
 			tfType = 1,
-			trans = slot5
+			trans = slot6
 		}
 	end
 
-	slot4 = "Story/Nodes"
+	slot5 = "Story/Nodes"
 
-	for slot4 = 1, slot0._tf:Find(slot4).childCount do
-		slot5 = slot0._tf:Find("Story/Nodes"):GetChild(slot4 - 1)
-		slot0.nodes[slot5.name] = {
+	for slot5 = 1, slot0._tf:Find(slot5).childCount do
+		slot6 = slot0._tf:Find("Story/Nodes"):GetChild(slot5 - 1)
+		slot0.nodes[slot6.name] = {
 			tfType = 2,
-			trans = slot5
+			trans = slot6
 		}
 	end
 
 	slot0.pluralRoot = pg.PoolMgr.GetInstance().root
-	slot1 = go(slot0._tf:Find("Link"))
+	slot2 = go(slot0._tf:Find("Link"))
 
-	setActive(slot1, false)
+	setActive(slot2, false)
 
-	slot0.plural = uv0.New(slot1, 32)
+	slot0.plural = uv0.New(slot2, 32)
 	slot0.linksContainer = slot0._tf:Find("Links")
 	slot0.links = {}
 	slot0.storyBar = slot0._tf:Find("Story/StoryBar")
@@ -115,16 +120,19 @@ slot0.didEnter = function(slot0)
 
 	slot0.storyNodesDict = {}
 
-	_.each(slot0.activity:getConfig("config_client").storys, function (slot0)
+	_.each(slot0.activity:getConfig("config_client").storys or {}, function (slot0)
 		uv0.storyNodesDict[slot0] = BossRushStoryNode.New({
 			id = slot0
 		})
 	end)
 
-	slot0.storyTask = getProxy(TaskProxy):getTaskVO(slot0.activity:getConfig("config_client").tasks[1]) or Task.New({
-		submitTime = 1,
-		id = slot2
-	})
+	if #(slot0.activity:getConfig("config_client").tasks or {}) > 0 then
+		slot0.storyTask = getProxy(TaskProxy):getTaskVO(slot0.activity:getConfig("config_client").tasks[1]) or Task.New({
+			submitTime = 1,
+			id = slot3
+		})
+	end
+
 	slot0.contextData.displayMode = nil
 
 	slot0:SetDisplayMode(slot0.contextData.displayMode or BossRushKurskScene.DISPLAY.BATTLE)

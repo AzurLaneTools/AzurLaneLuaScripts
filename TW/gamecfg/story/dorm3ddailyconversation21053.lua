@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，看上去有点困。",
+			say = "{dorm3d}，看起來有點睏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这种状态禁止开车。",
+			say = "這種狀態禁止開車。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "疲劳驾驶很危险，等有精神了再说吧。",
+			say = "疲勞駕駛很危險，等有精神了再說吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "先靠着我休息三十分钟，我会……试着用挠下巴和摸头哄睡的。",
+			say = "先靠著我休息三十分鐘，我會……試著用搔下巴和摸頭哄睡的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "只是为了避免疲劳驾驶……",
+			say = "只是為了避免疲倦勞駕駛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

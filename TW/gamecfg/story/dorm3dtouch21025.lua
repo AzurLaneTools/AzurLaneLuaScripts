@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_ik_furniture1_tone7/drom3d_nakhimov_ik_furniture1_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "指挥官……我卡在这里动不了了，能拉我出去吗？",
+			say = "指揮官……我卡在這裡動不了了，能拉我出去嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那台红色冰箱？看起来是有点旧，但制冷完全没问题。",
+			say = "那台紅色冰箱？看起來是有點舊，但冷氣完全沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我最近还打算给它增加语音控制功能，用来调整分区温度。",
+			say = "我最近還打算為它增加語音控制功能，用來調整分區溫度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果再加个机械臂，就能自动取饮料了。",
+			say = "如果再加個機械手臂，就能自動拿飲料了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "机械臂？{dorm3d}的提议……我记下了。",
+			say = "機械手臂？{dorm3d}的提議……我記下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

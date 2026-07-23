@@ -133332,6 +133332,47 @@ _G.pg.base.shop_template[260601] = {
 }
 
 
+_G.pg.base.shop_template[260701] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 27,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "宿舍280钻石购买本能训练器",
+	group_limit = 0,
+	resource_num = 280,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 260701,
+	genre = "dorm3d_gift",
+	discount_time = {},
+	limit_args = {
+		{
+			"count",
+			0,
+			1
+		}
+	},
+	effect_args = {
+		7990201
+	}
+}
+
+
 _G.pg.base.shop_template[270101] = {
 	group_type = 0,
 	package_sort_id = 0,
@@ -134160,6 +134201,41 @@ _G.pg.base.shop_template[270116] = {
 }
 
 
+_G.pg.base.shop_template[270121] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 32,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "维修区工作站邀请纳希莫夫海军上将解锁",
+	group_limit = 0,
+	resource_num = 800,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 270121,
+	genre = "",
+	discount_time = "always",
+	limit_args = {},
+	effect_args = {
+		799022
+	}
+}
+
+
 _G.pg.base.shop_template[270204] = {
 	group_type = 0,
 	package_sort_id = 0,
@@ -134600,5 +134676,46 @@ _G.pg.base.shop_template[270206] = {
 	},
 	effect_args = {
 		1154
+	}
+}
+
+
+_G.pg.base.shop_template[270701] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 26,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "宿舍480钻石购买魔方检测仪",
+	group_limit = 0,
+	resource_num = 480,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 270701,
+	genre = "dorm3d_gift",
+	discount_time = {},
+	limit_args = {
+		{
+			"count",
+			0,
+			1
+		}
+	},
+	effect_args = {
+		2161
 	}
 }

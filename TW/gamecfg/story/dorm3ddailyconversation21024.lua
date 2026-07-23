@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，看我制作了这个——“猫咪后颈肉抓取器”。",
+			say = "{dorm3d}，看我製作了這個——「貓咪後頸肉抓取器」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "外面的猫猫偶尔会跑到家里来舍不得走。",
+			say = "外面的貓貓偶爾會跑到家裡來捨不得走。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,14 +97,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这个机器可以把它们安稳地抓到门外去。",
+			say = "這個機器可以把它們安穩地抓到門外去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "已经测试过了？",
+					content = "已經測試過了？",
 					flag = 1
 				}
 			},
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯，被抓住后的感觉……还挺舒服的。",
+			say = "嗯，被抓住後的感覺……還挺舒服的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

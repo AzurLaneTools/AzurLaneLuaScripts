@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，现在有空吗？想请你帮我做个测试。",
+			say = "{dorm3d}，現在有空嗎？想請你幫我做個測試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "就站在我旁边就好……嗯，再近一点点。",
+			say = "就站在我旁邊就好……嗯，再近一點點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "数据收集中……现象记录：和{dorm3d}离得太近的时候，会变得有点奇怪。",
+			say = "資料收集……現象紀錄：和{dorm3d}離得太近的時候，會變得有點奇怪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "心跳加速中，体温也……啊——",
+			say = "心跳加速中，體溫也……啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "线缆它、它又自己动起来了……请先忍耐一下。",
+			say = "纜線它、它又自己動起來了……請先忍耐一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

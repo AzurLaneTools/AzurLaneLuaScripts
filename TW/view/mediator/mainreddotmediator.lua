@@ -72,6 +72,7 @@ slot0.GetNotifyDic = function(slot0)
 		},
 		BLUEPRINT = {
 			TechnologyConst.UPDATE_REDPOINT_ON_TOP,
+			TechnologyProxy.BLUEPRINT_UPDATED,
 			GAME.REMOVE_LAYERS
 		},
 		EVENT = {

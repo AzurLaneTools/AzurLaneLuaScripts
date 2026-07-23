@@ -135,11 +135,11 @@ end
 
 slot0.updatePanel = function(slot0)
 	slot1 = slot0.panelConfig.icon
-	slot2 = slot0.panelConfig.name and slot0.panelConfig.name or ""
+	slot2 = slot0.panelConfig.name or ""
 	slot3 = slot0.panelConfig.tipBonus or ""
 	slot4 = slot0.panelConfig.bonusItem
-	slot5 = slot0.panelConfig.tipExtra and slot0.panelConfig.tipExtra or ""
-	slot6 = slot0.panelConfig.extraItems and slot0.panelConfig.extraItems or {}
+	slot5 = slot0.panelConfig.tipExtra or ""
+	slot6 = slot0.panelConfig.extraItems or {}
 	slot7 = slot0.panelConfig.price and slot0.panelConfig.price or 0
 	slot8 = slot0.panelConfig.isChargeType
 	slot9 = slot0.panelConfig.isLocalPrice
@@ -148,7 +148,7 @@ slot0.updatePanel = function(slot0)
 	slot12 = slot0.panelConfig.normalTip
 	slot13 = slot0.panelConfig.extraDrop
 	slot14 = slot0.panelConfig.isForceGold
-	slot15 = slot0.panelConfig.infoTip and slot0.panelConfig.infoTip or ""
+	slot15 = slot0.panelConfig.infoTip or ""
 
 	if slot0.detailNormalTip then
 		setActive(slot0.detailNormalTip, slot12)
@@ -251,32 +251,35 @@ slot0.updatePanel = function(slot0)
 end
 
 slot0.UpdateItems = function(slot0, slot1)
-	for slot5 = #slot1, slot0.detailItemList.childCount - 1 do
-		Destroy(slot0.detailItemList:GetChild(slot5))
-	end
+	UIItemList.StaticAlign(slot0.detailItemList, slot0.detailItem, #slot1, function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
 
-	for slot5 = slot0.detailItemList.childCount, #slot1 - 1 do
-		cloneTplTo(slot0.detailItem, slot0.detailItemList)
-	end
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1]
 
-	for slot5 = 1, #slot1 do
-		updateDrop(slot0.detailItemList:GetChild(slot5 - 1), slot1[slot5])
+			updateDrop(slot2, slot3)
 
-		slot7, slot8 = contentWrap(slot1[slot5]:getConfig("name"), 8, 2)
+			slot4, slot5 = contentWrap(slot3:getConfig("name"), 8, 2)
 
-		if slot7 then
-			slot8 = slot8 .. "..."
-		end
+			if slot4 then
+				slot5 = slot5 .. "..."
+			end
 
-		setText(slot6:Find("name"), slot8)
-		onButton(slot0, slot6, function ()
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				hideNo = true,
-				type = MSGBOX_TYPE_SINGLE_ITEM,
-				drop = uv0[uv1]
+			setText(slot2:Find("name"), slot5)
+			onButton(uv1, slot2, function ()
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					hideNo = true,
+					type = MSGBOX_TYPE_SINGLE_ITEM,
+					drop = uv0
+				})
+			end, SFX_PANEL)
+			setBlackMask(slot2:Find("icon_bg"), slot3.got, {
+				color = Color(0, 0, 0, 0.6)
 			})
-		end, SFX_PANEL)
-	end
+			setActive(slot2:Find("got"), slot3.got)
+			setActive(slot2:Find("special"), slot3.special)
+		end
+	end)
 end
 
 slot0.UpdateSkinDiscountItemItems = function(slot0, slot1)

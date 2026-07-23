@@ -12,9 +12,8 @@ slot0.InitWindow = function(slot0, slot1, slot2)
 
 	if slot4 and slot5 then
 		slot8 = getProxy(ActivityProxy):getActivityById(Item.getConfigData(slot3.id).link_id)
-		slot10 = slot8:IsMaintenanceFinish() and "eventshop_time_hint" or "eventshop_time_hint2"
 
-		setText(slot0.timeLimitTF:Find("Text"), i18n("tip", pg.TimeMgr.GetInstance():STimeDescS(slot8.stopTime, "%m.%d")))
+		setText(slot0.timeLimitTF:Find("Text"), i18n(slot8:IsMaintenanceFinish() and "eventshop_time_hint" or "eventshop_time_hint2", pg.TimeMgr.GetInstance():STimeDescS(slot8.stopTime, "%m.%d")))
 	end
 
 	slot8 = math.max(math.floor(Drop.New({

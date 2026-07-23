@@ -281,6 +281,7 @@ pg.name_code.all = {
 	310,
 	311,
 	312,
+	313,
 	400,
 	401,
 	402,
@@ -445,6 +446,8 @@ pg.name_code.all = {
 	561,
 	562,
 	564,
+	565,
+	566,
 	10000,
 	10001,
 	10002,
@@ -2408,6 +2411,13 @@ end)()
 		code = "木津",
 		nation = 0
 	}
+	pg.base.name_code[313] = {
+		name = "高梁",
+		type = 1,
+		id = 313,
+		code = "高梁",
+		nation = 0
+	}
 	pg.base.name_code[400] = {
 		name = "Z1",
 		type = 1,
@@ -2555,6 +2565,8 @@ end)()
 		code = "U-110",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[421] = {
 		name = "柯尼斯堡",
 		type = 1,
@@ -2562,8 +2574,6 @@ end)()
 		code = "柯尼斯堡",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[422] = {
 		name = "卡爾斯魯厄",
 		type = 1,
@@ -3257,6 +3267,8 @@ end)()
 		code = "舒爾茨",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[521] = {
 		name = "興登堡",
 		type = 1,
@@ -3264,8 +3276,6 @@ end)()
 		code = "興登堡",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[522] = {
 		name = "旗風·META",
 		type = 1,
@@ -3558,6 +3568,20 @@ end)()
 		type = 1,
 		id = 564,
 		code = "貝利欣根",
+		nation = 0
+	}
+	pg.base.name_code[565] = {
+		name = "馬克斯·英麥曼",
+		type = 1,
+		id = 565,
+		code = "馬克斯·英麥曼",
+		nation = 0
+	}
+	pg.base.name_code[566] = {
+		name = "馬克斯·遠古的鋼鐵之龍·長生的天空主宰·英麥曼",
+		type = 1,
+		id = 566,
+		code = "馬克斯·遠古的鋼鐵之龍·長生的天空主宰·英麥曼",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {

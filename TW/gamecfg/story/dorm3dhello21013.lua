@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_nakhimov_hello13/drom3d_nakhimov_hello13",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，你来了么……今天的我，好像比平时更想你一点点。",
+			say = "{dorm3d}，你來了嗎……今天的我，好像比平常更想你一點點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

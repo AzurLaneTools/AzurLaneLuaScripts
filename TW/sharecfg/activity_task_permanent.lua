@@ -36,6 +36,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "季夏(?)攻勢 ",
 		id = 6000,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35000,
@@ -55,6 +56,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "開學祭 ",
 		id = 6001,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35007,
@@ -87,6 +89,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "白衣天使or惡魔？",
 		id = 6002,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35027,
@@ -106,6 +109,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "春風的十字星！！",
 		id = 6003,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35034,
@@ -138,6 +142,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "夜宴微醺",
 		id = 6004,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35054,
@@ -164,6 +169,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "港區的特別宴會",
 		id = 6005,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35068,
@@ -190,6 +196,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "混沌的萬聖之夜",
 		id = 6006,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -201,6 +208,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "限時聖誕",
 		id = 6007,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35082,
@@ -227,6 +235,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "聖誕禮物大作戰",
 		id = 6008,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35096,
@@ -253,6 +262,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "愛與和平的聖夜祭",
 		id = 6009,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35110,
@@ -273,6 +283,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "異國的偶像？",
 		id = 6010,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}
@@ -284,6 +295,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "月刊漫畫",
 		id = 6011,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35118,
@@ -314,6 +326,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "理科實驗時間！",
 		id = 6012,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35136,
@@ -344,6 +357,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "五彩斑斕的宴會",
 		id = 6013,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35154,
@@ -370,6 +384,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "激奏的Polaris",
 		id = 6014,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35168,
@@ -396,6 +411,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "搗蛋萬聖夜",
 		id = 6015,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35182,
@@ -422,6 +438,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "36年Z組 {namecode:408}講師",
 		id = 6016,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35196,
@@ -454,6 +471,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "啾啾巧克力工坊",
 		id = 6018,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35216,
@@ -473,6 +491,7 @@ pg.base.activity_task_permanent = {}
 		over_pt = 0,
 		activity_name = "緞帶輕飄飄",
 		id = 6020,
+		activity_group = 1000,
 		over_task_id = "",
 		eliminate_task_id = {
 			35244,

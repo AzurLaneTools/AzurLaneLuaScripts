@@ -21,6 +21,8 @@ slot0.GetAutoSkipFlag = function(slot0, slot1)
 		return getProxy(ChapterProxy):GetChapterAutoFlag(getProxy(ChapterProxy):getActiveChapter().id) == 1
 	elseif slot1 == SYSTEM_WORLD then
 		return nowWorld().isAutoFight
+	elseif slot1 == SYSTEM_TEST then
+		return tobool(InDebugBattleLoop)
 	end
 
 	return slot0.autoSkipFlag or false

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，想试试这台车？",
+			say = "{dorm3d}，想試試這台車？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "没问题，不过需要先进行例行的检查维护，确保安全。",
+			say = "沒問題，不過需要先進行例行的檢查維護，確保安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}有什么要求吗？座椅高度、避震软硬……我可以一并调整。",
+			say = "{dorm3d}有什麼要求嗎？座椅高度、避震軟硬……我可以一併調整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "调到最适合你的状态。",
+			say = "調到最適合你的狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

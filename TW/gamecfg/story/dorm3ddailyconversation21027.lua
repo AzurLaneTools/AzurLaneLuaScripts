@@ -17,14 +17,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}等下还会走吗？",
+			say = "{dorm3d}等下還會走嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "嗯，还有工作要做。",
+					content = "嗯，還有工作要做。",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那我会在这里安静等你的。",
+			say = "那我會在這裡安靜等你的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "线缆……？！快放开，不要自己缠住{dorm3d}喵！",
+			say = "纜線……？！快放開，不要自己纏住{dorm3d}喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "它好像是在留你呢……",
+			say = "它好像在留你呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

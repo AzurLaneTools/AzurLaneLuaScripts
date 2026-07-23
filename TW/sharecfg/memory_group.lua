@@ -372,6 +372,7 @@ pg.memory_group.all = {
 	614,
 	615,
 	618,
+	624,
 	1000,
 	1001,
 	1002,
@@ -9366,6 +9367,28 @@ end)()
 			4955,
 			4956,
 			4957
+		},
+		group_id = {
+			10000
+		}
+	}
+	pg.base.memory_group[624] = {
+		ship_group = 29905,
+		icon = "title_chara_pulimaosi",
+		type = 3,
+		link_event = 0,
+		title = "為了絕對的笑容",
+		auto_unlock = "",
+		subtype = 0,
+		id = 624,
+		memories = {
+			5251,
+			5252,
+			5253,
+			5254,
+			5255,
+			5256,
+			5257
 		},
 		group_id = {
 			10000

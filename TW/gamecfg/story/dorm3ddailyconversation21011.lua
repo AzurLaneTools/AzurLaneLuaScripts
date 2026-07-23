@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，能陪我玩毛线球吗？",
+			say = "{dorm3d}，能陪我玩毛線球嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "平时只能和机器玩，但它们的反应都是我写的程序来的……玩三次就能背下来。",
+			say = "平時只能跟機器玩，但它們的反應都是我寫的程式來的……玩三次就能背下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "和{dorm3d}玩的话，应该会很有意思。",
+			say = "和{dorm3d}玩的話，應該會很有意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "要是我不小心被线缆缠住……",
+			say = "要是我不小心被纜線纏住…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "就请{dorm3d}帮我解开吧。慢慢解，不着急的。",
+			say = "就請{dorm3d}幫我解開吧。慢慢解，不急的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
