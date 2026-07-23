@@ -1865,11 +1865,11 @@ end)()
 	}
 	pg.base.gameset.reactivity_ticket_max = {
 		description = "",
-		key_value = 60
+		key_value = 300
 	}
 	pg.base.gameset.reactivity_ticket_daily = {
 		description = "",
-		key_value = 4
+		key_value = 20
 	}
 	pg.base.gameset.max_commander_bag = {
 		description = "",
