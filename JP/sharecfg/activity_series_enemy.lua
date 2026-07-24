@@ -2734,8 +2734,8 @@ pg.base.activity_series_enemy = {}
 				2
 			},
 			{
-				"z11_3",
-				1
+				"sali_2",
+				3
 			},
 			{
 				"gangyishawa_3",
