@@ -6769,7 +6769,7 @@ _G.pg.base.gametip.word_shipNation_ssss = {
 
 
 _G.pg.base.gametip.word_shipNation_mot = {
-	tip = "템페스타"
+	tip = "MOT"
 }
 
 
@@ -6819,7 +6819,7 @@ _G.pg.base.gametip.word_shipNation_dal = {
 
 
 _G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
-	tip = "페드레리아"
+	tip = "LDP"
 }
 
 
