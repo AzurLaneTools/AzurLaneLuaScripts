@@ -7216,7 +7216,7 @@ end)()
 		icon = "title_event",
 		type = 2,
 		link_event = 970000,
-		title = "特别竞拍时刻",
+		title = "Top Bidder",
 		auto_unlock = "",
 		subtype = 3,
 		id = 373,
