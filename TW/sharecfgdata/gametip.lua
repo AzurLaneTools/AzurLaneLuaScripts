@@ -6453,6 +6453,11 @@ _G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_nierautomata = {
+	tip = "NieR Automata"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "重置"
 }
@@ -41688,6 +41693,91 @@ _G.pg.base.gametip.purplebulin_help_2026 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2604 = {
+	tip = "2026/8/1-2026/9/30期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲得<color=#854747>「科隆·META 」</color>在內的豐富獎勵"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2604 = {
+	tip = {
+		{
+			info = [[
+世界巡遊(2026.8.1-2026.9.30)
+
+·<color=#92fc63>開放時間</color>
+ 2026.8.1 0點 ~ 2026.9.30 23:59:59
+
+·<color=#92fc63>巡遊進度說明</color>
+（1）活動期間，指揮官通過完成巡遊任務，可獲取「巡遊點數」。
+（2）巡遊任務隨時間開放解鎖。
+（3）每獲取100點「巡遊點數」即可增加1巡遊進度
+（4）巡遊進度提升後可以獲取相應等級的獎勵，巡遊進度最高可達100。
+
+·<color=#92fc63>獎勵規則</color>
+巡遊進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「科隆·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·八期</color>等獎勵；
+ 當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。
+（2）特許巡遊獎勵：包含<color=#ff5c5c>曙光換裝「微醺的海風 </color>」、<color=#ff5c5c>鑽石</color>等獎勵；
+ 購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
+ 注：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。
+
+·<color=#92fc63>「特許巡遊憑證」說明</color>
+（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點</color>「巡遊點數」同時解鎖特許巡遊獎勵。
+（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即9.30 22:59:59停止)，請指揮官注意購買時間。
+
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每週任務 
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一周任務，之後每週一的0點解鎖下一組每週任務
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵。
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的完成券數量固定，與當前任務進度無關
+（4）「巡遊任務快速完成券」不會隨本期活動結束而消失
+
+·<color=#ff5c5c>特別提示</color>
+（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。
+（2）巡遊進度、[特許巡遊憑證]僅對本期世界巡遊活動生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2604 = {
+	tip = {
+		{
+			info = [[
+巡遊任務說明
+
+·<color=#92fc63>開放時間</color>
+ 2026.8.1 0點 ~ 2026.9.30 23:59:59
+
+·<color=#92fc63>巡遊任務分為兩種</color>
+（1）每週任務
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一周任務，之後每週一的0點解鎖下一組每週任務。
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成每週巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的「巡遊任務快速完成券」數量和其提供的「巡遊點數」相關，與當前任務進度無關
+（4）「巡遊任務快速完成券」<color=#92fc63>不會隨本期活動結束而消失</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2604 = {
+	tip = "世界巡遊·第二十八期"
+}
+
+
 _G.pg.base.gametip.add_friend_fail_tip9 = {
 	tip = "好友申請發送失敗，內容包含受限詞彙。"
 }
@@ -42554,6 +42644,341 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.nier_a2_text_block_day1 = {
+	tip = {
+		{
+			info = "不知是何時開始，A2發現自己正行走在一條金屬走廊中。走廊的窗外高樓林立，走廊的前方似乎永無盡頭。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-A-1
+//:階段識別：1-7
+//:通行密碼：D.O.S
+<b>A2</b>：進入陷阱了？在什麼時候……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day2 = {
+	tip = {
+		{
+			info = "不過，A2還是設法抵達了走廊的盡頭。她調查了緊閉的大門，在數據庫中尋找起繼續前進的「鑰匙」。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-A-2
+//:階段識別：2-7
+//:通行密碼：▇▇▇▇
+//:通行密碼更新：HELLO
+<b>A2</b>：這種門直接破壞掉更方便……嗯？通行密碼正在被修改……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day3 = {
+	tip = {
+		{
+			info = "大門打開後，走廊的結構在A2的眼前發生了改變。在一處憑空出現的房間中，A2找到了一份地圖。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-A-3
+//:階段識別：3-7
+//:通行密碼：▇▇▇▇
+//:通行密碼更新：REVISEDMAP
+<b>A2</b>：地圖似乎沒有問題……肯定有人在外部幫忙。但會是誰呢？]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day4 = {
+	tip = {
+		{
+			info = "有了地圖的幫助，A2順利穿過了如同血管般覆雜的走廊。在一處標記為重要物資點的房間中，A2發現了一身從未見過的裝備。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-A-4
+//:階段識別：4-7
+//:通行密碼：▇▇▇▇
+//:通行密碼更新：UPGRADE
+<b>A2</b>：這身裝備……是訂製的啊。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day5 = {
+	tip = {
+		{
+			info = "A2注意到，每當自己抵達某類特殊區域後，地圖就會進行一次更新。而這類特殊區域的判定標準就是——通行密碼是否具有含義。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-A-5
+//:階段識別：5-7
+//:通行密碼：DREAMWEAVER
+<b>A2</b>：……人造人是不會做夢的。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day6 = {
+	tip = {
+		{
+			info = "走廊連接著房間，房間又連著新一條走廊，整座設施仿佛是一個無窮無盡的循環。唯一有明確變化的，只有特殊區域的通行密碼。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-A-6
+//:階段識別：6-7
+//:通行密碼：UNKNOWN_UNDEFINED
+<b>A2</b>：……這次算是什麼密碼。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day7 = {
+	tip = {
+		{
+			info = "終於，在A2的耐心即將徹底耗盡，打算拋開地圖，使用某些更加直接的手段創造捷徑的時候，地圖上出現了代表出口的房間。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-A-7
+//:階段識別：7-7
+//:通行密碼：▇▇▇▇
+//:通行密碼更新：EXIT
+<b>A2</b>：這就意味著能出去了吧？多謝幫忙。那麼，外面的世界現在變成了什麼樣呢……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day_fin = {
+	tip = {
+		{
+			info = ""
+		},
+		{
+			info = "//:HAPPEENDING"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day1 = {
+	tip = {
+		{
+			info = "不知是何時開始，2B發現自己來到了一片濱海沙灘上。近在咫尺的海水與天空呈現出一種病態的灰藍色，仿佛彰顯著其中蘊含的危險。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-B-1
+//:階段識別：1-7
+//:通行密碼：MIRRORSEA
+<b>2B</b>：輔助機不見了，這裡是……大海？]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day2 = {
+	tip = {
+		{
+			info = "果然，敵人如預期般蜂擁而至。一場並不艱難但仍需謹慎應對的戰鬥後，2B調查起這些從未見過的新型敵人來。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-B-2
+//:階段識別：2-7
+//:通行密碼：EXECUTOR
+<b>2B</b>：剛才的敵人不像是機械生命體呢……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day3 = {
+	tip = {
+		{
+			info = "海灘的盡頭突兀的矗立著一扇大門。2B穿過門扉，發現自己進入了一處封閉的房間，房間的中央靜靜陳列著一套型號未知的裝備。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-B-3
+//:階段識別：3-7
+//:通行密碼：▇▇▇▇
+//:通行密碼更新：UPGRADE
+<b>2B</b>：「艦裝」？這裝備……似乎是海戰特化型。使用起來的話應該沒什麼危險。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day4 = {
+	tip = {
+		{
+			info = "2B穿戴好裝備後，一面書架出現在房間中，隨之一起出現的還有一扇虛掩的門。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-B-4
+//:階段識別：4-7
+//:通行密碼：▇▇▇▇
+//:通行密碼更新：SKILLBOOK
+<b>2B</b>：攻擊教材，防御教材，輔助教材……原來如此，配合那些裝備一同使用的麼。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day5 = {
+	tip = {
+		{
+			info = "2B走出房間後，看到的是一條通向下一個房間的走廊。而後，是更多的走廊和更多的房間。整條路如此漫長，仿佛永無盡頭。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-B-5
+//:階段識別：5-7
+//:通行密碼：VITUALTOWER
+<b>2B</b>：……或許，這裡是某個超巨型設施的內部。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day6 = {
+	tip = {
+		{
+			info = "終於，在推開某扇和上一扇別無二致的門後，2B看到了似曾相識的灰藍色天空與大海。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-B-6
+//:階段識別：6-7
+//:通行密碼：EXPERIMENTERSYSTEM
+<b>2B</b>：又來到了海面上……也就是說，敵人又要出現了。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day7 = {
+	tip = {
+		{
+			info = "這一次的戰鬥結束後，2B穿過門扉來到了一個放滿補給品的房間。房間中還有一扇敞開的門，門外的驚濤巨浪清晰可見。"
+		},
+		{
+			info = [[
+//:區域識別：NODE-B-2
+//:階段識別：7-7
+//:通行密碼：▇▇▇▇
+//:通行密碼更新：EXIT
+<b>2B</b>：出口……或許是陷阱，但還是優先離開這裡。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day_fin = {
+	tip = {
+		{
+			info = ""
+		},
+		{
+			info = "//:HAPPEENDING"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_core_countdown = {
+	tip = "活動時間剩餘：$1天$2小時"
+}
+
+
+_G.pg.base.gametip.nier_core_award_check = {
+	tip = "查看獎勵"
+}
+
+
+_G.pg.base.gametip.nier_core_task_desc = {
+	tip = "擊沉任意敵人"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_day = {
+	tip = "DAY$1"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_unlock_desc = {
+	tip = "$1月$2日解鎖"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_detail = {
+	tip = "看詳情"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_progress = {
+	tip = "當前進度"
+}
+
+
+_G.pg.base.gametip.nier_award_char = {
+	tip = "角色"
+}
+
+
+_G.pg.base.gametip.nier_award_furniture = {
+	tip = "傢俱"
+}
+
+
+_G.pg.base.gametip.nier_award_equip_skin = {
+	tip = "外觀裝備"
+}
+
+
+_G.pg.base.gametip.nier_award_sp_equip = {
+	tip = "特殊兵裝"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_3 = {
+	tip = "旅程：2B"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_1 = {
+	tip = "自動步兵人形之旅"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_5 = {
+	tip = "獎勵匯總"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_4 = {
+	tip = "挑戰關"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_2 = {
+	tip = "旅程：A2"
+}
+
+
 _G.pg.base.gametip.dorm3d_carwash_button = {
 	tip = "洗車遊戲"
 }
@@ -42624,4 +43049,492 @@ _G.pg.base.gametip.dorm3d_gift_overtime = {
 
 _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 	tip = "過期提示"
+}
+
+
+_G.pg.base.gametip.auction_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_5"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_6"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_7"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_8"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.auction_currency_noenough = {
+	tip = "虛擬幣不足"
+}
+
+
+_G.pg.base.gametip.auction_preorder_tips = {
+	tip = "是否花費虛擬幣*$1進行藏品預購?"
+}
+
+
+_G.pg.base.gametip.auction_preorder_tips_1 = {
+	tip = "預購藏品將在倒數結束後可查看"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_0 = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_1 = {
+	tip = "白"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_2 = {
+	tip = "藍"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_3 = {
+	tip = "紫"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_4 = {
+	tip = "金"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_5 = {
+	tip = "彩"
+}
+
+
+_G.pg.base.gametip.auction_game_punishment = {
+	tip = [[
+每累計3次消極行為將禁止配對30分鐘。
+請指揮官認真對待競標對局。
+
+今日累計消極行為:$1次]]
+}
+
+
+_G.pg.base.gametip.auction_game_match_forbidden = {
+	tip = "禁止配對"
+}
+
+
+_G.pg.base.gametip.auction_game_match_warning = {
+	tip = "提前退出對局，不參與當局收益結算，僅扣除門票"
+}
+
+
+_G.pg.base.gametip.auction_game_bid_phase = {
+	tip = "開始出價"
+}
+
+
+_G.pg.base.gametip.auction_game_kick = {
+	tip = "偵測到競標者多次未操作，已被請離拍賣場"
+}
+
+
+_G.pg.base.gametip.auction_game_nobid_tip = {
+	tip = "目前無有效出價，本局競標流局"
+}
+
+
+_G.pg.base.gametip.auction_game_cannot_forfeit = {
+	tip = "已經出價，無法棄權"
+}
+
+
+_G.pg.base.gametip.auction_game_forfeit_tip = {
+	tip = "放棄後，本輪及後續所有輪次將不可出價，是否確認?"
+}
+
+
+_G.pg.base.gametip.auction_game_wait_bid_phase = {
+	tip = "未到出價階段"
+}
+
+
+_G.pg.base.gametip.auction_game_min_bid = {
+	tip = "出價需大於$1"
+}
+
+
+_G.pg.base.gametip.auction_game_bid_confirm = {
+	tip = "目前出價為：$1，是否確認出價?"
+}
+
+
+_G.pg.base.gametip.auction_game_exceeds_max_value = {
+	tip = "持有虛擬幣已達上限"
+}
+
+
+_G.pg.base.gametip.auction_game_prepare = {
+	tip = "拍賣場準備中……"
+}
+
+
+_G.pg.base.gametip.auction_main_handbook = {
+	tip = "藏品圖鑑"
+}
+
+
+_G.pg.base.gametip.auction_main_public_notice = {
+	tip = "公告欄"
+}
+
+
+_G.pg.base.gametip.auction_main_done = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.auction_main_doing = {
+	tip = "操作中"
+}
+
+
+_G.pg.base.gametip.auction_main_personal_event = {
+	tip = "個人事件"
+}
+
+
+_G.pg.base.gametip.auction_main_public_event = {
+	tip = "公共事件"
+}
+
+
+_G.pg.base.gametip.auction_main_select_event = {
+	tip = "選擇本輪個人事件"
+}
+
+
+_G.pg.base.gametip.auction_main_pt = {
+	tip = "持有"
+}
+
+
+_G.pg.base.gametip.auction_main_bid_price = {
+	tip = "已出價："
+}
+
+
+_G.pg.base.gametip.auction_main_win = {
+	tip = "中標"
+}
+
+
+_G.pg.base.gametip.auction_main_fail = {
+	tip = "流拍"
+}
+
+
+_G.pg.base.gametip.auction_main_match_exit = {
+	tip = "是否確認取消配對"
+}
+
+
+_G.pg.base.gametip.auction_settlement_quick = {
+	tip = "一鍵跳過"
+}
+
+
+_G.pg.base.gametip.auction_settlement_session = {
+	tip = "場次"
+}
+
+
+_G.pg.base.gametip.auction_settlement_name = {
+	tip = "得標人"
+}
+
+
+_G.pg.base.gametip.auction_settlement_price = {
+	tip = "中標價"
+}
+
+
+_G.pg.base.gametip.auction_settlement_value = {
+	tip = "收藏總價值"
+}
+
+
+_G.pg.base.gametip.auction_settlement_revenue = {
+	tip = "效益"
+}
+
+
+_G.pg.base.gametip.auction_settlement_dividend = {
+	tip = "分紅"
+}
+
+
+_G.pg.base.gametip.auction_block_emoji = {
+	tip = "屏蔽表情"
+}
+
+
+_G.pg.base.gametip.auction_ready = {
+	tip = "在局準備中，請稍等"
+}
+
+
+_G.pg.base.gametip.auction_cancel = {
+	tip = "取消"
+}
+
+
+_G.pg.base.gametip.auction_confirm = {
+	tip = "確定"
+}
+
+
+_G.pg.base.gametip.auction_signin_task = {
+	tip = "任務"
+}
+
+
+_G.pg.base.gametip.auction_signin_goto = {
+	tip = "前往競標"
+}
+
+
+_G.pg.base.gametip.auction_signin_collect = {
+	tip = "全部領取"
+}
+
+
+_G.pg.base.gametip.auction_pt_tip = {
+	tip = "已獲得："
+}
+
+
+_G.pg.base.gametip.auction_pt_collected = {
+	tip = "前往競標"
+}
+
+
+_G.pg.base.gametip.auction_pt_info = {
+	tip = "※獎勵領取時間於8月26日24時截止"
+}
+
+
+_G.pg.base.gametip.auction_not_enough_assets = {
+	tip = "虛擬幣需求：$1"
+}
+
+
+_G.pg.base.gametip.auction_forbidden_tip = {
+	tip = "偵測到多次消極行為，需等待$1秒"
+}
+
+
+_G.pg.base.gametip.auction_value = {
+	tip = "收藏價值"
+}
+
+
+_G.pg.base.gametip.auction_ticket = {
+	tip = "門票"
+}
+
+
+_G.pg.base.gametip.auction_matching = {
+	tip = "配對中"
+}
+
+
+_G.pg.base.gametip.auction_assistant = {
+	tip = "形象展示"
+}
+
+
+_G.pg.base.gametip.auction_activity_closed = {
+	tip = "活動結束"
+}
+
+
+_G.pg.base.gametip.auction_activity_closed_tip = {
+	tip = "活動已結束"
+}
+
+
+_G.pg.base.gametip.auction_collection_title = {
+	tip = "藏品圖鑑"
+}
+
+
+_G.pg.base.gametip.auction_tab_text_1 = {
+	tip = "競標時刻"
+}
+
+
+_G.pg.base.gametip.auction_tab_text_2 = {
+	tip = "藏品登記處"
+}
+
+
+_G.pg.base.gametip.auction_matches_title = {
+	tip = "參與局數"
+}
+
+
+_G.pg.base.gametip.auction_success_cnt_title = {
+	tip = "中標局數"
+}
+
+
+_G.pg.base.gametip.auction_success_rate_title = {
+	tip = "盈虧比"
+}
+
+
+_G.pg.base.gametip.auction_currency_title = {
+	tip = "持有虛擬幣"
+}
+
+
+_G.pg.base.gametip.auction_total_profit_title = {
+	tip = "總獲利"
+}
+
+
+_G.pg.base.gametip.auction_highest_profit_title = {
+	tip = "單局最高收益"
+}
+
+
+_G.pg.base.gametip.auction_collection_type_title = {
+	tip = "藏品種類"
+}
+
+
+_G.pg.base.gametip.auction_collection_price_title = {
+	tip = "收藏總價值"
+}
+
+
+_G.pg.base.gametip.auction_task_daily = {
+	tip = "日常"
+}
+
+
+_G.pg.base.gametip.auction_task_challenge = {
+	tip = "挑戰"
+}
+
+
+_G.pg.base.gametip.auction_bid_keyboard_clear = {
+	tip = "歸零"
+}
+
+
+_G.pg.base.gametip.auction_round_instant_buy = {
+	tip = "目前輪次中標倍率：$1"
+}
+
+
+_G.pg.base.gametip.auction_collect_unlock = {
+	tip = "已解鎖："
+}
+
+
+_G.pg.base.gametip.auction_show_common_event = {
+	tip = "顯示公共事件"
+}
+
+
+_G.pg.base.gametip.auction_show_personal_event = {
+	tip = "顯示個人事件"
+}
+
+
+_G.pg.base.gametip.auction_store_estimate = {
+	tip = "倉庫顯示區價值預估:$1-$2"
+}
+
+
+_G.pg.base.gametip.auction_relief_tip = {
+	tip = "競標補給準備就緒，\n請指揮官注意查收。"
+}
+
+
+_G.pg.base.gametip.auction_relief_tip_2 = {
+	tip = "目前虛擬幣少於500000，可領取競標補給：虛擬幣*500000\n 今日可領取次數$1/$2"
+}
+
+
+_G.pg.base.gametip.donot_send_emoji_frequently = {
+	tip = "請勿頻繁發送表情"
+}
+
+
+_G.pg.base.gametip.nier_a2_item_got = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.auction_network_timeout = {
+	tip = "網路環境異常，已退出對局"
 }

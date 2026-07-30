@@ -17,6 +17,7 @@ ReflectionHelp = require("Support/Helpers/ReflectionHelp")
 Heap = require("Support/Helpers/Heap")
 ProxyRegister = require("Support/Helpers/ProxyRegister")
 AssetBundleHelper = require("Support/Helpers/AssetBundleHelper")
+StringHelper = require("Support/Helpers/StringHelper")
 
 require("Support/Helpers/GraphApiHelper")
 require("Support/Helpers/ResPathSupport")

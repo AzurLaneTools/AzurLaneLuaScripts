@@ -84,6 +84,7 @@ pg.item_data_frame.all = {
 	611,
 	613,
 	614,
+	615,
 	1001,
 	1002,
 	1003,
@@ -836,6 +837,15 @@ pg.base.item_data_frame = {}
 		desc = "吉慶盈門福運轉，燈籠高掛照財來~\n<color=#A7A7AA>透過參與「春滿客棧Online」獲得</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[615] = {
+		name = "競標終結者",
+		gain_by = "",
+		time_second = 0,
+		id = 615,
+		time_limit_type = 0,
+		desc = "全場目光向你看齊，你就是拍賣場無可爭議的傳說！ \n<color=#A7A7AA>透過參與「特別競標時刻」取得</color>",
+		scene = {}
+	}
 	pg.base.item_data_frame[1001] = {
 		name = "開服紀念",
 		gain_by = "",
@@ -1007,6 +1017,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>結晶之中閃爍著天秤座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.10.01-24.10.31）",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10006] = {
 		name = "限界的挑戰者·天蠍座",
 		gain_by = "",
@@ -1016,8 +1028,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>結晶之中閃爍著天蠍座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.11.01-24.11.30）",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10007] = {
 		name = "限界的挑戰者·射手座",
 		gain_by = "",

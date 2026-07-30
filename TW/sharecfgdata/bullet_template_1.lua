@@ -194318,6 +194318,60 @@ _G.pg.base.bullet_template_1[168282] = {
 }
 
 
+_G.pg.base.bullet_template_1[168354] = {
+	range_offset = 1,
+	modle_ID = "None",
+	type = 1,
+	velocity = 0,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 1,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 168354,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1
+		},
+		{
+			2,
+			1
+		},
+		{
+			2,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		-10,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
 _G.pg.base.bullet_template_1[168481] = {
 	range_offset = 20,
 	modle_ID = "meikelunbao_zhanji",

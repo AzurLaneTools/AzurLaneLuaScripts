@@ -7081,7 +7081,7 @@ end)()
 		}
 	}
 	pg.base.dorm3d_ins_chat_language[714] = {
-		param = "好啊，謝謝你",
+		param = "好啊，謝謝妳",
 		ship_group = 0,
 		option = "",
 		type = 1,

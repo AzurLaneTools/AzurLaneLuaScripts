@@ -16402,6 +16402,37 @@ _G.pg.base.item_data_statistics[21057] = {
 }
 
 
+_G.pg.base.item_data_statistics[21059] = {
+	open_directly = 0,
+	name = "結晶：{namecode:553}",
+	type = 4,
+	display = "{namecode:553}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21059",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21059,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21061] = {
 	open_directly = 0,
 	name = "結晶：{namecode:556}",
@@ -30912,6 +30943,58 @@ _G.pg.base.item_data_statistics[30433] = {
 		{
 			9,
 			2116,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30434] = {
+	open_directly = 1,
+	name = "外觀裝備箱(世界巡遊)",
+	type = 11,
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111228",
+	id = 30434,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2117,
+			1
+		},
+		{
+			9,
+			2118,
+			1
+		},
+		{
+			9,
+			2119,
+			1
+		},
+		{
+			9,
+			2120,
 			1
 		}
 	},
@@ -49594,6 +49677,90 @@ _G.pg.base.item_data_statistics[40083] = {
 			2,
 			42030,
 			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40084] = {
+	open_directly = 1,
+	name = "寄葉協議主題禮包（基礎版）",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題寄葉協議*1,1000物資",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui10",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4084",
+	id = 40084,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			209,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40085] = {
+	open_directly = 1,
+	name = "寄葉協議主題禮包（豪華版）",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題寄葉協議*1,3060鑽石",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui10",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4085",
+	id = 40085,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			209,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},

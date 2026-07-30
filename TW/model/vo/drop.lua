@@ -1260,6 +1260,9 @@ slot0.InitSwitch = function()
 
 					getProxy(ActivityProxy):updateActivity(slot1)
 				end,
+				[31] = function ()
+					getProxy(AuctionGameBaseProxy):AddGold(uv0.count)
+				end,
 				[99] = function ()
 				end,
 				[100] = function ()

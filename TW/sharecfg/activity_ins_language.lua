@@ -7896,6 +7896,35 @@ pg.activity_ins_language.all = {
 	"op_reply_657_1_1",
 	"ins_op_657_1_2",
 	"op_reply_657_1_2",
+	"ins_658",
+	"ins_discuss_658_1",
+	"ins_reply_658_1_1",
+	"ins_reply_658_1_2",
+	"ins_reply_658_1_3",
+	"ins_discuss_658_2",
+	"ins_reply_658_2_1",
+	"ins_reply_658_2_2",
+	"ins_reply_658_2_3",
+	"ins_reply_658_2_4",
+	"ins_op_658_1_1",
+	"op_reply_658_1_1",
+	"ins_op_658_1_2",
+	"op_reply_658_1_2",
+	"ins_659",
+	"ins_discuss_659_1",
+	"ins_reply_659_1_1",
+	"ins_reply_659_1_2",
+	"ins_reply_659_1_3",
+	"ins_reply_659_1_4",
+	"ins_reply_659_1_5",
+	"ins_discuss_659_2",
+	"ins_reply_659_2_1",
+	"ins_reply_659_2_2",
+	"ins_reply_659_2_3",
+	"ins_op_659_1_1",
+	"op_reply_659_1_1",
+	"ins_op_659_1_2",
+	"op_reply_659_1_2",
 	"ins_20001",
 	"ins_discuss_20001_1",
 	"ins_reply_20001_1_1",
@@ -31405,219 +31434,219 @@ end)()
 		value = "嘿嘿，下次如果拍出超棒照片的話，第一個給指揮官看！"
 	}
 	pg.base.activity_ins_language.ins_650 = {
-		value = ""
+		value = "跳傘，好涼快~"
 	}
 end)()
 (function ()
 	pg.base.activity_ins_language.ins_discuss_650_1 = {
-		value = ""
+		value = "所以為什麼要提著一桶水跳傘呢？"
 	}
 	pg.base.activity_ins_language.ins_reply_650_1_1 = {
-		value = ""
+		value = "只要隨身帶著這桶水……"
 	}
 	pg.base.activity_ins_language.ins_reply_650_1_2 = {
-		value = ""
+		value = "不論從多高的地方落下……"
 	}
 	pg.base.activity_ins_language.ins_reply_650_1_3 = {
-		value = ""
+		value = "都能安然無恙地落地哦~"
 	}
 	pg.base.activity_ins_language.ins_reply_650_1_4 = {
-		value = ""
+		value = "？？？"
 	}
 	pg.base.activity_ins_language.ins_discuss_650_2 = {
-		value = ""
+		value = "喂！妳這身裝備也太亂來了吧？！"
 	}
 	pg.base.activity_ins_language.ins_reply_650_2_1 = {
-		value = ""
+		value = "但這樣……才最涼快呀！"
 	}
 	pg.base.activity_ins_language.ins_reply_650_2_2 = {
-		value = ""
+		value = "輕率之舉，有罪"
 	}
 	pg.base.activity_ins_language.ins_reply_650_2_3 = {
-		value = ""
+		value = "欸~那天使小姐是打算飛過來裁決我嗎？"
 	}
 	pg.base.activity_ins_language.ins_reply_650_2_4 = {
-		value = ""
+		value = "霞飛……真的飛起來了？！"
 	}
 	pg.base.activity_ins_language.ins_op_650_1_1 = {
-		value = ""
+		value = "非常刺激，很想再來一次！"
 	}
 	pg.base.activity_ins_language.op_reply_650_1_1 = {
-		value = ""
+		value = "那我就去老地方等指揮官啦~♡"
 	}
 	pg.base.activity_ins_language.ins_op_650_1_2 = {
-		value = ""
+		value = "從高空俯瞰的風景很棒！"
 	}
 	pg.base.activity_ins_language.op_reply_650_1_2 = {
-		value = ""
+		value = "沒錯~高處的風也很讓人著迷呢！嘿嘿~"
 	}
 	pg.base.activity_ins_language.ins_651 = {
-		value = ""
+		value = "小貓都好勇敢……雅努斯完全不敢往外看……"
 	}
 	pg.base.activity_ins_language.ins_discuss_651_1 = {
-		value = ""
+		value = "害怕的時候不看也可以的……銳劍也常閉上眼睛！"
 	}
 	pg.base.activity_ins_language.ins_reply_651_1_1 = {
-		value = ""
+		value = "以前我也總是不敢看可怕的事情……但後來發現，不看也沒關係的……"
 	}
 	pg.base.activity_ins_language.ins_reply_651_1_2 = {
-		value = ""
+		value = "每個人都有害怕的東西啦，不要有負擔！"
 	}
 	pg.base.activity_ins_language.ins_discuss_651_2 = {
-		value = ""
+		value = "小貓們站在那麼高的地方……好危險呀！"
 	}
 	pg.base.activity_ins_language.ins_reply_651_2_1 = {
-		value = ""
+		value = "嗯……我也擔心它們會掉下來……"
 	}
 	pg.base.activity_ins_language.ins_reply_651_2_2 = {
-		value = ""
+		value = "得想辦法安全地把小貓們接下來才行"
 	}
 	pg.base.activity_ins_language.ins_reply_651_2_3 = {
-		value = ""
+		value = "我看到{namecode:523}過去了，應該沒問題了"
 	}
 	pg.base.activity_ins_language.ins_reply_651_2_4 = {
-		value = ""
+		value = "小貓們真的乖乖跟著{namecode:523}小姐走了……太好了"
 	}
 	pg.base.activity_ins_language.ins_op_651_1_1 = {
-		value = ""
+		value = "沒關係，我這就來陪妳"
 	}
 	pg.base.activity_ins_language.op_reply_651_1_1 = {
-		value = ""
+		value = "嗯！我會在這裡等指揮官過來的！"
 	}
 	pg.base.activity_ins_language.ins_op_651_1_2 = {
-		value = ""
+		value = "別擔心了，它們已經安全了"
 	}
 	pg.base.activity_ins_language.op_reply_651_1_2 = {
-		value = ""
+		value = "太好了……我們一起去看看它們吧！"
 	}
 	pg.base.activity_ins_language.ins_652 = {
-		value = ""
+		value = "「別得意，現在可是二對一哦~」"
 	}
 	pg.base.activity_ins_language.ins_discuss_652_1 = {
-		value = ""
+		value = "我驕傲的主人，由我守護！"
 	}
 	pg.base.activity_ins_language.ins_reply_652_1_1 = {
-		value = ""
+		value = "呵呵，看來主人需要更多的照顧呢……我也來幫忙吧~"
 	}
 	pg.base.activity_ins_language.ins_reply_652_1_2 = {
-		value = ""
+		value = "哇！水仗！我也要加入！……啊，我是說，我來幫大家紀錄！"
 	}
 	pg.base.activity_ins_language.ins_reply_652_1_3 = {
-		value = ""
+		value = "哎呀，這下就熱鬧了呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_652_1_4 = {
-		value = ""
+		value = "啊哈哈……這個發展，我怎麼一點都不意外呢……"
 	}
 	pg.base.activity_ins_language.ins_discuss_652_2 = {
-		value = ""
+		value = "哼哼……我嗅到八卦的氣息呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_652_2_1 = {
-		value = ""
+		value = "哼哼……我嗅到了絕妙構圖的氛圍呢☆"
 	}
 	pg.base.activity_ins_language.ins_reply_652_2_2 = {
-		value = ""
+		value = "哼哼……這場演出，似乎有值得一聽的價值呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_652_2_3 = {
-		value = ""
+		value = "呵呵，觀眾越來越多了~「好好看著吧，不會讓各位失望哦♪」"
 	}
 	pg.base.activity_ins_language.ins_op_652_1_1 = {
-		value = ""
+		value = "想贏我可沒那麼容易"
 	}
 	pg.base.activity_ins_language.op_reply_652_1_1 = {
-		value = ""
+		value = "呵呵，您這副頑強的樣子真令人愉悅呢~"
 	}
 	pg.base.activity_ins_language.ins_op_652_1_2 = {
-		value = ""
+		value = "現在才是反擊時間！"
 	}
 	pg.base.activity_ins_language.op_reply_652_1_2 = {
-		value = ""
+		value = "「嗯哼~終於願意認真了？」"
 	}
 	pg.base.activity_ins_language.ins_653 = {
-		value = ""
+		value = "吸水之後，尾巴變得好沉……"
 	}
 	pg.base.activity_ins_language.ins_discuss_653_1 = {
-		value = ""
+		value = "我懂我懂！每次擰乾的時候都超~費勁的！"
 	}
 	pg.base.activity_ins_language.ins_reply_653_1_1 = {
-		value = ""
+		value = "下次再遇到類似的情況，可以讓我們來協助您"
 	}
 	pg.base.activity_ins_language.ins_reply_653_1_2 = {
-		value = ""
+		value = "嗯！我們會來幫忙的~"
 	}
 	pg.base.activity_ins_language.ins_reply_653_1_3 = {
-		value = ""
+		value = "呵呵，那就提前多謝二位了"
 	}
 	pg.base.activity_ins_language.ins_discuss_653_2 = {
-		value = ""
+		value = "機體進水確實是需要迅速處理的緊急狀況"
 	}
 	pg.base.activity_ins_language.ins_reply_653_2_1 = {
-		value = ""
+		value = "那個……只要多在指揮官身邊待著就好了吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_653_2_2 = {
-		value = ""
+		value = "此提議的根據是？"
 	}
 	pg.base.activity_ins_language.ins_reply_653_2_3 = {
-		value = ""
+		value = "我待在指揮官身邊的時候，體溫就會急速上升！"
 	}
 	pg.base.activity_ins_language.ins_reply_653_2_4 = {
-		value = ""
+		value = "喔呀……確實是個不錯的方案呢，呵呵~"
 	}
 	pg.base.activity_ins_language.ins_op_653_1_1 = {
-		value = ""
+		value = "幫妳準備好毛巾了"
 	}
 	pg.base.activity_ins_language.op_reply_653_1_1 = {
-		value = ""
+		value = "主上考慮得如此周到……感激不盡~"
 	}
 	pg.base.activity_ins_language.ins_op_653_1_2 = {
-		value = ""
+		value = "難得看到妳被尾巴困擾的樣子"
 	}
 	pg.base.activity_ins_language.op_reply_653_1_2 = {
-		value = ""
+		value = "呵呵，讓主上見到失態的一面了呢~"
 	}
 	pg.base.activity_ins_language.ins_654 = {
-		value = ""
+		value = "指揮官，已經到約定的時間了哦？"
 	}
 	pg.base.activity_ins_language.ins_discuss_654_1 = {
-		value = ""
+		value = "這車看著不錯，我也買一台試試！"
 	}
 	pg.base.activity_ins_language.ins_reply_654_1_1 = {
-		value = ""
+		value = "{namecode:224}小姐如果想追求高性能，我們這邊有更優秀的方案哦？"
 	}
 	pg.base.activity_ins_language.ins_reply_654_1_2 = {
-		value = ""
+		value = "哼哼，這可是我們團隊傾力打造的成果！"
 	}
 	pg.base.activity_ins_language.ins_reply_654_1_3 = {
-		value = ""
+		value = "舒適度方面完全可以放心！絕對是頂尖體驗哦！"
 	}
 	pg.base.activity_ins_language.ins_reply_654_1_4 = {
-		value = ""
+		value = "嚯，這麼厲害？那我可要認真考慮一下了！"
 	}
 	pg.base.activity_ins_language.ins_reply_654_1_5 = {
-		value = ""
+		value = "等等！那輛車不是還在測試階段嗎？！"
 	}
 	pg.base.activity_ins_language.ins_discuss_654_2 = {
-		value = ""
+		value = "哎呀呀……真是熟悉的情景呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_654_2_1 = {
-		value = ""
+		value = "喔……原來指揮官喜歡這種驚喜呀……"
 	}
 	pg.base.activity_ins_language.ins_reply_654_2_2 = {
-		value = ""
+		value = "相關數據不足……但或許值得一試？"
 	}
 	pg.base.activity_ins_language.ins_reply_654_2_3 = {
-		value = ""
+		value = "那我也去訂同款好了~"
 	}
 	pg.base.activity_ins_language.ins_op_654_1_1 = {
-		value = ""
+		value = "這便是魔女的新座駕嗎……"
 	}
 	pg.base.activity_ins_language.op_reply_654_1_1 = {
-		value = ""
+		value = "很不錯吧？為了讓你乘坐舒適，我還專門調整過了，呵呵~"
 	}
 	pg.base.activity_ins_language.ins_op_654_1_2 = {
-		value = ""
+		value = "打算帶我去什麼地方？"
 	}
 	pg.base.activity_ins_language.op_reply_654_1_2 = {
-		value = ""
+		value = "給你預留了一份驚喜，很快就會知道了~"
 	}
 	pg.base.activity_ins_language.ins_644 = {
 		value = ">w<"
@@ -31853,138 +31882,227 @@ end)()
 		value = "雷火之心——！"
 	}
 	pg.base.activity_ins_language.ins_655 = {
-		value = ""
+		value = "出門是穿黑色絲襪還是白色絲襪呢？好糾結~"
 	}
 	pg.base.activity_ins_language.ins_discuss_655_1 = {
-		value = ""
+		value = "黑絲必秒白絲！"
 	}
 	pg.base.activity_ins_language.ins_reply_655_1_1 = {
-		value = ""
+		value = "？這樣對嗎"
 	}
 	pg.base.activity_ins_language.ins_reply_655_1_2 = {
-		value = ""
+		value = "？這很對"
 	}
 	pg.base.activity_ins_language.ins_reply_655_1_3 = {
-		value = ""
+		value = "？我覺得不對"
 	}
 	pg.base.activity_ins_language.ins_reply_655_1_4 = {
-		value = ""
+		value = "「哪裡不對？」哪裡對了？"
 	}
 	pg.base.activity_ins_language.ins_discuss_655_2 = {
-		value = ""
+		value = "白絲必秒黑絲~"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_1 = {
-		value = ""
+		value = "有品味~與庸俗的黑絲相比，高雅的白絲自然更勝一籌"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_2 = {
-		value = ""
+		value = "呵呵呵~妳也就這點眼光了，明明黑絲才是最能讓指揮官心動的存在哦？"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_3 = {
-		value = ""
+		value = "但據我所知，指揮官似乎更偏愛素雅的風格呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_4 = {
-		value = ""
+		value = "妳胡說，指揮官的喜好，我比妳清楚多了！"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_5 = {
-		value = ""
+		value = "既然如此……不如我們去找指揮官親自評評？"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_6 = {
-		value = ""
+		value = "正合我意！"
 	}
 	pg.base.activity_ins_language.ins_op_655_1_1 = {
-		value = ""
+		value = "最後決定穿哪一種？"
 	}
 	pg.base.activity_ins_language.op_reply_655_1_1 = {
-		value = ""
+		value = "我的選擇是——不穿~"
 	}
 	pg.base.activity_ins_language.ins_op_655_1_2 = {
-		value = ""
+		value = "沒有第三種選擇嗎？"
 	}
 	pg.base.activity_ins_language.op_reply_655_1_2 = {
-		value = ""
+		value = "噓~要是大家意識到可以同時穿兩種襪子，這個話題就沒有討論度了~"
 	}
 	pg.base.activity_ins_language.ins_656 = {
-		value = ""
+		value = "一錘定音——！！"
 	}
 	pg.base.activity_ins_language.ins_discuss_656_1 = {
-		value = ""
+		value = "這是在清理障礙物……嗎？"
 	}
 	pg.base.activity_ins_language.ins_reply_656_1_1 = {
-		value = ""
+		value = "不是哦！是在裝修房屋~"
 	}
 	pg.base.activity_ins_language.ins_discuss_656_2 = {
-		value = ""
+		value = "謝謝，幫了大忙呢！裝修隊的施工進度總算趕上了"
 	}
 	pg.base.activity_ins_language.ins_reply_656_2_1 = {
-		value = ""
+		value = "嘿嘿~幫個忙的事嘛~"
 	}
 	pg.base.activity_ins_language.ins_discuss_656_3 = {
-		value = ""
+		value = "裝修隊辛苦了~已經開始期待裝潢後的樣子了呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_656_3_1 = {
-		value = ""
+		value = "唔，但我記得妳的宿舍裝修，預計應該排在下週吧……"
 	}
 	pg.base.activity_ins_language.ins_reply_656_3_2 = {
-		value = ""
+		value = "對啊，明明是我先排的吧！"
 	}
 	pg.base.activity_ins_language.ins_reply_656_3_3 = {
-		value = ""
+		value = "姐姐還是那麼在意先後順序~"
 	}
 	pg.base.activity_ins_language.ins_reply_656_3_4 = {
-		value = ""
+		value = "查到了，今天預計裝潢的確實是肇和房間"
 	}
 	pg.base.activity_ins_language.ins_reply_656_3_5 = {
-		value = ""
+		value = "被看穿了~♪"
 	}
 	pg.base.activity_ins_language.ins_op_656_1_1 = {
-		value = ""
+		value = "裝潢前果然還是要確認好門牌"
 	}
 	pg.base.activity_ins_language.op_reply_656_1_1 = {
-		value = ""
+		value = "門牌？我沒看到有門牌啊？難道……這也是應瑞小姐計畫的一部分？！"
 	}
 	pg.base.activity_ins_language.ins_op_656_1_2 = {
-		value = ""
+		value = "看來裝修順序錯了？"
 	}
 	pg.base.activity_ins_language.op_reply_656_1_2 = {
-		value = ""
+		value = "嗚哇哇……但沒關係！我有的是力氣！今天就幫她們全部搞定嘿嘿~"
 	}
 	pg.base.activity_ins_language.ins_657 = {
-		value = ""
+		value = "烤肉大胃王比賽——開始！"
 	}
 	pg.base.activity_ins_language.ins_discuss_657_1 = {
-		value = ""
+		value = "無畏選手在開局階段遙遙領先！"
 	}
 	pg.base.activity_ins_language.ins_reply_657_1_1 = {
-		value = ""
+		value = "喵哈哈~難道說，無懼選手要提前鎖定冠軍了嗎……等等！還有高手！"
 	}
 	pg.base.activity_ins_language.ins_reply_657_1_2 = {
-		value = ""
+		value = "{namecode:16}選手一口吞了10盤烤肉！現在兩人的成績不相上下！"
 	}
 	pg.base.activity_ins_language.ins_reply_657_1_3 = {
-		value = ""
+		value = "好激烈的對抗！比賽已進入白熱化階段！究竟誰才是最後贏家呢？"
 	}
 	pg.base.activity_ins_language.ins_discuss_657_2 = {
-		value = ""
+		value = "為什麼她有這麼多隻手？"
 	}
 	pg.base.activity_ins_language.ins_reply_657_2_1 = {
-		value = ""
+		value = "那些是快速拿肉產生的殘影"
 	}
 	pg.base.activity_ins_language.ins_reply_657_2_2 = {
-		value = ""
+		value = "好快的速度！好厲害……"
 	}
 	pg.base.activity_ins_language.ins_reply_657_2_3 = {
-		value = ""
+		value = "道理我都懂，但為什麼她有這麼多隻手？"
 	}
 	pg.base.activity_ins_language.ins_op_657_1_1 = {
-		value = ""
+		value = "看到比賽宣傳語是：健康第一，比賽第二？"
 	}
 	pg.base.activity_ins_language.op_reply_657_1_1 = {
-		value = ""
+		value = "比賽第三哇！因為吃肉很重要，得排第一哇！"
 	}
 	pg.base.activity_ins_language.ins_op_657_1_2 = {
-		value = ""
+		value = "比賽結束要不要一起散步？有助於消化"
 	}
 	pg.base.activity_ins_language.op_reply_657_1_2 = {
+		value = "好哇！等散完步一起去吃烤肉大餐吧~"
+	}
+	pg.base.activity_ins_language.ins_658 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_658_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_658_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_2_2 = {
+		value = ""
+	}
+end)()
+(function ()
+	pg.base.activity_ins_language.ins_reply_658_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_658_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_658_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_658_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_658_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_658_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_659 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_659_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_1_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_659_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_659_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_659_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_659_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_659_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_659_1_2 = {
 		value = ""
 	}
 	pg.base.activity_ins_language.ins_20001 = {
@@ -32011,8 +32129,6 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20001_4 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20001_5 = {
 		value = ""
 	}
@@ -32226,6 +32342,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20004_5_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20004_5_2 = {
 		value = ""
 	}
@@ -32313,8 +32431,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20003_4_3 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20003_5 = {
 		value = ""
 	}
@@ -32528,6 +32644,8 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20005_13_4 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_discuss_20005_14 = {
 		value = ""
 	}
@@ -32615,8 +32733,6 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20008_7 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20008_7_1 = {
 		value = ""
 	}

@@ -170,35 +170,36 @@ slot0.HandleMeteoDamage = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.HandleDirectDamage = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	slot7 = nil
+slot0.HandleDirectDamage = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+	slot8 = nil
 
 	if slot3 then
-		slot7 = slot3:GetAttrByName("id")
+		slot8 = slot3:GetAttrByName("id")
 	end
 
-	slot0:DamageStatistics(slot7, slot1:GetAttrByName("id"), -slot1:UpdateHP(slot2 * -1, {
+	slot0:DamageStatistics(slot8, slot1:GetAttrByName("id"), -slot1:UpdateHP(slot2 * -1, {
 		isMiss = false,
 		isCri = false,
 		isHeal = false,
 		damageReason = slot4,
-		srcID = slot7,
+		srcID = slot8,
 		isReflect = slot5,
-		ignoreInvincible = slot6
+		ignoreInvincible = slot6,
+		ignoreShield = slot7
 	}))
 
-	if not slot1:IsAlive() and slot7 then
-		slot0:KillCountStatistics(slot7, slot9)
+	if not slot1:IsAlive() and slot8 then
+		slot0:KillCountStatistics(slot8, slot10)
 	end
 
-	if not slot11 then
-		slot13 = true
+	if not slot12 then
+		slot14 = true
 
-		if slot1:GetUnitType() ~= uv0.UnitType.AIRCRAFT_UNIT and slot12 ~= uv0.UnitType.AIRFIGHTER_UNIT and slot12 ~= uv0.UnitType.FUNNEL_UNIT and slot12 ~= uv0.UnitType.UAV_UNIT then
-			slot13 = false
+		if slot1:GetUnitType() ~= uv0.UnitType.AIRCRAFT_UNIT and slot13 ~= uv0.UnitType.AIRFIGHTER_UNIT and slot13 ~= uv0.UnitType.FUNNEL_UNIT and slot13 ~= uv0.UnitType.UAV_UNIT then
+			slot14 = false
 		end
 
-		slot0:obituary(slot1, slot13, slot3)
+		slot0:obituary(slot1, slot14, slot3)
 	end
 end
 

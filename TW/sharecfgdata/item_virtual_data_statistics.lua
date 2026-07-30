@@ -177012,6 +177012,32 @@ _G.pg.base.item_virtual_data_statistics[65115] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65116] = {
+	drop_gold_max = 0,
+	name = "巡遊點數",
+	display = "參與「世界巡遊」獲得的點數，累積一定程度可以領取獎勵，活動結束後將會消失",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7028,
+	album_config = "",
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65116,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "抵抗之星紀念勳章",
@@ -263136,4 +263162,108 @@ _G.pg.base.item_virtual_data_statistics[200820] = {
 			1
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970001] = {
+	drop_gold_max = 0,
+	name = "拍賣場虛擬幣",
+	display = "此幣為拍賣場專用虛擬籌碼……友情提示：花掉的虛擬幣可以再賺，拍下的收藏們不退不換~",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/auction_coin",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 31,
+	id = 970001,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970002] = {
+	drop_gold_max = 0,
+	name = "藏品獲取清單",
+	display = "這份清單紀錄持有者在拍賣場中獲得過的藏品，是持有者在競標中大顯身手的證明~",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/auction_pt_1",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970002,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970003] = {
+	drop_gold_max = 0,
+	name = "競標時刻表情專輯",
+	display = "獲得後立刻自動開啟，開啟可獲得競標時刻表情專輯限定表情（1-4）\n可在表情選項的「預設」標籤中找到並發出此系列表情",
+	type = 98,
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/970003",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970003,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970004] = {
+	drop_gold_max = 0,
+	name = "競標時刻表情專輯",
+	display = "獲得後立刻自動開啟，開啟可獲得競標時刻表情專輯限定表情（5-9）\n可在表情選項的「預設」標籤中找到並發出此系列表情",
+	type = 98,
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/970003",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970004,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }

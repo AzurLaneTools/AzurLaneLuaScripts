@@ -1,5 +1,10 @@
 slot0 = class("MainCoreActivityBtn", import(".MainBaseActivityBtn"))
 
+slot0.Register = function(slot0)
+	uv0.super.Register(slot0)
+	slot0.event:connect(MainBaseActivityBtn.UPDATED_TIP, handler(slot0, slot0.OnRefreshBtn))
+end
+
 slot0.GetEventName = function(slot0)
 	return "event_core"
 end
@@ -51,6 +56,15 @@ end
 
 slot0.GetTipImage = function(slot0)
 	return "tip_1920"
+end
+
+slot0.OnRefreshBtn = function(slot0)
+	slot0:OnInit()
+end
+
+slot0.Dispose = function(slot0)
+	slot0.event:disconnect(MainBaseActivityBtn.UPDATED_TIP, handler(slot0, slot0.OnRefreshBtn))
+	uv0.super.Dispose(slot0)
 end
 
 return slot0

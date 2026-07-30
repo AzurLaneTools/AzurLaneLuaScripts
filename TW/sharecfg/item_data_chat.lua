@@ -17,6 +17,8 @@ pg.item_data_chat.all = {
 	606,
 	607,
 	610,
+	611,
+	612,
 	10001,
 	10002,
 	10003,
@@ -145,6 +147,22 @@ pg.base.item_data_chat = {}
 		id = 610,
 		time_limit_type = 0,
 		desc = "漫步於海濱，傾聽海浪的細語。\n<color=#A7A7AAFF>透過參與「夏日重建！海島別墅渡假計畫！」活動獲得</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[611] = {
+		name = "全像競標",
+		time_second = 0,
+		id = 611,
+		time_limit_type = 0,
+		desc = "全像投影，定格競標一瞬！ \n<color=#A7A7AAFF>透過參與「特別競標時刻」活動取得</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[612] = {
+		name = "S級數據流",
+		time_second = 0,
+		id = 612,
+		time_limit_type = 0,
+		desc = "數據奔湧，勝負盡在此刻！ \n<color=#A7A7AAFF>透過參與「特別競標時刻」活動取得</color>",
 		scene = {}
 	}
 	pg.base.item_data_chat[10001] = {

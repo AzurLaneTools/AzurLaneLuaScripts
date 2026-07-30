@@ -95,6 +95,7 @@ slot0.Init = function(slot0)
 	slot0._modleAnim = slot0._model:GetComponent("SpineAnimUI")
 	slot0._attachmentList = {}
 	slot0._visible = true
+	slot0._orbitVisible = true
 end
 
 slot0.AttachOrbit = function(slot0, slot1)
@@ -328,9 +329,20 @@ slot0.ModifyName = function(slot0, slot1)
 	end
 end
 
+slot0.SetOrbitVisible = function(slot0, slot1)
+	if slot0:CheckInited() then
+		slot0._orbitVisible = slot1
+
+		for slot5, slot6 in pairs(slot0._attachmentList) do
+			SetActive(slot5, slot1)
+		end
+	end
+end
+
 slot0.SetVisible = function(slot0, slot1)
 	if slot0:CheckInited() then
 		slot0._visible = slot1
+		slot0._orbitVisible = slot1
 		slot0._modleGraphic.color = Color.New(1, 1, 1, slot1 and 1 or 0)
 
 		for slot5, slot6 in pairs(slot0._attachmentList) do
@@ -408,7 +420,7 @@ end
 
 slot0.HiddenAttachmentByAction = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._attachmentList) do
-		SetActive(slot5, not table.contains(slot6.hiddenActionList, slot1) and slot0._visible)
+		SetActive(slot5, not table.contains(slot6.hiddenActionList, slot1) and slot0._orbitVisible)
 	end
 end
 

@@ -745,6 +745,8 @@ pg.ship_data_group.all = {
 	10154,
 	10155,
 	10156,
+	10171,
+	10172,
 	20001,
 	20002,
 	20003,
@@ -848,6 +850,7 @@ pg.ship_data_group.all = {
 	30055,
 	30056,
 	30057,
+	30059,
 	30061
 }
 pg.ship_data_group.get_id_list_by_group_type = {
@@ -3083,6 +3086,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[970209] = {
 		30055
 	},
+	[970210] = {
+		30059
+	},
 	[970301] = {
 		30013
 	},
@@ -3385,6 +3391,12 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	},
 	[1150006] = {
 		10156
+	},
+	[1170001] = {
+		10171
+	},
+	[1170002] = {
+		10172
 	}
 }
 pg.ship_data_group.get_id_list_by_handbook_type = {
@@ -4131,7 +4143,9 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		10153,
 		10154,
 		10155,
-		10156
+		10156,
+		10171,
+		10172
 	},
 	{
 		20001,
@@ -4239,6 +4253,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		30055,
 		30056,
 		30057,
+		30059,
 		30061
 	}
 }
@@ -34840,6 +34855,70 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_data_group[10171] = {
+		nationality = 117,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1170001,
+		index_id = 10171,
+		code = 10171,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：自動步兵人形之旅",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[10172] = {
+		nationality = 117,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1170002,
+		index_id = 10172,
+		code = 10172,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：自動步兵人形之旅",
+				{
+					""
+				},
+				0
+			}
+		}
+	}
 	pg.base.ship_data_group[20001] = {
 		nationality = 2,
 		type = 2,
@@ -36839,6 +36918,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_group[30011] = {
 		nationality = 97,
 		type = 2,
@@ -36909,8 +36990,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_group[30013] = {
 		nationality = 97,
 		type = 3,
@@ -38419,6 +38498,41 @@ end)()
 				"限時活動：春滿客棧Online",
 				{
 					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[30059] = {
+		nationality = 97,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970210,
+		index_id = 30059,
+		code = 30059,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702101
+					}
 				},
 				0
 			}

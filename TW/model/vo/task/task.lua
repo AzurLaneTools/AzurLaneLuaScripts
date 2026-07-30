@@ -13,6 +13,7 @@ slot0.TYPE_REFLUX = 15
 slot0.TYPE_ACTIVITY_REPEAT = 16
 slot0.TYPE_ACTIVITY_WEEKLY = 46
 slot0.TYPE_COMMANDER_MANUAL = 17
+slot0.TYPE_REPEATABLE = 20
 slot1 = {
 	"scenario",
 	"branch",
@@ -81,7 +82,13 @@ slot0.isLock = function(slot0)
 end
 
 slot0.isFinish = function(slot0)
-	return slot0:getConfig("target_num") <= slot0:getProgress()
+	slot1 = slot0:getProgress()
+
+	if slot0:getConfig("sub_type") == TASK_SUB_TYPE_REPEATABLE then
+		return slot1 >= 1
+	end
+
+	return slot0:getConfig("target_num") <= slot1
 end
 
 slot0.getProgress = function(slot0)
@@ -152,6 +159,9 @@ slot0.getProgress = function(slot0)
 			end
 
 			return 0
+		end,
+		[TASK_SUB_TYPE_REPEATABLE] = function ()
+			return uv0.progress >= 1 and 1 or 0
 		end
 	}, function ()
 		return uv0.progress

@@ -67,6 +67,7 @@ pg.dorm3d_furniture_template.all = {
 	1415,
 	1461,
 	1462,
+	1463,
 	2101,
 	2102,
 	2103,
@@ -152,7 +153,8 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		1414,
 		1415,
 		1461,
-		1462
+		1462,
+		1463
 	},
 	[21] = {
 		2101,
@@ -1827,6 +1829,40 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/study"
+		}
+	}
+	pg.base.dorm3d_furniture_template[1463] = {
+		rarity = 4,
+		name = "深紅逸趣",
+		type = 5,
+		room_id = 14,
+		desc = "通體真皮材質，低調奢華，搭配精緻茶几，將生活的愜意與趣味都凝聚於此。",
+		is_exclusive = 0,
+		model = "Pay_Aijierhostel/pre_db_aijier_living01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture3",
+		acesses = "",
+		id = 1463,
+		target_slots = {
+			1140301
+		},
+		touch_id = {
+			{
+				49905,
+				4990560
+			}
+		},
+		shop_id = {
+			270603
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1463"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
 		}
 	}
 	pg.base.dorm3d_furniture_template[2101] = {

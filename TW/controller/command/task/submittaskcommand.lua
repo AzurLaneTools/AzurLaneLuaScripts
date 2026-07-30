@@ -176,7 +176,9 @@ slot0.CheckTaskType = function(slot0)
 		})
 	end
 
-	if slot0:getConfig("type") == 8 then
+	if slot1 == Task.TYPE_REPEATABLE then
+		-- Nothing
+	elseif slot1 == 8 then
 		slot0.submitTime = 1
 
 		getProxy(TaskProxy):updateTask(slot0)

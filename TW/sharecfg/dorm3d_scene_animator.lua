@@ -26,6 +26,9 @@ pg.dorm3d_scene_animator.all = {
 	2021,
 	2022,
 	2023,
+	2024,
+	2025,
+	2026,
 	3001,
 	3002,
 	3003,
@@ -66,7 +69,10 @@ pg.dorm3d_scene_animator.get_id_list_by_room_id = {
 	[14] = {
 		2015,
 		2016,
-		2023
+		2023,
+		2024,
+		2025,
+		2026
 	},
 	[16] = {
 		2014,
@@ -198,6 +204,21 @@ pg.base.dorm3d_scene_animator = {}
 		id = 2023,
 		room_id = 14,
 		item_name = "FurnitureSlots/1140201/pre_db_aijier_study01(Clone)/pre_db_aje_chair01"
+	}
+	pg.base.dorm3d_scene_animator[2024] = {
+		id = 2024,
+		room_id = 14,
+		item_name = "FurnitureSlots/1140301/pre_db_aijier_living01(Clone)/pre_db_aje_table02"
+	}
+	pg.base.dorm3d_scene_animator[2025] = {
+		id = 2025,
+		room_id = 14,
+		item_name = "FurnitureSlots/1140301/pre_db_aijier_living01(Clone)/pre_db_aje_table02/all/CH"
+	}
+	pg.base.dorm3d_scene_animator[2026] = {
+		id = 2026,
+		room_id = 14,
+		item_name = "FurnitureSlots/1140301/pre_db_aijier_living01(Clone)/pre_db_aje_table02/all/PZ2/CB2"
 	}
 	pg.base.dorm3d_scene_animator[3001] = {
 		id = 3001,

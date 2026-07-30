@@ -4,6 +4,133 @@ slot0.word_legal_template_5 = {}
 slot1 = slot0.word_legal_template_5
 
 temp = function()
+	uv0["勇"] = {
+		["氣"] = {
+			this = true
+		},
+		["敢"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["獵"] = {
+		["人"] = {
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["標"] = {
+		["槍"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["天"] = {
+		["后"] = {
+			this = true
+		},
+		["狼"] = {
+			["星"] = {
+				this = true
+			}
+		},
+		["城"] = {
+			this = true
+		},
+		["鷹"] = {
+			this = true
+		},
+		["海"] = {
+			["春"] = {
+				["香"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["吸"] = {
+		["血"] = {
+			["鬼"] = {
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["丘"] = {
+		["比"] = {
+			["特"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["澤"] = {
+		["西"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["回"] = {
+		["聲"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["愛"] = {
 		["斯"] = {
 			["基"] = {
@@ -399,222 +526,6 @@ temp = function()
 			["克"] = {
 				this = true
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["多"] = {
-		["塞"] = {
-			["特"] = {
-				["郡"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["蘇"] = {
-		["塞"] = {
-			["克"] = {
-				["斯"] = {
-					this = true
-				}
-			}
-		},
-		["維"] = {
-			["埃"] = {
-				["聯"] = {
-					["盟"] = {
-						this = true
-					}
-				},
-				["白"] = {
-					["俄"] = {
-						["羅"] = {
-							["斯"] = {
-								this = true
-							}
-						}
-					}
-				},
-				["俄"] = {
-					["羅"] = {
-						["斯"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["弗"] = {
-			["朗"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["德"] = {
-		["文"] = {
-			["郡"] = {
-				this = true
-			}
-		},
-		["意"] = {
-			["志"] = {
-				this = true
-			}
-		},
-		["米"] = {
-			["特"] = {
-				["里"] = {
-					["·"] = {
-						["頓"] = {
-							["斯"] = {
-								["科"] = {
-									["伊"] = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["雷"] = {
-			["克"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["聲"] = {
-		["望"] = {
-			this = true,
-			["·"] = {
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["反"] = {
-		["擊"] = {
-			this = true,
-			["·"] = {
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["厭"] = {
-		["戰"] = {
-			this = true,
-			["."] = {
-				["改"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["前"] = {
-		["衛"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["納"] = {
-		["爾"] = {
-			["遜"] = {
-				this = true,
-				["."] = {
-					["改"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["希"] = {
-			["莫"] = {
-				["夫"] = {
-					["海"] = {
-						["軍"] = {
-							["上"] = {
-								["將"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["豪"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["復"] = {
-		["仇"] = {
-			this = true
 		}
 	}
 end

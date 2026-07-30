@@ -4,6 +4,222 @@ slot0.word_legal_template_6 = {}
 slot1 = slot0.word_legal_template_6
 
 temp = function()
+	uv0["多"] = {
+		["塞"] = {
+			["特"] = {
+				["郡"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["蘇"] = {
+		["塞"] = {
+			["克"] = {
+				["斯"] = {
+					this = true
+				}
+			}
+		},
+		["維"] = {
+			["埃"] = {
+				["聯"] = {
+					["盟"] = {
+						this = true
+					}
+				},
+				["白"] = {
+					["俄"] = {
+						["羅"] = {
+							["斯"] = {
+								this = true
+							}
+						}
+					}
+				},
+				["俄"] = {
+					["羅"] = {
+						["斯"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["弗"] = {
+			["朗"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["德"] = {
+		["文"] = {
+			["郡"] = {
+				this = true
+			}
+		},
+		["意"] = {
+			["志"] = {
+				this = true
+			}
+		},
+		["米"] = {
+			["特"] = {
+				["里"] = {
+					["·"] = {
+						["頓"] = {
+							["斯"] = {
+								["科"] = {
+									["伊"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["雷"] = {
+			["克"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["聲"] = {
+		["望"] = {
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["反"] = {
+		["擊"] = {
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["厭"] = {
+		["戰"] = {
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["前"] = {
+		["衛"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["納"] = {
+		["爾"] = {
+			["遜"] = {
+				this = true,
+				["."] = {
+					["改"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["希"] = {
+			["莫"] = {
+				["夫"] = {
+					["海"] = {
+						["軍"] = {
+							["上"] = {
+								["將"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["豪"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["復"] = {
+		["仇"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["皇"] = {
 		["家"] = {
 			["橡"] = {
@@ -283,175 +499,6 @@ temp = function()
 			this = true
 		},
 		["瀨"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["曉"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["響"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["電"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["夕"] = {
-		["立"] = {
-			this = true,
-			["."] = {
-				["改"] = {
-					this = true
-				}
-			},
-			["·"] = {
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["暮"] = {
-			this = true
-		},
-		["張"] = {
-			this = true
-		},
-		["燒"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["時"] = {
-		["雨"] = {
-			this = true
-		},
-		["崎"] = {
-			["狂"] = {
-				["三"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["雪"] = {
-		["風"] = {
-			this = true
-		},
-		["泉"] = {
-			this = true
-		},
-		["不"] = {
-			["歸"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["陽"] = {
-		["炎"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["野"] = {
-		["分"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["初"] = {
-		["春"] = {
-			this = true
-		},
-		["霜"] = {
-			this = true
-		},
-		["月"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["若"] = {
-		["葉"] = {
-			this = true
-		},
-		["月"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["有"] = {
-		["明"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["親"] = {
-		["潮"] = {
 			this = true
 		}
 	}

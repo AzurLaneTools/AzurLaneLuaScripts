@@ -357,6 +357,7 @@ pg.fleet_tech_ship_class.all = {
 	970207,
 	970208,
 	970209,
+	970210,
 	970301,
 	970302,
 	970303,
@@ -4643,6 +4644,17 @@ end)()
 		nation = 97,
 		ships = {
 			970209
+		}
+	}
+	pg.base.fleet_tech_ship_class[970210] = {
+		shiptype = 2,
+		name = "科隆·META",
+		t_level = 3,
+		id = 970210,
+		t_level_1 = 20,
+		nation = 97,
+		ships = {
+			970210
 		}
 	}
 	pg.base.fleet_tech_ship_class[970301] = {

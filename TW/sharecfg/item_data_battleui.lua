@@ -16,6 +16,7 @@ pg.item_data_battleui.all = {
 	111,
 	112,
 	113,
+	114,
 	201,
 	202,
 	203,
@@ -23,7 +24,8 @@ pg.item_data_battleui.all = {
 	205,
 	206,
 	207,
-	208
+	208,
+	209
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -222,6 +224,21 @@ pg.base.item_data_battleui = {}
 			1
 		}
 	}
+	pg.base.item_data_battleui[114] = {
+		name = "精靈古藤",
+		key = "SkinNormal_20260326",
+		display_icon = "ui_114",
+		unlock = "世界巡遊二十八期獲取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "翠綠藤蔓在介面邊生長，精靈微光於葉片間明滅，讓每一次交鋒都染上古老森林的神秘與生機。",
+		id = 114,
+		icon = "114",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
 	pg.base.item_data_battleui[201] = {
 		name = "聖誕雪境",
 		key = "SkinNormal_20241209",
@@ -351,6 +368,23 @@ pg.base.item_data_battleui = {}
 		desc = "金色的流光勾勒出星星的輪廓，璀璨的鑽石鑲嵌於按鍵之間，讓每一次交鋒都如同置身於奢華夢境。",
 		id = 208,
 		icon = "208",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[209] = {
+		name = "寄葉協議",
+		key = "SkinElite_20260715",
+		display_icon = "ui_209",
+		unlock = "寄葉協議戰鬥主題禮包獲取",
+		is_unlock = 1,
+		rare = 4,
+		desc = "單調色彩構築的極簡風格指揮介面，機械紋路與戰術視窗有序展開，彷彿接入寄葉部隊的作戰協定之中。",
+		id = 209,
+		icon = "209",
 		scene = {},
 		rare_display = {
 			1,

@@ -99,6 +99,9 @@ pg.pay_data_display.all = {
 	2079,
 	2080,
 	2081,
+	2085,
+	2086,
+	2087,
 	2088,
 	2089,
 	2090,
@@ -204,6 +207,7 @@ pg.pay_data_display.all = {
 	4924,
 	4925,
 	4926,
+	4927,
 	5001,
 	5002,
 	5003,
@@ -6406,7 +6410,7 @@ pg.base.pay_data_display = {}
 		id_str = "com.hkmanjuu.azurlane.keyan",
 		extra_gem = 0,
 		id = 2027,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "最高方案研發禮包四期",
 		first_text = "快速研發",
 		akashi_pick = 1,
@@ -6782,7 +6786,7 @@ pg.base.pay_data_display = {}
 		id_str = "com.hkmanjuu.azurlane.ui",
 		extra_gem = 0,
 		id = 2032,
-		airijp_id = "com.yostarjp.azurlane.ui",
+		airijp_id = "",
 		name_display = "夢幻霓虹主題禮包",
 		first_text = "",
 		akashi_pick = 1,
@@ -7143,7 +7147,7 @@ pg.base.pay_data_display = {}
 		id_str = "com.hkmanjuu.azurlane.ui3",
 		extra_gem = 0,
 		id = 2037,
-		airijp_id = "com.yostarjp.azurlane.ui3",
+		airijp_id = "",
 		name_display = "聖誕雪地主題禮包",
 		first_text = "",
 		akashi_pick = 1,
@@ -7622,7 +7626,7 @@ pg.base.pay_data_display = {}
 		id_str = "com.hkmanjuu.azurlane.ui18",
 		extra_gem = 0,
 		id = 2042,
-		airijp_id = "com.yostarjp.azurlane.ui6",
+		airijp_id = "",
 		name_display = "聖砂之約主題禮包",
 		first_text = "",
 		akashi_pick = 1,
@@ -7875,7 +7879,7 @@ pg.base.pay_data_display = {}
 		id_str = "com.hkmanjuu.azurlane.ui9",
 		extra_gem = 0,
 		id = 2045,
-		airijp_id = "com.yostarjp.azurlane.ui9",
+		airijp_id = "",
 		name_display = "基因之源主題禮包",
 		first_text = "",
 		akashi_pick = 1,
@@ -8236,7 +8240,7 @@ pg.base.pay_data_display = {}
 		id_str = "com.hkmanjuu.azurlane.ui12",
 		extra_gem = 0,
 		id = 2050,
-		airijp_id = "com.yostarjp.azurlane.ui12",
+		airijp_id = "",
 		name_display = "海濱假日主題禮包",
 		first_text = "",
 		akashi_pick = 1,
@@ -8498,7 +8502,7 @@ pg.base.pay_data_display = {}
 		id_str = "com.hkmanjuu.azurlane.keyan",
 		extra_gem = 0,
 		id = 2053,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "",
 		name_display = "最高方案研發禮包五期",
 		first_text = "快速研發",
 		akashi_pick = 1,
@@ -8766,7 +8770,7 @@ pg.base.pay_data_display = {}
 		id_str = "com.hkmanjuu.azurlane.ui15",
 		extra_gem = 0,
 		id = 2057,
-		airijp_id = "com.yostarjp.azurlane.ui15",
+		airijp_id = "",
 		name_display = "忍者之城主題禮包 ",
 		first_text = "",
 		akashi_pick = 1,
@@ -9029,7 +9033,7 @@ pg.base.pay_data_display = {}
 		id_str = "com.hkmanjuu.azurlane.ui18",
 		extra_gem = 0,
 		id = 2068,
-		airijp_id = "com.yostarjp.azurlane.ui18",
+		airijp_id = "",
 		name_display = "甜點女僕屋主題禮包",
 		first_text = "",
 		akashi_pick = 1,
@@ -9292,7 +9296,7 @@ pg.base.pay_data_display = {}
 		id_str = "com.hkmanjuu.azurlane.ui24",
 		extra_gem = 0,
 		id = 2074,
-		airijp_id = "com.yostarjp.azurlane.ui21",
+		airijp_id = "",
 		name_display = "春滿客棧主題禮包",
 		first_text = "",
 		akashi_pick = 1,
@@ -9912,6 +9916,269 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+	pg.base.pay_data_display[2085] = {
+		picture = "ui10",
+		name = "寄葉協議主題禮包",
+		type = 0,
+		second_text = "",
+		descrip = "可獲得戰鬥介面主題 寄葉協議*1",
+		subject = "寄葉協議主題禮包",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "此處不會被看到",
+		limit_group = 110,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 0,
+		tip = "",
+		tip_open = 0,
+		id_str = "",
+		extra_gem = 0,
+		id = 2085,
+		airijp_id = "",
+		name_display = "寄葉協議主題禮包",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				209,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				209,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[2086] = {
+		picture = "ui10",
+		name = "寄葉協議主題禮包（基礎版）",
+		type = 0,
+		second_text = "",
+		descrip = "可取得戰鬥介面主題寄葉協議*1,1000物資",
+		subject = "寄葉協議主題禮包（基礎版）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 110,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui30",
+		extra_gem = 0,
+		id = 2086,
+		airijp_id = "com.yostarjp.azurlane.ui27",
+		name_display = "寄葉協議主題禮包（基礎版）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40084,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[2087] = {
+		picture = "ui10",
+		name = "寄葉協議主題禮包（豪華版）",
+		type = 0,
+		second_text = "",
+		descrip = "可取得戰鬥介面主題寄葉協議*1,3060鑽石",
+		subject = "寄葉協議主題禮包（豪華版）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1320,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 110,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 5,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui31",
+		extra_gem = 0,
+		id = 2087,
+		airijp_id = "com.yostarjp.azurlane.ui28",
+		name_display = "寄葉協議主題禮包（豪華版）",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				209,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40085,
+				1
+			}
+		}
+	}
 	pg.base.pay_data_display[2088] = {
 		picture = "tech6_display",
 		name = "最高方案研發禮包（六期）",
@@ -10053,6 +10320,8 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2090] = {
 		picture = "tech6_normal",
 		name = "最高方案研發禮包（六期）標準版",
@@ -10275,8 +10544,6 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[4002] = {
 		picture = "lihe3_l",
 		name = "週年禮盒·I",
@@ -17144,7 +17411,7 @@ end)()
 		picture = "tech1_display",
 		name = "最高方案研發禮包（一期）",
 		type = 0,
-		second_text = "",
+		second_text = "+大量藍圖",
 		descrip = "可獲得最高方案快速研發券·一期*1，定向藍圖·一期*343",
 		subject = "最高方案研發禮包（一期）",
 		first_pay_double = 0,
@@ -17155,18 +17422,17 @@ end)()
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
-		first_icon = "",
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.hkmanjuu.azurlane.keyan",
+		id_str = "",
 		extra_gem = 0,
 		id = 4850,
-		airijp_id = "com.hkmanjuu.azurlane.keyan",
+		airijp_id = "",
 		name_display = "最高方案研發禮包一期",
-		first_text = "",
+		first_text = "快速研發",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -17188,11 +17454,6 @@ end)()
 		display = {
 			{
 				2,
-				40124,
-				1
-			},
-			{
-				2,
 				42000,
 				343
 			}
@@ -17205,7 +17466,14 @@ end)()
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40124,
+				1
+			}
+		}
 	}
 	pg.base.pay_data_display[4851] = {
 		picture = "tech1_promotion",
@@ -17222,7 +17490,7 @@ end)()
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 1,
@@ -17295,7 +17563,7 @@ end)()
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 2,
@@ -17358,7 +17626,7 @@ end)()
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 3,
@@ -17410,7 +17678,7 @@ end)()
 		picture = "tech2_display",
 		name = "最高方案研發禮包（二期）",
 		type = 0,
-		second_text = "",
+		second_text = "+大量藍圖",
 		descrip = "可獲得最高方案快速研發券·二期*1，定向藍圖·二期*343",
 		subject = "最高方案研發禮包（二期）",
 		first_pay_double = 0,
@@ -17421,18 +17689,17 @@ end)()
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
-		first_icon = "",
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.hkmanjuu.azurlane.keyan",
+		id_str = "",
 		extra_gem = 0,
 		id = 4854,
-		airijp_id = "com.hkmanjuu.azurlane.keyan",
+		airijp_id = "",
 		name_display = "最高方案研發禮包二期",
-		first_text = "",
+		first_text = "快速研發",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -17454,11 +17721,6 @@ end)()
 		display = {
 			{
 				2,
-				40125,
-				1
-			},
-			{
-				2,
 				42010,
 				343
 			}
@@ -17471,7 +17733,14 @@ end)()
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40125,
+				1
+			}
+		}
 	}
 	pg.base.pay_data_display[4855] = {
 		picture = "tech2_promotion",
@@ -17488,7 +17757,7 @@ end)()
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 1,
@@ -17561,7 +17830,7 @@ end)()
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 2,
@@ -17624,7 +17893,7 @@ end)()
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 3,
@@ -18123,7 +18392,7 @@ end)()
 		picture = "tech3_display",
 		name = "最高方案研發禮包（三期）",
 		type = 0,
-		second_text = "",
+		second_text = "+大量藍圖",
 		descrip = "可獲得最高方案快速研​​發券·三期*1、定向藍圖·三期*343",
 		subject = "最高方案研發禮包(三期)",
 		first_pay_double = 0,
@@ -18134,18 +18403,17 @@ end)()
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
-		first_icon = "",
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.hkmanjuu.azurlane.keyan",
+		id_str = "",
 		extra_gem = 0,
 		id = 4862,
-		airijp_id = "com.hkmanjuu.azurlane.keyan",
+		airijp_id = "",
 		name_display = "最高方案研發禮包三期",
-		first_text = "",
+		first_text = "快速研發",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -18167,11 +18435,6 @@ end)()
 		display = {
 			{
 				2,
-				40130,
-				1
-			},
-			{
-				2,
 				42020,
 				343
 			}
@@ -18184,7 +18447,14 @@ end)()
 				30
 			}
 		},
-		drop_item = {}
+		drop_item = {},
+		first_icon = {
+			{
+				2,
+				40130,
+				1
+			}
+		}
 	}
 	pg.base.pay_data_display[4863] = {
 		picture = "tech3_promotion",
@@ -18201,7 +18471,7 @@ end)()
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 1,
@@ -18274,7 +18544,7 @@ end)()
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 2,
@@ -18337,7 +18607,7 @@ end)()
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 0,
+		package_sort_id = 3,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 3,
@@ -20425,6 +20695,8 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[4924] = {
 		picture = "battlepass_1",
 		name = "特許巡遊憑證（二十五期）",
@@ -20680,8 +20952,91 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
-end)()
-(function ()
+	pg.base.pay_data_display[4927] = {
+		picture = "battlepass_1",
+		name = "特許巡遊憑證（二十八期）",
+		type = 0,
+		second_text = "解鎖特許巡遊獎勵",
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·曙光限定換裝和其他獎勵",
+		subject = "特許巡遊憑證",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 330,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 4,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass28",
+		extra_gem = 0,
+		id = 4927,
+		airijp_id = "com.hkmanjuu.azurlane.battlepass28",
+		name_display = "特許巡遊憑證",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4028,
+				1500
+			},
+			{
+				8,
+				65116,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			45927,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
 	pg.base.pay_data_display[5001] = {
 		picture = "pack_day1",
 		name = "特賣禮包I",

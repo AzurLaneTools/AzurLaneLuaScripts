@@ -99,7 +99,7 @@ pg.base.dorm3d_ins_language = {}
 		is_active = "0"
 	}
 	pg.base.dorm3d_ins_language.tianlangxing_1_2 = {
-		value = "這是學到了什麼新技能麼？",
+		value = "這是學到了什麼新技能嗎？",
 		key = "tianlangxing_1_2",
 		is_active = "0"
 	}
