@@ -100,6 +100,10 @@ pg.ship_meta_breakout.all = {
 	9702122,
 	9702123,
 	9702124,
+	9702131,
+	9702132,
+	9702133,
+	9702134,
 	9703011,
 	9703012,
 	9703013,
@@ -1769,6 +1773,71 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
+	pg.base.ship_meta_breakout[9702131] = {
+		breakout_view = "スキル【焔追の灰・ニュルンベルク】習得/武器補正+2%",
+		item2 = 21060,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9702132,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702131,
+		item1 = 21063,
+		level = 10,
+		weapon_ids = {
+			80671
+		}
+	}
+	pg.base.ship_meta_breakout[9702132] = {
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/武器補正+3％",
+		item2 = 21060,
+		pre_id = 9702131,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9702133,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702132,
+		item1 = 21063,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	}
+	pg.base.ship_meta_breakout[9702133] = {
+		breakout_view = "スキル【焔追の灰・ニュルンベルク】強化/武器補正+5%",
+		item2 = 21060,
+		pre_id = 9702132,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9702134,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9702133,
+		item1 = 21063,
+		level = 70,
+		weapon_ids = {
+			80672
+		}
+	}
+	pg.base.ship_meta_breakout[9702134] = {
+		breakout_view = "なし",
+		item2 = 21060,
+		pre_id = 9702133,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9702134,
+		item1 = 21063,
+		level = 0,
+		weapon_ids = {}
+	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9703011] = {
 		breakout_view = "【揺灯の力-トレント】習得/主砲補正+5%",
 		item2 = 21001,
@@ -1832,8 +1901,6 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9703021] = {
 		breakout_view = "【焔追の灰】スキル習得/主砲補正+5%",
 		item2 = 21001,
@@ -3421,6 +3488,8 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9706041] = {
 		breakout_view = "【湮滅の核・鳳翔】習得/戦闘機数+1/艦載機補正+3%",
 		item2 = 21001,
@@ -3490,8 +3559,6 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9706051] = {
 		breakout_view = "【焔追の灰-エルベ】習得/爆撃機数+1/戦闘機補正+5%",
 		item2 = 21001,

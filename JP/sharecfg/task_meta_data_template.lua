@@ -379,6 +379,11 @@ pg.task_meta_data_template.all = {
 	100573,
 	100574,
 	100575,
+	100581,
+	100582,
+	100583,
+	100584,
+	100585,
 	200001,
 	200002,
 	200003,
@@ -570,7 +575,11 @@ pg.task_meta_data_template.all = {
 	200481,
 	200482,
 	200483,
-	200484
+	200484,
+	200491,
+	200492,
+	200493,
+	200494
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3582,6 +3591,46 @@ end)()
 		target_num = 1,
 		desc = "ブリストル(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	}
+	pg.base.task_meta_data_template[100581] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970213",
+		id = 100581,
+		target_num = 1,
+		desc = "ニュルンベルク(META)を編成した艦隊で1回戦闘を勝利する"
+	}
+	pg.base.task_meta_data_template[100582] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970213",
+		id = 100582,
+		target_num = 1,
+		desc = "ニュルンベルク(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100583] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970213",
+		id = 100583,
+		target_num = 1,
+		desc = "ニュルンベルク(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100584] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970213",
+		id = 100584,
+		target_num = 1,
+		desc = "ニュルンベルク(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100585] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970213",
+		id = 100585,
+		target_num = 1,
+		desc = "ニュルンベルク(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	}
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3742,6 +3791,8 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊でLv100+の敵を撃破"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200061] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3782,8 +3833,6 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でU-556(META)を含めた艦隊で1回勝利する"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200072] = {
 		target_id = "70",
 		sub_type = 302,
@@ -4544,6 +4593,8 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でアンドレア・ドーリア(META)を含めた艦隊でLv100+の敵を撃破"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200311] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4584,8 +4635,6 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でネバダ(META)を含めた艦隊で1回勝利する"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200322] = {
 		target_id = "70",
 		sub_type = 302,
@@ -5121,5 +5170,37 @@ end)()
 		id = 200484,
 		target_num = 1,
 		desc = "セイレーン作戦でブリストル(META)を含めた艦隊でLv100+の敵を撃破"
+	}
+	pg.base.task_meta_data_template[200491] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970213",
+		id = 200491,
+		target_num = 1,
+		desc = "セイレーン作戦でニュルンベルク(META)を含めた艦隊で1回勝利する"
+	}
+	pg.base.task_meta_data_template[200492] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970213",
+		id = 200492,
+		target_num = 1,
+		desc = "セイレーン作戦でニュルンベルク(META)を含めた艦隊でLv70+の敵を撃破"
+	}
+	pg.base.task_meta_data_template[200493] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970213",
+		id = 200493,
+		target_num = 1,
+		desc = "セイレーン作戦でニュルンベルク(META)を含めた艦隊でLv90+の敵を撃破"
+	}
+	pg.base.task_meta_data_template[200494] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970213",
+		id = 200494,
+		target_num = 1,
+		desc = "セイレーン作戦でニュルンベルク(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 end)()

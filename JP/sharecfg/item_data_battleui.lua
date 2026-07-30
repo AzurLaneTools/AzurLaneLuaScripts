@@ -18,6 +18,7 @@ pg.item_data_battleui.all = {
 	113,
 	114,
 	115,
+	116,
 	201,
 	202,
 	203,
@@ -250,6 +251,21 @@ pg.base.item_data_battleui = {}
 		desc = "錆びついた機械の心臓が再び鼓動し、青いコアの余音が旧き文明の反響を響き渡らせる",
 		id = 115,
 		icon = "115",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[116] = {
+		name = "オールドロイヤル",
+		key = "SkinNormal_20260730",
+		display_icon = "ui_116",
+		unlock = "クルーズパス30期報酬",
+		is_unlock = 1,
+		rare = 3,
+		desc = "旧日の光と影が流転し、ロイヤルの優雅な余音が響き渡る。戦闘に一抹のクラシックとエレガンスを添えて",
+		id = 116,
+		icon = "116",
 		scene = {},
 		rare_display = {
 			1

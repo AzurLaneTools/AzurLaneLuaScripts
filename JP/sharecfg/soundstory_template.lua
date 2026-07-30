@@ -31,7 +31,8 @@ pg.soundstory_template.all = {
 	26,
 	27,
 	28,
-	29
+	29,
+	30
 }
 pg.base = pg.base or {}
 pg.base.soundstory_template = {}
@@ -156,6 +157,7 @@ pg.base.soundstory_template = {}
 		overview = "何もない昼下がり、人間さんことあなたにエムデンは最高のご褒美を授けようとしている…",
 		order = 2,
 		audition_text = "さぁ、体の力を抜いて？恥ずかしがることなどありませんわ.",
+		time = "always",
 		ship_id = 40207,
 		id = 5,
 		captions_color = "#7a524e",
@@ -169,33 +171,6 @@ pg.base.soundstory_template = {}
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.soundstory_template[6] = {
@@ -572,9 +547,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2024,
+					2026,
 					7,
-					25
+					30
 				},
 				{
 					12,
@@ -584,9 +559,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2024,
-					7,
-					31
+					2026,
+					8,
+					5
 				},
 				{
 					23,
@@ -1409,6 +1384,59 @@ pg.base.soundstory_template = {}
 					2026,
 					5,
 					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.soundstory_template[30] = {
+		story_pic = "",
+		name = "今夜の健康診断",
+		story_resource_JP = "soundStory30_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "鷲見友美ジェナ",
+		audition_resource_JP = "ss-40406-1",
+		overview = "残業の忙しさのあまり、母港の健康診断のタイミングを逃してしまった指揮官。\n夜、医務室のベッドに横たわり、自分で検査を始めようとしたその時、カーテンを開いたアルヴィトの姿が……",
+		order = 2,
+		audition_text = "あら…私の心拍数から答えを確かめたいの？",
+		ship_id = 40406,
+		id = 30,
+		captions_color = "#4c505b",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					5
 				},
 				{
 					23,

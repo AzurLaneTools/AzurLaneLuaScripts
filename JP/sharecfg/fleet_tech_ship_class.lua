@@ -362,6 +362,7 @@ pg.fleet_tech_ship_class.all = {
 	970210,
 	970211,
 	970212,
+	970213,
 	970301,
 	970302,
 	970303,
@@ -4706,6 +4707,17 @@ end)()
 		nation = 97,
 		ships = {
 			970212
+		}
+	}
+	pg.base.fleet_tech_ship_class[970213] = {
+		shiptype = 2,
+		name = "ニュルンベルク(META)",
+		t_level = 3,
+		id = 970213,
+		t_level_1 = 23,
+		nation = 97,
+		ships = {
+			970213
 		}
 	}
 	pg.base.fleet_tech_ship_class[970301] = {

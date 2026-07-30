@@ -272,13 +272,7 @@ slot0.UpdateBattle = function(slot0)
 				return
 			end
 
-			if not uv2 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_SP_error"))
-
-				return
-			end
-
-			uv3:emit(BossRushEscapeManorMediator.ON_FLEET_SELECT, uv1)
+			uv2:emit(BossRushEscapeManorMediator.ON_FLEET_SELECT, uv1)
 		end, SFX_PANEL)
 	end
 end

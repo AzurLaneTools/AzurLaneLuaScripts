@@ -1644,6 +1644,66 @@ _G.pg.base.weapon_property_2[61842] = {
 }
 
 
+_G.pg.base.weapon_property_2[61851] = {
+	torpedo_ammo = 0,
+	type = 2,
+	fire_fx = "CLFire",
+	recover_time = 0.5,
+	charge_param = "",
+	shakescreen = 0,
+	aim_type = 0,
+	action_index = "attack",
+	axis_angle = 0,
+	expose = 0,
+	angle = 360,
+	range = 50,
+	damage = 1,
+	corrected = 125,
+	min_range = 0,
+	id = 61851,
+	attack_attribute_ratio = 100,
+	fire_fx_loop_type = 1,
+	attack_attribute = 1,
+	reload_max = 400,
+	queue = 1,
+	search_type = 1,
+	effect_move = 0,
+	suppress = 0,
+	spawn_bound = "cannon",
+	fire_sfx = "battle/cannon-155mm",
+	auto_aftercast = 0,
+	initial_over_heat = 0,
+	bullet_ID = {
+		161077
+	},
+	barrage_ID = {
+		19001
+	},
+	oxy_type = {
+		1
+	},
+	search_condition = {
+		1
+	},
+	precast_param = {}
+}
+
+
+_G.pg.base.weapon_property_2[61852] = {
+	damage = 1,
+	base = 61851,
+	id = 61852,
+	bullet_ID = {
+		161077,
+		1803
+	},
+	barrage_ID = {
+		19002,
+		1423
+	}
+}
+
+
 _G.pg.base.weapon_property_2[65994] = {
 	torpedo_ammo = 0,
 	type = 1,
@@ -3487,6 +3547,109 @@ _G.pg.base.weapon_property_2[171082] = {
 		82391,
 		82392
 	}
+}
+
+
+_G.pg.base.weapon_property_2[171101] = {
+	torpedo_ammo = 0,
+	type = 2,
+	fire_fx = "CLFire",
+	recover_time = 0.5,
+	charge_param = "",
+	shakescreen = 0,
+	aim_type = 0,
+	action_index = "attack",
+	axis_angle = 0,
+	expose = 0,
+	angle = 360,
+	range = 50,
+	damage = 20,
+	corrected = 125,
+	min_range = 0,
+	id = 171101,
+	attack_attribute_ratio = 100,
+	fire_fx_loop_type = 1,
+	attack_attribute = 1,
+	reload_max = 400,
+	queue = 1,
+	search_type = 1,
+	effect_move = 0,
+	suppress = 0,
+	spawn_bound = "cannon",
+	fire_sfx = "battle/cannon-155mm",
+	auto_aftercast = 0,
+	initial_over_heat = 0,
+	bullet_ID = {
+		161077
+	},
+	barrage_ID = {
+		19001
+	},
+	oxy_type = {
+		1
+	},
+	search_condition = {
+		1
+	},
+	precast_param = {}
+}
+
+
+_G.pg.base.weapon_property_2[171102] = {
+	damage = 35,
+	base = 171101,
+	id = 171102,
+	bullet_ID = {
+		161077
+	},
+	barrage_ID = {
+		19002
+	}
+}
+
+
+_G.pg.base.weapon_property_2[171103] = {
+	torpedo_ammo = 0,
+	type = 3,
+	fire_fx = "CAFire",
+	recover_time = 0,
+	charge_param = "",
+	shakescreen = 0,
+	aim_type = 1,
+	action_index = "attack",
+	axis_angle = 0,
+	expose = 0,
+	angle = 120,
+	range = 90,
+	damage = 125,
+	corrected = 100,
+	min_range = 0,
+	id = 171103,
+	attack_attribute_ratio = 100,
+	fire_fx_loop_type = 1,
+	attack_attribute = 2,
+	reload_max = 400,
+	queue = 1,
+	search_type = 1,
+	effect_move = 0,
+	suppress = 0,
+	spawn_bound = "cannon",
+	fire_sfx = "battle/cannon-main",
+	auto_aftercast = 0,
+	initial_over_heat = 0,
+	bullet_ID = {
+		1803
+	},
+	barrage_ID = {
+		1423
+	},
+	oxy_type = {
+		1
+	},
+	search_condition = {
+		1
+	},
+	precast_param = {}
 }
 
 
@@ -10734,4 +10897,114 @@ _G.pg.base.weapon_property_2[184420] = {
 	id = 184420,
 	damage = 65,
 	base = 184411
+}
+
+
+_G.pg.base.weapon_property_2[184461] = {
+	torpedo_ammo = 0,
+	type = 1,
+	fire_fx = "CLFire",
+	recover_time = 0,
+	charge_param = "",
+	shakescreen = 0,
+	aim_type = 0,
+	action_index = "attack",
+	axis_angle = 0,
+	expose = 0,
+	angle = 360,
+	range = 200,
+	damage = 13,
+	corrected = 100,
+	min_range = 0,
+	id = 184461,
+	attack_attribute_ratio = 100,
+	fire_fx_loop_type = 3,
+	attack_attribute = 1,
+	reload_max = 3000,
+	queue = 1,
+	search_type = 1,
+	effect_move = 0,
+	suppress = 0,
+	spawn_bound = "cannon",
+	fire_sfx = "battle/cannon-155mm",
+	auto_aftercast = 0,
+	initial_over_heat = 0,
+	bullet_ID = {
+		161078,
+		161078
+	},
+	barrage_ID = {
+		82403,
+		82404
+	},
+	oxy_type = {
+		1
+	},
+	search_condition = {
+		1
+	},
+	precast_param = {}
+}
+
+
+_G.pg.base.weapon_property_2[184462] = {
+	id = 184462,
+	damage = 15,
+	base = 184461
+}
+
+
+_G.pg.base.weapon_property_2[184463] = {
+	id = 184463,
+	damage = 18,
+	base = 184461
+}
+
+
+_G.pg.base.weapon_property_2[184464] = {
+	id = 184464,
+	damage = 20,
+	base = 184461
+}
+
+
+_G.pg.base.weapon_property_2[184465] = {
+	id = 184465,
+	damage = 23,
+	base = 184461
+}
+
+
+_G.pg.base.weapon_property_2[184466] = {
+	id = 184466,
+	damage = 25,
+	base = 184461
+}
+
+
+_G.pg.base.weapon_property_2[184467] = {
+	id = 184467,
+	damage = 28,
+	base = 184461
+}
+
+
+_G.pg.base.weapon_property_2[184468] = {
+	id = 184468,
+	damage = 30,
+	base = 184461
+}
+
+
+_G.pg.base.weapon_property_2[184469] = {
+	id = 184469,
+	damage = 33,
+	base = 184461
+}
+
+
+_G.pg.base.weapon_property_2[184470] = {
+	id = 184470,
+	damage = 35,
+	base = 184461
 }

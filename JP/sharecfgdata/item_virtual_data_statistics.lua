@@ -175079,6 +175079,32 @@ _G.pg.base.item_virtual_data_statistics[65117] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65118] = {
+	drop_gold_max = 0,
+	name = "進捗Pt",
+	display = "キャンペーン「シーズン任務」で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7030,
+	album_config = "",
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65118,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "レジスタンス記念勲章",

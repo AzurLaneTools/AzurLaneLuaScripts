@@ -72,6 +72,10 @@ slot0.OnCanPlace = function(slot0)
 end
 
 slot0.OnReset = function(slot0, slot1)
+	if not slot0.furnitureSpineStateAnimUI then
+		return
+	end
+
 	if slot0.furnitureSpineStateSkeletonGraphic.material ~= slot0.selectedMat then
 		slot0.furnitureSpineStateSkeletonGraphic.material = slot0.selectedMat
 

@@ -30322,6 +30322,127 @@ _G.pg.base.ship_skin_template[103091] = {
 }
 
 
+_G.pg.base.ship_skin_template[103092] = {
+	name = "断れない自習タイム",
+	change_skin = "",
+	desc = "指揮官、どうしてまだ教室に…？どこか分からないところでもありましたか…？私で良ければ自習を手伝いましょうか？",
+	illustrator2 = -1,
+	ship_group = 10309,
+	group_index = 2,
+	purchase_offset = "",
+	painting = "kunxi_4",
+	lover_hand = "hand_1_02",
+	skin_type = 0,
+	shop_type_id = 4,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "519",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 103092,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "kunxi_4",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 144,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.992,
+				0.766,
+				0
+			}
+		},
+		vicegun = {
+			{
+				0.811,
+				0.676,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.658,
+				2.29,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.611,
+						2.447,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
 _G.pg.base.ship_skin_template[103100] = {
 	name = "ヴィンセンス",
 	change_skin = "",
@@ -316051,6 +316172,132 @@ _G.pg.base.ship_skin_template[9702120] = {
 			{
 				0.723,
 				2.332,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.639,
+						2.398,
+						-0.18
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9702130] = {
+	name = "ニュルンベルク(META)",
+	change_skin = "",
+	desc = "神聖総連帝国所属、宝物庫管理人ニュルンベルク、これより正式に指揮官の麾下になります。艦隊の運営事務など、全力で手伝わせていただきます。…宝物庫に興味があるならまずは見学申請を出しなさい。最低限のルールですからねっ",
+	illustrator2 = -1,
+	ship_group = 970213,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "niulunbao_alter",
+	lover_hand = "",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 9702130,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "niulunbao_alter",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 258,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = 1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.028,
+				1.074,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.333,
+				2.883,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.642,
+				2.224,
 				0
 			}
 		}
