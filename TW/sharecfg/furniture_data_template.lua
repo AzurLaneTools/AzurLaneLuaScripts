@@ -168620,7 +168620,7 @@ end)()
 		belong = 1,
 		canputon = 0,
 		count = 1,
-		name = "寄葉製式單人床鋪",
+		name = "寄葉制式單人床鋪",
 		advice = 0,
 		id = 340101,
 		tag = 1,

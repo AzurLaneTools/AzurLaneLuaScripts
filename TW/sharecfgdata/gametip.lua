@@ -4643,10 +4643,10 @@ _G.pg.base.gametip.levelScene_remaster_help_tip = {
 			info = "作戰檔案說明\n作戰檔案系統是通過研究特殊作戰檔案，進行模擬作戰的系統以往的特殊作戰的攻略進度不會被繼承，需重新攻略"
 		},
 		{
-			info = " \n1. 司令部每日能夠提供四份<color=#92fc63>檔案密鑰</color>，請在檔案選擇介面中領取"
+			info = " \n1. 司令部每日能夠提供20份<color=#92fc63>檔案密鑰</color>，請在檔案選擇介面中領取"
 		},
 		{
-			info = "2.<color=#92fc63>檔案密鑰</color>儲存上限為60份，領取超過儲存上限的<color=#92fc63>檔案密鑰</color>將自動消失"
+			info = "2.<color=#92fc63>檔案密鑰</color>儲存上限為300份，領取超過儲存上限的<color=#92fc63>檔案密鑰</color>將自動消失"
 		},
 		{
 			info = "3.通過消耗<color=# 92fc63>檔案密鑰</color>，可以解鎖當前選擇的特殊作戰關卡一次的開放權"
@@ -42925,7 +42925,7 @@ _G.pg.base.gametip.nier_a2_mission_unlock_desc = {
 
 
 _G.pg.base.gametip.nier_a2_mission_detail = {
-	tip = "看詳情"
+	tip = "查看詳情"
 }
 
 
@@ -42970,7 +42970,7 @@ _G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_5 = {
 
 
 _G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_4 = {
-	tip = "挑戰關"
+	tip = "挑戰關卡"
 }
 
 
