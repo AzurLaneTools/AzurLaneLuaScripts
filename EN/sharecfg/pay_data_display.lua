@@ -193,6 +193,7 @@ pg.pay_data_display.all = {
 	1026,
 	1027,
 	1028,
+	1029,
 	1301,
 	2001,
 	2002,
@@ -22286,6 +22287,91 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+	pg.base.pay_data_display[1029] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2026.8)",
+		type = 0,
+		second_text = "Unlock Special Rewards",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.passport33",
+		extra_gem = 0,
+		id = 1029,
+		airijp_id = "com.yostaren.azurlane.passport33",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4030,
+				1500
+			},
+			{
+				8,
+				65118,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7030,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
 	pg.base.pay_data_display[1301] = {
 		picture = "battlepass_blackfriday_1",
 		name = "Black Friday Cruise Pass",
@@ -22999,6 +23085,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2010] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",
@@ -23117,8 +23205,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2011] = {
 		picture = "boxSkill",
 		name = "Skill Book Pack",

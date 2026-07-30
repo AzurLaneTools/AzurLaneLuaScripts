@@ -16667,6 +16667,37 @@ _G.pg.base.item_data_statistics[21062] = {
 }
 
 
+_G.pg.base.item_data_statistics[21063] = {
+	open_directly = 0,
+	name = "META Crystal – Nürnberg META",
+	type = 4,
+	display = "An item that increases the potential of Nürnberg META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21063",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21063,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -31828,6 +31859,58 @@ _G.pg.base.item_data_statistics[30435] = {
 		{
 			9,
 			2124,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30436] = {
+	open_directly = 1,
+	name = "Random Gear Skin Box",
+	type = 11,
+	display = "Contains 1 random Cruise Mission gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111230",
+	id = 30436,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2125,
+			1
+		},
+		{
+			9,
+			2126,
+			1
+		},
+		{
+			9,
+			2127,
+			1
+		},
+		{
+			9,
+			2128,
 			1
 		}
 	},

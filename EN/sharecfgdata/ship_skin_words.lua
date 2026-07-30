@@ -9700,6 +9700,43 @@ _G.pg.base.ship_skin_words[103091] = {
 }
 
 
+_G.pg.base.ship_skin_words[103092] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Oh, Commander. You look happy about something... May I know what it is? Oh, you're happy that I'm here...? You're making me blush...",
+	unlock = "Commander, why are you still in the classroom? Was there something you didn't understand? If you don't mind, I could be your tutor for a while.",
+	touch2 = "C-Commander, this is a classroom... It's too embarrassing...",
+	mission = "",
+	vote = "",
+	drop_descrip = "Commander, why are you still in the classroom? Was there something you didn't understand? If you don't mind, I could be your tutor for a while.",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "I wanted to help you study, but you've already mastered all of this... I'll have to work hard to keep up with you and find a way to help!",
+	main = "What kind of music do you listen to, Commander? May I listen through the headphones? Ah... (They're still warm...)|Umm, which part did you need help with? Oh... You did it better than I did? Then why are you still here? Is it... because you wanted to be with me?|The sunlight feels nice, doesn't it? Hmm? You want to go for a walk on the track? O-okay!",
+	touch = "Do you have any questions? I'm happy to answer anything I can.",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 103092,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "",
+	feeling2 = "",
+	login = "Good morning. It's my turn on duty today... Is there anything I can help you with?",
+	detail = "You think this uniform looks good on me? Th-thank you... But it's a little embarrassing when you stare.",
+	couple_encourage = {}
+}
+
+
 _G.pg.base.ship_skin_words[103100] = {
 	hp_warning = "I... I can still keep fighting! Probably...",
 	feeling3 = "Commander... you're sure nice to everyone...",
@@ -91789,6 +91826,43 @@ _G.pg.base.ship_skin_words[9702120] = {
 	feeling2 = "You'd like to get closer to me? Very well. But first, you'll have to prove that you are worthy of my training~",
 	login = "Commander, how are you faring today? Whatever the case, my equipment and I will ensure that you are in top condition.",
 	detail = "Hm? Interested in my little inventions? ...Perhaps, they'll be able to further your growth~",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[9702130] = {
+	hp_warning = "Blade of mine, we must fight once more!",
+	feeling3 = "Commander, if you're interested in any item in the treasury, I can give you a brief overview of its history.",
+	mail = "Commander, you have new mail. Do tell me if any of it concerns the treasury.",
+	expedition = "The commission team's work is done. I wonder if they've found new treasure...",
+	win_mvp = "Those who covet treasure, this is your end.",
+	home = "Thank you for your hard work, Commander. I've sorted out your post-mission affairs already, so go ahead and rest. And don't worry about the treasury – all is well.",
+	unlock = "Nürnberg, keeper of the treasury for the Holy Unitas Empire, at your service. From this point forth, I will devote myself to assisting you with fleet affairs. If you are curious about the treasury, please submit a formal request. That's a basic rule, after all.",
+	touch2 = "Eeeek! C-Commander! S-such contact defies all official regulations! My sword is... No! I-I mean... P-please be more dignified!",
+	mission = "Commander, you have new work orders. I'm here to assist you if you need resources coordinated or materials examined.",
+	vote = "",
+	drop_descrip = "Nürnberg, keeper of the treasury for the Holy Unitas Empire, at your service. From this point forth, I will devote myself to assisting you with fleet affairs. If you are curious about the treasury, please submit a formal request. That's a basic rule, after all.",
+	feeling4 = "Lately, whenever I'm taking care of the treasure, I find myself wishing you were there. I suppose... I wouldn't mind chatting about things other than work once in a while...",
+	lose = "A-as long as the treasury is safe...",
+	feeling1 = "If you cannot fulfill even your own duties, then how can I expect you to understand the importance of guarding the treasury?",
+	skill = "Fall by my blade!",
+	upgrade = "Now I can protect the treasury even better... and serve you more competently, of course.",
+	propose = "On my status as a noblewoman and keeper of the treasury, I hereby pledge my loyalty and my future to you. I shall cherish this ring for the rest of my days, just like the treasure I am sworn to protect... B-but of course! You're more important than any treasure, Commander! Urk... Why am I comparing you now?",
+	feeling5 = "Commander, I think I've figured out the primary difference between you and the treasure I protect. Unlike items with storied pasts, I want to write a new future with you... Urk! This is far too embarrassing!",
+	main = "Commander, would you like to help me do inventory? You'll get a closer look at how valuable the things I'm guarding are... Is my sword one such example? But of course.|You mustn't be lax when it comes to port affairs. Plan your deployments just as carefully as I protect the treasury. Any hasty decision could be disastrous.|After guarding the treasury for so many years, I've cultivated a sense of responsibility. Protecting treasure is, in a sense, protecting history itself... Oh. There I go getting carried away again, huh?",
+	touch = "The place where you've put your hand... D-did you notice something that I missed? Or... Just, why did you put it there?!",
+	voice_key_2 = -1,
+	mission_complete = "Another successful mission, I trust. Now I can handle port affairs and treasury inspections with ease.",
+	battle = "I mustn't let the treasure fall into your hands!",
+	id = 9702130,
+	gift_dislike = "",
+	gift_prefer = "What a wonderful gift! May I deposit it in the treasury?",
+	profile = "I am Nürnberg, a noblewoman of the Holy Unitas Empire and guardian of the treasury. Every treasure there requires utmost care. I take great pride in my duty.",
+	voice_key = 970213,
+	headtouch = "Ah?! H-how sudden... Even if you want me to relax, there are surely other methods!",
+	feeling2 = "I will fully cooperate with you in all official duties, Commander. Let's build an efficient and professional relationship together.",
+	login = "Welcome back, Commander. I've finished inspecting the treasury, so I am now free to help you handle your affairs.",
+	detail = "Hm? Are you curious about the treasury's contents? I'm happy to tell you about them, but you mustn't touch a thing. That's the most basic rule of the treasury!",
 	couple_encourage = {}
 }
 

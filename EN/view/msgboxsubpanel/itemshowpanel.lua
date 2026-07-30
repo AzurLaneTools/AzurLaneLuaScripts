@@ -1,15 +1,4 @@
 slot0 = class("ItemShowPanel", import(".MsgboxSubPanel"))
-slot0.ConfigData = {
-	tip_new = "equipment_info_change_text_after",
-	isOpen = true,
-	title = "equipment_info_change_tip",
-	icon_new = "equips/50860",
-	icon_old = "equips/50860",
-	name_new = "equipment_info_change_name_b",
-	tip_old = "equipment_info_change_text_before",
-	equipID = 908601,
-	name_old = "equipment_info_change_name_a"
-}
 
 slot0.getUIName = function(slot0)
 	return "ItemChangeNoticeBox"
@@ -19,14 +8,15 @@ slot0.UpdateView = function(slot0, slot1)
 	slot0:PreRefresh(slot1)
 
 	rtf(slot0.viewParent._window).sizeDelta = Vector2.New(1000, 638)
+	slot9 = slot1.configData
 
-	setText(slot0._tf:Find("title"), i18n(uv0.ConfigData.title))
-	setText(slot0._tf:Find("name_origin"), i18n(uv0.ConfigData.name_old))
-	setText(slot0._tf:Find("name_now"), i18n(uv0.ConfigData.name_new))
-	setText(slot0._tf:Find("before/Text"), i18n(uv0.ConfigData.tip_old))
-	setText(slot0._tf:Find("after/Text"), i18n(uv0.ConfigData.tip_new))
-	setImageSprite(slot0._tf:Find("icon_origin"), LoadSprite(uv0.ConfigData.icon_old))
-	setImageSprite(slot0._tf:Find("icon_now"), LoadSprite(uv0.ConfigData.icon_new))
+	setText(slot0._tf:Find("title"), i18n(slot9.title))
+	setText(slot0._tf:Find("name_origin"), i18n(slot9.name_old))
+	setText(slot0._tf:Find("name_now"), i18n(slot9.name_new))
+	setText(slot0._tf:Find("before/Text"), i18n(slot9.tip_old))
+	setText(slot0._tf:Find("after/Text"), i18n(slot9.tip_new))
+	setImageSprite(slot0._tf:Find("icon_origin"), LoadSprite(slot9.icon_old))
+	setImageSprite(slot0._tf:Find("icon_now"), LoadSprite(slot9.icon_new))
 	slot0:PostRefresh(slot1)
 end
 

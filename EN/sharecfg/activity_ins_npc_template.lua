@@ -121998,7 +121998,7 @@ end)()
 		npc_reply_persist = {}
 	}
 	pg.base.activity_ins_npc_template[7344] = {
-		ship_group = 40311,
+		ship_group = 20307,
 		message_persist = "",
 		id = 7344,
 		time_persist = {},

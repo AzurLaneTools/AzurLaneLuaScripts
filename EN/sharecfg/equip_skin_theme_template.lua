@@ -96,6 +96,7 @@ pg.equip_skin_theme_template.all = {
 	107,
 	108,
 	109,
+	110,
 	199
 }
 pg.base = pg.base or {}
@@ -2178,6 +2179,16 @@ pg.base.equip_skin_theme_template = {}
 			2122,
 			2123,
 			2124
+		}
+	}
+	pg.base.equip_skin_theme_template[110] = {
+		id = 110,
+		name = "Slice of Epoch",
+		ids = {
+			2125,
+			2126,
+			2127,
+			2128
 		}
 	}
 	pg.base.equip_skin_theme_template[199] = {

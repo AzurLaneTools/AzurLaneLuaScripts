@@ -1254,6 +1254,7 @@ pg.activity_template.all = {
 	7027,
 	7028,
 	7029,
+	7030,
 	7101,
 	7103,
 	7104,
@@ -3605,7 +3606,8 @@ pg.activity_template.get_id_list_by_type = {
 		7026,
 		7027,
 		7028,
-		7029
+		7029,
+		7030
 	},
 	[55] = {
 		5010,
@@ -63105,6 +63107,59 @@ end)()
 			ui_name = "CrusingDisplayActPage29"
 		}
 	}
+	pg.base.activity_template[7030] = {
+		mark = 20260730,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 7030,
+		page_core = "",
+		config_data = {
+			290,
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage2",
+			ui_name = "CrusingDisplayActPage30"
+		}
+	}
 	pg.base.activity_template[7101] = {
 		mark = 20230511,
 		type = 101,
@@ -63246,7 +63301,9 @@ end)()
 			12045,
 			12046,
 			12047,
-			12048
+			12048,
+			12049,
+			12050
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
@@ -65951,6 +66008,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1109] = {
 		mark = 20251204,
 		page_info = "",
@@ -66067,8 +66126,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[1110] = {
 		mark = 20251204,
 		page_info = "",
@@ -69976,6 +70033,8 @@ end)()
 			rank_act_id = 30054
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30056] = {
 		mark = 20190110,
 		page_info = "",
@@ -70027,8 +70086,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30057] = {
 		mark = 20190110,
 		page_info = "",
@@ -72987,6 +73044,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30158] = {
 		mark = 20190627,
 		page_info = "",
@@ -73008,8 +73067,6 @@ end)()
 			10
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30159] = {
 		mark = 20190627,
 		page_info = "",
@@ -75702,6 +75759,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30265] = {
 		mark = 20191114,
 		time = "stop",
@@ -75719,8 +75778,6 @@ end)()
 			ui_name = "pockypage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30266] = {
 		mark = 20191114,
 		page_info = "",
@@ -78563,6 +78620,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30365] = {
 		mark = 20200326,
 		page_info = "",
@@ -78589,8 +78648,6 @@ end)()
 			15510
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30366] = {
 		mark = 20200319,
 		page_info = "",
@@ -81231,6 +81288,8 @@ end)()
 		id = 30464,
 		page_core = ""
 	}
+end)()
+(function ()
 	pg.base.activity_template[30465] = {
 		mark = 20200806,
 		page_info = "",
@@ -81284,8 +81343,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30466] = {
 		mark = 20200806,
 		page_info = "",
@@ -83596,6 +83653,8 @@ end)()
 			16056
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30719] = {
 		mark = 20200917,
 		page_info = "",
@@ -83612,8 +83671,6 @@ end)()
 			16057
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30720] = {
 		mark = 20200917,
 		page_info = "",
@@ -89573,6 +89630,8 @@ end)()
 			ui_name = "returnawardpage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30894] = {
 		mark = 20250814,
 		type = 3,
@@ -89616,8 +89675,6 @@ end)()
 			ui_name = "AnniversaryUSSevenLoginPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30895] = {
 		mark = 20250814,
 		page_info = "",

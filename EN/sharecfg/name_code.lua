@@ -448,6 +448,7 @@ pg.name_code.all = {
 	564,
 	565,
 	566,
+	567,
 	10000,
 	10001,
 	10002,
@@ -3582,6 +3583,13 @@ end)()
 		type = 1,
 		id = 566,
 		code = "Ancient Dragon of Steel, Immortal Monarch of the Welkin",
+		nation = 0
+	}
+	pg.base.name_code[567] = {
+		name = "Nürnberg META",
+		type = 1,
+		id = 567,
+		code = "Nürnberg META",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {

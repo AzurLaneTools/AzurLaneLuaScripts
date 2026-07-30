@@ -165,10 +165,6 @@ slot0.IsAllStoriesPlayed = function(slot0)
 			if slot12 and slot12 > 0 and not slot4[slot12] then
 				return false
 			end
-
-			if slot13 and slot13 > 0 and not slot4[slot13] then
-				return false
-			end
 		end
 	end
 

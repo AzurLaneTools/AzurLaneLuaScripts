@@ -427521,9 +427521,9 @@ _G.pg.base.ship_data_statistics[900944] = {
 	},
 	fix_equip_list = {},
 	default_equip_list = {
-		44210,
-		42250,
-		46410
+		24430,
+		21610,
+		26370
 	},
 	depth_charge_list = {},
 	base_list = {
@@ -427670,7 +427670,7 @@ _G.pg.base.ship_data_statistics[900945] = {
 	},
 	preload_count = {
 		0,
-		0,
+		2,
 		0
 	},
 	equipment_proficiency = {
@@ -453085,6 +453085,530 @@ _G.pg.base.ship_data_statistics[9702124] = {
 	gift_dislike = {
 		180009,
 		180005
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9702131] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "Nürnberg META",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9702131,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nürnberg.META",
+	oxy_cost = 0,
+	skin_id = 9702130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		696,
+		33,
+		61,
+		79,
+		0,
+		72,
+		0,
+		43,
+		21,
+		32,
+		80,
+		29
+	},
+	attrs_growth = {
+		11988,
+		450,
+		805,
+		967,
+		0,
+		502,
+		0,
+		631,
+		433,
+		0,
+		0,
+		406
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		231
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.6,
+		1.2,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {},
+	gift_dislike = {
+		180005,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9702132] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "Nürnberg META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9702132,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nürnberg.META",
+	oxy_cost = 0,
+	skin_id = 9702130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		866,
+		41,
+		76,
+		98,
+		0,
+		72,
+		0,
+		43,
+		21,
+		32,
+		80,
+		36
+	},
+	attrs_growth = {
+		11988,
+		450,
+		805,
+		967,
+		0,
+		502,
+		0,
+		631,
+		433,
+		0,
+		0,
+		406
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		232
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.17,
+		1.62,
+		1.22,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {},
+	gift_dislike = {
+		180005,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9702133] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "Nürnberg META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9702133,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nürnberg.META",
+	oxy_cost = 0,
+	skin_id = 9702130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1206,
+		57,
+		106,
+		137,
+		0,
+		72,
+		0,
+		43,
+		21,
+		32,
+		80,
+		50
+	},
+	attrs_growth = {
+		11988,
+		450,
+		805,
+		967,
+		0,
+		502,
+		0,
+		631,
+		433,
+		0,
+		0,
+		406
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		233
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.65,
+		1.25,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {},
+	gift_dislike = {
+		180005,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9702134] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "Nürnberg META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9702134,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nürnberg.META",
+	oxy_cost = 0,
+	skin_id = 9702130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1715,
+		81,
+		152,
+		195,
+		0,
+		72,
+		0,
+		43,
+		21,
+		32,
+		80,
+		72
+	},
+	attrs_growth = {
+		11988,
+		450,
+		805,
+		967,
+		0,
+		502,
+		0,
+		631,
+		433,
+		0,
+		0,
+		406
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		234
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.7,
+		1.3,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {},
+	gift_dislike = {
+		180005,
+		180009
 	}
 }
 

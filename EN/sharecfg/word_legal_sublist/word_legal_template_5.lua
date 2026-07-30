@@ -448,7 +448,18 @@ temp = function()
 		},
 		["伦"] = {
 			["堡"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}

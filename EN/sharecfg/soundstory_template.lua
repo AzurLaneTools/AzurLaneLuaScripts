@@ -31,7 +31,8 @@ pg.soundstory_template.all = {
 	26,
 	27,
 	28,
-	29
+	29,
+	30
 }
 pg.base = pg.base or {}
 pg.base.soundstory_template = {}
@@ -156,6 +157,7 @@ pg.base.soundstory_template = {}
 		overview = "It's a dull afternoon. Emden has come, offering you a reward almost too good for a mere human.",
 		order = 2,
 		audition_text = "Relax, now. There is nothing you have to be embarrassed of.",
+		time = "always",
 		ship_id = 40207,
 		id = 5,
 		captions_color = "#7a524e",
@@ -169,33 +171,6 @@ pg.base.soundstory_template = {}
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					11,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.soundstory_template[6] = {
@@ -572,9 +547,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
-					11,
-					13
+					2026,
+					7,
+					30
 				},
 				{
 					0,
@@ -584,9 +559,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
-					12,
-					3
+					2026,
+					8,
+					5
 				},
 				{
 					23,
@@ -1409,6 +1384,59 @@ pg.base.soundstory_template = {}
 					2026,
 					5,
 					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.soundstory_template[30] = {
+		story_pic = "",
+		name = "Tonight's Checkup",
+		story_resource_JP = "soundStory30_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Tomomi Jiena Sumi",
+		audition_resource_JP = "ss-40406-1",
+		overview = "Due to the sheer stress of overwork, the Commander has missed a regularly-scheduled checkup at the port.\nThat night, as the Commander lies on the infirmary bed, about to perform a self-examination, Alvitr suddenly emerges from behind the curtains...",
+		order = 2,
+		audition_text = "Oh my... You'd like to find the answer yourself, from my heartbeat?",
+		ship_id = 40406,
+		id = 30,
+		captions_color = "#4c505b",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					5
 				},
 				{
 					23,

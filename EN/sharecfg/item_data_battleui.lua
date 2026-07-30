@@ -18,6 +18,7 @@ pg.item_data_battleui.all = {
 	113,
 	114,
 	115,
+	116,
 	201,
 	202,
 	203,
@@ -250,6 +251,21 @@ pg.base.item_data_battleui = {}
 		desc = "A rusty, mechanical heart beats anew, reverberating with the souls of ancient civilizations.",
 		id = 115,
 		icon = "115",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[116] = {
+		name = "Olde Royal",
+		key = "SkinNormal_20260730",
+		display_icon = "ui_116",
+		unlock = "Cruise Missions S30",
+		is_unlock = 1,
+		rare = 3,
+		desc = "Light and shadow from a bygone era flow, the elegant tones of nobility in resonance. Brings a touch of grace and class to your battle.",
+		id = 116,
+		icon = "116",
 		scene = {},
 		rare_display = {
 			1

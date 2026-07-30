@@ -79,7 +79,18 @@ temp = function()
 			}
 		},
 		["菈"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		},
 		["瓦"] = {
 			["露"] = {

@@ -322,6 +322,8 @@ slot0.InitSwitch = function()
 			return slot1
 		end,
 		[DROP_TYPE_EQUIPMENT_SKIN] = function (slot0)
+			warning(slot0.id)
+
 			slot1 = pg.equip_skin_template[slot0.id]
 			slot0.desc = slot1.desc
 

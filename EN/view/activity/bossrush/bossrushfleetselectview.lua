@@ -82,6 +82,20 @@ slot0.didEnter = function(slot0)
 			return
 		end
 
+		slot2 = true
+
+		if uv1:GetType() == BossRushSeriesData.TYPE.SP then
+			slot3 = getProxy(ActivityProxy):getActivityById(uv1.actId)
+
+			if not (uv1:GetMaxBonusCount() - (slot3:GetUsedBonus()[table.getIndex(slot3:GetActiveSeriesIds(), function (slot0)
+				return slot0 == uv0.id
+			end)] or 0) > 0) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_SP_error"))
+
+				return
+			end
+		end
+
 		uv0:emit(BossRushFleetSelectMediator.ON_PRECOMBAT)
 	end, SFX_UI_WEIGHANCHOR_GO)
 	onButton(slot0, slot0.sonarRangeContainer, function ()
