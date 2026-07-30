@@ -1401,7 +1401,7 @@ pg.base.soundstory_template = {}
 		audition_resource_CN = "",
 		CV_JP = "Tomomi Jiena Sumi",
 		audition_resource_JP = "ss-40406-1",
-		overview = "Due to the sheer stress of overwork, the Commander has missed a regularly-scheduled checkup at the port.\nThat night, as the Commander lies on the infirmary bed, about to perform a self-examination, Alvitr suddenly emerges from behind the curtains...",
+		overview = "<size=27>Due to the sheer stress of overwork, the Commander has missed a regularly-scheduled checkup at the port.\nThat night, as the Commander lies on the infirmary bed, about to perform a self-examination, Alvitr suddenly emerges from behind the curtains...</size>",
 		order = 2,
 		audition_text = "Oh my... You'd like to find the answer yourself, from my heartbeat?",
 		ship_id = 40406,
