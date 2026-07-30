@@ -40,14 +40,19 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
 	end)
 
-	slot1 = getProxy(ActivityProxy)
+	slot1 = slot0.contextData.activityID
+
+	assert(slot1, "activityID is required by BossRushVerZenkerMediator")
+
+	slot2 = getProxy(ActivityProxy)
 	slot3 = slot0.viewComponent
 
-	slot3:SetActivity(slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH))
+	slot3:SetActivity(slot2:getActivityById(slot1))
 
+	slot3 = getProxy(ActivityProxy)
 	slot4 = slot0.viewComponent
 
-	slot4:SetPtActivity(slot1:getActivityById(ActivityConst.ESCAPE_BOSS_RUSH_PT_ID))
+	slot4:SetPtActivity(slot3:getActivityById(ActivityConst.ESCAPE_BOSS_RUSH_PT_ID))
 
 	slot4 = slot0.viewComponent
 
