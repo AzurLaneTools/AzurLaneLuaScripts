@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_furniture1_tone4/drom3d_aegir_ik_furniture1_tone4",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "尽管使出浑身解数吧，我很期待你能做到哪一步，呵呵~",
+			say = "전력으로 덤벼 봐. 네가 어디까지 할 수 있는지 기대되네. 후후~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

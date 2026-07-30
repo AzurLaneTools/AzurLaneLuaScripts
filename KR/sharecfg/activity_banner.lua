@@ -77,7 +77,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					16
+					30
 				},
 				{
 					0,
@@ -88,8 +88,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					7,
-					29
+					8,
+					12
 				},
 				{
 					23,
@@ -114,7 +114,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					16
+					30
 				},
 				{
 					0,
@@ -125,8 +125,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					7,
-					30
+					8,
+					13
 				},
 				{
 					12,
@@ -151,7 +151,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					16
+					30
 				},
 				{
 					0,
@@ -162,8 +162,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					7,
-					29
+					8,
+					12
 				},
 				{
 					23,
@@ -185,7 +185,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					16
+					30
 				},
 				{
 					0,
@@ -196,8 +196,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					7,
-					29
+					8,
+					12
 				},
 				{
 					23,
@@ -223,7 +223,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					16
+					30
 				},
 				{
 					0,
@@ -234,8 +234,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					7,
-					23
+					8,
+					6
 				},
 				{
 					12,
@@ -259,35 +259,10 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[7] = {
 		param = "51063",
+		time = "stop",
 		type = 3,
 		id = 7,
-		pic = "temp7",
-		time = {
-			{
-				{
-					2026,
-					7,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					7,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp7"
 	}
 	pg.base.activity_banner[8] = {
 		time = "stop",
@@ -314,7 +289,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					7,
-					16
+					30
 				},
 				{
 					0,
@@ -325,8 +300,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					7,
-					23
+					8,
+					6
 				},
 				{
 					12,

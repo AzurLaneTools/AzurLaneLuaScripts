@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_furniture2_tone2/drom3d_aegir_ik_furniture2_tone2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……等着吧，这就把你吞掉！",
+			say = "……각오해, 당장 삼켜주겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

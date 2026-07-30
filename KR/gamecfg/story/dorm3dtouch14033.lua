@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_gfit3_tone1/drom3d_aegir_ik_gfit3_tone1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "继续下去的话……你猜谁会先撑不住呢？",
+			say = "이대로 계속하면……누가 먼저 항복할 것 같아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

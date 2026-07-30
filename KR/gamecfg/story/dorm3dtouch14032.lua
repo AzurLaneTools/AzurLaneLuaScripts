@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_aegir_ik_furniture1_tone7/drom3d_aegir_ik_furniture1_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "总在边缘游走……通常都没什么好下场哦？",
+			say = "그렇게 자꾸 아슬아슬한 데서 멈추면…… 좋은 꼴 못 본다?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
