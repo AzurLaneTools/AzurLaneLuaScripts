@@ -752,6 +752,188 @@ _G.pg.base.bullet_template_2[161076] = {
 }
 
 
+_G.pg.base.bullet_template_2[161077] = {
+	range_offset = 10,
+	modle_ID = "shenyuanbullet14",
+	type = 1,
+	velocity = 3,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "ShellMiss",
+	miss_sfx = "battle/sink",
+	alert_fx = "",
+	hit_fx = "pofang",
+	range = 80,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 161077,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {
+		{
+			u = 0.1,
+			flip = false,
+			v = 0,
+			t = 0
+		}
+	},
+	cld_box = {
+		6,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
+_G.pg.base.bullet_template_2[161078] = {
+	range_offset = 0,
+	modle_ID = "shenyuanbullet14",
+	type = 5,
+	velocity = 15,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "Clhit",
+	range = 10,
+	effect_type = 1,
+	pierce_count = 99,
+	ammo_type = 1,
+	id = 161078,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		6,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.5,
+		shrapnel = {
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 161079,
+				reaim = true,
+				barrage_ID = 81111
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_2[161079] = {
+	range_offset = 0,
+	modle_ID = "shenyuanbullet14",
+	type = 1,
+	velocity = 15,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "battle/hit",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "Clhit",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 161079,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		6,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
+
 _G.pg.base.bullet_template_2[164099] = {
 	range_offset = 10,
 	modle_ID = "BulletJP",

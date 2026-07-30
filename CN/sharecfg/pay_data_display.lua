@@ -147,6 +147,7 @@ pg.pay_data_display.all = {
 	1026,
 	1027,
 	1028,
+	1029,
 	1302,
 	2001,
 	2002,
@@ -16562,6 +16563,91 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+	pg.base.pay_data_display[1029] = {
+		picture = "battlepass_1",
+		name = "特许巡游凭证(2026.8)",
+		type = 0,
+		second_text = "",
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·昆西限定换装和其他奖励",
+		subject = "特许巡游凭证",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 68,
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.battlepass31",
+		extra_gem = 0,
+		id = 1029,
+		airijp_id = "com.yostarjp.azurlane.seasonpass30",
+		name_display = "特许巡游凭证",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4030,
+				1500
+			},
+			{
+				8,
+				65118,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7030,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
 	pg.base.pay_data_display[1302] = {
 		picture = "battlepass_winter_1",
 		name = "冬日特许巡游凭证(2025.12)",
@@ -21443,6 +21529,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2056] = {
 		picture = "tech5_promotion",
 		name = "最高方案研发礼包(五期)升级版",
@@ -21506,8 +21594,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2057] = {
 		picture = "ui6",
 		name = "忍者之城主题礼包",

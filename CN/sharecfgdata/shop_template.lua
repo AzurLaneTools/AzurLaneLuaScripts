@@ -133928,6 +133928,71 @@ _G.pg.base.shop_template[105013] = {
 }
 
 
+_G.pg.base.shop_template[105014] = {
+	group_type = 0,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 6,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-梅换装",
+	group_limit = 0,
+	resource_num = 880,
+	first_text = "",
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 0,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 105014,
+	genre = "cruise_skin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		301213
+	},
+	time = {
+		{
+			{
+				2026,
+				8,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
 _G.pg.base.shop_template[106001] = {
 	group_type = 3,
 	package_sort_id = 0,
@@ -137284,6 +137349,266 @@ _G.pg.base.shop_template[106052] = {
 			{
 				2026,
 				6,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106053] = {
+	group_type = 3,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 9,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-兔兔导弹",
+	group_limit = 4,
+	resource_num = 100,
+	first_text = "",
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 10,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 106053,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2053
+	},
+	time = {
+		{
+			{
+				2026,
+				8,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106054] = {
+	group_type = 3,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 9,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-能量球子弹",
+	group_limit = 4,
+	resource_num = 100,
+	first_text = "",
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 10,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 106054,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2054
+	},
+	time = {
+		{
+			{
+				2026,
+				8,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106055] = {
+	group_type = 3,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 9,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-像素爱心鱼雷",
+	group_limit = 4,
+	resource_num = 100,
+	first_text = "",
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 10,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 106055,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2055
+	},
+	time = {
+		{
+			{
+				2026,
+				8,
+				1
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106056] = {
+	group_type = 3,
+	package_sort_id = 0,
+	time_second = 0,
+	type = 9,
+	second_text = "",
+	package_tag_open = 0,
+	first_icon = "",
+	desc = "通行证复刻-多变箭头",
+	group_limit = 4,
+	resource_num = 100,
+	first_text = "",
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	akashi_pick = 0,
+	group = 10,
+	num = 1,
+	package_tag = "",
+	type_order = 0,
+	discount = 0,
+	resource_type = 14,
+	id = 106056,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2056
+	},
+	time = {
+		{
+			{
+				2026,
+				8,
 				1
 			},
 			{
