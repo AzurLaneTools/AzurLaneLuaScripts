@@ -417,6 +417,9 @@ temp = function()
 	uv0["2"] = {
 		["대"] = {
 			this = true
+		},
+		B = {
+			this = true
 		}
 	}
 end
@@ -497,6 +500,16 @@ temp = function()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0.A = {
+		["2"] = {
+			this = true
 		}
 	}
 end

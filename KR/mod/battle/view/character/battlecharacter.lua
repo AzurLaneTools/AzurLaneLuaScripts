@@ -1,23 +1,24 @@
 ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle.BattleUnitEvent
-slot2 = slot0.Battle.BattleConst
-slot3 = slot0.Battle.BattleConfig
-slot4 = slot0.Battle.BattleResourceManager
-slot5 = slot0.Battle.BattleFormulas
-slot6 = class("BattleCharacter", slot0.Battle.BattleSceneObject)
-slot0.Battle.BattleCharacter = slot6
-slot6.__name = "BattleCharacter"
-slot7 = Vector2(-1200, -1200)
-slot8 = Vector3.New(0.3, -1.8, 0)
-slot6.AIM_OFFSET = Vector3.New(0, -3.5, 0)
+slot2 = slot0.Battle.BattleBuffEvent
+slot3 = slot0.Battle.BattleConst
+slot4 = slot0.Battle.BattleConfig
+slot5 = slot0.Battle.BattleResourceManager
+slot6 = slot0.Battle.BattleFormulas
+slot7 = class("BattleCharacter", slot0.Battle.BattleSceneObject)
+slot0.Battle.BattleCharacter = slot7
+slot7.__name = "BattleCharacter"
+slot8 = Vector2(-1200, -1200)
+slot9 = Vector3.New(0.3, -1.8, 0)
+slot7.AIM_OFFSET = Vector3.New(0, -3.5, 0)
 
-slot6.Ctor = function(slot0)
+slot7.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 	slot0:Init()
 end
 
-slot6.Init = function(slot0)
+slot7.Init = function(slot0)
 	uv0.EventListener.AttachEventListener(slot0)
 	slot0:InitBulletFactory()
 	slot0:InitEffectView()
@@ -52,17 +53,17 @@ slot6.Init = function(slot0)
 	slot0._actionIndex = nil
 end
 
-slot6.InitBulletFactory = function(slot0)
+slot7.InitBulletFactory = function(slot0)
 	slot0._bulletFactoryList = uv0.Battle.BattleBulletFactory.GetFactoryList()
 end
 
-slot6.SetUnitData = function(slot0, slot1)
+slot7.SetUnitData = function(slot0, slot1)
 	slot0._unitData = slot1
 
 	slot0:AddUnitEvent()
 end
 
-slot6.SetBoneList = function(slot0)
+slot7.SetBoneList = function(slot0)
 	slot0._boneList = {}
 	slot0._remoteBoneTable = {}
 	slot0._bonePosTable = nil
@@ -80,7 +81,7 @@ slot6.SetBoneList = function(slot0)
 	end
 end
 
-slot6.insertBondList = function(slot0, slot1, slot2)
+slot7.insertBondList = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
 		if type(slot7) == "table" then
 			slot8 = {
@@ -91,11 +92,11 @@ slot6.insertBondList = function(slot0, slot1, slot2)
 	end
 end
 
-slot6.SpawnBullet = function(slot0, slot1, slot2, slot3, slot4)
+slot7.SpawnBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._bulletFactoryList[slot1:GetTemplate().type]:CreateBullet(slot0._tf, slot1, slot4 or slot0._unitData:GetRemoteBoundBone(slot2) or slot0:GetBonePos(slot2), slot3, slot0._unitData:GetDirection())
 end
 
-slot6.GetBonePos = function(slot0, slot1)
+slot7.GetBonePos = function(slot0, slot1)
 	if slot0._boneList[slot1] == nil or #slot2 == 0 then
 		for slot6, slot7 in pairs(slot0._boneList) do
 			slot2 = slot7
@@ -130,32 +131,32 @@ slot6.GetBonePos = function(slot0, slot1)
 	end
 end
 
-slot6.GetBoneList = function(slot0)
+slot7.GetBoneList = function(slot0)
 	return slot0._boneList
 end
 
-slot6.AddFXOffsets = function(slot0, slot1, slot2)
+slot7.AddFXOffsets = function(slot0, slot1, slot2)
 	slot0._FXAttachPoint = slot1
 	slot0._FXOffset = slot2
 end
 
-slot6.GetFXOffsets = function(slot0, slot1)
+slot7.GetFXOffsets = function(slot0, slot1)
 	return slot0._FXOffset[slot1 or 1]
 end
 
-slot6.GetAttachPoint = function(slot0)
+slot7.GetAttachPoint = function(slot0)
 	return slot0._FXAttachPoint
 end
 
-slot6.GetSpecificFXScale = function(slot0)
+slot7.GetSpecificFXScale = function(slot0)
 	return {}
 end
 
-slot6.PlayFX = function(slot0, slot1)
+slot7.PlayFX = function(slot0, slot1)
 	pg.EffectMgr.GetInstance():PlayBattleEffect(slot0:GetFactory():GetFXPool():GetFX(slot1), slot0:GetPosition(), true)
 end
 
-slot6.AddFX = function(slot0, slot1, slot2, slot3, slot4)
+slot7.AddFX = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0:GetFactory():GetFXPool():GetCharacterFX(slot1, slot0, not slot2, function (slot0)
 		if uv0 then
 			uv0()
@@ -177,7 +178,7 @@ slot6.AddFX = function(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-slot6.RemoveFX = function(slot0, slot1)
+slot7.RemoveFX = function(slot0, slot1)
 	if slot0._allFX and slot0._allFX[slot1] then
 		slot0._allFX[slot1] = nil
 
@@ -185,7 +186,7 @@ slot6.RemoveFX = function(slot0, slot1)
 	end
 end
 
-slot6.RemoveCacheFX = function(slot0, slot1)
+slot7.RemoveCacheFX = function(slot0, slot1)
 	if slot0._cacheFXList[slot1] ~= nil and #slot2 > 0 then
 		slot3 = table.remove(slot2)
 		slot0._allFX[slot3] = nil
@@ -194,11 +195,11 @@ slot6.RemoveCacheFX = function(slot0, slot1)
 	end
 end
 
-slot6.AddWaveFX = function(slot0, slot1)
+slot7.AddWaveFX = function(slot0, slot1)
 	slot0._waveFX = slot0:AddFX(slot1)
 end
 
-slot6.RemoveWaveFX = function(slot0)
+slot7.RemoveWaveFX = function(slot0)
 	if not slot0._waveFX then
 		return
 	end
@@ -206,7 +207,7 @@ slot6.RemoveWaveFX = function(slot0)
 	slot0:RemoveFX(slot0._waveFX)
 end
 
-slot6.onAddBuffClock = function(slot0, slot1)
+slot7.onAddBuffClock = function(slot0, slot1)
 	if slot1.Data.isActive then
 		if not slot0._buffClock then
 			slot0._factory:MakeBuffClock(slot0)
@@ -218,7 +219,7 @@ slot6.onAddBuffClock = function(slot0, slot1)
 	end
 end
 
-slot6.AddBlink = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+slot7.AddBlink = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	if slot0._unitData:GetDiveInvisible() then
 		return nil
 	end
@@ -244,13 +245,13 @@ slot6.AddBlink = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7
 	return slot8
 end
 
-slot6.RemoveBlink = function(slot0, slot1)
+slot7.RemoveBlink = function(slot0, slot1)
 	slot0._blinkDict[slot1] = nil
 
 	SpineAnim.RemoveBlink(slot0._go, slot1)
 end
 
-slot6.AddShaderColor = function(slot0, slot1)
+slot7.AddShaderColor = function(slot0, slot1)
 	if not slot0._unitData:GetExposed() then
 		return
 	end
@@ -258,23 +259,23 @@ slot6.AddShaderColor = function(slot0, slot1)
 	SpineAnim.AddShaderColor(slot0._go, slot1 or Color.New(0, 0, 0, 0))
 end
 
-slot6.GetPosition = function(slot0)
+slot7.GetPosition = function(slot0)
 	return slot0._characterPos
 end
 
-slot6.GetUnitData = function(slot0)
+slot7.GetUnitData = function(slot0)
 	return slot0._unitData
 end
 
-slot6.GetDestroyFXID = function(slot0)
+slot7.GetDestroyFXID = function(slot0)
 	return slot0:GetUnitData():GetTemplate().bomb_fx
 end
 
-slot6.GetOffsetPos = function(slot0)
+slot7.GetOffsetPos = function(slot0)
 	return BuildVector3(slot0._unitData:GetTemplate().position_offset)
 end
 
-slot6.GetReferenceVector = function(slot0, slot1)
+slot7.GetReferenceVector = function(slot0, slot1)
 	if slot1 == nil then
 		return slot0._referenceVector
 	else
@@ -288,11 +289,11 @@ slot6.GetReferenceVector = function(slot0, slot1)
 	end
 end
 
-slot6.GetInitScale = function(slot0)
+slot7.GetInitScale = function(slot0)
 	return slot0._unitData:GetAttrByName("modelScale")
 end
 
-slot6.AddUnitEvent = function(slot0)
+slot7.AddUnitEvent = function(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.SPAWN_CACHE_BULLET, slot0.onSpawnCacheBullet)
 	slot0._unitData:RegisterEventListener(slot0, uv0.CREATE_TEMPORARY_WEAPON, slot0.onNewWeapon)
 	slot0._unitData:RegisterEventListener(slot0, uv0.POP_UP, slot0.onPopup)
@@ -313,16 +314,17 @@ slot6.AddUnitEvent = function(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_AIMBIAS_LOCK, slot0.onUpdateAimBiasLock)
 	slot0._unitData:RegisterEventListener(slot0, uv0.HOST_AIMBIAS, slot0.onHostAimBias)
 	slot0._unitData:RegisterEventListener(slot0, uv0.REMOVE_AIMBIAS, slot0.onRemoveAimBias)
-	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE, slot0.onChangeSize)
-	slot0._unitData:RegisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON, slot0.onNewWeapon)
 	slot0._unitData:RegisterEventListener(slot0, uv0.HIDE_WAVE_FX, slot0.RemoveWaveFX)
 	slot0._unitData:RegisterEventListener(slot0, uv0.ADD_BUFF_CLOCK, slot0.onAddBuffClock)
 	slot0._unitData:RegisterEventListener(slot0, uv0.SWITCH_SPINE, slot0.onSwitchSpine)
 	slot0._unitData:RegisterEventListener(slot0, uv0.SWITCH_SHADER, slot0.onSwitchShader)
+	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_SCORE, slot0.onUpdateScore)
+	slot0._unitData:RegisterEventListener(slot0, uv1.BUFF_EFFECT_CHNAGE_SIZE, slot0.onChangeSize)
+	slot0._unitData:RegisterEventListener(slot0, uv1.BUFF_EFFECT_NEW_WEAPON, slot0.onNewWeapon)
 
-	slot5 = slot0.onUpdateScore
+	slot5 = slot0.onRecoilShield
 
-	slot0._unitData:RegisterEventListener(slot0, uv0.UPDATE_SCORE, slot5)
+	slot0._unitData:RegisterEventListener(slot0, uv1.BUFF_EFFECT_RECOIL_SHIELD, slot5)
 
 	for slot5, slot6 in ipairs(slot0._unitData:GetAutoWeapons()) do
 		slot0:RegisterWeaponListener(slot6)
@@ -331,7 +333,7 @@ slot6.AddUnitEvent = function(slot0)
 	slot0._effectOb:SetUnitDataEvent(slot0._unitData)
 end
 
-slot6.RemoveUnitEvent = function(slot0)
+slot7.RemoveUnitEvent = function(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_HP)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.CREATE_TEMPORARY_WEAPON)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.CHANGE_ACTION)
@@ -360,9 +362,10 @@ slot6.RemoveUnitEvent = function(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.ADD_BUFF_CLOCK)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.SWITCH_SPINE)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.SWITCH_SHADER)
-	slot0._unitData:UnregisterEventListener(slot0, uv1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE)
+	slot0._unitData:UnregisterEventListener(slot0, uv1.BUFF_EFFECT_CHNAGE_SIZE)
+	slot0._unitData:UnregisterEventListener(slot0, uv1.BUFF_EFFECT_NEW_WEAPON)
 
-	slot4 = uv1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON
+	slot4 = uv1.BUFF_EFFECT_RECOIL_SHIELD
 
 	slot0._unitData:UnregisterEventListener(slot0, slot4)
 
@@ -371,7 +374,7 @@ slot6.RemoveUnitEvent = function(slot0)
 	end
 end
 
-slot6.Update = function(slot0)
+slot7.Update = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetCombatTime()
 	slot0._bonePosSet = nil
 
@@ -389,11 +392,12 @@ slot6.Update = function(slot0)
 	slot0:UpdateHpBar()
 	slot0:updateSomkeFX()
 	slot0:UpdateAimBiasBar()
+	slot0:UpdateShieldBar()
 	slot0:UpdateBuffClock()
 	slot0:UpdateOrbit()
 end
 
-slot6.RegisterWeaponListener = function(slot0, slot1)
+slot7.RegisterWeaponListener = function(slot0, slot1)
 	if slot0._weaponRegisterList[slot1] then
 		return
 	end
@@ -404,18 +408,18 @@ slot6.RegisterWeaponListener = function(slot0, slot1)
 	slot0._weaponRegisterList[slot1] = true
 end
 
-slot6.UnregisterWeaponListener = function(slot0, slot1)
+slot7.UnregisterWeaponListener = function(slot0, slot1)
 	slot0._weaponRegisterList[slot1] = nil
 
 	slot1:UnregisterEventListener(slot0, uv0.CREATE_BULLET)
 	slot1:UnregisterEventListener(slot0, uv0.FIRE)
 end
 
-slot6.onCreateBullet = function(slot0, slot1)
+slot7.onCreateBullet = function(slot0, slot1)
 	slot0:SpawnBullet(slot1.Data.bullet, slot1.Data.spawnBound, slot1.Data.fireFxID, slot1.Data.position)
 end
 
-slot6.onCannonFire = function(slot0, slot1)
+slot7.onCannonFire = function(slot0, slot1)
 	slot2 = slot1.Dispatcher
 	slot3 = slot1.Data.target
 	slot4 = slot1.Data.actionIndex or "attack"
@@ -446,7 +450,7 @@ slot6.onCannonFire = function(slot0, slot1)
 	end
 end
 
-slot6.onSpawnCacheBullet = function(slot0)
+slot7.onSpawnCacheBullet = function(slot0)
 	if slot0._cacheWeapon then
 		for slot4, slot5 in ipairs(slot0._cacheWeapon) do
 			slot5.weapon:DoAttack(slot5.target)
@@ -460,23 +464,23 @@ slot6.onSpawnCacheBullet = function(slot0)
 	end
 end
 
-slot6.onNewWeapon = function(slot0, slot1)
+slot7.onNewWeapon = function(slot0, slot1)
 	slot0:RegisterWeaponListener(slot1.Data.weapon)
 end
 
-slot6.onPopup = function(slot0, slot1)
+slot7.onPopup = function(slot0, slot1)
 	slot2 = slot1.Data
 
 	slot0:SetPopup(slot2.content, slot2.duration, slot2.key)
 end
 
-slot6.onVoice = function(slot0, slot1)
+slot7.onVoice = function(slot0, slot1)
 	slot2 = slot1.Data
 
 	slot0:Voice(slot2.content, slot2.key)
 end
 
-slot6.onPlayFX = function(slot0, slot1)
+slot7.onPlayFX = function(slot0, slot1)
 	slot2 = slot1.Data.fxName
 
 	if slot1.Data.notAttach then
@@ -486,7 +490,7 @@ slot6.onPlayFX = function(slot0, slot1)
 	end
 end
 
-slot6.onRemoveWeapon = function(slot0, slot1)
+slot7.onRemoveWeapon = function(slot0, slot1)
 	slot2 = slot1.Data.weapon
 
 	if slot0._cacheWeapon then
@@ -502,17 +506,17 @@ slot6.onRemoveWeapon = function(slot0, slot1)
 	slot0:UnregisterWeaponListener(slot2)
 end
 
-slot6.onBlink = function(slot0, slot1)
+slot7.onBlink = function(slot0, slot1)
 	slot2 = slot1.Data.blink
 
 	slot0:AddBlink(slot2.red, slot2.green, slot2.blue, slot2.peroid, slot2.duration, true, slot2.alpha)
 end
 
-slot6.onUpdateDiveInvisible = function(slot0, slot1)
+slot7.onUpdateDiveInvisible = function(slot0, slot1)
 	slot0:UpdateDiveInvisible()
 end
 
-slot6.UpdateDiveInvisible = function(slot0, slot1)
+slot7.UpdateDiveInvisible = function(slot0, slot1)
 	if not slot0._go then
 		return
 	end
@@ -538,17 +542,17 @@ slot6.UpdateDiveInvisible = function(slot0, slot1)
 	end
 end
 
-slot6.onUpdateBlindInvisible = function(slot0, slot1)
+slot7.onUpdateBlindInvisible = function(slot0, slot1)
 	slot0:UpdateBlindInvisible()
 end
 
-slot6.UpdateBlindInvisible = function(slot0)
+slot7.UpdateBlindInvisible = function(slot0)
 	slot0:GetTf():GetComponent(typeof(Renderer)).enabled = slot0._unitData:GetExposed()
 
 	slot0:updateComponentVisible()
 end
 
-slot6.updateInvisible = function(slot0, slot1, slot2, slot3)
+slot7.updateInvisible = function(slot0, slot1, slot2, slot3)
 	if slot1 then
 		slot0:SwitchShader(slot2, slot3)
 		slot0._animator:ChangeRenderQueue(2999)
@@ -562,7 +566,7 @@ slot6.updateInvisible = function(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot6.onDetected = function(slot0, slot1)
+slot7.onDetected = function(slot0, slot1)
 	if not slot0._go then
 		return
 	end
@@ -580,7 +584,7 @@ slot6.onDetected = function(slot0, slot1)
 	slot0:updateComponentVisible()
 end
 
-slot6.UpdateCharacterDetected = function(slot0)
+slot7.UpdateCharacterDetected = function(slot0)
 	if slot0._unitData:GetIFF() == uv0.FRIENDLY_CODE or slot0._unitData:GetDiveDetected() then
 		slot0:spineSemiTransparentFade(0, 0.7, uv0.SUB_FADE_IN_DURATION)
 	else
@@ -588,24 +592,24 @@ slot6.UpdateCharacterDetected = function(slot0)
 	end
 end
 
-slot6.onForceDetected = function(slot0, slot1)
+slot7.onForceDetected = function(slot0, slot1)
 	slot0:UpdateCharacterForceDetected()
 end
 
-slot6.UpdateCharacterForceDetected = function(slot0)
+slot7.UpdateCharacterForceDetected = function(slot0)
 	if slot0._unitData:GetIFF() == uv0.FOE_CODE and slot0._unitData:GetForceExpose() then
 		slot0:spineSemiTransparentFade(0, 0.7, uv0.SUB_FADE_IN_DURATION)
 		slot0:updateComponentVisible()
 	end
 end
 
-slot6.onBlindExposed = function(slot0, slot1)
+slot7.onBlindExposed = function(slot0, slot1)
 	slot0:GetTf():GetComponent(typeof(Renderer)).enabled = slot0._unitData:GetExposed()
 
 	slot0:updateComponentVisible()
 end
 
-slot6.updateComponentVisible = function(slot0)
+slot7.updateComponentVisible = function(slot0)
 	slot1 = nil
 
 	if slot0._unitData:GetIFF() ~= uv0.FOE_CODE then
@@ -633,9 +637,13 @@ slot6.updateComponentVisible = function(slot0)
 	if slot0._aimBiarBar then
 		slot0._aimBiarBar:SetActive(slot1)
 	end
+
+	if slot0._shieldBar then
+		slot0._shieldBar:SetActive(slot1)
+	end
 end
 
-slot6.updateComponentDiveInvisible = function(slot0)
+slot7.updateComponentDiveInvisible = function(slot0)
 	slot3 = nil
 	slot3 = (slot0._unitData:GetDiveDetected() and slot0._unitData:GetIFF() == uv0.FOE_CODE or not slot0._unitData:GetDiveInvisible()) and true or false
 
@@ -644,7 +652,7 @@ slot6.updateComponentDiveInvisible = function(slot0)
 	SetActive(slot0._FXAttachPoint, slot3)
 end
 
-slot6.updateComponentBlindInvisible = function(slot0)
+slot7.updateComponentBlindInvisible = function(slot0)
 	slot1 = slot0._unitData:GetExposed()
 	slot0:GetTf():GetComponent(typeof(Renderer)).enabled = slot1
 
@@ -653,7 +661,7 @@ slot6.updateComponentBlindInvisible = function(slot0)
 	SetActive(slot0._FXAttachPoint, slot1)
 end
 
-slot6.spineSemiTransparentFade = function(slot0, slot1, slot2, slot3)
+slot7.spineSemiTransparentFade = function(slot0, slot1, slot2, slot3)
 	LeanTween.cancel(slot0._go)
 	onDelayTick(function ()
 		if not uv0._go then
@@ -666,7 +674,7 @@ slot6.spineSemiTransparentFade = function(slot0, slot1, slot2, slot3)
 	end, 0.06)
 end
 
-slot6.onInitVigilantState = function(slot0, slot1)
+slot7.onInitVigilantState = function(slot0, slot1)
 	slot0._factory:MakeVigilantBar(slot0)
 
 	range = slot1.Data.sonarRange * 0.5
@@ -681,21 +689,21 @@ slot6.onInitVigilantState = function(slot0, slot1)
 	end)
 end
 
-slot6.onVigilantStateChange = function(slot0, slot1)
+slot7.onVigilantStateChange = function(slot0, slot1)
 	slot0:updateVigilantMark()
 end
 
-slot6.updateVigilantMark = function(slot0)
+slot7.updateVigilantMark = function(slot0)
 	if slot0._vigilantBar then
 		slot0._vigilantBar:UpdateVigilantMark()
 	end
 end
 
-slot6.OnActionChange = function(slot0, slot1)
+slot7.OnActionChange = function(slot0, slot1)
 	slot0:PlayAction(slot1.Data.actionType)
 end
 
-slot6.PlayAction = function(slot0, slot1)
+slot7.PlayAction = function(slot0, slot1)
 	slot2 = slot1
 	slot3 = false
 
@@ -737,12 +745,12 @@ slot6.PlayAction = function(slot0, slot1)
 	end
 end
 
-slot6.SetAnimaSpeed = function(slot0, slot1)
+slot7.SetAnimaSpeed = function(slot0, slot1)
 	slot0._skeleton = slot0._skeleton or slot0:GetTf():GetComponent("SkeletonAnimation")
 	slot0._skeleton.timeScale = slot1 or 1
 end
 
-slot6.UpdatePosition = function(slot0)
+slot7.UpdatePosition = function(slot0)
 	if not slot0._go then
 		return
 	end
@@ -757,16 +765,16 @@ slot6.UpdatePosition = function(slot0)
 	slot0._tf.localPosition = slot0:getCharacterPos()
 end
 
-slot6.getCharacterPos = function(slot0)
+slot7.getCharacterPos = function(slot0)
 	return slot0._characterPos
 end
 
-slot6.UpdateMatrix = function(slot0)
+slot7.UpdateMatrix = function(slot0)
 	slot0._bonePosTable = nil
 	slot0._posMatrix = nil
 end
 
-slot6.UpdateUIComponentPosition = function(slot0)
+slot7.UpdateUIComponentPosition = function(slot0)
 	slot1 = slot0._unitData:GetPosition()
 
 	slot0._referenceVector:Set(slot1.x, slot1.y, slot1.z)
@@ -780,11 +788,11 @@ slot6.UpdateUIComponentPosition = function(slot0)
 	end
 end
 
-slot6.UpdateHPPopContainerPosition = function(slot0)
+slot7.UpdateHPPopContainerPosition = function(slot0)
 	slot0._hpPopContainerTF.position = slot0._referenceVector
 end
 
-slot6.UpdateHPBarPosition = function(slot0)
+slot7.UpdateHPBarPosition = function(slot0)
 	if not slot0._hideHP then
 		slot0._hpBarPos:Copy(slot0._referenceVector):Add(slot0._hpBarOffset)
 
@@ -792,7 +800,7 @@ slot6.UpdateHPBarPosition = function(slot0)
 	end
 end
 
-slot6.SetBarHidden = function(slot0, slot1, slot2)
+slot7.SetBarHidden = function(slot0, slot1, slot2)
 	slot0._alwaysHideArrow = slot1
 	slot0._hideHP = slot2
 
@@ -805,25 +813,25 @@ slot6.SetBarHidden = function(slot0, slot1, slot2)
 	end
 end
 
-slot6.UpdateCastClockPosition = function(slot0)
+slot7.UpdateCastClockPosition = function(slot0)
 	slot0._castClock:UpdateCastClockPosition(slot0._referenceVector)
 end
 
-slot6.UpdateBarrierClockPosition = function(slot0)
+slot7.UpdateBarrierClockPosition = function(slot0)
 	slot0._barrierClock:UpdateBarrierClockPosition(slot0._referenceVector)
 end
 
-slot6.SetArrowPoint = function(slot0)
+slot7.SetArrowPoint = function(slot0)
 	slot0._arrowVector:Set()
 
 	slot0._cameraUtil = uv0.Battle.BattleCameraUtil.GetInstance()
 	slot0._arrowCenterPos = slot0._cameraUtil:GetArrowCenterPos()
 end
 
-slot9 = Vector3(-1, 1, 1)
-slot10 = Vector3(1, 1, 1)
+slot10 = Vector3(-1, 1, 1)
+slot11 = Vector3(1, 1, 1)
 
-slot6.UpdateArrowBarPosition = function(slot0)
+slot7.UpdateArrowBarPosition = function(slot0)
 	if not slot0._cameraUtil:GetCharacterArrowBarPosition(slot0._referenceVector, slot0._arrowVector) then
 		if not slot0._inViewArea then
 			slot0._inViewArea = true
@@ -849,7 +857,7 @@ slot6.UpdateArrowBarPosition = function(slot0)
 	end
 end
 
-slot6.UpdateArrowBarRotation = function(slot0)
+slot7.UpdateArrowBarRotation = function(slot0)
 	if slot0._inViewArea then
 		return
 	end
@@ -858,7 +866,7 @@ slot6.UpdateArrowBarRotation = function(slot0)
 	slot0._arrowBarTf.eulerAngles = slot0._arrowAngleVector
 end
 
-slot6.UpdateChatPosition = function(slot0)
+slot7.UpdateChatPosition = function(slot0)
 	if not slot0._popGO then
 		return
 	end
@@ -870,7 +878,7 @@ slot6.UpdateChatPosition = function(slot0)
 	end
 end
 
-slot6.Dispose = function(slot0)
+slot7.Dispose = function(slot0)
 	if slot0._popGO then
 		LeanTween.cancel(slot0._popGO)
 	end
@@ -902,6 +910,12 @@ slot6.Dispose = function(slot0)
 		slot0._aimBiarBar:Dispose()
 
 		slot0._aimBiarBar = nil
+	end
+
+	if slot0._shieldBar then
+		slot0._shieldBar:Dispose()
+
+		slot0._shieldBar = nil
 	end
 
 	if slot0._buffClock then
@@ -971,7 +985,7 @@ slot6.Dispose = function(slot0)
 	uv2.super.Dispose(slot0)
 end
 
-slot6.AddModel = function(slot0, slot1)
+slot7.AddModel = function(slot0, slot1)
 	slot0:SetGO(slot1)
 
 	slot0._hpBarOffset = Vector3(0, slot0._unitData:GetBoxSize().y, 0)
@@ -1008,7 +1022,7 @@ slot6.AddModel = function(slot0, slot1)
 	slot0._unitData:RegisterEventListener(slot0, uv1.CHANGE_ACTION, slot0.OnActionChange)
 end
 
-slot6.changeOrbitListVisible = function(slot0, slot1)
+slot7.changeOrbitListVisible = function(slot0, slot1)
 	slot2 = nil
 
 	if slot1 == "skin_on" then
@@ -1026,7 +1040,7 @@ slot6.changeOrbitListVisible = function(slot0, slot1)
 	end
 end
 
-slot6.SwitchModel = function(slot0, slot1, slot2)
+slot7.SwitchModel = function(slot0, slot1, slot2)
 	slot3 = slot0._go
 
 	slot0:SetGO(slot1)
@@ -1087,7 +1101,7 @@ slot6.SwitchModel = function(slot0, slot1, slot2)
 	uv0.GetInstance():DestroyOb(slot3)
 end
 
-slot6.AddOrbit = function(slot0, slot1, slot2, slot3)
+slot7.AddOrbit = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2.orbit_combat_bound[1]
 
 	if slot3 then
@@ -1138,7 +1152,7 @@ slot6.AddOrbit = function(slot0, slot1, slot2, slot3)
 	slot0:sortOrbitZOrder()
 end
 
-slot6.sortOrbitZOrder = function(slot0)
+slot7.sortOrbitZOrder = function(slot0)
 	for slot4, slot5 in pairs(slot0._orbitList) do
 		slot6 = uv0.getMaxZSort(slot4)
 
@@ -1150,7 +1164,7 @@ slot6.sortOrbitZOrder = function(slot0)
 	end
 end
 
-slot6.getMaxZSort = function(slot0)
+slot7.getMaxZSort = function(slot0)
 	eachChild(slot0, function (slot0)
 		if slot0 and slot0:GetComponent("MeshRenderer") then
 			uv0 = math.max(uv0, slot0:GetComponent("MeshRenderer").sortingOrder)
@@ -1160,7 +1174,7 @@ slot6.getMaxZSort = function(slot0)
 	return 0
 end
 
-slot6.changeOrbitAction = function(slot0, slot1, slot2)
+slot7.changeOrbitAction = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
 		if slot1.transform:Find(slot7.node) then
 			SetActive(slot9, slot7.active)
@@ -1174,7 +1188,7 @@ slot6.changeOrbitAction = function(slot0, slot1, slot2)
 	end
 end
 
-slot6.UpdateOrbit = function(slot0)
+slot7.UpdateOrbit = function(slot0)
 	if #slot0._orbitSpeedUpdateList <= 0 then
 		return
 	end
@@ -1195,17 +1209,17 @@ slot6.UpdateOrbit = function(slot0)
 	end
 end
 
-slot6.AddSmokeFXs = function(slot0, slot1)
+slot7.AddSmokeFXs = function(slot0, slot1)
 	slot0._smokeList = slot1
 
 	slot0:updateSomkeFX()
 end
 
-slot6.AddShadow = function(slot0, slot1)
+slot7.AddShadow = function(slot0, slot1)
 	slot0._shadow = slot1
 end
 
-slot6.AddHPBar = function(slot0, slot1)
+slot7.AddHPBar = function(slot0, slot1)
 	slot0._HPBar = slot1
 	slot0._HPBarTf = slot1.transform
 	slot0._HPProgressBar = slot0._HPBarTf:Find("blood")
@@ -1216,11 +1230,11 @@ slot6.AddHPBar = function(slot0, slot1)
 	slot0._HPBarTf.position = slot0._referenceVector + slot0._hpBarOffset
 end
 
-slot6.AddUIComponentContainer = function(slot0, slot1)
+slot7.AddUIComponentContainer = function(slot0, slot1)
 	slot0:UpdateUIComponentPosition()
 end
 
-slot6.AddPopNumPool = function(slot0, slot1)
+slot7.AddPopNumPool = function(slot0, slot1)
 	slot0._popNumPool = slot1
 	slot0._hpPopIndex_put = 1
 	slot0._hpPopIndex_get = 1
@@ -1230,14 +1244,14 @@ slot6.AddPopNumPool = function(slot0, slot1)
 	slot0._hpPopContainerTF = slot0._popNumBundle:GetContainer().transform
 end
 
-slot6.AddArrowBar = function(slot0, slot1)
+slot7.AddArrowBar = function(slot0, slot1)
 	slot0._arrowBar = slot1
 	slot0._arrowBarTf = slot1.transform
 
 	slot0:SetArrowPoint()
 end
 
-slot6.AddCastClock = function(slot0, slot1)
+slot7.AddCastClock = function(slot0, slot1)
 	slot2 = slot1.transform
 
 	SetActive(slot2, false)
@@ -1247,7 +1261,7 @@ slot6.AddCastClock = function(slot0, slot1)
 	slot0:UpdateCastClockPosition()
 end
 
-slot6.AddBuffClock = function(slot0, slot1)
+slot7.AddBuffClock = function(slot0, slot1)
 	slot2 = slot1.transform
 
 	SetActive(slot2, false)
@@ -1255,7 +1269,7 @@ slot6.AddBuffClock = function(slot0, slot1)
 	slot0._buffClock = uv0.Battle.BattleBuffClock.New(slot2)
 end
 
-slot6.AddBarrierClock = function(slot0, slot1)
+slot7.AddBarrierClock = function(slot0, slot1)
 	slot2 = slot1.transform
 
 	SetActive(slot2, false)
@@ -1265,7 +1279,7 @@ slot6.AddBarrierClock = function(slot0, slot1)
 	slot0:UpdateBarrierClockPosition()
 end
 
-slot6.AddVigilantBar = function(slot0, slot1)
+slot7.AddVigilantBar = function(slot0, slot1)
 	slot0._vigilantBar = uv0.Battle.BattleVigilantBar.New(slot1.transform)
 
 	slot0._vigilantBar:ConfigVigilant(slot0._unitData:GetAntiSubState())
@@ -1273,11 +1287,11 @@ slot6.AddVigilantBar = function(slot0, slot1)
 	slot0:updateVigilantMark()
 end
 
-slot6.UpdateVigilantBarPosition = function(slot0)
+slot7.UpdateVigilantBarPosition = function(slot0)
 	slot0._vigilantBar:UpdateVigilantBarPosition(slot0._hpBarPos)
 end
 
-slot6.AddCloakBar = function(slot0, slot1)
+slot7.AddCloakBar = function(slot0, slot1)
 	slot0._cloakBarTf = slot1.transform
 	slot0._cloakBar = uv0.Battle.BattleCloakBar.New(slot0._cloakBarTf)
 
@@ -1285,7 +1299,7 @@ slot6.AddCloakBar = function(slot0, slot1)
 	slot0._cloakBar:UpdateCloakProgress()
 end
 
-slot6.UpdateCloakBarPosition = function(slot0, slot1)
+slot7.UpdateCloakBarPosition = function(slot0, slot1)
 	if slot0._inViewArea then
 		slot0._cloakBarTf.anchoredPosition = uv0
 	else
@@ -1293,27 +1307,19 @@ slot6.UpdateCloakBarPosition = function(slot0, slot1)
 	end
 end
 
-slot6.onInitCloak = function(slot0, slot1)
+slot7.onInitCloak = function(slot0, slot1)
 	slot0._factory:MakeCloakBar(slot0)
 end
 
-slot6.onUpdateCloakConfig = function(slot0, slot1)
+slot7.onUpdateCloakConfig = function(slot0, slot1)
 	slot0._cloakBar:UpdateCloakConfig()
 end
 
-slot6.onUpdateCloakLock = function(slot0, slot1)
+slot7.onUpdateCloakLock = function(slot0, slot1)
 	slot0._cloakBar:UpdateCloakLock()
 end
 
-slot6.AddAimBiasBar = function(slot0, slot1)
-	slot0._aimBiarBarTF = slot1
-	slot0._aimBiarBar = uv0.Battle.BattleAimbiasBar.New(slot1)
-
-	slot0._aimBiarBar:ConfigAimBias(slot0._unitData:GetAimBias())
-	slot0._aimBiarBar:UpdateAimBiasProgress()
-end
-
-slot6.IsDoubleChar = function(slot0)
+slot7.IsDoubleChar = function(slot0)
 	if slot0._skeleton then
 		slot2 = slot0._skeleton.skeleton:FindBoneIndex("char2_face")
 
@@ -1325,34 +1331,80 @@ slot6.IsDoubleChar = function(slot0)
 	return false
 end
 
-slot6.UpdateAimBiasBar = function(slot0)
+slot7.AddAimBiasBar = function(slot0, slot1)
+	slot0._aimBiarBarTF = slot1
+	slot0._aimBiarBar = uv0.Battle.BattleAimbiasBar.New(slot1)
+
+	slot0._aimBiarBar:ConfigAimBias(slot0._unitData:GetAimBias())
+	slot0._aimBiarBar:UpdateAimBiasProgress()
+end
+
+slot7.UpdateAimBiasBar = function(slot0)
 	if slot0._aimBiarBar then
 		slot0._aimBiarBar:UpdateAimBiasProgress()
 	end
 end
 
-slot6.UpdateBuffClock = function(slot0)
+slot7.AddShieldBar = function(slot0, slot1)
+	slot0._shieldBarTF = slot1
+	slot0._shieldBar = uv0.Battle.BattleRecoilShieldBar.New(slot0._shieldBarTF)
+
+	slot0:configShieldBuffBar()
+	slot0._shieldBar:UpdateRecoilShieldProgress()
+end
+
+slot7.UpdateShieldBar = function(slot0)
+	if slot0._shieldBar then
+		slot0._shieldBar:UpdateRecoilShieldProgress()
+	end
+end
+
+slot7.onRecoilShield = function(slot0, slot1)
+	if not slot0._shieldBar then
+		slot0._factory:MakeShieldBar(slot0)
+	else
+		slot0:configShieldBuffBar()
+	end
+end
+
+slot7.configShieldBuffBar = function(slot0)
+	slot2 = nil
+
+	for slot6, slot7 in pairs(slot0._unitData:GetBuffList()) do
+		for slot12, slot13 in ipairs(slot7:GetEffectList()) do
+			if slot13.__name == uv0.Battle.BattleBuffRecoilShield.__name then
+				slot2 = slot13
+
+				break
+			end
+		end
+	end
+
+	slot0._shieldBar:ConfigShieldBuff(slot2)
+end
+
+slot7.UpdateBuffClock = function(slot0)
 	if slot0._buffClock and slot0._buffClock:IsActive() then
 		slot0._buffClock:UpdateCastClockPosition(slot0._referenceVector)
 		slot0._buffClock:UpdateCastClock()
 	end
 end
 
-slot6.onUpdateAimBiasLock = function(slot0, slot1)
+slot7.onUpdateAimBiasLock = function(slot0, slot1)
 	slot0._aimBiarBar:UpdateLockStateView()
 end
 
-slot6.onInitAimBias = function(slot0, slot1)
+slot7.onInitAimBias = function(slot0, slot1)
 	if slot0._unitData:GetAimBias():GetHost() == slot0._unitData then
 		slot0._factory:MakeAimBiasBar(slot0)
 	end
 end
 
-slot6.onHostAimBias = function(slot0, slot1)
+slot7.onHostAimBias = function(slot0, slot1)
 	slot0._factory:MakeAimBiasBar(slot0)
 end
 
-slot6.onRemoveAimBias = function(slot0, slot1)
+slot7.onRemoveAimBias = function(slot0, slot1)
 	slot0._aimBiarBar:SetActive(false)
 	slot0._aimBiarBar:Dispose()
 
@@ -1360,17 +1412,17 @@ slot6.onRemoveAimBias = function(slot0, slot1)
 	slot0._aimBiarBarTF = nil
 end
 
-slot6.AddAimBiasFogFX = function(slot0)
+slot7.AddAimBiasFogFX = function(slot0)
 	if slot0._unitData:GetTemplate().fog_fx and slot1 ~= "" then
 		slot0._fogFx = slot0:AddFX(slot1)
 	end
 end
 
-slot6.OnUpdateHP = function(slot0, slot1)
+slot7.OnUpdateHP = function(slot0, slot1)
 	slot0:_DealHPPop(slot1.Data)
 end
 
-slot6._DealHPPop = function(slot0, slot1)
+slot7._DealHPPop = function(slot0, slot1)
 	if slot0._hpPopIndex_put == slot0._hpPopIndex_get and slot0._hpPopCount == 0 then
 		slot0:_PlayHPPop(slot1)
 
@@ -1383,7 +1435,7 @@ slot6._DealHPPop = function(slot0, slot1)
 	end
 end
 
-slot6.UpdateHPPop = function(slot0)
+slot7.UpdateHPPop = function(slot0)
 	if slot0._hpPopIndex_put == slot0._hpPopIndex_get then
 		return
 	else
@@ -1399,7 +1451,7 @@ slot6.UpdateHPPop = function(slot0)
 	end
 end
 
-slot6._PlayHPPop = function(slot0, slot1)
+slot7._PlayHPPop = function(slot0, slot1)
 	if slot0._popNumBundle:IsScorePop() then
 		return
 	end
@@ -1410,7 +1462,7 @@ slot6._PlayHPPop = function(slot0, slot1)
 	slot8:Play()
 end
 
-slot6._CalcHPPopCount = function(slot0)
+slot7._CalcHPPopCount = function(slot0)
 	if slot0._hpPopIndex_put - slot0._hpPopIndex_get > 5 then
 		return 1
 	else
@@ -1418,14 +1470,14 @@ slot6._CalcHPPopCount = function(slot0)
 	end
 end
 
-slot6.onUpdateScore = function(slot0, slot1)
+slot7.onUpdateScore = function(slot0, slot1)
 	slot3 = slot0._popNumBundle:GetScorePop(slot1.Data.score)
 
 	slot3:SetReferenceCharacter(slot0, Vector3.zero)
 	slot3:Play()
 end
 
-slot6.UpdateHpBar = function(slot0)
+slot7.UpdateHpBar = function(slot0)
 	slot1 = slot0._unitData:GetCurrentHP()
 
 	if slot0._HPProgress and slot0._cacheHP ~= slot1 then
@@ -1434,11 +1486,11 @@ slot6.UpdateHpBar = function(slot0)
 	end
 end
 
-slot6.onChangeSize = function(slot0, slot1)
+slot7.onChangeSize = function(slot0, slot1)
 	slot0:doChangeSize(slot1)
 end
 
-slot6.updateSomkeFX = function(slot0)
+slot7.updateSomkeFX = function(slot0)
 	slot1 = slot0._unitData:GetHPRate()
 
 	for slot5, slot6 in ipairs(slot0._smokeList) do
@@ -1472,21 +1524,21 @@ slot6.updateSomkeFX = function(slot0)
 	end
 end
 
-slot6.doChangeSize = function(slot0, slot1)
+slot7.doChangeSize = function(slot0, slot1)
 	slot2 = slot0._unitData:GetAttrByName("modelScale")
 
 	slot0:setLocalScale(Vector3(slot2 * slot0._unitData:GetDirection(), slot2, slot2))
 end
 
-slot6.InitEffectView = function(slot0)
+slot7.InitEffectView = function(slot0)
 	slot0._effectOb = uv0.Battle.BattleEffectComponent.New(slot0)
 end
 
-slot6.UpdateAniEffect = function(slot0, slot1)
+slot7.UpdateAniEffect = function(slot0, slot1)
 	slot0._effectOb:Update(slot1)
 end
 
-slot6.UpdateTagEffect = function(slot0, slot1)
+slot7.UpdateTagEffect = function(slot0, slot1)
 	slot2 = slot0._unitData:GetBoxSize().y * 0.5
 
 	for slot6, slot7 in pairs(slot0._tagFXList) do
@@ -1495,7 +1547,7 @@ slot6.UpdateTagEffect = function(slot0, slot1)
 	end
 end
 
-slot6.SetPopup = function(slot0, slot1, slot2, slot3)
+slot7.SetPopup = function(slot0, slot1, slot2, slot3)
 	if slot0._voiceTimer then
 		if slot0._voiceKey == slot3 then
 			slot0._voiceKey = nil
@@ -1535,7 +1587,7 @@ slot6.SetPopup = function(slot0, slot1, slot2, slot3)
 	SetActive(slot0._popGO, true)
 end
 
-slot6.ChatPopAnimation = function(slot0, slot1)
+slot7.ChatPopAnimation = function(slot0, slot1)
 	slot0.transform:GetComponent(typeof(Animation)):Play("popup_in")
 	LeanTween.delayedCall(slot0.gameObject, slot1, System.Action(function ()
 		uv0:Play("popup_out")
@@ -1545,7 +1597,7 @@ slot6.ChatPopAnimation = function(slot0, slot1)
 	end))
 end
 
-slot6.ChatPop = function(slot0, slot1)
+slot7.ChatPop = function(slot0, slot1)
 	slot1 = slot1 or 2.5
 
 	LeanTween.scale(rtf(slot0.gameObject), Vector3.New(1, 1, 1), 0.3):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
@@ -1555,7 +1607,7 @@ slot6.ChatPop = function(slot0, slot1)
 	end))
 end
 
-slot6.setChatText = function(slot0, slot1)
+slot7.setChatText = function(slot0, slot1)
 	slot2 = findTF(slot0, "Text"):GetComponent(typeof(Text))
 	slot2.text = slot1
 
@@ -1566,7 +1618,7 @@ slot6.setChatText = function(slot0, slot1)
 	end
 end
 
-slot6.Voice = function(slot0, slot1, slot2)
+slot7.Voice = function(slot0, slot1, slot2)
 	if slot0._voiceTimer then
 		return
 	end
@@ -1586,7 +1638,7 @@ slot6.Voice = function(slot0, slot1, slot2)
 	end)
 end
 
-slot6.setLocalScale = function(slot0, slot1, slot2)
+slot7.setLocalScale = function(slot0, slot1, slot2)
 	slot0._tf.localScale = slot1
 
 	if not slot2 then
@@ -1594,10 +1646,10 @@ slot6.setLocalScale = function(slot0, slot1, slot2)
 	end
 end
 
-slot6.SonarAcitve = function(slot0, slot1)
+slot7.SonarAcitve = function(slot0, slot1)
 end
 
-slot6.SwitchShader = function(slot0, slot1, slot2, slot3)
+slot7.SwitchShader = function(slot0, slot1, slot2, slot3)
 	LeanTween.cancel(slot0._go)
 
 	slot2 = slot2 or Color.New(0, 0, 0, 0)
@@ -1614,26 +1666,26 @@ slot6.SwitchShader = function(slot0, slot1, slot2, slot3)
 	slot0._color = slot2
 end
 
-slot6.PauseActionAnimation = function(slot0, slot1)
+slot7.PauseActionAnimation = function(slot0, slot1)
 	slot0._animator:GetAnimationState().TimeScale = slot1 and 0 or 1
 end
 
-slot6.GetFactory = function(slot0)
+slot7.GetFactory = function(slot0)
 	return slot0._factory
 end
 
-slot6.SetFactory = function(slot0, slot1)
+slot7.SetFactory = function(slot0, slot1)
 	slot0._factory = slot1
 end
 
-slot6.onSwitchSpine = function(slot0, slot1)
+slot7.onSwitchSpine = function(slot0, slot1)
 	slot2 = slot1.Data
 	slot0._coverSpineHPBarOffset = slot2.HPBarOffset or 0
 
 	slot0:SwitchSpine(slot2.skin)
 end
 
-slot6.SwitchSpine = function(slot0, slot1)
+slot7.SwitchSpine = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._blinkDict) do
 		SpineAnim.RemoveBlink(slot0._go, slot5)
 	end
@@ -1641,7 +1693,7 @@ slot6.SwitchSpine = function(slot0, slot1)
 	slot0._factory:SwitchCharacterSpine(slot0, slot1)
 end
 
-slot6.onSwitchShader = function(slot0, slot1)
+slot7.onSwitchShader = function(slot0, slot1)
 	slot2 = slot1.Data
 
 	slot0:SwitchShader(slot2.shader, slot2.color, slot2.args)

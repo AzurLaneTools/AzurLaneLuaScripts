@@ -19,6 +19,8 @@ pg.item_data_chat.all = {
 	606,
 	607,
 	610,
+	611,
+	612,
 	10001,
 	10002,
 	10003,
@@ -162,6 +164,22 @@ pg.base.item_data_chat = {}
 		id = 610,
 		time_limit_type = 0,
 		desc = "해변을 걸으며 파도 소리에 귀를 기울이자. \n<color=#A7A7AAFF>「다시 돌아온 한여름! 리조트 재건 계획! 」 참가 시 획득 가능</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[611] = {
+		name = "홀로 옥션",
+		time_second = 0,
+		id = 611,
+		time_limit_type = 0,
+		desc = "홀로그램으로 낙찰의 순간을 기록하자! \n<color=#A7A7AAFF>이벤트 「특별 경매」에서 획득 가능</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[612] = {
+		name = "레벨 S 데이터 스트림",
+		time_second = 0,
+		id = 612,
+		time_limit_type = 0,
+		desc = "질주하는 데이터 속, 한 순간에 결정되는 승부! \n<color=#A7A7AAFF>이벤트 「특별 경매」에서 획득 가능</color>",
 		scene = {}
 	}
 	pg.base.item_data_chat[10001] = {

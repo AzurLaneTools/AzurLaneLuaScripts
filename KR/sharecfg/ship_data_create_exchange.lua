@@ -40,6 +40,7 @@ pg.ship_data_create_exchange.all = {
 	8105,
 	8119,
 	30863,
+	30900,
 	41249,
 	41328
 }
@@ -348,6 +349,14 @@ pg.base.ship_data_create_exchange = {}
 		exchange_request = 40,
 		exchange_available_times = 1,
 		id = 30863,
+		exchange_ship_id = {
+			107061
+		}
+	}
+	pg.base.ship_data_create_exchange[30900] = {
+		exchange_request = 40,
+		exchange_available_times = 1,
+		id = 30900,
 		exchange_ship_id = {
 			107061
 		}

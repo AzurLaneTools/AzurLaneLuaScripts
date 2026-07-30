@@ -355382,6 +355382,51 @@ _G.pg.base.weapon_property_1[180024] = {
 }
 
 
+_G.pg.base.weapon_property_1[180029] = {
+	torpedo_ammo = 0,
+	type = 2,
+	fire_fx = "",
+	recover_time = 0,
+	charge_param = "",
+	shakescreen = 0,
+	aim_type = 0,
+	action_index = "",
+	axis_angle = 0,
+	expose = 0,
+	angle = 360,
+	range = 1,
+	damage = 1,
+	corrected = 100,
+	min_range = 0,
+	id = 180029,
+	attack_attribute_ratio = 0,
+	fire_fx_loop_type = 1,
+	attack_attribute = 1,
+	reload_max = 6000,
+	queue = 1,
+	search_type = 1,
+	effect_move = 0,
+	suppress = 0,
+	spawn_bound = "cannon",
+	fire_sfx = "",
+	auto_aftercast = 0,
+	initial_over_heat = 0,
+	bullet_ID = {
+		168354
+	},
+	barrage_ID = {
+		1001
+	},
+	oxy_type = {
+		1
+	},
+	search_condition = {
+		1
+	},
+	precast_param = {}
+}
+
+
 _G.pg.base.weapon_property_1[183001] = {
 	torpedo_ammo = 0,
 	type = 3,

@@ -667,7 +667,8 @@ pg.player_resource.all = {
 	40934,
 	40935,
 	41375,
-	45101
+	45101,
+	970002
 }
 pg.player_resource.get_id_list_by_name = {
 	["240627_pt"] = {
@@ -846,6 +847,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	activity_xunzhang9 = {
 		533
+	},
+	auction_pt_1 = {
+		970002
 	},
 	baifeng_hpt = {
 		542
@@ -6006,5 +6010,10 @@ end)()
 		id = 45101,
 		name = "commission_pt_tw1",
 		itemid = 80141
+	}
+	pg.base.player_resource[970002] = {
+		id = 970002,
+		name = "auction_pt_1",
+		itemid = 970002
 	}
 end)()

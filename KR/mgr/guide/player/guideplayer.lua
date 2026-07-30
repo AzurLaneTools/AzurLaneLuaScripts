@@ -5,17 +5,20 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.bgCg = slot1:Find("BG"):GetComponent(typeof(CanvasGroup))
 	slot0.windowContainer = slot1:Find("windows")
 	slot0.charContainer = slot1:Find("char")
+	slot0.maskTr = slot1:Find("mask")
 	slot0.dialogueWindows = pg.NewGuideMgr.GetInstance().dialogueWindows
 	slot0.counsellors = pg.NewGuideMgr.GetInstance().counsellors
 	slot0.uiFinder = pg.NewGuideMgr.GetInstance().uiFinder
 	slot0.uiDuplicator = pg.NewGuideMgr.GetInstance().uiDuplicator
 	slot0.uiLoader = pg.NewGuideMgr.GetInstance().uiLoader
+	slot0.uiFloatCollctor = pg.NewGuideMgr.GetInstance().uiFloatCollctor
 	slot0.root = slot1:Find("target")
 end
 
 slot0.Execute = function(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
+			uv0:UpdateCanClickMask(uv1)
 			uv0:HideDialogueWindows()
 			uv0:UpdateStyle(uv1)
 			uv0:DoDelay(uv1, slot0)
@@ -46,6 +49,10 @@ slot0.Execute = function(slot0, slot1, slot2)
 			slot0()
 		end
 	}, slot2)
+end
+
+slot0.UpdateCanClickMask = function(slot0, slot1)
+	setActive(slot0.maskTr, not slot1:CanClick())
 end
 
 slot0.CheckBaseUI = function(slot0, slot1, slot2)
@@ -300,6 +307,8 @@ slot2 = function(slot0, slot1, slot2, slot3)
 			length = slot1:GetHighlightLength(),
 			name = slot1:GetHighlightName()
 		})
+	elseif slot3.type == GuideStep.HIGH_TYPE_FLOAT then
+		slot0.uiFloatCollctor:SetFloat(slot2)
 	end
 end
 
@@ -392,6 +401,7 @@ slot0.Clear = function(slot0)
 	slot0:HideCounsellors()
 	slot0:HideDialogueWindows()
 	slot0:ClearSpriteTimer()
+	setActive(slot0.maskTr, false)
 	removeOnButton(slot0._tf)
 	slot0:OnClear()
 
@@ -404,6 +414,7 @@ slot0.Clear = function(slot0)
 	slot0.uiFinder:Clear()
 	slot0.uiDuplicator:Clear()
 	slot0.uiLoader:Clear()
+	slot0.uiFloatCollctor:Clear()
 end
 
 slot0.OnExecution = function(slot0, slot1, slot2)

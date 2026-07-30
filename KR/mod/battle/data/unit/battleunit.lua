@@ -194,10 +194,11 @@ slot9.UpdateHP = function(slot0, slot1, slot2)
 	slot13 = slot2.isReflect
 	slot14 = slot2.spectreBullet
 	slot15 = slot2.ignoreInvincible
-	slot16, slot17 = nil
+	slot16 = slot2.ignoreShield
+	slot17, slot18 = nil
 
 	if not slot2.isHeal then
-		slot17 = {
+		slot18 = {
 			damage = -slot1,
 			isShare = slot7,
 			miss = slot4,
@@ -205,63 +206,64 @@ slot9.UpdateHP = function(slot0, slot1, slot2)
 			damageSrc = slot2.srcID,
 			damageAttr = slot8,
 			damageReason = slot9,
-			isReflect = slot13
+			isReflect = slot13,
+			ignoreShield = slot16
 		}
 
 		if not slot7 then
-			slot0:TriggerBuff(uv0.BuffEffectType.ON_BEFORE_TAKE_DAMAGE, slot17)
+			slot0:TriggerBuff(uv0.BuffEffectType.ON_BEFORE_TAKE_DAMAGE, slot18)
 
-			if slot17.capFlag then
-				slot0:TriggerBuff(uv0.BuffEffectType.ON_DAMAGE_FIX, slot17)
+			if slot18.capFlag then
+				slot0:TriggerBuff(uv0.BuffEffectType.ON_DAMAGE_FIX, slot18)
 			end
 		end
 
-		slot16 = -slot17.damage
+		slot17 = -slot18.damage
 
-		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_DAMAGE, slot17)
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_DAMAGE, slot18)
 
-		if slot0._currentHP <= slot17.damage then
+		if slot0._currentHP <= slot18.damage then
 			slot0:TriggerBuff(uv0.BuffEffectType.ON_BEFORE_FATAL_DAMAGE, {})
 		end
 
-		if slot16 ~= -slot17.damage then
-			slot18 = {
-				absorb = slot16 - slot1
+		if slot17 ~= -slot18.damage then
+			slot19 = {
+				absorb = slot17 - slot1
 			}
 
-			slot0:TriggerBuff(uv0.BuffEffectType.ON_SHIELD_ABSORB, slot17)
+			slot0:TriggerBuff(uv0.BuffEffectType.ON_SHIELD_ABSORB, slot18)
 		end
 
 		if uv1.IsInvincible(slot0) and not slot15 then
 			return 0
 		end
 	else
-		slot16 = slot1
-		slot18 = {
+		slot17 = slot1
+		slot19 = {
 			damage = slot1,
 			isHeal = slot6,
 			incorrupt = slot12
 		}
 
-		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot18)
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot19)
 
-		slot6 = slot18.isHeal
+		slot6 = slot19.isHeal
 
-		if math.max(0, slot0._currentHP + slot18.damage - slot0:GetMaxHP()) > 0 then
+		if math.max(0, slot0._currentHP + slot19.damage - slot0:GetMaxHP()) > 0 then
 			slot0:TriggerBuff(uv0.BuffEffectType.ON_OVER_HEALING, {
-				overHealing = slot19
+				overHealing = slot20
 			})
 		end
 	end
 
-	slot18 = math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1))
+	slot19 = math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1))
 
-	slot0:SetCurrentHP(slot18)
+	slot0:SetCurrentHP(slot19)
 
-	slot20 = {
-		preShieldHP = slot16,
+	slot21 = {
+		preShieldHP = slot17,
 		dHP = slot1,
-		validDHP = slot18 - slot0._currentHP,
+		validDHP = slot19 - slot0._currentHP,
 		isMiss = slot4,
 		isCri = slot5,
 		isHeal = slot6,
@@ -269,21 +271,21 @@ slot9.UpdateHP = function(slot0, slot1, slot2)
 	}
 
 	if not slot6 then
-		slot17.validDHP = slot19
+		slot18.validDHP = slot20
 
-		slot0:TriggerBuff(uv0.BuffEffectType.ON_DAMAGE_CONCLUDE, slot17)
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_DAMAGE_CONCLUDE, slot18)
 	end
 
 	if slot11 and not slot11:EqualZero() then
-		slot21 = slot0:GetPosition()
-		slot22 = slot0:GetBoxSize().x
-		slot25 = slot11:Clone()
-		slot25.x = Mathf.Clamp(slot25.x, slot21.x - slot22, slot21.x + slot22)
-		slot20.posOffset = slot21 - slot25
+		slot22 = slot0:GetPosition()
+		slot23 = slot0:GetBoxSize().x
+		slot26 = slot11:Clone()
+		slot26.x = Mathf.Clamp(slot26.x, slot22.x - slot23, slot22.x + slot23)
+		slot21.posOffset = slot22 - slot26
 	end
 
 	if not slot14 then
-		slot0:UpdateHPAction(slot20)
+		slot0:UpdateHPAction(slot21)
 	end
 
 	if not slot0:IsAlive() and slot3 then
@@ -296,7 +298,7 @@ slot9.UpdateHP = function(slot0, slot1, slot2)
 		slot0:TriggerBuff(uv0.BuffEffectType.ON_HP_RATIO_UPDATE, {
 			dHP = slot1,
 			unit = slot0,
-			validDHP = slot19
+			validDHP = slot20
 		})
 	end
 

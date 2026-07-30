@@ -25,7 +25,8 @@ pg.item_data_battleui.all = {
 	205,
 	206,
 	207,
-	208
+	208,
+	209
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -383,6 +384,23 @@ pg.base.item_data_battleui = {}
 		desc = "흐르는 황금이 그려내는 별빛 프레임, 눈부신 다이아몬드가 촘촘히 박힌 버튼――모든 전투를 호화찬란한 꿈으로 바꾸어 준다.",
 		id = 208,
 		icon = "208",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[209] = {
+		name = "요르하",
+		key = "SkinElite_20260715",
+		display_icon = "ui_209",
+		unlock = "상점 구매 (전투 UI·요르하)",
+		is_unlock = 1,
+		rare = 4,
+		desc = "미니멀한 스타일로 구성된 모노톤 UI. 단조로운 기계 문양과 전술 인터페이스가 정돈된 형태로 배치되어, 요르하 부대 특유의 분위기를 연출한다.",
+		id = 209,
+		icon = "209",
 		scene = {},
 		rare_display = {
 			1,

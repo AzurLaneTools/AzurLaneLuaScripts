@@ -344710,6 +344710,590 @@ _G.pg.base.ship_skin_template[11500061] = {
 }
 
 
+_G.pg.base.ship_skin_template[11700010] = {
+	name = "A2",
+	change_skin = "",
+	desc = "나는…… A2라고 불리고 있어. 혼자 싸우는 건 익숙하지만…… 잠시 몸을 의탁하는 것도 나쁘지 않겠군.",
+	illustrator2 = -1,
+	ship_group = 1170001,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "A2",
+	lover_hand = "hand_2_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 11700010,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "A2",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 86,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.331,
+				0.957,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.432,
+				0.966,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				1.202,
+				2.418,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.609,
+						2.334,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11700011] = {
+	name = "금단의 과실",
+	change_skin = "",
+	desc = "그 눈은 뭐지……? 무기를 들고 있지 않은 게 그렇게 신기한가? ……참, 나 같은 걸 쳐다보고 있어 봤자 재미없을 테지만, 마음대로 해.",
+	illustrator2 = -1,
+	ship_group = 1170001,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "A2_2",
+	lover_hand = "hand_2_02",
+	skin_type = 0,
+	shop_type_id = 7,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "450",
+	bgm = "nier-az-story",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 11700011,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "A2_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71379,
+	voice_actor = 86,
+	shop_dynamic_hx = 0,
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		6,
+		2,
+		5
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		50,
+		-740,
+		0,
+		0.74
+	},
+	spine_offset_profile = {
+		125,
+		-740,
+		0,
+		0.75
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.199,
+				0.939,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				1.27,
+				2.373,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.681,
+						2.382,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		-206,
+		-730,
+		0,
+		0.81
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-796,
+				-310,
+				2,
+				0,
+				160,
+				2
+			},
+			{
+				253,
+				-133,
+				2,
+				152,
+				0,
+				2
+			},
+			{
+				853,
+				-436,
+				2,
+				0,
+				-127,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11700020] = {
+	name = "2B",
+	change_skin = "",
+	desc = "나는 요르하 2호 B형… 요르하 부대에 소속된 범용 전투 모델 안드로이드야. 호칭은 2B라고 불러도 좋아. 여기가 어디인지는 알 수 없지만, 협력 요청에는 응하겠어. 인류를 위해 싸우는 것이 우리의 사명이니까.",
+	illustrator2 = -1,
+	ship_group = 1170002,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "2B",
+	lover_hand = "hand_2_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 11700020,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "2B",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 31,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.331,
+				0.957,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.432,
+				0.966,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				1.202,
+				2.418,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.609,
+						2.334,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[11700021] = {
+	name = "찰나의 휴식",
+	change_skin = "",
+	desc = "주위의 안전 확인. 지금부터 규정 시간 동안 슬립 모드로 이행. ――우리 안드로이드에게 휴식은 필수 사항이 아니야. 하지만 이곳의 고요한 분위기는, 왠지 그렇게 하라고 재촉하는 것 같아.",
+	illustrator2 = -1,
+	ship_group = 1170002,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "2B_2",
+	lover_hand = "hand_2_02",
+	skin_type = 0,
+	shop_type_id = 7,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "450",
+	bgm = "nier-az-story",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 11700021,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "2B_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71380,
+	voice_actor = 31,
+	shop_dynamic_hx = 0,
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		6,
+		2,
+		5
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		100,
+		-753,
+		0,
+		0.56
+	},
+	spine_offset_profile = {
+		164,
+		-739,
+		0,
+		0.55
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.199,
+				0.939,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				1.27,
+				2.373,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.681,
+						2.382,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		-77,
+		-747,
+		0,
+		0.56
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-1661,
+				65,
+				2,
+				0,
+				160,
+				2
+			},
+			{
+				-510,
+				659,
+				2,
+				160,
+				0,
+				2
+			},
+			{
+				278,
+				-229,
+				2,
+				0,
+				-148,
+				2
+			}
+		}
+	}
+}
+
+
 _G.pg.base.ship_skin_template[299010] = {
 	name = "넵튠",
 	change_skin = "",
@@ -357164,7 +357748,7 @@ _G.pg.base.ship_skin_template[499063] = {
 		show = 1,
 		data = {
 			{
-				1270,
+				1200,
 				356,
 				2,
 				0,

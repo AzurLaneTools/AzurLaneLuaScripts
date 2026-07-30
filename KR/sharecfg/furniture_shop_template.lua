@@ -3034,7 +3034,8 @@ pg.furniture_shop_template.all = {
 	339112,
 	339113,
 	339114,
-	339115
+	339115,
+	340105
 }
 pg.base = pg.base or {}
 pg.base.furniture_shop_template = {}
@@ -66793,6 +66794,42 @@ end)()
 					2026,
 					7,
 					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.furniture_shop_template[340105] = {
+		not_for_sale = 0,
+		gem_price = 150,
+		id = 340105,
+		collaboration_furniture_time = "",
+		discount = 0,
+		dorm_icon_price = 0,
+		new = 1,
+		discount_time = "",
+		time = {
+			{
+				{
+					2026,
+					7,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					12
 				},
 				{
 					23,

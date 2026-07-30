@@ -126,7 +126,8 @@ pg.backyard_theme_template.all = {
 	136,
 	137,
 	138,
-	139
+	139,
+	140
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5399,6 +5400,30 @@ end)()
 			339112,
 			339113,
 			339114
+		}
+	}
+	pg.base.backyard_theme_template[140] = {
+		Cfg_1 = 5,
+		name = "벙커 선실",
+		desc = "위성 궤도를 도는 벙커의 거주 구역. 모노톤을 기반으로 한 단조로운 공간에서 잠시나마 휴식을 취해 보자.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 140,
+		id = 140,
+		icon = "nierthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			340001,
+			340002,
+			340101,
+			340102,
+			340103,
+			340104
 		}
 	}
 end)()

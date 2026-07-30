@@ -525787,6 +525787,1050 @@ _G.pg.base.ship_data_statistics[11500064] = {
 }
 
 
+_G.pg.base.ship_data_statistics[11700011] = {
+	nationality = 117,
+	oxy_max = 0,
+	type = 3,
+	name = "A2",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11700011,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "A2",
+	oxy_cost = 0,
+	skin_id = 11700010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		787,
+		52,
+		0,
+		40,
+		0,
+		74,
+		0,
+		46,
+		18,
+		28,
+		73,
+		0
+	},
+	attrs_growth = {
+		22426,
+		709,
+		0,
+		879,
+		0,
+		513,
+		0,
+		660,
+		299,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.6,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"NieR"
+	},
+	gift_dislike = {
+		180007,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11700012] = {
+	nationality = 117,
+	oxy_max = 0,
+	type = 3,
+	name = "A2",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11700012,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "A2",
+	oxy_cost = 0,
+	skin_id = 11700010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		979,
+		65,
+		0,
+		50,
+		0,
+		74,
+		0,
+		46,
+		18,
+		28,
+		73,
+		0
+	},
+	attrs_growth = {
+		22426,
+		709,
+		0,
+		879,
+		0,
+		513,
+		0,
+		660,
+		299,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.02,
+		0.62,
+		1.02
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"NieR"
+	},
+	gift_dislike = {
+		180007,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11700013] = {
+	nationality = 117,
+	oxy_max = 0,
+	type = 3,
+	name = "A2",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11700013,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "A2",
+	oxy_cost = 0,
+	skin_id = 11700010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1363,
+		91,
+		0,
+		70,
+		0,
+		74,
+		0,
+		46,
+		18,
+		28,
+		73,
+		0
+	},
+	attrs_growth = {
+		22426,
+		709,
+		0,
+		879,
+		0,
+		513,
+		0,
+		660,
+		299,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		0.65,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"NieR"
+	},
+	gift_dislike = {
+		180007,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11700014] = {
+	nationality = 117,
+	oxy_max = 0,
+	type = 3,
+	name = "A2",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11700014,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "A2",
+	oxy_cost = 0,
+	skin_id = 11700010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1939,
+		130,
+		0,
+		99,
+		0,
+		74,
+		0,
+		46,
+		18,
+		28,
+		73,
+		0
+	},
+	attrs_growth = {
+		22426,
+		709,
+		0,
+		879,
+		0,
+		513,
+		0,
+		660,
+		299,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		0.7,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"NieR"
+	},
+	gift_dislike = {
+		180007,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11700021] = {
+	nationality = 117,
+	oxy_max = 0,
+	type = 2,
+	name = "2B",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11700021,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "2B",
+	oxy_cost = 0,
+	skin_id = 11700020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		642,
+		29,
+		0,
+		71,
+		0,
+		68,
+		0,
+		55,
+		31,
+		40,
+		84,
+		24
+	},
+	attrs_growth = {
+		18281,
+		407,
+		0,
+		1478,
+		0,
+		470,
+		0,
+		788,
+		600,
+		0,
+		0,
+		268
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.7,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"NieR"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11700022] = {
+	nationality = 117,
+	oxy_max = 0,
+	type = 2,
+	name = "2B",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11700022,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "2B",
+	oxy_cost = 0,
+	skin_id = 11700020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		799,
+		36,
+		0,
+		88,
+		0,
+		68,
+		0,
+		55,
+		31,
+		40,
+		84,
+		30
+	},
+	attrs_growth = {
+		18281,
+		407,
+		0,
+		1478,
+		0,
+		470,
+		0,
+		788,
+		600,
+		0,
+		0,
+		268
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		0.7,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"NieR"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11700023] = {
+	nationality = 117,
+	oxy_max = 0,
+	type = 2,
+	name = "2B",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11700023,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "2B",
+	oxy_cost = 0,
+	skin_id = 11700020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1112,
+		51,
+		0,
+		123,
+		0,
+		68,
+		0,
+		55,
+		31,
+		40,
+		84,
+		42
+	},
+	attrs_growth = {
+		18281,
+		407,
+		0,
+		1478,
+		0,
+		470,
+		0,
+		788,
+		600,
+		0,
+		0,
+		268
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.7,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"NieR"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11700024] = {
+	nationality = 117,
+	oxy_max = 0,
+	type = 2,
+	name = "2B",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11700024,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "2B",
+	oxy_cost = 0,
+	skin_id = 11700020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1581,
+		73,
+		0,
+		175,
+		0,
+		68,
+		0,
+		55,
+		31,
+		40,
+		84,
+		59
+	},
+	attrs_growth = {
+		18281,
+		407,
+		0,
+		1478,
+		0,
+		470,
+		0,
+		788,
+		600,
+		0,
+		0,
+		268
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.7,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"NieR"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[299011] = {
 	nationality = 2,
 	oxy_max = 0,

@@ -270,6 +270,7 @@ pg.memory_group.all = {
 	367,
 	368,
 	369,
+	370,
 	501,
 	502,
 	503,
@@ -7228,6 +7229,22 @@ end)()
 			5249
 		}
 	}
+	pg.base.memory_group[370] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 50841,
+		title = "자동 보병 인형의 여행",
+		auto_unlock = "",
+		subtype = 2,
+		id = 370,
+		group_id = "",
+		memories = {
+			5261,
+			5262,
+			5263
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7965,6 +7982,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[535] = {
 		ship_group = 30121,
 		icon = "title_chara_chuchun",
@@ -7987,8 +8006,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[536] = {
 		ship_group = 10310,
 		icon = "title_chara_wensensi",

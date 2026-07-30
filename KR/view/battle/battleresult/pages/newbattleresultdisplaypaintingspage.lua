@@ -122,8 +122,8 @@ slot0.InitSubFleetShips = function(slot0, slot1)
 		slot9.localPosition = slot0:GetExpandPosition(#slot2, slot8)
 
 		table.insert(slot4, function (slot0)
-			uv0:AdjustPainting(uv1, uv2)
-			setPaintingPrefabAsync(uv1:Find("mask/painting"), uv2:getPainting(), "biandui", slot0)
+			setPaintingPrefabAsync(uv0:Find("mask/painting"), uv1:getPainting(), "biandui", slot0)
+			uv2:AdjustPainting(uv0, uv1)
 		end)
 	end
 

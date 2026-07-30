@@ -6769,7 +6769,7 @@ _G.pg.base.gametip.word_shipNation_ssss = {
 
 
 _G.pg.base.gametip.word_shipNation_mot = {
-	tip = "MOT"
+	tip = "템페스타"
 }
 
 
@@ -6819,7 +6819,12 @@ _G.pg.base.gametip.word_shipNation_dal = {
 
 
 _G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
-	tip = "LDP"
+	tip = "페드레리아"
+}
+
+
+_G.pg.base.gametip.word_shipNation_nierautomata = {
+	tip = "NieR Automata"
 }
 
 
@@ -14720,9 +14725,9 @@ _G.pg.base.gametip.blueprint_simulation_confirm_89905 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_49911 = {
 	tip = [[
 <size=28>
-탄막 확인 기능(모의전)을 기동하시겠습니까? 
-(※ 실제 함선 성능과 다름)
-사용 장비: <color=#ff5c5c>
+탄막 확인 기능(모의전)을 기동하시겠습니까?
+<color=#ff5c5c>(※ 실제 함선 성능과 다름)
+사용 장비: <color=#92fc63>
 시제형 함상식 La-9
 시제 함재형 Ta 152 C-1/R14
 시제형 함상식 La-9
@@ -49302,6 +49307,341 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.nier_a2_text_block_day1 = {
+	tip = {
+		{
+			info = "A2는 자신이 어느샌가 홀로 금속제의 복도를 걷고 있다는 사실을 깨달았다. 복도는 끝없이 이어져 있었고, 창밖에는 하늘 높이 솟은 건물들이 즐비해 있었다."
+		},
+		{
+			info = [[
+//:구역 식별: NODE-A-1
+//:스테이지 식별: 1-7
+//:접속 코드: D.O.S
+<b>A2</b>: 함정? 어느 사이에……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day2 = {
+	tip = {
+		{
+			info = "그럼에도 A2는 어떻게든 복도 끝에 있는 문에 도달했다. 굳게 닫힌 문을 조사하며, 데이터베이스 안에서 앞으로 나아가기 위한 「열쇠」를 찾기 시작한다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-A-7
+//:스테이지 식별: 2-7
+//:접속 코드: ▇▇▇▇
+//:접속 코드 업데이트: HELLO
+<b>A2</b>: 이런 문은 부수고 나가는 게 편한데…… 음? 코드가 변경되어 있군……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day3 = {
+	tip = {
+		{
+			info = "문이 열림과 동시에 복도의 구조가 변모한다. 아무것도 없는 곳에 갑자기 나타난 방 안에서, A2는 지도를 손에 넣었다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-A-3
+//:스테이지 식별: 3-7
+//:접속 코드: ▇▇▇▇
+//:접속 코드 업데이트: REVISEDMAP
+<b>A2</b>: 지도는 정확해 보이는군…… 외부에서 지원해 주는 게 틀림없어. 하지만 대체 누가? ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day4 = {
+	tip = {
+		{
+			info = "지도를 따라 혈관처럼 복잡하게 얽힌 복도를 거침없이 나아가는 A2. 중요 물자 보관소라고 적힌 방에서, 그녀는 처음 보는 장비를 발견했다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-A-4
+//:스테이지 식별: 4-7
+//:접속 코드: ▇▇▇▇
+//:접속 코드 업데이트: UPGRADE
+<b>A2</b>:  이 장비… 맞춤 제작된 건가?]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day5 = {
+	tip = {
+		{
+			info = "특수 구역에 도달할 때마다 지도가 업데이트된다는 사실을 깨닫는 A2. 그 구역이 특수 구역인지 판정하는 기준은―― 접속 코드가 「의미가 통하는 단어」인가 아닌가였다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-A-5
+//:스테이지 식별: 5-7
+//:접속 코드: DREAMWEAVER
+<b>A2</b>: ……안드로이드는 꿈을 꾸지 않는다고.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day6 = {
+	tip = {
+		{
+			info = "복도가 방으로 연결되고, 방이 다시 새로운 복도로 이어진다. 무한 루프에 빠진 듯한 상황 속에서, 유일하게 명확한 변화를 보인 것은 특수 구역의 접속 코드뿐이었다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-A-6
+//:스테이지 식별: 6-7
+//:접속 코드: UNKNOWN_UNDEFINED
+<b>A2</b>: ……접속 코드는 이게 맞는 건가? ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day7 = {
+	tip = {
+		{
+			info = "결국 인내심의 한계에 도달한 A2가 지도를 버리고 강행 돌파를 시도하려던 그때, 출구를 나타내는 방이 지도에 표시되었다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-A-7
+//:스테이지 식별: 7-7
+//:접속 코드: ▇▇▇▇
+//:접속 코드 업데이트: EXIT
+<b>A2</b>: 이제 나갈 수 있다는 뜻인가? 협력해줘서 고맙군. 바깥 세상은 어떻게 되어 있으려나……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_a2_text_block_day_fin = {
+	tip = {
+		{
+			info = ""
+		},
+		{
+			info = "//:HAPPEENDING"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day1 = {
+	tip = {
+		{
+			info = "2B는 자신이 어느샌가 바닷가에 서 있다는 사실을 깨닫는다. 눈앞에 다가온 바다와 하늘은 알 수 없는 위험을 품은 것처럼 어둡고 탁한 회청색으로 물들어 있다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-B-1
+//:스테이지 식별: 1-7
+//:접속 코드: MIRRORSEA
+<b>2B</b>포드가 없어…… 여기는… 바다인가? ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day2 = {
+	tip = {
+		{
+			info = "예상대로 적들이 차례로 몰려왔다. 신중하게 대처하며 적들을 물리친 2B는 처음 보는 새로운 적들을 조사한다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-B-2
+//:스테이지 식별: 2-7
+//:접속 코드: EXECUTOR
+<b>2B</b>방금 그 적은 기계생명체가 아니었던 것 같은데……]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day3 = {
+	tip = {
+		{
+			info = "모래사장 끝에는 커다란 문이 홀로 서 있었다. 문을 통과하자, 그 앞에는 밀폐된 공간이 펼쳐져 있었고, 그 중앙에는 모델명을 알 수 없는 장비가 조용히 격납되어 있었다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-B-3
+//:스테이지 식별: 3-7
+//:접속 코드: ▇▇▇▇
+//:접속 코드 업데이트: UPGRADE
+<b>2B</b>「의장」? 이 장비… 해전에 특화되어 있는 듯해. 사용하는 데 위험은 없어 보여.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day4 = {
+	tip = {
+		{
+			info = "손에 넣은 장비를 몸에 걸치자 방 안에 책장이 나타났고, 그와 호응하듯 유독 존재감을 드러내는 반쯤 열린 문이 모습을 드러냈다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-B-4
+//:스테이지 식별: 4-7
+//:접속 코드: ▇▇▇▇
+//:접속 코드 업데이트: SKILLBOOK
+<b>2B</b>공격, 방어, 지원…… 스킬북? ……으흠, 장비를 다루기 위한 물건인 모양이군.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day5 = {
+	tip = {
+		{
+			info = "방 밖으로 이어져 있던 것은 다음 구역으로 통하는 복도였다. 그 앞은 또 다른 복도와 방으로 이어진다…… 마치 끝 따위는 존재하지 않는 듯한 착각마저 든다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-B-5
+//:스테이지 식별: 5-7
+//:접속 코드: VITUALTOWER
+<b>2B</b>……아마도 여기는 거대 건축물의 내부겠지.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day6 = {
+	tip = {
+		{
+			info = "전혀 구분할 수 없는 문을 여러 번 밀어 열어젖힌 끝에, 다시 한번 2B의 시야에 회청색 하늘과 바다가 나타났다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-B-6
+//:스테이지 식별: 6-7
+//:접속 코드: EXPERIMENTERSYSTEM
+<b>2B</b>다시 바다…… 지금까지의 경향으로 보면 틀림없이 적이 출현하겠지.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day7 = {
+	tip = {
+		{
+			info = "전투를 마치고 문을 지나자, 보급 물자가 정연하게 늘어선 방이 나타났다. 안에는 활짝 열려 있는 문이 있었고, 그 너머로 거칠게 넘실거리는 파도가 또렷이 보였다. "
+		},
+		{
+			info = [[
+//:구역 식별: NODE-B-2
+//:스테이지 식별: 7-7
+//:접속 코드: ▇▇▇▇
+//:접속 코드 업데이트: EXIT
+<b>2B</b>출구…… 함정일지도 모르지만, 지금은 탈출이 우선이야.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_2b_text_block_day_fin = {
+	tip = {
+		{
+			info = ""
+		},
+		{
+			info = "//:HAPPEENDING"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.nier_core_countdown = {
+	tip = "남은 시간: $1일 $2시간"
+}
+
+
+_G.pg.base.gametip.nier_core_award_check = {
+	tip = "보상 확인"
+}
+
+
+_G.pg.base.gametip.nier_core_task_desc = {
+	tip = "임의의 적 격퇴"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_day = {
+	tip = "DAY$1"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_unlock_desc = {
+	tip = "$1월 $2일에 오픈"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_detail = {
+	tip = "상세 내용 확인"
+}
+
+
+_G.pg.base.gametip.nier_a2_mission_progress = {
+	tip = "현재 진척도"
+}
+
+
+_G.pg.base.gametip.nier_award_char = {
+	tip = "캐릭터"
+}
+
+
+_G.pg.base.gametip.nier_award_furniture = {
+	tip = "가구"
+}
+
+
+_G.pg.base.gametip.nier_award_equip_skin = {
+	tip = "장비 스킨"
+}
+
+
+_G.pg.base.gametip.nier_award_sp_equip = {
+	tip = "특수 장비"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_3 = {
+	tip = "2B의 여행"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_1 = {
+	tip = "자동 보병 인형의 여행"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_5 = {
+	tip = "보상 목록"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_4 = {
+	tip = "특별 스테이지"
+}
+
+
+_G.pg.base.gametip.NieRAutomataCoreActivityUI_subtitle_2 = {
+	tip = "A2의 여행"
+}
+
+
 _G.pg.base.gametip.dorm3d_carwash_button = {
 	tip = "미니 게임"
 }
@@ -49375,16 +49715,485 @@ _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 }
 
 
-_G.pg.base.gametip.ConsumeGem_tip = {
+_G.pg.base.gametip.auction_help = {
 	tip = {
 		{
-			info = "远航回礼说明："
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_1"
+			}
 		},
 		{
-			info = "1.活动期间，通过在游戏内消耗钻石，累计达到指定数量，可以在活动页面领取阶段奖励。"
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_2"
+			}
 		},
 		{
-			info = "2.该活动仅消耗钻石生效，商店内的直购礼包不参与活动。"
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_5"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_6"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_7"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/auction_help_8"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
 		}
 	}
+}
+
+
+_G.pg.base.gametip.auction_currency_noenough = {
+	tip = "코인이 부족합니다."
+}
+
+
+_G.pg.base.gametip.auction_preorder_tips = {
+	tip = "코인 $1개를 사용하여 오토 입찰을 예약하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.auction_preorder_tips_1 = {
+	tip = "시간이 경과된 후에 오토 입찰 결과를 확인할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_0 = {
+	tip = "전체"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_1 = {
+	tip = "N"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_2 = {
+	tip = "R"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_3 = {
+	tip = "SR"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_4 = {
+	tip = "SSR"
+}
+
+
+_G.pg.base.gametip.auction_game_rarity_5 = {
+	tip = "UR"
+}
+
+
+_G.pg.base.gametip.auction_game_punishment = {
+	tip = "장시간 조작이 없었거나 게임이 정상적으로 종료되지 않아, 일정 기간 동안 매칭할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.auction_game_match_forbidden = {
+	tip = "현재는 매칭할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.auction_game_match_warning = {
+	tip = "경매 진행 중에 게임을 종료하면 수익을 획득할 수 없으며, 참가비만 소모됩니다."
+}
+
+
+_G.pg.base.gametip.auction_game_bid_phase = {
+	tip = "입찰 시작"
+}
+
+
+_G.pg.base.gametip.auction_game_kick = {
+	tip = "장시간 조작이 없어 경매에서 자동으로 기권 처리되었습니다."
+}
+
+
+_G.pg.base.gametip.auction_game_nobid_tip = {
+	tip = "입찰 금액이 최저가에 미달하여 유찰됩니다."
+}
+
+
+_G.pg.base.gametip.auction_game_cannot_forfeit = {
+	tip = "이미 입찰했으므로 기권할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.auction_game_forfeit_tip = {
+	tip = "기권하면 경매가 종료될 때까지 입찰할 수 없습니다. 기권하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.auction_game_wait_bid_phase = {
+	tip = "입찰 전입니다."
+}
+
+
+_G.pg.base.gametip.auction_game_min_bid = {
+	tip = "$1 이상의 금액으로 입찰해야 합니다."
+}
+
+
+_G.pg.base.gametip.auction_game_bid_confirm = {
+	tip = "$1에 입찰하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.auction_game_exceeds_max_value = {
+	tip = "경매 코인 보유량이 최대치에 도달했습니다."
+}
+
+
+_G.pg.base.gametip.auction_game_prepare = {
+	tip = "경매 준비 중……"
+}
+
+
+_G.pg.base.gametip.auction_main_handbook = {
+	tip = "출품물 도감"
+}
+
+
+_G.pg.base.gametip.auction_main_public_notice = {
+	tip = "게시판"
+}
+
+
+_G.pg.base.gametip.auction_main_done = {
+	tip = "완료"
+}
+
+
+_G.pg.base.gametip.auction_main_doing = {
+	tip = "생각 중"
+}
+
+
+_G.pg.base.gametip.auction_main_personal_event = {
+	tip = "개인 이벤트"
+}
+
+
+_G.pg.base.gametip.auction_main_public_event = {
+	tip = "전체 이벤트"
+}
+
+
+_G.pg.base.gametip.auction_main_select_event = {
+	tip = "개인 이벤트 선택"
+}
+
+
+_G.pg.base.gametip.auction_main_pt = {
+	tip = "보유"
+}
+
+
+_G.pg.base.gametip.auction_main_bid_price = {
+	tip = "입찰 완료:"
+}
+
+
+_G.pg.base.gametip.auction_main_win = {
+	tip = "낙찰"
+}
+
+
+_G.pg.base.gametip.auction_main_fail = {
+	tip = "유찰"
+}
+
+
+_G.pg.base.gametip.auction_main_match_exit = {
+	tip = "매칭을 취소하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.auction_settlement_quick = {
+	tip = "스킵"
+}
+
+
+_G.pg.base.gametip.auction_settlement_session = {
+	tip = "경매"
+}
+
+
+_G.pg.base.gametip.auction_settlement_name = {
+	tip = "낙찰자"
+}
+
+
+_G.pg.base.gametip.auction_settlement_price = {
+	tip = "낙찰 금액"
+}
+
+
+_G.pg.base.gametip.auction_settlement_value = {
+	tip = "총 가치"
+}
+
+
+_G.pg.base.gametip.auction_settlement_revenue = {
+	tip = "수익"
+}
+
+
+_G.pg.base.gametip.auction_settlement_dividend = {
+	tip = "분배금"
+}
+
+
+_G.pg.base.gametip.auction_block_emoji = {
+	tip = "이모티콘 비표시"
+}
+
+
+_G.pg.base.gametip.auction_ready = {
+	tip = "경매 준비 중"
+}
+
+
+_G.pg.base.gametip.auction_cancel = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.auction_confirm = {
+	tip = "확정"
+}
+
+
+_G.pg.base.gametip.auction_signin_task = {
+	tip = "임무"
+}
+
+
+_G.pg.base.gametip.auction_signin_goto = {
+	tip = "경매로 이동"
+}
+
+
+_G.pg.base.gametip.auction_signin_collect = {
+	tip = "일괄 수령"
+}
+
+
+_G.pg.base.gametip.auction_pt_tip = {
+	tip = "획득 완료"
+}
+
+
+_G.pg.base.gametip.auction_pt_collected = {
+	tip = "경매로 이동"
+}
+
+
+_G.pg.base.gametip.auction_pt_info = {
+	tip = "※ 보상은 8/26(수) 23:59까지 획득 가능"
+}
+
+
+_G.pg.base.gametip.auction_not_enough_assets = {
+	tip = "필요 코인: $1"
+}
+
+
+_G.pg.base.gametip.auction_forbidden_tip = {
+	tip = "$1 후에 다시 매칭할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.auction_value = {
+	tip = "출품물 가치"
+}
+
+
+_G.pg.base.gametip.auction_ticket = {
+	tip = "참가비"
+}
+
+
+_G.pg.base.gametip.auction_matching = {
+	tip = "매칭 중"
+}
+
+
+_G.pg.base.gametip.auction_assistant = {
+	tip = "캐릭터 표시"
+}
+
+
+_G.pg.base.gametip.auction_activity_closed = {
+	tip = "이벤트 종료"
+}
+
+
+_G.pg.base.gametip.auction_activity_closed_tip = {
+	tip = "이벤트가 종료되었습니다."
+}
+
+
+_G.pg.base.gametip.auction_collection_title = {
+	tip = "출품물 도감"
+}
+
+
+_G.pg.base.gametip.auction_tab_text_1 = {
+	tip = "경매"
+}
+
+
+_G.pg.base.gametip.auction_tab_text_2 = {
+	tip = "출품물 등록"
+}
+
+
+_G.pg.base.gametip.auction_matches_title = {
+	tip = "참가 횟수"
+}
+
+
+_G.pg.base.gametip.auction_success_cnt_title = {
+	tip = "낙찰 횟수"
+}
+
+
+_G.pg.base.gametip.auction_success_rate_title = {
+	tip = "경매 승률"
+}
+
+
+_G.pg.base.gametip.auction_currency_title = {
+	tip = "보유 코인"
+}
+
+
+_G.pg.base.gametip.auction_total_profit_title = {
+	tip = "총 수익"
+}
+
+
+_G.pg.base.gametip.auction_highest_profit_title = {
+	tip = "최고 수익"
+}
+
+
+_G.pg.base.gametip.auction_collection_type_title = {
+	tip = "출품물 종류"
+}
+
+
+_G.pg.base.gametip.auction_collection_price_title = {
+	tip = "총 가치"
+}
+
+
+_G.pg.base.gametip.auction_task_daily = {
+	tip = "데일리"
+}
+
+
+_G.pg.base.gametip.auction_task_challenge = {
+	tip = "1회 한정"
+}
+
+
+_G.pg.base.gametip.auction_bid_keyboard_clear = {
+	tip = "초기화"
+}
+
+
+_G.pg.base.gametip.auction_round_instant_buy = {
+	tip = "현재 즉시 낙찰 배율: $1"
+}
+
+
+_G.pg.base.gametip.auction_collect_unlock = {
+	tip = "오픈 완료:"
+}
+
+
+_G.pg.base.gametip.auction_show_common_event = {
+	tip = "전체 이벤트 표시"
+}
+
+
+_G.pg.base.gametip.auction_show_personal_event = {
+	tip = "개인 이벤트 표시"
+}
+
+
+_G.pg.base.gametip.auction_store_estimate = {
+	tip = "표시 중인 가치 범위: $1 ~ $2"
+}
+
+
+_G.pg.base.gametip.auction_relief_tip = {
+	tip = "추가 자금 수령 가능\n잊지 말고 수령하세요"
+}
+
+
+_G.pg.base.gametip.auction_relief_tip_2 = {
+	tip = "보유 코인이 500,000 이하이므로 추가 자금(코인×500,000)을 수령할 수 있습니다.\n오늘 남은 수령 가능 횟수 $1/$2"
+}
+
+
+_G.pg.base.gametip.donot_send_emoji_frequently = {
+	tip = "잠시 후 다시 시도해 주세요"
+}
+
+
+_G.pg.base.gametip.nier_a2_item_got = {
+	tip = "수령 완료"
+}
+
+
+_G.pg.base.gametip.auction_network_timeout = {
+	tip = "네트워크 이상으로 경매에서 나갔습니다"
 }

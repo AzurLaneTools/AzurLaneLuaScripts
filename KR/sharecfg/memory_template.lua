@@ -4154,6 +4154,9 @@ pg.memory_template.all = {
 	5235,
 	5236,
 	5237,
+	5261,
+	5262,
+	5263,
 	5251,
 	5252,
 	5253,
@@ -79248,6 +79251,60 @@ end)()
 			"LAFEIER7"
 		}
 	}
+	pg.base.memory_template[5261] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "프롤로그",
+		condition = "이벤트 시작",
+		story = "ZIDONGBUBINGRENXINGZHILV1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5261,
+		icon = "memory_zidongbubingrenxingzhilv",
+		is_open = 0,
+		unlock_pre = {
+			"ZIDONGBUBINGRENXINGZHILV1"
+		}
+	}
+	pg.base.memory_template[5262] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "NODE-A",
+		condition = "「A2의 여행」 클리어",
+		story = "ZIDONGBUBINGRENXINGZHILV2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5262,
+		icon = "memory_zidongbubingrenxingzhilv",
+		is_open = 0,
+		unlock_pre = {
+			"ZIDONGBUBINGRENXINGZHILV2"
+		}
+	}
+	pg.base.memory_template[5263] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "NODE-B",
+		condition = "「2B의 여행」 클리어",
+		story = "ZIDONGBUBINGRENXINGZHILV3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5263,
+		icon = "memory_zidongbubingrenxingzhilv",
+		is_open = 0,
+		unlock_pre = {
+			"ZIDONGBUBINGRENXINGZHILV3"
+		}
+	}
 	pg.base.memory_template[5251] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80094,6 +80151,8 @@ end)()
 			"NEPU_DAILY2"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10038] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80148,8 +80207,6 @@ end)()
 			"NEPU_DAILY5"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10041] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81896,6 +81953,8 @@ end)()
 			"LINGHANGYUANTANXIN9"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20061] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81950,8 +82009,6 @@ end)()
 			"LINGHANGYUANTANXIN12"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20064] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83698,6 +83755,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA12"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20162] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83752,8 +83811,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA15"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20165] = {
 		ship_group = 0,
 		subtitle = "",

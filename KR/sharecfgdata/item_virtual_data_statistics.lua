@@ -260182,3 +260182,107 @@ _G.pg.base.item_virtual_data_statistics[200820] = {
 		}
 	}
 }
+
+
+_G.pg.base.item_virtual_data_statistics[970001] = {
+	drop_gold_max = 0,
+	name = "경매 코인",
+	display = "경매 전용 가상 칩.…… 주의: 사용한 코인은 다시 획득할 수 있지만, 낙찰받은 출품물은 반품 및 교환 불가능!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/auction_coin",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 31,
+	id = 970001,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970002] = {
+	drop_gold_max = 0,
+	name = "출품물 획득 목록",
+	display = "소유자가 낙찰받은 출품물을 상세하게 기록한 문서. 경매 이벤트에서의 눈부신 활약을 증명하는 기록.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/auction_pt_1",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970002,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970003] = {
+	drop_gold_max = 0,
+	name = "경매 이모티콘",
+	display = "획득하면 경매 시리즈 채팅 이모티콘(1~4) 오픈 가능\n채팅 이모티콘의 「기본」에서 사용 가능",
+	type = 98,
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/970003",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970003,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[970004] = {
+	drop_gold_max = 0,
+	name = "경매 이모티콘",
+	display = "획득하면 경매 시리즈 채팅 이모티콘(5~9) 오픈 가능\n채팅 이모티콘의 「기본」에서 사용 가능",
+	type = 98,
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/970003",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 970004,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}

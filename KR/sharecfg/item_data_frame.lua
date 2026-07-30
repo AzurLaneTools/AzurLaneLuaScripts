@@ -89,6 +89,7 @@ pg.item_data_frame.all = {
 	611,
 	613,
 	614,
+	615,
 	1001,
 	1002,
 	1003,
@@ -885,6 +886,15 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>대길만재, 복이 돌아 운이 트이리라. 초롱을 높이 걸고, 도는 재물을 집으로 불러들이자.</color>「봄빛 여관 Online」 참여 시 획득",
 		scene = {}
 	}
+	pg.base.item_data_frame[615] = {
+		name = "경매 종결자",
+		gain_by = "",
+		time_second = 0,
+		id = 615,
+		time_limit_type = 0,
+		desc = "모든 이의 시선을 한몸에 받은 당신이야말로 경매의 진정한 전설! \n<color=#A7A7AA>이벤트 「특별 경매」에서 획득 가능</color>",
+		scene = {}
+	}
 	pg.base.item_data_frame[1001] = {
 		name = "스위트 랑데부",
 		gain_by = "",
@@ -1011,6 +1021,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>데이터 스트림 속에 고양이 펀치와 고양이 꼬리 등장! 안녕하세요! 사이버 공간의 고양이가 인사드립니다</color>.\n「교류 숙소」에서 아드미랄 나히모프의 친밀도를 올리면 획득 가능",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10001] = {
 		name = "한계 챌린지·쌍둥이 자리",
 		gain_by = "",
@@ -1020,8 +1032,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>\"쌍둥이 자리\" 한계 챌린지 스테이지 클리어 기념. 자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물.</color>\n\"한계 챌린지\"에서 획득 가능(23.07.01 ~ 23.07.31)",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10002] = {
 		name = "한계 챌린지·게자리",
 		gain_by = "",
