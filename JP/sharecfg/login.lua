@@ -3017,7 +3017,7 @@ pg.base.login = {}
 				{
 					2026,
 					7,
-					30
+					9
 				},
 				{
 					0,
@@ -3029,12 +3029,12 @@ pg.base.login = {}
 				{
 					2026,
 					7,
-					30
+					16
 				},
 				{
-					23,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		},
@@ -3044,7 +3044,7 @@ pg.base.login = {}
 				{
 					2026,
 					7,
-					30
+					9
 				},
 				{
 					0,
@@ -3056,82 +3056,20 @@ pg.base.login = {}
 				{
 					2026,
 					7,
-					30
+					16
 				},
 				{
-					23,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
 	}
 	pg.base.login[94] = {
-		op_play = 0,
+		op_play = 1,
 		effective_channel = 0,
 		id = 94,
-		login_static = "login_qiye",
-		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2026,
-					8,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			"timer",
-			{
-				{
-					2026,
-					8,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.login[95] = {
-		op_play = 0,
-		effective_channel = 0,
-		id = 95,
 		login_static = "login",
 		login_cri = "",
 		bgm = "",
@@ -3140,8 +3078,8 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					8,
-					2
+					7,
+					30
 				},
 				{
 					0,
@@ -3167,8 +3105,8 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					8,
-					2
+					7,
+					30
 				},
 				{
 					0,
@@ -3189,5 +3127,15 @@ pg.base.login = {}
 				}
 			}
 		}
+	}
+	pg.base.login[95] = {
+		op_play = 0,
+		op_time = "stop",
+		effective_channel = 0,
+		date = "stop",
+		id = 95,
+		login_static = "login",
+		login_cri = "",
+		bgm = ""
 	}
 end)()
