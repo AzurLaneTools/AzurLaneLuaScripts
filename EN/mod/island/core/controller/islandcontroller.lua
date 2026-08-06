@@ -89,7 +89,7 @@ end
 
 slot0.InitStrollUnitsAwards = function(slot0)
 	for slot4, slot5 in ipairs(slot0.sceneData.strollUnits) do
-		if slot5:ExistActionFeedback() then
+		if slot5:ExistGreetingActionFeedback() then
 			slot0:NotifiyCore(ISLAND_EVT.SHOW_NPC_ANIMATION_BUBBLE, slot5)
 		end
 	end
@@ -105,6 +105,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddIslandListener(IslandDressUpAgency.MORPH_PLAYER_DRESS, slot0.OnPlayerMorphDress)
 	slot0:AddIslandListener(IslandDressUpAgency.CHANGE_PLAYER_DRESS, slot0.OnPlayerChangeDress)
 	slot0:AddIslandListener(IslandCharacterAgency.CHANGE_CHARACTER_DRESS, slot0.OnShipChangeDress)
+	slot0:AddIslandListener(IslandCharacterAgency.SHIP_SKILL_STATE_CHANGE, slot0.OnShipSkillStateChange)
 	slot0:AddIslandListener(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, slot0.OnSyncDataUpdate)
 	slot0:AddIslandListener(IslandSyncMgr.ISLAND_SYNC_OBJ_UPDATE, slot0.OnSyncObjUpdate)
 	slot0:AddIslandListener(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, slot0.OnCollectSlotUnitInit)
@@ -159,6 +160,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveIslandListener(IslandDressUpAgency.MORPH_PLAYER_DRESS, slot0.OnPlayerMorphDress)
 	slot0:RemoveIslandListener(IslandDressUpAgency.CHANGE_PLAYER_DRESS, slot0.OnPlayerChangeDress)
 	slot0:RemoveIslandListener(IslandCharacterAgency.CHANGE_CHARACTER_DRESS, slot0.OnShipChangeDress)
+	slot0:RemoveIslandListener(IslandCharacterAgency.SHIP_SKILL_STATE_CHANGE, slot0.OnShipSkillStateChange)
 	slot0:RemoveIslandListener(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, slot0.OnSyncDataUpdate)
 	slot0:RemoveIslandListener(IslandSyncMgr.ISLAND_SYNC_OBJ_UPDATE, slot0.OnSyncObjUpdate)
 	slot0:RemoveIslandListener(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, slot0.OnCollectSlotUnitInit)
@@ -322,8 +324,8 @@ end
 
 slot0.OnResetNpcActionFeedback = function(slot0)
 	for slot4, slot5 in ipairs(slot0.sceneData.strollUnits) do
-		if slot5:ExistActionFeedback() then
-			slot5:ClearActionFeedback()
+		if slot5:ExistGreetingActionFeedback() then
+			slot5:ClearGreetingActionFeedback()
 			slot0:NotifiyCore(ISLAND_EVT.HIDE_NPC_ANIMATION_BUBBLE, slot5)
 		end
 	end
@@ -337,6 +339,30 @@ slot0.OnNpcActionFeedBackChange = function(slot0, slot1)
 		if slot6.id == slot1 and slot6:ExistActionFeedback() then
 			slot6:ClearActionFeedback()
 			slot0:NotifiyCore(ISLAND_EVT.HIDE_NPC_ANIMATION_BUBBLE, slot6)
+		end
+	end
+end
+
+slot0.OnShipSkillStateChange = function(slot0, slot1, slot2)
+	slot3 = nil
+
+	for slot7, slot8 in ipairs(slot0.sceneData.strollUnits) do
+		if slot8:IsSameShip(slot1) then
+			slot3 = slot8
+
+			break
+		end
+	end
+
+	if slot3 then
+		if not slot2 then
+			slot3:ClearSkillActionFeedback()
+			slot0:NotifiyCore(ISLAND_EVT.HIDE_NPC_ANIMATION_BUBBLE, slot3)
+		else
+			slot4 = slot0:GetIsland()
+
+			IslandDataConvertor.DistributeShipSkillAward4StrollUnits(slot0.sceneData.strollUnits, slot4, IslandDataConvertor.GetOwnActions(slot4))
+			slot0:InitStrollUnitsAwards()
 		end
 	end
 end

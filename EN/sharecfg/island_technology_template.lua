@@ -35,6 +35,8 @@ pg.island_technology_template.all = {
 	110308,
 	100307,
 	100308,
+	100309,
+	100310,
 	110309,
 	120005,
 	110310,
@@ -239,6 +241,8 @@ pg.island_technology_template.get_id_list_by_tech_belong = {
 		110308,
 		100307,
 		100308,
+		100309,
+		100310,
 		110309,
 		120005,
 		110310,
@@ -1438,6 +1442,66 @@ pg.base.island_technology_template = {}
 		axis = {
 			24,
 			1
+		}
+	}
+	pg.base.island_technology_template[100309] = {
+		complete_title = "You can now check your <color=#1E8FFE>warehouse</color> on the <color=#1E8FFE>management screen</color>.",
+		tech_level = "9",
+		tech_chara = 1,
+		complete_character_id = "",
+		auto_finish = 1,
+		complete_tips = "You can now check your <color=#1E8FFE>warehouse</color> on the <color=#1E8FFE>management screen</color>.",
+		island_level = 42,
+		tech_desc = "Increases the warehouse's capacity. Now you can put more things there!",
+		tech_icon = "tech_100301",
+		tech_belong = 1,
+		tech_name = "Warehouse Capacity+ IX",
+		formula_id = 7100309,
+		id = 100309,
+		complete_map_id = 0,
+		sys_unlock = {
+			{
+				3,
+				100308
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			9.5
+		}
+	}
+	pg.base.island_technology_template[100310] = {
+		complete_title = "You can now check your <color=#1E8FFE>warehouse</color> on the <color=#1E8FFE>management screen</color>.",
+		tech_level = "10",
+		tech_chara = 1,
+		complete_character_id = "",
+		auto_finish = 1,
+		complete_tips = "You can now check your <color=#1E8FFE>warehouse</color> on the <color=#1E8FFE>management screen</color>.",
+		island_level = 52,
+		tech_desc = "Increases the warehouse's capacity. Now you can put more things there!",
+		tech_icon = "tech_100301",
+		tech_belong = 1,
+		tech_name = "Warehouse Capacity+ X",
+		formula_id = 7100310,
+		id = 100310,
+		complete_map_id = 0,
+		sys_unlock = {
+			{
+				3,
+				100309
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			10
 		}
 	}
 	pg.base.island_technology_template[110309] = {
@@ -3544,6 +3608,8 @@ pg.base.island_technology_template = {}
 			4.5
 		}
 	}
+end)()
+(function ()
 	pg.base.island_technology_template[430302] = {
 		complete_title = "You can now raise more Moo Moo Cows with <color=#1E8FFE>Amerigo at Morningdew Farm</color>.",
 		tech_level = "1",
@@ -3608,8 +3674,6 @@ pg.base.island_technology_template = {}
 			6
 		}
 	}
-end)()
-(function ()
 	pg.base.island_technology_template[440302] = {
 		complete_title = "You can now raise more Baa Baa Sheep with <color=#1E8FFE>Amerigo at Morningdew Farm</color>.",
 		tech_level = "1",
@@ -6831,6 +6895,8 @@ end)()
 			9
 		}
 	}
+end)()
+(function ()
 	pg.base.island_technology_template[660206] = {
 		complete_title = "You can now perform <color=#1E8FFE>arts & crafts production</color> with <color=#1E8FFE>Russell in the Base Factory by the harbor</color>.",
 		tech_level = "1",
@@ -6895,8 +6961,6 @@ end)()
 			9
 		}
 	}
-end)()
-(function ()
 	pg.base.island_technology_template[650203] = {
 		complete_title = "You can now perform <color=#1E8FFE>electronics production</color> with <color=#1E8FFE>Russell in the Base Factory by the harbor</color>.",
 		tech_level = "1",

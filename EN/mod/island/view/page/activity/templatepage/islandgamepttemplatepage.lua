@@ -1,14 +1,5 @@
 slot0 = class("IslandGamePtTemplatePage", import("Mod.Island.View.page.activity.IslandBaseActivityPage"))
 
-slot0.OnLoaded = function(slot0)
-	slot1 = slot0._tf
-	slot1 = slot1:GetComponent("ItemList").prefabItem
-
-	_.each(slot1:ToTable(), function (slot0)
-		uv0[slot0.name] = slot0.transform
-	end)
-end
-
 slot0.OnDataSetting = function(slot0)
 	slot0.config = pg.island_activity_pt_page[slot0.activity:getIslandConfig("config_id")]
 	slot0.targetActivity = getProxy(ActivityProxy):getActivityById(slot0.config.activity_id)
@@ -205,6 +196,7 @@ end
 
 slot0.OnDestroy = function(slot0)
 	ClearLScrollrect(slot0.scrollCom)
+	bindComponent(slot0, slot0._tf, true)
 end
 
 slot0.GetTipKey = function(slot0)

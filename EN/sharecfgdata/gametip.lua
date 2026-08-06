@@ -49834,6 +49834,46 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.island_post_btn_set_meal = {
+	tip = "Combo Guide"
+}
+
+
+_G.pg.base.gametip.island_post_btn_sign = {
+	tip = "Daily Supplies"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_1 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_2 = {
+	tip = "Fateful Encounter"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_3 = {
+	tip = "Minigame"
+}
+
+
+_G.pg.base.gametip.Outpost_20260806_rule = {
+	tip = "*Rewards will be unlocked progressively."
+}
+
+
+_G.pg.base.gametip["260806_story_title"] = {
+	tip = "Fateful Encounter"
+}
+
+
+_G.pg.base.gametip["260806_story_title_en"] = {
+	tip = "Fateful Encounter"
+}
+
+
 _G.pg.base.gametip.EscapeManorCoreActivity_subtitle_1 = {
 	tip = "Event"
 }
@@ -50844,4 +50884,9 @@ _G.pg.base.gametip.escape_story_reward_count = {
 
 _G.pg.base.gametip.auction_network_timeout = {
 	tip = "Connection lost. You have left the match."
+}
+
+
+_G.pg.base.gametip.loading_pic_btn = {
+	tip = "Loading Screen"
 }

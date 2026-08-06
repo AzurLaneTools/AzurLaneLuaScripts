@@ -27,12 +27,19 @@ pg.island_action.all = {
 	1022,
 	1023,
 	1024,
+	1025,
+	1026,
+	1027,
+	1028,
+	1029,
+	1030,
 	2000,
 	2001,
 	2002,
 	2003,
 	2004,
-	2005
+	2005,
+	2006
 }
 pg.island_action.get_id_list_by_type = {
 	{
@@ -59,7 +66,13 @@ pg.island_action.get_id_list_by_type = {
 		1021,
 		1022,
 		1023,
-		1024
+		1024,
+		1025,
+		1026,
+		1027,
+		1028,
+		1029,
+		1030
 	},
 	{
 		2000,
@@ -67,7 +80,8 @@ pg.island_action.get_id_list_by_type = {
 		2002,
 		2003,
 		2004,
-		2005
+		2005,
+		2006
 	}
 }
 pg.base = pg.base or {}
@@ -565,6 +579,138 @@ pg.base.island_action = {}
 			}
 		}
 	}
+	pg.base.island_action[1025] = {
+		name = "Point",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "point",
+		desc = "Action - Point",
+		tech_id = 0,
+		id = 1025,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			105,
+			204
+		},
+		jump_page = {
+			{
+				"Season IV - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1026] = {
+		name = "Greet",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "welcome",
+		desc = "Action - Greet",
+		tech_id = 0,
+		id = 1026,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			102,
+			107
+		},
+		jump_page = {
+			{
+				"Season IV - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1027] = {
+		name = "Stare",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "lookover",
+		desc = "Action - Stare",
+		tech_id = 0,
+		id = 1027,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			105,
+			201
+		},
+		jump_page = {
+			{
+				"Season IV - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1028] = {
+		name = "Stuffed",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "slapbelly",
+		desc = "Action - Stuffed",
+		tech_id = 0,
+		id = 1028,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106,
+			207
+		},
+		jump_page = {
+			{
+				"Season IV - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1029] = {
+		name = "Sleepy",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "doze",
+		desc = "Action - Sleepy",
+		tech_id = 0,
+		id = 1029,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			108
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1030] = {
+		name = "Jump",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "jumpinplace",
+		desc = "Action - Jump",
+		tech_id = 0,
+		id = 1030,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			104
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
 	pg.base.island_action[2000] = {
 		chara_sigle_action_reply = "",
 		name = "High Five",
@@ -690,6 +836,29 @@ pg.base.island_action = {}
 			0,
 			0,
 			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[2006] = {
+		chara_sigle_action_reply = "",
+		name = "Group Dance",
+		type = 2,
+		feedback_type = 0,
+		sigle_action_reply_type = 0,
+		resource = "mutidance",
+		desc = "Action - Group Dance",
+		tech_id = 0,
+		id = 2006,
+		responder_feedback = "mutidance_end",
+		respond_point = {
+			0,
+			0,
+			1.41529
 		},
 		jump_page = {
 			{

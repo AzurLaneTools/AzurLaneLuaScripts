@@ -187123,6 +187123,141 @@ _G.pg.base.equip_data_statistics[151191] = {
 }
 
 
+_G.pg.base.equip_data_statistics[151200] = {
+	name = "Master Detective's Hat",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "air",
+	value_2 = 0,
+	icon = "151200",
+	value_1 = "18",
+	rarity = 4,
+	descrip = "Use your sheer intellect to unravel all mysteries!",
+	nationality = 1,
+	ammo = 10,
+	value_3 = 0,
+	id = 151200,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			61120,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[151201] = {
+	id = 151201,
+	value_1 = "22",
+	base = 151200,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151202] = {
+	id = 151202,
+	value_1 = "26",
+	base = 151200,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151203] = {
+	id = 151203,
+	value_1 = "30",
+	base = 151200,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151204] = {
+	id = 151204,
+	value_1 = "34",
+	base = 151200,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151205] = {
+	id = 151205,
+	value_1 = "39",
+	base = 151200,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151206] = {
+	id = 151206,
+	value_1 = "43",
+	base = 151200,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151207] = {
+	id = 151207,
+	value_1 = "47",
+	base = 151200,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151208] = {
+	id = 151208,
+	value_1 = "51",
+	base = 151200,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151209] = {
+	id = 151209,
+	value_1 = "55",
+	base = 151200,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151210] = {
+	id = 151210,
+	value_1 = "60",
+	base = 151200,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[151211] = {
+	anti_siren = 100,
+	base = 151200,
+	id = 151211,
+	value_1 = "65",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[170001] = {
 	name = "专属弹幕-古比雪夫I",
 	tech = 1,

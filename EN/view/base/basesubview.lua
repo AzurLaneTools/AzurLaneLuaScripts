@@ -121,6 +121,7 @@ slot0.Destroy = function(slot0)
 
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:OnDestroy()
+	bindComponent(slot0, slot0._go, true)
 	slot0:disposeEvent()
 	slot0:cleanManagedTween()
 

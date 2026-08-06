@@ -29,6 +29,7 @@ pg.island_furniture_template.all = {
 	100,
 	101,
 	102,
+	103,
 	10101,
 	10201,
 	10301,
@@ -156,7 +157,38 @@ pg.island_furniture_template.all = {
 	40420,
 	40801,
 	40802,
-	40803
+	40803,
+	50173,
+	50176,
+	50179,
+	50203,
+	50207,
+	50234,
+	50300,
+	50301,
+	50302,
+	50304,
+	50305,
+	50306,
+	50307,
+	50308,
+	50309,
+	50310,
+	50311,
+	50312,
+	50313,
+	50314,
+	50315,
+	50316,
+	50318,
+	50319,
+	50320,
+	50321,
+	50322,
+	50325,
+	50347,
+	50348,
+	50349
 }
 pg.base = pg.base or {}
 pg.base.island_furniture_template = {}
@@ -731,7 +763,38 @@ pg.base.island_furniture_template = {}
 			2,
 			2
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"夏季特产经营",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[103] = {
+		setNum = 1,
+		describe = "Ears of wheat flank this giant maple leaf. You can faintly smell the comforting aroma of maple syrup from it.",
+		name = "Autumnal Development Trophy II",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_103",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50004/prefab/pre_item_05_50004",
+		bt = "",
+		id = 103,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"Autumn Specialties",
+				{}
+			}
+		}
 	}
 	pg.base.island_furniture_template[10101] = {
 		setNum = 1,
@@ -2619,6 +2682,8 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_furniture_template[30304] = {
 		setNum = 999,
 		describe = "A beautiful world open to all!",
@@ -2645,8 +2710,6 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_furniture_template[30305] = {
 		setNum = 999,
 		describe = "Enjoy a relaxing afternoon teatime surrounded by the fragrance of sweets.",
@@ -3319,8 +3382,8 @@ end)()
 		id = 40201,
 		tech_id = 0,
 		size = {
-			20,
-			20
+			23,
+			19
 		},
 		interact_point = {
 			20
@@ -4018,6 +4081,807 @@ end)()
 		model = "island/item/05/50196/prefab/pre_item_05_50196",
 		bt = "",
 		id = 40803,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[50173] = {
+		setNum = 999,
+		describe = "A pristine metal fence. Perfect for leaning, photo shoots, and photo shoots where you lean.",
+		name = "White Iron Fence",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50173",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50173/prefab/pre_item_05_50173",
+		bt = "",
+		id = 50173,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"Milestone Rewards",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50176] = {
+		setNum = 999,
+		describe = "A pony on a spring base. You, too, can be a Wild West cowboy!",
+		name = "My Little Spring Rider",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50176",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50176/prefab/pre_item_05_50176",
+		bt = "",
+		id = 50176,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"Milestone Rewards",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50179] = {
+		setNum = 999,
+		describe = "Its canopy is like a pink cloud. When the wind blows, petals scatter for drama.",
+		name = "Sakura Tree",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50179",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50179/prefab/pre_item_05_50179",
+		bt = "",
+		id = 50179,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Milestone Rewards",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50203] = {
+		setNum = 999,
+		describe = "An unfinished game of Go sits atop the table, awaiting your next move.",
+		name = "Stone Go Table",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50203",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50203/prefab/pre_item_05_50203",
+		bt = "",
+		id = 50203,
+		tech_id = 0,
+		size = {
+			4,
+			2
+		},
+		jump_page = {
+			{
+				"Milestone Rewards",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50207] = {
+		setNum = 999,
+		describe = "A wooden table laden with flower pots and gardening tools. The ultimate workbench for any gardener.",
+		name = "Garden Table",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50207",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50207/prefab/pre_item_05_50207",
+		bt = "",
+		id = 50207,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"Milestone Rewards",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50234] = {
+		setNum = 999,
+		describe = "This simple fence oozes rural charm.",
+		name = "Bamboo Fence",
+		type = 4,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50234",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50234/prefab/pre_item_05_50234",
+		bt = "",
+		id = 50234,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50300] = {
+		setNum = 999,
+		describe = "A boathouse fashioned from a grounded ship. It's a real eye-catcher in the middle of town.",
+		name = "Boathouse",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50300",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50300/prefab/pre_item_05_50300",
+		bt = "",
+		id = 50300,
+		tech_id = 0,
+		size = {
+			13,
+			17
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50301] = {
+		setNum = 999,
+		describe = "A makeshift shooting range where cowgirl hopefuls can practice and show off their skills.",
+		name = "Simple Shooting Range",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50301",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50301/prefab/pre_item_05_50301",
+		bt = "",
+		id = 50301,
+		tech_id = 0,
+		size = {
+			22,
+			26
+		},
+		interact_point = {
+			24
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50302] = {
+		setNum = 999,
+		describe = "Barely big enough for one person. Scare them straight early!",
+		name = "Toy Jail",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50302",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50302/prefab/pre_item_05_50302",
+		bt = "",
+		id = 50302,
+		tech_id = 0,
+		size = {
+			4,
+			4
+		},
+		interact_point = {
+			25
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50304] = {
+		setNum = 999,
+		describe = "The manifestation of a cozy life, perfect for daydreaming or napping.",
+		name = "Cozy Rocking Chair",
+		type = 3,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50304",
+		prosperity = 0,
+		capacityCost = 20,
+		model = "island/item/05/50304/prefab/pre_item_05_50304",
+		bt = "",
+		id = 50304,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		interact_point = {
+			26
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50305] = {
+		setNum = 999,
+		describe = "A cart that travels the wilderness, supporting Wild Western towns.",
+		name = "General Goods Cart",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50305",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50305/prefab/pre_item_05_50305",
+		bt = "",
+		id = 50305,
+		tech_id = 0,
+		size = {
+			4,
+			4
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50306] = {
+		setNum = 999,
+		describe = "A place where songs and stories warm the soul.",
+		name = "Campfire Chat",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50306",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50306/prefab/pre_item_05_50306",
+		bt = "",
+		id = 50306,
+		tech_id = 0,
+		size = {
+			9,
+			9
+		},
+		interact_point = {
+			27
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50307] = {
+		setNum = 999,
+		describe = "Baskets of produce and other items are piled up. Look long enough, and you might find a surprise... or a spider.",
+		name = "Fruits and Veggies Stall",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50307",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50307/prefab/pre_item_05_50307",
+		bt = "",
+		id = 50307,
+		tech_id = 0,
+		size = {
+			5,
+			4
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50308] = {
+		setNum = 999,
+		describe = "Common in taverns, reeking of malt.",
+		name = "Oak Barrel",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50308",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50308/prefab/pre_item_05_50308",
+		bt = "",
+		id = 50308,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50309] = {
+		setNum = 999,
+		describe = "A gentle glow lights the weary traveler's way.",
+		name = "Corner Streetlight",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50309",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50309/prefab/pre_item_05_50309",
+		bt = "",
+		id = 50309,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50310] = {
+		setNum = 999,
+		describe = "A coal-burning stove, and a reliable partner in the dead of winter.",
+		name = "Warm Stove",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50310",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50310/prefab/pre_item_05_50310",
+		bt = "",
+		id = 50310,
+		tech_id = 0,
+		size = {
+			4,
+			4
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50311] = {
+		setNum = 999,
+		describe = "Hammer and anvil unite to create a symphony of flame and metal.",
+		name = "Hammer and Anvil",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50311",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50311/prefab/pre_item_05_50311",
+		bt = "",
+		id = 50311,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50312] = {
+		setNum = 999,
+		describe = "Indispensable in any town's major hub, covered in wanted posters, information, and questionable ads.",
+		name = "Town Notice Board",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50312",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50312/prefab/pre_item_05_50312",
+		bt = "",
+		id = 50312,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50313] = {
+		setNum = 999,
+		describe = "A large gate bearing the town's emblem, welcoming all travelers.",
+		name = "Town Gate",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50313",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50313/prefab/pre_item_05_50313",
+		bt = "",
+		id = 50313,
+		tech_id = 0,
+		size = {
+			5,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50314] = {
+		setNum = 999,
+		describe = "Use the lever to raise or lower the hanging cage. The little rat seems to enjoy the gentle ride.",
+		name = "Hanging Rat Cage",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50314",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50314/prefab/pre_item_05_50314",
+		bt = "",
+		id = 50314,
+		tech_id = 0,
+		size = {
+			4,
+			2
+		},
+		interact_point = {
+			28
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50315] = {
+		setNum = 999,
+		describe = "Having been used long past its service life, the windmill creaks with every turn.",
+		name = "Creaky Windmill",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50315",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50315/prefab/pre_item_05_50315",
+		bt = "",
+		id = 50315,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50316] = {
+		setNum = 999,
+		describe = "A fence crafted from logs. As simple as it is, it gets the job done.",
+		name = "Log Fence",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50316",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50316/prefab/pre_item_05_50316",
+		bt = "",
+		id = 50316,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50318] = {
+		setNum = 999,
+		describe = "Tracks that once hauled ore are now little more than rust and memories of the good old days.",
+		name = "Abandoned Railway",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50318",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50318/prefab/pre_item_05_50318",
+		bt = "",
+		id = 50318,
+		tech_id = 0,
+		size = {
+			1,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50319] = {
+		setNum = 999,
+		describe = "This wooden horse statue can be used as a shop's signboard or other decoration.",
+		name = "Wooden Horse Statue",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50319",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50319/prefab/pre_item_05_50319",
+		bt = "",
+		id = 50319,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50320] = {
+		setNum = 999,
+		describe = "A stack of hay. You won't find any needles here.",
+		name = "Haystack",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50320",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50320/prefab/pre_item_05_50320",
+		bt = "",
+		id = 50320,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50321] = {
+		setNum = 999,
+		describe = "A rolling clump of weeds. The Wild West's equivalent of crickets chirping.",
+		name = "Tumbleweed",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50321",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50321/prefab/pre_item_05_50321",
+		bt = "",
+		id = 50321,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50322] = {
+		setNum = 999,
+		describe = "Just about the most common plant in the desert. Lonesome, but hardy... just like a cowboy.",
+		name = "Desert Cactus",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50322",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50322/prefab/pre_item_05_50322",
+		bt = "",
+		id = 50322,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50325] = {
+		setNum = 999,
+		describe = "A fir standing tall even through sandstorms, guiding the traveler's way.",
+		name = "Towering Fir Tree",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50325",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50325/prefab/pre_item_05_50325",
+		bt = "",
+		id = 50325,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50347] = {
+		setNum = 999,
+		describe = "Rugged tiles set atop desert ground. Turn your life into a Western.",
+		name = "Desert Tile (Small)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50347",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50347/prefab/pre_item_05_50347",
+		bt = "",
+		id = 50347,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[50348] = {
+		setNum = 999,
+		describe = "Rugged tiles set atop desert ground. Turn your life into a Western.",
+		name = "Desert Tile (Medium)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50348",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50348/prefab/pre_item_05_50348",
+		bt = "",
+		id = 50348,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[50349] = {
+		setNum = 999,
+		describe = "Rugged tiles set atop desert ground. Turn your life into a Western.",
+		name = "Desert Tile (Large)",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50349",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50349/prefab/pre_item_05_50349",
+		bt = "",
+		id = 50349,
 		tech_id = 0,
 		size = {
 			5,

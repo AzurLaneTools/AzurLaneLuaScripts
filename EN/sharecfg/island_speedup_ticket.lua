@@ -9,18 +9,21 @@ pg.island_speedup_ticket.all = {
 	10004,
 	10005,
 	10006,
+	10007,
 	20001,
 	20002,
 	20003,
 	20004,
 	20005,
 	20006,
+	20007,
 	30001,
 	30002,
 	30003,
 	30004,
 	30005,
-	30006
+	30006,
+	30007
 }
 pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 	[60] = {
@@ -29,7 +32,8 @@ pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 		10003,
 		10004,
 		10005,
-		10006
+		10006,
+		10007
 	},
 	[600] = {
 		20001,
@@ -37,7 +41,8 @@ pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 		20003,
 		20004,
 		20005,
-		20006
+		20006,
+		20007
 	},
 	[3600] = {
 		30001,
@@ -45,7 +50,8 @@ pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 		30003,
 		30004,
 		30005,
-		30006
+		30006,
+		30007
 	}
 }
 pg.base = pg.base or {}
@@ -155,6 +161,30 @@ pg.base.island_speedup_ticket = {}
 				2026,
 				8,
 				5
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+	pg.base.island_speedup_ticket[10007] = {
+		name = "Express Ticket (1 Min.)",
+		rarity = 2,
+		type = 1,
+		duration = 0,
+		speedup_time = 60,
+		desc = "Can be used to shorten an active task by 1 minute. Make tomorrow's developments into today's!",
+		expiration_type = 2,
+		id = 10007,
+		icon = "islandprops/item_speedup_ticket1",
+		icon_normal = "props/item_speedup_ticket1",
+		expiration_time = {
+			{
+				2026,
+				11,
+				4
 			},
 			{
 				23,
@@ -274,6 +304,30 @@ pg.base.island_speedup_ticket = {}
 			}
 		}
 	}
+	pg.base.island_speedup_ticket[20007] = {
+		name = "Express Ticket (10 Min.)",
+		rarity = 3,
+		type = 2,
+		duration = 0,
+		speedup_time = 600,
+		desc = "Can be used to shorten an active task by 10 minutes. Make tomorrow's developments into today's!",
+		expiration_type = 2,
+		id = 20007,
+		icon = "islandprops/item_speedup_ticket2",
+		icon_normal = "props/item_speedup_ticket2",
+		expiration_time = {
+			{
+				2026,
+				11,
+				4
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
 	pg.base.island_speedup_ticket[30001] = {
 		name = "Express Ticket (60 Min.)",
 		rarity = 4,
@@ -377,6 +431,30 @@ pg.base.island_speedup_ticket = {}
 				2026,
 				8,
 				5
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+	pg.base.island_speedup_ticket[30007] = {
+		name = "Express Ticket (60 Min.)",
+		rarity = 4,
+		type = 3,
+		duration = 0,
+		speedup_time = 3600,
+		desc = "Can be used to shorten an active task by 60 minutes. Make tomorrow's developments into today's!",
+		expiration_type = 2,
+		id = 30007,
+		icon = "islandprops/item_speedup_ticket3",
+		icon_normal = "props/item_speedup_ticket3",
+		expiration_time = {
+			{
+				2026,
+				11,
+				4
 			},
 			{
 				23,

@@ -429,7 +429,14 @@ pg.activity_sp_story.all = {
 	466,
 	467,
 	468,
-	469
+	469,
+	471,
+	472,
+	473,
+	474,
+	475,
+	476,
+	477
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -9256,6 +9263,223 @@ end)()
 				4,
 				468
 			}
+		}
+	}
+	pg.base.activity_sp_story[471] = {
+		story_type = 2,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_147",
+		name = "EP-1 Dawn of Winter",
+		story = "2056000",
+		change_bgm = "story-darkplan",
+		id = 471,
+		lock = {
+			{
+				6,
+				27351
+			},
+			{
+				6,
+				27352
+			}
+		},
+		unlock_conditions = {
+			"Complete day 1 event missions",
+			"Complete day 1 event missions"
+		}
+	}
+	pg.base.activity_sp_story[472] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "bg_port_chongdong",
+		name = "EP-2 \"Her\" Arrival",
+		story = "YOUKEZILAI2",
+		change_bgm = "main-arbitrationsystem-theme",
+		id = 472,
+		pre_event = {
+			471
+		},
+		lock = {
+			{
+				4,
+				471
+			},
+			{
+				6,
+				27353
+			},
+			{
+				6,
+				27354
+			}
+		},
+		unlock_conditions = {
+			"Clear EP-1",
+			"Complete day 2 event missions",
+			"Complete day 2 event missions"
+		}
+	}
+	pg.base.activity_sp_story[473] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_322",
+		name = "EP-3 New Connexion",
+		story = "YOUKEZILAI3",
+		change_bgm = "story-richang-light",
+		id = 473,
+		pre_event = {
+			472
+		},
+		lock = {
+			{
+				4,
+				472
+			},
+			{
+				6,
+				27355
+			},
+			{
+				6,
+				27356
+			}
+		},
+		unlock_conditions = {
+			"Clear EP-2",
+			"Complete day 3 event missions",
+			"Complete day 3 event missions"
+		}
+	}
+	pg.base.activity_sp_story[474] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_328",
+		name = "EP-4 What Happened Next",
+		story = "YOUKEZILAI4",
+		change_bgm = "theme-antarctica",
+		id = 474,
+		pre_event = {
+			473
+		},
+		lock = {
+			{
+				4,
+				473
+			},
+			{
+				6,
+				27357
+			},
+			{
+				6,
+				27358
+			}
+		},
+		unlock_conditions = {
+			"Clear EP-3",
+			"Complete day 4 event missions",
+			"Complete day 4 event missions"
+		}
+	}
+	pg.base.activity_sp_story[475] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_603",
+		name = "EP-5 The Winter Wall",
+		story = "YOUKEZILAI5",
+		change_bgm = "story-wanderingcity-future",
+		id = 475,
+		pre_event = {
+			474
+		},
+		lock = {
+			{
+				4,
+				474
+			},
+			{
+				6,
+				27359
+			},
+			{
+				6,
+				27360
+			}
+		},
+		unlock_conditions = {
+			"Clear EP-4",
+			"Complete day 5 event missions",
+			"Complete day 5 event missions"
+		}
+	}
+	pg.base.activity_sp_story[476] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_154",
+		name = "EP-6 Shallow-Layer Investigation",
+		story = "YOUKEZILAI6",
+		change_bgm = "story-darkplan",
+		id = 476,
+		pre_event = {
+			475
+		},
+		lock = {
+			{
+				4,
+				475
+			},
+			{
+				6,
+				27361
+			},
+			{
+				6,
+				27362
+			}
+		},
+		unlock_conditions = {
+			"Clear EP-5",
+			"Complete day 6 event missions",
+			"Complete day 6 event missions"
+		}
+	}
+	pg.base.activity_sp_story[477] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		change_background = "star_level_bg_147",
+		name = "EP-7 The City of the Lost",
+		story = "YOUKEZILAI7",
+		change_bgm = "story-richang-light",
+		id = 477,
+		pre_event = {
+			476
+		},
+		lock = {
+			{
+				4,
+				476
+			},
+			{
+				6,
+				27363
+			},
+			{
+				6,
+				27364
+			}
+		},
+		unlock_conditions = {
+			"Clear EP-6",
+			"Complete day 7 event missions",
+			"Complete day 7 event missions"
 		}
 	}
 end)()

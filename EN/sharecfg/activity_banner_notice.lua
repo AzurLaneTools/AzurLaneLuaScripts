@@ -46,7 +46,8 @@ pg.activity_banner_notice.all = {
 	41,
 	42,
 	43,
-	44
+	44,
+	46
 }
 pg.base = pg.base or {}
 pg.base.activity_banner_notice = {}
@@ -422,6 +423,15 @@ pg.base.activity_banner_notice = {}
 			"scene core activity",
 			{
 				coreName = "EscapeManorCoreActivityUI"
+			}
+		}
+	}
+	pg.base.activity_banner_notice[46] = {
+		id = 46,
+		param = {
+			"scene core activity",
+			{
+				coreName = "RapidSeasideCoreActivityUI"
 			}
 		}
 	}

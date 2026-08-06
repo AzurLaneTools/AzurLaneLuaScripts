@@ -54,6 +54,7 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 
 	slot13 = slot2:Find("get_btn")
 
+	slot0:SetBtnLocal(slot2)
 	setActive(slot2:Find("go_btn"), slot6:getTaskStatus() == 0)
 	setActive(slot13, slot15 == 1)
 	setActive(slot2:Find("got_btn"), slot15 == 2)
@@ -111,6 +112,10 @@ slot0.OnDestroy = function(slot0)
 end
 
 slot0.GetProgressColor = function(slot0)
+	return nil
+end
+
+slot0.SetBtnLocal = function(slot0, slot1)
 	return nil
 end
 

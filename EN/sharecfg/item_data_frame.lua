@@ -65,6 +65,7 @@ pg.item_data_frame.all = {
 	336,
 	337,
 	341,
+	342,
 	406,
 	411,
 	412,
@@ -668,6 +669,15 @@ pg.base.item_data_frame = {}
 		desc = "Sworn to the blade, bound by the letter. The sacred covenant shall endure until life's final hour.\n<color=#A7A7AA>Obtained from the Alliance Before the Hagiobull event</color>.",
 		scene = {}
 	}
+	pg.base.item_data_frame[342] = {
+		name = "Dreams of Astrarium",
+		gain_by = "",
+		time_second = 0,
+		id = 342,
+		time_limit_type = 0,
+		desc = "Obtained in a future event",
+		scene = {}
+	}
 	pg.base.item_data_frame[406] = {
 		name = "Hall of Fame: Laffey ",
 		gain_by = "",
@@ -1010,6 +1020,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Gemini. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 6/15/23 - 6/30/23 Season.",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10002] = {
 		name = "Extreme Challenge - Cancer",
 		gain_by = "",
@@ -1019,8 +1031,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Cancer. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 7/1/23 - 7/31/23 Season.",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10003] = {
 		name = "Extreme Challenge - Leo",
 		gain_by = "",

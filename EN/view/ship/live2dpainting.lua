@@ -970,6 +970,10 @@ slot0.loadLive2dData = function(slot0)
 end
 
 slot0.saveLive2dData = function(slot0)
+	if slot0.STATE_INITED ~= slot0.state then
+		return
+	end
+
 	if not slot0.live2dData.loadPrefs then
 		return
 	end
@@ -998,7 +1002,7 @@ slot0.saveLive2dData = function(slot0)
 		end
 	end
 
-	if slot0.liveCom:GetCubismParameter("ParamBGM_loop") then
+	if slot0.liveCom and slot0.liveCom:GetCubismParameter("ParamBGM_loop") then
 		Live2dConst.SaveL2dBgmVolume(slot1, slot2.Value)
 	end
 end
@@ -1381,6 +1385,10 @@ slot0.GetDragBounds = function(slot0)
 	end
 
 	return slot0.dragRenders
+end
+
+slot0.GetTransform = function(slot0)
+	return slot0._tf
 end
 
 slot0.setSortingLayer = function(slot0, slot1)

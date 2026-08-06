@@ -89,6 +89,7 @@ pg.mini_game.all = {
 	86,
 	87,
 	84,
+	88,
 	1001,
 	1002,
 	1003,
@@ -3336,6 +3337,59 @@ pg.base.mini_game = {}
 		},
 		config_data = {}
 	}
+	pg.base.mini_game[88] = {
+		is_ranking = 1,
+		view_name = "MusicBeatGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "Rhythm Game Rerun",
+		config_csv = "",
+		id = 88,
+		hub_id = 77,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					2,
+					300
+				},
+				{
+					2,
+					54034,
+					2
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					2,
+					59856,
+					1
+				}
+			}
+		}
+	}
 	pg.base.mini_game[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3675,6 +3729,8 @@ pg.base.mini_game = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.mini_game[1014] = {
 		is_ranking = 0,
 		view_name = "GameRoomCookView",
@@ -3728,8 +3784,6 @@ pg.base.mini_game = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.mini_game[1015] = {
 		is_ranking = 0,
 		view_name = "GameRoomLaunchView",

@@ -295,6 +295,11 @@ pg.island_item_data_template.all = {
 	200027,
 	200028,
 	200029,
+	200030,
+	200031,
+	200032,
+	200033,
+	200034,
 	300001,
 	300002,
 	300003,
@@ -599,6 +604,11 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		200027,
 		200028,
 		200029,
+		200030,
+		200031,
+		200032,
+		200033,
+		200034,
 		300001,
 		300002,
 		300003,
@@ -885,6 +895,11 @@ pg.island_item_data_template.get_id_list_by_type = {
 		200027,
 		200028,
 		200029,
+		200030,
+		200031,
+		200032,
+		200033,
+		200034,
 		300001,
 		300002,
 		300003,
@@ -10242,7 +10257,12 @@ end)()
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"Island Plan",
+				{}
+			}
+		}
 	}
 	pg.base.island_item_data_template[200005] = {
 		name = "Island Authority Permit: New Jersey",
@@ -11019,6 +11039,161 @@ end)()
 			}
 		}
 	}
+	pg.base.island_item_data_template[200030] = {
+		name = "Island Authority Permit: Anchorage",
+		desc = "An Island Authority Permit for Anchorage. Use it to give the character the credentials to visit the island freely.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200030",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200030,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200031] = {
+		name = "Island Authority Permit: Mogador",
+		desc = "An Island Authority Permit for Mogador. Use it to give the character the credentials to visit the island freely.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200031",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200031,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200032] = {
+		name = "Island Authority Permit: Chang Feng",
+		desc = "An Island Authority Permit for Chang Feng. Use it to give the character the credentials to visit the island freely.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200032",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200032,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200033] = {
+		name = "Island Authority Permit: Royal Fortune",
+		desc = "An Island Authority Permit for Royal Fortune. Use it to give the character the credentials to visit the island freely.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200033",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200033,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200034] = {
+		name = "Island Authority Permit: Belfast",
+		desc = "An Island Authority Permit for Belfast. Use it to give the character the credentials to visit the island freely.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200034",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200034,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"Season IV - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
 	pg.base.island_item_data_template[300001] = {
 		name = "Working Efficiency at Faircrop Fields +4%",
 		desc = "When obtained, Working Efficiency at Faircrop Fields +4%",
@@ -11135,6 +11310,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_item_data_template[300005] = {
 		name = "Working Efficiency at Sweetscent Orchard +8%",
 		desc = "When obtained, Working Efficiency at Sweetscent Orchard +8%",

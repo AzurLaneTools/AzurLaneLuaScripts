@@ -355,7 +355,10 @@ pg.activity_ins_chat_group.all = {
 	350,
 	351,
 	352,
-	353
+	353,
+	354,
+	355,
+	356
 }
 pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 	[101] = {
@@ -551,6 +554,11 @@ pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 		284,
 		285,
 		286
+	},
+	[30129] = {
+		354,
+		355,
+		356
 	},
 	[30192] = {
 		180,
@@ -15648,6 +15656,113 @@ end)()
 			10538,
 			10539,
 			10540
+		}
+	}
+	pg.base.activity_ins_chat_group[354] = {
+		ship_group = 30129,
+		name = "Jumbo Operation - Limited Edition!",
+		group_ii = 0,
+		unlock_desc = "Obtain the character.",
+		id = 354,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			10541,
+			10542,
+			10543,
+			10544,
+			10545,
+			10546,
+			10547,
+			10548,
+			10549,
+			10550,
+			10551,
+			10552,
+			10553,
+			10554,
+			10555,
+			10556,
+			10557,
+			10558,
+			10559,
+			10560,
+			10561,
+			10562,
+			10563,
+			10564,
+			10565,
+			10566,
+			10567,
+			10568
+		}
+	}
+	pg.base.activity_ins_chat_group[355] = {
+		ship_group = 30129,
+		name = "Bunny-Eared Trouble",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 100.",
+		id = 355,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			10569,
+			10570,
+			10571,
+			10572,
+			10573,
+			10574,
+			10575,
+			10576,
+			10577,
+			10578,
+			10579,
+			10580,
+			10581,
+			10582,
+			10583,
+			10584,
+			10585,
+			10586,
+			10587,
+			10588
+		}
+	}
+	pg.base.activity_ins_chat_group[356] = {
+		ship_group = 30129,
+		name = "Shimakaze Will Be Stronger!",
+		group_ii = 0,
+		unlock_desc = "Raise the character's Affinity to 150.",
+		id = 356,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			10589,
+			10590,
+			10591,
+			10592,
+			10593,
+			10594,
+			10595,
+			10596,
+			10597,
+			10598,
+			10599,
+			10600,
+			10601,
+			10602,
+			10603,
+			10604,
+			10605,
+			10606,
+			10607,
+			10608,
+			10609,
+			10610,
+			10611,
+			10612,
+			10613,
+			10614
 		}
 	}
 end)()

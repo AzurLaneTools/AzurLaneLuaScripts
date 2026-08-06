@@ -8,7 +8,9 @@ pg.island_skin_template.all = {
 	1020501,
 	1051701,
 	1070301,
+	1990301,
 	2012101,
+	2021201,
 	2060301,
 	2990301,
 	3031101,
@@ -19,8 +21,11 @@ pg.island_skin_template.all = {
 	4990201,
 	4990601,
 	5010701,
+	5010801,
 	5020101,
 	5060101,
+	9010701,
+	96000101,
 	99000201,
 	99000202,
 	99000101,
@@ -44,8 +49,14 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[10703] = {
 		1070301
 	},
+	[19903] = {
+		1990301
+	},
 	[20121] = {
 		2012101
+	},
+	[20212] = {
+		2021201
 	},
 	[20603] = {
 		2060301
@@ -77,11 +88,20 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[50107] = {
 		5010701
 	},
+	[50108] = {
+		5010801
+	},
 	[50201] = {
 		5020101
 	},
 	[50601] = {
 		5060101
+	},
+	[90107] = {
+		9010701
+	},
+	[960001] = {
+		96000101
 	},
 	[990001] = {
 		99000101,
@@ -170,6 +190,20 @@ pg.base.island_skin_template = {}
 		icon_normal = "props/skin_1070301",
 		jump_page = {}
 	}
+	pg.base.island_skin_template[1990301] = {
+		ship_group = 19903,
+		name = "Rendezvous Between Classes",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "Her red ribbon tie bounces with each step. Her youthful heart is filled with anticipation – for the relaxing day she is about to spend with you~♪",
+		shop_goods_id = 0,
+		model = 1990301,
+		id = 1990301,
+		icon = "skin_1990301",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[2012101] = {
 		ship_group = 20121,
 		name = "Operation: Pillow Fight",
@@ -182,6 +216,20 @@ pg.base.island_skin_template = {}
 		model = 2012101,
 		id = 2012101,
 		icon = "skin_2012101",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[2021201] = {
+		ship_group = 20212,
+		name = "One Afternoon's Page",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "Folded into her uniform is the gentle scent of books. Even with her long hair neatly tied up, her reassuringly elegant smile remains unchanged.",
+		shop_goods_id = 0,
+		model = 2021201,
+		id = 2021201,
+		icon = "skin_2021201",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[2060301] = {
@@ -324,6 +372,20 @@ pg.base.island_skin_template = {}
 		icon = "skin_5010701",
 		icon_normal = ""
 	}
+	pg.base.island_skin_template[5010801] = {
+		ship_group = 50108,
+		name = "A Cozy Walk Home",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "Her tied-up hair bobs with each light, airy step she takes. With her at your side, even the walk back home becomes breezy and light.",
+		shop_goods_id = 0,
+		model = 5010801,
+		id = 5010801,
+		icon = "skin_5010801",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[5020101] = {
 		ship_group = 50201,
 		name = "Fragrant Tea Beneath the Moonlight",
@@ -350,6 +412,34 @@ pg.base.island_skin_template = {}
 		model = 5060101,
 		id = 5060101,
 		icon = "skin_5060101",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[9010701] = {
+		ship_group = 90107,
+		name = "Heart-Pounding Bell's Chime",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "A bowtie hangs casually from her loosened collar. A hint of danger, a passion that cannot be contained – a perfect cocktail that makes your heart race.",
+		shop_goods_id = 0,
+		model = 9010701,
+		id = 9010701,
+		icon = "skin_9010701",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[96000101] = {
+		ship_group = 960001,
+		name = "Prologue to School",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "Her neat, stylish uniform exudes both seriousness and elegance. Even the simple act of stepping through the school gates seems to carry an air of ceremony.",
+		shop_goods_id = 0,
+		model = 96000101,
+		id = 96000101,
+		icon = "skin_96000101",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[99000201] = {

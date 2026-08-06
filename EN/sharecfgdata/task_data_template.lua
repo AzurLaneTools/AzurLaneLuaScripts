@@ -329008,6 +329008,648 @@ _G.pg.base.task_data_template[27301] = {
 }
 
 
+_G.pg.base.task_data_template[27351] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910421,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务1",
+	desc = "Sortie and obtain 10 victories with S-rating.",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27351,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[27352] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910422,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务2",
+	desc = "Log in to the game.",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27352,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27353] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910423,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务3",
+	desc = "Conduct 2 exercises.",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27353,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27354] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910424,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务4",
+	desc = "Complete 2 commissions.",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27354,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27355] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910425,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务5",
+	desc = "Retire 2 ships.",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27355,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27356] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910426,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务6",
+	desc = "Complete 3 Daily Challenges.",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27356,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27357] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910427,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务7",
+	desc = "Enhance ship 5 times.",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27357,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27358] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910428,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务8",
+	desc = "Perform skill training 2 times",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27358,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27359] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910429,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务9",
+	desc = "Defeat 20 enemies.",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27359,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27360] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910430,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务10",
+	desc = "Restock snacks in your dorm 5 times.",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27360,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27361] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910431,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务11",
+	desc = "Build 2 ships.",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27361,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27362] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910432,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务12",
+	desc = "Open 1 tech box",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27362,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27363] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910433,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务13",
+	desc = "Conduct tactical training 2 times.",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27363,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27364] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910434,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260806』前哨战七日任务14",
+	desc = "Sortie and defeat 3 Boss Fleets.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27364,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20013,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[27365] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910435,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前哨站』阅读所有剧情",
+	desc = "Complete Story Mode in Fateful Encounter.",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27365,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7839
+	},
+	open_need = {},
+	award_display = {
+		{
+			3,
+			151200,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1910001,
+			displayMode = 2
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[27323] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -445950,6 +446592,353 @@ _G.pg.base.task_data_template[500257] = {
 	story_icon_shift = {
 		0,
 		100
+	}
+}
+
+
+_G.pg.base.task_data_template[500271] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500271,
+	type = 5,
+	is_head = 1,
+	count_inherit = 0,
+	name = "Midnight Invitation",
+	desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed).",
+	sub_type = 1000,
+	task_fold = 0,
+	story_icon = "shengtafei",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500272",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "SHENGTAFEI1",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 500271,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "50003",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		0,
+		35
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+
+_G.pg.base.task_data_template[500272] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500272,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "There Really Is a Ghost?!",
+	desc = "Enhance any character 10 times.",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "shengtafei",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500273",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "SHENGTAFEI2",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 500272,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		0,
+		35
+	}
+}
+
+
+_G.pg.base.task_data_template[500273] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500273,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "Sneak Past the Night Patrol!",
+	desc = "Sortie and obtain 20 victories with Santa Fe in the fleet.",
+	sub_type = 18,
+	task_fold = 0,
+	story_icon = "shengtafei",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500274",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "SHENGTAFEI3",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 500273,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "10234",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		0,
+		35
+	}
+}
+
+
+_G.pg.base.task_data_template[500274] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500274,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "A Familiar Scribble",
+	desc = "Spend a total of 500 Oil.",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "shengtafei",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500275",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "SHENGTAFEI4",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 500274,
+	target_num = 500,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		0,
+		35
+	}
+}
+
+
+_G.pg.base.task_data_template[500275] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500275,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "The Truth Behind the Tome",
+	desc = "Reach 100 Affinity with Santa Fe.",
+	sub_type = 1012,
+	task_fold = 0,
+	story_icon = "shengtafei",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500276",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "SHENGTAFEI5",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 500275,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "10234",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	},
+	story_icon_shift = {
+		0,
+		35
+	}
+}
+
+
+_G.pg.base.task_data_template[500276] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500276,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "Embarrassing Past Exposed!",
+	desc = "Fully Limit Break Santa Fe.",
+	sub_type = 33,
+	task_fold = 0,
+	story_icon = "shengtafei",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500277",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "SHENGTAFEI6",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 500276,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "10234",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	},
+	story_icon_shift = {
+		0,
+		35
+	}
+}
+
+
+_G.pg.base.task_data_template[500277] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500277,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "Birth of the Eighth Mystery!",
+	desc = "Get Santa Fe to Level 100.",
+	sub_type = 1013,
+	task_fold = 0,
+	story_icon = "shengtafei",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "0",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "SHENGTAFEI7",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 500277,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "10234",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	story_icon_shift = {
+		0,
+		35
 	}
 }
 

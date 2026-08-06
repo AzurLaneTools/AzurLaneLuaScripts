@@ -18,6 +18,9 @@ pg.island_dress_template.all = {
 	1010013,
 	1010014,
 	1010015,
+	1010016,
+	1010017,
+	1010018,
 	1020001,
 	1020002,
 	1020003,
@@ -32,6 +35,9 @@ pg.island_dress_template.all = {
 	1020012,
 	1020013,
 	1020014,
+	1020015,
+	1020016,
+	1020017,
 	1030001,
 	1030002,
 	1030003,
@@ -46,6 +52,9 @@ pg.island_dress_template.all = {
 	1030012,
 	1030013,
 	1030014,
+	1030015,
+	1030016,
+	1030017,
 	1040001,
 	1040002,
 	1040003,
@@ -70,6 +79,9 @@ pg.island_dress_template.all = {
 	1060013,
 	1060014,
 	1060015,
+	1060016,
+	1060017,
+	1060018,
 	1070001,
 	1070002,
 	1070003,
@@ -83,12 +95,15 @@ pg.island_dress_template.all = {
 	1070011,
 	1070012,
 	1070015,
+	1070016,
 	2010001,
 	2010002,
 	2010003,
 	2010004,
 	2010005,
 	2010006,
+	2010007,
+	2010008,
 	2020001,
 	2020002,
 	2020003,
@@ -96,6 +111,8 @@ pg.island_dress_template.all = {
 	2020005,
 	2020006,
 	2020007,
+	2020008,
+	2020009,
 	2030001,
 	2030002,
 	2030003,
@@ -103,7 +120,9 @@ pg.island_dress_template.all = {
 	2030005,
 	2030006,
 	2030007,
-	2030008
+	2030008,
+	2030009,
+	2030010
 }
 pg.island_dress_template.get_id_list_by_type = {
 	{
@@ -122,12 +141,17 @@ pg.island_dress_template.get_id_list_by_type = {
 		1010013,
 		1010014,
 		1010015,
+		1010016,
+		1010017,
+		1010018,
 		2010001,
 		2010002,
 		2010003,
 		2010004,
 		2010005,
-		2010006
+		2010006,
+		2010007,
+		2010008
 	},
 	{
 		1020001,
@@ -144,13 +168,18 @@ pg.island_dress_template.get_id_list_by_type = {
 		1020012,
 		1020013,
 		1020014,
+		1020015,
+		1020016,
+		1020017,
 		2020001,
 		2020002,
 		2020003,
 		2020004,
 		2020005,
 		2020006,
-		2020007
+		2020007,
+		2020008,
+		2020009
 	},
 	{
 		1030001,
@@ -167,6 +196,9 @@ pg.island_dress_template.get_id_list_by_type = {
 		1030012,
 		1030013,
 		1030014,
+		1030015,
+		1030016,
+		1030017,
 		2030001,
 		2030002,
 		2030003,
@@ -174,7 +206,9 @@ pg.island_dress_template.get_id_list_by_type = {
 		2030005,
 		2030006,
 		2030007,
-		2030008
+		2030008,
+		2030009,
+		2030010
 	},
 	{
 		1040001,
@@ -204,7 +238,10 @@ pg.island_dress_template.get_id_list_by_type = {
 		1060012,
 		1060013,
 		1060014,
-		1060015
+		1060015,
+		1060016,
+		1060017,
+		1060018
 	},
 	{
 		1070001,
@@ -219,7 +256,8 @@ pg.island_dress_template.get_id_list_by_type = {
 		1070010,
 		1070011,
 		1070012,
-		1070015
+		1070015,
+		1070016
 	}
 }
 pg.island_dress_template.get_id_list_by_related_dress = {
@@ -239,6 +277,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1010013,
 		1010014,
 		1010015,
+		1010016,
+		1010017,
+		1010018,
 		1020001,
 		1020002,
 		1020003,
@@ -253,6 +294,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1020012,
 		1020013,
 		1020014,
+		1020015,
+		1020016,
+		1020017,
 		1030001,
 		1030002,
 		1030003,
@@ -267,6 +311,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1030012,
 		1030013,
 		1030014,
+		1030015,
+		1030016,
+		1030017,
 		1040001,
 		1040002,
 		1040003,
@@ -291,12 +338,17 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1060013,
 		1060014,
 		1060015,
+		1060016,
+		1060017,
+		1060018,
 		2010001,
 		2010002,
 		2010003,
 		2010004,
 		2010005,
 		2010006,
+		2010007,
+		2010008,
 		2020001,
 		2020002,
 		2020003,
@@ -304,6 +356,8 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		2020005,
 		2020006,
 		2020007,
+		2020008,
+		2020009,
 		2030001,
 		2030002,
 		2030003,
@@ -311,7 +365,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		2030005,
 		2030006,
 		2030007,
-		2030008
+		2030008,
+		2030009,
+		2030010
 	},
 	[1060001] = {
 		1070001
@@ -351,6 +407,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 	},
 	[1060015] = {
 		1070015
+	},
+	[1060016] = {
+		1070016
 	}
 }
 pg.base = pg.base or {}
@@ -1009,6 +1068,140 @@ pg.base.island_dress_template = {}
 			}
 		}
 	}
+	pg.base.island_dress_template[1010016] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "Jetpack",
+		remove = 1,
+		desc = "A rectangular backpack for space exploration. You feel ready to boost off just from putting it on.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30113/prefab/pre_item_03_30113",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1010016",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1010016,
+		footprint_type = 0,
+		face_clip = "",
+		offset = {
+			0.407,
+			-0.405,
+			0.006
+		},
+		rotation = {
+			85.869,
+			-71.656,
+			12.928
+		},
+		scale = {
+			0.9
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1010017] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "Teru Teru Bozu",
+		remove = 1,
+		desc = "It can't turn the weather sunny, but just looking at it will make your heart feel a little lighter.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30123/prefab/pre_item_03_30123",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1010017",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1010017,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.0008,
+			-0.422,
+			0.007
+		},
+		rotation = {
+			88.287,
+			121.144,
+			209.653
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1010018] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "Spare Sneakers",
+		remove = 1,
+		desc = "A spare pair of basketball shoes that you can take anywhere. Be ready for a pick-up game whenever the mood strikes.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30133/prefab/pre_item_03_30133",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1010018",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1010018,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.0006,
+			-0.424,
+			-0.041
+		},
+		rotation = {
+			72.789,
+			120.289,
+			208.107
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[1020001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -1600,6 +1793,138 @@ pg.base.island_dress_template = {}
 			}
 		}
 	}
+	pg.base.island_dress_template[1020015] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "Li'l Rocket",
+		remove = 1,
+		desc = "This miniature rocket follows you, occasionally letting out little puffs of steam as if ready to blast off at any moment.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30111/prefab/pre_item_03_30111",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1020015",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1020015,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.782,
+			1.698,
+			-0.156
+		},
+		rotation = {
+			0,
+			351.005,
+			0
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1020016] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "Dino Umbrella",
+		remove = 1,
+		desc = "An umbrella that has sprouted two little horns. It's almost as if a baby dinosaur is peeking out from underneath.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30121/prefab/pre_item_03_30121",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1020016",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1020016,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.731,
+			1.569,
+			-0.063
+		},
+		rotation = {
+			0,
+			-180,
+			0
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1020017] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "Mini Manjuu Hoops",
+		remove = 1,
+		desc = "This backboard floats around gently, waiting for the perfect hook shot.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30131/prefab/pre_item_03_30131",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1020017",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1020017,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.757,
+			1.673,
+			0.007
+		},
+		rotation = {
+			0,
+			-8.36,
+			0
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[1030001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -2080,6 +2405,114 @@ pg.base.island_dress_template = {}
 		jump_page = {
 			{
 				"Season III - Core Sync",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1030015] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "Stardust and Moonlight",
+		remove = 1,
+		rotation = "",
+		desc = "The moon quietly sets behind you. All that remains within your footsteps is a lonely romance in a distant corner of the galaxy.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30112/prefab/pre_item_03_30112",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1030015",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1030015,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1030016] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "Rainy Day Fun",
+		remove = 1,
+		rotation = "",
+		desc = "With each step, raindrops follow, spreading the simple joys of a rainy day wherever you go.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30122/prefab/pre_item_03_30122",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1030016",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1030016,
+		footprint_type = 1,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1030017] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "Basketball Trail",
+		remove = 1,
+		rotation = "",
+		desc = "With each step, a basketball pattern emerges. Now, you can take the excitement of the court wherever you go.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30132/prefab/pre_item_03_30132",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1030017",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1030017,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
 				{}
 			}
 		}
@@ -2896,6 +3329,114 @@ pg.base.island_dress_template = {}
 			2
 		}
 	}
+	pg.base.island_dress_template[1060016] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 6,
+		name = "Starfarer",
+		remove = 0,
+		rotation = "",
+		desc = "The thick spacesuit shuts out everything from the outside world, leaving nothing within except the sound of your calm breaths within the helmet. It's as if the universe is about to open before you at a moment's notice.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_16_body_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060016",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1060016,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1060017] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 6,
+		name = "Dino Raincoat",
+		remove = 0,
+		rotation = "",
+		desc = "This dinosaur raincoat will awaken your inner child. With soft horns and a tail that bobs up and down with each step, it'll feel just like hopping back into a prehistoric world filled with youthful wonder.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_17_body_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060017",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1060017,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1060018] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 6,
+		name = "Zephyr of the Court",
+		remove = 0,
+		rotation = "",
+		desc = "The lightweight fabric flutters with each dribble. With each jump shot you take, the freedom of the streets bursts forth.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_18_body_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060018",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1060018,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[1070001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 1060001,
@@ -3349,6 +3890,42 @@ pg.base.island_dress_template = {}
 		face_clip = "",
 		jump_page = {}
 	}
+	pg.base.island_dress_template[1070016] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 1060016,
+		attachmentPoint = "",
+		type = 7,
+		name = "Starfarer Helmet",
+		remove = 1,
+		rotation = "",
+		desc = "The thick spacesuit shuts out everything from the outside world, leaving nothing within except the sound of your calm breaths within the helmet. It's as if the universe is about to open before you at a moment's notice.",
+		exclusive_default_skin = "",
+		sub_type = 2,
+		model = "island/character/9001/prefab/9001_16_headware_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060016",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1070016,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[2010001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -3690,6 +4267,106 @@ pg.base.island_dress_template = {}
 			99000302
 		}
 	}
+	pg.base.island_dress_template[2010007] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "Kitty Lip Balm",
+		remove = 1,
+		desc = "Lip balm shaped like a kitty's face. The tiny pawprints add to its cute, playful appeal.",
+		sub_type = 0,
+		model = "island/item/03/39017/prefab/pre_item_03_39017",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2010007",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		is_hide = 0,
+		id = 2010007,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.164,
+			-0.48,
+			0.188
+		},
+		rotation = {
+			80,
+			-70,
+			45
+		},
+		exclusive_default_skin = {
+			30407
+		},
+		exclusive_skin = {
+			3040701,
+			99000101
+		},
+		jump_page = {
+			{
+				"Season IV - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.island_dress_template[2010008] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "Fluffy Kitty Tail",
+		remove = 1,
+		desc = "A fluffy, swishing tail. Add some relaxed cuteness to your gait.",
+		sub_type = 0,
+		model = "island/item/03/39035/prefab/pre_item_03_39035",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2010008",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		is_hide = 0,
+		id = 2010008,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.21,
+			-0.212,
+			-0.012
+		},
+		rotation = {
+			-59.811,
+			94.927,
+			-7.413
+		},
+		exclusive_default_skin = {
+			30407
+		},
+		exclusive_skin = {
+			3040701,
+			99000101
+		},
+		jump_page = {
+			{
+				"Island Seasonal Shop",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[2020001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -3959,6 +4636,94 @@ pg.base.island_dress_template = {}
 		},
 		jump_page = {}
 	}
+	pg.base.island_dress_template[2020008] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "Kitty Play Toy",
+		remove = 1,
+		desc = "A slender stick with a small fish tied to the end. A slight wiggle is all it takes to draw curious gazes.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/37009/prefab/pre_item_03_37009",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2020008",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2020008,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.599,
+			1.522,
+			0.49
+		},
+		rotation = {
+			0,
+			-64.24,
+			0
+		},
+		jump_page = {
+			{
+				"Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[2020009] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "Compact Kitty Mirror",
+		remove = 1,
+		desc = "A cute, palm-sized kitty mirror. Give it a little tilt, and it'll surely uplift your mood today as well.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/37010/prefab/pre_item_03_37010",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2020009",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2020009,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.667,
+			1.288,
+			0.013
+		},
+		rotation = {
+			0,
+			11.794,
+			0
+		},
+		jump_page = {
+			{
+				"Season IV - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[2030001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -4191,8 +4956,6 @@ pg.base.island_dress_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_dress_template[2030008] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -4223,5 +4986,77 @@ end)()
 		footprint_type = 0,
 		scale = "",
 		face_clip = ""
+	}
+	pg.base.island_dress_template[2030009] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "Kitty Pawprints",
+		remove = 1,
+		rotation = "",
+		desc = "With each step, tiny pawprints appear. Round, shiny, and oh so adorable!",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/38009/prefab/pre_item_03_38009",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2030009",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2030009,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[2030010] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "Trail of Balmy Gloss",
+		remove = 1,
+		rotation = "",
+		desc = "With each step, sweet kiss marks appear. Looks like someone's getting excited today~",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/38010/prefab/pre_item_03_38010",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2030010",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2030010,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"Season IV - Island Seasonal Shop",
+				{}
+			}
+		}
 	}
 end)()

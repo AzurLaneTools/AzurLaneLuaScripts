@@ -1,5 +1,6 @@
 slot0 = class("IslandSeasonPage", import("...base.IslandBasePage"))
 slot0.CLOSE = "IslandSeasonPage:CLOSE"
+slot0.UPDATE_REDDOT = "IslandSeasonPage:UPDATE_REDDOT"
 slot0.PAGE_ACTIVITY = "activity"
 slot0.PAGE_PT = "pt"
 slot0.PAGE_TASK = "task"
@@ -99,15 +100,10 @@ slot0.Close = function(slot0, slot1)
 end
 
 slot0.OnInit = function(slot0)
-	slot1 = slot0.blurTF
-
-	onButton(slot0, slot1:Find("top/back"), function ()
+	onButton(slot0, slot0.blurTF:Find("top/back"), function ()
 		uv0:Close(true)
 	end, SFX_PANEL)
-
-	slot4 = slot0.blurTF
-
-	onButton(slot0, slot4:Find("top/help"), function ()
+	onButton(slot0, slot0.blurTF:Find("top/help"), function ()
 		uv0:ShowMsgBox({
 			type = IslandMsgBox.TYPE_WHITOUT_BTN,
 			content = i18n("island_season_help")
@@ -124,6 +120,18 @@ slot0.OnInit = function(slot0)
 	end)
 	slot0:bind(uv0.CLOSE, function ()
 		uv0:Close(false)
+	end)
+	slot0:bind(uv0.UPDATE_REDDOT, function (slot0, slot1)
+		uv0:UpdateRedDot(slot1)
+	end)
+	slot0:UpdateRedDot()
+end
+
+slot0.UpdateRedDot = function(slot0, slot1)
+	eachChild(slot0.togglesTF, function (slot0)
+		if not uv0 or slot0.name == uv0 then
+			setActive(slot0:Find("red"), IslandSeasonRedDotHelper.TipTag(slot0.name))
+		end
 	end)
 end
 
@@ -246,11 +254,13 @@ slot0.FlushPtPage = function(slot0)
 	slot0.contextData.season = getProxy(IslandProxy):GetIsland():GetSeasonAgency():GetSeason()
 
 	slot0.pages[uv0.PAGE_PT]:ExecuteAction("Flush")
+	slot0:UpdateRedDot(uv0.PAGE_PT)
 end
 
 slot0.OnSubmitTaskDone = function(slot0)
 	slot0:FlushTaskPage()
 	slot0.pages[uv0.PAGE_ACTIVITY]:ExecuteAction("flushTabs")
+	slot0:UpdateRedDot(uv0.PAGE_TASK)
 end
 
 slot0.FlushTaskPage = function(slot0)

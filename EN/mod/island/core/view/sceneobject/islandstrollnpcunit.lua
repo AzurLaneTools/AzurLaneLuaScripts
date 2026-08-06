@@ -9,8 +9,4 @@ slot0.SetupBt = function(slot0)
 	uv0.super.SetupBt(slot0)
 end
 
-slot0.ExistActionFeedbackBubble = function(slot0)
-	return slot0.data:ExistActionFeedback()
-end
-
 return slot0

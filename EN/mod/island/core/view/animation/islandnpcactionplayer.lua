@@ -28,7 +28,13 @@ slot0.Resopon = function(slot0, slot1, slot2, slot3)
 		end
 	}, function ()
 		if uv0 then
-			uv1:NotifiyMeditor(IslandMediator.NPC_ACTION_AWARD, uv2.id, uv3)
+			slot0 = uv1.id
+
+			if not uv1.data:ExistActionFeedback() then
+				slot0 = 0
+			end
+
+			uv2:NotifiyMeditor(IslandMediator.NPC_ACTION_AWARD, slot0, uv1.data.shipId, uv3)
 		end
 	end)
 end

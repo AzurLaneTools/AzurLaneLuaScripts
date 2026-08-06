@@ -388,6 +388,7 @@ pg.skill_data_template.all = {
 	61090,
 	61100,
 	61110,
+	61120,
 	7000,
 	9010,
 	9020,
@@ -3081,6 +3082,7 @@ pg.skill_data_template.all = {
 	1010800,
 	1019300,
 	1018300,
+	1013450,
 	1014050,
 	1090010,
 	1090020,
@@ -3127,6 +3129,7 @@ pg.skill_data_template.all = {
 	1090460,
 	1090470,
 	1090480,
+	1090500,
 	1090490
 }
 pg.base = pg.base or {}
@@ -13840,6 +13843,20 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61120] = {
+		desc_get = "",
+		name = "Master Detective's Hat",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped to Essex: during battle, increases this ship's ACC by 30.",
+		id = 61120,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -14512,6 +14529,8 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[9110] = {
 		desc_get = "",
 		name = "Anti-Air Mode",
@@ -14618,8 +14637,6 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[9120] = {
 		desc_get = "",
 		name = "Future Content ",
@@ -21694,6 +21711,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10950] = {
 		desc_get = "Increases this ship's Speed by 3 (8 when fully upgraded) and FP by 15.0%.",
 		name = "Warrior Soul",
@@ -21791,8 +21810,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10960] = {
 		desc_get = "Grants the following buffs to Ayanami, Akatsuki, Ikazuchi, Inazuma, Fubuki and Hibiki: increases FP and EVA by 15.0% (30.0% when fully upgraded) and TRP by 4.0% (10.0% when fully upgraded.)",
 		name = "Special Lead Ship",
@@ -30068,6 +30085,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11940] = {
 		desc_get = "",
 		name = "Observer of the Sky and Sea",
@@ -30174,8 +30193,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11950] = {
 		desc_get = "",
 		name = "Concerto of the Unfreezing Port",
@@ -39584,6 +39601,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13010] = {
 		desc_get = "",
 		name = "Cavalier's Acumen",
@@ -39735,8 +39754,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13020] = {
 		desc_get = "",
 		name = "Lod Obstrel",
@@ -49261,6 +49278,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14010] = {
 		desc_get = "",
 		name = "I Love My Sisters!",
@@ -49367,8 +49386,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14020] = {
 		desc_get = "",
 		name = "I'll Protect the Vanguard!",
@@ -60623,6 +60640,8 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15010] = {
 		desc_get = "",
 		name = "Good Girl at Heart",
@@ -60720,8 +60739,6 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15020] = {
 		desc_get = "",
 		name = "Knockout Shot",
@@ -72522,6 +72539,8 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16020] = {
 		desc_get = "",
 		name = "Martyr+",
@@ -72666,8 +72685,6 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16030] = {
 		desc_get = "",
 		name = "Violet Lightning Storm",
@@ -84004,6 +84021,8 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17030] = {
 		desc_get = "",
 		name = "Exorcism for the Mortal Realm",
@@ -84191,8 +84210,6 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17040] = {
 		desc_get = "",
 		name = "Coalescence of Cloudshade and Etherlight",
@@ -95306,6 +95323,8 @@ When this ship hits an enemy with her Secondary Guns, or when an Iris Libre or V
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150090] = {
 		desc_get = "",
 		name = "『裁决降临』跨队ID占用",
@@ -95320,8 +95339,6 @@ When this ship hits an enemy with her Secondary Guns, or when an Iris Libre or V
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150100] = {
 		desc_get = "",
 		name = "『临界爆发』跨队ID占用",
@@ -106667,6 +106684,8 @@ If any enemies are affected by Jet-Black Paint, the Crit Rate of this special ba
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151080] = {
 		desc_get = "",
 		name = "Pixiedust Storm",
@@ -106809,8 +106828,6 @@ If any enemies are affected by Jet-Black Paint, the Crit Rate of this special ba
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151090] = {
 		desc_get = "",
 		name = "Welkin Blessing",
@@ -118562,6 +118579,8 @@ During battle, when this ship has taken DMG totaling to 25.0% of her max HP, or 
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152050] = {
 		desc_get = "",
 		name = "Ti Sfido!",
@@ -118659,8 +118678,6 @@ During battle, when this ship has taken DMG totaling to 25.0% of her max HP, or 
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152060] = {
 		desc_get = "",
 		name = "I'll Handle This!",
@@ -128748,6 +128765,8 @@ Every 10s, or when a ship in your fleet fires her AA Gun: increases your Vanguar
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19180] = {
 		desc_get = "",
 		name = "Kitakaze Style - Lotus Torpedoes",
@@ -128800,8 +128819,6 @@ Every 10s, or when a ship in your fleet fires her AA Gun: increases your Vanguar
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19190] = {
 		desc_get = "",
 		name = "Blazing Peaks",
@@ -138847,6 +138864,8 @@ Once per battle, this ship gains the following effects upon falling below 40.0% 
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20061] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -138861,8 +138880,6 @@ Once per battle, this ship gains the following effects upon falling below 40.0% 
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20062] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -140249,6 +140266,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22072] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -140263,8 +140282,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22081] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -141651,6 +141668,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[25211] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -141665,8 +141684,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[25212] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -143053,6 +143070,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29221] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -143067,8 +143086,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29222] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
@@ -144463,6 +144480,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29732] = {
 		desc_get = "",
 		name = "All-Out Assault II",
@@ -144477,8 +144496,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29741] = {
 		desc_get = "",
 		name = "All-Out Assault I",
@@ -145865,6 +145882,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30262] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -145879,8 +145898,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30271] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -148746,6 +148763,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[104050] = {
 		desc_get = "",
 		name = "Future Base",
@@ -148798,8 +148817,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[104060] = {
 		desc_get = "",
 		name = "Melty World",
@@ -157831,6 +157848,8 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[108050] = {
 		desc_get = "",
 		name = "Instance Abreaction",
@@ -157892,8 +157911,6 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[108060] = {
 		desc_get = "",
 		name = "Ever-Burning Flame",
@@ -165850,6 +165867,8 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[111040] = {
 		desc_get = "",
 		name = "Alien Animal Friend",
@@ -165956,8 +165975,6 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[111050] = {
 		desc_get = "",
 		name = "Overpowering Will",
@@ -175364,6 +175381,8 @@ At the start of battle, this ship gains the following effects if equipping any p
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[190150] = {
 		desc_get = "",
 		name = "Ruby's Refrain of Restoration",
@@ -175378,8 +175397,6 @@ At the start of battle, this ship gains the following effects if equipping any p
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[201017] = {
 		desc_get = "",
 		name = "Fargo Direct Drone",
@@ -179858,6 +179875,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800577] = {
 		desc_get = "",
 		name = "Ashen Might - Renown",
@@ -179874,8 +179893,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800580] = {
 		desc_get = "",
 		name = "Vicious Rend",
@@ -185192,6 +185209,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801121] = {
 		desc_get = "",
 		name = "Flickering Light - Pamiat' Merkuria",
@@ -185208,8 +185227,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801122] = {
 		desc_get = "",
 		name = "Flickering Light - Pamiat' Merkuria II",
@@ -190821,6 +190838,8 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801672] = {
 		desc_get = "",
 		name = "Ashen Might - Hornet II",
@@ -190837,8 +190856,6 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801675] = {
 		desc_get = "",
 		name = "Ashen Might - Hornet I",
@@ -196015,6 +196032,8 @@ Additionally, once per battle each, the following effects activate based on the 
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802220] = {
 		desc_get = "",
 		name = "This One's for Good Measure!",
@@ -196071,8 +196090,6 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802231] = {
 		desc_get = "",
 		name = "Cinders of Hope - Elbe I",
@@ -202356,6 +202373,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1017210] = {
 		desc_get = "",
 		name = "For a Good Night's Sleep+",
@@ -202455,8 +202474,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1012620] = {
 		desc_get = "",
 		name = "Terni Shields+",
@@ -213643,6 +213660,112 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
+	pg.base.skill_data_template[1013450] = {
+		desc_get = "",
+		name = "Covenant of the Immortal Knights+",
+		type = 3,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's FP and RLD by $1. Additionally, increases this ship and the frontmost Vanguard ship's FP and AA by $2.",
+		id = 1013450,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"8.0%",
+				"18.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"8.0%",
+					"+1.1%"
+				},
+				{
+					"9.1%",
+					"+1.1%"
+				},
+				{
+					"10.2%",
+					"+1.1%"
+				},
+				{
+					"11.3%",
+					"+1.1%"
+				},
+				{
+					"12.4%",
+					"+1.1%"
+				},
+				{
+					"13.5%",
+					"+1.1%"
+				},
+				{
+					"14.6%",
+					"+1.1%"
+				},
+				{
+					"15.7%",
+					"+1.1%"
+				},
+				{
+					"16.8%",
+					"+1.2%"
+				},
+				{
+					"18.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[1014050] = {
 		desc_get = "",
 		name = "Viola Spear+",
@@ -216233,6 +216356,8 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090210] = {
 		desc_get = "",
 		name = "Emergency Maneuvers - Fortune",
@@ -216391,8 +216516,6 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090230] = {
 		desc_get = "",
 		name = "Piercing Shells - Z18",
@@ -219809,6 +219932,112 @@ end)()
 				},
 				{
 					"5.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1090500] = {
+		desc_get = "",
+		name = "Draw Fire - Nachi",
+		type = 2,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's AA by $1, EVA by $1, and DMG dealt by $1. Every 20s: $2 chance to tank 50% of the DMG your Vanguard ships take for 8s (similar skills don't stack).",
+		id = 1090500,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"10%",
+				"40%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+3.0%"
+				},
+				{
+					"13.0%",
+					"+3.0%"
+				},
+				{
+					"16.0%",
+					"+4.0%"
+				},
+				{
+					"20.0%",
+					"+3.0%"
+				},
+				{
+					"23.0%",
+					"+3.0%"
+				},
+				{
+					"26.0%",
+					"+4.0%"
+				},
+				{
+					"30.0%",
+					"+3.0%"
+				},
+				{
+					"33.0%",
+					"+3.0%"
+				},
+				{
+					"36.0%",
+					"+4.0%"
+				},
+				{
+					"40.0%"
 				}
 			}
 		}

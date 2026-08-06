@@ -123,6 +123,18 @@ slot0.BindSelf = function(slot0, slot1)
 				TimelineHelper.SetAutoBinding(slot0.director, slot8, go(slot12))
 			end
 		end
+
+		slot4 = ipairs
+		slot5 = slot1.control_binding or {}
+
+		for slot7, slot8 in slot4(slot5) do
+			slot10 = slot8[2]
+			slot11 = slot8[3] or ""
+
+			if slot3[slot8[1]] and slot10 and slot10 > 0 and (slot11 == "" and slot0:GetTargetRoot() or slot0:GetTargetRoot():Find(slot11)) then
+				TimelineHelper.SetControlBinding(slot0.director, slot12, slot10 - 1, go(slot13))
+			end
+		end
 	end
 end
 

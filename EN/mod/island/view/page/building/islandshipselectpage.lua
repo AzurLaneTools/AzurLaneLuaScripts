@@ -38,6 +38,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.skillTF = slot0.infoPanel:Find("skill")
 	slot0.energyTFInfo = slot0.infoPanel:Find("selectShipEnergyInfo")
 	slot0.energyTF = slot0.energyTFInfo:Find("energy")
+	slot0.energyCostSilderTF = slot0.energyTF:Find("energy_bar_cost")
+	slot0.giftBtn = slot0.energyTFInfo:Find("gift")
 	slot0.statusTF = slot0.infoPanel:Find("status")
 	slot0.sureBtn = slot0._tf:Find("sure")
 
@@ -86,10 +88,17 @@ end
 
 slot0.AddListeners = function(slot0)
 	slot0:AddListener(GAME.ISLAND_FOLLOWER_OP_DONE, slot0.OnFollowerOp)
+	slot0:AddListener(GAME.ISLAND_GIVE_GIFT_DONE, slot0.OnUseItem)
 end
 
 slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(GAME.ISLAND_FOLLOWER_OP_DONE, slot0.OnFollowerOp)
+	slot0:RemoveListener(GAME.ISLAND_GIVE_GIFT_DONE, slot0.OnUseItem)
+end
+
+slot0.OnUseItem = function(slot0)
+	slot0:ClosePage(IslandShipStatusBox)
+	slot0:FlushInfo()
 end
 
 slot0.OnFollowerOp = function(slot0, slot1)
@@ -179,6 +188,13 @@ slot0.OnInit = function(slot0)
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.island_help_commission.tip
 		})
+	end, SFX_PANEL)
+	onButton(slot0, slot0.giftBtn, function ()
+		if not uv0.showId or uv0.showId == IslandCharacterAgency.NPC_CONFIG_ID then
+			return
+		end
+
+		uv0:OpenPage(IslandShipStatusBox, uv0.showId)
 	end, SFX_PANEL)
 
 	slot1 = slot0.subAttrUIList
@@ -290,6 +306,7 @@ slot0.OnShow = function(slot0, slot1)
 
 	setText(slot0.infoEmptyTitleTF, slot1.emptyInfoTitle or "")
 
+	slot0.energyCost = slot1.energyCost or 0
 	slot0.characterAgency = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
 
 	if slot0.needWorkSpeed then
@@ -439,6 +456,8 @@ slot0.FlushInfo = function(slot0)
 		return
 	end
 
+	setActive(slot0.giftBtn, slot0.showId ~= IslandCharacterAgency.NPC_CONFIG_ID)
+
 	slot1 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot0.showId)
 
 	setText(slot0.nameTF, slot1:GetName())
@@ -485,6 +504,43 @@ slot0.FlushInfo = function(slot0)
 
 	slot0:FlushAddPercent()
 	slot0:FlushEnergyPercent()
+	slot0:FlushEnergyCostAnim(slot1)
+end
+
+slot0.FlushEnergyCostAnim = function(slot0, slot1)
+	slot0:StopCostTimer()
+
+	slot2 = slot0.energyCost ~= 0 and slot0.showType == IslandSelectShipCard.SHOW_TYPE.PLACE
+
+	setActive(slot0.energyCostSilderTF, slot2)
+
+	if not slot2 then
+		return
+	end
+
+	if slot1.id == IslandCharacterAgency.NPC_CONFIG_ID then
+		slot3 = slot1:GetCurrentEnergy()
+		slot4 = slot1:GetMaxEnergy()
+
+		setActive(slot0.energyCostSilderTF, false)
+		setSlider(slot0.energyTF:Find("energy_bar"), 0, 1, slot3 / slot4)
+		setText(slot0.energyTF:Find("text"), string.format("%d-<color=#fadfb6>%d</color>/%d", slot3, 0, slot4))
+
+		return
+	end
+
+	slot3 = math.max(math.floor(slot0.energyCost * (1 - IslandProductCostHelper.GetReducePercentInPlace(slot1.id, slot0.placeId))), 1)
+	slot0.energyCostTimer = Timer.New(function ()
+		slot0 = uv0:GetCurrentEnergy()
+		slot1 = uv0:GetMaxEnergy()
+
+		setSlider(uv1.energyTF:Find("energy_bar"), 0, 1, (slot0 - uv2) / slot1)
+		setSlider(uv1.energyCostSilderTF, 0, 1, slot0 / slot1)
+		setText(uv1.energyTF:Find("text"), string.format("%d-<color=#fadfb6>%d</color>/%d", slot0, uv2, slot1))
+	end, 1, -1)
+
+	slot0.energyCostTimer:Start()
+	slot0.energyCostTimer.func()
 end
 
 slot0.FlushEnergyPercent = function(slot0)
@@ -644,9 +700,18 @@ slot0.GetShips = function(slot0)
 	return slot1
 end
 
+slot0.StopCostTimer = function(slot0)
+	if slot0.energyCostTimer ~= nil then
+		slot0.energyCostTimer:Stop()
+
+		slot0.energyCostTimer = nil
+	end
+end
+
 slot0.OnDestroy = function(slot0)
 	ClearLScrollrect(slot0.shipRectCom)
 	slot0:StopTimer()
+	slot0:StopCostTimer()
 	slot0:OnHide()
 end
 

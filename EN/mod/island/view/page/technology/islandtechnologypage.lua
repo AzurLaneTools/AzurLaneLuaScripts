@@ -57,7 +57,8 @@ slot0.OnLoaded = function(slot0)
 				confirmFunc = function (slot0)
 					uv0.detailPanel:ExecuteAction("OnShipSelected", slot0[1])
 				end,
-				placeId = IslandProductConst.TechnologyPlaceId
+				placeId = IslandProductConst.TechnologyPlaceId,
+				energyCost = pg.island_formula[slot0].stamina_cost
 			})
 		end,
 		onFinishImmd = function (slot0)

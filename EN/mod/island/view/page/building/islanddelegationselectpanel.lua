@@ -140,7 +140,7 @@ slot0.OnInit = function(slot0)
 		slot1, slot2 = (function ()
 			return UnpackIntFromString(PlayerPrefs.GetString(IslandStartDelegationCommand.GetLocalKeyForLastData(uv0.slotId), ""))
 		end)()
-		slot4 = math.floor(pg.island_formula[slot2].stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(slot1, uv0.placeId)))
+		slot4 = math.max(math.floor(pg.island_formula[slot2].stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(slot1, uv0.placeId))), 1)
 
 		if not getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1):IsDelegable() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("island_quick_delegation_notenough_onduty", slot6:GetName()))

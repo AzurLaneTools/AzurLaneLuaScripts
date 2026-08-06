@@ -419,9 +419,10 @@ slot0.InitSwitch = function()
 			return pg.island_ability_template[slot0.id]
 		end,
 		[DROP_TYPE_ISLAND_INVITATION] = function (slot0)
-			slot0.desc = ""
+			slot1 = pg.island_chara_template[slot0.id]
+			slot0.desc = pg.island_item_data_template[slot1.invite_item].desc
 
-			return pg.island_chara_template[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_ISLAND_FURNITURE] = function (slot0)
 			slot1 = pg.island_furniture_template[slot0.id]

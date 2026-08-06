@@ -81,9 +81,15 @@ pg.island_unit_character.all = {
 	1070300,
 	1070301,
 	1070302,
+	1990300,
+	1990301,
+	1990302,
 	2012100,
 	2012101,
 	2012102,
+	2021200,
+	2021201,
+	2021202,
 	2060300,
 	2060301,
 	2060302,
@@ -120,6 +126,9 @@ pg.island_unit_character.all = {
 	5010700,
 	5010701,
 	5010702,
+	5010800,
+	5010801,
+	5010802,
 	5020100,
 	5020101,
 	5020102,
@@ -130,7 +139,13 @@ pg.island_unit_character.all = {
 	5060102,
 	6080200,
 	7010400,
+	9010700,
+	9010701,
+	9010702,
 	9011100,
+	96000100,
+	96000101,
+	96000102,
 	99000100,
 	99000101,
 	99000102,
@@ -1494,6 +1509,57 @@ Be sure to give me a call the next time you come to the harbor!]],
 		CollisionParam = "",
 		personality = 1
 	}
+	pg.base.island_unit_character[1990300] = {
+		describe_illustrated_guid = "Wow... So many fun places! Teacher... Can we walk around? Teacher... and Anchorage, together!",
+		english_name = "USS Anchorage",
+		name = "Anchorage",
+		rendering = "1990300",
+		group = 19903,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "ankeleiqi",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/19903/19903_00/prefab/pre_char_19903_00",
+		personal_ani = "",
+		id = 1990300,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[1990301] = {
+		describe_illustrated_guid = "",
+		english_name = "USS Anchorage",
+		name = "Anchorage",
+		rendering = "1990301",
+		group = 19903,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "ankeleiqi",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/19903/19903_01/prefab/pre_char_19903_01",
+		personal_ani = "personal_19903_1",
+		id = 1990301,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[1990302] = {
+		describe_illustrated_guid = "",
+		english_name = "USS Anchorage",
+		name = "Anchorage",
+		rendering = "1990302",
+		group = 19903,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "ankeleiqi",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/19903/19903_02/prefab/pre_char_19903_02",
+		personal_ani = "personal_19903_1",
+		id = 1990302,
+		CollisionParam = "",
+		personality = 1
+	}
 	pg.base.island_unit_character[2012100] = {
 		describe_illustrated_guid = "Woahhh, the view here is faaantastic! Not to mention, it's warm and sunny, and the weather's perfect as well! I want to throw a picnic now... and of course you're invited too, Commander!",
 		english_name = "HMS Javelin",
@@ -1544,6 +1610,57 @@ Be sure to give me a call the next time you come to the harbor!]],
 		id = 2012102,
 		CollisionParam = "",
 		personality = 1
+	}
+	pg.base.island_unit_character[2021200] = {
+		describe_illustrated_guid = "The scenery is beautiful, Master. Shall we set aside our work and relax together for a spell?",
+		english_name = "HMS Belfast",
+		name = "Belfast",
+		rendering = "2021200",
+		group = 20212,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "beierfasite",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/20212/20212_00/prefab/pre_char_20212_00",
+		personal_ani = "",
+		id = 2021200,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[2021201] = {
+		describe_illustrated_guid = "",
+		english_name = "HMS Belfast",
+		name = "Belfast",
+		rendering = "2021201",
+		group = 20212,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "beierfasite",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/20212/20212_01/prefab/pre_char_20212_01",
+		personal_ani = "personal_20212_1",
+		id = 2021201,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[2021202] = {
+		describe_illustrated_guid = "",
+		english_name = "HMS Belfast",
+		name = "Belfast",
+		rendering = "2021202",
+		group = 20212,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "beierfasite",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/20212/20212_02/prefab/pre_char_20212_02",
+		personal_ani = "personal_20212_1",
+		id = 2021202,
+		CollisionParam = "",
+		personality = 2
 	}
 	pg.base.island_unit_character[2060300] = {
 		describe_illustrated_guid = "B-Big Brother, I-I'm really happy to be able to help out like this! I'll keep w-working hard, because... I-I love you the most!",
@@ -1783,6 +1900,8 @@ Be sure to give me a call the next time you come to the harbor!]],
 		CollisionParam = "",
 		personality = 1
 	}
+end)()
+(function ()
 	pg.base.island_unit_character[3031201] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Atago",
@@ -1885,8 +2004,6 @@ Be sure to give me a call the next time you come to the harbor!]],
 		CollisionParam = "",
 		personality = 1
 	}
-end)()
-(function ()
 	pg.base.island_unit_character[3120100] = {
 		describe_illustrated_guid = "Nyahaha~ The all-capable Akashi can use all the latest technology to upgrade your tools, nya! All it requires is a bit of compensation for the R&D costs and the materials~ Quite the good deal, nya?",
 		english_name = "IJN Akashi",
@@ -2159,6 +2276,57 @@ end)()
 		CollisionParam = "",
 		personality = 1
 	}
+	pg.base.island_unit_character[5010800] = {
+		describe_illustrated_guid = "Commander, there's so much work to be done on this island. Make sure you take regular breaks, okay? I'll brew a pot of piping-hot tea for you – and I'll fetch snacks and a cushion!",
+		english_name = "Chang Feng",
+		name = "Chang Feng",
+		rendering = "5010800",
+		group = 50108,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "changfeng",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/50108/50108_00/prefab/pre_char_50108_00",
+		personal_ani = "",
+		id = 5010800,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[5010801] = {
+		describe_illustrated_guid = "",
+		english_name = "Chang Feng",
+		name = "Chang Feng",
+		rendering = "5010801",
+		group = 50108,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "changfeng",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/50108/50108_01/prefab/pre_char_50108_01",
+		personal_ani = "personal_50108_1",
+		id = 5010801,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[5010802] = {
+		describe_illustrated_guid = "",
+		english_name = "Chang Feng",
+		name = "Chang Feng",
+		rendering = "5010802",
+		group = 50108,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "changfeng",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/50108/50108_02/prefab/pre_char_50108_02",
+		personal_ani = "personal_50108_1",
+		id = 5010802,
+		CollisionParam = "",
+		personality = 2
+	}
 	pg.base.island_unit_character[5020100] = {
 		describe_illustrated_guid = "The mornings here are exceptionally serene. The fragrance of tea mingles with the morning dew, weaving a sublimely calming atmosphere. I've made some tea, Commander. Feel free to join me.",
 		english_name = "Yat Sen",
@@ -2329,6 +2497,57 @@ end)()
 		CollisionParam = "",
 		personality = 2
 	}
+	pg.base.island_unit_character[9010700] = {
+		describe_illustrated_guid = "Commandeeer... The breeze feels nice, but it's a little too gentle to satisfy me~ So come on... Let's find a place where things are a little more \"stimulating\"♥",
+		english_name = "MNF Mogador",
+		name = "Mogador",
+		rendering = "9010700",
+		group = 90107,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "mojiaduoer",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/90107/90107_00/prefab/pre_char_90107_00",
+		personal_ani = "",
+		id = 9010700,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[9010701] = {
+		describe_illustrated_guid = "",
+		english_name = "MNF Mogador",
+		name = "Mogador",
+		rendering = "9010701",
+		group = 90107,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "mojiaduoer",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/90107/90107_01/prefab/pre_char_90107_01",
+		personal_ani = "personal_90107_1",
+		id = 9010701,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[9010702] = {
+		describe_illustrated_guid = "",
+		english_name = "MNF Mogador",
+		name = "Mogador",
+		rendering = "9010702",
+		group = 90107,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "mojiaduoer",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/90107/90107_02/prefab/pre_char_90107_02",
+		personal_ani = "personal_90107_1",
+		id = 9010702,
+		CollisionParam = "",
+		personality = 1
+	}
 	pg.base.island_unit_character[9011100] = {
 		describe_illustrated_guid = "I know I said \"I'll do whatever,\" but the scope of this work is a bit too much... *yaaawn*... Commander, just lemme nap for five minutes... Just five... more minutes...",
 		english_name = "MNF Le Malin",
@@ -2345,6 +2564,57 @@ end)()
 		id = 9011100,
 		CollisionParam = "",
 		personality = 2
+	}
+	pg.base.island_unit_character[96000100] = {
+		describe_illustrated_guid = "Secluded AND beautiful... It's the perfect place to hide treasure! That's it! I'll stash some of my spoils here later!",
+		english_name = "MOT Royal Fortune",
+		name = "Royal Fortune",
+		rendering = "96000100",
+		group = 960001,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huangjiacaifu",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/960001/960001_00/prefab/pre_char_960001_00",
+		personal_ani = "",
+		id = 96000100,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[96000101] = {
+		describe_illustrated_guid = "",
+		english_name = "MOT Royal Fortune",
+		name = "Royal Fortune",
+		rendering = "96000101",
+		group = 960001,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huangjiacaifu",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/960001/960001_01/prefab/pre_char_960001_01",
+		personal_ani = "personal_960001_1",
+		id = 96000101,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[96000102] = {
+		describe_illustrated_guid = "",
+		english_name = "MOT Royal Fortune",
+		name = "Royal Fortune",
+		rendering = "96000102",
+		group = 960001,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huangjiacaifu",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/960001/960001_02/prefab/pre_char_960001_02",
+		personal_ani = "personal_960001_1",
+		id = 96000102,
+		CollisionParam = "",
+		personality = 1
 	}
 	pg.base.island_unit_character[99000100] = {
 		describe_illustrated_guid = "Hey, dweeb, are you still taking this stuff seriously? That's sooo lame! You should do something fun with me instead! Like seeing who can explore the most of the development area! And the loser has to do anything the winner says!",
