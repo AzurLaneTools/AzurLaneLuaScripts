@@ -13,11 +13,11 @@ pg.base.island_exchange_group = {}
 		id = 1,
 		exchange_group = {
 			{
-				"Freshwater Fish",
+				"Freshwater",
 				1
 			},
 			{
-				"Saltwater Fish",
+				"Saltwater",
 				2
 			}
 		},
