@@ -27,14 +27,15 @@ slot0.InitShipSkillGlobalBuff = function(slot0)
 end
 
 slot0.OnShipSkillUnlock = function(slot0, slot1)
-	for slot7, slot8 in ipairs(getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1):GetSkill():GetEffectIds()) do
-		slot0:_AddBuff(slot0.skillBuffDic, {
-			isSkill = true,
-			id = slot8
-		})
+	if #slot0:_SelectGlobalType(getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(slot1):GetSkill():GetEffectIds()) > 0 then
+		underscore.each(slot4, function (slot0)
+			uv0:_AddBuff(uv0.skillBuffDic, {
+				isSkill = true,
+				id = slot0
+			})
+		end)
+		table.insert(slot0.shipIds, slot1)
 	end
-
-	table.insert(slot0.shipIds, slot1)
 end
 
 slot0.OnShipSkillUpgrade = function(slot0, slot1)
