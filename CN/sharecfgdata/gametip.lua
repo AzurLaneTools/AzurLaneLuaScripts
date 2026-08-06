@@ -40379,7 +40379,7 @@ _G.pg.base.gametip.musicbeat_minigame_help = {
 埃塞克斯和企业正跟着律动整理港区仓库！来加入她们吧！
 
 ·参与游戏可获得埃塞克斯改造道具<b>「必要的准备」</b>
-·8月20日为止每日解锁一档奖励。
+·8月12日为止每日解锁一档奖励。
 
 ·点击<b><color=#F55656>左侧红色按钮</color></b>可将飞行物<color=#F55656><b>打飞</b></color>
 ·点击<b><color=#FAF065>右侧黄色按钮</color></b>可将飞行物<color=#FAF065><b>接住</b></color>
@@ -49605,6 +49605,46 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.island_post_btn_set_meal = {
+	tip = "套餐图鉴"
+}
+
+
+_G.pg.base.gametip.island_post_btn_sign = {
+	tip = "日常补给"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_1 = {
+	tip = "作战准备"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_2 = {
+	tip = "有客自来"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_3 = {
+	tip = "律动储物间"
+}
+
+
+_G.pg.base.gametip.Outpost_20260806_rule = {
+	tip = "※任务可同步记录达成条件，但需按日程顺序领取"
+}
+
+
+_G.pg.base.gametip["260806_story_title"] = {
+	tip = "有客自来"
+}
+
+
+_G.pg.base.gametip["260806_story_title_en"] = {
+	tip = "fateful encounter"
+}
+
+
 _G.pg.base.gametip.EscapeManorCoreActivity_subtitle_1 = {
 	tip = "逃离白夜山庄"
 }
@@ -50656,4 +50696,9 @@ _G.pg.base.gametip.escape_story_reward_count = {
 
 _G.pg.base.gametip.auction_network_timeout = {
 	tip = "网络环境异常，已退出对局"
+}
+
+
+_G.pg.base.gametip.loading_pic_btn = {
+	tip = "过场图"
 }

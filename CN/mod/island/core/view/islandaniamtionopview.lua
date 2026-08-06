@@ -148,13 +148,12 @@ slot0.OnMovePlayerBefore = function(slot0)
 	slot0:RemoveWaitTimer()
 
 	slot0.startSingleActionId = nil
+
+	slot0:ClearSelected()
 end
 
 slot0.OnEnable = function(slot0)
-	if not slot0.isInitList then
-		slot0:InitList()
-	end
-
+	slot0:InitList()
 	slot0:UpdateMoveBtn()
 
 	slot0.isShowing = true
@@ -172,6 +171,16 @@ slot0.GetData = function(slot0)
 		elseif slot10.type == IslandConst.ANIMATION_OP_DOUBLE then
 			table.insert(slot2, slot9)
 		end
+	end
+
+	if slot0.markActionId then
+		table.sort(slot1, function (slot0, slot1)
+			if (slot0 == uv0.markActionId and 1 or 0) == (slot1 == uv0.markActionId and 1 or 0) then
+				return slot0 < slot1
+			else
+				return slot3 < slot2
+			end
+		end)
 	end
 
 	return slot1, slot2
@@ -212,6 +221,34 @@ slot0.InitList = function(slot0)
 	slot0.scrollrect:SetTotalCount(#slot3, 0)
 
 	slot0.isInitList = true
+end
+
+slot0.SortForNpcAction = function(slot0, slot1)
+	if not slot1 then
+		slot0.markActionId = nil
+
+		slot0:InitList()
+
+		return
+	end
+
+	slot2, slot3 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot1)
+
+	if not slot0:GetView():GetUnitModuleWithType(slot2, slot3) then
+		return
+	end
+
+	if not slot4.data or not isa(slot4.data, IslandStrollUnitVO) then
+		return
+	end
+
+	if not slot4.data:GetGreetingFeedback() then
+		return
+	end
+
+	slot0.markActionId = slot5
+
+	slot0:InitList()
 end
 
 slot0.OnInitItem = function(slot0, slot1)
@@ -292,8 +329,15 @@ slot0.PlayAniamtion = function(slot0, slot1)
 
 			IslandTaskHelper.OnActionEnd(uv1.id)
 			uv0:NotifiyCore(ISLAND_EVT.PLAY_SIGNLE_ANIMATION_END, uv1.id)
+			uv0:ClearSelected()
 		end)
 	end
+end
+
+slot0.ClearSelected = function(slot0, ...)
+	slot0.selectedId = nil
+
+	slot0:UpdateCardsSelected()
 end
 
 slot0.HasFollowerAndNoVisitorAround = function(slot0)
@@ -349,13 +393,16 @@ slot0.AddWaitTimer = function(slot0, slot1)
 	slot0.startCoupleActionId = slot1
 	slot0.timer = Timer.New(function ()
 		uv0:RemoveWaitTimer()
+		uv0:ClearSelected()
 	end, slot0.waitTime, 1)
 
 	slot0.timer:Start()
 end
 
 slot0.RemoveWaitTimer = function(slot0, slot1)
-	slot1 = defaultValue(slot1, true)
+	if not defaultValue(slot1, true) then
+		slot0:ClearSelected()
+	end
 
 	slot0:CancelEffect()
 
@@ -393,7 +440,7 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 		slot3 = slot0.cards[slot2]
 	end
 
-	slot3:Update(slot0.displays[slot1 + 1], slot0.selectedId, slot0.loadingData)
+	slot3:Update(slot0.displays[slot1 + 1], slot0.selectedId, slot0.loadingData, slot0.markActionId)
 end
 
 slot0.OnDisable = function(slot0)
@@ -425,6 +472,7 @@ slot0.OnDispose = function(slot0)
 
 	slot0.cards = nil
 	slot0.isShowing = false
+	slot0.markActionId = nil
 end
 
 return slot0

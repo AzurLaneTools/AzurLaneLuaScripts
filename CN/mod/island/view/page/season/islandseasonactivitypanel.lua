@@ -5,16 +5,6 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot1 = slot0._tf:GetComponent("ItemList").prefabItem:ToTable()
-
-	for slot5, slot6 in ipairs({
-		"rtTabsContent",
-		"rtTabsTpl",
-		"rtPages",
-		"rtPagesEmpty"
-	}) do
-		slot0[slot6] = slot1[slot5].transform
-	end
 end
 
 slot0.OnInit = function(slot0)
@@ -27,23 +17,28 @@ slot0.OnInit = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot2.name = uv0.activities[slot1] and slot3.id or 0
 
-			if slot3 then
-				slot5 = slot3:getIslandConfig("title_res_tag")
+			slot5 = function(slot0)
+				setActive(uv0:Find("red"), IslandSeasonRedDotHelper.TipActivity(slot0))
+			end
 
-				setText(slot2:Find("on/Text"), slot5)
-				setText(slot2:Find("off/Text"), slot5)
-				setActive(slot2:Find("red"), slot3:readyToAchieve())
+			if slot3 then
+				slot6 = slot3:getIslandConfig("title_res_tag")
+
+				setText(slot2:Find("on/Text"), slot6)
+				setText(slot2:Find("off/Text"), slot6)
+				slot5(slot3)
 			else
 				setText(slot2:Find("on/Text"), i18n("island_no_activity"))
 				setText(slot2:Find("on/Text/en"), i18n("island_activity_decorative_word"))
 				setText(slot2:Find("off/Text"), i18n("island_no_activity"))
 			end
 
-			slot5 = uv0.pageDic[slot4]
+			slot6 = uv0.pageDic[slot4]
 
 			onToggle(uv0, slot2, function (slot0)
 				if uv0 and slot0 then
 					uv1:selectActivity(uv2)
+					uv3(uv2)
 				end
 			end, SFX_PANEL)
 		end
@@ -203,6 +198,9 @@ slot0.selectActivity = function(slot0, slot1)
 	if slot0.nextActivity == slot1 or not slot0.nextActivity and slot0.activity and slot1.id == slot0.activity.id then
 		return
 	end
+
+	IslandSeasonRedDotHelper.UpdateActEnterTip(slot1)
+	slot0:emit(IslandSeasonPage.UPDATE_REDDOT, IslandSeasonPage.PAGE_ACTIVITY)
 
 	slot2 = {}
 

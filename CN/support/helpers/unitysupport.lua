@@ -965,14 +965,14 @@ getSceneRootTFDic = function(slot0)
 	return slot1
 end
 
-bindComponent = function(slot0, slot1)
+bindComponent = function(slot0, slot1, slot2)
 	if tf(slot1):GetComponent(typeof(ComponentBinding)) == nil then
 		return
 	end
 
-	slot4 = slot2:GetComponentValues():ToTable()
+	slot5 = slot3:GetComponentValues():ToTable()
 
-	for slot8, slot9 in ipairs(slot2:GetLuaNames():ToTable()) do
-		slot0[slot9] = slot4[slot8]
+	for slot9, slot10 in ipairs(slot3:GetLuaNames():ToTable()) do
+		slot0[slot10] = not slot2 and slot5[slot9] or nil
 	end
 end

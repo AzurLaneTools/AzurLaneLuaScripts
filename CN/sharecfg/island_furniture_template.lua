@@ -29,6 +29,7 @@ pg.island_furniture_template.all = {
 	100,
 	101,
 	102,
+	103,
 	10101,
 	10201,
 	10301,
@@ -156,7 +157,38 @@ pg.island_furniture_template.all = {
 	40420,
 	40801,
 	40802,
-	40803
+	40803,
+	50173,
+	50176,
+	50179,
+	50203,
+	50207,
+	50234,
+	50300,
+	50301,
+	50302,
+	50304,
+	50305,
+	50306,
+	50307,
+	50308,
+	50309,
+	50310,
+	50311,
+	50312,
+	50313,
+	50314,
+	50315,
+	50316,
+	50318,
+	50319,
+	50320,
+	50321,
+	50322,
+	50325,
+	50347,
+	50348,
+	50349
 }
 pg.base = pg.base or {}
 pg.base.island_furniture_template = {}
@@ -731,7 +763,38 @@ pg.base.island_furniture_template = {}
 			2,
 			2
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"夏季特产经营",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[103] = {
+		setNum = 1,
+		describe = "奖杯上，一片巨大的枫叶被丰收的麦穗环抱，能隐隐闻到一股令人安心的枫糖香气。",
+		name = "秋季开发奖杯II",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_103",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50004/prefab/pre_item_05_50004",
+		bt = "",
+		id = 103,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"秋季特产经营",
+				{}
+			}
+		}
 	}
 	pg.base.island_furniture_template[10101] = {
 		setNum = 1,
@@ -2619,6 +2682,8 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_furniture_template[30304] = {
 		setNum = 999,
 		describe = "华丽的世界正向着所有人敞开！",
@@ -2645,8 +2710,6 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_furniture_template[30305] = {
 		setNum = 999,
 		describe = "等待一场充满点心香气的午后茶话~",
@@ -3319,8 +3382,8 @@ end)()
 		id = 40201,
 		tech_id = 0,
 		size = {
-			20,
-			20
+			23,
+			19
 		},
 		interact_point = {
 			20
@@ -4018,6 +4081,807 @@ end)()
 		model = "island/item/05/50196/prefab/pre_item_05_50196",
 		bt = "",
 		id = 40803,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[50173] = {
+		setNum = 999,
+		describe = "洁白干净的金属栏杆，适合倚靠或拍照。",
+		name = "白漆铁栏",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50173",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50173/prefab/pre_item_05_50173",
+		bt = "",
+		id = 50173,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"开发季IV-累积PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50176] = {
+		setNum = 999,
+		describe = "木头小马配弹簧底座，骑上去就化身西部牛仔~",
+		name = "欢乐小马",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50176",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50176/prefab/pre_item_05_50176",
+		bt = "",
+		id = 50176,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"开发季IV-累积PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50179] = {
+		setNum = 999,
+		describe = "树冠如粉色云朵，风来时花瓣飘落显得异常浪漫。",
+		name = "樱花树",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50179",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50179/prefab/pre_item_05_50179",
+		bt = "",
+		id = 50179,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"开发季IV-累积PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50203] = {
+		setNum = 999,
+		describe = "石桌上摆放着未完成的棋局，似乎在等某个有缘人完成它。",
+		name = "围棋石座",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50203",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50203/prefab/pre_item_05_50203",
+		bt = "",
+		id = 50203,
+		tech_id = 0,
+		size = {
+			4,
+			2
+		},
+		jump_page = {
+			{
+				"开发季IV-累积PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50207] = {
+		setNum = 999,
+		describe = "摆满花盆和园艺工具的小木桌，是园丁最顺手的操作台。",
+		name = "园艺木桌",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50207",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50207/prefab/pre_item_05_50207",
+		bt = "",
+		id = 50207,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"开发季IV-累积PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50234] = {
+		setNum = 999,
+		describe = "简朴的竹篱笆，透着一股田园气息。",
+		name = "竹篱笆",
+		type = 4,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50234",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50234/prefab/pre_item_05_50234",
+		bt = "",
+		id = 50234,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50300] = {
+		setNum = 999,
+		describe = "由搁浅的木船改造而成的驿站小屋，在小镇中相当引人注目。",
+		name = "船屋驿站",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50300",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50300/prefab/pre_item_05_50300",
+		bt = "",
+		id = 50300,
+		tech_id = 0,
+		size = {
+			13,
+			17
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50301] = {
+		setNum = 999,
+		describe = "用杂物堆砌而成的简易靶场，是“预备牛仔”测试弹弓准度的地方。",
+		name = "简易靶场",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50301",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50301/prefab/pre_item_05_50301",
+		bt = "",
+		id = 50301,
+		tech_id = 0,
+		size = {
+			22,
+			26
+		},
+		interact_point = {
+			24
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50302] = {
+		setNum = 999,
+		describe = "粗木条钉成的单人牢笼，勉强能塞一个人进去。",
+		name = "单人牢笼",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50302",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50302/prefab/pre_item_05_50302",
+		bt = "",
+		id = 50302,
+		tech_id = 0,
+		size = {
+			4,
+			4
+		},
+		interact_point = {
+			25
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50304] = {
+		setNum = 999,
+		describe = "慢节奏生活的标志，适合发呆或小憩。",
+		name = "悠闲摇摇椅",
+		type = 3,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50304",
+		prosperity = 0,
+		capacityCost = 20,
+		model = "island/item/05/50304/prefab/pre_item_05_50304",
+		bt = "",
+		id = 50304,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		interact_point = {
+			26
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50305] = {
+		setNum = 999,
+		describe = "穿梭于荒野的运输车，支撑着整个小镇的运转。",
+		name = "流动杂货车",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50305",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50305/prefab/pre_item_05_50305",
+		bt = "",
+		id = 50305,
+		tech_id = 0,
+		size = {
+			4,
+			4
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50306] = {
+		setNum = 999,
+		describe = "夜晚最温暖的地方，故事和歌声在此交织。",
+		name = "夜话篝火堆",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50306",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50306/prefab/pre_item_05_50306",
+		bt = "",
+		id = 50306,
+		tech_id = 0,
+		size = {
+			9,
+			9
+		},
+		interact_point = {
+			27
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50307] = {
+		setNum = 999,
+		describe = "蔬菜筐和杂物堆在一起，翻一翻说不定能找到惊喜。",
+		name = "果蔬杂货堆",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50307",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50307/prefab/pre_item_05_50307",
+		bt = "",
+		id = 50307,
+		tech_id = 0,
+		size = {
+			5,
+			4
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50308] = {
+		setNum = 999,
+		describe = "酒馆里最常见的摆设，飘散着麦芽的香气。",
+		name = "橡木酒桶",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50308",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50308/prefab/pre_item_05_50308",
+		bt = "",
+		id = 50308,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50309] = {
+		setNum = 999,
+		describe = "昏黄的灯光，为夜归的人指引方向。",
+		name = "街角路灯",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50309",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50309/prefab/pre_item_05_50309",
+		bt = "",
+		id = 50309,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50310] = {
+		setNum = 999,
+		describe = "可以加炭的火炉，是寒冬里的温暖依靠。",
+		name = "温暖火炉",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50310",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50310/prefab/pre_item_05_50310",
+		bt = "",
+		id = 50310,
+		tech_id = 0,
+		size = {
+			4,
+			4
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50311] = {
+		setNum = 999,
+		describe = "铁锤与铁砧的碰撞，火焰与金属的交响。",
+		name = "铁砧与锤",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50311",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50311/prefab/pre_item_05_50311",
+		bt = "",
+		id = 50311,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50312] = {
+		setNum = 999,
+		describe = "贴满通缉令和告示的木牌，是小镇的信息中心。",
+		name = "小镇公告栏",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50312",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50312/prefab/pre_item_05_50312",
+		bt = "",
+		id = 50312,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50313] = {
+		setNum = 999,
+		describe = "印着小镇标志的木制大门，欢迎每一位来客。",
+		name = "小镇大门",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50313",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50313/prefab/pre_item_05_50313",
+		bt = "",
+		id = 50313,
+		tech_id = 0,
+		size = {
+			5,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50314] = {
+		setNum = 999,
+		describe = "用摇杆控制小鼠的升降，是小镇中最滑稽的娱乐设施。",
+		name = "鼠鼠吊笼",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50314",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50314/prefab/pre_item_05_50314",
+		bt = "",
+		id = 50314,
+		tech_id = 0,
+		size = {
+			4,
+			2
+		},
+		interact_point = {
+			28
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50315] = {
+		setNum = 999,
+		describe = "已超过使用年限的风车塔，每次转动都会响起吱呀吱呀的声音。",
+		name = "吱呀风车塔",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50315",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50315/prefab/pre_item_05_50315",
+		bt = "",
+		id = 50315,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50316] = {
+		setNum = 999,
+		describe = "由原木打磨而成的栏杆，简单实用地划分着区域。",
+		name = "原木栏杆",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50316",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50316/prefab/pre_item_05_50316",
+		bt = "",
+		id = 50316,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50318] = {
+		setNum = 999,
+		describe = "曾经运送矿石的铁轨，如今只余锈迹和回忆。",
+		name = "废弃铁轨",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50318",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50318/prefab/pre_item_05_50318",
+		bt = "",
+		id = 50318,
+		tech_id = 0,
+		size = {
+			1,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50319] = {
+		setNum = 999,
+		describe = "木制的马匹雕像，用作店铺招牌或纯粹装饰。",
+		name = "木马雕像",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50319",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50319/prefab/pre_item_05_50319",
+		bt = "",
+		id = 50319,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50320] = {
+		setNum = 999,
+		describe = "圆滚滚的干草垛，散发着田野的清香。",
+		name = "干草垛",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50320",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50320/prefab/pre_item_05_50320",
+		bt = "",
+		id = 50320,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50321] = {
+		setNum = 999,
+		describe = "被风吹着到处翻滚的干草团，是西部独有的风景。",
+		name = "风滚草",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50321",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50321/prefab/pre_item_05_50321",
+		bt = "",
+		id = 50321,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50322] = {
+		setNum = 999,
+		describe = "西部荒原最常见的植物，顽强而孤独。",
+		name = "荒原仙人掌",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50322",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50322/prefab/pre_item_05_50322",
+		bt = "",
+		id = 50322,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50325] = {
+		setNum = 999,
+		describe = "风沙中依然高耸挺立的杉树，是旅人辨认方向的标志。",
+		name = "高耸冷杉",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50325",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50325/prefab/pre_item_05_50325",
+		bt = "",
+		id = 50325,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50347] = {
+		setNum = 999,
+		describe = "粗犷风格的地砖铺陈在沙地上，像是把西部片里的街道搬到了脚下~",
+		name = "荒野地砖（小）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50347",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50347/prefab/pre_item_05_50347",
+		bt = "",
+		id = 50347,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[50348] = {
+		setNum = 999,
+		describe = "粗犷风格的地砖铺陈在沙地上，像是把西部片里的街道搬到了脚下~",
+		name = "荒野地砖（中）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50348",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50348/prefab/pre_item_05_50348",
+		bt = "",
+		id = 50348,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[50349] = {
+		setNum = 999,
+		describe = "粗犷风格的地砖铺陈在沙地上，像是把西部片里的街道搬到了脚下~",
+		name = "荒野地砖（大）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50349",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50349/prefab/pre_item_05_50349",
+		bt = "",
+		id = 50349,
 		tech_id = 0,
 		size = {
 			5,

@@ -8,7 +8,9 @@ pg.island_skin_template.all = {
 	1020501,
 	1051701,
 	1070301,
+	1990301,
 	2012101,
+	2021201,
 	2060301,
 	2990301,
 	3031101,
@@ -19,8 +21,11 @@ pg.island_skin_template.all = {
 	4990201,
 	4990601,
 	5010701,
+	5010801,
 	5020101,
 	5060101,
+	9010701,
+	96000101,
 	99000201,
 	99000202,
 	99000101,
@@ -44,8 +49,14 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[10703] = {
 		1070301
 	},
+	[19903] = {
+		1990301
+	},
 	[20121] = {
 		2012101
+	},
+	[20212] = {
+		2021201
 	},
 	[20603] = {
 		2060301
@@ -77,11 +88,20 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[50107] = {
 		5010701
 	},
+	[50108] = {
+		5010801
+	},
 	[50201] = {
 		5020101
 	},
 	[50601] = {
 		5060101
+	},
+	[90107] = {
+		9010701
+	},
+	[960001] = {
+		96000101
 	},
 	[990001] = {
 		99000101,
@@ -170,6 +190,20 @@ pg.base.island_skin_template = {}
 		icon_normal = "props/skin_1070301",
 		jump_page = {}
 	}
+	pg.base.island_skin_template[1990301] = {
+		ship_group = 19903,
+		name = "课间约定",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "红领结随着步子轻轻晃动，满怀期待的少女已经准备好，把今天的课间时光都交给你~",
+		shop_goods_id = 0,
+		model = 1990301,
+		id = 1990301,
+		icon = "skin_1990301",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[2012101] = {
 		ship_group = 20121,
 		name = "枕头大战",
@@ -182,6 +216,20 @@ pg.base.island_skin_template = {}
 		model = 2012101,
 		id = 2012101,
 		icon = "skin_2012101",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[2021201] = {
+		ship_group = 20212,
+		name = "午后书页",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "制服外套裹着温柔书香，利落束起的长发之下，是一如既往令人安心的优雅笑意。",
+		shop_goods_id = 0,
+		model = 2021201,
+		id = 2021201,
+		icon = "skin_2021201",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[2060301] = {
@@ -324,6 +372,20 @@ pg.base.island_skin_template = {}
 		icon = "skin_5010701",
 		icon_normal = ""
 	}
+	pg.base.island_skin_template[5010801] = {
+		ship_group = 50108,
+		name = "软乎乎放学路",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "可爱的双马尾轻轻甩动，踩着轻快步子走来的她，连放学路都变得软乎乎起来~",
+		shop_goods_id = 0,
+		model = 5010801,
+		id = 5010801,
+		icon = "skin_5010801",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[5020101] = {
 		ship_group = 50201,
 		name = "月下茶香",
@@ -350,6 +412,34 @@ pg.base.island_skin_template = {}
 		model = 5060101,
 		id = 5060101,
 		icon = "skin_5060101",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[9010701] = {
+		ship_group = 90107,
+		name = "心跳下课铃",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "微微松开的领口与随性垂落的领结，让那份藏不住的活力里，又多了一点令人心跳加速的危险感~",
+		shop_goods_id = 0,
+		model = 9010701,
+		id = 9010701,
+		icon = "skin_9010701",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[96000101] = {
+		ship_group = 960001,
+		name = "学院序曲",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "端正又别致的学院装束，像是把认真与风度都一并穿在了身上，连踏入校园的步伐都更有仪式感。",
+		shop_goods_id = 0,
+		model = 96000101,
+		id = 96000101,
+		icon = "skin_96000101",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[99000201] = {

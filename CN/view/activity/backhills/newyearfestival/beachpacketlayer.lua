@@ -73,14 +73,7 @@ slot0.findUI = function(slot0)
 
 	slot5 = slot0._tf:Find("AwardPanel")
 	slot0.awardTpl = slot5:Find("AwardTpl")
-	slot0.iconTpl = Instantiate(slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0])
-
-	setLocalScale(slot0.iconTpl, {
-		x = 0.4,
-		y = 0.4
-	})
-	setParent(slot0.iconTpl, slot0.awardTpl:Find("Icon"))
-
+	slot0.iconTpl = slot0.awardTpl:Find("Icon/IconTpl")
 	slot0.awardTFList = {}
 
 	slot6 = function(slot0, slot1, slot2)

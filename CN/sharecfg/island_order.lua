@@ -48,7 +48,22 @@ pg.island_order.all = {
 	100042,
 	100043,
 	100044,
-	100045
+	100045,
+	100046,
+	100047,
+	100048,
+	100049,
+	100050,
+	100051,
+	100052,
+	100053,
+	100054,
+	100055,
+	100056,
+	100057,
+	100058,
+	100059,
+	100060
 }
 pg.island_order.get_id_list_by_activity_id = {
 	[0] = {
@@ -104,6 +119,23 @@ pg.island_order.get_id_list_by_activity_id = {
 		100043,
 		100044,
 		100045
+	},
+	[990023] = {
+		100046,
+		100047,
+		100048,
+		100049,
+		100050,
+		100051,
+		100052,
+		100053,
+		100054,
+		100055,
+		100056,
+		100057,
+		100058,
+		100059,
+		100060
 	}
 }
 pg.base = pg.base or {}
@@ -1154,6 +1186,348 @@ pg.base.island_order = {}
 			},
 			{
 				4038,
+				5
+			}
+		},
+		award = {
+			0,
+			32000
+		}
+	}
+	pg.base.island_order[100046] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100047,
+		npc_id = 101600,
+		desc = "指挥官……开发季的资材能再帮我收集一些吗？我会记录好用途的……",
+		is_head = 1,
+		id = 100046,
+		group_id = 990023,
+		season_pt_num = 1000,
+		request = {
+			{
+				4001,
+				4
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	}
+	pg.base.island_order[100047] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100048,
+		npc_id = 101600,
+		desc = "这是下一阶段的规划……需要更多的资材，拜托您了！",
+		is_head = 0,
+		id = 100047,
+		group_id = 990023,
+		season_pt_num = 1000,
+		request = {
+			{
+				4002,
+				4
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	}
+	pg.base.island_order[100048] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100049,
+		npc_id = 101600,
+		desc = "指挥官……这批的特殊资材对我们真的很重要，我不会浪费的……请您帮帮我，可以吗？",
+		is_head = 0,
+		id = 100048,
+		group_id = 990023,
+		season_pt_num = 1000,
+		request = {
+			{
+				4003,
+				4
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	}
+	pg.base.island_order[100049] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100050,
+		npc_id = 101600,
+		desc = "实、实在抱歉又来麻烦您……这一次就差这些东西了……",
+		is_head = 0,
+		id = 100049,
+		group_id = 990023,
+		season_pt_num = 1000,
+		request = {
+			{
+				4004,
+				4
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	}
+	pg.base.island_order[100050] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100051,
+		npc_id = 101600,
+		desc = "指挥官……谢谢您一直愿意帮我，这次也……拜托您了。",
+		is_head = 0,
+		id = 100050,
+		group_id = 990023,
+		season_pt_num = 1000,
+		request = {
+			{
+				4005,
+				10
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	}
+	pg.base.island_order[100051] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100052,
+		npc_id = 101600,
+		desc = "指挥官……开发季的资材能再帮我收集一些吗？我会记录好用途的……",
+		is_head = 0,
+		id = 100051,
+		group_id = 990023,
+		season_pt_num = 1000,
+		request = {
+			{
+				4007,
+				10
+			}
+		},
+		award = {
+			0,
+			4000
+		}
+	}
+	pg.base.island_order[100052] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100053,
+		npc_id = 101600,
+		desc = "这是下一阶段的规划……需要更多的资材，拜托您了！",
+		is_head = 0,
+		id = 100052,
+		group_id = 990023,
+		season_pt_num = 2500,
+		request = {
+			{
+				4009,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	}
+	pg.base.island_order[100053] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100054,
+		npc_id = 101600,
+		desc = "指挥官……这批的特殊资材对我们真的很重要，我不会浪费的……请您帮帮我，可以吗？",
+		is_head = 0,
+		id = 100053,
+		group_id = 990023,
+		season_pt_num = 2500,
+		request = {
+			{
+				4010,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	}
+	pg.base.island_order[100054] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100055,
+		npc_id = 101600,
+		desc = "实、实在抱歉又来麻烦您……这一次就差这些东西了……",
+		is_head = 0,
+		id = 100054,
+		group_id = 990023,
+		season_pt_num = 2500,
+		request = {
+			{
+				4011,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	}
+	pg.base.island_order[100055] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100056,
+		npc_id = 101600,
+		desc = "指挥官……谢谢您一直愿意帮我，这次也……拜托您了。",
+		is_head = 0,
+		id = 100055,
+		group_id = 990023,
+		season_pt_num = 2500,
+		request = {
+			{
+				4012,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	}
+	pg.base.island_order[100056] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100057,
+		npc_id = 101600,
+		desc = "指挥官……开发季的资材能再帮我收集一些吗？我会记录好用途的……",
+		is_head = 0,
+		id = 100056,
+		group_id = 990023,
+		season_pt_num = 2500,
+		request = {
+			{
+				4013,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	}
+	pg.base.island_order[100057] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100058,
+		npc_id = 101600,
+		desc = "这是下一阶段的规划……需要更多的资材，拜托您了！",
+		is_head = 0,
+		id = 100057,
+		group_id = 990023,
+		season_pt_num = 2500,
+		request = {
+			{
+				4014,
+				5
+			}
+		},
+		award = {
+			0,
+			10000
+		}
+	}
+	pg.base.island_order[100058] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100059,
+		npc_id = 101600,
+		desc = "指挥官……这批的特殊资材对我们真的很重要，我不会浪费的……请您帮帮我，可以吗？",
+		is_head = 0,
+		id = 100058,
+		group_id = 990023,
+		season_pt_num = 8000,
+		request = {
+			{
+				4009,
+				5
+			},
+			{
+				4014,
+				5
+			}
+		},
+		award = {
+			0,
+			32000
+		}
+	}
+	pg.base.island_order[100059] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 100060,
+		npc_id = 101600,
+		desc = "实、实在抱歉又来麻烦您……这一次就差这些东西了……",
+		is_head = 0,
+		id = 100059,
+		group_id = 990023,
+		season_pt_num = 8000,
+		request = {
+			{
+				4010,
+				5
+			},
+			{
+				4012,
+				5
+			}
+		},
+		award = {
+			0,
+			32000
+		}
+	}
+	pg.base.island_order[100060] = {
+		activity_id = 990023,
+		type = 3,
+		effective_time = 0,
+		next_order = 0,
+		npc_id = 101600,
+		desc = "指挥官……谢谢您一直愿意帮我，这次也……拜托您了。",
+		is_head = 0,
+		id = 100060,
+		group_id = 990023,
+		season_pt_num = 8000,
+		request = {
+			{
+				4011,
+				5
+			},
+			{
+				4013,
 				5
 			}
 		},

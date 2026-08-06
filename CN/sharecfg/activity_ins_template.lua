@@ -663,6 +663,7 @@ pg.activity_ins_template.all = {
 	20005,
 	20007,
 	20008,
+	20011,
 	20009,
 	20010
 }
@@ -27613,6 +27614,33 @@ end)()
 			},
 			{
 				16,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20011] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港区新闻】滨海极速——全新赛车企划正式官宣！",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20011,
+		group_id = 20011,
+		time = {
+			{
+				2026,
+				8,
+				6
+			},
+			{
+				11,
 				0,
 				0
 			}

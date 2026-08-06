@@ -388,6 +388,7 @@ pg.skill_data_template.all = {
 	61090,
 	61100,
 	61110,
+	61120,
 	7000,
 	9010,
 	9020,
@@ -3093,6 +3094,7 @@ pg.skill_data_template.all = {
 	1010800,
 	1019300,
 	1018300,
+	1013450,
 	1014050,
 	1090010,
 	1090020,
@@ -3139,6 +3141,7 @@ pg.skill_data_template.all = {
 	1090460,
 	1090470,
 	1090480,
+	1090500,
 	1090490
 }
 pg.base = pg.base or {}
@@ -13852,6 +13855,20 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61120] = {
+		desc_get = "",
+		name = "名侦探之帽",
+		type = 0,
+		max_level = 0,
+		desc = "埃塞克斯装备时，战斗中自身额外获得30点命中",
+		id = 61120,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "莱茵演习",
@@ -14524,6 +14541,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[9110] = {
 		desc_get = "",
 		name = "防空模式",
@@ -14630,8 +14649,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[9120] = {
 		desc_get = "",
 		name = "模拟战埃吉尔占用",
@@ -21707,6 +21724,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10950] = {
 		desc_get = "增加3点(满级8点)航速，炮击属性提高15.0%",
 		name = "尚武之魂",
@@ -21804,8 +21823,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10960] = {
 		desc_get = "出击时，队伍中特型驱逐舰的炮击、机动提高15.0%(满级30%)，雷击提高4%(满级10%)",
 		name = "特型领舰",
@@ -30081,6 +30098,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11940] = {
 		desc_get = "",
 		name = "天与海的观测者",
@@ -30187,8 +30206,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11950] = {
 		desc_get = "",
 		name = "不冻港的协奏曲",
@@ -39597,6 +39614,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13010] = {
 		desc_get = "",
 		name = "精准诱导",
@@ -39748,8 +39767,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13020] = {
 		desc_get = "",
 		name = "冰结锋芒",
@@ -49274,6 +49291,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14010] = {
 		desc_get = "",
 		name = "Z系领航",
@@ -49380,8 +49399,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14020] = {
 		desc_get = "",
 		name = "护航精英",
@@ -60636,6 +60653,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15010] = {
 		desc_get = "",
 		name = "侵袭之盾",
@@ -60733,8 +60752,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15020] = {
 		desc_get = "",
 		name = "破竹之势",
@@ -72521,6 +72538,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16020] = {
 		desc_get = "",
 		name = "战争之殇.改",
@@ -72665,8 +72684,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16030] = {
 		desc_get = "",
 		name = "静海惊雷",
@@ -84006,6 +84023,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17030] = {
 		desc_get = "",
 		name = "荡涤诸恶",
@@ -84193,8 +84212,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17040] = {
 		desc_get = "",
 		name = "天光云影",
@@ -95286,6 +95303,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150090] = {
 		desc_get = "",
 		name = "『裁决降临』跨队ID占用",
@@ -95300,8 +95319,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150100] = {
 		desc_get = "",
 		name = "『临界爆发』跨队ID占用",
@@ -106633,6 +106650,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151080] = {
 		desc_get = "",
 		name = "蝶影叶岚",
@@ -106775,8 +106794,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151090] = {
 		desc_get = "",
 		name = "青空圣御",
@@ -118522,6 +118539,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152050] = {
 		desc_get = "",
 		name = "决胜博弈",
@@ -118619,8 +118638,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152060] = {
 		desc_get = "",
 		name = "交给我吧！",
@@ -128688,6 +128705,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19180] = {
 		desc_get = "",
 		name = "{namecode:164}流·六莲雷",
@@ -128740,8 +128759,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19190] = {
 		desc_get = "",
 		name = "怒火连峰",
@@ -138766,6 +138783,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20061] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -138780,8 +138799,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20062] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -140168,6 +140185,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22072] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -140182,8 +140201,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22081] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -141570,6 +141587,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[25211] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -141584,8 +141603,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[25212] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -142972,6 +142989,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29221] = {
 		desc_get = "",
 		name = "专属弹幕-{namecode:152}I",
@@ -142986,8 +143005,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29222] = {
 		desc_get = "",
 		name = "专属弹幕-{namecode:152}II",
@@ -144382,6 +144399,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29732] = {
 		desc_get = "",
 		name = "专属弹幕-{namecode:203}II",
@@ -144396,8 +144415,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29741] = {
 		desc_get = "",
 		name = "专属弹幕-安克雷奇I",
@@ -145784,6 +145801,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30262] = {
 		desc_get = "",
 		name = "专属弹幕-莫加多尔II",
@@ -145798,8 +145817,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30271] = {
 		desc_get = "",
 		name = "专属弹幕-布伦努斯I",
@@ -148629,6 +148646,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[103050] = {
 		desc_get = "",
 		name = "生命的鼓动",
@@ -148690,8 +148709,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[103060] = {
 		desc_get = "",
 		name = "百合根",
@@ -157514,6 +157531,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[107100] = {
 		desc_get = "",
 		name = "治愈系占卜",
@@ -157755,8 +157774,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[107110] = {
 		desc_get = "",
 		name = "迷路的偶像",
@@ -165965,6 +165982,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[110210] = {
 		desc_get = "",
 		name = "远野之魂 +",
@@ -166062,8 +166081,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[110220] = {
 		desc_get = "",
 		name = "New Link Chance！",
@@ -174555,6 +174572,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[117080] = {
 		desc_get = "",
 		name = "四o式战术刀",
@@ -174569,8 +174588,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[190000] = {
 		desc_get = "",
 		name = "钢铁洪流的和声",
@@ -180091,6 +180108,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800510] = {
 		desc_get = "",
 		name = "殇视之怒",
@@ -180197,8 +180216,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800520] = {
 		desc_get = "",
 		name = "殇视之盾",
@@ -185308,6 +185325,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801052] = {
 		desc_get = "",
 		name = "逐光之焰·基洛夫II",
@@ -185324,8 +185343,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801055] = {
 		desc_get = "",
 		name = "逐光之焰·基洛夫I",
@@ -190699,6 +190716,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801597] = {
 		desc_get = "",
 		name = "逐光之焰·博尔扎诺II",
@@ -190715,8 +190734,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801600] = {
 		desc_get = "",
 		name = "永夜之暗",
@@ -196170,6 +196187,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802160] = {
 		desc_get = "",
 		name = "火力勘察",
@@ -196267,8 +196286,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802171] = {
 		desc_get = "",
 		name = "逐光之焰·{namecode:423}I",
@@ -201632,6 +201649,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1012600] = {
 		desc_get = "",
 		name = "Rose Bombardamento +",
@@ -201695,8 +201714,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1010540] = {
 		desc_get = "",
 		name = "皇家同盟 +",
@@ -214401,6 +214418,112 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[1013450] = {
+		desc_get = "",
+		name = "骑士不朽之约 +",
+		type = 3,
+		max_level = 10,
+		desc = "进入战斗时，自身炮击、装填提升$1；自身及我方先锋领舰炮击、防空额外提升$2",
+		id = 1013450,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"8.0%",
+				"18.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"8.0%",
+					"+1.1%"
+				},
+				{
+					"9.1%",
+					"+1.1%"
+				},
+				{
+					"10.2%",
+					"+1.1%"
+				},
+				{
+					"11.3%",
+					"+1.1%"
+				},
+				{
+					"12.4%",
+					"+1.1%"
+				},
+				{
+					"13.5%",
+					"+1.1%"
+				},
+				{
+					"14.6%",
+					"+1.1%"
+				},
+				{
+					"15.7%",
+					"+1.1%"
+				},
+				{
+					"16.8%",
+					"+1.2%"
+				},
+				{
+					"18.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[1014050] = {
 		desc_get = "",
 		name = "怒放之紫 +",
@@ -215591,6 +215714,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090090] = {
 		desc_get = "",
 		name = "变迁的记忆·加富尔伯爵",
@@ -215893,8 +216018,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090110] = {
 		desc_get = "",
 		name = "鱼雷发射·{namecode:434}",
@@ -220567,6 +220690,112 @@ end)()
 				},
 				{
 					"5.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1090500] = {
+		desc_get = "",
+		name = "吸引火力·{namecode:64}",
+		type = 2,
+		max_level = 10,
+		desc = "战斗开始时，自身防空、机动属性提高$1，造成的伤害提高$1；战斗中，每20秒，有$2的概率发动，承受先锋队伍受到的50%伤害，持续8秒，同技能效果不叠加",
+		id = 1090500,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"10%",
+				"40%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+3.0%"
+				},
+				{
+					"13.0%",
+					"+3.0%"
+				},
+				{
+					"16.0%",
+					"+4.0%"
+				},
+				{
+					"20.0%",
+					"+3.0%"
+				},
+				{
+					"23.0%",
+					"+3.0%"
+				},
+				{
+					"26.0%",
+					"+4.0%"
+				},
+				{
+					"30.0%",
+					"+3.0%"
+				},
+				{
+					"33.0%",
+					"+3.0%"
+				},
+				{
+					"36.0%",
+					"+4.0%"
+				},
+				{
+					"40.0%"
 				}
 			}
 		}

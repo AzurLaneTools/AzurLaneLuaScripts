@@ -42,6 +42,8 @@ slot0.OnInit = function(slot0, slot1)
 	slot0.moveBtn = slot0.opUI:Find("move")
 	slot0.animationOpBtn = slot0.opPanel:Find("aniamtionop")
 	slot0.animationOpEffect = slot0.animationOpBtn:Find("effect")
+	slot0.animationOpSkillTip = slot0.animationOpBtn:Find("tip")
+	slot0.animationOpSkillEffect = slot0.animationOpBtn:Find("effect_skill")
 	slot0.followerBtn = slot0.opPanel:Find("follower")
 	slot0.lureBtn = slot0.opPanel:Find("lure")
 	slot0.lureEmptyTr = slot0.lureBtn:Find("empty")
@@ -283,13 +285,18 @@ slot0.UpdateAnimationOpEffect = function(slot0, slot1, slot2)
 		table.removebyvalue(slot0.animationOpEffectCounter, slot1)
 	end
 
-	setActive(slot0.animationOpEffect, _.detect(_.map(slot0.animationOpEffectCounter, function (slot0)
+	slot5 = _.detect(_.map(slot0.animationOpEffectCounter, function (slot0)
 		slot1, slot2 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot0)
 
 		return uv0:GetView():GetUnitModuleWithType(slot1, slot2)
 	end), function (slot0)
-		return slot0 and isa(slot0, IslandStrollNpcUnit) and slot0:ExistActionFeedbackBubble()
-	end))
+		return slot0 and isa(slot0, IslandStrollNpcUnit) and slot0.data:ExistGreetingActionFeedback()
+	end) ~= nil
+	slot6 = slot5 and slot4.data:OnlySkillActionFeedback()
+
+	setActive(slot0.animationOpSkillEffect, slot6)
+	setActive(slot0.animationOpEffect, slot5 and not slot6)
+	setActive(slot0.animationOpSkillTip, slot5 and slot4.data:ExistSkillActionFeedback())
 end
 
 slot0.UpdateFollowBtn = function(slot0)

@@ -65,6 +65,7 @@ pg.item_data_frame.all = {
 	336,
 	337,
 	341,
+	342,
 	401,
 	402,
 	404,
@@ -671,6 +672,15 @@ pg.base.item_data_frame = {}
 		desc = "「以剑为誓，以书为约，神圣之盟，生死与共」\n<color=#A7A7AA>「圣印前的同盟」活动获取</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[342] = {
+		name = "星光城之梦",
+		gain_by = "",
+		time_second = 0,
+		id = 342,
+		time_limit_type = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	}
 	pg.base.item_data_frame[401] = {
 		name = "殿堂纪念：企业",
 		gain_by = "",
@@ -1013,6 +1023,8 @@ pg.base.item_data_frame = {}
 		desc = "铁色的旗帜在浪潮间翻涌，一顶金冠于此加冕，象征着海洋的无上权柄。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:480}的契合度等级获取</color>",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1013] = {
 		name = "聚电装置",
 		gain_by = "",
@@ -1022,8 +1034,6 @@ pg.base.item_data_frame = {}
 		desc = "绿色的脉冲电流在装置间噼啪作响，跃动的电光猫耳与灯泡一同闪烁。\n<color=#A7A7AA>通过提升「宿舍计划」中纳希莫夫海军上将的契合度等级获取</color>",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[1014] = {
 		name = "赛博问候 ",
 		gain_by = "",

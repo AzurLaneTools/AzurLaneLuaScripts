@@ -19,13 +19,7 @@ slot0.OnInit = function(slot0)
 
 	setActive(slot0.banner, false)
 
-	slot1 = GetComponent(slot0._tf, typeof(ItemList))
-
-	cloneTplTo(slot1.prefabItem[0], slot0.fillImg, "Anim")
-
-	slot0.fillAnim = slot0.fillImg:GetChild(0)
-
-	cloneTplTo(slot1.prefabItem[1], slot0.maxImg)
+	slot0.fillAnim = slot0.fillImg:Find("Anim")
 end
 
 slot0.UpdateView = function(slot0, slot1, slot2)

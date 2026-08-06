@@ -3156,6 +3156,26 @@ end)()
 		special_bgm = "",
 		bgm = "story-room-nakhimov"
 	}
+	pg.base.voice_bgm.EelTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	}
+	pg.base.voice_bgm.EssexFramePage = {
+		default_bgm = "theme-designfleet-VII",
+		special_bgm = "",
+		bgm = "theme-designfleet-VII"
+	}
+	pg.base.voice_bgm.StarsCityOmenPage = {
+		default_bgm = "story-nonightcity",
+		special_bgm = "",
+		bgm = "story-nonightcity"
+	}
+	pg.base.voice_bgm.RapidSeasideMusicGamePage = {
+		default_bgm = "story-game-rhythm",
+		special_bgm = "",
+		bgm = "story-game-rhythm"
+	}
 	pg.base.voice_bgm.EscapeManorMainPage = {
 		default_bgm = "story-hospitalnight-outshow",
 		special_bgm = "",
@@ -3191,6 +3211,8 @@ end)()
 		special_bgm = "",
 		bgm = "nier-ruinscity-b-2"
 	}
+end)()
+(function ()
 	pg.base.voice_bgm.NieRAutomataOmenPage = {
 		default_bgm = "nier-ruinscity-a-1",
 		special_bgm = "",
@@ -3211,8 +3233,6 @@ end)()
 		special_bgm = "",
 		bgm = "story-room-pit"
 	}
-end)()
-(function ()
 	pg.base.voice_bgm.BossRushEscapeManorScene = {
 		default_bgm = "theme-hospitalnight-mystic",
 		special_bgm = "",

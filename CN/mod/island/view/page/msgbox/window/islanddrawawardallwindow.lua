@@ -4,18 +4,6 @@ slot0.getUIName = function(slot0)
 	return "IslandDrawAwardAllMsgBox"
 end
 
-slot0.OnLoaded = function(slot0)
-	slot1 = slot0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()
-
-	for slot5, slot6 in ipairs({
-		"rtTitle",
-		"btnClose",
-		"rtRarities"
-	}) do
-		slot0[slot6] = slot1[slot5].transform
-	end
-end
-
 slot0.OnInit = function(slot0)
 	setText(slot0.rtTitle, i18n("island_draw_reward"))
 	onButton(slot0, slot0.btnClose, function ()

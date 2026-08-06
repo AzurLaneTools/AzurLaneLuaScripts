@@ -27,12 +27,19 @@ pg.island_action.all = {
 	1022,
 	1023,
 	1024,
+	1025,
+	1026,
+	1027,
+	1028,
+	1029,
+	1030,
 	2000,
 	2001,
 	2002,
 	2003,
 	2004,
-	2005
+	2005,
+	2006
 }
 pg.island_action.get_id_list_by_type = {
 	{
@@ -59,7 +66,13 @@ pg.island_action.get_id_list_by_type = {
 		1021,
 		1022,
 		1023,
-		1024
+		1024,
+		1025,
+		1026,
+		1027,
+		1028,
+		1029,
+		1030
 	},
 	{
 		2000,
@@ -67,7 +80,8 @@ pg.island_action.get_id_list_by_type = {
 		2002,
 		2003,
 		2004,
-		2005
+		2005,
+		2006
 	}
 }
 pg.base = pg.base or {}
@@ -565,6 +579,138 @@ pg.base.island_action = {}
 			}
 		}
 	}
+	pg.base.island_action[1025] = {
+		name = "前指",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "point",
+		desc = "自然流畅的前指，生动形象地表达情感与态度。",
+		tech_id = 0,
+		id = 1025,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			105,
+			204
+		},
+		jump_page = {
+			{
+				"开发季IV-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1026] = {
+		name = "迎宾",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "welcome",
+		desc = "自然流畅的迎宾，生动形象地表达情感与态度。",
+		tech_id = 0,
+		id = 1026,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			102,
+			107
+		},
+		jump_page = {
+			{
+				"开发季IV-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1027] = {
+		name = "审视",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "lookover",
+		desc = "自然流畅的审视，生动形象地表达情感与态度。",
+		tech_id = 0,
+		id = 1027,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			105,
+			201
+		},
+		jump_page = {
+			{
+				"开发季IV-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1028] = {
+		name = "拍肚皮",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "slapbelly",
+		desc = "自然流畅的拍肚皮，生动形象地表达情感与态度。",
+		tech_id = 0,
+		id = 1028,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106,
+			207
+		},
+		jump_page = {
+			{
+				"开发季IV-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1029] = {
+		name = "瞌睡",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "doze",
+		desc = "自然流畅的瞌睡，生动形象地表达情感与态度。",
+		tech_id = 0,
+		id = 1029,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			108
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1030] = {
+		name = "原地蹦跳",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "jumpinplace",
+		desc = "自然流畅的原地蹦跳，生动形象地表达情感与态度。",
+		tech_id = 0,
+		id = 1030,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			104
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
 	pg.base.island_action[2000] = {
 		chara_sigle_action_reply = "",
 		name = "击掌",
@@ -690,6 +836,29 @@ pg.base.island_action = {}
 			0,
 			0,
 			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[2006] = {
+		chara_sigle_action_reply = "",
+		name = "多人共舞",
+		type = 2,
+		feedback_type = 0,
+		sigle_action_reply_type = 0,
+		resource = "mutidance",
+		desc = "自然流畅的多人共舞，生动形象地表达情感与态度。",
+		tech_id = 0,
+		id = 2006,
+		responder_feedback = "mutidance_end",
+		respond_point = {
+			0,
+			0,
+			1.41529
 		},
 		jump_page = {
 			{

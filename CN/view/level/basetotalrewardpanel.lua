@@ -35,20 +35,6 @@ slot0.UpdateView = function(slot0)
 	end)
 end
 
-slot0.CloneIconTpl = function(slot0, slot1)
-	assert(slot0:GetComponent(typeof(ItemList)), "Need a Itemlist Component for " .. (slot0 and slot0.name or "NIL"))
-
-	slot3 = Instantiate(slot2.prefabItem[0])
-
-	if slot1 then
-		slot3.name = slot1
-	end
-
-	setParent(slot3, slot0)
-
-	return slot3
-end
-
 slot0.HandleShowMsgBox = function(slot0, slot1)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1)
 end

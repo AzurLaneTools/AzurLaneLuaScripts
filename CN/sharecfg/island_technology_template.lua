@@ -35,6 +35,8 @@ pg.island_technology_template.all = {
 	110308,
 	100307,
 	100308,
+	100309,
+	100310,
 	110309,
 	120005,
 	110310,
@@ -239,6 +241,8 @@ pg.island_technology_template.get_id_list_by_tech_belong = {
 		110308,
 		100307,
 		100308,
+		100309,
+		100310,
 		110309,
 		120005,
 		110310,
@@ -1438,6 +1442,66 @@ pg.base.island_technology_template = {}
 		axis = {
 			24,
 			1
+		}
+	}
+	pg.base.island_technology_template[100309] = {
+		complete_title = "可前往<color=#1E8FFE>管理界面</color>点击<color=#1E8FFE>仓库</color>查看",
+		tech_level = "9",
+		tech_chara = 1,
+		complete_character_id = "",
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>管理界面</color>点击<color=#1E8FFE>仓库</color>查看",
+		island_level = 42,
+		tech_desc = "仓库容量增加，可以放下更多东西啦！",
+		tech_icon = "tech_100301",
+		tech_belong = 1,
+		tech_name = "仓库扩建IX",
+		formula_id = 7100309,
+		id = 100309,
+		complete_map_id = 0,
+		sys_unlock = {
+			{
+				3,
+				100308
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			9.5
+		}
+	}
+	pg.base.island_technology_template[100310] = {
+		complete_title = "可前往<color=#1E8FFE>管理界面</color>点击<color=#1E8FFE>仓库</color>查看",
+		tech_level = "10",
+		tech_chara = 1,
+		complete_character_id = "",
+		auto_finish = 1,
+		complete_tips = "可前往<color=#1E8FFE>管理界面</color>点击<color=#1E8FFE>仓库</color>查看",
+		island_level = 52,
+		tech_desc = "仓库容量增加，可以放下更多东西啦！",
+		tech_icon = "tech_100301",
+		tech_belong = 1,
+		tech_name = "仓库扩建X",
+		formula_id = 7100310,
+		id = 100310,
+		complete_map_id = 0,
+		sys_unlock = {
+			{
+				3,
+				100309
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			10
 		}
 	}
 	pg.base.island_technology_template[110309] = {
@@ -3544,6 +3608,8 @@ pg.base.island_technology_template = {}
 			4.5
 		}
 	}
+end)()
+(function ()
 	pg.base.island_technology_template[430302] = {
 		complete_title = "哞哞牛委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "1",
@@ -3608,8 +3674,6 @@ pg.base.island_technology_template = {}
 			6
 		}
 	}
-end)()
-(function ()
 	pg.base.island_technology_template[440302] = {
 		complete_title = "咩咩羊委派的产出和消耗增加，可前往<color=#1E8FFE>晨露农场梅莉</color>处查看",
 		tech_level = "1",
@@ -6831,6 +6895,8 @@ end)()
 			9
 		}
 	}
+end)()
+(function ()
 	pg.base.island_technology_template[660206] = {
 		complete_title = "可前往<color=#1E8FFE>港口基地工厂萝莎</color>处在<color=#1E8FFE>手工制作设备</color>中制作",
 		tech_level = "1",
@@ -6895,8 +6961,6 @@ end)()
 			9
 		}
 	}
-end)()
-(function ()
 	pg.base.island_technology_template[650203] = {
 		complete_title = "可前往<color=#1E8FFE>港口基地工厂萝莎</color>处在<color=#1E8FFE>电子加工设备</color>中制作",
 		tech_level = "1",

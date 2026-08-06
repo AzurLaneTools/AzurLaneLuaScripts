@@ -295,6 +295,11 @@ pg.island_item_data_template.all = {
 	200027,
 	200028,
 	200029,
+	200030,
+	200031,
+	200032,
+	200033,
+	200034,
 	300001,
 	300002,
 	300003,
@@ -599,6 +604,11 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		200027,
 		200028,
 		200029,
+		200030,
+		200031,
+		200032,
+		200033,
+		200034,
 		300001,
 		300002,
 		300003,
@@ -885,6 +895,11 @@ pg.island_item_data_template.get_id_list_by_type = {
 		200027,
 		200028,
 		200029,
+		200030,
+		200031,
+		200032,
+		200033,
+		200034,
 		300001,
 		300002,
 		300003,
@@ -10242,7 +10257,12 @@ end)()
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"计划",
+				{}
+			}
+		}
 	}
 	pg.base.island_item_data_template[200005] = {
 		name = "{namecode:199:新泽西}岛屿权限认证函",
@@ -11019,6 +11039,161 @@ end)()
 			}
 		}
 	}
+	pg.base.island_item_data_template[200030] = {
+		name = "安克雷奇岛屿权限认证函",
+		desc = "安克雷奇的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200030",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200030,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200031] = {
+		name = "莫加多尔岛屿权限认证函",
+		desc = "莫加多尔的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200031",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200031,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200032] = {
+		name = "长风岛屿权限认证函",
+		desc = "长风的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200032",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200032,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200033] = {
+		name = "皇家财富号岛屿权限认证函",
+		desc = "皇家财富号的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200033",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200033,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200034] = {
+		name = "贝尔法斯特岛屿权限认证函",
+		desc = "贝尔法斯特的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200034",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200034,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"开发季IV-开发商店",
+				{}
+			}
+		}
+	}
 	pg.base.island_item_data_template[300001] = {
 		name = "丰壤农田委派效率提高 4%",
 		desc = "获得后，丰壤农田委派效率提高 4%",
@@ -11135,6 +11310,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_item_data_template[300005] = {
 		name = "坠香果园委派效率提高 8%",
 		desc = "获得后，坠香果园委派效率提高 8%",
