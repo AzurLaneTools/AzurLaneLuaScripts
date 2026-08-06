@@ -4169,6 +4169,20 @@ pg.memory_template.all = {
 	5235,
 	5236,
 	5237,
+	5291,
+	5292,
+	5293,
+	5294,
+	5295,
+	5296,
+	5297,
+	5301,
+	5302,
+	5303,
+	5304,
+	5305,
+	5306,
+	5307,
 	5271,
 	5272,
 	5273,
@@ -79559,6 +79573,258 @@ end)()
 			"LAFEIER7"
 		}
 	}
+	pg.base.memory_template[5291] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "真夜中のイザナイ",
+		condition = "「あたしたちの、八番目の不思議1」開始",
+		story = "SHENGTAFEI1",
+		mask = "bg/bg_memory",
+		task = 500271,
+		year = 0,
+		id = 5291,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"SHENGTAFEI1"
+		}
+	}
+	pg.base.memory_template[5292] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "本当にお化けが！？",
+		condition = "「あたしたちの、八番目の不思議2」開始",
+		story = "SHENGTAFEI2",
+		mask = "bg/bg_memory",
+		task = 500272,
+		year = 0,
+		id = 5292,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"SHENGTAFEI2"
+		}
+	}
+	pg.base.memory_template[5293] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "夜間パトロールの目を盗め！",
+		condition = "「あたしたちの、八番目の不思議3」開始",
+		story = "SHENGTAFEI3",
+		mask = "bg/bg_memory",
+		task = 500273,
+		year = 0,
+		id = 5293,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"SHENGTAFEI3"
+		}
+	}
+	pg.base.memory_template[5294] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "見覚えある落書き",
+		condition = "「あたしたちの、八番目の不思議4」開始",
+		story = "SHENGTAFEI4",
+		mask = "bg/bg_memory",
+		task = 500274,
+		year = 0,
+		id = 5294,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"SHENGTAFEI4"
+		}
+	}
+	pg.base.memory_template[5295] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "恋の秘伝書の正体",
+		condition = "「あたしたちの、八番目の不思議5」開始",
+		story = "SHENGTAFEI5",
+		mask = "bg/bg_memory",
+		task = 500275,
+		year = 0,
+		id = 5295,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"SHENGTAFEI5"
+		}
+	}
+	pg.base.memory_template[5296] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "黒歴史、大暴露！",
+		condition = "「あたしたちの、八番目の不思議6」開始",
+		story = "SHENGTAFEI6",
+		mask = "bg/bg_memory",
+		task = 500276,
+		year = 0,
+		id = 5296,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"SHENGTAFEI6"
+		}
+	}
+	pg.base.memory_template[5297] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "八番目の不思議、誕生！",
+		condition = "「あたしたちの、八番目の不思議7」開始",
+		story = "SHENGTAFEI7",
+		mask = "bg/bg_memory",
+		task = 500277,
+		year = 0,
+		id = 5297,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"SHENGTAFEI7"
+		}
+	}
+	pg.base.memory_template[5301] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "冬の曙",
+		condition = "「客ありて」DAY1解放",
+		story = "2056000",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5301,
+		icon = "memory_youkezilai",
+		is_open = 0,
+		unlock_pre = {
+			"2056000"
+		}
+	}
+	pg.base.memory_template[5302] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "「彼女」の来訪",
+		condition = "「客ありて」DAY2解放",
+		story = "YOUKEZILAI2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5302,
+		icon = "memory_youkezilai",
+		is_open = 0,
+		unlock_pre = {
+			"YOUKEZILAI2"
+		}
+	}
+	pg.base.memory_template[5303] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新しい着眼点",
+		condition = "「客ありて」DAY3解放",
+		story = "YOUKEZILAI3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5303,
+		icon = "memory_youkezilai",
+		is_open = 0,
+		unlock_pre = {
+			"YOUKEZILAI3"
+		}
+	}
+	pg.base.memory_template[5304] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "次に起きたこと",
+		condition = "「客ありて」DAY4解放",
+		story = "YOUKEZILAI4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5304,
+		icon = "memory_youkezilai",
+		is_open = 0,
+		unlock_pre = {
+			"YOUKEZILAI4"
+		}
+	}
+	pg.base.memory_template[5305] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "冬の壁",
+		condition = "「客ありて」DAY5解放",
+		story = "YOUKEZILAI5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5305,
+		icon = "memory_youkezilai",
+		is_open = 0,
+		unlock_pre = {
+			"YOUKEZILAI5"
+		}
+	}
+	pg.base.memory_template[5306] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "浅層調査",
+		condition = "「客ありて」DAY6解放",
+		story = "YOUKEZILAI6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5306,
+		icon = "memory_youkezilai",
+		is_open = 0,
+		unlock_pre = {
+			"YOUKEZILAI6"
+		}
+	}
+	pg.base.memory_template[5307] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "迷い城",
+		condition = "「客ありて」DAY7解放",
+		story = "YOUKEZILAI7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5307,
+		icon = "memory_youkezilai",
+		is_open = 0,
+		unlock_pre = {
+			"YOUKEZILAI7"
+		}
+	}
 	pg.base.memory_template[5271] = {
 		ship_group = 0,
 		subtitle = "",
@@ -79937,6 +80203,8 @@ end)()
 			"PULIMAOSI6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5257] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80189,8 +80457,6 @@ end)()
 			"TACT10002"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10003] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81739,6 +82005,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA8"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20008] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81991,8 +82259,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA22"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20022] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83541,6 +83807,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA27"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20108] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83793,8 +84061,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA41"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20122] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85343,6 +85609,8 @@ end)()
 			"TANSUOZHELAIFANGJISHI4"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20210] = {
 		ship_group = 0,
 		subtitle = "",

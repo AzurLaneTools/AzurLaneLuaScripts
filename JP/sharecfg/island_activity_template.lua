@@ -19,7 +19,11 @@ pg.island_activity_template.all = {
 	990017,
 	990018,
 	990019,
-	990021
+	990021,
+	990022,
+	990023,
+	990024,
+	990025
 }
 pg.base = pg.base or {}
 pg.base.island_activity_template = {}
@@ -237,5 +241,48 @@ pg.base.island_activity_template = {}
 				90002007
 			}
 		}
+	}
+	pg.base.island_activity_template[990022] = {
+		config_client = "",
+		is_show = 99,
+		title_res_tag = "秋の特産経営",
+		id = 990022,
+		config_id = 0,
+		ability_id = 33001,
+		config_data = "",
+		page_info = {
+			class_name = "IslandActivitySpecialOrderPage",
+			ui_name = "IslandActivitySpecialOrderPage"
+		}
+	}
+	pg.base.island_activity_template[990023] = {
+		config_client = "",
+		is_show = 0,
+		page_info = "",
+		title_res_tag = "",
+		id = 990023,
+		config_id = 0,
+		ability_id = 34001,
+		config_data = ""
+	}
+	pg.base.island_activity_template[990024] = {
+		config_client = "",
+		is_show = 0,
+		page_info = "",
+		title_res_tag = "",
+		id = 990024,
+		config_id = 0,
+		ability_id = 35001,
+		config_data = ""
+	}
+	pg.base.island_activity_template[990025] = {
+		config_client = "",
+		is_show = 0,
+		page_info = "",
+		title_res_tag = "",
+		id = 990025,
+		config_id = 0,
+		ability_id = 36001,
+		config_data = ""
 	}
 end)()

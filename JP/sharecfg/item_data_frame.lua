@@ -64,6 +64,7 @@ pg.item_data_frame.all = {
 	336,
 	337,
 	341,
+	342,
 	401,
 	402,
 	403,
@@ -661,6 +662,15 @@ pg.base.item_data_frame = {}
 		desc = "「剣にて約束し、書簡にて誓約する。神聖なる盟約は命果てるその時まで」\n<color=#A7A7AA>「聖印前の同盟」イベント参加</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[342] = {
+		name = "メトロスターライトの夢",
+		gain_by = "",
+		time_second = 0,
+		id = 342,
+		time_limit_type = 0,
+		desc = "今後開催するイベントにて入手可能",
+		scene = {}
+	}
 	pg.base.item_data_frame[401] = {
 		name = "殿堂入り：エンタープライズ",
 		gain_by = "",
@@ -1012,6 +1022,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>バチバチとインパルスの電流が躍動し、電球も電光ライトのネコミミもキラリと輝く</color>\n「交流宿舎」でアドミラル・ナヒーモフの親密度を上げると入手可能",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1014] = {
 		name = "サイバネティック・アイサツ",
 		gain_by = "",
@@ -1021,8 +1033,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>データストリームに、ネコパンチとネコシッポ現る！ドーモ、サイバー空間のネコアイサツ＝です</color>\n「交流宿舎」でアドミラル・ナヒーモフの親密度を上げると入手可能",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10001] = {
 		name = "限界挑戦・ふたご座",
 		gain_by = "",

@@ -1,18 +1,5 @@
 slot0 = class("IslandActivitySpecialOrderPage", import("Mod.Island.View.page.activity.IslandBaseActivityPage"))
 
-slot0.OnInit = function(slot0)
-	slot1 = slot0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()
-
-	for slot5, slot6 in ipairs({
-		"rtPages",
-		"rtTitle",
-		"rtTabs",
-		"rtTabTpl"
-	}) do
-		slot0[slot6] = slot1[slot5].transform
-	end
-end
-
 slot0.OnDataSetting = function(slot0)
 end
 

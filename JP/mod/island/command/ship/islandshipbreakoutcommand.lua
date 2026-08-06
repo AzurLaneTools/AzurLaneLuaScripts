@@ -21,6 +21,7 @@ slot0.execute = function(slot0, slot1)
 
 			if not Clone(uv0):GetSkill():IsUnlock() and uv0:GetSkill():IsUnlock() then
 				uv1:GetGlobalBuffAgency():OnShipSkillUnlock(uv2)
+				getProxy(IslandProxy):GetIsland():GetCharacterAgency():DispatchEvent(IslandCharacterAgency.SHIP_SKILL_STATE_CHANGE, uv0.id, true)
 			end
 
 			uv3:sendNotification(GAME.ISLAND_SHIP_BREAKOUT_DONE, {

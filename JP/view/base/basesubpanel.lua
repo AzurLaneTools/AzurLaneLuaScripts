@@ -44,6 +44,7 @@ slot0.Destroy = function(slot0)
 	slot0:OnDestroy()
 	slot0.loader:Clear()
 	slot0.buffer:Clear()
+	bindComponent(slot0, slot0._go, true)
 	slot0:disposeEvent()
 	slot0:cleanManagedTween()
 

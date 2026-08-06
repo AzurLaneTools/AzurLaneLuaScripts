@@ -177,6 +177,18 @@ slot0.isNewPicInfo = function(slot0)
 	return true
 end
 
+slot0.isPicInfoLiked = function(slot0)
+	slot1 = false
+
+	if slot0.type == uv0.TYPE_GALLERY then
+		slot1 = GalleryConst.isGalleryLikeByID(slot0.id)
+	elseif slot0.type == uv0.TYPE_MANGA then
+		slot1 = MangaConst.isMangaLikeByID(slot0.id)
+	end
+
+	return slot1
+end
+
 slot0.getGalleryConfigNewIDList = function()
 	if pg.gameset.new_gallery_id_list.description == nil or type(slot0) ~= "table" then
 		slot0 = {}

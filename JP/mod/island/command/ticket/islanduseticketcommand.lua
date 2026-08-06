@@ -26,7 +26,7 @@ slot0.execute = function(slot0, slot1)
 			onClose = slot7,
 			btnList = {
 				{
-					type = uv0.BUTTON_TYPE.confirm,
+					type = pg.NewStyleMsgboxMgr.BUTTON_TYPE.confirm,
 					name = i18n("msgbox_text_confirm"),
 					func = slot7,
 					sound = SFX_CONFIRM

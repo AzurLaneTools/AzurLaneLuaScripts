@@ -160,6 +160,8 @@ pg.island_formula.all = {
 	7100306,
 	7100307,
 	7100308,
+	7100309,
+	7100310,
 	7130301,
 	7130302,
 	7140101,
@@ -7295,6 +7297,80 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
+	pg.base.island_formula[7100309] = {
+		workload = 360000,
+		name = "倉庫容量＋Ⅸ",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 120,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37100309,
+		affected_vfx = "",
+		ship_exp = 600,
+		pt_award = 0,
+		id = 7100309,
+		collectable_vfx = 0,
+		attribute = 6,
+		cost = {
+			{
+				1,
+				360000
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				360000
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	}
+	pg.base.island_formula[7100310] = {
+		workload = 432000,
+		name = "倉庫容量＋Ⅹ",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 144,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37100310,
+		affected_vfx = "",
+		ship_exp = 720,
+		pt_award = 0,
+		id = 7100310,
+		collectable_vfx = 0,
+		attribute = 6,
+		cost = {
+			{
+				1,
+				500000
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				500000
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	}
 	pg.base.island_formula[7130301] = {
 		workload = 72000,
 		name = "定期補給数＋Ⅰ",
@@ -9026,6 +9102,8 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
+end)()
+(function ()
 	pg.base.island_formula[7320101] = {
 		workload = 18000,
 		name = "朝露農場拡張Ⅹ",
@@ -9116,8 +9194,6 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
-end)()
-(function ()
 	pg.base.island_formula[7320301] = {
 		workload = 3000,
 		name = "青々苗場拡張Ⅰ",
@@ -13376,6 +13452,8 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
+end)()
+(function ()
 	pg.base.island_formula[7610403] = {
 		workload = 36000,
 		name = "輸送効率＋Ⅲ",
@@ -13466,8 +13544,6 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
-end)()
-(function ()
 	pg.base.island_formula[7630101] = {
 		workload = 36000,
 		name = "木材加工配置枠+",

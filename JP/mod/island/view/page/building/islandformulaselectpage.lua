@@ -721,7 +721,7 @@ slot0.GetAttrGrowingValueByBuff = function(slot0, slot1, slot2)
 end
 
 slot0.GetOneFormulaEnergyCost = function(slot0)
-	return math.floor(slot0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(slot0.selectedShipId, slot0.placeId)))
+	return math.max(math.floor(slot0.formulaCfg.stamina_cost * (1 - IslandProductCostHelper.GetReducePercentInPlace(slot0.selectedShipId, slot0.placeId))), 1)
 end
 
 slot0.OnHide = function(slot0)

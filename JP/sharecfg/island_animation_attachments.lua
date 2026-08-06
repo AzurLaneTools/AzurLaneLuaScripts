@@ -31,6 +31,11 @@ pg.island_animation_attachments.all = {
 	40013,
 	40014,
 	40015,
+	40016,
+	40017,
+	40018,
+	40019,
+	40020,
 	100011,
 	100012,
 	100013,
@@ -276,6 +281,46 @@ pg.base.island_animation_attachments = {}
 		model = "island/item/04/40015/prefab/pre_item_04_40015",
 		attack = 0,
 		animator = "island/animator/ani_item_4_40015",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[40016] = {
+		id = 40016,
+		override = "",
+		model = "island/item/04/40016/prefab/pre_item_04_40016",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40016",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[40017] = {
+		id = 40017,
+		override = "",
+		model = "island/item/04/40017/prefab/pre_item_04_40017",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40017",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[40018] = {
+		id = 40018,
+		override = "",
+		model = "island/item/04/40018/prefab/pre_item_04_40018",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40018",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[40019] = {
+		id = 40019,
+		override = "",
+		model = "island/item/04/40019/prefab/pre_item_04_40019",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40019",
+		unlock = 0
+	}
+	pg.base.island_animation_attachments[40020] = {
+		id = 40020,
+		override = "",
+		model = "island/item/04/40020/prefab/pre_item_04_40020",
+		attack = 0,
+		animator = "island/animator/ani_item_4_40020",
 		unlock = 0
 	}
 	pg.base.island_animation_attachments[100011] = {

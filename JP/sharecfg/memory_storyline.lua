@@ -98,7 +98,8 @@ pg.memory_storyline.all = {
 	93,
 	94,
 	95,
-	96
+	96,
+	97
 }
 pg.base = pg.base or {}
 pg.base.memory_storyline = {}
@@ -2587,18 +2588,45 @@ pg.base.memory_storyline = {}
 		}
 	}
 	pg.base.memory_storyline[96] = {
+		description = "いずれ到来する者がいるし、いずれ直面する状況もある。訪れたならば即ち客。招かれざる者よ、目的を言うがいい",
+		name = "客ありて",
+		column = 60,
+		world_id = "",
+		bgm = "story-richang-light",
+		row = 0,
+		chapter = 5,
+		memory_lock = 0,
+		id = 96,
+		icon = "InterludeOne_3",
+		sort = 1,
+		memory_id = {
+			1,
+			372
+		},
+		shipnation = {
+			7,
+			1,
+			2,
+			4,
+			5
+		},
+		link_event = {
+			97
+		}
+	}
+	pg.base.memory_storyline[97] = {
 		description = "敬请期待",
 		name = "敬请期待",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 60,
+		column = 61,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 96,
+		id = 97,
 		icon = "",
 		sort = 0
 	}

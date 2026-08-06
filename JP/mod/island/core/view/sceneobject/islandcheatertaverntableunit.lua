@@ -6,27 +6,17 @@ slot0.OnAttach = function(slot0, slot1)
 
 	slot0.tf = tf(slot1)
 	slot0.animator = slot0.tf:GetComponent(typeof(UnityEngine.Animator))
-	slot2 = slot0.tf:GetComponent(typeof(ItemList))
-	slot0.turntabletf = slot2.prefabItem[0].transform
-	slot0.decorationtf = slot2.prefabItem[1].transform
-	slot0.tableRoot = slot2.prefabItem[3].transform
+
+	bindComponent(slot0, slot1)
+
 	slot0.decorationAnimator = slot0.decorationtf:GetComponent(typeof(UnityEngine.Animator))
-	slot0.trunTalbeTip = slot2.prefabItem[4].transform
 
 	setActive(slot0.trunTalbeTip, false)
-
-	slot0.noGotShoot = slot2.prefabItem[5].transform
-	slot0.boomShoot = slot2.prefabItem[6].transform
-	slot0.centerRoot = slot2.prefabItem[7].transform
-
 	setActive(slot0.boomShoot, false)
-
-	for slot7 = 8, 13 do
-		slot0["bombId" .. tostring(slot7 - slot3 + 1)] = slot2.prefabItem[slot7].transform
-	end
 end
 
 slot0.OnDetach = function(slot0)
+	bindComponent(slot0, slot0.tf, true)
 	uv0.super.OnDetach(slot0)
 end
 

@@ -29,6 +29,7 @@ pg.island_furniture_template.all = {
 	100,
 	101,
 	102,
+	103,
 	10101,
 	10201,
 	10301,
@@ -156,7 +157,38 @@ pg.island_furniture_template.all = {
 	40420,
 	40801,
 	40802,
-	40803
+	40803,
+	50173,
+	50176,
+	50179,
+	50203,
+	50207,
+	50234,
+	50300,
+	50301,
+	50302,
+	50304,
+	50305,
+	50306,
+	50307,
+	50308,
+	50309,
+	50310,
+	50311,
+	50312,
+	50313,
+	50314,
+	50315,
+	50316,
+	50318,
+	50319,
+	50320,
+	50321,
+	50322,
+	50325,
+	50347,
+	50348,
+	50349
 }
 pg.base = pg.base or {}
 pg.base.island_furniture_template = {}
@@ -731,7 +763,38 @@ pg.base.island_furniture_template = {}
 			2,
 			2
 		},
-		jump_page = {}
+		jump_page = {
+			{
+				"夏の特産経営",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[103] = {
+		setNum = 1,
+		describe = "豊作の麦穂に巨大な楓の葉ーートロフィーから落ち着いたメープルシロップの香りがする",
+		name = "秋の離島開発トロフィーII",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_103",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50004/prefab/pre_item_05_50004",
+		bt = "",
+		id = 103,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"秋の特産経営",
+				{}
+			}
+		}
 	}
 	pg.base.island_furniture_template[10101] = {
 		setNum = 1,
@@ -2619,6 +2682,8 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_furniture_template[30304] = {
 		setNum = 999,
 		describe = "華麗な世界が、すべての人に開かれている！",
@@ -2645,8 +2710,6 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_furniture_template[30305] = {
 		setNum = 999,
 		describe = "お菓子の香りに包まれた、穏やかな午後のティータイムを楽しもう。",
@@ -3299,7 +3362,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3319,15 +3382,15 @@ end)()
 		id = 40201,
 		tech_id = 0,
 		size = {
-			20,
-			20
+			23,
+			19
 		},
 		interact_point = {
 			20
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3353,7 +3416,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3379,7 +3442,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3405,7 +3468,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3431,7 +3494,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3459,7 +3522,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3485,7 +3548,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3511,7 +3574,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3539,7 +3602,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3567,7 +3630,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3593,7 +3656,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3619,7 +3682,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3645,7 +3708,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3671,7 +3734,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3697,7 +3760,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3723,7 +3786,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3749,7 +3812,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3775,7 +3838,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3801,7 +3864,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3827,7 +3890,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3853,7 +3916,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3879,7 +3942,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3905,7 +3968,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3931,7 +3994,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -3957,7 +4020,7 @@ end)()
 		},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩賞",
 				{}
 			}
 		}
@@ -4018,6 +4081,807 @@ end)()
 		model = "island/item/05/50196/prefab/pre_item_05_50196",
 		bt = "",
 		id = 40803,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[50173] = {
+		setNum = 999,
+		describe = "白くて清潔な金属フェンス。もたれかかるにも、写真を撮るにもぴったり",
+		name = "白塗りの鉄フェンス",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50173",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50173/prefab/pre_item_05_50173",
+		bt = "",
+		id = 50173,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"累計Pt",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50176] = {
+		setNum = 999,
+		describe = "バネ付き台座の木馬。乗ればあなたもウェスタン・カウガール♪",
+		name = "ハッピー木馬",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50176",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50176/prefab/pre_item_05_50176",
+		bt = "",
+		id = 50176,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"累計Pt",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50179] = {
+		setNum = 999,
+		describe = "樹冠は桃色の雲のよう。風が吹く度に花びらが舞ってロマンチック",
+		name = "桜の木",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50179",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50179/prefab/pre_item_05_50179",
+		bt = "",
+		id = 50179,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"累計Pt",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50203] = {
+		setNum = 999,
+		describe = "未完の一局は石卓に残された。次の一手が待たれる",
+		name = "囲碁の石卓",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50203",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50203/prefab/pre_item_05_50203",
+		bt = "",
+		id = 50203,
+		tech_id = 0,
+		size = {
+			4,
+			2
+		},
+		jump_page = {
+			{
+				"累計Pt",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50207] = {
+		setNum = 999,
+		describe = "植木鉢と園芸道具を並べた木の小卓。庭師にとって一番使いやすい作業台",
+		name = "園芸の作業台",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50207",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50207/prefab/pre_item_05_50207",
+		bt = "",
+		id = 50207,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"累計Pt",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50234] = {
+		setNum = 999,
+		describe = "素朴な竹フェンス。どこか牧歌的な香りが漂う",
+		name = "竹垣",
+		type = 4,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50234",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50234/prefab/pre_item_05_50234",
+		bt = "",
+		id = 50234,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50300] = {
+		setNum = 999,
+		describe = "座礁した船を改装したハウス。タウンの中でもかなり目を引く",
+		name = "ボートハウス",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50300",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50300/prefab/pre_item_05_50300",
+		bt = "",
+		id = 50300,
+		tech_id = 0,
+		size = {
+			13,
+			17
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50301] = {
+		setNum = 999,
+		describe = "がらくたを積んで作った簡易射撃場。「見習いカウガール」たちがパチンコ打ちの腕を試す場所",
+		name = "簡易射撃場",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50301",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50301/prefab/pre_item_05_50301",
+		bt = "",
+		id = 50301,
+		tech_id = 0,
+		size = {
+			22,
+			26
+		},
+		interact_point = {
+			24
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50302] = {
+		setNum = 999,
+		describe = "太い木材を打ちつけた一人用のおもちゃ牢屋。どうにか一人押し込めるくらいの広さ",
+		name = "おもちゃ牢屋",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50302",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50302/prefab/pre_item_05_50302",
+		bt = "",
+		id = 50302,
+		tech_id = 0,
+		size = {
+			4,
+			4
+		},
+		interact_point = {
+			25
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50304] = {
+		setNum = 999,
+		describe = "スローライフの象徴。ぼんやりするも良し、うたた寝するも良し",
+		name = "のんびりロッキングチェア",
+		type = 3,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50304",
+		prosperity = 0,
+		capacityCost = 20,
+		model = "island/item/05/50304/prefab/pre_item_05_50304",
+		bt = "",
+		id = 50304,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		interact_point = {
+			26
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50305] = {
+		setNum = 999,
+		describe = "荒野を行き交う輸送カート。ウェスタンタウンの暮らしを支えている",
+		name = "移動雑貨カート",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50305",
+		prosperity = 0,
+		capacityCost = 50,
+		interact_point = "",
+		model = "island/item/05/50305/prefab/pre_item_05_50305",
+		bt = "",
+		id = 50305,
+		tech_id = 0,
+		size = {
+			4,
+			4
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50306] = {
+		setNum = 999,
+		describe = "物語と歌声が交わる、夜にいちばん暖かい場所",
+		name = "夜会話のたき火",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50306",
+		prosperity = 0,
+		capacityCost = 50,
+		model = "island/item/05/50306/prefab/pre_item_05_50306",
+		bt = "",
+		id = 50306,
+		tech_id = 0,
+		size = {
+			9,
+			9
+		},
+		interact_point = {
+			27
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50307] = {
+		setNum = 999,
+		describe = "野菜かごと雑貨が積み上がっている。掘り出し物が見つかるかも？",
+		name = "野菜と雑貨",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50307",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50307/prefab/pre_item_05_50307",
+		bt = "",
+		id = 50307,
+		tech_id = 0,
+		size = {
+			5,
+			4
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50308] = {
+		setNum = 999,
+		describe = "酒場でよく見かける調度品。麦芽の香りをふわりと漂わせる",
+		name = "オーク樽",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50308",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50308/prefab/pre_item_05_50308",
+		bt = "",
+		id = 50308,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50309] = {
+		setNum = 999,
+		describe = "ぼんやりとした黄色い光。夜更けに帰る人へ道を示してくれる",
+		name = "街角の街灯",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50309",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50309/prefab/pre_item_05_50309",
+		bt = "",
+		id = 50309,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50310] = {
+		setNum = 999,
+		describe = "炭を足す形の暖炉。厳しい冬の頼れるぬくもり",
+		name = "あたたかい暖炉",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50310",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50310/prefab/pre_item_05_50310",
+		bt = "",
+		id = 50310,
+		tech_id = 0,
+		size = {
+			4,
+			4
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50311] = {
+		setNum = 999,
+		describe = "ハンマーと金床がぶつかり合う。炎と金属の交響曲",
+		name = "金床とハンマー",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50311",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50311/prefab/pre_item_05_50311",
+		bt = "",
+		id = 50311,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50312] = {
+		setNum = 999,
+		describe = "手配書と案内状でびっしりの木板。タウンの情報が集まる場所",
+		name = "タウンの掲示板",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50312",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50312/prefab/pre_item_05_50312",
+		bt = "",
+		id = 50312,
+		tech_id = 0,
+		size = {
+			4,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50313] = {
+		setNum = 999,
+		describe = "タウンの紋章を刻んだ木のゲート。訪れる者すべてを迎え入れる",
+		name = "タウンゲート",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50313",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50313/prefab/pre_item_05_50313",
+		bt = "",
+		id = 50313,
+		tech_id = 0,
+		size = {
+			5,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50314] = {
+		setNum = 999,
+		describe = "レバーでねずみを上下させられる。タウンでいちばん間の抜けた遊具",
+		name = "ねずみの吊りかご",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50314",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50314/prefab/pre_item_05_50314",
+		bt = "",
+		id = 50314,
+		tech_id = 0,
+		size = {
+			4,
+			2
+		},
+		interact_point = {
+			28
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50315] = {
+		setNum = 999,
+		describe = "とっくに耐用年数を過ぎた風車塔。回るたびにギイギイと鳴る",
+		name = "きしむ風車塔",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50315",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50315/prefab/pre_item_05_50315",
+		bt = "",
+		id = 50315,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50316] = {
+		setNum = 999,
+		describe = "丸太を削って作った柵。素朴だが実用的で、区画を仕切ってくれる",
+		name = "丸太フェンス",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50316",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50316/prefab/pre_item_05_50316",
+		bt = "",
+		id = 50316,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50318] = {
+		setNum = 999,
+		describe = "かつて鉱石を運んだ線路。今は錆と思い出が残る",
+		name = "廃線の線路",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50318",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50318/prefab/pre_item_05_50318",
+		bt = "",
+		id = 50318,
+		tech_id = 0,
+		size = {
+			1,
+			2
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50319] = {
+		setNum = 999,
+		describe = "木を彫って作られた馬の像。店の看板にも、ただの飾りにも",
+		name = "木馬の像",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50319",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50319/prefab/pre_item_05_50319",
+		bt = "",
+		id = 50319,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50320] = {
+		setNum = 999,
+		describe = "干し草の山。野原の清々しい香りを漂わせる",
+		name = "干し草",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50320",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50320/prefab/pre_item_05_50320",
+		bt = "",
+		id = 50320,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50321] = {
+		setNum = 999,
+		describe = "風に吹かれて転がり続ける枯れ草の玉。ウェスタンならではの風景",
+		name = "タンブルウィード",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50321",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50321/prefab/pre_item_05_50321",
+		bt = "",
+		id = 50321,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50322] = {
+		setNum = 999,
+		describe = "ウェスタンの荒野で一番よく見る植物。その姿は孤独にして、タフ――",
+		name = "荒野のサボテン",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50322",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50322/prefab/pre_item_05_50322",
+		bt = "",
+		id = 50322,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50325] = {
+		setNum = 999,
+		describe = "砂嵐の中でもなお高くそびえるモミの木。旅人に方向を知らせてくれる目印",
+		name = "高くそびえるモミの木",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50325",
+		prosperity = 0,
+		capacityCost = 150,
+		interact_point = "",
+		model = "island/item/05/50325/prefab/pre_item_05_50325",
+		bt = "",
+		id = 50325,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50347] = {
+		setNum = 999,
+		describe = "砂地に敷かれた武骨なタイル。ウェスタン劇に登場する街を、そのままあなたの足元に",
+		name = "荒野のタイル（小）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50347",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50347/prefab/pre_item_05_50347",
+		bt = "",
+		id = 50347,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[50348] = {
+		setNum = 999,
+		describe = "砂地に敷かれた武骨なタイル。ウェスタン劇に登場する街を、そのままあなたの足元に",
+		name = "荒野のタイル（中）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50348",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50348/prefab/pre_item_05_50348",
+		bt = "",
+		id = 50348,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {}
+	}
+	pg.base.island_furniture_template[50349] = {
+		setNum = 999,
+		describe = "砂地に敷かれた武骨なタイル。ウェスタン劇に登場する街を、そのままあなたの足元に",
+		name = "荒野のタイル（大）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50349",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50349/prefab/pre_item_05_50349",
+		bt = "",
+		id = 50349,
 		tech_id = 0,
 		size = {
 			5,

@@ -274,6 +274,7 @@ pg.memory_group.all = {
 	366,
 	367,
 	368,
+	372,
 	371,
 	369,
 	370,
@@ -399,6 +400,7 @@ pg.memory_group.all = {
 	621,
 	622,
 	623,
+	625,
 	624,
 	1000,
 	1001,
@@ -7322,6 +7324,26 @@ end)()
 			5221
 		}
 	}
+	pg.base.memory_group[372] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51088,
+		title = "有客自来",
+		auto_unlock = "",
+		subtype = 1,
+		id = 372,
+		group_id = "",
+		memories = {
+			5301,
+			5302,
+			5303,
+			5304,
+			5305,
+			5306,
+			5307
+		}
+	}
 	pg.base.memory_group[371] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -7960,6 +7982,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[527] = {
 		ship_group = 10212,
 		icon = "title_chara_huonululu",
@@ -7982,8 +8006,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[528] = {
 		ship_group = 10127,
 		icon = "title_chara_beili",
@@ -10074,6 +10096,28 @@ end)()
 			10000
 		}
 	}
+	pg.base.memory_group[625] = {
+		ship_group = 10234,
+		icon = "title_chara_shengtafei",
+		type = 3,
+		link_event = 0,
+		title = "あたしたちの、八番目の不思議",
+		auto_unlock = "",
+		subtype = 0,
+		id = 625,
+		memories = {
+			5291,
+			5292,
+			5293,
+			5294,
+			5295,
+			5296,
+			5297
+		},
+		group_id = {
+			10000
+		}
+	}
 	pg.base.memory_group[624] = {
 		ship_group = 29905,
 		icon = "title_chara_pulimaosi",
@@ -10174,6 +10218,8 @@ end)()
 			20051
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[1002] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -10276,8 +10322,6 @@ end)()
 			20127
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[1004] = {
 		ship_group = 0,
 		icon = "title_event",

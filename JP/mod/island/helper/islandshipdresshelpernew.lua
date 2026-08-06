@@ -592,11 +592,17 @@ slot0.LoadDressObjectItem = function(slot0, slot1, slot2, slot3)
 				slot2 = GetOrAddComponent(uv1, typeof(DressFlow))
 				slot3 = pg.island_set.island_dress_follow_param.key_value_varchar
 				slot2.target = uv2.roleTF
-				slot2.offset = slot0
 				slot2.delayTime = slot3[1]
 				slot2.lerpSpeed = slot3[2]
 				slot2.recordInterval = slot3[3]
-				slot2.rotationOffest = slot1
+
+				if not not slot0 then
+					slot2.offset = slot0
+				end
+
+				if not not slot1 then
+					slot2.rotationOffest = slot1
+				end
 			end
 		})
 

@@ -295,6 +295,11 @@ pg.island_item_data_template.all = {
 	200027,
 	200028,
 	200029,
+	200030,
+	200031,
+	200032,
+	200033,
+	200034,
 	300001,
 	300002,
 	300003,
@@ -599,6 +604,11 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		200027,
 		200028,
 		200029,
+		200030,
+		200031,
+		200032,
+		200033,
+		200034,
 		300001,
 		300002,
 		300003,
@@ -885,6 +895,11 @@ pg.island_item_data_template.get_id_list_by_type = {
 		200027,
 		200028,
 		200029,
+		200030,
+		200031,
+		200032,
+		200033,
+		200034,
 		300001,
 		300002,
 		300003,
@@ -11019,6 +11034,161 @@ end)()
 			}
 		}
 	}
+	pg.base.island_item_data_template[200030] = {
+		name = "アンカレッジ-離島権限認証",
+		desc = "アンカレッジの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200030",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200030,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200031] = {
+		name = "モガドール-離島権限認証",
+		desc = "モガドールの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200031",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200031,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200032] = {
+		name = "長風-離島権限認証",
+		desc = "長風の離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200032",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200032,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩賞",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200033] = {
+		name = "ロイヤル・フォーチュン-離島権限認証",
+		desc = "ロイヤル・フォーチュンの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200033",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200033,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"ショップ",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200034] = {
+		name = "ベルファスト-離島権限認証",
+		desc = "ベルファストの離島権限認証。離島権限認証装置を使用すると、キャラに離島開発エリアの出入り権限を付与できる",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200034",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200034,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"開発ショップ",
+				{}
+			}
+		}
+	}
 	pg.base.island_item_data_template[300001] = {
 		name = "豊穣の畑配置作業効率が4%アップ",
 		desc = "入手後、豊穣の畑配置作業効率が4%アップ",
@@ -11135,6 +11305,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_item_data_template[300005] = {
 		name = "薫る果樹園配置作業効率が8%アップ",
 		desc = "入手後、薫る果樹園配置作業効率が8%アップ",

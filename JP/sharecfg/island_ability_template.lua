@@ -56,6 +56,8 @@ pg.island_ability_template.all = {
 	606,
 	607,
 	608,
+	609,
+	610,
 	2001,
 	2002,
 	2003,
@@ -441,6 +443,8 @@ pg.island_ability_template.all = {
 	37100306,
 	37100307,
 	37100308,
+	37100309,
+	37100310,
 	37130301,
 	37130302,
 	37140101,
@@ -821,6 +825,8 @@ pg.island_ability_template.get_id_list_by_type = {
 		37100306,
 		37100307,
 		37100308,
+		37100309,
+		37100310,
 		37130301,
 		37130302,
 		37140101,
@@ -1006,7 +1012,9 @@ pg.island_ability_template.get_id_list_by_type = {
 		605,
 		606,
 		607,
-		608
+		608,
+		609,
+		610
 	},
 	[8] = {
 		12,
@@ -1832,6 +1840,26 @@ pg.base.island_ability_template = {}
 		show_pop_text = "",
 		show_type = 1
 	}
+	pg.base.island_ability_template[609] = {
+		unlock_text = "",
+		effect = 100,
+		show_pop = 0,
+		type = 6,
+		id = 609,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	}
+	pg.base.island_ability_template[610] = {
+		unlock_text = "",
+		effect = 100,
+		show_pop = 0,
+		type = 6,
+		id = 610,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	}
 	pg.base.island_ability_template[2001] = {
 		unlock_text = "豊穣の畑",
 		effect = 101,
@@ -2282,6 +2310,8 @@ pg.base.island_ability_template = {}
 		show_pop_text = "",
 		show_type = 1
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[15025] = {
 		unlock_text = "",
 		effect = 35,
@@ -2302,8 +2332,6 @@ pg.base.island_ability_template = {}
 		show_pop_text = "",
 		show_type = 1
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[15027] = {
 		unlock_text = "",
 		effect = 37,
@@ -3284,6 +3312,8 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[91029] = {
 		unlock_text = "",
 		effect = 1029,
@@ -3304,8 +3334,6 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[91031] = {
 		unlock_text = "",
 		effect = 1031,
@@ -4286,6 +4314,8 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[3201007] = {
 		unlock_text = "",
 		effect = 201101,
@@ -4306,8 +4336,6 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[3201009] = {
 		unlock_text = "",
 		effect = 201102,
@@ -5288,6 +5316,8 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[3901005] = {
 		unlock_text = "",
 		effect = 901005,
@@ -5308,8 +5338,6 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[3901101] = {
 		unlock_text = "",
 		effect = 901101,
@@ -5686,6 +5714,26 @@ end)()
 		show_pop = 0,
 		type = 3,
 		id = 37100308,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	}
+	pg.base.island_ability_template[37100309] = {
+		unlock_text = "",
+		effect = 7100309,
+		show_pop = 0,
+		type = 3,
+		id = 37100309,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	}
+	pg.base.island_ability_template[37100310] = {
+		unlock_text = "",
+		effect = 7100310,
+		show_pop = 0,
+		type = 3,
+		id = 37100310,
 		cmd_icon = "IslandProps/gold",
 		show_pop_text = "",
 		show_type = 3
@@ -6270,6 +6318,8 @@ end)()
 		show_pop_text = "",
 		show_type = 3
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[37320204] = {
 		unlock_text = "",
 		effect = 7320204,
@@ -6310,8 +6360,6 @@ end)()
 		show_pop_text = "",
 		show_type = 3
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[37400001] = {
 		unlock_text = "",
 		effect = 7400001,
@@ -7272,6 +7320,8 @@ end)()
 		show_pop_text = "",
 		show_type = 3
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[37650201] = {
 		unlock_text = "",
 		effect = 7650201,
@@ -7312,8 +7362,6 @@ end)()
 		show_pop_text = "",
 		show_type = 3
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[37660101] = {
 		unlock_text = "",
 		effect = 7660101,

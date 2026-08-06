@@ -298,16 +298,16 @@ slot0.initUI = function(slot0)
 	setActive(slot0.clouds, true)
 	setActive(slot0.float:Find("levels"), false)
 
-	slot0.resources = slot0._tf:Find("resources"):GetComponent("ItemList")
-	slot0.arrowTarget = slot0.resources.prefabItem[0]
-	slot0.destinationMarkTpl = slot0.resources.prefabItem[1]
-	slot0.championTpl = slot0.resources.prefabItem[3]
-	slot0.deadTpl = slot0.resources.prefabItem[4]
-	slot0.enemyTpl = Instantiate(slot0.resources.prefabItem[5])
-	slot0.oniTpl = slot0.resources.prefabItem[6]
-	slot0.shipTpl = slot0.resources.prefabItem[8]
-	slot0.subTpl = slot0.resources.prefabItem[9]
-	slot0.transportTpl = slot0.resources.prefabItem[11]
+	slot0.resources = slot0._tf:Find("resources")
+	slot0.arrowTarget = slot0.resources:Find("Tpl_Arrow_Target")
+	slot0.destinationMarkTpl = slot0.resources:Find("Tpl_Destination_Mark")
+	slot0.championTpl = slot0.resources:Find("Tpl_Champion")
+	slot0.deadTpl = slot0.resources:Find("Tpl_Dead")
+	slot0.enemyTpl = slot0.resources:Find("Tpl_Enemy")
+	slot0.oniTpl = slot0.resources:Find("Tpl_Oni")
+	slot0.shipTpl = slot0.resources:Find("Tpl_Ship")
+	slot0.subTpl = slot0.resources:Find("Tpl_Sub")
+	slot0.transportTpl = slot0.resources:Find("Tpl_Transport")
 
 	setText(tf(slot0.enemyTpl):Find("fighting/Text"), i18n("ui_word_levelui2_inevent"))
 	slot0:HideBtns()

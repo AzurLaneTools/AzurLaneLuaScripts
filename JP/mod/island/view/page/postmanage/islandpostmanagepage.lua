@@ -39,7 +39,11 @@ slot0.OnLoaded = function(slot0)
 	setText(slot0.togglesTF:Find("collection/sel/content/Text"), i18n("island_chara_gather_tip"))
 
 	slot0.signInNoticeTF = slot0._tf:Find("Adapt/signInBtn/notice")
+	slot0.bookBtn = slot0._tf:Find("Adapt/book_btn")
 	slot0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(slot0._tf, slot0.event)
+
+	setText(slot0.bookBtn:Find("Text"), i18n("island_post_btn_set_meal"))
+	setText(slot0._tf:Find("Adapt/signInBtn/Text"), i18n("island_post_btn_sign"))
 end
 
 slot0.OnInit = function(slot0)
@@ -57,31 +61,22 @@ slot0.OnInit = function(slot0)
 			end
 		})
 	end)
-
-	slot3 = slot0._tf
-
-	onButton(slot0, slot3:Find("top/title/help"), function ()
+	onButton(slot0, slot0.bookBtn, function ()
+		uv0:OpenPage(IslandSetMealHandbookPage)
+	end, SFX_PANEL)
+	onButton(slot0, slot0._tf:Find("top/title/help"), function ()
 		uv0:ShowMsgBox({
 			type = IslandMsgBox.TYPE_WHITOUT_BTN,
 			content = i18n("island_helpbtn_commission")
 		})
 	end, SFX_PANEL)
-
-	slot3 = slot0._tf
-
-	onButton(slot0, slot3:Find("top/back"), function ()
+	onButton(slot0, slot0._tf:Find("top/back"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-
-	slot3 = slot0._tf
-
-	onButton(slot0, slot3:Find("top/home"), function ()
+	onButton(slot0, slot0._tf:Find("top/home"), function ()
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
-
-	slot3 = slot0._tf
-
-	onButton(slot0, slot3:Find("Adapt/signInBtn"), function ()
+	onButton(slot0, slot0._tf:Find("Adapt/signInBtn"), function ()
 		uv0:Hide()
 		uv0:emit(IslandBaseMediator.SWITCH_MAP, IslandConst.AGORA_MAP_ID, IslandConst.SIGNIN_SP)
 	end, SFX_PANEL)
@@ -98,6 +93,8 @@ slot0.OnInit = function(slot0)
 
 	slot0.buildingIds = pg.island_set.post_manage_produce.key_value_varchar
 	slot0.restIds = pg.island_set.post_manage_operate.key_value_varchar
+
+	setActive(slot0.bookBtn, slot0:GetSelfIsland():GetAblityAgency():HasAbility(IslandAblityAgency.SET_MEAL_ID))
 end
 
 slot0.AddListeners = function(slot0)

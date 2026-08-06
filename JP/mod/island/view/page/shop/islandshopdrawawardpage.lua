@@ -11,19 +11,6 @@ slot0.Ctor = function(slot0, slot1, slot2)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot1 = slot0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()
-
-	for slot5, slot6 in ipairs({
-		"rtMiddle",
-		"rtTitle",
-		"btnAll",
-		"btnDraw",
-		"btnDrawTen",
-		"rtDisplayPanel"
-	}) do
-		slot0[slot6] = slot1[slot5].transform
-	end
-
 	setActive(slot0.rtDisplayPanel, false)
 end
 

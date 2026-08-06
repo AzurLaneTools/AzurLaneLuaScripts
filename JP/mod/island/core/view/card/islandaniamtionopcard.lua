@@ -9,6 +9,8 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.item2 = slot0._tf:Find("2/main")
 	slot0.item1TimeTr = slot0.item1:Find("time")
 	slot0.item2TimeTr = slot0.item2:Find("time")
+	slot0.item1MarkTr = slot0.item1:Find("mark")
+	slot0.item2MarkTr = slot0.item2:Find("mark")
 
 	setActive(slot0.item1TimeTr, false)
 	setActive(slot0.item2TimeTr, false)
@@ -24,17 +26,23 @@ slot0.Contains = function(slot0, slot1)
 	return slot0.firstId == slot1 or slot0.secondId == slot1
 end
 
-slot0.Update = function(slot0, slot1, slot2, slot3)
-	slot4 = slot1[1]
-	slot5 = slot1[2]
-	slot0.firstId = slot4
-	slot0.secondId = slot5
+slot0.Update = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot1[1]
+	slot6 = slot1[2]
+	slot0.firstId = slot5
+	slot0.secondId = slot6
 
-	slot0:UpdateItem(slot0.item1, slot4)
-	slot0:UpdateItem(slot0.item2, slot5)
+	slot0:UpdateItem(slot0.item1, slot5)
+	slot0:UpdateItem(slot0.item2, slot6)
 	slot0:UpdateSelected(slot2)
 	slot0:LoadingEffect(slot3)
+	slot0:UpdateMards(slot4)
 	setActive(slot0.tipTr, false)
+end
+
+slot0.UpdateMards = function(slot0, slot1)
+	setActive(slot0.item1MarkTr, slot1 == slot0.firstId)
+	setActive(slot0.item2MarkTr, slot1 == slot0.secondId)
 end
 
 slot0.UpdateItem = function(slot0, slot1, slot2)
