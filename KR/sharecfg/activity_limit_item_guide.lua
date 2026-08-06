@@ -180,7 +180,11 @@ pg.activity_limit_item_guide.all = {
 	207,
 	208,
 	209,
-	210
+	210,
+	211,
+	212,
+	213,
+	214
 }
 pg.activity_limit_item_guide.get_id_list_by_activity = {
 	[4937] = {
@@ -378,6 +382,12 @@ pg.activity_limit_item_guide.get_id_list_by_activity = {
 		208,
 		209,
 		210
+	},
+	[51079] = {
+		211,
+		212,
+		213,
+		214
 	}
 }
 pg.base = pg.base or {}
@@ -3657,6 +3667,76 @@ end)()
 				3,
 				50845,
 				"「자동 보병 인형의 여행」-「특별 스테이지」 클리어 보상"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[211] = {
+		is_new = 1,
+		activity = 51079,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 211,
+		drop_id = 342,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51073,
+				"「괴담 실록 백야 빌라에서 탈출하라!」 - 「탈출 보급지」 이벤트 보상"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[212] = {
+		is_new = 1,
+		activity = 51079,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 212,
+		drop_id = 3084,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush main"
+				},
+				"「괴담 실록 백야 빌라에서 탈출하라!」 - 「스토리」 모드 클리어"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[213] = {
+		is_new = 1,
+		activity = 51079,
+		count = 4,
+		type = 4,
+		order = 0,
+		id = 213,
+		drop_id = 201151,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51073,
+				"「괴담 실록 백야 빌라에서 탈출하라!」 - 「탈출 보급지」 이벤트 보상"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[214] = {
+		is_new = 1,
+		activity = 51079,
+		count = 1,
+		type = 1,
+		order = 0,
+		id = 214,
+		drop_id = 735,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				51071,
+				"「괴담 실록 백야 빌라에서 탈출하라!」 - 이벤트 화면 우측 상단의 「실적」에서 각종 임무 클리어"
 			}
 		}
 	}

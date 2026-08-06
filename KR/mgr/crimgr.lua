@@ -168,7 +168,7 @@ slot1.PlayPaintingBgm = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-slot1.ChangeBgmVolume = function(slot0, slot1)
+slot1.ChangePaintingBgmVolume = function(slot0, slot1)
 	if slot0._paintingBgmVolumeRate and slot0._paintingBgmVolumeRate == slot1 then
 		return
 	end
@@ -439,6 +439,10 @@ end
 
 slot1.setBGMVolume = function(slot0, slot1)
 	PlayerPrefs.SetFloat("bgm_vol", slot1)
+	CriWare.CriAtom.SetCategoryVolume(uv0.Category_BGM, slot1)
+end
+
+slot1.changeBGMVolume = function(slot0, slot1)
 	CriWare.CriAtom.SetCategoryVolume(uv0.Category_BGM, slot1)
 end
 

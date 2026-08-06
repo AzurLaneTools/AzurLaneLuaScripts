@@ -5013,10 +5013,10 @@ _G.pg.base.gametip.levelScene_remaster_help_tip = {
 			info = "    3. <color=#92fc63>작전 문서</color>에서는 이벤트의 EX 스테이지를 제외한 모든 스테이지에 도전할 수 있습니다."
 		},
 		{
-			info = "    4. 상설화된 <color=#92fc63>작전 문서</color> 이벤트의 스토리는 해당 이벤트의 마지막 스테이지를 클리어하면 일괄 오픈됩니다."
+			info = "    4. 상설화된 작전 문서 이벤트의 스토리는 해당 이벤트의 마지막 스테이지를 클리어하면 일괄 오픈됩니다."
 		},
 		{
-			info = "    5. 일부 <color=#92fc63>작전 문서</color>의 스테이지에서는 보스 함대를 60회 격파하면 SSR 함선을 1회에 한해 획득할 수 있습니다."
+			info = "    5. 일부 작전 문서의 스테이지에서는 보스 함대를 60회 격파하면 SSR 함선을 1회에 한해 획득할 수 있습니다."
 		}
 	}
 }
@@ -6819,7 +6819,7 @@ _G.pg.base.gametip.word_shipNation_dal = {
 
 
 _G.pg.base.gametip.word_shipNation_jinghuanlianmeng = {
-	tip = "LDP"
+	tip = "페드레리아"
 }
 
 
@@ -12559,7 +12559,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "한정 건조를 총 200회 실시하면 「알자스」 100% 획득 가능! (최대 4척까지)"
+	tip = "「슈퍼브」, 「서리」 등장 확률 UP!"
 }
 
 
@@ -14725,8 +14725,8 @@ _G.pg.base.gametip.blueprint_simulation_confirm_89905 = {
 _G.pg.base.gametip.blueprint_simulation_confirm_49911 = {
 	tip = [[
 <size=28>
-탄막 확인 기능(모의전)을 기동하시겠습니까?
-<color=#ff5c5c>(※ 실제 함선 성능과 다름)
+탄막 확인 기능(모의전)을 기동하시겠습니까? 
+<color=#ff5c5c> (※ 실제 함선 성능과 다름</color>)
 사용 장비: <color=#92fc63>
 시제형 함상식 La-9
 시제 함재형 Ta 152 C-1/R14
@@ -17069,6 +17069,11 @@ _G.pg.base.gametip.msgbox_repair_l2d = {
 
 _G.pg.base.gametip.msgbox_repair_painting = {
 	tip = "일러스트 복원 "
+}
+
+
+_G.pg.base.gametip.msgbox_repair_cv = {
+	tip = "음성 데이터 복구"
 }
 
 
@@ -49307,6 +49312,44 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_1 = {
+	tip = "백야 빌라에서 탈출하라"
+}
+
+
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_2 = {
+	tip = "탈출 보급지"
+}
+
+
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_3 = {
+	tip = "보상 목록"
+}
+
+
+_G.pg.base.gametip.escape_manor_series_help = {
+	tip = {
+		{
+			info = [[
+<b>이벤트 기간: </b>
+·<color=#92fc63>8.6 ~ 8.20 점검</color>
+·이벤트 「괴담 실록 백야 빌라에서 탈출하라! 는 함대를 편성해 특별 스테이지에 출격하여 이벤트 Pt 아이템 「백야 빌라 괴담 실록」을 획득하고, 다양한 보상을 얻는 이벤트입니다. 
+
+플레이 방법
+·이벤트 스테이지 선택 화면에서는 좌측 하단 버튼으로 「전투 준비」와 「스토리 감상」을 전환할 수 있습니다. 
+·「전투 준비」에서는 함대를 편성하여 특별 스테이지에 도전할 수 있습니다. 낮은 난이도의 스테이지를 클리어하면 더 높은 난이도의 특별 스테이지가 오픈됩니다. 
+·일부 특별 스테이지에서는 한 번의 출격으로 전투가 여러 차례 진행됩니다. 
+·출격 시에는 전투 횟수만큼 함대를 편성하여 출격시킬 수 있습니다. 출격 준비 화면에서 <color=#92fc63>「단독 출격」과 「협동 출격」</color>을 전환할 수 있습니다. 
+-- 단독 출격에서는 하나의 함대로 스테이지의 모든 전투를 진행합니다. 각 전투 시작 시 출격 중인 함대의 내구와 상태는 초기화됩니다. 
+-- 협동 출격에서는 스테이지의 각 전투에 맞춰 각각의 함대를 편성해 출격시키며, 각 전투를 해당 함대로 진행합니다. 여러 함대로 출격(협동 출격)하면 추가 보상을 획득할 수 있습니다.
+·이벤트 Pt를 모으면 누적 이벤트 Pt 보상으로 <color=#92fc63>신규 함선 「그리핀」</color>과 <color=#92fc63>신규 장비 「시제형 234mm 연장포」</color>를 획득할 수 있습니다. 
+8「스토리」 모드에서 모든 스토리를 오픈하면 신규 장비스킨 「틀니 포탄」을 획득할 수 있습니다. 
+ ]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.nier_a2_text_block_day1 = {
 	tip = {
 		{
@@ -49712,6 +49755,91 @@ _G.pg.base.gametip.dorm3d_gift_overtime = {
 
 _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 	tip = "곧 종료됨"
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2608 = {
+	tip = "2026/8/1-2026/9/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「诺菈·META 」</color>在内的丰富奖励"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2608 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2026.8.1-2026.9.30)
+
+·<color=#92fc63>开放时间</color>
+ 2026.8.1 0点 ~ 2026.9.30 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「诺菈·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·九期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>昆西换装「放学后的补习时间 </color>」、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即9.30 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2608 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+ 2026.8.1 0点 ~ 2026.9.30 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2608 = {
+	tip = "世界巡游·第三十期"
 }
 
 
@@ -50196,4 +50324,24 @@ _G.pg.base.gametip.nier_a2_item_got = {
 
 _G.pg.base.gametip.auction_network_timeout = {
 	tip = "네트워크 이상으로 경매에서 나갔습니다"
+}
+
+
+_G.pg.base.gametip.escape_series_pt = {
+	tip = "합계: $1"
+}
+
+
+_G.pg.base.gametip.escape_series_rank = {
+	tip = "순위"
+}
+
+
+_G.pg.base.gametip.escape_series_task = {
+	tip = "한정 임무"
+}
+
+
+_G.pg.base.gametip.escape_story_reward_count = {
+	tip = "모든 스토리 클리어 시 한정 장비스킨 획득 가능"
 }

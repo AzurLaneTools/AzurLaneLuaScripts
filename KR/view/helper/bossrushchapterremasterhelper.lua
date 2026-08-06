@@ -146,12 +146,47 @@ slot0.MarkMemoryGroupNotification = function(slot0)
 	PlayerPrefs.Save()
 end
 
+slot0.IsAllStoriesPlayed = function(slot0)
+	if not (slot0 and pg.memory_group[slot0]) then
+		return false
+	end
+
+	if not slot1.memories then
+		return true
+	end
+
+	slot4 = pg.NewStoryMgr.GetInstance():GetPlayedList()
+	slot5 = pg.memory_template
+
+	for slot9 = 1, #slot2 do
+		if slot5[slot2[slot9]] and slot10.story and slot11 ~= "" then
+			slot12, slot13 = slot3:StoryName2StoryId(slot11)
+
+			if slot12 and slot12 > 0 and not slot4[slot12] then
+				return false
+			end
+
+			if slot13 and slot13 > 0 and not slot4[slot13] then
+				return false
+			end
+		end
+	end
+
+	return true
+end
+
 slot0.UnlockMemoryGroupStoriesAndShowMsgBox = function(slot0, slot1)
+	slot2 = uv0.IsAllStoriesPlayed(slot0)
+
 	if #uv0.UnlockMemoryGroupStories(slot0) <= 0 then
 		return false
 	end
 
-	uv0.ShowUnlockMemoryMsgBox(slot0, slot2, function ()
+	if slot2 then
+		return false
+	end
+
+	uv0.ShowUnlockMemoryMsgBox(slot0, slot3, function ()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.WORLD_COLLECTION, {
 			page = WorldMediaCollectionScene.PAGE_MEMORTY,
 			memoryGroup = uv0

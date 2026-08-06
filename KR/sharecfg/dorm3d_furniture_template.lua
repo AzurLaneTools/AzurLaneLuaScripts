@@ -1972,7 +1972,7 @@ pg.base.dorm3d_furniture_template = {}
 	}
 	pg.base.dorm3d_furniture_template[1463] = {
 		rarity = 4,
-		name = "심홍의 여유",
+		name = "심홍의 운치",
 		type = 5,
 		room_id = 14,
 		desc = "천연가죽 소재를 사용하여 화려하면서도 절제된 인상을 주는 소파. 일상 속의 안락함과 운치를 한껏 즐길 수 있다.",

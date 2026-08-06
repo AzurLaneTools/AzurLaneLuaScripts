@@ -269,8 +269,10 @@ pg.memory_group.all = {
 	366,
 	367,
 	368,
+	371,
 	369,
 	370,
+	373,
 	501,
 	502,
 	503,
@@ -7207,6 +7209,31 @@ end)()
 			5221
 		}
 	}
+	pg.base.memory_group[371] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51071,
+		title = "괴담 실록: 백야 빌라에서 탈출하라!",
+		auto_unlock = "",
+		subtype = 2,
+		id = 371,
+		group_id = "",
+		memories = {
+			5271,
+			5272,
+			5273,
+			5274,
+			5275,
+			5276,
+			5277,
+			5278,
+			5279,
+			5280,
+			5281,
+			5282
+		}
+	}
 	pg.base.memory_group[369] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -7243,6 +7270,20 @@ end)()
 			5261,
 			5262,
 			5263
+		}
+	}
+	pg.base.memory_group[373] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 970000,
+		title = "特别竞拍时刻",
+		auto_unlock = "",
+		subtype = 3,
+		id = 373,
+		group_id = "",
+		memories = {
+			5311
 		}
 	}
 	pg.base.memory_group[501] = {
@@ -7938,6 +7979,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[533] = {
 		ship_group = 30309,
 		icon = "title_chara_zubing",
@@ -7982,8 +8025,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[535] = {
 		ship_group = 30121,
 		icon = "title_chara_chuchun",

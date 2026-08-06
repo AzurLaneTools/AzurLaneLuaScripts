@@ -152,7 +152,15 @@ pg.activity_medal_template.all = {
 	5065905,
 	5065906,
 	5065907,
-	5065908
+	5065908,
+	5107801,
+	5107802,
+	5107803,
+	5107804,
+	5107805,
+	5107806,
+	5107807,
+	5107808
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -342,6 +350,16 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5065906,
 		5065907,
 		5065908
+	},
+	[51078] = {
+		5107801,
+		5107802,
+		5107803,
+		5107804,
+		5107805,
+		5107806,
+		5107807,
+		5107808
 	}
 }
 pg.base = pg.base or {}
@@ -2149,5 +2167,101 @@ end)()
 		activity_medal_name = "스티커: 깜짝 입장권",
 		id = 5065908,
 		medal_asset = "ActivityMedal/5065908"
+	}
+	pg.base.activity_medal_template[5107801] = {
+		activity_medal_desc = "키히히히! 시대를 초월한 괴담들이 모이는 호러 명소! 무시무시! 오싹오싹!",
+		next_medal = 0,
+		item = 66053,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "1",
+		task_id = 21989,
+		activity_medal_name = "스티커: 백야 빌라",
+		id = 5107801,
+		medal_asset = "ActivityMedal/5107801"
+	}
+	pg.base.activity_medal_template[5107802] = {
+		activity_medal_desc = "오늘 순찰할 병실은 몇 호실이었더라쥬쥬…?",
+		next_medal = 0,
+		item = 66054,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "2",
+		task_id = 21990,
+		activity_medal_name = "스티커: 야간 순찰 만쥬",
+		id = 5107802,
+		medal_asset = "ActivityMedal/5107802"
+	}
+	pg.base.activity_medal_template[5107803] = {
+		activity_medal_desc = "여기에 적힌 규칙은 반드시 지킬 것……",
+		next_medal = 0,
+		item = 66055,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "3",
+		task_id = 21991,
+		activity_medal_name = "스티커: 괴담 쪽지",
+		id = 5107803,
+		medal_asset = "ActivityMedal/5107803"
+	}
+	pg.base.activity_medal_template[5107804] = {
+		activity_medal_desc = "병원에서 흔히 볼 수 있는 의료 기구…… 맞나?",
+		next_medal = 0,
+		item = 66056,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "4",
+		task_id = 21992,
+		activity_medal_name = "스티커: 의료용 폴액스",
+		id = 5107804,
+		medal_asset = "ActivityMedal/5107804"
+	}
+	pg.base.activity_medal_template[5107805] = {
+		activity_medal_desc = "한 번 맞으면 장수하고, 두 번 맞으면 무서울 게 없음!",
+		next_medal = 0,
+		item = 66057,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "5",
+		task_id = 21993,
+		activity_medal_name = "스티커: 2배 주사",
+		id = 5107805,
+		medal_asset = "ActivityMedal/5107805"
+	}
+	pg.base.activity_medal_template[5107806] = {
+		activity_medal_desc = "주의! 그들이 온다!",
+		next_medal = 0,
+		item = 66058,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "6",
+		task_id = 21994,
+		activity_medal_name = "스티커: 심박 감응",
+		id = 5107806,
+		medal_asset = "ActivityMedal/5107806"
+	}
+	pg.base.activity_medal_template[5107807] = {
+		activity_medal_desc = "자~ 입 벌리세요. 아~",
+		next_medal = 0,
+		item = 66059,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "7",
+		task_id = 21995,
+		activity_medal_name = "스티커: 덴탈 라이트",
+		id = 5107807,
+		medal_asset = "ActivityMedal/5107807"
+	}
+	pg.base.activity_medal_template[5107808] = {
+		activity_medal_desc = "감염자 발생까지 앞으로 10, 9……",
+		next_medal = 0,
+		item = 66060,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "8",
+		task_id = 21996,
+		activity_medal_name = "스티커: 봉쇄 구역",
+		id = 5107808,
+		medal_asset = "ActivityMedal/5107808"
 	}
 end)()

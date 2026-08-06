@@ -174682,6 +174682,32 @@ _G.pg.base.item_virtual_data_statistics[65117] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65118] = {
+	drop_gold_max = 0,
+	name = "巡游点数",
+	display = "参与「世界巡游」获得的点数，累计一定程度可以领取奖励，活动结束后将会消失 ",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7030,
+	album_config = "",
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65118,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "저항의 별 기념 훈장",
@@ -186592,6 +186618,319 @@ _G.pg.base.item_virtual_data_statistics[66051] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 66051,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66052] = {
+	drop_gold_max = 0,
+	name = "괴담 실록 기념 훈장",
+	display = "희미한 불빛은 아직 꺼지지 않았고, 문은 여전히 굳게 닫혀 있다. 폐병원 깊숙한 곳에는 아무도 모르는 비밀이 숨겨져 있다. 괴담과 단서가 뒤얽힌 이곳에서 탈출로를 찾아 나서자! ――백야 빌라에 오신 것을 환영합니다~",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Medal/9191",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66052,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		1,
+		200191
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66053] = {
+	drop_gold_max = 0,
+	name = "스티커: 백야 빌라",
+	display = "키히히히! 시대를 초월한 괴담들이 모이는 호러 명소! 무시무시! 오싹오싹!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107801",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66053,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107801
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66054] = {
+	drop_gold_max = 0,
+	name = "스티커: 야간 순찰 만쥬",
+	display = "오늘 순찰할 병실은 몇 호실이었더라쥬쥬…?",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107802",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66054,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107802
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66055] = {
+	drop_gold_max = 0,
+	name = "스티커: 괴담 쪽지",
+	display = "여기에 적힌 규칙은 반드시 지킬 것……",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107803",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66055,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107803
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66056] = {
+	drop_gold_max = 0,
+	name = "스티커: 의료용 폴액스",
+	display = "병원에서 흔히 볼 수 있는 의료 기구…… 맞나?",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107804",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66056,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107804
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66057] = {
+	drop_gold_max = 0,
+	name = "스티커: 2배 주사",
+	display = "한 번 맞으면 장수하고, 두 번 맞으면 무서울 게 없음!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107805",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66057,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107805
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66058] = {
+	drop_gold_max = 0,
+	name = "스티커: 심박 감응",
+	display = "주의! 그들이 온다!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107806",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66058,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107806
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66059] = {
+	drop_gold_max = 0,
+	name = "스티커: 덴탈 라이트",
+	display = "자~ 입 벌리세요. 아~",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107807",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66059,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107807
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66060] = {
+	drop_gold_max = 0,
+	name = "스티커: 봉쇄 구역",
+	display = "감염자 발생까지 앞으로 10, 9……",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5107808",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66060,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	album_config = {
+		2,
+		5107808
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66061] = {
+	drop_gold_max = 0,
+	name = "백야 빌라 실록",
+	display = "「괴담 실록 백야 빌라에서 탈출하라」 이벤트 교환용 이벤트 Pt. 이벤트 종료 시에 삭제됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/66061",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66061,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[66062] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권 (2026.8.19까지)",
+	display = "「스킨 체험」 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료(2026.8.19까지) 시 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66062,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -260181,6 +260520,214 @@ _G.pg.base.item_virtual_data_statistics[200820] = {
 			1
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200821] = {
+	drop_gold_max = 0,
+	name = "랜덤 설계도",
+	display = "일정 확률로 다음 설계도를 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200821,
+	display_icon = {
+		{
+			2,
+			46,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			21,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200822] = {
+	drop_gold_max = 0,
+	name = "랜덤 설계도",
+	display = "일정 확률로 다음 설계도를 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200822,
+	display_icon = {
+		{
+			2,
+			10092,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10038,
+			1
+		},
+		{
+			2,
+			10035,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200823] = {
+	drop_gold_max = 0,
+	name = "랜덤 설계도",
+	display = "일정 확률로 다음 설계도를 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200823,
+	display_icon = {
+		{
+			2,
+			10092,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10035,
+			1
+		},
+		{
+			2,
+			13006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200824] = {
+	drop_gold_max = 0,
+	name = "랜덤 설계도",
+	display = "일정 확률로 다음 설계도를 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200824,
+	display_icon = {
+		{
+			2,
+			10092,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10035,
+			1
+		},
+		{
+			2,
+			13006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

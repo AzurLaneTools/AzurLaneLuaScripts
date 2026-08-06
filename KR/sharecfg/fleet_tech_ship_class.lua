@@ -84,6 +84,7 @@ pg.fleet_tech_ship_class.all = {
 	20304,
 	20305,
 	20306,
+	20307,
 	20401,
 	20402,
 	20403,
@@ -361,6 +362,7 @@ pg.fleet_tech_ship_class.all = {
 	970210,
 	970211,
 	970212,
+	970213,
 	970301,
 	970302,
 	970303,
@@ -1103,6 +1105,7 @@ pg.base.fleet_tech_ship_class = {}
 		ships = {
 			20113,
 			20114,
+			20115,
 			20139
 		}
 	}
@@ -1329,7 +1332,8 @@ pg.base.fleet_tech_ship_class = {}
 		t_level_1 = 1,
 		nation = 2,
 		ships = {
-			20223
+			20223,
+			20237
 		}
 	}
 	pg.base.fleet_tech_ship_class[20210] = {
@@ -1437,6 +1441,17 @@ pg.base.fleet_tech_ship_class = {}
 		nation = 2,
 		ships = {
 			29904
+		}
+	}
+	pg.base.fleet_tech_ship_class[20307] = {
+		shiptype = 3,
+		name = "요크급",
+		t_level = 7,
+		id = 20307,
+		t_level_1 = 59,
+		nation = 2,
+		ships = {
+			20314
 		}
 	}
 	pg.base.fleet_tech_ship_class[20401] = {
@@ -1650,6 +1665,8 @@ pg.base.fleet_tech_ship_class = {}
 			20706
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[20703] = {
 		shiptype = 7,
 		name = "아크 로열",
@@ -1661,8 +1678,6 @@ pg.base.fleet_tech_ship_class = {}
 			20702
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[20704] = {
 		shiptype = 7,
 		name = "이글",
@@ -2879,6 +2894,8 @@ end)()
 			40505
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[40506] = {
 		shiptype = 5,
 		name = "메클렌부르크",
@@ -2890,8 +2907,6 @@ end)()
 			49910
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[40601] = {
 		shiptype = 6,
 		name = "베저",
@@ -4033,6 +4048,8 @@ end)()
 			80702
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[80801] = {
 		shiptype = 8,
 		name = "쉬르쿠프",
@@ -4044,8 +4061,6 @@ end)()
 			80801
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[81801] = {
 		shiptype = 18,
 		name = "브레스트",
@@ -4692,6 +4707,17 @@ end)()
 		nation = 97,
 		ships = {
 			970212
+		}
+	}
+	pg.base.fleet_tech_ship_class[970213] = {
+		shiptype = 2,
+		name = "纽伦堡·META",
+		t_level = 3,
+		id = 970213,
+		t_level_1 = 23,
+		nation = 97,
+		ships = {
+			970213
 		}
 	}
 	pg.base.fleet_tech_ship_class[970301] = {

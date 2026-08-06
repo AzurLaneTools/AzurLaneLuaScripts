@@ -35,6 +35,11 @@ pg.activity_series_enemy.all = {
 	5003,
 	5004,
 	5005,
+	6001,
+	6002,
+	6003,
+	6004,
+	6005,
 	1001001,
 	1001002,
 	1001003
@@ -2412,6 +2417,333 @@ pg.base.activity_series_enemy = {}
 			{
 				"gaoxiong_7",
 				3
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		},
+		ex_count = {
+			8000,
+			20,
+			0.2,
+			1000,
+			0.8
+		}
+	}
+	pg.base.activity_series_enemy[6001] = {
+		oil = 0,
+		name = "일반 병실",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "쉬움",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = "평범한 개인실 타입 병실. 은은한 조명 아래 병상은 깨끗하게 정돈되어 있지만, 문에는 자물쇠가 채워져 있다.",
+		collection_group_id = 104,
+		whether_singlefight = 0,
+		id = 6001,
+		limitation = {},
+		expedition_id = {
+			2049101
+		},
+		boss_icon = {
+			{
+				"sali_2",
+				3
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				736,
+				40
+			},
+			{
+				2,
+				200821,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54012,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[6002] = {
+		oil = 0,
+		name = "중환자실",
+		type = 1,
+		pre_chapter = 6001,
+		chapter_name = "통상",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = "중증 환자를 위한 ICU. 관계자 외 출입 금지.",
+		collection_group_id = 105,
+		whether_singlefight = 1,
+		id = 6002,
+		limitation = {},
+		expedition_id = {
+			2049201,
+			2049202
+		},
+		boss_icon = {
+			{
+				"sali_2",
+				3
+			},
+			{
+				"gelifen_2",
+				1
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				736,
+				140
+			},
+			{
+				2,
+				200822,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				736,
+				25
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[6003] = {
+		oil = 0,
+		name = "간호사실",
+		type = 1,
+		pre_chapter = 6002,
+		chapter_name = "어려움",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		ex_count = "",
+		profiles = "간호사들이 일상을 보내는 공간. 매우 위험하다.",
+		collection_group_id = 106,
+		whether_singlefight = 1,
+		id = 6003,
+		limitation = {},
+		expedition_id = {
+			2049301,
+			2049302,
+			2049303
+		},
+		boss_icon = {
+			{
+				"gelifen_2",
+				1
+			},
+			{
+				"z11_3",
+				1
+			},
+			{
+				"pulimaosi_3",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				736,
+				360
+			},
+			{
+				2,
+				200823,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				736,
+				60
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
+		}
+	}
+	pg.base.activity_series_enemy[6004] = {
+		oil = 0,
+		name = "지하 구역",
+		type = 2,
+		pre_chapter = 6003,
+		chapter_name = "S.P",
+		pos_x = "0",
+		pos_y = "0",
+		count = 1,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = "백야 빌라의 지하 구역. 본관 병동 바로 아래에는 아무도 모르는 많은 비밀이 숨겨져 있다.",
+		collection_group_id = 107,
+		whether_singlefight = 0,
+		id = 6004,
+		limitation = {},
+		expedition_id = {
+			2049401,
+			2049402,
+			2049403,
+			2049404
+		},
+		boss_icon = {
+			{
+				"z11_3",
+				1
+			},
+			{
+				"pulimaosi_3",
+				2
+			},
+			{
+				"gelifen_2",
+				1
+			},
+			{
+				"gangyishawa_3",
+				24
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				736,
+				800
+			},
+			{
+				2,
+				200824,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54016,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			40,
+			16
+		}
+	}
+	pg.base.activity_series_enemy[6005] = {
+		oil = 0,
+		name = "헬리포트",
+		type = 3,
+		pre_chapter = 6004,
+		chapter_name = "E.X",
+		pos_x = "0",
+		pos_y = "0",
+		count = 0,
+		additional_awards_display = "",
+		profiles = "백야 빌라는 교통이 불편한 오지에 위치해 있어, 헬리콥터는 신속하게 드나들 수 있는 몇 안 되는 이동 수단 중 하나다.",
+		pass_awards_display = "",
+		collection_group_id = 0,
+		whether_singlefight = 0,
+		id = 6005,
+		limitation = {},
+		expedition_id = {
+			2049501,
+			2049502,
+			2049503,
+			2049504,
+			2049505
+		},
+		boss_icon = {
+			{
+				"z11_3",
+				1
+			},
+			{
+				"pulimaosi_3",
+				2
+			},
+			{
+				"sali_2",
+				3
+			},
+			{
+				"gangyishawa_3",
+				24
+			},
+			{
+				"huali_2",
+				2
 			}
 		},
 		defeat_story = {},

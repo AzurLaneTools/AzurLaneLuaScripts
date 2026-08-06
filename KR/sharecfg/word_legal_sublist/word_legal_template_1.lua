@@ -258,6 +258,9 @@ temp = function()
 					this = true
 				}
 			},
+			["핀"] = {
+				this = true
+			},
 			["먀"] = {
 				["시"] = {
 					this = true

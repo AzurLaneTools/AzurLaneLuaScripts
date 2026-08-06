@@ -201,9 +201,7 @@ slot0.Flush = function(slot0)
 		slot7:Clear()
 	end
 
-	assert(#slot1 <= 4, "活动按钮不能超过4个")
-
-	slot4 = slot3 <= 3
+	slot4 = #slot1 <= 3
 	slot5 = slot4 and 1 or 0.85
 	slot6 = slot4 and 390 or 420
 	slot0._tf.localScale = Vector3(slot5, slot5, 1)
@@ -218,7 +216,7 @@ slot0.Flush = function(slot0)
 	slot7, slot8 = slot0:FilterSpActivityBtns()
 
 	for slot12, slot13 in pairs(slot7) do
-		slot13:Init(not slot4)
+		slot13:Init(not slot4, slot3 >= 5)
 	end
 
 	for slot12, slot13 in pairs(slot8) do

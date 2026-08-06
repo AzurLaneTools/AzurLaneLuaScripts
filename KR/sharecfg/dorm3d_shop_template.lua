@@ -979,7 +979,7 @@ pg.base.dorm3d_shop_template = {}
 	}
 	pg.base.dorm3d_shop_template[43] = {
 		rarity = 4,
-		name = "큐브 검출기",
+		name = "회전식 탐지기",
 		type = 1,
 		room_id = 79902,
 		unlock = "",
@@ -1002,7 +1002,7 @@ pg.base.dorm3d_shop_template = {}
 	}
 	pg.base.dorm3d_shop_template[44] = {
 		rarity = 4,
-		name = "본능 훈련기",
+		name = "본능 트레이너",
 		type = 2,
 		room_id = 79902,
 		unlock = "",
@@ -1044,7 +1044,7 @@ pg.base.dorm3d_shop_template = {}
 	}
 	pg.base.dorm3d_shop_template[46] = {
 		rarity = 4,
-		name = "심홍의 여유",
+		name = "심홍의 운치",
 		type = 1,
 		room_id = 49905,
 		unlock = "",

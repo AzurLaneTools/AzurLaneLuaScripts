@@ -949614,7 +949614,7 @@ _G.pg.base.bullet_template_1[3146529] = {
 
 _G.pg.base.bullet_template_1[3146530] = {
 	range_offset = 0,
-	modle_ID = "yulei_μjianpan",
+	modle_ID = "yulei_mjianpan",
 	type = 3,
 	velocity = 2,
 	antisub_enhancement = 0,

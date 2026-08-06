@@ -18,6 +18,7 @@ pg.item_data_battleui.all = {
 	113,
 	114,
 	115,
+	116,
 	201,
 	202,
 	203,
@@ -250,6 +251,21 @@ pg.base.item_data_battleui = {}
 		desc = "녹슨 기계의 심장이 다시금 고동치고, 푸른 코어의 잔음이 오래된 문명의 메아리를 퍼뜨린다.",
 		id = 115,
 		icon = "115",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[116] = {
+		name = "皇家旧影",
+		key = "SkinNormal_20260730",
+		display_icon = "ui_116",
+		unlock = "世界巡游三十期获取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "旧日的光影在界面间流转，皇家的优雅余韵也随之铺展开来，为每一次战斗添上一抹古典而精致的气息。 ",
+		id = 116,
+		icon = "116",
 		scene = {},
 		rare_display = {
 			1

@@ -127,7 +127,8 @@ pg.backyard_theme_template.all = {
 	137,
 	138,
 	139,
-	140
+	140,
+	141
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5404,7 +5405,7 @@ end)()
 	}
 	pg.base.backyard_theme_template[140] = {
 		Cfg_1 = 5,
-		name = "벙커 선실",
+		name = "벙커 캐빈",
 		desc = "위성 궤도를 도는 벙커의 거주 구역. 모노톤을 기반으로 한 단조로운 공간에서 잠시나마 휴식을 취해 보자.",
 		deblocking = 1,
 		new = 1,
@@ -5424,6 +5425,48 @@ end)()
 			340102,
 			340103,
 			340104
+		}
+	}
+	pg.base.backyard_theme_template[141] = {
+		Cfg_1 = 5,
+		name = "폐병원",
+		desc = "이곳은 버려진 병원. 적막한 병실과 낡은 복도를 탐험해 보자.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 141,
+		id = 141,
+		icon = "yi3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			341001,
+			341002,
+			341101,
+			341102,
+			341103,
+			341104,
+			341105,
+			341106,
+			341107,
+			341108,
+			341109,
+			341110,
+			341111,
+			341112,
+			341113,
+			341114,
+			341115,
+			341116,
+			341117,
+			341118,
+			341301,
+			341302,
+			341303,
+			341304
 		}
 	}
 end)()

@@ -1994,4 +1994,12 @@ end)()
 		actor_name = "호시타니 미오",
 		code = 514
 	}
+	pg.base.voice_actor_CN[515] = {
+		actor_name = "이료 아이라",
+		code = 515
+	}
+	pg.base.voice_actor_CN[516] = {
+		actor_name = "후쿠즈미 사야",
+		code = 516
+	}
 end)()

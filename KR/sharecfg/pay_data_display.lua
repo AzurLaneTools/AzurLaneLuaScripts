@@ -142,6 +142,7 @@ pg.pay_data_display.all = {
 	1026,
 	1027,
 	1028,
+	1029,
 	1304,
 	2001,
 	2002,
@@ -16027,6 +16028,91 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+	pg.base.pay_data_display[1029] = {
+		picture = "battlepass_1",
+		name = "특허 투어 패스(26.8)",
+		type = 0,
+		second_text = "",
+		descrip = "구매 시 월드 투어의 투어 PT 1,500 획득 및 SP 보상 오픈",
+		subject = "특허 투어 패스(26.8)",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 12000,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 6,
+		package_sort_id = 0,
+		limit_type = 2,
+		first_icon = "",
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift198",
+		extra_gem = 0,
+		id = 1029,
+		airijp_id = "com.yostarjp.azurlane.seasonpass30",
+		name_display = "특허 투어 패스(26.8)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4030,
+				1500
+			},
+			{
+				8,
+				65118,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7030,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
 	pg.base.pay_data_display[1304] = {
 		picture = "battlepass_winter_1",
 		name = "봄날 특허 투어 패스",
@@ -21301,6 +21387,8 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2069] = {
 		picture = "ui7",
 		name = "전투 UI·메이드 카페(기초)",
@@ -21394,8 +21482,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2070] = {
 		picture = "ui7",
 		name = "전투 UI·메이드 카페(럭셔리)",

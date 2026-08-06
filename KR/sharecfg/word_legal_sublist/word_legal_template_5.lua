@@ -559,12 +559,19 @@ end
 temp()
 
 temp = function()
-	uv0["런"] = {
-		["던"] = {
-			this = true,
-			["·"] = {
-				["改"] = {
-					this = true
+	uv0["슈"] = {
+		["퍼"] = {
+			["브"] = {
+				this = true
+			}
+		},
+		["롭"] = {
+			["셔"] = {
+				this = true,
+				["·"] = {
+					["改"] = {
+						this = true
+					}
 				}
 			}
 		}
@@ -574,14 +581,12 @@ end
 temp()
 
 temp = function()
-	uv0["슈"] = {
-		["롭"] = {
-			["셔"] = {
-				this = true,
-				["·"] = {
-					["改"] = {
-						this = true
-					}
+	uv0["런"] = {
+		["던"] = {
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
 				}
 			}
 		}
@@ -611,6 +616,9 @@ temp = function()
 			["스"] = {
 				this = true
 			}
+		},
+		["리"] = {
+			this = true
 		}
 	}
 end

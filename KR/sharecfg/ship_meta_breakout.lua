@@ -100,6 +100,10 @@ pg.ship_meta_breakout.all = {
 	9702122,
 	9702123,
 	9702124,
+	9702131,
+	9702132,
+	9702133,
+	9702134,
 	9703011,
 	9703012,
 	9703013,
@@ -1769,6 +1773,71 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
+	pg.base.ship_meta_breakout[9702131] = {
+		breakout_view = "习得技能【逐光之焰·{namecode:446}】/全武器效率提高2%",
+		item2 = 21060,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9702132,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702131,
+		item1 = 21063,
+		level = 10,
+		weapon_ids = {
+			80671
+		}
+	}
+	pg.base.ship_meta_breakout[9702132] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
+		item2 = 21060,
+		pre_id = 9702131,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9702133,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702132,
+		item1 = 21063,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	}
+	pg.base.ship_meta_breakout[9702133] = {
+		breakout_view = "【逐光之焰·{namecode:446}】升级/全武器效率提高5%",
+		item2 = 21060,
+		pre_id = 9702132,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9702134,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9702133,
+		item1 = 21063,
+		level = 70,
+		weapon_ids = {
+			80672
+		}
+	}
+	pg.base.ship_meta_breakout[9702134] = {
+		breakout_view = "无",
+		item2 = 21060,
+		pre_id = 9702133,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9702134,
+		item1 = 21063,
+		level = 0,
+		weapon_ids = {}
+	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9703011] = {
 		breakout_view = "스킬 [일렁이는 불꽃·트렌토] 습득/주포 효율 +5%",
 		item2 = 21001,
@@ -1832,8 +1901,6 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9703021] = {
 		breakout_view = "[염추의 재] 스킬 습득 / 주포 보정 +5%",
 		item2 = 21001,
@@ -3421,6 +3488,8 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9706041] = {
 		breakout_view = "[인멸의 핵·호쇼] 습득 / 함재기 수 +1 / 함재기 보정 +3%",
 		item2 = 21001,
@@ -3490,8 +3559,6 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9706051] = {
 		breakout_view = "[염추의 재·엘베] 습득 / 폭격기 수 +1 / 전투기 보정 +5%",
 		item2 = 21001,

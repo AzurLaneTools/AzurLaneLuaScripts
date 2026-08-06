@@ -16873,6 +16873,37 @@ _G.pg.base.item_data_statistics[21062] = {
 }
 
 
+_G.pg.base.item_data_statistics[21063] = {
+	open_directly = 0,
+	name = "结晶：{namecode:567}",
+	type = 4,
+	display = "{namecode:567}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21063",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21063,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -30182,6 +30213,131 @@ _G.pg.base.item_data_statistics[30385] = {
 }
 
 
+_G.pg.base.item_data_statistics[30386] = {
+	open_directly = 1,
+	name = "장비스킨 상자 (괴담 병원)",
+	type = 11,
+	display = "랜덤으로 장비스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxguaitanbingqu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30383",
+	id = 30386,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4402,
+			1
+		},
+		{
+			9,
+			4403,
+			1
+		},
+		{
+			9,
+			4404,
+			1
+		},
+		{
+			9,
+			4405,
+			1
+		},
+		{
+			9,
+			4406,
+			1
+		},
+		{
+			9,
+			4407,
+			1
+		},
+		{
+			9,
+			4408,
+			1
+		},
+		{
+			9,
+			4409,
+			1
+		},
+		{
+			9,
+			4410,
+			1
+		},
+		{
+			9,
+			4411,
+			1
+		},
+		{
+			9,
+			4412,
+			1
+		},
+		{
+			9,
+			4413,
+			1
+		},
+		{
+			9,
+			4414,
+			1
+		},
+		{
+			9,
+			4415,
+			1
+		},
+		{
+			9,
+			4416,
+			1
+		},
+		{
+			9,
+			4417,
+			1
+		},
+		{
+			9,
+			4418,
+			1
+		},
+		{
+			9,
+			4419,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -32011,6 +32167,58 @@ _G.pg.base.item_data_statistics[30435] = {
 		{
 			9,
 			2124,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30436] = {
+	open_directly = 1,
+	name = "外观装备箱(世界巡游)",
+	type = 11,
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111230",
+	id = 30436,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2125,
+			1
+		},
+		{
+			9,
+			2126,
+			1
+		},
+		{
+			9,
+			2127,
+			1
+		},
+		{
+			9,
+			2128,
 			1
 		}
 	},
@@ -46469,6 +46677,219 @@ _G.pg.base.item_data_statistics[30569] = {
 		{
 			9,
 			4401,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30570] = {
+	open_directly = 0,
+	name = "지향형 장비스킨 상자 (괴담 병원)",
+	type = 13,
+	display = "사용하면 장비스킨(괴담 병원) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxguaitanbingquzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30570,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4402,
+			1
+		},
+		{
+			9,
+			4403,
+			1
+		},
+		{
+			9,
+			4404,
+			1
+		},
+		{
+			9,
+			4405,
+			1
+		},
+		{
+			9,
+			4406,
+			1
+		},
+		{
+			9,
+			4407,
+			1
+		},
+		{
+			9,
+			4408,
+			1
+		},
+		{
+			9,
+			4409,
+			1
+		},
+		{
+			9,
+			4410,
+			1
+		},
+		{
+			9,
+			4411,
+			1
+		},
+		{
+			9,
+			4412,
+			1
+		},
+		{
+			9,
+			4413,
+			1
+		},
+		{
+			9,
+			4414,
+			1
+		},
+		{
+			9,
+			4415,
+			1
+		},
+		{
+			9,
+			4416,
+			1
+		},
+		{
+			9,
+			4417,
+			1
+		},
+		{
+			9,
+			4418,
+			1
+		},
+		{
+			9,
+			4419,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4402,
+			1
+		},
+		{
+			9,
+			4403,
+			1
+		},
+		{
+			9,
+			4404,
+			1
+		},
+		{
+			9,
+			4405,
+			1
+		},
+		{
+			9,
+			4406,
+			1
+		},
+		{
+			9,
+			4407,
+			1
+		},
+		{
+			9,
+			4408,
+			1
+		},
+		{
+			9,
+			4409,
+			1
+		},
+		{
+			9,
+			4410,
+			1
+		},
+		{
+			9,
+			4411,
+			1
+		},
+		{
+			9,
+			4412,
+			1
+		},
+		{
+			9,
+			4413,
+			1
+		},
+		{
+			9,
+			4414,
+			1
+		},
+		{
+			9,
+			4415,
+			1
+		},
+		{
+			9,
+			4416,
+			1
+		},
+		{
+			9,
+			4417,
+			1
+		},
+		{
+			9,
+			4418,
+			1
+		},
+		{
+			9,
+			4419,
 			1
 		}
 	},

@@ -4154,6 +4154,18 @@ pg.memory_template.all = {
 	5235,
 	5236,
 	5237,
+	5271,
+	5272,
+	5273,
+	5274,
+	5275,
+	5276,
+	5277,
+	5278,
+	5279,
+	5280,
+	5281,
+	5282,
 	5261,
 	5262,
 	5263,
@@ -4173,6 +4185,7 @@ pg.memory_template.all = {
 	5247,
 	5248,
 	5249,
+	5311,
 	10000,
 	10001,
 	10002,
@@ -79251,6 +79264,222 @@ end)()
 			"LAFEIER7"
 		}
 	}
+	pg.base.memory_template[5271] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "입원",
+		condition = "스토리 모드로 이동",
+		story = "GUAITANJISHI1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5271,
+		icon = "memory_guaitanjishi1",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI1"
+		}
+	}
+	pg.base.memory_template[5272] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "병실에서 탈출하라!",
+		condition = "WN-1 시작",
+		story = "GUAITANJISHI2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5272,
+		icon = "memory_guaitanjishi3",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI2"
+		}
+	}
+	pg.base.memory_template[5273] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "무한 복도",
+		condition = "WN-2 시작",
+		story = "GUAITANJISHI3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5273,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI3"
+		}
+	}
+	pg.base.memory_template[5274] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "무대 뒤에서",
+		condition = "WN-3 시작",
+		story = "GUAITANJISHI4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5274,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI4"
+		}
+	}
+	pg.base.memory_template[5275] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "강을 건너",
+		condition = "WN-4 시작",
+		story = "GUAITANJISHI5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5275,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI5"
+		}
+	}
+	pg.base.memory_template[5276] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "수상한 문",
+		condition = "WN-5 시작",
+		story = "GUAITANJISHI6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5276,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI6"
+		}
+	}
+	pg.base.memory_template[5277] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "사악한 원장님",
+		condition = "WN-6 시작",
+		story = "GUAITANJISHI7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5277,
+		icon = "memory_guaitanjishi4",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI7"
+		}
+	}
+	pg.base.memory_template[5278] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "재회와 희망",
+		condition = "WN-7 시작",
+		story = "GUAITANJISHI8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5278,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI8"
+		}
+	}
+	pg.base.memory_template[5279] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "진실에 대한 욕망",
+		condition = "WN-8 시작",
+		story = "GUAITANJISHI9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5279,
+		icon = "memory_guaitanjishi5",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI9"
+		}
+	}
+	pg.base.memory_template[5280] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "통행금지",
+		condition = "WN-9 시작",
+		story = "2049601",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5280,
+		icon = "memory_guaitanjishi2",
+		is_open = 0,
+		unlock_pre = {
+			"2049601"
+		}
+	}
+	pg.base.memory_template[5281] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "백야를 넘어",
+		condition = "WN-10 시작",
+		story = "2049602",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5281,
+		icon = "memory_guaitanjishi6",
+		is_open = 0,
+		unlock_pre = {
+			"2049602"
+		}
+	}
+	pg.base.memory_template[5282] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "에필로그",
+		condition = "WN-11 시작",
+		story = "GUAITANJISHI12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5282,
+		icon = "memory_guaitanjishi6",
+		is_open = 0,
+		unlock_pre = {
+			"GUAITANJISHI12"
+		}
+	}
 	pg.base.memory_template[5261] = {
 		ship_group = 0,
 		subtitle = "",
@@ -79593,6 +79822,24 @@ end)()
 			"MEIMENGXUNYANQIMIAOYE9"
 		}
 	}
+	pg.base.memory_template[5311] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "特别竞拍时刻",
+		condition = "首次进入活动页",
+		story = "TEBIEJINGPAISHIKE1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5311,
+		icon = "memory_tebiejingpaishike",
+		is_open = 0,
+		unlock_pre = {
+			"TEBIEJINGPAISHIKE1"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -79917,6 +80164,8 @@ end)()
 			"CHANGDAO7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10018] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80151,8 +80400,6 @@ end)()
 			"NEPU_DAILY2"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10038] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81719,6 +81966,8 @@ end)()
 			"LINGHANGYUANHAOGANDU4"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20048] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81953,8 +82202,6 @@ end)()
 			"LINGHANGYUANTANXIN9"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20061] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83521,6 +83768,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI11"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20149] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83755,8 +84004,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA12"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20162] = {
 		ship_group = 0,
 		subtitle = "",

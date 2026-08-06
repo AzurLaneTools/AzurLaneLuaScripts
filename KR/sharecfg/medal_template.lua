@@ -131,7 +131,8 @@ pg.medal_template.all = {
 	200151,
 	200161,
 	200171,
-	200181
+	200181,
+	200191
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2962,6 +2963,27 @@ end)()
 		rank = 1,
 		id = 200181,
 		explain1 = "「환몽의 카발카드」",
+		explain2 = "이벤트"
+	}
+	pg.base.medal_template[200191] = {
+		target_id = "51078",
+		name = "괴담 실록 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "희미한 불빛은 아직 꺼지지 않았고, 문은 여전히 굳게 닫혀 있다. 폐병원 깊숙한 곳에는 아무도 모르는 비밀이 숨겨져 있다. 괴담과 단서가 뒤얽힌 이곳에서 탈출로를 찾아 나서자! ――백야 빌라에 오신 것을 환영합니다~",
+		next = 0,
+		icon = "9191",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9191",
+		condition = "「괴담 실록: 백야 빌라에서 탈출하라!」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200191,
+		explain1 = "「괴담 실록: 백야 빌라에서 탈출하라!」",
 		explain2 = "이벤트"
 	}
 end)()

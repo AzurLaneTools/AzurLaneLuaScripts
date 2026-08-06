@@ -1,5 +1,5 @@
 slot0 = class("RequestOldInstagramDataCommand", pm.SimpleCommand)
-slot1 = 50
+slot1 = 30
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()

@@ -379,6 +379,11 @@ pg.task_meta_data_template.all = {
 	100573,
 	100574,
 	100575,
+	100581,
+	100582,
+	100583,
+	100584,
+	100585,
 	200001,
 	200002,
 	200003,
@@ -570,7 +575,11 @@ pg.task_meta_data_template.all = {
 	200481,
 	200482,
 	200483,
-	200484
+	200484,
+	200491,
+	200492,
+	200493,
+	200494
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3582,6 +3591,46 @@ end)()
 		target_num = 1,
 		desc = "브리스톨·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	}
+	pg.base.task_meta_data_template[100581] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970213",
+		id = 100581,
+		target_num = 1,
+		desc = "使用{namecode:567}获得1次胜利"
+	}
+	pg.base.task_meta_data_template[100582] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970213",
+		id = 100582,
+		target_num = 1,
+		desc = "使用{namecode:567}击破等级＞30的敌方1次"
+	}
+	pg.base.task_meta_data_template[100583] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970213",
+		id = 100583,
+		target_num = 1,
+		desc = "使用{namecode:567}击破等级＞55的敌方1次"
+	}
+	pg.base.task_meta_data_template[100584] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970213",
+		id = 100584,
+		target_num = 1,
+		desc = "使用{namecode:567}击破等级＞80的敌方1次"
+	}
+	pg.base.task_meta_data_template[100585] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970213",
+		id = 100585,
+		target_num = 1,
+		desc = "使用{namecode:567}击破等级＞100的敌方1次"
+	}
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3742,6 +3791,8 @@ end)()
 		target_num = 1,
 		desc = "퀸 엘리자베스·META를 사용해 100 이상 레벨의 적 1회 격파"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200061] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3782,8 +3833,6 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 U-556.META를 사용해 1회 승리"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200072] = {
 		target_id = "70",
 		sub_type = 302,
@@ -4544,6 +4593,8 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 안드레아 도리아·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200311] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4584,8 +4635,6 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 네바다·META를 포함한 함대로 1회 승리"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200322] = {
 		target_id = "70",
 		sub_type = 302,
@@ -5121,5 +5170,37 @@ end)()
 		id = 200484,
 		target_num = 1,
 		desc = "대형작전에서 브리스톨·META를 포함한 함대로 Lv100 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200491] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970213",
+		id = 200491,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:567}获得1次胜利"
+	}
+	pg.base.task_meta_data_template[200492] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970213",
+		id = 200492,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:567}击破等级＞70的敌方1次"
+	}
+	pg.base.task_meta_data_template[200493] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970213",
+		id = 200493,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:567}击破等级＞90的敌方1次"
+	}
+	pg.base.task_meta_data_template[200494] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970213",
+		id = 200494,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:567}击破等级＞100的敌方1次"
 	}
 end)()

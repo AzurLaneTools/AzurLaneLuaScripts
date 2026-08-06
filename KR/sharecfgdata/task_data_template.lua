@@ -210767,6 +210767,483 @@ _G.pg.base.task_data_template[21952] = {
 }
 
 
+_G.pg.base.task_data_template[21988] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910346,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念任务1（只送勋章）",
+	desc = "「괴담 실록 백야 빌라에서 탈출하라!」 스티커 전부 수집",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 1,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21988,
+	target_num = 8,
+	fix_task = 0,
+	target_id = "51078",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66052,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21989] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910347,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取1",
+	desc = "「괴담 실록 백야 빌라에서 탈출하라!」 스티커 7개 수집",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21989,
+	target_num = 7,
+	fix_task = 0,
+	target_id = "51078",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66053,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21990] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910348,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取2",
+	desc = "「괴담 실록 백야 빌라에서 탈출하라!」 스토리 전부 감상",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21990,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7815
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66054,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21991] = {
+	target_id_2 = "51076",
+	guild_coin_award = 0,
+	award = 910349,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取3",
+	desc = "「백야 빌라 실록」 총 10,000개 수집",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21991,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "736",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66055,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21992] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910350,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取4",
+	desc = "「괴담 실록 백야 빌라에서 탈출하라!」 임의 스테이지 총 1회 클리어",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21992,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2049101,
+		2049201,
+		2049202,
+		2049301,
+		2049302,
+		2049303,
+		2049401,
+		2049402,
+		2049403,
+		2049404,
+		2049501,
+		2049502,
+		2049503,
+		2049504,
+		2049505,
+		2049601,
+		2049602
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66056,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21993] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910351,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取5",
+	desc = "「괴담 실록 백야 빌라에서 탈출하라!」 이벤트 스테이지에서 적 100개체 격퇴",
+	sub_type = 12,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21993,
+	target_num = 100,
+	fix_task = 0,
+	target_id = {
+		16870001,
+		16870002,
+		16870003,
+		16870004,
+		16870005,
+		16870006,
+		16870007,
+		16870301,
+		16871001,
+		16871002,
+		16871003,
+		16871004,
+		16871005,
+		16871006,
+		16871007,
+		16871301,
+		16871302,
+		16872001,
+		16872002,
+		16872003,
+		16872004,
+		16872005,
+		16872006,
+		16872007,
+		16872301,
+		16872302,
+		16872303,
+		16873001,
+		16873002,
+		16873003,
+		16873004,
+		16873005,
+		16873006,
+		16873007,
+		16873301,
+		16873302,
+		16873303,
+		16873304,
+		16874001,
+		16874002,
+		16874003,
+		16874004,
+		16874005,
+		16874006,
+		16874007,
+		16874301,
+		16874302,
+		16874303,
+		16874304,
+		16874305,
+		16876001,
+		16876002,
+		16876003,
+		16876004,
+		16876005,
+		16876101,
+		16876102,
+		16876103,
+		16876104,
+		16876105
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66057,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21994] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910352,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取6",
+	desc = "「괴담 실록 백야 빌라에서 탈출하라!」 스테이지 총 40회 클리어",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21994,
+	target_num = 40,
+	fix_task = 0,
+	target_id = {
+		2049101,
+		2049201,
+		2049202,
+		2049301,
+		2049302,
+		2049303,
+		2049401,
+		2049402,
+		2049403,
+		2049404,
+		2049501,
+		2049502,
+		2049503,
+		2049504,
+		2049505,
+		2049601,
+		2049602
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66058,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21995] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910353,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取7",
+	desc = "「간호사실」 스테이지 클리어",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21995,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "2049303",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66059,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21996] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910354,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取8",
+	desc = "「지하 구역」 스테이지 클리어",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21996,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "2049404",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66060,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[22011] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -287580,6 +288057,48 @@ _G.pg.base.task_data_template[27406] = {
 }
 
 
+_G.pg.base.task_data_template[27407] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88153,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『260723华丽连战SP』登录送皮肤体验券活动",
+	desc = "게임에 로그인",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27407,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			740,
+			3
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[27305] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -290104,6 +290623,577 @@ _G.pg.base.task_data_template[27301] = {
 			1,
 			722,
 			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27323] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910355,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』多队出击挑战1",
+	desc = "구축함/미사일 구축함을 함대에 편성하지 않고, 여러 함대로 「간호사실」 클리어",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27323,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			1,
+			20,
+			21
+		},
+		6003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17023,
+			20
+		},
+		{
+			2,
+			42086,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27324] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910356,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』多队出击挑战2",
+	desc = "경순양함을 함대에 편성하지 않고, 여러 함대로 「간호사실」 클리어",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27324,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			2
+		},
+		6003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17033,
+			20
+		},
+		{
+			2,
+			42086,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27325] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910357,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』多队出击挑战3",
+	desc = "중순양함/초갑형순양함을 편성하지 않고, 여러 함대로 「간호사실」 클리어",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27325,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			3,
+			18
+		},
+		6003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			20
+		},
+		{
+			2,
+			42086,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27326] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910358,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』多队出击挑战4",
+	desc = "경항공모함/항공모함을 함대에 편성하지 않고, 여러 함대로 「간호사실」 클리어",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27326,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			6,
+			7
+		},
+		6003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17043,
+			20
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27327] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910359,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』多队出击挑战5",
+	desc = "전함/순양전함/모니터함을 함대에 편성하지 않고, 여러 함대로 「간호사실」 클리어",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27327,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			4,
+			5,
+			13
+		},
+		6003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17013,
+			20
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27328] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910360,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』EX挑战",
+	desc = "「괴담 실록 백야 빌라에서 탈출하라!」 EX 스테이지의 첫 번째 전투 클리어",
+	sub_type = 108,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27328,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27329] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910361,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』剧情送装备",
+	desc = "「괴담 실록 백야 빌라에서 탈출하라!」 스토리 모드 클리어",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27329,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7815
+	},
+	open_need = {},
+	award_display = {
+		{
+			9,
+			3084,
+			1
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN",
+		{
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27330] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910362,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』-日常建造",
+	desc = "(데일리) 건조 3회 실시",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27330,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			736,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27331] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910363,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』-日常出击",
+	desc = "(데일리) 함대를 출격시켜 15회 승리",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27331,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			736,
+			300
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27332] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910364,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』-日常困难本",
+	desc = "(데일리) 임의의 메인 해역 어려움 스테이지 1회 클리어",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27332,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			736,
+			150
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[27333] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910365,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』外观装备箱保底",
+	desc = "이벤트 상점 혹은 보급 상점에서 장비스킨 상자(괴담 병원) 20개 교환",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27333,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30386",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30570,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
 		}
 	}
 }
