@@ -12135,7 +12135,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "怨仇、斯庫拉、百眼巨人  建造機率UP！"
+	tip = "壯麗、薩里 建造機率UP!"
 }
 
 
@@ -16562,6 +16562,11 @@ _G.pg.base.gametip.msgbox_repair_l2d = {
 
 _G.pg.base.gametip.msgbox_repair_painting = {
 	tip = "修復立繪"
+}
+
+
+_G.pg.base.gametip.msgbox_repair_cv = {
+	tip = "修復語音"
 }
 
 
@@ -36820,11 +36825,11 @@ _G.pg.base.gametip.help_starLightAlbum = {
 		{
 			info = [[
 1. 回憶頁面內新增「紀念手冊」系統入口。
-2. 活動期間，指揮官可透過完成活動任務收集對應<color=#92fc63>「紀念貼紙」</color>兌換獲得活動勳章。
- ※ 活動進行時，指揮官可在<color=#92fc63>活動頁面或回憶介面</color>透過指定入口進入「紀念貼紙」收集頁面；
- ※ 活動結束後指揮官將只能透過<color=#92fc63>回憶介面</color>指定入口進入「紀念貼紙」收集頁面；
+2. 活動期間，指揮官可通過完成活動任務收集對應<color=#92fc63>「紀念貼紙」</color>兌換獲得活動勳章。
+ ※ 活動進行時，指揮官可在<color=#92fc63>活動頁面或回憶介面</color>通過指定入口進入「紀念貼紙」收集頁面；
+ ※ 活動結束後指揮官將只能通過<color=#92fc63>回憶介面</color>指定入口進入「紀念貼紙」收集頁面；
  ※ 「紀念貼紙」可以通過完成對應活動任務獲取；
- ※ 獎勵領取介面將延長至7月29日24時；]]
+ ※ 獎勵領取介面將延長至8月26日24時；]]
 		}
 	}
 }
@@ -42644,6 +42649,44 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_1 = {
+	tip = "逃離白夜山莊"
+}
+
+
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_2 = {
+	tip = "逃生補給站"
+}
+
+
+_G.pg.base.gametip.EscapeManorCoreActivity_subtitle_3 = {
+	tip = "獎勵匯總"
+}
+
+
+_G.pg.base.gametip.escape_manor_series_help = {
+	tip = {
+		{
+			info = [[
+<b>活動時間：</b>
+·<color=#92fc63>8.6-8.20維護；</color>
+·活動期間開啟限時活動「怪談紀實：逃離白夜山莊！」。
+
+<b>活動說明：</b>
+·本次作戰分為<color=#92fc63>【作戰模式】</color>和<color=#92fc63>【劇情模式】</color>。
+·在【作戰模式】中，指揮官可上陣多只隊伍按照順序分別挑戰各個關卡，完成關卡內全部挑戰後視為關卡通關並獲得獎勵。
+·同時，部分關卡可切換<color=#92fc63>「單隊連戰」</color>、<color=#92fc63>「多隊出擊」</color>兩種模式：
+——「單隊連戰」為單隻隊伍挑戰各個關卡。選擇「單隊連戰」模式時，每個關卡開始前角色耐久值及各類狀態均將重置。
+——「多隊出擊」為不同隊伍挑戰各個關卡。選擇「多隊出擊」模式時，可獲得額外獎勵。
+
+·指揮官可以通過作戰模式獲取「白夜山莊紀實」，累計收集「怪談紀實」可獲得角色<color=#92fc63>「格里芬」</color>、裝備<color=#92fc63>「試作型雙聯裝234mm主炮」</color>在內的大量獎勵。
+
+·完成【劇情模式】的全部內容後，可獲得限定紀念外觀<color=#92fc63>「假牙炮彈」</color>。]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.nier_a2_text_block_day1 = {
 	tip = {
 		{
@@ -43532,6 +43575,26 @@ _G.pg.base.gametip.donot_send_emoji_frequently = {
 
 _G.pg.base.gametip.nier_a2_item_got = {
 	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.escape_series_pt = {
+	tip = "累計：$1"
+}
+
+
+_G.pg.base.gametip.escape_series_rank = {
+	tip = "排行榜"
+}
+
+
+_G.pg.base.gametip.escape_series_task = {
+	tip = "活動任務"
+}
+
+
+_G.pg.base.gametip.escape_story_reward_count = {
+	tip = "通關全部劇情後可獲得限定紀念外觀"
 }
 
 

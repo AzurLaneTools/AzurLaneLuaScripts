@@ -1051,6 +1051,7 @@ pg.activity_template.all = {
 	50259,
 	50261,
 	50262,
+	50263,
 	50264,
 	50265,
 	50266,
@@ -1216,6 +1217,17 @@ pg.activity_template.all = {
 	51015,
 	51007,
 	51049,
+	51070,
+	51071,
+	51072,
+	51073,
+	51074,
+	51075,
+	51076,
+	51077,
+	51078,
+	51079,
+	51080,
 	7104,
 	7305,
 	7501,
@@ -2478,6 +2490,7 @@ pg.activity_template.get_id_list_by_type = {
 		50816,
 		50614,
 		50658,
+		51070,
 		40189,
 		40214,
 		40230,
@@ -3031,6 +3044,10 @@ pg.activity_template.get_id_list_by_type = {
 		51015,
 		51007,
 		51049,
+		51074,
+		51075,
+		51078,
+		51080,
 		1103,
 		1104,
 		1105,
@@ -3445,6 +3462,7 @@ pg.activity_template.get_id_list_by_type = {
 		50599,
 		50625,
 		50654,
+		51076,
 		40175,
 		40184,
 		40207,
@@ -3877,6 +3895,7 @@ pg.activity_template.get_id_list_by_type = {
 		50803,
 		50601,
 		50653,
+		51077,
 		40190,
 		40215,
 		40221,
@@ -4466,6 +4485,7 @@ pg.activity_template.get_id_list_by_type = {
 		5921,
 		50069,
 		50101,
+		50263,
 		40400,
 		40489,
 		40557,
@@ -4616,6 +4636,7 @@ pg.activity_template.get_id_list_by_type = {
 		50652,
 		51021,
 		51013,
+		51073,
 		1110,
 		6006,
 		6010,
@@ -4894,6 +4915,7 @@ pg.activity_template.get_id_list_by_type = {
 		5888,
 		50013,
 		50351,
+		51071,
 		41301
 	},
 	[94] = {
@@ -4901,6 +4923,7 @@ pg.activity_template.get_id_list_by_type = {
 		5889,
 		50014,
 		50352,
+		51072,
 		41302
 	},
 	[95] = {
@@ -4936,6 +4959,7 @@ pg.activity_template.get_id_list_by_type = {
 		50155,
 		50249,
 		50844,
+		51079,
 		41271
 	},
 	[104] = {
@@ -49870,6 +49894,51 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[50263] = {
+		mark = 20260806,
+		type = 69,
+		login_pop = 0,
+		config_id = 34,
+		is_show = 45,
+		title_res_tag = "Georgia_catchup",
+		id = 50263,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "XingdengbaoTecCatchupPage",
+			ui_name = "XingdengbaoTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42054
+		}
+	}
 	pg.base.activity_template[50264] = {
 		mark = 20251225,
 		type = 87,
@@ -52558,6 +52627,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50413] = {
 		mark = 20260212,
 		type = 3,
@@ -52601,8 +52672,6 @@ end)()
 			ui_name = "SpringFestival2026FuboLoginPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50414] = {
 		mark = 20260212,
 		page_info = "",
@@ -58003,6 +58072,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[51001] = {
 		mark = 20260528,
 		type = 18,
@@ -58080,8 +58151,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[51003] = {
 		mark = 20260528,
 		type = 87,
@@ -58775,6 +58844,534 @@ end)()
 					2026,
 					7,
 					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51070] = {
+		mark = 20260806,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51070,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51071] = {
+		mark = 20260806,
+		type = 93,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "EscapeManorCoreActivity_subtitle_1",
+		id = 51071,
+		page_core = "EscapeManorCoreActivityUI",
+		config_data = {
+			6001,
+			6002,
+			6003,
+			6004,
+			6005
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EscapeManorMainPage",
+			ui_name = "EscapeManorMainPage"
+		},
+		config_client = {
+			openStory = "GUAITANJISHI1",
+			shopItemID = 71384,
+			mediator = "BossRushEscapeManorMediator",
+			PTID = 736,
+			scene = "BossRushEscapeManorScene",
+			task_id = 27329,
+			entrance_bg = "activitybanner/temp10",
+			tasks = {
+				27329
+			},
+			storys = {
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187
+			},
+			storybg = {},
+			levelbg = {},
+			storybgm = {
+				{
+					1,
+					"theme-hospitalnight-mystic"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51072] = {
+		mark = 20260806,
+		page_info = "",
+		type = 94,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		title_res_tag = "",
+		id = 51072,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51073] = {
+		mark = 20260806,
+		type = 74,
+		login_pop = 0,
+		config_id = 51073,
+		is_show = 2,
+		title_res_tag = "EscapeManorCoreActivity_subtitle_2",
+		id = 51073,
+		page_core = "EscapeManorCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EscapeManorPtPage",
+			ui_name = "EscapeManorPtPage"
+		},
+		config_client = {
+			highValueItemSort = {
+				11,
+				19,
+				23,
+				29,
+				33,
+				37
+			}
+		}
+	}
+	pg.base.activity_template[51074] = {
+		mark = 20260806,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51074,
+		page_core = "",
+		config_data = {
+			27323,
+			27324,
+			27325,
+			27326,
+			27327,
+			27328,
+			27329,
+			27330,
+			27331,
+			27332,
+			27333
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51075] = {
+		mark = 20260806,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51075,
+		page_core = "",
+		config_data = {
+			23888
+		}
+	}
+	pg.base.activity_template[51076] = {
+		mark = 20260806,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 736,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 51076,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51077] = {
+		mark = 20260806,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51077,
+		page_core = "",
+		config_data = {
+			{
+				31920,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51078] = {
+		mark = 20260806,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51078,
+		page_core = "",
+		config_data = {
+			21988,
+			21989,
+			21990,
+			21991,
+			21992,
+			21993,
+			21994,
+			21995,
+			21996
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51079] = {
+		mark = 20260806,
+		type = 103,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 3,
+		title_res_tag = "EscapeManorCoreActivity_subtitle_3",
+		id = 51079,
+		page_core = "EscapeManorCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "EscapeManorCollectPage",
+			ui_name = "EscapeManorCollectPage",
+			sub_ui = {
+				"EscapeManorCollectMsgBox"
+			}
+		},
+		config_client = {
+			furniture_theme_link = {
+				2,
+				{
+					"scene court yard",
+					{}
+				}
+			},
+			equipskin_box_link = {
+				drop_type = 2,
+				drop_id = 30386,
+				list = {
+					{
+						2,
+						{
+							"scene shop",
+							{
+								warp = "shopstreet"
+							}
+						},
+						"軍需商店兌換"
+					}
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51080] = {
+		mark = 20260806,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51080,
+		page_core = "",
+		config_data = {
+			27407
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					19
 				},
 				{
 					23,
@@ -61736,6 +62333,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[2043] = {
 		mark = 20190731,
 		page_info = "",
@@ -61940,8 +62539,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6000] = {
 		mark = 20210610,
 		time = "stop",
@@ -64978,6 +65575,8 @@ end)()
 			16132
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40224] = {
 		mark = 20210121,
 		time = "stop",
@@ -65319,8 +65918,6 @@ end)()
 			ui_name = "MonopolyPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40236] = {
 		mark = 20210204,
 		time = "stop",
@@ -67964,6 +68561,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40325] = {
 		mark = 20210527,
 		page_info = "",
@@ -68276,8 +68875,6 @@ end)()
 			3
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40337] = {
 		mark = 20210603,
 		time = "stop",
@@ -71765,6 +72362,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40427] = {
 		mark = 20210923,
 		type = 70,
@@ -72345,8 +72944,6 @@ end)()
 			15830
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40440] = {
 		mark = 20211008,
 		page_info = "",
@@ -75585,6 +76182,8 @@ end)()
 			linkActID = 40540
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40532] = {
 		mark = 20220217,
 		page_info = "",
@@ -76098,8 +76697,6 @@ end)()
 			ui_name = "VotePage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40544] = {
 		mark = 20220217,
 		page_info = "",
@@ -78988,6 +79585,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40656] = {
 		mark = 20220616,
 		type = 13,
@@ -79426,8 +80025,6 @@ end)()
 			3
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40639] = {
 		mark = 20220527,
 		page_info = "",
@@ -81547,6 +82144,8 @@ end)()
 			256
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40806] = {
 		mark = 20220915,
 		page_info = "",
@@ -81811,8 +82410,6 @@ end)()
 			ui_name = "MonopolyCar2Page"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40827] = {
 		mark = 20220929,
 		page_info = "",
@@ -84348,6 +84945,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40995] = {
 		mark = 20221222,
 		time = "stop",
@@ -84708,8 +85307,6 @@ end)()
 			17853
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41010] = {
 		mark = 20230105,
 		time = "stop",
@@ -87503,6 +88100,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41132] = {
 		mark = 20230413,
 		page_info = "",
@@ -87913,8 +88512,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41161] = {
 		mark = 20230518,
 		page_info = "",
@@ -91031,6 +91628,8 @@ end)()
 			entrance_bg = "activitybanner/temp10"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41285] = {
 		mark = 20230817,
 		page_info = "",
@@ -91538,8 +92137,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41298] = {
 		mark = 20230817,
 		page_info = "",
@@ -95501,6 +96098,8 @@ end)()
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[45010] = {
 		mark = 20200917,
 		page_info = "",
@@ -96023,8 +96622,6 @@ end)()
 		id = 45021,
 		page_core = ""
 	}
-end)()
-(function ()
 	pg.base.activity_template[45022] = {
 		mark = 20201009,
 		page_info = "",
@@ -100132,6 +100729,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[45912] = {
 		mark = 20240125,
 		type = 54,
@@ -100888,8 +101487,6 @@ end)()
 			ui_name = "CrusingDisplayActPage24"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[45924] = {
 		mark = 20260129,
 		type = 54,

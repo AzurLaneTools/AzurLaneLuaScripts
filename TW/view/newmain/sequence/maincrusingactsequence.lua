@@ -34,8 +34,9 @@ slot0.Execute = function(slot0, slot1)
 
 			if slot2 <= pg.gameset.world_cruise_due_days.key_value then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					showStopRemind = true,
 					hideNo = true,
+					showStopRemind = true,
+					toggleStatus = true,
 					content = i18n("world_cruise_due_tips", slot5, slot2),
 					onYes = function ()
 						if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then

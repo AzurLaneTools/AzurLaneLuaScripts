@@ -310349,6 +310349,483 @@ _G.pg.base.task_data_template[21984] = {
 }
 
 
+_G.pg.base.task_data_template[21988] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910346,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念任务1（只送勋章）",
+	desc = "收集全套「怪談紀實：逃離白夜山莊！」紀念貼紙",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 1,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21988,
+	target_num = 8,
+	fix_task = 0,
+	target_id = "51078",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66052,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21989] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910347,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取1",
+	desc = "收集7個「怪談紀實：逃離白夜山莊！」紀念貼紙",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21989,
+	target_num = 7,
+	fix_task = 0,
+	target_id = "51078",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66053,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21990] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910348,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取2",
+	desc = "解鎖「怪談紀實：逃離白夜山莊！」所有劇情",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21990,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7815
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66054,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21991] = {
+	target_id_2 = "51076",
+	guild_coin_award = 0,
+	award = 910349,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取3",
+	desc = "累計獲得10000個「白夜山莊紀實」",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21991,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "736",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66055,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21992] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910350,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取4",
+	desc = "通關1次「怪談紀實：逃離白夜山莊！」任意難度關卡",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21992,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2049101,
+		2049201,
+		2049202,
+		2049301,
+		2049302,
+		2049303,
+		2049401,
+		2049402,
+		2049403,
+		2049404,
+		2049501,
+		2049502,
+		2049503,
+		2049504,
+		2049505,
+		2049601,
+		2049602
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66056,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21993] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910351,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取5",
+	desc = "在活動關卡中累積擊沉敵人100次",
+	sub_type = 12,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21993,
+	target_num = 100,
+	fix_task = 0,
+	target_id = {
+		16870001,
+		16870002,
+		16870003,
+		16870004,
+		16870005,
+		16870006,
+		16870007,
+		16870301,
+		16871001,
+		16871002,
+		16871003,
+		16871004,
+		16871005,
+		16871006,
+		16871007,
+		16871301,
+		16871302,
+		16872001,
+		16872002,
+		16872003,
+		16872004,
+		16872005,
+		16872006,
+		16872007,
+		16872301,
+		16872302,
+		16872303,
+		16873001,
+		16873002,
+		16873003,
+		16873004,
+		16873005,
+		16873006,
+		16873007,
+		16873301,
+		16873302,
+		16873303,
+		16873304,
+		16874001,
+		16874002,
+		16874003,
+		16874004,
+		16874005,
+		16874006,
+		16874007,
+		16874301,
+		16874302,
+		16874303,
+		16874304,
+		16874305,
+		16876001,
+		16876002,
+		16876003,
+		16876004,
+		16876005,
+		16876101,
+		16876102,
+		16876103,
+		16876104,
+		16876105
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66057,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21994] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910352,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取6",
+	desc = "通關40次「怪談紀實：逃離白夜山莊！」特別作戰關卡",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21994,
+	target_num = 40,
+	fix_task = 0,
+	target_id = {
+		2049101,
+		2049201,
+		2049202,
+		2049301,
+		2049302,
+		2049303,
+		2049401,
+		2049402,
+		2049403,
+		2049404,
+		2049501,
+		2049502,
+		2049503,
+		2049504,
+		2049505,
+		2049601,
+		2049602
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66058,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21995] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910353,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取7",
+	desc = "通關『護士辦公室』",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21995,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "2049303",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66059,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21996] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910354,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『皇家SP』纪念贴纸获取8",
+	desc = "通關『地下室』",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 21996,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "2049404",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66060,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[22011] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -375544,6 +376021,342 @@ _G.pg.base.task_data_template[27265] = {
 }
 
 
+_G.pg.base.task_data_template[27400] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700500,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务1",
+	desc = "艦隊出擊，獲得15次勝利",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27400,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27401] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700501,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务2",
+	desc = "通關3次任意困難關卡",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27401,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27402] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700502,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务3",
+	desc = "完成3次每日挑戰",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27402,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27403] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700503,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务4",
+	desc = "擊沉任意敵人20艘",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27403,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27404] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700504,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务5",
+	desc = "進行2次戰術訓練",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27404,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27405] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700505,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务6",
+	desc = "完成軍事委託2次",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27405,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27406] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700506,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务7",
+	desc = "艦隊出擊，消滅敵方旗艦3次",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27406,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27407] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88153,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『260723华丽连战SP』登录送皮肤体验券活动",
+	desc = "登入遊戲",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27407,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			740,
+			3
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[27305] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -375581,6 +376394,577 @@ _G.pg.base.task_data_template[27305] = {
 			1,
 			731,
 			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27323] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910355,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』多队出击挑战1",
+	desc = "在未編入導輪/驅逐的情況下，使用多隊出擊通關『護士辦公室』",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27323,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			1,
+			20,
+			21
+		},
+		6003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17023,
+			20
+		},
+		{
+			2,
+			42086,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27324] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910356,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』多队出击挑战2",
+	desc = "不編入輕巡的情況下，使用多隊出擊通關『護士辦公室』",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27324,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			2
+		},
+		6003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17033,
+			20
+		},
+		{
+			2,
+			42086,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27325] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910357,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』多队出击挑战3",
+	desc = "不編入超巡/重巡的情況下，使用多隊出擊通關『護士辦公室』",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27325,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			3,
+			18
+		},
+		6003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			20
+		},
+		{
+			2,
+			42086,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27326] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910358,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』多队出击挑战4",
+	desc = "不編入輕航/航空母艦的情況下，使用多隊出擊通關『護士辦公室』",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27326,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			6,
+			7
+		},
+		6003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17043,
+			20
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27327] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910359,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』多队出击挑战5",
+	desc = "不編入戰列/戰巡/重炮的情況下，使用多隊出擊通關『護士辦公室』",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27327,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			4,
+			5,
+			13
+		},
+		6003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17013,
+			20
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27328] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910360,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』EX挑战",
+	desc = "取得EX關卡的第一場戰鬥勝利",
+	sub_type = 108,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27328,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27329] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910361,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』剧情送装备",
+	desc = "完成「劇情模式」",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27329,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7815
+	},
+	open_need = {},
+	award_display = {
+		{
+			9,
+			3084,
+			1
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN",
+		{
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27330] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910362,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』-日常建造",
+	desc = "(每日)建造艦船3次",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27330,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			736,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27331] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910363,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』-日常出击",
+	desc = "(每日)艦隊出擊，獲得15次勝利",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27331,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			736,
+			300
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[27332] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910364,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』-日常困难本",
+	desc = "(每日)通關1次任意困難關卡",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27332,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			736,
+			150
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[27333] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910365,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『华丽SP活动』外观装备箱保底",
+	desc = "透過「補給商店-軍火」購買20個[外觀裝備箱(怪談病區)]",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27333,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30386",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30570,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
 		}
 	}
 }
@@ -376305,300 +377689,6 @@ _G.pg.base.task_data_template[27322] = {
 			5,
 			341,
 			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27400] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700500,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务1",
-	desc = "艦隊出擊，獲得15次勝利",
-	sub_type = 20,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27400,
-	target_num = 15,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27401] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700501,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务2",
-	desc = "通關3次任意困難關卡",
-	sub_type = 182,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27401,
-	target_num = 3,
-	fix_task = 0,
-	target_id = "10101",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27402] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700502,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务3",
-	desc = "完成3次每日挑戰",
-	sub_type = 26,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27402,
-	target_num = 3,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27403] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700503,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务4",
-	desc = "擊沈任意敵人20艘",
-	sub_type = 11,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27403,
-	target_num = 20,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27404] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700504,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务5",
-	desc = "進行2次戰術訓練",
-	sub_type = 71,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27404,
-	target_num = 2,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27405] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700505,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务6",
-	desc = "完成軍事委托2次",
-	sub_type = 80,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27405,
-	target_num = 2,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27406] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700506,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务7",
-	desc = "艦隊出擊，消滅敵方旗艦3次",
-	sub_type = 21,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27406,
-	target_num = 3,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			2
 		}
 	}
 }

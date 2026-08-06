@@ -247,6 +247,7 @@ pg.map_data.all = {
 	50223,
 	50224,
 	50225,
+	50226,
 	90000,
 	90001,
 	90002,
@@ -7336,6 +7337,35 @@ end)()
 		sky_shot = "sky_sebao;sebao_daoying;dushi_wuqi",
 		mid_pos = "30.00, -31.00, 150.70;102.00, -31.50, 151.50;180.00, -31.00, 150.70;151.70, -31.50, 151.50;250.00, -31.00, 150.70",
 		mid_shot = "sebao_zj01;sebao_zj02;sebao_zj01;sebao_zj02;sebao_zj01",
+		mid_speed = 2.5,
+		close_speed = 4,
+		diving_filter = {
+			g = 0.03,
+			a = 0.35,
+			b = 0.23,
+			r = 0.03
+		}
+	}
+	pg.base.map_data[50226] = {
+		long_speed = 1,
+		long_pos = "-8.9, -31.2, 155.4;-69.0, -31.2, 156.3;35.7, -31.2, 156.0;78.2, -31.2, 155.4;113.6, -31.2, 156.3;-123.4, -31.2, 156.0",
+		close_pos = "-52.3, -20.3, 128.0;50.8, -21.0, 127.1;150.0, -20.3, 128.0;-140.0, -20.3, 127.1;220.0, -20.3, 128.0",
+		long_scale = "7.0, 7.0, 7.0;8.0, 8.0, 8.0;11.0, 11.0, 11.0;7.0, 7.0, 7.0;8.0, 8.0, 8.0;11.0, 11.0, 11.0",
+		sky_pos = "-26.7, -80.8, 259.1;-26.7, -93.1, 265.5;-26.7, -28.2, 154.2",
+		map_id = 50226,
+		sea_shot = "snow_STG;gelidai;sea_tongmeng_1",
+		close_scale = "6.0, 6.0, 6.0;6.0, 6.0, 6.0;6.0, 6.0, 6.0;6.0, 6.0, 6.0;6.0, 6.0, 6.0",
+		sea_pos = "-30, 30, 50.0;-27.1, -5.6, 54.0;-43.0, -1.0, 52.8",
+		sea_scale = "1.0, 1.0, 1.0;9.4, 23.9, 28.4;22.5, 1.0, 12.2",
+		range_left = -200,
+		range_right = 200,
+		sky_scale = "7.8, 7.8, 0.9;7.8, 7.8, 1.2;11.0, 5.0, 1.0",
+		mid_scale = "7.0, 7.0, 7.0;7.0, 7.0, 7.0;7.0, 7.0, 7.0;7.0, 7.0, 7.0;7.0, 7.0, 7.0",
+		close_shot = "tongmeng_1_jj01;tongmeng_1_jj02b;tongmeng_1_jj01;tongmeng_1_jj02b;tongmeng_1_jj01",
+		long_shot = "tongmeng_1_yj01;tongmeng_1_yj02;tongmeng_1_yj03;tongmeng_1_yj01;tongmeng_1_yj02;tongmeng_1_yj03",
+		sky_shot = "sky_tongmeng_1b;tongmeng_1_daoying;tongmeng_1_wuqi",
+		mid_pos = "30.0, -31.0, 150.8;102.0, -31.5, 151.0;180.0, -31.0, 150.8;-26.1, -31.5, 151.0;250.0, -31.0, 150.8",
+		mid_shot = "tongmeng_1_zj01;tongmeng_1_zj02;tongmeng_1_zj01;tongmeng_1_zj02;tongmeng_1_zj01",
 		mid_speed = 2.5,
 		close_speed = 4,
 		diving_filter = {

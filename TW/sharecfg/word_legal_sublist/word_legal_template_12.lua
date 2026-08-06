@@ -4,6 +4,16 @@ slot0.word_legal_template_12 = {}
 slot1 = slot0.word_legal_template_12
 
 temp = function()
+	uv0["頑"] = {
+		["皮"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["曙"] = {
 		["光"] = {
 			this = true
@@ -430,22 +440,6 @@ temp = function()
 								}
 							}
 						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["岡"] = {
-		["依"] = {
-			["沙"] = {
-				["瓦"] = {
-					["號"] = {
-						this = true
 					}
 				}
 			}

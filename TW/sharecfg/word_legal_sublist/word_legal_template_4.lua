@@ -16,6 +16,9 @@ temp = function()
 			["克"] = {
 				this = true
 			}
+		},
+		["里"] = {
+			this = true
 		}
 	}
 end

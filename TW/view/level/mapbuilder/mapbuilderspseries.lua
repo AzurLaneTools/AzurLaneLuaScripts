@@ -118,7 +118,7 @@ slot0.UpdateMapVO = function(slot0, slot1)
 		})
 		slot10 = slot0.storyNodesDict[slot8]:getConfigTable()
 
-		setAnchoredPosition(slot0.storyHolder:Find(tostring(slot8)) or cloneTplTo(slot0.storyNodeTpl, slot0.storyHolder, slot8), {
+		setLocalPosition(slot0.storyHolder:Find(tostring(slot8)) or cloneTplTo(slot0.storyNodeTpl, slot0.storyHolder, slot8), {
 			x = 1920 * tonumber(slot10.pos_x),
 			y = 1080 * tonumber(slot10.pos_y)
 		})
@@ -242,9 +242,10 @@ end
 slot0.UpdateMapItem = function(slot0, slot1, slot2)
 	slot3 = slot2:getConfigTable()
 
-	setAnchoredPosition(slot1, {
-		x = slot0.mapWidth * slot3.pos_x,
-		y = slot0.mapHeight * slot3.pos_y
+	warning(1920 * slot3.pos_x, 1080 * slot3.pos_y)
+	setLocalPosition(slot1, {
+		x = 1920 * slot3.pos_x,
+		y = 1080 * slot3.pos_y
 	})
 
 	slot4 = findTF(slot1, "main")

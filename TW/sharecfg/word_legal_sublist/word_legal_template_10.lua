@@ -4,6 +4,27 @@ slot0.word_legal_template_10 = {}
 slot1 = slot0.word_legal_template_10
 
 temp = function()
+	uv0["蒼"] = {
+		["龍"] = {
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["翔"] = {
 		["鶴"] = {
 			this = true
@@ -678,21 +699,6 @@ temp = function()
 							}
 						}
 					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["太"] = {
-		["原"] = {
-			this = true,
-			["."] = {
-				["改"] = {
-					this = true
 				}
 			}
 		}

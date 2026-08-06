@@ -477,6 +477,16 @@ end
 temp()
 
 temp = function()
+	uv0["壯"] = {
+		["麗"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["倫"] = {
 		["敦"] = {
 			this = true,
@@ -514,18 +524,6 @@ temp = function()
 	uv0["肯"] = {
 		["特"] = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["諾"] = {
-		["福"] = {
-			["克"] = {
-				this = true
-			}
 		}
 	}
 end

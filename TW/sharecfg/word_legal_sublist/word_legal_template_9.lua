@@ -4,6 +4,16 @@ slot0.word_legal_template_9 = {}
 slot1 = slot0.word_legal_template_9
 
 temp = function()
+	uv0["妙"] = {
+		["高"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["足"] = {
 		["柄"] = {
 			this = true
@@ -408,27 +418,6 @@ temp = function()
 					["兵"] = {
 						["裝"] = {
 							[")"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["蒼"] = {
-		["龍"] = {
-			this = true,
-			["·"] = {
-				M = {
-					E = {
-						T = {
-							A = {
 								this = true
 							}
 						}

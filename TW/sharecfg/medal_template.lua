@@ -131,7 +131,8 @@ pg.medal_template.all = {
 	200151,
 	200161,
 	200171,
-	200181
+	200181,
+	200191
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2962,6 +2963,27 @@ end)()
 		rank = 1,
 		id = 200181,
 		explain1 = "「美夢巡演奇妙夜」",
+		explain2 = "活動紀念"
+	}
+	pg.base.medal_template[200191] = {
+		target_id = "51078",
+		name = "怪談紀實紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "燈光未熄，鐵門緊鎖，廢棄病院的深處藏著無人知曉的秘密。在怪談與線索交錯之間，找出通往出口的方向吧！\n——歡迎來到白夜山莊~",
+		next = 0,
+		icon = "9191",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9191",
+		condition = "收集8個「怪談紀實：逃離白夜山莊！」紀念貼紙。",
+		rank = 1,
+		id = 200191,
+		explain1 = "「怪談紀實：逃離白夜山莊！」",
 		explain2 = "活動紀念"
 	}
 end)()

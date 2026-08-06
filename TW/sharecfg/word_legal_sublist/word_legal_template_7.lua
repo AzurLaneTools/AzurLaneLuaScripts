@@ -4,6 +4,19 @@ slot0.word_legal_template_7 = {}
 slot1 = slot0.word_legal_template_7
 
 temp = function()
+	uv0["綾"] = {
+		["波"] = {
+			this = true
+		},
+		["瀨"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["曉"] = {
 		this = {
 			this = true
@@ -433,16 +446,6 @@ temp()
 
 temp = function()
 	uv0["磯"] = {
-		["風"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["濱"] = {
 		["風"] = {
 			this = true
 		}

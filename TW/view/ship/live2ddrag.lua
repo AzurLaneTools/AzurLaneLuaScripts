@@ -88,6 +88,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._active = false
 	slot0._parameterCom = nil
 	slot0.parameterValue = slot0.startValue
+	slot0.parameterStartValue = slot0.startValue
 	slot0.parameterTargetValue = slot0.startValue
 	slot0.parameterSmooth = 0
 	slot0.parameterSmoothTime = slot0.smooth
@@ -347,6 +348,14 @@ slot0.updatePartsParameter = function(slot0)
 					print("吸附数值" .. slot1[slot6])
 				end
 
+				if slot0.offsetDragTargetX then
+					slot0.offsetDragTargetX = slot1[slot6]
+				end
+
+				if slot0.offsetDragTargetY then
+					slot0.offsetDragTargetY = slot1[slot6]
+				end
+
 				slot0:setTargetValue(slot1[slot6])
 			end
 		end
@@ -562,6 +571,8 @@ slot0.getCommonNoticeData = function(slot0)
 end
 
 slot0.setTargetValue = function(slot0, slot1)
+	slot0.parameterSmooth = 0
+	slot0.parameterStartValue = slot0.parameterTargetValue
 	slot0.parameterTargetValue = slot1
 end
 
@@ -810,8 +821,7 @@ slot0.updateParameterValue = function(slot0)
 		if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.05 then
 			slot0:setParameterValue(slot0.parameterTargetValue)
 		elseif slot0.parameterSmoothTime and slot0.parameterSmoothTime > 0 then
-			slot1 = slot0.parameterValue
-			slot3, slot4 = Mathf.SmoothDamp(slot1, slot0:checkUpdateParameterNum(slot0.parameterTargetValue, slot1), slot0.parameterSmooth, slot0.parameterSmoothTime)
+			slot3, slot4 = Live2DExtend.CustomSmoothValue(slot0.parameterStartValue, slot0:checkUpdateParameterNum(slot0.parameterTargetValue, slot0.parameterValue), slot0.parameterSmoothTime, slot0.parameterSmooth, Time.fixedDeltaTime)
 
 			slot0:setParameterValue(slot3, slot4)
 		else

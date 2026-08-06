@@ -1045883,6 +1045883,1152 @@ _G.pg.base.expedition_data_template[2044302] = {
 }
 
 
+_G.pg.base.expedition_data_template[2049101] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 169,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049101,
+	level = 20,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049101,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200821,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54012,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049201] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 286,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049201,
+	level = 50,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049201,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200822,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049202] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 286,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049202,
+	level = 50,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049202,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200822,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049301] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 470,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049301,
+	level = 100,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049301,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200823,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049302] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 470,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049302,
+	level = 100,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049302,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200823,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049303] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 470,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049303,
+	level = 100,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049303,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200823,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049401] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 500,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049401,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049401,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200824,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049402] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 500,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049402,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049402,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200824,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049403] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 500,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049403,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049403,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200824,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049404] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 500,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049404,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049404,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200824,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049501] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049501,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049501,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049502] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049502,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049502,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049503] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049503,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049503,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049504] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049504,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049504,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049505] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049505,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049505,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049601] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 300,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049601,
+	level = 120,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049601,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2049602] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 300,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2049602,
+	level = 120,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2049602,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-hospitalnight-mystic",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50226,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
 _G.pg.base.expedition_data_template[2049001] = {
 	name = "敵方旗艦",
 	icon = "A2",

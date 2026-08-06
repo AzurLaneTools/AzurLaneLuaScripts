@@ -84,6 +84,7 @@ pg.fleet_tech_ship_class.all = {
 	20304,
 	20305,
 	20306,
+	20307,
 	20401,
 	20402,
 	20403,
@@ -1099,6 +1100,7 @@ pg.base.fleet_tech_ship_class = {}
 		ships = {
 			20113,
 			20114,
+			20115,
 			20139
 		}
 	}
@@ -1325,7 +1327,8 @@ pg.base.fleet_tech_ship_class = {}
 		t_level_1 = 1,
 		nation = 2,
 		ships = {
-			20223
+			20223,
+			20237
 		}
 	}
 	pg.base.fleet_tech_ship_class[20210] = {
@@ -1433,6 +1436,17 @@ pg.base.fleet_tech_ship_class = {}
 		nation = 2,
 		ships = {
 			29904
+		}
+	}
+	pg.base.fleet_tech_ship_class[20307] = {
+		shiptype = 3,
+		name = "薩里級",
+		t_level = 7,
+		id = 20307,
+		t_level_1 = 59,
+		nation = 2,
+		ships = {
+			20314
 		}
 	}
 	pg.base.fleet_tech_ship_class[20401] = {
@@ -1646,6 +1660,8 @@ pg.base.fleet_tech_ship_class = {}
 			20706
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[20703] = {
 		shiptype = 7,
 		name = "皇家方舟",
@@ -1657,8 +1673,6 @@ pg.base.fleet_tech_ship_class = {}
 			20702
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[20704] = {
 		shiptype = 7,
 		name = "鷹",
@@ -2875,6 +2889,8 @@ end)()
 			40505
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[40506] = {
 		shiptype = 5,
 		name = "梅克倫堡",
@@ -2886,8 +2902,6 @@ end)()
 			49910
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[40601] = {
 		shiptype = 6,
 		name = "威悉",
@@ -4029,6 +4043,8 @@ end)()
 			80702
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[80801] = {
 		shiptype = 8,
 		name = "速科夫",
@@ -4040,8 +4056,6 @@ end)()
 			80801
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[81801] = {
 		shiptype = 18,
 		name = "布雷斯特",

@@ -29,6 +29,7 @@ pg.activity_link_button.all = {
 	108,
 	109,
 	110,
+	117,
 	122,
 	131
 }
@@ -61,7 +62,7 @@ pg.activity_link_button.get_id_list_by_name = {
 	},
 	event_core = {
 		109,
-		122
+		117
 	},
 	event_core_2 = {
 		110,
@@ -90,7 +91,8 @@ pg.activity_link_button.get_id_list_by_name = {
 	},
 	event_minigame = {
 		20,
-		108
+		108,
+		122
 	},
 	event_old_act = {
 		13
@@ -113,7 +115,7 @@ pg.base.activity_link_button = {}
 
 (function ()
 	pg.base.activity_link_button[1] = {
-		param = "5890",
+		param = "0",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -123,7 +125,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			5888
+			51033
 		}
 	}
 	pg.base.activity_link_button[2] = {
@@ -159,32 +161,34 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			50651
+			51071
 		}
 	}
 	pg.base.activity_link_button[11] = {
-		param = "0",
 		name = "event_map_sub",
+		time = "stop",
 		text_pic = "text_event_map_sub",
-		type = 0,
+		type = 2,
 		pic = "event_map_sub",
 		id = 11,
 		group_id = 3,
 		order = 1,
-		time = {
-			"default",
-			50804
+		param = {
+			"LiquorFloor"
 		}
 	}
 	pg.base.activity_link_button[12] = {
 		name = "event_sub_act",
-		time = "stop",
 		text_pic = "text_event_map_sub",
 		type = 2,
 		pic = "event_map_sub",
 		id = 12,
 		group_id = 3,
 		order = 1,
+		time = {
+			"default",
+			50434
+		},
 		param = {
 			"LiquorFloor"
 		}
@@ -479,12 +483,26 @@ pg.base.activity_link_button = {}
 			"JINNIANDECUXIAOXINGSHISHI1"
 		}
 	}
-	pg.base.activity_link_button[122] = {
-		param = "NieRAutomataCoreActivityUI",
+	pg.base.activity_link_button[117] = {
+		param = "EscapeManorCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core3",
 		type = 16,
 		pic = "event_core3",
+		id = 117,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			51073
+		}
+	}
+	pg.base.activity_link_button[122] = {
+		param = "NieRAutomataCoreActivityUI",
+		name = "event_minigame",
+		text_pic = "text_event_yumia",
+		type = 16,
+		pic = "event_minigame",
 		id = 122,
 		group_id = 1,
 		order = 1,

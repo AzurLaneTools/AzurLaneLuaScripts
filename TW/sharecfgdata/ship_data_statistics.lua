@@ -91749,6 +91749,530 @@ _G.pg.base.ship_data_statistics[201144] = {
 }
 
 
+_G.pg.base.ship_data_statistics[201151] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "格里芬",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 4,
+	ammo = 0,
+	id = 201151,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Griffin",
+	oxy_cost = 0,
+	skin_id = 201150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		279,
+		16,
+		70,
+		32,
+		0,
+		77,
+		0,
+		71,
+		78,
+		43.2,
+		46,
+		53
+	},
+	attrs_growth = {
+		7943,
+		219,
+		896,
+		696,
+		0,
+		534,
+		0,
+		1093,
+		1445,
+		0,
+		0,
+		601
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"G-Class",
+		"Griffin"
+	},
+	gift_dislike = {
+		180006,
+		180007
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[201152] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "格里芬",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 4,
+	ammo = 0,
+	id = 201152,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Griffin",
+	oxy_cost = 0,
+	skin_id = 201150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		347,
+		20,
+		87,
+		40,
+		0,
+		77,
+		0,
+		71,
+		78,
+		43.2,
+		46,
+		66
+	},
+	attrs_growth = {
+		7943,
+		219,
+		896,
+		696,
+		0,
+		534,
+		0,
+		1093,
+		1445,
+		0,
+		0,
+		601
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"G-Class",
+		"Griffin"
+	},
+	gift_dislike = {
+		180006,
+		180007
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[201153] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "格里芬",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 4,
+	ammo = 0,
+	id = 201153,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Griffin",
+	oxy_cost = 0,
+	skin_id = 201150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		483,
+		28,
+		122,
+		55,
+		0,
+		77,
+		0,
+		71,
+		78,
+		43.2,
+		46,
+		92
+	},
+	attrs_growth = {
+		7943,
+		219,
+		896,
+		696,
+		0,
+		534,
+		0,
+		1093,
+		1445,
+		0,
+		0,
+		601
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"G-Class",
+		"Griffin"
+	},
+	gift_dislike = {
+		180006,
+		180007
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[201154] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "格里芬",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 4,
+	ammo = 0,
+	id = 201154,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Griffin",
+	oxy_cost = 0,
+	skin_id = 201150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		687,
+		39,
+		174,
+		79,
+		0,
+		77,
+		0,
+		71,
+		78,
+		43.2,
+		46,
+		132
+	},
+	attrs_growth = {
+		7943,
+		219,
+		896,
+		696,
+		0,
+		534,
+		0,
+		1093,
+		1445,
+		0,
+		0,
+		601
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"G-Class",
+		"Griffin"
+	},
+	gift_dislike = {
+		180006,
+		180007
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[201391] = {
 	nationality = 2,
 	oxy_max = 0,
@@ -119527,6 +120051,542 @@ _G.pg.base.ship_data_statistics[202364] = {
 }
 
 
+_G.pg.base.ship_data_statistics[202371] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 2,
+	name = "壯麗",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 202371,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Superb",
+	oxy_cost = 0,
+	skin_id = 202370,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		669,
+		31,
+		69,
+		63,
+		0,
+		71,
+		0,
+		59,
+		29,
+		32,
+		60,
+		36
+	},
+	attrs_growth = {
+		17138,
+		426,
+		886,
+		1337,
+		0,
+		492,
+		0,
+		869,
+		672,
+		0,
+		0,
+		427
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		211
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.45,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Swiftsure-Class",
+		"Superb"
+	},
+	gift_dislike = {
+		180007,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[202372] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 2,
+	name = "壯麗",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 202372,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Superb",
+	oxy_cost = 0,
+	skin_id = 202370,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		832,
+		39,
+		86,
+		79,
+		0,
+		71,
+		0,
+		59,
+		29,
+		32,
+		60,
+		45
+	},
+	attrs_growth = {
+		17138,
+		426,
+		886,
+		1337,
+		0,
+		492,
+		0,
+		869,
+		672,
+		0,
+		0,
+		427
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		212
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.45,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Swiftsure-Class",
+		"Superb"
+	},
+	gift_dislike = {
+		180007,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[202373] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 2,
+	name = "壯麗",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 202373,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Superb",
+	oxy_cost = 0,
+	skin_id = 202370,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1158,
+		54,
+		120,
+		110,
+		0,
+		71,
+		0,
+		59,
+		29,
+		32,
+		60,
+		63
+	},
+	attrs_growth = {
+		17138,
+		426,
+		886,
+		1337,
+		0,
+		492,
+		0,
+		869,
+		672,
+		0,
+		0,
+		427
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		213
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.55,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Swiftsure-Class",
+		"Superb"
+	},
+	gift_dislike = {
+		180007,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[202374] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 2,
+	name = "壯麗",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 202374,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Superb",
+	oxy_cost = 0,
+	skin_id = 202370,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1648,
+		77,
+		171,
+		156,
+		0,
+		71,
+		0,
+		59,
+		29,
+		32,
+		60,
+		89
+	},
+	attrs_growth = {
+		17138,
+		426,
+		886,
+		1337,
+		0,
+		492,
+		0,
+		869,
+		672,
+		0,
+		0,
+		427
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		214
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		1.55,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Swiftsure-Class",
+		"Superb"
+	},
+	gift_dislike = {
+		180007,
+		180009
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[203011] = {
 	nationality = 2,
 	oxy_max = 0,
@@ -125603,6 +126663,538 @@ _G.pg.base.ship_data_statistics[203134] = {
 	gift_dislike = {
 		180002,
 		180003
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[203141] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 3,
+	name = "薩里",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 203141,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Surrey",
+	oxy_cost = 0,
+	skin_id = 203140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		642,
+		47,
+		30,
+		71,
+		0,
+		57,
+		0,
+		43,
+		9,
+		24,
+		70,
+		0
+	},
+	attrs_growth = {
+		18292,
+		643,
+		417,
+		1472,
+		0,
+		400,
+		0,
+		672,
+		493,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		311
+	},
+	default_equip_list = {
+		102,
+		107,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.1,
+		1.65,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Surrey-Class",
+		"Surrey"
+	},
+	gift_dislike = {
+		180002,
+		180004
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[203142] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 3,
+	name = "薩里",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 203142,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Surrey",
+	oxy_cost = 0,
+	skin_id = 203140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		799,
+		59,
+		37,
+		88,
+		0,
+		57,
+		0,
+		43,
+		9,
+		24,
+		70,
+		0
+	},
+	attrs_growth = {
+		18292,
+		643,
+		417,
+		1472,
+		0,
+		400,
+		0,
+		672,
+		493,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		312
+	},
+	default_equip_list = {
+		102,
+		107,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.1,
+		1.65,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Surrey-Class",
+		"Surrey"
+	},
+	gift_dislike = {
+		180002,
+		180004
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[203143] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 3,
+	name = "薩里",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 203143,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Surrey",
+	oxy_cost = 0,
+	skin_id = 203140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1112,
+		82,
+		52,
+		123,
+		0,
+		57,
+		0,
+		43,
+		9,
+		24,
+		70,
+		0
+	},
+	attrs_growth = {
+		18292,
+		643,
+		417,
+		1472,
+		0,
+		400,
+		0,
+		672,
+		493,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		313
+	},
+	default_equip_list = {
+		102,
+		107,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		1.1,
+		1.65,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Surrey-Class",
+		"Surrey"
+	},
+	gift_dislike = {
+		180002,
+		180004
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[203144] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 3,
+	name = "薩里",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 203144,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Surrey",
+	oxy_cost = 0,
+	skin_id = 203140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1582,
+		116,
+		75,
+		175,
+		0,
+		57,
+		0,
+		43,
+		9,
+		24,
+		70,
+		0
+	},
+	attrs_growth = {
+		18292,
+		643,
+		417,
+		1472,
+		0,
+		400,
+		0,
+		672,
+		493,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		314
+	},
+	default_equip_list = {
+		102,
+		107,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.7,
+		1.1,
+		1.65,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Surrey-Class",
+		"Surrey"
+	},
+	gift_dislike = {
+		180002,
+		180004
 	}
 }
 

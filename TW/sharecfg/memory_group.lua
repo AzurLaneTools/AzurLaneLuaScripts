@@ -261,6 +261,7 @@ pg.memory_group.all = {
 	366,
 	367,
 	368,
+	371,
 	369,
 	370,
 	373,
@@ -6919,6 +6920,31 @@ end)()
 			5221
 		}
 	}
+	pg.base.memory_group[371] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51071,
+		title = "怪談紀實：逃離白夜山莊！",
+		auto_unlock = "",
+		subtype = 2,
+		id = 371,
+		group_id = "",
+		memories = {
+			5271,
+			5272,
+			5273,
+			5274,
+			5275,
+			5276,
+			5277,
+			5278,
+			5279,
+			5280,
+			5281,
+			5282
+		}
+	}
 	pg.base.memory_group[369] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -7840,6 +7866,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[542] = {
 		ship_group = 40305,
 		icon = "title_chara_sipei",
@@ -7862,8 +7890,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[543] = {
 		ship_group = 20505,
 		icon = "title_chara_qiaozhiwushi",

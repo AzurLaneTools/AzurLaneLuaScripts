@@ -679,9 +679,17 @@ pg.activity_ins_ship_group_template.all = {
 	60505,
 	10114,
 	10143,
+	20237,
+	20314,
+	20115,
 	71379,
 	71380,
-	70569
+	70569,
+	20301,
+	40405,
+	10146,
+	10142,
+	20307
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -899,7 +907,7 @@ pg.base.activity_ins_ship_group_template = {}
 		name = "forMaster_Sirius",
 		background = "",
 		sculpture = "tianlangxing_5",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1394,7 +1402,7 @@ pg.base.activity_ins_ship_group_template = {}
 		name = "Javelin☆",
 		background = "",
 		sculpture = "biaoqiang",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1810,7 +1818,7 @@ end)()
 		name = "Hermione",
 		background = "",
 		sculpture = "hemin_5",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -1909,7 +1917,7 @@ end)()
 		name = "White Princess",
 		background = "",
 		sculpture = "heitaizi",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -2233,7 +2241,7 @@ end)()
 		name = "Vampire ",
 		background = "",
 		sculpture = "xixuegui",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -3315,7 +3323,7 @@ end)()
 		name = "Abercrombie",
 		background = "",
 		sculpture = "abeikelongbi_4",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -3875,7 +3883,7 @@ end)()
 		name = "Grenville",
 		background = "",
 		sculpture = "gelunweier",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4127,7 +4135,7 @@ end)()
 		name = "Janus",
 		background = "",
 		sculpture = "yanusi_7",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4145,7 +4153,7 @@ end)()
 		name = "Manchester",
 		background = "",
 		sculpture = "manchesite_3",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -5679,7 +5687,7 @@ end)()
 		name = "Achilles",
 		background = "",
 		sculpture = "ajilisi",
-		nationality = 0,
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -6783,6 +6791,33 @@ end)()
 		type = 1,
 		sculpture_ii = ""
 	}
+	pg.base.activity_ins_ship_group_template[20237] = {
+		ship_group = 20237,
+		name = "Superb",
+		background = "",
+		sculpture = "huali",
+		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[20314] = {
+		ship_group = 20314,
+		name = "Surrey",
+		background = "",
+		sculpture = "sali",
+		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[20115] = {
+		ship_group = 20115,
+		name = "Griffin",
+		background = "",
+		sculpture = "gelifen",
+		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
 	pg.base.activity_ins_ship_group_template[71379] = {
 		ship_group = 71379,
 		name = "A2",
@@ -6807,6 +6842,51 @@ end)()
 		background = "",
 		sculpture = "tangsi",
 		nationality = 7,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[20301] = {
+		ship_group = 20301,
+		name = "London",
+		background = "",
+		sculpture = "lundun",
+		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[40405] = {
+		ship_group = 40405,
+		name = "Brünhilde",
+		background = "",
+		sculpture = "bulunxierde",
+		nationality = 4,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10146] = {
+		ship_group = 10146,
+		name = "Stephen Potter",
+		background = "",
+		sculpture = "shidifenbote",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10142] = {
+		ship_group = 10142,
+		name = "Smalley",
+		background = "",
+		sculpture = "simoli",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[20307] = {
+		ship_group = 20307,
+		name = "York",
+		background = "",
+		sculpture = "yueke",
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}

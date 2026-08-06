@@ -152,7 +152,15 @@ pg.activity_medal_template.all = {
 	5065905,
 	5065906,
 	5065907,
-	5065908
+	5065908,
+	5107801,
+	5107802,
+	5107803,
+	5107804,
+	5107805,
+	5107806,
+	5107807,
+	5107808
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -342,6 +350,16 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5065906,
 		5065907,
 		5065908
+	},
+	[51078] = {
+		5107801,
+		5107802,
+		5107803,
+		5107804,
+		5107805,
+		5107806,
+		5107807,
+		5107808
 	}
 }
 pg.base = pg.base or {}
@@ -2149,5 +2167,101 @@ end)()
 		activity_medal_name = "紀念貼紙：驚喜入場券",
 		id = 5065908,
 		medal_asset = "ActivityMedal/5065908"
+	}
+	pg.base.activity_medal_template[5107801] = {
+		activity_medal_desc = "劃時代恐怖怪談之地！超刺激！超可怕！",
+		next_medal = 0,
+		item = 66053,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "1",
+		task_id = 21989,
+		activity_medal_name = "紀念貼紙：白夜山莊",
+		id = 5107801,
+		medal_asset = "ActivityMedal/5107801"
+	}
+	pg.base.activity_medal_template[5107802] = {
+		activity_medal_desc = "今天要查的房號是多少啾……？",
+		next_medal = 0,
+		item = 66054,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "2",
+		task_id = 21990,
+		activity_medal_name = "紀念貼紙：夜巡啾",
+		id = 5107802,
+		medal_asset = "ActivityMedal/5107802"
+	}
+	pg.base.activity_medal_template[5107803] = {
+		activity_medal_desc = "請嚴格遵守以下規則……",
+		next_medal = 0,
+		item = 66055,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "3",
+		task_id = 21991,
+		activity_medal_name = "紀念貼紙：怪談筆記",
+		id = 5107803,
+		medal_asset = "ActivityMedal/5107803"
+	}
+	pg.base.activity_medal_template[5107804] = {
+		activity_medal_desc = "病院常見工具……嗎？",
+		next_medal = 0,
+		item = 66056,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "4",
+		task_id = 21992,
+		activity_medal_name = "紀念貼紙：醫用長斧",
+		id = 5107804,
+		medal_asset = "ActivityMedal/5107804"
+	}
+	pg.base.activity_medal_template[5107805] = {
+		activity_medal_desc = "一瓶續命，一瓶壯膽~",
+		next_medal = 0,
+		item = 66057,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "5",
+		task_id = 21993,
+		activity_medal_name = "紀念貼紙：雙倍補給",
+		id = 5107805,
+		medal_asset = "ActivityMedal/5107805"
+	}
+	pg.base.activity_medal_template[5107806] = {
+		activity_medal_desc = "小心！它們來了！",
+		next_medal = 0,
+		item = 66058,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "6",
+		task_id = 21994,
+		activity_medal_name = "紀念貼紙：心跳感應",
+		id = 5107806,
+		medal_asset = "ActivityMedal/5107806"
+	}
+	pg.base.activity_medal_template[5107807] = {
+		activity_medal_desc = "來，張嘴，啊——",
+		next_medal = 0,
+		item = 66059,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "7",
+		task_id = 21995,
+		activity_medal_name = "紀念貼紙：口腔診療燈",
+		id = 5107807,
+		medal_asset = "ActivityMedal/5107807"
+	}
+	pg.base.activity_medal_template[5107808] = {
+		activity_medal_desc = "距感染者出現還有10、9……",
+		next_medal = 0,
+		item = 66060,
+		remake_task_id = 0,
+		group = 51078,
+		prefab_node = "8",
+		task_id = 21996,
+		activity_medal_name = "紀念貼紙：封鎖病區",
+		id = 5107808,
+		medal_asset = "ActivityMedal/5107808"
 	}
 end)()

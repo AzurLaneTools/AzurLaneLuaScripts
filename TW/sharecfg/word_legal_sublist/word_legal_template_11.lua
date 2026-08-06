@@ -4,6 +4,21 @@ slot0.word_legal_template_11 = {}
 slot1 = slot0.word_legal_template_11
 
 temp = function()
+	uv0["太"] = {
+		["原"] = {
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["虎"] = {
 		["賁"] = {
 			this = true
@@ -456,16 +471,6 @@ temp()
 temp = function()
 	uv0["兇"] = {
 		["猛"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["頑"] = {
-		["皮"] = {
 			this = true
 		}
 	}

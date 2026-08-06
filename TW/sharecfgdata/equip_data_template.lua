@@ -264665,7 +264665,7 @@ _G.pg.base.equip_data_template[85411] = {
 
 
 _G.pg.base.equip_data_template[85420] = {
-	important = 2,
+	important = 1,
 	destory_gold = 9,
 	type = 4,
 	group = 85420,
