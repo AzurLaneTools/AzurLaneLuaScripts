@@ -317,7 +317,7 @@ return {
 			portrait = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "餵——全體工作人員立刻前往服裝間換裝，準備上場！大結局必須來點驚心動魄的追逐戰才夠刺激…",
+			say = "喂——全體工作人員立刻前往服裝間換裝，準備上場！大結局必須來點驚心動魄的追逐戰才夠刺激…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

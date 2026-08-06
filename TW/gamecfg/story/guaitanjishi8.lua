@@ -513,7 +513,7 @@ return {
 			actor = 102341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然後呀，我們就看到指揮官被壯麗院長拿走了！於是我們就跟著她一路追過來救你~",
+			say = "然後呀，我們就看到指揮官被壯麗院長带走了！於是我們就跟著她一路追過來救你~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

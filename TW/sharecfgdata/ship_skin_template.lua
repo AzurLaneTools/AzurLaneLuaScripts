@@ -307938,11 +307938,11 @@ _G.pg.base.ship_skin_template[900546] = {
 
 
 _G.pg.base.ship_skin_template[900547] = {
-	name = "萨里",
+	name = "薩里",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
-	desc = "无描述",
+	desc = "無描述",
 	group_index = 0,
 	purchase_offset = "",
 	painting = "npcsali_2",

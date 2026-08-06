@@ -580,7 +580,7 @@ return {
 			bgName = "star_level_bg_136",
 			side = 2,
 			withoutActorName = true,
-			say = "我推門進去，果然看到了手忙腳亂的葛里芬。",
+			say = "我推門進去，果然看到了手忙腳亂的格里芬。",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
