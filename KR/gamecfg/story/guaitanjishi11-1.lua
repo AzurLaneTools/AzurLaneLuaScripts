@@ -12,7 +12,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"怪谈纪实：逃离白夜山庄！\n\n<size=45>飞越白夜</size>",
+					"괴담 실록: 백야 빌라에서 탈출하라!\n\n<size=45>백야를 넘어</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "theme-hospitalnight-mystic",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "十分钟前——",
+			say = "10분 전――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 				}
 			},
 			location = {
-				"白夜山庄·地下室",
+				"백야 빌라, 지하실",
 				3
 			}
 		},
@@ -46,12 +46,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么……出口后面会是一堵墙？",
+			say = "왜…… 출구 뒤편이 벽인 걸까요……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 102341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇……这不是等于又白忙一场嘛！到底怎么才能逃出去啊……",
+			say = "으아아…… 또 허탕 친 거지, 뭐겠어! 어떻게 해야 나갈 수 있는 거지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不，还有逃出去的方法。",
+			say = "――아니, 아직 길은 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而且不止一条，准确地说——是无数条。",
+			say = "――게다가 하나뿐만이 아니야…… 무수히 많지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,12 +101,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官大人，您的意思是……？",
+			say = "지휘관님……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "既然游戏中所有的逃脱路线都走不通……",
+			say = "――준비된 탈출 경로를 전부 쓸 수 없다면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那我们就开动想象力，创造全新的、未曾设想的逃脱路线。",
+			say = "――상상력을 발휘해서, 아무도 생각지 못한 완전히 새로운 탈출 경로를 만들면 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "凡是能离开这里的方式，都可以成为新的出口。",
+			say = "――여기서 나갈 수만 있다면, 그게 바로 「탈출 경로」인 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而我想到的，被困时最直接的逃跑方案就是——联系外界，等待救援。",
+			say = "――지금 떠오른 건데, 갇혔을 때 가장 확실한 해결 방법은 외부와 연락을 취해서 구조를 기다리는 거 아니겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,14 +171,14 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以，我用这台对讲机……拨通了一个“外界”的频道。",
+			say = "――이 무전기로…… 「바깥 세계」의 채널에 연락할 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "통신기",
 			side = 2,
 			bgName = "star_level_bg_583",
 			hidePaintObj = true,
@@ -193,13 +193,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "怪谈调查局局长",
+			factiontag = "괴담조사국 국장",
 			dir = 1,
-			actorName = "{namecode:498:Z13}",
+			actorName = "Z13",
 			portrait = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎致电怪谈调查局，怪谈调查局局长{namecode:498:Z13}~请问各位遇到了什么超自然困扰呢~？",
+			say = "괴담조사국의 국장 Z13이야~ 어떤 초자연 현상 때문에 곤란을 겪고 계시려나~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 102341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了！对方一听就很专业！",
+			say = "됐다! 목소리도 완전 프로 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 102341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "救命！我们被困在白夜山庄了！这里到处都是可怕的护士和怪物！请快来救我们！",
+			say = "도와줘! 백야 빌라에 갇혔는데, 무서운 간호사랑 괴물들이 득실거려! 빨리 구하러 와줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,13 +237,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "怪谈调查局局长",
+			factiontag = "괴담조사국 국장",
 			dir = 1,
-			actorName = "{namecode:498:Z13}",
+			actorName = "Z13",
 			portrait = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好的~你们的求助，本局已经正式受理~",
+			say = "오케이~ 구조 요청, 정식으로 접수했어~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "如果是调查局的话，应该可以派直升机来接应我们吧？",
+			say = "――조사국이라면 헬리콥터를 띄워서 데리러 와줄 수 있겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,13 +266,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "怪谈调查局局长",
+			factiontag = "괴담조사국 국장",
 			dir = 1,
-			actorName = "{namecode:498:Z13}",
+			actorName = "Z13",
 			portrait = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "直升机……？那、那当然！像这种紧急事件，出动直升机也是最基本的配置~",
+			say = "헬리콥터……? 그, 그야 당연하지! 긴급 사태에 헬기를 띄우는 게 기본적인 해결책이니까!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,13 +282,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "怪谈调查局局长",
+			factiontag = "괴담조사국 국장",
 			dir = 1,
-			actorName = "{namecode:498:Z13}",
+			actorName = "Z13",
 			portrait = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请各位立刻前往隔壁住院大楼的楼顶天台，我们在那里接应你们！",
+			say = "어서 옆에 있는 입원동 옥상으로 이동해! 거기서 만나!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "了解，我们会立刻开始转移。",
+			say = "――알겠어. 지금 바로 이동을 개시할게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,13 +311,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "怪谈调查局局长",
+			factiontag = "괴담조사국 국장",
 			dir = 1,
-			actorName = "{namecode:498:Z13}",
+			actorName = "Z13",
 			portrait = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂——全体工作人员立刻前往服装间换装，准备上场！大结局必须要来点惊心动魄的追逐战才够刺激……",
+			say = "좋아! 스태프 전원! 지금 바로 의상실로 가서 옷 갈아입고 대기할 것! 엔딩 직전에는 짜릿한 추격전이 필요하니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,15 +327,15 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "场务",
+			factiontag = "현장 스탭",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			fontsize = 24,
 			portrait = 201150,
-			actorName = "格里芬",
+			actorName = "그리핀",
 			hidePaintObj = true,
-			say = "嘘！通讯还没挂断呢！",
+			say = "잠깐만! 아직 통신이 연결된 상태라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,13 +345,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "怪谈调查局局长",
+			factiontag = "괴담조사국 국장",
 			dir = 1,
-			actorName = "{namecode:498:Z13}",
+			actorName = "Z13",
 			portrait = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊？啊啊！对、对哦——嘟……嘟……嘟……",
+			say = "으아? 아! 그, 그랬지………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

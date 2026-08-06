@@ -12,7 +12,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"怪谈纪实：逃离白夜山庄！\n\n<size=45>后日谈</size>",
+					"괴담 실록: 백야 빌라에서 탈출하라!\n\n<size=45>12 에필로그</size>",
 					1
 				}
 			}
@@ -20,14 +20,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			bgName = "star_level_bg_308",
 			bgm = "story-hospital-light",
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可恶啊！！！",
+			say = "이러는 게 어딨어!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,12 +46,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我精心准备的“超超超终极恐怖怪谈”，不仅有超炫酷的声光电机关，还运用了虚拟现实技术，甚至加入了室内大型跳楼机……",
+			say = "음향, 조명, 소품 모두 최고로 준비하고, 연출 VR 기술을 아낌없이 활용한데다, 실내형 거대 자이로드롭 머신까지 준비한 「초초초극상, 괴담 호러」인데…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,12 +61,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "结果你们居然完全没有体验到！太可惜了吧！",
+			say = "이걸 그냥 건너뛰다니, 진짜 너무한 거 아니야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,12 +76,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
 			actor = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀~不管怎么说，大家最后成功通关了，这不就是最好的结果嘛~",
+			say = "이러니저러니 해도 결국엔 클리어했으니까 결과적으로는 대성공이잖아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "的确，整场体验下来，我感觉还挺有意思的。",
+			say = "――확실히…… 전체적으로 꽤 재미있었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,12 +104,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~由我这样匠心独蕴、审美超凡的怪谈专家亲手打磨的逃生游戏，当然是完美之作~",
+			say = "흥, 나처럼 뚝심도 있고 센스도 탁월한 괴담 전문가가 완성해 낸 탈출 게임이니까, 완벽한 게 당연하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 102340,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯嗯，我印象最深的就是鲨鱼突然冲出来的时候！真的把我吓了一大跳！",
+			say = "맞아! 가장 인상 깊었던 건 상어가 갑자기 튀어나왔던 거야! 진짜 깜짝 놀랐어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，后面僵尸和宇宙人的追逐战也完全超出了预料……",
+			say = "마, 맞아요…… 후반부의 좀비나 외계인과의 추격전도 완전히 예상 밖이라……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,12 +147,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……哈？鲨鱼？僵尸？宇宙人……？",
+			say = "……응? 상어? 좀비? 외계인……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,12 +162,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我什么时候往剧本里加过这些东西？你们玩的真的是我的《白夜山庄》吗？",
+			say = "그런 게 각본에 있던가? 다들 참여한 거, 진짜 내 『백야 빌라』 맞아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
 			actor = 401130,
 			nameColor = "#A9F548FF",
@@ -192,7 +192,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "场务",
+			factiontag = "현장 스탭",
 			dir = 1,
 			actor = 501090,
 			nameColor = "#A9F548FF",
@@ -207,7 +207,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "技术总监",
+			factiontag = "기술감독",
 			dir = 1,
 			actor = 102330,
 			nameColor = "#A9F548FF",
@@ -222,12 +222,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……这些听起来也挺有意思的嘛~",
+			say = "으음, 그래도…… 꽤 재밌을 것 같은데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,12 +236,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我有灵感了……！这些要素，我要全部加到续作《白夜邮轮》里！",
+			say = "좋은 생각이 떠올랐어……! 방금 나온 것들 모두 속편인 『백야 크루즈』에 집어넣어 주겠어! 키히히히♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,12 +251,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光是这些似乎还不够……再把山妖、水怪、巨型恐龙什么的全部加上吧~",
+			say = "이것만으론 부족하려나…… 산신령이나 물귀신, 거대 공룡 같은 것도 전부 한데 묶어서 넣어버려야지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还有续作？",
+			say = "――속편까지 만들려고?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,12 +278,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "技术总监",
+			factiontag = "기술감독",
 			dir = 1,
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，因为指挥官你主演的付费纪录片《怪谈纪实：逃离白夜山庄！》在港区预售的时候就已经爆火，我们赚得盆满钵满。",
+			say = "지휘관이 주인공인 『괴담실록: 백야 빌라로부터 탈출하라!』는 예약 판매 시점부터 대호평이야. 덕분에 수익이 쏠쏠해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,12 +293,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "技术总监",
+			factiontag = "기술감독",
 			dir = 1,
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以续作的预算资金已经筹备好了。",
+			say = "그래서 일찌감치 속편 제작 예산은 확보해 뒀지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,12 +307,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "剧本也已经写好了哦~",
+			say = "실은 각본도 벌써 다 써놨거든.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,12 +322,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有了更充足的预算，续作一定会比《白夜山庄》规模更大、场面更豪华、演出更疯狂，也更恐怖！",
+			say = "예산이 늘어난 만큼 『백야 빌라』보다 규모도 더 크고, 연출도 훨씬 화려하고, 전개도 임팩트 있게! 무엇보다 훨씬 더 무섭게 만들 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,12 +337,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，到时候请务必再来光临哦~",
+			say = "키히히히♪ 지휘관, 그때는 꼭 다시 놀러 와야 해~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			},
 			sequence = {
 				{
-					"——「怪谈纪实：逃离白夜山庄！」·END",
+					"——「괴담 실록: 백야 빌라에서 탈출하라!」·END",
 					0
 				}
 			}

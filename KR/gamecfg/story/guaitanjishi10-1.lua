@@ -12,7 +12,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"怪谈纪实：逃离白夜山庄！\n\n<size=45>此路不通</size>",
+					"괴담 실록: 백야 빌라에서 탈출하라!\n\n<size=45>10 통행금지</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "theme-hospitalnight-mystic",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然花费了不少时间……但最后，我终于从心满意足的冈依沙瓦口中套出了地下室入口的位置，于是再度召集众人。",
+			say = "시간은 좀 걸렸지만…… 만족한 건스웨이로부터 어떻게든 지하실 입구 위치를 알아내어 동료들을 다시 불러 모았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 				}
 			},
 			location = {
-				"白夜山庄·地下室",
+				"백야 빌라, 지하실",
 				3
 			}
 		},
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_583",
 			hidePaintObj = true,
-			say = "沿着老旧的隐藏楼梯一路向下，我们很快便抵达了白夜山庄最深处的地下区域。",
+			say = "낡은 비밀 계단을 내려가, 백야 빌라의 가장 깊은 곳에 있는 지하 구역에 도달했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_583",
 			hidePaintObj = true,
-			say = "斑驳的灯光下，一扇厚重的门扉，正静静立在我们的面前。",
+			say = "조명의 얼룩덜룩한 불빛 아래에는 묵직한 해치가 고요히 자리 잡고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_583",
 			hidePaintObj = true,
-			say = "根据设计图上的标注，只要打开它，我们就能逃出这座病院。自由的曙光就在眼前……",
+			say = "평면도의 주석에 따르면, 이 문을 열면 병원에서 탈출할 수 있다고 한다. 자유를 되찾을 순간이 코앞까지 다가왔다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,12 +79,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			actor = 202371,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "……想离开这里，可没那么容易。",
+			say = "……그렇게 호락호락하게 보내드릴 순 없답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_583",
 			hidePaintObj = true,
-			say = "熟悉的声音从阴影中缓缓响起，下一刻，华丽手握寒光闪闪的手术刀与剪刀，从黑暗中现出身形，拦在了我们与出口之间。",
+			say = "그때, 귀에 익은 목소리가 들려왔다. 어둠 속에서 메스와 가위를 손에 쥔 슈퍼브가 모습을 드러내며 출구로 가는 길을 가로막아 섰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,12 +105,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			actor = 202371,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "冈依沙瓦小姐果然没能拖住您太久。",
+			say = "역시 건스웨이만으로 오래 붙잡아 둘 수는 없었나 보군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,12 +120,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			actor = 202371,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "不过没关系……既然你们主动走到了这里，倒也省得我到处找人了。",
+			say = "하지만 상관없어요…… 직접 찾아와 주신 덕분에, 번거롭게 찾아다니는 수고를 덜었으니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,12 +135,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_583",
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			actor = 202371,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "我这就把你们一并抓回手术室~",
+			say = "한꺼번에 수술실로 데려가 드리죠~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "果然，不击败最终boss，游戏就不算真正通关呢。",
+			say = "――역시 최종 보스를 쓰러뜨리지 않으면 진짜 클리어가 안 되는 건가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

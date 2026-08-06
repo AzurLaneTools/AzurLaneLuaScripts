@@ -2233,7 +2233,7 @@ pg.base.equip_skin_theme_template = {}
 	}
 	pg.base.equip_skin_theme_template[110] = {
 		id = 110,
-		name = "时代剪影",
+		name = "에픽 컷",
 		ids = {
 			2125,
 			2126,

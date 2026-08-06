@@ -66321,7 +66321,7 @@ end)()
 	}
 	pg.base.equip_skin_template[2125] = {
 		orbit_slg = "",
-		name = "复古怀表子弹",
+		name = "레트로 회중시계 포탄",
 		orbit_ui_bound = "",
 		type = 1,
 		preview_hit_distance = 30,
@@ -66339,7 +66339,7 @@ end)()
 		rarity = 4,
 		id = 2125,
 		hit_sfx = "",
-		desc = "滴答滴答，时间开始流动",
+		desc = "째깍째깍하고 시간이 흐르기 시작한다.",
 		derivate_boom = "",
 		orbit_ui = "",
 		mirror = 0,
@@ -66363,7 +66363,7 @@ end)()
 	}
 	pg.base.equip_skin_template[2126] = {
 		orbit_slg = "",
-		name = "雾之都巴士鱼雷",
+		name = "안개 도시 버스 어뢰",
 		orbit_ui_bound = "",
 		type = 1,
 		preview_hit_distance = 30,
@@ -66381,7 +66381,7 @@ end)()
 		rarity = 4,
 		id = 2126,
 		hit_sfx = "",
-		desc = "嘟嘟~雾之都站到了",
+		desc = "안개 도시역에 도착~",
 		derivate_boom = "",
 		orbit_ui = "",
 		mirror = 0,
@@ -66404,7 +66404,7 @@ end)()
 	}
 	pg.base.equip_skin_template[2127] = {
 		orbit_slg = "",
-		name = "天使街灯炮弹",
+		name = "천사 가로등 포탄",
 		orbit_ui_bound = "",
 		type = 1,
 		preview_hit_distance = 0,
@@ -66422,7 +66422,7 @@ end)()
 		rarity = 4,
 		id = 2127,
 		hit_sfx = "",
-		desc = "灯火点亮长街，夜色也亮了几分",
+		desc = "천사의 가로등이 환하게 비춘다. 거리와 밤 모두를.",
 		derivate_boom = "",
 		orbit_ui = "",
 		mirror = 0,
@@ -66446,7 +66446,7 @@ end)()
 	}
 	pg.base.equip_skin_template[2128] = {
 		orbit_slg = "",
-		name = "天际漫游",
+		name = "안개 도시 관람차",
 		type = 1,
 		preview_hit_distance = 0,
 		icon = "96852",
@@ -66461,7 +66461,7 @@ end)()
 		rarity = 4,
 		id = 2128,
 		hit_sfx = "",
-		desc = "在摩天轮的最高处，记录雾之都的全貌吧~",
+		desc = "대관람차 꼭대기에서 안개 도시의 전경을 눈에 담아 보자.",
 		derivate_boom = "",
 		orbit_ui = "shebei_faguangmotianlunui",
 		mirror = 0,

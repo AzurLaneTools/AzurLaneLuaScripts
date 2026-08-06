@@ -3597,7 +3597,7 @@ end)()
 		target_id_2 = "970213",
 		id = 100581,
 		target_num = 1,
-		desc = "使用{namecode:567}获得1次胜利"
+		desc = "뉘른베르크·META를 편성한 함대로 전투에서 1회 승리"
 	}
 	pg.base.task_meta_data_template[100582] = {
 		target_id = "30",
@@ -3605,7 +3605,7 @@ end)()
 		target_id_2 = "970213",
 		id = 100582,
 		target_num = 1,
-		desc = "使用{namecode:567}击破等级＞30的敌方1次"
+		desc = "뉘른베르크·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
 	}
 	pg.base.task_meta_data_template[100583] = {
 		target_id = "55",
@@ -3613,7 +3613,7 @@ end)()
 		target_id_2 = "970213",
 		id = 100583,
 		target_num = 1,
-		desc = "使用{namecode:567}击破等级＞55的敌方1次"
+		desc = "뉘른베르크·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
 	}
 	pg.base.task_meta_data_template[100584] = {
 		target_id = "80",
@@ -3621,7 +3621,7 @@ end)()
 		target_id_2 = "970213",
 		id = 100584,
 		target_num = 1,
-		desc = "使用{namecode:567}击破等级＞80的敌方1次"
+		desc = "뉘른베르크·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
 	}
 	pg.base.task_meta_data_template[100585] = {
 		target_id = "100",
@@ -3629,7 +3629,7 @@ end)()
 		target_id_2 = "970213",
 		id = 100585,
 		target_num = 1,
-		desc = "使用{namecode:567}击破等级＞100的敌方1次"
+		desc = "뉘른베르크·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	}
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
@@ -5177,7 +5177,7 @@ end)()
 		target_id_2 = "970213",
 		id = 200491,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:567}获得1次胜利"
+		desc = "대형작전에서 뉘른베르크·META를 포함한 함대로 1회 승리"
 	}
 	pg.base.task_meta_data_template[200492] = {
 		target_id = "70",
@@ -5185,7 +5185,7 @@ end)()
 		target_id_2 = "970213",
 		id = 200492,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:567}击破等级＞70的敌方1次"
+		desc = "대형작전에서 뉘른베르크·META를 포함한 함대로 Lv70 이상의 적 격파"
 	}
 	pg.base.task_meta_data_template[200493] = {
 		target_id = "90",
@@ -5193,7 +5193,7 @@ end)()
 		target_id_2 = "970213",
 		id = 200493,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:567}击破等级＞90的敌方1次"
+		desc = "대형작전에서 뉘른베르크·META를 포함한 함대로 Lv90 이상의 적 격파"
 	}
 	pg.base.task_meta_data_template[200494] = {
 		target_id = "100",
@@ -5201,6 +5201,6 @@ end)()
 		target_id_2 = "970213",
 		id = 200494,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:567}击破等级＞100的敌方1次"
+		desc = "대형작전에서 뉘른베르크·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 end)()

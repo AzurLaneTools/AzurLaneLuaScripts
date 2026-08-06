@@ -16030,11 +16030,11 @@ end)()
 	}
 	pg.base.pay_data_display[1029] = {
 		picture = "battlepass_1",
-		name = "특허 투어 패스(26.8)",
+		name = "특허 투어 패스(26 여름)",
 		type = 0,
 		second_text = "",
 		descrip = "구매 시 월드 투어의 투어 PT 1,500 획득 및 SP 보상 오픈",
-		subject = "특허 투어 패스(26.8)",
+		subject = "특허 투어 패스(26 여름)",
 		first_pay_double = 0,
 		gem = 0,
 		tag = 2,
@@ -16053,7 +16053,7 @@ end)()
 		extra_gem = 0,
 		id = 1029,
 		airijp_id = "com.yostarjp.azurlane.seasonpass30",
-		name_display = "특허 투어 패스(26.8)",
+		name_display = "특허 투어 패스(26 여름)",
 		first_text = "",
 		akashi_pick = 1,
 		skin_inquire_relation = 0,

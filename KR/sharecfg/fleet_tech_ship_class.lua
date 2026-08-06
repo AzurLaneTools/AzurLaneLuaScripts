@@ -4711,7 +4711,7 @@ end)()
 	}
 	pg.base.fleet_tech_ship_class[970213] = {
 		shiptype = 2,
-		name = "纽伦堡·META",
+		name = "뉘른베르크·META",
 		t_level = 3,
 		id = 970213,
 		t_level_1 = 23,

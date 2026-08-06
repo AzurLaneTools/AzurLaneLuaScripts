@@ -1774,7 +1774,7 @@ pg.base.ship_meta_breakout = {}
 		weapon_ids = {}
 	}
 	pg.base.ship_meta_breakout[9702131] = {
-		breakout_view = "习得技能【逐光之焰·{namecode:446}】/全武器效率提高2%",
+		breakout_view = "[염추의 재·뉘른베르크] 습득 / 무기 보정 +2%",
 		item2 = 21060,
 		pre_id = 0,
 		repair = 0,
@@ -1790,7 +1790,7 @@ pg.base.ship_meta_breakout = {}
 		}
 	}
 	pg.base.ship_meta_breakout[9702132] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/全武器效率提高3%",
+		breakout_view = "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 무기 보정 +3%",
 		item2 = 21060,
 		pre_id = 9702131,
 		repair = 0,
@@ -1807,7 +1807,7 @@ pg.base.ship_meta_breakout = {}
 		}
 	}
 	pg.base.ship_meta_breakout[9702133] = {
-		breakout_view = "【逐光之焰·{namecode:446}】升级/全武器效率提高5%",
+		breakout_view = "[염추의 재·뉘른베르크] 강화 / 무기 보정 +5%",
 		item2 = 21060,
 		pre_id = 9702132,
 		repair = 0,
@@ -1823,7 +1823,7 @@ pg.base.ship_meta_breakout = {}
 		}
 	}
 	pg.base.ship_meta_breakout[9702134] = {
-		breakout_view = "无",
+		breakout_view = "없음",
 		item2 = 21060,
 		pre_id = 9702133,
 		repair = 0,

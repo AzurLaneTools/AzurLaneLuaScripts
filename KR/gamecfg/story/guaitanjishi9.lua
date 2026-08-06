@@ -12,7 +12,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"怪谈纪实：逃离白夜山庄！\n\n<size=45>真实之欲</size>",
+					"괴담 실록: 백야 빌라에서 탈출하라!\n\n<size=45>9 진실에 대한 욕망</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgm = "theme-hospitalnight-mystic",
 			bgName = "star_level_bg_670",
-			say = "根据设计图，废弃管道的入口位于放射科正下方，但图上却并未标明通往地下的入口。",
+			say = "평면도에 따르면 덕트 입구는 방사선과 바로 아래에 있지만, 지하로 통하는 입구는 도면에 표시되어 있지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 				}
 			},
 			location = {
-				"白夜山庄·放射科",
+				"백야 빌라, 방사선과",
 				3
 			}
 		},
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_670",
-			say = "无奈之下，我们只好先前往放射科，再分头展开搜索。",
+			say = "하는 수 없이 우선 방사선과로 이동한 뒤, 그곳에서 팀을 나누어 찾아보기로 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = "home",
-			say = "与同伴们分开后，我推开唯一亮着的病房房门，消毒水的气味混着目光若有若无的香料气息扑面而来。",
+			say = "동료들과 헤어진 후, 유일하게 불이 켜진 병실 문을 열어보았더니 희미한 향신료 향이 섞인 소독약 냄새가 풍겨왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,12 +70,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "唔……这个角度果然还是有点看不清楚呢……",
+			say = "으음…… 역시 이 각도에서는 조금 보기가 힘드네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "明亮的灯光下，抱着一台仪器的冈依沙瓦号抬头看向了我这位不速之客。",
+			say = "환한 조명 아래에서 기기를 품에 안은 건스웨이가 고개를 들고 내쪽을 바라보았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,12 +99,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呀~这是终于来了一位能治病的医生吗？",
+			say = "어머? 이제야 제대로 된 의사 선생님이 와 주신 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,12 +114,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不对……你的身上散发着与我相同的、熟悉的气息呢……",
+			say = "으음…… 너한테서는 나와 닮은, 무언가 그리운 느낌이 나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,12 +129,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "与我同病相怜的人啊……你来这里是为了做什么呢？",
+			say = "나와 같은 처지의 사람…… 여기에 무슨 일로 온 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "眼下的情境虽然有些古怪，但少女的姿态很放松，看起来并没有攻击意图……",
+			say = "다소 기묘한 상황이었지만 건스웨이는 편안한 기색이었고, 적의는 전혀 느껴지지 않았다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我正在寻找一个通往地下室的入口，据说就在这附近。",
+			say = "――지하로 이어지는 입구를 찾고 있어. 이 근처에 있다고 들었는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,12 +174,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯~如果没猜错的话，我大概知道你要找的入口在哪哦~",
+			say = "아~ 내 추측이 맞다면, 그 입구가 어디 있는지 알고 있을지도 몰라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,12 +189,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过，凡事皆有代价！能让我知道，你愿意为此付出什么吗~",
+			say = "하지만 말이야, 세상 모든 일에는 대가가 따르는 법이잖아? 알고 싶다면 그 대가로 나한테 뭘 해줄 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "你想要什么？",
+			say = "――원하는 게 뭔데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,12 +219,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "哎呀，不用心急……你看到我怀中的这台仪器了吗？",
+			say = "뭐, 서두르지 마…… 내가 안고 있는 이거 보여?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "话语间，她轻轻敲了敲这台仪器的屏幕。屏幕上方的领口随之微微松开，露出白皙的锁骨。",
+			say = "건스웨이는 기기 화면을 톡톡 건드렸고―― 그 반동으로 목덜미의 깃이 느슨해지며 하얀 쇄골이 살짝 드러났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,12 +248,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这台仪器似乎能映照出真实的我……可我研究了好久，却也没发现它的特别之处？",
+			say = "이 기기는 말이야, 진짜 내 모습을 비춰준다고 하거든…… 그런데 아무리 봐도 특별한 구석이 전혀 보이지 않는단 말이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,12 +263,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "如果你愿意协助我探究一下这台仪器，帮我搞清楚我身体的异状的话……",
+			say = "만약 나와 함께 이 기기를 조사해서 내 몸의 이상을 밝혀내는 걸 도와주면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,12 +277,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我就会告诉你入口的正确位置哦！",
+			say = "입구가 있는 곳을 가르쳐 줄게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,12 +292,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "怎么样，是不是很划算~？",
+			say = "어때? 괜찮은 거래지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的声音中带着一丝撒娇的意味，见我答应后，她笑着拍了拍自己身边的空位。",
+			say = "달콤하게 속삭이는 듯한 목소리에 고개를 끄덕이자, 건스웨이는 싱긋 웃으며 자기 옆의 빈자리를 툭툭 쳤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "然而我刚坐下，她便立刻抱着仪器贴了上来。柔软的发丝轻轻蹭过我的下巴，让人有些心痒。",
+			say = "그곳에 자리를 잡고 앉자마자 그녀는 기기를 안은 채 내 몸에 바짝 밀착해 왔다. 부드러운 머리카락이 어깨를 부드럽게 스쳤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,12 +337,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "怎么样？这样应该能更方便地查看仪器……以及我的状况了对吧？",
+			say = "어때? 이러는 편이 기기도…… 내 상태도 훨씬 잘 보이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,12 +352,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……咦？屏幕上图案似乎真的变了呢？",
+			say = "……어머? 정말로 화면이 바뀌었네?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,12 +366,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这可是见到你之后才发生的变化……原因好像不难猜呢~",
+			say = "널 만나고서야 생긴 변화…… 그 이유는 굳이 말 안 해도 알 것 같네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的吐息拂过我的耳垂，不知为何并没有酒精的味道，反而是带着淡淡的香料气息。",
+			say = "귓가를 스치는 숨결이 코끝을 자극한다. 신기하게도 그 숨결에서는 은은한 향신료의 향기가 감돌고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我不由自主地屏住了呼吸，感受着她的体温从肌肤接触的位置传来——不知何时，她已经握住了我的手。",
+			say = "곁에 달라붙어 있는 건스웨이의 체온이 전해져 오는가 싶더니, 어느덧 내 손은 그녀의 손에 꽉 쥐여 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,12 +409,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "既然已经找到了问题的根源，那么接下来……就请指挥官为我继续深度检查一下吧~",
+			say = "원인도 알았으니 다음엔…… 지휘관한테 좀 더 자세히 진찰을 받아볼까~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,12 +424,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "想距离更近，看得更清楚些吗？好呀，那就把这个碍事的仪器拿开吧？",
+			say = "좀 더 가까이서 보고 싶지 않아? 이 방해되는 기기는 치워둘까~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她轻笑着将怀中的仪器推至一旁，随后伸手轻点在了我的衣扣上。",
+			say = "건스웨이가 쿡쿡 웃으며 안고 있던 기기를 옆으로 밀쳐두더니, 손을 뻗어 내 옷 단추에 지긋이 손가락을 얹었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,12 +453,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "既然是深度检查，那距离还是越近越好对吧？",
+			say = "자세히 진찰하려면 가까운 편이 좋잖아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,12 +467,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "更何况……你已经通过那台仪器看透了我内心深处的秘密，那么接下来，就该轮到我了吧？",
+			say = "게다가…… 아까 그 기기 때문에 내 마음속 비밀을 들켜버렸으니, 나도 네 속을 들여다봐야 공평하지♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我之前没同意过要做这件事吧？",
+			say = "――그런 것까지 해주겠다고 한 기억은 없는데…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,12 +497,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "欸，是吗~那你现在答应我也不算迟哦~",
+			say = "어머, 그래? 그럼 지금 약속하면 되지, 뭐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,12 +511,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "若是你真的想知道地下室入口的位置……那就试着满足我吧？",
+			say = "정말로 지하 입구 위치가 알고 싶으면…… 나를 만족시켜 봐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,27 +525,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "从外表开始……再到内心深处……我可是很期待能够了解你更多呢~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
-			dir = 1,
-			actor = 9600072,
-			nameColor = "#A9F548FF",
-			live2d = true,
-			say = "与其在地下室那种阴暗潮湿的地方浪费时间，还不如和我一起在这里好好享受这段时光~",
+			say = "겉모습부터…… 마음 속 깊은 곳까지…… 너에 대해 더 많이 알아갈 수 있다고 생각하니, 기대감으로 가슴이 터질 것 같아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,12 +540,27 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "奇怪的病人",
+			factiontag = "이상한 환자",
 			dir = 1,
 			actor = 9600072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我保证，会比你预期得有趣多了~",
+			say = "어둡고 눅눅한 지하실에서 시간을 낭비하는 것보다, 여기서 나랑 단둘이 시간을 보내는 게 훨씬 낫잖아~?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "star_level_bg_670",
+			factiontag = "이상한 환자",
+			dir = 1,
+			actor = 9600072,
+			nameColor = "#A9F548FF",
+			live2d = true,
+			say = "약속할게. 네 상상 이상으로 짜릿할 거라고♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

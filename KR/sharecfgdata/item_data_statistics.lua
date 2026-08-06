@@ -16875,9 +16875,9 @@ _G.pg.base.item_data_statistics[21062] = {
 
 _G.pg.base.item_data_statistics[21063] = {
 	open_directly = 0,
-	name = "结晶：{namecode:567}",
+	name = "결정: 뉘른베르크·META",
 	type = 4,
-	display = "{namecode:567}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	display = "뉘른베르크·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -32180,9 +32180,9 @@ _G.pg.base.item_data_statistics[30435] = {
 
 _G.pg.base.item_data_statistics[30436] = {
 	open_directly = 1,
-	name = "外观装备箱(世界巡游)",
+	name = "랜던 장비스킨",
 	type = 11,
-	display = "可以随机获得一件本次世界巡游限定外观装备",
+	display = "크루즈 보상 장비스킨을 랜던으로 하나 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",

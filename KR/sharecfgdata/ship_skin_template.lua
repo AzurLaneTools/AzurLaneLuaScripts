@@ -30325,9 +30325,9 @@ _G.pg.base.ship_skin_template[103091] = {
 
 
 _G.pg.base.ship_skin_template[103092] = {
-	name = "放学后的补习时间",
+	name = "거절할 수 없는 자습 타임",
 	change_skin = "",
-	desc = "指挥官，怎么还留在教室里呢，是有哪里没学明白吗……？不介意的话，我来帮你补习一下吧？",
+	desc = "지휘관님, 왜 아직 교실에…? 혹시 이해가 안 가는 부분이라도 있었나요…? 저라도 괜찮으시다면 자습을 도와드릴까요?",
 	illustrator2 = -1,
 	ship_group = 10309,
 	group_index = 2,
@@ -317812,7 +317812,7 @@ _G.pg.base.ship_skin_template[9702120] = {
 _G.pg.base.ship_skin_template[9702130] = {
 	name = "{namecode:446}·META",
 	change_skin = "",
-	desc = "神圣联合帝国所属，宝物库管理者{namecode:446}，正式来到您麾下。往后，我将全力辅佐您处理舰队事务。您如果对宝物库感兴趣，请先递交申请，这时最基础的要求哦。",
+	desc = "신성 총련 제국 소속, 보물고 관리인 뉘른베르크, 지금부터 정식으로 지휘관님의 휘하에 들어가겠습니다. 함대 운영 사무 등을 전력을 다해 돕도록 하지요. …보물고에 관심이 있다면 우선 견학 신청서부터 제출하세요. 그게 최소한의 규칙이니까요!",
 	illustrator2 = -1,
 	ship_group = 970213,
 	group_index = 0,

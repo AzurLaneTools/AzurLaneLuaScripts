@@ -197202,10 +197202,10 @@ end)()
 	}
 	pg.base.skill_data_template[802280] = {
 		desc_get = "",
-		name = "斩乱之剑",
+		name = "난세를 가르는 검",
 		type = 1,
 		max_level = 10,
-		desc = "战斗开始时及随后每20s，触发一轮特殊弹幕$1（威力依据技能等级），10秒内自身造成的伤害提高$2",
+		desc = "전투 시작 시 및 전투 중 20초마다 발동하여 특수 탄막 $1(을)를 전개하고(위력은 스킬 레벨에 따라 다름), 10초 동안 자신이 가하는 피해량이 $2 증가한다.",
 		id = 802280,
 		system_transform = {},
 		world_death_mark = {
@@ -197299,10 +197299,10 @@ end)()
 	}
 	pg.base.skill_data_template[802290] = {
 		desc_get = "",
-		name = "宝物守护",
+		name = "보물고의 수호자",
 		type = 2,
 		max_level = 10,
-		desc = "战斗开始时提升自身炮击、雷击属性$1；战斗中，防空炮开火时，10秒内自身回避率提高$2，全队防空提高$3，触发后进入12秒冷却",
+		desc = "전투 시작 시 포격·뇌장이 $1 상승한다. 전투 중 아군이 대공 사격을 실시할 때 발동하여 10초 동안 자신의 회피율을 $2 증가시키고, 아군 전원의 대공을 $3 상승시킨다(이 효과는 12초에 한 번만 발동 가능).",
 		id = 802290,
 		system_transform = {},
 		world_death_mark = {
@@ -197450,10 +197450,10 @@ end)()
 	}
 	pg.base.skill_data_template[802301] = {
 		desc_get = "",
-		name = "逐光之焰·{namecode:446}I",
+		name = "염추의 재 - 뉘른베르크Ⅰ",
 		type = 3,
 		max_level = 1,
-		desc = "主炮每进行12次攻击，触发一轮特殊弹幕I",
+		desc = "주포 공격을 12회 실시할 때마다 특수 탄막Ⅰ을 전개한다.",
 		id = 802301,
 		system_transform = {
 			[51.0] = 802305
@@ -197466,10 +197466,10 @@ end)()
 	}
 	pg.base.skill_data_template[802302] = {
 		desc_get = "",
-		name = "逐光之焰·{namecode:446}II",
+		name = "염추의 재 - 뉘른베르크Ⅱ",
 		type = 3,
 		max_level = 1,
-		desc = "主炮每进行8次攻击，触发一轮特殊弹幕II",
+		desc = "주포 공격을 8회 실시할 때마다 특수 탄막Ⅱ를 전개한다.",
 		id = 802302,
 		system_transform = {
 			[51.0] = 802307
@@ -197482,10 +197482,10 @@ end)()
 	}
 	pg.base.skill_data_template[802305] = {
 		desc_get = "",
-		name = "逐光之焰·{namecode:446}I",
+		name = "염추의 재 - 뉘른베르크Ⅰ",
 		type = 3,
 		max_level = 1,
-		desc = "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低2%",
+		desc = "[대형 작전]\n주포 공격을 12회 실시할 때마다 특수 탄막Ⅰ을 전개한다. 엘리트 함대 혹은 보스 함대와 교전할 경우, 자신이 받는 피해량이 2% 감소한다.",
 		id = 802305,
 		system_transform = {
 			[51.0] = 802305
@@ -197498,10 +197498,10 @@ end)()
 	}
 	pg.base.skill_data_template[802307] = {
 		desc_get = "",
-		name = "逐光之焰·{namecode:446}II",
+		name = "염추의 재 - 뉘른베르크Ⅱ",
 		type = 3,
 		max_level = 1,
-		desc = "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低6%",
+		desc = "[대형 작전]\n주포 공격을 8회 실시할 때마다 특수 탄막Ⅱ를 전개한다. 엘리트 함대 혹은 보스 함대와 교전할 경우, 자신이 받는 피해량이 6% 감소한다.",
 		id = 802307,
 		system_transform = {
 			[51.0] = 802307

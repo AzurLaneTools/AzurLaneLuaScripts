@@ -12,7 +12,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"怪谈纪实：逃离白夜山庄！\n\n<size=45>入院</size>",
+					"괴담 실록: 백야 빌라에서 탈출하라!\n\n<size=45>1 입원</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			bgName = "star_level_bg_181",
 			bgm = "story-richang-1",
-			say = "休息日的午后，我来到游乐园，打算久违地放松一下身心。",
+			say = "휴일의 어느 오후, 오랜만에 여유를 즐기려고 혼자 유원지에 놀러 왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "就在这时，一栋此前从未见过的建筑吸引了我的注意。",
+			say = "그러던 중, 낯선 건물 하나가 눈에 들어왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "建筑入口处，一块破烂的木牌上歪歪扭扭地写着这样几个字：",
+			say = "입구에는 너덜너덜한 나무 간판이 서 있었고, 그곳에는 이렇게 적혀 있었다――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "“白夜山庄——划时代的恐怖怪谈之地！超刺激！超可怕！”",
+			say = "「백야 빌라―― 시대를 초월한 괴담들이 모이는 호러 명소! 무시무시! 오싹오싹!」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这是……新开张的鬼屋？",
+			say = "――이건…… 새로 오픈한 유령의 집인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘻嘻嘻~不是鬼屋哦~",
+			say = "키히히히♪ 그냥 유령의 집이 아니라구~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一直以来，人们都没能真正理解怪谈的可怕之处……但现在，一切都不一样了！",
+			say = "지금까지는 괴담의 진정한 공포가 뭔지 아무도 알아주지 않았지…… 하지만 이젠 달라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我运用超大场地，超多预算，再加上我无与伦比的怪谈天赋——",
+			say = "이 무지막지하게 넓은 행사장과 사치스러운 예산, 그리고 내 누구에게도 뒤지지 않는 괴담 센스를 풀가동해서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于打造出了这座超大型怪谈逃生游戏！在这里，那些几乎被遗忘的稀世怪谈，都将再度降临！",
+			say = "마침내 초대형 괴담 탈출 게임이 완성됐어! 잊혀졌던 환상의 괴담들이 이곳에 다시 한번 강림할 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在正在绝赞测试中哦~！",
+			say = "…라는 느낌으로 지금 절찬리에 시범 운영하는 중이야♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样，指挥官要不要试试看？",
+			say = "어때? 지휘관도 해보지 않을래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此独一无二的怪谈体验，一定能让你永生难忘~嘻嘻嘻~",
+			say = "이런 특별한 괴담 체험은 아무나 할 수 있는 게 아니라고~ 키히히히♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "{namecode:559:莫里茨亲王}天花乱坠的夸张描述，确实让我对这个“逃生游戏”有了兴趣。",
+			say = "프린츠 모리츠가 꽤 거창하게 이야기하는 덕분에 「탈출 게임」에 흥미가 생기기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……那就试试吧？）",
+			say = "(……뭐, 딱히 손해 볼 건 없겠지)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官的眼神我看懂了哦~现在请跟我来吧~",
+			say = "키히히히♪ 지휘관의 그 눈빛, 딱 보면 알아~♪ 그럼, 날 따라와!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（明明什么都还没说……看来是已经打定主意了啊。）",
+			say = "(아무 말도 안 했는데…… 처음부터 끌고 갈 생각이었군…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgm = "theme-hospitalnight-mystic",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:559:莫里茨亲王}牵起我的手，拉着我走进建筑内部。从内部装饰来看，这里似乎是一间小诊所的接待处。",
+			say = "그렇게 프린츠 모리츠에게 이끌려 건물 안으로 들어섰다. 내부 인테리어로 보니 작은 병원 같았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_670",
 			hidePaintObj = true,
-			say = "昏暗的灯光中，她将一张病床推到了我的身边。",
+			say = "어스름한 조명 속에서 그녀는 병상 하나를 나의 바로 옆으로 밀고 왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官准备好了的话，就请戴上眼罩，躺上来吧~",
+			say = "준비됐으면 안대를 쓰고 누워♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 403170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来，我将带你前往传说中的——白夜山庄病院……",
+			say = "이제부터 전설의 백야 빌라 병원으로 안내해 줄 테니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请拼尽全力，逃出生天吧~",
+			say = "전력을 다해, 살아서 탈출하라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			bgm = "theme-hospitalnight-mystic",
 			blackBg = true,
-			say = "在一片漆黑中，我失去了对所在位置的判断力，就这样不知道过了多久……",
+			say = "어디에 있는지도 전혀 짐작하지 못한 채, 어둠 속에 방치된 지 제법 시간이 흐른 그 때.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "伴随着一阵嘎吱作响的开门声，两道高跟鞋踩在地面上的清脆脚步声，一前一后地朝我逼近。",
+			say = "끼이익 하고 문이 삐걱거리는 소리에 이어, 두 명의 구두굽 소리가 각각 앞뒤에서 내쪽으로 다가왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "华丽院长，今天新入院的病人已经到了呢~",
+			say = "슈퍼브 원장님, 새로운 입원 환자분이 도착하셨어요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,63 +377,63 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_baiye_cg1",
 			hidePaintObj = true,
-			say = "眼罩被摘了下来，在用几秒钟适应了眼前的景象之后，我终于看清了……",
+			say = "안대가 벗겨지고 몇 초간 눈앞의 광경에 시야를 적응시키자, 마침내 주변의 모습이 보이기 시작했다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "华丽",
+			actorName = "슈퍼브",
 			side = 2,
 			bgName = "bg_baiye_cg1",
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "新的病人？",
+			say = "새로운 환자분인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "普利茅斯",
+			actorName = "플리머스",
 			side = 2,
 			bgName = "bg_baiye_cg1",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "准确来说，应该是新的实验品。",
+			say = "정확히 말하면 새로운 실험체겠죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "华丽",
+			actorName = "슈퍼브",
 			side = 2,
 			bgName = "bg_baiye_cg1",
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……请您稍等一下。",
+			say = "아…… 잠시만 기다려 주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "华丽",
+			actorName = "슈퍼브",
 			side = 2,
 			bgName = "bg_baiye_cg1",
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您来得比我预想中还要早一些，我还没来得及换上见您时该有的着装。",
+			say = "생각했던 것보다 빨리 오셔서, 아직 옷을 갈아입지 못해서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_baiye_cg2",
-			say = "华丽动作利落地拉上了我们之间的床帘，帘后传来一阵窸窸窣窣的轻响，没过多久，床帘便再次被拉开。",
+			say = "슈퍼브는 재빠르게 커튼을 쳤다. 스르륵하는 옷자락 소리가 한동안 울린 뒤, 커튼이 다시 열렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,14 +468,14 @@ return {
 			}
 		},
 		{
-			actorName = "普利茅斯",
+			actorName = "플리머스",
 			side = 2,
 			bgName = "bg_baiye_cg2",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看起来……没什么变化？",
+			say = "어머…… 아까랑 달라진 게 없는데요…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,91 +488,91 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好像有些不同……？",
+			say = "――뭔가 달라진 것 같기도 하고……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "华丽",
+			actorName = "슈퍼브",
 			side = 2,
 			bgName = "bg_baiye_cg2",
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，指挥官怎么一副惊讶的样子？是还不了解自己的处境吗？",
+			say = "우후후♪ 지휘관님의 그 얼굴…… 아직 자신의 처지를 잘 이해하지 못하신 모양이네요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "华丽",
+			actorName = "슈퍼브",
 			side = 2,
 			bgName = "bg_baiye_cg2",
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您可是难得一见的珍贵样本……从踏入这里的那一刻起，您就已经是我的所有物了。",
+			say = "당신은 슈퍼하게 귀중한 샘플이랍니다~ ……이곳에 발을 들여놓은 순간부터 당신은 이미 슈퍼브의 것이니…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "华丽",
+			actorName = "슈퍼브",
 			side = 2,
 			bgName = "bg_baiye_cg2",
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无论如何，我们都会把您留在这里。",
+			say = "무슨 일이 있어도 여기 머물러 주셔야겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "普利茅斯",
+			actorName = "플리머스",
 			side = 2,
 			bgName = "bg_baiye_cg2",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请安心做好在这里度过余生的准备吧~",
+			say = "여기서 남은 인생을 보낼 각오를 하시기 바라요♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "普利茅斯",
+			actorName = "플리머스",
 			side = 2,
 			bgName = "bg_baiye_cg2",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们会一起，非常用心地“照顾”您的。",
+			say = "저희가 모두 한마음으로, 정성을 다해 「보살펴」 드릴 테니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "华丽",
+			actorName = "슈퍼브",
 			side = 2,
 			bgName = "bg_baiye_cg2",
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——欢迎来到白夜山庄，指挥官。",
+			say = "백야 빌라에 오신 것을 환영해요, 지휘관님.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

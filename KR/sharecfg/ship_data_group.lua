@@ -39211,11 +39211,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 월드 투어",
+				"META 상점 교환",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9713011
+						warp = "meta"
 					}
 				},
 				0
@@ -40444,7 +40444,7 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META 연구실·월드 투어",
 				{
 					"METACHARACTER",
 					{

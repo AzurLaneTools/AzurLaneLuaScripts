@@ -102,15 +102,9 @@ pg.base.ship_data_create_material = {}
 			"<color=#d797ff>SR</color>: 12%",
 			"<color=#3dc6ff>R</color>: 51%",
 			"N: 30%",
-			"<color=#ffde38>엘리제</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>슈퍼브</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>샌디</color>：2.0%<color=#92FC63>(up!)</color>",
-			" ",
-			"<color=#ffde38>유키노</color>：2.0%<color=#92FC63>(up!)</color>",
-			" ",
-			"<color=#ffde38>츠쿠시</color>：0.5%",
-			"",
-			"※같은 레어도의 건조 획득 확률은 동일합니다."
+			"<color=#ffde38>서리</color>：2.0%<color=#92FC63>(up!)</color>"
 		}
 	}
 	pg.base.ship_data_create_material[5] = {

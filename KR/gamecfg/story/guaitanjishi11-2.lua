@@ -9,14 +9,14 @@ return {
 		{
 			bgName = "star_level_bg_670",
 			side = 2,
-			factiontag = "吸血鬼",
+			factiontag = "뱀파이어",
 			dir = 1,
 			actorScale = 0.6,
 			bgm = "theme-hospitalnight-mystic",
 			actor = 404041,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别急着走嘛~夜晚才刚刚开始呢~",
+			say = "뭘 그렇게 서둘러~ 밤은 이제 막 시작됐을 뿐인데~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 				}
 			},
 			location = {
-				"白夜山庄·大厅",
+				"백야 빌라, 대강당",
 				3
 			},
 			action = {
@@ -82,13 +82,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "僵尸",
+			factiontag = "좀비",
 			dir = 1,
 			actorScale = 0.6,
 			actor = 301411,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "找到你们了……不可以离开这里哦……",
+			say = "찾았다…… 여기서 도망치면 안 돼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,13 +140,13 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "斧头怪人",
+			factiontag = "도끼 괴인",
 			dir = 1,
 			actorScale = 0.6,
 			actor = 9600031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们这是要去哪里呀~",
+			say = "어디로 가려고 그래~♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 401112,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各种奇奇怪怪的怪物真的都冒出来了呀呀呀！！",
+			say = "끝도 없이 요상한 괴물들이 나타나고 있어요……!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,12 +213,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快跑！我们往这边走！",
+			say = "서두르죠! 이쪽이에요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,12 +227,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "宇宙人",
+			factiontag = "외계인",
 			dir = 1,
 			actor = 101265,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "前方禁止通行哦。",
+			say = "……이 앞은, 못 지나가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,12 +255,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "牛仔",
+			factiontag = "카우걸",
 			dir = 1,
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "打劫，留下你的牛奶。",
+			say = "어딜 도망가~ 내 우유 내놔~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "僵尸和吸血鬼也就算了，为什么还有宇宙人和牛仔？",
+			say = "――좀비나 흡혈귀는 그렇다 쳐도, 왜 외계인에 카우걸까지 튀어나오는 건데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,12 +296,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "吸血鬼",
+			factiontag = "뱀파이어",
 			dir = 1,
 			actor = 404041,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "白夜山庄危机四伏，连鲨鱼都有，那有僵尸、吸血鬼、宇宙人和牛仔出没，当然也很正常吧？",
+			say = "상어도 나오는데 좀비나 흡혈귀, 외계인이나 카우걸이 있어도 딱히 이상할 건 없잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,13 +311,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_670",
-			factiontag = "宇宙人",
+			factiontag = "외계인",
 			dir = 1,
 			fontsize = 24,
 			actor = 101265,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道不是服装间里有什么就先穿什么……",
+			say = "의상실에 있던 옷…… 그냥 입고 왔을 뿐……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"怪谈纪实：逃离白夜山庄！\n\n<size=45>病房逃生！</size>",
+					"괴담 실록: 백야 빌라에서 탈출하라!\n\n<size=45>2 병실에서 탈출하라!</size>",
 					1
 				}
 			}
@@ -20,13 +20,13 @@ return {
 		{
 			portrait = 202371,
 			side = 2,
-			factiontag = "院长",
+			factiontag = "원장",
 			dir = 1,
 			bgName = "star_level_bg_308",
-			actorName = "华丽",
+			actorName = "슈퍼브",
 			bgm = "story-hospital-light",
 			nameColor = "#A9F548FF",
-			say = "我去办理入院手续，你要好好看住指挥官哦，普利茅斯护士长。",
+			say = "그럼 입원 수속을 밟고 오죠. 플리머스 수간호사님, 지휘관님을 잘 감시하고 계세요♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = "home",
-			say = "华丽的脚步声逐渐远去，房间里只剩下我和普利茅斯。",
+			say = "슈퍼브의 발소리가 멀어지고, 방에는 나와 플리머스 둘만 남았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,12 +58,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那就由普利茅斯来陪着您吧，指挥官大人~",
+			say = "이 플리머스가 지휘관님을 모시도록 하지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（必须趁现在想办法脱身……等华丽回来，就更没机会了。）",
+			say = "(지금 어떻게든 탈출해야 해…… 슈퍼브가 돌아오면 상황이 더 나빠질 거야)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "束带牢牢固定着四肢，我只能勉强转动脖颈，观察病房内的布置，试图寻找任何能利用的东西。",
+			say = "테이프로 사지가 고정된 상태였지만, 목을 겨우 움직여 병실 안을 둘러보며 쓸 만한 물건을 찾았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,12 +102,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "指挥官大人是在找东西吗？如果有什么需要，请直接告诉普利茅斯哦。",
+			say = "지휘관님, 무언가 찾고 계시나요? 필요하신 게 있다면 플리머스에게 직접 말씀해 주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……我只是有点口渴，能给我水么？",
+			say = "――……목이 좀 말라서 그런데, 물 한 잔 줄 수 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,12 +133,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "好的指挥官大人，我会满足您的一切合理要求哦。",
+			say = "알겠습니다, 지휘관님. 합리적인 요구 사항은 전부 들어드릴게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "普利茅斯把水杯拿了过来，但她看着我眉头微微皱起，似乎有点犯了难。",
+			say = "물을 가지고 돌아온 플리머스는 나를 바라보더니 난감한 듯 미간을 살짝 찌푸렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,12 +163,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "双手被绑住的话，要怎么喝水呢……",
+			say = "양손이 묶여 계신 상태인데, 어떻게 드리면 좋으려나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,12 +178,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……有了！",
+			say = "으음…… 그렇지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "普利茅斯双眼一亮，忽然有了主意。",
+			say = "무언가 좋은 생각이 떠올랐는지, 그녀의 두 눈이 반짝 빛났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "下一刻，她含起一口水缓缓靠近，在我尚未来得及理解她的意图时，唇上便传来一阵柔软的触感。",
+			say = "그녀는 곧 물을 한 모금 머금고 이쪽으로 다가왔다. 그리고 뭐라 반응하기도 전에――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "甘甜清冽的水流，顺着唇瓣缝隙进入我的口腔……",
+			say = "그 차가운 물을 입술 틈새로 천천히 내 입안에 흘려보내 주었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "唔……咳、咳咳……",
+			say = "――읍…… 쿨럭, 쿨럭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,12 +254,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官大人，呛到您了……？",
+			say = "지휘관님, 사레가 들리셨나요……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,12 +269,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "对不起，明明我应当满足您的所有需求，保证您处在绝对舒适的环境，却犯下了这种错误……",
+			say = "죄송합니다. 지휘관님의 요청에 따라 쾌적한 환경을 제공해 드려야 마땅한데, 이런 실수를 저지르다니……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,12 +284,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "为指挥官大人的安全着想，现在必须做一套全面的身体检查才行！",
+			say = "지휘관님의 몸 상태를 고려해, 지금 당장 전신 검사를 실시해야겠어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不等我说什么，普利茅斯就已经跨坐到了我的身上。",
+			say = "그렇게 말하며 플리머스는 곧바로 내 몸 위로 올라탔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她小心地解开我胸前的衣扣，将耳朵轻轻贴在我的胸口。",
+			say = "내 옷 가슴팍의 단추를 풀더니, 고개를 숙이고 귀를 슬며시 가슴에 가져다 대었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,12 +329,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "体温……偏高，心跳……偏快……需要进行应急处理。",
+			say = "체온…… 높음, 심장박동…… 빠름…… 응급처치가 필요하겠네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "应急处理是指？",
+			say = "――응급처치?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,12 +360,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官大人，请您保持安静，我马上就能……让您舒适起来……",
+			say = "지휘관님, 부디 얌전히 계시길. 플리머스가 금방…… 편안하게 해 드릴 테니까요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她保持着坐在我腿上的姿势，双手开始在我的身上游走。",
+			say = "위에 올라탄 자세 그대로, 플리머스는 손을 내 몸에 얹고 마사지를 하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "舒适的触感不断传来，持续不断的热意驱散着身体的不适，连带着思绪都被搅得有些混沌。",
+			say = "기분 좋은 촉감이 이어지는 동안 서서히 몸의 긴장이 풀렸고, 몸과 마음이 노른노른해지면서 그대로 정신이 몽롱해져 갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "过了好一段时间，她的按摩才告一段落。",
+			say = "한참이 지나서야 마침내 플리머스의 손길이 멈췄다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,12 +419,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官大人，还有哪里不舒服吗？",
+			say = "지휘관님, 아직 불편한 곳이 있으신가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,12 +434,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "如果还需要什么的话，请尽管告诉我吧，普利茅斯都会满足您哦~",
+			say = "필요하신 게 있다면 주저하지 말고 플리머스에게 말씀해 주세요. 무엇이든 들어드릴게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "其实是这些束带的问题……被绑着实在是很难受。",
+			say = "――이 테이프 때문에…… 묶여 있는 게 답답해서 말이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,12 +465,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……这样的空间，确实不够您舒展。",
+			say = "그렇군요…… 편하게 기지개를 켜실 수도 없겠네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那就拜托你帮我松开一些？",
+			say = "――그럼, 이것 좀 느슨하게 풀어줄 수 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,12 +496,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "我有个更好的办法哦！现在就帮您全部解开吧~",
+			say = "더 좋은 방법이 있답니다. 지금 당장 전부 풀어 드릴게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "比我预想的展开更好，普利茅斯几乎没有犹豫，便俯身替我解开了全身的束缚。",
+			say = "생각보다 대화가 순조롭게 흘러갔다. 플리머스는 순순히 몸을 굽혀 테이프를 전부 떼어내 주었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "感觉好多了。谢谢你，普利茅斯。",
+			say = "――훨씬 편해졌네. 고마워, 플리머스.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,12 +540,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "能帮上您就太好了~当然，作为束带的替代……无论您要去哪里，普利茅斯都会陪在您身边，好好看住您的。",
+			say = "도움이 되어 기뻐요. 구속 테이프 대신이라고 하긴 뭣하지만…… 플리머스가 곁에서 지키도록 해주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "既然这样，那我们就一起行动吧。",
+			say = "――좋아, 같이 움직이자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

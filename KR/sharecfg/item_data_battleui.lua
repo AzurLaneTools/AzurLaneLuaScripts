@@ -257,13 +257,13 @@ pg.base.item_data_battleui = {}
 		}
 	}
 	pg.base.item_data_battleui[116] = {
-		name = "皇家旧影",
+		name = "올드 로열",
 		key = "SkinNormal_20260730",
 		display_icon = "ui_116",
-		unlock = "世界巡游三十期获取",
+		unlock = "특허 투어 패스 30기 보상",
 		is_unlock = 1,
 		rare = 3,
-		desc = "旧日的光影在界面间流转，皇家的优雅余韵也随之铺展开来，为每一次战斗添上一抹古典而精致的气息。 ",
+		desc = "오래된 날의 빛과 그림자가 교차하고, 로열 네이비의 우아한 여운이 울려 퍼진다. 전장에 한 자락의 고풍스러움과 우아함을 더해 준다.",
 		id = 116,
 		icon = "116",
 		scene = {},

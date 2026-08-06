@@ -12,7 +12,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"怪谈纪实：逃离白夜山庄！\n\n<size=45>渡河</size>",
+					"괴담 실록: 백야 빌라에서 탈출하라!\n\n<size=45>5 강을 건너</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~我们终于逃出来啦~",
+			say = "겨우 빠져나왔네요…! 지휘관님…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 				}
 			},
 			location = {
-				"十分钟前·白夜山庄外围",
+				"10분 전, 백야 빌라 주변",
 				3
 			}
 		},
@@ -52,7 +52,7 @@ return {
 			actor = 102341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想不到那些护士居然拿镜子挡住了真正的出口……太狡猾了喵！",
+			say = "설마 간호사들이 거울로 진짜 출구를 숨겨두고 있었을 줄이야…… 치사해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,12 +62,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_153",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在昏暗环境里布置镜面，确实是很有效的障眼法……",
+			say = "어두운 곳에서의 거울 트릭은 무척이나 효과적이네요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,12 +76,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_153",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "幸好指挥官及时发现，不然我们现在大概还在那条走廊上原地打转呢。",
+			say = "지휘관님께서 일찍 눈치채 주셔서 다행이에요. 그렇지 않았다면 다들 그 자리에서 계속 복도를 뱅뱅 돌고 있었겠지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……山庄的正门被好复杂的东西锁住了……有指纹锁和密码锁，甚至有虹膜识别装置……？",
+			say = "그나저나…… 빌라의 게이트는 엄청나게 복잡한 장치로 잠겨 있었죠…… 지문 인식에 비밀번호뿐만 아니라 홍채 인식 장치까지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总感觉是要我们收集好多道具才能打开的……我们这样直接从旁边出来，真的不要紧吗……？",
+			say = "뭔가 다양한 아이템을 모아야 열 수 있던 느낌이던데…… 이렇게 옆 창문으로 빠져나와도 되는 걸까요……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 102341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么可能有问题啦~你看，正门旁边那扇窗户根本没关，一翻就翻出来了~",
+			say = "괜찮아, 괜찮아~ 게이트 옆 창문이 아예 안 닫혀 있었잖아? 그 덕에 다들 가뿐하게 넘어서 나올 수 있었던 거고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 102341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么明显的线路指引，怎么看都在说“请走这里”吧？那个大门肯定只是装饰啦~",
+			say = "이건 뭐 딱 봐도 「이쪽으로 가세요」라고 말하는 거나 다름없잖아? 게이트는 분명 그냥 장식일 거야♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,13 +146,13 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
 			actor = 401130,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "到底是谁——没把窗户关好啊——！",
+			say = "대체 누가… 창문을 제대로 안 닫아둔 거야―――?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 				}
 			},
 			location = {
-				"逃生游戏后台·监控室",
+				"탈출 게임 무대 뒤, 모니터룸",
 				3
 			},
 			dialogShake = {
@@ -188,13 +188,13 @@ return {
 			portrait = 206037,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "护士",
+			factiontag = "간호사",
 			dir = 1,
-			actorName = "独角兽",
+			actorName = "유니콘",
 			paintingNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "窗户，是华丽让独角兽开的……她说，病院必须要时常开窗通风……",
+			say = "슈퍼브 언니가 창문은 늘 열어두라고 하길래… 병원은 정기적으로 환기가 필요하다면서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,12 +204,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "场务",
+			factiontag = "현장 스탭",
 			dir = 1,
 			actor = 201150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇哇……但现在病人都跑完啦！",
+			say = "으아아아…… 환자가 전부 도망쳐 버렸잖아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,12 +229,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "场务",
+			factiontag = "현장 스탭",
 			dir = 1,
 			actor = 201150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们精心准备的重重封锁，居然直接被秒了……",
+			say = "열심히 준비한 시련이 눈 깜짝할 사이에 돌파당하다니……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,13 +244,13 @@ return {
 			portrait = 206037,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "护士",
+			factiontag = "간호사",
 			dir = 1,
-			actorName = "独角兽",
+			actorName = "유니콘",
 			paintingNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也、也就是说，指挥官哥哥现在已经通关啦？",
+			say = "그, 그렇다면…… 오빠가 벌써 게임을 클리어했다는 거야……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,12 +260,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
 			actor = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，别慌~只是离开了病院大楼而已，离通关还远着呢！外围的关卡更是困难哦！",
+			say = "으흐흐, 캄 다운! 캄 다운! 건물만 빠져나왔을 뿐이지, 클리어하려면 아직 한참 멀었어! 바깥은 훨씬 더 까다로우니까!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgm = "theme-hospitalnight-mystic",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "沿着山庄外围唯一一条道路前进后，我们很快来到了一条河流前。",
+			say = "빌라 주변에 있는 유일한 길을 따라 나아가자, 곧 강 앞에 도착할 수 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 				}
 			},
 			location = {
-				"白夜山庄外围·河岸",
+				"백야 빌라 주변, 강가",
 				3
 			}
 		},
@@ -309,7 +309,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_584",
 			hidePaintObj = true,
-			say = "原本横跨河面的木桥早已断裂，只剩下几截残破的桥板在水面上摇摇欲坠。",
+			say = "강에 놓인 나무다리는 부서져 있었고, 남은 판자 몇 개가 수면 위로 간신히 떠 있을 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_584",
 			hidePaintObj = true,
-			say = "想要前往对岸，显然只能另想办法。",
+			say = "건너편으로 넘어가려면 다른 방법을 강구해야만 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这也太像恐怖故事里会出现的展开了吧……",
+			say = "이거, 무서운 이야기에 자주 나오는 클리셰 아닌가요……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			actor = 102341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "河上的雾气这么重，会不会藏着什么奇怪的东西！",
+			say = "안개가 자욱한 걸 보니 뭔가 이상한 게 숨어있을지도 몰라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,12 +358,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家先别紧张，那边的河岸旁，好像停着什么？",
+			say = "다들 우선 진정하세요. 저쪽 강가에 무언가 정박해 있어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "难道是船？要是能渡船到对岸的话，我们就可以逃走了。",
+			say = "――배인가? 나룻배로 건너편까지 갈 수 있으면 바로 해결인데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_584",
 			hidePaintObj = true,
-			say = "顺着普利茅斯所指的方向走去，河边果然停着一条小船，而船上的人影，居然莫名有些眼熟……",
+			say = "플리머스가 가리킨 방향에는 작은 배 한 척이 있었다. 그리고 그 배 위에는 낯익은 누군가가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,23 +397,23 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			dir = 1,
 			actor = 900547,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼——呼——乘船渡河，价格实惠……",
+			say = "후우…… 후우…… 저렴한 가격으로 건너편까지 모셔다드리겠습니다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你是萨里？",
+					content = "서리?",
 					flag = 1
 				},
 				{
-					content = "好熟悉的病号服",
+					content = "낯익은 병원복인데…",
 					flag = 2
 				}
 			}
@@ -426,7 +426,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "萨里？！你、你不是被怪物抓走了吗……？",
+			say = "서리?! 괴물한테 잡혀간 줄 알았는데……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,12 +436,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			dir = 1,
 			actor = 900547,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们认错人了……",
+			say = "사람 잘못 보셨습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,12 +451,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			dir = 1,
 			actor = 900547,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是远道而来的摆渡人，负责把需要帮助的人送往对岸……",
+			say = "서리는 먼 곳에서 찾아온 뱃사공으로, 도움이 필요한 분들을 건너편으로 데려다주는 것이 임무입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不管怎么看，你都是萨里吧？连病号服都没换啊！",
+			say = "아니, 아무리 봐도 서리잖아! 차림새도 병원복 그대로고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,12 +479,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			dir = 1,
 			actor = 900547,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,13 +494,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			dir = 1,
 			fontsize = 24,
 			actor = 900547,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:498:Z13}……现在怎么办……",
+			say = "Z13…… 서리는 어찌해야 합니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,14 +510,14 @@ return {
 			portrait = 401130,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
-			actorName = "{namecode:498:Z13}",
+			actorName = "Z13",
 			paintingNoise = true,
 			fontsize = 24,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别慌，你按我说的念就行~",
+			say = "진정하고 내가 하는 말을 그대로 따라 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,14 +527,14 @@ return {
 			portrait = 401130,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
-			actorName = "{namecode:498:Z13}",
+			actorName = "Z13",
 			paintingNoise = true,
 			fontsize = 24,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的名字是里萨~",
+			say = "내 이름은 리서야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,12 +544,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			nameColor = "#A9F548FF",
 			actor = 900547,
-			actorName = "里萨",
+			actorName = "리서",
 			hidePaintObj = true,
-			say = "我的名字是里萨~",
+			say = "내 이름은 리서야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,14 +559,14 @@ return {
 			portrait = 401130,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
-			actorName = "{namecode:498:Z13}",
+			actorName = "Z13",
 			paintingNoise = true,
 			fontsize = 24,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们大概是把我和我失散多年的妹妹弄混了~",
+			say = "아무래도 다들 나를 오랫동안 못 본 내 여동생으로 착각한 거 같네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,12 +576,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			nameColor = "#A9F548FF",
 			actor = 900547,
-			actorName = "里萨",
+			actorName = "리서",
 			hidePaintObj = true,
-			say = "你们大概是把我和我失散多年的妹妹弄混了~",
+			say = "아무래도 다들 나를 오랫동안 못 본 내 여동생으로 착각한 거 같네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这个解释是不是太勉强了。",
+			say = "――그건 너무 억지 아니야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,12 +604,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			nameColor = "#A9F548FF",
 			actor = 900547,
-			actorName = "里萨",
+			actorName = "리서",
 			hidePaintObj = true,
-			say = "这个解释是不是太勉强了。",
+			say = "――그건 너무 억지 아니야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你学错人了。",
+			say = "――……날 따라하면 어떻게 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,12 +632,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_584",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			nameColor = "#A9F548FF",
 			actor = 900547,
-			actorName = "里萨",
+			actorName = "리서",
 			hidePaintObj = true,
-			say = "……",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……时间紧迫……既然有船，还是先过河再说吧。",
+			say = "――……지금은 시간이 아까우니, 일단 건너편으로 데려다 줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_598",
-			say = "就这样，我们登上了萨里的小船，沿着水流缓缓向对岸驶去。",
+			say = "서리의 작은 배에 올라타, 강물을 따라 천천히 맞은편 기슭으로 향했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,18 +692,18 @@ return {
 			actor = 102341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好啦~照这个节奏下去，我们很快就能顺利通关了吧！",
+			say = "좋아! 이 기세라면 금방 클리어할 수 있겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没错，意外地相当顺利呢。",
+					content = "그러게, 의외로 순조롭네",
 					flag = 1
 				},
 				{
-					content = "这种时候还是先别立flag比较好……",
+					content = "괜한 플래그는 세우지 마……",
 					flag = 2
 				}
 			}
@@ -713,7 +713,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "话音未落，河面上的雾气忽然变得浓重起来。",
+			say = "강의 안개가 갑자기 짙어졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,12 +723,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			nameColor = "#A9F548FF",
 			actor = 900547,
-			actorName = "里萨",
+			actorName = "리서",
 			hidePaintObj = true,
-			say = "说起来，我以前听过一个和这条河有关的怪谈……是我朋友的朋友告诉我的——",
+			say = "그러고 보니 전에 이 강에 얽힌 괴담을 들은 적이 있습니다…… 친구의 친구에게 들은 이야기입니다만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,12 +738,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			nameColor = "#A9F548FF",
 			actor = 900547,
-			actorName = "里萨",
+			actorName = "리서",
 			hidePaintObj = true,
-			say = "很久以前，有个病人试图游过这条河，逃离白夜山庄。可她才游到一半，就沉进了水里，再也没有浮上来……",
+			say = "옛날에 어떤 환자분이 이 강을 헤엄쳐 건너 백야 빌라를 탈출하려 했습니다. 하지만 강 중간에 가라앉아 두 번 다시 떠오르지 못했습니다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,12 +753,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么有种似曾相识的感觉……？",
+			say = "왠지 어디선가 들어본 듯한……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我有不好的预感。",
+			say = "――불길한 예감이 드는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,7 +784,7 @@ return {
 			actor = 102341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然很想知道后续但是……现在停下还来得及哦？",
+			say = "뒷이야기가 궁금하긴 하지만…… 지금이라면 멈추면 안 늦을 것 같은데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,12 +804,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "普通的摆渡人",
+			factiontag = "보통 사공",
 			nameColor = "#A9F548FF",
 			actor = 900547,
-			actorName = "里萨",
+			actorName = "리서",
 			hidePaintObj = true,
-			say = "从那以后，每当有人想渡河离开这里时，就会在水雾深处，看见那个徘徊不去的——",
+			say = "그 이후로 이 강을 건너 탈출하려는 이에게는 안개 너머에서 영원히 헤매는 그림자가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,9 +830,9 @@ return {
 			bgName = "star_level_bg_598",
 			dir = 1,
 			actor = 408080,
-			actorName = "？？？",
+			actorName = "???",
 			hidePaintObj = true,
-			say = "噶哦——！",
+			say = "캬오――!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "突然间，一道黑影从河水中跃起，还没等我们反应过来，摆渡人萨里就已经被黑影一把拖进了河里。",
+			say = "갑자기 강물 속에서 검은 그림자가 튀어나와 순식간에 뱃사공인 리서를 강 속으로 끌고 들어갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,7 +872,7 @@ return {
 			actor = 102341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇——！一定是溺水病人的亡灵来复仇了……！",
+			say = "으아앗! 물에 빠진 환자의 망령이 복수하러 왔어……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,12 +882,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "大白鲨",
+			factiontag = "백상아리",
 			dir = 1,
 			actor = 408080,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "才不是哦，{namecode:420:U-110}是鲨鱼，可不是什么亡灵呢！",
+			say = "아니야~ U-110은 상어라구~ 누구더러 망령이라는 거야~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鲨、鲨鱼……？",
+			say = "사, 상어……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -911,12 +911,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "护士长",
+			factiontag = "수간호사",
 			dir = 1,
 			actor = 299052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么河里会有鲨鱼？",
+			say = "왜 강에 상어가 있는 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,12 +925,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "大白鲨",
+			factiontag = "백상아리",
 			dir = 1,
 			actor = 408080,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "有就是有啦！而且，{namecode:420:U-110}不会让你们就这样逃走的哦！",
+			say = "있으니까 있는 거지~ 절대 놓치지 않겠어~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "{namecode:420:U-110}高高扬起脑袋，对着船身就是一记头槌。",
+			say = "U-110은 머리를 높이 치켜들더니, 배에 힘껏 머리박치기를 날렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			bgName = "star_level_bg_598",
 			soundeffect = "event:/ui/baozha1",
 			hidePaintObj = true,
-			say = "砰——！",
+			say = "――――!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1003,7 +1003,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "木船应声断成了两截，河水瞬间淹没了头顶……",
+			say = "나무배가 반 토막으로 갈라져, 그대로 강물 속으로 휩쓸려 들어갔다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1012,13 +1012,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			factiontag = "场务",
+			factiontag = "현장 스탭",
 			dir = 1,
 			bgName = "star_level_bg_306",
 			actor = 201150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么河里会有鲨鱼？！太强了！我都热血沸腾了！",
+			say = "저런 강에 상어가…?! 굉장해…! 흥미진진한데!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1041,7 +1041,7 @@ return {
 				}
 			},
 			location = {
-				"逃生游戏后台·监控室",
+				"탈출 게임 무대 뒤, 모니터룸",
 				3
 			}
 		},
@@ -1049,12 +1049,12 @@ return {
 			expression = 16,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "场务",
+			factiontag = "현장 스탭",
 			dir = 1,
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我没记错的话，剧本这一段登场的怪物应该就是亡灵吧？",
+			say = "페이윈 님의 기억이 맞다면, 지금 나오는 괴물은 원래 망령이었지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1064,12 +1064,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "场务",
+			factiontag = "현장 스탭",
 			dir = 1,
 			actor = 501090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且萨里还没换掉上一幕的衣服……",
+			say = "서리도 이전 상황에서의 옷을 그대로 입고 있고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1079,12 +1079,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
 			actor = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，这个嘛……你们听我解释~",
+			say = "앗, 아니… 그건 말이지…… 변명을 좀 하자면~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1094,12 +1094,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
 			actor = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原本的计划里，指挥官应该先在医院里收集一大堆钥匙，才能打开病院正门……现在这些流程全被跳过了！",
+			say = "원래는 병원 내부에서 열쇠를 잔뜩 모아서 그걸로 게이트를 열고 나가야 하는데…… 지휘관이 그 루트를 깡그리 건너뛰어 버리는 바람에…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,12 +1109,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
 			actor = 201150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对哦？扮演亡灵的演员还在病房扮幽灵，根本来不及赶到河边……",
+			say = "아하! 망령 담당이 아직 병실에 유령인 상태로 있어서, 바로 강으로 달려올 수가 없었던 거구나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1124,12 +1124,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
 			actor = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以只能临时找演员组的其他人顶上了啦！{namecode:420:U-110}刚好有空嘛~",
+			say = "맞아, 그래서 급하게 다른 애로 대체한 거야! 때마침 U-110이 쉬고 있었거든~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1139,12 +1139,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "场务组长",
+			factiontag = "현장감독",
 			dir = 1,
 			actor = 401130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "反正鲨鱼也挺有怪谈范儿的？{namecode:559:莫里茨亲王}在的话一定也不会有意见的~",
+			say = "뭐, 상어도 분위기 상으로는 크게 나쁘지 않지? 모리츠도 군말 안 할 거야~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1153,13 +1153,13 @@ return {
 		{
 			portrait = 403170,
 			side = 2,
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
 			bgName = "star_level_bg_138",
-			actorName = "{namecode:559:莫里茨亲王}",
+			actorName = "프린츠 모리츠",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿嘿~之前的剧情怎么样都无所谓了，只要指挥官能体验到我最完美的杰作——“超超超终极恐怖怪谈”……",
+			say = "키히히히♪ 이전 전개야 어떻게 되든 상관없어. 지휘관이 내 최고 걸작인 「초초초극상, 괴담 호러」를 체험하기만 해 준다면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1182,7 +1182,7 @@ return {
 				}
 			},
 			location = {
-				"白夜山庄·ICU病房",
+				"백야 빌라, 집중치료실",
 				3
 			}
 		},
@@ -1190,12 +1190,12 @@ return {
 			portrait = 403170,
 			side = 2,
 			bgName = "star_level_bg_138",
-			factiontag = "导演&编剧&制作人",
+			factiontag = "감독&각본&PD",
 			dir = 1,
-			actorName = "{namecode:559:莫里茨亲王}",
+			actorName = "프린츠 모리츠",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……指挥官怎么还没来？",
+			say = "그나저나…… 지휘관은 왜 아직도 안 오는 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
