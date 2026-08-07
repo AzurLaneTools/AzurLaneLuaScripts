@@ -955,42 +955,6 @@ return {
 			}
 		},
 		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_193",
-			hidePaintObj = true,
-			oldPhoto = true,
-			say = "我与奥斯塔一同来到了一间布置简约的客房中，不远处，一位金发女士正带着复杂的目光注视着这一切。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_193",
-			hidePaintObj = true,
-			oldPhoto = true,
-			say = "她张了张口，似乎想要说些话来对等回应这一长串连珠炮式的问候。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_193",
-			hidePaintObj = true,
-			oldPhoto = true,
-			say = "不过最终还是化为了一句无声的叹息。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_193",
@@ -1096,18 +1060,6 @@ return {
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			say = "…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_193",
-			hidePaintObj = true,
-			oldPhoto = true,
-			say = "房间里的气温似乎陡然下降了几度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
