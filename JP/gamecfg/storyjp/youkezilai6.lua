@@ -504,7 +504,7 @@ return {
 			bgName = "star_level_bg_603",
 			nameColor = "#FFC960",
 			actor = 900406,
-			actorName = "謎のフィルターがオフ",
+			actorName = "エセックス？",
 			hidePaintObj = true,
 			say = "――「止まって」",
 			typewriter = {

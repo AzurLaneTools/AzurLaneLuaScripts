@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_321",
 			nameColor = "#A9F548FF",
 			actor = 900479,
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			hidePaintObj = true,
 			say = "エリザベス、久しぶり！",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			bgName = "star_level_bg_321",
 			nameColor = "#A9F548FF",
 			actor = 900479,
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			hidePaintObj = true,
 			say = "うん！楽しく遊べるといいなー！",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			bgName = "star_level_bg_321",
 			nameColor = "#A9F548FF",
 			actor = 900479,
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			hidePaintObj = true,
 			say = "ぼくもおすすめしないよ",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actorName = "ナレーション",
+			actorName = "通信",
 			side = 2,
 			bgName = "star_level_bg_321",
 			soundeffect = "event:/ui/didi",
@@ -460,7 +460,7 @@ return {
 			bgName = "star_level_bg_321",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			say = "聞こえてるよ♪",
 			typewriter = {
 				speed = 0.05,
@@ -501,7 +501,7 @@ return {
 			bgName = "star_level_bg_321",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			say = "気にしない気にしない。こっちもさっぱりわからないんだから",
 			typewriter = {
 				speed = 0.05,
@@ -527,7 +527,7 @@ return {
 			bgName = "star_level_bg_321",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			say = "向こうには聞こえないんじゃ、どうしようもないよ～",
 			typewriter = {
 				speed = 0.05,
@@ -650,7 +650,7 @@ return {
 			bgName = "star_level_bg_321",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			say = "またあとで！",
 			typewriter = {
 				speed = 0.05,
@@ -722,7 +722,7 @@ return {
 			bgName = "star_level_bg_307",
 			nameColor = "#A9F548FF",
 			actor = 900479,
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			hidePaintObj = true,
 			say = "ぼくは？先生は一緒に連れて行ってくれないの？",
 			typewriter = {
@@ -749,7 +749,7 @@ return {
 			bgName = "star_level_bg_307",
 			nameColor = "#A9F548FF",
 			actor = 900479,
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			hidePaintObj = true,
 			say = "ふふ〜ん♪",
 			typewriter = {
@@ -763,7 +763,7 @@ return {
 			bgName = "star_level_bg_307",
 			nameColor = "#A9F548FF",
 			actor = 900479,
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			hidePaintObj = true,
 			say = "わかってて聞いただけ。先生との話題を作りたかったし♪",
 			typewriter = {
@@ -814,7 +814,7 @@ return {
 			portrait = 900430,
 			side = 2,
 			bgName = "star_level_bg_307",
-			actorName = "ナレーション",
+			actorName = "ミスD",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -882,7 +882,7 @@ return {
 			bgName = "star_level_bg_307",
 			nameColor = "#A9F548FF",
 			actor = 900479,
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			hidePaintObj = true,
 			say = "……え？",
 			typewriter = {
@@ -955,7 +955,7 @@ return {
 			}
 		},
 		{
-			actorName = "ナレーション",
+			actorName = "通信",
 			side = 2,
 			bgName = "star_level_bg_307",
 			hidePaintObj = true,
@@ -992,7 +992,7 @@ return {
 			paintingNoise = true,
 			bgm = "story-darkplan",
 			actor = 900479,
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			portrait = "tongxunqi",
 			hidePaintObj = true,
 			say = "もしもし……先生？今どこにいるの？",
@@ -1050,7 +1050,7 @@ return {
 			paintingNoise = true,
 			portrait = "tongxunqi",
 			actor = 900479,
-			actorName = "ナレーション",
+			actorName = "ボノム・リシャール？",
 			hidePaintObj = true,
 			say = "わからないよ！気づいたら薄暗い路地にいたの！",
 			typewriter = {

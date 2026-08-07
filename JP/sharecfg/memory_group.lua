@@ -7329,7 +7329,7 @@ end)()
 		icon = "title_event",
 		type = 2,
 		link_event = 51088,
-		title = "有客自来",
+		title = "客ありて",
 		auto_unlock = "",
 		subtype = 1,
 		id = 372,
