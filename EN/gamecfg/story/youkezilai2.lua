@@ -955,42 +955,6 @@ return {
 			}
 		},
 		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_193",
-			hidePaintObj = true,
-			oldPhoto = true,
-			say = "Fateful Encounter\n\n<size=45>2 \"Her\" Arrival</size>",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_193",
-			hidePaintObj = true,
-			oldPhoto = true,
-			say = "Fateful Encounter\n\n<size=45>2 \"Her\" Arrival</size>",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_193",
-			hidePaintObj = true,
-			oldPhoto = true,
-			say = "Fateful Encounter\n\n<size=45>2 \"Her\" Arrival</size>",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_193",
@@ -1096,18 +1060,6 @@ return {
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			say = "Um...",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_193",
-			hidePaintObj = true,
-			oldPhoto = true,
-			say = "Fateful Encounter\n\n<size=45>2 \"Her\" Arrival</size>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
