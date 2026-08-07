@@ -79828,7 +79828,7 @@ end)()
 		type = 1,
 		number = 0,
 		title = "特别竞拍时刻",
-		condition = "首次进入活动页",
+		condition = "이벤트 시작",
 		story = "TEBIEJINGPAISHIKE1",
 		mask = "bg/bg_memory",
 		task = 0,
