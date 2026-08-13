@@ -432644,9 +432644,9 @@ _G.pg.base.ship_data_statistics[900944] = {
 	},
 	fix_equip_list = {},
 	default_equip_list = {
-		44210,
-		42250,
-		46410
+		24430,
+		21610,
+		26370
 	},
 	depth_charge_list = {},
 	base_list = {
@@ -432793,7 +432793,7 @@ _G.pg.base.ship_data_statistics[900945] = {
 	},
 	preload_count = {
 		0,
-		0,
+		2,
 		0
 	},
 	equipment_proficiency = {

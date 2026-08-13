@@ -50311,11 +50311,6 @@ _G.pg.base.gametip.nier_a2_item_got = {
 }
 
 
-_G.pg.base.gametip.auction_network_timeout = {
-	tip = "네트워크 이상으로 경매에서 나갔습니다"
-}
-
-
 _G.pg.base.gametip.escape_series_pt = {
 	tip = "합계: $1"
 }
@@ -50333,4 +50328,9 @@ _G.pg.base.gametip.escape_series_task = {
 
 _G.pg.base.gametip.escape_story_reward_count = {
 	tip = "모든 스토리 클리어 시 한정 장비스킨 획득 가능"
+}
+
+
+_G.pg.base.gametip.auction_network_timeout = {
+	tip = "네트워크 이상으로 경매에서 나갔습니다"
 }

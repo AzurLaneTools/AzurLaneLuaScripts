@@ -31,7 +31,8 @@ pg.soundstory_template.all = {
 	26,
 	27,
 	28,
-	29
+	29,
+	30
 }
 pg.base = pg.base or {}
 pg.base.soundstory_template = {}
@@ -156,6 +157,7 @@ pg.base.soundstory_template = {}
 		overview = "특별할 것 없는 평범한 오후, 엠덴은 인간인 당신에게 최고의 포상을 내려주려고 하는데…",
 		order = 2,
 		audition_text = "자, 어서 몸의 힘을 빼세요… 부끄러워 할 거 없어요.",
+		time = "always",
 		ship_id = 40207,
 		id = 5,
 		captions_color = "#7a524e",
@@ -169,33 +171,6 @@ pg.base.soundstory_template = {}
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					5,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.soundstory_template[6] = {
@@ -572,9 +547,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2024,
+					2026,
 					8,
-					8
+					13
 				},
 				{
 					0,
@@ -584,9 +559,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2024,
+					2026,
 					8,
-					14
+					19
 				},
 				{
 					23,
@@ -1409,6 +1384,59 @@ pg.base.soundstory_template = {}
 					2026,
 					5,
 					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.soundstory_template[30] = {
+		story_pic = "",
+		name = "오늘밤의 건강검진",
+		story_resource_JP = "soundStory30_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "스미 토모미 제나",
+		audition_resource_JP = "ss-40406-1",
+		overview = "야근으로 너무 바빠 모항의 건강검진 타이밍을 놓친 지휘관.\n그날 밤, 의무실 침대에 누워 혼자 검사를 시작하려 했던 그때, 커튼을 열고 알비트의 모습이…",
+		order = 2,
+		audition_text = "어머… 내 심박수에서 답을 확인하고 싶어?",
+		ship_id = 40406,
+		id = 30,
+		captions_color = "#4c505b",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					19
 				},
 				{
 					23,

@@ -287,15 +287,15 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene skinshop",
+			"scene Cryptolalia",
 			{}
 		},
 		time = {
 			{
 				{
 					2026,
-					7,
-					30
+					8,
+					13
 				},
 				{
 					0,
@@ -307,7 +307,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					12
+					19
 				},
 				{
 					23,

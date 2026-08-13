@@ -31052,24 +31052,24 @@ cs.gametip = {
 		1491549,
 		93
 	},
-	auction_network_timeout = {
-		1491642,
-		142
-	},
 	escape_series_pt = {
-		1491784,
+		1491642,
 		90
 	},
 	escape_series_rank = {
-		1491874,
+		1491732,
 		88
 	},
 	escape_series_task = {
-		1491962,
+		1491820,
 		95
 	},
 	escape_story_reward_count = {
-		1492057,
+		1491915,
 		154
+	},
+	auction_network_timeout = {
+		1492069,
+		142
 	}
 }

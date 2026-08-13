@@ -330,28 +330,6 @@ end
 temp()
 
 temp = function()
-	uv0["纽"] = {
-		["伦"] = {
-			["堡"] = {
-				["·"] = {
-					M = {
-						E = {
-							T = {
-								A = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["준"] = {
 		["요"] = {
 			["·"] = {

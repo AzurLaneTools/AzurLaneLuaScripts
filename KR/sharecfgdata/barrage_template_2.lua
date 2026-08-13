@@ -2602,8 +2602,8 @@ _G.pg.base.barrage_template_2[184052] = {
 	offset_prioritise = false,
 	delta_offset_x = 0,
 	offset_x = 0,
-	delta_delay = 0,
-	delay = 0.1,
+	delta_delay = 0.07,
+	delay = 0,
 	delta_offset_z = 0,
 	delta_angle = 0,
 	primal_repeat = 2,
@@ -2649,11 +2649,11 @@ _G.pg.base.barrage_template_2[184054] = {
 	primal_repeat = 0,
 	offset_z = 0,
 	first_delay = 0,
-	random_angle = true,
+	random_angle = false,
 	senior_repeat = 0,
 	id = 184054,
 	senior_delay = 0,
-	angle = 2,
+	angle = 0,
 	trans_ID = -1
 }
 

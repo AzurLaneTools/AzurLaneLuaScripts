@@ -448,6 +448,7 @@ pg.name_code.all = {
 	564,
 	565,
 	566,
+	567,
 	10000,
 	10001,
 	10002,
@@ -3582,6 +3583,13 @@ end)()
 		type = 1,
 		id = 566,
 		code = "고대의 강철 드래곤이자 영원의 생명을 지닌, 하늘을 다스리는 자",
+		nation = 0
+	}
+	pg.base.name_code[567] = {
+		name = "纽伦堡·META",
+		type = 1,
+		id = 567,
+		code = "诺菈·META",
 		nation = 0
 	}
 	pg.base.name_code[10000] = {
