@@ -105689,17 +105689,16 @@ _G.pg.base.ship_skin_template[207122] = {
 	voice_lang = "",
 	time = "",
 	lip_sync_gain = 0,
-	live2d_offset_profile = "",
 	show_skin = "stand",
 	tag = {
 		9,
 		2
 	},
 	live2d_offset = {
-		0,
+		35,
 		-68,
 		0,
-		76.43
+		80
 	},
 	shop_offset = {
 		0,
@@ -105712,6 +105711,12 @@ _G.pg.base.ship_skin_template[207122] = {
 		-68,
 		0,
 		74
+	},
+	live2d_offset_profile = {
+		26,
+		-13,
+		0,
+		67.5
 	},
 	fx_container = {
 		{

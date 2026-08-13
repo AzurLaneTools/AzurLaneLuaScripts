@@ -49377,9 +49377,11 @@ end)()
 			ui_name = "StarsCityMainPage"
 		},
 		config_client = {
+			is_showMedal = true,
+			medal_group_id = 51110,
 			buildLinkActID = 51103,
-			fightLinkActID = 51101,
 			shopItemID = 71387,
+			fightLinkActID = 51101,
 			task_id = 27392,
 			entrance_bg = "activitybanner/temp10",
 			PTID = 741

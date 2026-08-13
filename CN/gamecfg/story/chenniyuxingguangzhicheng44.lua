@@ -48,13 +48,12 @@ return {
 			}
 		},
 		{
-			expression = 0,
-			side = 2,
-			bgName = "star_level_bg_543",
-			nameColor = "#A9F548FF",
 			actor = 101560,
-			actorName = "柯莱特？",
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_543",
 			hidePaintObj = true,
+			side = 2,
+			actorName = "柯莱特？",
 			say = "好险好险……还好提前做好了准备……",
 			typewriter = {
 				speed = 0.05,

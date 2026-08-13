@@ -99,7 +99,7 @@ slot0.GetGroupIDByMedalID = function(slot0)
 end
 
 slot0.showTip = function(slot0)
-	slot2 = pg.activity_medal_group[groupId] and slot1.activity_link or {}
+	slot2 = pg.activity_medal_group[slot0] and slot1.activity_link or {}
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(slot2) do
@@ -111,7 +111,7 @@ slot0.showTip = function(slot0)
 	end
 
 	if not slot3 then
-		return 0, 0, 0
+		return false
 	end
 
 	slot4 = getProxy(TaskProxy)

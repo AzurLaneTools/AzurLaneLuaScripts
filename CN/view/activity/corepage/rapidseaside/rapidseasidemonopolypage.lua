@@ -68,6 +68,7 @@ slot0.OnFirstFlush = function(slot0)
 		}))
 	end, SFX_PANEL)
 	setText(slot0.Txtmanual, i18n("anniversary_nine_main_page"))
+	slot0:UpdateRed()
 end
 
 slot0.OnUpdateFlush = function(slot0)
