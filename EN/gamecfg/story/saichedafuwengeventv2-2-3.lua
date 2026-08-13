@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "Guam wrote too big a number on the supply requisition form. You received 100 Oil!"
+			say = "因为罗杰斯在填写预算申请书时产生的笔误，额外获得了【石油*100】"
 		}
 	}
 }

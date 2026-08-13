@@ -149,6 +149,12 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
+	if slot4:GetMode() == Story.MODE_SUBPAGE and not slot4:ShouldShowSubPage() then
+		slot3()
+
+		return
+	end
+
 	pg.NewStoryMgr.GetInstance():AddRecord(slot4)
 
 	if slot4:ShouldJumpToNextScript() then

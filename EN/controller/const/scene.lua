@@ -531,6 +531,7 @@ slot0 = {
 
 		if slot0.data.type == nil then
 			slot0.extendData(slot0, {
+				shop1 = "skinShop",
 				type = "skin"
 			})
 		end

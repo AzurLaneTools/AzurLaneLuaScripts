@@ -132,7 +132,9 @@ pg.medal_template.all = {
 	200161,
 	200171,
 	200181,
-	200191
+	200191,
+	200201,
+	200211
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2984,6 +2986,48 @@ A medal based on the Anchorage National Observatory.
 		rank = 1,
 		id = 200191,
 		explain1 = "Authentic Horror Story: Escape from White Night Manor!",
+		explain2 = "Event"
+	}
+	pg.base.medal_template[200201] = {
+		target_id = "51110",
+		name = "Astrarium Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "Lost traveler, you have both beheld and shattered the sweet dream that was Astrarium.",
+		next = 0,
+		icon = "9201",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9201",
+		condition = "Collect 8 stickers in Depths of the Astrarium.",
+		rank = 1,
+		id = 200201,
+		explain1 = "Depths of the Astrarium",
+		explain2 = "Event"
+	}
+	pg.base.medal_template[200211] = {
+		target_id = "51113",
+		name = "Wavechasers Medal",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "Engines roar, tires squeal. Hot pavement touched by the cool sea breeze stretches forth. Full speed ahead, toward victory!",
+		next = 0,
+		icon = "9211",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9211",
+		condition = "Collect 7 stickers in Scorching Summer Wavechasers.",
+		rank = 1,
+		id = 200211,
+		explain1 = "Seaside Speedstars",
 		explain2 = "Event"
 	}
 end)()

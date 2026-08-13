@@ -22,6 +22,10 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	setActive(slot0._tf, false)
 end
 
+slot0.GetUiAtlas = function(slot0)
+	return "ui/MonopolyCar2024_atlas"
+end
+
 slot0.emit = function(slot0, ...)
 	slot0.event:emit(...)
 end
@@ -30,7 +34,7 @@ slot0.Show = function(slot0, slot1, slot2, slot3)
 	setActive(slot0._tf, true)
 	slot0.anim:Play("anim_monopolycar_bubble_show")
 
-	slot0.head.sprite = GetSpriteFromAtlas("ui/MonopolyCar2024_atlas", slot2)
+	slot0.head.sprite = GetSpriteFromAtlas(slot0:GetUiAtlas(), slot2)
 
 	slot0.head:SetNativeSize()
 

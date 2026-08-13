@@ -14,6 +14,7 @@ pg.item_data_frame.all = {
 	107,
 	108,
 	109,
+	110,
 	201,
 	202,
 	203,
@@ -208,6 +209,15 @@ pg.base.item_data_frame = {}
 		id = 109,
 		time_limit_type = 0,
 		desc = "<color=#A7A7AA>Granted to all Commanders who have defended the port for seven years.</color>\nEarned by participating in the 7th Anniversary limited event.",
+		scene = {}
+	}
+	pg.base.item_data_frame[110] = {
+		name = "8th Anniversary",
+		gain_by = "",
+		time_second = 0,
+		id = 110,
+		time_limit_type = 0,
+		desc = "Granted to all Commanders who have defended the port for eight years.\n<color=#A7A7AA>Earned by participating in the 8th Anniversary limited event.</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[201] = {
@@ -671,7 +681,7 @@ pg.base.item_data_frame = {}
 	}
 	pg.base.item_data_frame[342] = {
 		name = "Dreams of Astrarium",
-		gain_by = "",
+		gain_by = "沉溺于星光之城",
 		time_second = 0,
 		id = 342,
 		time_limit_type = 0,
@@ -1011,6 +1021,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>Paw prints and cat tail have appeared in the data stream! It's a hyperspace kitty's greeting.</color>\nCan be obtained by raising Admiral Nakhimov's Intimacy in the Private Quarters.",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10001] = {
 		name = "Extreme Challenge - Gemini",
 		gain_by = "",
@@ -1020,8 +1032,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Gemini. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 6/15/23 - 6/30/23 Season.",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10002] = {
 		name = "Extreme Challenge - Cancer",
 		gain_by = "",

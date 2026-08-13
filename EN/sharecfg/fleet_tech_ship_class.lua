@@ -475,7 +475,9 @@ pg.base.fleet_tech_ship_class = {}
 			10143,
 			10155,
 			19905,
-			10110
+			10110,
+			10157,
+			10158
 		}
 	}
 	pg.base.fleet_tech_ship_class[10105] = {
@@ -528,7 +530,8 @@ pg.base.fleet_tech_ship_class = {}
 			10144,
 			10148,
 			10149,
-			10151
+			10151,
+			10156
 		}
 	}
 	pg.base.fleet_tech_ship_class[10109] = {
@@ -573,7 +576,8 @@ pg.base.fleet_tech_ship_class = {}
 			10225,
 			10231,
 			10234,
-			10235
+			10235,
+			10236
 		}
 	}
 	pg.base.fleet_tech_ship_class[10203] = {
@@ -972,6 +976,7 @@ pg.base.fleet_tech_ship_class = {}
 			10714,
 			10716,
 			10717,
+			10720,
 			10738
 		}
 	}

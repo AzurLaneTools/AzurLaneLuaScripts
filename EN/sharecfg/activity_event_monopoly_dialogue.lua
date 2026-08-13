@@ -29,7 +29,34 @@ pg.activity_event_monopoly_dialogue.all = {
 	126,
 	127,
 	128,
-	129
+	129,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159
 }
 pg.base = pg.base or {}
 pg.base.activity_event_monopoly_dialogue = {}
@@ -142,5 +169,113 @@ pg.base.activity_event_monopoly_dialogue = {}
 	pg.base.activity_event_monopoly_dialogue[129] = {
 		id = 129,
 		dialogue = "I saw it. Victory awaits your arrival."
+	}
+	pg.base.activity_event_monopoly_dialogue[131] = {
+		id = 131,
+		dialogue = "Commander, the camera is ready! Let's film today's track vlog. Three, two, one... Rolling!"
+	}
+	pg.base.activity_event_monopoly_dialogue[132] = {
+		id = 132,
+		dialogue = "Perfect! Don't forget to leave a Like to boost the video!"
+	}
+	pg.base.activity_event_monopoly_dialogue[133] = {
+		id = 133,
+		dialogue = "Whoa! You really know what it means to be the best partner, Commander!"
+	}
+	pg.base.activity_event_monopoly_dialogue[134] = {
+		id = 134,
+		dialogue = "Slow and steady wins the race~ I'll edit this part to be super moody."
+	}
+	pg.base.activity_event_monopoly_dialogue[135] = {
+		id = 135,
+		dialogue = "Don't rush too much. Safety first, remember?"
+	}
+	pg.base.activity_event_monopoly_dialogue[136] = {
+		id = 136,
+		dialogue = "Just like that, Commander! You look even cooler than usual right now!"
+	}
+	pg.base.activity_event_monopoly_dialogue[137] = {
+		id = 137,
+		dialogue = "Ooh, good pace! The speed and the cheers are perfect!"
+	}
+	pg.base.activity_event_monopoly_dialogue[138] = {
+		id = 138,
+		dialogue = "Go, go, go! All the way to the finish line, Commander!"
+	}
+	pg.base.activity_event_monopoly_dialogue[139] = {
+		id = 139,
+		dialogue = "Wow! This baby accelerates like nothing I've ever seen before!"
+	}
+	pg.base.activity_event_monopoly_dialogue[141] = {
+		id = 141,
+		dialogue = "Hmm... The view is perfect. Let's get ready to go, Commander."
+	}
+	pg.base.activity_event_monopoly_dialogue[142] = {
+		id = 142,
+		dialogue = "Oh? Already at the goal? Very impressive, Commander."
+	}
+	pg.base.activity_event_monopoly_dialogue[143] = {
+		id = 143,
+		dialogue = "You're still going? *sigh*... Fine. Switching could be troublesome."
+	}
+	pg.base.activity_event_monopoly_dialogue[144] = {
+		id = 144,
+		dialogue = "Take it slowly, if you'd like. At least it feels smoother this way..."
+	}
+	pg.base.activity_event_monopoly_dialogue[145] = {
+		id = 145,
+		dialogue = "This speed is on the leisurely side... but that, too, is part of the racing experience."
+	}
+	pg.base.activity_event_monopoly_dialogue[146] = {
+		id = 146,
+		dialogue = "This pace is just right for me. It's not tiring, but not too lax, either."
+	}
+	pg.base.activity_event_monopoly_dialogue[147] = {
+		id = 147,
+		dialogue = "Your route is looking good. Keep up this pace, and we should make it to the finish line with ease."
+	}
+	pg.base.activity_event_monopoly_dialogue[148] = {
+		id = 148,
+		dialogue = "Oh? You're awfully motivated, Commander... Then I'll take this seriously, too."
+	}
+	pg.base.activity_event_monopoly_dialogue[149] = {
+		id = 149,
+		dialogue = "An impressive pace. Victory shouldn't be far off for long."
+	}
+	pg.base.activity_event_monopoly_dialogue[151] = {
+		id = 151,
+		dialogue = "Heehee... Let me see your prowess on the track."
+	}
+	pg.base.activity_event_monopoly_dialogue[152] = {
+		id = 152,
+		dialogue = "Well done. That was an impressive lap. I've noted down your data and routing information."
+	}
+	pg.base.activity_event_monopoly_dialogue[153] = {
+		id = 153,
+		dialogue = "Heehee, do you want me by your side? If you must have me around, then I will never leave you."
+	}
+	pg.base.activity_event_monopoly_dialogue[154] = {
+		id = 154,
+		dialogue = "Commander, the key to victory lies beneath a calm bearing."
+	}
+	pg.base.activity_event_monopoly_dialogue[155] = {
+		id = 155,
+		dialogue = "There's nothing wrong with cautious driving. Victory cannot come without safely reaching the finish line."
+	}
+	pg.base.activity_event_monopoly_dialogue[156] = {
+		id = 156,
+		dialogue = "Don't lose your rhythm. Press onward!"
+	}
+	pg.base.activity_event_monopoly_dialogue[157] = {
+		id = 157,
+		dialogue = "Very good! Keep it up, and let your engine roar!"
+	}
+	pg.base.activity_event_monopoly_dialogue[158] = {
+		id = 158,
+		dialogue = "Keep up that momentum and carve a path forward."
+	}
+	pg.base.activity_event_monopoly_dialogue[159] = {
+		id = 159,
+		dialogue = "Heehee, very smooth acceleration. Victory is within reach."
 	}
 end)()

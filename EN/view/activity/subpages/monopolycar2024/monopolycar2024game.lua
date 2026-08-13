@@ -26,14 +26,25 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.cg = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
-	slot0.pickPage = MonopolyCar2024PickPage.New(slot2, slot3)
-	slot0.bubblePage = MonopolyCar2024BubblePage.New(slot2:Find("bubble"), slot3)
+	slot0.maskTr = findTF(slot0._tf.parent, "mask")
+	slot0.pickPage = slot0:NewPickPage(slot2, slot3)
+	slot0.bubblePage = slot0:NewBubblePage(slot2, slot3)
 	slot0.awardWindow = AwardWindow.New(slot2, slot3)
 	slot0.resultPage = MonopolyCar2024TotalRewardPanel.New(slot2, slot3)
 	slot0.awardCollector = MonopolyCar2024GameAwardCollector.New()
 
 	slot0:UpdateActData(slot1)
-	slot0:Setup()
+end
+
+slot0.UpdateStory = function(slot0)
+end
+
+slot0.NewBubblePage = function(slot0, slot1, slot2)
+	return MonopolyCar2024BubblePage.New(slot1:Find("bubble"), slot2)
+end
+
+slot0.NewPickPage = function(slot0, slot1, slot2)
+	return MonopolyCar2024PickPage.New(slot1, slot2)
 end
 
 slot0.emit = function(slot0, ...)
@@ -73,8 +84,7 @@ slot0.UpdateActData = function(slot0, slot1)
 end
 
 slot0.Setup = function(slot0)
-	slot0.cg.blocksRaycasts = false
-
+	slot0:BlocksRaycasts(false)
 	seriesAsync({
 		function (slot0)
 			uv0:InitUI()
@@ -83,6 +93,9 @@ slot0.Setup = function(slot0)
 		end,
 		function (slot0)
 			uv0:InitCheerLeaders(slot0)
+		end,
+		function (slot0)
+			uv0:OnEnterDone(slot0)
 		end,
 		function (slot0)
 			uv0:RegisterUI()
@@ -98,10 +111,28 @@ slot0.Setup = function(slot0)
 		end,
 		function (slot0)
 			uv0:CheckPickCharacter(slot0)
+		end,
+		function (slot0)
+			uv0:InitDone(slot0)
+		end,
+		function (slot0)
+			uv0:CheckMainStorys(slot0)
 		end
 	}, function ()
-		uv0.cg.blocksRaycasts = true
+		uv0:BlocksRaycasts(true)
 	end)
+end
+
+slot0.CheckMainStorys = function(slot0, slot1)
+	slot1()
+end
+
+slot0.OnEnterDone = function(slot0, slot1)
+	slot1()
+end
+
+slot0.InitDone = function(slot0, slot1)
+	slot1()
 end
 
 slot0.InitCheerLeaders = function(slot0, slot1)
@@ -154,7 +185,7 @@ slot0.InitUI = function(slot0)
 	slot0.btnAutoImg = slot1:GetComponent(typeof(Image))
 	slot0.btnAutoSel = findTF(slot0.topTr, "btnAuto/Text")
 	slot0.btnAutoAct = findTF(slot0.topTr, "btnAuto/actvie")
-	slot0.btnBack = findTF(slot0._tf, "btnBack")
+	slot0.btnBack = findTF(slot0._tf.parent, "adapt_1/btnBack")
 	slot0.labelLeftCount = findTF(slot0.btnStart, "Text")
 	slot0.register = findTF(slot0._tf, "register")
 	slot0.registerTxt = findTF(slot0._tf, "register/Text")
@@ -167,7 +198,7 @@ slot0.InitUI = function(slot0)
 		slot0.register
 	}
 
-	setActive(slot0.rollStep, false)
+	slot0:SetRollStepAct(false)
 end
 
 slot0.RegisterUI = function(slot0)
@@ -262,6 +293,7 @@ slot0.RollAuto = function(slot0)
 		slot0.autoFlag = false
 
 		slot0:DisplayResult()
+		slot0:UpdateAutoBtn()
 
 		return
 	end
@@ -271,9 +303,19 @@ slot0.RollAuto = function(slot0)
 	end)
 end
 
+slot0.BlocksRaycasts = function(slot0, slot1)
+	slot0.cg.blocksRaycasts = slot1
+
+	setActive(slot0.maskTr, not slot1)
+
+	slot0.isBlocksRaycasts = not slot1
+end
+
 slot0.Roll = function(slot0, slot1)
 	slot2 = 0
-	slot0.cg.blocksRaycasts = false
+
+	slot0:BlocksRaycasts(false)
+
 	slot0.rolling = true
 
 	seriesAsync({
@@ -308,11 +350,14 @@ slot0.Roll = function(slot0, slot1)
 				finished = true,
 				shipId = uv0.selectedShipId
 			}, slot0)
+		end,
+		function (slot0)
+			uv0:CheckMainStorys(slot0)
 		end
 	}, function ()
 		uv0:UpdateAutoBtn()
+		uv0:BlocksRaycasts(true)
 
-		uv0.cg.blocksRaycasts = true
 		uv0.rolling = false
 
 		if uv1 then
@@ -380,7 +425,7 @@ slot0.PlayRollAnimation = function(slot0, slot1, slot2)
 			uv2:Play("anim_monopolycar_mainui_btn_hide")
 		end,
 		function (slot0)
-			setActive(uv0.rollStep, true)
+			uv0:SetRollStepAct(true)
 			slot0()
 		end,
 		function (slot0)
@@ -391,7 +436,7 @@ slot0.PlayRollAnimation = function(slot0, slot1, slot2)
 		end,
 		function (slot0)
 			uv0:SetEndEvent(function ()
-				setActive(uv0.rollStep, false)
+				uv0:SetRollStepAct(false)
 				uv1()
 			end)
 			uv2:Play("anim_monopolycar_mainui_step_hide")
@@ -401,6 +446,10 @@ slot0.PlayRollAnimation = function(slot0, slot1, slot2)
 		uv1:Play("anim_monopolycar_mainui_btn_show")
 		uv2()
 	end)
+end
+
+slot0.SetRollStepAct = function(slot0, slot1)
+	setActive(slot0.rollStep, slot1)
 end
 
 slot0.CheckEventAndMove = function(slot0, slot1)
@@ -722,7 +771,7 @@ slot0.CheckPickCharacter = function(slot0, slot1)
 
 		slot5:ExecuteAction("Show", slot0.actId, _.map(slot0.pickCharList, function (slot0)
 			return table.indexof(uv0.pickableShipId, slot0)
-		end), slot0.autoFlag, function (slot0)
+		end), slot0.autoFlag, slot0.turnCnt, function (slot0)
 			slot1 = uv0.pickableShipId[slot0]
 			slot2 = uv0
 
@@ -880,7 +929,10 @@ slot0.UpdateActivity = function(slot0, slot1)
 end
 
 slot0.Dispose = function(slot0)
-	for slot4, slot5 in pairs(slot0.cheerLeaders) do
+	slot1 = pairs
+	slot2 = slot0.cheerLeaders or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		PoolMgr.GetInstance():ReturnSpineChar(slot4, slot5)
 	end
 

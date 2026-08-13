@@ -4156,6 +4156,77 @@ pg.memory_template.all = {
 	5248,
 	5249,
 	5311,
+	5321,
+	5322,
+	5323,
+	5324,
+	5325,
+	5326,
+	5327,
+	5328,
+	5329,
+	5330,
+	5331,
+	5332,
+	5333,
+	5334,
+	5335,
+	5336,
+	5337,
+	5338,
+	5339,
+	5340,
+	5341,
+	5342,
+	5343,
+	5344,
+	5345,
+	5346,
+	5347,
+	5348,
+	5349,
+	5350,
+	5351,
+	5352,
+	5353,
+	5354,
+	5355,
+	5356,
+	5357,
+	5358,
+	5359,
+	5360,
+	5361,
+	5362,
+	5363,
+	5364,
+	5365,
+	5366,
+	5371,
+	5372,
+	5373,
+	5381,
+	5382,
+	5383,
+	5384,
+	5385,
+	5386,
+	5387,
+	5388,
+	5389,
+	5390,
+	5391,
+	5392,
+	5393,
+	5394,
+	5395,
+	5396,
+	5397,
+	5398,
+	5399,
+	5400,
+	5401,
+	5402,
 	10011,
 	10012,
 	10013,
@@ -79256,6 +79327,1286 @@ end)()
 			"TEBIEJINGPAISHIKE1"
 		}
 	}
+	pg.base.memory_template[5321] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The First Dream",
+		condition = "Unlock EP1-1",
+		story = "CHENNIYUXINGGUANGZHICHENG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5321,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG1"
+		}
+	}
+	pg.base.memory_template[5322] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "An Alley Anomaly",
+		condition = "Unlock EP1-2",
+		story = "CHENNIYUXINGGUANGZHICHENG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5322,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG2"
+		}
+	}
+	pg.base.memory_template[5323] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Pupil Becomes the Master",
+		condition = "Unlock EP1-3",
+		story = "CHENNIYUXINGGUANGZHICHENG3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5323,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG3"
+		}
+	}
+	pg.base.memory_template[5324] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Lower City",
+		condition = "Unlock EP1-4",
+		story = "CHENNIYUXINGGUANGZHICHENG4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5324,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG4"
+		}
+	}
+	pg.base.memory_template[5325] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Rules of Astrarium",
+		condition = "Unlock EP1-5",
+		story = "CHENNIYUXINGGUANGZHICHENG5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5325,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG5"
+		}
+	}
+	pg.base.memory_template[5326] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Instruction",
+		condition = "Unlock EP2-1",
+		story = "CHENNIYUXINGGUANGZHICHENG6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5326,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG6"
+		}
+	}
+	pg.base.memory_template[5327] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "An Idol's Fan Club",
+		condition = "Unlock EP2-2",
+		story = "CHENNIYUXINGGUANGZHICHENG7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5327,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG7"
+		}
+	}
+	pg.base.memory_template[5328] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Fragments of Emotion",
+		condition = "Unlock EP2-3",
+		story = "CHENNIYUXINGGUANGZHICHENG8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5328,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG8"
+		}
+	}
+	pg.base.memory_template[5329] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Crime Scene Investigation",
+		condition = "Unlock EP2-4",
+		story = "CHENNIYUXINGGUANGZHICHENG9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5329,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG9"
+		}
+	}
+	pg.base.memory_template[5330] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Equivalent Exchange",
+		condition = "Unlock EP2-5",
+		story = "CHENNIYUXINGGUANGZHICHENG10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5330,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG10"
+		}
+	}
+	pg.base.memory_template[5331] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Investigation Grows",
+		condition = "Unlock EP3-1",
+		story = "CHENNIYUXINGGUANGZHICHENG11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5331,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG11"
+		}
+	}
+	pg.base.memory_template[5332] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Security Specialist",
+		condition = "Unlock EP3-2",
+		story = "CHENNIYUXINGGUANGZHICHENG12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5332,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG12"
+		}
+	}
+	pg.base.memory_template[5333] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Thief's Whereabouts",
+		condition = "Unlock EP3-3",
+		story = "CHENNIYUXINGGUANGZHICHENG13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5333,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG13"
+		}
+	}
+	pg.base.memory_template[5334] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "To the Metropolis",
+		condition = "Unlock EP3-4",
+		story = "CHENNIYUXINGGUANGZHICHENG14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5334,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG14"
+		}
+	}
+	pg.base.memory_template[5335] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Reaching Astral Tower",
+		condition = "Unlock EP4-1",
+		story = "CHENNIYUXINGGUANGZHICHENG15",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5335,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG15"
+		}
+	}
+	pg.base.memory_template[5336] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Performance Permit",
+		condition = "Unlock EP4-2",
+		story = "CHENNIYUXINGGUANGZHICHENG16",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5336,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG16"
+		}
+	}
+	pg.base.memory_template[5337] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Eternal Overtime",
+		condition = "Unlock EP4-3",
+		story = "CHENNIYUXINGGUANGZHICHENG17",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5337,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG17"
+		}
+	}
+	pg.base.memory_template[5338] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Permits Abound",
+		condition = "Unlock EP4-4",
+		story = "CHENNIYUXINGGUANGZHICHENG18",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5338,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG18"
+		}
+	}
+	pg.base.memory_template[5339] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Information Management",
+		condition = "Unlock EP4-5",
+		story = "CHENNIYUXINGGUANGZHICHENG19",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5339,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG19"
+		}
+	}
+	pg.base.memory_template[5340] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Venue Usage Permit",
+		condition = "Unlock EP5-1",
+		story = "CHENNIYUXINGGUANGZHICHENG20",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5340,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG20"
+		}
+	}
+	pg.base.memory_template[5341] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Next Steps",
+		condition = "Unlock EP5-2",
+		story = "CHENNIYUXINGGUANGZHICHENG21",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5341,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG21"
+		}
+	}
+	pg.base.memory_template[5342] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Let's Start a Band!",
+		condition = "Unlock EP5-3",
+		story = "CHENNIYUXINGGUANGZHICHENG22",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5342,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG22"
+		}
+	}
+	pg.base.memory_template[5343] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Shining☆Forever",
+		condition = "Unlock EP5-4",
+		story = "CHENNIYUXINGGUANGZHICHENG23",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5343,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG23"
+		}
+	}
+	pg.base.memory_template[5344] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Stage Equipment Permit",
+		condition = "Unlock EP5-5",
+		story = "CHENNIYUXINGGUANGZHICHENG24",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5344,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG24"
+		}
+	}
+	pg.base.memory_template[5345] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "PM Plaza",
+		condition = "Unlock EP5-6",
+		story = "CHENNIYUXINGGUANGZHICHENG25",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5345,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG25"
+		}
+	}
+	pg.base.memory_template[5346] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Costume Permit",
+		condition = "Unlock EP5-7",
+		story = "CHENNIYUXINGGUANGZHICHENG26",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5346,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG26"
+		}
+	}
+	pg.base.memory_template[5347] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Cursed Business Cards",
+		condition = "Unlock EP5-8",
+		story = "CHENNIYUXINGGUANGZHICHENG27",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5347,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG27"
+		}
+	}
+	pg.base.memory_template[5348] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Advertising Permit",
+		condition = "Unlock EP5-9",
+		story = "CHENNIYUXINGGUANGZHICHENG28",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5348,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG28"
+		}
+	}
+	pg.base.memory_template[5349] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Bigger Is Better",
+		condition = "Unlock EP6-1",
+		story = "CHENNIYUXINGGUANGZHICHENG29",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5349,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG29"
+		}
+	}
+	pg.base.memory_template[5350] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Richard's Plan",
+		condition = "Unlock EP6-2",
+		story = "CHENNIYUXINGGUANGZHICHENG30",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5350,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG30"
+		}
+	}
+	pg.base.memory_template[5351] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "High-Octane Racing",
+		condition = "Unlock EP6-3",
+		story = "CHENNIYUXINGGUANGZHICHENG31",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5351,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG31"
+		}
+	}
+	pg.base.memory_template[5352] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Security Permit",
+		condition = "Unlock EP6-4",
+		story = "CHENNIYUXINGGUANGZHICHENG32",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5352,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG32"
+		}
+	}
+	pg.base.memory_template[5353] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Second Dream",
+		condition = "Unlock EP7-1",
+		story = "CHENNIYUXINGGUANGZHICHENG33",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5353,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG33"
+		}
+	}
+	pg.base.memory_template[5354] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Awakening",
+		condition = "Unlock EP7-2",
+		story = "CHENNIYUXINGGUANGZHICHENG34",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5354,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG34"
+		}
+	}
+	pg.base.memory_template[5355] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Of Moths and Flames",
+		condition = "Unlock EP7-3",
+		story = "CHENNIYUXINGGUANGZHICHENG35",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5355,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG35"
+		}
+	}
+	pg.base.memory_template[5356] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "Long Way Home",
+		condition = "Unlock EP7-4",
+		story = "2056001",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5356,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2056001"
+		}
+	}
+	pg.base.memory_template[5357] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Face-Off",
+		condition = "Unlock EP7-5",
+		story = "CHENNIYUXINGGUANGZHICHENG37",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5357,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG37"
+		}
+	}
+	pg.base.memory_template[5358] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "The Battle of Astrarium",
+		condition = "Unlock EP8-1",
+		story = "2056002",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5358,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2056002"
+		}
+	}
+	pg.base.memory_template[5359] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Beyond the Starlight",
+		condition = "Unlock EP8-2",
+		story = "CHENNIYUXINGGUANGZHICHENG39",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5359,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG39"
+		}
+	}
+	pg.base.memory_template[5360] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "The Battle of Astrarium II",
+		condition = "Unlock EP8-3",
+		story = "2056003",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5360,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2056003"
+		}
+	}
+	pg.base.memory_template[5361] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "The Battle of Astrarium III",
+		condition = "Unlock EP8-4",
+		story = "2056004",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5361,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2056004"
+		}
+	}
+	pg.base.memory_template[5362] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Confusion",
+		condition = "Unlock EP5-9",
+		story = "CHENNIYUXINGGUANGZHICHENG42",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5362,
+		icon = "memory_chenniyuxingguangzhicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG42"
+		}
+	}
+	pg.base.memory_template[5363] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Pandora's Wish",
+		condition = "Unlock EX-1",
+		story = "CHENNIYUXINGGUANGZHICHENG43",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5363,
+		icon = "memory_chenniyuxingguangzhicheng2",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG43"
+		}
+	}
+	pg.base.memory_template[5364] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "An Investigator's Secrets",
+		condition = "Unlock EX-2",
+		story = "CHENNIYUXINGGUANGZHICHENG44",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5364,
+		icon = "memory_chenniyuxingguangzhicheng2",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG44"
+		}
+	}
+	pg.base.memory_template[5365] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Joint Expedition",
+		condition = "Unlock EX-3",
+		story = "CHENNIYUXINGGUANGZHICHENG45",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5365,
+		icon = "memory_chenniyuxingguangzhicheng2",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG45"
+		}
+	}
+	pg.base.memory_template[5366] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "What Comes Next",
+		condition = "Unlock EX-4",
+		story = "CHENNIYUXINGGUANGZHICHENG46",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5366,
+		icon = "memory_chenniyuxingguangzhicheng2",
+		is_open = 0,
+		unlock_pre = {
+			"CHENNIYUXINGGUANGZHICHENG46"
+		}
+	}
+	pg.base.memory_template[5371] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Vittorio Cuniberti's New Journey",
+		condition = "Get Daisen to Dev. Level 30.",
+		story = "LUCK69903",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5371,
+		icon = "memory_jhkunibeierdi",
+		is_open = 0,
+		unlock_pre = {
+			"LUCK69903"
+		}
+	}
+	pg.base.memory_template[5372] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Dmitri Donskoi's New Journey",
+		condition = "Get Daisen to Dev. Level 30.",
+		story = "LUCK79903",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5372,
+		icon = "memory_jhdimiteli",
+		is_open = 0,
+		unlock_pre = {
+			"LUCK79903"
+		}
+	}
+end)()
+(function ()
+	pg.base.memory_template[5373] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Kansas's New Journey",
+		condition = "Get Daisen to Dev. Level 30.",
+		story = "LUCK19906",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5373,
+		icon = "memory_jhkansasi",
+		is_open = 0,
+		unlock_pre = {
+			"LUCK19906"
+		}
+	}
+	pg.base.memory_template[5381] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Summer Breeze, Cameras, and Engines",
+		condition = "Begin the Scorching Summer Wavechasers event.",
+		story = "BINHAIJISU1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5381,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU1"
+		}
+	}
+	pg.base.memory_template[5382] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Trouble? Pit Team to the Rescue!",
+		condition = "Designate a crewmate.",
+		story = "BINHAIJISU2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5382,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU2"
+		}
+	}
+	pg.base.memory_template[5383] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Helping Hand for the Rookie Team",
+		condition = "Complete 1 lap in the race.",
+		story = "BINHAIJISU3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5383,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU3"
+		}
+	}
+	pg.base.memory_template[5384] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Techie Jackpot",
+		condition = "Complete 2 laps in the race.",
+		story = "BINHAIJISU4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5384,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU4"
+		}
+	}
+	pg.base.memory_template[5385] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Pulling Her Back In",
+		condition = "Complete 3 laps in the race.",
+		story = "BINHAIJISU5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5385,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU5"
+		}
+	}
+	pg.base.memory_template[5386] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Pole Position Will Be Ours!",
+		condition = "Complete 4 laps in the race.",
+		story = "BINHAIJISU6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5386,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU6"
+		}
+	}
+	pg.base.memory_template[5387] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Let the Qualifier Begin!",
+		condition = "Complete 5 laps in the race.",
+		story = "BINHAIJISU7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5387,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU7"
+		}
+	}
+	pg.base.memory_template[5388] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Wind-Racing Ace",
+		condition = "Complete 6 laps in the race.",
+		story = "BINHAIJISU8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5388,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU8"
+		}
+	}
+	pg.base.memory_template[5389] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Main Event Begins!",
+		condition = "Complete 7 laps in the race.",
+		story = "BINHAIJISU9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5389,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU9"
+		}
+	}
+	pg.base.memory_template[5390] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Pro Difference",
+		condition = "Complete 8 laps in the race.",
+		story = "BINHAIJISU10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5390,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU10"
+		}
+	}
+	pg.base.memory_template[5391] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Team's Fightback",
+		condition = "Complete 9 laps in the race.",
+		story = "BINHAIJISU11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5391,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU11"
+		}
+	}
+	pg.base.memory_template[5392] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Millisecond Miracle",
+		condition = "Complete 10 laps in the race.",
+		story = "BINHAIJISU12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5392,
+		icon = "memory_binhaijisu1",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU12"
+		}
+	}
+	pg.base.memory_template[5393] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Huge Scoop!",
+		condition = "Begin the Scorching Summer Wavechasers event.",
+		story = "BINHAIJISU13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5393,
+		icon = "memory_binhaijisu2",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU13"
+		}
+	}
+	pg.base.memory_template[5394] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Chocolate Bar Heist?!",
+		condition = "Complete 1 lap in the race.",
+		story = "BINHAIJISU14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5394,
+		icon = "memory_binhaijisu2",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU14"
+		}
+	}
+	pg.base.memory_template[5395] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Let's Shoot a Promo Vid!",
+		condition = "Complete 2 laps in the race.",
+		story = "BINHAIJISU15",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5395,
+		icon = "memory_binhaijisu2",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU15"
+		}
+	}
+	pg.base.memory_template[5396] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Rest Before the Corner",
+		condition = "Complete 3 laps in the race.",
+		story = "BINHAIJISU16",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5396,
+		icon = "memory_binhaijisu2",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU16"
+		}
+	}
+	pg.base.memory_template[5397] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Technical Inspection",
+		condition = "Complete 4 laps in the race.",
+		story = "BINHAIJISU17",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5397,
+		icon = "memory_binhaijisu2",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU17"
+		}
+	}
+	pg.base.memory_template[5398] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Verabredung in the Night Breeze",
+		condition = "Complete 5 laps in the race.",
+		story = "BINHAIJISU18",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5398,
+		icon = "memory_binhaijisu2",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU18"
+		}
+	}
+	pg.base.memory_template[5399] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Hit the Gas",
+		condition = "Complete 6 laps in the race.",
+		story = "BINHAIJISU19",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5399,
+		icon = "memory_binhaijisu2",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU19"
+		}
+	}
+	pg.base.memory_template[5400] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Energy Supply Station",
+		condition = "Complete 7 laps in the race.",
+		story = "BINHAIJISU20",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5400,
+		icon = "memory_binhaijisu2",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU20"
+		}
+	}
+	pg.base.memory_template[5401] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Dazzling Diva of the Raceway",
+		condition = "Complete 8 laps in the race.",
+		story = "BINHAIJISU21",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5401,
+		icon = "memory_binhaijisu2",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU21"
+		}
+	}
+	pg.base.memory_template[5402] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Reward Just for You",
+		condition = "Complete 10 laps in the race.",
+		story = "BINHAIJISU22",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5402,
+		icon = "memory_binhaijisu2",
+		is_open = 0,
+		unlock_pre = {
+			"BINHAIJISU22"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80120,8 +81471,6 @@ end)()
 			"ZHUANGJIA1"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10072] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80644,6 +81993,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA20"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20020] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81922,8 +83273,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA10"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20091] = {
 		ship_group = 0,
 		subtitle = "",
@@ -82446,6 +83795,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA39"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20120] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83724,8 +85075,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA42"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20192] = {
 		ship_group = 0,
 		subtitle = "",

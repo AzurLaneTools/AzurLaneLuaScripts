@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "Da Vinci's improved engine helps you save on fuel now and then. You received 50 Oil!"
+			say = "Error十三世的车况提示间接降低了油耗，获得了【石油*50】"
 		}
 	}
 }

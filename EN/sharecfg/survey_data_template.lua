@@ -15,7 +15,8 @@ pg.survey_data_template.all = {
 	1010,
 	1014,
 	1011,
-	1013
+	1013,
+	1015
 }
 pg.base = pg.base or {}
 pg.base.survey_data_template = {}
@@ -234,6 +235,23 @@ pg.base.survey_data_template = {}
 		main_activity = "365863051",
 		ios_activity = "252629969",
 		uo_activity = "252629896",
+		bonus = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	}
+	pg.base.survey_data_template[1015] = {
+		ios_url = "",
+		uo_url = "",
+		main_url = "https://survey.yostar.net/vm/O4t7Fnh.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
+		id = 1015,
+		name = "Azur Lane 8th Anniversary Survey",
+		main_activity = "379875892",
+		ios_activity = "",
+		uo_activity = "",
 		bonus = {
 			{
 				2,

@@ -1937,7 +1937,7 @@ end)()
 	}
 	pg.base.gameset.skin_ticket = {
 		description = "",
-		key_value = 740
+		key_value = 747
 	}
 	pg.base.gameset.order_pt_max = {
 		key_value = 0,
@@ -4674,5 +4674,106 @@ end)()
 	pg.base.gameset.auction_relief_payment = {
 		description = "",
 		key_value = 500000
+	}
+	pg.base.gameset.minigame_crossroad_dead = {
+		description = "",
+		key_value = 5
+	}
+	pg.base.gameset.minigame_crossroad_child_speed = {
+		description = "",
+		key_value = 100
+	}
+	pg.base.gameset.minigame_crossroad_child_impulse = {
+		description = "",
+		key_value = 40
+	}
+	pg.base.gameset.minigame_crossroad_child_time = {
+		key_value = 0,
+		description = {
+			1,
+			3
+		}
+	}
+	pg.base.gameset.minigame_crossroad_points1 = {
+		description = "",
+		key_value = 100
+	}
+	pg.base.gameset.minigame_crossroad_points2 = {
+		description = "",
+		key_value = 300
+	}
+	pg.base.gameset.minigame_crossroad_points3 = {
+		description = "",
+		key_value = 50
+	}
+	pg.base.gameset.minigame_crossroad_command_speed = {
+		description = "",
+		key_value = 500
+	}
+	pg.base.gameset.minigame_crossroad_prop1_time = {
+		description = "",
+		key_value = 5
+	}
+	pg.base.gameset.minigame_crossroad_prop1_probability = {
+		description = "",
+		key_value = 30
+	}
+	pg.base.gameset.minigame_crossroad_prop2_recover = {
+		description = "",
+		key_value = 1
+	}
+	pg.base.gameset.minigame_crossroad_prop2_time = {
+		description = "",
+		key_value = 10
+	}
+	pg.base.gameset.minigame_crossroad_prop3_distance = {
+		description = "",
+		key_value = 170
+	}
+	pg.base.gameset.minigame_crossroad_prop3_time = {
+		description = "",
+		key_value = 6
+	}
+	pg.base.gameset.minigame_crossroad_prop3_probability = {
+		description = "",
+		key_value = 30
+	}
+	pg.base.gameset.minigame_crossroad_speed_up = {
+		key_value = 0,
+		description = {
+			0.2,
+			0.4,
+			0.6,
+			0.8,
+			1,
+			1.2,
+			1.4,
+			1.6,
+			1.8,
+			2
+		}
+	}
+	pg.base.gameset.minigame_crossroad_ship_appears = {
+		key_value = 0,
+		description = {
+			8,
+			7.8,
+			7.5,
+			7,
+			6.5,
+			6
+		}
+	}
+	pg.base.gameset.crossroad_speed_down = {
+		description = "",
+		key_value = 33
+	}
+	pg.base.gameset.MONOPOLY_AWARD_LIST = {
+		key_value = 0,
+		description = {
+			3,
+			6,
+			9
+		}
 	}
 end)()

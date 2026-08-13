@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "A stray cat brought in a whole crowd of other cats to spectate the race. You received five Elite Cat Boxes!"
+			say = "路过的猫猫带来了更多观赛的猫猫，获得了【喵箱SR型*5】"
 		}
 	}
 }

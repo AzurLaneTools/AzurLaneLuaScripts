@@ -1272,6 +1272,24 @@ pg.equip_skin_template.all = {
 	4417,
 	4418,
 	4419,
+	4420,
+	4421,
+	4422,
+	4423,
+	4424,
+	4425,
+	4426,
+	4427,
+	4428,
+	4429,
+	4430,
+	4431,
+	4432,
+	4433,
+	4434,
+	4435,
+	4436,
+	4437,
 	1001,
 	1002,
 	1003,
@@ -53679,6 +53697,741 @@ end)()
 			54014
 		}
 	}
+	pg.base.equip_skin_template[4420] = {
+		orbit_slg = "",
+		name = "Tricolor Ribbon Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102501",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "zidan_saichecaidai",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4420,
+		hit_sfx = "",
+		desc = "Yay! Congrats on getting to the goal!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4421] = {
+		orbit_slg = "",
+		name = "Dream Bubble Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102502",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "zidan_sansepaopao",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4421,
+		hit_sfx = "",
+		desc = "Colorful illusions floating along the racetrack.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4422] = {
+		orbit_slg = "",
+		name = "Racecar Key Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102503",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "zidan_cheyaoshi",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4422,
+		hit_sfx = "",
+		desc = "What team dropped these?!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_cheyaoshi_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4423] = {
+		orbit_slg = "",
+		name = "Race Cone Torpedo",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102504",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "yulei_zhangai",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4423,
+		hit_sfx = "",
+		desc = "This area is off limits!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_zhangai_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4424] = {
+		orbit_slg = "",
+		name = "Checkered Flag Torpedo",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102505",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "yulei_heibaiqi",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4424,
+		hit_sfx = "",
+		desc = "Keep calm and don't crash!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4425] = {
+		orbit_slg = "",
+		name = "Race Trophy Torpedo",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102506",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "yulei_jiangbei",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4425,
+		hit_sfx = "",
+		desc = "Delivery for the champion!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_jiangbei_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4426] = {
+		orbit_slg = "",
+		name = "Steering Wheel Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102507",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "paodan_fangxiangpan",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4426,
+		hit_sfx = "",
+		desc = "Let's see you drift your way out of this!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4427] = {
+		orbit_slg = "",
+		name = "Race Helmet Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102508",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "paodan_toukui",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4427,
+		hit_sfx = "",
+		desc = "Safety first!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4428] = {
+		orbit_slg = "",
+		name = "Tire Manjuu Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102509",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "paodan_luntaijiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4428,
+		hit_sfx = "",
+		desc = "Who says you can't drift with just one tire?",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4429] = {
+		orbit_slg = "",
+		name = "Flag Manjuu (Torpedo)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102510",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "feiji_heibaiqihuangji",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4429,
+		hit_sfx = "",
+		desc = "Straight to the finish line!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_heibaiqi",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+	pg.base.equip_skin_template[4430] = {
+		orbit_slg = "",
+		name = "Flag Manjuu (Fighter)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102510",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "feiji_heibaiqihuangji",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4430,
+		hit_sfx = "",
+		desc = "Straight to the finish line!",
+		derivate_boom = "paodan_luntaijiu",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4431] = {
+		orbit_slg = "",
+		name = "Flag Manjuu (Bomber)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102510",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "feiji_heibaiqihuangji",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4431,
+		hit_sfx = "",
+		desc = "Straight to the finish line!",
+		derivate_boom = "paodan_luntaijiu",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
+	pg.base.equip_skin_template[4432] = {
+		orbit_slg = "",
+		name = "Delivery Drone (Torpedo)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102511",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "feiji_lihewurenji",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4432,
+		hit_sfx = "",
+		desc = "Distributing race event care packages!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_zhangai",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+	pg.base.equip_skin_template[4433] = {
+		orbit_slg = "",
+		name = "Delivery Drone (Fighter)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102511",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "feiji_lihewurenji",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4433,
+		hit_sfx = "",
+		desc = "Distributing race event care packages!",
+		derivate_boom = "paodan_toukui",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4434] = {
+		orbit_slg = "",
+		name = "Delivery Drone (Bomber)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102511",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "feiji_lihewurenji",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4434,
+		hit_sfx = "",
+		desc = "Distributing race event care packages!",
+		derivate_boom = "paodan_toukui",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
+	pg.base.equip_skin_template[4435] = {
+		orbit_slg = "",
+		name = "Racing Manjuu (Torpedo)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102512",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "feiji_saichejiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4435,
+		hit_sfx = "",
+		desc = "Manjuu to the max!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_jiangbei",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+	pg.base.equip_skin_template[4436] = {
+		orbit_slg = "",
+		name = "Racing Manjuu (Fighter)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102512",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "feiji_saichejiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4436,
+		hit_sfx = "",
+		desc = "Manjuu to the max!",
+		derivate_boom = "paodan_fangxiangpan",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4437] = {
+		orbit_slg = "",
+		name = "Racing Manjuu (Bomber)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102512",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 88,
+		bullet_name = "feiji_saichejiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4437,
+		hit_sfx = "",
+		desc = "Manjuu to the max!",
+		derivate_boom = "paodan_fangxiangpan",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
 	pg.base.equip_skin_template[1001] = {
 		orbit_slg = "",
 		name = "Joypad Shell (P)",
@@ -54215,6 +54968,8 @@ end)()
 			54014
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[1014] = {
 		orbit_slg = "",
 		name = "Pixel Fighter",
@@ -54952,8 +55707,6 @@ end)()
 			54014
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[1117] = {
 		orbit_slg = "",
 		name = "Anniversary Mini-AI (Torpedo)",
@@ -58346,6 +59099,8 @@ end)()
 			61504
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[1494] = {
 		orbit_slg = "",
 		name = "Aqua Shadow (Fighter)",
@@ -59108,8 +59863,6 @@ end)()
 			24000
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[1516] = {
 		orbit_slg = "",
 		name = "Flying Yoshinon",
@@ -62771,6 +63524,8 @@ end)()
 			107
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[2064] = {
 		orbit_slg = "",
 		name = "Magic Circles",
@@ -63595,8 +64350,6 @@ end)()
 			107
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[2082] = {
 		orbit_slg = "",
 		name = "Forerunner UAV (Torpedo)",
@@ -67374,6 +68127,8 @@ end)()
 			24000
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[3055] = {
 		orbit_slg = "",
 		name = "Discount Balloon Shell",
@@ -68248,8 +69003,6 @@ end)()
 			"wash"
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[3083] = {
 		orbit_slg = "",
 		name = "Fear No Sunshine",

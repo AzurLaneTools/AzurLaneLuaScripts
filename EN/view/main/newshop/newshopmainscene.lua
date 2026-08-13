@@ -5,6 +5,7 @@ slot0.SHOW_OR_HIDE_UI_2 = "NewShopMainScene.SHOW_OR_HIDE_UI_2"
 slot0.CLOSE_VIEW = "NewShopMainScene.CLOSE_VIEW"
 slot0.TYPE_CHARGE = "charge"
 slot0.TYPE_SKIN = "skin"
+slot0.ON_CLICK_SKIN_SHOP = "NewShopMainScene::ON_CLICK_SKIN_SHOP"
 
 slot0.getUIName = function(slot0)
 	return "NewShopUI"
@@ -77,10 +78,6 @@ slot0.init = function(slot0)
 	setText(slot1:Find("shop1List/giftPackShop/shop1Tg/name/en"), i18n("shop_gift_title_en"))
 	setText(slot1:Find("shop1List/functionalItemShop/shop1Tg/name/en"), i18n("shop_item_title_en"))
 	setText(slot1:Find("shop1List/supplyShop/shop1Tg/name/en"), i18n("shop_supply_prop_en"))
-	setText(slot1:Find("shop1List/skinShop/shop2List/newSkin/name"), i18n("shop_skin_new"))
-	setText(slot1:Find("shop1List/skinShop/shop2List/newSkin/selected/name"), i18n("shop_skin_new"))
-	setText(slot1:Find("shop1List/skinShop/shop2List/permanentSkin/name"), i18n("shop_skin_permanent"))
-	setText(slot1:Find("shop1List/skinShop/shop2List/permanentSkin/selected/name"), i18n("shop_skin_permanent"))
 	setText(slot1:Find("shop1List/supplyShop/shop2List/monthShop/name"), i18n("shop_month"))
 	setText(slot1:Find("shop1List/supplyShop/shop2List/monthShop/selected/name"), i18n("shop_month"))
 	setText(slot1:Find("shop1List/supplyShop/shop2List/supplyShop/name"), i18n("shop_supply"))
@@ -267,6 +264,10 @@ slot0.SetShop = function(slot0, slot1, slot2)
 end
 
 slot0.didEnter = function(slot0)
+	slot0.eventIDList = {
+		slot0:bind(uv0.ON_CLICK_SKIN_SHOP, handler(slot0, slot0.OnClickSkinShop))
+	}
+
 	setActive(slot0.chat, false)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
@@ -283,7 +284,8 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.diamondBtn, function ()
 		pg.playerResUI:ClickGem()
 	end, SFX_PANEL)
-	onToggle(slot0, slot0.buttonList:Find("shop1List/recommendation/shop1Tg"), function (slot0)
+
+	slot4 = function(slot0)
 		if slot0 then
 			uv0.contextData.shop1 = nil
 			uv0.contextData.shop2 = nil
@@ -299,67 +301,13 @@ slot0.didEnter = function(slot0)
 			pg.m02:sendNotification(uv1.CLOSE_ALL_LAYER)
 			uv0:emit(NewShopMainMediator.OPEN_LAYER, NewRecommendationShopLayer, NewRecommendationShopMediator)
 		end
-	end, SFX_PANEL)
-	setActive(slot0.buttonList:Find("shop1List/skinShop/shop1Tg/timeLimit"), #getProxy(ShipSkinProxy):GetInTimeSkins() > 0)
-	setActive(slot0.buttonList:Find("shop1List/skinShop/shop2List/newSkin"), #slot1 > 0)
-	onToggle(slot0, slot0.buttonList:Find("shop1List/skinShop/shop2List/newSkin"), function (slot0)
-		if slot0 then
-			uv0.contextData.shop2 = "newSkin"
+	end
 
-			if uv0.shop2 == "newSkin" then
-				return
-			end
+	onToggle(slot0, slot0.buttonList:Find("shop1List/recommendation/shop1Tg"), slot4, SFX_PANEL)
+	slot0:InitSkinToggleList()
 
-			uv0.shop2 = "newSkin"
-
-			uv0:ShowChargeWarp(false)
-			pg.m02:sendNotification(uv1.CLOSE_ALL_LAYER)
-			uv0:emit(NewShopMainMediator.OPEN_LAYER, LatestSkinShopLayer, LatestSkinShopMediator, {
-				type = "newSkin",
-				mode = uv0.contextData.mode
-			})
-		end
-	end, SFX_PANEL)
-	onToggle(slot0, slot0.buttonList:Find("shop1List/skinShop/shop2List/permanentSkin"), function (slot0)
-		if slot0 then
-			uv0.contextData.shop2 = "permanentSkin"
-
-			if uv0.shop2 == "permanentSkin" then
-				return
-			end
-
-			uv0.shop2 = "permanentSkin"
-
-			uv0:ShowChargeWarp(false)
-			pg.m02:sendNotification(uv1.CLOSE_ALL_LAYER)
-			uv0:emit(NewShopMainMediator.OPEN_LAYER, LatestSkinShopLayer, LatestSkinShopMediator, {
-				type = "permanentSkin",
-				mode = uv0.contextData.mode
-			})
-		end
-	end, SFX_PANEL)
-	onToggle(slot0, slot0.buttonList:Find("shop1List/skinShop/shop1Tg"), function (slot0)
-		setActive(uv0.buttonList:Find("shop1List/skinShop/shop2List"), slot0)
-
-		if slot0 then
-			if uv0.shop1 == "skinShop" then
-				return
-			end
-
-			uv0.shop1 = "skinShop"
-
-			if uv0.contextData.shop1 and uv0.contextData.shop2 then
-				triggerToggle(uv0.buttonList:Find("shop1List/skinShop/shop2List/" .. uv0.contextData.shop2), true)
-			else
-				uv0.contextData.shop1 = "skinShop"
-
-				triggerToggle(uv0.buttonList:Find("shop1List/skinShop/shop2List/" .. (#uv1 > 0 and "newSkin" or "permanentSkin")), true)
-			end
-		end
-	end, SFX_PANEL)
-
-	for slot5 = 1, #slot0.toggleList do
-		onToggle(slot0, slot0.toggleList[slot5].go, function (slot0)
+	for slot4 = 1, #slot0.toggleList do
+		onToggle(slot0, slot0.toggleList[slot4].go, function (slot0)
 			if slot0 then
 				uv0:ShowChargeWarp(true)
 				pg.m02:sendNotification(uv1.CLOSE_ALL_LAYER)
@@ -407,9 +355,9 @@ slot0.didEnter = function(slot0)
 		end
 	end, SFX_PANEL)
 
-	slot6 = "shop1List/supplyShop/shop2List/activityShop"
+	slot5 = "shop1List/supplyShop/shop2List/activityShop"
 
-	for slot6, slot7 in ipairs({
+	for slot5, slot6 in ipairs({
 		{
 			type = ShopConst.CATEGORY_MONTH,
 			go = slot0.buttonList:Find("shop1List/supplyShop/shop2List/monthShop")
@@ -420,10 +368,10 @@ slot0.didEnter = function(slot0)
 		},
 		{
 			type = ShopConst.CATEGORY_ACTIVITY,
-			go = slot0.buttonList:Find(slot6)
+			go = slot0.buttonList:Find(slot5)
 		}
 	}) do
-		onToggle(slot0, slot7.go, function (slot0)
+		onToggle(slot0, slot6.go, function (slot0)
 			if slot0 then
 				uv0:ShowChargeWarp(true)
 				pg.m02:sendNotification(uv1.CLOSE_ALL_LAYER)
@@ -440,35 +388,35 @@ slot0.didEnter = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	slot3 = "recommendation"
+	slot2 = "recommendation"
 
 	if slot0.contextData.type == ShopConst.SHOP_TYPE.CHARGE then
 		if slot0.contextData.warp == ChargeScene.TYPE_DIAMOND then
-			slot3 = "diamondShop"
+			slot2 = "diamondShop"
 		elseif slot0.contextData.warp == ChargeScene.TYPE_GIFT then
-			slot3 = "giftPackShop"
+			slot2 = "giftPackShop"
 		elseif slot0.contextData.warp == ChargeScene.TYPE_ITEM then
-			slot3 = "functionalItemShop"
+			slot2 = "functionalItemShop"
 		elseif slot0.contextData.warp == ChargeScene.TYPE_PICK then
-			slot3 = "specialShop"
+			slot2 = "specialShop"
 		else
-			slot3 = "diamondShop"
+			slot2 = "diamondShop"
 		end
 	elseif slot0.contextData.type == ShopConst.SHOP_TYPE.SKIN then
-		slot3 = "skinShop"
+		slot2 = "skinShop"
 	elseif slot0.contextData.type == ShopConst.SHOP_TYPE.SUPPLY then
-		slot3 = "supplyShop"
+		slot2 = "supplyShop"
 	end
 
 	if slot0.contextData.shop1 then
-		slot3 = slot0.contextData.shop1
+		slot2 = slot0.contextData.shop1
 	end
 
-	triggerToggle(slot0.buttonList:Find("shop1List/" .. slot3 .. "/shop1Tg"), true)
+	triggerToggle(slot0.buttonList:Find("shop1List/" .. slot2 .. "/shop1Tg"), true)
 
-	if slot3 == "skinShop" then
+	if slot2 == "skinShop" then
 		-- Nothing
-	elseif slot3 == "supplyShop" then
+	elseif slot2 == "supplyShop" then
 		triggerToggle(slot0.buttonList:Find("shop1List/supplyShop/shop2List/" .. slot0:GetDefaultSupplyShopName()), true)
 	end
 
@@ -600,6 +548,12 @@ slot0.ShowResourceBar = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
+	for slot4, slot5 in ipairs(slot0.eventIDList) do
+		slot0:disconnect(slot5)
+	end
+
+	slot0.eventIDList = nil
+
 	if slot0.bulinTip then
 		slot0.bulinTip:Destroy()
 
@@ -666,6 +620,7 @@ slot0.willExit = function(slot0)
 
 	slot0:StopLive2dTimer()
 	slot0:stopCV()
+	slot0:DisposeSkinToggleList()
 
 	if slot0.giftShopView then
 		slot0.giftShopView:OnDestroy()
@@ -1045,6 +1000,115 @@ slot0.addRefreshTimer = function(slot0, slot1)
 
 	slot0.refreshTimer:Start()
 	slot0.refreshTimer.func()
+end
+
+slot0.InitSkinToggleList = function(slot0)
+	slot0.uiSkinToggleParent = slot0.buttonList:Find("shop1List/skinShop/shop2List")
+	slot0.uiSkinToggleItem = slot0.buttonList:Find("shop1List/skinShop/shop2List/skinToggleItem")
+
+	setActive(slot0.buttonList:Find("shop1List/skinShop/shop1Tg/timeLimit"), #getProxy(ShipSkinProxy):GetInTimeSkins() > 0)
+
+	slot0.skinShopList = slot0:GetSkinShopList()
+	slot0.skinShopItemList = {}
+
+	onToggle(slot0, slot0.buttonList:Find("shop1List/skinShop/shop1Tg"), function (slot0)
+		setActive(uv0.buttonList:Find("shop1List/skinShop/shop2List"), slot0)
+
+		if slot0 then
+			if uv0.shop1 == "skinShop" then
+				return
+			end
+
+			uv0.shop1 = "skinShop"
+			slot1 = uv0.skinShopItemList[table.keyof(uv0.skinShopList, uv0:GetDefaultSkinShop())]
+
+			if uv0.contextData.shop1 and uv0.contextData.shop2 then
+				slot1 = uv0.skinShopItemList[table.keyof(uv0.skinShopList, uv0.contextData.shop2)] or slot1
+			end
+
+			uv0.contextData.shop1 = "skinShop"
+
+			slot1:TriggerToggle()
+		end
+	end, SFX_PANEL)
+
+	for slot5, slot6 in ipairs(slot0.skinShopList) do
+		slot0.skinShopItemList[slot5] = slot0.skinShopItemList[slot5] or NewShopMainSkinToggleItem.New(Object.Instantiate(slot0.uiSkinToggleItem, slot0.uiSkinToggleParent), slot0)
+
+		slot0.skinShopItemList[slot5]:didEnter(slot6)
+	end
+end
+
+slot0.OnClickSkinShop = function(slot0, slot1, slot2)
+	slot0.contextData.shop2 = slot2
+
+	if slot0.shop2 == slot2 then
+		return
+	end
+
+	slot0.shop2 = slot2
+
+	slot0:ShowChargeWarp(false)
+	pg.m02:sendNotification(uv0.CLOSE_ALL_LAYER)
+	slot0:emit(NewShopMainMediator.OPEN_LAYER, LatestSkinShopLayer, LatestSkinShopMediator, {
+		type = slot2,
+		mode = slot0.contextData.mode
+	})
+end
+
+slot0.DisposeSkinToggleList = function(slot0)
+	for slot4, slot5 in ipairs(slot0.skinShopItemList) do
+		slot5:willExit()
+	end
+
+	slot0.skinShopItemList = nil
+end
+
+slot0.GetSkinShopList = function(slot0)
+	slot1 = Clone(pg.shop_skin_subsheet.get_id_list_by_type[0])
+
+	if #getProxy(ShipSkinProxy):GetInTimeSkins() <= 0 then
+		table.remove(slot1, 1)
+	end
+
+	slot3 = pg.TimeMgr.GetInstance()
+	slot4 = getProxy(ShipSkinProxy):GetAllSkins()
+	slot5 = ipairs
+	slot6 = pg.shop_skin_subsheet.get_id_list_by_type[1] or {}
+
+	for slot8, slot9 in slot5(slot6) do
+		if slot3:inTime(pg.shop_skin_subsheet[slot9].time) then
+			for slot14, slot15 in ipairs(slot4) do
+				if table.keyof(slot10.param, slot15.id) then
+					table.insert(slot1, slot9)
+
+					break
+				end
+			end
+		end
+	end
+
+	table.sort(slot1, function (slot0, slot1)
+		slot2 = pg.shop_skin_subsheet[slot0]
+
+		return slot2.sort == slot2.sort and slot0 < slot1 or slot2.sort < pg.shop_skin_subsheet[slot1].sort
+	end)
+
+	return slot1
+end
+
+slot0.GetDefaultSkinShop = function(slot0)
+	slot1 = Clone(slot0.skinShopList)
+
+	table.sort(slot1, function (slot0, slot1)
+		if pg.shop_skin_subsheet[slot0].shop_skin_subsheet == pg.shop_skin_subsheet[slot1].shop_skin_subsheet then
+			return slot2.sort == slot3.sort and slot0 < slot1 or slot2.sort < slot3.sort
+		else
+			return slot2.shop_skin_subsheet < slot3.shop_skin_subsheet
+		end
+	end)
+
+	return slot1[1]
 end
 
 return slot0

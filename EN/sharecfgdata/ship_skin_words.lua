@@ -5117,6 +5117,279 @@ _G.pg.base.ship_skin_words[101551] = {
 }
 
 
+_G.pg.base.ship_skin_words[101560] = {
+	hp_warning = "Mmm... Nah, I'm just not cut out for being a tryhard.",
+	feeling3 = "Commander... You didn't eat today, did you? Ugh, you're like a kitten who needs to be fed at specific hours... Okay, I've decided. I'm taking care of your meal schedule now, Commander.",
+	mail = "Commander, there's new mail in your inbox... Oh, I already discarded the spam and phishing ones, so the rest is safe.",
+	expedition = "Commander... The commission team came back. My drone intercepted them, and all looks fine from here.",
+	win_mvp = "*yaaawn*... Enemy elimination confirmed.",
+	home = "Oh, you're back? I was gonna send my drone out to greet you, but it was running out of battery, so it came back. It's the thought that counts though, right?",
+	unlock = "Hmm... Huh? Are you the Commander? Hey, I'm Collett. I'm in charge of the port's network security now. If you have any network issues, come to me... Uh, anything else you need?",
+	touch2 = "Hmm? Commander, did you just do something?",
+	mission = "So, about those missions... Not done yet, huh? It's a pain to do 'em all at once... How about we go one step at a time?",
+	vote = "",
+	drop_descrip = "Allen M. Sumner-class destroyer – Collett",
+	feeling4 = "I wrote a script that automatically scrapes your schedule. No, I'm not stalking you... I'm just making sure we \"accidentally\" bump into each other in the cafeteria... That makes sense, right?",
+	lose = "Phew... I'll try harder next time.",
+	feeling1 = "Mmm. *type type type*",
+	skill = "Tracking. Locked on. Striking!",
+	upgrade = "That's weird. I'm feeling... kind of energetic.",
+	propose = "Is this ring how you feel? Hmm, I get it. You're special to me, too... The only one who can pull me out of my lazy routine, drag me outside, encourage me... and make me say \"yes.\" That's how special you are.",
+	feeling5 = "You should try raising a digital pet too, Commander. I can teach you how to handle them and help take care of yours... It's really easy. First, let's start by making a home together...",
+	main = "How do I spend my time? Sitting around, monitoring the network, taking care of my pets, browsing boards online... Oh. Plus one more thing, lately... hanging out with you.|Mm... Do you wanna chat? I don't mind... Check your phone. I sent you a message.|Staring at my screen doesn't always mean I'm working. It's like how lying down isn't the same as sleeping... Yeah, I'm like Schrödinger's Shipgirl – you have no idea if I'm working or if I'm watching funny cat videos right now.",
+	touch = "Hm? You wanna know what I'm doing? Basically... my side hustle. I wanna buy my pets some new outfits, but my paycheck is, uh... *glance*...",
+	voice_key_2 = -1,
+	mission_complete = "Ooh... Nice job, Commander. You finished your mission already. Is it cool if I take a break, then?",
+	battle = "Hmph... Let's make this quick.",
+	id = 101560,
+	gift_dislike = "",
+	gift_prefer = "A gift for me? Wow, you're great, Commander. Woooo, thaaanks... That was all sincere.",
+	profile = "Self-introduction? Hmm... I'm Collett, and I keep the port's network secured. Your systems are secure for now, Commander... but if you're in for some fun, I could poke a few holes in there.",
+	voice_key = 10156,
+	headtouch = "Mm... Whoa, you scared me! Mmm... Zzzz...",
+	feeling2 = "Patrols...? Yeah, I do those. I just have my drones carry me around... That's less tiring.",
+	login = "Alright, no connection issues... Time to feed Error XIII. Hmm? Commander? Sorry, my digital pet is hungry right now.",
+	detail = "You need me to encrypt some data? Okay, but private requests cost extra. I'm a pro, though, so I won't snoop in your data... *glance*... Oh, wow. You've got some crazy secrets...",
+	couple_encourage = {
+		{
+			{
+				10151
+			},
+			1,
+			" You found a nice nap spot? Let me join... ",
+			0
+		},
+		{
+			{
+				10145
+			},
+			1,
+			" Allen, do you wanna get a digital pet, too?",
+			0
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_words[101561] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "*yaaawn*... Wait a little longer... I'm almost done.",
+	unlock = "*yaaawn*... You got here early... Me? I'm here to help wash the cars... Not that I'm doing it by hand, of course. I designed a way to automate the whole process♪",
+	touch2 = "Hnngh! I-I'm in the middle of dangerous work... You really shouldn't interrupt!",
+	mission = "",
+	vote = "",
+	drop_descrip = "*yaaawn*... You got here early... Me? I'm here to help wash the cars... Not that I'm doing it by hand, of course. I designed a way to automate the whole process♪",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "I was originally planning to be lazy with this wash, but when I heard it was your car... I decided to take it a little seriously. Hehe, I'll get your ride squeaky-clean, okay?",
+	main = "It's novel, seeing you from up here... I usually have to look up to see you, but now I'm the one on top... even if I'm just hanging.|Mm... What should I call this new car-washing technique? The drone-assisted automatic wash? But it still needs human input, so I guess it's not FULLY automatic...|I'm basically done, right? It looks shiny enough to me. Take a look, and if you see any spots I missed... just use that remote to guide me over.",
+	touch = "Mmm... If you keep poking me, you'd better watch out for water gun fire...",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 101561,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Mm, heheh... Is this a reward for all my hard work?",
+	feeling2 = "",
+	login = "Up, down, left, right... and your wash is done in no time. Wow, how easy was that?",
+	detail = "",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[101570] = {
+	hp_warning = "Ungh... Have we run out of first-aid supplies?",
+	feeling3 = "Commander, today's lunchbox is bound to be flawless and to your total satisfaction! I made it so full to bursting that it doesn't even fit properly! Hehehe, here, let me feed it to you♪",
+	mail = "I've placed your new mail on your desk. Don't wait too long to check it, okay?",
+	expedition = "The commission girls are back! The port is simply bursting with rewards. Let's go and greet them right away!",
+	win_mvp = "Well done. That was an impressive victory!",
+	home = "Welcome back. I've gone ahead and made sure the office is fully stocked. And if there's anything we're short on, you only need to ask.",
+	unlock = "I'm Fletcher-class destroyer Harrison, from the Eagle Union! I've heard lots about you, Commander. You're VERY good at what you do, right? Hehe, looks like I can trust you with Rodgers and me both♪",
+	touch2 = "Whoa, whoa, whoa! Does this... count as acting clingy?",
+	mission = "You're not finished with today's missions yet? Was there perhaps a clash with one of the other missions? I'll make that right for you!",
+	vote = "",
+	drop_descrip = "Fletcher-class destroyer – Harrison",
+	feeling4 = "There's still a little space in this gift box... What should I fill it with? How about a scarf? Okay, I can stuff that in here, and... Ah! Commander?! This is a gift for you! No peeking!",
+	lose = "I'll tend to your injuries now, so just be brave for a moment...",
+	feeling1 = "I'll stay by your side and take care of you until your mood improves, Commander...",
+	skill = "Here I go! Fire all weapons!",
+	upgrade = "Great. My motivation is at its peak!",
+	propose = "You want to marry me, Commander? This must be a dream... the most heart-pounding dream I've ever had... What? It's not? Y-you're really giving me that ring? Hnngh... I'll treasure it for the rest of my life!",
+	feeling5 = "I'm always looking out for you? Th-that's not true! You do lots for me too, Commander, and I... don't think I can do without you anymore...",
+	main = "I always have hot milk and cookies ready when my sister falls out with her friends. It makes things less awkward when they're ready to make up♪|Did you have breakfast this morning, Commander? You say you ate \"whatever\"? Heheh, I thought so♪ I've made you a lunchbox that's as hearty and plentiful as can be, so make sure you eat up!|You're working so hard, aren't you? You deserve all the praise! Is there anything you'd like as a reward, Commander? Yes... I'll fulfill any request you can think of.",
+	touch = "Yes, I'm right here. Good work today as always, Commander! Would you like a refill for your coffee?",
+	voice_key_2 = -1,
+	mission_complete = "Another flawless mission success! Incredible! If only Rodgers gave me as little to worry about as you, Commander...",
+	battle = "We're fully prepared, which means we'll be fine!",
+	id = 101570,
+	gift_dislike = "",
+	gift_prefer = "Commander, thank you! Whenever I get a gift, I put it in my collection box. Hehehe, I hope my box gets full one day!",
+	profile = "I'm Fletcher-class destroyer Harrison! My hobby is researching recipes... What was that, Commander? You want to try some of my cooking? Ahhaha... Sure, at some point... I-I promise!",
+	voice_key = 10157,
+	headtouch = "Hehehe, this hat's really pretty, don't you think? I'll happily gift it to you if you like it.",
+	feeling2 = "Hmmm... Rodgers is such a good girl, really. She's just a little awkward... Please don't be too hard on her, Commander.",
+	login = "You're on time again today, Commander♪ I've got this hot towel all ready for you, so come over here and let me wipe your face clean, okay?",
+	detail = "Phew... So much to do every day. Hm? The bottle on your desk is down to half? Well, it might as well be empty♪ Just give me a moment and I'll fill that right up for you.",
+	couple_encourage = {
+		{
+			{
+				10131
+			},
+			1,
+			" Did you just wake up? Let me wipe your face for you. ",
+			0
+		},
+		{
+			{
+				10153
+			},
+			1,
+			" There are holes in your socks♪ I'll patch them up for you when we get back. ",
+			0
+		},
+		{
+			{
+				10158
+			},
+			1,
+			" Are your socks mismatched on purpose? Oh, you're such a handful...",
+			0
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_words[101571] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Have you had enough of a rest now, Commander? Alright, you're looking very chipper! The race is just about to begin, and I'm going to do my best to help you get first place!",
+	unlock = "W-w-wait, my tire! Watch out, Commander! That naughty little tire's rolling right at you!",
+	touch2 = "Huh?! A-at a time like this?! The tire... but then the Commander... Oh, what do I do?!",
+	mission = "",
+	vote = "",
+	drop_descrip = "W-w-wait, my tire! Watch out, Commander! That naughty little tire's rolling right at you!",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "Commander! Oh, just seeing your face makes my power overflow! Don't worry. I promise to get that tire back so you can leave the starting line with all four wheels!",
+	main = "When's the race starting? Hmmm... I can still make – O-oh dear! The tire rolled even farther away while I was looking at the clock!|I-I ran so hard that my heart won't stop pounding... Is this how you'll be feeling during the race, Commander?|Don't worry, Commander! I'll catch up with that tire in no time! I think...",
+	touch = "Um, I'm still covered in sweat! You're going to get it all over you, Commander...",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 101571,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Are you being considerate of me? Thank you, Commander! It's just that the tire... The tire's rolling farther and farther away...",
+	feeling2 = "",
+	login = "Hehehe, I'm changing the tire on the Commander's race car. I-I'm just going to go chase after it and get it back!",
+	detail = "",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[101580] = {
+	hp_warning = "Urgh... Commander... I might've messed up...",
+	feeling3 = "I did it just like you said this time, Commander. Could ya take a look for me? Whaddya mean you didn't think I'd actually do it?! I do value your opinions! Hmph!",
+	mail = "I put your new mail on your desk. Don't make me say it twice!",
+	expedition = "The commission team is back! Don't fret. I'll go welcome them. I said don't fret! I can do it no problem! Yeesh...",
+	win_mvp = "Did ya see that? That's called being grown-up!",
+	home = "You should go to bed right away now you're back. I put some snacks on your desk, so just leave everything else to me... Why're you still here? Hmph, I'm not gonna have any sympathy if you push yourself too hard and collapse!",
+	unlock = "John Rodgers, Fletcher-class ship of the Eagle Union, reporting for duty! Alright, that oughta do it... Wait, Commander?! How long've you been standing there? I-ignore what just happened! I'm starting over!",
+	touch2 = "I-I-I-I'm grown up, y'know! St-stuff like this won't even make me break a sweat!",
+	mission = "There are still some urgent missions. I'm gonna get real mad if you try to deal with them all by yourself!",
+	vote = "",
+	drop_descrip = "Fletcher-class destroyer – John Rodgers",
+	feeling4 = "I threw this together with what I found in the kitchen. Here... Is it good? Th-thanks. But I'm not gonna cook for you each and every time just 'cause you praise me! Only... five times a day max!",
+	lose = "Ow... You mean I'm still not good enough?",
+	feeling1 = "Yeesh, Commander... You're such a kid. That's enough.",
+	skill = "I'll show 'em what's what!",
+	upgrade = "Is this how it feels to get more mature?",
+	propose = "Wh-what's this?! You've given it to me now, okay?! Yup, I'm happy to have it. Hmph, I won't let you regret this either! Once I've got something, I never let go.",
+	feeling5 = "I really like you, Commander – No, that's not it... \"I love you, Commander!\" ...Ugh, I can't say it just like that! There's gotta be another way... Whoa, Commander?! How long've you – Waaah! I didn't say anything! You misheard!",
+	main = "Huh? Your food's gone cold again! You still haven't eaten it? Reheating it is gonna ruin the flavor! Wait there – I'll make it fresh for you. You're SUCH a handful.|Why am I staring at you? It's 'cause you took on all the work and now I haven't got anything to do! Get your butt in gear and delegate!|Harrison's a little too perfectionist. She gets restless if stuff's running out or not in order. Oh, I refilled the office ink 'cause it was running low.",
+	touch = "Is there something weird about my outfit? Don't tell me yet! I'll check for myself.",
+	voice_key_2 = -1,
+	mission_complete = "We got some mission rewards! Hurry up and go collect them. I'll keep an eye on stuff here.",
+	battle = "Sit there and watch me succeed!",
+	id = 101580,
+	gift_dislike = "",
+	gift_prefer = "Thanks! This is great. Huh? You thought I'd try to hide how happy I was? Only a kid would act all tough and be like \"I don't need this\"! And I'M an adult!",
+	profile = "Commander, could you pass this on to Harrison for me? \"John Rodgers is already a full-fledged adult!\" She always gets so worried, and– Uh, wait. Do it next month. I dunno if I'm ready yet...",
+	voice_key = 10158,
+	headtouch = "Mmmh... No! Only a kid would be happy to get a headpat! I'm too grown up for that, so stop it!",
+	feeling2 = "Something's not right about this... Hmmm. Huh? It'll work out better if I change my approach? Alright, I got it already! You don't have to take a zillion years explaining it like Harrison!",
+	login = "You're here? There's a hot towel over there. Go wipe your face and then get to work. Hmph, I'm not gonna do it for you like Harrison would!",
+	detail = "You like my outfit? Well, I like your taste! Heh, a lot of research and advice from my fashion faves went into this grown-up outfit! My faves have a really good eye. I'm so jealous...",
+	couple_encourage = {
+		{
+			{
+				10157
+			},
+			1,
+			" Yeesh, Harrison! I can take care of myself!",
+			0
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_words[101581] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "I wanted to go welcome everyone back but, uh, these shoes make it so hard to walk... Yeesh! What I wanted to say was: stop worrying about every tiny thing!",
+	unlock = "My feet are killing me... Heels this high really take it outta you. I wonder if the Commander noticed... You thought they were cute, huh? Sure... Wait, how long've you been standing there?!",
+	touch2 = "What, HERE?! At least do it somewhere with fewer people around!",
+	mission = "",
+	vote = "",
+	drop_descrip = "My feet are killing me... Heels this high really take it outta you. I wonder if the Commander noticed... You thought they were cute, huh? Sure... Wait, how long've you been standing there?!",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "So, you like this kinda outfit, Commander? I gotta make a note of that... Lemme see here... \"grid girl, high boots, and...\" Wah! Stop eavesdropping! Stop it!",
+	main = "I already told you that opening up a parasol is easy! ...Wh-why are you staring at my feet? I'm just not used to wearing these, okay?|To tell ya the truth, I just snuck in to watch the race, but Harrison was helping out and she made me change into these clothes... Huh? They suit me? Hmph! I'm not gonna wear them again just 'cause you complimented me. At least lemme wear regular shoes.|Give you my foot? You're gonna massage it? Thanks... O-ow! Commander! Go a little softer...",
+	touch = "Hahaha! Ah hahahahaha! Don't tickle me NOW! You're such a meanie!",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 101581,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "It's fine! You don't have to worry about – Huh?! Why'd you stop? I-I wanted you to keep patting...",
+	feeling2 = "",
+	login = "My soles are done for... Commander? Wait there – I'm just finishing up. Huh? What's that you got there? I-I'm fine! I'll do it myself!",
+	detail = "",
+	couple_encourage = {}
+}
+
+
 _G.pg.base.ship_skin_words[102010] = {
 	hp_warning = "",
 	feeling3 = "Mmph... C-come on, surely you like your girls with a little more meat on them!",
@@ -9062,6 +9335,134 @@ _G.pg.base.ship_skin_words[102351] = {
 	feeling2 = "",
 	login = "Hoho! You're really into this, Commander. Can't help your urge to want to school me, huh? Heheh. The sensory equipment's up and ready. Let's do this!",
 	detail = "Already getting excited about the surprise after our showdown? Ahaha! I got loads of surprise cards for our punishment game! All with veeery different punishments.",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[102360] = {
+	hp_warning = "Th-there's been an accident onstage!",
+	feeling3 = "Commandeeer, I washed my own clothes for the first time today! Hm? Is it just me, or did they get smaller...? Hmm. They're definitely tight... Huh? I'm supposed to look at the tag before I wash them? \"Dry clean\"... What's that supposed to mean?",
+	mail = "You have mail, Commander! Could it be fanmail? Hurry up and see!",
+	expedition = "The commission team just came home! I gave them my blessing before their departure, so I hope they brought back a big haul~",
+	win_mvp = "I did it! Commander, did you see me protecting everyone? Hehe, this is exactly why I decided to be an idol!",
+	home = "Welcome back! Guam was just teaching me a new cheer dance. Check this out! ...Phew. Did that lift your spirits at all?",
+	unlock = "Vicksburg makes a dazzling entrance – Whoops! I slipped into stage mode again... Umm, I heard first impressions are everything, so I wanted you to see me at my most spectacular, Commander! From now on, I'll light up the port with smiles and good fortune! Please show your support for Vicksburg!",
+	touch2 = "I don't really understand what you're doing, but... it does feel really good...",
+	mission = "It's time for missions! I'll cheer you on, so tackle that work with lots of energy!",
+	vote = "",
+	drop_descrip = "Cleveland-class light cruiser – Vicksburg",
+	feeling4 = "Commander! Did you notice how my dance was different today? Hehe, I learned some awesome moves just to show you! I practiced a lot in front of the mirror! From now on, I'll try all kinds of new things just for you♪",
+	lose = "Don't give up! Keep trying – fortune is on our side!",
+	feeling1 = "Commander, y-you're kind of being a little... *sniffle*...",
+	skill = "Shining, Lucky Beam of... LOOOVE!",
+	upgrade = "Now I can shine even brighter!",
+	propose = "Huh? A-a vow... Does that mean we'll be together forever? Goodness... I'd be happy to! Because you're the most important person ever to me! I love, love, love you!",
+	feeling5 = "Every time I see you smile, I feel my energy rising! No matter how grueling the training, I'll be just fine knowing you're cheering me on. It really goes both ways for us, huh?",
+	main = "San Diego told me that eating is the best part of the day, so I've decided to treat everyone to an all-day feast! That'll really make them happy!|My lessons have been pretty intense lately... Huh?! You want to massage my sore spots? Th-thank you!|I hope I can be your lucky star, Commander... No, that's not enough. I need to be an idol strong enough to protect you!",
+	touch = "Hmm? You want a blessing of good fortune? Leave it to me! Heart... Sparkle... Lucky poweeer!",
+	voice_key_2 = -1,
+	mission_complete = "Earnestly devoting yourself to every task is the mark of a true idol! Commander... I think you have what it takes!",
+	battle = "Go, go, Commander! Beat those baddies!",
+	id = 102360,
+	gift_dislike = "",
+	gift_prefer = "Idols aren't really supposed to accept gifts, but... I know you put your heart into this! I'll happily accept it, Commander.",
+	profile = "I'm Vicksburg, a Cleveland-class light cruiser under the Eagle Union! I-I only just made my debut, but I promise to light up your life with my brightest smiles and sincerest blessings!",
+	voice_key = 10236,
+	headtouch = "Look... I braided it in the shape of a four-leaf clover! Keep patting, and you might just get good luck♪",
+	feeling2 = "This crème brûlée is adorable! I wanna eat it so bad... Oh no, Vicksburg, stop! You're an idol, so you have to mind your calories... *sniffle*... Commander, you need to take this away from me before something awful happens!",
+	login = "Phew... Commander? Oh, sorry – I was just practicing my steps in your office... U-umm, could you give me some pointers when you have a while?",
+	detail = "Wanna do something to pass the time? Hmm... How about playing chess? I happen to have a board with me! If you come over sometime, we could even go horse-riding or play golf~ I'm really good at them!",
+	couple_encourage = {
+		{
+			{
+				11802
+			},
+			1,
+			" Guam! Let's do our best on this performance! ",
+			0
+		},
+		{
+			{
+				10208
+			},
+			1,
+			" I'll do my best to keep up with you, San Diego!",
+			0
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_words[102361] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "We did it! You're in first place, Commander! We're champions! Say... May I hold the trophy later?",
+	home = "The race is about to start. I practiced my cheer dance a lot for you! I'm sure I can fill you with more energy than ever right now!",
+	unlock = "Commandeeer! I finally found you! I heard the opening ceremony needed a dazzling racer idol, so I came to help out... I'm not sure what I need to do, but I'll do my best to cheer you on!",
+	touch2 = "If you wanna do something fun... let's do it before the race♪",
+	mission = "",
+	vote = "",
+	drop_descrip = "Commandeeer! I finally found you! I heard the opening ceremony needed a dazzling racer idol, so I came to help out... I'm not sure what I need to do, but I'll do my best to cheer you on!",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "Just between you and me... I've already prepared your first-place reward! This hug has all of my joy, love, and good fortune... Ah! I accidentally gave it to you early!",
+	main = "Um, is taking pictures all I need to do? Should I do a little dance first, maybe...? I'm an idol, after all! I should be cheering you on!|What pose should we go for next? I'm taking requests, so leave it all to me! Heheh, my idol creds aren't just for show!|Why am I not wearing my stage clothes? U-umm, it said you needed to be in uniform to enter the venue... I searched the changing room from top to bottom, and this was all that was left.",
+	touch = "Do you get nervous before races, too? Don't worry. I'll give you a big idol hug... Say goodbye to those nerves!",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 102361,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Heheh, you've been blessed with my super-invincible lucky power! This race is in the bag♪",
+	feeling2 = "",
+	login = "Oh, Commander, welcome back! It's almost time for the race! I'll cheer you on with all my energy!",
+	detail = "",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[102362] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "We did it! You're in first place, Commander! We're champions! Say... May I hold the trophy later?",
+	home = "The race is about to start. I practiced my cheer dance a lot for you! I'm sure I can fill you with more energy than ever right now!",
+	unlock = "Commandeeer! I finally found you! I heard the opening ceremony needed a dazzling racer idol, so I came to help out... I'm not sure what I need to do, but I'll do my best to cheer you on!",
+	touch2 = "If you wanna do something fun... let's do it before the race♪",
+	mission = "",
+	vote = "",
+	drop_descrip = "Commandeeer! I finally found you! I heard the opening ceremony needed a dazzling racer idol, so I came to help out... I'm not sure what I need to do, but I'll do my best to cheer you on!",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "Just between you and me... I've already prepared your first-place reward! This hug has all of my joy, love, and good fortune... Ah! I accidentally gave it to you early!",
+	main = "Um, is taking pictures all I need to do? Should I do a little dance first, maybe...? I'm an idol, after all! I should be cheering you on!|What pose should we go for next? I'm taking requests, so leave it all to me! Heheh, my idol creds aren't just for show!|Why am I not wearing my stage clothes? U-umm, it said you needed to be in uniform to enter the venue... I searched the changing room from top to bottom, and this was all that was left.",
+	touch = "Do you get nervous before races, too? Don't worry. I'll give you a big idol hug... Say goodbye to those nerves!",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 102362,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Heheh, you've been blessed with my super-invincible lucky power! This race is in the bag♪",
+	feeling2 = "",
+	login = "Oh, Commander, welcome back! It's almost time for the race! I'll cheer you on with all my energy!",
+	detail = "",
 	couple_encourage = {}
 }
 
@@ -16320,6 +16721,97 @@ _G.pg.base.ship_skin_words[107171] = {
 }
 
 
+_G.pg.base.ship_skin_words[107200] = {
+	hp_warning = "Ouch... Might've gone a little too crazy out there.",
+	feeling3 = "Are you starting to like my vlogs? Finally, you've developed some good taste. As expected of my top follower!",
+	mail = "I heard a notification ding! Was that new mail for you, or did I get another new subscription?",
+	expedition = "Tadaaa! The commission team returns with tons of loot! Let's see if they brought back some good footage, too!",
+	win_mvp = "A Big W for me! The applause and likes are all mine!",
+	home = "Hi, Commander! Welcome back to my channel! The sunlight is perfect today, so come join me! I found the perfect sun-basking spot, and it's time for you to get nice and crispy!",
+	unlock = "Hiya! Thanks for liking and subscribing! I'm Bennington, a viral vlogger! Starting today, I'll be capturing every amazing moment of your life, Commander!",
+	touch2 = "Whoa... Commander, you know I'm recording right now, don't you?",
+	mission = "New missions? Aw, yeah! That means more material for my Commander's Daily Life vlog! Okay, look at the camera, and... Let's start recording!",
+	vote = "",
+	drop_descrip = "Essex-class aircraft carrier – Bennington",
+	feeling4 = "It's a win-win! I got the perfect shot of your heart skipping a beat! But this video... won't be going online. It's for my private collection♪",
+	lose = "It's just a little trouble, that's all. Let's just enjoy ourselves, okay?",
+	feeling1 = "*sigh*... Normal weather, normal location, normal and boring conversation... Guess all I can do is lie down and relax.",
+	skill = "Let's show them a life of peak freedom and peak condition!",
+	upgrade = "Am I just dazzling, or what? Heheh, might as well enjoy it to the fullest!",
+	propose = "The camera's going to see all of this! From now on, you and I are going to live a life of freedom and happiness! Hit that record button, Commander... and let's capture the vlog titled \"Our Future.\"",
+	feeling5 = "Sometimes, I accidentally let my camera linger on you for a little while. I ended up making a collection of those close-ups... Do you sense my feelings in the video, Commander? My wish to get more footage of you for myself?",
+	main = "A schedule? I don't need that! The kind of content everybody loves doesn't come from planning! It's all about freedom, baby!|Solo drives are the best! You can choose the route, scenery, music, and speed all for yourself! But if you REALLY want, I could let you come♪|Have you seen my sun-kissed skin? If you're jealous... forget about work and come bask with me! We can even update our vlog series together!",
+	touch = "That's right, you can believe your eyes – the vlogger with the most personality is right here! And I feel great, don't I?!",
+	voice_key_2 = -1,
+	mission_complete = "Mission complete! What's your reward? Getting to hang out with me and take travel vids, of course!",
+	battle = "Heheh! I'll finish 'em off before nightfall!",
+	id = 107200,
+	gift_dislike = "",
+	gift_prefer = "Is this a sponsored gift? Thanks! I love it!",
+	profile = "Welcome to the channel of the Eagle Union's own aircraft carrier, Bennington! Thanks for being the newest subscriber to my viral vlogging channel! From now on, you'll be the star of my next project – and don't bother complaining, because I've already made up my mind!",
+	voice_key = 10720,
+	headtouch = "Oh! Uhh... Oooh! There they are... My sunglasses were on me. Thanks for your help, Commander!",
+	feeling2 = "Ooh! I love that look on your face sometimes. Next time I see it, I'm definitely snapping a pic!",
+	login = "You ready to say hi to the camera, Commander? It's time to shoot today's video. Three, two, one... Recording now!",
+	detail = "You wanna know more about me? Okay! Here's how you can get started: every day, remember to like, bookmark, and comment \"Bennington is the best!\" on all my posts!",
+	couple_encourage = {
+		{
+			{
+				10707
+			},
+			1,
+			" We can brave another storm! ",
+			0
+		},
+		{
+			{
+				10709
+			},
+			1,
+			" Welcome today's special guest, everyone!",
+			0
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_words[107201] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Welcome back! Today's vlog is all about the sun's rays, sea breeze, and your smile. Of course, it'll be for my private collection.",
+	unlock = "Kicking it into high gear! Hiya♪ Welcome to my exclusive summer channel, my Chief Navigator! You have just one mission today: basking in the sunshine with me!",
+	touch2 = "Mm... Commander, that's a speed violation♡",
+	mission = "New missions? Go knock 'em out! Your reward will be... a nice drive down the coastline!",
+	vote = "",
+	drop_descrip = "Kicking it into high gear! Hiya♪ Welcome to my exclusive summer channel, my Chief Navigator! You have just one mission today: basking in the sunshine with me!",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "Projects? Vlogs? Forget all that for now! Right now, it's just you and me listening to our favorite jams, savoring the freedom, and living the best summer of our lives!",
+	main = "Aw, yeah! The perfect sunlight is about to shine down on us! The engine's warmed up – what about your heart, Commander?|Commander... If I accelerated right now, would you hold on tight? Then prove it! Three, two, one... Go!|Full speed ahead! As long as the sun is still in the sky, our day will never end!",
+	touch = "My tan's looking just right, huh?",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 107201,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Can you move my sunglasses for me? Heheh, mwah!",
+	feeling2 = "",
+	login = "Hey there, Commander! The breeze is just right, the music is pumping, and the mood is perfect! Come join me in the glorious sunshine!",
+	detail = "",
+	couple_encourage = {}
+}
+
+
 _G.pg.base.ship_skin_words[107220] = {
 	hp_warning = "How many... How many chances at victory do we have left?",
 	feeling3 = "A CVL might never rival an ordinary CV in terms of sheer power, but... I just want you to recognize what I'm capable of.",
@@ -18658,6 +19150,43 @@ _G.pg.base.ship_skin_words[137061] = {
 	feeling2 = "",
 	login = "There's something so relaxing about a nice hot spring bath in the woods once in a while... Hm? Oh, man... My top came undone?!",
 	detail = "I'm feeling a little unmotivated after being in here so long... Phew, it's nice to get time to relax for once. This peace is what I've been fighting for all this time.",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[137090] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Have you checked out the track already? Hmm, there's something wrong with the third downhill... I'll take note of that. Take a good break and leave the rest to me!",
+	unlock = "It's swaying so gently, like a cradle... O-oh, no. I'll fall asleep at this rate! Commander, let's move on to our simulation for the next section right away!",
+	touch2 = "I-is it just me, or are we in perfect sync right now, too?!",
+	mission = "",
+	vote = "",
+	drop_descrip = "It's swaying so gently, like a cradle... O-oh, no. I'll fall asleep at this rate! Commander, let's move on to our simulation for the next section right away!",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "Next... Yes, that's right. Our training is really paying off. In that case, let's try one more test. Close your eyes... W-wait, you knew I wanted to kiss you?!",
+	main = "The sunlight is nice and warm... I'm getting a little sleepy... Ah! As your navigator, I can't fall asleep now!|\"Seventy meters ahead, turn left, and go 24 knots!\" Good, Commander... Close your eyes, hold my hand, and run through the simulation with me.|That's enough training for now. Would you like to come lie down and rest with me? Oh... It's cramped? I-if I hold you in my arms, I'm sure we'll be fine...",
+	touch = "Shall we test our chemistry? Hmm... Which of the items on this tray do I want the most? ...Correct! Well done!",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 137090,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "That feels nice... Zzzz... (She fell asleep. Should I wake her up...?)",
+	feeling2 = "",
+	login = "Apologies for bothering you during your break, Commander, but I've found a great method to increase our chemistry! Can you spare a moment to try it out with me?",
+	detail = "",
 	couple_encourage = {}
 }
 
@@ -23344,7 +23873,7 @@ _G.pg.base.ship_skin_words[202120] = {
 	touch2 = "It's a maid's duty to dedicate her all to her master. Would you like to see, master?",
 	mission = "A new mission has been given to us, master. Please confirm it.",
 	vote = "",
-	drop_descrip = "Edinburgh-Class light cruiser ー Belfast, Hull number C35!",
+	drop_descrip = "Edinburgh-Class light cruiser – Belfast, Hull number C35!",
 	feeling4 = "It is important to observe your intentions sensitively. Especially intentions that you yourself are not aware of, master... I'm mean, you say? Hehe. Recently I've come to enjoy your troubled look a little. By all means, please forgive me.",
 	lose = "Please retreat first, master. I still have some matters to attend to.",
 	feeling1 = "Correcting her master is also a maid's duty...",
@@ -23362,7 +23891,7 @@ _G.pg.base.ship_skin_words[202120] = {
 	gift_prefer = "A present from you, Commander? I do hope you look forward to how I return the favour.",
 	profile = "Good day to you. I am Belfast, the second ship of the Edinburgh class. I have duties as the head maid while being the Royal Navy's greatest cruiser. I had taken part in many battles, and borne witness to lady Scharnhorst's fall... Those are but the past for a maid. Please say something should you have a need for me.",
 	voice_key = 20212,
-	headtouch = "",
+	headtouch = "Master? Would you like to adjust my headband for me? Then allow me to relax a little so that I might enjoy this unexpected honour... Heehee!",
 	feeling2 = "I'm terribly sorry... I'm still new to this fleet, so I'm somewhat unfamiliar with my duties and cannot serve you at 100% capacity... Please look forward to my continued service.",
 	login = "Welcome back, master. I've prepared the tea. Furthermore, I've sorted the documents over here. Please work at your leisure.",
 	detail = "Is something the matter, master?",
@@ -23762,6 +24291,43 @@ _G.pg.base.ship_skin_words[202128] = {
 	feeling2 = "",
 	login = "Is today the same as usual?",
 	detail = "I'm not going to give up being your maid. Besides, who could understand you better than me?",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[202129] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Thank you for your efforts. Care for a shoulder massage? ...Okay, then close your eyes. While you relax, do feel free to share what you saw during your travels.",
+	unlock = "Your perfect maid, Belfast, has returned, master – with even more reliable strength in hand. Should you have any duties, daily tasks, or special missions, you may entrust them all to me.",
+	touch2 = "Heehee, do you need your curiosity satisfied? This is, of course, a part of my maidly duties.",
+	mission = "",
+	vote = "",
+	drop_descrip = "Your perfect maid, Belfast, has returned, master – with even more reliable strength in hand. Should you have any duties, daily tasks, or special missions, you may entrust them all to me.",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "This strength has changed me in many ways, but the best of all is that I can fulfill my wish with greater composure than ever. That one wish being... making my master happy. That is the meaning of this strength.",
+	main = "An excellent Commander and skilled maid share certain traits: the foresight to anticipate needs, and the grace to meet those needs. In short, I feel I can care for you even better now.|I prepared tea and snacks – your favourites, naturally. Also, I've organized the paperwork on your desk, in hopes that it will allow you to handle them more easily.|Strength lies in the ability to protect what matters most. I am now confident in my ability to preserve a peaceful life by your side forever.|Master, might I suggest a more relaxed posture? For example... Would you prefer to be in my lap or in my arms? Heehee.",
+	touch = "Are you... asking me to come closer, master?",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "Be it efficiency or elegance, I promise not to disappoint you.",
+	id = 202129,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "If I may... I believe that all of my effort was leading up to this warm feeling.",
+	feeling2 = "",
+	login = "Welcome back, master. Everything is ready for you. Allow me to accompany you in today's work.",
+	detail = "",
 	couple_encourage = {}
 }
 
@@ -33137,6 +33703,43 @@ _G.pg.base.ship_skin_words[207121] = {
 	feeling2 = "",
 	login = "Welcome back, Master~♪ All righty, that's all my maid-motivation used up...",
 	detail = "Knowing how to brew tea is one of the essentials for the Royal Maids, no? Well, that's something even I can do. Though only once a day, no more than that.",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[207122] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "We won. It was mostly thanks to you, Commander, but I'm sure my navigation helped to some extent.",
+	home = "Nice work, Commander. Would you like to rest with me in the car? I can...vouch for how comfortable the seats are.",
+	unlock = "It's unusual for me to arrive before you, Commander. Will you let me navigate today? Huh? You don't think I'll just sit on the passenger seat and enjoy the view, do you?",
+	touch2 = "C-carry on and...I might not be able to keep my focus later...",
+	mission = "",
+	vote = "",
+	drop_descrip = "It's unusual for me to arrive before you, Commander. Will you let me navigate today? Huh? You don't think I'll just sit on the passenger seat and enjoy the view, do you?",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "The thought of a drive with you makes me feel so happy and at peace... It's not time for the race yet. Want to take a nap with me? Yeah, I meant right here.",
+	main = "The course data? Firmly in my head, of course. Oh, but I need to close my eyes and relax to remember it clearly...|Just standing saps all my energy, and I have to hold this on top of that...? Here, your ice-cold drink. I only drank a little of it.|Could you drive the rest of the course a bit more carefully? All this jumping about is making it hard to rela – I mean, to hold back...",
+	touch = "Commander... would you carry me to the car? I don't even have the strength left to open the door...",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 207122,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "How kind of you to tidy up my hair...",
+	feeling2 = "",
+	login = "*Yawn*. The sunlight and wind feel so nice. It's perfect weather for relaxing in the passenger seat... Ahem, for navigating, I mean. Let's get going, Commander.",
+	detail = "",
 	couple_encourage = {}
 }
 
@@ -49430,6 +50033,43 @@ _G.pg.base.ship_skin_words[305102] = {
 }
 
 
+_G.pg.base.ship_skin_words[305103] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "The heroic sight of you as you make your triumphant return shines more lustrously than any light... I hope you will take the time to bask in your glory.",
+	unlock = "These garments are a far cry from my habitual formal attire... but changing into them for your triumphant return certainly has its own charm. Commander, allow me to add a touch of radiance to your victory celebration.",
+	touch2 = "You are less reserved than usual due to this celebration... I shall gladly receive your passion.",
+	mission = "",
+	vote = "",
+	drop_descrip = "These garments are a far cry from my habitual formal attire... but changing into them for your triumphant return certainly has its own charm. Commander, allow me to add a touch of radiance to your victory celebration.",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "I offer you all the applause in the world. In return, I ask that you entrust me with everything that you have gained tonight, from the delight of your victory to your exhaustion. I shall show you something to enrapture you more than any triumph. Hehehe...",
+	main = "The radiance of this celebration glows solely for you and me. The tumult will eventually fade, leaving only stillness in its wake. I wish for nothing more than to spend that stillness with you.|The choice you faced at that corner and your bold decision to overtake... I bore witness to it all. It was magnificent, Commander.|You have overcome a great trial. Therefore, you may give yourself over to my support and the radiance of this celebration.|I invested all I had into cheering for you, and you seem satisfied by it... How will you reward me for my support of you? Hehehe...",
+	touch = "These pom-poms, or an embrace... which is it that you seek at this celebration? Hehehe, I suppose the answer is clearer than any crystal.",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 305103,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "You seem especially fond of me today... Hehehe, this is my reward to you.",
+	feeling2 = "",
+	login = "Well fought, victor. I have prepared a radiant celebration and ovation for you. You are tonight's lead and my sole spectator.",
+	detail = "",
+	couple_encourage = {}
+}
+
+
 _G.pg.base.ship_skin_words[305108] = {
 	hp_warning = "As long as I have a reason to keep fighting...",
 	feeling3 = "",
@@ -64068,6 +64708,43 @@ _G.pg.base.ship_skin_words[407041] = {
 	feeling2 = "",
 	login = "Punch the clock when you start and finish work. Be on time, and don't leave early... Oh, Commander. That wasn't aimed at you.",
 	detail = "I am the head of our pop-up shop – its \"boss bunny,\" in other words. I uphold discipline to ensure your comfort in... Just take it easy, you say? No! Every aspect of your experience must be perfect!",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[407042] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "We're here. It's some ways out, but we were able to shake off the paparazzi. This restaurant is quite a place. Let's enjoy a candlelit dinner together.",
+	unlock = "I'm afraid I kept you waiting, Commander. I've made all the necessary reservations for tonight, so all you need to do is be the special guest you are. Just relax, follow my lead, and allow me to show you the finest hospitality.",
+	touch2 = "You don't want to get out of the car? Then close the door... and continue.",
+	mission = "",
+	vote = "",
+	drop_descrip = "I'm afraid I kept you waiting, Commander. I've made all the necessary reservations for tonight, so all you need to do is be the special guest you are. Just relax, follow my lead, and allow me to show you the finest hospitality.",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "I know you're the type to be fully prepared for anything. Still, I want you to leave everything to me tonight. Don't think about a thing, and I will fulfill your every desire.",
+	main = "You're nervous? That's to be expected. I always felt the same way before drills. The right amount of tension can sharpen your senses and shorten your reaction time. That said, your mission tonight is keep away from complex thought.|There is a strong wind. My coat is in the back seat. You may wear it if you get cold. I don't need it, and I only prepared it just in case.|Yes, this nightscape really is beautiful. I would like us to put our all into enjoying it together, if that's alright with you.",
+	touch = "Could I ask you to fasten this strap for me, Commander?",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 407042,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "You're worried I might bump my head, aren't you? I thank you.",
+	feeling2 = "",
+	login = "Get in. This is a rare day off for you. I am taking you on a drive as a change of pace before the main event.",
+	detail = "You find my car too flashy? I am here to show you the best hospitality – such expenses are nothing. Now, follow me. You will see that this nightscape makes for the perfect drive and change of pace.",
 	couple_encourage = {}
 }
 
@@ -88339,6 +89016,43 @@ _G.pg.base.ship_skin_words[900354] = {
 }
 
 
+_G.pg.base.ship_skin_words[900406] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	couple_encourage = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	unlock = "",
+	touch2 = "",
+	mission = "",
+	vote = "",
+	drop_descrip = "",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "",
+	main = "",
+	touch = "",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 900406,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = -1,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	detail = ""
+}
+
+
 _G.pg.base.ship_skin_words[900409] = {
 	hp_warning = "",
 	feeling3 = "",
@@ -89179,6 +89893,80 @@ _G.pg.base.ship_skin_words[900538] = {
 	mission_complete = "",
 	battle = "",
 	id = 900538,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = -1,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	detail = ""
+}
+
+
+_G.pg.base.ship_skin_words[900549] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	couple_encourage = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	unlock = "",
+	touch2 = "",
+	mission = "",
+	vote = "",
+	drop_descrip = "",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "",
+	main = "",
+	touch = "",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 900549,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = -1,
+	headtouch = "",
+	feeling2 = "",
+	login = "",
+	detail = ""
+}
+
+
+_G.pg.base.ship_skin_words[900550] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	couple_encourage = "",
+	expedition = "",
+	win_mvp = "",
+	home = "",
+	unlock = "",
+	touch2 = "",
+	mission = "",
+	vote = "",
+	drop_descrip = "",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "",
+	main = "",
+	touch = "",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 900550,
 	gift_dislike = "",
 	gift_prefer = "",
 	profile = "",
@@ -107713,6 +108501,43 @@ _G.pg.base.ship_skin_words[199042] = {
 	feeling2 = "",
 	login = "Oh, Commander... Sorry, please stand by for a moment. I need to readjust the fitting of my shoewear.",
 	detail = "While these clothes are less flexible than my suit, based on the data I've collected on your preferences, this outfit is the most appropriate under this circumstance. Your expression, likewise, says as much.",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[199048] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "Battle evaluation complete. I'm the MVP... Hmm. My dress isn't dirty. Good.",
+	home = "Have you finished your tasks? Don't worry; no matter how long it takes, I will be here waiting for you.",
+	unlock = "Let us make our genuine vow in this fantasy world I've created for us. I trust and cherish you, and I shall endeavor to be close to you, to understand you, and to be needed by you. You are my one and only, Commander.",
+	touch2 = "I was planning to go one step at a time... but I suppose my plans will need revision.",
+	mission = "",
+	vote = "",
+	drop_descrip = "Let us make our genuine vow in this fantasy world I've created for us. I trust and cherish you, and I shall endeavor to be close to you, to understand you, and to be needed by you. You are my one and only, Commander.",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "Affection, adoration, trust... I still haven't found the perfect word to express my feelings for you. What truly matters is that I, Kearsarge, do vow my eternal loyalty to you. Your wish is my command.",
+	main = "Would you like to take a walk? I'm happy to accompany you for as long and as far as you desire.|You say this looks dreamy? In my opinion, it is closer to a manifestation of my ideal... but I will accept your opinion as valid, too. You are the core of this space, after all.|I revised many details to be more in line with your preferences. It seems I was successful.|Commander... (Kearsarge seems to be calling your name in her sleep.)",
+	touch = "Today, I am ready to respond to even the most indulgent acts.",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 199048,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "The starry sky is my veil, too. Do you like it?",
+	feeling2 = "",
+	login = "Your heart rate is higher than normal, but your vital data remains stable... The same is true for me. If you are ready, then please take my hand.",
+	detail = "I will take all of today's vows to heart. Commander, is there anything else you would like me to do? I was born from the idea of omnipotence, expected to handle any and all situations... so I'm more than capable of handling your requests.",
 	couple_encourage = {}
 }
 

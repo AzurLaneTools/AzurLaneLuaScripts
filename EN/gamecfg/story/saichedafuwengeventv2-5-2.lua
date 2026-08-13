@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "Yuubari tasked you with testing a cooled racing suit. It worked great. You received four SR gear blueprints!"
+			say = "赞助商委托测试的轻薄赛车服降温效果良好，获得了奖励【五星装备设计图纸*4】"
 		}
 	}
 }

@@ -57,8 +57,14 @@ slot0.GetSequence = function(slot0)
 	slot4 = slot0.sequence or {}
 
 	for slot6, slot7 in slot3(slot4) do
+		slot8 = slot2 and slot0:ReplacePlayerName(slot7[1]) or slot7[1]
+
+		if slot0:ShouldReplaceCar2026() then
+			slot8 = slot0:ReplaceCar2026Name(slot8)
+		end
+
 		table.insert(slot1, {
-			HXSet.hxLan(slot2 and slot0:ReplacePlayerName(slot7[1]) or slot7[1]),
+			HXSet.hxLan(slot8),
 			slot7[2]
 		})
 	end

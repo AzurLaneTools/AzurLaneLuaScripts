@@ -45,8 +45,8 @@ slot11 = {
 		"",
 		""
 	},
-	[-1] = {
-		"huodong",
+	{
+		"fanchang_2",
 		""
 	},
 	[-2] = {
@@ -63,7 +63,7 @@ slot11 = {
 	}
 }
 
-slot12 = function(slot0, slot1)
+slot0.GetTagId = function(slot0, slot1)
 	slot2 = slot0.buyCount == 0
 
 	if slot1 and slot2 then
@@ -123,7 +123,7 @@ slot0.Update = function(slot0, slot1, slot2, slot3, slot4)
 
 		setActive(go(slot0._opriceTxt), slot1:isDisCount() and slot15 > 0)
 
-		if uv0(slot1, slot3) == uv1 then
+		if uv0.GetTagId(slot1, slot3) == uv1 then
 			slot8 = true
 			slot0.discountTagOffTxt.text = string.format("%0.2f", slot15) .. "%"
 		elseif slot16 == uv2 then

@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "Bristol ran a scan on your car using her Data 857, revealing a load of extra parts. You received eight T3 Parts!"
+			say = "在柯莱特使用Error十三世进行整车检查后，产生了多余零件。获得了【强化部件T3*8】"
 		}
 	}
 }

@@ -1865,6 +1865,62 @@ slot0.ship_drag_datas = {
 				}
 			}
 		}
+	},
+	weikesibao_2 = {
+		multiple_face = {},
+		hit_area = {
+			"drag",
+			"drag_ex"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = false,
+					idle = "normal",
+					action = "drag",
+					is_default = true,
+					hit = "drag"
+				},
+				{
+					change_idle = "normal",
+					click = false,
+					idle = "ex",
+					action = "drag_ex",
+					is_default = false,
+					hit = "drag_ex"
+				}
+			}
+		}
+	},
+	weikesibao_3 = {
+		multiple_face = {},
+		hit_area = {
+			"drag",
+			"drag_ex"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = false,
+					idle = "normal",
+					action = "drag",
+					is_default = true,
+					hit = "drag"
+				},
+				{
+					change_idle = "normal",
+					click = false,
+					idle = "ex",
+					action = "drag_ex",
+					is_default = false,
+					hit = "drag_ex"
+				}
+			}
+		}
 	}
 }
 slot0.ship_effect_action_able = {

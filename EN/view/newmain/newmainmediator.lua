@@ -271,6 +271,13 @@ slot0.initNotificationHandleDic = function(slot0)
 		end,
 		[ActivityProxy.UPDATED_TIP] = function (slot0, slot1)
 			slot0.viewComponent:emit(MainBaseActivityBtn.UPDATED_TIP)
+		end,
+		[MiniGameProxy.ON_HUB_DATA_UPDATE] = function (slot0, slot1)
+			slot2 = slot0.viewComponent:GetFlagShip()
+
+			if slot0.viewComponent.theme then
+				slot0.viewComponent.theme:Refresh(slot2)
+			end
 		end
 	}
 end

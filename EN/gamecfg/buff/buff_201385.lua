@@ -1,20 +1,21 @@
 return {
-	init_effect = "yilishabai_alter_train",
+	init_effect = "",
 	name = "2025狮UR活动 女王之光号",
-	time = 10,
+	time = 3,
 	stack = 1,
 	id = 201385,
 	picture = "",
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
+				buff_id = 201381,
 				minTargetNumber = 1,
-				skill_id = 201382,
+				buff_level = 1,
 				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
@@ -26,13 +27,14 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
+				buff_id = 201381,
 				minTargetNumber = 1,
-				skill_id = 201383,
+				buff_level = 2,
 				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
@@ -44,13 +46,14 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
+				buff_id = 201381,
 				minTargetNumber = 1,
-				skill_id = 201384,
+				buff_level = 3,
 				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
@@ -62,13 +65,14 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
 				"onAttach"
 			},
 			arg_list = {
+				buff_id = 201381,
 				minTargetNumber = 1,
-				skill_id = 201385,
+				buff_level = 4,
 				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
@@ -76,6 +80,25 @@ return {
 				},
 				ship_tag_list = {
 					"MAP_D"
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				buff_id = 201381,
+				minTargetNumber = 1,
+				buff_level = 5,
+				target = "TargetSelf",
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"MAP_SP"
 				}
 			}
 		}

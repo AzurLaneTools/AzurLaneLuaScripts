@@ -11,6 +11,7 @@ slot0.OnInit = function(slot0)
 	slot0.txtDetail = slot0.btnDetail:Find("detail")
 	slot0.ruleTxt = slot0.bg:Find("rule_get")
 	slot0.btnStory = slot0.bg:Find("btn_story")
+	slot0.redPoint = slot0.btnStory:Find("red")
 	slot0.scenario = slot0:GetOutPostScenarioPage().New(slot0._tf, slot0.event)
 
 	slot0.scenario:SetCoreStoryPage(slot0)
@@ -52,6 +53,9 @@ slot0.OnFirstFlush = function(slot0)
 			uv0.scenario:UpdateStoryTask()
 			uv0.scenario:ActionInvoke("UpdateView")
 			uv0:ShowScenarioLayer(true)
+			PlayerPrefs.SetInt(Activity.GetPlayerActivyIDKey(uv0.activity.id), 1)
+			PlayerPrefs.Save()
+			uv0:refreshStoryPoint()
 		end
 	end, SFX_PANEL)
 end
@@ -94,6 +98,7 @@ slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0:getTaskIdx(slot0.activity)
 
 	slot0:PlayStory()
+	slot0:refreshStoryPoint()
 
 	if slot0.dayTF then
 		setText(slot0.dayTF, "DAY " .. slot0.nday)
@@ -191,6 +196,10 @@ slot0.isTaskFinished = function(slot0, slot1)
 	slot2 = slot0.taskProxy:getTaskById(slot1) or slot0.taskProxy:getFinishTaskById(slot1)
 
 	return slot2 and slot2:getTaskStatus() == 2
+end
+
+slot0.refreshStoryPoint = function(slot0)
+	setActive(slot0.redPoint, PlayerPrefs.GetInt(Activity.GetPlayerActivyIDKey(slot0.activity.id), 0) == 0)
 end
 
 slot0.GetProgressColor = function(slot0)

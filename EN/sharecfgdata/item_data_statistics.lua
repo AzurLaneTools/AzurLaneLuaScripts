@@ -30030,6 +30030,131 @@ _G.pg.base.item_data_statistics[30386] = {
 }
 
 
+_G.pg.base.item_data_statistics[30387] = {
+	open_directly = 1,
+	name = "外观装备箱(滨海极速)",
+	type = 11,
+	display = "可以获得一件随机的滨海极速风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbinhaijisu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30384",
+	id = 30387,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -46811,6 +46936,219 @@ _G.pg.base.item_data_statistics[30570] = {
 		{
 			9,
 			4419,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30571] = {
+	open_directly = 0,
+	name = "定向外观装备箱(滨海极速)",
+	type = 13,
+	display = "使用后可从「滨海极速」主题外观装备中任意选择一种获得1个",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbinhaijisuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30571,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
 			1
 		}
 	},
@@ -101575,6 +101913,39 @@ _G.pg.base.item_data_statistics[59859] = {
 }
 
 
+_G.pg.base.item_data_statistics[59860] = {
+	open_directly = 0,
+	name = "Head Maid's Conviction",
+	type = 7,
+	display = "\"Removing her Master's obstacles is a maid's duty.\" Belfast's retrofit material.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/maidsteadfast",
+	order = 0,
+	rarity = 4,
+	max_num = 1,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59860,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {
+		202994
+	},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59900] = {
 	open_directly = 0,
 	name = "Core Data",
@@ -112958,6 +113329,298 @@ _G.pg.base.item_data_statistics[60589] = {
 }
 
 
+_G.pg.base.item_data_statistics[60590] = {
+	open_directly = 0,
+	name = "Anniversary Invitation ",
+	type = 21,
+	display = "Use to receive a shipgirl of your choosing. ",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60590,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3401,
+		3402,
+		3403,
+		3404,
+		3405,
+		3406,
+		3407,
+		3408
+	},
+	limit = {},
+	open_ui = {
+		"login_year",
+		"t_eighthus"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60591] = {
+	open_directly = 0,
+	name = "Gift from Essex",
+	type = 1,
+	display = "A card from Essex. It reads: \"What an eventful year it's been, Commander. You've even become quite the Master Detective yourself, huh? Though, if there's one mystery that's been on my mind, it's how our time together keeps getting more fun and exciting. Shall we go unravel it together sometime?\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60591,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60592] = {
+	open_directly = 0,
+	name = "Gift from Shoukaku",
+	type = 1,
+	display = "A card from Shoukaku. It reads: \"Oh my, Commander. Does this invitation mean that you've chosen me and Zuikaku over those senpais of ours? Heehee, just kidding. It's good to see everyone getting along, and it's all thanks to you~\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60592,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60593] = {
+	open_directly = 0,
+	name = "Gift from Indomitable",
+	type = 1,
+	display = "A card from Indomitable. It reads: \"Oh hey, Commander. I am immensely honoured that you have chosen me to accompany you for this celebration... Ugh, putting up airs is such a pain. Let's go some place nice and quiet afterwards and slack off together?\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60593,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60594] = {
+	open_directly = 0,
+	name = "Gift from Belfast",
+	type = 1,
+	display = "A card from Belfast. It reads: \"Happy anniversary, Commander. It is my utmost honour and privilege to be able to serve at your side. Should you ever want for anything this upcoming year, please do not hesitate to call my name.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60594,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60595] = {
+	open_directly = 0,
+	name = "Gift from Prinz Adalbert",
+	type = 1,
+	display = "A card from Prinz Adalbert. It reads: \"Heyyo, Commander! Ahaha~ I'm not sure what to say... I'm so happy you actually chose little ol' me. Ahhh, sorry, I don't know what's gotten into me! Let's just do as besties do and dance the night away, yeah?\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60595,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60596] = {
+	open_directly = 0,
+	name = "Gift from Jean Bart",
+	type = 1,
+	display = "A card from Jean Bart. It reads: \"Happy anniversary, Commander. I still remember a time when I'd be alone at these soirées, swirlin' the wine around my cup wondering if things would ever change. But things DID change, Commander, and it wouldn't have been possible without you. P.S. Send Richelieu my regards.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60596,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60597] = {
+	open_directly = 0,
+	name = "Gift from Kuybyshev",
+	type = 1,
+	display = "A card from Kuybyshev. It reads: \"Good evening, Commander. I must say, I am more used to looking out for you when you're cold. I, umm, am not quite sure how to conduct myself when I'm burning up over here... I'm talking about the weather, of course. Heehee~\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60597,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60598] = {
+	open_directly = 0,
+	name = "Gift from Huan Ch'ang",
+	type = 1,
+	display = "A card from Huan Ch'ang. It reads: \"Happy anniversary, Commander. To commemorate the occasion, I took the liberty of performing several divinations. About us, of course. I trust that you can handle the affairs around the port perfectly, just as you always do~\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60598,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[68133] = {
 	open_directly = 0,
 	name = "换装体验券(隐秘之拥的呼唤)",
@@ -118623,6 +119286,130 @@ _G.pg.base.item_data_statistics[81443] = {
 }
 
 
+_G.pg.base.item_data_statistics[81444] = {
+	open_directly = 1,
+	name = "8th Anniversary Lucky Bag",
+	type = 17,
+	display = "Contains 1x random skin, 2x Special General Blueprints - Series 9, 2026x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai104",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998577",
+	id = 81444,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86425,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81445] = {
+	open_directly = 1,
+	name = "Anniv Rerun Outfits Lucky Box",
+	type = 17,
+	display = "Contains a random character outfit, 1200 Gems, and a large amount of supplies.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai105",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998578",
+	id = 81445,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86426,
+			1
+		},
+		{
+			1,
+			14,
+			1200
+		},
+		{
+			2,
+			15003,
+			20
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[99958] = {
 	open_directly = 0,
 	name = "5th Anniversary Invitation",
@@ -119176,6 +119963,37 @@ _G.pg.base.item_data_statistics[99995] = {
 	other_item_cost = "[]",
 	usage_arg = "78320",
 	id = 99995,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[99996] = {
+	open_directly = 0,
+	name = "8th Anniversary Photo ",
+	type = 1,
+	display = "photo taken at the beach. It always reminds you of that sunlit afternoon, with the faint, salty scent of the sea breeze. ",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/99996",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 99996,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},

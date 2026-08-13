@@ -97,9 +97,13 @@ pg.base.ship_data_create_material = {}
 			"<color=#d797ff>Elite</color>: 12%",
 			"<color=#3dc6ff>Rare</color>: 51%",
 			"Common: 30%",
-			"<color=#ffde38>Superb</color>: 2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>Bennington</color>: 2.0% <color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>Surrey</color>: 2.0%<color=#92FC63>(up!)</color>"
+			"<color=#ffde38>Vicksburg</color>: 2.0% <color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#ffde38>Collett</color>: 0.5%",
+			" ",
+			"<color=#d797ff>Harrison</color>: 2.5% <color=#92FC63>(up!)</color>"
 		}
 	}
 	pg.base.ship_data_create_material[5] = {

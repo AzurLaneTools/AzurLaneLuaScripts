@@ -99,7 +99,8 @@ pg.memory_storyline.all = {
 	94,
 	95,
 	96,
-	97
+	97,
+	98
 }
 pg.base = pg.base or {}
 pg.base.memory_storyline = {}
@@ -2607,18 +2608,41 @@ pg.base.memory_storyline = {}
 		}
 	}
 	pg.base.memory_storyline[97] = {
-		description = "Stay Tuned",
-		name = "Stay Tuned",
+		description = "\"A thousand words, a thousand faces. A deceptive visage, a bewitched heart. O travelers, gather here. O dreams, ascend here. To all those who've wandered astray, we welcome you to Astrarium.\"",
+		name = "Depths of the Astrarium",
+		column = 61,
+		world_id = "",
+		bgm = "theme-richard-white",
+		row = 0,
+		chapter = 5,
+		memory_lock = 0,
+		id = 97,
+		icon = "InterludeOne_4",
+		sort = 1,
+		memory_id = {
+			1,
+			374
+		},
+		shipnation = {
+			1
+		},
+		link_event = {
+			98
+		}
+	}
+	pg.base.memory_storyline[98] = {
+		description = "敬请期待",
+		name = "敬请期待",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 61,
+		column = 62,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 97,
+		id = 98,
 		icon = "",
 		sort = 0
 	}
