@@ -39,6 +39,10 @@ slot0.DataToLayout = function(slot0, slot1)
 				slot9 = slot0:ReplacePlayerName(slot9)
 			end
 
+			if slot0:ShouldReplaceCar2026() then
+				slot9 = slot0:ReplaceCar2026Name(slot9)
+			end
+
 			table.insert(slot2, HXSet.hxLan(slot9))
 		end
 

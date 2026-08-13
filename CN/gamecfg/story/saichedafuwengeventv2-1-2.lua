@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "完成了{namecode:98}委托的广告宣传委托，获得了委托奖励【物资*1000】"
+			say = "协助本宁顿委托拍摄车队宣传片，获得了商业赞助【物资*1000】"
 		}
 	}
 }

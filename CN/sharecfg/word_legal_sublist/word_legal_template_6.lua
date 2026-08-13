@@ -4,6 +4,35 @@ slot0.word_legal_template_6 = {}
 slot1 = slot0.word_legal_template_6
 
 temp = function()
+	uv0["什"] = {
+		["罗"] = {
+			["普"] = {
+				["郡"] = {
+					this = true,
+					["."] = {
+						["改"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["肯"] = {
+		["特"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["诺"] = {
 		["福"] = {
 			["克"] = {
@@ -491,26 +520,6 @@ temp()
 
 temp = function()
 	uv0["杉"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["梧"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["柚"] = {
 		this = {
 			this = true
 		}

@@ -843,6 +843,11 @@ temp = function()
 	uv0["本"] = {
 		["森"] = {
 			this = true
+		},
+		["宁"] = {
+			["顿"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -974,6 +979,11 @@ temp = function()
 				["德"] = {
 					this = true
 				}
+			}
+		},
+		["里"] = {
+			["森"] = {
+				this = true
 			}
 		}
 	}
@@ -1136,7 +1146,12 @@ temp = function()
 			["法"] = {
 				["斯"] = {
 					["特"] = {
-						this = true
+						this = true,
+						["."] = {
+							["改"] = {
+								this = true
+							}
+						}
 					}
 				}
 			},

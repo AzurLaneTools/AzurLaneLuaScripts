@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "在跑道上见到了紫色的精灵，但立刻就消失了，找到了奖励【四星装备设计图纸*10】"
+			say = "看见Happy D在高空飞过，掉落了【四星装备设计图纸*10】"
 		}
 	}
 }

@@ -1,6 +1,4 @@
 slot0 = class("LatestSkinShopLayer", import("...base.BaseUI"))
-slot0.TYPE_NEW_SKIN = "newSkin"
-slot0.TYPE_PERMANANT_SKIN = "permanentSkin"
 slot0.MODE_OVERVIEW = 1
 slot0.MODE_EXPERIENCE = 2
 slot0.MODE_EXPERIENCE_FOR_ITEM = 3
@@ -150,7 +148,25 @@ slot0.init = function(slot0)
 	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/rarity/subTitleFrame/subTitle"), i18n("shop_new_rarity"))
 	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/shipType/subTitleFrame/subTitle"), i18n("shop_new_category"))
 	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/themeType/subTitleFrame/subTitle"), i18n("shop_new_skin_theme"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/tag/subTitleFrame/subTitle"), i18n("skin_shop_tag"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/tag/options/0/Text"), i18n("skin_shop_tag_0"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/tag/options/1/Text"), i18n("skin_shop_tag_1"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/tag/options/2/Text"), i18n("skin_shop_tag_2"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/tag/options/3/Text"), i18n("skin_shop_tag_3"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/tag/options/4/Text"), i18n("skin_shop_tag_4"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/tag/options/5/Text"), i18n("skin_shop_tag_5"))
+	setText(slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/tag/options/6/Text"), i18n("skin_shop_tag_6"))
 	setText(slot0.filterUI:Find("panelMask/panel/bottom/ok/Text"), i18n("shop_new_confirm"))
+
+	slot0.uiOwnOptions = slot0.filterContent:Find("own/options")
+	slot0.uiTypeOptions = slot0.filterContent:Find("type/options")
+	slot0.uiShipHaveOptions = slot0.filterContent:Find("shipHave/options")
+	slot0.uiCampOptions = slot0.filterContent:Find("camp/options")
+	slot0.uiRrarityOptions = slot0.filterContent:Find("rarity/options")
+	slot0.uiShipTypeOptions = slot0.filterContent:Find("shipType/options")
+	slot0.uiThemeTypeOptions = slot0.filterContent:Find("themeType/options")
+	slot0.uiTagTypeOptions = slot0.filterContent:Find("tag/options")
+
 	slot0:Overlay()
 end
 
@@ -255,7 +271,7 @@ slot0.SetResource = function(slot0)
 end
 
 slot0.InitData = function(slot0)
-	slot0.type = slot0.contextData.type or uv0.TYPE_PERMANANT_SKIN
+	slot0.type = slot0.contextData.type or ShopConst.PERMANANT_SKIN_SHOP_ID
 	slot0.mode = slot0.contextData.mode or uv0.MODE_OVERVIEW
 
 	slot0:GetAllCommodities()
@@ -282,16 +298,27 @@ slot0.InitData = function(slot0)
 		},
 		themeType = {
 			(slot0.mode == uv0.MODE_EXPERIENCE or slot0.mode == uv0.MODE_EXPERIENCE_FOR_ITEM) and 1 or 0
+		},
+		tagType = {
+			0
 		}
 	}
 	slot0.filterValuesTemp = Clone(slot0.filterValues)
 end
 
 slot0.GetAllCommodities = function(slot0)
-	if slot0.type == uv0.TYPE_NEW_SKIN then
+	if slot0.type == ShopConst.NEW_SKIN_SHOP_ID then
 		slot0.commodities = getProxy(ShipSkinProxy):GetInTimeSkins()
-	elseif slot0.type == uv0.TYPE_PERMANANT_SKIN then
+	elseif slot0.type == ShopConst.PERMANANT_SKIN_SHOP_ID then
 		slot0.commodities = getProxy(ShipSkinProxy):GetPermanentSkins()
+	else
+		slot0.commodities = {}
+
+		for slot5, slot6 in ipairs(getProxy(ShipSkinProxy):GetAllSkins()) do
+			if table.keyof(pg.shop_skin_subsheet[slot0.type].param, slot6.id) then
+				table.insert(slot0.commodities, slot6)
+			end
+		end
 	end
 
 	if LOCK_SKIN_US then
@@ -434,183 +461,194 @@ slot0.filterOk = function(slot0, slot1)
 	slot6 = slot0.filterValues.rarityType
 	slot7 = slot0.filterValues.shipType
 	slot8 = slot0.filterValues.themeType
-	slot12 = slot0:ToVShip(ShipSkin.New({
+	slot9 = slot0.filterValues.tagType
+	slot13 = slot0:ToVShip(ShipSkin.New({
 		id = slot1:getSkinId()
 	}):GetDefaultShipConfig())
 
 	if slot0.filterValues.ownType ~= 0 then
-		slot13 = false
-		slot14 = getProxy(ShipSkinProxy):hasSkin(slot9)
-		slot15 = slot10:NoUse()
+		slot14 = false
+		slot15 = getProxy(ShipSkinProxy):hasSkin(slot10)
+		slot16 = slot11:NoUse()
 
-		if slot2 == 1 and slot14 then
-			slot13 = true
+		if slot2 == 1 and slot15 then
+			slot14 = true
 		end
 
-		if slot2 == 2 and not slot14 then
-			slot13 = true
+		if slot2 == 2 and not slot15 then
+			slot14 = true
 		end
 
-		if slot2 == 3 and slot14 and slot15 then
-			slot13 = true
+		if slot2 == 3 and slot15 and slot16 then
+			slot14 = true
 		end
 
-		if not slot13 then
+		if not slot14 then
 			return false
 		end
 	end
 
 	if slot3[1] ~= 0 then
-		slot13 = false
+		slot14 = false
 
-		for slot17, slot18 in ipairs(slot3) do
-			if slot18 == 1 and (slot10:IsLive2d() or slot10:IsLive2dPlus()) then
-				slot13 = true
+		for slot18, slot19 in ipairs(slot3) do
+			if slot19 == 1 and (slot11:IsLive2d() or slot11:IsLive2dPlus()) then
+				slot14 = true
 			end
 
-			if slot18 == 2 and not slot10:IsLive2d() and not slot10:IsLive2dPlus() and not slot10:IsSpine() and not slot10:IsSpinePlus() then
-				slot13 = true
+			if slot19 == 2 and not slot11:IsLive2d() and not slot11:IsLive2dPlus() and not slot11:IsSpine() and not slot11:IsSpinePlus() then
+				slot14 = true
 			end
 
-			if slot18 == 3 and (slot10:IsSpine() or slot10:IsSpinePlus()) then
-				slot13 = true
+			if slot19 == 3 and (slot11:IsSpine() or slot11:IsSpinePlus()) then
+				slot14 = true
 			end
 
-			if slot18 == 4 and slot10:IsBG() then
-				slot13 = true
+			if slot19 == 4 and slot11:IsBG() then
+				slot14 = true
 			end
 
-			if slot18 == 5 and slot10:IsDbg() then
-				slot13 = true
+			if slot19 == 5 and slot11:IsDbg() then
+				slot14 = true
 			end
 
-			if slot18 == 6 and slot10:isBgm() then
-				slot13 = true
+			if slot19 == 6 and slot11:isBgm() then
+				slot14 = true
 			end
 
-			if slot13 then
+			if slot14 then
 				break
 			end
 		end
 
-		if not slot13 then
+		if not slot14 then
 			return false
 		end
 	end
 
 	if slot4 ~= 0 then
-		slot13 = false
-		slot14 = slot10:CantUse()
+		slot14 = false
+		slot15 = slot11:CantUse()
 
-		if slot4 == 1 and not slot14 then
-			slot13 = true
+		if slot4 == 1 and not slot15 then
+			slot14 = true
 		end
 
-		if slot4 == 2 and slot14 then
-			slot13 = true
+		if slot4 == 2 and slot15 then
+			slot14 = true
 		end
 
-		if not slot13 then
+		if not slot14 then
 			return false
 		end
 	end
 
 	if slot5[1] ~= 0 then
-		if not slot11 then
+		if not slot12 then
 			return false
 		end
 
-		slot13 = false
+		slot14 = false
 
-		for slot17, slot18 in ipairs(slot5) do
-			for slot23, slot24 in ipairs(ShipIndexCfg.camp[slot18 + 1].types) do
-				if slot24 == Nation.LINK then
-					if Nation.LINK <= slot12:getNation() then
-						slot13 = true
+		for slot18, slot19 in ipairs(slot5) do
+			for slot24, slot25 in ipairs(ShipIndexCfg.camp[slot19 + 1].types) do
+				if slot25 == Nation.LINK then
+					if Nation.LINK <= slot13:getNation() then
+						slot14 = true
 					end
-				elseif slot24 == slot12:getNation() then
-					slot13 = true
+				elseif slot25 == slot13:getNation() then
+					slot14 = true
 				end
 			end
 
-			if slot13 then
+			if slot14 then
 				break
 			end
 		end
 
-		if not slot13 then
+		if not slot14 then
 			return false
 		end
 	end
 
 	if slot6[1] ~= 0 then
-		if not slot11 then
+		if not slot12 then
 			return false
 		end
 
-		slot13 = false
+		slot14 = false
 
-		for slot17, slot18 in ipairs(slot6) do
-			if table.contains(ShipIndexCfg.rarity[slot18 + 1].types, slot12:getRarity()) then
-				slot13 = true
+		for slot18, slot19 in ipairs(slot6) do
+			if table.contains(ShipIndexCfg.rarity[slot19 + 1].types, slot13:getRarity()) then
+				slot14 = true
 			end
 
-			if slot13 then
+			if slot14 then
 				break
 			end
 		end
 
-		if not slot13 then
+		if not slot14 then
 			return false
 		end
 	end
 
 	if slot7[1] ~= 0 then
-		if not slot11 then
+		if not slot12 then
 			return false
 		end
 
-		slot13 = false
+		slot14 = false
 
-		for slot17, slot18 in ipairs(slot7) do
-			slot20 = ShipIndexCfg.type[slot18 + 1].types
+		for slot18, slot19 in ipairs(slot7) do
+			slot21 = ShipIndexCfg.type[slot19 + 1].types
 
-			if slot18 + 1 < 4 then
-				slot21 = slot19[slot18].shipTypes
+			if slot19 + 1 < 4 then
+				slot22 = slot20[slot19].shipTypes
 
-				if table.contains(slot20, slot12:getShipType()) then
-					slot13 = true
+				if table.contains(slot21, slot13:getShipType()) then
+					slot14 = true
 				end
 
-				if table.contains(slot20, slot12:getTeamType()) then
-					slot13 = true
+				if table.contains(slot21, slot13:getTeamType()) then
+					slot14 = true
 				end
-			elseif table.contains(slot20, slot12:getShipType()) then
-				slot13 = true
+			elseif table.contains(slot21, slot13:getShipType()) then
+				slot14 = true
 			end
 
-			if slot13 then
+			if slot14 then
 				break
 			end
 		end
 
-		if not slot13 then
+		if not slot14 then
 			return false
 		end
 	end
 
 	if slot8[1] ~= 0 then
-		slot13 = false
+		slot14 = false
 
-		for slot17, slot18 in ipairs(slot8) do
-			slot19 = slot0.classifyIds[slot18 + 1]
+		for slot18, slot19 in ipairs(slot8) do
+			slot20 = slot0.classifyIds[slot19 + 1]
 
-			if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit and (slot0.mode == uv0.MODE_EXPERIENCE_FOR_ITEM and (slot19 == uv1 and slot0:ExitSkinExperienceItem(slot1.id) or true) or slot19 == uv2) or slot19 == uv3 and true or slot19 == uv4 and table.contains(slot0.returnSkins, slot1.id) and true or (slot0:GetShopTypeIdBySkinId(slot9) == 0 and uv5 or slot20) == slot19 then
+			if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit and (slot0.mode == uv0.MODE_EXPERIENCE_FOR_ITEM and (slot20 == uv1 and slot0:ExitSkinExperienceItem(slot1.id) or true) or slot20 == uv2) or slot20 == uv3 and true or slot20 == uv4 and table.contains(slot0.returnSkins, slot1.id) and true or (slot0:GetShopTypeIdBySkinId(slot10) == 0 and uv5 or slot21) == slot20 then
 				break
 			end
 		end
 
-		if not slot13 then
+		if not slot14 then
+			return false
+		end
+	end
+
+	if slot9[1] ~= 0 then
+		slot14 = false
+
+		if table.keyof(slot9, NewShopSkinCard.GetTagId(slot1, table.contains(slot0.returnSkins, slot1.id))) then
+			return true
+		else
 			return false
 		end
 	end
@@ -1832,6 +1870,7 @@ slot0.SetFilterPanel = function(slot0)
 	slot6 = slot6:Find("shipType/options")
 	slot7 = slot0.filterContent
 	slot7 = slot7:Find("themeType/options")
+	slot8 = slot0.filterContent
 
 	slot0:SetOptionList(slot4, ShipIndexConst.CampNames, true)
 	slot0:SetOptionList(slot5, ShipIndexConst.RarityNames, true)
@@ -1844,10 +1883,12 @@ slot0.SetFilterPanel = function(slot0)
 	slot0:SetMultiOptions(slot5, "rarityType")
 	slot0:SetMultiOptions(slot6, "shipType")
 	slot0:SetMultiOptions(slot7, "themeType")
+	slot0:SetMultiOptions(slot8:Find("tag/options"), "tagType")
+	slot0:HideEmptyOptions()
 
-	slot10 = slot0.filterUI
+	slot11 = slot0.filterUI
 
-	onButton(slot0, slot10:Find("bg"), function ()
+	onButton(slot0, slot11:Find("bg"), function ()
 		for slot3, slot4 in pairs(uv0.filterValues) do
 			uv0.filterValuesTemp[slot3] = Clone(uv0.filterValues[slot3])
 		end
@@ -1855,9 +1896,9 @@ slot0.SetFilterPanel = function(slot0)
 		setActive(uv0.filterUI, false)
 	end, SFX_PANEL)
 
-	slot10 = slot0.filterUI
+	slot11 = slot0.filterUI
 
-	onButton(slot0, slot10:Find("panelMask/panel/closeBtn"), function ()
+	onButton(slot0, slot11:Find("panelMask/panel/closeBtn"), function ()
 		for slot3, slot4 in pairs(uv0.filterValues) do
 			uv0.filterValuesTemp[slot3] = Clone(uv0.filterValues[slot3])
 		end
@@ -1865,9 +1906,9 @@ slot0.SetFilterPanel = function(slot0)
 		setActive(uv0.filterUI, false)
 	end, SFX_PANEL)
 
-	slot10 = slot0.filterUI
+	slot11 = slot0.filterUI
 
-	onButton(slot0, slot10:Find("panelMask/panel/bottom/ok"), function ()
+	onButton(slot0, slot11:Find("panelMask/panel/bottom/ok"), function ()
 		for slot3, slot4 in pairs(uv0.filterValues) do
 			uv0.filterValues[slot3] = Clone(uv0.filterValuesTemp[slot3])
 		end
@@ -1886,6 +1927,7 @@ slot0.OpenFilterPanel = function(slot0)
 	slot0:SetMultiOptions(slot0.filterContent:Find("rarity/options"), "rarityType", true)
 	slot0:SetMultiOptions(slot0.filterContent:Find("shipType/options"), "shipType", true)
 	slot0:SetMultiOptions(slot0.filterContent:Find("themeType/options"), "themeType", true)
+	slot0:SetMultiOptions(slot0.filterContent:Find("tag/options"), "tagType", true)
 end
 
 slot0.SetOptionList = function(slot0, slot1, slot2, slot3)
@@ -1953,7 +1995,7 @@ slot0.SetMultiOptions = function(slot0, slot1, slot2, slot3)
 					slot0 = true
 
 					for slot4 = 1, uv3.childCount - 1 do
-						if not table.contains(uv1.filterValuesTemp[uv2], slot4) then
+						if not table.contains(uv1.filterValuesTemp[uv2], slot4) and uv3:GetChild(slot4).gameObject.activeSelf then
 							slot0 = false
 
 							break
@@ -1964,7 +2006,7 @@ slot0.SetMultiOptions = function(slot0, slot1, slot2, slot3)
 						slot0 = true
 					end
 
-					if slot0 then
+					if slot0 and uv2 ~= "tagType" then
 						uv1.filterValuesTemp[uv2] = {
 							0
 						}
@@ -1989,6 +2031,191 @@ slot0.SetOptionSelect = function(slot0, slot1, slot2)
 		slot3.color = Color.New(1, 1, 1, 1)
 	else
 		slot3.color = Color.New(0, 0, 0, 0.5)
+	end
+end
+
+slot0.HideEmptyOptions = function(slot0, slot1, slot2)
+	slot3 = {
+		typeType = {
+			0
+		},
+		shipHaveType = {
+			0
+		},
+		campType = {
+			0
+		},
+		rarityType = {
+			0
+		},
+		shipType = {
+			0
+		},
+		tagType = {
+			0
+		}
+	}
+
+	for slot7, slot8 in ipairs(slot0.commodities) do
+		for slot15, slot16 in ipairs(slot0:GetSkinType(ShipSkin.New({
+			id = slot8:getSkinId()
+		}))) do
+			if not table.keyof(slot3.typeType, slot16) then
+				table.insert(slot3.typeType, slot16)
+			end
+		end
+
+		if not table.keyof(slot3.shipHaveType, slot0:GetShipHave(slot10)) then
+			table.insert(slot3.shipHaveType, slot12)
+		end
+
+		if not table.keyof(slot3.campType, slot0:GetCampType(slot10)) then
+			table.insert(slot3.campType, slot13)
+		end
+
+		if not table.keyof(slot3.rarityType, slot0:GetRarityType(slot10)) then
+			table.insert(slot3.rarityType, slot14)
+		end
+
+		if not table.keyof(slot3.shipType, slot0:GetShipType(slot10)) then
+			table.insert(slot3.shipType, slot15)
+		end
+
+		if not table.keyof(slot3.tagType, slot0:GetTagType(slot8)) then
+			table.insert(slot3.tagType, slot16)
+		end
+	end
+
+	for slot7, slot8 in pairs(slot3) do
+		table.sort(slot8, function (slot0, slot1)
+			return slot0 < slot1
+		end)
+	end
+
+	for slot7 = 1, slot0.uiTypeOptions.childCount - 1 do
+		setActive(slot0.uiTypeOptions:GetChild(slot7), table.contains(slot3.typeType, slot7))
+	end
+
+	for slot7 = 1, slot0.uiShipHaveOptions.childCount - 1 do
+		setActive(slot0.uiShipHaveOptions:GetChild(slot7), table.contains(slot3.shipHaveType, slot7))
+	end
+
+	for slot7 = 1, slot0.uiCampOptions.childCount - 1 do
+		setActive(slot0.uiCampOptions:GetChild(slot7), table.contains(slot3.campType, slot7))
+	end
+
+	for slot7 = 1, slot0.uiRrarityOptions.childCount - 1 do
+		setActive(slot0.uiRrarityOptions:GetChild(slot7), table.contains(slot3.rarityType, slot7))
+	end
+
+	for slot7 = 1, slot0.uiShipTypeOptions.childCount - 1 do
+		setActive(slot0.uiShipTypeOptions:GetChild(slot7), table.contains(slot3.shipType, slot7))
+	end
+
+	for slot7 = 1, slot0.uiTagTypeOptions.childCount - 1 do
+		setActive(slot0.uiTagTypeOptions:GetChild(slot7), table.contains(slot3.tagType, slot7))
+	end
+end
+
+slot0.GetSkinType = function(slot0, slot1)
+	slot2 = {}
+
+	if slot1:IsLive2d() or slot1:IsLive2dPlus() then
+		table.insert(slot2, 1)
+	end
+
+	if not slot1:IsLive2d() and not slot1:IsLive2dPlus() and not slot1:IsSpine() and not slot1:IsSpinePlus() then
+		table.insert(slot2, 2)
+	end
+
+	if slot1:IsSpine() or slot1:IsSpinePlus() then
+		table.insert(slot2, 3)
+	end
+
+	if slot1:IsBG() then
+		table.insert(slot2, 4)
+	end
+
+	if slot1:IsDbg() then
+		table.insert(slot2, 5)
+	end
+
+	if slot1:isBgm() then
+		table.insert(slot2, 6)
+	end
+
+	return slot2
+end
+
+slot0.GetShipHave = function(slot0, slot1)
+	if slot1:CantUse() then
+		return 2
+	else
+		return 1
+	end
+end
+
+slot0.GetCampType = function(slot0, slot1)
+	if not slot1:GetDefaultShipConfig() then
+		return 0
+	end
+
+	slot4 = slot0:ToVShip(slot2):getNation()
+
+	for slot9, slot10 in ipairs(ShipIndexCfg.camp) do
+		for slot14, slot15 in ipairs(slot10.types) do
+			if slot15 == Nation.LINK then
+				if Nation.LINK <= slot4 then
+					return slot9 - 1
+				end
+			elseif slot4 == slot15 then
+				return slot9 - 1
+			end
+		end
+	end
+
+	return 0
+end
+
+slot0.GetRarityType = function(slot0, slot1)
+	if not slot1:GetDefaultShipConfig() then
+		return 0
+	end
+
+	slot4 = slot0:ToVShip(slot2):getRarity()
+
+	for slot9, slot10 in ipairs(ShipIndexCfg.rarity) do
+		if table.contains(slot10.types, slot4) then
+			return slot9 - 1
+		end
+	end
+
+	return 0
+end
+
+slot0.GetShipType = function(slot0, slot1)
+	if not slot1:GetDefaultShipConfig() then
+		return 0
+	end
+
+	slot4 = slot0:ToVShip(slot2):getShipType()
+
+	for slot9, slot10 in ipairs(ShipIndexCfg.type) do
+		for slot14, slot15 in pairs(slot10) do
+			if table.keyof(slot15, slot4) then
+				return slot9 - 1
+			end
+		end
+	end
+
+	return 0
+end
+
+slot0.GetTagType = function(slot0, slot1)
+	if NewShopSkinCard.GetTagId(slot1, table.contains(slot0.returnSkins, slot1.id)) > 0 then
+		return slot3
+	else
+		return 0
 	end
 end
 

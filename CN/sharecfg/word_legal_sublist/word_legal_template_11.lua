@@ -4,6 +4,26 @@ slot0.word_legal_template_11 = {}
 slot1 = slot0.word_legal_template_11
 
 temp = function()
+	uv0["鹳"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鹞"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["枭"] = {
 		this = {
 			this = true
@@ -513,88 +533,6 @@ temp = function()
 		},
 		["露"] = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["希"] = {
-		["咪"] = {
-			this = true
-		},
-		["露"] = {
-			this = true
-		},
-		["娜"] = {
-			this = true
-		},
-		["佩"] = {
-			["尔"] = {
-				["海"] = {
-					["军"] = {
-						["上"] = {
-							["将"] = {
-								this = true,
-								["("] = {
-									["μ"] = {
-										["兵"] = {
-											["装"] = {
-												[")"] = {
-													this = true
-												}
-											}
-										}
-									}
-								},
-								["."] = {
-									["改"] = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["尔"] = {
-			["德"] = {
-				["加"] = {
-					["德"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["柯"] = {
-		["妮"] = {
-			this = true
-		},
-		["尼"] = {
-			["斯"] = {
-				["堡"] = {
-					this = true,
-					["·"] = {
-						M = {
-							E = {
-								T = {
-									A = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
 		}
 	}
 end

@@ -89,15 +89,27 @@ end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
-		ActivityProxy.ACTIVITY_UPDATED
+		ActivityProxy.ACTIVITY_UPDATED,
+		GAME.STORY_UPDATE_DONE
 	}
 end
 
 slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
-		slot0.viewComponent:UpdateGame(slot3)
+	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then
+		if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
+			slot0.viewComponent:UpdateGame(slot3)
+		end
+	elseif slot2 == GAME.STORY_UPDATE_DONE then
+		slot4 = slot0.viewComponent
+
+		slot4:UpdateStory()
+
+		slot4 = slot0.viewComponent
+
+		slot4:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
+		end)
 	end
 end
 

@@ -17,11 +17,29 @@ slot0.UpdateGame = function(slot0, slot1)
 	if slot0.gameUI then
 		slot0.gameUI:UpdateActivity(slot0.activity)
 	else
-		slot0.gameUI = MonopolyCar2024Game.New(slot0.activity, slot0._tf:Find("adapt"), slot0.event)
+		slot0.gameUI = slot0:NewGame()
+
+		slot0.gameUI:Setup()
 	end
 end
 
+slot0.UpdateStory = function(slot0)
+	if not slot0.gameUI then
+		return
+	end
+
+	slot0.gameUI:UpdateStory()
+end
+
+slot0.NewGame = function(slot0)
+	return MonopolyCar2024Game.New(slot0.activity, slot0._tf:Find("adapt"), slot0.event)
+end
+
 slot0.onBackPressed = function(slot0)
+	if slot0.gameUI and slot0.gameUI.isBlocksRaycasts then
+		return
+	end
+
 	uv0.super.onBackPressed(slot0)
 end
 

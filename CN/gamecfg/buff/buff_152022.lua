@@ -1,31 +1,42 @@
 return {
-	time = 3,
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	time = 0,
 	name = "",
 	init_effect = "",
+	id = 152022,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 152022,
+	color = "red",
 	icon = 152020,
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffHP",
+			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onHPRatioUpdate"
 			},
 			arg_list = {
-				number = -1
-			}
-		},
-		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onRemove"
-			},
-			arg_list = {
-				buff_id = 152023,
-				target = "TargetSelf"
+				skill_id = 152021,
+				minTargetNumber = 1,
+				hpUpperBound = 0.2,
+				target = "TargetSelf",
+				check_target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"wgln-hx"
+				}
 			}
 		}
 	}

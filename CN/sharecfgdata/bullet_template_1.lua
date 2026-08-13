@@ -681,7 +681,7 @@ _G.pg.base.bullet_template_1[801] = {
 	damage_type = {
 		1,
 		0.8,
-		0.4
+		0.6
 	},
 	DMG_font = {
 		{
@@ -699,9 +699,9 @@ _G.pg.base.bullet_template_1[801] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -753,9 +753,9 @@ _G.pg.base.bullet_template_1[802] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -861,9 +861,9 @@ _G.pg.base.bullet_template_1[804] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -897,7 +897,7 @@ _G.pg.base.bullet_template_1[811] = {
 	damage_type = {
 		1,
 		0.8,
-		0.4
+		0.6
 	},
 	DMG_font = {
 		{
@@ -915,9 +915,9 @@ _G.pg.base.bullet_template_1[811] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -969,9 +969,9 @@ _G.pg.base.bullet_template_1[812] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1077,9 +1077,9 @@ _G.pg.base.bullet_template_1[814] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1099,7 +1099,7 @@ _G.pg.base.bullet_template_1[815] = {
 	velocity = 12,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/torpedo-hit",
+	hit_sfx = "",
 	miss_fx = "ShellMissBig",
 	miss_sfx = "",
 	alert_fx = "",
@@ -1131,9 +1131,9 @@ _G.pg.base.bullet_template_1[815] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1,
-		1.3
+		5,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -1160,7 +1160,7 @@ _G.pg.base.bullet_template_1[816] = {
 	velocity = 10,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/torpedo-hit",
+	hit_sfx = "",
 	miss_fx = "ShellMissBig",
 	miss_sfx = "",
 	alert_fx = "",
@@ -1192,9 +1192,9 @@ _G.pg.base.bullet_template_1[816] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1,
-		1.3
+		5,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -1235,7 +1235,7 @@ _G.pg.base.bullet_template_1[821] = {
 	damage_type = {
 		1,
 		0.8,
-		0.4
+		0.6
 	},
 	DMG_font = {
 		{
@@ -1253,9 +1253,9 @@ _G.pg.base.bullet_template_1[821] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1307,9 +1307,9 @@ _G.pg.base.bullet_template_1[822] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1331,7 +1331,7 @@ _G.pg.base.bullet_template_1[823] = {
 	out_bound = 0,
 	hit_sfx = "battle/hit",
 	miss_fx = "ShellMissBig",
-	miss_sfx = "battle/sink",
+	miss_sfx = "",
 	alert_fx = "",
 	hit_fx = "ShellHit",
 	range = 100,
@@ -1415,9 +1415,9 @@ _G.pg.base.bullet_template_1[824] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1512,7 +1512,7 @@ _G.pg.base.bullet_template_1[831] = {
 	damage_type = {
 		1,
 		0.8,
-		0.4
+		0.6
 	},
 	DMG_font = {
 		{
@@ -1530,9 +1530,9 @@ _G.pg.base.bullet_template_1[831] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1584,9 +1584,9 @@ _G.pg.base.bullet_template_1[832] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1608,7 +1608,7 @@ _G.pg.base.bullet_template_1[833] = {
 	out_bound = 0,
 	hit_sfx = "battle/hit",
 	miss_fx = "ShellMissBig",
-	miss_sfx = "battle/sink",
+	miss_sfx = "",
 	alert_fx = "",
 	hit_fx = "ShellHit",
 	range = 100,
@@ -1724,7 +1724,7 @@ _G.pg.base.bullet_template_1[835] = {
 	velocity = 12,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/torpedo-hit",
+	hit_sfx = "",
 	miss_fx = "ShellMissBig",
 	miss_sfx = "",
 	alert_fx = "",
@@ -1756,9 +1756,9 @@ _G.pg.base.bullet_template_1[835] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1,
-		1.3
+		5,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -1798,8 +1798,8 @@ _G.pg.base.bullet_template_1[836] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		0.6,
-		0.2
+		0.8,
+		0.6
 	},
 	DMG_font = {
 		{
@@ -1817,9 +1817,9 @@ _G.pg.base.bullet_template_1[836] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -2029,7 +2029,7 @@ _G.pg.base.bullet_template_1[841] = {
 	damage_type = {
 		1,
 		0.8,
-		0.4
+		0.6
 	},
 	DMG_font = {
 		{
@@ -2047,9 +2047,9 @@ _G.pg.base.bullet_template_1[841] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -2101,9 +2101,9 @@ _G.pg.base.bullet_template_1[842] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -2123,7 +2123,7 @@ _G.pg.base.bullet_template_1[843] = {
 	velocity = 12,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/torpedo-hit",
+	hit_sfx = "",
 	miss_fx = "ShellMissBig",
 	miss_sfx = "",
 	alert_fx = "",
@@ -2155,9 +2155,9 @@ _G.pg.base.bullet_template_1[843] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1,
-		1.3
+		5,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -2184,7 +2184,7 @@ _G.pg.base.bullet_template_1[844] = {
 	velocity = 10,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/torpedo-hit",
+	hit_sfx = "",
 	miss_fx = "ShellMissBig",
 	miss_sfx = "",
 	alert_fx = "",
@@ -2216,9 +2216,9 @@ _G.pg.base.bullet_template_1[844] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1,
-		1.3
+		5,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -2245,9 +2245,9 @@ _G.pg.base.bullet_template_1[845] = {
 	velocity = 12,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/hit",
+	hit_sfx = "",
 	miss_fx = "ShellMissBig",
-	miss_sfx = "battle/sink",
+	miss_sfx = "",
 	alert_fx = "",
 	hit_fx = "ShellHit",
 	range = 100,
@@ -2376,8 +2376,8 @@ _G.pg.base.bullet_template_1[847] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		0.6,
-		0.2
+		0.8,
+		0.6
 	},
 	DMG_font = {
 		{
@@ -2395,9 +2395,9 @@ _G.pg.base.bullet_template_1[847] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -2623,7 +2623,7 @@ _G.pg.base.bullet_template_1[851] = {
 	damage_type = {
 		1,
 		0.8,
-		0.4
+		0.6
 	},
 	DMG_font = {
 		{
@@ -2641,9 +2641,9 @@ _G.pg.base.bullet_template_1[851] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -2695,9 +2695,9 @@ _G.pg.base.bullet_template_1[852] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -2717,9 +2717,9 @@ _G.pg.base.bullet_template_1[853] = {
 	velocity = 12,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/hit",
+	hit_sfx = "",
 	miss_fx = "ShellMissBig",
-	miss_sfx = "battle/sink",
+	miss_sfx = "",
 	alert_fx = "",
 	hit_fx = "ShellHit",
 	range = 100,
@@ -2803,9 +2803,9 @@ _G.pg.base.bullet_template_1[854] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -2825,7 +2825,7 @@ _G.pg.base.bullet_template_1[855] = {
 	velocity = 12,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/torpedo-hit",
+	hit_sfx = "",
 	miss_fx = "ShellMissBig",
 	miss_sfx = "",
 	alert_fx = "",
@@ -2857,9 +2857,9 @@ _G.pg.base.bullet_template_1[855] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1,
-		1.3
+		5,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -2886,7 +2886,7 @@ _G.pg.base.bullet_template_1[856] = {
 	velocity = 10,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/torpedo-hit",
+	hit_sfx = "",
 	miss_fx = "ShellMissBig",
 	miss_sfx = "",
 	alert_fx = "",
@@ -2918,9 +2918,9 @@ _G.pg.base.bullet_template_1[856] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1,
-		1.3
+		5,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -304480,11 +304480,11 @@ _G.pg.base.bullet_template_1[760061] = {
 	velocity = 8,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
+	hit_sfx = "",
+	miss_fx = "None",
 	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "pofang",
+	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
 	pierce_count = 0,
@@ -304534,11 +304534,11 @@ _G.pg.base.bullet_template_1[760062] = {
 	velocity = 8,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
-	miss_sfx = "battle/sink",
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "pofang",
+	hit_fx = "None",
 	range = 80,
 	effect_type = 1,
 	pierce_count = 0,
@@ -304566,9 +304566,9 @@ _G.pg.base.bullet_template_1[760062] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -304588,11 +304588,11 @@ _G.pg.base.bullet_template_1[760063] = {
 	velocity = 8.5,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
-	miss_sfx = "battle/sink",
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "pofang",
+	hit_fx = "None",
 	range = 80,
 	effect_type = 1,
 	pierce_count = 0,
@@ -304620,9 +304620,9 @@ _G.pg.base.bullet_template_1[760063] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -304642,11 +304642,11 @@ _G.pg.base.bullet_template_1[760064] = {
 	velocity = 9,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
-	miss_sfx = "battle/sink",
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "pofang",
+	hit_fx = "None",
 	range = 80,
 	effect_type = 1,
 	pierce_count = 0,
@@ -304674,9 +304674,9 @@ _G.pg.base.bullet_template_1[760064] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -304696,11 +304696,11 @@ _G.pg.base.bullet_template_1[760065] = {
 	velocity = 8.5,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
-	miss_sfx = "battle/sink",
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "pofang",
+	hit_fx = "None",
 	range = 80,
 	effect_type = 1,
 	pierce_count = 0,
@@ -304728,9 +304728,9 @@ _G.pg.base.bullet_template_1[760065] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -304750,11 +304750,11 @@ _G.pg.base.bullet_template_1[760066] = {
 	velocity = 8,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
-	miss_sfx = "battle/sink",
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "pofang",
+	hit_fx = "None",
 	range = 80,
 	effect_type = 1,
 	pierce_count = 0,
@@ -304782,9 +304782,9 @@ _G.pg.base.bullet_template_1[760066] = {
 	},
 	acceleration = {},
 	cld_box = {
-		6,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -304804,11 +304804,11 @@ _G.pg.base.bullet_template_1[760067] = {
 	velocity = 12,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
+	hit_sfx = "",
+	miss_fx = "None",
 	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "pofang",
+	hit_fx = "None",
 	range = 60,
 	effect_type = 1,
 	pierce_count = 0,
@@ -304818,7 +304818,7 @@ _G.pg.base.bullet_template_1[760067] = {
 	damage_type = {
 		1,
 		0.8,
-		0.4
+		0.6
 	},
 	DMG_font = {
 		{
@@ -304858,11 +304858,11 @@ _G.pg.base.bullet_template_1[760068] = {
 	velocity = 5,
 	antisub_enhancement = 0,
 	out_bound = 1,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
+	hit_sfx = "",
+	miss_fx = "None",
 	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "pofang",
+	hit_fx = "None",
 	range = 40,
 	effect_type = 1,
 	pierce_count = 50,
@@ -304923,11 +304923,11 @@ _G.pg.base.bullet_template_1[760069] = {
 	velocity = 3,
 	antisub_enhancement = 0,
 	out_bound = 1,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
-	miss_sfx = "battle/sink",
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "BlueHit",
+	hit_fx = "None",
 	range = 200,
 	effect_type = 1,
 	pierce_count = 0,
@@ -304977,11 +304977,11 @@ _G.pg.base.bullet_template_1[760070] = {
 	velocity = 12,
 	antisub_enhancement = 0,
 	out_bound = 0,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
+	hit_sfx = "",
+	miss_fx = "None",
 	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "pofang",
+	hit_fx = "None",
 	range = 60,
 	effect_type = 1,
 	pierce_count = 0,
@@ -304991,7 +304991,7 @@ _G.pg.base.bullet_template_1[760070] = {
 	damage_type = {
 		1,
 		0.8,
-		0.4
+		0.6
 	},
 	DMG_font = {
 		{
@@ -305031,11 +305031,11 @@ _G.pg.base.bullet_template_1[760071] = {
 	velocity = 10,
 	antisub_enhancement = 0,
 	out_bound = 1,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
+	hit_sfx = "",
+	miss_fx = "None",
 	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "pofang",
+	hit_fx = "None",
 	range = 150,
 	effect_type = 1,
 	pierce_count = 50,
@@ -305122,11 +305122,11 @@ _G.pg.base.bullet_template_1[760072] = {
 	velocity = 10,
 	antisub_enhancement = 0,
 	out_bound = 1,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
+	hit_sfx = "",
+	miss_fx = "None",
 	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "pofang",
+	hit_fx = "None",
 	range = 150,
 	effect_type = 1,
 	pierce_count = 50,
@@ -305213,11 +305213,11 @@ _G.pg.base.bullet_template_1[760073] = {
 	velocity = 3,
 	antisub_enhancement = 0,
 	out_bound = 1,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
-	miss_sfx = "battle/sink",
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "BlueHit",
+	hit_fx = "None",
 	range = 80,
 	effect_type = 1,
 	pierce_count = 0,
@@ -305267,11 +305267,11 @@ _G.pg.base.bullet_template_1[760074] = {
 	velocity = 3,
 	antisub_enhancement = 0,
 	out_bound = 1,
-	hit_sfx = "battle/hit",
-	miss_fx = "ShellMiss",
-	miss_sfx = "battle/sink",
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
 	alert_fx = "",
-	hit_fx = "BlueHit",
+	hit_fx = "None",
 	range = 80,
 	effect_type = 1,
 	pierce_count = 0,

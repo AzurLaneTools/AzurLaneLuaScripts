@@ -401,6 +401,18 @@ pg.transform_data_template.all = {
 	10609,
 	10610,
 	10611,
+	11501,
+	11502,
+	11503,
+	11504,
+	11505,
+	11506,
+	11507,
+	11508,
+	11509,
+	11510,
+	11511,
+	11512,
 	11901,
 	11902,
 	11903,
@@ -16276,6 +16288,510 @@ end)()
 			50
 		}
 	}
+	pg.base.transform_data_template[11501] = {
+		level_limit = 1,
+		name = "舰体改良I",
+		descrip = "耐久+45",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 1,
+		star_limit = 3,
+		icon = "hp_1",
+		skill_id = 0,
+		use_gold = 600,
+		id = 11501,
+		condition_id = {},
+		effect = {
+			{
+				durability = 45
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	}
+	pg.base.transform_data_template[11502] = {
+		level_limit = 5,
+		name = "机动强化I",
+		descrip = "机动+5",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "dd_1",
+		skill_id = 0,
+		use_gold = 800,
+		id = 11502,
+		condition_id = {
+			11501
+		},
+		effect = {
+			{
+				dodge = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	}
+	pg.base.transform_data_template[11503] = {
+		level_limit = 20,
+		name = "主炮改良I",
+		descrip = "主炮武器效率+5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "mgup_1",
+		skill_id = 0,
+		use_gold = 1000,
+		id = 11503,
+		condition_id = {
+			11501
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	}
+end)()
+(function ()
+	pg.base.transform_data_template[11504] = {
+		level_limit = 25,
+		name = "炮击强化I",
+		descrip = "炮击+10",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "cn_1",
+		skill_id = 0,
+		use_gold = 1500,
+		id = 11504,
+		condition_id = {
+			11503
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	}
+	pg.base.transform_data_template[11505] = {
+		level_limit = 35,
+		name = "舰体改良II",
+		descrip = "耐久+45/耐久+75",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "hp_2",
+		skill_id = 0,
+		use_gold = 1800,
+		id = 11505,
+		condition_id = {
+			11503
+		},
+		effect = {
+			{
+				durability = 45
+			},
+			{
+				durability = 75
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			10
+		}
+	}
+	pg.base.transform_data_template[11506] = {
+		level_limit = 40,
+		name = "机动强化II",
+		descrip = "机动+5/机动+10",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "dd_2",
+		skill_id = 0,
+		use_gold = 2000,
+		id = 11506,
+		condition_id = {
+			11502,
+			11505
+		},
+		effect = {
+			{
+				dodge = 5
+			},
+			{
+				dodge = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			10
+		}
+	}
+	pg.base.transform_data_template[11507] = {
+		level_limit = 50,
+		name = "主炮改良II",
+		descrip = "主炮武器效率+5%/主炮武器效率+5%",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "mgup_2",
+		skill_id = 0,
+		use_gold = 2500,
+		id = 11507,
+		condition_id = {
+			11505
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			},
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				}
+			},
+			{
+				{
+					18013,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	}
+	pg.base.transform_data_template[11508] = {
+		level_limit = 55,
+		name = "炮击强化II",
+		descrip = "炮击+5/炮击+15",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "cn_2",
+		skill_id = 0,
+		use_gold = 3000,
+		id = 11508,
+		condition_id = {
+			11507
+		},
+		effect = {
+			{
+				cannon = 5
+			},
+			{
+				cannon = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				}
+			},
+			{
+				{
+					18013,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	}
+	pg.base.transform_data_template[11509] = {
+		level_limit = 70,
+		name = "主炮改良II",
+		descrip = "主炮武器效率+5%/主炮武器效率+5%",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 6,
+		icon = "mgup_2",
+		skill_id = 0,
+		use_gold = 4000,
+		id = 11509,
+		condition_id = {
+			11507
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			},
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					2
+				}
+			},
+			{
+				{
+					18013,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	}
+	pg.base.transform_data_template[11510] = {
+		level_limit = 75,
+		name = "炮击强化III",
+		descrip = "炮击+5/炮击+10/炮击+15",
+		max_level = 3,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 6,
+		icon = "Cn_3",
+		skill_id = 0,
+		use_gold = 5000,
+		id = 11510,
+		condition_id = {
+			11504,
+			11509
+		},
+		effect = {
+			{
+				cannon = 5
+			},
+			{
+				cannon = 10
+			},
+			{
+				cannon = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				},
+				{
+					17013,
+					10
+				}
+			},
+			{
+				{
+					18013,
+					2
+				},
+				{
+					17013,
+					20
+				}
+			},
+			{
+				{
+					18013,
+					3
+				},
+				{
+					17013,
+					30
+				}
+			}
+		},
+		gear_score = {
+			5,
+			10,
+			15
+		}
+	}
+	pg.base.transform_data_template[11511] = {
+		level_limit = 85,
+		name = "近代化改造",
+		descrip = [[
+近代化改造完成，防空+60
+改造后，主炮底座+1、鱼雷预装填+1、防空炮底座+1
+<color=#92fc63>【烟雾弹·轻巡】</color>技能将升级为<color=#92fc63>【烟雾弹·贝尔法斯特】</color>
+技能<color=#92fc63>【专属弹幕-贝尔法斯特II】</color>将升级为<color=#92fc63>【专属弹幕-贝尔法斯特III】</color>
+武器效率调整为130%/155%/120%]],
+		max_level = 1,
+		skin_id = 202129,
+		use_ship = 1,
+		star_limit = 6,
+		icon = "mt_red",
+		skill_id = 0,
+		use_gold = 7500,
+		id = 11511,
+		condition_id = {
+			11509,
+			11510
+		},
+		effect = {
+			{
+				antiaircraft = 60
+			}
+		},
+		ship_id = {
+			{
+				202124,
+				202994
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					59860,
+					1
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	}
+	pg.base.transform_data_template[11512] = {
+		level_limit = 90,
+		name = "战术启发",
+		descrip = "习得技能【值得信赖的完美女仆】",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 1,
+		star_limit = 6,
+		icon = "skill_red",
+		skill_id = 152650,
+		use_gold = 5000,
+		id = 11512,
+		condition_id = {
+			11508,
+			11511
+		},
+		effect = {
+			{
+				skill_id = 152650
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18013,
+					5
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	}
 	pg.base.transform_data_template[11901] = {
 		level_limit = 1,
 		name = "舰体改良I",
@@ -16376,8 +16892,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[11904] = {
 		level_limit = 25,
 		name = "炮击强化I",
@@ -19767,6 +20281,8 @@ end)()
 			20
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[14010] = {
 		level_limit = 75,
 		name = "装填强化II",
@@ -20225,8 +20741,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[14211] = {
 		level_limit = 85,
 		name = "航空强化II",
@@ -23587,6 +24101,8 @@ end)()
 			20
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[17106] = {
 		level_limit = 40,
 		name = "雷击强化I",
@@ -24017,8 +24533,6 @@ end)()
 			20
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[17407] = {
 		level_limit = 50,
 		name = "舰体改良II",
@@ -27285,6 +27799,8 @@ end)()
 			15
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[19004] = {
 		level_limit = 25,
 		name = "防空强化I",
@@ -27724,8 +28240,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[19105] = {
 		level_limit = 35,
 		name = "主炮改良I",
@@ -31080,6 +31594,8 @@ end)()
 			20
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[22704] = {
 		level_limit = 25,
 		name = "防空强化I",
@@ -31541,8 +32057,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[23304] = {
 		level_limit = 25,
 		name = "雷击强化I",
@@ -35048,6 +35562,8 @@ end)()
 			20
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[25410] = {
 		level_limit = 75,
 		name = "炮击强化III",
@@ -35547,8 +36063,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[25509] = {
 		level_limit = 70,
 		name = "主炮改良II",
@@ -38942,6 +39456,8 @@ end)()
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[27102] = {
 		level_limit = 5,
 		name = "装填强化I",
@@ -39372,8 +39888,6 @@ end)()
 			10
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[27203] = {
 		level_limit = 20,
 		name = "鱼雷改良I",
@@ -42677,6 +43191,8 @@ end)()
 			50
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[34912] = {
 		level_limit = 90,
 		name = "战术启发",
@@ -43110,8 +43626,6 @@ end)()
 			50
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[35701] = {
 		level_limit = 1,
 		name = "舰体改良I",
@@ -46478,6 +46992,8 @@ end)()
 			15
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[49308] = {
 		level_limit = 55,
 		name = "机动强化II",
@@ -46941,8 +47457,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[49408] = {
 		level_limit = 55,
 		name = "机动强化II",

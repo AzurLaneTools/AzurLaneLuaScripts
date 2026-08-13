@@ -89,6 +89,7 @@ pg.equip_skin_theme_template.all = {
 	85,
 	86,
 	87,
+	88,
 	101,
 	102,
 	103,
@@ -2055,6 +2056,30 @@ pg.base.equip_skin_theme_template = {}
 			4417,
 			4418,
 			4419
+		}
+	}
+	pg.base.equip_skin_theme_template[88] = {
+		id = 88,
+		name = "滨海极速",
+		ids = {
+			4420,
+			4421,
+			4422,
+			4423,
+			4424,
+			4425,
+			4426,
+			4427,
+			4428,
+			4429,
+			4430,
+			4431,
+			4432,
+			4433,
+			4434,
+			4435,
+			4436,
+			4437
 		}
 	}
 	pg.base.equip_skin_theme_template[101] = {

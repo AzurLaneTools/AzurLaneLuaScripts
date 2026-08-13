@@ -4,6 +4,60 @@ slot0.word_legal_template_12 = {}
 slot1 = slot0.word_legal_template_12
 
 temp = function()
+	uv0["希"] = {
+		["咪"] = {
+			this = true
+		},
+		["露"] = {
+			this = true
+		},
+		["娜"] = {
+			this = true
+		},
+		["佩"] = {
+			["尔"] = {
+				["海"] = {
+					["军"] = {
+						["上"] = {
+							["将"] = {
+								this = true,
+								["("] = {
+									["μ"] = {
+										["兵"] = {
+											["装"] = {
+												[")"] = {
+													this = true
+												}
+											}
+										}
+									}
+								},
+								["."] = {
+									["改"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["尔"] = {
+			["德"] = {
+				["加"] = {
+					["德"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["夏"] = {
 		["璐"] = {
 			["尔"] = {
@@ -836,21 +890,6 @@ temp = function()
 		["尔"] = {
 			["加"] = {
 				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["逸"] = {
-		["仙"] = {
-			this = true,
-			["."] = {
-				["改"] = {
-					this = true
-				}
 			}
 		}
 	}

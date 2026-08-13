@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "在布里斯托尔使用DATA-857进行整车检查后，产生了多余零件。获得【强化部件T3*8】"
+			say = "在柯莱特使用Error十三世进行整车检查后，产生了多余零件。获得了【强化部件T3*8】"
 		}
 	}
 }

@@ -200,7 +200,47 @@ pg.activity_event_monopoly_event.all = {
 	659,
 	661,
 	662,
-	663
+	663,
+	701,
+	702,
+	703,
+	704,
+	705,
+	706,
+	707,
+	708,
+	709,
+	710,
+	711,
+	712,
+	713,
+	714,
+	715,
+	716,
+	717,
+	718,
+	719,
+	720,
+	721,
+	722,
+	723,
+	724,
+	725,
+	726,
+	727,
+	728,
+	729,
+	730,
+	731,
+	732,
+	733,
+	734,
+	735,
+	736,
+	737,
+	738,
+	739,
+	740
 }
 pg.base = pg.base or {}
 pg.base.activity_event_monopoly_event = {}
@@ -1441,6 +1481,257 @@ end)()
 		id = 663,
 		drop = 0,
 		story = "SAICHEDAFUWENGEVENTV2-XIAFEI4",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[701] = {
+		id = 701,
+		drop = 910553,
+		story = "SAICHEDAFUWENGEVENTV2-1-1",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[702] = {
+		id = 702,
+		drop = 910554,
+		story = "SAICHEDAFUWENGEVENTV2-1-2",
+		effect = {}
+	}
+end)()
+(function ()
+	pg.base.activity_event_monopoly_event[703] = {
+		id = 703,
+		drop = 910555,
+		story = "SAICHEDAFUWENGEVENTV2-1-3",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[704] = {
+		id = 704,
+		drop = 910557,
+		story = "SAICHEDAFUWENGEVENTV2-2-1",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[705] = {
+		id = 705,
+		drop = 910558,
+		story = "SAICHEDAFUWENGEVENTV2-2-2",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[706] = {
+		id = 706,
+		drop = 910559,
+		story = "SAICHEDAFUWENGEVENTV2-2-3",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[707] = {
+		id = 707,
+		drop = 910560,
+		story = "SAICHEDAFUWENGEVENTV2-3-1",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[708] = {
+		id = 708,
+		drop = 910561,
+		story = "SAICHEDAFUWENGEVENTV2-3-2",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[709] = {
+		id = 709,
+		drop = 910562,
+		story = "SAICHEDAFUWENGEVENTV2-3-3",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[710] = {
+		id = 710,
+		drop = 910566,
+		story = "SAICHEDAFUWENGEVENTV2-4-1",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[711] = {
+		id = 711,
+		drop = 910567,
+		story = "SAICHEDAFUWENGEVENTV2-4-2",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[712] = {
+		id = 712,
+		drop = 910568,
+		story = "SAICHEDAFUWENGEVENTV2-4-3",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[713] = {
+		id = 713,
+		drop = 910569,
+		story = "SAICHEDAFUWENGEVENTV2-5-1",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[714] = {
+		id = 714,
+		drop = 910570,
+		story = "SAICHEDAFUWENGEVENTV2-5-2",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[715] = {
+		id = 715,
+		drop = 910571,
+		story = "SAICHEDAFUWENGEVENTV2-5-3",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[716] = {
+		id = 716,
+		drop = 910572,
+		story = "SAICHEDAFUWENGEVENTV2-6-1",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[717] = {
+		id = 717,
+		drop = 910573,
+		story = "SAICHEDAFUWENGEVENTV2-6-2",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[718] = {
+		id = 718,
+		drop = 910574,
+		story = "SAICHEDAFUWENGEVENTV2-6-3",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[719] = {
+		id = 719,
+		drop = 910575,
+		story = "SAICHEDAFUWENGEVENTV2-6-4",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[720] = {
+		id = 720,
+		drop = 910563,
+		story = "SAICHEDAFUWENGEVENTV2-7-1",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[721] = {
+		id = 721,
+		drop = 910564,
+		story = "SAICHEDAFUWENGEVENTV2-7-2",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[722] = {
+		id = 722,
+		drop = 910565,
+		story = "SAICHEDAFUWENGEVENTV2-7-3",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[723] = {
+		id = 723,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-8-1",
+		effect = {
+			"go_forward",
+			1
+		}
+	}
+	pg.base.activity_event_monopoly_event[724] = {
+		id = 724,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-8-2",
+		effect = {
+			"go_forward",
+			2
+		}
+	}
+	pg.base.activity_event_monopoly_event[725] = {
+		id = 725,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-8-3",
+		effect = {
+			"go_forward",
+			3
+		}
+	}
+	pg.base.activity_event_monopoly_event[726] = {
+		id = 726,
+		drop = 910552,
+		story = "0",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[727] = {
+		id = 727,
+		drop = 910551,
+		story = "0",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[728] = {
+		id = 728,
+		drop = 910584,
+		story = "0",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[729] = {
+		id = 729,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-benningdun1",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[730] = {
+		id = 730,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-benningdun2",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[731] = {
+		id = 731,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-benningdun3",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[732] = {
+		id = 732,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-bunao1",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[733] = {
+		id = 733,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-bunao2",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[734] = {
+		id = 734,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-bunao3",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[735] = {
+		id = 735,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-wuzang1",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[736] = {
+		id = 736,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-wuzang2",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[737] = {
+		id = 737,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-wuzang3",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[738] = {
+		id = 738,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-benningdun4",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[739] = {
+		id = 739,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-bunao4",
+		effect = {}
+	}
+	pg.base.activity_event_monopoly_event[740] = {
+		id = 740,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-wuzang4",
 		effect = {}
 	}
 end)()

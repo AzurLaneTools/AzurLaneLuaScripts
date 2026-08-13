@@ -98,4 +98,39 @@ slot0.GetGroupIDByMedalID = function(slot0)
 	return pg.activity_medal_group[slot0].group
 end
 
+slot0.showTip = function(slot0)
+	slot2 = pg.activity_medal_group[groupId] and slot1.activity_link or {}
+	slot3 = nil
+
+	for slot7, slot8 in ipairs(slot2) do
+		if getProxy(ActivityProxy):getActivityById(slot8[2]) and not slot10:isEnd() then
+			slot3 = slot8[3]
+
+			break
+		end
+	end
+
+	if not slot3 then
+		return 0, 0, 0
+	end
+
+	slot4 = getProxy(TaskProxy)
+	slot5 = 0
+	slot6 = 0
+	slot7 = #slot3
+
+	for slot11, slot12 in ipairs(slot3) do
+		if slot4:getTaskById(slot12) or slot4:getFinishTaskById(slot12) then
+			if slot13:getTaskStatus() == 1 then
+				slot6 = slot6 + 1
+				slot5 = slot5 + 1
+			elseif slot14 == 2 then
+				slot5 = slot5 + 1
+			end
+		end
+	end
+
+	return slot6 > 0
+end
+
 return slot0

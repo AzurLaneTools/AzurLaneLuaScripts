@@ -92,6 +92,10 @@ slot0.ShouldReplaceDorm = function(slot0)
 	return bit.band(slot0.placeholderType, Story.DORM) > 0
 end
 
+slot0.ShouldReplaceCar2026 = function(slot0)
+	return bit.band(slot0.placeholderType, Story.CAR2026) > 0
+end
+
 slot0.ReplacePlayerName = function(slot0, slot1)
 	if not getProxy(PlayerProxy) or not getProxy(PlayerProxy):getRawData() then
 		return slot1
@@ -126,6 +130,21 @@ slot0.ReplaceDormName = function(slot0, slot1)
 	end
 
 	return string.gsub(slot1, "{dorm3d}", getProxy(ApartmentProxy):getApartment(slot0.actorName) and slot2:GetCallName() or slot0.actorName)
+end
+
+slot0.ReplaceCar2026Name = function(slot0, slot1)
+	slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY)
+	slot4 = ""
+
+	if getProxy(PlayerProxy) then
+		slot4 = getProxy(PlayerProxy):getRawData():GetName()
+	end
+
+	if slot3 and slot2:RawGetActivityById(slot3:getConfig("config_client").link_act) and not slot6:isEnd() then
+		slot4 = slot6.str_data1
+	end
+
+	return string.gsub(slot1, "{car2026}", slot4)
 end
 
 slot0.ExistDispatcher = function(slot0)
@@ -530,6 +549,10 @@ slot0.GetOptions = function(slot0)
 
 		if uv0:ShouldReplaceDorm() then
 			slot1 = uv0:ReplaceDormName(slot1)
+		end
+
+		if uv0:ShouldReplaceCar2026() then
+			slot1 = uv0:ReplaceCar2026Name(slot1)
 		end
 
 		return {

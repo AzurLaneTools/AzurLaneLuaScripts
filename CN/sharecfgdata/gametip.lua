@@ -9253,6 +9253,18 @@ _G.pg.base.gametip.ship_remould_warning_201524 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_202994 = {
+	tip = [[
+此次改造操作将消耗<color=#92fc63>女仆长的坚守</color>
+是否确认？改造后武器效率调整为130%/155%/120%
+ <color=#92fc63>【主炮底座+1】【鱼雷预装填+1】【防空炮底座+1】</color>
+技能<color=#92fc63>【烟雾弹·轻巡】</color>将升级为<color=#92fc63>【烟雾弹·贝尔法斯特】</color>
+技能<color=#92fc63>【专属弹幕-贝尔法斯特II】</color>
+将升级为<color=#92fc63>【专属弹幕-贝尔法斯特III】</color>
+]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_203114 = {
 	tip = "此次改造操作将导致<color=#92fc63>【鱼雷】栏位</color>变更为<color=#92fc63>【副武器】栏位</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>查看详情</material></color>\n是否确认继续操作？"
 }
@@ -12535,7 +12547,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "华丽、萨里 建造概率UP!"
+	tip = "本宁顿、维克斯堡 等角色建造概率UP!"
 }
 
 
@@ -29957,6 +29969,16 @@ _G.pg.base.gametip.battle_text_lumei_1 = {
 }
 
 
+_G.pg.base.gametip.battle_text_benningdun_1 = {
+	tip = "风往<color=#ffaa2b>西边</color>吹……"
+}
+
+
+_G.pg.base.gametip.battle_text_benningdun_2 = {
+	tip = "风往<color=#2baaff>东边</color>吹……"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "心情不足"
 }
@@ -35404,60 +35426,25 @@ _G.pg.base.gametip.help_monopoly_car2024 = {
 			info = "3. 玩家在投出特定点数、抵达指定格子时将触发协助者的不同台词；"
 		},
 		{
-			info = "4. 活动期间，玩家完成 3 圈比赛即可获得限定家具奖励；玩家每次与不同的协助者一同比赛时将获得物资 * 2000 奖励 "
+			info = "4. 活动期间，玩家完成 9 圈比赛即可获得限定家具奖励；玩家首次与不同的协助者一同比赛时将获得物资 * 2000 奖励 "
 		},
 		{
-			info = "5. 游戏中，根据玩家停留的格子可获得不同奖励 "
+			info = "5. 游戏中，根据玩家所处位置可获得不同奖励 "
 		},
 		{
-			info = "    ：获得一定数量物资；",
-			icon = {
-				posX = 0,
-				atlas = "attricon",
-				posY = 0,
-				scale = 0.19,
-				path = "jinbi"
-			}
+			info = " 5km&11km ：获得一定数量物资；"
 		},
 		{
-			info = "    ：获得一定数量石油；",
-			icon = {
-				posX = 0,
-				atlas = "attricon",
-				posY = 0,
-				scale = 0.19,
-				path = "shiyou"
-			}
+			info = " 4km&9km ：获得一定数量石油；"
 		},
 		{
-			info = "    ：触发随机事件；",
-			icon = {
-				posX = 0,
-				atlas = "attricon",
-				posY = 0,
-				scale = 0.19,
-				path = "minyun"
-			}
+			info = " 3km&7km ：触发随机事件；"
 		},
 		{
-			info = "    ：触发随机奖励；",
-			icon = {
-				posX = 0,
-				atlas = "attricon",
-				posY = 0,
-				scale = 0.19,
-				path = "daoju"
-			}
+			info = " 2km&6km：触发随机奖励；"
 		},
 		{
-			info = "    ：触发随机移动事件；",
-			icon = {
-				posX = 0,
-				atlas = "attricon",
-				posY = 0,
-				scale = 0.19,
-				path = "jiasu"
-			}
+			info = " 10km ：触发随机移动事件；"
 		}
 	}
 }
@@ -37794,7 +37781,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至8月12日24时；]]
+ ※ 奖励领取界面将延长至9月3日24时；]]
 		}
 	}
 }
@@ -40584,6 +40571,46 @@ _G.pg.base.gametip.shop_new_category = {
 
 _G.pg.base.gametip.shop_new_skin_theme = {
 	tip = "换装主题"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag = {
+	tip = "标签"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_0 = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_1 = {
+	tip = "热销"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_2 = {
+	tip = "新品"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_3 = {
+	tip = "推荐"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_4 = {
+	tip = "活动"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_5 = {
+	tip = "活动"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_6 = {
+	tip = "返场"
 }
 
 
@@ -50091,6 +50118,16 @@ _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 }
 
 
+_G.pg.base.gametip.monopoly2026_left_cnt = {
+	tip = "剩余$1次"
+}
+
+
+_G.pg.base.gametip.monopoly2026_story_award = {
+	tip = "阅读全部剧情($1/$2)"
+}
+
+
 _G.pg.base.gametip.battlepass_main_tip_2608 = {
 	tip = "2026/8/1-2026/9/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「诺菈·META 」</color>在内的丰富奖励"
 }
@@ -50699,6 +50736,159 @@ _G.pg.base.gametip.auction_network_timeout = {
 }
 
 
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_4 = {
+	tip = "沉溺于星光之城"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_5 = {
+	tip = "星光城补给站"
+}
+
+
+_G.pg.base.gametip.StarsCityMainPage_res_day_time = {
+	tip = "剩余$1天$2时"
+}
+
+
+_G.pg.base.gametip.StarsCityMainPage_no_time = {
+	tip = "即将结束"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_turn_cnt_tip = {
+	tip = "当前圈数："
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_progress_tip = {
+	tip = "当前圈进度："
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop1 = {
+	tip = "3LAP"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop2 = {
+	tip = "6LAP"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop3 = {
+	tip = "9LAP"
+}
+
+
+_G.pg.base.gametip.mini_game_crossroad_cnt = {
+	tip = "已通过角色："
+}
+
+
+_G.pg.base.gametip.mini_game_crossroad_score = {
+	tip = "分数："
+}
+
+
+_G.pg.base.gametip.mono_car_2026_toggle_main = {
+	tip = "比赛模式"
+}
+
+
+_G.pg.base.gametip.mono_car_2026_toggle_story = {
+	tip = "剧情模式"
+}
+
+
+_G.pg.base.gametip.crossroad_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.help_monopoly_car2026 = {
+	tip = {
+		{
+			info = " 活动说明："
+		},
+		{
+			info = "1. 活动期间，玩家每日登录可获得 3 次加速机会，完成活动每日任务可额外获得 2 次加速机会；"
+		},
+		{
+			info = "2. 玩家每次经过终点，可选择指定角色的其中一人作为协助者；"
+		},
+		{
+			info = "3. 玩家在投出特定点数、抵达指定格子时将触发协助者的不同台词；"
+		},
+		{
+			info = "4. 活动期间，玩家完成 9 圈比赛即可获得限定家具奖励；玩家首次与不同的协助者一同比赛时将获得物资 * 1000 奖励 "
+		},
+		{
+			info = "5. 游戏中，根据玩家所处位置可获得不同奖励 "
+		},
+		{
+			info = " 5km&11km ：获得一定数量物资；"
+		},
+		{
+			info = " 4km&9km ：获得一定数量石油；"
+		},
+		{
+			info = " 3km&7km ：触发随机事件；"
+		},
+		{
+			info = " 2km&6km：触发随机奖励；"
+		},
+		{
+			info = " 10km ：触发随机移动事件；"
+		}
+	}
+}
+
+
 _G.pg.base.gametip.loading_pic_btn = {
 	tip = "过场图"
+}
+
+
+_G.pg.base.gametip.LeMarsReSkinPage_reward_title = {
+	tip = "目标消耗石油"
+}
+
+
+_G.pg.base.gametip.LeMarsReSkinPage_reward_target = {
+	tip = "当前消耗石油："
 }

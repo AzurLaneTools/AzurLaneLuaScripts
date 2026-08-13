@@ -4,6 +4,21 @@ slot0.word_legal_template_13 = {}
 slot1 = slot0.word_legal_template_13
 
 temp = function()
+	uv0["逸"] = {
+		["仙"] = {
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["宁"] = {
 		["海"] = {
 			this = true
@@ -190,44 +205,6 @@ end
 temp()
 
 temp = function()
-	uv0["维"] = {
-		["托"] = {
-			["里"] = {
-				["奥"] = {
-					["·"] = {
-						["维"] = {
-							["内"] = {
-								["托"] = {
-									this = true
-								}
-							}
-						},
-						["库"] = {
-							["尼"] = {
-								["贝"] = {
-									["尔"] = {
-										["蒂"] = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["达"] = {
-			["号"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["安"] = {
 		["德"] = {
 			["烈"] = {
@@ -358,7 +335,18 @@ temp()
 temp = function()
 	uv0["灵"] = {
 		["敏"] = {
-			this = true
+			this = true,
+			["."] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
