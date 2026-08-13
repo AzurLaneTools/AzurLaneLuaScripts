@@ -50,20 +50,7 @@ slot0.OnFirstFlush = function(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnShop, function ()
-		if uv0.shopLinkActID and uv1(slot0) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-			return
-		end
-
-		if slot0 then
-			uv2:emit(ActivityMediator.GO_SHOPS_LAYER, {
-				warp = NewShopsScene.TYPE_ACTIVITY,
-				actId = slot0
-			})
-		else
-			uv2:emit(ActivityMediator.GO_CHANGE_SHOP)
-		end
+		uv0:emit(ActivityMediator.GO_CHANGE_SHOP)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnManual, function ()
 		uv0:emit(ActivityMediator.ON_ADD_SUBLAYER, Context.New({
@@ -80,23 +67,32 @@ slot0.refreshBtnResTime = function(slot0)
 	slot1 = type(slot0.activity:getConfig("config_client")) == "table" and slot1 or {}
 	slot3 = pg.TimeMgr.GetInstance():GetServerTime()
 
-	slot4 = function(slot0, slot1)
+	slot4 = function(slot0, slot1, slot2)
 		if not slot0 then
 			return
 		end
 
-		slot2 = slot1 and getProxy(ActivityProxy):getActivityById(slot1) or nil
+		slot3 = 0
+		slot4 = 0
+		slot5 = false
 
-		if slot2 and not slot2:isEnd() and slot2.stopTime and uv0 < slot2.stopTime then
-			slot4 = slot2.stopTime - uv0
-			slot5 = math.floor(slot4 / 86400)
+		if slot2 == 1 then
+			slot6 = slot1 and getProxy(ActivityProxy):getActivityById(slot1) or nil
+			slot5 = slot6 and not slot6:isEnd() and slot6.stopTime and uv0 < slot6.stopTime
+			slot4 = math.floor((slot6.stopTime - uv0) / 3600)
+		else
+			slot3 = pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.shop_template[slot1].time[2]) - uv0
+			slot4 = math.floor(slot3 / 3600)
+			slot5 = slot3 > 0
+		end
 
+		if slot5 and slot4 <= 24 then
 			setActive(slot0.parent, true)
 
-			if math.floor(slot4 % 86400 / 3600) >= 2 then
-				setText(slot0, i18n("StarsCityMainPage_res_day_time", slot5, slot6))
-			else
+			if slot2 == 1 then
 				setText(slot0, i18n("StarsCityMainPage_no_time"))
+			else
+				setText(slot0, i18n("StarsCityMainPage_res_day_time", slot4))
 			end
 		else
 			setActive(slot0.parent, false)
@@ -104,8 +100,8 @@ slot0.refreshBtnResTime = function(slot0)
 		end
 	end
 
-	slot4(slot0.resTimeBuild, slot1.buildLinkActID)
-	slot4(slot0.resTimeShop, slot1.shopLinkActID)
+	slot4(slot0.resTimeBuild, slot1.buildLinkActID, 1)
+	slot4(slot0.resTimeShop, slot1.shopItemID, 2)
 end
 
 slot0.OnUpdateFlush = function(slot0)

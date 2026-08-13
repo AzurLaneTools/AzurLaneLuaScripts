@@ -50747,7 +50747,7 @@ _G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_5 = {
 
 
 _G.pg.base.gametip.StarsCityMainPage_res_day_time = {
-	tip = "剩余$1天$2时"
+	tip = "剩余$1时"
 }
 
 

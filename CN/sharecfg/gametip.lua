@@ -31090,66 +31090,66 @@ cs.gametip = {
 	},
 	StarsCityMainPage_res_day_time = {
 		1335518,
-		110
+		105
 	},
 	StarsCityMainPage_no_time = {
-		1335628,
+		1335623,
 		101
 	},
 	RapidSeasideMonopolyPage_turn_cnt_tip = {
-		1335729,
+		1335724,
 		116
 	},
 	RapidSeasideMonopolyPage_progress_tip = {
-		1335845,
+		1335840,
 		119
 	},
 	RapidSeasideMonopolyPage_award_loop1 = {
-		1335964,
+		1335959,
 		104
 	},
 	RapidSeasideMonopolyPage_award_loop2 = {
-		1336068,
+		1336063,
 		104
 	},
 	RapidSeasideMonopolyPage_award_loop3 = {
-		1336172,
+		1336167,
 		104
 	},
 	mini_game_crossroad_cnt = {
-		1336276,
+		1336271,
 		105
 	},
 	mini_game_crossroad_score = {
-		1336381,
+		1336376,
 		98
 	},
 	mono_car_2026_toggle_main = {
-		1336479,
+		1336474,
 		101
 	},
 	mono_car_2026_toggle_story = {
-		1336580,
+		1336575,
 		102
 	},
 	crossroad_minigame_help = {
-		1336682,
+		1336677,
 		415
 	},
 	help_monopoly_car2026 = {
-		1337097,
+		1337092,
 		992
 	},
 	loading_pic_btn = {
-		1338089,
+		1338084,
 		88
 	},
 	LeMarsReSkinPage_reward_title = {
-		1338177,
+		1338172,
 		111
 	},
 	LeMarsReSkinPage_reward_target = {
-		1338288,
+		1338283,
 		115
 	}
 }
