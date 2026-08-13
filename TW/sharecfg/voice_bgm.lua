@@ -84,7 +84,7 @@ pg.base.voice_bgm = {}
 	pg.base.voice_bgm.LoginScene = {
 		default_bgm = "login",
 		special_bgm = "",
-		bgm = "nier-ruinscity-a-1"
+		bgm = "login"
 	}
 	pg.base.voice_bgm.NewMainScene = {
 		default_bgm = "main",

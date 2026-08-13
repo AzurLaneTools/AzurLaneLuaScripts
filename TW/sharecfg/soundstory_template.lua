@@ -31,7 +31,8 @@ pg.soundstory_template.all = {
 	26,
 	27,
 	28,
-	29
+	29,
+	30
 }
 pg.base = pg.base or {}
 pg.base.soundstory_template = {}
@@ -156,6 +157,7 @@ pg.base.soundstory_template = {}
 		overview = "在平凡的午後，埃姆登送出了對人類而言有些「過激」的獎賞…",
 		order = 2,
 		audition_text = "來，好好放鬆一下吧？沒有什麼好害羞的。",
+		time = "always",
 		ship_id = 40207,
 		id = 5,
 		captions_color = "#7a524e",
@@ -169,33 +171,6 @@ pg.base.soundstory_template = {}
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					7,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.soundstory_template[6] = {
@@ -572,9 +547,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2024,
-					11,
-					21
+					2026,
+					8,
+					13
 				},
 				{
 					0,
@@ -584,9 +559,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2024,
-					11,
-					27
+					2026,
+					8,
+					19
 				},
 				{
 					23,
@@ -1383,6 +1358,59 @@ pg.base.soundstory_template = {}
 					2026,
 					6,
 					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.soundstory_template[30] = {
+		story_pic = "",
+		name = "今夜的身體檢查",
+		story_resource_JP = "soundStory30_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "鷲見友美Jiena",
+		audition_resource_JP = "ss-40406-1",
+		overview = "指揮官近期一直忙於加班，錯過了港區的身體檢查，只能在夜晚獨自前往醫務室進行自檢……\n就在指揮官躺在檢查床上等待時，亞爾薇特拉開了床邊的簾子……",
+		order = 2,
+		audition_text = "您這是…想直接透過我的心跳來確認答案嗎？",
+		ship_id = 40406,
+		id = 30,
+		captions_color = "#4c505b",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					19
 				},
 				{
 					23,

@@ -9,6 +9,7 @@ pg.activity_banner.all = {
 	4,
 	5,
 	6,
+	7,
 	15,
 	16,
 	90,
@@ -63,6 +64,7 @@ pg.activity_banner.get_id_list_by_type = {
 		4,
 		5,
 		6,
+		7,
 		16,
 		1000,
 		1001,
@@ -325,6 +327,41 @@ pg.base.activity_banner = {}
 					2026,
 					8,
 					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					8,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[7] = {
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"scene Cryptolalia",
+			{}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					13
 				},
 				{
 					0,
