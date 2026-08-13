@@ -1,0 +1,35 @@
+return {
+	init_effect = "",
+	name = "2026本宁顿活动 EX普通 吹风阶段 右侧风向",
+	time = 10,
+	stack = 1,
+	id = 201871,
+	picture = "",
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 201848,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				buff_id = 201872,
+				time = 0.4,
+				target = "TargetShipTag",
+				ship_tag_list = {
+					"right"
+				}
+			}
+		}
+	}
+}

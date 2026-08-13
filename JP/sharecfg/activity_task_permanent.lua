@@ -28,6 +28,7 @@ pg.activity_task_permanent.all = {
 	6021,
 	6022,
 	6023,
+	6042,
 	50521
 }
 pg.base = pg.base or {}
@@ -620,6 +621,18 @@ pg.base.activity_task_permanent = {}
 			35284,
 			35285
 		}
+	}
+	pg.base.activity_task_permanent[6042] = {
+		gametip = "「ル·マルス」の着せ替えをGET!",
+		banner_route = "permanent_lemaer",
+		gametip_extra = "最速10日間で入手",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "輝くL'ÉTÉ",
+		id = 6042,
+		activity_group = 1000,
+		over_task_id = "",
+		eliminate_task_id = {}
 	}
 	pg.base.activity_task_permanent[50521] = {
 		gametip = "测试配置",

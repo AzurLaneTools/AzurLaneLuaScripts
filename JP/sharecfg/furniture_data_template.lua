@@ -207,6 +207,8 @@ pg.furniture_data_template.all = {
 	339,
 	341,
 	342,
+	343,
+	344,
 	100002,
 	100003,
 	100004,
@@ -3598,7 +3600,26 @@ pg.furniture_data_template.all = {
 	341301,
 	341302,
 	341303,
-	341304
+	341304,
+	342001,
+	342002,
+	342101,
+	342102,
+	342103,
+	342104,
+	342105,
+	342106,
+	342107,
+	342108,
+	342109,
+	342110,
+	342111,
+	342112,
+	342113,
+	342114,
+	342115,
+	342116,
+	342117
 }
 pg.furniture_data_template.get_id_list_by_themeId = {
 	[0] = {
@@ -3803,6 +3824,8 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		339,
 		341,
 		342,
+		343,
+		344,
 		100002,
 		100003,
 		100004,
@@ -7449,6 +7472,27 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		341302,
 		341303,
 		341304
+	},
+	[142] = {
+		342001,
+		342002,
+		342101,
+		342102,
+		342103,
+		342104,
+		342105,
+		342106,
+		342107,
+		342108,
+		342109,
+		342110,
+		342111,
+		342112,
+		342113,
+		342114,
+		342115,
+		342116,
+		342117
 	}
 }
 pg.furniture_data_template.get_id_list_by_tag = {
@@ -9740,7 +9784,23 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		341115,
 		341116,
 		341117,
-		341118
+		341118,
+		342101,
+		342102,
+		342103,
+		342104,
+		342105,
+		342106,
+		342107,
+		342108,
+		342109,
+		342110,
+		342111,
+		342112,
+		342113,
+		342114,
+		342115,
+		342116
 	},
 	{
 		1108,
@@ -10027,7 +10087,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338002,
 		339002,
 		340002,
-		341002
+		341002,
+		342002
 	},
 	{
 		1001,
@@ -10155,7 +10216,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338001,
 		339001,
 		340001,
-		341001
+		341001,
+		342001
 	},
 	{
 		1301,
@@ -10978,7 +11040,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338116,
 		339115,
 		340105,
-		341119
+		341119,
+		342117
 	},
 	{
 		101,
@@ -11061,7 +11124,9 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338,
 		339,
 		341,
-		342
+		342,
+		343,
+		344
 	}
 }
 pg.furniture_data_template.get_id_list_by_type = {
@@ -11192,7 +11257,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		338002,
 		339002,
 		340002,
-		341002
+		341002,
+		342002
 	},
 	{
 		120,
@@ -13473,7 +13539,24 @@ pg.furniture_data_template.get_id_list_by_type = {
 		341116,
 		341117,
 		341118,
-		341119
+		341119,
+		342101,
+		342102,
+		342103,
+		342104,
+		342105,
+		342106,
+		342107,
+		342108,
+		342109,
+		342110,
+		342111,
+		342112,
+		342113,
+		342114,
+		342115,
+		342116,
+		342117
 	},
 	{
 		1108,
@@ -13760,7 +13843,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		338001,
 		339001,
 		340001,
-		341001
+		341001,
+		342001
 	},
 	{
 		1101,
@@ -14493,6 +14577,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		339,
 		341,
 		342,
+		343,
+		344,
 		100002,
 		100004,
 		100005,
@@ -24928,6 +25014,94 @@ end)()
 		},
 		interAction_group = {}
 	}
+	pg.base.furniture_data_template[343] = {
+		can_rotate = 0,
+		describe = "「マクガフィンを手に入れた人は、願いを一つ叶えてもらえる。先生、君の願いはなんだい？――B·H·R」　「夢光のアストリウム」に参加した指揮官に贈る",
+		gain_by = "夢光のアストリウム",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "新曲のマスターテープ",
+		advice = 0,
+		id = 343,
+		tag = 8,
+		comfortable = 0,
+		icon = "benningdunxunzhangicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"benningdunxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[344] = {
+		can_rotate = 0,
+		describe = "サンセットアヴェニュー6時間耐久レースの優勝トロフィー。勝利の輝きを放つそれは、サーキットでの至上の栄光を表す",
+		gain_by = "フラッシュウェーブ：サマーレース",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "優勝トロフィー",
+		advice = 0,
+		id = 344,
+		tag = 8,
+		comfortable = 0,
+		icon = "guanjunjiangbeixunzhangicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"guanjunjiangbeixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
 	pg.base.furniture_data_template[100002] = {
 		advice = 0,
 		name = "友情の空気ポンプ",
@@ -31799,6 +31973,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[1001] = {
 		can_rotate = 0,
 		describe = "至る所がぼろぼろになっているフローリング。足元注意。",
@@ -31869,8 +32045,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[1101] = {
 		can_rotate = 0,
 		describe = "申し訳程度のフロアマット。マットが床よりずっとボロいのは禁句",
@@ -35852,6 +36026,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[5102] = {
 		can_rotate = 0,
 		describe = "折りたたみ式のオフィスチェア。使いやすい！",
@@ -35977,8 +36153,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[5105] = {
 		can_rotate = 0,
 		describe = "寝ている間に体を修理してくれる修理作業場。鉄血公国の技術が世界一ィ！",
@@ -40181,6 +40355,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[11101] = {
 		can_rotate = 0,
 		describe = "サイズが中ぐらいのデザイナーズバス、一人用。",
@@ -40283,8 +40459,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[11103] = {
 		can_rotate = 0,
 		describe = "中庭に置かれていそうな長い椅子。横になっても…いいよ？",
@@ -44531,6 +44705,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[14107] = {
 		can_rotate = 0,
 		describe = "星の形をしたピンク色のバルーン。",
@@ -44607,8 +44783,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[14109] = {
 		can_rotate = 0,
 		describe = "星空をイメージしたデザインはミステリアスな魅力を醸し出す。",
@@ -49163,6 +49337,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[17121] = {
 		can_rotate = 1,
 		describe = "ちょこっと高い。",
@@ -49659,8 +49835,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[17202] = {
 		can_rotate = 0,
 		describe = "熱々のあずき餡が幸せの味。",
@@ -54148,6 +54322,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[21115] = {
 		can_rotate = 0,
 		describe = "饅頭が住むお城らしいピョ。",
@@ -54257,8 +54433,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[21202] = {
 		can_rotate = 0,
 		describe = "ストロベリーはハッピーなテースト。",
@@ -58963,6 +59137,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[24306] = {
 		can_rotate = 0,
 		describe = "「昼寝部、全員集合にゃ！」",
@@ -59036,8 +59212,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[27002] = {
 		can_rotate = 0,
 		describe = "「高めの茂み、隠密行動には最適――うにゃあ！？」 ",
@@ -63703,6 +63877,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[29118] = {
 		can_rotate = 0,
 		describe = "海の底でよく見かける岩",
@@ -63807,8 +63983,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[29120] = {
 		can_rotate = 0,
 		describe = "机に使えそうな岩をそのまま持ってきました",
@@ -68396,6 +68570,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[35121] = {
 		can_rotate = 0,
 		describe = "魔女の棲み家",
@@ -68498,8 +68674,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[35123] = {
 		can_rotate = 0,
 		describe = "覆っている絹織りが少し破れている",
@@ -72941,6 +73115,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[38127] = {
 		can_rotate = 0,
 		describe = "枕投げ合戦禁止",
@@ -73043,8 +73219,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[38129] = {
 		can_rotate = 0,
 		describe = "デザインが奇抜なテント",
@@ -77469,6 +77643,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[42115] = {
 		can_rotate = 1,
 		describe = "冷たくて美味しいぶどうジュース",
@@ -77542,8 +77718,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[43002] = {
 		can_rotate = 0,
 		describe = "キズナアイが存在する「白い空間」をイメージした床。これであなたのお部屋もバーチャル空間に！",
@@ -81889,6 +82063,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[45203] = {
 		can_rotate = 0,
 		describe = "軍帽掛けとしても使用されている石膏像。とある重巡の発案",
@@ -81965,8 +82141,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[45302] = {
 		can_rotate = 0,
 		describe = "宴会場に備えるランプ",
@@ -86200,6 +86374,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[49120] = {
 		can_rotate = 0,
 		describe = "「ええと、資料はここにありますよね……」",
@@ -86288,8 +86464,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[49122] = {
 		can_rotate = 0,
 		describe = "「長門様が来るなるときに敷いておくです」",
@@ -90596,6 +90770,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[53304] = {
 		can_rotate = 0,
 		describe = "「ビリビリで、放送中……」",
@@ -90678,8 +90854,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[54105] = {
 		can_rotate = 0,
 		describe = "「美味しくコーティングするピョ！」",
@@ -94890,6 +95064,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[58112] = {
 		can_rotate = 0,
 		describe = "爆竹でビックリするのではなく、ビックリする饅頭にビックリする階段ピョ",
@@ -94994,8 +95170,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[58114] = {
 		advice = 0,
 		name = "龍舞饅頭",
@@ -99257,6 +99431,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[62106] = {
 		can_rotate = 0,
 		describe = "某バターほどではないがこれでも近接武器として使用できる硬さである",
@@ -99346,8 +99522,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[62108] = {
 		can_rotate = 0,
 		describe = "「石畳みを美しい風景へと変える素敵な『マホウ』…」「ピーちゃん、こっちこっち～！」",
@@ -103702,6 +103876,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[69110] = {
 		can_rotate = 0,
 		describe = "「姉貴…医療機関に寄贈だなんて…流石です！」",
@@ -103792,8 +103968,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[69112] = {
 		can_rotate = 0,
 		describe = "「夜に動くかもしれない」とウワサの母港の不思議の一つ",
@@ -108367,6 +108541,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[73101] = {
 		can_rotate = 0,
 		describe = "「はいはいステーキは全員分あるっすよ！」",
@@ -108481,8 +108657,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[73103] = {
 		can_rotate = 0,
 		describe = "「このヴァリアントのカリスマを持ってすれば…い、今のノーカンよ！」",
@@ -112748,6 +112922,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[77002] = {
 		can_rotate = 0,
 		describe = "ずっと見ていたい雪国の夜",
@@ -112821,8 +112997,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[77102] = {
 		can_rotate = 0,
 		describe = "座席交換は自由だピョ！",
@@ -117128,6 +117302,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[81113] = {
 		can_rotate = 0,
 		describe = "「連絡事項は直接書き込まないように」",
@@ -117204,8 +117380,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[81117] = {
 		can_rotate = 0,
 		describe = "「海の征服はまずここからだ！」",
@@ -121539,6 +121713,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[84187] = {
 		advice = 0,
 		name = "アレクシス・ケリヴ(ニュー・オーダー）饅頭着ぐるみ",
@@ -121711,8 +121887,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[84189] = {
 		advice = 0,
 		name = "フルパワーグリッドナイト饅頭着ぐるみ",
@@ -125839,6 +126013,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[88305] = {
 		can_rotate = 0,
 		describe = "カカカ、饅頭ではなくワシが見張っておるゾ",
@@ -125912,8 +126088,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[89002] = {
 		can_rotate = 0,
 		describe = "シンプルにして困窮にあらず、ゴージャスにして豪奢にあらず",
@@ -129942,6 +130116,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[92301] = {
 		can_rotate = 0,
 		describe = "暖かで穏やかな雰囲気を醸し出す",
@@ -130018,8 +130194,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[92307] = {
 		can_rotate = 1,
 		describe = "フライドポテトを食べよう！",
@@ -134175,6 +134349,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[96102] = {
 		can_rotate = 0,
 		describe = "「駿河殿、すごく座り心地がいいですよ！」",
@@ -134277,8 +134453,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[96104] = {
 		can_rotate = 0,
 		describe = "「ご主人さま～早くこっちにいらっしゃってくださぁい♪」",
@@ -138644,6 +138818,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[99115] = {
 		can_rotate = 0,
 		describe = "水墨画が描かれた屏風",
@@ -138720,8 +138896,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[99117] = {
 		can_rotate = 0,
 		describe = "疲れたら休憩しよう",
@@ -143307,6 +143481,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[302127] = {
 		advice = 0,
 		name = "パレスダンスカーペット",
@@ -143567,8 +143743,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[302129] = {
 		can_rotate = 0,
 		describe = "ライブキッチン饅頭たちの料理に期待するピョ！",
@@ -147933,6 +148107,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[306102] = {
 		can_rotate = 0,
 		describe = "バケットドリンクが来た！あとは飲むだけ！",
@@ -148009,8 +148185,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[306104] = {
 		can_rotate = 0,
 		describe = "ウサウサ星人のゆっくりとしたカルチャーを表現するスタチュー",
@@ -152682,6 +152856,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[310309] = {
 		can_rotate = 0,
 		describe = "輝くステージ、輝く君へ！",
@@ -152768,8 +152944,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[311001] = {
 		can_rotate = 0,
 		describe = "クルーズ船と一緒に彼方へと旅立とう！",
@@ -157561,6 +157735,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[316112] = {
 		can_rotate = 0,
 		describe = "ふ、服をボロボロに切り刻めるんだって…危なすぎる！",
@@ -157648,8 +157824,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[316114] = {
 		advice = 0,
 		name = "プリンセス操縦パネル",
@@ -162279,6 +162453,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[320301] = {
 		can_rotate = 0,
 		describe = "定期的に更新してるから、暗記しても無駄ピョ！",
@@ -162361,8 +162537,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[320303] = {
 		can_rotate = 0,
 		describe = "ここから、遠い宇宙を眺められる――",
@@ -166881,6 +167055,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[326002] = {
 		can_rotate = 0,
 		describe = "緑の大地に立って、錬金術士の一日を体感しよう",
@@ -166954,8 +167130,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[326102] = {
 		can_rotate = 0,
 		describe = "資材を収納保存できる",
@@ -171479,6 +171653,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[331105] = {
 		can_rotate = 0,
 		describe = "ミニ植木鉢が置かれた収納棚。休憩スペースに鮮やかな彩りを添える",
@@ -171555,8 +171731,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[331107] = {
 		can_rotate = 0,
 		describe = "大きな葉を広げる観葉植物。自然の安らぎを運んでくれる",
@@ -176279,6 +176453,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[336105] = {
 		can_rotate = 0,
 		describe = "高密度データ演算センター。オペレーションに演算リソースを提供してくれる",
@@ -176361,8 +176537,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[336107] = {
 		can_rotate = 0,
 		describe = "軸調整が可能なモニター。多角的な情報分析ニーズに対応している",
@@ -180737,6 +180911,944 @@ end)()
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342001] = {
+		can_rotate = 0,
+		describe = "巻き上げる煙、勝利の叫び、輝くスポットライト！情熱あふれる海浜レース会場で、思いっきりふっ飛ばそう！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/dibancar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "レース会場の床",
+		advice = 0,
+		tag = 4,
+		id = 342001,
+		icon = "dibancar3icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342002] = {
+		can_rotate = 0,
+		describe = "巻き上げる煙、勝利の叫び、輝くスポットライト！情熱あふれる海浜レース会場で、思いっきりふっ飛ばそう！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "レース会場の壁",
+		advice = 0,
+		id = 342002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbicar3icon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342101] = {
+		can_rotate = 0,
+		describe = "ゴールしたら一本開けてスッキリしよう！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/bingtongcar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "会場アイスペール",
+		advice = 0,
+		tag = 1,
+		id = 342101,
+		icon = "bingtongcar3icon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+end)()
+(function ()
+	pg.base.furniture_data_template[342102] = {
+		can_rotate = 0,
+		describe = "ライトアップととともに、会場もヒートアップ♪",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "会場スポットライト",
+		advice = 0,
+		id = 342102,
+		tag = 1,
+		comfortable = 2,
+		icon = "chuandengcar3icon",
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuandengcar3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342103] = {
+		can_rotate = 0,
+		describe = "灯台に向けって走れ！ルートから逸れないでね！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "海浜レース灯台",
+		advice = 0,
+		id = 342103,
+		tag = 1,
+		comfortable = 3,
+		icon = "dengtacar3icon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dengtacar3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342104] = {
+		can_rotate = 1,
+		describe = "パシャパシャパシャ！先着1位は――",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "会場アーチゲート",
+		advice = 0,
+		id = 342104,
+		tag = 1,
+		comfortable = 3,
+		icon = "gongmencar3icon",
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gongmencar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342105] = {
+		can_rotate = 0,
+		describe = "頑張ってピョ！このまま走ってピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "レース観客饅頭",
+		advice = 0,
+		id = 342105,
+		tag = 1,
+		comfortable = 2,
+		icon = "guanzhongjiucar3icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanzhongjiucar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342106] = {
+		advice = 0,
+		name = "会場レッドカーペット",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "hongtancar3icon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 142,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		id = 342106,
+		comfortable = 3,
+		describe = "カーペットの上で万雷の拍手と注目をその身で受けよう！",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			4,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"hongtancar3B",
+				"normal"
+			},
+			{
+				"hongtancar3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342107] = {
+		can_rotate = 0,
+		describe = "タイヤで作った植木鉢。サーキット要素と南国情緒を上手く組み合わせた",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "タイヤ植木鉢",
+		advice = 0,
+		id = 342107,
+		tag = 1,
+		comfortable = 1,
+		icon = "huataicar3icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huataicar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342108] = {
+		can_rotate = 0,
+		describe = "サーキットのコースと重要パートは一目瞭然！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "会場サーキット",
+		advice = 0,
+		id = 342108,
+		tag = 1,
+		comfortable = 4,
+		icon = "saidaocar3icon",
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"saidaocar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342109] = {
+		advice = 0,
+		name = "会場ソファセット",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "shafazhuocar3icon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 142,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 342109,
+		comfortable = 4,
+		describe = "一休みしておしゃべりしながら試合を観戦しよう！",
+		dorm_id = 0,
+		tag = 1,
+		spine_action_replace = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shafazhuocar3B",
+				"normal"
+			},
+			{
+				"shafazhuocar3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char",
+				1
+			},
+			{
+				"char2",
+				-1
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342110] = {
+		can_rotate = 1,
+		describe = "レースマシンデザインの飲み物屋台。スピード感と清涼感を併せ持つ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "会場屋台カー",
+		advice = 0,
+		id = 342110,
+		tag = 1,
+		comfortable = 4,
+		icon = "tuichecar3icon",
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tuichecar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342111] = {
+		can_rotate = 0,
+		describe = "次のラップでの勝負は、ここからだ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "会場修理コーナー",
+		advice = 0,
+		id = 342111,
+		tag = 1,
+		comfortable = 4,
+		icon = "xiuchepengcar3icon",
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiuchepengcar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342112] = {
+		can_rotate = 1,
+		describe = "サウンドスピーカー",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/yinxiangcar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "会場スピーカー",
+		advice = 0,
+		tag = 1,
+		id = 342112,
+		icon = "yinxiangcar3icon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342113] = {
+		can_rotate = 0,
+		describe = "整然と並べられているキラキラのトロフィーたちは、チャンピオンに授与されることを待っている",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "会場展示棚",
+		advice = 0,
+		id = 342113,
+		tag = 1,
+		comfortable = 2,
+		icon = "zhanshijiacar3icon",
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshijiacar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342114] = {
+		can_rotate = 1,
+		describe = "試合の様子は生中継！数々の見所を見逃すな！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/zhibopingcar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "会場中継ディスプレイ",
+		advice = 0,
+		tag = 1,
+		id = 342114,
+		icon = "zhibopingcar3icon",
+		comfortable = 3,
+		size = {
+			1,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342115] = {
+		can_rotate = 0,
+		describe = "目立つロードコーン。サーキットコースの境界線をわかりやすく案内してくれる",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/zhuiyicar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "会場ロードコーン",
+		advice = 0,
+		id = 342115,
+		tag = 1,
+		comfortable = 1,
+		icon = "zhuiyicar3icon",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-7.6,
+					65.3
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342116] = {
+		can_rotate = 0,
+		describe = "次までまだ時間はあるから、ゆっくりしていて～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/zuodiancar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "会場クッション",
+		advice = 0,
+		id = 342116,
+		tag = 1,
+		comfortable = 2,
+		icon = "zuodiancar3icon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-4.8,
+					38.6
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342117] = {
+		advice = 0,
+		name = "会場表彰台",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "lingjiangtaicar3icon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 142,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 342117,
+		comfortable = 4,
+		describe = "さあ――海浜耐久レースのチャンピオンの誕生に喝采を！",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lingjiangtaicar3B",
+				"normal"
+			},
+			{
+				"lingjiangtaicar3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	}

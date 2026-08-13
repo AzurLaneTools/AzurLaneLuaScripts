@@ -29,7 +29,34 @@ pg.activity_event_monopoly_dialogue.all = {
 	126,
 	127,
 	128,
-	129
+	129,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159
 }
 pg.base = pg.base or {}
 pg.base.activity_event_monopoly_dialogue = {}
@@ -142,5 +169,113 @@ pg.base.activity_event_monopoly_dialogue = {}
 	pg.base.activity_event_monopoly_dialogue[129] = {
 		id = 129,
 		dialogue = "見えました。勝利があなたの到着を待っています"
+	}
+	pg.base.activity_event_monopoly_dialogue[131] = {
+		id = 131,
+		dialogue = "指揮官、カメラの準備はバッチリ！今日のサーキット動画——3、2、1、Start！"
+	}
+	pg.base.activity_event_monopoly_dialogue[132] = {
+		id = 132,
+		dialogue = "パーフェクト！あと「いいね」つけるのも、忘れないでね～"
+	}
+	pg.base.activity_event_monopoly_dialogue[133] = {
+		id = 133,
+		dialogue = "Whoa～指揮官は「最高の相棒」がどんなものなのか、よーくわかってる！"
+	}
+	pg.base.activity_event_monopoly_dialogue[134] = {
+		id = 134,
+		dialogue = "遅いのには遅いなりの味があるってものよ～。今のを超エモく編集するから♪"
+	}
+	pg.base.activity_event_monopoly_dialogue[135] = {
+		id = 135,
+		dialogue = "慌てない慌てない、レースだって安全第一だからね～"
+	}
+	pg.base.activity_event_monopoly_dialogue[136] = {
+		id = 136,
+		dialogue = "指揮官、その調子よ！お、今の指揮官すっごく頼もしく見えるじゃない♪"
+	}
+	pg.base.activity_event_monopoly_dialogue[137] = {
+		id = 137,
+		dialogue = "うんうん、いいテンポね！スピードも歓声もぴったり！"
+	}
+	pg.base.activity_event_monopoly_dialogue[138] = {
+		id = 138,
+		dialogue = "GoGoGo！指揮官、このままゴールまで一気に駆け抜けちゃおう！"
+	}
+	pg.base.activity_event_monopoly_dialogue[139] = {
+		id = 139,
+		dialogue = "Wow！この加速感、マジで最高すぎ！"
+	}
+	pg.base.activity_event_monopoly_dialogue[141] = {
+		id = 141,
+		dialogue = "ん……いい見晴らしね。指揮官、そろそろ出発しましょうか"
+	}
+	pg.base.activity_event_monopoly_dialogue[142] = {
+		id = 142,
+		dialogue = "ん……？もうゴール？指揮官、お上手ですこと"
+	}
+	pg.base.activity_event_monopoly_dialogue[143] = {
+		id = 143,
+		dialogue = "まだ続けますの？はぁ……乗り換えるのも、けっこう面倒ですのよね……"
+	}
+	pg.base.activity_event_monopoly_dialogue[144] = {
+		id = 144,
+		dialogue = "ゆっくりでも構いませんわ。少なくとも安定していますし……"
+	}
+	pg.base.activity_event_monopoly_dialogue[145] = {
+		id = 145,
+		dialogue = "ちょっとのんびりしていますわね……まあこれもレース体験の醍醐味のうちってところかしら"
+	}
+	pg.base.activity_event_monopoly_dialogue[146] = {
+		id = 146,
+		dialogue = "ええ、これくらいの速度がちょうどいいですわ。疲れませんし、手を抜いてるようにも見えませんから"
+	}
+	pg.base.activity_event_monopoly_dialogue[147] = {
+		id = 147,
+		dialogue = "ええ、ルートに問題はありませんわ。このペースを保てば、わりと楽にゴールできるはずですわよ"
+	}
+	pg.base.activity_event_monopoly_dialogue[148] = {
+		id = 148,
+		dialogue = "あら、指揮官ずいぶんやる気ですのね……じゃあ、私も少しだけ本気を出しますわ"
+	}
+	pg.base.activity_event_monopoly_dialogue[149] = {
+		id = 149,
+		dialogue = "なかなかいいペースですわ。勝利もそう遠くありませんわね"
+	}
+	pg.base.activity_event_monopoly_dialogue[151] = {
+		id = 151,
+		dialogue = "ふふふ……サーキットを駆ける汝の勢いを、とくと見せてもらおう"
+	}
+	pg.base.activity_event_monopoly_dialogue[152] = {
+		id = 152,
+		dialogue = "ご苦労。この一周はなかなかの成績よ。各種情報とルートをしかと記帳しておいたわ"
+	}
+	pg.base.activity_event_monopoly_dialogue[153] = {
+		id = 153,
+		dialogue = "ふふふ、妾に傍にいてほしいと？汝にそこまで頼られては、離れる道理などなかろう"
+	}
+	pg.base.activity_event_monopoly_dialogue[154] = {
+		id = 154,
+		dialogue = "指揮官、勝敗の機は、得てして沈着の内に潜むものよ"
+	}
+	pg.base.activity_event_monopoly_dialogue[155] = {
+		id = 155,
+		dialogue = "慎重に駆けるのもまた良し。無事にゴールへ辿り着いてこそ、勝利を語る資格があるというものよ"
+	}
+	pg.base.activity_event_monopoly_dialogue[156] = {
+		id = 156,
+		dialogue = "調子を崩すでない――このまま突き進む！"
+	}
+	pg.base.activity_event_monopoly_dialogue[157] = {
+		id = 157,
+		dialogue = "よい！その勢いよ――エンジンを轟かせるがよい！"
+	}
+	pg.base.activity_event_monopoly_dialogue[158] = {
+		id = 158,
+		dialogue = "よし、その勢いのまま、前を切り拓くがよい"
+	}
+	pg.base.activity_event_monopoly_dialogue[159] = {
+		id = 159,
+		dialogue = "ふふふ、実に見事な加速だった。勝利はもう目前よ"
 	}
 end)()

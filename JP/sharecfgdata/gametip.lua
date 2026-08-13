@@ -9958,13 +9958,24 @@ _G.pg.base.gametip.ship_remould_warning_201524 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_202994 = {
+	tip = [[
+<size=34>改造（近代化改修）を行うと、<color=#92fc63>メイド長のコダワリ</color>が消費されます。改造を続けますか？
+改造後兵装枠威力補正が130%/155%/120%になり
+<color=#92fc63>【主砲砲座+1】【開始時魚雷+1】【対空砲砲座+1】</color>
+スキル<color=#92fc63>【煙幕散布·軽巡】</color>は<color=#92fc63>【煙幕散布·ベルファスト】</color>に強化されます
+スキル<color=#92fc63>【全弾発射-ベルファストII】</color>は
+<color=#92fc63>【全弾発射-ベルファストIII】</color>に強化されます</size>]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_203114 = {
-	tip = "<size=35>改造で<color=#92fc63>【魚雷】枠</color>が\n<color=#92fc63>【副兵装】枠</color>に変更されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	tip = "<size=34>改造で<color=#92fc63>【魚雷】枠</color>が\n<color=#92fc63>【副兵装】枠</color>に変更されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
 }
 
 
 _G.pg.base.gametip.ship_remould_warning_203124 = {
-	tip = "<size=35>改造で<color=#92fc63>【魚雷】枠</color>が\n<color=#92fc63>【副兵装】枠</color>に変更されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	tip = "<size=34>改造で<color=#92fc63>【魚雷】枠</color>が\n<color=#92fc63>【副兵装】枠</color>に変更されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
 }
 
 
@@ -9993,7 +10004,7 @@ _G.pg.base.gametip.ship_remould_warning_301534 = {
 
 
 _G.pg.base.gametip.ship_remould_warning_301874 = {
-	tip = "改造は<color=#92fc63>ミート・パフューム</color>を消費します、改造を続けますか？\n改造すると、<color=#92fc63>【魚雷装填数-1】</color> <color=#92fc63>【主砲砲座+1】</color>\nスキル<color=#92fc63>【ソロモンの悪夢】</color>が<color=#92fc63>【ソロモンの悪夢・改】</color>に変更、スキル<color=#92fc63>【特殊弾幕-夕立II】</color>が<color=#92fc63>【特殊弾幕-夕立III】</color>に変更"
+	tip = "<size=34>改造は<color=#92fc63>ミート・パフューム</color>を消費します、改造を続けますか？\n改造すると、<color=#92fc63>【魚雷装填数-1】</color> <color=#92fc63>【主砲砲座+1】</color>\nスキル<color=#92fc63>【ソロモンの悪夢】</color>が<color=#92fc63>【ソロモンの悪夢・改】</color>に変更、スキル<color=#92fc63>【特殊弾幕-夕立II】</color>が<color=#92fc63>【特殊弾幕-夕立III】</color>に変更</size>"
 }
 
 
@@ -10004,7 +10015,7 @@ _G.pg.base.gametip.ship_remould_warning_301934 = {
 
 _G.pg.base.gametip.ship_remould_warning_310014 = {
 	tip = [[
-<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+<size=34>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]]
@@ -10013,7 +10024,7 @@ _G.pg.base.gametip.ship_remould_warning_310014 = {
 
 _G.pg.base.gametip.ship_remould_warning_310024 = {
 	tip = [[
-<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+<size=34>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]]
@@ -10022,7 +10033,7 @@ _G.pg.base.gametip.ship_remould_warning_310024 = {
 
 _G.pg.base.gametip.ship_remould_warning_310034 = {
 	tip = [[
-<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+<size=34>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]]
@@ -10031,7 +10042,7 @@ _G.pg.base.gametip.ship_remould_warning_310034 = {
 
 _G.pg.base.gametip.ship_remould_warning_310044 = {
 	tip = [[
-<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+<size=34>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]]
@@ -10040,7 +10051,7 @@ _G.pg.base.gametip.ship_remould_warning_310044 = {
 
 _G.pg.base.gametip.ship_remould_warning_303154 = {
 	tip = [[
-<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+<size=34>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。
 艦種変更で装備不可となる<color=#92fc63>【特殊装備】</color>は倉庫に戻されます。
 改造を続けますか？</size>]]
@@ -10048,12 +10059,12 @@ _G.pg.base.gametip.ship_remould_warning_303154 = {
 
 
 _G.pg.base.gametip.ship_remould_warning_402134 = {
-	tip = "<size=35>改造で<color=#92fc63>1つ目の【設備】</color>が\n<color=#92fc63>【ヘリ】</color>を装備できるようになり。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	tip = "<size=34>改造で<color=#92fc63>1つ目の【設備】</color>が\n<color=#92fc63>【ヘリ】</color>を装備できるようになり。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
 }
 
 
 _G.pg.base.gametip.ship_remould_warning_702124 = {
-	tip = "<size=35>改造で主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（駆逐用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	tip = "<size=34>改造で主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（駆逐用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
 }
 
 
@@ -12899,7 +12910,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「シュパーブ」「サリー」出現確率UP!"
+	tip = "「ベニントン」「ヴィックスバーグ」など出現率アップ！"
 }
 
 
@@ -30322,6 +30333,16 @@ _G.pg.base.gametip.battle_text_lumei_1 = {
 }
 
 
+_G.pg.base.gametip.battle_text_benningdun_1 = {
+	tip = "風が<color=#ffaa2b>西へ</color>吹いている……"
+}
+
+
+_G.pg.base.gametip.battle_text_benningdun_2 = {
+	tip = "風が<color=#ffaa2b>東へ</color>吹いている……"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "戦意低下"
 }
@@ -41079,6 +41100,46 @@ _G.pg.base.gametip.shop_new_skin_theme = {
 }
 
 
+_G.pg.base.gametip.skin_shop_tag = {
+	tip = "标签"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_0 = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_1 = {
+	tip = "人気"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_2 = {
+	tip = "NEW"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_3 = {
+	tip = "オススメ"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_4 = {
+	tip = "限定"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_5 = {
+	tip = "限定"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_6 = {
+	tip = "復刻"
+}
+
+
 _G.pg.base.gametip.shop_new_confirm = {
 	tip = "確認"
 }
@@ -50588,6 +50649,16 @@ _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 }
 
 
+_G.pg.base.gametip.monopoly2026_left_cnt = {
+	tip = "残り$1回"
+}
+
+
+_G.pg.base.gametip.monopoly2026_story_award = {
+	tip = "ストーリーを全て読む($1/$2)"
+}
+
+
 _G.pg.base.gametip.battlepass_main_tip_2608 = {
 	tip = "2026/8/1-2026/9/30キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ニュルンベルク(META)」</color>などを入手可能"
 }
@@ -51161,6 +51232,149 @@ _G.pg.base.gametip.escape_story_reward_count = {
 }
 
 
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_4 = {
+	tip = "夢光のアストリウム"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_5 = {
+	tip = "メトロ補給地"
+}
+
+
+_G.pg.base.gametip.StarsCityMainPage_res_day_time = {
+	tip = "残り$1時間"
+}
+
+
+_G.pg.base.gametip.StarsCityMainPage_no_time = {
+	tip = "終了間近"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_turn_cnt_tip = {
+	tip = "ラップ数："
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_progress_tip = {
+	tip = "ラップ進捗："
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop1 = {
+	tip = "4LAP"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop2 = {
+	tip = "7LAP"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop3 = {
+	tip = "10LAP"
+}
+
+
+_G.pg.base.gametip.mini_game_crossroad_cnt = {
+	tip = "クリアキャラ："
+}
+
+
+_G.pg.base.gametip.mini_game_crossroad_score = {
+	tip = "スコア："
+}
+
+
+_G.pg.base.gametip.mono_car_2026_toggle_main = {
+	tip = "レース"
+}
+
+
+_G.pg.base.gametip.mono_car_2026_toggle_story = {
+	tip = "探索物語"
+}
+
+
+_G.pg.base.gametip.crossroad_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.help_monopoly_car2026 = {
+	tip = {
+		{
+			info = " ■遊び方："
+		},
+		{
+			info = "1. 毎日ログインするとサイコロ（前進回数）を3つ、イベントデイリー任務をクリアすることでさらにサイコロを2つ入手できます；"
+		},
+		{
+			info = "2. 開始地点を通過すると、3人の艦船から一人スタッフとして選択することができます；"
+		},
+		{
+			info = "3. 前進するマス数、また踏むマスの内容によって様々なスタッフセリフが表示されます；"
+		},
+		{
+			info = "4. 開始地点を9回通過すると、限定家具を入手できます。1艦船につき1回、一緒に開始地点を通過すると資金2000を入手できます "
+		},
+		{
+			info = "5. 踏むマスに応じて下記の効果を獲得します "
+		},
+		{
+			info = " 5km&11km ：資金を少し入手できます；"
+		},
+		{
+			info = " 4km&9km ：燃料を少し入手できます；"
+		},
+		{
+			info = " 3km&7km ：ちょっとしたイベントが発生します；"
+		},
+		{
+			info = " 2km&6km：ランダムな報酬を入手できます；"
+		},
+		{
+			info = " 10km ：ランダムの距離を前進します；"
+		}
+	}
+}
+
+
 _G.pg.base.gametip.auction_network_timeout = {
 	tip = "接続環境に異常があるため、オークションから退出しました"
 }
@@ -51168,4 +51382,14 @@ _G.pg.base.gametip.auction_network_timeout = {
 
 _G.pg.base.gametip.loading_pic_btn = {
 	tip = "スチル"
+}
+
+
+_G.pg.base.gametip.LeMarsReSkinPage_reward_title = {
+	tip = "目標燃料消費"
+}
+
+
+_G.pg.base.gametip.LeMarsReSkinPage_reward_target = {
+	tip = "現在燃料消費："
 }

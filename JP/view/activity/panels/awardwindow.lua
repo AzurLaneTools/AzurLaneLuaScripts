@@ -46,19 +46,27 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 	setText(slot2:Find("target/title"), slot0.targetTitle)
 	setText(slot2:Find("target/Text"), slot1 + 1)
 	setText(slot2:Find("title/Text"), "PHASE  " .. slot1 + 1)
+	slot0:ShowIndex(slot1 + 1, slot2)
 end
 
-slot0.Flush = function(slot0, slot1, slot2, slot3)
+slot0.Flush = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.awards = slot1
 	slot0.finishIndex = slot2
 	slot0.targetTitle = slot3[2]
-
-	slot0.uiItemList:align(#slot0.awards)
-
 	slot0.currentTitle.text = slot3[1]
 	slot0.currentTxt.text = slot2
+	slot0.showIndex = slot4
 
+	slot0.uiItemList:align(#slot0.awards)
 	slot0:Show()
+end
+
+slot0.ShowIndex = function(slot0, slot1, slot2)
+	if slot0.showIndex ~= nil then
+		setText(slot2:Find("target/Text"), slot0.showIndex.targetList[slot1])
+
+		slot0.currentTxt.text = slot0.showIndex.nowGet
+	end
 end
 
 slot0.Show = function(slot0)

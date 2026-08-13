@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "トラックで紫の妖精を見たが、一瞬でいなくなった。【SR装備設計図×10】を入手した！"
+			say = "ハッピーDが上空を飛んでいくのが見えた。【SSR装備設計図×10】が落ちてきた"
 		}
 	}
 }

@@ -1982,4 +1982,20 @@ end)()
 		actor_name = "福積沙耶",
 		code = 516
 	}
+	pg.base.voice_actor_CN[517] = {
+		actor_name = "天城サリー",
+		code = 517
+	}
+	pg.base.voice_actor_CN[518] = {
+		actor_name = "伊藤舞音",
+		code = 518
+	}
+	pg.base.voice_actor_CN[519] = {
+		actor_name = "春瀬なつみ",
+		code = 519
+	}
+	pg.base.voice_actor_CN[520] = {
+		actor_name = "船戸ゆり絵",
+		code = 520
+	}
 end)()

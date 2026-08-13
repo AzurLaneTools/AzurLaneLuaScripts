@@ -1,5 +1,5 @@
 slot0 = class("DOACoreMiniGamePage", import("view.activity.CorePage.CoreActivityPage"))
-slot1 = 83
+slot1 = 89
 
 slot0.OnInit = function(slot0)
 	slot0.mgHubData = getProxy(MiniGameProxy):GetHubByGameId(uv0)

@@ -8005,6 +8005,78 @@ pg.activity_ins_language.all = {
 	"op_reply_662_1_1",
 	"ins_op_662_1_2",
 	"op_reply_662_1_2",
+	"ins_663",
+	"ins_discuss_663_1",
+	"ins_reply_663_1_1",
+	"ins_reply_663_1_2",
+	"ins_reply_663_1_3",
+	"ins_discuss_663_2",
+	"ins_reply_663_2_1",
+	"ins_reply_663_2_2",
+	"ins_reply_663_2_3",
+	"ins_reply_663_2_4",
+	"ins_reply_663_2_5",
+	"ins_reply_663_2_6",
+	"ins_op_663_1_1",
+	"op_reply_663_1_1",
+	"ins_op_663_1_2",
+	"op_reply_663_1_2",
+	"ins_664",
+	"ins_discuss_664_1",
+	"ins_reply_664_1_1",
+	"ins_reply_664_1_2",
+	"ins_reply_664_1_3",
+	"ins_reply_664_1_4",
+	"ins_discuss_664_2",
+	"ins_reply_664_2_1",
+	"ins_reply_664_2_2",
+	"ins_reply_664_2_3",
+	"ins_op_664_1_1",
+	"op_reply_664_1_1",
+	"ins_op_664_1_2",
+	"op_reply_664_1_2",
+	"ins_665",
+	"ins_discuss_665_1",
+	"ins_reply_665_1_1",
+	"ins_reply_665_1_2",
+	"ins_reply_665_1_3",
+	"ins_reply_665_1_4",
+	"ins_discuss_665_2",
+	"ins_reply_665_2_1",
+	"ins_reply_665_2_2",
+	"ins_reply_665_2_3",
+	"ins_reply_665_2_4",
+	"ins_op_665_1_1",
+	"op_reply_665_1_1",
+	"ins_op_665_1_2",
+	"op_reply_665_1_2",
+	"ins_666",
+	"ins_discuss_666_1",
+	"ins_discuss_666_2",
+	"ins_reply_666_2_1",
+	"ins_reply_666_2_2",
+	"ins_reply_666_2_3",
+	"ins_discuss_666_3",
+	"ins_reply_666_3_1",
+	"ins_reply_666_3_2",
+	"ins_op_666_1_1",
+	"op_reply_666_1_1",
+	"ins_op_666_1_2",
+	"op_reply_666_1_2",
+	"ins_667",
+	"ins_discuss_667_1",
+	"ins_reply_667_1_1",
+	"ins_reply_667_1_2",
+	"ins_discuss_667_2",
+	"ins_reply_667_2_1",
+	"ins_discuss_667_3",
+	"ins_reply_667_3_1",
+	"ins_reply_667_3_2",
+	"ins_reply_667_3_3",
+	"ins_op_667_1_1",
+	"op_reply_667_1_1",
+	"ins_op_667_1_2",
+	"op_reply_667_1_2",
 	"ins_20001",
 	"ins_discuss_20001_1",
 	"ins_reply_20001_1_1",
@@ -8260,49 +8332,6 @@ pg.activity_ins_language.all = {
 	"op_reply_20008_2_3",
 	"op_reply_20008_2_4",
 	"op_reply_20008_2_5",
-	"ins_20011",
-	"ins_discuss_20011_1",
-	"ins_discuss_20011_2",
-	"ins_reply_20011_2_1",
-	"ins_reply_20011_2_2",
-	"ins_discuss_20011_3",
-	"ins_reply_20011_3_1",
-	"ins_reply_20011_3_2",
-	"ins_reply_20011_3_3",
-	"ins_discuss_20011_4",
-	"ins_reply_20011_4_1",
-	"ins_reply_20011_4_2",
-	"ins_reply_20011_4_3",
-	"ins_discuss_20011_5",
-	"ins_reply_20011_5_1",
-	"ins_reply_20011_5_2",
-	"ins_discuss_20011_6",
-	"ins_reply_20011_6_1",
-	"ins_reply_20011_6_2",
-	"ins_reply_20011_6_3",
-	"ins_reply_20011_6_4",
-	"ins_reply_20011_6_5",
-	"ins_discuss_20011_7",
-	"ins_reply_20011_7_1",
-	"ins_reply_20011_7_2",
-	"ins_reply_20011_7_3",
-	"ins_reply_20011_7_4",
-	"ins_reply_20011_7_5",
-	"ins_reply_20011_7_6",
-	"ins_reply_20011_7_7",
-	"ins_discuss_20011_8",
-	"ins_reply_20011_8_1",
-	"ins_reply_20011_8_2",
-	"ins_reply_20011_8_3",
-	"ins_op_20011_1_1",
-	"op_reply_20011_1_1",
-	"op_reply_20011_1_2",
-	"op_reply_20011_1_3",
-	"ins_op_20011_1_2",
-	"op_reply_20011_2_1",
-	"op_reply_20011_2_2",
-	"op_reply_20011_2_3",
-	"op_reply_20011_2_4",
 	"ins_20009",
 	"ins_discuss_20009_1",
 	"ins_discuss_20009_2",
@@ -8363,7 +8392,84 @@ pg.activity_ins_language.all = {
 	"op_reply_20010_2_2",
 	"op_reply_20010_2_3",
 	"op_reply_20010_2_4",
-	"op_reply_20010_2_5"
+	"op_reply_20010_2_5",
+	"ins_20011",
+	"ins_discuss_20011_1",
+	"ins_discuss_20011_2",
+	"ins_reply_20011_2_1",
+	"ins_reply_20011_2_2",
+	"ins_discuss_20011_3",
+	"ins_reply_20011_3_1",
+	"ins_reply_20011_3_2",
+	"ins_reply_20011_3_3",
+	"ins_discuss_20011_4",
+	"ins_reply_20011_4_1",
+	"ins_reply_20011_4_2",
+	"ins_reply_20011_4_3",
+	"ins_discuss_20011_5",
+	"ins_reply_20011_5_1",
+	"ins_reply_20011_5_2",
+	"ins_discuss_20011_6",
+	"ins_reply_20011_6_1",
+	"ins_reply_20011_6_2",
+	"ins_reply_20011_6_3",
+	"ins_reply_20011_6_4",
+	"ins_reply_20011_6_5",
+	"ins_discuss_20011_7",
+	"ins_reply_20011_7_1",
+	"ins_reply_20011_7_2",
+	"ins_reply_20011_7_3",
+	"ins_reply_20011_7_4",
+	"ins_reply_20011_7_5",
+	"ins_reply_20011_7_6",
+	"ins_reply_20011_7_7",
+	"ins_discuss_20011_8",
+	"ins_reply_20011_8_1",
+	"ins_reply_20011_8_2",
+	"ins_reply_20011_8_3",
+	"ins_op_20011_1_1",
+	"op_reply_20011_1_1",
+	"op_reply_20011_1_2",
+	"op_reply_20011_1_3",
+	"ins_op_20011_1_2",
+	"op_reply_20011_2_1",
+	"op_reply_20011_2_2",
+	"op_reply_20011_2_3",
+	"op_reply_20011_2_4",
+	"ins_20012",
+	"ins_discuss_20012_1",
+	"ins_reply_20012_1_1",
+	"ins_reply_20012_1_2",
+	"ins_discuss_20012_2",
+	"ins_reply_20012_2_1",
+	"ins_reply_20012_2_2",
+	"ins_reply_20012_2_3",
+	"ins_reply_20012_2_4",
+	"ins_discuss_20012_3",
+	"ins_reply_20012_3_1",
+	"ins_discuss_20012_4",
+	"ins_reply_20012_4_1",
+	"ins_reply_20012_4_2",
+	"ins_discuss_20012_5",
+	"ins_reply_20012_5_1",
+	"ins_reply_20012_5_2",
+	"ins_reply_20012_5_3",
+	"ins_reply_20012_5_4",
+	"ins_discuss_20012_6",
+	"ins_reply_20012_6_1",
+	"ins_reply_20012_6_2",
+	"ins_reply_20012_6_3",
+	"ins_reply_20012_6_4",
+	"ins_op_20012_1_1",
+	"op_reply_20012_1_1",
+	"op_reply_20012_1_2",
+	"op_reply_20012_1_3",
+	"op_reply_20012_1_4",
+	"op_reply_20012_1_5",
+	"ins_op_20012_1_2",
+	"op_reply_20012_2_1",
+	"op_reply_20012_2_2",
+	"op_reply_20012_2_3"
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_language = {}
@@ -31720,587 +31826,587 @@ end)()
 		value = "にひひっ♪とびっきりの一枚が撮れたら、一番に見せてあげるね♪"
 	}
 	pg.base.activity_ins_language.ins_650 = {
-		value = ""
+		value = "スカイダイビング、最高に涼しいねぇ……"
 	}
 	pg.base.activity_ins_language.ins_discuss_650_1 = {
-		value = ""
+		value = "どうしてバケツを持ってるの？"
 	}
 	pg.base.activity_ins_language.ins_reply_650_1_1 = {
-		value = ""
+		value = "水が入ったバケツがあれば……"
 	}
 	pg.base.activity_ins_language.ins_reply_650_1_2 = {
-		value = ""
+		value = "どんな高さから落ちても……"
 	}
 	pg.base.activity_ins_language.ins_reply_650_1_3 = {
-		value = ""
+		value = "無事に着地できるよ♪"
 	}
 	pg.base.activity_ins_language.ins_reply_650_1_4 = {
-		value = ""
+		value = "何を言ってるんでしょうか？"
 	}
 	pg.base.activity_ins_language.ins_discuss_650_2 = {
-		value = ""
+		value = "おい！そんな軽装じゃさすがに無理があるだろ！"
 	}
 	pg.base.activity_ins_language.ins_reply_650_2_1 = {
-		value = ""
+		value = "でもぉ……このほうが涼しいんだよぉ～"
 	}
 	pg.base.activity_ins_language.ins_reply_650_2_2 = {
-		value = ""
+		value = "軽率な行動につき有罪"
 	}
 	pg.base.activity_ins_language.ins_reply_650_2_3 = {
-		value = ""
+		value = "え～、戦闘天使が飛んできてモガドールを裁くのぉ？"
 	}
 	pg.base.activity_ins_language.ins_reply_650_2_4 = {
-		value = ""
+		value = "ジョッフルが……本当に飛びました！"
 	}
 	pg.base.activity_ins_language.ins_op_650_1_1 = {
-		value = ""
+		value = "刺激的だった。もう1回やりたい！"
 	}
 	pg.base.activity_ins_language.op_reply_650_1_1 = {
-		value = ""
+		value = "いつもの場所で落ち合おうね～♡"
 	}
 	pg.base.activity_ins_language.ins_op_650_1_2 = {
-		value = ""
+		value = "空からの風景は最高だな！"
 	}
 	pg.base.activity_ins_language.op_reply_650_1_2 = {
-		value = ""
+		value = "だよねぇ～。高いところの風も最高だよぉ！"
 	}
 	pg.base.activity_ins_language.ins_651 = {
-		value = ""
+		value = "ネコちゃんすごい。ジェーナス、全然見下ろす勇気がなくて……"
 	}
 	pg.base.activity_ins_language.ins_discuss_651_1 = {
-		value = ""
+		value = "怖いなら見なくていいよ。エペもよく目をつぶってるから！"
 	}
 	pg.base.activity_ins_language.ins_reply_651_1_1 = {
-		value = ""
+		value = "わたしも、昔は怖いものを見るのが嫌でした。でも後になって気づいたんです。そんなの見なくてもいいって……"
 	}
 	pg.base.activity_ins_language.ins_reply_651_1_2 = {
-		value = ""
+		value = "みんな何かしら怖いものはあるから、そう思い悩む必要はないぞ！"
 	}
 	pg.base.activity_ins_language.ins_discuss_651_2 = {
-		value = ""
+		value = "あんな高いところに……危ないよ！"
 	}
 	pg.base.activity_ins_language.ins_reply_651_2_1 = {
-		value = ""
+		value = "落ちないか心配です……"
 	}
 	pg.base.activity_ins_language.ins_reply_651_2_2 = {
-		value = ""
+		value = "なんとか安全に下ろしませんと"
 	}
 	pg.base.activity_ins_language.ins_reply_651_2_3 = {
-		value = ""
+		value = "ジャン・バールがそちらへ向かってます。もう大丈夫でしょう"
 	}
 	pg.base.activity_ins_language.ins_reply_651_2_4 = {
-		value = ""
+		value = "ネコちゃんたちがジャン・バールさんについて行きました。良かったです"
 	}
 	pg.base.activity_ins_language.ins_op_651_1_1 = {
-		value = ""
+		value = "今からそっちへ行くよ"
 	}
 	pg.base.activity_ins_language.op_reply_651_1_1 = {
-		value = ""
+		value = "はい！ジェーナス、ここで待ってます！"
 	}
 	pg.base.activity_ins_language.ins_op_651_1_2 = {
-		value = ""
+		value = "心配はいらないよ。もう安全だ"
 	}
 	pg.base.activity_ins_language.op_reply_651_1_2 = {
-		value = ""
+		value = "良かったです。また今度一緒に見に行きましょう！"
 	}
 	pg.base.activity_ins_language.ins_652 = {
-		value = ""
+		value = "「2対1なんだから観念なさい♥」"
 	}
 	pg.base.activity_ins_language.ins_discuss_652_1 = {
-		value = ""
+		value = "シリアス、誇らしきご主人様をお守りします！"
 	}
 	pg.base.activity_ins_language.ins_reply_652_1_1 = {
-		value = ""
+		value = "ご主人様には「フォロー」が必要みたいですね。シラにも手伝わせてください"
 	}
 	pg.base.activity_ins_language.ins_reply_652_1_2 = {
-		value = ""
+		value = "わあ！水合戦！私も混ぜて！やっぱり記録係やりまーす！"
 	}
 	pg.base.activity_ins_language.ins_reply_652_1_3 = {
-		value = ""
+		value = "賑やかになってきましたわ"
 	}
 	pg.base.activity_ins_language.ins_reply_652_1_4 = {
-		value = ""
+		value = "こうなると思ってました……"
 	}
 	pg.base.activity_ins_language.ins_discuss_652_2 = {
-		value = ""
+		value = "ウワサの気配がする～"
 	}
 	pg.base.activity_ins_language.ins_reply_652_2_1 = {
-		value = ""
+		value = "最高な構図になる気配がするねー☆"
 	}
 	pg.base.activity_ins_language.ins_reply_652_2_2 = {
-		value = ""
+		value = "鑑賞する価値がありそうね"
 	}
 	pg.base.activity_ins_language.ins_reply_652_2_3 = {
-		value = ""
+		value = "観衆がどんどん増えてきましたね♪「しっかり見ていきなさい♪」"
 	}
 	pg.base.activity_ins_language.ins_op_652_1_1 = {
-		value = ""
+		value = "そう簡単に負けないから"
 	}
 	pg.base.activity_ins_language.op_reply_652_1_1 = {
-		value = ""
+		value = "その強がってる姿もまた好ましいですわ♡"
 	}
 	pg.base.activity_ins_language.ins_op_652_1_2 = {
-		value = ""
+		value = "ここからが反撃の時間だ！"
 	}
 	pg.base.activity_ins_language.op_reply_652_1_2 = {
-		value = ""
+		value = "「やっと本気になった？」"
 	}
 	pg.base.activity_ins_language.ins_653 = {
-		value = ""
+		value = "水を吸ったせいで尻尾がだいぶ重く……"
 	}
 	pg.base.activity_ins_language.ins_discuss_653_1 = {
-		value = ""
+		value = "わかります～。しっぽの水を乾かすのっていつも大変ですよね～"
 	}
 	pg.base.activity_ins_language.ins_reply_653_1_1 = {
-		value = ""
+		value = "今度そういった状況になりましたら、お手伝いいたします"
 	}
 	pg.base.activity_ins_language.ins_reply_653_1_2 = {
-		value = ""
+		value = "はい！喜んでお手伝いしますから"
 	}
 	pg.base.activity_ins_language.ins_reply_653_1_3 = {
-		value = ""
+		value = "ふふふ、先にお礼を言っておきますね"
 	}
 	pg.base.activity_ins_language.ins_discuss_653_2 = {
-		value = ""
+		value = "ボディへの浸水は早急に対処すべき緊急事項と認む"
 	}
 	pg.base.activity_ins_language.ins_reply_653_2_1 = {
-		value = ""
+		value = "指揮官のそばにいれば平気なのでは？"
 	}
 	pg.base.activity_ins_language.ins_reply_653_2_2 = {
-		value = ""
+		value = "根拠は？"
 	}
 	pg.base.activity_ins_language.ins_reply_653_2_3 = {
-		value = ""
+		value = "指揮官のそばにいると、体温が急上昇するから、そうすれば水分だって蒸発すると思う……！"
 	}
 	pg.base.activity_ins_language.ins_reply_653_2_4 = {
-		value = ""
+		value = "悪くない提案ですね"
 	}
 	pg.base.activity_ins_language.ins_op_653_1_1 = {
-		value = ""
+		value = "タオルを持ってきたよ"
 	}
 	pg.base.activity_ins_language.op_reply_653_1_1 = {
-		value = ""
+		value = "指揮官様、お気遣いいただきありがとうございます"
 	}
 	pg.base.activity_ins_language.ins_op_653_1_2 = {
-		value = ""
+		value = "困ってる天城なんて珍しいな"
 	}
 	pg.base.activity_ins_language.op_reply_653_1_2 = {
-		value = ""
+		value = "情けないところをお見せしてしまいましたね"
 	}
 	pg.base.activity_ins_language.ins_654 = {
-		value = ""
+		value = "指揮官、もう約束の時間よ"
 	}
 	pg.base.activity_ins_language.ins_discuss_654_1 = {
-		value = ""
+		value = "いい車だな、私も一台買ってみるか！"
 	}
 	pg.base.activity_ins_language.ins_reply_654_1_1 = {
-		value = ""
+		value = "高性能なものが欲しいならもっといいものがあるよ？"
 	}
 	pg.base.activity_ins_language.ins_reply_654_1_2 = {
-		value = ""
+		value = "ふふーん、わたしたちのチームが全力で作ったものだ！"
 	}
 	pg.base.activity_ins_language.ins_reply_654_1_3 = {
-		value = ""
+		value = "快適さは保証する！間違いなく最高の乗り心地だよ♪"
 	}
 	pg.base.activity_ins_language.ins_reply_654_1_4 = {
-		value = ""
+		value = "そんなにすごいのか？なら真面目に検討しないとな"
 	}
 	pg.base.activity_ins_language.ins_reply_654_1_5 = {
-		value = ""
+		value = "待って！あの車はまだテスト中でしょう？！"
 	}
 	pg.base.activity_ins_language.ins_discuss_654_2 = {
-		value = ""
+		value = "あら？見慣れた光景ね～"
 	}
 	pg.base.activity_ins_language.ins_reply_654_2_1 = {
-		value = ""
+		value = "へぇ、指揮官ちゃんはこういうのが好きなのね……"
 	}
 	pg.base.activity_ins_language.ins_reply_654_2_2 = {
-		value = ""
+		value = "裏付けになるデータが足りないけど、試してみる価値はあるわね"
 	}
 	pg.base.activity_ins_language.ins_reply_654_2_3 = {
-		value = ""
+		value = "私も同じ車を買うわ♪"
 	}
 	pg.base.activity_ins_language.ins_op_654_1_1 = {
-		value = ""
+		value = "これが魔女の新しい乗り物……"
 	}
 end)()
 (function ()
 	pg.base.activity_ins_language.op_reply_654_1_1 = {
-		value = ""
+		value = "素敵でしょう？あなたが乗りやすいよう、カスタマイズしておいたわ"
 	}
 	pg.base.activity_ins_language.ins_op_654_1_2 = {
-		value = ""
+		value = "どこへ連れていくんだ？"
 	}
 	pg.base.activity_ins_language.op_reply_654_1_2 = {
-		value = ""
+		value = "サプライズを用意したから、楽しみにしてて"
 	}
 	pg.base.activity_ins_language.ins_644 = {
-		value = ""
+		value = ">w<"
 	}
 	pg.base.activity_ins_language.ins_discuss_644_1 = {
-		value = ""
+		value = "どうやってやってるんだ？すごいな！"
 	}
 	pg.base.activity_ins_language.ins_reply_644_1_1 = {
-		value = ""
+		value = "アンカレッジも……しりたい！"
 	}
 	pg.base.activity_ins_language.ins_reply_644_1_2 = {
-		value = ""
+		value = "こんなの楽勝ですわ！ピザの形のシャボン玉も作ってみせますわよ！"
 	}
 	pg.base.activity_ins_language.ins_reply_644_1_3 = {
-		value = ""
+		value = "どう？できた？"
 	}
 	pg.base.activity_ins_language.ins_reply_644_1_4 = {
-		value = ""
+		value = "ジュッサーノはむせちゃいました……しっかり診てあげないと…"
 	}
 	pg.base.activity_ins_language.ins_discuss_644_2 = {
-		value = ""
+		value = "すっごく便利！これなら潜っててもメッセージを送り合えるね♪"
 	}
 	pg.base.activity_ins_language.ins_reply_644_2_1 = {
-		value = ""
+		value = "しかもなんとなく感情もわかるような…？"
 	}
 	pg.base.activity_ins_language.ins_reply_644_2_2 = {
-		value = ""
+		value = "通信機でも同じようなことができるんじゃ……？"
 	}
 	pg.base.activity_ins_language.ins_reply_644_2_3 = {
-		value = ""
+		value = "ぜんっぜん違うよ！こっちのほうが面白い！"
 	}
 	pg.base.activity_ins_language.ins_op_644_1_1 = {
-		value = ""
+		value = "いい笑顔！"
 	}
 	pg.base.activity_ins_language.op_reply_644_1_1 = {
-		value = ""
+		value = "指揮官がリプライしてくれた……とってもウレシイo(*//▿//*)q"
 	}
 	pg.base.activity_ins_language.ins_op_644_1_2 = {
-		value = ""
+		value = "やり方を教えて！U-2501先生"
 	}
 	pg.base.activity_ins_language.op_reply_644_1_2 = {
-		value = ""
+		value = "イイヨー♪直接お手本を見せてあげる(o°▿°)o"
 	}
 	pg.base.activity_ins_language.ins_646 = {
-		value = ""
+		value = "お土産を持ってきたので中に上げてくださいませ"
 	}
 	pg.base.activity_ins_language.ins_discuss_646_1 = {
-		value = ""
+		value = "礼儀正しいですね～"
 	}
 	pg.base.activity_ins_language.ins_reply_646_1_1 = {
-		value = ""
+		value = "家主の許可がないと、部屋の中には入れないからね～"
 	}
 	pg.base.activity_ins_language.ins_reply_646_1_2 = {
-		value = ""
+		value = "ファミリーにとって常識よ"
 	}
 	pg.base.activity_ins_language.ins_reply_646_1_3 = {
-		value = ""
+		value = "なるほど～ファミリーのみんなは礼儀正しい子ってことですね～"
 	}
 	pg.base.activity_ins_language.ins_discuss_646_2 = {
-		value = ""
+		value = "窓は人が出入りするためのものではないと思いますが……"
 	}
 	pg.base.activity_ins_language.ins_reply_646_2_1 = {
-		value = ""
+		value = "こっちのほうが特別感ありますわ"
 	}
 	pg.base.activity_ins_language.ins_reply_646_2_2 = {
-		value = ""
+		value = "わかる！窓から部屋を出入りできてこそ、飛ぶ甲斐を感じられるわ！"
 	}
 	pg.base.activity_ins_language.ins_op_646_1_1 = {
-		value = ""
+		value = "次はチャイムを鳴らして"
 	}
 	pg.base.activity_ins_language.op_reply_646_1_1 = {
-		value = ""
+		value = "その必要はありませんわ。一度入れてくだされば、あとは自由に出入りできますから♪"
 	}
 	pg.base.activity_ins_language.ins_op_646_1_2 = {
-		value = ""
+		value = "果物ありがとう。美味しかった"
 	}
 	pg.base.activity_ins_language.op_reply_646_1_2 = {
-		value = ""
+		value = "どういたしまして。ところで、もっと美味しいものがあるのですが、いかがですか？"
 	}
 	pg.base.activity_ins_language.ins_647 = {
-		value = ""
+		value = "無限に水が出てくる魔法のランプだよ♪"
 	}
 	pg.base.activity_ins_language.ins_discuss_647_1 = {
-		value = ""
+		value = "おかしい……こっちが聞いた噂だと「ランプの水を飲めば、願いが叶う」だったはず……"
 	}
 	pg.base.activity_ins_language.ins_reply_647_1_1 = {
-		value = ""
+		value = "願いが叶う？それは昨日のものだから、もう古いよ"
 	}
 	pg.base.activity_ins_language.ins_reply_647_1_2 = {
-		value = ""
+		value = "怪談の移り変わりが、こんなにも早いなんて……っ"
 	}
 	pg.base.activity_ins_language.ins_reply_647_1_3 = {
-		value = ""
+		value = "また新しいアイデアを思いついたからね♪"
 	}
 	pg.base.activity_ins_language.ins_discuss_647_2 = {
-		value = ""
+		value = "植木鉢に水やりするのに便利そうですね～"
 	}
 	pg.base.activity_ins_language.ins_reply_647_2_1 = {
-		value = ""
+		value = "でもなんとも言えない違和感が……"
 	}
 	pg.base.activity_ins_language.ins_reply_647_2_2 = {
-		value = ""
+		value = "ランプって照明に使うもののはず…どうして水が出るのでしょうか……？"
 	}
 	pg.base.activity_ins_language.ins_reply_647_2_3 = {
-		value = ""
+		value = "そこは逆転の発想だよ～。水が出るからこそ魔法のランプじゃない？"
 	}
 	pg.base.activity_ins_language.ins_discuss_647_3 = {
-		value = ""
+		value = "ホースを使い終わったら回収してもいい？"
 	}
 	pg.base.activity_ins_language.ins_reply_647_3_1 = {
-		value = ""
+		value = "もうちょっとだけ待って～。ランプの力をまだ出し切ってないから♪"
 	}
 	pg.base.activity_ins_language.ins_op_647_1_1 = {
-		value = ""
+		value = "バフを得られそうな水たまりだ…"
 	}
 	pg.base.activity_ins_language.op_reply_647_1_1 = {
-		value = ""
+		value = "試してみればわかるよ♪指揮官♪"
 	}
 	pg.base.activity_ins_language.ins_op_647_1_2 = {
-		value = ""
+		value = "魔法の力ってホースから出るんだ……"
 	}
 	pg.base.activity_ins_language.op_reply_647_1_2 = {
-		value = ""
+		value = "そうだよ～。魔法のランプって不思議でしょ？"
 	}
 	pg.base.activity_ins_language.ins_648 = {
-		value = ""
+		value = "カモメたちのパーティーに迷い込んじゃった……"
 	}
 	pg.base.activity_ins_language.ins_discuss_648_1 = {
-		value = ""
+		value = "カモメがフライドポテトを狙ってますね"
 	}
 	pg.base.activity_ins_language.ins_reply_648_1_1 = {
-		value = ""
+		value = "フライドポテトがこんなに…！これは行かなきゃ……いや、ビーチの秩序を守りに行かないと！"
 	}
 	pg.base.activity_ins_language.ins_discuss_648_2 = {
-		value = ""
+		value = "フライドポテトパーティがあるって？！どこ？行きたい！カモメから守りに参加してもいいよ！"
 	}
 	pg.base.activity_ins_language.ins_reply_648_2_1 = {
-		value = ""
+		value = "ふ頭に……"
 	}
 	pg.base.activity_ins_language.ins_reply_648_2_2 = {
-		value = ""
+		value = "ふ頭でフライドポテト！"
 	}
 	pg.base.activity_ins_language.ins_reply_648_2_3 = {
-		value = ""
+		value = "ふ頭でフライドポテト！"
 	}
 	pg.base.activity_ins_language.ins_op_648_1_1 = {
-		value = ""
+		value = "すごい量のポテトだ……"
 	}
 	pg.base.activity_ins_language.op_reply_648_1_1 = {
-		value = ""
+		value = "指揮官と一緒に食べたいなって思って…それで……"
 	}
 	pg.base.activity_ins_language.ins_op_648_1_2 = {
-		value = ""
+		value = "無事なやつを食べてあげようか…？"
 	}
 	pg.base.activity_ins_language.op_reply_648_1_2 = {
-		value = ""
+		value = "ありがとう、指揮官！"
 	}
 	pg.base.activity_ins_language.ins_649 = {
-		value = ""
+		value = "なんでまだ海岸に着かないの……？"
 	}
 	pg.base.activity_ins_language.ins_discuss_649_1 = {
-		value = ""
+		value = "波の力の方が上回ってるから、海岸に近づかないんじゃない？"
 	}
 	pg.base.activity_ins_language.ins_reply_649_1_1 = {
-		value = ""
+		value = "もっと頑張って走れ！！足をもっと早く動かせば波に勝てるよ！自分のポテンシャルを信じて！"
 	}
 	pg.base.activity_ins_language.ins_discuss_649_2 = {
-		value = ""
+		value = "慌てないで、海上のサバイバルについて指導してあげる"
 	}
 	pg.base.activity_ins_language.ins_reply_649_2_1 = {
-		value = ""
+		value = "今のうちに『孤島サバイバル指南』と『シェルター建設マニュアル』を熟読してください。送ります"
 	}
 	pg.base.activity_ins_language.ins_reply_649_2_2 = {
-		value = ""
+		value = "この『時間を潰す方法』という本も大事よ"
 	}
 	pg.base.activity_ins_language.ins_discuss_649_3 = {
-		value = ""
+		value = "すごい偶然！ぼくも海に落ちたところ！今どこ？せっかくだしチームを組もう？"
 	}
 	pg.base.activity_ins_language.ins_reply_649_3_1 = {
-		value = ""
+		value = "どこなのかわからない…周りは海しか見えないから……"
 	}
 	pg.base.activity_ins_language.ins_reply_649_3_2 = {
-		value = ""
+		value = "ぼくも！ってことはやっぱり近くだと思う。きっとすぐ会えるよ！"
 	}
 	pg.base.activity_ins_language.ins_op_649_1_1 = {
-		value = ""
+		value = "助けに行くからそこにいて"
 	}
 	pg.base.activity_ins_language.op_reply_649_1_1 = {
-		value = ""
+		value = "ありがとう、指揮官。海の上で待ってるよ～"
 	}
 	pg.base.activity_ins_language.ins_op_649_1_2 = {
-		value = ""
+		value = "また何かトラブルが……？"
 	}
 	pg.base.activity_ins_language.op_reply_649_1_2 = {
-		value = ""
+		value = "ウォーターバルーンには別に何も……ただ「道」にトラブルがあったの…"
 	}
 	pg.base.activity_ins_language.ins_643 = {
-		value = ""
+		value = "飛行機って遅いんだね……アタシが追い抜いちゃお！"
 	}
 	pg.base.activity_ins_language.ins_discuss_643_1 = {
-		value = ""
+		value = "おそらく"
 	}
 	pg.base.activity_ins_language.ins_reply_643_1_1 = {
-		value = ""
+		value = "もっと"
 	}
 	pg.base.activity_ins_language.ins_reply_643_1_2 = {
-		value = ""
+		value = "速く飛ばせる！"
 	}
 	pg.base.activity_ins_language.ins_discuss_643_2 = {
-		value = ""
+		value = "速度超過だぞ！制限速度を守れ！"
 	}
 	pg.base.activity_ins_language.ins_reply_643_2_1 = {
-		value = ""
+		value = "ん？母港に制限速度なんてあったか？"
 	}
 	pg.base.activity_ins_language.ins_reply_643_2_2 = {
-		value = ""
+		value = "……ないのか？"
 	}
 	pg.base.activity_ins_language.ins_reply_643_2_3 = {
-		value = ""
+		value = "そんなものあるわけないでしょう！"
 	}
 	pg.base.activity_ins_language.ins_op_643_1_1 = {
-		value = ""
+		value = "今日の晩ご飯はいる？"
 	}
 	pg.base.activity_ins_language.op_reply_643_1_1 = {
-		value = ""
+		value = "いる！指揮官と一緒に食べる！"
 	}
 	pg.base.activity_ins_language.ins_op_643_1_2 = {
-		value = ""
+		value = "飛ばせバースト！"
 	}
 	pg.base.activity_ins_language.op_reply_643_1_2 = {
-		value = ""
+		value = "燃え上がれサンダーハート！"
 	}
 	pg.base.activity_ins_language.ins_655 = {
-		value = ""
+		value = "黒か白のタイツで迷うわぁ～"
 	}
 	pg.base.activity_ins_language.ins_discuss_655_1 = {
-		value = ""
+		value = "やはり黒の圧勝ね！ 白に勝ち目なんてないわ～"
 	}
 	pg.base.activity_ins_language.ins_reply_655_1_1 = {
-		value = ""
+		value = "どういう理屈？"
 	}
 	pg.base.activity_ins_language.ins_reply_655_1_2 = {
-		value = ""
+		value = "はい？"
 	}
 	pg.base.activity_ins_language.ins_reply_655_1_3 = {
-		value = ""
+		value = "納得できませんわ"
 	}
 	pg.base.activity_ins_language.ins_reply_655_1_4 = {
-		value = ""
+		value = "「どこが腑に落ちないの？」どこも腑に落ちませんでしょう？"
 	}
 	pg.base.activity_ins_language.ins_discuss_655_2 = {
-		value = ""
+		value = "やっぱこの対決、白の圧勝ね！白こそ正義よ♪"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_1 = {
-		value = ""
+		value = "よく分かっていらっしゃいますわね。凡俗な黒に比べて、上品な白のほうが格上ですわ"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_2 = {
-		value = ""
+		value = "あら、あなたのセンスは所詮その程度ってこと。指揮官様を一番喜ばせるのは黒だというのに"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_3 = {
-		value = ""
+		value = "でも白鳳の知る限り、指揮官様は清楚で落ち着いた雰囲気を好まれるような？"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_4 = {
-		value = ""
+		value = "出まかせはよしなさい！指揮官様の好みなら大鳳のほうがずっと詳しいですわ！"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_5 = {
-		value = ""
+		value = "ならいっそのこと、指揮官様に直接聞いてみません？"
 	}
 	pg.base.activity_ins_language.ins_reply_655_2_6 = {
-		value = ""
+		value = "望むところですわ！"
 	}
 	pg.base.activity_ins_language.ins_op_655_1_1 = {
-		value = ""
+		value = "結局どっちにしたの？"
 	}
 	pg.base.activity_ins_language.op_reply_655_1_1 = {
-		value = ""
+		value = "ええ、生足にしたわ～"
 	}
 	pg.base.activity_ins_language.ins_op_655_1_2 = {
-		value = ""
+		value = "それ以外の選択肢は…？"
 	}
 	pg.base.activity_ins_language.op_reply_655_1_2 = {
-		value = ""
+		value = "しーっ、両方同時に履けるって気づかれたら、このスレッドは盛り上がらなくなるでしょ～"
 	}
 	pg.base.activity_ins_language.ins_656 = {
-		value = ""
+		value = "ガツンと一発で決めちゃうよー！！"
 	}
 	pg.base.activity_ins_language.ins_discuss_656_1 = {
-		value = ""
+		value = "障害物を片付けてるの……？"
 	}
 	pg.base.activity_ins_language.ins_reply_656_1_1 = {
-		value = ""
+		value = "違う違う。内装工事～"
 	}
 end)()
 (function ()
 	pg.base.activity_ins_language.ins_discuss_656_2 = {
-		value = ""
+		value = "ありがとう、助かったよ。これでリフォーム工事の進捗もようやく軌道に乗りそうだ"
 	}
 	pg.base.activity_ins_language.ins_reply_656_2_1 = {
-		value = ""
+		value = "これくらいお安い御用だよ～"
 	}
 	pg.base.activity_ins_language.ins_discuss_656_3 = {
-		value = ""
+		value = "工事チームの皆さん、お疲れ様です。ビフォーアフターが楽しみですね"
 	}
 	pg.base.activity_ins_language.ins_reply_656_3_1 = {
-		value = ""
+		value = "ええと、応瑞の内装工事って確か来週では…？"
 	}
 	pg.base.activity_ins_language.ins_reply_656_3_2 = {
-		value = ""
+		value = "ちょっと！私が先に予約したでしょ！"
 	}
 	pg.base.activity_ins_language.ins_reply_656_3_3 = {
-		value = ""
+		value = "姉さんったら、相変わらず順番にこだわってますね～"
 	}
 	pg.base.activity_ins_language.ins_reply_656_3_4 = {
-		value = ""
+		value = "今確認してきましたけど、今日は肇和の部屋の工事日でしたよ"
 	}
 	pg.base.activity_ins_language.ins_reply_656_3_5 = {
-		value = ""
+		value = "バレちゃいましたか♪"
 	}
 	pg.base.activity_ins_language.ins_op_656_1_1 = {
-		value = ""
+		value = "工事前にちゃんと確認しないと"
 	}
 	pg.base.activity_ins_language.op_reply_656_1_1 = {
-		value = ""
+		value = "表札だってなかったよ？まさかこれも応瑞の計算のうち？！"
 	}
 	pg.base.activity_ins_language.ins_op_656_1_2 = {
-		value = ""
+		value = "順番を間違えた？"
 	}
 	pg.base.activity_ins_language.op_reply_656_1_2 = {
-		value = ""
+		value = "でも大丈夫！スタミナはバッチリだから、今日は二人分まとめて片付けるよ！"
 	}
 	pg.base.activity_ins_language.ins_657 = {
-		value = ""
+		value = "焼肉大食い大会――始まりますよ！"
 	}
 	pg.base.activity_ins_language.ins_discuss_657_1 = {
-		value = ""
+		value = "おお、ラントレピード選手、序盤から大きくリード！"
 	}
 	pg.base.activity_ins_language.ins_reply_657_1_1 = {
-		value = ""
+		value = "ひょっとしてこのまま早くも優勝が決まっちゃう？……って書いたそばから強敵が現れちゃった！"
 	}
 	pg.base.activity_ins_language.ins_reply_657_1_2 = {
-		value = ""
+		value = "夕立選手が焼肉10皿を一気に平らげた！いまや互角に渡り合ってる！"
 	}
 	pg.base.activity_ins_language.ins_reply_657_1_3 = {
-		value = ""
+		value = "なんという接戦！白熱の最終局面、最後に勝つのはどっち？！"
 	}
 	pg.base.activity_ins_language.ins_discuss_657_2 = {
-		value = ""
+		value = "なんで手がいっぱいあるように見えるんですか…？"
 	}
 	pg.base.activity_ins_language.ins_reply_657_2_1 = {
-		value = ""
+		value = "肉を猛スピードで取ってるからじゃない？"
 	}
 	pg.base.activity_ins_language.ins_reply_657_2_2 = {
-		value = ""
+		value = "なんて速さ……すごいな……"
 	}
 	pg.base.activity_ins_language.ins_reply_657_2_3 = {
-		value = ""
+		value = "理屈はわかるけど、だからって、なんで手がいっぱいあるように見えるんですか？"
 	}
 	pg.base.activity_ins_language.ins_op_657_1_1 = {
-		value = ""
+		value = "健康第一で！勝負は二の次！"
 	}
 	pg.base.activity_ins_language.op_reply_657_1_1 = {
-		value = ""
+		value = "それを言うなら勝負は三番目ですね！だって一番はお肉ですから！"
 	}
 	pg.base.activity_ins_language.ins_op_657_1_2 = {
-		value = ""
+		value = "大会が終わったら散歩しない？"
 	}
 	pg.base.activity_ins_language.op_reply_657_1_2 = {
-		value = ""
+		value = "いいですね！散歩したら、また焼肉モリモリ食べましょう！"
 	}
 	pg.base.activity_ins_language.ins_658 = {
 		value = ""
@@ -32532,6 +32638,222 @@ end)()
 	pg.base.activity_ins_language.op_reply_662_1_2 = {
 		value = ""
 	}
+	pg.base.activity_ins_language.ins_663 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_663_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_663_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_663_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_663_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_663_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_663_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_663_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_663_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_663_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_663_2_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_663_2_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_663_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_663_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_663_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_663_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_664 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_664_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_664_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_664_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_664_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_664_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_664_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_664_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_664_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_664_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_664_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_664_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_664_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_664_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_665 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_665_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_665_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_665_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_665_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_665_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_665_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_665_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_665_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_665_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_665_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_665_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_665_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_665_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_665_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_666 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_666_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_666_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_666_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_666_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_666_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_666_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_666_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_666_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_666_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_666_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_666_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_666_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_667 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_667_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_667_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_667_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_667_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_667_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_667_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_667_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_667_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_667_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_667_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_667_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_667_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_667_1_2 = {
+		value = ""
+	}
 	pg.base.activity_ins_language.ins_20001 = {
 		value = "飛行機って遅いんだね……アタシが追い抜いちゃお！"
 	}
@@ -32613,6 +32935,8 @@ end)()
 	pg.base.activity_ins_language.op_reply_20001_1_4 = {
 		value = "これではご主人さまも実名で投稿せざるを得ませんね"
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_op_20001_1_2 = {
 		value = "饅頭ニュース開設おめでとう！"
 	}
@@ -32829,8 +33153,6 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20003_2 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20003_2_1 = {
 		value = ""
 	}
@@ -32915,6 +33237,8 @@ end)()
 	pg.base.activity_ins_language.op_reply_20003_2_4 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.op_reply_20003_2_5 = {
 		value = ""
 	}
@@ -33131,8 +33455,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20007_3_2 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20007_3_3 = {
 		value = ""
 	}
@@ -33217,6 +33539,8 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20008_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_reply_20008_2_1 = {
 		value = ""
 	}
@@ -33301,140 +33625,9 @@ end)()
 	pg.base.activity_ins_language.op_reply_20008_2_5 = {
 		value = ""
 	}
-	pg.base.activity_ins_language.ins_20011 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_discuss_20011_1 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_discuss_20011_2 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_2_1 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_2_2 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_discuss_20011_3 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_3_1 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_3_2 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_3_3 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_discuss_20011_4 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_4_1 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_4_2 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_4_3 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_discuss_20011_5 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_5_1 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_5_2 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_discuss_20011_6 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_6_1 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_6_2 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_6_3 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_6_4 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_6_5 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_discuss_20011_7 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_7_1 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_7_2 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_7_3 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_7_4 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_7_5 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_7_6 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_7_7 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_discuss_20011_8 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_8_1 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_8_2 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_reply_20011_8_3 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_op_20011_1_1 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.op_reply_20011_1_1 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.op_reply_20011_1_2 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.op_reply_20011_1_3 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.ins_op_20011_1_2 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.op_reply_20011_2_1 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.op_reply_20011_2_2 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.op_reply_20011_2_3 = {
-		value = ""
-	}
-	pg.base.activity_ins_language.op_reply_20011_2_4 = {
-		value = ""
-	}
 	pg.base.activity_ins_language.ins_20009 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20009_1 = {
 		value = ""
 	}
@@ -33613,6 +33806,239 @@ end)()
 		value = ""
 	}
 	pg.base.activity_ins_language.op_reply_20010_2_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_20011 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_4_1 = {
+		value = ""
+	}
+end)()
+(function ()
+	pg.base.activity_ins_language.ins_reply_20011_4_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_4_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_5_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_5_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_6_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_6_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_6_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_6_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_6_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_7 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_7 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_8 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_8_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_8_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_8_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20011_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20011_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_20012 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20012_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20012_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20012_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20012_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_4_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_4_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20012_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_5_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_5_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_5_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_5_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20012_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_6_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_6_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_6_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20012_6_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20012_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20012_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20012_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20012_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20012_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20012_1_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20012_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20012_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20012_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20012_2_3 = {
 		value = ""
 	}
 end)()

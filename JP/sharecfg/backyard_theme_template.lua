@@ -129,7 +129,8 @@ pg.backyard_theme_template.all = {
 	138,
 	139,
 	140,
-	141
+	141,
+	142
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5458,6 +5459,42 @@ end)()
 			341302,
 			341303,
 			341304
+		}
+	}
+	pg.base.backyard_theme_template[142] = {
+		Cfg_1 = 5,
+		name = "海浜レース",
+		desc = "巻き上げる煙、勝利の叫び、輝くスポットライト！情熱あふれる海浜レース会場で、思いっきりふっ飛ばそう！",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 142,
+		id = 142,
+		icon = "car3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			342001,
+			342002,
+			342101,
+			342102,
+			342103,
+			342104,
+			342105,
+			342106,
+			342107,
+			342108,
+			342109,
+			342110,
+			342111,
+			342112,
+			342113,
+			342114,
+			342115,
+			342116
 		}
 	}
 end)()

@@ -798,6 +798,10 @@ slot0.SetAction = function(slot0, slot1, slot2, slot3)
 
 	slot0:updateEffectVisible(slot1)
 
+	if HXSet.isHx() and slot0:getAnimationExist(slot1 .. "_hx") then
+		slot1 = slot1 .. "_hx"
+	end
+
 	for slot9, slot10 in ipairs(slot0.spineAnimList) do
 		slot10:SetAction(slot1, slot2)
 

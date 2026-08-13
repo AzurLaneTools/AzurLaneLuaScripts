@@ -136,11 +136,7 @@ slot1.getInitialSpeed = function(slot0)
 		return slot0._forceSpeed
 	end
 
-	if slot0._moveProcess then
-		return slot0._moveProcess()
-	end
-
-	if slot0._staticState then
+	if slot0._staticState and not slot0._unstoppable then
 		return Vector3.zero
 	end
 
@@ -181,10 +177,6 @@ slot1.ClearForceMove = function(slot0)
 	slot0._forceSpeed = nil
 	slot0._forceReduce = nil
 	slot0._forceLastTime = nil
-end
-
-slot1.SetMoveProcess = function(slot0, slot1)
-	slot0._moveProcess = slot1
 end
 
 slot1.SetStaticState = function(slot0, slot1)

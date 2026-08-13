@@ -97,9 +97,13 @@ pg.base.ship_data_create_material = {}
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>シュパーブ</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>ベニントン</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>サリー</color>：2.0%<color=#92FC63>(up!)</color>"
+			"<color=#ffde38>ヴィックスバーグ</color>：2.0%<color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#ffde38>コレット</color>：0.5%",
+			" ",
+			"<color=#d797ff>ハリソン</color>：2.5%<color=#92FC63>(up!)</color>"
 		}
 	}
 	pg.base.ship_data_create_material[5] = {

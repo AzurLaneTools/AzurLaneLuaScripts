@@ -30077,6 +30077,131 @@ _G.pg.base.item_data_statistics[30386] = {
 }
 
 
+_G.pg.base.item_data_statistics[30387] = {
+	open_directly = 1,
+	name = "装備外装箱(海浜レース)",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbinhaijisu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30384",
+	id = 30387,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -46858,6 +46983,219 @@ _G.pg.base.item_data_statistics[30570] = {
 		{
 			9,
 			4419,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30571] = {
+	open_directly = 0,
+	name = "選択装備外装箱（海浜レース）",
+	type = 13,
+	display = "使用すると、装備外装（海浜レース）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbinhaijisuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30571,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
 			1
 		}
 	},
@@ -110756,6 +111094,39 @@ _G.pg.base.item_data_statistics[59859] = {
 }
 
 
+_G.pg.base.item_data_statistics[59860] = {
+	open_directly = 0,
+	name = "メイド長のコダワリ",
+	type = 7,
+	display = "「主のために障害を取り除くのはメイドの勤めです」――ベルファストの改造素材",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/maidsteadfast",
+	order = 0,
+	rarity = 4,
+	max_num = 1,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59860,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {
+		202994
+	},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59900] = {
 	open_directly = 0,
 	name = "コアデータ",
@@ -124474,6 +124845,73 @@ _G.pg.base.item_data_statistics[81236] = {
 		{
 			2,
 			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81237] = {
+	open_directly = 1,
+	name = "海浜レース福袋",
+	type = 17,
+	display = "購入すると2026.8.13更新着せ替えランダム1着、ダイヤ×2026、メンタルユニット×50、キューブ×20、指向型強化ユニット・Ⅸ期×2、高速建造材×10、家具コイン×100を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai37",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998577",
+	id = 81237,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86229,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
 			2
 		},
 		{
