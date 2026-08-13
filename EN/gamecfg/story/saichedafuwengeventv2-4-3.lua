@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "完成了巴尔的摩负责的赛车部件技术检查，获得了赛事奖励【强化部件T3*20】"
+			say = "Baltimore has completed a technical inspection. You received 20 T3 Gear Parts!"
 		}
 	}
 }

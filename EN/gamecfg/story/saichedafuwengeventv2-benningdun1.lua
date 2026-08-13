@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_4",
-			actorName = "本宁顿",
+			actorName = "Bennington",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "喔哦~赛道上的惊喜掉落！"
+			say = "Whoa! A surprise drop on the track!"
 		}
 	}
 }

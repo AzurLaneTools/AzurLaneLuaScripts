@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "Error十三世的车况提示间接降低了油耗，获得了【石油*50】"
+			say = "Error XIII's alerting indirectly reduces fuel consumption. You received 50 Oil!"
 		}
 	}
 }

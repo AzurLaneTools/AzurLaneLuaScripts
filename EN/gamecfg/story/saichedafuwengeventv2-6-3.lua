@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "看见Happy D在高空飞过，掉落了【四星装备设计图纸*10】"
+			say = "You saw Happy D drop something as it flew overhead. You received 10 SR gear blueprints!"
 		}
 	}
 }

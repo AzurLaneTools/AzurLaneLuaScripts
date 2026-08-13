@@ -10178,7 +10178,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1412,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 408141
 	}
@@ -10187,7 +10187,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1413,
-		resource_num = 0,
+		resource_num = 1180,
 		drop_id = "998578",
 		target_id = 404071
 	}
@@ -10196,7 +10196,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1414,
-		resource_num = 0,
+		resource_num = 1080,
 		drop_id = "998578",
 		target_id = 401131
 	}
@@ -10207,7 +10207,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1415,
-		resource_num = 0,
+		resource_num = 1180,
 		drop_id = "998578",
 		target_id = 399042
 	}
@@ -10216,7 +10216,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1416,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 607022
 	}
@@ -10225,7 +10225,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1417,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 408102
 	}
@@ -10234,7 +10234,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1418,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 299013
 	}
@@ -10243,7 +10243,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1419,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 502053
 	}
@@ -10252,7 +10252,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1420,
-		resource_num = 0,
+		resource_num = 1180,
 		drop_id = "998578",
 		target_id = 9600121
 	}
@@ -10261,7 +10261,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1421,
-		resource_num = 0,
+		resource_num = 1260,
 		drop_id = "998578",
 		target_id = 9600141
 	}
@@ -10270,7 +10270,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1422,
-		resource_num = 0,
+		resource_num = 980,
 		drop_id = "998578",
 		target_id = 9600131
 	}
@@ -10279,7 +10279,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1423,
-		resource_num = 0,
+		resource_num = 780,
 		drop_id = "998578",
 		target_id = 9600151
 	}
@@ -10288,7 +10288,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1424,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 9600161
 	}
@@ -10297,7 +10297,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1425,
-		resource_num = 0,
+		resource_num = 980,
 		drop_id = "998578",
 		target_id = 399022
 	}
@@ -10306,7 +10306,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1426,
-		resource_num = 0,
+		resource_num = 900,
 		drop_id = "998578",
 		target_id = 718012
 	}
@@ -10315,7 +10315,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1427,
-		resource_num = 0,
+		resource_num = 780,
 		drop_id = "998578",
 		target_id = 301572
 	}
@@ -10324,7 +10324,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1428,
-		resource_num = 0,
+		resource_num = 1180,
 		drop_id = "998578",
 		target_id = 107161
 	}
@@ -10333,7 +10333,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1429,
-		resource_num = 0,
+		resource_num = 1030,
 		drop_id = "998578",
 		target_id = 101101
 	}
@@ -10342,7 +10342,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1430,
-		resource_num = 0,
+		resource_num = 1180,
 		drop_id = "998578",
 		target_id = 107251
 	}
@@ -10351,7 +10351,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1431,
-		resource_num = 0,
+		resource_num = 780,
 		drop_id = "998578",
 		target_id = 101551
 	}
@@ -10360,7 +10360,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1432,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 102351
 	}
@@ -10369,7 +10369,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1433,
-		resource_num = 0,
+		resource_num = 780,
 		drop_id = "998578",
 		target_id = 102234
 	}
@@ -10378,7 +10378,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1434,
-		resource_num = 0,
+		resource_num = 900,
 		drop_id = "998578",
 		target_id = 405052
 	}
@@ -10387,7 +10387,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1435,
-		resource_num = 0,
+		resource_num = 1050,
 		drop_id = "998578",
 		target_id = 802032
 	}
@@ -10396,7 +10396,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1436,
-		resource_num = 0,
+		resource_num = 980,
 		drop_id = "998578",
 		target_id = 401992
 	}
@@ -10405,7 +10405,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1437,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 702052
 	}
@@ -10414,7 +10414,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1438,
-		resource_num = 0,
+		resource_num = 1260,
 		drop_id = "998578",
 		target_id = 1199011
 	}
@@ -10423,7 +10423,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1439,
-		resource_num = 0,
+		resource_num = 1000,
 		drop_id = "998578",
 		target_id = 199061
 	}
@@ -10432,7 +10432,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1440,
-		resource_num = 0,
+		resource_num = 1260,
 		drop_id = "998578",
 		target_id = 499101
 	}
@@ -10441,7 +10441,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1441,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 799031
 	}
@@ -10450,7 +10450,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1442,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 699031
 	}
@@ -10459,7 +10459,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1443,
-		resource_num = 0,
+		resource_num = 1260,
 		drop_id = "998578",
 		target_id = 403037
 	}
@@ -10468,7 +10468,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1444,
-		resource_num = 0,
+		resource_num = 980,
 		drop_id = "998578",
 		target_id = 605091
 	}
@@ -10477,7 +10477,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1445,
-		resource_num = 0,
+		resource_num = 780,
 		drop_id = "998578",
 		target_id = 602041
 	}
@@ -10486,7 +10486,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1446,
-		resource_num = 0,
+		resource_num = 700,
 		drop_id = "998578",
 		target_id = 601121
 	}
@@ -10495,7 +10495,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1447,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 301941
 	}
@@ -10504,7 +10504,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1448,
-		resource_num = 0,
+		resource_num = 1260,
 		drop_id = "998578",
 		target_id = 303117
 	}
@@ -10513,7 +10513,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1449,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 301295
 	}
@@ -10522,7 +10522,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1450,
-		resource_num = 0,
+		resource_num = 980,
 		drop_id = "998578",
 		target_id = 105202
 	}
@@ -10531,7 +10531,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1451,
-		resource_num = 0,
+		resource_num = 980,
 		drop_id = "998578",
 		target_id = 503013
 	}
@@ -10540,7 +10540,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1452,
-		resource_num = 0,
+		resource_num = 1180,
 		drop_id = "998578",
 		target_id = 804011
 	}
@@ -10549,7 +10549,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1453,
-		resource_num = 0,
+		resource_num = 1180,
 		drop_id = "998578",
 		target_id = 806011
 	}
@@ -10558,7 +10558,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1454,
-		resource_num = 0,
+		resource_num = 780,
 		drop_id = "998578",
 		target_id = 803031
 	}
@@ -10567,7 +10567,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1455,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 801051
 	}
@@ -10576,7 +10576,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1456,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 802041
 	}
@@ -10585,7 +10585,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1457,
-		resource_num = 0,
+		resource_num = 900,
 		drop_id = "998578",
 		target_id = 332210
 	}
@@ -10594,7 +10594,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1458,
-		resource_num = 0,
+		resource_num = 880,
 		drop_id = "998578",
 		target_id = 102054
 	}
@@ -10603,7 +10603,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1459,
-		resource_num = 0,
+		resource_num = 700,
 		drop_id = "998578",
 		target_id = 102151
 	}
@@ -10612,7 +10612,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1460,
-		resource_num = 0,
+		resource_num = 1260,
 		drop_id = "998578",
 		target_id = 199033
 	}
@@ -10621,7 +10621,7 @@ end)()
 		resource_type = 14,
 		type = 1,
 		id = 1461,
-		resource_num = 0,
+		resource_num = 1100,
 		drop_id = "998578",
 		target_id = 137061
 	}

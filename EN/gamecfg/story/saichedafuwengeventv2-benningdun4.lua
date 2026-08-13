@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_4",
-			actorName = "本宁顿",
+			actorName = "Bennington",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "Nice！额外的高光镜头来了——快把油门踩下去！"
+			say = "Nice! There's an extra bonus highlight. Step on the gas!"
 		}
 	}
 }

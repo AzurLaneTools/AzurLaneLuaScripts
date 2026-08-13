@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_4",
-			actorName = "本宁顿",
+			actorName = "Bennington",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "奖励到手！快对着镜头展示一下！"
+			say = "Rewards secured! Come on, let the camera get a good view of it!"
 		}
 	}
 }

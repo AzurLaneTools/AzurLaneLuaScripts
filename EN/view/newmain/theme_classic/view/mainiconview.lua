@@ -38,7 +38,7 @@ end
 slot0.Refresh = function(slot0, slot1)
 	slot2 = slot1:getPrefab()
 
-	if slot0.iconList[slot0:GetIconType(slot1)] ~= slot0.iconInstance or slot0.name ~= slot2 then
+	if slot0.iconList[slot0:GetIconType(slot1)] ~= slot0.iconInstance or slot0.ship:getPrefab() ~= slot2 then
 		slot0:Init(slot1)
 	elseif slot0.iconInstance then
 		slot0.iconInstance:Resume()

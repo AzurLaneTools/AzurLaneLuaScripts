@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:84}",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "意外之获么……呵呵，看来此行亦有天运相助呢~"
+			say = "An unexpected bonus... Heehee, luck is on our side today."
 		}
 	}
 }

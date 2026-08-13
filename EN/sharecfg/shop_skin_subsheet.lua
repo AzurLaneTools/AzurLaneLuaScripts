@@ -18,7 +18,7 @@ pg.base.shop_skin_subsheet = {}
 (function ()
 	pg.base.shop_skin_subsheet[1] = {
 		time = "",
-		site_tag_text = "精选换装",
+		site_tag_text = "Limited",
 		type = 0,
 		id = 1,
 		enter_subsheet = 1,
@@ -27,7 +27,7 @@ pg.base.shop_skin_subsheet = {}
 	}
 	pg.base.shop_skin_subsheet[2] = {
 		time = "",
-		site_tag_text = "热门换装",
+		site_tag_text = "Popular",
 		type = 0,
 		id = 2,
 		enter_subsheet = 2,

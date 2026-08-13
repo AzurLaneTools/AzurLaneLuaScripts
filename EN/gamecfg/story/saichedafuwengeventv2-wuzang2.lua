@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:84}",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "奖励已收入囊中。"
+			say = "Our reward is already secure."
 		}
 	}
 }

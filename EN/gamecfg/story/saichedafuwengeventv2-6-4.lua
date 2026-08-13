@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "在比赛中突破了落日大道最佳纪录，获得了奖励【快速完成工具*1】"
+			say = "You broke a record during the race. You received 1 Quick Finisher!"
 		}
 	}
 }

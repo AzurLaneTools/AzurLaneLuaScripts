@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "因为罗杰斯在填写预算申请书时产生的笔误，额外获得了【石油*100】"
+			say = "Rodgers made a typo while filling out the budget application. You received 100 Oil!"
 		}
 	}
 }

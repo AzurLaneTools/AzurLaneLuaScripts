@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:84}",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "指挥官，喜欢这个吗？"
+			say = "Commander, is this to your liking?"
 		}
 	}
 }

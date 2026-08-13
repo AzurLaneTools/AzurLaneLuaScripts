@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:84}",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "时机已至，将优势牢牢握在手中吧。"
+			say = "The time has come. Seize this advantage, and never let go."
 		}
 	}
 }

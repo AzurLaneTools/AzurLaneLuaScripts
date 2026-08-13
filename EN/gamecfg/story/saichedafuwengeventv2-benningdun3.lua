@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_4",
-			actorName = "本宁顿",
+			actorName = "Bennington",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "这是给冠军车手的赞助品吗？"
+			say = "Has our champion racer gotten a sponsorship?"
 		}
 	}
 }

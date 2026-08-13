@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "被维克斯堡的热烈应援感染，超常发挥，【前进一格】"
+			say = "Thanks to Vicksburg's passionate cheering, you managed to drive beyond your limits. You advanced 1 tile!"
 		}
 	}
 }

@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_5",
-			actorName = "不挠",
+			actorName = "Indomitable",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "拿到奖励了，指挥官做得很好哦~"
+			say = "Rewards obtained. Well done, Commander!"
 		}
 	}
 }

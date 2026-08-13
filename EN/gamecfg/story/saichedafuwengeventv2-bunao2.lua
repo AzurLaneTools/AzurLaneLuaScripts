@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_5",
-			actorName = "不挠",
+			actorName = "Indomitable",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "这个看起来不错呢……"
+			say = "This looks pretty nice..."
 		}
 	}
 }
