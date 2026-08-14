@@ -380,7 +380,7 @@ return {
 			hideRecordIco = true,
 			actor = 137090,
 			nameColor = "#A9F548FF",
-			say = "――うちのチーム、$2に加わってほしい",
+			say = "――うちのチーム、{car2026}に加わってほしい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			hideRecordIco = true,
 			actor = 137090,
 			nameColor = "#A9F548FF",
-			say = "こうして、$2は最後の重要なピースを手に入れた。",
+			say = "こうして、{car2026}は最後の重要なピースを手に入れた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "『　$2　』のマシンは全項目クリアだ。他のチームを見てくる",
+			say = "『　{car2026}　』のマシンは全項目クリアだ。他のチームを見てくる",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

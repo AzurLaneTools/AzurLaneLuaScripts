@@ -320,6 +320,7 @@ slot0.UpdateView = function(slot0)
 		slot0:UpdateBonusPtIconPath()
 		slot0:UpdateBattle()
 		slot0.sceneParent:SwitchMapBG(slot0.contextData.map)
+		pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 		slot0.sceneParent:PlayBGM()
 	else
 		slot0:UpdateStoryNodeStatus()
@@ -1185,6 +1186,7 @@ slot0.SwitchStoryMapAndBGM = function(slot0)
 			Animator = slot3
 		}
 	})
+	pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 	pg.BgmMgr.GetInstance():Push(slot0.__cname, slot2)
 end
 

@@ -9748,7 +9748,7 @@ end)()
 		change_prefab = "",
 		unlock_conditions = "EP3-1をクリア",
 		change_background = "star_level_bg_313",
-		name = "EP3-2 EP3-2",
+		name = "EP3-2 セキュリティ専門家 ",
 		story = "CHENNIYUXINGGUANGZHICHENG12",
 		change_bgm = "login_us_0401",
 		id = 492,

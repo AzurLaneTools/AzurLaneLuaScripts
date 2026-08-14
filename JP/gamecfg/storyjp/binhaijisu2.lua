@@ -151,7 +151,7 @@ return {
 			actor = 107201,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "ではここで、$2の後方支援の本格始動を宣言しまぁーす！",
+			say = "ではここで、{car2026}の後方支援の本格始動を宣言しまぁーす！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "こうして、多少バタバタとした準備を経て、$2は本格的に動き始めたのだった――",
+			say = "こうして、多少バタバタとした準備を経て、{car2026}は本格的に動き始めたのだった――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

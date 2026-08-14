@@ -208,7 +208,7 @@ end
 
 slot0.SetRollStepAct = function(slot0, slot1)
 	if not slot1 then
-		setText(findTF(slot0.rollStep, "animroot/Image/Text"), "")
+		setText(findTF(slot0.rollStep, "animroot/Image/Text"), "00")
 	end
 
 	setActive(slot0.rollStep, true)

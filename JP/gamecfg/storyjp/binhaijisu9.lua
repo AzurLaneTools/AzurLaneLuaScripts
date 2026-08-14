@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			bgName = "star_level_bg_186",
 			bgm = "story-cardrive-stand",
-			say = "$2のメンバーはパドックエリアに集まり、本戦に向けた最後の準備を始めていた。",
+			say = "{car2026}のメンバーはパドックエリアに集まり、本戦に向けた最後の準備を始めていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

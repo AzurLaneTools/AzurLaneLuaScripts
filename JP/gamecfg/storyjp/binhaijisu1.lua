@@ -57,7 +57,7 @@ return {
 			actor = 107201,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Hi――指揮官！ペニントンのチャンネルへおかえり♪",
+			say = "Hi――指揮官！ベニントンのチャンネルへおかえり♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

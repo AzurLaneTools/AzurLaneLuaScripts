@@ -567,7 +567,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "――コレット、うちの$2に入ってくれない？ちょうどデータ分析とチューニングができる人材を探してて",
+			say = "――コレット、うちの{car2026}に入ってくれない？ちょうどデータ分析とチューニングができる人材を探してて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			actor = 900555,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「$2に強力な助っ人！謎の天才エンジニア電撃加入！」続きのタイトルはこれで決まりね！",
+			say = "「{car2026}に強力な助っ人！謎の天才エンジニア電撃加入！」続きのタイトルはこれで決まりね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -984,7 +984,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "$2、ウィーアーチャンピオン！",
+			say = "{car2026}、ウィーアーチャンピオン！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

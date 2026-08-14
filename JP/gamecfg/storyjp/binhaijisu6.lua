@@ -452,7 +452,7 @@ return {
 			actor = 900555,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "よし♪今この瞬間から、あなたは$2のマスコットね♪",
+			say = "よし♪今この瞬間から、あなたは{car2026}のマスコットね♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "急ごしらえで立ち上げたチームで予選レースまでこぎ着けた。$2はここに来るまでにたくさんのことを積み重ねてきた。",
+			say = "急ごしらえで立ち上げたチームで予選レースまでこぎ着けた。{car2026}はここに来るまでにたくさんのことを積み重ねてきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
