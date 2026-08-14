@@ -2631,8 +2631,8 @@ pg.base.memory_storyline = {}
 		}
 	}
 	pg.base.memory_storyline[98] = {
-		description = "敬请期待",
-		name = "敬请期待",
+		description = "Stay Tuned",
+		name = "Stay Tuned",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",

@@ -971,7 +971,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "$1, Essex, Bennington, Harrison, John Rodgers, Collett, Error XIII...",
+			say = "{playername}, Essex, Bennington, Harrison, John Rodgers, Collett, Error XIII...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Okay... So I'm Detective $1, here in Astrarium to investigate the theft of your master recording...",
+			say = "Okay... So I'm Detective {playername}, here in Astrarium to investigate the theft of your master recording...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

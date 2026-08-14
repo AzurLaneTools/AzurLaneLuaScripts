@@ -117,7 +117,7 @@ return {
 			bgName = "bg_underheaven_0",
 			side = 2,
 			actorName = "Arbiter: The Hierophant V",
-			say = "We've attracted some attention here, $1. There are people who want to join the fight.",
+			say = "We've attracted some attention here, {playername}. There are people who want to join the fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
