@@ -1102,8 +1102,6 @@ slot0.UpdateStory = function(slot0)
 			slot1 = uv3
 
 			slot1:PlayStory(slot0:GetStoryName(), function ()
-				uv0:UpdateView()
-
 				uv0.needFocusStory = true
 
 				uv0:Move2UnlockStory()
@@ -1232,6 +1230,7 @@ slot0.PlayStory = function(slot0, slot1, slot2, slot3)
 		end,
 		function (slot0, ...)
 			existCall(uv0, ...)
+			uv1:UpdateView()
 		end
 	})
 end
