@@ -320,6 +320,7 @@ slot0.UpdateView = function(slot0)
 		slot0:UpdateBonusPtIconPath()
 		slot0:UpdateBattle()
 		slot0.sceneParent:SwitchMapBG(slot0.contextData.map)
+		pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 		slot0.sceneParent:PlayBGM()
 	else
 		slot0:UpdateStoryNodeStatus()
@@ -1101,8 +1102,6 @@ slot0.UpdateStory = function(slot0)
 			slot1 = uv3
 
 			slot1:PlayStory(slot0:GetStoryName(), function ()
-				uv0:UpdateView()
-
 				uv0.needFocusStory = true
 
 				uv0:Move2UnlockStory()
@@ -1185,6 +1184,7 @@ slot0.SwitchStoryMapAndBGM = function(slot0)
 			Animator = slot3
 		}
 	})
+	pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 	pg.BgmMgr.GetInstance():Push(slot0.__cname, slot2)
 end
 
@@ -1230,6 +1230,7 @@ slot0.PlayStory = function(slot0, slot1, slot2, slot3)
 		end,
 		function (slot0, ...)
 			existCall(uv0, ...)
+			uv1:UpdateView()
 		end
 	})
 end

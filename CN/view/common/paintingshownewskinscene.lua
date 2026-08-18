@@ -12,6 +12,8 @@ slot0.closeView = function(slot0)
 		return
 	end
 
+	slot0:ClearPainting()
+
 	if not slot0.skinLayerAdded then
 		slot0.skinLayerAdded = true
 
