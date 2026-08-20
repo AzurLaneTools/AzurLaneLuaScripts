@@ -101,7 +101,7 @@ return {
 			},
 			options = {
 				{
-					content = "好漂亮的矿石。",
+					content = "好漂亮的礦石。",
 					flag = 1
 				}
 			}
@@ -209,7 +209,7 @@ return {
 			},
 			options = {
 				{
-					content = "帕特莉？好的，交给我吧。",
+					content = "帕特莉？好的，交給我吧。",
 					flag = 1
 				}
 			}

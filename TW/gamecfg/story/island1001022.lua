@@ -232,11 +232,11 @@ return {
 			},
 			options = {
 				{
-					content = "……还是聊聊货运委托的事吧。",
+					content = "……還是聊聊貨運委託的事吧。",
 					flag = 1
 				},
 				{
-					content = "宝藏猎人心动中……",
+					content = "寶藏獵人心動中……",
 					flag = 2
 				}
 			}

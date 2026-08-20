@@ -134,11 +134,11 @@ return {
 			},
 			options = {
 				{
-					content = "实不相瞒……",
+					content = "實不相瞞……",
 					flag = 1
 				},
 				{
-					content = "有……有么？我怎么没听到。",
+					content = "有……有麼？我怎麼沒聽到。",
 					flag = 2
 				}
 			}
@@ -201,7 +201,7 @@ return {
 			},
 			options = {
 				{
-					content = "站台么……那我也过去看看情况。",
+					content = "月台麼……那我也過去看看情況。",
 					flag = 1
 				}
 			}

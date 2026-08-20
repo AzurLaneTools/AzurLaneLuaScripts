@@ -93,7 +93,7 @@ return {
 			},
 			options = {
 				{
-					content = "……建设贷款？",
+					content = "……建設貸款？",
 					flag = 1
 				}
 			}

@@ -186,11 +186,11 @@ return {
 			},
 			options = {
 				{
-					content = "这里还是由我来接管吧。",
+					content = "這裡還是由我來接管吧。",
 					flag = 1
 				},
 				{
-					content = "奇异点水很深，你把握不住。",
+					content = "奇異點水很深，你把握不住。",
 					flag = 2
 				}
 			}

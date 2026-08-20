@@ -152,7 +152,7 @@ return {
 			style = 2,
 			sequence = {
 				{
-					"<size=45>一段时间后……</size>",
+					"<size=45>一段時間後……</size>",
 					2
 				}
 			}

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "呼——终于等到了！太感谢了！",
+			say = "呼——終於等到了！太感謝了！",
 			animation = "clap",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "啊……这下又要开始忙了……不过能帮到指挥官就好~",
-			subName = "货运管理员",
+			say = "啊……這下又要開始忙了……不過能幫到指揮官就好~",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			say = "嘿嘿~放心吧！即使是我，也不会一直偷懒的啦~",
-			subName = "货运管理员",
+			say = "嘿嘿~放心吧！即使是我，也不會一直偷懶的啦~",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,

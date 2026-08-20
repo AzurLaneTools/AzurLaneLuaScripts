@@ -44,11 +44,11 @@ return {
 			},
 			options = {
 				{
-					content = "没错！",
+					content = "沒錯！",
 					flag = 1
 				},
 				{
-					content = "额……",
+					content = "額……",
 					flag = 2
 				}
 			}

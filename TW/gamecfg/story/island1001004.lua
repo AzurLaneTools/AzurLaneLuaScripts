@@ -35,7 +35,7 @@ return {
 			},
 			options = {
 				{
-					content = "乔安，是遇到了什么困难了么？",
+					content = "喬安，是遇到了什麼困難了麼？",
 					flag = 1
 				}
 			}
@@ -88,7 +88,7 @@ return {
 			},
 			options = {
 				{
-					content = "那我也来帮忙吧。",
+					content = "那我也來幫忙吧。",
 					flag = 1
 				}
 			}

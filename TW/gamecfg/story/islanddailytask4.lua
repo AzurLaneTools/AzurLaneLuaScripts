@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "辛苦指挥官了……我也会加倍努力管理好农场的。",
+			say = "辛苦指揮官了……我也會加倍努力管理好農場的。",
 			animation = "talk",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "争取早日让岛上的大家都吃上种类丰富的新鲜蔬菜。",
-			subName = "农田管理员",
+			say = "爭取早日讓島上的大家都吃上種類豐富的新鮮蔬菜。",
+			subName = "農田管理員",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			say = "这是我唯一能帮上指挥官的了。",
-			subName = "农田管理员",
+			say = "這是我唯一能幫上指揮官的了。",
+			subName = "農田管理員",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,

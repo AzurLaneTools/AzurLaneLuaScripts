@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "嗯？指挥官这么快就把我要的东西都准备好了吗？",
+			say = "嗯？指揮官這麼快就把我要的東西都準備好了嗎？",
 			animation = "doubt",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "我看看……数量上没有问题！指挥官的效率真的很高呢~",
-			subName = "订单管理员",
+			say = "我看看……數量上沒有問題！指揮官的效率真的很高呢~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			say = "还好有你在，不然港口这么忙，都不知道该怎么办才好。",
-			subName = "订单管理员",
+			say = "還好有你在，不然港口這麼忙，都不知道該怎麼辦才好。",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			say = "真是辛苦你了呢~",
 			animation = "talk",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

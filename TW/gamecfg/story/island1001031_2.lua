@@ -201,11 +201,11 @@ return {
 			},
 			options = {
 				{
-					content = "感觉有点可疑……",
+					content = "感覺有點可疑……",
 					flag = 1
 				},
 				{
-					content = "宝藏么……",
+					content = "寶藏麼……",
 					flag = 2
 				}
 			}

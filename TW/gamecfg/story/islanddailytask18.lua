@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官，你来了……这次麻烦你了。",
+			say = "指揮官，你來了……這次麻煩你了。",
 			animation = "hi",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			face2Face = {
 				{
 					0,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "不麻烦，这就是给它们准备的食物？",
+			say = "不麻煩，這就是給它們準備的食物？",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -44,18 +44,18 @@ return {
 			}
 		},
 		{
-			say = "嗯，是我特意准备的小鱼干，份量都分好了。",
+			say = "嗯，是我特意準備的小魚乾，份量都分好了。",
 			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "麻烦你帮忙投喂给经常在开发区活动的几只小猫就好。",
-			subName = "啾咖啡店员",
+			say = "麻煩你幫忙投餵給經常在開發區活動的幾隻小貓就好。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			say = "放心，还有什么需要注意的吗？",
+			say = "放心，還有什麼需要注意的嗎？",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -72,17 +72,17 @@ return {
 			}
 		},
 		{
-			say = "嗯，还有就是它们的位置可能需要指挥官去找找，我也不太清楚它们去哪了……",
+			say = "嗯，還有就是它們的位置可能需要指揮官去找找，我也不太清楚它們去哪了……",
 			animation = "embarrass",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "没关系，我这就去找它们。",
+			say = "沒關係，我這就去找它們。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -90,10 +90,10 @@ return {
 			}
 		},
 		{
-			say = "辛苦你了，指挥官。",
+			say = "辛苦你了，指揮官。",
 			animation = "clap",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			say = "要配個畫框好好保存才行。",
+			say = "要配個畫框好好儲存才行。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "哇——！是指挥官！是给我的牧场动物们带吃的东西来了吗？",
+			say = "哇——！是指揮官！是給我的牧場動物們帶吃的東西來了嗎？",
 			animation = "nod",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "啊，不是的话也没关系，只要是指挥官带来的东西，梅莉都很喜欢哦~",
-			subName = "牧场管理员",
+			say = "啊，不是的話也沒關係，只要是指揮官帶來的東西，梅莉都很喜歡哦~",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			say = "动物们也是！有你在，牧场一定会越来越热闹的~",
-			subName = "牧场管理员",
+			say = "動物們也是！有你在，牧場一定會越來越熱鬧的~",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,

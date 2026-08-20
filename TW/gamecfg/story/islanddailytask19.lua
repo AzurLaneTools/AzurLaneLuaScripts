@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "啊！指挥官！你来得正好！",
+			say = "啊！指揮官！你來得正好！",
 			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			face2Face = {
 				{
 					0,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "怎么了，梅莉？又有动物跑出去了？",
+			say = "怎麼了，梅莉？又有動物跑出去了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -43,18 +43,18 @@ return {
 			}
 		},
 		{
-			say = "嘿嘿，这次不是啦！",
+			say = "嘿嘿，這次不是啦！",
 			animation = "shakehead",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "它们最近很乖的，所以我想……让它们去农场旁的草坡上玩一玩！",
-			subName = "牧场管理员",
+			say = "它們最近很乖的，所以我想……讓它們去農場旁的草坡上玩一玩！",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "都带出去……你能管住它们？",
+			say = "都帶出去……你能管住它們？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -70,17 +70,17 @@ return {
 			}
 		},
 		{
-			say = "所以！指挥官，我想让你帮我带一部分出去，剩下的就交给我来！",
+			say = "所以！指揮官，我想讓你幫我帶一部分出去，剩下的就交給我來！",
 			animation = "clap",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "好吧，只是一部分的话。",
+			say = "好吧，只是一部分的話。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -89,18 +89,18 @@ return {
 			}
 		},
 		{
-			say = "好欸！辛苦你啦指挥官！",
+			say = "好欸！辛苦你啦指揮官！",
 			animation = "nod",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "放心，它们超乖的！摸一下就会跟你走啦！",
-			subName = "牧场管理员",
+			say = "放心，它們超乖的！摸一下就會跟你走啦！",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,

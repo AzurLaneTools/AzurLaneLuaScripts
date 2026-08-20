@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "（棲風原野嗎，之前站台就是被這東西砸壞的吧。）",
+			say = "（棲風原野嗎，之前月台就是被這東西砸壞的吧。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

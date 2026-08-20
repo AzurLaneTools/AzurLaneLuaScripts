@@ -75,7 +75,7 @@ return {
 			},
 			options = {
 				{
-					content = "这样就能修复好站台了？",
+					content = "這樣就能修復好月台了？",
 					flag = 1
 				}
 			}
@@ -157,7 +157,7 @@ return {
 			},
 			options = {
 				{
-					content = "好，我这就去。",
+					content = "好，我這就去。",
 					flag = 1
 				},
 				{

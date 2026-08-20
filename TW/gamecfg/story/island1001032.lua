@@ -61,11 +61,11 @@ return {
 			},
 			options = {
 				{
-					content = "小岛、海滩、码头……",
+					content = "小島、海灘、碼頭……",
 					flag = 1
 				},
 				{
-					content = "金光闪闪的宝藏岛呢？",
+					content = "金光閃閃的寶藏島呢？",
 					flag = 2
 				}
 			}

@@ -2365,7 +2365,7 @@ pg.base.island_interaction = {}
 		show_condition = {}
 	}
 	pg.base.island_interaction[2101] = {
-		text = "抓住你啦！",
+		text = "抓住妳啦！",
 		groupId = 21,
 		only_self = 0,
 		type = 3,

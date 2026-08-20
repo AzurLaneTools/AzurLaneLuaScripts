@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "梅莉……你的动物朋友们都安静下来了。",
+			say = "梅莉……你的動物朋友們都安靜下來了。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -36,14 +36,14 @@ return {
 			say = "真、真的欸？！",
 			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "只要找到它们舒服的地方，耐心地安抚它们就好。",
+			say = "只要找到它們舒服的地方，耐心地安撫它們就好。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			say = "唔……梅莉也是这么做的啊？",
-			subName = "牧场管理员",
+			say = "唔……梅莉也是這麼做的啊？",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -61,17 +61,17 @@ return {
 			}
 		},
 		{
-			say = "难道是我还不够耐心？不——不会吧？",
+			say = "難道是我還不夠耐心？不——不會吧？",
 			animation = "doubt",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "没关系，以后多试试就好了。",
+			say = "沒關係，以後多試試就好了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

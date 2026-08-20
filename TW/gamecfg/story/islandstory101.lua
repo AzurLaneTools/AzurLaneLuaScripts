@@ -9,8 +9,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "正在重新准备，请稍后……",
-			subName = "岛屿向导",
+			say = "正在重新準備，請稍後……",
+			subName = "島嶼嚮導",
 			characterId = 101000,
 			typewriter = {
 				speed = 0.05,

@@ -9457,7 +9457,7 @@ end)()
 		icon = "title_chara_shengtafei",
 		type = 3,
 		link_event = 0,
-		title = "我们的第八大不可思议",
+		title = "我們的第八大不可思議",
 		auto_unlock = "",
 		subtype = 0,
 		id = 625,

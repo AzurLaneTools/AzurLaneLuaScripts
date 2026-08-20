@@ -19,9 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官……你带来了我需要的食材呢。",
+			say = "指揮官……你帶來了我需要的食材呢。",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			face2Face = {
 				{
 					0,
@@ -34,18 +34,18 @@ return {
 			}
 		},
 		{
-			say = "嗯……品质也很不错。",
+			say = "嗯……品質也很不錯。",
 			animation = "think",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这样就能为客人们做出更美味的东西了……指挥官，非常感谢。",
-			subName = "啾咖啡店员",
+			say = "這樣就能為客人們做出更美味的東西了……指揮官，非常感謝。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			say = "我会用心制作的。",
-			subName = "啾咖啡店员",
+			say = "我會用心製作的。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
