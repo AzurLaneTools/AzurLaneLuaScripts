@@ -2866,6 +2866,26 @@ end)()
 		special_bgm = "",
 		bgm = "story-magicalnight-pv"
 	}
+	pg.base.voice_bgm.EelTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	}
+	pg.base.voice_bgm.EssexFramePage = {
+		default_bgm = "theme-designfleet-VII",
+		special_bgm = "",
+		bgm = "theme-designfleet-VII"
+	}
+	pg.base.voice_bgm.StarsCityOmenPage = {
+		default_bgm = "story-nonightcity",
+		special_bgm = "",
+		bgm = "story-nonightcity"
+	}
+	pg.base.voice_bgm.RapidSeasideMusicGamePage = {
+		default_bgm = "story-game-rhythm",
+		special_bgm = "",
+		bgm = "story-game-rhythm"
+	}
 	pg.base.voice_bgm.EscapeManorMainPage = {
 		default_bgm = "story-hospitalnight-outshow",
 		special_bgm = "",

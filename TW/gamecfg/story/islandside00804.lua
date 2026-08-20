@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "斯蒂芬妮，煤炭也取来了，你看看这些够不够？",
+			say = "史蒂芬妮，煤炭也取來了，你看看這些夠不夠？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "哦哦！不愧是指挥官哇，效率就是高！",
+			say = "哦哦！不愧是指揮官哇，效率就是高！",
 			animation = "nod",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我看看……嗯嗯！没问题，这些肯定够用了！",
-			subName = "货运管理员",
+			say = "我看看……嗯嗯！沒問題，這些肯定夠用了！",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -52,18 +52,18 @@ return {
 			}
 		},
 		{
-			say = "嘿嘿~总算没让今天的订单出问题~",
+			say = "嘿嘿~總算沒讓今天的訂單出問題~",
 			animation = "talk",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "真是多亏了指挥官呢！超感谢！",
-			subName = "货运管理员",
+			say = "真是多虧了指揮官呢！超感謝！",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，把风险处理了就好，没问题的话我就先走了？",
+			say = "嗯，把風險處理了就好，沒問題的話我就先走了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -79,10 +79,10 @@ return {
 			}
 		},
 		{
-			say = "啊，那指挥官记得去找帕特莉说订单完成了哦！",
+			say = "啊，那指揮官記得去找帕特莉說訂單完成了哦！",
 			animation = "nod",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

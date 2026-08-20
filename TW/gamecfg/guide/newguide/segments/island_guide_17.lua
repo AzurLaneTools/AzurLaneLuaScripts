@@ -6,7 +6,7 @@ return {
 			delay = 0.3,
 			alpha = 0.4,
 			style = {
-				text = "努力提升开发排名获取稀有奖励吧",
+				text = "努力提升開發排名獲取稀有獎勵吧",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -25,7 +25,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击返回",
+				text = "點擊返回",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -42,7 +42,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "打开管理界面",
+				text = "打開管理介面",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -59,7 +59,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击仓库",
+				text = "點擊倉庫",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -76,7 +76,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处可将资材转化为岛屿开发PT",
+				text = "點擊此處可將資材轉化為島嶼開發PT",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -95,7 +95,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "岛屿开发季结束后，所有资材都将自动转化为当前开发季的岛屿开发PT",
+				text = "島嶼開發季結束後，所有資材都將自動轉化為當前開發季的島嶼開發PT",
 				mode = 2,
 				char = 1,
 				posY = 0,

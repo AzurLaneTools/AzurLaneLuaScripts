@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "帕特莉，斯蒂芬妮的订单完成了。",
+			say = "帕特莉，史蒂芬妮的訂單完成了。",
 			characterId = 0,
 			animation = "hi",
 			face2Face = {
@@ -34,17 +34,17 @@ return {
 			}
 		},
 		{
-			say = "呀，大救星回来啦，斯蒂芬妮那边的问题都处理好了吗？",
+			say = "呀，大救星回來啦，史蒂芬妮那邊的問題都處理好了嗎？",
 			animation = "clap",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，她还临时加了需求，让我跑了两趟原野。",
+			say = "嗯，她還臨時加了需求，讓我跑了兩趟原野。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -52,17 +52,17 @@ return {
 			}
 		},
 		{
-			say = "哇哦，不愧是指挥官，刚上手处理订单就这么快！",
+			say = "哇哦，不愧是指揮官，剛上手處理訂單就這麼快！",
 			animation = "nod",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "哦对，斯蒂芬妮还说要给我双倍报酬来着。",
+			say = "喔對，史蒂芬妮還說要給我雙倍報酬。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -70,18 +70,18 @@ return {
 			}
 		},
 		{
-			say = "嗯嗯，指挥官放心，我这里已经记下啦~",
+			say = "嗯嗯，指揮官放心，我這裡已經記下啦~",
 			animation = "note",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "订单完成，现在就可以给你结算奖励了~",
-			subName = "订单管理员",
+			say = "訂單完成，現在就可以幫你結算獎勵了~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,

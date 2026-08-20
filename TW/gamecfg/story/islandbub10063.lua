@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "今日的产量……咦！这么就这点？！",
+			say = "今日的產量……咦！這麼就這點？！",
 			characterId = 100600
 		}
 	}

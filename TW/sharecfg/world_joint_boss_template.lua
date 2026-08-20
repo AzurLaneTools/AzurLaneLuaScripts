@@ -22,7 +22,8 @@ pg.world_joint_boss_template.all = {
 	17,
 	18,
 	19,
-	20
+	20,
+	21
 }
 pg.base = pg.base or {}
 pg.base.world_joint_boss_template = {}
@@ -672,6 +673,7 @@ pg.base.world_joint_boss_template = {}
 	pg.base.world_joint_boss_template[20] = {
 		name = "夕立·META",
 		boss_level_id = 286,
+		state = "stop",
 		item_id = 100000,
 		painting = "xili",
 		meta_id = 970109,
@@ -688,12 +690,49 @@ pg.base.world_joint_boss_template = {}
 				"夕立·META的魚雷同樣有30%機率造成持續時間6秒的特殊點燃（無視閃避，每1秒造成一次點燃傷害，點燃傷害可與爪擊特殊點燃疊加）。\n夕立·META對<color=#92fc63>點燃狀態下的單位造成的傷害提升30%</color>，每個處於特殊點燃狀態中的我方單位都會使夕立·META<color=#92fc63>受到的傷害降低10%</color>。"
 			}
 		},
+		p_offset = {
+			-392,
+			457,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			240,
+			484,
+			0.68,
+			0.68
+		}
+	}
+	pg.base.world_joint_boss_template[21] = {
+		name = "約克鎮·META",
+		boss_level_id = 301,
+		item_id = 100000,
+		painting = "yuekecheng",
+		meta_id = 970708,
+		id = 21,
+		description = {
+			{
+				"被觀測者的哲學",
+				1,
+				"約克鎮·META初始便擁有<color=#92fc63>60%的高額基礎減傷</color>。\n海域中每有一個有<color=#92fc63>歸屬於我方的單位</color>在場，便會使約克鎮·META受到的傷害額外提升15%，我方單位數量<color=#92fc63>大於等於12時效果達到最大</color>。"
+			},
+			{
+				"注視，直到永遠",
+				1,
+				"約克城·META在場時，每5秒降低我方全體單位3%防空與3%機動，並對此時距離她<color=#92fc63>最近的我方角色產生雙倍效果</color>。"
+			},
+			{
+				"「零」象限展開-5%",
+				1,
+				"戰鬥中釋放某種影響整個海域狀態的的特殊領域，同時提升3%敵我雙方受到的傷害。"
+			}
+		},
 		state = {
 			{
 				{
 					2026,
-					5,
-					14
+					8,
+					20
 				},
 				{
 					0,
@@ -704,8 +743,8 @@ pg.base.world_joint_boss_template = {}
 			{
 				{
 					2026,
-					8,
-					20
+					11,
+					19
 				},
 				{
 					14,
@@ -721,10 +760,10 @@ pg.base.world_joint_boss_template = {}
 			0.7
 		},
 		p_offset_other = {
-			240,
-			484,
-			0.68,
-			0.68
+			190,
+			467,
+			0.65,
+			0.65
 		}
 	}
 end)()

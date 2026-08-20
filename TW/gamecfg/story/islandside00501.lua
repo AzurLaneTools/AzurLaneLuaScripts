@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "布莱梅，听说你找我？有什么事？",
+			say = "布萊梅，聽說妳找我？有什麼事？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,17 +33,17 @@ return {
 			}
 		},
 		{
-			say = "指挥官，你来啦……你有听说牧场那边最近发生的怪事吗？",
+			say = "指揮官，你來啦……你有聽說牧場那邊最近發生的怪事嗎？",
 			animation = "curious",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……怪事？牧场能有什么怪事，难道梅莉的动物又走丢了？",
+			say = "……怪事？牧場能有什麼怪事，梅莉的動物又走丟了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			say = "不是那种……是更……更让人心里发毛的事情。",
-			subName = "啾咖啡店员",
+			say = "不是那種……是更……更讓人心裡發毛的事情。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -60,17 +60,17 @@ return {
 			}
 		},
 		{
-			say = "听说牧场最近总是不太平，传出各种奇怪的动静……大家都在私下议论……说是闹鬼了呢。",
+			say = "聽說牧場最近總是不太平，傳出各種奇怪的動靜……大家都在私下議論……說是鬧鬼了呢。",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "闹鬼？这可不是小事。",
+			say = "鬧鬼？這可不是小事。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			say = "行，我知道了，牧场那边是赫莫和梅莉负责吧？我去找她们确认一下到底发生了什么。",
+			say = "行，我知道了，牧場那邊是赫莫和梅莉負責吧？我去找她們確認到底發生了什麼事。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -87,10 +87,10 @@ return {
 			}
 		},
 		{
-			say = "请务必小心，指挥官。",
+			say = "請務必小心，指揮官。",
 			animation = "bye",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

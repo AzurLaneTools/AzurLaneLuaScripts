@@ -13,7 +13,7 @@ pg.base.island_manage_rank = {}
 
 (function ()
 	pg.base.island_manage_rank[1] = {
-		name = "铜牌店铺",
+		name = "銅牌店鋪",
 		assistant_num = 1,
 		bonus_coefficient = 90,
 		id = 1,
@@ -72,7 +72,7 @@ pg.base.island_manage_rank = {}
 		}
 	}
 	pg.base.island_manage_rank[2] = {
-		name = "银牌店铺",
+		name = "銀牌店鋪",
 		assistant_num = 1,
 		bonus_coefficient = 100,
 		id = 2,
@@ -132,7 +132,7 @@ pg.base.island_manage_rank = {}
 		}
 	}
 	pg.base.island_manage_rank[3] = {
-		name = "金牌店铺",
+		name = "金牌店鋪",
 		assistant_num = 2,
 		bonus_coefficient = 110,
 		id = 3,
@@ -193,7 +193,7 @@ pg.base.island_manage_rank = {}
 		}
 	}
 	pg.base.island_manage_rank[4] = {
-		name = "钻石店铺",
+		name = "鑽石店鋪",
 		assistant_num = 2,
 		bonus_coefficient = 115,
 		id = 4,

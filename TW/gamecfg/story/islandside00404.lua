@@ -21,7 +21,7 @@ return {
 		{
 			animation = "talk",
 			characterId = 0,
-			say = "阿莫玛，这是根据你的想法和布莱梅的指导研发的新品，胡萝卜厚蛋烧，请尝尝看。",
+			say = "阿莫瑪，這是根據妳的想法和布萊梅的指導研發的新品，胡蘿蔔厚蛋燒，請嚐嚐看。",
 			face2Face = {
 				{
 					0,
@@ -37,15 +37,15 @@ return {
 			animation = "nod",
 			say = "嗯……非常美味。",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "胡萝卜的清甜、蛋的醇香、奶酪的咸鲜……融合得恰到好处，口感嫩滑丰富。",
-			subName = "商区管理员",
+			say = "胡蘿蔔的清甜、蛋的醇香、起司的鹹鮮……融合得恰到好處，口感嫩滑豐富。",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			say = "这完全超出了我的预期……这正是商区需要的，能代表岛屿特色的招牌新品！",
-			subName = "商区管理员",
+			say = "這完全超出了我的預期……這正是商區所需要的，能代表島嶼特色的招牌新品！",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，没问题就好，看来布莱梅的新餐品创作要诀的确很实用。",
+			say = "嗯，沒問題就好，看來布萊梅的新餐點創作要訣的確很實用。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -71,18 +71,18 @@ return {
 			}
 		},
 		{
-			say = "新餐品创作要诀？！指挥官，请……请务必要告诉我！",
+			say = "新餐點創作要訣？！指揮官，請……請務必告訴我！",
 			animation = "amaze",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我……我拿这个给你换！",
-			subName = "商区管理员",
+			say = "我……我拿這個跟你換！",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			say = "这个是？",
+			say = "這個是？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -98,18 +98,18 @@ return {
 			}
 		},
 		{
-			say = "嗯……是我从一本餐谱里发现的，说不定是什么绝世餐品的菜单残片……",
+			say = "嗯……是我從一本菜譜裡發現的，說不定是什麼絕世餐點的菜單殘片……",
 			animation = "talk",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "所以我就保存下来了。",
-			subName = "商区管理员",
+			say = "所以我就保存下來了。",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			say = "看起来确实像是什么东西的碎片……",
+			say = "看起來確實像是什麼東西的碎片……",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			say = "虽然不知道这东西有什么用……我就暂且先收着了。",
+			say = "雖然我不知道這東西有什麼用……我就暫且先收著了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -134,17 +134,17 @@ return {
 			}
 		},
 		{
-			say = "那要诀……",
+			say = "那要訣……",
 			animation = "embarrass",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "放心，我都给你记下来了，一字没漏。",
+			say = "放心，我都幫妳記下來了，一字沒漏。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

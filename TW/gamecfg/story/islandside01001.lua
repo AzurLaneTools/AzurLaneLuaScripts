@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "入港的运输船队怎么全堵在入口了？我去协调一下！",
+			say = "入港的運輸船隊怎麼全堵在入口了？我去協調一下！",
 			animation = "doubt",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "订单好多……这可是好事！加班处理一下吧~",
-			subName = "订单管理员",
+			say = "訂單好多……這可是好事！加班處理一下~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -44,18 +44,18 @@ return {
 			}
 		},
 		{
-			say = "嗯嗯，整理完订单之后还要好好复盘……",
+			say = "嗯嗯，整理完訂單之後還要好好複盤……",
 			animation = "clap",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "争取做大做强，业绩再创新高！",
-			subName = "订单管理员",
+			say = "爭取做大做強，業績再創新高！",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			say = "（帕特莉看起来干劲十足，是真的很喜欢这份工作。）",
+			say = "（帕特莉看起來很幹勁十足，是真的很喜歡這份工作。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "（岛屿港口内的大小事务，都处理得滴水不漏。）",
+			say = "（島嶼港口內的大小事務，都處理得滴水不漏。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			say = "（不过，持续进行这种高强度脑力工作，需要各方面支持。）",
+			say = "（不過，持續進行這種高強度腦力工作，需要各方面支持。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			say = "（该怎么做，才能让她更舒适地投入她热爱的工作……）",
+			say = "（該怎麼做，才能讓她更舒適地投入她熱愛的工作……）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			say = "（唔……去和奥林匹克商量一下吧。）",
+			say = "（嗯……去跟奧林匹克商量一下吧。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "布莱梅，斯蒂芬妮的餐品已经送到了，不过她有个建议你要听听么？",
+			say = "布萊梅，史蒂芬妮的餐點已經送到了，不過她有個建議妳要聽聽看嗎？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -34,9 +34,9 @@ return {
 		},
 		{
 			animation = "doubt",
-			say = "建议？",
+			say = "建議？",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "就像刚才的欧姆蛋一样，我们把开发区产出的食材做成美食上架出售怎么样？",
+			say = "就像剛才的歐姆蛋一樣，我們把開發區產出的食材做成美食上架出售怎麼樣？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			say = "不错的建议呢，只是……目前开发区的食材供给还不太稳定。",
-			subName = "啾咖啡店员",
+			say = "不錯的建議呢，只是……目前開發區的食材供給還不太穩定。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			say = "嗯……确实是个问题，不过食材的事情就交给我吧。",
+			say = "嗯……確實是個問題，不過食材的事情就交給我吧。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			say = "虽然现阶段能售卖的餐品数量有限，但随着开发区的发展，不管是种类还是数量都会慢慢增多的。",
+			say = "雖然現階段能販售的餐點數量有限，但隨著開發區的發展，不管是種類還是數量都會慢慢增加的。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -77,10 +77,10 @@ return {
 			}
 		},
 		{
-			say = "嗯，那指挥官可以先把现有的食材做成餐品上架销售，我们慢慢来就好。",
+			say = "嗯，那指揮官可以先把現有的食材做成餐點上架銷售，我們慢慢來就好。",
 			animation = "clap",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "好，我这就去把之前做的欧姆蛋统统上架。",
+			say = "好，我這就去把之前做的歐姆蛋統統上架。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

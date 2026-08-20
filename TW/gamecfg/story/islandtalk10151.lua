@@ -20,7 +20,7 @@ return {
 	scripts = {
 		{
 			subName = "神秘商人",
-			say = "我这里的东西……可不便宜哦~",
+			say = "我這裡的東西……可不便宜哦~",
 			characterId = 101500,
 			animation = "amaze",
 			face2Face = {

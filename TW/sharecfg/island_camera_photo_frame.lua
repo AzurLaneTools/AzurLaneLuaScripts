@@ -18,11 +18,11 @@ pg.base.island_camera_photo_frame = {}
 
 (function ()
 	pg.base.island_camera_photo_frame[1001] = {
-		name = "默认",
+		name = "預設",
 		rarity = 2,
 		farme_path = "photo_frame_default",
 		frameTfName = "IslandDefaultFrame",
-		desc = "获得后可以在相机功能中解锁默认相框",
+		desc = "獲得後可以在相機功能中解鎖預設相框",
 		unlock_text = "",
 		id = 1001,
 		icon = "Props/drom3d_camera1002",
@@ -34,12 +34,12 @@ pg.base.island_camera_photo_frame = {}
 		}
 	}
 	pg.base.island_camera_photo_frame[1002] = {
-		name = "视频",
+		name = "影片",
 		rarity = 2,
 		farme_path = "photo_frame_vcr",
 		frameTfName = "IslandVcrFrame",
-		desc = "获得后可以在相机功能中解锁视频相框",
-		unlock_text = "天狼星契合度1级解锁",
+		desc = "獲得後可以在相機功能中解鎖影片相框",
+		unlock_text = "天狼星契合度1級解鎖",
 		id = 1002,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_vcr_small",
@@ -58,8 +58,8 @@ pg.base.island_camera_photo_frame = {}
 		rarity = 2,
 		farme_path = "photo_frame_counterfoil",
 		frameTfName = "IslandCounterfoilFrame",
-		desc = "获得后可以在相机功能中解锁票根相框",
-		unlock_text = "天狼星契合度5级解锁",
+		desc = "獲得後可以在相機功能中解鎖票根相框",
+		unlock_text = "天狼星契合度5級解鎖",
 		id = 1003,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_counterfoil_small",
@@ -78,8 +78,8 @@ pg.base.island_camera_photo_frame = {}
 		rarity = 3,
 		farme_path = "photo_frame_polaroid",
 		frameTfName = "IslandInstantFrame",
-		desc = "获得后可以在相机功能中解锁拍立得相框",
-		unlock_text = "天狼星契合度7级解锁",
+		desc = "獲得後可以在相機功能中解鎖拍立得相框",
+		unlock_text = "天狼星契合度7級解鎖",
 		id = 1004,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_polaroid_small",
@@ -98,8 +98,8 @@ pg.base.island_camera_photo_frame = {}
 		rarity = 3,
 		farme_path = "photo_frame_card",
 		frameTfName = "IslandCardInstantFrame",
-		desc = "获得后可以在相机功能中解锁卡片相框",
-		unlock_text = "天狼星契合度12级解锁",
+		desc = "獲得後可以在相機功能中解鎖卡片相框",
+		unlock_text = "天狼星契合度12級解鎖",
 		id = 1005,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_card_small",
@@ -114,12 +114,12 @@ pg.base.island_camera_photo_frame = {}
 		}
 	}
 	pg.base.island_camera_photo_frame[1006] = {
-		name = "格调风向",
+		name = "格調風向",
 		rarity = 3,
 		farme_path = "photo_frame_ins",
 		frameTfName = "IslandInsFrame",
-		desc = "获得后可以在相机功能中解锁格调风向相框",
-		unlock_text = "能代契合度5级解锁",
+		desc = "獲得後可以在相機功能中解鎖格調風向相框",
+		unlock_text = "能代契合度5級解鎖",
 		id = 1006,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_ins_small",
@@ -134,12 +134,12 @@ pg.base.island_camera_photo_frame = {}
 		}
 	}
 	pg.base.island_camera_photo_frame[1007] = {
-		name = "胶片质感",
+		name = "膠片質感",
 		rarity = 3,
 		farme_path = "photo_frame_film",
 		frameTfName = "IslandFilmFrame",
-		desc = "获得后可以在相机功能中解锁胶片质感相框",
-		unlock_text = "能代契合度13级解锁",
+		desc = "獲得後可以在相機功能中解鎖膠片質感相框",
+		unlock_text = "能代契合度13級解鎖",
 		id = 1007,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_film_small",
@@ -154,12 +154,12 @@ pg.base.island_camera_photo_frame = {}
 		}
 	}
 	pg.base.island_camera_photo_frame[1008] = {
-		name = "雅致胡桃",
+		name = "雅緻胡桃",
 		rarity = 3,
 		farme_path = "photo_frame_Wood",
 		frameTfName = "IslandWoodFrame",
-		desc = "获得后可以在相机功能中解锁雅致胡桃相框",
-		unlock_text = "{namecode:199}5级解锁",
+		desc = "獲得後可以在相機功能中解鎖雅緻胡桃相框",
+		unlock_text = "{namecode:199}5級解鎖",
 		id = 1008,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_Wood_small",
@@ -174,12 +174,12 @@ pg.base.island_camera_photo_frame = {}
 		}
 	}
 	pg.base.island_camera_photo_frame[1009] = {
-		name = "镜头感",
+		name = "鏡頭感",
 		rarity = 3,
 		farme_path = "photo_frame_Focus",
 		frameTfName = "IslandFocusFrame",
-		desc = "获得后可以在相机功能中解锁镜头感相框",
-		unlock_text = "{namecode:199}契合度13级解锁",
+		desc = "獲得後可以在相機功能中解鎖鏡頭感相框",
+		unlock_text = "{namecode:199}契合度13級解鎖",
 		id = 1009,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_Focus_small",

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官你来啦，快看！店铺已经按计划建好了，现在只差最关键的……",
+			say = "指揮官你來啦，快看！店鋪已經照計劃建好了，現在只差最關鍵的……",
 			animation = "hi",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "能够吸引大家到来的餐品了！",
-			subName = "商区管理员",
+			say = "能夠吸引大家到來的餐點了！",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，你说得对，店铺修得再漂亮也没法填饱大家的肚子。",
+			say = "嗯，妳說得對，店鋪修得再漂亮也沒辦法填飽大家的肚子。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "所以我已经准备好了充足的、能够满足大家味蕾的食物。",
+			say = "所以我已經準備好了充足的、能夠滿足大家味蕾的食物。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -62,16 +62,16 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "那接下来只要把它们都上架就好了。",
+			say = "那接下來只要把它們都上架就好了。",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，交给我就好。",
+			say = "嗯，交給我就好。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

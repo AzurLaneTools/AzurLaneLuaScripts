@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "乖~新鲜牧草来啦！",
+			say = "乖~新鮮牧草來啦！",
 			characterId = 100500
 		}
 	}

@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "布莉缇，你在这里做什么呢？",
+			say = "布莉緹，妳在這裡做什麼？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "呜喵！是指挥官呀，我正在观察今天的鱼群呢！",
+			say = "嗚喵！是指揮官呀，我正在觀察今天的魚群呢！",
 			animation = "hi",
 			characterId = 101800,
-			subName = "渔场管理员",
+			subName = "漁場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "你看这里，有好多鱼儿在水下游曳，是不是特别漂亮？",
-			subName = "渔场管理员",
+			say = "你看這裡，有好多魚兒在水下游曳，是不是特別漂亮？",
+			subName = "漁場管理員",
 			characterId = 101800,
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "是很漂亮，但是……总觉得，你眼中的光带着渴望……",
+			say = "是很漂亮，但是……總覺得，你眼中的光帶著渴望……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -60,18 +60,18 @@ return {
 			}
 		},
 		{
-			say = "（吸溜~）嘿嘿……指挥官这里是我新开起来的渔场呜喵！所以有很多鱼哦！",
+			say = "（吸溜~）嘿嘿……指揮官這裡是我新開起來的漁場嗚喵！所以有很多魚哦！",
 			animation = "elation",
 			characterId = 101800,
-			subName = "渔场管理员",
+			subName = "漁場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "顺便偷偷告诉指挥官，开发区有很多可以钓鱼的地方~指挥官都可以去看看呜喵！",
-			subName = "渔场管理员",
+			say = "順便偷偷告訴指揮官，開發區有很多可以釣魚的地方~指揮官都可以去看看嗚喵！",
+			subName = "漁場管理員",
 			characterId = 101800,
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			say = "说不定可以大丰收，收获好多鱼~！",
-			subName = "渔场管理员",
+			say = "說不定可以大豐收，收穫好多魚~！",
+			subName = "漁場管理員",
 			characterId = 101800,
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			say = "然后就立刻放到我的渔场里来吧呜喵！我超期待指挥官的成果呜喵！",
-			subName = "渔场管理员",
+			say = "然後就立刻放到我的漁場裡來吧嗚喵！我超期待指揮官的成果嗚喵！",
+			subName = "漁場管理員",
 			characterId = 101800,
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			say = "如果说，我把自己的钓鱼成果放在你的渔场里养，会被你即刻烹制吗？",
+			say = "如果說，我把自己的釣魚成果放在你的漁場裡養，會被你即刻烹調嗎？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -105,28 +105,28 @@ return {
 			}
 		},
 		{
-			say = "怎么会呜喵！我、我可是专业的，不仅能帮指挥官解答钓鱼相关的问题，还能教大家钓鱼呢！",
+			say = "怎麼會嗚喵！我、我可是專業的，不僅能幫指揮官解答釣魚相關的問題，還能教大家釣魚呢！",
 			animation = "amaze",
 			characterId = 101800,
-			subName = "渔场管理员",
+			subName = "漁場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "喏~我这里有一副鱼竿，指挥官先去附近可以钓鱼的地方试试吧！",
+			say = "喏~我這裡有一副釣竿，指揮官先去附近可以釣魚的地方試試吧！",
 			animation = "nod",
 			characterId = 101800,
-			subName = "渔场管理员",
+			subName = "漁場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "如果手生的话，我可是会从甩竿到收线，一步一步教你的！",
-			subName = "渔场管理员",
+			say = "如果手生的話，我可是會從甩竿到收線，一步一步教你的！",
+			subName = "漁場管理員",
 			characterId = 101800,
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			say = "等指挥官满载而归，就可以把鱼带到我的渔场里来咯~",
-			subName = "渔场管理员",
+			say = "等指揮官滿載而歸，就可以把魚帶到我的漁場裡來了~",
+			subName = "漁場管理員",
 			characterId = 101800,
 			typewriter = {
 				speed = 0.05,

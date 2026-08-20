@@ -19,8 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "看着这些圆润透亮的柑橘，突然就感觉这些劳累都值得了……",
-			subName = "果园管理员",
+			say = "看著這些圓潤透亮的柑橘，突然就覺得這些勞累都值得了……",
+			subName = "果園管理員",
 			characterId = 101100,
 			animation = "elation",
 			face2Face = {
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官要尝尝吗？",
-			subName = "果园管理员",
+			say = "指揮官要嚐嚐嗎？",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "等事情都解决完，我们再一起吃吧。",
+			say = "等事情都解決完，我們再一起吃吧。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -53,9 +53,9 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯嗯！那就听指挥官的！",
+			say = "嗯嗯！那就聽聽指揮官的！",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,17 +63,17 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "对了，布莱梅刚刚发消息说她的柑橘储备不够了。",
+			say = "對了，布萊梅剛剛發訊息說她的柑橘儲備不夠了。",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "可以麻烦指挥官把这筐柑橘送过去吗？",
-			subName = "果园管理员",
+			say = "可以麻煩指揮官把這筐柑橘送過去嗎？",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,

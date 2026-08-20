@@ -25,7 +25,7 @@ return {
 		{
 			animation = "hi",
 			characterId = 0,
-			say = "拉科尼娅——这是刚去找来的蜂蜜，你看看。",
+			say = "拉科妮婭——這是剛去找來的蜂蜜，妳看看。",
 			face2Face = {
 				{
 					0,
@@ -45,17 +45,17 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯……金灿灿……好漂亮……",
+			say = "嗯……金燦燦……好漂亮……",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……很甜……很香……谢谢……它们很开心。",
-			subName = "苗圃管理员",
+			say = "……很甜……很香……謝謝……它們很開心。",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -64,16 +64,16 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "哇哦——那这样我们岂不是可以开始种苹果了？",
+			say = "哇哦——那這樣我們豈不是可以開始種蘋果了？",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，理论上来说，这次应该可以结果了。",
+			say = "嗯，理論上來說，這次應該可以結果了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -82,16 +82,16 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "好耶！指挥官，那这个送给你！",
+			say = "好耶！指揮官，那這個送給你！",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这是……？",
+			say = "這是……？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			say = "苹果树的种子哦！",
-			subName = "果园管理员",
+			say = "蘋果樹的種子喔！",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -109,16 +109,16 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "是我从最好的苹果里挑出来的种子！指挥官要不要也试着种种看呢？",
+			say = "是我從最好的蘋果挑出來的種子！指揮官要不要也試著種種看呢？",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "种树？我可不懂这些……",
+			say = "種樹？我可不懂這些……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			say = "不懂没关系啦！我不也是连授粉都不知道吗？",
-			subName = "果园管理员",
+			say = "不懂沒關係！我不也是連授粉都不知道嗎？",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -136,16 +136,16 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "……蜜蜂……也会喜欢……苹果花……",
+			say = "……蜜蜂……也會喜歡……蘋果花……",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "好吧……那我就当一回果农试试看！",
+			say = "好吧……那我就當一回果農試試看！",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

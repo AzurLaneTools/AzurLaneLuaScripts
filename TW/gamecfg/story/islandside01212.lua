@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "这样一来，所有事情就都暂时告一段落了？",
+			say = "這樣一來，所有事情就都暫時告一段落了？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			say = "嗯！现在我也能稍微闲下来做些自己想做的事啦！",
-			subName = "果园管理员",
+			say = "嗯！現在我也能稍微閒下來做些自己想做的事！",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -42,17 +42,17 @@ return {
 			}
 		},
 		{
-			say = "比如说……这个！",
+			say = "比如說……這個！",
 			animation = "elation",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这是……布莱梅送来的柑橘咖啡？",
+			say = "這是……布萊梅送來的柑橘咖啡？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			say = "没错哟，指挥官！",
-			subName = "果园管理员",
+			say = "沒錯喲，指揮官！",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -69,18 +69,18 @@ return {
 			}
 		},
 		{
-			say = "我们不是说好了嘛，工作结束后要一起分享的！",
+			say = "我們不是說好了嘛，工作結束後要一起分享的！",
 			animation = "clap",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "所以……请尽情享用它吧，指挥官！",
-			subName = "果园管理员",
+			say = "所以……請盡情享用它吧，指揮官！",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,

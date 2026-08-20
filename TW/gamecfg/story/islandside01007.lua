@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官，您回来啦。梅莉是怎么说的？",
+			say = "指揮官，您回來啦。梅莉是怎麼說的？",
 			animation = "curious",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			face2Face = {
 				{
 					0,
@@ -37,25 +37,25 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "向布莱梅转述了梅莉的秘诀……",
+			say = "向布萊梅轉述了梅莉的秘訣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……哈哈~这确实是梅莉的风格呢。",
+			say = "……哈哈~這確實是梅莉的風格呢。",
 			animation = "happy",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过，确实不太适合帕特莉啊。",
-			subName = "啾咖啡店员",
+			say = "不過，確實不太適合帕特莉啊。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			say = "看来需要想想别的办法了……",
+			say = "看來需要想想別的辦法了……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -71,18 +71,18 @@ return {
 			}
 		},
 		{
-			say = "嗯……我好像，有灵感了。",
+			say = "嗯……我好像，有靈感了。",
 			animation = "idea",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "运动之后，很多人都会喝那种恢复体力的饮料，对吧？",
-			subName = "啾咖啡店员",
+			say = "運動之後，很多人都會喝那種恢復體力的飲料，對吧？",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			say = "你是说……能量特调？",
+			say = "妳是說……能量特調？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			say = "是的。提神、补充精力……这个思路说不定能行呢。",
-			subName = "啾咖啡店员",
+			say = "是的。提神、補充精力……這個思路說不定能行。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			say = "我来试着调配一下吧~",
-			subName = "啾咖啡店员",
+			say = "我來試著調配一下~",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -117,18 +117,18 @@ return {
 			}
 		},
 		{
-			say = "嗯……果汁基底……还有蜂蜜……",
+			say = "嗯……果汁基底……還有蜂蜜………",
 			animation = "think",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "对了，还有最重要的胡萝卜汁！",
-			subName = "啾咖啡店员",
+			say = "對了，還有最重要的胡蘿蔔汁！",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -137,17 +137,17 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "能量特调的配方完成啦~现在就试做一下吧。",
+			say = "能量特調的配方完成囉~現在就試做一下吧。",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "咦，胡萝卜……",
-			subName = "啾咖啡店员",
+			say = "咦，胡蘿蔔……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -156,17 +156,17 @@ return {
 		},
 		{
 			animation = "sad",
-			say = "指挥官，店里的胡萝卜正好用完了。",
+			say = "指揮官，店裡的胡蘿蔔剛好用完了。",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "可以拜托您带一些回来吗？",
-			subName = "啾咖啡店员",
+			say = "可以拜託您帶一些回來嗎？",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			say = "交给我吧。",
+			say = "交給我吧。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -184,17 +184,17 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "如果是新鲜的胡萝卜就最好啦。",
+			say = "如果是新鮮的胡蘿蔔就最好啦。",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那就麻烦您啦，指挥官。",
-			subName = "啾咖啡店员",
+			say = "那就麻煩您啦，指揮官。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,

@@ -12,11 +12,11 @@ pg.base.island_manage_event = {}
 
 (function ()
 	pg.base.island_manage_event[1] = {
-		name = "啾啾旅行团",
+		name = "啾啾旅行團",
 		influence_bonus = 10,
 		id = 1,
 		banner = 0,
-		desc = "啾啾旅行团拜访岛屿开发区，在$1订餐",
+		desc = "啾啾旅行團拜訪島嶼開發區，在$1訂餐",
 		event_effect = {
 			{
 				10,
@@ -25,11 +25,11 @@ pg.base.island_manage_event = {}
 		}
 	}
 	pg.base.island_manage_event[2] = {
-		name = "健康开发日",
+		name = "健康開發日",
 		influence_bonus = 20,
 		id = 2,
 		banner = 0,
-		desc = "岛屿开发团队准备一起在$1聚餐",
+		desc = "島嶼開發團隊準備一起在$1聚餐",
 		event_effect = {
 			{
 				20,
@@ -38,11 +38,11 @@ pg.base.island_manage_event = {}
 		}
 	}
 	pg.base.island_manage_event[3] = {
-		name = "美食评审",
+		name = "美食評審",
 		influence_bonus = 30,
 		id = 3,
 		banner = 0,
-		desc = "今日的岛屿最佳美食已经选出，快去$1尝尝吧",
+		desc = "今日的島嶼最佳美食已經選出，快去$1嚐嚐吧",
 		event_effect = {
 			{
 				30,

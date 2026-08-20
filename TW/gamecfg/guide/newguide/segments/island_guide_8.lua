@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击科研项目打开研发面板",
+				text = "點擊科研項目打開研發面板",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -22,7 +22,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击开始研发，可进行岛屿科技的研发工作",
+				text = "點擊開始研發，可進行島嶼科技的研發工作",
 				mode = 2,
 				char = 1,
 				posY = -320,
@@ -39,7 +39,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击确认按钮",
+				text = "點擊確認按鈕",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -67,7 +67,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "可以使用快速生产券对研发工作进行加速",
+				text = "可以使用加速卷對研發工作進行加速",
 				mode = 2,
 				char = 1,
 				posY = -240,

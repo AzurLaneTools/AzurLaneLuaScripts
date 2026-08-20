@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "嗯……货运中心里怎么一个人都没有？",
+			say = "嗯……貨運中心裡怎麼一個人都沒有？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "倒是各种资材都快堆积成山了……",
+			say = "倒是各種資材都快堆積成山了……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			say = "斯蒂芬妮……她总不会是偷懒去了吧？",
+			say = "史蒂芬妮……她總不會是偷懶去了吧？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，也可能是有什么要紧的事，先去附近找找看吧。",
+			say = "嗯，也可能是有什麼要緊的事，先去附近找找看吧。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

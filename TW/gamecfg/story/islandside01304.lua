@@ -21,7 +21,7 @@ return {
 		{
 			animation = "talk",
 			characterId = 0,
-			say = "帕特莉，如果现在订购薰衣草肥料的话，大概要多久可以到货？",
+			say = "帕特莉，如果現在訂購薰衣草肥料的話，大概要多久可以到貨？",
 			face2Face = {
 				{
 					0,
@@ -34,10 +34,10 @@ return {
 			}
 		},
 		{
-			say = "薰衣草肥料对吧……帕特莉这就帮指挥官查一查~",
+			say = "薰衣草肥料對吧……帕特莉這就幫指揮官查一查~",
 			animation = "talk",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 		},
 		{
 			say = "唔，糟糕……",
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -54,16 +54,16 @@ return {
 		},
 		{
 			animation = "embarrass",
-			say = "最近薰衣草肥料缺货了，可能得等上一个月才行……",
+			say = "最近薰衣草肥料缺貨了，可能得等上一個月才行……",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那样的话完全来不及……",
+			say = "那樣的話完全來不及……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			say = "不过，如果指挥官你着急需要的话……",
-			subName = "订单管理员",
+			say = "不過，如果指揮官你著急需要的話……",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -80,18 +80,18 @@ return {
 			}
 		},
 		{
-			say = "我倒是知道一个地方可能会有薰衣草肥料哦！",
+			say = "我倒是知道一個地方可能會有薰衣草肥料哦！",
 			animation = "idea",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "货运中心那边里，堆放了许多无人认领的货物……在哪里说不定能找到肥料！",
-			subName = "订单管理员",
+			say = "貨運中心那邊裡，堆放了許多無人認領的貨物……在哪裡說不定能找到肥料！",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			say = "这是最后的机会么……我马上就去。",
+			say = "這是最後的機會嗎……我馬上就去。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -107,10 +107,10 @@ return {
 			}
 		},
 		{
-			say = "要是找到了的话，记得要回来帕特莉这边登记哦~",
+			say = "要是找到了的話，記得要回來帕特莉這邊登記哦~",
 			animation = "bye",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

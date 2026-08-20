@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "帕特莉……画好了？",
+			say = "帕特莉……畫好了？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,17 +33,17 @@ return {
 			}
 		},
 		{
-			say = "画好啦~指挥官专属——码头上的搬运者，请验收！",
+			say = "畫好啦~指揮官專屬——碼頭上的搬運者，請驗收！",
 			animation = "nod",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯……画得真好，光影、动态、氛围都抓得很准。",
+			say = "嗯……畫得真好，光影、動態、氣氛都抓得很準。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			say = "对吧，而且抓住斯蒂芬妮努力工作的瞬间也很不容易哦~",
-			subName = "订单管理员",
+			say = "對吧，而且抓住史蒂芬妮努力工作的瞬間也很不容易哦~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			say = "嗯……为难你了。还是来看看画框吧，奥布莱恩的手艺如何？",
+			say = "嗯……為難妳了。還是來看看畫框吧，奧布萊恩的手藝如何？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -69,17 +69,17 @@ return {
 			}
 		},
 		{
-			say = "很漂亮呢~比我见过的很多成品都精致。",
+			say = "很漂亮呢~比我見過的很多成品都精緻。",
 			animation = "clap",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那把画装进去看看效果？",
+			say = "那把畫裝進去看看效果？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			say = "好，就交给指挥官了。",
-			subName = "订单管理员",
+			say = "好，就交給指揮官了。",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "果然，漂亮的画，就得配上同样漂亮的画框才完美。",
+			say = "果然，漂亮的畫，就得配上同樣漂亮的畫框才完美。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -105,17 +105,17 @@ return {
 			}
 		},
 		{
-			say = "嘿嘿~指挥官就这么喜欢我的画吗？",
+			say = "嘿嘿~指揮官就這麼喜歡我的畫嗎？",
 			animation = "shy",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "当然，画得好，意义也很好。",
+			say = "當然，畫得好，意義也很好。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -123,18 +123,18 @@ return {
 			}
 		},
 		{
-			say = "那么~这幅倾注了本画家心血、并由指挥官大人亲自装帧的杰作……就免费送给指挥官了哦！",
+			say = "那麼~這幅傾注了本畫家心血、並由指揮官大人親自裝幀的傑作……就免費送給指揮官了哦！",
 			animation = "nod",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过……指挥官不打算表示点什么吗？",
-			subName = "订单管理员",
+			say = "不過……指揮官不打算表示點什麼嗎？",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			say = "你想要什么？咖啡？还是点心？",
+			say = "妳想要什麼？咖啡？還是點心？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -150,18 +150,18 @@ return {
 			}
 		},
 		{
-			say = "那就等我把这点收尾工作弄完……指挥官和我一起去啾咖啡舒舒服服地坐着怎么样？",
+			say = "那就等我把這點收尾工作弄完……指揮官和我一起去啾咖啡舒舒服服地坐著怎麼樣？",
 			animation = "clap",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "忙完正事，就该享受下悠闲的时光嘛。",
-			subName = "订单管理员",
+			say = "忙完正事，就該享受下悠閒的時光嘛。",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -169,17 +169,17 @@ return {
 			}
 		},
 		{
-			say = "啊，对了！差点忘了，先把这个给指挥官。",
+			say = "啊，對了！差點忘了，先把這個給指揮官。",
 			animation = "amaze",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这是什么？好硬，冰凉凉的……像某种处理过的皮子？还是特制的厚纸？",
+			say = "這是什麼？好硬，冰涼涼的……像某種處理過的皮料？還是特製的厚紙？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -187,18 +187,18 @@ return {
 			}
 		},
 		{
-			say = "这是我在整理码头那堆刚到的货物时发现的哦~",
+			say = "這是我在整理碼頭那堆剛到的貨物時發現的哦~",
 			animation = "talk",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "夹在木箱缝隙里，至于有什么用……帕特莉也不知道哦~",
-			subName = "订单管理员",
+			say = "夾在木箱縫隙裡，至於有什麼用……帕特莉也不知道喔~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			say = "不过嘛，我拿着它的时候，总觉得……指挥官可能会用得上呢~",
-			subName = "订单管理员",
+			say = "不過嘛，我拿著它的時候，總覺得……指揮官可能會用得上呢~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			say = "艺术家的直觉么？上面也全是些深褐色的线条……画得歪歪扭扭的，像是地图又像是某种符号……完全看不懂。",
+			say = "藝術家的直覺嗎？上面也全是些深褐色的線條……畫得歪歪扭扭的，像是地圖又像是某種符號……完全看不懂。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			say = "不过帕特莉都这么说了……那我就先收下吧。",
+			say = "不過帕特莉都這麼說了……那我就先收下吧。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

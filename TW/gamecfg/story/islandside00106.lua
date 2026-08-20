@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "乔安，你没事吧？",
+			say = "喬安，妳沒事吧？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "指、指挥官！你来了！呜呜呜……",
+			say = "指、指揮官！你來了！嗚嗚嗚……",
 			animation = "scare",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "刚刚吓死我了！",
-			subName = "矿山管理员",
+			say = "剛剛嚇死我了！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			say = "矿山的铁轨！固定轨道的钉子好像松脱了！",
-			subName = "矿山管理员",
+			say = "礦山的鐵軌！固定軌道的釘子好像鬆脫了！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -61,17 +61,17 @@ return {
 			}
 		},
 		{
-			say = "我的矿车装满了矿石，走到这里的时候……嘭！的一声就从高处掉下来了！铁轨也被压弯了！",
+			say = "我的礦車裝滿了礦石，走到這裡的時候……嘭！的一聲就從高處掉下來了！鐵軌也被壓彎了！",
 			animation = "talk",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "有受伤么？",
+			say = "有受傷嗎？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -79,18 +79,18 @@ return {
 			}
 		},
 		{
-			say = "没有，我没问题！就是吓了一跳！",
+			say = "沒有，我沒問題！就是嚇了一跳！",
 			animation = "shakehead",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "可是铁轨坏了该怎么办啊……今天还有好几车矿石要运出来呢，工作要做不完了，完蛋了完蛋了！",
-			subName = "矿山管理员",
+			say = "可是鐵軌壞了該怎麼辦啊……今天還有好幾車礦石要運出來呢，工作要做不完了，完蛋了完蛋了！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -98,17 +98,17 @@ return {
 			}
 		},
 		{
-			say = "呜呜呜……指挥官的开发计划会不会因为我而停滞啊~",
+			say = "嗚嗚嗚……指揮官的開發計劃會不會因為我而停滯~",
 			animation = "weep",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……不用担心，先找找可以替换的。",
+			say = "……不用擔心，先找可以替換的。",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			}
 		},
 		{
-			say = "对哦！坏掉的只是这一小段……只要拼上，就可以让矿车临时工作了！",
-			subName = "矿山管理员",
+			say = "對哦！壞掉的只是這一小段……只要拼上，就可以讓礦車臨時工作了！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -126,17 +126,17 @@ return {
 			}
 		},
 		{
-			say = "啊！我知道了！可以用木头！",
+			say = "啊！我知道了！可以用木頭！",
 			animation = "idea",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "用木头做轨道？",
+			say = "用木頭做軌道？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			say = "可以的！之前就用过！",
-			subName = "矿山管理员",
+			say = "可以的！之前就用過！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			say = "那我去找找合适的木头。",
+			say = "那我去找找合適的木頭。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

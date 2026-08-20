@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "左侧的计划栏会显示进行中的计划与目标，点击查看详细的计划内容",
+				text = "左側的計劃欄會顯示進行中的計劃與目標點擊查看詳細的計劃內容",
 				mode = 2,
 				char = 1,
 				posY = 200,
@@ -28,7 +28,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "这里会显示详细的计划内容和目标位置，点击前往完成能够追踪当前计划目标",
+				text = "這裡會顯示詳細的計劃內容和目標位置點擊前往完成能夠追蹤當前計劃目標",
 				mode = 2,
 				char = 1,
 				posY = -200,
@@ -47,7 +47,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击返回按钮，继续完成当前计划",
+				text = "點擊返回按鈕，繼續完成當前計劃",
 				mode = 2,
 				char = 1,
 				posY = 300,

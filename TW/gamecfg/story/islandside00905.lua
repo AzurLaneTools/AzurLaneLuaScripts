@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "斯蒂芬妮，那个神秘委托完成了。",
+			say = "史蒂芬妮，那個神秘委託完成了。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,27 +33,27 @@ return {
 			}
 		},
 		{
-			say = "哦哦！不愧是指挥官，即使是处理这种神秘委托也不在话下啊！",
+			say = "哦哦！不愧是指揮官，就算是處理這種神秘委託也不在話下啊！",
 			animation = "clap",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "所以所以，这到底是个什么委托呀！",
+			say = "所以所以，這到底是個什麼委託呀！",
 			animation = "curious",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "和订单上写的一样，确实就是个货运委托。",
+			say = "和訂單上寫的一樣，確實就是貨運委託。",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "详细的情况，等晚点{namecode:98:明石}过来你问她就好。",
+			say = "詳細的情況，等晚點明石過來妳問她就好。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -70,18 +70,18 @@ return {
 			}
 		},
 		{
-			say = "哦哦，原来运输对象是{namecode:98:明石}啊，怪不得这么神秘……",
+			say = "哦哦，原來運輸對象是明石啊，怪不得這麼神秘…",
 			animation = "think",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那我就先给指挥官记录任务完成啦~",
-			subName = "货运管理员",
+			say = "那我就先幫指揮官紀錄任務完成啦~",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,

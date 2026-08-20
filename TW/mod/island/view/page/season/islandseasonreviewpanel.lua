@@ -44,6 +44,8 @@ end
 slot0.Show = function(slot0)
 	slot0.super.Show(slot0)
 	slot0:Flush(slot0.newestId)
+	IslandSeasonRedDotHelper.UpdateEnterReview()
+	slot0:emit(IslandSeasonPage.UPDATE_REDDOT, IslandSeasonPage.PAGE_REVIEW)
 end
 
 slot0.Hide = function(slot0)

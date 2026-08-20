@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "钓鱼！可要稳稳当当的才好！",
+			say = "釣魚！可要穩穩當當的才好！",
 			characterId = 101800
 		}
 	}

@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "这里面……好像有什么声音？",
+			say = "這裡面……好像有什麼聲音？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,16 +12,16 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "嗯……外面的世界，总是充满意外的喧嚣呢……",
+			say = "嗯……外面的世界，總是充滿意外的喧囂呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……你好？",
+			say = "……妳好？",
 			animation = "hi",
 			characterId = 0,
 			typewriter = {
@@ -30,27 +30,27 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "指挥官真厉害……即便面对这样不同寻常的对话方式，也能保持镇定。",
+			say = "指揮官真厲害……即便面對這樣不尋常的對話方式，也能保持鎮定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "不过……这里的蜜蜂，数量实在有点多呢……",
+			say = "不過……這裡的蜜蜂，數量實在有點多呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "指挥官，愿意做一笔小小的“清净交易”吗？",
+			say = "指揮官，願意做一筆小小的「清淨交易」嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

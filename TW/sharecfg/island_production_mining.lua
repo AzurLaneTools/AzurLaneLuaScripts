@@ -29,140 +29,140 @@ pg.base.island_production_mining = {}
 
 (function ()
 	pg.base.island_production_mining[40101] = {
-		name = "矿石采集点1",
+		name = "礦石採集點1",
 		slotId = 2001,
 		id = 40101,
 		objId = 10040003,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40102] = {
-		name = "矿石采集点2",
+		name = "礦石採集點2",
 		slotId = 2002,
 		id = 40102,
 		objId = 10040004,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40103] = {
-		name = "矿石采集点3",
+		name = "礦石採集點3",
 		slotId = 2003,
 		id = 40103,
 		objId = 10040005,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40104] = {
-		name = "矿石采集点4",
+		name = "礦石採集點4",
 		slotId = 2004,
 		id = 40104,
 		objId = 10040006,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40105] = {
-		name = "矿石采集点5",
+		name = "礦石採集點5",
 		slotId = 2006,
 		id = 40105,
 		objId = 10040007,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40106] = {
-		name = "矿石采集点6",
+		name = "礦石採集點6",
 		slotId = 2007,
 		id = 40106,
 		objId = 10040008,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40107] = {
-		name = "矿石采集点7",
+		name = "礦石採集點7",
 		slotId = 2008,
 		id = 40107,
 		objId = 10040070,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40108] = {
-		name = "矿石采集点8",
+		name = "礦石採集點8",
 		slotId = 2009,
 		id = 40108,
 		objId = 10040071,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40109] = {
-		name = "矿石采集点9",
+		name = "礦石採集點9",
 		slotId = 2010,
 		id = 40109,
 		objId = 10040072,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40110] = {
-		name = "任务矿石采集点1",
+		name = "任務礦石採集點1",
 		slotId = 2005,
 		id = 40110,
 		objId = 10040030,
 		unlock_type = 2
 	}
 	pg.base.island_production_mining[40201] = {
-		name = "树木采集点1",
+		name = "樹木採集點1",
 		slotId = 2011,
 		id = 40201,
 		objId = 10040017,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40202] = {
-		name = "树木采集点2",
+		name = "樹木採集點2",
 		slotId = 2012,
 		id = 40202,
 		objId = 10040018,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40203] = {
-		name = "树木采集点3",
+		name = "樹木採集點3",
 		slotId = 2013,
 		id = 40203,
 		objId = 10040019,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40204] = {
-		name = "树木采集点4",
+		name = "樹木採集點4",
 		slotId = 2014,
 		id = 40204,
 		objId = 10040020,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40205] = {
-		name = "树木采集点5",
+		name = "樹木採集點5",
 		slotId = 2016,
 		id = 40205,
 		objId = 10040073,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40206] = {
-		name = "树木采集点6",
+		name = "樹木採集點6",
 		slotId = 2017,
 		id = 40206,
 		objId = 10040074,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40207] = {
-		name = "树木采集点7",
+		name = "樹木採集點7",
 		slotId = 2018,
 		id = 40207,
 		objId = 10040075,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40208] = {
-		name = "树木采集点8",
+		name = "樹木採集點8",
 		slotId = 2019,
 		id = 40208,
 		objId = 10040076,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40209] = {
-		name = "树木采集点9",
+		name = "樹木採集點9",
 		slotId = 2020,
 		id = 40209,
 		objId = 10040077,
 		unlock_type = 0
 	}
 	pg.base.island_production_mining[40210] = {
-		name = "任务树木采集点10",
+		name = "任務樹木採集點10",
 		slotId = 2015,
 		id = 40210,
 		objId = 10040040,

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "呼……真是帮大忙了……",
+			say = "呼……真是幫大忙了……",
 			animation = "rest",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "谢谢指挥官，也帮我转达对露西的感谢。",
-			subName = "啾咖啡店员",
+			say = "謝謝指揮官，也幫我轉達對露西的感謝。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -44,18 +44,18 @@ return {
 			}
 		},
 		{
-			say = "然后……虽然称不上是什么回礼……",
+			say = "然後……雖然稱不上是什麼回禮……",
 			animation = "shy",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "但请指挥官和露西一起享用这几杯柑橘咖啡吧！",
-			subName = "啾咖啡店员",
+			say = "但請指揮官和露西一起享用這幾杯柑橘咖啡吧！",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,

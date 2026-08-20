@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "奥布莱恩……",
+			say = "奧布萊恩……",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,17 +33,17 @@ return {
 			}
 		},
 		{
-			say = "指挥官……你没事吧？",
+			say = "指揮官……你沒事吧？",
 			animation = "curious",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "其实……产生那神秘嚎叫声的原因……找到了。",
+			say = "其實……產生那神秘嚎叫聲的原因……找到了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			say = "欸……是什么？",
-			subName = "林场管理员",
+			say = "欸……是什麼？",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			say = "是你堆放的那些木头。",
+			say = "是妳堆放的那些木頭。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -68,17 +68,17 @@ return {
 			}
 		},
 		{
-			say = "木……木头？",
+			say = "木……木頭？",
 			animation = "doubt",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯……你堆放的木材之间留有空隙，位置和形状又恰好合适。",
+			say = "嗯……妳堆放的木材之間留有空隙，位置和形狀又剛好合適。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			say = "风一吹过那些空隙，就会发出那种声音了，就像吹哨子一样。",
+			say = "風一吹過那些空隙，就會發出那種聲音了，就像吹哨子一樣。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -95,18 +95,18 @@ return {
 			}
 		},
 		{
-			say = "哈？！原来是木头堆放的空隙……造成的吗？",
+			say = "哈？！原來是木頭堆放的空隙……造成的嗎？",
 			animation = "amaze",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那种撕心裂肺的声音……竟然是我的木头发出的……",
-			subName = "林场管理员",
+			say = "那種撕心裂肺的聲音……竟然是我的木頭發出的……",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，是风在作怪。",
+			say = "嗯，是風在作怪。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -122,18 +122,18 @@ return {
 			}
 		},
 		{
-			say = "谢谢指挥官！我现在不会害怕了！",
+			say = "謝謝指揮官！我現在不會害怕了！",
 			animation = "clap",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "要把之前欠下的工作都给补上才行。",
-			subName = "林场管理员",
+			say = "要把之前欠下的工作都給補上才行。",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -142,7 +142,7 @@ return {
 		},
 		{
 			say = "加快加快加快！！快快快！",
-			subName = "林场管理员",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			}
 		},
 		{
-			say = "专注专注专注！！冲冲冲！",
-			subName = "林场管理员",
+			say = "專注專注專注！！衝沖衝！",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			say = "工作的时候意外很……有……精神……",
+			say = "工作的時候意外很……有……精神……",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -168,18 +168,18 @@ return {
 			}
 		},
 		{
-			say = "欸？指挥官……我只是需要提高效率，所以会……鼓励自己一下。",
+			say = "欸？指揮官……我只是需要提高效率，所以我會……鼓勵一下自己。",
 			animation = "embarrass",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "伐木真的是一件很能激发人精神的事情……您要试试吗？",
-			subName = "林场管理员",
+			say = "伐木真的是一件很能激勵人心的事情……您要試試嗎？",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，正好现在有空，我也来帮忙。",
+			say = "嗯，剛好現在有空，我也來幫忙。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

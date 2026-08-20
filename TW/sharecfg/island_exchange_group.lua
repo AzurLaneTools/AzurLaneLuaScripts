@@ -13,16 +13,16 @@ pg.base.island_exchange_group = {}
 		id = 1,
 		exchange_group = {
 			{
-				"淡水鱼",
+				"淡水魚",
 				1
 			},
 			{
-				"海水鱼",
+				"海水魚",
 				2
 			}
 		},
 		text = {
-			"鱼肉加工",
+			"魚肉加工",
 			"Fish processing",
 			"daoju"
 		}

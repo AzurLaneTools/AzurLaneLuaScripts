@@ -24,7 +24,7 @@ return {
 	scripts = {
 		{
 			characterId = 0,
-			say = "这……{namecode:98:明石}……你居然真把这里……改造成了工厂？",
+			say = "這……明石……妳居然真把這裡……改造成了工廠？",
 			face2Face = {
 				{
 					0,
@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			say = "嘿嘿，厉害吧喵？",
+			say = "嘿嘿，厲害吧喵？",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "这只是第一期工程喵！未来这里会布满生产线，日夜不息的喵！",
+			say = "這只是第一期工程喵！未來這裡會佈滿生產線，日夜不息的喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官？你来得正好！",
-			subName = "工厂管理员",
+			say = "指揮官？你來得正好！",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -70,16 +70,16 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "材料都带来了吗？太好了，核心的传动装置就差最后这几样了！",
+			say = "材料都帶來了嗎？太好了，核心的傳動裝置就差最後這幾樣了！",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "萝莎，这……都是你设计的？",
+			say = "蘿莎，這……都是妳設計的？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -88,16 +88,16 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "当然！{namecode:98:明石}提供了场地……剩下的都是我一点点敲出来的。",
+			say = "當然！明石提供了場地……剩下的都是我一點點敲出來的。",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "有了这个，我们能做什么？",
+			say = "有了這個，我們能做什麼？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 		},
 		{
 			say = "能做的可就太多了！",
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -115,17 +115,17 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "看这里！等自动研磨机上线，农场的小麦、玉米进来，标准化的面粉、饲料颗粒直接输出！",
+			say = "看這裡！等自動研磨機上線，農場的小麥、玉米進來，標準化的麵粉、飼料顆粒直接輸出！",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "奥林匹克从早睡到晚都没问题！",
-			subName = "工厂管理员",
+			say = "奧林匹克從早睡到晚都沒問題！",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -134,17 +134,17 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "还有这里！矿石和木材进来，标准规格的建材预制件、甚至一些简单的工具都能直接产出！",
+			say = "還有這裡！礦石和木材進來，標準規格的建材預製件、甚至一些簡單的工具都能直接產出！",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "未来的话，等有了机床，制造合金、复合材料甚至简易的机械部件都没问题！",
-			subName = "工厂管理员",
+			say = "未來的話，等有了工具機，製造合金、複合材料甚至簡易的機械零件都沒問題！",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			say = "喵！还有还有！有了标准化的产品，开发区贸易量还能增加不少喵！",
+			say = "喵！還有還有！有了標準化的產品，開發區貿易量還能增加不少喵！",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			say = "我们可以把多余的面粉、饲料、甚至未来加工的合金都卖出去喵！",
+			say = "我們可以把多餘的麵粉、飼料、甚至未來加工的合金都賣出去喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，不愧是技术专家，这个工厂的前景听起来是很好。",
+			say = "嗯，不愧是技術專家，這個工廠的前景聽起來很好。",
 			animation = "clap",
 			characterId = 0,
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			say = "没错喵~等这些铁家伙全速开动起来，指挥官你那座债务大山……",
+			say = "沒錯喵~等這些鐵傢伙全速開動起來，指揮官你那座債務大山……",
 			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			say = "咳咳……我是说岛上那紧张的资金链，瞬间就能盘活喵！",
+			say = "咳咳……我是說島上那緊張的資金鏈，瞬間就能盤活喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			say = "金币……啊不，是繁荣！指日可待喵！",
+			say = "金幣……啊不，是繁榮！指日可待喵！",
 			animation = "talk",
 			characterId = 3120100,
 			typewriter = {
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			say = "呼……是啊，从一片荒滩，到农田牧场，再到这轰鸣的工厂……",
+			say = "呼……是啊，從一片荒灘，到農田牧場，再到這座轟鳴的工廠……",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 			}
 		},
 		{
-			say = "我们的岛屿开发区……这下，是真的从蓝图里一步步走出来了。",
+			say = "我們的島嶼開發區……這下，是真的從藍圖裡一步步走出來了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -222,17 +222,17 @@ return {
 		},
 		{
 			animation = "rest",
-			say = "嗯……真想早点看到，这片土地被工业的脉搏彻底唤醒，灯光彻夜不熄的那一天。",
+			say = "嗯……真想早點看到，這片土地被工業的脈動徹底喚醒，燈光徹夜不熄的那一天。",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那景象……一定比任何蓝图都要壮观。",
-			subName = "工厂管理员",
+			say = "那個景象……一定比任何藍圖都要壯觀。",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			say = "喵哈哈！到时候咱们可就真的吃喝不愁了喵！",
+			say = "喵哈哈！到時候我們可就真的吃喝不愁了喵！",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			say = "是啊，不过在那之前……还得把最后这几个螺栓拧紧才行。",
-			subName = "工厂管理员",
+			say = "是啊，不過在那之前……還得把最後這幾個螺栓擰緊才行。",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官，之后也请继续支持我们哦？",
-			subName = "工厂管理员",
+			say = "指揮官，之後也請繼續支持我們喔？",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			say = "当然。有你们在，这片天空下就没有实现不了的开发计划。",
+			say = "當然。有妳們在，這片天空下就沒有實現不了的開發計劃。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			say = "那就说定了喵！之后也要一起加油哦！",
+			say = "那就說定了喵！之後也要一起加油！",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -286,9 +286,9 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯，一起把这里变得……更加了不起吧！",
+			say = "嗯，一起把這裡變得……更加了不起吧！",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

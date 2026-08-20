@@ -294,19 +294,19 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970109",
+		banner = "meta_entrance_970708",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,
 			{
-				autoOpenShipConfigID = 970109
+				autoOpenShipConfigID = 970708
 			}
 		},
 		isShow = function ()
-			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970109) and slot1:isInAct()
+			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970708) and slot1:isInAct()
 		end,
 		isTip = function ()
-			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970109):isPassType() then
+			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970708):isPassType() then
 				return false
 			end
 
@@ -374,30 +374,35 @@ return {
 		end
 	},
 	{
-		banner = "activity_boss",
+		banner = "activity_escapemanor",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
-			SCENE.DOAReLINK_ISLAND,
+			SCENE.ACTIVITY,
 			{
-				id = 50811
+				id = 51073
 			}
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityById(50811) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(51073) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(51073))
 		end
 	},
 	{
-		banner = "activity_miniprogram",
+		banner = "activity_auction",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
-			SCENE.VOTEENTRANCE,
-			{}
+			SCENE.ACTIVITY,
+			{
+				id = 970002
+			}
 		},
 		isShow = function ()
-			return getProxy(ActivityProxy):getActivityById(1092) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(970002) and not slot0:isEnd()
 		end,
 		isTip = function ()
-			return false
+			return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(970002)) or Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(970003))
 		end
 	}
 }

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官你好呀~有什么需要吗？",
+			say = "指揮官你好呀~有什麼需要嗎？",
 			animation = "hi",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			face2Face = {
 				{
 					0,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "拉科尼娅告诉我，她订购的薰衣草肥料，一直没有送到……",
+			say = "拉科妮婭告訴我，她訂購的薰衣草肥料，一直沒有送到……",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "是遇到什么麻烦了？",
+			say = "是遇到什麼麻煩了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			say = "哦！我正打算去找她呢……",
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -61,18 +61,18 @@ return {
 			}
 		},
 		{
-			say = "我们运送货物经过农场的时候，突然冲出来好多奶牛！",
+			say = "我們運送貨物經過農場的時候，突然衝出來好多乳牛！",
 			animation = "talk",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "结果货物散落了一地……都混到一起了……",
-			subName = "货运管理员",
+			say = "結果貨物散落了一地……都混在一起了……",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			say = "拉科尼娅的肥料，很有可能也在里面。",
-			subName = "货运管理员",
+			say = "拉科妮婭的肥料，很有可能也在裡面。",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			say = "这样么……",
+			say = "這樣嗎……",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

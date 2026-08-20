@@ -65,7 +65,6 @@ pg.activity_link_button.get_id_list_by_name = {
 		117
 	},
 	event_core_2 = {
-		110,
 		131
 	},
 	event_dreamland = {
@@ -92,6 +91,7 @@ pg.activity_link_button.get_id_list_by_name = {
 	event_minigame = {
 		20,
 		108,
+		110,
 		122
 	},
 	event_old_act = {
@@ -453,7 +453,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[109] = {
-		param = "DreamTourCoreActivityUI",
+		param = "StarsCityCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -463,24 +463,21 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			50652
+			51086
 		}
 	}
 	pg.base.activity_link_button[110] = {
-		name = "event_core_2",
-		text_pic = "text_event_blackfriday",
+		param = "RapidSeasideCoreActivityUI",
+		name = "event_minigame",
+		text_pic = "text_event_core3",
 		type = 16,
-		pic = "event_blackfriday",
+		pic = "event_core3",
 		id = 110,
 		group_id = 2,
 		order = 2,
 		time = {
 			"default",
-			50234
-		},
-		param = {
-			"PSSCoreActivityUI",
-			"JINNIANDECUXIAOXINGSHISHI1"
+			51090
 		}
 	}
 	pg.base.activity_link_button[117] = {

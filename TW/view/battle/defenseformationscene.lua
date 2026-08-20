@@ -58,7 +58,7 @@ slot0.init = function(slot0)
 	end
 
 	slot0._attrFrame = slot0._blurLayer:Find("attr_frame")
-	slot0._cardTpl = slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
+	slot0._cardTpl = slot0._tf:Find("RectShipCardTpl")
 	slot0._cards = {
 		[TeamType.Main] = {},
 		[TeamType.Vanguard] = {}

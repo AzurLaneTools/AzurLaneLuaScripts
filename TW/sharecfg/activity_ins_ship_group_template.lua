@@ -3251,7 +3251,7 @@ end)()
 		name = "Hayaizo",
 		background = "",
 		sculpture = "daofeng_5",
-		nationality = 0,
+		nationality = 3,
 		type = 1,
 		sculpture_ii = ""
 	}

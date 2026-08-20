@@ -1124,7 +1124,7 @@ _G.pg.base.gametip.channel_name_5 = {
 
 
 _G.pg.base.gametip.channel_name_6 = {
-	tip = "岛屿"
+	tip = "島嶼"
 }
 
 
@@ -5286,7 +5286,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2026.5.14-2026.8.20</color>期間限時開放「{namecode:301}」的挑戰，在此期間指揮官可挑戰「{namecode:301}」累計其同步值獲取<color=#92fc63>「{namecode:301}」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2026.8.20-2026.11.19</color>期間限時開放「約克鎮·META」的挑戰，在此期間指揮官可挑戰「約克鎮·META」累計其同步值獲取<color=#92fc63>「約克鎮·META」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲取與解析
@@ -5307,7 +5307,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一個信標最多能允許累計30位指揮官進行挑戰
 
 5.戰鬥說明
-·挑戰信標{namecode:301}暫不可使用指揮喵與潛艇
+·挑戰信標約克鎮·META暫不可使用指揮喵與潛艇
 ·戰鬥結算時不會獲得經驗值，不會影響艦船心情值
 ·戰鬥中不可中途退出，如果出現網路波動導致掉線的情況：
 ①挑戰自己解析的信標時將會消耗40點石油(非第一次挑戰)，且不會計算已造成的傷害
@@ -5315,8 +5315,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境暢通</color>
 
 6.火力支援
-隨著信標{namecode:301}挑戰的進行，從第31天開始，即2026.6.13-2026.8.20期間，艦隊挑戰「{namecode:301}」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標{namecode:301}開放的日期增加，火力支援提供的傷害也會增加。
-※此支援只會在指揮官自己發現的信標{namecode:301}戰鬥中出現，每次挑戰均會觸發。]]
+隨著信標約克鎮·META挑戰的進行，從第31天開始，即2026.9.19-2026.11.19期間，艦隊挑戰「約克鎮·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標約克鎮·META開放的日期增加，火力支援提供的傷害也會增加。
+※此支援只會在指揮官自己發現的信標約克鎮·META戰鬥中出現，每次挑戰均會觸發。]]
 		}
 	}
 }
@@ -20913,9 +20913,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>資訊同步</color>
-·<color=#92fc63>2026.5.14-2026.8.20</color>期間限時開放「{namecode:301}」的「資訊同步」，通過「信標{namecode:301}」戰鬥獲取其同步值，達到一定同步值可以獲取<color=#92fc63>「{namecode:301}」角色</color>
+·<color=#92fc63>2026.8.20-2026.11.19</color>期間限時開放「約克鎮·META」的「資訊同步」，通過「信標約克鎮·META」戰鬥獲取其同步值，達到一定同步值可以獲取<color=#92fc63>「約克鎮·META」角色</color>
 ·獲得META角色後可以通過角色的<color=#92fc63>「資訊同步」</color>模組在<color=#92fc63>上述時間</color>內繼續獲取包含養成材料在內的豐厚獎勵
-·注意：<color=#ff5c5c>「{namecode:301}」的「資訊同步」將於時間結束後暫時關閉，已累計的同步值也會消失。</color>
+·注意：<color=#ff5c5c>「約克鎮·META」的「資訊同步」將於時間結束後暫時關閉，已累計的同步值也會消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色達到指定等級後可以使用對應的角色結晶進行啟動。啟動後可以提升角色星級
@@ -23482,6 +23482,11 @@ _G.pg.base.gametip.setting_resdownload_title_dorm = {
 
 _G.pg.base.gametip.setting_resdownload_title_main_group = {
 	tip = "完整資源更新"
+}
+
+
+_G.pg.base.gametip.setting_resdownload_title_map = {
+	tip = "島嶼資源更新"
 }
 
 
@@ -34047,6 +34052,16 @@ _G.pg.base.gametip.main_silent_tip_4 = {
 }
 
 
+_G.pg.base.gametip.main_silent_tip_5 = {
+	tip = "組資材可收取"
+}
+
+
+_G.pg.base.gametip.main_silent_tip_6 = {
+	tip = "個崗位空缺中"
+}
+
+
 _G.pg.base.gametip.commission_label_go = {
 	tip = "前 往"
 }
@@ -37687,6 +37702,21 @@ _G.pg.base.gametip.xiaoankeleiqi_npc = {
 }
 
 
+_G.pg.base.gametip.island_name_too_long_or_too_short = {
+	tip = "島嶼名稱為1-9個字，請重新輸入"
+}
+
+
+_G.pg.base.gametip.island_name_exist_special_word = {
+	tip = "島嶼名稱不可含特殊字元，請重新輸入"
+}
+
+
+_G.pg.base.gametip.island_name_exist_ban_word = {
+	tip = "島嶼名稱包含敏感詞彙，請重新輸入"
+}
+
+
 _G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
 	tip = "允許GPGPU"
 }
@@ -37864,6 +37894,141 @@ _G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
 
 _G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
 	tip = "景深"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_3Dquality = {
+	tip = "島嶼畫面"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_control = {
+	tip = "島嶼操作"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_general = {
+	tip = "島嶼設定"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_title = {
+	tip = "島嶼名片展示設定"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_tag = {
+	tip = "島嶼評價標籤展示"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_card_socialdata = {
+	tip = "島嶼社交資料展示"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_title = {
+	tip = "島嶼通用功能"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_use = {
+	tip = "使用"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_unstuck = {
+	tip = "脫離卡死"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_common_unstuck_msgbox = {
+	tip = "是否確認使用脫離卡死功能，傳送至當前區域初始位置？"
+}
+
+
+_G.pg.base.gametip.island_daily_gift_invite_success = {
+	tip = "已成功傳送領取補給邀請"
+}
+
+
+_G.pg.base.gametip.island_build_save_conflict = {
+	tip = "該位置已被佔用"
+}
+
+
+_G.pg.base.gametip.island_build_save_success = {
+	tip = "儲存成功"
+}
+
+
+_G.pg.base.gametip.island_build_capacity_tip = {
+	tip = "超過當前場景容量上限"
+}
+
+
+_G.pg.base.gametip.island_build_clean_tip = {
+	tip = "是否確認清空所有傢俱？"
+}
+
+
+_G.pg.base.gametip.island_build_revert_tip = {
+	tip = "是否確認還原所有改動？"
+}
+
+
+_G.pg.base.gametip.island_dress_exit = {
+	tip = "是否儲存當前裝扮？"
+}
+
+
+_G.pg.base.gametip.island_dress_exit2 = {
+	tip = "未擁有裝扮已自動卸下"
+}
+
+
+_G.pg.base.gametip.island_dress_mutually_exclusive = {
+	tip = "$1與當前服裝不可同時穿戴，已自動卸下"
+}
+
+
+_G.pg.base.gametip.island_dress_skin_buy = {
+	tip = "是否使用$1購買$2？"
+}
+
+
+_G.pg.base.gametip.island_dress_color_buy = {
+	tip = "是否消耗$1解鎖此顏色？"
+}
+
+
+_G.pg.base.gametip.island_dress_color_unlock = {
+	tip = "已解鎖顏色 "
+}
+
+
+_G.pg.base.gametip.island_dress_save1 = {
+	tip = "儲存成功"
+}
+
+
+_G.pg.base.gametip.island_dress_save2 = {
+	tip = "儲存成功，未擁有裝扮已自動卸下"
+}
+
+
+_G.pg.base.gametip.island_dress_mutually_exclusive1 = {
+	tip = "$1與當前服裝不可同時穿戴"
+}
+
+
+_G.pg.base.gametip.island_dress_send_tip = {
+	tip = "是否要將$1贈送給$1並穿戴"
+}
+
+
+_G.pg.base.gametip.island_dress_send_tip_success = {
+	tip = "已將$1贈送給$1"
 }
 
 
@@ -39246,7 +39411,7 @@ _G.pg.base.gametip.musicbeat_minigame_help = {
 艾塞克斯和企業正跟著律動整理港區倉庫！來加入她們吧！
 
 ·參與遊戲可獲得艾塞克斯·改造道具<b>「必要的準備」</b>
-·9月3日為止每日解鎖一檔獎勵。
+·8月26日為止每日解鎖一檔獎勵。
 
 ·點選<b><color=#F55656>左側紅色按鈕</color></b>可將飛行物<color=#F55656><b>打飛</b></color>
 ·點擊<b><color=#FAF065>右側黃色按鈕</color></b>可將飛行物<color=#FAF065><b>接住</b></color>
@@ -39609,8 +39774,3351 @@ _G.pg.base.gametip.shop_filter_retro = {
 }
 
 
+_G.pg.base.gametip.island_chara_invitename = {
+	tip = "$1島嶼許可權認證函"
+}
+
+
+_G.pg.base.gametip.island_chara_totalname = {
+	tip = "角色詳情"
+}
+
+
+_G.pg.base.gametip.island_chara_totalname_en = {
+	tip = "SHIPINFO"
+}
+
+
+_G.pg.base.gametip.island_chara_power = {
+	tip = "體力"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute1 = {
+	tip = "種植"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute2 = {
+	tip = "採集"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute3 = {
+	tip = "養護"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute4 = {
+	tip = "烹飪"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute5 = {
+	tip = "經營"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute6 = {
+	tip = "製造"
+}
+
+
+_G.pg.base.gametip.island_chara_skill_lock = {
+	tip = "需突破至2星"
+}
+
+
+_G.pg.base.gametip.island_chara_list = {
+	tip = "角色列表"
+}
+
+
+_G.pg.base.gametip.island_chara_list_filter = {
+	tip = "篩選"
+}
+
+
+_G.pg.base.gametip.island_chara_list_sort = {
+	tip = "排序"
+}
+
+
+_G.pg.base.gametip.island_chara_list_level = {
+	tip = "生活等級"
+}
+
+
+_G.pg.base.gametip.island_chara_list_attribute = {
+	tip = "綜合能力"
+}
+
+
+_G.pg.base.gametip.island_chara_list_workspeed = {
+	tip = "工作速度"
+}
+
+
+_G.pg.base.gametip.island_index_name = {
+	tip = "剩餘體力"
+}
+
+
+_G.pg.base.gametip.island_index_extra_all = {
+	tip = "無限制"
+}
+
+
+_G.pg.base.gametip.island_index_potency = {
+	tip = "能力未滿"
+}
+
+
+_G.pg.base.gametip.island_index_skill = {
+	tip = "技能可升級"
+}
+
+
+_G.pg.base.gametip.island_index_status = {
+	tip = "有增益效果"
+}
+
+
+_G.pg.base.gametip.island_confirm = {
+	tip = "確定"
+}
+
+
+_G.pg.base.gametip.island_cancel = {
+	tip = "取消"
+}
+
+
+_G.pg.base.gametip.island_chara_levelup = {
+	tip = "等級提升"
+}
+
+
+_G.pg.base.gametip.islland_chara_material_consum = {
+	tip = "消耗材料"
+}
+
+
+_G.pg.base.gametip.island_chara_up_button = {
+	tip = "升級"
+}
+
+
+_G.pg.base.gametip.island_chara_now_rank = {
+	tip = "當前星級"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout = {
+	tip = "突破"
+}
+
+
+_G.pg.base.gametip.island_chara_skill_tip = {
+	tip = "技能解鎖："
+}
+
+
+_G.pg.base.gametip.island_chara_consum = {
+	tip = "消耗"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout_button = {
+	tip = "突破"
+}
+
+
+_G.pg.base.gametip.island_chara_breakout_down = {
+	tip = "突破完成"
+}
+
+
+_G.pg.base.gametip.island_chara_level_limit = {
+	tip = "等級上限"
+}
+
+
+_G.pg.base.gametip.island_chara_power_limit = {
+	tip = "體力上限"
+}
+
+
+_G.pg.base.gametip.island_click_to_close = {
+	tip = "點選空白關閉"
+}
+
+
+_G.pg.base.gametip.island_chara_skill_unlock = {
+	tip = "技能解鎖"
+}
+
+
+_G.pg.base.gametip.island_chara_attribute_develop = {
+	tip = "能力提升"
+}
+
+
+_G.pg.base.gametip.island_chara_choose_attribute = {
+	tip = "點選選擇需要提升的能力"
+}
+
+
+_G.pg.base.gametip.island_chara_rating_up = {
+	tip = "能力提升"
+}
+
+
+_G.pg.base.gametip.island_chara_limit_up = {
+	tip = "上限提升"
+}
+
+
+_G.pg.base.gametip.island_chara_ceiling_unlock = {
+	tip = "是否消耗1*職責之星突破能力上限"
+}
+
+
+_G.pg.base.gametip.island_chara_choose_gift = {
+	tip = "點選選擇贈送的禮物"
+}
+
+
+_G.pg.base.gametip.island_chara_buff_better = {
+	tip = "當前擁有品質更高的增益效果，是否覆蓋？"
+}
+
+
+_G.pg.base.gametip.island_chara_buff_nomal = {
+	tip = "將會覆蓋當前生效的增益效果，是否繼續？"
+}
+
+
+_G.pg.base.gametip.island_chara_gift_power = {
+	tip = "體力回覆：$1"
+}
+
+
+_G.pg.base.gametip.island_visit_title = {
+	tip = "拜訪"
+}
+
+
+_G.pg.base.gametip.island_visit_friend = {
+	tip = "好友"
+}
+
+
+_G.pg.base.gametip.island_visit_teammate = {
+	tip = "大艦隊"
+}
+
+
+_G.pg.base.gametip.island_visit_code = {
+	tip = "訪問碼"
+}
+
+
+_G.pg.base.gametip.island_visit_search = {
+	tip = "搜尋"
+}
+
+
+_G.pg.base.gametip.island_visit_whitelist = {
+	tip = "白名單"
+}
+
+
+_G.pg.base.gametip.island_visit_balcklist = {
+	tip = "黑名單"
+}
+
+
+_G.pg.base.gametip.island_visit_set = {
+	tip = "設定"
+}
+
+
+_G.pg.base.gametip.island_visit_delete = {
+	tip = "刪除"
+}
+
+
+_G.pg.base.gametip.island_visit_more = {
+	tip = "更多"
+}
+
+
+_G.pg.base.gametip.island_visit_code_title = {
+	tip = "島嶼訪問碼"
+}
+
+
+_G.pg.base.gametip.island_visit_code_input = {
+	tip = "輸入訪問碼"
+}
+
+
+_G.pg.base.gametip.island_visit_code_like = {
+	tip = "設為常用"
+}
+
+
+_G.pg.base.gametip.island_visit_code_likelist = {
+	tip = "常用訪問碼"
+}
+
+
+_G.pg.base.gametip.island_visit_code_remove = {
+	tip = "移除"
+}
+
+
+_G.pg.base.gametip.island_visit_code_copy = {
+	tip = "複製"
+}
+
+
+_G.pg.base.gametip.island_visit_search_mineid = {
+	tip = "我的ID"
+}
+
+
+_G.pg.base.gametip.island_visit_search_input = {
+	tip = "點選輸入ID"
+}
+
+
+_G.pg.base.gametip.island_visit_whitelist_tip = {
+	tip = "名單成員將在來訪許可開啟時被自動允許入內"
+}
+
+
+_G.pg.base.gametip.island_visit_balcklist_tip = {
+	tip = "名單成員將在來訪許可開啟時被自動禁止入內"
+}
+
+
+_G.pg.base.gametip.island_visit_set_title = {
+	tip = "島嶼來訪許可"
+}
+
+
+_G.pg.base.gametip.island_visit_set_tip = {
+	tip = "請選擇來訪許可開放範圍"
+}
+
+
+_G.pg.base.gametip.island_visit_set_refresh = {
+	tip = "重新整理"
+}
+
+
+_G.pg.base.gametip.island_visit_set_close = {
+	tip = "島嶼不對任何人開放"
+}
+
+
+_G.pg.base.gametip.island_visit_set_help = {
+	tip = [[
+來訪許可開啟：屬於所選許可權組內的成員可以自由來訪
+ 來訪許可關閉：不允許任何其他人來訪
+ 島嶼訪問碼：在訪問許可開啟時，允許所有黑名單外的指揮官透過訪問碼自由來訪
+重新整理訪問碼：島嶼訪問碼每日可以重新整理一次]]
+}
+
+
+_G.pg.base.gametip.island_visitor_button = {
+	tip = "訪客"
+}
+
+
+_G.pg.base.gametip.island_visitor_status = {
+	tip = "當前訪客"
+}
+
+
+_G.pg.base.gametip.island_visitor_record = {
+	tip = "訪客記錄"
+}
+
+
+_G.pg.base.gametip.island_visitor_num = {
+	tip = "當前人數："
+}
+
+
+_G.pg.base.gametip.island_visitor_kick = {
+	tip = "請離"
+}
+
+
+_G.pg.base.gametip.island_visitor_kickall = {
+	tip = "全部請離"
+}
+
+
+_G.pg.base.gametip.island_visitor_close = {
+	tip = "關閉拜訪"
+}
+
+
+_G.pg.base.gametip.island_lineup_tip = {
+	tip = "當前目標島嶼訪客已達上限，進入等候佇列中"
+}
+
+
+_G.pg.base.gametip.island_lineup_button = {
+	tip = "取消拜訪"
+}
+
+
+_G.pg.base.gametip.island_visit_tip1 = {
+	tip = "無法拜訪該島嶼"
+}
+
+
+_G.pg.base.gametip.island_visit_tip2 = {
+	tip = "未獲得該島嶼拜訪許可"
+}
+
+
+_G.pg.base.gametip.island_visit_tip3 = {
+	tip = "無效訪問碼"
+}
+
+
+_G.pg.base.gametip.island_visit_tip4 = {
+	tip = "您已被請離"
+}
+
+
+_G.pg.base.gametip.island_visit_tip5 = {
+	tip = "拜訪冷卻中：$1"
+}
+
+
+_G.pg.base.gametip.island_visit_tip6 = {
+	tip = "操作成功"
+}
+
+
+_G.pg.base.gametip.island_visit_tip7 = {
+	tip = "常用訪問碼已滿"
+}
+
+
+_G.pg.base.gametip.island_season_help = {
+	tip = [[
+1.新的島嶼開發季開啟時，島嶼開發PT將會<color=#FD5650>自動重置</color>
+2.開發季持續時間內，可透過<color=#39bfff>資材轉化</color>、<color=#39bfff>生產指定資材</color>、<color=#39bfff>參與島嶼活動</color>以及<color=#39bfff>在開發季商店購買商品</color>獲得島嶼開發PT
+3.島嶼開發季結束後，臨時倉庫中的物品將直接清空，資材倉庫中的資材將<color=#FD5650>自動轉化</color>為島嶼開發PT並計入當前開發排行
+4.島嶼開發季結束後，正在進行的<color=#39bfff>島嶼訂單、貨運委託、角色委派、手動種植、店鋪經營</color>等將清理重置
+5.島嶼開發季結束後，當前開發季未領取的開發計劃獎勵和累積PT獎勵將<color=#FD5650>不再可領取</color>]]
+}
+
+
+_G.pg.base.gametip.island_season_title = {
+	tip = "開發季"
+}
+
+
+_G.pg.base.gametip.island_season_pt_hold = {
+	tip = "已獲得"
+}
+
+
+_G.pg.base.gametip.island_season_pt_collectall = {
+	tip = "全部領取"
+}
+
+
+_G.pg.base.gametip.island_season_activity = {
+	tip = "活動總覽"
+}
+
+
+_G.pg.base.gametip.island_season_pt = {
+	tip = "累積PT"
+}
+
+
+_G.pg.base.gametip.island_season_task = {
+	tip = "開發計劃"
+}
+
+
+_G.pg.base.gametip.island_season_shop = {
+	tip = "開發商店"
+}
+
+
+_G.pg.base.gametip.island_season_charts = {
+	tip = "開發排行榜"
+}
+
+
+_G.pg.base.gametip.island_season_review = {
+	tip = "開發回顧"
+}
+
+
+_G.pg.base.gametip.island_season_task_collect = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.island_season_task_collected = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.island_season_task_collectall = {
+	tip = "全部領取"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage1 = {
+	tip = "階段一"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage2 = {
+	tip = "階段二"
+}
+
+
+_G.pg.base.gametip.island_season_shop_stage3 = {
+	tip = "階段三"
+}
+
+
+_G.pg.base.gametip.island_season_charts_ranking = {
+	tip = "開發排名"
+}
+
+
+_G.pg.base.gametip.island_season_charts_information = {
+	tip = "島嶼資訊"
+}
+
+
+_G.pg.base.gametip.island_season_charts_pt = {
+	tip = "島嶼開發PT"
+}
+
+
+_G.pg.base.gametip.island_season_charts_award = {
+	tip = "排名獎勵"
+}
+
+
+_G.pg.base.gametip.island_season_charts_level = {
+	tip = "島嶼開發等級"
+}
+
+
+_G.pg.base.gametip.island_season_charts_refresh = {
+	tip = "*開發排名每半小時更新一次"
+}
+
+
+_G.pg.base.gametip.island_season_charts_out = {
+	tip = "暫未上榜"
+}
+
+
+_G.pg.base.gametip.island_season_review_lv = {
+	tip = "島嶼開發等級"
+}
+
+
+_G.pg.base.gametip.island_season_review_charnum = {
+	tip = "角色數量"
+}
+
+
+_G.pg.base.gametip.island_season_review_projuctnum = {
+	tip = "研發專案數量"
+}
+
+
+_G.pg.base.gametip.island_season_review_titleone = {
+	tip = "開發季"
+}
+
+
+_G.pg.base.gametip.island_season_review_ptnum = {
+	tip = "開發PT"
+}
+
+
+_G.pg.base.gametip.island_season_review_ptrank = {
+	tip = "開發排行"
+}
+
+
+_G.pg.base.gametip.island_season_review_produce = {
+	tip = "產出統計"
+}
+
+
+_G.pg.base.gametip.island_season_review_ordernum = {
+	tip = "訂單數量"
+}
+
+
+_G.pg.base.gametip.island_season_review_formulanum = {
+	tip = "生產數量"
+}
+
+
+_G.pg.base.gametip.island_season_review_relax = {
+	tip = "成就"
+}
+
+
+_G.pg.base.gametip.island_season_review_fishnum = {
+	tip = "成就數量"
+}
+
+
+_G.pg.base.gametip.island_season_review_gamenum = {
+	tip = "總收集點"
+}
+
+
+_G.pg.base.gametip.island_season_review_achi = {
+	tip = "成就"
+}
+
+
+_G.pg.base.gametip.island_season_review_achinum = {
+	tip = "成就數量"
+}
+
+
+_G.pg.base.gametip.island_season_review_guidenum = {
+	tip = "總收集點"
+}
+
+
+_G.pg.base.gametip.island_season_review_blank = {
+	tip = "未參與該開發季"
+}
+
+
+_G.pg.base.gametip.island_season_window_end = {
+	tip = "島嶼開發季即將結束！"
+}
+
+
+_G.pg.base.gametip.island_season_window_end2 = {
+	tip = "島嶼開發季剩餘時間：$1天"
+}
+
+
+_G.pg.base.gametip.island_season_window_rule = {
+	tip = [[
+1.島嶼開發季結束後，<color=#39bfff>臨時倉庫</color>中的物品將<color=#FD5650>直接清空</color>，資材倉庫中的<color=#39bfff>資材</color>將自動轉化為島嶼開發PT並計入當前開發排行
+2.島嶼開發季結束後，正在進行的<color=#39bfff>島嶼訂單、貨運委託、角色委派、手動種植、店鋪經營</color>等將清理重置
+3.島嶼開發季結束後，當前開發季未領取的開發計劃獎勵和累積PT獎勵將<color=#FD5650>不再可領取</color>
+4.新的島嶼開發季開啟時，島嶼開發PT將會<color=#FD5650>自動重置</color>]]
+}
+
+
+_G.pg.base.gametip.island_season_window_transformtip = {
+	tip = "是否確認轉化所選物品？"
+}
+
+
+_G.pg.base.gametip.island_season_window_pt = {
+	tip = "$1資材轉化獲得"
+}
+
+
+_G.pg.base.gametip.island_season_window_ranking = {
+	tip = "最終排名"
+}
+
+
+_G.pg.base.gametip.island_season_window_award = {
+	tip = "排名獎勵"
+}
+
+
+_G.pg.base.gametip.island_season_window_out = {
+	tip = "未上榜"
+}
+
+
+_G.pg.base.gametip.island_season_review_miss = {
+	tip = "尚未參與該開發季"
+}
+
+
+_G.pg.base.gametip.island_season_reset = {
+	tip = "島嶼開發季已重置"
+}
+
+
+_G.pg.base.gametip.island_help_ship_order = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ship_order5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_farm = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_farm"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_commission = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_commission4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_cafe_minigame = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_cafe_minigame"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_signin = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_signin1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_signin2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_ranch = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ranch1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_ranch2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_manage = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_manage5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_combo = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_combo1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_combo2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_friends = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_friends1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_friends2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_season = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_season5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_archive = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_archive1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_renovation = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_renovation1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_renovation2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_photo = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_photo1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_greet = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_greet1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_greet2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_character_info = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_character_info3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_fish = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_fish1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_fish2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_fish3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_help_bar = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_help_bar4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_skin_original_desc = {
+	tip = "預設"
+}
+
+
+_G.pg.base.gametip.island_dress_no_item = {
+	tip = "暫無該分類裝扮"
+}
+
+
+_G.pg.base.gametip.island_agora_deco_empty = {
+	tip = "當前擺放為空"
+}
+
+
+_G.pg.base.gametip.island_agora_pos_unavailability = {
+	tip = "該位置已被佔用"
+}
+
+
+_G.pg.base.gametip.island_agora_max_capacity = {
+	tip = "已達最大容量"
+}
+
+
+_G.pg.base.gametip.island_agora_label_base = {
+	tip = "主宅"
+}
+
+
+_G.pg.base.gametip.island_agora_label_building = {
+	tip = "活動區"
+}
+
+
+_G.pg.base.gametip.island_agora_label_furniture = {
+	tip = "庭具"
+}
+
+
+_G.pg.base.gametip.island_agora_label_dec = {
+	tip = "裝飾"
+}
+
+
+_G.pg.base.gametip.island_agora_label_floor = {
+	tip = "地板"
+}
+
+
+_G.pg.base.gametip.island_agora_label_tile = {
+	tip = "地飾"
+}
+
+
+_G.pg.base.gametip.island_agora_label_collection = {
+	tip = "收藏"
+}
+
+
+_G.pg.base.gametip.island_agora_label_default = {
+	tip = "預設排序"
+}
+
+
+_G.pg.base.gametip.island_agora_label_rarity = {
+	tip = "稀有度"
+}
+
+
+_G.pg.base.gametip.island_agora_label_gettime = {
+	tip = "獲取時間"
+}
+
+
+_G.pg.base.gametip.island_agora_label_capacity = {
+	tip = "容量"
+}
+
+
+_G.pg.base.gametip.island_agora_capacity = {
+	tip = "佔據容量"
+}
+
+
+_G.pg.base.gametip.island_agora_furniure_preview = {
+	tip = "傢俱預覽"
+}
+
+
+_G.pg.base.gametip.island_agora_function_unuse = {
+	tip = "不支援該功能"
+}
+
+
+_G.pg.base.gametip.island_agora_signIn_tip = {
+	tip = "新的一天，又有新的補給啦！"
+}
+
+
+_G.pg.base.gametip.island_agora_working = {
+	tip = "集會島施工中……"
+}
+
+
+_G.pg.base.gametip.island_agora_using = {
+	tip = "使用中"
+}
+
+
+_G.pg.base.gametip.island_agora_save_theme = {
+	tip = "儲存模板"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_clear = {
+	tip = "清空"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_revert = {
+	tip = "還原"
+}
+
+
+_G.pg.base.gametip.island_agora_btn_label_save = {
+	tip = "儲存"
+}
+
+
+_G.pg.base.gametip.island_agora_title = {
+	tip = "集會島"
+}
+
+
+_G.pg.base.gametip.island_agora_label_search = {
+	tip = "點選搜尋"
+}
+
+
+_G.pg.base.gametip.island_agora_label_theme = {
+	tip = "模板"
+}
+
+
+_G.pg.base.gametip.island_agora_label_empty_tip = {
+	tip = "暫無該分類傢俱"
+}
+
+
+_G.pg.base.gametip.island_agora_clear_tip = {
+	tip = "確定要清空當前的佈置嗎？"
+}
+
+
+_G.pg.base.gametip.island_agora_revert_tip = {
+	tip = "確定要還原所有改動嗎？"
+}
+
+
+_G.pg.base.gametip.island_agora_save_or_exit_tip = {
+	tip = "是否儲存當前佈置並退出"
+}
+
+
+_G.pg.base.gametip.island_agora_exit_and_unsave = {
+	tip = "放棄修改"
+}
+
+
+_G.pg.base.gametip.island_agora_exit_and_save = {
+	tip = "儲存修改"
+}
+
+
+_G.pg.base.gametip.island_agora_no_pos_place = {
+	tip = "沒有可以儲存的位置"
+}
+
+
+_G.pg.base.gametip.island_agora_pave_tip = {
+	tip = "請以拖拽地磚的方式將它佈置在地面上"
+}
+
+
+_G.pg.base.gametip.island_enter_island_ban = {
+	tip = "禁止訪問"
+}
+
+
+_G.pg.base.gametip.island_order_not_get_award = {
+	tip = "不可領取"
+}
+
+
+_G.pg.base.gametip.island_order_cant_replace = {
+	tip = "當前不可替換"
+}
+
+
+_G.pg.base.gametip.island_rename_tip = {
+	tip = "確認選擇當前名稱\n後續可以在島嶼中進行修改"
+}
+
+
+_G.pg.base.gametip.island_rename_confirm = {
+	tip = "確認將島嶼名稱修改為:$1"
+}
+
+
+_G.pg.base.gametip.island_bag_max_level = {
+	tip = "已是最大等級"
+}
+
+
+_G.pg.base.gametip.island_bag_uprade_success = {
+	tip = "升級成功"
+}
+
+
+_G.pg.base.gametip.island_agora_save_success = {
+	tip = "儲存成功"
+}
+
+
+_G.pg.base.gametip.island_agora_max_level = {
+	tip = "已是最大等級"
+}
+
+
+_G.pg.base.gametip.island_white_list_full = {
+	tip = "白名單已滿"
+}
+
+
+_G.pg.base.gametip.island_black_list_full = {
+	tip = "黑名單已滿"
+}
+
+
+_G.pg.base.gametip.island_inviteCode_refresh = {
+	tip = "今日已重新整理"
+}
+
+
+_G.pg.base.gametip.island_give_gift_success = {
+	tip = "贈送成功"
+}
+
+
+_G.pg.base.gametip.island_get_git_tip = {
+	tip = "已經領取過此島嶼的補給了哦~"
+}
+
+
+_G.pg.base.gametip.island_get_git_cnt_tip = {
+	tip = "今天的領取次數已經用完了"
+}
+
+
+_G.pg.base.gametip.island_share_gift_success = {
+	tip = "已公開邀請"
+}
+
+
+_G.pg.base.gametip.island_invitation_gift_success = {
+	tip = "已經成功傳送領取補給邀請"
+}
+
+
+_G.pg.base.gametip.island_dectect_mode3x3 = {
+	tip = "切換到3*3模式"
+}
+
+
+_G.pg.base.gametip.island_dectect_mode1x1 = {
+	tip = "切換到單塊模式"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover = {
+	tip = "將會覆蓋當前生效的增益效果，是否確定使用禮物？"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_1 = {
+	tip = "將會覆蓋當前生效的增益效果，是否確定使用禮物？"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_2 = {
+	tip = "當前擁有品質更高的增益效果，是否確定使用禮物？"
+}
+
+
+_G.pg.base.gametip.island_ship_buff_cover_3 = {
+	tip = "當前擁有品質更高的增益效果，是否確定使用禮物？"
+}
+
+
+_G.pg.base.gametip.island_log_visit = {
+	tip = " 拜訪了你的島嶼"
+}
+
+
+_G.pg.base.gametip.island_log_exit = {
+	tip = " 離開了你的島嶼"
+}
+
+
+_G.pg.base.gametip.island_log_gift = {
+	tip = " 邀請你領取補給"
+}
+
+
+_G.pg.base.gametip.island_log_trade = {
+	tip = " 邀請你交易珍珠"
+}
+
+
+_G.pg.base.gametip.island_item_type_res = {
+	tip = "資材"
+}
+
+
+_G.pg.base.gametip.island_item_type_consume = {
+	tip = "消耗品"
+}
+
+
+_G.pg.base.gametip.island_item_type_spe = {
+	tip = "特殊"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_1 = {
+	tip = "種植"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_2 = {
+	tip = "採集"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_3 = {
+	tip = "養護"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_4 = {
+	tip = "烹飪"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_5 = {
+	tip = "經營"
+}
+
+
+_G.pg.base.gametip.island_ship_attrName_6 = {
+	tip = "製造"
+}
+
+
+_G.pg.base.gametip.island_task_title = {
+	tip = "開發區計劃"
+}
+
+
+_G.pg.base.gametip.island_task_title_en = {
+	tip = "MISSIONS"
+}
+
+
+_G.pg.base.gametip.island_task_type_1 = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.island_task_type_2 = {
+	tip = "島嶼開發"
+}
+
+
+_G.pg.base.gametip.island_task_type_3 = {
+	tip = "島嶼時光"
+}
+
+
+_G.pg.base.gametip.island_task_type_4 = {
+	tip = "每日計劃"
+}
+
+
+_G.pg.base.gametip.island_task_type_5 = {
+	tip = "每週計劃"
+}
+
+
+_G.pg.base.gametip.island_task_type_6 = {
+	tip = "活動計劃"
+}
+
+
+_G.pg.base.gametip.island_tech_type_1 = {
+	tip = "研發中樞"
+}
+
+
+_G.pg.base.gametip.island_default_name = {
+	tip = "$1的小島"
+}
+
+
+_G.pg.base.gametip.island_order_type_1 = {
+	tip = "普通訂單"
+}
+
+
+_G.pg.base.gametip.island_order_type_2 = {
+	tip = "加急訂單"
+}
+
+
+_G.pg.base.gametip.island_order_desc_1 = {
+	tip = "需要努力才能完成的訂單，但付出總有回報"
+}
+
+
+_G.pg.base.gametip.island_order_desc_2 = {
+	tip = "能夠輕鬆完成的訂單，但報酬也會減少一些"
+}
+
+
+_G.pg.base.gametip.island_order_desc_3 = {
+	tip = "極具挑戰性的訂單，但可以獲得高額的回報"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_1 = {
+	tip = "標準"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_2 = {
+	tip = "輕鬆"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty_3 = {
+	tip = "挑戰"
+}
+
+
+_G.pg.base.gametip.island_commander = {
+	tip = "指揮官"
+}
+
+
+_G.pg.base.gametip.island_task_lefttime = {
+	tip = "$1天$2小時"
+}
+
+
+_G.pg.base.gametip.island_seek_game_tip = {
+	tip = "請小心避開四周的警報裝置"
+}
+
+
+_G.pg.base.gametip.island_item_transfer = {
+	tip = "以下物品已轉移"
+}
+
+
+_G.pg.base.gametip.island_set_manifesto_success = {
+	tip = "修改成功"
+}
+
+
+_G.pg.base.gametip.island_prosperity_level = {
+	tip = "繁榮度"
+}
+
+
+_G.pg.base.gametip.island_toast_status = {
+	tip = "$2獲得增益效果\n[$1]"
+}
+
+
+_G.pg.base.gametip.island_toast_level = {
+	tip = "$2提升至等級$1"
+}
+
+
+_G.pg.base.gametip.island_toast_ship = {
+	tip = "$2正式加入$1"
+}
+
+
+_G.pg.base.gametip.island_lock_map_tip = {
+	tip = "地圖尚未解鎖"
+}
+
+
+_G.pg.base.gametip.island_home_btn_cant_use = {
+	tip = "暫時無法使用"
+}
+
+
+_G.pg.base.gametip.island_item_overflow = {
+	tip = "超出x$1"
+}
+
+
+_G.pg.base.gametip.island_item_no_capacity = {
+	tip = "容量不足"
+}
+
+
+_G.pg.base.gametip.island_ship_no_energy = {
+	tip = "疲憊"
+}
+
+
+_G.pg.base.gametip.island_ship_working = {
+	tip = "工作中："
+}
+
+
+_G.pg.base.gametip.island_ship_level_limit = {
+	tip = "體力上限"
+}
+
+
+_G.pg.base.gametip.island_ship_energy_limit = {
+	tip = "等級上限"
+}
+
+
+_G.pg.base.gametip.island_click_close = {
+	tip = "點選空白關閉"
+}
+
+
+_G.pg.base.gametip.island_break_finish = {
+	tip = "<color=#39bfff>[ 突破完成 ]</color>"
+}
+
+
+_G.pg.base.gametip.island_unlock_skill = {
+	tip = "<color=#39bfff>[ 技能解鎖 ]</color>"
+}
+
+
+_G.pg.base.gametip.island_ship_title_info = {
+	tip = "角色資訊"
+}
+
+
+_G.pg.base.gametip.island_building_title_info = {
+	tip = "建築資訊"
+}
+
+
+_G.pg.base.gametip.island_word_effect = {
+	tip = "效果："
+}
+
+
+_G.pg.base.gametip.island_word_dispatch = {
+	tip = "已委派："
+}
+
+
+_G.pg.base.gametip.island_word_working = {
+	tip = "工作中"
+}
+
+
+_G.pg.base.gametip.island_word_stop_work = {
+	tip = "生產暫停"
+}
+
+
+_G.pg.base.gametip.island_level_to_unlock = {
+	tip = "島嶼開發等級達到$1級解鎖"
+}
+
+
+_G.pg.base.gametip.island_select_product = {
+	tip = "產物選擇"
+}
+
+
+_G.pg.base.gametip.island_sub_product_cnt = {
+	tip = "副產物 × $1"
+}
+
+
+_G.pg.base.gametip.island_make_unlock_tip = {
+	tip = "$1$2級解鎖"
+}
+
+
+_G.pg.base.gametip.island_need_star = {
+	tip = "需突破至$1星"
+}
+
+
+_G.pg.base.gametip.island_need_star_1 = {
+	tip = "需突破至$1"
+}
+
+
+_G.pg.base.gametip.island_select_ship = {
+	tip = "選擇角色"
+}
+
+
+_G.pg.base.gametip.island_select_ship_label_1 = {
+	tip = "已選擇："
+}
+
+
+_G.pg.base.gametip.island_select_ship_overview = {
+	tip = "角色加成彙總"
+}
+
+
+_G.pg.base.gametip.island_select_ship_tip = {
+	tip = "這裡是通用幫助說明"
+}
+
+
+_G.pg.base.gametip.island_friend = {
+	tip = "好友"
+}
+
+
+_G.pg.base.gametip.island_guild = {
+	tip = "大艦隊"
+}
+
+
+_G.pg.base.gametip.island_code = {
+	tip = "訪問碼"
+}
+
+
+_G.pg.base.gametip.island_search = {
+	tip = "搜尋"
+}
+
+
+_G.pg.base.gametip.island_whiteList = {
+	tip = "白名單"
+}
+
+
+_G.pg.base.gametip.island_add_friend = {
+	tip = "新增"
+}
+
+
+_G.pg.base.gametip.island_blackList = {
+	tip = "黑名單"
+}
+
+
+_G.pg.base.gametip.island_settings = {
+	tip = "設定"
+}
+
+
+_G.pg.base.gametip.island_settings_en = {
+	tip = "SETTINGS"
+}
+
+
+_G.pg.base.gametip.island_btn_label_visit = {
+	tip = "拜訪"
+}
+
+
+_G.pg.base.gametip.island_git_cnt_tip = {
+	tip = "今日可接收補給："
+}
+
+
+_G.pg.base.gametip.island_public_invitation = {
+	tip = "公開邀請"
+}
+
+
+_G.pg.base.gametip.island_onekey_invitation = {
+	tip = "全部邀請"
+}
+
+
+_G.pg.base.gametip.island_public_invitation_1 = {
+	tip = "已經是公開狀態"
+}
+
+
+_G.pg.base.gametip.island_curr_visitor = {
+	tip = "當前訪客"
+}
+
+
+_G.pg.base.gametip.island_visitor_log = {
+	tip = "訪客記錄"
+}
+
+
+_G.pg.base.gametip.island_kick_all = {
+	tip = "全部請離"
+}
+
+
+_G.pg.base.gametip.island_close_visit = {
+	tip = "關閉拜訪"
+}
+
+
+_G.pg.base.gametip.island_curr_people_cnt = {
+	tip = "當前人數："
+}
+
+
+_G.pg.base.gametip.island_close_access_state = {
+	tip = "當前已是關閉狀態"
+}
+
+
+_G.pg.base.gametip.island_btn_label_remove = {
+	tip = "移除"
+}
+
+
+_G.pg.base.gametip.island_btn_label_del = {
+	tip = "刪除"
+}
+
+
+_G.pg.base.gametip.island_btn_label_copy = {
+	tip = "複製"
+}
+
+
+_G.pg.base.gametip.island_btn_label_more = {
+	tip = "更多"
+}
+
+
+_G.pg.base.gametip.island_btn_label_invitation = {
+	tip = "邀請"
+}
+
+
+_G.pg.base.gametip.island_btn_label_invitation_already = {
+	tip = "已邀請"
+}
+
+
+_G.pg.base.gametip.island_btn_label_online = {
+	tip = "線上"
+}
+
+
+_G.pg.base.gametip.island_btn_label_kick = {
+	tip = "請離"
+}
+
+
+_G.pg.base.gametip.island_btn_label_location = {
+	tip = "您在佇列中的位置：$1"
+}
+
+
+_G.pg.base.gametip.island_black_list_tip = {
+	tip = "名單成員將在來訪許可開啟時被自動禁止入內"
+}
+
+
+_G.pg.base.gametip.island_white_list_tip = {
+	tip = "名單成員將在來訪許可開啟時被自動允許入內"
+}
+
+
+_G.pg.base.gametip.island_input_code_tip = {
+	tip = "島嶼訪問碼"
+}
+
+
+_G.pg.base.gametip.island_input_code_tip_1 = {
+	tip = "輸入訪問碼"
+}
+
+
+_G.pg.base.gametip.island_set_like = {
+	tip = "設為常用"
+}
+
+
+_G.pg.base.gametip.island_input_code_erro = {
+	tip = "請輸入訪問碼"
+}
+
+
+_G.pg.base.gametip.island_code_exist = {
+	tip = "該訪問碼已設為常用"
+}
+
+
+_G.pg.base.gametip.island_like_title = {
+	tip = "常用訪問碼"
+}
+
+
+_G.pg.base.gametip.island_my_id = {
+	tip = "我的ID"
+}
+
+
+_G.pg.base.gametip.island_input_my_id = {
+	tip = "點選輸入ID"
+}
+
+
+_G.pg.base.gametip.island_open_settings = {
+	tip = "島嶼來訪許可"
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip1 = {
+	tip = "請選擇來訪許可開放範圍"
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip2 = {
+	tip = "島嶼不對任何人開放"
+}
+
+
+_G.pg.base.gametip.island_open_settings_tip3 = {
+	tip = [[
+來訪許可開啟：屬於所選許可權組內的成員可以自由來訪
+來訪許可關閉：不允許任何其他人來訪
+島嶼訪問碼：在訪問許可開啟時，允許所有黑名單外的指揮官透過訪問碼自由來訪
+重新整理訪問碼：島嶼訪問碼每日可以重新整理一次]]
+}
+
+
+_G.pg.base.gametip.island_code_refresh_cnt = {
+	tip = "重新整理($1/1)"
+}
+
+
+_G.pg.base.gametip.island_word_sort = {
+	tip = "排序"
+}
+
+
+_G.pg.base.gametip.island_word_reset = {
+	tip = "重置"
+}
+
+
+_G.pg.base.gametip.island_bag_title = {
+	tip = "倉庫"
+}
+
+
+_G.pg.base.gametip.island_batch_covert = {
+	tip = "批次轉化"
+}
+
+
+_G.pg.base.gametip.island_total_price = {
+	tip = "合計價格:"
+}
+
+
+_G.pg.base.gametip.island_word_temp = {
+	tip = "臨時"
+}
+
+
+_G.pg.base.gametip.island_word_desc = {
+	tip = "詳情"
+}
+
+
+_G.pg.base.gametip.island_open_ship_tip = {
+	tip = "將跳轉至研發中樞 確定跳轉？"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_tip = {
+	tip = "資材倉庫升級"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_req = {
+	tip = "升級需求"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_max_level = {
+	tip = "已經達到滿級"
+}
+
+
+_G.pg.base.gametip.island_bag_upgrade_capacity = {
+	tip = "資材倉庫容量"
+}
+
+
+_G.pg.base.gametip.island_rename_title = {
+	tip = "島嶼名稱修改"
+}
+
+
+_G.pg.base.gametip.island_rename_input_tip = {
+	tip = "點選輸入名稱"
+}
+
+
+_G.pg.base.gametip.island_rename_consutme_tip = {
+	tip = "名稱最長為9個漢字"
+}
+
+
+_G.pg.base.gametip.island_upgrade_preview = {
+	tip = "升級預覽"
+}
+
+
+_G.pg.base.gametip.island_upgrade_exp = {
+	tip = "島嶼開發經驗"
+}
+
+
+_G.pg.base.gametip.island_upgrade_res = {
+	tip = "需求資材"
+}
+
+
+_G.pg.base.gametip.island_word_award = {
+	tip = "獎勵"
+}
+
+
+_G.pg.base.gametip.island_word_unlock = {
+	tip = "解鎖"
+}
+
+
+_G.pg.base.gametip.island_word_get = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.island_prosperity_level_display = {
+	tip = "小島當前繁榮度：$1"
+}
+
+
+_G.pg.base.gametip.island_prosperity_value_display = {
+	tip = "繁榮度達到：$1"
+}
+
+
+_G.pg.base.gametip.island_rename_subtitle = {
+	tip = "島嶼名稱"
+}
+
+
+_G.pg.base.gametip.island_manage_title = {
+	tip = "店鋪經營"
+}
+
+
+_G.pg.base.gametip.island_manage_sp_event = {
+	tip = "經營事件"
+}
+
+
+_G.pg.base.gametip.island_manage_no_work = {
+	tip = "未營業"
+}
+
+
+_G.pg.base.gametip.island_manage_end_work = {
+	tip = "營業結束"
+}
+
+
+_G.pg.base.gametip.island_manage_view = {
+	tip = "經營情況"
+}
+
+
+_G.pg.base.gametip.island_manage_result = {
+	tip = "營業結算"
+}
+
+
+_G.pg.base.gametip.island_manage_prepare = {
+	tip = "開始經營"
+}
+
+
+_G.pg.base.gametip.island_manage_daily_cnt_tip = {
+	tip = "休息中"
+}
+
+
+_G.pg.base.gametip.island_manage_produce_tip = {
+	tip = "部分商品吸引力提升。"
+}
+
+
+_G.pg.base.gametip.island_manage_sel_worker = {
+	tip = "選擇員工"
+}
+
+
+_G.pg.base.gametip.island_manage_upgrade_worker_level = {
+	tip = "需提升至金牌店鋪"
+}
+
+
+_G.pg.base.gametip.island_manage_saleroom = {
+	tip = "銷售額"
+}
+
+
+_G.pg.base.gametip.island_manage_capacity = {
+	tip = "餐品格容量"
+}
+
+
+_G.pg.base.gametip.island_manage_skill_cant_use = {
+	tip = "當前技能不生效"
+}
+
+
+_G.pg.base.gametip.island_manage_predict_saleroom = {
+	tip = "預計收益"
+}
+
+
+_G.pg.base.gametip.island_manage_cnt = {
+	tip = "數量："
+}
+
+
+_G.pg.base.gametip.island_manage_addition = {
+	tip = "角色加成彙總"
+}
+
+
+_G.pg.base.gametip.island_manage_no_addition = {
+	tip = "暫無生效加成"
+}
+
+
+_G.pg.base.gametip.island_manage_auto_work = {
+	tip = "自動選擇"
+}
+
+
+_G.pg.base.gametip.island_manage_start_work = {
+	tip = "開始經營"
+}
+
+
+_G.pg.base.gametip.island_manage_working = {
+	tip = "營業中"
+}
+
+
+_G.pg.base.gametip.island_manage_end_daily_work = {
+	tip = "休息中"
+}
+
+
+_G.pg.base.gametip.island_manage_attr_effect = {
+	tip = "影響能力："
+}
+
+
+_G.pg.base.gametip.island_manage_need_ext = {
+	tip = "所需經驗"
+}
+
+
+_G.pg.base.gametip.island_manage_reach = {
+	tip = "已達成"
+}
+
+
+_G.pg.base.gametip.island_manage_slot = {
+	tip = "餐品格數量"
+}
+
+
+_G.pg.base.gametip.island_manage_food_cnt = {
+	tip = "餐品數量"
+}
+
+
+_G.pg.base.gametip.island_manage_sale_ratio = {
+	tip = "售出機率"
+}
+
+
+_G.pg.base.gametip.island_manage_worker_cnt = {
+	tip = "店員數量"
+}
+
+
+_G.pg.base.gametip.island_manage_sale_daily = {
+	tip = "售出餐品"
+}
+
+
+_G.pg.base.gametip.island_manage_fake_price = {
+	tip = "隱藏售價"
+}
+
+
+_G.pg.base.gametip.island_manage_real_price = {
+	tip = "顯示售價"
+}
+
+
+_G.pg.base.gametip.island_manage_result_1 = {
+	tip = "剩餘餐品"
+}
+
+
+_G.pg.base.gametip.island_manage_result_3 = {
+	tip = "銷售情況"
+}
+
+
+_G.pg.base.gametip.island_manage_word_cnt = {
+	tip = "銷量"
+}
+
+
+_G.pg.base.gametip.island_manage_shop_exp = {
+	tip = "店鋪經驗"
+}
+
+
+_G.pg.base.gametip.island_manage_help_tip = {
+	tip = [[
+餐品的吸引力會影響餐品的銷售情況，吸引力越高，餐品售出機率越大。
+每種餐品的吸引力會受到角色兩種能力的加成，分主加成能力和次加成能力。
+主加成能力：能夠顯著提升餐品的吸引力。
+次加成能力：能夠小幅提升餐品的吸引力。]]
+}
+
+
+_G.pg.base.gametip.island_manage_buff_tip = {
+	tip = "*經營開始後，角色能力與增益效果變化均不影響經營結果"
+}
+
+
 _G.pg.base.gametip.island_word_go = {
 	tip = "前往"
+}
+
+
+_G.pg.base.gametip.island_map_title = {
+	tip = "島嶼地圖"
+}
+
+
+_G.pg.base.gametip.island_label_furniture = {
+	tip = "傢俱"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_cnt = {
+	tip = "數量"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_capacity = {
+	tip = "佔據容量"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_tip = {
+	tip = "傢俱會佔據場景容量，擺放數量無法超過該場景容量上限"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_capacity_display = {
+	tip = "總佔據容量："
+}
+
+
+_G.pg.base.gametip.island_label_furniture_exit = {
+	tip = "直接退出"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_save = {
+	tip = "稍後儲存"
+}
+
+
+_G.pg.base.gametip.island_label_furniture_save_tip = {
+	tip = "$1後可以繼續儲存"
+}
+
+
+_G.pg.base.gametip.island_agora_extend = {
+	tip = "擴建"
+}
+
+
+_G.pg.base.gametip.island_agora_extend_consume = {
+	tip = "擴建材料"
+}
+
+
+_G.pg.base.gametip.island_agora_extend_capacity = {
+	tip = "容量上限"
+}
+
+
+_G.pg.base.gametip.island_msg_info = {
+	tip = "資訊"
+}
+
+
+_G.pg.base.gametip.island_get_way = {
+	tip = "獲取途徑"
+}
+
+
+_G.pg.base.gametip.island_own_cnt = {
+	tip = "已擁有:"
+}
+
+
+_G.pg.base.gametip.island_word_convert = {
+	tip = "轉化"
+}
+
+
+_G.pg.base.gametip.island_no_remind_today = {
+	tip = "今日不再提醒"
+}
+
+
+_G.pg.base.gametip.island_input_theme_name = {
+	tip = "請輸入主題名稱"
+}
+
+
+_G.pg.base.gametip.island_custom_theme_name = {
+	tip = "自定義主題$1"
+}
+
+
+_G.pg.base.gametip.island_custom_theme_name_tip = {
+	tip = "是否要將當前佈置儲存為模板"
+}
+
+
+_G.pg.base.gametip.island_skill_desc = {
+	tip = "技能詳情"
+}
+
+
+_G.pg.base.gametip.island_word_place = {
+	tip = "佈置"
+}
+
+
+_G.pg.base.gametip.island_word_turndown = {
+	tip = "駁回"
+}
+
+
+_G.pg.base.gametip.island_word_sbumit = {
+	tip = "交付"
+}
+
+
+_G.pg.base.gametip.island_word_speedup = {
+	tip = "加速"
+}
+
+
+_G.pg.base.gametip.island_order_cd_tip = {
+	tip = "訂單正在重新籌備中\n新的訂單預計還需要"
+}
+
+
+_G.pg.base.gametip.island_order_leftcnt_dispaly = {
+	tip = "本週加急訂單剩餘：$1"
+}
+
+
+_G.pg.base.gametip.island_order_title = {
+	tip = "訂單中心"
+}
+
+
+_G.pg.base.gametip.island_order_difficulty = {
+	tip = "訂單傾向"
+}
+
+
+_G.pg.base.gametip.island_order_leftCnt_tip = {
+	tip = "今日剩餘訂單："
+}
+
+
+_G.pg.base.gametip.island_order_get_label = {
+	tip = "領取獎勵"
+}
+
+
+_G.pg.base.gametip.island_order_ship_working = {
+	tip = "運輸中..."
+}
+
+
+_G.pg.base.gametip.island_order_ship_end_work = {
+	tip = "已完成..."
+}
+
+
+_G.pg.base.gametip.island_order_ship_worktime = {
+	tip = "待開始     運輸時間 $1"
+}
+
+
+_G.pg.base.gametip.island_order_ship_unlock_tip = {
+	tip = "該泊位可透過島嶼科技解鎖"
+}
+
+
+_G.pg.base.gametip.island_order_ship_unlock_tip_2 = {
+	tip = "解鎖"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup_award = {
+	tip = "裝載獎勵"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup = {
+	tip = "裝載"
+}
+
+
+_G.pg.base.gametip.island_order_ship_loadup_nores = {
+	tip = "數量不足"
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_req = {
+	tip = "檢視委託需求"
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_award = {
+	tip = "檢視委託獎勵"
+}
+
+
+_G.pg.base.gametip.island_cancel_queue = {
+	tip = "取消拜訪"
+}
+
+
+_G.pg.base.gametip.island_queue_display = {
+	tip = "當前目標島嶼訪客已達上限，進入等候佇列中\n您在佇列中的位置：$1"
+}
+
+
+_G.pg.base.gametip.island_season_label = {
+	tip = "開發季$1"
+}
+
+
+_G.pg.base.gametip.island_first_season = {
+	tip = "島嶼開發季I"
+}
+
+
+_G.pg.base.gametip.island_word_own = {
+	tip = "持有：$1"
+}
+
+
+_G.pg.base.gametip.island_ship_title1 = {
+	tip = "能力養成"
+}
+
+
+_G.pg.base.gametip.island_ship_title2 = {
+	tip = "能力提升"
+}
+
+
+_G.pg.base.gametip.island_ship_title3 = {
+	tip = "上限提升"
+}
+
+
+_G.pg.base.gametip.island_ship_title4 = {
+	tip = "消耗材料"
+}
+
+
+_G.pg.base.gametip.island_ship_lock_attr_tip = {
+	tip = "點選選擇需要提升的能力"
+}
+
+
+_G.pg.base.gametip.island_ship_unlock_limit_tip = {
+	tip = "是否消耗一個職責之星突破能力上限"
+}
+
+
+_G.pg.base.gametip.island_ship_breakout = {
+	tip = "突破"
+}
+
+
+_G.pg.base.gametip.island_ship_breakout_consume = {
+	tip = "消耗"
+}
+
+
+_G.pg.base.gametip.island_ship_newskill_unlock = {
+	tip = "技能解鎖："
+}
+
+
+_G.pg.base.gametip.island_word_give = {
+	tip = "待贈送"
+}
+
+
+_G.pg.base.gametip.island_unlock_ship_skill_color = {
+	tip = "是否解鎖裝扮顏色"
+}
+
+
+_G.pg.base.gametip.island_dressup_tip = {
+	tip = "是否確認選擇當前形象?後續可在島嶼中進行調整"
+}
+
+
+_G.pg.base.gametip.island_dressup_titile = {
+	tip = "裝扮"
+}
+
+
+_G.pg.base.gametip.island_dressup_tip_1 = {
+	tip = "裝扮資訊存在改動，是否儲存當前裝扮"
+}
+
+
+_G.pg.base.gametip.island_ship_energy = {
+	tip = "體力:"
+}
+
+
+_G.pg.base.gametip.island_ship_energy_full = {
+	tip = "體力已滿"
+}
+
+
+_G.pg.base.gametip.island_ship_energy_recoverytips = {
+	tip = "體力回滿還需"
+}
+
+
+_G.pg.base.gametip.island_word_ship_buff_desc = {
+	tip = "詳情"
+}
+
+
+_G.pg.base.gametip.island_word_ship_desc = {
+	tip = "角色詳情"
+}
+
+
+_G.pg.base.gametip.island_need_ship_level = {
+	tip = "需要角色等級達到$1"
+}
+
+
+_G.pg.base.gametip.island_skill_consume_title = {
+	tip = "消耗材料"
+}
+
+
+_G.pg.base.gametip.island_select_ship_gift = {
+	tip = "請選擇想要贈送的禮物"
+}
+
+
+_G.pg.base.gametip.island_word_ship_enengy_recover = {
+	tip = "體力恢復"
+}
+
+
+_G.pg.base.gametip.island_word_ship_level_upgrade = {
+	tip = "等級提升"
+}
+
+
+_G.pg.base.gametip.island_word_ship_level_upgrade_1 = {
+	tip = "每級提升時"
+}
+
+
+_G.pg.base.gametip.island_word_ship_rank = {
+	tip = "當前星級"
+}
+
+
+_G.pg.base.gametip.island_task_open = {
+	tip = "已開啟"
+}
+
+
+_G.pg.base.gametip.island_task_target = {
+	tip = "目標："
+}
+
+
+_G.pg.base.gametip.island_task_award = {
+	tip = "獎勵"
+}
+
+
+_G.pg.base.gametip.island_task_tracking = {
+	tip = "追蹤"
+}
+
+
+_G.pg.base.gametip.island_task_tracked = {
+	tip = "已追蹤"
+}
+
+
+_G.pg.base.gametip.island_dev_level = {
+	tip = "島嶼開發等級"
+}
+
+
+_G.pg.base.gametip.island_dev_level_tip = {
+	tip = "提升島嶼開發等級將會同步提高中樞許可權等級，解鎖更多島嶼科技的研發許可。"
+}
+
+
+_G.pg.base.gametip.island_invite_title = {
+	tip = "島嶼許可權認證裝置"
+}
+
+
+_G.pg.base.gametip.island_technology_title = {
+	tip = "島嶼科技"
+}
+
+
+_G.pg.base.gametip.island_tech_noauthority = {
+	tip = "許可權未解鎖"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_need = {
+	tip = "科技研發條件"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_dev = {
+	tip = "解鎖研發"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_start = {
+	tip = "開始研發"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_starting = {
+	tip = "研發中"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_success = {
+	tip = "研發完成"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_finish = {
+	tip = "已研發"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_finish_1 = {
+	tip = "研發完成"
+}
+
+
+_G.pg.base.gametip.island_tech_dev_cost = {
+	tip = "科研消耗"
+}
+
+
+_G.pg.base.gametip.island_tech_detail_desctitle = {
+	tip = "科技成果"
+}
+
+
+_G.pg.base.gametip.island_tech_detail_unlocktitle = {
+	tip = "解鎖條件"
+}
+
+
+_G.pg.base.gametip.island_tech_nodev = {
+	tip = "無研發"
+}
+
+
+_G.pg.base.gametip.island_tech_can_get = {
+	tip = "可領取"
+}
+
+
+_G.pg.base.gametip.island_get_item_tip = {
+	tip = "獲得物品"
+}
+
+
+_G.pg.base.gametip.island_add_temp_bag = {
+	tip = "以下物品將存入臨時倉庫"
+}
+
+
+_G.pg.base.gametip.island_buff_lasttime = {
+	tip = "剩餘時間:$1"
+}
+
+
+_G.pg.base.gametip.island_visit_off = {
+	tip = "關閉"
+}
+
+
+_G.pg.base.gametip.island_visit_on = {
+	tip = "開啟"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip = {
+	tip = "未滿足所需等級&道具條件"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip0 = {
+	tip = "島嶼開發等級：$1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip1 = {
+	tip = "完成計劃：$1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip2 = {
+	tip = "解鎖：$1"
+}
+
+
+_G.pg.base.gametip.island_tech_unlock_tip3 = {
+	tip = "研發完成：$1"
+}
+
+
+_G.pg.base.gametip.island_tech_no_slot = {
+	tip = "研發崗位已滿"
+}
+
+
+_G.pg.base.gametip.island_tech_lock = {
+	tip = "未解鎖"
+}
+
+
+_G.pg.base.gametip.island_tech_empty = {
+	tip = "待開啟"
+}
+
+
+_G.pg.base.gametip.island_submit_order_cd_tip = {
+	tip = "$1後可以交付"
+}
+
+
+_G.pg.base.gametip.island_friend_add = {
+	tip = "新增"
+}
+
+
+_G.pg.base.gametip.island_friend_agree = {
+	tip = "同意"
+}
+
+
+_G.pg.base.gametip.island_friend_refuse = {
+	tip = "拒絕"
+}
+
+
+_G.pg.base.gametip.island_friend_refuse_all = {
+	tip = "全部拒絕"
+}
+
+
+_G.pg.base.gametip.island_request = {
+	tip = "申請"
+}
+
+
+_G.pg.base.gametip.island_post_manage = {
+	tip = "整合管理"
+}
+
+
+_G.pg.base.gametip.island_post_produce = {
+	tip = "生產"
+}
+
+
+_G.pg.base.gametip.island_post_operate = {
+	tip = "經營"
+}
+
+
+_G.pg.base.gametip.island_post_acceptable = {
+	tip = "資材收取"
+}
+
+
+_G.pg.base.gametip.island_post_vacant = {
+	tip = "崗位空缺"
+}
+
+
+_G.pg.base.gametip.island_production_selected_character = {
+	tip = "委派"
+}
+
+
+_G.pg.base.gametip.island_production_collect = {
+	tip = "收取"
+}
+
+
+_G.pg.base.gametip.island_production_selected_item = {
+	tip = "選擇產物"
+}
+
+
+_G.pg.base.gametip.island_production_byproduct = {
+	tip = "額外產出 × $1"
+}
+
+
+_G.pg.base.gametip.island_production_start = {
+	tip = "委派開始"
+}
+
+
+_G.pg.base.gametip.island_production_finish = {
+	tip = "本輪委派已完成"
+}
+
+
+_G.pg.base.gametip.island_production_additional = {
+	tip = "追加委派"
+}
+
+
+_G.pg.base.gametip.island_production_count = {
+	tip = "生產次數"
+}
+
+
+_G.pg.base.gametip.island_production_character_info = {
+	tip = "角色詳情"
+}
+
+
+_G.pg.base.gametip.island_production_selected_tip1 = {
+	tip = "暫無符合條件的角色"
+}
+
+
+_G.pg.base.gametip.island_production_selected_tip2 = {
+	tip = "請選擇角色"
+}
+
+
+_G.pg.base.gametip.island_production_hold = {
+	tip = "持有：$1"
+}
+
+
+_G.pg.base.gametip.island_production_log_recover = {
+	tip = "採集次數已耗盡，恢復時間：$1"
+}
+
+
+_G.pg.base.gametip.island_production_plantable = {
+	tip = "可種植"
+}
+
+
+_G.pg.base.gametip.island_production_being_planted = {
+	tip = "作物正在生長中，現在還無法收穫哦"
+}
+
+
+_G.pg.base.gametip.island_production_cost_notenough = {
+	tip = "無法委派，請檢視所需資材和角色體力"
+}
+
+
+_G.pg.base.gametip.island_production_manually_cancel = {
+	tip = "當前已在種植中，是否確認移除作物並進行委派種植？"
+}
+
+
+_G.pg.base.gametip.island_production_harvestable = {
+	tip = "可收穫"
+}
+
+
+_G.pg.base.gametip.island_production_seeds_notenough = {
+	tip = "種子數量不足"
+}
+
+
+_G.pg.base.gametip.island_production_seeds_empty = {
+	tip = "未擁有種子，請前往商店購買"
+}
+
+
+_G.pg.base.gametip.island_production_tip = {
+	tip = "/次"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition1 = {
+	tip = "<color=#39bfff>$1</color>能力"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition2 = {
+	tip = "科技加成"
+}
+
+
+_G.pg.base.gametip.island_production_speed_addition3 = {
+	tip = "增益效果"
+}
+
+
+_G.pg.base.gametip.island_production_speed_tip1 = {
+	tip = "工作速度 <color=#39bfff>+$1%</color>"
+}
+
+
+_G.pg.base.gametip.island_production_speed_tip2 = {
+	tip = "工作速度加成"
+}
+
+
+_G.pg.base.gametip.island_order_ship_page_onekey_loadup = {
+	tip = "全部裝載"
+}
+
+
+_G.pg.base.gametip.agora_belong_theme = {
+	tip = "主題：$1"
+}
+
+
+_G.pg.base.gametip.agora_belong_theme_none = {
+	tip = "-無-"
+}
+
+
+_G.pg.base.gametip.island_achievement_title = {
+	tip = "島嶼成就"
+}
+
+
+_G.pg.base.gametip.island_achv_total = {
+	tip = "達成成就："
+}
+
+
+_G.pg.base.gametip.island_achv_finish_tip = {
+	tip = "成就：【$1】已達成"
+}
+
+
+_G.pg.base.gametip.island_card_edit_name = {
+	tip = "修改名稱"
+}
+
+
+_G.pg.base.gametip.island_card_edit_word = {
+	tip = "修改簽名"
+}
+
+
+_G.pg.base.gametip.island_card_default_word = {
+	tip = "歡迎來到島嶼開發區~"
+}
+
+
+_G.pg.base.gametip.island_card_view_detaills = {
+	tip = "檢視所有評價標籤"
+}
+
+
+_G.pg.base.gametip.island_card_close = {
+	tip = "點選螢幕任意空白處關閉"
+}
+
+
+_G.pg.base.gametip.island_card_choose_photo = {
+	tip = "島嶼形象選擇"
+}
+
+
+_G.pg.base.gametip.island_card_word_title = {
+	tip = "島嶼簽名"
+}
+
+
+_G.pg.base.gametip.island_card_label_list = {
+	tip = "島嶼評價標籤"
+}
+
+
+_G.pg.base.gametip.island_card_choose_achievement = {
+	tip = "已選擇：$1/4"
+}
+
+
+_G.pg.base.gametip.island_card_edit_label = {
+	tip = "新增評價標籤"
+}
+
+
+_G.pg.base.gametip.island_card_choose_label = {
+	tip = "已選擇：$1/$2"
+}
+
+
+_G.pg.base.gametip.island_card_like_done = {
+	tip = "今日已點贊~"
+}
+
+
+_G.pg.base.gametip.island_card_label_done = {
+	tip = "本週已評價~"
+}
+
+
+_G.pg.base.gametip.island_card_no_achv_self = {
+	tip = "暫無成就展示"
+}
+
+
+_G.pg.base.gametip.island_card_no_achv_other = {
+	tip = "-暫無成就展示-"
+}
+
+
+_G.pg.base.gametip.island_leave = {
+	tip = "離開"
+}
+
+
+_G.pg.base.gametip.island_repeat_vip = {
+	tip = "該玩家已在白名單中"
+}
+
+
+_G.pg.base.gametip.island_repeat_blacklist = {
+	tip = "該玩家已在黑名單中"
+}
+
+
+_G.pg.base.gametip.island_chat_settings = {
+	tip = "聊天設定"
+}
+
+
+_G.pg.base.gametip.island_card_no_label = {
+	tip = "暫無標籤"
 }
 
 
@@ -39651,6 +43159,782 @@ _G.pg.base.gametip.shipyard_favorability_threshold = {
 
 _G.pg.base.gametip.shipyard_favorability_max = {
 	tip = "好感度已達目前上限。"
+}
+
+
+_G.pg.base.gametip.island_activity_decorative_word = {
+	tip = "SPECIAL EVENT"
+}
+
+
+_G.pg.base.gametip.island_no_activity = {
+	tip = "暫無活動"
+}
+
+
+_G.pg.base.gametip.island_spoperation_level_2509_1 = {
+	tip = "開放條件：島嶼開發等級Lv.1"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_1 = {
+	tip = "活動期間，佩芮會連續釋出特產訂單，完成特產訂單可獲得開發季PT等獎勵。\n*特產訂單不佔用島嶼訂單完成上限、也不提升好評等級"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_2 = {
+	tip = "活動期間，島嶼特定區域中每天都會生長出新的活動採集物，快去尋找吧！"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2509_3 = {
+	tip = "活動期間，在【墜香果園】【有魚餐館】【白熊飲品】【手工製作裝置】中可生產對應特產"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_1 = {
+	tip = "特產製作"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_2 = {
+	tip = "特產採集"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2509_3 = {
+	tip = "活動管理員"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_1 = {
+	tip = "秋菊"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_2 = {
+	tip = "蘆葦花"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_3 = {
+	tip = "花生"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2509_4 = {
+	tip = "松茸"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2602_1 = {
+	tip = "活動期間，佩芮會連續釋出特產訂單，完成特產訂單可獲得開發季PT等獎勵。\n*特產訂單不佔用島嶼訂單完成上限、也不提升好評等級"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2602_2 = {
+	tip = "活動期間，島嶼特定區域中每天都會生長出新的活動採集物，快去尋找吧！"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2602_3 = {
+	tip = "活動期間，在【青芽苗圃】【白熊飲品】【有魚餐館】【手工製作裝置】中可生產對應特產"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2602_1 = {
+	tip = "特產採集"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2602_2 = {
+	tip = "特產製作"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2602_3 = {
+	tip = "活動管理員"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_1 = {
+	tip = "春筍"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_2 = {
+	tip = "薺菜"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_3 = {
+	tip = "迎春花"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2602_4 = {
+	tip = "風信子"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_1 = {
+	tip = "活動期間，佩芮會連續釋出特產訂單，完成特產訂單可獲得開發季PT等獎勵。\n*特產訂單不佔用島嶼訂單完成上限、也不提升好評等級"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_2 = {
+	tip = "活動期間，島嶼特定區域中每天都會生長出新的活動採集物，快去尋找吧！"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2605_3 = {
+	tip = "活動期間，在【青芽苗圃】【有魚餐館】【手工製作裝置】【白熊飲品】中可生產對應特產"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_1 = {
+	tip = "特產採集"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_2 = {
+	tip = "特產製作"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2605_3 = {
+	tip = "活動管理員"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_1 = {
+	tip = "茉莉花"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_2 = {
+	tip = "向日葵"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_3 = {
+	tip = "西瓜"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2605_4 = {
+	tip = "紅米莧"
+}
+
+
+_G.pg.base.gametip.island_follow_success = {
+	tip = "跟隨成功"
+}
+
+
+_G.pg.base.gametip.island_cancel_follow_success = {
+	tip = "取消跟隨"
+}
+
+
+_G.pg.base.gametip.island_follower_cnt_max = {
+	tip = "跟隨數量已達上限"
+}
+
+
+_G.pg.base.gametip.island_cancel_follow_tip = {
+	tip = "所選角色正在跟隨中，是否取消跟隨？"
+}
+
+
+_G.pg.base.gametip.island_follower_state_no_normal = {
+	tip = "該船處於其他狀態"
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_usable = {
+	tip = "邀請跟隨"
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_cancel = {
+	tip = "取消跟隨"
+}
+
+
+_G.pg.base.gametip.island_follow_btn_State_disable = {
+	tip = "佔用中"
+}
+
+
+_G.pg.base.gametip.island_draw_tab = {
+	tip = "星彩獎"
+}
+
+
+_G.pg.base.gametip.island_draw_tab_en = {
+	tip = "Stellar Prize Draw"
+}
+
+
+_G.pg.base.gametip.island_draw_last = {
+	tip = "剩餘："
+}
+
+
+_G.pg.base.gametip.island_draw_null = {
+	tip = "全部獲取"
+}
+
+
+_G.pg.base.gametip.island_draw_num = {
+	tip = "抽取次數"
+}
+
+
+_G.pg.base.gametip.island_draw_lottery = {
+	tip = "抽取"
+}
+
+
+_G.pg.base.gametip.island_draw_pick = {
+	tip = "獎勵自選"
+}
+
+
+_G.pg.base.gametip.island_draw_reward = {
+	tip = "檢視獎勵"
+}
+
+
+_G.pg.base.gametip.island_draw_time = {
+	tip = "開啟時間："
+}
+
+
+_G.pg.base.gametip.island_draw_time_1 = {
+	tip = "維護"
+}
+
+
+_G.pg.base.gametip.island_draw_S_order_title = {
+	tip = "S獎順序"
+}
+
+
+_G.pg.base.gametip.island_draw_S_order = {
+	tip = "請拖動獎勵設定獲取順序"
+}
+
+
+_G.pg.base.gametip.island_draw_S = {
+	tip = "S獎"
+}
+
+
+_G.pg.base.gametip.island_draw_A = {
+	tip = "A獎"
+}
+
+
+_G.pg.base.gametip.island_draw_B = {
+	tip = "B獎"
+}
+
+
+_G.pg.base.gametip.island_draw_C = {
+	tip = "C獎"
+}
+
+
+_G.pg.base.gametip.island_draw_get = {
+	tip = "已獲得"
+}
+
+
+_G.pg.base.gametip.island_draw_ready = {
+	tip = "確認抽取星彩獎？"
+}
+
+
+_G.pg.base.gametip.island_draw_float = {
+	tip = "剩餘獎品不足"
+}
+
+
+_G.pg.base.gametip.island_draw_choice_title = {
+	tip = "獎勵自選"
+}
+
+
+_G.pg.base.gametip.island_draw_choice = {
+	tip = "已抽取次數"
+}
+
+
+_G.pg.base.gametip.island_draw_sort = {
+	tip = "獎勵獲取順序設定成功"
+}
+
+
+_G.pg.base.gametip.island_draw_tip1 = {
+	tip = "是否消耗$1進行一次抽取"
+}
+
+
+_G.pg.base.gametip.island_draw_tip2 = {
+	tip = "是否消耗$1進行十次抽取"
+}
+
+
+_G.pg.base.gametip.island_draw_tip3 = {
+	tip = "是否消耗$1購買$2"
+}
+
+
+_G.pg.base.gametip.island_draw_tip4 = {
+	tip = "鑽石不足，是否前往購買"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_locked = {
+	tip = "未解鎖"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_receive = {
+	tip = "可領取"
+}
+
+
+_G.pg.base.gametip.island_freight_btn_idle = {
+	tip = "待運輸"
+}
+
+
+_G.pg.base.gametip.island_ticket_shop = {
+	tip = "前往獲取"
+}
+
+
+_G.pg.base.gametip.island_ticket_remain_time = {
+	tip = "剩餘時間"
+}
+
+
+_G.pg.base.gametip.island_ticket_auto_select = {
+	tip = "自動選擇"
+}
+
+
+_G.pg.base.gametip.island_ticket_use = {
+	tip = "使用加速券"
+}
+
+
+_G.pg.base.gametip.island_ticket_view = {
+	tip = "檢視所有"
+}
+
+
+_G.pg.base.gametip.island_ticket_storage_title = {
+	tip = "加速券"
+}
+
+
+_G.pg.base.gametip.island_ticket_sort_valid = {
+	tip = "到期時間"
+}
+
+
+_G.pg.base.gametip.island_ticket_sort_speedup = {
+	tip = "加速時間"
+}
+
+
+_G.pg.base.gametip.island_ticket_completed_quantity = {
+	tip = "加速生產$1份"
+}
+
+
+_G.pg.base.gametip.island_ticket_nearing_expiration = {
+	tip = "即將到期：$1張"
+}
+
+
+_G.pg.base.gametip.island_ticket_expiration_tip1 = {
+	tip = "以下加速券即將過期"
+}
+
+
+_G.pg.base.gametip.island_ticket_expiration_tip2 = {
+	tip = "以下加速券已過期"
+}
+
+
+_G.pg.base.gametip.island_ticket_finished = {
+	tip = "已結束"
+}
+
+
+_G.pg.base.gametip.island_ticket_expired = {
+	tip = "已過期"
+}
+
+
+_G.pg.base.gametip.island_use_ticket_success = {
+	tip = "加速成功"
+}
+
+
+_G.pg.base.gametip.island_sure_ticket_overflow = {
+	tip = "所選加速券加速時間超過生產所需時間，是否確認使用？"
+}
+
+
+_G.pg.base.gametip.island_ticket_expired_day = {
+	tip = "到期時間：$1天"
+}
+
+
+_G.pg.base.gametip.island_dress_replace_tip = {
+	tip = "裝扮已被其他角色穿戴，是否確定繼續穿戴？"
+}
+
+
+_G.pg.base.gametip.island_activity_expired = {
+	tip = "活動已結束"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_point = {
+	tip = "已獲得積分"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_get_oneclick = {
+	tip = "一鍵領取"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_jump_1 = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_1 = {
+	tip = "達到推演入門III即可獲取"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_2 = {
+	tip = "達到推演進階IV即可獲取"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_3 = {
+	tip = "達到推演專精IV即可獲取"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_task_reward_tip_4 = {
+	tip = "達到推演大師即可獲取"
+}
+
+
+_G.pg.base.gametip.island_activity_pt_got_all = {
+	tip = "已獲取全部獎勵"
+}
+
+
+_G.pg.base.gametip.island_guide = {
+	tip = "圖鑑"
+}
+
+
+_G.pg.base.gametip.island_guide_help = {
+	tip = [[
+積累收集點可以提升收藏等級，並解鎖對應的收藏獎勵。
+達成以下條件可以領取角色收集點：
+
+1.<color=#39bfff>獲取</color>角色：每名角色解鎖後可領取<color=#39bfff>20</color>收集點
+2.<color=#39bfff>提升星級</color>：每名角色提升星級可領取<color=#39bfff>30</color>收集點，提升至5星時可額外獲得<color=#39bfff>10</color>收集點
+3.角色<color=#39bfff>生活等級</color>：每名角色生活等級達到<color=#39bfff>50級</color>後可領取<color=#39bfff>50</color>收集點]]
+}
+
+
+_G.pg.base.gametip.island_guide_help_npc = {
+	tip = "積累收集點可以提升收藏等級，並解鎖對應的收藏獎勵。\n與NPC互動並解鎖圖鑑可以領取收集點"
+}
+
+
+_G.pg.base.gametip.island_guide_help_item = {
+	tip = [[
+積累收集點可以提升收藏等級，並解鎖對應的收藏獎勵。
+達成以下條件可以領取資材收集點：
+
+1.<color=#39bfff>獲取</color>資材：每種資材解鎖後可領取<color=#39bfff>20</color>收集點
+2.<color=#39bfff>累計獲取某種資材達到一定數量</color>：獲取某種資材的數量達到獎勵階段的目標數量後可領取收集點，每種資材都有各自的獎勵階段及其對應的目標數量，可在圖鑑中檢視]]
+}
+
+
+_G.pg.base.gametip.island_guide_help_fish = {
+	tip = [[
+積累收集點可以提升收藏等級，並解鎖對應的收藏獎勵。
+達成以下條件可以領取釣魚收集點：
+
+1.<color=#39bfff>獲取</color>魚類：每種魚類解鎖後可領取<color=#39bfff>10</color>收集點
+2.<color=#39bfff>獲取魚類的大小皇冠</color>：獲取某種魚類的重量紀錄滿足大小皇冠的條件後可領取收集點，每種魚類的大小皇冠重量條件各不相同，滿足條件後會在重量紀錄前顯示皇冠]]
+}
+
+
+_G.pg.base.gametip.island_guide_character_help = {
+	tip = "資訊"
+}
+
+
+_G.pg.base.gametip.island_guide_en = {
+	tip = "HANDBOOK"
+}
+
+
+_G.pg.base.gametip.island_guide_character = {
+	tip = "角色"
+}
+
+
+_G.pg.base.gametip.island_guide_character_en = {
+	tip = "CHARACTER"
+}
+
+
+_G.pg.base.gametip.island_guide_npc = {
+	tip = "島嶼開發團隊"
+}
+
+
+_G.pg.base.gametip.island_guide_npc_en = {
+	tip = "ISLAND DEVELOPMENT TEAM"
+}
+
+
+_G.pg.base.gametip.island_guide_item = {
+	tip = "資材"
+}
+
+
+_G.pg.base.gametip.island_guide_item_en = {
+	tip = "MATERIALS"
+}
+
+
+_G.pg.base.gametip.island_guide_collectionpoint = {
+	tip = "領取收集點"
+}
+
+
+_G.pg.base.gametip.island_guide_fish_min_weight = {
+	tip = "最小重量"
+}
+
+
+_G.pg.base.gametip.island_guide_fish_max_weight = {
+	tip = "最大重量"
+}
+
+
+_G.pg.base.gametip.island_get_collect_point_success = {
+	tip = "獲得$1收集點"
+}
+
+
+_G.pg.base.gametip.island_guide_active = {
+	tip = "可解鎖"
+}
+
+
+_G.pg.base.gametip.island_book_collection_award_title = {
+	tip = "收藏等級獎勵-Lv$1"
+}
+
+
+_G.pg.base.gametip.island_book_award_title = {
+	tip = "獎勵詳情"
+}
+
+
+_G.pg.base.gametip.island_guide_do_active = {
+	tip = "解鎖"
+}
+
+
+_G.pg.base.gametip.island_guide_lock_desc = {
+	tip = "未解鎖"
+}
+
+
+_G.pg.base.gametip.island_gift_entrance = {
+	tip = "日常補給"
+}
+
+
+_G.pg.base.gametip.island_sign_text = {
+	tip = "- 島嶼開發之星 -"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_chara_set = {
+	tip = "設定預設角色"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_chara_choose = {
+	tip = "選擇角色"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_res_have = {
+	tip = "該資源最大持有數："
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_close = {
+	tip = "商店剩餘$1關閉"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_refresh = {
+	tip = "$1後重新整理"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_refresh_limit = {
+	tip = "重新整理次數已達上限"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_have = {
+	tip = "持有:"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_time_unlock = {
+	tip = "剩餘$1解鎖"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_no = {
+	tip = "購買數量"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_last = {
+	tip = "(剩餘:$1)"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_close = {
+	tip = "點選空白處關閉"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_no_have = {
+	tip = "擁有數量($1)"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_goods_time = {
+	tip = "剩餘$1天"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_clothes_jump = {
+	tip = "是否跳轉到裝扮介面"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_confirm = {
+	tip = "購買"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy = {
+	tip = "購買"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_tip0 = {
+	tip = "獲得"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_return = {
+	tip = "取消"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_price = {
+	tip = "售價"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_buy_have = {
+	tip = "持有"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_bag_max = {
+	tip = "島嶼倉庫已滿"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_gold = {
+	tip = "港區物資不足"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_gem = {
+	tip = "鑽石不足"
+}
+
+
+_G.pg.base.gametip.island_3Dshop_lack_res = {
+	tip = "島嶼資源不足"
+}
+
+
+_G.pg.base.gametip.island_photo_fur_lock = {
+	tip = "當前無法使用相機"
+}
+
+
+_G.pg.base.gametip.island_exchange_title = {
+	tip = "加工"
+}
+
+
+_G.pg.base.gametip.island_exchange_title_en = {
+	tip = "Processing"
+}
+
+
+_G.pg.base.gametip.island_exchange_own_count = {
+	tip = "持有數量"
+}
+
+
+_G.pg.base.gametip.island_exchange_btn_text = {
+	tip = "加工"
+}
+
+
+_G.pg.base.gametip.island_exchange_sure_tip = {
+	tip = "是否確認進行加工？"
+}
+
+
+_G.pg.base.gametip.island_bag_max_tip = {
+	tip = "島嶼倉庫已滿"
 }
 
 
@@ -40057,6 +44341,31 @@ _G.pg.base.gametip.ninja_game_booktip = {
 }
 
 
+_G.pg.base.gametip.island_no_position_to_reponse_action = {
+	tip = "未找到合適的響應位置，已跳過動畫"
+}
+
+
+_G.pg.base.gametip.island_position_cant_play_cp_action = {
+	tip = "當前位置無法發起互動，請調整位置後重試"
+}
+
+
+_G.pg.base.gametip.island_position_cant_response_cp_action = {
+	tip = "當前位置無法響應互動，請調整位置後重試"
+}
+
+
+_G.pg.base.gametip.island_card_no_achieve_tip = {
+	tip = "暫未達成島嶼成就"
+}
+
+
+_G.pg.base.gametip.island_card_no_label_tip = {
+	tip = "暫未獲得島嶼評價標籤"
+}
+
+
 _G.pg.base.gametip.gift_giving_prefer = {
 	tip = "看起來很喜歡你的禮物。"
 }
@@ -40087,8 +44396,110 @@ _G.pg.base.gametip.dorm3d_dafeng_bed = {
 }
 
 
+_G.pg.base.gametip.island_draw_help = {
+	tip = [[
+星彩獎有<color=#39bfff>S獎、A獎、B獎、C獎</color>四種等級獎勵，可消耗<color=#39bfff>星彩券</color>進行抽取。
+*星彩券可透過參與島嶼計劃或消耗鑽石購買獲得。
+1.<color=#39bfff>S獎</color>可透過拖動調整後續獎勵的獲取順序，已被抽出的獎勵無法調整獲取順序。
+2.星彩獎中<color=#39bfff>所有獎勵抽取機率完全相同</color>，獎勵被抽出後不會放回獎池，全部獎勵抽完後不可繼續抽取。
+3.在星彩獎獎池開啟期間，累計抽取一定次數後可在星彩獎頁面<color=#39bfff>自選累計抽取次數獎勵</color>，該累計抽取次數會在<color=#39bfff>活動結束後重置</color>。
+4.可點選星彩獎介面中的檢視獎勵，檢視本期星彩獎獎池內的所有獎勵。
+5.當星彩獎獎池到期後，若獎勵未全部獲得且仍持有星彩券，<color=#39bfff>將自動消耗剩餘星彩券，直到抽取完所有獎勵或消耗完星彩券</color>。未消耗的星彩券會根據<color=#39bfff>購買價格返還鑽石</color>，返還及自動抽取獎勵會透過郵箱進行發放。]]
+}
+
+
+_G.pg.base.gametip.island_dress_initial_makesure = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.island_shop_lock_tip = {
+	tip = "商店未解鎖"
+}
+
+
+_G.pg.base.gametip.island_agora_no_size = {
+	tip = "剩餘空間不足"
+}
+
+
+_G.pg.base.gametip.island_combo_unlock = {
+	tip = "套餐製作已解鎖"
+}
+
+
+_G.pg.base.gametip.island_additional_production_tip1 = {
+	tip = "追加生產"
+}
+
+
+_G.pg.base.gametip.island_additional_production_tip2 = {
+	tip = "當前生產已結束，無法進行追加"
+}
+
+
+_G.pg.base.gametip.island_manage_stock_out = {
+	tip = "無可上架餐品"
+}
+
+
+_G.pg.base.gametip.island_manage_item_select = {
+	tip = "已選擇食材"
+}
+
+
+_G.pg.base.gametip.island_combo_produced = {
+	tip = "製作"
+}
+
+
+_G.pg.base.gametip.island_combo_produced_times = {
+	tip = "$1次"
+}
+
+
+_G.pg.base.gametip.island_agora_no_interact_point = {
+	tip = "此處已被佔用，暫時無法互動 "
+}
+
+
+_G.pg.base.gametip.island_reward_tip = {
+	tip = "獲得"
+}
+
+
+_G.pg.base.gametip.island_commontips_close = {
+	tip = "點選空白處關閉"
+}
+
+
 _G.pg.base.gametip.world_inventory_tip = {
-	tip = "重置後可轉換的兌換券 "
+	tip = "重置後可轉換的兌換券"
+}
+
+
+_G.pg.base.gametip.island_setmeal_title = {
+	tip = "套餐圖鑑"
+}
+
+
+_G.pg.base.gametip.island_setmeal_benifit_title = {
+	tip = "收益提升"
+}
+
+
+_G.pg.base.gametip.island_shipselect_confirm = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.island_dresscolorunlock_tips = {
+	tip = "解鎖消耗"
+}
+
+
+_G.pg.base.gametip.island_dresscolorunlock = {
+	tip = "解鎖"
 }
 
 
@@ -40172,8 +44583,90 @@ _G.pg.base.gametip.dorm3d_furnitrue_type_special = {
 }
 
 
+_G.pg.base.gametip.island_helpbtn_order = {
+	tip = [[
+<color=#E58A00>島嶼訂單</color>：透過交付對應數量的<color=#39bfff>資材</color>即可完成島嶼訂單，獲得島嶼<color=#39bfff>開發資金</color>和<color=#39bfff>開發經驗</color>的獎勵。
+<color=#E58A00>加急訂單</color>：在<color=#39bfff>島嶼科技</color>中開啟加急訂單後，在島嶼中<color=#39bfff>遊玩一定時長</color>、<color=#39bfff>交付普通訂單</color>和<color=#39bfff>裝載貨運委託</color>均有機率刷出加急訂單。
+<color=#E58A00>訂單上限</color>：普通訂單與加急訂單均有上限，普通訂單為<color=#39bfff>每日上限</color>，加急訂單為<color=#39bfff>每週上限</color>。
+<color=#E58A00>訂單傾向</color>：可在訂單傾向中選擇訂單的整體交付難度，改變後的傾向將在<color=#39bfff>下次出現訂單時</color>生效。]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_commission = {
+	tip = [[
+在整合管理介面中可對已解鎖的<color=#39bfff>生產</color>、<color=#39bfff>經營</color>以及<color=#39bfff>日常補給</color>等內容進行操作和確認。
+<color=#E58A00>生產</color>：點選<color=#39bfff>對應崗位</color>可進行角色委派和領取產物，點選<color=#39bfff>切換按鈕</color>可檢視委派角色與產物。
+<color=#E58A00>經營</color>：點選<color=#39bfff>經營準備</color>可進行店員、餐品選擇，點選<color=#39bfff>營業結算</color>可收取營業收益。
+<color=#E58A00>補給</color>：點選<color=#39bfff>“補給”按鈕</color>可快速傳送至集會島日常補給裝置處。]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_speedup = {
+	tip = [[
+使用加速券可縮短<color=#39bfff>角色委派</color>、<color=#39bfff>更換訂單</color>的等待時間。
+
+加速券有不同的<color=#39bfff>加速時長</color>，使用後超出部分時長<color=#FD5650>不會返還</color>，請合理規劃使用對應時長的加速券。
+
+加速券有對應的<color=#39bfff>到期時間</color>，超過時間後對應的加速券將會<color=#FD5650>失效</color>。]]
+}
+
+
+_G.pg.base.gametip.island_helpbtn_card = {
+	tip = {
+		{
+			info = [[
+名片中可檢視指揮官的各類資訊，指揮官可以透過<color=#39bfff>聊天</color>或<color=#39bfff>拜訪</color>功能檢視他人的名片。
+<color=#E58A00>成就展示</color>：點選後可以選擇已獲得的<color=#39bfff>成就</color>在名片中進行展示。
+<color=#E58A00>修改名稱</color>：點選<color=#39bfff>修改名稱</color>可對島嶼名稱進行修改。
+<color=#E58A00>修改簽名</color>：點選<color=#39bfff>修改簽名</color>可對名片中的簽名進行修改。
+<color=#E58A00>評價標籤</color>：點選檢視已獲得的所有評價標籤。
+<color=#E58A00>島嶼形象</color>：點選切換按鈕可重新選擇島嶼形象。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_helpbtn_technology = {
+	tip = "可以委派角色對島嶼科技進行研發，滿足科技解鎖條件後消耗對應資材即可開始研發，等待研發完成後可開啟全新功能、解鎖<color=#39bfff>新產地</color>和<color=#39bfff>產物</color>。\n<color=#E58A00>中樞認證科技</color>：研發後可解鎖<color=#39bfff>島嶼地圖</color>、<color=#39bfff>整合管理</color>等便捷功能，還能進一步解鎖<color=#39bfff>島嶼訂單</color>、<color=#39bfff>貨運委託</color>、<color=#39bfff>日常補給</color>的<color=#39bfff>額外功能</color>，以及獲取<color=#39bfff>新角色</color>的島嶼許可權認證函。\n<color=#E58A00>分支科技</color>：可開啟各生產區域內的<color=#39bfff>委派功能</color>，提升手動及委派的生產效率，以及解鎖各生產區域內的<color=#39bfff>配方</color>。"
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_tip1 = {
+	tip = "該貨運委託已裝載資材，無法更換"
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_tip2 = {
+	tip = "是否更換貨運委託"
+}
+
+
+_G.pg.base.gametip.island_shiporder_refresh_preparing = {
+	tip = "貨運委託準備中"
+}
+
+
+_G.pg.base.gametip.island_information_tech = {
+	tip = "科技研發-$1-$2"
+}
+
+
 _G.pg.base.gametip.dorm3d_shop_tag8 = {
 	tip = "解鎖絲襪互動"
+}
+
+
+_G.pg.base.gametip.island_chara_attr_help = {
+	tip = [[
+1.角色<color=#39bfff>能力值</color>越高，對應的<color=#39bfff>能力評級</color>越高
+2.<color=#39bfff>能力評級</color>越高，進行<color=#39bfff>對應能力的工作</color>時<color=#39bfff>效率</color>越高
+3.<color=#39bfff>能力評級</color>對應<color=#39bfff>能力值</color>範圍：
+	<color=#E79CC6>S</color>  能力值>=200
+	<color=#FFDC1C>A</color>  120<=能力值<200
+	<color=#B7A4FF>B</color>  80<=能力值<120
+	<color=#97CFF6>C</color>  50<=能力值<80
+	<color=#757577>D</color>  25<=能力值<50
+	<color=#757577>E</color>  0<=能力值<25]]
 }
 
 
@@ -40194,6 +44687,16 @@ _G.pg.base.gametip.fengfanV3_20251023_Sidebar3 = {
 
 _G.pg.base.gametip.fengfanV3_20251023_jinianshouce = {
 	tip = "紀念手冊"
+}
+
+
+_G.pg.base.gametip.island_selectall = {
+	tip = "全選"
+}
+
+
+_G.pg.base.gametip.island_quickselect_tip = {
+	tip = "*長按圖示可快速增加選擇數量"
 }
 
 
@@ -40259,6 +44762,129 @@ _G.pg.base.gametip.equip_enhancement_required = {
 
 _G.pg.base.gametip.shop_sell_ended = {
 	tip = "不可購買"
+}
+
+
+_G.pg.base.gametip.island_taskjump_systemnoopen_tips = {
+	tip = "系統未解鎖，無法跳轉"
+}
+
+
+_G.pg.base.gametip.island_taskjump_placenoopen_tips = {
+	tip = "地點未解鎖，無法跳轉"
+}
+
+
+_G.pg.base.gametip.island_ship_order_toggle_label_award = {
+	tip = "檢視獎勵"
+}
+
+
+_G.pg.base.gametip.island_ship_order_toggle_label_request = {
+	tip = "檢視需求"
+}
+
+
+_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_label = {
+	tip = "當前無可運輸的貨運委託"
+}
+
+
+_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_time = {
+	tip = "委託列表自動重新整理時間："
+}
+
+
+_G.pg.base.gametip.island_order_ship_finish_cnt = {
+	tip = "運輸次數$1/$2"
+}
+
+
+_G.pg.base.gametip.island_order_ship_sel_delegate_label = {
+	tip = "- 點選選擇貨運委託 -"
+}
+
+
+_G.pg.base.gametip.island_order_ship_finish_cnt_not_enough = {
+	tip = "停止裝載"
+}
+
+
+_G.pg.base.gametip.island_order_ship_reset_all = {
+	tip = "是否確認重新整理委託列表中的全部委託"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip = {
+	tip = "是否確認更換新的貨運委託？"
+}
+
+
+_G.pg.base.gametip.island_order_ship_btn_replace = {
+	tip = "更換委託"
+}
+
+
+_G.pg.base.gametip.island_fishing_tip_hooked = {
+	tip = "魚兒咬鉤了"
+}
+
+
+_G.pg.base.gametip.island_fishing_tip_escape = {
+	tip = "魚兒逃脫了"
+}
+
+
+_G.pg.base.gametip.island_fishing_exit = {
+	tip = "是否停止釣魚？"
+}
+
+
+_G.pg.base.gametip.island_fishing_lure_empty = {
+	tip = "魚餌不能是空"
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip_2 = {
+	tip = "無可運輸次數"
+}
+
+
+_G.pg.base.gametip.island_follower_exiting_tip = {
+	tip = "該角色正在離開..."
+}
+
+
+_G.pg.base.gametip.island_order_ship_exchange_tip_1 = {
+	tip = "該委託已裝載資材，更換將消耗一次運輸次數且已裝載資材無法取回，是否確認更換新的貨運委託？"
+}
+
+
+_G.pg.base.gametip.island_urgent_notice = {
+	tip = {
+		{
+			info = "島嶼開發季特殊重置說明"
+		},
+		{
+			info = [[
+在<color=#39bfff>2025.11.06維護</color>後，司令部將對本次島嶼開發季進行特殊重置，新的開發季持續時間為：<color=#39bfff>2025.11.6維護後~2026.2.5維護</color>，同時也將透過<color=#39bfff>「主介面」-「補償」</color>向各位指揮官發放島嶼開發季相關補償，屆時還請指揮官注意查收。 
+※相關重置及補償規則： 
+1.生產經營（正在進行的<color=#39bfff>島嶼訂單、貨運委託、角色委派、手動種植、店鋪經營；</color>等將清理重置）
+2.開發排行：各位指揮官將自動獲得最高檔位的開發排名獎勵；
+3.開發計劃：進度將隨重置清空，未完成及已完成未領取的開發計劃中的星彩券獎勵將會透過<color=#39bfff>【補償】</color>發放給指揮官，還請指揮官及時領取相關獎勵； 
+4.開發商店：重置開發商店內容，2026.2.5維護前商店內的指揮官配飾和動作將保留（不可重複獲得）； 
+5.島嶼訂單：新增<color=#39bfff>島嶼PT兌換券</color>，將根據目前已完成的活動訂單數量獲得對應數量的島嶼PT兌換券，可直接轉換為一定數量的島嶼開發PT。
+※島嶼PT兌換券屬於資材，將於對應島嶼開發季結束後自動轉化為對應數量的島嶼開發PT。
+6.其他進度重置：下次維護後，包括島嶼訂單（每日訂單、加急訂單週剩餘次數、好評等級）、貨運委託（重新整理次數重置）、開發區計劃（每日計劃、每週計劃）、地圖採集點（地圖採集物、礦石、伐木點等）、每日補給及每日可領取補給次數、每日角色互動次數、店鋪經營次數在內的玩法內容也將重置；
+*由於本次島嶼開發季提前結算，本次特殊結算PT將以<color=#39bfff>1:4</color>的比例進行換算，在自動將倉庫中資材轉換成島嶼開發PT後，將根據換算後的PT透過<color=#39bfff>【補償】</color>發放相應的累計PT獎勵；
+*本次結算不會轉換秋季特產經營的特產資材；
+※島嶼開發季特殊重置後不會重置的內容：
+*星彩獎(獎品、已被抽出的獎勵、抽取次數、累計抽取次數獎勵、星彩券等)不會隨開發季重置；
+*秋季特產經營的特產資材不會隨開發季重置；
+*僅可獲得一次、購買後永久獲得或持有的內容將不會被重置，如開發資金、島嶼開發等級、角色的獲取和養成、角色養成相關道具、集會島建築和傢俱、角色裝扮、配飾，指揮官裝扮、配飾、島嶼科技、店鋪等級、島嶼計劃（主線、支線）完成情況、成就等內容不會被重置
+*開發季限時加速券不會隨開發季重置]]
+		}
+	}
 }
 
 
@@ -41064,6 +45690,26 @@ _G.pg.base.gametip.battle_battleMediator_quest_exist_submarine_support = {
 }
 
 
+_G.pg.base.gametip.island_survey_ui_1 = {
+	tip = "為了更好地收集指揮官的意見與建議,司令部在此為您準備了一份問卷。"
+}
+
+
+_G.pg.base.gametip.island_survey_ui_2 = {
+	tip = "問卷提交後將無法修改,請指揮官認真填寫。"
+}
+
+
+_G.pg.base.gametip.island_survey_ui_award = {
+	tip = "作為感謝，完成問卷後可獲得："
+}
+
+
+_G.pg.base.gametip.island_survey_ui_button = {
+	tip = "開啟問卷"
+}
+
+
 _G.pg.base.gametip.ANTTFFCoreActivity_subtitle_1 = {
 	tip = "響徹於天穹之音·F"
 }
@@ -41233,6 +45879,272 @@ _G.pg.base.gametip.SpringFestival2026CoreActivity_subtitle_7 = {
 }
 
 
+_G.pg.base.gametip.island_post_event_label = {
+	tip = "經營事件"
+}
+
+
+_G.pg.base.gametip.island_post_event_close_label = {
+	tip = "關閉"
+}
+
+
+_G.pg.base.gametip.island_post_event_open_label = {
+	tip = "檢視"
+}
+
+
+_G.pg.base.gametip.island_post_event_addition_label = {
+	tip = "下列餐品獲得加成"
+}
+
+
+_G.pg.base.gametip.island_addition_influence = {
+	tip = "吸引力"
+}
+
+
+_G.pg.base.gametip.island_addition_sale = {
+	tip = "售價"
+}
+
+
+_G.pg.base.gametip.island_trade_title = {
+	tip = "珍珠採購點"
+}
+
+
+_G.pg.base.gametip.island_trade_title2 = {
+	tip = "珍珠售賣點"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_label = {
+	tip = "珍珠售賣"
+}
+
+
+_G.pg.base.gametip.island_trade_trend_label = {
+	tip = "價格曲線"
+}
+
+
+_G.pg.base.gametip.island_trade_purchase_label = {
+	tip = "珍珠採購"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_label = {
+	tip = "好友排名"
+}
+
+
+_G.pg.base.gametip.island_trade_purchase_sub_label = {
+	tip = "採購"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_sub_label = {
+	tip = "售賣"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_num_label = {
+	tip = "開發排名"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_info_label = {
+	tip = "島嶼資訊"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_price_label = {
+	tip = "今日價格"
+}
+
+
+_G.pg.base.gametip.island_trade_rank_level_label = {
+	tip = "島嶼等級"
+}
+
+
+_G.pg.base.gametip.island_trade_invite_label = {
+	tip = "邀請玩家"
+}
+
+
+_G.pg.base.gametip.island_trade_tip_label = {
+	tip = "每日03：00重新整理採購價格"
+}
+
+
+_G.pg.base.gametip.island_trade_tip_label2 = {
+	tip = "每日03：00重新整理售賣價格"
+}
+
+
+_G.pg.base.gametip.island_trade_limit_label = {
+	tip = "本週可採購數量$1"
+}
+
+
+_G.pg.base.gametip.island_trade_send_msg_label = {
+	tip = "<material=underline c=#006400 ><color=#006400>今日珍珠售價$2</color></material>"
+}
+
+
+_G.pg.base.gametip.island_trade_send_msg_match_label = {
+	tip = "神秘商人"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_tip_label = {
+	tip = "今日可在該島售賣數量$1"
+}
+
+
+_G.pg.base.gametip.island_trade_purchase_failed_label = {
+	tip = "本週珍珠採購數量已達上限"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_failed_label = {
+	tip = "持有珍珠數量不足無法售賣"
+}
+
+
+_G.pg.base.gametip.island_trade_sell_failed_label2 = {
+	tip = "本日該島珍珠可售賣數量已達上限"
+}
+
+
+_G.pg.base.gametip.island_trade_bag_full_label = {
+	tip = "倉庫容量不足無法採購"
+}
+
+
+_G.pg.base.gametip.island_trade_reset_label = {
+	tip = "今日價格已重置"
+}
+
+
+_G.pg.base.gametip.island_trade_help = {
+	tip = "大頭菜幫助"
+}
+
+
+_G.pg.base.gametip.island_trade_help_1 = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help4"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_trade_help_2 = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/island_trade_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.island_trade_price_unrefresh = {
+	tip = "島主尚未更新價格無法交易"
+}
+
+
+_G.pg.base.gametip.island_trade_msg_pop = {
+	tip = "$1邀請你前往他的島嶼，該島嶼今日珍珠售價$3"
+}
+
+
+_G.pg.base.gametip.island_trade_invite_success = {
+	tip = "邀請成功"
+}
+
+
+_G.pg.base.gametip.island_trade_share_success = {
+	tip = "邀請成功"
+}
+
+
+_G.pg.base.gametip.island_trade_activity_desc_1 = {
+	tip = "　活動期間，神秘商人會出現在集會島，在神秘商人處可進行珍珠售賣。"
+}
+
+
+_G.pg.base.gametip.island_trade_activity_desc_2 = {
+	tip = "　珍珠可從開發季管理員佩芮處採購，每日採購和售賣的價格會出現波動。"
+}
+
+
+_G.pg.base.gametip.island_trade_activity_unlock = {
+	tip = "開放等級：島嶼LV.22"
+}
+
+
+_G.pg.base.gametip.island_bar_quick_game = {
+	tip = "快速遊戲"
+}
+
+
+_G.pg.base.gametip.island_trade_cnt_inadequate = {
+	tip = "數量不足"
+}
+
+
 _G.pg.base.gametip.drawdiary_ui_2026 = {
 	tip = "繪圖日記"
 }
@@ -41381,8 +46293,83 @@ _G.pg.base.gametip.help_chunjie_jiulou_2026 = {
 }
 
 
+_G.pg.base.gametip.island_gift_tip_title = {
+	tip = "體力"
+}
+
+
+_G.pg.base.gametip.island_gift_tip = {
+	tip = "繼續贈送該禮物將會超出體力上限，是否繼續贈送"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_tip = {
+	tip = "採集"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_power = {
+	tip = "消耗體力"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_money = {
+	tip = "消耗資金"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_range = {
+	tip = "選擇採集目標"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_start = {
+	tip = "出發"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_tag_1 = {
+	tip = "野外採集物"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_tag_2 = {
+	tip = "礦物及木材"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_skill_effect = {
+	tip = "體力消耗"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_done = {
+	tip = "採集完成"
+}
+
+
+_G.pg.base.gametip.island_chara_gather_no_target = {
+	tip = "無剩餘可採集目標"
+}
+
+
+_G.pg.base.gametip.island_quick_delegation = {
+	tip = "再次委派"
+}
+
+
+_G.pg.base.gametip.island_quick_delegation_notenough_encourage = {
+	tip = "$1體力不足，無法委派"
+}
+
+
+_G.pg.base.gametip.island_quick_delegation_notenough_onduty = {
+	tip = "$1正在進行其他工作，無法委派"
+}
+
+
 _G.pg.base.gametip.child_plan_skip_event = {
-	tip = "跳过随机事件动画"
+	tip = "跳過隨機事件動畫"
 }
 
 
@@ -41555,6 +46542,11 @@ _G.pg.base.gametip.child2_mood_stage4 = {
 
 _G.pg.base.gametip.child2_mood_stage5 = {
 	tip = "目前心情階段：心花怒放"
+}
+
+
+_G.pg.base.gametip.cultivating_plant_island_task = {
+	tip = "前往島嶼完成計劃"
 }
 
 
@@ -41863,7 +46855,7 @@ _G.pg.base.gametip.multiple_endings_tip = {
 
 
 _G.pg.base.gametip.l2d_tip_on = {
-	tip = "ive2D互動提示已開啟"
+	tip = "Live2D互動提示已開啟"
 }
 
 
@@ -41909,6 +46901,381 @@ _G.pg.base.gametip.OutPostOmenPage_task_tip1 = {
 
 _G.pg.base.gametip.OutPostOmenPage_task_tip2 = {
 	tip = "領取前一日任務獎勵後解鎖"
+}
+
+
+_G.pg.base.gametip.play_room_season = {
+	tip = "賽季"
+}
+
+
+_G.pg.base.gametip.play_room_season_en = {
+	tip = "SEASON"
+}
+
+
+_G.pg.base.gametip.play_room_viewer_tip = {
+	tip = "觀看人數: $1/$2"
+}
+
+
+_G.pg.base.gametip.play_room_switch_viewer = {
+	tip = "切換觀戰"
+}
+
+
+_G.pg.base.gametip.play_room_switch_player = {
+	tip = "進行觀戰"
+}
+
+
+_G.pg.base.gametip.play_room_switch_tip = {
+	tip = "是否切換私人/公共房間？"
+}
+
+
+_G.pg.base.gametip.island_bar_quick_tip = {
+	tip = "暫時沒有找到房間，是否立即建立新房間？"
+}
+
+
+_G.pg.base.gametip.island_bar_quick_addbot = {
+	tip = "是否添滿機器人立即開始遊戲？"
+}
+
+
+_G.pg.base.gametip.match_exit = {
+	tip = "$1玩家，因為退出匹配，需要等待$2秒"
+}
+
+
+_G.pg.base.gametip.match_point_gap = {
+	tip = "積分差距過大，無法發起匹配"
+}
+
+
+_G.pg.base.gametip.match_room_num_full1 = {
+	tip = "房間已到達上限，不可再新建房間"
+}
+
+
+_G.pg.base.gametip.match_room_full2 = {
+	tip = "房間已滿，無法加入"
+}
+
+
+_G.pg.base.gametip.match_no_search_room = {
+	tip = "沒有搜尋到指定房間"
+}
+
+
+_G.pg.base.gametip.match_ui_room_name = {
+	tip = "$1的房間"
+}
+
+
+_G.pg.base.gametip.match_ui_room_create = {
+	tip = "建立房間"
+}
+
+
+_G.pg.base.gametip.match_ui_room_search = {
+	tip = "搜尋"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type1 = {
+	tip = "進行中…"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type2 = {
+	tip = "加入"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type3 = {
+	tip = "已滿員"
+}
+
+
+_G.pg.base.gametip.match_ui_room_type4 = {
+	tip = "私人"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle1 = {
+	tip = "排序"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle2 = {
+	tip = "房間"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filtertitle3 = {
+	tip = "狀態"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter1 = {
+	tip = "房間人數"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter2 = {
+	tip = "觀戰人數"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter3 = {
+	tip = "建立時間"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter4 = {
+	tip = "所有房間"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter5 = {
+	tip = "公開房間"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter6 = {
+	tip = "私人房間"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter7 = {
+	tip = "所有狀態"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter8 = {
+	tip = "未開始"
+}
+
+
+_G.pg.base.gametip.match_ui_room_filter9 = {
+	tip = "已開始"
+}
+
+
+_G.pg.base.gametip.match_ui_room_out = {
+	tip = "您已被房主踢出房間"
+}
+
+
+_G.pg.base.gametip.match_ui_room_homeowner = {
+	tip = "房主"
+}
+
+
+_G.pg.base.gametip.match_ui_room_send = {
+	tip = "傳送"
+}
+
+
+_G.pg.base.gametip.match_ui_room_ready1 = {
+	tip = "準備"
+}
+
+
+_G.pg.base.gametip.match_ui_room_ready2 = {
+	tip = "已準備"
+}
+
+
+_G.pg.base.gametip.match_ui_room_startgame = {
+	tip = "開始遊戲"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_invitation = {
+	tip = "好友邀請"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_consent = {
+	tip = "同意"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_waiting1 = {
+	tip = "等待時間：$1秒"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_waiting2 = {
+	tip = "匹配中"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_loading = {
+	tip = "場景搭建中…"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list1 = {
+	tip = "好友"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list2 = {
+	tip = "艦隊"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list3 = {
+	tip = "所有"
+}
+
+
+_G.pg.base.gametip.match_ui_ranking_list4 = {
+	tip = "暫未上榜"
+}
+
+
+_G.pg.base.gametip.match_ui_punishment1 = {
+	tip = "檢測到最近有戰鬥提前退出，因頻繁退出會破壞其他指揮官體驗\n本次匹配需等待$1秒後才可繼續進行遊戲。"
+}
+
+
+_G.pg.base.gametip.match_ui_punishment2 = {
+	tip = "我已知曉"
+}
+
+
+_G.pg.base.gametip.match_ui_chat = {
+	tip = "房間"
+}
+
+
+_G.pg.base.gametip.match_ui_point_match = {
+	tip = "積分匹配"
+}
+
+
+_G.pg.base.gametip.match_ui_accept = {
+	tip = "接受"
+}
+
+
+_G.pg.base.gametip.match_ui_matching = {
+	tip = "匹配中"
+}
+
+
+_G.pg.base.gametip.match_ui_point = {
+	tip = "已獲得積分"
+}
+
+
+_G.pg.base.gametip.match_ui_room_list = {
+	tip = "房間列表"
+}
+
+
+_G.pg.base.gametip.match_ui_matching2 = {
+	tip = "正在匹配中……"
+}
+
+
+_G.pg.base.gametip.match_ui_server_unkonw = {
+	tip = "未知"
+}
+
+
+_G.pg.base.gametip.match_ui_window_out = {
+	tip = "暫未上榜"
+}
+
+
+_G.pg.base.gametip.match_ui_matching_fail = {
+	tip = "暫無匹配玩家 "
+}
+
+
+_G.pg.base.gametip.bar_ui_start1 = {
+	tip = "真實戰術"
+}
+
+
+_G.pg.base.gametip.bar_ui_start2 = {
+	tip = "真實戰術"
+}
+
+
+_G.pg.base.gametip.bar_ui_check1 = {
+	tip = "前往遊戲"
+}
+
+
+_G.pg.base.gametip.bar_ui_check2 = {
+	tip = "已獲得積分"
+}
+
+
+_G.pg.base.gametip.bar_ui_game1 = {
+	tip = "已淘汰"
+}
+
+
+_G.pg.base.gametip.bar_ui_game3 = {
+	tip = "積分"
+}
+
+
+_G.pg.base.gametip.bar_ui_game4 = {
+	tip = "滑動螢幕，轉動懲罰輪盤"
+}
+
+
+_G.pg.base.gametip.bar_ui_end1 = {
+	tip = "退出"
+}
+
+
+_G.pg.base.gametip.bar_ui_end2 = {
+	tip = "繼續觀看"
+}
+
+
+_G.pg.base.gametip.bar_tips_game1 = {
+	tip = "$1質疑成功"
+}
+
+
+_G.pg.base.gametip.bar_tips_game2 = {
+	tip = "$1質疑失敗"
+}
+
+
+_G.pg.base.gametip.bar_tips_game3 = {
+	tip = "$1受到懲罰被淘汰了"
+}
+
+
+_G.pg.base.gametip.bar_tips_game4 = {
+	tip = "$1未受到懲罰,遊戲繼續"
+}
+
+
+_G.pg.base.gametip.bar_tips_game5 = {
+	tip = "$1接受懲罰"
+}
+
+
+_G.pg.base.gametip.bar_tips_game6 = {
+	tip = "是否立即退出當前進行中的對局。\n強行退出會造成對局失敗，無法正常獲得分數。"
+}
+
+
+_G.pg.base.gametip.bar_tips_game7 = {
+	tip = "是否立即退出當前進行中的對局。"
 }
 
 
@@ -42595,37 +47962,37 @@ _G.pg.base.gametip.OutPostCoreActivityUI_subtitle_4 = {
 
 
 _G.pg.base.gametip.island_dress_tag_twins = {
-	tip = "双形态服装"
+	tip = "雙形態服裝"
 }
 
 
 _G.pg.base.gametip.island_dress_tag_sp_animator = {
-	tip = "专属动作"
+	tip = "專屬動作"
 }
 
 
 _G.pg.base.gametip.island_mecha_task_preview = {
-	tip = "服装详情"
+	tip = "服裝詳情"
 }
 
 
 _G.pg.base.gametip.island_mecha_task_description = {
-	tip = "6月11日为止，每天零点解锁1个任务\n完成七日活动任务，可获得限定指挥官装扮【核心链接】等奖励"
+	tip = "6月11日為止，每天零點解鎖1個任務\n完成七日活動任務，可獲得限定指揮官裝扮【核心連結】等獎勵"
 }
 
 
 _G.pg.base.gametip.island_mecha_task_look_all = {
-	tip = "查看详情"
+	tip = "檢視詳情"
 }
 
 
 _G.pg.base.gametip.island_mecha_task_progress = {
-	tip = "当前阶段 DAY$1/$2 "
+	tip = "當前階段 DAY$1/$2 "
 }
 
 
 _G.pg.base.gametip.island_mecha_task_lock_tip = {
-	tip = "$1月$2日解锁"
+	tip = "$1月$2日解鎖"
 }
 
 
@@ -42646,6 +48013,46 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_1 = {
 
 _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 	tip = "美夢補給站"
+}
+
+
+_G.pg.base.gametip.island_post_btn_set_meal = {
+	tip = "套餐圖鑑"
+}
+
+
+_G.pg.base.gametip.island_post_btn_sign = {
+	tip = "日常補給"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_1 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_2 = {
+	tip = "有客自來"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_3 = {
+	tip = "律動儲物間"
+}
+
+
+_G.pg.base.gametip.Outpost_20260806_rule = {
+	tip = "※任務可同步記錄達成條件，但需按日程順序領取"
+}
+
+
+_G.pg.base.gametip["260806_story_title"] = {
+	tip = "有客自來"
+}
+
+
+_G.pg.base.gametip["260806_story_title_en"] = {
+	tip = "fateful encounter"
 }
 
 
@@ -43600,4 +49007,9 @@ _G.pg.base.gametip.escape_story_reward_count = {
 
 _G.pg.base.gametip.auction_network_timeout = {
 	tip = "網路環境異常，已退出對局"
+}
+
+
+_G.pg.base.gametip.loading_pic_btn = {
+	tip = "過場圖"
 }

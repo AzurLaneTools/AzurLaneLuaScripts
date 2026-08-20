@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "{namecode:98:明石}——零件的位置都发给你了，你拿到了么？",
+			say = "明石——零件的位置都傳給妳了，妳拿到了嗎？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官！你来得正好喵！",
+			say = "指揮官！你來得正好喵！",
 			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:98:明石}已经都带回来了，等下就可以开始修复了。",
+			say = "明石已經都帶回來了，等下就可以開始修復了。",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			animation = "elation",
-			say = "零件归位，想要修复简直就是轻而易举喵！",
+			say = "零件歸位，想要修復簡直就是輕鬆喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			say = "你确定？坏成那个状态是可以轻而易举修好的？",
+			say = "妳確定？壞成那個狀態是可以輕而易舉修好的嗎？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			say = "小小的瑕疵而已~在{namecode:98:明石}无敌的修复技术面前，都不是问题喵！分分钟搞定！",
+			say = "小小的瑕疵而已~在明石無敵的修復技術面前，都不是問題喵！分分鐘搞定！",
 			animation = "shakehead",
 			characterId = 3120100,
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "行吧……你说了算，那大约要修多久？",
+			say = "行吧……妳說了算，那大約要修多久？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			say = "给{namecode:98:明石}……嗯……一顿饭的功夫！不！一杯咖啡的时间！总之很快就好喵！",
+			say = "給明石……嗯……一餐的功夫！不！一杯咖啡的時間！總之很快就好喵！",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			say = "你没在开玩笑？",
+			say = "妳沒在開玩笑？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "完全没有喵~指挥官，等会你直接来码头找我就好喵！",
+			say = "完全沒有喵~指揮官，等會你直接來碼頭找我就好喵！",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {

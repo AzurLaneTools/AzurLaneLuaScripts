@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击切换每日计划",
+				text = "點擊切換到每日計劃",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -26,7 +26,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "完成每日计划可获得宝贵的岛屿经验",
+				text = "完成每日計劃可獲得島嶼開發經驗",
 				mode = 2,
 				char = 1,
 				posY = 100,
@@ -39,7 +39,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击返回",
+				text = "點擊返回",
 				mode = 2,
 				char = 1,
 				posY = 100,

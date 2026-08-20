@@ -28,6 +28,7 @@ slot0.TYPE_PRODUCT_GARDEN = 40
 slot0.TYPE_FISHING_ROD = 41
 slot0.TYPE_PRODUCT_FISH = 42
 slot0.ANIMATION_OP_ID = 40
+slot0.SET_MEAL_ID = 29001
 
 slot0.OnInit = function(slot0, slot1)
 	slot0.abilitys = {}

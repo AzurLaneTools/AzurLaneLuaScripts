@@ -56,6 +56,8 @@ pg.island_ability_template.all = {
 	606,
 	607,
 	608,
+	609,
+	610,
 	2001,
 	2002,
 	2003,
@@ -441,6 +443,8 @@ pg.island_ability_template.all = {
 	37100306,
 	37100307,
 	37100308,
+	37100309,
+	37100310,
 	37130301,
 	37130302,
 	37140101,
@@ -821,6 +825,8 @@ pg.island_ability_template.get_id_list_by_type = {
 		37100306,
 		37100307,
 		37100308,
+		37100309,
+		37100310,
 		37130301,
 		37130302,
 		37140101,
@@ -1006,7 +1012,9 @@ pg.island_ability_template.get_id_list_by_type = {
 		605,
 		606,
 		607,
-		608
+		608,
+		609,
+		610
 	},
 	[8] = {
 		12,
@@ -1323,7 +1331,7 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[6] = {
-		unlock_text = "岛屿地图",
+		unlock_text = "島嶼地圖",
 		effect = 5,
 		show_pop = 0,
 		type = 1,
@@ -1333,13 +1341,13 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[7] = {
-		unlock_text = "订单中心",
+		unlock_text = "訂單中心",
 		effect = 6,
 		show_pop = 1,
 		type = 1,
 		id = 7,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "订单中心|可前往<color=#7EBEFF>港口</color>在<color=#7EBEFF>帕特莉</color>处查看",
+		show_pop_text = "訂單中心|可前往<color=#7EBEFF>港口</color>在<color=#7EBEFF>帕特莉</color>處檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[8] = {
@@ -1349,7 +1357,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 8,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "岛屿科技|可前往<color=#7EBEFF>港口-基地</color>在<color=#7EBEFF>科研机器</color>处查看",
+		show_pop_text = "島嶼科技|可前往<color=#7EBEFF>港口-基地</color>在<color=#7EBEFF>科研機器</color>處檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[9] = {
@@ -1359,7 +1367,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 9,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "仓库功能|可前往<color=#7EBEFF>管理界面</color>点击<color=#7EBEFF>仓库</color>查看",
+		show_pop_text = "倉庫功能|可前往<color=#7EBEFF>管理介面</color>點選<color=#7EBEFF>倉庫</color>檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[10] = {
@@ -1473,7 +1481,7 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[26] = {
-		unlock_text = "店铺经营",
+		unlock_text = "店鋪經營",
 		effect = 9,
 		show_pop = 0,
 		type = 1,
@@ -1489,7 +1497,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 27,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "好友系统|可前往<color=#7EBEFF>管理界面</color>点击<color=#7EBEFF>好友按钮</color>查看",
+		show_pop_text = "好友系統|可前往<color=#7EBEFF>管理介面</color>點選<color=#7EBEFF>好友按鈕</color>檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[28] = {
@@ -1499,7 +1507,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 28,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "角色系统|可在<color=#7EBEFF>主界面</color>点击<color=#7EBEFF>角色</color>查看",
+		show_pop_text = "角色系統|可在<color=#7EBEFF>主介面</color>點選<color=#7EBEFF>角色</color>檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[29] = {
@@ -1509,7 +1517,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 29,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "图鉴系统|可在<color=#7EBEFF>主界面</color>点击<color=#7EBEFF>图鉴</color>查看",
+		show_pop_text = "圖鑑系統|可在<color=#7EBEFF>主介面</color>點選<color=#7EBEFF>圖鑑</color>檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[30] = {
@@ -1519,7 +1527,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 30,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "成就系统|可在<color=#7EBEFF>主界面</color>点击<color=#7EBEFF>成就</color>查看",
+		show_pop_text = "成就係統|可在<color=#7EBEFF>主介面</color>點選<color=#7EBEFF>成就</color>檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[31] = {
@@ -1529,17 +1537,17 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 31,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "赛季玩法|可在<color=#7EBEFF>主界面</color>点击<color=#7EBEFF>赛季</color>查看",
+		show_pop_text = "賽季玩法|可在<color=#7EBEFF>主介面</color>點選<color=#7EBEFF>賽季</color>檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[32] = {
-		unlock_text = "货运委托",
+		unlock_text = "貨運委託",
 		effect = 15,
 		show_pop = 1,
 		type = 1,
 		id = 32,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "货运委托|可前往<color=#7EBEFF>港口</color>在<color=#7EBEFF>斯蒂芬妮</color>处查看",
+		show_pop_text = "貨運委託|可前往<color=#7EBEFF>港口</color>在<color=#7EBEFF>斯蒂芬妮</color>處檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[33] = {
@@ -1549,7 +1557,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 33,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "装扮|可前往<color=#7EBEFF>管理界面</color>点击<color=#7EBEFF>装扮</color>查看",
+		show_pop_text = "裝扮|可前往<color=#7EBEFF>管理介面</color>點選<color=#7EBEFF>裝扮</color>檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[34] = {
@@ -1569,7 +1577,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 35,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "商店功能|可在<color=#7EBEFF>主界面</color>点击<color=#7EBEFF>商店</color>查看",
+		show_pop_text = "商店功能|可在<color=#7EBEFF>主介面</color>點選<color=#7EBEFF>商店</color>檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[36] = {
@@ -1619,7 +1627,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 40,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "互动功能|可在<color=#7EBEFF>主界面</color>点击<color=#7EBEFF>右侧交互按钮</color>查看，可进行<color=#7EBEFF>动作</color>和<color=#7EBEFF>聊天</color>",
+		show_pop_text = "互動功能|可在<color=#7EBEFF>主介面</color>點選<color=#7EBEFF>右側互動按鈕</color>檢視，可進行<color=#7EBEFF>動作</color>和<color=#7EBEFF>聊天</color>",
 		show_type = 1
 	}
 	pg.base.island_ability_template[41] = {
@@ -1629,7 +1637,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 41,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "拍照功能|可前往<color=#7EBEFF>管理界面</color>点击<color=#7EBEFF>拍照按钮</color>查看",
+		show_pop_text = "拍照功能|可前往<color=#7EBEFF>管理介面</color>點選<color=#7EBEFF>拍照按鈕</color>檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[42] = {
@@ -1679,7 +1687,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 46,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "钓鱼玩法|可前往<color=#7EBEFF>各处钓鱼点</color>尽情<color=#7EBEFF>钓鱼</color>",
+		show_pop_text = "釣魚玩法|可前往<color=#7EBEFF>各處釣魚點</color>盡情<color=#7EBEFF>釣魚</color>",
 		show_type = 1
 	}
 	pg.base.island_ability_template[47] = {
@@ -1689,7 +1697,7 @@ pg.base.island_ability_template = {}
 		type = 1,
 		id = 47,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "钓鱼图鉴|可在<color=#7EBEFF>主界面-图鉴</color>点击<color=#7EBEFF>钓鱼图鉴</color>查看",
+		show_pop_text = "釣魚圖鑑|可在<color=#7EBEFF>主介面-圖鑑</color>點選<color=#7EBEFF>釣魚圖鑑</color>檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[50] = {
@@ -1699,7 +1707,7 @@ pg.base.island_ability_template = {}
 		type = 43,
 		id = 50,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "珍珠交易|可前往<color=#7EBEFF>港口</color>在<color=#7EBEFF>佩芮</color>处查看",
+		show_pop_text = "珍珠交易|可前往<color=#7EBEFF>港口</color>在<color=#7EBEFF>佩芮</color>處檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[401] = {
@@ -1832,54 +1840,74 @@ pg.base.island_ability_template = {}
 		show_pop_text = "",
 		show_type = 1
 	}
+	pg.base.island_ability_template[609] = {
+		unlock_text = "",
+		effect = 100,
+		show_pop = 0,
+		type = 6,
+		id = 609,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	}
+	pg.base.island_ability_template[610] = {
+		unlock_text = "",
+		effect = 100,
+		show_pop = 0,
+		type = 6,
+		id = 610,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 1
+	}
 	pg.base.island_ability_template[2001] = {
-		unlock_text = "丰壤农田",
+		unlock_text = "豐壤農田",
 		effect = 101,
 		show_pop = 1,
 		type = 2,
 		id = 2001,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "丰壤农田|可前往<color=#7EBEFF>晨露农场</color>种植<color=#7EBEFF>作物</color>",
+		show_pop_text = "豐壤農田|可前往<color=#7EBEFF>晨露農場</color>種植<color=#7EBEFF>作物</color>",
 		show_type = 1
 	}
 	pg.base.island_ability_template[2002] = {
-		unlock_text = "悠然牧场",
+		unlock_text = "悠然牧場",
 		effect = 102,
 		show_pop = 1,
 		type = 2,
 		id = 2002,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "悠然牧场|可前往<color=#7EBEFF>晨露农场</color>在<color=#7EBEFF>梅莉</color>处查看",
+		show_pop_text = "悠然牧場|可前往<color=#7EBEFF>晨露農場</color>在<color=#7EBEFF>梅莉</color>處檢視",
 		show_type = 2
 	}
 	pg.base.island_ability_template[2003] = {
-		unlock_text = "沉石矿山 ",
+		unlock_text = "沉石礦山 ",
 		effect = 401,
 		show_pop = 1,
 		type = 2,
 		id = 2003,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "沉石矿山|可前往<color=#7EBEFF>栖风原野</color>挖掘<color=#7EBEFF>矿石</color>",
+		show_pop_text = "沉石礦山|可前往<color=#7EBEFF>棲風原野</color>挖掘<color=#7EBEFF>礦石</color>",
 		show_type = 3
 	}
 	pg.base.island_ability_template[2004] = {
-		unlock_text = "翠土林场",
+		unlock_text = "翠土林場",
 		effect = 402,
 		show_pop = 1,
 		type = 2,
 		id = 2004,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "翠土林场|可前往<color=#7EBEFF>栖风原野</color>砍伐<color=#7EBEFF>木材</color>",
+		show_pop_text = "翠土林場|可前往<color=#7EBEFF>棲風原野</color>砍伐<color=#7EBEFF>木材</color>",
 		show_type = 1
 	}
 	pg.base.island_ability_template[2005] = {
-		unlock_text = "坠香果园 ",
+		unlock_text = "墜香果園 ",
 		effect = 501,
 		show_pop = 1,
 		type = 2,
 		id = 2005,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "坠香果园|可前往<color=#7EBEFF>繁阴农圃</color>种植<color=#7EBEFF>果树</color>",
+		show_pop_text = "墜香果園|可前往<color=#7EBEFF>繁陰農圃</color>種植<color=#7EBEFF>果樹</color>",
 		show_type = 1
 	}
 	pg.base.island_ability_template[2006] = {
@@ -1889,21 +1917,21 @@ pg.base.island_ability_template = {}
 		type = 2,
 		id = 2006,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "青芽苗圃|可前往<color=#7EBEFF>繁阴农圃</color>栽培<color=#7EBEFF>植物</color>",
+		show_pop_text = "青芽苗圃|可前往<color=#7EBEFF>繁陰農圃</color>栽培<color=#7EBEFF>植物</color>",
 		show_type = 1
 	}
 	pg.base.island_ability_template[2008] = {
-		unlock_text = "有鱼餐馆",
+		unlock_text = "有魚餐館",
 		effect = 601,
 		show_pop = 1,
 		type = 2,
 		id = 2008,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "有鱼餐馆|可前往<color=#7EBEFF>港口商区</color>在<color=#7EBEFF>阿玛莫</color>处查看",
+		show_pop_text = "有魚餐館|可前往<color=#7EBEFF>港口商區</color>在<color=#7EBEFF>阿瑪莫</color>處檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[2009] = {
-		unlock_text = "白熊饮品",
+		unlock_text = "白熊飲品",
 		effect = 602,
 		show_pop = 0,
 		type = 2,
@@ -1913,7 +1941,7 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[2010] = {
-		unlock_text = "啾啾简餐",
+		unlock_text = "啾啾簡餐",
 		effect = 603,
 		show_pop = 0,
 		type = 2,
@@ -1923,7 +1951,7 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[2011] = {
-		unlock_text = "乌鱼烤肉",
+		unlock_text = "烏魚烤肉",
 		effect = 604,
 		show_pop = 0,
 		type = 2,
@@ -1933,17 +1961,17 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[2012] = {
-		unlock_text = "木料加工设备",
+		unlock_text = "木料加工裝置",
 		effect = 703,
 		show_pop = 1,
 		type = 2,
 		id = 2012,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "木料加工|可前往<color=#7EBEFF>港口-基地</color>在<color=#7EBEFF>罗莎</color>处查看",
+		show_pop_text = "木料加工|可前往<color=#7EBEFF>港口-基地</color>在<color=#7EBEFF>羅莎</color>處檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[2013] = {
-		unlock_text = "工业生产设备",
+		unlock_text = "工業生產裝置",
 		effect = 704,
 		show_pop = 0,
 		type = 2,
@@ -1953,7 +1981,7 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[2014] = {
-		unlock_text = "电子加工设备",
+		unlock_text = "電子加工裝置",
 		effect = 705,
 		show_pop = 0,
 		type = 2,
@@ -1963,7 +1991,7 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[2015] = {
-		unlock_text = "手工制作设备",
+		unlock_text = "手工製作裝置",
 		effect = 706,
 		show_pop = 0,
 		type = 2,
@@ -1979,21 +2007,21 @@ pg.base.island_ability_template = {}
 		type = 2,
 		id = 2016,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "啾咖啡|可前往<color=#7EBEFF>港口-啾咖啡</color>在<color=#7EBEFF>布莱梅</color>处查看",
+		show_pop_text = "啾咖啡|可前往<color=#7EBEFF>港口-啾咖啡</color>在<color=#7EBEFF>布萊梅</color>處檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[2017] = {
-		unlock_text = "啾啾渔场",
+		unlock_text = "啾啾漁場",
 		effect = 201,
 		show_pop = 1,
 		type = 2,
 		id = 2017,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "啾啾渔场|可前往<color=#7EBEFF>港口-啾啾渔场</color>在<color=#7EBEFF>布莉缇</color>处查看",
+		show_pop_text = "啾啾漁場|可前往<color=#7EBEFF>港口-啾啾漁場</color>在<color=#7EBEFF>布莉緹</color>處檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[5001] = {
-		unlock_text = "晨露农场",
+		unlock_text = "晨露農場",
 		effect = 1001,
 		show_pop = 0,
 		type = 11,
@@ -2013,7 +2041,7 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[5003] = {
-		unlock_text = "集会岛",
+		unlock_text = "集會島",
 		effect = 1003,
 		show_pop = 0,
 		type = 11,
@@ -2023,7 +2051,7 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[5004] = {
-		unlock_text = "栖风原野",
+		unlock_text = "棲風原野",
 		effect = 1004,
 		show_pop = 0,
 		type = 11,
@@ -2033,7 +2061,7 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[5005] = {
-		unlock_text = "繁荫农圃",
+		unlock_text = "繁蔭農圃",
 		effect = 1005,
 		show_pop = 0,
 		type = 11,
@@ -2043,7 +2071,7 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[5006] = {
-		unlock_text = "港口商区",
+		unlock_text = "港口商區",
 		effect = 1006,
 		show_pop = 0,
 		type = 11,
@@ -2053,7 +2081,7 @@ pg.base.island_ability_template = {}
 		show_type = 1
 	}
 	pg.base.island_ability_template[5007] = {
-		unlock_text = "基地工厂",
+		unlock_text = "基地工廠",
 		effect = 1007,
 		show_pop = 0,
 		type = 11,
@@ -2282,6 +2310,8 @@ pg.base.island_ability_template = {}
 		show_pop_text = "",
 		show_type = 1
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[15025] = {
 		unlock_text = "",
 		effect = 35,
@@ -2302,8 +2332,6 @@ pg.base.island_ability_template = {}
 		show_pop_text = "",
 		show_type = 1
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[15027] = {
 		unlock_text = "",
 		effect = 37,
@@ -2415,27 +2443,27 @@ end)()
 		show_type = 1
 	}
 	pg.base.island_ability_template[17002] = {
-		unlock_text = "啾咖啡经营",
+		unlock_text = "啾咖啡經營",
 		effect = 901,
 		show_pop = 1,
 		type = 17,
 		id = 17002,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "啾咖啡经营|可前往<color=#7EBEFF>港口-啾咖啡</color>的<color=#7EBEFF>布莱梅</color>处查看",
+		show_pop_text = "啾咖啡經營|可前往<color=#7EBEFF>港口-啾咖啡</color>的<color=#7EBEFF>布萊梅</color>處檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[17003] = {
-		unlock_text = "有鱼餐馆",
+		unlock_text = "有魚餐館",
 		effect = 601,
 		show_pop = 1,
 		type = 17,
 		id = 17003,
 		cmd_icon = "IslandProps/gold",
-		show_pop_text = "有鱼餐馆经营|可前往<color=#7EBEFF>港口商区</color>的<color=#7EBEFF>阿莫玛</color>处查看",
+		show_pop_text = "有魚餐館經營|可前往<color=#7EBEFF>港口商區</color>的<color=#7EBEFF>阿莫瑪</color>處檢視",
 		show_type = 1
 	}
 	pg.base.island_ability_template[17004] = {
-		unlock_text = "白熊饮品",
+		unlock_text = "白熊飲品",
 		effect = 602,
 		show_pop = 0,
 		type = 17,
@@ -2445,7 +2473,7 @@ end)()
 		show_type = 1
 	}
 	pg.base.island_ability_template[17005] = {
-		unlock_text = "啾啾简餐",
+		unlock_text = "啾啾簡餐",
 		effect = 603,
 		show_pop = 0,
 		type = 17,
@@ -2455,7 +2483,7 @@ end)()
 		show_type = 1
 	}
 	pg.base.island_ability_template[17006] = {
-		unlock_text = "乌鱼烤肉",
+		unlock_text = "烏魚烤肉",
 		effect = 604,
 		show_pop = 0,
 		type = 17,
@@ -2905,7 +2933,7 @@ end)()
 		show_type = 1
 	}
 	pg.base.island_ability_template[38001] = {
-		unlock_text = "丰壤农田委派效率提高 4%",
+		unlock_text = "豐壤農田委派效率提高 4%",
 		effect = 4,
 		show_pop = 0,
 		type = 38,
@@ -2915,7 +2943,7 @@ end)()
 		show_type = 0
 	}
 	pg.base.island_ability_template[38002] = {
-		unlock_text = "丰壤农田委派效率提高 8%",
+		unlock_text = "豐壤農田委派效率提高 8%",
 		effect = 8,
 		show_pop = 0,
 		type = 38,
@@ -2925,7 +2953,7 @@ end)()
 		show_type = 0
 	}
 	pg.base.island_ability_template[39001] = {
-		unlock_text = "坠香果园委派效率提高 4%",
+		unlock_text = "墜香果園委派效率提高 4%",
 		effect = 4,
 		show_pop = 0,
 		type = 39,
@@ -2935,7 +2963,7 @@ end)()
 		show_type = 0
 	}
 	pg.base.island_ability_template[39002] = {
-		unlock_text = "坠香果园委派效率提高 8%",
+		unlock_text = "墜香果園委派效率提高 8%",
 		effect = 8,
 		show_pop = 0,
 		type = 39,
@@ -3284,6 +3312,8 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[91029] = {
 		unlock_text = "",
 		effect = 1029,
@@ -3304,8 +3334,6 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[91031] = {
 		unlock_text = "",
 		effect = 1031,
@@ -4286,6 +4314,8 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[3201007] = {
 		unlock_text = "",
 		effect = 201101,
@@ -4306,8 +4336,6 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[3201009] = {
 		unlock_text = "",
 		effect = 201102,
@@ -5288,6 +5316,8 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[3901005] = {
 		unlock_text = "",
 		effect = 901005,
@@ -5308,8 +5338,6 @@ end)()
 		show_pop_text = "",
 		show_type = 1
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[3901101] = {
 		unlock_text = "",
 		effect = 901101,
@@ -5686,6 +5714,26 @@ end)()
 		show_pop = 0,
 		type = 3,
 		id = 37100308,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	}
+	pg.base.island_ability_template[37100309] = {
+		unlock_text = "",
+		effect = 7100309,
+		show_pop = 0,
+		type = 3,
+		id = 37100309,
+		cmd_icon = "IslandProps/gold",
+		show_pop_text = "",
+		show_type = 3
+	}
+	pg.base.island_ability_template[37100310] = {
+		unlock_text = "",
+		effect = 7100310,
+		show_pop = 0,
+		type = 3,
+		id = 37100310,
 		cmd_icon = "IslandProps/gold",
 		show_pop_text = "",
 		show_type = 3
@@ -6270,6 +6318,8 @@ end)()
 		show_pop_text = "",
 		show_type = 3
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[37320204] = {
 		unlock_text = "",
 		effect = 7320204,
@@ -6310,8 +6360,6 @@ end)()
 		show_pop_text = "",
 		show_type = 3
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[37400001] = {
 		unlock_text = "",
 		effect = 7400001,
@@ -7272,6 +7320,8 @@ end)()
 		show_pop_text = "",
 		show_type = 3
 	}
+end)()
+(function ()
 	pg.base.island_ability_template[37650201] = {
 		unlock_text = "",
 		effect = 7650201,
@@ -7312,8 +7362,6 @@ end)()
 		show_pop_text = "",
 		show_type = 3
 	}
-end)()
-(function ()
 	pg.base.island_ability_template[37660101] = {
 		unlock_text = "",
 		effect = 7660101,

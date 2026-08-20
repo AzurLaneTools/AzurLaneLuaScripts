@@ -31,6 +31,11 @@ pg.island_chara_skill.all = {
 	1025,
 	1026,
 	1027,
+	1028,
+	1029,
+	1030,
+	1031,
+	1032,
 	99999
 }
 pg.base = pg.base or {}
@@ -38,10 +43,10 @@ pg.base.island_chara_skill = {}
 
 (function ()
 	pg.base.island_chara_skill[1000] = {
-		name = "制造技艺",
+		name = "製造技藝",
 		id = 1000,
 		icon = "chara_all_skill_14",
-		desc = "在基地工厂使用手工制作设备时，工作速度提高$1%",
+		desc = "在基地工廠使用手工製作裝置時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -166,10 +171,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1001] = {
-		name = "餐品销售",
+		name = "餐品銷售",
 		id = 1001,
 		icon = "chara_all_skill_13",
-		desc = "委派为乌鱼烤肉、啾啾简餐的店员时，餐品销售额增加$1%",
+		desc = "委派為烏魚烤肉、啾啾簡餐的店員時，餐品銷售額增加$1%",
 		desc_add = {
 			{
 				{
@@ -294,10 +299,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1002] = {
-		name = "饮品销售",
+		name = "飲品銷售",
 		id = 1002,
 		icon = "chara_all_skill_4",
-		desc = "委派为啾咖啡、白熊饮品的店员时，店铺每个餐品格的容量+1，餐品销售额增加$1%",
+		desc = "委派為啾咖啡、白熊飲品的店員時，店鋪每個餐品格的容量+1，餐品銷售額增加$1%",
 		desc_add = {
 			{
 				{
@@ -432,10 +437,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1003] = {
-		name = "育果技艺",
+		name = "育果技藝",
 		id = 1003,
 		icon = "chara_all_skill_10",
-		desc = "在坠香果园工作时，工作速度提高$1%",
+		desc = "在墜香果園工作時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -560,10 +565,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1004] = {
-		name = "伐木技艺",
+		name = "伐木技藝",
 		id = 1004,
 		icon = "chara_all_skill_2",
-		desc = "在翠土林场工作时，工作速度提高$1%",
+		desc = "在翠土林場工作時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -688,10 +693,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1005] = {
-		name = "畜牧技艺",
+		name = "畜牧技藝",
 		id = 1005,
 		icon = "chara_all_skill_6",
-		desc = "在悠然牧场工作时，工作速度提高$1%",
+		desc = "在悠然牧場工作時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -816,10 +821,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1006] = {
-		name = "烹饪技艺",
+		name = "烹飪技藝",
 		id = 1006,
 		icon = "chara_all_skill_7",
-		desc = "在有鱼餐馆工作时，工作速度提高$1%",
+		desc = "在有魚餐館工作時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -944,10 +949,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1007] = {
-		name = "研发技艺",
+		name = "研發技藝",
 		id = 1007,
 		icon = "chara_all_skill_3",
-		desc = "研究岛屿科技时，工作速度提高$1%",
+		desc = "研究島嶼科技時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -1072,10 +1077,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1008] = {
-		name = "采矿技艺",
+		name = "採礦技藝",
 		id = 1008,
 		icon = "chara_all_skill_1",
-		desc = "在沉石矿山工作时，工作速度提高$1%",
+		desc = "在沉石礦山工作時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -1200,10 +1205,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1009] = {
-		name = "耕作技艺",
+		name = "耕作技藝",
 		id = 1009,
 		icon = "chara_all_skill_5",
-		desc = "在丰壤农田工作时，工作速度提高$1%",
+		desc = "在豐壤農田工作時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -1328,10 +1333,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1010] = {
-		name = "高效回复",
+		name = "高效回覆",
 		id = 1010,
 		icon = "chara_all_skill_8",
-		desc = "体力恢复速度提高$1%",
+		desc = "體力恢復速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -1456,10 +1461,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1011] = {
-		name = "培育技艺",
+		name = "培育技藝",
 		id = 1011,
 		icon = "chara_all_skill_9",
-		desc = "在青芽苗圃工作时，工作速度提高$1%",
+		desc = "在青芽苗圃工作時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -1584,10 +1589,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1012] = {
-		name = "餐馆专销",
+		name = "餐館專銷",
 		id = 1012,
 		icon = "chara_all_skill_7",
-		desc = "委派为有鱼餐馆的店员时，店铺每个餐品格的容量+1，餐品销售额增加$1%",
+		desc = "委派為有魚餐館的店員時，店鋪每個餐品格的容量+1，餐品銷售額增加$1%",
 		desc_add = {
 			{
 				{
@@ -1722,10 +1727,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1013] = {
-		name = "修枝技艺",
+		name = "修枝技藝",
 		id = 1013,
 		icon = "chara_all_skill_10",
-		desc = "在坠香果园工作时，每次收获有$1%概率获得额外产出",
+		desc = "在墜香果園工作時，每次收穫有$1%機率獲得額外產出",
 		desc_add = {
 			{
 				{
@@ -1850,10 +1855,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1014] = {
-		name = "高效研发",
+		name = "高效研發",
 		id = 1014,
 		icon = "chara_all_skill_3",
-		desc = "研究岛屿科技时，体力消耗减少$1%",
+		desc = "研究島嶼科技時，體力消耗減少$1%",
 		desc_add = {
 			{
 				{
@@ -1978,10 +1983,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1015] = {
-		name = "加工技艺",
+		name = "加工技藝",
 		id = 1015,
 		icon = "chara_all_skill_15",
-		desc = "在基地工厂使用工业生产设备工作时，每次生产有$1%概率获得额外产出",
+		desc = "在基地工廠使用工業生產裝置工作時，每次生產有$1%機率獲得額外產出",
 		desc_add = {
 			{
 				{
@@ -2106,10 +2111,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1016] = {
-		name = "收割技艺",
+		name = "收割技藝",
 		id = 1016,
 		icon = "chara_all_skill_5",
-		desc = "在丰壤农田工作时，每次收获有$1%概率获得额外产出",
+		desc = "在豐壤農田工作時，每次收穫有$1%機率獲得額外產出",
 		desc_add = {
 			{
 				{
@@ -2234,10 +2239,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1017] = {
-		name = "放牧技艺",
+		name = "放牧技藝",
 		id = 1017,
 		icon = "chara_all_skill_6",
-		desc = "在悠然牧场工作时，体力消耗减少$1%",
+		desc = "在悠然牧場工作時，體力消耗減少$1%",
 		desc_add = {
 			{
 				{
@@ -2362,10 +2367,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1018] = {
-		name = "简餐专销",
+		name = "簡餐專銷",
 		id = 1018,
 		icon = "chara_all_skill_12",
-		desc = "委派为啾啾简餐的店员时，店铺每个餐品格的容量+1，餐品营业利润增加$1%",
+		desc = "委派為啾啾簡餐的店員時，店鋪每個餐品格的容量+1，餐品營業利潤增加$1%",
 		desc_add = {
 			{
 				{
@@ -2500,10 +2505,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1019] = {
-		name = "调制技艺",
+		name = "調製技藝",
 		id = 1019,
 		icon = "chara_all_skill_4",
-		desc = "在啾咖啡工作时，每次生产有$1%概率获得额外产出",
+		desc = "在啾咖啡工作時，每次生產有$1%機率獲得額外產出",
 		desc_add = {
 			{
 				{
@@ -2628,10 +2633,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1020] = {
-		name = "采集技艺",
+		name = "採集技藝",
 		id = 1020,
 		icon = "chara_all_skill_2",
-		desc = "在翠土林场、沉石矿山工作时，工作速度提高$1%",
+		desc = "在翠土林場、沉石礦山工作時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -2756,10 +2761,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1021] = {
-		name = "加速回复",
+		name = "加速回復",
 		id = 1021,
 		icon = "chara_all_skill_8",
-		desc = "体力恢复速度提高$1%",
+		desc = "體力恢復速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -2884,10 +2889,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1022] = {
-		name = "农作技艺",
+		name = "農作技藝",
 		id = 1022,
 		icon = "chara_all_skill_5",
-		desc = "在丰壤农田、坠香果园、青芽苗圃工作时，工作速度提高$1%",
+		desc = "在豐壤農田、墜香果園、青芽苗圃工作時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -3012,10 +3017,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1023] = {
-		name = "全力专注",
+		name = "全力專注",
 		id = 1023,
 		icon = "chara_all_skill_8",
-		desc = "体力恢复速度减少$1%，工作速度提高$2%",
+		desc = "體力恢復速度減少$1%，工作速度提高$2%",
 		desc_add = {
 			{
 				{
@@ -3182,10 +3187,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1024] = {
-		name = "采收技艺",
+		name = "採收技藝",
 		id = 1024,
 		icon = "chara_all_skill_9",
-		desc = "在青芽苗圃工作时，每次收获有$1%概率获得额外产出",
+		desc = "在青芽苗圃工作時，每次收穫有$1%機率獲得額外產出",
 		desc_add = {
 			{
 				{
@@ -3310,10 +3315,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1025] = {
-		name = "爆破技艺",
+		name = "爆破技藝",
 		id = 1025,
 		icon = "chara_all_skill_1",
-		desc = "在沉石矿山工作时，每次生产有$1%概率获得额外产出",
+		desc = "在沉石礦山工作時，每次生產有$1%機率獲得額外產出",
 		desc_add = {
 			{
 				{
@@ -3438,10 +3443,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1026] = {
-		name = "烧烤精通",
+		name = "燒烤精通",
 		id = 1026,
 		icon = "chara_all_skill_13",
-		desc = "委派为乌鱼烤肉的店员时，店铺每个餐品格的容量+1，餐品营业利润增加$1%",
+		desc = "委派為烏魚烤肉的店員時，店鋪每個餐品格的容量+1，餐品營業利潤增加$1%",
 		desc_add = {
 			{
 				{
@@ -3576,10 +3581,10 @@ pg.base.island_chara_skill = {}
 		}
 	}
 	pg.base.island_chara_skill[1027] = {
-		name = "木工技艺",
+		name = "木工技藝",
 		id = 1027,
 		icon = "chara_all_skill_16",
-		desc = "在基地工厂使用木料加工设备工作时，工作速度提高$1%",
+		desc = "在基地工廠使用木料加工裝置工作時，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -3703,11 +3708,745 @@ pg.base.island_chara_skill = {}
 			}
 		}
 	}
+	pg.base.island_chara_skill[1028] = {
+		name = "手工技藝",
+		id = 1028,
+		icon = "chara_all_skill_14",
+		desc = "在基地工廠使用手工製作裝置工作時，每次生產有$1%機率獲得額外產出",
+		desc_add = {
+			{
+				{
+					"6"
+				},
+				{
+					"6.5"
+				},
+				{
+					"7"
+				},
+				{
+					"7.5"
+				},
+				{
+					"8"
+				},
+				{
+					"8.5"
+				},
+				{
+					"9"
+				},
+				{
+					"10"
+				},
+				{
+					"11"
+				},
+				{
+					"12"
+				}
+			}
+		},
+		material = {
+			{
+				{
+					100101,
+					2
+				}
+			},
+			{
+				{
+					100101,
+					4
+				}
+			},
+			{
+				{
+					100101,
+					6
+				}
+			},
+			{
+				{
+					100102,
+					2
+				}
+			},
+			{
+				{
+					100102,
+					4
+				}
+			},
+			{
+				{
+					100102,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					4
+				}
+			},
+			{
+				{
+					100103,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					10
+				}
+			}
+		},
+		skill_effect = {
+			{
+				10280
+			},
+			{
+				10281
+			},
+			{
+				10282
+			},
+			{
+				10283
+			},
+			{
+				10284
+			},
+			{
+				10285
+			},
+			{
+				10286
+			},
+			{
+				10287
+			},
+			{
+				10288
+			},
+			{
+				10289
+			}
+		}
+	}
+	pg.base.island_chara_skill[1029] = {
+		name = "元氣滿滿",
+		id = 1029,
+		icon = "chara_all_skill_8",
+		desc = "在翠土林場工作時，工作速度提高$1%；當體力低於70時，與莫加多爾打招呼可恢復$2體力，每日限1次",
+		desc_add = {
+			{
+				{
+					"1"
+				},
+				{
+					"1.5"
+				},
+				{
+					"2"
+				},
+				{
+					"2.5"
+				},
+				{
+					"3"
+				},
+				{
+					"3.5"
+				},
+				{
+					"4"
+				},
+				{
+					"4.5"
+				},
+				{
+					"5"
+				},
+				{
+					"6"
+				}
+			},
+			{
+				{
+					"10"
+				},
+				{
+					"12"
+				},
+				{
+					"14"
+				},
+				{
+					"16"
+				},
+				{
+					"18"
+				},
+				{
+					"20"
+				},
+				{
+					"22"
+				},
+				{
+					"24"
+				},
+				{
+					"26"
+				},
+				{
+					"30"
+				}
+			}
+		},
+		material = {
+			{
+				{
+					100101,
+					2
+				}
+			},
+			{
+				{
+					100101,
+					4
+				}
+			},
+			{
+				{
+					100101,
+					6
+				}
+			},
+			{
+				{
+					100102,
+					2
+				}
+			},
+			{
+				{
+					100102,
+					4
+				}
+			},
+			{
+				{
+					100102,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					4
+				}
+			},
+			{
+				{
+					100103,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					10
+				}
+			}
+		},
+		skill_effect = {
+			{
+				10290,
+				100020
+			},
+			{
+				10291,
+				100021
+			},
+			{
+				10292,
+				100022
+			},
+			{
+				10293,
+				100023
+			},
+			{
+				10294,
+				100024
+			},
+			{
+				10295,
+				100025
+			},
+			{
+				10296,
+				100026
+			},
+			{
+				10297,
+				100027
+			},
+			{
+				10298,
+				100028
+			},
+			{
+				10299,
+				100029
+			}
+		}
+	}
+	pg.base.island_chara_skill[1030] = {
+		name = "店務精通",
+		id = 1030,
+		icon = "chara_all_skill_12",
+		desc = "在任意店鋪工作時，體力消耗減少$1%；委派為任意店鋪的店員時，當前店鋪每個餐品格的容量+1",
+		desc_add = {
+			{
+				{
+					"3"
+				},
+				{
+					"3.2"
+				},
+				{
+					"3.5"
+				},
+				{
+					"3.7"
+				},
+				{
+					"4"
+				},
+				{
+					"4.2"
+				},
+				{
+					"4.5"
+				},
+				{
+					"5"
+				},
+				{
+					"5.5"
+				},
+				{
+					"6"
+				}
+			}
+		},
+		material = {
+			{
+				{
+					100101,
+					2
+				}
+			},
+			{
+				{
+					100101,
+					4
+				}
+			},
+			{
+				{
+					100101,
+					6
+				}
+			},
+			{
+				{
+					100102,
+					2
+				}
+			},
+			{
+				{
+					100102,
+					4
+				}
+			},
+			{
+				{
+					100102,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					4
+				}
+			},
+			{
+				{
+					100103,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					10
+				}
+			}
+		},
+		skill_effect = {
+			{
+				10300,
+				100006
+			},
+			{
+				10301,
+				100006
+			},
+			{
+				10302,
+				100006
+			},
+			{
+				10303,
+				100006
+			},
+			{
+				10304,
+				100006
+			},
+			{
+				10305,
+				100006
+			},
+			{
+				10306,
+				100006
+			},
+			{
+				10307,
+				100006
+			},
+			{
+				10308,
+				100006
+			},
+			{
+				10309,
+				100006
+			}
+		}
+	}
+	pg.base.island_chara_skill[1031] = {
+		name = "幸運問候",
+		id = 1031,
+		icon = "chara_all_skill_18",
+		desc = "與皇家幸運號打招呼時，可獲得一次隨機獎勵（$1），每日限1次",
+		desc_add = {
+			{
+				{
+					"Lv1"
+				},
+				{
+					"Lv2"
+				},
+				{
+					"Lv3"
+				},
+				{
+					"Lv4"
+				},
+				{
+					"Lv5"
+				},
+				{
+					"Lv6"
+				},
+				{
+					"Lv7"
+				},
+				{
+					"Lv8"
+				},
+				{
+					"Lv9"
+				},
+				{
+					"Lv10"
+				}
+			}
+		},
+		material = {
+			{
+				{
+					100101,
+					2
+				}
+			},
+			{
+				{
+					100101,
+					4
+				}
+			},
+			{
+				{
+					100101,
+					6
+				}
+			},
+			{
+				{
+					100102,
+					2
+				}
+			},
+			{
+				{
+					100102,
+					4
+				}
+			},
+			{
+				{
+					100102,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					4
+				}
+			},
+			{
+				{
+					100103,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					10
+				}
+			}
+		},
+		skill_effect = {
+			{
+				10310
+			},
+			{
+				10311
+			},
+			{
+				10312
+			},
+			{
+				10313
+			},
+			{
+				10314
+			},
+			{
+				10315
+			},
+			{
+				10316
+			},
+			{
+				10317
+			},
+			{
+				10318
+			},
+			{
+				10319
+			}
+		}
+	}
+	pg.base.island_chara_skill[1032] = {
+		name = "調飲精通",
+		id = 1032,
+		icon = "chara_all_skill_4",
+		desc = "在啾咖啡工作時，每次生產有$1%機率獲得額外產出，餐品營業利潤增加$2%",
+		desc_add = {
+			{
+				{
+					"1"
+				},
+				{
+					"1.2"
+				},
+				{
+					"1.5"
+				},
+				{
+					"1.7"
+				},
+				{
+					"2"
+				},
+				{
+					"2.2"
+				},
+				{
+					"2.5"
+				},
+				{
+					"3"
+				},
+				{
+					"3.5"
+				},
+				{
+					"4"
+				}
+			},
+			{
+				{
+					"5"
+				},
+				{
+					"5.5"
+				},
+				{
+					"6"
+				},
+				{
+					"6.5"
+				},
+				{
+					"7"
+				},
+				{
+					"7.5"
+				},
+				{
+					"8"
+				},
+				{
+					"8.5"
+				},
+				{
+					"9"
+				},
+				{
+					"10"
+				}
+			}
+		},
+		material = {
+			{
+				{
+					100101,
+					2
+				}
+			},
+			{
+				{
+					100101,
+					4
+				}
+			},
+			{
+				{
+					100101,
+					6
+				}
+			},
+			{
+				{
+					100102,
+					2
+				}
+			},
+			{
+				{
+					100102,
+					4
+				}
+			},
+			{
+				{
+					100102,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					4
+				}
+			},
+			{
+				{
+					100103,
+					6
+				}
+			},
+			{
+				{
+					100103,
+					10
+				}
+			}
+		},
+		skill_effect = {
+			{
+				10320,
+				100030
+			},
+			{
+				10321,
+				100031
+			},
+			{
+				10322,
+				100032
+			},
+			{
+				10323,
+				100033
+			},
+			{
+				10324,
+				100034
+			},
+			{
+				10325,
+				100035
+			},
+			{
+				10326,
+				100036
+			},
+			{
+				10327,
+				100037
+			},
+			{
+				10328,
+				100038
+			},
+			{
+				10329,
+				100039
+			}
+		}
+	}
 	pg.base.island_chara_skill[99999] = {
-		name = "无限活力",
+		name = "無限活力",
 		id = 99999,
 		icon = "chara_all_skill_8",
-		desc = "工作啾们拥有无限体力，且可同时委派至不同岗位，无数量限制",
+		desc = "工作啾們擁有無限體力，且可同時委派至不同崗位，無數量限制",
 		desc_add = {},
 		material = {},
 		skill_effect = {

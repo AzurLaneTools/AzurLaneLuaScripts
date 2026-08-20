@@ -20,6 +20,11 @@ slot0.execute = function(slot0, slot1)
 			if uv3 then
 				uv3()
 			end
+
+			uv4:sendNotification(GAME.APPRECIATE_GALLERY_LIKE_DONE, {
+				picID = uv2,
+				action = uv0
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips("Like Fail" .. tostring(slot0.result))
 		end

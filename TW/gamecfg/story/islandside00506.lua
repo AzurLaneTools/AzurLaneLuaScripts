@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "这些是……断口还很新鲜的木头碎片……",
+			say = "這些是……斷口還很新鮮的木頭碎片……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "角落里也有一小堆明显是新劈好的木柴，切口也还很新鲜。",
+			say = "角落裡也有一小堆明顯是新劈好的木柴，切口也還很新鮮。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			say = "而且放在一旁的斧头很明显也有人使用过。",
+			say = "而且放在一旁的斧頭很明顯也有人使用過。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			say = "事情是弄明白了……但怎么感觉更奇怪了……",
+			say = "事情是弄清楚了……但怎麼感覺更奇怪了……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			}
 		},
 		{
-			say = "谁会在半夜偷偷跑来帮梅莉劈柴啊？做好事不留名？还是……",
+			say = "誰會在半夜偷偷跑來幫梅莉劈柴啊？做好事不留名？還是……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			say = "梦游？还是先回去问问梅莉吧。",
+			say = "夢遊？還是先回去問問梅莉吧。",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {

@@ -70,25 +70,25 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					5,
-					7
+					8,
+					20
 				},
 				{
-					12,
 					0,
-					1
+					0,
+					0
 				}
 			},
 			{
 				{
 					2026,
-					8,
-					6
+					11,
+					19
 				},
 				{
-					12,
-					0,
-					0
+					14,
+					59,
+					59
 				}
 			}
 		}
@@ -104,8 +104,8 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					6,
-					5
+					9,
+					17
 				},
 				{
 					0,
@@ -116,13 +116,13 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					8,
-					6
+					11,
+					19
 				},
 				{
-					12,
-					0,
-					0
+					14,
+					59,
+					59
 				}
 			}
 		}
@@ -138,8 +138,8 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					7,
-					9
+					10,
+					22
 				},
 				{
 					0,
@@ -150,13 +150,13 @@ pg.base.island_shop_normal_template = {}
 			{
 				{
 					2026,
-					8,
-					6
+					11,
+					19
 				},
 				{
-					12,
-					0,
-					0
+					14,
+					59,
+					59
 				}
 			}
 		}
@@ -261,7 +261,7 @@ pg.base.island_shop_normal_template = {}
 					5
 				},
 				{
-					12,
+					0,
 					0,
 					0
 				}
@@ -270,12 +270,12 @@ pg.base.island_shop_normal_template = {}
 				{
 					2026,
 					6,
-					18
+					17
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -358,7 +358,7 @@ pg.base.island_shop_normal_template = {}
 					5
 				},
 				{
-					12,
+					0,
 					0,
 					0
 				}
@@ -367,12 +367,12 @@ pg.base.island_shop_normal_template = {}
 				{
 					2026,
 					6,
-					18
+					17
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}

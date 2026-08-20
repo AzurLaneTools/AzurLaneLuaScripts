@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "这样就好了？",
+			say = "這樣就好了？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "喵哈哈！当然没错喵！现在这座岛屿相关的一切都完全交给指挥官了喵~",
+			say = "喵哈哈！當然沒錯喵！現在這座島嶼相關的一切都完全交給指揮官了喵~",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "现在，岛屿开发区相关的所有资产、设施、运营权限……统统都移交给指挥官了喵~！",
+			say = "現在，島嶼開發區相關的所有資產、設施、營運權限……統統都移交給指揮官了喵~！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，辛苦了，{namecode:98:明石}。",
+			say = "嗯，辛苦了，明石。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			say = "啊，等等喵~那……那这些小小的历史遗留问题……也就一并交给指挥官处理了喵~",
+			say = "啊，等等喵~那……那這些小小的歷史遺留問題……也就一併交給指揮官處理了喵~",
 			animation = "idea",
 			characterId = 3120100,
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			say = "历史遗留问题？什么？",
+			say = "歷史遺留問題？什麼？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "喵……当然是之前半年，为了把这座无人岛建设成现在这样，所必须投入的……嗯……启动资金喵~",
+			say = "喵……當然是之前半年，為了把這座無人島建設成現在這樣，所必須投入的……嗯……啟動資金喵~",
 			animation = "embarrass",
 			characterId = 3120100,
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			say = "也就是，建设贷款……呜呜，这下终于可以松口气了喵~",
+			say = "也就是，建設貸款……嗚嗚，這下終於可以鬆口氣了喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			say = "这个简单，需要多少说个数，我直接出了就好。",
+			say = "這個簡單，需要多少說個數，我直接出了就好。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			say = "不过……你可是{namecode:98:明石}老板，开发一个岛屿而已为什么还需要贷款？",
+			say = "不過……妳可是明石老闆，開發一個島嶼而已為什麼還需要貸款？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			say = "喵呜……那是因为……在奇异点中开发需要用到特殊的货币，而这些货币只能从岛屿的生产经营活动中赚取……",
+			say = "喵嗚……那是因為……在奇異點中開發需要用到特殊的貨幣，而這些貨幣只能從島嶼的生產經營活動中賺取……",
 			animation = "embarrass",
 			characterId = 3120100,
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			say = "所以为了能够一上来就能马力全开快速滚雪球，{namecode:98:明石}就……就去借贷了喵！",
+			say = "所以為了能夠一上來就能馬力全開快速滾雪球，明石就……就去借貸了喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			say = "……我还是第一次听说这么奇怪的规则。",
+			say = "……我還是第一次聽到這麼奇怪的規則。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			say = "毕竟是开发奇异点喵，有奇怪的事也正常喵！",
+			say = "畢竟是開發奇異點喵，有奇怪的事也正常喵！",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			say = "既然如此奇怪，那你是从哪里借到的初始开发资金？",
+			say = "既然如此奇怪，那妳是從哪裡借來的初始開發資金？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			say = "喵……喵哈哈哈！这、这个嘛……商业机密喵！",
+			say = "喵……喵哈哈哈！這、這個嘛……商業機密喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -167,7 +167,7 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "指挥官就别操心这些细节啦！",
+			say = "指揮官就別操心這些細節啦！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			say = "比起这些，友情提示，债务详情里可以查看具体账单喵~",
+			say = "比起這些，友情提示，債務詳情裡可以查看具體帳單喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -184,7 +184,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "港口扩建……新开发农场、牧场、商区、种植园？怎么还有海滩开发计划……",
+			say = "港口擴建……新開發農場、牧場、商區、種植園？怎麼還有海灘開發計劃……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			say = "难怪帕特莉说最近的港口繁忙了不少……不过你为什么要开发这么多地方？",
+			say = "難怪帕特莉說最近的港口繁忙了不少……不過妳為什麼要開發這麼多地方？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -201,7 +201,7 @@ return {
 		},
 		{
 			animation = "sad",
-			say = "我……我只是想赚钱赚得更快些喵~",
+			say = "我……我只是想賺錢賺得更快些喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			say = "贪心了……这么多项目，就算开发好了，这点人手真的忙得过来么？",
+			say = "貪心了……這麼多項目，就算開發好了，這點人手真的忙得過來嗎？",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			say = "这个嘛……所以，指挥官才来得正好喵~",
+			say = "這個嘛……所以，指揮官才來得剛好喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -227,7 +227,7 @@ return {
 		},
 		{
 			animation = "elation",
-			say = "只要多带点人进来……带领大家多接委托、多开工厂、多种地、多养牛~",
+			say = "只要多帶點人進來……帶領大家多接委託、多開工廠、多種地、多養牛~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			say = "这点钱很快就能赚回来的喵~",
+			say = "這點錢很快就能賺回來的喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			say = "那要怎么带人进来？",
+			say = "那要怎麼帶人進來？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			say = "哼哼，这就要用到岛屿权限认证函了喵~",
+			say = "哼哼，這就要用到島嶼權限認證函了喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -260,7 +260,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官快跟我过来喵~",
+			say = "指揮官快跟我過來喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

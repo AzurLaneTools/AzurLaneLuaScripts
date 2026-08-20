@@ -584,14 +584,14 @@ pg.base.island_set = {}
 		key = "season_pt",
 		key_value_int = 0,
 		key_value_varchar = {
-			"岛屿开发PT",
+			"島嶼開發PT",
 			"IslandProps/season_pt"
 		}
 	}
 	pg.base.island_set.season_now = {
 		key_value_varchar = "",
 		key = "season_now",
-		key_value_int = 3
+		key_value_int = 4
 	}
 	pg.base.island_set.season_pt_show = {
 		key_value_varchar = "",
@@ -646,7 +646,7 @@ pg.base.island_set = {}
 		key = "farm_empty_state_info",
 		key_value_int = 0,
 		key_value_varchar = {
-			"无作物",
+			"無作物",
 			"islandprops/plant_seedings"
 		}
 	}
@@ -1024,7 +1024,7 @@ pg.base.island_set = {}
 		key = "island_default_name",
 		key_value_int = 0,
 		key_value_varchar = {
-			"的小岛"
+			"的小島"
 		}
 	}
 	pg.base.island_set.island_message_bubble_range = {
@@ -1111,8 +1111,8 @@ pg.base.island_set = {}
 		key = "island_corncup_return_mail_content",
 		key_value_int = 0,
 		key_value_varchar = {
-			"岛屿科技额外消耗资源返还",
-			"感谢指挥官在岛屿计划中作出的贡献喵~"
+			"島嶼科技額外消耗資源返還",
+			"感謝指揮官在島嶼計劃中作出的貢獻喵~"
 		}
 	}
 	pg.base.island_set.island_shiporder_refresh_cd = {

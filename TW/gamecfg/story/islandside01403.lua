@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "……应该差不多了吧？地图上也没有标个深度……",
+			say = "……應該差不多了吧？地圖上也沒有標個深度……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -14,7 +14,7 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "咔哒——",
+			say = "咔噠——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,14 +23,14 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "再次挥动铲子，铲尖突然碰到一个坚硬的小物体，发出轻微的咔哒声。",
+			say = "再次揮舞鏟子，鏟尖突然碰到一個堅硬的小物體，發出輕微的咔噠聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯？下面真的有东西？不是石头……",
+			say = "嗯？下面真的有東西？不是石頭……",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -41,7 +41,7 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "小心扒开坑底的浮土，一块巴掌大小的硬质物体轮廓显露出来。",
+			say = "小心扒開坑底的浮土，一巴掌大小的硬質物體輪廓顯露出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,14 +50,14 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "上面用刺眼的亮绿色油漆画着一个猫头图案……",
+			say = "上面用刺眼的亮綠色油漆畫著一個貓頭圖案……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "一个小盒子？这颜色、这风格……不会吧……",
+			say = "一個小盒子？這顏色、這風格……不會吧……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -67,14 +67,14 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "打开后，里面放着一张金属卡，上面还贴着——私喵金库，闲喵莫动！",
+			say = "打開後，裡面放著一張金屬卡，上面還貼著——私喵金庫，閒喵莫動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "果然……这诡异的画风，这藏头露尾的感觉。",
+			say = "果然……這詭異的畫風，這藏頭露尾的感覺。",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			say = "除了那只奸商猫还能是谁……",
+			say = "除了那隻奸商貓還能是誰……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			say = "只是资金卡……为什么会埋在这？",
+			say = "只是資金卡……為什麼會埋在這裡？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			say = "先回去看看里面到底有没有钱吧。",
+			say = "先回去看看裡面到底有沒有錢吧。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

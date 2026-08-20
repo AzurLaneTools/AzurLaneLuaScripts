@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "（啾咖啡下面居然隐藏着一个研究所……这就是{namecode:98:明石}不可告人的秘密？）",
+			say = "（啾咖啡下面居然隱藏著一個研究所……這就是明石不可告人的秘密？）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "（虽然不知道这是在加工什么，但她连我都瞒着，一定所图甚大！）",
+			say = "（雖然我不知道這是在加工什麼，但她連我都瞞著，一定所圖甚大！）",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			say = "是时候找她问个清楚了！",
+			say = "是時候找她問個清楚了！",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

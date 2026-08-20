@@ -22,62 +22,62 @@ pg.base.island_card_label = {}
 (function ()
 	pg.base.island_card_label[1] = {
 		id = 1,
-		name = "全勤开发区",
+		name = "全勤開發區",
 		color = 3
 	}
 	pg.base.island_card_label[2] = {
 		id = 2,
-		name = "休闲开发区",
+		name = "休閒開發區",
 		color = 4
 	}
 	pg.base.island_card_label[3] = {
 		id = 3,
-		name = "规划大师",
+		name = "規劃大師",
 		color = 6
 	}
 	pg.base.island_card_label[4] = {
 		id = 4,
-		name = "景观设计师",
+		name = "景觀設計師",
 		color = 5
 	}
 	pg.base.island_card_label[5] = {
 		id = 5,
-		name = "时尚之星",
+		name = "時尚之星",
 		color = 2
 	}
 	pg.base.island_card_label[6] = {
 		id = 6,
-		name = "仓储达人",
+		name = "倉儲達人",
 		color = 6
 	}
 	pg.base.island_card_label[7] = {
 		id = 7,
-		name = "管理大师",
+		name = "管理大師",
 		color = 6
 	}
 	pg.base.island_card_label[8] = {
 		id = 8,
-		name = "庆典明星",
+		name = "慶典明星",
 		color = 1
 	}
 	pg.base.island_card_label[9] = {
 		id = 9,
-		name = "友谊大使",
+		name = "友誼大使",
 		color = 1
 	}
 	pg.base.island_card_label[10] = {
 		id = 10,
-		name = "成就猎人",
+		name = "成就獵人",
 		color = 2
 	}
 	pg.base.island_card_label[11] = {
 		id = 11,
-		name = "岛屿收藏家",
+		name = "島嶼收藏家",
 		color = 2
 	}
 	pg.base.island_card_label[12] = {
 		id = 12,
-		name = "摄影大师",
+		name = "攝影大師",
 		color = 3
 	}
 end)()

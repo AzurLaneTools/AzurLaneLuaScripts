@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "这就是岛屿地图了",
+				text = "這裡是島嶼地圖",
 				mode = 2,
 				char = 1,
 				posY = -120,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击岛屿地图上的区域按钮可查看区域详情",
+				text = "點擊島嶼地圖上的區域按鈕可查看區域詳情",
 				mode = 2,
 				char = 1,
 				posY = -120,
@@ -39,7 +39,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "点击前往按钮能够快速前往所选区域",
+				text = "點擊前往按鈕能夠快速前往所選區域",
 				mode = 2,
 				char = 1,
 				posY = -120,

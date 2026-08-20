@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "赫莫，打扰一下。",
+			say = "赫莫，打擾一下。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,17 +33,17 @@ return {
 			}
 		},
 		{
-			say = "啊，是指挥官，有什么事吗？",
+			say = "啊，是指揮官，有什麼事嗎？",
 			animation = "doubt",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "梅莉的羊群走丢了，数量不少。你下午在农场这边，有没有见过一群羊经过？或者听到什么动静？",
+			say = "梅莉的羊群走丟了，數量不少。你下午在農場這邊，有沒有看過一群羊經過？或是聽到什麼動靜？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,17 +51,17 @@ return {
 			}
 		},
 		{
-			say = "欸？丢失的羊？这不符合它们的……",
+			say = "欸？遺失的羊？這不符合它們的……",
 			animation = "amaze",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "赫莫，时间有点紧，先想想有没有看到？",
+			say = "赫莫，時間有點緊，先想想有沒有看到？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -69,18 +69,18 @@ return {
 			}
 		},
 		{
-			say = "啊，抱歉……不过，我好像是有点印象……",
+			say = "啊，抱歉……不過，我好像是有點印象……",
 			animation = "think",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "大概……两个多小时以前？我在记录东边那块地的土壤湿度时……",
-			subName = "农田管理员",
+			say = "大概……兩個多小時以前？我在紀錄東邊那塊地的土壤濕度時……",
+			subName = "農田管理員",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			say = "好像听到远处有咩咩的叫声，数量不少，挺嘈杂的……至于方向……",
-			subName = "农田管理员",
+			say = "好像聽到遠處有咩咩的叫聲，數量不少，挺吵雜的……至於方向……",
+			subName = "農田管理員",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -97,17 +97,17 @@ return {
 			}
 		},
 		{
-			say = "嗯……记不清具体位置了……但声音来源的大致方位应该是在农场后面那片林子里。",
+			say = "嗯……我記不清具體位置了……但聲音來源的大致方位應該是在農場後面那片林子裡。",
 			animation = "shakehead",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "是跑去那边了么……有方向就好办了，我这就过去看看！",
+			say = "是跑去那邊了嗎……有方向就好辦了，我這就過去看看！",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			say = "谢谢你赫莫。",
+			say = "謝謝妳赫莫。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -124,10 +124,10 @@ return {
 			}
 		},
 		{
-			say = "嗯，指挥官慢走~",
+			say = "嗯，指揮官慢走~",
 			animation = "bye",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

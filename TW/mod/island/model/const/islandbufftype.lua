@@ -8,6 +8,8 @@ slot0.SHIP_MANAGE_SELL_PRICE = 601
 slot0.SHIP_MANAGE_SELL_NUM = 602
 slot0.GLOBAL_MANAGE_SELL_PRICE = 603
 slot0.GLOBAL_MANAGE_SELL_NUM = 604
+slot0.SHIP_POWER_RECOVER_BY_GREETING = 701
+slot0.SHIP_AWARD_BY_GREETING = 702
 
 slot0.GetGlobalTypes = function()
 	return {
@@ -43,6 +45,17 @@ end
 
 slot0.IsLimitRestaurantType = function(slot0)
 	return table.contains(uv0.GetLimitRestaurantTypes(), slot0)
+end
+
+slot0.GetGreetingTypes = function()
+	return {
+		uv0.SHIP_POWER_RECOVER_BY_GREETING,
+		uv0.SHIP_AWARD_BY_GREETING
+	}
+end
+
+slot0.IsGreetingType = function(slot0)
+	return table.contains(uv0.GetGreetingTypes(), slot0)
 end
 
 return slot0

@@ -9,7 +9,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "{namecode:98:明石}，怎么样，你找到那本生活经验指南了？",
+			say = "明石，怎麼樣，妳找到那本人生經驗指南了？",
 			animation = "hi",
 			characterId = 0,
 			camera = "StoryCamera7",
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			say = "喵~正好翻到了喵！",
+			say = "喵~剛好翻到喵了！",
 			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "这可是{namecode:98:明石}这半年在岛上总结出的精华喵~从生存技巧到建设心得，无所不包！",
+			say = "這可是明石這半年在島上總結出的精華喵~從生存技巧到建設心得，無所不包！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "这可是独家秘籍喵~就送给指挥官啦！",
+			say = "這可是獨家秘籍喵~就送給指揮官啦！",
 			animation = "talk",
 			characterId = 3120100,
 			typewriter = {
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			say = "送？你怎么突然这么好心？",
+			say = "送？妳怎麼突然這麼好心？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			say = "当然，指挥官你可是{namecode:98:明石}最重要的开发伙伴喵~",
+			say = "當然，指揮官你可是明石最重要的開發夥伴喵~",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			say = "而且就算卖……刚背上巨额负债的指挥官也开不出什么好价吧喵~",
+			say = "而且就算賣……剛背上巨額負債的指揮官也開不出什麼好價吧喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "你以为这都是谁欠的债……",
+			say = "妳以為這是誰欠的債……",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			say = "安心~只要能解决人手问题，这点债务都是小问题喵~",
+			say = "安心~只要能解決人手問題，這點債務都是小問題喵~",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			say = "不过这是长期的事喵~至于赚钱的方法，指挥官之后可以去货运中心问问帕特莉！",
+			say = "不過這是長期的事喵~至於賺錢的方法，指揮官之後可以去貨運中心問問帕特莉！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

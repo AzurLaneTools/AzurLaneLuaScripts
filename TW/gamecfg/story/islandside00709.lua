@@ -5,7 +5,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "找到了，这应该就是布莱梅藏起来的配方表。",
+			say = "找到了，這應該就是布萊梅藏起來的配方表。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -13,7 +13,7 @@ return {
 			}
 		},
 		{
-			say = "藏得还真深啊……",
+			say = "藏得還真深啊……",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			say = "不知道会是多么美味的蜂蜜水。",
+			say = "不知道會是多麼美味的蜂蜜水。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

@@ -46,7 +46,11 @@ slot0.ShowAnimationOp = function(slot0, slot1, slot2)
 
 	setParent(slot5, slot4)
 	setActive(slot5, true)
-	LoadImageSpriteAsync("island/IslandActionIcon/" .. pg.island_action[slot2].resource, slot5.transform:Find("Image"), false)
+
+	slot6 = pg.island_action[slot2]
+
+	assert(slot6, "island_action>>>>" .. slot2)
+	LoadImageSpriteAsync("island/IslandActionIcon/" .. slot6.resource, slot5.transform:Find("Image"), false)
 
 	slot0.animationOpTpls[slot3.key] = slot5
 

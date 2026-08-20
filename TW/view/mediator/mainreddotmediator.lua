@@ -3,7 +3,8 @@ slot0 = class("MainReddotMediator", pm.Mediator)
 slot0.GetNotifyDic = function(slot0)
 	slot0.listener = slot0.listener or {
 		ATTIRE = {
-			GAME.EDUCATE_GET_ENDINGS_DONE
+			GAME.EDUCATE_GET_ENDINGS_DONE,
+			AttireProxy.ATTIREFRAME_ADDED
 		},
 		TASK = {
 			TaskProxy.TASK_ADDED,

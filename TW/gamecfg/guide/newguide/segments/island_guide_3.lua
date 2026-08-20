@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "靠近角色后能够与对方进行互动",
+				text = "靠近角色後能夠與對方進行互動",
 				mode = 2,
 				char = 1,
 				posY = 0,

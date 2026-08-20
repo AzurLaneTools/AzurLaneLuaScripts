@@ -21,7 +21,7 @@ return {
 		{
 			animation = "talk",
 			characterId = 0,
-			say = "阿莫玛，看，牛奶、时蔬、肉类……都在这里了。",
+			say = "阿莫瑪，看，牛奶、時蔬、肉……都在這裡了。",
 			face2Face = {
 				{
 					0,
@@ -34,18 +34,18 @@ return {
 			}
 		},
 		{
-			say = "很好……品质都很不错，完美符合需求。",
+			say = "很好……品質都很不錯，完美符合需求。",
 			animation = "nod",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官，你看……商区的店铺也全都建设好了。",
-			subName = "商区管理员",
+			say = "指揮官，你看……商區的店也全都建設好了。",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "嗯……很不错，宽敞明亮，充满了生活的烟火气和满足感。",
+			say = "嗯……很不錯，寬敞明亮，充滿了生活的煙火氣和滿足感。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -62,17 +62,17 @@ return {
 			}
 		},
 		{
-			say = "是啊，从只有一家餐馆的商区，到现在的饮品店、简餐店、烤肉店……真的越来越繁华了。",
+			say = "是啊，從只有一家餐廳的商區，到現在的飲品店、簡餐店、烤肉店……真的越來越繁華了。",
 			animation = "clap",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这可都是你精心规划的成果。",
+			say = "這可都是妳精心規劃的成果。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -80,18 +80,18 @@ return {
 			}
 		},
 		{
-			say = "不，这是指挥官和大家共同努力的结果。",
+			say = "不，這是指揮官和大家共同努力的成果。",
 			animation = "shakehead",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "谢谢你……指挥官。",
-			subName = "商区管理员",
+			say = "謝謝你……指揮官。",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,

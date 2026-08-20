@@ -21,7 +21,7 @@ return {
 		{
 			animation = "talk",
 			characterId = 0,
-			say = "布莱梅，事情是这样的……",
+			say = "布萊梅，事情是這樣的……",
 			face2Face = {
 				{
 					0,
@@ -34,18 +34,18 @@ return {
 			}
 		},
 		{
-			say = "欸，蜂蜜水配方吗？",
+			say = "欸，蜂蜜水配方嗎？",
 			animation = "amaze",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "很久很久以前，我确实尝过一杯特别好喝的蜂蜜水……",
-			subName = "啾咖啡店员",
+			say = "很久很久以前，我確實嚐過一杯特別好喝的蜂蜜水……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			say = "美味到终生难忘……",
-			subName = "啾咖啡店员",
+			say = "美味到終生難忘…",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -62,18 +62,18 @@ return {
 			}
 		},
 		{
-			say = "那个配方……我好像记下来了，但放在哪里了呢……",
+			say = "那個配方……我好像記下來了，但放在哪裡了呢……",
 			animation = "think",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "等我一下哦指挥官，我去后厨找找看。",
-			subName = "啾咖啡店员",
+			say = "等我一下哦指揮官，我去後廚找找看。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			say = "布莱梅，你找到配方了？",
+			say = "布萊梅，妳找到配方了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -98,18 +98,18 @@ return {
 			}
 		},
 		{
-			say = "指挥官，我之前在后厨找了半天，才发现……",
+			say = "指揮官，我之前在後廚找了半天，才發現……",
 			animation = "embarrass",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我好像把配方藏在了商业街内的某个特殊的地方了。",
-			subName = "啾咖啡店员",
+			say = "我好像把配方藏在了商業街內的某個特殊的地方了。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			say = "……竟然不是藏在家里，而是商业街里？",
+			say = "……竟然不是藏在家裡，而是商業街上？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -125,17 +125,17 @@ return {
 			}
 		},
 		{
-			say = "嗯，因为是很重要的配方，藏在家里的话感觉太容易弄丢了……",
+			say = "嗯，因為是很重要的配方，藏在家裡的話感覺太容易弄丟了……",
 			animation = "shy",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……竟然是这样的逻辑？",
+			say = "……竟然是這樣的邏輯？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -143,17 +143,17 @@ return {
 			}
 		},
 		{
-			say = "但是现在店里暂时离不开人……唔……",
+			say = "但現在店裡暫時離不開人……嗯……",
 			animation = "embarrass",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "你把地点告诉我，我帮你找出来。",
+			say = "妳把地點告訴我，我幫你找出來。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

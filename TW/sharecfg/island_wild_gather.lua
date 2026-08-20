@@ -158,12 +158,12 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1001] = {
-		name = "秋菊花丛",
+		name = "秋菊花叢",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
 		ability_id = 0,
-		activity_id = 990003,
+		activity_id = 990024,
 		id = 1001,
 		icon = "IslandProps/item_4001",
 		show = 1,
@@ -177,12 +177,12 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1002] = {
-		name = "秋菊花丛",
+		name = "秋菊花叢",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
 		ability_id = 0,
-		activity_id = 990003,
+		activity_id = 990024,
 		id = 1002,
 		icon = "IslandProps/item_4001",
 		show = 1,
@@ -196,12 +196,12 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1003] = {
-		name = "芦苇丛",
+		name = "蘆葦叢",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
 		ability_id = 0,
-		activity_id = 990003,
+		activity_id = 990024,
 		id = 1003,
 		icon = "IslandProps/item_4002",
 		show = 1,
@@ -215,12 +215,12 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1004] = {
-		name = "芦苇丛",
+		name = "蘆葦叢",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
 		ability_id = 0,
-		activity_id = 990003,
+		activity_id = 990024,
 		id = 1004,
 		icon = "IslandProps/item_4002",
 		show = 1,
@@ -239,7 +239,7 @@ pg.base.island_wild_gather = {}
 		type = 2,
 		time_taked = 3,
 		ability_id = 0,
-		activity_id = 990003,
+		activity_id = 990024,
 		id = 1005,
 		icon = "IslandProps/item_4003",
 		show = 1,
@@ -258,7 +258,7 @@ pg.base.island_wild_gather = {}
 		type = 2,
 		time_taked = 3,
 		ability_id = 0,
-		activity_id = 990003,
+		activity_id = 990024,
 		id = 1006,
 		icon = "IslandProps/item_4003",
 		show = 1,
@@ -272,12 +272,12 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1007] = {
-		name = "松茸丛",
+		name = "松茸叢",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
 		ability_id = 0,
-		activity_id = 990003,
+		activity_id = 990024,
 		id = 1007,
 		icon = "IslandProps/item_4004",
 		show = 1,
@@ -291,12 +291,12 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1008] = {
-		name = "松茸丛",
+		name = "松茸叢",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
 		ability_id = 0,
-		activity_id = 990003,
+		activity_id = 990024,
 		id = 1008,
 		icon = "IslandProps/item_4004",
 		show = 1,
@@ -310,7 +310,7 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1009] = {
-		name = "春笋",
+		name = "春筍",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -329,7 +329,7 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1010] = {
-		name = "春笋",
+		name = "春筍",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -348,7 +348,7 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1011] = {
-		name = "荠菜",
+		name = "薺菜",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -367,7 +367,7 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1012] = {
-		name = "荠菜",
+		name = "薺菜",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -424,7 +424,7 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1015] = {
-		name = "风信子",
+		name = "風信子",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -443,7 +443,7 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1016] = {
-		name = "风信子",
+		name = "風信子",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -576,7 +576,7 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1023] = {
-		name = "红米苋",
+		name = "紅米莧",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,
@@ -595,7 +595,7 @@ pg.base.island_wild_gather = {}
 		}
 	}
 	pg.base.island_wild_gather[1024] = {
-		name = "红米苋",
+		name = "紅米莧",
 		refresh = 1,
 		type = 2,
 		time_taked = 3,

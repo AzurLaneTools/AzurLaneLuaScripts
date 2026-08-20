@@ -11,7 +11,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "指挥官，请先前往生活区",
+				text = "指揮官，請先前往生活區",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -34,7 +34,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "岛屿计划现已开启，指挥官可随时前往岛屿开发区",
+				text = "島嶼計劃現已開啟，指揮官可隨時前往島嶼開發區",
 				mode = 2,
 				char = 1,
 				posY = 200,

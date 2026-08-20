@@ -22,6 +22,7 @@ pg.island_task_target.all = {
 	500000011,
 	500000021,
 	500000031,
+	500000041,
 	510010001,
 	510010011,
 	510010012,
@@ -58,6 +59,13 @@ pg.island_task_target.all = {
 	50001019,
 	50001020,
 	50001021,
+	50001022,
+	50001023,
+	50001024,
+	50001025,
+	50001026,
+	50001027,
+	50001028,
 	50002001,
 	50002002,
 	50002003,
@@ -79,6 +87,13 @@ pg.island_task_target.all = {
 	50002019,
 	50002020,
 	50002021,
+	50002022,
+	50002023,
+	50002024,
+	50002025,
+	50002026,
+	50002027,
+	50002028,
 	50003001,
 	50003002,
 	50003003,
@@ -91,6 +106,10 @@ pg.island_task_target.all = {
 	50003010,
 	50003011,
 	50003012,
+	50003013,
+	50003014,
+	50003015,
+	50003016,
 	80010001,
 	80010002,
 	80010003,
@@ -211,6 +230,36 @@ pg.island_task_target.all = {
 	80013028,
 	80013029,
 	80013030,
+	80014001,
+	80014002,
+	80014003,
+	80014004,
+	80014005,
+	80014006,
+	80014007,
+	80014008,
+	80014009,
+	80014010,
+	80014011,
+	80014012,
+	80014013,
+	80014014,
+	80014015,
+	80014016,
+	80014017,
+	80014018,
+	80014019,
+	80014020,
+	80014021,
+	80014022,
+	80014023,
+	80014024,
+	80014025,
+	80014026,
+	80014027,
+	80014028,
+	80014029,
+	80014030,
 	100010001,
 	100010101,
 	100010201,
@@ -421,6 +470,7 @@ pg.island_task_target.all = {
 	200170011,
 	200170021,
 	200170031,
+	200180011,
 	301010011,
 	302010011,
 	303010011,
@@ -521,7 +571,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[101] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "与{namecode:98:明石}互动",
+		name = "與{namecode:98:明石}互動",
 		type = 1,
 		id = 101,
 		target_num = 1,
@@ -532,7 +582,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[201] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "到达目标区域",
+		name = "到達目標區域",
 		type = 2,
 		id = 201,
 		target_num = 1,
@@ -543,7 +593,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[301] = {
 		tips = "order",
 		jump_ui = "",
-		name = "完成订单1",
+		name = "完成訂單1",
 		type = 3,
 		id = 301,
 		target_num = 1,
@@ -552,7 +602,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[302] = {
 		tips = "order",
 		jump_ui = "",
-		name = "完成订单2",
+		name = "完成訂單2",
 		type = 3,
 		id = 302,
 		target_num = 1,
@@ -574,7 +624,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[501] = {
 		tips = "",
 		jump_ui = "",
-		name = "获得任意道具",
+		name = "獲得任意道具",
 		type = 5,
 		id = 501,
 		target_num = 20,
@@ -583,7 +633,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[502] = {
 		tips = "",
 		jump_ui = "",
-		name = "获得指定道具",
+		name = "獲得指定道具",
 		type = 5,
 		id = 502,
 		target_num = 20,
@@ -594,7 +644,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[601] = {
 		tips = "",
 		jump_ui = "",
-		name = "任意配方手动完成",
+		name = "任意配方手動完成",
 		type = 6,
 		id = 601,
 		target_num = 1,
@@ -603,7 +653,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[602] = {
 		tips = "",
 		jump_ui = "",
-		name = "指定配方手动完成",
+		name = "指定配方手動完成",
 		type = 6,
 		id = 602,
 		target_num = 1,
@@ -634,7 +684,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[901] = {
 		tips = "",
 		jump_ui = "",
-		name = "请先达到指定岛屿开发等级",
+		name = "請先達到指定島嶼開發等級",
 		type = 9,
 		id = 901,
 		target_num = 10,
@@ -643,7 +693,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[902] = {
 		tips = "",
 		jump_ui = "",
-		name = "请先达到指定岛屿开发等级",
+		name = "請先達到指定島嶼開發等級",
 		type = 9,
 		id = 902,
 		target_num = 4,
@@ -652,7 +702,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[903] = {
 		tips = "",
 		jump_ui = "",
-		name = "请先达到指定岛屿开发等级",
+		name = "請先達到指定島嶼開發等級",
 		type = 9,
 		id = 903,
 		target_num = 8,
@@ -661,7 +711,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[40005] = {
 		tips = "",
 		jump_ui = "",
-		name = "偿还贷款",
+		name = "償還貸款",
 		type = 5,
 		id = 40005,
 		target_num = 2000000,
@@ -683,7 +733,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[500000021] = {
 		tips = "10020025",
 		jump_ui = "",
-		name = "向佩芮了解情况",
+		name = "向佩芮瞭解情況",
 		type = 1,
 		id = 500000021,
 		target_num = 1,
@@ -694,12 +744,23 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[500000031] = {
 		tips = "10020025",
 		jump_ui = "",
-		name = "向佩芮了解情况",
+		name = "向佩芮瞭解情況",
 		type = 1,
 		id = 500000031,
 		target_num = 1,
 		target_param = {
 			5845
+		}
+	}
+	pg.base.island_task_target[500000041] = {
+		tips = "10020025",
+		jump_ui = "",
+		name = "向佩芮瞭解情況",
+		type = 1,
+		id = 500000041,
+		target_num = 1,
+		target_param = {
+			5882
 		}
 	}
 	pg.base.island_task_target[510010001] = {
@@ -716,7 +777,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510010011] = {
 		tips = "",
 		jump_ui = "",
-		name = "采集任意木材",
+		name = "採集任意木材",
 		type = 49,
 		id = 510010011,
 		target_num = 3,
@@ -727,7 +788,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510010012] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "委派制作欧姆蛋",
+		name = "委派製作歐姆蛋",
 		type = 7,
 		id = 510010012,
 		target_num = 3,
@@ -738,7 +799,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510010013] = {
 		tips = "10010003",
 		jump_ui = "",
-		name = "委派生产牛奶",
+		name = "委派生產牛奶",
 		type = 7,
 		id = 510010013,
 		target_num = 3,
@@ -749,7 +810,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510010014] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "营业收入达到",
+		name = "營業收入達到",
 		type = 29,
 		id = 510010014,
 		target_num = 500,
@@ -760,7 +821,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510020001] = {
 		tips = "",
 		jump_ui = "",
-		name = "回收特殊道具-娜比娅",
+		name = "回收特殊道具-娜比婭",
 		type = 4,
 		id = 510020001,
 		target_num = 1,
@@ -771,7 +832,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510020011] = {
 		tips = "10010040",
 		jump_ui = "",
-		name = "收获任意农田作物",
+		name = "收穫任意農田作物",
 		type = 47,
 		id = 510020011,
 		target_num = 3,
@@ -782,7 +843,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510020012] = {
 		tips = "10050003",
 		jump_ui = "",
-		name = "委派生产草莓",
+		name = "委派生產草莓",
 		type = 7,
 		id = 510020012,
 		target_num = 3,
@@ -793,7 +854,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510020013] = {
 		tips = "",
 		jump_ui = "",
-		name = "抚摸猫咪",
+		name = "撫摸貓咪",
 		type = 1,
 		id = 510020013,
 		target_num = 1,
@@ -804,7 +865,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510020014] = {
 		tips = "",
 		jump_ui = "",
-		name = "研发工业生产设备",
+		name = "研發工業生產裝置",
 		type = 8,
 		id = 510020014,
 		target_num = 1,
@@ -826,7 +887,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510030011] = {
 		tips = "10020009",
 		jump_ui = "",
-		name = "交付任意岛屿订单",
+		name = "交付任意島嶼訂單",
 		type = 3,
 		id = 510030011,
 		target_num = 3,
@@ -835,7 +896,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510030012] = {
 		tips = "10010003",
 		jump_ui = "",
-		name = "委派生产任意牧场产品",
+		name = "委派生產任意牧場產品",
 		type = 48,
 		id = 510030012,
 		target_num = 3,
@@ -846,7 +907,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510030013] = {
 		tips = "10020085",
 		jump_ui = "",
-		name = "完成钓鱼",
+		name = "完成釣魚",
 		type = 58,
 		id = 510030013,
 		target_num = 1,
@@ -855,7 +916,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[510030014] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "完成营业",
+		name = "完成營業",
 		type = 31,
 		id = 510030014,
 		target_num = 1,
@@ -864,7 +925,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001001] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集秋季特产",
+		name = "累計採集秋季特產",
 		type = 40,
 		id = 50001001,
 		target_num = 8,
@@ -875,7 +936,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001002] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集秋季特产",
+		name = "累計採集秋季特產",
 		type = 40,
 		id = 50001002,
 		target_num = 24,
@@ -886,7 +947,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001003] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集秋季特产",
+		name = "累計採集秋季特產",
 		type = 40,
 		id = 50001003,
 		target_num = 48,
@@ -897,7 +958,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001004] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集秋季特产",
+		name = "累計採集秋季特產",
 		type = 40,
 		id = 50001004,
 		target_num = 96,
@@ -908,7 +969,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001005] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集秋季特产",
+		name = "累計採集秋季特產",
 		type = 40,
 		id = 50001005,
 		target_num = 120,
@@ -919,7 +980,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001006] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集秋季特产",
+		name = "累計採集秋季特產",
 		type = 40,
 		id = 50001006,
 		target_num = 160,
@@ -930,7 +991,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001007] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集秋季特产",
+		name = "累計採集秋季特產",
 		type = 40,
 		id = 50001007,
 		target_num = 240,
@@ -941,7 +1002,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001008] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集春季特产",
+		name = "累計採集春季特產",
 		type = 40,
 		id = 50001008,
 		target_num = 8,
@@ -952,7 +1013,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001009] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集春季特产",
+		name = "累計採集春季特產",
 		type = 40,
 		id = 50001009,
 		target_num = 24,
@@ -963,7 +1024,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001010] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集春季特产",
+		name = "累計採集春季特產",
 		type = 40,
 		id = 50001010,
 		target_num = 48,
@@ -974,7 +1035,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001011] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集春季特产",
+		name = "累計採集春季特產",
 		type = 40,
 		id = 50001011,
 		target_num = 96,
@@ -985,7 +1046,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001012] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集春季特产",
+		name = "累計採集春季特產",
 		type = 40,
 		id = 50001012,
 		target_num = 120,
@@ -996,7 +1057,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001013] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集春季特产",
+		name = "累計採集春季特產",
 		type = 40,
 		id = 50001013,
 		target_num = 160,
@@ -1007,7 +1068,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001014] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集春季特产",
+		name = "累計採集春季特產",
 		type = 40,
 		id = 50001014,
 		target_num = 240,
@@ -1018,7 +1079,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001015] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集夏季特产",
+		name = "累計採集夏季特產",
 		type = 40,
 		id = 50001015,
 		target_num = 8,
@@ -1029,7 +1090,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001016] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集夏季特产",
+		name = "累計採集夏季特產",
 		type = 40,
 		id = 50001016,
 		target_num = 24,
@@ -1040,7 +1101,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001017] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集夏季特产",
+		name = "累計採集夏季特產",
 		type = 40,
 		id = 50001017,
 		target_num = 48,
@@ -1051,7 +1112,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001018] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集夏季特产",
+		name = "累計採集夏季特產",
 		type = 40,
 		id = 50001018,
 		target_num = 96,
@@ -1062,7 +1123,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001019] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集夏季特产",
+		name = "累計採集夏季特產",
 		type = 40,
 		id = 50001019,
 		target_num = 120,
@@ -1073,7 +1134,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001020] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集夏季特产",
+		name = "累計採集夏季特產",
 		type = 40,
 		id = 50001020,
 		target_num = 160,
@@ -1084,7 +1145,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50001021] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计采集夏季特产",
+		name = "累計採集夏季特產",
 		type = 40,
 		id = 50001021,
 		target_num = 240,
@@ -1092,10 +1153,87 @@ pg.base.island_task_target = {}
 			990018
 		}
 	}
+	pg.base.island_task_target[50001022] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計採集秋季特產",
+		type = 40,
+		id = 50001022,
+		target_num = 8,
+		target_param = {
+			990024
+		}
+	}
+	pg.base.island_task_target[50001023] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計採集秋季特產",
+		type = 40,
+		id = 50001023,
+		target_num = 24,
+		target_param = {
+			990024
+		}
+	}
+	pg.base.island_task_target[50001024] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計採集秋季特產",
+		type = 40,
+		id = 50001024,
+		target_num = 48,
+		target_param = {
+			990024
+		}
+	}
+	pg.base.island_task_target[50001025] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計採集秋季特產",
+		type = 40,
+		id = 50001025,
+		target_num = 96,
+		target_param = {
+			990024
+		}
+	}
+	pg.base.island_task_target[50001026] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計採集秋季特產",
+		type = 40,
+		id = 50001026,
+		target_num = 120,
+		target_param = {
+			990024
+		}
+	}
+	pg.base.island_task_target[50001027] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計採集秋季特產",
+		type = 40,
+		id = 50001027,
+		target_num = 160,
+		target_param = {
+			990024
+		}
+	}
+	pg.base.island_task_target[50001028] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計採集秋季特產",
+		type = 40,
+		id = 50001028,
+		target_num = 240,
+		target_param = {
+			990024
+		}
+	}
 	pg.base.island_task_target[50002001] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作秋季特产",
+		name = "累計製作秋季特產",
 		type = 26,
 		id = 50002001,
 		target_num = 40,
@@ -1113,7 +1251,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002002] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作秋季特产",
+		name = "累計製作秋季特產",
 		type = 26,
 		id = 50002002,
 		target_num = 80,
@@ -1131,7 +1269,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002003] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作秋季特产",
+		name = "累計製作秋季特產",
 		type = 26,
 		id = 50002003,
 		target_num = 100,
@@ -1149,7 +1287,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002004] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作秋季特产",
+		name = "累計製作秋季特產",
 		type = 26,
 		id = 50002004,
 		target_num = 200,
@@ -1167,7 +1305,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002005] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作秋季特产",
+		name = "累計製作秋季特產",
 		type = 26,
 		id = 50002005,
 		target_num = 400,
@@ -1185,7 +1323,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002006] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作秋季特产",
+		name = "累計製作秋季特產",
 		type = 26,
 		id = 50002006,
 		target_num = 600,
@@ -1203,7 +1341,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002007] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作秋季特产",
+		name = "累計製作秋季特產",
 		type = 26,
 		id = 50002007,
 		target_num = 800,
@@ -1221,7 +1359,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002008] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作春季特产",
+		name = "累計製作春季特產",
 		type = 26,
 		id = 50002008,
 		target_num = 40,
@@ -1239,7 +1377,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002009] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作春季特产",
+		name = "累計製作春季特產",
 		type = 26,
 		id = 50002009,
 		target_num = 80,
@@ -1257,7 +1395,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002010] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作春季特产",
+		name = "累計製作春季特產",
 		type = 26,
 		id = 50002010,
 		target_num = 100,
@@ -1275,7 +1413,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002011] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作春季特产",
+		name = "累計製作春季特產",
 		type = 26,
 		id = 50002011,
 		target_num = 200,
@@ -1293,7 +1431,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002012] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作春季特产",
+		name = "累計製作春季特產",
 		type = 26,
 		id = 50002012,
 		target_num = 400,
@@ -1311,7 +1449,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002013] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作春季特产",
+		name = "累計製作春季特產",
 		type = 26,
 		id = 50002013,
 		target_num = 600,
@@ -1329,7 +1467,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002014] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作春季特产",
+		name = "累計製作春季特產",
 		type = 26,
 		id = 50002014,
 		target_num = 800,
@@ -1347,7 +1485,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002015] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作夏季特产",
+		name = "累計製作夏季特產",
 		type = 26,
 		id = 50002015,
 		target_num = 40,
@@ -1365,7 +1503,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002016] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作夏季特产",
+		name = "累計製作夏季特產",
 		type = 26,
 		id = 50002016,
 		target_num = 80,
@@ -1383,7 +1521,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002017] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作夏季特产",
+		name = "累計製作夏季特產",
 		type = 26,
 		id = 50002017,
 		target_num = 100,
@@ -1401,7 +1539,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002018] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作夏季特产",
+		name = "累計製作夏季特產",
 		type = 26,
 		id = 50002018,
 		target_num = 200,
@@ -1419,7 +1557,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002019] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作夏季特产",
+		name = "累計製作夏季特產",
 		type = 26,
 		id = 50002019,
 		target_num = 400,
@@ -1437,7 +1575,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002020] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作夏季特产",
+		name = "累計製作夏季特產",
 		type = 26,
 		id = 50002020,
 		target_num = 600,
@@ -1455,7 +1593,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50002021] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计制作夏季特产",
+		name = "累計製作夏季特產",
 		type = 26,
 		id = 50002021,
 		target_num = 800,
@@ -1470,10 +1608,136 @@ pg.base.island_task_target = {}
 			4042
 		}
 	}
+	pg.base.island_task_target[50002022] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計製作秋季特產",
+		type = 26,
+		id = 50002022,
+		target_num = 40,
+		target_param = {
+			4005,
+			4007,
+			4009,
+			4010,
+			4011,
+			4012,
+			4013,
+			4014
+		}
+	}
+	pg.base.island_task_target[50002023] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計製作秋季特產",
+		type = 26,
+		id = 50002023,
+		target_num = 80,
+		target_param = {
+			4005,
+			4007,
+			4009,
+			4010,
+			4011,
+			4012,
+			4013,
+			4014
+		}
+	}
+	pg.base.island_task_target[50002024] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計製作秋季特產",
+		type = 26,
+		id = 50002024,
+		target_num = 100,
+		target_param = {
+			4005,
+			4007,
+			4009,
+			4010,
+			4011,
+			4012,
+			4013,
+			4014
+		}
+	}
+	pg.base.island_task_target[50002025] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計製作秋季特產",
+		type = 26,
+		id = 50002025,
+		target_num = 200,
+		target_param = {
+			4005,
+			4007,
+			4009,
+			4010,
+			4011,
+			4012,
+			4013,
+			4014
+		}
+	}
+	pg.base.island_task_target[50002026] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計製作秋季特產",
+		type = 26,
+		id = 50002026,
+		target_num = 400,
+		target_param = {
+			4005,
+			4007,
+			4009,
+			4010,
+			4011,
+			4012,
+			4013,
+			4014
+		}
+	}
+	pg.base.island_task_target[50002027] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計製作秋季特產",
+		type = 26,
+		id = 50002027,
+		target_num = 600,
+		target_param = {
+			4005,
+			4007,
+			4009,
+			4010,
+			4011,
+			4012,
+			4013,
+			4014
+		}
+	}
+	pg.base.island_task_target[50002028] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計製作秋季特產",
+		type = 26,
+		id = 50002028,
+		target_num = 800,
+		target_param = {
+			4005,
+			4007,
+			4009,
+			4010,
+			4011,
+			4012,
+			4013,
+			4014
+		}
+	}
 	pg.base.island_task_target[50003001] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成秋季特产订单",
+		name = "累計完成秋季特產訂單",
 		type = 39,
 		id = 50003001,
 		target_num = 1,
@@ -1484,7 +1748,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50003002] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成秋季特产订单",
+		name = "累計完成秋季特產訂單",
 		type = 39,
 		id = 50003002,
 		target_num = 5,
@@ -1495,7 +1759,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50003003] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成秋季特产订单",
+		name = "累計完成秋季特產訂單",
 		type = 39,
 		id = 50003003,
 		target_num = 10,
@@ -1506,7 +1770,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50003004] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成秋季特产订单",
+		name = "累計完成秋季特產訂單",
 		type = 39,
 		id = 50003004,
 		target_num = 15,
@@ -1517,7 +1781,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50003005] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成春季特产订单",
+		name = "累計完成春季特產訂單",
 		type = 39,
 		id = 50003005,
 		target_num = 1,
@@ -1528,7 +1792,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50003006] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成春季特产订单",
+		name = "累計完成春季特產訂單",
 		type = 39,
 		id = 50003006,
 		target_num = 5,
@@ -1539,7 +1803,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50003007] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成春季特产订单",
+		name = "累計完成春季特產訂單",
 		type = 39,
 		id = 50003007,
 		target_num = 10,
@@ -1550,7 +1814,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50003008] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成春季特产订单",
+		name = "累計完成春季特產訂單",
 		type = 39,
 		id = 50003008,
 		target_num = 15,
@@ -1561,7 +1825,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50003009] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成夏季特产订单",
+		name = "累計完成夏季特產訂單",
 		type = 39,
 		id = 50003009,
 		target_num = 1,
@@ -1572,7 +1836,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50003010] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成夏季特产订单",
+		name = "累計完成夏季特產訂單",
 		type = 39,
 		id = 50003010,
 		target_num = 5,
@@ -1580,10 +1844,12 @@ pg.base.island_task_target = {}
 			990017
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[50003011] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成夏季特产订单",
+		name = "累計完成夏季特產訂單",
 		type = 39,
 		id = 50003011,
 		target_num = 10,
@@ -1594,7 +1860,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[50003012] = {
 		tips = "",
 		jump_ui = "",
-		name = "累计完成夏季特产订单",
+		name = "累計完成夏季特產訂單",
 		type = 39,
 		id = 50003012,
 		target_num = 15,
@@ -1602,10 +1868,54 @@ pg.base.island_task_target = {}
 			990017
 		}
 	}
+	pg.base.island_task_target[50003013] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計完成秋季特產訂單",
+		type = 39,
+		id = 50003013,
+		target_num = 1,
+		target_param = {
+			990023
+		}
+	}
+	pg.base.island_task_target[50003014] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計完成秋季特產訂單",
+		type = 39,
+		id = 50003014,
+		target_num = 5,
+		target_param = {
+			990023
+		}
+	}
+	pg.base.island_task_target[50003015] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計完成秋季特產訂單",
+		type = 39,
+		id = 50003015,
+		target_num = 10,
+		target_param = {
+			990023
+		}
+	}
+	pg.base.island_task_target[50003016] = {
+		tips = "",
+		jump_ui = "",
+		name = "累計完成秋季特產訂單",
+		type = 39,
+		id = 50003016,
+		target_num = 15,
+		target_param = {
+			990023
+		}
+	}
 	pg.base.island_task_target[80010001] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交小麦*500",
+		name = "提交小麥*500",
 		type = 4,
 		id = 80010001,
 		target_num = 500,
@@ -1660,7 +1970,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[80010006] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交胡萝卜*250",
+		name = "提交胡蘿蔔*250",
 		type = 4,
 		id = 80010006,
 		target_num = 250,
@@ -1682,7 +1992,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[80010008] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交苹果派*250",
+		name = "提交蘋果派*250",
 		type = 4,
 		id = 80010008,
 		target_num = 250,
@@ -1715,7 +2025,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[80010011] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交洋葱*100",
+		name = "提交洋蔥*100",
 		type = 4,
 		id = 80010011,
 		target_num = 100,
@@ -1737,7 +2047,7 @@ pg.base.island_task_target = {}
 	pg.base.island_task_target[80010013] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交肉末烧豆腐*100",
+		name = "提交肉末燒豆腐*100",
 		type = 4,
 		id = 80010013,
 		target_num = 100,
@@ -1745,12 +2055,10 @@ pg.base.island_task_target = {}
 			3012
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task_target[80010014] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交拿铁*100",
+		name = "提交拿鐵*100",
 		type = 4,
 		id = 80010014,
 		target_num = 100,
@@ -1772,7 +2080,7 @@ end)()
 	pg.base.island_task_target[80010016] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交汉堡肉饭*50",
+		name = "提交漢堡肉飯*50",
 		type = 4,
 		id = 80010016,
 		target_num = 50,
@@ -1783,7 +2091,7 @@ end)()
 	pg.base.island_task_target[80010017] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收1次日常补给",
+		name = "接收1次日常補給",
 		type = 13,
 		id = 80010017,
 		target_num = 1,
@@ -1792,7 +2100,7 @@ end)()
 	pg.base.island_task_target[80010018] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收5次日常补给",
+		name = "接收5次日常補給",
 		type = 13,
 		id = 80010018,
 		target_num = 5,
@@ -1801,7 +2109,7 @@ end)()
 	pg.base.island_task_target[80010019] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收10次日常补给",
+		name = "接收10次日常補給",
 		type = 13,
 		id = 80010019,
 		target_num = 10,
@@ -1810,7 +2118,7 @@ end)()
 	pg.base.island_task_target[80010020] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收20次日常补给",
+		name = "接收20次日常補給",
 		type = 13,
 		id = 80010020,
 		target_num = 20,
@@ -1819,7 +2127,7 @@ end)()
 	pg.base.island_task_target[80010021] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收30次日常补给",
+		name = "接收30次日常補給",
 		type = 13,
 		id = 80010021,
 		target_num = 30,
@@ -1828,7 +2136,7 @@ end)()
 	pg.base.island_task_target[80010022] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收45次日常补给",
+		name = "接收45次日常補給",
 		type = 13,
 		id = 80010022,
 		target_num = 45,
@@ -1837,7 +2145,7 @@ end)()
 	pg.base.island_task_target[80010023] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收60次日常补给",
+		name = "接收60次日常補給",
 		type = 13,
 		id = 80010023,
 		target_num = 60,
@@ -1846,7 +2154,7 @@ end)()
 	pg.base.island_task_target[80010024] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付10次岛屿订单",
+		name = "交付10次島嶼訂單",
 		type = 3,
 		id = 80010024,
 		target_num = 10,
@@ -1855,7 +2163,7 @@ end)()
 	pg.base.island_task_target[80010025] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付30次岛屿订单",
+		name = "交付30次島嶼訂單",
 		type = 3,
 		id = 80010025,
 		target_num = 30,
@@ -1864,7 +2172,7 @@ end)()
 	pg.base.island_task_target[80010026] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付50次岛屿订单",
+		name = "交付50次島嶼訂單",
 		type = 3,
 		id = 80010026,
 		target_num = 50,
@@ -1873,7 +2181,7 @@ end)()
 	pg.base.island_task_target[80010027] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付100次岛屿订单",
+		name = "交付100次島嶼訂單",
 		type = 3,
 		id = 80010027,
 		target_num = 100,
@@ -1882,7 +2190,7 @@ end)()
 	pg.base.island_task_target[80010028] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付150次岛屿订单",
+		name = "交付150次島嶼訂單",
 		type = 3,
 		id = 80010028,
 		target_num = 150,
@@ -1891,7 +2199,7 @@ end)()
 	pg.base.island_task_target[80010029] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付200次岛屿订单",
+		name = "交付200次島嶼訂單",
 		type = 3,
 		id = 80010029,
 		target_num = 200,
@@ -1900,7 +2208,7 @@ end)()
 	pg.base.island_task_target[80010030] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付300次岛屿订单",
+		name = "交付300次島嶼訂單",
 		type = 3,
 		id = 80010030,
 		target_num = 300,
@@ -1909,7 +2217,7 @@ end)()
 	pg.base.island_task_target[80011001] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交小麦*500",
+		name = "提交小麥*500",
 		type = 4,
 		id = 80011001,
 		target_num = 500,
@@ -1964,7 +2272,7 @@ end)()
 	pg.base.island_task_target[80011006] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交胡萝卜*250",
+		name = "提交胡蘿蔔*250",
 		type = 4,
 		id = 80011006,
 		target_num = 250,
@@ -1986,7 +2294,7 @@ end)()
 	pg.base.island_task_target[80011008] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交苹果汁*250",
+		name = "提交蘋果汁*250",
 		type = 4,
 		id = 80011008,
 		target_num = 250,
@@ -2019,7 +2327,7 @@ end)()
 	pg.base.island_task_target[80011011] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交洋葱*100",
+		name = "提交洋蔥*100",
 		type = 4,
 		id = 80011011,
 		target_num = 100,
@@ -2041,7 +2349,7 @@ end)()
 	pg.base.island_task_target[80011013] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交胡萝卜厚蛋烧*100",
+		name = "提交胡蘿蔔厚蛋燒*100",
 		type = 4,
 		id = 80011013,
 		target_num = 100,
@@ -2052,7 +2360,7 @@ end)()
 	pg.base.island_task_target[80011014] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交拿铁*100",
+		name = "提交拿鐵*100",
 		type = 4,
 		id = 80011014,
 		target_num = 100,
@@ -2074,7 +2382,7 @@ end)()
 	pg.base.island_task_target[80011016] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交汉堡肉饭*50",
+		name = "提交漢堡肉飯*50",
 		type = 4,
 		id = 80011016,
 		target_num = 50,
@@ -2085,7 +2393,7 @@ end)()
 	pg.base.island_task_target[80011017] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收1次日常补给",
+		name = "接收1次日常補給",
 		type = 13,
 		id = 80011017,
 		target_num = 1,
@@ -2094,7 +2402,7 @@ end)()
 	pg.base.island_task_target[80011018] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收5次日常补给",
+		name = "接收5次日常補給",
 		type = 13,
 		id = 80011018,
 		target_num = 5,
@@ -2103,7 +2411,7 @@ end)()
 	pg.base.island_task_target[80011019] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收10次日常补给",
+		name = "接收10次日常補給",
 		type = 13,
 		id = 80011019,
 		target_num = 10,
@@ -2112,7 +2420,7 @@ end)()
 	pg.base.island_task_target[80011020] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收20次日常补给",
+		name = "接收20次日常補給",
 		type = 13,
 		id = 80011020,
 		target_num = 20,
@@ -2121,7 +2429,7 @@ end)()
 	pg.base.island_task_target[80011021] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收30次日常补给",
+		name = "接收30次日常補給",
 		type = 13,
 		id = 80011021,
 		target_num = 30,
@@ -2130,7 +2438,7 @@ end)()
 	pg.base.island_task_target[80011022] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收45次日常补给",
+		name = "接收45次日常補給",
 		type = 13,
 		id = 80011022,
 		target_num = 45,
@@ -2139,7 +2447,7 @@ end)()
 	pg.base.island_task_target[80011023] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收60次日常补给",
+		name = "接收60次日常補給",
 		type = 13,
 		id = 80011023,
 		target_num = 60,
@@ -2148,7 +2456,7 @@ end)()
 	pg.base.island_task_target[80011024] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付10次岛屿订单",
+		name = "交付10次島嶼訂單",
 		type = 3,
 		id = 80011024,
 		target_num = 10,
@@ -2157,7 +2465,7 @@ end)()
 	pg.base.island_task_target[80011025] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付30次岛屿订单",
+		name = "交付30次島嶼訂單",
 		type = 3,
 		id = 80011025,
 		target_num = 30,
@@ -2166,7 +2474,7 @@ end)()
 	pg.base.island_task_target[80011026] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付50次岛屿订单",
+		name = "交付50次島嶼訂單",
 		type = 3,
 		id = 80011026,
 		target_num = 50,
@@ -2175,7 +2483,7 @@ end)()
 	pg.base.island_task_target[80011027] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付100次岛屿订单",
+		name = "交付100次島嶼訂單",
 		type = 3,
 		id = 80011027,
 		target_num = 100,
@@ -2184,7 +2492,7 @@ end)()
 	pg.base.island_task_target[80011028] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付150次岛屿订单",
+		name = "交付150次島嶼訂單",
 		type = 3,
 		id = 80011028,
 		target_num = 150,
@@ -2193,7 +2501,7 @@ end)()
 	pg.base.island_task_target[80011029] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付200次岛屿订单",
+		name = "交付200次島嶼訂單",
 		type = 3,
 		id = 80011029,
 		target_num = 200,
@@ -2202,7 +2510,7 @@ end)()
 	pg.base.island_task_target[80011030] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付300次岛屿订单",
+		name = "交付300次島嶼訂單",
 		type = 3,
 		id = 80011030,
 		target_num = 300,
@@ -2266,7 +2574,7 @@ end)()
 	pg.base.island_task_target[80012006] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交苹果*250",
+		name = "提交蘋果*250",
 		type = 4,
 		id = 80012006,
 		target_num = 250,
@@ -2277,7 +2585,7 @@ end)()
 	pg.base.island_task_target[80012007] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交柠檬*250",
+		name = "提交檸檬*250",
 		type = 4,
 		id = 80012007,
 		target_num = 250,
@@ -2288,7 +2596,7 @@ end)()
 	pg.base.island_task_target[80012008] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交炸鱼薯条*100",
+		name = "提交炸魚薯條*100",
 		type = 4,
 		id = 80012008,
 		target_num = 100,
@@ -2299,7 +2607,7 @@ end)()
 	pg.base.island_task_target[80012009] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交洋葱蒸鱼*100",
+		name = "提交洋蔥蒸魚*100",
 		type = 4,
 		id = 80012009,
 		target_num = 100,
@@ -2332,7 +2640,7 @@ end)()
 	pg.base.island_task_target[80012012] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交柠檬虾*50",
+		name = "提交檸檬蝦*50",
 		type = 4,
 		id = 80012012,
 		target_num = 50,
@@ -2343,7 +2651,7 @@ end)()
 	pg.base.island_task_target[80012013] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交海鲜饭*25",
+		name = "提交海鮮飯*25",
 		type = 4,
 		id = 80012013,
 		target_num = 25,
@@ -2354,7 +2662,7 @@ end)()
 	pg.base.island_task_target[80012014] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交爆炒小龙虾*25",
+		name = "提交爆炒小龍蝦*25",
 		type = 4,
 		id = 80012014,
 		target_num = 25,
@@ -2365,7 +2673,7 @@ end)()
 	pg.base.island_task_target[80012015] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交装饰画*25",
+		name = "提交裝飾畫*25",
 		type = 4,
 		id = 80012015,
 		target_num = 25,
@@ -2376,7 +2684,7 @@ end)()
 	pg.base.island_task_target[80012016] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交佛跳墙*10",
+		name = "提交佛跳牆*10",
 		type = 4,
 		id = 80012016,
 		target_num = 10,
@@ -2387,7 +2695,7 @@ end)()
 	pg.base.island_task_target[80012017] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收1次日常补给",
+		name = "接收1次日常補給",
 		type = 13,
 		id = 80012017,
 		target_num = 1,
@@ -2396,7 +2704,7 @@ end)()
 	pg.base.island_task_target[80012018] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收5次日常补给",
+		name = "接收5次日常補給",
 		type = 13,
 		id = 80012018,
 		target_num = 5,
@@ -2405,7 +2713,7 @@ end)()
 	pg.base.island_task_target[80012019] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收10次日常补给",
+		name = "接收10次日常補給",
 		type = 13,
 		id = 80012019,
 		target_num = 10,
@@ -2414,7 +2722,7 @@ end)()
 	pg.base.island_task_target[80012020] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收20次日常补给",
+		name = "接收20次日常補給",
 		type = 13,
 		id = 80012020,
 		target_num = 20,
@@ -2423,7 +2731,7 @@ end)()
 	pg.base.island_task_target[80012021] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收30次日常补给",
+		name = "接收30次日常補給",
 		type = 13,
 		id = 80012021,
 		target_num = 30,
@@ -2432,7 +2740,7 @@ end)()
 	pg.base.island_task_target[80012022] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收45次日常补给",
+		name = "接收45次日常補給",
 		type = 13,
 		id = 80012022,
 		target_num = 45,
@@ -2441,7 +2749,7 @@ end)()
 	pg.base.island_task_target[80012023] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收60次日常补给",
+		name = "接收60次日常補給",
 		type = 13,
 		id = 80012023,
 		target_num = 60,
@@ -2450,7 +2758,7 @@ end)()
 	pg.base.island_task_target[80012024] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付10次岛屿订单",
+		name = "交付10次島嶼訂單",
 		type = 3,
 		id = 80012024,
 		target_num = 10,
@@ -2459,7 +2767,7 @@ end)()
 	pg.base.island_task_target[80012025] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付30次岛屿订单",
+		name = "交付30次島嶼訂單",
 		type = 3,
 		id = 80012025,
 		target_num = 30,
@@ -2468,7 +2776,7 @@ end)()
 	pg.base.island_task_target[80012026] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付50次岛屿订单",
+		name = "交付50次島嶼訂單",
 		type = 3,
 		id = 80012026,
 		target_num = 50,
@@ -2477,7 +2785,7 @@ end)()
 	pg.base.island_task_target[80012027] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付100次岛屿订单",
+		name = "交付100次島嶼訂單",
 		type = 3,
 		id = 80012027,
 		target_num = 100,
@@ -2486,7 +2794,7 @@ end)()
 	pg.base.island_task_target[80012028] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付150次岛屿订单",
+		name = "交付150次島嶼訂單",
 		type = 3,
 		id = 80012028,
 		target_num = 150,
@@ -2495,7 +2803,7 @@ end)()
 	pg.base.island_task_target[80012029] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付200次岛屿订单",
+		name = "交付200次島嶼訂單",
 		type = 3,
 		id = 80012029,
 		target_num = 200,
@@ -2504,7 +2812,7 @@ end)()
 	pg.base.island_task_target[80012030] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付300次岛屿订单",
+		name = "交付300次島嶼訂單",
 		type = 3,
 		id = 80012030,
 		target_num = 300,
@@ -2546,7 +2854,7 @@ end)()
 	pg.base.island_task_target[80013004] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交橡胶*250",
+		name = "提交橡膠*250",
 		type = 4,
 		id = 80013004,
 		target_num = 250,
@@ -2554,6 +2862,8 @@ end)()
 			2022
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[80013005] = {
 		tips = "",
 		jump_ui = "",
@@ -2568,7 +2878,7 @@ end)()
 	pg.base.island_task_target[80013006] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交亚麻*250",
+		name = "提交亞麻*250",
 		type = 4,
 		id = 80013006,
 		target_num = 250,
@@ -2590,7 +2900,7 @@ end)()
 	pg.base.island_task_target[80013008] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交胡萝卜厚蛋烧*250",
+		name = "提交胡蘿蔔厚蛋燒*250",
 		type = 4,
 		id = 80013008,
 		target_num = 250,
@@ -2612,7 +2922,7 @@ end)()
 	pg.base.island_task_target[80013010] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交香蕉可丽饼*100",
+		name = "提交香蕉可麗餅*100",
 		type = 4,
 		id = 80013010,
 		target_num = 100,
@@ -2623,7 +2933,7 @@ end)()
 	pg.base.island_task_target[80013011] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交草莓奶绿*100",
+		name = "提交草莓奶綠*100",
 		type = 4,
 		id = 80013011,
 		target_num = 100,
@@ -2634,7 +2944,7 @@ end)()
 	pg.base.island_task_target[80013012] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交蛋包饭*50",
+		name = "提交蛋包飯*50",
 		type = 4,
 		id = 80013012,
 		target_num = 50,
@@ -2678,7 +2988,7 @@ end)()
 	pg.base.island_task_target[80013016] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交净水滤芯*10",
+		name = "提交淨水濾芯*10",
 		type = 4,
 		id = 80013016,
 		target_num = 10,
@@ -2689,7 +2999,7 @@ end)()
 	pg.base.island_task_target[80013017] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收1次日常补给",
+		name = "接收1次日常補給",
 		type = 13,
 		id = 80013017,
 		target_num = 1,
@@ -2698,7 +3008,7 @@ end)()
 	pg.base.island_task_target[80013018] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收5次日常补给",
+		name = "接收5次日常補給",
 		type = 13,
 		id = 80013018,
 		target_num = 5,
@@ -2707,7 +3017,7 @@ end)()
 	pg.base.island_task_target[80013019] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收10次日常补给",
+		name = "接收10次日常補給",
 		type = 13,
 		id = 80013019,
 		target_num = 10,
@@ -2716,7 +3026,7 @@ end)()
 	pg.base.island_task_target[80013020] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收20次日常补给",
+		name = "接收20次日常補給",
 		type = 13,
 		id = 80013020,
 		target_num = 20,
@@ -2725,7 +3035,7 @@ end)()
 	pg.base.island_task_target[80013021] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收30次日常补给",
+		name = "接收30次日常補給",
 		type = 13,
 		id = 80013021,
 		target_num = 30,
@@ -2734,7 +3044,7 @@ end)()
 	pg.base.island_task_target[80013022] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收45次日常补给",
+		name = "接收45次日常補給",
 		type = 13,
 		id = 80013022,
 		target_num = 45,
@@ -2743,18 +3053,16 @@ end)()
 	pg.base.island_task_target[80013023] = {
 		tips = "",
 		jump_ui = "",
-		name = "接收60次日常补给",
+		name = "接收60次日常補給",
 		type = 13,
 		id = 80013023,
 		target_num = 60,
 		target_param = ""
 	}
-end)()
-(function ()
 	pg.base.island_task_target[80013024] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付10次岛屿订单",
+		name = "交付10次島嶼訂單",
 		type = 3,
 		id = 80013024,
 		target_num = 10,
@@ -2763,7 +3071,7 @@ end)()
 	pg.base.island_task_target[80013025] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付30次岛屿订单",
+		name = "交付30次島嶼訂單",
 		type = 3,
 		id = 80013025,
 		target_num = 30,
@@ -2772,7 +3080,7 @@ end)()
 	pg.base.island_task_target[80013026] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付50次岛屿订单",
+		name = "交付50次島嶼訂單",
 		type = 3,
 		id = 80013026,
 		target_num = 50,
@@ -2781,7 +3089,7 @@ end)()
 	pg.base.island_task_target[80013027] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付100次岛屿订单",
+		name = "交付100次島嶼訂單",
 		type = 3,
 		id = 80013027,
 		target_num = 100,
@@ -2790,7 +3098,7 @@ end)()
 	pg.base.island_task_target[80013028] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付150次岛屿订单",
+		name = "交付150次島嶼訂單",
 		type = 3,
 		id = 80013028,
 		target_num = 150,
@@ -2799,7 +3107,7 @@ end)()
 	pg.base.island_task_target[80013029] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付200次岛屿订单",
+		name = "交付200次島嶼訂單",
 		type = 3,
 		id = 80013029,
 		target_num = 200,
@@ -2808,9 +3116,311 @@ end)()
 	pg.base.island_task_target[80013030] = {
 		tips = "",
 		jump_ui = "",
-		name = "交付300次岛屿订单",
+		name = "交付300次島嶼訂單",
 		type = 3,
 		id = 80013030,
+		target_num = 300,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014001] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交小麥*500",
+		type = 4,
+		id = 80014001,
+		target_num = 500,
+		target_param = {
+			2000
+		}
+	}
+	pg.base.island_task_target[80014002] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交牧草*500",
+		type = 4,
+		id = 80014002,
+		target_num = 500,
+		target_param = {
+			2008
+		}
+	}
+	pg.base.island_task_target[80014003] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交大豆*500",
+		type = 4,
+		id = 80014003,
+		target_num = 500,
+		target_param = {
+			2006
+		}
+	}
+	pg.base.island_task_target[80014004] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交大米*500",
+		type = 4,
+		id = 80014004,
+		target_num = 500,
+		target_param = {
+			2002
+		}
+	}
+	pg.base.island_task_target[80014005] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交玉米*500",
+		type = 4,
+		id = 80014005,
+		target_num = 500,
+		target_param = {
+			2001
+		}
+	}
+	pg.base.island_task_target[80014006] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交胡蘿蔔*250",
+		type = 4,
+		id = 80014006,
+		target_num = 250,
+		target_param = {
+			2004
+		}
+	}
+	pg.base.island_task_target[80014007] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交牛奶*250",
+		type = 4,
+		id = 80014007,
+		target_num = 250,
+		target_param = {
+			2603
+		}
+	}
+	pg.base.island_task_target[80014008] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交蘋果汁*250",
+		type = 4,
+		id = 80014008,
+		target_num = 250,
+		target_param = {
+			3017
+		}
+	}
+	pg.base.island_task_target[80014009] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交冰咖啡*250",
+		type = 4,
+		id = 80014009,
+		target_num = 250,
+		target_param = {
+			3005
+		}
+	}
+	pg.base.island_task_target[80014010] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交炭烤肉串*250",
+		type = 4,
+		id = 80014010,
+		target_num = 250,
+		target_param = {
+			3029
+		}
+	}
+	pg.base.island_task_target[80014011] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交洋蔥*100",
+		type = 4,
+		id = 80014011,
+		target_num = 100,
+		target_param = {
+			2007
+		}
+	}
+	pg.base.island_task_target[80014012] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交蔬菜沙拉*100",
+		type = 4,
+		id = 80014012,
+		target_num = 100,
+		target_param = {
+			3015
+		}
+	}
+	pg.base.island_task_target[80014013] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交胡蘿蔔厚蛋燒*100",
+		type = 4,
+		id = 80014013,
+		target_num = 100,
+		target_param = {
+			3033
+		}
+	}
+	pg.base.island_task_target[80014014] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交拿鐵*100",
+		type = 4,
+		id = 80014014,
+		target_num = 100,
+		target_param = {
+			3007
+		}
+	}
+	pg.base.island_task_target[80014015] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交爆炒禽肉*100",
+		type = 4,
+		id = 80014015,
+		target_num = 100,
+		target_param = {
+			3032
+		}
+	}
+	pg.base.island_task_target[80014016] = {
+		tips = "",
+		jump_ui = "",
+		name = "提交漢堡肉飯*50",
+		type = 4,
+		id = 80014016,
+		target_num = 50,
+		target_param = {
+			3034
+		}
+	}
+	pg.base.island_task_target[80014017] = {
+		tips = "",
+		jump_ui = "",
+		name = "接收1次日常補給",
+		type = 13,
+		id = 80014017,
+		target_num = 1,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014018] = {
+		tips = "",
+		jump_ui = "",
+		name = "接收5次日常補給",
+		type = 13,
+		id = 80014018,
+		target_num = 5,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014019] = {
+		tips = "",
+		jump_ui = "",
+		name = "接收10次日常補給",
+		type = 13,
+		id = 80014019,
+		target_num = 10,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014020] = {
+		tips = "",
+		jump_ui = "",
+		name = "接收20次日常補給",
+		type = 13,
+		id = 80014020,
+		target_num = 20,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014021] = {
+		tips = "",
+		jump_ui = "",
+		name = "接收30次日常補給",
+		type = 13,
+		id = 80014021,
+		target_num = 30,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014022] = {
+		tips = "",
+		jump_ui = "",
+		name = "接收45次日常補給",
+		type = 13,
+		id = 80014022,
+		target_num = 45,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014023] = {
+		tips = "",
+		jump_ui = "",
+		name = "接收60次日常補給",
+		type = 13,
+		id = 80014023,
+		target_num = 60,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014024] = {
+		tips = "",
+		jump_ui = "",
+		name = "交付10次島嶼訂單",
+		type = 3,
+		id = 80014024,
+		target_num = 10,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014025] = {
+		tips = "",
+		jump_ui = "",
+		name = "交付30次島嶼訂單",
+		type = 3,
+		id = 80014025,
+		target_num = 30,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014026] = {
+		tips = "",
+		jump_ui = "",
+		name = "交付50次島嶼訂單",
+		type = 3,
+		id = 80014026,
+		target_num = 50,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014027] = {
+		tips = "",
+		jump_ui = "",
+		name = "交付100次島嶼訂單",
+		type = 3,
+		id = 80014027,
+		target_num = 100,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014028] = {
+		tips = "",
+		jump_ui = "",
+		name = "交付150次島嶼訂單",
+		type = 3,
+		id = 80014028,
+		target_num = 150,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014029] = {
+		tips = "",
+		jump_ui = "",
+		name = "交付200次島嶼訂單",
+		type = 3,
+		id = 80014029,
+		target_num = 200,
+		target_param = ""
+	}
+	pg.base.island_task_target[80014030] = {
+		tips = "",
+		jump_ui = "",
+		name = "交付300次島嶼訂單",
+		type = 3,
+		id = 80014030,
 		target_num = 300,
 		target_param = ""
 	}
@@ -2828,7 +3438,7 @@ end)()
 	pg.base.island_task_target[100010101] = {
 		tips = "10040002",
 		jump_ui = "",
-		name = "寻找奥布莱恩",
+		name = "尋找奧布萊恩",
 		type = 34,
 		id = 100010101,
 		target_num = 1,
@@ -2839,7 +3449,7 @@ end)()
 	pg.base.island_task_target[100010201] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "寻找乔安",
+		name = "尋找喬安",
 		type = 2,
 		id = 100010201,
 		target_num = 1,
@@ -2872,7 +3482,7 @@ end)()
 	pg.base.island_task_target[100010501] = {
 		tips = "10040066",
 		jump_ui = "",
-		name = "修复受损的车站",
+		name = "修復受損的車站",
 		type = 34,
 		id = 100010501,
 		target_num = 1,
@@ -2883,7 +3493,7 @@ end)()
 	pg.base.island_task_target[100010601] = {
 		tips = "10040032",
 		jump_ui = "",
-		name = "和乔安聊聊吧",
+		name = "和喬安聊聊吧",
 		type = 2,
 		id = 100010601,
 		target_num = 1,
@@ -2894,7 +3504,7 @@ end)()
 	pg.base.island_task_target[100010701] = {
 		tips = "10020009",
 		jump_ui = "",
-		name = "寻找帕特莉",
+		name = "尋找帕特莉",
 		type = 1,
 		id = 100010701,
 		target_num = 1,
@@ -2905,7 +3515,7 @@ end)()
 	pg.base.island_task_target[100010711] = {
 		tips = "10020009",
 		jump_ui = "",
-		name = "去找帕特莉交付订单吧",
+		name = "去找帕特莉交付訂單吧",
 		type = 3,
 		id = 100010711,
 		target_num = 1,
@@ -2916,7 +3526,7 @@ end)()
 	pg.base.island_task_target[100010801] = {
 		tips = "10020006",
 		jump_ui = "",
-		name = "寻找{namecode:98:明石}的身影",
+		name = "尋找{namecode:98:明石}的身影",
 		type = 2,
 		id = 100010801,
 		target_num = 1,
@@ -2927,7 +3537,7 @@ end)()
 	pg.base.island_task_target[100010901] = {
 		tips = "10020007",
 		jump_ui = "",
-		name = "进入啾咖啡",
+		name = "進入啾咖啡",
 		type = 2,
 		id = 100010901,
 		target_num = 1,
@@ -2938,7 +3548,7 @@ end)()
 	pg.base.island_task_target[100011001] = {
 		tips = "10100007",
 		jump_ui = "",
-		name = "避开装置跟上{namecode:98:明石}",
+		name = "避開裝置跟上{namecode:98:明石}",
 		type = 2,
 		id = 100011001,
 		target_num = 1,
@@ -2949,7 +3559,7 @@ end)()
 	pg.base.island_task_target[100011101] = {
 		tips = "10090011",
 		jump_ui = "",
-		name = "寻找隐藏通道",
+		name = "尋找隱藏通道",
 		type = 1,
 		id = 100011101,
 		target_num = 1,
@@ -2971,7 +3581,7 @@ end)()
 	pg.base.island_task_target[100011301] = {
 		tips = "10070027",
 		jump_ui = "",
-		name = "找{namecode:98:明石}转移权限",
+		name = "找{namecode:98:明石}轉移許可權",
 		type = 1,
 		id = 100011301,
 		target_num = 1,
@@ -2982,7 +3592,7 @@ end)()
 	pg.base.island_task_target[100011401] = {
 		tips = "10070004",
 		jump_ui = "",
-		name = "研发岛屿权限认证函",
+		name = "研發島嶼許可權認證函",
 		type = 2,
 		id = 100011401,
 		target_num = 1,
@@ -2993,7 +3603,7 @@ end)()
 	pg.base.island_task_target[100011411] = {
 		tips = "10070004",
 		jump_ui = "",
-		name = "研发岛屿权限认证函",
+		name = "研發島嶼許可權認證函",
 		type = 8,
 		id = 100011411,
 		target_num = 1,
@@ -3015,7 +3625,7 @@ end)()
 	pg.base.island_task_target[100011511] = {
 		tips = "10070003",
 		jump_ui = "",
-		name = "使用岛屿权限认证装置",
+		name = "使用島嶼許可權認證裝置",
 		type = 11,
 		id = 100011511,
 		target_num = 1,
@@ -3026,7 +3636,7 @@ end)()
 	pg.base.island_task_target[100011601] = {
 		tips = "10020012",
 		jump_ui = "",
-		name = "和萨拉托加打招呼",
+		name = "和薩拉托加打招呼",
 		type = 1,
 		id = 100011601,
 		target_num = 1,
@@ -3037,7 +3647,7 @@ end)()
 	pg.base.island_task_target[100011701] = {
 		tips = "",
 		jump_ui = "",
-		name = "完成一项每日计划",
+		name = "完成一項每日計劃",
 		type = 23,
 		id = 100011701,
 		target_num = 1,
@@ -3048,7 +3658,7 @@ end)()
 	pg.base.island_task_target[100011801] = {
 		tips = "",
 		jump_ui = "",
-		name = "提升岛屿开发等级",
+		name = "提升島嶼開發等級",
 		type = 9,
 		id = 100011801,
 		target_num = 8,
@@ -3057,7 +3667,7 @@ end)()
 	pg.base.island_task_target[100020101] = {
 		tips = "10020009",
 		jump_ui = "",
-		name = "去找帕特莉问问",
+		name = "去找帕特莉問問",
 		type = 1,
 		id = 100020101,
 		target_num = 1,
@@ -3079,7 +3689,7 @@ end)()
 	pg.base.island_task_target[100020301] = {
 		tips = "10020031",
 		jump_ui = "",
-		name = "寻找斯蒂芬妮的踪迹",
+		name = "尋找斯蒂芬妮的蹤跡",
 		type = 2,
 		id = 100020301,
 		target_num = 1,
@@ -3090,7 +3700,7 @@ end)()
 	pg.base.island_task_target[100020311] = {
 		tips = "10020032",
 		jump_ui = "",
-		name = "寻找斯蒂芬妮的踪迹",
+		name = "尋找斯蒂芬妮的蹤跡",
 		type = 2,
 		id = 100020311,
 		target_num = 1,
@@ -3101,7 +3711,7 @@ end)()
 	pg.base.island_task_target[100020321] = {
 		tips = "10020033",
 		jump_ui = "",
-		name = "寻找斯蒂芬妮的踪迹",
+		name = "尋找斯蒂芬妮的蹤跡",
 		type = 2,
 		id = 100020321,
 		target_num = 1,
@@ -3123,7 +3733,7 @@ end)()
 	pg.base.island_task_target[100020501] = {
 		tips = "10020004",
 		jump_ui = "",
-		name = "帮斯蒂芬妮装载资材吧",
+		name = "幫斯蒂芬妮裝載資材吧",
 		type = 1,
 		id = 100020501,
 		target_num = 1,
@@ -3134,7 +3744,7 @@ end)()
 	pg.base.island_task_target[100020511] = {
 		tips = "",
 		jump_ui = "",
-		name = "提升岛屿开发等级",
+		name = "提升島嶼開發等級",
 		type = 9,
 		id = 100020511,
 		target_num = 10,
@@ -3143,7 +3753,7 @@ end)()
 	pg.base.island_task_target[100020601] = {
 		tips = "10020005",
 		jump_ui = "",
-		name = "前往晨露农场",
+		name = "前往晨露農場",
 		type = 2,
 		id = 100020601,
 		target_num = 1,
@@ -3154,7 +3764,7 @@ end)()
 	pg.base.island_task_target[100020701] = {
 		tips = "10010068",
 		jump_ui = "",
-		name = "寻找赫莫",
+		name = "尋找赫莫",
 		type = 1,
 		id = 100020701,
 		target_num = 1,
@@ -3165,7 +3775,7 @@ end)()
 	pg.base.island_task_target[100020801] = {
 		tips = "10010040",
 		jump_ui = "",
-		name = "购买小麦种子",
+		name = "購買小麥種子",
 		type = 5,
 		id = 100020801,
 		target_num = 1,
@@ -3176,7 +3786,7 @@ end)()
 	pg.base.island_task_target[100020811] = {
 		tips = "10010004",
 		jump_ui = "",
-		name = "播种小麦",
+		name = "播種小麥",
 		type = 14,
 		id = 100020811,
 		target_num = 1,
@@ -3187,7 +3797,7 @@ end)()
 	pg.base.island_task_target[100020901] = {
 		tips = "10010003",
 		jump_ui = "",
-		name = "寻找梅莉",
+		name = "尋找梅莉",
 		type = 1,
 		id = 100020901,
 		target_num = 1,
@@ -3198,7 +3808,7 @@ end)()
 	pg.base.island_task_target[100021001] = {
 		tips = "10010046",
 		jump_ui = "",
-		name = "寻回走丢的动物",
+		name = "尋回走丟的動物",
 		type = 1,
 		id = 100021001,
 		target_num = 1,
@@ -3220,7 +3830,7 @@ end)()
 	pg.base.island_task_target[100021201] = {
 		tips = "10010041",
 		jump_ui = "",
-		name = "制作咯咯鸡饲料",
+		name = "製作咯咯雞飼料",
 		type = 5,
 		id = 100021201,
 		target_num = 1,
@@ -3231,7 +3841,7 @@ end)()
 	pg.base.island_task_target[100021301] = {
 		tips = "10010003",
 		jump_ui = "",
-		name = "查看牧场",
+		name = "檢視牧場",
 		type = 1,
 		id = 100021301,
 		target_num = 1,
@@ -3264,7 +3874,7 @@ end)()
 	pg.base.island_task_target[100021411] = {
 		tips = "",
 		jump_ui = "",
-		name = "提升岛屿开发等级",
+		name = "提升島嶼開發等級",
 		type = 9,
 		id = 100021411,
 		target_num = 12,
@@ -3284,7 +3894,7 @@ end)()
 	pg.base.island_task_target[100021601] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "寻找布莱梅",
+		name = "尋找布萊梅",
 		type = 1,
 		id = 100021601,
 		target_num = 1,
@@ -3292,10 +3902,12 @@ end)()
 			1202
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[100021701] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "制作欧姆蛋",
+		name = "製作歐姆蛋",
 		type = 5,
 		id = 100021701,
 		target_num = 1,
@@ -3306,7 +3918,7 @@ end)()
 	pg.base.island_task_target[100021801] = {
 		tips = "10020004",
 		jump_ui = "",
-		name = "制作欧姆蛋",
+		name = "製作歐姆蛋",
 		type = 4,
 		id = 100021801,
 		target_num = 1,
@@ -3317,7 +3929,7 @@ end)()
 	pg.base.island_task_target[100021901] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "回去问问布莱梅吧",
+		name = "回去問問布萊梅吧",
 		type = 1,
 		id = 100021901,
 		target_num = 1,
@@ -3328,7 +3940,7 @@ end)()
 	pg.base.island_task_target[100022001] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "上架欧姆蛋",
+		name = "上架歐姆蛋",
 		type = 27,
 		id = 100022001,
 		target_num = 1,
@@ -3350,7 +3962,7 @@ end)()
 	pg.base.island_task_target[100022111] = {
 		tips = "",
 		jump_ui = "",
-		name = "提升岛屿开发等级",
+		name = "提升島嶼開發等級",
 		type = 9,
 		id = 100022111,
 		target_num = 15,
@@ -3370,7 +3982,7 @@ end)()
 	pg.base.island_task_target[100022301] = {
 		tips = "",
 		jump_ui = "",
-		name = "码头长堤上的碎片",
+		name = "碼頭長堤上的碎片",
 		type = 10,
 		id = 100022301,
 		target_num = 1,
@@ -3381,7 +3993,7 @@ end)()
 	pg.base.island_task_target[100022302] = {
 		tips = "",
 		jump_ui = "",
-		name = "港口钓场里的碎片",
+		name = "港口釣場裡的碎片",
 		type = 10,
 		id = 100022302,
 		target_num = 1,
@@ -3392,7 +4004,7 @@ end)()
 	pg.base.island_task_target[100022303] = {
 		tips = "",
 		jump_ui = "",
-		name = "货运中心旁的碎片",
+		name = "貨運中心旁的碎片",
 		type = 10,
 		id = 100022303,
 		target_num = 1,
@@ -3403,7 +4015,7 @@ end)()
 	pg.base.island_task_target[100022401] = {
 		tips = "",
 		jump_ui = "",
-		name = "翠土林场里的碎片",
+		name = "翠土林場裡的碎片",
 		type = 10,
 		id = 100022401,
 		target_num = 1,
@@ -3414,7 +4026,7 @@ end)()
 	pg.base.island_task_target[100022402] = {
 		tips = "",
 		jump_ui = "",
-		name = "沉石矿山上的碎片",
+		name = "沉石礦山上的碎片",
 		type = 10,
 		id = 100022402,
 		target_num = 1,
@@ -3425,7 +4037,7 @@ end)()
 	pg.base.island_task_target[100022403] = {
 		tips = "",
 		jump_ui = "",
-		name = "河边小屋旁的碎片",
+		name = "河邊小屋旁的碎片",
 		type = 10,
 		id = 100022403,
 		target_num = 1,
@@ -3436,7 +4048,7 @@ end)()
 	pg.base.island_task_target[100022404] = {
 		tips = "",
 		jump_ui = "",
-		name = "原野站台后的碎片",
+		name = "原野站臺後的碎片",
 		type = 10,
 		id = 100022404,
 		target_num = 1,
@@ -3447,7 +4059,7 @@ end)()
 	pg.base.island_task_target[100022501] = {
 		tips = "",
 		jump_ui = "",
-		name = "悠然牧场里的碎片",
+		name = "悠然牧場裡的碎片",
 		type = 10,
 		id = 100022501,
 		target_num = 1,
@@ -3458,7 +4070,7 @@ end)()
 	pg.base.island_task_target[100022502] = {
 		tips = "",
 		jump_ui = "",
-		name = "农场磨坊旁的碎片",
+		name = "農場磨坊旁的碎片",
 		type = 10,
 		id = 100022502,
 		target_num = 1,
@@ -3469,7 +4081,7 @@ end)()
 	pg.base.island_task_target[100022503] = {
 		tips = "",
 		jump_ui = "",
-		name = "悠然牧场外的碎片",
+		name = "悠然牧場外的碎片",
 		type = 10,
 		id = 100022503,
 		target_num = 1,
@@ -3480,7 +4092,7 @@ end)()
 	pg.base.island_task_target[100022504] = {
 		tips = "",
 		jump_ui = "",
-		name = "丰壤农田里的碎片",
+		name = "豐壤農田裡的碎片",
 		type = 10,
 		id = 100022504,
 		target_num = 1,
@@ -3491,7 +4103,7 @@ end)()
 	pg.base.island_task_target[100022505] = {
 		tips = "",
 		jump_ui = "",
-		name = "牧场侧门外的碎片",
+		name = "牧場側門外的碎片",
 		type = 10,
 		id = 100022505,
 		target_num = 1,
@@ -3513,7 +4125,7 @@ end)()
 	pg.base.island_task_target[100022601] = {
 		tips = "10020016",
 		jump_ui = "",
-		name = "寻找{namecode:98:明石}的身影",
+		name = "尋找{namecode:98:明石}的身影",
 		type = 1,
 		id = 100022601,
 		target_num = 1,
@@ -3524,7 +4136,7 @@ end)()
 	pg.base.island_task_target[100022701] = {
 		tips = "10030001",
 		jump_ui = "",
-		name = "前往宝藏岛",
+		name = "前往寶藏島",
 		type = 2,
 		id = 100022701,
 		target_num = 1,
@@ -3535,7 +4147,7 @@ end)()
 	pg.base.island_task_target[100022711] = {
 		tips = "10030003",
 		jump_ui = "",
-		name = "去找玛丽吧",
+		name = "去找瑪麗吧",
 		type = 1,
 		id = 100022711,
 		target_num = 1,
@@ -3546,7 +4158,7 @@ end)()
 	pg.base.island_task_target[100022801] = {
 		tips = "",
 		jump_ui = "",
-		name = "快跟上玛丽的脚步",
+		name = "快跟上瑪麗的腳步",
 		type = 2,
 		id = 100022801,
 		target_num = 1,
@@ -3557,7 +4169,7 @@ end)()
 	pg.base.island_task_target[100022901] = {
 		tips = "10030009",
 		jump_ui = "",
-		name = "获取日常补给",
+		name = "獲取日常補給",
 		type = 13,
 		id = 100022901,
 		target_num = 1,
@@ -3566,7 +4178,7 @@ end)()
 	pg.base.island_task_target[100023001] = {
 		tips = "10030008",
 		jump_ui = "",
-		name = "寻找莉莎",
+		name = "尋找莉莎",
 		type = 1,
 		id = 100023001,
 		target_num = 1,
@@ -3577,7 +4189,7 @@ end)()
 	pg.base.island_task_target[100023101] = {
 		tips = "10030008",
 		jump_ui = "",
-		name = "搭建熊熊候车亭",
+		name = "搭建熊熊候車亭",
 		type = 1,
 		id = 100023101,
 		target_num = 1,
@@ -3588,7 +4200,7 @@ end)()
 	pg.base.island_task_target[100023201] = {
 		tips = "",
 		jump_ui = "19",
-		name = "拍摄自己的集会岛",
+		name = "拍攝自己的集會島",
 		type = 43,
 		id = 100023201,
 		target_num = 1,
@@ -3599,7 +4211,7 @@ end)()
 	pg.base.island_task_target[100023301] = {
 		tips = "",
 		jump_ui = "19",
-		name = "拍摄集会岛动物",
+		name = "拍攝集會島動物",
 		type = 43,
 		id = 100023301,
 		target_num = 1,
@@ -3632,7 +4244,7 @@ end)()
 	pg.base.island_task_target[100023501] = {
 		tips = "10030005",
 		jump_ui = "",
-		name = "寻找神秘专家",
+		name = "尋找神秘專家",
 		type = 1,
 		id = 100023501,
 		target_num = 1,
@@ -3643,7 +4255,7 @@ end)()
 	pg.base.island_task_target[100023601] = {
 		tips = "10030007",
 		jump_ui = "",
-		name = "乘坐飞行器",
+		name = "乘坐飛行器",
 		type = 1,
 		id = 100023601,
 		target_num = 1,
@@ -3654,7 +4266,7 @@ end)()
 	pg.base.island_task_target[100023701] = {
 		tips = "10020009",
 		jump_ui = "",
-		name = "去找帕特莉了解一下开发区情况",
+		name = "去找帕特莉瞭解一下開發區情況",
 		type = 2,
 		id = 100023701,
 		target_num = 1,
@@ -3665,7 +4277,7 @@ end)()
 	pg.base.island_task_target[100023801] = {
 		tips = "",
 		jump_ui = "",
-		name = "提升岛屿开发等级",
+		name = "提升島嶼開發等級",
 		type = 9,
 		id = 100023801,
 		target_num = 18,
@@ -3685,7 +4297,7 @@ end)()
 	pg.base.island_task_target[100030111] = {
 		tips = "10060001",
 		jump_ui = "",
-		name = "前往港口商区",
+		name = "前往港口商區",
 		type = 2,
 		id = 100030111,
 		target_num = 1,
@@ -3696,7 +4308,7 @@ end)()
 	pg.base.island_task_target[100030201] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "寻找阿莫玛",
+		name = "尋找阿莫瑪",
 		type = 1,
 		id = 100030201,
 		target_num = 1,
@@ -3707,7 +4319,7 @@ end)()
 	pg.base.island_task_target[100030301] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "制作豆腐",
+		name = "製作豆腐",
 		type = 5,
 		id = 100030301,
 		target_num = 1,
@@ -3718,7 +4330,7 @@ end)()
 	pg.base.island_task_target[100030401] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "经营商区店铺",
+		name = "經營商區店鋪",
 		type = 1,
 		id = 100030401,
 		target_num = 1,
@@ -3729,7 +4341,7 @@ end)()
 	pg.base.island_task_target[100030501] = {
 		tips = "10050001",
 		jump_ui = "",
-		name = "抵达繁荫农圃",
+		name = "抵達繁蔭農圃",
 		type = 2,
 		id = 100030501,
 		target_num = 1,
@@ -3773,7 +4385,7 @@ end)()
 	pg.base.island_task_target[100030801] = {
 		tips = "10050010",
 		jump_ui = "",
-		name = "种植苹果树",
+		name = "種植蘋果樹",
 		type = 14,
 		id = 100030801,
 		target_num = 1,
@@ -3784,7 +4396,7 @@ end)()
 	pg.base.island_task_target[100030901] = {
 		tips = "10050010",
 		jump_ui = "",
-		name = "收集苹果",
+		name = "收集蘋果",
 		type = 6,
 		id = 100030901,
 		target_num = 1,
@@ -3795,7 +4407,7 @@ end)()
 	pg.base.island_task_target[100030911] = {
 		tips = "",
 		jump_ui = "",
-		name = "收集苹果",
+		name = "收集蘋果",
 		type = 4,
 		id = 100030911,
 		target_num = 1,
@@ -3806,7 +4418,7 @@ end)()
 	pg.base.island_task_target[100031001] = {
 		tips = "",
 		jump_ui = "12",
-		name = "研发草莓种植技术",
+		name = "研發草莓種植技術",
 		type = 8,
 		id = 100031001,
 		target_num = 1,
@@ -3817,14 +4429,12 @@ end)()
 	pg.base.island_task_target[100031101] = {
 		tips = "",
 		jump_ui = "",
-		name = "提升岛屿开发等级",
+		name = "提升島嶼開發等級",
 		type = 9,
 		id = 100031101,
 		target_num = 20,
 		target_param = ""
 	}
-end)()
-(function ()
 	pg.base.island_task_target[100040101] = {
 		tips = "10070030",
 		jump_ui = "",
@@ -3850,7 +4460,7 @@ end)()
 	pg.base.island_task_target[100040301] = {
 		tips = "10070031",
 		jump_ui = "",
-		name = "去工厂看看",
+		name = "去工廠看看",
 		type = 2,
 		id = 100040301,
 		target_num = 1,
@@ -3861,7 +4471,7 @@ end)()
 	pg.base.island_task_target[200010011] = {
 		tips = "10040050",
 		jump_ui = "",
-		name = "寻找会发出声音的东西……",
+		name = "尋找會發出聲音的東西……",
 		type = 1,
 		id = 200010011,
 		target_num = 1,
@@ -3883,7 +4493,7 @@ end)()
 	pg.base.island_task_target[200010031] = {
 		tips = "10040002",
 		jump_ui = "",
-		name = "回去告诉奥布莱恩吧",
+		name = "回去告訴奧布萊恩吧",
 		type = 1,
 		id = 200010031,
 		target_num = 1,
@@ -3894,7 +4504,7 @@ end)()
 	pg.base.island_task_target[200010041] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "去沉石矿山看看发生了什么",
+		name = "去沉石礦山看看發生了什麼",
 		type = 1,
 		id = 200010041,
 		target_num = 1,
@@ -3905,7 +4515,7 @@ end)()
 	pg.base.island_task_target[200010051] = {
 		tips = "10040002",
 		jump_ui = "",
-		name = "寻找适合做临时轨道的木头",
+		name = "尋找適合做臨時軌道的木頭",
 		type = 1,
 		id = 200010051,
 		target_num = 1,
@@ -3916,7 +4526,7 @@ end)()
 	pg.base.island_task_target[200010061] = {
 		tips = "10040002",
 		jump_ui = "",
-		name = "收集实用之木",
+		name = "收集實用之木",
 		type = 4,
 		id = 200010061,
 		target_num = 10,
@@ -3927,7 +4537,7 @@ end)()
 	pg.base.island_task_target[200010071] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "把木轨交给乔安吧",
+		name = "把木軌交給喬安吧",
 		type = 1,
 		id = 200010071,
 		target_num = 1,
@@ -3938,7 +4548,7 @@ end)()
 	pg.base.island_task_target[200010081] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "收集铁矿 ",
+		name = "收集鐵礦 ",
 		type = 4,
 		id = 200010081,
 		target_num = 10,
@@ -3949,7 +4559,7 @@ end)()
 	pg.base.island_task_target[200010091] = {
 		tips = "10040056",
 		jump_ui = "",
-		name = "寻找唱下工歌曲的神秘朋友",
+		name = "尋找唱下工歌曲的神秘朋友",
 		type = 2,
 		id = 200010091,
 		target_num = 1,
@@ -3960,7 +4570,7 @@ end)()
 	pg.base.island_task_target[200020011] = {
 		tips = "10020018",
 		jump_ui = "",
-		name = "去港口远点看看",
+		name = "去港口遠點看看",
 		type = 1,
 		id = 200020011,
 		target_num = 1,
@@ -3971,7 +4581,7 @@ end)()
 	pg.base.island_task_target[200020021] = {
 		tips = "10020004",
 		jump_ui = "",
-		name = "找斯蒂芬妮寻求灵感",
+		name = "找斯蒂芬妮尋求靈感",
 		type = 1,
 		id = 200020021,
 		target_num = 1,
@@ -3982,7 +4592,7 @@ end)()
 	pg.base.island_task_target[200020031] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "向布莱梅寻求建议",
+		name = "向布萊梅尋求建議",
 		type = 1,
 		id = 200020031,
 		target_num = 1,
@@ -3993,7 +4603,7 @@ end)()
 	pg.base.island_task_target[200020041] = {
 		tips = "10010003",
 		jump_ui = "",
-		name = "收集制作画笔的羊毛",
+		name = "收集製作畫筆的羊毛",
 		type = 4,
 		id = 200020041,
 		target_num = 5,
@@ -4004,7 +4614,7 @@ end)()
 	pg.base.island_task_target[200020051] = {
 		tips = "10040002",
 		jump_ui = "",
-		name = "收集制作画框的典雅之木",
+		name = "收集製作畫框的典雅之木",
 		type = 4,
 		id = 200020051,
 		target_num = 4,
@@ -4015,7 +4625,7 @@ end)()
 	pg.base.island_task_target[200020061] = {
 		tips = "10020009",
 		jump_ui = "",
-		name = "把画框带给帕特莉吧",
+		name = "把畫框帶給帕特莉吧",
 		type = 1,
 		id = 200020061,
 		target_num = 1,
@@ -4026,7 +4636,7 @@ end)()
 	pg.base.island_task_target[200030011] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "去告诉布莱梅吧",
+		name = "去告訴布萊梅吧",
 		type = 1,
 		id = 200030011,
 		target_num = 1,
@@ -4037,7 +4647,7 @@ end)()
 	pg.base.island_task_target[200030021] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "收集铝矿",
+		name = "收集鋁礦",
 		type = 4,
 		id = 200030021,
 		target_num = 10,
@@ -4048,7 +4658,7 @@ end)()
 	pg.base.island_task_target[200030031] = {
 		tips = "10020019",
 		jump_ui = "",
-		name = "到货运中心寻找订购的零件",
+		name = "到貨運中心尋找訂購的零件",
 		type = 1,
 		id = 200030031,
 		target_num = 1,
@@ -4059,7 +4669,7 @@ end)()
 	pg.base.island_task_target[200030041] = {
 		tips = "10070011",
 		jump_ui = "",
-		name = "将电力系统装到岛屿基地的服务器里",
+		name = "將電力系統裝到島嶼基地的伺服器裡",
 		type = 1,
 		id = 200030041,
 		target_num = 1,
@@ -4070,7 +4680,7 @@ end)()
 	pg.base.island_task_target[200040000] = {
 		tips = "",
 		jump_ui = "",
-		name = "提升岛屿开发等级",
+		name = "提升島嶼開發等級",
 		type = 9,
 		id = 200040000,
 		target_num = 29,
@@ -4079,7 +4689,7 @@ end)()
 	pg.base.island_task_target[200040011] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "去找布莱梅咨询餐品创作要诀吧",
+		name = "去找布萊梅諮詢餐品創作要訣吧",
 		type = 1,
 		id = 200040011,
 		target_num = 1,
@@ -4090,7 +4700,7 @@ end)()
 	pg.base.island_task_target[200040021] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "研发并制作出胡萝卜厚蛋烧",
+		name = "研發並製作出胡蘿蔔厚蛋燒",
 		type = 4,
 		id = 200040021,
 		target_num = 1,
@@ -4101,7 +4711,7 @@ end)()
 	pg.base.island_task_target[200040031] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "去找阿莫玛吧",
+		name = "去找阿莫瑪吧",
 		type = 1,
 		id = 200040031,
 		target_num = 1,
@@ -4112,7 +4722,7 @@ end)()
 	pg.base.island_task_target[200050011] = {
 		tips = "10010040",
 		jump_ui = "",
-		name = "询问农田管理员赫莫",
+		name = "詢問農田管理員赫莫",
 		type = 1,
 		id = 200050011,
 		target_num = 1,
@@ -4123,7 +4733,7 @@ end)()
 	pg.base.island_task_target[200050021] = {
 		tips = "10010069",
 		jump_ui = "",
-		name = "去森林查看情况",
+		name = "去森林檢視情況",
 		type = 2,
 		id = 200050021,
 		target_num = 1,
@@ -4134,7 +4744,7 @@ end)()
 	pg.base.island_task_target[200050031] = {
 		tips = "10010040",
 		jump_ui = "",
-		name = "去告诉赫莫吧",
+		name = "去告訴赫莫吧",
 		type = 1,
 		id = 200050031,
 		target_num = 1,
@@ -4145,7 +4755,7 @@ end)()
 	pg.base.island_task_target[200050041] = {
 		tips = "10010003",
 		jump_ui = "",
-		name = "询问牧场管理员梅莉",
+		name = "詢問牧場管理員梅莉",
 		type = 1,
 		id = 200050041,
 		target_num = 1,
@@ -4156,7 +4766,7 @@ end)()
 	pg.base.island_task_target[200050051] = {
 		tips = "10010070",
 		jump_ui = "",
-		name = "去工具房查看情况",
+		name = "去工具房檢視情況",
 		type = 1,
 		id = 200050051,
 		target_num = 1,
@@ -4167,7 +4777,7 @@ end)()
 	pg.base.island_task_target[200050061] = {
 		tips = "10010041",
 		jump_ui = "",
-		name = "去找奥林匹克吧",
+		name = "去找奧林匹克吧",
 		type = 1,
 		id = 200050061,
 		target_num = 1,
@@ -4178,7 +4788,7 @@ end)()
 	pg.base.island_task_target[200050071] = {
 		tips = "10010071",
 		jump_ui = "",
-		name = "巡视牧场查看情况",
+		name = "巡視牧場檢視情況",
 		type = 2,
 		id = 200050071,
 		target_num = 1,
@@ -4189,7 +4799,7 @@ end)()
 	pg.base.island_task_target[200050081] = {
 		tips = "10010072",
 		jump_ui = "",
-		name = "巡视牧场查看情况",
+		name = "巡視牧場檢視情況",
 		type = 2,
 		id = 200050081,
 		target_num = 1,
@@ -4200,7 +4810,7 @@ end)()
 	pg.base.island_task_target[200050091] = {
 		tips = "10010073",
 		jump_ui = "",
-		name = "巡视牧场查看情况",
+		name = "巡視牧場檢視情況",
 		type = 1,
 		id = 200050091,
 		target_num = 1,
@@ -4211,7 +4821,7 @@ end)()
 	pg.base.island_task_target[200060011] = {
 		tips = "10010075",
 		jump_ui = "",
-		name = "跟梅莉去咩咩羊喜欢去的地方看看",
+		name = "跟梅莉去咩咩羊喜歡去的地方看看",
 		type = 1,
 		id = 200060011,
 		target_num = 1,
@@ -4222,7 +4832,7 @@ end)()
 	pg.base.island_task_target[200060021] = {
 		tips = "10010076",
 		jump_ui = "",
-		name = "跟着脚印一路调查下去",
+		name = "跟著腳印一路調查下去",
 		type = 1,
 		id = 200060021,
 		target_num = 1,
@@ -4233,7 +4843,7 @@ end)()
 	pg.base.island_task_target[200060031] = {
 		tips = "10010077",
 		jump_ui = "",
-		name = "跟着痕迹过去看看",
+		name = "跟著痕跡過去看看",
 		type = 2,
 		id = 200060031,
 		target_num = 1,
@@ -4255,7 +4865,7 @@ end)()
 	pg.base.island_task_target[200060051] = {
 		tips = "10010040",
 		jump_ui = "",
-		name = "询问赫莫羊群的位置",
+		name = "詢問赫莫羊群的位置",
 		type = 1,
 		id = 200060051,
 		target_num = 1,
@@ -4277,7 +4887,7 @@ end)()
 	pg.base.island_task_target[200060071] = {
 		tips = "10010078",
 		jump_ui = "",
-		name = "牵上所有羊",
+		name = "牽上所有羊",
 		type = 1,
 		id = 200060071,
 		target_num = 1,
@@ -4288,7 +4898,7 @@ end)()
 	pg.base.island_task_target[200060072] = {
 		tips = "10010079",
 		jump_ui = "",
-		name = "牵上所有羊",
+		name = "牽上所有羊",
 		type = 1,
 		id = 200060072,
 		target_num = 1,
@@ -4299,7 +4909,7 @@ end)()
 	pg.base.island_task_target[200060073] = {
 		tips = "10010080",
 		jump_ui = "",
-		name = "牵上所有羊",
+		name = "牽上所有羊",
 		type = 1,
 		id = 200060073,
 		target_num = 1,
@@ -4354,7 +4964,7 @@ end)()
 	pg.base.island_task_target[200070031] = {
 		tips = "10010082",
 		jump_ui = "",
-		name = "拆除农场的蜂巢",
+		name = "拆除農場的蜂巢",
 		type = 1,
 		id = 200070031,
 		target_num = 1,
@@ -4365,7 +4975,7 @@ end)()
 	pg.base.island_task_target[200070041] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "向布莱梅询问蜂蜜水配方",
+		name = "向布萊梅詢問蜂蜜水配方",
 		type = 1,
 		id = 200070041,
 		target_num = 1,
@@ -4376,7 +4986,7 @@ end)()
 	pg.base.island_task_target[200070051] = {
 		tips = "10060030",
 		jump_ui = "",
-		name = "前往商业街，找到配方",
+		name = "前往商業街，找到配方",
 		type = 1,
 		id = 200070051,
 		target_num = 1,
@@ -4384,10 +4994,12 @@ end)()
 			7011
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[200070061] = {
 		tips = "10050002",
 		jump_ui = "",
-		name = "收集新鲜的柠檬",
+		name = "收集新鮮的檸檬",
 		type = 4,
 		id = 200070061,
 		target_num = 3,
@@ -4398,7 +5010,7 @@ end)()
 	pg.base.island_task_target[200070062] = {
 		tips = "",
 		jump_ui = "",
-		name = "收集新鲜的蜂蜜",
+		name = "收集新鮮的蜂蜜",
 		type = 4,
 		id = 200070062,
 		target_num = 3,
@@ -4409,7 +5021,7 @@ end)()
 	pg.base.island_task_target[200070071] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "去问问阿莫玛哪里有迷迭香吧",
+		name = "去問問阿莫瑪哪裡有迷迭香吧",
 		type = 1,
 		id = 200070071,
 		target_num = 1,
@@ -4420,7 +5032,7 @@ end)()
 	pg.base.island_task_target[200070081] = {
 		tips = "10060031",
 		jump_ui = "",
-		name = "去有鱼餐馆寻找迷迭香吧",
+		name = "去有魚餐館尋找迷迭香吧",
 		type = 1,
 		id = 200070081,
 		target_num = 1,
@@ -4431,7 +5043,7 @@ end)()
 	pg.base.island_task_target[200070091] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "去把食材都交给布莱梅吧",
+		name = "去把食材都交給布萊梅吧",
 		type = 1,
 		id = 200070091,
 		target_num = 1,
@@ -4442,7 +5054,7 @@ end)()
 	pg.base.island_task_target[200070101] = {
 		tips = "10040057",
 		jump_ui = "",
-		name = "将蜂蜜水送给无名氏",
+		name = "將蜂蜜水送給無名氏",
 		type = 1,
 		id = 200070101,
 		target_num = 1,
@@ -4453,7 +5065,7 @@ end)()
 	pg.base.island_task_target[200080011] = {
 		tips = "10020004",
 		jump_ui = "",
-		name = "找斯蒂芬妮查看情况",
+		name = "找斯蒂芬妮檢視情況",
 		type = 1,
 		id = 200080011,
 		target_num = 1,
@@ -4486,7 +5098,7 @@ end)()
 	pg.base.island_task_target[200080041] = {
 		tips = "10020009",
 		jump_ui = "",
-		name = "找帕特莉完成订单",
+		name = "找帕特莉完成訂單",
 		type = 1,
 		id = 200080041,
 		target_num = 1,
@@ -4497,7 +5109,7 @@ end)()
 	pg.base.island_task_target[200090011] = {
 		tips = "10040059",
 		jump_ui = "",
-		name = "去矿场旁等待神秘人吧",
+		name = "去礦場旁等待神秘人吧",
 		type = 2,
 		id = 200090011,
 		target_num = 1,
@@ -4508,7 +5120,7 @@ end)()
 	pg.base.island_task_target[200090021] = {
 		tips = "10040002",
 		jump_ui = "",
-		name = "把矿石送到奥布莱恩那里吧",
+		name = "把礦石送到奧布萊恩那裡吧",
 		type = 1,
 		id = 200090021,
 		target_num = 1,
@@ -4519,7 +5131,7 @@ end)()
 	pg.base.island_task_target[200090031] = {
 		tips = "10020029",
 		jump_ui = "",
-		name = "把矿石送到{namecode:98:明石}那里吧",
+		name = "把礦石送到{namecode:98:明石}那裡吧",
 		type = 1,
 		id = 200090031,
 		target_num = 1,
@@ -4530,7 +5142,7 @@ end)()
 	pg.base.island_task_target[200090041] = {
 		tips = "10020004",
 		jump_ui = "",
-		name = "回斯蒂芬妮那里完成委托吧",
+		name = "回斯蒂芬妮那裡完成委託吧",
 		type = 1,
 		id = 200090041,
 		target_num = 1,
@@ -4541,7 +5153,7 @@ end)()
 	pg.base.island_task_target[200100011] = {
 		tips = "10010041",
 		jump_ui = "",
-		name = "去和奥林匹克一起商量对策",
+		name = "去和奧林匹克一起商量對策",
 		type = 1,
 		id = 200100011,
 		target_num = 1,
@@ -4552,7 +5164,7 @@ end)()
 	pg.base.island_task_target[200100021] = {
 		tips = "10020004",
 		jump_ui = "",
-		name = "问问斯蒂芬妮吧",
+		name = "問問斯蒂芬妮吧",
 		type = 1,
 		id = 200100021,
 		target_num = 1,
@@ -4563,7 +5175,7 @@ end)()
 	pg.base.island_task_target[200100031] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "找布莱梅帮忙",
+		name = "找布萊梅幫忙",
 		type = 1,
 		id = 200100031,
 		target_num = 1,
@@ -4574,7 +5186,7 @@ end)()
 	pg.base.island_task_target[200100041] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "回去找布莱梅",
+		name = "回去找布萊梅",
 		type = 1,
 		id = 200100041,
 		target_num = 1,
@@ -4585,7 +5197,7 @@ end)()
 	pg.base.island_task_target[200100051] = {
 		tips = "10010040",
 		jump_ui = "",
-		name = "找赫莫帮忙",
+		name = "找赫莫幫忙",
 		type = 1,
 		id = 200100051,
 		target_num = 1,
@@ -4596,7 +5208,7 @@ end)()
 	pg.base.island_task_target[200100061] = {
 		tips = "10010041",
 		jump_ui = "",
-		name = "找奥林匹克帮忙",
+		name = "找奧林匹克幫忙",
 		type = 1,
 		id = 200100061,
 		target_num = 1,
@@ -4607,7 +5219,7 @@ end)()
 	pg.base.island_task_target[200100071] = {
 		tips = "10010003",
 		jump_ui = "",
-		name = "收集鸡蛋",
+		name = "收集雞蛋",
 		type = 4,
 		id = 200100071,
 		target_num = 5,
@@ -4618,7 +5230,7 @@ end)()
 	pg.base.island_task_target[200100081] = {
 		tips = "10020009",
 		jump_ui = "",
-		name = "将能量特调带给帕特莉",
+		name = "將能量特調帶給帕特莉",
 		type = 1,
 		id = 200100081,
 		target_num = 1,
@@ -4629,7 +5241,7 @@ end)()
 	pg.base.island_task_target[200110011] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "去啾咖啡问问布莱梅吧",
+		name = "去啾咖啡問問布萊梅吧",
 		type = 1,
 		id = 200110011,
 		target_num = 1,
@@ -4640,7 +5252,7 @@ end)()
 	pg.base.island_task_target[200110021] = {
 		tips = "10020028",
 		jump_ui = "",
-		name = "去码头看看。",
+		name = "去碼頭看看。",
 		type = 2,
 		id = 200110021,
 		target_num = 1,
@@ -4651,7 +5263,7 @@ end)()
 	pg.base.island_task_target[200110031] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "去找阿莫玛吧。",
+		name = "去找阿莫瑪吧。",
 		type = 1,
 		id = 200110031,
 		target_num = 1,
@@ -4673,7 +5285,7 @@ end)()
 	pg.base.island_task_target[200110042] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "收集铁矿",
+		name = "收集鐵礦",
 		type = 4,
 		id = 200110042,
 		target_num = 5,
@@ -4706,7 +5318,7 @@ end)()
 	pg.base.island_task_target[200120011] = {
 		tips = "10010040",
 		jump_ui = "",
-		name = "向赫莫借一个修枝剪",
+		name = "向赫莫借一個修枝剪",
 		type = 1,
 		id = 200120011,
 		target_num = 1,
@@ -4717,7 +5329,7 @@ end)()
 	pg.base.island_task_target[200120021] = {
 		tips = "10050002",
 		jump_ui = "",
-		name = "回去交给露西吧",
+		name = "回去交給露西吧",
 		type = 1,
 		id = 200120021,
 		target_num = 1,
@@ -4728,7 +5340,7 @@ end)()
 	pg.base.island_task_target[200120031] = {
 		tips = "10050002",
 		jump_ui = "",
-		name = "回去交给露西吧",
+		name = "回去交給露西吧",
 		type = 1,
 		id = 200120031,
 		target_num = 1,
@@ -4739,7 +5351,7 @@ end)()
 	pg.base.island_task_target[200120041] = {
 		tips = "10050036",
 		jump_ui = "",
-		name = "帮露西给土壤施肥",
+		name = "幫露西給土壤施肥",
 		type = 1,
 		id = 200120041,
 		target_num = 1,
@@ -4750,7 +5362,7 @@ end)()
 	pg.base.island_task_target[200120051] = {
 		tips = "10050002",
 		jump_ui = "",
-		name = "收获柑橘",
+		name = "收穫柑橘",
 		type = 4,
 		id = 200120051,
 		target_num = 5,
@@ -4761,7 +5373,7 @@ end)()
 	pg.base.island_task_target[200120061] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "将柑橘交给布莱梅吧",
+		name = "將柑橘交給布萊梅吧",
 		type = 1,
 		id = 200120061,
 		target_num = 1,
@@ -4772,7 +5384,7 @@ end)()
 	pg.base.island_task_target[200120071] = {
 		tips = "10050002",
 		jump_ui = "",
-		name = "将柑橘咖啡带给露西",
+		name = "將柑橘咖啡帶給露西",
 		type = 1,
 		id = 200120071,
 		target_num = 1,
@@ -4783,7 +5395,7 @@ end)()
 	pg.base.island_task_target[200120081] = {
 		tips = "10020009",
 		jump_ui = "",
-		name = "向帕特莉确认订单数量",
+		name = "向帕特莉確認訂單數量",
 		type = 1,
 		id = 200120081,
 		target_num = 1,
@@ -4794,7 +5406,7 @@ end)()
 	pg.base.island_task_target[200120091] = {
 		tips = "10050002",
 		jump_ui = "",
-		name = "将防虫剂带给露西",
+		name = "將防蟲劑帶給露西",
 		type = 1,
 		id = 200120091,
 		target_num = 1,
@@ -4805,7 +5417,7 @@ end)()
 	pg.base.island_task_target[200120101] = {
 		tips = "10050037",
 		jump_ui = "",
-		name = "给果树施加防虫剂",
+		name = "給果樹施加防蟲劑",
 		type = 1,
 		id = 200120101,
 		target_num = 1,
@@ -4816,7 +5428,7 @@ end)()
 	pg.base.island_task_target[200130000] = {
 		tips = "",
 		jump_ui = "",
-		name = "提升岛屿开发等级",
+		name = "提升島嶼開發等級",
 		type = 9,
 		id = 200130000,
 		target_num = 22,
@@ -4825,7 +5437,7 @@ end)()
 	pg.base.island_task_target[200130011] = {
 		tips = "10020004",
 		jump_ui = "",
-		name = "询问斯蒂芬妮",
+		name = "詢問斯蒂芬妮",
 		type = 1,
 		id = 200130011,
 		target_num = 1,
@@ -4836,7 +5448,7 @@ end)()
 	pg.base.island_task_target[200130021] = {
 		tips = "10050003",
 		jump_ui = "",
-		name = "回去找拉科尼娅",
+		name = "回去找拉科尼婭",
 		type = 1,
 		id = 200130021,
 		target_num = 1,
@@ -4847,7 +5459,7 @@ end)()
 	pg.base.island_task_target[200130031] = {
 		tips = "10020009",
 		jump_ui = "",
-		name = "找帕特莉重新订购肥料",
+		name = "找帕特莉重新訂購肥料",
 		type = 1,
 		id = 200130031,
 		target_num = 1,
@@ -4858,7 +5470,7 @@ end)()
 	pg.base.island_task_target[200130041] = {
 		tips = "10020030",
 		jump_ui = "",
-		name = "前往港口货运中心寻找肥料",
+		name = "前往港口貨運中心尋找肥料",
 		type = 1,
 		id = 200130041,
 		target_num = 1,
@@ -4869,7 +5481,7 @@ end)()
 	pg.base.island_task_target[200130051] = {
 		tips = "10050003",
 		jump_ui = "",
-		name = "将肥料交给拉科尼娅",
+		name = "將肥料交給拉科尼婭",
 		type = 1,
 		id = 200130051,
 		target_num = 1,
@@ -4880,7 +5492,7 @@ end)()
 	pg.base.island_task_target[200130061] = {
 		tips = "10050003",
 		jump_ui = "",
-		name = "在苗圃中委派种植薰衣草",
+		name = "在苗圃中委派種植薰衣草",
 		type = 7,
 		id = 200130061,
 		target_num = 1,
@@ -4902,7 +5514,7 @@ end)()
 	pg.base.island_task_target[200130081] = {
 		tips = "10020009",
 		jump_ui = "",
-		name = "将打包好的薰衣草包裹交给帕特莉",
+		name = "將打包好的薰衣草包裹交給帕特莉",
 		type = 1,
 		id = 200130081,
 		target_num = 1,
@@ -4913,7 +5525,7 @@ end)()
 	pg.base.island_task_target[200140011] = {
 		tips = "",
 		jump_ui = "",
-		name = "寻找岛上各处失落的地图残片-1",
+		name = "尋找島上各處失落的地圖殘片-1",
 		type = 4,
 		id = 200140011,
 		target_num = 1,
@@ -4921,12 +5533,10 @@ end)()
 			5
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task_target[200140012] = {
 		tips = "",
 		jump_ui = "",
-		name = "寻找岛上各处失落的地图残片-2",
+		name = "尋找島上各處失落的地圖殘片-2",
 		type = 4,
 		id = 200140012,
 		target_num = 1,
@@ -4937,7 +5547,7 @@ end)()
 	pg.base.island_task_target[200140013] = {
 		tips = "",
 		jump_ui = "",
-		name = "寻找岛上各处失落的地图残片-3",
+		name = "尋找島上各處失落的地圖殘片-3",
 		type = 4,
 		id = 200140013,
 		target_num = 1,
@@ -4948,7 +5558,7 @@ end)()
 	pg.base.island_task_target[200140014] = {
 		tips = "",
 		jump_ui = "",
-		name = "寻找岛上各处失落的地图残片-4",
+		name = "尋找島上各處失落的地圖殘片-4",
 		type = 4,
 		id = 200140014,
 		target_num = 1,
@@ -4959,7 +5569,7 @@ end)()
 	pg.base.island_task_target[200140015] = {
 		tips = "",
 		jump_ui = "",
-		name = "寻找岛上各处失落的地图残片-5",
+		name = "尋找島上各處失落的地圖殘片-5",
 		type = 4,
 		id = 200140015,
 		target_num = 1,
@@ -4970,7 +5580,7 @@ end)()
 	pg.base.island_task_target[200140021] = {
 		tips = "10040051",
 		jump_ui = "",
-		name = "去地图上标记的地方寻找秘宝吧",
+		name = "去地圖上標記的地方尋找秘寶吧",
 		type = 2,
 		id = 200140021,
 		target_num = 1,
@@ -4981,7 +5591,7 @@ end)()
 	pg.base.island_task_target[200140031] = {
 		tips = "10040051",
 		jump_ui = "",
-		name = "将地面挖开看看",
+		name = "將地面挖開看看",
 		type = 1,
 		id = 200140031,
 		target_num = 1,
@@ -4992,7 +5602,7 @@ end)()
 	pg.base.island_task_target[200150011] = {
 		tips = "",
 		jump_ui = "11",
-		name = "获取开发商店中的装扮",
+		name = "獲取開發商店中的裝扮-浮游炮",
 		type = 44,
 		id = 200150011,
 		target_num = 1,
@@ -5003,7 +5613,7 @@ end)()
 	pg.base.island_task_target[200150021] = {
 		tips = "",
 		jump_ui = "",
-		name = "完成当前开发季开发计划",
+		name = "完成當前開發季開發計劃",
 		type = 24,
 		id = 200150021,
 		target_num = 5,
@@ -5014,7 +5624,7 @@ end)()
 	pg.base.island_task_target[200160011] = {
 		tips = "10020071",
 		jump_ui = "",
-		name = "向布莉缇了解情况",
+		name = "向布莉緹瞭解情況",
 		type = 1,
 		id = 200160011,
 		target_num = 1,
@@ -5025,7 +5635,7 @@ end)()
 	pg.base.island_task_target[200160012] = {
 		tips = "10020078",
 		jump_ui = "",
-		name = "钓起任意一条鱼",
+		name = "釣起任意一條魚",
 		type = 58,
 		id = 200160012,
 		target_num = 1,
@@ -5034,7 +5644,7 @@ end)()
 	pg.base.island_task_target[200160013] = {
 		tips = "",
 		jump_ui = "18",
-		name = "查看钓鱼图鉴",
+		name = "檢視釣魚圖鑑",
 		type = 34,
 		id = 200160013,
 		target_num = 1,
@@ -5045,7 +5655,7 @@ end)()
 	pg.base.island_task_target[200160041] = {
 		tips = "10020071",
 		jump_ui = "",
-		name = "查看啾啾渔场",
+		name = "檢視啾啾漁場",
 		type = 1,
 		id = 200160041,
 		target_num = 1,
@@ -5056,7 +5666,7 @@ end)()
 	pg.base.island_task_target[200160042] = {
 		tips = "10020071",
 		jump_ui = "",
-		name = "查看鱼肉加工",
+		name = "檢視魚肉加工",
 		type = 1,
 		id = 200160042,
 		target_num = 1,
@@ -5067,7 +5677,7 @@ end)()
 	pg.base.island_task_target[200160043] = {
 		tips = "10020071",
 		jump_ui = "",
-		name = "查看渔具商店",
+		name = "檢視漁具商店",
 		type = 1,
 		id = 200160043,
 		target_num = 1,
@@ -5078,7 +5688,7 @@ end)()
 	pg.base.island_task_target[200170011] = {
 		tips = "10020025",
 		jump_ui = "",
-		name = "向佩芮了解情况",
+		name = "向佩芮瞭解情況",
 		type = 1,
 		id = 200170011,
 		target_num = 1,
@@ -5089,7 +5699,7 @@ end)()
 	pg.base.island_task_target[200170021] = {
 		tips = "",
 		jump_ui = "",
-		name = "提升岛屿开发等级",
+		name = "提升島嶼開發等級",
 		type = 9,
 		id = 200170021,
 		target_num = 22,
@@ -5106,10 +5716,21 @@ end)()
 			10030018
 		}
 	}
+	pg.base.island_task_target[200180011] = {
+		tips = "10060002",
+		jump_ui = "",
+		name = "累計銷售額",
+		type = 29,
+		id = 200180011,
+		target_num = 3000000,
+		target_param = {
+			0
+		}
+	}
 	pg.base.island_task_target[301010011] = {
 		tips = "",
 		jump_ui = "",
-		name = "获得任意矿石和木材",
+		name = "獲得任意礦石和木材",
 		type = 53,
 		id = 301010011,
 		target_num = 4,
@@ -5121,7 +5742,7 @@ end)()
 	pg.base.island_task_target[302010011] = {
 		tips = "",
 		jump_ui = "8",
-		name = "委派生产任意资材",
+		name = "委派生產任意資材",
 		type = 7,
 		id = 302010011,
 		target_num = 1,
@@ -5132,7 +5753,7 @@ end)()
 	pg.base.island_task_target[303010011] = {
 		tips = "",
 		jump_ui = "7",
-		name = "完成任意货运委托",
+		name = "完成任意貨運委託",
 		type = 12,
 		id = 303010011,
 		target_num = 1,
@@ -5143,7 +5764,7 @@ end)()
 	pg.base.island_task_target[304010011] = {
 		tips = "",
 		jump_ui = "6",
-		name = "交付任意岛屿订单",
+		name = "交付任意島嶼訂單",
 		type = 54,
 		id = 304010011,
 		target_num = 1,
@@ -5165,7 +5786,7 @@ end)()
 	pg.base.island_task_target[305010021] = {
 		tips = "10040002",
 		jump_ui = "",
-		name = "去找奥布莱恩吧",
+		name = "去找奧布萊恩吧",
 		type = 1,
 		id = 305010021,
 		target_num = 1,
@@ -5209,7 +5830,7 @@ end)()
 	pg.base.island_task_target[305010121] = {
 		tips = "10050003",
 		jump_ui = "",
-		name = "去找拉科尼娅吧",
+		name = "去找拉科尼婭吧",
 		type = 1,
 		id = 305010121,
 		target_num = 1,
@@ -5220,7 +5841,7 @@ end)()
 	pg.base.island_task_target[305010122] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "去找乔安吧",
+		name = "去找喬安吧",
 		type = 1,
 		id = 305010122,
 		target_num = 1,
@@ -5231,7 +5852,7 @@ end)()
 	pg.base.island_task_target[305010123] = {
 		tips = "10010041",
 		jump_ui = "",
-		name = "去找奥林匹克吧",
+		name = "去找奧林匹克吧",
 		type = 1,
 		id = 305010123,
 		target_num = 1,
@@ -5253,7 +5874,7 @@ end)()
 	pg.base.island_task_target[305010221] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "去找阿莫玛吧",
+		name = "去找阿莫瑪吧",
 		type = 1,
 		id = 305010221,
 		target_num = 1,
@@ -5264,7 +5885,7 @@ end)()
 	pg.base.island_task_target[305010222] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "去找乔安吧",
+		name = "去找喬安吧",
 		type = 1,
 		id = 305010222,
 		target_num = 1,
@@ -5297,7 +5918,7 @@ end)()
 	pg.base.island_task_target[305010321] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "去找阿莫玛吧",
+		name = "去找阿莫瑪吧",
 		type = 1,
 		id = 305010321,
 		target_num = 1,
@@ -5308,7 +5929,7 @@ end)()
 	pg.base.island_task_target[305010322] = {
 		tips = "10050003",
 		jump_ui = "",
-		name = "去找拉科尼娅吧",
+		name = "去找拉科尼婭吧",
 		type = 1,
 		id = 305010322,
 		target_num = 1,
@@ -5330,7 +5951,7 @@ end)()
 	pg.base.island_task_target[305020011] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "去找阿莫玛吧",
+		name = "去找阿莫瑪吧",
 		type = 1,
 		id = 305020011,
 		target_num = 1,
@@ -5341,7 +5962,7 @@ end)()
 	pg.base.island_task_target[305020021] = {
 		tips = "10050003",
 		jump_ui = "",
-		name = "去找拉科尼娅吧",
+		name = "去找拉科尼婭吧",
 		type = 1,
 		id = 305020021,
 		target_num = 1,
@@ -5374,7 +5995,7 @@ end)()
 	pg.base.island_task_target[305020111] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "去找阿莫玛吧",
+		name = "去找阿莫瑪吧",
 		type = 1,
 		id = 305020111,
 		target_num = 1,
@@ -5385,7 +6006,7 @@ end)()
 	pg.base.island_task_target[305020121] = {
 		tips = "10040002",
 		jump_ui = "",
-		name = "去找奥布莱恩吧",
+		name = "去找奧布萊恩吧",
 		type = 1,
 		id = 305020121,
 		target_num = 1,
@@ -5407,7 +6028,7 @@ end)()
 	pg.base.island_task_target[305020123] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "去找布莱梅吧",
+		name = "去找布萊梅吧",
 		type = 1,
 		id = 305020123,
 		target_num = 1,
@@ -5418,7 +6039,7 @@ end)()
 	pg.base.island_task_target[305020211] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "去找阿莫玛吧",
+		name = "去找阿莫瑪吧",
 		type = 1,
 		id = 305020211,
 		target_num = 1,
@@ -5462,7 +6083,7 @@ end)()
 	pg.base.island_task_target[305020311] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "去找阿莫玛吧",
+		name = "去找阿莫瑪吧",
 		type = 1,
 		id = 305020311,
 		target_num = 1,
@@ -5470,6 +6091,8 @@ end)()
 			4514
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[305020321] = {
 		tips = "10030008",
 		jump_ui = "",
@@ -5495,7 +6118,7 @@ end)()
 	pg.base.island_task_target[305020323] = {
 		tips = "10040002",
 		jump_ui = "",
-		name = "去找奥布莱恩吧",
+		name = "去找奧布萊恩吧",
 		type = 1,
 		id = 305020323,
 		target_num = 1,
@@ -5506,7 +6129,7 @@ end)()
 	pg.base.island_task_target[305040011] = {
 		tips = "",
 		jump_ui = "",
-		name = "抚摸猫咪",
+		name = "撫摸貓咪",
 		type = 1,
 		id = 305040011,
 		target_num = 1,
@@ -5517,7 +6140,7 @@ end)()
 	pg.base.island_task_target[305050011] = {
 		tips = "",
 		jump_ui = "",
-		name = "做出任意动作",
+		name = "做出任意動作",
 		type = 36,
 		id = 305050011,
 		target_num = 1,
@@ -5528,7 +6151,7 @@ end)()
 	pg.base.island_task_target[305080011] = {
 		tips = "",
 		jump_ui = "",
-		name = "和角色进行一次互动",
+		name = "和角色進行一次互動",
 		type = 55,
 		id = 305080011,
 		target_num = 1,
@@ -5537,7 +6160,7 @@ end)()
 	pg.base.island_task_target[306010011] = {
 		tips = "10030009",
 		jump_ui = "",
-		name = "接收日常补给",
+		name = "接收日常補給",
 		type = 13,
 		id = 306010011,
 		target_num = 1,
@@ -5546,7 +6169,7 @@ end)()
 	pg.base.island_task_target[307010011] = {
 		tips = "",
 		jump_ui = "5",
-		name = "制作任意餐品",
+		name = "製作任意餐品",
 		type = 48,
 		id = 307010011,
 		target_num = 5,
@@ -5554,13 +6177,14 @@ end)()
 			601,
 			602,
 			603,
-			604
+			604,
+			901
 		}
 	}
 	pg.base.island_task_target[307020011] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "制作任意有鱼餐馆的餐品",
+		name = "製作任意有魚餐館的餐品",
 		type = 48,
 		id = 307020011,
 		target_num = 3,
@@ -5571,7 +6195,7 @@ end)()
 	pg.base.island_task_target[307030011] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "制作任意白熊饮品的餐品",
+		name = "製作任意白熊飲品的餐品",
 		type = 48,
 		id = 307030011,
 		target_num = 3,
@@ -5582,7 +6206,7 @@ end)()
 	pg.base.island_task_target[307040011] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "制作任意啾啾简餐的餐品",
+		name = "製作任意啾啾簡餐的餐品",
 		type = 48,
 		id = 307040011,
 		target_num = 3,
@@ -5593,7 +6217,7 @@ end)()
 	pg.base.island_task_target[307050011] = {
 		tips = "10060002",
 		jump_ui = "",
-		name = "制作任意乌鱼烤肉的餐品",
+		name = "製作任意烏魚烤肉的餐品",
 		type = 48,
 		id = 307050011,
 		target_num = 3,
@@ -5604,7 +6228,7 @@ end)()
 	pg.base.island_task_target[307060011] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "制作任意啾咖啡的餐品",
+		name = "製作任意啾咖啡的餐品",
 		type = 48,
 		id = 307060011,
 		target_num = 3,
@@ -5615,7 +6239,7 @@ end)()
 	pg.base.island_task_target[300000011] = {
 		tips = "10040079",
 		jump_ui = "",
-		name = "采集任意矿物",
+		name = "採集任意礦物",
 		type = 49,
 		id = 300000011,
 		target_num = 4,
@@ -5626,7 +6250,7 @@ end)()
 	pg.base.island_task_target[300000021] = {
 		tips = "10040080",
 		jump_ui = "",
-		name = "采集任意木材",
+		name = "採集任意木材",
 		type = 49,
 		id = 300000021,
 		target_num = 4,
@@ -5637,7 +6261,7 @@ end)()
 	pg.base.island_task_target[300000031] = {
 		tips = "",
 		jump_ui = "6",
-		name = "交付任意岛屿订单",
+		name = "交付任意島嶼訂單",
 		type = 54,
 		id = 300000031,
 		target_num = 1,
@@ -5659,7 +6283,7 @@ end)()
 	pg.base.island_task_target[300000051] = {
 		tips = "",
 		jump_ui = "",
-		name = "做出任意动作",
+		name = "做出任意動作",
 		type = 36,
 		id = 300000051,
 		target_num = 1,
@@ -5681,7 +6305,7 @@ end)()
 	pg.base.island_task_target[300000071] = {
 		tips = "10040002",
 		jump_ui = "",
-		name = "去找奥布莱恩吧",
+		name = "去找奧布萊恩吧",
 		type = 1,
 		id = 300000071,
 		target_num = 1,
@@ -5692,7 +6316,7 @@ end)()
 	pg.base.island_task_target[300000072] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "去找乔安吧",
+		name = "去找喬安吧",
 		type = 1,
 		id = 300000072,
 		target_num = 1,
@@ -5703,7 +6327,7 @@ end)()
 	pg.base.island_task_target[300000073] = {
 		tips = "10090008",
 		jump_ui = "",
-		name = "去找布莱梅吧",
+		name = "去找布萊梅吧",
 		type = 1,
 		id = 300000073,
 		target_num = 1,
@@ -5714,7 +6338,7 @@ end)()
 	pg.base.island_task_target[300000081] = {
 		tips = "",
 		jump_ui = "",
-		name = "抚摸猫咪",
+		name = "撫摸貓咪",
 		type = 1,
 		id = 300000081,
 		target_num = 1,
@@ -5725,7 +6349,7 @@ end)()
 	pg.base.island_task_target[401010011] = {
 		tips = "10040022",
 		jump_ui = "",
-		name = "委派开采任意矿物",
+		name = "委派開採任意礦物",
 		type = 48,
 		id = 401010011,
 		target_num = 30,
@@ -5736,7 +6360,7 @@ end)()
 	pg.base.island_task_target[401020011] = {
 		tips = "10040002",
 		jump_ui = "",
-		name = "委派采集任意木材",
+		name = "委派採集任意木材",
 		type = 48,
 		id = 401020011,
 		target_num = 30,
@@ -5747,7 +6371,7 @@ end)()
 	pg.base.island_task_target[401030011] = {
 		tips = "10010040",
 		jump_ui = "",
-		name = "委派种植任意农田作物",
+		name = "委派種植任意農田作物",
 		type = 48,
 		id = 401030011,
 		target_num = 30,
@@ -5758,7 +6382,7 @@ end)()
 	pg.base.island_task_target[401040011] = {
 		tips = "10050003",
 		jump_ui = "",
-		name = "委派种植任意苗圃作物",
+		name = "委派種植任意苗圃作物",
 		type = 48,
 		id = 401040011,
 		target_num = 30,
@@ -5769,7 +6393,7 @@ end)()
 	pg.base.island_task_target[401050011] = {
 		tips = "10050002",
 		jump_ui = "",
-		name = "委派种植任意果园树木",
+		name = "委派種植任意果園樹木",
 		type = 48,
 		id = 401050011,
 		target_num = 30,
@@ -5780,7 +6404,7 @@ end)()
 	pg.base.island_task_target[401060011] = {
 		tips = "10010003",
 		jump_ui = "",
-		name = "委派照顾任意牧场动物",
+		name = "委派照顧任意牧場動物",
 		type = 48,
 		id = 401060011,
 		target_num = 30,
@@ -5791,7 +6415,7 @@ end)()
 	pg.base.island_task_target[401070011] = {
 		tips = "10070016",
 		jump_ui = "",
-		name = "生产任意手工产品",
+		name = "生產任意手工產品",
 		type = 48,
 		id = 401070011,
 		target_num = 20,
@@ -5802,7 +6426,7 @@ end)()
 	pg.base.island_task_target[401080011] = {
 		tips = "10070014",
 		jump_ui = "",
-		name = "生产任意工业产品",
+		name = "生產任意工業產品",
 		type = 48,
 		id = 401080011,
 		target_num = 20,
@@ -5813,7 +6437,7 @@ end)()
 	pg.base.island_task_target[401090011] = {
 		tips = "10070013",
 		jump_ui = "",
-		name = "生产任意木料产品",
+		name = "生產任意木料產品",
 		type = 48,
 		id = 401090011,
 		target_num = 20,
@@ -5824,7 +6448,7 @@ end)()
 	pg.base.island_task_target[401100011] = {
 		tips = "10070015",
 		jump_ui = "",
-		name = "生产任意电子产品",
+		name = "生產任意電子產品",
 		type = 48,
 		id = 401100011,
 		target_num = 20,
@@ -5835,7 +6459,7 @@ end)()
 	pg.base.island_task_target[401110011] = {
 		tips = "10020071",
 		jump_ui = "",
-		name = "进行任意水产养殖",
+		name = "進行任意水產養殖",
 		type = 48,
 		id = 401110011,
 		target_num = 30,
@@ -5846,7 +6470,7 @@ end)()
 	pg.base.island_task_target[402010011] = {
 		tips = "",
 		jump_ui = "5",
-		name = "制作任意套餐",
+		name = "製作任意套餐",
 		type = 50,
 		id = 402010011,
 		target_num = 20,
@@ -5868,7 +6492,7 @@ end)()
 	pg.base.island_task_target[404010011] = {
 		tips = "",
 		jump_ui = "19",
-		name = "拍摄任意照片",
+		name = "拍攝任意照片",
 		type = 43,
 		id = 404010011,
 		target_num = 3,
@@ -5879,7 +6503,7 @@ end)()
 	pg.base.island_task_target[405010011] = {
 		tips = "",
 		jump_ui = "",
-		name = "完成每日计划",
+		name = "完成每日計劃",
 		type = 56,
 		id = 405010011,
 		target_num = 25,
@@ -5890,7 +6514,7 @@ end)()
 	pg.base.island_task_target[406010011] = {
 		tips = "",
 		jump_ui = "",
-		name = "获得岛屿开发资金",
+		name = "獲得島嶼開發資金",
 		type = 5,
 		id = 406010011,
 		target_num = 120000,
@@ -5901,7 +6525,7 @@ end)()
 	pg.base.island_task_target[900010011] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1050推演积分",
+		name = "最高抵達1050推演積分",
 		type = 1001,
 		id = 900010011,
 		target_num = 1050,
@@ -5912,7 +6536,7 @@ end)()
 	pg.base.island_task_target[900010021] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1100推演积分",
+		name = "最高抵達1100推演積分",
 		type = 1001,
 		id = 900010021,
 		target_num = 1100,
@@ -5923,7 +6547,7 @@ end)()
 	pg.base.island_task_target[900010031] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1150推演积分",
+		name = "最高抵達1150推演積分",
 		type = 1001,
 		id = 900010031,
 		target_num = 1150,
@@ -5934,7 +6558,7 @@ end)()
 	pg.base.island_task_target[900010041] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1200推演积分",
+		name = "最高抵達1200推演積分",
 		type = 1001,
 		id = 900010041,
 		target_num = 1200,
@@ -5945,7 +6569,7 @@ end)()
 	pg.base.island_task_target[900010051] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1250推演积分",
+		name = "最高抵達1250推演積分",
 		type = 1001,
 		id = 900010051,
 		target_num = 1250,
@@ -5956,7 +6580,7 @@ end)()
 	pg.base.island_task_target[900010061] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1300推演积分",
+		name = "最高抵達1300推演積分",
 		type = 1001,
 		id = 900010061,
 		target_num = 1300,
@@ -5967,7 +6591,7 @@ end)()
 	pg.base.island_task_target[900010071] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1350推演积分",
+		name = "最高抵達1350推演積分",
 		type = 1001,
 		id = 900010071,
 		target_num = 1350,
@@ -5978,7 +6602,7 @@ end)()
 	pg.base.island_task_target[900010081] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1400推演积分",
+		name = "最高抵達1400推演積分",
 		type = 1001,
 		id = 900010081,
 		target_num = 1400,
@@ -5989,7 +6613,7 @@ end)()
 	pg.base.island_task_target[900010091] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1450推演积分",
+		name = "最高抵達1450推演積分",
 		type = 1001,
 		id = 900010091,
 		target_num = 1450,
@@ -6000,7 +6624,7 @@ end)()
 	pg.base.island_task_target[900010101] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1500推演积分",
+		name = "最高抵達1500推演積分",
 		type = 1001,
 		id = 900010101,
 		target_num = 1500,
@@ -6011,7 +6635,7 @@ end)()
 	pg.base.island_task_target[900010111] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1550推演积分",
+		name = "最高抵達1550推演積分",
 		type = 1001,
 		id = 900010111,
 		target_num = 1550,
@@ -6019,12 +6643,10 @@ end)()
 			101
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task_target[900010121] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达1600推演积分",
+		name = "最高抵達1600推演積分",
 		type = 1001,
 		id = 900010121,
 		target_num = 1600,
@@ -6035,7 +6657,7 @@ end)()
 	pg.base.island_task_target[900010201] = {
 		tips = "",
 		jump_ui = "",
-		name = "最高抵达3000推演积分",
+		name = "最高抵達3000推演積分",
 		type = 1001,
 		id = 900010201,
 		target_num = 3000,
@@ -6046,7 +6668,7 @@ end)()
 	pg.base.island_task_target[900020011] = {
 		tips = "",
 		jump_ui = "",
-		name = "抚摸猫咪",
+		name = "撫摸貓咪",
 		type = 1,
 		id = 900020011,
 		target_num = 1,
@@ -6057,7 +6679,7 @@ end)()
 	pg.base.island_task_target[900020021] = {
 		tips = "10010040",
 		jump_ui = "",
-		name = "获得任意农田作物个数*30",
+		name = "獲得任意農田作物個數*30",
 		type = 53,
 		id = 900020021,
 		target_num = 30,
@@ -6068,7 +6690,7 @@ end)()
 	pg.base.island_task_target[900020031] = {
 		tips = "",
 		jump_ui = "6",
-		name = "交付任意岛屿订单",
+		name = "交付任意島嶼訂單",
 		type = 54,
 		id = 900020031,
 		target_num = 1,
@@ -6079,7 +6701,7 @@ end)()
 	pg.base.island_task_target[900020041] = {
 		tips = "",
 		jump_ui = "",
-		name = "委派生产任意资材",
+		name = "委派生產任意資材",
 		type = 7,
 		id = 900020041,
 		target_num = 1,
@@ -6090,7 +6712,7 @@ end)()
 	pg.base.island_task_target[900020051] = {
 		tips = "",
 		jump_ui = "",
-		name = "和角色进行一次互动",
+		name = "和角色進行一次互動",
 		type = 55,
 		id = 900020051,
 		target_num = 1,
@@ -6099,7 +6721,7 @@ end)()
 	pg.base.island_task_target[900020061] = {
 		tips = "",
 		jump_ui = "7",
-		name = "完成任意货运委托",
+		name = "完成任意貨運委託",
 		type = 12,
 		id = 900020061,
 		target_num = 1,
@@ -6110,7 +6732,7 @@ end)()
 	pg.base.island_task_target[900020071] = {
 		tips = "",
 		jump_ui = "",
-		name = "获得任意餐品三次",
+		name = "獲得任意餐品三次",
 		type = 53,
 		id = 900020071,
 		target_num = 3,

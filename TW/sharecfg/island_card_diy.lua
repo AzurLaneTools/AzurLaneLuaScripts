@@ -29,12 +29,12 @@ pg.base.island_card_diy = {}
 (function ()
 	pg.base.island_card_diy[4001] = {
 		resource = "islandphoto/4001",
-		name = "默认形象",
+		name = "預設形象",
 		type = 4,
 		id = 4001,
 		icon = "islandprops/morensuipian",
 		tech_id = 0,
-		desc = "默认形象",
+		desc = "預設形象",
 		jump_page = {}
 	}
 	pg.base.island_card_diy[4002] = {
@@ -49,12 +49,12 @@ pg.base.island_card_diy = {}
 	}
 	pg.base.island_card_diy[4003] = {
 		resource = "islandphoto/4003",
-		name = "萨拉托加形象照",
+		name = "薩拉托加形象照",
 		type = 4,
 		id = 4003,
 		icon = "islandprops/morensuipian",
 		tech_id = 0,
-		desc = "萨拉托加形象照",
+		desc = "薩拉托加形象照",
 		jump_page = {}
 	}
 	pg.base.island_card_diy[4004] = {
@@ -69,12 +69,12 @@ pg.base.island_card_diy = {}
 	}
 	pg.base.island_card_diy[4005] = {
 		resource = "islandphoto/4005",
-		name = "独角兽形象照",
+		name = "獨角獸形象照",
 		type = 4,
 		id = 4005,
 		icon = "islandprops/morensuipian",
 		tech_id = 0,
-		desc = "独角兽形象照",
+		desc = "獨角獸形象照",
 		jump_page = {}
 	}
 	pg.base.island_card_diy[4006] = {
@@ -139,12 +139,12 @@ pg.base.island_card_diy = {}
 	}
 	pg.base.island_card_diy[4012] = {
 		resource = "islandphoto/4012",
-		name = "应瑞形象照",
+		name = "應瑞形象照",
 		type = 4,
 		id = 4012,
 		icon = "islandprops/morensuipian",
 		tech_id = 0,
-		desc = "应瑞形象照",
+		desc = "應瑞形象照",
 		jump_page = {}
 	}
 	pg.base.island_card_diy[4013] = {
@@ -159,12 +159,12 @@ pg.base.island_card_diy = {}
 	}
 	pg.base.island_card_diy[4014] = {
 		resource = "islandphoto/4014",
-		name = "莱昂纳多·达·芬奇形象照",
+		name = "李奧納多·達·文西形象照",
 		type = 4,
 		id = 4014,
 		icon = "islandprops/morensuipian",
 		tech_id = 0,
-		desc = "莱昂纳多·达·芬奇形象照",
+		desc = "李奧納多·達·文西形象照",
 		jump_page = {}
 	}
 	pg.base.island_card_diy[4015] = {
@@ -179,40 +179,40 @@ pg.base.island_card_diy = {}
 	}
 	pg.base.island_card_diy[4016] = {
 		resource = "islandphoto/4016",
-		name = "恶毒形象照",
+		name = "惡毒形象照",
 		type = 4,
 		id = 4016,
 		icon = "islandprops/morensuipian",
 		tech_id = 0,
-		desc = "恶毒形象照",
+		desc = "惡毒形象照",
 		jump_page = {}
 	}
 	pg.base.island_card_diy[4017] = {
 		resource = "islandphoto/4017",
-		name = "精锐推演师",
+		name = "精銳推演師",
 		type = 4,
 		id = 4017,
 		icon = "islandprops/card_4017",
 		tech_id = 0,
-		desc = "授予战术推演新秀的认证名片。",
+		desc = "授予戰術推演新秀的認證名片。",
 		jump_page = {
 			{
-				"开发季—战术推演",
+				"開發季—戰術推演",
 				{}
 			}
 		}
 	}
 	pg.base.island_card_diy[4018] = {
 		resource = "islandphoto/4018",
-		name = "王牌推演师",
+		name = "王牌推演師",
 		type = 4,
 		id = 4018,
 		icon = "islandprops/card_4018",
 		tech_id = 0,
-		desc = "颁发给战术推演大师的荣誉名片。",
+		desc = "頒發給戰術推演大師的榮譽名片。",
 		jump_page = {
 			{
-				"开发季—战术推演",
+				"開發季—戰術推演",
 				{}
 			}
 		}

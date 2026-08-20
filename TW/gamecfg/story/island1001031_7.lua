@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "这是我的……飞行器？",
+			say = "這是我的……飛行器？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "喵？是指挥官啊，还真是准时喵！",
+			say = "喵？是指揮官啊，還真是準時喵！",
 			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "飞行器已经就位了喵~随时准备载着您征服宝藏岛的天空喵！",
+			say = "飛行器已經就位了喵~隨時準備載著您征服寶藏島的天空喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "竟然真的修好了？{namecode:98:明石}，我记得你才拿到碎片没多久吧？",
+			say = "竟然真的修好了？明石，我記得妳才拿到碎片沒多久吧？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -58,7 +58,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:98:明石}的效率，那可是港区第一喵！分分钟搞定！",
+			say = "明石的效率，那可是港區第一喵！分分鐘搞定！",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			say = "但这真是你修好的？看起来就跟新的一样……",
+			say = "但這真是妳修好的？看起來跟新的一樣……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 		},
 		{
 			animation = "shakehead",
-			say = "我可不记得你有这样的技术，老实交代是不是找人帮忙了？",
+			say = "我可不記得妳有這樣的技術，老實交代是不是找人幫忙了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			say = "怎么会~{namecode:98:明石}可是很厉害的喵~",
+			say = "怎麼會~明石可是很厲害的喵~",
 			animation = "embarrass",
 			characterId = 3120100,
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			say = "九九新只是小意思啦~飞行器重要的可不是外表，而是内核！是灵魂喵~",
+			say = "九九新只是小意思~飛行器重要的可不是外表，而是內核！是靈魂喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "（这绿头猫咪……十分有十二分的不对劲。）",
+			say = "（這綠頭貓咪……十分有十二分的不對勁。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			say = "好了好了，指挥官！不要在意细节喵~",
+			say = "好了好了，指揮官！不要在意細節喵~",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			say = "时间就是金钱！宝藏岛的财宝在向你招手了喵！快去吧！",
+			say = "時間就是金錢！寶藏島的財寶在向你招手了喵！快去吧！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

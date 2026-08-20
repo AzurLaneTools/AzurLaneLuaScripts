@@ -118,14 +118,6 @@ slot0.IsBookTip = function()
 	})
 end
 
-slot0.IsSeasonTip = function()
-	slot1 = getProxy(ActivityProxy)
-
-	return _.any(slot1:getIslandPanelActivities(), function (slot0)
-		return slot0:readyToAchieve()
-	end)
-end
-
 slot0.IsUnlock = function(slot0)
 	if not underscore.detect(pg.island_main_btns.all, function (slot0)
 		return pg.island_main_btns[slot0].btn_name == uv0
@@ -137,11 +129,7 @@ slot0.IsUnlock = function(slot0)
 end
 
 slot0.IsSeasonTip = function()
-	slot0 = getProxy(ActivityProxy)
-
-	return _.any(slot0:getIslandPanelActivities(), function (slot0)
-		return slot0:readyToAchieve()
-	end)
+	return IslandSeasonRedDotHelper.TipSeason()
 end
 
 return slot0

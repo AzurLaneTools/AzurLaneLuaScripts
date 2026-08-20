@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "拉科尼娅。",
+			say = "拉科妮婭。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -34,16 +34,16 @@ return {
 		},
 		{
 			animation = "doubt",
-			say = "嗯？是指挥官么……",
+			say = "嗯？是指揮官嗎……",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "给，这是我们果园……也是你的蜜蜂朋友们的第一份成果。",
+			say = "給妳，這是我們果園……也是妳的蜜蜂朋友們的第一份成果。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			say = "露西特意让我送来的，你尝尝看？",
+			say = "露西特地讓我送來的，妳嚐嚐看？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -60,26 +60,17 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "苹果……这是……它们采过的花结出来的么……",
+			say = "蘋果……這是……它們採過的花結出來的嗎……",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……阳光……泥土……还有……一点点苹果花的香……",
-			subName = "苗圃管理员",
-			characterId = 101400,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "谢谢……露西……指挥官……还有蜜蜂们……大家都很棒呢……",
-			subName = "苗圃管理员",
+			say = "……陽光……泥土……還有……一點點蘋果花的香……",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -87,7 +78,16 @@ return {
 			}
 		},
 		{
-			say = "也要谢谢将蜜蜂们照顾得很好的拉科尼娅。",
+			say = "謝謝……露西……指揮官……還有蜜蜂們……大家都很棒呢……",
+			subName = "苗圃管理員",
+			characterId = 101400,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "也要謝謝將蜜蜂們照顧得很好的拉科妮婭。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 		},
 		{
 			animation = "shy",
-			say = "我么……指挥官……",
+			say = "我嗎……指揮官……",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			say = "苹果……很好吃……拉科尼娅也想……种点什么……",
-			subName = "苗圃管理员",
+			say = "蘋果……很好吃……拉科妮婭也想……種點什麼……",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			say = "像指挥官……像露西那样……帮上大家……",
-			subName = "苗圃管理员",
+			say = "像指揮官……像露西那樣……幫上大家……",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			say = "想种点什么？",
+			say = "想種點什麼？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，拉科尼娅，你提醒我了。",
+			say = "嗯，拉科妮婭，妳提醒我了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			say = "这片地，阳光好，土质也疏松……除了果树，这里还能种点别的东西。比如……",
+			say = "這片地，陽光好，土質也疏鬆……除了果樹，這裡還能種點別的東西。比如…",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			say = "一些像云朵一样蓬松的植物。",
+			say = "一些像雲朵一樣蓬鬆的植物。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -167,14 +167,14 @@ return {
 			animation = "think",
 			say = "棉花？",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "对，是棉花，或者薰衣草也不错……",
+			say = "對，是棉花，或是薰衣草也不錯……",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			say = "不过这些作物都挺娇贵，需要更加细致的照料，露西大概是不行的。",
+			say = "不過這些作物都挺嬌貴，需要更細緻的照料，露西大概是不行的。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -192,16 +192,16 @@ return {
 		},
 		{
 			animation = "think",
-			say = "……细致的……照料？",
+			say = "……細緻的……照料？",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "对，就像你照顾蜜蜂一样。",
+			say = "對，就像妳照顧蜜蜂一樣。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -210,7 +210,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "不过开发区里还没有这些作物的种子，种植方法也还不太明确。",
+			say = "不過開發區裡還沒有這些作物的種子，種植方法也還不太明確。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			say = "我得去研究一下这些作物的种植技巧，拉科尼娅，你再等我一段时间。",
+			say = "我得去研究一下這些作物的種植技巧，拉科尼婭，妳再等我一段時間。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -227,9 +227,9 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯……我会好好等着的……",
+			say = "嗯……我會好好等的……",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

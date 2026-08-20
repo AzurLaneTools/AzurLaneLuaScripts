@@ -75,7 +75,8 @@ pg.mini_game_hub.all = {
 	70,
 	71,
 	75,
-	76
+	76,
+	77
 }
 pg.base = pg.base or {}
 pg.base.mini_game_hub = {}
@@ -1025,5 +1026,15 @@ pg.base.mini_game_hub = {}
 			89180,
 			1
 		}
+	}
+	pg.base.mini_game_hub[77] = {
+		reward = 0,
+		reward_display = "",
+		reward_need = 7,
+		reborn_times = 1,
+		reward_target = 0,
+		id = 77,
+		act_id = 51090,
+		signet_reward = {}
 	}
 end)()

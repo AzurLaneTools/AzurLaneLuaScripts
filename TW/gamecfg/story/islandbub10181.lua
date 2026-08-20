@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "呜喵~竟然又空军了……看来今天不适合钓鱼！",
+			say = "嗚喵~竟然又空軍了……看來今天不適合釣魚！",
 			characterId = 101800
 		}
 	}

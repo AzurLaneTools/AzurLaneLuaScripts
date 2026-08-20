@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "果然……发现你了——绿头猫咪！",
+			say = "果然……發現妳了——綠頭貓咪！",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "鬼鬼祟祟潜入了啾咖啡里么……可疑。",
+			say = "鬼鬼祟祟潛入了啾咖啡裡嗎……可疑。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			say = "一定有什么不可告人的阴谋，跟上去看看吧！",
+			say = "一定有什麼不可告人的陰謀，跟上去看看吧！",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

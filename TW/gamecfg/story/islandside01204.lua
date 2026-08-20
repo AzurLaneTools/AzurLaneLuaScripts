@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "嗯？露西的修枝剪终于坏了啊？",
+			say = "嗯？露西的修枝剪終於壞了啊？",
 			animation = "doubt",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			face2Face = {
 				{
 					0,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "奥布莱恩好像……不是很惊讶？",
+			say = "奧布萊恩好像……不是很驚訝？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -43,18 +43,18 @@ return {
 			}
 		},
 		{
-			say = "是啊，因为距离她上次采购农具已经过了好一阵子了。",
+			say = "是啊，因為距離她上次採購農具已經過了好一陣子了。",
 			animation = "think",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "倒不如说，我还有些惊讶她之前买的修枝剪居然能坚持到现在。",
-			subName = "林场管理员",
+			say = "倒不如說，我還有些驚訝她之前買的修枝剪居然能堅持到現在。",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			subName = "林场管理员",
-			say = "指挥官请稍等一下，我这就去做个新的修枝剪给你。",
+			subName = "林場管理員",
+			say = "指揮官請等一下，我這就去做個新的修枝剪給你。",
 			characterId = 100700,
 			animation = "talk",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			say = "哦，关于费用的问题你不必担心，我会记在露西账上。",
-			subName = "林场管理员",
+			say = "哦，關於費用的問題你不必擔心，我會記在露西帳上。",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,

@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "露西，你看起来有点忧愁，发生什么事了？",
+			say = "露西，妳看起來有點憂愁，發生什麼事了？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "啊……指挥官，能麻烦你帮个忙吗？",
+			say = "啊……指揮官，能麻煩你幫個忙嗎？",
 			animation = "amaze",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我的修枝剪坏了，可以帮我向赫莫借一个吗？",
-			subName = "果园管理员",
+			say = "我的修枝剪壞了，可以幫我向赫莫借一個嗎？",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -52,17 +52,17 @@ return {
 			}
 		},
 		{
-			say = "果园还有不少事情需要处理，我暂时有些抽不开身……",
+			say = "果園還有不少事情要處理，我暫時有些抽不開身……",
 			animation = "embarrass",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "没问题，我这就问赫莫。",
+			say = "沒問題，我這就去問赫莫。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -70,10 +70,10 @@ return {
 			}
 		},
 		{
-			say = "真是感谢你了指挥官！",
+			say = "真是感謝你了指揮官！",
 			animation = "nod",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

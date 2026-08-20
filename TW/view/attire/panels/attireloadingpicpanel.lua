@@ -1,4 +1,4 @@
-slot0 = class("AttireFramePanel", import("...base.BaseSubView"))
+slot0 = class("AttireLoadingPicPanel", import("...base.BaseSubView"))
 slot0.FilterMode = {
 	Default = 2,
 	All = 0,

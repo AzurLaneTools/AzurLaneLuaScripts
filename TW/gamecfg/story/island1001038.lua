@@ -24,7 +24,7 @@ return {
 	scripts = {
 		{
 			characterId = 0,
-			say = "拉科尼娅？这是你准备的……蜂箱？",
+			say = "拉科妮婭？這是妳準備的…蜂箱？",
 			face2Face = {
 				{
 					0,
@@ -44,9 +44,9 @@ return {
 		},
 		{
 			animation = "hi",
-			say = "喔~是带着蜂巢的指挥官！没错哦，这箱子都是拉科尼娅做的，快放进来！",
+			say = "喔~是帶著蜂巢的指揮官！沒錯哦，這箱子都是拉科妮婭做的，快放進來！",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,15 +56,15 @@ return {
 			animation = "doubt",
 			say = "嗯？……蜂巢！",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……野生的……很健康……指挥官很厉害……",
-			subName = "苗圃管理员",
+			say = "……野生的……很健康……指揮官很厲害……",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "运气不错，在旁边的树林里找到的，不算太凶。",
+			say = "運氣不錯，在旁邊的樹林裡找到的，也不算太兇。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			say = "你准备的蜂箱看起来很合适。",
+			say = "妳準備的蜂箱看起來很適合。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -90,19 +90,19 @@ return {
 		},
 		{
 			animation = "shy",
-			say = "因为要给新朋友……最好的家……",
+			say = "因為要給新朋友……最好的家……",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官……把它们放进来吧……小心点……",
+			say = "指揮官……把它們放進來吧……小心點……",
 			animation = "clap",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			say = "它们这是怎么了？",
+			say = "它們這是怎麼了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -135,17 +135,17 @@ return {
 		},
 		{
 			animation = "think",
-			say = "嘘……它们……在害怕……",
+			say = "噓……它們……在害怕……",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "它们对这里有些陌生……要放一些甜甜的礼物才能让它们安心……",
-			subName = "苗圃管理员",
+			say = "它們對這裡有些陌生……要放一些甜甜的禮物才能讓它們安心…",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -154,9 +154,9 @@ return {
 		},
 		{
 			animation = "doubt",
-			say = "甜甜的礼物？",
+			say = "甜甜的禮物？",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,16 +164,16 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "蜂蜜……不用多……一点点……就好。",
+			say = "蜂蜜……不用多……一點點……就好。",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，我这就去采集一些，希望它们有了蜂蜜后能安分点。",
+			say = "嗯，我這就去採集一些，希望它們有了蜂蜜後能安分點。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			say = "嗯……指挥官……小心……",
-			subName = "苗圃管理员",
+			say = "嗯……指揮官……小心……",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,

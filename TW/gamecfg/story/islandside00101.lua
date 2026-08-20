@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "奥布莱恩，你在做什么？",
+			say = "奧布萊恩，妳在做什麼？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,17 +33,17 @@ return {
 			}
 		},
 		{
-			say = "哇啊！指、指挥官……你走路都没声音的吗？吓死我了……",
+			say = "哇啊！指、指揮官……你走路都沒聲音的嗎？嚇死我了……",
 			animation = "scare",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "发生什么事了，你看上去很不安？",
+			say = "發生什麼事了，你看起來很不安？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官，你……你知道吗？",
-			subName = "林场管理员",
+			say = "指揮官，你……你知道嗎？",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -60,17 +60,17 @@ return {
 			}
 		},
 		{
-			say = "最近这片原野上，每当暴雨来临之前……这片原野上总会响起一种……一种很奇怪的嚎叫声！",
+			say = "最近這片原野上，每當暴雨來臨之前……這片原野上總會響起一種……很奇怪的嚎叫聲！",
 			animation = "talk",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嚎叫声……是什么野兽的声音？",
+			say = "嚎叫聲……是什麼野獸的聲音？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -78,18 +78,18 @@ return {
 			}
 		},
 		{
-			say = "野兽的叫声我听过！和这声音完全不像……它很空、很长，有时候像哭……有时候又尖得刺耳！",
+			say = "野獸的叫聲我聽過！和這聲音完全不像……它很空、很長，有時候像哭……有時候又尖得刺耳！",
 			animation = "think",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "虽然现在没下雨，但每次想起来那个声音，就让人心里发毛……感觉那林子里有……有什么不干净的东西！",
-			subName = "林场管理员",
+			say = "雖然現在沒下雨，但每次想起來那個聲音，就讓人心裡發毛……感覺那林子裡有……有什麼不乾淨的東西！",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			say = "具体是在哪个方向？",
+			say = "具體是在哪個方向？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -105,18 +105,18 @@ return {
 			}
 		},
 		{
-			say = "就……就在林场旁边的那片树林里……声音就是从那里面传出来的……",
+			say = "就……就在林場旁邊的那片樹林裡……聲音就是從那裡面傳出來的……",
 			animation = "talk",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "最近我都不敢去那边伐木了……明明还有很多工作要完成的……",
-			subName = "林场管理员",
+			say = "最近我都不敢去那邊伐木了……明明還有很多工作要完成的……",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			say = "没事，我过去看看。",
+			say = "沒事，我過去看看。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -132,17 +132,17 @@ return {
 			}
 		},
 		{
-			say = "真的吗指挥官？那请你……一定要小心……那声音……真的很可疑！",
+			say = "真的嗎指揮官？那請你……一定要小心……那個聲音……真的很可疑！",
 			animation = "clap",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "放心，我只在外围看看。",
+			say = "放心，我只會在外圍看看。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

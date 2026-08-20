@@ -21,7 +21,7 @@ return {
 		{
 			animation = "hi",
 			characterId = 0,
-			say = "梅莉——你要的饲料到了！看看这些够不够喂饱它？",
+			say = "梅莉——妳要的飼料到了！看看這些夠不夠餵飽牠？",
 			face2Face = {
 				{
 					0,
@@ -34,17 +34,17 @@ return {
 			}
 		},
 		{
-			say = "哇，是指挥官，这么多饲料啊，太够了！",
+			say = "哇，是指揮官，這麼多飼料啊，太夠了！",
 			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "下次断粮前，记得提前跟赫莫打声招呼。",
+			say = "下次斷糧前，記得提前跟赫莫打招呼。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -52,18 +52,18 @@ return {
 			}
 		},
 		{
-			say = "知道啦知道啦~指挥官要不要也来喂喂咯咯鸡？",
+			say = "知道啦知道啦~指揮官要不要也來餵餵咯咯雞？",
 			animation = "nod",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "听说等它吃饱后，可是会下鸡蛋的哦~",
-			subName = "牧场管理员",
+			say = "聽說等牠吃飽後，可是會下雞蛋的哦~",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "鸡蛋么……那我来试试。",
+			say = "雞蛋嗎……那我來試試。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

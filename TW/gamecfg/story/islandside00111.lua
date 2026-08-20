@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "夕阳之时嘿！下工吃饭嘿！愉悦的步伐像首歌~♪",
+			say = "夕陽之時嘿！下班吃飯嘿！愉悅的步伐像首歌~♪",
 			animation = "clap",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			face2Face = {
 				{
 					0,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "是奥布莱恩？",
+			say = "是奧布萊恩？",
 			animation = "hi",
 			characterId = 0,
 			typewriter = {
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官？！真少见……你怎么有空溜达到河边来啦？",
-			subName = "林场管理员",
+			say = "指揮官？！真少見……你怎麼有空溜達到河邊來啦？",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "是乔安让我来的。",
+			say = "是喬安讓我來的。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -61,17 +61,17 @@ return {
 			}
 		},
 		{
-			say = "欸……她是想约我比赛抓鱼了吗？",
+			say = "欸……她是想約我比賽抓魚了嗎？",
 			animation = "doubt",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这次不是抓鱼，是吃鱼……乔安准备了她拿手的栖风原野风味大餐。",
+			say = "這次不是抓魚，是吃魚……喬安準備了她拿手的棲風原野風味大餐。",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -80,18 +80,18 @@ return {
 			}
 		},
 		{
-			say = "乔安的手艺？那指挥官，我们快回去吧……美食可不等人！",
+			say = "喬安的手藝？那指揮官，我們快回去吧……美食可不等人！",
 			animation = "nod",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嘿嘿……风里都有香味飘过来了……",
-			subName = "林场管理员",
+			say = "嘿嘿……風裡都有香味飄過來了……",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			say = "对了，指挥官，给你这个！",
-			subName = "林场管理员",
+			say = "對了，指揮官，給你這個！",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -110,14 +110,14 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "奥布莱恩突然将一张纸片塞到了我手里……",
+			say = "奧布萊恩突然將一張紙片塞到了我手裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这是什么？",
+			say = "這是什麼？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -125,18 +125,18 @@ return {
 			}
 		},
 		{
-			say = "不知道哦~刚才工作时被风吹到我脚边的……",
+			say = "不知道哦~剛才工作時被風吹到我腳邊的……",
 			animation = "doubt",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "就交给指挥官啦！上面说不定记录着什么宝藏哦~",
-			subName = "林场管理员",
+			say = "就交給指揮官啦！上面說不定紀錄著什麼寶藏哦~",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			say = "哪会有什么宝藏……",
+			say = "哪會有什麼寶藏……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			say = "算了，还是先收起来吧。",
+			say = "算了，還是先收起來吧。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

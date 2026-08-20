@@ -22,9 +22,9 @@ return {
 	scripts = {
 		{
 			animation = "scare",
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			characterId = 100300,
-			say = "呀？！指、指挥官——你怎么来了？",
+			say = "呀？！指、指揮官——你怎麼來了？",
 			face2Face = {
 				{
 					0,
@@ -37,7 +37,7 @@ return {
 			}
 		},
 		{
-			say = "来看看斯蒂芬妮是如何努力工作的……",
+			say = "來看看史蒂芬妮是如何努力工作的……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -48,15 +48,15 @@ return {
 			say = "啊哈哈……我、我很努力的哦！",
 			animation = "embarrass",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "只是中途有点……嗯……有点累了，来这里休息一下而已~",
-			subName = "货运管理员",
+			say = "只是中途有點……嗯……有點累了，來這裡休息一下而已~",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			say = "唔……劳逸结合确实是值得提倡的好习惯。",
+			say = "嗯……勞逸結合確實是值得提倡的好習慣。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "只是你“逸”的时间，是不是稍微长了那么一点点？船上的货仓里空无一物。",
+			say = "只是妳「逸」的時間，是不是稍微長了那麼一點點？船上的貨倉裡空無一物。",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -81,18 +81,18 @@ return {
 			}
 		},
 		{
-			say = "空、空的？！天呐！",
+			say = "空、空的？！天啊！",
 			animation = "amaze",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我之前……我之前居然完全没在工作吗？难道是在梦里……",
-			subName = "货运管理员",
+			say = "我之前……我之前居然完全沒在工作嗎？難道是在夢裡……",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			say = "…………梦里……",
+			say = "…………夢裡……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			say = "货运中心堆着的木材和矿石……不会还是我昨天送到港口的那一批吧？",
+			say = "貨運中心堆著的木材和礦石……不會還是我昨天送到港口的那一批吧？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -116,10 +116,10 @@ return {
 			}
 		},
 		{
-			say = "……应、应该……也许……可能……是？",
+			say = "……應、應該……也許……可能……是？",
 			animation = "embarrass",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "唉，你这都不是“逸”的时间长……完全就是一直逸。",
+			say = "唉，妳這都不是「逸」的時間長……完全就是一直逸。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -135,18 +135,18 @@ return {
 			}
 		},
 		{
-			say = "呜……指挥官，别说了……我知道错了啦~",
+			say = "嗚……指揮官，別說了……我知道錯~了~",
 			animation = "weep",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我立刻劳动，立刻劳动！",
-			subName = "货运管理员",
+			say = "我立刻勞動，立刻勞動！",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +155,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "好了，现在目标明确——去把货运中心的资材尽快装船！我也来帮忙。",
+			say = "好了，現在目標明確——去把貨運中心的資材盡快裝船！我也來幫忙。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -163,18 +163,18 @@ return {
 			}
 		},
 		{
-			say = "真、真的吗？！指挥官你真是太好了！",
+			say = "真、真的嗎？！指揮官你真是太好了！",
 			animation = "nod",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我、我这次一定会好好干的！看我的吧！",
-			subName = "货运管理员",
+			say = "我、我這次一定會好好幹的！看我的吧！",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			say = "……慢点，斯蒂芬妮，安全第一，效率第二。",
+			say = "……慢點，史蒂芬妮，安全第一，效率第二。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

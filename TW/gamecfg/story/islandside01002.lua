@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官，想要做些什么……来表达对帕特莉的支持嘛……？",
+			say = "指揮官，想要做些什麼…來表達對帕特莉的支持嗎……？",
 			animation = "doubt",
 			characterId = 100100,
-			subName = "磨坊管理员",
+			subName = "磨坊管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "唔……其实，无论指挥官做什么，帕特莉都会很开心啦……",
-			subName = "磨坊管理员",
+			say = "嗯……其實，無論指揮官做什麼，帕特莉都會很開心啦……",
+			subName = "磨坊管理員",
 			characterId = 100100,
 			typewriter = {
 				speed = 0.05,
@@ -45,9 +45,9 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "但要是具体说呢……就是……",
+			say = "但要是具體說呢……就是……",
 			characterId = 100100,
-			subName = "磨坊管理员",
+			subName = "磨坊管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 		},
 		{
 			say = "……Zzzz……",
-			subName = "磨坊管理员",
+			subName = "磨坊管理員",
 			characterId = 100100,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "奥林匹克？奥林匹克？",
+			say = "奧林匹克？奧林匹克？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 		},
 		{
 			say = "呼……",
-			subName = "磨坊管理员",
+			subName = "磨坊管理員",
 			characterId = 100100,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			say = "……站着睡着了？",
+			say = "……站著睡著了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			say = "算了，还是去问问斯蒂芬妮吧。",
+			say = "算了，還是去問問史蒂芬妮吧。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			say = "她和帕特莉在工作上有不少交集，说不定会有思路。",
+			say = "她和帕特莉在工作上有不少交集，說不定會有想法。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

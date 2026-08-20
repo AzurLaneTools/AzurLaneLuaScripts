@@ -258,6 +258,81 @@ pg.island_shop_goods.all = {
 	10367,
 	10368,
 	10369,
+	10401,
+	10402,
+	10403,
+	10404,
+	10405,
+	10406,
+	10407,
+	10408,
+	10409,
+	10410,
+	10411,
+	10412,
+	10413,
+	10414,
+	10415,
+	10416,
+	10417,
+	10418,
+	10419,
+	10420,
+	10421,
+	10422,
+	10423,
+	10424,
+	10425,
+	10426,
+	10427,
+	10428,
+	10429,
+	10430,
+	10431,
+	10432,
+	10433,
+	10434,
+	10435,
+	10436,
+	10437,
+	10438,
+	10439,
+	10440,
+	10441,
+	10442,
+	10443,
+	10444,
+	10445,
+	10446,
+	10447,
+	10448,
+	10449,
+	10450,
+	10451,
+	10452,
+	10453,
+	10454,
+	10455,
+	10456,
+	10457,
+	10458,
+	10459,
+	10460,
+	10461,
+	10462,
+	10463,
+	10464,
+	10465,
+	10466,
+	10467,
+	10468,
+	10469,
+	10470,
+	10471,
+	10472,
+	10473,
+	10474,
+	10475,
 	103000,
 	103001,
 	103002,
@@ -313,6 +388,7 @@ pg.island_shop_goods.all = {
 	412000,
 	412001,
 	412002,
+	412003,
 	4600001,
 	4600002,
 	4600003,
@@ -322,6 +398,9 @@ pg.island_shop_goods.all = {
 	4620007,
 	4630008,
 	4610006,
+	4620008,
+	4630009,
+	4610008,
 	5010001,
 	5020001,
 	5030001,
@@ -331,6 +410,9 @@ pg.island_shop_goods.all = {
 	5010003,
 	5020003,
 	5030003,
+	5010004,
+	5020004,
+	5030004,
 	471070301,
 	473120101,
 	471051701,
@@ -340,6 +422,8 @@ pg.island_shop_goods.all = {
 	471011701,
 	472012101,
 	473031101,
+	472021201,
+	479600011,
 	99000101,
 	99000102,
 	99000201,
@@ -360,7 +444,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 1,
 		unlock = "",
 		goods_name = "浮游炮",
-		desc = "购买可获得指挥官“浮游炮”漂浮物装扮",
+		desc = "購買可獲得指揮官「浮游炮」漂浮物裝扮",
 		pt_award = 1000,
 		icon = "IslandDressIcon/dress_1020001",
 		pay_id = 0,
@@ -401,7 +485,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 1,
 		unlock = "",
 		goods_name = "握手",
-		desc = "一次友好的握手，是信任与合作的开始。",
+		desc = "一次友好的握手，是信任與合作的開始。",
 		pt_award = 500,
 		icon = "IslandActionIcon/handshake",
 		pay_id = 0,
@@ -441,8 +525,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "胜利起跳",
-		desc = "激昂的起跳，是为胜利献上的最高欢呼。",
+		goods_name = "勝利起跳",
+		desc = "激昂的起跳，是為勝利獻上的最高歡呼。",
 		pt_award = 500,
 		icon = "IslandActionIcon/vjump",
 		pay_id = 0,
@@ -483,7 +567,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 1,
 		unlock = "",
 		goods_name = "展示肌肉",
-		desc = "以汗水浇铸的成就，值得向每一个人展示。",
+		desc = "以汗水澆鑄的成就，值得向每一個人展示。",
 		pt_award = 500,
 		icon = "IslandActionIcon/muscle",
 		pay_id = 0,
@@ -524,7 +608,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -564,8 +648,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "小麦",
-		desc = "刚收获不久的新鲜小麦，制作面粉的重要原料。",
+		goods_name = "小麥",
+		desc = "剛收穫不久的新鮮小麥，製作麵粉的重要原料。",
 		pt_award = 20,
 		icon = "IslandProps/item_2000",
 		pay_id = 0,
@@ -606,7 +690,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "玉米",
-		desc = "金黄饱满的玉米，散发着田野的清甜气息。",
+		desc = "金黃飽滿的玉米，散發著田野的清甜氣息。",
 		pt_award = 20,
 		icon = "IslandProps/item_2001",
 		pay_id = 0,
@@ -647,7 +731,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "牧草",
-		desc = "高品质牧草，让牧场充满生机！",
+		desc = "高品質牧草，讓牧場充滿生機！",
 		pt_award = 20,
 		icon = "IslandProps/item_2008",
 		pay_id = 0,
@@ -688,7 +772,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "大米",
-		desc = "清白色的优质大米，含有丰富的淀粉和谷物蛋白。",
+		desc = "清白色的優質大米，含有豐富的澱粉和穀物蛋白。",
 		pt_award = 20,
 		icon = "IslandProps/item_2002",
 		pay_id = 0,
@@ -729,7 +813,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "白菜",
-		desc = "清脆可口的白菜，新鲜直采！",
+		desc = "清脆可口的白菜，新鮮直採！",
 		pt_award = 20,
 		icon = "IslandProps/item_2003",
 		pay_id = 0,
@@ -770,7 +854,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "大豆",
-		desc = "圆润饱满，富含蛋白质，除了制作美食之外，也有丰富的工业用途。",
+		desc = "圓潤飽滿，富含蛋白質，除了製作美食之外，也有豐富的工業用途。",
 		pt_award = 20,
 		icon = "IslandProps/item_2006",
 		pay_id = 0,
@@ -811,7 +895,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "土豆",
-		desc = "蔬菜中的淀粉代表，可以被做成千变万化的形态。",
+		desc = "蔬菜中的澱粉代表，可以被做成千變萬化的形態。",
 		pt_award = 40,
 		icon = "IslandProps/item_2005",
 		pay_id = 0,
@@ -851,8 +935,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 25,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -892,8 +976,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -933,8 +1017,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -974,8 +1058,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -1015,8 +1099,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -1056,8 +1140,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 6,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -1097,8 +1181,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -1138,8 +1222,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -1179,8 +1263,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -1220,8 +1304,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -1261,8 +1345,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -1302,8 +1386,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -1343,8 +1427,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -1384,8 +1468,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -1425,8 +1509,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -1467,7 +1551,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -1507,8 +1591,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 25,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -1548,8 +1632,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -1589,8 +1673,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -1630,8 +1714,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -1671,8 +1755,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -1712,8 +1796,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 8,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -1753,8 +1837,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -1794,8 +1878,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -1835,8 +1919,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -1876,8 +1960,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -1917,8 +2001,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -1958,8 +2042,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -1999,8 +2083,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -2040,8 +2124,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -2081,8 +2165,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -2123,7 +2207,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -2163,8 +2247,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 50,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -2204,8 +2288,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 15,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -2245,8 +2329,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -2286,8 +2370,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -2327,8 +2411,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -2368,8 +2452,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -2409,8 +2493,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -2450,8 +2534,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -2491,8 +2575,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -2532,8 +2616,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -2573,8 +2657,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -2614,8 +2698,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -2655,8 +2739,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -2696,8 +2780,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -2737,8 +2821,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -2778,8 +2862,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "草编逸影",
-		desc = "购买可获得指挥官“草编逸影”漂浮物装扮",
+		goods_name = "草編逸影",
+		desc = "購買可獲得指揮官「草編逸影」漂浮物裝扮",
 		pt_award = 1000,
 		icon = "IslandDressIcon/dress_1010007",
 		pay_id = 0,
@@ -2819,8 +2903,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "英雄登场",
-		desc = "自然流畅的英雄登场，生动形象地表达情感与态度。",
+		goods_name = "英雄登場",
+		desc = "自然流暢的英雄登場，生動形象地表達情感與態度。",
 		pt_award = 500,
 		icon = "IslandActionIcon/herocoming",
 		pay_id = 0,
@@ -2861,7 +2945,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -2901,8 +2985,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "小麦",
-		desc = "刚收获不久的新鲜小麦，制作面粉的重要原料。",
+		goods_name = "小麥",
+		desc = "剛收穫不久的新鮮小麥，製作麵粉的重要原料。",
 		pt_award = 20,
 		icon = "IslandProps/item_2000",
 		pay_id = 0,
@@ -2943,7 +3027,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "玉米",
-		desc = "金黄饱满的玉米，散发着田野的清甜气息。",
+		desc = "金黃飽滿的玉米，散發著田野的清甜氣息。",
 		pt_award = 20,
 		icon = "IslandProps/item_2001",
 		pay_id = 0,
@@ -2984,7 +3068,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "牧草",
-		desc = "高品质牧草，让牧场充满生机！",
+		desc = "高品質牧草，讓牧場充滿生機！",
 		pt_award = 20,
 		icon = "IslandProps/item_2008",
 		pay_id = 0,
@@ -3025,7 +3109,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "大米",
-		desc = "清白色的优质大米，含有丰富的淀粉和谷物蛋白。",
+		desc = "清白色的優質大米，含有豐富的澱粉和穀物蛋白。",
 		pt_award = 20,
 		icon = "IslandProps/item_2002",
 		pay_id = 0,
@@ -3066,7 +3150,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "白菜",
-		desc = "清脆可口的白菜，新鲜直采！",
+		desc = "清脆可口的白菜，新鮮直採！",
 		pt_award = 20,
 		icon = "IslandProps/item_2003",
 		pay_id = 0,
@@ -3107,7 +3191,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "大豆",
-		desc = "圆润饱满，富含蛋白质，除了制作美食之外，也有丰富的工业用途。",
+		desc = "圓潤飽滿，富含蛋白質，除了製作美食之外，也有豐富的工業用途。",
 		pt_award = 20,
 		icon = "IslandProps/item_2006",
 		pay_id = 0,
@@ -3148,7 +3232,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 5,
 		unlock = "",
 		goods_name = "土豆",
-		desc = "蔬菜中的淀粉代表，可以被做成千变万化的形态。",
+		desc = "蔬菜中的澱粉代表，可以被做成千變萬化的形態。",
 		pt_award = 40,
 		icon = "IslandProps/item_2005",
 		pay_id = 0,
@@ -3188,8 +3272,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 25,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -3229,8 +3313,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -3270,8 +3354,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -3311,8 +3395,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -3352,8 +3436,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -3393,8 +3477,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 6,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -3434,8 +3518,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -3475,8 +3559,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -3516,8 +3600,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -3557,8 +3641,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -3598,8 +3682,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -3639,8 +3723,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -3680,8 +3764,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -3721,8 +3805,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -3762,8 +3846,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -3804,7 +3888,7 @@ pg.base.island_shop_goods = {}
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -3844,8 +3928,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 25,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -3885,8 +3969,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -3926,8 +4010,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -3967,8 +4051,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -4008,8 +4092,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -4049,8 +4133,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 8,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -4090,8 +4174,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -4131,8 +4215,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -4172,8 +4256,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -4213,8 +4297,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -4254,8 +4338,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -4295,8 +4379,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -4336,8 +4420,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -4377,8 +4461,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -4418,8 +4502,8 @@ pg.base.island_shop_goods = {}
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -4462,7 +4546,7 @@ end)()
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -4502,8 +4586,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 50,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -4543,8 +4627,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 15,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -4584,8 +4668,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -4625,8 +4709,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -4666,8 +4750,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -4707,8 +4791,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -4748,8 +4832,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -4789,8 +4873,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -4830,8 +4914,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -4871,8 +4955,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -4912,8 +4996,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -4953,8 +5037,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -4994,8 +5078,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -5035,8 +5119,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -5076,8 +5160,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -5117,8 +5201,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "纯白结翼",
-		desc = "购买可获得角色“纯白结翼”背部装扮",
+		goods_name = "純白結翼",
+		desc = "購買可獲得角色「純白結翼」背部裝扮",
 		pt_award = 1000,
 		icon = "IslandDressIcon/dress_2010004",
 		pay_id = 0,
@@ -5158,8 +5242,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "清尘掸子",
-		desc = "购买可获得角色“清尘掸子”漂浮物装扮",
+		goods_name = "清塵撣子",
+		desc = "購買可獲得角色「清塵撣子」漂浮物裝扮",
 		pt_award = 1000,
 		icon = "IslandDressIcon/dress_2020005",
 		pay_id = 0,
@@ -5199,8 +5283,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "蕾丝印象",
-		desc = "购买可获得角色“蕾丝印象”脚印装扮",
+		goods_name = "蕾絲印象",
+		desc = "購買可獲得角色「蕾絲印象」腳印裝扮",
 		pt_award = 1000,
 		icon = "IslandDressIcon/dress_2030006",
 		pay_id = 0,
@@ -5240,8 +5324,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "伸懒腰",
-		desc = "自然流畅的伸懒腰，生动形象地表达情感与态度。",
+		goods_name = "伸懶腰",
+		desc = "自然流暢的伸懶腰，生動形象地表達情感與態度。",
 		pt_award = 500,
 		icon = "IslandActionIcon/stretch",
 		pay_id = 0,
@@ -5282,7 +5366,7 @@ end)()
 		limited_num = 1,
 		unlock = "",
 		goods_name = "害怕",
-		desc = "自然流畅的害怕，生动形象地表达情感与态度。",
+		desc = "自然流暢的害怕，生動形象地表達情感與態度。",
 		pt_award = 500,
 		icon = "IslandActionIcon/fearshake",
 		pay_id = 0,
@@ -5323,7 +5407,7 @@ end)()
 		limited_num = 1,
 		unlock = "",
 		goods_name = "抱拳",
-		desc = "自然流畅的抱拳，生动形象地表达情感与态度。",
+		desc = "自然流暢的抱拳，生動形象地表達情感與態度。",
 		pt_award = 500,
 		icon = "IslandActionIcon/holdfist",
 		pay_id = 0,
@@ -5363,8 +5447,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "自夸",
-		desc = "自然流畅的自夸，生动形象地表达情感与态度。",
+		goods_name = "自誇",
+		desc = "自然流暢的自誇，生動形象地表達情感與態度。",
 		pt_award = 500,
 		icon = "IslandActionIcon/vouch",
 		pay_id = 0,
@@ -5404,8 +5488,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "威廉·D·波特岛屿权限认证函",
-		desc = "威廉·D·波特的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		goods_name = "威廉·D·波特島嶼許可權認證函",
+		desc = "威廉·D·波特的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		pt_award = 20000,
 		icon = "IslandProps/item_200016",
 		pay_id = 0,
@@ -5446,7 +5530,7 @@ end)()
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -5486,8 +5570,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "小麦",
-		desc = "刚收获不久的新鲜小麦，制作面粉的重要原料。",
+		goods_name = "小麥",
+		desc = "剛收穫不久的新鮮小麥，製作麵粉的重要原料。",
 		pt_award = 20,
 		icon = "IslandProps/item_2000",
 		pay_id = 0,
@@ -5528,7 +5612,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "玉米",
-		desc = "金黄饱满的玉米，散发着田野的清甜气息。",
+		desc = "金黃飽滿的玉米，散發著田野的清甜氣息。",
 		pt_award = 20,
 		icon = "IslandProps/item_2001",
 		pay_id = 0,
@@ -5569,7 +5653,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "牧草",
-		desc = "高品质牧草，让牧场充满生机！",
+		desc = "高品質牧草，讓牧場充滿生機！",
 		pt_award = 20,
 		icon = "IslandProps/item_2008",
 		pay_id = 0,
@@ -5610,7 +5694,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "大米",
-		desc = "清白色的优质大米，含有丰富的淀粉和谷物蛋白。",
+		desc = "清白色的優質大米，含有豐富的澱粉和穀物蛋白。",
 		pt_award = 20,
 		icon = "IslandProps/item_2002",
 		pay_id = 0,
@@ -5651,7 +5735,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "白菜",
-		desc = "清脆可口的白菜，新鲜直采！",
+		desc = "清脆可口的白菜，新鮮直採！",
 		pt_award = 20,
 		icon = "IslandProps/item_2003",
 		pay_id = 0,
@@ -5692,7 +5776,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "大豆",
-		desc = "圆润饱满，富含蛋白质，除了制作美食之外，也有丰富的工业用途。",
+		desc = "圓潤飽滿，富含蛋白質，除了製作美食之外，也有豐富的工業用途。",
 		pt_award = 20,
 		icon = "IslandProps/item_2006",
 		pay_id = 0,
@@ -5733,7 +5817,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "土豆",
-		desc = "蔬菜中的淀粉代表，可以被做成千变万化的形态。",
+		desc = "蔬菜中的澱粉代表，可以被做成千變萬化的形態。",
 		pt_award = 40,
 		icon = "IslandProps/item_2005",
 		pay_id = 0,
@@ -5773,8 +5857,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 25,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -5814,8 +5898,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -5855,8 +5939,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -5896,8 +5980,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -5937,8 +6021,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -5978,8 +6062,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 6,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -6019,8 +6103,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -6060,8 +6144,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "经营指南T1",
-		desc = "一本内容基础的经营技巧指南。使用后，角色的经营能力将少量提升。",
+		goods_name = "經營指南T1",
+		desc = "一本內容基礎的經營技巧指南。使用後，角色的經營能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100011",
 		pay_id = 0,
@@ -6101,8 +6185,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "种植指南T1",
-		desc = "一本内容基础的种植技巧指南。使用后，角色的种植能力将少量提升。",
+		goods_name = "種植指南T1",
+		desc = "一本內容基礎的種植技巧指南。使用後，角色的種植能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100021",
 		pay_id = 0,
@@ -6142,8 +6226,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "制造指南T1",
-		desc = "一本内容基础的制造技巧指南。使用后，角色的制造能力将少量提升。",
+		goods_name = "製造指南T1",
+		desc = "一本內容基礎的製造技巧指南。使用後，角色的製造能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100031",
 		pay_id = 0,
@@ -6183,8 +6267,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "采集指南T1",
-		desc = "一本内容基础的采集技巧指南。使用后，角色的采集能力将少量提升。",
+		goods_name = "採集指南T1",
+		desc = "一本內容基礎的採集技巧指南。使用後，角色的採集能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100041",
 		pay_id = 0,
@@ -6224,8 +6308,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "养护指南T1",
-		desc = "一本内容基础的养护技巧指南。使用后，角色的养护能力将少量提升。",
+		goods_name = "養護指南T1",
+		desc = "一本內容基礎的養護技巧指南。使用後，角色的養護能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100051",
 		pay_id = 0,
@@ -6265,8 +6349,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "烹调指南T1",
-		desc = "一本内容基础的烹调技巧指南。使用后，角色的烹调能力将少量提升。",
+		goods_name = "烹調指南T1",
+		desc = "一本內容基礎的烹調技巧指南。使用後，角色的烹調能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100061",
 		pay_id = 0,
@@ -6306,8 +6390,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -6347,8 +6431,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -6388,8 +6472,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -6429,8 +6513,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -6470,8 +6554,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -6511,8 +6595,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -6552,8 +6636,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -6594,7 +6678,7 @@ end)()
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -6634,8 +6718,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 25,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -6675,8 +6759,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -6716,8 +6800,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -6757,8 +6841,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -6798,8 +6882,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -6839,8 +6923,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 8,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -6880,8 +6964,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -6921,8 +7005,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -6962,8 +7046,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -7003,8 +7087,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -7044,8 +7128,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -7085,8 +7169,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -7126,8 +7210,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -7167,8 +7251,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -7208,8 +7292,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -7250,7 +7334,7 @@ end)()
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -7290,8 +7374,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 50,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -7331,8 +7415,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 15,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -7372,8 +7456,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -7413,8 +7497,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -7454,8 +7538,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -7495,8 +7579,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -7536,8 +7620,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -7577,8 +7661,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -7618,8 +7702,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -7659,8 +7743,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -7700,8 +7784,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -7741,8 +7825,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -7782,8 +7866,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -7823,8 +7907,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -7864,8 +7948,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -7905,8 +7989,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -7946,8 +8030,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "月亮小夜灯",
-		desc = "购买可获得角色“月亮小夜灯”漂浮物装扮",
+		goods_name = "月亮小夜燈",
+		desc = "購買可獲得角色「月亮小夜燈」漂浮物裝扮",
 		pt_award = 1000,
 		icon = "IslandDressIcon/dress_2020006",
 		pay_id = 0,
@@ -7987,8 +8071,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "星尘足迹",
-		desc = "购买可获得角色“星尘足迹”脚印装扮",
+		goods_name = "星塵足跡",
+		desc = "購買可獲得角色「星塵足跡」腳印裝扮",
 		pt_award = 1000,
 		icon = "IslandDressIcon/dress_2030007",
 		pay_id = 0,
@@ -8028,8 +8112,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "神秘捕梦网",
-		desc = "购买可获得角色“神秘捕梦网”背部装扮",
+		goods_name = "神秘捕夢網",
+		desc = "購買可獲得角色「神秘捕夢網」背部裝扮",
 		pt_award = 1000,
 		icon = "IslandDressIcon/dress_2010005",
 		pay_id = 0,
@@ -8069,8 +8153,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "拒绝",
-		desc = "自然流畅的拒绝，生动形象地表达情感与态度。",
+		goods_name = "拒絕",
+		desc = "自然流暢的拒絕，生動形象地表達情感與態度。",
 		pt_award = 500,
 		icon = "IslandActionIcon/refuse",
 		pay_id = 0,
@@ -8111,7 +8195,7 @@ end)()
 		limited_num = 1,
 		unlock = "",
 		goods_name = "打哈欠",
-		desc = "自然流畅的打哈欠，生动形象地表达情感与态度。",
+		desc = "自然流暢的打哈欠，生動形象地表達情感與態度。",
 		pt_award = 500,
 		icon = "IslandActionIcon/yawn",
 		pay_id = 0,
@@ -8152,7 +8236,7 @@ end)()
 		limited_num = 1,
 		unlock = "",
 		goods_name = "擦汗",
-		desc = "自然流畅的擦汗，生动形象地表达情感与态度。",
+		desc = "自然流暢的擦汗，生動形象地表達情感與態度。",
 		pt_award = 500,
 		icon = "IslandActionIcon/wipingsweat",
 		pay_id = 0,
@@ -8192,8 +8276,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "挠头",
-		desc = "自然流畅的挠头，生动形象地表达情感与态度。",
+		goods_name = "撓頭",
+		desc = "自然流暢的撓頭，生動形象地表達情感與態度。",
 		pt_award = 500,
 		icon = "IslandActionIcon/scratchinghead",
 		pay_id = 0,
@@ -8233,8 +8317,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "标枪岛屿权限认证函",
-		desc = "标枪的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		goods_name = "標槍島嶼許可權認證函",
+		desc = "標槍的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		pt_award = 20000,
 		icon = "IslandProps/item_200024",
 		pay_id = 0,
@@ -8275,7 +8359,7 @@ end)()
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -8315,8 +8399,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "小麦",
-		desc = "刚收获不久的新鲜小麦，制作面粉的重要原料。",
+		goods_name = "小麥",
+		desc = "剛收穫不久的新鮮小麥，製作麵粉的重要原料。",
 		pt_award = 20,
 		icon = "IslandProps/item_2000",
 		pay_id = 0,
@@ -8357,7 +8441,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "玉米",
-		desc = "金黄饱满的玉米，散发着田野的清甜气息。",
+		desc = "金黃飽滿的玉米，散發著田野的清甜氣息。",
 		pt_award = 20,
 		icon = "IslandProps/item_2001",
 		pay_id = 0,
@@ -8398,7 +8482,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "牧草",
-		desc = "高品质牧草，让牧场充满生机！",
+		desc = "高品質牧草，讓牧場充滿生機！",
 		pt_award = 20,
 		icon = "IslandProps/item_2008",
 		pay_id = 0,
@@ -8439,7 +8523,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "大米",
-		desc = "清白色的优质大米，含有丰富的淀粉和谷物蛋白。",
+		desc = "清白色的優質大米，含有豐富的澱粉和穀物蛋白。",
 		pt_award = 20,
 		icon = "IslandProps/item_2002",
 		pay_id = 0,
@@ -8480,7 +8564,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "白菜",
-		desc = "清脆可口的白菜，新鲜直采！",
+		desc = "清脆可口的白菜，新鮮直採！",
 		pt_award = 20,
 		icon = "IslandProps/item_2003",
 		pay_id = 0,
@@ -8521,7 +8605,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "大豆",
-		desc = "圆润饱满，富含蛋白质，除了制作美食之外，也有丰富的工业用途。",
+		desc = "圓潤飽滿，富含蛋白質，除了製作美食之外，也有豐富的工業用途。",
 		pt_award = 20,
 		icon = "IslandProps/item_2006",
 		pay_id = 0,
@@ -8564,7 +8648,7 @@ end)()
 		limited_num = 5,
 		unlock = "",
 		goods_name = "土豆",
-		desc = "蔬菜中的淀粉代表，可以被做成千变万化的形态。",
+		desc = "蔬菜中的澱粉代表，可以被做成千變萬化的形態。",
 		pt_award = 40,
 		icon = "IslandProps/item_2005",
 		pay_id = 0,
@@ -8604,8 +8688,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 25,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -8645,8 +8729,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -8686,8 +8770,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -8727,8 +8811,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -8768,8 +8852,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -8809,8 +8893,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 6,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -8850,8 +8934,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -8891,8 +8975,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "经营指南T1",
-		desc = "一本内容基础的经营技巧指南。使用后，角色的经营能力将少量提升。",
+		goods_name = "經營指南T1",
+		desc = "一本內容基礎的經營技巧指南。使用後，角色的經營能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100011",
 		pay_id = 0,
@@ -8932,8 +9016,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "种植指南T1",
-		desc = "一本内容基础的种植技巧指南。使用后，角色的种植能力将少量提升。",
+		goods_name = "種植指南T1",
+		desc = "一本內容基礎的種植技巧指南。使用後，角色的種植能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100021",
 		pay_id = 0,
@@ -8973,8 +9057,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "制造指南T1",
-		desc = "一本内容基础的制造技巧指南。使用后，角色的制造能力将少量提升。",
+		goods_name = "製造指南T1",
+		desc = "一本內容基礎的製造技巧指南。使用後，角色的製造能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100031",
 		pay_id = 0,
@@ -9014,8 +9098,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "采集指南T1",
-		desc = "一本内容基础的采集技巧指南。使用后，角色的采集能力将少量提升。",
+		goods_name = "採集指南T1",
+		desc = "一本內容基礎的採集技巧指南。使用後，角色的採集能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100041",
 		pay_id = 0,
@@ -9055,8 +9139,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "养护指南T1",
-		desc = "一本内容基础的养护技巧指南。使用后，角色的养护能力将少量提升。",
+		goods_name = "養護指南T1",
+		desc = "一本內容基礎的養護技巧指南。使用後，角色的養護能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100051",
 		pay_id = 0,
@@ -9096,8 +9180,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "烹调指南T1",
-		desc = "一本内容基础的烹调技巧指南。使用后，角色的烹调能力将少量提升。",
+		goods_name = "烹調指南T1",
+		desc = "一本內容基礎的烹調技巧指南。使用後，角色的烹調能力將少量提升。",
 		pt_award = 1000,
 		icon = "IslandProps/item_100061",
 		pay_id = 0,
@@ -9137,8 +9221,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -9178,8 +9262,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -9219,8 +9303,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -9260,8 +9344,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -9301,8 +9385,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -9342,8 +9426,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -9383,8 +9467,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -9424,8 +9508,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -9466,7 +9550,7 @@ end)()
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -9506,8 +9590,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 25,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -9547,8 +9631,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -9588,8 +9672,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -9629,8 +9713,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -9670,8 +9754,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -9711,8 +9795,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 8,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -9752,8 +9836,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 3,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -9793,8 +9877,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -9834,8 +9918,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -9875,8 +9959,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -9916,8 +10000,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -9957,8 +10041,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -9998,8 +10082,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -10039,8 +10123,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -10080,8 +10164,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 2,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -10122,7 +10206,7 @@ end)()
 		limited_num = 10,
 		unlock = "",
 		goods_name = "星彩券",
-		desc = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
 		pt_award = 2000,
 		icon = "IslandGoodsIcon/170000",
 		pay_id = 0,
@@ -10162,8 +10246,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 50,
 		unlock = "",
-		goods_name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		pt_award = 20,
 		icon = "IslandProps/item_100001",
 		pay_id = 0,
@@ -10203,8 +10287,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 15,
 		unlock = "",
-		goods_name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		pt_award = 400,
 		icon = "IslandProps/item_100002",
 		pay_id = 0,
@@ -10244,8 +10328,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		pt_award = 1600,
 		icon = "IslandProps/item_100003",
 		pay_id = 0,
@@ -10285,8 +10369,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 200,
 		icon = "IslandProps/item_100101",
 		pay_id = 0,
@@ -10326,8 +10410,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 400,
 		icon = "IslandProps/item_100102",
 		pay_id = 0,
@@ -10367,8 +10451,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		pt_award = 1500,
 		icon = "IslandProps/item_100103",
 		pay_id = 0,
@@ -10408,8 +10492,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 5,
 		unlock = "",
-		goods_name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		pt_award = 2000,
 		icon = "IslandProps/item_100201",
 		pay_id = 0,
@@ -10449,8 +10533,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "精装书",
-		desc = "散发着油墨与时光的沉稳香气，一套值得置于案头反复品读的雅致礼物。",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift02",
 		pay_id = 0,
@@ -10490,8 +10574,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "鲜花束",
-		desc = "一束新鲜采摘的缤纷花礼，洋溢着的自然生机能带去一整日的美好。",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift03",
 		pay_id = 0,
@@ -10531,8 +10615,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "仪式剑",
-		desc = "利落的线条流转着金属的冷辉，这柄礼仪佩剑无声地诉说着秩序与庄严。",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift04",
 		pay_id = 0,
@@ -10572,8 +10656,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "绒绒玩偶",
-		desc = "一个蓬松柔软的可爱玩偶。拥抱它，就能收获一份毛茸茸的温暖。",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift05",
 		pay_id = 0,
@@ -10613,8 +10697,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "古董摆件",
-		desc = "时光在此沉淀，化作一件雅致的摆设，无声地为空间增添一抹宁静隽永的韵味。",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift06",
 		pay_id = 0,
@@ -10654,8 +10738,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "精致首饰",
-		desc = "闪耀却不张扬，以细腻工艺承载心意，点亮日常的每一个微小瞬间。",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift07",
 		pay_id = 0,
@@ -10695,8 +10779,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "高档香水",
-		desc = "简约瓶身内蕴藏着清新怡人的气息，别致的香氛是品味与格调的优雅注解。",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift08",
 		pay_id = 0,
@@ -10736,8 +10820,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 4,
 		unlock = "",
-		goods_name = "游戏机套组",
-		desc = "一套完备的休闲娱乐组合。包含了享受简单乐趣所需的大部分内容，是一份体贴的闲暇赠礼。",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
 		pt_award = 300,
 		icon = "IslandGoodsIcon/gift09",
 		pay_id = 0,
@@ -10770,6 +10854,3083 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[10401] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "喵語隨身鏡",
+		desc = "購買可獲得角色「喵語隨身鏡」漂浮物裝扮",
+		pt_award = 1000,
+		icon = "IslandDressIcon/dress_2020009",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10401,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				46,
+				2020009,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10402] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "貓爪唇膏",
+		desc = "購買可獲得角色「貓爪唇膏」背部裝扮",
+		pt_award = 1000,
+		icon = "IslandDressIcon/dress_2010007",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10402,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				46,
+				2010007,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10403] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "心動唇印",
+		desc = "購買可獲得角色「心動唇印」腳印裝扮",
+		pt_award = 1000,
+		icon = "IslandDressIcon/dress_2030010",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10403,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				46,
+				2030010,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10404] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "前指",
+		desc = "自然流暢的前指，生動形象地表達情感與態度。",
+		pt_award = 500,
+		icon = "IslandActionIcon/point",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10404,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1025,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10405] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "迎賓",
+		desc = "自然流暢的迎賓，生動形象地表達情感與態度。",
+		pt_award = 500,
+		icon = "IslandActionIcon/welcome",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10405,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1026,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10406] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "審視",
+		desc = "自然流暢的審視，生動形象地表達情感與態度。",
+		pt_award = 500,
+		icon = "IslandActionIcon/lookover",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10406,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1027,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10407] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "拍肚皮",
+		desc = "自然流暢的拍肚皮，生動形象地表達情感與態度。",
+		pt_award = 500,
+		icon = "IslandActionIcon/slapbelly",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10407,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1028,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10408] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "貝爾法斯特島嶼許可權認證函",
+		desc = "貝爾法斯特的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
+		pt_award = 20000,
+		icon = "IslandProps/item_200034",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10408,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200000
+		},
+		items = {
+			{
+				44,
+				20212,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10409] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "星彩券",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10409,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				8,
+				170006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10410] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "小麥",
+		desc = "剛收穫不久的新鮮小麥，製作麵粉的重要原料。",
+		pt_award = 20,
+		icon = "IslandProps/item_2000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10410,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2000,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10411] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "玉米",
+		desc = "金黃飽滿的玉米，散發著田野的清甜氣息。",
+		pt_award = 20,
+		icon = "IslandProps/item_2001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10411,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2001,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10412] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "牧草",
+		desc = "高品質牧草，讓牧場充滿生機！",
+		pt_award = 20,
+		icon = "IslandProps/item_2008",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10412,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2008,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10413] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "大米",
+		desc = "清白色的優質大米，含有豐富的澱粉和穀物蛋白。",
+		pt_award = 20,
+		icon = "IslandProps/item_2002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10413,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2002,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10414] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "白菜",
+		desc = "清脆可口的白菜，新鮮直採！",
+		pt_award = 20,
+		icon = "IslandProps/item_2003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10414,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2003,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10415] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "大豆",
+		desc = "圓潤飽滿，富含蛋白質，除了製作美食之外，也有豐富的工業用途。",
+		pt_award = 20,
+		icon = "IslandProps/item_2006",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10415,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2006,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10416] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "土豆",
+		desc = "蔬菜中的澱粉代表，可以被做成千變萬化的形態。",
+		pt_award = 40,
+		icon = "IslandProps/item_2005",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10416,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			400
+		},
+		items = {
+			{
+				41,
+				2005,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10417] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 25,
+		unlock = "",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10417,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10418] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10418,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10419] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10419,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10420] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10420,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10421] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10421,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10422] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 6,
+		unlock = "",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10422,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10423] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10423,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10424] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "經營指南T1",
+		desc = "一本內容基礎的經營技巧指南。使用後，角色的經營能力將少量提升。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100011",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10424,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100011,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10425] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "種植指南T1",
+		desc = "一本內容基礎的種植技巧指南。使用後，角色的種植能力將少量提升。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100021",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10425,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100021,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10426] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "製造指南T1",
+		desc = "一本內容基礎的製造技巧指南。使用後，角色的製造能力將少量提升。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100031",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10426,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100031,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10427] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "採集指南T1",
+		desc = "一本內容基礎的採集技巧指南。使用後，角色的採集能力將少量提升。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100041",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10427,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100041,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10428] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "養護指南T1",
+		desc = "一本內容基礎的養護技巧指南。使用後，角色的養護能力將少量提升。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100051",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10428,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100051,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10429] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "烹調指南T1",
+		desc = "一本內容基礎的烹調技巧指南。使用後，角色的烹調能力將少量提升。",
+		pt_award = 1000,
+		icon = "IslandProps/item_100061",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10429,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100061,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10430] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "經營指南T2",
+		desc = "一本內容詳細的經營技巧指南。使用後，角色的經營能力將中幅提升。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100012",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10430,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100012,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10431] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "種植指南T2",
+		desc = "一本內容詳細的種植技巧指南。使用後，角色的種植能力將中幅提升。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100022",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10431,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100022,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10432] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "製造指南T2",
+		desc = "一本內容詳細的製造技巧指南。使用後，角色的製造能力將中幅提升。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100032",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10432,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100032,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10433] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "採集指南T2",
+		desc = "一本內容詳細的採集技巧指南。使用後，角色的採集能力將中幅提升。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100042",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10433,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100042,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10434] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "養護指南T2",
+		desc = "一本內容詳細的養護技巧指南。使用後，角色的養護能力將中幅提升。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100052",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10434,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100052,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10435] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "烹調指南T2",
+		desc = "一本內容詳細的烹調技巧指南。使用後，角色的烹調能力將中幅提升。",
+		pt_award = 4000,
+		icon = "IslandProps/item_100062",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10435,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100062,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10436] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10436,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10437] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10437,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10438] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10438,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10439] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10439,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10440] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10440,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10441] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10441,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10442] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10442,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10443] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10443,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10444] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "星彩券",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10444,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				8,
+				170006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10445] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 25,
+		unlock = "",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10445,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10446] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10446,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.island_shop_goods[10447] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10447,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10448] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10448,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10449] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10449,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10450] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 8,
+		unlock = "",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10450,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10451] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 3,
+		unlock = "",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10451,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10452] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10452,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10453] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10453,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10454] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10454,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10455] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10455,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10456] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10456,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10457] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10457,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10458] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10458,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10459] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10459,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10460] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "星彩券",
+		desc = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。 ",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10460,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				8,
+				170006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10461] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 50,
+		unlock = "",
+		goods_name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10461,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10462] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 15,
+		unlock = "",
+		goods_name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10462,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10463] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10463,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10464] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10464,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10465] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10465,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10466] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10466,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10467] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10467,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10468] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "精裝書",
+		desc = "散發著油墨與時光的沉穩香氣，一套值得置於案頭反覆品讀的雅緻禮物。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10468,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10469] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "鮮花束",
+		desc = "一束新鮮採摘的繽紛花禮，洋溢著的自然生機能帶去一整日的美好。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10469,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10470] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "儀式劍",
+		desc = "利落的線條流轉著金屬的冷輝，這柄禮儀佩劍無聲地訴說著秩序與莊嚴。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10470,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10471] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "絨絨玩偶",
+		desc = "一個蓬鬆柔軟的可愛玩偶。擁抱它，就能收穫一份毛茸茸的溫暖。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10471,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10472] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "古董擺件",
+		desc = "時光在此沉澱，化作一件雅緻的擺設，無聲地為空間增添一抹寧靜雋永的韻味。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10472,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10473] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "精緻首飾",
+		desc = "閃耀卻不張揚，以細膩工藝承載心意，點亮日常的每一個微小瞬間。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10473,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10474] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "高檔香水",
+		desc = "簡約瓶身內蘊藏著清新怡人的氣息，別緻的香氛是品味與格調的優雅註解。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10474,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10475] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "遊戲機套組",
+		desc = "一套完備的休閒娛樂組合。包含了享受簡單樂趣所需的大部分內容，是一份體貼的閒暇贈禮。",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10475,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	}
 	pg.base.island_shop_goods[103000] = {
 		goods_have = 0,
 		items_model = "",
@@ -10777,8 +13938,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "咯咯鸡饲料",
-		desc = "用小麦加工而成的咯咯鸡饲料",
+		goods_name = "咯咯雞飼料",
+		desc = "用小麥加工而成的咯咯雞飼料",
 		pt_award = 0,
 		icon = "IslandProps/item_3000",
 		pay_id = 0,
@@ -10818,8 +13979,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "哼哼猪饲料",
-		desc = "用玉米加工而成的哼哼猪饲料",
+		goods_name = "哼哼豬飼料",
+		desc = "用玉米加工而成的哼哼豬飼料",
 		pt_award = 0,
 		icon = "IslandProps/item_3001",
 		pay_id = 0,
@@ -10859,8 +14020,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "哞哞牛饲料",
-		desc = "用牧草加工而成的哞哞牛饲料",
+		goods_name = "哞哞牛飼料",
+		desc = "用牧草加工而成的哞哞牛飼料",
 		pt_award = 0,
 		icon = "IslandProps/item_3002",
 		pay_id = 0,
@@ -10900,8 +14061,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "咩咩羊饲料",
-		desc = "用牧草加工而成的咩咩羊饲料",
+		goods_name = "咩咩羊飼料",
+		desc = "用牧草加工而成的咩咩羊飼料",
 		pt_award = 0,
 		icon = "IslandProps/item_3003",
 		pay_id = 0,
@@ -10941,8 +14102,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "面粉",
-		desc = "用小麦加工而成的面粉",
+		goods_name = "麵粉",
+		desc = "用小麥加工而成的麵粉",
 		pt_award = 0,
 		icon = "IslandProps/item_3004",
 		pay_id = 0,
@@ -10983,7 +14144,7 @@ end)()
 		limited_num = 1,
 		unlock = "",
 		goods_name = "蚯蚓",
-		desc = "模拟蚯蚓的假饵，其逼真的造型容易吸引鱼类上钩。",
+		desc = "模擬蚯蚓的假餌，其逼真的造型容易吸引魚類上鉤。",
 		pt_award = 0,
 		icon = "IslandProps/item_1500",
 		pay_id = 0,
@@ -11023,8 +14184,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "虾仁",
-		desc = "精心制作的模拟虾仁假饵。",
+		goods_name = "蝦仁",
+		desc = "精心製作的模擬蝦仁假餌。",
 		pt_award = 0,
 		icon = "IslandProps/item_1502",
 		pay_id = 0,
@@ -11064,8 +14225,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "章鱼须",
-		desc = "造型独特的仿真章鱼须假饵。",
+		goods_name = "章魚須",
+		desc = "造型獨特的模擬章魚須假餌。",
 		pt_award = 0,
 		icon = "IslandProps/item_1503",
 		pay_id = 0,
@@ -11104,8 +14265,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "贝苗",
-		desc = "双壳类生物幼苗，成长稳定，培育技术成熟。",
+		goods_name = "貝苗",
+		desc = "雙殼類生物幼苗，成長穩定，培育技術成熟。",
 		pt_award = 0,
 		icon = "IslandProps/item_1101",
 		pay_id = 0,
@@ -11147,8 +14308,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "鲶鱼苗",
-		desc = "底栖淡水鱼苗，耐低氧环境，适宜在静水泥底池中高密度养殖。",
+		goods_name = "鯰魚苗",
+		desc = "底棲淡水魚苗，耐低氧環境，適宜在靜水泥底池中高密度養殖。",
 		pt_award = 0,
 		icon = "IslandProps/item_1102",
 		pay_id = 0,
@@ -11190,8 +14351,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "鲤鱼苗",
-		desc = "淡水杂食性鱼苗，适应性强，可在多种水质条件下稳定生长。",
+		goods_name = "鯉魚苗",
+		desc = "淡水雜食性魚苗，適應性強，可在多種水質條件下穩定生長。",
 		pt_award = 0,
 		icon = "IslandProps/item_1103",
 		pay_id = 0,
@@ -11233,8 +14394,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "鲫鱼苗",
-		desc = "小型淡水鱼苗，主食藻类和有机碎屑，有助于维持水体生态平衡。",
+		goods_name = "鯽魚苗",
+		desc = "小型淡水魚苗，主食藻類和有機碎屑，有助於維持水體生態平衡。",
 		pt_award = 0,
 		icon = "IslandProps/item_1104",
 		pay_id = 0,
@@ -11276,8 +14437,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "小河虾苗",
-		desc = "淡水虾类幼体，可作为水体清洁者，喜食残饵与部分藻类。",
+		goods_name = "小河蝦苗",
+		desc = "淡水蝦類幼體，可作為水體清潔者，喜食殘餌與部分藻類。",
 		pt_award = 0,
 		icon = "IslandProps/item_1105",
 		pay_id = 0,
@@ -11319,8 +14480,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "小龙虾苗",
-		desc = "甲壳类幼体，生长过程中甲壳会逐渐变红变硬，其成体是热门水产品。",
+		goods_name = "小龍蝦苗",
+		desc = "甲殼類幼體，生長過程中甲殼會逐漸變紅變硬，其成體是熱門水產品。",
 		pt_award = 0,
 		icon = "IslandProps/item_1106",
 		pay_id = 0,
@@ -11362,8 +14523,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "鲈鱼苗",
-		desc = "肉食性鱼苗，肉质鲜嫩，经培育后可获得上乘的食用鱼类。",
+		goods_name = "鱸魚苗",
+		desc = "肉食性魚苗，肉質鮮嫩，經培育後可獲得上乘的食用魚類。",
 		pt_award = 0,
 		icon = "IslandProps/item_1107",
 		pay_id = 0,
@@ -11406,7 +14567,7 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		goods_name = "蟹苗",
-		desc = "蜕壳频繁的蟹幼体，需在水质清新的环境中培育。",
+		desc = "蛻殼頻繁的蟹幼體，需在水質清新的環境中培育。",
 		pt_award = 0,
 		icon = "IslandProps/item_1108",
 		pay_id = 0,
@@ -11448,8 +14609,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "鱿鱼苗",
-		desc = "头足类幼体，成长过程需多次形态变化，最终产出弹滑的肉质。",
+		goods_name = "魷魚苗",
+		desc = "頭足類幼體，成長過程需多次形態變化，最終產出彈滑的肉質。",
 		pt_award = 0,
 		icon = "IslandProps/item_1201",
 		pay_id = 0,
@@ -11491,8 +14652,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "马鲛鱼苗",
-		desc = "肉食性鱼苗，活跃于中上层水域，具有良好成长性。",
+		goods_name = "馬鮫魚苗",
+		desc = "肉食性魚苗，活躍於中上層水域，具有良好成長性。",
 		pt_award = 0,
 		icon = "IslandProps/item_1202",
 		pay_id = 0,
@@ -11534,8 +14695,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "金枪鱼苗",
-		desc = "大型远洋鱼类幼苗，体型增长明显，需要在持续供氧的水域生长。",
+		goods_name = "金槍魚苗",
+		desc = "大型遠洋魚類幼苗，體型增長明顯，需要在持續供氧的水域生長。",
 		pt_award = 0,
 		icon = "IslandProps/item_1203",
 		pay_id = 0,
@@ -11577,8 +14738,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "三文鱼苗",
-		desc = "洄游性鱼类幼体，适宜水温较低的水域，需要耐心照料方能收获丰美鱼肉。",
+		goods_name = "三文魚苗",
+		desc = "洄游性魚類幼體，適宜水溫較低的水域，需要耐心照料方能收穫豐美魚肉。",
 		pt_award = 0,
 		icon = "IslandProps/item_1204",
 		pay_id = 0,
@@ -11620,8 +14781,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "红鲷鱼苗",
-		desc = "暖水性海水鱼苗，成长后体色鲜艳，具有较高观赏性。",
+		goods_name = "紅鯛魚苗",
+		desc = "暖水性海水魚苗，成長後體色鮮豔，具有較高觀賞性。",
 		pt_award = 0,
 		icon = "IslandProps/item_1205",
 		pay_id = 0,
@@ -11663,8 +14824,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "黑鲷鱼苗",
-		desc = "礁区鱼类幼苗，体质强健，培育成功率较高。",
+		goods_name = "黑鯛魚苗",
+		desc = "礁區魚類幼苗，體質強健，培育成功率較高。",
 		pt_award = 0,
 		icon = "IslandProps/item_1206",
 		pay_id = 0,
@@ -11706,8 +14867,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "黄鳍金枪鱼苗",
-		desc = "高价值品种鱼苗，水下游动速度快，对水体溶氧量要求严苛。",
+		goods_name = "黃鰭金槍魚苗",
+		desc = "高價值品種魚苗，水下游動速度快，對水體溶氧量要求嚴苛。",
 		pt_award = 0,
 		icon = "IslandProps/item_1207",
 		pay_id = 0,
@@ -11749,8 +14910,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "海参苗",
-		desc = "底栖棘皮动物幼体，以沉积有机物为食，能有效净化养殖池底层。",
+		goods_name = "海參苗",
+		desc = "底棲棘皮動物幼體，以沉積有機物為食，能有效淨化養殖池底層。",
 		pt_award = 0,
 		icon = "IslandProps/item_1208",
 		pay_id = 0,
@@ -11793,8 +14954,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "小麦种子",
-		desc = "购买可获得小麦种子",
+		goods_name = "小麥種子",
+		desc = "購買可獲得小麥種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1000",
 		pay_id = 0,
@@ -11833,8 +14994,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "玉米种子",
-		desc = "购买可获得玉米种子",
+		goods_name = "玉米種子",
+		desc = "購買可獲得玉米種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1001",
 		pay_id = 0,
@@ -11876,8 +15037,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "旱稻种子",
-		desc = "购买可获得旱稻种子",
+		goods_name = "旱稻種子",
+		desc = "購買可獲得旱稻種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1002",
 		pay_id = 0,
@@ -11919,8 +15080,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "白菜种子",
-		desc = "购买可获得白菜种子",
+		goods_name = "白菜種子",
+		desc = "購買可獲得白菜種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1003",
 		pay_id = 0,
@@ -11962,8 +15123,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "胡萝卜种子",
-		desc = "购买可获得胡萝卜种子",
+		goods_name = "胡蘿蔔種子",
+		desc = "購買可獲得胡蘿蔔種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1004",
 		pay_id = 0,
@@ -12005,8 +15166,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "土豆种子",
-		desc = "购买可获得土豆种子",
+		goods_name = "土豆種子",
+		desc = "購買可獲得土豆種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1005",
 		pay_id = 0,
@@ -12048,8 +15209,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "大豆种子",
-		desc = "购买可获得大豆种子",
+		goods_name = "大豆種子",
+		desc = "購買可獲得大豆種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1006",
 		pay_id = 0,
@@ -12091,8 +15252,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "洋葱种子",
-		desc = "购买可获得洋葱种子",
+		goods_name = "洋蔥種子",
+		desc = "購買可獲得洋蔥種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1007",
 		pay_id = 0,
@@ -12134,8 +15295,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "牧草种子",
-		desc = "购买可获得牧草种子",
+		goods_name = "牧草種子",
+		desc = "購買可獲得牧草種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1008",
 		pay_id = 0,
@@ -12177,8 +15338,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "咖啡树种",
-		desc = "购买可获得咖啡树种",
+		goods_name = "咖啡樹種",
+		desc = "購買可獲得咖啡樹種",
 		pt_award = 0,
 		icon = "IslandProps/item_1009",
 		pay_id = 0,
@@ -12221,8 +15382,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "亚麻种子",
-		desc = "购买可获得亚麻种子",
+		goods_name = "亞麻種子",
+		desc = "購買可獲得亞麻種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1010",
 		pay_id = 0,
@@ -12261,8 +15422,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "草莓种子",
-		desc = "购买可获得草莓种子",
+		goods_name = "草莓種子",
+		desc = "購買可獲得草莓種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1011",
 		pay_id = 0,
@@ -12304,8 +15465,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "棉花种子",
-		desc = "购买可获得棉花种子",
+		goods_name = "棉花種子",
+		desc = "購買可獲得棉花種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1012",
 		pay_id = 0,
@@ -12347,8 +15508,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "茶树种子",
-		desc = "购买可获得茶树种子",
+		goods_name = "茶樹種子",
+		desc = "購買可獲得茶樹種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1014",
 		pay_id = 0,
@@ -12390,8 +15551,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "薰衣草种子",
-		desc = "购买可获得薰衣草种子",
+		goods_name = "薰衣草種子",
+		desc = "購買可獲得薰衣草種子",
 		pt_award = 0,
 		icon = "IslandProps/item_1015",
 		pay_id = 0,
@@ -12433,8 +15594,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "苹果树种",
-		desc = "购买可获得苹果树种",
+		goods_name = "蘋果樹種",
+		desc = "購買可獲得蘋果樹種",
 		pt_award = 0,
 		icon = "IslandProps/item_1016",
 		pay_id = 0,
@@ -12476,8 +15637,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "柑橘树种",
-		desc = "购买可获得柑橘树种",
+		goods_name = "柑橘樹種",
+		desc = "購買可獲得柑橘樹種",
 		pt_award = 0,
 		icon = "IslandProps/item_1017",
 		pay_id = 0,
@@ -12519,8 +15680,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "香蕉树种",
-		desc = "购买可获得香蕉树种",
+		goods_name = "香蕉樹種",
+		desc = "購買可獲得香蕉樹種",
 		pt_award = 0,
 		icon = "IslandProps/item_1018",
 		pay_id = 0,
@@ -12562,8 +15723,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "芒果树种",
-		desc = "购买可获得芒果树种",
+		goods_name = "芒果樹種",
+		desc = "購買可獲得芒果樹種",
 		pt_award = 0,
 		icon = "IslandProps/item_1019",
 		pay_id = 0,
@@ -12605,8 +15766,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "柠檬树种",
-		desc = "购买可获得柠檬树种",
+		goods_name = "檸檬樹種",
+		desc = "購買可獲得檸檬樹種",
 		pt_award = 0,
 		icon = "IslandProps/item_1020",
 		pay_id = 0,
@@ -12648,8 +15809,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "牛油果树种",
-		desc = "购买可获得牛油果树种",
+		goods_name = "牛油果樹種",
+		desc = "購買可獲得牛油果樹種",
 		pt_award = 0,
 		icon = "IslandProps/item_1021",
 		pay_id = 0,
@@ -12691,8 +15852,8 @@ end)()
 		goods_detail_type = 1,
 		groups_detail_type = "",
 		limited_num = 0,
-		goods_name = "橡胶树种",
-		desc = "购买可获得橡胶树种",
+		goods_name = "橡膠樹種",
+		desc = "購買可獲得橡膠樹種",
 		pt_award = 0,
 		icon = "IslandProps/item_1022",
 		pay_id = 0,
@@ -12728,8 +15889,6 @@ end)()
 			3501007
 		}
 	}
-end)()
-(function ()
 	pg.base.island_shop_goods[411023] = {
 		goods_have = 0,
 		items_model = "",
@@ -12737,8 +15896,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "秋月梨树种",
-		desc = "购买可获得秋月梨树种",
+		goods_name = "秋月梨樹種",
+		desc = "購買可獲得秋月梨樹種",
 		pt_award = 0,
 		icon = "IslandProps/item_4006",
 		pay_id = 0,
@@ -12772,20 +15931,20 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					25
+					2026,
+					8,
+					6
 				},
 				{
+					12,
 					0,
-					0,
-					0
+					1
 				}
 			},
 			{
 				{
 					2026,
-					2,
+					11,
 					5
 				},
 				{
@@ -12803,8 +15962,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "柿子树种",
-		desc = "购买可获得柿子树种",
+		goods_name = "柿子樹種",
+		desc = "購買可獲得柿子樹種",
 		pt_award = 0,
 		icon = "IslandProps/item_4008",
 		pay_id = 0,
@@ -12838,20 +15997,20 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					9,
-					25
+					2026,
+					8,
+					6
 				},
 				{
+					12,
 					0,
-					0,
-					0
+					1
 				}
 			},
 			{
 				{
 					2026,
-					2,
+					11,
 					5
 				},
 				{
@@ -12869,8 +16028,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "芦笋种子",
-		desc = "购买可获得芦笋种子",
+		goods_name = "蘆筍種子",
+		desc = "購買可獲得蘆筍種子",
 		pt_award = 0,
 		icon = "IslandProps/item_4020",
 		pay_id = 0,
@@ -12935,8 +16094,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "凤梨种子",
-		desc = "购买可获得凤梨种子",
+		goods_name = "鳳梨種子",
+		desc = "購買可獲得鳳梨種子",
 		pt_award = 0,
 		icon = "IslandProps/item_4022",
 		pay_id = 0,
@@ -13001,8 +16160,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "番茄种子",
-		desc = "购买可获得番茄种子",
+		goods_name = "番茄種子",
+		desc = "購買可獲得番茄種子",
 		pt_award = 0,
 		icon = "IslandProps/item_4034",
 		pay_id = 0,
@@ -13067,8 +16226,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "黄瓜种子",
-		desc = "购买可获得黄瓜种子",
+		goods_name = "黃瓜種子",
+		desc = "購買可獲得黃瓜種子",
 		pt_award = 0,
 		icon = "IslandProps/item_4036",
 		pay_id = 0,
@@ -13133,8 +16292,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 0,
 		unlock = "",
-		goods_name = "装扮染色盘",
-		desc = "购买可获得装扮染色盘",
+		goods_name = "裝扮染色盤",
+		desc = "購買可獲得裝扮染色盤",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/3",
 		pay_id = 0,
@@ -13174,8 +16333,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "镇海岛屿权限认证函",
-		desc = "镇海的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		goods_name = "鎮海島嶼許可權認證函",
+		desc = "鎮海的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		pt_award = 0,
 		icon = "IslandProps/item_200017",
 		pay_id = 0,
@@ -13215,8 +16374,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "拉菲岛屿权限认证函",
-		desc = "拉菲的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		goods_name = "拉菲島嶼許可權認證函",
+		desc = "拉菲的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		pt_award = 0,
 		icon = "IslandProps/item_200025",
 		pay_id = 0,
@@ -13249,6 +16408,47 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[412003] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "皇家幸運號嶼許可權認證函",
+		desc = "皇家幸運號的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
+		pt_award = 0,
+		icon = "IslandProps/item_200033",
+		pay_id = 0,
+		time = "always",
+		remian_show = 0,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 412003,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			500000
+		},
+		items = {
+			{
+				44,
+				960001,
+				1
+			}
+		}
+	}
 	pg.base.island_shop_goods[4600001] = {
 		goods_have = 0,
 		items_model = "",
@@ -13256,8 +16456,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "棉花糖云",
-		desc = "购买可获得角色“棉花糖云”漂浮物装扮",
+		goods_name = "棉花糖雲",
+		desc = "購買可獲得角色「棉花糖雲」漂浮物裝扮",
 		pt_award = 0,
 		icon = "IslandDressIcon/dress_2020001",
 		pay_id = 0,
@@ -13297,8 +16497,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "风见落樱",
-		desc = "购买可获得角色“风见落樱”脚印装扮",
+		goods_name = "風見落櫻",
+		desc = "購買可獲得角色「風見落櫻」腳印裝扮",
 		pt_award = 0,
 		icon = "IslandDressIcon/dress_2030004",
 		pay_id = 0,
@@ -13339,7 +16539,7 @@ end)()
 		limited_num = 1,
 		unlock = "",
 		goods_name = "火箭造型包",
-		desc = "购买可获得角色“火箭造型包”背饰装扮",
+		desc = "購買可獲得角色「火箭造型包」背飾裝扮",
 		pt_award = 0,
 		icon = "IslandDressIcon/dress_2010001",
 		pay_id = 0,
@@ -13379,8 +16579,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "梦幻泡影",
-		desc = "购买可获得角色“梦幻泡影”漂浮物装扮",
+		goods_name = "夢幻泡影",
+		desc = "購買可獲得角色「夢幻泡影」漂浮物裝扮",
 		pt_award = 0,
 		icon = "IslandDressIcon/dress_2020004",
 		pay_id = 0,
@@ -13420,8 +16620,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "游鱼踪影",
-		desc = "购买可获得角色“游鱼踪影”脚印装扮",
+		goods_name = "游魚蹤影",
+		desc = "購買可獲得角色「游魚蹤影」腳印裝扮",
 		pt_award = 0,
 		icon = "IslandDressIcon/dress_2030005",
 		pay_id = 0,
@@ -13461,8 +16661,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "渔趣满载",
-		desc = "购买可获得角色“渔趣满载”背饰装扮",
+		goods_name = "漁趣滿載",
+		desc = "購買可獲得角色「漁趣滿載」背飾裝扮",
 		pt_award = 0,
 		icon = "IslandDressIcon/dress_2010003",
 		pay_id = 0,
@@ -13503,7 +16703,7 @@ end)()
 		limited_num = 1,
 		unlock = "",
 		goods_name = "夏日冰棒",
-		desc = "购买可获得角色“夏日冰棒”漂浮物装扮",
+		desc = "購買可獲得角色「夏日冰棒」漂浮物裝扮",
 		pt_award = 0,
 		icon = "IslandDressIcon/dress_2020007",
 		pay_id = 0,
@@ -13543,8 +16743,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "水果气泡",
-		desc = "购买可获得角色“水果气泡”脚印装扮",
+		goods_name = "水果氣泡",
+		desc = "購買可獲得角色「水果氣泡」腳印裝扮",
 		pt_award = 0,
 		icon = "IslandDressIcon/dress_2030008",
 		pay_id = 0,
@@ -13584,8 +16784,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "清凉刨冰碗",
-		desc = "购买可获得角色“清凉刨冰碗”背饰装扮",
+		goods_name = "清涼刨冰碗",
+		desc = "購買可獲得角色「清涼刨冰碗」背飾裝扮",
 		pt_award = 0,
 		icon = "IslandDressIcon/dress_2010006",
 		pay_id = 0,
@@ -13618,6 +16818,129 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[4620008] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "絨羽逗貓棒",
+		desc = "購買可獲得角色「絨羽逗貓棒」漂浮物裝扮",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2020008",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4620008,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2020008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[4630009] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "萌萌貓爪",
+		desc = "購買可獲得角色「萌萌貓爪」腳印裝扮",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2030009",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4630009,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2030009,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[4610008] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "蓬鬆貓尾",
+		desc = "購買可獲得角色「蓬鬆貓尾」背飾裝扮",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2010008",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4610008,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2010008,
+				1
+			}
+		}
+	}
 	pg.base.island_shop_goods[5010001] = {
 		goods_have = 0,
 		items_model = "",
@@ -13625,8 +16948,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 100,
 		unlock = "",
-		goods_name = "1分钟加速券（开发季）",
-		desc = "使用后，能加速1分钟的时间，让发展快人一步。",
+		goods_name = "1分鐘加速券（開發季）",
+		desc = "使用後，能加速1分鐘的時間，讓發展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket1",
 		pay_id = 0,
@@ -13691,8 +17014,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 30,
 		unlock = "",
-		goods_name = "10分钟加速券（开发季）",
-		desc = "使用后，能加速10分钟的时间，让发展快人一步。",
+		goods_name = "10分鐘加速券（開發季）",
+		desc = "使用後，能加速10分鐘的時間，讓發展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket2",
 		pay_id = 0,
@@ -13757,8 +17080,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "60分钟加速券（开发季）",
-		desc = "使用后，能加速60分钟的时间，让发展快人一步。",
+		goods_name = "60分鐘加速券（開發季）",
+		desc = "使用後，能加速60分鐘的時間，讓發展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket3",
 		pay_id = 0,
@@ -13816,6 +17139,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_shop_goods[5010002] = {
 		goods_have = 0,
 		items_model = "",
@@ -13823,8 +17148,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 100,
 		unlock = "",
-		goods_name = "1分钟加速券（开发季）",
-		desc = "使用后，能加速1分钟的时间，让发展快人一步。",
+		goods_name = "1分鐘加速券（開發季）",
+		desc = "使用後，能加速1分鐘的時間，讓發展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket1",
 		pay_id = 0,
@@ -13889,8 +17214,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 30,
 		unlock = "",
-		goods_name = "10分钟加速券（开发季）",
-		desc = "使用后，能加速10分钟的时间，让发展快人一步。",
+		goods_name = "10分鐘加速券（開發季）",
+		desc = "使用後，能加速10分鐘的時間，讓發展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket2",
 		pay_id = 0,
@@ -13955,8 +17280,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "60分钟加速券（开发季）",
-		desc = "使用后，能加速60分钟的时间，让发展快人一步。",
+		goods_name = "60分鐘加速券（開發季）",
+		desc = "使用後，能加速60分鐘的時間，讓發展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket3",
 		pay_id = 0,
@@ -14021,8 +17346,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 100,
 		unlock = "",
-		goods_name = "1分钟加速券（开发季）",
-		desc = "使用后，能加速1分钟的时间，让发展快人一步。",
+		goods_name = "1分鐘加速券（開發季）",
+		desc = "使用後，能加速1分鐘的時間，讓發展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket1",
 		pay_id = 0,
@@ -14087,8 +17412,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 30,
 		unlock = "",
-		goods_name = "10分钟加速券（开发季）",
-		desc = "使用后，能加速10分钟的时间，让发展快人一步。",
+		goods_name = "10分鐘加速券（開發季）",
+		desc = "使用後，能加速10分鐘的時間，讓發展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket2",
 		pay_id = 0,
@@ -14153,8 +17478,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 10,
 		unlock = "",
-		goods_name = "60分钟加速券（开发季）",
-		desc = "使用后，能加速60分钟的时间，让发展快人一步。",
+		goods_name = "60分鐘加速券（開發季）",
+		desc = "使用後，能加速60分鐘的時間，讓發展快人一步。",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/item_speedup_ticket3",
 		pay_id = 0,
@@ -14212,6 +17537,204 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[5010004] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 100,
+		unlock = "",
+		goods_name = "1分鐘加速券（開發季）",
+		desc = "使用後，能加速1分鐘的時間，讓發展快人一步。",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/item_speedup_ticket1",
+		pay_id = 0,
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 5010004,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			1000
+		},
+		items = {
+			{
+				50,
+				10007,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.island_shop_goods[5020004] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 30,
+		unlock = "",
+		goods_name = "10分鐘加速券（開發季）",
+		desc = "使用後，能加速10分鐘的時間，讓發展快人一步。",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/item_speedup_ticket2",
+		pay_id = 0,
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 5020004,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				50,
+				20007,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.island_shop_goods[5030004] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "60分鐘加速券（開發季）",
+		desc = "使用後，能加速60分鐘的時間，讓發展快人一步。",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/item_speedup_ticket3",
+		pay_id = 0,
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 5030004,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			60000
+		},
+		items = {
+			{
+				50,
+				30007,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
 	pg.base.island_shop_goods[471070301] = {
 		goods_have = 0,
 		items_model = "",
@@ -14219,8 +17742,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "纯真游学日",
-		desc = "购买可获得萨拉托加“纯真游学日”皮肤装扮",
+		goods_name = "純真遊學日",
+		desc = "購買可獲得薩拉托加「純真遊學日」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_1070301",
 		pay_id = 0,
@@ -14260,8 +17783,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "空铃夜褶",
-		desc = "购买可获得{namecode:98}“空铃夜褶”皮肤装扮",
+		goods_name = "空鈴夜褶",
+		desc = "購買可獲得{namecode:98}「空鈴夜褶」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_3120101",
 		pay_id = 0,
@@ -14301,8 +17824,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "轻跃日常",
-		desc = "购买可获得{namecode:199}“轻跃日常”皮肤装扮",
+		goods_name = "輕躍日常",
+		desc = "購買可獲得{namecode:199}「輕躍日常」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_1051701",
 		pay_id = 0,
@@ -14342,12 +17865,12 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "元气满载！",
-		desc = "购买可获得威廉·D·波特“元气满载！”皮肤装扮",
+		goods_name = "元氣滿載！",
+		desc = "購買可獲得威廉·D·波特「元氣滿載！」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_1011001",
 		pay_id = 0,
-		time = "always",
+		time = "stop",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
@@ -14383,8 +17906,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "运筹之暇",
-		desc = "购买可获得镇海“运筹之暇”皮肤装扮",
+		goods_name = "運籌之暇",
+		desc = "購買可獲得鎮海「運籌之暇」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_5060101",
 		pay_id = 0,
@@ -14424,12 +17947,12 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "慵懒献纳",
-		desc = "购买可获得{namecode:427}“慵懒献纳”皮肤装扮",
+		goods_name = "慵懶獻納",
+		desc = "購買可獲得{namecode:427}「慵懶獻納」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_4030301",
 		pay_id = 0,
-		time = "always",
+		time = "stop",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
@@ -14466,7 +17989,7 @@ end)()
 		limited_num = 1,
 		unlock = "",
 		goods_name = "兔兔晚安",
-		desc = "购买可获得拉菲“兔兔晚安”皮肤装扮",
+		desc = "購買可獲得拉菲「兔兔晚安」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_1011701",
 		pay_id = 0,
@@ -14506,12 +18029,12 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "枕头大战",
-		desc = "购买可获得标枪“枕头大战”皮肤装扮",
+		goods_name = "枕頭大戰",
+		desc = "購買可獲得標槍「枕頭大戰」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_2012101",
 		pay_id = 0,
-		time = "always",
+		time = "stop",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
@@ -14547,8 +18070,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "素心夜话",
-		desc = "购买可获得{namecode:66}“素心夜话”皮肤装扮",
+		goods_name = "素心夜話",
+		desc = "購買可獲得{namecode:66}「素心夜話」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_3031101",
 		pay_id = 0,
@@ -14581,6 +18104,88 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[472021201] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "午後書頁",
+		desc = "購買可獲得貝爾法斯特「午後書頁」皮膚裝扮",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_2021201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 472021201,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			900
+		},
+		items = {
+			{
+				47,
+				2021201,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[479600011] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "學院序曲",
+		desc = "購買可獲得皇家幸運號「學院序曲」皮膚裝扮",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_96000101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 479600011,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			900
+		},
+		items = {
+			{
+				47,
+				96000101,
+				1
+			}
+		}
+	}
 	pg.base.island_shop_goods[99000101] = {
 		goods_have = 0,
 		items_model = "",
@@ -14588,12 +18193,12 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "元气上学路",
-		desc = "购买可获得领洋者-娜比娅“元气上学路”皮肤装扮",
+		goods_name = "元氣上學路",
+		desc = "購買可獲得領洋者-娜比婭「元氣上學路」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_99000101",
 		pay_id = 0,
-		time = "always",
+		time = "stop",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
@@ -14629,12 +18234,12 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "优等生气场",
-		desc = "购买可获得领洋者-娜比娅“优等生气场”皮肤装扮",
+		goods_name = "優等生氣場",
+		desc = "購買可獲得領洋者-娜比婭「優等生氣場」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_99000102",
 		pay_id = 0,
-		time = "always",
+		time = "stop",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
@@ -14670,12 +18275,12 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "懵懂时光",
-		desc = "购买可获得领航员-TB“懵懂时光”皮肤装扮",
+		goods_name = "懵懂時光",
+		desc = "購買可獲得領航員-TB「懵懂時光」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_99000201",
 		pay_id = 0,
-		time = "always",
+		time = "stop",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
@@ -14711,12 +18316,12 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "见习观察员",
-		desc = "购买可获得领航员-TB“见习观察员”皮肤装扮",
+		goods_name = "見習觀察員",
+		desc = "購買可獲得領航員-TB「見習觀察員」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_99000202",
 		pay_id = 0,
-		time = "always",
+		time = "stop",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
@@ -14752,12 +18357,12 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "纯白低语",
-		desc = "购买可获得探索者-艾普洛“纯白低语”皮肤装扮",
+		goods_name = "純白低語",
+		desc = "購買可獲得探索者-艾普洛「純白低語」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_99000301",
 		pay_id = 0,
-		time = "always",
+		time = "stop",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
@@ -14793,12 +18398,12 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "沉静礼装",
-		desc = "购买可获得探索者-艾普洛“沉静礼装”皮肤装扮",
+		goods_name = "沉靜禮裝",
+		desc = "購買可獲得探索者-艾普洛「沉靜禮裝」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandGoodsIcon/skin_99000302",
 		pay_id = 0,
-		time = "always",
+		time = "stop",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
@@ -14834,11 +18439,12 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "动力装甲",
-		desc = "购买可获得指挥官“动力装甲”皮肤装扮",
+		goods_name = "動力裝甲",
+		desc = "購買可獲得指揮官「動力裝甲」皮膚裝扮",
 		pt_award = 0,
 		icon = "IslandDressIcon/dress_1060015",
 		pay_id = 0,
+		time = "stop",
 		remian_show = 1,
 		have_show = 1,
 		discount = 0,
@@ -14874,32 +18480,6 @@ end)()
 				46,
 				1070015,
 				1
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					6,
-					5
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					6,
-					18
-				},
-				{
-					12,
-					0,
-					0
-				}
 			}
 		}
 	}

@@ -81,9 +81,15 @@ pg.island_unit_character.all = {
 	1070300,
 	1070301,
 	1070302,
+	1990300,
+	1990301,
+	1990302,
 	2012100,
 	2012101,
 	2012102,
+	2021200,
+	2021201,
+	2021202,
 	2060300,
 	2060301,
 	2060302,
@@ -120,6 +126,9 @@ pg.island_unit_character.all = {
 	5010700,
 	5010701,
 	5010702,
+	5010800,
+	5010801,
+	5010802,
 	5020100,
 	5020101,
 	5020102,
@@ -130,7 +139,13 @@ pg.island_unit_character.all = {
 	5060102,
 	6080200,
 	7010400,
+	9010700,
+	9010701,
+	9010702,
 	9011100,
+	96000100,
+	96000101,
+	96000102,
 	99000100,
 	99000101,
 	99000102,
@@ -163,9 +178,9 @@ pg.base.island_unit_character = {}
 		personality = 0
 	}
 	pg.base.island_unit_character[100100] = {
-		describe_illustrated_guid = "我是奥林匹克，嗯……现在负责看管这座岛上的磨坊……\n这里总是弥漫着面粉的香气，伴着风车转动的节奏声……让人忍不住打起盹来……需要面粉的话……带小麦来找我就好……Zzzz",
+		describe_illustrated_guid = "我是奧林匹克，嗯……現在負責看管這座島上的磨坊……\n這裡總是瀰漫著麵粉的香氣，伴著風車轉動的節奏聲……讓人忍不住打起盹來……需要麵粉的話……帶小麥來找我就好……Zzzz",
 		english_name = "R.M.S. Olympic",
-		name = "奥林匹克",
+		name = "奧林匹克",
 		rendering = "100100",
 		group = 1001,
 		animator = "island/animator/ani_role_all_01_02",
@@ -180,7 +195,7 @@ pg.base.island_unit_character = {}
 		personality = 2
 	}
 	pg.base.island_unit_character[100200] = {
-		describe_illustrated_guid = "指挥官～我是帕特莉，货运中心的管理员。\n港口的订单、货船调度和贸易报表都交给我来处理吧～\n帕特莉保证让开发区的资材像海风一样快速流通！",
+		describe_illustrated_guid = "指揮官～我是帕特莉，貨運中心的管理員。\n港口的訂單、貨船排程和貿易報表都交給我來處理吧～\n帕特莉保證讓開發區的資材像海風一樣快速流通！",
 		english_name = "SS Patrick Henry",
 		name = "帕特莉",
 		rendering = "100200",
@@ -197,7 +212,7 @@ pg.base.island_unit_character = {}
 		personality = 2
 	}
 	pg.base.island_unit_character[100300] = {
-		describe_illustrated_guid = "嗨~指挥官！是我斯蒂芬妮呀～\n虽然偶尔会偷偷靠在货箱后面摸会儿鱼~不过不用担心！无论是建材还是作物，只要是你需要的，我一定好好安排！\n下次来港口记得叫我哟～",
+		describe_illustrated_guid = "嗨~指揮官！是我斯蒂芬妮呀～\n雖然偶爾會偷偷靠在貨箱後面摸會兒魚~不過不用擔心！無論是建材還是作物，只要是你需要的，我一定好好安排！\n下次來港口記得叫我喲～",
 		english_name = "SS Stephen Hopkins",
 		name = "斯蒂芬妮",
 		rendering = "100300",
@@ -214,7 +229,7 @@ pg.base.island_unit_character = {}
 		personality = 2
 	}
 	pg.base.island_unit_character[100400] = {
-		describe_illustrated_guid = "指挥官……我是赫莫……农场的种子正在安静地生长，阳光和雨露会一直滋养着它们……而我们只需耐心等待，等待着这片土地的馈赠。",
+		describe_illustrated_guid = "指揮官……我是赫莫……農場的種子正在安靜地生長，陽光和雨露會一直滋養著它們……而我們只需耐心等待，等待著這片土地的饋贈。",
 		english_name = "RMS Homeric",
 		name = "赫莫",
 		rendering = "100400",
@@ -231,7 +246,7 @@ pg.base.island_unit_character = {}
 		personality = 2
 	}
 	pg.base.island_unit_character[100500] = {
-		describe_illustrated_guid = "咩哞哞～岛上充满活力的牧场管理员梅莉——登场！\n现在每天都被毛茸茸的小家伙们包围着，捡鸡蛋、挤牛奶、追着跑丢的小羊羔～这样的日子开心又热闹！指挥官有空也来牧场玩呀！",
+		describe_illustrated_guid = "咩哞哞～島上充滿活力的牧場管理員梅莉——登場！\n現在每天都被毛茸茸的小傢伙們包圍著，撿雞蛋、擠牛奶、追著跑丟的小羊羔～這樣的日子開心又熱鬧！指揮官有空也來牧場玩呀！",
 		english_name = "Amerigo Vespucci",
 		name = "梅莉",
 		rendering = "100500",
@@ -248,9 +263,9 @@ pg.base.island_unit_character = {}
 		personality = 2
 	}
 	pg.base.island_unit_character[100600] = {
-		describe_illustrated_guid = "指挥官！乔安欢迎您来沉石矿山游玩！\n这里的矿洞非常有趣，很值得探索的！等我筹备好，可以带您坐着矿车进去游览一番！\n还会为您唱开矿用的专属曲目，就请好好期待吧！",
+		describe_illustrated_guid = "指揮官！喬安歡迎您來沉石礦山遊玩！\n這裡的礦洞非常有趣，很值得探索的！等我籌備好，可以帶您坐著礦車進去遊覽一番！\n還會為您唱開礦用的專屬曲目，就請好好期待吧！",
 		english_name = "SS John W. Brown",
-		name = "乔安",
+		name = "喬安",
 		rendering = "100600",
 		group = 1006,
 		animator = "island/animator/ani_role_all_01_01",
@@ -265,9 +280,9 @@ pg.base.island_unit_character = {}
 		personality = 2
 	}
 	pg.base.island_unit_character[100700] = {
-		describe_illustrated_guid = "我是奥布莱恩号，正在为岛屿开发计划努力着。\n指挥官一定不知道，每次工作很疲惫的时候……我都会偷偷想起你呢~这样就算伐木的时候再辛苦，我也依旧很开心。",
+		describe_illustrated_guid = "我是奧布萊恩號，正在為島嶼開發計劃努力著。\n指揮官一定不知道，每次工作很疲憊的時候……我都會偷偷想起你呢~這樣就算伐木的時候再辛苦，我也依舊很開心。",
 		english_name = "Jeremiah O'Brien",
-		name = "奥布莱恩",
+		name = "奧布萊恩",
 		rendering = "100700",
 		group = 1007,
 		animator = "island/animator/ani_role_all_01_02",
@@ -282,9 +297,9 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[100800] = {
-		describe_illustrated_guid = "指挥官，我是阿莫玛，港口商区的管理者。\n虽然工作细碎，每天都要核对报表、优化店铺陈列、分析客流数据……但看到港口商区日益繁荣，这份满足的成就感就胜过了一切。",
+		describe_illustrated_guid = "指揮官，我是阿莫瑪，港口商區的管理者。\n雖然工作細碎，每天都要核對報表、最佳化店鋪陳列、分析客流資料……但看到港口商區日益繁榮，這份滿足的成就感就勝過了一切。",
 		english_name = "SS Am-Mer-Mar",
-		name = "阿莫玛",
+		name = "阿莫瑪",
 		rendering = "100800",
 		group = 1008,
 		animator = "island/animator/ani_role_all_01_02",
@@ -299,9 +314,9 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[100900] = {
-		describe_illustrated_guid = "你好啊指挥官，我是开发区的工厂管理员萝莎！\n对我而言，流水线上轰鸣声就是最美妙的音乐！虽然扳手总失踪、进度经常爆炸——但只要指挥官需要，萝莎就能让所有的机器功率全开！",
+		describe_illustrated_guid = "你好啊指揮官，我是開發區的工廠管理員蘿莎！\n對我而言，流水線上轟鳴聲就是最美妙的音樂！雖然扳手總失蹤、進度經常爆炸——但只要指揮官需要，蘿莎就能讓所有的機器功率全開！",
 		english_name = "SS Brigadier General Clinton W. Russell",
-		name = "萝莎",
+		name = "蘿莎",
 		rendering = "100900",
 		group = 1009,
 		animator = "island/animator/ani_role_all_01_01",
@@ -316,7 +331,7 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[101000] = {
-		describe_illustrated_guid = "指挥官，我是集会岛的接待员莉莎。\n现在负责为指挥官提供集会岛的指引与建设支持。\n为了能让开发区的大家能在集会岛上的安全、愉快地活动，我会全力协助指挥官对集会岛的建设。",
+		describe_illustrated_guid = "指揮官，我是集會島的接待員莉莎。\n現在負責為指揮官提供集會島的指引與建設支援。\n為了能讓開發區的大家能在集會島上的安全、愉快地活動，我會全力協助指揮官對集會島的建設。",
 		english_name = "R.M.S Queen Elizabeth",
 		name = "莉莎",
 		rendering = "101000",
@@ -333,7 +348,7 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[101100] = {
-		describe_illustrated_guid = "阳光～雨露～甜甜的果子快快长～！我是果园管理员露西！\n每天看着地里的果实一点点染上收获的颜色，就觉得世界真美好～",
+		describe_illustrated_guid = "陽光～雨露～甜甜的果子快快長～！我是果園管理員露西！\n每天看著地裡的果實一點點染上收穫的顏色，就覺得世界真美好～",
 		english_name = "RMS Lusitania",
 		name = "露西",
 		rendering = "101100",
@@ -350,9 +365,9 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[101200] = {
-		describe_illustrated_guid = "指挥官您好，我是布莱梅……港口啾咖啡的店员。\n我喜欢这里空气里咖啡的香味……每天望着热气缓缓升起的感觉，很安心……\n那个……指挥官如果想来，我会为您选个安静的位置。",
+		describe_illustrated_guid = "指揮官您好，我是布萊梅……港口啾咖啡的店員。\n我喜歡這裡空氣裡咖啡的香味……每天望著熱氣緩緩升起的感覺，很安心……\n那個……指揮官如果想來，我會為您選個安靜的位置。",
 		english_name = "SS Bremen",
-		name = "布莱梅",
+		name = "布萊梅",
 		rendering = "101200",
 		group = 1012,
 		animator = "island/animator/ani_role_all_01_02",
@@ -367,9 +382,9 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[101300] = {
-		describe_illustrated_guid = "嘀嘀嗒~这里是指挥官最活泼可爱的集会岛向导玛丽~\n我会用最灿烂的笑容为大家指明方向，让来到集会岛的所有人都能立刻感受到这里的热情与快乐！",
+		describe_illustrated_guid = "嘀嘀嗒~這裡是指揮官最活潑可愛的集會島嚮導瑪麗~\n我會用最燦爛的笑容為大家指明方向，讓來到集會島的所有人都能立刻感受到這裡的熱情與快樂！",
 		english_name = "R.M.S Queen Mary",
-		name = "玛丽 ",
+		name = "瑪麗 ",
 		rendering = "101300",
 		group = 1013,
 		animator = "island/animator/ani_role_all_01_01",
@@ -384,9 +399,9 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[101400] = {
-		describe_illustrated_guid = "指挥官，我是拉科尼娅……在岛上照看苗圃和蜜蜂们……\n阳光洒进来的时候，整个苗圃都很安静，只有蜜蜂嗡嗡的声音……这样的感觉……我很喜欢……\n指挥官……要不要也来尝尝新取的蜂蜜？很甜的……",
+		describe_illustrated_guid = "指揮官，我是拉科尼婭……在島上照看苗圃和蜜蜂們……\n陽光灑進來的時候，整個苗圃都很安靜，只有蜜蜂嗡嗡的聲音……這樣的感覺……我很喜歡……\n指揮官……要不要也來嚐嚐新取的蜂蜜？很甜的……",
 		english_name = "RMS Laconia",
-		name = "拉科尼娅",
+		name = "拉科尼婭",
 		rendering = "101400",
 		group = 1014,
 		animator = "island/animator/ani_role_all_01_02",
@@ -418,7 +433,7 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[101600] = {
-		describe_illustrated_guid = "我是岛屿的开发季管理员佩芮，现在负责整理开发需要的物资清单。\n最近我在思考新的开发计划……指挥官如果有什么建议也可以告诉我。岛屿的开发之路还很长，但我们可以……一步一步慢慢走。",
+		describe_illustrated_guid = "我是島嶼的開發季管理員佩芮，現在負責整理開發需要的物資清單。\n最近我在思考新的開發計劃……指揮官如果有什麼建議也可以告訴我。島嶼的開發之路還很長，但我們可以……一步一步慢慢走。",
 		english_name = "SS Robert E. Peary",
 		name = "佩芮",
 		rendering = "101600",
@@ -435,9 +450,9 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[101800] = {
-		describe_illustrated_guid = "你好呀指挥官，我是这片渔场的管理员布莉缇！\n这片海域的潮汐流向和鱼群脾气我都一清二楚，只听水流的动静我就知道有没有大家伙在！\n呜喵~偷偷告诉指挥官，我还掌握着独家钓技哦，想学的话随时都可以来找我~",
+		describe_illustrated_guid = "你好呀指揮官，我是這片漁場的管理員布莉緹！\n這片海域的潮汐流向和魚群脾氣我都一清二楚，只聽水流的動靜我就知道有沒有大傢伙在！\n嗚喵~偷偷告訴指揮官，我還掌握著獨家釣技哦，想學的話隨時都可以來找我~",
 		english_name = "RMS Empress of Britain",
-		name = "布莉缇",
+		name = "布莉緹",
 		rendering = "101800",
 		group = 1018,
 		animator = "island/animator/ani_role_all_01_01",
@@ -471,7 +486,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[300300] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "直升鸡",
+		name = "直升雞",
 		rendering = "300300",
 		group = 3003,
 		animator = "island/animator/ani_role_3003_01_01",
@@ -488,7 +503,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[300400] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "路障鸡",
+		name = "路障雞",
 		rendering = "300400",
 		group = 3004,
 		animator = "island/animator/ani_role_3004_01_01",
@@ -505,7 +520,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[300500] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "粉鸡",
+		name = "粉雞",
 		rendering = "300500",
 		group = 3005,
 		animator = "island/animator/ani_role_3005_01_01",
@@ -522,7 +537,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[300600] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "礼帽鸡",
+		name = "禮帽雞",
 		rendering = "300600",
 		group = 3006,
 		animator = "island/animator/ani_role_all_01_01",
@@ -556,7 +571,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[300800] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "海鸥",
+		name = "海鷗",
 		rendering = "300800",
 		group = 3008,
 		animator = "island/animator/ani_role_3008_01_01",
@@ -657,7 +672,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[301000] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "哼哼猪",
+		name = "哼哼豬",
 		rendering = "301000",
 		group = 3010,
 		animator = "island/animator/ani_role_3010_01_01",
@@ -678,7 +693,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[301100] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "奶牛(牧场)",
+		name = "奶牛(牧場)",
 		rendering = "301100",
 		group = 3011,
 		animator = "island/animator/ani_role_3011_01_01",
@@ -699,7 +714,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[301200] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "黄牛(牧场)",
+		name = "黃牛(牧場)",
 		rendering = "301200",
 		group = 3012,
 		animator = "island/animator/ani_role_3011_01_01",
@@ -720,7 +735,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[301300] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "羊(牧场)",
+		name = "羊(牧場)",
 		rendering = "301300",
 		group = 3013,
 		animator = "island/animator/ani_role_3013_01_01",
@@ -741,7 +756,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[302000] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "咯咯鸡",
+		name = "咯咯雞",
 		rendering = "302000",
 		group = 3020,
 		animator = "island/animator/ani_role_3020_01_01",
@@ -762,7 +777,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[302300] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "小河虾",
+		name = "小河蝦",
 		rendering = "",
 		group = 3023,
 		animator = "island/animator/ani_role_3023_03_01",
@@ -779,7 +794,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[302400] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "鲤鱼",
+		name = "鯉魚",
 		rendering = "",
 		group = 3024,
 		animator = "island/animator/ani_role_3024_03_01",
@@ -796,7 +811,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[302500] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "贝壳",
+		name = "貝殼",
 		rendering = "",
 		group = 3025,
 		animator = "island/animator/ani_role_3025_03_01",
@@ -813,7 +828,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[302600] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "小龙虾",
+		name = "小龍蝦",
 		rendering = "",
 		group = 3026,
 		animator = "island/animator/ani_role_3026_03_01",
@@ -830,7 +845,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[302700] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "三文鱼",
+		name = "三文魚",
 		rendering = "",
 		group = 3027,
 		animator = "island/animator/ani_role_3027_03_01",
@@ -847,7 +862,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[302800] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "海参",
+		name = "海參",
 		rendering = "",
 		group = 3028,
 		animator = "island/animator/ani_role_3028_03_01",
@@ -864,7 +879,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[302900] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "鱿鱼",
+		name = "魷魚",
 		rendering = "",
 		group = 3029,
 		animator = "island/animator/ani_role_3029_03_01",
@@ -881,7 +896,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[303000] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "金枪鱼",
+		name = "金槍魚",
 		rendering = "",
 		group = 3030,
 		animator = "island/animator/ani_role_3030_03_01",
@@ -915,7 +930,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[303300] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "鲶鱼",
+		name = "鯰魚",
 		rendering = "",
 		group = 3033,
 		animator = "island/animator/ani_role_3033_03_01",
@@ -932,7 +947,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[303400] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "鲫鱼",
+		name = "鯽魚",
 		rendering = "",
 		group = 3034,
 		animator = "island/animator/ani_role_3034_03_01",
@@ -949,7 +964,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[303500] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "马鲛鱼",
+		name = "馬鮫魚",
 		rendering = "",
 		group = 3035,
 		animator = "island/animator/ani_role_3035_03_01",
@@ -966,7 +981,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[303600] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "红鲷鱼",
+		name = "紅鯛魚",
 		rendering = "",
 		group = 3036,
 		animator = "island/animator/ani_role_3036_03_01",
@@ -983,7 +998,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[303700] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "黄鳍金枪鱼",
+		name = "黃鰭金槍魚",
 		rendering = "",
 		group = 3037,
 		animator = "island/animator/ani_role_3037_03_01",
@@ -1000,7 +1015,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[303800] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "鲈鱼",
+		name = "鱸魚",
 		rendering = "",
 		group = 3038,
 		animator = "island/animator/ani_role_3038_03_01",
@@ -1017,7 +1032,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[303900] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "黑鲷鱼",
+		name = "黑鯛魚",
 		rendering = "",
 		group = 3039,
 		animator = "island/animator/ani_role_3039_03_01",
@@ -1236,7 +1251,7 @@ pg.base.island_unit_character = {}
 		personality = 0
 	}
 	pg.base.island_unit_character[1011000] = {
-		describe_illustrated_guid = "指挥官！岛屿探险地图我已经画好了！虽然、虽然可能有点歪……但这次我一定会找到传说中的秘密宝藏的！相信我吧！",
+		describe_illustrated_guid = "指揮官！島嶼探險地圖我已經畫好了！雖然、雖然可能有點歪……但這次我一定會找到傳說中的秘密寶藏的！相信我吧！",
 		english_name = "USS William D. Porter",
 		name = "威廉·D·波特",
 		rendering = "1011000",
@@ -1287,7 +1302,7 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[1011700] = {
-		describe_illustrated_guid = "呼……这里的空气很清新，草地也软软的……指挥官，拉菲想在这里睡个午觉……要来一起躺一会儿吗……",
+		describe_illustrated_guid = "呼……這裡的空氣很清新，草地也軟軟的……指揮官，拉菲想在這裡睡個午覺……要來一起躺一會兒嗎……",
 		english_name = "USS Laffey",
 		name = "拉菲 ",
 		rendering = "1011700",
@@ -1338,9 +1353,9 @@ pg.base.island_unit_character = {}
 		personality = 2
 	}
 	pg.base.island_unit_character[1020500] = {
-		describe_illustrated_guid = "这里的海风很温和，阳光也正好……那个，指挥官，如果工作累了，我泡了新的花茶，要一起尝尝看吗？",
+		describe_illustrated_guid = "這裡的海風很溫和，陽光也正好……那個，指揮官，如果工作累了，我泡了新的花茶，要一起嚐嚐看嗎？",
 		english_name = "USS Helena",
-		name = "海伦娜",
+		name = "海倫娜",
 		rendering = "1020500",
 		group = 10205,
 		animator = "island/animator/ani_role_all_01_02",
@@ -1357,7 +1372,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[1020501] = {
 		describe_illustrated_guid = "",
 		english_name = "USS Helena",
-		name = "海伦娜",
+		name = "海倫娜",
 		rendering = "1020501",
 		group = 10205,
 		animator = "island/animator/ani_role_all_01_02",
@@ -1374,7 +1389,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[1020502] = {
 		describe_illustrated_guid = "",
 		english_name = "USS Helena",
-		name = "海伦娜",
+		name = "海倫娜",
 		rendering = "1020502",
 		group = 10205,
 		animator = "island/animator/ani_role_all_01_02",
@@ -1389,7 +1404,7 @@ pg.base.island_unit_character = {}
 		personality = 2
 	}
 	pg.base.island_unit_character[1051700] = {
-		describe_illustrated_guid = "无论是战场还是林地，Black Dragon都会是最强的存在！Honey~和我一起迈向世界第一吧♪",
+		describe_illustrated_guid = "無論是戰場還是林地，Black Dragon都會是最強的存在！Honey~和我一起邁向世界第一吧♪",
 		english_name = "USS New Jersey",
 		name = "{namecode:199}",
 		rendering = "1051700",
@@ -1440,9 +1455,9 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[1070300] = {
-		describe_illustrated_guid = "从天空到大地，萨拉托加带着满满的收获来啦！指挥官，要尝尝我亲手种出的新鲜蔬菜吗？嘿嘿，保证“营养”丰富哦~",
+		describe_illustrated_guid = "從天空到大地，薩拉托加帶著滿滿的收穫來啦！指揮官，要嚐嚐我親手種出的新鮮蔬菜嗎？嘿嘿，保證“營養”豐富哦~",
 		english_name = "USS Saratoga",
-		name = "萨拉托加",
+		name = "薩拉托加",
 		rendering = "1070300",
 		group = 10703,
 		animator = "island/animator/ani_role_all_01_01",
@@ -1459,7 +1474,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[1070301] = {
 		describe_illustrated_guid = "",
 		english_name = "USS Saratoga",
-		name = "萨拉托加",
+		name = "薩拉托加",
 		rendering = "1070301",
 		group = 10703,
 		animator = "island/animator/ani_role_all_01_01",
@@ -1476,7 +1491,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[1070302] = {
 		describe_illustrated_guid = "",
 		english_name = "USS Saratoga",
-		name = "萨拉托加",
+		name = "薩拉托加",
 		rendering = "1070302",
 		group = 10703,
 		animator = "island/animator/ani_role_all_01_01",
@@ -1490,10 +1505,61 @@ pg.base.island_unit_character = {}
 		CollisionParam = "",
 		personality = 1
 	}
+	pg.base.island_unit_character[1990300] = {
+		describe_illustrated_guid = "哇——這裡……有趣的地方……好多！老師……可以……一起逛逛嗎？和安克拉治……一起！",
+		english_name = "USS Anchorage",
+		name = "安克拉治",
+		rendering = "1990300",
+		group = 19903,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "ankeleiqi",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/19903/19903_00/prefab/pre_char_19903_00",
+		personal_ani = "",
+		id = 1990300,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[1990301] = {
+		describe_illustrated_guid = "",
+		english_name = "USS Anchorage",
+		name = "安克拉治",
+		rendering = "1990301",
+		group = 19903,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "ankeleiqi",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/19903/19903_01/prefab/pre_char_19903_01",
+		personal_ani = "personal_19903_1",
+		id = 1990301,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[1990302] = {
+		describe_illustrated_guid = "",
+		english_name = "USS Anchorage",
+		name = "安克拉治",
+		rendering = "1990302",
+		group = 19903,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "ankeleiqi",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/19903/19903_02/prefab/pre_char_19903_02",
+		personal_ani = "personal_19903_1",
+		id = 1990302,
+		CollisionParam = "",
+		personality = 1
+	}
 	pg.base.island_unit_character[2012100] = {
-		describe_illustrated_guid = "呜哇~这里的风景好好啊~阳光暖暖的，天气也很好，有种想办野餐的冲动……指挥官也来参加吧！",
+		describe_illustrated_guid = "嗚哇~這裡的風景好好啊~陽光暖暖的，天氣也很好，有種想辦野餐的衝動……指揮官也來參加吧！",
 		english_name = "HMS Javelin",
-		name = "标枪",
+		name = "標槍",
 		rendering = "2012100",
 		group = 20121,
 		animator = "island/animator/ani_role_all_01_01",
@@ -1510,7 +1576,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[2012101] = {
 		describe_illustrated_guid = "",
 		english_name = "HMS Javelin",
-		name = "标枪",
+		name = "標槍",
 		rendering = "2012101",
 		group = 20121,
 		animator = "island/animator/ani_role_all_01_01",
@@ -1527,7 +1593,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[2012102] = {
 		describe_illustrated_guid = "",
 		english_name = "HMS Javelin",
-		name = "标枪",
+		name = "標槍",
 		rendering = "2012102",
 		group = 20121,
 		animator = "island/animator/ani_role_all_01_01",
@@ -1541,10 +1607,61 @@ pg.base.island_unit_character = {}
 		CollisionParam = "",
 		personality = 1
 	}
+	pg.base.island_unit_character[2021200] = {
+		describe_illustrated_guid = "這裡的景色很宜人，主人。若您願意，不妨先將繁忙事務放到一旁，讓我陪您稍稍休息一會兒吧。",
+		english_name = "HMS Belfast",
+		name = "貝爾法斯特",
+		rendering = "2021200",
+		group = 20212,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "beierfasite",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/20212/20212_00/prefab/pre_char_20212_00",
+		personal_ani = "",
+		id = 2021200,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[2021201] = {
+		describe_illustrated_guid = "",
+		english_name = "HMS Belfast",
+		name = "貝爾法斯特",
+		rendering = "2021201",
+		group = 20212,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "beierfasite",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/20212/20212_01/prefab/pre_char_20212_01",
+		personal_ani = "personal_20212_1",
+		id = 2021201,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[2021202] = {
+		describe_illustrated_guid = "",
+		english_name = "HMS Belfast",
+		name = "貝爾法斯特",
+		rendering = "2021202",
+		group = 20212,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "beierfasite",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/20212/20212_02/prefab/pre_char_20212_02",
+		personal_ani = "personal_20212_1",
+		id = 2021202,
+		CollisionParam = "",
+		personality = 2
+	}
 	pg.base.island_unit_character[2060300] = {
-		describe_illustrated_guid = "哥、哥哥……能像现在这样帮上大家的忙，独角兽真的很开心！之后，我也会继续加油的……因为……最喜欢哥哥了！",
+		describe_illustrated_guid = "哥、哥哥……能像現在這樣幫上大家的忙，獨角獸真的很開心！之後，我也會繼續加油的……因為……最喜歡哥哥了！",
 		english_name = "HMS Unicorn",
-		name = "独角兽",
+		name = "獨角獸",
 		rendering = "2060300",
 		group = 20603,
 		animator = "island/animator/ani_role_all_01_02",
@@ -1561,7 +1678,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[2060301] = {
 		describe_illustrated_guid = "",
 		english_name = "HMS Unicorn",
-		name = "独角兽",
+		name = "獨角獸",
 		rendering = "2060301",
 		group = 20603,
 		animator = "island/animator/ani_role_all_01_02",
@@ -1578,7 +1695,7 @@ pg.base.island_unit_character = {}
 	pg.base.island_unit_character[2060302] = {
 		describe_illustrated_guid = "",
 		english_name = "HMS Unicorn",
-		name = "独角兽",
+		name = "獨角獸",
 		rendering = "2060302",
 		group = 20603,
 		animator = "island/animator/ani_role_all_01_02",
@@ -1593,7 +1710,7 @@ pg.base.island_unit_character = {}
 		personality = 2
 	}
 	pg.base.island_unit_character[2040300] = {
-		describe_illustrated_guid = "皇家的优雅从不因时光而褪色~指挥官，可愿与我共品红茶，细语未来的胜利。",
+		describe_illustrated_guid = "皇家的優雅從不因時光而褪色~指揮官，可願與我共品紅茶，細語未來的勝利。",
 		english_name = "HMS Hood",
 		name = "胡德",
 		rendering = "2040300",
@@ -1610,7 +1727,7 @@ pg.base.island_unit_character = {}
 		personality = 2
 	}
 	pg.base.island_unit_character[2990300] = {
-		describe_illustrated_guid = "亲爱的~你的目光又落在柴郡身上了呢……真好！再多看看我，只看着我吧~喵♡",
+		describe_illustrated_guid = "親愛的~你的目光又落在柴郡身上了呢……真好！再多看看我，只看著我吧~喵♡",
 		english_name = "HMS Cheshire",
 		name = "柴郡",
 		rendering = "2990300",
@@ -1661,7 +1778,7 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[3012900] = {
-		describe_illustrated_guid = "速度是制胜的关键！无论是配送、收割还是支援，全都交给最快的岛风吧！哼哼，绝对轻松搞定~",
+		describe_illustrated_guid = "速度是制勝的關鍵！無論是配送、收割還是支援，全都交給最快的島風吧！哼哼，絕對輕鬆搞定~",
 		english_name = "IJN Shimakaze",
 		name = "{namecode:18}",
 		rendering = "3012900",
@@ -1712,7 +1829,7 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[3031100] = {
-		describe_illustrated_guid = "这座岛的地形我已大致熟悉，若需要巡逻或训练，随时可以叫我。……放松的话，坐在海边看日出也不错。",
+		describe_illustrated_guid = "這座島的地形我已大致熟悉，若需要巡邏或訓練，隨時可以叫我。……放鬆的話，坐在海邊看日出也不錯。",
 		english_name = "IJN Takao",
 		name = "{namecode:66}",
 		rendering = "3031100",
@@ -1763,7 +1880,7 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[3031200] = {
-		describe_illustrated_guid = "工作？任务？那些都暂时忘掉吧~来，指挥官，枕在姐姐腿上，好好享受只属于你的安心午睡时间……",
+		describe_illustrated_guid = "工作？任務？那些都暫時忘掉吧~來，指揮官，枕在姐姐腿上，好好享受只屬於你的安心午睡時間……",
 		english_name = "IJN Atago",
 		name = "{namecode:67}",
 		rendering = "3031200",
@@ -1779,6 +1896,8 @@ pg.base.island_unit_character = {}
 		CollisionParam = "",
 		personality = 1
 	}
+end)()
+(function ()
 	pg.base.island_unit_character[3031201] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Atago",
@@ -1814,7 +1933,7 @@ pg.base.island_unit_character = {}
 		personality = 1
 	}
 	pg.base.island_unit_character[3040700] = {
-		describe_illustrated_guid = "呵护岛上的每一棵小树……这就是现在的我守护大家的方式！指挥官，要看着我的果树慢慢长大哦～",
+		describe_illustrated_guid = "呵護島上的每一棵小樹……這就是現在的我守護大家的方式！指揮官，要看著我的果樹慢慢長大哦～",
 		english_name = "IJN Amagi",
 		name = "{namecode:193}",
 		rendering = "3040700",
@@ -1865,7 +1984,7 @@ pg.base.island_unit_character = {}
 		personality = 2
 	}
 	pg.base.island_unit_character[3070700] = {
-		describe_illustrated_guid = "指挥官大人～不管在哪里……大凤的全部，都是只属于您一个人的哦？要好好珍惜呢~❤",
+		describe_illustrated_guid = "指揮官大人～不管在哪裡……{namecode:97}的全部，都是隻屬於您一個人的哦？要好好珍惜呢~♡",
 		english_name = "IJN Taihō",
 		name = "{namecode:97}",
 		rendering = "3070700",
@@ -1881,10 +2000,8 @@ pg.base.island_unit_character = {}
 		CollisionParam = "",
 		personality = 1
 	}
-end)()
-(function ()
 	pg.base.island_unit_character[3120100] = {
-		describe_illustrated_guid = "喵哈哈~万能的明石可以用最新技术给指挥升级工具喵！只要一点点的研发费用和材料~很实惠吧喵~",
+		describe_illustrated_guid = "喵哈哈~萬能的明石可以用最新技術給指揮升級工具喵！只要一點點的研發費用和材料~很實惠吧喵~",
 		english_name = "IJN Akashi",
 		name = "{namecode:98}",
 		rendering = "3120100",
@@ -1952,7 +2069,7 @@ end)()
 		personality = 0
 	}
 	pg.base.island_unit_character[4030300] = {
-		describe_illustrated_guid = "指挥官，想尝尝我为你特别准备的惊喜吗？……呵呵，不必担心，这微妙的滋味一定会让你……回味无穷哦~",
+		describe_illustrated_guid = "指揮官，想嚐嚐我為你特別準備的驚喜嗎？……呵呵，不必擔心，這微妙的滋味一定會讓你……回味無窮哦~",
 		english_name = "KMS Prinz Eugen",
 		name = "{namecode:427}",
 		rendering = "4030300",
@@ -2003,7 +2120,7 @@ end)()
 		personality = 1
 	}
 	pg.base.island_unit_character[4990200] = {
-		describe_illustrated_guid = "将战场上的布局，化为庭院的规划。这里是属于我们的新天地，你只需尽情享受这份宁静……其余的，交给我就好，我的孩子。",
+		describe_illustrated_guid = "將戰場上的佈局，化為庭院的規劃。這裡是屬於我們的新天地，你只需盡情享受這份寧靜……其餘的，交給我就好，我的孩子。",
 		english_name = "KMS Friedrich der Grosse",
 		name = "{namecode:440}",
 		rendering = "4990200",
@@ -2054,7 +2171,7 @@ end)()
 		personality = 1
 	}
 	pg.base.island_unit_character[4990600] = {
-		describe_illustrated_guid = "安静得让人有些不习惯呢……指挥官，你就这么顺从地享受悠闲时光吗？偶尔换换口味，说不定会更有趣哦。",
+		describe_illustrated_guid = "安靜得讓人有些不習慣呢……指揮官，你就這麼順從地享受悠閒時光嗎？偶爾換換口味，說不定會更有趣哦。",
 		english_name = "KMS August von Parseval",
 		name = "{namecode:481}",
 		rendering = "4990600",
@@ -2105,9 +2222,9 @@ end)()
 		personality = 2
 	}
 	pg.base.island_unit_character[5010700] = {
-		describe_illustrated_guid = "哇~这里有好大的森林！还有小河，石山，以及好多没见过的小花！指挥官指挥官，能让飞云大人在这里探险吗？！",
+		describe_illustrated_guid = "哇~這裡有好大的森林！還有小河，石山，以及好多沒見過的小花！指揮官指揮官，能讓飛雲大人在這裡探險嗎？！",
 		english_name = "Fei Yuen",
-		name = "飞云",
+		name = "飛雲",
 		rendering = "5010700",
 		group = 50107,
 		animator = "island/animator/ani_role_all_01_01",
@@ -2124,7 +2241,7 @@ end)()
 	pg.base.island_unit_character[5010701] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "飞云",
+		name = "飛雲",
 		rendering = "5010701",
 		group = 50107,
 		animator = "island/animator/ani_role_all_01_01",
@@ -2141,7 +2258,7 @@ end)()
 	pg.base.island_unit_character[5010702] = {
 		describe_illustrated_guid = "",
 		english_name = "",
-		name = "飞云",
+		name = "飛雲",
 		rendering = "5010702",
 		group = 50107,
 		animator = "island/animator/ani_role_all_01_01",
@@ -2155,8 +2272,59 @@ end)()
 		CollisionParam = "",
 		personality = 1
 	}
+	pg.base.island_unit_character[5010800] = {
+		describe_illustrated_guid = "指揮官，島嶼上事務繁多，要注意好好休息哦？我去給你泡壺熱茶吧，還有點心和靠墊也會一併拿來的~",
+		english_name = "Chang Feng",
+		name = "長風",
+		rendering = "5010800",
+		group = 50108,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "changfeng",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/50108/50108_00/prefab/pre_char_50108_00",
+		personal_ani = "",
+		id = 5010800,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[5010801] = {
+		describe_illustrated_guid = "",
+		english_name = "Chang Feng",
+		name = "長風",
+		rendering = "5010801",
+		group = 50108,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "changfeng",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/50108/50108_01/prefab/pre_char_50108_01",
+		personal_ani = "personal_50108_1",
+		id = 5010801,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[5010802] = {
+		describe_illustrated_guid = "",
+		english_name = "Chang Feng",
+		name = "長風",
+		rendering = "5010802",
+		group = 50108,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "changfeng",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/50108/50108_02/prefab/pre_char_50108_02",
+		personal_ani = "personal_50108_1",
+		id = 5010802,
+		CollisionParam = "",
+		personality = 2
+	}
 	pg.base.island_unit_character[5020100] = {
-		describe_illustrated_guid = "这里的清晨格外宁静，茶香和露水混在一起，很是让人心神安宁呢……指挥官，我刚沏好了你喜欢的茶，来尝尝吧。",
+		describe_illustrated_guid = "這裡的清晨格外寧靜，茶香和露水混在一起，很是讓人心神安寧呢……指揮官，我剛沏好了你喜歡的茶，來嚐嚐吧。",
 		english_name = "Yat Sen",
 		name = "逸仙 ",
 		rendering = "5020100",
@@ -2207,9 +2375,9 @@ end)()
 		personality = 2
 	}
 	pg.base.island_unit_character[5020400] = {
-		describe_illustrated_guid = "茶已沏好，墨亦研匀……指挥官，要暂时放下工作，来陪我共赏这幅未完成的画吗？",
+		describe_illustrated_guid = "茶已沏好，墨亦研勻……指揮官，要暫時放下工作，來陪我共賞這幅未完成的畫嗎？",
 		english_name = "Ying Swei",
-		name = "应瑞",
+		name = "應瑞",
 		rendering = "5020400",
 		group = 50204,
 		animator = "island/animator/ani_role_all_01_02",
@@ -2224,7 +2392,7 @@ end)()
 		personality = 2
 	}
 	pg.base.island_unit_character[5020500] = {
-		describe_illustrated_guid = "真是的…！要我说多少次才行——我才是姐姐呀！指挥官，你可要好好记住这一点哦？不然我会生气的！",
+		describe_illustrated_guid = "真是的…！要我說多少次才行——我才是姐姐呀！指揮官，你可要好好記住這一點哦？不然我會生氣的！",
 		english_name = "Chao Ho",
 		name = "肇和",
 		rendering = "5020500",
@@ -2241,9 +2409,9 @@ end)()
 		personality = 1
 	}
 	pg.base.island_unit_character[5060100] = {
-		describe_illustrated_guid = "棋局暂歇，方寸田园亦有趣味。指挥官，不妨将岛屿的运营也视作一盘棋？不过现在，我只想与你静静品茗观花。",
+		describe_illustrated_guid = "棋局暫歇，方寸田園亦有趣味。指揮官，不妨將島嶼的運營也視作一盤棋？不過現在，我只想與你靜靜品茗觀花。",
 		english_name = "Chen Hai",
-		name = "镇海",
+		name = "鎮海",
 		rendering = "5060100",
 		group = 50601,
 		animator = "island/animator/ani_role_all_01_02",
@@ -2260,7 +2428,7 @@ end)()
 	pg.base.island_unit_character[5060101] = {
 		describe_illustrated_guid = "",
 		english_name = "Chen Hai",
-		name = "镇海",
+		name = "鎮海",
 		rendering = "5060101",
 		group = 50601,
 		animator = "island/animator/ani_role_all_01_02",
@@ -2277,7 +2445,7 @@ end)()
 	pg.base.island_unit_character[5060102] = {
 		describe_illustrated_guid = "",
 		english_name = "Chen Hai",
-		name = "镇海",
+		name = "鎮海",
 		rendering = "5060102",
 		group = 50601,
 		animator = "island/animator/ani_role_all_01_02",
@@ -2292,9 +2460,9 @@ end)()
 		personality = 2
 	}
 	pg.base.island_unit_character[6080200] = {
-		describe_illustrated_guid = "指挥官，这地方给我提供了不少有趣的灵感呢~我的大脑已经在全速运转啦！有任何需求都尽管来找我吧~",
+		describe_illustrated_guid = "指揮官，這地方給我提供了不少有趣的靈感呢~我的大腦已經在全速運轉啦！有任何需求都儘管來找我吧~",
 		english_name = "RN Leonardo da Vinci",
-		name = "莱昂纳多·达·芬奇",
+		name = "李奧納多·達·文西",
 		rendering = "6080200",
 		group = 60802,
 		animator = "island/animator/ani_role_all_01_02",
@@ -2309,7 +2477,7 @@ end)()
 		personality = 2
 	}
 	pg.base.island_unit_character[7010400] = {
-		describe_illustrated_guid = "天蓝色的轨迹会继续延伸至远方……不过比起独行，塔什干更期待与同志酱共享这份宁静。",
+		describe_illustrated_guid = "天藍色的軌跡會繼續延伸至遠方……不過比起獨行，塔什干更期待與同志醬共享這份寧靜。",
 		english_name = "SN Tashkent",
 		name = "塔什干",
 		rendering = "7010400",
@@ -2325,10 +2493,61 @@ end)()
 		CollisionParam = "",
 		personality = 2
 	}
+	pg.base.island_unit_character[9010700] = {
+		describe_illustrated_guid = "指揮官~這裡的風吹著好舒服，就是稍微有點小，不夠過癮呢~所以……一起去尋找風最大的地方吧，指揮官~♡",
+		english_name = "MNF Mogador",
+		name = "莫加多爾",
+		rendering = "9010700",
+		group = 90107,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "mojiaduoer",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/90107/90107_00/prefab/pre_char_90107_00",
+		personal_ani = "",
+		id = 9010700,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[9010701] = {
+		describe_illustrated_guid = "",
+		english_name = "MNF Mogador",
+		name = "莫加多爾",
+		rendering = "9010701",
+		group = 90107,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "mojiaduoer",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/90107/90107_01/prefab/pre_char_90107_01",
+		personal_ani = "personal_90107_1",
+		id = 9010701,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[9010702] = {
+		describe_illustrated_guid = "",
+		english_name = "MNF Mogador",
+		name = "莫加多爾",
+		rendering = "9010702",
+		group = 90107,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "mojiaduoer",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/90107/90107_02/prefab/pre_char_90107_02",
+		personal_ani = "personal_90107_1",
+		id = 9010702,
+		CollisionParam = "",
+		personality = 1
+	}
 	pg.base.island_unit_character[9011100] = {
-		describe_illustrated_guid = "虽然确实说过尽管吩咐……但这工作范围未免也太广了……哈啊……指挥官，我先小睡五分钟……就五分钟……",
+		describe_illustrated_guid = "雖然確實說過儘管吩咐……但這工作範圍未免也太廣了……哈啊……指揮官，我先小睡五分鐘……就五分鐘……",
 		english_name = "MNF Le Malin",
-		name = "恶毒",
+		name = "惡毒",
 		rendering = "9011100",
 		group = 90111,
 		animator = "island/animator/ani_role_all_01_02",
@@ -2342,10 +2561,61 @@ end)()
 		CollisionParam = "",
 		personality = 2
 	}
+	pg.base.island_unit_character[96000100] = {
+		describe_illustrated_guid = "這裡位置偏僻，風景優美，是個藏寶物的好地方呢~決定了，之後就把我那些珍藏的戰利品，分出一點藏在這裡！",
+		english_name = "MOT Royal Fortune",
+		name = "皇家幸運號",
+		rendering = "96000100",
+		group = 960001,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huangjiacaifu",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/960001/960001_00/prefab/pre_char_960001_00",
+		personal_ani = "",
+		id = 96000100,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[96000101] = {
+		describe_illustrated_guid = "",
+		english_name = "MOT Royal Fortune",
+		name = "皇家幸運號",
+		rendering = "96000101",
+		group = 960001,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huangjiacaifu",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/960001/960001_01/prefab/pre_char_960001_01",
+		personal_ani = "personal_960001_1",
+		id = 96000101,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[96000102] = {
+		describe_illustrated_guid = "",
+		english_name = "MOT Royal Fortune",
+		name = "皇家幸運號",
+		rendering = "96000102",
+		group = 960001,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huangjiacaifu",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/960001/960001_02/prefab/pre_char_960001_02",
+		personal_ani = "personal_960001_1",
+		id = 96000102,
+		CollisionParam = "",
+		personality = 1
+	}
 	pg.base.island_unit_character[99000100] = {
-		describe_illustrated_guid = "呐——笨蛋指挥官还在按部就班吗？真没劲~！要不要跟我来点刺激的？比如……在岛屿上举办一场冒险比赛？输的人可要听赢家的话哦！",
+		describe_illustrated_guid = "吶——笨蛋指揮官還在按部就班嗎？真沒勁~！要不要跟我來點刺激的？比如……在島嶼上舉辦一場冒險比賽？輸的人可要聽贏家的話哦！",
 		english_name = "Oceana",
-		name = "领洋者-娜比娅",
+		name = "領洋者-娜比婭",
 		rendering = "99000100",
 		group = 990001,
 		animator = "island/animator/ani_role_all_01_01",
@@ -2362,7 +2632,7 @@ end)()
 	pg.base.island_unit_character[99000101] = {
 		describe_illustrated_guid = "",
 		english_name = "Oceana",
-		name = "领洋者-娜比娅",
+		name = "領洋者-娜比婭",
 		rendering = "99000101",
 		group = 990001,
 		animator = "island/animator/ani_role_all_01_01",
@@ -2379,7 +2649,7 @@ end)()
 	pg.base.island_unit_character[99000102] = {
 		describe_illustrated_guid = "",
 		english_name = "Oceana",
-		name = "领洋者-娜比娅",
+		name = "領洋者-娜比婭",
 		rendering = "99000102",
 		group = 990001,
 		animator = "island/animator/ani_role_all_01_01",
@@ -2394,9 +2664,9 @@ end)()
 		personality = 1
 	}
 	pg.base.island_unit_character[99000200] = {
-		describe_illustrated_guid = "正在扫描岛屿生态……判断当前环境适宜度：优。切换至休闲模式……指挥官，我的数据库可辅助规划最优日程，要现在生成方案吗？",
+		describe_illustrated_guid = "正在掃描島嶼生態……判斷當前環境適宜度：優。切換至休閒模式……指揮官，我的資料庫可輔助規劃最優日程，要現在生成方案嗎？",
 		english_name = "Navigator",
-		name = "领航员-TB",
+		name = "領航員-TB",
 		rendering = "99000200",
 		group = 990002,
 		animator = "island/animator/ani_role_all_01_02",
@@ -2413,7 +2683,7 @@ end)()
 	pg.base.island_unit_character[99000201] = {
 		describe_illustrated_guid = "",
 		english_name = "Navigator",
-		name = "领航员-TB",
+		name = "領航員-TB",
 		rendering = "99000201",
 		group = 990002,
 		animator = "island/animator/ani_role_all_01_02",
@@ -2430,7 +2700,7 @@ end)()
 	pg.base.island_unit_character[99000202] = {
 		describe_illustrated_guid = "",
 		english_name = "Navigator",
-		name = "领航员-TB",
+		name = "領航員-TB",
 		rendering = "99000202",
 		group = 990002,
 		animator = "island/animator/ani_role_all_01_02",
@@ -2445,7 +2715,7 @@ end)()
 		personality = 2
 	}
 	pg.base.island_unit_character[99000300] = {
-		describe_illustrated_guid = "家长大人，您看……这片叶子的形状很特别。是我在一处很漂亮的花园中发现的，如果您喜欢，我可以带您去看哦~",
+		describe_illustrated_guid = "家長大人，您看……這片葉子的形狀很特別。是我在一處很漂亮的花園中發現的，如果您喜歡，我可以帶您去看哦~",
 		english_name = "Explorer",
 		name = "探索者-艾普洛",
 		rendering = "99000300",

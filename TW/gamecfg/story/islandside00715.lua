@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "给你这个，快尝尝吧。",
+			say = "給妳這個，快嚐嚐吧。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -27,25 +27,25 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "好香……我已经闻到甜蜜的滋味了~",
+			say = "好香……我已經聞到甜蜜的滋味了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "这杯蜂蜜水……是特意为我准备的吗？",
+			say = "這杯蜂蜜水……是特地為我準備的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，能喝到这么美味的蜂蜜水，也是因为有你一直在引导我，不是吗？",
+			say = "嗯，能喝到這麼美味的蜂蜜水，也是因為有妳一直在引導我，不是嗎？",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			say = "所以成果也该有你的那一份。",
+			say = "所以成果也該有妳的那一份。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -62,16 +62,16 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "哼哼~不愧是指挥官呢~",
+			say = "哼哼~不愧是指揮官呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过……你该怎么喝呢？",
+			say = "不過……妳該怎麼喝呢？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			say = "直接浇到石头上？",
+			say = "直接澆到石頭上？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "不——不要这么做啊！",
+			say = "不——不要這麼做啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "一阵急促的声音从后方传来，听起来好像有些熟悉。",
+			say = "一陣急促的聲音從後方傳來，聽起來好像有些熟悉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "短暂的寂静后，一个身影轻轻从树下的阴影中走出。",
+			say = "短暫的寂靜後，一個身影輕輕從樹下的陰影中走出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 		{
 			actorName = "珂汀",
 			withoutIcon = true,
-			say = "指挥官果然早就察觉了呢～",
+			say = "指揮官果然早就察覺了呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,14 +134,14 @@ return {
 		{
 			actorName = "珂汀",
 			withoutIcon = true,
-			say = "居然用蜂蜜水逼我现身……",
+			say = "居然用蜂蜜水逼我現身……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "毕竟可不是谁都这么了解布莱梅的秘密配方。",
+			say = "畢竟可不是誰都這麼了解布萊梅的秘密配方。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -151,7 +151,7 @@ return {
 		{
 			actorName = "珂汀",
 			withoutIcon = true,
-			say = "哎呀呀～看来我伪装得还不够彻底呢。",
+			say = "哎呀呀～看來我偽裝得還不夠徹底。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 		{
 			actorName = "珂汀",
 			withoutIcon = true,
-			say = "不过这蜂蜜水，我就心怀感激地收下啦～",
+			say = "不過這蜂蜜水，我就心懷感激地收下啦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 		{
 			actorName = "珂汀",
 			withoutIcon = true,
-			say = "顺便……指挥官如果想谈“真正的交易”，以后随时欢迎哦~",
+			say = "順便……指揮官如果想談「真正的交易」，以後隨時歡迎哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

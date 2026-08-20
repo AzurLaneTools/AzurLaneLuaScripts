@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "帕特莉，听说你找我有事？",
+			say = "帕特莉，聽說妳找我有事？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -34,16 +34,16 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "嗯……指挥官知道港口旁边还有一个几乎已经建成了的商区吗？",
+			say = "嗯……指揮官知道港口旁邊還有一個幾乎已經建好的商區嗎？",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "商区？我好像在{namecode:98:明石}的开发计划上见过……",
+			say = "商區？我好像在明石的開發計劃上看過……",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "不过似乎已经因为资金问题停止建设了吧？",
+			say = "不過似乎已經因為資金問題停止建設了吧？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -61,16 +61,16 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "没错，不过那边其实已经基本完工了，一直放着也是有点可惜呢~",
+			say = "沒錯，不過那邊其實已經基本完工了，一直放著也是有點可惜呢~",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯……我记得那边是阿莫玛负责的？",
+			say = "嗯……我記得那邊是阿莫瑪負責的？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			subName = "订单管理员",
-			say = "对，最近一直都待在商区广场里整理建材，指挥官可以过去看看哦~",
+			subName = "訂單管理員",
+			say = "對，最近一直都待在商區廣場裡整理建材，指揮官可以過去看看喔~",
 			characterId = 100200,
 			animation = "clap",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，那我先去看看情况，那么大个地方不利用起来确实可惜。",
+			say = "嗯，那我先去看看狀況，那麼大的地方不利用起來確實很可惜。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

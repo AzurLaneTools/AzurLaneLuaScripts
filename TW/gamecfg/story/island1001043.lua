@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "拉科尼娅，研究有结果了。",
+			say = "拉科尼婭，研究有結果了。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -36,14 +36,14 @@ return {
 			animation = "doubt",
 			say = "……嗯？",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这是初步的种植指南。",
+			say = "這是初步的種植指南。",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "包括育苗的温湿度、播种深度、以及常见病虫害的识别和应对方法。",
+			say = "包括育苗的溫濕度、播種深度、以及常見病蟲害的辨識與應對方法。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -61,16 +61,16 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "明白了……拉科尼娅会认真看完的……",
+			say = "明白了……拉科妮婭會認真看完的……",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "拉科尼娅，那这片苗圃的未来可就交给你了。",
+			say = "拉科妮婭，那這片苗圃的未來可就交給妳了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -79,9 +79,9 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "嗯……我会照顾好它们的每一片叶子……",
+			say = "嗯……我會照顧好它們的每一片葉子……",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

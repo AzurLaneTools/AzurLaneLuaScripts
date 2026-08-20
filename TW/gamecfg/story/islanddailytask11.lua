@@ -19,9 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "Zzz……嗯？指挥官……这些是磨坊要的东西吗？",
+			say = "Zzz……嗯？指揮官……這些是磨坊要的東西嗎？",
 			characterId = 100100,
-			subName = "磨坊管理员",
+			subName = "磨坊管理員",
 			face2Face = {
 				{
 					0,
@@ -34,18 +34,18 @@ return {
 			}
 		},
 		{
-			say = "……哦，放那边就好……谢谢……",
+			say = "……哦，放那邊就好……謝謝……",
 			animation = "think",
 			characterId = 100100,
-			subName = "磨坊管理员",
+			subName = "磨坊管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "有了这些……又能多睡会了……",
-			subName = "磨坊管理员",
+			say = "有了這些……又能多睡一下了……",
+			subName = "磨坊管理員",
 			characterId = 100100,
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			say = "呼……",
-			subName = "磨坊管理员",
+			say = "呼…",
+			subName = "磨坊管理員",
 			characterId = 100100,
 			typewriter = {
 				speed = 0.05,

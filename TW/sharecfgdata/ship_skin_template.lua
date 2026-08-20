@@ -315285,6 +315285,133 @@ _G.pg.base.ship_skin_template[9701110] = {
 }
 
 
+_G.pg.base.ship_skin_template[9701120] = {
+	name = "布里斯托尔·META",
+	shop_offset = "",
+	change_skin = "",
+	illustrator2 = -1,
+	desc = "我是布里斯托尔，一位追寻真相的调查员。这个世界有许多秘密，但它们就像潮水下的礁石，尽管平时看不见，但它们总在那里……希望你的好奇心配得上你的勇气，指挥官。",
+	group_index = 0,
+	purchase_offset = "",
+	painting = "bulisituoer_alter",
+	lover_hand = "hand_2_02",
+	bg_sp = "",
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	ship_group = 970112,
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	skin_type = -1,
+	special_effects = "",
+	id = 9701120,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "bulisituoer_alter",
+	l2d_se = "",
+	no_showing = "1",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 302,
+	get_showing = "",
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	shop_dynamic_hx = 0,
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.711,
+				0.849,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.419,
+				0.797,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.695,
+				2.243,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.679,
+						2.41,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
 _G.pg.base.ship_skin_template[9702010] = {
 	name = "海倫娜·META",
 	shop_offset = "",
@@ -319287,7 +319414,7 @@ _G.pg.base.ship_skin_template[9705090] = {
 
 
 _G.pg.base.ship_skin_template[9705100] = {
-	name = "甘古特META",
+	name = "甘古特·META",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
@@ -320924,7 +321051,7 @@ _G.pg.base.ship_skin_template[9707080] = {
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
-	desc = "……初次见面，或者说，好久不见。指挥官，请就这样注视着我，我想多感受一下此刻的平静…… ",
+	desc = "……初次見面，或者說，好久不見。指揮官，請就這樣注視著我，我想多感受一下此刻的平靜……",
 	group_index = 0,
 	purchase_offset = "",
 	painting = "yuekecheng_alter",

@@ -21,7 +21,7 @@ pg.base.island_manage_restaurant = {}
 		performance_param = "island/item/01/10014/prefab/pre_item_01_10014",
 		ability_id = 17003,
 		map_id = 1006,
-		name = "有鱼餐馆",
+		name = "有魚餐館",
 		id = 601,
 		icon = "liaolidian",
 		item_id = {
@@ -66,12 +66,12 @@ pg.base.island_manage_restaurant = {}
 				601102
 			},
 			{
-				4039,
-				9900021
+				4009,
+				9900003
 			},
 			{
-				4040,
-				9900022
+				4010,
+				9900004
 			}
 		},
 		assistant_slot = {
@@ -97,7 +97,7 @@ pg.base.island_manage_restaurant = {}
 		performance_param = "island/item/01/10014/prefab/pre_item_01_10014",
 		ability_id = 17004,
 		map_id = 1006,
-		name = "白熊饮品",
+		name = "白熊飲品",
 		id = 602,
 		icon = "naichadian",
 		item_id = {
@@ -138,12 +138,12 @@ pg.base.island_manage_restaurant = {}
 				602103
 			},
 			{
-				4037,
-				9900019
+				4013,
+				9900007
 			},
 			{
-				4038,
-				9900020
+				4014,
+				9900008
 			}
 		},
 		assistant_slot = {
@@ -169,7 +169,7 @@ pg.base.island_manage_restaurant = {}
 		performance_param = "island/item/01/10014/prefab/pre_item_01_10014",
 		ability_id = 17005,
 		map_id = 1006,
-		name = "啾啾简餐",
+		name = "啾啾簡餐",
 		id = 603,
 		icon = "naichadian",
 		item_id = {
@@ -237,7 +237,7 @@ pg.base.island_manage_restaurant = {}
 		performance_param = "island/item/01/10014/prefab/pre_item_01_10014",
 		ability_id = 17006,
 		map_id = 1006,
-		name = "乌鱼烤肉",
+		name = "烏魚烤肉",
 		id = 604,
 		icon = "naichadian",
 		item_id = {

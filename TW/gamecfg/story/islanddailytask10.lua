@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官的效率还是一如既往地高呢……",
+			say = "指揮官的效率還是一如既往地高呢……",
 			animation = "talk",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "嗯……正是商区里缺少的东西，数量也刚刚好。",
-			subName = "商区管理员",
+			say = "嗯……正是商區裡缺少的東西，數量也剛好。",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -44,10 +44,10 @@ return {
 			}
 		},
 		{
-			say = "真的帮大忙了，商区如今的繁荣离不开你的支持。",
+			say = "真的幫大忙了，商區如今的繁榮離不開你的支援。",
 			animation = "clap",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

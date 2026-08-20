@@ -135,10 +135,11 @@ slot0._register = function(slot0)
 			callback = slot2
 		})
 	end)
-	slot0:bind(uv0.NPC_ACTION_AWARD, function (slot0, slot1, slot2)
+	slot0:bind(uv0.NPC_ACTION_AWARD, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.ISLAND_GET_NPC_ACTION_AWARD, {
 			npcId = slot1,
-			actionId = slot2
+			shipId = slot2,
+			actionId = slot3
 		})
 	end)
 	slot0:bind(uv0.ACCEPT_REQUEST, function (slot0, slot1)

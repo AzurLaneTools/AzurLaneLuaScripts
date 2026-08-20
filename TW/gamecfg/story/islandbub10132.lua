@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "呼~虽然很累，但为了看到大家开心的脸，继续加油吧！",
+			say = "呼~雖然很累，但為了看到大家開心的臉，繼續加油！",
 			hideType = 2,
 			characterId = 101300,
 			animation = "rest"

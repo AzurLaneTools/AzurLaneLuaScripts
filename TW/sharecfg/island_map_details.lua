@@ -62,7 +62,7 @@ pg.base.island_map_details = {}
 (function ()
 	pg.base.island_map_details[100101] = {
 		belong_map = 1001,
-		name = "丰壤农田",
+		name = "豐壤農田",
 		ability_id = 2001,
 		production_place_id = 101,
 		id = 100101,
@@ -70,7 +70,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100102] = {
 		belong_map = 1001,
-		name = "悠然牧场",
+		name = "悠然牧場",
 		ability_id = 2002,
 		production_place_id = 102,
 		id = 100102,
@@ -78,7 +78,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100103] = {
 		belong_map = 1001,
-		name = "风车磨坊",
+		name = "風車磨坊",
 		ability_id = 2002,
 		production_place_id = 0,
 		id = 100103,
@@ -94,7 +94,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100202] = {
 		belong_map = 1002,
-		name = "货运中心",
+		name = "貨運中心",
 		ability_id = 32,
 		production_place_id = 0,
 		id = 100202,
@@ -110,7 +110,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100204] = {
 		belong_map = 1002,
-		name = "岛屿科技",
+		name = "島嶼科技",
 		ability_id = 5007,
 		production_place_id = 702,
 		id = 100204,
@@ -118,7 +118,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100205] = {
 		belong_map = 1002,
-		name = "基地工厂",
+		name = "基地工廠",
 		ability_id = 2012,
 		production_place_id = 0,
 		id = 100205,
@@ -126,7 +126,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100206] = {
 		belong_map = 1002,
-		name = "啾啾渔场",
+		name = "啾啾漁場",
 		ability_id = 2017,
 		production_place_id = 201,
 		id = 100206,
@@ -134,7 +134,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100301] = {
 		belong_map = 1003,
-		name = "自由搭建区",
+		name = "自由搭建區",
 		ability_id = 5003,
 		production_place_id = 0,
 		id = 100301,
@@ -142,7 +142,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100302] = {
 		belong_map = 1003,
-		name = "日常补给",
+		name = "日常補給",
 		ability_id = 5003,
 		production_place_id = 0,
 		id = 100302,
@@ -150,7 +150,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100401] = {
 		belong_map = 1004,
-		name = "沉石矿山",
+		name = "沉石礦山",
 		ability_id = 2003,
 		production_place_id = 401,
 		id = 100401,
@@ -158,7 +158,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100402] = {
 		belong_map = 1004,
-		name = "翠土林场 ",
+		name = "翠土林場 ",
 		ability_id = 2004,
 		production_place_id = 402,
 		id = 100402,
@@ -166,7 +166,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100501] = {
 		belong_map = 1005,
-		name = "坠香果园",
+		name = "墜香果園",
 		ability_id = 2005,
 		production_place_id = 501,
 		id = 100501,
@@ -182,7 +182,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100601] = {
 		belong_map = 1006,
-		name = "有鱼餐馆",
+		name = "有魚餐館",
 		ability_id = 2008,
 		production_place_id = 601,
 		id = 100601,
@@ -190,7 +190,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100602] = {
 		belong_map = 1006,
-		name = "白熊饮品",
+		name = "白熊飲品",
 		ability_id = 2009,
 		production_place_id = 602,
 		id = 100602,
@@ -198,7 +198,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100603] = {
 		belong_map = 1006,
-		name = "啾啾简餐",
+		name = "啾啾簡餐",
 		ability_id = 2010,
 		production_place_id = 603,
 		id = 100603,
@@ -206,7 +206,7 @@ pg.base.island_map_details = {}
 	}
 	pg.base.island_map_details[100604] = {
 		belong_map = 1006,
-		name = "乌鱼烤肉",
+		name = "烏魚烤肉",
 		ability_id = 2011,
 		production_place_id = 604,
 		id = 100604,

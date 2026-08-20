@@ -160,6 +160,8 @@ pg.island_formula.all = {
 	7100306,
 	7100307,
 	7100308,
+	7100309,
+	7100310,
 	7130301,
 	7130302,
 	7140101,
@@ -360,7 +362,7 @@ pg.base.island_formula = {}
 (function ()
 	pg.base.island_formula[101001] = {
 		workload = 24000,
-		name = "小麦",
+		name = "小麥",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -876,7 +878,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[101013] = {
 		workload = 36000,
-		name = "鸡蛋",
+		name = "雞蛋",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -924,7 +926,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[101015] = {
 		workload = 72000,
-		name = "鲜肉",
+		name = "鮮肉",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1046,7 +1048,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201001] = {
 		workload = 54000,
-		name = "贝类",
+		name = "貝類",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1092,7 +1094,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201002] = {
 		workload = 72000,
-		name = "鲶鱼",
+		name = "鯰魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1138,7 +1140,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201003] = {
 		workload = 72000,
-		name = "鲤鱼",
+		name = "鯉魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1184,7 +1186,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201004] = {
 		workload = 72000,
-		name = "鲫鱼",
+		name = "鯽魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1230,7 +1232,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201005] = {
 		workload = 36000,
-		name = "小河虾",
+		name = "小河蝦",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1276,7 +1278,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201006] = {
 		workload = 90000,
-		name = "小龙虾",
+		name = "小龍蝦",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1322,7 +1324,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201007] = {
 		workload = 72000,
-		name = "鲈鱼",
+		name = "鱸魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1414,7 +1416,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201101] = {
 		workload = 54000,
-		name = "鱿鱼",
+		name = "魷魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1460,7 +1462,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201102] = {
 		workload = 144000,
-		name = "马鲛鱼",
+		name = "馬鮫魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1506,7 +1508,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201103] = {
 		workload = 216000,
-		name = "金枪鱼",
+		name = "金槍魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1552,7 +1554,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201104] = {
 		workload = 180000,
-		name = "三文鱼",
+		name = "三文魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1598,7 +1600,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201105] = {
 		workload = 108000,
-		name = "红鲷鱼",
+		name = "紅鯛魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1644,7 +1646,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201106] = {
 		workload = 126000,
-		name = "黑鲷鱼",
+		name = "黑鯛魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1690,7 +1692,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201107] = {
 		workload = 288000,
-		name = "黄鳍金枪鱼",
+		name = "黃鰭金槍魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1736,7 +1738,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[201108] = {
 		workload = 216000,
-		name = "海参",
+		name = "海參",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -1844,7 +1846,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[401002] = {
 		workload = 24000,
-		name = "铜矿",
+		name = "銅礦",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -1884,7 +1886,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[401004] = {
 		workload = 60000,
-		name = "铝矿",
+		name = "鋁礦",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -1924,7 +1926,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[401005] = {
 		workload = 36000,
-		name = "铁矿",
+		name = "鐵礦",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -1964,7 +1966,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[401006] = {
 		workload = 120000,
-		name = "硫矿",
+		name = "硫礦",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -2004,7 +2006,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[401007] = {
 		workload = 240000,
-		name = "银矿",
+		name = "銀礦",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -2106,7 +2108,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[402002] = {
 		workload = 30000,
-		name = "实用之木",
+		name = "實用之木",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -2146,7 +2148,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[402003] = {
 		workload = 72000,
-		name = "精选之木",
+		name = "精選之木",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -2226,7 +2228,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[501001] = {
 		workload = 45000,
-		name = "苹果",
+		name = "蘋果",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -2482,7 +2484,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[501005] = {
 		workload = 36000,
-		name = "柠檬",
+		name = "檸檬",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -2610,7 +2612,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[501007] = {
 		workload = 96000,
-		name = "橡胶",
+		name = "橡膠",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -2674,7 +2676,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[502001] = {
 		workload = 24000,
-		name = "亚麻",
+		name = "亞麻",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -2866,7 +2868,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[502004] = {
 		workload = 54000,
-		name = "茶叶",
+		name = "茶葉",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -2994,7 +2996,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[502006] = {
 		workload = 24000,
-		name = "胡萝卜",
+		name = "胡蘿蔔",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -3058,7 +3060,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[502007] = {
 		workload = 54000,
-		name = "洋葱",
+		name = "洋蔥",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -3159,7 +3161,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[601002] = {
 		workload = 18000,
-		name = "肉末烧豆腐",
+		name = "肉末燒豆腐",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3200,7 +3202,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[601003] = {
 		workload = 12000,
-		name = "蛋包饭",
+		name = "蛋包飯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3241,7 +3243,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[601004] = {
 		workload = 18000,
-		name = "白菜豆腐汤",
+		name = "白菜豆腐湯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3327,7 +3329,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[601006] = {
 		workload = 3000,
-		name = "炸鱼薯条",
+		name = "炸魚薯條",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3368,7 +3370,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[601007] = {
 		workload = 18000,
-		name = "洋葱蒸鱼",
+		name = "洋蔥蒸魚",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3409,7 +3411,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[601008] = {
 		workload = 36000,
-		name = "佛跳墙",
+		name = "佛跳牆",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3454,7 +3456,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[601101] = {
 		workload = 6000,
-		name = "经典豆腐套餐",
+		name = "經典豆腐套餐",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3497,7 +3499,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[601102] = {
 		workload = 6000,
-		name = "绵玉定食",
+		name = "綿玉定食",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3540,7 +3542,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[602001] = {
 		workload = 6000,
-		name = "苹果汁",
+		name = "蘋果汁",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3618,7 +3620,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[602003] = {
 		workload = 6000,
-		name = "蜂蜜柠檬水",
+		name = "蜂蜜檸檬水",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3782,7 +3784,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[602101] = {
 		workload = 3000,
-		name = "花香果韵",
+		name = "花香果韻",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3825,7 +3827,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[602102] = {
 		workload = 3000,
-		name = "缤纷果乐园",
+		name = "繽紛果樂園",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3868,7 +3870,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[602103] = {
 		workload = 3000,
-		name = "阳光蜜水",
+		name = "陽光蜜水",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -3952,7 +3954,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[603002] = {
 		workload = 18000,
-		name = "苹果派",
+		name = "蘋果派",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4034,7 +4036,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[603004] = {
 		workload = 12000,
-		name = "芒果糯米饭",
+		name = "芒果糯米飯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4075,7 +4077,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[603005] = {
 		workload = 9000,
-		name = "香蕉可丽饼",
+		name = "香蕉可麗餅",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4161,7 +4163,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[603007] = {
 		workload = 18000,
-		name = "海鲜饭",
+		name = "海鮮飯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4206,7 +4208,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[603101] = {
 		workload = 3000,
-		name = "香甜组合",
+		name = "香甜組合",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4249,7 +4251,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[603102] = {
 		workload = 3000,
-		name = "果园二重奏",
+		name = "果園二重奏",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4292,7 +4294,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[603103] = {
 		workload = 3000,
-		name = "莓果香橙甜点组",
+		name = "莓果香橙甜點組",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4372,7 +4374,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[604002] = {
 		workload = 18000,
-		name = "禽肉土豆拼盘",
+		name = "禽肉土豆拼盤",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4454,7 +4456,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[604005] = {
 		workload = 6000,
-		name = "胡萝卜厚蛋烧",
+		name = "胡蘿蔔厚蛋燒",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4495,7 +4497,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[604006] = {
 		workload = 15000,
-		name = "汉堡肉饭",
+		name = "漢堡肉飯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4540,7 +4542,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[604007] = {
 		workload = 6000,
-		name = "柠檬虾",
+		name = "檸檬蝦",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4581,7 +4583,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[604008] = {
 		workload = 9000,
-		name = "爆炒小龙虾",
+		name = "爆炒小龍蝦",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4618,7 +4620,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[604101] = {
 		workload = 6000,
-		name = "烤肉狂欢",
+		name = "烤肉狂歡",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4661,7 +4663,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[604102] = {
 		workload = 6000,
-		name = "能量双拼套餐",
+		name = "能量雙拼套餐",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4778,7 +4780,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[701003] = {
 		workload = 108000,
-		name = "绳索",
+		name = "繩索",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4946,7 +4948,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[701007] = {
 		workload = 48000,
-		name = "绷带",
+		name = "繃帶",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -4991,7 +4993,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[701008] = {
 		workload = 36000,
-		name = "炭笔",
+		name = "炭筆",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5032,7 +5034,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[701009] = {
 		workload = 108000,
-		name = "电缆",
+		name = "電纜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5073,7 +5075,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[701010] = {
 		workload = 144000,
-		name = "铁钉",
+		name = "鐵釘",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5149,7 +5151,7 @@ end)()
 	}
 	pg.base.island_formula[701012] = {
 		workload = 72000,
-		name = "火药",
+		name = "火藥",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5227,7 +5229,7 @@ end)()
 	}
 	pg.base.island_formula[701014] = {
 		workload = 36000,
-		name = "纸张",
+		name = "紙張",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5264,7 +5266,7 @@ end)()
 	}
 	pg.base.island_formula[701015] = {
 		workload = 72000,
-		name = "记事本",
+		name = "記事本",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5346,7 +5348,7 @@ end)()
 	}
 	pg.base.island_formula[701017] = {
 		workload = 108000,
-		name = "精选木桶",
+		name = "精選木桶",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5387,7 +5389,7 @@ end)()
 	}
 	pg.base.island_formula[701018] = {
 		workload = 180000,
-		name = "文件柜",
+		name = "檔案櫃",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5469,7 +5471,7 @@ end)()
 	}
 	pg.base.island_formula[701020] = {
 		workload = 216000,
-		name = "钟表",
+		name = "鐘錶",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5514,7 +5516,7 @@ end)()
 	}
 	pg.base.island_formula[701021] = {
 		workload = 108000,
-		name = "蓄电池",
+		name = "蓄電池",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5559,7 +5561,7 @@ end)()
 	}
 	pg.base.island_formula[701022] = {
 		workload = 144000,
-		name = "净水滤芯",
+		name = "淨水濾芯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5604,7 +5606,7 @@ end)()
 	}
 	pg.base.island_formula[701023] = {
 		workload = 36000,
-		name = "装饰画",
+		name = "裝飾畫",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5645,7 +5647,7 @@ end)()
 	}
 	pg.base.island_formula[901001] = {
 		workload = 3000,
-		name = "欧姆蛋",
+		name = "歐姆蛋",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5756,7 +5758,7 @@ end)()
 	}
 	pg.base.island_formula[901004] = {
 		workload = 12000,
-		name = "拿铁",
+		name = "拿鐵",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5838,7 +5840,7 @@ end)()
 	}
 	pg.base.island_formula[901006] = {
 		workload = 12000,
-		name = "草莓奶绿",
+		name = "草莓奶綠",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5883,7 +5885,7 @@ end)()
 	}
 	pg.base.island_formula[901101] = {
 		workload = 6000,
-		name = "晨光活力组合",
+		name = "晨光活力組合",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -5969,7 +5971,7 @@ end)()
 	}
 	pg.base.island_formula[901103] = {
 		workload = 6000,
-		name = "果香双杯乐",
+		name = "果香雙杯樂",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6012,7 +6014,7 @@ end)()
 	}
 	pg.base.island_formula[7100001] = {
 		workload = 300,
-		name = "岛屿权限认证函",
+		name = "島嶼許可權認證函",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6049,7 +6051,7 @@ end)()
 	}
 	pg.base.island_formula[7100002] = {
 		workload = 300,
-		name = "开启岛屿地图",
+		name = "開啟島嶼地圖",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6086,7 +6088,7 @@ end)()
 	}
 	pg.base.island_formula[7100003] = {
 		workload = 18000,
-		name = "解锁经营事件",
+		name = "解鎖經營事件",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6123,7 +6125,7 @@ end)()
 	}
 	pg.base.island_formula[7100004] = {
 		workload = 36000,
-		name = "集成管理界面",
+		name = "整合管理介面",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6160,7 +6162,7 @@ end)()
 	}
 	pg.base.island_formula[7110001] = {
 		workload = 300,
-		name = "开启加急订单",
+		name = "開啟加急訂單",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6197,7 +6199,7 @@ end)()
 	}
 	pg.base.island_formula[7110002] = {
 		workload = 300,
-		name = "解锁订单好评反馈",
+		name = "解鎖訂單好評反饋",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6234,7 +6236,7 @@ end)()
 	}
 	pg.base.island_formula[7110101] = {
 		workload = 300,
-		name = "订单接取数量增加I",
+		name = "訂單接取數量增加I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6271,7 +6273,7 @@ end)()
 	}
 	pg.base.island_formula[7110102] = {
 		workload = 600,
-		name = "订单接取数量增加II",
+		name = "訂單接取數量增加II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6308,7 +6310,7 @@ end)()
 	}
 	pg.base.island_formula[7110103] = {
 		workload = 36000,
-		name = "订单接取数量增加III",
+		name = "訂單接取數量增加III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6345,7 +6347,7 @@ end)()
 	}
 	pg.base.island_formula[7110301] = {
 		workload = 3000,
-		name = "岛屿订单上限提升I",
+		name = "島嶼訂單上限提升I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6382,7 +6384,7 @@ end)()
 	}
 	pg.base.island_formula[7110302] = {
 		workload = 3000,
-		name = "岛屿订单上限提升II",
+		name = "島嶼訂單上限提升II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6419,7 +6421,7 @@ end)()
 	}
 	pg.base.island_formula[7110303] = {
 		workload = 6000,
-		name = "岛屿订单上限提升III",
+		name = "島嶼訂單上限提升III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6456,7 +6458,7 @@ end)()
 	}
 	pg.base.island_formula[7110304] = {
 		workload = 36000,
-		name = "岛屿订单上限提升IV",
+		name = "島嶼訂單上限提升IV",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6493,7 +6495,7 @@ end)()
 	}
 	pg.base.island_formula[7110305] = {
 		workload = 72000,
-		name = "岛屿订单上限提升V",
+		name = "島嶼訂單上限提升V",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6530,7 +6532,7 @@ end)()
 	}
 	pg.base.island_formula[7110306] = {
 		workload = 144000,
-		name = "岛屿订单上限提升VI",
+		name = "島嶼訂單上限提升VI",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6567,7 +6569,7 @@ end)()
 	}
 	pg.base.island_formula[7110307] = {
 		workload = 180000,
-		name = "岛屿订单上限提升VII",
+		name = "島嶼訂單上限提升VII",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6604,7 +6606,7 @@ end)()
 	}
 	pg.base.island_formula[7110308] = {
 		workload = 216000,
-		name = "岛屿订单上限提升VIII",
+		name = "島嶼訂單上限提升VIII",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6641,7 +6643,7 @@ end)()
 	}
 	pg.base.island_formula[7110309] = {
 		workload = 288000,
-		name = "岛屿订单上限提升IX",
+		name = "島嶼訂單上限提升IX",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6678,7 +6680,7 @@ end)()
 	}
 	pg.base.island_formula[7110310] = {
 		workload = 432000,
-		name = "岛屿订单上限提升X",
+		name = "島嶼訂單上限提升X",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6715,7 +6717,7 @@ end)()
 	}
 	pg.base.island_formula[7120001] = {
 		workload = 6000,
-		name = "认证函生产",
+		name = "認證函生產",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6752,7 +6754,7 @@ end)()
 	}
 	pg.base.island_formula[7120002] = {
 		workload = 999999,
-		name = "认证函生产",
+		name = "認證函生產",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6779,7 +6781,7 @@ end)()
 	}
 	pg.base.island_formula[7120003] = {
 		workload = 72000,
-		name = "认证函生产",
+		name = "認證函生產",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6816,7 +6818,7 @@ end)()
 	}
 	pg.base.island_formula[7120004] = {
 		workload = 180000,
-		name = "认证函生产",
+		name = "認證函生產",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6853,7 +6855,7 @@ end)()
 	}
 	pg.base.island_formula[7120005] = {
 		workload = 360000,
-		name = "认证函生产",
+		name = "認證函生產",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6890,7 +6892,7 @@ end)()
 	}
 	pg.base.island_formula[7120006] = {
 		workload = 432000,
-		name = "认证函生产",
+		name = "認證函生產",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6927,7 +6929,7 @@ end)()
 	}
 	pg.base.island_formula[7120007] = {
 		workload = 432000,
-		name = "认证函生产",
+		name = "認證函生產",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -6964,7 +6966,7 @@ end)()
 	}
 	pg.base.island_formula[7120008] = {
 		workload = 432000,
-		name = "认证函生产",
+		name = "認證函生產",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7001,7 +7003,7 @@ end)()
 	}
 	pg.base.island_formula[7100301] = {
 		workload = 6000,
-		name = "仓库扩建I",
+		name = "倉庫擴建I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7038,7 +7040,7 @@ end)()
 	}
 	pg.base.island_formula[7100302] = {
 		workload = 36000,
-		name = "仓库扩建II",
+		name = "倉庫擴建II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7075,7 +7077,7 @@ end)()
 	}
 	pg.base.island_formula[7100303] = {
 		workload = 36000,
-		name = "仓库扩建III",
+		name = "倉庫擴建III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7112,7 +7114,7 @@ end)()
 	}
 	pg.base.island_formula[7100304] = {
 		workload = 72000,
-		name = "仓库扩建IV",
+		name = "倉庫擴建IV",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7149,7 +7151,7 @@ end)()
 	}
 	pg.base.island_formula[7100305] = {
 		workload = 144000,
-		name = "仓库扩建V",
+		name = "倉庫擴建V",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7186,7 +7188,7 @@ end)()
 	}
 	pg.base.island_formula[7100306] = {
 		workload = 180000,
-		name = "仓库扩建VI",
+		name = "倉庫擴建VI",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7223,7 +7225,7 @@ end)()
 	}
 	pg.base.island_formula[7100307] = {
 		workload = 216000,
-		name = "仓库扩建VII",
+		name = "倉庫擴建VII",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7260,7 +7262,7 @@ end)()
 	}
 	pg.base.island_formula[7100308] = {
 		workload = 288000,
-		name = "仓库扩建VIII",
+		name = "倉庫擴建VIII",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7295,9 +7297,83 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
+	pg.base.island_formula[7100309] = {
+		workload = 360000,
+		name = "倉庫擴建IX",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 120,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37100309,
+		affected_vfx = "",
+		ship_exp = 600,
+		pt_award = 0,
+		id = 7100309,
+		collectable_vfx = 0,
+		attribute = 6,
+		cost = {
+			{
+				1,
+				360000
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				360000
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	}
+	pg.base.island_formula[7100310] = {
+		workload = 432000,
+		name = "倉庫擴建X",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		task_filiter = "",
+		stamina_cost = 144,
+		item_id = 0,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 1,
+		unlock_type = 37100310,
+		affected_vfx = "",
+		ship_exp = 720,
+		pt_award = 0,
+		id = 7100310,
+		collectable_vfx = 0,
+		attribute = 6,
+		cost = {
+			{
+				1,
+				500000
+			}
+		},
+		drop_display = {},
+		commission_cost = {
+			{
+				1,
+				500000
+			}
+		},
+		commission_product = {},
+		second_product_display = {},
+		second_product = {}
+	}
 	pg.base.island_formula[7130301] = {
 		workload = 72000,
-		name = "日常补给数量增加I",
+		name = "日常補給數量增加I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7334,7 +7410,7 @@ end)()
 	}
 	pg.base.island_formula[7130302] = {
 		workload = 72000,
-		name = "日常补给数量增加II",
+		name = "日常補給數量增加II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7371,7 +7447,7 @@ end)()
 	}
 	pg.base.island_formula[7140101] = {
 		workload = 18000,
-		name = "基地科研岗位增加",
+		name = "基地科研崗位增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7408,7 +7484,7 @@ end)()
 	}
 	pg.base.island_formula[7210101] = {
 		workload = 600,
-		name = "解锁林场伐木岗位",
+		name = "解鎖林場伐木崗位",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7445,7 +7521,7 @@ end)()
 	}
 	pg.base.island_formula[7210102] = {
 		workload = 18000,
-		name = "林场伐木岗位增加I",
+		name = "林場伐木崗位增加I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7490,7 +7566,7 @@ end)()
 	}
 	pg.base.island_formula[7210103] = {
 		workload = 144000,
-		name = "林场伐木岗位增加II",
+		name = "林場伐木崗位增加II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7535,7 +7611,7 @@ end)()
 	}
 	pg.base.island_formula[7210104] = {
 		workload = 144000,
-		name = "林场伐木岗位增加III",
+		name = "林場伐木崗位增加III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7580,7 +7656,7 @@ end)()
 	}
 	pg.base.island_formula[7210401] = {
 		workload = 3000,
-		name = "手动伐木恢复加快",
+		name = "手動伐木恢復加快",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7617,7 +7693,7 @@ end)()
 	}
 	pg.base.island_formula[7210201] = {
 		workload = 18000,
-		name = "实用之木生产技术",
+		name = "實用之木生產技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7662,7 +7738,7 @@ end)()
 	}
 	pg.base.island_formula[7210202] = {
 		workload = 36000,
-		name = "精选之木生产技术",
+		name = "精選之木生產技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7707,7 +7783,7 @@ end)()
 	}
 	pg.base.island_formula[7210203] = {
 		workload = 144000,
-		name = "典雅之木生产技术",
+		name = "典雅之木生產技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7752,7 +7828,7 @@ end)()
 	}
 	pg.base.island_formula[7210501] = {
 		workload = 18000,
-		name = "手动伐木效率提升I",
+		name = "手動伐木效率提升I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7797,7 +7873,7 @@ end)()
 	}
 	pg.base.island_formula[7210502] = {
 		workload = 36000,
-		name = "手动伐木效率提升II",
+		name = "手動伐木效率提升II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7842,7 +7918,7 @@ end)()
 	}
 	pg.base.island_formula[7210601] = {
 		workload = 288000,
-		name = "伐木岗位效率提升",
+		name = "伐木崗位效率提升",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7887,7 +7963,7 @@ end)()
 	}
 	pg.base.island_formula[7220101] = {
 		workload = 600,
-		name = "解锁矿山采矿岗位",
+		name = "解鎖礦山採礦崗位",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7924,7 +8000,7 @@ end)()
 	}
 	pg.base.island_formula[7220102] = {
 		workload = 36000,
-		name = "矿山采矿岗位增加I",
+		name = "礦山採礦崗位增加I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -7969,7 +8045,7 @@ end)()
 	}
 	pg.base.island_formula[7220103] = {
 		workload = 72000,
-		name = "矿山采矿岗位增加II",
+		name = "礦山採礦崗位增加II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8014,7 +8090,7 @@ end)()
 	}
 	pg.base.island_formula[7220104] = {
 		workload = 180000,
-		name = "矿山采矿岗位增加III",
+		name = "礦山採礦崗位增加III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8059,7 +8135,7 @@ end)()
 	}
 	pg.base.island_formula[7220201] = {
 		workload = 6000,
-		name = "铝矿勘探技术",
+		name = "鋁礦勘探技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8096,7 +8172,7 @@ end)()
 	}
 	pg.base.island_formula[7220202] = {
 		workload = 18000,
-		name = "铁矿勘探技术",
+		name = "鐵礦勘探技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8141,7 +8217,7 @@ end)()
 	}
 	pg.base.island_formula[7220203] = {
 		workload = 36000,
-		name = "硫矿勘探技术",
+		name = "硫礦勘探技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8186,7 +8262,7 @@ end)()
 	}
 	pg.base.island_formula[7220204] = {
 		workload = 72000,
-		name = "银矿勘探技术",
+		name = "銀礦勘探技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8231,7 +8307,7 @@ end)()
 	}
 	pg.base.island_formula[7220401] = {
 		workload = 6000,
-		name = "手动采矿恢复加快",
+		name = "手動採礦恢復加快",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8268,7 +8344,7 @@ end)()
 	}
 	pg.base.island_formula[7220501] = {
 		workload = 3000,
-		name = "手动采矿效率提升I",
+		name = "手動採礦效率提升I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8305,7 +8381,7 @@ end)()
 	}
 	pg.base.island_formula[7220502] = {
 		workload = 36000,
-		name = "手动采矿效率提升II",
+		name = "手動採礦效率提升II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8350,7 +8426,7 @@ end)()
 	}
 	pg.base.island_formula[7220601] = {
 		workload = 360000,
-		name = "采矿岗位效率提升",
+		name = "採礦崗位效率提升",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8395,7 +8471,7 @@ end)()
 	}
 	pg.base.island_formula[7310001] = {
 		workload = 72000,
-		name = "手动播种范围增加",
+		name = "手動播種範圍增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8440,7 +8516,7 @@ end)()
 	}
 	pg.base.island_formula[7310002] = {
 		workload = 999999,
-		name = "手动播种范围增加",
+		name = "手動播種範圍增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8467,7 +8543,7 @@ end)()
 	}
 	pg.base.island_formula[7310101] = {
 		workload = 3000,
-		name = "解锁农场管理岗位",
+		name = "解鎖農場管理崗位",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8504,7 +8580,7 @@ end)()
 	}
 	pg.base.island_formula[7310102] = {
 		workload = 36000,
-		name = "农场管理岗位增加I",
+		name = "農場管理崗位增加I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8549,7 +8625,7 @@ end)()
 	}
 	pg.base.island_formula[7310103] = {
 		workload = 144000,
-		name = "农场管理岗位增加II",
+		name = "農場管理崗位增加II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8594,7 +8670,7 @@ end)()
 	}
 	pg.base.island_formula[7310104] = {
 		workload = 360000,
-		name = "农场管理岗位增加III",
+		name = "農場管理崗位增加III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8639,7 +8715,7 @@ end)()
 	}
 	pg.base.island_formula[7310301] = {
 		workload = 600,
-		name = "扩建晨露农场I",
+		name = "擴建晨露農場I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8676,7 +8752,7 @@ end)()
 	}
 	pg.base.island_formula[7310302] = {
 		workload = 3000,
-		name = "扩建晨露农场II",
+		name = "擴建晨露農場II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8713,7 +8789,7 @@ end)()
 	}
 	pg.base.island_formula[7310303] = {
 		workload = 18000,
-		name = "扩建晨露农场III",
+		name = "擴建晨露農場III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8758,7 +8834,7 @@ end)()
 	}
 	pg.base.island_formula[7310304] = {
 		workload = 18000,
-		name = "扩建晨露农场IV",
+		name = "擴建晨露農場IV",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8803,7 +8879,7 @@ end)()
 	}
 	pg.base.island_formula[7310305] = {
 		workload = 18000,
-		name = "扩建晨露农场V",
+		name = "擴建晨露農場V",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8848,7 +8924,7 @@ end)()
 	}
 	pg.base.island_formula[7310306] = {
 		workload = 36000,
-		name = "扩建晨露农场VI",
+		name = "擴建晨露農場VI",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8893,7 +8969,7 @@ end)()
 	}
 	pg.base.island_formula[7310307] = {
 		workload = 72000,
-		name = "扩建晨露农场VII",
+		name = "擴建晨露農場VII",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8938,7 +9014,7 @@ end)()
 	}
 	pg.base.island_formula[7310308] = {
 		workload = 144000,
-		name = "扩建晨露农场VIII",
+		name = "擴建晨露農場VIII",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -8983,7 +9059,7 @@ end)()
 	}
 	pg.base.island_formula[7310309] = {
 		workload = 180000,
-		name = "扩建晨露农场IX",
+		name = "擴建晨露農場IX",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9026,9 +9102,11 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
+end)()
+(function ()
 	pg.base.island_formula[7320101] = {
 		workload = 18000,
-		name = "解锁苗圃管理岗位",
+		name = "解鎖苗圃管理崗位",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9073,7 +9151,7 @@ end)()
 	}
 	pg.base.island_formula[7320102] = {
 		workload = 216000,
-		name = "苗圃管理岗位增加",
+		name = "苗圃管理崗位增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9116,11 +9194,9 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
-end)()
-(function ()
 	pg.base.island_formula[7320301] = {
 		workload = 3000,
-		name = "扩建青芽苗圃I",
+		name = "擴建青芽苗圃I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9157,7 +9233,7 @@ end)()
 	}
 	pg.base.island_formula[7320302] = {
 		workload = 36000,
-		name = "扩建青芽苗圃II",
+		name = "擴建青芽苗圃II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9202,7 +9278,7 @@ end)()
 	}
 	pg.base.island_formula[7320303] = {
 		workload = 72000,
-		name = "扩建青芽苗圃III",
+		name = "擴建青芽苗圃III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9247,7 +9323,7 @@ end)()
 	}
 	pg.base.island_formula[7320304] = {
 		workload = 216000,
-		name = "扩建青芽苗圃IV",
+		name = "擴建青芽苗圃IV",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9292,7 +9368,7 @@ end)()
 	}
 	pg.base.island_formula[7330101] = {
 		workload = 18000,
-		name = "解锁果园管理岗位",
+		name = "解鎖果園管理崗位",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9337,7 +9413,7 @@ end)()
 	}
 	pg.base.island_formula[7330102] = {
 		workload = 36000,
-		name = "果园管理岗位增加I",
+		name = "果園管理崗位增加I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9382,7 +9458,7 @@ end)()
 	}
 	pg.base.island_formula[7330103] = {
 		workload = 144000,
-		name = "果园管理岗位增加II",
+		name = "果園管理崗位增加II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9427,7 +9503,7 @@ end)()
 	}
 	pg.base.island_formula[7330104] = {
 		workload = 288000,
-		name = "果园管理岗位增加III",
+		name = "果園管理崗位增加III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9472,7 +9548,7 @@ end)()
 	}
 	pg.base.island_formula[7330301] = {
 		workload = 6000,
-		name = "扩建坠香果园I",
+		name = "擴建墜香果園I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9509,7 +9585,7 @@ end)()
 	}
 	pg.base.island_formula[7330302] = {
 		workload = 36000,
-		name = "扩建坠香果园II",
+		name = "擴建墜香果園II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9554,7 +9630,7 @@ end)()
 	}
 	pg.base.island_formula[7330303] = {
 		workload = 144000,
-		name = "扩建坠香果园III",
+		name = "擴建墜香果園III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9599,7 +9675,7 @@ end)()
 	}
 	pg.base.island_formula[7310201] = {
 		workload = 600,
-		name = "牧草种植技术",
+		name = "牧草種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9636,7 +9712,7 @@ end)()
 	}
 	pg.base.island_formula[7310202] = {
 		workload = 3000,
-		name = "旱稻种植技术",
+		name = "旱稻種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9673,7 +9749,7 @@ end)()
 	}
 	pg.base.island_formula[7320201] = {
 		workload = 18000,
-		name = "草莓种植技术",
+		name = "草莓種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9718,7 +9794,7 @@ end)()
 	}
 	pg.base.island_formula[7320202] = {
 		workload = 18000,
-		name = "棉花种植技术",
+		name = "棉花種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9763,7 +9839,7 @@ end)()
 	}
 	pg.base.island_formula[7320203] = {
 		workload = 36000,
-		name = "茶树种植技术",
+		name = "茶樹種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9808,7 +9884,7 @@ end)()
 	}
 	pg.base.island_formula[7320204] = {
 		workload = 72000,
-		name = "胡萝卜种植技术",
+		name = "胡蘿蔔種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9853,7 +9929,7 @@ end)()
 	}
 	pg.base.island_formula[7320205] = {
 		workload = 72000,
-		name = "薰衣草种植技术",
+		name = "薰衣草種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9898,7 +9974,7 @@ end)()
 	}
 	pg.base.island_formula[7320206] = {
 		workload = 144000,
-		name = "洋葱种植技术",
+		name = "洋蔥種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9943,7 +10019,7 @@ end)()
 	}
 	pg.base.island_formula[7330201] = {
 		workload = 72000,
-		name = "橡胶树种植技术",
+		name = "橡膠樹種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -9988,7 +10064,7 @@ end)()
 	}
 	pg.base.island_formula[7400001] = {
 		workload = 6000,
-		name = "牧场额外产出",
+		name = "牧場額外產出",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10025,7 +10101,7 @@ end)()
 	}
 	pg.base.island_formula[7410301] = {
 		workload = 600,
-		name = "更多的鸡！I",
+		name = "更多的雞！I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10062,7 +10138,7 @@ end)()
 	}
 	pg.base.island_formula[7410302] = {
 		workload = 3000,
-		name = "更多的鸡！II",
+		name = "更多的雞！II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10099,7 +10175,7 @@ end)()
 	}
 	pg.base.island_formula[7410303] = {
 		workload = 18000,
-		name = "更多的鸡！III",
+		name = "更多的雞！III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10144,7 +10220,7 @@ end)()
 	}
 	pg.base.island_formula[7410304] = {
 		workload = 36000,
-		name = "更多的鸡！IV",
+		name = "更多的雞！IV",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10189,7 +10265,7 @@ end)()
 	}
 	pg.base.island_formula[7410305] = {
 		workload = 72000,
-		name = "更多的鸡！V",
+		name = "更多的雞！V",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10234,7 +10310,7 @@ end)()
 	}
 	pg.base.island_formula[7420301] = {
 		workload = 3000,
-		name = "哼哼猪养殖",
+		name = "哼哼豬養殖",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10271,7 +10347,7 @@ end)()
 	}
 	pg.base.island_formula[7420302] = {
 		workload = 3000,
-		name = "更多的猪！I",
+		name = "更多的豬！I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10308,7 +10384,7 @@ end)()
 	}
 	pg.base.island_formula[7420303] = {
 		workload = 18000,
-		name = "更多的猪！II",
+		name = "更多的豬！II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10353,7 +10429,7 @@ end)()
 	}
 	pg.base.island_formula[7420304] = {
 		workload = 72000,
-		name = "更多的猪！III",
+		name = "更多的豬！III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10398,7 +10474,7 @@ end)()
 	}
 	pg.base.island_formula[7430301] = {
 		workload = 6000,
-		name = "哞哞牛养殖",
+		name = "哞哞牛養殖",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10570,7 +10646,7 @@ end)()
 	}
 	pg.base.island_formula[7440301] = {
 		workload = 18000,
-		name = "咩咩羊养殖",
+		name = "咩咩羊養殖",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10750,7 +10826,7 @@ end)()
 	}
 	pg.base.island_formula[7450301] = {
 		workload = 144000,
-		name = "蜂蜜采集点增加I",
+		name = "蜂蜜採集點增加I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10795,7 +10871,7 @@ end)()
 	}
 	pg.base.island_formula[7450302] = {
 		workload = 180000,
-		name = "蜂蜜采集点增加II",
+		name = "蜂蜜採集點增加II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10840,7 +10916,7 @@ end)()
 	}
 	pg.base.island_formula[7460001] = {
 		workload = 36000,
-		name = "升级吊杆+",
+		name = "升級吊杆+",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10885,7 +10961,7 @@ end)()
 	}
 	pg.base.island_formula[7460002] = {
 		workload = 180000,
-		name = "升级吊杆+",
+		name = "升級吊杆+",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10930,7 +11006,7 @@ end)()
 	}
 	pg.base.island_formula[7460101] = {
 		workload = 72000,
-		name = "鱼池解锁",
+		name = "魚池解鎖",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -10975,7 +11051,7 @@ end)()
 	}
 	pg.base.island_formula[7460301] = {
 		workload = 180000,
-		name = "养鱼加速",
+		name = "養魚加速",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11020,7 +11096,7 @@ end)()
 	}
 	pg.base.island_formula[7460102] = {
 		workload = 216000,
-		name = "鱼池解锁",
+		name = "魚池解鎖",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11065,7 +11141,7 @@ end)()
 	}
 	pg.base.island_formula[7460302] = {
 		workload = 216000,
-		name = "养鱼加速",
+		name = "養魚加速",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11110,7 +11186,7 @@ end)()
 	}
 	pg.base.island_formula[7460201] = {
 		workload = 18000,
-		name = "炸鱼薯条",
+		name = "炸魚薯條",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11155,7 +11231,7 @@ end)()
 	}
 	pg.base.island_formula[7460202] = {
 		workload = 36000,
-		name = "洋葱鱼肉",
+		name = "洋蔥魚肉",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11200,7 +11276,7 @@ end)()
 	}
 	pg.base.island_formula[7460203] = {
 		workload = 180000,
-		name = "海鲜饭",
+		name = "海鮮飯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11245,7 +11321,7 @@ end)()
 	}
 	pg.base.island_formula[7460204] = {
 		workload = 288000,
-		name = "佛跳墙",
+		name = "佛跳牆",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11290,7 +11366,7 @@ end)()
 	}
 	pg.base.island_formula[7460205] = {
 		workload = 144000,
-		name = "爆炒小龙虾",
+		name = "爆炒小龍蝦",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11335,7 +11411,7 @@ end)()
 	}
 	pg.base.island_formula[7460206] = {
 		workload = 72000,
-		name = "柠檬虾",
+		name = "檸檬蝦",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11380,7 +11456,7 @@ end)()
 	}
 	pg.base.island_formula[7500211] = {
 		workload = 600,
-		name = "咖啡树种植技术",
+		name = "咖啡樹種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11417,7 +11493,7 @@ end)()
 	}
 	pg.base.island_formula[7500212] = {
 		workload = 3000,
-		name = "玉米种植技术",
+		name = "玉米種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11454,7 +11530,7 @@ end)()
 	}
 	pg.base.island_formula[7500213] = {
 		workload = 6000,
-		name = "大豆种植技术",
+		name = "大豆種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11491,7 +11567,7 @@ end)()
 	}
 	pg.base.island_formula[7500214] = {
 		workload = 6000,
-		name = "土豆种植技术",
+		name = "土豆種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11536,7 +11612,7 @@ end)()
 	}
 	pg.base.island_formula[7500215] = {
 		workload = 6000,
-		name = "白菜种植技术",
+		name = "白菜種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11573,7 +11649,7 @@ end)()
 	}
 	pg.base.island_formula[7500231] = {
 		workload = 3000,
-		name = "苹果树种植技术",
+		name = "蘋果樹種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11610,7 +11686,7 @@ end)()
 	}
 	pg.base.island_formula[7500232] = {
 		workload = 6000,
-		name = "柑橘树种植技术",
+		name = "柑橘樹種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11655,7 +11731,7 @@ end)()
 	}
 	pg.base.island_formula[7500233] = {
 		workload = 18000,
-		name = "香蕉树种植技术",
+		name = "香蕉樹種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11700,7 +11776,7 @@ end)()
 	}
 	pg.base.island_formula[7500234] = {
 		workload = 18000,
-		name = "芒果树种植技术",
+		name = "芒果樹種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11745,7 +11821,7 @@ end)()
 	}
 	pg.base.island_formula[7500235] = {
 		workload = 36000,
-		name = "柠檬树种植技术",
+		name = "檸檬樹種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11790,7 +11866,7 @@ end)()
 	}
 	pg.base.island_formula[7500236] = {
 		workload = 36000,
-		name = "牛油果树种植技术",
+		name = "牛油果樹種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11835,7 +11911,7 @@ end)()
 	}
 	pg.base.island_formula[7500001] = {
 		workload = 18000,
-		name = "解锁美食搭配",
+		name = "解鎖美食搭配",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11880,7 +11956,7 @@ end)()
 	}
 	pg.base.island_formula[7510101] = {
 		workload = 180000,
-		name = "有鱼餐馆岗位增加",
+		name = "有魚餐館崗位增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11925,7 +12001,7 @@ end)()
 	}
 	pg.base.island_formula[7510201] = {
 		workload = 18000,
-		name = "肉沫烧豆腐食谱",
+		name = "肉沫燒豆腐食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11970,7 +12046,7 @@ end)()
 	}
 	pg.base.island_formula[7510202] = {
 		workload = 18000,
-		name = "蛋包饭食谱",
+		name = "蛋包飯食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12015,7 +12091,7 @@ end)()
 	}
 	pg.base.island_formula[7510203] = {
 		workload = 18000,
-		name = "白菜豆腐汤食谱",
+		name = "白菜豆腐湯食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12060,7 +12136,7 @@ end)()
 	}
 	pg.base.island_formula[7510204] = {
 		workload = 18000,
-		name = "蔬菜沙拉食谱",
+		name = "蔬菜沙拉食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12105,7 +12181,7 @@ end)()
 	}
 	pg.base.island_formula[7520001] = {
 		workload = 6000,
-		name = "建设白熊饮品",
+		name = "建設白熊飲品",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12142,7 +12218,7 @@ end)()
 	}
 	pg.base.island_formula[7520101] = {
 		workload = 288000,
-		name = "白熊饮品岗位增加",
+		name = "白熊飲品崗位增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12187,7 +12263,7 @@ end)()
 	}
 	pg.base.island_formula[7520201] = {
 		workload = 36000,
-		name = "香蕉芒果汁食谱",
+		name = "香蕉芒果汁食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12232,7 +12308,7 @@ end)()
 	}
 	pg.base.island_formula[7520202] = {
 		workload = 36000,
-		name = "蜂蜜柠檬水食谱",
+		name = "蜂蜜檸檬水食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12277,7 +12353,7 @@ end)()
 	}
 	pg.base.island_formula[7520203] = {
 		workload = 36000,
-		name = "草莓蜂蜜冰沙食谱",
+		name = "草莓蜂蜜冰沙食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12322,7 +12398,7 @@ end)()
 	}
 	pg.base.island_formula[7520204] = {
 		workload = 144000,
-		name = "薰衣草茶食谱",
+		name = "薰衣草茶食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12367,7 +12443,7 @@ end)()
 	}
 	pg.base.island_formula[7520205] = {
 		workload = 72000,
-		name = "草莓蜜沁食谱",
+		name = "草莓蜜沁食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12412,7 +12488,7 @@ end)()
 	}
 	pg.base.island_formula[7530001] = {
 		workload = 36000,
-		name = "建设啾啾简餐",
+		name = "建設啾啾簡餐",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12457,7 +12533,7 @@ end)()
 	}
 	pg.base.island_formula[7530101] = {
 		workload = 360000,
-		name = "啾啾简餐岗位增加",
+		name = "啾啾簡餐崗位增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12502,7 +12578,7 @@ end)()
 	}
 	pg.base.island_formula[7530201] = {
 		workload = 36000,
-		name = "玉米杯食谱",
+		name = "玉米杯食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12547,7 +12623,7 @@ end)()
 	}
 	pg.base.island_formula[7530202] = {
 		workload = 72000,
-		name = "芒果糯米饭食谱",
+		name = "芒果糯米飯食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12592,7 +12668,7 @@ end)()
 	}
 	pg.base.island_formula[7530203] = {
 		workload = 144000,
-		name = "香蕉可丽饼食谱",
+		name = "香蕉可麗餅食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12637,7 +12713,7 @@ end)()
 	}
 	pg.base.island_formula[7530204] = {
 		workload = 180000,
-		name = "草莓夏洛特食谱",
+		name = "草莓夏洛特食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12682,7 +12758,7 @@ end)()
 	}
 	pg.base.island_formula[7530205] = {
 		workload = 36000,
-		name = "苹果派食谱",
+		name = "蘋果派食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12727,7 +12803,7 @@ end)()
 	}
 	pg.base.island_formula[7530206] = {
 		workload = 72000,
-		name = "香橙派食谱",
+		name = "香橙派食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12772,7 +12848,7 @@ end)()
 	}
 	pg.base.island_formula[7540001] = {
 		workload = 72000,
-		name = "建设乌鱼烤肉",
+		name = "建設烏魚烤肉",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12817,7 +12893,7 @@ end)()
 	}
 	pg.base.island_formula[7540101] = {
 		workload = 432000,
-		name = "乌鱼烤肉岗位增加",
+		name = "烏魚烤肉崗位增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12862,7 +12938,7 @@ end)()
 	}
 	pg.base.island_formula[7540201] = {
 		workload = 144000,
-		name = "禽肉土豆拼盘食谱",
+		name = "禽肉土豆拼盤食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12907,7 +12983,7 @@ end)()
 	}
 	pg.base.island_formula[7540202] = {
 		workload = 180000,
-		name = "爆炒禽肉食谱",
+		name = "爆炒禽肉食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12952,7 +13028,7 @@ end)()
 	}
 	pg.base.island_formula[7540204] = {
 		workload = 180000,
-		name = "胡萝卜厚蛋烧食谱",
+		name = "胡蘿蔔厚蛋燒食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12997,7 +13073,7 @@ end)()
 	}
 	pg.base.island_formula[7540205] = {
 		workload = 216000,
-		name = "汉堡肉饭食谱",
+		name = "漢堡肉飯食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13042,7 +13118,7 @@ end)()
 	}
 	pg.base.island_formula[7550201] = {
 		workload = 3000,
-		name = "起司食谱",
+		name = "起司食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13079,7 +13155,7 @@ end)()
 	}
 	pg.base.island_formula[7550202] = {
 		workload = 6000,
-		name = "拿铁食谱",
+		name = "拿鐵食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13124,7 +13200,7 @@ end)()
 	}
 	pg.base.island_formula[7550203] = {
 		workload = 18000,
-		name = "柑橘咖啡食谱",
+		name = "柑橘咖啡食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13169,7 +13245,7 @@ end)()
 	}
 	pg.base.island_formula[7550204] = {
 		workload = 72000,
-		name = "草莓奶绿食谱",
+		name = "草莓奶綠食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13214,7 +13290,7 @@ end)()
 	}
 	pg.base.island_formula[7610101] = {
 		workload = 600,
-		name = "货运委托上限提升I",
+		name = "貨運委託上限提升I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13251,7 +13327,7 @@ end)()
 	}
 	pg.base.island_formula[7610102] = {
 		workload = 18000,
-		name = "货运委托上限提升II",
+		name = "貨運委託上限提升II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13296,7 +13372,7 @@ end)()
 	}
 	pg.base.island_formula[7610401] = {
 		workload = 3000,
-		name = "货运效率提升I",
+		name = "貨運效率提升I",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13333,7 +13409,7 @@ end)()
 	}
 	pg.base.island_formula[7610402] = {
 		workload = 18000,
-		name = "货运效率提升II",
+		name = "貨運效率提升II",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13376,9 +13452,11 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
+end)()
+(function ()
 	pg.base.island_formula[7610403] = {
 		workload = 36000,
-		name = "货运效率提升III",
+		name = "貨運效率提升III",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13423,7 +13501,7 @@ end)()
 	}
 	pg.base.island_formula[7620101] = {
 		workload = 36000,
-		name = "啾咖啡岗位增加",
+		name = "啾咖啡崗位增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13466,11 +13544,9 @@ end)()
 		second_product_display = {},
 		second_product = {}
 	}
-end)()
-(function ()
 	pg.base.island_formula[7630101] = {
 		workload = 36000,
-		name = "木料加工岗位增加",
+		name = "木料加工崗位增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13515,7 +13591,7 @@ end)()
 	}
 	pg.base.island_formula[7630201] = {
 		workload = 18000,
-		name = "记事本生产工艺",
+		name = "記事本生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13560,7 +13636,7 @@ end)()
 	}
 	pg.base.island_formula[7630202] = {
 		workload = 18000,
-		name = "桌椅生产工艺",
+		name = "桌椅生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13605,7 +13681,7 @@ end)()
 	}
 	pg.base.island_formula[7630203] = {
 		workload = 72000,
-		name = "精选木桶生产工艺",
+		name = "精選木桶生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13650,7 +13726,7 @@ end)()
 	}
 	pg.base.island_formula[7630204] = {
 		workload = 144000,
-		name = "文件柜生产工艺",
+		name = "檔案櫃生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13695,7 +13771,7 @@ end)()
 	}
 	pg.base.island_formula[7630205] = {
 		workload = 144000,
-		name = "装饰画生产工艺",
+		name = "裝飾畫生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13740,7 +13816,7 @@ end)()
 	}
 	pg.base.island_formula[7640001] = {
 		workload = 36000,
-		name = "解锁工业生产设备",
+		name = "解鎖工業生產裝置",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13785,7 +13861,7 @@ end)()
 	}
 	pg.base.island_formula[7640101] = {
 		workload = 72000,
-		name = "工业生产岗位增加",
+		name = "工業生產崗位增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13830,7 +13906,7 @@ end)()
 	}
 	pg.base.island_formula[7640201] = {
 		workload = 36000,
-		name = "铁钉生产工艺",
+		name = "鐵釘生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13875,7 +13951,7 @@ end)()
 	}
 	pg.base.island_formula[7640202] = {
 		workload = 72000,
-		name = "电缆生产工艺",
+		name = "電纜生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13920,7 +13996,7 @@ end)()
 	}
 	pg.base.island_formula[7640203] = {
 		workload = 72000,
-		name = "硫酸生产工艺",
+		name = "硫酸生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -13965,7 +14041,7 @@ end)()
 	}
 	pg.base.island_formula[7640204] = {
 		workload = 180000,
-		name = "火药生产工艺",
+		name = "火藥生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14010,7 +14086,7 @@ end)()
 	}
 	pg.base.island_formula[7640205] = {
 		workload = 180000,
-		name = "餐具生产工艺",
+		name = "餐具生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14055,7 +14131,7 @@ end)()
 	}
 	pg.base.island_formula[7650001] = {
 		workload = 144000,
-		name = "解锁电子加工设备",
+		name = "解鎖電子加工裝置",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14100,7 +14176,7 @@ end)()
 	}
 	pg.base.island_formula[7650101] = {
 		workload = 216000,
-		name = "电子加工岗位增加",
+		name = "電子加工崗位增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14145,7 +14221,7 @@ end)()
 	}
 	pg.base.island_formula[7650201] = {
 		workload = 180000,
-		name = "钟表生产工艺",
+		name = "鐘錶生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14190,7 +14266,7 @@ end)()
 	}
 	pg.base.island_formula[7650202] = {
 		workload = 288000,
-		name = "蓄电池生产工艺",
+		name = "蓄電池生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14235,7 +14311,7 @@ end)()
 	}
 	pg.base.island_formula[7650203] = {
 		workload = 360000,
-		name = "净水滤芯生产工艺",
+		name = "淨水濾芯生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14280,7 +14356,7 @@ end)()
 	}
 	pg.base.island_formula[7660001] = {
 		workload = 72000,
-		name = "解锁手工制作设备",
+		name = "解鎖手工製作裝置",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14325,7 +14401,7 @@ end)()
 	}
 	pg.base.island_formula[7660101] = {
 		workload = 180000,
-		name = "手工制作岗位增加",
+		name = "手工製作崗位增加",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14370,7 +14446,7 @@ end)()
 	}
 	pg.base.island_formula[7660201] = {
 		workload = 72000,
-		name = "皮革生产工艺",
+		name = "皮革生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14415,7 +14491,7 @@ end)()
 	}
 	pg.base.island_formula[7660202] = {
 		workload = 72000,
-		name = "绳索生产工艺",
+		name = "繩索生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14460,7 +14536,7 @@ end)()
 	}
 	pg.base.island_formula[7660203] = {
 		workload = 144000,
-		name = "手套生产工艺",
+		name = "手套生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14505,7 +14581,7 @@ end)()
 	}
 	pg.base.island_formula[7660204] = {
 		workload = 144000,
-		name = "香囊生产工艺",
+		name = "香囊生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14550,7 +14626,7 @@ end)()
 	}
 	pg.base.island_formula[7660205] = {
 		workload = 216000,
-		name = "鞋靴生产工艺",
+		name = "鞋靴生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14595,7 +14671,7 @@ end)()
 	}
 	pg.base.island_formula[7660206] = {
 		workload = 288000,
-		name = "绷带生产工艺",
+		name = "繃帶生產工藝",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14774,7 +14850,7 @@ end)()
 	}
 	pg.base.island_formula[9900003] = {
 		workload = 18000,
-		name = "柿子饼",
+		name = "柿子餅",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14814,7 +14890,7 @@ end)()
 	}
 	pg.base.island_formula[9900004] = {
 		workload = 18000,
-		name = "松茸鸡汤",
+		name = "松茸雞湯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -14942,7 +15018,7 @@ end)()
 	}
 	pg.base.island_formula[9900007] = {
 		workload = 18000,
-		name = "胡萝卜秋梨汁",
+		name = "胡蘿蔔秋梨汁",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -15026,7 +15102,7 @@ end)()
 	}
 	pg.base.island_formula[9900009] = {
 		workload = 96000,
-		name = "芦笋",
+		name = "蘆筍",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -15093,7 +15169,7 @@ end)()
 	}
 	pg.base.island_formula[9900010] = {
 		workload = 54000,
-		name = "凤梨",
+		name = "鳳梨",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -15160,7 +15236,7 @@ end)()
 	}
 	pg.base.island_formula[9900011] = {
 		workload = 6000,
-		name = "鲜榨菠萝汁",
+		name = "鮮榨菠蘿汁",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -15244,7 +15320,7 @@ end)()
 	}
 	pg.base.island_formula[9900013] = {
 		workload = 9000,
-		name = "凉拌双笋",
+		name = "涼拌雙筍",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -15288,7 +15364,7 @@ end)()
 	}
 	pg.base.island_formula[9900014] = {
 		workload = 12000,
-		name = "芦笋炒虾仁",
+		name = "蘆筍炒蝦仁",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -15332,7 +15408,7 @@ end)()
 	}
 	pg.base.island_formula[9900015] = {
 		workload = 48000,
-		name = "袋装荠菜干",
+		name = "袋裝薺菜乾",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -15483,7 +15559,7 @@ end)()
 	}
 	pg.base.island_formula[9900018] = {
 		workload = 36000,
-		name = "黄瓜",
+		name = "黃瓜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -15550,7 +15626,7 @@ end)()
 	}
 	pg.base.island_formula[9900019] = {
 		workload = 6000,
-		name = "黄瓜汁",
+		name = "黃瓜汁",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -15630,7 +15706,7 @@ end)()
 	}
 	pg.base.island_formula[9900021] = {
 		workload = 18000,
-		name = "苋菜饭团",
+		name = "莧菜飯糰",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,

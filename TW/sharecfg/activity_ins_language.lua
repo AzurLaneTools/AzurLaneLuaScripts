@@ -8196,6 +8196,49 @@ pg.activity_ins_language.all = {
 	"op_reply_20008_2_3",
 	"op_reply_20008_2_4",
 	"op_reply_20008_2_5",
+	"ins_20011",
+	"ins_discuss_20011_1",
+	"ins_discuss_20011_2",
+	"ins_reply_20011_2_1",
+	"ins_reply_20011_2_2",
+	"ins_discuss_20011_3",
+	"ins_reply_20011_3_1",
+	"ins_reply_20011_3_2",
+	"ins_reply_20011_3_3",
+	"ins_discuss_20011_4",
+	"ins_reply_20011_4_1",
+	"ins_reply_20011_4_2",
+	"ins_reply_20011_4_3",
+	"ins_discuss_20011_5",
+	"ins_reply_20011_5_1",
+	"ins_reply_20011_5_2",
+	"ins_discuss_20011_6",
+	"ins_reply_20011_6_1",
+	"ins_reply_20011_6_2",
+	"ins_reply_20011_6_3",
+	"ins_reply_20011_6_4",
+	"ins_reply_20011_6_5",
+	"ins_discuss_20011_7",
+	"ins_reply_20011_7_1",
+	"ins_reply_20011_7_2",
+	"ins_reply_20011_7_3",
+	"ins_reply_20011_7_4",
+	"ins_reply_20011_7_5",
+	"ins_reply_20011_7_6",
+	"ins_reply_20011_7_7",
+	"ins_discuss_20011_8",
+	"ins_reply_20011_8_1",
+	"ins_reply_20011_8_2",
+	"ins_reply_20011_8_3",
+	"ins_op_20011_1_1",
+	"op_reply_20011_1_1",
+	"op_reply_20011_1_2",
+	"op_reply_20011_1_3",
+	"ins_op_20011_1_2",
+	"op_reply_20011_2_1",
+	"op_reply_20011_2_2",
+	"op_reply_20011_2_3",
+	"op_reply_20011_2_4",
 	"ins_20009",
 	"ins_discuss_20009_1",
 	"ins_discuss_20009_2",
@@ -33000,6 +33043,137 @@ end)()
 	pg.base.activity_ins_language.op_reply_20008_2_5 = {
 		value = ""
 	}
+	pg.base.activity_ins_language.ins_20011 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_3_2 = {
+		value = ""
+	}
+end)()
+(function ()
+	pg.base.activity_ins_language.ins_reply_20011_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_4_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_4_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_4_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_5_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_5_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_6_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_6_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_6_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_6_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_6_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_7 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_7_7 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20011_8 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_8_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_8_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20011_8_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20011_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20011_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20011_2_4 = {
+		value = ""
+	}
 	pg.base.activity_ins_language.ins_20009 = {
 		value = ""
 	}
@@ -33024,8 +33198,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20009_5_2 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20009_5_3 = {
 		value = ""
 	}

@@ -98,7 +98,8 @@ pg.memory_storyline.all = {
 	93,
 	94,
 	95,
-	96
+	96,
+	97
 }
 pg.base = pg.base or {}
 pg.base.memory_storyline = {}
@@ -2579,18 +2580,45 @@ pg.base.memory_storyline = {}
 		}
 	}
 	pg.base.memory_storyline[96] = {
+		description = "有些人總是要來，有些事總是要面對。不管怎麼說，上門就是客。不請自來的客人－表明你的來意吧。",
+		name = "有客自來",
+		column = 60,
+		world_id = "",
+		bgm = "story-richang-light",
+		row = 0,
+		chapter = 5,
+		memory_lock = 0,
+		id = 96,
+		icon = "InterludeOne_3",
+		sort = 1,
+		memory_id = {
+			1,
+			372
+		},
+		shipnation = {
+			7,
+			1,
+			2,
+			4,
+			5
+		},
+		link_event = {
+			97
+		}
+	}
+	pg.base.memory_storyline[97] = {
 		description = "敬請期待",
 		name = "敬請期待",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 60,
+		column = 61,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 96,
+		id = 97,
 		icon = "",
 		sort = 0
 	}

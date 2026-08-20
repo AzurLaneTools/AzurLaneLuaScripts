@@ -1045883,6 +1045883,64 @@ _G.pg.base.expedition_data_template[2044302] = {
 }
 
 
+_G.pg.base.expedition_data_template[2056000] = {
+	name = "敵方旗艦",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 300,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2056000,
+	level = 120,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2056000,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-deepecho",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50154,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
 _G.pg.base.expedition_data_template[2049101] = {
 	name = "敵方旗艦",
 	icon = "bossicon",
@@ -1128052,6 +1128110,801 @@ _G.pg.base.expedition_data_template[296300] = {
 	map_id = {
 		{
 			50006,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296301] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296301,
+	level = 70,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296301,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296302] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296302,
+	level = 74,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296302,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296303] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296303,
+	level = 78,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296303,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296304] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296304,
+	level = 82,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296304,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296305] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296305,
+	level = 86,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296305,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296306] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296306,
+	level = 90,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296306,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296307] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296307,
+	level = 94,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296307,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296308] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296308,
+	level = 98,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296308,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296309] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296309,
+	level = 102,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296309,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296310] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296310,
+	level = 106,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296310,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296311] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296311,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296311,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296312] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296312,
+	level = 114,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296312,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296313] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296313,
+	level = 118,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296313,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296314] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296314,
+	level = 122,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296314,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296315] = {
+	objective_3 = "",
+	name = "信標·META",
+	icon = "yuekecheng_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296315,
+	level = 126,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296315,
+	scale = 100,
+	guide_desc = "",
+	bgm = "theme-arbitrator-tower",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			8000,
 			1
 		}
 	},

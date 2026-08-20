@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "麦子香……闻着……好想打个盹……",
+			say = "麥子香……聞著……好想打個盹……",
 			characterId = 100100
 		}
 	}

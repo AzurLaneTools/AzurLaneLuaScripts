@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "流水线的声音是不是有些不太对？",
+			say = "流水線的聲音是不是有些不太對？",
 			characterId = 100900
 		}
 	}

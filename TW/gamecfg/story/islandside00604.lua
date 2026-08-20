@@ -5,7 +5,7 @@ return {
 	scripts = {
 		{
 			characterId = 0,
-			say = "果然在这里么。",
+			say = "果然在這裡嗎。",
 			camera = "StoryCameraSideTask1",
 			typewriter = {
 				speed = 0.05,
@@ -13,7 +13,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，看起来也没什么问题，应该是沿路吃着草过来的。",
+			say = "嗯，看起來也沒什麼問題，應該是沿路吃著草過來的。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			say = "想办法把它带回去吧，得小心些，别让它受惊了。",
+			say = "想辦法把它帶回去吧，得小心些，別讓它受驚了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

@@ -19,9 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官，需要斯蒂芬妮为您做些什么吗？",
+			say = "指揮官，需要史蒂芬妮為您做些什麼嗎？",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			face2Face = {
 				{
 					0,
@@ -34,25 +34,25 @@ return {
 			}
 		},
 		{
-			say = "向斯蒂芬妮介绍了前情……",
+			say = "向史蒂芬妮介紹了前情……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……哦，哦~原来是这样！",
+			say = "……哦，哦~原來是這樣！",
 			animation = "curious",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "想要支持帕特莉的话……就给她更多订单吧！",
-			subName = "货运管理员",
+			say = "想要支持帕特莉的話……就給她更多訂單吧！",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -60,17 +60,17 @@ return {
 			}
 		},
 		{
-			say = "这样保证能让她感受到，您对她能力的绝对信任哦~",
+			say = "這樣保證能讓她感受到，您對她能力的絕對信任哦~",
 			animation = "clap",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我会当真的哦。",
+			say = "我會當真的哦。",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -79,18 +79,18 @@ return {
 			}
 		},
 		{
-			say = "咦——我是开玩笑的啦！",
+			say = "咦——我是開玩笑的啦！",
 			animation = "scare",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过这种事情，指挥官问我也没用啦~",
-			subName = "货运管理员",
+			say = "不過這種事情，指揮官問我也沒用~",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			say = "帕特莉本人才最清楚自己需要什么呀。",
-			subName = "货运管理员",
+			say = "帕特莉本人才最清楚自己需要什麼呀。",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			say = "说的有道理，谢了，斯蒂芬妮。",
+			say = "說的有道理，謝了，史蒂芬妮。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			say = "我又没做什么啦~期待您的好消息哦~",
-			subName = "货运管理员",
+			say = "我又沒做什麼呢~期待您的好消息啦~",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,

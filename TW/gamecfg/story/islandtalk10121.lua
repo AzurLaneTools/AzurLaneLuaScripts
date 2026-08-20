@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			animation = "hi",
 			characterId = 101200,
-			say = "您好~想喝点什么，或者尝尝苹果派？菜单在这里。",
+			say = "您好~想喝點什麼，或是嚐嚐歐姆蛋？菜單在這裡。",
 			face2Face = {
 				{
 					0,

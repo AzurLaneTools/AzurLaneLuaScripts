@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "指挥官能够通过完成岛屿开发和每日计划提升岛屿开发等级",
+				text = "完成島嶼開發和每日計劃可以獲得島嶼開發經驗",
 				mode = 2,
 				char = 1,
 				posY = -320,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "提升岛屿开发等级可以解锁更多的岛屿内容",
+				text = "提升島嶼開發等級可以解鎖更多島嶼內容",
 				mode = 2,
 				char = 1,
 				posY = -320,

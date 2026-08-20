@@ -37,7 +37,8 @@ slot0.checkPicFileState = function(slot0)
 	slot1, slot2 = nil
 
 	for slot6, slot7 in ipairs(pg.gallery_config.all) do
-		slot0.galleryPicExistStateTable[slot7] = checkABExist(GalleryConst.PIC_PATH_PREFIX .. pg.gallery_config[slot7].illustration)
+		slot10 = GalleryConst.GetGalleryPreviewPicPathByID(slot7)
+		slot0.galleryPicExistStateTable[slot7] = checkABExist(GalleryConst.PIC_PATH_PREFIX .. pg.gallery_config[slot7].illustration) and slot10 and checkABExist(slot10)
 	end
 end
 
@@ -369,6 +370,10 @@ end
 
 slot0.isLikedByPicID = function(slot0, slot1)
 	return table.contains(slot0.galleryPicLikeIDList, slot1)
+end
+
+slot0.getGalleryLikeIDList = function(slot0)
+	return slot0.galleryPicLikeIDList
 end
 
 slot0.addMusicIDToLikeList = function(slot0, slot1)

@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "（港口的零件应该就这些了，下一个地方是……）",
+			say = "（港口的零件應該就這些了，下一個地方是……）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "（栖风原野么，之前站台就是被这东西砸坏的吧。）",
+			say = "（棲風原野嗎，之前站台就是被這東西砸壞的吧。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

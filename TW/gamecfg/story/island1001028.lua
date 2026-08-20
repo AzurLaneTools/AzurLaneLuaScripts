@@ -21,7 +21,7 @@ return {
 		{
 			animation = "talk",
 			characterId = 0,
-			say = "梅莉！你看我把谁带回来了？",
+			say = "梅莉！你看我把誰帶回來了？",
 			face2Face = {
 				{
 					0,
@@ -34,18 +34,18 @@ return {
 			}
 		},
 		{
-			say = "哇啊啊！指挥官！你真的抓到它了！太厉害了！",
+			say = "哇啊啊！指揮官！你真的抓到它了！太厲害了！",
 			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "刚才可把我吓一跳！还以为自己的牧场才刚开始就要倒闭了呢！",
-			subName = "牧场管理员",
+			say = "剛才可把我嚇一跳！還以為自己的牧場才剛開始就要倒閉了呢！",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "这家伙还挺能藏的，一直躲在那边的树阴下……",
+			say = "這傢伙還挺能藏的，一直躲在那邊的樹蔭下……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -61,10 +61,10 @@ return {
 			}
 		},
 		{
-			say = "指挥官！你就是梅莉的救命恩人！",
+			say = "指揮官！你就是梅莉的救命恩人！",
 			animation = "nod",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "行了行了，举手之劳，不过以后可要把它看好了哦。",
+			say = "行了行了，舉手之勞，不過以後可把它看好了哦。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -80,10 +80,10 @@ return {
 			}
 		},
 		{
-			say = "放心吧！以后我绝对不会让它跑太远的，真是太让人操心了。",
+			say = "放心吧！以後我絕對不會讓它跑太遠的，真是太讓人擔心了。",
 			animation = "sad",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			say = "好啦好啦~在外面饿坏了吧？我这就给你添些香喷喷的……",
-			subName = "牧场管理员",
+			say = "好啦好啦~在外面餓壞了吧？我這就為你添些香噴噴的……",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -111,14 +111,14 @@ return {
 			say = "咦咦咦——？！",
 			animation = "scare",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "怎么了，梅莉？",
+			say = "怎麼了，梅麗？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 			}
 		},
 		{
-			say = "饲、饲料……见底了！空啦！一点都没有啦！",
+			say = "飼、飼料……見底了！空啦！一點都沒有啦！",
 			animation = "embarrass",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 		},
 		{
 			animation = "shakehead",
-			say = "……你这牧场，还真是状况不断。",
+			say = "……妳這牧場，還真是狀況不斷。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			say = "平时这些饲料，你是从哪儿弄来的？",
+			say = "平時這些飼料，妳是從哪裡弄來的？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -153,18 +153,18 @@ return {
 			}
 		},
 		{
-			say = "嗯……都是赫莫定期给我的！",
+			say = "嗯……都是赫莫定期給我的！",
 			animation = "think",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "对了！她和我说过，好像是用小麦在磨坊里磨出来的！",
-			subName = "牧场管理员",
+			say = "對了！她跟我說過，好像是用小麥在磨坊裡磨出來的！",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -173,7 +173,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "磨坊……小麦粉？明白了，你先在这里等我一下。",
+			say = "磨坊……小麥粉？明白了，你先在這裡等我一下。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			say = "正好，农场里刚种了些新麦子，我去磨坊问问看。",
+			say = "正好，農場裡剛種了些新麥子，我去磨坊問問看。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -189,18 +189,18 @@ return {
 			}
 		},
 		{
-			say = "指挥官！你真是太可靠了！",
+			say = "指揮官！你真是太可靠了！",
 			animation = "clap",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我和咯咯鸡会一直在这里等你回来的。",
-			subName = "牧场管理员",
+			say = "我和咯咯雞會一直在這裡等你回來的。",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,

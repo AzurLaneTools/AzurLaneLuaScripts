@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "玛丽？你怎么在这里……",
+			say = "瑪麗？你怎麼在這裡……",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			subName = "集会岛向导",
-			say = "欢~迎~光~临~！",
+			subName = "集會島向導",
+			say = "歡~迎~光~臨~！",
 			characterId = 101300,
 			animation = "hi",
 			typewriter = {
@@ -44,16 +44,16 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "亲爱的指挥官~欢迎来到集会岛！我是你的专属向导，玛丽！",
+			say = "親愛的指揮官~歡迎來到集會島！我是你的專屬嚮導，瑪麗！",
 			characterId = 101300,
-			subName = "集会岛向导",
+			subName = "集會島向導",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……哈？这……这不对吧？",
+			say = "……哈？這……這不對吧？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "怎么看也不像是宝藏岛的样子？",
+			say = "怎麼看也不像是寶藏島的樣子？",
 			optionFlag = 1,
 			characterId = 0,
 			typewriter = {
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			say = "这里看起来更像是休闲度假岛……",
+			say = "這裡看起來更像是休閒渡假島……",
 			optionFlag = 2,
 			characterId = 0,
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			subName = "集会岛向导",
-			say = "宝藏岛？啊，那都是刚来开发区时大家谣传出来的名字了。",
+			subName = "集會島向導",
+			say = "寶藏島？啊，那都是剛來開發區時大家謠傳出來的名字了。",
 			characterId = 101300,
 			animation = "doubt",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			say = "现在的它已经是整个岛屿开发区的一部分了，名字叫集会岛哦~",
-			subName = "集会岛向导",
+			say = "現在的它已經是整個島嶼開發區的一部分了，名字叫集會島哦~",
+			subName = "集會島向導",
 			characterId = 101300,
 			typewriter = {
 				speed = 0.05,
@@ -109,16 +109,16 @@ return {
 		},
 		{
 			animation = "elation",
-			say = "本该是一个超~级棒的供大家休闲娱乐的地方！",
+			say = "本該是一個超~級棒的供大家休閒娛樂的地方！",
 			characterId = 101300,
-			subName = "集会岛向导",
+			subName = "集會島向導",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "结果这里也因为资金问题停止开发了？",
+			say = "結果這裡也因為資金問題停止開發了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			subName = "集会岛向导",
-			say = "没错哦~指挥官看到后面那一大片空地了吗？",
+			subName = "集會島向導",
+			say = "沒錯哦~指揮官看到後面那一大片空地了嗎？",
 			characterId = 101300,
 			animation = "clap",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			say = "城堡、游乐园、海景别墅……规划虽然都有，不过只能等以后再说啦~",
-			subName = "集会岛向导",
+			say = "城堡、遊樂園、海景別墅……規劃雖然都有，不過只能等以後再說~",
+			subName = "集會島向導",
 			characterId = 101300,
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			say = "但即使是未完成版，这里也是个休息放松的好地方哦~",
-			subName = "集会岛向导",
+			say = "但即使是未完成版，這裡也是個休息放鬆的好地方哦~",
+			subName = "集會島向導",
 			characterId = 101300,
 			typewriter = {
 				speed = 0.05,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			say = "……原来如此，我算是明白{namecode:98:明石}那家伙为什么会如此热心了。",
+			say = "……原來如此，我算是明白為什麼明石那傢伙會如此熱心了。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			say = "还特意帮我修好了飞行器……果然是有更大的图谋。",
+			say = "還特意幫我修好飛行器了……果然是有更大的圖謀。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			say = "所以玛丽向导，既然宝藏岛是谣言……那所谓的宝藏应该也只是{namecode:98:明石}为了卖建材编出来的吧？",
+			say = "所以瑪麗嚮導，既然寶藏島是謠言……那所謂的寶藏應該也只是明石為了賣建材編出來的吧？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			subName = "集会岛向导",
-			say = "不是哦~集会岛上是真的有一处能每天获得各种好东西的地方。",
+			subName = "集會島向導",
+			say = "不是哦~集會島上是真的有一處能每天獲得各種好東西的地方。",
 			characterId = 101300,
 			animation = "shakehead",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			say = "好东西？",
+			say = "好東西？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			say = "嗯，是{namecode:98:明石}留下的装置，能够辅助定位集会岛的坐标。",
-			subName = "集会岛向导",
+			say = "嗯，是明石留下的裝置，能夠輔助定位集會島的座標。",
+			subName = "集會島向導",
 			characterId = 101300,
 			typewriter = {
 				speed = 0.05,
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			say = "这和宝藏有什么关系？",
+			say = "這和寶藏有什麼關係？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -215,9 +215,9 @@ return {
 		},
 		{
 			animation = "elation",
-			say = "指挥官和我一起去看看就知道了！",
+			say = "指揮官跟我一起去看看就知道了！",
 			characterId = 101300,
-			subName = "集会岛向导",
+			subName = "集會島向導",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

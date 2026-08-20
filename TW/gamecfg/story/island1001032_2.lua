@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "嘿嘿嘿~指挥官，怎么样？这些东西还不错吧？",
+			say = "嘿嘿嘿~指揮官，怎麼樣？這些東西還不錯吧？",
 			animation = "clap",
 			characterId = 101300,
-			subName = "集会岛向导",
+			subName = "集會島向導",
 			face2Face = {
 				{
 					0,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，都是些很实用的物品。",
+			say = "嗯，都是些很實用的物品。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			say = "那指挥官，接下来你可以去旁边的自由搭建区看看哦~",
-			subName = "集会岛向导",
+			say = "那個指揮官，接下來你可以去旁邊的自由搭建區看看~",
+			subName = "集會島向導",
 			characterId = 101300,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "自由搭建区？",
+			say = "自由建區？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -62,26 +62,17 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "嘻嘻~指挥官看到我们来时经过的那一大片空地了吗？",
+			say = "嘻嘻~指揮官看到我們來時經過的空地了嗎？",
 			characterId = 101300,
-			subName = "集会岛向导",
+			subName = "集會島向導",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那里就是集会岛上的自由搭建区哦~我们特意给你留出来的地方！",
-			subName = "集会岛向导",
-			characterId = 101300,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "指挥官想建什么都可以告诉莉莎姐，不管什么家具和建筑，她都能很快弄好。",
-			subName = "集会岛向导",
+			say = "那裡就是集會島上的自由搭建區哦~我們特意留出來的地方！",
+			subName = "集會島向導",
 			characterId = 101300,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +80,16 @@ return {
 			}
 		},
 		{
-			say = "真的什么都可以？",
+			say = "指揮官想蓋什麼都可以告訴莉莎姐，不管什麼傢俱和建築，她都能很快弄好。",
+			subName = "集會島向導",
+			characterId = 101300,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "真的什麼都可以？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -98,16 +98,16 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "当然！比如我设计的这个熊熊候车亭，指挥官就可以拿去给莉莎姐试试~",
+			say = "當然！例如我設計的這個熊熊候車亭，指揮官就可以拿去給莉莎姊試試~",
 			characterId = 101300,
-			subName = "集会岛向导",
+			subName = "集會島向導",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "候车亭……你想让车从海底开过来？",
+			say = "候車亭……妳想讓車子從海底開過來？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "只是装饰啦~开发区里各处都有的东西，集会岛上也不能缺嘛！",
+			say = "只是裝飾啦~開發區裡各處都有的東西，集會島上也不能缺！",
 			characterId = 101300,
-			subName = "集会岛向导",
+			subName = "集會島向導",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,9 +126,9 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "好啦好啦~指挥官快去吧！",
+			say = "好啦好啦~指揮官快去吧！",
 			characterId = 101300,
-			subName = "集会岛向导",
+			subName = "集會島向導",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

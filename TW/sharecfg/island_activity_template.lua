@@ -3,7 +3,6 @@ pg.island_activity_template = rawget(pg, "island_activity_template") or setmetat
 	__name = "island_activity_template"
 }, confNEO)
 pg.island_activity_template.all = {
-	7110,
 	990001,
 	990002,
 	990003,
@@ -20,29 +19,20 @@ pg.island_activity_template.all = {
 	990017,
 	990018,
 	990019,
-	990021
+	990021,
+	990022,
+	990023,
+	990024,
+	990025
 }
 pg.base = pg.base or {}
 pg.base.island_activity_template = {}
 
 (function ()
-	pg.base.island_activity_template[7110] = {
-		config_client = "",
-		is_show = 1,
-		title_res_tag = "问卷调查",
-		id = 7110,
-		config_id = 0,
-		ability_id = 0,
-		config_data = "",
-		page_info = {
-			class_name = "IslandActivitySurveyPage",
-			ui_name = "IslandActivitySurveyPage"
-		}
-	}
 	pg.base.island_activity_template[990001] = {
 		config_client = "",
 		is_show = 99,
-		title_res_tag = "秋季特产经营",
+		title_res_tag = "秋季特產經營",
 		id = 990001,
 		config_id = 0,
 		ability_id = 33001,
@@ -85,7 +75,7 @@ pg.base.island_activity_template = {}
 	pg.base.island_activity_template[990005] = {
 		config_client = "",
 		is_show = 99,
-		title_res_tag = "春季特产经营",
+		title_res_tag = "春季特產經營",
 		id = 990005,
 		config_id = 0,
 		ability_id = 33001,
@@ -151,7 +141,7 @@ pg.base.island_activity_template = {}
 	pg.base.island_activity_template[990014] = {
 		config_client = "",
 		is_show = 1,
-		title_res_tag = "战术推演",
+		title_res_tag = "戰術推演",
 		id = 990014,
 		config_id = 0,
 		ability_id = 2,
@@ -164,7 +154,7 @@ pg.base.island_activity_template = {}
 	pg.base.island_activity_template[990015] = {
 		config_client = "",
 		is_show = 1,
-		title_res_tag = "推演配给",
+		title_res_tag = "推演配給",
 		id = 990015,
 		config_id = 1,
 		ability_id = 2,
@@ -177,7 +167,7 @@ pg.base.island_activity_template = {}
 	pg.base.island_activity_template[990016] = {
 		config_client = "",
 		is_show = 99,
-		title_res_tag = "夏季特产经营",
+		title_res_tag = "夏季特產經營",
 		id = 990016,
 		config_id = 0,
 		ability_id = 33001,
@@ -220,7 +210,7 @@ pg.base.island_activity_template = {}
 	pg.base.island_activity_template[990021] = {
 		config_client = "",
 		is_show = 1,
-		title_res_tag = "核心链接",
+		title_res_tag = "核心連結",
 		id = 990021,
 		config_id = 0,
 		ability_id = 0,
@@ -251,5 +241,48 @@ pg.base.island_activity_template = {}
 				90002007
 			}
 		}
+	}
+	pg.base.island_activity_template[990022] = {
+		config_client = "",
+		is_show = 99,
+		title_res_tag = "秋季特產經營",
+		id = 990022,
+		config_id = 0,
+		ability_id = 33001,
+		config_data = "",
+		page_info = {
+			class_name = "IslandActivitySpecialOrderPage",
+			ui_name = "IslandActivitySpecialOrderPage"
+		}
+	}
+	pg.base.island_activity_template[990023] = {
+		config_client = "",
+		is_show = 0,
+		page_info = "",
+		title_res_tag = "",
+		id = 990023,
+		config_id = 0,
+		ability_id = 34001,
+		config_data = ""
+	}
+	pg.base.island_activity_template[990024] = {
+		config_client = "",
+		is_show = 0,
+		page_info = "",
+		title_res_tag = "",
+		id = 990024,
+		config_id = 0,
+		ability_id = 35001,
+		config_data = ""
+	}
+	pg.base.island_activity_template[990025] = {
+		config_client = "",
+		is_show = 0,
+		page_info = "",
+		title_res_tag = "",
+		id = 990025,
+		config_id = 0,
+		ability_id = 36001,
+		config_data = ""
 	}
 end)()

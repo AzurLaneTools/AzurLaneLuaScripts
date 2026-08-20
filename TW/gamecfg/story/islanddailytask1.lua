@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "多谢指挥官了……",
+			say = "多謝指揮官了……",
 			animation = "nod",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "之后我会认真管理好这片林场的~",
-			subName = "林场管理员",
+			say = "之後我會認真管理好這片林場的~",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			say = "这样大家就不会为木材发愁了。",
-			subName = "林场管理员",
+			say = "這樣大家就不會為木材煩惱了。",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,

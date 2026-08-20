@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官，抱歉，今天商区的订单量太多了，我有些忙不过来。",
+			say = "指揮官，抱歉，今天商區的訂單量太多了，我有些忙不過來。",
 			animation = "talk",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			face2Face = {
 				{
 					0,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "看得出来，所以需要我帮忙配送？",
+			say = "看得出來，所以需要我幫忙配送？",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			say = "嗯，拜托你了，详细的地址我都写在订单上了。",
-			subName = "商区管理员",
+			say = "嗯，拜託你了，詳細的地址我都寫在訂單上了。",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "放心，我会在餐品冷掉前送到的。",
+			say = "放心，我會在餐點冷掉前送到的。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

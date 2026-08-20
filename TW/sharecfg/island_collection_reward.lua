@@ -188,7 +188,7 @@ pg.base.island_collection_reward = {}
 
 (function ()
 	pg.base.island_collection_reward[1] = {
-		describe = "累计获得20收集点：生活经验指南T1*10",
+		describe = "累計獲得20收集點：生活經驗指南T1*10",
 		type = 1,
 		id = 1,
 		need_exp = 20,
@@ -200,7 +200,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[2] = {
-		describe = "累计获得40收集点：岛屿开发结晶*1",
+		describe = "累計獲得40收集點：島嶼開發結晶*1",
 		type = 1,
 		id = 2,
 		need_exp = 40,
@@ -212,7 +212,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3] = {
-		describe = "累计获得60收集点：指挥官装扮-线条人套装",
+		describe = "累計獲得60收集點：指揮官裝扮-線條人套裝",
 		type = 1,
 		id = 3,
 		need_exp = 60,
@@ -224,7 +224,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4] = {
-		describe = "累计获得80收集点：互动动作-叉腰",
+		describe = "累計獲得80收集點：互動動作-叉腰",
 		type = 1,
 		id = 4,
 		need_exp = 80,
@@ -236,7 +236,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[5] = {
-		describe = "累计获得100收集点：丰壤农田委派效率提高 4%",
+		describe = "累計獲得100收集點：豐壤農田委派效率提高 4%",
 		type = 1,
 		id = 5,
 		need_exp = 100,
@@ -248,7 +248,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[6] = {
-		describe = "累计获得150收集点：生活经验指南T1*10",
+		describe = "累計獲得150收集點：生活經驗指南T1*10",
 		type = 1,
 		id = 6,
 		need_exp = 150,
@@ -260,7 +260,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[7] = {
-		describe = "累计获得200收集点：岛屿开发结晶*1",
+		describe = "累計獲得200收集點：島嶼開發結晶*1",
 		type = 1,
 		id = 7,
 		need_exp = 200,
@@ -272,7 +272,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[8] = {
-		describe = "累计获得250收集点：林间居所",
+		describe = "累計獲得250收集點：林間居所",
 		type = 1,
 		id = 8,
 		need_exp = 250,
@@ -284,7 +284,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[9] = {
-		describe = "累计获得300收集点：角色漂浮物-微风气球",
+		describe = "累計獲得300收集點：角色漂浮物-微風氣球",
 		type = 1,
 		id = 9,
 		need_exp = 300,
@@ -296,7 +296,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[10] = {
-		describe = "累计获得350收集点：坠香果园委派效率提高 4%",
+		describe = "累計獲得350收集點：墜香果園委派效率提高 4%",
 		type = 1,
 		id = 10,
 		need_exp = 350,
@@ -308,7 +308,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[11] = {
-		describe = "累计获得400收集点：生活经验指南T1*10",
+		describe = "累計獲得400收集點：生活經驗指南T1*10",
 		type = 1,
 		id = 11,
 		need_exp = 400,
@@ -320,7 +320,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[12] = {
-		describe = "累计获得450收集点：岛屿开发结晶*1",
+		describe = "累計獲得450收集點：島嶼開發結晶*1",
 		type = 1,
 		id = 12,
 		need_exp = 450,
@@ -332,7 +332,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[13] = {
-		describe = "累计获得500收集点：{namecode:18:岛风}岛屿权限认证函",
+		describe = "累計獲得500收集點：{namecode:18:島風}島嶼許可權認證函",
 		type = 1,
 		id = 13,
 		need_exp = 500,
@@ -344,7 +344,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[14] = {
-		describe = "累计获得550收集点：角色背饰-学院背包",
+		describe = "累計獲得550收集點：角色背飾-學院揹包",
 		type = 1,
 		id = 14,
 		need_exp = 550,
@@ -356,7 +356,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[15] = {
-		describe = "累计获得600收集点：青芽苗圃委派效率提高 4%",
+		describe = "累計獲得600收集點：青芽苗圃委派效率提高 4%",
 		type = 1,
 		id = 15,
 		need_exp = 600,
@@ -368,7 +368,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[16] = {
-		describe = "累计获得650收集点：生活经验指南T2*10",
+		describe = "累計獲得650收集點：生活經驗指南T2*10",
 		type = 1,
 		id = 16,
 		need_exp = 650,
@@ -380,7 +380,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[17] = {
-		describe = "累计获得700收集点：岛屿开发结晶*1",
+		describe = "累計獲得700收集點：島嶼開發結晶*1",
 		type = 1,
 		id = 17,
 		need_exp = 700,
@@ -392,7 +392,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[18] = {
-		describe = "累计获得750收集点：互动动作-鞠躬",
+		describe = "累計獲得750收集點：互動動作-鞠躬",
 		type = 1,
 		id = 18,
 		need_exp = 750,
@@ -404,7 +404,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[19] = {
-		describe = "累计获得800收集点：角色脚印-叽爪咔哇",
+		describe = "累計獲得800收集點：角色腳印-嘰爪咔哇",
 		type = 1,
 		id = 19,
 		need_exp = 800,
@@ -416,7 +416,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[20] = {
-		describe = "累计获得850收集点：丰壤农田委派效率提高 8%",
+		describe = "累計獲得850收集點：豐壤農田委派效率提高 8%",
 		type = 1,
 		id = 20,
 		need_exp = 850,
@@ -428,7 +428,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[21] = {
-		describe = "累计获得900收集点：生活经验指南T2*10",
+		describe = "累計獲得900收集點：生活經驗指南T2*10",
 		type = 1,
 		id = 21,
 		need_exp = 900,
@@ -440,7 +440,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[22] = {
-		describe = "累计获得950收集点：岛屿开发结晶*1",
+		describe = "累計獲得950收集點：島嶼開發結晶*1",
 		type = 1,
 		id = 22,
 		need_exp = 950,
@@ -452,7 +452,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[23] = {
-		describe = "累计获得1000收集点：互动动作-跺脚",
+		describe = "累計獲得1000收集點：互動動作-跺腳",
 		type = 1,
 		id = 23,
 		need_exp = 1000,
@@ -464,7 +464,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[24] = {
-		describe = "累计获得1100收集点：熊熊候车亭*4",
+		describe = "累計獲得1100收集點：熊熊候車亭*4",
 		type = 1,
 		id = 24,
 		need_exp = 1100,
@@ -476,7 +476,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[25] = {
-		describe = "累计获得1200收集点：坠香果园委派效率提高 8%",
+		describe = "累計獲得1200收集點：墜香果園委派效率提高 8%",
 		type = 1,
 		id = 25,
 		need_exp = 1200,
@@ -488,7 +488,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[26] = {
-		describe = "累计获得1300收集点：生活经验指南T2*20",
+		describe = "累計獲得1300收集點：生活經驗指南T2*20",
 		type = 1,
 		id = 26,
 		need_exp = 1300,
@@ -500,7 +500,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[27] = {
-		describe = "累计获得1400收集点：岛屿开发结晶*1",
+		describe = "累計獲得1400收集點：島嶼開發結晶*1",
 		type = 1,
 		id = 27,
 		need_exp = 1400,
@@ -512,7 +512,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[28] = {
-		describe = "累计获得1500收集点：装扮染色盘",
+		describe = "累計獲得1500收集點：裝扮染色盤",
 		type = 1,
 		id = 28,
 		need_exp = 1500,
@@ -524,7 +524,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[29] = {
-		describe = "累计获得1600收集点：毛绒熊偶*2",
+		describe = "累計獲得1600收集點：毛絨熊偶*2",
 		type = 1,
 		id = 29,
 		need_exp = 1600,
@@ -536,7 +536,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[30] = {
-		describe = "累计获得1700收集点：青芽苗圃委派效率提高 8%",
+		describe = "累計獲得1700收集點：青芽苗圃委派效率提高 8%",
 		type = 1,
 		id = 30,
 		need_exp = 1700,
@@ -548,7 +548,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[31] = {
-		describe = "累计获得1800收集点：生活经验指南T2*20",
+		describe = "累計獲得1800收集點：生活經驗指南T2*20",
 		type = 1,
 		id = 31,
 		need_exp = 1800,
@@ -560,7 +560,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[32] = {
-		describe = "累计获得1900收集点：岛屿开发结晶*1",
+		describe = "累計獲得1900收集點：島嶼開發結晶*1",
 		type = 1,
 		id = 32,
 		need_exp = 1900,
@@ -572,7 +572,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[33] = {
-		describe = "累计获得2000收集点：限量纪念币*1",
+		describe = "累計獲得2000收集點：限量紀念幣*1",
 		type = 1,
 		id = 33,
 		need_exp = 2000,
@@ -584,7 +584,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[34] = {
-		describe = "累计获得2200收集点：毛绒熊偶*3",
+		describe = "累計獲得2200收集點：毛絨熊偶*3",
 		type = 1,
 		id = 34,
 		need_exp = 2200,
@@ -596,7 +596,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[35] = {
-		describe = "累计获得2400收集点：钻石30",
+		describe = "累計獲得2400收集點：鑽石30",
 		type = 1,
 		id = 35,
 		need_exp = 2400,
@@ -608,7 +608,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[36] = {
-		describe = "累计获得2600收集点：生活经验指南T3*5",
+		describe = "累計獲得2600收集點：生活經驗指南T3*5",
 		type = 1,
 		id = 36,
 		need_exp = 2600,
@@ -620,7 +620,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[37] = {
-		describe = "累计获得2800收集点：岛屿开发结晶*1",
+		describe = "累計獲得2800收集點：島嶼開發結晶*1",
 		type = 1,
 		id = 37,
 		need_exp = 2800,
@@ -632,7 +632,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[38] = {
-		describe = "累计获得3000收集点：装扮染色盘",
+		describe = "累計獲得3000收集點：裝扮染色盤",
 		type = 1,
 		id = 38,
 		need_exp = 3000,
@@ -644,7 +644,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[39] = {
-		describe = "累计获得3200收集点：森林木屋*1",
+		describe = "累計獲得3200收集點：森林木屋*1",
 		type = 1,
 		id = 39,
 		need_exp = 3200,
@@ -656,7 +656,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[40] = {
-		describe = "累计获得3400收集点：钻石30",
+		describe = "累計獲得3400收集點：鑽石30",
 		type = 1,
 		id = 40,
 		need_exp = 3400,
@@ -668,7 +668,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[41] = {
-		describe = "累计获得3600收集点：生活经验指南T3*5",
+		describe = "累計獲得3600收集點：生活經驗指南T3*5",
 		type = 1,
 		id = 41,
 		need_exp = 3600,
@@ -680,7 +680,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[42] = {
-		describe = "累计获得3800收集点：岛屿开发结晶*1",
+		describe = "累計獲得3800收集點：島嶼開發結晶*1",
 		type = 1,
 		id = 42,
 		need_exp = 3800,
@@ -692,7 +692,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[43] = {
-		describe = "累计获得4000收集点：限量纪念币*1",
+		describe = "累計獲得4000收集點：限量紀念幣*1",
 		type = 1,
 		id = 43,
 		need_exp = 4000,
@@ -704,7 +704,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[44] = {
-		describe = "累计获得4200收集点：森林木屋*1",
+		describe = "累計獲得4200收集點：森林木屋*1",
 		type = 1,
 		id = 44,
 		need_exp = 4200,
@@ -716,7 +716,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[45] = {
-		describe = "累计获得4400收集点：钻石40",
+		describe = "累計獲得4400收集點：鑽石40",
 		type = 1,
 		id = 45,
 		need_exp = 4400,
@@ -728,7 +728,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[46] = {
-		describe = "累计获得4600收集点：生活经验指南T3*5",
+		describe = "累計獲得4600收集點：生活經驗指南T3*5",
 		type = 1,
 		id = 46,
 		need_exp = 4600,
@@ -740,7 +740,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[47] = {
-		describe = "累计获得4800收集点：岛屿开发结晶*1",
+		describe = "累計獲得4800收集點：島嶼開發結晶*1",
 		type = 1,
 		id = 47,
 		need_exp = 4800,
@@ -752,7 +752,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[48] = {
-		describe = "累计获得5000收集点：装扮染色盘",
+		describe = "累計獲得5000收集點：裝扮染色盤",
 		type = 1,
 		id = 48,
 		need_exp = 5000,
@@ -764,7 +764,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[49] = {
-		describe = "累计获得5500收集点：森林木屋*1",
+		describe = "累計獲得5500收集點：森林木屋*1",
 		type = 1,
 		id = 49,
 		need_exp = 5500,
@@ -776,7 +776,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[50] = {
-		describe = "累计获得6000收集点：钻石50",
+		describe = "累計獲得6000收集點：鑽石50",
 		type = 1,
 		id = 50,
 		need_exp = 6000,
@@ -788,7 +788,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[2001] = {
-		describe = "累计获得20收集点：开发资金2000",
+		describe = "累計獲得20收集點：開發資金2000",
 		type = 2,
 		id = 2001,
 		need_exp = 20,
@@ -800,7 +800,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[2002] = {
-		describe = "累计获得40收集点：生活经验指南T1*10",
+		describe = "累計獲得40收集點：生活經驗指南T1*10",
 		type = 2,
 		id = 2002,
 		need_exp = 40,
@@ -812,7 +812,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[2003] = {
-		describe = "累计获得60收集点：开发资金2000",
+		describe = "累計獲得60收集點：開發資金2000",
 		type = 2,
 		id = 2003,
 		need_exp = 60,
@@ -824,7 +824,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[2004] = {
-		describe = "累计获得80收集点：生活经验指南T1*10",
+		describe = "累計獲得80收集點：生活經驗指南T1*10",
 		type = 2,
 		id = 2004,
 		need_exp = 80,
@@ -836,7 +836,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[2005] = {
-		describe = "累计获得100收集点：开发资金2000",
+		describe = "累計獲得100收集點：開發資金2000",
 		type = 2,
 		id = 2005,
 		need_exp = 100,
@@ -848,7 +848,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[2006] = {
-		describe = "累计获得120收集点：生活经验指南T2*10",
+		describe = "累計獲得120收集點：生活經驗指南T2*10",
 		type = 2,
 		id = 2006,
 		need_exp = 120,
@@ -860,7 +860,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[2007] = {
-		describe = "累计获得160收集点：开发资金5000",
+		describe = "累計獲得160收集點：開發資金5000",
 		type = 2,
 		id = 2007,
 		need_exp = 160,
@@ -872,7 +872,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[2008] = {
-		describe = "累计获得200收集点：生活经验指南T2*10",
+		describe = "累計獲得200收集點：生活經驗指南T2*10",
 		type = 2,
 		id = 2008,
 		need_exp = 200,
@@ -884,7 +884,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[2009] = {
-		describe = "累计获得240收集点：开发资金5000",
+		describe = "累計獲得240收集點：開發資金5000",
 		type = 2,
 		id = 2009,
 		need_exp = 240,
@@ -896,7 +896,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[2010] = {
-		describe = "累计获得300收集点：生活经验指南T2*10",
+		describe = "累計獲得300收集點：生活經驗指南T2*10",
 		type = 2,
 		id = 2010,
 		need_exp = 300,
@@ -908,7 +908,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3001] = {
-		describe = "累计获得20收集点：开发资金2000",
+		describe = "累計獲得20收集點：開發資金2000",
 		type = 3,
 		id = 3001,
 		need_exp = 20,
@@ -920,7 +920,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3002] = {
-		describe = "累计获得60收集点：生活经验指南T1*10",
+		describe = "累計獲得60收集點：生活經驗指南T1*10",
 		type = 3,
 		id = 3002,
 		need_exp = 60,
@@ -932,7 +932,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3003] = {
-		describe = "累计获得100收集点：开发资金2000",
+		describe = "累計獲得100收集點：開發資金2000",
 		type = 3,
 		id = 3003,
 		need_exp = 100,
@@ -944,7 +944,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3004] = {
-		describe = "累计获得200收集点：生活经验指南T1*10",
+		describe = "累計獲得200收集點：生活經驗指南T1*10",
 		type = 3,
 		id = 3004,
 		need_exp = 200,
@@ -956,7 +956,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3005] = {
-		describe = "累计获得400收集点：开发资金5000",
+		describe = "累計獲得400收集點：開發資金5000",
 		type = 3,
 		id = 3005,
 		need_exp = 400,
@@ -968,7 +968,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3006] = {
-		describe = "累计获得600收集点：生活经验指南T2*10",
+		describe = "累計獲得600收集點：生活經驗指南T2*10",
 		type = 3,
 		id = 3006,
 		need_exp = 600,
@@ -980,7 +980,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3007] = {
-		describe = "累计获得1000收集点：开发资金5000",
+		describe = "累計獲得1000收集點：開發資金5000",
 		type = 3,
 		id = 3007,
 		need_exp = 1000,
@@ -992,7 +992,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3008] = {
-		describe = "累计获得1500收集点：岛屿开发结晶*1",
+		describe = "累計獲得1500收集點：島嶼開發結晶*1",
 		type = 3,
 		id = 3008,
 		need_exp = 1500,
@@ -1004,7 +1004,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3009] = {
-		describe = "累计获得2000收集点：开发资金10000",
+		describe = "累計獲得2000收集點：開發資金10000",
 		type = 3,
 		id = 3009,
 		need_exp = 2000,
@@ -1016,7 +1016,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3010] = {
-		describe = "累计获得2500收集点：装扮染色盘",
+		describe = "累計獲得2500收集點：裝扮染色盤",
 		type = 3,
 		id = 3010,
 		need_exp = 2500,
@@ -1028,7 +1028,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3011] = {
-		describe = "累计获得3000收集点：开发资金10000",
+		describe = "累計獲得3000收集點：開發資金10000",
 		type = 3,
 		id = 3011,
 		need_exp = 3000,
@@ -1040,7 +1040,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[3012] = {
-		describe = "累计获得4000收集点：限量纪念币*1",
+		describe = "累計獲得4000收集點：限量紀念幣*1",
 		type = 3,
 		id = 3012,
 		need_exp = 4000,
@@ -1052,7 +1052,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4001] = {
-		describe = "累计获得10收集点：开发资金2000",
+		describe = "累計獲得10收集點：開發資金2000",
 		type = 4,
 		id = 4001,
 		need_exp = 10,
@@ -1064,7 +1064,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4002] = {
-		describe = "累计获得20收集点：生活经验指南T1*10",
+		describe = "累計獲得20收集點：生活經驗指南T1*10",
 		type = 4,
 		id = 4002,
 		need_exp = 20,
@@ -1076,7 +1076,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4003] = {
-		describe = "累计获得30收集点：开发资金2000",
+		describe = "累計獲得30收集點：開發資金2000",
 		type = 4,
 		id = 4003,
 		need_exp = 30,
@@ -1088,7 +1088,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4004] = {
-		describe = "累计获得40收集点：生活经验指南T1*10",
+		describe = "累計獲得40收集點：生活經驗指南T1*10",
 		type = 4,
 		id = 4004,
 		need_exp = 40,
@@ -1100,7 +1100,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4005] = {
-		describe = "累计获得60收集点：开发资金5000",
+		describe = "累計獲得60收集點：開發資金5000",
 		type = 4,
 		id = 4005,
 		need_exp = 60,
@@ -1112,7 +1112,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4006] = {
-		describe = "累计获得80收集点：生活经验指南T2*10",
+		describe = "累計獲得80收集點：生活經驗指南T2*10",
 		type = 4,
 		id = 4006,
 		need_exp = 80,
@@ -1124,7 +1124,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4007] = {
-		describe = "累计获得100收集点：开发资金5000",
+		describe = "累計獲得100收集點：開發資金5000",
 		type = 4,
 		id = 4007,
 		need_exp = 100,
@@ -1136,7 +1136,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4008] = {
-		describe = "累计获得120收集点：岛屿开发结晶*1",
+		describe = "累計獲得120收集點：島嶼開發結晶*1",
 		type = 4,
 		id = 4008,
 		need_exp = 120,
@@ -1148,7 +1148,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4009] = {
-		describe = "累计获得160收集点：开发资金10000",
+		describe = "累計獲得160收集點：開發資金10000",
 		type = 4,
 		id = 4009,
 		need_exp = 160,
@@ -1160,7 +1160,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4010] = {
-		describe = "累计获得200收集点：装扮染色盘",
+		describe = "累計獲得200收集點：裝扮染色盤",
 		type = 4,
 		id = 4010,
 		need_exp = 200,
@@ -1172,7 +1172,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4011] = {
-		describe = "累计获得250收集点：开发资金10000",
+		describe = "累計獲得250收集點：開發資金10000",
 		type = 4,
 		id = 4011,
 		need_exp = 250,
@@ -1184,7 +1184,7 @@ pg.base.island_collection_reward = {}
 		}
 	}
 	pg.base.island_collection_reward[4012] = {
-		describe = "累计获得300收集点：限量纪念币*1",
+		describe = "累計獲得300收集點：限量紀念幣*1",
 		type = 4,
 		id = 4012,
 		need_exp = 300,

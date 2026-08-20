@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "渔场管理员",
+			subName = "漁場管理員",
 			animation = "hi",
 			characterId = 101800,
-			say = "呜喵~指挥官要来养鱼吗？有什么不懂的都可以来问我！",
+			say = "嗚喵~指揮官要來養魚嗎？有什麼不懂的都可以來問我！",
 			face2Face = {
 				{
 					0,

@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "开发季持续时间内，可通过资材转化、完成货运委托、在开发季商店购买商品等方式获得岛屿开发PT",
+				text = "開發季持續時間內，可通過資材轉化、完成貨運委托、在開發季商店購買商品等方式獲得島嶼開發PT",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -24,7 +24,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "累计PT可解锁多种奖励",
+				text = "累計島嶼開發PT可解鎖多種獎勵",
 				mode = 2,
 				char = 1,
 				posY = 0,

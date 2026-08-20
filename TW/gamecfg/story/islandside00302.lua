@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "布莱梅，不好了。",
+			say = "布萊梅，不好了。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,17 +33,17 @@ return {
 			}
 		},
 		{
-			say = "指挥官……是岛屿基地里的事务遇到什么困难了吗？请慢慢说。",
+			say = "指揮官……是島嶼基地裡的事務遇到什麼困難了嗎？請慢慢說。",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "基地的核心服务器已经宕机了，不仅完全没反应，还飘出一股……焦香味。",
+			say = "基地的核心伺服器已經宕機了，不但完全沒反應，還飄出一股……焦香味。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,18 +51,18 @@ return {
 			}
 		},
 		{
-			say = "焦香味么……服务器终于还是不堪重负了……",
+			say = "焦香嗎……伺服器終於還是不堪負荷了……",
 			animation = "think",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "必须尽快修好才行，不然……岛屿基地的科研进程、物资的生产，甚至连通讯都会受到影响！",
-			subName = "啾咖啡店员",
+			say = "必須盡快修好才行，不然……島嶼基地的科研進度、物資的生產，甚至連通訊都會受到影響！",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "修理？这要怎么修……",
+			say = "修理？這要怎麼修……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -78,18 +78,18 @@ return {
 			}
 		},
 		{
-			say = "嗯，没事，之前它就坏过一次，是乔安修好的，好像是服务器电容单元彻底烧毁了的原因。",
+			say = "嗯，沒事，之前它就壞過一次，是喬安修好的，好像是伺服器電容單元徹底燒毀了的原因。",
 			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "最近因为科研计算量激增，持续时间也很长，应该是老毛病又犯了。",
-			subName = "啾咖啡店员",
+			say = "最近因為科學研究計算量激增，持續時間也很長，應該是老毛病又犯了。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -98,17 +98,17 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "我问过乔安了，她说想要彻底修好的话，必须彻底更换电力系统的核心部件才行，而核心部件需要……",
+			say = "我問過喬安了，她說想要徹底修好的話，必須徹底更換電力系統的核心部件才行，而核心部件需要……",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "需要铝矿来生产里面的关键元件，需求量还不小……",
-			subName = "啾咖啡店员",
+			say = "需要鋁礦來生產裡面的關鍵元件，需求量還不小……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -116,17 +116,17 @@ return {
 			}
 		},
 		{
-			say = "但问题是矿山那边……一时也凑不齐这么多铝矿……",
+			say = "但問題是礦場那邊……一時也湊不齊這麼多鋁礦……",
 			animation = "sad",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "收集铝矿的事就交给我吧，我去矿山想想办法。",
+			say = "收集鋁礦的事就交給我吧，我去礦場想想辦法。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官你有时间吗？",
-			subName = "啾咖啡店员",
+			say = "指揮官你有時間嗎？",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -143,10 +143,10 @@ return {
 			}
 		},
 		{
-			say = "那请务必注意安全，采集完成后，直接去矿山找乔安就好，她会在那边准备维修工具和场地的。",
+			say = "那請務必注意安全，採集完成後，直接去礦場找喬安就好，她會在那邊準備維修工具和場地的。",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

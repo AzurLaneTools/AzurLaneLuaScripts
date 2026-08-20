@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "莉莎，都拍好了，你来看看。",
+			say = "莉莎，都拍好了，你來看看。",
 			characterId = 0,
 			animation = "hi",
 			face2Face = {
@@ -35,17 +35,17 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯……构图和光影都很不错，指挥官拍得很棒呢~",
+			say = "嗯……構圖和光影都很不錯，指揮官拍得很棒呢~",
 			characterId = 101000,
-			subName = "集会岛接待员",
+			subName = "集會島接待員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那接下来我们拍一下会动的对象如何？",
-			subName = "集会岛接待员",
+			say = "那接下來我們拍一下會動的對象如何？",
+			subName = "集會島接待員",
 			characterId = 101000,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "会动的对象？",
+			say = "會動的對象？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -61,8 +61,8 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "就是居住在集会岛上的小动物们哦~",
+			subName = "集會島接待員",
+			say = "就是住在集會島上的小動物們喔~",
 			characterId = 101000,
 			animation = "clap",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			say = "它们现在也算是指挥官的邻居了呢，也给它们拍一张留作纪念吧~",
-			subName = "集会岛接待员",
+			say = "現在它們也算是指揮官的鄰居了呢，也給它們拍一張留作紀念吧~",
+			subName = "集會島接待員",
 			characterId = 101000,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			say = "不知道能不能遇到海龟、海鸥之类的动物。",
+			say = "不知道能不能遇到海龜、海鷗之類的動物。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

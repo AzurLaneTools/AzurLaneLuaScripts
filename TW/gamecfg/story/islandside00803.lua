@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "斯蒂芬妮，你要的木材取来了。",
+			say = "史蒂芬妮，妳要的木材拿來了。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "呜啊啊，指挥官！紧急求助哇！",
+			say = "嗚啊啊，指揮官！緊急求助哇！",
 			animation = "nod",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我刚才清点今天要运走的货，发现仓库里少了一批煤炭！",
-			subName = "货运管理员",
+			say = "我剛剛清點今天要運走的貨，發現倉庫裡少了一批煤炭！",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -53,17 +53,17 @@ return {
 		},
 		{
 			animation = "sad",
-			say = "现在来不及查是怎么丢的了，得先去拿一批煤炭补上！",
+			say = "現在來不及查是怎麼丟的了，得先去拿一批煤炭補上！",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "所以……能拜托指挥官帮忙吗！就算在紧急订单的需求上，报酬我会给两倍的！",
-			subName = "货运管理员",
+			say = "所以……能拜託指揮官幫忙嗎！就算在緊急訂單的需求上，報酬我會給兩倍的！",
+			subName = "貨運管理員",
 			characterId = 100300,
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "要去哪里取煤炭？",
+			say = "要去哪裡取煤炭？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -80,17 +80,17 @@ return {
 			}
 		},
 		{
-			say = "去矿场，就在刚才指挥官去的林场旁边！",
+			say = "去礦場，就在剛才指揮官去的林場旁！",
 			animation = "nod",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "刚回来又得跑一趟啊……",
+			say = "剛回來又得跑一趟啊……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -98,10 +98,10 @@ return {
 			}
 		},
 		{
-			say = "呜呜，求求你了指挥官，现在只能靠你了，没有你的话，我……！",
+			say = "嗚嗚嗚，求求你了指揮官，現在只能靠你了，沒有你的話，我……！",
 			animation = "weep",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,10 +116,10 @@ return {
 			}
 		},
 		{
-			say = "好欸！那我等着指挥官的好消息！",
+			say = "好欸！那我等著指揮官的好消息！",
 			animation = "nod",
 			characterId = 100300,
-			subName = "货运管理员",
+			subName = "貨運管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

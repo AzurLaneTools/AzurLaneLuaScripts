@@ -12,11 +12,11 @@ pg.base.island_collection = {}
 
 (function ()
 	pg.base.island_collection[1] = {
-		name = "飞行器",
+		name = "飛行器",
 		type = 1,
-		story = "这是一个神秘的飞行器，巴拉巴拉巴拉巴拉",
+		story = "這是一個神秘的飛行器，巴拉巴拉巴拉巴拉",
 		ability_id = 16001,
-		desc = "飞行器-港口",
+		desc = "飛行器-港口",
 		tech_id = 0,
 		id = 1,
 		icon = "IslandProps/gold",
@@ -41,11 +41,11 @@ pg.base.island_collection = {}
 		jump_page = {}
 	}
 	pg.base.island_collection[2] = {
-		name = "飞行器",
+		name = "飛行器",
 		type = 1,
-		story = "这是一个神秘的飞行器，巴拉巴拉巴拉巴拉",
+		story = "這是一個神秘的飛行器，巴拉巴拉巴拉巴拉",
 		ability_id = 16002,
-		desc = "飞行器-野外",
+		desc = "飛行器-野外",
 		tech_id = 0,
 		id = 2,
 		icon = "IslandProps/gold",
@@ -71,11 +71,11 @@ pg.base.island_collection = {}
 		jump_page = {}
 	}
 	pg.base.island_collection[3] = {
-		name = "飞行器",
+		name = "飛行器",
 		type = 1,
-		story = "这是一个神秘的飞行器，巴拉巴拉巴拉巴拉",
+		story = "這是一個神秘的飛行器，巴拉巴拉巴拉巴拉",
 		ability_id = 16003,
-		desc = "飞行器-农场",
+		desc = "飛行器-農場",
 		tech_id = 0,
 		id = 3,
 		icon = "IslandProps/gold",

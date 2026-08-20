@@ -6,7 +6,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击下方按钮可查看角色详情",
+				text = "點擊下方按鈕可查看角色詳情",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -23,7 +23,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "在开发区中，角色拥有新的生产能力和生产技能，消耗能力指南和技能指南可提升能力值和技能等级",
+				text = "在開發區中，角色擁有新的生產能力和生產技能消耗能力指南和技能指南可提升能力值和技能等級",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -42,7 +42,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击装扮按钮可更换角色装扮",
+				text = "點擊裝扮按鈕可更換角色裝扮",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -63,7 +63,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "角色装扮分为服装和三种不同的配饰",
+				text = "角色裝扮分為服裝和三種不同的配飾",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -82,7 +82,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击关闭角色界面",
+				text = "點擊關閉角色介面",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -99,7 +99,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击退出岛屿权限认证界面",
+				text = "點擊退出島嶼權限認證裝置",
 				mode = 2,
 				char = 1,
 				posY = 0,

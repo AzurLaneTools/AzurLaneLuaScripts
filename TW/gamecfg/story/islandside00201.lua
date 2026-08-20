@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "帕特莉，你有收藏什么装饰画么？",
+			say = "帕特莉，妳有收藏什麼裝飾畫嗎？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "欸，是指挥官啊，怎么突然对装饰画感兴趣了？这可不像你的风格。",
+			say = "欸，是指揮官啊，怎麼突然對裝飾畫有興趣了？這可不像你的風格。",
 			animation = "curious",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "难道说……有人偷偷把我会写生的消息泄露给指挥官了？",
-			subName = "订单管理员",
+			say = "難道說……有人偷偷把我會寫生的消息洩漏給指揮官了？",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "没有……我只是想给港口添点艺术气息才来问的。",
+			say = "沒有……我只是想幫港口添點藝術氣息才來問的。",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			say = "不过你刚才说……你会写生？",
+			say = "不過妳剛才說……妳會寫生？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -69,17 +69,17 @@ return {
 			}
 		},
 		{
-			say = "没有没有！只是闲暇时的涂鸦而已，算不上写生的。",
+			say = "沒有沒有！只是閒暇時的塗鴉而已，不算是寫生的。",
 			animation = "shakehead",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "自己画的？那更好了。",
+			say = "自己畫的？那更好了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			say = "我还挺想看帕特莉你画画的样子，帮我画一幅怎么样？",
+			say = "我還蠻想看帕特莉妳畫畫的樣子，幫我畫一幅怎麼樣？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -96,18 +96,18 @@ return {
 			}
 		},
 		{
-			say = "欸，这样吗……既然指挥官这么想要，那……我就破例给你来次现场写生好了~",
+			say = "欸，這樣嗎……既然指揮官這麼想要，那……我就破例給你來次現場寫生好了~",
 			animation = "clap",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那么，指挥官想让我画点什么呢？",
-			subName = "订单管理员",
+			say = "那麼，指揮官想要我畫點什麼呢？",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			say = "嗯……好难想……到底是画风景，还是画人像？",
+			say = "嗯……好難想……到底是畫風景，還是畫人像？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -123,18 +123,18 @@ return {
 			}
 		},
 		{
-			say = "看来我们的指挥官需要一点灵感啊。",
+			say = "看來我們的指揮官需要一點靈感啊。",
 			animation = "idea",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我推荐你去港口那边实地看看~视野开阔，元素丰富。",
-			subName = "订单管理员",
+			say = "我推薦你去港口那邊實地看看~視野開闊，元素豐富。",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -142,17 +142,17 @@ return {
 			}
 		},
 		{
-			say = "说不定走着走着，你就知道自己想定格哪个瞬间了，我带你过去？",
+			say = "說不定走著走著，你就知道自己想定格哪個瞬間了，我帶你過去？",
 			animation = "talk",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "好，我们一起去看看。",
+			say = "好，我們一起去看看。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

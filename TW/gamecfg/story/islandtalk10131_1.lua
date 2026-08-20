@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "集会岛向导",
+			subName = "集會島向導",
 			animation = "hi",
 			characterId = 101300,
-			say = "欢迎来到最棒的集会！美食！美酒！奇珍！异宝！玛丽随时为你指路！",
+			say = "歡迎來到最棒的聚會！美食！美酒！奇珍！異寶！瑪麗隨時為你指路！",
 			face2Face = {
 				{
 					0,

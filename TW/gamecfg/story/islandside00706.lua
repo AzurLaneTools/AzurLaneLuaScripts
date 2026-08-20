@@ -5,7 +5,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "现在岛上的蜂巢都没了……",
+			say = "現在島上的蜂巢都沒了……",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -14,45 +14,45 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "太好了……真的彻底安静下来了……",
+			say = "太好了……真的徹底安靜下來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "接下来的夜晚，一定会无比宁静……",
+			say = "接下來的夜晚，一定會無比寧靜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "我终于能睡个好觉了，可全是您的功劳呢~",
+			say = "我終於能睡個好覺了，可全是您的功勞呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "指挥官，谢谢您……愿意一次次回应我的请求。",
+			say = "指揮官，謝謝您……願意一次次回應我的請求。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "我会继续努力的……总有一天，能去往外面的世界！",
+			say = "我會繼續努力的……總有一天，能去往外面的世界……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

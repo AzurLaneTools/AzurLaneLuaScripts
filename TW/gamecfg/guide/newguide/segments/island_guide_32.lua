@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "初次钓到鱼后可在钓鱼图鉴中解锁与查看水产。",
+				text = "初次釣到魚後可在釣魚圖鑑中解鎖與查看水產。",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "请点击按钮解锁钓鱼图鉴，解锁图鉴的同时可同时解锁对应的鱼苗。",
+				text = "請點選按鈕解鎖釣魚圖鑑，解鎖圖鑑的同時可同時解鎖對應的魚苗。",
 				mode = 2,
 				char = 1,
 				posY = -200,
@@ -35,7 +35,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "解锁啾啾渔场后，可在渔场管理员布莉缇的商店处购买已解锁的鱼苗进行养殖。",
+				text = "解鎖啾啾漁場後，可在漁場管理員布莉緹的商店購買已解鎖的魚苗進行養殖。",
 				mode = 2,
 				char = 1,
 				posY = 0,

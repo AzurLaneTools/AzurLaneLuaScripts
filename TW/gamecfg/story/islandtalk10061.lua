@@ -19,8 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			subName = "矿山管理员",
-			say = "嗯，铁矿放这边……银矿放那边……可不能弄混了。",
+			subName = "礦山管理員",
+			say = "嗯，鐵礦放這邊就好！銀礦放那邊，可不能弄混了。",
 			characterId = 100600,
 			face2Face = {
 				{

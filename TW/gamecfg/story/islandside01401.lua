@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "又是一张硬纸片……这都已经是第五张了……",
+			say = "又是一張硬紙片……這都已經是第五張了……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "咦——看着边缘的形状……好像是能拼合起来的？",
+			say = "咦——看著邊緣的形狀……好像是能拼合起來的？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			say = "（这张……应该是左上角……缺口对得上……这张是右下……）",
+			say = "（這張……應該是左上角……缺口對得上……這張是右下……）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			say = "嗯……最后一块……好了。",
+			say = "嗯……最後一塊……好了。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -39,14 +39,14 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "看着桌面上勉强拼凑完整的地图，线条交汇处有一个抽象的图案……像是扭曲后的猫头……",
+			say = "看著桌面上勉強拼湊完整的地圖，線條交會處有一個抽象的圖案……像是扭曲後的貓頭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "果然是张地图……这岛上莫非真有宝藏？",
+			say = "果然是張地圖……這島上莫非真有寶藏？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			say = "现在连藏宝图都有了……这潦草的风格，够诡异的。",
+			say = "現在連藏寶圖都有了……這潦草的風格，夠詭異的。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "等等，这个标记点的位置……不就是我来岛上时的那片原野么？",
+			say = "等等，這個標記點的位置……不就是我來島上時的那片原野嗎？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "有意思……过去看看吧。",
+			say = "有意思……過去看看吧。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

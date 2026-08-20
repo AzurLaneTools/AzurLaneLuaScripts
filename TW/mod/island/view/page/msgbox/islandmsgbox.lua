@@ -73,15 +73,6 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot1 = slot0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()
-
-	for slot5, slot6 in ipairs({
-		"rtBg",
-		"rtPages"
-	}) do
-		slot0[slot6] = slot1[slot5].transform
-	end
-
 	onButton(slot0, slot0.rtBg, function ()
 		uv0:HideWindow()
 	end, SFX_PANEL)

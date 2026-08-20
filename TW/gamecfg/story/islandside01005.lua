@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "布莱梅，有件事想拜托你。",
+			say = "布萊梅，有件事想拜託妳。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -34,7 +34,7 @@ return {
 		},
 		{
 			say = "一杯冰咖啡？",
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，老样子。",
+			say = "嗯，老樣子。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "……虽然我确实也需要一杯咖啡，但这不是主要目的。",
+			say = "……雖然我確實也需要一杯咖啡，但這不是主要目的。",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			say = "是帕特莉的事。她想要全身心投入工作，但有时难免犯困。",
+			say = "是帕特莉的事。她想要全心投入工作，但有時難免犯睏。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			say = "你这里有什么能让人打起精神、保持清醒的饮品么？比如咖啡？",
+			say = "妳這裡有什麼能讓人打起精神、保持清醒的飲品嗎？比如咖啡？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -76,17 +76,17 @@ return {
 		},
 		{
 			animation = "sad",
-			say = "唔……帕特莉以前也试过咖啡哦，效果嘛……",
+			say = "嗯……帕特莉以前也試過咖啡哦，效果嘛……",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不太有用呢，该困的时候还是会困呼呼的……",
-			subName = "啾咖啡店员",
+			say = "不太有用呢，該睏的時候還是會睏呼呼的……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -95,17 +95,17 @@ return {
 		},
 		{
 			animation = "think",
-			say = "不过，说到精力充沛，牧场的梅莉总是非常有活力呢。",
+			say = "不過，說到精力充沛，牧場的梅莉總是非常有活力。",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "或许指挥官能从她那里得到什么有用的建议哦？",
-			subName = "啾咖啡店员",
+			say = "或許指揮官能從她那裡得到什麼有用的建議？",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			say = "我去问问看。",
+			say = "我去問問看。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

@@ -51,6 +51,7 @@ slot0.detach = function(slot0)
 		setActive(slot0._go, false)
 		pg.DelegateInfo.Dispose(slot0)
 		slot0:clear()
+		bindComponent(slot0, slot0._go, true)
 
 		slot0.parent = nil
 		slot0.emit = nil

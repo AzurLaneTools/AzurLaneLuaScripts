@@ -58,7 +58,7 @@ pg.base.island_main_btns = {}
 (function ()
 	pg.base.island_main_btns[1] = {
 		ability_id = 9,
-		name = "仓库",
+		name = "倉庫",
 		main_type = 2,
 		btn_name = "inventory",
 		open_page = "IslandInventoryPage",
@@ -80,7 +80,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[3] = {
 		ability_id = 6,
-		name = "地图",
+		name = "地圖",
 		main_type = 1,
 		btn_name = "map",
 		open_page = "IslandMapPage",
@@ -120,7 +120,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[5] = {
 		ability_id = 2,
-		name = "设备",
+		name = "裝置",
 		main_type = 1,
 		btn_name = "device",
 		open_page = "IslandDevicePage",
@@ -131,7 +131,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[6] = {
 		ability_id = 7,
-		name = "岛屿订单",
+		name = "島嶼訂單",
 		main_type = 2,
 		btn_name = "order",
 		open_page = "IslandOrderPage",
@@ -142,7 +142,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[7] = {
 		ability_id = 32,
-		name = "货运委托",
+		name = "貨運委託",
 		main_type = 2,
 		btn_name = "ship_order",
 		open_page = "IslandShipOrderPage",
@@ -164,7 +164,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[9] = {
 		ability_id = 29001,
-		name = "套餐图鉴",
+		name = "套餐圖鑑",
 		main_type = 2,
 		btn_name = "collection",
 		open_page = "IslandSetMealHandbookPage",
@@ -186,7 +186,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[11] = {
 		ability_id = 31,
-		name = "开发季",
+		name = "開發季",
 		main_type = 1,
 		btn_name = "season",
 		open_page = "IslandSeasonPage",
@@ -197,7 +197,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[12] = {
 		ability_id = 28,
-		name = "科技研发",
+		name = "科技研發",
 		main_type = 1,
 		btn_name = "technology",
 		open_page = "IslandTechnologyPage",
@@ -219,7 +219,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[14] = {
 		ability_id = 33,
-		name = "装扮",
+		name = "裝扮",
 		main_type = 2,
 		btn_name = "commander",
 		open_page = "IslandShipIslandCommanderMainPage",
@@ -230,7 +230,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[15] = {
 		ability_id = 2,
-		name = "计划",
+		name = "計劃",
 		main_type = 2,
 		btn_name = "task",
 		open_page = "Island3dTaskPage",
@@ -241,7 +241,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[16] = {
 		ability_id = 0,
-		name = "邮件",
+		name = "郵件",
 		main_type = 2,
 		btn_name = "mail",
 		open_page = "IslandMailPage",
@@ -252,7 +252,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[17] = {
 		ability_id = 0,
-		name = "设置",
+		name = "設定",
 		main_type = 2,
 		btn_name = "setting",
 		open_page = "IslandSettingsPage",
@@ -263,7 +263,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[18] = {
 		ability_id = 0,
-		name = "图鉴",
+		name = "圖鑑",
 		main_type = 2,
 		btn_name = "book",
 		open_page = "IslandBookPage",
@@ -285,7 +285,7 @@ pg.base.island_main_btns = {}
 	}
 	pg.base.island_main_btns[20] = {
 		ability_id = 47,
-		name = "钓鱼图鉴",
+		name = "釣魚圖鑑",
 		main_type = 3,
 		btn_name = "book_fish",
 		open_page = "IslandBookFishPage",

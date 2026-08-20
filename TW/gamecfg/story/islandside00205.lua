@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "帕特莉，我回来了。",
+			say = "帕特莉，我回來了。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,17 +33,17 @@ return {
 			}
 		},
 		{
-			say = "呀，看指挥官这高兴的样子~看来是找到心仪的灵感了？",
+			say = "呀，看指揮官這高興的樣子~看來是找到心儀的靈感了？",
 			animation = "clap",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，多亏了布莱梅的建议，我现在非常清楚我想要什么样的画了。",
+			say = "嗯，多虧了布萊梅的建議，我現在非常清楚我想要什麼樣的畫了。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "就画货运中心如何？用碧海蓝天做幕布，货船和斯蒂芬妮装卸货物的身影做主角。",
+			say = "就畫貨運中心如何？用碧海藍天做布，貨船和史蒂芬妮裝卸貨物的身影做主角。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -60,27 +60,27 @@ return {
 			}
 		},
 		{
-			say = "不错的选题，动静相宜，很有港口特色。",
+			say = "不錯的選題，動靜相宜，很有港口特色。",
 			animation = "nod",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "啊……不过，很遗憾，我这里还有个小小的坏消息要告诉指挥官……",
+			say = "啊……不過，很遺憾，我這裡還有個小小的壞消息要告訴指揮官……",
 			animation = "shakehead",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "怎么了？",
+			say = "怎麼了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -88,18 +88,18 @@ return {
 			}
 		},
 		{
-			say = "我常用的那支趁手的画笔……好像不见了。",
+			say = "我常用的那支趁手的畫筆……好像不見了。",
 			animation = "sad",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "想现场写生的话，恐怕得先想办法弄一支合用的画笔才行……真是扫兴。",
-			subName = "订单管理员",
+			say = "想現場寫生的話，恐怕得先想辦法弄一支合用的畫筆才行……真是掃興。",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			say = "画笔么……别担心，现在岛上资源还算丰富，做支画笔很容易。",
+			say = "畫筆嗎……別擔心，現在島上資源還算豐富，做支畫筆很容易。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

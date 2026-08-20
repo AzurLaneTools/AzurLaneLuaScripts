@@ -59,10 +59,7 @@ pg.activity_banner.all = {
 pg.activity_banner.get_id_list_by_type = {
 	[2] = {
 		1,
-		2,
-		3,
 		4,
-		5,
 		6,
 		7,
 		16,
@@ -92,6 +89,9 @@ pg.activity_banner.get_id_list_by_type = {
 		1025
 	},
 	[3] = {
+		2,
+		3,
+		5,
 		15,
 		1003
 	},
@@ -131,69 +131,38 @@ pg.base.activity_banner = {}
 
 (function ()
 	pg.base.activity_banner[1] = {
+		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[2] = {
-		type = 2,
+		param = "51088",
+		type = 3,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
 		time = {
-			{
-				{
-					2026,
-					8,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2026,
 					8,
 					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					10
 				},
 				{
 					14,
@@ -204,15 +173,10 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[3] = {
-		type = 2,
+		param = "51086",
+		type = 3,
 		id = 3,
 		pic = "temp3",
-		param = {
-			"scene core activity",
-			{
-				coreName = "EscapeManorCoreActivityUI"
-			}
-		},
 		time = {
 			{
 				{
@@ -230,12 +194,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					20
+					13
 				},
 				{
-					14,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -245,9 +209,10 @@ pg.base.activity_banner = {}
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene charge",
+			"scene equip",
 			{
-				wrap = 2
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
@@ -255,7 +220,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					6
+					20
 				},
 				{
 					0,
@@ -267,10 +232,10 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					19
+					27
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -278,18 +243,16 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[5] = {
-		type = 2,
+		param = "51090",
+		type = 3,
 		id = 5,
 		pic = "temp5",
-		param = {
-			"scene court yard"
-		},
 		time = {
 			{
 				{
 					2026,
 					8,
-					6
+					20
 				},
 				{
 					0,
@@ -300,11 +263,11 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					19
+					9,
+					10
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -316,17 +279,14 @@ pg.base.activity_banner = {}
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"metacharacter"
 		},
 		time = {
 			{
 				{
 					2026,
 					8,
-					6
+					20
 				},
 				{
 					0,
@@ -338,10 +298,10 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					19
+					27
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -349,38 +309,13 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[7] = {
+		time = "stop",
 		type = 2,
 		id = 7,
 		pic = "temp7",
 		param = {
 			"scene Cryptolalia",
 			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[15] = {
@@ -450,35 +385,10 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
-		time = {
-			{
-				{
-					2026,
-					8,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "limit_skin"
 	}
 	pg.base.activity_banner[100] = {
 		param = "餃子|廣受歡迎的傳統特色食物！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",

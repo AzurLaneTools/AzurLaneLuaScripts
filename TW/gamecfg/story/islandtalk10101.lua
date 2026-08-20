@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "集会岛接待员",
+			subName = "集會島接待員",
 			animation = "hi",
 			characterId = 101000,
-			say = "您好，是有新的探索需求需要协助吗？",
+			say = "您好，有新的探索需求需要協助嗎？",
 			face2Face = {
 				{
 					0,

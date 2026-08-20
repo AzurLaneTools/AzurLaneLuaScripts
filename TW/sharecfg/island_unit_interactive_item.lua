@@ -14,7 +14,7 @@ pg.base.island_unit_interactive_item = {}
 (function ()
 	pg.base.island_unit_interactive_item[100203] = {
 		navAgentParam = "",
-		name = "互动椅子",
+		name = "互動椅子",
 		model = "island/item/collider/1002/prefab/chair_collider",
 		id = 100203,
 		slot_cnt = 1,
@@ -27,7 +27,7 @@ pg.base.island_unit_interactive_item = {}
 	}
 	pg.base.island_unit_interactive_item[100204] = {
 		navAgentParam = "",
-		name = "门",
+		name = "門",
 		model = "island/item/collider/1002/prefab/chair_collider",
 		id = 100204,
 		slot_cnt = 1,

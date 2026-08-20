@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "（这里就是奇异点的内部了么，环境倒是十分稳定，看上去也没什么危险……）",
+			say = "（這裡就是奇異點的內部了嗎，環境倒是十分穩定，看起來也沒什麼危險……）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "（虽然发生了些许意外，但既然进来了就去找{namecode:98:明石}她们问问情况吧。）",
+			say = "（雖然發生了些許意外，但既然進來了就去找明石她們問問情況吧。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -21,7 +21,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯，前面好像就有一些建筑，过去看看。",
+			say = "嗯，前面好像有一些建築，過去看看。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

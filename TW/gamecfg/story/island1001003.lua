@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "你好，奥布莱恩。",
+			say = "妳好，奧布萊恩。",
 			characterId = 0,
 			animation = "hi",
 			face2Face = {
@@ -35,16 +35,16 @@ return {
 		},
 		{
 			animation = "amaze",
-			say = "啊……指、指挥官？真、真的是您吗？",
+			say = "啊……指、指揮官？真、真的是您嗎？",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "当然是真的！",
+			say = "當然是真的！",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -53,17 +53,17 @@ return {
 		},
 		{
 			animation = "shy",
-			say = "太好了……好久不见。我、我们都很想您，一直担心您把我们忘了……",
+			say = "太好了……好久不見。我、我們都很想您，一直擔心您把我們忘了……",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这半年来，我们都在很努力地建设这里……没有偷懒的。",
-			subName = "林场管理员",
+			say = "這半年來，我們都在很努力地建造這裡……沒有偷懶的。",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -80,16 +80,16 @@ return {
 		},
 		{
 			animation = "embarrass",
-			say = "欸……这里是不太明显……不过我们有建起一整座港口的，您可以去海边看看~",
+			say = "欸……這裡是不太明顯……不過我們有建起一整座港口的，您可以去海邊看看~",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "（明明只是过了一周才对……是内外时间流速不同的原因么，这么大的差值也难怪飞行器会故障了。）",
+			say = "（明明只是過了一週才對……是內外時間流速不同的原因嗎，這麼大的差值也難怪飛行器會故障了。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			say = "嗯……你们在这里待了这么久，就没有发现什么异常么？",
+			say = "嗯……妳們在這裡待了這麼久，就沒有發現什麼異常嗎？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -107,17 +107,17 @@ return {
 		},
 		{
 			animation = "doubt",
-			say = "异常么……之前半年一直都是很正常的。",
+			say = "異常嗎……之前半年一直都是很正常的。",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "倒是指挥官您来之前，附近……刚刚发生了很大的爆炸。",
-			subName = "林场管理员",
+			say = "倒是指揮官您來之前，附近……剛剛發生了很大的爆炸。",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -125,9 +125,9 @@ return {
 			}
 		},
 		{
-			say = "好像……好像是一艘飞行器坠毁在这附近了。",
+			say = "好像……好像是一艘飛行器墜毀在這附近了。",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			say = "其实那是我来时乘坐的飞行器，出了点小意外。",
+			say = "其實那是我來時搭乘的飛行器，出了點小意外。",
 			optionFlag = 1,
 			characterId = 0,
 			typewriter = {
@@ -153,20 +153,20 @@ return {
 			}
 		},
 		{
-			say = "欸？原来是指挥官的飞行器么……爆炸散落的零件，把通往港口的站台都砸坏了……",
+			say = "欸？原來是指揮官的飛行器嗎……爆炸散落的零件，把通往港口的月台都砸壞了……",
 			characterId = 100700,
 			optionFlag = 1,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "肯、肯定有的！爆炸散落的零件，把通往港口的站台都破坏了。",
+			say = "肯、肯定有的！爆炸散落的零件，把通往港口的月台都破壞了。",
 			characterId = 100700,
 			optionFlag = 2,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,16 +174,16 @@ return {
 		},
 		{
 			animation = "sad",
-			say = "而且今天还是{namecode:98:明石}订单期限的最后一天……结果现在原材料运送受阻……唉……",
+			say = "而且今天還是明石訂單期限的最後一天……結果現在原料運送受阻……唉……",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "{namecode:98:明石}的订单……你知道她人在哪么？",
+			say = "明石的訂單……妳知道她在哪裡嗎？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -192,9 +192,9 @@ return {
 		},
 		{
 			animation = "think",
-			say = "嗯，她一般都会待在港口那边的……不过现在前往港口的站台被破坏了，指挥官得再等等才行。",
+			say = "嗯，她通常都會待在港口那邊的……不過現在前往港口的月台被破壞了，指揮官得再等等才行。",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			say = "好……好的，指挥官您可以去沉石矿山找乔安问问……车站的修复工作是她负责的。",
-			subName = "林场管理员",
+			say = "好……好的，指揮官您可以去沉石礦山找喬安問問……車站的修復工作是她負責的。",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,

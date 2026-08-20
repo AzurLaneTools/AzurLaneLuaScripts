@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "呼……布莱梅，我搞定了，这次感觉对了！",
+			say = "呼……布萊梅，我搞定了，這次感覺對了！",
 			characterId = 0,
 			animation = "nod",
 			face2Face = {
@@ -34,18 +34,18 @@ return {
 			}
 		},
 		{
-			say = "外观非常漂亮，指挥官，层次感和色彩也搭配得恰到好处。",
+			say = "外觀非常漂亮，指揮官，層次感和色彩也搭配得恰到好處。",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯~指挥官做的新餐品很棒呢！",
-			subName = "啾咖啡店员",
+			say = "嗯~指揮官做的新餐點很棒呢！",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -61,18 +61,18 @@ return {
 			}
 		},
 		{
-			say = "嗯……胡萝卜处理得很好，大小适中，既保留了清甜口感又不会过于抢戏。",
+			say = "嗯……胡蘿蔔處理得很好，大小適中，既保留了清甜口感又不會過於搶戲。",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "蛋液的嫩滑度也把握得极好，火候精准，锁住了水分。",
-			subName = "啾咖啡店员",
+			say = "蛋液的嫩滑度也掌握得極佳，火候精準，鎖住了水分。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -80,18 +80,18 @@ return {
 			}
 		},
 		{
-			say = "这点睛的咸香奶酪碎是灵魂，完美平衡了胡萝卜的甜，让整体风味立体而和谐！",
+			say = "這點睛的鹹香起司碎是靈魂，完美平衡了胡蘿蔔的甜，讓整體風味立體和諧！",
 			animation = "think",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这道胡萝卜厚蛋烧，无论是外观还是味道都完全达到了作为招牌新品的标准！",
-			subName = "啾咖啡店员",
+			say = "這道胡蘿蔔厚蛋燒，無論是外觀還是味道都完全達到了作為招牌新品的標準！",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			say = "阿莫玛一定会满意的！",
-			subName = "啾咖啡店员",
+			say = "阿莫瑪一定會滿意的！",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，那我这就把配方带给她看看。",
+			say = "嗯，那我這就把配方帶給她看看。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

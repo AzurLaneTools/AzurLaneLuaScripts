@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "布莱梅……好香的味道~难道是欧姆蛋好了？",
+			say = "布萊梅……好香的味道~難道是歐姆蛋好了？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "呼呼——刚刚出炉呢~指挥官……来，您的专属欧姆蛋，请趁热享用。",
+			say = "呼呼——剛剛出爐呢~指揮官……來，您的專屬歐姆蛋，請趁熱享用。",
 			animation = "elation",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这是您应得的第一份成果。",
-			subName = "啾咖啡店员",
+			say = "這是您應得的第一份成果。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "看着就很有食欲，只是这股香味都值得我特意跑一趟了。",
+			say = "看著就很有食慾，只是這股香味都值得我特地跑一趟了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -61,18 +61,18 @@ return {
 			}
 		},
 		{
-			say = "嗯，除此之外，我还额外给刚才离开的斯蒂芬妮也做了一份……",
+			say = "嗯，除此之外，我還額外給剛才離開的史蒂芬妮也做了一份…",
 			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官能帮我给她送过去吗？",
-			subName = "啾咖啡店员",
+			say = "指揮官能幫我送過去給她嗎？",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			say = "斯蒂芬妮么？正好！我也打算去看看她是不是又“逸”起来了。",
-			subName = "啾咖啡店员",
+			say = "史蒂芬妮嗎？正好！我也打算去看看她是不是又「逸」起來了。",
+			subName = "啾咖啡店員",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			say = "嗯，打包工作已经完成，指挥官等会送过去就好。",
-			subName = "啾咖啡店员",
+			say = "嗯，打包工作已經完成，指揮官等會送過去就好。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -98,10 +98,10 @@ return {
 			}
 		},
 		{
-			say = "现在，还请慢慢享用吧。",
+			say = "現在，還請慢慢享用吧。",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

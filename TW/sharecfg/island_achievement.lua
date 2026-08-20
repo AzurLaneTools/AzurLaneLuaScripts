@@ -432,12 +432,12 @@ pg.base.island_achievement = {}
 (function ()
 	pg.base.island_achievement[1] = {
 		target_type = 1,
-		name = "从零开始",
+		name = "從零開始",
 		target_value1 = 0,
 		group = 1,
 		show_type = 1,
 		target_num = 15,
-		desc = "岛屿开发等级达到<color=#cd7900><b>$2</b></color>级",
+		desc = "島嶼開發等級達到<color=#cd7900><b>$2</b></color>級",
 		id = 1,
 		stage = 1,
 		award = {
@@ -457,12 +457,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[2] = {
 		target_type = 1,
-		name = "从零开始",
+		name = "從零開始",
 		target_value1 = 0,
 		group = 1,
 		show_type = 1,
 		target_num = 30,
-		desc = "岛屿开发等级达到<color=#cd7900><b>$2</b></color>级",
+		desc = "島嶼開發等級達到<color=#cd7900><b>$2</b></color>級",
 		id = 2,
 		stage = 2,
 		award = {
@@ -482,12 +482,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[3] = {
 		target_type = 1,
-		name = "从零开始",
+		name = "從零開始",
 		target_value1 = 0,
 		group = 1,
 		show_type = 1,
 		target_num = 40,
-		desc = "岛屿开发等级达到<color=#cd7900><b>$2</b></color>级",
+		desc = "島嶼開發等級達到<color=#cd7900><b>$2</b></color>級",
 		id = 3,
 		stage = 3,
 		award = {
@@ -507,12 +507,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[4] = {
 		target_type = 1,
-		name = "从零开始",
+		name = "從零開始",
 		target_value1 = 0,
 		group = 1,
 		show_type = 1,
 		target_num = 60,
-		desc = "岛屿开发等级达到<color=#cd7900><b>$2</b></color>级",
+		desc = "島嶼開發等級達到<color=#cd7900><b>$2</b></color>級",
 		id = 4,
 		stage = 4,
 		award = {
@@ -532,12 +532,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[5] = {
 		target_type = 1,
-		name = "从零开始",
+		name = "從零開始",
 		target_value1 = 0,
 		group = 1,
 		show_type = 1,
 		target_num = 80,
-		desc = "岛屿开发等级达到<color=#cd7900><b>$2</b></color>级",
+		desc = "島嶼開發等級達到<color=#cd7900><b>$2</b></color>級",
 		id = 5,
 		stage = 5,
 		award = {
@@ -557,12 +557,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[6] = {
 		target_type = 1,
-		name = "从零开始",
+		name = "從零開始",
 		target_value1 = 0,
 		group = 1,
 		show_type = 1,
 		target_num = 100,
-		desc = "岛屿开发等级达到<color=#cd7900><b>$2</b></color>级",
+		desc = "島嶼開發等級達到<color=#cd7900><b>$2</b></color>級",
 		id = 6,
 		stage = 6,
 		award = {
@@ -582,12 +582,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[21] = {
 		target_type = 27,
-		name = "迈向未来",
+		name = "邁向未來",
 		target_value1 = 0,
 		group = 2,
 		show_type = 1,
 		target_num = 60,
-		desc = "累计研发<color=#cd7900><b>$2</b></color>项岛屿科技",
+		desc = "累計研發<color=#cd7900><b>$2</b></color>項島嶼科技",
 		id = 21,
 		stage = 1,
 		award = {
@@ -607,12 +607,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[22] = {
 		target_type = 27,
-		name = "迈向未来",
+		name = "邁向未來",
 		target_value1 = 0,
 		group = 2,
 		show_type = 1,
 		target_num = 80,
-		desc = "累计研发<color=#cd7900><b>$2</b></color>项岛屿科技",
+		desc = "累計研發<color=#cd7900><b>$2</b></color>項島嶼科技",
 		id = 22,
 		stage = 2,
 		award = {
@@ -632,12 +632,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[23] = {
 		target_type = 27,
-		name = "迈向未来",
+		name = "邁向未來",
 		target_value1 = 0,
 		group = 2,
 		show_type = 1,
 		target_num = 100,
-		desc = "累计研发<color=#cd7900><b>$2</b></color>项岛屿科技",
+		desc = "累計研發<color=#cd7900><b>$2</b></color>項島嶼科技",
 		id = 23,
 		stage = 3,
 		award = {
@@ -657,12 +657,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[24] = {
 		target_type = 27,
-		name = "迈向未来",
+		name = "邁向未來",
 		target_value1 = 0,
 		group = 2,
 		show_type = 1,
 		target_num = 120,
-		desc = "累计研发<color=#cd7900><b>$2</b></color>项岛屿科技",
+		desc = "累計研發<color=#cd7900><b>$2</b></color>項島嶼科技",
 		id = 24,
 		stage = 4,
 		award = {
@@ -682,12 +682,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[25] = {
 		target_type = 27,
-		name = "迈向未来",
+		name = "邁向未來",
 		target_value1 = 0,
 		group = 2,
 		show_type = 1,
 		target_num = 150,
-		desc = "累计研发<color=#cd7900><b>$2</b></color>项岛屿科技",
+		desc = "累計研發<color=#cd7900><b>$2</b></color>項島嶼科技",
 		id = 25,
 		stage = 5,
 		award = {
@@ -707,12 +707,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[26] = {
 		target_type = 27,
-		name = "迈向未来",
+		name = "邁向未來",
 		target_value1 = 0,
 		group = 2,
 		show_type = 1,
 		target_num = 180,
-		desc = "累计研发<color=#cd7900><b>$2</b></color>项岛屿科技",
+		desc = "累計研發<color=#cd7900><b>$2</b></color>項島嶼科技",
 		id = 26,
 		stage = 6,
 		award = {
@@ -732,12 +732,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[31] = {
 		target_type = 2,
-		name = "三好岛民",
+		name = "三好島民",
 		target_value1 = 3,
 		group = 3,
 		show_type = 1,
 		target_num = 50,
-		desc = "累计完成<color=#cd7900><b>$2</b></color>次每日计划",
+		desc = "累計完成<color=#cd7900><b>$2</b></color>次每日計劃",
 		id = 31,
 		stage = 1,
 		award = {
@@ -757,12 +757,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[32] = {
 		target_type = 2,
-		name = "三好岛民",
+		name = "三好島民",
 		target_value1 = 3,
 		group = 3,
 		show_type = 1,
 		target_num = 150,
-		desc = "累计完成<color=#cd7900><b>$2</b></color>次每日计划",
+		desc = "累計完成<color=#cd7900><b>$2</b></color>次每日計劃",
 		id = 32,
 		stage = 2,
 		award = {
@@ -782,12 +782,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[33] = {
 		target_type = 2,
-		name = "三好岛民",
+		name = "三好島民",
 		target_value1 = 3,
 		group = 3,
 		show_type = 1,
 		target_num = 300,
-		desc = "累计完成<color=#cd7900><b>$2</b></color>次每日计划",
+		desc = "累計完成<color=#cd7900><b>$2</b></color>次每日計劃",
 		id = 33,
 		stage = 3,
 		award = {
@@ -807,12 +807,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[34] = {
 		target_type = 2,
-		name = "三好岛民",
+		name = "三好島民",
 		target_value1 = 3,
 		group = 3,
 		show_type = 1,
 		target_num = 500,
-		desc = "累计完成<color=#cd7900><b>$2</b></color>次每日计划",
+		desc = "累計完成<color=#cd7900><b>$2</b></color>次每日計劃",
 		id = 34,
 		stage = 4,
 		award = {
@@ -832,12 +832,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[35] = {
 		target_type = 2,
-		name = "三好岛民",
+		name = "三好島民",
 		target_value1 = 3,
 		group = 3,
 		show_type = 1,
 		target_num = 1000,
-		desc = "累计完成<color=#cd7900><b>$2</b></color>次每日计划",
+		desc = "累計完成<color=#cd7900><b>$2</b></color>次每日計劃",
 		id = 35,
 		stage = 5,
 		award = {
@@ -857,12 +857,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[36] = {
 		target_type = 2,
-		name = "三好岛民",
+		name = "三好島民",
 		target_value1 = 3,
 		group = 3,
 		show_type = 1,
 		target_num = 2000,
-		desc = "累计完成<color=#cd7900><b>$2</b></color>次每日计划",
+		desc = "累計完成<color=#cd7900><b>$2</b></color>次每日計劃",
 		id = 36,
 		stage = 6,
 		award = {
@@ -882,12 +882,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[41] = {
 		target_type = 22,
-		name = "经济开发区",
+		name = "經濟開發區",
 		target_value1 = 1,
 		group = 4,
 		show_type = 1,
 		target_num = 100000,
-		desc = "累计获得<color=#cd7900><b>$2</b></color>岛屿开发资金",
+		desc = "累計獲得<color=#cd7900><b>$2</b></color>島嶼開發資金",
 		id = 41,
 		stage = 1,
 		award = {
@@ -907,12 +907,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[42] = {
 		target_type = 22,
-		name = "经济开发区",
+		name = "經濟開發區",
 		target_value1 = 1,
 		group = 4,
 		show_type = 1,
 		target_num = 1000000,
-		desc = "累计获得<color=#cd7900><b>$2</b></color>岛屿开发资金",
+		desc = "累計獲得<color=#cd7900><b>$2</b></color>島嶼開發資金",
 		id = 42,
 		stage = 2,
 		award = {
@@ -932,12 +932,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[43] = {
 		target_type = 22,
-		name = "经济开发区",
+		name = "經濟開發區",
 		target_value1 = 1,
 		group = 4,
 		show_type = 1,
 		target_num = 5000000,
-		desc = "累计获得<color=#cd7900><b>$2</b></color>岛屿开发资金",
+		desc = "累計獲得<color=#cd7900><b>$2</b></color>島嶼開發資金",
 		id = 43,
 		stage = 3,
 		award = {
@@ -957,12 +957,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[44] = {
 		target_type = 22,
-		name = "经济开发区",
+		name = "經濟開發區",
 		target_value1 = 1,
 		group = 4,
 		show_type = 1,
 		target_num = 10000000,
-		desc = "累计获得<color=#cd7900><b>$2</b></color>岛屿开发资金",
+		desc = "累計獲得<color=#cd7900><b>$2</b></color>島嶼開發資金",
 		id = 44,
 		stage = 4,
 		award = {
@@ -982,12 +982,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[45] = {
 		target_type = 22,
-		name = "经济开发区",
+		name = "經濟開發區",
 		target_value1 = 1,
 		group = 4,
 		show_type = 1,
 		target_num = 20000000,
-		desc = "累计获得<color=#cd7900><b>$2</b></color>岛屿开发资金",
+		desc = "累計獲得<color=#cd7900><b>$2</b></color>島嶼開發資金",
 		id = 45,
 		stage = 5,
 		award = {
@@ -1007,12 +1007,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[46] = {
 		target_type = 22,
-		name = "经济开发区",
+		name = "經濟開發區",
 		target_value1 = 1,
 		group = 4,
 		show_type = 1,
 		target_num = 50000000,
-		desc = "累计获得<color=#cd7900><b>$2</b></color>岛屿开发资金",
+		desc = "累計獲得<color=#cd7900><b>$2</b></color>島嶼開發資金",
 		id = 46,
 		stage = 6,
 		award = {
@@ -1032,12 +1032,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[51] = {
 		target_type = 16,
-		name = "奇迹开发区",
+		name = "奇蹟開發區",
 		target_value1 = 6,
 		group = 5,
 		show_type = 1,
 		target_num = 3,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官服裝",
 		id = 51,
 		stage = 1,
 		award = {
@@ -1057,12 +1057,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[52] = {
 		target_type = 16,
-		name = "奇迹开发区",
+		name = "奇蹟開發區",
 		target_value1 = 6,
 		group = 5,
 		show_type = 1,
 		target_num = 4,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官服裝",
 		id = 52,
 		stage = 2,
 		award = {
@@ -1082,12 +1082,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[53] = {
 		target_type = 16,
-		name = "奇迹开发区",
+		name = "奇蹟開發區",
 		target_value1 = 6,
 		group = 5,
 		show_type = 1,
 		target_num = 6,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官服裝",
 		id = 53,
 		stage = 3,
 		award = {
@@ -1107,12 +1107,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[54] = {
 		target_type = 16,
-		name = "奇迹开发区",
+		name = "奇蹟開發區",
 		target_value1 = 6,
 		group = 5,
 		show_type = 1,
 		target_num = 8,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官服裝",
 		id = 54,
 		stage = 4,
 		award = {
@@ -1132,12 +1132,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[55] = {
 		target_type = 16,
-		name = "奇迹开发区",
+		name = "奇蹟開發區",
 		target_value1 = 6,
 		group = 5,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官服裝",
 		id = 55,
 		stage = 5,
 		award = {
@@ -1157,12 +1157,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[56] = {
 		target_type = 16,
-		name = "奇迹开发区",
+		name = "奇蹟開發區",
 		target_value1 = 6,
 		group = 5,
 		show_type = 1,
 		target_num = 16,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官服裝",
 		id = 56,
 		stage = 6,
 		award = {
@@ -1182,12 +1182,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[61] = {
 		target_type = 16,
-		name = "千变背影",
+		name = "千變背影",
 		target_value1 = 1,
 		group = 6,
 		show_type = 1,
 		target_num = 3,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官背飾",
 		id = 61,
 		stage = 1,
 		award = {
@@ -1207,12 +1207,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[62] = {
 		target_type = 16,
-		name = "千变背影",
+		name = "千變背影",
 		target_value1 = 1,
 		group = 6,
 		show_type = 1,
 		target_num = 4,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官背飾",
 		id = 62,
 		stage = 2,
 		award = {
@@ -1232,12 +1232,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[63] = {
 		target_type = 16,
-		name = "千变背影",
+		name = "千變背影",
 		target_value1 = 1,
 		group = 6,
 		show_type = 1,
 		target_num = 6,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官背飾",
 		id = 63,
 		stage = 3,
 		award = {
@@ -1257,12 +1257,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[64] = {
 		target_type = 16,
-		name = "千变背影",
+		name = "千變背影",
 		target_value1 = 1,
 		group = 6,
 		show_type = 1,
 		target_num = 8,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官背飾",
 		id = 64,
 		stage = 4,
 		award = {
@@ -1282,12 +1282,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[65] = {
 		target_type = 16,
-		name = "千变背影",
+		name = "千變背影",
 		target_value1 = 1,
 		group = 6,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官背飾",
 		id = 65,
 		stage = 5,
 		award = {
@@ -1307,12 +1307,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[66] = {
 		target_type = 16,
-		name = "千变背影",
+		name = "千變背影",
 		target_value1 = 1,
 		group = 6,
 		show_type = 1,
 		target_num = 16,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官背飾",
 		id = 66,
 		stage = 6,
 		award = {
@@ -1332,12 +1332,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[71] = {
 		target_type = 16,
-		name = "踩下我的印记",
+		name = "踩下我的印記",
 		target_value1 = 3,
 		group = 7,
 		show_type = 1,
 		target_num = 3,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官腳印",
 		id = 71,
 		stage = 1,
 		award = {
@@ -1357,12 +1357,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[72] = {
 		target_type = 16,
-		name = "踩下我的印记",
+		name = "踩下我的印記",
 		target_value1 = 3,
 		group = 7,
 		show_type = 1,
 		target_num = 4,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官腳印",
 		id = 72,
 		stage = 2,
 		award = {
@@ -1382,12 +1382,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[73] = {
 		target_type = 16,
-		name = "踩下我的印记",
+		name = "踩下我的印記",
 		target_value1 = 3,
 		group = 7,
 		show_type = 1,
 		target_num = 6,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官腳印",
 		id = 73,
 		stage = 3,
 		award = {
@@ -1407,12 +1407,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[74] = {
 		target_type = 16,
-		name = "踩下我的印记",
+		name = "踩下我的印記",
 		target_value1 = 3,
 		group = 7,
 		show_type = 1,
 		target_num = 8,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官腳印",
 		id = 74,
 		stage = 4,
 		award = {
@@ -1432,12 +1432,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[75] = {
 		target_type = 16,
-		name = "踩下我的印记",
+		name = "踩下我的印記",
 		target_value1 = 3,
 		group = 7,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官腳印",
 		id = 75,
 		stage = 5,
 		award = {
@@ -1457,12 +1457,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[76] = {
 		target_type = 16,
-		name = "踩下我的印记",
+		name = "踩下我的印記",
 		target_value1 = 3,
 		group = 7,
 		show_type = 1,
 		target_num = 16,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官腳印",
 		id = 76,
 		stage = 6,
 		award = {
@@ -1482,12 +1482,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[81] = {
 		target_type = 16,
-		name = "我在飞！",
+		name = "我在飛！",
 		target_value1 = 2,
 		group = 8,
 		show_type = 1,
 		target_num = 3,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官漂浮物",
 		id = 81,
 		stage = 1,
 		award = {
@@ -1507,12 +1507,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[82] = {
 		target_type = 16,
-		name = "我在飞！",
+		name = "我在飛！",
 		target_value1 = 2,
 		group = 8,
 		show_type = 1,
 		target_num = 4,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官漂浮物",
 		id = 82,
 		stage = 2,
 		award = {
@@ -1532,12 +1532,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[83] = {
 		target_type = 16,
-		name = "我在飞！",
+		name = "我在飛！",
 		target_value1 = 2,
 		group = 8,
 		show_type = 1,
 		target_num = 6,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官漂浮物",
 		id = 83,
 		stage = 3,
 		award = {
@@ -1557,12 +1557,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[84] = {
 		target_type = 16,
-		name = "我在飞！",
+		name = "我在飛！",
 		target_value1 = 2,
 		group = 8,
 		show_type = 1,
 		target_num = 8,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官漂浮物",
 		id = 84,
 		stage = 4,
 		award = {
@@ -1582,12 +1582,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[85] = {
 		target_type = 16,
-		name = "我在飞！",
+		name = "我在飛！",
 		target_value1 = 2,
 		group = 8,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官漂浮物",
 		id = 85,
 		stage = 5,
 		award = {
@@ -1607,12 +1607,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[86] = {
 		target_type = 16,
-		name = "我在飞！",
+		name = "我在飛！",
 		target_value1 = 2,
 		group = 8,
 		show_type = 1,
 		target_num = 16,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官漂浮物",
 		id = 86,
 		stage = 6,
 		award = {
@@ -1632,12 +1632,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[91] = {
 		target_type = 36,
-		name = "节奏大师",
+		name = "節奏大師",
 		target_value1 = 0,
 		group = 9,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官互动动作",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官互動動作",
 		id = 91,
 		stage = 1,
 		award = {
@@ -1657,12 +1657,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[92] = {
 		target_type = 36,
-		name = "节奏大师",
+		name = "節奏大師",
 		target_value1 = 0,
 		group = 9,
 		show_type = 1,
 		target_num = 12,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官互动动作",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官互動動作",
 		id = 92,
 		stage = 2,
 		award = {
@@ -1682,12 +1682,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[93] = {
 		target_type = 36,
-		name = "节奏大师",
+		name = "節奏大師",
 		target_value1 = 0,
 		group = 9,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官互动动作",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官互動動作",
 		id = 93,
 		stage = 3,
 		award = {
@@ -1707,12 +1707,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[94] = {
 		target_type = 36,
-		name = "节奏大师",
+		name = "節奏大師",
 		target_value1 = 0,
 		group = 9,
 		show_type = 1,
 		target_num = 20,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官互动动作",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官互動動作",
 		id = 94,
 		stage = 4,
 		award = {
@@ -1732,12 +1732,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[95] = {
 		target_type = 36,
-		name = "节奏大师",
+		name = "節奏大師",
 		target_value1 = 0,
 		group = 9,
 		show_type = 1,
 		target_num = 25,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官互动动作",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官互動動作",
 		id = 95,
 		stage = 5,
 		award = {
@@ -1757,12 +1757,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[96] = {
 		target_type = 36,
-		name = "节奏大师",
+		name = "節奏大師",
 		target_value1 = 0,
 		group = 9,
 		show_type = 1,
 		target_num = 35,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官互动动作",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種指揮官互動動作",
 		id = 96,
 		stage = 6,
 		award = {
@@ -1782,12 +1782,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1011] = {
 		target_type = 13,
-		name = "全勤奖章",
+		name = "全勤獎章",
 		target_value1 = 0,
 		group = 101,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计登录岛屿开发区<color=#cd7900><b>$2</b></color>日",
+		desc = "累計登入島嶼開發區<color=#cd7900><b>$2</b></color>日",
 		id = 1011,
 		stage = 1,
 		award = {
@@ -1807,12 +1807,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1012] = {
 		target_type = 13,
-		name = "全勤奖章",
+		name = "全勤獎章",
 		target_value1 = 0,
 		group = 101,
 		show_type = 1,
 		target_num = 30,
-		desc = "累计登录岛屿开发区<color=#cd7900><b>$2</b></color>日",
+		desc = "累計登入島嶼開發區<color=#cd7900><b>$2</b></color>日",
 		id = 1012,
 		stage = 2,
 		award = {
@@ -1832,12 +1832,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1013] = {
 		target_type = 13,
-		name = "全勤奖章",
+		name = "全勤獎章",
 		target_value1 = 0,
 		group = 101,
 		show_type = 1,
 		target_num = 60,
-		desc = "累计登录岛屿开发区<color=#cd7900><b>$2</b></color>日",
+		desc = "累計登入島嶼開發區<color=#cd7900><b>$2</b></color>日",
 		id = 1013,
 		stage = 3,
 		award = {
@@ -1857,12 +1857,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1014] = {
 		target_type = 13,
-		name = "全勤奖章",
+		name = "全勤獎章",
 		target_value1 = 0,
 		group = 101,
 		show_type = 1,
 		target_num = 120,
-		desc = "累计登录岛屿开发区<color=#cd7900><b>$2</b></color>日",
+		desc = "累計登入島嶼開發區<color=#cd7900><b>$2</b></color>日",
 		id = 1014,
 		stage = 4,
 		award = {
@@ -1882,12 +1882,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1015] = {
 		target_type = 13,
-		name = "全勤奖章",
+		name = "全勤獎章",
 		target_value1 = 0,
 		group = 101,
 		show_type = 1,
 		target_num = 250,
-		desc = "累计登录岛屿开发区<color=#cd7900><b>$2</b></color>日",
+		desc = "累計登入島嶼開發區<color=#cd7900><b>$2</b></color>日",
 		id = 1015,
 		stage = 5,
 		award = {
@@ -1907,12 +1907,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1016] = {
 		target_type = 13,
-		name = "全勤奖章",
+		name = "全勤獎章",
 		target_value1 = 0,
 		group = 101,
 		show_type = 1,
 		target_num = 500,
-		desc = "累计登录岛屿开发区<color=#cd7900><b>$2</b></color>日",
+		desc = "累計登入島嶼開發區<color=#cd7900><b>$2</b></color>日",
 		id = 1016,
 		stage = 6,
 		award = {
@@ -1932,12 +1932,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1021] = {
 		target_type = 21,
-		name = "黄金矿工",
+		name = "黃金礦工",
 		target_value1 = 401,
 		group = 102,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计在沉石矿山手动采矿<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在沉石礦山手動採礦<color=#cd7900><b>$2</b></color>次",
 		id = 1021,
 		stage = 1,
 		award = {
@@ -1957,12 +1957,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1022] = {
 		target_type = 21,
-		name = "黄金矿工",
+		name = "黃金礦工",
 		target_value1 = 401,
 		group = 102,
 		show_type = 1,
 		target_num = 50,
-		desc = "累计在沉石矿山手动采矿<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在沉石礦山手動採礦<color=#cd7900><b>$2</b></color>次",
 		id = 1022,
 		stage = 2,
 		award = {
@@ -1982,12 +1982,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1023] = {
 		target_type = 21,
-		name = "黄金矿工",
+		name = "黃金礦工",
 		target_value1 = 401,
 		group = 102,
 		show_type = 1,
 		target_num = 100,
-		desc = "累计在沉石矿山手动采矿<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在沉石礦山手動採礦<color=#cd7900><b>$2</b></color>次",
 		id = 1023,
 		stage = 3,
 		award = {
@@ -2007,12 +2007,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1024] = {
 		target_type = 21,
-		name = "黄金矿工",
+		name = "黃金礦工",
 		target_value1 = 401,
 		group = 102,
 		show_type = 1,
 		target_num = 250,
-		desc = "累计在沉石矿山手动采矿<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在沉石礦山手動採礦<color=#cd7900><b>$2</b></color>次",
 		id = 1024,
 		stage = 4,
 		award = {
@@ -2032,12 +2032,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1025] = {
 		target_type = 21,
-		name = "黄金矿工",
+		name = "黃金礦工",
 		target_value1 = 401,
 		group = 102,
 		show_type = 1,
 		target_num = 400,
-		desc = "累计在沉石矿山手动采矿<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在沉石礦山手動採礦<color=#cd7900><b>$2</b></color>次",
 		id = 1025,
 		stage = 5,
 		award = {
@@ -2057,12 +2057,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1026] = {
 		target_type = 21,
-		name = "黄金矿工",
+		name = "黃金礦工",
 		target_value1 = 401,
 		group = 102,
 		show_type = 1,
 		target_num = 700,
-		desc = "累计在沉石矿山手动采矿<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在沉石礦山手動採礦<color=#cd7900><b>$2</b></color>次",
 		id = 1026,
 		stage = 6,
 		award = {
@@ -2087,7 +2087,7 @@ pg.base.island_achievement = {}
 		group = 103,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计在翠土林场手动伐木<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在翠土林場手動伐木<color=#cd7900><b>$2</b></color>次",
 		id = 1031,
 		stage = 1,
 		award = {
@@ -2112,7 +2112,7 @@ pg.base.island_achievement = {}
 		group = 103,
 		show_type = 1,
 		target_num = 50,
-		desc = "累计在翠土林场手动伐木<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在翠土林場手動伐木<color=#cd7900><b>$2</b></color>次",
 		id = 1032,
 		stage = 2,
 		award = {
@@ -2137,7 +2137,7 @@ pg.base.island_achievement = {}
 		group = 103,
 		show_type = 1,
 		target_num = 100,
-		desc = "累计在翠土林场手动伐木<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在翠土林場手動伐木<color=#cd7900><b>$2</b></color>次",
 		id = 1033,
 		stage = 3,
 		award = {
@@ -2162,7 +2162,7 @@ pg.base.island_achievement = {}
 		group = 103,
 		show_type = 1,
 		target_num = 250,
-		desc = "累计在翠土林场手动伐木<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在翠土林場手動伐木<color=#cd7900><b>$2</b></color>次",
 		id = 1034,
 		stage = 4,
 		award = {
@@ -2187,7 +2187,7 @@ pg.base.island_achievement = {}
 		group = 103,
 		show_type = 1,
 		target_num = 400,
-		desc = "累计在翠土林场手动伐木<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在翠土林場手動伐木<color=#cd7900><b>$2</b></color>次",
 		id = 1035,
 		stage = 5,
 		award = {
@@ -2212,7 +2212,7 @@ pg.base.island_achievement = {}
 		group = 103,
 		show_type = 1,
 		target_num = 700,
-		desc = "累计在翠土林场手动伐木<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在翠土林場手動伐木<color=#cd7900><b>$2</b></color>次",
 		id = 1036,
 		stage = 6,
 		award = {
@@ -2237,7 +2237,7 @@ pg.base.island_achievement = {}
 		group = 104,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计在晨露农场手动采集<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在晨露農場手動採集<color=#cd7900><b>$2</b></color>次",
 		id = 1041,
 		stage = 1,
 		award = {
@@ -2262,7 +2262,7 @@ pg.base.island_achievement = {}
 		group = 104,
 		show_type = 1,
 		target_num = 50,
-		desc = "累计在晨露农场手动采集<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在晨露農場手動採集<color=#cd7900><b>$2</b></color>次",
 		id = 1042,
 		stage = 2,
 		award = {
@@ -2287,7 +2287,7 @@ pg.base.island_achievement = {}
 		group = 104,
 		show_type = 1,
 		target_num = 100,
-		desc = "累计在晨露农场手动采集<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在晨露農場手動採集<color=#cd7900><b>$2</b></color>次",
 		id = 1043,
 		stage = 3,
 		award = {
@@ -2312,7 +2312,7 @@ pg.base.island_achievement = {}
 		group = 104,
 		show_type = 1,
 		target_num = 250,
-		desc = "累计在晨露农场手动采集<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在晨露農場手動採集<color=#cd7900><b>$2</b></color>次",
 		id = 1044,
 		stage = 4,
 		award = {
@@ -2337,7 +2337,7 @@ pg.base.island_achievement = {}
 		group = 104,
 		show_type = 1,
 		target_num = 400,
-		desc = "累计在晨露农场手动采集<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在晨露農場手動採集<color=#cd7900><b>$2</b></color>次",
 		id = 1045,
 		stage = 5,
 		award = {
@@ -2362,7 +2362,7 @@ pg.base.island_achievement = {}
 		group = 104,
 		show_type = 1,
 		target_num = 700,
-		desc = "累计在晨露农场手动采集<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在晨露農場手動採集<color=#cd7900><b>$2</b></color>次",
 		id = 1046,
 		stage = 6,
 		award = {
@@ -2382,12 +2382,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1051] = {
 		target_type = 21,
-		name = "水果圣杯",
+		name = "水果聖盃",
 		target_value1 = 501,
 		group = 105,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计在坠香果园手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在墜香果園手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1051,
 		stage = 1,
 		award = {
@@ -2407,12 +2407,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1052] = {
 		target_type = 21,
-		name = "水果圣杯",
+		name = "水果聖盃",
 		target_value1 = 501,
 		group = 105,
 		show_type = 1,
 		target_num = 50,
-		desc = "累计在坠香果园手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在墜香果園手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1052,
 		stage = 2,
 		award = {
@@ -2432,12 +2432,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1053] = {
 		target_type = 21,
-		name = "水果圣杯",
+		name = "水果聖盃",
 		target_value1 = 501,
 		group = 105,
 		show_type = 1,
 		target_num = 100,
-		desc = "累计在坠香果园手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在墜香果園手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1053,
 		stage = 3,
 		award = {
@@ -2457,12 +2457,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1054] = {
 		target_type = 21,
-		name = "水果圣杯",
+		name = "水果聖盃",
 		target_value1 = 501,
 		group = 105,
 		show_type = 1,
 		target_num = 250,
-		desc = "累计在坠香果园手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在墜香果園手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1054,
 		stage = 4,
 		award = {
@@ -2482,12 +2482,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1055] = {
 		target_type = 21,
-		name = "水果圣杯",
+		name = "水果聖盃",
 		target_value1 = 501,
 		group = 105,
 		show_type = 1,
 		target_num = 400,
-		desc = "累计在坠香果园手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在墜香果園手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1055,
 		stage = 5,
 		award = {
@@ -2507,12 +2507,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1056] = {
 		target_type = 21,
-		name = "水果圣杯",
+		name = "水果聖盃",
 		target_value1 = 501,
 		group = 105,
 		show_type = 1,
 		target_num = 700,
-		desc = "累计在坠香果园手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在墜香果園手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1056,
 		stage = 6,
 		award = {
@@ -2532,12 +2532,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1061] = {
 		target_type = 21,
-		name = "秘密花园",
+		name = "秘密花園",
 		target_value1 = 502,
 		group = 106,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计在青芽苗圃手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在青芽苗圃手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1061,
 		stage = 1,
 		award = {
@@ -2557,12 +2557,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1062] = {
 		target_type = 21,
-		name = "秘密花园",
+		name = "秘密花園",
 		target_value1 = 502,
 		group = 106,
 		show_type = 1,
 		target_num = 50,
-		desc = "累计在青芽苗圃手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在青芽苗圃手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1062,
 		stage = 2,
 		award = {
@@ -2582,12 +2582,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1063] = {
 		target_type = 21,
-		name = "秘密花园",
+		name = "秘密花園",
 		target_value1 = 502,
 		group = 106,
 		show_type = 1,
 		target_num = 100,
-		desc = "累计在青芽苗圃手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在青芽苗圃手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1063,
 		stage = 3,
 		award = {
@@ -2607,12 +2607,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1064] = {
 		target_type = 21,
-		name = "秘密花园",
+		name = "秘密花園",
 		target_value1 = 502,
 		group = 106,
 		show_type = 1,
 		target_num = 250,
-		desc = "累计在青芽苗圃手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在青芽苗圃手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1064,
 		stage = 4,
 		award = {
@@ -2632,12 +2632,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1065] = {
 		target_type = 21,
-		name = "秘密花园",
+		name = "秘密花園",
 		target_value1 = 502,
 		group = 106,
 		show_type = 1,
 		target_num = 400,
-		desc = "累计在青芽苗圃手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在青芽苗圃手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1065,
 		stage = 5,
 		award = {
@@ -2657,12 +2657,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1066] = {
 		target_type = 21,
-		name = "秘密花园",
+		name = "秘密花園",
 		target_value1 = 502,
 		group = 106,
 		show_type = 1,
 		target_num = 700,
-		desc = "累计在青芽苗圃手动收获<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在青芽苗圃手動收穫<color=#cd7900><b>$2</b></color>次",
 		id = 1066,
 		stage = 6,
 		award = {
@@ -2687,7 +2687,7 @@ pg.base.island_achievement = {}
 		group = 107,
 		show_type = 1,
 		target_num = 75,
-		desc = "累计派遣角色<color=#cd7900><b>$2</b></color>次",
+		desc = "累計派遣角色<color=#cd7900><b>$2</b></color>次",
 		id = 1071,
 		stage = 1,
 		award = {
@@ -2712,7 +2712,7 @@ pg.base.island_achievement = {}
 		group = 107,
 		show_type = 1,
 		target_num = 150,
-		desc = "累计派遣角色<color=#cd7900><b>$2</b></color>次",
+		desc = "累計派遣角色<color=#cd7900><b>$2</b></color>次",
 		id = 1072,
 		stage = 2,
 		award = {
@@ -2737,7 +2737,7 @@ pg.base.island_achievement = {}
 		group = 107,
 		show_type = 1,
 		target_num = 300,
-		desc = "累计派遣角色<color=#cd7900><b>$2</b></color>次",
+		desc = "累計派遣角色<color=#cd7900><b>$2</b></color>次",
 		id = 1073,
 		stage = 3,
 		award = {
@@ -2762,7 +2762,7 @@ pg.base.island_achievement = {}
 		group = 107,
 		show_type = 1,
 		target_num = 600,
-		desc = "累计派遣角色<color=#cd7900><b>$2</b></color>次",
+		desc = "累計派遣角色<color=#cd7900><b>$2</b></color>次",
 		id = 1074,
 		stage = 4,
 		award = {
@@ -2787,7 +2787,7 @@ pg.base.island_achievement = {}
 		group = 107,
 		show_type = 1,
 		target_num = 1000,
-		desc = "累计派遣角色<color=#cd7900><b>$2</b></color>次",
+		desc = "累計派遣角色<color=#cd7900><b>$2</b></color>次",
 		id = 1075,
 		stage = 5,
 		award = {
@@ -2812,7 +2812,7 @@ pg.base.island_achievement = {}
 		group = 107,
 		show_type = 1,
 		target_num = 2000,
-		desc = "累计派遣角色<color=#cd7900><b>$2</b></color>次",
+		desc = "累計派遣角色<color=#cd7900><b>$2</b></color>次",
 		id = 1076,
 		stage = 6,
 		award = {
@@ -2832,12 +2832,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1081] = {
 		target_type = 33,
-		name = "一起来集会吧！",
+		name = "一起來集會吧！",
 		target_value1 = 0,
 		group = 108,
 		show_type = 1,
 		target_num = 30,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种家具",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種傢俱",
 		id = 1081,
 		stage = 1,
 		award = {
@@ -2857,12 +2857,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1082] = {
 		target_type = 33,
-		name = "一起来集会吧！",
+		name = "一起來集會吧！",
 		target_value1 = 0,
 		group = 108,
 		show_type = 1,
 		target_num = 40,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种家具",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種傢俱",
 		id = 1082,
 		stage = 2,
 		award = {
@@ -2882,12 +2882,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1083] = {
 		target_type = 33,
-		name = "一起来集会吧！",
+		name = "一起來集會吧！",
 		target_value1 = 0,
 		group = 108,
 		show_type = 1,
 		target_num = 50,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种家具",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種傢俱",
 		id = 1083,
 		stage = 3,
 		award = {
@@ -2907,12 +2907,12 @@ pg.base.island_achievement = {}
 	}
 	pg.base.island_achievement[1084] = {
 		target_type = 33,
-		name = "一起来集会吧！",
+		name = "一起來集會吧！",
 		target_value1 = 0,
 		group = 108,
 		show_type = 1,
 		target_num = 70,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种家具",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種傢俱",
 		id = 1084,
 		stage = 4,
 		award = {
@@ -2934,12 +2934,12 @@ end)()
 (function ()
 	pg.base.island_achievement[1085] = {
 		target_type = 33,
-		name = "一起来集会吧！",
+		name = "一起來集會吧！",
 		target_value1 = 0,
 		group = 108,
 		show_type = 1,
 		target_num = 90,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种家具",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種傢俱",
 		id = 1085,
 		stage = 5,
 		award = {
@@ -2959,12 +2959,12 @@ end)()
 	}
 	pg.base.island_achievement[1086] = {
 		target_type = 33,
-		name = "一起来集会吧！",
+		name = "一起來集會吧！",
 		target_value1 = 0,
 		group = 108,
 		show_type = 1,
 		target_num = 200,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种家具",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種傢俱",
 		id = 1086,
 		stage = 6,
 		award = {
@@ -2989,7 +2989,7 @@ end)()
 		group = 201,
 		show_type = 1,
 		target_num = 75,
-		desc = "累计完成普通岛屿订单<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成普通島嶼訂單<color=#cd7900><b>$2</b></color>個",
 		id = 2011,
 		stage = 1,
 		award = {
@@ -3014,7 +3014,7 @@ end)()
 		group = 201,
 		show_type = 1,
 		target_num = 150,
-		desc = "累计完成普通岛屿订单<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成普通島嶼訂單<color=#cd7900><b>$2</b></color>個",
 		id = 2012,
 		stage = 2,
 		award = {
@@ -3039,7 +3039,7 @@ end)()
 		group = 201,
 		show_type = 1,
 		target_num = 300,
-		desc = "累计完成普通岛屿订单<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成普通島嶼訂單<color=#cd7900><b>$2</b></color>個",
 		id = 2013,
 		stage = 3,
 		award = {
@@ -3064,7 +3064,7 @@ end)()
 		group = 201,
 		show_type = 1,
 		target_num = 600,
-		desc = "累计完成普通岛屿订单<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成普通島嶼訂單<color=#cd7900><b>$2</b></color>個",
 		id = 2014,
 		stage = 4,
 		award = {
@@ -3089,7 +3089,7 @@ end)()
 		group = 201,
 		show_type = 1,
 		target_num = 1000,
-		desc = "累计完成普通岛屿订单<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成普通島嶼訂單<color=#cd7900><b>$2</b></color>個",
 		id = 2015,
 		stage = 5,
 		award = {
@@ -3114,7 +3114,7 @@ end)()
 		group = 201,
 		show_type = 1,
 		target_num = 2000,
-		desc = "累计完成普通岛屿订单<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成普通島嶼訂單<color=#cd7900><b>$2</b></color>個",
 		id = 2016,
 		stage = 6,
 		award = {
@@ -3134,12 +3134,12 @@ end)()
 	}
 	pg.base.island_achievement[2021] = {
 		target_type = 4,
-		name = "货运好搭档",
+		name = "貨運好搭檔",
 		target_value1 = 3,
 		group = 202,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计完成货运委托<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成貨運委託<color=#cd7900><b>$2</b></color>個",
 		id = 2021,
 		stage = 1,
 		award = {
@@ -3159,12 +3159,12 @@ end)()
 	}
 	pg.base.island_achievement[2022] = {
 		target_type = 4,
-		name = "货运好搭档",
+		name = "貨運好搭檔",
 		target_value1 = 3,
 		group = 202,
 		show_type = 1,
 		target_num = 50,
-		desc = "累计完成货运委托<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成貨運委託<color=#cd7900><b>$2</b></color>個",
 		id = 2022,
 		stage = 2,
 		award = {
@@ -3184,12 +3184,12 @@ end)()
 	}
 	pg.base.island_achievement[2023] = {
 		target_type = 4,
-		name = "货运好搭档",
+		name = "貨運好搭檔",
 		target_value1 = 3,
 		group = 202,
 		show_type = 1,
 		target_num = 180,
-		desc = "累计完成货运委托<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成貨運委託<color=#cd7900><b>$2</b></color>個",
 		id = 2023,
 		stage = 3,
 		award = {
@@ -3209,12 +3209,12 @@ end)()
 	}
 	pg.base.island_achievement[2024] = {
 		target_type = 4,
-		name = "货运好搭档",
+		name = "貨運好搭檔",
 		target_value1 = 3,
 		group = 202,
 		show_type = 1,
 		target_num = 350,
-		desc = "累计完成货运委托<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成貨運委託<color=#cd7900><b>$2</b></color>個",
 		id = 2024,
 		stage = 4,
 		award = {
@@ -3234,12 +3234,12 @@ end)()
 	}
 	pg.base.island_achievement[2025] = {
 		target_type = 4,
-		name = "货运好搭档",
+		name = "貨運好搭檔",
 		target_value1 = 3,
 		group = 202,
 		show_type = 1,
 		target_num = 750,
-		desc = "累计完成货运委托<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成貨運委託<color=#cd7900><b>$2</b></color>個",
 		id = 2025,
 		stage = 5,
 		award = {
@@ -3259,12 +3259,12 @@ end)()
 	}
 	pg.base.island_achievement[2026] = {
 		target_type = 4,
-		name = "货运好搭档",
+		name = "貨運好搭檔",
 		target_value1 = 3,
 		group = 202,
 		show_type = 1,
 		target_num = 1000,
-		desc = "累计完成货运委托<color=#cd7900><b>$2</b></color>个",
+		desc = "累計完成貨運委託<color=#cd7900><b>$2</b></color>個",
 		id = 2026,
 		stage = 6,
 		award = {
@@ -3284,12 +3284,12 @@ end)()
 	}
 	pg.base.island_achievement[2031] = {
 		target_type = 17,
-		name = "换种形式陪你",
+		name = "換種形式陪你",
 		target_value1 = 1,
 		group = 203,
 		show_type = 1,
 		target_num = 100000,
-		desc = "累计在商店花费<color=#cd7900><b>$2</b></color>开发资金",
+		desc = "累計在商店花費<color=#cd7900><b>$2</b></color>開發資金",
 		id = 2031,
 		stage = 1,
 		award = {
@@ -3309,12 +3309,12 @@ end)()
 	}
 	pg.base.island_achievement[2032] = {
 		target_type = 17,
-		name = "换种形式陪你",
+		name = "換種形式陪你",
 		target_value1 = 1,
 		group = 203,
 		show_type = 1,
 		target_num = 500000,
-		desc = "累计在商店花费<color=#cd7900><b>$2</b></color>开发资金",
+		desc = "累計在商店花費<color=#cd7900><b>$2</b></color>開發資金",
 		id = 2032,
 		stage = 2,
 		award = {
@@ -3334,12 +3334,12 @@ end)()
 	}
 	pg.base.island_achievement[2033] = {
 		target_type = 17,
-		name = "换种形式陪你",
+		name = "換種形式陪你",
 		target_value1 = 1,
 		group = 203,
 		show_type = 1,
 		target_num = 2500000,
-		desc = "累计在商店花费<color=#cd7900><b>$2</b></color>开发资金",
+		desc = "累計在商店花費<color=#cd7900><b>$2</b></color>開發資金",
 		id = 2033,
 		stage = 3,
 		award = {
@@ -3359,12 +3359,12 @@ end)()
 	}
 	pg.base.island_achievement[2034] = {
 		target_type = 17,
-		name = "换种形式陪你",
+		name = "換種形式陪你",
 		target_value1 = 1,
 		group = 203,
 		show_type = 1,
 		target_num = 5000000,
-		desc = "累计在商店花费<color=#cd7900><b>$2</b></color>开发资金",
+		desc = "累計在商店花費<color=#cd7900><b>$2</b></color>開發資金",
 		id = 2034,
 		stage = 4,
 		award = {
@@ -3384,12 +3384,12 @@ end)()
 	}
 	pg.base.island_achievement[2035] = {
 		target_type = 17,
-		name = "换种形式陪你",
+		name = "換種形式陪你",
 		target_value1 = 1,
 		group = 203,
 		show_type = 1,
 		target_num = 10000000,
-		desc = "累计在商店花费<color=#cd7900><b>$2</b></color>开发资金",
+		desc = "累計在商店花費<color=#cd7900><b>$2</b></color>開發資金",
 		id = 2035,
 		stage = 5,
 		award = {
@@ -3409,12 +3409,12 @@ end)()
 	}
 	pg.base.island_achievement[2036] = {
 		target_type = 17,
-		name = "换种形式陪你",
+		name = "換種形式陪你",
 		target_value1 = 1,
 		group = 203,
 		show_type = 1,
 		target_num = 25000000,
-		desc = "累计在商店花费<color=#cd7900><b>$2</b></color>开发资金",
+		desc = "累計在商店花費<color=#cd7900><b>$2</b></color>開發資金",
 		id = 2036,
 		stage = 6,
 		award = {
@@ -3434,12 +3434,12 @@ end)()
 	}
 	pg.base.island_achievement[2041] = {
 		target_type = 31,
-		name = "人气店主",
+		name = "人氣店主",
 		target_value1 = 0,
 		group = 204,
 		show_type = 1,
 		target_num = 100,
-		desc = "累计在岛屿开发区营业<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在島嶼開發區營業<color=#cd7900><b>$2</b></color>次",
 		id = 2041,
 		stage = 1,
 		award = {
@@ -3459,12 +3459,12 @@ end)()
 	}
 	pg.base.island_achievement[2042] = {
 		target_type = 31,
-		name = "人气店主",
+		name = "人氣店主",
 		target_value1 = 0,
 		group = 204,
 		show_type = 1,
 		target_num = 200,
-		desc = "累计在岛屿开发区营业<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在島嶼開發區營業<color=#cd7900><b>$2</b></color>次",
 		id = 2042,
 		stage = 2,
 		award = {
@@ -3484,12 +3484,12 @@ end)()
 	}
 	pg.base.island_achievement[2043] = {
 		target_type = 31,
-		name = "人气店主",
+		name = "人氣店主",
 		target_value1 = 0,
 		group = 204,
 		show_type = 1,
 		target_num = 400,
-		desc = "累计在岛屿开发区营业<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在島嶼開發區營業<color=#cd7900><b>$2</b></color>次",
 		id = 2043,
 		stage = 3,
 		award = {
@@ -3509,12 +3509,12 @@ end)()
 	}
 	pg.base.island_achievement[2044] = {
 		target_type = 31,
-		name = "人气店主",
+		name = "人氣店主",
 		target_value1 = 0,
 		group = 204,
 		show_type = 1,
 		target_num = 720,
-		desc = "累计在岛屿开发区营业<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在島嶼開發區營業<color=#cd7900><b>$2</b></color>次",
 		id = 2044,
 		stage = 4,
 		award = {
@@ -3534,12 +3534,12 @@ end)()
 	}
 	pg.base.island_achievement[2045] = {
 		target_type = 31,
-		name = "人气店主",
+		name = "人氣店主",
 		target_value1 = 0,
 		group = 204,
 		show_type = 1,
 		target_num = 1200,
-		desc = "累计在岛屿开发区营业<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在島嶼開發區營業<color=#cd7900><b>$2</b></color>次",
 		id = 2045,
 		stage = 5,
 		award = {
@@ -3559,12 +3559,12 @@ end)()
 	}
 	pg.base.island_achievement[2046] = {
 		target_type = 31,
-		name = "人气店主",
+		name = "人氣店主",
 		target_value1 = 0,
 		group = 204,
 		show_type = 1,
 		target_num = 2000,
-		desc = "累计在岛屿开发区营业<color=#cd7900><b>$2</b></color>次",
+		desc = "累計在島嶼開發區營業<color=#cd7900><b>$2</b></color>次",
 		id = 2046,
 		stage = 6,
 		award = {
@@ -3589,7 +3589,7 @@ end)()
 		group = 205,
 		show_type = 1,
 		target_num = 30,
-		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
+		desc = "進行抽取<color=#cd7900><b>$2</b></color>次島嶼星彩獎",
 		id = 2051,
 		stage = 1,
 		award = {
@@ -3614,7 +3614,7 @@ end)()
 		group = 205,
 		show_type = 1,
 		target_num = 80,
-		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
+		desc = "進行抽取<color=#cd7900><b>$2</b></color>次島嶼星彩獎",
 		id = 2052,
 		stage = 2,
 		award = {
@@ -3639,7 +3639,7 @@ end)()
 		group = 205,
 		show_type = 1,
 		target_num = 150,
-		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
+		desc = "進行抽取<color=#cd7900><b>$2</b></color>次島嶼星彩獎",
 		id = 2053,
 		stage = 3,
 		award = {
@@ -3664,7 +3664,7 @@ end)()
 		group = 205,
 		show_type = 1,
 		target_num = 300,
-		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
+		desc = "進行抽取<color=#cd7900><b>$2</b></color>次島嶼星彩獎",
 		id = 2054,
 		stage = 4,
 		award = {
@@ -3689,7 +3689,7 @@ end)()
 		group = 205,
 		show_type = 1,
 		target_num = 600,
-		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
+		desc = "進行抽取<color=#cd7900><b>$2</b></color>次島嶼星彩獎",
 		id = 2055,
 		stage = 5,
 		award = {
@@ -3714,7 +3714,7 @@ end)()
 		group = 205,
 		show_type = 1,
 		target_num = 900,
-		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
+		desc = "進行抽取<color=#cd7900><b>$2</b></color>次島嶼星彩獎",
 		id = 2056,
 		stage = 6,
 		award = {
@@ -3734,12 +3734,12 @@ end)()
 	}
 	pg.base.island_achievement[3011] = {
 		target_type = 5,
-		name = "开发区的生活",
+		name = "開發區的生活",
 		target_value1 = 50,
 		group = 301,
 		show_type = 1,
 		target_num = 1,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个50级角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個50級角色",
 		id = 3011,
 		stage = 1,
 		award = {
@@ -3759,12 +3759,12 @@ end)()
 	}
 	pg.base.island_achievement[3012] = {
 		target_type = 5,
-		name = "开发区的生活",
+		name = "開發區的生活",
 		target_value1 = 50,
 		group = 301,
 		show_type = 1,
 		target_num = 3,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个50级角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個50級角色",
 		id = 3012,
 		stage = 2,
 		award = {
@@ -3784,12 +3784,12 @@ end)()
 	}
 	pg.base.island_achievement[3013] = {
 		target_type = 5,
-		name = "开发区的生活",
+		name = "開發區的生活",
 		target_value1 = 50,
 		group = 301,
 		show_type = 1,
 		target_num = 5,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个50级角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個50級角色",
 		id = 3013,
 		stage = 3,
 		award = {
@@ -3809,12 +3809,12 @@ end)()
 	}
 	pg.base.island_achievement[3014] = {
 		target_type = 5,
-		name = "开发区的生活",
+		name = "開發區的生活",
 		target_value1 = 50,
 		group = 301,
 		show_type = 1,
 		target_num = 7,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个50级角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個50級角色",
 		id = 3014,
 		stage = 4,
 		award = {
@@ -3834,12 +3834,12 @@ end)()
 	}
 	pg.base.island_achievement[3015] = {
 		target_type = 5,
-		name = "开发区的生活",
+		name = "開發區的生活",
 		target_value1 = 50,
 		group = 301,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个50级角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個50級角色",
 		id = 3015,
 		stage = 5,
 		award = {
@@ -3859,12 +3859,12 @@ end)()
 	}
 	pg.base.island_achievement[3016] = {
 		target_type = 5,
-		name = "开发区的生活",
+		name = "開發區的生活",
 		target_value1 = 50,
 		group = 301,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个50级角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個50級角色",
 		id = 3016,
 		stage = 6,
 		award = {
@@ -3884,12 +3884,12 @@ end)()
 	}
 	pg.base.island_achievement[3021] = {
 		target_type = 6,
-		name = "生产力UP！",
+		name = "生產力UP！",
 		target_value1 = 10,
 		group = 302,
 		show_type = 1,
 		target_num = 1,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个10级技能角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個10級技能角色",
 		id = 3021,
 		stage = 1,
 		award = {
@@ -3909,12 +3909,12 @@ end)()
 	}
 	pg.base.island_achievement[3022] = {
 		target_type = 6,
-		name = "生产力UP！",
+		name = "生產力UP！",
 		target_value1 = 10,
 		group = 302,
 		show_type = 1,
 		target_num = 2,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个10级技能角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個10級技能角色",
 		id = 3022,
 		stage = 2,
 		award = {
@@ -3934,12 +3934,12 @@ end)()
 	}
 	pg.base.island_achievement[3023] = {
 		target_type = 6,
-		name = "生产力UP！",
+		name = "生產力UP！",
 		target_value1 = 10,
 		group = 302,
 		show_type = 1,
 		target_num = 4,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个10级技能角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個10級技能角色",
 		id = 3023,
 		stage = 3,
 		award = {
@@ -3959,12 +3959,12 @@ end)()
 	}
 	pg.base.island_achievement[3024] = {
 		target_type = 6,
-		name = "生产力UP！",
+		name = "生產力UP！",
 		target_value1 = 10,
 		group = 302,
 		show_type = 1,
 		target_num = 6,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个10级技能角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個10級技能角色",
 		id = 3024,
 		stage = 4,
 		award = {
@@ -3984,12 +3984,12 @@ end)()
 	}
 	pg.base.island_achievement[3025] = {
 		target_type = 6,
-		name = "生产力UP！",
+		name = "生產力UP！",
 		target_value1 = 10,
 		group = 302,
 		show_type = 1,
 		target_num = 8,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个10级技能角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個10級技能角色",
 		id = 3025,
 		stage = 5,
 		award = {
@@ -4009,12 +4009,12 @@ end)()
 	}
 	pg.base.island_achievement[3026] = {
 		target_type = 6,
-		name = "生产力UP！",
+		name = "生產力UP！",
 		target_value1 = 10,
 		group = 302,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计培养<color=#cd7900><b>$2</b></color>个10级技能角色",
+		desc = "累計培養<color=#cd7900><b>$2</b></color>個10級技能角色",
 		id = 3026,
 		stage = 6,
 		award = {
@@ -4034,12 +4034,12 @@ end)()
 	}
 	pg.base.island_achievement[3031] = {
 		target_type = 32,
-		name = "心有灵犀",
+		name = "心有靈犀",
 		target_value1 = 0,
 		group = 303,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计与角色互动<color=#cd7900><b>$2</b></color>天",
+		desc = "累計與角色互動<color=#cd7900><b>$2</b></color>天",
 		id = 3031,
 		stage = 1,
 		award = {
@@ -4059,12 +4059,12 @@ end)()
 	}
 	pg.base.island_achievement[3032] = {
 		target_type = 32,
-		name = "心有灵犀",
+		name = "心有靈犀",
 		target_value1 = 0,
 		group = 303,
 		show_type = 1,
 		target_num = 20,
-		desc = "累计与角色互动<color=#cd7900><b>$2</b></color>天",
+		desc = "累計與角色互動<color=#cd7900><b>$2</b></color>天",
 		id = 3032,
 		stage = 2,
 		award = {
@@ -4084,12 +4084,12 @@ end)()
 	}
 	pg.base.island_achievement[3033] = {
 		target_type = 32,
-		name = "心有灵犀",
+		name = "心有靈犀",
 		target_value1 = 0,
 		group = 303,
 		show_type = 1,
 		target_num = 50,
-		desc = "累计与角色互动<color=#cd7900><b>$2</b></color>天",
+		desc = "累計與角色互動<color=#cd7900><b>$2</b></color>天",
 		id = 3033,
 		stage = 3,
 		award = {
@@ -4109,12 +4109,12 @@ end)()
 	}
 	pg.base.island_achievement[3034] = {
 		target_type = 32,
-		name = "心有灵犀",
+		name = "心有靈犀",
 		target_value1 = 0,
 		group = 303,
 		show_type = 1,
 		target_num = 100,
-		desc = "累计与角色互动<color=#cd7900><b>$2</b></color>天",
+		desc = "累計與角色互動<color=#cd7900><b>$2</b></color>天",
 		id = 3034,
 		stage = 4,
 		award = {
@@ -4134,12 +4134,12 @@ end)()
 	}
 	pg.base.island_achievement[3035] = {
 		target_type = 32,
-		name = "心有灵犀",
+		name = "心有靈犀",
 		target_value1 = 0,
 		group = 303,
 		show_type = 1,
 		target_num = 150,
-		desc = "累计与角色互动<color=#cd7900><b>$2</b></color>天",
+		desc = "累計與角色互動<color=#cd7900><b>$2</b></color>天",
 		id = 3035,
 		stage = 5,
 		award = {
@@ -4159,12 +4159,12 @@ end)()
 	}
 	pg.base.island_achievement[3036] = {
 		target_type = 32,
-		name = "心有灵犀",
+		name = "心有靈犀",
 		target_value1 = 0,
 		group = 303,
 		show_type = 1,
 		target_num = 300,
-		desc = "累计与角色互动<color=#cd7900><b>$2</b></color>天",
+		desc = "累計與角色互動<color=#cd7900><b>$2</b></color>天",
 		id = 3036,
 		stage = 6,
 		award = {
@@ -4189,7 +4189,7 @@ end)()
 		group = 304,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计给角色赠送<color=#cd7900><b>$2</b></color>次礼物",
+		desc = "累計給角色贈送<color=#cd7900><b>$2</b></color>次禮物",
 		id = 3041,
 		stage = 1,
 		award = {
@@ -4214,7 +4214,7 @@ end)()
 		group = 304,
 		show_type = 1,
 		target_num = 20,
-		desc = "累计给角色赠送<color=#cd7900><b>$2</b></color>次礼物",
+		desc = "累計給角色贈送<color=#cd7900><b>$2</b></color>次禮物",
 		id = 3042,
 		stage = 2,
 		award = {
@@ -4239,7 +4239,7 @@ end)()
 		group = 304,
 		show_type = 1,
 		target_num = 30,
-		desc = "累计给角色赠送<color=#cd7900><b>$2</b></color>次礼物",
+		desc = "累計給角色贈送<color=#cd7900><b>$2</b></color>次禮物",
 		id = 3043,
 		stage = 3,
 		award = {
@@ -4264,7 +4264,7 @@ end)()
 		group = 304,
 		show_type = 1,
 		target_num = 40,
-		desc = "累计给角色赠送<color=#cd7900><b>$2</b></color>次礼物",
+		desc = "累計給角色贈送<color=#cd7900><b>$2</b></color>次禮物",
 		id = 3044,
 		stage = 4,
 		award = {
@@ -4289,7 +4289,7 @@ end)()
 		group = 304,
 		show_type = 1,
 		target_num = 50,
-		desc = "累计给角色赠送<color=#cd7900><b>$2</b></color>次礼物",
+		desc = "累計給角色贈送<color=#cd7900><b>$2</b></color>次禮物",
 		id = 3045,
 		stage = 5,
 		award = {
@@ -4314,7 +4314,7 @@ end)()
 		group = 304,
 		show_type = 1,
 		target_num = 60,
-		desc = "累计给角色赠送<color=#cd7900><b>$2</b></color>次礼物",
+		desc = "累計給角色贈送<color=#cd7900><b>$2</b></color>次禮物",
 		id = 3046,
 		stage = 6,
 		award = {
@@ -4334,12 +4334,12 @@ end)()
 	}
 	pg.base.island_achievement[3051] = {
 		target_type = 14,
-		name = "时尚顾问",
+		name = "時尚顧問",
 		target_value1 = 0,
 		group = 305,
 		show_type = 1,
 		target_num = 1,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>件角色服裝",
 		id = 3051,
 		stage = 1,
 		award = {
@@ -4359,12 +4359,12 @@ end)()
 	}
 	pg.base.island_achievement[3052] = {
 		target_type = 14,
-		name = "时尚顾问",
+		name = "時尚顧問",
 		target_value1 = 0,
 		group = 305,
 		show_type = 1,
 		target_num = 3,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>件角色服裝",
 		id = 3052,
 		stage = 2,
 		award = {
@@ -4384,12 +4384,12 @@ end)()
 	}
 	pg.base.island_achievement[3053] = {
 		target_type = 14,
-		name = "时尚顾问",
+		name = "時尚顧問",
 		target_value1 = 0,
 		group = 305,
 		show_type = 1,
 		target_num = 5,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>件角色服裝",
 		id = 3053,
 		stage = 3,
 		award = {
@@ -4409,12 +4409,12 @@ end)()
 	}
 	pg.base.island_achievement[3054] = {
 		target_type = 14,
-		name = "时尚顾问",
+		name = "時尚顧問",
 		target_value1 = 0,
 		group = 305,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>件角色服裝",
 		id = 3054,
 		stage = 4,
 		award = {
@@ -4434,12 +4434,12 @@ end)()
 	}
 	pg.base.island_achievement[3055] = {
 		target_type = 14,
-		name = "时尚顾问",
+		name = "時尚顧問",
 		target_value1 = 0,
 		group = 305,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>件角色服裝",
 		id = 3055,
 		stage = 5,
 		award = {
@@ -4459,12 +4459,12 @@ end)()
 	}
 	pg.base.island_achievement[3056] = {
 		target_type = 14,
-		name = "时尚顾问",
+		name = "時尚顧問",
 		target_value1 = 0,
 		group = 305,
 		show_type = 1,
 		target_num = 25,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>件角色服裝",
 		id = 3056,
 		stage = 6,
 		award = {
@@ -4489,7 +4489,7 @@ end)()
 		group = 306,
 		show_type = 1,
 		target_num = 1,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色背飾",
 		id = 3061,
 		stage = 1,
 		award = {
@@ -4514,7 +4514,7 @@ end)()
 		group = 306,
 		show_type = 1,
 		target_num = 2,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色背飾",
 		id = 3062,
 		stage = 2,
 		award = {
@@ -4539,7 +4539,7 @@ end)()
 		group = 306,
 		show_type = 1,
 		target_num = 4,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色背飾",
 		id = 3063,
 		stage = 3,
 		award = {
@@ -4564,7 +4564,7 @@ end)()
 		group = 306,
 		show_type = 1,
 		target_num = 8,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色背飾",
 		id = 3064,
 		stage = 4,
 		award = {
@@ -4589,7 +4589,7 @@ end)()
 		group = 306,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色背飾",
 		id = 3065,
 		stage = 5,
 		award = {
@@ -4614,7 +4614,7 @@ end)()
 		group = 306,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色背飾",
 		id = 3066,
 		stage = 6,
 		award = {
@@ -4634,12 +4634,12 @@ end)()
 	}
 	pg.base.island_achievement[3071] = {
 		target_type = 15,
-		name = "漂浮美学",
+		name = "漂浮美學",
 		target_value1 = 2,
 		group = 307,
 		show_type = 1,
 		target_num = 1,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色漂浮物",
 		id = 3071,
 		stage = 1,
 		award = {
@@ -4659,12 +4659,12 @@ end)()
 	}
 	pg.base.island_achievement[3072] = {
 		target_type = 15,
-		name = "漂浮美学",
+		name = "漂浮美學",
 		target_value1 = 2,
 		group = 307,
 		show_type = 1,
 		target_num = 2,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色漂浮物",
 		id = 3072,
 		stage = 2,
 		award = {
@@ -4684,12 +4684,12 @@ end)()
 	}
 	pg.base.island_achievement[3073] = {
 		target_type = 15,
-		name = "漂浮美学",
+		name = "漂浮美學",
 		target_value1 = 2,
 		group = 307,
 		show_type = 1,
 		target_num = 4,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色漂浮物",
 		id = 3073,
 		stage = 3,
 		award = {
@@ -4709,12 +4709,12 @@ end)()
 	}
 	pg.base.island_achievement[3074] = {
 		target_type = 15,
-		name = "漂浮美学",
+		name = "漂浮美學",
 		target_value1 = 2,
 		group = 307,
 		show_type = 1,
 		target_num = 8,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色漂浮物",
 		id = 3074,
 		stage = 4,
 		award = {
@@ -4734,12 +4734,12 @@ end)()
 	}
 	pg.base.island_achievement[3075] = {
 		target_type = 15,
-		name = "漂浮美学",
+		name = "漂浮美學",
 		target_value1 = 2,
 		group = 307,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色漂浮物",
 		id = 3075,
 		stage = 5,
 		award = {
@@ -4759,12 +4759,12 @@ end)()
 	}
 	pg.base.island_achievement[3076] = {
 		target_type = 15,
-		name = "漂浮美学",
+		name = "漂浮美學",
 		target_value1 = 2,
 		group = 307,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色漂浮物",
 		id = 3076,
 		stage = 6,
 		award = {
@@ -4784,12 +4784,12 @@ end)()
 	}
 	pg.base.island_achievement[3081] = {
 		target_type = 15,
-		name = "一步一个脚印",
+		name = "一步一個腳印",
 		target_value1 = 3,
 		group = 308,
 		show_type = 1,
 		target_num = 1,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色腳印",
 		id = 3081,
 		stage = 1,
 		award = {
@@ -4809,12 +4809,12 @@ end)()
 	}
 	pg.base.island_achievement[3082] = {
 		target_type = 15,
-		name = "一步一个脚印",
+		name = "一步一個腳印",
 		target_value1 = 3,
 		group = 308,
 		show_type = 1,
 		target_num = 2,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色腳印",
 		id = 3082,
 		stage = 2,
 		award = {
@@ -4834,12 +4834,12 @@ end)()
 	}
 	pg.base.island_achievement[3083] = {
 		target_type = 15,
-		name = "一步一个脚印",
+		name = "一步一個腳印",
 		target_value1 = 3,
 		group = 308,
 		show_type = 1,
 		target_num = 4,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色腳印",
 		id = 3083,
 		stage = 3,
 		award = {
@@ -4859,12 +4859,12 @@ end)()
 	}
 	pg.base.island_achievement[3084] = {
 		target_type = 15,
-		name = "一步一个脚印",
+		name = "一步一個腳印",
 		target_value1 = 3,
 		group = 308,
 		show_type = 1,
 		target_num = 8,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色腳印",
 		id = 3084,
 		stage = 4,
 		award = {
@@ -4884,12 +4884,12 @@ end)()
 	}
 	pg.base.island_achievement[3085] = {
 		target_type = 15,
-		name = "一步一个脚印",
+		name = "一步一個腳印",
 		target_value1 = 3,
 		group = 308,
 		show_type = 1,
 		target_num = 10,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色腳印",
 		id = 3085,
 		stage = 5,
 		award = {
@@ -4909,12 +4909,12 @@ end)()
 	}
 	pg.base.island_achievement[3086] = {
 		target_type = 15,
-		name = "一步一个脚印",
+		name = "一步一個腳印",
 		target_value1 = 3,
 		group = 308,
 		show_type = 1,
 		target_num = 15,
-		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
+		desc = "累計收集<color=#cd7900><b>$2</b></color>種角色腳印",
 		id = 3086,
 		stage = 6,
 		award = {

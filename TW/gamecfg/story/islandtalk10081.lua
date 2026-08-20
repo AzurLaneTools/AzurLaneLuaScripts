@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "商区管理员",
+			subName = "商區管理員",
 			animation = "hi",
 			characterId = 100800,
-			say = "您好，我是商业广场餐饮区负责人，阿莫玛。",
+			say = "您好，我是商業廣場餐飲區負責人，阿莫瑪。",
 			face2Face = {
 				{
 					0,

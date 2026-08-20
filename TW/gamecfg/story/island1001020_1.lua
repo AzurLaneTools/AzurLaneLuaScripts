@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "嗯？这机器怎么就停了？我还打算多叫点帮手来的。",
+			say = "嗯？這機器怎麼停了？我還打算多叫點幫手來的。",
 			characterId = 0,
 			camera = "StoryCamera5",
 			face2Face = {
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "没办法……奇异点的规则十分复杂，权限认证函也是有制作周期的喵~",
+			say = "沒辦法……奇異點的規則十分複雜，權限認證函也是有製作週期的喵~",
 			animation = "shakehead",
 			characterId = 3120100,
 			typewriter = {
@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			say = "不用担心，之后一定会有越来越多的同伴来到岛上帮助建设的喵！",
+			say = "別擔心，之後一定會有越來越多的同伴來到島上幫忙建設的喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			say = "不过现在，还是先去码头迎接我们新的开发伙伴吧喵~",
+			say = "不過現在，還是先去碼頭迎接我們新的開發夥伴吧喵~",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {

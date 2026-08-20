@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "将萨拉托加的岛屿权限认证函放入装置中",
+				text = "島嶼權限認證函放入裝置中",
 				mode = 2,
 				char = 1,
 				posY = 0,

@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "我从随身小包里拿出一小把羊爱吃的饲料，慢慢靠近了咩咩羊。",
+			say = "我從隨身小包裡拿出一小把羊愛吃的飼料，慢慢靠近了咩咩羊。",
 			withoutIcon = true,
 			withoutName = true,
 			camera = "StoryCameraSideTask1",
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			say = "好了，听话……没事了，我们回家。",
+			say = "好了，聽話……沒事了，我們回家。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

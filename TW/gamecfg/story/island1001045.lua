@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "{namecode:98:明石}，你要的东西。",
+			say = "明石，妳要的東西。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "咦？指挥官这么快就回来了喵？",
+			say = "咦？指揮官這麼快就回來喵了？",
 			animation = "amaze",
 			characterId = 3120100,
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "材料呢~{namecode:98:明石}想要的材料都齐了对吧喵？！",
+			say = "材料呢~明石想要的材料都齊了對吧喵？！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，都在这里了。",
+			say = "嗯，都在這裡了。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			say = "很棒！有了这些，萝莎的生产线就能真正的启动了喵！",
+			say = "很棒！有了這些，蘿莎的生產線就能真正的啟動了喵！",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			say = "萝莎？她也在这里？",
+			say = "蘿莎？她也在這裡？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "当然喵！这么伟大的工程怎么能少了我们的技术专家喵！",
+			say = "當然喵！這麼偉大的工程怎麼能少了我們的技術專家喵！",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			say = "萝莎可是在里面闭关好几天了喵！走走走，指挥官~带你去见证奇迹的诞生喵！",
+			say = "蘿莎可是在裡面閉關好幾天了喵！走走，指揮官~帶你去見證奇蹟的誕生喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

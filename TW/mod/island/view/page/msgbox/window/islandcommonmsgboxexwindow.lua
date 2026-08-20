@@ -5,20 +5,6 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot1 = slot0._tf:GetComponent("ItemList").prefabItem:ToTable()
-
-	for slot5, slot6 in ipairs({
-		"rtTitle",
-		"rtContext",
-		"closeBtn",
-		"cancelBtn",
-		"confirmBtn",
-		"rtCancelText",
-		"rtConfirmText"
-	}) do
-		slot0[slot6] = slot1[slot5].transform
-	end
-
 	slot0.titleTxt = slot0.rtTitle:GetComponent(typeof(Text))
 	slot0.contentTxt = slot0.rtContext:GetComponent("RichText")
 	slot0.cancelTxt = slot0.rtCancelText:GetComponent(typeof(Text))

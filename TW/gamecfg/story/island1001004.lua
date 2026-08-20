@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "天啊！还差这么多！这该怎么办！",
+			say = "天啊！還差這麼多！這該怎麼辦！",
 			animation = "sad",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			face2Face = {
 				{
 					0,
@@ -42,17 +42,17 @@ return {
 		},
 		{
 			animation = "scare",
-			say = "哇！是指挥官！太好了！",
+			say = "哇！是指揮官！太好了！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "你看！那边的站台被完全砸坏了，修复需要的煤炭需求还很大！靠我自己挖根本来不及！",
-			subName = "矿山管理员",
+			say = "你看！那邊的月台被完全砸壞了，修復需要的煤炭需求還很大！靠自己挖根本來不及！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			say = "嗯？这里不就是矿山么？没有存货？",
+			say = "嗯？這裡不就是礦山嗎？沒有存貨？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -70,18 +70,18 @@ return {
 		},
 		{
 			animation = "embarrass",
-			say = "全都没啦！所有库存加上才勉强够订单的量！结果正要运去港口站台就炸了……",
+			say = "全都沒啦！所有庫存加上才勉強夠訂單的量！結果正要運去港口月台就炸了……",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "唉，看来这次是赶不上了……",
+			say = "唉，看來這次是趕不上了……",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,16 +95,16 @@ return {
 		},
 		{
 			animation = "amaze",
-			say = "欸？！真的吗指挥官？！太棒了！",
+			say = "欸？！真的嗎指揮官？！太棒了！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "没事，交通线瘫痪我也有责任，帮帮忙是应该的。",
+			say = "沒事，交通線癱瘓我也有責任，幫忙是應該的。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -114,17 +114,17 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "太好啦！现在正缺人手呢，指挥官能来帮忙真是帮大忙了！",
+			say = "太好啦！現在正缺人手呢，指揮官能來幫忙真是幫大忙了！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我们抓紧时间吧！",
-			subName = "矿山管理员",
+			say = "我們抓緊時間吧！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,

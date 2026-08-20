@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "梅莉，发生什么事了？",
+			say = "梅莉，發生什麼事了？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,17 +33,17 @@ return {
 			}
 		},
 		{
-			say = "指挥官，不好啦！我的羊！我的咩咩羊们不见啦！",
+			say = "指揮官，不好啦！我的羊！我的咩咩羊們不見了！",
 			animation = "weep",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不见了……什么时候的事？",
+			say = "不見了……什麼時候的事？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			say = "就、就不久前！我像往常一样去给它们准备饲料……",
-			subName = "牧场管理员",
+			say = "就、就不久前！我像往常一樣去給它們準備飼料……",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -61,17 +61,17 @@ return {
 		},
 		{
 			animation = "sad",
-			say = "然后等我回来时……所有的羊一只都没有了！全都不见了！",
+			say = "然後等我回來時……所有的羊一隻都沒有了！全都不見了！",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "只有坏掉的围栏……",
-			subName = "牧场管理员",
+			say = "只有壞掉的圍籬……",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			say = "别急，梅莉，也许只是走远了。",
+			say = "別急，梅莉，也許只是走遠了。",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			say = "你平时喜欢带他们去哪个地方？",
+			say = "妳平常喜歡帶他們去哪個地方？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -96,17 +96,17 @@ return {
 			}
 		},
 		{
-			say = "嗯……是牧场旁边的缓坡！平时它们最爱去那里了！",
+			say = "嗯……是牧場旁的緩坡！平時它們最愛去那裡了！",
 			animation = "think",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "好，我知道了，我们一起过去看看，能不能发现些线索。",
+			say = "好，我知道了，我們一起過去看看，能不能發現一些線索。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

@@ -5,7 +5,7 @@ return {
 	scripts = {
 		{
 			animation = "nod",
-			say = "（嗯……是在这里面么，居然把整个电梯伪装成了展柜。）",
+			say = "（嗯……是在這裡面嗎，居然把整個電梯偽裝成了展櫃。）",
 			characterId = 0,
 			camera = "StoryCamera3",
 			typewriter = {
@@ -14,7 +14,7 @@ return {
 			}
 		},
 		{
-			say = "（那控制电梯的机关……是这个吧？）",
+			say = "（那控制電梯的機關……是這個吧？）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

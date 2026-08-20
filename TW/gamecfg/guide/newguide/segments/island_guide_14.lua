@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在这里，可以查看正在进行的活动。",
+				text = "在這裡，可以查看正在進行的活動。",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击页签“累计PT”",
+				text = "點擊頁簽「累計PT」",
 				mode = 2,
 				char = 1,
 				posY = 0,

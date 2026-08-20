@@ -29,26 +29,56 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 
 	slot0.config = slot4
 	slot0.actionFeedback = nil
+	slot0.skillActionFeedback = nil
+end
+
+slot0.GetShipId = function(slot0)
+	return slot0.shipId
 end
 
 slot0.IsSameShip = function(slot0, slot1)
 	return slot0.shipId == slot1
 end
 
+slot0.SetSkillActionFeedback = function(slot0, slot1)
+	slot0.skillActionFeedback = slot1
+end
+
+slot0.ClearSkillActionFeedback = function(slot0)
+	slot0.skillActionFeedback = nil
+end
+
+slot0.ExistSkillActionFeedback = function(slot0)
+	return slot0.skillActionFeedback ~= nil
+end
+
 slot0.SetActionFeedback = function(slot0, slot1)
 	slot0.actionFeedback = slot1
 end
 
-slot0.GetActionFeedback = function(slot0)
-	return slot0.actionFeedback
-end
-
 slot0.ExistActionFeedback = function(slot0)
-	return slot0.actionFeedback
+	return slot0.actionFeedback ~= nil
 end
 
 slot0.ClearActionFeedback = function(slot0)
 	slot0.actionFeedback = nil
+end
+
+slot0.GetGreetingFeedback = function(slot0)
+	return slot0.actionFeedback or slot0.skillActionFeedback
+end
+
+slot0.ExistGreetingActionFeedback = function(slot0)
+	return slot0:GetGreetingFeedback() ~= nil
+end
+
+slot0.ClearGreetingActionFeedback = function(slot0)
+	slot0.actionFeedback = nil
+	slot0.skillActionFeedback = nil
+end
+
+slot0.OnlySkillActionFeedback = function(slot0)
+	return not slot0:ExistActionFeedback() and slot0:ExistSkillActionFeedback()
 end
 
 slot1 = function(slot0, slot1)
@@ -68,12 +98,12 @@ slot1 = function(slot0, slot1)
 end
 
 slot0.GetResponeAction = function(slot0, slot1)
-	slot4 = pg.island_action[slot1].feedback_type
+	slot5 = pg.island_action[slot1].feedback_type
 
-	if slot0.actionFeedback and slot0.actionFeedback == slot1 then
-		return uv0(slot4, pg.island_action_feedback.get_id_list_by_condition[1]), true
+	if slot0:GetGreetingFeedback() and slot2 == slot1 then
+		return uv0(slot5, pg.island_action_feedback.get_id_list_by_condition[1]), true
 	else
-		return uv0(slot4, pg.island_action_feedback.get_id_list_by_condition[2]), false
+		return uv0(slot5, pg.island_action_feedback.get_id_list_by_condition[2]), false
 	end
 end
 

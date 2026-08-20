@@ -5,7 +5,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "是你在叫我？",
+			say = "是妳在叫我？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -14,34 +14,34 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "那个……",
+			say = "那個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "指挥官最近的脚步……听起来有些疲惫呢……",
+			say = "指揮官最近的腳步……聽起來有些疲憊呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "是开发工作太辛苦了吗？",
+			say = "是開發工作太辛苦了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "确实睡得不太好。",
+			say = "確實睡得不太好。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -50,34 +50,34 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "那要不要……来一杯能让人放松的蜂蜜水？",
+			say = "那要不要……來一杯能讓人放鬆的蜂蜜水？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "您可以从之前的蜂巢里取些蜂蜜交给啾咖啡的布莱梅小姐~",
+			say = "您可以從之前的蜂巢拿些蜂蜜交給啾咖啡的布萊梅小姐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "她知道怎么调出一杯能让人安心凝神的蜂蜜水哦~",
+			say = "她知道怎麼調出一杯能讓人安心凝神的蜂蜜水喔~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "谢谢，我去问问布莱梅。",
+			say = "謝謝，我去問問布萊梅。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -86,9 +86,9 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "嗯！希望指挥官，今天能做个好梦~",
+			say = "嗯！希望指揮官，今天能做個好夢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

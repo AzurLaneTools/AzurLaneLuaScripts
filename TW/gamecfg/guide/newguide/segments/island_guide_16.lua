@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "完成开发计划可领取多种奖励",
+				text = "完成開發計劃可領取開發獎勵",
 				mode = 2,
 				char = 1,
 				posY = 0,

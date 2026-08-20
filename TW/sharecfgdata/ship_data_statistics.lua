@@ -67325,7 +67325,8 @@ _G.pg.base.ship_data_statistics[107091] = {
 	},
 	tag_list = {
 		"Essex-Class",
-		"Essex-Class-No-Yorktown"
+		"Essex-Class-No-Yorktown",
+		"DetectiveEssex"
 	},
 	gift_dislike = {
 		180006,
@@ -67456,7 +67457,8 @@ _G.pg.base.ship_data_statistics[107092] = {
 	},
 	tag_list = {
 		"Essex-Class",
-		"Essex-Class-No-Yorktown"
+		"Essex-Class-No-Yorktown",
+		"DetectiveEssex"
 	},
 	gift_dislike = {
 		180006,
@@ -67587,7 +67589,8 @@ _G.pg.base.ship_data_statistics[107093] = {
 	},
 	tag_list = {
 		"Essex-Class",
-		"Essex-Class-No-Yorktown"
+		"Essex-Class-No-Yorktown",
+		"DetectiveEssex"
 	},
 	gift_dislike = {
 		180006,
@@ -67718,7 +67721,8 @@ _G.pg.base.ship_data_statistics[107094] = {
 	},
 	tag_list = {
 		"Essex-Class",
-		"Essex-Class-No-Yorktown"
+		"Essex-Class-No-Yorktown",
+		"DetectiveEssex"
 	},
 	gift_dislike = {
 		180006,
@@ -75186,7 +75190,8 @@ _G.pg.base.ship_data_statistics[107974] = {
 	tag_list = {
 		"Essex-Class",
 		"Essex-Class-No-Yorktown",
-		"EssexG"
+		"EssexG",
+		"DetectiveEssex"
 	},
 	gift_dislike = {
 		180006,
@@ -467128,7 +467133,7 @@ _G.pg.base.ship_data_statistics[9705101] = {
 	nationality = 97,
 	oxy_max = 0,
 	type = 5,
-	name = "甘古特META",
+	name = "甘古特·META",
 	huntingrange_level = 0,
 	star = 3,
 	oxy_recovery = 0,
@@ -467256,7 +467261,7 @@ _G.pg.base.ship_data_statistics[9705102] = {
 	nationality = 97,
 	oxy_max = 0,
 	type = 5,
-	name = "甘古特META",
+	name = "甘古特·META",
 	huntingrange_level = 0,
 	star = 4,
 	oxy_recovery = 0,
@@ -467384,7 +467389,7 @@ _G.pg.base.ship_data_statistics[9705103] = {
 	nationality = 97,
 	oxy_max = 0,
 	type = 5,
-	name = "甘古特META",
+	name = "甘古特·META",
 	huntingrange_level = 0,
 	star = 5,
 	oxy_recovery = 0,
@@ -467512,7 +467517,7 @@ _G.pg.base.ship_data_statistics[9705104] = {
 	nationality = 97,
 	oxy_max = 0,
 	type = 5,
-	name = "甘古特META",
+	name = "甘古特·META",
 	huntingrange_level = 0,
 	star = 6,
 	oxy_recovery = 0,

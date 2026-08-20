@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "乔安，我找到了，看看是不是这个？",
+			say = "喬安，我找到了，看看是不是這個？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "太好了！就是这个型号！维修需要的所有材料终于集齐了！",
+			say = "太好了！就是這個型號！維修所需的所有材料終於集齊了！",
 			animation = "nod",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我这就完成最后的组装工作，很快就好！",
-			subName = "矿山管理员",
+			say = "我這就完成最後的組裝工作，很快就好！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			say = "乔安，组装好了？",
+			say = "喬安，組裝好了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -69,18 +69,18 @@ return {
 			}
 		},
 		{
-			say = "嗯！指挥官，这就是电力系统的核心——主电源供应单元！",
+			say = "嗯！指揮官，這就是電力系統的核心——主電源供應單元！",
 			animation = "talk",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "就是这个宝贝，只要用它换掉服务器原来的烧掉的地方，再连接好所有接口，理论上就能重新启动了！",
-			subName = "矿山管理员",
+			say = "就是這個寶貝，只要用它換掉伺服器原來的燒掉的地方，再連接好所有接口，理論上就能重新啟動了！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			say = "原来如此，那我先回基地试试……",
+			say = "原來如此，那我先回基地試試…",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -97,10 +97,10 @@ return {
 			}
 		},
 		{
-			say = "嗯，指挥官再见！要是还有问题，再来找我就好。",
+			say = "嗯，指揮官再見！要是還有問題，再來找我就好。",
 			animation = "bye",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

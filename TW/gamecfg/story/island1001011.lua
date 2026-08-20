@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "帕特莉，看你这么忙，港口订单都归你统筹？",
+			say = "帕特莉，看妳這麼忙，港口訂單都歸妳統籌？",
 			characterId = 0,
 			animation = "hi",
 			face2Face = {
@@ -34,18 +34,18 @@ return {
 			}
 		},
 		{
-			say = "指挥官？！啊对，港口的订单是我在管理哦~",
+			say = "指揮官？！啊對，港口的訂單是我在管理哦~",
 			animation = "amaze",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过你怎么突然来开发区了？也不提前说一声，不然大家肯定都会来港口迎接你的。",
-			subName = "订单管理员",
+			say = "不過你怎麼突然來開發區了？也不提前說一聲，不然大家一定都會來港口迎接你的。",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "看大家这阵仗，怕是人人都抽不开身，你们应该顾不上迎接……",
+			say = "看大家這陣仗，怕是人人都抽不開身，妳們應該沒有空迎接……",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -63,16 +63,16 @@ return {
 		},
 		{
 			animation = "sad",
-			say = "嗯，也是，订单量足足暴涨了三倍呢~",
+			say = "嗯，也是，訂單量足足暴漲了三倍呢~",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "（可我记得港区这周明明就没给{namecode:98:明石}下过订单。）",
+			say = "（但我記得港區這週明明就沒給明石下過訂單。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			say = "（那这些货都是运到哪里去的……）",
+			say = "（那這些貨都是運到哪裡去的……）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -89,16 +89,16 @@ return {
 		},
 		{
 			animation = "curious",
-			say = "嗯？指挥官看得这么入神……该不是来查账的吧？",
+			say = "嗯？指揮官看得這麼入神……該不是來查帳的吧？",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不、我来是为了交乔安她们的订单，这些都是乔安和奥布莱恩准备的货物。",
+			say = "不、我來是為了交喬安她們的訂單，這些都是喬安和奧布萊恩準備的貨物。",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			say = "啊，还是加急件呢！真是多谢指挥官了~",
-			subName = "订单管理员",
+			say = "啊，還是加急件呢！真是多謝指揮官了~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -117,17 +117,17 @@ return {
 		},
 		{
 			animation = "elation",
-			say = "不过即使是指挥官送来的，我也会好好核对清楚的哦~",
+			say = "不過即使是指揮官送來的，我也會好好核對清楚的哦~",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "接下来就麻烦指挥官挨个提交一下订单啦~",
-			subName = "订单管理员",
+			say = "接下來就麻煩指揮官照順序送一下訂單啦~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,

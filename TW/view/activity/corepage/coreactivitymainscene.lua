@@ -148,6 +148,27 @@ slot0.flushTabs = function(slot0)
 	slot0.tabsList:align(slot0.tabs.childCount)
 end
 
+slot0.IsImageTgName = function(slot0)
+	return false
+end
+
+slot0.OnToggleName = function(slot0, slot1, slot2)
+	slot3 = slot2:getConfig("title_res_tag")
+
+	setText(slot1:Find("on/name"), i18n(slot3))
+	setText(slot1:Find("off/name"), i18n(slot3))
+
+	if slot0:IsImageTgName() then
+		if checkABExist("coreactivityuitable/" .. string.lower(slot3) .. "_text") then
+			setImageSprite(slot1:Find("off/imgName"), GetSpriteFromAtlas("coreactivityuitable/" .. slot3 .. "_text", ""), true)
+		end
+
+		if checkABExist("coreactivityuitable/" .. slot3 .. "_text_selected") then
+			setImageSprite(slot1:Find("on/imgName"), GetSpriteFromAtlas("coreactivityuitable/" .. slot3 .. "_text_selected", ""), true)
+		end
+	end
+end
+
 slot0.selectActivity = function(slot0, slot1)
 	if slot0.nextActivity == slot1 or not slot0.nextActivity and slot0.activity and slot1.id == slot0.activity.id then
 		return

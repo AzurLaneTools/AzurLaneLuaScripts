@@ -21,7 +21,7 @@ return {
 		{
 			animation = "hi",
 			characterId = 0,
-			say = "阿莫玛！你要的木材、煤炭和铁矿都齐了，随时可以开工。",
+			say = "阿莫瑪！妳要的木材、煤炭和鐵礦都齊了，隨時可以開工。",
 			face2Face = {
 				{
 					0,
@@ -34,17 +34,17 @@ return {
 			}
 		},
 		{
-			say = "指挥官，辛苦了，这边的店铺也快建设好了，不过……",
+			say = "指揮官，辛苦了，這邊的店也快建設好了，不過……",
 			animation = "nod",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯？是还有什么困难么？",
+			say = "嗯？是還有什麼困難嗎？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -52,18 +52,18 @@ return {
 			}
 		},
 		{
-			say = "嗯，店铺虽然快建好了，但这些硬件设施只是基础。",
+			say = "嗯，店鋪雖然快建好了，但這些硬體設施只是基礎。",
 			animation = "talk",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "餐饮的核心还是在食物上，我想为新店筹备一批新鲜的食材，确保开业时能供应上大家的需求。",
-			subName = "商区管理员",
+			say = "餐飲的核心還是在食物上，我想為新店籌備一批新鮮的食材，確保開業時能供應上大家的需求。",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "食材么……我明白了。",
+			say = "食材嗎……我明白了。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -80,10 +80,10 @@ return {
 			}
 		},
 		{
-			say = "这些食材是初期运营的关键，品质还是需要高一些的。",
+			say = "這些食材是初期運作的關鍵，品質還是需要高一些的。",
 			animation = "clap",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

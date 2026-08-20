@@ -21,7 +21,7 @@ return {
 		{
 			animation = "amaze",
 			characterId = 3120100,
-			say = "喵——指挥官？您怎么有空来找{namecode:98:明石}喵？",
+			say = "喵——指揮官？您怎麼有空來找明石喵？",
 			face2Face = {
 				{
 					0,
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "只是有个好消息，想当面和你分享一下。",
+			say = "只是有個好消息，想當面跟妳分享一下。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "好、好消息喵？这么开心，指挥官不会是赚钱了吧喵？",
+			say = "好、好消息喵？這麼開心，指揮官不會是賺錢了吧喵？",
 			animation = "doubt",
 			characterId = 3120100,
 			typewriter = {
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			say = "赚钱？没错，是很大的一笔钱。",
+			say = "賺錢？沒錯，是很大的一筆錢。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			say = "那欠款的下一期利息已经能还上了喵？",
+			say = "那欠款的下一期利息已經能還上了喵？",
 			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			say = "利息？不，是关于本金和利息的——所有！全部！一笔勾销！",
+			say = "利息？不，是關於本金和利息的——所有！全部！一筆勾銷！",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			say = "喵……喵？！都还清了？",
+			say = "喵……喵？！都還清了？",
 			animation = "amaze",
 			characterId = 3120100,
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			say = "这、这怎么可能喵！我们不是……不是还差好多……",
+			say = "這、這怎麼可能喵！我們不是……不是還差好多……",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			say = "是啊，本来还差好多，不过……",
+			say = "是啊，本來還差很多，不過……",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			say = "最近开发区的大家都很努力，不仅接了不少利润丰厚的大委托，经营分成也远超我的预期。",
+			say = "最近開發區的大家都很努力，不僅接了不少利潤豐厚的大委託，經營分成也遠超我的預期。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			say = "再加上额外的收入，正好可以还清贷款。",
+			say = "再加上額外的收入，剛好可以還清貸款。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			say = "不过指挥官~你……您赚到那么多钱的过程，能不能和{namecode:98:明石}详细说说喵？",
+			say = "不過指揮官~你……您賺那麼多錢的過程，能不能跟明石詳細說說喵？",
 			animation = "curious",
 			characterId = 3120100,
 			typewriter = {
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			say = "比如是什么单子？分成有多少？快告诉{namecode:98:明石}喵！",
+			say = "比如是什麼單子？分成有多少？快告訴明石喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			say = "这个……商业机密。",
+			say = "這個……商業機密。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			say = "总之，钱是正经赚来的，现在债务清了，大家也能松口气。",
+			say = "總之，錢是正經賺來的，現在債務清了，大家也能鬆口氣。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			say = "喵……那指挥官下次有这种好买卖……一定要带上{namecode:98:明石}喵！{namecode:98:明石}可以投资！可以出力喵！",
+			say = "喵……那指揮官下次有這種好買賣……一定要帶上明石喵！明石可以投資！可以出力喵！",
 			animation = "sad",
 			characterId = 3120100,
 			typewriter = {
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			say = "当然，开发区赚钱的机会，少不了你的份。",
+			say = "當然，開發區賺錢的機會，少不了妳的份。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

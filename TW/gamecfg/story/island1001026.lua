@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "这么专注，莫非……是发现什么宝藏了？",
+			say = "這麼專注，莫非……是發現什麼寶藏了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -43,17 +43,17 @@ return {
 			}
 		},
 		{
-			say = "嗯？指挥官……我只是在观察这些新长的小麦……",
+			say = "嗯？指揮官……我只是在觀察這些新長的小麥……",
 			animation = "shy",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "它们有什么特别之处么？",
+			say = "它們有什麼特別之處嗎？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -61,18 +61,18 @@ return {
 			}
 		},
 		{
-			say = "嗯……你看，它的分蘖数会比岛外种植出的平均多上1.5个。",
+			say = "嗯……你看，它的分蘗數會比島外種植出的平均多上1.5個。",
 			animation = "talk",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "生长更快，茎秆更粗壮，抗倒伏性也明显更强。",
-			subName = "农田管理员",
+			say = "生長較快，莖稈較粗壯，抗倒伏性也明顯較強。",
+			subName = "農田管理員",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			say = "是所有的作物都这样么？",
+			say = "是所有的作物都這樣嗎？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -89,18 +89,18 @@ return {
 			}
 		},
 		{
-			say = "嗯，就目前我观察到的情况来说……",
+			say = "嗯，就目前我觀察到的情況來說……",
 			animation = "nod",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "即使是同样的种子，岛上种出来的都会比外面好上不少。",
-			subName = "农田管理员",
+			say = "即使是同樣的種子，島上種出來的都會比外面好不少。",
+			subName = "農田管理員",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -108,17 +108,17 @@ return {
 			}
 		},
 		{
-			say = "我想找出它们表现优异的原因……到底是光照？还是土壤呢……",
+			say = "我想找出它們表現優異的原因……到底是光照？還是土壤呢……",
 			animation = "think",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "真是了不起的观察力……",
+			say = "真是了不起的觀察力……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -126,18 +126,18 @@ return {
 			}
 		},
 		{
-			say = "这、这没什么……特征都很明显的，只要种过就能轻松知道差异。",
+			say = "這、這沒什麼……特徵都很明顯的，只要種過就能輕鬆知道差異。",
 			animation = "shy",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官也可以购买些种子来种种看。",
-			subName = "农田管理员",
+			say = "指揮官也可以購買些種子來種種看。",
+			subName = "農田管理員",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -146,9 +146,9 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "从播种到收获……慢慢观察它们生长的全过程！",
+			say = "從播種到收穫……慢慢觀察它們生長的整個過程！",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯，那我来试试看。",
+			say = "嗯，那我來試試看。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

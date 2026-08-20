@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "啊，指挥官你来啦~",
+			say = "啊，指揮官你來啦~",
 			animation = "hi",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "旁边的这些就是给岛上大家的物资了，本应由我来给大家送过去的……",
-			subName = "订单管理员",
+			say = "旁邊的這些就是給島上大家的物資了，本來就該由我來送給大家過去的……",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "但是你现在走不开对么？",
+			say = "但是妳現在離不開對嗎？",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -53,18 +53,18 @@ return {
 			}
 		},
 		{
-			say = "没错~港口又新来的一批货物，我正在清点呢……",
+			say = "沒錯~港口又新來的一批貨物，我正在清點呢……",
 			animation = "clap",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "等忙完再去送的话……就没办法把物资及时送到每个人的手里了。",
-			subName = "订单管理员",
+			say = "等忙完再去送的話……就沒辦法把物資及時送到每個人的手上了。",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "我来帮你把货送给大家吧，交给我就好。",
+			say = "我來幫妳把貨送給大家吧，交給我就好。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			say = "我就知道指挥官会帮我的~这里面也有你的那一份哦~",
-			subName = "订单管理员",
+			say = "我就知道指揮官會幫我的~這裡面也有你的那一份喔~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -89,10 +89,10 @@ return {
 			}
 		},
 		{
-			say = "等送完再打开吧~",
+			say = "等送完再打開吧~",
 			animation = "bye",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

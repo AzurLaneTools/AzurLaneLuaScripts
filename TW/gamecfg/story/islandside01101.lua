@@ -21,7 +21,7 @@ return {
 		{
 			animation = "hi",
 			characterId = 0,
-			say = "阿莫玛，你在想什么？",
+			say = "阿莫瑪，妳在想什麼？",
 			face2Face = {
 				{
 					0,
@@ -34,17 +34,17 @@ return {
 			}
 		},
 		{
-			say = "欸，是指挥官啊……",
+			say = "欸，是指揮官啊……",
 			animation = "amaze",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "怎么了，这一副心事重重的样子可不像你啊。",
+			say = "怎麼了，這一副心事重重的樣子可不像妳啊。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -52,17 +52,17 @@ return {
 			}
 		},
 		{
-			say = "嗯，指挥官，你看……商业区现在初具规模，有鱼餐馆的东煌菜也很受欢迎。",
+			say = "嗯，指揮官，你看……商業區現在初具規模，有魚餐廳的東煌菜也很受歡迎。",
 			animation = "think",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这不是很好么。",
+			say = "這不是很好嗎。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			say = "但是……食物的品类还是太单一了！缺乏多样性，也难以满足开发区的需求。",
-			subName = "商区管理员",
+			say = "但是……食物的類別還是太單一了！缺乏多樣性，也難以滿足開發區的需求。",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -79,17 +79,17 @@ return {
 			}
 		},
 		{
-			say = "这样可无法形成真正的美食区氛围，长期下去，还会限制商区的活力和吸引力。",
+			say = "這樣可無法形成真正的美食區氛圍，長期下去，還會限制商區的活力與吸引力。",
 			animation = "talk",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "确实，选择是有点少了。",
+			say = "確實，選擇是有點少了。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			say = "嗯……你是想引进新店铺？有方向了么？",
+			say = "嗯……妳是想引進新店？有方向了嗎？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			say = "是的，我也是在这里卡住了……不知道引进什么才好……",
-			subName = "商区管理员",
+			say = "是的，我也是在這裡卡住了……我不知道引進什麼才好……",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			say = "感觉还是需要了解一下开发区大家的喜好才行。",
-			subName = "商区管理员",
+			say = "感覺還是需要了解開發區大家的喜好才行。",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -124,18 +124,18 @@ return {
 			}
 		},
 		{
-			say = "指挥官，麻烦你帮我进行一次市场调研吗？去问问大家，她们最希望在商区看到什么类型的餐饮店？",
+			say = "指揮官，麻煩你幫我進行一次市場調查嗎？去問問大家，她們最希望在商區看到什麼類型的餐飲店？",
 			animation = "clap",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这对下一步决策至关重要。",
-			subName = "商区管理员",
+			say = "這對下一步決策至關重要。",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			say = "明白，民意调查，交给我就好。",
+			say = "明白，民調，交給我就好。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

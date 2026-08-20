@@ -14,6 +14,22 @@ pg.island_exchange_template.all = {
 	205,
 	206
 }
+pg.island_exchange_template.get_id_list_by_group = {
+	{
+		101,
+		102,
+		103,
+		104
+	},
+	{
+		201,
+		202,
+		203,
+		204,
+		205,
+		206
+	}
+}
 pg.base = pg.base or {}
 pg.base.island_exchange_template = {}
 

@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "水流稳定，萃取才会均匀。",
+			say = "水流穩定，萃取才會均勻。",
 			characterId = 101200
 		}
 	}

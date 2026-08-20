@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "最后一只……",
+			say = "最後一隻……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，看样子是都跟上来了。",
+			say = "嗯，看來是都跟上來了。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			say = "好了，带它们回去找梅莉吧。",
+			say = "好了，帶它們回去找梅莉。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

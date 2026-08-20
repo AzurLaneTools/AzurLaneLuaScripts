@@ -295,6 +295,11 @@ pg.island_item_data_template.all = {
 	200027,
 	200028,
 	200029,
+	200030,
+	200031,
+	200032,
+	200033,
+	200034,
 	300001,
 	300002,
 	300003,
@@ -599,6 +604,11 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		200027,
 		200028,
 		200029,
+		200030,
+		200031,
+		200032,
+		200033,
+		200034,
 		300001,
 		300002,
 		300003,
@@ -885,6 +895,11 @@ pg.island_item_data_template.get_id_list_by_type = {
 		200027,
 		200028,
 		200029,
+		200030,
+		200031,
+		200032,
+		200033,
+		200034,
 		300001,
 		300002,
 		300003,
@@ -921,8 +936,8 @@ pg.base.island_item_data_template = {}
 
 (function ()
 	pg.base.island_item_data_template[1] = {
-		name = "开发资金",
-		desc = "在岛屿开发区内流通的货币，是开发区持续发展的基础。",
+		name = "開發資金",
+		desc = "在島嶼開發區內流通的貨幣，是開發區持續發展的基礎。",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -946,18 +961,18 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"岛屿订单",
+				"島嶼訂單",
 				{}
 			},
 			{
-				"店铺经营",
+				"店鋪經營",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2] = {
-		name = "开发经验",
-		desc = "岛屿的开发经验，累积足够的开发经验可以提升岛屿的开发等级",
+		name = "開發經驗",
+		desc = "島嶼的開發經驗，累積足夠的開發經驗可以提升島嶼的開發等級",
 		type = 4,
 		manage_influence = 0,
 		pt_num = 0,
@@ -981,18 +996,18 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"岛屿订单",
+				"島嶼訂單",
 				{}
 			},
 			{
-				"计划",
+				"計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3] = {
-		name = "装扮染色盘",
-		desc = "盘中包含多种染料，能随心所欲地改变装扮的颜色，打造真正独一无二的装扮。 ",
+		name = "裝扮染色盤",
+		desc = "盤中包含多種染料，能隨心所欲地改變裝扮的顏色，打造真正獨一無二的裝扮。 ",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1016,18 +1031,18 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{}
 			},
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4] = {
-		name = "搭建凭证",
-		desc = "集会岛搭建凭证，使用凭证，在集会岛上搭建属于自己的乐园。",
+		name = "搭建憑證",
+		desc = "集會島搭建憑證，使用憑證，在集會島上搭建屬於自己的樂園。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1052,8 +1067,8 @@ pg.base.island_item_data_template = {}
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[5] = {
-		name = "地图残片-1",
-		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
+		name = "地圖殘片-1",
+		desc = "島嶼上的神秘紙片，歪歪扭扭的線條裡不知藏著什麼秘密~",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1078,8 +1093,8 @@ pg.base.island_item_data_template = {}
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[6] = {
-		name = "地图残片-2",
-		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
+		name = "地圖殘片-2",
+		desc = "島嶼上的神秘紙片，歪歪扭扭的線條裡不知藏著什麼秘密~",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1104,8 +1119,8 @@ pg.base.island_item_data_template = {}
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[7] = {
-		name = "地图残片-3",
-		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
+		name = "地圖殘片-3",
+		desc = "島嶼上的神秘紙片，歪歪扭扭的線條裡不知藏著什麼秘密~",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1130,8 +1145,8 @@ pg.base.island_item_data_template = {}
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[8] = {
-		name = "地图残片-4",
-		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
+		name = "地圖殘片-4",
+		desc = "島嶼上的神秘紙片，歪歪扭扭的線條裡不知藏著什麼秘密~",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1156,8 +1171,8 @@ pg.base.island_item_data_template = {}
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[9] = {
-		name = "地图残片-5",
-		desc = "岛屿上的神秘纸片，歪歪扭扭的线条里不知藏着什么秘密~",
+		name = "地圖殘片-5",
+		desc = "島嶼上的神秘紙片，歪歪扭扭的線條裡不知藏著什麼秘密~",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1182,8 +1197,8 @@ pg.base.island_item_data_template = {}
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[10] = {
-		name = "岛屿PT兑换券",
-		desc = "岛屿计划开发季PT兑换券，开发季结束后会自动转化为当前开发季岛屿开发PT，也可在仓库中手动转化。",
+		name = "島嶼PT兌換券",
+		desc = "島嶼計劃開發季PT兌換券，開發季結束後會自動轉化為當前開發季島嶼開發PT，也可在倉庫中手動轉化。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1208,8 +1223,8 @@ pg.base.island_item_data_template = {}
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[11] = {
-		name = "领洋者-娜比娅（特殊）",
-		desc = "领洋者-娜比娅（特殊）",
+		name = "領洋者-娜比婭（特殊）",
+		desc = "領洋者-娜比婭（特殊）",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1232,8 +1247,8 @@ pg.base.island_item_data_template = {}
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[12] = {
-		name = "领航员-TB（特殊）",
-		desc = "领航员-TB（特殊）",
+		name = "領航員-TB（特殊）",
+		desc = "領航員-TB（特殊）",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1280,8 +1295,8 @@ pg.base.island_item_data_template = {}
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[14] = {
-		name = "岛屿开发PT",
-		desc = "岛屿开发区发展进度的体现，能够用来获取各类开发物资。",
+		name = "島嶼開發PT",
+		desc = "島嶼開發區發展進度的體現，能夠用來獲取各類開發物資。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 0,
@@ -1306,8 +1321,8 @@ pg.base.island_item_data_template = {}
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[1000] = {
-		name = "小麦种子",
-		desc = "港区精选的小麦种子，可以产出优质的小麦。",
+		name = "小麥種子",
+		desc = "港區精選的小麥種子，可以產出優質的小麥。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1332,7 +1347,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1350,8 +1365,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1001] = {
-		name = "玉米种子",
-		desc = "港区精选的玉米种子，蕴含丰收的力量。",
+		name = "玉米種子",
+		desc = "港區精選的玉米種子，蘊含豐收的力量。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1376,7 +1391,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1394,8 +1409,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1002] = {
-		name = "旱稻种子",
-		desc = "港区精选的旱稻种子，一起等待丰收时刻吧~",
+		name = "旱稻種子",
+		desc = "港區精選的旱稻種子，一起等待豐收時刻吧~",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1420,7 +1435,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1438,8 +1453,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1003] = {
-		name = "白菜种子",
-		desc = "港区精选的白菜种子，可以种出水灵灵的大白菜！",
+		name = "白菜種子",
+		desc = "港區精選的白菜種子，可以種出水靈靈的大白菜！",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1464,7 +1479,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1482,8 +1497,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1004] = {
-		name = "胡萝卜种子",
-		desc = "港区精选的胡萝卜种子，可以种出香甜的胡萝卜。",
+		name = "胡蘿蔔種子",
+		desc = "港區精選的胡蘿蔔種子，可以種出香甜的胡蘿蔔。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1508,7 +1523,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1526,8 +1541,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1005] = {
-		name = "土豆种子",
-		desc = "港区精选的土豆的种子，可以轻松种出高产的土豆。",
+		name = "土豆種子",
+		desc = "港區精選的土豆的種子，可以輕鬆種出高產的土豆。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1552,7 +1567,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1570,8 +1585,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1006] = {
-		name = "大豆种子",
-		desc = "港区精选的大豆的种子，可以轻松种出优质的大豆。",
+		name = "大豆種子",
+		desc = "港區精選的大豆的種子，可以輕鬆種出優質的大豆。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1596,7 +1611,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1614,8 +1629,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1007] = {
-		name = "洋葱种子",
-		desc = "港区精选的洋葱种子，能轻松培育出迷人的洋葱。",
+		name = "洋蔥種子",
+		desc = "港區精選的洋蔥種子，能輕鬆培育出迷人的洋蔥。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1640,7 +1655,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1658,8 +1673,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1008] = {
-		name = "牧草种子",
-		desc = "港区精选的选牧草种子，能种出丰饶的牧草。",
+		name = "牧草種子",
+		desc = "港區精選的選牧草種子，能種出豐饒的牧草。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1684,7 +1699,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1702,8 +1717,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1009] = {
-		name = "咖啡树种",
-		desc = "港区精选的咖啡树种，可以结出风味独特的咖啡豆。",
+		name = "咖啡樹種",
+		desc = "港區精選的咖啡樹種，可以結出風味獨特的咖啡豆。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1728,7 +1743,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1746,8 +1761,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1010] = {
-		name = "亚麻种子",
-		desc = "港区精选的亚麻种子，生长迅速，纤维长且坚韧，是纺织的好帮手。",
+		name = "亞麻種子",
+		desc = "港區精選的亞麻種子，生長迅速，纖維長且堅韌，是紡織的好幫手。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1772,7 +1787,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1790,8 +1805,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1011] = {
-		name = "草莓种子",
-		desc = "港区精选的草莓种子，可以种出鲜红的草莓。",
+		name = "草莓種子",
+		desc = "港區精選的草莓種子，可以種出鮮紅的草莓。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1816,7 +1831,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1834,8 +1849,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1012] = {
-		name = "棉花种子",
-		desc = "港区精选的棉花种子，可以结出柔软的棉花。",
+		name = "棉花種子",
+		desc = "港區精選的棉花種子，可以結出柔軟的棉花。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1860,7 +1875,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1878,8 +1893,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1014] = {
-		name = "茶树种子",
-		desc = "港区精选的茶树种子，可以种出品质上乘的茶叶。",
+		name = "茶樹種子",
+		desc = "港區精選的茶樹種子，可以種出品質上乘的茶葉。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1904,7 +1919,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1922,8 +1937,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1015] = {
-		name = "薰衣草种子",
-		desc = "港区精选的薰衣草种子，可以种出一片紫色的花海。",
+		name = "薰衣草種子",
+		desc = "港區精選的薰衣草種子，可以種出一片紫色的花海。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1948,7 +1963,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -1966,8 +1981,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1016] = {
-		name = "苹果树种",
-		desc = "港区培育的优质苹果树种，可以结出清脆可口的苹果。",
+		name = "蘋果樹種",
+		desc = "港區培育的優質蘋果樹種，可以結出清脆可口的蘋果。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -1992,7 +2007,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -2010,8 +2025,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1017] = {
-		name = "柑橘树种",
-		desc = "港区培育的优质柑橘树种，可以结出鲜甜多汁的柑橘。",
+		name = "柑橘樹種",
+		desc = "港區培育的優質柑橘樹種，可以結出鮮甜多汁的柑橘。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2036,7 +2051,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -2054,8 +2069,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1018] = {
-		name = "香蕉树种",
-		desc = "港区培育的优质香蕉树种，可以结出饱满的香蕉。",
+		name = "香蕉樹種",
+		desc = "港區培育的優質香蕉樹種，可以結出飽滿的香蕉。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2080,7 +2095,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -2098,8 +2113,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1019] = {
-		name = "芒果树种",
-		desc = "港区培育的优质芒果树种，可以结出香甜的芒果。",
+		name = "芒果樹種",
+		desc = "港區培育的優質芒果樹種，可以結出香甜的芒果。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2124,7 +2139,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -2142,8 +2157,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1020] = {
-		name = "柠檬树种",
-		desc = "港区培育的优质柠檬树种，可以结出清新的柠檬。",
+		name = "檸檬樹種",
+		desc = "港區培育的優質檸檬樹種，可以結出清新的檸檬。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2168,7 +2183,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -2186,8 +2201,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1021] = {
-		name = "牛油果树种",
-		desc = "港区培育的优质牛油果树种，可以结出营养丰富的牛油果。",
+		name = "牛油果樹種",
+		desc = "港區培育的優質牛油果樹種，可以結出營養豐富的牛油果。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2212,7 +2227,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -2230,8 +2245,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1022] = {
-		name = "橡胶树种",
-		desc = "港区精选的橡胶树种，可以产出优质的橡胶。",
+		name = "橡膠樹種",
+		desc = "港區精選的橡膠樹種，可以產出優質的橡膠。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2256,7 +2271,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -2274,8 +2289,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1101] = {
-		name = "贝苗",
-		desc = "双壳类生物幼苗，成长稳定，培育技术成熟。",
+		name = "貝苗",
+		desc = "雙殼類生物幼苗，成長穩定，培育技術成熟。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2300,7 +2315,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2318,8 +2333,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1102] = {
-		name = "鲶鱼苗",
-		desc = "底栖淡水鱼苗，耐低氧环境，适宜在静水泥底池中高密度养殖。",
+		name = "鯰魚苗",
+		desc = "底棲淡水魚苗，耐低氧環境，適宜在靜水泥底池中高密度養殖。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2344,7 +2359,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2362,8 +2377,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1103] = {
-		name = "鲤鱼苗",
-		desc = "淡水杂食性鱼苗，适应性强，可在多种水质条件下稳定生长。",
+		name = "鯉魚苗",
+		desc = "淡水雜食性魚苗，適應性強，可在多種水質條件下穩定生長。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2388,7 +2403,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2406,8 +2421,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1104] = {
-		name = "鲫鱼苗",
-		desc = "小型淡水鱼苗，主食藻类和有机碎屑，有助于维持水体生态平衡。",
+		name = "鯽魚苗",
+		desc = "小型淡水魚苗，主食藻類和有機碎屑，有助於維持水體生態平衡。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2432,7 +2447,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2450,8 +2465,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1105] = {
-		name = "小河虾苗",
-		desc = "淡水虾类幼体，可作为水体清洁者，喜食残饵与部分藻类。",
+		name = "小河蝦苗",
+		desc = "淡水蝦類幼體，可作為水體清潔者，喜食殘餌與部分藻類。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2476,7 +2491,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2494,8 +2509,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1106] = {
-		name = "小龙虾苗",
-		desc = "甲壳类幼体，生长过程中甲壳会逐渐变红变硬，其成体是热门水产品。",
+		name = "小龍蝦苗",
+		desc = "甲殼類幼體，生長過程中甲殼會逐漸變紅變硬，其成體是熱門水產品。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2520,7 +2535,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2538,8 +2553,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1107] = {
-		name = "鲈鱼苗",
-		desc = "肉食性鱼苗，肉质鲜嫩，经培育后可获得上乘的食用鱼类。",
+		name = "鱸魚苗",
+		desc = "肉食性魚苗，肉質鮮嫩，經培育後可獲得上乘的食用魚類。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2564,7 +2579,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2583,7 +2598,7 @@ pg.base.island_item_data_template = {}
 	}
 	pg.base.island_item_data_template[1108] = {
 		name = "蟹苗",
-		desc = "蜕壳频繁的蟹幼体，需在水质清新的环境中培育。",
+		desc = "蛻殼頻繁的蟹幼體，需在水質清新的環境中培育。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2608,7 +2623,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2626,8 +2641,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1201] = {
-		name = "鱿鱼苗",
-		desc = "头足类幼体，成长过程需多次形态变化，最终产出弹滑的肉质。",
+		name = "魷魚苗",
+		desc = "頭足類幼體，成長過程需多次形態變化，最終產出彈滑的肉質。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2652,7 +2667,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2670,8 +2685,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1202] = {
-		name = "马鲛鱼苗",
-		desc = "肉食性鱼苗，活跃于中上层水域，具有良好成长性。",
+		name = "馬鮫魚苗",
+		desc = "肉食性魚苗，活躍於中上層水域，具有良好成長性。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2696,7 +2711,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2714,8 +2729,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1203] = {
-		name = "金枪鱼苗",
-		desc = "大型远洋鱼类幼苗，体型增长明显，需要在持续供氧的水域生长。",
+		name = "金槍魚苗",
+		desc = "大型遠洋魚類幼苗，體型增長明顯，需要在持續供氧的水域生長。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2740,7 +2755,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2758,8 +2773,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1204] = {
-		name = "三文鱼苗",
-		desc = "洄游性鱼类幼体，适宜水温较低的水域，需要耐心照料方能收获丰美鱼肉。",
+		name = "三文魚苗",
+		desc = "洄游性魚類幼體，適宜水溫較低的水域，需要耐心照料方能收穫豐美魚肉。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2784,7 +2799,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2802,8 +2817,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1205] = {
-		name = "红鲷鱼苗",
-		desc = "暖水性海水鱼苗，成长后体色鲜艳，具有较高观赏性。",
+		name = "紅鯛魚苗",
+		desc = "暖水性海水魚苗，成長後體色鮮豔，具有較高觀賞性。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2828,7 +2843,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2846,8 +2861,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1206] = {
-		name = "黑鲷鱼苗",
-		desc = "礁区鱼类幼苗，体质强健，培育成功率较高。",
+		name = "黑鯛魚苗",
+		desc = "礁區魚類幼苗，體質強健，培育成功率較高。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2872,7 +2887,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2890,8 +2905,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1207] = {
-		name = "黄鳍金枪鱼苗",
-		desc = "高经济价值鱼苗，水下游动速度快，对水体溶氧量要求严苛。",
+		name = "黃鰭金槍魚苗",
+		desc = "高經濟價值魚苗，水下游動速度快，對水體溶氧量要求嚴苛。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2916,7 +2931,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2934,8 +2949,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1208] = {
-		name = "海参苗",
-		desc = "底栖棘皮动物幼体，以沉积有机物为食，能有效净化养殖池底层。",
+		name = "海參苗",
+		desc = "底棲棘皮動物幼體，以沉積有機物為食，能有效淨化養殖池底層。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2960,7 +2975,7 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼苗商店",
+				"魚苗商店",
 				{
 					"IslandShopPage",
 					{
@@ -2979,7 +2994,7 @@ pg.base.island_item_data_template = {}
 	}
 	pg.base.island_item_data_template[1500] = {
 		name = "蚯蚓",
-		desc = "模拟蚯蚓的假饵，其逼真的造型容易吸引鱼类上钩。",
+		desc = "模擬蚯蚓的假餌，其逼真的造型容易吸引魚類上鉤。",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -3003,14 +3018,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[1501] = {
 		name = "玉米粒",
-		desc = "经过特殊调味的玉米粒假饵，金黄的色泽能有效吸引杂食性鱼类的注意。",
+		desc = "經過特殊調味的玉米粒假餌，金黃的色澤能有效吸引雜食性魚類的注意。",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -3035,8 +3050,8 @@ pg.base.island_item_data_template = {}
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[1502] = {
-		name = "虾仁",
-		desc = "精心制作的模拟虾仁假饵，其逼真的形态和动作能诱惑多数肉食鱼类。",
+		name = "蝦仁",
+		desc = "精心製作的模擬蝦仁假餌，其逼真的形態和動作能誘惑多數肉食魚類。",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -3060,14 +3075,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[1503] = {
-		name = "章鱼须",
-		desc = "造型独特的仿真假饵，它在水中的舞动对大型海产有着致命的吸引力。",
+		name = "章魚須",
+		desc = "造型獨特的模擬假餌，它在水中的舞動對大型海產有著致命的吸引力。",
 		type = 3,
 		manage_influence = 0,
 		pt_num = 0,
@@ -3091,14 +3106,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"商店购买",
+				"商店購買",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2000] = {
-		name = "小麦",
-		desc = "刚收获不久的新鲜小麦，制作面粉的重要原料。",
+		name = "小麥",
+		desc = "剛收穫不久的新鮮小麥，製作麵粉的重要原料。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3123,14 +3138,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"豐壤農田",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2001] = {
 		name = "玉米",
-		desc = "金黄饱满的玉米，散发着田野的清甜气息。",
+		desc = "金黃飽滿的玉米，散發著田野的清甜氣息。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3155,14 +3170,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"豐壤農田",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2002] = {
 		name = "大米",
-		desc = "清白色的优质大米，含有丰富的淀粉和谷物蛋白。",
+		desc = "清白色的優質大米，含有豐富的澱粉和穀物蛋白。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3187,14 +3202,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"豐壤農田",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2003] = {
 		name = "白菜",
-		desc = "清脆可口的白菜，新鲜直采！",
+		desc = "清脆可口的白菜，新鮮直採！",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3219,14 +3234,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"豐壤農田",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2004] = {
-		name = "胡萝卜",
-		desc = "家中常备蔬菜，营养丰富，口感清甜。",
+		name = "胡蘿蔔",
+		desc = "家中常備蔬菜，營養豐富，口感清甜。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3258,7 +3273,7 @@ pg.base.island_item_data_template = {}
 	}
 	pg.base.island_item_data_template[2005] = {
 		name = "土豆",
-		desc = "蔬菜中的淀粉代表，可以被做成千变万化的形态。",
+		desc = "蔬菜中的澱粉代表，可以被做成千變萬化的形態。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3283,14 +3298,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"豐壤農田",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2006] = {
 		name = "大豆",
-		desc = "圆润饱满，富含蛋白质，除了制作美食之外，也有丰富的工业用途。",
+		desc = "圓潤飽滿，富含蛋白質，除了製作美食之外，也有豐富的工業用途。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3315,14 +3330,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"豐壤農田",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2007] = {
-		name = "洋葱",
-		desc = "紫色的外衣剥开……小心别被弄掉眼泪！",
+		name = "洋蔥",
+		desc = "紫色的外衣剝開……小心別被弄掉眼淚！",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 24,
@@ -3354,7 +3369,7 @@ pg.base.island_item_data_template = {}
 	}
 	pg.base.island_item_data_template[2008] = {
 		name = "牧草",
-		desc = "高品质牧草，让牧场充满生机！",
+		desc = "高品質牧草，讓牧場充滿生機！",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3379,14 +3394,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"豐壤農田",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2009] = {
 		name = "咖啡豆",
-		desc = "香气浓郁，提神醒脑，不来一杯吗？",
+		desc = "香氣濃郁，提神醒腦，不來一杯嗎？",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 6,
@@ -3411,14 +3426,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"丰壤农田",
+				"豐壤農田",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2010] = {
-		name = "亚麻",
-		desc = "长纤维亚麻，适合纺线织布，你的工坊佳选！",
+		name = "亞麻",
+		desc = "長纖維亞麻，適合紡線織布，你的工坊佳選！",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 6,
@@ -3450,7 +3465,7 @@ pg.base.island_item_data_template = {}
 	}
 	pg.base.island_item_data_template[2011] = {
 		name = "草莓",
-		desc = "红彤彤的果实酸甜多汁，很适合搭配甜点食用。",
+		desc = "紅彤彤的果實酸甜多汁，很適合搭配甜點食用。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 5,
@@ -3482,7 +3497,7 @@ pg.base.island_item_data_template = {}
 	}
 	pg.base.island_item_data_template[2012] = {
 		name = "棉花",
-		desc = "柔软的白色棉花，纺织业的重要材料。",
+		desc = "柔軟的白色棉花，紡織業的重要材料。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 6,
@@ -3513,8 +3528,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[2014] = {
-		name = "茶叶",
-		desc = "苦涩清香，享受大自然的味道~",
+		name = "茶葉",
+		desc = "苦澀清香，享受大自然的味道~",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 14,
@@ -3546,7 +3561,7 @@ pg.base.island_item_data_template = {}
 	}
 	pg.base.island_item_data_template[2015] = {
 		name = "薰衣草",
-		desc = "芬芳四溢，除点缀花园外，还能用来萃取精油。",
+		desc = "芬芳四溢，除點綴花園外，還能用來萃取精油。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 35,
@@ -3577,8 +3592,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[2016] = {
-		name = "苹果",
-		desc = "清脆多汁，富含多种维生素，可直接食用也可加工为果汁。",
+		name = "蘋果",
+		desc = "清脆多汁，富含多種維生素，可直接食用也可加工為果汁。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3603,14 +3618,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"墜香果園",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2017] = {
 		name = "柑橘",
-		desc = "便宜、易保存、还带有美好香气的水果。",
+		desc = "便宜、易儲存、還帶有美好香氣的水果。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3635,14 +3650,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"墜香果園",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2018] = {
 		name = "香蕉",
-		desc = "热带风情的象征，柔软香甜，富含丰富的膳食纤维。",
+		desc = "熱帶風情的象徵，柔軟香甜，富含豐富的膳食纖維。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3667,14 +3682,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"墜香果園",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2019] = {
 		name = "芒果",
-		desc = "果肉细腻的夏日水果，拥有超高的甜度，可以榨汁食用。",
+		desc = "果肉細膩的夏日水果，擁有超高的甜度，可以榨汁食用。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 18,
@@ -3699,14 +3714,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"墜香果園",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2020] = {
-		name = "柠檬",
-		desc = "果皮清香，酸甜适中，时常用来调味。",
+		name = "檸檬",
+		desc = "果皮清香，酸甜適中，時常用來調味。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 3,
@@ -3731,14 +3746,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"墜香果園",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2021] = {
 		name = "牛油果",
-		desc = "口感细腻软糯，美味无糖更健康。",
+		desc = "口感細膩軟糯，美味無糖更健康。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 45,
@@ -3763,14 +3778,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"墜香果園",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2022] = {
-		name = "橡胶",
-		desc = "高弹性，工业加工的常见材料，用途广泛！",
+		name = "橡膠",
+		desc = "高彈性，工業加工的常見材料，用途廣泛！",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 30,
@@ -3795,14 +3810,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"坠香果园",
+				"墜香果園",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2521] = {
-		name = "淡水鱼肉",
-		desc = "加工后的鲜美淡水鱼肉，是制作许多家常料理的基础食材。",
+		name = "淡水魚肉",
+		desc = "加工後的鮮美淡水魚肉，是製作許多家常料理的基礎食材。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 18,
@@ -3827,14 +3842,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼肉加工",
+				"魚肉加工",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2522] = {
-		name = "海水鱼肉",
-		desc = "加工后的新鲜海水鱼肉，带着海洋的芬芳。",
+		name = "海水魚肉",
+		desc = "加工後的新鮮海水魚肉，帶著海洋的芬芳。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 48,
@@ -3859,14 +3874,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"鱼肉加工",
+				"魚肉加工",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2600] = {
-		name = "鲜肉",
-		desc = "动物产出的鲜肉，最为优质的蛋白质来源。",
+		name = "鮮肉",
+		desc = "動物產出的鮮肉，最為優質的蛋白質來源。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 2,
@@ -3891,14 +3906,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"悠然牧場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2601] = {
-		name = "鸡蛋",
-		desc = "土褐色的鸡蛋，是烹饪的常见原料。",
+		name = "雞蛋",
+		desc = "土褐色的雞蛋，是烹飪的常見原料。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3923,14 +3938,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"悠然牧場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2602] = {
 		name = "禽肉",
-		desc = "低脂肪高蛋白肉类，适合多种菜肴。",
+		desc = "低脂肪高蛋白肉類，適合多種菜餚。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3955,14 +3970,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"悠然牧場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2603] = {
 		name = "牛奶",
-		desc = "不仅是天然的饮品，还能用来制作酸奶和奶酪等美味。",
+		desc = "不僅是天然的飲品，還能用來製作酸奶和乳酪等美味。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3987,14 +4002,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"悠然牧場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2604] = {
 		name = "皮料",
-		desc = "经过简单处理的动物皮，可进一步加工为皮革。",
+		desc = "經過簡單處理的動物皮，可進一步加工為皮革。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 10,
@@ -4019,14 +4034,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"悠然牧場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2605] = {
 		name = "羊毛",
-		desc = "动物身上的毛纤维，是纺织工业的重要原料。",
+		desc = "動物身上的毛纖維，是紡織工業的重要原料。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 72,
@@ -4051,14 +4066,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"悠然牧场",
+				"悠然牧場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2606] = {
-		name = "新鲜蜂蜜",
-		desc = "新鲜采集的蜂蜜，充满了自然的香甜。",
+		name = "新鮮蜂蜜",
+		desc = "新鮮採集的蜂蜜，充滿了自然的香甜。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 2,
@@ -4083,14 +4098,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"地图采集",
+				"地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2700] = {
 		name = "煤炭",
-		desc = "基础的燃料，燃烧效率高，常用于加热或工业生产。",
+		desc = "基礎的燃料，燃燒效率高，常用於加熱或工業生產。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -4115,14 +4130,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"沉石礦山",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2701] = {
-		name = "铜矿",
-		desc = "富含铜元素的矿石，冶炼出的铜常用于生产电子产品。",
+		name = "銅礦",
+		desc = "富含銅元素的礦石，冶煉出的銅常用於生產電子產品。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -4147,14 +4162,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"沉石礦山",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2702] = {
-		name = "铝矿",
-		desc = "富含铝元素的矿石，冶炼出的铝常用于制造飞行器和船舶。",
+		name = "鋁礦",
+		desc = "富含鋁元素的礦石，冶煉出的鋁常用於製造飛行器和船舶。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 30,
@@ -4179,14 +4194,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"沉石礦山",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2703] = {
-		name = "铁矿",
-		desc = "富含铁元素的矿石，冶炼出的铁常用于建造各种建筑。",
+		name = "鐵礦",
+		desc = "富含鐵元素的礦石，冶煉出的鐵常用於建造各種建築。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 18,
@@ -4211,14 +4226,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"沉石礦山",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2704] = {
-		name = "硫矿",
-		desc = "富含硫元素的矿石，冶炼出的硫常用于制作肥料和杀虫剂。",
+		name = "硫礦",
+		desc = "富含硫元素的礦石，冶煉出的硫常用於製作肥料和殺蟲劑。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 80,
@@ -4243,14 +4258,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"沉石礦山",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2705] = {
-		name = "银矿",
-		desc = "富含银元素的矿石，冶炼出的银常用于制作合金和化学仪器。",
+		name = "銀礦",
+		desc = "富含銀元素的礦石，冶煉出的銀常用於製作合金和化學儀器。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 240,
@@ -4275,14 +4290,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"沉石矿山",
+				"沉石礦山",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2800] = {
 		name = "自然之木",
-		desc = "木材中的基础款，从造纸到建筑，用途广泛。",
+		desc = "木材中的基礎款，從造紙到建築，用途廣泛。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -4307,14 +4322,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"翠土林场",
+				"翠土林場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2801] = {
-		name = "实用之木",
-		desc = "纹理美观，适合制作家具和地板。",
+		name = "實用之木",
+		desc = "紋理美觀，適合製作傢俱和地板。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -4339,14 +4354,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"翠土林场",
+				"翠土林場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2802] = {
-		name = "精选之木",
-		desc = "坚固耐用，传统造船和高端家具料。",
+		name = "精選之木",
+		desc = "堅固耐用，傳統造船和高階傢俱料。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 36,
@@ -4371,14 +4386,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"翠土林场",
+				"翠土林場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[2803] = {
 		name = "典雅之木",
-		desc = "美观且坚硬，适合高档装饰和家具。",
+		desc = "美觀且堅硬，適合高檔裝飾和傢俱。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 180,
@@ -4403,14 +4418,14 @@ pg.base.island_item_data_template = {}
 		sub_attribute = {},
 		jump_page = {
 			{
-				"翠土林场",
+				"翠土林場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3000] = {
-		name = "咯咯鸡饲料",
-		desc = "专为咯咯鸡打造的高蛋白饲料，能为其提供充足的能量。",
+		name = "咯咯雞飼料",
+		desc = "專為咯咯雞打造的高蛋白飼料，能為其提供充足的能量。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 3,
@@ -4453,8 +4468,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[3001] = {
-		name = "哼哼猪饲料",
-		desc = "专为哼哼猪打造的增重用饲料，适合食量大的动物食用。",
+		name = "哼哼豬飼料",
+		desc = "專為哼哼豬打造的增重用飼料，適合食量大的動物食用。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 3,
@@ -4497,8 +4512,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[3002] = {
-		name = "哞哞牛饲料",
-		desc = "专为哞哞牛打造的营养饲料，能帮助哞哞牛产出香甜浓郁的牛奶。",
+		name = "哞哞牛飼料",
+		desc = "專為哞哞牛打造的營養飼料，能幫助哞哞牛產出香甜濃郁的牛奶。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 4,
@@ -4543,8 +4558,8 @@ pg.base.island_item_data_template = {}
 end)()
 (function ()
 	pg.base.island_item_data_template[3003] = {
-		name = "咩咩羊饲料",
-		desc = "专为咩咩羊打造的玉米粉制饲料，能帮助咩咩羊长出更加柔顺的羊毛 。",
+		name = "咩咩羊飼料",
+		desc = "專為咩咩羊打造的玉米粉制飼料，能幫助咩咩羊長出更加柔順的羊毛 。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 4,
@@ -4587,8 +4602,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[3004] = {
-		name = "面粉",
-		desc = "由小麦磨成的白面粉，制作面包、蛋糕和披萨的必需品。",
+		name = "麵粉",
+		desc = "由小麥磨成的白麵粉，製作麵包、蛋糕和披薩的必需品。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 6,
@@ -4620,7 +4635,7 @@ end)()
 	}
 	pg.base.island_item_data_template[3005] = {
 		name = "冰咖啡",
-		desc = "口感清爽，适合夏日消暑和提神。",
+		desc = "口感清爽，適合夏日消暑和提神。",
 		type = 1,
 		manage_influence = 190,
 		pt_num = 15,
@@ -4656,7 +4671,7 @@ end)()
 	}
 	pg.base.island_item_data_template[3006] = {
 		name = "芝士",
-		desc = "以奶类为原料制成，含有丰富的蛋白质和脂质，常用来搭配面包使用。",
+		desc = "以奶類為原料製成，含有豐富的蛋白質和脂質，常用來搭配麵包使用。",
 		type = 1,
 		manage_influence = 150,
 		pt_num = 55,
@@ -4691,8 +4706,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[3007] = {
-		name = "拿铁",
-		desc = "浓缩咖啡与蒸奶混合，口感香滑，深受咖啡爱好者喜爱 。",
+		name = "拿鐵",
+		desc = "濃縮咖啡與蒸奶混合，口感香滑，深受咖啡愛好者喜愛 。",
 		type = 1,
 		manage_influence = 180,
 		pt_num = 25,
@@ -4728,7 +4743,7 @@ end)()
 	}
 	pg.base.island_item_data_template[3008] = {
 		name = "柑橘咖啡",
-		desc = "加入了柑橘汁的咖啡饮品，以清新的酸度和自然的果香为特色。",
+		desc = "加入了柑橘汁的咖啡飲品，以清新的酸度和自然的果香為特色。",
 		type = 1,
 		manage_influence = 180,
 		pt_num = 25,
@@ -4763,8 +4778,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[3009] = {
-		name = "苹果派",
-		desc = "将苹果馅料裹在酥皮之中，口感香甜，是经典甜点代表之一。",
+		name = "蘋果派",
+		desc = "將蘋果餡料裹在酥皮之中，口感香甜，是經典甜點代表之一。",
 		type = 1,
 		manage_influence = 190,
 		pt_num = 35,
@@ -4799,8 +4814,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[3010] = {
-		name = "草莓奶绿",
-		desc = "入口细腻的奶沫，清新丝滑，口感丰富。",
+		name = "草莓奶綠",
+		desc = "入口細膩的奶沫，清新絲滑，口感豐富。",
 		type = 1,
 		manage_influence = 240,
 		pt_num = 60,
@@ -4836,7 +4851,7 @@ end)()
 	}
 	pg.base.island_item_data_template[3011] = {
 		name = "豆腐",
-		desc = "白净柔嫩，由大豆制成，富含丰富的植物蛋白。",
+		desc = "白淨柔嫩，由大豆製成，富含豐富的植物蛋白。",
 		type = 1,
 		manage_influence = 170,
 		pt_num = 35,
@@ -4865,14 +4880,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3012] = {
-		name = "肉末烧豆腐",
-		desc = "经典家常菜，口感滑嫩、汤汁浓郁。",
+		name = "肉末燒豆腐",
+		desc = "經典家常菜，口感滑嫩、湯汁濃郁。",
 		type = 1,
 		manage_influence = 180,
 		pt_num = 155,
@@ -4901,14 +4916,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3013] = {
-		name = "蛋包饭",
-		desc = "金黄的煎蛋包裹着松软的米饭，每一口都充满了惊喜！",
+		name = "蛋包飯",
+		desc = "金黃的煎蛋包裹著鬆軟的米飯，每一口都充滿了驚喜！",
 		type = 1,
 		manage_influence = 240,
 		pt_num = 35,
@@ -4937,14 +4952,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3014] = {
-		name = "白菜豆腐汤",
-		desc = "白菜的鲜甜与豆腐的嫩滑交织，是非常清淡健康的菜式。",
+		name = "白菜豆腐湯",
+		desc = "白菜的鮮甜與豆腐的嫩滑交織，是非常清淡健康的菜式。",
 		type = 1,
 		manage_influence = 180,
 		pt_num = 65,
@@ -4973,14 +4988,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3015] = {
 		name = "蔬菜沙拉",
-		desc = "新鲜的蔬菜搭配香浓的酱汁，清爽可口！",
+		desc = "新鮮的蔬菜搭配香濃的醬汁，清爽可口！",
 		type = 1,
 		manage_influence = 160,
 		pt_num = 10,
@@ -5009,14 +5024,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3017] = {
-		name = "苹果汁",
-		desc = "鲜榨水果汁果香浓郁，是很受欢迎的健康饮品！",
+		name = "蘋果汁",
+		desc = "鮮榨水果汁果香濃郁，是很受歡迎的健康飲品！",
 		type = 1,
 		manage_influence = 200,
 		pt_num = 10,
@@ -5045,14 +5060,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3018] = {
 		name = "香蕉芒果汁",
-		desc = "香蕉与芒果的完美融合，是热带风味的浓缩！",
+		desc = "香蕉與芒果的完美融合，是熱帶風味的濃縮！",
 		type = 1,
 		manage_influence = 190,
 		pt_num = 25,
@@ -5081,14 +5096,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3019] = {
-		name = "蜂蜜柠檬水",
-		desc = "甘甜蜂蜜与清爽柠檬的美妙融合，还能补充维c。",
+		name = "蜂蜜檸檬水",
+		desc = "甘甜蜂蜜與清爽檸檬的美妙融合，還能補充維c。",
 		type = 1,
 		manage_influence = 240,
 		pt_num = 15,
@@ -5117,14 +5132,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3020] = {
 		name = "草莓蜜沁",
-		desc = "草莓与柠檬的奇妙组合，清爽不腻的果味特饮。",
+		desc = "草莓與檸檬的奇妙組合，清爽不膩的果味特飲。",
 		type = 1,
 		manage_influence = 180,
 		pt_num = 50,
@@ -5153,14 +5168,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3021] = {
 		name = "薰衣草茶",
-		desc = "具有净化心绪，舒解压力的作用，很适合调养身心。",
+		desc = "具有淨化心緒，舒解壓力的作用，很適合調養身心。",
 		type = 1,
 		manage_influence = 160,
 		pt_num = 240,
@@ -5189,14 +5204,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3022] = {
 		name = "草莓蜂蜜冰沙",
-		desc = "草莓的酸甜与蜂蜜的香浓完美融合，构成甜蜜的冰沙世界。",
+		desc = "草莓的酸甜與蜂蜜的香濃完美融合，構成甜蜜的冰沙世界。",
 		type = 1,
 		manage_influence = 220,
 		pt_num = 95,
@@ -5225,14 +5240,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3023] = {
 		name = "玉米杯",
-		desc = "金黄的玉米粒经过简单蒸煮变得香甜可口，是常见的美味小吃。",
+		desc = "金黃的玉米粒經過簡單蒸煮變得香甜可口，是常見的美味小吃。",
 		type = 1,
 		manage_influence = 180,
 		pt_num = 7,
@@ -5261,14 +5276,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"啾啾簡餐",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3024] = {
 		name = "香橙派",
-		desc = "经典甜点，下午茶时间食用更佳。",
+		desc = "經典甜點，下午茶時間食用更佳。",
 		type = 1,
 		manage_influence = 185,
 		pt_num = 35,
@@ -5297,14 +5312,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"啾啾簡餐",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3025] = {
-		name = "芒果糯米饭",
-		desc = "热带风情特色家常菜，适合没食欲的时候食用。",
+		name = "芒果糯米飯",
+		desc = "熱帶風情特色家常菜，適合沒食慾的時候食用。",
 		type = 1,
 		manage_influence = 160,
 		pt_num = 60,
@@ -5333,14 +5348,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"啾啾簡餐",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3026] = {
-		name = "香蕉可丽饼",
-		desc = "经典早餐，口感酥脆，老少皆宜。",
+		name = "香蕉可麗餅",
+		desc = "經典早餐，口感酥脆，老少皆宜。",
 		type = 1,
 		manage_influence = 170,
 		pt_num = 30,
@@ -5369,14 +5384,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"啾啾簡餐",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3028] = {
 		name = "草莓夏洛特",
-		desc = "口感酥脆的蛋白霜底搭配香甜的草莓馅料，深受甜品爱好者的喜爱。",
+		desc = "口感酥脆的蛋白霜底搭配香甜的草莓餡料，深受甜品愛好者的喜愛。",
 		type = 1,
 		manage_influence = 190,
 		pt_num = 200,
@@ -5405,14 +5420,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"啾啾簡餐",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3029] = {
 		name = "炭烤肉串",
-		desc = "外焦里嫩，香气扑鼻，烧烤派对的必备美食！",
+		desc = "外焦裡嫩，香氣撲鼻，燒烤派對的必備美食！",
 		type = 1,
 		manage_influence = 210,
 		pt_num = 40,
@@ -5441,14 +5456,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"烏魚烤肉",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3030] = {
-		name = "禽肉土豆拼盘",
-		desc = "简单而美味，是家庭餐桌上的经典搭配！",
+		name = "禽肉土豆拼盤",
+		desc = "簡單而美味，是家庭餐桌上的經典搭配！",
 		type = 1,
 		manage_influence = 230,
 		pt_num = 36,
@@ -5477,14 +5492,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"烏魚烤肉",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3032] = {
 		name = "爆炒禽肉",
-		desc = "禽肉搭配调料爆炒出锅，香气四溢！",
+		desc = "禽肉搭配調料爆炒出鍋，香氣四溢！",
 		type = 1,
 		manage_influence = 220,
 		pt_num = 70,
@@ -5513,14 +5528,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"烏魚烤肉",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3033] = {
-		name = "胡萝卜厚蛋烧",
-		desc = "薄薄的蛋皮裹着香甜的胡萝卜，口感层次丰富，是早餐或下午茶的绝佳选择！",
+		name = "胡蘿蔔厚蛋燒",
+		desc = "薄薄的蛋皮裹著香甜的胡蘿蔔，口感層次豐富，是早餐或下午茶的絕佳選擇！",
 		type = 1,
 		manage_influence = 180,
 		pt_num = 16,
@@ -5549,14 +5564,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"烏魚烤肉",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3034] = {
-		name = "汉堡肉饭",
-		desc = "既有快餐的便捷，又能享受主食的饱腹感，当之无愧的多功能美食！",
+		name = "漢堡肉飯",
+		desc = "既有快餐的便捷，又能享受主食的飽腹感，當之無愧的多功能美食！",
 		type = 1,
 		manage_influence = 150,
 		pt_num = 100,
@@ -5585,14 +5600,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"烏魚烤肉",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3035] = {
 		name = "布料",
-		desc = "由带有纤维的材料制成的织品，是很多日用品和工业产品的原料。",
+		desc = "由帶有纖維的材料製成的織品，是很多日用品和工業產品的原料。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 34,
@@ -5617,14 +5632,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3036] = {
 		name = "皮革",
-		desc = "由动物的皮毛加工而来，常用于服装和家具的制作。",
+		desc = "由動物的皮毛加工而來，常用於服裝和傢俱的製作。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 60,
@@ -5649,14 +5664,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3037] = {
-		name = "绳索",
-		desc = "紧实坚韧，无论是绑货物还是搭架子，都能派上用场。",
+		name = "繩索",
+		desc = "緊實堅韌，無論是綁貨物還是搭架子，都能派上用場。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 72,
@@ -5681,14 +5696,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3038] = {
 		name = "手套",
-		desc = "家家必备的保暖用品，寒冷天气出行少不了它。",
+		desc = "家家必備的保暖用品，寒冷天氣出行少不了它。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 105,
@@ -5713,14 +5728,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3039] = {
 		name = "香囊",
-		desc = "装满草药或香料，随身携带提神醒脑。",
+		desc = "裝滿草藥或香料，隨身攜帶提神醒腦。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 130,
@@ -5745,14 +5760,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3040] = {
 		name = "鞋靴",
-		desc = "皮革制品，通常用于保护足部。",
+		desc = "皮革製品，通常用於保護足部。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 350,
@@ -5777,14 +5792,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3041] = {
-		name = "绷带",
-		desc = "急救必备品，无论割伤还是擦伤，都能及时处理。",
+		name = "繃帶",
+		desc = "急救必備品，無論割傷還是擦傷，都能及時處理。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 350,
@@ -5809,14 +5824,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"手工制作设备",
+				"手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3042] = {
-		name = "炭笔",
-		desc = "通常用于绘画和速写，美术常用工具的一种。",
+		name = "炭筆",
+		desc = "通常用於繪畫和速寫，美術常用工具的一種。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 30,
@@ -5841,14 +5856,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"工業生產裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3043] = {
-		name = "电缆",
-		desc = "现代化的象征，为众多设施提供了电力支持。",
+		name = "電纜",
+		desc = "現代化的象徵，為眾多設施提供了電力支援。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 92,
@@ -5873,14 +5888,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"工業生產裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3044] = {
-		name = "铁钉",
-		desc = "常见建造用品，经常用于固定木板和制作家具。",
+		name = "鐵釘",
+		desc = "常見建造用品，經常用於固定木板和製作傢俱。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 66,
@@ -5905,14 +5920,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"工業生產裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3045] = {
 		name = "硫酸",
-		desc = "拥有很强腐蚀性的化学品。",
+		desc = "擁有很強腐蝕性的化學品。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 84,
@@ -5937,14 +5952,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"工業生產裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3046] = {
-		name = "火药",
-		desc = "现代武器的必需品，需要妥善保管的危险品。",
+		name = "火藥",
+		desc = "現代武器的必需品，需要妥善保管的危險品。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 150,
@@ -5969,14 +5984,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"工業生產裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3047] = {
 		name = "刀叉餐具",
-		desc = "家家户户，餐桌必备。",
+		desc = "家家戶戶，餐桌必備。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 380,
@@ -6001,14 +6016,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"工业生产设备",
+				"工業生產裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3048] = {
-		name = "纸张",
-		desc = "常以廉价的植物纤维制成，保存容易，书写方便。",
+		name = "紙張",
+		desc = "常以廉價的植物纖維製成，儲存容易，書寫方便。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 6,
@@ -6033,14 +6048,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"木料加工设备",
+				"木料加工裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3049] = {
-		name = "记事本",
-		desc = "记满了日常事务的本子，也可当作日记本使用。",
+		name = "記事本",
+		desc = "記滿了日常事務的本子，也可當作日記本使用。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 120,
@@ -6065,14 +6080,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"木料加工设备",
+				"木料加工裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3050] = {
 		name = "桌椅",
-		desc = "最常见的家具，能够提供一个休息的地方。",
+		desc = "最常見的傢俱，能夠提供一個休息的地方。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 80,
@@ -6097,14 +6112,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"木料加工设备",
+				"木料加工裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3051] = {
-		name = "精选木桶",
-		desc = "多功能工具，通常用来储存红酒或蜂蜜。",
+		name = "精選木桶",
+		desc = "多功能工具，通常用來儲存紅酒或蜂蜜。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 190,
@@ -6129,14 +6144,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"木料加工设备",
+				"木料加工裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3052] = {
-		name = "文件柜",
-		desc = "办公室必备，可以方便存放、管理各类文件。",
+		name = "檔案櫃",
+		desc = "辦公室必備，可以方便存放、管理各類檔案。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 430,
@@ -6161,14 +6176,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"木料加工设备",
+				"木料加工裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3053] = {
 		name = "墨盒",
-		desc = "用来存储打印墨水，是打印机的核心组件。",
+		desc = "用來儲存列印墨水，是印表機的核心元件。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 55,
@@ -6193,14 +6208,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"电子加工设备",
+				"電子加工裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3054] = {
-		name = "钟表",
-		desc = "指示时间的精密仪器，常被固定在房间墙上。",
+		name = "鐘錶",
+		desc = "指示時間的精密儀器，常被固定在房間牆上。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 310,
@@ -6225,14 +6240,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"电子加工设备",
+				"電子加工裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3055] = {
-		name = "蓄电池",
-		desc = "可重复使用，为电机、照明设备等提供稳定的能源。",
+		name = "蓄電池",
+		desc = "可重複使用，為電機、照明裝置等提供穩定的能源。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 210,
@@ -6257,14 +6272,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"电子加工设备",
+				"電子加工裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3056] = {
-		name = "净水滤芯",
-		desc = "过滤掉水中的杂质，为大家提供纯净的水源！",
+		name = "淨水濾芯",
+		desc = "過濾掉水中的雜質，為大家提供純淨的水源！",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 360,
@@ -6289,14 +6304,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"电子加工设备",
+				"電子加工裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3059] = {
-		name = "欧姆蛋",
-		desc = "蓬松蛋皮包裹柔嫩内馅，金黄诱人，简单而满足的美味",
+		name = "歐姆蛋",
+		desc = "蓬鬆蛋皮包裹柔嫩內餡，金黃誘人，簡單而滿足的美味",
 		type = 1,
 		manage_influence = 210,
 		pt_num = 2,
@@ -6331,8 +6346,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[3101] = {
-		name = "经典豆腐套餐",
-		desc = "肉末烧豆腐搭配白菜豆腐汤，简单美味的一餐。",
+		name = "經典豆腐套餐",
+		desc = "肉末燒豆腐搭配白菜豆腐湯，簡單美味的一餐。",
 		type = 1,
 		manage_influence = 210,
 		pt_num = 230,
@@ -6361,14 +6376,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3102] = {
-		name = "绵玉定食",
-		desc = "蓬松蛋包饭搭配温润嫩豆腐，简单却令人满足的滋味。",
+		name = "綿玉定食",
+		desc = "蓬鬆蛋包飯搭配溫潤嫩豆腐，簡單卻令人滿足的滋味。",
 		type = 1,
 		manage_influence = 220,
 		pt_num = 100,
@@ -6397,14 +6412,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3103] = {
-		name = "花香果韵",
-		desc = "薰衣草的舒缓芬芳与苹果的清新甘甜巧妙融合，带来双重味觉享受。",
+		name = "花香果韻",
+		desc = "薰衣草的舒緩芬芳與蘋果的清新甘甜巧妙融合，帶來雙重味覺享受。",
 		type = 1,
 		manage_influence = 210,
 		pt_num = 250,
@@ -6433,14 +6448,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3104] = {
-		name = "缤纷果乐园",
-		desc = "香甜香蕉芒果汁碰撞草莓蜂蜜冰沙，双重果味为你带去清爽的体验。",
+		name = "繽紛果樂園",
+		desc = "香甜香蕉芒果汁碰撞草莓蜂蜜冰沙，雙重果味為你帶去清爽的體驗。",
 		type = 1,
 		manage_influence = 215,
 		pt_num = 120,
@@ -6469,14 +6484,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3105] = {
-		name = "阳光蜜水",
-		desc = "草莓蜜沁的甜美与蜂蜜柠檬水的清新，碰撞出活力十足的阳光味道。",
+		name = "陽光蜜水",
+		desc = "草莓蜜沁的甜美與蜂蜜檸檬水的清新，碰撞出活力十足的陽光味道。",
 		type = 1,
 		manage_influence = 260,
 		pt_num = 70,
@@ -6505,14 +6520,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"白熊饮品",
+				"白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3106] = {
-		name = "香甜组合",
-		desc = "热带芒果香糯，遇上甜脆玉米杯，一次尝遍两种幸福甜味。",
+		name = "香甜組合",
+		desc = "熱帶芒果香糯，遇上甜脆玉米杯，一次嚐遍兩種幸福甜味。",
 		type = 1,
 		manage_influence = 250,
 		pt_num = 70,
@@ -6541,14 +6556,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"啾啾簡餐",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3107] = {
-		name = "果园二重奏",
-		desc = "香蕉可丽饼的柔软搭配金黄苹果派的酥香，一次享受双重果味甜蜜。",
+		name = "果園二重奏",
+		desc = "香蕉可麗餅的柔軟搭配金黃蘋果派的酥香，一次享受雙重果味甜蜜。",
 		type = 1,
 		manage_influence = 240,
 		pt_num = 70,
@@ -6577,14 +6592,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"啾啾簡餐",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3108] = {
-		name = "莓果香橙甜点组",
-		desc = "草莓的浪漫邂逅香橙的阳光气息，碰撞出令人陶醉的甜点时光。",
+		name = "莓果香橙甜點組",
+		desc = "草莓的浪漫邂逅香橙的陽光氣息，碰撞出令人陶醉的甜點時光。",
 		type = 1,
 		manage_influence = 210,
 		pt_num = 260,
@@ -6613,14 +6628,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"啾啾簡餐",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3109] = {
-		name = "烤肉狂欢",
-		desc = "香烤肉串配酥嫩禽肉土豆，让你一次吃个过瘾。",
+		name = "烤肉狂歡",
+		desc = "香烤肉串配酥嫩禽肉土豆，讓你一次吃個過癮。",
 		type = 1,
 		manage_influence = 230,
 		pt_num = 90,
@@ -6649,14 +6664,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"烏魚烤肉",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3110] = {
-		name = "能量双拼套餐",
-		desc = "经典汉堡肉饭搭配香辣爆炒禽肉，双重蛋白质满足你一天的能量。",
+		name = "能量雙拼套餐",
+		desc = "經典漢堡肉飯搭配香辣爆炒禽肉，雙重蛋白質滿足你一天的能量。",
 		type = 1,
 		manage_influence = 210,
 		pt_num = 210,
@@ -6685,14 +6700,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"烏魚烤肉",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3111] = {
-		name = "晨光活力组合",
-		desc = "蓬松欧姆蛋邂逅香浓拿铁，给你一个完美的早餐时刻。",
+		name = "晨光活力組合",
+		desc = "蓬鬆歐姆蛋邂逅香濃拿鐵，給你一個完美的早餐時刻。",
 		type = 1,
 		manage_influence = 250,
 		pt_num = 36,
@@ -6728,7 +6743,7 @@ end)()
 	}
 	pg.base.island_item_data_template[3112] = {
 		name = "醒神套餐",
-		desc = "冰咖啡搭配浓郁芝士，苦甜平衡的经典醒神套餐。",
+		desc = "冰咖啡搭配濃郁芝士，苦甜平衡的經典醒神套餐。",
 		type = 1,
 		manage_influence = 240,
 		pt_num = 80,
@@ -6763,8 +6778,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[3113] = {
-		name = "果香双杯乐",
-		desc = "柑橘咖啡的微酸邂逅草莓奶绿的香甜，两份特调一次满足。",
+		name = "果香雙杯樂",
+		desc = "柑橘咖啡的微酸邂逅草莓奶綠的香甜，兩份特調一次滿足。",
 		type = 1,
 		manage_influence = 260,
 		pt_num = 90,
@@ -6799,8 +6814,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[3114] = {
-		name = "炸鱼薯条",
-		desc = "炸鱼外酥里嫩，薯条香脆可口，深受大众喜爱！",
+		name = "炸魚薯條",
+		desc = "炸魚外酥裡嫩，薯條香脆可口，深受大眾喜愛！",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 30,
@@ -6829,14 +6844,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3115] = {
-		name = "柠檬虾",
-		desc = "虾肉的鲜嫩与柠檬的酸甜相结合，清爽开胃。",
+		name = "檸檬蝦",
+		desc = "蝦肉的鮮嫩與檸檬的酸甜相結合，清爽開胃。",
 		type = 1,
 		manage_influence = 220,
 		pt_num = 60,
@@ -6865,14 +6880,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"烏魚烤肉",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3116] = {
-		name = "洋葱蒸鱼",
-		desc = "以清甜洋葱丝佐味的蒸制鱼鲜，最大程度保留了鱼肉的原滋原味。",
+		name = "洋蔥蒸魚",
+		desc = "以清甜洋蔥絲佐味的蒸制魚鮮，最大程度保留了魚肉的原滋原味。",
 		type = 1,
 		manage_influence = 180,
 		pt_num = 57,
@@ -6901,14 +6916,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3117] = {
-		name = "装饰画",
-		desc = "点缀着房间墙壁的精致画作，为房间增添一抹艺术气息。",
+		name = "裝飾畫",
+		desc = "點綴著房間牆壁的精緻畫作，為房間增添一抹藝術氣息。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 82,
@@ -6933,14 +6948,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"木料加工设备",
+				"木料加工裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3118] = {
-		name = "海鲜饭",
-		desc = "汇聚了海鲜精华的丰盛烩饭，米粒中藏着大海的慷慨赠礼。",
+		name = "海鮮飯",
+		desc = "匯聚了海鮮精華的豐盛燴飯，米粒中藏著大海的慷慨贈禮。",
 		type = 1,
 		manage_influence = 200,
 		pt_num = 187,
@@ -6969,14 +6984,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"啾啾简餐",
+				"啾啾簡餐",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3119] = {
-		name = "爆炒小龙虾",
-		desc = "以旺火快炒出的小龙虾红亮诱人，是很受欢迎的下饭佳肴。",
+		name = "爆炒小龍蝦",
+		desc = "以旺火快炒出的小龍蝦紅亮誘人，是很受歡迎的下飯佳餚。",
 		type = 1,
 		manage_influence = 240,
 		pt_num = 152,
@@ -7005,14 +7020,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"乌鱼烤肉",
+				"烏魚烤肉",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[3120] = {
-		name = "佛跳墙",
-		desc = "精心炖煮数小时的珍馐，常被作为宴席上的压轴佳肴。",
+		name = "佛跳牆",
+		desc = "精心燉煮數小時的珍饈，常被作為宴席上的壓軸佳餚。",
 		type = 1,
 		manage_influence = 150,
 		pt_num = 381,
@@ -7041,14 +7056,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4001] = {
 		name = "秋菊",
-		desc = "金黄色的秋菊，随风摇曳，是秋季观赏与泡茶的佳品。",
+		desc = "金黃色的秋菊，隨風搖曳，是秋季觀賞與泡茶的佳品。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 40,
@@ -7072,14 +7087,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"秋季特产经营 地图采集",
+				"秋季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4002] = {
-		name = "芦苇花",
-		desc = "轻盈洁白的芦苇花，生于水岸，常用于制作干花装饰。",
+		name = "蘆葦花",
+		desc = "輕盈潔白的蘆葦花，生於水岸，常用於製作乾花裝飾。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 2,
@@ -7103,14 +7118,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"秋季特产经营 地图采集",
+				"秋季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4003] = {
 		name = "花生",
-		desc = "香脆可口的花生，富含蛋白质和健康脂肪。",
+		desc = "香脆可口的花生，富含蛋白質和健康脂肪。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -7134,14 +7149,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"秋季特产经营 地图采集",
+				"秋季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4004] = {
 		name = "松茸",
-		desc = "鲜嫩的山林珍品松茸，香气独特，是煲汤提鲜的顶级食材。",
+		desc = "鮮嫩的山林珍品松茸，香氣獨特，是煲湯提鮮的頂級食材。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 95,
@@ -7165,14 +7180,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"秋季特产经营 地图采集",
+				"秋季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4005] = {
 		name = "秋月梨",
-		desc = "清甜多汁的秋月梨，果肉细腻，是生津润燥的秋季佳果。",
+		desc = "清甜多汁的秋月梨，果肉細膩，是生津潤燥的秋季佳果。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 5,
@@ -7197,14 +7212,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"秋季特产经营 坠香果园",
+				"秋季特產經營 墜香果園",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4006] = {
-		name = "秋月梨树种",
-		desc = "秋月梨树种，蕴藏清甜的未来，可培育优质梨树。",
+		name = "秋月梨樹種",
+		desc = "秋月梨樹種，蘊藏清甜的未來，可培育優質梨樹。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -7228,7 +7243,7 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"秋季特产经营 商店购买",
+				"秋季特產經營 商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -7247,7 +7262,7 @@ end)()
 	}
 	pg.base.island_item_data_template[4007] = {
 		name = "柿子",
-		desc = "红艳饱满的柿子，软糯甘甜，富含维生素，是秋日时令鲜果。",
+		desc = "紅豔飽滿的柿子，軟糯甘甜，富含維生素，是秋日時令鮮果。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 24,
@@ -7272,14 +7287,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"秋季特产经营 坠香果园",
+				"秋季特產經營 墜香果園",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4008] = {
-		name = "柿子树种",
-		desc = "种下种子，收获“柿柿”如意的美好。",
+		name = "柿子樹種",
+		desc = "種下種子，收穫“柿柿”如意的美好。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -7303,7 +7318,7 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"秋季特产经营 商店购买",
+				"秋季特產經營 商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -7321,8 +7336,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[4009] = {
-		name = "柿子饼",
-		desc = "香甜软糯的柿子饼，由鲜柿制作而成，是传统风味茶点。",
+		name = "柿子餅",
+		desc = "香甜軟糯的柿子餅，由鮮柿製作而成，是傳統風味茶點。",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 25,
@@ -7350,14 +7365,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"秋季特产经营 有鱼餐馆",
+				"秋季特產經營 有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4010] = {
-		name = "松茸鸡汤",
-		desc = "鲜香浓郁的松茸鸡汤，使用禽肉与松茸慢炖，温补滋养。",
+		name = "松茸雞湯",
+		desc = "鮮香濃郁的松茸雞湯，使用禽肉與松茸慢燉，溫補滋養。",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 135,
@@ -7385,14 +7400,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"秋季特产经营 有鱼餐馆",
+				"秋季特產經營 有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4011] = {
 		name = "秋季花束",
-		desc = "温暖橘黄的秋季花束，精选菊花、芦苇等时令花材，装点秋意。",
+		desc = "溫暖橘黃的秋季花束，精選菊花、蘆葦等時令花材，裝點秋意。",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 70,
@@ -7420,14 +7435,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"秋季特产经营 手工制作设备",
+				"秋季特產經營 手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4012] = {
 		name = "花生油",
-		desc = "醇香浓郁的花生油，由优质花生压榨，是健康烹饪用油。",
+		desc = "醇香濃郁的花生油，由優質花生壓榨，是健康烹飪用油。",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 100,
@@ -7455,14 +7470,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"秋季特产经营 手工制作设备",
+				"秋季特產經營 手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4013] = {
-		name = "胡萝卜秋梨汁",
-		desc = "鲜榨甘甜的胡萝卜秋梨汁，融合秋梨的清润与胡萝卜的营养，清爽解渴。",
+		name = "胡蘿蔔秋梨汁",
+		desc = "鮮榨甘甜的胡蘿蔔秋梨汁，融合秋梨的清潤與胡蘿蔔的營養，清爽解渴。",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 20,
@@ -7490,14 +7505,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"秋季特产经营 白熊饮品",
+				"秋季特產經營 白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4014] = {
 		name = "菊花茶",
-		desc = "淡雅清香的菊花茶，冲泡秋菊花瓣，清热降火，回味甘醇。",
+		desc = "淡雅清香的菊花茶，沖泡秋菊花瓣，清熱降火，回味甘醇。",
 		type = 1,
 		manage_influence = 280,
 		pt_num = 100,
@@ -7525,14 +7540,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"秋季特产经营 白熊饮品",
+				"秋季特產經營 白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4015] = {
-		name = "春笋",
-		desc = "在春季破土而出的新鲜竹笋，口感脆嫩，是赫赫有名的时令食材。",
+		name = "春筍",
+		desc = "在春季破土而出的新鮮竹筍，口感脆嫩，是赫赫有名的時令食材。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 75,
@@ -7556,14 +7571,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"春季特产经营 地图采集",
+				"春季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4016] = {
-		name = "荠菜",
-		desc = "清新的春季野菜，带有独特的香气，常用于制作馅料或凉拌。",
+		name = "薺菜",
+		desc = "清新的春季野菜，帶有獨特的香氣，常用於製作餡料或涼拌。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 2,
@@ -7587,14 +7602,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"春季特产经营 地图采集",
+				"春季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4017] = {
 		name = "迎春花",
-		desc = "初春绽放的亮黄色小花，可观赏也可晒干用于泡茶。",
+		desc = "初春綻放的亮黃色小花，可觀賞也可曬乾用於泡茶。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 18,
@@ -7618,14 +7633,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"春季特产经营 地图采集",
+				"春季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4018] = {
-		name = "风信子",
-		desc = "香气浓郁的早春观花植物，多用于布置花坛、花境或庭院。",
+		name = "風信子",
+		desc = "香氣濃郁的早春觀花植物，多用於佈置花壇、花境或庭院。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 54,
@@ -7649,14 +7664,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"春季特产经营 地图采集",
+				"春季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4019] = {
-		name = "芦笋",
-		desc = "春季收获的鲜美蔬菜，口感爽脆，可简单烹饪或作为配菜。",
+		name = "蘆筍",
+		desc = "春季收穫的鮮美蔬菜，口感爽脆，可簡單烹飪或作為配菜。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 5,
@@ -7681,14 +7696,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"春季特产经营 青芽苗圃",
+				"春季特產經營 青芽苗圃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4020] = {
-		name = "芦笋种子",
-		desc = "把它们埋进土里，很快就能长出一排排芦笋嫩芽啦~",
+		name = "蘆筍種子",
+		desc = "把它們埋進土裡，很快就能長出一排排蘆筍嫩芽啦~",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -7712,7 +7727,7 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"春季特产经营 商店购买",
+				"春季特產經營 商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -7730,8 +7745,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[4021] = {
-		name = "凤梨",
-		desc = "别名菠萝，酸甜多汁的热带风味水果，可直接食用或加工。",
+		name = "鳳梨",
+		desc = "別名菠蘿，酸甜多汁的熱帶風味水果，可直接食用或加工。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 11,
@@ -7756,14 +7771,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"春季特产经营 青芽苗圃",
+				"春季特產經營 青芽苗圃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4022] = {
-		name = "凤梨种子",
-		desc = "蕴藏着热带阳光的种子，种下后，可以长出美味的凤梨果实。",
+		name = "鳳梨種子",
+		desc = "蘊藏著熱帶陽光的種子，種下後，可以長出美味的鳳梨果實。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -7787,7 +7802,7 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"春季特产经营 商店购买",
+				"春季特產經營 商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -7805,8 +7820,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[4023] = {
-		name = "鲜榨菠萝汁",
-		desc = "用新鲜菠萝即时压榨的果汁，口感清爽，充满热带风味。",
+		name = "鮮榨菠蘿汁",
+		desc = "用新鮮菠蘿即時壓榨的果汁，口感清爽，充滿熱帶風味。",
 		type = 1,
 		manage_influence = 250,
 		pt_num = 18,
@@ -7834,14 +7849,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"春季特产经营 白熊饮品",
+				"春季特產經營 白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4024] = {
 		name = "迎春花茶",
-		desc = "以晒干的迎春花蕾冲泡的花草茶，带有淡雅清香与舒缓功效。",
+		desc = "以曬乾的迎春花蕾沖泡的花草茶，帶有淡雅清香與舒緩功效。",
 		type = 1,
 		manage_influence = 250,
 		pt_num = 112,
@@ -7869,14 +7884,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"春季特产经营 白熊饮品",
+				"春季特產經營 白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4025] = {
-		name = "凉拌双笋",
-		desc = "芦笋与春笋清爽凉拌的春日小菜，口感清脆，风味谐和。",
+		name = "涼拌雙筍",
+		desc = "蘆筍與春筍清爽涼拌的春日小菜，口感清脆，風味諧和。",
 		type = 1,
 		manage_influence = 250,
 		pt_num = 72,
@@ -7904,14 +7919,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"春季特产经营 有鱼餐馆",
+				"春季特產經營 有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4026] = {
-		name = "芦笋炒虾仁",
-		desc = "芦笋与鲜虾仁快炒而成的佳肴，虾鲜笋脆，是一道有名的家常菜。",
+		name = "蘆筍炒蝦仁",
+		desc = "蘆筍與鮮蝦仁快炒而成的佳餚，蝦鮮筍脆，是一道有名的家常菜。",
 		type = 1,
 		manage_influence = 250,
 		pt_num = 180,
@@ -7939,14 +7954,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"春季特产经营 有鱼餐馆",
+				"春季特產經營 有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4027] = {
-		name = "袋装荠菜干",
-		desc = "经晾晒干燥保存的荠菜，便于储存，可用于煮汤或泡发入馅。",
+		name = "袋裝薺菜乾",
+		desc = "經晾曬乾燥儲存的薺菜，便於儲存，可用於煮湯或泡發入餡。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 72,
@@ -7971,14 +7986,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"春季特产经营 手工制作设备",
+				"春季特產經營 手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4028] = {
 		name = "春季花束",
-		desc = "用迎春花与风信子扎成的花束，色彩明媚，为房间带来春日气息。",
+		desc = "用迎春花與風信子紮成的花束，色彩明媚，為房間帶來春日氣息。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 108,
@@ -8003,7 +8018,7 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"春季特产经营 手工制作设备",
+				"春季特產經營 手工製作裝置",
 				{}
 			}
 		}
@@ -8012,7 +8027,7 @@ end)()
 (function ()
 	pg.base.island_item_data_template[4029] = {
 		name = "茉莉花",
-		desc = "夏日傍晚绽放的洁白小花，清香悠远，可泡茶或提取香精。",
+		desc = "夏日傍晚綻放的潔白小花，清香悠遠，可泡茶或提取香精。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 32,
@@ -8036,14 +8051,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"夏季特产经营 地图采集",
+				"夏季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4030] = {
 		name = "向日葵",
-		desc = "始终追随阳光的金色花朵，成熟后的花盘结满饱满的葵花籽。",
+		desc = "始終追隨陽光的金色花朵，成熟後的花盤結滿飽滿的葵花籽。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 27,
@@ -8067,14 +8082,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"夏季特产经营 地图采集",
+				"夏季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4031] = {
 		name = "西瓜",
-		desc = "绿皮红瓤的夏日解暑佳果，汁水丰盈，清甜爽口。",
+		desc = "綠皮紅瓤的夏日解暑佳果，汁水豐盈，清甜爽口。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 54,
@@ -8098,14 +8113,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"夏季特产经营 地图采集",
+				"夏季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4032] = {
-		name = "红米苋",
-		desc = "叶片呈紫红色的营养蔬菜，具有多种药用价值。",
+		name = "紅米莧",
+		desc = "葉片呈紫紅色的營養蔬菜，具有多種藥用價值。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 2,
@@ -8129,14 +8144,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"夏季特产经营 地图采集",
+				"夏季特產經營 地圖採集",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4033] = {
 		name = "番茄",
-		desc = "红润饱满的成熟番茄，酸甜多汁，既可生食也适合烹煮。",
+		desc = "紅潤飽滿的成熟番茄，酸甜多汁，既可生食也適合烹煮。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 3,
@@ -8161,14 +8176,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"夏季特产经营 青芽苗圃",
+				"夏季特產經營 青芽苗圃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4034] = {
-		name = "番茄种子",
-		desc = "将它们埋进土里，悉心浇灌，便能收获红润饱满的番茄。",
+		name = "番茄種子",
+		desc = "將它們埋進土裡，悉心澆灌，便能收穫紅潤飽滿的番茄。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -8192,7 +8207,7 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"夏季特产经营 商店购买",
+				"夏季特產經營 商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -8210,8 +8225,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[4035] = {
-		name = "黄瓜",
-		desc = "翠绿脆嫩的夏季时蔬，清爽解腻，生吃凉拌皆是美味。",
+		name = "黃瓜",
+		desc = "翠綠脆嫩的夏季時蔬，清爽解膩，生吃涼拌皆是美味。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -8236,14 +8251,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"夏季特产经营 青芽苗圃",
+				"夏季特產經營 青芽苗圃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4036] = {
-		name = "黄瓜种子",
-		desc = "播下这些扁平的种子，待藤蔓攀爬，便能采摘到新鲜的黄瓜。",
+		name = "黃瓜種子",
+		desc = "播下這些扁平的種子，待藤蔓攀爬，便能採摘到新鮮的黃瓜。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -8267,7 +8282,7 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"夏季特产经营 商店购买",
+				"夏季特產經營 商店購買",
 				{
 					"IslandShopPage",
 					{
@@ -8285,8 +8300,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[4037] = {
-		name = "黄瓜汁",
-		desc = "新鲜黄瓜现榨而成的青翠汁液，清爽解渴，是夏日消暑良品。",
+		name = "黃瓜汁",
+		desc = "新鮮黃瓜現榨而成的青翠汁液，清爽解渴，是夏日消暑良品。",
 		type = 1,
 		manage_influence = 250,
 		pt_num = 1,
@@ -8315,14 +8330,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"夏季特产经营 白熊饮品",
+				"夏季特產經營 白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4038] = {
 		name = "西瓜汁",
-		desc = "将西瓜果肉榨取的鲜红汁水，清凉甘甜沁人心脾。",
+		desc = "將西瓜果肉榨取的鮮紅汁水，清涼甘甜沁人心脾。",
 		type = 1,
 		manage_influence = 250,
 		pt_num = 60,
@@ -8351,14 +8366,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"夏季特产经营 白熊饮品",
+				"夏季特產經營 白熊飲品",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4039] = {
-		name = "苋菜饭团",
-		desc = "苋菜的红晕均匀染在每粒米上，朴素的外表下藏着令人安心的家常味道。",
+		name = "莧菜飯糰",
+		desc = "莧菜的紅暈均勻染在每粒米上，樸素的外表下藏著令人安心的家常味道。",
 		type = 1,
 		manage_influence = 250,
 		pt_num = 8,
@@ -8387,14 +8402,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"夏季特产经营 有鱼餐馆",
+				"夏季特產經營 有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4040] = {
 		name = "番茄炒蛋",
-		desc = "由鸡蛋与番茄制作而成，酸甜咸香，是最受欢迎的家常菜之一。",
+		desc = "由雞蛋與番茄製作而成，酸甜鹹香，是最受歡迎的家常菜之一。",
 		type = 1,
 		manage_influence = 250,
 		pt_num = 20,
@@ -8423,14 +8438,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"夏季特产经营 有鱼餐馆",
+				"夏季特產經營 有魚餐館",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4041] = {
 		name = "茉莉精油",
-		desc = "以新鲜茉莉花蒸馏提取的芳香精油，可用于香薰、按摩或制作护肤品。",
+		desc = "以新鮮茉莉花蒸餾提取的芳香精油，可用於香薰、按摩或製作護膚品。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 165,
@@ -8455,14 +8470,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"夏季特产经营 手工制作设备",
+				"夏季特產經營 手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[4042] = {
 		name = "夏季花束",
-		desc = "用金黄向日葵与素白茉莉扎成的花束，既有夏日的热烈张扬，又有夜晚的幽静清雅。",
+		desc = "用金黃向日葵與素白茉莉紮成的花束，既有夏日的熱烈張揚，又有夜晚的幽靜清雅。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 130,
@@ -8487,14 +8502,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"夏季特产经营 手工制作设备",
+				"夏季特產經營 手工製作裝置",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5001] = {
-		name = "贝类",
-		desc = "其外壳常用于装饰品或精致工艺品。",
+		name = "貝類",
+		desc = "其外殼常用於裝飾品或精緻工藝品。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -8519,14 +8534,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5002] = {
-		name = "鲶鱼",
-		desc = "肥美的鲶鱼，口感丰腴，适合各种重口味的烹调。",
+		name = "鯰魚",
+		desc = "肥美的鯰魚，口感豐腴，適合各種重口味的烹調。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 2,
@@ -8551,14 +8566,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5003] = {
-		name = "鲤鱼",
-		desc = "淡水中的美味代表，餐馆里的招牌美食。",
+		name = "鯉魚",
+		desc = "淡水中的美味代表，餐館裡的招牌美食。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 16,
@@ -8583,14 +8598,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5004] = {
-		name = "鲫鱼",
-		desc = "常见食用鱼类之一，肉质细嫩肉味甜美，营养价值很高。",
+		name = "鯽魚",
+		desc = "常見食用魚類之一，肉質細嫩肉味甜美，營養價值很高。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 11,
@@ -8615,14 +8630,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5005] = {
-		name = "小河虾",
-		desc = "高蛋白，低脂肪、低热量，优质水产美食之一。",
+		name = "小河蝦",
+		desc = "高蛋白，低脂肪、低熱量，優質水產美食之一。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 12,
@@ -8647,14 +8662,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5006] = {
-		name = "小龙虾",
-		desc = "常居水下的小家伙，虽然是海产，却是最接地气的美味。",
+		name = "小龍蝦",
+		desc = "常居水下的小傢伙，雖然是海產，卻是最接地氣的美味。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 13,
@@ -8679,14 +8694,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5007] = {
-		name = "鲈鱼",
-		desc = "鲜美的鲈鱼，肉质白嫩，适合清蒸或煎制。",
+		name = "鱸魚",
+		desc = "鮮美的鱸魚，肉質白嫩，適合清蒸或煎制。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 16,
@@ -8711,14 +8726,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5008] = {
 		name = "螃蟹",
-		desc = "鲜美的螃蟹，蟹肉清甜，富含营养和风味。",
+		desc = "鮮美的螃蟹，蟹肉清甜，富含營養和風味。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 58,
@@ -8743,14 +8758,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5101] = {
-		name = "鱿鱼",
-		desc = "弹滑可口的鱿鱼，是各类烧烤的明星食材。",
+		name = "魷魚",
+		desc = "彈滑可口的魷魚，是各類燒烤的明星食材。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -8775,14 +8790,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5102] = {
-		name = "马鲛鱼",
-		desc = "流线型的海中速度健将，肉质紧实，非常适合香煎。",
+		name = "馬鮫魚",
+		desc = "流線型的海中速度健將，肉質緊實，非常適合香煎。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 27,
@@ -8807,14 +8822,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5103] = {
-		name = "金枪鱼",
-		desc = "有着高蛋白低脂肪的优质鱼肉，是海钓的终极目标之一。",
+		name = "金槍魚",
+		desc = "有著高蛋白低脂肪的優質魚肉，是海釣的終極目標之一。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 104,
@@ -8839,14 +8854,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5104] = {
-		name = "三文鱼",
-		desc = "珍贵渔获，拥有漂亮的纹理与丰腴的口感。",
+		name = "三文魚",
+		desc = "珍貴漁獲，擁有漂亮的紋理與豐腴的口感。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 45,
@@ -8871,14 +8886,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5105] = {
-		name = "红鲷鱼",
-		desc = "杂食性鱼类，喜结群游速快，因其较高的营养价值广受欢迎。",
+		name = "紅鯛魚",
+		desc = "雜食性魚類，喜結群遊速快，因其較高的營養價值廣受歡迎。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -8903,14 +8918,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5106] = {
-		name = "黑鲷鱼",
-		desc = "灵活且狡猾的对手，成功钓起它需要不错的技巧。",
+		name = "黑鯛魚",
+		desc = "靈活且狡猾的對手，成功釣起它需要不錯的技巧。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 24,
@@ -8935,14 +8950,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5107] = {
-		name = "黄鳍金枪鱼",
-		desc = "品质上乘的金枪鱼，脂肪分布均匀，是制作高级料理的绝佳原料。",
+		name = "黃鰭金槍魚",
+		desc = "品質上乘的金槍魚，脂肪分佈均勻，是製作高階料理的絕佳原料。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 198,
@@ -8967,14 +8982,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[5108] = {
-		name = "海参",
-		desc = "滋补珍品，需要一点耐心和运气才能获得。",
+		name = "海參",
+		desc = "滋補珍品，需要一點耐心和運氣才能獲得。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 162,
@@ -8999,14 +9014,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"啾啾渔场",
+				"啾啾漁場",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[9900] = {
 		name = "珍珠",
-		desc = "由贝类孕育出的天然珍宝，色泽温润，与珍珠相关的交易在市场上相当火爆。",
+		desc = "由貝類孕育出的天然珍寶，色澤溫潤，與珍珠相關的交易在市場上相當火爆。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9030,14 +9045,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"佩芮处购买",
+				"佩芮處購買",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100001] = {
-		name = "生活经验指南T1",
-		desc = "一本内容基础的开发区生活指南。使用后，能少量增加角色的开发区生活经验。",
+		name = "生活經驗指南T1",
+		desc = "一本內容基礎的開發區生活指南。使用後，能少量增加角色的開發區生活經驗。",
 		type = 5,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9061,22 +9076,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100002] = {
-		name = "生活经验指南T2",
-		desc = "一本内容详细的开发区生活指南。使用后，能中幅增加角色的开发区生活经验。",
+		name = "生活經驗指南T2",
+		desc = "一本內容詳細的開發區生活指南。使用後，能中幅增加角色的開發區生活經驗。",
 		type = 5,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9100,22 +9115,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100003] = {
-		name = "生活经验指南T3",
-		desc = "一本内容丰富的开发区生活指南。使用后，能大幅增加角色的开发区生活经验。",
+		name = "生活經驗指南T3",
+		desc = "一本內容豐富的開發區生活指南。使用後，能大幅增加角色的開發區生活經驗。",
 		type = 5,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9139,22 +9154,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100011] = {
-		name = "经营指南T1",
-		desc = "一本内容基础的经营技巧指南。使用后，角色的经营能力将少量提升。",
+		name = "經營指南T1",
+		desc = "一本內容基礎的經營技巧指南。使用後，角色的經營能力將少量提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9178,22 +9193,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100012] = {
-		name = "经营指南T2",
-		desc = "一本内容详细的经营技巧指南。使用后，角色的经营能力将中幅提升。",
+		name = "經營指南T2",
+		desc = "一本內容詳細的經營技巧指南。使用後，角色的經營能力將中幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9217,14 +9232,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100013] = {
-		name = "经营指南T3",
-		desc = "一本内容丰富的经营技巧指南。使用后，角色的经营能力将大幅提升。",
+		name = "經營指南T3",
+		desc = "一本內容豐富的經營技巧指南。使用後，角色的經營能力將大幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9249,8 +9264,8 @@ end)()
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[100021] = {
-		name = "种植指南T1",
-		desc = "一本内容基础的种植技巧指南。使用后，角色的种植能力将少量提升。",
+		name = "種植指南T1",
+		desc = "一本內容基礎的種植技巧指南。使用後，角色的種植能力將少量提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9274,22 +9289,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100022] = {
-		name = "种植指南T2",
-		desc = "一本内容详细的种植技巧指南。使用后，角色的种植能力将中幅提升。",
+		name = "種植指南T2",
+		desc = "一本內容詳細的種植技巧指南。使用後，角色的種植能力將中幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9313,14 +9328,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100023] = {
-		name = "种植指南T3",
-		desc = "一本内容丰富的种植技巧指南。使用后，角色的种植能力将大幅提升。",
+		name = "種植指南T3",
+		desc = "一本內容豐富的種植技巧指南。使用後，角色的種植能力將大幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9345,8 +9360,8 @@ end)()
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[100031] = {
-		name = "制造指南T1",
-		desc = "一本内容基础的制造技巧指南。使用后，角色的制造能力将少量提升。",
+		name = "製造指南T1",
+		desc = "一本內容基礎的製造技巧指南。使用後，角色的製造能力將少量提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9370,22 +9385,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100032] = {
-		name = "制造指南T2",
-		desc = "一本内容详细的制造技巧指南。使用后，角色的制造能力将中幅提升。",
+		name = "製造指南T2",
+		desc = "一本內容詳細的製造技巧指南。使用後，角色的製造能力將中幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9409,14 +9424,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100033] = {
-		name = "制造指南T3",
-		desc = "一本内容丰富的制造技巧指南。使用后，角色的制造能力将大幅提升。",
+		name = "製造指南T3",
+		desc = "一本內容豐富的製造技巧指南。使用後，角色的製造能力將大幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9441,8 +9456,8 @@ end)()
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[100041] = {
-		name = "采集指南T1",
-		desc = "一本内容基础的采集技巧指南。使用后，角色的采集能力将少量提升。",
+		name = "採集指南T1",
+		desc = "一本內容基礎的採集技巧指南。使用後，角色的採集能力將少量提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9466,22 +9481,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100042] = {
-		name = "采集指南T2",
-		desc = "一本内容详细的采集技巧指南。使用后，角色的采集能力将中幅提升。",
+		name = "採集指南T2",
+		desc = "一本內容詳細的採集技巧指南。使用後，角色的採集能力將中幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9505,14 +9520,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100043] = {
-		name = "采集指南T3",
-		desc = "一本内容丰富的采集技巧指南。使用后，角色的采集能力将大幅提升。",
+		name = "採集指南T3",
+		desc = "一本內容豐富的採集技巧指南。使用後，角色的採集能力將大幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9537,8 +9552,8 @@ end)()
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[100051] = {
-		name = "养护指南T1",
-		desc = "一本内容基础的养护技巧指南。使用后，角色的养护能力将少量提升。",
+		name = "養護指南T1",
+		desc = "一本內容基礎的養護技巧指南。使用後，角色的養護能力將少量提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9562,22 +9577,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100052] = {
-		name = "养护指南T2",
-		desc = "一本内容详细的养护技巧指南。使用后，角色的养护能力将中幅提升。",
+		name = "養護指南T2",
+		desc = "一本內容詳細的養護技巧指南。使用後，角色的養護能力將中幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9601,14 +9616,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100053] = {
-		name = "养护指南T3",
-		desc = "一本内容丰富的养护技巧指南。使用后，角色的养护能力将大幅提升。",
+		name = "養護指南T3",
+		desc = "一本內容豐富的養護技巧指南。使用後，角色的養護能力將大幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9633,8 +9648,8 @@ end)()
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[100061] = {
-		name = "烹调指南T1",
-		desc = "一本内容基础的烹调技巧指南。使用后，角色的烹调能力将少量提升。",
+		name = "烹調指南T1",
+		desc = "一本內容基礎的烹調技巧指南。使用後，角色的烹調能力將少量提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9658,22 +9673,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100062] = {
-		name = "烹调指南T2",
-		desc = "一本内容详细的烹调技巧指南。使用后，角色的烹调能力将中幅提升。",
+		name = "烹調指南T2",
+		desc = "一本內容詳細的烹調技巧指南。使用後，角色的烹調能力將中幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9697,14 +9712,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100063] = {
-		name = "烹调指南T3",
-		desc = "一本内容丰富的烹调技巧指南。使用后，角色的烹调能力将大幅提升。",
+		name = "烹調指南T3",
+		desc = "一本內容豐富的烹調技巧指南。使用後，角色的烹調能力將大幅提升。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9729,8 +9744,8 @@ end)()
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[100101] = {
-		name = "生产技能指南T1",
-		desc = "一本内容基础的生产技能指南。用于提升角色的开发区生产技能等级。",
+		name = "生產技能指南T1",
+		desc = "一本內容基礎的生產技能指南。用於提升角色的開發區生產技能等級。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9754,22 +9769,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100102] = {
-		name = "生产技能指南T2",
-		desc = "一本内容详细的生产技能指南。用于提升角色的开发区生产技能等级。",
+		name = "生產技能指南T2",
+		desc = "一本內容詳細的生產技能指南。用於提升角色的開發區生產技能等級。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9793,22 +9808,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100103] = {
-		name = "生产技能指南T3",
-		desc = "一本内容丰富的生产技能指南。用于提升角色的开发区生产技能等级。",
+		name = "生產技能指南T3",
+		desc = "一本內容豐富的生產技能指南。用於提升角色的開發區生產技能等級。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9832,22 +9847,22 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季-累积PT",
+				"開發季-累積PT",
 				{}
 			},
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			},
 			{
-				"开发计划",
+				"開發計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[100201] = {
-		name = "岛屿开发结晶",
-		desc = "岛屿开发经验的结晶。角色突破所需的必要材料。",
+		name = "島嶼開發結晶",
+		desc = "島嶼開發經驗的結晶。角色突破所需的必要材料。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9871,14 +9886,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发商店",
+				"開發商店",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[110001] = {
-		name = "海盐特饮",
-		desc = "使用后恢复角色50体力。基础款能量特饮，咸甜交织的独特口感，像海风拂过舌尖。",
+		name = "海鹽特飲",
+		desc = "使用後恢復角色50體力。基礎款能量特飲，鹹甜交織的獨特口感，像海風拂過舌尖。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9911,18 +9926,18 @@ end)()
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"日常補給",
 				{}
 			},
 			{
-				"每日计划",
+				"每日計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[110002] = {
-		name = "新叶特饮",
-		desc = "使用后恢复角色50体力，全能力提高3%，持续8小时。散发着嫩芽的清香，清新提神。",
+		name = "新葉特飲",
+		desc = "使用後恢復角色50體力，全能力提高3%，持續8小時。散發著嫩芽的清香，清新提神。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9957,14 +9972,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"日常補給",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[110003] = {
-		name = "草莓特饮",
-		desc = "使用后恢复角色50体力，生产基础资材时，工作速度提高5%，持续8小时。饱含草莓的甜香，酸甜之中活力满满。",
+		name = "草莓特飲",
+		desc = "使用後恢復角色50體力，生產基礎資材時，工作速度提高5%，持續8小時。飽含草莓的甜香，酸甜之中活力滿滿。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -9999,14 +10014,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"日常補給",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[110004] = {
-		name = "金桔特饮",
-		desc = "使用后恢复角色50体力，在基地工厂制作产品时，工作速度提高5%，持续8小时。带着金桔微涩的口感，清爽解乏一口回甘。",
+		name = "金桔特飲",
+		desc = "使用後恢復角色50體力，在基地工廠製作產品時，工作速度提高5%，持續8小時。帶著金桔微澀的口感，清爽解乏一口回甘。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10041,14 +10056,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"日常補給",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[110005] = {
-		name = "蓝莓特饮",
-		desc = "使用后恢复角色50体力，制作店铺餐品时，工作速度提高5%，持续8小时。融汇蓝莓酸甜，馥郁果香令人愉悦。",
+		name = "藍莓特飲",
+		desc = "使用後恢復角色50體力，製作店鋪餐品時，工作速度提高5%，持續8小時。融匯藍莓酸甜，馥郁果香令人愉悅。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10083,14 +10098,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"日常補給",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[110006] = {
-		name = "葡萄特饮",
-		desc = "使用后恢复角色50体力，角色经营店铺时，销售额提高5%，持续8小时。每一口都是圆润饱满的甜蜜风味。",
+		name = "葡萄特飲",
+		desc = "使用後恢復角色50體力，角色經營店鋪時，銷售額提高5%，持續8小時。每一口都是圓潤飽滿的甜蜜風味。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10125,14 +10140,14 @@ end)()
 		},
 		jump_page = {
 			{
-				"日常补给",
+				"日常補給",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200001] = {
-		name = "柴郡岛屿权限认证函",
-		desc = "柴郡的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "柴郡島嶼許可權認證函",
+		desc = "柴郡的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10156,14 +10171,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩獎",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200002] = {
-		name = "萨拉托加岛屿权限认证函",
-		desc = "萨拉托加的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "薩拉托加島嶼許可權認證函",
+		desc = "薩拉托加的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10188,8 +10203,8 @@ end)()
 		jump_page = {}
 	}
 	pg.base.island_item_data_template[200003] = {
-		name = "{namecode:98:明石}岛屿权限认证函",
-		desc = "{namecode:98:明石}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "{namecode:98:明石}島嶼許可權認證函",
+		desc = "{namecode:98:明石}的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10213,14 +10228,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"计划",
+				"計劃",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200004] = {
-		name = "{namecode:97:大凤}岛屿权限认证函",
-		desc = "{namecode:97:大凤}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "{namecode:97:大鳳}島嶼許可權認證函",
+		desc = "{namecode:97:大鳳}的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10242,11 +10257,16 @@ end)()
 			10213
 		},
 		sub_attribute = {},
-		jump_page = {}
+		jump_page = {
+			{
+				"計劃",
+				{}
+			}
+		}
 	}
 	pg.base.island_item_data_template[200005] = {
-		name = "{namecode:199:新泽西}岛屿权限认证函",
-		desc = "{namecode:199:新泽西}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "{namecode:199:紐澤西}島嶼許可權認證函",
+		desc = "{namecode:199:紐澤西}的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10276,8 +10296,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[200006] = {
-		name = "{namecode:18:岛风}岛屿权限认证函",
-		desc = "{namecode:18:岛风}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "{namecode:18:島風}島嶼許可權認證函",
+		desc = "{namecode:18:島風}的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10301,14 +10321,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"圖鑑",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200007] = {
-		name = "应瑞岛屿权限认证函",
-		desc = "应瑞的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "應瑞島嶼許可權認證函",
+		desc = "應瑞的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10338,8 +10358,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[200008] = {
-		name = "恶毒岛屿权限认证函",
-		desc = "恶毒的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "惡毒島嶼許可權認證函",
+		desc = "惡毒的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10369,8 +10389,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[200009] = {
-		name = "独角兽岛屿权限认证函",
-		desc = "独角兽的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "獨角獸島嶼許可權認證函",
+		desc = "獨角獸的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10394,14 +10414,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩獎",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200010] = {
-		name = "塔什干岛屿权限认证函",
-		desc = "塔什干的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "塔什干島嶼許可權認證函",
+		desc = "塔什干的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10431,8 +10451,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[200011] = {
-		name = "胡德岛屿权限认证函",
-		desc = "胡德的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "胡德島嶼許可權認證函",
+		desc = "胡德的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10462,8 +10482,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[200012] = {
-		name = "{namecode:193:小天城}岛屿权限认证函",
-		desc = "{namecode:193:小天城}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "{namecode:193:小天城}島嶼許可權認證函",
+		desc = "{namecode:193:小天城}的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10487,14 +10507,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩獎",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200013] = {
-		name = "{namecode:427:欧根亲王}岛屿权限认证函",
-		desc = "{namecode:427:欧根亲王}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "{namecode:427:歐根親王}島嶼許可權認證函",
+		desc = "{namecode:427:歐根親王}的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10524,8 +10544,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[200014] = {
-		name = "肇和岛屿权限认证函",
-		desc = "肇和的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "肇和島嶼許可權認證函",
+		desc = "肇和的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10555,8 +10575,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[200015] = {
-		name = "莱昂纳多·达·芬奇岛屿权限认证函",
-		desc = "莱昂纳多·达·芬奇的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "李奧納多·達·文西島嶼許可權認證函",
+		desc = "李奧納多·達·文西的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10586,8 +10606,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[200016] = {
-		name = "威廉·D·波特岛屿权限认证函",
-		desc = "威廉·D·波特的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "威廉·D·波特島嶼許可權認證函",
+		desc = "威廉·D·波特的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10611,14 +10631,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季II-开发商店",
+				"開發季II-開發商店",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200017] = {
-		name = "镇海岛屿权限认证函",
-		desc = "镇海的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "鎮海島嶼許可權認證函",
+		desc = "鎮海的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10648,8 +10668,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[200018] = {
-		name = "{namecode:67}岛屿权限认证函",
-		desc = "{namecode:67}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "{namecode:67}島嶼許可權認證函",
+		desc = "{namecode:67}的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10673,14 +10693,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩獎",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200019] = {
-		name = "海伦娜岛屿权限认证函",
-		desc = "海伦娜的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "海倫娜島嶼許可權認證函",
+		desc = "海倫娜的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10704,14 +10724,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩獎",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200020] = {
-		name = "{namecode:440}岛屿权限认证函",
-		desc = "{namecode:440}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "{namecode:440}島嶼許可權認證函",
+		desc = "{namecode:440}的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10735,14 +10755,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩獎",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200021] = {
-		name = "领洋者-娜比娅岛屿权限认证函",
-		desc = "领洋者-娜比娅的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "領洋者-娜比婭島嶼許可權認證函",
+		desc = "領洋者-娜比婭的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10766,14 +10786,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"活动获取",
+				"活動獲取",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200022] = {
-		name = "领航员-TB岛屿权限认证函",
-		desc = "领航员-TB的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "領航員-TB島嶼許可權認證函",
+		desc = "領航員-TB的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10797,14 +10817,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"活动获取",
+				"活動獲取",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200023] = {
-		name = "探索者-艾普洛岛屿权限认证函",
-		desc = "探索者-艾普洛的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "探索者-艾普洛島嶼許可權認證函",
+		desc = "探索者-艾普洛的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10828,14 +10848,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"活动获取",
+				"活動獲取",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200024] = {
-		name = "标枪岛屿权限认证函",
-		desc = "标枪的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "標槍島嶼許可權認證函",
+		desc = "標槍的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10859,14 +10879,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"开发季III-开发商店",
+				"開發季III-開發商店",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200025] = {
-		name = "拉菲岛屿权限认证函",
-		desc = "拉菲的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "拉菲島嶼許可權認證函",
+		desc = "拉菲的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10896,8 +10916,8 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[200026] = {
-		name = "逸仙岛屿权限认证函",
-		desc = "逸仙的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "逸仙島嶼許可權認證函",
+		desc = "逸仙的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10921,14 +10941,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩獎",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200027] = {
-		name = "飞云岛屿权限认证函",
-		desc = "飞云的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "飛雲島嶼許可權認證函",
+		desc = "飛雲的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10952,14 +10972,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩獎",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200028] = {
-		name = "{namecode:481}岛屿权限认证函",
-		desc = "{namecode:481}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "{namecode:481}島嶼許可權認證函",
+		desc = "{namecode:481}的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -10983,14 +11003,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"星彩奖",
+				"星彩獎",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[200029] = {
-		name = "{namecode:66}岛屿权限认证函",
-		desc = "{namecode:66}的岛屿权限认证函。通过岛屿权限认证装置，可获得角色奇异点岛屿出入权限。",
+		name = "{namecode:66}島嶼許可權認證函",
+		desc = "{namecode:66}的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -11019,9 +11039,164 @@ end)()
 			}
 		}
 	}
+	pg.base.island_item_data_template[200030] = {
+		name = "安克拉治島嶼許可權認證函",
+		desc = "安克拉治的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200030",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200030,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩獎",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200031] = {
+		name = "莫加多爾島嶼許可權認證函",
+		desc = "莫加多爾的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200031",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200031,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩獎",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200032] = {
+		name = "長風島嶼許可權認證函",
+		desc = "長風的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200032",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200032,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"星彩獎",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200033] = {
+		name = "皇家幸運號島嶼許可權認證函",
+		desc = "皇家幸運號的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200033",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200033,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200034] = {
+		name = "貝爾法斯特島嶼許可權認證函",
+		desc = "貝爾法斯特的島嶼許可權認證函。透過島嶼許可權認證裝置，可獲得角色奇異點島嶼出入許可權。",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200034",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200034,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"開發季IV-開發商店",
+				{}
+			}
+		}
+	}
 	pg.base.island_item_data_template[300001] = {
-		name = "丰壤农田委派效率提高 4%",
-		desc = "获得后，丰壤农田委派效率提高 4%",
+		name = "豐壤農田委派效率提高 4%",
+		desc = "獲得後，豐壤農田委派效率提高 4%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -11043,14 +11218,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"圖鑑",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[300002] = {
-		name = "坠香果园委派效率提高 4%",
-		desc = "获得后，坠香果园委派效率提高 4%",
+		name = "墜香果園委派效率提高 4%",
+		desc = "獲得後，墜香果園委派效率提高 4%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -11072,14 +11247,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"圖鑑",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[300003] = {
 		name = "青芽苗圃委派效率提高 4%",
-		desc = "获得后，青芽苗圃委派效率提高 4%",
+		desc = "獲得後，青芽苗圃委派效率提高 4%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -11101,14 +11276,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"圖鑑",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[300004] = {
-		name = "丰壤农田委派效率提高 8%",
-		desc = "获得后，丰壤农田委派效率提高 8%",
+		name = "豐壤農田委派效率提高 8%",
+		desc = "獲得後，豐壤農田委派效率提高 8%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -11130,14 +11305,16 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"圖鑑",
 				{}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_item_data_template[300005] = {
-		name = "坠香果园委派效率提高 8%",
-		desc = "获得后，坠香果园委派效率提高 8%",
+		name = "墜香果園委派效率提高 8%",
+		desc = "獲得後，墜香果園委派效率提高 8%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -11159,14 +11336,14 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"圖鑑",
 				{}
 			}
 		}
 	}
 	pg.base.island_item_data_template[300006] = {
 		name = "青芽苗圃委派效率提高 8%",
-		desc = "获得后，青芽苗圃委派效率提高 8%",
+		desc = "獲得後，青芽苗圃委派效率提高 8%",
 		type = 2,
 		manage_influence = 0,
 		pt_num = 0,
@@ -11188,7 +11365,7 @@ end)()
 		sub_attribute = {},
 		jump_page = {
 			{
-				"图鉴",
+				"圖鑑",
 				{}
 			}
 		}

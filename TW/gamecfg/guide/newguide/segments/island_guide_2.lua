@@ -19,7 +19,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "指挥官，我们已经进入了奇异点内部",
+				text = "指揮官，我們已經進入了奇異點內部",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -40,7 +40,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "推动摇杆能够进行移动，滑动右侧空白区域可调整指挥官的视角",
+				text = "推動搖桿可以控制移動方向，滑動右側空白區域可調整指揮官視角",
 				mode = 2,
 				char = 1,
 				posY = -320,
@@ -61,7 +61,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "试着去前方的区域看看",
+				text = "試著去前方的區域看看",
 				mode = 2,
 				char = 1,
 				posY = 0,

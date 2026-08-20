@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "在渔场管理员布莉缇处可以管理渔场、加工鱼肉以及查看渔具商店。",
+				text = "在漁場管理員布莉緹處可以管理漁場、加工魚肉以及查看漁具商店。",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "请点击管理渔场。",
+				text = "請點選管理漁場。",
 				mode = 2,
 				char = 1,
 				posY = -50,
@@ -35,7 +35,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "可在啾啾渔场委派角色进行水产养殖，养殖需要消耗对应的鱼苗。",
+				text = "可在啾啾漁場委派角色進行水產養殖，養殖需消耗對應的魚苗。",
 				mode = 2,
 				char = 1,
 				posY = 100,
@@ -48,7 +48,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "鱼苗可在渔具商店中进行购买，产出的水产可加工成鱼肉。",
+				text = "魚苗可在漁具商店中進行購買，產出的水產可加工成魚肉。",
 				mode = 2,
 				char = 1,
 				posY = 100,
@@ -61,7 +61,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "现在请先退出渔场，查看商店和加工。",
+				text = "現在請先退出漁場，查看商店和加工。",
 				mode = 2,
 				char = 1,
 				posY = 300,
@@ -78,7 +78,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "请点击鱼肉加工。",
+				text = "請點擊魚肉加工。",
 				mode = 2,
 				char = 1,
 				posY = -150,
@@ -95,7 +95,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "渔场产出的部分水产可以在此处加工成鱼肉，用作烹饪等生产配方的材料。",
+				text = "漁場產出的部分水產可以在此處加工成魚肉，用作烹飪等生產配方的材料。",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -108,7 +108,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "部分水产也可能直接作为生产配方的材料，请在后续游戏过程中自由探索。",
+				text = "部分水產也可能直接作為生產配方的材料，請在後續遊戲過程中自由探索。",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -121,7 +121,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "现在请先退出鱼肉加工，查看商店",
+				text = "現在請先退出魚肉加工，查看商店。",
 				mode = 2,
 				char = 1,
 				posY = 300,
@@ -138,7 +138,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "请点击渔具商店。",
+				text = "請點擊漁具商店。",
 				mode = 2,
 				char = 1,
 				posY = -250,
@@ -155,7 +155,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "渔具商店可以购买养殖用的鱼苗，以及钓鱼用的鱼饵。",
+				text = "釣具店可以購買養殖用的魚苗，以及釣魚用的魚餌。",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -168,7 +168,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.2,
 			style = {
-				text = "更多游玩内容可在后续游戏过程中进一步探索~",
+				text = "更多遊玩內容可在後續遊戲過程中進一步探索~",
 				mode = 2,
 				char = 1,
 				posY = 0,

@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "布莱梅，我回来了。",
+			say = "布萊梅，我回來了。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "指挥官，有找到合适的食材嘛？",
+			say = "指揮官，有找到合適的食材嘛？",
 			animation = "clap",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "哇……看起来都很新鲜呢。",
-			subName = "啾咖啡店员",
+			say = "哇……看起來都很新鮮。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -53,17 +53,17 @@ return {
 		},
 		{
 			animation = "think",
-			say = "这新鲜的柠檬香气……还有香气丰盈的蜂蜜……",
+			say = "這新鮮的檸檬香氣……還有香氣豐盈的蜂蜜……",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "最后迷迭香的品相也相当不错。",
-			subName = "啾咖啡店员",
+			say = "最後迷迭香的品相也相當不錯。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -71,18 +71,18 @@ return {
 			}
 		},
 		{
-			say = "之前还有点担心指挥官会不知道怎么选呢……",
+			say = "之前還有點擔心指揮官會不知道怎麼選呢……",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "现在看来，你在这方面也很厉害呢。",
-			subName = "啾咖啡店员",
+			say = "現在看來，你在這方面也很厲害呢。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -90,10 +90,10 @@ return {
 			}
 		},
 		{
-			say = "剩下就交给我来调配吧~",
+			say = "剩下就交給我來調配吧~",
 			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,15 +120,15 @@ return {
 			say = "嗯？",
 			animation = "doubt",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "怎、怎么样指挥官，好喝吗？！",
-			subName = "啾咖啡店员",
+			say = "怎、怎麼樣指揮官，好喝嗎？！",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			say = "嗯……确实很不错。",
+			say = "嗯……確實很不錯。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -148,15 +148,15 @@ return {
 			say = "太好啦~",
 			animation = "clap",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "以后指挥官要经常来找我哦，我每次都会为您调配美味的蜂蜜水呢~",
-			subName = "啾咖啡店员",
+			say = "以後指揮官要常常來找我哦，我每次都會為您調配美味的蜂蜜水呢~",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			say = "谢谢。对了，能帮我再调配一杯么？",
+			say = "謝謝。對了，能幫我再調配一杯嗎？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			say = "我想带去给分享给我这个好消息的人尝尝。",
+			say = "我想帶去給分享給我這個好消息的人嚐嚐。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -181,17 +181,17 @@ return {
 			}
 		},
 		{
-			say = "好的，我这里刚好还剩下一些……指挥官拿去吧。",
+			say = "好的，我這裡剛好還剩下一些……指揮官拿去吧。",
 			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "太感谢了，布莱梅。",
+			say = "太感謝了，布萊梅。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

@@ -9,18 +9,21 @@ pg.island_speedup_ticket.all = {
 	10004,
 	10005,
 	10006,
+	10007,
 	20001,
 	20002,
 	20003,
 	20004,
 	20005,
 	20006,
+	20007,
 	30001,
 	30002,
 	30003,
 	30004,
 	30005,
-	30006
+	30006,
+	30007
 }
 pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 	[60] = {
@@ -29,7 +32,8 @@ pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 		10003,
 		10004,
 		10005,
-		10006
+		10006,
+		10007
 	},
 	[600] = {
 		20001,
@@ -37,7 +41,8 @@ pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 		20003,
 		20004,
 		20005,
-		20006
+		20006,
+		20007
 	},
 	[3600] = {
 		30001,
@@ -45,7 +50,8 @@ pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 		30003,
 		30004,
 		30005,
-		30006
+		30006,
+		30007
 	}
 }
 pg.base = pg.base or {}
@@ -53,12 +59,12 @@ pg.base.island_speedup_ticket = {}
 
 (function ()
 	pg.base.island_speedup_ticket[10001] = {
-		name = "1分钟加速券",
+		name = "1分鐘加速券",
 		rarity = 2,
 		type = 1,
 		duration = 0,
 		speedup_time = 60,
-		desc = "使用后，能加速1分钟的时间，让发展快人一步。（在岛屿开发季I期活动内有效）",
+		desc = "使用後，能加速1分鐘的時間，讓發展快人一步。（在島嶼開發季I期活動內有效）",
 		expiration_type = 2,
 		id = 10001,
 		icon = "islandprops/item_speedup_ticket1",
@@ -77,51 +83,51 @@ pg.base.island_speedup_ticket = {}
 		}
 	}
 	pg.base.island_speedup_ticket[10002] = {
-		name = "1分钟加速券",
+		name = "1分鐘加速券",
 		rarity = 2,
 		expiration_time = "",
 		type = 1,
 		duration = 7,
 		speedup_time = 60,
-		desc = "使用后，能加速1分钟的时间，让发展快人一步。（该加速券有效期为7天）",
+		desc = "使用後，能加速1分鐘的時間，讓發展快人一步。（該加速券有效期為7天）",
 		expiration_type = 1,
 		id = 10002,
 		icon = "islandprops/item_speedup_ticket1",
 		icon_normal = "props/item_speedup_ticket1"
 	}
 	pg.base.island_speedup_ticket[10003] = {
-		name = "1分钟加速券",
+		name = "1分鐘加速券",
 		rarity = 2,
 		expiration_time = "",
 		type = 1,
 		duration = 3,
 		speedup_time = 60,
-		desc = "使用后，能加速1分钟的时间，让发展快人一步。（该加速券有效期为3天）",
+		desc = "使用後，能加速1分鐘的時間，讓發展快人一步。（該加速券有效期為3天）",
 		expiration_type = 1,
 		id = 10003,
 		icon = "islandprops/item_speedup_ticket1",
 		icon_normal = "props/item_speedup_ticket1"
 	}
 	pg.base.island_speedup_ticket[10004] = {
-		name = "1分钟加速券",
+		name = "1分鐘加速券",
 		rarity = 2,
 		expiration_time = "",
 		type = 1,
 		duration = 2,
 		speedup_time = 60,
-		desc = "使用后，能加速1分钟的时间，让发展快人一步。（该加速券有效期为2天）",
+		desc = "使用後，能加速1分鐘的時間，讓發展快人一步。（該加速券有效期為2天）",
 		expiration_type = 1,
 		id = 10004,
 		icon = "islandprops/item_speedup_ticket1",
 		icon_normal = "props/item_speedup_ticket1"
 	}
 	pg.base.island_speedup_ticket[10005] = {
-		name = "1分钟加速券",
+		name = "1分鐘加速券",
 		rarity = 2,
 		type = 1,
 		duration = 0,
 		speedup_time = 60,
-		desc = "使用后，能加速1分钟的时间，让发展快人一步。（在岛屿开发季II期活动内有效）",
+		desc = "使用後，能加速1分鐘的時間，讓發展快人一步。（在島嶼開發季II期活動內有效）",
 		expiration_type = 2,
 		id = 10005,
 		icon = "islandprops/item_speedup_ticket1",
@@ -140,12 +146,12 @@ pg.base.island_speedup_ticket = {}
 		}
 	}
 	pg.base.island_speedup_ticket[10006] = {
-		name = "1分钟加速券",
+		name = "1分鐘加速券",
 		rarity = 2,
 		type = 1,
 		duration = 0,
 		speedup_time = 60,
-		desc = "使用后，能加速1分钟的时间，让发展快人一步。（在岛屿开发季III期活动内有效）",
+		desc = "使用後，能加速1分鐘的時間，讓發展快人一步。（在島嶼開發季III期活動內有效）",
 		expiration_type = 2,
 		id = 10006,
 		icon = "islandprops/item_speedup_ticket1",
@@ -163,13 +169,37 @@ pg.base.island_speedup_ticket = {}
 			}
 		}
 	}
+	pg.base.island_speedup_ticket[10007] = {
+		name = "1分鐘加速券",
+		rarity = 2,
+		type = 1,
+		duration = 0,
+		speedup_time = 60,
+		desc = "使用後，能加速1分鐘的時間，讓發展快人一步。（在島嶼開發季I期活動內有效）",
+		expiration_type = 2,
+		id = 10007,
+		icon = "islandprops/item_speedup_ticket1",
+		icon_normal = "props/item_speedup_ticket1",
+		expiration_time = {
+			{
+				2026,
+				11,
+				19
+			},
+			{
+				15,
+				0,
+				0
+			}
+		}
+	}
 	pg.base.island_speedup_ticket[20001] = {
-		name = "10分钟加速券",
+		name = "10分鐘加速券",
 		rarity = 3,
 		type = 2,
 		duration = 0,
 		speedup_time = 600,
-		desc = "使用后，能加速10分钟的时间，让发展快人一步。（在岛屿开发季I期活动内有效）",
+		desc = "使用後，能加速10分鐘的時間，讓發展快人一步。（在島嶼開發季I期活動內有效）",
 		expiration_type = 2,
 		id = 20001,
 		icon = "islandprops/item_speedup_ticket2",
@@ -188,51 +218,51 @@ pg.base.island_speedup_ticket = {}
 		}
 	}
 	pg.base.island_speedup_ticket[20002] = {
-		name = "10分钟加速券",
+		name = "10分鐘加速券",
 		rarity = 3,
 		expiration_time = "",
 		type = 2,
 		duration = 7,
 		speedup_time = 600,
-		desc = "使用后，能加速10分钟的时间，让发展快人一步。（该加速券有效期为7天）",
+		desc = "使用後，能加速10分鐘的時間，讓發展快人一步。（該加速券有效期為7天）",
 		expiration_type = 1,
 		id = 20002,
 		icon = "islandprops/item_speedup_ticket2",
 		icon_normal = "props/item_speedup_ticket2"
 	}
 	pg.base.island_speedup_ticket[20003] = {
-		name = "10分钟加速券",
+		name = "10分鐘加速券",
 		rarity = 3,
 		expiration_time = "",
 		type = 2,
 		duration = 3,
 		speedup_time = 600,
-		desc = "使用后，能加速10分钟的时间，让发展快人一步。（该加速券有效期为3天）",
+		desc = "使用後，能加速10分鐘的時間，讓發展快人一步。（該加速券有效期為3天）",
 		expiration_type = 1,
 		id = 20003,
 		icon = "islandprops/item_speedup_ticket2",
 		icon_normal = "props/item_speedup_ticket2"
 	}
 	pg.base.island_speedup_ticket[20004] = {
-		name = "10分钟加速券",
+		name = "10分鐘加速券",
 		rarity = 3,
 		expiration_time = "",
 		type = 2,
 		duration = 2,
 		speedup_time = 600,
-		desc = "使用后，能加速10分钟的时间，让发展快人一步。（该加速券有效期为2天）",
+		desc = "使用後，能加速10分鐘的時間，讓發展快人一步。（該加速券有效期為2天）",
 		expiration_type = 1,
 		id = 20004,
 		icon = "islandprops/item_speedup_ticket2",
 		icon_normal = "props/item_speedup_ticket2"
 	}
 	pg.base.island_speedup_ticket[20005] = {
-		name = "10分钟加速券",
+		name = "10分鐘加速券",
 		rarity = 3,
 		type = 2,
 		duration = 0,
 		speedup_time = 600,
-		desc = "使用后，能加速10分钟的时间，让发展快人一步。（在岛屿开发季II期活动内有效）",
+		desc = "使用後，能加速10分鐘的時間，讓發展快人一步。（在島嶼開發季II期活動內有效）",
 		expiration_type = 2,
 		id = 20005,
 		icon = "islandprops/item_speedup_ticket2",
@@ -251,12 +281,12 @@ pg.base.island_speedup_ticket = {}
 		}
 	}
 	pg.base.island_speedup_ticket[20006] = {
-		name = "10分钟加速券",
+		name = "10分鐘加速券",
 		rarity = 3,
 		type = 2,
 		duration = 0,
 		speedup_time = 600,
-		desc = "使用后，能加速10分钟的时间，让发展快人一步。（在岛屿开发季II期活动内有效）",
+		desc = "使用後，能加速10分鐘的時間，讓發展快人一步。（在島嶼開發季II期活動內有效）",
 		expiration_type = 2,
 		id = 20006,
 		icon = "islandprops/item_speedup_ticket2",
@@ -274,13 +304,37 @@ pg.base.island_speedup_ticket = {}
 			}
 		}
 	}
+	pg.base.island_speedup_ticket[20007] = {
+		name = "10分鐘加速券",
+		rarity = 3,
+		type = 2,
+		duration = 0,
+		speedup_time = 600,
+		desc = "使用後，能加速10分鐘的時間，讓發展快人一步。（在島嶼開發季IV期活動內有效）",
+		expiration_type = 2,
+		id = 20007,
+		icon = "islandprops/item_speedup_ticket2",
+		icon_normal = "props/item_speedup_ticket2",
+		expiration_time = {
+			{
+				2026,
+				11,
+				5
+			},
+			{
+				12,
+				0,
+				0
+			}
+		}
+	}
 	pg.base.island_speedup_ticket[30001] = {
-		name = "60分钟加速券",
+		name = "60分鐘加速券",
 		rarity = 4,
 		type = 3,
 		duration = 0,
 		speedup_time = 3600,
-		desc = "使用后，能加速60分钟的时间，让发展快人一步。（在岛屿开发季I期活动内有效）",
+		desc = "使用後，能加速60分鐘的時間，讓發展快人一步。（在島嶼開發季I期活動內有效）",
 		expiration_type = 2,
 		id = 30001,
 		icon = "islandprops/item_speedup_ticket3",
@@ -299,51 +353,51 @@ pg.base.island_speedup_ticket = {}
 		}
 	}
 	pg.base.island_speedup_ticket[30002] = {
-		name = "60分钟加速券",
+		name = "60分鐘加速券",
 		rarity = 4,
 		expiration_time = "",
 		type = 3,
 		duration = 7,
 		speedup_time = 3600,
-		desc = "使用后，能加速60分钟的时间，让发展快人一步。（该加速券有效期为7天）",
+		desc = "使用後，能加速60分鐘的時間，讓發展快人一步。（該加速券有效期為7天）",
 		expiration_type = 1,
 		id = 30002,
 		icon = "islandprops/item_speedup_ticket3",
 		icon_normal = "props/item_speedup_ticket3"
 	}
 	pg.base.island_speedup_ticket[30003] = {
-		name = "60分钟加速券",
+		name = "60分鐘加速券",
 		rarity = 4,
 		expiration_time = "",
 		type = 3,
 		duration = 3,
 		speedup_time = 3600,
-		desc = "使用后，能加速60分钟的时间，让发展快人一步。（该加速券有效期为3天）",
+		desc = "使用後，能加速60分鐘的時間，讓發展快人一步。（該加速券有效期為3天）",
 		expiration_type = 1,
 		id = 30003,
 		icon = "islandprops/item_speedup_ticket3",
 		icon_normal = "props/item_speedup_ticket3"
 	}
 	pg.base.island_speedup_ticket[30004] = {
-		name = "60分钟加速券",
+		name = "60分鐘加速券",
 		rarity = 4,
 		expiration_time = "",
 		type = 3,
 		duration = 2,
 		speedup_time = 3600,
-		desc = "使用后，能加速60分钟的时间，让发展快人一步。（该加速券有效期为2天）",
+		desc = "使用後，能加速60分鐘的時間，讓發展快人一步。（該加速券有效期為2天）",
 		expiration_type = 1,
 		id = 30004,
 		icon = "islandprops/item_speedup_ticket3",
 		icon_normal = "props/item_speedup_ticket3"
 	}
 	pg.base.island_speedup_ticket[30005] = {
-		name = "60分钟加速券",
+		name = "60分鐘加速券",
 		rarity = 4,
 		type = 3,
 		duration = 0,
 		speedup_time = 3600,
-		desc = "使用后，能加速60分钟的时间，让发展快人一步。（在岛屿开发季II期活动内有效）",
+		desc = "使用後，能加速60分鐘的時間，讓發展快人一步。（在島嶼開發季II期活動內有效）",
 		expiration_type = 2,
 		id = 30005,
 		icon = "islandprops/item_speedup_ticket3",
@@ -362,12 +416,12 @@ pg.base.island_speedup_ticket = {}
 		}
 	}
 	pg.base.island_speedup_ticket[30006] = {
-		name = "60分钟加速券",
+		name = "60分鐘加速券",
 		rarity = 4,
 		type = 3,
 		duration = 0,
 		speedup_time = 3600,
-		desc = "使用后，能加速60分钟的时间，让发展快人一步。（在岛屿开发季II期活动内有效）",
+		desc = "使用後，能加速60分鐘的時間，讓發展快人一步。（在島嶼開發季II期活動內有效）",
 		expiration_type = 2,
 		id = 30006,
 		icon = "islandprops/item_speedup_ticket3",
@@ -380,6 +434,30 @@ pg.base.island_speedup_ticket = {}
 			},
 			{
 				12,
+				0,
+				0
+			}
+		}
+	}
+	pg.base.island_speedup_ticket[30007] = {
+		name = "60分鐘加速券",
+		rarity = 4,
+		type = 3,
+		duration = 0,
+		speedup_time = 3600,
+		desc = "使用後，能加速60分鐘的時間，讓發展快人一步。（在島嶼開發季I期活動內有效）",
+		expiration_type = 2,
+		id = 30007,
+		icon = "islandprops/item_speedup_ticket3",
+		icon_normal = "props/item_speedup_ticket3",
+		expiration_time = {
+			{
+				2026,
+				11,
+				19
+			},
+			{
+				15,
 				0,
 				0
 			}

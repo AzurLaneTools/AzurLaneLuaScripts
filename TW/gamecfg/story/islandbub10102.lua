@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "请留意脚下，以防落水，安全是愉快体验的基础。",
+			say = "請留意腳下，以防落水，安全是愉快體驗的基礎。",
 			characterId = 101000
 		}
 	}

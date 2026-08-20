@@ -5,7 +5,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "是哪里还有声音？",
+			say = "是哪裡還有聲音？",
 			animation = "hi",
 			characterId = 0,
 			typewriter = {
@@ -14,34 +14,34 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "哎呀……没想到指挥官已经到农场了啊~",
+			say = "哎呀……沒想到指揮官已經到農場了啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "我正为这里的蜜蜂头疼呢……",
+			say = "我正為這裡的蜜蜂頭痛呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "本以为能睡个好觉的……可惜……似乎还差一点呢……",
+			say = "本來以為能睡個好覺的……可惜……似乎還差一點呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "要我帮忙吗？",
+			say = "要我幫忙嗎？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -50,18 +50,18 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "唉~只能再次麻烦您了……",
+			say = "唉~只能再麻煩您了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "感谢指挥官的帮助，下次！下次我一定努力克服……",
+			say = "感謝指揮官的幫助，下次！下次我一定要努力克服……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "进来一次可不容易啊~",
+			say = "進來一次可不容易啊~",
 			hideType = 2,
 			characterId = 101500,
 			animation = "sad"

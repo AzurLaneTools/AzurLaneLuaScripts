@@ -19,8 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			subName = "农田管理员",
-			say = "累么……没事的，看着种子发芽、长大、结果……这都是值得的。",
+			subName = "農田管理員",
+			say = "累嗎……沒事的，看著種子發芽、長大、結果……這都是值得的。",
 			characterId = 100400,
 			face2Face = {
 				{

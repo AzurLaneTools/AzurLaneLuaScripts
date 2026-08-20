@@ -388,6 +388,7 @@ pg.skill_data_template.all = {
 	61090,
 	61100,
 	61110,
+	61120,
 	7000,
 	9010,
 	9020,
@@ -2868,8 +2869,13 @@ pg.skill_data_template.all = {
 	801962,
 	801965,
 	801967,
+	801970,
+	801980,
+	801990,
 	802001,
 	802002,
+	802005,
+	802007,
 	802010,
 	802020,
 	802030,
@@ -3054,6 +3060,7 @@ pg.skill_data_template.all = {
 	1012570,
 	1014990,
 	1013140,
+	1013450,
 	1014050,
 	1090010,
 	1090020,
@@ -3096,6 +3103,7 @@ pg.skill_data_template.all = {
 	1090420,
 	1090430,
 	1090450,
+	1090500,
 	1090490
 }
 pg.base = pg.base or {}
@@ -13809,6 +13817,20 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61120] = {
+		desc_get = "",
+		name = "名偵探之帽",
+		type = 0,
+		max_level = 0,
+		desc = "艾塞克斯裝備時，戰鬥中自身額外獲得30點命中",
+		id = 61120,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "萊茵演習",
@@ -14481,6 +14503,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[9110] = {
 		desc_get = "",
 		name = "防空模式",
@@ -14587,8 +14611,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[9120] = {
 		desc_get = "",
 		name = "模拟战埃吉尔占用",
@@ -21664,6 +21686,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10950] = {
 		desc_get = "增加3點(滿級8點)航速，炮擊屬性提高15.0%",
 		name = "尚武之魂",
@@ -21761,8 +21785,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10960] = {
 		desc_get = "出擊時，隊伍中特型驅逐艦的炮擊、機動提高15.0%(滿級30%)，雷擊提高4%(滿級10%)",
 		name = "特型領艦",
@@ -30038,6 +30060,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11940] = {
 		desc_get = "",
 		name = "天與海的觀測者",
@@ -30144,8 +30168,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11950] = {
 		desc_get = "",
 		name = "不凍港的協奏曲",
@@ -39554,6 +39576,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13010] = {
 		desc_get = "",
 		name = "精準誘導",
@@ -39705,8 +39729,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13020] = {
 		desc_get = "",
 		name = "冰結鋒芒",
@@ -49231,6 +49253,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14010] = {
 		desc_get = "",
 		name = "Z系領航",
@@ -49337,8 +49361,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14020] = {
 		desc_get = "",
 		name = "護航精英",
@@ -60589,6 +60611,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15010] = {
 		desc_get = "",
 		name = "侵襲之盾",
@@ -60686,8 +60710,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15020] = {
 		desc_get = "",
 		name = "破竹之勢",
@@ -72474,6 +72496,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16020] = {
 		desc_get = "",
 		name = "戰爭之殤.改",
@@ -72618,8 +72642,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16030] = {
 		desc_get = "",
 		name = "靜海驚雷",
@@ -83959,6 +83981,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17030] = {
 		desc_get = "",
 		name = "蕩滌諸惡",
@@ -84146,8 +84170,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17040] = {
 		desc_get = "",
 		name = "天光雲影",
@@ -95239,6 +95261,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150090] = {
 		desc_get = "",
 		name = "『裁决降临』跨队ID占用",
@@ -95253,8 +95277,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150100] = {
 		desc_get = "",
 		name = "『临界爆发』跨队ID占用",
@@ -106586,6 +106608,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151080] = {
 		desc_get = "",
 		name = "蝶影葉嵐",
@@ -106728,8 +106752,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151090] = {
 		desc_get = "",
 		name = "青空聖禦",
@@ -118475,6 +118497,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152050] = {
 		desc_get = "",
 		name = "決勝博弈",
@@ -118572,8 +118596,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152060] = {
 		desc_get = "",
 		name = "交給我吧！",
@@ -128560,6 +128582,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19210] = {
 		desc_get = "",
 		name = "特殊炮擊訓練",
@@ -128621,8 +128645,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19220] = {
 		desc_get = "",
 		name = "破壞的交響曲",
@@ -138371,6 +138393,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20072] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -138385,8 +138409,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20081] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -139773,6 +139795,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22091] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -139787,8 +139811,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22092] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -141175,6 +141197,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[25214] = {
 		desc_get = "",
 		name = "全彈發射II",
@@ -141189,8 +141213,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[25221] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -142577,6 +142599,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29232] = {
 		desc_get = "",
 		name = "專屬彈幕-海王星II",
@@ -142591,8 +142615,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29241] = {
 		desc_get = "",
 		name = "專屬彈幕-羅恩I",
@@ -143987,6 +144009,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29751] = {
 		desc_get = "",
 		name = "專屬彈幕-英格拉罕I",
@@ -144001,8 +144025,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29752] = {
 		desc_get = "",
 		name = "專屬彈幕-英格拉罕II",
@@ -145389,6 +145411,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30281] = {
 		desc_get = "",
 		name = "專屬彈幕-{namecode:494}I",
@@ -145403,8 +145427,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30282] = {
 		desc_get = "",
 		name = "專屬彈幕-{namecode:494}II",
@@ -148406,6 +148428,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[103080] = {
 		desc_get = "",
 		name = "雙影無雙",
@@ -148453,8 +148477,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[103090] = {
 		desc_get = "",
 		name = "鎖之巫女",
@@ -157485,6 +157507,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[107130] = {
 		desc_get = "",
 		name = "運輸的好夥伴",
@@ -157546,8 +157570,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[107140] = {
 		desc_get = "",
 		name = "惡作劇Cheering·亞美",
@@ -165653,6 +165675,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[110320] = {
 		desc_get = "",
 		name = "拔刀・鳳閃飛燕",
@@ -165667,8 +165691,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[110330] = {
 		desc_get = "",
 		name = "六刀・魁之焰",
@@ -174326,6 +174348,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[190000] = {
 		desc_get = "",
 		name = "鋼鐵洪流的和聲",
@@ -174513,8 +174537,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[190010] = {
 		desc_get = "",
 		name = "凜冬生存準則",
@@ -179954,6 +179976,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800520] = {
 		desc_get = "",
 		name = "殤視之盾",
@@ -180060,8 +180084,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800531] = {
 		desc_get = "",
 		name = "搖曳之火·特倫托I",
@@ -185081,6 +185103,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801055] = {
 		desc_get = "",
 		name = "逐光之焰·基洛夫I",
@@ -185097,8 +185121,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801057] = {
 		desc_get = "",
 		name = "逐光之焰·基洛夫II",
@@ -190472,6 +190494,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801600] = {
 		desc_get = "",
 		name = "永夜之暗",
@@ -190668,8 +190692,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801610] = {
 		desc_get = "",
 		name = "永夜戰旗",
@@ -193898,12 +193920,375 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[801970] = {
+		desc_get = "",
+		name = "對命運的注視",
+		type = 3,
+		max_level = 10,
+		desc = "戰鬥開始後5秒及之後每10秒，約克鎮·META會觀測一個不處於【觀測】狀態的敵方單位（優先對精英目標生效），處於【觀測】狀態的敵方單位炮擊、航空屬性降低$1,【觀測】狀態持續至戰鬥結束；自身空襲整備完畢時，約克鎮·META會注視場上處於【觀測】狀態的敵方單位，處於【注視】狀態的敵方單位防空、機動屬性降低$2，減速$2，【注視】狀態持續10秒；約克鎮·META受到處於【注視】狀態的敵方單位造成的傷害提高5.0%，約克鎮對處於【注視】狀態的敵方單位造成的傷害提高$3",
+		id = 801970,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"5.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[801980] = {
+		desc_get = "",
+		name = "對往昔的追憶",
+		type = 2,
+		max_level = 10,
+		desc = "戰鬥開始時，自身被偵測條最大增加15點；戰鬥中自身發動空襲時，觸發一輪航空彈幕$2（威力依據技能等級），同時使自身被偵測條回覆速率在接下來的5秒內提升2點/秒；戰鬥中受到傷害導致耐久低於20%時立即觸發一輪航空彈幕並回復自身耐久$1，若此時場上存在處於【注視】狀態的敵方單位，清空自身被偵測條，該效果每場戰鬥只能觸發一次",
+		id = 801980,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[801990] = {
+		desc_get = "",
+		name = "觀測存亡之人",
+		type = 3,
+		max_level = 10,
+		desc = "戰鬥開始時，自身的航空屬性提高$1，若制空狀態不為制空權劣勢或制空權喪失，約克鎮受到的航空傷害降低$2，隊伍中擁有【構造之理】技能的角色裝填、命中屬性提升$1",
+		id = 801990,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[802001] = {
 		desc_get = "",
-		name = "构造之理·约克城I",
+		name = "構造之理·約克鎮I",
 		type = 1,
 		max_level = 1,
-		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，队伍中META角色造成的伤害提高2%",
+		desc = "【大型作戰效果】\n與精英艦隊或BOSS艦隊交戰時，隊伍中META角色造成的傷害提高2%",
 		id = 802001,
 		system_transform = {
 			[51.0] = 802005
@@ -193916,11 +194301,43 @@ end)()
 	}
 	pg.base.skill_data_template[802002] = {
 		desc_get = "",
-		name = "构造之理·约克城II",
+		name = "構造之理·約克鎮II",
 		type = 1,
 		max_level = 1,
-		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，队伍中META角色造成的伤害提高6%",
+		desc = "【大型作戰效果】\n與精英艦隊或BOSS艦隊交戰時，隊伍中META角色造成的傷害提高6%",
 		id = 802002,
+		system_transform = {
+			[51.0] = 802007
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802005] = {
+		desc_get = "",
+		name = "構造之理·約克鎮I",
+		type = 1,
+		max_level = 1,
+		desc = "【大型作戰效果】\n與精英艦隊或BOSS艦隊交戰時，隊伍中META角色造成的傷害提高2%",
+		id = 802005,
+		system_transform = {
+			[51.0] = 802005
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802007] = {
+		desc_get = "",
+		name = "構造之理·約克鎮II",
+		type = 1,
+		max_level = 1,
+		desc = "【大型作戰效果】\n與精英艦隊或BOSS艦隊交戰時，隊伍中META角色造成的傷害提高6%",
+		id = 802007,
 		system_transform = {
 			[51.0] = 802007
 		},
@@ -195629,6 +196046,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802171] = {
 		desc_get = "",
 		name = "逐光之焰·{namecode:423}I",
@@ -195855,8 +196274,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802231] = {
 		desc_get = "",
 		name = "逐光之焰·{namecode:468}I",
@@ -202637,6 +203054,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1013000] = {
 		desc_get = "",
 		name = "虛空的白騎兵 +",
@@ -203318,8 +203737,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1010090] = {
 		desc_get = "",
 		name = "我是NO.1！+",
@@ -210931,6 +211348,112 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[1013450] = {
+		desc_get = "",
+		name = "騎士不朽之約+",
+		type = 3,
+		max_level = 10,
+		desc = "進入戰鬥時，自身炮擊、裝填提升$1；自身及我方先鋒領艦炮擊、防空額外提升$2",
+		id = 1013450,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"8.0%",
+				"18.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"8.0%",
+					"+1.1%"
+				},
+				{
+					"9.1%",
+					"+1.1%"
+				},
+				{
+					"10.2%",
+					"+1.1%"
+				},
+				{
+					"11.3%",
+					"+1.1%"
+				},
+				{
+					"12.4%",
+					"+1.1%"
+				},
+				{
+					"13.5%",
+					"+1.1%"
+				},
+				{
+					"14.6%",
+					"+1.1%"
+				},
+				{
+					"15.7%",
+					"+1.1%"
+				},
+				{
+					"16.8%",
+					"+1.2%"
+				},
+				{
+					"18.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[1014050] = {
 		desc_get = "",
 		name = "怒放之紫 +",
@@ -216342,6 +216865,114 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[1090500] = {
+		desc_get = "",
+		name = "吸引火力·{namecode:64}",
+		type = 2,
+		max_level = 10,
+		desc = "戰鬥開始時，自身防空、機動屬性提高$1，造成的傷害提高$1； 戰鬥中，每20秒，有$2的概率發動，承受先鋒隊伍受到的50%傷害，持續8秒，同技能效果不疊加",
+		id = 1090500,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"10%",
+				"40%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+3.0%"
+				},
+				{
+					"13.0%",
+					"+3.0%"
+				},
+				{
+					"16.0%",
+					"+4.0%"
+				},
+				{
+					"20.0%",
+					"+3.0%"
+				},
+				{
+					"23.0%",
+					"+3.0%"
+				},
+				{
+					"26.0%",
+					"+4.0%"
+				},
+				{
+					"30.0%",
+					"+3.0%"
+				},
+				{
+					"33.0%",
+					"+3.0%"
+				},
+				{
+					"36.0%",
+					"+4.0%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090490] = {
 		desc_get = "",
 		name = "裝填號令·彭薩科拉",

@@ -676885,6 +676885,84 @@ _G.pg.base.enemy_data_statistics[16856305] = {
 }
 
 
+_G.pg.base.enemy_data_statistics[16856306] = {
+	cannon = 500,
+	hit_growth = 0,
+	luck_growth = 0,
+	speed_growth = 0,
+	air_growth = 0,
+	air = 0,
+	armor = 0,
+	antisub = 0,
+	battle_unit_type = 15,
+	fog_fx = "",
+	dodge_growth = 0,
+	star = 1,
+	antisub_growth = 0,
+	rarity = 1,
+	base = 90872,
+	durability = 30000,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	speed = 25,
+	luck = 0,
+	id = 16856306,
+	scale = 100,
+	cannon_growth = 0,
+	pilot_ai_template_id = 70278,
+	reload = 150,
+	dodge = 0,
+	reload_growth = 0,
+	hit = 150,
+	torpedo = 500,
+	durability_growth = 0,
+	antiaircraft = 0,
+	antiaircraft_growth = 0,
+	equipment_list = {},
+	buff_list = {}
+}
+
+
+_G.pg.base.enemy_data_statistics[16856307] = {
+	cannon = 500,
+	hit_growth = 0,
+	luck_growth = 0,
+	speed_growth = 0,
+	air_growth = 0,
+	air = 0,
+	armor = 0,
+	antisub = 0,
+	battle_unit_type = 15,
+	fog_fx = "",
+	dodge_growth = 0,
+	star = 1,
+	antisub_growth = 0,
+	rarity = 1,
+	base = 90873,
+	durability = 15000,
+	armor_growth = 0,
+	torpedo_growth = 0,
+	speed = 25,
+	luck = 0,
+	id = 16856307,
+	scale = 75,
+	cannon_growth = 0,
+	pilot_ai_template_id = 70278,
+	reload = 150,
+	dodge = 0,
+	reload_growth = 0,
+	hit = 150,
+	torpedo = 500,
+	durability_growth = 0,
+	antiaircraft = 0,
+	antiaircraft_growth = 0,
+	equipment_list = {
+		2975024
+	},
+	buff_list = {}
+}
+
+
 _G.pg.base.enemy_data_statistics[16860001] = {
 	cannon = 5,
 	air = 0,
@@ -735282,6 +735360,771 @@ _G.pg.base.enemy_data_statistics[295300] = {
 }
 
 
+_G.pg.base.enemy_data_statistics[295301] = {
+	cannon = 78,
+	name = "約克鎮·META(Tier.1)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 164,
+	reload = 150,
+	armor = 0,
+	dodge = 25,
+	id = 295301,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 35,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 50000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 116,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983000,
+		2983005
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 1
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295302] = {
+	cannon = 89,
+	name = "約克鎮·META(Tier.2)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 187,
+	reload = 150,
+	armor = 0,
+	dodge = 28,
+	id = 295302,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 40,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 54000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 133,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983000,
+		2983005
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 2
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295303] = {
+	cannon = 100,
+	name = "約克鎮·META(Tier.3)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 210,
+	reload = 150,
+	armor = 0,
+	dodge = 32,
+	id = 295303,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 45,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 58000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 150,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983000,
+		2983005
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 3
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295304] = {
+	cannon = 111,
+	name = "約克鎮·META(Tier.4)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 234,
+	reload = 150,
+	armor = 0,
+	dodge = 35,
+	id = 295304,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 50,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 70000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 166,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983001,
+		2983006
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 4
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295305] = {
+	cannon = 123,
+	name = "約克鎮·META(Tier.5)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 257,
+	reload = 150,
+	armor = 0,
+	dodge = 39,
+	id = 295305,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 55,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 111000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 183,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983001,
+		2983006
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 5
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295306] = {
+	cannon = 134,
+	name = "約克鎮·META(Tier.6)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 281,
+	reload = 150,
+	armor = 0,
+	dodge = 42,
+	id = 295306,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 60,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 152000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 200,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983001,
+		2983006
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 6
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295307] = {
+	cannon = 145,
+	name = "約克鎮·META(Tier.7)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 304,
+	reload = 150,
+	armor = 0,
+	dodge = 46,
+	id = 295307,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 65,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 233000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 216,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983002,
+		2983007
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 7
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295308] = {
+	cannon = 156,
+	name = "約克鎮·META(Tier.8)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 328,
+	reload = 150,
+	armor = 0,
+	dodge = 50,
+	id = 295308,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 70,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 314000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 233,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983002,
+		2983007
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 8
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295309] = {
+	cannon = 167,
+	name = "約克鎮·META(Tier.9)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 351,
+	reload = 150,
+	armor = 0,
+	dodge = 53,
+	id = 295309,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 75,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 395000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 250,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983002,
+		2983007
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 9
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295310] = {
+	cannon = 179,
+	name = "約克鎮·META(Tier.10)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 374,
+	reload = 150,
+	armor = 0,
+	dodge = 57,
+	id = 295310,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 80,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 486000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 266,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983003,
+		2983008
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 10
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295311] = {
+	cannon = 190,
+	name = "約克鎮·META(Tier.11)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 398,
+	reload = 150,
+	armor = 0,
+	dodge = 60,
+	id = 295311,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 85,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 608000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 283,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983003,
+		2983008
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 11
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295312] = {
+	cannon = 201,
+	name = "約克鎮·META(Tier.12)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 421,
+	reload = 150,
+	armor = 0,
+	dodge = 64,
+	id = 295312,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 90,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 790000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 300,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983003,
+		2983008
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 12
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295313] = {
+	cannon = 212,
+	name = "約克鎮·META(Tier.13)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 445,
+	reload = 150,
+	armor = 0,
+	dodge = 67,
+	id = 295313,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 95,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 1013000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 316,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983004,
+		2983009
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 13
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295314] = {
+	cannon = 223,
+	name = "約克鎮·META(Tier.14)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 468,
+	reload = 150,
+	armor = 0,
+	dodge = 71,
+	id = 295314,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 100,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 1256000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 333,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983004,
+		2983009
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 14
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295315] = {
+	cannon = 235,
+	name = "約克鎮·META(Tier.15)",
+	torpedo = 0,
+	cannon_growth = 0,
+	air = 492,
+	reload = 150,
+	armor = 0,
+	dodge = 75,
+	id = 295315,
+	antiaircraft_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	luck_growth = 0,
+	hit = 110,
+	antisub_growth = 0,
+	air_growth = 0,
+	hit_growth = 0,
+	base = 91177,
+	durability = 1500000,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 350,
+	speed = 20,
+	luck = 50,
+	battle_unit_type = 90,
+	torpedo_growth = 0,
+	antisub = 0,
+	fog_fx = "",
+	equipment_list = {
+		2983004,
+		2983009
+	},
+	buff_list = {
+		{
+			ID = 201634,
+			LV = 15
+		},
+		{
+			ID = 200280,
+			LV = 1
+		},
+		{
+			ID = 201637,
+			LV = 1
+		}
+	}
+}
+
+
 _G.pg.base.enemy_data_statistics[295901] = {
 	cannon = 115,
 	antisub = 0,
@@ -739850,6 +740693,43 @@ _G.pg.base.enemy_data_statistics[295994] = {
 			ID = 201180,
 			LV = 1
 		}
+	}
+}
+
+
+_G.pg.base.enemy_data_statistics[295995] = {
+	cannon = 115,
+	antisub = 0,
+	air = 188,
+	cannon_growth = 0,
+	armor = 0,
+	reload = 150,
+	base = 91178,
+	dodge = 0,
+	torpedo_growth = 0,
+	antiaircraft_growth = 0,
+	air_growth = 0,
+	reload_growth = 0,
+	dodge_growth = 0,
+	speed_growth = 0,
+	star = 2,
+	hit = 30,
+	antisub_growth = 0,
+	rarity = 2,
+	luck_growth = 0,
+	torpedo = 0,
+	durability = 99999,
+	armor_growth = 0,
+	durability_growth = 0,
+	antiaircraft = 0,
+	speed = 30,
+	luck = 0,
+	hit_growth = 0,
+	id = 295995,
+	fog_fx = "",
+	appear_fx = {
+		"appearsmall",
+		"enemy_gouzao_fuyoupao"
 	}
 }
 

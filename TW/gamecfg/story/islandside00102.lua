@@ -6,14 +6,14 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "林场外，散乱着大量砍伐下来的木材，它们堆在一起，留下一条条不规则的缝隙。",
+			say = "林場外，散亂著大量砍伐的木材，它們堆在一起，留下一條條不規則的縫隙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯……好像真有声音？",
+			say = "嗯……好像真有聲音？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -23,7 +23,7 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "靠近时，一阵微风吹过，恰好穿过木材堆中一个狭窄而扭曲的空隙——",
+			say = "靠近時，一陣微風吹過，恰好穿過木材堆中一個狹窄而扭曲的空隙——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "呜——嗷——",
+			say = "嗚——嗷——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,14 +41,14 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "一阵尖锐、悠长的嚎哭声骤然响起。",
+			say = "一陣尖銳、悠長的嚎哭聲驟然響起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "原来如此……没想到是林场的木头堆发出的声音。",
+			say = "原來如此……沒想到是林場的木頭堆發出的聲音。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			say = "回去告诉奥布莱恩吧。",
+			say = "回去告訴奧布萊恩吧。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

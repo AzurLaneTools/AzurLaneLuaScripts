@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "长势真好……阳光都收在里面了。",
+			say = "長勢真好……陽光都收在裡面了。",
 			hideType = 2,
 			characterId = 100400,
 			animation = "nod"

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "呼，又有新增的港口订单了……指挥官？",
+			say = "呼，又有新增的港口訂單了……指揮官？",
 			animation = "rest",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "这、这杯饮料，是送给我的吗……？",
-			subName = "订单管理员",
+			say = "這、這杯飲料，是送給我的嗎……？",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，这是大家的心意，专门为你制作的能力特调。",
+			say = "嗯，這是大家的心意，專門為妳製作的能量特調。",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -53,10 +53,10 @@ return {
 			}
 		},
 		{
-			say = "好感动……非常感谢！",
+			say = "好感動……非常感謝！",
 			animation = "nod",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 		},
 		{
 			say = "唔啊，好奇妙的口感！",
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -73,17 +73,17 @@ return {
 		},
 		{
 			animation = "think",
-			say = "下层是清爽微甜的果汁混合体，上层是温热轻盈、带着焦脆香气的蛋白霜！",
+			say = "下層是清爽微甜的果汁混合體，上層是溫熱輕盈、帶著焦脆香氣的蛋白霜！",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "喝下之后立刻清醒了不少呢。",
-			subName = "订单管理员",
+			say = "喝下之後立刻清醒了不少呢。",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -91,18 +91,18 @@ return {
 			}
 		},
 		{
-			say = "那个，指挥官，我有个小小的请求……",
+			say = "那個，指揮官，我有一個小小的請求……",
 			animation = "shy",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "可以多做一些这种厉害的能量特调嘛！它真的很有用~",
-			subName = "订单管理员",
+			say = "可以多做一些這種厲害的能量特調嘛！它真的很有用~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			say = "之后如果能调配出不同的口味，肯定很受其他同伴的欢迎呢！",
-			subName = "订单管理员",
+			say = "之後如果能調配出不同的口味，一定很受其他同伴的歡迎呢！",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -119,10 +119,10 @@ return {
 			}
 		},
 		{
-			say = "总之……很感谢您为我做的一切，指挥官~",
+			say = "總之……很感謝您為我做的一切，指揮官~",
 			animation = "clap",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

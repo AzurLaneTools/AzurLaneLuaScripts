@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			animation = "nod",
 			characterId = 100500,
-			say = "喂最新鲜的牧草产的奶才会格外好哦~这就是努力的回报！",
+			say = "餵最新鮮的牧草產的奶才會特別好哦~這就是努力的回報！",
 			face2Face = {
 				{
 					0,

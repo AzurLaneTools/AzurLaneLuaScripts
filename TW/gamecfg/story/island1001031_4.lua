@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "（栖风原野的零件全部找齐，只剩最后的晨露农场了……）",
+			say = "（棲風原野的零件全部找齊，只剩下最後的晨露農場了……）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "（希望没有压到庄稼和动物。）",
+			say = "（希望沒有壓到農作物和動物。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

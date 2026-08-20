@@ -25,7 +25,7 @@ return {
 		{
 			animation = "hi",
 			characterId = 0,
-			say = "这样就行了？",
+			say = "這樣就行了？",
 			face2Face = {
 				{
 					0,
@@ -45,17 +45,17 @@ return {
 		},
 		{
 			animation = "rest",
-			say = "搞定！终于修好啦！",
+			say = "搞定！終於修好啦！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我们把站台完全修复，真是太不容易了！",
-			subName = "矿山管理员",
+			say = "我們把月台完全修復，真是太不容易了！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 		},
 		{
 			animation = "rest",
-			say = "这样……应该能在晚上前把货物送过去了吧？",
+			say = "這樣……應該能在晚上前把貨物送過去了吧？",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,17 +74,17 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯嗯，肯定能！真是多亏指挥官您及时帮忙！",
+			say = "嗯嗯，肯定能！真是多虧指揮官您及時幫忙！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "对了！作为谢礼……啊，在这儿！",
-			subName = "矿山管理员",
+			say = "對了！作為謝禮……啊，在這裡！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			say = "这个送给你——是我采矿时发现的，很特别吧！",
+			say = "這個送給你——是我採礦時發現的，很特別吧！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			say = "对吧对吧！亮晶晶的，超漂亮！",
-			subName = "矿山管理员",
+			say = "對吧！亮晶晶的，超漂亮！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -117,17 +117,17 @@ return {
 		},
 		{
 			animation = "shy",
-			say = "还、还有这个……",
+			say = "還、還有這個……",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "是我……特别处理过的木材，上面的木纹……您看，像不像星星？",
-			subName = "林场管理员",
+			say = "是我……特別處理過的木材，上面的木紋……您看，像不像星星？",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			say = "谢谢~",
+			say = "謝謝~",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -145,9 +145,9 @@ return {
 		},
 		{
 			animation = "embarrass",
-			say = "车来了——啊……不过上面好像装满了货物……",
+			say = "車子來了——啊……不過上面好像裝滿了貨物……",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,17 +155,17 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "因为车站损坏，这里积压了好多要加急送往码头的货呢！",
+			say = "因為車站損壞，這裡積壓了很多要加急送到碼頭的貨呢！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官您不急的话可以等下一班？",
-			subName = "矿山管理员",
+			say = "指揮官您不急的話可以等下一班？",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			say = "没关系，由我来带着这些货物一起去码头就好。",
+			say = "沒關係，由我來帶著這些貨物一起去碼頭就好。",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			say = "刚好我也很好奇现在这片区域的运作情况。",
+			say = "剛好我也很好奇現在這區域的運作。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -191,18 +191,18 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "那麻烦你啦！这是货物清单，等到了港口，帮忙交给帕特莉就好！",
+			say = "那麻煩你啦！這是貨物清單，等到了港口，幫忙交給帕特莉就好！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "她肯定在码头盯着呢~",
+			say = "她一定在碼頭盯著呢~",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,9 +216,9 @@ return {
 		},
 		{
 			animation = "bye",
-			say = "指挥官……一路顺风。",
+			say = "指揮官……一路順風。",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,9 +226,9 @@ return {
 		},
 		{
 			animation = "bye",
-			say = "一路顺风指挥官！下次记得来坐矿车玩啊！",
+			say = "一路順風指揮官！下次記得來坐礦車玩啊！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

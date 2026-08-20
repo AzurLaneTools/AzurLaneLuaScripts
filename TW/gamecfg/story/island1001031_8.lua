@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "（嗯？这里就是宝藏岛了？）",
+			say = "（嗯？這裡就是寶藏島了？）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "怎么感觉有点不太对……",
+			say = "怎麼感覺有點不太對……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			say = "先在四处看看吧。",
+			say = "先在四處看看吧。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

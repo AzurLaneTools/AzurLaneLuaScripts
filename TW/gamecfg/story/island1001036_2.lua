@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "阿莫玛——所有的餐品都准备好了。",
+			say = "阿莫瑪——所有的餐點都準備好了。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "辛苦指挥官了，放到这里的桌子上就好。",
+			subName = "商區管理員",
+			say = "辛苦指揮官了，放到這裡的桌上就好。",
 			characterId = 100800,
 			animation = "note",
 			typewriter = {
@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			say = "嗯……这样看着，总感觉餐品的种类还是有些单一。",
+			say = "嗯……這樣看著，總覺得餐點的種類還是有些單一。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			say = "一家店铺还好……但如果是整个商区的话，还是远远不够。",
+			say = "一家店還好……但如果是整個商區的話，還是遠遠不夠。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "商品的种类么……指挥官，听说现在开发区的农场和牧场都已经有不少产出了。",
+			subName = "商區管理員",
+			say = "商品的種類嗎……指揮官，聽說現在開發區的農場和牧場都已經有不少產出了。",
 			characterId = 100800,
 			animation = "think",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			say = "不如你再去繁荫农圃那边看看如何？",
-			subName = "商区管理员",
+			say = "不如你再去繁蔭農圃那邊看看如何？",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			say = "繁荫农圃？",
+			say = "繁蔭農圃？",
 			hidePaintObj = true,
 			characterId = 0,
 			typewriter = {
@@ -89,17 +89,17 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "嗯，那边也建成好一段时间了，只是好像一直没什么动静……",
+			say = "嗯，那邊也建成好一段時間了，只是好像一直沒什麼動靜……",
 			characterId = 100800,
-			subName = "商区管理员",
+			subName = "商區管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "可能是遇到了什么困难也说不一定。",
-			subName = "商区管理员",
+			say = "可能是遇到了什麼困難也說不一定。",
+			subName = "商區管理員",
 			characterId = 100800,
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			say = "这样么，那是要过去看看了，开发区可不能有人掉队。",
+			say = "這樣嗎，那是要過去看看了，開發區可不能有人掉隊。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "那指挥官快去吧，这里我来盯着就好。",
+			subName = "商區管理員",
+			say = "那指揮官快去吧，這裡我來盯著就好。",
 			characterId = 100800,
 			animation = "clap",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			say = "好，那就辛苦你了，阿莫玛。",
+			say = "好，那就辛苦妳了，阿莫瑪。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			subName = "商区管理员",
-			say = "嗯，我保证今天的商区一定会香气四溢地等着大家光临的。",
+			subName = "商區管理員",
+			say = "嗯，我保證今天的商區一定會香氣四溢地等著大家光臨的。",
 			characterId = 100800,
 			animation = "nod",
 			typewriter = {

@@ -25,7 +25,7 @@ pg.base.island_fish = {}
 
 (function ()
 	pg.base.island_fish[5001] = {
-		name = "贝壳",
+		name = "貝殼",
 		item_id = 5001,
 		id = 5001,
 		qte_effect = "fish_1",
@@ -38,7 +38,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5002] = {
-		name = "鲶鱼",
+		name = "鯰魚",
 		item_id = 5002,
 		id = 5002,
 		qte_effect = "fish_1",
@@ -51,7 +51,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5003] = {
-		name = "鲤鱼",
+		name = "鯉魚",
 		item_id = 5003,
 		id = 5003,
 		qte_effect = "fish_2",
@@ -64,7 +64,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5004] = {
-		name = "鲫鱼",
+		name = "鯽魚",
 		item_id = 5004,
 		id = 5004,
 		qte_effect = "fish_2",
@@ -77,7 +77,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5005] = {
-		name = "小河虾",
+		name = "小河蝦",
 		item_id = 5005,
 		id = 5005,
 		qte_effect = "fish_3",
@@ -90,7 +90,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5006] = {
-		name = "小龙虾",
+		name = "小龍蝦",
 		item_id = 5006,
 		id = 5006,
 		qte_effect = "fish_3",
@@ -103,7 +103,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5007] = {
-		name = "鲈鱼",
+		name = "鱸魚",
 		item_id = 5007,
 		id = 5007,
 		qte_effect = "fish_4",
@@ -129,7 +129,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5101] = {
-		name = "鱿鱼",
+		name = "魷魚",
 		item_id = 5101,
 		id = 5101,
 		qte_effect = "fish_2",
@@ -142,7 +142,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5102] = {
-		name = "马鲛鱼",
+		name = "馬鮫魚",
 		item_id = 5102,
 		id = 5102,
 		qte_effect = "fish_2",
@@ -155,7 +155,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5103] = {
-		name = "金枪鱼",
+		name = "金槍魚",
 		item_id = 5103,
 		id = 5103,
 		qte_effect = "fish_2",
@@ -168,7 +168,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5104] = {
-		name = "三文鱼",
+		name = "三文魚",
 		item_id = 5104,
 		id = 5104,
 		qte_effect = "fish_3",
@@ -181,7 +181,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5105] = {
-		name = "红鲷鱼",
+		name = "紅鯛魚",
 		item_id = 5105,
 		id = 5105,
 		qte_effect = "fish_3",
@@ -194,7 +194,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5106] = {
-		name = "黑鲷鱼",
+		name = "黑鯛魚",
 		item_id = 5106,
 		id = 5106,
 		qte_effect = "fish_4",
@@ -207,7 +207,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5107] = {
-		name = "黄鳍金枪鱼",
+		name = "黃鰭金槍魚",
 		item_id = 5107,
 		id = 5107,
 		qte_effect = "fish_4",
@@ -220,7 +220,7 @@ pg.base.island_fish = {}
 		}
 	}
 	pg.base.island_fish[5108] = {
-		name = "海参",
+		name = "海參",
 		item_id = 5108,
 		id = 5108,
 		qte_effect = "fish_4",

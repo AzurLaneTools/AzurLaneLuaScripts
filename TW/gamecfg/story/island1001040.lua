@@ -19,8 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "哇——土壤很疏松，肥力也不错，很适合树种根系的生长呢！",
-			subName = "果园管理员",
+			say = "哇——土壤很疏鬆，肥力也不錯，很適合樹種根系的生長！",
+			subName = "果園管理員",
 			characterId = 101100,
 			animation = "amaze",
 			face2Face = {
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官，你种得比我第一次种的时候可好多了呢！",
-			subName = "果园管理员",
+			say = "指揮官，你種得比我第一次種的時候可好多了呢！",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "真的？我还担心会不会水浇多了或者少了……",
+			say = "真的？我還擔心會不會水澆多了或少了……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -53,17 +53,17 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "安啦~现在土壤湿度刚刚好！阳光也棒！",
+			say = "安啦~現在土壤濕度剛好！陽光也棒！",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "后面我会帮你看着的，接下来……就交给阳光、雨露，还有蜜蜂们吧~",
-			subName = "果园管理员",
+			say = "後面我會幫你照顧的，接下來……就交給陽光、雨露，還有蜜蜂們吧~",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -72,16 +72,16 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "我们只要耐心等待，它们一定会努力长出大苹果的！",
+			say = "我們只要耐心等待，它們一定會努力長出大蘋果的！",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，说得对。接下来，就是看着它慢慢长大，开花和结果了。",
+			say = "嗯，說得對。接下來，就是看著它慢慢長大，開花結果了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 		},
 		{
 			animation = "bye",
-			say = "嘻嘻~指挥官，记得要常来看看你的果树哦！",
+			say = "嘻嘻~指揮官，記得要常來看看你的果樹！",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

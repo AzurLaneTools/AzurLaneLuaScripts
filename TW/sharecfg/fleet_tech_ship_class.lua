@@ -393,6 +393,7 @@ pg.fleet_tech_ship_class.all = {
 	970705,
 	970706,
 	970707,
+	970708,
 	970801,
 	971201,
 	971301
@@ -4904,7 +4905,7 @@ end)()
 	}
 	pg.base.fleet_tech_ship_class[970510] = {
 		shiptype = 5,
-		name = "甘古特META",
+		name = "甘古特·META",
 		t_level = 3,
 		id = 970510,
 		t_level_1 = 16,
@@ -5043,6 +5044,17 @@ end)()
 		nation = 97,
 		ships = {
 			970707
+		}
+	}
+	pg.base.fleet_tech_ship_class[970708] = {
+		shiptype = 7,
+		name = "約克鎮·META",
+		t_level = 2,
+		id = 970708,
+		t_level_1 = 1,
+		nation = 97,
+		ships = {
+			970708
 		}
 	}
 	pg.base.fleet_tech_ship_class[970801] = {

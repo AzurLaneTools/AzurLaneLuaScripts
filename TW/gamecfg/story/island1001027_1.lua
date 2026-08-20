@@ -13,7 +13,7 @@ return {
 			}
 		},
 		{
-			say = "还挺能躲的，都跑这里来了。",
+			say = "還挺能躲的，都跑這裡來了。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			say = "（咯咯鸡已落网，回去告诉梅莉这个好消息吧。）",
+			say = "（咯咯雞已落網，回去告訴梅莉這個好消息吧。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

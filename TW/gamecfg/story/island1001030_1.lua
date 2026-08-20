@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "你好，布莱梅。",
+			say = "妳好，布萊梅。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "啊——欢迎光临，指挥官。",
+			say = "啊——歡迎光臨，指揮官。",
 			animation = "hi",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "您是来店里巡视的吗？我马上就把今天的营业额计算出来！",
-			subName = "啾咖啡店员",
+			say = "您是來店裡巡視的嗎？我馬上就把今天的營業額算出來！",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -52,17 +52,17 @@ return {
 			}
 		},
 		{
-			say = "——还有周报表、月报表，以及营业情况总结等，我马上给您说明情况。",
+			say = "——還有週報表、月報表，以及營業狀況總結等，我馬上給您說明狀況。",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯？什么……情况？",
+			say = "嗯？什麼……情況？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -70,18 +70,18 @@ return {
 			}
 		},
 		{
-			say = "欸？指挥官不知道吗？这家店从昨天起就已经从{namecode:98:明石}那里转移到你的名下了。",
+			say = "欸？指揮官不知道嗎？這家店從昨天起就已經從明石轉移到你的名下了。",
 			animation = "doubt",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "所以我连忙做了工作汇报……",
-			subName = "啾咖啡店员",
+			say = "所以我連忙做了工作報告……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			say = "（是跟着开发区一起转让的么……）",
+			say = "（是跟著開發區一起轉讓的嗎……）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			say = "辛苦完成工作汇报了……但在那之前……",
+			say = "辛苦完成工作報告了……但在那之前……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "布莱梅，能给我来一份这里的招牌欧姆蛋么？",
+			say = "布萊梅，能給我來一份這裡的招牌歐姆蛋嗎？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -114,17 +114,17 @@ return {
 			}
 		},
 		{
-			say = "欧姆蛋？非常抱歉，指挥官……今天的欧姆蛋，已经卖光了。",
+			say = "歐姆蛋？非常抱歉，指揮官……今天的歐姆蛋，已經賣光了。",
 			animation = "shakehead",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "卖——卖光了？原来还是限量款？",
+			say = "賣——賣光了？原來還是限量款？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			say = "唔……刚才斯蒂芬妮小姐也说过同样的话呢~",
-			subName = "啾咖啡店员",
+			say = "嗯……剛才史蒂芬妮小姐也說過同樣的話呢~",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -141,18 +141,18 @@ return {
 			}
 		},
 		{
-			say = "虽然是限量销售没错……但其实是因为食材的原因……",
+			say = "雖然是限量銷售沒錯……但其實是因為食材的原因……",
 			animation = "sad",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "现在岛上的食物大多都是从港区送来的，数量有限……",
-			subName = "啾咖啡店员",
+			say = "現在島上的食物大多都是從港區送來的，數量有限……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			say = "原来是因为没有食材么，那布莱梅，你看看这些鸡蛋。",
+			say = "原來是因為沒有食材嗎，那布萊梅，妳看看這些雞蛋。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -168,18 +168,18 @@ return {
 			}
 		},
 		{
-			say = "鸡蛋？嗯……色泽均匀，表面光滑，看起来很棒呢！",
+			say = "雞蛋？嗯……色澤均勻，表面光滑，看起來很棒！",
 			animation = "doubt",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这是指挥官从港区带来的？",
-			subName = "啾咖啡店员",
+			say = "這是指揮官從港區帶來的？",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -188,7 +188,7 @@ return {
 		},
 		{
 			animation = "shakehead",
-			say = "不不不，这可都是梅莉牧场里的第一批产品。",
+			say = "不不不，這可都是梅莉牧場裡的第一批產品。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			say = "这样啊，难怪看起来相当新鲜……",
-			subName = "啾咖啡店员",
+			say = "這樣啊，難怪看起來相當新鮮……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -205,10 +205,10 @@ return {
 			}
 		},
 		{
-			say = "指挥官，请把这些食材交给我……放心，我会认真对待这些原料的。",
+			say = "指揮官，請把這些食材交給我……放心，我會認真對待這些原料的。",
 			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "{namecode:98:明石}，你找我有事？",
+			say = "明石，妳找我有事？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官快来，我找到帮你修理飞行器的方法了喵~",
+			say = "指揮官快來，我找到幫你修理飛行器的方法了喵~",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "飞行器？不会是已经坠毁了的那架吧？",
+			say = "飛行器？不會是已經墜毀了的那架吧？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "没错喵~就是那个！",
+			say = "沒錯喵~就是那個！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 		},
 		{
 			animation = "embarrass",
-			say = "不过需要你帮忙收集它坠毁时落在岛上的飞行器碎片。",
+			say = "不過需要你幫忙收集它墜毀時落在島上的飛行器碎片。",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			say = "你突然想修理飞行器做什么？",
+			say = "妳突然想修理飛行器做什麼？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			say = "这个嘛……指挥官知道最近港口上流传的那个宝藏岛的传闻吗喵？",
+			say = "這個嘛……指揮官知道最近港口上流傳的那個寶藏島的傳聞嗎喵？",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -84,7 +84,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "宝藏岛？帕特莉和斯蒂芬妮都和我提过……不过这和你找碎片的联系是？",
+			say = "寶藏島？帕特莉和史蒂芬妮都跟我提過……不過這跟你找碎片的關聯是？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			say = "怎么，你难道也对所谓的宝藏有兴趣？",
+			say = "怎麼，妳難道也對所謂的寶藏有興趣？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			say = "嘿嘿，兴趣当然有喵~",
+			say = "嘿嘿，興趣當然有喵~",
 			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			say = "不过嘛……指挥官最近这么照顾{namecode:98:明石}生意，我也不能光拿好处不回报喵！",
+			say = "不過嘛……指揮官最近這麼照顧明石生意，我也不能光拿好處不回報喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			say = "这个机遇就让给指挥官吧喵~",
+			say = "這個機會就讓給指揮官吧喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			say = "什么机遇？",
+			say = "什麼機會？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			say = "哼哼~岛的周围全是怪雾和乱流，靠近的船都在水里打转喵！",
+			say = "哼哼~島的周圍全是怪霧和亂流，靠近的船都在水裡打轉喵！",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			say = "但是！{namecode:98:明石}有办法喵！",
+			say = "但是！明石有辦法喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			say = "……你不会是想飞过去吧？",
+			say = "……妳不會是想飛過去吧？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官果然英明~就是飞过去喵！",
+			say = "指揮官果然英明~就是飛過去喵！",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			say = "靠那架已经摔得不成样子了的飞行器？",
+			say = "靠那架已經摔得不成樣子了的飛行器？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -176,7 +176,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "当然喵~只要集齐散落在岛上的其他零件，{namecode:98:明石}就有把握将它修好喵！",
+			say = "當然喵~只要集齊散落在島上的其他零件，明石就有把握將它修好喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			say = "你敢打包票？",
+			say = "妳敢打包票？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			say = "喵！指挥官怎么能怀疑{namecode:98:明石}的技术喵！从空中直接突破那层怪雾和乱流，是唯一可行的办法喵！",
+			say = "喵！指揮官怎麼能懷疑明石的技術喵！從空中直接突破那層怪霧和亂流，是唯一可行的辦法喵！",
 			characterId = 3120100,
 			animation = "amaze",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			say = "不过现在开发区的运转都已经进入正轨，就当是寻找新的增长点了？",
+			say = "不過現在開發區的運作都已經進入正軌，就當是尋找新的成長點了？",
 			characterId = 0,
 			optionFlag = 1,
 			animation = "nod",
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			say = "岛屿虽然在稳步发展中，可若是有一笔额外的启动资金……",
+			say = "島嶼雖然在穩定發展中，可若是有一筆額外的啟動資金……",
 			optionFlag = 2,
 			characterId = 0,
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			say = "（债务压力虽然还在，但发展的大方向已经明确，一切都在稳步向前……）",
+			say = "（債務壓力雖然還在，但發展的大方向已經明確，一切都在穩步向前……）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			say = "喵呼呼，就知道指挥官一定想去看看的，所以{namecode:98:明石}早就做好准备了喵~",
+			say = "喵呼呼，就知道指揮官一定想去看看的，所以明石早就做好準備了喵~",
 			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			say = "现在还差不少重要零件，它们都掉到了栖风原野、晨露农场和港口上。",
+			say = "現在還差不少重要零件，它們都掉到了棲風原野、晨露農場和港口上。",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			say = "等指挥官找到零件的具体所在的位置，呼叫{namecode:98:明石}就好了喵~{namecode:98:明石}会想办法的喵~",
+			say = "等指揮官找到零件的具體所在的位置，呼叫明石就好了喵~明石會想辦法的喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "这就是你说的那个装置？",
+			say = "這就是妳說的裝置？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			subName = "集会岛向导",
-			say = "没错哦……指挥官可以试试看。",
+			subName = "集會島向導",
+			say = "沒錯哦……指揮官可以試試看。",
 			characterId = 101300,
 			animation = "elation",
 			typewriter = {
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			say = "按下去后很快就会有各种物资落下来了，超棒的！",
-			subName = "集会岛向导",
+			say = "按下去後很快就會有各種物資落下來了，超棒的！",
+			subName = "集會島向導",
 			characterId = 101300,
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "嗯……听起来确实不错。",
+			say = "嗯……聽起來確實不錯。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			say = "那我来试试看。",
+			say = "那我來試試看。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

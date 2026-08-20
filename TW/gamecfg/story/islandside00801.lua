@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "帕特莉，你在记什么？",
+			say = "帕特莉，你在記什麼？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "啊！指挥官，你来得正是时候~",
+			say = "啊！指揮官，你來得正是時候~",
 			animation = "clap",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "刚好我这里有一个重、大、任务要交给你~",
-			subName = "订单管理员",
+			say = "剛好我這裡有一個重、大、任務要交給你~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "让我猜猜，是不是和岛屿订单有关的事？",
+			say = "讓我猜猜，是不是跟島嶼訂單有關的事？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -60,17 +60,17 @@ return {
 			}
 		},
 		{
-			say = "欸！指挥官怎么猜中的，好厉害！",
+			say = "欸！指揮官怎麼猜中的，好厲害！",
 			animation = "amaze",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "看你手里拿的笔记大概就知道了。",
+			say = "看妳手上拿的筆記大概就知道了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			say = "说吧，具体是要去哪，干什么？",
+			say = "說吧，具體要去哪，幹嘛？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -87,18 +87,18 @@ return {
 			}
 		},
 		{
-			say = "去找斯蒂芬妮吧，她刚才火急火燎地跑过来委托我出订单，大概率是有什么要紧事吧",
+			say = "去找史蒂芬妮吧，她剛才火急火燎地跑過來委託我出訂單，大機率是有什麼要緊事吧",
 			animation = "think",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我正愁没人帮忙呢，指挥官就出现了，简直就是我们俩的救星呀~",
-			subName = "订单管理员",
+			say = "我正愁沒人幫忙呢，指揮官就出現了，簡直就是我們兩個的救星呀~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -106,10 +106,10 @@ return {
 			}
 		},
 		{
-			say = "嘿嘿~这份紧急订单就靠你啦，大救星~",
+			say = "嘿嘿~這份緊急訂單就靠你啦，大救星~",
 			animation = "clap",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

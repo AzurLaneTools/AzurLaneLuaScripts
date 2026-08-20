@@ -25,7 +25,8 @@ pg.open_systems_limited.all = {
 	21,
 	24,
 	25,
-	26
+	26,
+	27
 }
 pg.base = pg.base or {}
 pg.base.open_systems_limited = {}
@@ -214,5 +215,13 @@ pg.base.open_systems_limited = {}
 		id = 26,
 		mediator = "NewEducateSelectMediator",
 		level = 30
+	}
+	pg.base.open_systems_limited[27] = {
+		scene = "MAINUI",
+		name = "島嶼",
+		story_id = "",
+		id = 27,
+		mediator = "IslandMediator",
+		level = 50
 	}
 end)()

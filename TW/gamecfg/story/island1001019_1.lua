@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "{namecode:98:明石}……这个就是你要的岛屿权限认证函？",
+			say = "明石……這就是妳要的島嶼權限認證函？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "嗯嗯~没错，就是这个喵~",
+			say = "嗯嗯~沒錯，就是這個喵~",
 			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "有了认证函，我们就能让港区更多的伙伴加入到岛屿开发中来了喵~",
+			say = "有了認證函，我們就能讓港區更多的夥伴加入到島嶼開發中來了喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官快跟我来，将它放到这边的岛屿权限认证装置中就能完成认证了。",
+			say = "指揮官快跟我來，將它放到這邊的島嶼權限認證裝置就能完成認證了。",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

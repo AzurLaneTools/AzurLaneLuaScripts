@@ -28,7 +28,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "乔安，这些够了么？",
+			say = "喬安，這些夠了嗎？",
 			characterId = 0,
 			camera = "StoryCamera2",
 			face2Face = {
@@ -44,9 +44,9 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "喔哦！指挥官您太厉害了！效率真高！",
+			say = "喔哦！指揮官您太厲害了！效率真高！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			say = "加上您采的这些，修复用的煤炭终于凑齐啦！这下有希望了！",
+			say = "加上您採的這些，修復用的煤炭終於湊齊啦！這下有希望了！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,9 +82,9 @@ return {
 		},
 		{
 			animation = "think",
-			say = "还差一点点！要想完全修好，还需要一些木材加固顶棚呢！",
+			say = "還差一點點！要完全修好，還需要一些木材加固頂棚呢！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,16 +92,16 @@ return {
 		},
 		{
 			animation = "amaze",
-			say = "啊……木、木材吗？我之前没准备到这部分……",
+			say = "啊……木、木材嗎？我之前還沒準備到這部分……",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "乔安，现在去还来得及么？",
+			say = "喬安，現在去還來得及嗎？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -111,17 +111,17 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "来得及！绝对来得及！",
+			say = "來得及！絕對來得及！",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我会在你们去准备木材的同时，先把这些煤炭用上，做基础的地面修复工作！",
-			subName = "矿山管理员",
+			say = "我會在你們去準備木材的同時，先把這些煤炭用上，做基礎的地面修復工作！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			say = "两边一起干，肯定能赶上！奥布莱恩，你带指挥官去林区怎么样？",
-			subName = "矿山管理员",
+			say = "兩邊一起做，一定能趕上！奧布萊恩，妳帶指揮官去林區怎麼樣？",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -141,16 +141,16 @@ return {
 			animation = "nod",
 			say = "嗯……好、好的。",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官……我们得快点采集到木材才行。",
+			say = "指揮官……我們得快點採集到木材才行。",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "竟然起了反效果吗……",
+			say = "竟然起了反效果嗎……",
 			animation = "sad",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "我来想想怎么改进配方吧。",
-			subName = "啾咖啡店员",
+			say = "我來想想怎麼改進配方吧。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -45,17 +45,17 @@ return {
 		},
 		{
 			animation = "think",
-			say = "有可能是比例出了问题……或者……",
+			say = "有可能是比例出了問題……或者……",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，找到方向了——重新调整选材试试吧。",
-			subName = "啾咖啡店员",
+			say = "嗯，找到方向了——重新調整選材試試看。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			say = "这样的话，新配方就需要一些新食材。",
-			subName = "啾咖啡店员",
+			say = "這樣的話，新配方就需要一些新食材。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -73,17 +73,17 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "指挥官，能帮我找一些新鲜鸡蛋吗？",
+			say = "指揮官，可以幫我找一些新鮮雞蛋嗎？",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我想要烤制一些口感轻盈可口，又能快速补充精力的蛋白霜。",
-			subName = "啾咖啡店员",
+			say = "我想要烤製一些口感輕盈可口，又能快速補充精力的蛋白霜。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "好，我去农场看看。",
+			say = "好，我去農場看看。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

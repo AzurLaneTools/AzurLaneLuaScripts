@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "最后的一车！加油加油~就快下工啦！",
+			say = "最後的一車！加油加油~就快下工啦！",
 			hideType = 2,
 			characterId = 100600,
 			animation = "rest"

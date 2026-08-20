@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "奥布莱恩，打扰一下。",
+			say = "奧布萊恩，打擾一下。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,17 +33,17 @@ return {
 			}
 		},
 		{
-			say = "指、指挥官？您怎么……您抱着的是典雅之木？",
+			say = "指、指揮官？您怎麼……您抱著的是典雅之木？",
 			animation = "doubt",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，帕特莉给我画了幅画，我想给它配个最好的画框。",
+			say = "嗯，帕特莉給我畫了幅畫，我想給它一個最好的畫框。",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "我觉得……这种典雅之木正合适。",
+			say = "我覺得……這種典雅之木正合適。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -60,18 +60,18 @@ return {
 			}
 		},
 		{
-			say = "什……什么？这可是岛上最顶级的木材……纹理紧实，坚逾钢铁，还带有清心的香气。",
+			say = "什……什麼？這可是島上最頂級的木材……紋理緊實，堅逾鋼鐵，還帶有清心的香氣。",
 			animation = "amaze",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官……你要用它做画框？",
-			subName = "林场管理员",
+			say = "指揮官……你要用它來做畫框？",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			say = "没错，这木材的香味和纹理用来做画框正合适。",
+			say = "沒錯，這木材的香味和紋理用來做畫框正合適。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -87,17 +87,17 @@ return {
 			}
 		},
 		{
-			say = "唔……这么一说倒也是，只是……感觉有些浪费而已。",
+			say = "嗯……這麼一說倒也是，只是……感覺有些浪費而已。",
 			animation = "talk",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "奥布莱恩，我理解你的心情。",
+			say = "奧布萊恩，我理解妳的心情。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "但是，帕特莉的画对我来说也很特别，它记录了我们开发区一个重要瞬间。",
+			say = "但是，帕特莉的畫對我來說也很特別，它紀錄了我們開發區一個重要時刻。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			say = "我觉得，只有最好的画框，才配得上把它好好保存起来，展示在大家面前。",
+			say = "我覺得，只有最好的畫框，配得上把它好好保存起來，展示在大家面前。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			say = "所以，拜托你用它们做个漂亮的画框……我相信你的手艺，能让它物尽其用。",
+			say = "所以，拜託你用它們做個漂亮的畫框……我相信你的手藝，能讓它物盡其用。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -130,18 +130,18 @@ return {
 			}
 		},
 		{
-			say = "唉……好吧！既然是帕特莉小姐的心血之作，又被指挥官这么郑重地托付……",
+			say = "唉……好吧！既然是帕特莉小姐的心血之作，又被指揮官這麼鄭重地託付……",
 			animation = "nod",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那给我一段时间，奥布莱恩……可要拿出看家本事了！",
-			subName = "林场管理员",
+			say = "那給我一段時間，奧布萊恩……可要拿出看家本事了！",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -158,18 +158,18 @@ return {
 			}
 		},
 		{
-			say = "好了！指挥官你看……严丝合缝，边角圆润不伤手。",
+			say = "好了！指揮官你看……嚴絲合縫，邊角圓潤不傷手。",
 			animation = "talk",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "表面也都被我打磨到能照出人影的程度了！也不影响里面香气的散发！",
-			subName = "林场管理员",
+			say = "表面也都被我打磨到能照出人影的程度了！也不影響裡面香氣的散發！",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			say = "很完美……比我预想的还要好，谢谢。",
+			say = "很完美……比我預想的還要好，謝謝。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -185,10 +185,10 @@ return {
 			}
 		},
 		{
-			say = "指挥官喜欢就好，快拿去给帕特莉看看吧~",
+			say = "指揮官喜歡就好，快拿去給帕特莉看看吧~",
 			animation = "nod",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "林場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			say = "嗯，指挥官再见~",
-			subName = "林场管理员",
+			say = "嗯，指揮官再見~",
+			subName = "林場管理員",
 			characterId = 100700,
 			typewriter = {
 				speed = 0.05,

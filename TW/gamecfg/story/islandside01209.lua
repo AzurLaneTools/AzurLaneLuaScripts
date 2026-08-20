@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "好棒的柑橘咖啡啊……不过，等工作完成之后再吃会更美味。",
+			say = "好棒的柑橘咖啡啊……不過，等工作完成後再吃會更美味。",
 			animation = "nod",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官也是这么觉得的对吧？",
-			subName = "果园管理员",
+			say = "指揮官也是這麼覺得的對吧？",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "毕竟这也算是我们的劳动成果。",
+			say = "畢竟這也算是我們的勞動成果。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -53,18 +53,18 @@ return {
 			}
 		},
 		{
-			say = "没错！就是这样！",
+			say = "沒錯！就是這樣！",
 			animation = "clap",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "对了，刚才我清点了一下果园的储备，",
-			subName = "果园管理员",
+			say = "對了，剛才我清點了一下果園的儲備，",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			say = "如果订单数量和上次一样多的话，可能会不够。",
-			subName = "果园管理员",
+			say = "如果訂單數量和上次一樣多的話，可能會不夠。",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			say = "能麻烦指挥官帮我问问帕特莉这次的订单数量有多少吗？",
-			subName = "果园管理员",
+			say = "能麻煩指揮官幫我問問帕特莉這次的訂單數量有多少嗎？",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,

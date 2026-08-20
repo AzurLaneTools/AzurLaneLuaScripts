@@ -21,7 +21,7 @@ return {
 		{
 			animation = "talk",
 			characterId = 0,
-			say = "拉科尼娅，你的肥料在运送的途中散落了一地……大概是没法用了。",
+			say = "拉科尼婭，妳的肥料在運送的途中散落了一地……大概是沒法用了。",
 			face2Face = {
 				{
 					0,
@@ -34,18 +34,18 @@ return {
 			}
 		},
 		{
-			say = "原来是这样……谢谢你指挥官。",
+			say = "原來是這樣……謝謝你指揮官。",
 			animation = "sad",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "只是没有肥料的话……订单……",
-			subName = "苗圃管理员",
+			say = "只是沒有肥料的話……訂單……",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			say = "已经，没有办法了么……",
-			subName = "苗圃管理员",
+			say = "已經，沒有辦法了嗎……",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "不，一定还有办法的",
+			say = "不，一定還有辦法的",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "或许……可以试着重新去订购一些？",
+			say = "或許……可以試著重新去訂購一些？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官……",
-			subName = "苗圃管理员",
+			say = "指揮官…",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -88,18 +88,18 @@ return {
 			}
 		},
 		{
-			say = "你说得对……现在还不是放弃的时候！",
+			say = "你說得對……現在還不是放棄的時候！",
 			animation = "nod",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "订购肥料的事，能拜托指挥官去问问帕特莉吗？",
-			subName = "苗圃管理员",
+			say = "訂購肥料的事，能拜託指揮官去問問帕特莉嗎？",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			say = "好，我去帮你问问。",
+			say = "好，我去幫妳問。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

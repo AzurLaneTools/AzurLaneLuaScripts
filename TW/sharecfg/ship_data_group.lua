@@ -850,6 +850,7 @@ pg.ship_data_group.all = {
 	30051,
 	30052,
 	30053,
+	30054,
 	30055,
 	30056,
 	30057,
@@ -3203,6 +3204,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[970707] = {
 		30048
 	},
+	[970708] = {
+		30054
+	},
 	[970801] = {
 		30021
 	},
@@ -4265,6 +4269,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		30051,
 		30052,
 		30053,
+		30054,
 		30055,
 		30056,
 		30057,
@@ -38509,6 +38514,41 @@ end)()
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9702081
+					}
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[30054] = {
+		nationality = 97,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970708,
+		index_id = 30054,
+		code = 30054,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9707081
 					}
 				},
 				0

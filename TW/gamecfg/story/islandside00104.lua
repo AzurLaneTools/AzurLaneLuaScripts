@@ -5,7 +5,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "呼……需要砍伐的木材就这些了。",
+			say = "呼……需要砍伐的木材就這些了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -13,7 +13,7 @@ return {
 			}
 		},
 		{
-			say = "回去交给奥布莱恩吧。",
+			say = "回去交給奧布萊恩吧。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

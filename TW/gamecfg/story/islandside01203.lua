@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "太好了，这下终于能帮这些孩子们修剪树枝了。",
+			say = "太好了，這下終於能幫這些孩子修剪樹枝了。",
 			animation = "nod",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			face2Face = {
 				{
 					0,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "用完之后要记得还给赫莫。",
+			say = "用完之後要記得還給赫莫。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			say = "这是当然的啦，我正打算找奥布莱恩帮我制作一个新的呢！",
-			subName = "果园管理员",
+			say = "這是當然的啦，我正打算找奧布萊恩幫我做一個新的呢！",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -52,10 +52,10 @@ return {
 			}
 		},
 		{
-			say = "不过嘛……那个……",
+			say = "不過嘛……那個……",
 			animation = "embarrass",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "我帮你去问问奥布莱恩吧。",
+			say = "我幫妳問奧布萊恩吧。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -78,10 +78,10 @@ return {
 			}
 		},
 		{
-			say = "真、真的吗？！那就麻烦指挥官了！",
+			say = "真、真的嗎？！那就麻煩指揮官了！",
 			animation = "clap",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,14 +6,15 @@ pg.island_furniture_theme.all = {
 	1,
 	2,
 	3,
-	4
+	4,
+	5
 }
 pg.base = pg.base or {}
 pg.base.island_furniture_theme = {}
 
 (function ()
 	pg.base.island_furniture_theme[1] = {
-		name = "白熊营地",
+		name = "白熊營地",
 		id = 1,
 		icon = "",
 		desc = "",
@@ -51,7 +52,7 @@ pg.base.island_furniture_theme = {}
 		}
 	}
 	pg.base.island_furniture_theme[2] = {
-		name = "秋日枫庭",
+		name = "秋日楓庭",
 		id = 2,
 		icon = "",
 		desc = "",
@@ -119,7 +120,7 @@ pg.base.island_furniture_theme = {}
 		}
 	}
 	pg.base.island_furniture_theme[4] = {
-		name = "梦幻游乐园",
+		name = "夢幻遊樂園",
 		id = 4,
 		icon = "",
 		desc = "",
@@ -153,6 +154,39 @@ pg.base.island_furniture_theme = {}
 			40801,
 			40802,
 			40803
+		}
+	}
+	pg.base.island_furniture_theme[5] = {
+		name = "荒野小鎮",
+		id = 5,
+		icon = "",
+		desc = "",
+		furniture = {
+			50300,
+			50301,
+			50302,
+			50304,
+			50305,
+			50306,
+			50307,
+			50308,
+			50309,
+			50310,
+			50311,
+			50312,
+			50313,
+			50314,
+			50315,
+			50316,
+			50318,
+			50319,
+			50320,
+			50321,
+			50322,
+			50325,
+			50347,
+			50348,
+			50349
 		}
 	}
 end)()

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官你回来了……那是，肥料……？",
+			say = "指揮官你回來了……那是，肥料……？",
 			animation = "hi",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "太好了……这下订单有希望了……！",
-			subName = "苗圃管理员",
+			say = "太好了……這下訂單有希望了……！",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -44,18 +44,18 @@ return {
 			}
 		},
 		{
-			say = "但是，时间还是很紧迫……",
+			say = "但是，時間還是很緊迫…",
 			animation = "think",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官，你可以……帮我一起种植么……？",
-			subName = "苗圃管理员",
+			say = "指揮官，你可以……幫我一起種嗎……？",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			say = "没问题。",
+			say = "沒問題。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -72,18 +72,18 @@ return {
 			}
 		},
 		{
-			say = "太感谢了……北边的苗圃，就交给指挥官了……我负责南边的。",
+			say = "太感謝了……北邊的苗圃，就交給指揮官了……我負責南邊的。",
 			animation = "nod",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "成熟的薰衣草，刚刚被我收获掉……现在我们就从播种开始吧。",
-			subName = "苗圃管理员",
+			say = "成熟的薰衣草，剛剛被我收穫…完成…現在我們就從播種開始。",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,

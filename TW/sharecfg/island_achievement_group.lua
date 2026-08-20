@@ -14,7 +14,7 @@ pg.base.island_achievement_group = {}
 (function ()
 	pg.base.island_achievement_group[1] = {
 		id = 1,
-		name = "筑梦之章",
+		name = "築夢之章",
 		icon = "achv_type_2",
 		achievement_list = {
 			1,
@@ -30,7 +30,7 @@ pg.base.island_achievement_group = {}
 	}
 	pg.base.island_achievement_group[2] = {
 		id = 2,
-		name = "繁荣之道",
+		name = "繁榮之道",
 		icon = "achv_type_1",
 		achievement_list = {
 			101,
@@ -45,7 +45,7 @@ pg.base.island_achievement_group = {}
 	}
 	pg.base.island_achievement_group[3] = {
 		id = 3,
-		name = "商贸之路",
+		name = "商貿之路",
 		icon = "achv_type_3",
 		achievement_list = {
 			201,
@@ -57,7 +57,7 @@ pg.base.island_achievement_group = {}
 	}
 	pg.base.island_achievement_group[4] = {
 		id = 4,
-		name = "成长之旅",
+		name = "成長之旅",
 		icon = "achv_type_4",
 		achievement_list = {
 			301,

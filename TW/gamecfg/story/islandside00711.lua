@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "嗯……还剩下最后的迷迭香了……",
+			say = "嗯……還剩下最後的迷迭香了……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "是开发区里没有的东西。",
+			say = "是開發區裡沒有的東西。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			say = "没办法，只能去找阿莫玛问问了。",
+			say = "沒辦法，只能去找阿莫瑪問問了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

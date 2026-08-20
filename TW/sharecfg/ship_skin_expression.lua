@@ -100806,6 +100806,60 @@ end)()
 		login = "1",
 		detail = "3"
 	}
+	pg.base.ship_skin_expression.yuekecheng_alter = {
+		default = "",
+		feeling3 = "1",
+		main3_replace = "",
+		profile = "",
+		expedition = "2",
+		win_mvp = "1",
+		home = "2",
+		mission = "2",
+		touch2 = "1",
+		touch = "",
+		painting = "yuekecheng_alter",
+		unlock_replace = "",
+		propose = "2",
+		feeling1 = "3",
+		lose = "5",
+		mail = "",
+		main_6 = "",
+		main_7 = "",
+		feeling5 = "2",
+		expedition_replace = "",
+		battle = "3",
+		skill = "3",
+		mission_complete = "1",
+		unlock = "",
+		login_replace = "",
+		headtouch_replace = "",
+		detail_replace = "",
+		hp_warning = "3",
+		main2_replace = "",
+		feeling4 = "",
+		main5_replace = "",
+		main6_replace = "",
+		touch_replace = "",
+		main_4 = "",
+		main_1 = "2",
+		mission_replace = "",
+		mail_replace = "",
+		gift_dislike = "",
+		touch2_replace = "",
+		main7_replace = "",
+		main1_replace = "",
+		main_2 = "3",
+		main_3 = "1",
+		gift_prefer = "",
+		upgrade = "",
+		main4_replace = "",
+		headtouch = "6",
+		feeling2 = "",
+		main_5 = "",
+		mission_complete_replace = "",
+		login = "",
+		detail = "4"
+	}
 	pg.base.ship_skin_expression.liekexingdunII = {
 		default = "",
 		feeling3 = "1",
@@ -102588,6 +102642,8 @@ end)()
 		login = "",
 		detail = "2"
 	}
+end)()
+(function ()
 	pg.base.ship_skin_expression.tengbo_2 = {
 		default = "",
 		feeling3 = "3",
@@ -102642,8 +102698,6 @@ end)()
 		login = "",
 		detail = "1"
 	}
-end)()
-(function ()
 	pg.base.ship_skin_expression.gaoxiong_7 = {
 		default = "",
 		feeling3 = "1",
@@ -107990,6 +108044,8 @@ end)()
 		login = "5",
 		detail = "2"
 	}
+end)()
+(function ()
 	pg.base.ship_skin_expression.aluomangshi = {
 		default = "",
 		feeling3 = "8",
@@ -108044,8 +108100,6 @@ end)()
 		login = "",
 		detail = "2"
 	}
-end)()
-(function ()
 	pg.base.ship_skin_expression.aluomangshi_2 = {
 		default = "",
 		feeling3 = "1",

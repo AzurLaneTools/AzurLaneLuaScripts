@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "太谢谢你了指挥官！还好有你在！",
+			say = "太謝謝你了指揮官！還好有你在！",
 			animation = "nod",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这次真是吓死我了！下次不许再乱跑了！",
-			subName = "牧场管理员",
+			say = "這次真是嚇死我了！下次不准再亂跑了！",
+			subName = "牧場管理員",
 			characterId = 100500,
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "没事就好，不过梅莉……走丢的咩咩羊，好像不止这一头吧？我记得你之前说的是……都不见了？",
+			say = "沒事就好，不過梅莉……走丟的咩咩羊，好像不只這一頭吧？我記得妳之前說的是……都不見了？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -61,17 +61,17 @@ return {
 			}
 		},
 		{
-			say = "啊！对！不止一只！还有其他的羊也都不见了！",
+			say = "啊！對！不只一隻！還有其他的羊也都不見了！",
 			animation = "idea",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这么多羊一起行动，目标不小，可能有人看见过它们。",
+			say = "這麼多羊一起行動，目標不小，可能有人看過它們。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -79,17 +79,17 @@ return {
 			}
 		},
 		{
-			say = "指挥官是说……奥林匹克和赫莫吗？",
+			say = "指揮官是說……奧林匹克和赫莫嗎？",
 			animation = "talk",
 			characterId = 100500,
-			subName = "牧场管理员",
+			subName = "牧場管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，农场那边离得不远，赫莫也经常在田里观察作物……",
+			say = "嗯，農場那邊離得不遠，赫莫也常在田裡觀察作物……",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			say = "我去问问她有没有看到羊群的踪迹。",
+			say = "我去問她有沒有看到羊群的蹤跡。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

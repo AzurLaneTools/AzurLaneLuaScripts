@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "你好啊，赫莫。",
+			say = "妳好啊，赫莫。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,17 +33,17 @@ return {
 			}
 		},
 		{
-			say = "啊！指、指挥官，早上好……有……有什么事吗？",
+			say = "啊！指、指揮官，早安……有……有什麼事嗎？",
 			animation = "scare",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "听说你们这里……最近发生了一些奇怪的事情？开发区的大家都很担心。",
+			say = "聽說妳們這裡……最近發生了一些奇怪的事情？開發區的大家都很擔心。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -51,18 +51,18 @@ return {
 			}
 		},
 		{
-			say = "嗯……这几天……确实发生了不少……让人不安的怪事。",
+			say = "嗯……這幾天……確實發生了不少……讓人不安的怪事。",
 			animation = "sad",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "而且也正因为这个……农场里的大家最近都不敢去外面了……",
-			subName = "农田管理员",
+			say = "而且也因為這個……農場裡的大家最近都不敢去外面了……",
+			subName = "農田管理員",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "别怕，赫莫，详细告诉我到底发生了什么？",
+			say = "別怕，赫莫，詳細告訴我到底發生了什麼事？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -78,18 +78,18 @@ return {
 			}
 		},
 		{
-			say = "每当到了深夜的时候……农场外就会传来一阵阵……叮叮当当……的响声。",
+			say = "每當到了深夜的時候……農場外就會傳來一陣陣……叮叮噹噹……的響聲。",
 			animation = "think",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "声音不大，但很清晰，断断续续的，像是什么金属在碰撞……特别瘆人。",
-			subName = "农田管理员",
+			say = "聲音不大，但很清晰，斷斷續續的，像是什麼金屬在碰撞……特別瘆人。",
+			subName = "農田管理員",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -97,18 +97,18 @@ return {
 			}
 		},
 		{
-			say = "有次……我实在受不了，也担心是不是有贼或者野兽，就壮着胆子……拿着手电筒出去看情况……",
+			say = "有次……我實在受不了，也擔心是不是有賊或野獸，就壯著膽子……拿起手電筒出去看看情況……",
 			animation = "talk",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "结果……结果我刚走到草场边缘，就看到……看到远处山坡的树林边上……有一双……一双闪着红光的眼睛！",
-			subName = "农田管理员",
+			say = "結果……結果我剛走到草場邊緣，就看到……看到遠處山坡的樹林邊上……有一雙……一雙閃著紅光的眼睛！",
+			subName = "農田管理員",
 			characterId = 100400,
 			typewriter = {
 				speed = 0.05,
@@ -116,17 +116,17 @@ return {
 			}
 		},
 		{
-			say = "它……它就那么一动不动地……死死地盯着我这边！",
+			say = "它……它就那麼一動不動地……死死地盯著我這邊！",
 			animation = "scare",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我明白了，别担心，赫莫。等会我就过去看看，弄清楚那叮当声和红眼睛到底是什么东西。",
+			say = "我明白了，別擔心，赫莫。等一下我就過去看看，弄清楚那叮噹聲和紅眼睛到底是什麼東西。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -135,10 +135,10 @@ return {
 			}
 		},
 		{
-			say = "那就拜托您了，指挥官！请您……一定要小心！",
+			say = "那就拜託您了，指揮官！請您……一定要小心！",
 			animation = "nod",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "農田管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

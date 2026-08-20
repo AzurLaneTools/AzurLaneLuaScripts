@@ -19,9 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "这次的配方成功了？",
+			say = "這次的配方成功了？",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			face2Face = {
 				{
 					0,
@@ -37,14 +37,14 @@ return {
 			say = "那真是太好了~",
 			animation = "happy",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "她还提了些进一步改良的建议……",
+			say = "她也提了些進一步改良的建議……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			say = "嗯……从产量来说，是可以实现的呢。",
-			subName = "啾咖啡店员",
+			say = "嗯……從產量來說，是可以實現的呢。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -61,18 +61,18 @@ return {
 			}
 		},
 		{
-			say = "然后是以现版本的能量特调为基础，制作口味更丰富的水果能量特调吗？",
+			say = "然後是以現版本的能量特調為基礎，製作口味更豐富的水果能量特調嗎？",
 			animation = "think",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这个新目标似乎不错呢。",
-			subName = "啾咖啡店员",
+			say = "這個新目標似乎不錯呢。",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -80,10 +80,10 @@ return {
 			}
 		},
 		{
-			say = "指挥官，有空一起开发新品种能量特调吧~",
+			say = "指揮官，有空一起開發新品種能量特調吧~",
 			animation = "clap",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -67,7 +67,8 @@ slot0.init = function(slot0)
 	end
 
 	slot0._heroContainer = slot0._adapt:Find("HeroContainer")
-	slot0._formationLogic = BaseFormation.New(slot0._tf, slot0._heroContainer, slot0._heroInfoTpl, slot0._gridTFs)
+	slot4 = slot0._heroInfoTpl
+	slot0._formationLogic = BaseFormation.New(slot0._tf, slot0._heroContainer, slot4, slot0._gridTFs)
 	slot0._fleetInfo = slot0._blurLayer:Find("fleet_info")
 	slot0._fleetNumText = slot0._fleetInfo:Find("fleet_number")
 	slot0._fleetNameText = slot0._fleetInfo:Find("fleet_name/Text")
@@ -97,8 +98,7 @@ slot0.init = function(slot0)
 	slot0._arrUpSub = slot0._subGS:Find("up")
 	slot0._arrDownSub = slot0._subGS:Find("down")
 	slot0._attrFrame = slot0._blurLayer:Find("attr_frame")
-	slot4 = ItemList
-	slot0._cardTpl = slot0._tf:GetComponent(typeof(slot4)).prefabItem[0]
+	slot0._cardTpl = slot0._tf:Find("RectShipCardTpl")
 	slot0._cards = {
 		[TeamType.Main] = {},
 		[TeamType.Vanguard] = {},

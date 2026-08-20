@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "开发商店将分阶段定时开放",
+				text = "開發商店將分階段定時開放",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -24,7 +24,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "在开发商店中可购买装扮、资材和角色养成道具等多种商品。",
+				text = "在開發商店中可購買裝扮、資材和角色養成道具等多種商品。",
 				mode = 2,
 				char = 1,
 				posY = 125,
@@ -37,7 +37,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击返回",
+				text = "點擊返回",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -54,7 +54,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "打开管理界面",
+				text = "打開管理介面",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -71,7 +71,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击装扮",
+				text = "點擊裝扮",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -88,7 +88,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击这里可以选择不同种类的装扮,打开背饰，可以在这里穿戴已拥有的装扮",
+				text = "點擊這裡可以選擇不同種類的裝扮，打開背飾，可以在這裡穿戴已擁有的裝扮",
 				mode = 2,
 				char = 1,
 				posY = 0,

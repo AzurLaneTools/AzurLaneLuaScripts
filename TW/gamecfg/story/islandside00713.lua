@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "这就是迷迭香了么……",
+			say = "這就是迷迭香了嗎……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "我看看……新鲜的柠檬、蜂蜜、还有最后的迷迭香……",
+			say = "我看看……新鮮的檸檬、蜂蜜、還有最後的迷迭香……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			say = "很好，都集齐了。",
+			say = "很好，都集齊了。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，这下能尝到布莱梅的蜂蜜水了。",
+			say = "嗯，這下能嚐到布萊梅的蜂蜜水了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "佩芮，听说你最近一直在研究珍珠市场。",
+			say = "ISLANDSIDE01607",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "啊……指挥官，你来得正好。",
+			say = "佩芮，聽說妳最近一直在研究珍珠市場。",
 			animation = "happy",
 			characterId = 101600,
-			subName = "开发季管理员",
+			subName = "開發季管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "没错，我最近是在研究这个，而且——我发现了一些规律。",
-			subName = "开发季管理员",
+			say = "啊……指揮官，你來得正好。",
+			subName = "開發季管理員",
 			characterId = 101600,
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "什么规律？",
+			say = "沒錯，我最近是在研究這個，而且——我發現了一些規律。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -60,18 +60,18 @@ return {
 			}
 		},
 		{
-			say = "你看，这是过去三个月的价格波动。",
+			say = "什麼規律？",
 			animation = "note",
 			characterId = 101600,
-			subName = "开发季管理员",
+			subName = "開發季管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我做了回归分析、趋势预测，还参考了这段时间的月相和潮汐数据……",
-			subName = "开发季管理员",
+			say = "你看，這是過去三個月的價格波動。",
+			subName = "開發季管理員",
 			characterId = 101600,
 			typewriter = {
 				speed = 0.05,
@@ -79,17 +79,17 @@ return {
 			}
 		},
 		{
-			say = "根据我的模型预测，珍珠市场接下来会迎来一波大涨，现在正是买入的最佳时机！",
+			say = "我做了迴歸分析、趨勢預測，也參考了這段時間的月相和潮汐數據……",
 			animation = "clap",
 			characterId = 101600,
-			subName = "开发季管理员",
+			subName = "開發季管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "你确定么？市场波动是很难预测的。",
+			say = "根據我的模型預測，珍珠市場接下來會迎來一波大漲，現在正是買進的最佳時機！",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -97,18 +97,18 @@ return {
 			}
 		},
 		{
-			say = "这可不一样，指挥官。我用了全新的算法，考虑了足足二十七个变量。",
+			say = "妳確定嗎？市場波動是很難預測的。",
 			animation = "nod",
 			characterId = 101600,
-			subName = "开发季管理员",
+			subName = "開發季管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这可以说是——稳赚不赔。我现在就为你演示一下……",
-			subName = "开发季管理员",
+			say = "這可不一樣，指揮官。我用了全新的演算法，考慮了足足二十七個變數。",
+			subName = "開發季管理員",
 			characterId = 101600,
 			typewriter = {
 				speed = 0.05,
@@ -116,18 +116,18 @@ return {
 			}
 		},
 		{
-			say = "你看……虽然最近珍珠的价格浮动不是很明显。",
+			say = "這可以說是——穩賺不賠。我現在就為你示範一下……",
 			animation = "note",
 			characterId = 101600,
-			subName = "开发季管理员",
+			subName = "開發季管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "但根据我的预测，未来三天内至少会上涨15%……我们先买入一百颗试试。",
-			subName = "开发季管理员",
+			say = "你看……雖然最近珍珠的價格浮動不是很明顯。",
+			subName = "開發季管理員",
 			characterId = 101600,
 			typewriter = {
 				speed = 0.05,
@@ -137,14 +137,14 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "佩芮刚刚买入，屏幕上的数字突然跳动起来——开始持续地下跌……",
+			say = "但根據我的預測，未來三天內至少會上漲15%……我們先買一百顆試試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "佩芮，价格好像在下跌。",
+			say = "佩芮剛剛買入，螢幕上的數字突然跳動起來——開始持續地下跌……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -152,18 +152,18 @@ return {
 			}
 		},
 		{
-			say = "这个……不要急，指挥官。这只是市场的技术性调整。",
+			say = "佩芮，價格好像在下跌。",
 			animation = "embarrass",
 			characterId = 101600,
-			subName = "开发季管理员",
+			subName = "開發季管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "短期波动很正常，我的模型显示——",
-			subName = "开发季管理员",
+			say = "這個……不要急，指揮官。這只是市場的技術性調整。",
+			subName = "開發季管理員",
 			characterId = 101600,
 			typewriter = {
 				speed = 0.05,
@@ -173,24 +173,24 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "数字继续跳水……",
+			say = "短期波動很正常，我的模型顯示——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那个……指挥官，你今天是不是还有别的日程要处理？比如……货运安排？或者文件审批？",
+			say = "數字繼續跳水……",
 			animation = "sad",
 			characterId = 101600,
-			subName = "开发季管理员",
+			subName = "開發季管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那些不着急。我想看看你说的“技术性调整”会持续多久。",
+			say = "那些不著急。我想看看妳說的「技術性調整」會持續多久。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -198,18 +198,18 @@ return {
 			}
 		},
 		{
-			say = "其实我觉得……我可能需要再优化一下模型参数。",
+			say = "那些不著急。我想看看妳說的「技術性調整」會持續多久。",
 			animation = "rest",
 			characterId = 101600,
-			subName = "开发季管理员",
+			subName = "開發季管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官你先忙吧！我保证……等我深入研究之后，一定能找到扭亏为盈的方法！真的！",
-			subName = "开发季管理员",
+			say = "其實我覺得……我可能需要再優化一下模型參數。",
+			subName = "開發季管理員",
 			characterId = 101600,
 			typewriter = {
 				speed = 0.05,
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			say = "好吧……需要协助的话随时联系。",
+			say = "指揮官你先忙吧！我保證……等我深入研究後，我一定能找到轉虧為盈的方法！真的！",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -225,10 +225,10 @@ return {
 			}
 		},
 		{
-			say = "一定一定！唉……我的算法明明很完美啊……",
+			say = "好吧……需要協助的話隨時聯絡。",
 			animation = "nod",
 			characterId = 101600,
-			subName = "开发季管理员",
+			subName = "開發季管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

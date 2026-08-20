@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "布莱梅，给你配方——",
+			say = "布萊梅，給妳配方——",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "啊，就是这个配方表。",
+			say = "啊，就是這個配方表。",
 			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "仿佛已经能回忆起那美味的口感了……",
-			subName = "啾咖啡店员",
+			say = "彷彿已經能回想起那美味的口感了……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -52,18 +52,18 @@ return {
 			}
 		},
 		{
-			say = "真想让指挥官现在就尝尝看呢。",
+			say = "真想讓指揮官現在就嚐嚐看呢。",
 			animation = "clap",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过……新鲜柠檬、蜂蜜和迷迭香……",
-			subName = "啾咖啡店员",
+			say = "不過……新鮮檸檬、蜂蜜和迷迭香……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -71,17 +71,17 @@ return {
 			}
 		},
 		{
-			say = "这张配料要用到的食材，正好店里没有存货……",
+			say = "這張配料要用到的食材，剛好店裡沒有存貨……",
 			animation = "embarrass",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，这些食材好像都能在开发区找到……",
+			say = "嗯，這些食材好像都能在開發區找到……",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -90,10 +90,10 @@ return {
 			}
 		},
 		{
-			say = "如果不行的话可以去商区问问阿莫玛，她应该知道哪里会有的。",
+			say = "如果不行的話可以去商區問問阿莫瑪，她應該知道哪裡會有的。",
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

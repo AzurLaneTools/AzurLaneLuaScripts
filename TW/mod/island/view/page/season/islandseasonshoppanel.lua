@@ -10,6 +10,7 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot1:Find("view/content/tpl/sellOut/Text"), i18n("common_sale_out"))
 
+	slot0.resCntTxt = slot1:Find("res/Text"):GetComponent(typeof(Text))
 	slot0.goodUIList = UIItemList.New(slot1:Find("view/content"), slot1:Find("view/content/tpl"))
 	slot2 = slot1:Find("toggles")
 	slot0.togglesUIList = UIItemList.New(slot2, slot2:Find("tpl"))
@@ -31,8 +32,12 @@ slot0.OnInit = function(slot0)
 					uv0.showPhase = uv1 + 1
 
 					uv0:Flush()
+					uv2()
 				end
 			end, SFX_PANEL)
+			(function ()
+				setActive(uv0:Find("red"), IslandSeasonRedDotHelper.TipShopShowPhase(uv1 + 1))
+			end)()
 		end
 	end)
 
@@ -78,6 +83,10 @@ slot0.Flush = function(slot0)
 	slot0.inventoryAgency = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
 	slot0.shops = getProxy(IslandProxy):GetIsland():GetShopAgency():GetSeasonShops()
 	slot0.displayShop = slot0.shops[slot0.shopIds[slot0.showPhase or 1]]
+
+	IslandSeasonRedDotHelper.UpdateEnterShopPhase(slot0.showPhase)
+	slot0:emit(IslandSeasonPage.UPDATE_REDDOT, IslandSeasonPage.PAGE_SHOP)
+
 	slot4 = pg.TimeMgr.GetInstance():inTime(slot0.displayShop:GetExistTime())
 
 	setActive(slot0.lockTF, not slot4)
@@ -91,6 +100,8 @@ slot0.Flush = function(slot0)
 	IslandShopPage.SortShopCommodities(slot0.displaysGoods)
 	slot0.goodUIList:align(#slot0.displaysGoods)
 	setActive(slot0.lockTF, not slot0.displayShop:IsInTime())
+
+	slot0.resCntTxt.text = slot0.inventoryAgency:GetOwnCount(IslandItem.GOLD_ID)
 end
 
 slot0.OnDestroy = function(slot0)

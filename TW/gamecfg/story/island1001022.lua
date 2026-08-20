@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "（帕特莉看起来很忙碌。）",
+			say = "（帕特莉看起來很忙。）",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "忙……目前看来的话，是一件好事情。",
+			say = "忙……目前看來的話，是一件好事情。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -41,10 +41,10 @@ return {
 			}
 		},
 		{
-			say = "指挥官？你怎么了？是还在为大家的工作操心吗？",
+			say = "指揮官？你怎麼了？是還在為大家的工作操心嗎？",
 			animation = "doubt",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 		},
 		{
 			animation = "shakehead",
-			say = "……现在不止要为大家的工作操心了，还有整个无人岛开发计划的贷款。",
+			say = "……現在不只為大家的工作操心了，還有整個無人島開發計劃的貸款。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			say = "天文数字级别。",
+			say = "天文數字等級。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -68,18 +68,18 @@ return {
 			}
 		},
 		{
-			say = "呵呵呵，之前{namecode:98:明石}一个劲地造农场、扩港口、建商区……",
+			say = "呵呵呵，之前明石一個勁地開拓農場、擴建港口、建造商區……",
 			animation = "sad",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我还以为是得到了指挥官的支持呢~",
-			subName = "订单管理员",
+			say = "我還以為是得到了指揮官的支持呢~",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -88,7 +88,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "支持……虽迟但到，骗到的支持也是支持……接手的贷款也是贷款。",
+			say = "支持……雖遲但到，騙到的支持也是支持……接手的貸款也是貸款。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			say = "只是再不想办法的话……整个开发区都会在还款日来临的时候一起破产。",
+			say = "只是再不想辦法的話……整個開發區都會在還款日來臨的時候一起破產。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -104,10 +104,10 @@ return {
 			}
 		},
 		{
-			say = "？这、这样吗？那指挥官来找我……我，也不能分担啊！",
+			say = "這、這樣嗎？那指揮官來找我……我，也不能分擔啊！",
 			animation = "scare",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 		},
 		{
 			animation = "shakehead",
-			say = "咳咳……贷款不会分到大家头上的。",
+			say = "咳……貸款不會分到大家頭上的。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			say = "我只是想找你确认一下，作为订单管理员，你有没有总结出……来钱最快的方式。",
+			say = "我只是想找妳確認一下，作為訂單管理員，妳有沒有總結出……賺錢最快的方式。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -131,18 +131,18 @@ return {
 			}
 		},
 		{
-			say = "……最简单、最稳妥的……应该是完成货运委托。",
+			say = "……最簡單、最穩健的……應該是完成貨運委託。",
 			animation = "think",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "只要把岛上的物资运到更需要它们的地方，就能赚得更多，只可惜开发区物产还不够丰富。",
-			subName = "订单管理员",
+			say = "只要把島上的物資運到更需要它們的地方，就能賺得更多，只可惜開發區物產還不夠豐富。",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			}
 		},
 		{
-			say = "至于快的问题……就要看指挥官怎么做了。",
-			subName = "订单管理员",
+			say = "至於快的問題……就要看指揮官怎麼做了。",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -160,7 +160,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "还有没有那种，更复杂，更冒险……更高效一点的办法？",
+			say = "還有沒有那種，更複雜，更有冒險……更有效率一點的方法？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -169,26 +169,17 @@ return {
 		},
 		{
 			animation = "elation",
-			say = "哼哼~指挥官的胃口不小嘛……",
+			say = "哼哼~指揮官的胃口不小嘛……",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过既然你都问到了……那不知道你有没有留意过最近在港口流传的……",
-			subName = "订单管理员",
-			characterId = 100200,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "那个宝藏岛的传说？",
-			subName = "订单管理员",
+			say = "不過既然你都問到了……那不知道你有沒有留意過最近在港口流傳的……",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +187,16 @@ return {
 			}
 		},
 		{
-			say = "什么宝藏岛？",
+			say = "那個寶藏島的傳說？",
+			subName = "訂單管理員",
+			characterId = 100200,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "什麼寶藏島？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -204,18 +204,18 @@ return {
 			}
 		},
 		{
-			say = "一个传言而已~说是在开发区附近的海域里，有一座时隐时现的神秘小岛。",
+			say = "一個傳言而已~說是在開發區附近的海域裡，有一座時隱時現的神秘小島。",
 			animation = "talk",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "上面据说埋藏着数量庞大的宝藏……黄金、珠宝、失落的科技——",
-			subName = "订单管理员",
+			say = "上面據說埋藏著數量龐大的寶藏……黃金、珠寶、失落的科技——",
+			subName = "訂單管理員",
 			characterId = 100200,
 			typewriter = {
 				speed = 0.05,
@@ -223,9 +223,9 @@ return {
 			}
 		},
 		{
-			say = "怎样~指挥官心动了吗？",
+			say = "怎樣~指揮官心動了嗎？",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,27 +243,27 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "欸，不愧是指挥官，完全不为所动呢~",
+			say = "欸，不愧是指揮官，完全不為所動呢~",
 			characterId = 100200,
 			optionFlag = 1,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过负责货运委托的斯蒂芬妮就曾见过那个岛哦~",
+			say = "不過負責貨運委託的史蒂芬妮就曾見過那個島哦~",
 			characterId = 100200,
 			optionFlag = 1,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "但这故事……听起来有点假。",
+			say = "但這故事……聽起來有點假。",
 			optionFlag = 2,
 			characterId = 0,
 			typewriter = {
@@ -273,30 +273,30 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "不管是真是假……指挥官都可以去找斯蒂芬妮打听打听嘛~",
+			say = "不管是真是假…指揮官都可以去找史蒂芬妮打聽打聽嘛~",
 			characterId = 100200,
 			optionFlag = 2,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "她负责管理货运委托，肯定听到过更多的消息。",
+			say = "她負責管理貨運委託，一定聽到過更多的消息。",
 			characterId = 100200,
 			optionFlag = 2,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官可以去问一下斯蒂芬妮嘛，说不定会有大——收获哦！",
+			say = "指揮官可以去問一下史蒂芬妮嘛，說不定會有大——收穫哦！",
 			animation = "clap",
 			characterId = 100200,
-			subName = "订单管理员",
+			subName = "訂單管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

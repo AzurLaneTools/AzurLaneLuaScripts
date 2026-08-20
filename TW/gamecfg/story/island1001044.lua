@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "咳咳……{namecode:98:明石}？你最近这是在做什么？",
+			say = "咳咳……明石？妳最近這是在做什麼？",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "喵？！指、指挥官？！",
+			say = "喵？！指、指揮官？！",
 			animation = "amaze",
 			characterId = 3120100,
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "是发生什么事了么？最近都没在啾咖啡见过你了……",
+			say = "是發生什麼事了麼？最近都沒在啾咖啡看到妳了……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "喵……这个嘛……",
+			say = "喵……這個嘛……",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -58,7 +58,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官，我正在酝酿一个伟大的计划喵~足以改变整个开发区生产方式的划时代壮举喵！",
+			say = "指揮官，我正在醞釀一個偉大的計劃喵~足以改變整個開發區生產方式的劃時代壯舉喵！",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			say = "说重点。",
+			say = "說重點。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			say = "就是——工厂生产线喵！",
+			say = "就是——工廠生產線喵！",
 			animation = "talk",
 			characterId = 3120100,
 			typewriter = {
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			say = "你想在岛上造生产线？用这些……零件？",
+			say = "妳想在島上造生產線？用這些……零件？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			say = "没错喵！",
+			say = "沒錯喵！",
 			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "不过……计划是完美的喵……就是材料……稍微……有那么一点点紧缺喵~",
+			say = "不過……計劃是完美的喵……就是材料……稍微……有那麼一點點緊缺喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			say = "我就知道……说吧，这次又想要些什么？先说好，太离谱或者太贵的免谈。",
+			say = "我就知道……說吧，這次又想要什麼？先說好，太離譜或太貴的免談。",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			say = "喵哈哈！放心放心！都是些岛上就能找到的东西！",
+			say = "喵哈哈！放心放心！都是些島上就能找到的東西！",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			say = "那就好，给我列一份清单，我去给你找找。",
+			say = "那就好，給我列一份清單，我去幫你找。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			say = "早就准备好喵！东西我都写在上面了，指挥官快去快回喵~",
+			say = "早就準備好喵！東西我都寫在上面了，指揮官快去快回喵~",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {

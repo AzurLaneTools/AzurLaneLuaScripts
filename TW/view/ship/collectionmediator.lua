@@ -1,6 +1,5 @@
 slot0 = class("CollectionMediator", import("..base.ContextMediator"))
 slot0.EVENT_OBTAIN_SKIP = "CollectionMediator:EVENT_OBTAIN_SKIP"
-slot0.EVENT_OPEN_FULL_SCREEN_PIC_VIEW = "CollectionMediator:EVENT_OPEN_FULL_SCREEN_PIC_VIEW"
 
 slot0.register = function(slot0)
 	slot0.collectionProxy = getProxy(CollectionProxy)
@@ -34,15 +33,6 @@ slot0.register = function(slot0)
 			viewComponent = CustomIndexLayer,
 			mediator = CustomIndexMediator,
 			data = slot1
-		}))
-	end)
-	slot0:bind(uv0.EVENT_OPEN_FULL_SCREEN_PIC_VIEW, function (slot0, slot1)
-		uv0:addSubLayers(Context.New({
-			mediator = GalleryFullScreenMediator,
-			viewComponent = GalleryFullScreenLayer,
-			data = {
-				picID = slot1
-			}
 		}))
 	end)
 	slot0.viewComponent:updateCollectNotices(slot0.collectionProxy:hasFinish())

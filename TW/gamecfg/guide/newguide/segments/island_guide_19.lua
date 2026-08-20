@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "请打开管理界面",
+				text = "請打開管理介面",
 				mode = 2,
 				char = 1,
 				posY = 237.37,
@@ -22,7 +22,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "点击图鉴",
+				text = "點擊圖鑒",
 				mode = 2,
 				char = 1,
 				posY = -299.38,

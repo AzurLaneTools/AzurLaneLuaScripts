@@ -202,7 +202,7 @@ pg.base.island_shop_template = {}
 		id = 10109,
 		tag_type = 1,
 		tag_icon = {
-			"种子",
+			"種子",
 			"Seeds",
 			"daoju"
 		}
@@ -221,7 +221,7 @@ pg.base.island_shop_template = {}
 		id = 10110,
 		tag_type = 2,
 		tag_icon = {
-			"种子"
+			"種子"
 		}
 	}
 	pg.base.island_shop_template[10111] = {
@@ -235,11 +235,11 @@ pg.base.island_shop_template = {}
 		id = 10111,
 		tag_type = 3,
 		shop_icon = {
-			"种子商店",
+			"種子商店",
 			"Seed Shop"
 		},
 		tag_icon = {
-			"丰壤农田"
+			"豐壤農田"
 		},
 		top_resource = {
 			{
@@ -270,11 +270,11 @@ pg.base.island_shop_template = {}
 		id = 10112,
 		tag_type = 3,
 		shop_icon = {
-			"种子商店",
+			"種子商店",
 			"Seed Shop"
 		},
 		tag_icon = {
-			"坠香果园"
+			"墜香果園"
 		},
 		top_resource = {
 			{
@@ -290,7 +290,9 @@ pg.base.island_shop_template = {}
 			411019,
 			411020,
 			411021,
-			411022
+			411022,
+			411023,
+			411024
 		}
 	}
 	pg.base.island_shop_template[10113] = {
@@ -304,7 +306,7 @@ pg.base.island_shop_template = {}
 		id = 10113,
 		tag_type = 3,
 		shop_icon = {
-			"种子商店",
+			"種子商店",
 			"Seed Shop"
 		},
 		tag_icon = {
@@ -400,9 +402,10 @@ pg.base.island_shop_template = {}
 			412000,
 			412001,
 			412002,
-			5010003,
-			5020003,
-			5030003
+			412003,
+			5010004,
+			5020004,
+			5030004
 		}
 	}
 	pg.base.island_shop_template[10010] = {
@@ -419,7 +422,7 @@ pg.base.island_shop_template = {}
 		id = 10010,
 		tag_type = 1,
 		tag_icon = {
-			"开发季",
+			"開發季",
 			"Season",
 			"tuijian"
 		}
@@ -438,7 +441,7 @@ pg.base.island_shop_template = {}
 		id = 10011,
 		tag_type = 2,
 		tag_icon = {
-			"开发季商品"
+			"開發季商品"
 		}
 	}
 	pg.base.island_shop_template[10012] = {
@@ -451,11 +454,11 @@ pg.base.island_shop_template = {}
 		id = 10012,
 		tag_type = 3,
 		shop_icon = {
-			"开发季商店",
+			"開發季商店",
 			"mystery"
 		},
 		tag_icon = {
-			"阶段一商店"
+			"階段一商店"
 		},
 		top_resource = {
 			{
@@ -507,11 +510,11 @@ pg.base.island_shop_template = {}
 		id = 10013,
 		tag_type = 3,
 		shop_icon = {
-			"开发季商店",
+			"開發季商店",
 			"mystery"
 		},
 		tag_icon = {
-			"阶段二商店"
+			"階段二商店"
 		},
 		top_resource = {
 			{
@@ -552,11 +555,11 @@ pg.base.island_shop_template = {}
 		id = 10014,
 		tag_type = 3,
 		shop_icon = {
-			"开发季商店",
+			"開發季商店",
 			"mystery"
 		},
 		tag_icon = {
-			"阶段三商店"
+			"階段三商店"
 		},
 		top_resource = {
 			{
@@ -597,11 +600,11 @@ pg.base.island_shop_template = {}
 		id = 10015,
 		tag_type = 3,
 		shop_icon = {
-			"开发季商店",
+			"開發季商店",
 			"mystery"
 		},
 		tag_icon = {
-			"阶段一商店"
+			"階段一商店"
 		},
 		top_resource = {
 			{
@@ -615,43 +618,49 @@ pg.base.island_shop_template = {}
 		},
 		goods_id = {
 			10000,
-			10301,
-			10302,
-			10303,
-			10304,
-			10305,
-			10306,
-			10307,
-			10308,
-			10309,
-			10310,
-			10311,
-			10312,
-			10313,
-			10314,
-			10315,
-			10316,
-			10317,
-			10318,
-			10319,
-			10320,
-			10321,
-			10322,
-			10323,
-			10324,
-			10325,
-			10326,
-			10327,
-			10328,
-			10329,
-			10330,
-			10331,
-			10332,
-			10333,
-			10334,
-			10335,
-			10336,
-			10337
+			10401,
+			10402,
+			10403,
+			10404,
+			10405,
+			10406,
+			10407,
+			10408,
+			10409,
+			10410,
+			10411,
+			10412,
+			10413,
+			10414,
+			10415,
+			10416,
+			10417,
+			10418,
+			10419,
+			10420,
+			10421,
+			10422,
+			10423,
+			10424,
+			10425,
+			10426,
+			10427,
+			10428,
+			10429,
+			10430,
+			10431,
+			10432,
+			10433,
+			10434,
+			10435,
+			10436,
+			10437,
+			10438,
+			10439,
+			10440,
+			10441,
+			10442,
+			10443
 		}
 	}
 	pg.base.island_shop_template[10016] = {
@@ -664,11 +673,11 @@ pg.base.island_shop_template = {}
 		id = 10016,
 		tag_type = 3,
 		shop_icon = {
-			"开发季商店",
+			"開發季商店",
 			"mystery"
 		},
 		tag_icon = {
-			"阶段二商店"
+			"階段二商店"
 		},
 		top_resource = {
 			{
@@ -681,22 +690,22 @@ pg.base.island_shop_template = {}
 			{}
 		},
 		goods_id = {
-			10338,
-			10339,
-			10340,
-			10341,
-			10342,
-			10343,
-			10344,
-			10345,
-			10346,
-			10347,
-			10348,
-			10349,
-			10350,
-			10351,
-			10352,
-			10353
+			10444,
+			10445,
+			10446,
+			10447,
+			10448,
+			10449,
+			10450,
+			10451,
+			10452,
+			10453,
+			10454,
+			10455,
+			10456,
+			10457,
+			10458,
+			10459
 		}
 	}
 	pg.base.island_shop_template[10017] = {
@@ -709,11 +718,11 @@ pg.base.island_shop_template = {}
 		id = 10017,
 		tag_type = 3,
 		shop_icon = {
-			"开发季商店",
+			"開發季商店",
 			"mystery"
 		},
 		tag_icon = {
-			"阶段三商店"
+			"階段三商店"
 		},
 		top_resource = {
 			{
@@ -726,22 +735,22 @@ pg.base.island_shop_template = {}
 			{}
 		},
 		goods_id = {
-			10354,
-			10355,
-			10356,
-			10357,
-			10358,
-			10359,
-			10360,
-			10361,
-			10362,
-			10363,
-			10364,
-			10365,
-			10366,
-			10367,
-			10368,
-			10369
+			10460,
+			10461,
+			10462,
+			10463,
+			10464,
+			10465,
+			10466,
+			10467,
+			10468,
+			10469,
+			10470,
+			10471,
+			10472,
+			10473,
+			10474,
+			10475
 		}
 	}
 	pg.base.island_shop_template[10019] = {
@@ -836,7 +845,7 @@ pg.base.island_shop_template = {}
 		id = 10022,
 		tag_type = 1,
 		tag_icon = {
-			"种子",
+			"種子",
 			"Seeds",
 			"daoju"
 		}
@@ -855,7 +864,7 @@ pg.base.island_shop_template = {}
 		id = 10023,
 		tag_type = 2,
 		tag_icon = {
-			"种子"
+			"種子"
 		}
 	}
 	pg.base.island_shop_template[10024] = {
@@ -869,11 +878,11 @@ pg.base.island_shop_template = {}
 		id = 10024,
 		tag_type = 3,
 		shop_icon = {
-			"种子商店",
+			"種子商店",
 			"Seed Shop"
 		},
 		tag_icon = {
-			"丰壤农田"
+			"豐壤農田"
 		},
 		top_resource = {
 			{
@@ -907,7 +916,7 @@ pg.base.island_shop_template = {}
 		id = 10025,
 		tag_type = 1,
 		tag_icon = {
-			"种子",
+			"種子",
 			"Seeds",
 			"daoju"
 		}
@@ -926,7 +935,7 @@ pg.base.island_shop_template = {}
 		id = 10026,
 		tag_type = 2,
 		tag_icon = {
-			"种子"
+			"種子"
 		}
 	}
 	pg.base.island_shop_template[10027] = {
@@ -940,11 +949,11 @@ pg.base.island_shop_template = {}
 		id = 10027,
 		tag_type = 3,
 		shop_icon = {
-			"种子商店",
+			"種子商店",
 			"Seed Shop"
 		},
 		tag_icon = {
-			"坠香果园"
+			"墜香果園"
 		},
 		top_resource = {
 			{
@@ -960,7 +969,9 @@ pg.base.island_shop_template = {}
 			411019,
 			411020,
 			411021,
-			411022
+			411022,
+			411023,
+			411024
 		}
 	}
 	pg.base.island_shop_template[10028] = {
@@ -977,7 +988,7 @@ pg.base.island_shop_template = {}
 		id = 10028,
 		tag_type = 1,
 		tag_icon = {
-			"种子",
+			"種子",
 			"Seeds",
 			"daoju"
 		}
@@ -996,7 +1007,7 @@ pg.base.island_shop_template = {}
 		id = 10029,
 		tag_type = 2,
 		tag_icon = {
-			"种子"
+			"種子"
 		}
 	}
 	pg.base.island_shop_template[10030] = {
@@ -1010,7 +1021,7 @@ pg.base.island_shop_template = {}
 		id = 10030,
 		tag_type = 3,
 		shop_icon = {
-			"种子商店",
+			"種子商店",
 			"Seed Shop"
 		},
 		tag_icon = {
@@ -1051,7 +1062,7 @@ pg.base.island_shop_template = {}
 		id = 10031,
 		tag_type = 1,
 		tag_icon = {
-			"渔具",
+			"漁具",
 			"Gear",
 			"daoju"
 		}
@@ -1070,7 +1081,7 @@ pg.base.island_shop_template = {}
 		id = 10032,
 		tag_type = 2,
 		tag_icon = {
-			"鱼苗"
+			"魚苗"
 		}
 	}
 	pg.base.island_shop_template[10033] = {
@@ -1084,11 +1095,11 @@ pg.base.island_shop_template = {}
 		id = 10033,
 		tag_type = 3,
 		shop_icon = {
-			"鱼苗商店",
+			"魚苗商店",
 			"Fish Fry Shop"
 		},
 		tag_icon = {
-			"淡水鱼苗"
+			"淡水魚苗"
 		},
 		top_resource = {
 			{
@@ -1115,11 +1126,11 @@ pg.base.island_shop_template = {}
 		id = 10034,
 		tag_type = 3,
 		shop_icon = {
-			"鱼苗商店",
+			"魚苗商店",
 			"Fish Fry Shop"
 		},
 		tag_icon = {
-			"海水鱼苗"
+			"海水魚苗"
 		},
 		top_resource = {
 			{
@@ -1148,11 +1159,11 @@ pg.base.island_shop_template = {}
 		id = 10035,
 		tag_type = 3,
 		shop_icon = {
-			"鱼苗商店",
+			"魚苗商店",
 			"Fish Fry Shop"
 		},
 		tag_icon = {
-			"其他鱼苗"
+			"其他魚苗"
 		},
 		top_resource = {
 			{
@@ -1184,7 +1195,7 @@ pg.base.island_shop_template = {}
 		id = 10036,
 		tag_type = 2,
 		tag_icon = {
-			"鱼饵"
+			"魚餌"
 		}
 	}
 	pg.base.island_shop_template[10037] = {
@@ -1198,11 +1209,11 @@ pg.base.island_shop_template = {}
 		id = 10037,
 		tag_type = 3,
 		shop_icon = {
-			"鱼饵商店",
+			"魚餌商店",
 			"Fish Lure Shop"
 		},
 		tag_icon = {
-			"鱼饵"
+			"魚餌"
 		},
 		top_resource = {
 			{
@@ -1231,7 +1242,7 @@ pg.base.island_shop_template = {}
 		id = 50111,
 		tag_type = 1,
 		tag_icon = {
-			"装扮",
+			"裝扮",
 			"Appearance",
 			"shizhuang"
 		}
@@ -1250,7 +1261,7 @@ pg.base.island_shop_template = {}
 		id = 50121,
 		tag_type = 2,
 		tag_icon = {
-			"配饰"
+			"配飾"
 		}
 	}
 	pg.base.island_shop_template[50131] = {
@@ -1264,11 +1275,11 @@ pg.base.island_shop_template = {}
 		id = 50131,
 		tag_type = 3,
 		shop_icon = {
-			"配饰商店",
+			"配飾商店",
 			"‌Accessory Shop"
 		},
 		tag_icon = {
-			"脚印"
+			"腳印"
 		},
 		top_resource = {
 			{
@@ -1280,7 +1291,8 @@ pg.base.island_shop_template = {}
 		goods_id = {
 			4600002,
 			4630005,
-			4630008
+			4630008,
+			4630009
 		}
 	}
 	pg.base.island_shop_template[50132] = {
@@ -1294,11 +1306,11 @@ pg.base.island_shop_template = {}
 		id = 50132,
 		tag_type = 3,
 		shop_icon = {
-			"配饰商店",
+			"配飾商店",
 			"‌Accessory Shop"
 		},
 		tag_icon = {
-			"背饰"
+			"背飾"
 		},
 		top_resource = {
 			{
@@ -1310,7 +1322,8 @@ pg.base.island_shop_template = {}
 		goods_id = {
 			4600003,
 			4610003,
-			4610006
+			4610006,
+			4610008
 		}
 	}
 	pg.base.island_shop_template[50133] = {
@@ -1324,7 +1337,7 @@ pg.base.island_shop_template = {}
 		id = 50133,
 		tag_type = 3,
 		shop_icon = {
-			"配饰商店",
+			"配飾商店",
 			"‌Accessory Shop"
 		},
 		tag_icon = {
@@ -1340,7 +1353,8 @@ pg.base.island_shop_template = {}
 		goods_id = {
 			4600001,
 			4620004,
-			4620007
+			4620007,
+			4620008
 		}
 	}
 	pg.base.island_shop_template[50122] = {
@@ -1357,7 +1371,7 @@ pg.base.island_shop_template = {}
 		id = 50122,
 		tag_type = 2,
 		tag_icon = {
-			"服装"
+			"服裝"
 		}
 	}
 	pg.base.island_shop_template[50123] = {
@@ -1371,11 +1385,11 @@ pg.base.island_shop_template = {}
 		id = 50123,
 		tag_type = 3,
 		shop_icon = {
-			"服装商店",
+			"服裝商店",
 			"Costume Shop"
 		},
 		tag_icon = {
-			"角色服装"
+			"角色服裝"
 		},
 		top_resource = {
 			{
@@ -1390,6 +1404,8 @@ pg.base.island_shop_template = {}
 			}
 		},
 		goods_id = {
+			472021201,
+			479600011,
 			471011701,
 			472012101,
 			473031101,
@@ -1417,11 +1433,11 @@ pg.base.island_shop_template = {}
 		id = 50124,
 		tag_type = 3,
 		shop_icon = {
-			"服装商店",
+			"服裝商店",
 			"Costume Shop"
 		},
 		tag_icon = {
-			"指挥官服装"
+			"指揮官服裝"
 		},
 		top_resource = {
 			{
@@ -1452,11 +1468,11 @@ pg.base.island_shop_template = {}
 		id = 90001,
 		tag_type = 1,
 		shop_icon = {
-			"推荐",
+			"推薦",
 			"Recommend"
 		},
 		tag_icon = {
-			"推荐",
+			"推薦",
 			"Recommend",
 			"tuijian"
 		}

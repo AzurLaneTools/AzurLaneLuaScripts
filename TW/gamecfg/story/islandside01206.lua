@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "很好嘛~指挥官，施的肥铺撒得很均匀，也没有一处多一处少的情况……",
+			say = "很好嘛~指揮官，施的肥鋪撒得很均勻，也沒有一處多一處少的情況……",
 			animation = "curious",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "没想到指挥官原来也非常懂行呢！",
-			subName = "果园管理员",
+			say = "沒想到指揮官原來也非常懂行呢！",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -44,18 +44,18 @@ return {
 			}
 		},
 		{
-			say = "然后的话……我看看……",
+			say = "然後的話……我看看……",
 			animation = "think",
 			characterId = 101100,
-			subName = "果园管理员",
+			subName = "果園管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "既然土地肥力没问题了，指挥官可以给我一些柑橘吗？可以就在这些地里种哦！",
-			subName = "果园管理员",
+			say = "既然土地肥力沒問題了，指揮官可以給我一些柑橘嗎？可以就在這些地裡種哦！",
+			subName = "果園管理員",
 			characterId = 101100,
 			typewriter = {
 				speed = 0.05,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			say = "没问题，我这就去。",
+			say = "沒問題，我這就去。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

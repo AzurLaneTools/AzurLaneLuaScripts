@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "嘀嘀嗒~嘀嘀嗒~♪ 今天又会发生什么新鲜事呢？",
+			say = "嘀嘀嗒~嘀嗒~♪ 今天又會發生什麼新鮮事呢？",
 			hideType = 2,
 			characterId = 101300,
 			animation = "slap"

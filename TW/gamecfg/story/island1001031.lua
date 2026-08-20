@@ -13,7 +13,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "很好，现在这些欧姆蛋都上架好了。",
+			say = "很好，現在這些歐姆蛋都上架好了。",
 			animation = "nod",
 			characterId = 0,
 			camera = "StoryCamera4",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "这浓郁的香味，让我看看谁会成为它们的第一位买家……",
+			say = "這濃鬱的香味，讓我看看誰會成為它們的第一位買家……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -43,10 +43,10 @@ return {
 			}
 		},
 		{
-			say = "布莱梅也很期待……",
+			say = "布萊梅也很期待……",
 			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "喵——！这个味道！不会错的喵！是刚烤好的顶级欧姆蛋的香气喵！",
+			say = "喵——！這個味道！不會錯的喵！是剛烤好的頂級歐姆蛋的香氣喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "（好耳熟的声音……）",
+			say = "（好耳熟的聲音……）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			say = "咦——是{namecode:98:明石}！",
+			say = "咦——是明石！",
 			characterId = 0,
 			face2Face = {
 				{
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			say = "喵？！指挥官？！",
+			say = "喵？！指揮官？！",
 			animation = "amaze",
 			characterId = 3120100,
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "啊呀呀！原来是指挥官喵！唔，你手上的欧姆蛋看起来……色泽金黄，表皮完整，内馅饱满……一定是布莱梅的巅峰之作喵！",
+			say = "啊呀呀！原來是指揮官喵！唔，你手上的歐姆蛋看起來……色澤金黃，表皮完整，內餡飽滿……一定是布萊梅的巔峰之作喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			say = "那个……你一个人也吃不完这么大一块喵，不如……",
+			say = "那個……你一個人也吃不完這麼大一塊喵，不如……",
 			animation = "talk",
 			characterId = 3120100,
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			say = "店里有卖……你不会没带钱吧？",
+			say = "店裡有賣……妳不會沒帶錢吧？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			say = "当然有带喵！还以为这是指挥官限定款喵~",
+			say = "當然有帶喵！還以為這是指揮官限定款喵~",
 			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			say = "好的喵！布莱梅，我要一份——不，要两份欧姆蛋喵~",
+			say = "好的喵！布萊梅，我要一份——不，要兩份歐姆蛋喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,

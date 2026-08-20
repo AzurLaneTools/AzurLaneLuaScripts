@@ -158,38 +158,60 @@ slot0.CollectStrollUnits = function(slot0, slot1, slot2)
 	uv0.DistributeAward4StrollUnits(slot0, slot1)
 end
 
+slot0.DistributeActionFeedbackAward4StrollUnits = function(slot0, slot1, slot2)
+	slot6 = pg.island_set.island_feedback_award_times.key_value_int - #slot1:GetNpcFeedbackAgency():GetNpcList()
+	slot7 = {}
+
+	for slot11, slot12 in ipairs(slot0) do
+		if pg.island_strollnpc[slot12.id].action_feedback == 1 and _.all(slot4, function (slot0)
+			return uv0.id ~= slot0
+		end) then
+			table.insert(slot7, slot12)
+		end
+	end
+
+	if #slot7 <= 0 then
+		return
+	end
+
+	shuffle(slot7)
+
+	for slot11 = 1, slot6 do
+		if slot7[slot11] then
+			slot12:SetActionFeedback(slot2[math.random(1, #slot2)])
+		end
+	end
+end
+
+slot0.DistributeShipSkillAward4StrollUnits = function(slot0, slot1, slot2)
+	slot3 = slot1:GetCharacterAgency()
+
+	for slot7, slot8 in ipairs(slot0) do
+		if slot3:GetShipById(slot8:GetShipId()) and slot10:HasGreetingSkill() and slot10:GetSkill():CanUse4Ship(slot10, {
+			IslandBuffType.SHIP_POWER_RECOVER_BY_GREETING,
+			IslandBuffType.SHIP_AWARD_BY_GREETING
+		}) then
+			slot8:SetSkillActionFeedback(slot2[math.random(1, #slot2)])
+		end
+	end
+end
+
+slot0.GetOwnActions = function(slot0)
+	slot2 = slot0:GetActionAgency()
+
+	return _.select(pg.island_action.get_id_list_by_type[IslandConst.ANIMATION_OP_SIGNLE], function (slot0)
+		return uv0:ExistAction(slot0)
+	end)
+end
+
 slot0.DistributeAward4StrollUnits = function(slot0, slot1)
 	if #slot0 > 0 and slot1:IsPrivate() then
-		slot5 = pg.island_set.island_feedback_award_times.key_value_int - #slot1:GetNpcFeedbackAgency():GetNpcList()
-		slot6 = {}
-
-		for slot10, slot11 in ipairs(slot0) do
-			if pg.island_strollnpc[slot11.id].action_feedback == 1 and _.all(slot3, function (slot0)
-				return uv0.id ~= slot0
-			end) then
-				table.insert(slot6, slot11)
-			end
-		end
-
-		if #slot6 <= 0 then
+		if #uv0.GetOwnActions(slot1) <= 0 then
 			return
 		end
 
-		shuffle(slot6)
-
-		slot8 = slot1:GetActionAgency()
-
-		if #_.select(pg.island_action.get_id_list_by_type[IslandConst.ANIMATION_OP_SIGNLE], function (slot0)
-			return uv0:ExistAction(slot0)
-		end) <= 0 then
-			return
-		end
-
-		for slot13 = 1, slot5 do
-			if slot6[slot13] then
-				slot14:SetActionFeedback(slot9[math.random(1, #slot9)])
-			end
-		end
+		uv0.DistributeActionFeedbackAward4StrollUnits(slot0, slot1, slot2)
+		uv0.DistributeShipSkillAward4StrollUnits(slot0, slot1, slot2)
 	end
 end
 

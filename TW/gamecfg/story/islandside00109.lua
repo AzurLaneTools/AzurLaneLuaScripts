@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "乔安，快来看看。",
+			say = "喬安，快來看看。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,18 +33,18 @@ return {
 			}
 		},
 		{
-			say = "呜哇哇……指挥官！这是临时轨道吗？太棒了！",
+			say = "嗚哇哇……指揮官！這是臨時軌道嗎？太棒了！",
 			animation = "nod",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "今天的进度有救了！但是……已经这个时候了……",
-			subName = "矿山管理员",
+			say = "今天的進度有救了！但是……已經這個時候了……",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -52,17 +52,17 @@ return {
 			}
 		},
 		{
-			say = "我不会不能在今天过去前唱着歌下工吧……指挥官？！！！",
+			say = "我不會不能在今天過去前唱著歌下班吧……指揮官？！！！",
 			animation = "weep",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……我能做些什么？",
+			say = "……我能做些什麼？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			say = "就知道指挥官一定想要听到我下工时欢快的歌声！",
-			subName = "矿山管理员",
+			say = "就知道指揮官一定想要聽到我下班時歡快的歌聲！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,
@@ -87,18 +87,18 @@ return {
 			}
 		},
 		{
-			say = "你能帮我完成一部分今天的进度吗？",
+			say = "你能幫我完成今天一部分的進度嗎？",
 			animation = "clap",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "礦山管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "就准备最后一车矿石就好！",
-			subName = "矿山管理员",
+			say = "就準備最後一車礦石就好！",
+			subName = "礦山管理員",
 			characterId = 100600,
 			typewriter = {
 				speed = 0.05,

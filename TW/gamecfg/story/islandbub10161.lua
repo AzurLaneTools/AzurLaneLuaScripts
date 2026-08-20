@@ -11,7 +11,7 @@ return {
 		{
 			hideTime = 3,
 			hideType = 2,
-			say = "这些物资……很适合开发岛屿呢。",
+			say = "這些物資……很適合開發島嶼呢。",
 			characterId = 101600
 		}
 	}

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官，东西都生产出来了？",
+			say = "指揮官，東西都生產出來了？",
 			animation = "doubt",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "嗯……那看来工厂的设备都没问题嘛。",
-			subName = "工厂管理员",
+			say = "嗯……那看來工廠的設備都沒問題嘛。",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -44,10 +44,10 @@ return {
 			}
 		},
 		{
-			say = "那就好，之后若是需要生产什么都可以来找我。",
+			say = "那就好，之後若是需要生產什麼都可以來找我。",
 			animation = "clap",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

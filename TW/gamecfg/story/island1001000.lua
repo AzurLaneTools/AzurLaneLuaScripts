@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-12",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这寻常的一天，我看着手中的报告陷入了沉思。",
+			say = "在這尋常的一天，我看著手中的報告陷入了沉思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}居然已经有一周以上没有回港区了……",
+			say = "明石居然已經一週以上沒有回港區了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是她的经营活动数据量却在一直攀升……",
+			say = "但是她的經營活動數據量卻在一直攀升……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "无人岛开发的利润那么大……已经让她乐不思港了？",
+			say = "無人島開發的利潤那麼大……已經讓她樂不思港了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，帮我联系一下{namecode:98:明石}，我亲自问问她。",
+			say = "TB，幫我聯絡一下明石，我親自問問她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认，正在联络中——",
+			say = "指令已確認，正在聯絡中——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "异常警告：与无人岛开发区的联络线路遭受干扰，联络请求失败。",
+			say = "異常警告：與無人島開發區的聯絡線路遭受干擾，聯絡請求失敗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……遭受干扰？立刻接周围的监测站，看看无人岛那边出了什么事。",
+			say = "……遭受干擾？立刻接周圍的監測站，看看無人島那邊出了什麼事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认，正在控制监测站扫描无人岛开发区及其周边区域——",
+			say = "指令已確認，正在控制監測站掃描無人島開發區及其周邊區域——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "数据结果……很奇妙。",
+			say = "數據結果……很奇妙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，不同监测站针对开发区的同一片区域，给出了截然不同的结果。",
+			say = "指揮官，不同監測站針對開發區的同一區域，給出了截然不同的結果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "推测，无人岛开发区上空存在细微时空异常现象。",
+			say = "推測，無人島開發區上空有細微時空異常現象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "区域性时空异常现象……难道说是奇异点？",
+			say = "區域性時空異常現象……難道說是奇異點？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你的意思是，我们的无人岛度假开发区的天上出现了一个未知奇异点……？",
+			say = "妳的意思是，我們的無人島渡假開發區的天上出現了一個未知奇異點……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且{namecode:98:明石}和整个开发团队都失联了！？！",
+			say = "而且明石和整個開發團隊都失聯了！？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "肯定，这是当前最合理的推测。",
+			say = "肯定，這是目前最合理的推測。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是{namecode:98:明石}的经营活动数据量却一直在攀升……？",
+			say = "但是明石的經營活動數據量卻一直在攀升……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是的，根据统计，{namecode:98:明石}小姐本周的经营活动数据相较于历史同期提高了170%。",
+			say = "是的，根據統計，明石小姐本週的經營活動數據相較於歷史同期提高了170%。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她……生意都做到奇异点里去了？",
+			say = "她……生意都做到奇異點裡去了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "情报不足，我无法得出确切结论。不过，这是一个相当有合理性的推论。",
+			say = "情報不足，我無法得出確切結論。不過，這是一個相當合理性的推論。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真可疑……我必须去亲自调查一下了。",
+			say = "真可疑……我必須去親自調查一下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，帮我准备一个安全可靠的飞行器。",
+			say = "TB，幫我準備一個安全可靠的飛行器。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正在查询“安全可靠的飞行器”——",
+			say = "正在查詢「安全可靠的飛行器」——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "查询到20台不同型号的飞行器，设计者均为莱昂纳多·达·芬奇。",
+			say = "查詢20台不同型號的飛行器，設計者皆為李奧納多·達·文西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "达芬奇的飞行器么……应该是可靠的……吧？",
+			say = "達文西的飛行器嗎……應該是可靠的……吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也好，帮我随便抽选一台，做好起飞准备。",
+			say = "也好，幫我隨便抽選一台，做好起飛準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "让我们去无人岛上空的奇异点中一探究竟吧——",
+			say = "讓我們去無人島上空的奇異點中一探究竟吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

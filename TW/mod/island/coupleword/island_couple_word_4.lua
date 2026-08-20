@@ -1,6 +1,6 @@
 return {
 	{
-		say = "指挥官大人~今天就让{namecode:97}一直陪在您身边吧~",
+		say = "指揮官大人~今天就讓{namecode:97}一直陪在您身邊吧~",
 		characterId = 30707
 	},
 	{

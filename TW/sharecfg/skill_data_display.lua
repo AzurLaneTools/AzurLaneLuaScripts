@@ -3850,6 +3850,7 @@ pg.skill_data_display.all = {
 	201532,
 	201547,
 	201550,
+	201633,
 	201668,
 	201669,
 	201672,
@@ -18475,27 +18476,27 @@ end)()
 	}
 	pg.base.skill_data_display[801970] = {
 		id = 801970,
-		name = "对命运的注视"
+		name = "對命運的注視"
 	}
 	pg.base.skill_data_display[801971] = {
 		id = 801971,
-		name = "对命运的注视"
+		name = "對命運的注視"
 	}
 	pg.base.skill_data_display[801972] = {
 		id = 801972,
-		name = "对命运的注视"
+		name = "對命運的注視"
 	}
 	pg.base.skill_data_display[801973] = {
 		id = 801973,
-		name = "对命运的注视"
+		name = "對命運的注視"
 	}
 	pg.base.skill_data_display[801980] = {
 		id = 801980,
-		name = "对往昔的追忆"
+		name = "對往昔的追憶"
 	}
 	pg.base.skill_data_display[801990] = {
 		id = 801990,
-		name = "观测存亡之人"
+		name = "觀測存亡之人"
 	}
 	pg.base.skill_data_display[802011] = {
 		id = 802011,
@@ -19579,6 +19580,10 @@ end)()
 		id = 201550,
 		name = "群島遺跡支援"
 	}
+	pg.base.skill_data_display[201633] = {
+		id = 201633,
+		name = "「零」象限展開-5%"
+	}
 	pg.base.skill_data_display[201668] = {
 		id = 201668,
 		name = "開幕強襲"
@@ -19791,12 +19796,12 @@ end)()
 		id = 1012600,
 		name = "Rose Bombardamento +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012601] = {
 		id = 1012601,
 		name = "Rose Bombardamento +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1010540] = {
 		id = 1010540,
 		name = "皇家同盟 +"
@@ -20193,12 +20198,12 @@ end)()
 		id = 1010191,
 		name = "复仇打击 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1010192] = {
 		id = 1010192,
 		name = "复仇打击 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1019030] = {
 		id = 1019030,
 		name = "君王之睥睨 +"
@@ -20595,12 +20600,12 @@ end)()
 		id = 1090420,
 		name = "火力全开·威严"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090421] = {
 		id = 1090421,
 		name = "火力全开·威严"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090422] = {
 		id = 1090422,
 		name = "火力全开·威严"

@@ -187890,6 +187890,32 @@ _G.pg.base.item_virtual_data_statistics[66051] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[66063] = {
+	drop_gold_max = 0,
+	name = "訓練點數",
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/xunliandianshu_260806",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66063,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66052] = {
 	drop_gold_max = 0,
 	name = "怪談紀實紀念勳章",
@@ -200513,6 +200539,214 @@ _G.pg.base.item_virtual_data_statistics[150004] = {
 			1
 		}
 	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170000] = {
+	drop_gold_max = 0,
+	name = "星彩券",
+	display = "閃爍著星輝的抽獎券。 使用後，可在星彩獎中抽取各種珍貴獎勵。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 999901,
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170000,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170001] = {
+	drop_gold_max = 0,
+	name = "星彩券",
+	display = "閃爍著星輝的抽獎券。 使用後，可在星彩獎中抽取各種珍貴獎勵。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 999901,
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170001,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170002] = {
+	drop_gold_max = 0,
+	name = "星彩券",
+	display = "閃爍著星輝的抽獎券。 使用後，可在星彩獎中抽取各種珍貴獎勵。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 990009,
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170002,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170003] = {
+	drop_gold_max = 0,
+	name = "星彩券",
+	display = "閃爍著星輝的抽獎券。 使用後，可在星彩獎中抽取各種珍貴獎勵。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 990009,
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170003,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170004] = {
+	drop_gold_max = 0,
+	name = "星彩券",
+	display = "閃爍著星輝的抽獎券。 使用後，可在星彩獎中抽取各種珍貴獎勵。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 990020,
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170004,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170005] = {
+	drop_gold_max = 0,
+	name = "星彩券",
+	display = "閃爍著星輝的抽獎券。 使用後，可在星彩獎中抽取各種珍貴獎勵。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 990020,
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170005,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170006] = {
+	drop_gold_max = 0,
+	name = "星彩票",
+	display = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 990026,
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170006,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170007] = {
+	drop_gold_max = 0,
+	name = "星彩票",
+	display = "閃爍著星輝的抽獎券。使用後，可在星彩獎中抽取各種珍貴獎勵。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 990026,
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170007,
+	display_icon = {},
 	price = {},
 	index = {},
 	shiptrans_id = {},

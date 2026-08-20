@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			say = "谢谢指挥官……蜜蜂们都很开心呢。",
+			say = "謝謝指揮官……蜜蜂們都很開心呢。",
 			animation = "talk",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			face2Face = {
 				{
 					0,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "嗯……还有……",
-			subName = "苗圃管理员",
+			say = "嗯……還有……",
+			subName = "苗圃管理員",
 			characterId = 101400,
 			typewriter = {
 				speed = 0.05,
@@ -44,10 +44,10 @@ return {
 			}
 		},
 		{
-			say = "拉科尼亚也很开心的……",
+			say = "拉科妮婭也很開心的……",
 			animation = "shy",
 			characterId = 101400,
-			subName = "苗圃管理员",
+			subName = "苗圃管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

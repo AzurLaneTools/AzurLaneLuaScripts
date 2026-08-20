@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "莉莎——我回来了。",
+			say = "莉莎——我回來了。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -34,16 +34,16 @@ return {
 		},
 		{
 			animation = "clap",
-			say = "指挥官辛苦啦~材料都齐了对吧？",
+			say = "指揮官辛苦啦~材料都齊了對吧？",
 			characterId = 101000,
-			subName = "集会岛接待员",
+			subName = "集會島接待員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，按你的清单，都备好了。",
+			say = "嗯，按照妳的清單，都準備好了。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
+			subName = "集會島接待員",
 			say = "我看看……嗯，是都有了~",
 			characterId = 101000,
 			animation = "talk",
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			say = "那接下来，指挥官就等着看专家的手艺吧！",
-			subName = "集会岛接待员",
+			say = "那接下來，指揮官就等著看專家的手藝吧！",
+			subName = "集會島接待員",
 			characterId = 101000,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "她人还没到？",
+			say = "她人還沒到？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			subName = "集会岛接待员",
-			say = "别急……专家已经在集会岛港口等着了，快去看看吧。",
+			subName = "集會島接待員",
+			say = "別急……專家已經在集會島港口等了，快去看看吧。",
 			characterId = 101000,
 			animation = "talk",
 			typewriter = {

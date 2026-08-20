@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "新鲜的鸡蛋带回来了。",
+			say = "新鮮的雞蛋帶回來了。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -36,15 +36,15 @@ return {
 			animation = "clap",
 			say = "好呢~",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这次要打发不少蛋白呢，两个人一起操作的话会比较快……",
-			subName = "啾咖啡店员",
+			say = "這次要打發不少蛋白呢，兩個人一起操作的話會比較快……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -53,9 +53,9 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "指挥官，能麻烦您帮我一起打发蛋白嘛？",
+			say = "指揮官，能麻煩您幫我一起打發蛋白嗎？",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "没问题。",
+			say = "沒問題。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			say = "要打发到硬性发泡，就是像云朵一样洁白蓬松的状态哦~",
-			subName = "啾咖啡店员",
+			say = "要打發到硬性發泡，就是像雲朵一樣潔白蓬鬆的狀態哦~",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			say = "一起试试吧！",
-			subName = "啾咖啡店员",
+			say = "一起試試吧！",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -90,17 +90,17 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "嗯嗯……指挥官也打发得很好呢！",
+			say = "嗯嗯……指揮官也打發得很好呢！",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "基础款能量特调——完成！",
-			subName = "啾咖啡店员",
+			say = "基礎款能量特調——完成！",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -108,10 +108,10 @@ return {
 			}
 		},
 		{
-			say = "这次一定没问题了~",
+			say = "這次一定沒問題了~",
 			animation = "clap",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

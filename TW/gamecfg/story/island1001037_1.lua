@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "嗯……一网打尽。",
+			say = "嗯……一網打盡。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "蜜蜂们看起来都很健康，先带回果园吧。",
+			say = "蜜蜂看起來都很健康，先帶回果園吧。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

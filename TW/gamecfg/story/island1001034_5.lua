@@ -19,8 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "指挥官，感觉如何？我的改造技术没让你失望吧？",
-			subName = "工厂管理员",
+			say = "指揮官，感覺如何？我的改造技術沒讓你失望吧？",
+			subName = "工廠管理員",
 			characterId = 100900,
 			animation = "hi",
 			face2Face = {
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "这感觉确实不错，真是辛苦你了，萝莎。",
+			say = "這感覺確實不錯，真是辛苦你了，蘿莎。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			subName = "工厂管理员",
-			say = "嘿嘿……我就知道！这才是它该有的样子！",
+			subName = "工廠管理員",
+			say = "嘿嘿……我就知道！這才是它該有的樣子！",
 			characterId = 100900,
 			animation = "nod",
 			typewriter = {
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			say = "下次再有什么机械相关的装置都可以直接来找我~",
-			subName = "工厂管理员",
+			say = "下次再有什麼機械相關的裝置都可以直接來找我~",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			say = "包你满意！",
-			subName = "工厂管理员",
+			say = "包你滿意！",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "明白！以后就拜托萝莎专家了。",
+			say = "明白！以後就拜託蘿莎專家了。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

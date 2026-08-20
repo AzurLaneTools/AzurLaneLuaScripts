@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "这样就算安装好了吧。那准备……重启服务器。",
+			say = "這樣就算安裝好了吧。那準備……重啟伺服器。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -24,7 +24,7 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "服务器机柜内部的风扇首先开始转动，由慢到快，发出平稳的气流声。",
+			say = "伺服器機櫃內部的風扇首先開始轉動，由慢到快，發出平穩的氣流聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "紧接着，机柜正面密密麻麻的指示灯一盏接一盏地亮起，岛屿基地成功恢复了运转。",
+			say = "緊接著，機櫃正面密密麻麻的指示燈一盞接一盞地亮起，島嶼基地成功恢復了運作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,14 +42,14 @@ return {
 		{
 			withoutName = true,
 			withoutIcon = true,
-			say = "只是服务器上不知道何时出现了一块巴掌大的破旧纸片。",
+			say = "只是伺服器上不知道何時出現了一巴掌大的破舊紙片。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "咦？哪来的一张纸片？不对……这手感……",
+			say = "咦？哪來的一張紙片？不對……這手感……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			say = "好硬……好韧……不像普通的纸，倒有点像……处理过的薄皮或者某种特制的纤维？",
+			say = "好硬……好韌……不像普通的紙，倒有點像……處理過的薄皮或某種特製的纖維？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			say = "算了，不知道是谁检修时落下的，或者塞在机柜缝里被震出来的，就先收着吧。",
+			say = "算了，不知道是誰檢修時落下的，或是塞在機櫃縫裡被震出來的，就先收著吧。",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {

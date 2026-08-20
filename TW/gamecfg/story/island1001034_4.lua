@@ -19,8 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			say = "……啧，这个耦合器……角度偏差一些？不对……好像不是这边的问题……",
-			subName = "工厂管理员",
+			say = "……嘖，這個耦合器……角度偏差一些？不對……好像不是這邊的問題……",
+			subName = "工廠管理員",
 			characterId = 100900,
 			animation = "doubt",
 			face2Face = {
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			say = "……扳手！我的内六角扳手去哪了？！刚才明明放在这儿的！",
-			subName = "工厂管理员",
+			say = "……扳手！我的內六角扳手去哪了？！剛才明明放在這裡的！",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "萝莎专家？",
+			say = "蘿莎專家？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			say = "……嗯？谁？",
-			subName = "工厂管理员",
+			say = "……嗯？誰？",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -62,16 +62,16 @@ return {
 		},
 		{
 			animation = "amaze",
-			say = "啊！指挥官！材料！材料带来了吗？！",
+			say = "啊！指揮官！材料！材料帶來了嗎？！",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "带来了，莉莎清单上的，一样不少。",
+			say = "帶來了，莉莎清單上的，一樣不少。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			say = "太好了！品质不错，比之前{namecode:98:明石}塞给我的那堆工业废料强多了！",
-			subName = "工厂管理员",
+			say = "太好了！品質不錯，比之前明石塞給我的那堆工業廢棄物強多了！",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:98:明石}说……是你主动要求升级这架飞行器的？",
+			say = "明石說……是妳主動要求升級這架飛行器的？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -98,17 +98,17 @@ return {
 		},
 		{
 			animation = "rest",
-			say = "主动？也算是主动吧，毕竟它可是指挥官你的座驾呢~",
+			say = "主動？也算是主動吧，畢竟它可是指揮官你的座駕呢~",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "之前修理的时候就觉得它还有很大的潜力没发觉出来了。",
-			subName = "工厂管理员",
+			say = "之前修理的時候就覺得它還有很大的潛力沒發覺出來了。",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			say = "等等，修理？之前的飞行器也是你修的？",
+			say = "等等，修理？之前的飛行器也是妳修的？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -125,17 +125,17 @@ return {
 		},
 		{
 			animation = "elation",
-			say = "当然，那可真是废了我不小的力。",
+			say = "當然，那真是廢了我不小的力。",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我还格外提升了它的安全性能，就算再出现同样的问题，也能平稳降落了。",
-			subName = "工厂管理员",
+			say = "我還格外提升了它的安全性能，就算再出現同樣的問題，也能平穩降落了。",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:98:明石}……唉，又被她给骗了……",
+			say = "明石……唉，又被她騙了……",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -152,16 +152,16 @@ return {
 		},
 		{
 			animation = "doubt",
-			say = "骗什么？",
+			say = "騙什麼？",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不、没什么，那我们现在就开始？",
+			say = "不、沒什麼，那我們現在就開始？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			}
 		},
 		{
-			say = "好！指挥官等我一会，很快就好！",
-			subName = "工厂管理员",
+			say = "好！指揮官等我一下，很快就好！",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -188,16 +188,16 @@ return {
 		},
 		{
 			animation = "rest",
-			say = "呼……效率还算不错，指挥官，快来看看你的新座驾~",
+			say = "呼……效率還不錯，指揮官，快來看看你的新座駕~",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "这就好了？",
+			say = "這就好了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -206,17 +206,17 @@ return {
 		},
 		{
 			animation = "nod",
-			say = "当然！升级改造，圆满完成！",
+			say = "當然！升級改造，圓滿完成！",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "要坐上去试试吗？现在它安全性和稳定性绝对可靠！",
-			subName = "工厂管理员",
+			say = "要坐上去試試嗎？現在它安全性和穩定性絕對可靠！",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，萝莎专家，辛苦了！升级后有什么新增的功能么？",
+			say = "嗯，蘿莎專家，辛苦了！升級後有什麼新增的功能麼？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -233,16 +233,16 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "嘿嘿……它现在能带您，自由穿越集会岛，甚至……去那些不可思议的地方。",
+			say = "嘿嘿……它現在能帶您，自由穿越集會島，甚至……去那些不可思議的地方。",
 			characterId = 100900,
-			subName = "工厂管理员",
+			subName = "工廠管理員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不可思议的地方么，{namecode:98:明石}这次……倒是没在吹牛。",
+			say = "不可思議的地方嗎，明石這次……倒是沒在吹牛。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			say = "指挥官，还等什么，快坐上去试试~",
-			subName = "工厂管理员",
+			say = "指揮官，還等什麼，快坐上去試試~",
+			subName = "工廠管理員",
 			characterId = 100900,
 			typewriter = {
 				speed = 0.05,
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			say = "好，我这就上去试试！",
+			say = "好，我這就上去試試！",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {

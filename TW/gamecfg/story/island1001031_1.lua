@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "{namecode:98:明石}，你点的欧姆蛋两个。",
+			say = "明石，妳點的歐姆蛋兩個。",
 			characterId = 0,
 			face2Face = {
 				{
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "呜喵？！指挥官，你已经在高额负债压力下，开始做服务生了喵？",
+			say = "嗚喵？！指揮官，你已經在高負債壓力下，開始做服務生了喵？",
 			animation = "zmaze",
 			characterId = 3120100,
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "对对对，这位客人对服务满意的话，还请额外支付我的小费~",
+			say = "對對對，這位客人對服務滿意的話，還請額外支付我的小費~",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "欸？什么小费？{namecode:98:明石}没听到喵~没听到~",
+			say = "欸？什麼小費？明石沒聽到喵~沒聽到~",
 			animation = "doubt",
 			characterId = 3120100,
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			say = "真没听到？",
+			say = "真沒聽到？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 		},
 		{
 			animation = "sad",
-			say = "喵！别、别端走啊喵……而且~指挥官，只是小费你难道就满足了喵？",
+			say = "喵！別、別端走啊喵……而且~指揮官，只是小費你難道就滿足了喵？",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "哦？可以继续往下说，说完就能吃欧姆蛋了。",
+			say = "哦？可以繼續往下說，說完就能吃歐姆蛋了。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			say = "咳咳——看到指挥官能在这么短的时间里就把开发区管理得井井有条，{namecode:98:明石}很是佩服喵~",
+			say = "咳咳——看到指揮官能在這麼短的時間內就把開發區管理得井井有條，明石很是佩服喵~",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 		},
 		{
 			animation = "talk",
-			say = "但即使这样，岛屿上的物资种类也很单一对吧？",
+			say = "但即使這樣，島嶼上的物資種類也很單一對吧？",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "……说吧，又想推销什么了？",
+			say = "……說吧，又想推銷什麼了？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			say = "喵？！指挥官怎么能这样想{namecode:98:明石}喵！",
+			say = "喵？！指揮官怎麼可以這樣想明石喵！",
 			animation = "embarrass",
 			characterId = 3120100,
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:98:明石}是真心实意为指挥官、为开发区的蓬勃发展感到高兴和骄傲的喵！",
+			say = "明石是真心實意為指揮官、為開發區的蓬勃發展感到高興和驕傲的喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			say = "而且！正是因为看到了指挥官如此英明，看到了这座岛屿无限光明的未来喵~",
+			say = "而且！正是因為看到了指揮官如此英明，看到了這座島嶼無限光明的未來喵~",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:98:明石}才决定，要把压箱底的好东西拿出来，全力支持您的事业喵！",
+			say = "明石才決定，要把壓箱底的好東西拿出來，全力支持您的事業喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			say = "哦？压箱底的好东西？",
+			say = "哦？壓箱底的好東西？",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			say = "没错喵！请看{namecode:98:明石}为助力开发计划，特意给指挥官打造的——限定商店喵！",
+			say = "沒錯喵！請看明石為輔助開發計劃，特意給指揮官打造的——限定商店喵！",
 			animation = "nod",
 			characterId = 3120100,
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			say = "商品可都是我跑遍各地，精挑细选，专为指挥官您的伟大开发事业所准备的喵！",
+			say = "商品可都是我跑遍各地，精挑細選，專為指揮官您的偉大開發事業所準備的喵！",
 			characterId = 3120100,
 			typewriter = {
 				speed = 0.05,
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			say = "绝对物超所值，买到就是赚到！指挥官可以去看看喵~",
+			say = "絕對物超所值，買到就是賺到！指揮官可以去看喵~",
 			animation = "elation",
 			characterId = 3120100,
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			say = "……你还真是什么时候都不忘推销。",
+			say = "……妳還真是什麼時候都不忘推銷。",
 			animation = "shakehead",
 			characterId = 0,
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			say = "这下，{namecode:98:明石}可以享用这些欧姆蛋了吧喵？",
+			say = "這下，明石可以享用這些歐姆蛋了吧喵？",
 			animation = "clap",
 			characterId = 3120100,
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			say = "好好……都是你的，请慢用。",
+			say = "好好……都是妳的，請慢用。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

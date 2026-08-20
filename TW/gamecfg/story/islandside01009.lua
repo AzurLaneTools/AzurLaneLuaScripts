@@ -19,7 +19,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "布莱梅，这是你需要的胡萝卜。",
+			say = "布萊梅，這是你需要的胡蘿蔔。",
 			characterId = 0,
 			animation = "hi",
 			face2Face = {
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			say = "多谢指挥官~",
-			subName = "啾咖啡店员",
+			say = "多謝指揮官~",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -43,18 +43,18 @@ return {
 			}
 		},
 		{
-			say = "赫莫种的胡萝卜，品质果然很不错呢。",
+			say = "赫莫種的胡蘿蔔，品質果然很不錯。",
 			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "好……材料集齐了，接下来就是见证奇迹的时刻~",
-			subName = "啾咖啡店员",
+			say = "好……材料集齊了，接下來就是見證奇蹟的時刻~",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -63,17 +63,17 @@ return {
 		},
 		{
 			animation = "think",
-			say = "新鲜的胡萝卜汁，一点点蜂蜜，还有……",
+			say = "新鮮的胡蘿蔔汁，一點點蜂蜜，還有……",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "唔，比例似乎还要调整一下……",
-			subName = "啾咖啡店员",
+			say = "唔，比例似乎還要調整……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			say = "搅拌搅拌……咕噜咕噜……",
-			subName = "啾咖啡店员",
+			say = "攪拌攪拌……咕嚕咕嚕……",
+			subName = "啾咖啡店員",
 			characterId = 101200,
 			typewriter = {
 				speed = 0.05,
@@ -93,14 +93,14 @@ return {
 			say = "——完成了~",
 			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
+			subName = "啾咖啡店員",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "看起来很不错。",
+			say = "看起來很不錯。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			say = "在交给帕特莉之前……还是找一个同样需要打起精神来的人先试试吧。",
+			say = "在交給帕特莉之前……還是找一個同樣需要打起精神來的人先試試吧。",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,

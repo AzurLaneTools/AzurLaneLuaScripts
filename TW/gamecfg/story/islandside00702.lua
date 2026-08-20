@@ -5,7 +5,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "现在怎么样？",
+			say = "現在怎麼樣？",
 			animation = "talk",
 			characterId = 0,
 			typewriter = {
@@ -14,27 +14,27 @@ return {
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "嗯……周围的“嗡嗡杂音”似乎消失了……",
+			say = "嗯……周圍的「嗡嗡雜音」似乎消失了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "指挥官果然可靠，这么快就完成了我小小的请求……",
+			say = "指揮官果然可靠，這麼快就完成了我小小的請求……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "无名氏",
+			actorName = "無名氏",
 			withoutIcon = true,
-			say = "谢啦~这份清净，我会好好珍惜的……",
+			say = "謝啦~這份清淨，我會好好珍惜的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

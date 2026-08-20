@@ -1,5 +1,6 @@
 slot0 = class("IslandShopPage", import("..ship.IslandBaseShipDisplayPage"))
-slot1 = pg.island_item_data_template
+slot1 = 20016003
+slot2 = pg.island_item_data_template
 slot0.CharaSetModel = {
 	current = 1,
 	default = 2
@@ -38,6 +39,10 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot0.shopSkinPage:Find("changeCharaPanel/panel/title"), i18n("island_3Dshop_chara_choose"))
 	setText(slot0.shopSkinPage:Find("changeCharaPanel/panel/setTxt"), i18n("island_3Dshop_chara_set"))
+
+	slot0.exchangSubView = IslandShopExchangePage.New(slot0._tf, slot0)
+
+	slot0.exchangSubView:RegisterView(slot0)
 end
 
 slot0.OnInit = function(slot0)
@@ -354,6 +359,16 @@ slot0.SetShopList = function(slot0)
 	slot0.currentShop1TgIndex = nil
 	slot0.currentShop2TgIndex = nil
 	slot0.currentShop3TgIndex = nil
+	slot0.drawTabCnt = slot0.showDrawAward and slot0.drawAwardActivity and 1 or 0
+	slot0.drawTabIdx = slot0.drawTabCnt > 0 and #slot0.firstShopConfigs + 1 or nil
+	slot0.exchangeShowIds = (function ()
+		if not getProxy(IslandProxy):GetIsland():GetTaskAgency():IsFinishTask(uv0) then
+			return {}
+		end
+
+		return pg.island_exchange_group.all
+	end)()
+	slot0.exchangeTabStartIdx = slot0.drawTabIdx and slot0.drawTabIdx + 1 or #slot0.firstShopConfigs + 1
 
 	slot0.shop1List:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
@@ -361,12 +376,14 @@ slot0.SetShopList = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			if uv0.firstShopConfigs[slot1] then
 				uv0:BindFirstShopTab(slot2, slot3, slot1)
-			else
+			elseif uv0.drawTabIdx and slot1 == uv0.drawTabIdx then
 				uv0:BindDrawAwardTab(slot2, slot1)
+			elseif #uv0.exchangeShowIds > 0 and uv0.exchangeTabStartIdx <= slot1 then
+				uv0:BindExchangeTab(slot2, slot1)
 			end
 		end
 	end)
-	slot0.shop1List:align(#slot0.firstShopConfigs + (slot0.showDrawAward and slot0.drawAwardActivity and 1 or 0))
+	slot0.shop1List:align(#slot0.firstShopConfigs + slot0.drawTabCnt + #slot0.exchangeShowIds)
 end
 
 slot0.SetShopPage = function(slot0)
@@ -462,30 +479,8 @@ slot0.SetResources = function(slot0)
 					setText(slot2:Find("gold/max"), "MAX: " .. uv1.player:getLevelMaxGold())
 					setText(slot2:Find("gold/Text"), uv1.player.gold)
 				elseif slot6 == 4 or slot6 == 14 then
-					setText(slot2:Find("count"), uv1.player:getTotalGem())
-
-					slot7 = function()
-						if not pg.m02:hasMediator(NewShopMainMediator.__cname) then
-							pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-								wrap = ChargeScene.TYPE_DIAMOND
-							})
-						else
-							pg.m02:sendNotification(uv0.GO_MALL)
-						end
-					end
-
-					if PLATFORM_CODE == PLATFORM_JP then
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							fontSize = 23,
-							yesText = "text_buy",
-							content = i18n("word_diamond_tip", uv1.player:getFreeGem(), uv1.player:getChargeGem(), uv1.player:getTotalGem()),
-							onYes = slot7,
-							alignment = TextAnchor.UpperLeft,
-							weight = LayerWeightConst.TOP_LAYER
-						})
-					else
-						slot7()
-					end
+					setActive(slot2:Find("gem"), true)
+					setText(slot2:Find("gem/Text"), uv1.player:getTotalGem())
 				end
 			elseif slot5 == DROP_TYPE_ISLAND_ITEM then
 				setActive(slot2:Find("islandItem"), true)
@@ -508,6 +503,10 @@ slot0.SetResources = function(slot0)
 		end
 	end)
 	slot0.resourceList:align(#slot0.showingShop:GetTopResources())
+end
+
+slot0.SetResourcesVisible = function(slot0, slot1)
+	setActive(slot0._tf:Find("adapt/top/resources"), slot1)
 end
 
 slot0.SetCloseAndRefresh = function(slot0, slot1)
@@ -1391,6 +1390,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EX_EVT.SWITCH_MAP_BY_POINT, slot0.OnSwitchMapByPoint)
 	slot0:AddListener(ActivityProxy.ACTIVITY_UPDATED, slot0.UpdateActivity)
 	slot0:AddListener(GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE, slot0.DrawOperation)
+	slot0:AddListener(GAME.ISLAND_EXCHANGE_ITEM_DONE, slot0.OnExchangeDone)
 end
 
 slot0.RemoveListeners = function(slot0)
@@ -1398,6 +1398,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EX_EVT.SWITCH_MAP_BY_POINT, slot0.OnSwitchMapByPoint)
 	slot0:RemoveListener(ActivityProxy.ACTIVITY_UPDATED, slot0.UpdateActivity)
 	slot0:RemoveListener(GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE, slot0.DrawOperation)
+	slot0:RemoveListener(GAME.ISLAND_EXCHANGE_ITEM_DONE, slot0.OnExchangeDone)
 end
 
 slot0.UpdateView = function(slot0, slot1)
@@ -1587,6 +1588,59 @@ slot0.UnloadCharacter = function(slot0)
 	slot0.modelData = nil
 end
 
+slot0.BindExchangeTab = function(slot0, slot1, slot2)
+	slot5 = pg.island_exchange_group[slot0.exchangeShowIds[slot2 - slot0.exchangeTabStartIdx + 1]]
+
+	setText(slot1:Find("shop1Tg/name"), slot5.text[1])
+	setText(slot1:Find("shop1Tg/name/en"), slot5.text[2])
+	GetImageSpriteFromAtlasAsync("island/islandshopicon", slot5.text[3], slot1:Find("shop1Tg/selected/icon"))
+	setActive(slot1:Find("shop2List"), false)
+	onToggle(slot0, slot1:Find("shop1Tg"), function (slot0)
+		setActive(uv0.bg, not slot0)
+		setActive(uv1:Find("shop2List"), slot0)
+		uv0:SetResourcesVisible(not slot0)
+
+		if slot0 then
+			if uv0.currentShop1TgIndex == uv2 then
+				return
+			end
+
+			uv0.currentShop1TgIndex = uv2
+
+			uv1:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop1List_Selected")
+			triggerToggle(uv1:Find("shop2List"):GetChild(0), true)
+			setText(uv0.title:Find("Text"), i18n("island_exchange_title"))
+			setText(uv0.title:Find("Text/en"), i18n("island_exchange_title_en"))
+			uv0:SetShopPageVisible(false)
+			setActive(uv0.shop3, false)
+			setActive(uv0.shop32, false)
+			uv0.exchangSubView:ExecuteAction("Show")
+		else
+			uv0.exchangSubView:ExecuteAction("Hide")
+		end
+	end, SFX_PANEL)
+	UIItemList.StaticAlign(slot1:Find("shop2List"), slot1:Find("shop2List/shop2Tpl"), #slot5.exchange_group, function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = slot1 + 1
+			slot4 = uv0[slot3][1]
+			slot5 = uv0[slot3][2]
+
+			setText(slot2:Find("name"), slot4)
+			setText(slot2:Find("selected/name"), slot4)
+			onToggle(uv1, slot2, function (slot0)
+				if slot0 then
+					uv0:GetComponent(typeof(Animation)):Play("anim_IslandShopUI_Shop2List_Selected")
+					uv1.exchangSubView:ExecuteAction("FlushGroup", uv2)
+				end
+			end, SFX_PANEL)
+		end
+	end)
+end
+
+slot0.OnExchangeDone = function(slot0)
+	slot0.exchangSubView:ExecuteAction("FlushGroup")
+end
+
 slot0.OnShow = function(slot0, slot1, slot2, slot3)
 	slot0:OverlayPanel(slot0._tf)
 
@@ -1618,6 +1672,7 @@ slot0.OnHide = function(slot0)
 	slot0:UnloadCharacter()
 	slot0.drawAwardPage:Destroy()
 	slot0.drawAwardPage:Reset()
+	slot0.exchangSubView:ExecuteAction("Hide")
 
 	slot1 = ipairs
 	slot2 = slot0.loadingIdList or {}
@@ -1636,6 +1691,13 @@ end
 
 slot0.OnDestroy = function(slot0)
 	slot0:OnHide()
+
+	if slot0.exchangSubView then
+		slot0.exchangSubView:Destroy()
+
+		slot0.exchangSubView = nil
+	end
+
 	uv0.super.OnDestroy(slot0)
 end
 

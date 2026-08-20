@@ -4,7 +4,7 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "（奥布莱恩说得没错……短短半年，她们竟把这片荒地变成了真正的港湾。）",
+			say = "（奧布萊恩說得沒錯……短短半年，她們竟把這片荒地變成了真正的港灣。）",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -12,7 +12,7 @@ return {
 			}
 		},
 		{
-			say = "（更蹊跷的是这些货船……{namecode:98:明石}究竟从哪弄来这么多运力的？连港区调度表都没记录。)",
+			say = "（更蹊蹺的是這些貨船……明石究竟從哪裡弄來這麼多運力的？連港區調度表都沒紀錄。)",
 			characterId = 0,
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			say = "还是先找到帕特莉交货吧，订单的事可耽误不得。",
+			say = "還是先找到帕特莉交貨吧，訂單的事可耽誤不得。",
 			animation = "nod",
 			characterId = 0,
 			typewriter = {
