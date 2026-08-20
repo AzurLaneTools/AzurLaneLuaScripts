@@ -18,6 +18,9 @@ pg.island_dress_template.all = {
 	1010013,
 	1010014,
 	1010015,
+	1010016,
+	1010017,
+	1010018,
 	1020001,
 	1020002,
 	1020003,
@@ -32,6 +35,9 @@ pg.island_dress_template.all = {
 	1020012,
 	1020013,
 	1020014,
+	1020015,
+	1020016,
+	1020017,
 	1030001,
 	1030002,
 	1030003,
@@ -46,6 +52,9 @@ pg.island_dress_template.all = {
 	1030012,
 	1030013,
 	1030014,
+	1030015,
+	1030016,
+	1030017,
 	1040001,
 	1040002,
 	1040003,
@@ -70,6 +79,9 @@ pg.island_dress_template.all = {
 	1060013,
 	1060014,
 	1060015,
+	1060016,
+	1060017,
+	1060018,
 	1070001,
 	1070002,
 	1070003,
@@ -83,12 +95,15 @@ pg.island_dress_template.all = {
 	1070011,
 	1070012,
 	1070015,
+	1070016,
 	2010001,
 	2010002,
 	2010003,
 	2010004,
 	2010005,
 	2010006,
+	2010007,
+	2010008,
 	2020001,
 	2020002,
 	2020003,
@@ -96,6 +111,8 @@ pg.island_dress_template.all = {
 	2020005,
 	2020006,
 	2020007,
+	2020008,
+	2020009,
 	2030001,
 	2030002,
 	2030003,
@@ -103,7 +120,9 @@ pg.island_dress_template.all = {
 	2030005,
 	2030006,
 	2030007,
-	2030008
+	2030008,
+	2030009,
+	2030010
 }
 pg.island_dress_template.get_id_list_by_type = {
 	{
@@ -122,12 +141,17 @@ pg.island_dress_template.get_id_list_by_type = {
 		1010013,
 		1010014,
 		1010015,
+		1010016,
+		1010017,
+		1010018,
 		2010001,
 		2010002,
 		2010003,
 		2010004,
 		2010005,
-		2010006
+		2010006,
+		2010007,
+		2010008
 	},
 	{
 		1020001,
@@ -144,13 +168,18 @@ pg.island_dress_template.get_id_list_by_type = {
 		1020012,
 		1020013,
 		1020014,
+		1020015,
+		1020016,
+		1020017,
 		2020001,
 		2020002,
 		2020003,
 		2020004,
 		2020005,
 		2020006,
-		2020007
+		2020007,
+		2020008,
+		2020009
 	},
 	{
 		1030001,
@@ -167,6 +196,9 @@ pg.island_dress_template.get_id_list_by_type = {
 		1030012,
 		1030013,
 		1030014,
+		1030015,
+		1030016,
+		1030017,
 		2030001,
 		2030002,
 		2030003,
@@ -174,7 +206,9 @@ pg.island_dress_template.get_id_list_by_type = {
 		2030005,
 		2030006,
 		2030007,
-		2030008
+		2030008,
+		2030009,
+		2030010
 	},
 	{
 		1040001,
@@ -204,7 +238,10 @@ pg.island_dress_template.get_id_list_by_type = {
 		1060012,
 		1060013,
 		1060014,
-		1060015
+		1060015,
+		1060016,
+		1060017,
+		1060018
 	},
 	{
 		1070001,
@@ -219,7 +256,8 @@ pg.island_dress_template.get_id_list_by_type = {
 		1070010,
 		1070011,
 		1070012,
-		1070015
+		1070015,
+		1070016
 	}
 }
 pg.island_dress_template.get_id_list_by_related_dress = {
@@ -239,6 +277,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1010013,
 		1010014,
 		1010015,
+		1010016,
+		1010017,
+		1010018,
 		1020001,
 		1020002,
 		1020003,
@@ -253,6 +294,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1020012,
 		1020013,
 		1020014,
+		1020015,
+		1020016,
+		1020017,
 		1030001,
 		1030002,
 		1030003,
@@ -267,6 +311,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1030012,
 		1030013,
 		1030014,
+		1030015,
+		1030016,
+		1030017,
 		1040001,
 		1040002,
 		1040003,
@@ -291,12 +338,17 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1060013,
 		1060014,
 		1060015,
+		1060016,
+		1060017,
+		1060018,
 		2010001,
 		2010002,
 		2010003,
 		2010004,
 		2010005,
 		2010006,
+		2010007,
+		2010008,
 		2020001,
 		2020002,
 		2020003,
@@ -304,6 +356,8 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		2020005,
 		2020006,
 		2020007,
+		2020008,
+		2020009,
 		2030001,
 		2030002,
 		2030003,
@@ -311,7 +365,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		2030005,
 		2030006,
 		2030007,
-		2030008
+		2030008,
+		2030009,
+		2030010
 	},
 	[1060001] = {
 		1070001
@@ -351,6 +407,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 	},
 	[1060015] = {
 		1070015
+	},
+	[1060016] = {
+		1070016
 	}
 }
 pg.base = pg.base or {}
@@ -1014,6 +1073,140 @@ pg.base.island_dress_template = {}
 			}
 		}
 	}
+	pg.base.island_dress_template[1010016] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "제트팩",
+		remove = 1,
+		desc = "네모난 우주용 백팩. 당장이라도 날아오를 것만 같다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30113/prefab/pre_item_03_30113",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1010016",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1010016,
+		footprint_type = 0,
+		face_clip = "",
+		offset = {
+			0.407,
+			-0.405,
+			0.006
+		},
+		rotation = {
+			85.869,
+			-71.656,
+			12.928
+		},
+		scale = {
+			0.9
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1010017] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "맑음 인형",
+		remove = 1,
+		desc = "날씨를 맑게 해줄 수는 없지만, 바라보고만 있어도 마음이 저절로 맑아진다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30123/prefab/pre_item_03_30123",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1010017",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1010017,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.0008,
+			-0.422,
+			0.007
+		},
+		rotation = {
+			88.287,
+			121.144,
+			209.653
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1010018] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "예비 농구화",
+		remove = 1,
+		desc = "어딜 가더라도 휴대하는 예비 농구화. 마음만 먹으면 바로 시합을 할 수 있다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30133/prefab/pre_item_03_30133",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1010018",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1010018,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.0006,
+			-0.424,
+			-0.041
+		},
+		rotation = {
+			72.789,
+			120.289,
+			208.107
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[1020001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -1605,6 +1798,138 @@ pg.base.island_dress_template = {}
 			}
 		}
 	}
+	pg.base.island_dress_template[1020015] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "슝슝 로켓",
+		remove = 1,
+		desc = "곁에 둥둥 떠 있는 미니 로켓. 때때로 밑부분에서 연기를 뿜어낸다. 금방이라도 하늘로 날아가 버릴 것 같다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30111/prefab/pre_item_03_30111",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1020015",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1020015,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.782,
+			1.698,
+			-0.156
+		},
+		rotation = {
+			0,
+			351.005,
+			0
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1020016] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "공룡 우산",
+		remove = 1,
+		desc = "우산 꼭대기에 앙증맞게 솟아난 두 개의 뿔. 마치 얼굴을 빼꼼 내민 아기 공룡 같다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30121/prefab/pre_item_03_30121",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1020016",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1020016,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.731,
+			1.569,
+			-0.063
+		},
+		rotation = {
+			0,
+			-180,
+			0
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1020017] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "미니 백보드",
+		remove = 1,
+		desc = "둥실둥실 흔들흔들 떠 있는 미니 백보드. 언제든 훅 슛을 기다리고 있다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30131/prefab/pre_item_03_30131",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1020017",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1020017,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.757,
+			1.673,
+			0.007
+		},
+		rotation = {
+			0,
+			-8.36,
+			0
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[1030001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -2085,6 +2410,114 @@ pg.base.island_dress_template = {}
 		jump_page = {
 			{
 				"시즌III - 코어 접속",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1030015] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "별가루와 달그림자",
+		remove = 1,
+		rotation = "",
+		desc = "소리 없이 등 뒤에 보름달이 내려앉는다. 걸어간 자리에 남는 것은, 은하수 한귀퉁이의 고독한 로망.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30112/prefab/pre_item_03_30112",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1030015",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1030015,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1030016] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "즐거운 비 오는 날",
+		remove = 1,
+		rotation = "",
+		desc = "한 걸음마다 빗방울이 떨어져, 비 오는 날의 즐거움도 길 위에 가득 깔린다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30122/prefab/pre_item_03_30122",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1030016",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1030016,
+		footprint_type = 1,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1030017] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "농구공 자국",
+		remove = 1,
+		rotation = "",
+		desc = "발을 내디딜 때마다 농구공 무늬가 떠오른다. 지금 코트는 당신의 발밑에 있다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30132/prefab/pre_item_03_30132",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1030017",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1030017,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"별빛상",
 				{}
 			}
 		}
@@ -2901,6 +3334,114 @@ pg.base.island_dress_template = {}
 			2
 		}
 	}
+	pg.base.island_dress_template[1060016] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 6,
+		name = "스타워커",
+		remove = 0,
+		rotation = "",
+		desc = "두꺼운 우주복의 외부의 모든 것을 차단하고, 헬멧 안의 차분한 숨소리만이 들려온다. 언제든 우주로 뛰쳐나갈 수 있을 것 같다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_16_body_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060016",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1060016,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1060017] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 6,
+		name = "공룡 레인코트",
+		remove = 0,
+		rotation = "",
+		desc = "동심을 자극하는 공룡 우비. 걸을 때마다 뿔과 꼬리가 꿈실꿈실 흔들리는 모습은 그야말로 태고의 어린아이 그 자체.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_17_body_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060017",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1060017,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1060018] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 6,
+		name = "코트를 가르는 바람",
+		remove = 0,
+		rotation = "",
+		desc = "가벼운 원단이 드리블에 맞춰 펄럭인다. 점프 슛을 할 때마다 스트릿의 자유로움이 터져 나온다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_18_body_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060018",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1060018,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[1070001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 1060001,
@@ -3354,6 +3895,42 @@ pg.base.island_dress_template = {}
 		face_clip = "",
 		jump_page = {}
 	}
+	pg.base.island_dress_template[1070016] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 1060016,
+		attachmentPoint = "",
+		type = 7,
+		name = "스타워커 헬멧",
+		remove = 1,
+		rotation = "",
+		desc = "두꺼운 우주복의 외부의 모든 것을 차단하고, 헬멧 안의 차분한 숨소리만이 들려온다. 언제든 우주로 뛰쳐나갈 수 있을 것 같다.",
+		exclusive_default_skin = "",
+		sub_type = 2,
+		model = "island/character/9001/prefab/9001_16_headware_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060016",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1070016,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[2010001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -3690,6 +4267,106 @@ pg.base.island_dress_template = {}
 			99000302
 		}
 	}
+	pg.base.island_dress_template[2010007] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "발바닥 립밤",
+		remove = 1,
+		desc = "주변을 시원하게 식혀 여름의 더위를 덜어 준다.",
+		sub_type = 0,
+		model = "island/item/03/39017/prefab/pre_item_03_39017",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2010007",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		is_hide = 0,
+		id = 2010007,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.164,
+			-0.48,
+			0.188
+		},
+		rotation = {
+			80,
+			-70,
+			45
+		},
+		exclusive_default_skin = {
+			30407
+		},
+		exclusive_skin = {
+			3040701,
+			99000101
+		},
+		jump_page = {
+			{
+				"개발 상점",
+				{}
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.island_dress_template[2010008] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "보드라운 고양이 꼬리",
+		remove = 1,
+		desc = "깃털과 작은 물고기가 끝에 묶여 있는 가느다란 막대. 가볍게 흔들기만 해도 호기심 가득한 시선을 모두 끌어모은다.",
+		sub_type = 0,
+		model = "island/item/03/39035/prefab/pre_item_03_39035",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2010008",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		is_hide = 0,
+		id = 2010008,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.21,
+			-0.212,
+			-0.012
+		},
+		rotation = {
+			-59.811,
+			94.927,
+			-7.413
+		},
+		exclusive_default_skin = {
+			30407
+		},
+		exclusive_skin = {
+			3040701,
+			99000101
+		},
+		jump_page = {
+			{
+				"상점 구매",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[2020001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -3954,6 +4631,94 @@ pg.base.island_dress_template = {}
 		},
 		jump_page = {}
 	}
+	pg.base.island_dress_template[2020008] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "깃털 고양이 장난감",
+		remove = 1,
+		desc = "깃털과 작은 물고기가 끝에 묶여 있는 가느다란 막대. 가볍게 흔들기만 해도 호기심 가득한 시선을 모두 끌어모은다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/37009/prefab/pre_item_03_37009",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2020008",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2020008,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.599,
+			1.522,
+			0.49
+		},
+		rotation = {
+			0,
+			-64.24,
+			0
+		},
+		jump_page = {
+			{
+				"상점 구매",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[2020009] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "냐옹 거울",
+		remove = 1,
+		desc = "손바닥만 한 귀여운 고양이 거울. 살짝 기울이면 오늘의 좋은 기분도 함께 비친다.",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/37010/prefab/pre_item_03_37010",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2020009",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2020009,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.667,
+			1.288,
+			0.013
+		},
+		rotation = {
+			0,
+			11.794,
+			0
+		},
+		jump_page = {
+			{
+				"개발 상점",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[2030001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -4186,8 +4951,6 @@ pg.base.island_dress_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_dress_template[2030008] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -4218,5 +4981,77 @@ end)()
 		footprint_type = 0,
 		scale = "",
 		face_clip = ""
+	}
+	pg.base.island_dress_template[2030009] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "복슬복슬 발바닥",
+		remove = 1,
+		rotation = "",
+		desc = "한 걸음 걸을 때마다 작은 발바닥 자국 하나. 동그랗게 빛나서 큐트♪",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/38009/prefab/pre_item_03_38009",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2030009",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2030009,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"상점 구매",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[2030010] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "두근두근 립",
+		remove = 1,
+		rotation = "",
+		desc = "한 걸음 걸을 때마다 달콤한 키스 마크 하나. 오늘의 두근거림이 순식간에 한계 돌파♪",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/38010/prefab/pre_item_03_38010",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2030010",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2030010,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"개발 상점",
+				{}
+			}
+		}
 	}
 end)()

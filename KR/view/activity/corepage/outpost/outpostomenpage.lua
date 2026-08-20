@@ -10,7 +10,7 @@ slot0.OnInit = function(slot0)
 	slot0.btnDetail = slot0.bg:Find("btn_detail")
 	slot0.txtDetail = slot0.btnDetail:Find("detail")
 	slot0.btnStory = slot0.bg:Find("btn_story")
-	slot0.scenario = OutPostScenarioPage.New(slot0._tf, slot0.event)
+	slot0.scenario = slot0:GetOutPostScenarioPage().New(slot0._tf, slot0.event)
 
 	slot0.scenario:SetCoreStoryPage(slot0)
 	slot0.scenario:RegisterView(slot0.coreActivityUI)
@@ -23,6 +23,10 @@ slot0.OnInit = function(slot0)
 
 	setText(slot0.progressLabel, i18n("Outpost_20250904_Progress"))
 	setText(slot0.txtDetail, i18n("Outpost_20260514_Detail"))
+end
+
+slot0.GetOutPostScenarioPage = function(slot0)
+	return OutPostScenarioPage
 end
 
 slot0.OnDataSetting = function(slot0)

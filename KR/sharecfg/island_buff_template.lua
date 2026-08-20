@@ -288,10 +288,61 @@ pg.island_buff_template.all = {
 	10277,
 	10278,
 	10279,
+	10280,
+	10281,
+	10282,
+	10283,
+	10284,
+	10285,
+	10286,
+	10287,
+	10288,
+	10289,
+	10290,
+	10291,
+	10292,
+	10293,
+	10294,
+	10295,
+	10296,
+	10297,
+	10298,
+	10299,
+	10300,
+	10301,
+	10302,
+	10303,
+	10304,
+	10305,
+	10306,
+	10307,
+	10308,
+	10309,
+	10310,
+	10311,
+	10312,
+	10313,
+	10314,
+	10315,
+	10316,
+	10317,
+	10318,
+	10319,
+	10320,
+	10321,
+	10322,
+	10323,
+	10324,
+	10325,
+	10326,
+	10327,
+	10328,
+	10329,
 	100001,
 	100002,
 	100003,
 	100004,
+	100006,
 	100010,
 	100011,
 	100012,
@@ -302,6 +353,26 @@ pg.island_buff_template.all = {
 	100017,
 	100018,
 	100019,
+	100020,
+	100021,
+	100022,
+	100023,
+	100024,
+	100025,
+	100026,
+	100027,
+	100028,
+	100029,
+	100030,
+	100031,
+	100032,
+	100033,
+	100034,
+	100035,
+	100036,
+	100037,
+	100038,
+	100039,
 	999990
 }
 pg.base = pg.base or {}
@@ -6059,6 +6130,1018 @@ end)()
 		},
 		buff_duel = {}
 	}
+	pg.base.island_buff_template[10280] = {
+		name = "수공 기술",
+		buff_group = 1028,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10280,
+		type_use = {
+			{
+				706
+			},
+			1,
+			6
+		},
+		type_duel = {
+			1028
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10281] = {
+		name = "수공 기술",
+		buff_group = 1028,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10281,
+		type_use = {
+			{
+				706
+			},
+			1,
+			6.5
+		},
+		type_duel = {
+			1028
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10282] = {
+		name = "수공 기술",
+		buff_group = 1028,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10282,
+		type_use = {
+			{
+				706
+			},
+			1,
+			7
+		},
+		type_duel = {
+			1028
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10283] = {
+		name = "수공 기술",
+		buff_group = 1028,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10283,
+		type_use = {
+			{
+				706
+			},
+			1,
+			7.5
+		},
+		type_duel = {
+			1028
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10284] = {
+		name = "수공 기술",
+		buff_group = 1028,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10284,
+		type_use = {
+			{
+				706
+			},
+			1,
+			8
+		},
+		type_duel = {
+			1028
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10285] = {
+		name = "수공 기술",
+		buff_group = 1028,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10285,
+		type_use = {
+			{
+				706
+			},
+			1,
+			8.5
+		},
+		type_duel = {
+			1028
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10286] = {
+		name = "수공 기술",
+		buff_group = 1028,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10286,
+		type_use = {
+			{
+				706
+			},
+			1,
+			9
+		},
+		type_duel = {
+			1028
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10287] = {
+		name = "수공 기술",
+		buff_group = 1028,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10287,
+		type_use = {
+			{
+				706
+			},
+			1,
+			10
+		},
+		type_duel = {
+			1028
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10288] = {
+		name = "수공 기술",
+		buff_group = 1028,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10288,
+		type_use = {
+			{
+				706
+			},
+			1,
+			11
+		},
+		type_duel = {
+			1028
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10289] = {
+		name = "수공 기술",
+		buff_group = 1028,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10289,
+		type_use = {
+			{
+				706
+			},
+			1,
+			12
+		},
+		type_duel = {
+			1028
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10290] = {
+		name = "활력 충만",
+		buff_group = 1029,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 701,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10290,
+		type_use = {
+			70,
+			10
+		},
+		type_duel = {
+			1029
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10291] = {
+		name = "활력 충만",
+		buff_group = 1029,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 701,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10291,
+		type_use = {
+			70,
+			12
+		},
+		type_duel = {
+			1029
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10292] = {
+		name = "활력 충만",
+		buff_group = 1029,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 701,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10292,
+		type_use = {
+			70,
+			14
+		},
+		type_duel = {
+			1029
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10293] = {
+		name = "활력 충만",
+		buff_group = 1029,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 701,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10293,
+		type_use = {
+			70,
+			16
+		},
+		type_duel = {
+			1029
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10294] = {
+		name = "활력 충만",
+		buff_group = 1029,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 701,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10294,
+		type_use = {
+			70,
+			18
+		},
+		type_duel = {
+			1029
+		},
+		buff_duel = {}
+	}
+end)()
+(function ()
+	pg.base.island_buff_template[10295] = {
+		name = "활력 충만",
+		buff_group = 1029,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 701,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10295,
+		type_use = {
+			70,
+			20
+		},
+		type_duel = {
+			1029
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10296] = {
+		name = "활력 충만",
+		buff_group = 1029,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 701,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10296,
+		type_use = {
+			70,
+			22
+		},
+		type_duel = {
+			1029
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10297] = {
+		name = "활력 충만",
+		buff_group = 1029,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 701,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10297,
+		type_use = {
+			70,
+			24
+		},
+		type_duel = {
+			1029
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10298] = {
+		name = "활력 충만",
+		buff_group = 1029,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 701,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10298,
+		type_use = {
+			70,
+			26
+		},
+		type_duel = {
+			1029
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10299] = {
+		name = "활력 충만",
+		buff_group = 1029,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 701,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10299,
+		type_use = {
+			70,
+			30
+		},
+		type_duel = {
+			1029
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10300] = {
+		name = "능숙한 점포 관리",
+		buff_group = 1030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 103,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10300,
+		type_use = {
+			{
+				901,
+				601,
+				602,
+				603,
+				604
+			},
+			3
+		},
+		type_duel = {
+			1030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10301] = {
+		name = "능숙한 점포 관리",
+		buff_group = 1030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 103,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10301,
+		type_use = {
+			{
+				901,
+				601,
+				602,
+				603,
+				604
+			},
+			3.2
+		},
+		type_duel = {
+			1030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10302] = {
+		name = "능숙한 점포 관리",
+		buff_group = 1030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 103,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10302,
+		type_use = {
+			{
+				901,
+				601,
+				602,
+				603,
+				604
+			},
+			3.5
+		},
+		type_duel = {
+			1030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10303] = {
+		name = "능숙한 점포 관리",
+		buff_group = 1030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 103,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10303,
+		type_use = {
+			{
+				901,
+				601,
+				602,
+				603,
+				604
+			},
+			3.7
+		},
+		type_duel = {
+			1030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10304] = {
+		name = "능숙한 점포 관리",
+		buff_group = 1030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 103,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10304,
+		type_use = {
+			{
+				901,
+				601,
+				602,
+				603,
+				604
+			},
+			4
+		},
+		type_duel = {
+			1030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10305] = {
+		name = "능숙한 점포 관리",
+		buff_group = 1030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 103,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10305,
+		type_use = {
+			{
+				901,
+				601,
+				602,
+				603,
+				604
+			},
+			4.2
+		},
+		type_duel = {
+			1030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10306] = {
+		name = "능숙한 점포 관리",
+		buff_group = 1030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 103,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10306,
+		type_use = {
+			{
+				901,
+				601,
+				602,
+				603,
+				604
+			},
+			4.5
+		},
+		type_duel = {
+			1030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10307] = {
+		name = "능숙한 점포 관리",
+		buff_group = 1030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 103,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10307,
+		type_use = {
+			{
+				901,
+				601,
+				602,
+				603,
+				604
+			},
+			5
+		},
+		type_duel = {
+			1030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10308] = {
+		name = "능숙한 점포 관리",
+		buff_group = 1030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 103,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10308,
+		type_use = {
+			{
+				901,
+				601,
+				602,
+				603,
+				604
+			},
+			5.5
+		},
+		type_duel = {
+			1030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10309] = {
+		name = "능숙한 점포 관리",
+		buff_group = 1030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 103,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10309,
+		type_use = {
+			{
+				901,
+				601,
+				602,
+				603,
+				604
+			},
+			6
+		},
+		type_duel = {
+			1030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10310] = {
+		name = "행운의 인사",
+		buff_group = 1031,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 702,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10310,
+		type_use = {
+			9001
+		},
+		type_duel = {
+			1031
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10311] = {
+		name = "행운의 인사",
+		buff_group = 1031,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 702,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10311,
+		type_use = {
+			9002
+		},
+		type_duel = {
+			1031
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10312] = {
+		name = "행운의 인사",
+		buff_group = 1031,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 702,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10312,
+		type_use = {
+			9003
+		},
+		type_duel = {
+			1031
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10313] = {
+		name = "행운의 인사",
+		buff_group = 1031,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 702,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10313,
+		type_use = {
+			9004
+		},
+		type_duel = {
+			1031
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10314] = {
+		name = "행운의 인사",
+		buff_group = 1031,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 702,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10314,
+		type_use = {
+			9005
+		},
+		type_duel = {
+			1031
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10315] = {
+		name = "행운의 인사",
+		buff_group = 1031,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 702,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10315,
+		type_use = {
+			9006
+		},
+		type_duel = {
+			1031
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10316] = {
+		name = "행운의 인사",
+		buff_group = 1031,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 702,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10316,
+		type_use = {
+			9007
+		},
+		type_duel = {
+			1031
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10317] = {
+		name = "행운의 인사",
+		buff_group = 1031,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 702,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10317,
+		type_use = {
+			9008
+		},
+		type_duel = {
+			1031
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10318] = {
+		name = "행운의 인사",
+		buff_group = 1031,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 702,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10318,
+		type_use = {
+			9009
+		},
+		type_duel = {
+			1031
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10319] = {
+		name = "행운의 인사",
+		buff_group = 1031,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 702,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10319,
+		type_use = {
+			9010
+		},
+		type_duel = {
+			1031
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10320] = {
+		name = "음료 제조",
+		buff_group = 1032,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10320,
+		type_use = {
+			{
+				901
+			},
+			1,
+			1
+		},
+		type_duel = {
+			1032
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10321] = {
+		name = "음료 제조",
+		buff_group = 1032,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10321,
+		type_use = {
+			{
+				901
+			},
+			1,
+			1.2
+		},
+		type_duel = {
+			1032
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10322] = {
+		name = "음료 제조",
+		buff_group = 1032,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10322,
+		type_use = {
+			{
+				901
+			},
+			1,
+			1.5
+		},
+		type_duel = {
+			1032
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10323] = {
+		name = "음료 제조",
+		buff_group = 1032,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10323,
+		type_use = {
+			{
+				901
+			},
+			1,
+			1.7
+		},
+		type_duel = {
+			1032
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10324] = {
+		name = "음료 제조",
+		buff_group = 1032,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10324,
+		type_use = {
+			{
+				901
+			},
+			1,
+			2
+		},
+		type_duel = {
+			1032
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10325] = {
+		name = "음료 제조",
+		buff_group = 1032,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10325,
+		type_use = {
+			{
+				901
+			},
+			1,
+			2.2
+		},
+		type_duel = {
+			1032
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10326] = {
+		name = "음료 제조",
+		buff_group = 1032,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10326,
+		type_use = {
+			{
+				901
+			},
+			1,
+			2.5
+		},
+		type_duel = {
+			1032
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10327] = {
+		name = "음료 제조",
+		buff_group = 1032,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10327,
+		type_use = {
+			{
+				901
+			},
+			1,
+			3
+		},
+		type_duel = {
+			1032
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10328] = {
+		name = "음료 제조",
+		buff_group = 1032,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10328,
+		type_use = {
+			{
+				901
+			},
+			1,
+			3.5
+		},
+		type_duel = {
+			1032
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10329] = {
+		name = "음료 제조",
+		buff_group = 1032,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10329,
+		type_use = {
+			{
+				901
+			},
+			1,
+			4
+		},
+		type_duel = {
+			1032
+		},
+		buff_duel = {}
+	}
 	pg.base.island_buff_template[100001] = {
 		name = "음료 판매",
 		buff_group = 100001,
@@ -6132,6 +7215,28 @@ end)()
 		type_duel = {},
 		buff_duel = {}
 	}
+	pg.base.island_buff_template[100006] = {
+		name = "음료 제조",
+		buff_group = 100006,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 602,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100006,
+		type_use = {
+			{
+				901,
+				601,
+				602,
+				603,
+				604
+			},
+			1
+		},
+		type_duel = {},
+		buff_duel = {}
+	}
 	pg.base.island_buff_template[100010] = {
 		name = "拉菲技能效率1",
 		buff_group = 100010,
@@ -6175,7 +7280,7 @@ end)()
 		buff_color = 0,
 		buff_type = 102,
 		buff_time = 0,
-		buff_level = 1,
+		buff_level = 2,
 		id = 100011,
 		type_use = {
 			{
@@ -6211,7 +7316,7 @@ end)()
 		buff_color = 0,
 		buff_type = 102,
 		buff_time = 0,
-		buff_level = 1,
+		buff_level = 3,
 		id = 100012,
 		type_use = {
 			{
@@ -6247,7 +7352,7 @@ end)()
 		buff_color = 0,
 		buff_type = 102,
 		buff_time = 0,
-		buff_level = 1,
+		buff_level = 4,
 		id = 100013,
 		type_use = {
 			{
@@ -6283,7 +7388,7 @@ end)()
 		buff_color = 0,
 		buff_type = 102,
 		buff_time = 0,
-		buff_level = 1,
+		buff_level = 5,
 		id = 100014,
 		type_use = {
 			{
@@ -6319,7 +7424,7 @@ end)()
 		buff_color = 0,
 		buff_type = 102,
 		buff_time = 0,
-		buff_level = 1,
+		buff_level = 6,
 		id = 100015,
 		type_use = {
 			{
@@ -6355,7 +7460,7 @@ end)()
 		buff_color = 0,
 		buff_type = 102,
 		buff_time = 0,
-		buff_level = 1,
+		buff_level = 7,
 		id = 100016,
 		type_use = {
 			{
@@ -6391,7 +7496,7 @@ end)()
 		buff_color = 0,
 		buff_type = 102,
 		buff_time = 0,
-		buff_level = 1,
+		buff_level = 8,
 		id = 100017,
 		type_use = {
 			{
@@ -6427,7 +7532,7 @@ end)()
 		buff_color = 0,
 		buff_type = 102,
 		buff_time = 0,
-		buff_level = 1,
+		buff_level = 9,
 		id = 100018,
 		type_use = {
 			{
@@ -6463,7 +7568,7 @@ end)()
 		buff_color = 0,
 		buff_type = 102,
 		buff_time = 0,
-		buff_level = 1,
+		buff_level = 10,
 		id = 100019,
 		type_use = {
 			{
@@ -6489,6 +7594,406 @@ end)()
 		},
 		type_duel = {
 			100010
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100020] = {
+		name = "元气满满伐木",
+		buff_group = 100020,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100020,
+		type_use = {
+			{
+				402
+			},
+			1
+		},
+		type_duel = {
+			100020
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100021] = {
+		name = "元气满满伐木",
+		buff_group = 100020,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 2,
+		id = 100021,
+		type_use = {
+			{
+				402
+			},
+			1.5
+		},
+		type_duel = {
+			100020
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100022] = {
+		name = "元气满满伐木",
+		buff_group = 100020,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 3,
+		id = 100022,
+		type_use = {
+			{
+				402
+			},
+			2
+		},
+		type_duel = {
+			100020
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100023] = {
+		name = "元气满满伐木",
+		buff_group = 100020,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 4,
+		id = 100023,
+		type_use = {
+			{
+				402
+			},
+			2.5
+		},
+		type_duel = {
+			100020
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100024] = {
+		name = "元气满满伐木",
+		buff_group = 100020,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 5,
+		id = 100024,
+		type_use = {
+			{
+				402
+			},
+			3
+		},
+		type_duel = {
+			100020
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100025] = {
+		name = "元气满满伐木",
+		buff_group = 100020,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 6,
+		id = 100025,
+		type_use = {
+			{
+				402
+			},
+			3.5
+		},
+		type_duel = {
+			100020
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100026] = {
+		name = "元气满满伐木",
+		buff_group = 100020,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 7,
+		id = 100026,
+		type_use = {
+			{
+				402
+			},
+			4
+		},
+		type_duel = {
+			100020
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100027] = {
+		name = "元气满满伐木",
+		buff_group = 100020,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 8,
+		id = 100027,
+		type_use = {
+			{
+				402
+			},
+			4.5
+		},
+		type_duel = {
+			100020
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100028] = {
+		name = "元气满满伐木",
+		buff_group = 100020,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 9,
+		id = 100028,
+		type_use = {
+			{
+				402
+			},
+			5
+		},
+		type_duel = {
+			100020
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100029] = {
+		name = "元气满满伐木",
+		buff_group = 100020,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 10,
+		id = 100029,
+		type_use = {
+			{
+				402
+			},
+			6
+		},
+		type_duel = {
+			100020
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100030] = {
+		name = "调饮精通 利润",
+		buff_group = 100030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 1,
+		id = 100030,
+		type_use = {
+			{
+				901
+			},
+			4
+		},
+		type_duel = {
+			100030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100031] = {
+		name = "调饮精通 利润",
+		buff_group = 100030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 2,
+		id = 100031,
+		type_use = {
+			{
+				901
+			},
+			4.5
+		},
+		type_duel = {
+			100030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100032] = {
+		name = "调饮精通 利润",
+		buff_group = 100030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 3,
+		id = 100032,
+		type_use = {
+			{
+				901
+			},
+			5
+		},
+		type_duel = {
+			100030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100033] = {
+		name = "调饮精通 利润",
+		buff_group = 100030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 4,
+		id = 100033,
+		type_use = {
+			{
+				901
+			},
+			5.5
+		},
+		type_duel = {
+			100030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100034] = {
+		name = "调饮精通 利润",
+		buff_group = 100030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 5,
+		id = 100034,
+		type_use = {
+			{
+				901
+			},
+			6
+		},
+		type_duel = {
+			100030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100035] = {
+		name = "调饮精通 利润",
+		buff_group = 100030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 6,
+		id = 100035,
+		type_use = {
+			{
+				901
+			},
+			6.5
+		},
+		type_duel = {
+			100030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100036] = {
+		name = "调饮精通 利润",
+		buff_group = 100030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 7,
+		id = 100036,
+		type_use = {
+			{
+				901
+			},
+			7
+		},
+		type_duel = {
+			100030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100037] = {
+		name = "调饮精通 利润",
+		buff_group = 100030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 8,
+		id = 100037,
+		type_use = {
+			{
+				901
+			},
+			8
+		},
+		type_duel = {
+			100030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100038] = {
+		name = "调饮精通 利润",
+		buff_group = 100030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 9,
+		id = 100038,
+		type_use = {
+			{
+				901
+			},
+			9
+		},
+		type_duel = {
+			100030
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[100039] = {
+		name = "调饮精通 利润",
+		buff_group = 100030,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 601,
+		buff_time = 0,
+		buff_level = 10,
+		id = 100039,
+		type_use = {
+			{
+				901
+			},
+			10
+		},
+		type_duel = {
+			100030
 		},
 		buff_duel = {}
 	}

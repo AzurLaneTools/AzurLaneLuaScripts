@@ -35,6 +35,8 @@ pg.island_technology_template.all = {
 	110308,
 	100307,
 	100308,
+	100309,
+	100310,
 	110309,
 	120005,
 	110310,
@@ -239,6 +241,8 @@ pg.island_technology_template.get_id_list_by_tech_belong = {
 		110308,
 		100307,
 		100308,
+		100309,
+		100310,
 		110309,
 		120005,
 		110310,
@@ -1438,6 +1442,66 @@ pg.base.island_technology_template = {}
 		axis = {
 			24,
 			1
+		}
+	}
+	pg.base.island_technology_template[100309] = {
+		complete_title = "<color=#1E8FFE>관리</color>의 <color=#1E8FFE>창고</color>에서 확인할 수 있습니다.",
+		tech_level = "9",
+		tech_chara = 1,
+		complete_character_id = "",
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>관리</color>의 <color=#1E8FFE>창고</color>에서 확인할 수 있습니다.",
+		island_level = 42,
+		tech_desc = "창고 용량 증가. 더 많이 보관할 수 있다!",
+		tech_icon = "tech_100301",
+		tech_belong = 1,
+		tech_name = "창고 용량 +9",
+		formula_id = 7100309,
+		id = 100309,
+		complete_map_id = 0,
+		sys_unlock = {
+			{
+				3,
+				100308
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			9.5
+		}
+	}
+	pg.base.island_technology_template[100310] = {
+		complete_title = "<color=#1E8FFE>관리</color>의 <color=#1E8FFE>창고</color>에서 확인할 수 있습니다.",
+		tech_level = "10",
+		tech_chara = 1,
+		complete_character_id = "",
+		auto_finish = 1,
+		complete_tips = "<color=#1E8FFE>관리</color>의 <color=#1E8FFE>창고</color>에서 확인할 수 있습니다.",
+		island_level = 52,
+		tech_desc = "창고 용량 증가. 더 많이 보관할 수 있다!",
+		tech_icon = "tech_100301",
+		tech_belong = 1,
+		tech_name = "창고 용량 +10",
+		formula_id = 7100310,
+		id = 100310,
+		complete_map_id = 0,
+		sys_unlock = {
+			{
+				3,
+				100309
+			}
+		},
+		tech_repeat = {
+			0,
+			0
+		},
+		axis = {
+			28,
+			10
 		}
 	}
 	pg.base.island_technology_template[110309] = {
@@ -3544,6 +3608,8 @@ pg.base.island_technology_template = {}
 			4.5
 		}
 	}
+end)()
+(function ()
 	pg.base.island_technology_template[430302] = {
 		complete_title = "<color=#1E8FFE>이슬 농장의 메리</color>를 통해 무무소를 사육할 수 있는 최대 숫자가 늘어났습니다.",
 		tech_level = "1",
@@ -3608,8 +3674,6 @@ pg.base.island_technology_template = {}
 			6
 		}
 	}
-end)()
-(function ()
 	pg.base.island_technology_template[440302] = {
 		complete_title = "<color=#1E8FFE>이슬 농장의 메리</color>를 통해 메메양을 사육할 수 있는 최대 숫자가 늘어났습니다.",
 		tech_level = "1",
@@ -6831,6 +6895,8 @@ end)()
 			9
 		}
 	}
+end)()
+(function ()
 	pg.base.island_technology_template[660206] = {
 		complete_title = "<color=#1E8FFE>항구 기지 공장의 로사</color>가 있는 곳에서 <color=#1E8FFE>수공 작업대</color>로 제작할 수 있습니다.",
 		tech_level = "1",
@@ -6895,8 +6961,6 @@ end)()
 			9
 		}
 	}
-end)()
-(function ()
 	pg.base.island_technology_template[650203] = {
 		complete_title = "<color=#1E8FFE>항구 기지 공장의 로사</color>가 있는 곳에서 <color=#1E8FFE>전자 부품 가공</color>으로 제작할 수 있습니다.",
 		tech_level = "1",

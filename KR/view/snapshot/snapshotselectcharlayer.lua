@@ -337,7 +337,7 @@ slot0.initSelectSkinPanel = function(slot0)
 
 	slot0.skinScroll = slot0.skinPanel:Find("select_skin/style_scroll")
 	slot0.skinContainer = slot0.skinScroll:Find("view_port")
-	slot0.skinCard = slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
+	slot0.skinCard = slot0.skinContainer:GetChild(0)
 
 	setActive(slot0.skinCard, false)
 	setActive(slot0.skinPanel, false)

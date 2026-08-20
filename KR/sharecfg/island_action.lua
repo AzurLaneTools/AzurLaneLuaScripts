@@ -27,12 +27,19 @@ pg.island_action.all = {
 	1022,
 	1023,
 	1024,
+	1025,
+	1026,
+	1027,
+	1028,
+	1029,
+	1030,
 	2000,
 	2001,
 	2002,
 	2003,
 	2004,
-	2005
+	2005,
+	2006
 }
 pg.island_action.get_id_list_by_type = {
 	{
@@ -59,7 +66,13 @@ pg.island_action.get_id_list_by_type = {
 		1021,
 		1022,
 		1023,
-		1024
+		1024,
+		1025,
+		1026,
+		1027,
+		1028,
+		1029,
+		1030
 	},
 	{
 		2000,
@@ -67,7 +80,8 @@ pg.island_action.get_id_list_by_type = {
 		2002,
 		2003,
 		2004,
-		2005
+		2005,
+		2006
 	}
 }
 pg.base = pg.base or {}
@@ -555,6 +569,138 @@ pg.base.island_action = {}
 			}
 		}
 	}
+	pg.base.island_action[1025] = {
+		name = "척",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "point",
+		desc = "상호작용 「척」",
+		tech_id = 0,
+		id = 1025,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			105,
+			204
+		},
+		jump_page = {
+			{
+				"시즌IV - 개발 상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1026] = {
+		name = "환영",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "welcome",
+		desc = "상호작용 「환영」",
+		tech_id = 0,
+		id = 1026,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			102,
+			107
+		},
+		jump_page = {
+			{
+				"시즌IV - 개발 상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1027] = {
+		name = "응시",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "lookover",
+		desc = "상호작용 「응시」",
+		tech_id = 0,
+		id = 1027,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			105,
+			201
+		},
+		jump_page = {
+			{
+				"시즌IV - 개발 상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1028] = {
+		name = "배 통통",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "slapbelly",
+		desc = "상호작용 「배 통통」",
+		tech_id = 0,
+		id = 1028,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			106,
+			207
+		},
+		jump_page = {
+			{
+				"시즌IV - 개발 상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1029] = {
+		name = "졸려",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "doze",
+		desc = "상호작용 「졸려」",
+		tech_id = 0,
+		id = 1029,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			108
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1030] = {
+		name = "점프",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "jumpinplace",
+		desc = "상호작용 「점프」",
+		tech_id = 0,
+		id = 1030,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			104
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
 	pg.base.island_action[2000] = {
 		chara_sigle_action_reply = "",
 		name = "하이파이브",
@@ -675,6 +821,29 @@ pg.base.island_action = {}
 			0,
 			0,
 			2
+		},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[2006] = {
+		chara_sigle_action_reply = "",
+		name = "그룹 댄스",
+		type = 2,
+		feedback_type = 0,
+		sigle_action_reply_type = 0,
+		resource = "mutidance",
+		desc = "상호작용 「그룹 댄스」",
+		tech_id = 0,
+		id = 2006,
+		responder_feedback = "mutidance_end",
+		respond_point = {
+			0,
+			0,
+			1.41529
 		},
 		jump_page = {
 			{

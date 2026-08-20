@@ -388,6 +388,7 @@ pg.skill_data_template.all = {
 	61090,
 	61100,
 	61110,
+	61120,
 	7000,
 	9030,
 	9031,
@@ -3088,6 +3089,7 @@ pg.skill_data_template.all = {
 	1010800,
 	1019300,
 	1018300,
+	1013450,
 	1014050,
 	1090010,
 	1090020,
@@ -3134,6 +3136,7 @@ pg.skill_data_template.all = {
 	1090460,
 	1090470,
 	1090480,
+	1090500,
 	1090490
 }
 pg.base = pg.base or {}
@@ -13847,6 +13850,20 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61120] = {
+		desc_get = "",
+		name = "명탐정의 모자",
+		type = 0,
+		max_level = 0,
+		desc = "에식스가 장착하면 전투 중에 명중이 30 상승한다.",
+		id = 61120,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "라인 연습",
@@ -14611,6 +14628,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[9709] = {
 		desc_get = "",
 		name = "雷达缩圈效果",
@@ -14625,8 +14644,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[9711] = {
 		desc_get = "",
 		name = "부린의 서약·purin",
@@ -21877,6 +21894,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10970] = {
 		desc_get = "",
 		name = "파이팅 메리",
@@ -21983,8 +22002,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10980] = {
 		desc_get = "",
 		name = "대공 엄호",
@@ -30305,6 +30322,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11960] = {
 		desc_get = "",
 		name = "피오르드의 별",
@@ -30366,8 +30385,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11970] = {
 		desc_get = "",
 		name = "전의상승",
@@ -39778,6 +39795,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13030] = {
 		desc_get = "",
 		name = "노스 유니온의 망나니",
@@ -39839,8 +39858,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13040] = {
 		desc_get = "",
 		name = "Mercury Memorial",
@@ -49498,6 +49515,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14030] = {
 		desc_get = "",
 		name = "회전의 Ontology",
@@ -49559,8 +49578,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14040] = {
 		desc_get = "",
 		name = "빛나는 Protorogia",
@@ -60842,6 +60859,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15030] = {
 		desc_get = "",
 		name = "적당한 공수",
@@ -60948,8 +60967,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15040] = {
 		desc_get = "",
 		name = "다... 단지 의외일 뿐!",
@@ -72729,6 +72746,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16040] = {
 		desc_get = "",
 		name = "춤추는 벚꽃 칼날",
@@ -72925,8 +72944,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16050] = {
 		desc_get = "",
 		name = "무사시의 수호",
@@ -84266,6 +84283,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17050] = {
 		desc_get = "",
 		name = "荡涤诸恶跨队BUFFID占用",
@@ -84280,8 +84299,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17060] = {
 		desc_get = "",
 		name = "개쩌는 인연 파워",
@@ -95302,6 +95319,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150090] = {
 		desc_get = "",
 		name = "『裁决降临』跨队ID占用",
@@ -95316,8 +95335,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150100] = {
 		desc_get = "",
 		name = "『临界爆发』跨队ID占用",
@@ -106571,6 +106588,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151070] = {
 		desc_get = "",
 		name = "화염이 내리는 기적",
@@ -106677,8 +106696,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151080] = {
 		desc_get = "",
 		name = "버터플라이 리프 스톰",
@@ -118475,6 +118492,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152040] = {
 		desc_get = "",
 		name = "총화의 푸에테",
@@ -118572,8 +118591,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152050] = {
 		desc_get = "",
 		name = "티 스피드!",
@@ -128661,6 +128678,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19170] = {
 		desc_get = "",
 		name = "키타카제류·일절참",
@@ -128758,8 +128777,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19180] = {
 		desc_get = "",
 		name = "키타카제류·6연뇌",
@@ -138842,6 +138859,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[20052] = {
 		desc_get = "",
 		name = "전탄 발사 - 심즈급II",
@@ -138856,8 +138875,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20061] = {
 		desc_get = "",
 		name = "전탄 발사 - 벤슨급I",
@@ -140244,6 +140261,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22071] = {
 		desc_get = "",
 		name = "전탄 발사 - 아카츠키형I",
@@ -140258,8 +140277,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22072] = {
 		desc_get = "",
 		name = "전탄 발사 - 아카츠키형II",
@@ -141646,6 +141663,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[25042] = {
 		desc_get = "",
 		name = "전탄발사II",
@@ -141660,8 +141679,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[25211] = {
 		desc_get = "",
 		name = "전탄 발사 – 트렌토I",
@@ -143048,6 +143065,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29212] = {
 		desc_get = "",
 		name = "전탄 발사 - Z46II",
@@ -143062,8 +143081,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29221] = {
 		desc_get = "",
 		name = "전탄 발사 - 이부키 I",
@@ -144458,6 +144475,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29751] = {
 		desc_get = "",
 		name = "특수 탄막-잉그레이엄I",
@@ -144472,8 +144491,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29752] = {
 		desc_get = "",
 		name = "특수 탄막-잉그레이엄II",
@@ -145860,6 +145877,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30281] = {
 		desc_get = "",
 		name = "특수 탄막 - Z47Ⅰ",
@@ -145874,8 +145893,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30282] = {
 		desc_get = "",
 		name = "특수 탄막 - Z47Ⅱ",
@@ -148863,6 +148880,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[103100] = {
 		desc_get = "",
 		name = "쌍영무쌍",
@@ -148910,8 +148929,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[103110] = {
 		desc_get = "",
 		name = "백화밀",
@@ -157917,6 +157934,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[107150] = {
 		desc_get = "",
 		name = "쌍둥이 춤·아미",
@@ -157980,8 +157999,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[107160] = {
 		desc_get = "",
 		name = "장난꾸러기 Cheering·마미",
@@ -166005,6 +166022,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[110340] = {
 		desc_get = "전투 중에 행운이 7 상승하고, 명중·장전이 15% 상승한다.",
 		name = "부채·상수설무",
@@ -166019,8 +166038,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[110350] = {
 		desc_get = "전투 중 행운이 4 상승하고, 피해를 입어 내구가 최대치의 50%를 밑도는 경우, 1회 한정으로 전투 종료 시까지 포격이 10% 상승한다.",
 		name = "부채·자빙연화",
@@ -175060,6 +175077,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[190080] = {
 		desc_get = "",
 		name = "청소 미션 개시",
@@ -175202,8 +175221,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[190090] = {
 		desc_get = "",
 		name = "프로의 여유",
@@ -180265,6 +180282,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800537] = {
 		desc_get = "",
 		name = "일렁이는 불꽃·트렌토II",
@@ -180281,8 +180300,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800540] = {
 		desc_get = "",
 		name = "불꽃으로 주조된 칼날",
@@ -185554,6 +185571,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801081] = {
 		desc_get = "",
 		name = "섬멸의 횃불·킴벌리 I",
@@ -185570,8 +185589,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801082] = {
 		desc_get = "",
 		name = "섬멸의 횃불·킴벌리 II",
@@ -191228,6 +191245,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801632] = {
 		desc_get = "",
 		name = "염추의 재·안드레아 도리아Ⅱ",
@@ -191244,8 +191263,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801635] = {
 		desc_get = "",
 		name = "염추의 재·안드레아 도리아Ⅰ",
@@ -196251,6 +196268,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802180] = {
 		desc_get = "",
 		name = "훈계 조교의 채찍",
@@ -196438,8 +196457,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802190] = {
 		desc_get = "",
 		name = "방호 애호 머신",
@@ -202156,6 +202173,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1011970] = {
 		desc_get = "",
 		name = "전의상승+",
@@ -202262,8 +202281,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1011440] = {
 		desc_get = "",
 		name = "스캐퍼플로의 황소+",
@@ -214329,6 +214346,112 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[1013450] = {
+		desc_get = "",
+		name = "기사의 영원한 약속+",
+		type = 3,
+		max_level = 10,
+		desc = "전투 시작 시 포격·장전이 $1 상승한다. 또한 자신과 아군 선봉함대 선두 함선의 포격 및 대공이 $2 상승한다.",
+		id = 1013450,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"8.0%",
+				"18.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"8.0%",
+					"+1.1%"
+				},
+				{
+					"9.1%",
+					"+1.1%"
+				},
+				{
+					"10.2%",
+					"+1.1%"
+				},
+				{
+					"11.3%",
+					"+1.1%"
+				},
+				{
+					"12.4%",
+					"+1.1%"
+				},
+				{
+					"13.5%",
+					"+1.1%"
+				},
+				{
+					"14.6%",
+					"+1.1%"
+				},
+				{
+					"15.7%",
+					"+1.1%"
+				},
+				{
+					"16.8%",
+					"+1.2%"
+				},
+				{
+					"18.0%"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[1014050] = {
 		desc_get = "",
 		name = "만발한 보랏빛+",
@@ -216184,6 +216307,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090140] = {
 		desc_get = "",
 		name = "엄호포격·새러토가",
@@ -216416,8 +216541,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090160] = {
 		desc_get = "",
 		name = "주포 연사·서포크",
@@ -220495,6 +220618,112 @@ end)()
 				},
 				{
 					"5.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1090500] = {
+		desc_get = "",
+		name = "내 몸을 방패로·나치",
+		type = 2,
+		max_level = 10,
+		desc = "전투 시작 시 대공 및 기동이 $1 상승하고, 주는 피해량이 $1 증가한다. 전투 중 20초마다 $2의 확률로 발동하여 8초간 아군 선봉함대가 받는 피해량의 50%를 대신 받는다. 동일한 「내 몸을 방패로」의 효과는 가장 높은 효과만 적용된다.",
+		id = 1090500,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"10%",
+				"40%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+3.0%"
+				},
+				{
+					"13.0%",
+					"+3.0%"
+				},
+				{
+					"16.0%",
+					"+4.0%"
+				},
+				{
+					"20.0%",
+					"+3.0%"
+				},
+				{
+					"23.0%",
+					"+3.0%"
+				},
+				{
+					"26.0%",
+					"+4.0%"
+				},
+				{
+					"30.0%",
+					"+3.0%"
+				},
+				{
+					"33.0%",
+					"+3.0%"
+				},
+				{
+					"36.0%",
+					"+4.0%"
+				},
+				{
+					"40.0%"
 				}
 			}
 		}

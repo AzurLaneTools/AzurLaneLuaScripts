@@ -295,6 +295,11 @@ pg.island_item_data_template.all = {
 	200027,
 	200028,
 	200029,
+	200030,
+	200031,
+	200032,
+	200033,
+	200034,
 	300001,
 	300002,
 	300003,
@@ -599,6 +604,11 @@ pg.island_item_data_template.get_id_list_by_usage = {
 		200027,
 		200028,
 		200029,
+		200030,
+		200031,
+		200032,
+		200033,
+		200034,
 		300001,
 		300002,
 		300003,
@@ -885,6 +895,11 @@ pg.island_item_data_template.get_id_list_by_type = {
 		200027,
 		200028,
 		200029,
+		200030,
+		200031,
+		200032,
+		200033,
+		200034,
 		300001,
 		300002,
 		300003,
@@ -7218,7 +7233,7 @@ end)()
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
+					"IslandShopPage",
 					{
 						1,
 						2,
@@ -7293,7 +7308,7 @@ end)()
 			{
 				"상점 구매",
 				{
-					"IslandShopScene",
+					"IslandShopPage",
 					{
 						1,
 						2,
@@ -10978,6 +10993,161 @@ end)()
 			}
 		}
 	}
+	pg.base.island_item_data_template[200030] = {
+		name = "앵커리지 - 아일랜드 권한 인증",
+		desc = "앵커리지의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200030",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200030,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200031] = {
+		name = "모가도르 - 아일랜드 권한 인증",
+		desc = "모가도르의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200031",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200031,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200032] = {
+		name = "창펑 - 아일랜드 권한 인증",
+		desc = "창펑의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200032",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200032,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"별빛상",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200033] = {
+		name = "로열포춘 - 아일랜드 권한 인증",
+		desc = "로열포춘의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200033",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200033,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"상점",
+				{}
+			}
+		}
+	}
+	pg.base.island_item_data_template[200034] = {
+		name = "벨파스트 - 아일랜드 권한 인증",
+		desc = "벨파스트의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		type = 2,
+		manage_influence = 0,
+		pt_num = 0,
+		group_max = 0,
+		usage = "usage_undefined",
+		usage_arg = "[]",
+		drop_after_use = 0,
+		order_price = 0,
+		tech_id = 0,
+		icon = "IslandProps/item_200034",
+		price = 0,
+		icon_normal = "",
+		rarity = 4,
+		convert = 0,
+		resource_type = 0,
+		id = 200034,
+		have_max = 0,
+		filter = {
+			10213
+		},
+		sub_attribute = {},
+		jump_page = {
+			{
+				"개발 상점",
+				{}
+			}
+		}
+	}
 	pg.base.island_item_data_template[300001] = {
 		name = "비옥한 농지 배치 작업 효율 4% 상승",
 		desc = "획득 후 비옥한 농지 배치 작업 효율 4% 상승",
@@ -11094,6 +11264,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_item_data_template[300005] = {
 		name = "향기로운 과수원 배치 작업 효율 8% 상승",
 		desc = "획득 후 향기로운 과수원 배치 작업 효율 8% 상승",

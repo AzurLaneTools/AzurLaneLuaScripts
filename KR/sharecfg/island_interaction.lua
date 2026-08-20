@@ -222,6 +222,7 @@ pg.island_interaction.all = {
 	4518,
 	4519,
 	4520,
+	4521,
 	4601,
 	4602,
 	4603,
@@ -333,6 +334,25 @@ pg.island_interaction.all = {
 	5861,
 	5862,
 	5863,
+	5864,
+	5865,
+	5866,
+	5867,
+	5868,
+	5869,
+	5870,
+	5871,
+	5872,
+	5873,
+	5874,
+	5875,
+	5876,
+	5877,
+	5878,
+	5879,
+	5880,
+	5881,
+	5882,
 	5901,
 	5902,
 	6001,
@@ -701,7 +721,8 @@ pg.island_interaction.get_id_list_by_groupId = {
 		4517,
 		4518,
 		4519,
-		4520
+		4520,
+		4521
 	},
 	[46] = {
 		4601,
@@ -838,7 +859,26 @@ pg.island_interaction.get_id_list_by_groupId = {
 		5860,
 		5861,
 		5862,
-		5863
+		5863,
+		5864,
+		5865,
+		5866,
+		5867,
+		5868,
+		5869,
+		5870,
+		5871,
+		5872,
+		5873,
+		5874,
+		5875,
+		5876,
+		5877,
+		5878,
+		5879,
+		5880,
+		5881,
+		5882
 	},
 	[59] = {
 		5901,
@@ -4188,6 +4228,21 @@ end)()
 			}
 		}
 	}
+	pg.base.island_interaction[4521] = {
+		text = "아모마——",
+		groupId = 45,
+		only_self = 0,
+		type = 12,
+		id = 4521,
+		icon = 9,
+		param = "20018001",
+		show_condition = {
+			{
+				3,
+				20018001
+			}
+		}
+	}
 	pg.base.island_interaction[4601] = {
 		text = "유어 레스토랑",
 		groupId = 46,
@@ -5524,6 +5579,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_interaction[5834] = {
 		text = "봄 특산품 제작 (1/7)",
 		groupId = 58,
@@ -5539,8 +5596,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_interaction[5835] = {
 		text = "봄 특산품 제작 (2/7)",
 		groupId = 58,
@@ -6069,6 +6124,351 @@ end)()
 			{
 				4,
 				50003011
+			}
+		}
+	}
+	pg.base.island_interaction[5864] = {
+		text = "가을 특산품 채집 (1/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5864,
+		icon = 12,
+		param = "50001022",
+		show_condition = {
+			{
+				3,
+				50001022
+			}
+		}
+	}
+	pg.base.island_interaction[5865] = {
+		text = "가을 특산품 채집 (2/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5865,
+		icon = 12,
+		param = "50001023",
+		show_condition = {
+			{
+				3,
+				50001023
+			},
+			{
+				4,
+				50001022
+			}
+		}
+	}
+	pg.base.island_interaction[5866] = {
+		text = "가을 특산품 채집 (3/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5866,
+		icon = 12,
+		param = "50001024",
+		show_condition = {
+			{
+				3,
+				50001024
+			},
+			{
+				4,
+				50001023
+			}
+		}
+	}
+	pg.base.island_interaction[5867] = {
+		text = "가을 특산품 채집 (4/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5867,
+		icon = 12,
+		param = "50001025",
+		show_condition = {
+			{
+				3,
+				50001025
+			},
+			{
+				4,
+				50001024
+			}
+		}
+	}
+	pg.base.island_interaction[5868] = {
+		text = "가을 특산품 채집 (5/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5868,
+		icon = 12,
+		param = "50001026",
+		show_condition = {
+			{
+				3,
+				50001026
+			},
+			{
+				4,
+				50001025
+			}
+		}
+	}
+	pg.base.island_interaction[5869] = {
+		text = "가을 특산품 채집 (6/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5869,
+		icon = 12,
+		param = "50001027",
+		show_condition = {
+			{
+				3,
+				50001027
+			},
+			{
+				4,
+				50001026
+			}
+		}
+	}
+	pg.base.island_interaction[5870] = {
+		text = "가을 특산품 채집 (7/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5870,
+		icon = 12,
+		param = "50001028",
+		show_condition = {
+			{
+				3,
+				50001028
+			},
+			{
+				4,
+				50001027
+			}
+		}
+	}
+	pg.base.island_interaction[5871] = {
+		text = "가을 특산품 제작 (1/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5871,
+		icon = 12,
+		param = "50002022",
+		show_condition = {
+			{
+				3,
+				50002022
+			}
+		}
+	}
+	pg.base.island_interaction[5872] = {
+		text = "가을 특산품 제작 (2/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5872,
+		icon = 12,
+		param = "50002023",
+		show_condition = {
+			{
+				3,
+				50002023
+			},
+			{
+				4,
+				50002022
+			}
+		}
+	}
+	pg.base.island_interaction[5873] = {
+		text = "가을 특산품 제작 (3/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5873,
+		icon = 12,
+		param = "50002024",
+		show_condition = {
+			{
+				3,
+				50002024
+			},
+			{
+				4,
+				50002023
+			}
+		}
+	}
+	pg.base.island_interaction[5874] = {
+		text = "가을 특산품 제작 (4/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5874,
+		icon = 12,
+		param = "50002025",
+		show_condition = {
+			{
+				3,
+				50002025
+			},
+			{
+				4,
+				50002024
+			}
+		}
+	}
+	pg.base.island_interaction[5875] = {
+		text = "가을 특산품 제작 (5/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5875,
+		icon = 12,
+		param = "50002026",
+		show_condition = {
+			{
+				3,
+				50002026
+			},
+			{
+				4,
+				50002025
+			}
+		}
+	}
+	pg.base.island_interaction[5876] = {
+		text = "가을 특산품 제작 (6/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5876,
+		icon = 12,
+		param = "50002027",
+		show_condition = {
+			{
+				3,
+				50002027
+			},
+			{
+				4,
+				50002026
+			}
+		}
+	}
+	pg.base.island_interaction[5877] = {
+		text = "가을 특산품 제작 (7/7)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5877,
+		icon = 12,
+		param = "50002028",
+		show_condition = {
+			{
+				3,
+				50002028
+			},
+			{
+				4,
+				50002027
+			}
+		}
+	}
+	pg.base.island_interaction[5878] = {
+		text = "가을 특산품 의뢰 (1/4)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5878,
+		icon = 12,
+		param = "50003013",
+		show_condition = {
+			{
+				3,
+				50003013
+			}
+		}
+	}
+	pg.base.island_interaction[5879] = {
+		text = "가을 특산품 의뢰 (2/4)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5879,
+		icon = 12,
+		param = "50003014",
+		show_condition = {
+			{
+				3,
+				50003014
+			},
+			{
+				4,
+				50003013
+			}
+		}
+	}
+	pg.base.island_interaction[5880] = {
+		text = "가을 특산품 의뢰 (3/4)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5880,
+		icon = 12,
+		param = "50003015",
+		show_condition = {
+			{
+				3,
+				50003015
+			},
+			{
+				4,
+				50003014
+			}
+		}
+	}
+	pg.base.island_interaction[5881] = {
+		text = "가을 특산품 의뢰 (4/4)",
+		groupId = 58,
+		only_self = 0,
+		type = 12,
+		id = 5881,
+		icon = 12,
+		param = "50003016",
+		show_condition = {
+			{
+				3,
+				50003016
+			},
+			{
+				4,
+				50003015
+			}
+		}
+	}
+	pg.base.island_interaction[5882] = {
+		text = "피어리?",
+		groupId = 58,
+		only_self = 0,
+		type = 1,
+		id = 5882,
+		icon = 9,
+		param = "ISLANDSIDE01610",
+		show_condition = {
+			{
+				2,
+				50000004
 			}
 		}
 	}
@@ -6871,6 +7271,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_interaction[7903] = {
 		text = "이게 보물인가?",
 		groupId = 79,

@@ -690,8 +690,7 @@ pg.activity_ins_ship_group_template.all = {
 	20301,
 	40405,
 	10146,
-	10142,
-	20307
+	10142
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -3253,7 +3252,7 @@ end)()
 		name = "Hayaizo",
 		background = "",
 		sculpture = "daofeng_5",
-		nationality = 0,
+		nationality = 3,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -6898,15 +6897,6 @@ end)()
 		background = "",
 		sculpture = "simoli",
 		nationality = 1,
-		type = 1,
-		sculpture_ii = ""
-	}
-	pg.base.activity_ins_ship_group_template[20307] = {
-		ship_group = 20307,
-		name = "York",
-		background = "",
-		sculpture = "yueke",
-		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}

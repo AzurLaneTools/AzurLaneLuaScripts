@@ -316,10 +316,6 @@ slot0.didEnter = function(slot0)
 							uv0.musicView:tryPlayMusic()
 						end
 					end
-
-					if uv1 ~= uv2.GALLERY_INDEX and uv0.galleryView and uv0.galleryView:CheckState(BaseSubView.STATES.INITED) then
-						uv0.galleryView:closePicPanel()
-					end
 				end
 			end, SFX_UI_TAG)
 		end
@@ -966,9 +962,6 @@ slot0.initMangaPanel = function(slot0)
 end
 
 slot0.initEvents = function(slot0)
-	slot0:bind(GalleryConst.OPEN_FULL_SCREEN_PIC_VIEW, function (slot0, slot1)
-		uv0:emit(CollectionMediator.EVENT_OPEN_FULL_SCREEN_PIC_VIEW, slot1)
-	end)
 	slot0:bind(uv0.UPDATE_RED_POINT, function ()
 		uv0:updateCollectNotices()
 	end)

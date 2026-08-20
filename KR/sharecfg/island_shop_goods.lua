@@ -258,6 +258,81 @@ pg.island_shop_goods.all = {
 	10367,
 	10368,
 	10369,
+	10401,
+	10402,
+	10403,
+	10404,
+	10405,
+	10406,
+	10407,
+	10408,
+	10409,
+	10410,
+	10411,
+	10412,
+	10413,
+	10414,
+	10415,
+	10416,
+	10417,
+	10418,
+	10419,
+	10420,
+	10421,
+	10422,
+	10423,
+	10424,
+	10425,
+	10426,
+	10427,
+	10428,
+	10429,
+	10430,
+	10431,
+	10432,
+	10433,
+	10434,
+	10435,
+	10436,
+	10437,
+	10438,
+	10439,
+	10440,
+	10441,
+	10442,
+	10443,
+	10444,
+	10445,
+	10446,
+	10447,
+	10448,
+	10449,
+	10450,
+	10451,
+	10452,
+	10453,
+	10454,
+	10455,
+	10456,
+	10457,
+	10458,
+	10459,
+	10460,
+	10461,
+	10462,
+	10463,
+	10464,
+	10465,
+	10466,
+	10467,
+	10468,
+	10469,
+	10470,
+	10471,
+	10472,
+	10473,
+	10474,
+	10475,
 	103000,
 	103001,
 	103002,
@@ -313,6 +388,7 @@ pg.island_shop_goods.all = {
 	412000,
 	412001,
 	412002,
+	412003,
 	4600001,
 	4600002,
 	4600003,
@@ -322,6 +398,9 @@ pg.island_shop_goods.all = {
 	4620007,
 	4630008,
 	4610006,
+	4620008,
+	4630009,
+	4610008,
 	5010001,
 	5020001,
 	5030001,
@@ -331,6 +410,9 @@ pg.island_shop_goods.all = {
 	5010003,
 	5020003,
 	5030003,
+	5010004,
+	5020004,
+	5030004,
 	471070301,
 	473120101,
 	471051701,
@@ -340,6 +422,8 @@ pg.island_shop_goods.all = {
 	471011701,
 	472012101,
 	473031101,
+	472021201,
+	479600011,
 	99000101,
 	99000102,
 	99000201,
@@ -10770,6 +10854,3083 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[10401] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "냐옹 거울",
+		desc = "캐릭터용 부유 스킨 「냐옹 거울」 획득 가능",
+		pt_award = 1000,
+		icon = "IslandDressIcon/dress_2020009",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10401,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				46,
+				2020009,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10402] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "발바닥 립밤",
+		desc = "캐릭터용 등 스킨 「발바닥 립밤」 획득 가능",
+		pt_award = 1000,
+		icon = "IslandDressIcon/dress_2010007",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10402,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				46,
+				2010007,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10403] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "두근두근 립",
+		desc = "캐릭터용 발자국 스킨 「두근두근 립」 획득 가능",
+		pt_award = 1000,
+		icon = "IslandDressIcon/dress_2030010",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10403,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				46,
+				2030010,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10404] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "척",
+		desc = "상호작용 액션 「척」",
+		pt_award = 500,
+		icon = "IslandActionIcon/point",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10404,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1025,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10405] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "환영",
+		desc = "상호작용 액션 「환영」",
+		pt_award = 500,
+		icon = "IslandActionIcon/welcome",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10405,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1026,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10406] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "응시",
+		desc = "상호작용 액션 「응시」",
+		pt_award = 500,
+		icon = "IslandActionIcon/lookover",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10406,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1027,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10407] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "배 통통",
+		desc = "상호작용 액션 「배 통통」",
+		pt_award = 500,
+		icon = "IslandActionIcon/slapbelly",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 1,
+		id = 10407,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			5000
+		},
+		items = {
+			{
+				51,
+				1028,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10408] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "벨파스트 - 아일랜드 권한 인증",
+		desc = "벨파스트의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		pt_award = 20000,
+		icon = "IslandProps/item_200034",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10408,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200000
+		},
+		items = {
+			{
+				44,
+				20212,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10409] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "별빛 티켓",
+		desc = "별빛이 반짝이는 티켓. 이를 사용하면 「별빛상」에서 상품을 뽑을 수 있습니다. 「별빛상」 진행 기간이 종료되면, 자동으로 사용되어 추첨이 진행됩니다(남은 티켓은 다이아로 변환됨).",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10409,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				8,
+				170006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10410] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "밀",
+		desc = "막 수확한 신선한 밀. 밀가루를 만드는데 빼놓을 수 없는 재료.",
+		pt_award = 20,
+		icon = "IslandProps/item_2000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10410,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2000,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10411] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "옥수수",
+		desc = "황금빛 열매가 맺힌 옥수수. 밭에 달콤한 향이 감돈다.",
+		pt_award = 20,
+		icon = "IslandProps/item_2001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10411,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2001,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10412] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "목초",
+		desc = "우수한 품질의 목초. 목장에 넘칠 정도의 활기를 부여한다.",
+		pt_award = 20,
+		icon = "IslandProps/item_2008",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10412,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2008,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10413] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "쌀",
+		desc = "새하얀 양질의 쌀. 풍부한 전분과 곡물 단백질을 포함하고 있다.",
+		pt_award = 20,
+		icon = "IslandProps/item_2002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10413,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2002,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10414] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "배추",
+		desc = "촉촉하고 맛있는 배추. 갓 채집해서 신선하다!",
+		pt_award = 20,
+		icon = "IslandProps/item_2003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10414,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2003,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10415] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "대두",
+		desc = "동그랗고 풍성하며, 단백질이 풍부하다. 요리뿐만 아니라 공업에서도 쓰임새가 많다.",
+		pt_award = 20,
+		icon = "IslandProps/item_2006",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10415,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				2006,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10416] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "감자",
+		desc = "전분하면 빼놓을 수 없는 채소. 다양한 모양으로 조리할 수 있다.",
+		pt_award = 40,
+		icon = "IslandProps/item_2005",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10416,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			400
+		},
+		items = {
+			{
+				41,
+				2005,
+				10
+			}
+		}
+	}
+	pg.base.island_shop_goods[10417] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 25,
+		unlock = "",
+		goods_name = "아일랜드 EXP 교본 T1",
+		desc = "아일랜드 생활의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 아일랜드 EXP가 조금 증가한다.",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10417,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10418] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "아일랜드 EXP 교본 T2",
+		desc = "아일랜드 생활 경험을 자세히 정리한 지침서. 사용하면 캐릭터의 아일랜드 EXP가 어느 정도 증가한다.",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10418,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10419] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "아일랜드 EXP 교본 T3",
+		desc = "아일랜드 생활에 대한 풍부한 노하우가 가득 담긴 지침서. 사용하면 캐릭터의 아일랜드 EXP가 대폭 증가한다.",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10419,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10420] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "생산 기술 교본 T1",
+		desc = "생산 기술에 대한 기초 지식이 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 조금 향상된다.",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10420,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10421] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "생산 기술 교본 T2",
+		desc = "생산 기술에 대한 지식이 자세히 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 어느 정도 향상된다.",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10421,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10422] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 6,
+		unlock = "",
+		goods_name = "생산 기술 교본 T3",
+		desc = "생산 기술에 대한 지식이 풍부하게 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 대폭 향상된다.",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10422,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10423] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "아일랜드 개발 결정",
+		desc = "아일랜드 개발 경험의 결정체. 캐릭터 돌파에 필요한 재료.",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10423,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10424] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "경영 교본 T1",
+		desc = "경영 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 경영 능력치가 조금 상승한다.",
+		pt_award = 1000,
+		icon = "IslandProps/item_100011",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10424,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100011,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10425] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "농업 교본 T1",
+		desc = "농업 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 농업 능력치가 조금 상승한다.",
+		pt_award = 1000,
+		icon = "IslandProps/item_100021",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10425,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100021,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10426] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "제작 교본 T1",
+		desc = "제작 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 제작 능력치가 조금 상승한다.",
+		pt_award = 1000,
+		icon = "IslandProps/item_100031",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10426,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100031,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10427] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "채집 교본 T1",
+		desc = "채집 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 채집 능력치가 조금 상승한다.",
+		pt_award = 1000,
+		icon = "IslandProps/item_100041",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10427,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100041,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10428] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "사육 교본 T1",
+		desc = "사육 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 사육 능력치가 조금 상승한다.",
+		pt_award = 1000,
+		icon = "IslandProps/item_100051",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10428,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100051,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10429] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "요리 교본 T1",
+		desc = "요리 테크닉의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 요리 능력치가 조금 상승한다.",
+		pt_award = 1000,
+		icon = "IslandProps/item_100061",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10429,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				41,
+				100061,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10430] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "경영 교본 T2",
+		desc = "경영 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 경영 능력치가 어느 정도 상승한다.",
+		pt_award = 4000,
+		icon = "IslandProps/item_100012",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10430,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100012,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10431] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "농업 교본 T2",
+		desc = "농업 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 농업 능력치가 어느 정도 상승한다.",
+		pt_award = 4000,
+		icon = "IslandProps/item_100022",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10431,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100022,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10432] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "제작 교본 T2",
+		desc = "제작 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 제작 능력치가 어느 정도 상승한다.",
+		pt_award = 4000,
+		icon = "IslandProps/item_100032",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10432,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100032,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10433] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "채집 교본 T2",
+		desc = "채집 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 채집 능력치가 어느 정도 상승한다.",
+		pt_award = 4000,
+		icon = "IslandProps/item_100042",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10433,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100042,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10434] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "사육 교본 T2",
+		desc = "사육 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 사육 능력치가 어느 정도 상승한다.",
+		pt_award = 4000,
+		icon = "IslandProps/item_100052",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10434,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100052,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10435] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "요리 교본 T2",
+		desc = "요리 테크닉을 자세하게 해설한 지침서. 사용하면 캐릭터의 요리 능력치가 어느 정도 상승한다.",
+		pt_award = 4000,
+		icon = "IslandProps/item_100062",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10435,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			40000
+		},
+		items = {
+			{
+				41,
+				100062,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10436] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "특장판 책",
+		desc = "잉크의 향기와 향수를 불러일으키는 분위기가 감도는 하드커버 책. 책상에 두고 여러 번 탐독하기에 적합한 책이다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10436,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10437] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "꽃다발",
+		desc = "화려하고도 신선한 꽃다발. 자연의 생명력과 다채로운 색상이 일상에 편안함과 기쁨을 전한다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10437,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10438] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "의식용 검",
+		desc = "날렵한 실루엣에서 금속 특유의 차가운 빛을 뿜어내는 의식용 검. 질서와 위엄을 묵묵히 이야기하고 있다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10438,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10439] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "복슬복슬 인형",
+		desc = "복슬복슬한 감촉의 사랑스러운 인형. 꼭 안으면 포근한 따뜻함과 순수한 미소가 마음을 달래준다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10439,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10440] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "앤티크 장식품",
+		desc = "세월의 흔적이 깊이 스민 고풍스러운 앤티크 장식. 고요한 존재감이 공간에 차분함과 멋을 더해 준다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10440,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10441] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "섬세한 액세서리",
+		desc = "화려하지는 않지만 정교한 솜씨로 빚어진 빛나는 장신구. 일상의 사소한 순간도 밝게 밝혀준다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10441,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10442] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "고급 향수",
+		desc = "간소한 병에는 맑은 향기가 담겨져 있다. 세련된 취향을 가감없이 드러내는 우아한 향수.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10442,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10443] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "게임기 세트",
+		desc = "여가 시간을 완벽히 채워주는 오락용 아이템. 편하게 가지고 놀 수 있는 콘텐츠가 갖추어져 있는, 배려심 넘치는 선물이다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10443,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10444] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "별빛 티켓",
+		desc = "별빛이 반짝이는 티켓. 이를 사용하면 「별빛상」에서 상품을 뽑을 수 있습니다. 「별빛상」 진행 기간이 종료되면, 자동으로 사용되어 추첨이 진행됩니다(남은 티켓은 다이아로 변환됨).",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10444,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				8,
+				170006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10445] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 25,
+		unlock = "",
+		goods_name = "아일랜드 EXP 교본 T1",
+		desc = "아일랜드 생활의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 아일랜드 EXP가 조금 증가한다.",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10445,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10446] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "아일랜드 EXP 교본 T2",
+		desc = "아일랜드 생활 경험을 자세히 정리한 지침서. 사용하면 캐릭터의 아일랜드 EXP가 어느 정도 증가한다.",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10446,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.island_shop_goods[10447] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "아일랜드 EXP 교본 T3",
+		desc = "아일랜드 생활에 대한 풍부한 노하우가 가득 담긴 지침서. 사용하면 캐릭터의 아일랜드 EXP가 대폭 증가한다.",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10447,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10448] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "생산 기술 교본 T1",
+		desc = "생산 기술에 대한 기초 지식이 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 조금 향상된다.",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10448,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10449] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "생산 기술 교본 T2",
+		desc = "생산 기술에 대한 지식이 자세히 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 어느 정도 향상된다.",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10449,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10450] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 8,
+		unlock = "",
+		goods_name = "생산 기술 교본 T3",
+		desc = "생산 기술에 대한 지식이 풍부하게 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 대폭 향상된다.",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10450,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10451] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 3,
+		unlock = "",
+		goods_name = "아일랜드 개발 결정",
+		desc = "아일랜드 개발 경험의 결정체. 캐릭터 돌파에 필요한 재료.",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10451,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10452] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "특장판 책",
+		desc = "잉크의 향기와 향수를 불러일으키는 분위기가 감도는 하드커버 책. 책상에 두고 여러 번 탐독하기에 적합한 책이다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10452,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10453] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "꽃다발",
+		desc = "화려하고도 신선한 꽃다발. 자연의 생명력과 다채로운 색상이 일상에 편안함과 기쁨을 전한다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10453,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10454] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "의식용 검",
+		desc = "날렵한 실루엣에서 금속 특유의 차가운 빛을 뿜어내는 의식용 검. 질서와 위엄을 묵묵히 이야기하고 있다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10454,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10455] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "복슬복슬 인형",
+		desc = "복슬복슬한 감촉의 사랑스러운 인형. 꼭 안으면 포근한 따뜻함과 순수한 미소가 마음을 달래준다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10455,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10456] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "앤티크 장식품",
+		desc = "세월의 흔적이 깊이 스민 고풍스러운 앤티크 장식. 고요한 존재감이 공간에 차분함과 멋을 더해 준다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10456,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10457] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "섬세한 액세서리",
+		desc = "화려하지는 않지만 정교한 솜씨로 빚어진 빛나는 장신구. 일상의 사소한 순간도 밝게 밝혀준다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10457,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10458] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "고급 향수",
+		desc = "간소한 병에는 맑은 향기가 담겨져 있다. 세련된 취향을 가감없이 드러내는 우아한 향수.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10458,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10459] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 2,
+		unlock = "",
+		goods_name = "게임기 세트",
+		desc = "여가 시간을 완벽히 채워주는 오락용 아이템. 편하게 가지고 놀 수 있는 콘텐츠가 갖추어져 있는, 배려심 넘치는 선물이다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10459,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10460] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "별빛 티켓",
+		desc = "별빛이 반짝이는 티켓. 이를 사용하면 「별빛상」에서 상품을 뽑을 수 있습니다. 「별빛상」 진행 기간이 종료되면, 자동으로 사용되어 추첨이 진행됩니다(남은 티켓은 다이아로 변환됨).",
+		pt_award = 2000,
+		icon = "IslandGoodsIcon/170000",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10460,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				8,
+				170006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10461] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 50,
+		unlock = "",
+		goods_name = "아일랜드 EXP 교본 T1",
+		desc = "아일랜드 생활의 기초 지식을 정리한 지침서. 사용하면 캐릭터의 아일랜드 EXP가 조금 증가한다.",
+		pt_award = 20,
+		icon = "IslandProps/item_100001",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10461,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			200
+		},
+		items = {
+			{
+				41,
+				100001,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10462] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 15,
+		unlock = "",
+		goods_name = "아일랜드 EXP 교본 T2",
+		desc = "아일랜드 생활 경험을 자세히 정리한 지침서. 사용하면 캐릭터의 아일랜드 EXP가 어느 정도 증가한다.",
+		pt_award = 400,
+		icon = "IslandProps/item_100002",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10462,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10463] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "아일랜드 EXP 교본 T3",
+		desc = "아일랜드 생활에 대한 풍부한 노하우가 가득 담긴 지침서. 사용하면 캐릭터의 아일랜드 EXP가 대폭 증가한다.",
+		pt_award = 1600,
+		icon = "IslandProps/item_100003",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10463,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			16000
+		},
+		items = {
+			{
+				41,
+				100003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10464] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "생산 기술 교본 T1",
+		desc = "생산 기술에 대한 기초 지식이 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 조금 향상된다.",
+		pt_award = 200,
+		icon = "IslandProps/item_100101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10464,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			2000
+		},
+		items = {
+			{
+				41,
+				100101,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10465] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "생산 기술 교본 T2",
+		desc = "생산 기술에 대한 지식이 자세히 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 어느 정도 향상된다.",
+		pt_award = 400,
+		icon = "IslandProps/item_100102",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10465,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			4000
+		},
+		items = {
+			{
+				41,
+				100102,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10466] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "생산 기술 교본 T3",
+		desc = "생산 기술에 대한 지식이 풍부하게 정리된 지침서. 사용하면 캐릭터의 아일랜드 개발 생산 기술 레벨이 대폭 향상된다.",
+		pt_award = 1500,
+		icon = "IslandProps/item_100103",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10466,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			15000
+		},
+		items = {
+			{
+				41,
+				100103,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10467] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 5,
+		unlock = "",
+		goods_name = "아일랜드 개발 결정",
+		desc = "아일랜드 개발 경험의 결정체. 캐릭터 돌파에 필요한 재료.",
+		pt_award = 2000,
+		icon = "IslandProps/item_100201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10467,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			20000
+		},
+		items = {
+			{
+				41,
+				100201,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10468] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "특장판 책",
+		desc = "잉크의 향기와 향수를 불러일으키는 분위기가 감도는 하드커버 책. 책상에 두고 여러 번 탐독하기에 적합한 책이다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift02",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10468,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180002,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10469] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "꽃다발",
+		desc = "화려하고도 신선한 꽃다발. 자연의 생명력과 다채로운 색상이 일상에 편안함과 기쁨을 전한다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift03",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10469,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180003,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10470] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "의식용 검",
+		desc = "날렵한 실루엣에서 금속 특유의 차가운 빛을 뿜어내는 의식용 검. 질서와 위엄을 묵묵히 이야기하고 있다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift04",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10470,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180004,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10471] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "복슬복슬 인형",
+		desc = "복슬복슬한 감촉의 사랑스러운 인형. 꼭 안으면 포근한 따뜻함과 순수한 미소가 마음을 달래준다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift05",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10471,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180005,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10472] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "앤티크 장식품",
+		desc = "세월의 흔적이 깊이 스민 고풍스러운 앤티크 장식. 고요한 존재감이 공간에 차분함과 멋을 더해 준다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift06",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10472,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180006,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10473] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "섬세한 액세서리",
+		desc = "화려하지는 않지만 정교한 솜씨로 빚어진 빛나는 장신구. 일상의 사소한 순간도 밝게 밝혀준다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift07",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10473,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180007,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10474] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "고급 향수",
+		desc = "간소한 병에는 맑은 향기가 담겨져 있다. 세련된 취향을 가감없이 드러내는 우아한 향수.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift08",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10474,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[10475] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 4,
+		unlock = "",
+		goods_name = "게임기 세트",
+		desc = "여가 시간을 완벽히 채워주는 오락용 아이템. 편하게 가지고 놀 수 있는 콘텐츠가 갖추어져 있는, 배려심 넘치는 선물이다.",
+		pt_award = 300,
+		icon = "IslandGoodsIcon/gift09",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 10475,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			3000
+		},
+		items = {
+			{
+				2,
+				180009,
+				1
+			}
+		}
+	}
 	pg.base.island_shop_goods[103000] = {
 		goods_have = 0,
 		items_model = "",
@@ -12728,8 +15889,6 @@ end)()
 			3501007
 		}
 	}
-end)()
-(function ()
 	pg.base.island_shop_goods[411023] = {
 		goods_have = 0,
 		items_model = "",
@@ -12772,8 +15931,8 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					11,
+					2026,
+					8,
 					20
 				},
 				{
@@ -12785,8 +15944,8 @@ end)()
 			{
 				{
 					2026,
-					2,
-					26
+					11,
+					5
 				},
 				{
 					12,
@@ -12838,8 +15997,8 @@ end)()
 		time = {
 			{
 				{
-					2025,
-					11,
+					2026,
+					8,
 					20
 				},
 				{
@@ -12851,8 +16010,8 @@ end)()
 			{
 				{
 					2026,
-					2,
-					26
+					11,
+					5
 				},
 				{
 					12,
@@ -13249,6 +16408,47 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[412003] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "로열포춘 - 아일랜드 권한 인증",
+		desc = "로열포춘의 아일랜드 권한 인증. 아일랜드 권한 인증 장치를 사용하면, 캐릭터에게 아일랜드 개발 구역의 출입 권한을 부여할 수 있다.",
+		pt_award = 0,
+		icon = "IslandProps/item_200033",
+		pay_id = 0,
+		time = "always",
+		remian_show = 0,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 412003,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			500000
+		},
+		items = {
+			{
+				44,
+				960001,
+				1
+			}
+		}
+	}
 	pg.base.island_shop_goods[4600001] = {
 		goods_have = 0,
 		items_model = "",
@@ -13618,6 +16818,129 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[4620008] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "깃털 고양이 장난감",
+		desc = "캐릭터용 부유 스킨 「깃털 고양이 장난감」 획득 가능",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2020008",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4620008,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2020008,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[4630009] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "냐옹 거울",
+		desc = "캐릭터용 발자국 스킨 「복슬복슬 발바닥」 획득 가능",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2030009",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4630009,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2030009,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[4610008] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 2,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "복슬복슬 발바닥",
+		desc = "캐릭터용 등 스킨 「보드라운 고양이 꼬리」 획득 가능",
+		pt_award = 0,
+		icon = "IslandDressIcon/dress_2010008",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 0,
+		id = 4610008,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			200
+		},
+		items = {
+			{
+				46,
+				2010008,
+				1
+			}
+		}
+	}
 	pg.base.island_shop_goods[5010001] = {
 		goods_have = 0,
 		items_model = "",
@@ -13816,6 +17139,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_shop_goods[5010002] = {
 		goods_have = 0,
 		items_model = "",
@@ -14212,6 +17537,204 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[5010004] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 100,
+		unlock = "",
+		goods_name = "1분 가속권 (시즌)",
+		desc = "진행 중인 작업 시간을 1분 단축한다. 이를 이용하여 진행 속도를 올릴 수 있다.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/item_speedup_ticket1",
+		pay_id = 0,
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 5010004,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			1000
+		},
+		items = {
+			{
+				50,
+				10007,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.island_shop_goods[5020004] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 30,
+		unlock = "",
+		goods_name = "10분 가속권 (시즌)",
+		desc = "진행 중인 작업 시간을 10분 단축한다. 이를 이용하여 진행 속도를 올릴 수 있다.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/item_speedup_ticket2",
+		pay_id = 0,
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 5020004,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			10000
+		},
+		items = {
+			{
+				50,
+				20007,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.island_shop_goods[5030004] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 1,
+		groups_detail_type = "",
+		limited_num = 10,
+		unlock = "",
+		goods_name = "60분 가속권 (시즌)",
+		desc = "진행 중인 작업 시간을 60분 단축한다. 이를 이용하여 진행 속도를 올릴 수 있다.",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/item_speedup_ticket3",
+		pay_id = 0,
+		remian_show = 1,
+		have_show = 0,
+		discount = 0,
+		limited_show = 1,
+		id = 5030004,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			41,
+			1,
+			60000
+		},
+		items = {
+			{
+				50,
+				30007,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
 	pg.base.island_shop_goods[471070301] = {
 		goods_have = 0,
 		items_model = "",
@@ -14581,6 +18104,88 @@ end)()
 			}
 		}
 	}
+	pg.base.island_shop_goods[472021201] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "오후의 한 페이지",
+		desc = "벨파스트의 아일랜드 스킨 「오후의 한 페이지」 획득 가능",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_2021201",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 472021201,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			900
+		},
+		items = {
+			{
+				47,
+				2021201,
+				1
+			}
+		}
+	}
+	pg.base.island_shop_goods[479600011] = {
+		goods_have = 0,
+		items_model = "",
+		goods_detail_type = 4,
+		groups_detail_type = "",
+		limited_num = 1,
+		unlock = "",
+		goods_name = "학교의 프롤로그",
+		desc = "로열포춘의 아일랜드 스킨 「학교의 프롤로그」 획득 가능",
+		pt_award = 0,
+		icon = "IslandGoodsIcon/skin_96000101",
+		pay_id = 0,
+		time = "always",
+		remian_show = 1,
+		have_show = 1,
+		discount = 0,
+		limited_show = 0,
+		id = 479600011,
+		weight = 0,
+		discount_time = "",
+		model_param = {
+			{
+				0,
+				0
+			},
+			0,
+			1
+		},
+		resource_consume = {
+			1,
+			14,
+			900
+		},
+		items = {
+			{
+				47,
+				96000101,
+				1
+			}
+		}
+	}
 	pg.base.island_shop_goods[99000101] = {
 		goods_have = 0,
 		items_model = "",
@@ -14834,8 +18439,8 @@ end)()
 		groups_detail_type = "",
 		limited_num = 1,
 		unlock = "",
-		goods_name = "배틀 슈트",
-		desc = "구매하면 스킨 「배틀 슈트」 획득 가능",
+		goods_name = "전투용 슈트",
+		desc = "구매하면 스킨 「전투용 슈트」 획득 가능",
 		pt_award = 0,
 		icon = "IslandDressIcon/dress_1060015",
 		pay_id = 0,

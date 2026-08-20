@@ -23,7 +23,8 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.skill = IslandShipSkill.New({
 		id = slot0:getConfig("skill_id"),
-		level = slot1.skill_lv or 0
+		level = slot1.skill_lv or 0,
+		isUseToday = (slot1.skill_use_state or 0) == 1
 	})
 	slot0.maxEnerey = slot0:getConfig("power")
 
@@ -633,6 +634,14 @@ slot0.CanUpgradeSkill = function(slot0)
 	return _.all(slot1:GetUpgradeMaterial(), function (slot0)
 		return slot0.count <= uv0:GetOwnCount(slot0.id)
 	end)
+end
+
+slot0.HasGreetingSkill = function(slot0)
+	return slot0:GetSkill() and slot1:IsUnlock() and slot1:IsGreetingType()
+end
+
+slot0.ApplySkill = function(slot0, slot1)
+	slot0:GetSkill():Apply(slot0, slot1)
 end
 
 slot0.GetVaildStatusByGroup = function(slot0, slot1)

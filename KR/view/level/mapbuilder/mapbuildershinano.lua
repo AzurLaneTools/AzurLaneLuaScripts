@@ -21,20 +21,20 @@ slot0.OnInit = function(slot0)
 	setActive(slot0.tpl, false)
 
 	slot0.itemHolder = slot0._tf:Find("items")
-	slot1 = slot0._tf:Find("preloadResources"):GetComponent(typeof(ItemList))
-	slot2 = Instantiate(slot1.prefabItem[0])
+	slot1 = slot0._tf:Find("preloadResources")
+	slot2 = slot1:Find("mengjing_rumeng")
 
 	setAnchoredPosition(slot0._tf:Find("rumeng"), tf(slot2).anchoredPosition)
 	setParent(slot2, slot0._tf:Find("rumeng"))
 	setAnchoredPosition(slot2, Vector2.zero)
-	slot0:InitTransformMapBtn(slot0._tf:Find("rumeng"), 1, slot1.prefabItem[1])
+	slot0:InitTransformMapBtn(slot0._tf:Find("rumeng"), 1, slot1:Find("mengjing_rumeng_zhuangchang"))
 
-	slot3 = Instantiate(slot1.prefabItem[2])
+	slot3 = slot1:Find("mengjing_huigui")
 
 	setAnchoredPosition(slot0._tf:Find("huigui"), tf(slot3).anchoredPosition)
 	setParent(slot3, slot0._tf:Find("huigui"))
 	setAnchoredPosition(slot3, Vector2.zero)
-	slot0:InitTransformMapBtn(slot0._tf:Find("huigui"), -1, slot1.prefabItem[3])
+	slot0:InitTransformMapBtn(slot0._tf:Find("huigui"), -1, slot1:Find("mengjing_huigui_zhuangchang"))
 end
 
 slot0.OnShow = function(slot0)

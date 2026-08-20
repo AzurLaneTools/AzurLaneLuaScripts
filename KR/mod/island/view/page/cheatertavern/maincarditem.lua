@@ -27,15 +27,14 @@ slot0.Init = function(slot0, slot1, slot2, slot3)
 	slot5:GetCardGameObjectById(slot0.id, function (slot0)
 		uv0.tf = tf(slot0)
 		uv0.isLoaded = true
-		slot1 = uv0.tf:GetComponent(typeof(ItemList))
-		uv0.selectedCardTf = slot1.prefabItem[0]
-		uv0.unSelectedCardTf = slot1.prefabItem[1]
+		uv0.selectedCardTf = uv0.tf:Find("vfx_bar_kapai01")
+		uv0.unSelectedCardTf = uv0.tf:Find("vfx_bar_kapai02")
 
 		uv0:SetSelected(false)
 
-		slot2 = GetOrAddComponent(slot0, typeof(CheaterTavernCard))
-		slot2.key = uv0.key
-		slot2.parm = uv0.id
+		slot1 = GetOrAddComponent(slot0, typeof(CheaterTavernCard))
+		slot1.key = uv0.key
+		slot1.parm = uv0.id
 
 		uv0:InitCardView()
 	end)
@@ -212,7 +211,7 @@ slot0.FlipTableCard = function(slot0, slot1, slot2, slot3)
 
 		slot8:GetCardGameObjectById(slot1, function (slot0)
 			uv0.tf = slot0.transform
-			uv0.selectedCardTf = uv0.tf:GetComponent(typeof(ItemList)).prefabItem[0]
+			uv0.selectedCardTf = uv0.tf:Find("vfx_bar_kapai01")
 
 			setActive(uv0.selectedCardTf, false)
 

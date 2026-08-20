@@ -186626,6 +186626,32 @@ _G.pg.base.item_virtual_data_statistics[66051] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[66063] = {
+	drop_gold_max = 0,
+	name = "훈련 PT",
+	display = "「작전 준비·에식스급」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/xunliandianshu_260806",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 66063,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66052] = {
 	drop_gold_max = 0,
 	name = "괴담 실록 기념 훈장",
@@ -197557,6 +197583,58 @@ _G.pg.base.item_virtual_data_statistics[170005] = {
 	drop_oil_max = 0,
 	virtual_type = 101,
 	id = 170005,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170006] = {
+	drop_gold_max = 0,
+	name = "별빛 티켓",
+	display = "별빛이 반짝이는 티켓. 이를 사용하면 「별빛상」에서 상품을 뽑을 수 있습니다. 「별빛상」 진행 기간이 종료되면, 자동으로 사용되어 추첨이 진행됩니다(남은 티켓은 다이아로 변환됨).",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 990026,
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170006,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[170007] = {
+	drop_gold_max = 0,
+	name = "별빛 티켓",
+	display = "별빛이 반짝이는 티켓. 이를 사용하면 「별빛상」에서 상품을 뽑을 수 있습니다. 「별빛상」 진행 기간이 종료되면, 자동으로 사용되어 추첨이 진행됩니다(남은 티켓은 다이아로 변환됨).",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 990026,
+	album_config = "",
+	icon = "Props/170000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 101,
+	id = 170007,
 	display_icon = {},
 	price = {},
 	index = {},

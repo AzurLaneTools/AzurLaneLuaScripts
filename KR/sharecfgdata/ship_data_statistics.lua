@@ -67325,7 +67325,8 @@ _G.pg.base.ship_data_statistics[107091] = {
 	},
 	tag_list = {
 		"Essex-Class",
-		"Essex-Class-No-Yorktown"
+		"Essex-Class-No-Yorktown",
+		"DetectiveEssex"
 	},
 	gift_dislike = {
 		180006,
@@ -67456,7 +67457,8 @@ _G.pg.base.ship_data_statistics[107092] = {
 	},
 	tag_list = {
 		"Essex-Class",
-		"Essex-Class-No-Yorktown"
+		"Essex-Class-No-Yorktown",
+		"DetectiveEssex"
 	},
 	gift_dislike = {
 		180006,
@@ -67587,7 +67589,8 @@ _G.pg.base.ship_data_statistics[107093] = {
 	},
 	tag_list = {
 		"Essex-Class",
-		"Essex-Class-No-Yorktown"
+		"Essex-Class-No-Yorktown",
+		"DetectiveEssex"
 	},
 	gift_dislike = {
 		180006,
@@ -67718,7 +67721,8 @@ _G.pg.base.ship_data_statistics[107094] = {
 	},
 	tag_list = {
 		"Essex-Class",
-		"Essex-Class-No-Yorktown"
+		"Essex-Class-No-Yorktown",
+		"DetectiveEssex"
 	},
 	gift_dislike = {
 		180006,
@@ -75186,7 +75190,8 @@ _G.pg.base.ship_data_statistics[107974] = {
 	tag_list = {
 		"Essex-Class",
 		"Essex-Class-No-Yorktown",
-		"EssexG"
+		"EssexG",
+		"DetectiveEssex"
 	},
 	gift_dislike = {
 		180006,
@@ -458336,10 +458341,7 @@ _G.pg.base.ship_data_statistics[9702131] = {
 		{}
 	},
 	tag_list = {},
-	gift_dislike = {
-		180005,
-		180009
-	}
+	gift_dislike = {}
 }
 
 
@@ -458467,10 +458469,7 @@ _G.pg.base.ship_data_statistics[9702132] = {
 		{}
 	},
 	tag_list = {},
-	gift_dislike = {
-		180005,
-		180009
-	}
+	gift_dislike = {}
 }
 
 
@@ -458598,10 +458597,7 @@ _G.pg.base.ship_data_statistics[9702133] = {
 		{}
 	},
 	tag_list = {},
-	gift_dislike = {
-		180005,
-		180009
-	}
+	gift_dislike = {}
 }
 
 
@@ -458729,10 +458725,7 @@ _G.pg.base.ship_data_statistics[9702134] = {
 		{}
 	},
 	tag_list = {},
-	gift_dislike = {
-		180005,
-		180009
-	}
+	gift_dislike = {}
 }
 
 

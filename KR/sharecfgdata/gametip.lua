@@ -49312,6 +49312,46 @@ _G.pg.base.gametip.DreamTourCoreActivity_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.island_post_btn_set_meal = {
+	tip = "세트 도감"
+}
+
+
+_G.pg.base.gametip.island_post_btn_sign = {
+	tip = "일상 보급"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_1 = {
+	tip = "작전 준비"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_2 = {
+	tip = "찾아온 손님"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_3 = {
+	tip = "미니 게임"
+}
+
+
+_G.pg.base.gametip.Outpost_20260806_rule = {
+	tip = "※ 임무 보상은 순차적으로 오픈됩니다."
+}
+
+
+_G.pg.base.gametip["260806_story_title"] = {
+	tip = "찾아온 손님"
+}
+
+
+_G.pg.base.gametip["260806_story_title_en"] = {
+	tip = "fateful encounter"
+}
+
+
 _G.pg.base.gametip.EscapeManorCoreActivity_subtitle_1 = {
 	tip = "백야 빌라에서 탈출하라"
 }
@@ -50332,5 +50372,10 @@ _G.pg.base.gametip.escape_story_reward_count = {
 
 
 _G.pg.base.gametip.auction_network_timeout = {
-	tip = "네트워크 이상으로 경매에서 나갔습니다"
+	tip = "접속 환경에 이상이 발생하여, 옥션에서 퇴장되었습니다."
+}
+
+
+_G.pg.base.gametip.loading_pic_btn = {
+	tip = "스틸"
 }

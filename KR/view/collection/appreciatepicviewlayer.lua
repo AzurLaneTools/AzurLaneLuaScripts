@@ -29,6 +29,8 @@ slot0.initData = function(slot0)
 	slot0.resLoader = AutoLoader.New()
 	slot0.curPicInfo = slot0.contextData.curPicInfo
 	slot0.picInfoList = slot0.contextData.picInfoList
+	slot0.isShowLikeBtn = slot0.contextData.isShowLikeBtn
+	slot0.onPicSwitch = slot0.contextData.onPicSwitch
 	slot0.curIndex = slot0:getPicInfoIndex(slot0.curPicInfo)
 	slot0.loadingPicProxy = getProxy(LoadingPicProxy)
 
@@ -50,6 +52,18 @@ slot0.addListener = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.mangaRemoveLoadingBtn, function ()
 		uv0:removeLoadingPic(uv0.curPicInfo)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.galleryAddLikeBtn, function ()
+		uv0:addLike(uv0.curPicInfo)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.galleryRemoveLikeBtn, function ()
+		uv0:removeLike(uv0.curPicInfo)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.mangaAddLikeBtn, function ()
+		uv0:addLike(uv0.curPicInfo)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.mangaRemoveLikeBtn, function ()
+		uv0:removeLike(uv0.curPicInfo)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.galleryPicImg, function ()
 		uv0:openFullScreenLayer()
@@ -102,6 +116,12 @@ slot0.updateGalleryPanel = function(slot0)
 
 	setActive(slot0.galleryAddLoadingBtn, not slot1)
 	setActive(slot0.galleryRemoveLoadingBtn, slot1)
+
+	slot2 = slot0:isPicInfoLiked(slot0.curPicInfo)
+
+	setActive(slot0.galleryLikeBtn, slot0.isShowLikeBtn)
+	setActive(slot0.galleryAddLikeBtn, not slot2)
+	setActive(slot0.galleryRemoveLikeBtn, slot2)
 end
 
 slot0.updateMangaPanel = function(slot0)
@@ -111,6 +131,12 @@ slot0.updateMangaPanel = function(slot0)
 
 	setActive(slot0.mangaAddLoadingBtn, not slot1)
 	setActive(slot0.mangaRemoveLoadingBtn, slot1)
+
+	slot2 = slot0:isPicInfoLiked(slot0.curPicInfo)
+
+	setActive(slot0.mangaLikeBtn, slot0.isShowLikeBtn)
+	setActive(slot0.mangaAddLikeBtn, not slot2)
+	setActive(slot0.mangaRemoveLikeBtn, slot2)
 end
 
 slot0.setImage = function(slot0, slot1, slot2)
@@ -143,6 +169,7 @@ slot0.switchToPrePic = function(slot0)
 		slot0.curPicInfo = slot0.picInfoList[slot0.curIndex]
 
 		slot0:updatePanel()
+		existCall(slot0.onPicSwitch, slot0.curPicInfo)
 	end
 end
 
@@ -152,6 +179,7 @@ slot0.switchToNextPic = function(slot0)
 		slot0.curPicInfo = slot0.picInfoList[slot0.curIndex]
 
 		slot0:updatePanel()
+		existCall(slot0.onPicSwitch, slot0.curPicInfo)
 	end
 end
 
@@ -211,6 +239,42 @@ slot0.addLoadingPic = function(slot0, slot1)
 	end
 
 	pg.m02:sendNotification(GAME.UPDATE_LOADING_PIC, slot2)
+end
+
+slot0.isPicInfoLiked = function(slot0, slot1)
+	return AppreciatePicConst.isPicInfoLiked(slot1)
+end
+
+slot0.addLike = function(slot0, slot1)
+	slot2 = {}
+
+	if slot1.type == AppreciatePicConst.TYPE_GALLERY then
+		slot2.picID = slot1.id
+		slot2.isAdd = 0
+
+		pg.m02:sendNotification(GAME.APPRECIATE_GALLERY_LIKE, slot2)
+	elseif slot1.type == AppreciatePicConst.TYPE_MANGA then
+		slot2.mangaID = slot1.id
+		slot2.action = 0
+
+		pg.m02:sendNotification(GAME.APPRECIATE_MANGA_LIKE, slot2)
+	end
+end
+
+slot0.removeLike = function(slot0, slot1)
+	slot2 = {}
+
+	if slot1.type == AppreciatePicConst.TYPE_GALLERY then
+		slot2.picID = slot1.id
+		slot2.isAdd = 1
+
+		pg.m02:sendNotification(GAME.APPRECIATE_GALLERY_LIKE, slot2)
+	elseif slot1.type == AppreciatePicConst.TYPE_MANGA then
+		slot2.mangaID = slot1.id
+		slot2.action = 1
+
+		pg.m02:sendNotification(GAME.APPRECIATE_MANGA_LIKE, slot2)
+	end
 end
 
 slot0.addOpenList = function(slot0)

@@ -4,6 +4,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.level = slot1.level or 1
+	slot0.isUsedToday = defaultValue(slot1.isUseToday, false)
 	slot0.maxLevel = 1
 
 	slot0:InitMaxLevel()
@@ -53,6 +54,51 @@ slot0.Upgrade = function(slot0)
 	end
 
 	slot0.level = slot0.level + 1
+end
+
+slot0.IsGreetingType = function(slot0)
+	return underscore.any(slot0:GetEffectIds(), function (slot0)
+		return IslandBuffType.IsGreetingType(pg.island_buff_template[slot0].buff_type)
+	end)
+end
+
+slot1 = function(slot0, slot1, slot2)
+	if slot2.buff_type == IslandBuffType.SHIP_POWER_RECOVER_BY_GREETING then
+		return not slot0 and (function ()
+			slot2 = uv1.type_use[2]
+
+			return uv0:GetCurrentEnergy() <= uv1.type_use[1]
+		end)()
+	elseif slot2.buff_type == IslandBuffType.SHIP_AWARD_BY_GREETING then
+		return not slot0
+	else
+		return true
+	end
+end
+
+slot0.CanUse4Ship = function(slot0, slot1, slot2)
+	return underscore.any(slot0:GetEffectIds(), function (slot0)
+		return table.contains(uv0, pg.island_buff_template[slot0].buff_type) and uv1(uv2.isUsedToday, uv3, slot1)
+	end)
+end
+
+slot0.Apply = function(slot0, slot1, slot2)
+	if slot2 == IslandBuffType.SHIP_POWER_RECOVER_BY_GREETING then
+		for slot6, slot7 in ipairs(slot0:GetEffectIds()) do
+			if pg.island_buff_template[slot7].buff_type == slot2 then
+				slot9 = slot8.type_use[1]
+
+				slot1:UpdateEnergy(slot1:GetEnergy() + slot8.type_use[2])
+				slot0:UpdateUsedToday(true)
+			end
+		end
+	elseif slot2 == IslandBuffType.SHIP_AWARD_BY_GREETING then
+		slot0:UpdateUsedToday(true)
+	end
+end
+
+slot0.UpdateUsedToday = function(slot0, slot1)
+	slot0.isUsedToday = slot1
 end
 
 slot0.GetLastEffectIds = function(slot0)

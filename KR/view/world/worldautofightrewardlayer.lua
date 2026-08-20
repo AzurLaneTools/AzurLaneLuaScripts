@@ -11,10 +11,7 @@ slot0.init = function(slot0)
 	slot0.boxView = slot0.window:Find("Layout/Box/ScrollView")
 	slot0.emptyTip = slot0.window:Find("Layout/Box/EmptyTip")
 	slot0.itemList = slot0.boxView:Find("Content/ItemGrid")
-	slot1 = Instantiate(slot0.itemList:GetComponent(typeof(ItemList)).prefabItem[0])
-	slot1.name = "Icon"
 
-	setParent(slot1, slot0.itemList:Find("GridItem/Shell"))
 	setText(slot0.emptyTip, i18n("autofight_rewards_none"))
 	setText(slot0.window:Find("Fixed/top/bg/obtain/title"), i18n("autofight_rewards"))
 	setText(slot0.boxView:Find("Content/Title/Text"), i18n("battle_end_subtitle1"))
@@ -193,20 +190,6 @@ slot0.UpdateView = function(slot0)
 	seriesAsync(slot6, function ()
 		uv0:SkipAnim()
 	end)
-end
-
-slot0.CloneIconTpl = function(slot0, slot1)
-	assert(slot0:GetComponent(typeof(ItemList)), "Need a Itemlist Component for " .. (slot0 and slot0.name or "NIL"))
-
-	slot3 = Instantiate(slot2.prefabItem[0])
-
-	if slot1 then
-		slot3.name = slot1
-	end
-
-	setParent(slot3, slot0)
-
-	return slot3
 end
 
 slot0.SkipAnim = function(slot0)

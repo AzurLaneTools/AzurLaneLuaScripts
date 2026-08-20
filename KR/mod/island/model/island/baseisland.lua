@@ -364,6 +364,7 @@ end
 slot0.UpdatePerDay = function(slot0)
 	slot0:GetSignInAgency():ResetSignInCnt()
 	slot0:GetAccessAgency():ResetFreshInviteCodeFlag()
+	slot0:GetCharacterAgency():ResetShipSkillUsed()
 end
 
 slot0.UpdatePerSecond = function(slot0)

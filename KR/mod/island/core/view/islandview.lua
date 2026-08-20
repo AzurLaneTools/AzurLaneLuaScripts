@@ -78,6 +78,7 @@ slot0.CreateViews = function(slot0)
 		slot0:CreateTopHeadHudView(),
 		slot0:CreateBottomHeadHudeView(),
 		slot0:CreateCancelAnimationOpView(),
+		slot0:CreateEffectView(),
 		slot0:CreateAnimationOpView()
 	}
 end
@@ -113,6 +114,10 @@ slot0.GetSubView = function(slot0, slot1)
 	end
 
 	return nil
+end
+
+slot0.CreateEffectView = function(slot0)
+	return IslandEffectView.New(slot0)
 end
 
 slot0.CreateOpView = function(slot0)
@@ -261,6 +266,7 @@ slot0.AddListeners = function(slot0)
 	slot0:AddListener(ISLAND_EVT.SET_PLAYER_WORK, slot0.OnPlayerWork)
 	slot0:AddListener(ISLAND_EVT.DEVIEE_STATE_CHANGE, slot0.OnPlayerDeviceStateChange)
 	slot0:AddListener(ISLAND_EVT.UPDATE_HUD, slot0.OnUpdateHud)
+	slot0:AddListener(ISLAND_EVT.PLAY_EFFECT, slot0.OnPlayEffect)
 	slot0:AddListener(ISLAND_EVT.UPDATE_UNIT_HAND_COLLECT, slot0.OnUpdateHandCollectUnit)
 	slot0:AddListener(ISLAND_EVT.START_DELEGATE_SLOT_PERFORM, slot0.OnDelegateSlotStartPerform)
 	slot0:AddListener(ISLAND_EVT.RECYCLE_ALL_SLOTDELEEFFECT, slot0.OnRecycleAllSlotEffct)
@@ -368,6 +374,7 @@ slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(ISLAND_EVT.SET_PLAYER_WORK, slot0.OnPlayerWork)
 	slot0:RemoveListener(ISLAND_EVT.DEVIEE_STATE_CHANGE, slot0.OnPlayerDeviceStateChange)
 	slot0:RemoveListener(ISLAND_EVT.UPDATE_HUD, slot0.OnUpdateHud)
+	slot0:RemoveListener(ISLAND_EVT.PLAY_EFFECT, slot0.OnPlayEffect)
 	slot0:RemoveListener(ISLAND_EVT.UPDATE_UNIT_HAND_COLLECT, slot0.OnUpdateHandCollectUnit)
 	slot0:RemoveListener(ISLAND_EVT.RECYCLE_ALL_SLOTDELEEFFECT, slot0.OnRecycleAllSlotEffct)
 	slot0:RemoveListener(ISLAND_EVT.SELECTDELEEFFECT_SHOW, slot0.OnSelectSlotEffectShow)
@@ -656,7 +663,7 @@ slot0.OnPlaySingleAnimationEnd = function(slot0, slot1)
 
 	slot3, slot4 = IslandCalcUtil.GetTypeAndIdByUniqueId(slot0:GetSelectedNpcId())
 
-	if isa(slot0:GetUnitModuleWithType(slot3, slot4), IslandStrollNpcUnit) and slot5:GetDataVO():ExistActionFeedback() then
+	if isa(slot0:GetUnitModuleWithType(slot3, slot4), IslandStrollNpcUnit) and slot5:GetDataVO():ExistGreetingActionFeedback() then
 		slot0.npcActionPlayer:Resopon(slot5, slot0.player, slot1)
 	else
 		slot0.npcActionPlayer:ResoponByRandom(slot0.player, slot1)
@@ -668,7 +675,7 @@ slot0.OnShowNpcAniamtionBubble = function(slot0, slot1)
 		return
 	end
 
-	slot0:GetSubView(IslandBottomHeadHudView):ShowAnimationOp(slot2, slot1:GetActionFeedback())
+	slot0:GetSubView(IslandBottomHeadHudView):ShowAnimationOp(slot2, slot1:GetGreetingFeedback())
 end
 
 slot0.OnHideNpcAniamtionBubble = function(slot0, slot1)
@@ -1119,6 +1126,7 @@ slot0.OnNpcDetectorSelected = function(slot0, slot1)
 
 	slot0:GetSubView(IslandOpView):UpdateAnimationOpEffect(slot4, true)
 	slot0:GetSubView(IslandBottomHeadHudView):UpdateAnimationOpEffect(slot4, true)
+	slot0:GetSubView(IslandAniamtionOpView):SortForNpcAction(slot4)
 end
 
 slot0.GetSelectedNpcId = function(slot0)
@@ -1134,6 +1142,7 @@ slot0.OnNpcDetectorUnSelected = function(slot0, slot1)
 
 	slot0:GetSubView(IslandOpView):UpdateAnimationOpEffect(slot4)
 	slot0:GetSubView(IslandBottomHeadHudView):UpdateAnimationOpEffect(slot4)
+	slot0:GetSubView(IslandAniamtionOpView):SortForNpcAction(nil)
 
 	if slot0.selectedNpcId ~= slot4 then
 		return
@@ -1659,6 +1668,22 @@ end
 slot0.OnDelegateSlotStartPerform = function(slot0, slot1)
 	if slot0:GetUnitModuleWithType(slot1.type, slot1.id) then
 		slot2:DelegateSlotStartPerform()
+	end
+end
+
+slot0.OnPlayEffect = function(slot0, slot1, slot2, slot3)
+	slot4 = nil
+
+	for slot9, slot10 in ipairs(slot0:GetUnitListByKey(IslandConst.UNIT_LIST_STROLL)) do
+		if slot10:GetDataVO():IsSameShip(slot1) then
+			slot4 = slot10
+
+			break
+		end
+	end
+
+	if slot0:GetSubView(IslandEffectView) and slot4 then
+		slot6:Play(slot4, slot2, slot3)
 	end
 end
 

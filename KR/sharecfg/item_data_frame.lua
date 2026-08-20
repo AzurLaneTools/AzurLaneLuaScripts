@@ -64,6 +64,7 @@ pg.item_data_frame.all = {
 	336,
 	337,
 	341,
+	342,
 	401,
 	402,
 	413,
@@ -661,6 +662,15 @@ pg.base.item_data_frame = {}
 		desc = "「검으로 약속하고, 서한으로 서약하노라. 신성한 동맹은 목숨이 다할 때까지 계속되리니.」\n<color=#A7A7AA>「성인 전의 동맹」 이벤트 참가</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[342] = {
+		name = "메트로 스타라이트의 꿈",
+		gain_by = "",
+		time_second = 0,
+		id = 342,
+		time_limit_type = 0,
+		desc = "추후 진행 예정인 이벤트에서 획득 가능",
+		scene = {}
+	}
 	pg.base.item_data_frame[401] = {
 		name = "전당 기념: 엔터프라이즈",
 		gain_by = "",
@@ -887,7 +897,7 @@ pg.base.item_data_frame = {}
 		scene = {}
 	}
 	pg.base.item_data_frame[615] = {
-		name = "경매 종결자",
+		name = "옥션 마스터",
 		gain_by = "",
 		time_second = 0,
 		id = 615,
@@ -1012,6 +1022,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>찌릿찌릿한 전류가 춤추고, 전구와 네온 고양이 귀도 반짝반짝 빛난다</color>.\n「교류 숙소」에서 아드미랄 나히모프의 친밀도를 올리면 획득 가능",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1014] = {
 		name = "사이버네틱 인사",
 		gain_by = "",
@@ -1021,8 +1033,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>데이터 스트림 속에 고양이 펀치와 고양이 꼬리 등장! 안녕하세요! 사이버 공간의 고양이가 인사드립니다</color>.\n「교류 숙소」에서 아드미랄 나히모프의 친밀도를 올리면 획득 가능",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10001] = {
 		name = "한계 챌린지·쌍둥이 자리",
 		gain_by = "",

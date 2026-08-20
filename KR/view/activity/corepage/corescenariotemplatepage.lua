@@ -714,10 +714,10 @@ slot0.UpdateStory = function(slot0, slot1)
 					slot30 = slot29 or ""
 				end
 
-				setScrollText(slot26, HXSet.hxLan(slot30))
+				slot0:RefreshUnlockDesc(slot25, HXSet.hxLan(slot22:GetDisplayName()), HXSet.hxLan(slot30))
 				setTextAlpha(slot26, slot28[slot24] or 0.5)
 			else
-				setScrollText(slot26, HXSet.hxLan(slot22:GetDisplayName()))
+				slot0:RefreshNodeTitle(slot25, HXSet.hxLan(slot22:GetDisplayName()))
 				setTextAlpha(slot26, slot28[slot24] or 1)
 			end
 
@@ -969,6 +969,14 @@ end
 
 slot0.OnSubmitTaskDone = function(slot0)
 	slot0:UpdateView()
+end
+
+slot0.RefreshNodeTitle = function(slot0, slot1, slot2)
+	setScrollText(slot1:Find("info/bk/title_form/title"), slot2)
+end
+
+slot0.RefreshUnlockDesc = function(slot0, slot1, slot2, slot3)
+	setScrollText(slot1:Find("info/bk/title_form/title"), slot3)
 end
 
 slot0.Show = function(slot0)

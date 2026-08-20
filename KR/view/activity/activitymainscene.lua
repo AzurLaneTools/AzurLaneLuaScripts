@@ -46,21 +46,6 @@ end
 slot1 = nil
 
 slot0.init = function(slot0)
-	slot1 = slot0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()
-
-	for slot5, slot6 in ipairs({
-		"btnBack",
-		"pageContainer",
-		"permanentFinshMask",
-		"tabs",
-		"tab",
-		"entranceContent",
-		"entranceTpl",
-		"lockAll"
-	}) do
-		slot0[slot6] = slot1[slot5].transform
-	end
-
 	slot0.entranceList = UIItemList.New(slot0.entranceContent, slot0.entranceTpl)
 	slot0.windowList = {}
 	slot0.awardWindow = AwardWindow.New(slot0._tf, slot0.event)
@@ -70,20 +55,20 @@ slot0.init = function(slot0)
 	setActive(slot0.lockAll, false)
 	setActive(slot0.permanentFinshMask, false)
 
+	slot2 = slot0.permanentFinshMask
+
+	setText(slot2:Find("piece/Text"), i18n("activity_permanent_tips2"))
+
 	slot3 = slot0.permanentFinshMask
 
-	setText(slot3:Find("piece/Text"), i18n("activity_permanent_tips2"))
-
-	slot4 = slot0.permanentFinshMask
-
-	onButton(slot0, slot4:Find("piece/arrow/Image"), function ()
+	onButton(slot0, slot3:Find("piece/arrow/Image"), function ()
 		uv0:emit(ActivityMediator.FINISH_ACTIVITY_PERMANENT)
 	end, SFX_PANEL)
 
 	slot0.tabsList = UIItemList.New(slot0.tabs, slot0.tab)
-	slot2 = slot0.tabsList
+	slot1 = slot0.tabsList
 
-	slot2:make(function (slot0, slot1, slot2)
+	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.activities[slot1 + 1]
 			slot2.name = slot3.id

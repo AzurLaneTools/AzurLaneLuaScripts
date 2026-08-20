@@ -9,18 +9,21 @@ pg.island_speedup_ticket.all = {
 	10004,
 	10005,
 	10006,
+	10007,
 	20001,
 	20002,
 	20003,
 	20004,
 	20005,
 	20006,
+	20007,
 	30001,
 	30002,
 	30003,
 	30004,
 	30005,
-	30006
+	30006,
+	30007
 }
 pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 	[60] = {
@@ -29,7 +32,8 @@ pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 		10003,
 		10004,
 		10005,
-		10006
+		10006,
+		10007
 	},
 	[600] = {
 		20001,
@@ -37,7 +41,8 @@ pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 		20003,
 		20004,
 		20005,
-		20006
+		20006,
+		20007
 	},
 	[3600] = {
 		30001,
@@ -45,7 +50,8 @@ pg.island_speedup_ticket.get_id_list_by_speedup_time = {
 		30003,
 		30004,
 		30005,
-		30006
+		30006,
+		30007
 	}
 }
 pg.base = pg.base or {}
@@ -155,6 +161,30 @@ pg.base.island_speedup_ticket = {}
 				2026,
 				8,
 				20
+			},
+			{
+				12,
+				0,
+				0
+			}
+		}
+	}
+	pg.base.island_speedup_ticket[10007] = {
+		name = "가속권 (1분)",
+		rarity = 2,
+		type = 1,
+		duration = 0,
+		speedup_time = 60,
+		desc = "진행 중인 작업 시간을 1분 단축한다. 이를 이용하여 진행 속도를 올릴 수 있다.",
+		expiration_type = 2,
+		id = 10007,
+		icon = "islandprops/item_speedup_ticket1",
+		icon_normal = "props/item_speedup_ticket1",
+		expiration_time = {
+			{
+				2026,
+				11,
+				19
 			},
 			{
 				12,
@@ -274,6 +304,30 @@ pg.base.island_speedup_ticket = {}
 			}
 		}
 	}
+	pg.base.island_speedup_ticket[20007] = {
+		name = "가속권 (10분)",
+		rarity = 3,
+		type = 2,
+		duration = 0,
+		speedup_time = 600,
+		desc = "진행 중인 작업 시간을 10분 단축한다. 이를 이용하여 진행 속도를 올릴 수 있다.",
+		expiration_type = 2,
+		id = 20007,
+		icon = "islandprops/item_speedup_ticket2",
+		icon_normal = "props/item_speedup_ticket2",
+		expiration_time = {
+			{
+				2026,
+				11,
+				19
+			},
+			{
+				12,
+				0,
+				0
+			}
+		}
+	}
 	pg.base.island_speedup_ticket[30001] = {
 		name = "가속권 (60분)",
 		rarity = 4,
@@ -377,6 +431,30 @@ pg.base.island_speedup_ticket = {}
 				2026,
 				8,
 				20
+			},
+			{
+				12,
+				0,
+				0
+			}
+		}
+	}
+	pg.base.island_speedup_ticket[30007] = {
+		name = "가속권 (60분)",
+		rarity = 4,
+		type = 3,
+		duration = 0,
+		speedup_time = 3600,
+		desc = "진행 중인 작업 시간을 60분 단축한다. 이를 이용하여 진행 속도를 올릴 수 있다.",
+		expiration_type = 2,
+		id = 30007,
+		icon = "islandprops/item_speedup_ticket3",
+		icon_normal = "props/item_speedup_ticket3",
+		expiration_time = {
+			{
+				2026,
+				11,
+				19
 			},
 			{
 				12,

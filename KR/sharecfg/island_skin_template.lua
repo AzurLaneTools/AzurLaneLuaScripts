@@ -8,7 +8,9 @@ pg.island_skin_template.all = {
 	1020501,
 	1051701,
 	1070301,
+	1990301,
 	2012101,
+	2021201,
 	2060301,
 	2990301,
 	3031101,
@@ -19,8 +21,11 @@ pg.island_skin_template.all = {
 	4990201,
 	4990601,
 	5010701,
+	5010801,
 	5020101,
 	5060101,
+	9010701,
+	96000101,
 	99000201,
 	99000202,
 	99000101,
@@ -44,8 +49,14 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[10703] = {
 		1070301
 	},
+	[19903] = {
+		1990301
+	},
 	[20121] = {
 		2012101
+	},
+	[20212] = {
+		2021201
 	},
 	[20603] = {
 		2060301
@@ -77,11 +88,20 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[50107] = {
 		5010701
 	},
+	[50108] = {
+		5010801
+	},
 	[50201] = {
 		5020101
 	},
 	[50601] = {
 		5060101
+	},
+	[90107] = {
+		9010701
+	},
+	[960001] = {
+		96000101
 	},
 	[990001] = {
 		99000101,
@@ -170,6 +190,20 @@ pg.base.island_skin_template = {}
 		icon_normal = "props/skin_1070301",
 		jump_page = {}
 	}
+	pg.base.island_skin_template[1990301] = {
+		ship_group = 19903,
+		name = "쉬는 시간의 약속",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "붉은 리본 넥타이가 걸음에 맞춰 살랑살랑 흔들린다. 기대에 부푼 소녀는 이미 준비 완료――오늘 쉬는 시간은 계속 당신과 함께♪",
+		shop_goods_id = 0,
+		model = 1990301,
+		id = 1990301,
+		icon = "skin_1990301",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[2012101] = {
 		ship_group = 20121,
 		name = "베개싸움",
@@ -182,6 +216,20 @@ pg.base.island_skin_template = {}
 		model = 2012101,
 		id = 2012101,
 		icon = "skin_2012101",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[2021201] = {
+		ship_group = 20212,
+		name = "오후의 한 페이지",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "코트에 감싸인 포근한 책 향기. 긴 머리를 단정하게 올려 묶어도, 편안하고 우아한 미소는 그대로다.",
+		shop_goods_id = 0,
+		model = 2021201,
+		id = 2021201,
+		icon = "skin_2021201",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[2060301] = {
@@ -324,6 +372,20 @@ pg.base.island_skin_template = {}
 		icon = "skin_5010701",
 		icon_normal = ""
 	}
+	pg.base.island_skin_template[5010801] = {
+		ship_group = 50108,
+		name = "포근한 하굣길",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "묶어 올려 살랑살랑 흔들리는 머리카락. 가벼운 발걸음으로 다가오는 그녀와 함께라면 하굣길마저 포근한 분위기로 물든다.",
+		shop_goods_id = 0,
+		model = 5010801,
+		id = 5010801,
+		icon = "skin_5010801",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[5020101] = {
 		ship_group = 50201,
 		name = "달빛 아래의 차향",
@@ -350,6 +412,34 @@ pg.base.island_skin_template = {}
 		model = 5060101,
 		id = 5060101,
 		icon = "skin_5060101",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[9010701] = {
+		ship_group = 90107,
+		name = "설레는 종소리",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "느슨한 옷깃 아래로 자연스레 늘어진 리본 넥타이. 감출 수 없을 만큼 뜨거운 열정에 심장이 더욱 빠르게 뛰는 듯한 아찔함 한 스푼.",
+		shop_goods_id = 0,
+		model = 9010701,
+		id = 9010701,
+		icon = "skin_9010701",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[96000101] = {
+		ship_group = 960001,
+		name = "학교의 프롤로그",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "단정하면서도 세련된 교복 차림에 감도는 성실함과 기품. 교문을 들어서는 발걸음마저 마치 의식의 한 장면처럼 느껴진다.",
+		shop_goods_id = 0,
+		model = 96000101,
+		id = 96000101,
+		icon = "skin_96000101",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[99000201] = {
