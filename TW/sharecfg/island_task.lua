@@ -13414,7 +13414,7 @@ end)()
 		trigger_tips = 0,
 		name = "田野堅盾",
 		type = 8,
-		task_desc = "儲備可靠的主食來源，為島嶼開發提供紮實的能量基礎。\n提交土豆*500",
+		task_desc = "儲備可靠的主食來源，為島嶼開發提供紮實的能量基礎。\n提交馬鈴薯*500",
 		map_trigger_tips = 0,
 		complete_type = 3,
 		trigger_type = 2,

@@ -1541,8 +1541,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1005] = {
-		name = "土豆種子",
-		desc = "港區精選的土豆的種子，可以輕鬆種出高產的土豆。",
+		name = "馬鈴薯種子",
+		desc = "港區精選的馬鈴薯的種子，可以輕鬆種出高產的馬鈴薯。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -2201,8 +2201,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1021] = {
-		name = "牛油果樹種",
-		desc = "港區培育的優質牛油果樹種，可以結出營養豐富的牛油果。",
+		name = "酥梨樹種",
+		desc = "港區培育的優質酥梨樹種，可以結出營養豐富的酥梨。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3272,7 +3272,7 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[2005] = {
-		name = "土豆",
+		name = "馬鈴薯",
 		desc = "蔬菜中的澱粉代表，可以被做成千變萬化的形態。",
 		type = 1,
 		manage_influence = 0,
@@ -3752,7 +3752,7 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[2021] = {
-		name = "牛油果",
+		name = "酥梨",
 		desc = "口感細膩軟糯，美味無糖更健康。",
 		type = 1,
 		manage_influence = 0,
@@ -5462,7 +5462,7 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[3030] = {
-		name = "禽肉土豆拼盤",
+		name = "禽肉馬鈴薯拼盤",
 		desc = "簡單而美味，是家庭餐桌上的經典搭配！",
 		type = 1,
 		manage_influence = 230,
@@ -6635,7 +6635,7 @@ end)()
 	}
 	pg.base.island_item_data_template[3109] = {
 		name = "烤肉狂歡",
-		desc = "香烤肉串配酥嫩禽肉土豆，讓你一次吃個過癮。",
+		desc = "香烤肉串配酥嫩禽肉馬鈴薯，讓你一次吃個過癮。",
 		type = 1,
 		manage_influence = 230,
 		pt_num = 90,

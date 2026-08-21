@@ -750,7 +750,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[101007] = {
 		workload = 108000,
-		name = "土豆",
+		name = "馬鈴薯",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -2548,7 +2548,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[501006] = {
 		workload = 120000,
-		name = "牛油果",
+		name = "酥梨",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -4374,7 +4374,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[604002] = {
 		workload = 18000,
-		name = "禽肉土豆拼盤",
+		name = "禽肉馬鈴薯拼盤",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11567,7 +11567,7 @@ end)()
 	}
 	pg.base.island_formula[7500214] = {
 		workload = 6000,
-		name = "土豆種植技術",
+		name = "馬鈴薯種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11866,7 +11866,7 @@ end)()
 	}
 	pg.base.island_formula[7500236] = {
 		workload = 36000,
-		name = "牛油果樹種植技術",
+		name = "酥梨樹種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -12938,7 +12938,7 @@ end)()
 	}
 	pg.base.island_formula[7540201] = {
 		workload = 144000,
-		name = "禽肉土豆拼盤食譜",
+		name = "禽肉馬鈴薯拼盤食譜",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,

@@ -80,7 +80,7 @@ pg.base.island_farm_seed = {}
 	}
 	pg.base.island_farm_seed[1008] = {
 		id = 1008,
-		name = "土豆種子",
+		name = "馬鈴薯種子",
 		itemid = 1006,
 		formulaid = 101008
 	}
@@ -116,7 +116,7 @@ pg.base.island_farm_seed = {}
 	}
 	pg.base.island_farm_seed[1106] = {
 		id = 1106,
-		name = "牛油果樹種",
+		name = "酥梨樹種",
 		itemid = 1021,
 		formulaid = 501006
 	}

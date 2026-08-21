@@ -2519,7 +2519,7 @@ end)()
 	pg.base.island_task_target[80012001] = {
 		tips = "",
 		jump_ui = "",
-		name = "提交土豆*500",
+		name = "提交馬鈴薯*500",
 		type = 4,
 		id = 80012001,
 		target_num = 500,
