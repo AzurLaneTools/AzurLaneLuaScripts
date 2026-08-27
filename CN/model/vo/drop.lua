@@ -1264,6 +1264,15 @@ slot0.InitSwitch = function()
 				[31] = function ()
 					getProxy(AuctionGameBaseProxy):AddGold(uv0.count)
 				end,
+				[32] = function ()
+					getProxy(ChapterAutoProxy):AddTicketByItem(ChapterAutoTicket.TYPE.WORLD, uv0)
+				end,
+				[33] = function ()
+					getProxy(ChapterAutoProxy):AddTicketByItem(ChapterAutoTicket.TYPE.TIME, uv0)
+				end,
+				[34] = function ()
+					getProxy(ChapterAutoProxy):AddTicketByItem(ChapterAutoTicket.TYPE.MAIN, uv0)
+				end,
 				[99] = function ()
 				end,
 				[100] = function ()

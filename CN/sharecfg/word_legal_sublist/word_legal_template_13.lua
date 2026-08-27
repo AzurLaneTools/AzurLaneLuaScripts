@@ -4,6 +4,30 @@ slot0.word_legal_template_13 = {}
 slot1 = slot0.word_legal_template_13
 
 temp = function()
+	uv0["伏"] = {
+		["波"] = {
+			this = true
+		},
+		["罗"] = {
+			["希"] = {
+				["洛"] = {
+					["夫"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["尔"] = {
+			["加"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["逸"] = {
 		["仙"] = {
 			this = true,
@@ -472,22 +496,6 @@ temp = function()
 			["川"] = {
 				["唯"] = {
 					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["摩"] = {
-		["尔"] = {
-			["曼"] = {
-				["斯"] = {
-					["克"] = {
-						this = true
-					}
 				}
 			}
 		}

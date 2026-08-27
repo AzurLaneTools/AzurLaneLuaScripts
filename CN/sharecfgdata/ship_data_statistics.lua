@@ -158538,6 +158538,530 @@ _G.pg.base.ship_data_statistics[301184] = {
 }
 
 
+_G.pg.base.ship_data_statistics[301191] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 1,
+	name = "天津风",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 301191,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Amatsukaze",
+	oxy_cost = 0,
+	skin_id = 301190,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		359,
+		13,
+		105,
+		30,
+		0,
+		82,
+		0,
+		71,
+		71,
+		42.6,
+		70,
+		52
+	},
+	attrs_growth = {
+		10221,
+		177,
+		1261,
+		656,
+		0,
+		571,
+		0,
+		1100,
+		1320,
+		0,
+		0,
+		586
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.7,
+		1.3,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kagero-Class",
+		"Amatsukaze"
+	},
+	gift_dislike = {
+		180005,
+		180003
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[301192] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 1,
+	name = "天津风",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 301192,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Amatsukaze",
+	oxy_cost = 0,
+	skin_id = 301190,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		447,
+		16,
+		131,
+		37,
+		0,
+		82,
+		0,
+		71,
+		71,
+		42.6,
+		70,
+		65
+	},
+	attrs_growth = {
+		10221,
+		177,
+		1261,
+		656,
+		0,
+		571,
+		0,
+		1100,
+		1320,
+		0,
+		0,
+		586
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.7,
+		1.35,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kagero-Class",
+		"Amatsukaze"
+	},
+	gift_dislike = {
+		180005,
+		180003
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[301193] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 1,
+	name = "天津风",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 301193,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Amatsukaze",
+	oxy_cost = 0,
+	skin_id = 301190,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		622,
+		22,
+		183,
+		52,
+		0,
+		82,
+		0,
+		71,
+		71,
+		42.6,
+		70,
+		90
+	},
+	attrs_growth = {
+		10221,
+		177,
+		1261,
+		656,
+		0,
+		571,
+		0,
+		1100,
+		1320,
+		0,
+		0,
+		586
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.7,
+		1.45,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kagero-Class",
+		"Amatsukaze"
+	},
+	gift_dislike = {
+		180005,
+		180003
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[301194] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 1,
+	name = "天津风",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 301194,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Amatsukaze",
+	oxy_cost = 0,
+	skin_id = 301190,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		884,
+		32,
+		261,
+		74,
+		0,
+		82,
+		0,
+		71,
+		71,
+		42.6,
+		70,
+		129
+	},
+	attrs_growth = {
+		10221,
+		177,
+		1261,
+		656,
+		0,
+		571,
+		0,
+		1100,
+		1320,
+		0,
+		0,
+		586
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.75,
+		1.5,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kagero-Class",
+		"Amatsukaze"
+	},
+	gift_dislike = {
+		180005,
+		180003
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[301201] = {
 	nationality = 3,
 	oxy_max = 0,

@@ -4,6 +4,16 @@ slot0.word_legal_template_8 = {}
 slot1 = slot0.word_legal_template_8
 
 temp = function()
+	uv0["檧"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["菪"] = {
 		this = {
 			this = true
@@ -335,16 +345,6 @@ temp()
 
 temp = function()
 	uv0["杪"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["藤"] = {
 		this = {
 			this = true
 		}

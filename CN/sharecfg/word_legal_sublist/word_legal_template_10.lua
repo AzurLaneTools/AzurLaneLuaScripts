@@ -4,6 +4,16 @@ slot0.word_legal_template_10 = {}
 slot1 = slot0.word_legal_template_10
 
 temp = function()
+	uv0["獒"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["犬"] = {
 		this = {
 			this = true
@@ -379,27 +389,6 @@ temp = function()
 			["折"] = {
 				["纸"] = {
 					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["凤"] = {
-		this = {
-			this = true
-		},
-		["·"] = {
-			M = {
-				E = {
-					T = {
-						A = {
-							this = true
-						}
-					}
 				}
 			}
 		}

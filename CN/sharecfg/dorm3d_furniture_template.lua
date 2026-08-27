@@ -72,6 +72,7 @@ pg.dorm3d_furniture_template.all = {
 	1461,
 	1462,
 	1463,
+	1468,
 	2101,
 	2102,
 	2103,
@@ -164,7 +165,8 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		1415,
 		1461,
 		1462,
-		1463
+		1463,
+		1468
 	},
 	[21] = {
 		2101,
@@ -1908,7 +1910,7 @@ pg.base.dorm3d_furniture_template = {}
 		type = 4,
 		room_id = 14,
 		desc = "私密与浪漫的避风港，红色丝绒被褥与可拉床帘组合，在夜色中轻松享受静谧与温馨。 ",
-		is_exclusive = 0,
+		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
 		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture1",
@@ -1942,7 +1944,7 @@ pg.base.dorm3d_furniture_template = {}
 		type = 6,
 		room_id = 14,
 		desc = "采用古典设计的书桌，表面光滑平整，框架坚实牢固，还兼具着储物的作用，是学习和工作的不二之选。",
-		is_exclusive = 0,
+		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_study01",
 		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture2",
@@ -1976,7 +1978,7 @@ pg.base.dorm3d_furniture_template = {}
 		type = 5,
 		room_id = 14,
 		desc = "通体真皮材质，低调奢华，搭配精致茶几，将生活的惬意与趣味都凝聚于此。",
-		is_exclusive = 0,
+		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_living01",
 		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture3",
@@ -2002,6 +2004,40 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/livingroom"
+		}
+	}
+	pg.base.dorm3d_furniture_template[1468] = {
+		rarity = 5,
+		name = "悸动一刻",
+		type = 99,
+		room_id = 14,
+		desc = "奢华与诱惑，浪漫与激情，感受那波涛汹涌下的悸动吧。",
+		is_exclusive = 1,
+		model = "Pay_Aijierhostel/pre_db_aijier_special01",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture4",
+		acesses = "",
+		id = 1468,
+		target_slots = {
+			1140104
+		},
+		touch_id = {
+			{
+				49905,
+				4990570
+			}
+		},
+		shop_id = {
+			270604
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1468"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/entertainment"
 		}
 	}
 	pg.base.dorm3d_furniture_template[2101] = {

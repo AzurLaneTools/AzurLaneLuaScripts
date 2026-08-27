@@ -34,6 +34,9 @@ pg.dorm3d_ik_touch.all = {
 	6004002,
 	6004003,
 	6004004,
+	6004005,
+	6004006,
+	6004007,
 	7001001,
 	7001002,
 	7001003
@@ -520,6 +523,66 @@ pg.base.dorm3d_ik_touch = {}
 		char_id = 49905,
 		action_emote = "",
 		id = 6004004,
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		},
+		tip_offset = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_ik_touch[6004005] = {
+		hold_time = 0,
+		body = "RightHand",
+		scene_item = "",
+		trigger_type = 1,
+		ik_move = "",
+		char_id = 49905,
+		action_emote = "",
+		id = 6004005,
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		},
+		tip_offset = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_ik_touch[6004006] = {
+		hold_time = 0,
+		body = "LeftHand",
+		scene_item = "",
+		trigger_type = 1,
+		ik_move = "",
+		char_id = 49905,
+		action_emote = "",
+		id = 6004006,
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		},
+		tip_offset = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_ik_touch[6004007] = {
+		hold_time = 0,
+		body = "LeftThigh",
+		scene_item = "",
+		trigger_type = 1,
+		ik_move = "",
+		char_id = 49905,
+		action_emote = "",
+		id = 6004007,
 		vibrate = {
 			{
 				100,

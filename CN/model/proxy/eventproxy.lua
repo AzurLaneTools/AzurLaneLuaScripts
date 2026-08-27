@@ -11,6 +11,12 @@ slot0.register = function(slot0)
 		uv0:updateAll(slot0.collection_list)
 	end)
 	slot0:on(13011, function (slot0)
+		slot1 = getProxy(ChapterAutoProxy)
+
+		slot1:RecordNewEventIds(underscore.map(slot0.collection, function (slot0)
+			return slot0.id
+		end))
+
 		slot1 = uv0
 
 		slot1:updateInfoList(underscore.map(slot0.collection, function (slot0)

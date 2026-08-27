@@ -4,6 +4,27 @@ slot0.word_legal_template_11 = {}
 slot1 = slot0.word_legal_template_11
 
 temp = function()
+	uv0["凤"] = {
+		this = {
+			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["鹳"] = {
 		this = {
 			this = true
@@ -520,19 +541,6 @@ temp = function()
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["咪"] = {
-		["菓"] = {
-			this = true
-		},
-		["露"] = {
-			this = true
 		}
 	}
 end

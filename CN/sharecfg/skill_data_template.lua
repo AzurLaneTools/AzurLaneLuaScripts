@@ -390,6 +390,7 @@ pg.skill_data_template.all = {
 	61110,
 	61120,
 	61130,
+	61140,
 	7000,
 	9010,
 	9020,
@@ -1451,6 +1452,8 @@ pg.skill_data_template.all = {
 	152530,
 	152540,
 	152550,
+	152750,
+	152760,
 	152560,
 	152570,
 	152580,
@@ -2201,6 +2204,8 @@ pg.skill_data_template.all = {
 	30642,
 	30661,
 	30662,
+	30701,
+	30702,
 	30671,
 	30672,
 	30681,
@@ -3104,6 +3109,7 @@ pg.skill_data_template.all = {
 	1012570,
 	1013470,
 	1014660,
+	1012580,
 	1019160,
 	1014990,
 	1013140,
@@ -13904,6 +13910,20 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61140] = {
+		desc_get = "",
+		name = "天风袋",
+		type = 0,
+		max_level = 0,
+		desc = "{namecode:23}装备时，战斗开始后60秒内，自身回避率提高2%",
+		id = 61140,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "莱茵演习",
@@ -14364,6 +14384,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[9090] = {
 		desc_get = "",
 		name = "所罗门的传说",
@@ -14515,8 +14537,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[9101] = {
 		desc_get = "",
 		name = "强袭号令",
@@ -21597,6 +21617,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10930] = {
 		desc_get = "",
 		name = "威光",
@@ -21703,8 +21725,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10940] = {
 		desc_get = "每20秒，有40.0%(满级70.0%)概率开启鬼神演舞，机动属性提高30.0%，持续5秒，同时发射强力弹幕(威力随技能等级提升)",
 		name = "鬼神演舞",
@@ -29921,6 +29941,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11920] = {
 		desc_get = "",
 		name = "天之骑士",
@@ -30072,8 +30094,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11930] = {
 		desc_get = "",
 		name = "杜立特空袭.改",
@@ -39482,6 +39502,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[12990] = {
 		desc_get = "",
 		name = "火力向导",
@@ -39588,8 +39610,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13000] = {
 		desc_get = "",
 		name = "虚空的白骑兵",
@@ -49123,6 +49143,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13990] = {
 		desc_get = "",
 		name = "魔王之庇护",
@@ -49229,8 +49251,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14000] = {
 		desc_get = "",
 		name = "魔王之愤怒",
@@ -60404,6 +60424,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14990] = {
 		desc_get = "",
 		name = "火舌飞舞",
@@ -60546,8 +60568,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15000] = {
 		desc_get = "",
 		name = "急袭轰炸",
@@ -72289,6 +72309,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16000] = {
 		desc_get = "",
 		name = "川流不息",
@@ -72431,8 +72453,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16010] = {
 		desc_get = "",
 		name = "风平浪静",
@@ -83855,6 +83875,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17010] = {
 		desc_get = "",
 		name = "涤罪裁决",
@@ -83997,8 +84019,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17020] = {
 		desc_get = "",
 		name = "神圣庇护",
@@ -95090,6 +95110,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150070] = {
 		desc_get = "",
 		name = "超重剑舞",
@@ -95196,8 +95218,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150080] = {
 		desc_get = "",
 		name = "阵线守护者",
@@ -106482,6 +106502,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151060] = {
 		desc_get = "",
 		name = "BIG BEN",
@@ -106579,8 +106601,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151070] = {
 		desc_get = "",
 		name = "浴火的奇迹",
@@ -118335,6 +118355,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152030] = {
 		desc_get = "",
 		name = "径直走向荣耀和死亡",
@@ -118477,8 +118499,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152040] = {
 		desc_get = "",
 		name = "回旋铳舞",
@@ -123616,6 +123636,344 @@ end)()
 				},
 				{
 					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152750] = {
+		desc_get = "",
+		name = "穿云而过的少女",
+		type = 1,
+		max_level = 10,
+		desc = "战斗开始时，自身雷击属性提高$1，若队伍中存在其他重樱阵营角色，自身装备的鱼雷武器暴击率提高$2；战斗中，自身使用鱼雷武器时，触发一轮特殊弹幕$3（威力依据技能等级,触发后进入10秒冷却），并有$4概率再次发射一轮鱼雷；战斗中被特殊弹幕命中的角色在1秒内航速变为0，之后在0.5秒内恢复为原航速，航速变为0的同时为其附加特殊进水效果（伤害依据雷击属性），进水效果持续6秒",
+		id = 152750,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152760] = {
+		desc_get = "",
+		name = "大人物的威严",
+		type = 2,
+		max_level = 10,
+		desc = "战斗开始时，自身机动属性提高$1；战斗中自身受到伤害时有$2概率获得以下效果（每场战斗只能触发一次）：自身受到的伤害降低$3，受到伤害时有$1概率将此次伤害降低为1，效果持续至战斗结束；战斗中若自身受到伤害导致自身血量低于30%时触发，4秒内回避所有伤害，效果结束后恢复自身血量15%并使自身造成的伤害降低10%，持续至战斗结束，该效果每场战斗最多触发一次",
+		id = 152760,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
 				}
 			}
 		}
@@ -129471,6 +129829,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19002] = {
 		desc_get = "",
 		name = "塞壬之敌III",
@@ -129607,8 +129967,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19030] = {
 		desc_get = "",
 		name = "君王之睥睨 ",
@@ -139842,6 +140200,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19980] = {
 		desc_get = "",
 		name = "蓄能爆发",
@@ -140412,8 +140772,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[190040] = {
 		desc_get = "",
 		name = "激荡苍穹之影",
@@ -142001,6 +142359,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[21232] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -142043,8 +142403,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22011] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -143403,6 +143761,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[24111] = {
 		desc_get = "",
 		name = "全弹发射I",
@@ -143445,8 +143805,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[24122] = {
 		desc_get = "",
 		name = "全弹发射II",
@@ -144805,6 +145163,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29123] = {
 		desc_get = "",
 		name = "专属弹幕-{namecode:16}III",
@@ -144847,8 +145207,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29141] = {
 		desc_get = "",
 		name = "专属弹幕-{namecode:18}I",
@@ -146215,6 +146573,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29641] = {
 		desc_get = "",
 		name = "专属弹幕-塔什干(μ兵装)I",
@@ -146257,8 +146617,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29652] = {
 		desc_get = "",
 		name = "专属弹幕-大青花鱼(μ兵装)II",
@@ -147617,6 +147975,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30171] = {
 		desc_get = "",
 		name = "专属弹幕-拉菲 II-I",
@@ -147659,8 +148019,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30182] = {
 		desc_get = "",
 		name = "专属弹幕-松鲷II",
@@ -149027,6 +149385,36 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
+	pg.base.skill_data_template[30701] = {
+		desc_get = "",
+		name = "专属弹幕-{namecode:23}I",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行15次攻击，触发专属弹幕-{namecode:23}I",
+		id = 30701,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30702] = {
+		desc_get = "",
+		name = "专属弹幕-{namecode:23}II",
+		type = 1,
+		max_level = 1,
+		desc = "主炮每进行10次攻击，触发专属弹幕-{namecode:23}II",
+		id = 30702,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[30671] = {
 		desc_get = "",
 		name = "专属弹幕-柯莱特I",
@@ -149069,8 +149457,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30682] = {
 		desc_get = "",
 		name = "专属弹幕-维克斯堡II",
@@ -157382,6 +157768,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106450] = {
 		desc_get = "",
 		name = "来自水中的问候",
@@ -157820,8 +158208,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106500] = {
 		desc_get = "",
 		name = "讲师的责任",
@@ -165537,6 +165923,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[109320] = {
 		desc_get = "",
 		name = "阵光",
@@ -165607,8 +165995,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[110010] = {
 		desc_get = "",
 		name = "双刀追斩",
@@ -174690,6 +175076,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[115090] = {
 		desc_get = "",
 		name = "天际疾驰者",
@@ -174973,8 +175361,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[115140] = {
 		desc_get = "",
 		name = "食时之城",
@@ -181306,6 +181692,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800371] = {
 		desc_get = "",
 		name = "破敌之炬·{namecode:433}I",
@@ -181431,8 +181819,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800390] = {
 		desc_get = "",
 		name = "灾厄还复来",
@@ -186235,6 +186621,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800912] = {
 		desc_get = "",
 		name = "湮烬之核·{namecode:140}",
@@ -186540,8 +186928,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800940] = {
 		desc_get = "",
 		name = "慎与勇的抉择",
@@ -191644,6 +192030,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801457] = {
 		desc_get = "",
 		name = "湮烬之核·{namecode:89}II",
@@ -191940,8 +192328,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801485] = {
 		desc_get = "",
 		name = "逐光之焰·朱利奥·凯撒I",
@@ -197007,6 +197393,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802020] = {
 		desc_get = "",
 		name = "毁灭号令",
@@ -197357,8 +197745,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802047] = {
 		desc_get = "",
 		name = "破敌之炬·克利夫兰II",
@@ -200817,6 +201203,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1010390] = {
 		desc_get = "",
 		name = "不破之盾 +",
@@ -201464,8 +201852,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1010730] = {
 		desc_get = "",
 		name = "鬼神 +",
@@ -214213,6 +214599,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1011470] = {
 		desc_get = "",
 		name = "Nasty Asty +",
@@ -215040,8 +215428,112 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
+	pg.base.skill_data_template[1012580] = {
+		desc_get = "",
+		name = "机关禁止兵装占坑",
+		type = 3,
+		max_level = 10,
+		desc = "空袭时有$1概率触发(每场战斗首次空袭必定触发)，所有敌方在$2秒内航速变为0，随后的2.5秒内逐渐减少该技能的效果直至无效",
+		id = 1012580,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"80.0%"
+			},
+			{
+				"0.5",
+				"1.5"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+3.3%"
+				},
+				{
+					"53.3%",
+					"+3.3%"
+				},
+				{
+					"56.6%",
+					"+3.3%"
+				},
+				{
+					"59.9%",
+					"+3.3%"
+				},
+				{
+					"63.2%",
+					"+3.3%"
+				},
+				{
+					"66.5%",
+					"+3.3%"
+				},
+				{
+					"69.8%",
+					"+3.3%"
+				},
+				{
+					"73.1%",
+					"+3.3%"
+				},
+				{
+					"76.4%",
+					"+3.6%"
+				},
+				{
+					"80%"
+				}
+			},
+			{
+				{
+					"0.5",
+					"+0.1"
+				},
+				{
+					"0.6",
+					"+0.1"
+				},
+				{
+					"0.7",
+					"+0.1"
+				},
+				{
+					"0.8",
+					"+0.1"
+				},
+				{
+					"0.9",
+					"+0.1"
+				},
+				{
+					"1.0",
+					"+0.1"
+				},
+				{
+					"1.1",
+					"+0.1"
+				},
+				{
+					"1.2",
+					"+0.1"
+				},
+				{
+					"1.3",
+					"+0.2"
+				},
+				{
+					"1.5"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[1019160] = {
 		desc_get = "",
 		name = "Heavy Barrel Blaster +",

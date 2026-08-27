@@ -16,15 +16,20 @@ slot0.init = function(slot0)
 	slot0.rankBtn = slot0.top:Find("right/rank")
 	slot0.taskBtn = slot0.top:Find("right/task")
 	slot0.taskTip = slot0.taskBtn:Find("tip")
-	slot0.seriesNodes = _.map(_.range(slot0._tf:Find("Battle/Nodes").childCount), function (slot0)
-		return uv0._tf:Find("Battle/Nodes"):GetChild(slot0 - 1)
-	end)
-	slot0.nodes = {}
-	slot4 = "Story/Nodes"
+	slot0.seriesNodes = {}
 
-	for slot4 = 1, slot0._tf:Find(slot4).childCount do
-		slot5 = slot0._tf:Find("Story/Nodes"):GetChild(slot4 - 1)
-		slot0.nodes[slot5.name] = slot5
+	for slot5 = 1, slot0._tf:Find("Battle/Nodes").childCount do
+		if isActive(slot1:GetChild(slot5 - 1)) then
+			table.insert(slot0.seriesNodes, slot6)
+		end
+	end
+
+	slot0.nodes = {}
+	slot5 = "Story/Nodes"
+
+	for slot5 = 1, slot0._tf:Find(slot5).childCount do
+		slot6 = slot0._tf:Find("Story/Nodes"):GetChild(slot5 - 1)
+		slot0.nodes[slot6.name] = slot6
 	end
 
 	slot0.progressText = slot0._tf:Find("Story/Desc/Text")
@@ -72,7 +77,7 @@ slot0.didEnter = function(slot0)
 
 	slot0.storyNodesDict = {}
 
-	_.each(slot0.activity:getConfig("config_client").storys, function (slot0)
+	_.each(slot0.activity:getConfig("config_client").storys or {}, function (slot0)
 		uv0.storyNodesDict[slot0] = BossRushStoryNode.New({
 			id = slot0
 		})
@@ -205,8 +210,12 @@ slot0.UpdateBattle = function(slot0)
 		end, SFX_PANEL)
 	end)
 	setText(slot0.ptText, slot0.ptActivity.data1)
-	setActive(slot0.ptTip, Activity.IsActivityReady(slot0.ptActivity))
+	slot0:UpdateTpTip()
 	setActive(slot0._tf:Find("Battle/Story/new"), slot0.storyTask and slot0.storyTask:getTaskStatus() ~= 2)
+end
+
+slot0.UpdateTpTip = function(slot0)
+	setActive(slot0.ptTip, Activity.IsActivityReady(slot0.ptActivity))
 end
 
 slot0.UpdateStory = function(slot0)

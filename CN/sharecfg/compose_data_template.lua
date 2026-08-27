@@ -264,6 +264,7 @@ pg.compose_data_template.all = {
 	11055,
 	11056,
 	11057,
+	11058,
 	12000,
 	12001,
 	12002,
@@ -2166,6 +2167,13 @@ end)()
 		id = 11057,
 		material_num = 25
 	}
+	pg.base.compose_data_template[11058] = {
+		equip_id = 35260,
+		material_id = 11058,
+		gold_num = 500,
+		id = 11058,
+		material_num = 25
+	}
 	pg.base.compose_data_template[12000] = {
 		equip_id = 2640,
 		material_id = 12000,
@@ -2432,6 +2440,8 @@ end)()
 		id = 13033,
 		material_num = 25
 	}
+end)()
+(function ()
 	pg.base.compose_data_template[13034] = {
 		equip_id = 85560,
 		material_id = 13034,
@@ -2439,8 +2449,6 @@ end)()
 		id = 13034,
 		material_num = 25
 	}
-end)()
-(function ()
 	pg.base.compose_data_template[13035] = {
 		equip_id = 46400,
 		material_id = 13035,

@@ -16,7 +16,8 @@ pg.activity_event_worldboss.all = {
 	11,
 	12,
 	13,
-	14
+	14,
+	15
 }
 pg.base = pg.base or {}
 pg.base.activity_event_worldboss = {}
@@ -1490,6 +1491,134 @@ pg.base.activity_event_worldboss = {}
 			{
 				{
 					1999903
+				},
+				15
+			}
+		},
+		stage_hp = {},
+		expedition_buff = {},
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				25,
+				16
+			},
+			{
+				40,
+				16
+			}
+		}
+	}
+	pg.base.activity_event_worldboss[15] = {
+		group_num = 1,
+		submarine_num = 1,
+		ticket = 2027,
+		damage_resource = 2026,
+		ex_expedition = 2059004,
+		extrachallenge_id = 5,
+		id = 15,
+		boss_id = {
+			20
+		},
+		reward_pt = {
+			9500,
+			9500,
+			9500,
+			9000,
+			8500,
+			8000,
+			7500,
+			7000,
+			6500,
+			6000,
+			5500,
+			5000,
+			4500,
+			4000,
+			3500,
+			3000,
+			2500,
+			2000,
+			1500,
+			1000,
+			500,
+			0,
+			0
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					10
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		formula = {
+			10,
+			5,
+			2,
+			60,
+			0.026,
+			0.68,
+			1.3,
+			11.7,
+			0.1
+		},
+		ex_expedition_enemy = {
+			{
+				2059004,
+				{
+					16889004
+				}
+			}
+		},
+		normal_expedition = {
+			2059001,
+			2059002,
+			2059003
+		},
+		normal_expedition_drop_num = {
+			{
+				{
+					2059001
+				},
+				15
+			},
+			{
+				{
+					2059002
+				},
+				15
+			},
+			{
+				{
+					2059003
 				},
 				15
 			}

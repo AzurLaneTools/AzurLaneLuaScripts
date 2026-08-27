@@ -4317,6 +4317,11 @@ pg.memory_template.all = {
 	5400,
 	5401,
 	5402,
+	5411,
+	5412,
+	5413,
+	5414,
+	5415,
 	10011,
 	10012,
 	10013,
@@ -82319,6 +82324,96 @@ end)()
 			"BINHAIJISU22"
 		}
 	}
+	pg.base.memory_template[5411] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "华丽的预告信",
+		condition = "首次进入活动页",
+		story = "DARENWUDEYUGAOXIN1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5411,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN1"
+		}
+	}
+	pg.base.memory_template[5412] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "第一号守关人",
+		condition = "「“大人物”的预告信 」活动进度达到25% ",
+		story = "DARENWUDEYUGAOXIN2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5412,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN2"
+		}
+	}
+	pg.base.memory_template[5413] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "二号守关人",
+		condition = "「“大人物”的预告信 」活动进度达到50% ",
+		story = "DARENWUDEYUGAOXIN3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5413,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN3"
+		}
+	}
+	pg.base.memory_template[5414] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "大人物的真面目",
+		condition = "「“大人物”的预告信 」活动进度达到75% ",
+		story = "DARENWUDEYUGAOXIN4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5414,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN4"
+		}
+	}
+	pg.base.memory_template[5415] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "指挥官在后",
+		condition = "「“大人物”的预告信 」活动进度达到100% ",
+		story = "DARENWUDEYUGAOXIN5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5415,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN5"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83795,6 +83890,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA25"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20025] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83885,8 +83982,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA30"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20030] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85597,6 +85692,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA44"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20125] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85687,8 +85784,6 @@ end)()
 			"LINGYANGZHEXINZHIXUYU2"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20130] = {
 		ship_group = 0,
 		subtitle = "",

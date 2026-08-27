@@ -8461,6 +8461,37 @@ _G.pg.base.item_data_statistics[11057] = {
 }
 
 
+_G.pg.base.item_data_statistics[11058] = {
+	open_directly = 0,
+	name = "四联装610mm鱼雷改T0设计图",
+	type = 9,
+	display = "四联装610mm鱼雷改T0设计图",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/35260",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[12000] = {
 	open_directly = 0,
 	name = "九三式纯氧鱼雷T3设计图",
@@ -135783,6 +135814,123 @@ _G.pg.base.item_data_statistics[68341] = {
 	combination_display = {},
 	usage_arg = {
 		90520
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68342] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(狐仙大人驾到)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:23}</color>换装<color=#92fc63FF>狐仙大人驾到</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88246",
+	id = 68342,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68345,
+			1
+		},
+		{
+			2,
+			68348,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68345] = {
+	open_directly = 0,
+	name = "换装抵扣券(狐仙大人驾到)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:23}</color>换装<color=#92fc63FF>狐仙大人驾到</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年8月31日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68345,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71396
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68348] = {
+	open_directly = 0,
+	name = "换装体验券(狐仙大人驾到)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:23}</color>换装<color=#92fc63FF>狐仙大人驾到</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年8月31日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68348,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90524
 	},
 	limit = {}
 }

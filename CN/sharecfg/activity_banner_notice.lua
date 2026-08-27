@@ -48,7 +48,8 @@ pg.activity_banner_notice.all = {
 	43,
 	44,
 	45,
-	46
+	46,
+	49
 }
 pg.base = pg.base or {}
 pg.base.activity_banner_notice = {}
@@ -443,6 +444,12 @@ pg.base.activity_banner_notice = {}
 			{
 				coreName = "RapidSeasideCoreActivityUI"
 			}
+		}
+	}
+	pg.base.activity_banner_notice[49] = {
+		id = 49,
+		param = {
+			"act boss battle"
 		}
 	}
 end)()

@@ -1200,21 +1200,23 @@ slot0.getRemasterInfo = function(slot0, slot1, slot2, slot3)
 	return slot5
 end
 
-slot0.addRemasterPassCount = function(slot0, slot1, slot2)
+slot0.addRemasterPassCount = function(slot0, slot1, slot2, slot3)
+	slot4 = slot3 or 1
+
 	if not slot0:getRemasterInfo(slot2, slot1) then
 		return
 	end
 
-	slot4 = nil
+	slot6 = nil
 
-	for slot8, slot9 in pairs(slot3) do
-		if slot9.count < slot9.max then
-			slot9.count = slot9.count + 1
-			slot4 = true
+	for slot10, slot11 in pairs(slot5) do
+		if slot11.count < slot11.max then
+			slot11.count = slot11.count + slot4
+			slot6 = true
 		end
 	end
 
-	if slot4 then
+	if slot6 then
 		slot0:sendNotification(uv0.CHAPTER_REMASTER_INFO_UPDATED)
 	end
 end
@@ -1355,6 +1357,18 @@ slot0.RemoveEliteFleetCommander = function(slot0, slot1)
 			slot0:updateChapter(slot8)
 		end
 	end
+end
+
+slot0.GetAutoChapterId = function(slot0)
+	if #getProxy(ChapterAutoProxy):GetCommissionList() == 0 then
+		return nil
+	end
+
+	if slot1[1].type ~= ChapterAutoProxy.TYPE.SLG then
+		return nil
+	end
+
+	return slot2.id
 end
 
 return slot0

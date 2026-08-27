@@ -4,6 +4,10 @@ slot0.ON_EXIT = "NewShipMediator:ON_EXIT"
 slot0.ON_SKILLINFO = "NewShipMediator:ON_SKILLINFO"
 slot0.ON_EVALIATION = "NewShipMediator:ON_EVALIATION"
 slot0.ON_SKIP_BATCH = "NewShipMediator:ON_SKIP_BATCH"
+slot0.SKIP_TYPE = {
+	CHAPTER_AUTO_AWARD = 2,
+	BUILD = 1
+}
 
 slot0.register = function(slot0)
 	slot1 = slot0.contextData.ship
@@ -19,10 +23,15 @@ slot0.register = function(slot0)
 			context = getProxy(ContextProxy):getCurrentContext():getContextByMediator(uv0.class)
 		})
 	end)
-	slot0:bind(uv0.ON_SKIP_BATCH, function (slot0, slot1, slot2)
-		getProxy(BuildShipProxy):setSkipBatchBuildFlag(true)
-		uv0:sendNotification(uv0.contextData.onExit or GAME.REMOVE_LAYERS, {
-			context = getProxy(ContextProxy):getCurrentContext():getContextByMediator(uv0.class)
+	slot0:bind(uv0.ON_SKIP_BATCH, function (slot0, slot1)
+		if slot1 == uv0.SKIP_TYPE.BUILD then
+			getProxy(BuildShipProxy):setSkipBatchBuildFlag(true)
+		elseif slot1 == uv0.SKIP_TYPE.CHAPTER_AUTO_AWARD then
+			getProxy(ChapterAutoProxy):SetSkipBatchBuildFlag(true)
+		end
+
+		uv1:sendNotification(uv1.contextData.onExit or GAME.REMOVE_LAYERS, {
+			context = getProxy(ContextProxy):getCurrentContext():getContextByMediator(uv1.class)
 		})
 	end)
 	slot0:bind(uv0.ON_LOCK, function (slot0, slot1, slot2)

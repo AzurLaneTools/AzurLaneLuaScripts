@@ -140,6 +140,16 @@ end
 temp()
 
 temp = function()
+	uv0["菡"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["苓"] = {
 		this = {
 			this = true
@@ -303,16 +313,6 @@ temp()
 
 temp = function()
 	uv0["枨"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["檧"] = {
 		this = {
 			this = true
 		}

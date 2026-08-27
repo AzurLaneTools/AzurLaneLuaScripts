@@ -4638,6 +4638,11 @@ _G.pg.base.gametip.levelScene_activate_remaster_1 = {
 }
 
 
+_G.pg.base.gametip.levelScene_activate_remaster_auto = {
+	tip = "进入所选关卡需要消耗<color=#ffde38>档案秘钥x$1</color>，\n是否进入？"
+}
+
+
 _G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "入场券数量不足"
 }
@@ -12552,17 +12557,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "库尔斯克、塞瓦斯托波尔 建造追加！"
+	tip = "亚尔薇特 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "伏罗希洛夫 建造追加！"
+	tip = "{namecode:494} 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "{namecode:514}、{namecode:515} 建造追加！"
+	tip = "{namecode:536} 建造追加！"
 }
 
 
@@ -13546,6 +13551,16 @@ _G.pg.base.gametip.tag_level_bomb = {
 }
 
 
+_G.pg.base.gametip.tag_level_autoing = {
+	tip = "委托中"
+}
+
+
+_G.pg.base.gametip.tag_level_auto_finish = {
+	tip = "已完成"
+}
+
+
 _G.pg.base.gametip.ui_word_levelui2_inevent = {
 	tip = "行动中"
 }
@@ -13665,7 +13680,7 @@ _G.pg.base.gametip.world_boss_help = {
 8.当「演习据点」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗尽</color>后，会记录本服达成的里程碑时间，同时，在演习中获得过「贡献值」的玩家可以获得相应奖励
 9.奖励将在「演习据点」完全耗尽后，通过邮件发放，如果活动结束时耐久未被耗尽，则会根据据点推进进度，为在演习中获得过「贡献值」的玩家发放对应进度的奖励
 10.活动期间，可以领取个人贡献奖励，个人贡献奖励需要当据点攻略进度和拥有的「贡献值」达到指定要求后才能领取
-11.2月12日维护后-2月26日维护前可以参与演习战斗，奖励领取的截止时间为3月4日24时]]
+11.8月27日维护后-9月10日维护前可以参与演习战斗，奖励领取的截止时间为9月16日24时]]
 		},
 		{
 			info = [[
@@ -13732,7 +13747,25 @@ _G.pg.base.gametip.levelScene_loop_help_tip = {
 ②<color=#92fc63>旗舰战斗</color>：敌方旗舰出现后会切换到该舰队与敌方旗舰进行战斗，选择该队为旗舰战斗后，另一队默认为道中战斗
 ③<color=#92fc63>全部战斗</color>：该舰队会与道中敌人和敌方旗舰进行战斗，选择该队为全部战斗后，另一队默认为待机
 ④<color=#92fc63>待机</color>：该舰队不参与战斗，原地待机，选择该队为待机后，另一队默认为全部战斗
-4.自律寻敌模式中，场上有精英舰队时，优先攻击<color=#92fc63>精英舰队</color>，场上没有精英舰队时，就近攻击离我方<color=#92fc63>最近的敌人</color>，当场上出现敌方旗舰时，最优先攻击<color=#92fc63>敌方旗舰</color>]]
+4.自律寻敌模式中，场上有精英舰队时，优先攻击<color=#92fc63>精英舰队</color>，场上没有精英舰队时，就近攻击离我方<color=#92fc63>最近的敌人</color>，当场上出现敌方旗舰时，最优先攻击<color=#92fc63>敌方旗舰</color>
+
+<color=#92fc63>作战委托</color>说明:
+
+作战委托系统是通过自动委托的方式通关已攻略关卡的系统，对目标关卡执行作战委托后，等待倒计时结束，即可收获委托奖励。作战委托倒计时在玩家离线时<color=#92fc63>不会暂停</color>，将继续保持计时。
+1 作战委托系统仅能委托完成过一次<color=#92fc63>未中断且全程自律的连续作战</color>的关卡。
+2 单次作战委托所需等待时间为目标关卡一次<color=#92fc63>未中断且全程自律的连续作战</color>通关的最短时间（<color=#92fc63>舰队跨射不会影响时间统计</color>，仅记录功能上线后的通关时间）。
+3 每日可获得<color=#92fc63>8小时作战委托可用时间</color>，委托可用时间耗尽后，将无法进行作战委托。每次进行作战委托时，将<color=#92fc63>消耗与等待时间相同</color>的委托可用时间，剩余时间<color=#92fc63>不足1次委托所需时间时，仍可完成最后一次委托</color>。委托可用时间会在<color=#92fc63>每天0时</color>重置。
+4 作战委托<color=#92fc63>期间无法出击主线关卡、活动关卡以及活动档案</color>。
+5 作战委托产出大讲堂熟练度，使用<color=#92fc63>作战全权委托书可以为一次作战委托追加额外产出</color>。
+
+<color=#92fc63>作战全权委托书</color>介绍：
+
+1 作战全权委托书是用于<color=#92fc63>增加作战委托产出</color>的物品，使用后可为<color=#92fc63>一次作战委托</color>追加额外产出。可通过<color=#92fc63>每日任务</color>等途径获取
+2 在使用作战全权委托书追加产出的同时，还需要支付一定数量的<color=#92fc63>石油资源</color>。
+3 作战全权委托书追加的额外产出将<color=#92fc63>基于关卡通关奖励</color>，不同关卡会有不同的通关奖励，包括<color=#92fc63>角色、物资、材料、活动掉落</color>等。
+4 使用作战全权委托书的作战委托会为<color=#92fc63>部分任务增加任务进度</color>。
+5 使用作战全权委托书的作战委托将有概率出现<color=#92fc63>紧急委托</color>，一次作战委托最多出现一个。
+6 作战全权委托书还可在“兑换可用时间”界面中用于<color=#92fc63>增加当日的作战委托可用时间</color>，每本作战全权委托书可增加<color=#92fc63>1小时</color>的委托可用时间。]]
 		}
 	}
 }
@@ -35009,6 +35042,11 @@ _G.pg.base.gametip.main_silent_tip_6 = {
 }
 
 
+_G.pg.base.gametip.main_silent_tip_7 = {
+	tip = "作战委托已完成"
+}
+
+
 _G.pg.base.gametip.commission_label_go = {
 	tip = "前 往"
 }
@@ -35030,12 +35068,17 @@ _G.pg.base.gametip.commission_label_finish_mellow = {
 
 
 _G.pg.base.gametip.commission_label_unlock_event_tip = {
-	tip = "指挥官等级达到Lv.12后开发"
+	tip = "指挥官等级达到Lv.12后开放"
 }
 
 
 _G.pg.base.gametip.commission_label_unlock_tech_tip = {
-	tip = "指挥官等级达到Lv.30后开发"
+	tip = "指挥官等级达到Lv.30后开放"
+}
+
+
+_G.pg.base.gametip.commission_label_unlock_auto_tip = {
+	tip = "通关主线1-3后开放"
 }
 
 
@@ -50891,4 +50934,315 @@ _G.pg.base.gametip.LeMarsReSkinPage_reward_title = {
 
 _G.pg.base.gametip.LeMarsReSkinPage_reward_target = {
 	tip = "当前消耗石油："
+}
+
+
+_G.pg.base.gametip.event_worldboss_0827_title = {
+	tip = "特别演习"
+}
+
+
+_G.pg.base.gametip.event_worldboss_0827_title_en = {
+	tip = "JOINT OPERATION"
+}
+
+
+_G.pg.base.gametip.auto_battle_unlock_tip = {
+	tip = "通关主线1-3后开放"
+}
+
+
+_G.pg.base.gametip.auto_chapter_unlock_tip = {
+	tip = "完成一次未中断且全程自律的连续作战后开启"
+}
+
+
+_G.pg.base.gametip.auto_battle_headline = {
+	tip = "作战委托"
+}
+
+
+_G.pg.base.gametip.auto_battle_headline_en = {
+	tip = "Operational Handover"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_day = {
+	tip = "$1天"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_hour = {
+	tip = "$1时"
+}
+
+
+_G.pg.base.gametip.auto_battle_cnt = {
+	tip = "作战次数"
+}
+
+
+_G.pg.base.gametip.auto_battle_dec_en = {
+	tip = "HANDOVER."
+}
+
+
+_G.pg.base.gametip.auto_battle_time_limit_reached = {
+	tip = "剩余可用时间不足"
+}
+
+
+_G.pg.base.gametip.auto_battle_cnt_book = {
+	tip = "使用委托书"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_max_reached = {
+	tip = "委托书数量不足"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_times_reached = {
+	tip = "已达作战次数限制"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_left = {
+	tip = "委托所需时间"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_time = {
+	tip = "剩余可用时间"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_extra = {
+	tip = "预计额外消耗"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_oil = {
+	tip = "<color=#92fc63><icon name=oil w=0.7 h=0.7/>$1石油</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_book = {
+	tip = "<color=#92fc63><icon name=weituo w=0.7 h=0.7/>$1作战全权委托书</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_add_time = {
+	tip = "兑换可用时间"
+}
+
+
+_G.pg.base.gametip.auto_battle_base_loot = {
+	tip = "委托产出"
+}
+
+
+_G.pg.base.gametip.auto_battle_class_exp_head = {
+	tip = "大讲堂熟练度"
+}
+
+
+_G.pg.base.gametip.auto_battle_extra_loot = {
+	tip = "委托书额外产出"
+}
+
+
+_G.pg.base.gametip.auto_battle_extra_loot_lock = {
+	tip = "使用委托书后可获得额外产出"
+}
+
+
+_G.pg.base.gametip.auto_battle_oil_store_tip = {
+	tip = "已储存退回石油<color=#92fc63><icon name=oil w=0.7 h=0.7/>$1</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_confirm_button = {
+	tip = "开始"
+}
+
+
+_G.pg.base.gametip.auto_battle_times_zero = {
+	tip = "请设置作战次数"
+}
+
+
+_G.pg.base.gametip.auto_battle_start_tips = {
+	tip = "开始作战委托"
+}
+
+
+_G.pg.base.gametip.auto_battle_not_enough_resource = {
+	tip = "资源不足，无法开始"
+}
+
+
+_G.pg.base.gametip.auto_battle_base_exp_warning = {
+	tip = "预期产出的大讲堂熟练度将会溢出，是否继续？"
+}
+
+
+_G.pg.base.gametip.auto_battle_info_tips = {
+	tip = "※作战委托将产出大讲堂熟练度，使用一本作战全权委托书可为一次作战委托追加额外产出\n※单次时间为目标关卡一次未中断且全程自律的连续作战通关的最短时间，舰队跨射不影响计算"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_headline = {
+	tip = "信息"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_headline_en = {
+	tip = "INFORM"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_info = {
+	tip = "剩余可用时间：<color=#ffffff>$1</color>   +   <color=#92fc63>$2</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_item_lack = {
+	tip = "物品数量不足"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_cancel = {
+	tip = "取消"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_confirm = {
+	tip = "确认"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_zero_item = {
+	tip = "请选择消耗物品"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_success = {
+	tip = "成功兑换可用时间"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_headline = {
+	tip = "委托作战中"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_time = {
+	tip = "剩余时间  <color=#92fc63>$1</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_cnt = {
+	tip = "完成次数  <color=#92fc63>$1/$2</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_base_loot = {
+	tip = "单次产出"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_stop = {
+	tip = "终止作战"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_finish = {
+	tip = "领取奖励"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_stop_tips = {
+	tip = "是否终止作战委托？将领取已完成次数的委托奖励，未完成的委托将返还材料，返还的石油将被储存在作战委托中仅供下次委托使用"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_book_expired = {
+	tip = "返还的作战委托书将过期，确定终止作战委托吗？"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_classEXP_overflow = {
+	tip = "大讲堂熟练度因溢出无法全部获取，是否确定领取？"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_bookEXP_overflow = {
+	tip = "将有$1本舰艇演习数据T1因溢出而无法获取，是否确定领取？"
+}
+
+
+_G.pg.base.gametip.auto_battle_stop = {
+	tip = "作战委托已终止。"
+}
+
+
+_G.pg.base.gametip.auto_battle_finish = {
+	tip = "作战委托已完成。"
+}
+
+
+_G.pg.base.gametip.auto_battle_end_exp = {
+	tip = "获得大讲堂熟练度<color=#92fc63>$1</color>点"
+}
+
+
+_G.pg.base.gametip.auto_battle_end_status = {
+	tip = "计划作战<color=#92fc63>$1</color>次，实际完成作战<color=#92fc63>$2</color>次。"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_expire_warning = {
+	tip = "x$1 即将过期"
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation = {
+	tip = "正在进行关卡<color=#92fc63>$1</color>的作战委托，请等待作战委托完成"
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation_cancle = {
+	tip = "取消"
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation_go = {
+	tip = "查看委托"
+}
+
+
+_G.pg.base.gametip.auto_battle_help = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>作战委托</color>说明:
+
+作战委托系统是通过自动委托的方式通关已攻略关卡的系统，对目标关卡执行作战委托后，等待倒计时结束，即可收获委托奖励。作战委托倒计时在玩家离线时<color=#92fc63>不会暂停</color>，将继续保持计时。
+1 作战委托系统仅能委托完成过一次<color=#92fc63>未中断且全程自律的连续作战</color>的关卡。
+2 单次作战委托所需等待时间为目标关卡一次<color=#92fc63>未中断且全程自律的连续作战</color>通关的最短时间（<color=#92fc63>舰队跨射不会影响时间统计</color>，仅记录功能上线后的通关时间）。
+3 每日可获得<color=#92fc63>8小时作战委托可用时间</color>，委托可用时间耗尽后，将无法进行作战委托。每次进行作战委托时，将<color=#92fc63>消耗与等待时间相同</color>的委托可用时间，剩余时间<color=#92fc63>不足1次委托所需时间时，仍可完成最后一次委托</color>。委托可用时间会在<color=#92fc63>每天0时</color>重置。
+4 作战委托<color=#92fc63>期间无法出击主线关卡、活动关卡以及活动档案</color>。
+5 作战委托产出大讲堂熟练度，使用<color=#92fc63>作战全权委托书可以为一次作战委托追加额外产出</color>。
+
+<color=#92fc63>作战全权委托书</color>介绍：
+
+1 作战全权委托书是用于<color=#92fc63>增加作战委托产出</color>的物品，使用后可为<color=#92fc63>一次作战委托</color>追加额外产出。可通过<color=#92fc63>每日任务</color>等途径获取
+2 在使用作战全权委托书追加产出的同时，还需要支付一定数量的<color=#92fc63>石油资源</color>。
+3 作战全权委托书追加的额外产出将<color=#92fc63>基于关卡通关奖励</color>，不同关卡会有不同的通关奖励，包括<color=#92fc63>角色、物资、材料、活动掉落</color>等。
+4 使用作战全权委托书的作战委托会为<color=#92fc63>部分任务增加任务进度</color>。
+5 使用作战全权委托书的作战委托将有概率出现<color=#92fc63>紧急委托</color>，一次作战委托最多出现一个。
+6 作战全权委托书还可在“兑换可用时间”界面中用于<color=#92fc63>增加当日的作战委托可用时间</color>，每本作战全权委托书可增加<color=#92fc63>1小时</color>的委托可用时间。]]
+		}
+	}
 }

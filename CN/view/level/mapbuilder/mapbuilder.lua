@@ -156,7 +156,26 @@ slot0.TryOpenChapterInfo = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	if getProxy(ChapterProxy):getChapterById(slot1, true).active then
+	slot4 = getProxy(ChapterProxy):getChapterById(slot1, true)
+
+	if getProxy(ChapterProxy):GetAutoChapterId() then
+		if slot5 == slot4.id then
+			slot0.sceneParent:ShowChapterAutoDetailPanel(slot4)
+		else
+			slot0.sceneParent:HandleShowMsgBox({
+				content = i18n("auto_drop_is_activation", getProxy(ChapterProxy):getChapterById(slot5):getConfig("name")),
+				onYes = function ()
+					uv0.sceneParent:ShowChapterAutoDetailPanel(uv1)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end
+
+		return
+	end
+
+	if slot4.active then
 		slot0.sceneParent:switchToChapter(slot4)
 
 		return
@@ -164,9 +183,9 @@ slot0.TryOpenChapterInfo = function(slot0, slot1, slot2, slot3)
 
 	if not slot4:isUnlock() then
 		if #slot4:GetPrevChapterNames() == 1 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre", slot5[1]))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre", slot6[1]))
 		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre_2", slot5[1], slot5[2]))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre_2", slot6[1], slot6[2]))
 		end
 
 		return
@@ -179,12 +198,12 @@ slot0.TryOpenChapterInfo = function(slot0, slot1, slot2, slot3)
 	end
 
 	if getProxy(PlayerProxy):getRawData().level < slot4:getConfig("unlocklevel") then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_level_limit", slot6))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_level_limit", slot7))
 
 		return
 	end
 
-	if getProxy(ChapterProxy):getActiveChapter(true) and slot8.id ~= slot1 then
+	if getProxy(ChapterProxy):getActiveChapter(true) and slot9.id ~= slot1 then
 		slot0:emit(LevelMediator2.ON_STRATEGYING_CHAPTER)
 
 		return
