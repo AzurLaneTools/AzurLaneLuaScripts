@@ -275,6 +275,7 @@ pg.memory_group.all = {
 	373,
 	374,
 	375,
+	376,
 	501,
 	502,
 	503,
@@ -7346,6 +7347,24 @@ end)()
 			5402
 		}
 	}
+	pg.base.memory_group[376] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51123,
+		title = "The Big Shot's Proclamation",
+		auto_unlock = "",
+		subtype = 2,
+		id = 376,
+		group_id = "",
+		memories = {
+			5411,
+			5412,
+			5413,
+			5414,
+			5415
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7973,6 +7992,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[530] = {
 		ship_group = 10218,
 		icon = "title_chara_kangkede",
@@ -7995,8 +8016,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[531] = {
 		ship_group = 30606,
 		icon = "title_chara_longxiang",
@@ -10267,6 +10286,8 @@ end)()
 			20136
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[1005] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -10292,8 +10313,6 @@ end)()
 			20149
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[1006] = {
 		ship_group = 0,
 		icon = "title_event",

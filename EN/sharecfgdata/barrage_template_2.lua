@@ -1898,6 +1898,26 @@ _G.pg.base.barrage_template_2[82414] = {
 }
 
 
+_G.pg.base.barrage_template_2[82427] = {
+	offset_prioritise = false,
+	delta_offset_x = 0,
+	offset_x = 0,
+	delta_delay = 0,
+	delay = 0,
+	delta_offset_z = 1,
+	delta_angle = 6,
+	primal_repeat = 3,
+	offset_z = -1.5,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 82427,
+	senior_delay = 0,
+	angle = -9,
+	trans_ID = -1
+}
+
+
 _G.pg.base.barrage_template_2[170585] = {
 	offset_prioritise = false,
 	delta_offset_x = 0,
@@ -2334,6 +2354,106 @@ _G.pg.base.barrage_template_2[171022] = {
 	id = 171022,
 	senior_delay = 0.3,
 	angle = 8,
+	trans_ID = -1
+}
+
+
+_G.pg.base.barrage_template_2[171023] = {
+	offset_prioritise = false,
+	delta_offset_x = -1,
+	offset_x = 2,
+	delta_delay = 0,
+	delay = 0,
+	delta_offset_z = 2,
+	delta_angle = 0,
+	primal_repeat = 1,
+	offset_z = -11,
+	first_delay = 0.2,
+	random_angle = false,
+	senior_repeat = 6,
+	id = 171023,
+	senior_delay = 0.25,
+	angle = 18,
+	trans_ID = -1
+}
+
+
+_G.pg.base.barrage_template_2[171024] = {
+	offset_prioritise = false,
+	delta_offset_x = 0,
+	offset_x = 0,
+	delta_delay = 0,
+	delay = 0,
+	delta_offset_z = 2,
+	delta_angle = 0,
+	primal_repeat = 1,
+	offset_z = -1,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 6,
+	id = 171024,
+	senior_delay = 0.25,
+	angle = 0,
+	trans_ID = -1
+}
+
+
+_G.pg.base.barrage_template_2[171025] = {
+	offset_prioritise = false,
+	delta_offset_x = -1,
+	offset_x = 2,
+	delta_delay = 0,
+	delay = 0,
+	delta_offset_z = -2,
+	delta_angle = 0,
+	primal_repeat = 1,
+	offset_z = 11,
+	first_delay = 0.2,
+	random_angle = false,
+	senior_repeat = 6,
+	id = 171025,
+	senior_delay = 0.25,
+	angle = -18,
+	trans_ID = -1
+}
+
+
+_G.pg.base.barrage_template_2[171026] = {
+	offset_prioritise = false,
+	delta_offset_x = 0,
+	offset_x = 0,
+	delta_delay = 0,
+	delay = 0,
+	delta_offset_z = 1,
+	delta_angle = 16,
+	primal_repeat = 3,
+	offset_z = -1.5,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 171026,
+	senior_delay = 0,
+	angle = -24,
+	trans_ID = -1
+}
+
+
+_G.pg.base.barrage_template_2[171027] = {
+	offset_prioritise = false,
+	delta_offset_x = 0,
+	offset_x = 0,
+	delta_delay = 0,
+	delay = 0,
+	delta_offset_z = 1,
+	delta_angle = 6,
+	primal_repeat = 3,
+	offset_z = -1.5,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 1,
+	id = 171027,
+	senior_delay = 0.3,
+	angle = -18,
 	trans_ID = -1
 }
 

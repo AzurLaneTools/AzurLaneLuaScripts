@@ -8337,6 +8337,37 @@ _G.pg.base.item_data_statistics[11057] = {
 }
 
 
+_G.pg.base.item_data_statistics[11058] = {
+	open_directly = 0,
+	name = "610mm Quadruple Torpedo Mount Kai T0 Design",
+	type = 9,
+	display = "610mm Quadruple Torpedo Mount Kai T0 Design",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/35260",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[13000] = {
 	open_directly = 0,
 	name = "T0 Twin 381mm Main Gun - Variant Design",

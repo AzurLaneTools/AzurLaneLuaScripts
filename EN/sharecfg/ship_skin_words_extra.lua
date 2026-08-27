@@ -438,6 +438,7 @@ pg.ship_skin_words_extra.all = {
 	899050,
 	11700010,
 	11700020,
+	301190,
 	107200,
 	102360,
 	101560,
@@ -30656,6 +30657,99 @@ end)()
 			{
 				1100,
 				"The war against machine lifeforms seems endless... but will your fight against the Sirens end? Until peace has been restored, I will be your blade."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[301190] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 301190,
+		skill = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		detail = "",
+		unlock = {
+			{
+				1100,
+				"Took you long enough... Do you have any idea how long I've been waiting? Hurry up and get over here already! You're going to spend the whole day with me today, and that's an order!"
+			}
+		},
+		login = {
+			{
+				1100,
+				"Heheh, I can already tell without even having to do anything – Commander, your eyes have been on me since the very beginning, isn't that right?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Heheh, I can already tell without even having to do anything – Commander, your eyes have been on me since the very beginning, isn't that right?"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"Hrmm... Okay, I want this one! Here you go, Commander! Your reward, hand-picked by the great Amatsukaze! Make sure to take good care of it~"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Hrmm... Okay, I want this one! Here you go, Commander! Your reward, hand-picked by the great Amatsukaze! Make sure to take good care of it~"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"*poke* *poke*... Hm? Nah, it's nothing. Just wanted to try poking you with my horn~"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"*poke* *poke*... Hm? Nah, it's nothing. Just wanted to try poking you with my horn~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I've already handled the paperwork. Anything that isn't urgent can wait until tomorrow, so the rest of your day is mine! Don't even try telling me that you still have stuff to do – you promised to keep me company!|This candy's real tasty. Want some? ...So, what do you think? Hehe, knew you'd love it. Don't worry – if I ever come across anything tasty, I'll make sure to save some for you! You'd better be grateful!|Looking for the cup that was over there? I took it, so it's mine now. What's yours is mine anyway, so it doesn't really matter, right? Here, you can use mine! C'mon, hurry up and use it already!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Why are you scooting closer all of a sudden? ...If you want me to pamper you, just say so. Here, I can hold your hand for a while if you'd like~"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"...Hyeep?! Urgh, sneaking up on me again?! Mark my words, I'll get you next time, so you'd better watch your back!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"...Hyeep?! Urgh, sneaking up on me again?! Mark my words, I'll get you next time, so you'd better watch your back!"
+			}
+		},
+		feeling4 = {
+			{
+				1100,
+				"I don't care about high places or shiny treasures anymore! All I need is you! So, you'd better stay by my side forever! If I turn around and don't see you near me, I swear I'll find you and give you a good lesson! Got it? This is Amatsukaze's order!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I don't care about high places or shiny treasures anymore! All I need is you! So, you'd better stay by my side forever! If I turn around and don't see you near me, I swear I'll find you and give you a good lesson! Got it? This is Amatsukaze's order!"
 			}
 		}
 	}

@@ -1116,6 +1116,7 @@ pg.activity_template.all = {
 	50493,
 	50500,
 	50521,
+	50522,
 	50801,
 	50803,
 	50804,
@@ -1257,6 +1258,12 @@ pg.activity_template.all = {
 	51115,
 	51116,
 	51117,
+	51121,
+	51122,
+	51123,
+	51124,
+	51125,
+	51160,
 	7001,
 	7011,
 	7012,
@@ -1288,6 +1295,7 @@ pg.activity_template.all = {
 	7112,
 	7114,
 	7116,
+	7117,
 	7301,
 	7501,
 	7502,
@@ -2698,6 +2706,8 @@ pg.activity_template.get_id_list_by_type = {
 		51112,
 		51113,
 		51116,
+		51121,
+		51125,
 		1103,
 		1104,
 		1105,
@@ -3296,6 +3306,7 @@ pg.activity_template.get_id_list_by_type = {
 		5766,
 		50217,
 		50402,
+		51122,
 		30063,
 		30064,
 		30073,
@@ -3602,6 +3613,7 @@ pg.activity_template.get_id_list_by_type = {
 		5183,
 		5776,
 		50411,
+		51160,
 		30223,
 		30312,
 		30438
@@ -3631,6 +3643,7 @@ pg.activity_template.get_id_list_by_type = {
 		5178,
 		5772,
 		50408,
+		51123,
 		30222,
 		30311,
 		30437
@@ -3998,6 +4011,7 @@ pg.activity_template.get_id_list_by_type = {
 		51031,
 		51073,
 		51109,
+		51124,
 		1110,
 		6006,
 		6010,
@@ -4183,6 +4197,7 @@ pg.activity_template.get_id_list_by_type = {
 		50013,
 		50351,
 		50521,
+		50522,
 		51071
 	},
 	[94] = {
@@ -4206,7 +4221,8 @@ pg.activity_template.get_id_list_by_type = {
 		7109,
 		7112,
 		7114,
-		7116
+		7116,
+		7117
 	},
 	[102] = {
 		4887
@@ -52445,6 +52461,7 @@ end)()
 	pg.base.activity_template[50408] = {
 		mark = 20260212,
 		page_info = "",
+		time = "stop",
 		type = 52,
 		login_pop = 0,
 		config_id = 14,
@@ -52453,33 +52470,6 @@ end)()
 		id = 50408,
 		page_core = "ActivityBossZhangwuUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					2,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					3,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			scene = "ActivityBossZhangwuScene",
 			entrance_bg = "activitybanner/temp10",
@@ -55608,6 +55598,27 @@ end)()
 		},
 		config_client = {
 			scene = "BossRushKurskReScene"
+		}
+	}
+	pg.base.activity_template[50522] = {
+		mark = 20260827,
+		page_info = "",
+		time = "stop",
+		type = 93,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 50522,
+		page_core = "",
+		config_data = {
+			1002001,
+			1002002,
+			1002003
+		},
+		config_client = {
+			scene = "BossRushAlvitReScene",
+			mediator = "BossRushAlvitMediator"
 		}
 	}
 	pg.base.activity_template[50801] = {
@@ -60322,6 +60333,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[51007] = {
 		mark = 20260528,
 		page_info = "",
@@ -60364,8 +60377,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[51031] = {
 		mark = 20260618,
 		type = 74,
@@ -62761,6 +62772,7 @@ end)()
 	pg.base.activity_template[51114] = {
 		mark = 20260813,
 		page_info = "",
+		time = "always",
 		type = 113,
 		login_pop = 0,
 		config_id = 0,
@@ -62769,34 +62781,7 @@ end)()
 		title_res_tag = "",
 		id = 51114,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	}
 	pg.base.activity_template[51115] = {
 		mark = 20260813,
@@ -62955,6 +62940,292 @@ end)()
 						},
 						"Merit Shop"
 					}
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51121] = {
+		mark = 20260827,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51121,
+		page_core = "",
+		config_data = {
+			27411,
+			27412,
+			27413,
+			27414,
+			27415,
+			27416
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51122] = {
+		mark = 20260827,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_51122",
+		title_res_tag = "",
+		id = 51122,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "Rate UP for Amatsukaze!",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 26%",
+				"Common: 55%",
+				"<color=#ffde38>Amatsukaze</color>: 2.0% <color=#92FC63>(up!)</color>"
+			}
+		}
+	}
+	pg.base.activity_template[51123] = {
+		mark = 20260827,
+		page_info = "",
+		type = 52,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51123,
+		page_core = "ActivityBossAmatsukazeUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			scene = "ActivityBossAmatsukazeScene",
+			entrance_bg = "activitybanner/temp10",
+			buff_scene = "ActivityBossAmatsukazeBuffSelectLayer",
+			story = {
+				{
+					10000,
+					"DARENWUDEYUGAOXIN1"
+				},
+				{
+					7500,
+					"DARENWUDEYUGAOXIN2"
+				},
+				{
+					5000,
+					"DARENWUDEYUGAOXIN3"
+				},
+				{
+					2500,
+					"DARENWUDEYUGAOXIN4"
+				},
+				{
+					0,
+					"DARENWUDEYUGAOXIN5"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51124] = {
+		mark = 20260827,
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 51124,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51124,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51125] = {
+		mark = 20260827,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51125,
+		page_core = "",
+		config_data = {
+			27417
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51160] = {
+		mark = 20260827,
+		page_info = "",
+		type = 46,
+		login_pop = 0,
+		config_id = 2026,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 51160,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					16
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -64720,6 +64991,52 @@ end)()
 			ui_name = "SurveyPage"
 		}
 	}
+	pg.base.activity_template[7117] = {
+		mark = 20260827,
+		type = 101,
+		login_pop = 0,
+		config_id = 1016,
+		is_show = 35,
+		config_client = "",
+		title_res_tag = "survey",
+		id = 7117,
+		page_core = "",
+		config_data = {
+			1,
+			30
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					8,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SurveyPage",
+			ui_name = "SurveyPage"
+		}
+	}
 	pg.base.activity_template[7301] = {
 		mark = 20251113,
 		type = 130,
@@ -65210,6 +65527,8 @@ end)()
 			ui_name = "NewServerLoginPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[8010] = {
 		mark = 20220414,
 		page_info = "",
@@ -65669,8 +65988,6 @@ end)()
 			ui_name = "NewServerLoginPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[8090] = {
 		mark = 20241121,
 		page_info = "",
@@ -70183,6 +70500,8 @@ end)()
 			1150013
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30021] = {
 		mark = 20181025,
 		page_info = "",
@@ -70414,8 +70733,6 @@ end)()
 		id = 30030,
 		page_core = ""
 	}
-end)()
-(function ()
 	pg.base.activity_template[30031] = {
 		mark = 20181115,
 		page_info = "",
@@ -73259,6 +73576,8 @@ end)()
 			pt_id = 123
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30124] = {
 		mark = 20190426,
 		page_info = "",
@@ -73498,8 +73817,6 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30133] = {
 		mark = 20190520,
 		page_info = "",
@@ -76086,6 +76403,8 @@ end)()
 			15024
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30227] = {
 		mark = 20190926,
 		page_info = "",
@@ -76255,8 +76574,6 @@ end)()
 			7
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30236] = {
 		mark = 20191010,
 		page_info = "",
@@ -78841,6 +79158,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30332] = {
 		mark = 20200213,
 		page_info = "",
@@ -79099,8 +79418,6 @@ end)()
 			15367
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30340] = {
 		mark = 20200227,
 		time = "stop",
@@ -81405,6 +81722,8 @@ end)()
 		id = 30431,
 		page_core = ""
 	}
+end)()
+(function ()
 	pg.base.activity_template[30432] = {
 		mark = 20200611,
 		page_info = "",
@@ -81591,8 +81910,6 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30440] = {
 		mark = 20200624,
 		page_info = "",
@@ -84082,6 +84399,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30532] = {
 		mark = 20190926,
 		page_info = "",
@@ -84218,8 +84537,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30540] = {
 		mark = 20200312,
 		page_info = "",
@@ -88254,6 +88571,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30860] = {
 		mark = 20230316,
 		page_info = "",
@@ -89020,8 +89339,6 @@ end)()
 			ui_name = "NewServerLoginPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30868] = {
 		mark = 20230406,
 		page_info = "",

@@ -162,6 +162,11 @@ slot0.getProgress = function(slot0)
 		end,
 		[TASK_SUB_TYPE_REPEATABLE] = function ()
 			return uv0.progress >= 1 and 1 or 0
+		end,
+		[TASK_SUB_TYPE_COMPLETE_ALL_DAILY_TASKS] = function ()
+			return underscore.any(getProxy(TaskProxy):getTasks(), function (slot0)
+				return slot0:IsRoutineType() and slot0:getConfig("sub_type") ~= TASK_SUB_TYPE_COMPLETE_ALL_DAILY_TASKS
+			end) and 0 or 1
 		end
 	}, function ()
 		return uv0.progress

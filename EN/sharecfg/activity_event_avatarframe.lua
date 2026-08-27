@@ -4199,7 +4199,7 @@ pg.base.activity_event_avatarframe = {}
 		}
 	}
 	pg.base.activity_event_avatarframe[40] = {
-		link_event = 51101,
+		link_event = 51086,
 		icon_frame = 342,
 		target = 2600,
 		id = 40,

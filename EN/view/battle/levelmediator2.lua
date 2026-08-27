@@ -707,6 +707,7 @@ end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
+		GAME.ZERO_HOUR_OP_DONE,
 		ChapterProxy.CHAPTER_UPDATED,
 		ChapterProxy.CHAPTER_TIMESUP,
 		PlayerProxy.UPDATED,
@@ -742,14 +743,20 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.CHAPTER_REMASTER_INFO_REQUEST_DONE,
 		GAME.CHAPTER_REMASTER_AWARD_RECEIVE_DONE,
 		GAME.STORY_UPDATE_DONE,
-		GAME.STORY_END
+		GAME.STORY_END,
+		GAME.START_CHAPTER_AUTO_DONE,
+		GAME.END_CHAPTER_AUTO_DONE,
+		GAME.ADD_CHAPTER_AUTO_TIME_DONE,
+		ChapterAutoProxy.FINISH_UPDATE
 	}
 end
 
 slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
+	if slot1:getName() == GAME.ZERO_HOUR_OP_DONE then
+		slot0.viewComponent:onZeroHourRefresh()
+	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == VoteProxy.VOTE_ORDER_BOOK_DELETE or VoteProxy.VOTE_ORDER_BOOK_UPDATE == slot2 then
 		slot0.viewComponent:updateVoteBookBtn()
@@ -1249,8 +1256,6 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
 		elseif slot2 == GAME.STORY_UPDATE_DONE then
 			slot0.cachedStoryAwards = slot3
-
-			slot0.viewComponent.mapBuilder:UpdateView()
 		elseif slot2 == GAME.STORY_END then
 			if slot0.cachedStoryAwards then
 				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0.cachedStoryAwards.awards)
@@ -1267,6 +1272,36 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.waitingTracking = nil
 		elseif slot2 == uv0.ON_SPITEM_CHANGED then
 			slot0.viewComponent:emit(uv0.ON_SPITEM_CHANGED, slot3)
+		elseif slot2 == GAME.START_CHAPTER_AUTO_DONE then
+			slot0.viewComponent:OnStartChapterAuto(slot3)
+			slot0.viewComponent.mapBuilder:UpdateChapterTF(slot3.id)
+
+			if slot3.isRemaster then
+				slot0.viewComponent:updateRemasterTicket()
+			end
+		elseif slot2 == GAME.END_CHAPTER_AUTO_DONE then
+			slot0.viewComponent:OnEndChapterAuto(slot3)
+			slot0.viewComponent:HideChapterAutoDetailPanel(slot3)
+			slot0.viewComponent.mapBuilder:UpdateChapterTF(slot3.id)
+
+			if slot3.isRemaster then
+				slot0.viewComponent:updateRemasterTicket()
+			end
+
+			slot0:addSubLayers(Context.New({
+				viewComponent = ChapterAutoTotalRewardLayer,
+				mediator = ChapterAutoTotalRewardMediator,
+				data = {
+					rewards = slot3.awards,
+					totalTimes = slot3.allCnt,
+					finishTimes = slot3.finishCnt,
+					proficiency = slot3.proficiency
+				}
+			}), true)
+		elseif slot2 == GAME.ADD_CHAPTER_AUTO_TIME_DONE then
+			slot0.viewComponent:OnAddChapterAutoTimeDone(slot3)
+		elseif slot2 == ChapterAutoProxy.FINISH_UPDATE then
+			slot0.viewComponent.mapBuilder:UpdateMapItems()
 		end
 	end
 end

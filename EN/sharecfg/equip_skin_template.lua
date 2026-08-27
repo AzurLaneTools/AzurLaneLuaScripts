@@ -1622,7 +1622,8 @@ pg.equip_skin_template.all = {
 	3081,
 	3082,
 	3083,
-	3084
+	3084,
+	3085
 }
 pg.base = pg.base or {}
 pg.base.equip_skin_template = {}
@@ -69103,6 +69104,66 @@ end)()
 			24000,
 			24000,
 			24000
+		}
+	}
+	pg.base.equip_skin_template[3085] = {
+		orbit_slg = "",
+		name = "Golden Wind",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99205",
+		orbit_rotate = false,
+		orbit_combat = "shebei_fuhuazhifeng",
+		ship_config_id = 100011,
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 199,
+		bullet_name = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 3085,
+		hit_sfx = "",
+		desc = "Beautiful AND flamboyant!",
+		derivate_boom = "",
+		orbit_ui = "shebei_fuhuazhifengui",
+		mirror = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.11,
+				-2.57,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-1.4,
+				-6.7
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
 		}
 	}
 end)()

@@ -37103,6 +37103,126 @@ _G.pg.base.ship_skin_words[301189] = {
 }
 
 
+_G.pg.base.ship_skin_words[301190] = {
+	hp_warning = "Ughhh! I'm not letting a SINGLE one of you off the hook!",
+	feeling3 = "Hey. Why's your itinerary so packed tomorrow? Delete all the unimportant stuff and put in some Amatsukaze time between your work blocks. Hmph! No matter how you look at it, I'm clearly more important!",
+	mail = "New mail's in! If you see anything interesting, I'm counting on you to read it to me word for word!",
+	expedition = "Looks like the commission team is back. Hurry up and check on them already! If you find anything rare and shiny, bring it to me first – I need to appraise it myself!",
+	win_mvp = "I alone decide how this battle ends!",
+	home = "You're back, huh? Come over here first and let me take a good look at you... Hmph, not bad. I suppose you're not a complete mess. Alright, here's some strawberry cake. It's a gift from yours truly, so open wide already!",
+	unlock = "You may call me Amatsukaze. Long have I awaited this meeting written in the stars eons ago! In other words... How dare you keep me waiting all this time, Commander! As punishment, you shall never be allowed to stray from my side again!",
+	touch2 = "Eep?! Wh-where do you think you're touching all of a sudden?! I wasn't done aura farming yet... Jeez! STOP LAUGHING!",
+	mission = "Hurry up and finish your work already! How are you going to have time to hang out with me otherwise?!",
+	vote = "",
+	drop_descrip = "Kagerou-class destroyer – Amatsukaze.",
+	feeling4 = "Hey. Were you ogling the other girls today? Ugh, even though I'm supposed to be the only one you stare at... Alright, you're not going anywhere. Go and sit down right there – from now on, you're only allowed to look at me and me alone!",
+	lose = "I... was defeated? How could that be?! I'll get my payback one of these days, I swear it!",
+	feeling1 = "You there. You've been getting cockier and cockier lately, haven't you? To think that you'd even ignore my orders! At this rate, I... I... Hmph!",
+	skill = "Shut up and disappear already!",
+	upgrade = "Heheh, I can do much, much better than this, you know? I'm just holding myself back to match your pace~",
+	propose = "Woah, what a sparkly ring... Ahem! Well, I suppose you DO know that anything less would not be worthy of me. Since you're willing to go to such great lengths for me... Urgh! What are you laughing at! H-hurry up and put it on me already! Don't dawdle!",
+	feeling5 = "If you're ever tired, annoyed, or just feeling down, I want you to come to me first. I'll pamper you and stay with you as long as you need – this is a unique privilege that I, Amatsukaze, grant to you and you alone, and you're not allowed to refuse or complain! Got it?",
+	main = "Why am I standing on the chair? Do you really have to ask? It's because visibility is always better from up high! And more importantly... you'll be able to see me as soon as you lift your head!|That pen you're using right now... it's my property now, you hear? That's an order! It's none of your business whether I use it or not – the important thing is that what's yours is mine!|Stop being so professional around me already; come here and have a nice chat with me. If you don't know what to talk about, then I'll decide the topic for us.",
+	touch = "Hm? You've only just realized that you've been excessively cold to me and are now trying to make amends? Well, looks like you aren't so hopeless after all~",
+	voice_key_2 = -1,
+	mission_complete = "Your rewards are in. Hmm, looks like you've got some interesting stuff there. Got anything for me?",
+	battle = "With me, everyone! We shall seize the day!",
+	id = 301190,
+	gift_dislike = "",
+	gift_prefer = "So you do understand what kind of stuff I like! Well then, I appreciate it a bunch!",
+	profile = "You may call me Amatsukaze! Don't mistake me for some wallflower just because I'm short, got it?! The most prominent spot by your side, the place where all your attention will be focused, shall naturally be mine and mine alone! Got it? Nod if you understand!",
+	voice_key = 30119,
+	headtouch = "If you're going to start patting me, you'd better not stop halfway through or I'm going to be upset, you know?",
+	feeling2 = "Now that you're MY commander, you'd better prioritize my needs in everything you do, and take careful note of all my arrangements! Got it?",
+	login = "How dare you act all brooding and lackadaisical in front of me! ...Alright, don't just stand there spacing out – come sit down next to me! I'll make you pay for neglecting me!",
+	detail = "I picked all these exquisite ornaments and sparkly decorations myself! So, what do you think? My fashion sense is impeccable, right? Yes, feel free to heap on the praise~ If you make me happy, I might even give you one.",
+	couple_encourage = {
+		{
+			{
+				30129
+			},
+			1,
+			" W-wait up! I'm going to punish you if you leave me behind!",
+			0
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_words[301191] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "A new letter... I'll have to keep a closer eye on whoever has been harassing you...",
+	expedition = "",
+	win_mvp = "",
+	home = "Took you long enough to come back. Did you bring back any interesting offerings? If not... then I suppose I will have to take your time instead~",
+	unlock = "...Apparently, if you do this, you can summon the Kokkuri who will answer any of your... ques...tions... Urkh! Nghhh... Who dares awaken me without permission... Was it you, mortal?",
+	touch2 = "Mmgh?! ...H-h-heh, you have some nerve! ...I'll have you \"take responsibility\" until the very end!",
+	mission = "Do get rid of these annoying chores of yours as quickly as possible. We wouldn't want anything to get in the way of our budding relationship~",
+	vote = "",
+	drop_descrip = "...Apparently, if you do this, you can summon the Kokkuri who will answer any of your... ques...tions... Urkh! Nghhh... Who dares awaken me without permission... Was it you, mortal?",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "The summoning is about to end? Heheh... I've already tied your fate to mine with this red thread. Even if you flee to the ends of the ocean, I can always bring you back to my side with it... So, all there is for you to do is to keep your eyes on me, forever. Understand?",
+	main = "Commander, don't you think the vibes around here are starting to feel kind of off? ...H-huh? Why are you just staring right through me like that in silence? D-don't tell me...|Hmm... Can this coin alone really summon the all-knowing Kokkuri? Seems far-fetched to me, no matter how you look at it...|Fret not, the young lass is fine... On the other hand, the concern you are showing towards \"me\" is... quite delectable indeed... Heheh, I shall accept this \"offering\"~|Your treasure, your power, your true self... I wish to have it all. That is \"my\" desire.",
+	touch = "Heheh~ The fact that you can touch me is proof that the Kokkuri is real after all~",
+	voice_key_2 = -1,
+	mission_complete = "Hm? Is this an offering for me? Why thank you very much~",
+	battle = "",
+	id = 301191,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "My my, Commander. You're partial to fluffy things? Hmm... Though these are mere props, feel free to enjoy yourself.",
+	feeling2 = "",
+	login = "Although waiting around isn't part of my job, I must admit... I find myself looking forward to meeting with you. Since you've come all this way, sit next to me and let me take a nice look at you~",
+	detail = "With such elaborate staging, a realistic setting, and these positively phantasmagoric vibes, you really ought to savor this experience fully! Now, stop standing around and take a seat... Kokkuri is about to descend!",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[301192] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "A new letter... I'll have to keep a closer eye on whoever has been harassing you...",
+	expedition = "",
+	win_mvp = "",
+	home = "Took you long enough to come back. Did you bring back any interesting offerings? If not... then I suppose I will have to take your time instead~",
+	unlock = "...Apparently, if you do this, you can summon the Kokkuri who will answer any of your... ques...tions... Urkh! Nghhh... Who dares awaken me without permission... Was it you, mortal?",
+	touch2 = "Mmgh?! ...H-h-heh, you have some nerve! ...I'll have you \"take responsibility\" until the very end!",
+	mission = "Do get rid of these annoying chores of yours as quickly as possible. We wouldn't want anything to get in the way of our budding relationship~",
+	vote = "",
+	drop_descrip = "...Apparently, if you do this, you can summon the Kokkuri who will answer any of your... ques...tions... Urkh! Nghhh... Who dares awaken me without permission... Was it you, mortal?",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "The summoning is about to end? Heheh... I've already tied your fate to mine with this red thread. Even if you flee to the ends of the ocean, I can always bring you back to my side with it... So, all there is for you to do is to keep your eyes on me, forever. Understand?",
+	main = "Commander, don't you think the vibes around here are starting to feel kind of off? ...H-huh? Why are you just staring right through me like that in silence? D-don't tell me...|Hmm... Can this coin alone really summon the all-knowing Kokkuri? Seems far-fetched to me, no matter how you look at it...|Fret not, the young lass is fine... On the other hand, the concern you are showing towards \"me\" is... quite delectable indeed... Heheh, I shall accept this \"offering\"~|Your treasure, your power, your true self... I wish to have it all. That is \"my\" desire.",
+	touch = "Heheh~ The fact that you can touch me is proof that the Kokkuri is real after all~",
+	voice_key_2 = -1,
+	mission_complete = "Hm? Is this an offering for me? Why thank you very much~",
+	battle = "",
+	id = 301192,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "My my, Commander. You're partial to fluffy things? Hmm... Though these are mere props, feel free to enjoy yourself.",
+	feeling2 = "",
+	login = "Although waiting around isn't part of my job, I must admit... I find myself looking forward to meeting with you. Since you've come all this way, sit next to me and let me take a nice look at you~",
+	detail = "With such elaborate staging, a realistic setting, and these positively phantasmagoric vibes, you really ought to savor this experience fully! Now, stop standing around and take a seat... Kokkuri is about to descend!",
+	couple_encourage = {}
+}
+
+
 _G.pg.base.ship_skin_words[301200] = {
 	hp_warning = "W-what's going on?!",
 	feeling3 = "{namecode:130}... I promise I'll help you this time...!",

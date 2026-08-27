@@ -49,7 +49,8 @@ pg.dorm3d_shop_template.all = {
 	43,
 	44,
 	45,
-	46
+	46,
+	47
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_shop_template = {}
@@ -609,7 +610,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 323,
 		id = 26,
 		realroom_id = 0,
-		order = "9",
+		order = "10",
 		panel = {
 			1,
 			2,
@@ -632,7 +633,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1221,
 		id = 27,
 		realroom_id = 0,
-		order = "9",
+		order = "10",
 		panel = {
 			1,
 			2,
@@ -655,7 +656,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 3070701,
 		id = 28,
 		realroom_id = 0,
-		order = "9",
+		order = "10",
 		panel = {
 			2,
 			3,
@@ -677,7 +678,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 16,
 		id = 29,
 		realroom_id = 0,
-		order = "8",
+		order = "10",
 		panel = {
 			2
 		},
@@ -697,7 +698,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1153,
 		id = 30,
 		realroom_id = 0,
-		order = "8",
+		order = "10",
 		panel = {
 			1,
 			2,
@@ -720,7 +721,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1222,
 		id = 31,
 		realroom_id = 0,
-		order = "8",
+		order = "10",
 		panel = {
 			1,
 			2,
@@ -743,7 +744,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 2022003,
 		id = 32,
 		realroom_id = 0,
-		order = "8",
+		order = "10",
 		panel = {
 			2,
 			3,
@@ -765,7 +766,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1461,
 		id = 33,
 		realroom_id = 0,
-		order = "7",
+		order = "9",
 		panel = {
 			1,
 			2,
@@ -788,7 +789,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 4990501,
 		id = 34,
 		realroom_id = 0,
-		order = "7",
+		order = "9",
 		panel = {
 			2,
 			3,
@@ -810,7 +811,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 16,
 		id = 35,
 		realroom_id = 0,
-		order = "7",
+		order = "2",
 		panel = {
 			2
 		},
@@ -830,7 +831,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 16,
 		id = 36,
 		realroom_id = 0,
-		order = "6",
+		order = "9",
 		panel = {
 			2
 		},
@@ -850,7 +851,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1154,
 		id = 37,
 		realroom_id = 0,
-		order = "6",
+		order = "9",
 		panel = {
 			1,
 			2,
@@ -873,7 +874,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1223,
 		id = 38,
 		realroom_id = 0,
-		order = "6",
+		order = "8",
 		panel = {
 			1,
 			2,
@@ -896,7 +897,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 324,
 		id = 39,
 		realroom_id = 0,
-		order = "6",
+		order = "8",
 		panel = {
 			1,
 			2,
@@ -919,7 +920,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1462,
 		id = 40,
 		realroom_id = 0,
-		order = "6",
+		order = "8",
 		panel = {
 			1,
 			2,
@@ -942,7 +943,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1051702,
 		id = 41,
 		realroom_id = 0,
-		order = "6",
+		order = "8",
 		panel = {
 			2,
 			3,
@@ -964,7 +965,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 3070702,
 		id = 42,
 		realroom_id = 0,
-		order = "6",
+		order = "7",
 		panel = {
 			2,
 			3,
@@ -986,7 +987,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 2161,
 		id = 43,
 		realroom_id = 0,
-		order = "3",
+		order = "7",
 		panel = {
 			1,
 			2,
@@ -1009,7 +1010,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 7990201,
 		id = 44,
 		realroom_id = 0,
-		order = "3",
+		order = "7",
 		panel = {
 			2,
 			3,
@@ -1031,7 +1032,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 26,
 		id = 45,
 		realroom_id = 0,
-		order = "3",
+		order = "6",
 		panel = {
 			2
 		},
@@ -1051,7 +1052,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 1463,
 		id = 46,
 		realroom_id = 0,
-		order = "3",
+		order = "6",
 		panel = {
 			1,
 			2,
@@ -1063,6 +1064,29 @@ pg.base.dorm3d_shop_template = {}
 		},
 		banners = {
 			"banner_furniture1463"
+		}
+	}
+	pg.base.dorm3d_shop_template[47] = {
+		rarity = 5,
+		name = "Melting Affections",
+		type = 1,
+		room_id = 49905,
+		unlock = "",
+		item_id = 1468,
+		id = 47,
+		realroom_id = 0,
+		order = "2",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270604
+		},
+		banners = {
+			"banner_furniture1468"
 		}
 	}
 end)()

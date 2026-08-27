@@ -67,7 +67,9 @@ slot0.GetNotifyDic = function(slot0)
 			PlayerProxy.UPDATED,
 			GAME.EVENT_LIST_UPDATE,
 			GAME.EVENT_FINISH_UPDATE,
-			GAME.CANCEL_LEARN_TACTICS_DONE
+			GAME.CANCEL_LEARN_TACTICS_DONE,
+			ChapterAutoProxy.FINISH_UPDATE,
+			ChapterAutoProxy.END_CHAPTER_AUTO_DONE
 		},
 		SERVER = {
 			ServerNoticeProxy.SERVER_NOTICES_UPDATE

@@ -32,9 +32,7 @@ pg.activity_banner.get_id_list_by_type = {
 		5,
 		6,
 		7,
-		8
-	},
-	[3] = {
+		8,
 		9
 	},
 	[9] = {
@@ -75,7 +73,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -86,8 +84,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					26
+					9,
+					7
 				},
 				{
 					23,
@@ -113,7 +111,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -124,8 +122,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					26
+					9,
+					7
 				},
 				{
 					23,
@@ -138,11 +136,11 @@ pg.base.activity_banner = {}
 	pg.base.activity_banner[3] = {
 		type = 2,
 		id = 3,
-		pic = "temp7",
+		pic = "temp3",
 		param = {
 			"scene charge",
 			{
-				wrap = 4
+				wrap = 2
 			}
 		},
 		time = {
@@ -150,7 +148,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -161,8 +159,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					26
+					9,
+					7
 				},
 				{
 					23,
@@ -175,19 +173,16 @@ pg.base.activity_banner = {}
 	pg.base.activity_banner[4] = {
 		type = 2,
 		id = 4,
-		pic = "temp3",
+		pic = "temp4",
 		param = {
-			"scene get boat",
-			{
-				goToPray = true
-			}
+			"act boss battle"
 		},
 		time = {
 			{
 				{
 					2026,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -198,8 +193,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					26
+					9,
+					7
 				},
 				{
 					23,
@@ -210,110 +205,35 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[5] = {
+		time = "stop",
 		type = 2,
 		id = 5,
-		pic = "temp4",
+		pic = "temp5",
 		param = {
 			"scene charge",
 			{
-				wrap = ChargeScene.TYPE_DIAMOND
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
+				wrap = 4
 			}
 		}
 	}
 	pg.base.activity_banner[6] = {
+		time = "stop",
 		type = 2,
 		id = 6,
-		pic = "temp5",
+		pic = "temp6",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[7] = {
+		time = "stop",
 		type = 2,
 		id = 7,
-		pic = "temp6",
+		pic = "temp7",
 		param = {
 			"scene shop",
 			{
 				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	}
@@ -322,14 +242,14 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene court yard"
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2026,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -340,8 +260,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					26
+					9,
+					7
 				},
 				{
 					23,
@@ -352,18 +272,22 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[9] = {
-		type = 3,
+		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
-			coreName = "AnniversaryUSSevenLoginPage"
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = true
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -374,8 +298,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					26
+					9,
+					7
 				},
 				{
 					23,
@@ -416,7 +340,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					8,
-					13
+					27
 				},
 				{
 					0,
@@ -427,8 +351,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					26
+					9,
+					7
 				},
 				{
 					23,

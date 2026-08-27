@@ -2006,16 +2006,20 @@ end)()
 		actor_name = "Saya Fukuzumi",
 		code = 516
 	}
+	pg.base.voice_actor_CN[521] = {
+		actor_name = "Risa Tsumugi",
+		code = 521
+	}
 	pg.base.voice_actor_CN[517] = {
 		actor_name = "Sally Amaki",
 		code = 517
 	}
+end)()
+(function ()
 	pg.base.voice_actor_CN[518] = {
 		actor_name = "Mao Ito",
 		code = 518
 	}
-end)()
-(function ()
 	pg.base.voice_actor_CN[519] = {
 		actor_name = "Natsumi Haruse",
 		code = 519

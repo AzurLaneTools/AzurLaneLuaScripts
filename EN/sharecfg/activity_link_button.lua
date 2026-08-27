@@ -249,13 +249,15 @@ pg.base.activity_link_button = {}
 	pg.base.activity_link_button[30] = {
 		param = "0",
 		name = "event_boss",
-		time = "stop",
 		text_pic = "text_event_boss",
 		type = 0,
 		pic = "event_boss",
 		id = 30,
 		group_id = 3,
-		order = 1
+		order = 1,
+		time = {
+			"default"
+		}
 	}
 	pg.base.activity_link_button[40] = {
 		param = "0",
@@ -457,7 +459,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51101
+			51109
 		}
 	}
 	pg.base.activity_link_button[110] = {

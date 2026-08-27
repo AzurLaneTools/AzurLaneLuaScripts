@@ -5602,7 +5602,7 @@ end)()
 	pg.base.island_task_target[200150011] = {
 		tips = "",
 		jump_ui = "11",
-		name = "Obtain an outfit from the seasonal shop.",
+		name = "Obtain an outfit from the seasonal shop. ",
 		type = 44,
 		id = 200150011,
 		target_num = 1,
@@ -6177,7 +6177,8 @@ end)()
 			601,
 			602,
 			603,
-			604
+			604,
+			901
 		}
 	}
 	pg.base.island_task_target[307020011] = {
