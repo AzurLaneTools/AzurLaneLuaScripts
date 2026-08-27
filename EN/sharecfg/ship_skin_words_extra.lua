@@ -30667,23 +30667,22 @@ end)()
 		mission = "",
 		id = 301190,
 		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
 		feeling1 = "",
 		hp_warning = "",
 		main = "",
 		profile = "",
 		mission_complete = "",
 		feeling2 = "",
+		battle = "",
 		detail = "",
-		unlock = {
-			{
-				1100,
-				"Took you long enough... Do you have any idea how long I've been waiting? Hurry up and get over here already! You're going to spend the whole day with me today, and that's an order!"
-			}
-		},
 		login = {
 			{
 				1100,
-				"Heheh, I can already tell without even having to do anything – Commander, your eyes have been on me since the very beginning, isn't that right?"
+				"Took you long enough... Do you have any idea how long I've been waiting? Hurry up and get over here already! You're going to spend the whole day with me today, and that's an order!"
 			}
 		},
 		win_mvp = {
@@ -30692,22 +30691,10 @@ end)()
 				"Heheh, I can already tell without even having to do anything – Commander, your eyes have been on me since the very beginning, isn't that right?"
 			}
 		},
-		lose = {
-			{
-				1100,
-				"Hrmm... Okay, I want this one! Here you go, Commander! Your reward, hand-picked by the great Amatsukaze! Make sure to take good care of it~"
-			}
-		},
 		home = {
 			{
 				1100,
 				"Hrmm... Okay, I want this one! Here you go, Commander! Your reward, hand-picked by the great Amatsukaze! Make sure to take good care of it~"
-			}
-		},
-		battle = {
-			{
-				1100,
-				"*poke* *poke*... Hm? Nah, it's nothing. Just wanted to try poking you with my horn~"
 			}
 		},
 		headtouch = {
@@ -30728,22 +30715,10 @@ end)()
 				"Why are you scooting closer all of a sudden? ...If you want me to pamper you, just say so. Here, I can hold your hand for a while if you'd like~"
 			}
 		},
-		mail = {
-			{
-				1100,
-				"...Hyeep?! Urgh, sneaking up on me again?! Mark my words, I'll get you next time, so you'd better watch your back!"
-			}
-		},
 		touch2 = {
 			{
 				1100,
 				"...Hyeep?! Urgh, sneaking up on me again?! Mark my words, I'll get you next time, so you'd better watch your back!"
-			}
-		},
-		feeling4 = {
-			{
-				1100,
-				"I don't care about high places or shiny treasures anymore! All I need is you! So, you'd better stay by my side forever! If I turn around and don't see you near me, I swear I'll find you and give you a good lesson! Got it? This is Amatsukaze's order!"
 			}
 		},
 		feeling5 = {
