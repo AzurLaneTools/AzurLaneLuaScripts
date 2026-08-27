@@ -30,6 +30,7 @@ pg.skin_page_template.all = {
 	26,
 	27,
 	28,
+	29,
 	9997,
 	9998,
 	9999
@@ -199,6 +200,12 @@ pg.base.skin_page_template = {}
 		name = "忍者の城",
 		res = "renzhezhicheng",
 		english_name = "Ninja Castle"
+	}
+	pg.base.skin_page_template[29] = {
+		id = 29,
+		name = "百艦奇譚",
+		res = "youyinghuijuan",
+		english_name = "Spooky Tales"
 	}
 	pg.base.skin_page_template[9997] = {
 		id = 9997,

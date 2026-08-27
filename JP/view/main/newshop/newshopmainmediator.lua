@@ -386,7 +386,6 @@ slot0.initNotificationHandleDic = function(slot0)
 			end
 
 			if slot2.awards and #slot2.awards > 0 then
-				slot0.viewComponent:unBlurView()
 				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot2.awards)
 			end
 

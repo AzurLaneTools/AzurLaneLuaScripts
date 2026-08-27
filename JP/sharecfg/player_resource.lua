@@ -557,6 +557,8 @@ pg.player_resource.all = {
 	745,
 	746,
 	747,
+	748,
+	749,
 	950,
 	951,
 	952,
@@ -591,6 +593,8 @@ pg.player_resource.all = {
 	2023,
 	2024,
 	2025,
+	2026,
+	2027,
 	3000,
 	3001,
 	3002,
@@ -1021,6 +1025,9 @@ pg.player_resource.get_id_list_by_name = {
 	contribution_worldboss260212 = {
 		2024
 	},
+	contribution_worldboss260827 = {
+		2026
+	},
 	contribution_worldboss624 = {
 		2006
 	},
@@ -1320,6 +1327,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	limit_skinticket113 = {
 		746
+	},
+	limit_skinticket114 = {
+		748
 	},
 	limit_skinticket12 = {
 		469
@@ -1927,6 +1937,9 @@ pg.player_resource.get_id_list_by_name = {
 	skinTicket123 = {
 		747
 	},
+	skinTicket124 = {
+		749
+	},
 	skinTicket13 = {
 		184
 	},
@@ -2460,6 +2473,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	worldboss260212_ticket = {
 		2025
+	},
+	worldboss260827_ticket = {
+		2027
 	},
 	worldboss624_ticket = {
 		2007
@@ -5510,6 +5526,16 @@ end)()
 		name = "skinTicket123",
 		itemid = 66082
 	}
+	pg.base.player_resource[748] = {
+		id = 748,
+		name = "limit_skinticket114",
+		itemid = 68348
+	}
+	pg.base.player_resource[749] = {
+		id = 749,
+		name = "skinTicket124",
+		itemid = 65120
+	}
 	pg.base.player_resource[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -5680,6 +5706,16 @@ end)()
 		name = "worldboss260212_ticket",
 		itemid = 65832
 	}
+	pg.base.player_resource[2026] = {
+		id = 2026,
+		name = "contribution_worldboss260827",
+		itemid = 66091
+	}
+	pg.base.player_resource[2027] = {
+		id = 2027,
+		name = "worldboss260827_ticket",
+		itemid = 66092
+	}
 	pg.base.player_resource[3000] = {
 		id = 3000,
 		name = "guild_boss_damage",
@@ -5720,6 +5756,8 @@ end)()
 		name = "synchronize_shaenhuosite",
 		itemid = 21906
 	}
+end)()
+(function ()
 	pg.base.player_resource[3008] = {
 		id = 3008,
 		name = "synchronize_fanji",
@@ -5740,8 +5778,6 @@ end)()
 		name = "synchronize_yilishabai",
 		itemid = 21910
 	}
-end)()
-(function ()
 	pg.base.player_resource[3012] = {
 		id = 3012,
 		name = "synchronize_aerjiliya",

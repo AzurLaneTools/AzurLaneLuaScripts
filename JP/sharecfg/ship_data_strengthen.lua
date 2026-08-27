@@ -302,6 +302,7 @@ pg.ship_data_strengthen.all = {
 	30116,
 	30117,
 	30118,
+	30119,
 	30120,
 	30121,
 	30123,
@@ -8042,6 +8043,32 @@ end)()
 			14
 		}
 	}
+	pg.base.ship_data_strengthen[30119] = {
+		id = 30119,
+		durability = {
+			13,
+			104,
+			0,
+			0,
+			61
+		},
+		level_exp = {
+			40,
+			10,
+			0,
+			0,
+			15
+		},
+		attr_exp = {
+			4,
+			35,
+			0,
+			0,
+			15
+		}
+	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[30120] = {
 		id = 30120,
 		durability = {
@@ -8066,8 +8093,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[30121] = {
 		id = 30121,
 		durability = {
@@ -10444,6 +10469,8 @@ end)()
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[30502] = {
 		id = 30502,
 		durability = {
@@ -10468,8 +10495,6 @@ end)()
 			10
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[30503] = {
 		id = 30503,
 		durability = {
@@ -12846,6 +12871,8 @@ end)()
 			13
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[40311] = {
 		id = 40311,
 		durability = {
@@ -12870,8 +12897,6 @@ end)()
 			12
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[40312] = {
 		id = 40312,
 		durability = {
@@ -15248,6 +15273,8 @@ end)()
 			11
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[60305] = {
 		id = 60305,
 		durability = {
@@ -15272,8 +15299,6 @@ end)()
 			12
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[60306] = {
 		id = 60306,
 		durability = {
@@ -17650,6 +17675,8 @@ end)()
 			14
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[110201] = {
 		id = 110201,
 		durability = {
@@ -17674,8 +17701,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[960001] = {
 		id = 960001,
 		durability = {
@@ -20052,6 +20077,8 @@ end)()
 			14
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[1150001] = {
 		id = 1150001,
 		durability = {
@@ -20076,8 +20103,6 @@ end)()
 			14
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[1150002] = {
 		id = 1150002,
 		durability = {

@@ -8244,6 +8244,37 @@ _G.pg.base.item_data_statistics[11057] = {
 }
 
 
+_G.pg.base.item_data_statistics[11058] = {
+	open_directly = 0,
+	name = "四連装610mm魚雷改T0設計図",
+	type = 9,
+	display = "四連装610mm魚雷改T0設計図",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/35260",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[13000] = {
 	open_directly = 0,
 	name = "381mm連装砲.改T0設計図",

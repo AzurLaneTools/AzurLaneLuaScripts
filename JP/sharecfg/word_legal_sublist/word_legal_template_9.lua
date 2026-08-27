@@ -4,36 +4,6 @@ slot0.word_legal_template_9 = {}
 slot1 = slot0.word_legal_template_9
 
 temp = function()
-	uv0["基"] = {
-		["洛"] = {
-			["夫"] = {
-				["·"] = {
-					M = {
-						E = {
-							T = {
-								A = {
-									["（"] = {
-										["后"] = {
-											["排"] = {
-												["）"] = {
-													this = true
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["拉"] = {
 		["菲"] = {
 			I = {

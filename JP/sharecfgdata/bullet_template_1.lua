@@ -839559,6 +839559,7 @@ _G.pg.base.bullet_template_1[3069401] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreShield = true,
 		dontRotate = true
 	}
 }
@@ -839634,6 +839635,7 @@ _G.pg.base.bullet_template_1[3069402] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreShield = true,
 		dontRotate = true
 	}
 }
@@ -840640,6 +840642,7 @@ _G.pg.base.bullet_template_1[3069417] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreShield = true,
 		dontRotate = true
 	}
 }
@@ -841374,6 +841377,7 @@ _G.pg.base.bullet_template_1[3069429] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreShield = true,
 		dontRotate = true
 	}
 }

@@ -21,7 +21,8 @@ pg.extraenemy_template.all = {
 	16,
 	17,
 	18,
-	19
+	19,
+	20
 }
 pg.base = pg.base or {}
 pg.base.extraenemy_template = {}
@@ -642,6 +643,43 @@ pg.base.extraenemy_template = {}
 			{
 				3,
 				96020,
+				1
+			}
+		}
+	}
+	pg.base.extraenemy_template[20] = {
+		mail_title = "world_boss_title_15",
+		name = "天津风",
+		hp = 10000,
+		replace_task = "",
+		background = "",
+		mail_content = "world_boss_content_1",
+		id = 20,
+		reward = {
+			88205,
+			88206,
+			88207,
+			88208
+		},
+		reward_display = {
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				11058,
+				5
+			},
+			{
+				3,
+				151240,
 				1
 			}
 		}

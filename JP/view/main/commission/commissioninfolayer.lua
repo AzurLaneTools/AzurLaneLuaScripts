@@ -28,7 +28,8 @@ slot0.init = function(slot0)
 	slot0.items = {
 		CommissionInfoEventItem.New(slot0._tf:Find("frame/main/content/event"), slot0),
 		CommissionInfoClassItem.New(slot0._tf:Find("frame/main/content/class"), slot0),
-		CommissionInfoTechnologyItem.New(slot0._tf:Find("frame/main/content/technology"), slot0)
+		CommissionInfoTechnologyItem.New(slot0._tf:Find("frame/main/content/technology"), slot0),
+		CommissionInfoChapterAutoItem.New(slot0._tf:Find("frame/main/content/chapterauto"), slot0)
 	}
 
 	slot0:BlurPanel()
@@ -203,6 +204,10 @@ end
 
 slot0.OnUpdateTechnology = function(slot0)
 	slot0.items[3]:Update()
+end
+
+slot0.OnUpdateChapterAuto = function(slot0)
+	slot0.items[4]:Update()
 end
 
 slot0.setPlayer = function(slot0, slot1)

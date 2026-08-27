@@ -389,6 +389,7 @@ pg.skill_data_template.all = {
 	61110,
 	61120,
 	61130,
+	61140,
 	7000,
 	9030,
 	9031,
@@ -1448,6 +1449,8 @@ pg.skill_data_template.all = {
 	152530,
 	152540,
 	152550,
+	152750,
+	152760,
 	152560,
 	152570,
 	152580,
@@ -2194,6 +2197,8 @@ pg.skill_data_template.all = {
 	30642,
 	30661,
 	30662,
+	30701,
+	30702,
 	30671,
 	30672,
 	30681,
@@ -3095,6 +3100,7 @@ pg.skill_data_template.all = {
 	1012570,
 	1013470,
 	1014660,
+	1012580,
 	1019160,
 	1014990,
 	1013140,
@@ -13882,6 +13888,20 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61140] = {
+		desc_get = "",
+		name = "天つ風の袋",
+		type = 0,
+		max_level = 0,
+		desc = "天津風が装備している場合、戦闘開始から60秒間、自身の回避率が2%アップ",
+		id = 61140,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "ライン演習",
@@ -14632,6 +14652,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[9120] = {
 		desc_get = "",
 		name = "模拟战埃吉尔占用",
@@ -14646,8 +14668,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[9709] = {
 		desc_get = "",
 		name = "雷达缩圈效果",
@@ -21780,6 +21800,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10960] = {
 		desc_get = "出撃中、所属艦隊の特型駆逐艦の火力・回避が15.0%（30%）、雷装が4%（10%）アップする",
 		name = "特型ネームシップ！",
@@ -21886,8 +21908,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10970] = {
 		desc_get = "",
 		name = "ファイティングメリー",
@@ -30163,6 +30183,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11950] = {
 		desc_get = "",
 		name = "不凍港の協奏曲",
@@ -30314,8 +30336,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11960] = {
 		desc_get = "",
 		name = "輝ける峡湾の星",
@@ -39769,6 +39789,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13020] = {
 		desc_get = "",
 		name = "リオート・オブストレル",
@@ -39832,8 +39854,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13030] = {
 		desc_get = "",
 		name = "北方連合の気迫",
@@ -49401,6 +49421,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14020] = {
 		desc_get = "",
 		name = "愛でる護衛の煙幕です",
@@ -49552,8 +49574,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14030] = {
 		desc_get = "",
 		name = "オントロジー的転舵",
@@ -60758,6 +60778,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15020] = {
 		desc_get = "",
 		name = "有気力バイト",
@@ -60900,8 +60922,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15030] = {
 		desc_get = "",
 		name = "熱心のお助けシールド",
@@ -72682,6 +72702,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16030] = {
 		desc_get = "",
 		name = "紫電雷嵐",
@@ -72779,8 +72801,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16040] = {
 		desc_get = "",
 		name = "赫桜豪刀",
@@ -84207,6 +84227,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17040] = {
 		desc_get = "",
 		name = "雲影天光、共に徘徊す",
@@ -84313,8 +84335,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17050] = {
 		desc_get = "",
 		name = "荡涤诸恶跨队BUFFID占用",
@@ -95335,6 +95355,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150100] = {
 		desc_get = "",
 		name = "『临界爆发』跨队ID占用",
@@ -95349,8 +95371,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150120] = {
 		desc_get = "",
 		name = "試演のSinfonie",
@@ -106824,6 +106844,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151090] = {
 		desc_get = "",
 		name = "ウェルキン・ホーリーバリア",
@@ -106966,8 +106988,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151100] = {
 		desc_get = "",
 		name = "直感型の天才",
@@ -118674,6 +118694,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152060] = {
 		desc_get = "",
 		name = "全部任せなさい！ ",
@@ -118816,8 +118838,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152070] = {
 		desc_get = "",
 		name = "叩いてやるわ！ ",
@@ -123629,6 +123649,344 @@ end)()
 				},
 				{
 					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152750] = {
+		desc_get = "",
+		name = "雲を突き抜ける風",
+		type = 1,
+		max_level = 10,
+		desc = "戦闘開始時、自身の雷装が$1アップ、味方艦隊に自身以外の重桜艦船がいる場合、さらに自身の魚雷兵装のクリティカル率が$2アップ。戦闘中、自身の魚雷攻撃時、特殊弾幕$3を展開し（威力はスキルレベルによる・この効果は10秒に1度しか発動できない）、さらに$4の確率で追加で魚雷を発射する；この特殊弾幕が命中した敵は1秒間速力が0になり、その後0.5秒の間で速力が徐々に元に戻る。また、その敵は速力が0になった瞬間に特殊浸水状態になり、6秒間ダメージを受け続ける（威力は天津風の雷装ステータスによる）",
+		id = 152750,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152760] = {
+		desc_get = "",
+		name = "偉いやつの威厳",
+		type = 2,
+		max_level = 10,
+		desc = "戦闘開始時、自身の回避が$1アップ。\n 戦闘中、自身がダメージを受け耐久が上限の30％を下回った時に1度だけ発動、4秒間全てのダメージを回避し、さらに4秒経過後自身の耐久が上限の15％回復し、戦闘終了時まで【自身の与えるダメージが10％ダウンする】を得る。\n 戦闘中ダメージを受けた時に$2で1回だけ発動、戦闘終了時まで【自身が受けるダメージを$3を軽減し、さらにダメージを受けた時に$1でそのダメージを1にする】を得る",
+		id = 152760,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
 				}
 			}
 		}
@@ -129636,6 +129994,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19030] = {
 		desc_get = "",
 		name = "帝王の威圧",
@@ -129866,8 +130226,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19060] = {
 		desc_get = "",
 		name = "雷刃一閃",
@@ -140457,6 +140815,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[190040] = {
 		desc_get = "",
 		name = "蒼穹震わす翔龍の影",
@@ -140732,8 +141092,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[20001] = {
 		desc_get = "",
 		name = "堪萨斯智能底座2",
@@ -142092,6 +142450,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[22011] = {
 		desc_get = "",
 		name = "全弾発射-睦月型Ⅰ",
@@ -142134,8 +142494,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[22022] = {
 		desc_get = "",
 		name = "全弾発射-吹雪型Ⅱ",
@@ -143494,6 +143852,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[24122] = {
 		desc_get = "",
 		name = "全弾発射Ⅱ",
@@ -143536,8 +143896,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[24141] = {
 		desc_get = "",
 		name = "全弾発射-海天型Ⅰ",
@@ -144896,6 +145254,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29141] = {
 		desc_get = "",
 		name = "特殊弾幕-島風Ⅰ",
@@ -144938,8 +145298,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29152] = {
 		desc_get = "",
 		name = "特殊弾幕-北上Ⅱ",
@@ -146306,6 +146664,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29672] = {
 		desc_get = "",
 		name = "特殊弾幕-U37Ⅱ",
@@ -146348,8 +146708,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29691] = {
 		desc_get = "",
 		name = "特殊弾幕-アレン・M・サムナーⅠ/Ⅱ",
@@ -147708,6 +148066,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30202] = {
 		desc_get = "",
 		name = "特殊弾幕-オグネヴォイⅡ",
@@ -147750,8 +148110,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30221] = {
 		desc_get = "",
 		name = "特殊弾幕-プリンツ・オイゲン(μ兵装)Ⅰ",
@@ -149020,6 +149378,34 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[30701] = {
+		desc_get = "",
+		name = "特殊弾幕-天津風Ⅰ",
+		type = 1,
+		max_level = 1,
+		desc = "自身が主砲攻撃を12回行う度に、特殊弾幕-天津風Ⅰを展開する",
+		id = 30701,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30702] = {
+		desc_get = "",
+		name = "特殊弾幕-天津風Ⅱ",
+		type = 1,
+		max_level = 1,
+		desc = "自身が主砲攻撃を8回行う度に、特殊弾幕-天津風Ⅱを展開する",
+		id = 30702,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[30671] = {
 		desc_get = "",
 		name = "特殊弾幕-コレットⅠ",
@@ -149182,6 +149568,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[101020] = {
 		desc_get = "",
 		name = "メディステーション･S",
@@ -149707,8 +150095,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[101070] = {
 		desc_get = "20秒毎に、20.0%(40.0%)で発動する。強力な弾幕(威力はスキルレベルによる)を展開し命中した敵を低確率で12秒間炎上させる。",
 		name = "ブレイズブレイク",
@@ -157942,6 +158328,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106540] = {
 		desc_get = "",
 		name = "百発百中",
@@ -158434,8 +158822,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106590] = {
 		desc_get = "",
 		name = "インドア派のくつろぎ時間",
@@ -166041,6 +166427,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[110050] = {
 		desc_get = "",
 		name = "鳳華炎舞",
@@ -166708,8 +167096,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[110100] = {
 		desc_get = "",
 		name = "氷雪扇舞",
@@ -175243,6 +175629,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[115180] = {
 		desc_get = "",
 		name = "絶滅天使(メタトロン)·砲冠(アーティリフ)",
@@ -175912,8 +176300,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[115230] = {
 		desc_get = "",
 		name = "氷結傀儡（ザドキエル）",
@@ -181464,6 +181850,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800415] = {
 		desc_get = "",
 		name = "揺灯の力-山城Ⅰ",
@@ -181724,8 +182112,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800451] = {
 		desc_get = "",
 		name = "構造の理-メンフィス・Ⅰ",
@@ -186573,6 +186959,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800957] = {
 		desc_get = "",
 		name = "構造の理-神通(META)Ⅱ",
@@ -186914,8 +187302,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800985] = {
 		desc_get = "",
 		name = "炬火の力・プリンストンⅠ",
@@ -192013,6 +192399,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801510] = {
 		desc_get = "",
 		name = "彼岸の境界",
@@ -192129,8 +192517,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801530] = {
 		desc_get = "",
 		name = "纏わりつく炎",
@@ -197522,6 +197908,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802072] = {
 		desc_get = "",
 		name = "焔追の灰-カラビニエーレⅡ",
@@ -197773,8 +198161,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802101] = {
 		desc_get = "",
 		name = "焔追の灰・ガングートⅠ ",
@@ -201892,6 +202278,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1010580] = {
 		desc_get = "",
 		name = "吸血鬼の口づけ +",
@@ -202534,8 +202922,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1010290] = {
 		desc_get = "",
 		name = "グロリー・オブ・ロイヤル +",
@@ -214937,6 +215323,112 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[1012580] = {
+		desc_get = "",
+		name = "机关禁止兵装占坑",
+		type = 3,
+		max_level = 10,
+		desc = "空袭时有$1概率触发(每场战斗首次空袭必定触发)，所有敌方在$2秒内航速变为0，随后的2.5秒内逐渐减少该技能的效果直至无效",
+		id = 1012580,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"80.0%"
+			},
+			{
+				"0.5",
+				"1.5"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+3.3%"
+				},
+				{
+					"53.3%",
+					"+3.3%"
+				},
+				{
+					"56.6%",
+					"+3.3%"
+				},
+				{
+					"59.9%",
+					"+3.3%"
+				},
+				{
+					"63.2%",
+					"+3.3%"
+				},
+				{
+					"66.5%",
+					"+3.3%"
+				},
+				{
+					"69.8%",
+					"+3.3%"
+				},
+				{
+					"73.1%",
+					"+3.3%"
+				},
+				{
+					"76.4%",
+					"+3.6%"
+				},
+				{
+					"80%"
+				}
+			},
+			{
+				{
+					"0.5",
+					"+0.1"
+				},
+				{
+					"0.6",
+					"+0.1"
+				},
+				{
+					"0.7",
+					"+0.1"
+				},
+				{
+					"0.8",
+					"+0.1"
+				},
+				{
+					"0.9",
+					"+0.1"
+				},
+				{
+					"1.0",
+					"+0.1"
+				},
+				{
+					"1.1",
+					"+0.1"
+				},
+				{
+					"1.2",
+					"+0.1"
+				},
+				{
+					"1.3",
+					"+0.2"
+				},
+				{
+					"1.5"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[1019160] = {
 		desc_get = "",
 		name = "ヘビーバレル・バスター +",
@@ -215365,6 +215857,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1012910] = {
 		desc_get = "",
 		name = "第六駆逐隊・響 +",
@@ -216266,8 +216760,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1019300] = {
 		desc_get = "",
 		name = "フリントバースト・改",

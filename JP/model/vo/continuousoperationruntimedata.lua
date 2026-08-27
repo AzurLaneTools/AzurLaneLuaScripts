@@ -16,6 +16,7 @@ slot0.Ctor = function(slot0, slot1)
 		{}
 	}
 	slot0.active = nil
+	slot0.clickStopAutoFlag = false
 end
 
 slot0.GetSystem = function(slot0)
@@ -32,6 +33,8 @@ end
 
 slot0.ConsumeBattleTime = function(slot0)
 	slot0.battleTime = slot0.battleTime - 1
+
+	slot0:ResetClickStopAutoFlag()
 end
 
 slot0.IsFirstBattle = function(slot0)
@@ -76,6 +79,18 @@ end
 
 slot0.IsActive = function(slot0)
 	return tobool(slot0.active)
+end
+
+slot0.MarkClickStopAutoFlag = function(slot0)
+	slot0.clickStopAutoFlag = true
+end
+
+slot0.ResetClickStopAutoFlag = function(slot0)
+	slot0.clickStopAutoFlag = false
+end
+
+slot0.IsRecordTime = function(slot0)
+	return slot0:IsActive() and not slot0.clickStopAutoFlag
 end
 
 return slot0

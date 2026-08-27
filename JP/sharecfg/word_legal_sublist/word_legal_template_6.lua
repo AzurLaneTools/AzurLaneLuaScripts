@@ -4,16 +4,6 @@ slot0.word_legal_template_6 = {}
 slot1 = slot0.word_legal_template_6
 
 temp = function()
-	uv0["浅"] = {
-		["間"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["金"] = {
 		["剛"] = {
 			this = true,
@@ -520,6 +510,16 @@ temp()
 temp = function()
 	uv0["葛"] = {
 		["城"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["明"] = {
+		["石"] = {
 			this = true
 		}
 	}

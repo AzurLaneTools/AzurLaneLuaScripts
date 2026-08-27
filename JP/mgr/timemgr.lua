@@ -296,16 +296,18 @@ slot1.DescDateFromConfig = function(slot0, slot1, slot2)
 end
 
 slot1.DescCDTime = function(slot0, slot1)
-	slot1 = slot1 % 3600
+	slot3 = math.abs(slot1)
+	slot3 = slot3 % 3600
 
-	return string.format("%02d:%02d:%02d", math.floor(slot1 / 3600), math.floor(slot1 / 60), slot1 % 60)
+	return (slot1 < 0 and "-" or "") .. string.format("%02d:%02d:%02d", math.floor(slot3 / 3600), math.floor(slot3 / 60), slot3 % 60)
 end
 
 slot1.DescCDTimeForMinute = function(slot0, slot1)
-	slot2 = math.floor(slot1 / 3600)
-	slot1 = slot1 % 3600
+	slot3 = math.abs(slot1)
+	slot4 = math.floor(slot3 / 3600)
+	slot3 = slot3 % 3600
 
-	return string.format("%02d:%02d", math.floor(slot1 / 60), slot1 % 60)
+	return (slot1 < 0 and "-" or "") .. string.format("%02d:%02d", math.floor(slot3 / 60), slot3 % 60)
 end
 
 slot1.parseTimeFrom = function(slot0, slot1)

@@ -1937,7 +1937,7 @@ end)()
 	}
 	pg.base.gameset.skin_ticket = {
 		description = "",
-		key_value = 747
+		key_value = 749
 	}
 	pg.base.gameset.order_pt_max = {
 		key_value = 0,
@@ -4774,5 +4774,25 @@ end)()
 			6,
 			9
 		}
+	}
+	pg.base.gameset.auto_battle_ticket_warning_time = {
+		description = "",
+		key_value = 1
+	}
+	pg.base.gameset.auto_battle_time_limit = {
+		description = "",
+		key_value = 28800
+	}
+	pg.base.gameset.auto_battle_time_add_item_show_type3 = {
+		description = "",
+		key_value = 0
+	}
+	pg.base.gameset.auto_battle_tickect_to_second_type1 = {
+		description = "",
+		key_value = 3600
+	}
+	pg.base.gameset.auto_battle_tickect_to_second_type3 = {
+		description = "",
+		key_value = 3600
 	}
 end)()

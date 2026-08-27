@@ -1982,6 +1982,10 @@ end)()
 		actor_name = "福積沙耶",
 		code = 516
 	}
+	pg.base.voice_actor_CN[521] = {
+		actor_name = "紡木吏佐",
+		code = 521
+	}
 	pg.base.voice_actor_CN[517] = {
 		actor_name = "天城サリー",
 		code = 517

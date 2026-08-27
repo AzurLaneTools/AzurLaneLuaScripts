@@ -55,6 +55,12 @@ slot0.ReplaceCharacterParts = function(slot0)
 end
 
 slot0.ShowHolyLight = function(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot0) do
+		if slot7 then
+			GetOrAddComponent(slot7, typeof(DormAnimationEventDispatcher))
+		end
+	end
+
 	if not HXSet.isHx() then
 		return false
 	end

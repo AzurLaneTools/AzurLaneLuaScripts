@@ -5328,6 +5328,11 @@ _G.pg.base.gametip.levelScene_activate_remaster_1 = {
 }
 
 
+_G.pg.base.gametip.levelScene_activate_remaster_auto = {
+	tip = "ステージに出撃するには<color=#ffde38>データキーx$1</color>を消費します。\n出撃しますか？"
+}
+
+
 _G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "データキーが不足しています"
 }
@@ -12915,17 +12920,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「クルスク」「セヴァストポリ」常設実装！"
+	tip = "「アルヴィト」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ヴォロシーロフ」常設実装！"
+	tip = "「Z47」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「ビスマルクZwei」「U-556(META)」常設実装！"
+	tip = "「U-31」常設実装！"
 }
 
 
@@ -13902,6 +13907,16 @@ _G.pg.base.gametip.tag_level_bomb = {
 }
 
 
+_G.pg.base.gametip.tag_level_autoing = {
+	tip = "委任中"
+}
+
+
+_G.pg.base.gametip.tag_level_auto_finish = {
+	tip = "完了"
+}
+
+
 _G.pg.base.gametip.ui_word_levelui2_inevent = {
 	tip = "行動中"
 }
@@ -14004,29 +14019,29 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>★遊び方</color>"
 		},
 		{
-			info = "イベント「新春珠玉逸品会」とは、<color=#92fc63>「Ptアイテム」</color>を集めて作戦進捗を進めると、個人累計Pt報酬と作戦進捗報酬が得られるイベントになります。"
+			info = "イベント「『偉いやつ』の予告状」とは、<color=#92fc63>「偉くてかわいい紅リボン（演習Pt）」</color>を集めて作戦進捗を進めると、個人累計Pt報酬と作戦進捗報酬が得られるイベントになります。"
 		},
 		{
 			info = [[
-イベント期間中、敵艦隊を相手に戦う「共闘」特別ステージが登場します。
-作戦を完遂するには指揮官同士で協力し、「Ptアイテム」を集め、作戦進捗を進める<color=#92fc63>（耐久ゲージを0%まで削る）</color>必要があります。
+イベント期間中、敵艦隊を相手に戦う「演習作戦」特別ステージが登場します。
+作戦を完遂するには指揮官同士で協力し、「演習Pt」を集め、作戦進捗を進める<color=#92fc63>（演習ゲージを0%まで削る）</color>必要があります。
 作戦に成功した場合、作戦に参加した指揮官に報酬として特別兵装をメールで配布します。
 ※メール数が1000を超えると報酬メールを受け取れない場合がありますので、ご注意ください。
-（耐久ゲージが<color=#92fc63>0%</color>になっても、引き続き特別ステージに挑戦することで「Ptアイテム」を獲得できます）]]
+（演習ゲージが<color=#92fc63>0%</color>になっても、引き続き特別ステージに挑戦することで「演習Pt」を獲得できます）]]
 		},
 		{
 			info = [[
-<color=#92fc63>-Ptアイテムについて-</color>
-1 特別ステージをクリアすると「Ptアイテム」を獲得できます。
-2 同じサーバーのすべての指揮官が獲得した「Ptアイテム」の合計数が作戦の進捗を左右します。
-3 耐久ゲージが0%になると、作戦が成功になります。各サーバーの作戦進捗はそれぞれで計算されます。
-4 イベント期間中に獲得した「Ptアイテム」の累計数に応じて、イベントバナーより「Pt累計報酬」を入手できます。]]
+<color=#92fc63>-演習Ptについて-</color>
+1 特別ステージをクリアすると「演習Pt」を獲得できます。
+2 同じサーバーのすべての指揮官が獲得した「演習Pt」の合計数が作戦の進捗を左右します。
+3 演習ゲージが0%になると、作戦が成功になります。各サーバーの作戦進捗はそれぞれで計算されます。
+4 イベント期間中に獲得した「演習Pt」の累計数に応じて、イベントバナーより「Pt累計報酬」を入手できます。]]
 		},
 		{
 			info = [[
 <color=#92fc63>-特別ステージについて-</color>
 1 特別ステージは難易度に応じて、「簡単」「普通」「難しい」「EX」の四種類があります。
-2 「EX」以外の難易度で得られるPtアイテムは固定で、「EX」では戦闘中に与えたダメージ総量によってPtアイテム
+2 「EX」以外の難易度で得られる演習Ptは固定で、「EX」では戦闘中に与えたダメージ総量によって演習Pt
 •報酬が変化します。
 3 特別ステージは通常の艦隊とは違う<color=#92fc63>「特別演習編成」</color>を使用します(ステージ出撃時に編成可能)。
 4 特別ステージは出撃/勝利時には通常海域の出撃と同じく燃料•コンディションを消費します。また、勝利時に経験値•通常クリア報酬の獲得と、コンディションが増減します。
@@ -14049,7 +14064,7 @@ _G.pg.base.gametip.world_boss_help = {
 		{
 			info = [[
 <color=#ff5c5c>※注意点</color>
-1 「EX」での戦闘を中止した場合、特別戦闘券のみが消費され、報酬•Ptアイテムを得ることができません。
+1 「EX」での戦闘を中止した場合、特別戦闘券のみが消費され、報酬•演習Ptを得ることができません。
 2 「EX」での戦闘は<color=#92fc63>マニュアル（手動）</color>操作でのチャレンジをおすすめします。
 3 「EX」の出撃編成画面では「模擬戦」に出撃できます。
 4 「簡単」「普通」「難しい」の戦闘を中止した場合、「ボーナス出撃回数」が減ることはありません。
@@ -14112,22 +14127,40 @@ _G.pg.base.gametip.levelScene_loop_help_tip = {
 イレーン艦隊＞近くにいる量産型艦隊】</color>になります
 ・艦隊の挙動は出撃準備画面の「自動設定」で下記四通りの設定に変更できます
 
-　道中戦闘：<color=#92fc63>敵中枢艦隊以外の艦隊</color>にのみ戦闘を仕掛けます。行動艦隊として海域で移動・戦闘を行います
-　中枢戦闘：<color=#92fc63>敵中枢艦隊にのみ</color>戦闘を仕掛けます。敵中枢艦隊が出現した場合、行動艦隊に切り替えられます
-　全戦闘：<color=#92fc63>敵艦隊全て</color>に戦闘を仕掛けます
-　待機：敵艦隊に戦闘を仕掛けず、移動しません
+ 道中戦闘：<color=#92fc63>敵中枢艦隊以外の艦隊</color>にのみ戦闘を仕掛けます。行動艦隊として海域で移動・戦闘を行います
+ 中枢戦闘：<color=#92fc63>敵中枢艦隊にのみ</color>戦闘を仕掛けます。敵中枢艦隊が出現した場合、行動艦隊に切り替えられます
+ 全戦闘：<color=#92fc63>敵艦隊全て</color>に戦闘を仕掛けます
+ 待機：敵艦隊に戦闘を仕掛けず、移動しません
 
 ※出撃艦隊が2ついる場合、「道中艦隊」と「中枢艦隊」の組み合わせ、もしくは「全戦闘」と「待機」の組み合せで設定しなければなりません
-　出撃艦隊が1つだけの場合、「全戦闘」で自動設定されます
+ 出撃艦隊が1つだけの場合、「全戦闘」で自動設定されます
 
 ・戦闘中、潜水支援を行いません
 ・自動攻略モードは、手動で停止するか、下記の状況が発生時に停止されます
-　艦船のコンディション低下している場合
-　資金が備蓄上限を上回った場合
-　戦闘可能な量の燃料がない場合
-　ドックが満杯になった場合
-　戦闘で敗北した場合（もしくは艦隊を維持できない場合）
-　新しい艦船を図鑑に登録した場合]]
+ 艦船のコンディション低下している場合
+ 資金が備蓄上限を上回った場合
+ 戦闘可能な量の燃料がない場合
+ ドックが満杯になった場合
+ 戦闘で敗北した場合（もしくは艦隊を維持できない場合）
+ 新しい艦船を図鑑に登録した場合
+
+<color=#92fc63>作戦委任</color>について:
+
+作戦委任とは、一度クリアしたステージの攻略（周回）を委任し、所定の時間を経過すると委任報酬を入手できる機能になります。指揮官がゲームにログインしていなくても、作戦委任は<color=#92fc63>中止にならず、自動で進行</color>します。
+1 ステージの作戦委任機能を解放するには、<color=#92fc63>一度も中止せず連続出撃モードで1回ステージをクリア</color>する必要があります。
+2 1周の作戦委任に消費される時間は、前記の<color=#92fc63>一度も中止せず連続出撃モードで1回ステージをクリア</color>した際にかかった最短時間になります（<color=#92fc63>主力艦隊の主砲攻撃時間は消費時間に含まれません</color>。また、消費時間の集計は作戦委任機能実装後に有効になります）。
+3 1日で作戦委任を遂行できる時間上限<color=#92fc63>「委任可能時間」は8時間</color>になります。「委任可能時間」が不足すると、作戦委任を行うことができません。作戦委任遂行時に、<color=#92fc63>消費時間と同じ長さの「委任可能時間」</color>を消費します。「委任可能時間」<color=#92fc63>の残り時間が1周回に必要な時間を満たしていない場合でも、1度だけ作戦委任を遂行することができます</color>。「委任可能時間」は<color=#92fc63>毎日0時</color>にリセットされます。
+4 作戦委任進行中に、<color=#92fc63>メイン海域・イベント海域・常設イベント海域など</color>に出撃することができません。
+5 作戦委任の報酬は基本、大講堂熟練度のみになります。ただし<color=#92fc63>アイテム「作戦全権委任状」を消費すると、追加で報酬を入手</color>することができます。
+
+<color=#92fc63>作戦全権委任状</color>について：
+
+1 作戦全権委任状を使用することで、<color=#92fc63>作戦委任時に報酬を追加で入手</color>することができます。作戦全権委任状1つにつき<color=#92fc63>作戦委任1回</color>の追加報酬を入手できます。作戦全権委任状は<color=#92fc63>デイリー任務</color>などで入手することができます。
+2 作戦全権委任状を使用すると、作戦委任進行時に追加で<color=#92fc63>燃料も消費されます</color>。
+3 作戦全権委任状で入手できる追加報酬は、<color=#92fc63>作戦委任したステージのクリア報酬</color>に応じて変化します。<color=#92fc63>艦船、資金、素材のほか、一部アイテム</color>が出現します。
+4 作戦全権委任状を消費して作戦委任を行うと<color=#92fc63>一部の任務の任務進捗が増加</color>します。
+5 作戦全権委任状を消費して作戦委任を行うと、確率で<color=#92fc63>緊急軍事委託</color>が出現します（1回の作戦委任で最大1つまで）。
+6 「委任可能時間補充」画面では、作戦全権委任状を消費することで<color=#92fc63>当日の委任可能時間を増加</color>させることができます。作戦全権委任状1つにつき、<color=#92fc63>1時間</color>の委任可能時間を増加させることができます。]]
 		}
 	}
 }
@@ -35545,6 +35578,11 @@ _G.pg.base.gametip.main_silent_tip_6 = {
 }
 
 
+_G.pg.base.gametip.main_silent_tip_7 = {
+	tip = "作戦委任が完了しました"
+}
+
+
 _G.pg.base.gametip.commission_label_go = {
 	tip = "確認"
 }
@@ -35572,6 +35610,11 @@ _G.pg.base.gametip.commission_label_unlock_event_tip = {
 
 _G.pg.base.gametip.commission_label_unlock_tech_tip = {
 	tip = "指揮官Lv.30で開放"
+}
+
+
+_G.pg.base.gametip.commission_label_unlock_auto_tip = {
+	tip = "メイン海域1-3クリアで開放"
 }
 
 
@@ -51392,4 +51435,315 @@ _G.pg.base.gametip.LeMarsReSkinPage_reward_title = {
 
 _G.pg.base.gametip.LeMarsReSkinPage_reward_target = {
 	tip = "現在燃料消費："
+}
+
+
+_G.pg.base.gametip.event_worldboss_0827_title = {
+	tip = "特別演習"
+}
+
+
+_G.pg.base.gametip.event_worldboss_0827_title_en = {
+	tip = "Joint Operation"
+}
+
+
+_G.pg.base.gametip.auto_battle_unlock_tip = {
+	tip = "メイン海域1-3クリアで開放"
+}
+
+
+_G.pg.base.gametip.auto_chapter_unlock_tip = {
+	tip = "「連続出撃」で完全自動でステージ1回クリアして開放"
+}
+
+
+_G.pg.base.gametip.auto_battle_headline = {
+	tip = "作戦委任"
+}
+
+
+_G.pg.base.gametip.auto_battle_headline_en = {
+	tip = "Operational Handover"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_day = {
+	tip = "$1日"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_hour = {
+	tip = "$1時間"
+}
+
+
+_G.pg.base.gametip.auto_battle_cnt = {
+	tip = "作戦回数"
+}
+
+
+_G.pg.base.gametip.auto_battle_dec_en = {
+	tip = "HANDOVER."
+}
+
+
+_G.pg.base.gametip.auto_battle_time_limit_reached = {
+	tip = "残り委任時間が不足しています"
+}
+
+
+_G.pg.base.gametip.auto_battle_cnt_book = {
+	tip = "委任状使用"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_max_reached = {
+	tip = "委任状が不足しています"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_times_reached = {
+	tip = "作戦委任回数上限に達しています"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_left = {
+	tip = "作戦所要時間"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_time = {
+	tip = "委任可能時間"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_extra = {
+	tip = "下記資源が追加で消費されます"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_oil = {
+	tip = "<color=#92fc63><icon name=oil w=0.6 h=0.6/>燃料×$1</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_book = {
+	tip = "<color=#92fc63><icon name=weituo w=0.55 h=0.55/>作戦全権委任状×$1</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_add_time = {
+	tip = "委任可能時間補充"
+}
+
+
+_G.pg.base.gametip.auto_battle_base_loot = {
+	tip = "委任入手"
+}
+
+
+_G.pg.base.gametip.auto_battle_class_exp_head = {
+	tip = "大講堂熟練度"
+}
+
+
+_G.pg.base.gametip.auto_battle_extra_loot = {
+	tip = "委任追加入手"
+}
+
+
+_G.pg.base.gametip.auto_battle_extra_loot_lock = {
+	tip = "作戦委任を行うとアイテムを追加で入手可能"
+}
+
+
+_G.pg.base.gametip.auto_battle_oil_store_tip = {
+	tip = "<color=#92fc63><icon name=oil w=0.6 h=0.6/>燃料$1</color>を次回委任に回します"
+}
+
+
+_G.pg.base.gametip.auto_battle_confirm_button = {
+	tip = "出撃"
+}
+
+
+_G.pg.base.gametip.auto_battle_times_zero = {
+	tip = "委任回数を設定してください"
+}
+
+
+_G.pg.base.gametip.auto_battle_start_tips = {
+	tip = "作戦委任開始"
+}
+
+
+_G.pg.base.gametip.auto_battle_not_enough_resource = {
+	tip = "資源が足りないため、委任できません"
+}
+
+
+_G.pg.base.gametip.auto_battle_base_exp_warning = {
+	tip = "上限を上回った大講堂熟練度は無効になります。続けますか？"
+}
+
+
+_G.pg.base.gametip.auto_battle_info_tips = {
+	tip = "※作戦委任を行うと、委任可能時間を消費し大講堂熟練度を入手可能；さらに全権委任状を消費すると、追加の報酬を入手可能\n※一度の委任の消費時間は、「連続出撃」で完全自動でステージ1回クリアした際にかかった最短時間になります（主力艦隊の主砲攻撃時は消費時間にカウントされません）"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_headline = {
+	tip = "情報"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_headline_en = {
+	tip = "INFORM"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_info = {
+	tip = "残り委任可能時間：<color=#ffffff>$1</color>     +   <color=#92fc63>$2</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_item_lack = {
+	tip = "アイテムが不足しています"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_cancel = {
+	tip = "戻る"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_confirm = {
+	tip = "確定"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_zero_item = {
+	tip = "使用アイテム選択"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_success = {
+	tip = "委任可能時間を補充しました"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_headline = {
+	tip = "作戦委任中"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_time = {
+	tip = "残り時間 <color=#92fc63>$1</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_cnt = {
+	tip = "完了回数 <color=#92fc63>$1/$2</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_base_loot = {
+	tip = "一回入手"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_stop = {
+	tip = "委任中止"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_finish = {
+	tip = "報酬受取"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_stop_tips = {
+	tip = "作戦委任を中止しますか？完成回数分の報酬を入手し、未使用のアイテムが返還されます（未消費の燃料は次回の作戦委任時に消費することができます）"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_book_expired = {
+	tip = "返還される作戦委任状は有効期限が過ぎているため削除されます。作戦委任を中止しますか？"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_classEXP_overflow = {
+	tip = "上限を上回った大講堂熟練度は無効になります。続けますか？"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_bookEXP_overflow = {
+	tip = "所持上限を上回った分の艦船経験値パックT1は破棄されます。続けますか？"
+}
+
+
+_G.pg.base.gametip.auto_battle_stop = {
+	tip = "作戦委任が中止されました"
+}
+
+
+_G.pg.base.gametip.auto_battle_finish = {
+	tip = "作戦委任が完了しました"
+}
+
+
+_G.pg.base.gametip.auto_battle_end_exp = {
+	tip = "大講堂熟練度<color=#92fc63>$1</color>を入手しました"
+}
+
+
+_G.pg.base.gametip.auto_battle_end_status = {
+	tip = "作戦完成予定回数<color=#92fc63>$1</color>回。作戦完成回数<color=#92fc63>$2</color>回。"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_expire_warning = {
+	tip = "x$1 終了間近"
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation = {
+	tip = "ステージ<color=#92fc63>$1</color>の作戦委任が進行中です。委任終了までしばらくお待ちください"
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation_cancle = {
+	tip = "戻る"
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation_go = {
+	tip = "委任確認"
+}
+
+
+_G.pg.base.gametip.auto_battle_help = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>作戦委任</color>について:
+
+作戦委任とは、一度クリアしたステージの攻略（周回）を委任し、所定の時間を経過すると委任報酬を入手できる機能になります。指揮官がゲームにログインしていなくても、作戦委任は<color=#92fc63>中止にならず、自動で進行</color>します。
+1 ステージの作戦委任機能を解放するには、<color=#92fc63>一度も中止せず連続出撃モードで1回ステージをクリア</color>する必要があります。
+2 1周の作戦委任に消費される時間は、前記の<color=#92fc63>一度も中止せず連続出撃モードで1回ステージをクリア</color>した際にかかった最短時間になります（<color=#92fc63>主力艦隊の主砲攻撃時間は消費時間に含まれません</color>。また、消費時間の集計は作戦委任機能実装後に有効になります）。
+3 1日で作戦委任を遂行できる時間上限<color=#92fc63>「委任可能時間」は8時間</color>になります。「委任可能時間」が不足すると、作戦委任を行うことができません。作戦委任遂行時に、<color=#92fc63>消費時間と同じ長さの「委任可能時間」</color>を消費します。「委任可能時間」<color=#92fc63>の残り時間が1周回に必要な時間を満たしていない場合でも、1度だけ作戦委任を遂行することができます</color>。「委任可能時間」は<color=#92fc63>毎日0時</color>にリセットされます。
+4 作戦委任進行中に、<color=#92fc63>メイン海域・イベント海域・常設イベント海域など</color>に出撃することはできません。
+5 作戦委任の報酬は基本、大講堂熟練度のみになります。ただし<color=#92fc63>アイテム「作戦全権委任状」を消費すると、追加で報酬を入手</color>することができます。
+
+<color=#92fc63>作戦全権委任状</color>について：
+
+1 作戦全権委任状を使用することで、<color=#92fc63>作戦委任時に報酬を追加で入手</color>することができます。作戦全権委任状1つにつき<color=#92fc63>作戦委任1回</color>の追加報酬を入手できます。作戦全権委任状は<color=#92fc63>デイリー任務</color>などで入手することができます。
+2 作戦全権委任状を使用すると、作戦委任進行時に追加で<color=#92fc63>燃料も消費されます</color>。
+3 作戦全権委任状で入手できる追加報酬は、<color=#92fc63>作戦委任したステージのクリア報酬</color>に応じて変化します。<color=#92fc63>艦船、資金、素材のほか、一部アイテム</color>が出現します。
+4 作戦全権委任状を消費して作戦委任を行うと<color=#92fc63>一部の任務の任務進捗が増加</color>します。
+5 作戦全権委任状を消費して作戦委任を行うと、確率で<color=#92fc63>緊急軍事委託</color>が出現します（1回の作戦委任で最大1つまで）。
+6 「委任可能時間補充」画面では、作戦全権委任状を消費することで<color=#92fc63>当日の委任可能時間を増加</color>させることができます。作戦全権委任状1つにつき、<color=#92fc63>1時間</color>の委任可能時間を増加させることができます。]]
+		}
+	}
 }

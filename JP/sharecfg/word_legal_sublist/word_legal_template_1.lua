@@ -2053,7 +2053,10 @@ temp = function()
 				["ァ"] = {
 					["ス"] = {
 						["ト"] = {
-							this = true
+							this = true,
+							["改"] = {
+								this = true
+							}
 						}
 					}
 				}

@@ -124,21 +124,21 @@ slot0.doExtraFlagUpdate = function(slot0)
 	end
 end
 
-slot0.doRetreat = function(slot0)
-	slot2 = slot0.flag
-	slot3 = slot0.chapter
+slot0.doRetreat = function(slot0, slot1)
+	slot3 = slot0.flag
+	slot4 = slot0.chapter
 
 	if slot0.op.id then
-		if #slot3.fleets > 0 then
-			slot3:retreatFleet(slot1.id)
+		if #slot4.fleets > 0 then
+			slot4:retreatFleet(slot2.id)
 
-			slot2 = bit.bor(slot2, ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion, ChapterConst.DirtyStrategy)
+			slot3 = bit.bor(slot3, ChapterConst.DirtyFleet, ChapterConst.DirtyAttachment, ChapterConst.DirtyChampion, ChapterConst.DirtyStrategy)
 		end
 	else
-		slot3:retreat(slot1.win)
+		slot4:retreat(slot2.win, slot2.arg1, slot1)
 	end
 
-	slot0.flag = slot2
+	slot0.flag = slot3
 end
 
 slot0.doMove = function(slot0)

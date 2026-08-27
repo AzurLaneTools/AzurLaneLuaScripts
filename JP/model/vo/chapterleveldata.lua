@@ -5,6 +5,7 @@ slot0.update = function(slot0, slot1)
 
 	slot0.active = true
 	slot0.dueTime = slot1.time
+	slot0.activeTime = slot1.start_time
 	slot0.loopFlag = slot1.loop_flag
 	slot0.modelCount = slot1.model_act_count
 	slot0.roundIndex = slot1.round
@@ -242,17 +243,22 @@ slot0.update = function(slot0, slot1)
 	slot0.activateAmbush = not slot0:isLoop() and slot0:GetWillActiveAmbush()
 end
 
-slot0.retreat = function(slot0, slot1)
+slot0.retreat = function(slot0, slot1, slot2, slot3)
 	if slot1 then
 		slot0.todayDefeatCount = slot0.todayDefeatCount + 1
 
 		slot0:updateTodayDefeatCount()
+
+		if slot2 == 1 and slot3 and slot3 > 0 then
+			getProxy(ChapterAutoProxy):UpdateRecord(ChapterAutoProxy.TYPE.SLG, slot0.id, slot3)
+		end
 	end
 end
 
 slot0.CleanLevelData = function(slot0)
 	slot0.active = false
 	slot0.loopFlag = 0
+	slot0.activeTime = nil
 	slot0.dueTime = nil
 	slot0.cells = nil
 	slot0.fleets = nil

@@ -72,6 +72,7 @@ pg.dorm3d_furniture_template.all = {
 	1461,
 	1462,
 	1463,
+	1468,
 	2101,
 	2102,
 	2103,
@@ -164,7 +165,8 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		1415,
 		1461,
 		1462,
-		1463
+		1463,
+		1468
 	},
 	[21] = {
 		2101,
@@ -1908,7 +1910,7 @@ pg.base.dorm3d_furniture_template = {}
 		type = 4,
 		room_id = 14,
 		desc = "プライベートでロマンチックなシークレットスペース。赤いベルベットの寝具と引き出し式の天蓋カーテンが、夜に静けさと温もりをもたらしてくれる。",
-		is_exclusive = 0,
+		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
 		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture1",
@@ -1942,7 +1944,7 @@ pg.base.dorm3d_furniture_template = {}
 		type = 6,
 		room_id = 14,
 		desc = "滑らかで平らな天板の古典的なデザインのデスク。頑丈で収納機能もあり、学習や仕事にピッタリ。",
-		is_exclusive = 0,
+		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_study01",
 		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture2",
@@ -1976,7 +1978,7 @@ pg.base.dorm3d_furniture_template = {}
 		type = 5,
 		room_id = 14,
 		desc = "本革素材を使用し、豪華でありながらも控えめな印象を与えるソファ。生活の安らぎと趣を存分に楽しめる一品。",
-		is_exclusive = 0,
+		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_living01",
 		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture3",
@@ -2002,6 +2004,40 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/livingroom"
+		}
+	}
+	pg.base.dorm3d_furniture_template[1468] = {
+		rarity = 5,
+		name = "トキメキの瞬間",
+		type = 99,
+		room_id = 14,
+		desc = "ゴージャスで魅惑的かつ情熱とロマン溢れる浴槽の中で、激しい波に潜む感情の高ぶりを肌で感じてみて。",
+		is_exclusive = 1,
+		model = "Pay_Aijierhostel/pre_db_aijier_special01",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture4",
+		acesses = "",
+		id = 1468,
+		target_slots = {
+			1140104
+		},
+		touch_id = {
+			{
+				49905,
+				4990570
+			}
+		},
+		shop_id = {
+			270604
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1468"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/entertainment"
 		}
 	}
 	pg.base.dorm3d_furniture_template[2101] = {

@@ -115682,6 +115682,441 @@ _G.pg.base.ship_skin_template[301189] = {
 }
 
 
+_G.pg.base.ship_skin_template[301190] = {
+	name = "天津風",
+	change_skin = "",
+	desc = "陽炎型駆逐艦-天津風",
+	illustrator2 = -1,
+	ship_group = 30119,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "tianjinfeng",
+	lover_hand = "",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 14,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 301190,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "tianjinfeng",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 521,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.388,
+				0.9,
+				0
+			}
+		},
+		torpedo = {
+			{
+				-0.102,
+				0.023,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.724,
+				2.399,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.64,
+						2.45,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[301191] = {
+	name = "コックリと吹けば天津風",
+	desc = "……こうすれば、どんな問いにも答えてくれるコックリ……さん……を……おぉっ！…………ふぁ～。我を勝手に呼び覚ました者は……人間、あなたなの？",
+	illustrator2 = -1,
+	ship_group = 30119,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "tianjinfeng_2",
+	lover_hand = "hand_1_02",
+	skin_type = 0,
+	shop_type_id = 29,
+	l2d_ignore_drag = 0,
+	hand_id = 14,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "602",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 301191,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "tianjinfeng_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71396,
+	voice_actor = 521,
+	shop_dynamic_hx = 0,
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		10,
+		7,
+		2
+	},
+	change_skin = {
+		group = 30119,
+		action = "changeBlack",
+		next = 301192,
+		state = 4,
+		index = 1
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		-543.3,
+		-487,
+		0,
+		0.79
+	},
+	spine_offset_profile = {
+		-465.7,
+		-477,
+		0,
+		0.79
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.422,
+				0.883,
+				0
+			}
+		},
+		torpedo = {
+			{
+				-0.191,
+				-0.021,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.785,
+				2.427,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.64,
+						2.45,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		-485,
+		-640,
+		0,
+		0.91
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-467,
+				1365,
+				2,
+				-164,
+				0,
+				2
+			},
+			{
+				-852,
+				302,
+				1.8,
+				0,
+				-145,
+				2
+			},
+			{
+				-598,
+				-381,
+				2,
+				118,
+				0,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[301192] = {
+	name = "コックリと吹けば天津風",
+	desc = "……こうすれば、どんな問いにも答えてくれるコックリ……さん……を……おぉっ！…………ふぁ～。我を勝手に呼び覚ました者は……人間、あなたなの？",
+	illustrator2 = -1,
+	ship_group = 30119,
+	group_index = 2,
+	purchase_offset = "",
+	painting = "tianjinfeng_3",
+	lover_hand = "hand_1_02",
+	skin_type = 0,
+	shop_type_id = 29,
+	l2d_ignore_drag = 0,
+	hand_id = 14,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "602",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 301192,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "tianjinfeng_2",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 521,
+	shop_dynamic_hx = 0,
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		10,
+		7,
+		2
+	},
+	change_skin = {
+		group = 30119,
+		action = "changeBlack",
+		next = 301191,
+		state = 4,
+		index = 2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		-22,
+		-1087,
+		0,
+		0.85
+	},
+	spine_offset_profile = {
+		43.5,
+		-1094.7,
+		0,
+		0.85
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				-0.27,
+				0.57,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.17,
+				0.09,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.18,
+				3.26,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.64,
+						2.45,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		33,
+		-1267.5,
+		0,
+		0.94
+	}
+}
+
+
 _G.pg.base.ship_skin_template[301200] = {
 	name = "野分",
 	change_skin = "",
@@ -285111,7 +285546,7 @@ _G.pg.base.ship_skin_template[900284] = {
 	change_skin = "",
 	desc = "TB",
 	illustrator2 = -1,
-	ship_group = 90284,
+	ship_group = 900284,
 	group_index = 0,
 	purchase_offset = "",
 	painting = "tbniang",
@@ -285250,7 +285685,7 @@ _G.pg.base.ship_skin_template[900285] = {
 	change_skin = "",
 	desc = "アビータ・Strength・VIII",
 	illustrator2 = -1,
-	ship_group = 90285,
+	ship_group = 900285,
 	group_index = 0,
 	purchase_offset = "",
 	painting = "strength",
@@ -285389,7 +285824,7 @@ _G.pg.base.ship_skin_template[900286] = {
 	change_skin = "",
 	desc = "アビータ・Temparence・XIV",
 	illustrator2 = -1,
-	ship_group = 90286,
+	ship_group = 900286,
 	group_index = 0,
 	purchase_offset = "",
 	painting = "temperance",
@@ -285528,7 +285963,7 @@ _G.pg.base.ship_skin_template[900287] = {
 	change_skin = "",
 	desc = "アビータ・Hermit・IX",
 	illustrator2 = -1,
-	ship_group = 90287,
+	ship_group = 900287,
 	group_index = 0,
 	purchase_offset = "",
 	painting = "hermit",
@@ -285667,7 +286102,7 @@ _G.pg.base.ship_skin_template[900295] = {
 	change_skin = "",
 	desc = "约克城级航空母舰—约克城，舷号CV-5",
 	illustrator2 = -1,
-	ship_group = 90295,
+	ship_group = 900295,
 	group_index = 0,
 	purchase_offset = "",
 	painting = "yuekecheng_hei",
@@ -285797,7 +286232,7 @@ _G.pg.base.ship_skin_template[900296] = {
 	change_skin = "",
 	desc = "约克城级航空母舰—企业，舷号CV-6",
 	illustrator2 = -1,
-	ship_group = 90296,
+	ship_group = 900296,
 	group_index = 0,
 	purchase_offset = "",
 	painting = "qiye_hei",
@@ -285922,7 +286357,7 @@ _G.pg.base.ship_skin_template[900297] = {
 	change_skin = "",
 	desc = "约克城级航空母舰—大黄蜂，舷号CV-8",
 	illustrator2 = -1,
-	ship_group = 90297,
+	ship_group = 900297,
 	group_index = 0,
 	purchase_offset = "",
 	painting = "dahuangfeng_hei",
@@ -286047,7 +286482,7 @@ _G.pg.base.ship_skin_template[900298] = {
 	change_skin = "",
 	desc = "{namecode:161}级战列巡洋舰一番舰—{namecode:161}",
 	illustrator2 = -1,
-	ship_group = 90298,
+	ship_group = 900298,
 	group_index = 0,
 	purchase_offset = "",
 	painting = "tiancheng_hei",

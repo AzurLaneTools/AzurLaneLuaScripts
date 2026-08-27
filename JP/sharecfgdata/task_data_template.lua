@@ -42976,6 +42976,59 @@ _G.pg.base.task_data_template[7210] = {
 }
 
 
+_G.pg.base.task_data_template[7211] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 7211,
+	type = 3,
+	is_head = 1,
+	count_inherit = 0,
+	name = "デイリー任務を7つ完成する",
+	desc = "デイリー任務を7つ完成する",
+	sub_type = 90,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 15,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 7211,
+	target_num = 7,
+	fix_task = 0,
+	target_id = {
+		7201,
+		7202,
+		7203,
+		7204,
+		7205,
+		7206,
+		7207,
+		7208,
+		7209,
+		7210
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68700,
+			3
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[7301] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -243844,6 +243897,318 @@ _G.pg.base.task_data_template[25696] = {
 }
 
 
+_G.pg.base.task_data_template[27411] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910601,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天津风共斗』挑战券任务1",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27411,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2027,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27412] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910602,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天津风共斗』挑战券任务2",
+	desc = "任意のハードモード海域を1回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27412,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2027,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27413] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910603,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天津风共斗』挑战券任务3",
+	desc = "任意のハードモード海域を3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27413,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2027,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27414] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910604,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天津风共斗』挑战券任务4",
+	desc = "「『偉いやつ』の予告状」任意のステージを5回クリアする",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27414,
+	target_num = 5,
+	fix_task = 0,
+	target_id = {
+		2059001,
+		2059002,
+		2059003,
+		2059004,
+		2059005
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2027,
+			1
+		}
+	},
+	scene = {
+		"ACT_BOSS_BATTLE"
+	}
+}
+
+
+_G.pg.base.task_data_template[27415] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910605,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天津风共斗』挑战券任务5",
+	desc = "「『偉いやつ』の予告状」任意のステージを10回クリアする",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27415,
+	target_num = 10,
+	fix_task = 0,
+	target_id = {
+		2059001,
+		2059002,
+		2059003,
+		2059004,
+		2059005
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2027,
+			1
+		}
+	},
+	scene = {
+		"ACT_BOSS_BATTLE"
+	}
+}
+
+
+_G.pg.base.task_data_template[27416] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910606,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天津风共斗』通关挑战关卡",
+	desc = "「『偉いやつ』の予告状」カスタマイズステージを1回クリアする",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27416,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "2059005",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"ACT_BOSS_BATTLE"
+	}
+}
+
+
+_G.pg.base.task_data_template[27417] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88249,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『260827天津风SP』登录送皮肤体验券活动",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27417,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			749,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[25701] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -249328,6 +249693,384 @@ _G.pg.base.task_data_template[27265] = {
 		{
 			mapIdx = 2040001,
 			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27400] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700500,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务1",
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27400,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27401] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700501,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务2",
+	desc = "任意のハードステージを3回クリアせよ",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27401,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27402] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700502,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务3",
+	desc = "「デイリーチャレンジ」を三回行う ",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27402,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27403] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700503,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务4",
+	desc = "任意の敵艦を20隻撃破する",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27403,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27404] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700504,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务5",
+	desc = "戦術教室で戦術訓練を2回遂行せよ！",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27404,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27405] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700505,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务6",
+	desc = "「軍事委託」を2回遂行する",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27405,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27406] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700506,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务7",
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27406,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27407] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88153,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『260723华丽连战SP』登录送皮肤体验券活动",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27407,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			740,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27408] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88245,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『260813美服周年』登录送皮肤体验券活动",
+	desc = "ゲームにログインする",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27408,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			747,
+			3
 		}
 	}
 }
@@ -255158,384 +255901,6 @@ _G.pg.base.task_data_template[27393] = {
 			2,
 			65119,
 			2
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27400] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700500,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务1",
-	desc = "艦隊を出撃させ、15回勝利せよ！",
-	sub_type = 20,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27400,
-	target_num = 15,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27401] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700501,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务2",
-	desc = "任意のハードステージを3回クリアせよ",
-	sub_type = 182,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27401,
-	target_num = 3,
-	fix_task = 0,
-	target_id = "10101",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27402] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700502,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务3",
-	desc = "「デイリーチャレンジ」を三回行う ",
-	sub_type = 26,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27402,
-	target_num = 3,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27403] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700503,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务4",
-	desc = "任意の敵艦を20隻撃破する",
-	sub_type = 11,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27403,
-	target_num = 20,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27404] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700504,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务5",
-	desc = "戦術教室で戦術訓練を2回遂行せよ！",
-	sub_type = 71,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27404,
-	target_num = 2,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27405] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700505,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务6",
-	desc = "「軍事委託」を2回遂行する",
-	sub_type = 80,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27405,
-	target_num = 2,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27406] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700506,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务7",
-	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
-	sub_type = 21,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27406,
-	target_num = 3,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			2
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27407] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 88153,
-	type = 6,
-	is_head = 1,
-	count_inherit = 0,
-	name = "『260723华丽连战SP』登录送皮肤体验券活动",
-	desc = "ゲームにログインする",
-	sub_type = 1011,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 1,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27407,
-	target_num = 1,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			1,
-			740,
-			3
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27408] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 88245,
-	type = 6,
-	is_head = 1,
-	count_inherit = 0,
-	name = "『260813美服周年』登录送皮肤体验券活动",
-	desc = "ゲームにログインする",
-	sub_type = 1011,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 1,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27408,
-	target_num = 1,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			1,
-			747,
-			3
 		}
 	}
 }

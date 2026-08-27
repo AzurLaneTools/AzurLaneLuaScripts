@@ -269992,7 +269992,7 @@ _G.pg.base.aircraft_template[3114003] = {
 
 
 _G.pg.base.aircraft_template[3119501] = {
-	name = "【2023闪乱联动】战忍型航空母舰 战斗机Lv1",
+	name = "【2024春节共斗 EX难度】关卡仙鹤飞机空袭 战斗机",
 	max_hp = 400,
 	accuracy = 23,
 	model_ID = "feiji_hunianxianhe_small",
@@ -270069,7 +270069,7 @@ _G.pg.base.aircraft_template[3119501] = {
 
 
 _G.pg.base.aircraft_template[3119502] = {
-	name = "【2023闪乱联动】战忍型航空母舰 轰炸机Lv1",
+	name = "【2024春节共斗 EX难度】关卡仙鹤飞机空袭 轰炸机",
 	max_hp = 400,
 	accuracy = 23,
 	model_ID = "feiji_hunianxianhe_small",
@@ -305572,6 +305572,160 @@ _G.pg.base.aircraft_template[3427108] = {
 		},
 		{
 			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3429501] = {
+	name = "【2026天津风共斗 EX难度】词条飞机空袭 战斗机",
+	max_hp = 400,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3429501,
+	scale = 0.75,
+	weapon_ID = {
+		3429503
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3429502] = {
+	name = "【2026天津风共斗 EX难度】词条飞机空袭 轰炸机",
+	max_hp = 400,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3429502,
+	scale = 0.75,
+	weapon_ID = {
+		3429504
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
 			0,
 			0
 		},
