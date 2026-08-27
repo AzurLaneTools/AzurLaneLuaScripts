@@ -160,7 +160,22 @@ pg.activity_medal_template.all = {
 	5107805,
 	5107806,
 	5107807,
-	5107808
+	5107808,
+	5111001,
+	5111002,
+	5111003,
+	5111004,
+	5111005,
+	5111006,
+	5111007,
+	5111008,
+	5111301,
+	5111302,
+	5111303,
+	5111304,
+	5111305,
+	5111306,
+	5111307
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -360,6 +375,25 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5107806,
 		5107807,
 		5107808
+	},
+	[51110] = {
+		5111001,
+		5111002,
+		5111003,
+		5111004,
+		5111005,
+		5111006,
+		5111007,
+		5111008
+	},
+	[51113] = {
+		5111301,
+		5111302,
+		5111303,
+		5111304,
+		5111305,
+		5111306,
+		5111307
 	}
 }
 pg.base = pg.base or {}
@@ -2263,5 +2297,185 @@ end)()
 		activity_medal_name = "스티커: 봉쇄 구역",
 		id = 5107808,
 		medal_asset = "ActivityMedal/5107808"
+	}
+	pg.base.activity_medal_template[5111001] = {
+		activity_medal_desc = "「갈림길에서 길을 잃은 여행자여. 아스트라리움에 어서 오시길.」",
+		next_medal = 0,
+		item = 66066,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "1",
+		task_id = 25702,
+		activity_medal_name = "기념 스티커: 아스트라리움",
+		id = 5111001,
+		medal_asset = "ActivityMedal/5111001"
+	}
+	pg.base.activity_medal_template[5111002] = {
+		activity_medal_desc = "이 도시에는 당신 같은 명탐정이 더 많이 필요해!",
+		next_medal = 0,
+		item = 66067,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "2",
+		task_id = 25703,
+		activity_medal_name = "기념 스티커: 명탐정",
+		id = 5111002,
+		medal_asset = "ActivityMedal/5111002"
+	}
+	pg.base.activity_medal_template[5111003] = {
+		activity_medal_desc = "장비 점검 완료, 카운트다운 3… 2… 1 ―― 녹화 시작!",
+		next_medal = 0,
+		item = 66068,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "3",
+		task_id = 25704,
+		activity_medal_name = "기념 스티커: 스트리머",
+		id = 5111003,
+		medal_asset = "ActivityMedal/5111003"
+	}
+	pg.base.activity_medal_template[5111004] = {
+		activity_medal_desc = "이제 막 떠오르기 시작한 새로운 스타. 계속해서 힘내!",
+		next_medal = 0,
+		item = 66069,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "4",
+		task_id = 25705,
+		activity_medal_name = "기념 스티커: 신인 아이돌",
+		id = 5111004,
+		medal_asset = "ActivityMedal/5111004"
+	}
+	pg.base.activity_medal_template[5111005] = {
+		activity_medal_desc = "통 큰 고객님, 오늘은 어떤 「보안」에 관한 상담을 원하시나요?",
+		next_medal = 0,
+		item = 66070,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "5",
+		task_id = 25706,
+		activity_medal_name = "기념 스티커: 보안 전문가",
+		id = 5111005,
+		medal_asset = "ActivityMedal/5111005"
+	}
+	pg.base.activity_medal_template[5111006] = {
+		activity_medal_desc = "도시에 숨겨진 비밀은 찾았어? ――「B」on",
+		next_medal = 0,
+		item = 66071,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "6",
+		task_id = 25707,
+		activity_medal_name = "기념 스티커: 「B」",
+		id = 5111006,
+		medal_asset = "ActivityMedal/5111006"
+	}
+	pg.base.activity_medal_template[5111007] = {
+		activity_medal_desc = "도시에 숨겨진 비밀은 찾았어? ――「H」omme",
+		next_medal = 0,
+		item = 66072,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "7",
+		task_id = 25708,
+		activity_medal_name = "기념 스티커: 「H」",
+		id = 5111007,
+		medal_asset = "ActivityMedal/5111007"
+	}
+	pg.base.activity_medal_template[5111008] = {
+		activity_medal_desc = "도시에 숨겨진 비밀은 찾았어? ——「R」ichard",
+		next_medal = 0,
+		item = 66073,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "8",
+		task_id = 25709,
+		activity_medal_name = "기념 스티커: 「R」",
+		id = 5111008,
+		medal_asset = "ActivityMedal/5111008"
+	}
+	pg.base.activity_medal_template[5111301] = {
+		activity_medal_desc = "트로피가 망가지면 누가 변상할 거야? 쥬쥬!",
+		next_medal = 0,
+		item = 66075,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "1",
+		task_id = 25712,
+		activity_medal_name = "기념 스티커: 우승 트로피",
+		id = 5111301,
+		medal_asset = "ActivityMedal/5111301"
+	}
+	pg.base.activity_medal_template[5111302] = {
+		activity_medal_desc = "앵콜 앵콜",
+		next_medal = 0,
+		item = 66076,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "2",
+		task_id = 25713,
+		activity_medal_name = "기념 스티커: 열렬한 응원",
+		id = 5111302,
+		medal_asset = "ActivityMedal/5111302"
+	}
+	pg.base.activity_medal_template[5111303] = {
+		activity_medal_desc = "정말 어쩔 수 없네. 꽉 잡고 있어~",
+		next_medal = 0,
+		item = 66077,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "3",
+		task_id = 25714,
+		activity_medal_name = "기념 스티커: 압도적인 1위",
+		id = 5111303,
+		medal_asset = "ActivityMedal/5111303"
+	}
+	pg.base.activity_medal_template[5111304] = {
+		activity_medal_desc = "이 노즐, 수압이 엄청나!",
+		next_medal = 0,
+		item = 66078,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "4",
+		task_id = 25715,
+		activity_medal_name = "기념 스티커: 고압 물총",
+		id = 5111304,
+		medal_asset = "ActivityMedal/5111304"
+	}
+	pg.base.activity_medal_template[5111305] = {
+		activity_medal_desc = "라스트 스퍼트에 돌입! 승리가 코앞까지 다가왔다!",
+		next_medal = 0,
+		item = 66079,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "5",
+		task_id = 25716,
+		activity_medal_name = "기념 스티커: 실황 중계",
+		id = 5111305,
+		medal_asset = "ActivityMedal/5111305"
+	}
+	pg.base.activity_medal_template[5111306] = {
+		activity_medal_desc = "결승선만 통과하면, 곧 환호성이 울려 퍼지겠지!",
+		next_medal = 0,
+		item = 66080,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "6",
+		task_id = 25717,
+		activity_medal_name = "기념 스티커: 골인의 순간",
+		id = 5111306,
+		medal_asset = "ActivityMedal/5111306"
+	}
+	pg.base.activity_medal_template[5111307] = {
+		activity_medal_desc = "DU！DU！DU！DU！",
+		next_medal = 0,
+		item = 66081,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "7",
+		task_id = 25718,
+		activity_medal_name = "기념 스티커: SPEED MAX",
+		id = 5111307,
+		medal_asset = "ActivityMedal/5111307"
 	}
 end)()

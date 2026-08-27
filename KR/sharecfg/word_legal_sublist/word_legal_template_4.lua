@@ -4,6 +4,61 @@ slot0.word_legal_template_4 = {}
 slot1 = slot0.word_legal_template_4
 
 temp = function()
+	uv0["네"] = {
+		["바"] = {
+			["다"] = {
+				this = true
+			}
+		},
+		["코"] = {
+			["네"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["테"] = {
+		["네"] = {
+			["시"] = {
+				this = true
+			}
+		},
+		["세"] = {
+			["우"] = {
+				["스"] = {
+					this = true
+				}
+			}
+		},
+		["러"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["캘"] = {
+		["리"] = {
+			["포"] = {
+				["니"] = {
+					["아"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["메"] = {
 		["릴"] = {
 			["랜"] = {
@@ -1078,55 +1133,6 @@ temp = function()
 								}
 							}
 						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["불"] = {
-		["독"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["코"] = {
-		["멧"] = {
-			this = true
-		},
-		["테"] = {
-			["가"] = {
-				["와"] = {
-					[" "] = {
-						["유"] = {
-							["이"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["폭"] = {
-		["스"] = {
-			["하"] = {
-				["운"] = {
-					["드"] = {
-						this = true
 					}
 				}
 			}

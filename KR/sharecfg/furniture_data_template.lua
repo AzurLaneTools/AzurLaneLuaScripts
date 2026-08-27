@@ -199,6 +199,8 @@ pg.furniture_data_template.all = {
 	339,
 	341,
 	342,
+	343,
+	344,
 	100002,
 	100003,
 	100004,
@@ -3584,7 +3586,26 @@ pg.furniture_data_template.all = {
 	341301,
 	341302,
 	341303,
-	341304
+	341304,
+	342001,
+	342002,
+	342101,
+	342102,
+	342103,
+	342104,
+	342105,
+	342106,
+	342107,
+	342108,
+	342109,
+	342110,
+	342111,
+	342112,
+	342113,
+	342114,
+	342115,
+	342116,
+	342117
 }
 pg.furniture_data_template.get_id_list_by_themeId = {
 	[0] = {
@@ -3781,6 +3802,8 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		339,
 		341,
 		342,
+		343,
+		344,
 		100002,
 		100003,
 		100004,
@@ -7419,6 +7442,27 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		341302,
 		341303,
 		341304
+	},
+	[142] = {
+		342001,
+		342002,
+		342101,
+		342102,
+		342103,
+		342104,
+		342105,
+		342106,
+		342107,
+		342108,
+		342109,
+		342110,
+		342111,
+		342112,
+		342113,
+		342114,
+		342115,
+		342116,
+		342117
 	}
 }
 pg.furniture_data_template.get_id_list_by_tag = {
@@ -9710,7 +9754,23 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		341115,
 		341116,
 		341117,
-		341118
+		341118,
+		342101,
+		342102,
+		342103,
+		342104,
+		342105,
+		342106,
+		342107,
+		342108,
+		342109,
+		342110,
+		342111,
+		342112,
+		342113,
+		342114,
+		342115,
+		342116
 	},
 	{
 		1108,
@@ -9995,7 +10055,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338002,
 		339002,
 		340002,
-		341002
+		341002,
+		342002
 	},
 	{
 		1001,
@@ -10123,7 +10184,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338001,
 		339001,
 		340001,
-		341001
+		341001,
+		342001
 	},
 	{
 		1301,
@@ -10935,7 +10997,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338116,
 		339115,
 		340105,
-		341119
+		341119,
+		342117
 	},
 	{
 		106,
@@ -11017,7 +11080,9 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		338,
 		339,
 		341,
-		342
+		342,
+		343,
+		344
 	}
 }
 pg.furniture_data_template.get_id_list_by_type = {
@@ -11148,7 +11213,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		338002,
 		339002,
 		340002,
-		341002
+		341002,
+		342002
 	},
 	{
 		120,
@@ -13436,7 +13502,24 @@ pg.furniture_data_template.get_id_list_by_type = {
 		341116,
 		341117,
 		341118,
-		341119
+		341119,
+		342101,
+		342102,
+		342103,
+		342104,
+		342105,
+		342106,
+		342107,
+		342108,
+		342109,
+		342110,
+		342111,
+		342112,
+		342113,
+		342114,
+		342115,
+		342116,
+		342117
 	},
 	{
 		1108,
@@ -13721,7 +13804,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		338001,
 		339001,
 		340001,
-		341001
+		341001,
+		342001
 	},
 	{
 		1101,
@@ -14435,6 +14519,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		339,
 		341,
 		342,
+		343,
+		344,
 		100002,
 		100004,
 		100005,
@@ -24416,6 +24502,94 @@ end)()
 		},
 		interAction_group = {}
 	}
+	pg.base.furniture_data_template[343] = {
+		can_rotate = 0,
+		describe = "「맥거핀을 손에 넣은 사람은 소원 하나를 이룰 수 있지. 선생님의 소원은 뭐야? ――B·H·R」. 「몽광의 아스트라리움」 이벤트 참가 보상.",
+		gain_by = "몽광의 아스트라리움",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "신곡 마스터 테이프",
+		advice = 0,
+		id = 343,
+		tag = 8,
+		comfortable = 0,
+		icon = "benningdunxunzhangicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"benningdunxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[344] = {
+		can_rotate = 0,
+		describe = "선셋 애비뉴 6시간 내구 레이스의 우승 트로피. 승리의 빛을 발하는 이 트로피는 서킷에서 누릴 수 있는 최고의 영광을 상징한다.",
+		gain_by = "플래시 웨이브: 서머 레이스",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "우승 트로피",
+		advice = 0,
+		id = 344,
+		tag = 8,
+		comfortable = 0,
+		icon = "guanjunjiangbeixunzhangicon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"guanjunjiangbeixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
 	pg.base.furniture_data_template[100002] = {
 		advice = 0,
 		name = "우정의 공기 펌프",
@@ -24669,6 +24843,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[100005] = {
 		advice = 0,
 		name = "비밀의 마술상자",
@@ -24871,8 +25047,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[100007] = {
 		advice = 0,
 		name = "신비한 마술통",
@@ -30532,7 +30706,7 @@ end)()
 	}
 	pg.base.furniture_data_template[100088] = {
 		advice = 0,
-		name = "赤焰冲刺号",
+		name = "적염 질주호 ",
 		count = 1,
 		type = 7,
 		dir = 0,
@@ -30552,7 +30726,7 @@ end)()
 		canputon = 0,
 		id = 100088,
 		comfortable = 0,
-		describe = "油门焊死，全速前进！",
+		describe = "가속 페달 고정, 전속 전진! ",
 		dorm_id = 0,
 		tag = 6,
 		spine_extra = "",
@@ -31646,6 +31820,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[1106] = {
 		can_rotate = 0,
 		describe = "재활용 가게에서 샀다고 할 것 같은 낡은 TV. 볼 수 있는 것만으로 만족.",
@@ -31734,8 +31910,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[1108] = {
 		can_rotate = 0,
 		describe = "차가운 밤을 밝히는 등유 램프는 우리 노동자의 혁명 정신을 상징하는 것이다! ...지휘관, 역시 조명을 사서 바꾸는 게...",
@@ -35793,6 +35967,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[5111] = {
 		can_rotate = 0,
 		describe = "회의용 의자. 앉을 때 자세를 바르게 잡아야 한다.",
@@ -35898,8 +36074,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[5113] = {
 		can_rotate = 0,
 		describe = "중요한 자료가 잔뜩 들어있는 자료 선반. 비밀정보 취급에 요주의!",
@@ -40209,6 +40383,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[11106] = {
 		can_rotate = 0,
 		describe = "맛있을 것 같은 외관과는 달리 착석감은 좀 애매하다.",
@@ -40298,8 +40474,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[11108] = {
 		can_rotate = 0,
 		describe = "맛있을 것 같은 외관과는 달리 착석감은 좀 애매하다.",
@@ -44509,6 +44683,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[14112] = {
 		can_rotate = 0,
 		describe = "너무 커서 데스크가 된 토성 체어.",
@@ -44621,8 +44797,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[14114] = {
 		can_rotate = 0,
 		describe = "별하늘 저편을 들여다보자.",
@@ -49517,6 +49691,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[18304] = {
 		can_rotate = 0,
 		describe = "게임 할 때 화면 구석에 자주 표시되는 녀석!",
@@ -49593,8 +49769,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[18306] = {
 		can_rotate = 0,
 		describe = "블랙 뇌파 컨트롤러의 모양을 한 오브젝트.",
@@ -54156,6 +54330,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[22203] = {
 		can_rotate = 0,
 		describe = "벨파는 비스켓, 나는 스콘, 서포크는 밀크 푸딩, 켄트는 미니 케이크, 셰피는 샌드위치…그리고 또…뭐가 남았더라?",
@@ -54232,8 +54408,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[22302] = {
 		can_rotate = 0,
 		describe = "이 분재는 벽에 걸어도 될지도! …으음, 너무 높이 걸었나…아하하……아! 지휘관, 고마워!",
@@ -59058,6 +59232,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[28101] = {
 		can_rotate = 0,
 		describe = "숲에서 자주 볼 수 있는 작은 덤불",
@@ -59134,8 +59310,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[28103] = {
 		can_rotate = 0,
 		describe = "숲의 느낌이 가득한 침대, 커다란 이파리가 특징이다.",
@@ -63723,6 +63897,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[30122] = {
 		advice = 0,
 		name = "레드 살류트",
@@ -63880,8 +64056,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[30124] = {
 		advice = 0,
 		name = "깜짝 무지개 상자 1",
@@ -68324,6 +68498,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[36122] = {
 		can_rotate = 0,
 		describe = "식당에 놓여있는 식기와 음식을 올려놓는 상",
@@ -68428,8 +68604,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[36124] = {
 		can_rotate = 0,
 		describe = "건초로 만든 방석",
@@ -72783,6 +72957,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[39124] = {
 		can_rotate = 0,
 		describe = "모두에게 한 장씩 주고 싶은 복을 부르는 방석",
@@ -72872,8 +73048,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[39126] = {
 		advice = 0,
 		name = "훠궈 (대)",
@@ -77294,6 +77468,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[43111] = {
 		can_rotate = 1,
 		describe = "인텔리전트한 슈퍼 AI 키즈나 아이를 이미지한 양탄자",
@@ -77384,8 +77560,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[43113] = {
 		can_rotate = 0,
 		describe = "키즈나 아이가 경영하는 바에 있을 것 같은 보틀랙 ……'A.I.Whisky'라는 게 추천 메뉴인데, 음주는 만 20세부터 가능하다고!",
@@ -81603,6 +81777,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[46101] = {
 		can_rotate = 1,
 		describe = "펑크 뮤직 한 곡 어때요?",
@@ -81706,8 +81882,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[46103] = {
 		can_rotate = 0,
 		describe = "언제 어디서든, 교통 규칙을 지키세요",
@@ -85932,6 +86106,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[50104] = {
 		can_rotate = 0,
 		describe = "음… 뭘 마시지…",
@@ -86008,8 +86184,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[50106] = {
 		can_rotate = 0,
 		describe = "정비가 잘 되어있네. 달리기 편할 것 같아.",
@@ -90376,6 +90550,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[55109] = {
 		can_rotate = 0,
 		describe = "실내 분위기를 띄울 장식으로 제격!",
@@ -90452,8 +90628,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[55111] = {
 		can_rotate = 0,
 		describe = "태양과 별 모양의 쿠션이 놓인 하늘색 소파",
@@ -94708,6 +94882,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[59103] = {
 		can_rotate = 0,
 		describe = "딱딱하긴해도 앉아 있으면 편하답니다.",
@@ -94797,8 +94973,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[59105] = {
 		can_rotate = 0,
 		describe = "포근함에 둘러쌓인 편안함~",
@@ -99120,6 +99294,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[63001] = {
 		can_rotate = 0,
 		describe = "어서 오세요~ 배가 고프시다면 피자를 드세요쥬!",
@@ -99196,8 +99372,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[63101] = {
 		can_rotate = 0,
 		describe = "피자는 얼마나 남았을까~",
@@ -103570,6 +103744,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[69303] = {
 		can_rotate = 0,
 		describe = "오늘 상태도 매우 안정적이다쥬!",
@@ -103646,8 +103822,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[69305] = {
 		can_rotate = 0,
 		describe = "순환기내과 진찰실 문. 심장과 폐는 사람의 동력로다쥬!",
@@ -108166,6 +108340,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[73115] = {
 		can_rotate = 0,
 		describe = "크리스마스 스타일의 침대. 편안함이 가득해요.",
@@ -108255,8 +108431,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[73117] = {
 		can_rotate = 0,
 		describe = "마음을 평온히. 함께 성야를 찬미하자쥬~",
@@ -112559,6 +112733,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[77114] = {
 		can_rotate = 0,
 		describe = "곧 눈에 묻힐 것 같은 버스",
@@ -112648,8 +112824,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[77116] = {
 		can_rotate = 0,
 		describe = "어서 제설을 해야겠어요.",
@@ -116938,6 +117112,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[82002] = {
 		can_rotate = 0,
 		describe = "꿈, 우정, 재물. 여기는 희망찬 웨스턴 타운!",
@@ -117011,8 +117187,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[82105] = {
 		can_rotate = 0,
 		describe = "웨스턴 타운에 온 걸 환영한다쥬!",
@@ -121397,6 +121571,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[85114] = {
 		can_rotate = 0,
 		describe = "어떤 걸 주문하시겠습니까쥬?",
@@ -121486,8 +121662,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[85119] = {
 		can_rotate = 0,
 		describe = "누가 만화책을 여기 둔 거야쥬?",
@@ -125577,6 +125751,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[89114] = {
 		can_rotate = 0,
 		describe = "강인한 생명력이 느껴져요.",
@@ -125653,8 +125829,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[89116] = {
 		can_rotate = 0,
 		describe = "구름무늬로 장식된 병풍.",
@@ -129656,6 +129830,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[93109] = {
 		can_rotate = 0,
 		describe = "무슨 피자 줄까쥬?",
@@ -129732,8 +129908,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[93111] = {
 		can_rotate = 0,
 		describe = "시원하게 흐르는 물로 더위를 식히세요!",
@@ -134051,6 +134225,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[96301] = {
 		can_rotate = 0,
 		describe = "외투와 모자는 여기에 걸어요!",
@@ -134127,8 +134303,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[96303] = {
 		can_rotate = 0,
 		describe = "밝은 태양 아래의 모래사장과 바다가 기다리고 있어요!",
@@ -138492,6 +138666,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[99302] = {
 		can_rotate = 0,
 		describe = "옆으로 미닫는 창. 함부로 손가락 칸에 구멍을 뚫지 마세요!",
@@ -138568,8 +138744,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[99304] = {
 		can_rotate = 0,
 		describe = "재미있는 장면이 그려진 걸개그림.",
@@ -143346,6 +143520,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[303105] = {
 		can_rotate = 0,
 		describe = "침착한 분위기의 여우상",
@@ -143435,8 +143611,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[303107] = {
 		can_rotate = 0,
 		describe = "뚜껑을 닫으세요.",
@@ -147889,6 +148063,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[307001] = {
 		can_rotate = 0,
 		describe = "용의 해! 입춘대길!",
@@ -147965,8 +148141,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[307101] = {
 		advice = 0,
 		name = "용의 해 궁등",
@@ -152489,6 +152663,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[311111] = {
 		can_rotate = 0,
 		describe = "맛있는 과일이 잔뜩 들어있는 카트.",
@@ -152565,8 +152741,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[311113] = {
 		can_rotate = 0,
 		describe = "다양한 물놀이 도구로 가득한 수영장. 신나게 놀아보자!",
@@ -157431,6 +157605,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[316303] = {
 		can_rotate = 0,
 		describe = "라라 방에 있는 인테리어 소품. 색다른 느낌이지?",
@@ -157507,8 +157683,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[316305] = {
 		can_rotate = 0,
 		describe = "들어가기 전에 우선 노크부터!",
@@ -162052,6 +162226,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[321107] = {
 		can_rotate = 0,
 		describe = "전원 풍경을 그리는 화가 만쥬도 나름 멋지네쥬쥬~",
@@ -162142,8 +162318,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[321109] = {
 		can_rotate = 0,
 		describe = "전원풍 라탄 의자. 부드러운 쿠션이 더해져, 앉아 있으면 너무 편안하다!",
@@ -166592,6 +166766,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[327101] = {
 		can_rotate = 0,
 		describe = "안에 있는 건 보물일까? 아니면…",
@@ -166668,8 +166844,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[327103] = {
 		advice = 0,
 		name = "스윙 해먹",
@@ -171337,6 +171511,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[331302] = {
 		can_rotate = 0,
 		describe = "분석 단말기. 화면에는 복잡한 도표들이 가득하다.",
@@ -171413,8 +171589,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[331304] = {
 		can_rotate = 0,
 		describe = "보조용 데이터 스크린. 다양한 정보를 실시간으로 즉시 확인하고 처리할 수 있다.",
@@ -176143,6 +176317,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[337002] = {
 		can_rotate = 0,
 		describe = "빛나는 물보라와 태양으로 최고로 멋진 휴가를 만들자!",
@@ -176222,8 +176398,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[337102] = {
 		can_rotate = 0,
 		describe = "스툴에 앉아 경치를 바라보며 우아하게 한 잔을 즐기자.",
@@ -179925,6 +180099,944 @@ end)()
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342001] = {
+		can_rotate = 0,
+		describe = "피어오르는 연기, 승리의 함성, 눈부신 스포트라이트! 열정으로 가득한 해변 레이스 경기장에서 마음껏 질주해 보자!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/dibancar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "레이스 경기장 바닥",
+		advice = 0,
+		tag = 4,
+		id = 342001,
+		icon = "dibancar3icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342002] = {
+		can_rotate = 0,
+		describe = "피어오르는 연기, 승리의 함성, 눈부신 스포트라이트! 열정으로 가득한 해변 레이스 경기장에서 마음껏 질주해 보자!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "레이스 경기장 벽",
+		advice = 0,
+		id = 342002,
+		tag = 3,
+		comfortable = 4,
+		icon = "qiangbicar3icon",
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342101] = {
+		can_rotate = 0,
+		describe = "골인하면 하나 따서 시원하게 즐기자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/bingtongcar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "경기장 아이스 버킷",
+		advice = 0,
+		tag = 1,
+		id = 342101,
+		icon = "bingtongcar3icon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342102] = {
+		can_rotate = 0,
+		describe = "조명이 켜지면, 경기장도 후끈후끈♪",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "경기장 스포트라이트",
+		advice = 0,
+		id = 342102,
+		tag = 1,
+		comfortable = 2,
+		icon = "chuandengcar3icon",
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuandengcar3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342103] = {
+		can_rotate = 0,
+		describe = "등대를 향해 달려라! 경로에서 벗어나지 마!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "해변 레이스 등대",
+		advice = 0,
+		id = 342103,
+		tag = 1,
+		comfortable = 3,
+		icon = "dengtacar3icon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dengtacar3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342104] = {
+		can_rotate = 1,
+		describe = "찰칵찰칵찰칵! 현재 1위는――",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "경기장 아치 게이트",
+		advice = 0,
+		id = 342104,
+		tag = 1,
+		comfortable = 3,
+		icon = "gongmencar3icon",
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gongmencar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342105] = {
+		can_rotate = 0,
+		describe = "힘내라 쥬쥬! 계속해서 달려라 쥬쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "레이스 관객 만쥬",
+		advice = 0,
+		id = 342105,
+		tag = 1,
+		comfortable = 2,
+		icon = "guanzhongjiucar3icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanzhongjiucar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342106] = {
+		advice = 0,
+		name = "경기장 레드카펫",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "hongtancar3icon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 142,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 0,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		id = 342106,
+		comfortable = 3,
+		describe = "카펫 위에서 우레와 같은 박수와 사람들의 시선을 온몸으로 만끽하자!",
+		dorm_id = 0,
+		tag = 1,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			4,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"hongtancar3B",
+				"normal"
+			},
+			{
+				"hongtancar3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342107] = {
+		can_rotate = 0,
+		describe = "타이어로 만든 화분. 서킷의 분위기와 열대 지방의 정취를 절묘하게 조합했다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "타이어 화분",
+		advice = 0,
+		id = 342107,
+		tag = 1,
+		comfortable = 1,
+		icon = "huataicar3icon",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huataicar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342108] = {
+		can_rotate = 0,
+		describe = "서킷 코스와 주요 구간이 한눈에 들어온다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "경기장 서킷",
+		advice = 0,
+		id = 342108,
+		tag = 1,
+		comfortable = 4,
+		icon = "saidaocar3icon",
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"saidaocar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342109] = {
+		advice = 0,
+		name = "경기장 소파 세트",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "shafazhuocar3icon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 142,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 342109,
+		comfortable = 4,
+		describe = "잠시 쉬면서 이야기도 나누고 경기를 관람하자!",
+		dorm_id = 0,
+		tag = 1,
+		spine_action_replace = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shafazhuocar3B",
+				"normal"
+			},
+			{
+				"shafazhuocar3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char",
+				1
+			},
+			{
+				"char2",
+				-1
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342110] = {
+		can_rotate = 1,
+		describe = "레이스 차량을 본뜬 디자인의 음료 노점. 속도감과 시원한 느낌을 동시에 갖췄다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "경기장 노점 카",
+		advice = 0,
+		id = 342110,
+		tag = 1,
+		comfortable = 4,
+		icon = "tuichecar3icon",
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tuichecar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342111] = {
+		can_rotate = 0,
+		describe = "다음 랩의 승부를 결정 짓는 것은 바로 여기!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "경기장 정비 구역",
+		advice = 0,
+		id = 342111,
+		tag = 1,
+		comfortable = 4,
+		icon = "xiuchepengcar3icon",
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiuchepengcar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342112] = {
+		can_rotate = 1,
+		describe = "사운드 스피커.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/yinxiangcar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "경기장 스피커",
+		advice = 0,
+		tag = 1,
+		id = 342112,
+		icon = "yinxiangcar3icon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342113] = {
+		can_rotate = 0,
+		describe = "반듯하게 늘어선 반짝이는 트로피들이 챔피언에게 수여될 날을 기다리고 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "경기장 전시 선반",
+		advice = 0,
+		id = 342113,
+		tag = 1,
+		comfortable = 2,
+		icon = "zhanshijiacar3icon",
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhanshijiacar3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342114] = {
+		can_rotate = 1,
+		describe = "경기 모습 생중계 중! 명장면들을 놓치지 마시라!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/zhibopingcar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "경기장 중계 디스플레이",
+		advice = 0,
+		tag = 1,
+		id = 342114,
+		icon = "zhibopingcar3icon",
+		comfortable = 3,
+		size = {
+			1,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342115] = {
+		can_rotate = 0,
+		describe = "눈에 잘 띄는 로드콘. 서킷 코스의 경계를 알기 쉽게 표시해 준다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/zhuiyicar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "경기장 로드콘",
+		advice = 0,
+		id = 342115,
+		tag = 1,
+		comfortable = 1,
+		icon = "zhuiyicar3icon",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-7.6,
+					65.3
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+end)()
+(function ()
+	pg.base.furniture_data_template[342116] = {
+		can_rotate = 0,
+		describe = "다음 경기까지 아직 시간이 있으니까, 느긋하게 쉬고 있어~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car3/zuodiancar3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 142,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "경기장 쿠션",
+		advice = 0,
+		id = 342116,
+		tag = 1,
+		comfortable = 2,
+		icon = "zuodiancar3icon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-4.8,
+					38.6
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[342117] = {
+		advice = 0,
+		name = "경기장 시상대",
+		count = 1,
+		type = 2,
+		dir = 0,
+		spine_combine_action_replace = "",
+		icon = "lingjiangtaicar3icon",
+		is_get_time_note = 0,
+		effect = "",
+		picture = "",
+		is_3d_obj = 0,
+		themeId = 142,
+		gain_by = "",
+		deblocking = 1,
+		level = 1,
+		can_rotate = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		id = 342117,
+		comfortable = 4,
+		describe = "자――해변 내구 레이스의 챔피언 탄생을 힘껏 축하하자!",
+		dorm_id = 0,
+		tag = 7,
+		spine_extra = "",
+		spine_action_replace = "",
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lingjiangtaicar3B",
+				"normal"
+			},
+			{
+				"lingjiangtaicar3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	}

@@ -1177,6 +1177,13 @@ slot0.resetL2dData = function(slot0)
 
 	slot0:offsetL2dPositonDelay(0.3, 5)
 	Live2dConst.ClearLive2dSave(slot0.live2dData.ship:getSkinId(), slot0.live2dData.ship.id)
+
+	if slot0.changeBgmVolume then
+		pg.CriMgr.GetInstance():changeBGMVolume(pg.CriMgr.GetInstance():getBGMVolume())
+
+		slot0.changeBgmVolume = nil
+	end
+
 	slot0:ResetL2dData()
 	slot0:changeIdleIndex(0)
 	slot0:loadLive2dData()

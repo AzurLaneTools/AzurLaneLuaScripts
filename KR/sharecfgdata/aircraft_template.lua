@@ -98588,6 +98588,200 @@ _G.pg.base.aircraft_template[184350] = {
 }
 
 
+_G.pg.base.aircraft_template[184511] = {
+	name = "本宁顿技能用F6Flv1",
+	max_hp = 44,
+	accuracy = 23,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 0.315,
+	attack_power = 2,
+	dodge_limit = 11,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1693,
+	speed = 50,
+	id = 184511,
+	scale = 1,
+	weapon_ID = {
+		184521
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[184512] = {
+	max_hp = 51,
+	name = "本宁顿技能用F6Flv2",
+	spawn_brownian = 1,
+	base = 184511,
+	id = 184512,
+	hp_growth = 1947,
+	weapon_ID = {
+		184522
+	}
+}
+
+
+_G.pg.base.aircraft_template[184513] = {
+	max_hp = 57,
+	name = "本宁顿技能用F6Flv3",
+	spawn_brownian = 1,
+	base = 184511,
+	id = 184513,
+	hp_growth = 2201,
+	weapon_ID = {
+		184523
+	}
+}
+
+
+_G.pg.base.aircraft_template[184514] = {
+	max_hp = 64,
+	name = "本宁顿技能用F6Flv4",
+	spawn_brownian = 1,
+	base = 184511,
+	id = 184514,
+	hp_growth = 2455,
+	weapon_ID = {
+		184524
+	}
+}
+
+
+_G.pg.base.aircraft_template[184515] = {
+	max_hp = 70,
+	name = "本宁顿技能用F6Flv5",
+	spawn_brownian = 1,
+	base = 184511,
+	id = 184515,
+	hp_growth = 2710,
+	weapon_ID = {
+		184525
+	}
+}
+
+
+_G.pg.base.aircraft_template[184516] = {
+	max_hp = 77,
+	name = "本宁顿技能用F6Flv6",
+	spawn_brownian = 1,
+	base = 184511,
+	id = 184516,
+	hp_growth = 2964,
+	weapon_ID = {
+		184526
+	}
+}
+
+
+_G.pg.base.aircraft_template[184517] = {
+	max_hp = 84,
+	name = "本宁顿技能用F6Flv7",
+	spawn_brownian = 1,
+	base = 184511,
+	id = 184517,
+	hp_growth = 3218,
+	weapon_ID = {
+		184527
+	}
+}
+
+
+_G.pg.base.aircraft_template[184518] = {
+	max_hp = 90,
+	name = "本宁顿技能用F6Flv8",
+	spawn_brownian = 1,
+	base = 184511,
+	id = 184518,
+	hp_growth = 3472,
+	weapon_ID = {
+		184528
+	}
+}
+
+
+_G.pg.base.aircraft_template[184519] = {
+	max_hp = 97,
+	name = "本宁顿技能用F6Flv9",
+	spawn_brownian = 1,
+	base = 184511,
+	id = 184519,
+	hp_growth = 3726,
+	weapon_ID = {
+		184529
+	}
+}
+
+
+_G.pg.base.aircraft_template[184520] = {
+	max_hp = 103,
+	name = "本宁顿技能用F6Flv10",
+	spawn_brownian = 1,
+	base = 184511,
+	id = 184520,
+	hp_growth = 3980,
+	weapon_ID = {
+		184530
+	}
+}
+
+
 _G.pg.base.aircraft_template[200101] = {
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
 	max_hp = 202,
@@ -288533,6 +288727,84 @@ _G.pg.base.aircraft_template[3275541] = {
 }
 
 
+_G.pg.base.aircraft_template[3275551] = {
+	name = "【2025狮UR活动SP】我方支援 女王之光号 发射器（隐形飞机）",
+	max_hp = 98,
+	accuracy = 23,
+	model_ID = "xiafei_yingxing",
+	ACC_growth = 0,
+	crash_DMG = 1,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "huixing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	hp_growth = 3772,
+	speed = 60,
+	id = 3275551,
+	scale = 1,
+	weapon_ID = {
+		3275552,
+		3275553
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
 _G.pg.base.aircraft_template[3276003] = {
 	name = "【2025狮UR活动 剧情】构建者 舰载机",
 	max_hp = 60,
@@ -302072,6 +302344,3518 @@ _G.pg.base.aircraft_template[3406314] = {
 		},
 		{
 			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3420201] = {
+	name = "【2026本宁顿活动A3】BOSS 情绪掠影航母 舰载机",
+	max_hp = 88,
+	accuracy = 23,
+	model_ID = "feiji_emotion",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_emotion",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3420201,
+	scale = 0.75,
+	weapon_ID = {
+		3420202,
+		3420203
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3421201] = {
+	name = "【2026本宁顿活动B3】BOSS 噩梦结晶-「执棋型BHR」 轰炸机",
+	max_hp = 110,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 30,
+	id = 3421201,
+	scale = 0.75,
+	weapon_ID = {
+		3421205
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3421202] = {
+	name = "【2026本宁顿活动B3】BOSS 噩梦结晶-「执棋型BHR」 鱼雷机",
+	max_hp = 99,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 70,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2380,
+	speed = 33,
+	id = 3421202,
+	scale = 0.75,
+	weapon_ID = {
+		3421206,
+		1005676
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3421203] = {
+	name = "【2026本宁顿活动B3】BOSS 噩梦结晶-「执棋型BHR」 浮游炮1",
+	max_hp = 400,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 183,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao3",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 3680,
+	speed = 70,
+	id = 3421203,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 12
+	},
+	weapon_ID = {
+		3421207
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3421204] = {
+	name = "【2026本宁顿活动B3】BOSS 噩梦结晶-「执棋型BHR」 浮游炮2",
+	max_hp = 400,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 183,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao3",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 3680,
+	speed = 70,
+	id = 3421204,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 12
+	},
+	weapon_ID = {
+		3421208
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3422201] = {
+	name = "【2026本宁顿活动C3】BOSS 情绪掠影航母 舰载机",
+	max_hp = 160,
+	accuracy = 23,
+	model_ID = "feiji_emotion",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_emotion",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2800,
+	speed = 33,
+	id = 3422201,
+	scale = 0.75,
+	weapon_ID = {
+		3422202,
+		3422203
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3423201] = {
+	name = "【2026本宁顿活动D3】BOSS 噩梦结晶-「执棋型BHR」 轰炸机",
+	max_hp = 202,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 160,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2980,
+	speed = 30,
+	id = 3423201,
+	scale = 0.75,
+	weapon_ID = {
+		3423205
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3423202] = {
+	name = "【2026本宁顿活动D3】BOSS 噩梦结晶-「执棋型BHR」 鱼雷机",
+	max_hp = 174,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 120,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "shenhaifeiji",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2740,
+	speed = 33,
+	id = 3423202,
+	scale = 0.75,
+	weapon_ID = {
+		3423206,
+		1005678
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3423203] = {
+	name = "【2026本宁顿活动D3】BOSS 噩梦结晶-「执棋型BHR」 浮游炮1",
+	max_hp = 800,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao3",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 2960,
+	speed = 70,
+	id = 3423203,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 12
+	},
+	weapon_ID = {
+		3423207
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3423204] = {
+	name = "【2026本宁顿活动D3】BOSS 噩梦结晶-「执棋型BHR」 浮游炮2",
+	max_hp = 800,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 210,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "fuyoupao3",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 2960,
+	speed = 70,
+	id = 3423204,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 12
+	},
+	weapon_ID = {
+		3423208
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426075] = {
+	name = "【2026本宁顿活动】情绪掠影航母 舰载机 Lv1",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "feiji_emotion",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_emotion",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 40,
+	id = 3426075,
+	scale = 0.75,
+	weapon_ID = {
+		3426080,
+		3426085
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426076] = {
+	name = "【2026本宁顿活动】情绪掠影航母 舰载机 Lv2",
+	max_hp = 90,
+	accuracy = 23,
+	model_ID = "feiji_emotion",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_emotion",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 40,
+	id = 3426076,
+	scale = 0.75,
+	weapon_ID = {
+		3426081,
+		3426086
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426077] = {
+	name = "【2026本宁顿活动】情绪掠影航母 舰载机 Lv3",
+	max_hp = 120,
+	accuracy = 23,
+	model_ID = "feiji_emotion",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_emotion",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2240,
+	speed = 40,
+	id = 3426077,
+	scale = 0.75,
+	weapon_ID = {
+		3426082,
+		3426087
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426078] = {
+	name = "【2026本宁顿活动】情绪掠影航母 舰载机 Lv4",
+	max_hp = 150,
+	accuracy = 23,
+	model_ID = "feiji_emotion",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_emotion",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2520,
+	speed = 40,
+	id = 3426078,
+	scale = 0.75,
+	weapon_ID = {
+		3426083,
+		3426088
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426079] = {
+	name = "【2026本宁顿活动】情绪掠影航母 舰载机 Lv5",
+	max_hp = 180,
+	accuracy = 23,
+	model_ID = "feiji_emotion",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_emotion",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2800,
+	speed = 40,
+	id = 3426079,
+	scale = 0.75,
+	weapon_ID = {
+		3426084,
+		3426089
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426200] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 航母轰炸机 Lv1",
+	max_hp = 64,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3426200,
+	scale = 0.75,
+	weapon_ID = {
+		3426210
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426201] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 航母轰炸机 Lv2",
+	max_hp = 88,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3426201,
+	scale = 0.75,
+	weapon_ID = {
+		3426211
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426202] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 航母轰炸机 Lv3",
+	max_hp = 112,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2240,
+	speed = 33,
+	id = 3426202,
+	scale = 0.75,
+	weapon_ID = {
+		3426212
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426203] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 航母轰炸机 Lv4",
+	max_hp = 136,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2520,
+	speed = 33,
+	id = 3426203,
+	scale = 0.75,
+	weapon_ID = {
+		3426213
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426204] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 航母轰炸机 Lv5",
+	max_hp = 160,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2800,
+	speed = 33,
+	id = 3426204,
+	scale = 0.75,
+	weapon_ID = {
+		3426214
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426205] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 航母战斗机 Lv1",
+	max_hp = 80,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3426205,
+	scale = 0.75,
+	weapon_ID = {
+		3426215,
+		1005675
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426206] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 航母战斗机 Lv2",
+	max_hp = 110,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 30,
+	id = 3426206,
+	scale = 0.75,
+	weapon_ID = {
+		3426216,
+		1005676
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426207] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 航母战斗机 Lv3",
+	max_hp = 140,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3040,
+	speed = 30,
+	id = 3426207,
+	scale = 0.75,
+	weapon_ID = {
+		3426217,
+		1005677
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426208] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 航母战斗机 Lv4",
+	max_hp = 170,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3420,
+	speed = 30,
+	id = 3426208,
+	scale = 0.75,
+	weapon_ID = {
+		3426218,
+		1005678
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426209] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 航母战斗机 Lv5",
+	max_hp = 200,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3800,
+	speed = 30,
+	id = 3426209,
+	scale = 0.75,
+	weapon_ID = {
+		3426219,
+		1005679
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426220] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 精英人形 轰炸机 Lv1",
+	max_hp = 64,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3426220,
+	scale = 0.75,
+	weapon_ID = {
+		3426210
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426221] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 精英人形 轰炸机 Lv2",
+	max_hp = 88,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3426221,
+	scale = 0.75,
+	weapon_ID = {
+		3426211
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426222] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 精英人形 轰炸机 Lv3",
+	max_hp = 112,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2240,
+	speed = 33,
+	id = 3426222,
+	scale = 0.75,
+	weapon_ID = {
+		3426212
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426223] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 精英人形 轰炸机 Lv4",
+	max_hp = 136,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2520,
+	speed = 33,
+	id = 3426223,
+	scale = 0.75,
+	weapon_ID = {
+		3426213
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426224] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 精英人形 轰炸机 Lv5",
+	max_hp = 160,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2800,
+	speed = 33,
+	id = 3426224,
+	scale = 0.75,
+	weapon_ID = {
+		3426214
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426225] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 精英人形 战斗机 Lv1",
+	max_hp = 80,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3426225,
+	scale = 0.75,
+	weapon_ID = {
+		3426215,
+		1005675
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426226] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 精英人形 战斗机 Lv2",
+	max_hp = 110,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 30,
+	id = 3426226,
+	scale = 0.75,
+	weapon_ID = {
+		3426216,
+		1005676
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426227] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 精英人形 战斗机 Lv3",
+	max_hp = 140,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3040,
+	speed = 30,
+	id = 3426227,
+	scale = 0.75,
+	weapon_ID = {
+		3426217,
+		1005677
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426228] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 精英人形 战斗机 Lv4",
+	max_hp = 170,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3420,
+	speed = 30,
+	id = 3426228,
+	scale = 0.75,
+	weapon_ID = {
+		3426218,
+		1005678
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426229] = {
+	name = "【2026本宁顿活动】噩梦剪影系列 精英人形 战斗机 Lv5",
+	max_hp = 200,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3800,
+	speed = 30,
+	id = 3426229,
+	scale = 0.75,
+	weapon_ID = {
+		3426219,
+		1005679
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426305] = {
+	name = "【2026本宁顿活动】精英人形 噩梦结晶-「执棋型BHR」浮游炮 Lv1",
+	max_hp = 800,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 57,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 2040,
+	speed = 70,
+	id = 3426305,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		3426310
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426306] = {
+	name = "【2026本宁顿活动】精英人形 噩梦结晶-「执棋型BHR」浮游炮 Lv2",
+	max_hp = 800,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 75,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 2380,
+	speed = 70,
+	id = 3426306,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		3426311
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426307] = {
+	name = "【2026本宁顿活动】精英人形 噩梦结晶-「执棋型BHR」浮游炮 Lv3",
+	max_hp = 800,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 95,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 2720,
+	speed = 70,
+	id = 3426307,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		3426312
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426308] = {
+	name = "【2026本宁顿活动】精英人形 噩梦结晶-「执棋型BHR」浮游炮 Lv4",
+	max_hp = 800,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 117,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 3060,
+	speed = 70,
+	id = 3426308,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		3426313
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3426309] = {
+	name = "【2026本宁顿活动】精英人形 噩梦结晶-「执棋型BHR」浮游炮 Lv5",
+	max_hp = 800,
+	accuracy = 23,
+	model_ID = "feiji_haorenlichade_m",
+	ACC_growth = 0,
+	crash_DMG = 141,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_haorenlichade_m",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 3400,
+	speed = 70,
+	id = 3426309,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		3426314
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3427021] = {
+	name = "【2026本宁顿活动B】我方支援 雨中花海 隐形飞机",
+	max_hp = 88,
+	accuracy = 23,
+	model_ID = "xiafei_yingxing",
+	ACC_growth = 0,
+	crash_DMG = 1,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "huixing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	hp_growth = 3772,
+	speed = 60,
+	id = 3427021,
+	scale = 1,
+	weapon_ID = {
+		3427022
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3427041] = {
+	name = "【2026本宁顿活动D】我方支援 雨中花海 隐形飞机",
+	max_hp = 136,
+	accuracy = 23,
+	model_ID = "xiafei_yingxing",
+	ACC_growth = 0,
+	crash_DMG = 1,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "huixing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	hp_growth = 3772,
+	speed = 60,
+	id = 3427041,
+	scale = 1,
+	weapon_ID = {
+		3427042
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3427051] = {
+	name = "【2026本宁顿活动SP】我方支援 雨中花海 隐形飞机",
+	max_hp = 160,
+	accuracy = 23,
+	model_ID = "xiafei_yingxing",
+	ACC_growth = 0,
+	crash_DMG = 1,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "huixing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	hp_growth = 3772,
+	speed = 60,
+	id = 3427051,
+	scale = 1,
+	weapon_ID = {
+		3427052
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3427103] = {
+	name = "【2026本宁顿活动 剧情战】女王之光号 发射器（隐形飞机）",
+	max_hp = 98,
+	accuracy = 23,
+	model_ID = "xiafei_yingxing",
+	ACC_growth = 0,
+	crash_DMG = 1,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "huixing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	hp_growth = 3772,
+	speed = 60,
+	id = 3427103,
+	scale = 1,
+	weapon_ID = {
+		3427104,
+		3427105
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3427108] = {
+	name = "【2026本宁顿活动 剧情战】雨中花海 隐形飞机",
+	max_hp = 98,
+	accuracy = 23,
+	model_ID = "xiafei_yingxing",
+	ACC_growth = 0,
+	crash_DMG = 1,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "huixing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 2,
+	hp_growth = 3772,
+	speed = 60,
+	id = 3427108,
+	scale = 1,
+	weapon_ID = {
+		3427109
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
 			0,
 			0
 		},

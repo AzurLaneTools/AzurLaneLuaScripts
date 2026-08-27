@@ -113,6 +113,7 @@ pg.pay_data_display.all = {
 	9017,
 	9018,
 	9019,
+	9020,
 	1000,
 	1001,
 	1002,
@@ -13563,6 +13564,140 @@ end)()
 			}
 		}
 	}
+	pg.base.pay_data_display[9020] = {
+		picture = "fudai37",
+		name = "플래시 웨이브 패키지",
+		type = 1,
+		second_text = "대량의 보상",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "플래시 웨이브 패키지",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 37000,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "alkrgift199",
+		extra_gem = 0,
+		id = 9020,
+		airijp_id = "com.yostarjp.azurlane.diamond207",
+		name_display = "플래시 웨이브 패키지",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86229,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86229,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81237,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86229,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	}
 	pg.base.pay_data_display[1000] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스",
@@ -21310,6 +21445,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2068] = {
 		picture = "ui7",
 		name = "전투 UI·메이드 카페",
@@ -21387,8 +21524,6 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2069] = {
 		picture = "ui7",
 		name = "전투 UI·메이드 카페(기초)",

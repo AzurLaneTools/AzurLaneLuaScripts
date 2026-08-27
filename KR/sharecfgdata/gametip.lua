@@ -9515,6 +9515,17 @@ _G.pg.base.gametip.ship_remould_warning_201524 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_202994 = {
+	tip = [[
+<size=34>개조(근대화 개수)를 실시하면 <color=#92fc63>메이드장의 고집</color>이 소모됩니다. 개조를 계속하시겠습니까? 
+개조 후 장비 슬롯 위력 보정이 130%/155%/120%가 되며
+<color=#92fc63>[주포 포좌 +1], [시작 시 어뢰 +1], 대공포 포좌 +1]</color>
+스킬 <color=#92fc63>[연막 살포·경순양함]</color>이 <color=#92fc63>[연막 살포·벨파스트]</color>로 강화됩니다.
+스킬 <color=#92fc63>[전탄 발사 - 벨파스트II]</color>는
+<color=#92fc63>[전탄 발사 - 벨파스트III]</color>로 강화됩니다.</size>]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_203114 = {
 	tip = "이번 개조 조작으로<color=#92fc63>[어뢰] 슬롯</color>이<color=#92fc63>[보조 무기]슬롯으로 변경됩니다.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>상세정보 보기</material></color>\n계속 하시겠습니까? "
 }
@@ -12559,7 +12570,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「슈퍼브」, 「서리」 등장 확률 UP!"
+	tip = "「베닝턴」, 「빅스버그」 등의 등장 확률 UP!"
 }
 
 
@@ -29744,6 +29755,16 @@ _G.pg.base.gametip.battle_text_lumei_1 = {
 }
 
 
+_G.pg.base.gametip.battle_text_benningdun_1 = {
+	tip = "바람이 <color=#ffaa2b>서쪽으로</color> 불고 있다……"
+}
+
+
+_G.pg.base.gametip.battle_text_benningdun_2 = {
+	tip = "바람이 <color=#ffaa2b>동쪽으로</color> 불고 있다……"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "감정 부족"
 }
@@ -40328,6 +40349,46 @@ _G.pg.base.gametip.shop_new_skin_theme = {
 }
 
 
+_G.pg.base.gametip.skin_shop_tag = {
+	tip = "라벨"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_0 = {
+	tip = "전체"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_1 = {
+	tip = "인기"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_2 = {
+	tip = "NEW"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_3 = {
+	tip = "추천"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_4 = {
+	tip = "한정"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_5 = {
+	tip = "한정"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_6 = {
+	tip = "복각"
+}
+
+
 _G.pg.base.gametip.shop_new_confirm = {
 	tip = "확인"
 }
@@ -49798,6 +49859,16 @@ _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 }
 
 
+_G.pg.base.gametip.monopoly2026_left_cnt = {
+	tip = "잔여 $1회"
+}
+
+
+_G.pg.base.gametip.monopoly2026_story_award = {
+	tip = "스토리 전부 감상 ($1/$2)"
+}
+
+
 _G.pg.base.gametip.battlepass_main_tip_2608 = {
 	tip = "2026/8/8 ~ 2026/10/7 이벤트 기간 중에 월드 투어 <icon name=pt w=0.5 h=0.5/>획득 보상으로 <color=#854747>「뉘른베르크·META」</color> 등 획득 가능"
 }
@@ -50376,6 +50447,159 @@ _G.pg.base.gametip.auction_network_timeout = {
 }
 
 
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_4 = {
+	tip = "몽광의 아스트라리움"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_5 = {
+	tip = "아스트라리움 보급지"
+}
+
+
+_G.pg.base.gametip.StarsCityMainPage_res_day_time = {
+	tip = "남은 시간 $1시간"
+}
+
+
+_G.pg.base.gametip.StarsCityMainPage_no_time = {
+	tip = "곧 종료됨"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_turn_cnt_tip = {
+	tip = "랩 수:"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_progress_tip = {
+	tip = "랩 진척도:"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop1 = {
+	tip = "3LAP"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop2 = {
+	tip = "6LAP"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop3 = {
+	tip = "9LAP"
+}
+
+
+_G.pg.base.gametip.mini_game_crossroad_cnt = {
+	tip = "클리어 캐릭터:"
+}
+
+
+_G.pg.base.gametip.mini_game_crossroad_score = {
+	tip = "점수:"
+}
+
+
+_G.pg.base.gametip.mono_car_2026_toggle_main = {
+	tip = "레이스"
+}
+
+
+_G.pg.base.gametip.mono_car_2026_toggle_story = {
+	tip = "탐색 이야기"
+}
+
+
+_G.pg.base.gametip.crossroad_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.help_monopoly_car2026 = {
+	tip = {
+		{
+			info = " ■ 플레이 방법: "
+		},
+		{
+			info = "1. 매일 로그인하면 주사위(전진 횟수)를 3개, 이벤트 일간 임무를 클리어하면 추가로 주사위를 2개 얻을 수 있습니다."
+		},
+		{
+			info = "2. 시작 지점을 통과하면 함선 3척 중에서 하나를 스태프로 고를 수 있습니다."
+		},
+		{
+			info = "3. 전진 칸 수, 또는 밟은 칸의 내용에 따라 다양한 스태프 대사가 표시됩니다."
+		},
+		{
+			info = "4. 시작 지점을 9회 통과하면 한정 가구를 얻을 수 있습니다. 한 함선당 1회, 함께 시작 지점을 통과하면 물자 2,000을 얻을 수 있습니다."
+		},
+		{
+			info = "5. 밟는 칸에 따라 다음 효과를 획득합니다. "
+		},
+		{
+			info = " 5km & 11km: 물자 소량 획득 가능"
+		},
+		{
+			info = " 4km & 9km: 연료 소량 획득 가능"
+		},
+		{
+			info = " 3km & 7km: 작은 이벤트 발생"
+		},
+		{
+			info = " 2km & 6km: 무작위 보상 획득 가능"
+		},
+		{
+			info = " 10km: 무작위 거리 전진"
+		}
+	}
+}
+
+
 _G.pg.base.gametip.loading_pic_btn = {
 	tip = "스틸"
+}
+
+
+_G.pg.base.gametip.LeMarsReSkinPage_reward_title = {
+	tip = "목표 연료 소비"
+}
+
+
+_G.pg.base.gametip.LeMarsReSkinPage_reward_target = {
+	tip = "현재 연료 소비:"
 }

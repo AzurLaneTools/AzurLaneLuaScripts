@@ -9,7 +9,8 @@ pg.ship_skin_reward.all = {
 	503011,
 	201391,
 	502043,
-	502053
+	502053,
+	102361
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_reward = {}
@@ -116,6 +117,26 @@ pg.base.ship_skin_reward = {}
 			{
 				17,
 				68,
+				1
+			}
+		}
+	}
+	pg.base.ship_skin_reward[102361] = {
+		id = 102361,
+		reward = {
+			{
+				17,
+				69,
+				1
+			},
+			{
+				17,
+				70,
+				1
+			},
+			{
+				17,
+				71,
 				1
 			}
 		}

@@ -51,13 +51,18 @@ slot0.UpdateList = function(slot0)
 		warning(slot4, slot6)
 		setActive(slot5:Find(slot4 .. "/active"), not slot6)
 		setActive(slot5:Find(slot4 .. "/coin"), slot0.banCount < 3 and not slot6)
+
+		if not slot6 then
+			triggerToggle(slot5, true)
+		end
 	end
 end
 
-slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
+slot0.Show = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	uv0.super.Show(slot0)
 
 	slot0.activityId = slot1
+	slot0.turnCnt = slot4
 	slot0.banCount = #slot2
 
 	if slot0.banCount >= 3 then
@@ -66,10 +71,10 @@ slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
 		slot0.banList = slot2
 	end
 
-	slot0.callback = slot4
+	slot0.callback = slot5
 
 	slot0:UpdateList()
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0.anim:Play("anim_monopolycar_pick_in")
 	slot0:CheckAuto(slot3)
 end
@@ -103,7 +108,7 @@ slot0.Hide = function(slot0)
 
 	slot0.selectedId = 0
 
-	pg.UIMgr.GetInstagramList():UnOverlayPanel(slot0._tf, slot0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.OnDestroy = function(slot0)

@@ -99,7 +99,8 @@ pg.memory_storyline.all = {
 	94,
 	95,
 	96,
-	97
+	97,
+	98
 }
 pg.base = pg.base or {}
 pg.base.memory_storyline = {}
@@ -2615,18 +2616,41 @@ pg.base.memory_storyline = {}
 		}
 	}
 	pg.base.memory_storyline[97] = {
+		description = "「천 가지 말, 천 가지 모습. 현혹의 가면은 마음을 미혹시킨다. 여행자들은 이곳에 모이고, 아름다운 꿈은 이곳에서 피어오른다. 잘못된 갈림길에 들어선 여행자여, 환영한다——아스트라리움에.」",
+		name = "몽광의 아스트라리움",
+		column = 61,
+		world_id = "",
+		bgm = "theme-richard-white",
+		row = 0,
+		chapter = 5,
+		memory_lock = 0,
+		id = 97,
+		icon = "InterludeOne_4",
+		sort = 1,
+		memory_id = {
+			1,
+			374
+		},
+		shipnation = {
+			1
+		},
+		link_event = {
+			98
+		}
+	}
+	pg.base.memory_storyline[98] = {
 		description = "기대해주세요",
 		name = "기대해주세요",
 		shipnation = 0,
 		memory_id = "",
 		link_event = "",
-		column = 61,
+		column = 62,
 		world_id = "",
 		bgm = "",
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 97,
+		id = 98,
 		icon = "",
 		sort = 0
 	}

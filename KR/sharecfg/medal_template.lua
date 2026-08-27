@@ -132,7 +132,9 @@ pg.medal_template.all = {
 	200161,
 	200171,
 	200181,
-	200191
+	200191,
+	200201,
+	200211
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2984,6 +2986,48 @@ end)()
 		rank = 1,
 		id = 200191,
 		explain1 = "「괴담 실록: 백야 빌라에서 탈출하라!」",
+		explain2 = "이벤트"
+	}
+	pg.base.medal_template[200201] = {
+		target_id = "51110",
+		name = "아스트라리움 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "길 잃은 여행자여. 당신은 아스트라리움의 달콤한 꿈을 지켜보았고, 그리고 그 꿈을 산산이 깨뜨렸다.",
+		next = 0,
+		icon = "9201",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9201",
+		condition = "「몽광의 아스트라리움」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200201,
+		explain1 = "「몽광의 아스트라리움」",
+		explain2 = "이벤트"
+	}
+	pg.base.medal_template[200211] = {
+		target_id = "51113",
+		name = "플래시 웨이브 기념 훈장 ",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "엔진의 굉음, 회전하는 타이어. 바닷바람과 열기가 반짝이는 길을 가로질러, 자! 우승을 향해 전속력으로 나아가자!",
+		next = 0,
+		icon = "9211",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9211",
+		condition = "「플래시 웨이브: 서머 레이스」 기념 스티커\n7개 수집",
+		rank = 1,
+		id = 200211,
+		explain1 = "「플래시 웨이브: 서머 레이스」",
 		explain2 = "이벤트"
 	}
 end)()

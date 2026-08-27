@@ -385,6 +385,10 @@ slot0.GetContent = function(slot0)
 		slot1 = slot0:ReplaceDormName(slot1)
 	end
 
+	if slot0:ShouldReplaceCar2026() then
+		slot1 = slot0:ReplaceCar2026Name(slot1)
+	end
+
 	return (PLATFORM_CODE == PLATFORM_US or SwitchSpecialChar(HXSet.hxLan(slot1), true)) and HXSet.hxLan(slot1)
 end
 
@@ -453,6 +457,10 @@ slot0.GetName = function(slot0)
 
 	if slot0:ShouldReplaceTb() then
 		slot1 = slot0:ReplaceTbName(slot1)
+	end
+
+	if slot0:ShouldReplaceCar2026() then
+		slot1 = slot0:ReplaceCar2026Name(slot1)
 	end
 
 	return HXSet.hxLan(slot1)

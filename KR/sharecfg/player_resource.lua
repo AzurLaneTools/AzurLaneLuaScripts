@@ -550,6 +550,13 @@ pg.player_resource.all = {
 	738,
 	739,
 	740,
+	741,
+	742,
+	743,
+	744,
+	745,
+	746,
+	747,
 	950,
 	951,
 	952,
@@ -840,6 +847,12 @@ pg.player_resource.get_id_list_by_name = {
 	activity_xunzhang20 = {
 		735
 	},
+	activity_xunzhang21 = {
+		742
+	},
+	activity_xunzhang22 = {
+		743
+	},
 	activity_xunzhang3 = {
 		477
 	},
@@ -905,6 +918,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	battlepass_8 = {
 		4008
+	},
+	benningdun_pt = {
+		741
 	},
 	bili_pt = {
 		129
@@ -1295,6 +1311,15 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	limit_skinticket110 = {
 		739
+	},
+	limit_skinticket111 = {
+		744
+	},
+	limit_skinticket112 = {
+		745
+	},
+	limit_skinticket113 = {
+		746
 	},
 	limit_skinticket12 = {
 		469
@@ -1898,6 +1923,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	skinTicket122 = {
 		740
+	},
+	skinTicket123 = {
+		747
 	},
 	skinTicket13 = {
 		184
@@ -5447,6 +5475,41 @@ end)()
 		name = "skinTicket122",
 		itemid = 66062
 	}
+	pg.base.player_resource[741] = {
+		id = 741,
+		name = "benningdun_pt",
+		itemid = 66064
+	}
+	pg.base.player_resource[742] = {
+		id = 742,
+		name = "activity_xunzhang21",
+		itemid = 66065
+	}
+	pg.base.player_resource[743] = {
+		id = 743,
+		name = "activity_xunzhang22",
+		itemid = 66074
+	}
+	pg.base.player_resource[744] = {
+		id = 744,
+		name = "limit_skinticket111",
+		itemid = 68339
+	}
+	pg.base.player_resource[745] = {
+		id = 745,
+		name = "limit_skinticket112",
+		itemid = 68340
+	}
+	pg.base.player_resource[746] = {
+		id = 746,
+		name = "limit_skinticket113",
+		itemid = 68341
+	}
+	pg.base.player_resource[747] = {
+		id = 747,
+		name = "skinTicket123",
+		itemid = 66082
+	}
 	pg.base.player_resource[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -5677,6 +5740,8 @@ end)()
 		name = "synchronize_yilishabai",
 		itemid = 21910
 	}
+end)()
+(function ()
 	pg.base.player_resource[3012] = {
 		id = 3012,
 		name = "synchronize_aerjiliya",
@@ -5712,8 +5777,6 @@ end)()
 		name = "synchronize_dafeng",
 		itemid = 21917
 	}
-end)()
-(function ()
 	pg.base.player_resource[3019] = {
 		id = 3019,
 		name = "synchronize_dahuangfeng",

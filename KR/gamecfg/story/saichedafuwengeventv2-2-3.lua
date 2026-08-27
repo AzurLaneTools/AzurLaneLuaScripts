@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "괌의 신청소에 있던 오타 덕분에 [연료×100] 획득!"
+			say = "로저스가 예산 신청서를 잘못 작성한 덕분에, 【연료×100】을 추가로 획득했다."
 		}
 	}
 }

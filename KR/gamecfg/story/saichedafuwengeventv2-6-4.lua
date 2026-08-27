@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "경기 기록을 갱신했다. [고속건조재 ×1] 획득!"
+			say = "레이스에서 선셋 애비뉴의 코스 레코드를 갱신했다. 【고속건조재】를 획득했다."
 		}
 	}
 }

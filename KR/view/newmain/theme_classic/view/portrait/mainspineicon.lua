@@ -1,7 +1,7 @@
 slot0 = class("MainSpineIcon", import(".MainBaseIcon"))
 
 slot0.Resume = function(slot0)
-	if slot0.spineChar then
+	if slot0.spineChar and slot0.spineChar:GetPauseStatue() ~= nil and not IsNil(slot0.spineChar:GetAnimationState()) then
 		slot0.spineChar:Resume()
 	end
 end

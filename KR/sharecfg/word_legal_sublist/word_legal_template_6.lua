@@ -4,6 +4,110 @@ slot0.word_legal_template_6 = {}
 slot1 = slot0.word_legal_template_6
 
 temp = function()
+	uv0["후"] = {
+		["드"] = {
+			this = true
+		},
+		["부"] = {
+			["키"] = {
+				this = true
+			}
+		},
+		["미"] = {
+			["즈"] = {
+				["키"] = {
+					this = true
+				}
+			},
+			["뤼"] = {
+				["르"] = {
+					this = true
+				}
+			}
+		},
+		["지"] = {
+			["나"] = {
+				["미"] = {
+					this = true
+				}
+			}
+		},
+		["루"] = {
+			["타"] = {
+				["카"] = {
+					this = true
+				}
+			}
+		},
+		["소"] = {
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
+				},
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["번"] = {
+			this = true
+		},
+		["타"] = {
+			["미"] = {
+				[" "] = {
+					["아"] = {
+						["미"] = {
+							this = true
+						}
+					},
+					["마"] = {
+						["미"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["뱅"] = {
+		["가"] = {
+			["드"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["넬"] = {
+		["슨"] = {
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["로"] = {
 		["드"] = {
 			["니"] = {
@@ -252,22 +356,6 @@ temp = function()
 								}
 							}
 						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["빅"] = {
-		["토"] = {
-			["리"] = {
-				["어"] = {
-					["스"] = {
-						this = true
 					}
 				}
 			}
@@ -1023,61 +1111,6 @@ temp = function()
 		["5"] = {
 			["2"] = {
 				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["쾨"] = {
-		["니"] = {
-			["히"] = {
-				["스"] = {
-					["베"] = {
-						["르"] = {
-							["크"] = {
-								this = true,
-								["·"] = {
-									M = {
-										E = {
-											T = {
-												A = {
-													this = true
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["쾰"] = {
-		["른"] = {
-			this = true,
-			["·"] = {
-				["改"] = {
-					this = true
-				},
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
 			}
 		}
 	}

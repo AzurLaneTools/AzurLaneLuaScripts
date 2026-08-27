@@ -1,5 +1,5 @@
 slot0 = class("MonopolyCar2024Const")
-slot0.map_dic = {
+slot0.mapDic = {
 	{
 		0,
 		0,

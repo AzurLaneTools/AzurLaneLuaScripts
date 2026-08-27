@@ -4,6 +4,66 @@ slot0.word_legal_template_9 = {}
 slot1 = slot0.word_legal_template_9
 
 temp = function()
+	uv0["드"] = {
+		[" "] = {
+			["제"] = {
+				["번"] = {
+					[" "] = {
+						["프"] = {
+							["로"] = {
+								["빈"] = {
+									["시"] = {
+										["엔"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["미"] = {
+			["트"] = {
+				["리"] = {
+					[" "] = {
+						["돈"] = {
+							["스"] = {
+								["코"] = {
+									["이"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["레"] = {
+			["이"] = {
+				["크"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["喀"] = {
+		["山"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["넵"] = {
 		["튠"] = {
 			this = true

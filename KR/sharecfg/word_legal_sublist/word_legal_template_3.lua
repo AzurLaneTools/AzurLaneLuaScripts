@@ -4,6 +4,70 @@ slot0.word_legal_template_3 = {}
 slot1 = slot0.word_legal_template_3
 
 temp = function()
+	uv0["세"] = {
+		["인"] = {
+			["트"] = {
+				["루"] = {
+					["이"] = {
+						["스"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["바"] = {
+			["스"] = {
+				["토"] = {
+					["폴"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["리"] = {
+			[" "] = {
+				["글"] = {
+					["로"] = {
+						["스"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["몬"] = {
+		["트"] = {
+			["필"] = {
+				["리"] = {
+					["어"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["덴"] = {
+		["버"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["멤"] = {
 		["피"] = {
 			["스"] = {
@@ -541,6 +605,29 @@ end
 temp()
 
 temp = function()
+	uv0["빅"] = {
+		["스"] = {
+			["버"] = {
+				["그"] = {
+					this = true
+				}
+			}
+		},
+		["토"] = {
+			["리"] = {
+				["어"] = {
+					["스"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["펜"] = {
 		["사"] = {
 			["콜"] = {
@@ -1066,80 +1153,6 @@ temp = function()
 				["레"] = {
 					["이"] = {
 						["션"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["네"] = {
-		["바"] = {
-			["다"] = {
-				this = true
-			}
-		},
-		["코"] = {
-			["네"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["테"] = {
-		["네"] = {
-			["시"] = {
-				this = true
-			}
-		},
-		["세"] = {
-			["우"] = {
-				["스"] = {
-					this = true
-				}
-			}
-		},
-		["러"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["캘"] = {
-		["리"] = {
-			["포"] = {
-				["니"] = {
-					["아"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["콜"] = {
-		["로"] = {
-			["라"] = {
-				["도"] = {
-					this = true,
-					["·"] = {
-						["改"] = {
 							this = true
 						}
 					}

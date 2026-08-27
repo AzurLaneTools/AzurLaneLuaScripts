@@ -101,10 +101,14 @@ pg.base.ship_data_create_material = {}
 			"<color=#ffde38>SSR</color>: 7%",
 			"<color=#d797ff>SR</color>: 12%",
 			"<color=#3dc6ff>R</color>: 51%",
-			"N: 30%",
-			"<color=#ffde38>슈퍼브</color>：2.0%<color=#92FC63>(up!)</color>",
+			"노멀: 30%",
+			"<color=#ffde38>베닝턴</color>: 2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>서리</color>：2.0%<color=#92FC63>(up!)</color>"
+			"<color=#ffde38>빅스버그</color>: 2.0%<color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#ffde38>콜렛</color>: 0.5%",
+			" ",
+			"<color=#d797ff>해리슨</color>: 2.5%<color=#92FC63>(up!)</color>"
 		}
 	}
 	pg.base.ship_data_create_material[5] = {

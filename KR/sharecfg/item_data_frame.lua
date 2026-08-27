@@ -663,12 +663,12 @@ pg.base.item_data_frame = {}
 		scene = {}
 	}
 	pg.base.item_data_frame[342] = {
-		name = "메트로 스타라이트의 꿈",
-		gain_by = "",
+		name = "아스트라리움의 꿈",
+		gain_by = "몽광의 아스트라리움",
 		time_second = 0,
 		id = 342,
 		time_limit_type = 0,
-		desc = "추후 진행 예정인 이벤트에서 획득 가능",
+		desc = "「아스트라리움에 온 걸 환영해. 혹시 이루고 싶은 꿈 있어?」\n<color=#A7A7AA>「몽광의 아스트라리움」 이벤트 참가</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[401] = {

@@ -778,7 +778,12 @@ temp = function()
 		["파"] = {
 			["스"] = {
 				["트"] = {
-					this = true
+					this = true,
+					["·"] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		},
@@ -883,6 +888,58 @@ temp = function()
 								}
 							}
 						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["콜"] = {
+		["레"] = {
+			["트"] = {
+				this = true
+			}
+		},
+		["로"] = {
+			["라"] = {
+				["도"] = {
+					this = true,
+					["·"] = {
+						["改"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["해"] = {
+		["리"] = {
+			["슨"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["존"] = {
+		[" "] = {
+			["로"] = {
+				["저"] = {
+					["스"] = {
+						this = true
 					}
 				}
 			}
@@ -1311,70 +1368,6 @@ temp = function()
 			["라"] = {
 				this = true
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["세"] = {
-		["인"] = {
-			["트"] = {
-				["루"] = {
-					["이"] = {
-						["스"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["바"] = {
-			["스"] = {
-				["토"] = {
-					["폴"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["리"] = {
-			[" "] = {
-				["글"] = {
-					["로"] = {
-						["스"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["몬"] = {
-		["트"] = {
-			["필"] = {
-				["리"] = {
-					["어"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["덴"] = {
-		["버"] = {
-			this = true
 		}
 	}
 end

@@ -90,6 +90,7 @@ pg.mini_game.all = {
 	87,
 	84,
 	88,
+	89,
 	1001,
 	1002,
 	1003,
@@ -3391,6 +3392,59 @@ pg.base.mini_game = {}
 			}
 		}
 	}
+	pg.base.mini_game[89] = {
+		is_ranking = 0,
+		view_name = "CrossRoadGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "过马路小游戏",
+		config_csv = "",
+		id = 89,
+		hub_id = 78,
+		request_data = 1,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					2,
+					300
+				},
+				{
+					2,
+					54034,
+					2
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					2,
+					59860,
+					1
+				}
+			}
+		},
+		config_data = {}
+	}
 	pg.base.mini_game[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3677,6 +3731,8 @@ pg.base.mini_game = {}
 		hub_id = 45,
 		request_data = 1
 	}
+end)()
+(function ()
 	pg.base.mini_game[1013] = {
 		is_ranking = 0,
 		view_name = "GameRoomPipeView",
@@ -3730,8 +3786,6 @@ pg.base.mini_game = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.mini_game[1014] = {
 		is_ranking = 0,
 		view_name = "GameRoomCookView",

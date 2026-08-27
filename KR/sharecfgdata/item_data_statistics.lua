@@ -30338,6 +30338,131 @@ _G.pg.base.item_data_statistics[30386] = {
 }
 
 
+_G.pg.base.item_data_statistics[30387] = {
+	open_directly = 1,
+	name = "장비스킨 상자 (해변 레이스)",
+	type = 11,
+	display = "랜덤으로 장비스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbinhaijisu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30384",
+	id = 30387,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -46897,6 +47022,219 @@ _G.pg.base.item_data_statistics[30570] = {
 }
 
 
+_G.pg.base.item_data_statistics[30571] = {
+	open_directly = 0,
+	name = "선택 장비스킨 상자 (해변 레이스)",
+	type = 13,
+	display = "사용하면 장비스킨(해변 레이스) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbinhaijisuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30571,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "지향형 부속T4",
@@ -53280,9 +53618,9 @@ _G.pg.base.item_data_statistics[40142] = {
 
 _G.pg.base.item_data_statistics[40144] = {
 	open_directly = 1,
-	name = "환몽 특별 패키지",
+	name = "서커스 패키지 SP",
 	type = 17,
-	display = "대상 스킨 3개 구매 시 서약의 반지 획득 가능",
+	display = "대상 스킨 3개 구매 시 서약 반지 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -53317,7 +53655,7 @@ _G.pg.base.item_data_statistics[40144] = {
 
 _G.pg.base.item_data_statistics[40145] = {
 	open_directly = 0,
-	name = "PR함 가속 개발권·제6기",
+	name = "PR함선 6기 교환권",
 	type = 17,
 	display = [[
 사용 시 다음 PR 특별계획함 중 1척 개방(입수 및 강화 레벨 1) 가능. 
@@ -81056,7 +81394,7 @@ _G.pg.base.item_data_statistics[42085] = {
 
 _G.pg.base.item_data_statistics[42086] = {
 	open_directly = 0,
-	name = "고급 지향형 강화 유닛·9기",
+	name = "상급 지향형 강화 유닛·9기",
 	type = 13,
 	display = "사용하면 특별계획함 2~9기 DR함선의 강화 유닛을 1개 선택해서 획득 가능",
 	other_resource_cost = "[]",
@@ -99240,6 +99578,39 @@ _G.pg.base.item_data_statistics[59859] = {
 }
 
 
+_G.pg.base.item_data_statistics[59860] = {
+	open_directly = 0,
+	name = "메이드장의 굳건한 수호",
+	type = 7,
+	display = "「주인님을 위해 장애물을 제거하는 것은 메이드로서의 소임입니다.」――벨파스트의 개조 재료",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/maidsteadfast",
+	order = 0,
+	rarity = 4,
+	max_num = 1,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59860,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {
+		202994
+	},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59900] = {
 	open_directly = 0,
 	name = "코어 데이터",
@@ -113580,6 +113951,73 @@ _G.pg.base.item_data_statistics[81236] = {
 		{
 			2,
 			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81237] = {
+	open_directly = 1,
+	name = "플래시 웨이브 패키지",
+	type = 17,
+	display = "구매하면 2026.8.27 업데이트 스킨 중 랜덤으로 1벌, 다이아×2026, 성정 유닛×50, 성정 큐브×20, 지향형 강화 유닛·9기×2, 고속건조재×10, 가구 코인×100 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai37",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998577",
+	id = 81237,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86229,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
 			2
 		},
 		{

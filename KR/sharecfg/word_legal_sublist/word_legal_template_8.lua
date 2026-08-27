@@ -4,6 +4,35 @@ slot0.word_legal_template_8 = {}
 slot1 = slot0.word_legal_template_8
 
 temp = function()
+	uv0["폴"] = {
+		["라"] = {
+			this = true
+		},
+		["타"] = {
+			["바"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["고"] = {
+		["리"] = {
+			["치"] = {
+				["아"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["줄"] = {
 		["리"] = {
 			["오"] = {
@@ -583,66 +612,6 @@ temp = function()
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["드"] = {
-		[" "] = {
-			["제"] = {
-				["번"] = {
-					[" "] = {
-						["프"] = {
-							["로"] = {
-								["빈"] = {
-									["시"] = {
-										["엔"] = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["미"] = {
-			["트"] = {
-				["리"] = {
-					[" "] = {
-						["돈"] = {
-							["스"] = {
-								["코"] = {
-									["이"] = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["레"] = {
-			["이"] = {
-				["크"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["喀"] = {
-		["山"] = {
-			this = true
 		}
 	}
 end

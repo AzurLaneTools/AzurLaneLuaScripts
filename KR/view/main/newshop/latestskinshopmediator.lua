@@ -153,31 +153,25 @@ slot0.initNotificationHandleDic = function(slot0)
 							timeLimit = slot3.genre == ShopArgs.SkinShopTimeLimit
 						}
 					}))
+				elseif PaintingShowScene.GetSkinShowAble(slot4) then
+					slot0:addSubLayers(Context.New({
+						mediator = PaintingShowMediator,
+						viewComponent = PaintingShowNewSkinScene,
+						data = {
+							is_shop = true,
+							skinId = slot4,
+							timeLimit = slot3.genre == ShopArgs.SkinShopTimeLimit
+						}
+					}))
 				else
-					slot5 = function()
-						uv0:addSubLayers(Context.New({
-							mediator = NewSkinMediator,
-							viewComponent = NewSkinLayer,
-							data = {
-								skinId = uv1.effect_args[1],
-								timeLimit = uv1.genre == ShopArgs.SkinShopTimeLimit
-							}
-						}))
-					end
-
-					if PaintingShowScene.GetSkinShowAble(slot4) then
-						slot0:addSubLayers(Context.New({
-							mediator = PaintingShowMediator,
-							viewComponent = PaintingShowScene,
-							data = {
-								is_shop = true,
-								skinId = slot4,
-								callback = slot5
-							}
-						}))
-					else
-						slot5()
-					end
+					slot0:addSubLayers(Context.New({
+						mediator = NewSkinMediator,
+						viewComponent = NewSkinLayer,
+						data = {
+							skinId = slot3.effect_args[1],
+							timeLimit = slot3.genre == ShopArgs.SkinShopTimeLimit
+						}
+					}))
 				end
 
 				slot0.viewComponent:OnShopping(slot2.id)

@@ -69,6 +69,9 @@ pg.emoji_template.all = {
 	66,
 	67,
 	68,
+	69,
+	70,
+	71,
 	100,
 	101,
 	102,
@@ -267,6 +270,9 @@ pg.emoji_template.get_id_list_by_auction = {
 		66,
 		67,
 		68,
+		69,
+		70,
+		71,
 		100,
 		101,
 		102,
@@ -1328,6 +1334,48 @@ pg.base.emoji_template = {}
 			2
 		}
 	}
+	pg.base.emoji_template[69] = {
+		achieve = 1,
+		auction = 0,
+		index = 1028,
+		pic = "weikesibao_2_1",
+		desc = "<color=#92fc63>[기뻐요! ]</color>",
+		item_name = "이모티콘: 기뻐요!",
+		item_desc = "이모티콘: 기뻐요! 채팅의 애니메이션 이모티콘 세트로 사용 가능",
+		id = 69,
+		icon = "",
+		type = {
+			2
+		}
+	}
+	pg.base.emoji_template[70] = {
+		achieve = 1,
+		auction = 0,
+		index = 1029,
+		pic = "weikesibao_2_2",
+		desc = "<color=#92fc63>[반짝~]</color>",
+		item_name = "이모티콘: 반짝",
+		item_desc = "이모티콘: 반짝. 채팅의 애니메이션 이모티콘 세트로 사용 가능",
+		id = 70,
+		icon = "",
+		type = {
+			2
+		}
+	}
+	pg.base.emoji_template[71] = {
+		achieve = 1,
+		auction = 0,
+		index = 1030,
+		pic = "weikesibao_2_3",
+		desc = "<color=#92fc63>[조금만 더]</color>",
+		item_name = "이모티콘: 조금만 더",
+		item_desc = "이모티콘: 조금만 더. 채팅의 애니메이션 이모티콘 세트로 사용 가능",
+		id = 71,
+		icon = "",
+		type = {
+			2
+		}
+	}
 	pg.base.emoji_template[100] = {
 		achieve = 0,
 		auction = 0,
@@ -1762,6 +1810,8 @@ pg.base.emoji_template = {}
 			1
 		}
 	}
+end)()
+(function ()
 	pg.base.emoji_template[217] = {
 		achieve = 0,
 		auction = 0,
@@ -1804,8 +1854,6 @@ pg.base.emoji_template = {}
 			1
 		}
 	}
-end)()
-(function ()
 	pg.base.emoji_template[220] = {
 		achieve = 0,
 		auction = 0,

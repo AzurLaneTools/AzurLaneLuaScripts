@@ -2029,6 +2029,27 @@ pg.skill_data_display.all = {
 	152531,
 	152542,
 	152550,
+	152561,
+	152562,
+	152563,
+	152571,
+	152572,
+	152573,
+	152600,
+	152601,
+	152610,
+	152611,
+	152621,
+	152631,
+	152632,
+	152641,
+	152642,
+	152643,
+	152680,
+	152681,
+	152682,
+	152690,
+	152691,
 	18010,
 	18040,
 	18041,
@@ -2100,6 +2121,9 @@ pg.skill_data_display.all = {
 	18763,
 	18781,
 	18791,
+	18981,
+	18986,
+	18987,
 	19000,
 	19001,
 	19002,
@@ -2715,6 +2739,8 @@ pg.skill_data_display.all = {
 	30581,
 	30582,
 	30583,
+	30671,
+	30672,
 	39000,
 	39001,
 	39002,
@@ -3231,6 +3257,13 @@ pg.skill_data_display.all = {
 	117070,
 	117073,
 	117079,
+	152581,
+	152582,
+	152583,
+	180001,
+	180002,
+	180003,
+	180004,
 	190001,
 	190002,
 	190003,
@@ -3877,6 +3910,12 @@ pg.skill_data_display.all = {
 	201773,
 	201790,
 	201798,
+	201821,
+	201826,
+	201877,
+	201878,
+	201879,
+	201883,
 	1011540,
 	1011541,
 	1090010,
@@ -12300,6 +12339,90 @@ end)()
 		id = 152550,
 		name = "그리폰 돌격"
 	}
+	pg.base.skill_data_display[152561] = {
+		id = 152561,
+		name = "데이터 스트림 스매시"
+	}
+	pg.base.skill_data_display[152562] = {
+		id = 152562,
+		name = "데이터 스트림 스매시"
+	}
+	pg.base.skill_data_display[152563] = {
+		id = 152563,
+		name = "데이터 스트림 스매시"
+	}
+	pg.base.skill_data_display[152571] = {
+		id = 152571,
+		name = "스카이돔 시큐리티"
+	}
+	pg.base.skill_data_display[152572] = {
+		id = 152572,
+		name = "스카이돔 시큐리티"
+	}
+	pg.base.skill_data_display[152573] = {
+		id = 152573,
+		name = "스카이돔 시큐리티"
+	}
+	pg.base.skill_data_display[152600] = {
+		id = 152600,
+		name = "얌전히 움직이지 마"
+	}
+	pg.base.skill_data_display[152601] = {
+		id = 152601,
+		name = "얌전히 움직이지 마"
+	}
+	pg.base.skill_data_display[152610] = {
+		id = 152610,
+		name = "있는 힘껏 지키기"
+	}
+	pg.base.skill_data_display[152611] = {
+		id = 152611,
+		name = "있는 힘껏 지키기"
+	}
+	pg.base.skill_data_display[152621] = {
+		id = 152621,
+		name = "프리스타일 윙"
+	}
+	pg.base.skill_data_display[152631] = {
+		id = 152631,
+		name = "Vlogger`s time"
+	}
+	pg.base.skill_data_display[152632] = {
+		id = 152632,
+		name = "Vlogger`s time"
+	}
+	pg.base.skill_data_display[152641] = {
+		id = 152641,
+		name = "연막 살포·벨파스트"
+	}
+	pg.base.skill_data_display[152642] = {
+		id = 152642,
+		name = "효율적인 대처"
+	}
+	pg.base.skill_data_display[152643] = {
+		id = 152643,
+		name = "서로 협력해서 대처"
+	}
+	pg.base.skill_data_display[152680] = {
+		id = 152680,
+		name = "어디서든 참견쟁이"
+	}
+	pg.base.skill_data_display[152681] = {
+		id = 152681,
+		name = "어디서든 참견쟁이"
+	}
+	pg.base.skill_data_display[152682] = {
+		id = 152682,
+		name = "기함 동반"
+	}
+	pg.base.skill_data_display[152690] = {
+		id = 152690,
+		name = "최고의 랜덤 요리"
+	}
+	pg.base.skill_data_display[152691] = {
+		id = 152691,
+		name = "최고의 랜덤 요리"
+	}
 	pg.base.skill_data_display[18010] = {
 		id = 18010,
 		name = "MKV 철갑탄 +"
@@ -12516,6 +12639,8 @@ end)()
 		id = 18495,
 		name = "강공과 회답의 장막"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[18500] = {
 		id = 18500,
 		name = "야심과 은택의 위엄 +"
@@ -12584,6 +12709,18 @@ end)()
 		id = 18791,
 		name = "나이트 저지먼트+"
 	}
+	pg.base.skill_data_display[18981] = {
+		id = 18981,
+		name = "차지 버스트 +"
+	}
+	pg.base.skill_data_display[18986] = {
+		id = 18986,
+		name = "차지 버스트 +"
+	}
+	pg.base.skill_data_display[18987] = {
+		id = 18987,
+		name = "차지 버스트 +"
+	}
 	pg.base.skill_data_display[19000] = {
 		id = 19000,
 		name = "안티 세이렌I"
@@ -12600,8 +12737,6 @@ end)()
 		id = 19010,
 		name = "MKV 철갑탄"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19020] = {
 		id = 19020,
 		name = "푸른 바다의 여신"
@@ -12906,6 +13041,8 @@ end)()
 		id = 19410,
 		name = "해신의 매력"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19420] = {
 		id = 19420,
 		name = "비추는 연못"
@@ -13002,8 +13139,6 @@ end)()
 		id = 19492,
 		name = "강공과 회답의 장막"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19495] = {
 		id = 19495,
 		name = "강공과 회답의 장막"
@@ -13308,6 +13443,8 @@ end)()
 		id = 19807,
 		name = "일족의 완벽주의"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19831] = {
 		id = 19831,
 		name = "신뢰성 기구·트러스티드 플랫폼"
@@ -13404,8 +13541,6 @@ end)()
 		id = 20022,
 		name = "전탄 발사 - 머핸급II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[20031] = {
 		id = 20031,
 		name = "전탄 발사 - 그리들리급I"
@@ -13710,6 +13845,8 @@ end)()
 		id = 21241,
 		name = "전탄 발사 - 요크급I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[21242] = {
 		id = 21242,
 		name = "전탄 발사 - 요크급II"
@@ -13806,8 +13943,6 @@ end)()
 		id = 22121,
 		name = "전탄 발사 - 쿠마형I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[22122] = {
 		id = 22122,
 		name = "전탄 발사 - 쿠마형II"
@@ -14112,6 +14247,8 @@ end)()
 		id = 24122,
 		name = "전탄발사II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[24151] = {
 		id = 24151,
 		name = "전탄 발사 - 에밀 베르탱I"
@@ -14208,8 +14345,6 @@ end)()
 		id = 28112,
 		name = "전탄 발사 - 에밀 베르탱II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[28231] = {
 		id = 28231,
 		name = "전탄 발사Ⅰ"
@@ -14514,6 +14649,8 @@ end)()
 		id = 29361,
 		name = "전탄발사 - 시리우스 I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[29362] = {
 		id = 29362,
 		name = "전탄발사 - 시리우스 II"
@@ -14610,8 +14747,6 @@ end)()
 		id = 29481,
 		name = "전탄 발사-{namecode:50}I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[29482] = {
 		id = 29482,
 		name = "전탄 발사-{namecode:50}II"
@@ -14916,6 +15051,8 @@ end)()
 		id = 30292,
 		name = "특수 탄막 - 바야르Ⅱ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[30321] = {
 		id = 30321,
 		name = "특수 탄막 - 로데슈Ⅰ"
@@ -15012,8 +15149,6 @@ end)()
 		id = 30462,
 		name = "특수 탄막 - 클레오파트라Ⅱ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[30485] = {
 		id = 30485,
 		name = "특수 탄막 - U552Ⅰ"
@@ -15057,6 +15192,14 @@ end)()
 	pg.base.skill_data_display[30583] = {
 		id = 30583,
 		name = "화력 상승!"
+	}
+	pg.base.skill_data_display[30671] = {
+		id = 30671,
+		name = "특수 탄막 - 콜렛Ⅰ"
+	}
+	pg.base.skill_data_display[30672] = {
+		id = 30672,
+		name = "특수 탄막 - 콜렛Ⅱ"
 	}
 	pg.base.skill_data_display[39000] = {
 		id = 39000,
@@ -15310,6 +15453,8 @@ end)()
 		id = 104031,
 		name = "연결고리의 속박 "
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[104040] = {
 		id = 104040,
 		name = "절대적인 선언 "
@@ -15414,8 +15559,6 @@ end)()
 		id = 105101,
 		name = "귀신☆나키리"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[105110] = {
 		id = 105110,
 		name = "아수라수라찰 귀신베기"
@@ -15712,6 +15855,8 @@ end)()
 		id = 106383,
 		name = "여우 코스프레"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[106385] = {
 		id = 106385,
 		name = "여우 코스프레"
@@ -15816,8 +15961,6 @@ end)()
 		id = 106543,
 		name = "백발백중"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[106544] = {
 		id = 106544,
 		name = "백발백중"
@@ -16114,6 +16257,8 @@ end)()
 		id = 108210,
 		name = "그리드 빔+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[108213] = {
 		id = 108213,
 		name = "맥스 그리드 빔+"
@@ -16218,8 +16363,6 @@ end)()
 		id = 109055,
 		name = "프로즌 릴리"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[109060] = {
 		id = 109060,
 		name = "축복의 멜로디"
@@ -16516,6 +16659,8 @@ end)()
 		id = 110152,
 		name = "자빙폭쇄+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[110160] = {
 		id = 110160,
 		name = "베베땅, 나 좀 숨겨줘!"
@@ -16620,8 +16765,6 @@ end)()
 		id = 111110,
 		name = "무기 변화+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[111114] = {
 		id = 111114,
 		name = "변화·주먹+"
@@ -16918,6 +17061,8 @@ end)()
 		id = 112292,
 		name = "아이솔레이션"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[114101] = {
 		id = 114101,
 		name = "별의 정역"
@@ -17022,8 +17167,6 @@ end)()
 		id = 115141,
 		name = "시간을 먹는 성"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[115142] = {
 		id = 115142,
 		name = "시간을 먹는 성"
@@ -17131,6 +17274,34 @@ end)()
 	pg.base.skill_data_display[117079] = {
 		id = 117079,
 		name = "중격파참+"
+	}
+	pg.base.skill_data_display[152581] = {
+		id = 152581,
+		name = "더 Lucky하게!"
+	}
+	pg.base.skill_data_display[152582] = {
+		id = 152582,
+		name = "더 반짝반짝~!"
+	}
+	pg.base.skill_data_display[152583] = {
+		id = 152583,
+		name = "더! 더!!"
+	}
+	pg.base.skill_data_display[180001] = {
+		id = 180001,
+		name = "강철홍류의 협주곡 +"
+	}
+	pg.base.skill_data_display[180002] = {
+		id = 180002,
+		name = "강철홍류의 협주곡 +"
+	}
+	pg.base.skill_data_display[180003] = {
+		id = 180003,
+		name = "강철홍류의 협주곡 +"
+	}
+	pg.base.skill_data_display[180004] = {
+		id = 180004,
+		name = "강철홍류의 협주곡 +"
 	}
 	pg.base.skill_data_display[190001] = {
 		id = 190001,
@@ -17292,6 +17463,8 @@ end)()
 		id = 600070,
 		name = "스콜피언 미스트"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[600071] = {
 		id = 600071,
 		name = "치명적 찌르기"
@@ -17424,8 +17597,6 @@ end)()
 		id = 600182,
 		name = "강철 칼날의 자세"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[600183] = {
 		id = 600183,
 		name = "광풍제월"
@@ -17694,6 +17865,8 @@ end)()
 		id = 800300,
 		name = "유람의 날개"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800310] = {
 		id = 800310,
 		name = "매의 협공"
@@ -17826,8 +17999,6 @@ end)()
 		id = 800455,
 		name = "구조의 이치·멤피스I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800457] = {
 		id = 800457,
 		name = "구조의 이치·멤피스II"
@@ -18096,6 +18267,8 @@ end)()
 		id = 800921,
 		name = "활짝 핀 불굴의 꽃"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800941] = {
 		id = 800941,
 		name = "신중하고 용감한 선택"
@@ -18228,8 +18401,6 @@ end)()
 		id = 801262,
 		name = "섬멸의 횃불 - 포슈Ⅱ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801294] = {
 		id = 801294,
 		name = "이사회 제식 MKXIII형 오비탈 캐논"
@@ -18498,6 +18669,8 @@ end)()
 		id = 802011,
 		name = "전장에 익숙한 기사"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[802012] = {
 		id = 802012,
 		name = "전장에 익숙한 기사"
@@ -18630,8 +18803,6 @@ end)()
 		id = 802171,
 		name = "염추의 재-쾰른Ⅰ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[802172] = {
 		id = 802172,
 		name = "염추의 재-쾰른Ⅱ"
@@ -18900,6 +19071,8 @@ end)()
 		id = 200176,
 		name = "코어 지원-연소 Lv3"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200180] = {
 		id = 200180,
 		name = "코어 지원-부상 Lv1"
@@ -19032,8 +19205,6 @@ end)()
 		id = 200497,
 		name = "그리드맨 (Universe Fighter)"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200500] = {
 		id = 200500,
 		name = "알렉시스 케리브 (뉴 오더)"
@@ -19302,6 +19473,8 @@ end)()
 		id = 295003,
 		name = "시작과 끝의 가호"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[295004] = {
 		id = 295004,
 		name = "어둠과 음모의 가호"
@@ -19434,8 +19607,6 @@ end)()
 		id = 201171,
 		name = "백귀의 그림자·제1권"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201172] = {
 		id = 201172,
 		name = "백귀의 그림자·제2권"
@@ -19704,6 +19875,8 @@ end)()
 		id = 201759,
 		name = "신광의 그물"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201760] = {
 		id = 201760,
 		name = "신광의 그물"
@@ -19727,6 +19900,30 @@ end)()
 	pg.base.skill_data_display[201798] = {
 		id = 201798,
 		name = "등불 밑 그림자"
+	}
+	pg.base.skill_data_display[201821] = {
+		id = 201821,
+		name = "빗속의 꽃바다"
+	}
+	pg.base.skill_data_display[201826] = {
+		id = 201826,
+		name = "침식성 복합체"
+	}
+	pg.base.skill_data_display[201877] = {
+		id = 201877,
+		name = "▅전▊▇부▇▅▆집어삼켜▇▆▅"
+	}
+	pg.base.skill_data_display[201878] = {
+		id = 201878,
+		name = "▅전▊▇부▇▅▆집어삼켜▇▆▅"
+	}
+	pg.base.skill_data_display[201879] = {
+		id = 201879,
+		name = "환영의 기사단"
+	}
+	pg.base.skill_data_display[201883] = {
+		id = 201883,
+		name = "빗속의 꽃바다"
 	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
@@ -19836,8 +20033,6 @@ end)()
 		id = 1011523,
 		name = "아이리스의 마음 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011711] = {
 		id = 1011711,
 		name = "듀라한 +"
@@ -20082,6 +20277,8 @@ end)()
 		id = 10150601,
 		name = "들핀 에코즈+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[10150640] = {
 		id = 10150640,
 		name = "신비로운 용약+"
@@ -20238,8 +20435,6 @@ end)()
 		id = 1011251,
 		name = "과달카날 섬 강습+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1014341] = {
 		id = 1014341,
 		name = "영광의 자염+"
@@ -20484,6 +20679,8 @@ end)()
 		id = 1090042,
 		name = "1센트 동전(소량)"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090043] = {
 		id = 1090043,
 		name = "1센트 동전(보통)"
@@ -20640,8 +20837,6 @@ end)()
 		id = 1090321,
 		name = "긴급회피・불독"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090331] = {
 		id = 1090331,
 		name = "뇌장 지휘·{namecode:15}"

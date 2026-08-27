@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "트랙에서 보라색 요정을 보았지만, 순식간에 사라졌다. [SR 장비 설계도×10] 획득!"
+			say = "해피 D가 상공을 날아가는 것이 보였다. 【SSR 장비 설계도×10】이 떨어졌다."
 		}
 	}
 }

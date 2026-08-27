@@ -11846,6 +11846,30 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70306] = {
+		id = 70306,
+		name = "2026本宁顿活动 EX BOSS移动至中场",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -40,
+					z = 54
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

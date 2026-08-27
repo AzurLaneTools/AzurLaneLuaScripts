@@ -841,6 +841,11 @@ temp = function()
 				this = true
 			}
 		},
+		["닝"] = {
+			["턴"] = {
+				this = true
+			}
+		},
 		["스"] = {
 			["탈"] = {
 				this = true,
