@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "被賽場熱烈的氣氛感染，超常發揮，【前進一格】"
+			say = "被維克斯堡的熱烈應援感染，超常發揮，【前進一格】"
 		}
 	}
 }

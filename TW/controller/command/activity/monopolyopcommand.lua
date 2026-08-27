@@ -67,12 +67,13 @@ slot0.execute = function(slot0, slot1)
 					end
 				end
 
-				slot6 = slot0.number[1]
-				slot7 = slot0.number[2]
-				slot8 = #slot4 > 0 and slot4[#slot4] or slot1.data2
+				print(slot3, "--", slot0.number[1], "-", slot0.number[2], "-", #slot4 > 0 and slot4[#slot4] or slot1.data2, "-", #slot4)
+
+				slot9 = false
 
 				if table.contains(slot4, 1) then
 					slot1.data1_list[3] = slot1.data1_list[3] + 1
+					slot9 = true
 				end
 
 				if slot3 == ActivityConst.MONOPOLY_OP_THROW then
@@ -80,12 +81,12 @@ slot0.execute = function(slot0, slot1)
 
 					slot1.data3 = slot6
 					slot1.data1_list[2] = slot1.data1_list[2] + 1
-					slot10 = slot1:getDataConfig("effective_times") or 0
-					slot11 = nil
-					slot11 = (slot10 == 0 or math.min(slot1.data1_list[2], slot10)) and slot1.data1_list[2]
+					slot11 = slot1:getDataConfig("effective_times") or 0
+					slot12 = nil
+					slot12 = (slot11 == 0 or math.min(slot1.data1_list[2], slot11)) and slot1.data1_list[2]
 
 					if slot1:getDataConfig("reward_time") > 0 then
-						slot1.data2_list[1] = math.floor(slot11 / slot9)
+						slot1.data2_list[1] = math.floor(slot12 / slot10)
 					else
 						slot1.data2_list[1] = 0
 					end
@@ -100,7 +101,7 @@ slot0.execute = function(slot0, slot1)
 					slot1.data2 = slot8
 					slot1.data4 = slot7
 
-					if slot8 <= 1 then
+					if slot9 then
 						slot1.data1_list[4] = 0
 					end
 
@@ -110,11 +111,15 @@ slot0.execute = function(slot0, slot1)
 						uv1.callback(slot6, slot4, slot7)
 					end
 				elseif slot3 == ActivityConst.MONOPOLY_OP_TRIGGER then
-					slot9 = uv1.callback or function (slot0, slot1)
+					slot10 = uv1.callback or function (slot0, slot1)
 					end
 					slot1.data3 = slot6
 					slot1.data2 = slot8
 					slot1.data4 = slot7 or 0
+
+					if slot9 then
+						slot1.data1_list[4] = 0
+					end
 
 					uv0:updateActivity(slot1)
 
@@ -127,10 +132,10 @@ slot0.execute = function(slot0, slot1)
 							end
 						})
 					else
-						slot9(slot4, slot7)
+						slot10(slot4, slot7)
 					end
 				elseif slot3 == ActivityConst.MONOPOLY_OP_PICK then
-					slot9 = uv1.callback or function (slot0, slot1)
+					slot10 = uv1.callback or function (slot0, slot1)
 					end
 					slot1.data1_list[4] = uv1.arg1
 
@@ -149,7 +154,7 @@ slot0.execute = function(slot0, slot1)
 							end
 						})
 					else
-						slot9(slot4, slot7)
+						slot10(slot4, slot7)
 					end
 
 					print("cmd : 6", " 路径 ： ", slot5, "  剩余步数 ： ", slot6)

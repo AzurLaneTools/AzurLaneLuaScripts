@@ -921,6 +921,8 @@ slot0.TrySubmitTask = function(slot0)
 		end
 	end
 
+	slot0:UpdateStoryTask()
+
 	if slot1 and slot0.storyTask and slot0.storyTask:getTaskStatus() == 1 then
 		slot0.coreStoryPage:emit(ActivityMediator.ON_TASK_SUBMIT, slot0.storyTask)
 

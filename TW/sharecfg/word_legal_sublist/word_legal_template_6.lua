@@ -4,6 +4,16 @@ slot0.word_legal_template_6 = {}
 slot1 = slot0.word_legal_template_6
 
 temp = function()
+	uv0["肯"] = {
+		["特"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["諾"] = {
 		["福"] = {
 			["克"] = {
@@ -488,16 +498,6 @@ temp = function()
 			this = true
 		},
 		["龍"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["深"] = {
-		["雪"] = {
 			this = true
 		}
 	}

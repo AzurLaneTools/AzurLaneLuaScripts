@@ -272,7 +272,9 @@ slot0._Init = function(slot0, slot1, slot2)
 		VedioStoryPlayer.New(slot1),
 		CastStoryPlayer.New(slot1),
 		SpAnimStoryPlayer.New(slot1),
-		BlinkStoryPlayer.New(slot1)
+		BlinkStoryPlayer.New(slot1),
+		DialogueStoryPlayer.New(slot1),
+		SubPageStoryPlayer.New(slot1)
 	}
 	slot0.setSpeedPanel = StorySetSpeedPanel.New(slot0._tf, function (slot0)
 		uv0:UpdatePlaySpeed(slot0)

@@ -160,7 +160,22 @@ pg.activity_medal_template.all = {
 	5107805,
 	5107806,
 	5107807,
-	5107808
+	5107808,
+	5111001,
+	5111002,
+	5111003,
+	5111004,
+	5111005,
+	5111006,
+	5111007,
+	5111008,
+	5111301,
+	5111302,
+	5111303,
+	5111304,
+	5111305,
+	5111306,
+	5111307
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -360,6 +375,25 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5107806,
 		5107807,
 		5107808
+	},
+	[51110] = {
+		5111001,
+		5111002,
+		5111003,
+		5111004,
+		5111005,
+		5111006,
+		5111007,
+		5111008
+	},
+	[51113] = {
+		5111301,
+		5111302,
+		5111303,
+		5111304,
+		5111305,
+		5111306,
+		5111307
 	}
 }
 pg.base = pg.base or {}
@@ -2263,5 +2297,185 @@ end)()
 		activity_medal_name = "紀念貼紙：封鎖病區",
 		id = 5107808,
 		medal_asset = "ActivityMedal/5107808"
+	}
+	pg.base.activity_medal_template[5111001] = {
+		activity_medal_desc = "「誤入歧路的旅人，歡迎來到————星光城」",
+		next_medal = 0,
+		item = 66066,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "1",
+		task_id = 25702,
+		activity_medal_name = "紀念貼紙：星光城",
+		id = 5111001,
+		medal_asset = "ActivityMedal/5111001"
+	}
+	pg.base.activity_medal_template[5111002] = {
+		activity_medal_desc = "這座城市需要更多的名偵探！",
+		next_medal = 0,
+		item = 66067,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "2",
+		task_id = 25703,
+		activity_medal_name = "紀念貼紙：名偵探",
+		id = 5111002,
+		medal_asset = "ActivityMedal/5111002"
+	}
+	pg.base.activity_medal_template[5111003] = {
+		activity_medal_desc = "設備調整完畢，倒數3…2…1－錄音開始！",
+		next_medal = 0,
+		item = 66068,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "3",
+		task_id = 25704,
+		activity_medal_name = "紀念貼紙：Vlogger",
+		id = 5111003,
+		medal_asset = "ActivityMedal/5111003"
+	}
+	pg.base.activity_medal_template[5111004] = {
+		activity_medal_desc = "一顆冉冉升起的新星，加油！",
+		next_medal = 0,
+		item = 66069,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "4",
+		task_id = 25705,
+		activity_medal_name = "紀念貼紙：新人偶像",
+		id = 5111004,
+		medal_asset = "ActivityMedal/5111004"
+	}
+	pg.base.activity_medal_template[5111005] = {
+		activity_medal_desc = "慷慨的老闆，今天你要解決什麼安全問題？",
+		next_medal = 0,
+		item = 66070,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "5",
+		task_id = 25706,
+		activity_medal_name = "紀念貼紙：安全專家",
+		id = 5111005,
+		medal_asset = "ActivityMedal/5111005"
+	}
+	pg.base.activity_medal_template[5111006] = {
+		activity_medal_desc = "你發現隱藏在城市中的秘密了嗎——「B」on",
+		next_medal = 0,
+		item = 66071,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "6",
+		task_id = 25707,
+		activity_medal_name = "紀念貼紙：「B」",
+		id = 5111006,
+		medal_asset = "ActivityMedal/5111006"
+	}
+	pg.base.activity_medal_template[5111007] = {
+		activity_medal_desc = "你發現隱藏在城市中的秘密了嗎——「H」omme",
+		next_medal = 0,
+		item = 66072,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "7",
+		task_id = 25708,
+		activity_medal_name = "紀念貼紙：「H」",
+		id = 5111007,
+		medal_asset = "ActivityMedal/5111007"
+	}
+	pg.base.activity_medal_template[5111008] = {
+		activity_medal_desc = "你發現隱藏在城市中的秘密了嗎——「R」ichard",
+		next_medal = 0,
+		item = 66073,
+		remake_task_id = 0,
+		group = 51110,
+		prefab_node = "8",
+		task_id = 25709,
+		activity_medal_name = "紀念貼紙：「R」",
+		id = 5111008,
+		medal_asset = "ActivityMedal/5111008"
+	}
+	pg.base.activity_medal_template[5111301] = {
+		activity_medal_desc = "獎盃壞了找誰賠？啾啾！",
+		next_medal = 0,
+		item = 66075,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "1",
+		task_id = 25712,
+		activity_medal_name = "紀念貼紙：冠軍獎盃",
+		id = 5111301,
+		medal_asset = "ActivityMedal/5111301"
+	}
+	pg.base.activity_medal_template[5111302] = {
+		activity_medal_desc = "安可！安可！",
+		next_medal = 0,
+		item = 66076,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "2",
+		task_id = 25713,
+		activity_medal_name = "紀念貼紙：瘋狂打call",
+		id = 5111302,
+		medal_asset = "ActivityMedal/5111302"
+	}
+	pg.base.activity_medal_template[5111303] = {
+		activity_medal_desc = "真拿你沒辦法，坐好嘍~",
+		next_medal = 0,
+		item = 66077,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "3",
+		task_id = 25714,
+		activity_medal_name = "紀念貼紙：全場領跑",
+		id = 5111303,
+		medal_asset = "ActivityMedal/5111303"
+	}
+	pg.base.activity_medal_template[5111304] = {
+		activity_medal_desc = "這水有力氣！",
+		next_medal = 0,
+		item = 66078,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "4",
+		task_id = 25715,
+		activity_medal_name = "紀念貼紙：高壓水槍",
+		id = 5111304,
+		medal_asset = "ActivityMedal/5111304"
+	}
+	pg.base.activity_medal_template[5111305] = {
+		activity_medal_desc = "最後衝刺開始了，勝負就在眼前！",
+		next_medal = 0,
+		item = 66079,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "5",
+		task_id = 25716,
+		activity_medal_name = "紀念貼紙：現場解說",
+		id = 5111305,
+		medal_asset = "ActivityMedal/5111305"
+	}
+	pg.base.activity_medal_template[5111306] = {
+		activity_medal_desc = "衝過這條線，接下來就是歡呼時間！",
+		next_medal = 0,
+		item = 66080,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "6",
+		task_id = 25717,
+		activity_medal_name = "紀念貼紙：衝線時刻",
+		id = 5111306,
+		medal_asset = "ActivityMedal/5111306"
+	}
+	pg.base.activity_medal_template[5111307] = {
+		activity_medal_desc = "DU！DU！DU！DU！",
+		next_medal = 0,
+		item = 66081,
+		remake_task_id = 0,
+		group = 51113,
+		prefab_node = "7",
+		task_id = 25718,
+		activity_medal_name = "紀念貼紙：SPEED MAX",
+		id = 5111307,
+		medal_asset = "ActivityMedal/5111307"
 	}
 end)()

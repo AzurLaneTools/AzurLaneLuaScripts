@@ -22,7 +22,8 @@ pg.activity_task_permanent.all = {
 	6015,
 	6016,
 	6018,
-	6020
+	6020,
+	6042
 }
 pg.base = pg.base or {}
 pg.base.activity_task_permanent = {}
@@ -509,5 +510,17 @@ pg.base.activity_task_permanent = {}
 			35256,
 			35257
 		}
+	}
+	pg.base.activity_task_permanent[6042] = {
+		gametip = "可獲得勒馬爾限定換裝「閃耀的夏天」",
+		banner_route = "permanent_lemaer",
+		gametip_extra = "最快10日獲得",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "閃耀的夏天",
+		id = 6042,
+		activity_group = 1000,
+		over_task_id = "",
+		eliminate_task_id = {}
 	}
 end)()

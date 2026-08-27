@@ -8,6 +8,7 @@ slot0.MODE_CAST = 6
 slot0.MODE_SPANIM = 7
 slot0.MODE_BLINK = 8
 slot0.MODE_TDDIALOGUE = 9
+slot0.MODE_SUBPAGE = 10
 slot0.STORY_AUTO_SPEED = {
 	-9,
 	0,
@@ -31,17 +32,20 @@ slot0.GetStoryStepCls = function(slot0)
 		CastStep,
 		SpAnimStep,
 		BlinkStep,
-		TDDialogueStep
+		TDDialogueStep,
+		SubPageStep
 	})[slot0]
 end
 
 slot0.PLAYER = 2
 slot0.TB = 4
 slot0.DORM = 8
+slot0.CAR2026 = 16
 slot0.PlaceholderMap = {
 	playername = slot0.PLAYER,
 	tb = slot0.TB,
-	dorm3d = slot0.DORM
+	dorm3d = slot0.DORM,
+	car2026 = slot0.CAR2026
 }
 slot0.PLAY_TYPE_STORY = 1
 slot0.PLAY_TYPE_BUBBLE = 2

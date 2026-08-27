@@ -46,6 +46,7 @@ slot0.OPEN_CHARGE_BIRTHDAY = "ActivityMediator.OPEN_CHARGE_BIRTHDAY"
 slot0.STORE_DATE = "ActivityMediator.STORE_DATE"
 slot0.ON_ACT_SHOPPING = "ActivityMediator.ON_ACT_SHOPPING"
 slot0.GO_MONOPOLY2024 = "ActivityMediator:GO_MONOPOLY2024"
+slot0.GO_MONOPOLY2026 = "ActivityMediator:GO_MONOPOLY2026"
 slot0.ON_ACTIVITY_TASK_SUBMIT = "ActivityMediator.ON_ACTIVITY_TASK_SUBMIT"
 slot0.ON_ACTIVITY_TASK_LIST_SUBMIT = "ActivityMediator.ON_ACTIVITY_TASK_LIST_SUBMIT"
 slot0.GO_CHANGE_SHOP = "go Change shop"
@@ -70,8 +71,18 @@ slot0.register = function(slot0)
 			onRemoved = slot2
 		}))
 	end)
-	slot0:bind(uv0.ON_AWARD_WINDOW, function (slot0, slot1, slot2, slot3)
-		uv0.viewComponent:ShowAwardWindow(slot1, slot2, slot3)
+	slot0:bind(uv0.GO_MONOPOLY2026, function (slot0, slot1, slot2)
+		uv0:addSubLayers(Context.New({
+			mediator = MonopolyCar2024Mediator,
+			viewComponent = MonopolyCar2026Scene,
+			data = {
+				actId = slot1
+			},
+			onRemoved = slot2
+		}))
+	end)
+	slot0:bind(uv0.ON_AWARD_WINDOW, function (slot0, slot1, slot2, slot3, slot4)
+		uv0.viewComponent:ShowAwardWindow(slot1, slot2, slot3, slot4)
 	end)
 	slot0:bind(uv0.GO_CHANGE_SHOP, function ()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)

@@ -2548,7 +2548,7 @@ pg.base.island_formula = {}
 	}
 	pg.base.island_formula[501006] = {
 		workload = 120000,
-		name = "酥梨",
+		name = "酪梨",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
@@ -5721,7 +5721,7 @@ end)()
 	}
 	pg.base.island_formula[901003] = {
 		workload = 24000,
-		name = "芝士",
+		name = "起司",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,
@@ -11866,7 +11866,7 @@ end)()
 	}
 	pg.base.island_formula[7500236] = {
 		workload = 36000,
-		name = "酥梨樹種植技術",
+		name = "酪梨樹種植技術",
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 0,

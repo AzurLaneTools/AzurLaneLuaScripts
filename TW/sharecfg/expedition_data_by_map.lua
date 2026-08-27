@@ -422,6 +422,12 @@ pg.expedition_data_by_map.all = {
 	2040001,
 	2040002,
 	2040003,
+	2050001,
+	2050002,
+	2050011,
+	2050012,
+	2050025,
+	2050026,
 	2100000,
 	2100001,
 	2100010,
@@ -26398,6 +26404,655 @@ end)()
 			469
 		}
 	}
+	pg.base.expedition_data_by_map[2050001] = {
+		map = 2050001,
+		name = "沉溺於星光之城·上篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2050001",
+		ani_controller = "",
+		default_background = "star_level_bg_154",
+		on_activity = 51101,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "theme-richard-white",
+		ui_type = 10,
+		bg = "Map_2050001",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-thinking-philosophy",
+		uifx = "",
+		bind_map = 2050011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2050001,
+				2050021
+			},
+			{
+				2050002,
+				2050022
+			},
+			{
+				2050003,
+				2050023
+			}
+		},
+		story_id = {
+			481,
+			482,
+			483,
+			484,
+			485,
+			486,
+			487,
+			488,
+			489,
+			490,
+			491,
+			492,
+			493,
+			494,
+			495,
+			496,
+			497,
+			498,
+			499,
+			500,
+			501,
+			502,
+			503,
+			504,
+			505,
+			506,
+			507,
+			508,
+			509,
+			510,
+			511,
+			512,
+			513,
+			514,
+			515,
+			516,
+			517,
+			518,
+			519,
+			520,
+			521,
+			522,
+			523,
+			524,
+			525,
+			526
+		}
+	}
+	pg.base.expedition_data_by_map[2050002] = {
+		map = 2050002,
+		name = "沉溺於星光之城·下篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2050002",
+		ani_controller = "",
+		default_background = "star_level_bg_154",
+		on_activity = 51101,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "story-nailuo-theme",
+		ui_type = 10,
+		bg = "Map_2050002",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-thinking-philosophy",
+		uifx = "",
+		bind_map = 2050012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2050004,
+				2050024
+			},
+			{
+				2050005,
+				2050025
+			},
+			{
+				2050006,
+				2050026
+			}
+		},
+		story_id = {
+			481,
+			482,
+			483,
+			484,
+			485,
+			486,
+			487,
+			488,
+			489,
+			490,
+			491,
+			492,
+			493,
+			494,
+			495,
+			496,
+			497,
+			498,
+			499,
+			500,
+			501,
+			502,
+			503,
+			504,
+			505,
+			506,
+			507,
+			508,
+			509,
+			510,
+			511,
+			512,
+			513,
+			514,
+			515,
+			516,
+			517,
+			518,
+			519,
+			520,
+			521,
+			522,
+			523,
+			524,
+			525,
+			526
+		}
+	}
+	pg.base.expedition_data_by_map[2050011] = {
+		map = 2050011,
+		name = "沉溺於星光之城·上篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2050001",
+		ani_controller = "",
+		default_background = "star_level_bg_154",
+		on_activity = 51101,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "theme-richard-white",
+		ui_type = 10,
+		bg = "Map_2050001",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-thinking-philosophy",
+		uifx = "",
+		bind_map = 2050001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2050001,
+				2050021
+			},
+			{
+				2050002,
+				2050022
+			},
+			{
+				2050003,
+				2050023
+			}
+		},
+		story_id = {
+			481,
+			482,
+			483,
+			484,
+			485,
+			486,
+			487,
+			488,
+			489,
+			490,
+			491,
+			492,
+			493,
+			494,
+			495,
+			496,
+			497,
+			498,
+			499,
+			500,
+			501,
+			502,
+			503,
+			504,
+			505,
+			506,
+			507,
+			508,
+			509,
+			510,
+			511,
+			512,
+			513,
+			514,
+			515,
+			516,
+			517,
+			518,
+			519,
+			520,
+			521,
+			522,
+			523,
+			524,
+			525,
+			526
+		}
+	}
+	pg.base.expedition_data_by_map[2050012] = {
+		map = 2050012,
+		name = "沉溺於星光之城·下篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2050002",
+		ani_controller = "",
+		default_background = "star_level_bg_154",
+		on_activity = 51101,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "story-nailuo-theme",
+		ui_type = 10,
+		bg = "Map_2050002",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-thinking-philosophy",
+		uifx = "",
+		bind_map = 2050002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2050004,
+				2050024
+			},
+			{
+				2050005,
+				2050025
+			},
+			{
+				2050006,
+				2050026
+			}
+		},
+		story_id = {
+			481,
+			482,
+			483,
+			484,
+			485,
+			486,
+			487,
+			488,
+			489,
+			490,
+			491,
+			492,
+			493,
+			494,
+			495,
+			496,
+			497,
+			498,
+			499,
+			500,
+			501,
+			502,
+			503,
+			504,
+			505,
+			506,
+			507,
+			508,
+			509,
+			510,
+			511,
+			512,
+			513,
+			514,
+			515,
+			516,
+			517,
+			518,
+			519,
+			520,
+			521,
+			522,
+			523,
+			524,
+			525,
+			526
+		}
+	}
+	pg.base.expedition_data_by_map[2050025] = {
+		map = 2050025,
+		name = "沉溺於星光之城·SP|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2050001",
+		ani_controller = "",
+		default_background = "star_level_bg_154",
+		on_activity = 51101,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "battle-starcity-rhythm",
+		ui_type = 10,
+		bg = "Map_2050001",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-thinking-philosophy",
+		uifx = "",
+		bind_map = 2050011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2050041
+			}
+		},
+		story_id = {
+			481,
+			482,
+			483,
+			484,
+			485,
+			486,
+			487,
+			488,
+			489,
+			490,
+			491,
+			492,
+			493,
+			494,
+			495,
+			496,
+			497,
+			498,
+			499,
+			500,
+			501,
+			502,
+			503,
+			504,
+			505,
+			506,
+			507,
+			508,
+			509,
+			510,
+			511,
+			512,
+			513,
+			514,
+			515,
+			516,
+			517,
+			518,
+			519,
+			520,
+			521,
+			522,
+			523,
+			524,
+			525,
+			526
+		}
+	}
+	pg.base.expedition_data_by_map[2050026] = {
+		map = 2050026,
+		name = "沉溺於星光之城·EX|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "juqing_mofazhen",
+		ani_controller = "",
+		default_background = "star_level_bg_154",
+		on_activity = 51101,
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "theme-richard",
+		ui_type = 10,
+		bg = "Map_2050001",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-thinking-philosophy",
+		uifx = "",
+		bind_map = 2050012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2050051,
+				2050052
+			}
+		},
+		story_id = {
+			481,
+			482,
+			483,
+			484,
+			485,
+			486,
+			487,
+			488,
+			489,
+			490,
+			491,
+			492,
+			493,
+			494,
+			495,
+			496,
+			497,
+			498,
+			499,
+			500,
+			501,
+			502,
+			503,
+			504,
+			505,
+			506,
+			507,
+			508,
+			509,
+			510,
+			511,
+			512,
+			513,
+			514,
+			515,
+			516,
+			517,
+			518,
+			519,
+			520,
+			521,
+			522,
+			523,
+			524,
+			525,
+			526
+		}
+	}
 	pg.base.expedition_data_by_map[2100000] = {
 		map = 2100000,
 		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
@@ -30190,6 +30845,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.expedition_data_by_map[2100381] = {
 		map = 2100381,
 		name = "碧海光粼·上篇|| ||CHAPTER EX||EX",
@@ -30496,8 +31153,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.expedition_data_by_map[2100411] = {
 		map = 2100411,
 		name = "復興的讚美詩·上篇|| ||CHAPTER EX||E.X.",

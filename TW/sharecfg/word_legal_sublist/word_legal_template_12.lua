@@ -58,11 +58,13 @@ temp = function()
 		["古"] = {
 			["特"] = {
 				this = true,
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
 							}
 						}
 					}

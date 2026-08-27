@@ -29,7 +29,34 @@ pg.activity_event_monopoly_dialogue.all = {
 	126,
 	127,
 	128,
-	129
+	129,
+	131,
+	132,
+	133,
+	134,
+	135,
+	136,
+	137,
+	138,
+	139,
+	141,
+	142,
+	143,
+	144,
+	145,
+	146,
+	147,
+	148,
+	149,
+	151,
+	152,
+	153,
+	154,
+	155,
+	156,
+	157,
+	158,
+	159
 }
 pg.base = pg.base or {}
 pg.base.activity_event_monopoly_dialogue = {}
@@ -142,5 +169,113 @@ pg.base.activity_event_monopoly_dialogue = {}
 	pg.base.activity_event_monopoly_dialogue[129] = {
 		id = 129,
 		dialogue = "我已看見勝利就在前方，等待著您的到達。"
+	}
+	pg.base.activity_event_monopoly_dialogue[131] = {
+		id = 131,
+		dialogue = "指揮官，鏡頭已經準備好了！今日的賽道Vlog——3、2、1，Start！"
+	}
+	pg.base.activity_event_monopoly_dialogue[132] = {
+		id = 132,
+		dialogue = "完美收工！記得給自己點個讚~"
+	}
+	pg.base.activity_event_monopoly_dialogue[133] = {
+		id = 133,
+		dialogue = "喔喔~看來指揮官很懂什麼叫「最佳搭檔」嘛！"
+	}
+	pg.base.activity_event_monopoly_dialogue[134] = {
+		id = 134,
+		dialogue = "慢也有慢的美感~我會把這段剪得超有氛圍的。"
+	}
+	pg.base.activity_event_monopoly_dialogue[135] = {
+		id = 135,
+		dialogue = "別急別急，就算是比賽也要安全第一~"
+	}
+	pg.base.activity_event_monopoly_dialogue[136] = {
+		id = 136,
+		dialogue = "指揮官，保持這個狀態~鏡頭裡的你看起來很可靠哦~"
+	}
+	pg.base.activity_event_monopoly_dialogue[137] = {
+		id = 137,
+		dialogue = "嗯嗯，這個節奏不錯！速度和歡呼全都剛剛好！"
+	}
+	pg.base.activity_event_monopoly_dialogue[138] = {
+		id = 138,
+		dialogue = "Gogogo！指揮官，就這樣一路衝到終點吧！"
+	}
+	pg.base.activity_event_monopoly_dialogue[139] = {
+		id = 139,
+		dialogue = "Wow！這個加速感簡直太棒了！"
+	}
+	pg.base.activity_event_monopoly_dialogue[141] = {
+		id = 141,
+		dialogue = "嗯……視野很好。指揮官，我們準備出發吧。"
+	}
+	pg.base.activity_event_monopoly_dialogue[142] = {
+		id = 142,
+		dialogue = "嗯……？這就到終點了嗎，指揮官好厲害。"
+	}
+	pg.base.activity_event_monopoly_dialogue[143] = {
+		id = 143,
+		dialogue = "還要繼續嗎？好吧……換來換去其實也挺麻煩的。"
+	}
+	pg.base.activity_event_monopoly_dialogue[144] = {
+		id = 144,
+		dialogue = "慢一點也沒關係，至少很平穩……"
+	}
+	pg.base.activity_event_monopoly_dialogue[145] = {
+		id = 145,
+		dialogue = "速度有點悠閒……不過這也是賽車體驗的一部分。"
+	}
+	pg.base.activity_event_monopoly_dialogue[146] = {
+		id = 146,
+		dialogue = "嗯，這個速度剛剛好。既不會太累，也不會顯得沒有努力。"
+	}
+	pg.base.activity_event_monopoly_dialogue[147] = {
+		id = 147,
+		dialogue = "嗯，路線沒有問題。保持這個節奏，應該能比較輕鬆地到達終點。"
+	}
+	pg.base.activity_event_monopoly_dialogue[148] = {
+		id = 148,
+		dialogue = "欸，指揮官很有幹勁呢……那我也稍微打起精神來吧。"
+	}
+	pg.base.activity_event_monopoly_dialogue[149] = {
+		id = 149,
+		dialogue = "指揮官的節奏很不錯，勝利應該不遠了。"
+	}
+	pg.base.activity_event_monopoly_dialogue[151] = {
+		id = 151,
+		dialogue = "呵呵~就讓我看看你馳騁賽場的氣勢吧。"
+	}
+	pg.base.activity_event_monopoly_dialogue[152] = {
+		id = 152,
+		dialogue = "辛苦了，這一圈完成得不錯，數據與路線我都記下來了。"
+	}
+	pg.base.activity_event_monopoly_dialogue[153] = {
+		id = 153,
+		dialogue = "呵呵，還要我留在身旁嗎？既然你如此依賴我，我自然不會離開。"
+	}
+	pg.base.activity_event_monopoly_dialogue[154] = {
+		id = 154,
+		dialogue = "指揮官，勝負之機，往往藏於沉穩之中。"
+	}
+	pg.base.activity_event_monopoly_dialogue[155] = {
+		id = 155,
+		dialogue = "跑謹慎點也好~能安全抵達終點，才有資格談勝利。"
+	}
+	pg.base.activity_event_monopoly_dialogue[156] = {
+		id = 156,
+		dialogue = "保持節奏－我們繼續前進！"
+	}
+	pg.base.activity_event_monopoly_dialogue[157] = {
+		id = 157,
+		dialogue = "好！就是這股氣勢——讓引擎轟鳴起來吧。"
+	}
+	pg.base.activity_event_monopoly_dialogue[158] = {
+		id = 158,
+		dialogue = "好，就以這股氣勢破開前路吧。"
+	}
+	pg.base.activity_event_monopoly_dialogue[159] = {
+		id = 159,
+		dialogue = "呵呵，精彩的加速，勝利已經近在眼前。"
 	}
 end)()

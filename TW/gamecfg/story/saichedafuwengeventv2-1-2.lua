@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "完成了明石委託的廣告宣傳委託，獲得了委託獎勵【物資*1000】"
+			say = "協助班寧頓委託拍攝車隊宣傳片，獲得了商業贊助【物資*1000】"
 		}
 	}
 }

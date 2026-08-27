@@ -19,6 +19,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.changeView = slot0:GetChangeSkinView()
 	slot0.asmrChatView = slot0:GetAsmrChatView()
 	slot0.redDotUIList = slot0:RegisterRedDots()
+	slot0._loaded = true
 end
 
 slot0.Show = function(slot0, slot1)
@@ -145,6 +146,10 @@ slot0.Disable = function(slot0)
 	slot0.wordView:Disable()
 	slot0.changeView:Disable()
 	setActiveViaLayer(slot0._tf, false)
+end
+
+slot0.IsLoaded = function(slot0)
+	return slot0._loaded
 end
 
 slot0.OnDestroy = function(slot0)

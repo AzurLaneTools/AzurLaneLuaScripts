@@ -4,6 +4,23 @@ slot0.word_legal_template_5 = {}
 slot1 = slot0.word_legal_template_5
 
 temp = function()
+	uv0["螢"] = {
+		["火"] = {
+			["蟲"] = {
+				this = true,
+				["."] = {
+					["改"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["勇"] = {
 		["氣"] = {
 			this = true
@@ -514,16 +531,6 @@ temp = function()
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["肯"] = {
-		["特"] = {
-			this = true
 		}
 	}
 end

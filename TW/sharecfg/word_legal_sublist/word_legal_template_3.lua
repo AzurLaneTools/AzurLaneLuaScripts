@@ -4,6 +4,23 @@ slot0.word_legal_template_3 = {}
 slot1 = slot0.word_legal_template_3
 
 temp = function()
+	uv0["休"] = {
+		["士"] = {
+			["頓"] = {
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["法"] = {
 		["戈"] = {
 			this = true
@@ -27,6 +44,51 @@ temp = function()
 				["納"] = {
 					this = true
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["維"] = {
+		["克"] = {
+			["斯"] = {
+				["堡"] = {
+					this = true
+				}
+			}
+		},
+		["托"] = {
+			["里"] = {
+				["奧"] = {
+					["·"] = {
+						["維"] = {
+							["內"] = {
+								["托"] = {
+									this = true
+								}
+							}
+						},
+						["庫"] = {
+							["尼"] = {
+								["貝"] = {
+									["爾"] = {
+										["蒂"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["達"] = {
+			["號"] = {
+				this = true
 			}
 		}
 	}
@@ -732,38 +794,6 @@ temp = function()
 			["特"] = {
 				["里"] = {
 					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["蘭"] = {
-		["利"] = {
-			this = true,
-			I = {
-				I = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["列"] = {
-		["星"] = {
-			["頓"] = {
-				this = true,
-				I = {
-					I = {
-						this = true
-					}
 				}
 			}
 		}

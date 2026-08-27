@@ -65,6 +65,7 @@ pg.activity_link_button.get_id_list_by_name = {
 		117
 	},
 	event_core_2 = {
+		110,
 		131
 	},
 	event_dreamland = {
@@ -91,7 +92,6 @@ pg.activity_link_button.get_id_list_by_name = {
 	event_minigame = {
 		20,
 		108,
-		110,
 		122
 	},
 	event_old_act = {
@@ -161,7 +161,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51071
+			51101
 		}
 	}
 	pg.base.activity_link_button[11] = {
@@ -463,12 +463,12 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51086
+			51109
 		}
 	}
 	pg.base.activity_link_button[110] = {
 		param = "RapidSeasideCoreActivityUI",
-		name = "event_minigame",
+		name = "event_core_2",
 		text_pic = "text_event_core3",
 		type = 16,
 		pic = "event_core3",
@@ -497,7 +497,7 @@ pg.base.activity_link_button = {}
 	pg.base.activity_link_button[122] = {
 		param = "NieRAutomataCoreActivityUI",
 		name = "event_minigame",
-		text_pic = "text_event_yumia",
+		text_pic = "text_event_core3",
 		type = 16,
 		pic = "event_minigame",
 		id = 122,

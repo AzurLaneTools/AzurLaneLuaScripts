@@ -8,10 +8,7 @@ return {
 				},
 				arg_list = {
 					number = 0.05,
-					attr = "criDamage",
-					index = {
-						1
-					}
+					attr = "criDamage"
 				}
 			},
 			{
@@ -35,10 +32,7 @@ return {
 				},
 				arg_list = {
 					number = 0.061,
-					attr = "criDamage",
-					index = {
-						1
-					}
+					attr = "criDamage"
 				}
 			},
 			{
@@ -62,10 +56,7 @@ return {
 				},
 				arg_list = {
 					number = 0.072,
-					attr = "criDamage",
-					index = {
-						1
-					}
+					attr = "criDamage"
 				}
 			},
 			{
@@ -89,10 +80,7 @@ return {
 				},
 				arg_list = {
 					number = 0.083,
-					attr = "criDamage",
-					index = {
-						1
-					}
+					attr = "criDamage"
 				}
 			},
 			{
@@ -116,10 +104,7 @@ return {
 				},
 				arg_list = {
 					number = 0.094,
-					attr = "criDamage",
-					index = {
-						1
-					}
+					attr = "criDamage"
 				}
 			},
 			{
@@ -143,10 +128,7 @@ return {
 				},
 				arg_list = {
 					number = 0.105,
-					attr = "criDamage",
-					index = {
-						1
-					}
+					attr = "criDamage"
 				}
 			},
 			{
@@ -170,10 +152,7 @@ return {
 				},
 				arg_list = {
 					number = 0.116,
-					attr = "criDamage",
-					index = {
-						1
-					}
+					attr = "criDamage"
 				}
 			},
 			{
@@ -197,10 +176,7 @@ return {
 				},
 				arg_list = {
 					number = 0.127,
-					attr = "criDamage",
-					index = {
-						1
-					}
+					attr = "criDamage"
 				}
 			},
 			{
@@ -224,10 +200,7 @@ return {
 				},
 				arg_list = {
 					number = 0.138,
-					attr = "criDamage",
-					index = {
-						1
-					}
+					attr = "criDamage"
 				}
 			},
 			{
@@ -251,10 +224,7 @@ return {
 				},
 				arg_list = {
 					number = 0.15,
-					attr = "criDamage",
-					index = {
-						1
-					}
+					attr = "criDamage"
 				}
 			},
 			{
@@ -295,10 +265,7 @@ return {
 			},
 			arg_list = {
 				number = 0.05,
-				attr = "criDamage",
-				index = {
-					1
-				}
+				attr = "criDamage"
 			}
 		},
 		{

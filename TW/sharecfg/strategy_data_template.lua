@@ -376,6 +376,11 @@ pg.strategy_data_template.all = {
 	201763,
 	201764,
 	201765,
+	201820,
+	201821,
+	201826,
+	201831,
+	201832,
 	205001,
 	205002,
 	205003,
@@ -4760,6 +4765,72 @@ BOSS首次<color=#92fc63>耐久低於20%時進入狂暴狀態</color>，獲得�
 		icon = "200908",
 		arg = {}
 	}
+	pg.base.strategy_data_template[201820] = {
+		buff_id = 0,
+		name = "美夢星光城",
+		desc = "美夢星光城中，情緒掠影正在逸散。\n戰鬥中將會出現名為情緒掠影的敵人，情緒掠影被擊破後，可能會生成更多情緒掠影。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201820,
+		icon = "201820",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201821] = {
+		buff_id = 201821,
+		name = "雨中花海",
+		desc = "戰鬥中得到來自約克鎮·META的支援彈幕。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201821,
+		icon = "201821",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201826] = {
+		buff_id = 201826,
+		name = "侵蝕性絡合物",
+		desc = "戰鬥中得到海洛芬特的艦隊支援。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201826,
+		icon = "201826",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201831] = {
+		buff_id = 0,
+		name = "挑戰說明",
+		desc = "戰鬥中好人理察周身環繞紅黑色龍捲風，對較近單位產生引力影響，單位過於靠近將<color=#92fc63>持續受到傷害</color>。\n特定階段下會出現風向提示，此時若我方單位處於風向所指的好人理察左側或右側區域，則會使單位陷入【污染】狀態，該狀態下單位<color=#92fc63>每秒損失自身0.5%上限的耐久並受到20%的額外傷害</color>。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201831,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201832] = {
+		buff_id = 0,
+		name = "挑戰說明",
+		desc = [[
+戰鬥中好人理察周身環繞紅黑色龍卷風，對較近單位產生引力影響，單位過於靠近將會被<color=#ee0000>直接【吞噬】</color>。
+特定階段下會出現風向提示，若我方單位處於<color=#92fc63>風向所指的好人理察左側或右側區域</color>（先鋒艦隊的位置判定統一以先鋒領艦為準），則會使單位<color=#92fc63>持續累積【污染】狀態</color>，離開風向影響區域則會逐漸恢復狀態，累計狀態層數<color=#ffc038>達到十層時單位同樣會被【吞噬】</color>。
+META單位受到的效果有所不同，每有一層【污染】，其<color=#92fc63>造成與受到的傷害便會同時增加10%</color>，達到十層後不會被【吞噬】，但會<color=#92fc63>每秒損失自身2%上限的耐久</color>。
+
+困難模式特性：
+敵方傷害<color=#ffc038>極大幅度提高</color>，部分大體積子彈無法被空襲/護盾消除。
+我方先鋒艦隊的角色<color=#92fc63>受擊判定大幅度縮小，且同一時間只有處於領艦位置的角色擁有受擊判定</color>，其餘角色為無敵狀態。
+角色獲得受擊判定時會附帶短暫無敵效果。
+
+以下裝備或技能中的<color=#92fc63>減傷/回避及其派生效果</color>無法在本挑戰中生效：
+【背水之戰】、【彩虹計劃】、【絕體絕命】、【不屈意志】]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201832,
+		icon = "200908",
+		arg = {}
+	}
 	pg.base.strategy_data_template[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -5013,6 +5084,8 @@ BOSS首次<color=#92fc63>耐久低於20%時進入狂暴狀態</color>，獲得�
 		icon = "buff_yumia_4",
 		arg = {}
 	}
+end)()
+(function ()
 	pg.base.strategy_data_template[300017] = {
 		buff_id = 0,
 		name = "核心等級LV1",

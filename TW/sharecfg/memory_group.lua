@@ -266,6 +266,8 @@ pg.memory_group.all = {
 	369,
 	370,
 	373,
+	374,
+	375,
 	501,
 	502,
 	503,
@@ -7019,6 +7021,100 @@ end)()
 			5311
 		}
 	}
+	pg.base.memory_group[374] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51101,
+		title = "沉溺於星光之城",
+		auto_unlock = "",
+		subtype = 1,
+		id = 374,
+		group_id = "",
+		memories = {
+			5321,
+			5322,
+			5323,
+			5324,
+			5325,
+			5326,
+			5327,
+			5328,
+			5329,
+			5330,
+			5331,
+			5332,
+			5333,
+			5334,
+			5335,
+			5336,
+			5337,
+			5338,
+			5339,
+			5340,
+			5341,
+			5342,
+			5343,
+			5344,
+			5345,
+			5346,
+			5347,
+			5348,
+			5349,
+			5350,
+			5351,
+			5352,
+			5353,
+			5354,
+			5355,
+			5356,
+			5357,
+			5358,
+			5359,
+			5360,
+			5361,
+			5362,
+			5363,
+			5364,
+			5365,
+			5366
+		}
+	}
+	pg.base.memory_group[375] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51113,
+		title = "濱海極速：夏日狂飆",
+		auto_unlock = "",
+		subtype = 3,
+		id = 375,
+		group_id = "",
+		memories = {
+			5381,
+			5382,
+			5383,
+			5384,
+			5385,
+			5386,
+			5387,
+			5388,
+			5389,
+			5390,
+			5391,
+			5392,
+			5393,
+			5394,
+			5395,
+			5396,
+			5397,
+			5398,
+			5399,
+			5400,
+			5401,
+			5402
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7822,6 +7918,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[538] = {
 		ship_group = 20220,
 		icon = "title_chara_tianlangxing",
@@ -7866,8 +7964,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[540] = {
 		ship_group = 10738,
 		icon = "title_chara_xianggelila",

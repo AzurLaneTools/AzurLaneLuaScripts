@@ -5304,16 +5304,16 @@ end)()
 		}
 	}
 	pg.base.island_technology_template[500236] = {
-		complete_title = "可前往<color=#1E8FFE>繁蔭農圃露西</color>處購買<color=#1E8FFE>酥梨樹種</color>",
+		complete_title = "可前往<color=#1E8FFE>繁蔭農圃露西</color>處購買<color=#1E8FFE>酪梨樹種</color>",
 		tech_level = "1",
 		tech_chara = 1,
 		auto_finish = 1,
-		complete_tips = "可前往<color=#1E8FFE>繁蔭農圃露西</color>處購買<color=#1E8FFE>酥梨樹種</color>",
+		complete_tips = "可前往<color=#1E8FFE>繁蔭農圃露西</color>處購買<color=#1E8FFE>酪梨樹種</color>",
 		island_level = 18,
-		tech_desc = "先進的酥梨樹種植技術，讓酥梨樹能在島嶼開發區的環境中茁壯成長。",
+		tech_desc = "先進的酪梨樹種植技術，讓酪梨樹能在島嶼開發區的環境中茁壯成長。",
 		tech_icon = "tech_500231",
 		tech_belong = 5,
-		tech_name = "酥梨樹種植技術",
+		tech_name = "酪梨樹種植技術",
 		formula_id = 7500236,
 		id = 500236,
 		complete_map_id = 1005,

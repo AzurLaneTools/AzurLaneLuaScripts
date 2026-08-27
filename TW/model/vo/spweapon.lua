@@ -146,6 +146,10 @@ slot0.GetSkillInfo = function(slot0)
 		skillId = slot0:GetDisplayEffect()
 	}).skillId == slot0:GetEffect()
 
+	if not slot0:GetShipId() or slot2 == 0 then
+		slot1.descTrigger = true
+	end
+
 	return slot1
 end
 
@@ -178,7 +182,8 @@ slot0.GetUpgradableSkillInfo = function(slot0)
 		table.insert(slot2, {
 			skillId = slot10,
 			lv = slot11,
-			unlock = slot12
+			unlock = slot12,
+			descTrigger = not slot3 or nil
 		})
 	end
 

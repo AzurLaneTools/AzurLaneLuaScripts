@@ -652,15 +652,21 @@ pg.activity_ins_template.all = {
 	660,
 	661,
 	662,
+	663,
+	664,
+	665,
+	666,
+	667,
 	20001,
 	20002,
 	20004,
 	20006,
 	20005,
 	20008,
-	20011,
 	20009,
-	20010
+	20010,
+	20011,
+	20012
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -27359,10 +27365,10 @@ end)()
 		ship_group = 71379,
 		name = "A2",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_659.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_658",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "A2",
 		id = 658,
@@ -27379,17 +27385,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				7,
+				30
+			},
+			{
+				10,
+				20,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7281,
+			7285
+		}
 	}
 	pg.base.activity_ins_template[659] = {
 		ship_group = 71380,
 		name = "2B",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_658.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_659",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "2B",
 		id = 659,
@@ -27406,17 +27426,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				7,
+				31
+			},
+			{
+				17,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7295,
+			7301
+		}
 	}
 	pg.base.activity_ins_template[660] = {
 		ship_group = 20237,
 		name = "Superb",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_660.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_660",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "huali",
 		id = 660,
@@ -27433,17 +27467,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				8,
+				6
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7310,
+			7315
+		}
 	}
 	pg.base.activity_ins_template[661] = {
 		ship_group = 20314,
 		name = "Surrey",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_661.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_661",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "Sali",
 		id = 661,
@@ -27460,17 +27508,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				8,
+				7
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7324,
+			7330
+		}
 	}
 	pg.base.activity_ins_template[662] = {
 		ship_group = 20115,
 		name = "Griffin",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_662.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_662",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "gelifen",
 		id = 662,
@@ -27484,6 +27546,156 @@ end)()
 			{
 				11,
 				0,
+				0
+			}
+		},
+		time_persist = {
+			{
+				2026,
+				8,
+				8
+			},
+			{
+				11,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7342,
+			7346,
+			7349
+		}
+	}
+	pg.base.activity_ins_template[663] = {
+		ship_group = 10720,
+		name = "Bennington",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "benningdun",
+		id = 663,
+		group_id = 663,
+		time = {
+			{
+				2026,
+				8,
+				27
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[664] = {
+		ship_group = 10236,
+		name = "Vicksburg",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "weikesibao",
+		id = 664,
+		group_id = 664,
+		time = {
+			{
+				2026,
+				8,
+				28
+			},
+			{
+				11,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[665] = {
+		ship_group = 10156,
+		name = "Collett",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "kelaite",
+		id = 665,
+		group_id = 665,
+		time = {
+			{
+				2026,
+				8,
+				29
+			},
+			{
+				19,
+				30,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[666] = {
+		ship_group = 10157,
+		name = "Harrison",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "halisen",
+		id = 666,
+		group_id = 666,
+		time = {
+			{
+				2026,
+				8,
+				30
+			},
+			{
+				8,
+				30,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[667] = {
+		ship_group = 10158,
+		name = "John Rodgers",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "yuehanluojiesi",
+		id = 667,
+		group_id = 667,
+		time = {
+			{
+				2026,
+				8,
+				31
+			},
+			{
+				20,
+				30,
 				0
 			}
 		},
@@ -27652,33 +27864,6 @@ end)()
 		time_persist = {},
 		npc_discuss_persist = {}
 	}
-	pg.base.activity_ins_template[20011] = {
-		ship_group = 0,
-		name = "",
-		type = 2,
-		picture_persist = "",
-		title = "【港區新聞】濱海極速－全新賽車企劃正式官宣！",
-		message_persist = "",
-		is_active = 1,
-		oalist_pic_persist = "",
-		sculpture = "",
-		id = 20011,
-		group_id = 20011,
-		time = {
-			{
-				2026,
-				8,
-				20
-			},
-			{
-				11,
-				0,
-				0
-			}
-		},
-		time_persist = {},
-		npc_discuss_persist = {}
-	}
 	pg.base.activity_ins_template[20009] = {
 		ship_group = 0,
 		name = "",
@@ -27726,6 +27911,60 @@ end)()
 			},
 			{
 				16,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20011] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港區新聞】濱海極速——全新賽車企劃正式官宣！",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20011,
+		group_id = 20011,
+		time = {
+			{
+				2026,
+				8,
+				20
+			},
+			{
+				11,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20012] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "【時尚港區】轟鳴漸近，各位都選好戰甲了嗎？",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20012,
+		group_id = 20012,
+		time = {
+			{
+				2026,
+				8,
+				27
+			},
+			{
+				15,
 				0,
 				0
 			}

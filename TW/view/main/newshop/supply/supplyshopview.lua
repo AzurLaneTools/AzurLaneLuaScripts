@@ -154,16 +154,21 @@ slot0.initToggleList = function(slot0)
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
-			slot3 = uv0.packageSortList[slot1 + 1].type
+			slot4 = uv0.packageSortList[slot1 + 1].shopData
 
-			setText(slot2:Find("selected/Label"), i18n(ShopConst.TYPE2NAME[slot3]))
+			if uv0.packageSortList[slot1 + 1].type == ShopConst.TYPE_ACTIVITY then
+				setText(slot2:Find("selected/Label"), i18n(pg.activity_template[slot4.activityId] and pg.activity_template[slot5].config_client and pg.activity_template[slot5].config_client.shop_title or nil) or i18n(ShopConst.TYPE2NAME[slot3]))
+			else
+				setText(slot2:Find("selected/Label"), i18n(ShopConst.TYPE2NAME[slot3]))
+			end
+
 			setText(slot2:Find("selected/enText"), i18n(ShopConst.TYPE2NAME[slot3] .. "en"))
 			setText(slot2:Find("unselected/Label"), i18n(ShopConst.TYPE2NAME[slot3]))
 
-			slot4 = uv0.packageSortList[slot1 + 1].index
-			slot7, slot8 = uv0.pages[slot3]:CanOpen(uv0.allShopList[slot3][1], uv0.player)
+			slot5 = uv0.packageSortList[slot1 + 1].index
+			slot8, slot9 = uv0.pages[slot3]:CanOpen(uv0.allShopList[slot3][1], uv0.player)
 
-			if slot7 == false then
+			if slot8 == false then
 				setActive(slot2:Find("unselected/Label/lock"), true)
 			else
 				setActive(slot2:Find("unselected/Label/lock"), false)

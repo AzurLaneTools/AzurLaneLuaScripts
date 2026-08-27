@@ -108,40 +108,30 @@ slot0.handleNotification = function(slot0, slot1)
 						timeLimit = slot5.genre == ShopArgs.SkinShopTimeLimit
 					}
 				}))
+			elseif PaintingShowScene.GetSkinShowAble(slot6) then
+				slot0:addSubLayers(Context.New({
+					mediator = PaintingShowMediator,
+					viewComponent = PaintingShowNewSkinScene,
+					data = {
+						is_shop = true,
+						skinId = slot6,
+						timeLimit = slot5.genre == ShopArgs.SkinShopTimeLimit
+					}
+				}))
 			else
-				slot7 = function()
-					uv0:addSubLayers(Context.New({
-						mediator = NewSkinMediator,
-						viewComponent = NewSkinLayer,
-						data = {
-							skinId = uv1.effect_args[1],
-							timeLimit = uv1.genre == ShopArgs.SkinShopTimeLimit
-						}
-					}))
-				end
-
-				if PaintingShowScene.GetSkinShowAble(slot6) then
-					slot0:addSubLayers(Context.New({
-						mediator = PaintingShowMediator,
-						viewComponent = PaintingShowScene,
-						data = {
-							is_shop = true,
-							skinId = slot6,
-							callback = slot7
-						}
-					}))
-				else
-					slot7()
-				end
+				slot0:addSubLayers(Context.New({
+					mediator = NewSkinMediator,
+					viewComponent = NewSkinLayer,
+					data = {
+						skinId = slot5.effect_args[1],
+						timeLimit = slot5.genre == ShopArgs.SkinShopTimeLimit
+					}
+				}))
 			end
 
 			slot0.viewComponent:OnShopping(slot3.id)
 		end
-
-		return
-	end
-
-	if slot2 == GAME.BUY_FURNITURE_DONE then
+	elseif slot2 == GAME.BUY_FURNITURE_DONE then
 		slot0.viewComponent:OnFurnitureUpdate(slot4[1])
 	elseif slot2 == GAME.LOAD_LAYERS then
 		if slot3.context.mediator == NewBackYardShopMediator then

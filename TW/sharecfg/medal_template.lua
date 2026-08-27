@@ -132,7 +132,9 @@ pg.medal_template.all = {
 	200161,
 	200171,
 	200181,
-	200191
+	200191,
+	200201,
+	200211
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -2984,6 +2986,48 @@ end)()
 		rank = 1,
 		id = 200191,
 		explain1 = "「怪談紀實：逃離白夜山莊！」",
+		explain2 = "活動紀念"
+	}
+	pg.base.medal_template[200201] = {
+		target_id = "51110",
+		name = "星光城紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "迷途的旅人，你見證了星光城的美夢，然後踏碎了它。",
+		next = 0,
+		icon = "9201",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9201",
+		condition = "收集8個「沉溺於星光之城」紀念貼紙。",
+		rank = 1,
+		id = 200201,
+		explain1 = "「沉溺於星光之城」",
+		explain2 = "活動紀念"
+	}
+	pg.base.medal_template[200211] = {
+		target_id = "51113",
+		name = "濱海極速紀念勳章",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "引擎轟鳴，輪胎飛轉，海風與熱浪共同鋪開這條閃耀的競速之路。向著冠軍全速前進吧！",
+		next = 0,
+		icon = "9211",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9211",
+		condition = "收集7張「濱海極速」紀念貼紙。",
+		rank = 1,
+		id = 200211,
+		explain1 = "「濱海極速」",
 		explain2 = "活動紀念"
 	}
 end)()

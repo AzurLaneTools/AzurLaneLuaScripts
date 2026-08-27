@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "在跑道上見到了紫色的精靈，但立刻就消失了，找到了獎勵【四星裝備設計圖紙*10】"
+			say = "看見Happy D在高空飛過，掉落了【四星裝備設計圖*10】"
 		}
 	}
 }

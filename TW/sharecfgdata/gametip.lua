@@ -9119,6 +9119,18 @@ _G.pg.base.gametip.ship_remould_warning_201524 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_202994 = {
+	tip = [[
+這次改造作業將消耗<color=#92fc63>女僕長的堅守</color>
+是否確認？改造後武器效率調整為130%/155%/120%
+ <color=#92fc63>【主炮底座+1】【魚雷預裝填+1】【防空炮底座+1】</color>
+技能<color=#92fc63>【煙霧彈·輕巡】</color>將升級為<color=#92fc63>【煙霧彈·貝爾法斯特】</color>
+技能<color=#92fc63>【專屬彈幕-貝爾法斯特II】</color>
+將升級為<color=#92fc63>【專屬彈幕-貝爾法斯特III】</color>
+]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_203114 = {
 	tip = [[
 此次改造操作將導致
@@ -12135,7 +12147,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "壯麗、薩里 建造機率UP!"
+	tip = "班寧頓、維克斯堡 等角色建造機率UP！"
 }
 
 
@@ -29037,6 +29049,16 @@ _G.pg.base.gametip.battle_text_lumei_1 = {
 }
 
 
+_G.pg.base.gametip.battle_text_benningdun_1 = {
+	tip = "風往<color=#ffaa2b>西邊</color>吹……"
+}
+
+
+_G.pg.base.gametip.battle_text_benningdun_2 = {
+	tip = "風往<color=#2baaff>東邊</color>吹……"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "心情不足"
 }
@@ -36844,7 +36866,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活動進行時，指揮官可在<color=#92fc63>活動頁面或回憶介面</color>通過指定入口進入「紀念貼紙」收集頁面；
  ※ 活動結束後指揮官將只能通過<color=#92fc63>回憶介面</color>指定入口進入「紀念貼紙」收集頁面；
  ※ 「紀念貼紙」可以通過完成對應活動任務獲取；
- ※ 獎勵領取介面將延長至8月26日24時；]]
+ ※ 獎勵領取介面將延長至9月16日24時；]]
 		}
 	}
 }
@@ -39616,6 +39638,46 @@ _G.pg.base.gametip.shop_new_category = {
 
 _G.pg.base.gametip.shop_new_skin_theme = {
 	tip = "換裝主題"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag = {
+	tip = "標籤"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_0 = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_1 = {
+	tip = "熱賣"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_2 = {
+	tip = "新品"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_3 = {
+	tip = "推薦"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_4 = {
+	tip = "活動"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_5 = {
+	tip = "活動"
+}
+
+
+_G.pg.base.gametip.skin_shop_tag_6 = {
+	tip = "返場"
 }
 
 
@@ -48502,6 +48564,16 @@ _G.pg.base.gametip.dorm3d_gift_overtime_title = {
 }
 
 
+_G.pg.base.gametip.monopoly2026_left_cnt = {
+	tip = "剩餘$1次"
+}
+
+
+_G.pg.base.gametip.monopoly2026_story_award = {
+	tip = "閱讀全部劇情($1/$2)"
+}
+
+
 _G.pg.base.gametip.auction_help = {
 	tip = {
 		{
@@ -49010,6 +49082,159 @@ _G.pg.base.gametip.auction_network_timeout = {
 }
 
 
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_4 = {
+	tip = "沉溺於星光之城"
+}
+
+
+_G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_5 = {
+	tip = "星光城補給站"
+}
+
+
+_G.pg.base.gametip.StarsCityMainPage_res_day_time = {
+	tip = "剩餘$1時"
+}
+
+
+_G.pg.base.gametip.StarsCityMainPage_no_time = {
+	tip = "即將結束"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_turn_cnt_tip = {
+	tip = "目前圈數："
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_progress_tip = {
+	tip = "目前圈進度："
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop1 = {
+	tip = "3LAP"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop2 = {
+	tip = "6LAP"
+}
+
+
+_G.pg.base.gametip.RapidSeasideMonopolyPage_award_loop3 = {
+	tip = "9LAP"
+}
+
+
+_G.pg.base.gametip.mini_game_crossroad_cnt = {
+	tip = "已通過角色："
+}
+
+
+_G.pg.base.gametip.mini_game_crossroad_score = {
+	tip = "分數："
+}
+
+
+_G.pg.base.gametip.mono_car_2026_toggle_main = {
+	tip = "比賽模式"
+}
+
+
+_G.pg.base.gametip.mono_car_2026_toggle_story = {
+	tip = "劇情模式"
+}
+
+
+_G.pg.base.gametip.crossroad_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/crossroad_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.help_monopoly_car2026 = {
+	tip = {
+		{
+			info = " 活動說明："
+		},
+		{
+			info = "1. 活動期間，玩家每日登入可獲得 3 次加速機會，完成活動每日任務可額外獲得 2 次加速機會；"
+		},
+		{
+			info = "2. 玩家每次經過終點，可選擇指定角色的其中一人作為協助者；"
+		},
+		{
+			info = "3. 玩家在投出特定點數、抵達指定格子時將觸發協助者的不同台詞；"
+		},
+		{
+			info = "4. 活動期間，玩家完成 9 圈比賽即可獲得限定傢俱獎勵；玩家首次與不同的協助者一同比賽時將獲得物資 * 1000 獎勵 "
+		},
+		{
+			info = "5. 遊戲中，根據玩家所處位置可獲得不同獎勵 "
+		},
+		{
+			info = " 5km&11km ：獲得一定數量物資；"
+		},
+		{
+			info = " 4km&9km ：獲得一定數量石油；"
+		},
+		{
+			info = " 3km&7km ：觸發隨機事件；"
+		},
+		{
+			info = " 2km&6km：觸發隨機獎勵；"
+		},
+		{
+			info = " 10km ：觸發隨機移動事件；"
+		}
+	}
+}
+
+
 _G.pg.base.gametip.loading_pic_btn = {
 	tip = "過場圖"
+}
+
+
+_G.pg.base.gametip.LeMarsReSkinPage_reward_title = {
+	tip = "目標消耗石油"
+}
+
+
+_G.pg.base.gametip.LeMarsReSkinPage_reward_target = {
+	tip = "當前消耗石油："
 }

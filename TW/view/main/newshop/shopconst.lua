@@ -115,5 +115,7 @@ slot0.TYPE2NAME = {
 	[slot0.TYPE_META] = "meta_shop_title",
 	[slot0.TYPE_MINI_GAME] = "mini_game_shop_title"
 }
+slot0.NEW_SKIN_SHOP_ID = 1
+slot0.PERMANANT_SKIN_SHOP_ID = 2
 
 return slot0

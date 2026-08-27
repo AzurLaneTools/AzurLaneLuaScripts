@@ -53,6 +53,7 @@ pg.pay_data_display.all = {
 	9017,
 	9018,
 	9019,
+	9020,
 	1305,
 	2022,
 	2023,
@@ -5985,6 +5986,140 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+	pg.base.pay_data_display[9020] = {
+		picture = "fudai37",
+		name = "濱海極速福袋",
+		type = 1,
+		second_text = "大量獎勵",
+		descrip = "可獲得一件角色換裝，2026鑽，和大量其他獎勵",
+		subject = "濱海極速福袋",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		package_sort_id = 0,
+		limit_type = 2,
+		limit_arg = 1,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao162",
+		extra_gem = 0,
+		id = 9020,
+		airijp_id = "com.yostarjp.azurlane.diamond207",
+		name_display = "濱海極速福袋",
+		first_text = "隨機換裝和大量鑽石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86229,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86229,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					8,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81237,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86229,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	}
 	pg.base.pay_data_display[1305] = {
 		picture = "battlepass_winter_1",
 		name = "春季特許巡遊憑證",
@@ -10247,6 +10382,8 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2089] = {
 		picture = "tech6_promotion",
 		name = "最高方案研發禮包（六期）高級版",
@@ -10320,8 +10457,6 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2090] = {
 		picture = "tech6_normal",
 		name = "最高方案研發禮包（六期）標準版",
@@ -20610,6 +20745,8 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[4923] = {
 		picture = "battlepass_1",
 		name = "特許巡遊憑證（二十四期）",
@@ -20695,8 +20832,6 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[4924] = {
 		picture = "battlepass_1",
 		name = "特許巡遊憑證（二十五期）",

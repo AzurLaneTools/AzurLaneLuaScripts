@@ -4,6 +4,37 @@ slot0.word_legal_template_11 = {}
 slot1 = slot0.word_legal_template_11
 
 temp = function()
+	uv0["撫"] = {
+		["順"] = {
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true,
+					["（"] = {
+						["後"] = {
+							["排"] = {
+								["）"] = {
+									this = true
+								}
+							}
+						},
+						["前"] = {
+							["排"] = {
+								["）"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["太"] = {
 		["原"] = {
 			this = true,
@@ -244,44 +275,6 @@ end
 temp()
 
 temp = function()
-	uv0["維"] = {
-		["托"] = {
-			["里"] = {
-				["奧"] = {
-					["·"] = {
-						["維"] = {
-							["內"] = {
-								["托"] = {
-									this = true
-								}
-							}
-						},
-						["庫"] = {
-							["尼"] = {
-								["貝"] = {
-									["爾"] = {
-										["蒂"] = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["達"] = {
-			["號"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["安"] = {
 		["德"] = {
 			["烈"] = {
@@ -426,7 +419,18 @@ temp()
 temp = function()
 	uv0["靈"] = {
 		["敏"] = {
-			this = true
+			this = true,
+			["."] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

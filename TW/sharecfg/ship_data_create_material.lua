@@ -97,9 +97,13 @@ pg.base.ship_data_create_material = {}
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
 			"普通艦船：30%",
-			"<color=#ffde38>壯麗</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>班寧頓</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>薩里</color>：2.0%<color=#92FC63>(up!)</color>"
+			"<color=#ffde38>維克斯堡</color>：2.0%<color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#ffde38>科勒特</color>：0.5%",
+			" ",
+			"<color=#d797ff>哈里森</color>：2.5%<color=#92FC63>(up!)</color>"
 		}
 	}
 	pg.base.ship_data_create_material[5] = {

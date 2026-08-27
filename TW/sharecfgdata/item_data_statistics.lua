@@ -29405,6 +29405,131 @@ _G.pg.base.item_data_statistics[30386] = {
 }
 
 
+_G.pg.base.item_data_statistics[30387] = {
+	open_directly = 1,
+	name = "外觀裝備箱(濱海極速)",
+	type = 11,
+	display = "可以獲得一件隨機的濱海極速風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbinhaijisu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30384",
+	id = 30387,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外觀裝備箱(世界巡遊)",
@@ -45853,6 +45978,219 @@ _G.pg.base.item_data_statistics[30570] = {
 		{
 			9,
 			4419,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30571] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(濱海極速)",
+	type = 13,
+	display = "使用後可從「濱海極速」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbinhaijisuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30571,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4420,
+			1
+		},
+		{
+			9,
+			4421,
+			1
+		},
+		{
+			9,
+			4422,
+			1
+		},
+		{
+			9,
+			4423,
+			1
+		},
+		{
+			9,
+			4424,
+			1
+		},
+		{
+			9,
+			4425,
+			1
+		},
+		{
+			9,
+			4426,
+			1
+		},
+		{
+			9,
+			4427,
+			1
+		},
+		{
+			9,
+			4428,
+			1
+		},
+		{
+			9,
+			4429,
+			1
+		},
+		{
+			9,
+			4430,
+			1
+		},
+		{
+			9,
+			4431,
+			1
+		},
+		{
+			9,
+			4432,
+			1
+		},
+		{
+			9,
+			4433,
+			1
+		},
+		{
+			9,
+			4434,
+			1
+		},
+		{
+			9,
+			4435,
+			1
+		},
+		{
+			9,
+			4436,
+			1
+		},
+		{
+			9,
+			4437,
 			1
 		}
 	},
@@ -84739,6 +85077,39 @@ _G.pg.base.item_data_statistics[59859] = {
 }
 
 
+_G.pg.base.item_data_statistics[59860] = {
+	open_directly = 0,
+	name = "女僕長的堅守",
+	type = 7,
+	display = "「為主人清除障礙正是女僕的職責」——用於完成貝爾法斯特近代化改造",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/maidsteadfast",
+	order = 0,
+	rarity = 4,
+	max_num = 1,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59860,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {
+		202994
+	},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59900] = {
 	open_directly = 0,
 	name = "核心數據",
@@ -99939,6 +100310,73 @@ _G.pg.base.item_data_statistics[81236] = {
 		{
 			2,
 			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81237] = {
+	open_directly = 1,
+	name = "濱海極速福袋",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2026，心智單元*50，心智魔方*20，高級定向藍圖·九期*2，快速完成工具*10，傢俱幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai37",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998577",
+	id = 81237,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86229,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
 			2
 		},
 		{

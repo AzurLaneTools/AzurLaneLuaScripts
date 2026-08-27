@@ -2201,8 +2201,8 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[1021] = {
-		name = "酥梨樹種",
-		desc = "港區培育的優質酥梨樹種，可以結出營養豐富的酥梨。",
+		name = "酪梨樹種",
+		desc = "港區培育的優質酪梨樹種，可以結出營養豐富的酪梨。",
 		type = 1,
 		manage_influence = 0,
 		pt_num = 1,
@@ -3752,7 +3752,7 @@ pg.base.island_item_data_template = {}
 		}
 	}
 	pg.base.island_item_data_template[2021] = {
-		name = "酥梨",
+		name = "酪梨",
 		desc = "口感細膩軟糯，美味無糖更健康。",
 		type = 1,
 		manage_influence = 0,
@@ -4670,7 +4670,7 @@ end)()
 		}
 	}
 	pg.base.island_item_data_template[3006] = {
-		name = "芝士",
+		name = "起司",
 		desc = "以奶類為原料製成，含有豐富的蛋白質和脂質，常用來搭配麵包使用。",
 		type = 1,
 		manage_influence = 150,
@@ -6743,7 +6743,7 @@ end)()
 	}
 	pg.base.island_item_data_template[3112] = {
 		name = "醒神套餐",
-		desc = "冰咖啡搭配濃郁芝士，苦甜平衡的經典醒神套餐。",
+		desc = "冰咖啡搭配濃郁起司，苦甜平衡的經典醒神套餐。",
 		type = 1,
 		manage_influence = 240,
 		pt_num = 80,

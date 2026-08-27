@@ -642,11 +642,11 @@ pg.base.item_data_frame = {}
 	}
 	pg.base.item_data_frame[342] = {
 		name = "星光城之夢",
-		gain_by = "",
+		gain_by = "沉溺於星光之城",
 		time_second = 0,
 		id = 342,
 		time_limit_type = 0,
-		desc = "透過後續活動獲得",
+		desc = "「歡迎來到星光城，你有想要實現的願望嗎？」\n<color=#A7A7AA>「沉溺於星光之城」活動獲取</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[401] = {

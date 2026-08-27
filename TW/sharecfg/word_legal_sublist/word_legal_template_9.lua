@@ -4,6 +4,16 @@ slot0.word_legal_template_9 = {}
 slot1 = slot0.word_legal_template_9
 
 temp = function()
+	uv0["築"] = {
+		["摩"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["妙"] = {
 		["高"] = {
 			this = true
@@ -398,27 +408,6 @@ temp = function()
 								A = {
 									this = true
 								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["赤"] = {
-		["城"] = {
-			this = true,
-			["("] = {
-				["μ"] = {
-					["兵"] = {
-						["裝"] = {
-							[")"] = {
-								this = true
 							}
 						}
 					}

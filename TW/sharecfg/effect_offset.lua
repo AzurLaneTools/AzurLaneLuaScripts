@@ -2331,4 +2331,15 @@ end)()
 			0
 		}
 	}
+	pg.base.effect_offset.BHR_tornado = {
+		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			-2
+		}
+	}
 end)()

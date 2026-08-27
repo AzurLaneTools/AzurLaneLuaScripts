@@ -759,6 +759,12 @@ slot0.readyToAchieve = function(slot0)
 		return true
 	elseif slot0:getConfig("config_client").sub_act_id then
 		return getProxy(ActivityProxy):getActivityById(slot0:getConfig("config_client").sub_act_id) and not slot3:isEnd() and slot3:readyToAchieve()
+	elseif slot0:getConfig("config_client").is_showMedal then
+		return ActivityMedalGroup.showTip(slot0:getConfig("config_client").medal_group_id)
+	elseif slot0:getConfig("config_client").is_clickOnce then
+		slot3 = slot0:getConfig("id")
+
+		return PlayerPrefs.GetInt(Activity.GetPlayerActivyIDKey(slot0:getConfig("id")), 0) == 0
 	else
 		return false
 	end
@@ -1318,6 +1324,10 @@ end
 
 slot0.IsMaintenanceFinish = function(slot0)
 	return not slot0:GetConfigClientSetting("no_maintenance")
+end
+
+slot0.GetPlayerActivyIDKey = function(slot0)
+	return "Activity_PlayerPrefs_PlayerId_" .. getProxy(PlayerProxy):getPlayerId() .. "ActivityID_" .. slot0
 end
 
 return slot0

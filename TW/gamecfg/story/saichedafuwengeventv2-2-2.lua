@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "由達文西改良升級的賽車引擎間歇性降低了油耗，獲得了【石油50】"
+			say = "Error十三世的車況提示間接降低了油耗，獲得了【石油*50】"
 		}
 	}
 }

@@ -333,6 +333,18 @@ slot0.willExit = function(slot0)
 		LeanTween.cancel(go(slot0.paintTf))
 	end
 
+	slot0:ClearPainting()
+
+	if slot0.closeCallBack then
+		slot0.closeCallBack()
+
+		slot0.closeCallBack = nil
+	end
+
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.ad, slot0._tf)
+end
+
+slot0.ClearPainting = function(slot0)
 	if slot0.live2dChar then
 		slot0.live2dChar:Dispose()
 
@@ -344,14 +356,6 @@ slot0.willExit = function(slot0)
 
 		slot0.spinePainting = nil
 	end
-
-	if slot0.closeCallBack then
-		slot0.closeCallBack()
-
-		slot0.closeCallBack = nil
-	end
-
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.ad, slot0._tf)
 end
 
 return slot0

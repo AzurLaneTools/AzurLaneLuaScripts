@@ -1278,6 +1278,11 @@ pg.ship_strengthen_blueprint.all = {
 	3828,
 	3829,
 	3830,
+	3831,
+	3832,
+	3833,
+	3834,
+	3835,
 	3901,
 	3902,
 	3903,
@@ -1338,6 +1343,11 @@ pg.ship_strengthen_blueprint.all = {
 	4028,
 	4029,
 	4030,
+	4031,
+	4032,
+	4033,
+	4034,
+	4035,
 	4101,
 	4102,
 	4103,
@@ -1368,6 +1378,11 @@ pg.ship_strengthen_blueprint.all = {
 	4128,
 	4129,
 	4130,
+	4131,
+	4132,
+	4133,
+	4134,
+	4135,
 	4201,
 	4202,
 	4203,
@@ -37047,6 +37062,159 @@ end)()
 			"主炮效率提高15%"
 		}
 	}
+	pg.base.ship_strengthen_blueprint[3831] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3831,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[3832] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3832,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[3833] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3833,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[3834] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3834,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[3835] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+5|【蓄能爆發】技能強化為【蓄能爆發+】",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3835,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19980,
+			18980
+		}
+	}
 	pg.base.ship_strengthen_blueprint[3901] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
@@ -37600,6 +37768,8 @@ end)()
 			"主炮效率提高10%"
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[3921] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -37740,8 +37910,6 @@ end)()
 			"hp_warning"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[3926] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -38690,6 +38858,159 @@ end)()
 			"觸發專屬彈幕所需主炮射擊次數減半"
 		}
 	}
+	pg.base.ship_strengthen_blueprint[4031] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4031,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4032] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4032,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4033] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4033,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4034] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4034,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4035] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+5|【朦朧映紫月】技能強化為【朦朧映紫月+】",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4035,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19950,
+			18950
+		}
+	}
 	pg.base.ship_strengthen_blueprint[4101] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
@@ -39512,6 +39833,159 @@ end)()
 			"主炮效率提高10%"
 		}
 	}
+	pg.base.ship_strengthen_blueprint[4131] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4131,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4132] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4132,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4133] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4133,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4134] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4134,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[4135] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+5|【鋼鐵洪流的和聲】技能強化為【鋼鐵洪流的和聲+】",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 4135,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			190000,
+			180000
+		}
+	}
 	pg.base.ship_strengthen_blueprint[4201] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
@@ -40069,6 +40543,8 @@ end)()
 			"防空炮底座+1"
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[4221] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -40484,8 +40960,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[4306] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -42824,6 +43298,8 @@ end)()
 			"魚雷機欄位可以裝備戰鬥機"
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[4601] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑒",
@@ -43248,8 +43724,6 @@ end)()
 			"mission_complete"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[4616] = {
 		effect_breakout = 0,
 		effect_desc = "",

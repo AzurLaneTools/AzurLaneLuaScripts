@@ -4,6 +4,38 @@ slot0.word_legal_template_4 = {}
 slot1 = slot0.word_legal_template_4
 
 temp = function()
+	uv0["蘭"] = {
+		["利"] = {
+			this = true,
+			I = {
+				I = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["列"] = {
+		["星"] = {
+			["頓"] = {
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["薩"] = {
 		["拉"] = {
 			["托"] = {
@@ -30,49 +62,6 @@ temp = function()
 		["騎"] = {
 			["兵"] = {
 				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["約"] = {
-		["克"] = {
-			this = true,
-			["鎮"] = {
-				this = true,
-				I = {
-					I = {
-						this = true
-					}
-				},
-				["·"] = {
-					M = {
-						E = {
-							T = {
-								A = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			},
-			["公"] = {
-				["爵"] = {
-					this = true,
-					["—"] = {
-						["幼"] = {
-							["稚"] = {
-								["園"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
 			}
 		}
 	}
@@ -504,23 +493,6 @@ temp = function()
 								}
 							}
 						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["螢"] = {
-		["火"] = {
-			["蟲"] = {
-				this = true,
-				["."] = {
-					["改"] = {
-						this = true
 					}
 				}
 			}

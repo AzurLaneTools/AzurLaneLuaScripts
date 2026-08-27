@@ -28,13 +28,32 @@ slot1 = function(slot0, slot1)
 
 	setActive(slot2:Find("value/up"), slot1.compare and slot1.compare > 0)
 	setActive(slot2:Find("value/down"), slot1.compare and slot1.compare < 0)
-	triggerToggle(slot2, slot1.lock_open)
 
 	if not slot1.lock_open and slot1.sub and #slot1.sub > 0 then
+		onToggle(nil, slot2, function (slot0)
+			setActive(uv0:Find("sub"), slot0)
+		end, SFX_PANEL)
+		triggerToggle(slot2, slot1.lock_open)
+
 		GetComponent(slot2, typeof(Toggle)).enabled = true
 	else
+		if slot1.descTrigger ~= nil then
+			onToggle(nil, slot2, function (slot0)
+				setActive(uv0, slot0)
+			end, SFX_PANEL)
+			onButton(nil, slot0.Find(slot0, "desc"), function ()
+				triggerToggle(uv0, false)
+			end, SFX_PANEL)
+			triggerToggle(slot2, slot1.descTrigger)
+
+			GetComponent(slot2, typeof(Toggle)).enabled = true
+
+			return
+		end
+
 		setActive(slot2.Find(slot2, "name/close"), false)
 		setActive(slot2.Find(slot2, "name/open"), false)
+		removeOnToggle(slot2)
 
 		GetComponent(slot2, typeof(Toggle)).enabled = false
 	end
@@ -45,7 +64,9 @@ slot3 = function(slot0, slot1)
 		return
 	end
 
-	setActive(slot2, slot1.desc)
+	if slot1.descTrigger == nil then
+		setActive(slot2, slot1.desc)
+	end
 
 	if not slot1.desc then
 		return
@@ -85,7 +106,8 @@ updateSpWeaponInfo = function(slot0, slot1, slot2)
 		table.insert(slot4, {
 			name = i18n("spweapon_attr_effect"),
 			value = setColorStr(getSkillName(slot2[1].skillId), slot2[1].unlock and "#FFDE00FF" or "#A2A2A2"),
-			desc = slot5
+			desc = slot5,
+			descTrigger = defaultValue(slot2[1].descTrigger, slot2[1].unlock)
 		})
 	end
 
@@ -99,7 +121,8 @@ updateSpWeaponInfo = function(slot0, slot1, slot2)
 		table.insert(slot4, {
 			name = i18n("spweapon_attr_skillupgrade"),
 			value = setColorStr(getSkillName(slot9.skillId), slot9.unlock and "#FFDE00FF" or "#A2A2A2"),
-			desc = slot10
+			desc = slot10,
+			descTrigger = defaultValue(slot9.descTrigger, slot9.unlock)
 		})
 	end
 

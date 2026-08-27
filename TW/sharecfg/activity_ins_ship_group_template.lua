@@ -534,6 +534,7 @@ pg.activity_ins_ship_group_template.all = {
 	200,
 	201,
 	202,
+	203,
 	960007,
 	960008,
 	960009,
@@ -689,7 +690,13 @@ pg.activity_ins_ship_group_template.all = {
 	40405,
 	10146,
 	10142,
-	20307
+	20307,
+	10720,
+	10156,
+	10157,
+	10236,
+	10158,
+	30159
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -5484,6 +5491,15 @@ end)()
 		type = 2,
 		sculpture_ii = ""
 	}
+	pg.base.activity_ins_ship_group_template[203] = {
+		ship_group = 203,
+		name = "速達商店交流1群",
+		background = "200",
+		sculpture = "203",
+		nationality = 12,
+		type = 2,
+		sculpture_ii = ""
+	}
 	pg.base.activity_ins_ship_group_template[960007] = {
 		ship_group = 960007,
 		name = "Ganj-i-sawai",
@@ -6096,6 +6112,8 @@ end)()
 		type = 1,
 		sculpture_ii = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_ship_group_template[80204] = {
 		ship_group = 80204,
 		name = "Duguay-Trouin ",
@@ -6105,8 +6123,6 @@ end)()
 		type = 1,
 		sculpture_ii = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_ship_group_template[900939] = {
 		ship_group = 900939,
 		name = "Kansas",
@@ -6887,6 +6903,60 @@ end)()
 		background = "",
 		sculpture = "yueke",
 		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10720] = {
+		ship_group = 10720,
+		name = "Bennington",
+		background = "",
+		sculpture = "benningdun",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10156] = {
+		ship_group = 10156,
+		name = "Collett",
+		background = "",
+		sculpture = "kelaite",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10157] = {
+		ship_group = 10157,
+		name = "Harrison",
+		background = "",
+		sculpture = "halisen",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10236] = {
+		ship_group = 10236,
+		name = "Vicksburg",
+		background = "",
+		sculpture = "weikesibao",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10158] = {
+		ship_group = 10158,
+		name = "John Rodgers",
+		background = "",
+		sculpture = "yuehanluojiesi",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[30159] = {
+		ship_group = 30159,
+		name = "Urakaze",
+		background = "",
+		sculpture = "pufeng",
+		nationality = 3,
 		type = 1,
 		sculpture_ii = ""
 	}

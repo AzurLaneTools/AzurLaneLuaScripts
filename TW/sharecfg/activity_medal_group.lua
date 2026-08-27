@@ -22,7 +22,9 @@ pg.activity_medal_group.all = {
 	50607,
 	50616,
 	50659,
-	51078
+	51078,
+	51110,
+	51113
 }
 pg.base = pg.base or {}
 pg.base.activity_medal_group = {}
@@ -887,6 +889,92 @@ pg.base.activity_medal_group = {}
 		task_show = {
 			-1,
 			21988
+		}
+	}
+	pg.base.activity_medal_group[51110] = {
+		id = 51110,
+		entrance_picture = "medalAlbum/51110",
+		group_name = "沉溺於星光之城",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				51110,
+				{
+					25701,
+					25702,
+					25703,
+					25704,
+					25705,
+					25706,
+					25707,
+					25708,
+					25709,
+					25710
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "StarsCityMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				343,
+				1
+			},
+			{
+				8,
+				66065,
+				1
+			}
+		},
+		task_show = {
+			25710,
+			25701
+		}
+	}
+	pg.base.activity_medal_group[51113] = {
+		id = 51113,
+		entrance_picture = "medalAlbum/51113",
+		group_name = "濱海極速",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				51113,
+				{
+					25711,
+					25712,
+					25713,
+					25714,
+					25715,
+					25716,
+					25717,
+					25718
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "RapidSeasideMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				344,
+				1
+			},
+			{
+				8,
+				66074,
+				1
+			}
+		},
+		task_show = {
+			-1,
+			25711
 		}
 	}
 end)()

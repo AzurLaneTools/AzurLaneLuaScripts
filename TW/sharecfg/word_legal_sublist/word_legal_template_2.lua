@@ -20,6 +20,11 @@ temp = function()
 				this = true
 			}
 		},
+		["勒"] = {
+			["特"] = {
+				this = true
+			}
+		},
 		["羅"] = {
 			["拉"] = {
 				["多"] = {
@@ -437,6 +442,60 @@ temp = function()
 	uv0["米"] = {
 		["勒"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["約"] = {
+		["翰"] = {
+			["·"] = {
+				["羅"] = {
+					["傑"] = {
+						["斯"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["克"] = {
+			this = true,
+			["鎮"] = {
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				},
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			},
+			["公"] = {
+				["爵"] = {
+					this = true,
+					["—"] = {
+						["幼"] = {
+							["稚"] = {
+								["園"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -1057,23 +1116,6 @@ temp = function()
 			["塔"] = {
 				["瓦"] = {
 					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["休"] = {
-		["士"] = {
-			["頓"] = {
-				this = true,
-				I = {
-					I = {
-						this = true
-					}
 				}
 			}
 		}

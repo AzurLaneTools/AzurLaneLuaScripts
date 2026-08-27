@@ -417,8 +417,8 @@ slot0.HideWindow = function(slot0, slot1)
 	slot0.windowList[slot2]:Hide()
 end
 
-slot0.ShowAwardWindow = function(slot0, slot1, slot2, slot3)
-	slot0.awardWindow:ExecuteAction("Flush", slot1, slot2, slot3)
+slot0.ShowAwardWindow = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.awardWindow:ExecuteAction("Flush", slot1, slot2, slot3, slot4)
 end
 
 slot0.OnChargeSuccess = function(slot0, slot1)

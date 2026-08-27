@@ -71,6 +71,9 @@ pg.emoji_template.all = {
 	66,
 	67,
 	68,
+	69,
+	70,
+	71,
 	100,
 	101,
 	102,
@@ -266,6 +269,9 @@ pg.emoji_template.get_id_list_by_auction = {
 		66,
 		67,
 		68,
+		69,
+		70,
+		71,
 		100,
 		101,
 		102,
@@ -1350,6 +1356,48 @@ pg.base.emoji_template = {}
 			2
 		}
 	}
+	pg.base.emoji_template[69] = {
+		achieve = 1,
+		auction = 0,
+		index = 1028,
+		pic = "weikesibao_2_1",
+		desc = "<color=#92fc63>[超級開心！]</color>",
+		item_name = "聊天表情：超級開心！",
+		item_desc = "聊天表情：超級開心！可以在表情選項的「動態」標籤中找到並發出此表情。",
+		id = 69,
+		icon = "",
+		type = {
+			2
+		}
+	}
+	pg.base.emoji_template[70] = {
+		achieve = 1,
+		auction = 0,
+		index = 1029,
+		pic = "weikesibao_2_2",
+		desc = "<color=#92fc63>[wink比心]</color>",
+		item_name = "聊天表情：wink比心",
+		item_desc = "聊天表情：wink比心。可以在表情選項的「動態」標籤中找到並發出此表情。",
+		id = 70,
+		icon = "",
+		type = {
+			2
+		}
+	}
+	pg.base.emoji_template[71] = {
+		achieve = 1,
+		auction = 0,
+		index = 1030,
+		pic = "weikesibao_2_3",
+		desc = "<color=#92fc63>[終點到了]</color>",
+		item_name = "聊天表情：終點到了",
+		item_desc = "聊天表情：終點到了。可以在表情選項的「動態」標籤中找到並發出此表情。",
+		id = 71,
+		icon = "",
+		type = {
+			2
+		}
+	}
 	pg.base.emoji_template[100] = {
 		achieve = 0,
 		auction = 0,
@@ -1756,6 +1804,8 @@ pg.base.emoji_template = {}
 			1
 		}
 	}
+end)()
+(function ()
 	pg.base.emoji_template[215] = {
 		achieve = 0,
 		auction = 0,
@@ -1798,8 +1848,6 @@ pg.base.emoji_template = {}
 			1
 		}
 	}
-end)()
-(function ()
 	pg.base.emoji_template[218] = {
 		achieve = 0,
 		auction = 0,

@@ -4,6 +4,27 @@ slot0.word_legal_template_10 = {}
 slot1 = slot0.word_legal_template_10
 
 temp = function()
+	uv0["赤"] = {
+		["城"] = {
+			this = true,
+			["("] = {
+				["μ"] = {
+					["兵"] = {
+						["裝"] = {
+							[")"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["蒼"] = {
 		["龍"] = {
 			this = true,
@@ -668,37 +689,6 @@ temp = function()
 			["."] = {
 				["改"] = {
 					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["撫"] = {
-		["順"] = {
-			this = true,
-			["."] = {
-				["改"] = {
-					this = true,
-					["（"] = {
-						["後"] = {
-							["排"] = {
-								["）"] = {
-									this = true
-								}
-							}
-						},
-						["前"] = {
-							["排"] = {
-								["）"] = {
-									this = true
-								}
-							}
-						}
-					}
 				}
 			}
 		}
