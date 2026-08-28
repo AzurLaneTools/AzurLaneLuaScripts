@@ -185544,7 +185544,7 @@ _G.pg.base.enemy_data_statistics[91273] = {
 
 _G.pg.base.enemy_data_statistics[91297] = {
 	cannon = 0,
-	name = "天津风",
+	name = "Amatsukaze",
 	antiaircraft_growth = 0,
 	speed_growth = 0,
 	luck = 0,

@@ -145,7 +145,7 @@ return {
 			},
 			sequence = {
 				{
-					"Depths of the Astrarium\n\n<size=45>37 Face-Off</size>",
+					"\"Close your eyes.\"",
 					0
 				},
 				{
@@ -183,7 +183,7 @@ return {
 					2
 				},
 				{
-					"Depths of the Astrarium\n\n<size=45>37 Face-Off</size>",
+					"\"And tomorrow the same.\"",
 					3
 				}
 			}

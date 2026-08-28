@@ -26,7 +26,7 @@ return {
 					2
 				},
 				{
-					"Unknown Location",
+					"？？？",
 					3
 				}
 			}
@@ -342,7 +342,7 @@ return {
 			bgName = "star_level_bg_306",
 			dir = 1,
 			actor = 900548,
-			actorName = "Unknown Location",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "Hey.",
 			typewriter = {
@@ -417,7 +417,7 @@ return {
 			bgName = "star_level_bg_306",
 			dir = 1,
 			actor = 900548,
-			actorName = "Unknown Location",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "I wonder... Heheh~",
 			typewriter = {
