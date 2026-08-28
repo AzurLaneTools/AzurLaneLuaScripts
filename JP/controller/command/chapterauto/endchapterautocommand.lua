@@ -62,6 +62,10 @@ slot0.execute = function(slot0, slot1)
 end
 
 slot0.Send = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot7 = getProxy(ChapterAutoProxy)
+
+	slot7:SetRecordEventFlag(true)
+
 	slot7 = pg.ConnectionMgr.GetInstance()
 
 	slot7:Send(13014, {
@@ -70,6 +74,7 @@ slot0.Send = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		if slot0.result == 0 then
 			slot1 = getProxy(ChapterAutoProxy)
 
+			slot1:SetRecordEventFlag(false)
 			slot1:ClearCommissionList()
 			slot1:ReduceCostTime(slot0.seconds)
 			slot1:AddTickets(slot0.chapter_auto_ticket_list)
