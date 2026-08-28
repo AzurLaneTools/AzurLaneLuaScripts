@@ -303,8 +303,12 @@ slot0.SetSkipBatchBuildFlag = function(slot0, slot1)
 	slot0.skipBatchFlag = slot1
 end
 
+slot0.SetRecordEventFlag = function(slot0, slot1)
+	slot0.recordEventFlag = slot1
+end
+
 slot0.RecordNewEventIds = function(slot0, slot1)
-	if #slot0.commissionList > 0 then
+	if slot0.recordEventFlag then
 		slot0.newEventIds = table.mergeArray(slot0.newEventIds, slot1)
 	end
 end
