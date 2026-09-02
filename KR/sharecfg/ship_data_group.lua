@@ -14195,7 +14195,7 @@ end)()
 		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		trans_skin = 0,
+		trans_skin = 202129,
 		hide = 0,
 		group_type = 20212,
 		index_id = 211,
@@ -14209,8 +14209,17 @@ end)()
 			"C",
 			"B"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_skill = {
+			152650
+		},
 		description = {
 			{
 				"훈장 지원(랜덤 갱신)",
