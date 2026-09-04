@@ -251526,6 +251526,134 @@ _G.pg.base.ship_skin_template[802013] = {
 }
 
 
+_G.pg.base.ship_skin_template[802014] = {
+	name = "闪耀的“魔法”",
+	change_skin = "",
+	desc = "为了能与你共度这场愉快的舞会，我特地准备了这身装扮。轻轻旋转，裙摆就会如花开般绽放，怎么样，是不是很梦幻~",
+	illustrator2 = -1,
+	ship_group = 80201,
+	group_index = 4,
+	purchase_offset = "",
+	painting = "aimierbeierding_5",
+	lover_hand = "hand_1_02",
+	skin_type = 4,
+	shop_type_id = 19,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "159",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 802014,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "aimierbeierding_5",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 108,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		4
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.817,
+				1.361,
+				0
+			}
+		},
+		vicegun = {
+			{
+				0.788,
+				0.937,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.01,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.733,
+				2.373,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.753,
+						2.464,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
 _G.pg.base.ship_skin_template[802019] = {
 	name = "埃米尔·贝尔汀.改",
 	change_skin = "",
@@ -312659,6 +312787,125 @@ _G.pg.base.ship_skin_template[900555] = {
 }
 
 
+_G.pg.base.ship_skin_template[900556] = {
+	name = "？？？",
+	change_skin = "",
+	desc = "无描述",
+	illustrator2 = -1,
+	ship_group = 900556,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "congmang_2_hei",
+	lover_hand = "hand_1_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 900556,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "congmang_2_hei",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = -1,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.17,
+				5,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.04,
+				0.89,
+				0
+			}
+		},
+		plane = {
+			{
+				-1.02,
+				3.05,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			70,
+			{
+				{
+					"smokebig",
+					{
+						-0.62,
+						2.54,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
 _G.pg.base.ship_skin_template[1101010] = {
 	name = "埃佛森",
 	change_skin = "",
@@ -325917,6 +326164,131 @@ _G.pg.base.ship_skin_template[9707080] = {
 					"smoke",
 					{
 						-0.789,
+						2.499,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9707100] = {
+	name = "萨拉托加·META",
+	change_skin = "",
+	desc = "“天降系偶像”萨拉托加·META闪亮登场~！嗯哼~指挥官这个表情，是被我从天而降的气势震住了吗？放心吧，接下来不管是战斗还是舞台，我都会把气氛炒到最热的♪ ",
+	illustrator2 = -1,
+	ship_group = 970710,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "salatuojia_alter",
+	lover_hand = "hand_1_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 9707100,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "salatuojia_alter",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 28,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		antiaircraft = {
+			{
+				0.832,
+				2.303,
+				0
+			}
+		},
+		plane = {
+			{
+				0.941,
+				0.798,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			70,
+			{
+				{
+					"smoke",
+					{
+						-0.813,
+						2.493,
+						0
+					}
+				}
+			}
+		},
+		{
+			30,
+			{
+				{
+					"smoke",
+					{
+						-0.823,
 						2.499,
 						0
 					}

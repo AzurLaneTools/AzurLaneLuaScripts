@@ -1570,7 +1570,7 @@ pg.base.activity_event_worldboss = {}
 				{
 					2026,
 					9,
-					10
+					8
 				},
 				{
 					12,

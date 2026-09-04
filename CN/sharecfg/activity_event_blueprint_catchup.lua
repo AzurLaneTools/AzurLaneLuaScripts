@@ -38,7 +38,8 @@ pg.activity_event_blueprint_catchup.all = {
 	33,
 	34,
 	35,
-	36
+	36,
+	37
 }
 pg.base = pg.base or {}
 pg.base.activity_event_blueprint_catchup = {}
@@ -223,5 +224,10 @@ pg.base.activity_event_blueprint_catchup = {}
 		id = 36,
 		obtain_max = 30,
 		char_choice = 39907
+	}
+	pg.base.activity_event_blueprint_catchup[37] = {
+		id = 37,
+		obtain_max = 30,
+		char_choice = 69902
 	}
 end)()

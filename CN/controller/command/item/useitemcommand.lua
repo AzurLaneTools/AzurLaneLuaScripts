@@ -104,6 +104,10 @@ slot0.execute = function(slot0, slot1)
 				end
 			elseif uv3 == ItemUsage.REDUCE_COMMANDER_TIME then
 				uv4:sendNotification(GAME.REFRESH_COMMANDER_BOXES)
+			elseif uv3 == ItemUsage.EX_RE_MAP then
+				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
+
+				getProxy(ChapterProxy):addRemasterPassCount(uv5[1], ChapterConst.GetActivityIDByReChapterID(uv5[1]))
 			else
 				assert(false, "未处理类型" .. uv3)
 			end

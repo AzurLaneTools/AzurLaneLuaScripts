@@ -25,7 +25,8 @@ pg.world_joint_boss_template.all = {
 	20,
 	21,
 	22,
-	23
+	23,
+	24
 }
 pg.base = pg.base or {}
 pg.base.world_joint_boss_template = {}
@@ -609,7 +610,7 @@ pg.base.world_joint_boss_template = {}
 	pg.base.world_joint_boss_template[18] = {
 		name = "大黄蜂·META",
 		boss_level_id = 256,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "dahuangfeng",
 		meta_id = 970706,
@@ -835,6 +836,68 @@ pg.base.world_joint_boss_template = {}
 		p_offset_other = {
 			261,
 			495,
+			0.7,
+			0.7
+		}
+	}
+	pg.base.world_joint_boss_template[24] = {
+		name = "萨拉托加·META",
+		boss_level_id = 346,
+		item_id = 100000,
+		painting = "salatuojia",
+		meta_id = 970710,
+		id = 24,
+		description = {
+			{
+				"审判★从天而降",
+				3,
+				[[
+战斗中，萨拉托加meta会得到大量来自近地轨道的支援效果，包含如下：
+1.大规模远程炮击
+2.大量额外战机
+3.目标锁定（8秒内我方<color=#92fc63>先锋领舰额外受到100%伤害</color>，冷却15秒）]]
+			},
+			{
+				"变幻★战术音乐",
+				1,
+				"萨拉托加meta初始装甲类型为中甲，之后每隔25秒会在<color=#92fc63>中甲与重甲之间切换</color>（以右上倒计时为准），每次切换时都会释放一轮舰载机。"
+			}
+		},
+		state = {
+			{
+				{
+					2026,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-392,
+			483,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			261,
+			523,
 			0.7,
 			0.7
 		}

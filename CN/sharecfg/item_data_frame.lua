@@ -66,6 +66,7 @@ pg.item_data_frame.all = {
 	337,
 	341,
 	342,
+	343,
 	401,
 	402,
 	404,
@@ -681,6 +682,15 @@ pg.base.item_data_frame = {}
 		desc = "「欢迎来到星光城，你有想要实现的愿望么？」\n<color=#A7A7AA>「沉溺于星光之城」活动获取</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[343] = {
+		name = "萌芽之冠",
+		gain_by = "",
+		time_second = 0,
+		id = 343,
+		time_limit_type = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	}
 	pg.base.item_data_frame[401] = {
 		name = "殿堂纪念：企业",
 		gain_by = "",
@@ -1014,6 +1024,8 @@ pg.base.item_data_frame = {}
 		desc = "炽龙自深渊而来，漆黑的锁链上缠绕着不灭的怒雷。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:480}的契合度等级获取</color>",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1012] = {
 		name = "碧海金冠 ",
 		gain_by = "",
@@ -1023,8 +1035,6 @@ pg.base.item_data_frame = {}
 		desc = "铁色的旗帜在浪潮间翻涌，一顶金冠于此加冕，象征着海洋的无上权柄。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:480}的契合度等级获取</color>",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[1013] = {
 		name = "聚电装置",
 		gain_by = "",

@@ -82,6 +82,10 @@ slot0.UpdateListItem = function(slot0, slot1, slot2)
 	})
 end
 
+slot0.GetProgressColor = function(slot0)
+	return nil
+end
+
 slot0.UpdateTaskItem = function(slot0, slot1, slot2, slot3)
 	slot5 = slot3:Find("item")
 	slot7 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot1][slot2 + 1]) or slot0.taskProxy:getFinishTaskById(slot6)
@@ -90,12 +94,19 @@ slot0.UpdateTaskItem = function(slot0, slot1, slot2, slot3)
 	onButton(slot0, slot5, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-
-	slot10 = slot7 and slot7:getProgress() or 0
-	slot11 = slot8.target_num
-
 	setText(slot3:Find("description"), slot8.desc)
-	setSlider(slot3:Find("progress"), 0, slot11, slot10)
+	setSlider(slot3:Find("progress"), 0, slot8.target_num, slot7 and slot7:getProgress() or 0)
+
+	slot12, slot13 = uv0:GetProgressColor()
+
+	if slot12 then
+		slot10 = setColorStr(slot10, slot12) or slot10
+	end
+
+	if slot13 then
+		slot11 = setColorStr(slot11, slot13) or slot11
+	end
+
 	setText(slot3:Find("progressText"), slot10 .. "/" .. slot11)
 end
 

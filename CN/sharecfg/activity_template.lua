@@ -1229,6 +1229,12 @@ pg.activity_template.all = {
 	51122,
 	51123,
 	51124,
+	51118,
+	51119,
+	51126,
+	51127,
+	51128,
+	51129,
 	51160,
 	7011,
 	7012,
@@ -1919,6 +1925,7 @@ pg.activity_template.get_id_list_by_type = {
 		51112,
 		51113,
 		51121,
+		51118,
 		1103,
 		1104,
 		1105,
@@ -2208,6 +2215,8 @@ pg.activity_template.get_id_list_by_type = {
 		51041,
 		51088,
 		51063,
+		51127,
+		51129,
 		7506,
 		6000,
 		6001,
@@ -2567,7 +2576,8 @@ pg.activity_template.get_id_list_by_type = {
 		50472,
 		51004,
 		51042,
-		51087
+		51087,
+		51128
 	},
 	[59] = {
 		368
@@ -2647,7 +2657,8 @@ pg.activity_template.get_id_list_by_type = {
 		50101,
 		50263,
 		51002,
-		51085
+		51085,
+		51119
 	},
 	[70] = {
 		5246,
@@ -2906,7 +2917,8 @@ pg.activity_template.get_id_list_by_type = {
 		50470,
 		51003,
 		51040,
-		51086
+		51086,
+		51126
 	},
 	[88] = {
 		50043
@@ -50029,12 +50041,12 @@ end)()
 				{
 					2026,
 					9,
-					8
+					16
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		},
@@ -50104,6 +50116,343 @@ end)()
 					59
 				}
 			}
+		}
+	}
+	pg.base.activity_template[51118] = {
+		mark = 20260904,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51118,
+		page_core = "",
+		config_data = {
+			12020,
+			12021,
+			12022,
+			12023,
+			12024
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51119] = {
+		mark = 20260904,
+		type = 69,
+		login_pop = 0,
+		config_id = 37,
+		is_show = 48,
+		title_res_tag = "Georgia_catchup",
+		id = 51119,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SimulationTecCatchupPage",
+			ui_name = "SimulationTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42063
+		}
+	}
+	pg.base.activity_template[51126] = {
+		mark = 20260904,
+		type = 87,
+		login_pop = 0,
+		config_id = 41,
+		is_show = 2,
+		config_client = "",
+		title_res_tag = "ShadowCityCoreActivityUI_subtitle_1",
+		id = 51126,
+		page_core = "ShadowCityCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShadowCityFramePage",
+			ui_name = "ShadowCityFramePage"
+		}
+	}
+	pg.base.activity_template[51127] = {
+		mark = 20260904,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 1,
+		title_res_tag = "ShadowCityCoreActivityUI_subtitle_2",
+		id = 51127,
+		page_core = "ShadowCityCoreActivityUI",
+		config_data = {
+			{
+				27450,
+				27451,
+				27452,
+				27453,
+				27454,
+				27455,
+				27456,
+				27457,
+				27458,
+				27459
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShadowCityOmenPage",
+			ui_name = "ShadowCityOmenPage",
+			sub_ui = {
+				"ShadowCityOmenTaskWindow"
+			}
+		},
+		config_client = {
+			task_id = 27025,
+			subType = 1,
+			default_background = "star_level_bg_533",
+			story = {
+				{
+					"DUSHIQIUZHIDAZUOZHAN1",
+					"DUSHIQIUZHIDAZUOZHAN2"
+				},
+				{
+					"DUSHIQIUZHIDAZUOZHAN3"
+				},
+				{
+					"DUSHIQIUZHIDAZUOZHAN4"
+				},
+				{
+					"DUSHIQIUZHIDAZUOZHAN5"
+				},
+				{
+					"DUSHIQIUZHIDAZUOZHAN6",
+					"DUSHIQIUZHIDAZUOZHAN7"
+				}
+			},
+			unlock_task = {
+				{
+					27450,
+					27451
+				},
+				{
+					27452,
+					27453
+				},
+				{
+					27454,
+					27455
+				},
+				{
+					27456,
+					27457
+				},
+				{
+					27458,
+					27459
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51128] = {
+		mark = 20260904,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 43,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51128,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51129] = {
+		mark = 20260904,
+		type = 18,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 3,
+		config_client = "",
+		title_res_tag = "ShiningMagicCoreActivityUI_subtitle_1",
+		id = 51129,
+		page_core = "ShiningMagicCoreActivityUI",
+		config_data = {
+			{
+				27460
+			},
+			{
+				27461
+			},
+			{
+				27462
+			},
+			{
+				27463
+			},
+			{
+				27464
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShiningMagicSignPage",
+			ui_name = "ShiningMagicSignPage"
 		}
 	}
 	pg.base.activity_template[51160] = {
@@ -55127,6 +55476,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[8099] = {
 		mark = 20250424,
 		type = 3,
@@ -55769,8 +56120,6 @@ end)()
 			ui_name = "NewServerMainPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[8107] = {
 		mark = 20251120,
 		page_info = "",
@@ -59362,6 +59711,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[2060] = {
 		mark = 20210527,
 		page_info = "",
@@ -59464,8 +59815,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6000] = {
 		mark = 20210610,
 		time = "stop",

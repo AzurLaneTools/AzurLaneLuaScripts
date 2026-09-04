@@ -1199697,6 +1199697,801 @@ _G.pg.base.expedition_data_template[296345] = {
 }
 
 
+_G.pg.base.expedition_data_template[296346] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296346,
+	level = 70,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296346,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296347] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296347,
+	level = 74,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296347,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296348] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296348,
+	level = 78,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296348,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296349] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296349,
+	level = 82,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296349,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296350] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296350,
+	level = 86,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296350,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296351] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296351,
+	level = 90,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296351,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296352] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296352,
+	level = 94,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296352,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296353] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296353,
+	level = 98,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296353,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296354] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296354,
+	level = 102,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296354,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296355] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296355,
+	level = 106,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296355,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296356] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296356,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296356,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296357] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296357,
+	level = 114,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296357,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296358] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296358,
+	level = 118,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296358,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296359] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296359,
+	level = 122,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296359,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
+_G.pg.base.expedition_data_template[296360] = {
+	objective_3 = "",
+	name = "信标·META",
+	icon = "salatuojia_alter",
+	type = 15,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	ai = 0,
+	dungeon_id = 296360,
+	level = 126,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 296360,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-boss-ucnf",
+	difficulty = 4,
+	objective_2 = "",
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+
 _G.pg.base.expedition_data_template[297101] = {
 	objective_3 = "",
 	name = "敌方旗舰",
