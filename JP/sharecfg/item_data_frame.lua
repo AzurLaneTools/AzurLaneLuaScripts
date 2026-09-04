@@ -65,6 +65,7 @@ pg.item_data_frame.all = {
 	337,
 	341,
 	342,
+	343,
 	401,
 	402,
 	403,
@@ -671,6 +672,15 @@ pg.base.item_data_frame = {}
 		desc = "「メトロスターライトへようこそ。あなたは叶えたい夢はあるかな？」\n<color=#A7A7AA>「夢光のアストリウム」イベント参加</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[343] = {
+		name = "新芽の冠",
+		gain_by = "",
+		time_second = 0,
+		id = 343,
+		time_limit_type = 0,
+		desc = "今後開催するイベントにて入手可能",
+		scene = {}
+	}
 	pg.base.item_data_frame[401] = {
 		name = "殿堂入り：エンタープライズ",
 		gain_by = "",
@@ -1013,6 +1023,8 @@ pg.base.item_data_frame = {}
 		desc = "荒波の中で鋼色の旗が翻り、戴かれる黄金の冠は至高なる海の権能を示せり\n<color=#A7A7AA>「交流宿舎」でエーギルの親密度を上げると入手可能</color>",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1013] = {
 		name = "集電装置",
 		gain_by = "",
@@ -1022,8 +1034,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>バチバチとインパルスの電流が躍動し、電球も電光ライトのネコミミもキラリと輝く</color>\n「交流宿舎」でアドミラル・ナヒーモフの親密度を上げると入手可能",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[1014] = {
 		name = "サイバネティック・アイサツ",
 		gain_by = "",

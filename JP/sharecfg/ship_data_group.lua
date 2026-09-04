@@ -890,7 +890,8 @@ pg.ship_data_group.all = {
 	30060,
 	30061,
 	30062,
-	30063
+	30063,
+	30064
 }
 pg.ship_data_group.get_id_list_by_group_type = {
 	[10000] = {
@@ -3272,6 +3273,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[970708] = {
 		30054
 	},
+	[970710] = {
+		30064
+	},
 	[970801] = {
 		30021
 	},
@@ -4449,7 +4453,8 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		30060,
 		30061,
 		30062,
-		30063
+		30063,
+		30064
 	}
 }
 pg.base = pg.base or {}
@@ -41345,6 +41350,41 @@ end)()
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9702131
+					}
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[30064] = {
+		nationality = 97,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970710,
+		index_id = 30066,
+		code = 30064,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"E",
+			"S",
+			"C",
+			"A",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"メタラボ・情報解析",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9707101
 					}
 				},
 				0

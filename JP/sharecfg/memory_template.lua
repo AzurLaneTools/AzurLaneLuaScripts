@@ -4291,6 +4291,20 @@ pg.memory_template.all = {
 	5413,
 	5414,
 	5415,
+	5421,
+	5422,
+	5423,
+	5424,
+	5425,
+	5426,
+	5427,
+	5431,
+	5432,
+	5433,
+	5434,
+	5435,
+	5436,
+	5437,
 	10000,
 	10001,
 	10002,
@@ -81847,6 +81861,260 @@ end)()
 			"DARENWUDEYUGAOXIN5"
 		}
 	}
+	pg.base.memory_template[5421] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽かに香る庭園",
+		condition = "「幽かに聞かせば、白鳳の香1」開始",
+		story = "BAIFENG1",
+		mask = "bg/bg_memory",
+		task = 500281,
+		year = 0,
+		id = 5421,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG1"
+		}
+	}
+	pg.base.memory_template[5422] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "二人だけの約束",
+		condition = "「幽かに聞かせば、白鳳の香2」開始",
+		story = "BAIFENG2",
+		mask = "bg/bg_memory",
+		task = 500282,
+		year = 0,
+		id = 5422,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG2"
+		}
+	}
+	pg.base.memory_template[5423] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "香りを試す",
+		condition = "「幽かに聞かせば、白鳳の香3」開始",
+		story = "BAIFENG3",
+		mask = "bg/bg_memory",
+		task = 500283,
+		year = 0,
+		id = 5423,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG3"
+		}
+	}
+	pg.base.memory_template[5424] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "互いの香り",
+		condition = "「幽かに聞かせば、白鳳の香4」開始",
+		story = "BAIFENG4",
+		mask = "bg/bg_memory",
+		task = 500284,
+		year = 0,
+		id = 5424,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG4"
+		}
+	}
+	pg.base.memory_template[5425] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "「三景」のお香",
+		condition = "「幽かに聞かせば、白鳳の香5」開始",
+		story = "BAIFENG5",
+		mask = "bg/bg_memory",
+		task = 500285,
+		year = 0,
+		id = 5425,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG5"
+		}
+	}
+	pg.base.memory_template[5426] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幻へまどろむ",
+		condition = "「幽かに聞かせば、白鳳の香6」開始",
+		story = "BAIFENG6",
+		mask = "bg/bg_memory",
+		task = 500286,
+		year = 0,
+		id = 5426,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG6"
+		}
+	}
+	pg.base.memory_template[5427] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "永遠にとどまる刹那",
+		condition = "「幽かに聞かせば、白鳳の香7」開始",
+		story = "BAIFENG7",
+		mask = "bg/bg_memory",
+		task = 500287,
+		year = 0,
+		id = 5427,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG7"
+		}
+	}
+	pg.base.memory_template[5431] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "いざ新紀元シティへ！",
+		condition = "「ファイト一発！就活大作戦！」DAY1解放",
+		story = "DUSHIQIUZHIDAZUOZHAN1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5431,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN1"
+		}
+	}
+	pg.base.memory_template[5432] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "お部屋探し！ジャベリン、ファイト！！",
+		condition = "「ファイト一発！就活大作戦！」DAY2解放",
+		story = "DUSHIQIUZHIDAZUOZHAN2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5432,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN2"
+		}
+	}
+	pg.base.memory_template[5433] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "面接タイム！ジャベリン、ファイト！！",
+		condition = "「ファイト一発！就活大作戦！」DAY3解放",
+		story = "DUSHIQIUZHIDAZUOZHAN3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5433,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN3"
+		}
+	}
+	pg.base.memory_template[5434] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "入社成功？！ジャベリン、ファイト！",
+		condition = "「ファイト一発！就活大作戦！」DAY4解放",
+		story = "DUSHIQIUZHIDAZUOZHAN4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5434,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN4"
+		}
+	}
+	pg.base.memory_template[5435] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幸せですか？ジャベリン、ファイト！",
+		condition = "「ファイト一発！就活大作戦！」DAY5解放",
+		story = "DUSHIQIUZHIDAZUOZHAN5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5435,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN5"
+		}
+	}
+	pg.base.memory_template[5436] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "危機降臨？！ジャベリン、ファイト！",
+		condition = "「ファイト一発！就活大作戦！」DAY6解放",
+		story = "DUSHIQIUZHIDAZUOZHAN6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5436,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN6"
+		}
+	}
+end)()
+(function ()
+	pg.base.memory_template[5437] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "最後の奮起！ジャベリン、ファイト！",
+		condition = "「ファイト一発！就活大作戦！」DAY7解放",
+		story = "DUSHIQIUZHIDAZUOZHAN7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5437,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN7"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -82081,8 +82349,6 @@ end)()
 			"CHANGDAO2"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10013] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83631,6 +83897,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA18"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20018] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83883,8 +84151,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA32"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20032] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85433,6 +85699,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA37"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20118] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85685,8 +85953,6 @@ end)()
 			"LINGYANGZHEXINZHIXUYU4"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20132] = {
 		ship_group = 0,
 		subtitle = "",

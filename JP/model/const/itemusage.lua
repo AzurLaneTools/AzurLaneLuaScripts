@@ -21,5 +21,6 @@ slot0.RANDOM_SKIN = "usage_drop_random_skin"
 slot0.USAGE_SKIN_EXP = "usage_skin_exp"
 slot0.SHIP_GIFT = "usage_favorability"
 slot0.REPAIR_LOVE_LETTER = "usage_loveitem_change_2018"
+slot0.EX_RE_MAP = "usage_drop_re_map"
 
 return slot0

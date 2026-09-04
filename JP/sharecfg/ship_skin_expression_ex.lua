@@ -28574,4 +28574,72 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_skin_expression_ex.salatuojia = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		mail = "",
+		painting = "salatuojia",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				""
+			}
+		},
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"2|3|"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"3"
+			}
+		}
+	}
 end)()

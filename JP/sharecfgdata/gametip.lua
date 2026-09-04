@@ -5991,8 +5991,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2026.6.5-2026.9.4</color>
-META戦・ブリストル(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2026.9.4-2026.12.10</color>
+META戦・サラトガ(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -22066,7 +22066,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することができます。
 
-※<color=#92fc63>2026.6.5-2026.9.4</color>ブリストル(META) META戦開放期間は「ブリストル(META)」の解析Ptを入手できます。
+※<color=#92fc63>2026.9.4-2026.12.10</color>サラトガ(META) META戦開放期間は「サラトガ(META)」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -51275,6 +51275,11 @@ _G.pg.base.gametip.escape_story_reward_count = {
 }
 
 
+_G.pg.base.gametip.auction_network_timeout = {
+	tip = "接続環境に異常があるため、オークションから退出しました"
+}
+
+
 _G.pg.base.gametip.StarsCityCoreActivityUI_subtitle_4 = {
 	tip = "夢光のアストリウム"
 }
@@ -51418,11 +51423,6 @@ _G.pg.base.gametip.help_monopoly_car2026 = {
 }
 
 
-_G.pg.base.gametip.auction_network_timeout = {
-	tip = "接続環境に異常があるため、オークションから退出しました"
-}
-
-
 _G.pg.base.gametip.loading_pic_btn = {
 	tip = "スチル"
 }
@@ -51445,6 +51445,26 @@ _G.pg.base.gametip.event_worldboss_0827_title = {
 
 _G.pg.base.gametip.event_worldboss_0827_title_en = {
 	tip = "Joint Operation"
+}
+
+
+_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_1 = {
+	tip = "作戦準備"
+}
+
+
+_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_2 = {
+	tip = "新紀元シティ！"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
+	tip = "輝くmagique"
+}
+
+
+_G.pg.base.gametip.shiningmagicsignpage_sign_remain = {
+	tip = "タップ可能回数"
 }
 
 

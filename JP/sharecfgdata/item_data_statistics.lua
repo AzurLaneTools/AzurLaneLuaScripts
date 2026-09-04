@@ -16656,6 +16656,37 @@ _G.pg.base.item_data_statistics[21063] = {
 }
 
 
+_G.pg.base.item_data_statistics[21064] = {
+	open_directly = 0,
+	name = "結晶：サラトガ(META)",
+	type = 4,
+	display = "サラトガ(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21064",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21064,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -17482,6 +17513,37 @@ _G.pg.base.item_data_statistics[21923] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21923,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21924] = {
+	open_directly = 0,
+	name = "サラトガ(META)解析Pt",
+	type = 4,
+	display = "サラトガ(META)の解析ポイント",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21924",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21924,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -126908,6 +126970,561 @@ _G.pg.base.item_data_statistics[180099] = {
 		{
 			2,
 			180009,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[99982] = {
+	open_directly = 0,
+	name = "出撃報酬補填・B",
+	type = 13,
+	display = "使用すると、作戦履歴の任意のEX海域イベント（2026.8以降のイベントを除く）のBステージを選択でき、そのステージに出現する艦船を確率で入手できます。この入手確率はステージの艦船の出現率に影響されます。アイテムを廃棄すると、少量の燃料を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_re_map",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 99982,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		100101,
+		100102,
+		100103,
+		100104,
+		100105,
+		100106,
+		100107,
+		100108,
+		100109,
+		100110,
+		100111,
+		100112,
+		100113,
+		100114,
+		100115,
+		100116,
+		100117,
+		100118,
+		100119,
+		100120,
+		100121,
+		100122,
+		100123,
+		100124,
+		100125,
+		100126,
+		100127,
+		100128,
+		100129,
+		100130
+	},
+	price = {
+		2,
+		25
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		2100006,
+		2100026,
+		2100048,
+		2100066,
+		2100086,
+		2100106,
+		2100126,
+		2100146,
+		2100168,
+		2100186,
+		2100206,
+		2100226,
+		2100246,
+		2100266,
+		2100286,
+		2100306,
+		2100326,
+		2100346,
+		2100366,
+		2100386,
+		2100406,
+		2100427,
+		2100446,
+		2100466,
+		2100486,
+		2100506,
+		2100526,
+		2100546,
+		2100566,
+		2100586
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[99983] = {
+	open_directly = 0,
+	name = "出撃報酬補填・D",
+	type = 13,
+	display = "使用すると、作戦履歴の任意のEX海域イベント（2026.8以降のイベントを除く）のDステージを選択でき、当該ステージの艦船確定入手任務を進捗させ、そのステージに出現する艦船を確率で入手できます。この入手確率はステージの艦船の出現率に影響されます。アイテムを廃棄すると、少量の燃料を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_re_map",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 99983,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		100101,
+		100102,
+		100103,
+		100104,
+		100105,
+		100106,
+		100107,
+		100108,
+		100109,
+		100110,
+		100111,
+		100112,
+		100113,
+		100114,
+		100115,
+		100116,
+		100117,
+		100118,
+		100119,
+		100120,
+		100121,
+		100122,
+		100123,
+		100124,
+		100125,
+		100126,
+		100127,
+		100128,
+		100129,
+		100130
+	},
+	price = {
+		2,
+		47
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		2100016,
+		2100036,
+		2100058,
+		2100076,
+		2100096,
+		2100116,
+		2100136,
+		2100156,
+		2100178,
+		2100196,
+		2100216,
+		2100236,
+		2100256,
+		2100276,
+		2100296,
+		2100316,
+		2100336,
+		2100356,
+		2100376,
+		2100396,
+		2100416,
+		2100437,
+		2100456,
+		2100476,
+		2100496,
+		2100516,
+		2100536,
+		2100556,
+		2100576,
+		2100596
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[99984] = {
+	open_directly = 0,
+	name = "出撃報酬設計図補填・D3",
+	type = 13,
+	display = "使用すると、作戦履歴の任意のEX海域イベント（2026.8以降のイベントを除く）のD3を選択でき、そのD3に出現するSSR装備設計図と交換可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/99984",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 99984,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			11024,
+			1
+		},
+		{
+			2,
+			11026,
+			1
+		},
+		{
+			2,
+			11001,
+			1
+		},
+		{
+			2,
+			11033,
+			1
+		},
+		{
+			2,
+			11027,
+			1
+		},
+		{
+			2,
+			11026,
+			1
+		},
+		{
+			2,
+			11010,
+			1
+		},
+		{
+			2,
+			11039,
+			1
+		},
+		{
+			2,
+			11001,
+			1
+		},
+		{
+			2,
+			11013,
+			1
+		},
+		{
+			2,
+			11009,
+			1
+		},
+		{
+			2,
+			11041,
+			1
+		},
+		{
+			2,
+			11021,
+			1
+		},
+		{
+			2,
+			11025,
+			1
+		},
+		{
+			2,
+			11036,
+			1
+		},
+		{
+			2,
+			11046,
+			1
+		},
+		{
+			2,
+			11043,
+			1
+		},
+		{
+			2,
+			13000,
+			1
+		},
+		{
+			2,
+			11037,
+			1
+		},
+		{
+			2,
+			11047,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			11043,
+			1
+		},
+		{
+			2,
+			11033,
+			1
+		},
+		{
+			2,
+			11048,
+			1
+		},
+		{
+			2,
+			13013,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13000,
+			1
+		},
+		{
+			2,
+			11049,
+			1
+		},
+		{
+			2,
+			11037,
+			1
+		},
+		{
+			2,
+			13003,
+			1
+		},
+		{
+			2,
+			11054,
+			1
+		},
+		{
+			2,
+			11015,
+			1
+		},
+		{
+			2,
+			13013,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			11024,
+			1
+		},
+		{
+			2,
+			11026,
+			1
+		},
+		{
+			2,
+			11001,
+			1
+		},
+		{
+			2,
+			11033,
+			1
+		},
+		{
+			2,
+			11027,
+			1
+		},
+		{
+			2,
+			11026,
+			1
+		},
+		{
+			2,
+			11010,
+			1
+		},
+		{
+			2,
+			11039,
+			1
+		},
+		{
+			2,
+			11001,
+			1
+		},
+		{
+			2,
+			11013,
+			1
+		},
+		{
+			2,
+			11009,
+			1
+		},
+		{
+			2,
+			11041,
+			1
+		},
+		{
+			2,
+			11021,
+			1
+		},
+		{
+			2,
+			11025,
+			1
+		},
+		{
+			2,
+			11036,
+			1
+		},
+		{
+			2,
+			11046,
+			1
+		},
+		{
+			2,
+			11043,
+			1
+		},
+		{
+			2,
+			13000,
+			1
+		},
+		{
+			2,
+			11037,
+			1
+		},
+		{
+			2,
+			11047,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			11043,
+			1
+		},
+		{
+			2,
+			11033,
+			1
+		},
+		{
+			2,
+			11048,
+			1
+		},
+		{
+			2,
+			13013,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13000,
+			1
+		},
+		{
+			2,
+			11049,
+			1
+		},
+		{
+			2,
+			11037,
+			1
+		},
+		{
+			2,
+			13003,
+			1
+		},
+		{
+			2,
+			11054,
+			1
+		},
+		{
+			2,
+			11015,
+			1
+		},
+		{
+			2,
+			13013,
 			1
 		}
 	},
