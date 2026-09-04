@@ -16729,6 +16729,37 @@ _G.pg.base.item_data_statistics[21063] = {
 }
 
 
+_G.pg.base.item_data_statistics[21064] = {
+	open_directly = 0,
+	name = "META Crystal – Saratoga META",
+	type = 4,
+	display = "An item that increases the potential of Saratoga META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21064",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21064,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -17555,6 +17586,37 @@ _G.pg.base.item_data_statistics[21923] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21923,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21924] = {
+	open_directly = 0,
+	name = "Synchronization Point – Saratoga META",
+	type = 4,
+	display = "Sync Points for Saratoga META.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21924",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21924,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -120009,7 +120071,7 @@ _G.pg.base.item_data_statistics[99996] = {
 	open_directly = 0,
 	name = "8th Anniversary Photo ",
 	type = 1,
-	display = "A photo taken at the beach. It always reminds you of that sunlit afternoon, with the faint, salty scent of the sea breeze.",
+	display = "photo taken at the beach. It always reminds you of that sunlit afternoon, with the faint, salty scent of the sea breeze. ",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -120028,6 +120090,43 @@ _G.pg.base.item_data_statistics[99996] = {
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[99997] = {
+	open_directly = 1,
+	name = "8th Anniversary Trackside Refreshments",
+	type = 17,
+	display = "Enjoy the refreshing sweetness mixed with sea breeze here at any time!",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/lengyintanicon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998579",
+	id = 99997,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			5,
+			346,
+			1
+		}
+	},
 	price = {},
 	index = {},
 	shiptrans_id = {},

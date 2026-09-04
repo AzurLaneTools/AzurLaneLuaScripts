@@ -276,6 +276,7 @@ pg.memory_group.all = {
 	374,
 	375,
 	376,
+	377,
 	501,
 	502,
 	503,
@@ -399,6 +400,7 @@ pg.memory_group.all = {
 	623,
 	625,
 	624,
+	626,
 	1000,
 	1001,
 	1002,
@@ -7365,6 +7367,26 @@ end)()
 			5415
 		}
 	}
+	pg.base.memory_group[377] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51127,
+		title = "Fight On! The Ultimate Job-Hunting Operation!",
+		auto_unlock = "",
+		subtype = 2,
+		id = 377,
+		group_id = "",
+		memories = {
+			5431,
+			5432,
+			5433,
+			5434,
+			5435,
+			5436,
+			5437
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7970,6 +7992,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[529] = {
 		ship_group = 30118,
 		icon = "title_chara_buzhihuo",
@@ -7992,8 +8016,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[530] = {
 		ship_group = 10218,
 		icon = "title_chara_kangkede",
@@ -10084,6 +10106,28 @@ end)()
 			10000
 		}
 	}
+	pg.base.memory_group[626] = {
+		ship_group = 30716,
+		icon = "title_chara_baifeng",
+		type = 3,
+		link_event = 0,
+		title = "Her Scent Lingers",
+		auto_unlock = "",
+		subtype = 0,
+		id = 626,
+		memories = {
+			5421,
+			5422,
+			5423,
+			5424,
+			5425,
+			5426,
+			5427
+		},
+		group_id = {
+			10000
+		}
+	}
 	pg.base.memory_group[1000] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -10205,6 +10249,8 @@ end)()
 			20081
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[1003] = {
 		ship_group = 0,
 		icon = "title_event",
@@ -10286,8 +10332,6 @@ end)()
 			20136
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[1005] = {
 		ship_group = 0,
 		icon = "title_event",

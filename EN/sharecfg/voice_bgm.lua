@@ -3298,4 +3298,19 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-10"
 	}
+	pg.base.voice_bgm.ShadowCityFramePage = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
+	}
+	pg.base.voice_bgm.ShadowCityOmenPage = {
+		default_bgm = "story-richang-11",
+		special_bgm = "",
+		bgm = "story-richang-11"
+	}
+	pg.base.voice_bgm.ShiningMagicSignPage = {
+		default_bgm = "story-fantasyland-light",
+		special_bgm = "",
+		bgm = "story-fantasyland-light"
+	}
 end)()

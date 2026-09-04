@@ -890,7 +890,7 @@ pg.base.activity_ins_ship_group_template = {}
 		name = "OutrangeTH",
 		background = "",
 		sculpture = "dafeng",
-		nationality = 0,
+		nationality = 3,
 		type = 1,
 		sculpture_ii = ""
 	}

@@ -5997,7 +5997,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>6/5/2026 to 9/4/2026</color>, challenge Bristol META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Bristol META</color> as well as other great rewards.
+From <color=#92fc63>9/4/2026 to 12/10/2026</color>, challenge Saratoga META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Saratoga META</color> as well as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
 - Acquiring and Analyzing META Coordinates -
@@ -21984,7 +21984,7 @@ _G.pg.base.gametip.meta_help = {
 			info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship's tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you'll be able to recruit a META ship.\n\n"
 		},
 		{
-			info = "From <color=#92fc63>6/5/2026 to 9/4/2026</color>, challenge Bristol META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Bristol META</color> as well as other great rewards.\n\n"
+			info = "From <color=#92fc63>9/4/2026 to 12/10/2026</color>, challenge Saratoga META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Saratoga META</color> as well as other great rewards.\n\n"
 		},
 		{
 			info = "2. About Rigging Fortification:"
@@ -51455,4 +51455,24 @@ The Operational Handover feature allows you to automatically complete stages tha
 6. Handover Permits may also be used to <color=#92fc63>add more Handover time</color> to your daily limit. Each permit can be exchanged for <color=#92fc63>1 hour</color> of additional time.]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_1 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_2 = {
+	tip = "Job-Hunting Operation!"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
+	tip = "Éclat Magique"
+}
+
+
+_G.pg.base.gametip.shiningmagicsignpage_sign_remain = {
+	tip = "Remaining:"
 }

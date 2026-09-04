@@ -67,6 +67,7 @@ pg.item_data_frame.all = {
 	337,
 	341,
 	342,
+	343,
 	406,
 	411,
 	412,
@@ -688,6 +689,15 @@ pg.base.item_data_frame = {}
 		desc = "\"Welcome to Astrarium. What dream would you like to see made a reality?\"\n<color=#A7A7AA>Obtained from the Depths of the Astrarium</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[343] = {
+		name = "Budding Sprout's Crown",
+		gain_by = "",
+		time_second = 0,
+		id = 343,
+		time_limit_type = 0,
+		desc = "Obtained in a future event.",
+		scene = {}
+	}
 	pg.base.item_data_frame[406] = {
 		name = "Hall of Fame: Laffey ",
 		gain_by = "",
@@ -1012,6 +1022,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>Green currents of electricity pulse, with cat ears and bulbs flashing in unison.</color>\nCan be obtained by raising Admiral Nakhimov's Intimacy in the Private Quarters.",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1014] = {
 		name = "Cybernetic Greeting",
 		gain_by = "",
@@ -1021,8 +1033,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>Paw prints and cat tail have appeared in the data stream! It's a hyperspace kitty's greeting.</color>\nCan be obtained by raising Admiral Nakhimov's Intimacy in the Private Quarters.",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10001] = {
 		name = "Extreme Challenge - Gemini",
 		gain_by = "",

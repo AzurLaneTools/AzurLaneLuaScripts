@@ -391,6 +391,7 @@ pg.skill_data_template.all = {
 	61120,
 	61130,
 	61140,
+	61150,
 	7000,
 	9010,
 	9020,
@@ -2948,6 +2949,13 @@ pg.skill_data_template.all = {
 	802302,
 	802305,
 	802307,
+	802370,
+	802380,
+	802390,
+	802401,
+	802402,
+	802405,
+	802407,
 	901010,
 	901020,
 	902010,
@@ -3039,6 +3047,7 @@ pg.skill_data_template.all = {
 	1011370,
 	1010750,
 	1012940,
+	1012950,
 	1005070,
 	1005080,
 	1013000,
@@ -3111,6 +3120,9 @@ pg.skill_data_template.all = {
 	1018300,
 	1013450,
 	1014050,
+	1014200,
+	1013070,
+	1019170,
 	1090010,
 	1090020,
 	1090030,
@@ -3157,7 +3169,8 @@ pg.skill_data_template.all = {
 	1090470,
 	1090480,
 	1090500,
-	1090490
+	1090490,
+	1090510
 }
 pg.base = pg.base or {}
 pg.base.skill_data_template = {}
@@ -13912,6 +13925,20 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61150] = {
+		desc_get = "",
+		name = "Staff Pass",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by a Royal Navy ship: increases her SPD by 3. When equipped by Javelin: additionally, increases her DMG by 5.0% for the first 60s of battle.",
+		id = 61150,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -14311,6 +14338,8 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[9081] = {
 		desc_get = "",
 		name = "Flagship Cover",
@@ -14372,8 +14401,6 @@ When equipped by Yumia Liessfeldt: adds a special Anti-Air Gun and, 25s after th
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[9090] = {
 		desc_get = "",
 		name = "Legend of the Solomons",
@@ -21498,6 +21525,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10920] = {
 		desc_get = "When this ship fires a Salvo: 30.0% (60.0% when fully upgraded) chance to increase the DMG of all BCs and BBs in your fleet by 5.0% (20.0% when fully upgraded) for 8s.",
 		name = "T-Cross Formation",
@@ -21604,8 +21633,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10930] = {
 		desc_get = "",
 		name = "Prestige",
@@ -29867,6 +29894,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11910] = {
 		desc_get = "",
 		name = "Patriotic Spirit",
@@ -29928,8 +29957,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11920] = {
 		desc_get = "",
 		name = "Knights of the Sky",
@@ -39338,6 +39365,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[12980] = {
 		desc_get = "",
 		name = "The Blue Cruiser",
@@ -39489,8 +39518,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[12990] = {
 		desc_get = "",
 		name = "Trajectory Marking",
@@ -48979,6 +49006,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13980] = {
 		desc_get = "",
 		name = "No Strange Ideas, Please!",
@@ -49130,8 +49159,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13990] = {
 		desc_get = "",
 		name = "Boon of Crimson Darkness",
@@ -60303,6 +60330,8 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14985] = {
 		desc_get = "",
 		name = "Future Content ",
@@ -60411,8 +60440,6 @@ Increases this ship's EVA and AA by $1. Activates one of the following effects b
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14990] = {
 		desc_get = "",
 		name = "Scorching Combo",
@@ -72204,6 +72231,8 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15990] = {
 		desc_get = "",
 		name = "This Time... I'm Prepared",
@@ -72310,8 +72339,6 @@ Once per battle, when a ship in your Vanguard (other than this ship) falls below
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16000] = {
 		desc_get = "",
 		name = "Swallow's Sword-Dance",
@@ -83767,6 +83794,8 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17000] = {
 		desc_get = "",
 		name = "Holy Iris's Wishes",
@@ -83873,8 +83902,6 @@ When this ship launches an airstrike: launches an additional $1 special airstrik
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17010] = {
 		desc_get = "",
 		name = "Absolving Light",
@@ -95024,6 +95051,8 @@ When this ship hits an enemy with her Secondary Guns, or when an Iris Libre or V
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150060] = {
 		desc_get = "",
 		name = "The Most Elegant Curtain Call!",
@@ -95130,8 +95159,6 @@ When this ship hits an enemy with her Secondary Guns, or when an Iris Libre or V
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150070] = {
 		desc_get = "",
 		name = "It's Pretty Heavy... Isn't It?",
@@ -106430,6 +106457,8 @@ If any enemies are affected by Jet-Black Paint, the Crit Rate of this special ba
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151050] = {
 		desc_get = "",
 		name = "Exploring a New World",
@@ -106536,8 +106565,6 @@ If any enemies are affected by Jet-Black Paint, the Crit Rate of this special ba
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151060] = {
 		desc_get = "",
 		name = "BIG BEN",
@@ -118334,6 +118361,8 @@ During battle, when this ship has taken DMG totaling to 25.0% of her max HP, or 
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152020] = {
 		desc_get = "",
 		name = "Pain, Pain, Fly Away",
@@ -118395,8 +118424,6 @@ During battle, when this ship has taken DMG totaling to 25.0% of her max HP, or 
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152030] = {
 		desc_get = "",
 		name = "Towards Glory and Death",
@@ -129885,6 +129912,8 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19001] = {
 		desc_get = "",
 		name = "Siren Killer Ⅱ",
@@ -129899,8 +129928,6 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19002] = {
 		desc_get = "",
 		name = "Siren Killer Ⅲ",
@@ -140264,6 +140291,8 @@ When this ship fires her Main Guns: fires a $1 special barrage II (DMG is based 
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19976] = {
 		desc_get = "",
 		name = "金狮-基地航空属性-ID占位",
@@ -140278,8 +140307,6 @@ When this ship fires her Main Guns: fires a $1 special barrage II (DMG is based 
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19980] = {
 		desc_get = "",
 		name = "Chargeburst",
@@ -142436,6 +142463,8 @@ Once per battle, this ship gains the following effects upon falling below 40.0% 
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[21231] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -142450,8 +142479,6 @@ Once per battle, this ship gains the following effects upon falling below 40.0% 
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[21232] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -143838,6 +143865,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[24062] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -143852,8 +143881,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[24111] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -145240,6 +145267,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29122] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
@@ -145254,8 +145283,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29123] = {
 		desc_get = "",
 		name = "All Out Assault III",
@@ -146650,6 +146677,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29632] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
@@ -146664,8 +146693,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29641] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -148052,6 +148079,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30162] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -148066,8 +148095,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30171] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -149462,6 +149489,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30662] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -149476,8 +149505,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30701] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -157872,6 +157899,8 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106560] = {
 		desc_get = "",
 		name = "Chili Crab",
@@ -157886,8 +157915,6 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106570] = {
 		desc_get = "",
 		name = "Impactful Composition",
@@ -166165,6 +166192,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[110070] = {
 		desc_get = "",
 		name = "Blaze of Sacrifice",
@@ -166228,8 +166257,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[110080] = {
 		desc_get = "",
 		name = "Flaming Crimson",
@@ -175223,6 +175250,8 @@ When the battle ends, for each Clone on the battlefield, Kurumi Tokisaki gains 5
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[115200] = {
 		desc_get = "",
 		name = "Astral Dress - El",
@@ -175410,8 +175439,6 @@ When the battle ends, for each Clone on the battlefield, Kurumi Tokisaki gains 5
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[115210] = {
 		desc_get = "",
 		name = "Astral Dress - El+",
@@ -181237,6 +181264,8 @@ At the start of battle, this ship gains the following effects if equipping any p
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800420] = {
 		desc_get = "",
 		name = "Decelerative Fire",
@@ -181298,8 +181327,6 @@ At the start of battle, this ship gains the following effects if equipping any p
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800430] = {
 		desc_get = "",
 		name = "Target Recognition",
@@ -186481,6 +186508,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800970] = {
 		desc_get = "",
 		name = "Into Thin Air",
@@ -186623,8 +186652,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800981] = {
 		desc_get = "",
 		name = "Ashen Might - Princeton I",
@@ -191822,6 +191849,8 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801522] = {
 		desc_get = "",
 		name = "Flickering Light - Taihou II",
@@ -191838,8 +191867,6 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801525] = {
 		desc_get = "",
 		name = "Flickering Light - Taihou I",
@@ -197295,6 +197322,8 @@ Additionally, once per battle each, the following effects activate based on the 
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802077] = {
 		desc_get = "",
 		name = "Cinders of Hope - Carabiniere II",
@@ -197311,8 +197340,6 @@ Additionally, once per battle each, the following effects activate based on the 
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802080] = {
 		desc_get = "",
 		name = "She Who Salutes War",
@@ -199560,6 +199587,379 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[802370] = {
+		desc_get = "",
+		name = "Shining Idol's★Brilliant Debut",
+		type = 1,
+		max_level = 10,
+		desc = "5s after the start of battle, and every 10s afterwards: fires a $1 special barrage (DMG is based on the skill's level). When this ship readies an airstrike: launches a $1 aerial barrage (DMG is based on the skill's level and this ship's AVI stat), and increases this ship's DMG dealt by $2 for 8s.",
+		id = 802370,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802380] = {
+		desc_get = "",
+		name = "Be Dazzled! Perfect★Performance!",
+		type = 3,
+		max_level = 10,
+		desc = "At the start of battle: increases this ship's AVI by $1. Each time this ship launches an airstrike, the following effects are applied alternately, starting with the first effect:\n1) Increases the Vanguard fleet's DMG dealt by $2 for 8s;\n2) Decreases the Vanguard fleet's DMG taken by $2 for 8s.",
+		id = 802380,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802390] = {
+		desc_get = "",
+		name = "Light It Up! Colorful★Stage!",
+		type = 2,
+		max_level = 10,
+		desc = "At the start of battle, if there are 3 ships afloat in your Main Fleet: increases this ship's maximum Detection Gauge by 20. During battle, if this ship's HP is above 50.0%: increases this ship's ACC by $1; if this ship's HP is below 50.0%: increases this ship's EVA by $2. Once per battle, if this ship falls below 50.0% max HP as a result of DMG taken: this ship's Detection Gauge is reset to 0, and she restores 1.0% of her Max HP every 5s until the end of battle.",
+		id = 802390,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802401] = {
+		desc_get = "",
+		name = "Ashen Might - Saratoga I",
+		type = 4,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 5.0%.",
+		id = 802401,
+		system_transform = {
+			[51.0] = 802405
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802402] = {
+		desc_get = "",
+		name = "Ashen Might - Saratoga II",
+		type = 4,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+		id = 802402,
+		system_transform = {
+			[51.0] = 802407
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802405] = {
+		desc_get = "",
+		name = "Ashen Might - Saratoga I",
+		type = 4,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 5.0%.",
+		id = 802405,
+		system_transform = {
+			[51.0] = 802405
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802407] = {
+		desc_get = "",
+		name = "Ashen Might - Saratoga II",
+		type = 4,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+		id = 802407,
+		system_transform = {
+			[51.0] = 802407
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[901010] = {
 		desc_get = "",
 		name = "Slash Attack - Spread",
@@ -200993,6 +201393,8 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1010690] = {
 		desc_get = "",
 		name = "Iron Blood Hawk+",
@@ -201937,8 +202339,6 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1011700] = {
 		desc_get = "",
 		name = "Bold But Reckless+",
@@ -206032,6 +206432,103 @@ end)()
 				},
 				{
 					"20.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1012950] = {
+		desc_get = "",
+		name = "The Fighting G+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by 5.0%. During battle, every time an allied surface ship destroys an enemy: increases this ship's FP, ACC, and DMG dealt by $1 (stacks up to 5 times per battle); when this effect reaches 5 stacks: fires a $2 special barrage (DMG is based on the skill's level). 3s after the start of battle and every 20s: fires a $2 special barrage (DMG is based on the skill's level).",
+		id = 1012950,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"3.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}
@@ -214340,6 +214837,8 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1013470] = {
 		desc_get = "",
 		name = "Supporting Role+",
@@ -215658,8 +216157,6 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1014170] = {
 		desc_get = "",
 		name = "Kirov, Reporting!+",
@@ -216733,6 +217230,396 @@ end)()
 				},
 				{
 					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1014200] = {
+		desc_get = "",
+		name = "Memorial of Ice and Iron+",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship is equipped with a Northern Parliament or Iron Blood main gun: increases this ship's DMG dealt, Crit Rate, and Crit DMG by $1. When this ship is equipped with an AP main gun: increases the main gun's shell velocity by 15.0%, and increases this ship's ACC by $2. Each time this ship destroys an enemy: increases this ship's FP and AA by $3 until the end of battle (stacks up to 3 times).",
+		id = 1014200,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1013070] = {
+		desc_get = "",
+		name = "Soaring Silver Wings+",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship readies an airstrike: launches a special $1 aerial barrage with SB2C Helldivers (DMG is based on the skill's level); bombs and rockets from this barrage inflict Armor Break when hitting enemy BBs, BCs, and BBVs (this effect does not stack; only the highest value is applied). Every 20s during battle: fires a $1 special barrage (DMG is based on the skill's level). Once per battle, when this ship falls below 30.0% HP as a result of DMG taken: restores $2 of this ship's Max HP.",
+		id = 1013070,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1019170] = {
+		desc_get = "",
+		name = "Kitakaze Style - Horizon Splitter+",
+		type = 3,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's FP and ACC by $2, and generates a barrier for 30s that can absorb up to $3 of this ship's max HP. Every 10s during battle: fires a $1 special barrage (DMG is based on the skill's level). This ship's Main Gun now ignores the enemy's armor type, and its DMG is further increased based on the skill's level ($1). When this ship is equipped with a Sakura Empire main gun: increases Main Gun efficiency by $2.",
+		id = 1019170,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
 				}
 			}
 		}
@@ -223020,6 +223907,105 @@ end)()
 				},
 				{
 					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1090510] = {
+		desc_get = "",
+		name = "Wolf Pack Tactics - U-73",
+		type = 1,
+		max_level = 10,
+		desc = "For each Iron Blood SS in the fleet: increases this boat's TRP, RLD, and ACC by $1. When this boat's OXY reaches 0 and she resurfaces: fires a $2 special barrage (DMG is based on the skill's level), inflicting a special Flooding debuff that deals DMG over time for 15s (Flooding DMG is based on this ship's TRP stat).",
+		id = 1090510,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"6.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
 				}
 			},
 			{

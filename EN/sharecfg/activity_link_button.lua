@@ -533,7 +533,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[115] = {
-		param = "AnniversaryNineCoreActivityUI",
+		param = "ShadowCityCoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_core2",
 		type = 16,
@@ -543,11 +543,11 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			50630
+			51126
 		}
 	}
 	pg.base.activity_link_button[116] = {
-		param = "HolidayCoreActivityUI",
+		param = "ShiningMagicCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core3",
 		type = 16,
@@ -557,7 +557,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51001
+			51129
 		}
 	}
 	pg.base.activity_link_button[121] = {

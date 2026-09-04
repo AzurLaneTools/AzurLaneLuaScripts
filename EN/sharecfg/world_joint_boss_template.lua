@@ -25,7 +25,8 @@ pg.world_joint_boss_template.all = {
 	20,
 	21,
 	22,
-	23
+	23,
+	24
 }
 pg.base = pg.base or {}
 pg.base.world_joint_boss_template = {}
@@ -609,6 +610,7 @@ pg.base.world_joint_boss_template = {}
 	pg.base.world_joint_boss_template[18] = {
 		name = "Hornet META",
 		boss_level_id = 256,
+		state = "always",
 		item_id = 100000,
 		painting = "dahuangfeng",
 		meta_id = 970706,
@@ -623,32 +625,6 @@ pg.base.world_joint_boss_template = {}
 				"Operation Ghost",
 				1,
 				"Every 18s: grants this ship Optical Camouflage (can be stacked up to 3 times). Each stack of Optical Camouflage <color=#92fc63>increases Evasion Rate by 6%</color>.\nWhen this ship has 3 stacks of Optical Camouflage: launches an Electromagnetic Pulse that <color=#92fc63>inflicts Blind on all your ships</color> for 5s, rendering them unable to fire their Main Guns or launch airstrikes."
-			}
-		},
-		state = {
-			{
-				{
-					2025,
-					3,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -960,6 +936,68 @@ pg.base.world_joint_boss_template = {}
 		p_offset_other = {
 			261,
 			495,
+			0.7,
+			0.7
+		}
+	}
+	pg.base.world_joint_boss_template[24] = {
+		name = "Saratoga META",
+		boss_level_id = 346,
+		item_id = 100000,
+		painting = "salatuojia",
+		meta_id = 970710,
+		id = 24,
+		description = {
+			{
+				"Punishment★From Above",
+				3,
+				[[
+During battle, orbital support weapons will appear:
+1) Large-scale long-range artillery bombardment;
+2) Large-scale fighter support;
+3) Target lock-on (<color=#92fc63>increases your Vanguard fleet's DMG taken by 100.0%</color> for 8s; 15s cooldown between activations).]]
+			},
+			{
+				"Change★Battle Music",
+				1,
+				"Every 25s, Saratoga META's Armor type <color=#92fc63>switches between Medium and Heavy</color> (starts with Medium armor; armor type can be seen in the top right-hand corner). Saratoga META will launch an airstrike each time she switches her Armor type."
+			}
+		},
+		state = {
+			{
+				{
+					2026,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-392,
+			483,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			261,
+			523,
 			0.7,
 			0.7
 		}

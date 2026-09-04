@@ -1176,7 +1176,8 @@ pg.drop_data_restore.all = {
 	20077,
 	20078,
 	20079,
-	20080
+	20080,
+	20081
 }
 pg.base = pg.base or {}
 pg.base.drop_data_restore = {}
@@ -11769,5 +11770,14 @@ end)()
 		resource_num = 1180,
 		drop_id = "998567",
 		target_id = 405013
+	}
+	pg.base.drop_data_restore[20081] = {
+		target_type = 5,
+		resource_type = 6,
+		type = 1,
+		id = 20081,
+		resource_num = 80,
+		drop_id = "998579",
+		target_id = 346
 	}
 end)()

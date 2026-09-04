@@ -444,7 +444,11 @@ pg.ship_skin_words_extra.all = {
 	101560,
 	101570,
 	101580,
-	202120
+	202120,
+	107030,
+	802010,
+	501030,
+	501040
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_words_extra = {}
@@ -31123,6 +31127,273 @@ end)()
 			{
 				1100,
 				"To me, staying by your side is not just a duty, but my greatest source of happiness. As such, Master... Please allow me to stay by you for the rest of my days."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[107030] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 107030,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Pow! Today's big entrance comes with a confetti cannon! Heheh, how's that for new and exciting?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Sara and the Commander save the day again!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Mwah! Good work today, Commander~"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hehe. Do you like how my hair feels?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I'm not feeling too great today... Can we go out for a walk together?|Heheheh, am I brilliant, or what? ...Pssh, no, I didn't say anything~|Big bro♪ ...Big brooo♪ ...Big bro!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"What kind of pranks should I play tomorrow? Commander, help me think!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"In your office, of all places... Do you like the thrill of this, Commander?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Decision time! You get three choices: dinner with Sara, bath with Sara, ooor..."
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[802010] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 802010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Guess who? That's right, it's your one and only, Émile Bertin~ Welcome back, mon amour~"
+			}
+		},
+		home = {
+			{
+				1100,
+				"You're back~ Shall we dance to stretch our limbs a little? We can have hot tea by the sofa later, but such passion must be savored in the moment~"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heehee, I'll meet your praise with a dance that's even more passionate~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"When my eyes meet yours, my steps grow ever lighter~ This is a type of romantique only you and I share, oui?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, have you noticed that whenever I twirl, I always end up stopping in front of you? That's no coincidence, heehee~|Hum hum~♪ This song is my favorite. It reminds me of sunshine, sea breeze and lazy but fulfilling afternoons spent with you~ Would you like to sing it too? I can teach you~|Whenever I dance for you, I can't help but want to improvise some moves... Is this what they mean when they say one's heart is aflutter?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Take my hand, Commander~ And a one, two, one, two... My, we're in perfect sync♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Goodness, isn't my partner being extra eager today? But I like it when you're passionate.. Heheh♪"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"My love for you is like a waltz that never ends. We go round and round, becoming more deeply enchanted... Commander, will you dance with me always, and make every day of our lives into a poem most romantique?"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[501030] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 501030,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Good morning! Heheh, can't start a brand new day without coming to see my Commander~"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, can you take me with you next time you go out? I promise I'll make myself useful. Pretty please♪"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"I just get headpats? No hugs? No, not later~ I want them now~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Now, what might we find in my sleeve... Tada! Goji berries! I'll sneak these into the Commander's kettle! They'll warm you up real nice.|I have a mascot character costume that'd fit you just right, Commander. Wanna try it on? Hmm? \"Two tigers can't live in the same mountain\"?That's kind of a weak excuse, don’t you think? |What's the ruckus outside? Ahaha, looks like An Shan is chasing Fu Shun again. Commander, I'll go take a look. Be right back!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You wanna tickle me with this thick coat on? Want me to take it off to see if it works better?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander... You're the person I love the most in the whole wide world~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Here, I'll give you this shawl so we match! Heheh, it's warm and comfy, isn't it? But that's not all it is. It also makes us a true team! Rawr♪"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[501040] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 501040,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Commander... You like to read books about military strategy and command, right? I actually like that kind of literature too, so feel free to ask me any questions you might have about them."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander. I've sorted all the documents pending for your review. Hm? I'm reliable, you say? Oh, you're such a flatterer, heheh."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Commander, I've been reading a really good book recently. Would you like to hear about it, whenever chance allows?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I-I don't want to just follow in my sister's footsteps. I want to fight with them and protect everyone! I want to protect you, Commander!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"An Shan told me I need to be more assertive, but the only reason I'm able to be brave is because I know you're always there to back me up, Commander!|The book I'm reading is about a couple who grew up together, and sometimes I can't help seeing us in them.|Oh, Fu Shun... She really needs to stop dragging Fu Po into her outings all the time. Does she even realize how worried I am when she goes on those weird adventures of hers?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander, the seam of your coat is fraying a little. Let me fix it for you~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Oh dear! Commander... I know you like me, but you can't just keep poking me like that..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I'm not afraid anymore, and I'm done overthinking things... I'm ready to be with you now! So... c-could we go home together?"
 			}
 		}
 	}

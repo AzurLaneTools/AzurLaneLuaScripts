@@ -4232,6 +4232,20 @@ pg.memory_template.all = {
 	5413,
 	5414,
 	5415,
+	5421,
+	5422,
+	5423,
+	5424,
+	5425,
+	5426,
+	5427,
+	5431,
+	5432,
+	5433,
+	5434,
+	5435,
+	5436,
+	5437,
 	10011,
 	10012,
 	10013,
@@ -80702,6 +80716,258 @@ end)()
 			"DARENWUDEYUGAOXIN5"
 		}
 	}
+	pg.base.memory_template[5421] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Fragrance in the Courtyard",
+		condition = "Begin \"Her Scent Lingers\" Chapter 1",
+		story = "BAIFENG1",
+		mask = "bg/bg_memory",
+		task = 500281,
+		year = 0,
+		id = 5421,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG1"
+		}
+	}
+	pg.base.memory_template[5422] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Promise Just for Two",
+		condition = "Begin \"Her Scent Lingers\" Chapter 2",
+		story = "BAIFENG2",
+		mask = "bg/bg_memory",
+		task = 500282,
+		year = 0,
+		id = 5422,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG2"
+		}
+	}
+	pg.base.memory_template[5423] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Testing Fragrances",
+		condition = "Begin \"Her Scent Lingers\" Chapter 3",
+		story = "BAIFENG3",
+		mask = "bg/bg_memory",
+		task = 500283,
+		year = 0,
+		id = 5423,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG3"
+		}
+	}
+	pg.base.memory_template[5424] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Scents Shared",
+		condition = "Begin \"Her Scent Lingers\" Chapter 4",
+		story = "BAIFENG4",
+		mask = "bg/bg_memory",
+		task = 500284,
+		year = 0,
+		id = 5424,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG4"
+		}
+	}
+	pg.base.memory_template[5425] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Fragrance of Three Scenes",
+		condition = "Begin \"Her Scent Lingers\" Chapter 5",
+		story = "BAIFENG5",
+		mask = "bg/bg_memory",
+		task = 500285,
+		year = 0,
+		id = 5425,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG5"
+		}
+	}
+	pg.base.memory_template[5426] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Between Dream and Fantasy",
+		condition = "Begin \"Her Scent Lingers\" Chapter 6",
+		story = "BAIFENG6",
+		mask = "bg/bg_memory",
+		task = 500286,
+		year = 0,
+		id = 5426,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG6"
+		}
+	}
+	pg.base.memory_template[5427] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Eternity in an Instant",
+		condition = "Begin \"Her Scent Lingers\" Chapter 7",
+		story = "BAIFENG7",
+		mask = "bg/bg_memory",
+		task = 500287,
+		year = 0,
+		id = 5427,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG7"
+		}
+	}
+	pg.base.memory_template[5431] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Off to New Era City!",
+		condition = "Unlock \"Fight On! The Ultimate Job-Hunting Operation!\" Day 1",
+		story = "DUSHIQIUZHIDAZUOZHAN1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5431,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN1"
+		}
+	}
+	pg.base.memory_template[5432] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Find Yourself a Home, Javelin! Fight On!",
+		condition = "Unlock \"Fight On! The Ultimate Job-Hunting Operation!\" Day 1",
+		story = "DUSHIQIUZHIDAZUOZHAN2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5432,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN2"
+		}
+	}
+	pg.base.memory_template[5433] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Ace That Interview, Javelin! Fight On!",
+		condition = "Unlock \"Fight On! The Ultimate Job-Hunting Operation!\" Day 2",
+		story = "DUSHIQIUZHIDAZUOZHAN3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5433,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN3"
+		}
+	}
+	pg.base.memory_template[5434] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Javelin Got the Job?! Fight On!",
+		condition = "Unlock \"Fight On! The Ultimate Job-Hunting Operation!\" Day 3",
+		story = "DUSHIQIUZHIDAZUOZHAN4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5434,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN4"
+		}
+	}
+	pg.base.memory_template[5435] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Are You Happy, Javelin? Fight On!",
+		condition = "Unlock \"Fight On! The Ultimate Job-Hunting Operation!\" Day 4",
+		story = "DUSHIQIUZHIDAZUOZHAN5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5435,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN5"
+		}
+	}
+	pg.base.memory_template[5436] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Danger Approaches, Javelin! Fight On!",
+		condition = "Unlock \"Fight On! The Ultimate Job-Hunting Operation!\" Day 5",
+		story = "DUSHIQIUZHIDAZUOZHAN6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5436,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN6"
+		}
+	}
+	pg.base.memory_template[5437] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Javelin's Last Stand! Fight On!",
+		condition = "Unlock \"Fight On! The Ultimate Job-Hunting Operation!\" Day 5",
+		story = "DUSHIQIUZHIDAZUOZHAN7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5437,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN7"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81746,6 +82012,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20001] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81998,8 +82266,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA15"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20015] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83548,6 +83814,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA20"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20101] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83800,8 +84068,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA34"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20115] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85350,6 +85616,8 @@ end)()
 			"TANSUOZHEXINZHIXUYU6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20203] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85602,8 +85870,6 @@ end)()
 			"TANSUOZHELAIFANGJISHI11"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20217] = {
 		ship_group = 0,
 		subtitle = "",

@@ -4,25 +4,6 @@ slot0.word_legal_template_16 = {}
 slot1 = slot0.word_legal_template_16
 
 temp = function()
-	uv0["时"] = {
-		["乃"] = {
-			["空"] = {
-				this = true
-			}
-		},
-		["崎"] = {
-			["狂"] = {
-				["三"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["湊"] = {
 		["阿"] = {
 			["库"] = {

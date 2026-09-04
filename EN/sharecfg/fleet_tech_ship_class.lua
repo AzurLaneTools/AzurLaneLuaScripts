@@ -398,6 +398,7 @@ pg.fleet_tech_ship_class.all = {
 	970706,
 	970707,
 	970708,
+	970710,
 	970801,
 	971201,
 	971301
@@ -5109,6 +5110,17 @@ end)()
 		nation = 97,
 		ships = {
 			970708
+		}
+	}
+	pg.base.fleet_tech_ship_class[970710] = {
+		shiptype = 7,
+		name = "Saratoga META",
+		t_level = 1,
+		id = 970710,
+		t_level_1 = 1,
+		nation = 97,
+		ships = {
+			970710
 		}
 	}
 	pg.base.fleet_tech_ship_class[970801] = {

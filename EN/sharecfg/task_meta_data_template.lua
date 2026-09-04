@@ -384,6 +384,11 @@ pg.task_meta_data_template.all = {
 	100583,
 	100584,
 	100585,
+	100591,
+	100592,
+	100593,
+	100594,
+	100595,
 	200001,
 	200002,
 	200003,
@@ -579,7 +584,11 @@ pg.task_meta_data_template.all = {
 	200491,
 	200492,
 	200493,
-	200494
+	200494,
+	200501,
+	200502,
+	200503,
+	200504
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3631,6 +3640,46 @@ end)()
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ enemy fleet with Nürnberg META in the fleet."
 	}
+	pg.base.task_meta_data_template[100591] = {
+		target_id = "",
+		sub_type = 180,
+		target_id_2 = "970710",
+		id = 100591,
+		target_num = 1,
+		desc = "Win 1 battle with Saratoga META in your fleet."
+	}
+	pg.base.task_meta_data_template[100592] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970710",
+		id = 100592,
+		target_num = 1,
+		desc = "Defeat a Lv. 30+ fleet with Saratoga META in your fleet."
+	}
+	pg.base.task_meta_data_template[100593] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970710",
+		id = 100593,
+		target_num = 1,
+		desc = "Defeat a Lv. 55+ fleet with Saratoga META in your fleet."
+	}
+	pg.base.task_meta_data_template[100594] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970710",
+		id = 100594,
+		target_num = 1,
+		desc = "Defeat a Lv. 80+ fleet with Saratoga META in your fleet."
+	}
+	pg.base.task_meta_data_template[100595] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970710",
+		id = 100595,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet with Saratoga META in your fleet."
+	}
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3751,6 +3800,8 @@ end)()
 		target_num = 1,
 		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Sheffield META in your fleet."
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200044] = {
 		target_id = "100",
 		sub_type = 302,
@@ -3791,8 +3842,6 @@ end)()
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Queen Elizabeth META in your fleet."
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200061] = {
 		target_id = "0",
 		sub_type = 302,
@@ -4553,6 +4602,8 @@ end)()
 		target_num = 1,
 		desc = "Defeat a lv. 90+ fleet in Operation Siren with Bolzano META in your fleet."
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200294] = {
 		target_id = "100",
 		sub_type = 302,
@@ -4593,8 +4644,6 @@ end)()
 		target_num = 1,
 		desc = "Defeat a lv. 100+ fleet in Operation Siren with Andrea Doria META in your fleet."
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200311] = {
 		target_id = "0",
 		sub_type = 302,
@@ -5202,5 +5251,37 @@ end)()
 		id = 200494,
 		target_num = 1,
 		desc = "Sortie in Operation Siren and defeat a Lv. 100+ enemy fleet with Nürnberg META in the fleet."
+	}
+	pg.base.task_meta_data_template[200501] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970710",
+		id = 200501,
+		target_num = 1,
+		desc = "Win 1 Operation Siren battle with Saratoga META in your fleet."
+	}
+	pg.base.task_meta_data_template[200502] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970710",
+		id = 200502,
+		target_num = 1,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Saratoga META in your fleet."
+	}
+	pg.base.task_meta_data_template[200503] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970710",
+		id = 200503,
+		target_num = 1,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Saratoga META in your fleet."
+	}
+	pg.base.task_meta_data_template[200504] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970710",
+		id = 200504,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Saratoga META in your fleet."
 	}
 end)()

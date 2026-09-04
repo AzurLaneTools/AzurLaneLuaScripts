@@ -3620,6 +3620,10 @@ pg.skill_data_display.all = {
 	802172,
 	802175,
 	802177,
+	802371,
+	802372,
+	802382,
+	802391,
 	802221,
 	802222,
 	802223,
@@ -3896,6 +3900,8 @@ pg.skill_data_display.all = {
 	201878,
 	201879,
 	201883,
+	201895,
+	201898,
 	1011540,
 	1011541,
 	1090010,
@@ -3963,6 +3969,8 @@ pg.skill_data_display.all = {
 	1005082,
 	1005083,
 	1012940,
+	1012951,
+	1012953,
 	1013000,
 	1013001,
 	1010980,
@@ -4082,6 +4090,14 @@ pg.skill_data_display.all = {
 	1012471,
 	1010800,
 	1010801,
+	1014200,
+	1014201,
+	1014202,
+	1014203,
+	1013071,
+	1013072,
+	1019170,
+	1019171,
 	1090020,
 	1090042,
 	1090043,
@@ -4173,7 +4189,8 @@ pg.skill_data_display.all = {
 	1090492,
 	1090493,
 	1090494,
-	1090495
+	1090495,
+	1090511
 }
 pg.base = pg.base or {}
 pg.base.skill_data_display = {}
@@ -18715,6 +18732,22 @@ end)()
 		id = 802177,
 		name = "Cinders of Hope - Köln II"
 	}
+	pg.base.skill_data_display[802371] = {
+		id = 802371,
+		name = "Shining Idol's★Brilliant Debut"
+	}
+	pg.base.skill_data_display[802372] = {
+		id = 802372,
+		name = "Shining Idol's★Brilliant Debut"
+	}
+	pg.base.skill_data_display[802382] = {
+		id = 802382,
+		name = "Be Dazzled! Perfect★Performance!"
+	}
+	pg.base.skill_data_display[802391] = {
+		id = 802391,
+		name = "Light It Up! Colorful★Stage!"
+	}
 	pg.base.skill_data_display[802221] = {
 		id = 802221,
 		name = "This One's for Good Measure!"
@@ -19035,6 +19068,8 @@ end)()
 		id = 200348,
 		name = "Words of Power"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200349] = {
 		id = 200349,
 		name = "Higher Will"
@@ -19051,8 +19086,6 @@ end)()
 		id = 200353,
 		name = "~Incarnation Of Conquest~"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200354] = {
 		id = 200354,
 		name = "~Incarnation Of Slaughter~"
@@ -19437,6 +19470,8 @@ end)()
 		id = 201025,
 		name = "Musashi's Thunder"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201028] = {
 		id = 201028,
 		name = "Mikasa's Resolve"
@@ -19453,8 +19488,6 @@ end)()
 		id = 201092,
 		name = "World Segment"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201093] = {
 		id = 201093,
 		name = "World Segment"
@@ -19823,6 +19856,14 @@ end)()
 		id = 201883,
 		name = "Rain Upon Flowery Seas"
 	}
+	pg.base.skill_data_display[201895] = {
+		id = 201895,
+		name = "Punishment★From Above"
+	}
+	pg.base.skill_data_display[201898] = {
+		id = 201898,
+		name = "Change★Battle Music"
+	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
 		name = "Final Shot+"
@@ -19831,6 +19872,8 @@ end)()
 		id = 1011541,
 		name = "Final Shot+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090010] = {
 		id = 1090010,
 		name = "Fleet Carrier - Glorious"
@@ -19855,8 +19898,6 @@ end)()
 		id = 1011622,
 		name = "Predestined Launch+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011623] = {
 		id = 1011623,
 		name = "Predestined Launch+"
@@ -20093,6 +20134,14 @@ end)()
 		id = 1012940,
 		name = "For The Queen +"
 	}
+	pg.base.skill_data_display[1012951] = {
+		id = 1012951,
+		name = "The Fighting G +"
+	}
+	pg.base.skill_data_display[1012953] = {
+		id = 1012953,
+		name = "The Fighting G +"
+	}
 	pg.base.skill_data_display[1013000] = {
 		id = 1013000,
 		name = "Cavalier of the Ether+"
@@ -20225,6 +20274,8 @@ end)()
 		id = 1019111,
 		name = "Augmented HE Ammo+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1019112] = {
 		id = 1019112,
 		name = "Augmented HE Ammo+"
@@ -20257,8 +20308,6 @@ end)()
 		id = 1013020,
 		name = "Lod Obstrel+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1013021] = {
 		id = 1013021,
 		name = "Lod Obstrel+"
@@ -20571,6 +20620,38 @@ end)()
 		id = 1010801,
 		name = "Fifth Carrier Division+"
 	}
+	pg.base.skill_data_display[1014200] = {
+		id = 1014200,
+		name = "Memorial of Ice and Iron+"
+	}
+	pg.base.skill_data_display[1014201] = {
+		id = 1014201,
+		name = "Memorial of Ice and Iron+"
+	}
+	pg.base.skill_data_display[1014202] = {
+		id = 1014202,
+		name = "Memorial of Ice and Iron+"
+	}
+	pg.base.skill_data_display[1014203] = {
+		id = 1014203,
+		name = "Memorial of Ice and Iron+"
+	}
+	pg.base.skill_data_display[1013071] = {
+		id = 1013071,
+		name = "Soaring Silver Wings+"
+	}
+	pg.base.skill_data_display[1013072] = {
+		id = 1013072,
+		name = "Soaring Silver Wings+"
+	}
+	pg.base.skill_data_display[1019170] = {
+		id = 1019170,
+		name = "Kitakaze Style - Horizon Splitter+"
+	}
+	pg.base.skill_data_display[1019171] = {
+		id = 1019171,
+		name = "Kitakaze Style - Horizon Splitter+"
+	}
 	pg.base.skill_data_display[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -20595,6 +20676,8 @@ end)()
 		id = 1090071,
 		name = "Artillery Command - Sims"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090080] = {
 		id = 1090080,
 		name = "Torpedo Command - Kagerou"
@@ -20659,8 +20742,6 @@ end)()
 		id = 1090210,
 		name = "Emergency Maneuvers - Fortune"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090211] = {
 		id = 1090211,
 		name = "Emergency Maneuvers - Fortune"
@@ -20940,5 +21021,9 @@ end)()
 	pg.base.skill_data_display[1090495] = {
 		id = 1090495,
 		name = "Reload Order - Pensacola"
+	}
+	pg.base.skill_data_display[1090511] = {
+		id = 1090511,
+		name = "Wolf Pack - U-73"
 	}
 end)()
