@@ -4,6 +4,16 @@ slot0.word_legal_template_5 = {}
 slot1 = slot0.word_legal_template_5
 
 temp = function()
+	uv0["追"] = {
+		["風"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["風"] = {
 		["雲"] = {
 			this = true
@@ -336,16 +346,6 @@ temp()
 temp = function()
 	uv0["雲"] = {
 		["仙"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["浅"] = {
-		["間"] = {
 			this = true
 		}
 	}

@@ -320,7 +320,7 @@ return {
 	SDK_TRANS_URL = "https://migration.yostar.co.jp?pid=JP-AZURLANE",
 	InitJP = function ()
 		uv0.isAudit = NetConst.GATEWAY_PORT == 20001 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp"
-		uv0.isPreAudit = NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp" or NetConst.GATEWAY_PORT == 30101 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp"
+		uv0.isPreAudit = NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp" or NetConst.GATEWAY_PORT == 30101 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp" or NetConst.GATEWAY_PORT == 30201 and NetConst.GATEWAY_HOST == "blhxjpauditapi.azurlane.jp"
 		uv0.isPretest = IsUnityEditor or uv0.isPreAudit
 		uv0.isGoogleSimulator = NetConst.GATEWAY_PORT == 4001 and NetConst.GATEWAY_HOST == "business.azurlane.jp"
 		uv0.isRelease = NetConst.GATEWAY_PORT == 80 and NetConst.GATEWAY_HOST == "blhxjploginapi.azurlane.jp"
@@ -332,7 +332,7 @@ return {
 	end,
 	InitUS = function ()
 		uv0.isAudit = NetConst.GATEWAY_PORT == 20001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
-		uv0.isPreAudit = NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+		uv0.isPreAudit = NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com" or NetConst.GATEWAY_PORT == 41001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
 		uv0.isPretest = IsUnityEditor or uv0.isPreAudit
 		uv0.isGoogleSimulator = NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
 		uv0.isRelease = NetConst.GATEWAY_PORT == 80 and NetConst.GATEWAY_HOST == "blhxusgate.yo-star.com"
@@ -349,7 +349,7 @@ return {
 		return uv0.isPreAudit
 	end,
 	CheckPretest = function ()
-		return uv0.isPretest
+		return NetConst.getwayType == 2 or IsUnityEditor
 	end,
 	CheckGoogleSimulator = function ()
 		return NetConst.getwayType == 2

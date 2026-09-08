@@ -83,6 +83,23 @@ end
 temp()
 
 temp = function()
+	uv0["勇"] = {
+		["敢"] = {
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
+		},
+		["气"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["ガ"] = {
 		["ラ"] = {
 			["テ"] = {
@@ -656,16 +673,6 @@ temp = function()
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["松"] = {
-		["風"] = {
-			this = true
 		}
 	}
 end

@@ -3298,6 +3298,91 @@ end)()
 		special_bgm = "",
 		bgm = "story-richang-10"
 	}
+	pg.base.voice_bgm.ReversePacmanHomeScene = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	}
+	pg.base.voice_bgm.ShadowCityMainPage = {
+		default_bgm = "story-visioncity-1",
+		special_bgm = "",
+		bgm = "story-visioncity-1"
+	}
+	pg.base.voice_bgm.ShadowCityCollectPage = {
+		default_bgm = "story-visioncity-1",
+		special_bgm = "",
+		bgm = "story-visioncity-1"
+	}
+	pg.base.voice_bgm.ShadowCityPtPage = {
+		default_bgm = "story-richang-6",
+		special_bgm = "",
+		bgm = "story-richang-6"
+	}
+	pg.base.voice_bgm.ShiningMagicKillPage = {
+		default_bgm = "story-hospitalnight-outshow",
+		special_bgm = "",
+		bgm = "story-hospitalnight-outshow"
+	}
+	pg.base.voice_bgm.ShadowCityMedalAlbumView = {
+		default_bgm = "story-visioncity-1",
+		special_bgm = "",
+		bgm = "story-visioncity-1"
+	}
+	pg.base.voice_bgm.ShadowCityURExchangePage = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
+	}
+	pg.base.voice_bgm.ShiningMagicPacmanPage = {
+		default_bgm = "battle-visioncity-1",
+		special_bgm = "",
+		bgm = "battle-visioncity-1"
+	}
+	pg.base.voice_bgm.ShiningMagicMedalAlbumView = {
+		default_bgm = "battle-visioncity-1",
+		special_bgm = "",
+		bgm = "battle-visioncity-1"
+	}
+	pg.base.voice_bgm.ReversePacmanTechnologyUI = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	}
+	pg.base.voice_bgm.ReversePacmanSelectUI = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	}
+	pg.base.voice_bgm.ReversePacmanTechnologyScene = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	}
+	pg.base.voice_bgm.ReversePacmanSelectScene = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	}
+	pg.base.voice_bgm.ReversePacmanGameUI = {
+		default_bgm = "battle-visioncity-1",
+		special_bgm = "",
+		bgm = "battle-visioncity-1"
+	}
+	pg.base.voice_bgm.ReversePacmanGameScene = {
+		default_bgm = "battle-visioncity-1",
+		special_bgm = "",
+		bgm = "battle-visioncity-1"
+	}
+	pg.base.voice_bgm.ShiningMagicJPLoginPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	}
+	pg.base.voice_bgm.ShiningMagicRetrunPageAwardPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	}
 	pg.base.voice_bgm.ShadowCityFramePage = {
 		default_bgm = "story-richang-light",
 		special_bgm = "",
@@ -3312,5 +3397,10 @@ end)()
 		default_bgm = "story-fantasyland-light",
 		special_bgm = "",
 		bgm = "story-fantasyland-light"
+	}
+	pg.base.voice_bgm.ShiningMagicInvitationPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
 	}
 end)()

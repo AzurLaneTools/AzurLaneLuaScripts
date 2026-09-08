@@ -13,11 +13,15 @@ slot0.GetPurchasableCnt = function(slot0)
 end
 
 slot0.GetOwnedGoodCount = function(slot0)
+	return slot0:getDropInfo():getOwnedCount()
+end
+
+slot0.getDropInfo = function(slot0)
 	return Drop.New({
-		id = slot0:getConfig("commodity_id"),
 		type = slot0:getConfig("commodity_type"),
+		id = slot0:getConfig("commodity_id"),
 		count = slot0:getConfig("num")
-	}):getOwnedCount()
+	})
 end
 
 slot0.GetLimitGoodCount = function(slot0)

@@ -39,7 +39,8 @@ slot0.GetType2Class = function()
 		[ActivityConst.ACTIVITY_TYPE_ISLAND_DRAW_AWARD] = DrawAwardActivity,
 		[ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_UP] = LoveLetterActivity,
 		[ActivityConst.ACTIVITY_TYPE_MALL] = MallActivity,
-		[ActivityConst.ACTIVITY_TYPE_AUCTION_GAME] = AuctionGameActivity
+		[ActivityConst.ACTIVITY_TYPE_AUCTION_GAME] = AuctionGameActivity,
+		[ActivityConst.ACTIVITY_TYPE_REVERSE_PACMAN] = ReversePacmanActivity
 	}
 
 	return uv0
@@ -270,6 +271,9 @@ slot0.readyToAchieve = function(slot0)
 			end
 
 			return false
+		end,
+		[ActivityConst.ACTIVITY_TYPE_CHARGEAWARD] = function (slot0)
+			return ChargeAwardPage.IsShowTip(slot0)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_STORY_AWARD] = function (slot0)
 			slot1 = getProxy(PlayerProxy):getRawData()
@@ -732,7 +736,7 @@ slot0.readyToAchieve = function(slot0)
 			end
 		end,
 		[ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN] = function (slot0)
-			return slot0:CanGetAward()
+			return slot0:CanGetAward() or not slot0:TodayIsSigned()
 		end,
 		[ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_MAIL] = function (slot0)
 			return slot0:getConfig("config_id") <= getProxy(PlayerProxy):getRawData().level and slot0.data1 == 0
@@ -750,6 +754,11 @@ slot0.readyToAchieve = function(slot0)
 					return true
 				end
 			end
+
+			return false
+		end,
+		[ActivityConst.ACTIVITY_TYPE_REVERSE_PACMAN] = function (slot0)
+			print("TODO: 红点功能")
 
 			return false
 		end
@@ -901,6 +910,12 @@ slot0.activityTasksSubTypeFunc = function(slot0, slot1)
 		end
 	end
 
+	if slot1 == TASK_SUB_TYPE_CLIENT_TRIGGER then
+		slot2, slot3 = getActivityTask(slot0, true)
+
+		return slot2 and (not slot3 or slot3:getTaskStatus() ~= 2)
+	end
+
 	return false
 end
 
@@ -936,7 +951,7 @@ slot0.isShow = function(slot0)
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY then
 		if slot0:getConfig("config_client").display_link then
 			return underscore.any(slot2, function (slot0)
-				return slot0[2] == 0 or pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0[2]].time)
+				return slot0[2] == 0 or pg.TimeMgr.GetInstance():inTime(ShopConst.GetShopConfig(slot0[2]).time)
 			end)
 		end
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SURVEY then

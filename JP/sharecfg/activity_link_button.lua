@@ -63,7 +63,8 @@ pg.activity_link_button.get_id_list_by_name = {
 	},
 	event_core = {
 		109,
-		116
+		116,
+		122
 	},
 	event_core_2 = {
 		110,
@@ -98,8 +99,7 @@ pg.activity_link_button.get_id_list_by_name = {
 	},
 	event_minigame = {
 		20,
-		108,
-		122
+		108
 	},
 	event_old_act = {
 		13
@@ -171,7 +171,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51101
+			51141
 		}
 	}
 	pg.base.activity_link_button[11] = {
@@ -249,15 +249,13 @@ pg.base.activity_link_button = {}
 	pg.base.activity_link_button[30] = {
 		param = "0",
 		name = "event_boss",
+		time = "stop",
 		text_pic = "text_event_boss",
 		type = 0,
 		pic = "event_boss",
 		id = 30,
 		group_id = 3,
-		order = 1,
-		time = {
-			"default"
-		}
+		order = 1
 	}
 	pg.base.activity_link_button[40] = {
 		param = "0",
@@ -572,17 +570,17 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[122] = {
-		param = "NieRAutomataCoreActivityUI",
-		name = "event_minigame",
+		param = "ShadowCityCoreActivityUI",
+		name = "event_core",
 		text_pic = "text_event_core3",
 		type = 16,
-		pic = "event_minigame",
+		pic = "event_core3",
 		id = 122,
 		group_id = 1,
 		order = 1,
 		time = {
 			"default",
-			50841
+			51130
 		}
 	}
 end)()

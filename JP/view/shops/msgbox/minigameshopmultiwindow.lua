@@ -49,7 +49,7 @@ slot0.Hide = function(slot0)
 end
 
 slot0.InitWindow = function(slot0, slot1, slot2)
-	slot3 = slot1:GetDropInfo()
+	slot3 = slot1:getDropInfo()
 	slot5 = math.max(math.floor(getProxy(GameRoomProxy):getTicket() / slot1:getConfig("price")), 1)
 
 	if slot1:GetMaxCnt() ~= 0 then

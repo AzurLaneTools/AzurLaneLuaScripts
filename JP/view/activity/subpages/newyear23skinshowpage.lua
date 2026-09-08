@@ -24,7 +24,7 @@ slot0.OnDataSetting = function(slot0)
 	slot5 = "config_client"
 
 	for slot5, slot6 in ipairs(slot0.activity:getConfig(slot5).display_link) do
-		if slot6[2] == 0 or slot1:inTime(pg.shop_template[slot6[2]].time) then
+		if slot6[2] == 0 or slot1:inTime(ShopConst.GetShopConfig(slot6[2]).time) then
 			table.insert(slot0.showList, math.random(#slot0.showList + 1), slot6[1])
 		end
 	end

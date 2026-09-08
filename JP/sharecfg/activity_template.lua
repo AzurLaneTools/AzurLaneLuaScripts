@@ -1053,6 +1053,35 @@ pg.activity_template.all = {
 	51127,
 	51128,
 	51129,
+	51130,
+	51131,
+	51132,
+	51133,
+	51134,
+	51135,
+	51136,
+	51137,
+	51138,
+	51139,
+	51140,
+	51141,
+	51142,
+	51143,
+	51144,
+	51145,
+	51146,
+	51147,
+	51148,
+	51149,
+	51150,
+	51151,
+	51152,
+	51153,
+	51154,
+	51155,
+	51156,
+	51157,
+	51161,
 	7011,
 	7012,
 	7013,
@@ -1526,6 +1555,7 @@ pg.activity_template.get_id_list_by_type = {
 		51037,
 		51070,
 		51103,
+		51147,
 		50012,
 		50053,
 		50062,
@@ -1575,6 +1605,7 @@ pg.activity_template.get_id_list_by_type = {
 		50822,
 		50609,
 		51043,
+		51146,
 		8050,
 		8053,
 		8062,
@@ -1624,6 +1655,7 @@ pg.activity_template.get_id_list_by_type = {
 		5997,
 		50615,
 		51047,
+		51148,
 		50128,
 		50238,
 		50286,
@@ -1699,6 +1731,8 @@ pg.activity_template.get_id_list_by_type = {
 		51034,
 		51101,
 		51102,
+		51141,
+		51142,
 		50003,
 		50004,
 		50042,
@@ -1919,6 +1953,13 @@ pg.activity_template.get_id_list_by_type = {
 		51121,
 		51125,
 		51118,
+		51130,
+		51133,
+		51137,
+		51143,
+		51145,
+		51154,
+		51156,
 		10138,
 		980001,
 		970001,
@@ -2041,6 +2082,8 @@ pg.activity_template.get_id_list_by_type = {
 		50655,
 		51032,
 		51104,
+		51132,
+		51136,
 		50007,
 		50052,
 		50061,
@@ -2113,6 +2156,8 @@ pg.activity_template.get_id_list_by_type = {
 		51039,
 		51076,
 		51106,
+		51138,
+		51157,
 		50009,
 		50019,
 		50051,
@@ -2275,6 +2320,7 @@ pg.activity_template.get_id_list_by_type = {
 		51088,
 		51127,
 		51129,
+		51153,
 		7506,
 		6042,
 		970002,
@@ -2387,6 +2433,7 @@ pg.activity_template.get_id_list_by_type = {
 		51036,
 		51077,
 		51108,
+		51140,
 		50010,
 		50020,
 		50047,
@@ -2420,6 +2467,7 @@ pg.activity_template.get_id_list_by_type = {
 		5565,
 		5959,
 		50622,
+		51161,
 		8051,
 		8052,
 		8063,
@@ -2467,6 +2515,7 @@ pg.activity_template.get_id_list_by_type = {
 		50600,
 		51038,
 		51107,
+		51139,
 		50008,
 		50059,
 		50089,
@@ -2481,6 +2530,7 @@ pg.activity_template.get_id_list_by_type = {
 	},
 	[38] = {
 		5571,
+		51149,
 		50138
 	},
 	[41] = {
@@ -2546,6 +2596,7 @@ pg.activity_template.get_id_list_by_type = {
 		5579,
 		5957,
 		50618,
+		51151,
 		30896,
 		50113
 	},
@@ -2555,6 +2606,7 @@ pg.activity_template.get_id_list_by_type = {
 		5570,
 		5961,
 		50612,
+		51150,
 		50118
 	},
 	[57] = {
@@ -2809,6 +2861,8 @@ pg.activity_template.get_id_list_by_type = {
 		51073,
 		51109,
 		51124,
+		51135,
+		51144,
 		970003,
 		50006,
 		50015,
@@ -2982,6 +3036,7 @@ pg.activity_template.get_id_list_by_type = {
 		50844,
 		51079,
 		51117,
+		51152,
 		50064,
 		50066,
 		50155,
@@ -3012,6 +3067,7 @@ pg.activity_template.get_id_list_by_type = {
 		5955,
 		50623,
 		51045,
+		51155,
 		50120,
 		50291,
 		50344
@@ -3040,6 +3096,7 @@ pg.activity_template.get_id_list_by_type = {
 		5963,
 		50608,
 		51050,
+		51134,
 		50111,
 		50284,
 		50337
@@ -3105,6 +3162,9 @@ pg.activity_template.get_id_list_by_type = {
 	},
 	[136] = {
 		970000
+	},
+	[137] = {
+		51131
 	},
 	[140] = {
 		50602
@@ -12112,208 +12172,144 @@ end)()
 		id = 5081,
 		page_core = "",
 		config_data = {
-			70849,
-			70814,
-			70757,
-			70848,
-			70858,
-			70701,
-			70713,
-			70822,
-			70855,
-			70694,
-			70847,
-			70543,
-			70898,
-			70844,
-			70860,
-			70715,
-			70615,
-			70843,
-			70683,
-			70529,
-			70542,
-			70897,
-			70696,
-			70756,
-			70599,
-			70763,
-			70633,
-			70700,
-			70667,
-			70705,
-			70614,
-			70629,
-			70861,
-			70739,
-			70684,
+			70526,
+			70527,
 			70528,
-			70758,
-			70874,
-			70583,
-			70582,
-			70754,
-			70600,
-			70828,
-			70686,
-			70854,
-			70832,
-			70859,
-			70823,
-			70764,
-			70755,
-			70711,
-			70831,
-			70773,
-			70857,
-			70741,
-			70643,
-			70864,
-			70851,
-			70541,
-			70716,
-			70824,
-			70646,
-			70668,
-			70718,
-			70687,
-			70531,
-			70506,
-			70856,
-			70751,
-			70509,
-			70837,
-			70784,
-			70672,
-			70641,
-			70677,
-			70777,
-			70714,
-			70703,
-			70522,
-			70505,
-			70774,
-			70719,
-			70611,
-			70890,
-			70514,
-			70765,
-			70671,
-			70825,
-			70695,
-			70836,
-			70760,
+			70529,
 			70530,
-			70606,
-			70645,
-			70708,
-			70866,
-			70709,
-			70546,
+			70531,
+			70534,
+			70535,
+			70536,
+			70537,
+			70571,
+			70579,
+			70581,
+			70582,
+			70583,
+			70584,
+			70585,
+			70586,
+			70613,
 			70625,
-			70644,
-			70892,
-			70638,
+			70703,
+			70704,
+			70705,
 			70706,
+			70708,
+			70709,
+			70710,
+			70711,
+			70712,
+			70713,
+			70714,
+			70715,
+			70716,
+			70717,
+			70718,
+			70719,
+			70720,
+			70721,
+			70722,
 			70723,
-			70544,
-			70674,
-			70517,
-			70697,
+			70724,
+			70725,
+			70726,
+			70727,
+			70728,
+			70729,
+			70731,
+			70732,
+			70734,
+			70738,
+			70739,
+			70741,
+			70748,
+			70751,
+			70752,
+			70754,
+			70755,
+			70756,
+			70758,
+			70763,
+			70764,
+			70765,
+			70773,
+			70774,
+			70822,
+			70823,
+			70824,
+			70825,
+			70826,
+			70827,
+			70828,
+			70830,
+			70831,
+			70832,
+			70833,
 			70834,
 			70835,
+			70836,
+			70837,
+			70843,
+			70844,
 			70845,
-			70891,
-			70896,
-			70728,
-			70762,
-			70634,
-			70511,
-			70727,
-			70734,
 			70846,
-			70670,
-			70721,
-			70867,
-			70894,
-			70833,
-			70669,
+			70848,
+			70849,
+			70850,
+			70851,
+			70852,
+			70853,
+			70854,
+			70855,
+			70856,
+			70857,
+			70858,
+			70859,
+			70860,
+			70861,
 			70862,
 			70863,
-			70704,
-			70537,
-			70678,
-			70732,
-			70508,
-			70548,
-			70673,
-			70604,
-			70788,
-			70820,
-			70419,
-			70613,
-			70545,
-			70536,
-			70761,
-			70688,
-			70526,
-			70592,
-			70895,
-			70830,
-			70759,
-			70551,
-			70725,
-			70752,
-			70710,
-			70717,
-			70712,
-			70612,
-			70853,
-			70549,
-			70748,
-			70535,
-			70685,
-			70676,
-			70513,
-			70584,
-			70507,
-			70586,
-			70699,
-			70722,
-			70852,
-			70585,
-			70850,
-			70527,
-			70698,
-			70690,
-			70675,
-			70893,
-			70724,
-			70738,
-			70826,
-			70726,
-			70581,
-			70579,
+			70864,
 			70865,
-			70720,
-			70827,
-			70689,
-			70571,
-			70534,
-			70550,
-			70729,
-			70680,
-			70682,
-			70731,
+			70866,
+			70867,
+			70874,
+			70890,
+			70891,
+			70892,
+			70893,
+			70894,
+			70895,
+			70896,
+			70897,
+			70898,
+			70899,
+			70900,
+			70901,
+			70902,
+			70903,
+			70904,
+			70905,
+			70906,
+			70911,
+			70910,
+			70909,
+			70907,
+			70912,
+			70908,
+			70913,
+			70915,
 			99999
 		},
 		time = {
 			"timer",
 			{
 				{
-					2023,
-					12,
-					14
+					2024,
+					2,
+					29
 				},
 				{
 					0,
@@ -12323,9 +12319,9 @@ end)()
 			},
 			{
 				{
-					2023,
-					12,
-					27
+					2024,
+					3,
+					20
 				},
 				{
 					23,
@@ -12341,9 +12337,9 @@ end)()
 		config_client = {
 			{
 				{
-					2023,
-					12,
-					27
+					2024,
+					3,
+					20
 				},
 				{
 					23,
@@ -39584,6 +39580,7 @@ end)()
 	}
 	pg.base.activity_template[51101] = {
 		mark = 20260813,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -39598,33 +39595,6 @@ end)()
 			2050021,
 			2050022,
 			2050023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
 		},
 		page_info = {
 			class_name = "StarsCityMainPage",
@@ -39644,6 +39614,7 @@ end)()
 	pg.base.activity_template[51102] = {
 		mark = 20260813,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -39662,33 +39633,6 @@ end)()
 			2050051,
 			2050052
 		},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10",
 			task_id = 27392
@@ -39697,6 +39641,7 @@ end)()
 	pg.base.activity_template[51103] = {
 		mark = 20260813,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -39705,34 +39650,7 @@ end)()
 		title_res_tag = "",
 		id = 51103,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
+		config_data = {}
 	}
 	pg.base.activity_template[51104] = {
 		mark = 20260813,
@@ -40060,6 +39978,7 @@ end)()
 	}
 	pg.base.activity_template[51111] = {
 		mark = 20260813,
+		time = "stop",
 		type = 51,
 		login_pop = 0,
 		config_id = 9,
@@ -40069,33 +39988,6 @@ end)()
 		page_core = "RapidSeasideCoreActivityUI",
 		config_data = {
 			51112
-		},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
 		},
 		page_info = {
 			class_name = "RapidSeasideMonopolyPage",
@@ -40110,6 +40002,7 @@ end)()
 	pg.base.activity_template[51112] = {
 		mark = 20260813,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -40120,33 +40013,6 @@ end)()
 		page_core = "",
 		config_data = {
 			27393
-		},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
 		}
 	}
 	pg.base.activity_template[51113] = {
@@ -40201,6 +40067,7 @@ end)()
 	pg.base.activity_template[51114] = {
 		mark = 20260813,
 		page_info = "",
+		time = "always",
 		type = 113,
 		login_pop = 0,
 		config_id = 0,
@@ -40209,37 +40076,11 @@ end)()
 		title_res_tag = "",
 		id = 51114,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
+		config_data = {}
 	}
 	pg.base.activity_template[51115] = {
 		mark = 20260813,
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 78,
@@ -40249,33 +40090,6 @@ end)()
 		id = 51115,
 		page_core = "RapidSeasideCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		},
 		page_info = {
 			class_name = "RapidSeasideGamePage",
 			ui_name = "RapidSeasideGamePage"
@@ -40299,6 +40113,7 @@ end)()
 	}
 	pg.base.activity_template[51117] = {
 		mark = 20260813,
+		time = "stop",
 		type = 103,
 		login_pop = 0,
 		config_id = 0,
@@ -40307,33 +40122,6 @@ end)()
 		id = 51117,
 		page_core = "StarsCityCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2026,
-					8,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		},
 		page_info = {
 			class_name = "StarsCityCollectPage",
 			ui_name = "StarsCityCollectPage",
@@ -40461,13 +40249,13 @@ end)()
 		config_client = {
 			id = 2,
 			bg = "loadingbg/bg_build_2_act",
-			buildship_tip = "「天津風」出現確率UP！",
+			buildship_tip = "{namecode:23} 建造概率UP！",
 			rate_tip = {
-				"<color=#ffde38>SSレア</color>：7%",
-				"<color=#d797ff>Sレア</color>：12%",
-				"<color=#3dc6ff>レア</color>：26%",
-				"ノーマル：55%",
-				"<color=#ffde38>天津風</color>：2.0%<color=#92FC63>(up!)</color>"
+				"<color=#ffde38>超稀有舰船</color>：7%",
+				"<color=#d797ff>精锐舰船</color>：12%",
+				"<color=#3dc6ff>稀有舰船</color>：26%",
+				"普通舰船：55%",
+				"<color=#ffde38>{namecode:23}</color>：2.0%<color=#92FC63>(up!)</color>"
 			}
 		}
 	}
@@ -40755,9 +40543,9 @@ end)()
 		type = 87,
 		login_pop = 0,
 		config_id = 41,
-		is_show = 2,
+		is_show = 5,
 		config_client = "",
-		title_res_tag = "ShadowCityCoreActivityUI_subtitle_1",
+		title_res_tag = "ShadowCityCoreActivityUI_subtitle_5",
 		id = 51126,
 		page_core = "ShadowCityCoreActivityUI",
 		config_data = {},
@@ -40798,8 +40586,8 @@ end)()
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 1,
-		title_res_tag = "ShadowCityCoreActivityUI_subtitle_2",
+		is_show = 6,
+		title_res_tag = "ShadowCityCoreActivityUI_subtitle_6",
 		id = 51127,
 		page_core = "ShadowCityCoreActivityUI",
 		config_data = {
@@ -40942,9 +40730,9 @@ end)()
 		type = 18,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 3,
+		is_show = 4,
 		config_client = "",
-		title_res_tag = "ShiningMagicCoreActivityUI_subtitle_1",
+		title_res_tag = "ShiningMagicCoreActivityUI_subtitle_4",
 		id = 51129,
 		page_core = "ShiningMagicCoreActivityUI",
 		config_data = {
@@ -40994,6 +40782,1809 @@ end)()
 		page_info = {
 			class_name = "ShiningMagicSignPage",
 			ui_name = "ShiningMagicSignPage"
+		}
+	}
+	pg.base.activity_template[51130] = {
+		mark = 20260908,
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "ShiningMagicCoreActivityUI_subtitle_1",
+		id = 51130,
+		page_core = "ShiningMagicCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShiningMagicPacmanPage",
+			ui_name = "ShiningMagicPacmanPage"
+		},
+		config_client = {
+			medal_group_id = 51154,
+			is_showMedal = true,
+			sub_act_id = 51131,
+			intro_story = {
+				"ZIDONGBUBINGRENXINGZHILV1"
+			}
+		}
+	}
+	pg.base.activity_template[51131] = {
+		mark = 20260908,
+		page_info = "",
+		type = 137,
+		login_pop = 0,
+		config_id = 68091,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51131,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			taskActivityID = 51133,
+			interviewItemID = 68694,
+			giftItemID = 68695,
+			shopActivityID = 51132,
+			story = {
+				"YICHANGDERICHANGJINXINGZHONG1"
+			},
+			chasing_char = {
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			},
+			technologyShopIDList = {
+				4157,
+				4158
+			},
+			playerSkillShopIDList = {
+				4159,
+				4160,
+				4161
+			}
+		}
+	}
+	pg.base.activity_template[51132] = {
+		mark = 20260908,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51132,
+		page_core = "",
+		config_data = {
+			4157,
+			4158,
+			4159,
+			4160,
+			4161
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			isHide = true
+		}
+	}
+	pg.base.activity_template[51133] = {
+		mark = 20260908,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51133,
+		page_core = "",
+		config_data = {
+			27580,
+			27581,
+			27582,
+			27583,
+			27584,
+			27585,
+			27586,
+			27587,
+			27588,
+			27589,
+			27590,
+			27591,
+			27592,
+			27593,
+			27594,
+			27595,
+			27596,
+			27597,
+			27598,
+			27599,
+			27610,
+			27611,
+			27612,
+			27613,
+			27614,
+			27615,
+			27616,
+			27617,
+			27618,
+			27600,
+			27601,
+			27602,
+			27603,
+			27604,
+			27605,
+			27606,
+			27607,
+			27608
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51134] = {
+		mark = 20260908,
+		type = 115,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 3,
+		title_res_tag = "ShadowCityCoreActivityUI_subtitle_3",
+		id = 51134,
+		page_core = "ShadowCityCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShadowCityURExchangePage",
+			ui_name = "ShadowCityURExchangePage"
+		},
+		config_client = {
+			uPtId = 752,
+			activitytime = 51134,
+			shopId = 51136,
+			ptId = 751,
+			expedition = 9809,
+			taskConfig = {
+				{
+					1,
+					"SP初回クリア",
+					{
+						27530
+					}
+				},
+				{
+					2,
+					"毎日SPクリア",
+					{
+						2060041
+					}
+				},
+				{
+					3,
+					"毎日ランダム任務",
+					{
+						27560,
+						27561,
+						27562,
+						27563,
+						27564,
+						27565,
+						27566,
+						27567,
+						27568,
+						27569,
+						27570,
+						27571,
+						27572,
+						27573,
+						27574
+					}
+				},
+				{
+					4,
+					"チャレンジ任務",
+					{
+						27575,
+						27576,
+						27577,
+						27578,
+						27579
+					}
+				},
+				{
+					4,
+					"「今日も異常な日常」限定任務",
+					{
+						27580,
+						27581,
+						27582,
+						27583,
+						27584,
+						27585,
+						27586
+					}
+				},
+				{
+					6,
+					"Ptショップ交換",
+					{
+						4174
+					}
+				}
+			},
+			goodsId = {
+				4171,
+				4172
+			}
+		}
+	}
+	pg.base.activity_template[51135] = {
+		mark = 20260908,
+		type = 74,
+		login_pop = 0,
+		config_id = 51135,
+		is_show = 2,
+		config_client = "",
+		title_res_tag = "ShiningMagicCoreActivityUI_subtitle_2",
+		id = 51135,
+		page_core = "ShiningMagicCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShiningMagicKillPage",
+			ui_name = "ShiningMagicKillPage"
+		}
+	}
+	pg.base.activity_template[51136] = {
+		mark = 20260908,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51136,
+		page_core = "",
+		config_data = {
+			4171,
+			4172,
+			4173,
+			4174,
+			4175,
+			4176,
+			4177,
+			4178,
+			4179,
+			4180,
+			4181,
+			4182,
+			4183,
+			4184,
+			4185,
+			4186,
+			4187,
+			4188,
+			4189,
+			4190,
+			4191,
+			4192,
+			4193,
+			4194,
+			4195,
+			4196,
+			4197,
+			4198,
+			4199,
+			4200,
+			4201,
+			4202
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_lumei",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			shop_title = "260908activity_shop_title",
+			use_secretary = false,
+			painting = "shengli_alter_pt",
+			pt_id = 751
+		}
+	}
+	pg.base.activity_template[51137] = {
+		mark = 20260908,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51137,
+		page_core = "",
+		config_data = {
+			27521,
+			27522,
+			27523,
+			27524,
+			27525,
+			27526,
+			27527,
+			27528,
+			27529,
+			27530,
+			27531,
+			27532,
+			27533,
+			27534,
+			27535,
+			27536,
+			27537,
+			27538,
+			27539,
+			27540,
+			27541,
+			27542
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51138] = {
+		mark = 20260908,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 751,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 51138,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51139] = {
+		mark = 20260908,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51139,
+		page_core = "",
+		config_data = {
+			2065002,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51140] = {
+		mark = 20260908,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51140,
+		page_core = "",
+		config_data = {
+			{
+				31918,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51141] = {
+		mark = 20260908,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "ShadowCityCoreActivityUI_subtitle_1",
+		id = 51141,
+		page_core = "ShadowCityCoreActivityUI",
+		config_data = {
+			2060001,
+			2060002,
+			2060003,
+			2060021,
+			2060022,
+			2060023
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShadowCityMainPage",
+			ui_name = "ShadowCityMainPage"
+		},
+		config_client = {
+			buildLinkActID = 51147,
+			fightLinkActID = 51141,
+			medalGroupId = 51143,
+			shopItemID = 71397,
+			task_id = 27542,
+			entrance_bg = "activitybanner/temp10",
+			PTID = 751
+		}
+	}
+	pg.base.activity_template[51142] = {
+		mark = 20260908,
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51142,
+		page_core = "",
+		config_data = {
+			2060004,
+			2060005,
+			2060006,
+			2060024,
+			2060025,
+			2060026,
+			2060041,
+			2060051,
+			2060052
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10",
+			task_id = 27542
+		}
+	}
+	pg.base.activity_template[51143] = {
+		mark = 20260908,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51143,
+		page_core = "",
+		config_data = {
+			25719,
+			25720,
+			25721,
+			25722,
+			25723,
+			25724,
+			25725,
+			25726,
+			25727,
+			25728
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51144] = {
+		mark = 20260908,
+		type = 74,
+		login_pop = 0,
+		config_id = 51144,
+		is_show = 2,
+		title_res_tag = "ShadowCityCoreActivityUI_subtitle_2",
+		id = 51144,
+		page_core = "ShadowCityCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShadowCityPtPage",
+			ui_name = "ShadowCityPtPage"
+		},
+		config_client = {
+			shopLinkActID = 51136,
+			highValueItemSort = {
+				6,
+				14,
+				21,
+				24,
+				25,
+				28,
+				32,
+				33,
+				37,
+				38,
+				41,
+				42,
+				45,
+				46,
+				48,
+				49
+			}
+		}
+	}
+	pg.base.activity_template[51145] = {
+		mark = 20260908,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51145,
+		page_core = "",
+		config_data = {
+			27465
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51146] = {
+		mark = 20260908,
+		type = 3,
+		login_pop = 0,
+		config_id = 97,
+		is_show = 5,
+		title_res_tag = "ShiningMagicCoreActivityUI_subtitle_5",
+		id = 51146,
+		page_core = "ShiningMagicCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShiningMagicJPLoginPage",
+			ui_name = "ShiningMagicJPLoginPage"
+		},
+		config_client = {
+			manulSign = true
+		}
+	}
+	pg.base.activity_template[51147] = {
+		mark = 20260908,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 10,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51147,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 10,
+			bg = "loadingbg/bg_build_4_act"
+		}
+	}
+	pg.base.activity_template[51148] = {
+		mark = 20260908,
+		page_info = "",
+		type = 10,
+		login_pop = 0,
+		config_id = 51147,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51148,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51149] = {
+		mark = 20260908,
+		page_info = "",
+		type = 38,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51149,
+		page_core = "",
+		config_data = {
+			106,
+			112,
+			117,
+			118,
+			119,
+			124,
+			129,
+			138,
+			140,
+			141,
+			145,
+			148,
+			151,
+			155,
+			157,
+			160,
+			167,
+			173,
+			175,
+			177,
+			183,
+			184,
+			187,
+			189,
+			192,
+			194,
+			200,
+			203,
+			208,
+			210,
+			212,
+			218,
+			221,
+			225,
+			226,
+			232,
+			234,
+			239,
+			241,
+			243,
+			248,
+			256,
+			259,
+			264,
+			266,
+			268,
+			271,
+			273,
+			275,
+			276,
+			284,
+			287,
+			289,
+			293,
+			295,
+			296,
+			302,
+			303,
+			307,
+			311,
+			314,
+			316,
+			318,
+			319,
+			321,
+			323,
+			331,
+			332,
+			333,
+			335,
+			339,
+			341,
+			342,
+			343
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			{
+				{
+					302,
+					0.78
+				},
+				{
+					303,
+					0.75
+				},
+				{
+					304,
+					0.9
+				},
+				{
+					305,
+					1
+				},
+				{
+					306,
+					1
+				},
+				{
+					307,
+					1
+				},
+				{
+					308,
+					0.9
+				},
+				{
+					309,
+					0.8
+				},
+				{
+					311,
+					0.9
+				},
+				{
+					312,
+					0.8
+				},
+				{
+					313,
+					1
+				},
+				{
+					314,
+					0.9
+				},
+				{
+					315,
+					0.85
+				},
+				{
+					316,
+					0.85
+				},
+				{
+					317,
+					0.85
+				},
+				{
+					318,
+					0.85
+				},
+				{
+					319,
+					0.85
+				},
+				{
+					320,
+					0.85
+				},
+				{
+					321,
+					0.85
+				},
+				{
+					322,
+					0.85
+				},
+				{
+					323,
+					0.85
+				},
+				{
+					324,
+					0.85
+				},
+				{
+					325,
+					0.85
+				},
+				{
+					326,
+					0.85
+				},
+				{
+					327,
+					0.85
+				},
+				{
+					328,
+					0.85
+				},
+				{
+					329,
+					0.85
+				},
+				{
+					330,
+					0.85
+				},
+				{
+					331,
+					0.85
+				},
+				{
+					332,
+					0.85
+				},
+				{
+					333,
+					0.85
+				},
+				{
+					334,
+					0.85
+				},
+				{
+					335,
+					0.85
+				},
+				{
+					336,
+					0.85
+				},
+				{
+					337,
+					0.85
+				},
+				{
+					341,
+					0.85
+				},
+				{
+					342,
+					0.85
+				}
+			},
+			895
+		}
+	}
+	pg.base.activity_template[51150] = {
+		mark = 20260908,
+		type = 56,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 6,
+		config_client = "",
+		title_res_tag = "ShiningMagicCoreActivityUI_subtitle_6",
+		id = 51150,
+		page_core = "ShiningMagicCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShiningMagicRetrunPageAwardPage",
+			ui_name2 = "ShiningMagicRetrunPageAward4RetrunerPage",
+			ui_name = "ShiningMagicRetrunPageAwardPage"
+		}
+	}
+	pg.base.activity_template[51151] = {
+		mark = 20260908,
+		page_info = "",
+		type = 55,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51151,
+		page_core = "",
+		config_data = {
+			1,
+			2,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51152] = {
+		mark = 20260908,
+		type = 103,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 4,
+		title_res_tag = "ShadowCityCoreActivityUI_subtitle_4",
+		id = 51152,
+		page_core = "ShadowCityCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShadowCityCollectPage",
+			ui_name = "ShadowCityCollectPage",
+			sub_ui = {
+				"ShadowCityCollectMsgBox"
+			}
+		},
+		config_client = {
+			furniture_theme_link = {
+				2,
+				{
+					"scene court yard",
+					{}
+				}
+			},
+			medal_link = {
+				2,
+				{
+					"scene task"
+				}
+			},
+			equipskin_box_link = {
+				drop_type = 2,
+				drop_id = 30388,
+				list = {
+					{
+						2,
+						{
+							"scene shop",
+							{
+								warp = "shopstreet"
+							}
+						},
+						"ショップで交換"
+					}
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51153] = {
+		mark = 20260908,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 3,
+		title_res_tag = "ShiningMagicCoreActivityUI_subtitle_3",
+		id = 51153,
+		page_core = "ShiningMagicCoreActivityUI",
+		config_data = {
+			{
+				27543
+			},
+			{
+				27544
+			},
+			{
+				27545
+			},
+			{
+				27546
+			},
+			{
+				27547
+			},
+			{
+				27548
+			},
+			{
+				27549,
+				27550
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ShiningMagicInvitationPage",
+			ui_name = "ShiningMagicInvitationPage"
+		},
+		config_client = {
+			subType = 2027
+		}
+	}
+	pg.base.activity_template[51154] = {
+		mark = 20260908,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51154,
+		page_core = "",
+		config_data = {
+			25729,
+			25730,
+			25731,
+			25732,
+			25733,
+			25734,
+			25735,
+			25736,
+			25737
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51155] = {
+		mark = 20260908,
+		page_info = "",
+		type = 110,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51155,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51156] = {
+		mark = 20260908,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51156,
+		page_core = "",
+		config_data = {
+			27575,
+			27576,
+			27577,
+			27578,
+			27579
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51157] = {
+		mark = 20260908,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 750,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		title_res_tag = "",
+		id = 51157,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51161] = {
+		mark = 20260908,
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51161,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	}
 	pg.base.activity_template[7011] = {
@@ -42256,6 +43847,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7303] = {
 		mark = 20260226,
 		type = 130,
@@ -43688,8 +45281,6 @@ end)()
 			taskActID = 970001
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[970001] = {
 		mark = 20260716,
 		page_info = "",
@@ -46796,6 +48387,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50094] = {
 		mark = 20250814,
 		page_info = "",
@@ -47988,8 +49581,6 @@ end)()
 			24462
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50135] = {
 		mark = 20250912,
 		page_info = "",
@@ -50416,6 +52007,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50246] = {
 		mark = 20251120,
 		page_info = "",
@@ -51585,8 +53178,6 @@ end)()
 			painting = "kelifulan_alter_pt"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50288] = {
 		mark = 20251218,
 		time = "stop",
@@ -54984,6 +56575,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50409] = {
 		mark = 20260212,
 		page_info = "",
@@ -56407,8 +58000,6 @@ end)()
 			21910
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50442] = {
 		mark = 20260226,
 		page_info = "",

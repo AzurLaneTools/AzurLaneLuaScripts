@@ -47,11 +47,7 @@ slot0.Open = function(slot0, slot1, slot2)
 end
 
 slot0.InitWindow = function(slot0, slot1, slot2)
-	slot3 = {
-		id = slot1:getConfig("commodity_id"),
-		type = slot1:getConfig("commodity_type"),
-		count = slot1:getConfig("num")
-	}
+	slot3 = slot1:getDropInfo()
 
 	if isa(slot1, ActivityCommodity) then
 		slot4, slot5, slot6 = slot1:CheckTimeLimit()

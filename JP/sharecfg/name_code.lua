@@ -281,6 +281,8 @@ pg.name_code.all = {
 	311,
 	312,
 	313,
+	314,
+	315,
 	400,
 	401,
 	402,
@@ -2412,6 +2414,20 @@ end)()
 		code = "高梁",
 		nation = 0
 	}
+	pg.base.name_code[314] = {
+		name = "伊14",
+		type = 1,
+		id = 314,
+		code = "伊14",
+		nation = 0
+	}
+	pg.base.name_code[315] = {
+		name = "安土",
+		type = 1,
+		id = 315,
+		code = "安土",
+		nation = 0
+	}
 	pg.base.name_code[400] = {
 		name = "Z1",
 		type = 1,
@@ -2552,6 +2568,8 @@ end)()
 		code = "U-522",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[420] = {
 		name = "U-110",
 		type = 1,
@@ -2566,8 +2584,6 @@ end)()
 		code = "ケーニヒスベルク",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[422] = {
 		name = "カールスルーエ",
 		type = 1,
@@ -3254,6 +3270,8 @@ end)()
 		code = "フィリックス・シュルツ",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[520] = {
 		name = "フィリックス・シュルツ",
 		type = 1,
@@ -3268,8 +3286,6 @@ end)()
 		code = "ヒンデンブルク",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[522] = {
 		name = "旗風(META)",
 		type = 1,

@@ -57,6 +57,18 @@ slot0.getDefaultGalleryPicIDList = function()
 	return slot1
 end
 
+slot0.getOldLoadingPicIDList = function()
+	slot0 = {}
+
+	for slot4, slot5 in ipairs(pg.gallery_config.all) do
+		if slot5 > 1000 then
+			table.insert(slot0, slot5)
+		end
+	end
+
+	return slot0
+end
+
 slot0.createPicInfo = function(slot0, slot1)
 	slot2 = {
 		type = slot0,

@@ -12,6 +12,7 @@ pg.item_data_chat.all = {
 	106,
 	107,
 	108,
+	109,
 	300,
 	301,
 	602,
@@ -108,6 +109,14 @@ pg.base.item_data_chat = {}
 		id = 108,
 		time_limit_type = 0,
 		desc = "Eighth　Anniversary！\n<color=#A7A7AAFF>八周年記念イベントで開放可能</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[109] = {
+		name = "九周年記念",
+		time_second = 0,
+		id = 109,
+		time_limit_type = 0,
+		desc = "9th　Anniversary！\n<color=#A7A7AAFF>九周年記念イベントで開放可能</color>",
 		scene = {}
 	}
 	pg.base.item_data_chat[300] = {

@@ -31,7 +31,7 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.OnStart = function(slot0, slot1)
-	slot0.nextTr = slot0.dialogueWin:Find("next")
+	slot0.nextTr = slot0.dialogueWin:Find("next_container")
 	slot0.conentTr = slot0.dialogueWin:Find("content")
 	slot0.conentTxt = slot0.dialogueWin:Find("content"):GetComponent(typeof(Text))
 	slot0.typewriter = slot0.dialogueWin:Find("content"):GetComponent(typeof(Typewriter))
@@ -42,6 +42,10 @@ slot0.OnStart = function(slot0, slot1)
 	slot0.conentLineTr = slot0.dialogueWin:Find("line")
 	slot2 = slot0.portraitTr
 	slot0.portraitImg = slot2:GetComponent(typeof(Image))
+	slot0.nextSignList = {
+		slot0.dialogueWin:Find("next_container/0"),
+		slot0.dialogueWin:Find("next_container/1")
+	}
 	slot0.tags = {
 		slot0.nameTr:Find("tags/1"),
 		slot0.nameTr:Find("tags/2")
@@ -1239,6 +1243,10 @@ slot0.UpdateContent = function(slot0, slot1, slot2)
 
 	if slot0.script:IsDialogueStyle2() then
 		setActive(slot0.tag4Dialog2, not slot6)
+	end
+
+	for slot14, slot15 in ipairs(slot0.nextSignList) do
+		setActive(slot15, slot14 - 1 == slot1:GetNextIcon())
 	end
 end
 

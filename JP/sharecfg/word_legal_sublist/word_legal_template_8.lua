@@ -4,6 +4,41 @@ slot0.word_legal_template_8 = {}
 slot1 = slot0.word_legal_template_8
 
 temp = function()
+	uv0["ゴ"] = {
+		["リ"] = {
+			["ツ"] = {
+				["ィ"] = {
+					["ア"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["ー"] = {
+			["ル"] = {
+				["デ"] = {
+					["ン"] = {
+						["・"] = {
+							["ハ"] = {
+								["イ"] = {
+									["ン"] = {
+										["ド"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["ム"] = {
 		["ル"] = {
 			["マ"] = {
@@ -212,16 +247,6 @@ temp()
 temp = function()
 	uv0["喀"] = {
 		["山"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["勇"] = {
-		["气"] = {
 			this = true
 		}
 	}

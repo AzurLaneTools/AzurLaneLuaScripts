@@ -568,7 +568,7 @@ slot0.GetAllShowGiftPackages = function(slot0, slot1)
 	slot7 = pg.shop_template.get_id_list_by_genre[ShopArgs.GiftPackage] or {}
 
 	for slot9, slot10 in slot6(slot7) do
-		slot12 = pg.shop_template[slot10].akashi_pick > 0
+		slot12 = ShopConst.GetShopConfig(slot10).akashi_pick > 0
 
 		if (slot1 == nil or slot12 == slot1) and not table.contains(slot3, slot10) then
 			table.insert(slot2, Goods.Create({
@@ -581,7 +581,7 @@ slot0.GetAllShowGiftPackages = function(slot0, slot1)
 	slot7 = pg.shop_template.get_id_list_by_genre[ShopArgs.GiftActPackage] or {}
 
 	for slot9, slot10 in slot6(slot7) do
-		slot12 = pg.shop_template[slot10].akashi_pick > 0
+		slot12 = ShopConst.GetShopConfig(slot10).akashi_pick > 0
 
 		if (slot1 == nil or slot12 == slot1) and not table.contains(slot3, slot10) then
 			table.insert(slot2, Goods.Create({
@@ -612,6 +612,11 @@ slot0.GetAllShowGiftPackages = function(slot0, slot1)
 			end
 
 			slot16, slot17 = pg.TimeMgr.GetInstance():inTime(slot12:getConfig("time"))
+
+			if slot12.id == 69999 then
+				warning(PrintTable(slot12:getConfig("time")), slot12.__cname)
+				warning(slot16, slot17, slot12:canPurchase(), slot15)
+			end
 
 			if slot17 then
 				table.insert(slot7, slot12)
@@ -672,6 +677,48 @@ slot0.filterLimitTypeGoods = function(slot0, slot1, slot2)
 	}, function ()
 		return true
 	end)
+end
+
+slot0.CanPurchasedByCharge = function(slot0, slot1)
+	slot2 = pg.pay_data_display.get_id_list_by_extra_service[Goods.NON_MAIL] or {}
+
+	for slot6, slot7 in ipairs(slot2) do
+		if type(pg.pay_data_display[slot7].extra_service_item) == "string" then
+			slot9 = {}
+		end
+
+		for slot13, slot14 in ipairs(slot9) do
+			slot16 = slot14[2]
+			slot17 = slot14[3]
+
+			if slot14[1] == DROP_TYPE_SKIN and slot16 == slot1 then
+				return true, slot7
+			end
+		end
+	end
+
+	return false
+end
+
+slot0.IsSkinTypeCharge = function(slot0, slot1)
+	slot2 = pg.pay_data_display[slot1]
+
+	assert(slot2, "pay_data_display" .. slot1)
+
+	if type(slot2.extra_service_item) == "string" then
+		slot3 = {}
+	end
+
+	for slot7, slot8 in ipairs(slot3) do
+		slot10 = slot8[2]
+		slot11 = slot8[3]
+
+		if slot8[1] == DROP_TYPE_SKIN then
+			return true, slot10
+		end
+	end
+
+	return false
 end
 
 return slot0

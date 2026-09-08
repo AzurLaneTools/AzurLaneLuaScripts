@@ -14,6 +14,7 @@ pg.item_data_frame.all = {
 	108,
 	109,
 	110,
+	111,
 	201,
 	202,
 	203,
@@ -66,6 +67,7 @@ pg.item_data_frame.all = {
 	341,
 	342,
 	343,
+	344,
 	401,
 	402,
 	403,
@@ -211,6 +213,15 @@ pg.base.item_data_frame = {}
 		id = 110,
 		time_limit_type = 0,
 		desc = "Eighth　Anniversary！\n<color=#A7A7AA>　八周年記念イベントで開放可能</color>",
+		scene = {}
+	}
+	pg.base.item_data_frame[111] = {
+		name = "九周年記念",
+		gain_by = "",
+		time_second = 0,
+		id = 111,
+		time_limit_type = 0,
+		desc = "9th　Anniversary！\n<color=#A7A7AA>　九周年記念イベントで開放可能</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[201] = {
@@ -673,12 +684,21 @@ pg.base.item_data_frame = {}
 		scene = {}
 	}
 	pg.base.item_data_frame[343] = {
-		name = "新芽の冠",
-		gain_by = "",
+		name = "新苗の冠",
+		gain_by = "妖異奇譚",
 		time_second = 0,
 		id = 343,
 		time_limit_type = 0,
-		desc = "今後開催するイベントにて入手可能",
+		desc = "「かすかな光があるだけでも、私たちは希望に向けて成長できる」",
+		scene = {}
+	}
+	pg.base.item_data_frame[344] = {
+		name = "妖異襲来",
+		gain_by = "今日も異常な日常",
+		time_second = 0,
+		id = 344,
+		time_limit_type = 0,
+		desc = "「収容はゴールじゃない。いつかきっと私たちは互いを理解し合える」",
 		scene = {}
 	}
 	pg.base.item_data_frame[401] = {
@@ -1005,6 +1025,8 @@ pg.base.item_data_frame = {}
 		desc = "金色の翼を広げ、羽根が輝ききらめく。優雅にしてどこか神秘的\n<color=#A7A7AA>「交流宿舎」大鳳の親愛度Lv報酬</color>",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1011] = {
 		name = "深淵の鎖",
 		gain_by = "",
@@ -1023,8 +1045,6 @@ pg.base.item_data_frame = {}
 		desc = "荒波の中で鋼色の旗が翻り、戴かれる黄金の冠は至高なる海の権能を示せり\n<color=#A7A7AA>「交流宿舎」でエーギルの親密度を上げると入手可能</color>",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[1013] = {
 		name = "集電装置",
 		gain_by = "",

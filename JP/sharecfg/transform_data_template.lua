@@ -356,6 +356,18 @@ pg.transform_data_template.all = {
 	9410,
 	9411,
 	9412,
+	9601,
+	9602,
+	9603,
+	9604,
+	9605,
+	9606,
+	9607,
+	9608,
+	9609,
+	9610,
+	9611,
+	9612,
 	10101,
 	10102,
 	10103,
@@ -14620,6 +14632,462 @@ end)()
 			30
 		}
 	}
+	pg.base.transform_data_template[9601] = {
+		level_limit = 1,
+		name = "艦体改修Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "hp_1",
+		skill_id = 0,
+		use_gold = 400,
+		id = 9601,
+		condition_id = {},
+		effect = {
+			{
+				durability = 45
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	}
+	pg.base.transform_data_template[9602] = {
+		level_limit = 5,
+		name = "回避強化Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "dd_1",
+		skill_id = 0,
+		use_gold = 600,
+		id = 9602,
+		condition_id = {
+			9601
+		},
+		effect = {
+			{
+				dodge = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	}
+	pg.base.transform_data_template[9603] = {
+		level_limit = 20,
+		name = "主砲改修Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "mgup_1",
+		skill_id = 0,
+		use_gold = 800,
+		id = 9603,
+		condition_id = {
+			9601
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	}
+	pg.base.transform_data_template[9604] = {
+		level_limit = 25,
+		name = "火力強化Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "cn_1",
+		skill_id = 0,
+		use_gold = 1000,
+		id = 9604,
+		condition_id = {
+			9603
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					5
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	}
+	pg.base.transform_data_template[9605] = {
+		level_limit = 35,
+		name = "魚雷改修Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "tpup_1",
+		skill_id = 0,
+		use_gold = 1200,
+		id = 9605,
+		condition_id = {
+			9603
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	}
+	pg.base.transform_data_template[9606] = {
+		level_limit = 40,
+		name = "雷撃強化Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "tp_1",
+		skill_id = 0,
+		use_gold = 1500,
+		id = 9606,
+		condition_id = {
+			9605
+		},
+		effect = {
+			{
+				torpedo = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	}
+	pg.base.transform_data_template[9607] = {
+		level_limit = 50,
+		name = "動力強化",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "sp_1",
+		skill_id = 0,
+		use_gold = 1800,
+		id = 9607,
+		condition_id = {
+			9605
+		},
+		effect = {
+			{
+				speed = 3
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					5
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	}
+	pg.base.transform_data_template[9608] = {
+		level_limit = 55,
+		name = "回避強化Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "dd_2",
+		skill_id = 0,
+		use_gold = 2000,
+		id = 9608,
+		condition_id = {
+			9602,
+			9607
+		},
+		effect = {
+			{
+				dodge = 5
+			},
+			{
+				dodge = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					1
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	}
+	pg.base.transform_data_template[9609] = {
+		level_limit = 70,
+		name = "艦体改修Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "hp_2",
+		skill_id = 0,
+		use_gold = 2500,
+		id = 9609,
+		condition_id = {
+			9607
+		},
+		effect = {
+			{
+				durability = 45
+			},
+			{
+				durability = 75
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				}
+			},
+			{
+				{
+					18003,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	}
+	pg.base.transform_data_template[9610] = {
+		level_limit = 75,
+		name = "雷撃強化Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "tp_2",
+		skill_id = 0,
+		use_gold = 3000,
+		id = 9610,
+		condition_id = {
+			9609
+		},
+		effect = {
+			{
+				torpedo = 5
+			},
+			{
+				torpedo = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				},
+				{
+					17023,
+					5
+				}
+			},
+			{
+				{
+					18003,
+					2
+				},
+				{
+					17023,
+					15
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	}
+	pg.base.transform_data_template[9611] = {
+		level_limit = 85,
+		name = "近代化改修",
+		descrip = "近代化改修完了、雷装+25，回避+20\n改造後<color=#92fc63>【主砲砲座+1】</color>",
+		max_level = 1,
+		skin_id = 201169,
+		use_ship = 1,
+		star_limit = 5,
+		icon = "mt_red",
+		skill_id = 0,
+		use_gold = 4000,
+		id = 9611,
+		condition_id = {
+			9609,
+			9610
+		},
+		effect = {
+			{
+				dodge = 20,
+				torpedo = 25
+			}
+		},
+		ship_id = {
+			{
+				201164,
+				201534
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	}
+	pg.base.transform_data_template[9612] = {
+		level_limit = 90,
+		name = "戦術啓発",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "skill_red",
+		skill_id = 152870,
+		use_gold = 3000,
+		id = 9612,
+		condition_id = {
+			9611
+		},
+		effect = {
+			{
+				skill_id = 152870
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					2
+				},
+				{
+					17023,
+					20
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	}
 	pg.base.transform_data_template[10101] = {
 		level_limit = 1,
 		name = "艦体改修Ⅰ",
@@ -15949,6 +16417,8 @@ end)()
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[10603] = {
 		level_limit = 20,
 		name = "主砲改修Ⅰ",
@@ -16389,8 +16859,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[11504] = {
 		level_limit = 25,
 		name = "火力強化Ⅰ",
@@ -19817,6 +20285,8 @@ end)()
 			20
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[13210] = {
 		level_limit = 75,
 		name = "火力強化Ⅱ",
@@ -20277,8 +20747,6 @@ end)()
 			20
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[14010] = {
 		level_limit = 75,
 		name = "装填強化Ⅱ",
@@ -23663,6 +24131,8 @@ end)()
 			15
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[16805] = {
 		level_limit = 35,
 		name = "魚雷改修Ⅰ",
@@ -24092,8 +24562,6 @@ end)()
 			20
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[17106] = {
 		level_limit = 40,
 		name = "雷撃強化Ⅰ",
@@ -27326,6 +27794,8 @@ end)()
 			15
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[18804] = {
 		level_limit = 25,
 		name = "火力強化Ⅰ",
@@ -27790,8 +28260,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[19004] = {
 		level_limit = 25,
 		name = "対空強化Ⅰ",
@@ -31124,6 +31592,8 @@ end)()
 			20
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[22604] = {
 		level_limit = 25,
 		name = "対空強化Ⅰ",
@@ -31585,8 +32055,6 @@ end)()
 			20
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[22704] = {
 		level_limit = 25,
 		name = "対空強化Ⅰ",
@@ -35081,6 +35549,8 @@ end)()
 			15
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[25311] = {
 		level_limit = 85,
 		name = "近代化改修",
@@ -35557,8 +36027,6 @@ end)()
 			20
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[25410] = {
 		level_limit = 75,
 		name = "火力強化Ⅲ",
@@ -39023,6 +39491,8 @@ end)()
 			50
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[27001] = {
 		level_limit = 1,
 		name = "艦体改修Ⅰ",
@@ -39451,8 +39921,6 @@ end)()
 			10
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[27102] = {
 		level_limit = 5,
 		name = "装填強化Ⅰ",
@@ -42736,6 +43204,8 @@ end)()
 			30
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[34811] = {
 		level_limit = 85,
 		name = "近代化改修",
@@ -43186,8 +43656,6 @@ end)()
 			50
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[34912] = {
 		level_limit = 90,
 		name = "戦術啓発",
@@ -46529,6 +46997,8 @@ end)()
 			15
 		}
 	}
+end)()
+(function ()
 	pg.base.transform_data_template[43408] = {
 		level_limit = 55,
 		name = "命中強化Ⅰ",
@@ -46991,8 +47461,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.transform_data_template[49308] = {
 		level_limit = 55,
 		name = "回避強化Ⅱ",

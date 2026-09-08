@@ -3,7 +3,6 @@ slot0 = class("MainUrgencySceneSequence")
 slot0.Execute = function(slot0, slot1)
 	slot0:NextOne(1, {
 		"SkipToActivity",
-		"SkipToReFluxActivity",
 		"SkipToTechnology"
 	}, slot1)
 end
@@ -23,16 +22,6 @@ end
 slot0.SkipToActivity = function(slot0)
 	if getProxy(ActivityProxy):findNextAutoActivity() then
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY)
-
-		return false
-	end
-
-	return true
-end
-
-slot0.SkipToReFluxActivity = function(slot0)
-	if getProxy(RefluxProxy):isCanSign() and slot1:isInRefluxTime() then
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.REFLUX)
 
 		return false
 	end

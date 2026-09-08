@@ -2002,4 +2002,22 @@ end)()
 		actor_name = "船戸ゆり絵",
 		code = 520
 	}
+	pg.base.voice_actor_CN[522] = {
+		actor_name = "中村カンナ",
+		code = 522
+	}
+	pg.base.voice_actor_CN[523] = {
+		actor_name = "明智璃子",
+		code = 523
+	}
+	pg.base.voice_actor_CN[524] = {
+		actor_name = "綾瀬未来",
+		code = 524
+	}
+end)()
+(function ()
+	pg.base.voice_actor_CN[525] = {
+		actor_name = "黒崎しおり",
+		code = 525
+	}
 end)()

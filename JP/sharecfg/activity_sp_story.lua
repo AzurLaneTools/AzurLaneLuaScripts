@@ -482,7 +482,31 @@ pg.activity_sp_story.all = {
 	523,
 	524,
 	525,
-	526
+	526,
+	527,
+	528,
+	529,
+	530,
+	531,
+	532,
+	533,
+	534,
+	535,
+	536,
+	537,
+	538,
+	539,
+	540,
+	541,
+	542,
+	543,
+	544,
+	545,
+	546,
+	547,
+	548,
+	549,
+	550
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -10440,6 +10464,481 @@ end)()
 			{
 				4,
 				525
+			}
+		}
+	}
+	pg.base.activity_sp_story[527] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_496",
+		name = "EP1-1 怪異事件調査センター",
+		story = "YOUYINGMICHENG1",
+		change_bgm = "battle-visioncity-1",
+		id = 527,
+		lock = ""
+	}
+	pg.base.activity_sp_story[528] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-1をクリア",
+		change_background = "star_level_bg_495",
+		name = "EP1-2 現場勤務班",
+		story = "YOUYINGMICHENG2",
+		change_bgm = "battle-visioncity-1",
+		id = 528,
+		pre_event = {
+			527
+		},
+		lock = {
+			{
+				4,
+				527
+			}
+		}
+	}
+	pg.base.activity_sp_story[529] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-2をクリア",
+		change_background = "star_level_bg_495",
+		name = "EP1-3 怪異空間",
+		story = "YOUYINGMICHENG3",
+		change_bgm = "story-visioncity-1",
+		id = 529,
+		pre_event = {
+			528
+		},
+		lock = {
+			{
+				4,
+				528
+			}
+		}
+	}
+	pg.base.activity_sp_story[530] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-3をクリア",
+		change_background = "star_level_bg_300",
+		name = "EP1-4 収容成功",
+		story = "2066001",
+		change_bgm = "battle-visioncity-1",
+		id = 530,
+		pre_event = {
+			529
+		},
+		lock = {
+			{
+				4,
+				529
+			}
+		}
+	}
+	pg.base.activity_sp_story[531] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-4をクリア",
+		change_background = "star_level_bg_600",
+		name = "EP1-5 水面下の会談",
+		story = "YOUYINGMICHENG5",
+		change_bgm = "battle-visioncity-1",
+		id = 531,
+		pre_event = {
+			530
+		},
+		lock = {
+			{
+				4,
+				530
+			}
+		}
+	}
+	pg.base.activity_sp_story[532] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-5をクリア",
+		change_background = "bg_youyingmicheng_2",
+		name = "EP1-6 暴走の前触れ",
+		story = "YOUYINGMICHENG6",
+		change_bgm = "story-visioncity-1",
+		id = 532,
+		pre_event = {
+			531
+		},
+		lock = {
+			{
+				4,
+				531
+			}
+		}
+	}
+	pg.base.activity_sp_story[533] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-6をクリア",
+		change_background = "star_level_bg_497",
+		name = "EP2-1 ジャベリンを探して",
+		story = "2066002",
+		change_bgm = "battle-visioncity-1",
+		id = 533,
+		pre_event = {
+			532
+		},
+		lock = {
+			{
+				4,
+				532
+			}
+		}
+	}
+	pg.base.activity_sp_story[534] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-1をクリア",
+		change_background = "bg_youyingmicheng_cg1",
+		name = "EP2-2 孤独を恐れる子",
+		story = "YOUYINGMICHENG8",
+		change_bgm = "battle-visioncity-1",
+		id = 534,
+		pre_event = {
+			533
+		},
+		lock = {
+			{
+				4,
+				533
+			}
+		}
+	}
+	pg.base.activity_sp_story[535] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-2をクリア",
+		change_background = "bg_youyingmicheng_6",
+		name = "EP2-3 市庁舎",
+		story = "YOUYINGMICHENG9",
+		change_bgm = "battle-visioncity-1",
+		id = 535,
+		pre_event = {
+			534
+		},
+		lock = {
+			{
+				4,
+				534
+			}
+		}
+	}
+	pg.base.activity_sp_story[536] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-3をクリア",
+		change_background = "bg_youyingmicheng_1",
+		name = "EP2-4 人間と妖異",
+		story = "YOUYINGMICHENG10",
+		change_bgm = "battle-visioncity-1",
+		id = 536,
+		pre_event = {
+			535
+		},
+		lock = {
+			{
+				4,
+				535
+			}
+		}
+	}
+	pg.base.activity_sp_story[537] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-4をクリア",
+		change_background = "bg_youyingmicheng_cg3",
+		name = "EP2-5 特別使者",
+		story = "YOUYINGMICHENG11",
+		change_bgm = "battle-visioncity-1",
+		id = 537,
+		pre_event = {
+			536
+		},
+		lock = {
+			{
+				4,
+				536
+			}
+		}
+	}
+	pg.base.activity_sp_story[538] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-5をクリア",
+		change_background = "bg_guild_blue_n",
+		name = "EP3-1 幸福の名において",
+		story = "YOUYINGMICHENG12",
+		change_bgm = "battle-visioncity-1",
+		id = 538,
+		pre_event = {
+			537
+		},
+		lock = {
+			{
+				4,
+				537
+			}
+		}
+	}
+	pg.base.activity_sp_story[539] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-1をクリア",
+		change_background = "bg_youyingmicheng_4",
+		name = "EP3-2 再会せし力",
+		story = "YOUYINGMICHENG13",
+		change_bgm = "battle-visioncity-1",
+		id = 539,
+		pre_event = {
+			538
+		},
+		lock = {
+			{
+				4,
+				538
+			}
+		}
+	}
+	pg.base.activity_sp_story[540] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-2をクリア",
+		change_background = "bg_youyingmicheng_4",
+		name = "EP3-3 新紀元シティNO.5",
+		story = "YOUYINGMICHENG14",
+		change_bgm = "battle-visioncity-1",
+		id = 540,
+		pre_event = {
+			539
+		},
+		lock = {
+			{
+				4,
+				539
+			}
+		}
+	}
+	pg.base.activity_sp_story[541] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-3をクリア",
+		change_background = "bg_guild_blue_n",
+		name = "EP3-4 化け物たち御一行",
+		story = "YOUYINGMICHENG15",
+		change_bgm = "battle-visioncity-1",
+		id = 541,
+		pre_event = {
+			540
+		},
+		lock = {
+			{
+				4,
+				540
+			}
+		}
+	}
+	pg.base.activity_sp_story[542] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-4をクリア",
+		change_background = "bg_youyingmicheng_4",
+		name = "EP3-5 破局",
+		story = "YOUYINGMICHENG16",
+		change_bgm = "story-visioncity-1",
+		id = 542,
+		pre_event = {
+			541
+		},
+		lock = {
+			{
+				4,
+				541
+			}
+		}
+	}
+	pg.base.activity_sp_story[543] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-5をクリア",
+		change_background = "bg_youyingmicheng_4",
+		name = "EP3-6 4都市討伐戦Ⅰ",
+		story = "2066003",
+		change_bgm = "story-visioncity-1",
+		id = 543,
+		pre_event = {
+			542
+		},
+		lock = {
+			{
+				4,
+				542
+			}
+		}
+	}
+	pg.base.activity_sp_story[544] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-6をクリア",
+		change_background = "bg_youyingmicheng_4",
+		name = "EP3-7 4都市討伐戦Ⅱ",
+		story = "2066004",
+		change_bgm = "story-visioncity-1",
+		id = 544,
+		pre_event = {
+			543
+		},
+		lock = {
+			{
+				4,
+				543
+			}
+		}
+	}
+	pg.base.activity_sp_story[545] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-7をクリア",
+		change_background = "star_level_bg_170",
+		name = "EP4-1 安土に挑む",
+		story = "2066005",
+		change_bgm = "battle-visioncity-1",
+		id = 545,
+		pre_event = {
+			544
+		},
+		lock = {
+			{
+				4,
+				544
+			}
+		}
+	}
+	pg.base.activity_sp_story[546] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-1をクリア",
+		change_background = "bg_guild_blue_n",
+		name = "EP4-2 安全着陸",
+		story = "YOUYINGMICHENG20",
+		change_bgm = "battle-visioncity-1",
+		id = 546,
+		pre_event = {
+			545
+		},
+		lock = {
+			{
+				4,
+				545
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.activity_sp_story[547] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-2をクリア",
+		change_background = "bg_youyingmicheng_cg5_hx",
+		name = "EP4-3 子どもたちの議会",
+		story = "YOUYINGMICHENG21",
+		change_bgm = "battle-visioncity-1",
+		id = 547,
+		pre_event = {
+			546
+		},
+		lock = {
+			{
+				4,
+				546
+			}
+		}
+	}
+	pg.base.activity_sp_story[548] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-3をクリア",
+		change_background = "star_level_bg_306",
+		name = "EP4-4 勇気と決意",
+		story = "YOUYINGMICHENG22",
+		change_bgm = "story-visioncity-1",
+		id = 548,
+		pre_event = {
+			547
+		},
+		lock = {
+			{
+				4,
+				547
+			}
+		}
+	}
+	pg.base.activity_sp_story[549] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-4をクリア",
+		change_background = "bg_youyingmicheng_3",
+		name = "EP4-5 普通じゃない後方要員",
+		story = "2066006",
+		change_bgm = "battle-visioncity-1",
+		id = 549,
+		pre_event = {
+			548
+		},
+		lock = {
+			{
+				4,
+				548
+			}
+		}
+	}
+	pg.base.activity_sp_story[550] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-5をクリア",
+		change_background = "bg_youyingmicheng_3",
+		name = "EP4-6 新生ノ焔",
+		story = "YOUYINGMICHENG24",
+		change_bgm = "battle-visioncity-1",
+		id = 550,
+		pre_event = {
+			549
+		},
+		lock = {
+			{
+				4,
+				549
 			}
 		}
 	}

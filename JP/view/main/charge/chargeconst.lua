@@ -26,22 +26,22 @@ end
 slot0.getGoodsLimitInfo = function(slot0)
 	slot1, slot2, slot3 = nil
 
-	if pg.shop_template[slot0] then
-		if type(slot5.limit_args[1]) == "table" then
-			for slot10, slot11 in ipairs(slot5.limit_args) do
-				if slot11[1] == "level" then
-					slot1 = slot11[2]
-				elseif slot12 == "count" then
-					slot2 = slot11[2]
-					slot3 = slot11[3]
+	if ShopConst.GetShopConfig(slot0) then
+		if type(slot4.limit_args[1]) == "table" then
+			for slot9, slot10 in ipairs(slot4.limit_args) do
+				if slot10[1] == "level" then
+					slot1 = slot10[2]
+				elseif slot11 == "count" then
+					slot2 = slot10[2]
+					slot3 = slot10[3]
 				end
 			end
-		elseif type(slot6) == "string" then
-			if slot6 == "level" then
-				slot1 = slot5.limit_args[2]
-			elseif slot6 == "count" then
-				slot2 = slot5.limit_args[2]
-				slot3 = slot5.limit_args[3]
+		elseif type(slot5) == "string" then
+			if slot5 == "level" then
+				slot1 = slot4.limit_args[2]
+			elseif slot5 == "count" then
+				slot2 = slot4.limit_args[2]
+				slot3 = slot4.limit_args[3]
 			end
 		end
 	end

@@ -1028,7 +1028,7 @@ slot9.DispatchBulletEvent = function(slot0, slot1, slot2)
 	end
 
 	if type(slot4.spawn_bound) == "table" then
-		slot3 = slot3 or (not slot0._dataProxy:GetStageInfo().mainUnitPosition or not slot6[slot0._hostIFF] or Clone(slot6[slot0._hostIFF][slot4.spawn_bound[1]])) and Clone(uv0.MAIN_UNIT_POS[slot0._hostIFF][slot4.spawn_bound[1]])
+		slot3 = slot3 or Vector3.New(slot3.x + (slot7[1] or 0), slot3.y + (slot7[2] or 0), slot3.z + (slot7[3] or 0))
 	end
 
 	slot0:DispatchEvent(uv1.Event.New(uv1.Battle.BattleUnitEvent.CREATE_BULLET, {

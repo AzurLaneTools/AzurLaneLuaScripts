@@ -100,7 +100,7 @@ end
 
 return {
 	CheckPretest = function ()
-		return NetConst.GATEWAY_HOST == "bl-kr-test.xdg.com" and NetConst.GATEWAY_PORT == 30001 or IsUnityEditor
+		return NetConst.getwayType == 2 or IsUnityEditor
 	end,
 	GetPNInfo = function ()
 		slot0 = "null"

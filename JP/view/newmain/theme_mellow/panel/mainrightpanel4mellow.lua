@@ -19,4 +19,10 @@ slot0.SetEffectVisible = function(slot0, slot1)
 	setActive(findTF(slot0._tf, "1/battle/FX"), slot1)
 end
 
+slot0.ShowOrHideBtnEffect = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.btns) do
+		slot6:ShowOrHideBtnEffect(slot1)
+	end
+end
+
 return slot0

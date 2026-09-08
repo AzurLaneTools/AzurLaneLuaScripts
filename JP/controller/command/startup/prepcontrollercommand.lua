@@ -344,6 +344,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.ACT_CARD_PUZZLE, ActivityCardPuzzleCombatCommand)
 	slot0.facade:registerCommand(GAME.CASTLE_ACT_OP, CastleActivityCommand)
 	slot0.facade:registerCommand(GAME.ACT_MANUAL_SIGN, ActivityManualSignCommand)
+	slot0.facade:registerCommand(GAME.ACT_MANUAL_SIGN_DONE, ManualSignDoneCommand)
 	slot0.facade:registerCommand(GAME.SENRANKAGURA_TRAIN_ACT_OP, SenrankaguraTrainCommand)
 	slot0.facade:registerCommand(GAME.ACT_RANDOM_DAILY_TASK, ActivityRandomDailyTaskCommand)
 	slot0.facade:registerCommand(GAME.ACTIVITY_STORE_DATE, ActivityStoreDataCommand)
@@ -728,6 +729,10 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.AUCTION_GAME_PREORDER_BOX, AuctionGamePreorderBoxCommand)
 	slot0.facade:registerCommand(GAME.AUCTION_GAME_OPEN_BOX, AuctionGameOpenBoxCommand)
 	slot0.facade:registerCommand(GAME.AUCTION_GAME_GET_RELIEF, AuctionGameGetReliefCommand)
+	slot0.facade:registerCommand(GAME.REVERSE_PACMAN_HIRE_ROLE, ReversePacmanHireRoleCommand)
+	slot0.facade:registerCommand(GAME.REVERSE_PACMAN_GIFT_ROLE, ReversePacmanGiftRoleCommand)
+	slot0.facade:registerCommand(GAME.REVERSE_PACMAN_ADD_FAVORABILITY, ReversePacmanAddFavorabilityCommand)
+	slot0.facade:registerCommand(GAME.REVERSE_PACMAN_PASS_LEVEL, ReversePacmanPassLevelCommand)
 end
 
 return slot0

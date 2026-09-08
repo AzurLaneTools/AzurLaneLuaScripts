@@ -101,12 +101,7 @@ slot0.addListener = function(slot0)
 end
 
 slot0.updateGoodInfoPanel = function(slot0)
-	slot1 = slot0.goodVO
-	slot2 = Drop.New({
-		type = slot1:getConfig("commodity_type"),
-		id = slot1:getConfig("commodity_id"),
-		count = slot1:getConfig("num")
-	})
+	slot2 = slot0.goodVO:getDropInfo()
 
 	updateDrop(slot0.itemTF, slot2)
 

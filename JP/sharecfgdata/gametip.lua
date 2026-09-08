@@ -10165,6 +10165,11 @@ _G.pg.base.gametip.ship_remould_warning_403994 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_201534 = {
+	tip = "改造(近代化改修)を行うと<color=#92fc63>【主砲砲座+1】</color>\n続けますか？"
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "ボイス更新"
 }
@@ -12915,7 +12920,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「ベニントン」「ヴィックスバーグ」など出現率アップ！"
+	tip = "期間限定建造を累計200回行うと「安土」を確定で入手可能！（最大4隻まで）"
 }
 
 
@@ -15514,7 +15519,7 @@ _G.pg.base.gametip.returner_help = {
 「カムバックミッション」とは、指揮官のログイン状況に応じて「現役指揮官」「カムバック・新人指揮官」に分類され、それぞれ違う報酬を入手できるイベントとなります。
 ■「現役指揮官」「カムバック・新人指揮官」について
 下記の条件を満たした指揮官は「現役指揮官」として分類され、「現役指揮官」専用の目標を達成することで報酬を入手できます。
-・2025年9月12日（金）～10月24日（金）23:59までに一度でもログインしたことがある上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
+・2026年8月26日（水）～9月8日（火）メンテナンスまでに一度でもログインしたことがある。上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
 自分が「現役指揮官」「カムバック指揮官」のどちらに属しているか不明な場合は、カムバックミッションのバナーに表示される内容をご確認ください。
 ■現役指揮官の目標について
 現役指揮官は最大2人の友達に「カムバックミッション」に参加してもらうことができ、友達が専用任務をクリアすると、自分に「カムバックPt」が加算されます。
@@ -15572,17 +15577,17 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "1.「小型艦建造」「大型艦建造」「特型艦建造」から一つを選ぶことで、特別建造のベースになります。（UR艦船は「大型艦建造」「特型艦建造」にしか出現しません）"
 		},
 		{
-			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2026年3月25日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
+			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2026年7月9日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
 		},
 		{
-			info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2%  <color=#d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%"
+			info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2% <color=#、、d797ff>SR</color>...2.5% <color=#3dc6ff>R...2.5%</color> N...2.5%"
 		},
 		{
 			info = [[
 4.「選べる特別建造」の艦船のレアリティ別出現率は通常建造同様、下記となります：
-<color=#FF5C5C>小型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..26%  N..55% 
-<color=#FF5C5C>大型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8% 
-<color=#FF5C5C>特型艦建造</color>  <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8%]]
+<color=#FF5C5C>小型艦建造</color> <color=#ffde38>SSR</color>..7% <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..26% N..55% 
+<color=#FF5C5C>大型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7% <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..51% N..28.8% 
+<color=#FF5C5C>特型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7% <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..51% N..28.8%]]
 		},
 		{
 			info = "5.ベースとなる通常建造とピックアップ艦船を確定した後は「選べる特別建造」の内容の変更はできません"
@@ -51458,6 +51463,41 @@ _G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.shadowcitycollectpage_title_1 = {
+	tip = "記念章"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_2 = {
+	tip = "家具テーマ"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_3 = {
+	tip = "装備外装箱"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_4 = {
+	tip = "イベント報酬"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_1 = {
+	tip = "キャラ"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_2 = {
+	tip = "その他"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_3 = {
+	tip = "装備外装"
+}
+
+
 _G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
 	tip = "輝くmagique"
 }
@@ -51465,6 +51505,369 @@ _G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
 
 _G.pg.base.gametip.shiningmagicsignpage_sign_remain = {
 	tip = "タップ可能回数"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_3 = {
+	tip = "ログインボーナス"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_4 = {
+	tip = "カムバック"
+}
+
+
+_G.pg.base.gametip["20260908gameplay_main_window"] = {
+	tip = {
+		{
+			info = "遊び方："
+		},
+		{
+			info = "1. 「今日は異常な日常」とは、<color=#92fc63>「作戦開始」</color>で出現する各ステージのマップに仲間を配置し、出現する敵キャラを追跡した後に捕まえてステージを攻略していくミニゲームになります。/n 　ステージを攻略し、限定任務をクリアしていくと、様々な報酬を入手することができます。/n"
+		},
+		{
+			info = "2. ミニゲームの各ステージには様々なマップや敵が出現します。仲間を配置すると、その仲間は自動で敵を追跡して捕獲を試みます。なお、ステージには味方キャラを最低1名配置する必要があります。/n 　制限時間内に敵をすべて捕獲するとステージクリアとなります。さらに、残り時間が多いほどステージ評価も上昇します。/n 　ステージは「簡単」「困難」の2種類があり、「困難」は「簡単」のステージを一度クリアすると開放されます。それぞれの難易度は9/14（月）まで毎日2ステージずつ開放され、初回クリア時にイベントPt「調査経費」を入手できます。"
+		},
+		{
+			info = "3. ミニゲームで配置できる味方キャラは全13種存在し、それぞれ固有の性能・挙動を持ちます。/n 　味方キャラのミニゲーム配置を解放するには、下記の条件をすべて満たす必要があります：/n 　　①限定海域ステージのストーリーを進める/n 　　②限定任務をクリアし、アイテム<color=#92fc63>「OPA招待状」</color>を入手する（OPA招待状1枚につき味方キャラを1名解放できます）/n 　条件を満たすと、<color=#92fc63>「仲間開放」</color>→<color=#92fc63>「仲間開放」</color>でその仲間の配置を解放することができます。"
+		},
+		{
+			info = "4. ミニゲームでは味方キャラを配置できるほか、画面下部<color=#92fc63>「現場調整スキル」</color>に編成したスキルを配置することができます。編成できるスキルは「簡単」で1種類、「困難」で2種類までとなります。/n 　プレイ中、これらの「現場調整スキル」を使い、味方を強化したりバリケードを設置して敵の移動を制限したりするなど、仲間を支援することができます。/n 　「現場調整スキル」は<color=#92fc63>「事務管理」</color>→<color=#92fc63>「強化購入」</color>でイベントPt「調査経費」を消費することで使用回数を増やすことができます。"
+		},
+		{
+			info = "5. ミニゲームの味方キャラの性能や詳細情報は「事務管理」→<color=#92fc63>「詳細確認」</color>で確認することができます。また「希望の旋律」を贈ることでそのキャラとの仲を深めることができ、限定ストーリーを解放することができます。/n 　「希望の旋律」は「事務管理」→「強化購入」でイベントPt「調査経費」を消費することで購入できます。"
+		}
+	}
+}
+
+
+_G.pg.base.gametip["20260908gameplay_hire"] = {
+	tip = {
+		{
+			info = "仲間詳細："
+		},
+		{
+			info = "1. 「今日も異常な日常」では様々な仲間を解放でき、ミニゲームに配置できます。"
+		},
+		{
+			info = "2. それぞれの仲間を解放するには、「妖異奇譚」海域画面のストーリーで対応のストーリーを読み進めて、さらに「今日も異常な日常」の「限定任務」にて任務報酬<color=#92fc63>「OPA招待状」</color>を入手する必要があります。/n 　「仲間開放」で「OPA招待状」を消費し、仲間を解放しましょう！"
+		},
+		{
+			info = "3. 仲間それぞれに「基本速度」「妖異特性」「追跡習慣」があります。ミニゲームのマップに配置する際、マップの地形や敵との相性を見極めて配置しましょう。/n/n 　基本速度：キャラの通常移動速度。ただしマップの地形や効果強化に影響されます/n 　妖異特性：キャラの移動時の挙動。直線・曲がり角・交差点で加速/減速したり、動きを止めたりするなどの特性があります/n 　追跡挙動：キャラの追跡時の移動ロジック。「敵の現在位置に向けて追尾する」・「敵の移動経路を予測し先回りする」・「仲間と連携し退路を塞ぐ」の3種が存在します"
+		},
+		{
+			info = "4. 追跡ルート選択時に特定のルートを積極的に選ぶ仲間が存在します"
+		},
+		{
+			info = "5. 仲間を解放すると、専用の会話が再生されます。さらに「希望の旋律」を贈ることで仲を深めることができ、関係レベルが上昇すると専用の会話が開放されます。"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.reverse_pacman_archive = {
+	tip = "仲間情報"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_support = {
+	tip = "強化購入"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy = {
+	tip = "現場調整"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_logistics_sys = {
+	tip = "強化選択"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_remaining_gifts = {
+	tip = "希望の旋律残り：$1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_favourite_increased = {
+	tip = "$1の好感が上がりました！"
+}
+
+
+_G.pg.base.gametip["reverse_pacman_ not_enough_gifts"] = {
+	tip = "希望の旋律が不足しています"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_send_gift = {
+	tip = "贈る"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_owned = {
+	tip = "所持"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_count = {
+	tip = "$1個"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_buy = {
+	tip = "購入"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_upgrade = {
+	tip = "強化"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_sold_out = {
+	tip = "売り切れ"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_role = {
+	tip = "開放対象選択"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_hired_role = {
+	tip = "開放済み"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_hire_tip = {
+	tip = "仲間を開放しますか？"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unlock_role = {
+	tip = "「妖異奇譚」ストーリーを読むとこのキャラを開放可能"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unhire_role = {
+	tip = "キャラを開放すると選択可能"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_speed = {
+	tip = "移動速度"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_ai_type = {
+	tip = "追跡習慣"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_ai_desc = {
+	tip = "妖異特性"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_close = {
+	tip = "Xか画面をタップして閉じる"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_close_1 = {
+	tip = "閉じる"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_chaser_1 = {
+	tip = "追跡型"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_ambusher_1 = {
+	tip = "予測型"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_planner_1 = {
+	tip = "起動型"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_speed_level = {
+	tip = "レベル<color=$1>$2</color>"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_ship_speed = {
+	tip = "速度：$1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy_tip = {
+	tip = "位置を選択して味方を配置"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_level_title = {
+	tip = "ステージ選択"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_ship_title = {
+	tip = "仲間を配置"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_type_1 = {
+	tip = "簡単"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_type_2 = {
+	tip = "困難"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_level_lock_tip = {
+	tip = "「簡単」ステージをクリアすると「困難」ステージが開放"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_0 = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_1 = {
+	tip = "追跡"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_2 = {
+	tip = "予測"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_3 = {
+	tip = "機動"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy_empty = {
+	tip = "味方を1名以上配置してください"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unlock_date_tip = {
+	tip = "$1月$2日開放"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_game_speed_up_tip = {
+	tip = "残り時間が30秒を切りました。作戦速度が上昇！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_cast_block = {
+	tip = "バリケード！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_pick_speed = {
+	tip = "速度上昇！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_pick_giant = {
+	tip = "巨大化！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_award_title = {
+	tip = "初回クリア報酬"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_fail_tips = {
+	tip = "TIPS：敵の移動特性に対応する長所を持っているか、敵より移動速度が速い仲間を配置してください"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_statistics = {
+	tip = "作戦集計"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_time = {
+	tip = "作戦時間：$1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_arrest = {
+	tip = "仲間配置数：$1\n敵収容数：$2"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_timeout = {
+	tip = "時間切れ"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_escape = {
+	tip = "敵が追跡範囲から離れました"
+}
+
+
+_G.pg.base.gametip["260908activity_shop_title"] = {
+	tip = "妖異奇譚"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk1 = {
+	tip = "目標に接近しました。これより収容を開始します"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk2 = {
+	tip = "目標を発見。これより収容を開始します"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk3 = {
+	tip = "報告。目標を付近のエリアで確認"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk4 = {
+	tip = "目標捕捉！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk5 = {
+	tip = "目標の収容を確認！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk6 = {
+	tip = "報告。目標は無事収容しました"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk7 = {
+	tip = "目標を見失いました……"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk8 = {
+	tip = "目標が視界から離れました"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk9 = {
+	tip = "報告。目標が追跡範囲から離れました"
 }
 
 
@@ -51766,4 +52169,9 @@ _G.pg.base.gametip.auto_battle_help = {
 6 「委任可能時間補充」画面では、作戦全権委任状を消費することで<color=#92fc63>当日の委任可能時間を増加</color>させることができます。作戦全権委任状1つにつき、<color=#92fc63>1時間</color>の委任可能時間を増加させることができます。]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.reverse_pacman_no_char = {
+	tip = "まずは「<color=#92fc63>限定任務</color>」で限定任務を解放し、「<color=#92fc63>仲間開放</color>」で仲間を解放しましょう！"
 }

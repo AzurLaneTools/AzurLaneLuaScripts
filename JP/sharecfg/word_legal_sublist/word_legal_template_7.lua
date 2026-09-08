@@ -4,6 +4,16 @@ slot0.word_legal_template_7 = {}
 slot1 = slot0.word_legal_template_7
 
 temp = function()
+	uv0["明"] = {
+		["石"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["樫"] = {
 		["野"] = {
 			this = true
@@ -380,6 +390,15 @@ temp = function()
 	uv0["虎"] = {
 		["賁"] = {
 			this = true
+		},
+		["（"] = {
+			["后"] = {
+				["排"] = {
+					["）"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -525,41 +544,6 @@ temp = function()
 	uv0["定"] = {
 		["安"] = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["ゴ"] = {
-		["リ"] = {
-			["ツ"] = {
-				["ィ"] = {
-					["ア"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["ー"] = {
-			["ル"] = {
-				["デ"] = {
-					["ン"] = {
-						["・"] = {
-							["ハ"] = {
-								["イ"] = {
-									["ン"] = {
-										["ド"] = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
 		}
 	}
 end

@@ -275,7 +275,7 @@ slot0.UpdateFashionDetail = function(slot0, slot1)
 		end)
 	end
 
-	slot6 = slot1.shop_id > 0 and pg.shop_template[slot1.shop_id] or nil
+	slot6 = slot1.shop_id > 0 and ShopConst.GetShopConfig(slot1.shop_id) or nil
 	slot7 = slot6 and not pg.TimeMgr.GetInstance():inTime(slot6.time)
 	slot9 = slot1.id == slot0:GetShipVO():getConfig("skin_id") or ((slot0:GetShipVO():proposeSkinOwned(slot1) or table.contains(slot0.skinList, slot1.id) or slot0:GetShipVO():getRemouldSkinId() == slot1.id and slot0:GetShipVO():isRemoulded()) and 1 or 0) >= 1 or slot1.skin_type == ShipSkin.SKIN_TYPE_OLD or getProxy(ShipSkinProxy):hasSkin(slot1.id)
 	slot10 = getProxy(ShipSkinProxy):getSkinById(slot1.id)

@@ -380,6 +380,11 @@ pg.strategy_data_template.all = {
 	201826,
 	201831,
 	201832,
+	201901,
+	201905,
+	201909,
+	201910,
+	201911,
 	205001,
 	205002,
 	205003,
@@ -4801,6 +4806,71 @@ META艦船：【侵食】1個につき、自身が<color=#92fc63>受けるダメ
 		icon = "200908",
 		arg = {}
 	}
+	pg.base.strategy_data_template[201901] = {
+		buff_id = 201901,
+		name = "怪異空間",
+		desc = "不気味な霧が立ち込めている。戦闘中、味方の回避と命中が5％ダウンし、敵は与ダメージが5％アップし、被ダメージが5％ダウンする",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201901,
+		icon = "201901",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201905] = {
+		buff_id = 201905,
+		name = "共鳴の声",
+		desc = "戦闘中、タイガーによる支援弾幕が出現する",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201905,
+		icon = "201905",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201909] = {
+		buff_id = 201909,
+		name = "一致団結",
+		desc = "戦闘中、味方の数が多いほど強化効果を得る。味方1隻につき、味方全体の与ダメージが1％アップし、受けるダメージを1％軽減する（最大10隻分まで）",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201909,
+		icon = "201909",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201910] = {
+		buff_id = 0,
+		name = "チャレンジモード",
+		desc = "戦闘中、安土の耐久が初めて20％を下回った時に1度だけ発動、<color=#92fc63>暴走状態になり、さらに15秒間あらゆるダメージを無効化する</color>",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201910,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201911] = {
+		buff_id = 0,
+		name = "チャレンジモード",
+		desc = [[
+戦闘中、安土の耐久が20％を下回った時に発動、<color=#92fc63>暴走状態になり、さらに15秒間あらゆるダメージを無効化する</color>；暴走状態終了後、45秒間はこの効果が発動できなくなる。
+暴走状態の安土が発射する弾はダメージを与えなくなるが、弾が味方に命中する度に安土の<color=#92fc63>耐久が上限の3％回復する</color>。
+
+ハードモード仕様：
+味方前衛艦隊の<color=#92fc63>当たり判定が前衛艦隊先頭艦だけになり、さらに当たり判定の大きさが大幅に小さくなる</color>。
+艦船が被弾した時、一定時間無敵になる。
+
+敵が与えるダメージが<color=#ffc038>極大アップ</color>し、さらに敵弾は航空攻撃など一部の方法によって消すことができなくなるが、味方が航空攻撃を発動した時、前衛艦隊先頭の艦船に3秒間持続・すべてのダメージを無効にできる強化を付与する。
+下記装備・スキルは無効になる：
+【ウサウサラストスタンド】、【レインボー・プラン】、【絶対絶命】、【決して屈さぬぞ！】]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201911,
+		icon = "200908",
+		arg = {}
+	}
 	pg.base.strategy_data_template[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -5010,6 +5080,8 @@ META艦船：【侵食】1個につき、自身が<color=#92fc63>受けるダメ
 		icon = "buff_yumia_4",
 		arg = {}
 	}
+end)()
+(function ()
 	pg.base.strategy_data_template[300013] = {
 		buff_id = 0,
 		name = "コアレベルLv1",
@@ -5065,8 +5137,6 @@ META艦船：【侵食】1個につき、自身が<color=#92fc63>受けるダメ
 		icon = "buff_yumia_1",
 		arg = {}
 	}
-end)()
-(function ()
 	pg.base.strategy_data_template[300018] = {
 		buff_id = 0,
 		name = "コアレベルLv2",

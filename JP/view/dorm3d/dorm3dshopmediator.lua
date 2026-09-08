@@ -71,11 +71,7 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 
 		if slot4 and #slot4 > 0 then
-			slot5 = slot0.viewComponent
-
-			slot5:emit(uv0.OPEN_DROP_LAYER, slot4, function ()
-				slot1 = pg.shop_template[uv0.id]
-			end)
+			slot0.viewComponent:emit(uv0.OPEN_DROP_LAYER, slot4)
 		end
 
 		slot0.viewComponent:SetPageBtns()

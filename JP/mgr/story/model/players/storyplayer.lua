@@ -741,11 +741,17 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 						uv1.blocksRaycasts = true
 
 						uv0:HideBranchesWithoutSelected(uv2)
-						uv3(uv4)
+						pg.m02:sendNotification(STORY_EVENT.OPTION_SELECTED, {
+							optionalFlag = uv3
+						})
+						uv4(uv5)
 					end)
 				else
 					setActive(uv0.optionsCg.gameObject, false)
 					uv0:HideBranchesWithoutSelected(uv4)
+					pg.m02:sendNotification(STORY_EVENT.OPTION_SELECTED, {
+						optionalFlag = uv5
+					})
 					uv9(uv10)
 				end
 			end, SFX_PANEL)
@@ -1369,6 +1375,7 @@ slot0.Reset = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.spAnimPanel, false)
 	setActive(slot0.castPanel, false)
 	setActive(slot0.bgPanel, false)
+	setActive(slot0.frontTr, true)
 
 	if not slot1 or not slot1:IsDialogueMode() or not slot2 or not slot2:IsDialogueMode() then
 		setActive(slot0.dialoguePanel, false)

@@ -134,7 +134,9 @@ pg.medal_template.all = {
 	200181,
 	200191,
 	200201,
-	200211
+	200211,
+	200221,
+	200231
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -3028,6 +3030,48 @@ end)()
 		rank = 1,
 		id = 200211,
 		explain1 = "「フラッシュウェーブ：サマーレース」",
+		explain2 = "イベント"
+	}
+	pg.base.medal_template[200221] = {
+		target_id = "51143",
+		name = "妖異都市記念勲章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "光と影が流れるビルの合間に空中列車が行き交う。華やかな街並みの裏には、闇が静かに広がり蠢いている。新紀元シティNO.7へようこそ――",
+		next = 0,
+		icon = "9221",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9221",
+		condition = "「妖異奇譚」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200221,
+		explain1 = "「妖異奇譚」",
+		explain2 = "イベント"
+	}
+	pg.base.medal_template[200231] = {
+		target_id = "51154",
+		name = "怪異出没記念勲章",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "陽はいつも通りに昇り、列車はいつも通りに走り出す。都市に溶け込んだ怪異たちも、今日も一生懸命に日常を送っているみたい♪",
+		next = 0,
+		icon = "9231",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9231",
+		condition = "「今日も異常な日常」記念ステッカーを\n7つ集める",
+		rank = 1,
+		id = 200231,
+		explain1 = "「今日も異常な日常」",
 		explain2 = "イベント"
 	}
 end)()

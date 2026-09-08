@@ -4298,6 +4298,44 @@ pg.memory_template.all = {
 	5425,
 	5426,
 	5427,
+	5441,
+	5442,
+	5443,
+	5444,
+	5445,
+	5446,
+	5447,
+	5448,
+	5449,
+	5450,
+	5451,
+	5452,
+	5453,
+	5454,
+	5455,
+	5456,
+	5457,
+	5458,
+	5459,
+	5460,
+	5461,
+	5462,
+	5463,
+	5464,
+	5471,
+	5472,
+	5473,
+	5474,
+	5475,
+	5476,
+	5477,
+	5478,
+	5479,
+	5480,
+	5481,
+	5482,
+	5483,
+	5484,
 	5431,
 	5432,
 	5433,
@@ -81987,6 +82025,692 @@ end)()
 			"BAIFENG7"
 		}
 	}
+	pg.base.memory_template[5441] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "怪異事件調査センター",
+		condition = "EP1-1開始",
+		story = "YOUYINGMICHENG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5441,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG1"
+		}
+	}
+	pg.base.memory_template[5442] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "現場勤務班",
+		condition = "EP1-2開始",
+		story = "YOUYINGMICHENG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5442,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG2"
+		}
+	}
+	pg.base.memory_template[5443] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "怪異空間",
+		condition = "EP1-3開始",
+		story = "YOUYINGMICHENG3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5443,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG3"
+		}
+	}
+	pg.base.memory_template[5444] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "収容成功",
+		condition = "EP1-4開始",
+		story = "2066001",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5444,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2066001"
+		}
+	}
+	pg.base.memory_template[5445] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "水面下の会談",
+		condition = "EP1-5開始",
+		story = "YOUYINGMICHENG5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5445,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG5"
+		}
+	}
+	pg.base.memory_template[5446] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "暴走の前触れ",
+		condition = "EP1-6開始",
+		story = "YOUYINGMICHENG6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5446,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG6"
+		}
+	}
+end)()
+(function ()
+	pg.base.memory_template[5447] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "ジャベリンを探して",
+		condition = "EP2-1開始",
+		story = "2066002",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5447,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2066002"
+		}
+	}
+	pg.base.memory_template[5448] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "孤独を恐れる子",
+		condition = "EP2-2開始",
+		story = "YOUYINGMICHENG8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5448,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG8"
+		}
+	}
+	pg.base.memory_template[5449] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "市庁舎",
+		condition = "EP2-3開始",
+		story = "YOUYINGMICHENG9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5449,
+		icon = "memory_youyingmicheng2",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG9"
+		}
+	}
+	pg.base.memory_template[5450] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "人間と妖異",
+		condition = "EP2-4開始",
+		story = "YOUYINGMICHENG10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5450,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG10"
+		}
+	}
+	pg.base.memory_template[5451] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "特別使者",
+		condition = "EP2-5開始",
+		story = "YOUYINGMICHENG11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5451,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG11"
+		}
+	}
+	pg.base.memory_template[5452] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幸福の名において",
+		condition = "EP3-1開始",
+		story = "YOUYINGMICHENG12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5452,
+		icon = "memory_youyingmicheng3",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG12"
+		}
+	}
+	pg.base.memory_template[5453] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "再会せし力",
+		condition = "EP3-2開始",
+		story = "YOUYINGMICHENG13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5453,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG13"
+		}
+	}
+	pg.base.memory_template[5454] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新紀元シティNO.5",
+		condition = "EP3-3開始",
+		story = "YOUYINGMICHENG14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5454,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG14"
+		}
+	}
+	pg.base.memory_template[5455] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "化け物たち御一行",
+		condition = "EP3-4開始",
+		story = "YOUYINGMICHENG15",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5455,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG15"
+		}
+	}
+	pg.base.memory_template[5456] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "破局",
+		condition = "EP3-5開始",
+		story = "YOUYINGMICHENG16",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5456,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG16"
+		}
+	}
+	pg.base.memory_template[5457] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "4都市討伐戦Ⅰ",
+		condition = "EP3-6開始",
+		story = "2066003",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5457,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066003"
+		}
+	}
+	pg.base.memory_template[5458] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "4都市討伐戦Ⅱ",
+		condition = "EP3-7開始",
+		story = "2066004",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5458,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066004"
+		}
+	}
+	pg.base.memory_template[5459] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "安土に挑む",
+		condition = "EP4-1開始",
+		story = "2066005",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5459,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066005"
+		}
+	}
+	pg.base.memory_template[5460] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "安全着陸",
+		condition = "EP4-2開始",
+		story = "YOUYINGMICHENG20",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5460,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG20"
+		}
+	}
+	pg.base.memory_template[5461] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "子どもたちの議会",
+		condition = "EP4-3開始",
+		story = "YOUYINGMICHENG21",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5461,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG21"
+		}
+	}
+	pg.base.memory_template[5462] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "勇気と決意",
+		condition = "EP4-4開始",
+		story = "YOUYINGMICHENG22",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5462,
+		icon = "memory_youyingmicheng5",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG22"
+		}
+	}
+	pg.base.memory_template[5463] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "普通じゃない後方要員",
+		condition = "EP4-5開始",
+		story = "2066006",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5463,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066006"
+		}
+	}
+	pg.base.memory_template[5464] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新生ノ焔",
+		condition = "EP4-6開始",
+		story = "YOUYINGMICHENG24",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5464,
+		icon = "memory_youyingmicheng6",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG24"
+		}
+	}
+	pg.base.memory_template[5471] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新人研修映像.vob",
+		condition = "「今日も異常な日常」を開始する",
+		story = "YICHANGDERICHANGJINXINGZHONG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5471,
+		icon = "memory_yichangderichangjinxingzhong1",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG1"
+		}
+	}
+	pg.base.memory_template[5472] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "水辺の星",
+		condition = "「今日も異常な日常」でタイガーの共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5472,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG2"
+		}
+	}
+	pg.base.memory_template[5473] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ミッドナイト・チャンネル",
+		condition = "「今日も異常な日常」でフリードリヒ・カールの共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5473,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG3"
+		}
+	}
+	pg.base.memory_template[5474] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ヨクボウに舞え",
+		condition = "「今日も異常な日常」でヨルクの共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5474,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG4"
+		}
+	}
+	pg.base.memory_template[5475] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "お人形さんコレクション",
+		condition = "「今日も異常な日常」でヘイスティの共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5475,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG5"
+		}
+	}
+	pg.base.memory_template[5476] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "手に入れられた獲物",
+		condition = "「今日も異常な日常」でゴールデン・ハインドの共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5476,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG6"
+		}
+	}
+	pg.base.memory_template[5477] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "天気雨の狐嫁",
+		condition = "「今日も異常な日常」で白鳳の共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5477,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG7"
+		}
+	}
+	pg.base.memory_template[5478] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽霊彷徨える夜",
+		condition = "「今日も異常な日常」でイラストリアスの共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5478,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG8"
+		}
+	}
+	pg.base.memory_template[5479] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "チェシャーネコのメルヘンメイズ",
+		condition = "「今日も異常な日常」でチェシャーの共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5479,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG9"
+		}
+	}
+	pg.base.memory_template[5480] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "路地裏の誘い",
+		condition = "「今日も異常な日常」でライオンの共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5480,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG10"
+		}
+	}
+	pg.base.memory_template[5481] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "潮騒の輝き",
+		condition = "「今日も異常な日常」でホスタイルの共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5481,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG11"
+		}
+	}
+	pg.base.memory_template[5482] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "縁を織る雪",
+		condition = "「今日も異常な日常」で翔鶴の共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5482,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG12"
+		}
+	}
+	pg.base.memory_template[5483] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仮面は虚無なり",
+		condition = "「今日も異常な日常」で伊14の共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5483,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG13"
+		}
+	}
+	pg.base.memory_template[5484] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "スリリングエレベーター",
+		condition = "「今日も異常な日常」で安土の共感を最大にする",
+		story = "YICHANGDERICHANGJINXINGZHONG14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5484,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG14"
+		}
+	}
 	pg.base.memory_template[5431] = {
 		ship_group = 0,
 		subtitle = "",
@@ -82095,8 +82819,6 @@ end)()
 			"DUSHIQIUZHIDAZUOZHAN6"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5437] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83213,6 +83935,8 @@ end)()
 			"YINGHUA10"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10061] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83897,8 +84621,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA18"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20018] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85015,6 +85737,8 @@ end)()
 			"LINGHANGYUANTANXIN28"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20080] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85699,8 +86423,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA37"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20118] = {
 		ship_group = 0,
 		subtitle = "",
@@ -86817,6 +87539,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA31"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20181] = {
 		ship_group = 0,
 		subtitle = "",

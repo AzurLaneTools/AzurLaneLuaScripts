@@ -558,7 +558,7 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 			id = slot13:GetResType(),
 			count = slot14
 		})
-		slot18 = pg.shop_template[slot12]
+		slot18 = ShopConst.GetShopConfig(slot12)
 
 		onButton(slot0, slot4:Find("GO"), function ()
 			uv1:emit(Dorm3dFurnitureSelectMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {

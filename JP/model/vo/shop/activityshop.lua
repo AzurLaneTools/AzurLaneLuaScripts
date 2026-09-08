@@ -207,4 +207,12 @@ slot0.GetBGM = function(slot0)
 	return pg.activity_template[slot0.activityId].config_client.bgm or ""
 end
 
+slot0.IsHide = function(slot0)
+	if slot0.config.config_client == "" then
+		return false
+	end
+
+	return slot0.config.config_client.isHide
+end
+
 return slot0

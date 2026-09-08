@@ -91,7 +91,8 @@ pg.login.all = {
 	95,
 	96,
 	97,
-	98
+	98,
+	99
 }
 pg.base = pg.base or {}
 pg.base.login = {}
@@ -3222,5 +3223,67 @@ pg.base.login = {}
 		login_static = "login",
 		login_cri = "",
 		bgm = ""
+	}
+	pg.base.login[99] = {
+		op_play = 1,
+		effective_channel = 0,
+		id = 99,
+		login_static = "login",
+		login_cri = "",
+		bgm = "login-JP9th",
+		date = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					10,
+					0,
+					0
+				}
+			}
+		},
+		op_time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					17
+				},
+				{
+					10,
+					0,
+					0
+				}
+			}
+		}
 	}
 end)()

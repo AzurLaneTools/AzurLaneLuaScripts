@@ -87,7 +87,7 @@ slot0.GetItemName = function(slot0)
 end
 
 slot0.ShopId2SkinId = function(slot0, slot1)
-	return pg.shop_template[slot1].effect_args[1]
+	return ShopConst.GetShopConfig(slot1).effect_args[1]
 end
 
 slot0.GetOwnCount = function(slot0)
