@@ -23,7 +23,7 @@ slot0.bindConfigTable = function(slot0)
 end
 
 slot0.CanPurchase = function(slot0)
-	if slot0:GetDropInfo():getOwnedLimit() > 0 and slot2 <= slot1:getOwnedCount() then
+	if slot0:getDropInfo():getOwnedLimit() > 0 and slot2 <= slot1:getOwnedCount() then
 		return false
 	end
 
@@ -62,7 +62,7 @@ slot0.GetLimit = function(slot0)
 	return slot0:getConfig("goods_purchase_limit")
 end
 
-slot0.GetDropInfo = function(slot0)
+slot0.getDropInfo = function(slot0)
 	return Drop.New({
 		type = slot0:getConfig("drop_type"),
 		id = slot0:getConfig("goods")[1],

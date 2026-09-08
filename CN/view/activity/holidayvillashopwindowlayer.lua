@@ -79,12 +79,7 @@ slot0.updateCount = function(slot0, slot1)
 end
 
 slot0.didEnter = function(slot0)
-	slot1 = slot0.goods
-	slot2 = {
-		type = slot1:getConfig("commodity_type"),
-		id = slot1:getConfig("commodity_id"),
-		count = slot1:getConfig("num")
-	}
+	slot2 = slot0.goods:getDropInfo()
 	slot3 = slot0._tf:Find("content/main")
 
 	updateDrop(slot3:Find("icon/IconTpl"), slot2)

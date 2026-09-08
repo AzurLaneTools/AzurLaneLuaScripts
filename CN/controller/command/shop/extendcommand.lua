@@ -5,7 +5,7 @@ slot0.execute = function(slot0, slot1)
 	slot4 = slot2.count
 	slot6 = getProxy(PlayerProxy):getData()
 
-	if pg.shop_template[slot2.id].effect_args == ShopArgs.EffecetEquipBagSize then
+	if ShopConst.GetShopConfig(slot2.id).effect_args == ShopArgs.EffecetEquipBagSize then
 		slot6:addEquipmentBagCount(slot7.num * slot4)
 	elseif slot7.effect_args == ShopArgs.EffecetShipBagSize then
 		slot6:addShipBagCount(slot7.num * slot4)

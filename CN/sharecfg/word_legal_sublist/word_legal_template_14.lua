@@ -4,6 +4,78 @@ slot0.word_legal_template_14 = {}
 slot1 = slot0.word_legal_template_14
 
 temp = function()
+	uv0["水"] = {
+		["星"] = {
+			["纪"] = {
+				["念"] = {
+					this = true,
+					["."] = {
+						["改"] = {
+							this = true
+						}
+					},
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["濑"] = {
+			["伊"] = {
+				["织"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["恰"] = {
+		["巴"] = {
+			["耶"] = {
+				["夫"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["古"] = {
+		["比"] = {
+			["雪"] = {
+				["夫"] = {
+					this = true
+				}
+			}
+		},
+		["手"] = {
+			["川"] = {
+				["唯"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["摩"] = {
 		["尔"] = {
 			["曼"] = {
@@ -450,60 +522,6 @@ temp = function()
 			["萝"] = {
 				["丝"] = {
 					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["冈"] = {
-		["依"] = {
-			["沙"] = {
-				["瓦"] = {
-					["号"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["君"] = {
-		["主"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["菈"] = {
-		["菈"] = {
-			["·"] = {
-				["撒"] = {
-					["塔"] = {
-						["琳"] = {
-							["·"] = {
-								["戴"] = {
-									["比"] = {
-										["路"] = {
-											["克"] = {
-												this = true
-											}
-										}
-									}
-								}
-							}
-						}
-					}
 				}
 			}
 		}

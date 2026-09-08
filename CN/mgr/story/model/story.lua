@@ -9,6 +9,7 @@ slot0.MODE_SPANIM = 7
 slot0.MODE_BLINK = 8
 slot0.MODE_TDDIALOGUE = 9
 slot0.MODE_SUBPAGE = 10
+slot0.MODE_CG = 11
 slot0.STORY_AUTO_SPEED = {
 	-9,
 	0,
@@ -33,7 +34,8 @@ slot0.GetStoryStepCls = function(slot0)
 		SpAnimStep,
 		BlinkStep,
 		TDDialogueStep,
-		SubPageStep
+		SubPageStep,
+		CGStep
 	})[slot0]
 end
 

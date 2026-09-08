@@ -167,14 +167,18 @@ slot0.Selectable = function(slot0)
 	return false
 end
 
+slot0.getDropInfo = function(slot0)
+	return Drop.New({
+		type = slot0:getConfig("commodity_type"),
+		id = slot0:getConfig("commodity_id"),
+		count = slot0:getConfig("num")
+	})
+end
+
 slot0.GetDropList = function(slot0)
 	slot1 = {}
 
-	table.insert(slot1, Drop.New({
-		count = 1,
-		type = slot0:getConfig("commodity_type"),
-		id = slot0:getConfig("commodity_id")
-	}))
+	table.insert(slot1, slot0:getDropInfo())
 
 	return slot1
 end

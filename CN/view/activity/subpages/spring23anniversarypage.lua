@@ -135,7 +135,7 @@ slot0.initData = function(slot0)
 			slot7 = slot6[1]
 
 			if slot6[2] and slot8 ~= 0 then
-				slot10, slot11 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot8].time)
+				slot10, slot11 = pg.TimeMgr.GetInstance():inTime(ShopConst.GetShopConfig(slot8).time)
 
 				if not slot10 then
 					table.insert(slot1, slot7)

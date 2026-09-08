@@ -289,40 +289,6 @@ slot0.Live2dIsDownload = function(slot0)
 end
 
 slot0.Fold = function(slot0, slot1, slot2)
-	LeanTween.cancel(slot0._tf.gameObject)
-	LeanTween.cancel(slot0._bgTf.gameObject)
-
-	if slot1 and not slot0.silentFlag then
-		slot4 = slot0.shift
-		slot6 = slot0.painting
-		slot5 = Vector3(0 - slot6:GetOffset(), slot4:GetMeshImageShift().y, 0)
-		slot6 = LeanTween.moveLocal(slot0._tf.gameObject, slot5, slot2)
-
-		slot6:setEase(LeanTweenType.easeInOutExpo)
-
-		slot7 = LeanTween.moveLocal(slot0._bgTf.gameObject, slot5 - (slot0._tf.localPosition - slot0._bgTf.localPosition), slot2)
-		slot7 = slot7:setEase(LeanTweenType.easeInOutExpo)
-
-		slot7:setOnComplete(System.Action(function ()
-			uv0.painting:Fold(uv1, uv2)
-		end))
-	elseif slot0.ship then
-		slot3 = slot0:GetPositionAndScale(slot0.ship)
-		slot4 = LeanTween.moveLocal(slot0._tf.gameObject, slot3, slot2)
-
-		slot4:setEase(LeanTweenType.easeInOutExpo)
-
-		slot4 = LeanTween.moveLocal(slot0._bgTf.gameObject, slot3, slot2)
-		slot4 = slot4:setEase(LeanTweenType.easeInOutExpo)
-
-		slot4:setOnComplete(System.Action(function ()
-			if uv0.exited then
-				return
-			end
-
-			uv0.painting:Fold(uv1, uv2)
-		end))
-	end
 end
 
 slot0.EnableOrDisableScale = function(slot0, slot1)

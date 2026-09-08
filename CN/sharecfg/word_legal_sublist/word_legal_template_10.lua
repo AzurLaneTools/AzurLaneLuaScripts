@@ -4,6 +4,36 @@ slot0.word_legal_template_10 = {}
 slot1 = slot0.word_legal_template_10
 
 temp = function()
+	uv0["狏"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["狳"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["犰"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["獒"] = {
 		this = {
 			this = true
@@ -147,6 +177,16 @@ temp()
 
 temp = function()
 	uv0["鳐"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鮟"] = {
 		this = {
 			this = true
 		}
@@ -322,75 +362,6 @@ temp = function()
 	uv0["鳂"] = {
 		this = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["鲪"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["鳉"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["鸱"] = {
-		this = {
-			this = true
-		},
-		["·"] = {
-			M = {
-				E = {
-					T = {
-						A = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["鸢"] = {
-		this = {
-			this = true
-		},
-		["·"] = {
-			M = {
-				E = {
-					T = {
-						A = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["一"] = {
-			["折"] = {
-				["纸"] = {
-					this = true
-				}
-			}
 		}
 	}
 end

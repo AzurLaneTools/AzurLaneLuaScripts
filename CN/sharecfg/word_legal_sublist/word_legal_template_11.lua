@@ -4,6 +4,75 @@ slot0.word_legal_template_11 = {}
 slot1 = slot0.word_legal_template_11
 
 temp = function()
+	uv0["鲪"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鳉"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鸱"] = {
+		this = {
+			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鸢"] = {
+		this = {
+			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["一"] = {
+			["折"] = {
+				["纸"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["凤"] = {
 		this = {
 			this = true
@@ -322,6 +391,9 @@ temp = function()
 	uv0["十"] = {
 		["纱"] = {
 			this = true
+		},
+		["诗"] = {
+			this = true
 		}
 	}
 end
@@ -443,103 +515,6 @@ temp = function()
 		["5"] = {
 			["2"] = {
 				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["莉"] = {
-		["泽"] = {
-			["洛"] = {
-				["特"] = {
-					this = true
-				}
-			}
-		},
-		["普"] = {
-			["莎"] = {
-				this = true
-			}
-		},
-		["拉"] = {
-			["·"] = {
-				["德"] = {
-					["西"] = {
-						["亚"] = {
-							["斯"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["沃"] = {
-		["尔"] = {
-			["普"] = {
-				["加"] = {
-					this = true
-				}
-			}
-		},
-		["克"] = {
-			["兰"] = {
-				this = true
-			}
-		},
-		["登"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["汉"] = {
-		["娜"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["妮"] = {
-		["米"] = {
-			this = true
-		},
-		["丝"] = {
-			this = true
-		},
-		["可"] = {
-			this = true
-		},
-		["露"] = {
-			this = true
-		},
-		["娅"] = {
-			this = true
-		},
-		["娜"] = {
-			["·"] = {
-				["弗"] = {
-					["里"] = {
-						["德"] = {
-							this = true
-						}
-					}
-				}
 			}
 		}
 	}

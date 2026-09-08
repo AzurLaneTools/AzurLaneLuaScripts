@@ -273,54 +273,56 @@ slot0.onUpdateLocal = function(slot0)
 end
 
 slot0.SetVisible = function(slot0, slot1)
-	slot0._visible = slot1
+	onDelayTick(function ()
+		uv0._visible = uv1
 
-	if slot0._spinePaintingData.effectParent then
-		setActive(slot0._spinePaintingData.effectParent, slot1)
-	end
-
-	pg.ViewUtils.SetLayer(slot0._tf, slot1 and Layer.UI or Layer.UIHidden)
-	setActiveViaLayer(slot0._spinePaintingData.effectParent, slot1)
-
-	slot0._lightValue = nil
-	slot0._effectShowFlag = true
-	slot0._dragPassFlag = true
-
-	if slot0._skeletonGraphic then
-		slot0._skeletonGraphic.timeScale = slot1 and 1 or 0
-	end
-
-	if not slot1 then
-		slot0.mainSpineAnim:SetActionCallBack(nil)
-
-		slot0.inAction = false
-		slot0.clickActionList = {}
-
-		if LeanTween.isTweening(go(slot0._tf)) then
-			LeanTween.cancel(go(slot0._tf))
+		if uv0._spinePaintingData.effectParent then
+			setActive(uv0._spinePaintingData.effectParent, uv1)
 		end
 
-		if slot0._baseShader then
-			if slot0._skeletonGraphic then
-				slot0._skeletonGraphic.material.shader = slot0._baseShader
+		pg.ViewUtils.SetLayer(uv0._tf, uv1 and Layer.UI or Layer.UIHidden)
+		setActiveViaLayer(uv0._spinePaintingData.effectParent, uv1)
+
+		uv0._lightValue = nil
+		uv0._effectShowFlag = true
+		uv0._dragPassFlag = true
+
+		if uv0._skeletonGraphic then
+			uv0._skeletonGraphic.timeScale = uv1 and 1 or 0
+		end
+
+		if not uv1 then
+			uv0.mainSpineAnim:SetActionCallBack(nil)
+
+			uv0.inAction = false
+			uv0.clickActionList = {}
+
+			if LeanTween.isTweening(go(uv0._tf)) then
+				LeanTween.cancel(go(uv0._tf))
 			end
 
-			slot0._baseShader = nil
+			if uv0._baseShader then
+				if uv0._skeletonGraphic then
+					uv0._skeletonGraphic.material.shader = uv0._baseShader
+				end
+
+				uv0._baseShader = nil
+			end
+
+			uv0._displayWord = false
+		else
+			uv0._skeletonGraphic:Update(Time.deltaTime)
 		end
 
-		slot0._displayWord = false
-	else
-		slot0._skeletonGraphic:Update(Time.deltaTime)
-	end
+		uv0:playPaintingInitIdle()
+		uv0:playPaintingInitSkin()
+		uv0:updateLink()
 
-	slot0:playPaintingInitIdle()
-	slot0:playPaintingInitSkin()
-	slot0:updateLink()
-
-	if not slot1 then
-		slot0:unloadCueSheet()
-		pg.CriMgr.GetInstance():DisposePaintingBgm()
-	end
+		if not uv1 then
+			uv0:unloadCueSheet()
+			pg.CriMgr.GetInstance():DisposePaintingBgm()
+		end
+	end, 0.05)
 end
 
 slot0.playPaintingInitIdle = function(slot0)
@@ -506,42 +508,27 @@ end
 
 slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot3.fold
-	slot6 = slot3.effect_hide
-	slot7 = slot3.action_cv
-	slot8 = slot3.finish_cv
-	slot9 = slot3.alpha_data and slot3.alpha_data or nil
-	slot11 = slot3.clear_track and slot3.clear_track or nil
-	slot12 = slot3.idle and slot3.idle or nil
-	slot14 = slot3.action
-	slot15 = slot3.event
-	slot16 = slot3.skin_change and slot3.skin_change or nil
-	slot17, slot18, slot19 = nil
+	slot6 = slot3.fold_chat and slot3.fold_chat or nil
+	slot7 = slot3.effect_hide
+	slot8 = slot3.action_cv
+	slot9 = slot3.finish_cv
+	slot10 = slot3.alpha_data and slot3.alpha_data or nil
+	slot12 = slot3.clear_track and slot3.clear_track or nil
+	slot13 = slot3.idle and slot3.idle or nil
+	slot15 = slot3.action
+	slot16 = slot3.event
+	slot17 = slot3.skin_change and slot3.skin_change or nil
+	slot18, slot19, slot20 = nil
 
-	if type(slot3.change_idle) == "table" and type(slot14) == "table" then
-		slot20 = math.random(1, #slot14)
-		slot17 = slot14[slot20]
-		slot19 = slot13[slot20]
-	elseif type(slot12) == "table" and type(slot14) == "table" then
-		slot17 = slot14[table.indexof(slot12, slot0:getIdleName())]
+	if type(slot3.change_idle) == "table" and type(slot15) == "table" then
+		slot21 = math.random(1, #slot15)
+		slot18 = slot15[slot21]
+		slot20 = slot14[slot21]
+	elseif type(slot13) == "table" and type(slot15) == "table" then
+		slot18 = slot15[table.indexof(slot13, slot0:getIdleName())]
 
-		if type(slot13) == "table" then
-			slot19 = slot13[slot20]
-		end
-	end
-
-	if not slot17 then
-		if type(slot14) == "string" then
-			slot17 = slot14
-		elseif type(slot14) == "table" then
-			slot17 = slot14[math.random(1, #slot14)]
-		end
-	end
-
-	if not slot19 then
-		if type(slot13) == "string" then
-			slot19 = slot13
-		elseif type(slot13) == "table" then
-			slot19 = slot13[math.random(1, #slot13)]
+		if type(slot14) == "table" then
+			slot20 = slot14[slot21]
 		end
 	end
 
@@ -553,19 +540,35 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
+	if not slot20 then
+		if type(slot14) == "string" then
+			slot20 = slot14
+		elseif type(slot14) == "table" then
+			slot20 = slot14[math.random(1, #slot14)]
+		end
+	end
+
+	if not slot19 then
+		if type(slot16) == "string" then
+			slot19 = slot16
+		elseif type(slot16) == "table" then
+			slot19 = slot16[math.random(1, #slot16)]
+		end
+	end
+
 	if slot1 == SpinePaintingConst.drag_type_normal then
-		if slot9 and #slot9 > 0 then
-			slot0:SetAlphaData(slot9)
+		if slot10 and #slot10 > 0 then
+			slot0:SetAlphaData(slot10)
 		end
 
-		slot21 = slot3.material_time and slot3.material_time or nil
+		slot22 = slot3.material_time and slot3.material_time or nil
 
 		if slot3.material and slot3.material or nil then
 			if LeanTween.isTweening(go(slot0._tf)) then
 				return false
 			end
 
-			slot0:getSpineMaterial(slot20, function (slot0)
+			slot0:getSpineMaterial(slot21, function (slot0)
 				uv0._skeletonGraphic.material = slot0
 
 				if uv1 then
@@ -578,34 +581,44 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 			end)
 		end
 
-		if slot11 and #slot11 > 0 then
-			for slot25, slot26 in ipairs(slot11) do
-				slot0:SetEmptyAction(slot26)
+		if slot12 and #slot12 > 0 then
+			for slot26, slot27 in ipairs(slot12) do
+				slot0:SetEmptyAction(slot27)
 			end
 		end
 
-		if slot17 and slot17 ~= "" and slot0:checkActionPlayAble(slot17, false, 0) then
-			print("播放动作 .." .. slot17 .. "下一个待机动作 .. " .. slot19)
+		if slot18 and slot18 ~= "" and slot0:checkActionPlayAble(slot18, false, 0) then
+			print("播放动作 .." .. slot18 .. "下一个待机动作 .. " .. slot20)
 
 			if slot5 then
-				pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, true)
+				pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, {
+					flag = true,
+					content = {
+						chat = slot6
+					}
+				})
 			end
 
-			slot0:setEffectVisible(slot6, false)
-			slot0:SetActionWithFinishCallback(slot17, 0, function ()
+			slot0:setEffectVisible(slot7, false)
+			slot0:SetActionWithFinishCallback(slot18, 0, function ()
 				if uv0 and uv0 ~= "" then
 					uv1:changeSkeletonSkin(uv0)
 				end
 
 				if uv2 then
-					pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, false)
+					pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, {
+						flag = false,
+						content = {
+							chat = uv3
+						}
+					})
 				end
 
-				uv1:changePaintingIdle(uv3 and uv3 or uv1:getIdleName())
-				uv1:setEffectVisible(uv4, true)
+				uv1:changePaintingIdle(uv4 and uv4 or uv1:getIdleName())
+				uv1:setEffectVisible(uv5, true)
 
-				if uv5 and uv5 ~= "" then
-					uv1:PlayCv(uv5)
+				if uv6 and uv6 ~= "" then
+					uv1:PlayCv(uv6)
 				end
 			end, false, function ()
 				if uv0 and uv0 ~= "" then
@@ -618,17 +631,17 @@ slot0.doDragAction = function(slot0, slot1, slot2, slot3, slot4)
 			end)
 		end
 
-		if not slot17 or slot17 == "" then
-			if slot16 and slot16 ~= "" then
-				slot0:changeSkeletonSkin(slot16)
+		if not slot18 or slot18 == "" then
+			if slot17 and slot17 ~= "" then
+				slot0:changeSkeletonSkin(slot17)
 			end
 
-			if slot19 and slot19 ~= "" then
-				slot0:changePaintingIdle(slot19)
+			if slot20 and slot20 ~= "" then
+				slot0:changePaintingIdle(slot20)
 			end
 
-			if slot18 and type(slot18) == "string" and slot0._eventTriggerCall then
-				slot0._eventTriggerCall(slot18)
+			if slot19 and type(slot19) == "string" and slot0._eventTriggerCall then
+				slot0._eventTriggerCall(slot19)
 			end
 
 			return false

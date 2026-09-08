@@ -40,7 +40,8 @@ slot0.execute = function(slot0, slot1)
 
 			uv1:sendNotification(GAME.ACT_MANUAL_SIGN_DONE, {
 				awards = slot1,
-				id = uv2
+				id = uv2,
+				cmd = uv0.cmd
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

@@ -457,4 +457,8 @@ slot0.GetCvDataForShip = function(slot0, slot1)
 	return slot5, slot7, slot6, slot8, slot9, slot8 == -1
 end
 
+slot0.GetShipWord = function(slot0, slot1, slot2, slot3)
+	return uv0(uv1[slot0][slot1], slot2)
+end
+
 return slot0

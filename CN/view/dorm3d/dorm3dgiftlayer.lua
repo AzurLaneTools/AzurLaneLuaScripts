@@ -185,7 +185,7 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 		slot17 = nil
 
 		_.each(slot9:getConfig("shop_id"), function (slot0)
-			if pg.shop_template[slot0].group_type == 2 then
+			if ShopConst.GetShopConfig(slot0).group_type == 2 then
 				uv0 = math.max(slot1.group_limit, uv0)
 			end
 		end)

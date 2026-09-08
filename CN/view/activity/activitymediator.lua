@@ -627,8 +627,6 @@ slot0.initNotificationHandleDic = function(slot0)
 			}, Goods.TYPE_CHARGE))
 		end,
 		[GAME.SHOPPING_DONE] = function (slot0, slot1)
-			warning("yzh")
-
 			slot3 = slot0.viewComponent
 
 			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards, function ()

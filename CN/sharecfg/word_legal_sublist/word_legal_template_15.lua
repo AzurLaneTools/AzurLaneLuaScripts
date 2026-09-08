@@ -4,6 +4,60 @@ slot0.word_legal_template_15 = {}
 slot1 = slot0.word_legal_template_15
 
 temp = function()
+	uv0["冈"] = {
+		["依"] = {
+			["沙"] = {
+				["瓦"] = {
+					["号"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["君"] = {
+		["主"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["菈"] = {
+		["菈"] = {
+			["·"] = {
+				["撒"] = {
+					["塔"] = {
+						["琳"] = {
+							["·"] = {
+								["戴"] = {
+									["比"] = {
+										["路"] = {
+											["克"] = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["梦"] = {
 		["梦"] = {
 			["·"] = {
@@ -391,101 +445,6 @@ temp = function()
 	uv0["久"] = {
 		["远"] = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["猫"] = {
-		["音"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["绊"] = {
-		["爱"] = {
-			this = true,
-			["·"] = {
-				E = {
-					l = {
-						e = {
-							g = {
-								a = {
-									n = {
-										t = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				},
-				A = {
-					n = {
-						n = {
-							i = {
-								v = {
-									e = {
-										r = {
-											s = {
-												a = {
-													r = {
-														y = {
-															this = true
-														}
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				},
-				S = {
-					u = {
-						p = {
-							e = {
-								r = {
-									G = {
-										a = {
-											m = {
-												e = {
-													r = {
-														this = true
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["白"] = {
-		["上"] = {
-			["吹"] = {
-				["雪"] = {
-					this = true
-				}
-			}
 		}
 	}
 end

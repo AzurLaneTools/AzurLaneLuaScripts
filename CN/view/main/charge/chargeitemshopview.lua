@@ -225,47 +225,47 @@ slot0.updateItemGoodsVOList = function(slot0)
 		0
 	}
 
-	for slot5, slot6 in pairs(pg.shop_template.all) do
-		if slot1[slot6].genre == "gem_shop" then
-			slot8, slot9, slot10 = ChargeConst.getGoodsLimitInfo(slot6)
-			slot11 = false
+	for slot4, slot5 in pairs(pg.shop_template.all) do
+		if ShopConst.GetShopConfig(slot5).genre == "gem_shop" then
+			slot7, slot8, slot9 = ChargeConst.getGoodsLimitInfo(slot5)
+			slot10 = false
 
-			if slot7.effect_args == "ship_bag_size" and slot9 and slot10 then
-				if slot9 <= slot0.player:getMaxShipBagExcludeGuild() and slot13 <= slot10 then
-					slot11 = true
+			if slot6.effect_args == "ship_bag_size" and slot8 and slot9 then
+				if slot8 <= slot0.player:getMaxShipBagExcludeGuild() and slot12 <= slot9 then
+					slot10 = true
 				end
-			elseif slot12 == "equip_bag_max" and slot9 and slot10 then
-				if slot9 <= slot0.player:getMaxEquipmentBag() and slot13 <= slot10 then
-					slot11 = true
+			elseif slot11 == "equip_bag_max" and slot8 and slot9 then
+				if slot8 <= slot0.player:getMaxEquipmentBag() and slot12 <= slot9 then
+					slot10 = true
 				end
-			elseif slot12 == "commander_bag_size" and slot9 and slot10 then
-				if slot9 <= slot0.player.commanderBagMax and slot13 <= slot10 then
-					slot11 = true
+			elseif slot11 == "commander_bag_size" and slot8 and slot9 then
+				if slot8 <= slot0.player.commanderBagMax and slot12 <= slot9 then
+					slot10 = true
 				end
 			else
-				slot11 = true
+				slot10 = true
 			end
 
-			if slot11 == true then
+			if slot10 == true then
 				table.insert(slot0.itemGoodsVOList, Goods.Create({
 					count = 0,
-					shop_id = slot6
+					shop_id = slot5
 				}, Goods.TYPE_MILITARY))
 			end
 		end
 	end
 
-	for slot5 = #slot0.itemGoodsVOList, 1, -1 do
-		slot6 = slot0.itemGoodsVOList[slot5]
+	for slot4 = #slot0.itemGoodsVOList, 1, -1 do
+		slot5 = slot0.itemGoodsVOList[slot4]
 
-		if not slot6:IsShowWhenGroupSale(ChargeConst.getGroupLimit(slot0.normalGroupList, slot6:getConfig("group"))) then
-			table.remove(slot0.itemGoodsVOList, slot5)
+		if not slot5:IsShowWhenGroupSale(ChargeConst.getGroupLimit(slot0.normalGroupList, slot5:getConfig("group"))) then
+			table.remove(slot0.itemGoodsVOList, slot4)
 		end
 	end
 
-	for slot5, slot6 in ipairs(slot0.itemGoodsVOList) do
-		if not table.contains(slot0.packageSortList, slot1[slot6.id].package_sort_id) then
-			table.insert(slot0.packageSortList, slot7)
+	for slot4, slot5 in ipairs(slot0.itemGoodsVOList) do
+		if not table.contains(slot0.packageSortList, ShopConst.GetShopConfig(slot5.id).package_sort_id) then
+			table.insert(slot0.packageSortList, slot6)
 		end
 	end
 

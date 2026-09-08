@@ -95930,6 +95930,526 @@ _G.pg.base.ship_data_statistics[201164] = {
 }
 
 
+_G.pg.base.ship_data_statistics[201191] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "敌对",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 201191,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Hostile",
+	oxy_cost = 0,
+	skin_id = 201190,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		236,
+		16,
+		72,
+		29,
+		0,
+		75,
+		0,
+		73,
+		78,
+		43.2,
+		28,
+		47
+	},
+	attrs_growth = {
+		6717,
+		219,
+		912,
+		629,
+		0,
+		523,
+		0,
+		1125,
+		1428,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[201192] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "敌对",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 201192,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Hostile",
+	oxy_cost = 0,
+	skin_id = 201190,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		294,
+		20,
+		90,
+		36,
+		0,
+		75,
+		0,
+		73,
+		78,
+		43.2,
+		28,
+		59
+	},
+	attrs_growth = {
+		6717,
+		219,
+		912,
+		629,
+		0,
+		523,
+		0,
+		1125,
+		1428,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[201193] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "敌对",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 201193,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Hostile",
+	oxy_cost = 0,
+	skin_id = 201190,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		409,
+		28,
+		125,
+		50,
+		0,
+		75,
+		0,
+		73,
+		78,
+		43.2,
+		28,
+		82
+	},
+	attrs_growth = {
+		6717,
+		219,
+		912,
+		629,
+		0,
+		523,
+		0,
+		1125,
+		1428,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[201194] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "敌对",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 201194,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Hostile",
+	oxy_cost = 0,
+	skin_id = 201190,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		581,
+		39,
+		178,
+		71,
+		0,
+		75,
+		0,
+		73,
+		78,
+		43.2,
+		28,
+		117
+	},
+	attrs_growth = {
+		6717,
+		219,
+		912,
+		629,
+		0,
+		523,
+		0,
+		1125,
+		1428,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.35,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	},
+	gift_dislike = {
+		180006,
+		180009
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[201201] = {
 	nationality = 2,
 	oxy_max = 0,
@@ -104282,6 +104802,526 @@ _G.pg.base.ship_data_statistics[201384] = {
 }
 
 
+_G.pg.base.ship_data_statistics[201401] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "匆忙",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 201401,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Hasty",
+	oxy_cost = 0,
+	skin_id = 201400,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		228,
+		15,
+		68,
+		33,
+		0,
+		77,
+		0,
+		73,
+		78,
+		43.2,
+		35,
+		50
+	},
+	attrs_growth = {
+		6483,
+		213,
+		882,
+		718,
+		0,
+		534,
+		0,
+		1125,
+		1428,
+		0,
+		0,
+		574
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[201402] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "匆忙",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 201402,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Hasty",
+	oxy_cost = 0,
+	skin_id = 201400,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		284,
+		19,
+		85,
+		41,
+		0,
+		77,
+		0,
+		73,
+		78,
+		43.2,
+		35,
+		62
+	},
+	attrs_growth = {
+		6483,
+		213,
+		882,
+		718,
+		0,
+		534,
+		0,
+		1125,
+		1428,
+		0,
+		0,
+		574
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[201403] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "匆忙",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 201403,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Hasty",
+	oxy_cost = 0,
+	skin_id = 201400,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		395,
+		26,
+		119,
+		57,
+		0,
+		77,
+		0,
+		73,
+		78,
+		43.2,
+		35,
+		87
+	},
+	attrs_growth = {
+		6483,
+		213,
+		882,
+		718,
+		0,
+		534,
+		0,
+		1125,
+		1428,
+		0,
+		0,
+		574
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[201404] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "匆忙",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 201404,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Hasty",
+	oxy_cost = 0,
+	skin_id = 201400,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		561,
+		38,
+		170,
+		81,
+		0,
+		77,
+		0,
+		73,
+		78,
+		43.2,
+		35,
+		125
+	},
+	attrs_growth = {
+		6483,
+		213,
+		882,
+		718,
+		0,
+		534,
+		0,
+		1125,
+		1428,
+		0,
+		0,
+		574
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.35,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[201514] = {
 	nationality = 2,
 	oxy_max = 0,
@@ -104535,6 +105575,137 @@ _G.pg.base.ship_data_statistics[201524] = {
 	},
 	gift_dislike = {
 		180007,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[201534] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 1,
+	name = "勇敢.改",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 201534,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Hardy",
+	oxy_cost = 0,
+	skin_id = 201160,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		603,
+		37,
+		176,
+		72,
+		0,
+		74,
+		0,
+		72,
+		78,
+		43.2,
+		40,
+		117
+	},
+	attrs_growth = {
+		6968,
+		207,
+		904,
+		642,
+		0,
+		513,
+		0,
+		1112,
+		1428,
+		0,
+		0,
+		542
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.35,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"H-Class",
+		"Hardy"
+	},
+	gift_dislike = {
+		180009,
 		180008
 	}
 }
@@ -123203,6 +124374,530 @@ _G.pg.base.ship_data_statistics[202374] = {
 	},
 	gift_dislike = {
 		180007,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[202381] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 2,
+	name = "虎",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 202381,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Tiger",
+	oxy_cost = 0,
+	skin_id = 202380,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		806,
+		36,
+		0,
+		80,
+		0,
+		78,
+		0,
+		60,
+		29,
+		31.5,
+		65,
+		40
+	},
+	attrs_growth = {
+		22975,
+		498,
+		0,
+		1633,
+		0,
+		541,
+		0,
+		886,
+		579,
+		0,
+		0,
+		466
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		101,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.15,
+		1.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Tiger"
+	},
+	gift_dislike = {
+		180005,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[202382] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 2,
+	name = "虎",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 202382,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Tiger",
+	oxy_cost = 0,
+	skin_id = 202380,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1003,
+		45,
+		0,
+		100,
+		0,
+		78,
+		0,
+		60,
+		29,
+		31.5,
+		65,
+		50
+	},
+	attrs_growth = {
+		22975,
+		498,
+		0,
+		1633,
+		0,
+		541,
+		0,
+		886,
+		579,
+		0,
+		0,
+		466
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		101,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		1.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Tiger"
+	},
+	gift_dislike = {
+		180005,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[202383] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 2,
+	name = "虎",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 202383,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Tiger",
+	oxy_cost = 0,
+	skin_id = 202380,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1396,
+		63,
+		0,
+		139,
+		0,
+		78,
+		0,
+		60,
+		29,
+		31.5,
+		65,
+		69
+	},
+	attrs_growth = {
+		22975,
+		498,
+		0,
+		1633,
+		0,
+		541,
+		0,
+		886,
+		579,
+		0,
+		0,
+		466
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		101,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		1.5
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Tiger"
+	},
+	gift_dislike = {
+		180005,
+		180009
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[202384] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 2,
+	name = "虎",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 202384,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Tiger",
+	oxy_cost = 0,
+	skin_id = 202380,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1986,
+		89,
+		0,
+		197,
+		0,
+		78,
+		0,
+		60,
+		29,
+		31.5,
+		65,
+		99
+	},
+	attrs_growth = {
+		22975,
+		498,
+		0,
+		1633,
+		0,
+		541,
+		0,
+		886,
+		579,
+		0,
+		0,
+		466
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		101,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		1.5
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Tiger"
+	},
+	gift_dislike = {
+		180005,
 		180009
 	}
 }
@@ -209513,6 +211208,522 @@ _G.pg.base.ship_data_statistics[304084] = {
 }
 
 
+_G.pg.base.ship_data_statistics[304091] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 4,
+	name = "安土",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 304091,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Azuchi",
+	oxy_cost = 0,
+	skin_id = 304090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1330,
+		88,
+		69,
+		50,
+		0,
+		65,
+		0,
+		26,
+		8,
+		30,
+		50,
+		0
+	},
+	attrs_growth = {
+		37898,
+		1060,
+		884,
+		1091,
+		0,
+		450,
+		0,
+		379,
+		246,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Azuchi"
+	},
+	gift_dislike = {
+		180006,
+		180007
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[304092] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 4,
+	name = "安土",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 304092,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Azuchi",
+	oxy_cost = 0,
+	skin_id = 304090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1654,
+		110,
+		86,
+		62,
+		0,
+		65,
+		0,
+		26,
+		8,
+		30,
+		50,
+		0
+	},
+	attrs_growth = {
+		37898,
+		1060,
+		884,
+		1091,
+		0,
+		450,
+		0,
+		379,
+		246,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Azuchi"
+	},
+	gift_dislike = {
+		180006,
+		180007
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[304093] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 4,
+	name = "安土",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 304093,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Azuchi",
+	oxy_cost = 0,
+	skin_id = 304090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2303,
+		153,
+		120,
+		87,
+		0,
+		65,
+		0,
+		26,
+		8,
+		30,
+		50,
+		0
+	},
+	attrs_growth = {
+		37898,
+		1060,
+		884,
+		1091,
+		0,
+		450,
+		0,
+		379,
+		246,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Azuchi"
+	},
+	gift_dislike = {
+		180006,
+		180007
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[304094] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 4,
+	name = "安土",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 304094,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Azuchi",
+	oxy_cost = 0,
+	skin_id = 304090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3277,
+		219,
+		171,
+		124,
+		0,
+		65,
+		0,
+		26,
+		8,
+		30,
+		50,
+		0
+	},
+	attrs_growth = {
+		37898,
+		1060,
+		884,
+		1091,
+		0,
+		450,
+		0,
+		379,
+		246,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Azuchi"
+	},
+	gift_dislike = {
+		180006,
+		180007
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[305011] = {
 	nationality = 3,
 	oxy_max = 0,
@@ -239941,6 +242152,1034 @@ _G.pg.base.ship_data_statistics[317024] = {
 	gift_dislike = {
 		180005,
 		180004
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[317031] = {
+	nationality = 3,
+	oxy_max = 198,
+	type = 17,
+	name = "伊14",
+	huntingrange_level = 1,
+	star = 3,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 2,
+	id = 317031,
+	summon_offset = -10,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "IJN I14",
+	oxy_cost = 10,
+	skin_id = 317030,
+	attack_duration = 5,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 8,
+	armor_type = 1,
+	attrs = {
+		428,
+		10,
+		98,
+		0,
+		47,
+		40,
+		0,
+		59,
+		7,
+		16.7,
+		28,
+		0
+	},
+	attrs_growth = {
+		12205,
+		139,
+		1176,
+		0,
+		643,
+		277,
+		0,
+		870,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		100
+	},
+	default_equip_list = {
+		140,
+		140,
+		144
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1,
+		1.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				0,
+				-2
+			},
+			{
+				1,
+				2
+			},
+			{
+				3,
+				-1
+			},
+			{
+				3,
+				1
+			}
+		},
+		{
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-3,
+				1
+			}
+		}
+	},
+	tag_list = {
+		"I Type-submarine"
+	},
+	gift_dislike = {
+		180004,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[317032] = {
+	nationality = 3,
+	oxy_max = 198,
+	type = 17,
+	name = "伊14",
+	huntingrange_level = 1,
+	star = 4,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 2,
+	id = 317032,
+	summon_offset = -10,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "IJN I14",
+	oxy_cost = 10,
+	skin_id = 317030,
+	attack_duration = 5,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 8,
+	armor_type = 1,
+	attrs = {
+		533,
+		13,
+		122,
+		0,
+		59,
+		40,
+		0,
+		59,
+		7,
+		16.7,
+		28,
+		0
+	},
+	attrs_growth = {
+		12205,
+		139,
+		1176,
+		0,
+		643,
+		277,
+		0,
+		870,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		100
+	},
+	default_equip_list = {
+		140,
+		140,
+		144
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.05,
+		1.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				0,
+				-2
+			},
+			{
+				1,
+				2
+			},
+			{
+				3,
+				-1
+			},
+			{
+				3,
+				1
+			}
+		},
+		{
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-3,
+				1
+			}
+		}
+	},
+	tag_list = {
+		"I Type-submarine"
+	},
+	gift_dislike = {
+		180004,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[317033] = {
+	nationality = 3,
+	oxy_max = 198,
+	type = 17,
+	name = "伊14",
+	huntingrange_level = 2,
+	star = 5,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 2,
+	id = 317033,
+	summon_offset = -10,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "IJN I14",
+	oxy_cost = 10,
+	skin_id = 317030,
+	attack_duration = 5,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 8,
+	armor_type = 1,
+	attrs = {
+		742,
+		18,
+		171,
+		0,
+		82,
+		40,
+		0,
+		59,
+		7,
+		16.7,
+		28,
+		0
+	},
+	attrs_growth = {
+		12205,
+		139,
+		1176,
+		0,
+		643,
+		277,
+		0,
+		870,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		100
+	},
+	default_equip_list = {
+		140,
+		140,
+		144
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.05,
+		1.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				0,
+				-2
+			},
+			{
+				1,
+				2
+			},
+			{
+				3,
+				-1
+			},
+			{
+				3,
+				1
+			}
+		},
+		{
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-3,
+				1
+			}
+		}
+	},
+	tag_list = {
+		"I Type-submarine"
+	},
+	gift_dislike = {
+		180004,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[317034] = {
+	nationality = 3,
+	oxy_max = 198,
+	type = 17,
+	name = "伊14",
+	huntingrange_level = 2,
+	star = 6,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 2,
+	id = 317034,
+	summon_offset = -10,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "IJN I14",
+	oxy_cost = 10,
+	skin_id = 317030,
+	attack_duration = 5,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 8,
+	armor_type = 1,
+	attrs = {
+		1055,
+		25,
+		244,
+		0,
+		116,
+		40,
+		0,
+		59,
+		7,
+		16.7,
+		28,
+		0
+	},
+	attrs_growth = {
+		12205,
+		139,
+		1176,
+		0,
+		643,
+		277,
+		0,
+		870,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		100
+	},
+	default_equip_list = {
+		140,
+		140,
+		144
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.15,
+		1.5,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				0,
+				-2
+			},
+			{
+				1,
+				2
+			},
+			{
+				3,
+				-1
+			},
+			{
+				3,
+				1
+			}
+		},
+		{
+			{
+				1,
+				-2
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-3,
+				1
+			}
+		}
+	},
+	tag_list = {
+		"I Type-submarine"
+	},
+	gift_dislike = {
+		180004,
+		180008
 	}
 }
 
@@ -429412,6 +432651,141 @@ _G.pg.base.ship_data_statistics[900550] = {
 }
 
 
+_G.pg.base.ship_data_statistics[900559] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 4,
+	name = "虎（后排）",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 900559,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Tiger",
+	oxy_cost = 0,
+	skin_id = 9702060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		3794,
+		219,
+		0,
+		119,
+		0,
+		61,
+		0,
+		19,
+		8,
+		30,
+		41,
+		0
+	},
+	attrs_growth = {
+		41664,
+		1064,
+		0,
+		1044,
+		0,
+		426,
+		0,
+		307,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		90173,
+		96033,
+		90633
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		1.5,
+		1.05
+	},
+	strategy_list = {
+		{
+			18,
+			1
+		}
+	},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Tiger"
+	},
+	gift_dislike = {
+		180009,
+		180005
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[900801] = {
 	nationality = 105,
 	oxy_max = 0,
@@ -431344,6 +434718,137 @@ _G.pg.base.ship_data_statistics[900814] = {
 	gift_dislike = {
 		180007,
 		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900815] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 2,
+	name = "虎",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 900815,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Tiger",
+	oxy_cost = 0,
+	skin_id = 202380,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1986,
+		89,
+		0,
+		197,
+		0,
+		78,
+		0,
+		60,
+		29,
+		31.5,
+		65,
+		99
+	},
+	attrs_growth = {
+		22975,
+		498,
+		0,
+		1633,
+		0,
+		541,
+		0,
+		886,
+		579,
+		0,
+		0,
+		466
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		101,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		1.5
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Tiger"
+	},
+	gift_dislike = {
+		180005,
+		180009
 	}
 }
 
@@ -480616,6 +484121,526 @@ _G.pg.base.ship_data_statistics[9707084] = {
 	gift_dislike = {
 		180009,
 		180005
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9707091] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 7,
+	name = "胜利·META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 5,
+	ammo = 0,
+	id = 9707091,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Victorious.META",
+	oxy_cost = 0,
+	skin_id = 9707090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1086,
+		0,
+		0,
+		58,
+		83,
+		40,
+		0,
+		24,
+		10,
+		31,
+		82,
+		0
+	},
+	attrs_growth = {
+		19815,
+		0,
+		0,
+		763,
+		1014,
+		276,
+		0,
+		343,
+		274,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Armor-CV"
+	},
+	gift_dislike = {
+		180007,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9707092] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 7,
+	name = "胜利·META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 5,
+	ammo = 0,
+	id = 9707092,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Victorious.META",
+	oxy_cost = 0,
+	skin_id = 9707090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1351,
+		0,
+		0,
+		72,
+		103,
+		40,
+		0,
+		24,
+		10,
+		31,
+		82,
+		0
+	},
+	attrs_growth = {
+		19815,
+		0,
+		0,
+		763,
+		1014,
+		276,
+		0,
+		343,
+		274,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.12,
+		1.22,
+		1.22
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Armor-CV"
+	},
+	gift_dislike = {
+		180007,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9707093] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 7,
+	name = "胜利·META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 5,
+	ammo = 0,
+	id = 9707093,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Victorious.META",
+	oxy_cost = 0,
+	skin_id = 9707090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1881,
+		0,
+		0,
+		101,
+		144,
+		40,
+		0,
+		24,
+		10,
+		31,
+		82,
+		0
+	},
+	attrs_growth = {
+		19815,
+		0,
+		0,
+		763,
+		1014,
+		276,
+		0,
+		343,
+		274,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.25,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Armor-CV"
+	},
+	gift_dislike = {
+		180007,
+		180008
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9707094] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 7,
+	name = "胜利·META",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 5,
+	ammo = 0,
+	id = 9707094,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Victorious.META",
+	oxy_cost = 0,
+	skin_id = 9707090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2676,
+		0,
+		0,
+		144,
+		206,
+		40,
+		0,
+		24,
+		10,
+		31,
+		82,
+		0
+	},
+	attrs_growth = {
+		19815,
+		0,
+		0,
+		763,
+		1014,
+		276,
+		0,
+		343,
+		274,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		115,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Armor-CV"
+	},
+	gift_dislike = {
+		180007,
+		180008
 	}
 }
 

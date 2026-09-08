@@ -67,6 +67,7 @@ pg.item_data_frame.all = {
 	341,
 	342,
 	343,
+	344,
 	401,
 	402,
 	404,
@@ -684,11 +685,20 @@ pg.base.item_data_frame = {}
 	}
 	pg.base.item_data_frame[343] = {
 		name = "萌芽之冠",
-		gain_by = "",
+		gain_by = "幽影迷城",
 		time_second = 0,
 		id = 343,
 		time_limit_type = 0,
-		desc = "通过后续活动获得",
+		desc = "「哪怕只有一缕微光，我们也会向着希望生长」",
+		scene = {}
+	}
+	pg.base.item_data_frame[344] = {
+		name = "幽影来袭",
+		gain_by = "异常的日常进行中",
+		time_second = 0,
+		id = 344,
+		time_limit_type = 0,
+		desc = "「收容并非终点，我们终将理解彼此。」",
 		scene = {}
 	}
 	pg.base.item_data_frame[401] = {
@@ -1015,6 +1025,8 @@ pg.base.item_data_frame = {}
 		desc = "金色凤翼展翅，翎羽如光辉般闪烁，神秘而优雅。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:97}的契合度等级获取</color>",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1011] = {
 		name = "深渊之锁 ",
 		gain_by = "",
@@ -1024,8 +1036,6 @@ pg.base.item_data_frame = {}
 		desc = "炽龙自深渊而来，漆黑的锁链上缠绕着不灭的怒雷。\n<color=#A7A7AA>通过提升「宿舍计划」中{namecode:480}的契合度等级获取</color>",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[1012] = {
 		name = "碧海金冠 ",
 		gain_by = "",

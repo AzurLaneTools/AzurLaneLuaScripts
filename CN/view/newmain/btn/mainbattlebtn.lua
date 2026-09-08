@@ -11,4 +11,12 @@ slot0.IsFixed = function(slot0)
 	return true
 end
 
+slot0.ShowOrHideBtnEffect = function(slot0, slot1)
+	if IsNil(slot0._tf:Find("FX")) then
+		return
+	end
+
+	setActive(slot2, slot1)
+end
+
 return slot0

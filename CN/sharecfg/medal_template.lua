@@ -134,7 +134,9 @@ pg.medal_template.all = {
 	200181,
 	200191,
 	200201,
-	200211
+	200211,
+	200221,
+	200231
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -3024,6 +3026,48 @@ end)()
 		rank = 1,
 		id = 200211,
 		explain1 = "「滨海极速」",
+		explain2 = "活动纪念"
+	}
+	pg.base.medal_template[200221] = {
+		target_id = "51143",
+		name = "幽影迷城纪念勋章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "高楼间光影流转，空中列车往来穿梭，看似繁华的表象下，看不见的黑暗正在缓慢滋生。欢迎来到新纪元都市NO.7",
+		next = 0,
+		icon = "9221",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9221",
+		condition = "收集8个「幽影迷城」纪念贴纸。",
+		rank = 1,
+		id = 200221,
+		explain1 = "「幽影迷城」",
+		explain2 = "活动纪念"
+	}
+	pg.base.medal_template[200231] = {
+		target_id = "51154",
+		name = "异常出没纪念勋章",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "阳光照常升起，列车照常开动。融于都市的异常们，今天也在努力地过着日常生活呢~",
+		next = 0,
+		icon = "9231",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9231",
+		condition = "收集7个「异常的日常进行中」纪念贴纸。",
+		rank = 1,
+		id = 200231,
+		explain1 = "「异常的日常进行中」",
 		explain2 = "活动纪念"
 	}
 end)()

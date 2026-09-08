@@ -36,7 +36,7 @@ slot0.updateUI = function(slot0)
 		return
 	end
 
-	slot1, slot2 = slot0.timeMgr:inTime(pg.shop_template[slot0.shop_id].time)
+	slot1, slot2 = slot0.timeMgr:inTime(ShopConst.GetShopConfig(slot0.shop_id).time)
 	slot3 = nil
 
 	if slot2 then

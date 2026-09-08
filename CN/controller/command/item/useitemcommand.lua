@@ -65,7 +65,7 @@ slot0.execute = function(slot0, slot1)
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 			elseif uv3 == ItemUsage.USAGE_SKIN_EXP then
 				slot3 = uv5[1]
-				slot4 = pg.shop_template[slot3]
+				slot4 = ShopConst.GetShopConfig(slot3)
 
 				getProxy(ShipSkinProxy):addSkin(ShipSkin.New({
 					id = slot4.effect_args[1],
@@ -107,7 +107,7 @@ slot0.execute = function(slot0, slot1)
 			elseif uv3 == ItemUsage.EX_RE_MAP then
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 
-				getProxy(ChapterProxy):addRemasterPassCount(uv5[1], ChapterConst.GetActivityIDByReChapterID(uv5[1]))
+				getProxy(ChapterProxy):addRemasterPassCount(uv5[1], ChapterConst.GetActivityIDByReChapterID(uv5[1]), uv2)
 			else
 				assert(false, "未处理类型" .. uv3)
 			end

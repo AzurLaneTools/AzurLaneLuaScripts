@@ -399,7 +399,7 @@ slot0.initNotificationHandleDic = function(slot0)
 				slot0.viewComponent:setNormalGroupList(slot5)
 			end
 
-			slot6 = pg.shop_template[slot2.id]
+			slot6 = ShopConst.GetShopConfig(slot2.id)
 
 			slot0.viewComponent:checkBuyDone(slot2.id)
 			slot0.viewComponent:updateCurSubView()

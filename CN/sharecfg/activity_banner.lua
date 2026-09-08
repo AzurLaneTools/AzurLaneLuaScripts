@@ -27,15 +27,13 @@ pg.activity_banner.get_id_list_by_type = {
 	[2] = {
 		1,
 		2,
-		7,
-		8,
-		9
-	},
-	[3] = {
 		3,
 		4,
 		5,
-		6
+		6,
+		7,
+		8,
+		9
 	},
 	[9] = {
 		90,
@@ -65,6 +63,41 @@ pg.base.activity_banner = {}
 	pg.base.activity_banner[1] = {
 		type = 2,
 		id = 1,
+		pic = "temp1",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[2] = {
+		type = 2,
+		id = 2,
 		pic = "temp2",
 		param = {
 			"scene get boat",
@@ -77,47 +110,10 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
 					9,
 					8
 				},
 				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[2] = {
-		type = 2,
-		id = 2,
-		pic = "temp3",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
 					0,
 					0,
 					0
@@ -127,7 +123,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					7
+					30
 				},
 				{
 					23,
@@ -138,16 +134,21 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[3] = {
-		param = "51127",
-		type = 3,
+		type = 2,
 		id = 3,
-		pic = "temp1",
+		pic = "temp3",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					4
+					8
 				},
 				{
 					0,
@@ -159,27 +160,32 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					8
+					30
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	}
 	pg.base.activity_banner[4] = {
-		param = "51126",
-		type = 3,
+		type = 2,
 		id = 4,
 		pic = "temp4",
+		param = {
+			"scene core activity",
+			{
+				coreName = "ShadowCityCoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					4
+					8
 				},
 				{
 					0,
@@ -191,27 +197,32 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					8
+					30
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	}
 	pg.base.activity_banner[5] = {
-		param = "51129",
-		type = 3,
+		type = 2,
 		id = 5,
 		pic = "temp5",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					4
+					8
 				},
 				{
 					0,
@@ -223,27 +234,32 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					8
+					30
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
 	}
 	pg.base.activity_banner[6] = {
-		param = "51119",
-		type = 3,
+		type = 2,
 		id = 6,
 		pic = "temp6",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					4
+					8
 				},
 				{
 					0,
@@ -255,12 +271,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					8
+					30
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -270,18 +286,14 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
+			"scene court yard"
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					4
+					8
 				},
 				{
 					0,
@@ -293,12 +305,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					8
+					30
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -308,14 +320,17 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene dailylevel"
+			"scene core activity",
+			{
+				coreName = "ShiningMagicCoreActivityUI"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					4
+					8
 				},
 				{
 					0,
@@ -327,12 +342,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					8
+					30
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -342,14 +357,17 @@ pg.base.activity_banner = {}
 		id = 9,
 		pic = "temp9",
 		param = {
-			"metacharacter"
+			"scene get boat",
+			{
+				goToPray = true
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					4
+					8
 				},
 				{
 					0,
@@ -361,12 +379,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					8
+					30
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}

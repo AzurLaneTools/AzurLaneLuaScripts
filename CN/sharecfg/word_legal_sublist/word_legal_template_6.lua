@@ -4,6 +4,53 @@ slot0.word_legal_template_6 = {}
 slot1 = slot0.word_legal_template_6
 
 temp = function()
+	uv0["进"] = {
+		["取"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["虎"] = {
+		this = {
+			this = true
+		},
+		["贲"] = {
+			this = true
+		},
+		["（"] = {
+			["后"] = {
+				["排"] = {
+					["）"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["伦"] = {
+		["敦"] = {
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["什"] = {
 		["罗"] = {
 			["普"] = {
@@ -444,7 +491,18 @@ temp()
 temp = function()
 	uv0["胜"] = {
 		["利"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -491,36 +549,6 @@ temp = function()
 			this = true
 		},
 		["屈"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["恐"] = {
-		["怖"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["桐"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["杉"] = {
-		this = {
 			this = true
 		}
 	}

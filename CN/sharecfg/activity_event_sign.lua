@@ -7,7 +7,8 @@ pg.activity_event_sign.all = {
 	5654,
 	5705,
 	41376,
-	50401
+	50401,
+	51153
 }
 pg.base = pg.base or {}
 pg.base.activity_event_sign = {}
@@ -105,6 +106,21 @@ pg.base.activity_event_sign = {}
 				8,
 				120002,
 				100
+			}
+		}
+	}
+	pg.base.activity_event_sign[51153] = {
+		drop_display = {
+			{},
+			{},
+			{},
+			{},
+			{},
+			{},
+			{
+				2,
+				60599,
+				1
 			}
 		}
 	}

@@ -4,6 +4,101 @@ slot0.word_legal_template_16 = {}
 slot1 = slot0.word_legal_template_16
 
 temp = function()
+	uv0["猫"] = {
+		["音"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["绊"] = {
+		["爱"] = {
+			this = true,
+			["·"] = {
+				E = {
+					l = {
+						e = {
+							g = {
+								a = {
+									n = {
+										t = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				A = {
+					n = {
+						n = {
+							i = {
+								v = {
+									e = {
+										r = {
+											s = {
+												a = {
+													r = {
+														y = {
+															this = true
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				S = {
+					u = {
+						p = {
+							e = {
+								r = {
+									G = {
+										a = {
+											m = {
+												e = {
+													r = {
+														this = true
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["白"] = {
+		["上"] = {
+			["吹"] = {
+				["雪"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["时"] = {
 		["乃"] = {
 			["空"] = {

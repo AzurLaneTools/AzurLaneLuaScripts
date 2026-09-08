@@ -64,11 +64,18 @@ slot0.IsNormalShopMatch = function(slot0)
 	slot1 = pg.shop_template[slot0]
 	slot3 = slot1.time
 
-	if slot1.genre == "skin_shop" then
+	if slot1.genre == ShopArgs.SkinShop then
 		if type(slot3) == "string" and slot3 == "always" then
 			return true
-		elseif type(slot3) == "table" and uv0.IsTwoTimeCross(uv0.GetfilteTime(), uv0.GetStandardTimeConfig(slot3)) then
-			return true
+		elseif type(slot3) == "table" then
+			for slot8, slot9 in ipairs({
+				slot1.time,
+				unpack(slot1.time_new)
+			}) do
+				if uv0.IsTwoTimeCross(uv0.GetfilteTime(), uv0.GetStandardTimeConfig(slot9)) then
+					return true
+				end
+			end
 		end
 	end
 
@@ -231,7 +238,7 @@ slot0.GetNPCShipConfigIDList = function()
 end
 
 slot0.GetSkinIDFromNormalShopID = function(slot0)
-	assert(#pg.shop_template[slot0].effect_args == 1, "shop_template的effect_args字段,元素个数大于1,ID:", slot0)
+	assert(#ShopConst.GetShopConfig(slot0).effect_args == 1, "shop_template的effect_args字段,元素个数大于1,ID:", slot0)
 
 	return slot2[1]
 end

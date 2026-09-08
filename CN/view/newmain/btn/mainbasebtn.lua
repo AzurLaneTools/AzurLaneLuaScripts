@@ -24,4 +24,7 @@ slot0.Dispose = function(slot0)
 	slot0:disposeEvent()
 end
 
+slot0.ShowOrHideBtnEffect = function(slot0, slot1)
+end
+
 return slot0

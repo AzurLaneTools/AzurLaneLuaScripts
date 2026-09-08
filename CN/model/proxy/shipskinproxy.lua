@@ -57,7 +57,7 @@ slot0.register = function(slot0)
 		for slot5, slot6 in ipairs(slot0.forbidden_list) do
 			if not pg.shop_template[slot6.id] then
 				warning("without config in shop_template:" .. slot6.id)
-			elseif slot7.genre ~= "skin_shop" then
+			elseif slot7.genre ~= ShopArgs.SkinShop then
 				warning("config genre error in shop_template:" .. slot6.id)
 			else
 				slot11 = pg.TimeMgr.GetInstance()
@@ -271,9 +271,9 @@ slot0.GetAllSkins = function(slot0)
 			shop_id = slot0
 		}, Goods.TYPE_SKIN))
 
-		slot4, slot5 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0].time)
+		slot5, slot6 = pg.TimeMgr.GetInstance():inTime(slot2.time)
 
-		if (pg.shop_template[slot0].collaboration_skin_time == "" or slot2 == pg.shop_template[slot0].time) and slot4 then
+		if (ShopConst.GetShopConfig(slot0).collaboration_skin_time == "" or slot3 == slot2.time) and slot5 then
 			table.insert(uv1, slot1)
 		end
 	end
@@ -660,7 +660,7 @@ slot0.GetProbabilitySkins = function(slot0, slot1)
 			shop_id = slot0
 		}, Goods.TYPE_SKIN))
 
-		slot2, slot3 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0].time)
+		slot2, slot3 = pg.TimeMgr.GetInstance():inTime(ShopConst.GetShopConfig(slot0).time)
 
 		if slot2 then
 			table.insert(uv1, slot1)

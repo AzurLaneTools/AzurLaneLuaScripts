@@ -189,7 +189,29 @@ pg.activity_limit_item_guide.all = {
 	215,
 	216,
 	217,
-	218
+	218,
+	219,
+	220,
+	221,
+	222,
+	223,
+	224,
+	225,
+	226,
+	227,
+	228,
+	229,
+	230,
+	231,
+	232,
+	233,
+	234,
+	235,
+	236,
+	237,
+	238,
+	239,
+	240
 }
 pg.activity_limit_item_guide.get_id_list_by_activity = {
 	[4937] = {
@@ -400,6 +422,32 @@ pg.activity_limit_item_guide.get_id_list_by_activity = {
 		216,
 		217,
 		218
+	},
+	[51131] = {
+		238,
+		239,
+		240
+	},
+	[51152] = {
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228,
+		229,
+		230,
+		231,
+		232,
+		233,
+		234,
+		235,
+		236,
+		237
 	}
 }
 pg.base = pg.base or {}
@@ -3863,6 +3911,508 @@ end)()
 					}
 				},
 				"补给商店兑换"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[219] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 219,
+		drop_id = 304091,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"限时建造获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[220] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 220,
+		drop_id = 202381,
+		count_storage = 1,
+		link_params = {
+			{
+				3,
+				51134,
+				"「幽影迷城」- UR「虎」兑换活动奖励"
+			},
+			{
+				2,
+				{
+					"scene shop",
+					{
+						warp = "activity"
+					}
+				},
+				"商店兑换获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[221] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 221,
+		drop_id = 317031,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"限时建造获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[222] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 222,
+		drop_id = 201401,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"限时建造获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[223] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 223,
+		drop_id = 201191,
+		count_storage = 1,
+		link_params = {
+			{
+				3,
+				51144,
+				"「幽影迷城」-  「幸福补给站」活动奖励"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[224] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 224,
+		drop_id = 9707091,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						warp = "activity"
+					}
+				},
+				"商店兑换获得"
+			},
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"限时建造获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[225] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 225,
+		drop_id = 348,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene level"
+				},
+				"通关「幽影迷城」D3获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[226] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 226,
+		drop_id = 347,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"完成「异常的日常进行中」纪念任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[227] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 227,
+		drop_id = 349,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						openTaskID = 27616
+					}
+				},
+				"完成「异常的日常进行中」活动任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[228] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 228,
+		drop_id = 350,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						openTaskID = 27617
+					}
+				},
+				"完成「异常的日常进行中」活动任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[229] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 229,
+		drop_id = 3086,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						openTaskID = 27610
+					}
+				},
+				"完成「异常的日常进行中」活动任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[230] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 230,
+		drop_id = 3087,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						openTaskID = 27611
+					}
+				},
+				"完成「异常的日常进行中」活动任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[231] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 231,
+		drop_id = 3088,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						openTaskID = 27612
+					}
+				},
+				"完成「异常的日常进行中」活动任务获得"
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.activity_limit_item_guide[232] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 232,
+		drop_id = 3089,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						openTaskID = 27613
+					}
+				},
+				"完成「异常的日常进行中」活动任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[233] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 233,
+		drop_id = 3090,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						openTaskID = 27614
+					}
+				},
+				"完成「异常的日常进行中」活动任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[234] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 234,
+		drop_id = 3091,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						openTaskID = 27615
+					}
+				},
+				"完成「异常的日常进行中」活动任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[235] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 1,
+		order = 0,
+		id = 235,
+		drop_id = 758,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"完成「幽影迷城」纪念任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[236] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 1,
+		order = 0,
+		id = 236,
+		drop_id = 759,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"完成「异常的日常进行中」纪念任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[237] = {
+		is_new = 1,
+		activity = 51152,
+		count = 1,
+		type = 14,
+		order = 0,
+		id = 237,
+		drop_id = 344,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						openTaskID = 27618
+					}
+				},
+				"完成「异常的日常进行中」活动任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[238] = {
+		is_new = 1,
+		activity = 51131,
+		count = 0,
+		type = 8,
+		order = 0,
+		id = 238,
+		drop_id = 68694,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						openTaskID = 27857
+					}
+				},
+				"完成「异常的日常进行中」活动任务获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[239] = {
+		is_new = 1,
+		activity = 51131,
+		count = 0,
+		type = 8,
+		order = 0,
+		id = 239,
+		drop_id = 68695,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						technologyType = 2
+					}
+				},
+				"在「异常的日常进行中」-「后勤管理」兑换获得"
+			},
+			{
+				2,
+				{
+					"REVERSE_PACMAN_SELECT"
+				},
+				"完成「异常的日常进行中」活动玩法获得"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[240] = {
+		is_new = 1,
+		activity = 51131,
+		count = 0,
+		type = 8,
+		order = 0,
+		id = 240,
+		drop_id = 68691,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"reverse pacman home",
+					{
+						openTaskID = 27608
+					}
+				},
+				"完成「异常的日常进行中」活动任务获得"
+			},
+			{
+				2,
+				{
+					"REVERSE_PACMAN_SELECT"
+				},
+				"完成「异常的日常进行中」活动玩法获得"
 			}
 		}
 	}

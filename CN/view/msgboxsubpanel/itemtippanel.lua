@@ -76,7 +76,7 @@ slot0.ShowOilBuyTip = function(slot0, slot1)
 		return
 	end
 
-	slot4 = pg.shop_template[slot3]
+	slot4 = ShopConst.GetShopConfig(slot3)
 	slot5 = slot4.num
 
 	if slot4.num == -1 and slot4.genre == ShopArgs.BuyOil then

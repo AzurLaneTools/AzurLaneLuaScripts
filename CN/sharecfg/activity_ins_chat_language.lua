@@ -11210,7 +11210,453 @@ pg.activity_ins_chat_language.all = {
 	11205,
 	11206,
 	11207,
-	11208
+	11208,
+	11209,
+	11210,
+	11211,
+	11212,
+	11213,
+	11214,
+	11215,
+	11216,
+	11217,
+	11218,
+	11219,
+	11220,
+	11221,
+	11222,
+	11223,
+	11224,
+	11225,
+	11226,
+	11227,
+	11228,
+	11229,
+	11230,
+	11231,
+	11232,
+	11233,
+	11234,
+	11235,
+	11236,
+	11237,
+	11238,
+	11239,
+	11240,
+	11241,
+	11242,
+	11243,
+	11244,
+	11245,
+	11246,
+	11247,
+	11248,
+	11249,
+	11250,
+	11251,
+	11252,
+	11253,
+	11254,
+	11255,
+	11256,
+	11257,
+	11258,
+	11259,
+	11260,
+	11261,
+	11262,
+	11263,
+	11264,
+	11265,
+	11266,
+	11267,
+	11268,
+	11269,
+	11270,
+	11271,
+	11272,
+	11273,
+	11274,
+	11275,
+	11276,
+	11277,
+	11278,
+	11279,
+	11280,
+	11281,
+	11282,
+	11283,
+	11284,
+	11285,
+	11286,
+	11287,
+	11288,
+	11289,
+	11290,
+	11291,
+	11292,
+	11293,
+	11294,
+	11295,
+	11296,
+	11297,
+	11298,
+	11299,
+	11300,
+	11301,
+	11302,
+	11303,
+	11304,
+	11305,
+	11306,
+	11307,
+	11308,
+	11309,
+	11310,
+	11311,
+	11312,
+	11313,
+	11314,
+	11315,
+	11316,
+	11317,
+	11318,
+	11319,
+	11320,
+	11321,
+	11322,
+	11323,
+	11324,
+	11325,
+	11326,
+	11327,
+	11328,
+	11329,
+	11330,
+	11331,
+	11332,
+	11333,
+	11334,
+	11335,
+	11336,
+	11337,
+	11338,
+	11339,
+	11340,
+	11341,
+	11342,
+	11343,
+	11344,
+	11345,
+	11346,
+	11347,
+	11348,
+	11349,
+	11350,
+	11351,
+	11352,
+	11353,
+	11354,
+	11355,
+	11356,
+	11357,
+	11358,
+	11359,
+	11360,
+	11361,
+	11362,
+	11363,
+	11364,
+	11365,
+	11366,
+	11367,
+	11368,
+	11369,
+	11370,
+	11371,
+	11372,
+	11373,
+	11374,
+	11375,
+	11376,
+	11377,
+	11378,
+	11379,
+	11380,
+	11381,
+	11382,
+	11383,
+	11384,
+	11385,
+	11386,
+	11387,
+	11388,
+	11389,
+	11390,
+	11391,
+	11392,
+	11393,
+	11394,
+	11395,
+	11396,
+	11397,
+	11398,
+	11399,
+	11400,
+	11401,
+	11402,
+	11403,
+	11404,
+	11405,
+	11406,
+	11407,
+	11408,
+	11409,
+	11410,
+	11411,
+	11412,
+	11413,
+	11414,
+	11415,
+	11416,
+	11417,
+	11418,
+	11419,
+	11420,
+	11421,
+	11422,
+	11423,
+	11424,
+	11425,
+	11426,
+	11427,
+	11428,
+	11429,
+	11430,
+	11431,
+	11432,
+	11433,
+	11434,
+	11435,
+	11436,
+	11437,
+	11438,
+	11439,
+	11440,
+	11441,
+	11442,
+	11443,
+	11444,
+	11445,
+	11446,
+	11447,
+	11448,
+	11449,
+	11450,
+	11451,
+	11452,
+	11453,
+	11454,
+	11455,
+	11456,
+	11457,
+	11458,
+	11459,
+	11460,
+	11461,
+	11462,
+	11463,
+	11464,
+	11465,
+	11466,
+	11467,
+	11468,
+	11469,
+	11470,
+	11471,
+	11472,
+	11473,
+	11474,
+	11475,
+	11476,
+	11477,
+	11478,
+	11479,
+	11480,
+	11481,
+	11482,
+	11483,
+	11484,
+	11485,
+	11486,
+	11487,
+	11488,
+	11489,
+	11490,
+	11491,
+	11492,
+	11493,
+	11494,
+	11495,
+	11496,
+	11497,
+	11498,
+	11499,
+	11500,
+	11501,
+	11502,
+	11503,
+	11504,
+	11505,
+	11506,
+	11507,
+	11508,
+	11509,
+	11510,
+	11511,
+	11512,
+	11513,
+	11514,
+	11515,
+	11516,
+	11517,
+	11518,
+	11519,
+	11520,
+	11521,
+	11522,
+	11523,
+	11524,
+	11525,
+	11526,
+	11527,
+	11528,
+	11529,
+	11530,
+	11531,
+	11532,
+	11533,
+	11534,
+	11535,
+	11536,
+	11537,
+	11538,
+	11539,
+	11540,
+	11541,
+	11542,
+	11543,
+	11544,
+	11545,
+	11546,
+	11547,
+	11548,
+	11549,
+	11550,
+	11551,
+	11552,
+	11553,
+	11554,
+	11555,
+	11556,
+	11557,
+	11558,
+	11559,
+	11560,
+	11561,
+	11562,
+	11563,
+	11564,
+	11565,
+	11566,
+	11567,
+	11568,
+	11569,
+	11570,
+	11571,
+	11572,
+	11573,
+	11574,
+	11575,
+	11576,
+	11577,
+	11578,
+	11579,
+	11580,
+	11581,
+	11582,
+	11583,
+	11584,
+	11585,
+	11586,
+	11587,
+	11588,
+	11589,
+	11590,
+	11591,
+	11592,
+	11593,
+	11594,
+	11595,
+	11596,
+	11597,
+	11598,
+	11599,
+	11600,
+	11601,
+	11602,
+	11603,
+	11604,
+	11605,
+	11606,
+	11607,
+	11608,
+	11609,
+	11610,
+	11611,
+	11612,
+	11613,
+	11614,
+	11615,
+	11616,
+	11617,
+	11618,
+	11619,
+	11620,
+	11621,
+	11622,
+	11623,
+	11624,
+	11625,
+	11626,
+	11627,
+	11628,
+	11629,
+	11630,
+	11631,
+	11632,
+	11633,
+	11634,
+	11635,
+	11636,
+	11637,
+	11638,
+	11639,
+	11640,
+	11641,
+	11642,
+	11643,
+	11644,
+	11645,
+	11646,
+	11647,
+	11648,
+	11649,
+	11650,
+	11651,
+	11652,
+	11653,
+	11654
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -110004,5 +110450,3835 @@ end)()
 		type = 4,
 		id = 11208,
 		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11209] = {
+		param = "指挥官你知道吗~我刚办了个科技展哦~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11209,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11210] = {
+		param = "为了发掘那些值得下注的创新发明，我把全港区的知名发明家都请来了！",
+		ship_group = 30409,
+		type = 1,
+		id = 11210,
+		flag = 0,
+		option = {
+			{
+				1,
+				"听起来办得很成功？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11211] = {
+		param = "听起来办得很成功？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11211,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11212] = {
+		param = "有发现什么让你眼前一亮的项目么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11212,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11213] = {
+		param = "当然有~而且是那种一听名字，就让人觉得充满了新时代气息的发明——",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11213,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11214] = {
+		param = "自动泡面机！",
+		ship_group = 30409,
+		type = 1,
+		id = 11214,
+		flag = 1,
+		option = {
+			{
+				2,
+				"听起来……嗯，挺实用的"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11215] = {
+		param = "听起来……嗯，挺实用的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11215,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11216] = {
+		param = "只要把泡面放进去，加好调料，然后加水——",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11216,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11217] = {
+		param = "最后等上3分钟，面就泡好了~",
+		ship_group = 30409,
+		type = 1,
+		id = 11217,
+		flag = 2,
+		option = {
+			{
+				3,
+				"本质上来说……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11218] = {
+		param = "所以，本质上来说……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11218,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11219] = {
+		param = "这是个热水器？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11219,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11220] = {
+		param = "不不不，区别可大了~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11220,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11221] = {
+		param = "普通热水器，只会烧热水，但自动泡面机——能精准控制最适合泡面的出水量~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11221,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11222] = {
+		param = "还内置了3分钟智能倒计时，等待期间甚至可以播放音乐",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11222,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11223] = {
+		param = "这些功能，热水器可做不到~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11223,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11224] = {
+		param = "新概念、新体验、新形式——这就是它值得投资的理由~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11224,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11225] = {
+		param = "我已经抢先下手，给这款发明投了一大笔研发资金",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11225,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11226] = {
+		param = "相信很快，它就会成为改变泡面界格局的划时代产品！",
+		ship_group = 30409,
+		type = 1,
+		id = 11226,
+		flag = 3,
+		option = {
+			{
+				4,
+				"[发呆]"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11227] = {
+		param = "55",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 11227,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11228] = {
+		param = "下次你办这种展会的时候……还是叫上我一起去吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11228,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11229] = {
+		param = "60",
+		ship_group = 30409,
+		option = "",
+		type = 4,
+		id = 11229,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11230] = {
+		param = "呵呵~原来指挥官也对创新发明这么感兴趣么？太好了~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11230,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11231] = {
+		param = "放心，下次展会，我一定第一个通知你~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11231,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11232] = {
+		param = "指挥官~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11232,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11233] = {
+		param = "我刚刚做出了一个足以改变港区未来的重大决定~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11233,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11234] = {
+		param = "我要成立一个前所未有的全新部门",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11234,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11235] = {
+		param = "部门的名字就叫做——创新部~",
+		ship_group = 30409,
+		type = 1,
+		id = 11235,
+		flag = 0,
+		option = {
+			{
+				1,
+				"一听就很创新"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11236] = {
+		param = "一听就很创新",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11236,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11237] = {
+		param = "呵呵~那是当然",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11237,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11238] = {
+		param = "创新部是走在时代最前沿，面向未来的战略性部门",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11238,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11239] = {
+		param = "目标是以“创新驱动增长，闭环沉淀方法论”为核心抓手，为港区注入新发现、新感觉、新创意！",
+		ship_group = 30409,
+		type = 1,
+		id = 11239,
+		flag = 1,
+		option = {
+			{
+				2,
+				"听起来很厉害"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11240] = {
+		param = "听起来很厉害",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11240,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11241] = {
+		param = "所以这个部门具体是做什么的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11241,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11242] = {
+		param = "具体……？",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11242,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11243] = {
+		param = "呃，就是……",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11243,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11244] = {
+		param = "就是那种……非常新的事？",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11244,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11245] = {
+		param = "没错！就是这样！做非常新的事！",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11245,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11246] = {
+		param = "至于有哪些事非常新，还是之后再想吧！现在我们还有更重要的事~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11246,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11247] = {
+		param = "迈出了这样伟大的一步，是时候该好好庆祝了！",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11247,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11248] = {
+		param = "现在我们就去开创新部的第一次团建派对吧！",
+		ship_group = 30409,
+		type = 1,
+		id = 11248,
+		flag = 2,
+		option = {
+			{
+				3,
+				"等一下，我怎么不知道我已经加入了？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11249] = {
+		param = "等一下，我怎么不知道我已经加入了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11249,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11250] = {
+		param = "我没说过吗？那现在正式通知你也不迟~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11250,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11251] = {
+		param = "像创新部这样前途无量的部门，当然需要一位足够创新又足够可靠的副部长~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11251,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11252] = {
+		param = "放眼整个港区，还有谁比指挥官你更合适呢？",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11252,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11253] = {
+		param = "所以——恭喜你，被我破格录取了！从今天开始，你就是创新部副部长了~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11253,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11254] = {
+		param = "至于副部长的主要工作嘛……当然是负责把部长的创新构想落到实处啦~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11254,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11255] = {
+		param = "将来具体的部门章程、职责划分、日常流程、绩效标准什么的，就都交给你了~",
+		ship_group = 30409,
+		type = 1,
+		id = 11255,
+		flag = 3,
+		option = {
+			{
+				4,
+				"只有两个人的部门……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11256] = {
+		param = "只有两个人的部门，副部长和普通成员好像也没区别？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11256,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11257] = {
+		param = "哎呀，别担心，员工什么的以后都会有的~现在先来和我一起享受派对吧~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11257,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11258] = {
+		param = "我准备了好多好吃的哦~还有鸢尾进口的美酒~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11258,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11259] = {
+		param = "指挥官可别让我这位部长久等哦~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11259,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11260] = {
+		param = "指挥官~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11260,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11261] = {
+		param = "关于我那笔长期投资的“分红”",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11261,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11262] = {
+		param = "你打算什么时候兑现~？",
+		ship_group = 30409,
+		type = 1,
+		id = 11262,
+		flag = 0,
+		option = {
+			{
+				1,
+				"分红？和我也有关么？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11263] = {
+		param = "分红？和我也有关么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11263,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11264] = {
+		param = "呵呵，对啊~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11264,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11265] = {
+		param = "我投资的对象，就是你哦，指挥官~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11265,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11266] = {
+		param = "我可是早就把自己最珍贵的那部分，毫无保留地交给你了~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11266,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11267] = {
+		param = "既然接受了投资，你可要给出让我满意的回报才行",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11267,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11268] = {
+		param = "现在，就该让我验收这项投资的成果了~",
+		ship_group = 30409,
+		type = 1,
+		id = 11268,
+		flag = 1,
+		option = {
+			{
+				2,
+				"你想要什么样的回报？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11269] = {
+		param = "你想要什么样的回报？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11269,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11270] = {
+		param = "我想要的回报当然就是——前所未有的全新感觉~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11270,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11271] = {
+		param = "实现的方法很简单",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11271,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11272] = {
+		param = "那就是由指挥官你，亲自策划一场能让我眼前一亮的约会~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11272,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11273] = {
+		param = "事先说明，太普通、太无聊、太缺乏惊喜的约会，可是没法让我满意的哦~",
+		ship_group = 30409,
+		type = 1,
+		id = 11273,
+		flag = 2,
+		option = {
+			{
+				3,
+				"空中约会怎么样？"
+			},
+			{
+				4,
+				"旅行约会怎么样？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11274] = {
+		param = "空中约会怎么样？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11274,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11275] = {
+		param = "高空之上的约会么……",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11275,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11276] = {
+		param = "乘坐滑翔机在高空中两人独处，只有我和你两个人独享同一片风景……",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11276,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11277] = {
+		param = "感觉会是非常新鲜的体验~我喜欢这个方案~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11277,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11278] = {
+		param = "旅行约会怎么样？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11278,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11279] = {
+		param = "旅行约会，乍一听有些俗套……",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11279,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11280] = {
+		param = "但如果是一场不设目的地的旅行，那就不一样了~！",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11280,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11281] = {
+		param = "把未知本身当作旅程的一部分，沿途发掘新的风景和新的惊喜~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11281,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11282] = {
+		param = "嗯~这个方案，我很中意",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11282,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11283] = {
+		param = "不愧是指挥官",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11283,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11284] = {
+		param = "看来我当初选择把自己交给你，果然是个非常正确的决定",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11284,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11285] = {
+		param = "那么现在，这份“新感觉约会计划”就正式立项，开始执行！",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11285,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11286] = {
+		param = "我先去稍微做点出发前的准备，马上就来找你~",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11286,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11287] = {
+		param = "321",
+		ship_group = 30409,
+		option = "",
+		type = 4,
+		id = 11287,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11288] = {
+		param = "这几天，我谱了一首新曲",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11288,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11289] = {
+		param = "旋律已经打磨得差不多了，明晚准备正式演奏",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11289,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11290] = {
+		param = "指挥官如果有空，就来当我这次演出的“协奏者”吧",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11290,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11291] = {
+		param = "场地和流程我都安排好了，演出会从一家星级餐厅开始",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11291,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11292] = {
+		param = "明天晚餐时间，不要迟到哦",
+		ship_group = 20238,
+		type = 1,
+		id = 11292,
+		flag = 0,
+		option = {
+			{
+				1,
+				"“协奏者”需要做什么？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11293] = {
+		param = "“协奏者”需要做什么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11293,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11294] = {
+		param = "很简单",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11294,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11295] = {
+		param = "坐在我对面，好好享用晚餐，把自己交给这场演出",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11295,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11296] = {
+		param = "餐点的温度、灯光的明暗、空气流动的节拍，还有你起伏的呼吸……",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11296,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11297] = {
+		param = "都会成为我乐谱里的一部分",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11297,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11298] = {
+		param = "我的曲子，本来就不拘泥于普通的演奏形式",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11298,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11299] = {
+		param = "而你，是这场演出里最重要的一件“乐器”",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11299,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11300] = {
+		param = "呵呵，我可是一直很中意你的音色，它比你自己想象得还要动听",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11300,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11301] = {
+		param = "只是这段时间，你的声音里混进了太多疲惫的杂音",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11301,
+		flag = 1
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[11302] = {
+		param = "文件翻动的沙沙声、深夜还没停下的脚步声、比平时更重一点的呼吸……",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11302,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11303] = {
+		param = "是最近又在熬夜加班么？",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11303,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11304] = {
+		param = "再这样下去，之后与你有关的演奏都无法正常进行",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11304,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11305] = {
+		param = "所以我研究了你的喜好，新谱了一首“舒缓曲”",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11305,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11306] = {
+		param = "从用餐开始，一点点放松你的身体和情绪，把失衡的节奏重新调回来",
+		ship_group = 20238,
+		type = 1,
+		id = 11306,
+		flag = 1,
+		option = {
+			{
+				2,
+				"我看起来很疲劳么？还以为……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11307] = {
+		param = "我看起来很疲劳么？还以为藏得很好呢",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11307,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11308] = {
+		param = "表面隐藏得确实不错，但音色上的变化瞒不过我",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11308,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11309] = {
+		param = "既然你已经是我乐团中的一员，那么调整成员状态，自然也是我该负责的事",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11309,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11310] = {
+		param = "其它事情，你是指挥官，我会听你的安排",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11310,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11311] = {
+		param = "但这件事上，我才是“指挥”",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11311,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11312] = {
+		param = "用餐时间、休息时间、放松的节拍，都要按我的标准来",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11312,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11313] = {
+		param = "要是你做不到……",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11313,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11314] = {
+		param = "我就只能用一点更直接的方式，让你记住该怎么照顾自己了",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11314,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11315] = {
+		param = "比如，在你身上，留下一个足够深、足够久的齿印",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11315,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11316] = {
+		param = "指挥官，有件事困扰我很久了",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11316,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11317] = {
+		param = "和港区里的猫猫有关",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11317,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11318] = {
+		param = "为什么猫猫的叫声，会在见到我之后突然变调？",
+		ship_group = 20238,
+		type = 1,
+		id = 11318,
+		flag = 0,
+		option = {
+			{
+				1,
+				"变调？详细说一下？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11319] = {
+		param = "变调？详细说一下？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11319,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11320] = {
+		param = "嗯……那我从头说起吧",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11320,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11321] = {
+		param = "港区那些猫猫的声音，其实很不错",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11321,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11322] = {
+		param = "轻巧、灵动，偶尔还带一点自由散漫的装饰音",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11322,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11323] = {
+		param = "所以我想，把它们也编入我的乐团",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11323,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11324] = {
+		param = "为此还作了几首适合猫猫们演奏的新曲子，准备组织一场猫猫音乐会",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11324,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11325] = {
+		param = "可每次我一靠近，它们的叫声都会发生奇怪的变化……",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11325,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11326] = {
+		param = "原本还算悦耳的“喵呜喵呜”，就会立刻变成带着警戒的“嗷呜嗷呜”",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11326,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11327] = {
+		param = "虽然它们最后还是会老老实实排好队，勉强听我指挥",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11327,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11328] = {
+		param = "但那种音色，实在称不上美妙",
+		ship_group = 20238,
+		type = 1,
+		id = 11328,
+		flag = 1,
+		option = {
+			{
+				2,
+				"可能是虎的气场太强了……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11329] = {
+		param = "可能是虎的气场太强了，猫猫们有点害怕",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11329,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11330] = {
+		param = "先尝试一下拉近距离如何？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11330,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11331] = {
+		param = "嗯……跟猫猫打好关系，是我没接触过的领域",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11331,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11332] = {
+		param = "看来需要向指挥官请教了，你最近有空吗？",
+		ship_group = 20238,
+		type = 1,
+		id = 11332,
+		flag = 2,
+		option = {
+			{
+				3,
+				"没问题"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11333] = {
+		param = "没问题",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11333,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11334] = {
+		param = "那就好，不过还有一个新问题",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11334,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11335] = {
+		param = "我没有养猫，身边没有能让我反复练习的猫猫样本",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11335,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11336] = {
+		param = "嗯……有办法了",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11336,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11337] = {
+		param = "只要我扮成猫猫……指挥官就能直接在我身上示范",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11337,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11338] = {
+		param = "该怎么靠近、怎么安抚、怎么顺毛，才能让一只警惕的“猫猫”放下戒心",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11338,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11339] = {
+		param = "而我，也能更直观地理解它们的心情",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11339,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11340] = {
+		param = "呵呵，这个主意很不错，是吧？",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11340,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11341] = {
+		param = "我准备去买点猫耳和猫尾之类的饰品",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11341,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11342] = {
+		param = "你也一起来吧",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11342,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11343] = {
+		param = "毕竟，既然是给你练习用的，总该挑些你喜欢的款式",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11343,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11344] = {
+		param = "今晚会有颗漂亮的彗星",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11344,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11345] = {
+		param = "想跟指挥官一起去迎接它",
+		ship_group = 20238,
+		type = 1,
+		id = 11345,
+		flag = 0,
+		option = {
+			{
+				1,
+				"可以啊，不过虎是怎么知道有彗星的？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11346] = {
+		param = "可以啊，不过虎是怎么知道有彗星的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11346,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11347] = {
+		param = "好像也没有相关的新闻",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11347,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11348] = {
+		param = "哦，它是我的老朋友了",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11348,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11349] = {
+		param = "其实这颗彗星过去也被观测到过",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11349,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11350] = {
+		param = "但因为轨迹不稳定，所以没有关于它的回归预测",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11350,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11351] = {
+		param = "今晚是见它的最后一面",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11351,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11352] = {
+		param = "我准备了一首送别的曲子",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11352,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11353] = {
+		param = "有你在的话，这首曲子就能更动听了，谢谢",
+		ship_group = 20238,
+		type = 1,
+		id = 11353,
+		flag = 1,
+		option = {
+			{
+				2,
+				"送别？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11354] = {
+		param = "送别？以后再也见不到了么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11354,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11355] = {
+		param = "嗯……",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11355,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11356] = {
+		param = "这次它的轨道离太阳比上次更近，近日点大概在太阳内部了",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11356,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11357] = {
+		param = "它会在接近太阳的时候，爆发出最明亮的光芒……",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11357,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11358] = {
+		param = "最后解体",
+		ship_group = 20238,
+		type = 1,
+		id = 11358,
+		flag = 2,
+		option = {
+			{
+				3,
+				"有些惋惜……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11359] = {
+		param = "有些惋惜……确实该好好道个别",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11359,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11360] = {
+		param = "啊，我不是这个意思，指挥官不用惋惜的",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11360,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11361] = {
+		param = "它已经在宇宙中孤独地旅行了上百万年",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11361,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11362] = {
+		param = "在大多数时候，除了冰冷的星光，它没有任何可以交流的对象",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11362,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11363] = {
+		param = "被太阳接纳，成为太阳的一部分，其实是好的归宿，它也很高兴",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11363,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11364] = {
+		param = "指挥官知道吗？",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11364,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11365] = {
+		param = "在遇见你之前，我也曾有过那样的时刻",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11365,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11366] = {
+		param = "明明听得见群星的回响，明明能调和万千旋律——",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11366,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11367] = {
+		param = "却始终没有一段真正属于自己的和声",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11367,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11368] = {
+		param = "直到你找到了我",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11368,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11369] = {
+		param = "于是我被你吸引，像失落已久的星轨，重新拥有了注定抵达的方向，再不偏移",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11369,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11370] = {
+		param = "我不断向你靠近——",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11370,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11371] = {
+		param = "最后，停在你身边，成为你生命的一部分，再也不分离",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11371,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11372] = {
+		param = "所以，今晚演奏的会是一首庆祝抵达、庆祝相逢、也庆祝归宿的乐章",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11372,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11373] = {
+		param = "手上的事做完了的话，就过来吧",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11373,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11374] = {
+		param = "我会一边等你，一边把最好的位置留给你",
+		ship_group = 20238,
+		option = "",
+		type = 1,
+		id = 11374,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11375] = {
+		param = "指挥官——",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11375,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11376] = {
+		param = "救救……",
+		ship_group = 31703,
+		type = 1,
+		id = 11376,
+		flag = 0,
+		option = {
+			{
+				1,
+				"什么情况？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11377] = {
+		param = "什么情况，发生什么了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11377,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11378] = {
+		param = "{namecode:163}又想抓我去帮忙了……",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11378,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11379] = {
+		param = "说是什么……飞机的测试？",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11379,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11380] = {
+		param = "我听了一会，内容太复杂了，有点提不起兴趣……",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11380,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11381] = {
+		param = "脑袋里都要冒泡泡了……",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11381,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11382] = {
+		param = "所以，我趁她刚才没注意逃走了",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11382,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11383] = {
+		param = "不过……她貌似已经发现了……",
+		ship_group = 31703,
+		type = 1,
+		id = 11383,
+		flag = 1,
+		option = {
+			{
+				2,
+				"所以……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11384] = {
+		param = "所以……她现在已经在后面追着找你了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11384,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11385] = {
+		param = "是的",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11385,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11386] = {
+		param = "所以我想换个地方躲一躲，去指挥室避难",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11386,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11387] = {
+		param = "但现在到了指挥室门口，才发现门打不开",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11387,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11388] = {
+		param = "敲门没回应，推也推不开……",
+		ship_group = 31703,
+		type = 1,
+		id = 11388,
+		flag = 2,
+		option = {
+			{
+				3,
+				"我今天不在……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11389] = {
+		param = "我今天不在指挥室，门自动锁了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11389,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11390] = {
+		param = "不过旁边的终端可以验证，我这边给权限，你扫描下就好",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11390,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11391] = {
+		param = "原来是这样，我去试试……",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11391,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11392] = {
+		param = "嗯，我看看……按你说的操作……权限确认……",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11392,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11393] = {
+		param = "在“滴滴”响……哦哦，开了……",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11393,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11394] = {
+		param = "不过这个动静有点大……啊！",
+		ship_group = 31703,
+		type = 1,
+		id = 11394,
+		flag = 3,
+		option = {
+			{
+				4,
+				"怎么了？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11395] = {
+		param = "怎么了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11395,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11396] = {
+		param = "完了，门发出的动静把{namecode:163}引来了……",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11396,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11397] = {
+		param = "她已经冲过来了！",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11397,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11398] = {
+		param = "看来是逃不掉了……指挥官……",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11398,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11399] = {
+		param = "等你回来，记得去{namecode:163}那里解救我",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11399,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11400] = {
+		param = "57",
+		ship_group = 31703,
+		option = "",
+		type = 4,
+		id = 11400,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11401] = {
+		param = "指挥官，外面下雨了",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11401,
+		flag = 0
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[11402] = {
+		param = "如果等会儿要出去，记得带伞",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11402,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11403] = {
+		param = "现在雨丝很细……看着不大，沾久了还是会冷",
+		ship_group = 31703,
+		type = 1,
+		id = 11403,
+		flag = 0,
+		option = {
+			{
+				1,
+				"你呢？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11404] = {
+		param = "你呢？现在还在外面？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11404,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11405] = {
+		param = "有被淋到雨么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11405,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11406] = {
+		param = "我没事的",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11406,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11407] = {
+		param = "我本来在外面，想去找个地热区待着",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11407,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11408] = {
+		param = "结果找了半天，才找到一处原本有地热的洞窟",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11408,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11409] = {
+		param = "但现在不怎么暖和，热度已经快消散了",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11409,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11410] = {
+		param = "然后……",
+		ship_group = 31703,
+		type = 1,
+		id = 11410,
+		flag = 1,
+		option = {
+			{
+				2,
+				"然后就开始下雨了？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11411] = {
+		param = "然后就开始下雨了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11411,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11412] = {
+		param = "没错",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11412,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11413] = {
+		param = "雨一下，路上就更不好待了",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11413,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11414] = {
+		param = "湿漉漉的，风也有一点凉",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11414,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11415] = {
+		param = "我不想顶着这种天气继续找",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11415,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11416] = {
+		param = "就先在这个洞窟里待着了，起码不会淋雨",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11416,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11417] = {
+		param = "不过这里会慢慢变冷……不对，好像已经冷起来了……",
+		ship_group = 31703,
+		type = 1,
+		id = 11417,
+		flag = 2,
+		option = {
+			{
+				3,
+				"来指挥室吧"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11418] = {
+		param = "来指挥室吧，这里暖和",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11418,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11419] = {
+		param = "你有带伞吗，没带的话我去接你",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11419,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11420] = {
+		param = "我已经在去指挥室的路上了哦",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11420,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11421] = {
+		param = "指挥官还记得，我可以制造很大的泡泡吗",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11421,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11422] = {
+		param = "我现在正缩在大泡泡里，让它带着我往指挥室那边飘",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11422,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11423] = {
+		param = "如果指挥官下次也想在雨天出门，可以和我一起",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11423,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11424] = {
+		param = "泡泡里的空间很充裕，塞两个人也没问题哦",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11424,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11425] = {
+		param = "指挥官，你对温泉和按摩感兴趣吗？",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11425,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11426] = {
+		param = "我最近发现了一处很适合放松的温泉浴场……",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11426,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11427] = {
+		param = "这几天有空的话，我们一起去？",
+		ship_group = 31703,
+		type = 1,
+		id = 11427,
+		flag = 0,
+		option = {
+			{
+				1,
+				"可以……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11428] = {
+		param = "可以是可以，不过你怎么突然想起去温泉浴场了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11428,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11429] = {
+		param = "嗯……因为泡温泉很舒服",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11429,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11430] = {
+		param = "泡进去后，身体会放松，思绪也会变得缓慢",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11430,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11431] = {
+		param = "到了那时候，指挥官也可以暂时把工作放到一边，只要专心享受温泉就好",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11431,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11432] = {
+		param = "还有配套的按摩，我也已经安排好了",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11432,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11433] = {
+		param = "现在就等你点头同意了哦",
+		ship_group = 31703,
+		type = 1,
+		id = 11433,
+		flag = 1,
+		option = {
+			{
+				2,
+				"难得看到你对某件事这么感兴趣"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11434] = {
+		param = "难得看到你对某件事这么感兴趣",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11434,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11435] = {
+		param = "咕……指挥官看出来了？",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11435,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11436] = {
+		param = "好吧……我还想当做惊喜，留点神秘感的……",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11436,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11437] = {
+		param = "其实……那家浴场已经被我包下来了",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11437,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11438] = {
+		param = "我花了好几天，把那里改造成了一个到处都是大泡泡的浴场",
+		ship_group = 31703,
+		type = 1,
+		id = 11438,
+		flag = 2,
+		option = {
+			{
+				3,
+				"大泡泡浴场？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11439] = {
+		param = "大泡泡浴场……漫天飘着大泡泡的温泉池么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11439,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11440] = {
+		param = "不只是飘着大泡泡哦，还有能在水面上弹跳的大泡泡",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11440,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11441] = {
+		param = "想在里面滚来滚去也没问题",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11441,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11442] = {
+		param = "另外也准备了一些基础的玩具……像是吹泡泡机之类的",
+		ship_group = 31703,
+		type = 1,
+		id = 11442,
+		flag = 3,
+		option = {
+			{
+				4,
+				"听起来更像个游乐设施了"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11443] = {
+		param = "听起来更像个游乐设施了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11443,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11444] = {
+		param = "因为……能够尽情玩闹，本身也是一种放松嘛",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11444,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11445] = {
+		param = "而且真的很有意思哦……啊，对了",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11445,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11446] = {
+		param = "不过，光是玩还不够，最重要的还是“泡泡按摩”哦！",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11446,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11447] = {
+		param = "之前一直没什么机会让指挥官体验，这次一定要试试看！",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11447,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11448] = {
+		param = "指挥官不会拒绝我的……对吧？",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11448,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11449] = {
+		param = "锵锵！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11449,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11450] = {
+		param = "可爱又迷人~微笑的使者~",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11450,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11451] = {
+		param = "穿越过去，现在，未来",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11451,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11452] = {
+		param = "心怀无限、无穷、无尽的爱与美好",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11452,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11453] = {
+		param = "魔法使匆忙——登场！",
+		ship_group = 20140,
+		type = 1,
+		id = 11453,
+		flag = 0,
+		option = {
+			{
+				1,
+				"鼓掌！"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11454] = {
+		param = "鼓掌！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11454,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11455] = {
+		param = "211",
+		ship_group = 20140,
+		option = "",
+		type = 4,
+		id = 11455,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11456] = {
+		param = "这可是港区最近超有人气的魔法使动画里的经典变身台词之——",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11456,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11457] = {
+		param = "超无敌可爱匆忙版！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11457,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11458] = {
+		param = "指挥官没有听说吗？最近这个动画因为角色非常可爱而爆火了哦",
+		ship_group = 20140,
+		type = 1,
+		id = 11458,
+		flag = 1,
+		option = {
+			{
+				2,
+				"有这么一回事么……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11459] = {
+		param = "有这么一回事么……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11459,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11460] = {
+		param = "嗯嗯！同样作为魔法使的我，在可爱这方面可不能认输！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11460,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11461] = {
+		param = "经过研究动画中的角色形象，我得出结论——",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11461,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11462] = {
+		param = "每个魔法使都有属于自己的魔杖，这一定就是她们的萌点所在！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11462,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11463] = {
+		param = "所以我想请指挥官帮忙设计一根适合“笑容催眠魔法使匆忙”的魔杖",
+		ship_group = 20140,
+		type = 1,
+		id = 11463,
+		flag = 2,
+		option = {
+			{
+				3,
+				"我可以试试……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11464] = {
+		param = "我可以试试，你具体想要什么样的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11464,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11465] = {
+		param = "嗯，我考虑一下",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11465,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11466] = {
+		param = "等等……我突然有了重大发现",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11466,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11467] = {
+		param = "动画里魔法使与邪恶反派之间的战斗，居然是近身肉搏！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11467,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11468] = {
+		param = "如果魔杖只是用来敲人的，那我刚才的研究方向岂不是错了？",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11468,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11469] = {
+		param = "或者说……是我对于可爱的理解出现了偏差？",
+		ship_group = 20140,
+		type = 1,
+		id = 11469,
+		flag = 3,
+		option = {
+			{
+				4,
+				"或许可爱的点并不在于魔杖"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11470] = {
+		param = "或许可爱的点并不在于魔杖",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11470,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11471] = {
+		param = "所以可爱的匆忙并不需要依赖魔杖",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11471,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11472] = {
+		param = "呜哇……好开心……指挥官说得很有道理啦~！！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11472,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11473] = {
+		param = "那现在，匆忙要来可爱指挥官一整天了哦~要等我哦~",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11473,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11474] = {
+		param = "指——挥——官——！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11474,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11475] = {
+		param = "匆忙现在，嘴巴都撅起来啦！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11475,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11476] = {
+		param = "65",
+		ship_group = 20140,
+		option = "",
+		type = 4,
+		id = 11476,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11477] = {
+		param = "我今天可是一直都在非常努力地",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11477,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11478] = {
+		param = "向指挥官展示我不断练习后的超可爱笑容",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11478,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11479] = {
+		param = "但指挥官却一点反应都没有",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11479,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11480] = {
+		param = "好失落，看来匆忙完全不可爱",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11480,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11481] = {
+		param = "（伤心哭哭）",
+		ship_group = 20140,
+		type = 1,
+		id = 11481,
+		flag = 0,
+		option = {
+			{
+				1,
+				"可能是因为今天太忙了……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11482] = {
+		param = "可能是因为今天工作太忙了……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11482,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11483] = {
+		param = "下次一定会好好欣赏你的笑容",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11483,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11484] = {
+		param = "哼，那我就大方原谅你这一次好了！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11484,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11485] = {
+		param = "不过，这个叫“工作”的家伙真的是很可恶！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11485,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11486] = {
+		param = "得想点办法把它做掉才行",
+		ship_group = 20140,
+		type = 1,
+		id = 11486,
+		flag = 1,
+		option = {
+			{
+				2,
+				"做掉是指……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11487] = {
+		param = "做掉是指……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11487,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11488] = {
+		param = "嘻嘻，我最擅长的就是——梦中工作！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11488,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11489] = {
+		param = "只要我对着镜子，给自己一个催眠微笑",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11489,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11490] = {
+		param = "就能让自己在梦里进入工作狂模式！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11490,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11491] = {
+		param = "眼睛一闭，一睁",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11491,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11492] = {
+		param = "唰地一下，工作就全被干掉了！",
+		ship_group = 20140,
+		type = 1,
+		id = 11492,
+		flag = 2,
+		option = {
+			{
+				3,
+				"听起来好厉害的样子"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11493] = {
+		param = "听起来好厉害的样子",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11493,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11494] = {
+		param = "那当然了",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11494,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11495] = {
+		param = "指挥官，你就等着瞧好了",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11495,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11496] = {
+		param = "看我是如何使用魔法轻轻松松打败所有工作的！",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11496,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11497] = {
+		param = "209",
+		ship_group = 20140,
+		option = "",
+		type = 4,
+		id = 11497,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11498] = {
+		param = "指挥官~",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11498,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11499] = {
+		param = "你休息了吗？",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11499,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11500] = {
+		param = "57",
+		ship_group = 20140,
+		type = 4,
+		id = 11500,
+		flag = 0,
+		option = {
+			{
+				1,
+				"还没，怎么了？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11501] = {
+		param = "还没，怎么了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11501,
+		flag = 1
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[11502] = {
+		param = "说起来有点不好意思……就是……",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11502,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11503] = {
+		param = "我刚才本来已经躺在床上了，但翻来覆去睡不着",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11503,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11504] = {
+		param = "满脑子想，怎么邀请你明天去约会的事情",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11504,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11505] = {
+		param = "但要是睡太晚，肯定约会时的状态很差",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11505,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11506] = {
+		param = "我就想着，不如催眠自己一下，强制入睡好了",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11506,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11507] = {
+		param = "于是跑去照了照镜子",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11507,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11508] = {
+		param = "结果，我在施展催眠微笑的时候",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11508,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11509] = {
+		param = "还是满脑子想着你的事，让表情管理失控了……",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11509,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11510] = {
+		param = "于是催眠就失败了，还产生了副作用……",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11510,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11511] = {
+		param = "呜……不但没睡着，反而变得更想见指挥官了",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11511,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11512] = {
+		param = "想窝在你怀里……被你摸摸头……",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11512,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11513] = {
+		param = "还要甜甜地向你撒娇……",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11513,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11514] = {
+		param = "所以，能不能……",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11514,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11515] = {
+		param = "我睡相很好的，不会打扰到你",
+		ship_group = 20140,
+		type = 1,
+		id = 11515,
+		flag = 1,
+		option = {
+			{
+				2,
+				"没事"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11516] = {
+		param = "没事，不用在意那么多",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11516,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11517] = {
+		param = "是想要我过去你那边，还是你要过来？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11517,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11518] = {
+		param = "嗯，其实……",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11518,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11519] = {
+		param = "我已经抱着枕头",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11519,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11520] = {
+		param = "站在指挥官的门口了哦",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11520,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11521] = {
+		param = "只穿了睡衣，外面有点冷",
+		ship_group = 20140,
+		type = 1,
+		id = 11521,
+		flag = 2,
+		option = {
+			{
+				3,
+				"我这就来开门"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11522] = {
+		param = "你应该早点说的，我这就来开门",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11522,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11523] = {
+		param = "嗯，谢谢指挥官~",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11523,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11524] = {
+		param = "匆忙最最最喜欢你了♡",
+		ship_group = 20140,
+		option = "",
+		type = 1,
+		id = 11524,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11525] = {
+		param = "45",
+		ship_group = 20140,
+		option = "",
+		type = 4,
+		id = 11525,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11526] = {
+		param = "指挥官，我正在指挥室外执勤",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11526,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11527] = {
+		param = "你似乎已经连续工作很久了",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11527,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11528] = {
+		param = "有什么我能为你做的吗？",
+		ship_group = 20119,
+		type = 1,
+		id = 11528,
+		flag = 0,
+		option = {
+			{
+				1,
+				"暂时还好"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11529] = {
+		param = "暂时还好，只是今天的文件有点多而已",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11529,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11530] = {
+		param = "专注一些的话，很快就能弄完",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11530,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11531] = {
+		param = "明白了",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11531,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11532] = {
+		param = "也就是说，指挥官现在需要绝对安静、不受干扰的工作环境",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11532,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11533] = {
+		param = "所有会影响你工作效率的因素，都应该排除",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11533,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11534] = {
+		param = "我已经在指挥室门前设置了临时警戒线",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11534,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11535] = {
+		param = "有我在，指挥官就安心工作吧",
+		ship_group = 20119,
+		type = 1,
+		id = 11535,
+		flag = 1,
+		option = {
+			{
+				2,
+				"应该也没必要做到这种程度……？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11536] = {
+		param = "应该也没必要做到这种程度……？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11536,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11537] = {
+		param = "很有必要，刚刚就有人试图靠近指挥室",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11537,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11538] = {
+		param = "对方声称要递交文件",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11538,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11539] = {
+		param = "我判断，那会进一步增加你的工作量",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11539,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11540] = {
+		param = "也会打断你现在的工作节奏，所以就拦下了",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11540,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11541] = {
+		param = "指挥官不用担心",
+		ship_group = 20119,
+		type = 1,
+		id = 11541,
+		flag = 2,
+		option = {
+			{
+				3,
+				"可这样一来……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11542] = {
+		param = "可这样一来，大家反而会以为我这里出了什么大事",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11542,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11543] = {
+		param = "没关系，指挥官",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11543,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11544] = {
+		param = "无论来多少人，我都不会退缩的",
+		ship_group = 20119,
+		type = 1,
+		id = 11544,
+		flag = 3,
+		option = {
+			{
+				4,
+				"接收文件也是我的工作"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11545] = {
+		param = "接收文件也是我的工作，不算打扰",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11545,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11546] = {
+		param = "原来……是这样吗？",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11546,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11547] = {
+		param = "接收工作也是必须的工作……是我判断失误了",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11547,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11548] = {
+		param = "既然是指挥官的命令，我会收起武器的",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11548,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11549] = {
+		param = "不过，我会继续守在门口",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11549,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11550] = {
+		param = "如果有人真的妨碍你，请立刻叫我",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11550,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11551] = {
+		param = "指挥官……",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11551,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11552] = {
+		param = "刚才同伴们问我平时的兴趣是什么",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11552,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11553] = {
+		param = "我想了一下，没有找到一个很合适的答案",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11553,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11554] = {
+		param = "指挥官，所谓“兴趣”，具体是指什么？",
+		ship_group = 20119,
+		type = 1,
+		id = 11554,
+		flag = 0,
+		option = {
+			{
+				1,
+				"就是你平时最想做的事情"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11555] = {
+		param = "就是你平时最想做的事情",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11555,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11556] = {
+		param = "最想做的事……",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11556,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11557] = {
+		param = "那我的兴趣，就是守在指挥官的身边",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11557,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11558] = {
+		param = "如果要更准确一点，就是跟着指挥官，确认你是安全的",
+		ship_group = 20119,
+		type = 1,
+		id = 11558,
+		flag = 1,
+		option = {
+			{
+				2,
+				"除了这个呢？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11559] = {
+		param = "除了这个呢？比如电影、漫画之类的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11559,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11560] = {
+		param = "电影和漫画……",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11560,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11561] = {
+		param = "我之前有尝试过，但里面很多情节我不能理解",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11561,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11562] = {
+		param = "她们明明只要把话说清楚，就不会产生误会",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11562,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11563] = {
+		param = "明明待在安全的地方就不会受伤，却总要一个人跑出去",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11563,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11564] = {
+		param = "之后为了补救这些错误，还要经历很多多余的波折",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11564,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11565] = {
+		param = "如果她们能像我信任指挥官那样，去信任自己重视的人",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11565,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11566] = {
+		param = "事情就会简单很多",
+		ship_group = 20119,
+		type = 1,
+		id = 11566,
+		flag = 2,
+		option = {
+			{
+				3,
+				"那休息的时候……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11567] = {
+		param = "那休息的时候，有什么喜欢做的事么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11567,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11568] = {
+		param = "休息的时候……我会保养武器",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11568,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11569] = {
+		param = "让它们保持最好的状态",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11569,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11570] = {
+		param = "这样在需要保护指挥官的时候，就能尽量避免意外",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11570,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11571] = {
+		param = "虽然说出来感觉很像工作……",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11571,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11572] = {
+		param = "但只要想到这些准备最后是为了指挥官，我就能感到安心",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11572,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11573] = {
+		param = "除此之外……嗯，我还喜欢吃指挥官给我的点心",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11573,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11574] = {
+		param = "必须是指挥官给的",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11574,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11575] = {
+		param = "同样的点心，只要是指挥官递给我的，味道就会更好",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11575,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11576] = {
+		param = "我还没有弄明白原因",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11576,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11577] = {
+		param = "不过这个结论已经验证过很多次了，不会错",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11577,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11578] = {
+		param = "所以，指挥官",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11578,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11579] = {
+		param = "可以再给我一些点心吗？如果能顺便陪我一起吃，就更好了",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11579,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11580] = {
+		param = "指挥官，我遇到了一个比较困扰的问题",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11580,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11581] = {
+		param = "我想离你再近一点。这样一来，就能减少突发状况",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11581,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11582] = {
+		param = "但如果一直贴得太近，会妨碍你工作",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11582,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11583] = {
+		param = "所以，我准备了一根联络绳",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11583,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11584] = {
+		param = "这样就算我站在门口",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11584,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11585] = {
+		param = "指挥官有需求的时候也只需要轻轻一拉绳子",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11585,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11586] = {
+		param = "我会立刻来到你身边",
+		ship_group = 20119,
+		type = 1,
+		id = 11586,
+		flag = 0,
+		option = {
+			{
+				1,
+				"那……绳子的长度该留多长？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11587] = {
+		param = "那……绳子的长度该留多长？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11587,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11588] = {
+		param = "一开始，我想从门口连到你的座位旁",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11588,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11589] = {
+		param = "但不行，这个距离还是太远了，不安全",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11589,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11590] = {
+		param = "然后我改成了180厘米，可以从桌边护住你",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11590,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11591] = {
+		param = "但如果有人从侧面递文件，还是可能插足我们之间",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11591,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11592] = {
+		param = "还是90厘米更好",
+		ship_group = 20119,
+		type = 1,
+		id = 11592,
+		flag = 1,
+		option = {
+			{
+				2,
+				"这个距离是不是越来越近了……？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11593] = {
+		param = "这个距离是不是越来越近了……？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11593,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11594] = {
+		param = "是的",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11594,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11595] = {
+		param = "距离越短，反应时间越少，保护效率也更高",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11595,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11596] = {
+		param = "其实，我之前还认真考虑过50厘米",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11596,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11597] = {
+		param = "那样的话，我一伸手就能碰到你",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11597,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11598] = {
+		param = "但我判断，可能会影响你批改文件",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11598,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11599] = {
+		param = "目前还是先采用180厘米的方案吧",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11599,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11600] = {
+		param = "在固定方式上，考虑到系在手腕上会影响持枪和装填",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11600,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11601] = {
+		param = "所以我刚才将系扣的位置调整到了脖颈上",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11601,
+		flag = 2
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[11602] = {
+		param = "这样不仅不影响开火，还能更直接地觉察到你的力度",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11602,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11603] = {
+		param = "指挥官，我现在就进来将绳子的另一头交给你",
+		ship_group = 20119,
+		option = "",
+		type = 1,
+		id = 11603,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11604] = {
+		param = "各位各位，我听说了最近港区似乎出现了某种神奇的手环",
+		ship_group = 30318,
+		option = "",
+		type = 1,
+		id = 11604,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11605] = {
+		param = "据说只要戴上十几分钟，酸痛疲劳就会一扫而空哦！",
+		ship_group = 30318,
+		option = "",
+		type = 1,
+		id = 11605,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11606] = {
+		param = "我也收集到了一些相关的情报，那东西似乎是叫做能量手环呢~",
+		ship_group = 30306,
+		option = "",
+		type = 1,
+		id = 11606,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11607] = {
+		param = "听起来感觉硬邦邦的，我还以为会是那种……BlingBling的很可爱的名字呢！",
+		ship_group = 30318,
+		option = "",
+		type = 1,
+		id = 11607,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11608] = {
+		param = "就是说啊~听着就像是会在深夜电视购物里大甩卖的东西呢",
+		ship_group = 30317,
+		option = "",
+		type = 1,
+		id = 11608,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11609] = {
+		param = "哼哼~就算名字土气一点也没关系！",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11609,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11610] = {
+		param = "我来搭配的话，再普通的小饰品也能引领潮流哦？",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11610,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11611] = {
+		param = "不愧是{namecode:310}，完全说到点子上了！饰品的灵魂果然还是在于如何搭配嘛！",
+		ship_group = 30318,
+		option = "",
+		type = 1,
+		id = 11611,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11612] = {
+		param = "不过，这种听起来玄之又玄的产品……真的会有效果吗？",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11612,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11613] = {
+		param = "要是真的有这样的手环，那即便在进行长时间潜行，也完全不用担心身体状况呢！",
+		ship_group = 30192,
+		option = "",
+		type = 1,
+		id = 11613,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11614] = {
+		param = "同感",
+		ship_group = 30109,
+		option = "",
+		type = 1,
+		id = 11614,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11615] = {
+		param = "感觉和杂志上经常出现的“只要戴上就会变得幸运的恋爱手链”如出一辙呢……",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11615,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11616] = {
+		param = "并且自称是利用AI进行深度学习，提取高质量原材料制造出来的东西",
+		ship_group = 30703,
+		option = "",
+		type = 1,
+		id = 11616,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11617] = {
+		param = "接着卖家还会告诉你……",
+		ship_group = 30184,
+		option = "",
+		type = 1,
+		id = 11617,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11618] = {
+		param = "“只要加入我们的代理计划，再把它卖给身边的三个人，就能获得丰厚的分红”之类的……",
+		ship_group = 30302,
+		option = "",
+		type = 1,
+		id = 11618,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11619] = {
+		param = "……那不就是诈骗吗？",
+		ship_group = 30221,
+		option = "",
+		type = 1,
+		id = 11619,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11620] = {
+		param = "是的，就是诈骗",
+		ship_group = 30120,
+		option = "",
+		type = 1,
+		id = 11620,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11621] = {
+		param = "真的假的？！好像一下子就变了很不得了的事情！",
+		ship_group = 30318,
+		option = "",
+		type = 1,
+		id = 11621,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11622] = {
+		param = "欸？可是我已经买了一个戴着了，感觉确实还挺有用的啊？",
+		ship_group = 30513,
+		option = "",
+		type = 1,
+		id = 11622,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11623] = {
+		param = "我这两天种蔬菜的时候，确实感觉比以前轻松了不少呢~",
+		ship_group = 30513,
+		option = "",
+		type = 1,
+		id = 11623,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11624] = {
+		param = "什么？！能量手环原来不是传说？",
+		ship_group = 30318,
+		option = "",
+		type = 1,
+		id = 11624,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11625] = {
+		param = "不对，{namecode:295}你什么时候买的？为啥不告诉我啦！",
+		ship_group = 30318,
+		option = "",
+		type = 1,
+		id = 11625,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11626] = {
+		param = "也就前两天吧？其实我一开始也不是很相信呢，哈哈~",
+		ship_group = 30513,
+		option = "",
+		type = 1,
+		id = 11626,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11627] = {
+		param = "哼哼……各位请放心，这绝不是什么诈骗",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11627,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11628] = {
+		param = "这是我投资制作的创新产品，{namecode:295}买到的就是第一批试作品",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11628,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11629] = {
+		param = "不过为了打消大家的疑虑，还是请研发负责人亲自来说明一下吧~<color=#93e9ff>@Kagakubu.org</color>",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11629,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11630] = {
+		param = "唉，我的研究时间可是很宝贵的啊……",
+		ship_group = 30201,
+		option = "",
+		type = 1,
+		id = 11630,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11631] = {
+		param = "这可是正儿八经的科学产物，通过科学途径缓解疲劳的手环",
+		ship_group = 30201,
+		option = "",
+		type = 1,
+		id = 11631,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11632] = {
+		param = "除了这个基础款，后续我还会研发更多功能类型的手环",
+		ship_group = 30201,
+		option = "",
+		type = 1,
+		id = 11632,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11633] = {
+		param = "比如能驱虫的手环啦、能取暖的手环啦……",
+		ship_group = 30201,
+		option = "",
+		type = 1,
+		id = 11633,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11634] = {
+		param = "至于详细进度……只能说还在研发中，嗯，就这些了",
+		ship_group = 30201,
+		option = "",
+		type = 1,
+		id = 11634,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11635] = {
+		param = "能够取暖的手环？好像不错……",
+		ship_group = 31703,
+		option = "",
+		type = 1,
+		id = 11635,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11636] = {
+		param = "需要什么帮助的话，就呼唤我和“晴岚”吧！",
+		ship_group = 31701,
+		option = "",
+		type = 1,
+		id = 11636,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11637] = {
+		param = "如果可以的话，希望手环也能设计的好看一点呢……",
+		ship_group = 30314,
+		option = "",
+		type = 1,
+		id = 11637,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11638] = {
+		param = "会有能够变身的手环吗？转换！甲虫——",
+		ship_group = 30606,
+		option = "",
+		type = 1,
+		id = 11638,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11639] = {
+		param = "虽然很帅，但那应该已经超出了正常“手环”的职责……的说",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11639,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11640] = {
+		param = "大家放心，作为投资人，我也会好好监督研发进度的！",
+		ship_group = 30409,
+		type = 1,
+		id = 11640,
+		flag = 0,
+		option = {
+			{
+				1,
+				"所以这些手环真的有缓解疲劳的作用么？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11641] = {
+		param = "所以这些手环真的有缓解疲劳的作用么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11641,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11642] = {
+		param = "刚有人给我送来了……一些……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11642,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11643] = {
+		param = "嗯哼，不管是不是真的有作用，价格高的商品自有其道理哦！",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 11643,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11644] = {
+		param = "指挥官可要好好收下我的心意“们”才行~",
+		ship_group = 30717,
+		option = "",
+		type = 1,
+		id = 11644,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11645] = {
+		param = "居然被人捷足先登了？！我可没听说有这回事啊！！！",
+		ship_group = 30409,
+		option = "",
+		type = 1,
+		id = 11645,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11646] = {
+		param = "哦呀哦呀，没想到我也会在这种事情上棋差一着呢……",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11646,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11647] = {
+		param = "喂！你们不要突然一起发消息给我啊！",
+		ship_group = 30201,
+		option = "",
+		type = 1,
+		id = 11647,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11648] = {
+		param = "剩余的试作品已经全都被云龙买走了！别再问我啦",
+		ship_group = 30201,
+		option = "",
+		type = 1,
+		id = 11648,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11649] = {
+		param = "拜拜，我要开启免打扰模式了——",
+		ship_group = 30201,
+		option = "",
+		type = 1,
+		id = 11649,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11650] = {
+		param = "为什么不换个思路呢，我觉得还是亲手制作的手环更能传达心意哦",
+		ship_group = 30221,
+		option = "",
+		type = 1,
+		id = 11650,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11651] = {
+		param = "单论编织的话，我可是很有自信呢",
+		ship_group = 39908,
+		option = "",
+		type = 1,
+		id = 11651,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11652] = {
+		param = "……话题怎么突然漂移了？",
+		ship_group = 30302,
+		option = "",
+		type = 1,
+		id = 11652,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11653] = {
+		param = "所以到最后，还是没人认真验证一下吗",
+		ship_group = 30302,
+		option = "",
+		type = 1,
+		id = 11653,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11654] = {
+		param = "那些手环，到底有没有用？",
+		ship_group = 30302,
+		option = "",
+		type = 1,
+		id = 11654,
+		flag = 1
 	}
 end)()

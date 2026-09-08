@@ -109,25 +109,24 @@ end
 slot0.updateGiftGoodsVOList = function(slot0)
 	slot0.normalList = getProxy(ShopsProxy):GetNormalList()
 	slot0.giftGoodsVOList = {}
-	slot1 = pg.shop_template
 
-	for slot5, slot6 in pairs(slot0.goodIdList) do
+	for slot4, slot5 in pairs(slot0.goodIdList) do
 		table.insert(slot0.giftGoodsVOList, Goods.Create({
-			shop_id = slot6
+			shop_id = slot5
 		}, Goods.TYPE_NEW_SERVER))
 	end
 
-	slot2 = {}
+	slot1 = {}
 
-	for slot6, slot7 in ipairs(slot0.giftGoodsVOList) do
-		slot7:updateBuyCount(ChargeConst.getBuyCount(slot0.normalList, slot7.id))
+	for slot5, slot6 in ipairs(slot0.giftGoodsVOList) do
+		slot6:updateBuyCount(ChargeConst.getBuyCount(slot0.normalList, slot6.id))
 
-		if slot7:canPurchase() then
-			table.insert(slot2, slot7)
+		if slot6:canPurchase() then
+			table.insert(slot1, slot6)
 		end
 	end
 
-	slot0.giftGoodsVOList = slot2
+	slot0.giftGoodsVOList = slot1
 end
 
 slot0.isTip = function(slot0)

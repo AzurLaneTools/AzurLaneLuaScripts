@@ -16,7 +16,7 @@ slot0.GetLimitGoodCount = function(slot0)
 	return slot0:getConfig("frequency")
 end
 
-slot0.GetDropInfo = function(slot0)
+slot0.getDropInfo = function(slot0)
 	return Drop.New({
 		type = slot0:getConfig("item_type"),
 		id = slot0:getConfig("item_id"),

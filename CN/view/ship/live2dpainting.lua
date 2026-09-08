@@ -501,7 +501,10 @@ slot17 = function(slot0, slot1)
 		if slot0.foldAble <= 0 then
 			slot0.foldAble = nil
 
-			pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, false)
+			pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, {
+				flag = false,
+				content = {}
+			})
 		end
 	end
 end
@@ -701,7 +704,10 @@ slot19 = function(slot0, slot1)
 		uv0:changeActionIdle()
 
 		if uv0.foldAble then
-			pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, false)
+			pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, {
+				flag = false,
+				content = {}
+			})
 		end
 	end
 
@@ -1263,7 +1269,10 @@ slot0.applyActiveData = function(slot0, slot1)
 	if slot9 ~= nil then
 		slot0.foldAble = true
 
-		pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, slot9)
+		pg.m02:sendNotification(NewMainMediator.HIDE_PANEL, {
+			flag = slot9,
+			content = {}
+		})
 	end
 end
 
@@ -1380,12 +1389,14 @@ end
 slot0.GetDragBounds = function(slot0)
 	if not slot0.dragRenders or #slot0.dragRenders == 0 then
 		slot0.dragRenders = {}
+		slot0.dragableNames = {}
 
 		if slot0.drags then
 			for slot4 = 1, #slot0.drags do
-				if slot0.liveCom:GetDrawablePart(slot0.drags[slot4].drawAbleName) then
+				if slot0.drags[slot4].drawAbleName and slot5 ~= "" and not table.contains(slot0.dragableNames, slot5) and slot0.liveCom:GetDrawablePart(slot5) then
 					slot0.drags[slot4]:IsTouchAble()
-					table.insert(slot0.dragRenders, GetComponent(slot5, typeof(MeshRenderer)))
+					table.insert(slot0.dragRenders, GetComponent(slot6, typeof(MeshRenderer)))
+					table.insert(slot0.dragableNames, slot5)
 				end
 			end
 		end

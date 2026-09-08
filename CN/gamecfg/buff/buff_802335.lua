@@ -7,7 +7,21 @@ return {
 	desc = "",
 	stack = 1,
 	color = "red",
-	icon = 802335,
+	icon = 802330,
 	last_effect = "",
-	effect_list = {}
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				skill_id = 802335,
+				dungeonTypeList = {
+					98,
+					99
+				}
+			}
+		}
+	}
 }

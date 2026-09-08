@@ -420,6 +420,7 @@ require("Mod/Battle/View/UI/FormationPanel/BattleWeaponButtonSkinElite_20251218"
 require("Mod/Battle/View/UI/FormationPanel/BattleWeaponButtonSkinElite_20260226")
 require("Mod/Battle/View/UI/FormationPanel/BattleWeaponButtonSkinElite_20260520")
 require("Mod/Battle/View/UI/FormationPanel/BattleWeaponButtonSkinElite_20260715")
+require("Mod/Battle/View/UI/FormationPanel/BattleWeaponButtonSkinElite_20260908")
 require("Mod/Battle/View/UI/FormationPanel/BattleSubmarineButtonSkinElite_20260520")
 require("Mod/Battle/View/UI/FormationPanel/BattleSubmarineFuncButtonSkinElite_20260520")
 require("Mod/Battle/View/UI/FormationPanel/BattleDebugConsole")

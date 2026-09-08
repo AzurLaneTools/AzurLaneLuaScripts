@@ -26,6 +26,21 @@ temp = function()
 			this = true
 		},
 		["敢"] = {
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["敌"] = {
+		["对"] = {
 			this = true
 		}
 	}
@@ -251,6 +266,16 @@ temp = function()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["匆"] = {
+		["忙"] = {
+			this = true
 		}
 	}
 end
@@ -523,31 +548,6 @@ temp = function()
 		["战"] = {
 			["女"] = {
 				["神"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["进"] = {
-		["取"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["伦"] = {
-		["敦"] = {
-			this = true,
-			["."] = {
-				["改"] = {
 					this = true
 				}
 			}

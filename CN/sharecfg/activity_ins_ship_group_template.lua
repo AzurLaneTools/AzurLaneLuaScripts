@@ -699,7 +699,18 @@ pg.activity_ins_ship_group_template.all = {
 	10157,
 	10236,
 	10158,
-	30159
+	30159,
+	20238,
+	30409,
+	31703,
+	20140,
+	20119,
+	31701,
+	30302,
+	30120,
+	39908,
+	30139,
+	30602
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -5499,7 +5510,7 @@ end)()
 		name = "速达商店交流1群",
 		background = "200",
 		sculpture = "203",
-		nationality = 12,
+		nationality = 13,
 		type = 2,
 		sculpture_ii = ""
 	}
@@ -6986,6 +6997,107 @@ end)()
 		name = "Urakaze",
 		background = "",
 		sculpture = "pufeng",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[20238] = {
+		ship_group = 20238,
+		name = "Tiger",
+		background = "",
+		sculpture = "hu",
+		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[30409] = {
+		ship_group = 30409,
+		name = "Azuchi",
+		background = "",
+		sculpture = "antu",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[31703] = {
+		ship_group = 31703,
+		name = "I14",
+		background = "",
+		sculpture = "I14",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	}
+end)()
+(function ()
+	pg.base.activity_ins_ship_group_template[20140] = {
+		ship_group = 20140,
+		name = "Hasty",
+		background = "",
+		sculpture = "congmang",
+		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[20119] = {
+		ship_group = 20119,
+		name = "Hostile",
+		background = "",
+		sculpture = "didui",
+		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[31701] = {
+		ship_group = 31701,
+		name = "I13",
+		background = "",
+		sculpture = "I13",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[30302] = {
+		ship_group = 30302,
+		name = "Kako",
+		background = "",
+		sculpture = "jiagu",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[30120] = {
+		ship_group = 30120,
+		name = "Nowaki",
+		background = "",
+		sculpture = "yefen",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[39908] = {
+		ship_group = 39908,
+		name = "Takahashi",
+		background = "",
+		sculpture = "gaoliang",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[30139] = {
+		ship_group = 30139,
+		name = "Nagatsuki",
+		background = "",
+		sculpture = "changyue",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[30602] = {
+		ship_group = 30602,
+		name = "Jun'yō",
+		background = "",
+		sculpture = "sunying",
 		nationality = 3,
 		type = 1,
 		sculpture_ii = ""

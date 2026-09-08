@@ -77,7 +77,7 @@ slot0.handleNotification = function(slot0, slot1)
 		slot5 = slot0.viewComponent
 
 		slot5:emit(uv0.OPEN_DROP_LAYER, slot4, function ()
-			uv1.viewComponent.room:AddFurnitureByID(pg.shop_template[uv0:getBody().id].effect_args[1])
+			uv1.viewComponent.room:AddFurnitureByID(ShopConst.GetShopConfig(uv0:getBody().id).effect_args[1])
 			uv1.viewComponent:UpdateDataDisplayFurnitures()
 			uv1.viewComponent:UpdateView()
 		end)

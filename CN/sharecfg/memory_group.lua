@@ -286,6 +286,8 @@ pg.memory_group.all = {
 	375,
 	376,
 	377,
+	378,
+	379,
 	501,
 	502,
 	503,
@@ -7606,6 +7608,70 @@ end)()
 			5437
 		}
 	}
+	pg.base.memory_group[378] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51141,
+		title = "幽影迷城",
+		auto_unlock = "",
+		subtype = 2,
+		id = 378,
+		group_id = "",
+		memories = {
+			5441,
+			5442,
+			5443,
+			5444,
+			5445,
+			5446,
+			5447,
+			5448,
+			5449,
+			5450,
+			5451,
+			5452,
+			5453,
+			5454,
+			5455,
+			5456,
+			5457,
+			5458,
+			5459,
+			5460,
+			5461,
+			5462,
+			5463,
+			5464
+		}
+	}
+	pg.base.memory_group[379] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51131,
+		title = "异常的日常进行中",
+		auto_unlock = "",
+		subtype = 3,
+		id = 379,
+		group_id = "",
+		memories = {
+			5471,
+			5472,
+			5473,
+			5474,
+			5475,
+			5476,
+			5477,
+			5478,
+			5479,
+			5480,
+			5481,
+			5482,
+			5483,
+			5484
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7969,6 +8035,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[518] = {
 		ship_group = 40502,
 		icon = "title_chara_tierbici",
@@ -8013,8 +8081,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[520] = {
 		ship_group = 30402,
 		icon = "title_chara_birui",
@@ -10171,6 +10237,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[619] = {
 		ship_group = 51901,
 		icon = "title_chara_dingan",
@@ -10215,8 +10283,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[621] = {
 		ship_group = 20313,
 		icon = "title_chara_dewenjun",

@@ -4,6 +4,36 @@ slot0.word_legal_template_7 = {}
 slot1 = slot0.word_legal_template_7
 
 temp = function()
+	uv0["恐"] = {
+		["怖"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["桐"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["杉"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["梧"] = {
 		this = {
 			this = true
@@ -283,36 +313,6 @@ temp()
 
 temp = function()
 	uv0["楙"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["杌"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["橗"] = {
-		this = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["枨"] = {
 		this = {
 			this = true
 		}

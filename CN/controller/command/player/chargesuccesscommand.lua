@@ -84,6 +84,18 @@ slot0.execute = function(slot0, slot1)
 		slot15.data1 = 1
 	end
 
+	slot16, slot17 = getProxy(ShopsProxy):IsSkinTypeCharge(slot3)
+
+	if slot16 then
+		getProxy(ShipSkinProxy):addSkin(ShipSkin.New({
+			id = slot17
+		}))
+		slot0:sendNotification(GAME.SKIN_BY_CHARGE_DONE, {
+			skinId = slot17,
+			id = slot3
+		})
+	end
+
 	pg.TipsMgr.GetInstance():ShowTips(i18n("charge_success"))
 end
 
