@@ -43,6 +43,8 @@ slot0.ShouldHandleReflux = function(slot0)
 end
 
 slot0.PlayReFluxCG = function(slot0, slot1)
+	uv0.GUIDE_FLAG = true
+
 	if #getProxy(RefluxProxy):GetRefluxBgs() < 4 then
 		slot1()
 
@@ -55,7 +57,6 @@ slot0.PlayReFluxCG = function(slot0, slot1)
 		return
 	end
 
-	uv0.GUIDE_FLAG = true
 	slot4 = RefluxAnimationPlayer.New(pg.UIMgr.GetInstance().OverlayUITop)
 	slot5 = pg.m02
 

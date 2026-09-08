@@ -2,9 +2,10 @@ return {
 	id = "Reflux",
 	events = {
 		{
+			alpha = 0.4,
 			is3dDorm = false,
 			delay = 0.6,
-			alpha = 0.4,
+			forceDormLine = true,
 			style = {
 				text = "点击banner可以了解游戏内容！",
 				mode = 2,
@@ -30,6 +31,7 @@ return {
 		{
 			is3dDorm = false,
 			alpha = 0.4,
+			forceDormLine = true,
 			style = {
 				text = "点击入口可以了解游戏活动！",
 				mode = 2,
@@ -55,6 +57,7 @@ return {
 		{
 			is3dDorm = false,
 			alpha = 0.4,
+			forceDormLine = true,
 			style = {
 				text = "点击出击可以了解击败敌舰！",
 				mode = 2,

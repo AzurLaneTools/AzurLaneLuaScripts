@@ -125,7 +125,9 @@ slot0.OnStart = function(slot0)
 	removeAllOnButton(slot0.a3ReviewBtn)
 	removeAllOnButton(slot0.s1ClickBtn)
 	eachChild(slot0._tf, function (slot0)
-		setActive(slot0, false)
+		if slot0.name ~= "bg_low" then
+			setActive(slot0, false)
+		end
 	end)
 	setActive(slot0.a3ReviewBtn, #slot0.bgs > 0)
 end
