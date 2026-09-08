@@ -1290,6 +1290,24 @@ pg.equip_skin_template.all = {
 	4435,
 	4436,
 	4437,
+	4438,
+	4439,
+	4440,
+	4441,
+	4442,
+	4443,
+	4444,
+	4445,
+	4446,
+	4447,
+	4448,
+	4449,
+	4450,
+	4451,
+	4452,
+	4453,
+	4454,
+	4455,
 	1001,
 	1002,
 	1003,
@@ -1623,7 +1641,13 @@ pg.equip_skin_template.all = {
 	3082,
 	3083,
 	3084,
-	3085
+	3085,
+	3086,
+	3087,
+	3088,
+	3089,
+	3090,
+	3091
 }
 pg.base = pg.base or {}
 pg.base.equip_skin_template = {}
@@ -54433,6 +54457,743 @@ end)()
 			54014
 		}
 	}
+	pg.base.equip_skin_template[4438] = {
+		orbit_slg = "",
+		name = "Phantasmagoric Butterfly Shells",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102601",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "zidan_fenhudie",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4438,
+		hit_sfx = "",
+		desc = "Dance like a butterfly, soar like a dream.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_fenhudie_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4439] = {
+		orbit_slg = "",
+		name = "Red Magic Lily Shells",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102602",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "zidan_bianhua",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4439,
+		hit_sfx = "",
+		desc = "This beautiful spider lily may not have thorns.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_bianhua_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4440] = {
+		orbit_slg = "",
+		name = "Will-o-Wisp Shells",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102603",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "zidan_languihuo",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4440,
+		hit_sfx = "",
+		desc = "Ephemeral nothingness drifting between boundaries.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_languihuo_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[4441] = {
+		orbit_slg = "",
+		name = "Crimson Candle Torpedo",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102604",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "yulei_hongzhu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4441,
+		hit_sfx = "",
+		desc = "The vibes are assured, but your safety is not.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4442] = {
+		orbit_slg = "",
+		name = "Phantom Mirror Torpedo",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102605",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "yulei_jingzi",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4442,
+		hit_sfx = "",
+		desc = "Magic mirror on the wall, how many spins until I'm the fairest one of all?",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_jingzi_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4443] = {
+		orbit_slg = "",
+		name = "Alleyway Streetlight Torpedo",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "102606",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "yulei_diaodeng",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4443,
+		hit_sfx = "",
+		desc = "It's said that it's the darkest under a lamp post, but a street light should be fine, right?!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_diaodeng_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[4444] = {
+		orbit_slg = "",
+		name = "Exhibit Sealed Manjuu Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102607",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "paodan_jiujiuwanou",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4444,
+		hit_sfx = "",
+		desc = "The moment our eyes met, I realized there was no escape~",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4445] = {
+		orbit_slg = "",
+		name = "Ghostly Camplight Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102608",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "paodan_tideng",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4445,
+		hit_sfx = "",
+		desc = "The night road is long... But my ghosts keep me company...",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4446] = {
+		orbit_slg = "",
+		name = "Boundary Breaking Tentacle Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102609",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "paodan_chushou",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4446,
+		hit_sfx = "",
+		desc = "Careful not to get pulled into the screen~",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[4447] = {
+		orbit_slg = "",
+		name = "White Manjuu Mage (Torpedo)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102610",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "feiji_guiguaijiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4447,
+		hit_sfx = "",
+		desc = "This night patrol manjuu never sleeps! Chirp!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_jingzi",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+	pg.base.equip_skin_template[4448] = {
+		orbit_slg = "",
+		name = "White Manjuu Mage (Fighter)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102610",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "feiji_guiguaijiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4448,
+		hit_sfx = "",
+		desc = "This night patrol manjuu never sleeps! Chirp!",
+		derivate_boom = "paodan_chushou",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4449] = {
+		orbit_slg = "",
+		name = "White Manjuu Mage (Bomber)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102610",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "feiji_guiguaijiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4449,
+		hit_sfx = "",
+		desc = "This night patrol manjuu never sleeps! Chirp!",
+		derivate_boom = "paodan_chushou",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
+	pg.base.equip_skin_template[4450] = {
+		orbit_slg = "",
+		name = "Ghostly Manjuu Poltergeist (Torpedo)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102611",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "feiji_youlingjiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4450,
+		hit_sfx = "",
+		desc = "...You saw me, didn't you?",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_hongzhu",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+end)()
+(function ()
+	pg.base.equip_skin_template[4451] = {
+		orbit_slg = "",
+		name = "Ghostly Manjuu Poltergeist (Fighter)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102611",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "feiji_youlingjiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4451,
+		hit_sfx = "",
+		desc = "...You saw me, didn't you?",
+		derivate_boom = "paodan_tideng",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4452] = {
+		orbit_slg = "",
+		name = "Ghostly Manjuu Poltergeist (Bomber)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102611",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "feiji_youlingjiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4452,
+		hit_sfx = "",
+		desc = "...You saw me, didn't you?",
+		derivate_boom = "paodan_tideng",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
+	pg.base.equip_skin_template[4453] = {
+		orbit_slg = "",
+		name = "Manjuu Cursed Music Box (Torpedo)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102612",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "feiji_bayinhejiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4453,
+		hit_sfx = "",
+		desc = "The music plays, the manjuu dance.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "yulei_diaodeng",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	}
+	pg.base.equip_skin_template[4454] = {
+		orbit_slg = "",
+		name = "Manjuu Cursed Music Box (Fighter)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102612",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "feiji_bayinhejiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4454,
+		hit_sfx = "",
+		desc = "The music plays, the manjuu dance.",
+		derivate_boom = "paodan_jiujiuwanou",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	}
+	pg.base.equip_skin_template[4455] = {
+		orbit_slg = "",
+		name = "Manjuu Cursed Music Box (Bomber)",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "102612",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 89,
+		bullet_name = "feiji_bayinhejiu",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 4455,
+		hit_sfx = "",
+		desc = "The music plays, the manjuu dance.",
+		derivate_boom = "paodan_jiujiuwanou",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	}
 	pg.base.equip_skin_template[1001] = {
 		orbit_slg = "",
 		name = "Joypad Shell (P)",
@@ -54969,8 +55730,6 @@ end)()
 			54014
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[1014] = {
 		orbit_slg = "",
 		name = "Pixel Fighter",
@@ -58320,6 +59079,8 @@ end)()
 			107
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[1476] = {
 		orbit_slg = "",
 		name = "Chain Torpedo",
@@ -59100,8 +59861,6 @@ end)()
 			61504
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[1494] = {
 		orbit_slg = "",
 		name = "Aqua Shadow (Fighter)",
@@ -62744,6 +63503,8 @@ end)()
 			101
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[2042] = {
 		orbit_slg = "",
 		name = "Wave Torpedo",
@@ -63525,8 +64286,6 @@ end)()
 			107
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[2064] = {
 		orbit_slg = "",
 		name = "Magic Circles",
@@ -67273,6 +68032,8 @@ end)()
 			54014
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[3030] = {
 		orbit_slg = "",
 		name = "Echo of the Eternal Stars",
@@ -68128,8 +68889,6 @@ end)()
 			24000
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[3055] = {
 		orbit_slg = "",
 		name = "Discount Balloon Shell",
@@ -69159,6 +69918,294 @@ end)()
 			{
 				-1.4,
 				-6.7
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
+	pg.base.equip_skin_template[3086] = {
+		orbit_slg = "",
+		name = "Upvote Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99206",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 199,
+		bullet_name = "paodan_dianzan",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 3086,
+		hit_sfx = "",
+		desc = "Don't forget to like and subscribe!",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[3087] = {
+		orbit_slg = "",
+		name = "Downvote Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99207",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 199,
+		bullet_name = "paodan_diancai",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 3087,
+		hit_sfx = "",
+		desc = "Some 5-star reviews are best left in 5 equal parts.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[3088] = {
+		orbit_slg = "",
+		name = "Rose Meteor Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99208",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 199,
+		bullet_name = "zidan_huhua",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 3088,
+		hit_sfx = "",
+		desc = "Guided by the stars, it concludes in a floral shower.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[3089] = {
+		orbit_slg = "",
+		name = "Halo of Celestial Harmony",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99209",
+		orbit_rotate = true,
+		orbit_combat = "shebei_yinfuguanghuan",
+		ship_config_id = 100011,
+		orbit_rotate_ui = true,
+		orbit_combat_anima_change = "",
+		themeid = 199,
+		bullet_name = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 3089,
+		hit_sfx = "",
+		desc = "Melodies weave into a dazzling array. Listen closely to the symphony of the stars.",
+		derivate_boom = "",
+		orbit_ui = "shebei_yinfuguanghuanui",
+		mirror = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-1.69,
+				0,
+				-0.29
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				2,
+				0
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
+	pg.base.equip_skin_template[3090] = {
+		orbit_slg = "",
+		name = "Red-Eyed Metal Beast Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99210",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 199,
+		bullet_name = "paodan_shoutun",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 3090,
+		hit_sfx = "",
+		desc = "Eyes opened, evil repelled.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[3091] = {
+		orbit_slg = "",
+		name = "Skeletal Wings' Shadow",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99211",
+		orbit_rotate = false,
+		orbit_combat = "shebei_guniao",
+		ship_config_id = 100011,
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 199,
+		bullet_name = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 3091,
+		hit_sfx = "",
+		desc = "Wings of bone rake through the sky, feathered blades poised to strike.",
+		derivate_boom = "",
+		orbit_ui = "shebei_guniaoui",
+		mirror = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		double_char_bone = {
+			1,
+			0,
+			1
+		},
+		orbit_combat_bound = {
+			"body",
+			{
+				-0.68,
+				-2.64,
+				-0.86
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-56,
+				-246
 			}
 		},
 		orbit_hidden_action = {

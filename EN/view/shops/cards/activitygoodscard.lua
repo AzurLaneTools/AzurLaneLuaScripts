@@ -60,11 +60,7 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 		setActive(slot0.unexchangeTag, true)
 	end
 
-	updateDrop(slot0.itemTF, Drop.New({
-		type = slot1:getConfig("commodity_type"),
-		id = slot1:getConfig("commodity_id"),
-		count = slot1:getConfig("num")
-	}))
+	updateDrop(slot0.itemTF, slot1:getDropInfo())
 	setActive(slot0.limitTimeSellTF, false)
 
 	if slot5 then
@@ -153,11 +149,7 @@ slot0.StaticUpdate = function(slot0, slot1, slot2, slot3)
 	setActive(slot4:Find("mask"), not slot13)
 	setActive(slot4:Find("mask/tag/sellout_tag"), not slot13)
 
-	slot15 = Drop.New({
-		type = slot1:getConfig("commodity_type"),
-		id = slot1:getConfig("commodity_id"),
-		count = slot1:getConfig("num")
-	})
+	slot15 = slot1:getDropInfo()
 
 	updateDrop(findTF(slot4, "itemBg/item"), slot15)
 

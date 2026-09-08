@@ -42,7 +42,7 @@ end
 
 slot0.GenHelpContent = function(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot2:getConfig("config_data")) do
-		table.insert(slot1, i18n("shop_street_Equipment_skin_box_help", Item.getConfigData(pg.shop_template[slot8[1]].effect_args[1]).name, slot2:GetShopTime()))
+		table.insert(slot1, i18n("shop_street_Equipment_skin_box_help", Item.getConfigData(ShopConst.GetShopConfig(slot8[1]).effect_args[1]).name, slot2:GetShopTime()))
 	end
 end
 
@@ -123,7 +123,7 @@ slot0.RefreshUI = function(slot0)
 			return
 		end
 
-		slot1 = pg.shop_template[slot0]
+		slot1 = ShopConst.GetShopConfig(slot0)
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			yesText = "text_confirm",

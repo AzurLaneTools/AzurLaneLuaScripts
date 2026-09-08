@@ -50,7 +50,7 @@ slot0.UnLockTip = function(slot0)
 	end
 
 	_BackyardMsgBoxMgr:Show({
-		content = i18n("backyard_open_2floor", pg.shop_template[ShopArgs.DORM_FLOOR_ID].resource_num),
+		content = i18n("backyard_open_2floor", ShopConst.GetShopConfig(ShopArgs.DORM_FLOOR_ID).resource_num),
 		onYes = function ()
 			uv0:emit(CourtYardMediator.UN_LOCK_2FLOOR, uv1, 1)
 		end

@@ -27,7 +27,8 @@ pg.item_data_battleui.all = {
 	206,
 	207,
 	208,
-	209
+	209,
+	210
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -417,6 +418,23 @@ pg.base.item_data_battleui = {}
 		desc = "A minimalist, monochrome UI. Its impersonal, mechanical patterns and tactical interface are arranged in an orderly manner, creating an atmosphere reminiscent of the YoRHa squadron.",
 		id = 209,
 		icon = "209",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[210] = {
+		name = "Candlelit Ritual",
+		key = "SkinElite_20260908",
+		display_icon = "ui_210",
+		unlock = "Buy the Battle UI Pack - Candlelit Ritual",
+		is_unlock = 1,
+		rare = 4,
+		desc = "In the hall of mirrors where candlelight flickers, the paranormal intertwines like creeping thorns. Let each battle unveil a prologue to a drama wavering between reality and illusion.",
+		id = 210,
+		icon = "210",
 		scene = {},
 		rare_display = {
 			1,

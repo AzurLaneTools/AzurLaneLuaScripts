@@ -1,7 +1,7 @@
 slot0 = class("CommonCommodity", import(".BaseCommodity"))
 
 slot0.InCommodityDiscountTime = function(slot0)
-	if pg.shop_template[slot0].discount_time == "always" then
+	if ShopConst.GetShopConfig(slot0).discount_time == "always" then
 		return true
 	end
 
@@ -13,7 +13,13 @@ slot0.InCommodityDiscountTime = function(slot0)
 end
 
 slot0.bindConfigTable = function(slot0)
-	return pg.shop_template
+	return setmetatable({}, {
+		__index = function (slot0, slot1)
+			slot0[slot1] = ShopConst.GetShopConfig(slot1)
+
+			return slot0[slot1]
+		end
+	})
 end
 
 slot0.canPurchase = function(slot0)

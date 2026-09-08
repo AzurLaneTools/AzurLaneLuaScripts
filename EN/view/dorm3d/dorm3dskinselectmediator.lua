@@ -48,7 +48,7 @@ slot0.initNotificationHandleDic = function(slot0)
 		uv0.viewComponent:FlushSkinList()
 		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_MSGBOX, {
 			title = i18n("title_info"),
-			contentText = i18n("dorm3d_skin_equip", ShipGroup.getDefaultShipNameByGroupID(uv0.contextData.groupId), pg.dorm3d_resource[pg.shop_template[slot0].effect_args[1]].name),
+			contentText = i18n("dorm3d_skin_equip", ShipGroup.getDefaultShipNameByGroupID(uv0.contextData.groupId), pg.dorm3d_resource[ShopConst.GetShopConfig(slot0).effect_args[1]].name),
 			onConfirm = function ()
 				uv0.viewComponent:ConfirmCurrentSkin()
 			end,

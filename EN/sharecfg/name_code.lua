@@ -281,6 +281,8 @@ pg.name_code.all = {
 	311,
 	312,
 	313,
+	314,
+	315,
 	400,
 	401,
 	402,
@@ -2412,6 +2414,20 @@ end)()
 		code = "Takahashi",
 		nation = 0
 	}
+	pg.base.name_code[314] = {
+		name = "I-14",
+		type = 1,
+		id = 314,
+		code = "I-14",
+		nation = 0
+	}
+	pg.base.name_code[315] = {
+		name = "Azuchi",
+		type = 1,
+		id = 315,
+		code = "Azuchi",
+		nation = 0
+	}
 	pg.base.name_code[400] = {
 		name = "Z1",
 		type = 1,
@@ -2552,6 +2568,8 @@ end)()
 		code = "U-522",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[420] = {
 		name = "U-110",
 		type = 1,
@@ -2566,8 +2584,6 @@ end)()
 		code = "Königsberg",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[422] = {
 		name = "Karlsruhe",
 		type = 1,
@@ -3254,6 +3270,8 @@ end)()
 		code = "Felix Schultz",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[520] = {
 		name = "Felix Schultz",
 		type = 1,
@@ -3268,8 +3286,6 @@ end)()
 		code = "Hindenburg",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[522] = {
 		name = "Hatakaze META",
 		type = 1,

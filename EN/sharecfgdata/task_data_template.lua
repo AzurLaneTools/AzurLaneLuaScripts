@@ -323097,6 +323097,978 @@ _G.pg.base.task_data_template[25718] = {
 }
 
 
+_G.pg.base.task_data_template[25719] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』纪念任务1（只送勋章）",
+	desc = "Collect all stickers in Tales of the Paranormal.",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 1,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25719,
+	target_num = 8,
+	fix_task = 0,
+	target_id = "51143",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66094,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25720] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910631,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』纪念贴纸获取1",
+	desc = "Collect 7 stickers in Tales of the Paranormal.",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25720,
+	target_num = 7,
+	fix_task = 0,
+	target_id = "51143",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66095,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25721] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910632,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』纪念贴纸获取2",
+	desc = "Read the whole story in Tales of the Paranormal.",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25721,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7993
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66096,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25722] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910633,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』纪念贴纸获取3",
+	desc = "Clear the A3/C3 stage in Tales of the Paranormal",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25722,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060003,
+		2060023
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66097,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25723] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910634,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』纪念贴纸获取4",
+	desc = "Defeat 300 enemies in Tales of the Paranormal event stages.",
+	sub_type = 12,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25723,
+	target_num = 300,
+	fix_task = 0,
+	target_id = {
+		16890001,
+		16890002,
+		16890003,
+		16890004,
+		16890005,
+		16890006,
+		16890007,
+		16890101,
+		16890102,
+		16890103,
+		16890104,
+		16890105,
+		16890201,
+		16890202,
+		16890203,
+		16890301,
+		16890302,
+		16890303,
+		16891001,
+		16891002,
+		16891003,
+		16891004,
+		16891005,
+		16891006,
+		16891007,
+		16891101,
+		16891102,
+		16891103,
+		16891104,
+		16891105,
+		16891201,
+		16891202,
+		16891203,
+		16891204,
+		16891205,
+		16891206,
+		16891301,
+		16891302,
+		16891303,
+		16892001,
+		16892002,
+		16892003,
+		16892004,
+		16892005,
+		16892006,
+		16892007,
+		16892101,
+		16892102,
+		16892103,
+		16892104,
+		16892105,
+		16892201,
+		16892202,
+		16892203,
+		16892301,
+		16892302,
+		16892303,
+		16893001,
+		16893002,
+		16893003,
+		16893004,
+		16893005,
+		16893006,
+		16893007,
+		16893101,
+		16893102,
+		16893103,
+		16893104,
+		16893105,
+		16893201,
+		16893202,
+		16893203,
+		16893204,
+		16893205,
+		16893206,
+		16893301,
+		16893302,
+		16893303,
+		16894001,
+		16894002,
+		16894003,
+		16894004,
+		16894005,
+		16894006,
+		16894007,
+		16894101,
+		16894102,
+		16894103,
+		16894104,
+		16894105,
+		16894201,
+		16894202,
+		16894301,
+		16895001,
+		16895101
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66098,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25724] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910635,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』纪念贴纸获取5",
+	desc = "Clear 50 stages in Tales of the Paranormal.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25724,
+	target_num = 50,
+	fix_task = 0,
+	target_id = {
+		2060001,
+		2060002,
+		2060003,
+		2060004,
+		2060005,
+		2060006,
+		2060021,
+		2060022,
+		2060023,
+		2060024,
+		2060025,
+		2060026,
+		2060041,
+		2060051,
+		2060052
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66099,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25725] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910636,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』纪念贴纸获取6",
+	desc = "Clear the B3/D3 stage in Tales of the Paranormal.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25725,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060006,
+		2060026
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66100,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25726] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910637,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』纪念贴纸获取7",
+	desc = "Clear the SP stage in Tales of the Paranormal.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25726,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "2060041",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66101,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25727] = {
+	target_id_2 = "51138",
+	guild_coin_award = 0,
+	award = 910638,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』纪念贴纸获取8",
+	desc = "Collect a total of 10,000 Companion Balls.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25727,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "751",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66102,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25728] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910639,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』大佬章获取任务",
+	desc = "Clear the D3 stage in Tales of the Paranormal.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25728,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "2060026",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			348,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25729] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910663,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』纪念任务1（只送勋章）",
+	desc = "Collect all stickers in A Slightly Paranormal State of Affairs.",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 1,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25729,
+	target_num = 7,
+	fix_task = 0,
+	target_id = "51154",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66103,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25730] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910664,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』纪念贴纸获取1",
+	desc = "Collect 6 stickers in A Slightly Paranormal State of Affairs.",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25730,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "51154",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66104,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25731] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910665,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』纪念贴纸获取2",
+	desc = "Log in to the game.",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25731,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66105,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25732] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910666,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』纪念贴纸获取3",
+	desc = "Spend a total of 1,000 Oil.",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25732,
+	target_num = 1000,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66106,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25733] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910667,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』纪念贴纸获取4",
+	desc = "Build 10 ships.",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25733,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66107,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25734] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910668,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』纪念贴纸获取5",
+	desc = "Read the whole story in A Slightly Paranormal State of Affairs.",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25734,
+	target_num = 13,
+	fix_task = 0,
+	target_id = {
+		8021,
+		8022,
+		8023,
+		8024,
+		8025,
+		8026,
+		8027,
+		8028,
+		8029,
+		8030,
+		8031,
+		8032,
+		8033
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66108,
+			1
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_HOME",
+		{
+			openInterview = true,
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25735] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910669,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』纪念贴纸获取6",
+	desc = "Clear a total of 10 stages in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25735,
+	target_num = 10,
+	fix_task = 0,
+	target_id = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66109,
+			1
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25736] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910670,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』纪念贴纸获取7",
+	desc = "Clear any Hard Mode stage 3 times.",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25736,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			66110,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[25737] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910671,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』大佬章获取任务",
+	desc = "Collect all stickers in A Slightly Paranormal State of Affairs.",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 25737,
+	target_num = 7,
+	fix_task = 0,
+	target_id = "51154",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			347,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[27001] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -327692,426 +328664,6 @@ _G.pg.base.task_data_template[27265] = {
 }
 
 
-_G.pg.base.task_data_template[27400] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700500,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务1",
-	desc = "Sortie and obtain 15 victories.",
-	sub_type = 20,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27400,
-	target_num = 15,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27401] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700501,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务2",
-	desc = "Clear 3 Hard Mode stages.",
-	sub_type = 182,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27401,
-	target_num = 3,
-	fix_task = 0,
-	target_id = "10101",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27402] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700502,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务3",
-	desc = "Complete 3 Daily Challenges.",
-	sub_type = 26,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27402,
-	target_num = 3,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27403] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700503,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务4",
-	desc = "Defeat 20 enemies.",
-	sub_type = 11,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27403,
-	target_num = 20,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27404] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700504,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务5",
-	desc = "Conduct tactical training 2 times.",
-	sub_type = 71,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27404,
-	target_num = 2,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27405] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700505,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务6",
-	desc = "Complete 2 commissions.",
-	sub_type = 80,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27405,
-	target_num = 2,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			1
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27406] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 1700506,
-	type = 26,
-	is_head = 0,
-	count_inherit = 0,
-	name = "『20260625』宿舍活跃任务7",
-	desc = "Sortie and defeat 3 Boss Fleets.",
-	sub_type = 21,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 0,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27406,
-	target_num = 3,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			27,
-			7990261,
-			2
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27407] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 88153,
-	type = 6,
-	is_head = 1,
-	count_inherit = 0,
-	name = "『260723华丽连战SP』登录送皮肤体验券活动",
-	desc = "Log in to the game.",
-	sub_type = 1011,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 1,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27407,
-	target_num = 1,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			1,
-			740,
-			3
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27408] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 88245,
-	type = 6,
-	is_head = 1,
-	count_inherit = 0,
-	name = "『260813美服周年』登录送皮肤体验券活动",
-	desc = "Log in to the game.",
-	sub_type = 1011,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 1,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27408,
-	target_num = 1,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			1,
-			747,
-			3
-		}
-	}
-}
-
-
-_G.pg.base.task_data_template[27305] = {
-	target_id_2 = "",
-	guild_coin_award = 0,
-	award = 88113,
-	type = 6,
-	is_head = 1,
-	count_inherit = 0,
-	name = "『260625鸢尾SP』登录送皮肤体验券活动",
-	desc = "Log in to the game.",
-	sub_type = 1011,
-	task_fold = 0,
-	story_icon = "",
-	scene = "",
-	quick_finish = 0,
-	level = 1,
-	award_choice = "",
-	priority_type = 0,
-	auto_commit = 0,
-	added_tip = 0,
-	next_task = "0",
-	visibility = 1,
-	story_icon_shift = "",
-	ryza_type = 0,
-	story_id = "",
-	ryza_icon = "",
-	tutorial_handbook_pic = "",
-	activity_client_config = "",
-	id = 27305,
-	target_num = 1,
-	fix_task = 0,
-	target_id = "0",
-	open_need = {},
-	award_display = {
-		{
-			1,
-			731,
-			3
-		}
-	}
-}
-
-
 _G.pg.base.task_data_template[27181] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -330593,6 +331145,48 @@ _G.pg.base.task_data_template[27301] = {
 		{
 			1,
 			722,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27305] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88113,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『260625鸢尾SP』登录送皮肤体验券活动",
+	desc = "Log in to the game.",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27305,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			731,
 			3
 		}
 	}
@@ -333900,6 +334494,384 @@ _G.pg.base.task_data_template[27393] = {
 }
 
 
+_G.pg.base.task_data_template[27400] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700500,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务1",
+	desc = "Sortie and obtain 15 victories.",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27400,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27401] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700501,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务2",
+	desc = "Clear 3 Hard Mode stages.",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27401,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27402] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700502,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务3",
+	desc = "Complete 3 Daily Challenges.",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27402,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27403] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700503,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务4",
+	desc = "Defeat 20 enemies.",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27403,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27404] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700504,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务5",
+	desc = "Conduct tactical training 2 times.",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27404,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27405] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700505,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务6",
+	desc = "Complete 2 commissions.",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27405,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27406] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700506,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260625』宿舍活跃任务7",
+	desc = "Sortie and defeat 3 Boss Fleets.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27406,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			7990261,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27407] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88153,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『260723华丽连战SP』登录送皮肤体验券活动",
+	desc = "Log in to the game.",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27407,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			740,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27408] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88245,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『260813美服周年』登录送皮肤体验券活动",
+	desc = "Log in to the game.",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27408,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			747,
+			3
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[27450] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -334503,6 +335475,4115 @@ _G.pg.base.task_data_template[27464] = {
 			7,
 			802014,
 			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27465] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88253,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『260908日服九周年虎UR版本』登录送皮肤体验券活动",
+	desc = "Log in to the game.",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27465,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			756,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27521] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910641,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』-日常建造",
+	desc = "Build 3 ships.",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27521,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			751,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27522] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910642,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』-日常出击",
+	desc = "Sortie and obtain 15 victories.",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27522,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			751,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[27523] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910643,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』-日常困难本",
+	desc = "Clear any Hard Mode stage 1 time.",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27523,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			751,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27524] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910644,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』通关A1/C1",
+	desc = "Clear the A1/C1 stage in Tales of the Paranormal.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27525",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27524,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060001,
+		2060021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			751,
+			200
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27525] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910645,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『虎UR活动』通关A2/C2",
+	desc = "Clear the A2/C2 stage in Tales of the Paranormal.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27526",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27525,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060002,
+		2060022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			751,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27526] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910646,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『虎UR活动』通关A3/C3",
+	desc = "Clear the A3/C3 stage in Tales of the Paranormal.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27527",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27526,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060003,
+		2060023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			751,
+			600
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27527] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910647,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『虎UR活动』通关B1/D1",
+	desc = "Clear the B1/D1 stage in Tales of the Paranormal.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27528",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27527,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060004,
+		2060024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			751,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51142
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27528] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910648,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『虎UR活动』通关B2/D2",
+	desc = "Clear the B2/D2 stage in Tales of the Paranormal.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27529",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27528,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060005,
+		2060025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			751,
+			600
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51142
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27529] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910649,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『虎UR活动』通关B3/D3",
+	desc = "Clear the B3/D3 stage in Tales of the Paranormal.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27530",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27529,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060006,
+		2060026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			751,
+			800
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51142
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27530] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910650,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『虎UR活动』通关SP",
+	desc = "Clear the SP stage in Tales of the Paranormal.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27530,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "2060041",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			752,
+			50
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060025,
+			chapterId = 2060041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27531] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910651,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』通关EX",
+	desc = "Clear the EX stage in Tales of the Paranormal.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27531,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060051,
+		2060052
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060026,
+			chapterId = 2060051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27532] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910652,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』A1/C1的3星",
+	desc = "Clear the A1/C1 stage in Tales of the Paranormal with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27533",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27532,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060001,
+		2060021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27533] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910653,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『虎UR活动』A2/C2的3星",
+	desc = "Clear the A2/C1 stage in Tales of the Paranormal with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27534",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27533,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060002,
+		2060022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27534] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910654,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『虎UR活动』A3/C3的3星",
+	desc = "Clear the A3/C3 stage in Tales of the Paranormal with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27535",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27534,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060003,
+		2060023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27535] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910655,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『虎UR活动』B1/D1的3星",
+	desc = "Clear the B1/D1 stage in Tales of the Paranormal with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27536",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27535,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060004,
+		2060024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51142
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27536] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910656,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『虎UR活动』B2/D2的3星",
+	desc = "Clear the B2/D2 stage in Tales of the Paranormal with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27537",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27536,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060005,
+		2060025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51142
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27537] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910657,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『虎UR活动』B3/D3的3星",
+	desc = "Clear the B3/C3 stage in Tales of the Paranormal with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27537,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2060006,
+		2060026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51142
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27538] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910658,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』通关任务10次",
+	desc = "Clear any 10 stages in Tales of the Paranormal.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27538,
+	target_num = 10,
+	fix_task = 0,
+	target_id = {
+		2060001,
+		2060002,
+		2060003,
+		2060004,
+		2060005,
+		2060006,
+		2060021,
+		2060022,
+		2060023,
+		2060024,
+		2060025,
+		2060026,
+		2060041
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			751,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27539] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910659,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』通关任务30次",
+	desc = "Clear any 30 stages in Tales of the Paranormal.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27539,
+	target_num = 30,
+	fix_task = 0,
+	target_id = {
+		2060001,
+		2060002,
+		2060003,
+		2060004,
+		2060005,
+		2060006,
+		2060021,
+		2060022,
+		2060023,
+		2060024,
+		2060025,
+		2060026,
+		2060041
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			751,
+			1500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27540] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910660,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』通关任务60次",
+	desc = "Clear any 60 stages in Tales of the Paranormal.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27540,
+	target_num = 60,
+	fix_task = 0,
+	target_id = {
+		2060001,
+		2060002,
+		2060003,
+		2060004,
+		2060005,
+		2060006,
+		2060021,
+		2060022,
+		2060023,
+		2060024,
+		2060025,
+		2060026,
+		2060041
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			751,
+			3000
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27541] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910661,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』外观装备箱保底",
+	desc = "Buy 20 Gear Skin Boxes (Tales of the Paranormal) from the Supply Shop.",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27541,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30388",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30572,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27542] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910662,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』剧情模式",
+	desc = "Read the whole story in Tales of the Paranormal.",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27542,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7993
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27560] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Clear any event stage 3 times.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27560,
+	target_num = 3,
+	fix_task = 0,
+	target_id = {
+		2060001,
+		2060002,
+		2060003,
+		2060004,
+		2060005,
+		2060006,
+		2060021,
+		2060022,
+		2060023,
+		2060024,
+		2060025,
+		2060026,
+		2060041
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27561] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Reinforce gear 2 times.",
+	sub_type = 40,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27561,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27562] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Complete 2 commissions.",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27562,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27563] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Conduct 2 Exercises.",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27563,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27564] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Retire 2 ships.",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27564,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27565] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Build 1 time.",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27565,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27566] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Conduct tactical training 2 times.",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27566,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27567] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Defeat 20 enemies.",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27567,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27568] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Resupply the Dorm 5 times.",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27568,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27569] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Spend a total of 300 Oil.",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27569,
+	target_num = 300,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27570] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Enhance ships 5 times.",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27570,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27571] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Open 1 Tech Box.",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27571,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27572] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Conduct Research 1 time.",
+	sub_type = 110,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27572,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27573] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Interact with a shipgirl 1 time in the Dorm.",
+	sub_type = 2010,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27573,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27574] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910847,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT每日随机任务",
+	desc = "Interact with your secretary 1 time.",
+	sub_type = 2011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27574,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27575] = {
+	guild_coin_award = 0,
+	award = 910848,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT挑战任务-安土",
+	desc = "With Azuchi afloat in your fleet, defeat the Boss fleet of stage B3/D3.",
+	sub_type = 16,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27575,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2061213,
+		2063213
+	},
+	target_id_2 = {
+		304091,
+		304092,
+		304093,
+		304094
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			10
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27576] = {
+	guild_coin_award = 0,
+	award = 910848,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT挑战任务-伊14",
+	desc = "With I-14 afloat in your fleet, defeat the Boss fleet of stage B3/D3.",
+	sub_type = 16,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27576,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2061213,
+		2063213
+	},
+	target_id_2 = {
+		317031,
+		317032,
+		317033,
+		317034
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			10
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27577] = {
+	guild_coin_award = 0,
+	award = 910848,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT挑战任务-胜率META",
+	desc = "With Victorious META afloat in your fleet, defeat the Boss fleet of stage B3/D3.",
+	sub_type = 16,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27577,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2061213,
+		2063213
+	},
+	target_id_2 = {
+		9707091,
+		9707092,
+		9707093,
+		9707094
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			10
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27578] = {
+	guild_coin_award = 0,
+	award = 910848,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT挑战任务-匆忙",
+	desc = "With Hasty afloat in your fleet, defeat the Boss fleet of stage B3/D3.",
+	sub_type = 16,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27578,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2061213,
+		2063213
+	},
+	target_id_2 = {
+		201401,
+		201402,
+		201403,
+		201404
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			10
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27579] = {
+	guild_coin_award = 0,
+	award = 910848,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』进阶PT挑战任务-敌对",
+	desc = "With Hostile afloat in your fleet, defeat the Boss fleet of stage B3/D3.",
+	sub_type = 16,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27579,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		2061213,
+		2063213
+	},
+	target_id_2 = {
+		201191,
+		201192,
+		201193,
+		201194
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			10
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			51141
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27580] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910849,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』首通普通关卡1~2",
+	desc = "Clear either Stage-1 or Stage-2 once in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27581",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27580,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1,
+		2
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			15
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27581] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910849,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』首通普通关卡3~4",
+	desc = "Clear either Stage-3 or Stage-4 once in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27582",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27581,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		3,
+		4
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			15
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27582] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910849,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』首通普通关卡5~6",
+	desc = "Clear either Stage-5 or Stage-6 once in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27583",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27582,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		5,
+		6
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			15
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27583] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910849,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』首通普通关卡7~8",
+	desc = "Clear either Stage-7 or Stage-8 once in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27584",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27583,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7,
+		8
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			15
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27584] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910849,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』首通普通关卡9~10",
+	desc = "Clear either Stage-9 or Stage-10 once in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27585",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27584,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		9,
+		10
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			15
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27585] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910849,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』首通普通关卡11~12",
+	desc = "Clear either Stage-11 or Stage-12 once in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27586",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27585,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		11,
+		12
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			15
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27586] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910849,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『虎UR活动』首通普通关卡13~14",
+	desc = "Clear either Stage-13 or Stage-14 once in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27586,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		13,
+		14
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			752,
+			15
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27587] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910850,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Use an OPA Invitation Letter to unlock Tiger.",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27587,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27588] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910851,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP1-4 in Tales of the Paranormal (unlocks Friedrich Carl for recruitment).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27588,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7965
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27589] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910852,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP2-1 in Tales of the Paranormal (unlocks Yorck for recruitment in the minigame).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27589,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7969
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27590] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910853,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP2-2 in Tales of the Paranormal (unlocks Hasty for recruitment in the minigame).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27590,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7970
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27591] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910854,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP2-4 in Tales of the Paranormal (unlocks Golden Hind for recruitment in the minigame).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27591,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7972
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27592] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910855,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP3-6 in Tales of the Paranormal (unlocks Hakuhou for recruitment in the minigame).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27592,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7981
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27593] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910856,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP3-6 in Tales of the Paranormal (unlocks Illustrious for recruitment in the minigame).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27593,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7981
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27594] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910857,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP3-7 in Tales of the Paranormal (unlocks Cheshire for recruitment in the minigame).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27594,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7984
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27595] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910858,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP3-7 in Tales of the Paranormal (unlocks Lion for recruitment in the minigame).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27595,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7984
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27596] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910859,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP4-1 in Tales of the Paranormal (unlocks Hostile for recruitment in the minigame).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27596,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7987
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27597] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910860,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP4-1 in Tales of the Paranormal (unlocks Shoukaku for recruitment in the minigame).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27597,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7987
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27598] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910861,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP4-5 in Tales of the Paranormal (unlocks I-14 for recruitment in the minigame).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27598,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7991
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27599] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910862,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』角色解锁引导任务",
+	desc = "Read EP4-6 in Tales of the Paranormal (unlocks Azuchi for recruitment in the minigame).",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27599,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7993
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			68694,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 2060001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27600] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910863,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计招募1个角色",
+	desc = "Recruit 1 companion in A Slightly Paranormal State of Affairs.",
+	sub_type = 434,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27601",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27600,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			750,
+			100
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_HOME",
+		{
+			openInterview = true,
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27601] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910864,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计招募3个角色",
+	desc = "Recruit 3 companions in A Slightly Paranormal State of Affairs.",
+	sub_type = 434,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27602",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27601,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			750,
+			300
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_HOME",
+		{
+			openInterview = true,
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27602] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910865,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计招募7个角色",
+	desc = "Recruit 7 companions in A Slightly Paranormal State of Affairs.",
+	sub_type = 434,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27603",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27602,
+	target_num = 7,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			750,
+			500
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_HOME",
+		{
+			openInterview = true,
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27603] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910866,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计招募13个角色",
+	desc = "Recruit 13 companions in A Slightly Paranormal State of Affairs.",
+	sub_type = 434,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27603,
+	target_num = 13,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			750,
+			700
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_HOME",
+		{
+			openInterview = true,
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27604] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910867,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计首通1个玩法关卡",
+	desc = "Clear any stage in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27605",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27604,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			750,
+			100
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27605] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910868,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计首通4个玩法关卡",
+	desc = "Clear any 4 stages in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27606",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27605,
+	target_num = 4,
+	fix_task = 0,
+	target_id = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			750,
+			300
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27606] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910869,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计首通8个玩法关卡",
+	desc = "Clear any 8 stages in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27607",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27606,
+	target_num = 8,
+	fix_task = 0,
+	target_id = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			750,
+			500
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27607] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910870,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计首通16个玩法关卡",
+	desc = "Clear any 16 stages in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "27608",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27607,
+	target_num = 16,
+	fix_task = 0,
+	target_id = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			750,
+			700
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27608] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 910871,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计首通28个玩法关卡",
+	desc = "Clear any 28 stages in the A Slightly Paranormal State of Affairs minigame.",
+	sub_type = 436,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27608,
+	target_num = 28,
+	fix_task = 0,
+	target_id = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			750,
+			1000
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27610] = {
+	target_id_2 = "51157",
+	guild_coin_award = 0,
+	award = 910872,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计获得玩法PT",
+	desc = "Earn a total of 1,000 Investigation Funds in A Slightly Paranormal State of Affairs.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27610,
+	target_num = 1000,
+	fix_task = 0,
+	target_id = "750",
+	open_need = {},
+	award_display = {
+		{
+			9,
+			3086,
+			1
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27611] = {
+	target_id_2 = "51157",
+	guild_coin_award = 0,
+	award = 910873,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计获得玩法PT",
+	desc = "Earn a total of 1,500 Investigation Funds in A Slightly Paranormal State of Affairs.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27611,
+	target_num = 1500,
+	fix_task = 0,
+	target_id = "750",
+	open_need = {},
+	award_display = {
+		{
+			9,
+			3087,
+			1
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27612] = {
+	target_id_2 = "51157",
+	guild_coin_award = 0,
+	award = 910874,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计获得玩法PT",
+	desc = "Earn a total of 2,000 Investigation Funds in A Slightly Paranormal State of Affairs.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27612,
+	target_num = 2000,
+	fix_task = 0,
+	target_id = "750",
+	open_need = {},
+	award_display = {
+		{
+			9,
+			3088,
+			1
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27613] = {
+	target_id_2 = "51157",
+	guild_coin_award = 0,
+	award = 910875,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计获得玩法PT",
+	desc = "Earn a total of 3,000 Investigation Funds in A Slightly Paranormal State of Affairs.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27613,
+	target_num = 3000,
+	fix_task = 0,
+	target_id = "750",
+	open_need = {},
+	award_display = {
+		{
+			9,
+			3089,
+			1
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27614] = {
+	target_id_2 = "51157",
+	guild_coin_award = 0,
+	award = 910876,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计获得玩法PT",
+	desc = "Earn a total of 4,000 Investigation Funds in A Slightly Paranormal State of Affairs.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27614,
+	target_num = 4000,
+	fix_task = 0,
+	target_id = "750",
+	open_need = {},
+	award_display = {
+		{
+			9,
+			3090,
+			1
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27615] = {
+	target_id_2 = "51157",
+	guild_coin_award = 0,
+	award = 910877,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计获得玩法PT",
+	desc = "Earn a total of 5,000 Investigation Funds in A Slightly Paranormal State of Affairs.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27615,
+	target_num = 5000,
+	fix_task = 0,
+	target_id = "750",
+	open_need = {},
+	award_display = {
+		{
+			9,
+			3091,
+			1
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27616] = {
+	target_id_2 = "51157",
+	guild_coin_award = 0,
+	award = 910878,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计获得玩法PT",
+	desc = "Earn a total of 6,000 Investigation Funds in A Slightly Paranormal State of Affairs.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27616,
+	target_num = 6000,
+	fix_task = 0,
+	target_id = "750",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			349,
+			1
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27617] = {
+	target_id_2 = "51157",
+	guild_coin_award = 0,
+	award = 910879,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计获得玩法PT",
+	desc = "Earn a total of 7,000 Investigation Funds in A Slightly Paranormal State of Affairs.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27617,
+	target_num = 7000,
+	fix_task = 0,
+	target_id = "750",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			350,
+			1
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27618] = {
+	target_id_2 = "51157",
+	guild_coin_award = 0,
+	award = 910880,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服九周年大日常』累计获得玩法PT",
+	desc = "Earn a total of 8,000 Investigation Funds in A Slightly Paranormal State of Affairs.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27618,
+	target_num = 8000,
+	fix_task = 0,
+	target_id = "750",
+	open_need = {},
+	award_display = {
+		{
+			14,
+			344,
+			1
+		}
+	},
+	scene = {
+		"REVERSE_PACMAN_SELECT",
+		{
+			unlockActivityID = 51131
 		}
 	}
 }

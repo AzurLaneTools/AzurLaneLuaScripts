@@ -1,8 +1,8 @@
 slot0 = class("ShoppingStreet", import(".BaseShop"))
 
 slot0.getRiseShopId = function(slot0, slot1)
-	for slot5, slot6 in ipairs(pg.shop_template.all) do
-		if pg.shop_template[slot6].genre == slot0 and slot7.limit_args[2] <= slot1 and slot1 <= slot7.limit_args[3] then
+	for slot5, slot6 in ipairs(pg.shop_template.get_id_list_by_genre[slot0]) do
+		if ShopConst.GetShopConfig(slot6).limit_args[2] <= slot1 and slot1 <= slot7.limit_args[3] then
 			return slot6
 		end
 	end

@@ -24,7 +24,9 @@ pg.activity_medal_group.all = {
 	50659,
 	51078,
 	51110,
-	51113
+	51113,
+	51143,
+	51154
 }
 pg.base = pg.base or {}
 pg.base.activity_medal_group = {}
@@ -975,6 +977,93 @@ pg.base.activity_medal_group = {}
 		task_show = {
 			-1,
 			25711
+		}
+	}
+	pg.base.activity_medal_group[51143] = {
+		id = 51143,
+		entrance_picture = "medalAlbum/51143",
+		group_name = "Tales of the Paranormal",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				51143,
+				{
+					25719,
+					25720,
+					25721,
+					25722,
+					25723,
+					25724,
+					25725,
+					25726,
+					25727,
+					25728
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "ShadowCityMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				348,
+				1
+			},
+			{
+				8,
+				66094,
+				1
+			}
+		},
+		task_show = {
+			25728,
+			25719
+		}
+	}
+	pg.base.activity_medal_group[51154] = {
+		id = 51154,
+		entrance_picture = "MedalAlbum/51154",
+		group_name = "A Slightly Paranormal State of Affairs",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				51154,
+				{
+					25729,
+					25730,
+					25731,
+					25732,
+					25733,
+					25734,
+					25735,
+					25736,
+					25737
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "ShiningMagicMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				347,
+				1
+			},
+			{
+				8,
+				66103,
+				1
+			}
+		},
+		task_show = {
+			25737,
+			25729
 		}
 	}
 end)()

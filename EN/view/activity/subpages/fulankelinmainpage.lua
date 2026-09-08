@@ -58,7 +58,7 @@ slot0.OnUpdateFlush = function(slot0)
 end
 
 slot0.updateUI = function(slot0)
-	slot1, slot2 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[uv0].time)
+	slot1, slot2 = pg.TimeMgr.GetInstance():inTime(ShopConst.GetShopConfig(uv0).time)
 	slot3 = nil
 
 	if slot2 then

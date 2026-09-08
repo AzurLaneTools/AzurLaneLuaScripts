@@ -88,6 +88,7 @@ pg.equip_skin_theme_template.all = {
 	86,
 	87,
 	88,
+	89,
 	101,
 	102,
 	103,
@@ -2032,6 +2033,30 @@ pg.base.equip_skin_theme_template = {}
 			4437
 		}
 	}
+	pg.base.equip_skin_theme_template[89] = {
+		id = 89,
+		name = "Tales of the Paranormal",
+		ids = {
+			4438,
+			4439,
+			4440,
+			4441,
+			4442,
+			4443,
+			4444,
+			4445,
+			4446,
+			4447,
+			4448,
+			4449,
+			4450,
+			4451,
+			4452,
+			4453,
+			4454,
+			4455
+		}
+	}
 	pg.base.equip_skin_theme_template[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -2310,7 +2335,13 @@ pg.base.equip_skin_theme_template = {}
 			3082,
 			3083,
 			3084,
-			3085
+			3085,
+			3086,
+			3087,
+			3088,
+			3089,
+			3090,
+			3091
 		}
 	}
 end)()

@@ -8368,6 +8368,37 @@ _G.pg.base.item_data_statistics[11058] = {
 }
 
 
+_G.pg.base.item_data_statistics[11059] = {
+	open_directly = 0,
+	name = "Twin 152mm Mk.XXVI Main Gun Mount T3 Design",
+	type = 9,
+	display = "Twin 152mm Mk.XXVI Main Gun Mount T3 Design",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/22300",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11059,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[13000] = {
 	open_directly = 0,
 	name = "T0 Twin 381mm Main Gun - Variant Design",
@@ -16749,6 +16780,37 @@ _G.pg.base.item_data_statistics[21064] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21064,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21065] = {
+	open_directly = 0,
+	name = "META Crystal – Victorious META",
+	type = 4,
+	display = "An item that increases the potential of Victorious META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21065",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21065,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -30234,6 +30296,131 @@ _G.pg.base.item_data_statistics[30387] = {
 		{
 			9,
 			4437,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30388] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Tales of the Paranormal)",
+	type = 11,
+	display = "Contains a random Tales-of-the-Paranormal-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdushiguaitan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30385",
+	id = 30388,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4438,
+			1
+		},
+		{
+			9,
+			4439,
+			1
+		},
+		{
+			9,
+			4440,
+			1
+		},
+		{
+			9,
+			4441,
+			1
+		},
+		{
+			9,
+			4442,
+			1
+		},
+		{
+			9,
+			4443,
+			1
+		},
+		{
+			9,
+			4444,
+			1
+		},
+		{
+			9,
+			4445,
+			1
+		},
+		{
+			9,
+			4446,
+			1
+		},
+		{
+			9,
+			4447,
+			1
+		},
+		{
+			9,
+			4448,
+			1
+		},
+		{
+			9,
+			4449,
+			1
+		},
+		{
+			9,
+			4450,
+			1
+		},
+		{
+			9,
+			4451,
+			1
+		},
+		{
+			9,
+			4452,
+			1
+		},
+		{
+			9,
+			4453,
+			1
+		},
+		{
+			9,
+			4454,
+			1
+		},
+		{
+			9,
+			4455,
 			1
 		}
 	},
@@ -47249,6 +47436,219 @@ _G.pg.base.item_data_statistics[30571] = {
 }
 
 
+_G.pg.base.item_data_statistics[30572] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Tales of the Paranormal)",
+	type = 13,
+	display = "Can be opened to receive 1 Tales-of-the-Paranormal-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdushiguaitanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30572,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4438,
+			1
+		},
+		{
+			9,
+			4439,
+			1
+		},
+		{
+			9,
+			4440,
+			1
+		},
+		{
+			9,
+			4441,
+			1
+		},
+		{
+			9,
+			4442,
+			1
+		},
+		{
+			9,
+			4443,
+			1
+		},
+		{
+			9,
+			4444,
+			1
+		},
+		{
+			9,
+			4445,
+			1
+		},
+		{
+			9,
+			4446,
+			1
+		},
+		{
+			9,
+			4447,
+			1
+		},
+		{
+			9,
+			4448,
+			1
+		},
+		{
+			9,
+			4449,
+			1
+		},
+		{
+			9,
+			4450,
+			1
+		},
+		{
+			9,
+			4451,
+			1
+		},
+		{
+			9,
+			4452,
+			1
+		},
+		{
+			9,
+			4453,
+			1
+		},
+		{
+			9,
+			4454,
+			1
+		},
+		{
+			9,
+			4455,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4438,
+			1
+		},
+		{
+			9,
+			4439,
+			1
+		},
+		{
+			9,
+			4440,
+			1
+		},
+		{
+			9,
+			4441,
+			1
+		},
+		{
+			9,
+			4442,
+			1
+		},
+		{
+			9,
+			4443,
+			1
+		},
+		{
+			9,
+			4444,
+			1
+		},
+		{
+			9,
+			4445,
+			1
+		},
+		{
+			9,
+			4446,
+			1
+		},
+		{
+			9,
+			4447,
+			1
+		},
+		{
+			9,
+			4448,
+			1
+		},
+		{
+			9,
+			4449,
+			1
+		},
+		{
+			9,
+			4450,
+			1
+		},
+		{
+			9,
+			4451,
+			1
+		},
+		{
+			9,
+			4452,
+			1
+		},
+		{
+			9,
+			4453,
+			1
+		},
+		{
+			9,
+			4454,
+			1
+		},
+		{
+			9,
+			4455,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "Universal T4 Part",
@@ -51712,6 +52112,90 @@ _G.pg.base.item_data_statistics[40088] = {
 			2,
 			42050,
 			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40089] = {
+	open_directly = 1,
+	name = "Battle UI Pack - Candlelit Ritual (Basic)",
+	type = 17,
+	display = "Contains the Battle UI - Candlelit Ritual theme and 1,000 Coins.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui11",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4089",
+	id = 40089,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			210,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40090] = {
+	open_directly = 1,
+	name = "Battle UI Pack - Candlelit Ritual (Premium)",
+	type = 17,
+	display = "Contains the Battle UI - Candlelit Ritual theme and 3,060 Coins.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui11",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4090",
+	id = 40090,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			210,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},
@@ -100344,7 +100828,7 @@ _G.pg.base.item_data_statistics[59720] = {
 	open_directly = 0,
 	name = "1st Anniversary Invitation ",
 	type = 21,
-	display = "Can be used to receive an SR ship of your choosing as well as a commemorative item. ",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -100577,7 +101061,7 @@ _G.pg.base.item_data_statistics[59726] = {
 
 _G.pg.base.item_data_statistics[59727] = {
 	open_directly = 0,
-	name = "Illustrious's Letter",
+	name = "",
 	type = 1,
 	display = "A letter from Illustrious. It reads: \"Happy 1-year anniversary, my dear Commander.\"",
 	other_resource_cost = "[]",
@@ -102136,7 +102620,7 @@ _G.pg.base.item_data_statistics[59906] = {
 	open_directly = 0,
 	name = "2st Anniversary Invitation ",
 	type = 21,
-	display = "Can be used to receive an SR ship of your choosing as well as a commemorative item. ",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -102743,7 +103227,7 @@ _G.pg.base.item_data_statistics[59921] = {
 
 _G.pg.base.item_data_statistics[59922] = {
 	open_directly = 0,
-	name = "Gift from Illustrious",
+	name = "",
 	type = 1,
 	display = "A thank-you gift from Illustrious",
 	other_resource_cost = "[]",
@@ -103346,7 +103830,7 @@ _G.pg.base.item_data_statistics[59955] = {
 	open_directly = 0,
 	name = "Early Summer Invitation (2020) ",
 	type = 21,
-	display = "Can be used to invite a special partner to join you from a selection of ships. ",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -103957,7 +104441,7 @@ _G.pg.base.item_data_statistics[60053] = {
 
 _G.pg.base.item_data_statistics[60054] = {
 	open_directly = 0,
-	name = "Gift from Illustrious",
+	name = "",
 	type = 1,
 	display = "A letter from Illustrious. ",
 	other_resource_cost = "[]",
@@ -104052,7 +104536,7 @@ _G.pg.base.item_data_statistics[60059] = {
 	open_directly = 0,
 	name = "2nd Anniversary Invitation ",
 	type = 21,
-	display = "Can be used to receive an SR ship of your choosing as well as a commemorative item. ",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -105191,7 +105675,7 @@ _G.pg.base.item_data_statistics[60089] = {
 
 _G.pg.base.item_data_statistics[60090] = {
 	open_directly = 0,
-	name = "光辉的回礼（不该看到）",
+	name = "",
 	type = 1,
 	display = "由光辉赠与的，作为宴会邀约的回礼",
 	other_resource_cost = "[]",
@@ -105315,7 +105799,7 @@ _G.pg.base.item_data_statistics[60093] = {
 
 _G.pg.base.item_data_statistics[60094] = {
 	open_directly = 0,
-	name = "鹬的回礼（不该看到）",
+	name = "",
 	type = 1,
 	display = "由鹬赠与的，作为宴会邀约的回礼",
 	other_resource_cost = "[]",
@@ -105408,9 +105892,9 @@ _G.pg.base.item_data_statistics[60096] = {
 
 _G.pg.base.item_data_statistics[60097] = {
 	open_directly = 0,
-	name = "庆典邀请函（不该看到）",
+	name = "",
 	type = 21,
-	display = "使用后可以邀请一名特定对象参加宴会（获得指定角色）",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -106415,7 +106899,7 @@ _G.pg.base.item_data_statistics[60149] = {
 	open_directly = 0,
 	name = "Early Summer Invitation 2021",
 	type = 21,
-	display = "Can be used to receive an SR ship of your choosing as well as a commemorative item. ",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -107043,7 +107527,7 @@ _G.pg.base.item_data_statistics[60166] = {
 	open_directly = 0,
 	name = "3rd Anniversary Invitation",
 	type = 21,
-	display = "Can be used to receive an SR ship of your choosing as well as a commemorative item. ",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -108262,9 +108746,9 @@ _G.pg.base.item_data_statistics[60233] = {
 
 _G.pg.base.item_data_statistics[60235] = {
 	open_directly = 0,
-	name = "Early Summer Invitation (2022)",
+	name = "",
 	type = 21,
-	display = "Can be used to invite an SR ship of your choosing to join you.",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -108554,9 +109038,9 @@ _G.pg.base.item_data_statistics[60243] = {
 
 _G.pg.base.item_data_statistics[60244] = {
 	open_directly = 0,
-	name = "4th Anniversary Invitation",
+	name = "",
 	type = 21,
-	display = "Can be used to invite an SR ship of your choosing to join you.",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -109429,9 +109913,9 @@ _G.pg.base.item_data_statistics[60298] = {
 
 _G.pg.base.item_data_statistics[60316] = {
 	open_directly = 0,
-	name = "Early Summer Invitation (2023)",
+	name = "",
 	type = 21,
-	display = "Use to receive an SR ship of your choosing as well as a commemorative note.",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -109597,7 +110081,7 @@ _G.pg.base.item_data_statistics[60320] = {
 
 _G.pg.base.item_data_statistics[60321] = {
 	open_directly = 0,
-	name = "Illustrious's Gift (Early Summer 2023)",
+	name = "",
 	type = 1,
 	display = "A card from Illustrious. It reads: \"Winter gives way to spring, and spring gives way to an early summer this year, it seems. Let us enjoy the sunshine to its fullest, Commander.\"",
 	other_resource_cost = "[]",
@@ -109721,9 +110205,9 @@ _G.pg.base.item_data_statistics[60324] = {
 
 _G.pg.base.item_data_statistics[60414] = {
 	open_directly = 0,
-	name = "5th Anniversary Invitation",
+	name = "",
 	type = 21,
-	display = "Use to receive an SR ship of your choosing as well as a commemorative note.",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -110535,7 +111019,7 @@ _G.pg.base.item_data_statistics[60491] = {
 	open_directly = 0,
 	name = "Early Summer Invitation 2024",
 	type = 21,
-	display = "Use to get an SR shipgirl of your choice and a commemorative item.",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -110577,7 +111061,7 @@ _G.pg.base.item_data_statistics[60491] = {
 
 _G.pg.base.item_data_statistics[60492] = {
 	open_directly = 0,
-	name = "Illustrious's Gift (Early Summer 2024)",
+	name = "",
 	type = 1,
 	display = "A seasonal greetings card from Illustrious.",
 	other_resource_cost = "[]",
@@ -110794,7 +111278,7 @@ _G.pg.base.item_data_statistics[60498] = {
 
 _G.pg.base.item_data_statistics[60499] = {
 	open_directly = 0,
-	name = "Prinz Heinrich's Gift (Early Summer 2024)",
+	name = "",
 	type = 1,
 	display = "A seasonal greetings card from Prinz Heinrich.",
 	other_resource_cost = "[]",
@@ -110825,9 +111309,9 @@ _G.pg.base.item_data_statistics[60499] = {
 
 _G.pg.base.item_data_statistics[60500] = {
 	open_directly = 0,
-	name = "6th Anniversary Invitation",
+	name = "",
 	type = 21,
-	display = "Use to receive an SR ship of your choosing as well as a commemorative note.",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -110869,7 +111353,7 @@ _G.pg.base.item_data_statistics[60500] = {
 
 _G.pg.base.item_data_statistics[60501] = {
 	open_directly = 0,
-	name = "Reno's Gift (6th Anniversary)",
+	name = "",
 	type = 1,
 	display = "A card from Reno. It reads: \"Happy anniversary, Commander! The last year has been amazing. So much superhero content lately... Oh, and if you've got time later, wanna come with me to the movie theater and watch some classic Westerns?\"",
 	other_resource_cost = "[]",
@@ -111639,7 +112123,7 @@ _G.pg.base.item_data_statistics[60535] = {
 	open_directly = 0,
 	name = "Early Summer Invitation",
 	type = 21,
-	display = "Use to receive an SR shipgirl of your choosing.",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -111805,7 +112289,7 @@ _G.pg.base.item_data_statistics[60539] = {
 
 _G.pg.base.item_data_statistics[60540] = {
 	open_directly = 0,
-	name = "Early Summer Invitation (Illustrious)",
+	name = "",
 	type = 1,
 	display = "Early summer greetings (2025) given to you by Illustrious.",
 	other_resource_cost = "[]",
@@ -112028,9 +112512,9 @@ _G.pg.base.item_data_statistics[60546] = {
 
 _G.pg.base.item_data_statistics[60547] = {
 	open_directly = 0,
-	name = "7th Anniversary Invitation",
+	name = "",
 	type = 21,
-	display = "Use to receive an SR ship of your choosing as well as a commemorative note.",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -112258,7 +112742,7 @@ _G.pg.base.item_data_statistics[60553] = {
 
 _G.pg.base.item_data_statistics[60554] = {
 	open_directly = 0,
-	name = "Joffre's Gift (7th Anniversary)",
+	name = "",
 	type = 1,
 	display = "A card from Joffre. It reads: \"May you have a blessed anniversary and may the Holy Iris shine upon our port. You've proven over this year once again what an excellent leader you are, Commander, both in tactical ability and as a superior officer. I pray to remain in your grace and for fortune to come to you and all of our friends.\"",
 	other_resource_cost = "[]",
@@ -112322,7 +112806,7 @@ _G.pg.base.item_data_statistics[60556] = {
 	open_directly = 0,
 	name = "庆典邀请函(2025.9)",
 	type = 21,
-	display = "Use to receive an SR ship of your choosing as well as a commemorative note.",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -112459,7 +112943,7 @@ _G.pg.base.item_data_statistics[60560] = {
 	open_directly = 0,
 	name = "{namecode:470}的回礼",
 	type = 1,
-	display = "由{namecode:470}赠与的，作为宴会邀约的回礼",
+	display = "由{namecode:470}赠予的，作为宴会邀约的回礼",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -112581,7 +113065,7 @@ _G.pg.base.item_data_statistics[60563] = {
 
 _G.pg.base.item_data_statistics[60564] = {
 	open_directly = 0,
-	name = "Joffre's Gift (7th Anniversary)",
+	name = "",
 	type = 1,
 	display = "A card from Joffre. It reads: \"May you have a blessed anniversary and may the Holy Iris shine upon our port. You've proven over this year once again what an excellent leader you are, Commander, both in tactical ability and as a superior officer. I pray to remain in your grace and for fortune to come to you and all of our friends.\"",
 	other_resource_cost = "[]",
@@ -113134,7 +113618,7 @@ _G.pg.base.item_data_statistics[60581] = {
 	open_directly = 0,
 	name = "Early Summer Invitation",
 	type = 21,
-	display = "Use to receive an SR shipgirl of your choosing.",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -113424,9 +113908,9 @@ _G.pg.base.item_data_statistics[60589] = {
 
 _G.pg.base.item_data_statistics[60590] = {
 	open_directly = 0,
-	name = "Anniversary Invitation ",
+	name = "",
 	type = 21,
-	display = "Use to receive a shipgirl of your choosing. ",
+	display = "",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -113499,7 +113983,7 @@ _G.pg.base.item_data_statistics[60591] = {
 
 _G.pg.base.item_data_statistics[60592] = {
 	open_directly = 0,
-	name = "Gift from Shoukaku",
+	name = "",
 	type = 1,
 	display = "A card from Shoukaku. It reads: \"Oh my, Commander. Does this invitation mean that you've chosen me and Zuikaku over those senpais of ours? Heehee, just kidding. It's good to see everyone getting along, and it's all thanks to you~\"",
 	other_resource_cost = "[]",
@@ -116131,6 +116615,73 @@ _G.pg.base.item_data_statistics[81236] = {
 		{
 			2,
 			42076,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81238] = {
+	open_directly = 1,
+	name = "Eerie Talismans Lucky Bag A",
+	type = 17,
+	display = "Contains 1 random skin from the August 13th, 2026 update, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Special General Blueprint - Series 9 x2, Decor Tokens x100, and Quick Finishers x10.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai38",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998333",
+	id = 81238,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86230,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
 			2
 		},
 		{

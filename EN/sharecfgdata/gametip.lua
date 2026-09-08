@@ -10204,6 +10204,11 @@ Proceed with retrofit?]]
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_201534 = {
+	tip = "Completing the retrofit will have the following effects:\n<color=#92fc63>Main gun base +1</color>\nProceed with retrofit?"
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "Download Language Pack"
 }
@@ -13014,7 +13019,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Bennington, Vicksburg, and more!"
+	tip = "Get Azuchi guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
@@ -15585,12 +15590,12 @@ Event Information:
  a. Active Commander 
  b. Returning/New Commander
 2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
-- - Logged in at least once at any point between July 31st, 2025 and before the maintenance on August 14th, 2025.
+- - Logged in at least once at any point between August 8th, 2026 and before the maintenance on September 8th, 2026.
 3. Players who do not meet this criterion are categorized as Returning/New Commanders and are eligible for their own set of objectives and rewards.
 4. If you are unsure whether you are an Active Commander or a Returning/New Commander, please view the information in the Returnee Missions banner. 
 5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.
 6. Returning/New Commanders can participate in Returnee Missions by entering the UID of an Active Commander into the event banner on their end. You can see the UIDs of your linked Returning/New Commanders on the right side of the event banner. 
-7. Active Commanders can tap the "Broadcast User Identification" button to show their UID to Returning/New Commanders who are looking for Active Commander UIDs.
+7. Active Commanders can tap the ""Broadcast User Identification"" button to show their UID to Returning/New Commanders who are looking for Active Commander UIDs.
 8. A Returning/New Commander's objective is to enter an Active Commander's UID in the event banner to gain access to Returnee Missions. Returning/New Commanders who participate in Returnee Missions gain access to daily tasks which give various nice rewards when completed.
 9. A single UID can be entered up to 2 times. You can still enter the UID of another player even if they play on a different server than you.]]
 		}
@@ -15655,7 +15660,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4. You may choose two ships on which to focus your wishes. (You can only choose one Ultra Rare ship and any other Ultra Rare ship cannot be built in the Wishing Well.)"
 		},
 		{
-			info = "5. Only ships added to the normal building pool prior to March 25th, 2026 can hear your wishes."
+			info = "5. Only ships added to the normal building pool prior to July 9th, 2026 can hear your wishes."
 		},
 		{
 			info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
@@ -51157,6 +51162,433 @@ _G.pg.base.gametip.event_worldboss_0827_title_en = {
 }
 
 
+_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_1 = {
+	tip = "Call to Arms"
+}
+
+
+_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_2 = {
+	tip = "Job-Hunting Operation!"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_1 = {
+	tip = "Commemoration"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_2 = {
+	tip = "Furniture Set"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_3 = {
+	tip = "Gear Skin Box"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_4 = {
+	tip = "Event Rewards"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_1 = {
+	tip = "Characters"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_2 = {
+	tip = "See More"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_3 = {
+	tip = "Gear Skins"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
+	tip = "Éclat Magique"
+}
+
+
+_G.pg.base.gametip.shiningmagicsignpage_sign_remain = {
+	tip = "Remaining:"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_3 = {
+	tip = "Login Bonus"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_4 = {
+	tip = "Mobilization"
+}
+
+
+_G.pg.base.gametip["20260908gameplay_main_window"] = {
+	tip = {
+		{
+			info = "- How to Play -"
+		},
+		{
+			info = "1.) In the \"\"A Slightly Paranormal State of Affairs\"\" minigame, you will conduct <color=#92fc63>poltergeist-busting operations</color> by placing your companions on the map of various stages, utilizing their skills to capture enemy poltergeists.\nClear the stages and the corresponding event missions to obtain great rewards.\n"
+		},
+		{
+			info = "2.) Each stage in this minigame will feature its own map layout and enemies. When you place a companion, she will automatically track and attempt to capture enemy poltergeists. At least one ally must be placed on the map.\nCapture all enemies within the time limit to clear the stage. Furthermore, you will receive a higher score depending on how quickly you clear the stage.\nEach stage has two difficulty levels, Novice and Pro. The Pro difficulty is unlocked after clearing the stage on Novice difficulty one time. Two stages of each difficulty level will unlock every day until 9/14, and you can earn event points (Investigation Funds) for your first clear of each stage."
+		},
+		{
+			info = [[
+3.) There are 13 different companions who can join you on an operation. Each companion has her own abilities and behavior patterns.
+To unlock a companion in this minigame, the following conditions must first be met:
+① You must have progressed a certain amount in the event's sortie stages.
+② You must complete event missions to obtain <color=#92fc63>OPA Invitation Letters</color>. Each OPA Invitation Letter can unlock 1 character.Once these conditions are satisfied, you can head to <color=#92fc63>Recruit</color>→<color=#92fc63>Begin Interview</color> to unlock your desired companion.]]
+		},
+		{
+			info = "4.) During the minigame itself, you can place your companions on the map and assign them <color=#92fc63>Field Op Skills</color>. You can assign one skill on Novice difficulty and 2 on Pro difficulty.\nOnce the operation is in progress, you can use these Field Op skills to support your teammates, such as buffing them or setting up obstacles to block enemy movement.\nThe number of times Field Op Skills can be used can be increased by going to <color=#92fc63>Management</color>→<color=#92fc63>Purchase Upgrades</color>, then spending the Investigation Funds you've earned."
+		},
+		{
+			info = "5.) You can check the performance of your team as well as more detailed information by going to <color=#92fc63>Management</color>→<color=#92fc63>Details</color>. You can also increase your Affinity with your companions by gifting them a \"\"Melody of Hope\"\", which will unlock exclusive event mini-stories.\n\"\"Melody of Hope\"\" can be obtained by going to Management → Purchase Upgrades, then spending the Investigation Funds you've earned."
+		}
+	}
+}
+
+
+_G.pg.base.gametip["20260908gameplay_hire"] = {
+	tip = {
+		{
+			info = "- Companion Details -"
+		},
+		{
+			info = "1.) In \"\"A Slightly Paranormal State of Affairs\"\", you can unlock a variety of companions which can be deployed within the minigame's stages."
+		},
+		{
+			info = "2.) To unlock each of the companions, you will need to progress through the corresponding part of the event story in \"\"Tales of the Paranormal\"\", then collect <color=#92fc63>OPA Invitation Letters</color> from the Event Missions tab in \"\"A Slightly Paranormal State of Affairs\"\"\nOnce you've done so, you will be able to use the OPA Invitation Letters to recruit the companions of your choosing!"
+		},
+		{
+			info = [[
+3.) Each companion comes with their own base speed, poltergeist characteristics, and tracking habits. When deploying them during the minigame, you will need to take into consideration the map's terrain as well as the enemies you are facing.
+
+Base Speed: How quickly the companion moves by default. However, this can be affected by the map's terrain or buffs.
+Poltergeist Characteristics: How the companion prefers to move. Companions may behave differently in long corridors, corners, and intersections.
+Tracking Habits: The movement logic the companion follows when tracking enemies. There are three types: Chaser - follows the enemy's current position; Ambusher - predicts the enemy's path to try to intercept them; Planner - coordinates with allies to cut off escape routes.]]
+		},
+		{
+			info = "4.) Certain companions may prefer specific routes when choosing how to track the enemy."
+		},
+		{
+			info = "5.) When you hire a new companion, a special conversation will play. You will be able to further increase your Affinity by giving them \"\"Melody of Hope\"\", and as your Affinity level increases, you will unlock additional special conversations."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.reverse_pacman_archive = {
+	tip = "Companion Dossier"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_support = {
+	tip = "Purchase Upgrades"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy = {
+	tip = "Field Op"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_logistics_sys = {
+	tip = "Select Buffs"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_remaining_gifts = {
+	tip = "Melody of Hope: $1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_favourite_increased = {
+	tip = "Affinity increased with $1!"
+}
+
+
+_G.pg.base.gametip["reverse_pacman_ not_enough_gifts"] = {
+	tip = "Insufficient Melody of Hope."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_send_gift = {
+	tip = "Gift"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_owned = {
+	tip = "Owned"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_count = {
+	tip = "$1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_buy = {
+	tip = "Buy"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_upgrade = {
+	tip = "Upgrade"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_sold_out = {
+	tip = "Sold Out"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_role = {
+	tip = "Choose the poltergeist you want to interview"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_hired_role = {
+	tip = "Already Hired"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_hire_tip = {
+	tip = "Hire this poltergeist?"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unlock_role = {
+	tip = "Unlock this character by reading through \"Tales of the Paranormal\""
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unhire_role = {
+	tip = "This poltergeist is waiting to be interviewed"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_speed = {
+	tip = "Movement Speed"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_ai_type = {
+	tip = "Tracking Habit"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_ai_desc = {
+	tip = "Characteristics"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_close = {
+	tip = "Tap the X to close this window"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_close_1 = {
+	tip = "Close"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_chaser_1 = {
+	tip = "Chaser"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_ambusher_1 = {
+	tip = "Ambusher"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_planner_1 = {
+	tip = "Planner"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_speed_level = {
+	tip = "Level <color=$1>$2</color>"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_ship_speed = {
+	tip = "Speed: $1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy_tip = {
+	tip = "Select a location to deploy your allies."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_level_title = {
+	tip = "Select a stage"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_ship_title = {
+	tip = "Place your companions"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_type_1 = {
+	tip = "Novice"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_type_2 = {
+	tip = "Pro"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_level_lock_tip = {
+	tip = "Clear \"Novice\" first to unlock \"Pro\""
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_0 = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_1 = {
+	tip = "Chaser"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_2 = {
+	tip = "Ambusher"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_3 = {
+	tip = "Planner"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy_empty = {
+	tip = "Please deploy at least one companion."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unlock_date_tip = {
+	tip = "Unlocks on $1/$2."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_game_speed_up_tip = {
+	tip = "Less than 30 seconds remaining. The operation is going into overdrive!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_cast_block = {
+	tip = "Barricade!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_pick_speed = {
+	tip = "Speed Boost!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_pick_giant = {
+	tip = "Gigantify!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_award_title = {
+	tip = "First Clear Reward"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_fail_tips = {
+	tip = "Tip: Deploy companions whose strengths counter the enemy's characteristics, or are simply faster than them."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_statistics = {
+	tip = "Operation Records"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_time = {
+	tip = "Time Spent: $1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_arrest = {
+	tip = "Companions Placed: $1\nEnemies Contained: $2"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_timeout = {
+	tip = "Time Remaining:"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_escape = {
+	tip = "The enemy has escaped your tracking range."
+}
+
+
+_G.pg.base.gametip["260908activity_shop_title"] = {
+	tip = "Tales of the Paranormal"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk1 = {
+	tip = "Approaching target. Commencing containment."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk2 = {
+	tip = "Target sighted. Containment will now commence."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk3 = {
+	tip = "Report: enemy confirmed in the surrounding area."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk4 = {
+	tip = "Target secured!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk5 = {
+	tip = "The target has been contained!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk6 = {
+	tip = "Report: the target has been retrieved."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk7 = {
+	tip = "The target got away..."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk8 = {
+	tip = "The target has escaped our tracking range."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk9 = {
+	tip = "Report: the target has moved out of tracking range."
+}
+
+
 _G.pg.base.gametip.auto_battle_unlock_tip = {
 	tip = "Unlocks upon clearing main campaign 1-3."
 }
@@ -51458,21 +51890,6 @@ The Operational Handover feature allows you to automatically complete stages tha
 }
 
 
-_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_1 = {
-	tip = "Call to Arms"
-}
-
-
-_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_2 = {
-	tip = "Job-Hunting Operation!"
-}
-
-
-_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
-	tip = "Éclat Magique"
-}
-
-
-_G.pg.base.gametip.shiningmagicsignpage_sign_remain = {
-	tip = "Remaining:"
+_G.pg.base.gametip.reverse_pacman_no_char = {
+	tip = "Go to <color=#92fc63>Manual</color> and <color=#92fc63>Recruitment</color> to select which companion you'd like to recruit!"
 }

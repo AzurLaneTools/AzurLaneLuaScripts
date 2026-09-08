@@ -4,7 +4,7 @@ slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.id
 	slot4 = slot2.count
-	slot5 = pg.shop_template[slot3]
+	slot5 = ShopConst.GetShopConfig(slot3)
 
 	if not slot3 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_shopId_noFound"))

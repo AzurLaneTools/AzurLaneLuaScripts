@@ -8350,6 +8350,64 @@ _G.pg.base.expedition_data_template[9808] = {
 }
 
 
+_G.pg.base.expedition_data_template[9809] = {
+	name = "Tryout Stage",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 9809,
+	level = 100,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 9809,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-1",
+	difficulty = 1,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50183,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
 _G.pg.base.expedition_data_template[9901] = {
 	name = "Battle Simulation - Neptune",
 	icon = "bossicon",
@@ -1102191,6 +1102249,12268 @@ _G.pg.base.expedition_data_template[2056004] = {
 	map_id = {
 		{
 			50228,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060001] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 105,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060001,
+	level = 21,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060001,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200884
+		},
+		{
+			2,
+			17021
+		},
+		{
+			2,
+			17031
+		},
+		{
+			2,
+			17001
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060002] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 121,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060002,
+	level = 22,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060002,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200884
+		},
+		{
+			2,
+			17021
+		},
+		{
+			2,
+			17031
+		},
+		{
+			2,
+			17001
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060003] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 138,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060003,
+	level = 23,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060003,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200884
+		},
+		{
+			2,
+			17021
+		},
+		{
+			2,
+			17031
+		},
+		{
+			2,
+			17001
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060004] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 105,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060004,
+	level = 21,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060004,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200884
+		},
+		{
+			2,
+			17011
+		},
+		{
+			2,
+			17031
+		},
+		{
+			2,
+			17001
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060005] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 121,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060005,
+	level = 22,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060005,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200884
+		},
+		{
+			2,
+			17011
+		},
+		{
+			2,
+			17031
+		},
+		{
+			2,
+			17001
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060006] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 138,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060006,
+	level = 23,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060006,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200884
+		},
+		{
+			2,
+			17011
+		},
+		{
+			2,
+			17031
+		},
+		{
+			2,
+			17001
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060007] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 105,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060007,
+	level = 21,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060007,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200884
+		},
+		{
+			2,
+			17041
+		},
+		{
+			2,
+			17031
+		},
+		{
+			2,
+			17001
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060008] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 121,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060008,
+	level = 22,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060008,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200884
+		},
+		{
+			2,
+			17041
+		},
+		{
+			2,
+			17031
+		},
+		{
+			2,
+			17001
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060009] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 138,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060009,
+	level = 23,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060009,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200884
+		},
+		{
+			2,
+			17041
+		},
+		{
+			2,
+			17031
+		},
+		{
+			2,
+			17001
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060013] = {
+	name = "Enemy Flagship",
+	icon = "feiteliekaer_4",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 181,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060013,
+	level = 25,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2060013,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200871
+		},
+		{
+			2,
+			54022
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060101] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 130,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060001,
+	level = 26,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060101,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200885
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060102] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 148,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060002,
+	level = 27,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060102,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200885
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060103] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 168,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060003,
+	level = 28,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060103,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200885
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060104] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 130,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060004,
+	level = 26,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060104,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200885
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060105] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 148,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060005,
+	level = 27,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060105,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200885
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060106] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 168,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060006,
+	level = 28,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060106,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200885
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060107] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 130,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060007,
+	level = 26,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060107,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200885
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060108] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 148,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060008,
+	level = 27,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060108,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200885
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060109] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 168,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060009,
+	level = 28,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060109,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200885
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060113] = {
+	name = "Enemy Flagship",
+	icon = "yueke_ger_4",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 217,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060113,
+	level = 30,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2060113,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200872
+		},
+		{
+			2,
+			54022
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060201] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 155,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060001,
+	level = 31,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060201,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200886
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060202] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 176,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060002,
+	level = 32,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060202,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200886
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060203] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 198,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060003,
+	level = 33,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060203,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200886
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060204] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 155,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060004,
+	level = 31,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060204,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200886
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060205] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 176,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060005,
+	level = 32,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060205,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200886
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060206] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 198,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060006,
+	level = 33,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060206,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200886
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060207] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 155,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060007,
+	level = 31,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060207,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200886
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060208] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 176,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060008,
+	level = 32,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060208,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200886
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060209] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 198,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060009,
+	level = 33,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060209,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200886
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060213] = {
+	name = "Enemy Flagship",
+	icon = "jinluhao_3",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 254,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2060213,
+	level = 35,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2060213,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200873
+		},
+		{
+			2,
+			54022
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060301] = {
+	name = "Elite Fleet",
+	icon = "ghostqz",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 162,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2060301,
+	level = 24,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060301,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200871
+		},
+		{
+			2,
+			54022
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060302] = {
+	name = "Elite Fleet",
+	icon = "ghostqz",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 196,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2060302,
+	level = 29,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060302,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200872
+		},
+		{
+			2,
+			54022
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2060303] = {
+	name = "Elite Fleet",
+	icon = "ghostqz",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 229,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2060303,
+	level = 34,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2060303,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200873
+		},
+		{
+			2,
+			54022
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061001] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 205,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061001,
+	level = 41,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061001,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200887
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061002] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 231,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061002,
+	level = 42,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061002,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200887
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061003] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 258,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061003,
+	level = 43,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061003,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200887
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061004] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 205,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061004,
+	level = 41,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061004,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200887
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061005] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 231,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061005,
+	level = 42,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061005,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200887
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061006] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 258,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061006,
+	level = 43,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061006,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200887
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061007] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 205,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061007,
+	level = 41,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061007,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200887
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061008] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 231,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061008,
+	level = 42,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061008,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200887
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061009] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 258,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061009,
+	level = 43,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061009,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200887
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061013] = {
+	name = "Enemy Flagship",
+	icon = "baifeng_3",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 326,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061013,
+	level = 45,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2061013,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200874
+		},
+		{
+			2,
+			54023
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061101] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 255,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061001,
+	level = 51,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061101,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200888
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061102] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 286,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061002,
+	level = 52,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061102,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200888
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061103] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 318,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061003,
+	level = 53,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061103,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200888
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061104] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 255,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061004,
+	level = 51,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061104,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200888
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061105] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 286,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061005,
+	level = 52,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061105,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200888
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061106] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 318,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061006,
+	level = 53,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061106,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200888
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061107] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 255,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061007,
+	level = 51,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061107,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200888
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061108] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 286,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061008,
+	level = 52,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061108,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200888
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061109] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 318,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061009,
+	level = 53,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061109,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200888
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061113] = {
+	name = "Enemy Flagship",
+	icon = "guanghui_9",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 399,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061113,
+	level = 55,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2061113,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200875
+		},
+		{
+			2,
+			54023
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061201] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 280,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061001,
+	level = 56,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061201,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200889
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061202] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 313,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061002,
+	level = 57,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061202,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200889
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061203] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 348,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061003,
+	level = 58,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061203,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200889
+		},
+		{
+			2,
+			17022
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061204] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 280,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061004,
+	level = 56,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061204,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200889
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061205] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 313,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061005,
+	level = 57,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061205,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200889
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061206] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 348,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061006,
+	level = 58,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061206,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200889
+		},
+		{
+			2,
+			17012
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061207] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 280,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061007,
+	level = 56,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061207,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200889
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061208] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 313,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061008,
+	level = 57,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061208,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200889
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061209] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 348,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061009,
+	level = 58,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061209,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200889
+		},
+		{
+			2,
+			17042
+		},
+		{
+			2,
+			17032
+		},
+		{
+			2,
+			17002
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061213] = {
+	name = "Enemy Flagship",
+	icon = "chaijun_6",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 435,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2061213,
+	level = 60,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2061213,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56000
+		},
+		{
+			2,
+			200876
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061301] = {
+	name = "Elite Fleet",
+	icon = "ghostzl",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 297,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2061301,
+	level = 44,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061301,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200874
+		},
+		{
+			2,
+			54023
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061302] = {
+	name = "Elite Fleet",
+	icon = "ghosthm",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 297,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2061302,
+	level = 44,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061302,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200874
+		},
+		{
+			2,
+			54023
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061303] = {
+	name = "Elite Fleet",
+	icon = "ghostzl",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 364,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2061303,
+	level = 54,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061303,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200875
+		},
+		{
+			2,
+			54023
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061304] = {
+	name = "Elite Fleet",
+	icon = "ghosthm",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 364,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2061304,
+	level = 54,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061304,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200875
+		},
+		{
+			2,
+			54023
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061305] = {
+	name = "Elite Fleet",
+	icon = "ghostzl",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 398,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2061305,
+	level = 59,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061305,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200876
+		},
+		{
+			2,
+			54023
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2061306] = {
+	name = "Elite Fleet",
+	icon = "ghosthm",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 398,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2061306,
+	level = 59,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2061306,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200876
+		},
+		{
+			2,
+			54023
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54015
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062001] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 355,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062001,
+	level = 71,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062001,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200890
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062002] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 396,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062002,
+	level = 72,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062002,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200890
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062003] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 438,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062003,
+	level = 73,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062003,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200890
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062004] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 355,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062004,
+	level = 71,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062004,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200890
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062005] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 396,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062005,
+	level = 72,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062005,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200890
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062006] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 438,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062006,
+	level = 73,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062006,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200890
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062007] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 355,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062007,
+	level = 71,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062007,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200890
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062008] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 396,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062008,
+	level = 72,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062008,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200890
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062009] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 438,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062009,
+	level = 73,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062009,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200890
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062013] = {
+	name = "Enemy Flagship",
+	icon = "feiteliekaer_4",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 544,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062013,
+	level = 75,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2062013,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200877
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062101] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 380,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062001,
+	level = 76,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062101,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200891
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062102] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 423,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062002,
+	level = 77,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062102,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200891
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062103] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 468,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062003,
+	level = 78,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062103,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200891
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062104] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 380,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062004,
+	level = 76,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062104,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200891
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062105] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 423,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062005,
+	level = 77,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062105,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200891
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062106] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 468,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062006,
+	level = 78,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062106,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200891
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062107] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 380,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062007,
+	level = 76,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062107,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200891
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062108] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 423,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062008,
+	level = 77,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062108,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200891
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062109] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 468,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062009,
+	level = 78,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062109,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200891
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062113] = {
+	name = "Enemy Flagship",
+	icon = "yueke_ger_4",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 580,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062113,
+	level = 80,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2062113,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200878
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062201] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 405,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062001,
+	level = 81,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062201,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200892
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062202] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 451,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062002,
+	level = 82,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062202,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200892
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062203] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 498,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062003,
+	level = 83,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062203,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200892
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062204] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 405,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062004,
+	level = 81,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062204,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200892
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062205] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 451,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062005,
+	level = 82,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062205,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200892
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062206] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 498,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062006,
+	level = 83,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062206,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200892
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062207] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 405,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062007,
+	level = 81,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062207,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200892
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062208] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 451,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062008,
+	level = 82,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062208,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200892
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062209] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 498,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062009,
+	level = 83,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062209,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200892
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062213] = {
+	name = "Enemy Flagship",
+	icon = "jinluhao_3",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 616,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2062213,
+	level = 85,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2062213,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200879
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062301] = {
+	name = "Elite Fleet",
+	icon = "ghostqz",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 499,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2062301,
+	level = 74,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062301,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200877
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062302] = {
+	name = "Elite Fleet",
+	icon = "ghostqz",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 533,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2062302,
+	level = 79,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062302,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200878
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2062303] = {
+	name = "Elite Fleet",
+	icon = "ghostqz",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 1,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 567,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2062303,
+	level = 84,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2062303,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200879
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063001] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 455,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063001,
+	level = 91,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063001,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200893
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063002] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 506,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063002,
+	level = 92,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063002,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200893
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063003] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 558,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063003,
+	level = 93,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063003,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200893
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063004] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 455,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063004,
+	level = 91,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063004,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200893
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063005] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 506,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063005,
+	level = 92,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063005,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200893
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063006] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 558,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063006,
+	level = 93,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063006,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200893
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063007] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 455,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063007,
+	level = 91,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063007,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200893
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063008] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 506,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063008,
+	level = 92,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063008,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200893
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063009] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 558,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063009,
+	level = 93,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063009,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200893
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063013] = {
+	name = "Enemy Flagship",
+	icon = "baifeng_3",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 689,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063013,
+	level = 95,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2063013,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200880
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063101] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 480,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063001,
+	level = 96,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063101,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200894
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063102] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 533,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063002,
+	level = 97,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063102,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200894
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063103] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 588,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063003,
+	level = 98,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063103,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200894
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063104] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 480,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063004,
+	level = 96,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063104,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200894
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063105] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 533,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063005,
+	level = 97,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063105,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200894
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063106] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 588,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063006,
+	level = 98,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063106,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200894
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063107] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 480,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063007,
+	level = 96,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063107,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200894
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063108] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 533,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063008,
+	level = 97,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063108,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200894
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063109] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 588,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063009,
+	level = 98,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063109,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200894
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063113] = {
+	name = "Enemy Flagship",
+	icon = "guanghui_9",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 725,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063113,
+	level = 100,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2063113,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200881
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063201] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 505,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063001,
+	level = 101,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063201,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200895
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063202] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 561,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063002,
+	level = 102,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063202,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200895
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063203] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 3,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 618,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063003,
+	level = 103,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063203,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200895
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063204] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 505,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063004,
+	level = 101,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063204,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200895
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063205] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 561,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063005,
+	level = 102,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063205,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200895
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063206] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 3,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 618,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063006,
+	level = 103,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063206,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200895
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063207] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 505,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063007,
+	level = 101,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063207,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200895
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063208] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 561,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063008,
+	level = 102,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063208,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200895
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063209] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 3,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 618,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063009,
+	level = 103,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063209,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200895
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063213] = {
+	name = "Enemy Flagship",
+	icon = "chaijun_6",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 3,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 761,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2063213,
+	level = 105,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2063213,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56000
+		},
+		{
+			2,
+			200882
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063301] = {
+	name = "Elite Fleet",
+	icon = "ghostzl",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 634,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2063301,
+	level = 94,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063301,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200880
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063302] = {
+	name = "Elite Fleet",
+	icon = "ghosthm",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 634,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2063302,
+	level = 94,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063302,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200880
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063303] = {
+	name = "Elite Fleet",
+	icon = "ghostzl",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 668,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2063303,
+	level = 99,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063303,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200881
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063304] = {
+	name = "Elite Fleet",
+	icon = "ghosthm",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 2,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 668,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2063304,
+	level = 99,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063304,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200881
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063305] = {
+	name = "Elite Fleet",
+	icon = "ghostzl",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 3,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 702,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2063305,
+	level = 104,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063305,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200882
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2063306] = {
+	name = "Elite Fleet",
+	icon = "ghosthm",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 3,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 702,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2063306,
+	level = 104,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2063306,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200882
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064001] = {
+	name = "Small Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 1,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 550,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2064001,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2064001,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200896
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064002] = {
+	name = "Medium Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 2,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 605,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2064002,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2064002,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200896
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064003] = {
+	name = "Large Reconnaissance Fleet",
+	icon = "ghostqz",
+	type = 3,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 660,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2064003,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2064003,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200896
+		},
+		{
+			2,
+			17023
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064004] = {
+	name = "Small Main Fleet",
+	icon = "ghostzl",
+	type = 4,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 550,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2064004,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2064004,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200896
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064005] = {
+	name = "Medium Main Fleet",
+	icon = "ghostzl",
+	type = 5,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 605,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2064005,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2064005,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200896
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064006] = {
+	name = "Large Main Fleet",
+	icon = "ghostzl",
+	type = 6,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 660,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2064006,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2064006,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200896
+		},
+		{
+			2,
+			17013
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064007] = {
+	name = "Small Air formation",
+	icon = "ghosthm",
+	type = 7,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 550,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2064007,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2064007,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200896
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064008] = {
+	name = "Medium Air formation",
+	icon = "ghosthm",
+	type = 8,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 605,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2064008,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2064008,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200896
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064009] = {
+	name = "Large Air formation",
+	icon = "ghosthm",
+	type = 9,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 660,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2064009,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2064009,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200896
+		},
+		{
+			2,
+			17043
+		},
+		{
+			2,
+			17033
+		},
+		{
+			2,
+			17003
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064013] = {
+	name = "Enemy Flagship",
+	icon = "shi_3",
+	type = 99,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 797,
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2064013,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2064013,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56000
+		},
+		{
+			2,
+			200883
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064301] = {
+	name = "Elite Fleet",
+	icon = "ghostzl",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 742,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2064301,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2064301,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200883
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2064302] = {
+	name = "Elite Fleet",
+	icon = "ghosthm",
+	type = 95,
+	time_limit = 120,
+	exp_commander = 4,
+	add_icon = "",
+	ai_mov = 2,
+	exp = 742,
+	exp_commander_ratio = 30,
+	expose_speed = 15,
+	ai = 3,
+	dungeon_id = 2064302,
+	level = 110,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2064302,
+	scale = 100,
+	guide_desc = "",
+	bgm = "battle-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			56500
+		},
+		{
+			2,
+			200883
+		},
+		{
+			2,
+			54024
+		},
+		{
+			2,
+			59001
+		},
+		{
+			2,
+			54016
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2065001] = {
+	name = "Enemy Flagship",
+	icon = "antu_2",
+	type = 99,
+	time_limit = 150,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2065001,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2065001,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		150
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2065002] = {
+	name = "Enemy Flagship",
+	icon = "antu_2",
+	type = 99,
+	time_limit = 150,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2065002,
+	level = 125,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 2,
+	id = 2065002,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		150
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2066001] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 300,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2066001,
+	level = 120,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2066001,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2066002] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 300,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2066002,
+	level = 120,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2066002,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50230,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2066003] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 300,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2066003,
+	level = 120,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2066003,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2066004] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 300,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2066004,
+	level = 120,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2066004,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2066005] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 300,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2066005,
+	level = 120,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2066005,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1.0] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+
+_G.pg.base.expedition_data_template[2066006] = {
+	name = "Enemy Flagship",
+	icon = "bossicon",
+	type = 99,
+	time_limit = 300,
+	exp_commander = 0,
+	add_icon = "",
+	ai_mov = 0,
+	exp = 0,
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	ai = 0,
+	dungeon_id = 2066006,
+	level = 120,
+	sink_limit = 1,
+	limit_type = 1,
+	SLG_destroy_FX = "",
+	icon_type = 1,
+	id = 2066006,
+	scale = 100,
+	guide_desc = "",
+	bgm = "story-visioncity-1",
+	difficulty = 2,
+	effect_prefab = "",
+	plot_type = 0,
+	map_id = {
+		{
+			50231,
 			1
 		}
 	},

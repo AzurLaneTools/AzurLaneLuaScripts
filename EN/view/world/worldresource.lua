@@ -39,7 +39,7 @@ slot0.init = function(slot0)
 			return
 		end
 
-		slot1 = pg.shop_template[slot0]
+		slot1 = ShopConst.GetShopConfig(slot0)
 		slot2 = slot1.num
 
 		if slot1.num == -1 and slot1.genre == ShopArgs.BuyOil then

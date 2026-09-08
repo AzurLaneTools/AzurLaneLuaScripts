@@ -131,7 +131,8 @@ pg.backyard_theme_template.all = {
 	139,
 	140,
 	141,
-	142
+	142,
+	143
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5649,6 +5650,47 @@ end)()
 			342114,
 			342115,
 			342116
+		}
+	}
+	pg.base.backyard_theme_template[143] = {
+		Cfg_1 = 5,
+		name = "Office of Paranormal Affairs",
+		desc = "Welcome to the OPA! It's time to get bustin'!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 143,
+		id = 143,
+		icon = "opathemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			343001,
+			343002,
+			343101,
+			343102,
+			343103,
+			343104,
+			343105,
+			343106,
+			343107,
+			343108,
+			343109,
+			343110,
+			343111,
+			343112,
+			343113,
+			343114,
+			343115,
+			343116,
+			343117,
+			343118,
+			343301,
+			343302,
+			343303
 		}
 	}
 end)()

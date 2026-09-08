@@ -224,17 +224,17 @@ pg.base.ship_data_create_material = {}
 		rate_tip = {
 			"<color=#ff5e39>Ultra Rare</color>: 1.2%",
 			"<color=#ffde38>Super Rare</color>: 7%",
-			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#d797ff>Elite</color>:: 12%",
 			"<color=#3dc6ff>Rare</color>: 51%",
 			"Common: 28.8%",
 			" ",
-			"<color=#ff5e39>Alsace</color>: 1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>Azuchi</color>: 1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>Brennus</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>I-14</color>: 2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>Béarn META</color>: 0.5%",
+			"<color=#ffde38>Victorious META</color>: 0.5%",
 			" ",
-			"<color=#d797ff>Fleuret</color>: 2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>Hasty</color>: 2.5%(<color=#92fc63>up!</color>)"
 		}
 	}
 	pg.base.ship_data_create_material[11] = {

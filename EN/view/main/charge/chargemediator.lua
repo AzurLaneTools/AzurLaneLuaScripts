@@ -156,7 +156,7 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:setNormalGroupList(slot5)
 		end
 
-		slot6 = pg.shop_template[slot3.id]
+		slot6 = ShopConst.GetShopConfig(slot3.id)
 
 		slot0.viewComponent:checkBuyDone(slot3.id)
 		slot0.viewComponent:updateCurSubView()

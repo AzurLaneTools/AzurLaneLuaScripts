@@ -73,7 +73,7 @@ slot0.initNotificationHandleDic = function(slot0)
 				slot3 = slot0.viewComponent
 
 				slot3:emit(uv0.OPEN_DROP_LAYER, slot2, function ()
-					uv1.viewComponent:SingleUpdateGift(pg.shop_template[uv0:getBody().id].effect_args[1])
+					uv1.viewComponent:SingleUpdateGift(ShopConst.GetShopConfig(uv0:getBody().id).effect_args[1])
 				end)
 			end
 		end,

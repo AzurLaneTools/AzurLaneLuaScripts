@@ -68,6 +68,7 @@ pg.item_data_frame.all = {
 	341,
 	342,
 	343,
+	344,
 	406,
 	411,
 	412,
@@ -691,11 +692,20 @@ pg.base.item_data_frame = {}
 	}
 	pg.base.item_data_frame[343] = {
 		name = "Budding Sprout's Crown",
-		gain_by = "",
+		gain_by = "Tales of the Paranormal",
 		time_second = 0,
 		id = 343,
 		time_limit_type = 0,
-		desc = "Obtained in a future event.",
+		desc = "\"A faint glimmer of hope is all that is needed for us to grow towards the light.\"",
+		scene = {}
+	}
+	pg.base.item_data_frame[344] = {
+		name = "The Poltergeists Come",
+		gain_by = "A Slightly Paranormal State of Affairs",
+		time_second = 0,
+		id = 344,
+		time_limit_type = 0,
+		desc = "\"Containment is not the final goal. I trust that one day, we will truly be able to understand one another.\"",
 		scene = {}
 	}
 	pg.base.item_data_frame[406] = {
@@ -1013,6 +1023,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#A7A7AA>A steel-blue flag flutters amidst the surging waves, a golden crown placed atop it to symbolize its dominion over the sea.</color>\nCan be obtained by raising Ägir's Intimacy in the Private Quarters.",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1013] = {
 		name = "Charging Device",
 		gain_by = "",
@@ -1022,8 +1034,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>Green currents of electricity pulse, with cat ears and bulbs flashing in unison.</color>\nCan be obtained by raising Admiral Nakhimov's Intimacy in the Private Quarters.",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[1014] = {
 		name = "Cybernetic Greeting",
 		gain_by = "",

@@ -6,7 +6,9 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+		staticBlur = true
+	})
 
 	slot0.mainPanel = slot0._tf:Find("main")
 	slot0.finishPanel = slot0._tf:Find("finish_panel")

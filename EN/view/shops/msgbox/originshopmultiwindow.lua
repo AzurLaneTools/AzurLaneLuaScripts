@@ -49,7 +49,7 @@ slot0.InitWindow = function(slot0, slot1, slot2)
 	slot3, slot4, slot5 = nil
 
 	if isa(slot1, WorldNShopCommodity) then
-		slot3 = slot1:GetDropInfo()
+		slot3 = slot1:getDropInfo()
 		slot4 = slot1:GetPriceInfo()
 		slot5 = slot1:GetLimitGoodCount()
 	else

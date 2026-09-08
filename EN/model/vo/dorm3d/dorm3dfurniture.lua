@@ -93,7 +93,7 @@ slot0.InShopTime = function(slot0)
 		return true
 	end
 
-	return pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot1].time)
+	return pg.TimeMgr.GetInstance():inTime(ShopConst.GetShopConfig(slot1).time)
 end
 
 slot0.GetEndTime = function(slot0)
@@ -101,7 +101,7 @@ slot0.GetEndTime = function(slot0)
 		return 0
 	end
 
-	assert(pg.shop_template[slot1], "Missing shopCfg " .. (slot1 or "NIL"))
+	assert(ShopConst.GetShopConfig(slot1), "Missing shopCfg " .. (slot1 or "NIL"))
 
 	if slot2.time == "always" or slot3 == "stop" then
 		return 0

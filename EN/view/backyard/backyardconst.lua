@@ -27,6 +27,7 @@ slot0.TIME_TYPE_MONTH = 2
 slot0.TIME_TYPE_YEAR = 3
 slot0.MAX_MAP_SIZE = Vector2(23, 23)
 slot0.MAX_FEAST_MAP_SIZE = Vector2(25, 25)
+slot0.MAX_REVERSE_PACMAN_MAP_SIZE = Vector2(48, 24)
 
 slot0.ThemeSortIndex2ServerIndex = function(slot0, slot1)
 	slot1 = defaultValue(slot1, true)

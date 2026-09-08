@@ -157,13 +157,17 @@ slot0.initToggleList = function(slot0)
 			slot4 = uv0.packageSortList[slot1 + 1].shopData
 
 			if uv0.packageSortList[slot1 + 1].type == ShopConst.TYPE_ACTIVITY then
-				setText(slot2:Find("selected/Label"), i18n(pg.activity_template[slot4.activityId] and pg.activity_template[slot5].config_client and pg.activity_template[slot5].config_client.shop_title or nil) or i18n(ShopConst.TYPE2NAME[slot3]))
+				slot6 = pg.activity_template[slot4.activityId] and pg.activity_template[slot5].config_client and pg.activity_template[slot5].config_client.shop_title or nil
+				slot7 = slot6 and i18n(slot6) or i18n(ShopConst.TYPE2NAME[slot3])
+
+				setText(slot2:Find("selected/Label"), slot7)
+				setText(slot2:Find("unselected/Label"), slot7)
 			else
 				setText(slot2:Find("selected/Label"), i18n(ShopConst.TYPE2NAME[slot3]))
+				setText(slot2:Find("unselected/Label"), i18n(ShopConst.TYPE2NAME[slot3]))
 			end
 
 			setText(slot2:Find("selected/enText"), i18n(ShopConst.TYPE2NAME[slot3] .. "en"))
-			setText(slot2:Find("unselected/Label"), i18n(ShopConst.TYPE2NAME[slot3]))
 
 			slot5 = uv0.packageSortList[slot1 + 1].index
 			slot8, slot9 = uv0.pages[slot3]:CanOpen(uv0.allShopList[slot3][1], uv0.player)

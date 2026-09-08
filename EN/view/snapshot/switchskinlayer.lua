@@ -96,7 +96,7 @@ slot0.Flush = function(slot0, slot1)
 		slot10:updateUsing(slot0.shipVO:useSkin(slot8.id))
 		removeOnButton(slot9)
 
-		slot16 = slot8.shop_id > 0 and pg.shop_template[slot8.shop_id] or nil
+		slot16 = slot8.shop_id > 0 and ShopConst.GetShopConfig(slot8.shop_id) or nil
 		slot17 = slot16 and not pg.TimeMgr.GetInstance():inTime(slot16.time)
 		slot18 = slot8.id == slot0.shipVO:getSkinId()
 		slot19 = slot8.id == slot0.shipVO:getConfig("skin_id") or ((slot0.shipVO:proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or slot0.shipVO:getRemouldSkinId() == slot8.id and slot0.shipVO:isRemoulded()) and 1 or 0) >= 1 or slot8.skin_type == ShipSkin.SKIN_TYPE_OLD or slot2:hasSkin(slot8.id)

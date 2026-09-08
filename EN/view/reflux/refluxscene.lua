@@ -42,6 +42,7 @@ slot0.didEnter = function(slot0)
 	end
 
 	slot0:updateDay()
+	slot0:OverlayPanel(slot0._tf)
 end
 
 slot0.willExit = function(slot0)
@@ -51,26 +52,22 @@ slot0.willExit = function(slot0)
 		end
 	end
 
-	if slot0.signView and slot0.signView:GetLoaded() then
-		slot0.signView:Destroy()
+	if slot0.letterView then
+		slot0.letterView:Destroy()
+
+		slot0.letterView = nil
+
+		return
 	end
 
-	if slot0.taskView and slot0.taskView:GetLoaded() then
-		slot0.taskView:Destroy()
-	end
-
-	if slot0.ptView and slot0.ptView:GetLoaded() then
-		slot0.ptView:Destroy()
-	end
-
-	if slot0.shopView and slot0.shopView:GetLoaded() then
-		slot0.shopView:Destroy()
-	end
+	slot0:UnOverlayPanel(slot0._tf, slot0._parentTf)
 end
 
 slot0.onBackPressed = function(slot0)
 	if slot0.letterView and slot0.letterView:isShowing() then
-		slot0.letterView:OnBackPress()
+		slot0.letterView:Hide()
+
+		slot0.letterView = nil
 
 		return
 	end
@@ -108,7 +105,7 @@ end
 
 slot0.initData = function(slot0)
 	slot0.curViewIndex = 0
-	slot0.letterView = RefluxLetterView.New(slot0.letterContainer, slot0.event, slot0.contextData)
+	slot0.letterView = RefluxAnimationPlayer.New(pg.UIMgr.GetInstance().OverlayUITop)
 	slot0.signView = RefluxSignView.New(slot0.panelContainer, slot0.event, slot0.contextData)
 	slot0.taskView = RefluxTaskView.New(slot0.panelContainer, slot0.event, slot0.contextData)
 	slot0.ptView = RefluxPTView.New(slot0.panelContainer, slot0.event, slot0.contextData)
@@ -152,18 +149,7 @@ slot0.addListener = function(slot0)
 end
 
 slot0.tryOpenLetterView = function(slot0)
-	if PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_" .. getProxy(RefluxProxy).returnTimestamp, 0) ~= 1 then
-		PlayerPrefs.SetInt(slot5, 1)
-		PlayerPrefs.Save()
-		slot0.letterView:ActionInvoke("setCloseFunc", function ()
-			triggerToggle(uv0.toggleList[uv1.Sign], true)
-		end)
-		slot0:switchLetter()
-
-		return true
-	else
-		return false
-	end
+	return false
 end
 
 slot0.switchPage = function(slot0, slot1)
@@ -192,8 +178,12 @@ slot0.tryAutoOpenLastView = function(slot0)
 end
 
 slot0.switchLetter = function(slot0)
-	slot0.letterView:Load()
-	slot0.letterView:ActionInvoke("Show")
+	slot1 = getProxy(RefluxProxy)
+	slot3 = slot0.letterView
+
+	slot3:ExecuteAction("Play4Review", slot1:GetRefluxBgs(), function ()
+		uv0.letterView:Hide()
+	end)
 end
 
 slot0.updateRedPotList = function(slot0)

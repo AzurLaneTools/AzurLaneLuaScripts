@@ -41,9 +41,13 @@ slot0.Refresh = function(slot0, slot1)
 	slot0.animationPlayer:Play("anim_newmain_open")
 end
 
-slot0.OnFoldPanels = function(slot0, slot1)
+slot0.OnFoldPanels = function(slot0, slot1, slot2)
 	if slot1 then
-		slot0.animationPlayer:Play("anim_newmain_hide")
+		if slot2 and slot2.chat then
+			slot0.animationPlayer:Play("anim_newmain_hide_chat")
+		else
+			slot0.animationPlayer:Play("anim_newmain_hide")
+		end
 	else
 		slot0.animationPlayer:Play("anim_newmain_show")
 	end
@@ -354,6 +358,12 @@ slot0.RegisterRedDots = function(slot0)
 	end)
 
 	return slot2
+end
+
+slot0.ShowOrHideBtnEffect = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.panels) do
+		slot6:ShowOrHideBtnEffect(slot1)
+	end
 end
 
 return slot0

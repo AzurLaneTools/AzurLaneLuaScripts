@@ -118,4 +118,41 @@ slot0.TYPE2NAME = {
 slot0.NEW_SKIN_SHOP_ID = 1
 slot0.PERMANANT_SKIN_SHOP_ID = 2
 
+slot0.GetShopConfig = function(slot0)
+	if not pg.shop_template[slot0] then
+		return nil
+	end
+
+	return setmetatable({}, {
+		__index = function (slot0, slot1)
+			if slot1 == "time" then
+				if uv0[slot1] == "always" or uv0[slot1] == "stop" or #uv0.time_new == 0 then
+					slot0[slot1] = uv0[slot1]
+
+					return slot0[slot1]
+				end
+
+				for slot6, slot7 in ipairs({
+					uv0.time,
+					unpack(uv0.time_new)
+				}) do
+					if pg.TimeMgr.GetInstance():inTime(slot7) then
+						return slot7
+					end
+				end
+
+				return uv0.time
+			else
+				if uv0[slot1] == nil then
+					warning(slot1)
+				end
+
+				slot0[slot1] = uv0[slot1]
+
+				return uv0[slot1]
+			end
+		end
+	})
+end
+
 return slot0

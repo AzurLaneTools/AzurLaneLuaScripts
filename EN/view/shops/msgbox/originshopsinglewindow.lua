@@ -47,7 +47,7 @@ slot0.Open = function(slot0, slot1, slot2)
 end
 
 slot0.InitWindow = function(slot0, slot1, slot2)
-	slot3 = isa(slot1, WorldNShopCommodity) and slot1:GetDropInfo() or slot1:getDropInfo()
+	slot3 = isa(slot1, WorldNShopCommodity) and slot1:getDropInfo() or slot1:getDropInfo()
 
 	updateDrop(slot0.itemTF:Find("left/IconTpl"), slot3)
 	UpdateOwnDisplay(slot0.itemOwnTF, slot3)

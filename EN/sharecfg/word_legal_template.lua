@@ -21,6 +21,7 @@ slot0.word_legal_template = {
 		R = 1,
 		Z = 2,
 		O = 2,
+		["虎"] = 2,
 		M = 1,
 		L = 1,
 		["Ä"] = 2,

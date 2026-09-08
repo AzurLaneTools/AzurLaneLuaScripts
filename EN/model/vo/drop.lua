@@ -1329,6 +1329,10 @@ slot0.InitSwitch = function()
 									arg1 = uv1.count
 								})
 							end
+						end,
+						[ActivityConst.ACTIVITY_TYPE_REVERSE_PACMAN] = function ()
+							uv0:AddVitemNumber(uv1.id, uv1.count)
+							getProxy(ActivityProxy):updateActivity(uv0)
 						end
 					}, function ()
 						assert(uv0 .. "对应" .. uv1 .. "错误")
