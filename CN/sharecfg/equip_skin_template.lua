@@ -71451,16 +71451,16 @@ end)()
 		orbit_combat_bound = {
 			"face",
 			{
-				-2.2,
+				-1.69,
 				0,
-				0
+				-0.29
 			}
 		},
 		orbit_ui_bound = {
 			"face",
 			{
 				2,
-				32
+				0
 			}
 		},
 		orbit_hidden_action = {
@@ -71551,18 +71551,18 @@ end)()
 			1
 		},
 		orbit_combat_bound = {
-			"face",
+			"body",
 			{
-				-0.23,
-				-2.31,
-				-1.05
+				-0.68,
+				-2.64,
+				-0.86
 			}
 		},
 		orbit_ui_bound = {
 			"face",
 			{
-				-67,
-				-317
+				-56,
+				-246
 			}
 		},
 		orbit_hidden_action = {
