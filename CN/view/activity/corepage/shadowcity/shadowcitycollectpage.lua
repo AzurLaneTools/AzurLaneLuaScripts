@@ -41,11 +41,12 @@ end
 slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.showDataList[slot1 + 1]
 	slot4 = slot2:Find("icon_mask/icon")
-
-	updateDrop(slot4, {
+	slot5 = {
 		type = slot3.config.type,
 		id = slot3.config.drop_id
-	})
+	}
+
+	updateDrop(slot4, slot5)
 	onButton(slot0, slot4, function ()
 		uv0:OnClickItem(uv1)
 	end, SFX_PANEL)
@@ -53,17 +54,20 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 		type = slot3.config.type,
 		id = slot3.config.drop_id
 	}):getName())
+
+	if slot5.type == 4 then
+		slot3.count = #getProxy(BayProxy):findShipsByGroup(Ship.getGroupIdByConfigId(slot3.config.drop_id))
+
+		setActive(slot2:Find("got"), slot3.count >= 1)
+	else
+		setActive(slot2:Find("got"), slot3.count == slot3.config.count)
+	end
+
 	slot0:RefreshCountText(slot3, slot2)
 
 	GetOrAddComponent(slot2:Find("owner"), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1
 
 	setActive(slot2:Find("new"), slot3.config.is_new == "1")
-
-	if slot5.type == 4 then
-		setActive(slot2:Find("got"), slot3.count >= 1)
-	else
-		setActive(slot2:Find("got"), slot3.count == slot3.config.count)
-	end
 end
 
 slot0.IsShowingPopWindow = function(slot0)
