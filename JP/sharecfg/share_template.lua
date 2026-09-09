@@ -22,7 +22,8 @@ pg.share_template.all = {
 	17,
 	18,
 	19,
-	20
+	20,
+	5000
 }
 pg.base = pg.base or {}
 pg.base.share_template = {}
@@ -388,6 +389,22 @@ pg.base.share_template = {}
 			"/OverlayCamera/Overlay/UIMain/adapt/rightPanel/cancelBtn",
 			"/OverlayCamera/Overlay/UIMain/adapt/leftPanel/revealBtn",
 			"/OverlayCamera/Overlay/UIOverlay/TipPanel(Clone)"
+		}
+	}
+	pg.base.share_template[5000] = {
+		description = "#碧蓝航线#",
+		name = "台服分享活动（改动过唯一id 原id12）",
+		deck = 1,
+		hidden_comps = "",
+		move_comps = "",
+		camera = "UICamera",
+		id = 5000,
+		qrcode_location = {
+			373,
+			120
+		},
+		show_comps = {
+			"UICamera/Canvas/TWCelebrationShare(Clone)"
 		}
 	}
 end)()

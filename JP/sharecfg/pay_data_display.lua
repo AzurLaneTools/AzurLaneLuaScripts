@@ -25970,7 +25970,6 @@ end)()
 		name_display = "紅姫の肝試し遊戯",
 		first_text = "",
 		akashi_pick = 1,
-		time = "always",
 		sub_display = "",
 		skin_inquire_relation = 0,
 		extra_service = 6,
@@ -25981,6 +25980,32 @@ end)()
 				7,
 				304091,
 				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		limit_args = {},

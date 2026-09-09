@@ -168,9 +168,13 @@ slot0.Selectable = function(slot0)
 end
 
 slot0.getDropInfo = function(slot0)
+	if not slot0:getConfig("commodity_id") or slot1 == 0 then
+		slot1 = slot0:getConfig("commodity_id_list")[1]
+	end
+
 	return Drop.New({
 		type = slot0:getConfig("commodity_type"),
-		id = slot0:getConfig("commodity_id"),
+		id = slot1,
 		count = slot0:getConfig("num")
 	})
 end
