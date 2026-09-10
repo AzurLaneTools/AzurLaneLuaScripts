@@ -23,7 +23,8 @@ pg.activity_task_permanent.all = {
 	6016,
 	6018,
 	6020,
-	6042
+	6042,
+	50522
 }
 pg.base = pg.base or {}
 pg.base.activity_task_permanent = {}
@@ -520,6 +521,18 @@ pg.base.activity_task_permanent = {}
 		activity_name = "閃耀的夏天",
 		id = 6042,
 		activity_group = 1000,
+		over_task_id = "",
+		eliminate_task_id = {}
+	}
+	pg.base.activity_task_permanent[50522] = {
+		gametip = "",
+		banner_route = "",
+		gametip_extra = "",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "",
+		id = 50522,
+		activity_group = 2000,
 		over_task_id = "",
 		eliminate_task_id = {}
 	}

@@ -268,6 +268,7 @@ pg.memory_group.all = {
 	373,
 	374,
 	375,
+	376,
 	501,
 	502,
 	503,
@@ -508,7 +509,13 @@ pg.base.memory_group = {}
 			3321,
 			3801,
 			3802,
-			3803
+			3803,
+			4581,
+			4582,
+			4583,
+			5371,
+			5372,
+			5373
 		}
 	}
 	pg.base.memory_group[99] = {
@@ -7115,6 +7122,24 @@ end)()
 			5402
 		}
 	}
+	pg.base.memory_group[376] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51123,
+		title = "「大人物」的預告信",
+		auto_unlock = "",
+		subtype = 2,
+		id = 376,
+		group_id = "",
+		memories = {
+			5411,
+			5412,
+			5413,
+			5414,
+			5415
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7896,6 +7921,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[537] = {
 		ship_group = 20208,
 		icon = "title_chara_xiefeierde",
@@ -7918,8 +7945,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[538] = {
 		ship_group = 20220,
 		icon = "title_chara_tianlangxing",

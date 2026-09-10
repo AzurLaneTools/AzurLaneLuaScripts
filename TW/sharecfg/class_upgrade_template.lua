@@ -14,7 +14,10 @@ pg.class_upgrade_template.all = {
 	9,
 	10,
 	11,
-	12
+	12,
+	13,
+	14,
+	15
 }
 pg.base = pg.base or {}
 pg.base.class_upgrade_template = {}
@@ -188,7 +191,7 @@ pg.base.class_upgrade_template = {}
 	pg.base.class_upgrade_template[12] = {
 		store = 220000,
 		proficency_cost_per_min = 110,
-		time = 0,
+		time = 7200,
 		user_level = 110,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -198,6 +201,51 @@ pg.base.class_upgrade_template = {}
 		use = {
 			1,
 			22500
+		}
+	}
+	pg.base.class_upgrade_template[13] = {
+		store = 230000,
+		proficency_cost_per_min = 115,
+		time = 7200,
+		user_level = 115,
+		proficency_to_exp_rant = 100,
+		item_id = 16501,
+		stock = 69,
+		proficency_get_percent = 23,
+		level = 13,
+		use = {
+			1,
+			25000
+		}
+	}
+	pg.base.class_upgrade_template[14] = {
+		store = 240000,
+		proficency_cost_per_min = 120,
+		time = 7200,
+		user_level = 120,
+		proficency_to_exp_rant = 100,
+		item_id = 16501,
+		stock = 72,
+		proficency_get_percent = 24,
+		level = 14,
+		use = {
+			1,
+			27500
+		}
+	}
+	pg.base.class_upgrade_template[15] = {
+		store = 250000,
+		proficency_cost_per_min = 125,
+		time = 0,
+		user_level = 125,
+		proficency_to_exp_rant = 100,
+		item_id = 16501,
+		stock = 75,
+		proficency_get_percent = 25,
+		level = 15,
+		use = {
+			1,
+			30000
 		}
 	}
 end)()

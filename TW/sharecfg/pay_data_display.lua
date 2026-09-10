@@ -17546,7 +17546,7 @@ end)()
 		picture = "tech1_display",
 		name = "最高方案研發禮包（一期）",
 		type = 0,
-		second_text = "+大量藍圖",
+		second_text = "",
 		descrip = "可獲得最高方案快速研發券·一期*1，定向藍圖·一期*343",
 		subject = "最高方案研發禮包（一期）",
 		first_pay_double = 0,
@@ -17557,8 +17557,9 @@ end)()
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
+		first_icon = "",
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
@@ -17567,7 +17568,7 @@ end)()
 		id = 4850,
 		airijp_id = "",
 		name_display = "最高方案研發禮包一期",
-		first_text = "快速研發",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -17589,6 +17590,11 @@ end)()
 		display = {
 			{
 				2,
+				40124,
+				1
+			},
+			{
+				2,
 				42000,
 				343
 			}
@@ -17601,14 +17607,7 @@ end)()
 				30
 			}
 		},
-		drop_item = {},
-		first_icon = {
-			{
-				2,
-				40124,
-				1
-			}
-		}
+		drop_item = {}
 	}
 	pg.base.pay_data_display[4851] = {
 		picture = "tech1_promotion",
@@ -17625,7 +17624,7 @@ end)()
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 1,
@@ -17698,7 +17697,7 @@ end)()
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 2,
@@ -17761,7 +17760,7 @@ end)()
 		limit_group = 1,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 3,
@@ -17813,7 +17812,7 @@ end)()
 		picture = "tech2_display",
 		name = "最高方案研發禮包（二期）",
 		type = 0,
-		second_text = "+大量藍圖",
+		second_text = "",
 		descrip = "可獲得最高方案快速研發券·二期*1，定向藍圖·二期*343",
 		subject = "最高方案研發禮包（二期）",
 		first_pay_double = 0,
@@ -17824,8 +17823,9 @@ end)()
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
+		first_icon = "",
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
@@ -17834,7 +17834,7 @@ end)()
 		id = 4854,
 		airijp_id = "",
 		name_display = "最高方案研發禮包二期",
-		first_text = "快速研發",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -17856,6 +17856,11 @@ end)()
 		display = {
 			{
 				2,
+				40125,
+				1
+			},
+			{
+				2,
 				42010,
 				343
 			}
@@ -17868,14 +17873,7 @@ end)()
 				30
 			}
 		},
-		drop_item = {},
-		first_icon = {
-			{
-				2,
-				40125,
-				1
-			}
-		}
+		drop_item = {}
 	}
 	pg.base.pay_data_display[4855] = {
 		picture = "tech2_promotion",
@@ -17892,7 +17890,7 @@ end)()
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 1,
@@ -17965,7 +17963,7 @@ end)()
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 2,
@@ -18028,7 +18026,7 @@ end)()
 		limit_group = 2,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 3,
@@ -18527,7 +18525,7 @@ end)()
 		picture = "tech3_display",
 		name = "最高方案研發禮包（三期）",
 		type = 0,
-		second_text = "+大量藍圖",
+		second_text = "",
 		descrip = "可獲得最高方案快速研​​發券·三期*1、定向藍圖·三期*343",
 		subject = "最高方案研發禮包(三期)",
 		first_pay_double = 0,
@@ -18538,8 +18536,9 @@ end)()
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
+		first_icon = "",
 		limit_arg = 0,
 		tip = "",
 		tip_open = 0,
@@ -18548,7 +18547,7 @@ end)()
 		id = 4862,
 		airijp_id = "",
 		name_display = "最高方案研發禮包三期",
-		first_text = "快速研發",
+		first_text = "",
 		akashi_pick = 1,
 		time = "always",
 		skin_inquire_relation = 0,
@@ -18570,6 +18569,11 @@ end)()
 		display = {
 			{
 				2,
+				40130,
+				1
+			},
+			{
+				2,
 				42020,
 				343
 			}
@@ -18582,14 +18586,7 @@ end)()
 				30
 			}
 		},
-		drop_item = {},
-		first_icon = {
-			{
-				2,
-				40130,
-				1
-			}
-		}
+		drop_item = {}
 	}
 	pg.base.pay_data_display[4863] = {
 		picture = "tech3_promotion",
@@ -18606,7 +18603,7 @@ end)()
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 1,
@@ -18679,7 +18676,7 @@ end)()
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 2,
@@ -18742,7 +18739,7 @@ end)()
 		limit_group = 3,
 		package_tag = "",
 		type_order = 0,
-		package_sort_id = 3,
+		package_sort_id = 0,
 		limit_type = 3,
 		first_icon = "",
 		limit_arg = 3,

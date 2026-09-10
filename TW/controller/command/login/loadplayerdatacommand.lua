@@ -35,6 +35,11 @@ slot0.execute = function(slot0, slot1)
 			{}
 		},
 		{
+			ChapterAutoProxy,
+			true,
+			{}
+		},
+		{
 			WorldProxy,
 			true,
 			{}

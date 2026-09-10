@@ -287,6 +287,7 @@ pg.fleet_tech_ship_template.all = {
 	30116,
 	30117,
 	30118,
+	30119,
 	30120,
 	30121,
 	30123,
@@ -6619,6 +6620,28 @@ end)()
 			21
 		}
 	}
+	pg.base.fleet_tech_ship_template[30119] = {
+		max_star = 6,
+		pt_level = 13,
+		add_level_attr = 3,
+		pt_upgrage = 18,
+		add_get_attr = 9,
+		add_level_value = 1,
+		class = 30105,
+		id = 30119,
+		add_get_value = 1,
+		pt_get = 9,
+		add_get_shiptype = {
+			1,
+			20,
+			21
+		},
+		add_level_shiptype = {
+			1,
+			20,
+			21
+		}
+	}
 	pg.base.fleet_tech_ship_template[30120] = {
 		max_star = 5,
 		pt_level = 10,
@@ -6949,6 +6972,8 @@ end)()
 			21
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_template[30138] = {
 		max_star = 5,
 		pt_level = 5,
@@ -6971,8 +6996,6 @@ end)()
 			21
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_template[30139] = {
 		max_star = 5,
 		pt_level = 5,
@@ -9032,6 +9055,8 @@ end)()
 			7
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_template[30703] = {
 		max_star = 5,
 		pt_level = 16,
@@ -9052,8 +9077,6 @@ end)()
 			7
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_template[30704] = {
 		max_star = 5,
 		pt_level = 16,
@@ -11094,6 +11117,8 @@ end)()
 			17
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_template[40810] = {
 		max_star = 6,
 		pt_level = 18,
@@ -11114,8 +11139,6 @@ end)()
 			17
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_template[40811] = {
 		max_star = 5,
 		pt_level = 12,
@@ -13152,6 +13175,8 @@ end)()
 			2
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_template[70210] = {
 		max_star = 5,
 		pt_level = 12,
@@ -13170,8 +13195,6 @@ end)()
 			2
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_template[79903] = {
 		max_star = 6,
 		pt_level = 50,
@@ -15287,6 +15310,8 @@ end)()
 			21
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_template[970201] = {
 		max_star = 6,
 		pt_level = 23,
@@ -15305,8 +15330,6 @@ end)()
 			2
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_template[970202] = {
 		max_star = 5,
 		pt_level = 16,

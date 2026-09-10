@@ -6,10 +6,30 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.preload = function(slot0, slot1)
+	slot2 = slot0.contextData.userId
+
 	seriesAsync({
 		function (slot0)
+			if getProxy(IslandProxy):GetIsland() then
+				uv0.island = slot1
+
+				slot0()
+			else
+				pg.m02:sendNotification(GAME.ISLAND_GET_DATA, {
+					isCardRequest = true,
+					id = uv1,
+					list = {},
+					callback = function ()
+						uv0.island = getProxy(IslandProxy):GetIsland()
+
+						uv1()
+					end
+				})
+			end
+		end,
+		function (slot0)
 			pg.m02:sendNotification(GAME.ISLAND_GET_CARD_DATA, {
-				userId = uv0.contextData.userId,
+				userId = uv0,
 				callback = function (slot0)
 					uv0.card = slot0
 
@@ -116,7 +136,9 @@ slot0.InitBoxs = function(slot0)
 end
 
 slot0.Flush = function(slot0)
-	uv0.super.Flush(slot0)
+	slot0:UpdataPhoto()
+	slot0:UpdataLabels()
+	slot0:UpdataInfos()
 	slot0:FlushFlagTFs()
 
 	slot0.isFriend = getProxy(FriendProxy):isFriend(slot0.card.userId)
@@ -124,6 +146,42 @@ slot0.Flush = function(slot0)
 	slot0:FlushFriendBtns()
 	slot0:FlushLikeTFs()
 	setText(slot0.likeGreyTF, slot0.card.likeCnt)
+end
+
+slot0.OnSetAchvsDone = function(slot0, slot1)
+	slot2 = slot0.setAchvsBox
+
+	slot2:ExecuteAction("Hide")
+
+	slot0.card.achvList = slot1
+	slot2 = slot0.achvUIList
+
+	slot2:align(uv0.ACHV_SHOW_CNT)
+
+	slot3 = slot0.achvUIList
+
+	slot3:eachActive(function (slot0, slot1)
+		if uv0.card.achvList[slot0 + 1] then
+			slot3 = slot1:Find("content/Image")
+			slot3:GetComponent(typeof(CanvasGroup)).alpha = 0
+
+			table.insert(uv1, function (slot0)
+				slot1 = uv0
+				slot1 = slot1:GetComponent(typeof(Animation))
+
+				slot1:Play()
+
+				slot1 = uv1
+				slot1:GetComponent(typeof(CanvasGroup)).alpha = 1
+				slot1 = uv2
+
+				slot1:managedTween(LeanTween.delayedCall, function ()
+					uv0()
+				end, 0.08, nil)
+			end)
+		end
+	end)
+	seriesAsync({})
 end
 
 slot0.FlushFlagTFs = function(slot0)

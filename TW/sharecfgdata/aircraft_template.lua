@@ -92575,6 +92575,200 @@ _G.pg.base.aircraft_template[168420] = {
 }
 
 
+_G.pg.base.aircraft_template[168761] = {
+	name = "哈尔福德天运水上机弹幕Lv1",
+	max_hp = 76,
+	accuracy = 23,
+	model_ID = "f8ffloat",
+	ACC_growth = 0,
+	crash_DMG = 162,
+	dodge = 0.303,
+	attack_power = 2,
+	dodge_limit = 12,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f8f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1183,
+	speed = 50,
+	id = 168761,
+	scale = 1,
+	weapon_ID = {
+		168771
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.84,
+				-1.25,
+				0
+			},
+			{
+				0.77,
+				1.48,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[168762] = {
+	max_hp = 83,
+	name = "哈尔福德天运水上机弹幕Lv2",
+	spawn_brownian = 1,
+	base = 168761,
+	id = 168762,
+	hp_growth = 1345,
+	weapon_ID = {
+		168772
+	}
+}
+
+
+_G.pg.base.aircraft_template[168763] = {
+	max_hp = 90,
+	name = "哈尔福德天运水上机弹幕Lv3",
+	spawn_brownian = 1,
+	base = 168761,
+	id = 168763,
+	hp_growth = 1507,
+	weapon_ID = {
+		168773
+	}
+}
+
+
+_G.pg.base.aircraft_template[168764] = {
+	max_hp = 97,
+	name = "哈尔福德天运水上机弹幕Lv4",
+	spawn_brownian = 1,
+	base = 168761,
+	id = 168764,
+	hp_growth = 1669,
+	weapon_ID = {
+		168774
+	}
+}
+
+
+_G.pg.base.aircraft_template[168765] = {
+	max_hp = 105,
+	name = "哈尔福德天运水上机弹幕Lv5",
+	spawn_brownian = 1,
+	base = 168761,
+	id = 168765,
+	hp_growth = 1829,
+	weapon_ID = {
+		168775
+	}
+}
+
+
+_G.pg.base.aircraft_template[168766] = {
+	max_hp = 112,
+	name = "哈尔福德天运水上机弹幕Lv6",
+	spawn_brownian = 1,
+	base = 168761,
+	id = 168766,
+	hp_growth = 2103,
+	weapon_ID = {
+		168776
+	}
+}
+
+
+_G.pg.base.aircraft_template[168767] = {
+	max_hp = 119,
+	name = "哈尔福德天运水上机弹幕Lv7",
+	spawn_brownian = 1,
+	base = 168761,
+	id = 168767,
+	hp_growth = 2378,
+	weapon_ID = {
+		168777
+	}
+}
+
+
+_G.pg.base.aircraft_template[168768] = {
+	max_hp = 126,
+	name = "哈尔福德天运水上机弹幕Lv8",
+	spawn_brownian = 1,
+	base = 168761,
+	id = 168768,
+	hp_growth = 2652,
+	weapon_ID = {
+		168778
+	}
+}
+
+
+_G.pg.base.aircraft_template[168769] = {
+	max_hp = 133,
+	name = "哈尔福德天运水上机弹幕Lv9",
+	spawn_brownian = 1,
+	base = 168761,
+	id = 168769,
+	hp_growth = 2926,
+	weapon_ID = {
+		168779
+	}
+}
+
+
+_G.pg.base.aircraft_template[168770] = {
+	max_hp = 140,
+	name = "哈尔福德天运水上机弹幕Lv10",
+	spawn_brownian = 1,
+	base = 168761,
+	id = 168770,
+	hp_growth = 3201,
+	weapon_ID = {
+		168780
+	}
+}
+
+
 _G.pg.base.aircraft_template[168801] = {
 	name = "埃塞克斯技能声导鱼雷机Lv1",
 	max_hp = 42,
@@ -269604,7 +269798,7 @@ _G.pg.base.aircraft_template[3114003] = {
 
 
 _G.pg.base.aircraft_template[3119501] = {
-	name = "【2023闪乱联动】战忍型航空母舰 战斗机Lv1",
+	name = "【2024春节共斗 EX难度】关卡仙鹤飞机空袭 战斗机",
 	max_hp = 400,
 	accuracy = 23,
 	model_ID = "feiji_hunianxianhe_small",
@@ -269681,7 +269875,7 @@ _G.pg.base.aircraft_template[3119501] = {
 
 
 _G.pg.base.aircraft_template[3119502] = {
-	name = "【2023闪乱联动】战忍型航空母舰 轰炸机Lv1",
+	name = "【2024春节共斗 EX难度】关卡仙鹤飞机空袭 轰炸机",
 	max_hp = 400,
 	accuracy = 23,
 	model_ID = "feiji_hunianxianhe_small",
@@ -305184,6 +305378,160 @@ _G.pg.base.aircraft_template[3427108] = {
 		},
 		{
 			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3429501] = {
+	name = "【2026天津风共斗 EX难度】词条飞机空袭 战斗机",
+	max_hp = 400,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3429501,
+	scale = 0.75,
+	weapon_ID = {
+		3429503
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3429502] = {
+	name = "【2026天津风共斗 EX难度】词条飞机空袭 轰炸机",
+	max_hp = 400,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3429502,
+	scale = 0.75,
+	weapon_ID = {
+		3429504
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
 			0,
 			0
 		},

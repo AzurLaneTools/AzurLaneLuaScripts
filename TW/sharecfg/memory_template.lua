@@ -3504,6 +3504,9 @@ pg.memory_template.all = {
 	4575,
 	4576,
 	4577,
+	4581,
+	4582,
+	4583,
 	4591,
 	4592,
 	4593,
@@ -4049,6 +4052,11 @@ pg.memory_template.all = {
 	5400,
 	5401,
 	5402,
+	5411,
+	5412,
+	5413,
+	5414,
+	5415,
 	10011,
 	10012,
 	10013,
@@ -67311,6 +67319,60 @@ end)()
 	}
 end)()
 (function ()
+	pg.base.memory_template[4581] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新的旅程-哈爾福德",
+		condition = "對應艦船科研等級達30級",
+		story = "LUCK19905",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 4581,
+		icon = "memory_jhhaerfude",
+		is_open = 0,
+		unlock_pre = {
+			"LUCK19905"
+		}
+	}
+	pg.base.memory_template[4582] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新的旅程-貝亞德",
+		condition = "對應艦船科研等級達30級",
+		story = "LUCK89904",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 4582,
+		icon = "memory_jhbeiyade",
+		is_open = 0,
+		unlock_pre = {
+			"LUCK89904"
+		}
+	}
+	pg.base.memory_template[4583] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新的旅程-{namecode:299}",
+		condition = "對應艦船科研等級達30級",
+		story = "LUCK39907",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 4583,
+		icon = "memory_jhdashan",
+		is_open = 0,
+		unlock_pre = {
+			"LUCK39907"
+		}
+	}
 	pg.base.memory_template[4591] = {
 		ship_group = 0,
 		subtitle = "",
@@ -69057,6 +69119,8 @@ end)()
 			"ZHENZHUHAO7"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4711] = {
 		ship_group = 0,
 		subtitle = "",
@@ -69111,8 +69175,6 @@ end)()
 			"GANGQUJIARIGUIGUAIGUSHIJIII3"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4714] = {
 		ship_group = 0,
 		subtitle = "",
@@ -70859,6 +70921,8 @@ end)()
 			"ZHIMEIHAOSHIJIE1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4872] = {
 		ship_group = 0,
 		subtitle = "",
@@ -70913,8 +70977,6 @@ end)()
 			"ZHIMEIHAOSHIJIE4"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4875] = {
 		ship_group = 0,
 		subtitle = "",
@@ -72665,6 +72727,8 @@ end)()
 			"CHUNMANKEZHAN6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5017] = {
 		ship_group = 0,
 		subtitle = "",
@@ -72719,8 +72783,6 @@ end)()
 			"CHUNMANKEZHAN9"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5020] = {
 		ship_group = 0,
 		subtitle = "",
@@ -74467,6 +74529,8 @@ end)()
 			"SHENGYINQIANDETONGMENG34"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5175] = {
 		ship_group = 0,
 		subtitle = "",
@@ -74521,8 +74585,6 @@ end)()
 			"SHENGYINQIANDETONGMENG37"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5178] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76269,6 +76331,8 @@ end)()
 			"CHENNIYUXINGGUANGZHICHENG23"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5344] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76323,8 +76387,6 @@ end)()
 			"CHENNIYUXINGGUANGZHICHENG26"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5347] = {
 		ship_group = 0,
 		subtitle = "",
@@ -77133,6 +77195,96 @@ end)()
 		is_open = 0,
 		unlock_pre = {
 			"BINHAIJISU22"
+		}
+	}
+	pg.base.memory_template[5411] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "華麗的預告信",
+		condition = "進入活動",
+		story = "DARENWUDEYUGAOXIN1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5411,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN1"
+		}
+	}
+	pg.base.memory_template[5412] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "第一號守關人",
+		condition = "「“大人物”的预告信 」活动进度达到25% ",
+		story = "DARENWUDEYUGAOXIN2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5412,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN2"
+		}
+	}
+	pg.base.memory_template[5413] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "二號守關人",
+		condition = "「“大人物”的预告信 」活动进度达到50% ",
+		story = "DARENWUDEYUGAOXIN3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5413,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN3"
+		}
+	}
+	pg.base.memory_template[5414] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "大人物的真面目",
+		condition = "「“大人物”的预告信 」活动进度达到75% ",
+		story = "DARENWUDEYUGAOXIN4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5414,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN4"
+		}
+	}
+	pg.base.memory_template[5415] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "指揮官在後",
+		condition = "「“大人物”的预告信 」活动进度达到100% ",
+		story = "DARENWUDEYUGAOXIN5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5415,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN5"
 		}
 	}
 	pg.base.memory_template[10011] = {
@@ -77981,6 +78133,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA9"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20009] = {
 		ship_group = 0,
 		subtitle = "",
@@ -78125,8 +78279,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA17"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20017] = {
 		ship_group = 0,
 		subtitle = "",
@@ -79783,6 +79935,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA28"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20109] = {
 		ship_group = 0,
 		subtitle = "",
@@ -79927,8 +80081,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA36"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20117] = {
 		ship_group = 0,
 		subtitle = "",

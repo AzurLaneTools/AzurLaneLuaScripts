@@ -5,6 +5,16 @@ slot0.execute = function(slot0, slot1)
 
 	if (function ()
 		if uv0.type == ChapterConst.OpRetreat then
+			if not getProxy(ChapterProxy):getActiveChapter() then
+				return
+			end
+
+			if not slot1:CheckChapterWillWin() then
+				return
+			end
+
+			uv0.arg1 = getProxy(ChapterProxy):GetContinuousData(SYSTEM_SCENARIO) and slot3:IsRecordTime() and 1 or 0
+
 			return
 		end
 
@@ -101,7 +111,7 @@ slot0.execute = function(slot0, slot1)
 							getProxy(ChapterProxy):SetLastFleetIndex(uv0.chapter:GetRegularFleetIds(), true)
 						end
 
-						uv0:doRetreat()
+						uv0:doRetreat(slot0.auto_battle_time_update)
 
 						if not uv1.id then
 							slot4 = Clone(uv0.chapter)

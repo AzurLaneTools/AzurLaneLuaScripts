@@ -39,7 +39,10 @@ pg.activity_series_enemy.all = {
 	6002,
 	6003,
 	6004,
-	6005
+	6005,
+	1002001,
+	1002002,
+	1002003
 }
 pg.base = pg.base or {}
 pg.base.activity_series_enemy = {}
@@ -2735,6 +2738,181 @@ pg.base.activity_series_enemy = {}
 			0.2,
 			1000,
 			0.8
+		}
+	}
+	pg.base.activity_series_enemy[1002001] = {
+		oil = 0,
+		name = "理性辦公大樓",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "簡單",
+		pos_x = "0.10703125",
+		pos_y = "0.157291667",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = [[
+「歡迎來到理性辦公大樓。」
+「願你在這裡度過便捷高效的一天。」
+「願你不為光陰所擾。」
+「願童心永駐。」]],
+		collection_group_id = 104,
+		whether_singlefight = 0,
+		id = 1002001,
+		limitation = {},
+		expedition_id = {
+			1819101
+		},
+		boss_icon = {
+			{
+				"youeryuan_boss05",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				200174
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[1002002] = {
+		oil = 0,
+		name = "童心教學大樓",
+		type = 1,
+		pre_chapter = 1002001,
+		chapter_name = "普通",
+		pos_x = "0.34609375",
+		pos_y = "0.347916667",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+「歡迎來到童心教學大樓。」
+「願你在這裡度過無憂無慮的一天。」
+「願你暢遊知識海洋。」
+「願童心永駐。」]],
+		collection_group_id = 105,
+		whether_singlefight = 1,
+		id = 1002002,
+		limitation = {},
+		expedition_id = {
+			1819201,
+			1819202
+		},
+		boss_icon = {
+			{
+				"youeryuan_boss05",
+				5
+			},
+			{
+				"youeryuan_boss03",
+				7
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				200175
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[1002003] = {
+		oil = 0,
+		name = "童趣藝術體育大樓",
+		type = 1,
+		pre_chapter = 1002002,
+		chapter_name = "困難",
+		pos_x = "0.50546875",
+		pos_y = "0.080208333",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+「歡迎來到童趣藝術體育大樓。」
+「願你在這裡度過豐富多彩的一天。」
+「願你堅持心中所向。」
+「願童心永駐。」]],
+		collection_group_id = 106,
+		whether_singlefight = 1,
+		id = 1002003,
+		limitation = {},
+		expedition_id = {
+			1819301,
+			1819302,
+			1819303
+		},
+		boss_icon = {
+			{
+				"youeryuan_boss05",
+				5
+			},
+			{
+				"youeryuan_boss03",
+				7
+			},
+			{
+				"youeryuan_boss04",
+				3
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				200176
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
 		}
 	}
 end)()

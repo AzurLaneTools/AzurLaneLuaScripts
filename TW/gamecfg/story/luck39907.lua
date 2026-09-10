@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官大人，现在的大山，已经能够完全驾驭自身的力量了！",
+			say = "指揮官大人，現在的大山，已經能夠完全駕馭自身的力量了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "在往后的战斗中，就无需再有任何保留。",
+			say = "在往後的戰鬥中，就無需再有任何保留。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 399070,
-			say = "“锚定”解除——即使在最危险的战场中，我也会时刻守护您的安危。",
+			say = "「錨定」解除——即使在最危險的戰場中，我也會時時刻刻守護您的安危。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 399070,
-			say = "请您期待与大山并肩作战的未来吧！",
+			say = "請您期待與大山並肩作戰的未來吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

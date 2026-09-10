@@ -74,6 +74,11 @@ temp = function()
 				this = true
 			}
 		},
+		["津"] = {
+			["風"] = {
+				this = true
+			}
+		},
 		["城"] = {
 			this = true
 		},

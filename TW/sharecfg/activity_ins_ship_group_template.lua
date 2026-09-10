@@ -690,6 +690,7 @@ pg.activity_ins_ship_group_template.all = {
 	40405,
 	10146,
 	10142,
+	30119,
 	20307,
 	10720,
 	10156,
@@ -6894,6 +6895,15 @@ end)()
 		background = "",
 		sculpture = "simoli",
 		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[30119] = {
+		ship_group = 30119,
+		name = "Amatsukaze",
+		background = "",
+		sculpture = "tianjinfeng",
+		nationality = 3,
 		type = 1,
 		sculpture_ii = ""
 	}

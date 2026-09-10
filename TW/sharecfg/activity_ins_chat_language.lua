@@ -9744,7 +9744,80 @@ pg.activity_ins_chat_language.all = {
 	11055,
 	11056,
 	11057,
-	11058
+	11058,
+	11059,
+	11060,
+	11061,
+	11062,
+	11063,
+	11064,
+	11065,
+	11066,
+	11067,
+	11068,
+	11069,
+	11070,
+	11071,
+	11072,
+	11073,
+	11074,
+	11075,
+	11076,
+	11077,
+	11078,
+	11079,
+	11080,
+	11081,
+	11082,
+	11083,
+	11084,
+	11085,
+	11086,
+	11087,
+	11088,
+	11089,
+	11090,
+	11091,
+	11092,
+	11093,
+	11094,
+	11095,
+	11096,
+	11097,
+	11098,
+	11099,
+	11100,
+	11101,
+	11102,
+	11103,
+	11104,
+	11105,
+	11106,
+	11107,
+	11108,
+	11109,
+	11110,
+	11111,
+	11112,
+	11113,
+	11114,
+	11115,
+	11116,
+	11117,
+	11118,
+	11119,
+	11120,
+	11121,
+	11122,
+	11123,
+	11124,
+	11125,
+	11126,
+	11127,
+	11128,
+	11129,
+	11130,
+	11131
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -95668,5 +95741,645 @@ end)()
 		type = 1,
 		id = 11058,
 		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11059] = {
+		param = "指揮官，你在的吧？快回話啦！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11059,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11060] = {
+		param = "有件事要你現在就辦，不准拖",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11060,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11061] = {
+		param = "把你從今天起未來一個月的行程表整理出來，交給我",
+		ship_group = 30119,
+		type = 1,
+		id = 11061,
+		flag = 0,
+		option = {
+			{
+				1,
+				"行程安排？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11062] = {
+		param = "行程安排？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11062,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11063] = {
+		param = "嗯哼，而且越詳細越好",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11063,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11064] = {
+		param = "你可以按日計劃或週計劃的形式提供給我",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11064,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11065] = {
+		param = "寫清楚什麼時候開會，什麼時候巡視，什麼時候審核文件，什麼時候休息……",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11065,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11066] = {
+		param = "不許拿模糊不清的東西來敷衍我！",
+		ship_group = 30119,
+		type = 1,
+		id = 11066,
+		flag = 1,
+		option = {
+			{
+				2,
+				"妳要這個做什麼？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11067] = {
+		param = "妳要這個做什麼？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11067,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11068] = {
+		param = "這你就不用管啦！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11068,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11069] = {
+		param = "天津風大人自有安排~",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11069,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11070] = {
+		param = "還是說，這點小事你也辦不到？",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11070,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11071] = {
+		param = "總之，我已經提前通知你了~",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11071,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11072] = {
+		param = "有了這個行程表，我就能更方便地安排你來覲見我了",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11072,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11073] = {
+		param = "免得你總把時間浪費在一些無關緊要的事上",
+		ship_group = 30119,
+		type = 1,
+		id = 11073,
+		flag = 2,
+		option = {
+			{
+				3,
+				"「覲見」這個說法……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11074] = {
+		param = "「覲見」這個說法……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11074,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11075] = {
+		param = "幹嘛啦！你平常想見我，還得看我有沒有空呢",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11075,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11076] = {
+		param = "我現在主動替你規劃機會，你該感到榮幸才對",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11076,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11077] = {
+		param = "……再說了",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11077,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11078] = {
+		param = "你要是哪天沒空，我不就白等了！白安排了嗎！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11078,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11079] = {
+		param = "所以提前確認，完全合理",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11079,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11080] = {
+		param = "好了好了，你快去整理行程表吧",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11080,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11081] = {
+		param = "如果你實在忙不過來，也可以去找別人幫忙整理",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11081,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11082] = {
+		param = "但不管你找誰幫忙，今天之內都得交到我這裡",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11082,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11083] = {
+		param = "畢竟今天不交，明天的安排就沒法定！明天定不了，接下來就會全亂掉！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11083,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11084] = {
+		param = "指揮官，不准讓我等太久啊！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11084,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11085] = {
+		param = "剛剛碰到你的時候，怎麼看你沒什麼精神？",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11085,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11086] = {
+		param = "是不是又沒準時吃飯？還是又熬夜了？",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11086,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11087] = {
+		param = "肯定都有吧！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11087,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11088] = {
+		param = "怎麼樣，天津風大人沒猜錯吧？",
+		ship_group = 30119,
+		type = 1,
+		id = 11088,
+		flag = 0,
+		option = {
+			{
+				1,
+				"最近事情有點多……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11089] = {
+		param = "最近事情有點多……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11089,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11090] = {
+		param = "不行。你要是累垮了，誰來陪我說話？我去使喚誰？",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11090,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11091] = {
+		param = "現在，去打開我放在你桌面上的那個盒子",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11091,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11092] = {
+		param = "看到裡面的那些點心了嗎？這可是天津風大人的珍藏",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11092,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11093] = {
+		param = "我命令你現在就把它們都給吃完，好好補充能量",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11093,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11094] = {
+		param = "這樣的機會可不多見，你還是乖乖答應比較好！",
+		ship_group = 30119,
+		type = 1,
+		id = 11094,
+		flag = 1,
+		option = {
+			{
+				2,
+				"那可以讓天津風大人來餵我嗎"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11095] = {
+		param = "那可以讓天津風大人來餵我嗎",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11095,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11096] = {
+		param = "嗯？這時候想起天津風大人的好了？",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11096,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11097] = {
+		param = "呵呵，看在你沒精神的份上，就破例一回~",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11097,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11098] = {
+		param = "還有什麼其他的要求，也一並告訴我吧！",
+		ship_group = 30119,
+		type = 1,
+		id = 11098,
+		flag = 2,
+		option = {
+			{
+				3,
+				"那天津風大人餵我的時候，我可以枕在天津風大人的腿上嗎"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11099] = {
+		param = "那天津風大人餵我的時候，我可以枕在天津風大人的腿上嗎",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11099,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11100] = {
+		param = "這……倒也沒什麼問題……",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11100,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11101] = {
+		param = "還有其他要求嗎？",
+		ship_group = 30119,
+		type = 1,
+		id = 11101,
+		flag = 3,
+		option = {
+			{
+				4,
+				"可以順便再摸摸我的頭呢？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11102] = {
+		param = "可以順便再摸摸我的頭呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11102,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11103] = {
+		param = "行啊，摸頭有什麼不可以……",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11103,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11104] = {
+		param = "等等……你讓我一邊給你膝枕，一邊餵你，一邊摸你的頭……",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11104,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11105] = {
+		param = "讓我答應了多麼不知廉恥的事情啊！！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11105,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11106] = {
+		param = "你這傢伙，絕對是故意的吧！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11106,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11107] = {
+		param = "但是天津風大人答應過的事情，絕對不會反悔的……",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11107,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11108] = {
+		param = "所以……你給我好！好！等！著！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11108,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11109] = {
+		param = "我親愛的指揮官啊，你覺得……",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11109,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11110] = {
+		param = "如果把休息的地方佈置得更好看、更合心意",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11110,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11111] = {
+		param = "是不是就能顯著提高休息的效率了呢？",
+		ship_group = 30119,
+		type = 1,
+		id = 11111,
+		flag = 0,
+		option = {
+			{
+				1,
+				"我覺得可以"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11112] = {
+		param = "我覺得可以",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11112,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11113] = {
+		param = "嗯嗯，那就沒有問題了",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11113,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11114] = {
+		param = "我剛剛把壁紙換成了明亮的款式",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11114,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11115] = {
+		param = "順便在牆邊的架子上，掛了些亮閃閃的掛飾",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11115,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11116] = {
+		param = "嗯……桌面也得擺點亮晶晶的擺飾才行",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11116,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11117] = {
+		param = "指揮官，鑽石和紫水晶，你比較喜歡哪一種？",
+		ship_group = 30119,
+		type = 1,
+		id = 11117,
+		flag = 1,
+		option = {
+			{
+				2,
+				"鑽石吧"
+			},
+			{
+				3,
+				"紫水晶吧"
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[11118] = {
+		param = "鑽石吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11118,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11119] = {
+		param = "璀璨華麗的鑽石，光看著就能讓人心情舒暢呢",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11119,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11120] = {
+		param = "紫水晶吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11120,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11121] = {
+		param = "深邃神秘的紫色，確實能讓人感到沉穩又安心呢",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11121,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11122] = {
+		param = "然後再在牆角放上一個能夠映出漂亮紋路的落地燈……",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11122,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11123] = {
+		param = "嗯，這樣應該就完成一半了！",
+		ship_group = 30119,
+		type = 1,
+		id = 11123,
+		flag = 0,
+		option = {
+			{
+				4,
+				"需要我去妳宿舍幫忙嗎"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11124] = {
+		param = "需要我去妳宿舍幫忙嗎",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11124,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11125] = {
+		param = "我的宿舍？為什麼要去我的宿舍……",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11125,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11126] = {
+		param = "喔~放心吧！我現在正在你的房間！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11126,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11127] = {
+		param = "你的房間的佈置風格已經跟不上你的品味了！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11127,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11128] = {
+		param = "所以呢……我就順、手、幫、你、全、換、了！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11128,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11129] = {
+		param = "哼哼，只有這樣亮閃閃的房間，才襯得上你港區指揮官的品味！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11129,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11130] = {
+		param = "要是別人問起來，記得說都是天津風大人幫你挑的哦？",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11130,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[11131] = {
+		param = "你就好好見識天津風大人的超絕品味吧！",
+		ship_group = 30119,
+		option = "",
+		type = 1,
+		id = 11131,
+		flag = 4
 	}
 end)()

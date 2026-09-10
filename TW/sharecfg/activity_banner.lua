@@ -11,8 +11,7 @@ pg.activity_banner.all = {
 	6,
 	7,
 	8,
-	15,
-	16,
+	9,
 	90,
 	91,
 	95,
@@ -67,7 +66,7 @@ pg.activity_banner.get_id_list_by_type = {
 		6,
 		7,
 		8,
-		16,
+		9,
 		1000,
 		1001,
 		1002,
@@ -94,7 +93,6 @@ pg.activity_banner.get_id_list_by_type = {
 		1025
 	},
 	[3] = {
-		15,
 		1003
 	},
 	[8] = {
@@ -144,8 +142,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					27
+					9,
+					10
 				},
 				{
 					0,
@@ -157,7 +155,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					9
+					23
 				},
 				{
 					23,
@@ -182,8 +180,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					27
+					9,
+					10
 				},
 				{
 					0,
@@ -195,7 +193,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					10
+					24
 				},
 				{
 					14,
@@ -212,15 +210,15 @@ pg.base.activity_banner = {}
 		param = {
 			"scene charge",
 			{
-				wrap = 4
+				wrap = 2
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					8,
-					27
+					9,
+					10
 				},
 				{
 					0,
@@ -232,7 +230,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					9
+					23
 				},
 				{
 					23,
@@ -247,17 +245,14 @@ pg.base.activity_banner = {}
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene core activity",
-			{
-				coreName = "StarsCityCoreActivityUI"
-			}
+			"act boss battle"
 		},
 		time = {
 			{
 				{
 					2026,
-					8,
-					27
+					9,
+					10
 				},
 				{
 					0,
@@ -269,7 +264,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					10
+					24
 				},
 				{
 					14,
@@ -280,77 +275,28 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[5] = {
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
 		param = {
 			"scene charge",
 			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
+				wrap = 4
 			}
 		}
 	}
 	pg.base.activity_banner[6] = {
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[7] = {
+		time = "stop",
 		type = 2,
 		id = 7,
 		pic = "temp7",
@@ -359,32 +305,6 @@ pg.base.activity_banner = {}
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					8,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[8] = {
@@ -392,9 +312,44 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene core activity",
+			"dorm 3d select"
+		},
+		time = {
 			{
-				coreName = "RapidSeasideCoreActivityUI"
+				{
+					2026,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[9] = {
+		type = 2,
+		id = 9,
+		pic = "temp9",
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = true
 			}
 		},
 		time = {
@@ -414,57 +369,13 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					10
+					8
 				},
 				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[15] = {
-		param = "50263",
-		type = 3,
-		id = 15,
-		pic = "temp9",
-		time = {
-			{
-				{
-					2026,
-					8,
-					6
-				},
-				{
-					0,
+					12,
 					0,
 					0
 				}
-			},
-			{
-				{
-					2026,
-					9,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[16] = {
-		time = "stop",
-		type = 2,
-		id = 16,
-		pic = "temp11",
-		param = {
-			"scene get boat",
-			{
-				goToPray = true
 			}
 		}
 	}
@@ -498,8 +409,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					8,
-					27
+					9,
+					10
 				},
 				{
 					0,
@@ -511,7 +422,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					9
+					23
 				},
 				{
 					23,

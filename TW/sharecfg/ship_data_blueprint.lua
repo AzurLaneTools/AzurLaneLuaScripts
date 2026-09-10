@@ -3355,14 +3355,19 @@ pg.base.ship_data_blueprint = {}
 		price = 1500,
 		is_pursuing = 0,
 		simulate_dungeon = 9933,
-		luck_story = "",
+		luck_story = "LUCK19905",
 		strengthen_item = 42061,
 		blueprint_version = 7,
 		id = 19905,
 		unlock_task_open_condition = {
 			60331
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19790,
+				18790
+			}
+		},
 		unlock_task = {
 			{
 				60332,
@@ -3429,7 +3434,13 @@ pg.base.ship_data_blueprint = {}
 			3329,
 			3330
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			3331,
+			3332,
+			3333,
+			3334,
+			3335
+		},
 		attr_exp = {
 			100,
 			100,
@@ -3446,14 +3457,19 @@ pg.base.ship_data_blueprint = {}
 		price = 1500,
 		is_pursuing = 0,
 		simulate_dungeon = 9934,
-		luck_story = "",
+		luck_story = "LUCK39907",
 		strengthen_item = 42062,
 		blueprint_version = 7,
 		id = 39907,
 		unlock_task_open_condition = {
 			60341
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19860,
+				18860
+			}
+		},
 		unlock_task = {
 			{
 				60342,
@@ -3520,7 +3536,13 @@ pg.base.ship_data_blueprint = {}
 			3429,
 			3430
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			3431,
+			3432,
+			3433,
+			3434,
+			3435
+		},
 		attr_exp = {
 			100,
 			100,
@@ -3721,14 +3743,19 @@ pg.base.ship_data_blueprint = {}
 		price = 1500,
 		is_pursuing = 0,
 		simulate_dungeon = 9937,
-		luck_story = "",
+		luck_story = "LUCK89904",
 		strengthen_item = 42065,
 		blueprint_version = 7,
 		id = 89904,
 		unlock_task_open_condition = {
 			60371
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19780,
+				18780
+			}
+		},
 		unlock_task = {
 			{
 				60372,
@@ -3795,7 +3822,13 @@ pg.base.ship_data_blueprint = {}
 			3729,
 			3730
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			3731,
+			3732,
+			3733,
+			3734,
+			3735
+		},
 		attr_exp = {
 			100,
 			100,

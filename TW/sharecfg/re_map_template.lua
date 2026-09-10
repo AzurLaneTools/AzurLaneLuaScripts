@@ -43,7 +43,8 @@ pg.re_map_template.all = {
 	39,
 	40,
 	41,
-	44
+	44,
+	51
 }
 pg.base = pg.base or {}
 pg.base.re_map_template = {}
@@ -2563,5 +2564,40 @@ pg.base.re_map_template = {}
 			}
 		},
 		tickets = {}
+	}
+	pg.base.re_map_template[51] = {
+		name = "童心学院常驻复刻",
+		memory_group = 292,
+		bg = "temp_yaerweite",
+		activity_id = 50522,
+		id = 51,
+		activity_type = 3,
+		order = 51,
+		config_data = {
+			1002001,
+			1002002,
+			1002003
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		drop_gain = {},
+		drop_display_sp = {},
+		drop_display = {
+			{
+				{
+					2,
+					11037
+				},
+				"困难"
+			}
+		},
+		tickets = {
+			1,
+			2,
+			3
+		}
 	}
 end)()

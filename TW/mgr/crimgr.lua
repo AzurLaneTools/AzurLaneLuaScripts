@@ -410,11 +410,11 @@ slot1.StopSE_Loop = function(slot0, slot1, slot2)
 	slot0.criInst:StopSound(CueData.GetCueDataAndInit(uv0.C_SE_LOOP, slot1, slot2), CriWareMgr.CRI_FADE_TYPE.FADE_INOUT)
 end
 
-slot1.LoadCueSheet = function(slot0, slot1, slot2)
-	slot3 = CueData.GetCueData()
-	slot3.cueSheetName = slot1
+slot1.LoadCueSheet = function(slot0, slot1, slot2, slot3)
+	CueData.GetCueData().cueSheetName = slot1
+	slot4.channelName = slot3 or uv0.C_VOICE
 
-	slot0.criInst:LoadCueSheet(slot3, function (slot0)
+	slot0.criInst:LoadCueSheet(slot4, function (slot0)
 		existCall(uv0, slot0)
 	end, true)
 end

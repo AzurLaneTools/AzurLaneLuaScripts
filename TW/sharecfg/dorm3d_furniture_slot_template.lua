@@ -47,6 +47,7 @@ pg.dorm3d_furniture_slot_template.all = {
 	1140101,
 	1140102,
 	1140103,
+	1140104,
 	1140201,
 	1140202,
 	1140301,
@@ -119,6 +120,7 @@ pg.dorm3d_furniture_slot_template.get_id_list_by_room_id = {
 		1140101,
 		1140102,
 		1140103,
+		1140104,
 		1140201,
 		1140202,
 		1140301,
@@ -215,7 +217,8 @@ pg.dorm3d_furniture_slot_template.get_id_list_by_zone_id = {
 	[14001] = {
 		1140101,
 		1140102,
-		1140103
+		1140103,
+		1140104
 	},
 	[14002] = {
 		1140201,
@@ -639,6 +642,15 @@ pg.base.dorm3d_furniture_slot_template = {}
 		id = 1140103,
 		room_id = 14,
 		furniture_name = "pre_db_aje_desklamp01",
+		zone_id = 14001
+	}
+	pg.base.dorm3d_furniture_slot_template[1140104] = {
+		default_furniture = 0,
+		name = "特典浴缸",
+		type = 99,
+		id = 1140104,
+		room_id = 14,
+		furniture_name = "pre_db_aijier_special01",
 		zone_id = 14001
 	}
 	pg.base.dorm3d_furniture_slot_template[1140201] = {

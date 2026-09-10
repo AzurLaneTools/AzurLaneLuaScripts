@@ -8182,6 +8182,37 @@ _G.pg.base.item_data_statistics[11057] = {
 }
 
 
+_G.pg.base.item_data_statistics[11058] = {
+	open_directly = 0,
+	name = "四聯裝610mm魚雷改T0設計圖",
+	type = 9,
+	display = "四聯裝610mm魚雷改T0設計圖",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/35260",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[12000] = {
 	open_directly = 0,
 	name = "九三式純氧魚雷T3設計圖",

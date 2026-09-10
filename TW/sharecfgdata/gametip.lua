@@ -4627,6 +4627,11 @@ _G.pg.base.gametip.levelScene_activate_remaster_1 = {
 }
 
 
+_G.pg.base.gametip.levelScene_activate_remaster_auto = {
+	tip = "進入所選關卡需要消耗<color=#ffde38>檔案秘鑰x$1</color>，\n是否進入？"
+}
+
+
 _G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "入場券數量不足"
 }
@@ -12152,17 +12157,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "約克鎮II、北安普敦II  建造追加！"
+	tip = "亞爾薇特 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "哈曼II 建造追加！"
+	tip = "{namecode:494} 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "約克鎮II、大黃蜂II 建造追加！"
+	tip = "{namecode:536} 建造追加！"
 }
 
 
@@ -13083,6 +13088,16 @@ _G.pg.base.gametip.tag_level_bomb = {
 }
 
 
+_G.pg.base.gametip.tag_level_autoing = {
+	tip = "委託中"
+}
+
+
+_G.pg.base.gametip.tag_level_auto_finish = {
+	tip = "已完成"
+}
+
+
 _G.pg.base.gametip.ui_word_levelui2_inevent = {
 	tip = "行動中"
 }
@@ -13182,9 +13197,9 @@ _G.pg.base.gametip.world_boss_help = {
 		},
 		{
 			info = [[
-1.「EX」演習戰鬥具有一定難度，可以在「EX」演習的艦隊選擇介面點選<color=#92fc63>「模擬戰」</color>按鈕進行嘗試，「模擬戰」不消耗石油、心情、「特別挑戰券」
+1.「EX」演習戰鬥具有一定難度，可以在「EX」演習的艦隊選擇介面點擊<color=#92fc63>「模擬戰」</color>按鈕進行嘗試，「模擬戰」不消耗石油、心情、「特別挑戰券」
 2.進行「EX」演習戰鬥時，中途斷線或者主動退出等中止戰鬥的情況都會扣除「特別挑戰券」且<color=#ff5c5c>不會獲得任何獎勵</color><color=#ff5c5c>請在網路狀態良好的情況下進行「EX」演習戰鬥</color>
- 3.進行「簡單」、「普通」、「困難」演習戰鬥時，中途斷線或者主動退出等中止戰鬥的情況會保留「額外收益次數」且不會獲得任何獎勵
+3.進行「簡單」、「普通」、「困難」演習戰鬥時，中途斷線或者主動退出等中止戰鬥的情況會保留「額外收益次數」且不會獲得任何獎勵
 4.在所有難度的演習戰鬥中，艦船被擊破不會消耗心情值，其餘情況的心情值正常增減
 5.所有難度的演習戰鬥都會正常消耗石油，正常獲得指揮官、出戰角色和指揮喵經驗
 ]]
@@ -13192,32 +13207,32 @@ _G.pg.base.gametip.world_boss_help = {
 		{
 			info = [[
 <color=#92fc63>活動說明</color>：
-1.在活動期間，參與演習戰鬥取得<color=#92fc63>「貢獻值」</color>,和本服玩家協力攻略演習據點，取得據點階段獎勵與個人貢獻獎勵
+1.在活動期間，參與演習戰鬥獲取<color=#92fc63>「貢獻值」</color>,和本服玩家協力攻略演習據點，獲取據點階段獎勵和個人貢獻獎勵
 2.本次活動分為「簡單」、「普通」、「困難」、「EX」4個難度的演習
-3.「簡單」、「普通」、「困難」演習會獲得固定「貢獻值」, 「EX」演習會根據<color=#92fc63>戰鬥中造成的傷害總量</color>獲得「貢獻值」和獎勵，造成傷害越多「貢獻值」越多，獲得獎勵越豐厚
+3.「簡單」、「普通」、「困難」演習會獲得固定「貢獻值」,「EX」演習會根據<color=#92fc63>戰鬥中造成的傷害總量</color>獲得「貢獻值」和獎勵，造成傷害越多「貢獻值」越多，獲得獎勵越豐厚
 4.「簡單」、「普通」、「困難」演習每次通關時可以獲得額外收益，額外收益每日有獲得次數上限，每日「額外收益次數」上限3個難度各為<color=#92fc63>15次</color>
 5.「簡單」、「普通」、「困難」演習每日挑戰次數無限制，「EX」演習需要消耗<color=#92fc63>1個「特別挑戰券」</color>才可以挑戰
-6.演習戰鬥的出擊隊伍可以透過點擊不同難度的按鈕進行編成，允許攜帶潛艇和指揮喵
+6.演習戰鬥的出擊隊伍可以通過點擊不同難度的按鈕進行編成，允許攜帶潛艇和指揮喵
 7.活動期間，根據本服所有玩家獲得的「貢獻值」，消耗「演習據點」的耐久
-8.當「演習據點」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗盡</color>後，會記錄本服達成的里程碑時間，同時，在演習中獲得過「貢獻值」的玩家可以獲得相應獎勵
-9.獎勵將在「演習據點」完全耗盡後，透過郵件發放，如果活動結束時耐久未被耗盡，則會根據據點推進進度，為在演習中獲得過「貢獻值」的玩家發放對應進度的獎勵
+8.當「演習據點」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗盡</color>後，會紀錄本服達成的里程碑時間，同時，在演習中獲得過「貢獻值」的玩家可以獲得相應獎勵
+9.獎勵將在「演習據點」完全耗盡後，通過郵件發放，如果活動結束時耐久未被耗盡，則會根據據點推進進度，為在演習中獲得過「貢獻值」的玩家發放對應進度的獎勵
 10.活動期間，可以領取個人貢獻獎勵，個人貢獻獎勵需要當據點攻略進度和擁有的「貢獻值」達到指定要求後才能領取
-11.1月23日維護後-2月13日維護前可以參與演習戰鬥，獎勵領取的截止時間為2月19日24時]]
+11.9月10日維護後-9月24日維護前可以參與演習戰鬥，獎勵領取的截止時間為9月30日24時]]
 		},
 		{
 			info = [[
 <color=#92fc63>特別挑戰券說明</color>：
-1.特別挑戰券可以透過活動期間的特殊每日任務獲得，數量可以累積，活動結束後會被清空
-2.「簡單」、「普通」、「困難」演習的「額外收益次數」為<color=#92fc63>0</color>的情況下，進行演習戰鬥時可以消耗<color=#92fc63>1張</color>「特別挑戰券」增加1次對應難度演習的「額外收益次數」
+1.特別挑戰券可以通過活動期間的特殊每日任務獲得，數量可以累積，活動結束後會被清空
+2.「簡單」、「普通」、「困難」演習的「額外收益次數」為<color=#92fc63>0</color>的情況下，進行演習戰鬥時可以消耗<color=#92fc63>1個</color>「特別挑戰券」增加1次對應難度演習的「額外收益次數」
 3.「EX」演習需要消耗<color=#92fc63>1個</color>「特別挑戰券」]]
 		},
 		{
 			info = [[
 <color=#92fc63>連續作戰說明</color>：
 1.「連續作戰」功能將在通關一次「簡單」、「普通」、「困難」對應難度的關卡後解鎖
-2.單次「連續戰鬥」可進行的最大戰鬥次數為15次
-3.連續作戰預設開啟<color=#92fc63>「自律戰鬥」</color> 、<color=#92fc63>「自動呼叫潛艇」</color>
-無潛艦編隊的情況下，則不會自動呼叫潛艇
+2.單次「連續作戰」可進行的最大作戰次數為15次
+3.連續作戰默認開啟<color=#92fc63>「自律作戰」</color>、<color=#92fc63>「自動呼叫潛艇」</color>
+無潛艇編隊的情況下，則不會自動呼叫潛艇
 4.「連續作戰」進行過程中可手動中止，將在當前戰鬥結算後退出
 5.中止狀態下，可切換「自律戰鬥」開關
 再次開啟「連續作戰」後，將自動開啟「自律戰鬥」
@@ -13269,7 +13284,25 @@ _G.pg.base.gametip.levelScene_loop_help_tip = {
 ②<color=#92fc63>旗艦戰鬥</color>：敵方旗艦出現後會切換到該艦隊與敵方旗艦進行戰鬥，選擇該隊為旗艦戰鬥後，另一隊默認為道中戰鬥
 ③<color=#92fc63>全部戰鬥</color>：該艦隊會與道中敵人和敵方旗艦進行戰鬥，選擇該隊為全部戰鬥後，另一隊默認為待機
 ④<color=#92fc63>待機</color>：該艦隊不參與戰鬥，原地待機，選擇該隊為待機後，另一隊默認為全部戰鬥
-4.自律尋敵模式中，場上有精英艦隊時，優先攻擊<color=#92fc63>精英艦隊</color>，場上沒有精英艦隊時，就近攻擊離我方<color=#92fc63>最近的敵人</color>，當場上出現敵方旗艦時，最優先攻擊<color=#92fc63>敵方旗艦</color>]]
+4.自律尋敵模式中，場上有精英艦隊時，優先攻擊<color=#92fc63>精英艦隊</color>，場上沒有精英艦隊時，就近攻擊離我方<color=#92fc63>最近的敵人</color>，當場上出現敵方旗艦時，最優先攻擊<color=#92fc63>敵方旗艦</color>
+
+<color=#92fc63>作戰委託</color>說明:
+
+作戰委託系統是通過自動委託的方式通關已攻略關卡的系統，對目標關卡執行作戰委託後，等待倒計時結束，即可收獲委託獎勵。作戰委託倒計時在玩家離線時<color=#92fc63>不會暫停</color>，將繼續保持計時。
+1 作戰委託系統僅能委託完成過一次<color=#92fc63>未中斷且全程自律的連續作戰</color>的關卡。
+2 單次作戰委託所需等待時間為目標關卡一次<color=#92fc63>未中斷且全程自律的連續作戰</color>通關的最短時間（<color=#92fc63>艦隊跨射不會影響時間統計</color>，僅記錄功能上線後的通關時間）。
+3 每日可獲得<color=#92fc63>8小時作戰委託可用時間</color>，委託可用時間耗盡後，將無法進行作戰委託。每次進行作戰委託時，將<color=#92fc63>消耗與等待時間相同</color>的委託可用時間，剩餘時間<color=#92fc63>不足1次委託所需時間時，仍可完成最後一次委託</color>。委託可用時間會在<color=#92fc63>每天0時</color>重置。
+4 作戰委託<color=#92fc63>期間無法出擊主線關卡、活動關卡以及活動檔案</color>。
+5 作戰委託產出大講堂熟練度，使用<color=#92fc63>作戰全權委託書可以為一次作戰委託追加額外產出</color>。
+
+<color=#92fc63>作戰全權委託書</color>介紹：
+
+1 作戰全權委託書是用於<color=#92fc63>增加作戰委託產出</color>的物品，使用後可為<color=#92fc63>一次作戰委託</color>追加額外產出。可通過<color=#92fc63>每日任務</color>等途徑獲取
+2 在使用作戰全權委託書追加產出的同時，還需要支付一定數量的<color=#92fc63>石油資源</color>。
+3 作戰全權委託書追加的額外產出將<color=#92fc63>基於關卡通關獎勵</color>，不同關卡會有不同的通關獎勵，包括<color=#92fc63>角色、物資、材料、活動掉落</color>等。
+4 使用作戰全權委託書的作戰委託會為<color=#92fc63>部分任務增加任務進度</color>。
+5 使用作戰全權委託書的作戰委託將有概率出現<color=#92fc63>緊急委託</color>，一次作戰委託最多出現一個。
+6 作戰全權委託書還可在「兌換可用時間」介面中用於<color=#92fc63>增加當日的作戰委託可用時間</color>，每本作戰全權委託書可增加<color=#92fc63>1小時</color>的委託可用時間。]]
 		}
 	}
 }
@@ -34084,6 +34117,11 @@ _G.pg.base.gametip.main_silent_tip_6 = {
 }
 
 
+_G.pg.base.gametip.main_silent_tip_7 = {
+	tip = "作戰委託已完成"
+}
+
+
 _G.pg.base.gametip.commission_label_go = {
 	tip = "前 往"
 }
@@ -34111,6 +34149,11 @@ _G.pg.base.gametip.commission_label_unlock_event_tip = {
 
 _G.pg.base.gametip.commission_label_unlock_tech_tip = {
 	tip = "指揮官等級達到Lv.30後開發"
+}
+
+
+_G.pg.base.gametip.commission_label_unlock_auto_tip = {
+	tip = "通關主線1-3後開放"
 }
 
 
@@ -49237,4 +49280,315 @@ _G.pg.base.gametip.LeMarsReSkinPage_reward_title = {
 
 _G.pg.base.gametip.LeMarsReSkinPage_reward_target = {
 	tip = "當前消耗石油："
+}
+
+
+_G.pg.base.gametip.event_worldboss_0827_title = {
+	tip = "特別演習"
+}
+
+
+_G.pg.base.gametip.event_worldboss_0827_title_en = {
+	tip = "Joint Operation"
+}
+
+
+_G.pg.base.gametip.auto_battle_unlock_tip = {
+	tip = "通關主線1-3後開放"
+}
+
+
+_G.pg.base.gametip.auto_chapter_unlock_tip = {
+	tip = "完成一次未中斷且全程自律的連續作戰後開啟"
+}
+
+
+_G.pg.base.gametip.auto_battle_headline = {
+	tip = "作戰委託"
+}
+
+
+_G.pg.base.gametip.auto_battle_headline_en = {
+	tip = "Operational Handover"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_day = {
+	tip = "$1天"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_hour = {
+	tip = "$1時"
+}
+
+
+_G.pg.base.gametip.auto_battle_cnt = {
+	tip = "作戰次數"
+}
+
+
+_G.pg.base.gametip.auto_battle_dec_en = {
+	tip = "HANDOVER."
+}
+
+
+_G.pg.base.gametip.auto_battle_time_limit_reached = {
+	tip = "剩餘可用時間不足"
+}
+
+
+_G.pg.base.gametip.auto_battle_cnt_book = {
+	tip = "使用委託書"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_max_reached = {
+	tip = "委託書數量不足"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_times_reached = {
+	tip = "已達作戰次數限制"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_left = {
+	tip = "委託所需時間"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_time = {
+	tip = "剩餘可用時間"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_extra = {
+	tip = "預計額外消耗"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_oil = {
+	tip = "<color=#92fc63><icon name=oil w=0.7 h=0.7/>$1油</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_book = {
+	tip = "<color=#92fc63><icon name=weituo w=0.7 h=0.7/>$1作戰全權委託書</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_add_time = {
+	tip = "兌換可用時間"
+}
+
+
+_G.pg.base.gametip.auto_battle_base_loot = {
+	tip = "委託產出"
+}
+
+
+_G.pg.base.gametip.auto_battle_class_exp_head = {
+	tip = "大講堂熟練度"
+}
+
+
+_G.pg.base.gametip.auto_battle_extra_loot = {
+	tip = "委託書額外產出"
+}
+
+
+_G.pg.base.gametip.auto_battle_extra_loot_lock = {
+	tip = "使用委託書後可獲得額外產出"
+}
+
+
+_G.pg.base.gametip.auto_battle_oil_store_tip = {
+	tip = "已儲存退回石油<color=#92fc63><icon name=oil w=0.7 h=0.7/>$1</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_confirm_button = {
+	tip = "開始"
+}
+
+
+_G.pg.base.gametip.auto_battle_times_zero = {
+	tip = "請設定作戰次數"
+}
+
+
+_G.pg.base.gametip.auto_battle_start_tips = {
+	tip = "開始作戰委託"
+}
+
+
+_G.pg.base.gametip.auto_battle_not_enough_resource = {
+	tip = "資源不足，無法開始"
+}
+
+
+_G.pg.base.gametip.auto_battle_base_exp_warning = {
+	tip = "預期產出的大講堂熟練度將會溢出，是否持續？"
+}
+
+
+_G.pg.base.gametip.auto_battle_info_tips = {
+	tip = "※作戰委託將產出大講堂熟練度，使用一本作戰全權委託書可為一次作戰委託追加額外產出\n※單次時間為目標關卡一次未中斷且全程自律的連續作戰通關的最短時間，艦隊跨射不影響計算"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_headline = {
+	tip = "資訊"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_headline_en = {
+	tip = "INFORM"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_info = {
+	tip = "剩餘可用時間：<color=#ffffff>$1</color> + <color=#92fc63>$2</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_item_lack = {
+	tip = "物品數量不足"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_cancel = {
+	tip = "取消"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_confirm = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_zero_item = {
+	tip = "請選擇消耗物品"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_success = {
+	tip = "成功兌換可用時間"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_headline = {
+	tip = "委託作戰中"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_time = {
+	tip = "剩餘時間 <color=#92fc63>$1</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_cnt = {
+	tip = "完成次數 <color=#92fc63>$1/$2</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_base_loot = {
+	tip = "單次產出"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_stop = {
+	tip = "終止作戰"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_finish = {
+	tip = "領取獎勵"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_stop_tips = {
+	tip = "是否終止作戰委託？將領取已完成次數的委託獎勵，未完成的委託將返還材料，返還的石油將被儲存在作戰委託中僅供下次委託使用"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_book_expired = {
+	tip = "返還的作戰委託書將過期，確定終止作戰委託嗎？"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_classEXP_overflow = {
+	tip = "大講堂熟練度因溢出無法全部獲取，是否確定領取？"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_bookEXP_overflow = {
+	tip = "將有$1本艦艇演習數據T1因溢出而無法獲取，是否確定領取？"
+}
+
+
+_G.pg.base.gametip.auto_battle_stop = {
+	tip = "作戰委託已終止。"
+}
+
+
+_G.pg.base.gametip.auto_battle_finish = {
+	tip = "作戰委託已完成。"
+}
+
+
+_G.pg.base.gametip.auto_battle_end_exp = {
+	tip = "獲得大講堂熟練度<color=#92fc63>$1</color>點"
+}
+
+
+_G.pg.base.gametip.auto_battle_end_status = {
+	tip = "計劃作戰<color=#92fc63>$1</color>次，實際完成戰鬥<color=#92fc63>$2</color>次。"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_expire_warning = {
+	tip = "x$1 即將過期"
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation = {
+	tip = "正在進行關卡<color=#92fc63>$1</color>的作戰委託，請等待作戰委託完成"
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation_cancle = {
+	tip = "取消"
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation_go = {
+	tip = "查看委託"
+}
+
+
+_G.pg.base.gametip.auto_battle_help = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>作戰委託</color>說明:
+
+作戰委託系統是透過自動委託的方式通關已攻略關卡的系統，對目標關卡執行作戰委託後，等待倒數結束，即可收穫委託獎勵。作戰委託倒數計時在玩家離線時<color=#92fc63>不會暫停</color>，將繼續保持計時。
+1 作戰委託系統僅能委託完成過一次<color=#92fc63>未中斷且全程自律的連續作戰</color>的關卡。
+2 單次作戰委託所需等待時間為目標關卡一次<color=#92fc63>未中斷且全程自律的連續作戰</color>通關的最短時間（<color=#92fc63>艦隊跨射不會影響時間統計</color>，僅紀錄功能上線後的通關時間）。
+3 每日可獲得<color=#92fc63>8小時作戰委託可用時間</color>，委託可用時間耗盡後，將無法進行作戰委託。每次進行作戰委託時，將<color=#92fc63>消耗與等待時間相同</color>的委託可用時間，剩餘時間<color=#92fc63>不足1次委託所需時間時，仍可完成最後一次委託</color>。委託可用時間會在<color=#92fc63>每天0時</color>重設。
+4 作戰委託<color=#92fc63>期間無法出擊主線關卡、活動關卡以及活動檔案</color>。
+5 作戰委託產出大講堂熟練度，使用<color=#92fc63>作戰全權委託書可以為一次作戰委託追加額外產出</color>。
+
+<color=#92fc63>作戰全權委託書</color>介紹：
+
+1 作戰全權委託書是用於<color=#92fc63>增加作戰委託產出</color>的物品，使用後可為<color=#92fc63>一次作戰委託</color>追加額外產出。可透過<color=#92fc63>每日任務</color>等途徑取得
+2 在使用作戰全權委託書追加產出的同時，還需要支付一定數量的<color=#92fc63>石油資源</color>。
+3 作戰全權委託書追加的額外產出將<color=#92fc63>基於關卡通關獎勵</color>，不同關卡會有不同的通關獎勵，包括<color=#92fc63>角色、物資、材料、活動掉落</color>等。
+4 使用作戰全權委託書的作戰委託會為<color=#92fc63>部分任務增加任務進度</color>。
+5 使用作戰全權委託書的作戰委託將有機率出現<color=#92fc63>緊急委託</color>，一次作戰委託最多出現一個。
+6 作戰全權委託書也可在「兌換可用時間」介面中用於<color=#92fc63>增加當日的作戰委託可用時間</color>，每本作戰全權委託書可增加<color=#92fc63>1小時</color>的委託可用時間。]]
+		}
+	}
 }

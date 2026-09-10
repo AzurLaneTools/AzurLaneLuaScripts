@@ -14,9 +14,28 @@ slot0.ON_CRUSING = "CommissionInfoMediator.ON_CRUSING"
 slot0.GET_CLASS_RES = "CommissionInfoMediator:GET_CLASS_RES"
 slot0.FINISH_CLASS_ALL = "CommissionInfoMediator:FINISH_CLASS_ALL"
 slot0.GO_META_BOSS = "CommissionInfoMediator:GO_META_BOSS"
+slot0.GO_BATTLE = "CommissionInfoMediator.GO_BATTLE"
+slot0.ON_END_CHAPTER_AUTO = "CommissionInfoMediator.ON_END_CHAPTER_AUTO"
 
 slot0.register = function(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+	slot0:bind(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
+			chapterId = slot1,
+			callback = slot2
+		})
+	end)
+	slot0:bind(uv0.ON_END_CHAPTER_AUTO, function (slot0)
+		uv0:sendNotification(GAME.END_CHAPTER_AUTO, {
+			num = getProxy(ChapterAutoProxy):GetFinishedCnt()
+		})
+	end)
+	slot0:bind(uv0.GO_BATTLE, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+			chapterId = getProxy(ChapterProxy):getActiveChapter() and slot1.id,
+			mapIdx = slot1 and slot1:getConfig("map")
+		})
+	end)
 	slot0:bind(uv0.GO_META_BOSS, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLDBOSS)
 	end)
@@ -130,7 +149,10 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.EVENT_SHOW_AWARDS,
 		GAME.CANCEL_LEARN_TACTICS_DONE,
 		GAME.FINISH_TECHNOLOGY_DONE,
-		GAME.FINISH_QUEUE_TECHNOLOGY_DONE
+		GAME.FINISH_QUEUE_TECHNOLOGY_DONE,
+		GAME.START_CHAPTER_AUTO_DONE,
+		GAME.END_CHAPTER_AUTO_DONE,
+		GAME.ZERO_HOUR_OP_DONE
 	}
 end
 
@@ -242,6 +264,24 @@ slot0.handleNotification = function(slot0, slot1)
 					})
 				end
 			end)
+		elseif slot2 == GAME.END_CHAPTER_AUTO_DONE then
+			slot0:addSubLayers(Context.New({
+				viewComponent = ChapterAutoTotalRewardLayer,
+				mediator = ChapterAutoTotalRewardMediator,
+				data = {
+					rewards = slot3.awards,
+					totalTimes = slot3.allCnt,
+					finishTimes = slot3.finishCnt,
+					proficiency = slot3.proficiency,
+					onClose = function ()
+						uv0.viewComponent:OnUpdateChapterAuto()
+					end
+				}
+			}), true)
+		elseif slot2 == START_CHAPTER_AUTO_DONE then
+			slot0.viewComponent:OnUpdateChapterAuto()
+		elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
+			slot0.viewComponent:OnUpdateChapterAuto()
 		end
 	end
 end

@@ -75431,7 +75431,7 @@ _G.pg.base.ship_skin_template[202128] = {
 
 
 _G.pg.base.ship_skin_template[202129] = {
-	name = "貝爾法斯特改",
+	name = "貝爾法斯特.改",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,
@@ -115877,6 +115877,444 @@ _G.pg.base.ship_skin_template[301189] = {
 				}
 			}
 		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[301190] = {
+	name = "天津風",
+	shop_offset = "",
+	change_skin = "",
+	illustrator2 = -1,
+	desc = "陽炎級驅逐艦——天津風",
+	group_index = 0,
+	purchase_offset = "",
+	painting = "tianjinfeng",
+	lover_hand = "",
+	bg_sp = "",
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 14,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "",
+	ship_group = 30119,
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	skin_type = -1,
+	special_effects = "",
+	id = 301190,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "tianjinfeng",
+	l2d_se = "",
+	no_showing = "0",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 521,
+	get_showing = "",
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	shop_dynamic_hx = 0,
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.388,
+				0.9,
+				0
+			}
+		},
+		torpedo = {
+			{
+				-0.102,
+				0.023,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.724,
+				2.399,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.64,
+						2.45,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[301191] = {
+	name = "輕頷吹拂天津風",
+	illustrator2 = -1,
+	desc = "……據說只要這麼做，就能召喚出可以解答所有問題的狐……仙……唔！…………哈~擅自將吾喚醒之人……就是你嗎，凡人~？",
+	group_index = 1,
+	purchase_offset = "",
+	painting = "tianjinfeng_2",
+	lover_hand = "hand_1_02",
+	bg_sp = "",
+	shop_type_id = 29,
+	l2d_ignore_drag = 0,
+	hand_id = 14,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	ship_group = 30119,
+	bg = "602",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	skin_type = 0,
+	special_effects = "",
+	id = 301191,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "tianjinfeng_2",
+	l2d_se = "",
+	no_showing = "0",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71396,
+	voice_actor = 521,
+	illustrator = -1,
+	rarity_bg = "",
+	shop_dynamic_hx = 0,
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		10,
+		7,
+		2
+	},
+	change_skin = {
+		group = 30119,
+		action = "changeBlack",
+		next = 301192,
+		state = 4,
+		index = 1
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		-543.3,
+		-487,
+		0,
+		0.79
+	},
+	spine_offset_profile = {
+		-465.7,
+		-477,
+		0,
+		0.79
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.422,
+				0.883,
+				0
+			}
+		},
+		torpedo = {
+			{
+				-0.191,
+				-0.021,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.785,
+				2.427,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.64,
+						2.45,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		-485,
+		-640,
+		0,
+		0.91
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-467,
+				1365,
+				2,
+				-164,
+				0,
+				2
+			},
+			{
+				-852,
+				302,
+				1.8,
+				0,
+				-145,
+				2
+			},
+			{
+				-598,
+				-381,
+				2,
+				118,
+				0,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[301192] = {
+	name = "輕頷吹拂天津風",
+	illustrator2 = -1,
+	desc = "……據說只要這麼做，就能召喚出可以解答所有問題的狐……仙……唔！…………哈~擅自將吾喚醒之人……就是你嗎，凡人~？",
+	group_index = 2,
+	purchase_offset = "",
+	painting = "tianjinfeng_3",
+	lover_hand = "hand_1_02",
+	bg_sp = "",
+	shop_type_id = 29,
+	l2d_ignore_drag = 0,
+	hand_id = 14,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	ship_group = 30119,
+	bg = "602",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	skin_type = 0,
+	special_effects = "",
+	id = 301192,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "tianjinfeng_2",
+	l2d_se = "",
+	no_showing = "0",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 521,
+	get_showing = "",
+	illustrator = -1,
+	rarity_bg = "",
+	shop_dynamic_hx = 0,
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		10,
+		7,
+		2
+	},
+	change_skin = {
+		group = 30119,
+		action = "changeBlack",
+		next = 301191,
+		state = 4,
+		index = 2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		-22,
+		-1087,
+		0,
+		0.85
+	},
+	spine_offset_profile = {
+		43.5,
+		-1094.7,
+		0,
+		0.85
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				-0.27,
+				0.57,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.17,
+				0.09,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.18,
+				3.26,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.64,
+						2.45,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		33,
+		-1267.5,
+		0,
+		0.94
 	}
 }
 
@@ -285235,7 +285673,7 @@ _G.pg.base.ship_skin_template[900284] = {
 	lip_smoothing = 0,
 	l2d_animations = "",
 	lover_kiss = "lip02",
-	ship_group = 90284,
+	ship_group = 900284,
 	bg = "",
 	bgm = "",
 	spine_use_live2d = 0,
@@ -285375,7 +285813,7 @@ _G.pg.base.ship_skin_template[900285] = {
 	lip_smoothing = 0,
 	l2d_animations = "",
 	lover_kiss = "lip02",
-	ship_group = 90285,
+	ship_group = 900285,
 	bg = "",
 	bgm = "",
 	spine_use_live2d = 0,
@@ -285515,7 +285953,7 @@ _G.pg.base.ship_skin_template[900286] = {
 	lip_smoothing = 0,
 	l2d_animations = "",
 	lover_kiss = "lip02",
-	ship_group = 90286,
+	ship_group = 900286,
 	bg = "",
 	bgm = "",
 	spine_use_live2d = 0,
@@ -285655,7 +286093,7 @@ _G.pg.base.ship_skin_template[900287] = {
 	lip_smoothing = 0,
 	l2d_animations = "",
 	lover_kiss = "lip02",
-	ship_group = 90287,
+	ship_group = 900287,
 	bg = "",
 	bgm = "",
 	spine_use_live2d = 0,
@@ -286303,7 +286741,7 @@ _G.pg.base.ship_skin_template[900295] = {
 	lip_smoothing = 0,
 	l2d_animations = "",
 	lover_kiss = "lip03",
-	ship_group = 90295,
+	ship_group = 900295,
 	bg = "",
 	bgm = "",
 	spine_use_live2d = 0,
@@ -286434,7 +286872,7 @@ _G.pg.base.ship_skin_template[900296] = {
 	lip_smoothing = 0,
 	l2d_animations = "",
 	lover_kiss = "lip03",
-	ship_group = 90296,
+	ship_group = 900296,
 	bg = "",
 	bgm = "",
 	spine_use_live2d = 0,
@@ -286560,7 +286998,7 @@ _G.pg.base.ship_skin_template[900297] = {
 	lip_smoothing = 0,
 	l2d_animations = "",
 	lover_kiss = "lip03",
-	ship_group = 90297,
+	ship_group = 900297,
 	bg = "",
 	bgm = "",
 	spine_use_live2d = 0,
@@ -286686,7 +287124,7 @@ _G.pg.base.ship_skin_template[900298] = {
 	lip_smoothing = 0,
 	l2d_animations = "",
 	lover_kiss = "lip03",
-	ship_group = 90298,
+	ship_group = 900298,
 	bg = "",
 	bgm = "",
 	spine_use_live2d = 0,
