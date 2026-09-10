@@ -785,7 +785,7 @@ pg.base.activity_chasing_character = {}
 	}
 	pg.base.activity_chasing_character[6] = {
 		ai_pickup_weight = 5,
-		name = "白凤",
+		name = "{namecode:302}",
 		ai_predict_weight = 0,
 		type = 1,
 		resume_text = "交替移动和静止行动。追踪特化幽影，擅长锁定敌人当前位置持续移动。",

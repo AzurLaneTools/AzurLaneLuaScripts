@@ -77,7 +77,7 @@ return {
 		slot0 = {}
 
 		for slot5, slot6 in pairs(uv0.GetActivity():GetFavorabilityList()) do
-			if pg.activity_chasing_character[slot5].love_level[1][2] == slot6 and not pg.NewStoryMgr.GetInstance():IsPlayed(slot7.love_level_show[1]) then
+			if pg.activity_chasing_character[slot5].love_level[1][2] <= slot6 and not pg.NewStoryMgr.GetInstance():IsPlayed(slot7.love_level_show[1]) then
 				table.insert(slot0, slot5)
 			end
 		end

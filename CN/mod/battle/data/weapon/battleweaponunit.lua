@@ -956,7 +956,9 @@ slot9.setBulletOrb = function(slot0, slot1)
 	slot1:AppendAttachBuff({
 		buff_id = slot0._orbID,
 		rant = slot0._orbRant,
-		level = slot0._orbLevel
+		level = slot0._orbLevel,
+		buff_level = slot0._orbBuffLevel,
+		group_level = slot0._orbGroupLevel
 	})
 end
 
@@ -964,6 +966,8 @@ slot9.SetBulletOrbData = function(slot0, slot1)
 	slot0._orbID = slot1.buffID
 	slot0._orbRant = slot1.rant
 	slot0._orbLevel = slot1.level
+	slot0._orbBuffLevel = slot1.buff_level
+	slot0._orbGroupLevel = slot1.group_level
 end
 
 slot9.ShiftBarrage = function(slot0, slot1)
