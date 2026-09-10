@@ -8492,6 +8492,37 @@ _G.pg.base.item_data_statistics[11057] = {
 }
 
 
+_G.pg.base.item_data_statistics[11058] = {
+	open_directly = 0,
+	name = "4연장 610mm 어뢰改 T0 설계도",
+	type = 9,
+	display = "4연장 610mm 어뢰改 T0 설계도",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/35260",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[12000] = {
 	open_directly = 0,
 	name = "93식 산소어뢰 T3 설계도",

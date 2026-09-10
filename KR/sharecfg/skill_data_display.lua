@@ -2029,6 +2029,9 @@ pg.skill_data_display.all = {
 	152531,
 	152542,
 	152550,
+	152751,
+	152761,
+	152762,
 	152561,
 	152562,
 	152563,
@@ -12339,6 +12342,18 @@ end)()
 		id = 152550,
 		name = "그리폰 돌격"
 	}
+	pg.base.skill_data_display[152751] = {
+		id = 152751,
+		name = "구름을 꿰뚫는 바람"
+	}
+	pg.base.skill_data_display[152761] = {
+		id = 152761,
+		name = "거물의 위엄"
+	}
+	pg.base.skill_data_display[152762] = {
+		id = 152762,
+		name = "거물의 위엄"
+	}
 	pg.base.skill_data_display[152561] = {
 		id = 152561,
 		name = "데이터 스트림 스매시"
@@ -12627,6 +12642,8 @@ end)()
 		id = 18491,
 		name = "강공과 회답의 장막"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[18492] = {
 		id = 18492,
 		name = "강공과 회답의 장막"
@@ -12639,8 +12656,6 @@ end)()
 		id = 18495,
 		name = "강공과 회답의 장막"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[18500] = {
 		id = 18500,
 		name = "야심과 은택의 위엄 +"
@@ -13029,6 +13044,8 @@ end)()
 		id = 19393,
 		name = "불꽃 칼날"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19400] = {
 		id = 19400,
 		name = "거짓과 진실의 차이"
@@ -13041,8 +13058,6 @@ end)()
 		id = 19410,
 		name = "해신의 매력"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19420] = {
 		id = 19420,
 		name = "비추는 연못"
@@ -13431,6 +13446,8 @@ end)()
 		id = 19801,
 		name = "일족의 완벽주의"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19802] = {
 		id = 19802,
 		name = "일족의 완벽주의"
@@ -13443,8 +13460,6 @@ end)()
 		id = 19807,
 		name = "일족의 완벽주의"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19831] = {
 		id = 19831,
 		name = "신뢰성 기구·트러스티드 플랫폼"
@@ -13833,6 +13848,8 @@ end)()
 		id = 21222,
 		name = "전탄 발사 - 켄트급II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[21231] = {
 		id = 21231,
 		name = "전탄 발사 - 노포크급I"
@@ -13845,8 +13862,6 @@ end)()
 		id = 21241,
 		name = "전탄 발사 - 요크급I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[21242] = {
 		id = 21242,
 		name = "전탄 발사 - 요크급II"
@@ -14235,6 +14250,8 @@ end)()
 		id = 24113,
 		name = "전탄 발사III"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[24114] = {
 		id = 24114,
 		name = "전탄 발사 - 닝하이급Ⅳ"
@@ -14247,8 +14264,6 @@ end)()
 		id = 24122,
 		name = "전탄발사II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[24151] = {
 		id = 24151,
 		name = "전탄 발사 - 에밀 베르탱I"
@@ -14637,6 +14652,8 @@ end)()
 		id = 29341,
 		name = "특수탄막 - 알바코어I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[29342] = {
 		id = 29342,
 		name = "특수탄막 - 알바코어II"
@@ -14649,8 +14666,6 @@ end)()
 		id = 29361,
 		name = "전탄발사 - 시리우스 I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[29362] = {
 		id = 29362,
 		name = "전탄발사 - 시리우스 II"
@@ -15039,6 +15054,8 @@ end)()
 		id = 30271,
 		name = "특수 탄막 - 브렌누스Ⅰ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[30272] = {
 		id = 30272,
 		name = "특수 탄막 - 브렌누스Ⅱ"
@@ -15051,8 +15068,6 @@ end)()
 		id = 30292,
 		name = "특수 탄막 - 바야르Ⅱ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[30321] = {
 		id = 30321,
 		name = "특수 탄막 - 로데슈Ⅰ"
@@ -15441,6 +15456,8 @@ end)()
 		id = 104014,
 		name = "아이쨩 광선! "
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[104020] = {
 		id = 104020,
 		name = "위기회피! "
@@ -15453,8 +15470,6 @@ end)()
 		id = 104031,
 		name = "연결고리의 속박 "
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[104040] = {
 		id = 104040,
 		name = "절대적인 선언 "
@@ -15843,6 +15858,8 @@ end)()
 		id = 106341,
 		name = "lisianthus Halation +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[106343] = {
 		id = 106343,
 		name = "lisianthus Halation +"
@@ -15855,8 +15872,6 @@ end)()
 		id = 106383,
 		name = "여우 코스프레"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[106385] = {
 		id = 106385,
 		name = "여우 코스프레"
@@ -16245,6 +16260,8 @@ end)()
 		id = 108141,
 		name = "바람을 타고"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[108150] = {
 		id = 108150,
 		name = "하늘로 비상하자"
@@ -16257,8 +16274,6 @@ end)()
 		id = 108210,
 		name = "그리드 빔+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[108213] = {
 		id = 108213,
 		name = "맥스 그리드 빔+"
@@ -16647,6 +16662,8 @@ end)()
 		id = 110142,
 		name = "자빙폭쇄"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[110150] = {
 		id = 110150,
 		name = "자빙폭쇄+"
@@ -16659,8 +16676,6 @@ end)()
 		id = 110152,
 		name = "자빙폭쇄+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[110160] = {
 		id = 110160,
 		name = "베베땅, 나 좀 숨겨줘!"
@@ -17049,6 +17064,8 @@ end)()
 		id = 112282,
 		name = "아이솔레이션"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[112290] = {
 		id = 112290,
 		name = "알버의 응원+"
@@ -17061,8 +17078,6 @@ end)()
 		id = 112292,
 		name = "아이솔레이션"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[114101] = {
 		id = 114101,
 		name = "별의 정역"
@@ -17451,6 +17466,8 @@ end)()
 		id = 600050,
 		name = "균형 붕괴"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[600060] = {
 		id = 600060,
 		name = "스콜피언 미스트"
@@ -17463,8 +17480,6 @@ end)()
 		id = 600070,
 		name = "스콜피언 미스트"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[600071] = {
 		id = 600071,
 		name = "치명적 찌르기"
@@ -17853,6 +17868,8 @@ end)()
 		id = 800281,
 		name = "핏빛 기억의 연회"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800295] = {
 		id = 800295,
 		name = "빛을 쫓는 화염·그나이제나우I"
@@ -17865,8 +17882,6 @@ end)()
 		id = 800300,
 		name = "유람의 날개"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800310] = {
 		id = 800310,
 		name = "매의 협공"
@@ -18255,6 +18270,8 @@ end)()
 		id = 800885,
 		name = "염추의 재 - 알제리Ⅰ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800887] = {
 		id = 800887,
 		name = "염추의 재 - 알제리Ⅱ"
@@ -18267,8 +18284,6 @@ end)()
 		id = 800921,
 		name = "활짝 핀 불굴의 꽃"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800941] = {
 		id = 800941,
 		name = "신중하고 용감한 선택"
@@ -18657,6 +18672,8 @@ end)()
 		id = 801973,
 		name = "운명에 대한 주시"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801980] = {
 		id = 801980,
 		name = "과거에 대한 추억"
@@ -18669,8 +18686,6 @@ end)()
 		id = 802011,
 		name = "전장에 익숙한 기사"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[802012] = {
 		id = 802012,
 		name = "전장에 익숙한 기사"
@@ -19059,6 +19074,8 @@ end)()
 		id = 200171,
 		name = "코어 지원-연소 Lv2"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200172] = {
 		id = 200172,
 		name = "코어 지원-연소 Lv2"
@@ -19071,8 +19088,6 @@ end)()
 		id = 200176,
 		name = "코어 지원-연소 Lv3"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200180] = {
 		id = 200180,
 		name = "코어 지원-부상 Lv1"
@@ -19461,6 +19476,8 @@ end)()
 		id = 200888,
 		name = "기쁨의 가호"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200892] = {
 		id = 200892,
 		name = "브레이브 차지"
@@ -19473,8 +19490,6 @@ end)()
 		id = 295003,
 		name = "시작과 끝의 가호"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[295004] = {
 		id = 295004,
 		name = "어둠과 음모의 가호"
@@ -19863,6 +19878,8 @@ end)()
 		id = 201756,
 		name = "흑일의 비상"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201757] = {
 		id = 201757,
 		name = "흑일의 비상"
@@ -19875,8 +19892,6 @@ end)()
 		id = 201759,
 		name = "신광의 그물"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201760] = {
 		id = 201760,
 		name = "신광의 그물"
@@ -20265,6 +20280,8 @@ end)()
 		id = 1011004,
 		name = "영용포격+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[10150570] = {
 		id = 10150570,
 		name = "심연에서 꿈틀거리는 마성+"
@@ -20277,8 +20294,6 @@ end)()
 		id = 10150601,
 		name = "들핀 에코즈+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[10150640] = {
 		id = 10150640,
 		name = "신비로운 용약+"
@@ -20667,6 +20682,8 @@ end)()
 		id = 1010800,
 		name = "5항전+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1010801] = {
 		id = 1010801,
 		name = "5항전+"
@@ -20679,8 +20696,6 @@ end)()
 		id = 1090042,
 		name = "1센트 동전(소량)"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090043] = {
 		id = 1090043,
 		name = "1센트 동전(보통)"

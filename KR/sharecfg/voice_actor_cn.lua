@@ -2002,6 +2002,10 @@ end)()
 		actor_name = "후쿠즈미 사야",
 		code = 516
 	}
+	pg.base.voice_actor_CN[521] = {
+		actor_name = "츠무기 리사",
+		code = 521
+	}
 	pg.base.voice_actor_CN[517] = {
 		actor_name = "아마기 샐리",
 		code = 517
@@ -2010,12 +2014,12 @@ end)()
 		actor_name = "이토 마오",
 		code = 518
 	}
+end)()
+(function ()
 	pg.base.voice_actor_CN[519] = {
 		actor_name = "하루세 나츠미",
 		code = 519
 	}
-end)()
-(function ()
 	pg.base.voice_actor_CN[520] = {
 		actor_name = "후나토 유리에",
 		code = 520

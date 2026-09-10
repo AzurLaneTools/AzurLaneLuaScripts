@@ -230,6 +230,13 @@ temp = function()
 					}
 				}
 			},
+			["츠"] = {
+				["카"] = {
+					["제"] = {
+						this = true
+					}
+				}
+			},
 			["기"] = {
 				this = true
 			},
@@ -899,10 +906,8 @@ temp()
 
 temp = function()
 	uv0["콜"] = {
-		["레"] = {
-			["트"] = {
-				this = true
-			}
+		["렛"] = {
+			this = true
 		},
 		["로"] = {
 			["라"] = {

@@ -331,7 +331,9 @@ slot0.initUI = function(slot0)
 	slot0:buildCommanderPanel()
 
 	slot0.levelRemasterView = LevelRemasterView.New(slot0.topPanel, slot0.event, slot0.contextData)
+	slot0.chapterAutoDetailPanel = ChapterAutoDetailPanel.New(slot0.topPanel, slot0.event, slot0.contextData)
 
+	slot0.chapterAutoDetailPanel:RegisterView(slot0)
 	slot0:SwitchMapBuilder(MapBuilder.TYPENORMAL)
 end
 
@@ -385,6 +387,16 @@ slot0.initEvents = function(slot0)
 	slot0:bind(LevelUIConst.SET_MAP, function (slot0, slot1)
 		uv0:setMap(slot1)
 	end)
+end
+
+slot0.onZeroHourRefresh = function(slot0)
+	if slot0.levelInfoView:isShowing() then
+		slot0.levelInfoView:RefreshChapterAutoPanel()
+	end
+
+	if slot0.levelInfoSPView and slot0.levelInfoSPView:isShowing() then
+		slot0.levelInfoView:RefreshChapterAutoPanel()
+	end
 end
 
 slot0.addbubbleMsgBox = function(slot0, slot1)
@@ -751,6 +763,10 @@ slot0.onBackPressed = function(slot0)
 	end
 
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
+
+	if slot0.chapterAutoDetailPanel:isShowing() then
+		slot0:HideChapterAutoDetailPanel()
+	end
 
 	if slot0.levelInfoView:isShowing() then
 		slot0:hideChapterPanel()
@@ -3567,6 +3583,48 @@ slot0.IsActShopActive = function(slot0)
 	end
 end
 
+slot0.OnStartChapterAuto = function(slot0, slot1)
+	if slot0.levelInfoView:isShowing() then
+		slot0:hideChapterPanel()
+	end
+
+	if slot0.levelInfoSPView and slot0.levelInfoSPView:isShowing() then
+		slot0:HideLevelInfoSPPanel()
+	end
+end
+
+slot0.OnEndChapterAuto = function(slot0, slot1)
+end
+
+slot0.OnAddChapterAutoTimeDone = function(slot0)
+	if slot0.levelInfoView:isShowing() then
+		slot0.levelInfoView:RefreshChapterAutoPanel()
+	end
+
+	if slot0.levelInfoSPView and slot0.levelInfoSPView:isShowing() then
+		slot0.levelInfoView:RefreshChapterAutoPanel()
+	end
+end
+
+slot0.ShowChapterAutoDetailPanel = function(slot0, slot1)
+	slot0.chapterAutoDetailPanel:Load()
+	slot0.chapterAutoDetailPanel:ActionInvoke("Enter", slot1)
+end
+
+slot0.HideChapterAutoDetailPanel = function(slot0)
+	if slot0.chapterAutoDetailPanel:isShowing() then
+		slot0.chapterAutoDetailPanel:Hide()
+	end
+end
+
+slot0.DestroyChapterAutoDetailPanel = function(slot0)
+	if slot0.chapterAutoDetailPanel then
+		slot0.chapterAutoDetailPanel:Destroy()
+
+		slot0.chapterAutoDetailPanel = nil
+	end
+end
+
 slot0.willExit = function(slot0)
 	slot0:ClearMapTransitions()
 	slot0.loader:Clear()
@@ -3601,6 +3659,7 @@ slot0.willExit = function(slot0)
 	slot0:destroyStrikeAnim()
 	slot0:destroyTracking()
 	slot0:destroyUIAnims()
+	slot0:DestroyChapterAutoDetailPanel()
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad_mark", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell", "")

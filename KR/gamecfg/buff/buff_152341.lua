@@ -326,7 +326,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 1300,
+					number = 1380,
 					attr = "loadSpeed"
 				}
 			}

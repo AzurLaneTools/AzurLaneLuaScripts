@@ -390,6 +390,7 @@ pg.skill_data_template.all = {
 	61110,
 	61120,
 	61130,
+	61140,
 	7000,
 	9030,
 	9031,
@@ -1452,6 +1453,8 @@ pg.skill_data_template.all = {
 	152530,
 	152540,
 	152550,
+	152750,
+	152760,
 	152560,
 	152570,
 	152580,
@@ -2198,6 +2201,8 @@ pg.skill_data_template.all = {
 	30642,
 	30661,
 	30662,
+	30701,
+	30702,
 	30671,
 	30672,
 	30681,
@@ -3099,6 +3104,7 @@ pg.skill_data_template.all = {
 	1012570,
 	1013470,
 	1014660,
+	1012580,
 	1019160,
 	1014990,
 	1013140,
@@ -13899,6 +13905,20 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[61140] = {
+		desc_get = "",
+		name = "하늘 바람의 주머니",
+		type = 0,
+		max_level = 0,
+		desc = "아마츠카제가 장착하면 전투가 시작된 후 60초간 회피율이 2% 상승한다.",
+		id = 61140,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[7000] = {
 		desc_get = "",
 		name = "라인 연습",
@@ -14543,6 +14563,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[9110] = {
 		desc_get = "",
 		name = "대공 배치",
@@ -14649,8 +14671,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[9120] = {
 		desc_get = "",
 		name = "",
@@ -21726,6 +21746,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[10950] = {
 		desc_get = "항속이 3(최고 레벨 시 8) 증가하고, 포격 수치가 15.0% 상승한다.",
 		name = "상무의 혼 ",
@@ -21823,8 +21845,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[10960] = {
 		desc_get = "출격 시 아군 함대 특형 구축함의 포격 및 기동 15% (MAX 30%), 뇌장 4%(MAX 10%) 상승",
 		name = "특형 네임쉽!",
@@ -30100,6 +30120,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[11940] = {
 		desc_get = "",
 		name = "하늘과바다의 관측자",
@@ -30206,8 +30228,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[11950] = {
 		desc_get = "",
 		name = "부동항의 협주곡",
@@ -39616,6 +39636,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[13010] = {
 		desc_get = "",
 		name = "정확한 유도",
@@ -39767,8 +39789,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[13020] = {
 		desc_get = "",
 		name = "얼어붙은 칼날",
@@ -49293,6 +49313,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[14010] = {
 		desc_get = "",
 		name = "Z 파일럿",
@@ -49399,8 +49421,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[14020] = {
 		desc_get = "",
 		name = "호위 엘리트",
@@ -60655,6 +60675,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[15010] = {
 		desc_get = "",
 		name = "침입의 쉴드",
@@ -60752,8 +60774,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[15020] = {
 		desc_get = "",
 		name = "파죽지세",
@@ -72540,6 +72560,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[16020] = {
 		desc_get = "",
 		name = "전쟁의 비극·改",
@@ -72684,8 +72706,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[16030] = {
 		desc_get = "",
 		name = "정해경뢰",
@@ -84025,6 +84045,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[17030] = {
 		desc_get = "",
 		name = "인간 세상을 위한 멸악",
@@ -84212,8 +84234,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[17040] = {
 		desc_get = "",
 		name = "구름 그림자 속의 배회",
@@ -95106,6 +95126,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[150070] = {
 		desc_get = "",
 		name = "무겁…지?",
@@ -95212,8 +95234,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[150080] = {
 		desc_get = "",
 		name = "에페만 버티면…",
@@ -106420,6 +106440,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[151050] = {
 		desc_get = "",
 		name = "익스플로레이션 워드",
@@ -106526,8 +106548,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[151060] = {
 		desc_get = "",
 		name = "BIG BEN",
@@ -118324,6 +118344,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[152020] = {
 		desc_get = "",
 		name = "아픔이여 날아가라",
@@ -118385,8 +118407,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[152030] = {
 		desc_get = "",
 		name = "영광과 죽음을 향한 돌진",
@@ -123680,6 +123700,344 @@ end)()
 				},
 				{
 					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152750] = {
+		desc_get = "",
+		name = "구름을 꿰뚫는 바람",
+		type = 1,
+		max_level = 10,
+		desc = "전투 시작 시 뇌장이 $1 상승하고, 아군 함대에 자신 외의 사쿠라 엠파이어 함선이 있다면 추가로 자신의 어뢰 장비 크리티컬율이 $2 상승한다. 전투 중 자신의 어뢰 공격 시 특수 탄막 $3을 전개하고(위력은 스킬 레벨에 따라 다름, 10초에 1회만 발동), 추가로 $4의 확률로 어뢰를 추가 발사한다. 이 특수 탄막이 명중한 적은 1초간 항속이 0이 되고, 이후 0.5초에 걸쳐 항속이 서서히 원래대로 돌아온다. 또한 해당 적은 항속이 0이 되는 순간, 특수 침수 상태가 되어 6초간 지속 피해를 받는다(위력은 아마츠카제의 뇌장 능력치에 따라 다름).",
+		id = 152750,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[152760] = {
+		desc_get = "",
+		name = "거물의 위엄",
+		type = 2,
+		max_level = 10,
+		desc = "전투 시작 시 기동이 $1 상승한다. \n 전투 중 피해를 받아 내구가 최대치의 30% 미만이 될 시 1회에 한해 발동하여, 4초간 모든 피해를 회피한다. 4초 후에는 자신의 내구가 최대치의 15%만큼 회복되고, 전투 종료까지 [자신이 주는 피해량 10% 감소] 효과를 얻는다. 전투 중 피해를 받을 때 $2의 확률로 1회만 발동하며, 전투 종료까지 [받는 피해 $3 감소, 피해를 받을 때 $1의 확률로 해당 피해를 1로 만듦] 효과를 얻는다.",
+		id = 152760,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
 				}
 			}
 		}
@@ -129537,6 +129895,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19001] = {
 		desc_get = "",
 		name = "안티 세이렌II",
@@ -129626,8 +129986,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19020] = {
 		desc_get = "",
 		name = "푸른 바다의 여신",
@@ -139915,6 +140273,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19976] = {
 		desc_get = "",
 		name = "金狮-基地航空属性-ID占位",
@@ -140272,8 +140632,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[190030] = {
 		desc_get = "",
 		name = "하늘을 가르는 고룡의 날개",
@@ -142087,6 +142445,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[21231] = {
 		desc_get = "",
 		name = "전탄 발사 - 노포크급I",
@@ -142129,8 +142489,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[21242] = {
 		desc_get = "",
 		name = "전탄 발사 - 요크급II",
@@ -143489,6 +143847,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[24062] = {
 		desc_get = "",
 		name = "전탄 발사 II",
@@ -143531,8 +143891,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[24121] = {
 		desc_get = "",
 		name = "전탄발사I",
@@ -144891,6 +145249,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29122] = {
 		desc_get = "",
 		name = "전탄 발사 - 유다치II",
@@ -144933,8 +145293,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29132] = {
 		desc_get = "",
 		name = "전탄 발사 - 유키카제II",
@@ -146301,6 +146659,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29652] = {
 		desc_get = "",
 		name = "특수 탄막-알바코어(μ장비)II",
@@ -146343,8 +146703,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29671] = {
 		desc_get = "",
 		name = "특수 탄막-U37I ",
@@ -147703,6 +148061,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30182] = {
 		desc_get = "",
 		name = "특수 탄막 - 플래셔Ⅱ",
@@ -147745,8 +148105,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30201] = {
 		desc_get = "",
 		name = "특수 탄막 - 오그네보이Ⅰ",
@@ -149071,6 +149429,34 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[30701] = {
+		desc_get = "",
+		name = "특수 탄막 - 아마츠카제Ⅰ",
+		type = 1,
+		max_level = 1,
+		desc = "주포 공격을 12회 실시할 때마다 특수 탄막 - 아마츠카제Ⅰ을 전개한다.",
+		id = 30701,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[30702] = {
+		desc_get = "",
+		name = "특수 탄막 - 아마츠카제Ⅱ",
+		type = 1,
+		max_level = 1,
+		desc = "주포 공격을 8회 실시할 때마다 특수 탄막 - 아마츠카제Ⅱ를 전개한다.",
+		id = 30702,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[30671] = {
 		desc_get = "",
 		name = "특수 탄막 - 콜렛Ⅰ",
@@ -149085,6 +149471,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30672] = {
 		desc_get = "",
 		name = "특수 탄막 - 콜렛Ⅱ",
@@ -149339,8 +149727,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[101030] = {
 		desc_get = "",
 		name = "실트 브레이크",
@@ -157701,6 +158087,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106500] = {
 		desc_get = "",
 		name = "강사의 책임",
@@ -158090,8 +158478,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106550] = {
 		desc_get = "",
 		name = "백발백중+",
@@ -165488,6 +165874,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[110010] = {
 		desc_get = "전투 시작 시 아군 함대에 '섬란 카구라' 콜라보 캐릭터가 1명 있을 때마다 자신의 크리티컬 피해량이 $1 상승한다(최대 3회까지 가산 가능). \n전투 중 12초마다 내구가 가장 낮은 적에게 '섬란 카구라' 콜라보 캐릭터가 주는 피해량이 $2 상승하는 효과를 부여하고, [쌍도추참] 특수 공격 $3를 실시한다(위력은 스킬 레벨 및 포격, 뇌장 능력치에 따라 다름). 해당 특수 공격 전개 시 전장에 적이 1개체만 존재할 경우, 해당 특수 공격은 반드시 크리티컬 피해를 입힌다. $4",
 		name = "쌍도추참",
@@ -166288,8 +166676,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[110060] = {
 		desc_get = "전투 중 25초마다 3초 동안 이동하지 않고 특수 탄막 $1(위력은 스킬 레벨에 따라 다름) 및 비전인법 [절화봉황섬] $2를 전개한다(위력은 스킬 레벨에 따라 다름). \n스킬 [열공봉섬]의 효과로 이동을 멈춘 경우, 자신의 내구 최대치의 3%만큼 피해를 무효화하는 실드를 3초 동안 생성한다. 해당 효과로 생성된 실드가 소멸할 경우, 특수 참격 $3를 1회 실시한다(위력은 스킬 레벨에 따라 다름).",
 		name = "열공봉섬+",
@@ -174887,6 +175273,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[115140] = {
 		desc_get = "",
 		name = "시간을 먹는 성",
@@ -175399,8 +175787,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[115190] = {
 		desc_get = "",
 		name = "신위영장 1번 (에흐예)",
@@ -181355,6 +181741,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800390] = {
 		desc_get = "",
 		name = "다시 찾아온 재난",
@@ -181525,8 +181913,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800417] = {
 		desc_get = "",
 		name = "일렁이는 불꽃·{namecode:79}II",
@@ -186464,6 +186850,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800940] = {
 		desc_get = "",
 		name = "신중하고 용감한 선택",
@@ -186634,8 +187022,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800960] = {
 		desc_get = "",
 		name = "화염을 일으키는 인",
@@ -191868,6 +192254,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801485] = {
 		desc_get = "",
 		name = "염추의 재·줄리오 체사레Ⅰ",
@@ -192110,8 +192498,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801521] = {
 		desc_get = "",
 		name = "일렁이는 불꽃 - 다이호Ⅰ",
@@ -197287,6 +197673,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802047] = {
 		desc_get = "",
 		name = "섬멸의 횃불 - 클리블랜드Ⅱ",
@@ -197583,8 +197971,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802075] = {
 		desc_get = "",
 		name = "염추의 재 - 카라비니에레Ⅰ",
@@ -201394,6 +201780,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1010730] = {
 		desc_get = "",
 		name = "귀신 +",
@@ -201993,8 +202381,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1012670] = {
 		desc_get = "",
 		name = "Fuoco di Copertura！+",
@@ -214978,6 +215364,114 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
+	pg.base.skill_data_template[1012580] = {
+		desc_get = "",
+		name = "기관 금지 ",
+		type = 3,
+		max_level = 10,
+		desc = "공습 시 $1 확률로 발동(매 전투 첫 공습 시 반드시 발동). 모든 적의 항속이 $2초 동안 0이 되며, 이후 2.5초에 걸쳐 점차 효과가 감소한 뒤 해제된다. ",
+		id = 1012580,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"80.0%"
+			},
+			{
+				"0.5",
+				"1.5"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+3.3%"
+				},
+				{
+					"53.3%",
+					"+3.3%"
+				},
+				{
+					"56.6%",
+					"+3.3%"
+				},
+				{
+					"59.9%",
+					"+3.3%"
+				},
+				{
+					"63.2%",
+					"+3.3%"
+				},
+				{
+					"66.5%",
+					"+3.3%"
+				},
+				{
+					"69.8%",
+					"+3.3%"
+				},
+				{
+					"73.1%",
+					"+3.3%"
+				},
+				{
+					"76.4%",
+					"+3.6%"
+				},
+				{
+					"80%"
+				}
+			},
+			{
+				{
+					"0.5",
+					"+0.1"
+				},
+				{
+					"0.6",
+					"+0.1"
+				},
+				{
+					"0.7",
+					"+0.1"
+				},
+				{
+					"0.8",
+					"+0.1"
+				},
+				{
+					"0.9",
+					"+0.1"
+				},
+				{
+					"1.0",
+					"+0.1"
+				},
+				{
+					"1.1",
+					"+0.1"
+				},
+				{
+					"1.2",
+					"+0.1"
+				},
+				{
+					"1.3",
+					"+0.2"
+				},
+				{
+					"1.5"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[1019160] = {
 		desc_get = "",
 		name = "Heavy Barrel Blaster +",
@@ -215654,8 +216148,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1019260] = {
 		desc_get = "",
 		name = "세밀한 조작 협의 +",

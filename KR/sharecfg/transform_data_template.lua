@@ -16716,7 +16716,12 @@ end)()
 	pg.base.transform_data_template[11511] = {
 		level_limit = 85,
 		name = "근대화 개수",
-		descrip = "",
+		descrip = [[
+개조(근대화 개수) 완료. 대공 +60
+[주포 포좌 +1], [어뢰 탑재량 +1], [대공포 포좌 +1]
+<color=#92fc63>[연막살포·경순]</color> 스킬이 <color=#92fc63>[연막 살포·벨파스트]</color>로 업그레이드.
+<color=#92fc63>[전탄 발사 - 벨파스트II]</color> 스킬이 <color=#92fc63>[전탄 발사 - 벨파스트III]</color>로 업그레이드.
+무기 효율 130%/155%/120%로 조정.]],
 		max_level = 1,
 		skin_id = 202129,
 		use_ship = 1,

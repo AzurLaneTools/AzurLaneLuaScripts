@@ -42,7 +42,10 @@ pg.activity_series_enemy.all = {
 	6005,
 	1001001,
 	1001002,
-	1001003
+	1001003,
+	1002001,
+	1002002,
+	1002003
 }
 pg.base = pg.base or {}
 pg.base.activity_series_enemy = {}
@@ -2900,6 +2903,181 @@ pg.base.activity_series_enemy = {}
 			{
 				2,
 				58837
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
+		}
+	}
+	pg.base.activity_series_enemy[1002001] = {
+		oil = 0,
+		name = "사무동",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "쉬움",
+		pos_x = "0.10703125",
+		pos_y = "0.157291667",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = [[
+「사무동에 오신 것을 환영합니다」
+「진취적인 시간을 보내기를」
+「시간에 구애받지 않기를」
+「동심을 영원히 잃지 않기를」]],
+		collection_group_id = 104,
+		whether_singlefight = 0,
+		id = 1002001,
+		limitation = {},
+		expedition_id = {
+			1819101
+		},
+		boss_icon = {
+			{
+				"youeryuan_boss05",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				200174
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[1002002] = {
+		oil = 0,
+		name = "교실동",
+		type = 1,
+		pre_chapter = 1002001,
+		chapter_name = "보통",
+		pos_x = "0.34609375",
+		pos_y = "0.347916667",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+「교실동에 오신 것을 환영합니다」
+「스트레스 없는 시간을 보내기를」
+「지식의 바다에서 마음껏 헤엄치기를」
+「동심을 영원히 잃지 않기를」]],
+		collection_group_id = 105,
+		whether_singlefight = 1,
+		id = 1002002,
+		limitation = {},
+		expedition_id = {
+			1819201,
+			1819202
+		},
+		boss_icon = {
+			{
+				"youeryuan_boss05",
+				5
+			},
+			{
+				"youeryuan_boss03",
+				7
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				200175
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	}
+	pg.base.activity_series_enemy[1002003] = {
+		oil = 0,
+		name = "예술동",
+		type = 1,
+		pre_chapter = 1002002,
+		chapter_name = "어려움",
+		pos_x = "0.50546875",
+		pos_y = "0.080208333",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+「예술동에 오신 것을 환영합니다」
+「다채로운 시간을 보내기를」
+「늘 초심을 유지하기를」
+「동심을 영원히 잃지 않기를」]],
+		collection_group_id = 106,
+		whether_singlefight = 1,
+		id = 1002003,
+		limitation = {},
+		expedition_id = {
+			1819301,
+			1819302,
+			1819303
+		},
+		boss_icon = {
+			{
+				"youeryuan_boss05",
+				5
+			},
+			{
+				"youeryuan_boss03",
+				7
+			},
+			{
+				"youeryuan_boss04",
+				3
+			}
+		},
+		pass_awards_display = {
+			{
+				2,
+				200176
 			},
 			{
 				2,

@@ -1,4 +1,5 @@
 slot0 = class("LevelInfoView", import("..base.BaseSubView"))
+slot0.CHAPTER_GUIDE_NAME = "CHAPTER_AUTO_GUIDE"
 
 slot0.getUIName = function(slot0)
 	return "LevelStageInfoView"
@@ -30,6 +31,18 @@ end
 slot0.Show = function(slot0)
 	setActive(slot0._tf, true)
 	slot0:BlurPanel(slot0._tf)
+	slot0:CheckGuide()
+end
+
+slot0.CheckGuide = function(slot0)
+	slot2 = pg.chapter_auto_statistics[slot0.chapter.id]
+
+	if ChapterAutoProxy.IsSystemOpen() and slot2 and not pg.NewStoryMgr.GetInstance():IsPlayed(uv0.CHAPTER_GUIDE_NAME) then
+		pg.NewGuideMgr.GetInstance():Play(uv0.CHAPTER_GUIDE_NAME)
+		pg.m02:sendNotification(GAME.STORY_UPDATE, {
+			storyId = uv0.CHAPTER_GUIDE_NAME
+		})
+	end
 end
 
 slot0.Hide = function(slot0)
@@ -82,7 +95,9 @@ slot0.InitUI = function(slot0)
 	end)
 	setActive(slot0.trDropTpl, false)
 
+	slot0.btnAuto = slot0._tf:Find("panel/auto_button")
 	slot0.btnConfirm = slot0._tf:Find("panel/start_button")
+	slot0.btnConfirm_l = slot0._tf:Find("panel/start_button_l")
 	slot0.btnCancel = slot0._tf:Find("panel/btnBack")
 	slot0.quickPlayGroup = slot0._tf:Find("panel/quickPlay")
 	slot0.descQuickPlay = slot0.quickPlayGroup:Find("desc")
@@ -214,7 +229,7 @@ slot0.set = function(slot0, slot1, slot2)
 		setActive(slot0.head.parent, false)
 	end
 
-	slot0.awards = slot0:getChapterAwards()
+	slot0.awards = uv2.getChapterAwards(slot0.chapter)
 
 	slot0.dropList:align(#slot0.awards)
 
@@ -297,6 +312,9 @@ slot0.set = function(slot0, slot1, slot2)
 
 		uv0.onConfirm(uv2, uv1 and uv0.loopOn.gameObject.activeSelf and 1 or 0)
 	end, SFX_UI_WEIGHANCHOR_GO)
+	onButton(slot0, slot0.btnConfirm_l, function ()
+		triggerButton(uv0.btnConfirm)
+	end, SFX_UI_WEIGHANCHOR_GO)
 	onButton(slot0, slot0.btnCancel, function ()
 		if uv0.onCancel then
 			uv0.onCancel()
@@ -357,6 +375,32 @@ slot0.set = function(slot0, slot1, slot2)
 		table.insert(slot0.delayTween, LeanTween.scale(slot13, Vector3(1, 1, 1), 0.2).uniqueId)
 		table.insert(slot0.delayTween, LeanTween.moveX(slot0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
 	end
+
+	slot0:UpdateChapterAutoBtn()
+end
+
+slot0.UpdateChapterAutoBtn = function(slot0)
+	slot1 = pg.chapter_auto_statistics[slot0.chapter.id]
+	slot2 = ChapterAutoProxy.IsSystemOpen()
+
+	setActive(slot0.btnAuto, slot1)
+	setActive(slot0.btnConfirm, slot1)
+	setActive(slot0.btnConfirm_l, not slot1)
+
+	if not slot1 then
+		return
+	end
+
+	setGray(slot0.btnAuto, not (slot2 and slot0.chapter:isClear() and getProxy(ChapterAutoProxy):GetRecord(ChapterAutoProxy.TYPE.SLG, slot0.chapter.id) > 0), true)
+	onButton(slot0, slot0.btnAuto, function ()
+		if uv0 then
+			uv1:ShowChapterAutoPanel()
+		elseif uv2 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_chapter_unlock_tip"))
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_battle_unlock_tip"))
+		end
+	end, SFX_PANEL)
 end
 
 slot0.cancelTween = function(slot0)
@@ -403,28 +447,27 @@ slot0.updateDrop = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.getChapterAwards = function(slot0)
-	slot1 = slot0.chapter
-	slot2 = Clone(slot1:getConfig("awards"))
+	slot1 = Clone(slot0:getConfig("awards"))
 
-	if slot1:getStageExtraAwards() then
-		for slot7 = #slot3, 1, -1 do
-			table.insert(slot2, 1, slot3[slot7])
+	if slot0:getStageExtraAwards() then
+		for slot6 = #slot2, 1, -1 do
+			table.insert(slot1, 1, slot2[slot6])
 		end
 	end
 
-	slot4 = {
-		slot1:getConfig("boss_expedition_id"),
-		slot1:getConfig("ai_expedition_list")
+	slot3 = {
+		slot0:getConfig("boss_expedition_id"),
+		slot0:getConfig("ai_expedition_list")
 	}
 
-	if slot1:getPlayType() == ChapterConst.TypeMultiStageBoss then
-		table.insert(slot4, pg.chapter_model_multistageboss[slot1.id].boss_expedition_id)
+	if slot0:getPlayType() == ChapterConst.TypeMultiStageBoss then
+		table.insert(slot3, pg.chapter_model_multistageboss[slot0.id].boss_expedition_id)
 	end
 
+	slot5 = {}
 	slot6 = {}
-	slot7 = {}
 
-	slot8 = function(slot0)
+	slot7 = function(slot0)
 		for slot4, slot5 in ipairs(uv0) do
 			if slot5 == slot0 then
 				return false
@@ -434,38 +477,38 @@ slot0.getChapterAwards = function(slot0)
 		return true
 	end
 
-	slot9 = {}
+	slot8 = {}
 
-	for slot13, slot14 in ipairs(_.flatten(slot4)) do
-		if checkExist(pg.expedition_activity_template[slot14], {
+	for slot12, slot13 in ipairs(_.flatten(slot3)) do
+		if checkExist(pg.expedition_activity_template[slot13], {
 			"pt_drop_display"
-		}) and type(slot15) == "table" then
-			for slot19, slot20 in ipairs(slot15) do
-				slot21 = slot20[1]
-				slot23 = slot20[3]
+		}) and type(slot14) == "table" then
+			for slot18, slot19 in ipairs(slot14) do
+				slot20 = slot19[1]
+				slot22 = slot19[3]
 
-				if slot8(slot20[2]) then
-					table.insert(slot6, slot22)
+				if slot7(slot19[2]) then
+					table.insert(slot5, slot21)
 
-					slot7[slot22] = {}
+					slot6[slot21] = {}
 				end
 
-				slot7[slot22][slot21] = true
-				slot9[slot22] = slot9[slot22] or {}
-				slot9[slot22][slot21] = slot23
+				slot6[slot21][slot20] = true
+				slot8[slot21] = slot8[slot21] or {}
+				slot8[slot21][slot20] = slot22
 			end
 		end
 	end
 
-	slot10 = getProxy(ActivityProxy)
+	slot9 = getProxy(ActivityProxy)
 
-	for slot14 = #slot6, 1, -1 do
-		for slot18, slot19 in pairs(slot7[slot6[slot14]]) do
-			if slot10:getActivityById(slot18) and not slot20:isEnd() then
-				table.insert(slot2, 1, {
+	for slot13 = #slot5, 1, -1 do
+		for slot17, slot18 in pairs(slot6[slot5[slot13]]) do
+			if slot9:getActivityById(slot17) and not slot19:isEnd() then
+				table.insert(slot1, 1, {
 					DROP_TYPE_ITEM,
-					id2ItemId(slot6[slot14]),
-					slot9[slot6[slot14]][slot18]
+					id2ItemId(slot5[slot13]),
+					slot8[slot5[slot13]][slot17]
 				})
 
 				break
@@ -473,7 +516,7 @@ slot0.getChapterAwards = function(slot0)
 		end
 	end
 
-	return slot2
+	return slot1
 end
 
 slot0.initTestShowDrop = function(slot0, slot1, slot2)
@@ -530,6 +573,30 @@ slot0.ClearChapterRewardPanel = function(slot0)
 	end
 end
 
+slot0.ShowChapterAutoPanel = function(slot0)
+	if slot0.autoPanel == nil then
+		slot0.autoPanel = ChapterAutoPanel.New(slot0._tf, slot0.event, slot0.contextData)
+
+		slot0.autoPanel:Load()
+	end
+
+	slot0.autoPanel:ActionInvoke("Enter", slot0.chapter)
+end
+
+slot0.RefreshChapterAutoPanel = function(slot0)
+	if slot0.autoPanel and slot0.autoPanel:isShowing() then
+		slot0.autoPanel:ActionInvoke("RefreshView")
+	end
+end
+
+slot0.ClearChapterAutoPanel = function(slot0)
+	if slot0.autoPanel ~= nil then
+		slot0.autoPanel:Destroy()
+
+		slot0.autoPanel = nil
+	end
+end
+
 slot0.clear = function(slot0)
 	slot0:cancelTween()
 	slot0.dropList:each(function (slot0, slot1)
@@ -537,6 +604,7 @@ slot0.clear = function(slot0)
 	end)
 	slot0:clearTestShowDrop()
 	slot0:ClearChapterRewardPanel()
+	slot0:ClearChapterAutoPanel()
 end
 
 return slot0

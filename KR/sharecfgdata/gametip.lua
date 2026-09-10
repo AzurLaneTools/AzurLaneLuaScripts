@@ -4988,6 +4988,11 @@ _G.pg.base.gametip.levelScene_activate_remaster_1 = {
 }
 
 
+_G.pg.base.gametip.levelScene_activate_remaster_auto = {
+	tip = "스테이지에 출격하려면 <color=#ffde38>데이터 키×$1</color>개가 필요합니다. \n출격하시겠습니까?"
+}
+
+
 _G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "데이터 키가 부족합니다."
 }
@@ -13585,6 +13590,16 @@ _G.pg.base.gametip.tag_level_bomb = {
 }
 
 
+_G.pg.base.gametip.tag_level_autoing = {
+	tip = "위임 중"
+}
+
+
+_G.pg.base.gametip.tag_level_auto_finish = {
+	tip = "완료"
+}
+
+
 _G.pg.base.gametip.ui_word_levelui2_inevent = {
 	tip = "작전 중"
 }
@@ -13680,32 +13695,32 @@ _G.pg.base.gametip.md5_error = {
 _G.pg.base.gametip.world_boss_help = {
 	tip = {
 		{
-			info = "<color=#92fc63>★ 플레이 방법</color>"
+			info = "<color=#92fc63>★플레이 방법</color>"
 		},
 		{
-			info = "이벤트 「신춘 주옥 명품회」는 <color=#92fc63>「Pt 아이템」</color>을 모아 작전을 진척시키면, 개인 합계 포인트 보상 및 작전 진척 보상을 얻을 수 있는 이벤트입니다. "
+			info = "이벤트 「『거물』의 예고장」은 <color=#92fc63>「대단하고 귀여운 빨간 리본(연습 포인트)」</color>를 모아 작전을 진척시키면, 개인 합계 포인트 보상 및 작전 진척 보상을 얻을 수 있는 이벤트입니다. "
 		},
 		{
 			info = [[
-이벤트 기간 중에는 적 함대를 상대로 싸우는 「공투」 특별 스테이지가 등장합니다. 
-작전을 완수하려면 지휘관끼리 서로 협력하여 「Pt 아이템」을 모아서 작전을 진척시켜야<color=#92fc63>(내구 게이지가 0%에 도달)</color> 합니다. 
+이벤트 기간 중에는 적 함대를 상대로 싸우는 「연습 작전」 특별 스테이지가 등장합니다. 
+작전을 완수하려면 지휘관끼리 서로 협력하여 「연습 포인트」를 모아서 작전을 진척시켜야<color=#92fc63>(연습 게이지가 0%에 도달)</color> 합니다. 
 작전이 성공한 경우, 작전에 참가한 지휘관에게는 보상으로 특별 장비가 우편으로 지급됩니다. 
 ※ 우편 수가 1,000통을 초과하면 보상 우편을 받지 못할 우려가 있으므로 주의하시기 바랍니다. 
-(내구 게이지가 <color=#92fc63>0%</color>에 도달하더라도 계속해서 특별 스테이지에 도전하면 「Pt 아이템」을 획득할 수 있습니다.)]]
+(연습 게이지가 <color=#92fc63>0%</color>에 도달하더라도 계속해서 특별 스테이지에 도전하면 「연습 포인트」를 획득할 수 있습니다.)]]
 		},
 		{
 			info = [[
-<color=#92fc63>- Pt 아이템에 대해 -</color>
-1. 특별 스테이지를 클리어하면 「Pt 아이템」을 획득할 수 있습니다. 
-2. 작전의 진척도는 동일 서버 내 모든 지휘관이 획득한 「Pt 아이템」의 합계에 의해 좌우됩니다. 
-3. 내구 게이지가 0%에 도달하면 작전 성공으로 간주됩니다. 작전 진척도는 서버마다 별개로 계산됩니다. 
-4. 이벤트 기간 중에 획득한 「Pt 아이템」의 합계에 따라 이벤트 배너에서 「포인트 합계 보상」을 획득할 수 있습니다. ]]
+<color=#92fc63>- 연습 포인트에 대해 -</color>
+1. 특별 스테이지를 클리어하면 「연습 포인트」를 획득할 수 있습니다. 
+2. 작전의 진척도는 동일 서버 내 모든 지휘관이 획득한 「연습 포인트」의 합계에 의해 좌우됩니다. 
+3. 연습 게이지가 0%에 도달하면 작전 성공으로 간주됩니다. 작전 진척도는 서버마다 별개로 계산됩니다. 
+4. 이벤트 기간 중에 획득한 「연습 포인트」의 합계에 따라 이벤트 배너에서 「포인트 합계 보상」을 획득할 수 있습니다. ]]
 		},
 		{
 			info = [[
 <color=#92fc63>- 특별 스테이지에 대해 -</color>
 1. 특별 스테이지는 난이도에 따라 「이지」, 「노멀」, 「하드」, 「EX」의 4종류가 있습니다. 
-2. 「EX」 이외의 난이도에서 얻을 수 있는 Pt 아이템은 고정되어 있고, 「EX」에서는 전투 중에 가한 총 피해량에 따라 Pt 아이템
+2. 「EX」 이외의 난이도에서 얻을 수 있는 연습 포인트는 고정되어 있고, 「EX」에서는 전투 중에 가한 총 피해량에 따라 연습 포인트
 및 보상이 달라집니다. 
 3. 특별 스테이지는 일반적인 함대와는 다른 <color=#92fc63>「특별 연습 편성」</color>을 사용합니다(스테이지 출격 시에 편성 가능). 
 4. 특별 스테이지의 출격 및 승리 시에는 일반 해역 출격 시와 마찬가지로 연료 및 컨디션을 소모합니다. 또한, 승리 시에는 경험치 및 일반 클리어 보상 획득과 함께, 컨디션이 증감합니다. 
@@ -13772,26 +13787,59 @@ _G.pg.base.gametip.levelScene_loop_help_tip = {
 	tip = {
 		{
 			info = [[
-해역 <color=#92fc63>100%</color> 달성 후 <color=#92fc63>주회 모드</color>를 오픈할 수 있습니다.
+해역 공략 게이지가 100%에 도달하면, 해역 선택 화면에서 같은 스테이지를 <color=#92fc63>「주회 모드」</color>로 설정할 수 있게 됩니다. 
 
-"주회 모드"의 특징은 아래와 같습니다:
-1. 일부 메인 해역에  <color=#92fc63>소모량 상한</color>이 설정됩니다. 이 상태에서, 함대 작전에 필요한 연료 중 <color=#92fc63>상한을 초과한 부분</color>은 감면됩니다.
-2. 메인 스테이지의 어려움 모드 스테이지에서, 적 호위함대가<color=#92fc63>출현하지 않게 됩니다</color>.
-3. 이벤트 스테이지의 적 배치 및 행동 로직이 변화합니다.
-4. 이벤트 스테이지에서 아군의<color=#92fc63> 이동 제한이 해제되며</color>, 해역 지도에서 자유롭게 이동할 수 있습니다.
-5. 메인 스테이지 중 <color=#92fc63>매복과 공습은 취소됩니다.</color>
-6. 스테이지 내에서는 <color=#92fc63>편대 고정</color> 모드가 오픈됩니다.
-7. 스테이지 내 <color=#92fc63>자동 공략</color> 모드가 오픈됩니다.
+「주회 모드」의 특징은 다음과 같습니다.
+1. 주회 모드에서만, 적 함대와 전투 시 적과의 「연료 소모 상한」이 적용됩니다. 아군 수상 함대와 잠수 지원의 연료 소모량이 「연료 소모 상한」을 초과하더라도, 실제 연료 소모량은 「연료 소모 상한」에 따라 적용됩니다.
+2.메인 스테이지의 하드 모드에서는 적 호위 함대가 <color=#92fc63>출현하지 않습니다</color>. 
+3. 이벤트 스테이지의 적 배치 및 행동 로직이 변경됩니다. 
+4. 이벤트 스테이지에서 아군의 <color=#92fc63>이동 제한이 해제되어</color> 해역 맵을 자유롭게 이동할 수 있습니다. 
+5. 노멀 해역에서는 「공습」과 「매복」이 출현하지 않습니다.
+6. 주회 모드에서는 「출격 확인 Skip」 기능을 사용할 수 있습니다.
+7. 주회 모드에서는 <color=#92fc63>자동 공략 모드</color> 기능을 사용할 수 있습니다.
 
-<color=#92fc63>자동 공략</color> 모드:
-1. <color=#92fc63>자동 공략</color>은 주회 모드에서만 오픈되며, 주회 모드 첫 설정 시,자동 공략 모드가 자동 설정됩니다.
-2. 자동 공략이 오픈되면서 <color=#92fc63>자율 전투</color>와 <color=#92fc63>편대 고정</color> 기능 또한 자동 설정됩니다. 잠수함 자동 호출 기능은 자동 설정되지 않습니다.
-3. 자동 공략 설정 후, 함대 선택 화면에서 함대 기능을 설정할 수 있습니다. 함대 기능은 총 4가지로 구분됩니다:
-①<color=#92fc63>도중 전투</color>: 해당 함대는 도중 전투만 진행합니다(<color=#92fc63>기함이 아닌 적과 전투</color>). 한 함대를 도중 전투로 설정 시, 다른 함대는 기함 전투로 자동 설정됩니다.
-②<color=#92fc63>기함 전투</color>: 적 기함 출현 후, 해당 함대로 전환되어 기함과 전투를 진행합니다. 한 함대를 기함 전투로 설정 시, 다른 함대는 도중 전투로 자동 설정됩니다.
-③<color=#92fc63>전부 전투</color>: 도중에 만나는 적, 적 기함과 모든 전투를 진행합니다. 한 함대를 전부 전투로 설정 시, 다른 함대는 대기 상태로 자동 설정됩니다.
-④<color=#92fc63>대기</color>: 전투에 참여하지 않고, 원위치에 대기합니다. 한 함대를 대기 설정 시, 다른 함대는 전부 전투로 자동 설정됩니다.
-4. 자동 공략 모드 중, 스테이이지에 정예 함대가 있을 경우, <color=#92fc63>정예 함대</color>를 우선 공격합니다. 정예 함대가 없을 경우, 아군으로부터 <color=#92fc63>가장 가까운 적</color>을 공격합니다. 적 기함이 출현할 경우, <color=#92fc63>적 기함</color>을 최우선으로 공격합니다.]]
+자동 공략 모드에 대하여
+자동 공략 모드에서는 함대 이동, 전투 확인, 전투, 전투 결과 화면 확인이 자동으로 진행됩니다. 자동 공략 모드의 ON/OFF는 <color=#92fc63>해역 선택 화면 하단의 체크박스</color>와 <color=#92fc63>맵 화면 오른쪽 하단의 버튼</color>에서 설정할 수 있습니다.
+
+자동 공략 모드에서는 함대가 다음과 같이 행동합니다.
+・적을 향해 <color=#92fc63>자동으로</color> 이동하여 전투를 시작합니다.
+・전투를 시작할 적의 우선 순위는 <color=#92fc63>[보스 함대 ＞ 엘리트 함대 ＞ 가까운 양산형 함대]</color>입니다.
+・함대의 행동은 출격 준비 화면의 「자동 설정」에서 다음 네 가지로 설정할 수 있습니다.
+
+ 도중 전투: <color=#92fc63>보스 함대를 제외한 함대</color>에만 전투를 겁니다. 행동 함대로 해역을 이동하며 전투합니다.
+ 보스 전투: <color=#92fc63>보스 함대</color>에만 전투를 겁니다. 보스 함대가 출현하면 행동 함대로 전환할 수 있습니다.
+ 전체 전투: <color=#92fc63>적 함대 전체</color>에 전투를 겁니다.
+ 대기: 적 함대와 전투하지 않으며 이동하지 않습니다.
+
+※ 출격 함대가 2개일 경우에는 「도중 전투」와 「보스 전투」, 또는 「전체 전투」와 「대기」로 조합해야 합니다.
+ 출격 함대가 1개뿐인 경우에는 「전체 전투」로 자동 설정됩니다.
+
+・전투 중에는 잠수 지원을 하지 않습니다.
+・자동 공략 모드는 수동으로 중지하거나 다음 상황에서 중지됩니다.
+ 함선의 컨디션이 저하된 경우
+ 물자가 보유 상한을 초과한 경우
+ 전투에 필요한 연료가 부족한 경우
+ 도크가 가득 찬 경우
+ 전투에서 패배한 경우(또는 함대를 유지할 수 없는 경우)
+ 새로운 함선을 도감에 등록한 경우
+
+<color=#92fc63>작전 위임</color>에 대하여
+
+작전 위임은 한 번 클리어한 스테이지의 공략(주회)을 위임하고, 일정 시간이 지나면 위임 보상을 받을 수 있는 기능입니다. 지휘관이 게임에 로그인하지 않아도 작전 위임은 <color=#92fc63>중단되지 않고 자동으로 진행</color>됩니다. 
+1. 스테이지의 작전 위임 기능을 오픈하려면 <color=#92fc63>한번도 중단하지 않고 연속 출격 모드로 해당 스테이지를 1회 클리어</color>해야 합니다. 
+2. 작전 위임 1회에 소요되는 시간은 앞서 <color=#92fc63>중단 없이 연속 출격 모드로 1회 클리어</color>했을 때 걸린 최단 시간입니다. (<color=#92fc63>주력함대의 주포 공격 시간은 소요 시간에 포함되지 않습니다</color>. 또한 소요 시간 집계는 작전 위임 기능이 도입된 이후부터 적용됩니다.) 
+3. 하루에 작전 위임을 수행할 수 있는 시간의 상한인 <color=#92fc63>「위임 가능 시간」은 8시간</color>입니다. 「위임 가능 시간」이 부족하면 작전 위임을 진행할 수 없습니다. 작전 위임을 진행하면 <color=#92fc63>소요 시간만큼 「위임 가능 시간」을 소비</color>합니다. 「위임 가능 시간」의<color=#92fc63> 잔여 시간이 1회에 필요한 시간보다 부족하더라도, 한 번에 한해 작전 위임을 수행할 수 있습니다</color>. 「위임 가능 시간」은 <color=#92fc63>매일 0시</color>에 초기화됩니다. 
+4. 작전 위임 진행 중에는 <color=#92fc63>메인 해역, 이벤트 해역, 상시 이벤트 해역 등</color>에 출격할 수 없습니다. 
+5. 작전 위임의 보상은 기본적으로 대강당 숙련도만 획득할 수 있습니다. 단, <color=#92fc63>아이템 「작전 전권 위임장」을 소비하면 추가 보상을 획득</color>할 수 있습니다. 
+
+<color=#92fc63>작전 전권 위임장</color>에 대하여
+
+1. 작전 전권 위임장을 사용하면 <color=#92fc63>작전 위임 시 추가 보상을 획득</color>할 수 있습니다. 작전 전권 위임장 1개당 <color=#92fc63>작전 위임 1회</color>의 추가 보상을 받을 수 있습니다. 작전 전권 위임장은 <color=#92fc63>데일리 미션</color> 등에서 획득할 수 있습니다. 
+2. 작전 전권 위임장을 사용하면 작전 위임 진행 시 <color=#92fc63>추가로 연료를 소비</color>합니다. 
+3. 작전 전권 위임장으로 획득하는 추가 보상은 <color=#92fc63>작전 위임한 스테이지의 클리어 보상</color>에 따라 달라집니다. <color=#92fc63>함선, 물자, 재료 및 일부 아이템</color>이 출현합니다. 
+4. 작전 전권 위임장을 소비해 작전 위임을 진행하면 <color=#92fc63>일부 임무의 임무 진척도가 증가</color>합니다. 
+5. 작전 전권 위임장을 소비해 작전 위임을 진행하면 일정 확률로 <color=#92fc63>긴급 군사 의뢰</color>가 출현합니다. (작전 위임 1회당 최대 1개) 
+6. 「위임 가능 시간 보충」 화면에서는 작전 전권 위임장을 소비해 <color=#92fc63>당일의 위임 가능 시간을 증가</color>시킬 수 있습니다. 작전 전권 위임장 1개당 <color=#92fc63>1시간</color>의 위임 가능 시간이 추가됩니다. ]]
 		}
 	}
 }
@@ -34860,6 +34908,11 @@ _G.pg.base.gametip.main_silent_tip_6 = {
 }
 
 
+_G.pg.base.gametip.main_silent_tip_7 = {
+	tip = "작전 위임이 완료되었습니다."
+}
+
+
 _G.pg.base.gametip.commission_label_go = {
 	tip = "확인"
 }
@@ -34887,6 +34940,11 @@ _G.pg.base.gametip.commission_label_unlock_event_tip = {
 
 _G.pg.base.gametip.commission_label_unlock_tech_tip = {
 	tip = "지휘관 Lv.30 달성 시 오픈"
+}
+
+
+_G.pg.base.gametip.commission_label_unlock_auto_tip = {
+	tip = "메인 해역 1-3 클리어 시 오픈"
 }
 
 
@@ -50602,4 +50660,315 @@ _G.pg.base.gametip.LeMarsReSkinPage_reward_title = {
 
 _G.pg.base.gametip.LeMarsReSkinPage_reward_target = {
 	tip = "현재 연료 소비:"
+}
+
+
+_G.pg.base.gametip.event_worldboss_0827_title = {
+	tip = "특별 연습"
+}
+
+
+_G.pg.base.gametip.event_worldboss_0827_title_en = {
+	tip = "JOINT OPERATION"
+}
+
+
+_G.pg.base.gametip.auto_battle_unlock_tip = {
+	tip = "메인 해역 1-3 클리어 시 오픈"
+}
+
+
+_G.pg.base.gametip.auto_chapter_unlock_tip = {
+	tip = "「연속 출격」에 완전 자동으로 스테이지 1회 클리어 시 오픈"
+}
+
+
+_G.pg.base.gametip.auto_battle_headline = {
+	tip = "작전 위임"
+}
+
+
+_G.pg.base.gametip.auto_battle_headline_en = {
+	tip = "Operational Handover"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_day = {
+	tip = "$1일"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_hour = {
+	tip = "$1시간"
+}
+
+
+_G.pg.base.gametip.auto_battle_cnt = {
+	tip = "작전 횟수"
+}
+
+
+_G.pg.base.gametip.auto_battle_dec_en = {
+	tip = "HANDOVER."
+}
+
+
+_G.pg.base.gametip.auto_battle_time_limit_reached = {
+	tip = "남은 위임 시간이 부족합니다."
+}
+
+
+_G.pg.base.gametip.auto_battle_cnt_book = {
+	tip = "위임장 사용"
+}
+
+
+_G.pg.base.gametip.auto_battle_book_max_reached = {
+	tip = "위임장이 부족합니다."
+}
+
+
+_G.pg.base.gametip.auto_battle_book_times_reached = {
+	tip = "작전 위임 횟수 상한에 도달했습니다."
+}
+
+
+_G.pg.base.gametip.auto_battle_time_left = {
+	tip = "작전 소요 시간"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_time = {
+	tip = "위임 가능 시간"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_extra = {
+	tip = "다음 자원이 추가로 소모됩니다."
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_oil = {
+	tip = "<color=#92fc63><icon name=oil w=0.6 h=0.6/>연료×$1</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_cost_book = {
+	tip = "<color=#92fc63><icon name=weituo w=0.55 h=0.55/>작전 전권 위임장×$1</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_add_time = {
+	tip = "위임 가능 시간 보충"
+}
+
+
+_G.pg.base.gametip.auto_battle_base_loot = {
+	tip = "위임 획득"
+}
+
+
+_G.pg.base.gametip.auto_battle_class_exp_head = {
+	tip = "대강당 숙련도"
+}
+
+
+_G.pg.base.gametip.auto_battle_extra_loot = {
+	tip = "위임 추가 획득"
+}
+
+
+_G.pg.base.gametip.auto_battle_extra_loot_lock = {
+	tip = "작전 위임 시 아이템을 추가로 획득 가능"
+}
+
+
+_G.pg.base.gametip.auto_battle_oil_store_tip = {
+	tip = "<color=#92fc63><icon name=oil w=0.6 h=0.6/>연료 $1</color>개를 다음 위임으로 넘깁니다."
+}
+
+
+_G.pg.base.gametip.auto_battle_confirm_button = {
+	tip = "출격"
+}
+
+
+_G.pg.base.gametip.auto_battle_times_zero = {
+	tip = "위임 횟수를 설정하세요."
+}
+
+
+_G.pg.base.gametip.auto_battle_start_tips = {
+	tip = "작전 위임 개시"
+}
+
+
+_G.pg.base.gametip.auto_battle_not_enough_resource = {
+	tip = "자원이 부족해서 위임할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.auto_battle_base_exp_warning = {
+	tip = "한도를 초과한 대강당 숙련도는 무효 처리됩니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.auto_battle_info_tips = {
+	tip = "※ 작전 위임 시 위임 가능 시간을 소모하여 대강당 숙련도를 획득할 수 있습니다. 전권 위임장을 사용하면 추가 보상도 획득할 수 있습니다.\n※ 위임 1회당 소모 시간은 「연속 출격」으로 스테이지를 완전 자동 클리어한 최단 기록을 기준으로 합니다. (주력함대의 주포 공격 시간 제외)"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_headline = {
+	tip = "정보"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_headline_en = {
+	tip = "INFORM"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_info = {
+	tip = "남은 위임 가능 시간: <color=#ffffff>$1</color>     +   <color=#92fc63>$2</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_item_lack = {
+	tip = "아이템이 부족합니다."
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_cancel = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_confirm = {
+	tip = "확정"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_zero_item = {
+	tip = "사용 아이템 선택"
+}
+
+
+_G.pg.base.gametip.auto_battle_time_add_success = {
+	tip = "위임 가능 시간을 보충했습니다."
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_headline = {
+	tip = "작전 위임 중"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_time = {
+	tip = "남은 시간 <color=#92fc63>$1</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_cnt = {
+	tip = "완료 횟수 <color=#92fc63>$1/$2</color>"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_base_loot = {
+	tip = "1회 획득"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_stop = {
+	tip = "위임 중지"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_finish = {
+	tip = "보상 수령"
+}
+
+
+_G.pg.base.gametip.auto_battle_ing_stop_tips = {
+	tip = "작전 위임을 중지하시겠습니까? 완성 횟수만큼 보상을 획득하고, 사용하지 않은 아이템은 반환됩니다. (소비하지 않은 연료는 다음 작전 위임 시에 소비할 수 있습니다.)"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_book_expired = {
+	tip = "반환되는 작전 위임장은 유효 기한이 경과되어 삭제됩니다. 작전 위임을 중지하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_classEXP_overflow = {
+	tip = "한도를 초과한 대강당 숙련도는 무효 처리됩니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.auto_battle_drop_bookEXP_overflow = {
+	tip = "소지 한도를 초과한 함선 연습 데이터 T1은 파기됩니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.auto_battle_stop = {
+	tip = "작전 위임이 중지되었습니다."
+}
+
+
+_G.pg.base.gametip.auto_battle_finish = {
+	tip = "작전 위임이 완료되었습니다."
+}
+
+
+_G.pg.base.gametip.auto_battle_end_exp = {
+	tip = "대강당 숙련도 <color=#92fc63>$1</color>을 획득했습니다."
+}
+
+
+_G.pg.base.gametip.auto_battle_end_status = {
+	tip = "작전 완성 예정 횟수 <color=#92fc63>$1</color>회. 작전 완성 횟수 <color=#92fc63>$2</color>회."
+}
+
+
+_G.pg.base.gametip.auto_battle_book_expire_warning = {
+	tip = "x$1 종료 임박"
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation = {
+	tip = "스테이지 <color=#92fc63>$1</color>의 작전 위임이 진행 중입니다. 위임이 종료될 때까지 잠시 기다려 주세요."
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation_cancle = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.auto_drop_is_activation_go = {
+	tip = "위임 확인"
+}
+
+
+_G.pg.base.gametip.auto_battle_help = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>작전 위임</color>에 대해
+
+작전 위임은 한 번 클리어한 스테이지의 공략(주회)을 위임하고, 일정 시간이 지나면 위임 보상을 획득할 수 있는 기능입니다. 지휘관이 게임에 로그인하지 않아도 작전 위임은 <color=#92fc63>중단되지 않고 자동으로 진행</color>됩니다. 
+1. 스테이지의 작전 위임 기능을 오픈하려면 <color=#92fc63>한번도 중단하지 않고 연속 출격 모드로 해당 스테이지를 1회 클리어</color>해야 합니다. 
+2. 작전 위임 1회에 소요되는 시간은 앞서 <color=#92fc63>중단 없이 연속 출격 모드로 1회 클리어</color>했을 때 걸린 최단 시간입니다. (<color=#92fc63>주력함대의 주포 공격 시간은 소요 시간에 포함되지 않습니다</color>. 또한 소요 시간 집계는 작전 위임 기능이 도입된 이후부터 적용됩니다.) 
+3. 하루에 작전 위임을 수행할 수 있는 시간의 상한인 <color=#92fc63>「위임 가능 시간」은 8시간</color>입니다. 「위임 가능 시간」이 부족하면 작전 위임을 진행할 수 없습니다. 작전 위임을 진행하면 <color=#92fc63>소요 시간만큼 「위임 가능 시간」을 소비</color>합니다. 「위임 가능 시간」의<color=#92fc63> 잔여 시간이 1회에 필요한 시간보다 부족하더라도, 한 번에 한해 작전 위임을 수행할 수 있습니다</color>. 「위임 가능 시간」은 <color=#92fc63>매일 0시</color>에 초기화됩니다. 
+4. 작전 위임 진행 중에는 <color=#92fc63>메인 해역, 이벤트 해역, 상시 이벤트 해역 등</color>에 출격할 수 없습니다. 
+5. 작전 위임의 보상은 기본적으로 대강당 숙련도만 획득할 수 있습니다. 단, <color=#92fc63>아이템 「작전 전권 위임장」을 소비하면 추가 보상을 획득</color>할 수 있습니다. 
+
+<color=#92fc63>작전 전권 위임장</color>에 대하여
+
+1. 작전 전권 위임장을 사용하면 <color=#92fc63>작전 위임 시 추가 보상을 획득</color>할 수 있습니다. 작전 전권 위임장 1개당 <color=#92fc63>작전 위임 1회</color>의 추가 보상을 받을 수 있습니다. 작전 전권 위임장은 <color=#92fc63>데일리 미션</color> 등에서 획득할 수 있습니다. 
+2. 작전 전권 위임장을 사용하면 작전 위임 진행 시 <color=#92fc63>추가로 연료를 소비</color>합니다. 
+3. 작전 전권 위임장으로 획득하는 추가 보상은 <color=#92fc63>작전 위임한 스테이지의 클리어 보상</color>에 따라 달라집니다. <color=#92fc63>함선, 물자, 재료 및 일부 아이템</color>이 출현합니다. 
+4. 작전 전권 위임장을 소비해 작전 위임을 진행하면 <color=#92fc63>일부 임무의 임무 진척도가 증가</color>합니다. 
+5. 작전 전권 위임장을 소비해 작전 위임을 진행하면 일정 확률로 <color=#92fc63>긴급 군사 의뢰</color>가 출현합니다. (작전 위임 1회당 최대 1개) 
+6. 「위임 가능 시간 보충」 화면에서는 작전 전권 위임장을 소비해 <color=#92fc63>당일의 위임 가능 시간을 증가</color>시킬 수 있습니다. 작전 전권 위임장 1개당 <color=#92fc63>1시간</color>의 위임 가능 시간이 추가됩니다. ]]
+		}
+	}
 }

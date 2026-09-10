@@ -72,6 +72,7 @@ pg.dorm3d_furniture_template.all = {
 	1461,
 	1462,
 	1463,
+	1468,
 	2101,
 	2102,
 	2103,
@@ -164,7 +165,8 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		1415,
 		1461,
 		1462,
-		1463
+		1463,
+		1468
 	},
 	[21] = {
 		2101,
@@ -1908,7 +1910,7 @@ pg.base.dorm3d_furniture_template = {}
 		type = 4,
 		room_id = 14,
 		desc = "프라이빗하고 로맨틱한 비밀 공간. 붉은 벨벳 침구와 슬라이드식 캐노피 커튼이 밤에 고요함과 따뜻함을 더해 준다.",
-		is_exclusive = 0,
+		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
 		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture1",
@@ -1942,7 +1944,7 @@ pg.base.dorm3d_furniture_template = {}
 		type = 6,
 		room_id = 14,
 		desc = "매끄럽고 평평한 상판을 가진 클래식한 디자인의 책상. 튼튼하고 수납 기능도 갖추고 있어 학습이나 업무에 안성맞춤.",
-		is_exclusive = 0,
+		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_study01",
 		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture2",
@@ -1976,7 +1978,7 @@ pg.base.dorm3d_furniture_template = {}
 		type = 5,
 		room_id = 14,
 		desc = "천연가죽 소재를 사용하여 화려하면서도 절제된 인상을 주는 소파. 일상 속의 안락함과 운치를 한껏 즐길 수 있다.",
-		is_exclusive = 0,
+		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_living01",
 		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture3",
@@ -2002,6 +2004,40 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/livingroom"
+		}
+	}
+	pg.base.dorm3d_furniture_template[1468] = {
+		rarity = 5,
+		name = "두근거리는 순간",
+		type = 99,
+		room_id = 14,
+		desc = "화려하고 매혹적인, 열정과 로맨스로 가득한 욕조. 격렬한 물결 속에 숨은 감정의 고조를 온몸으로 느껴보자.",
+		is_exclusive = 1,
+		model = "Pay_Aijierhostel/pre_db_aijier_special01",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture4",
+		acesses = "",
+		id = 1468,
+		target_slots = {
+			1140104
+		},
+		touch_id = {
+			{
+				49905,
+				4990570
+			}
+		},
+		shop_id = {
+			270604
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1468"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/entertainment"
 		}
 	}
 	pg.base.dorm3d_furniture_template[2101] = {

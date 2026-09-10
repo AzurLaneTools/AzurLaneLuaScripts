@@ -4271,6 +4271,11 @@ pg.memory_template.all = {
 	5400,
 	5401,
 	5402,
+	5411,
+	5412,
+	5413,
+	5414,
+	5415,
 	10000,
 	10001,
 	10002,
@@ -81457,6 +81462,96 @@ end)()
 			"BINHAIJISU22"
 		}
 	}
+	pg.base.memory_template[5411] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "화려한 예고장",
+		condition = "이벤트 페이지로 이동",
+		story = "DARENWUDEYUGAOXIN1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5411,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN1"
+		}
+	}
+	pg.base.memory_template[5412] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "첫 번째 문지기",
+		condition = "「『거물』의 예고장」 작전 진척 25%",
+		story = "DARENWUDEYUGAOXIN2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5412,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN2"
+		}
+	}
+	pg.base.memory_template[5413] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "두 번째 문지기",
+		condition = "「『거물』의 예고장」 작전 진척 50%",
+		story = "DARENWUDEYUGAOXIN3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5413,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN3"
+		}
+	}
+	pg.base.memory_template[5414] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "거물의 정체",
+		condition = "「『거물』의 예고장」 작전 진척 75%",
+		story = "DARENWUDEYUGAOXIN4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5414,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN4"
+		}
+	}
+	pg.base.memory_template[5415] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "범인은 바로 곁에",
+		condition = "「『거물』의 예고장」 작전 진척 100%",
+		story = "DARENWUDEYUGAOXIN5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5415,
+		icon = "memory_darenwudeyugaoxin",
+		is_open = 0,
+		unlock_pre = {
+			"DARENWUDEYUGAOXIN5"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81961,6 +82056,8 @@ end)()
 			"TEACHER6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10035] = {
 		ship_group = 0,
 		subtitle = "",
@@ -82051,8 +82148,6 @@ end)()
 			"NEPU_DAILY4"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10040] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83763,6 +83858,8 @@ end)()
 			"LINGHANGYUANTANXIN6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20058] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83853,8 +83950,6 @@ end)()
 			"LINGHANGYUANTANXIN11"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20063] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85565,6 +85660,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA9"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20159] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85655,8 +85752,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA14"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20164] = {
 		ship_group = 0,
 		subtitle = "",

@@ -1,14 +1,15 @@
 slot0 = class("MainSilentView", import("view.base.BaseSubView"))
-slot7 = {
+slot8 = {
 	"noti_1",
 	"noti_2",
 	"noti_1",
 	"noti_1",
 	"noti_1",
+	"noti_1",
 	"noti_1"
 }
-slot8 = 1
-slot9 = 2
+slot9 = 1
+slot10 = 2
 
 slot0.getUIName = function(slot0)
 	return "MainSilentViewUI"
@@ -272,6 +273,7 @@ slot0.CollectTips = function(slot0, slot1)
 	slot0:CollectTechTips(slot1)
 	slot0:CollectStudentTips(slot1)
 	slot0:CollectIslandTips(slot1)
+	slot0:CollectChapterAutoTips(slot1)
 end
 
 slot0.CollectEventTips = function(slot0, slot1)
@@ -348,6 +350,17 @@ slot0.CollectIslandTips = function(slot0, slot1)
 	end
 end
 
+slot0.CollectChapterAutoTips = function(slot0, slot1)
+	slot3, slot4 = getProxy(ChapterAutoProxy):GetCntInfo()
+
+	if slot4 > 0 and slot3 == slot4 then
+		table.insert(slot1, {
+			count = slot4,
+			type = uv0
+		})
+	end
+end
+
 slot0.FlushBattery = function(slot0)
 	if SystemInfo.batteryLevel < 0 then
 		slot1 = 1
@@ -384,7 +397,7 @@ slot0.FlushTime = function(slot0)
 	end)
 end
 
-slot10 = {
+slot11 = {
 	"MONDAY",
 	"TUESDAY",
 	"WEDNESDAY",
@@ -393,7 +406,7 @@ slot10 = {
 	"SATURDAY",
 	"SUNDAY"
 }
-slot11 = {
+slot12 = {
 	"JAN",
 	"FEB",
 	"MAR",

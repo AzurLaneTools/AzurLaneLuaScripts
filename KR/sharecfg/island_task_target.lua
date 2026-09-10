@@ -5602,7 +5602,7 @@ end)()
 	pg.base.island_task_target[200150011] = {
 		tips = "",
 		jump_ui = "11",
-		name = "시즌 상점의 스킨 획득",
+		name = "시즌 상점의 스킨 획득 - 함선 비트",
 		type = 44,
 		id = 200150011,
 		target_num = 1,
@@ -6177,7 +6177,8 @@ end)()
 			601,
 			602,
 			603,
-			604
+			604,
+			901
 		}
 	}
 	pg.base.island_task_target[307020011] = {

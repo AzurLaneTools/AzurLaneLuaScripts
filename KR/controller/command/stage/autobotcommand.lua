@@ -25,6 +25,10 @@ slot0.execute = function(slot0, slot1)
 	end
 
 	if slot3 then
+		if getProxy(ChapterProxy) and slot7:GetContinuousData(SYSTEM_SCENARIO) then
+			slot8:MarkClickStopAutoFlag()
+		end
+
 		slot0:sendNotification(GAME.AUTO_SUB, {
 			isActiveSub = true,
 			system = slot5

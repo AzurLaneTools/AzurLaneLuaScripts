@@ -311,6 +311,13 @@ slot0.AddCourseProficiency = function(slot0, slot1)
 	slot0:setCourse(slot2)
 end
 
+slot0.AddProficiency = function(slot0, slot1)
+	slot2 = slot0:getCourse()
+
+	slot2:SetProficiency(math.min(slot2:GetProficiency() + slot1, slot0:GetClassVO():GetMaxProficiency()))
+	slot0:setCourse(slot2)
+end
+
 slot0.fillStudens = function(slot0, slot1)
 	slot2 = pg.gameset.academy_random_ship_count.key_value
 	slot3 = {}

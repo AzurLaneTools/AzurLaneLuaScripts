@@ -654,6 +654,7 @@ pg.activity_ins_template.all = {
 	660,
 	661,
 	662,
+	668,
 	663,
 	664,
 	665,
@@ -667,10 +668,10 @@ pg.activity_ins_template.all = {
 	20005,
 	20007,
 	20008,
-	20009,
-	20010,
 	20011,
-	20012
+	20012,
+	20009,
+	20010
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -27582,6 +27583,33 @@ end)()
 		time_persist = {},
 		npc_discuss_persist = {}
 	}
+	pg.base.activity_ins_template[668] = {
+		ship_group = 30119,
+		name = "Amatsukaze",
+		type = 1,
+		picture_persist = "",
+		title = "",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "tianjinfeng",
+		id = 668,
+		group_id = 668,
+		time = {
+			{
+				2026,
+				9,
+				10
+			},
+			{
+				14,
+				20,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
 	pg.base.activity_ins_template[663] = {
 		ship_group = 10720,
 		name = "Bennington",
@@ -27933,60 +27961,6 @@ end)()
 		time_persist = {},
 		npc_discuss_persist = {}
 	}
-	pg.base.activity_ins_template[20009] = {
-		ship_group = 0,
-		name = "",
-		type = 2,
-		picture_persist = "",
-		title = "「모항 특종」 어쩌면 좋은 일일지도?",
-		message_persist = "",
-		is_active = 1,
-		oalist_pic_persist = "",
-		sculpture = "",
-		id = 20009,
-		group_id = 20009,
-		time = {
-			{
-				2026,
-				7,
-				23
-			},
-			{
-				11,
-				0,
-				0
-			}
-		},
-		time_persist = {},
-		npc_discuss_persist = {}
-	}
-	pg.base.activity_ins_template[20010] = {
-		ship_group = 0,
-		name = "",
-		type = 2,
-		picture_persist = "",
-		title = "[모항 취재] 괴담 작가 프린츠 모리츠 특별 인터뷰!",
-		message_persist = "",
-		is_active = 1,
-		oalist_pic_persist = "",
-		sculpture = "",
-		id = 20010,
-		group_id = 20010,
-		time = {
-			{
-				2026,
-				8,
-				6
-			},
-			{
-				13,
-				15,
-				0
-			}
-		},
-		time_persist = {},
-		npc_discuss_persist = {}
-	}
 	pg.base.activity_ins_template[20011] = {
 		ship_group = 0,
 		name = "",
@@ -28035,6 +28009,60 @@ end)()
 			{
 				15,
 				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20009] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "「모항 특종」 어쩌면 좋은 일일지도?",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20009,
+		group_id = 20009,
+		time = {
+			{
+				2026,
+				7,
+				23
+			},
+			{
+				11,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20010] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "[모항 취재] 괴담 작가 프린츠 모리츠 특별 인터뷰!",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20010,
+		group_id = 20010,
+		time = {
+			{
+				2026,
+				8,
+				6
+			},
+			{
+				13,
+				15,
 				0
 			}
 		},
