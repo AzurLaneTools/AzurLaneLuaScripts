@@ -51768,7 +51768,7 @@ end)()
 		resource_type = 59010,
 		id = 11037,
 		commodity_id_list_show = 0,
-		order = 0
+		order = 5
 	}
 	pg.base.activity_shop_template[12001] = {
 		commodity_id_list = "",
