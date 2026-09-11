@@ -164,7 +164,11 @@ slot0.GetSelBuffIds = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, slot0 do
-		table.insert(slot1, uv0.GetLocalBuffData(slot5))
+		if uv0.GetLocalBuffData(slot5) ~= 0 and table.contains(slot1, slot6) then
+			uv0.SetLocalBuffData(slot5, 0)
+		end
+
+		table.insert(slot1, slot6)
 	end
 
 	return slot1

@@ -4343,6 +4343,58 @@ pg.memory_template.all = {
 	5435,
 	5436,
 	5437,
+	5501,
+	5502,
+	5503,
+	5504,
+	5505,
+	5506,
+	5507,
+	5508,
+	5509,
+	5510,
+	5511,
+	5512,
+	5513,
+	5514,
+	5515,
+	5516,
+	5517,
+	5518,
+	5519,
+	5520,
+	5521,
+	5522,
+	5523,
+	5524,
+	5525,
+	5526,
+	5527,
+	5528,
+	5529,
+	5530,
+	5531,
+	5532,
+	5533,
+	5534,
+	5535,
+	5536,
+	5537,
+	5538,
+	5539,
+	5540,
+	5541,
+	5542,
+	5543,
+	5544,
+	5545,
+	5546,
+	5547,
+	5548,
+	5549,
+	5550,
+	5551,
+	5552,
 	10000,
 	10001,
 	10002,
@@ -82837,6 +82889,942 @@ end)()
 			"DUSHIQIUZHIDAZUOZHAN7"
 		}
 	}
+	pg.base.memory_template[5501] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-タイガー",
+		condition = "イベントで「タイガー」を解放する",
+		story = "YICHANGDERICHANGZHAOMU1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5501,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU1"
+		}
+	}
+	pg.base.memory_template[5502] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-フリードリヒ・カール",
+		condition = "イベントで「フリードリヒ・カール」を解放する",
+		story = "YICHANGDERICHANGZHAOMU12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5502,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU12"
+		}
+	}
+	pg.base.memory_template[5503] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-ヨルク",
+		condition = "イベントで「ヨルク」を解放する",
+		story = "YICHANGDERICHANGZHAOMU2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5503,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU2"
+		}
+	}
+	pg.base.memory_template[5504] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-ヘイスティ",
+		condition = "イベントで「ヘイスティ」を解放する",
+		story = "YICHANGDERICHANGZHAOMU5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5504,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU5"
+		}
+	}
+	pg.base.memory_template[5505] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-ゴールデン・ハインド",
+		condition = "イベントで「ゴールデン・ハインド」を解放する",
+		story = "YICHANGDERICHANGZHAOMU13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5505,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU13"
+		}
+	}
+	pg.base.memory_template[5506] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-白鳳",
+		condition = "イベントで「白鳳」を解放する",
+		story = "YICHANGDERICHANGZHAOMU6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5506,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU6"
+		}
+	}
+	pg.base.memory_template[5507] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-イラストリアス",
+		condition = "イベントで「イラストリアス」を解放する",
+		story = "YICHANGDERICHANGZHAOMU11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5507,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU11"
+		}
+	}
+	pg.base.memory_template[5508] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-チェシャー",
+		condition = "イベントで「チェシャー」を解放する",
+		story = "YICHANGDERICHANGZHAOMU7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5508,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU7"
+		}
+	}
+	pg.base.memory_template[5509] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-ライオン",
+		condition = "イベントで「ライオン」を解放する",
+		story = "YICHANGDERICHANGZHAOMU9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5509,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU9"
+		}
+	}
+	pg.base.memory_template[5510] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-ホスタイル",
+		condition = "イベントで「ホスタイル」を解放する",
+		story = "YICHANGDERICHANGZHAOMU8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5510,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU8"
+		}
+	}
+	pg.base.memory_template[5511] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-翔鶴",
+		condition = "イベントで「翔鶴」を解放する",
+		story = "YICHANGDERICHANGZHAOMU3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5511,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU3"
+		}
+	}
+	pg.base.memory_template[5512] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-伊14",
+		condition = "イベントで「伊14」を解放する",
+		story = "YICHANGDERICHANGZHAOMU4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5512,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU4"
+		}
+	}
+	pg.base.memory_template[5513] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "仲間開放-安土",
+		condition = "イベントで「安土」を解放する",
+		story = "YICHANGDERICHANGZHAOMU10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5513,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU10"
+		}
+	}
+	pg.base.memory_template[5514] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "タイガーについて……",
+		condition = "イベントで「タイガー」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5514,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING1"
+		}
+	}
+	pg.base.memory_template[5515] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "天外の旋律",
+		condition = "イベントで「タイガー」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5515,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING2"
+		}
+	}
+	pg.base.memory_template[5516] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "翼の手入れ",
+		condition = "イベントで「タイガー」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5516,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING3"
+		}
+	}
+	pg.base.memory_template[5517] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "フリードリヒ・カールについて……",
+		condition = "イベントで「フリードリヒ・カール」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5517,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING4"
+		}
+	}
+	pg.base.memory_template[5518] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "境界線を越えて",
+		condition = "イベントで「フリードリヒ・カール」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5518,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING5"
+		}
+	}
+	pg.base.memory_template[5519] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "あなたのそばへ",
+		condition = "イベントで「フリードリヒ・カール」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5519,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING6"
+		}
+	}
+	pg.base.memory_template[5520] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ヨルクについて……",
+		condition = "イベントで「ヨルク」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5520,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING7"
+		}
+	}
+	pg.base.memory_template[5521] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "一人前のパートナー",
+		condition = "イベントで「ヨルク」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5521,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING8"
+		}
+	}
+	pg.base.memory_template[5522] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "抗うか、落ちるか",
+		condition = "イベントで「ヨルク」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5522,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING9"
+		}
+	}
+	pg.base.memory_template[5523] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ヘイスティについて……",
+		condition = "イベントで「ヘイスティ」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5523,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING10"
+		}
+	}
+	pg.base.memory_template[5524] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "笑顔を見て",
+		condition = "イベントで「ヘイスティ」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5524,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING11"
+		}
+	}
+	pg.base.memory_template[5525] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "一緒にいて",
+		condition = "イベントで「ヘイスティ」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5525,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING12"
+		}
+	}
+	pg.base.memory_template[5526] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ゴールデン・ハインドについて……",
+		condition = "イベントで「ゴールデン・ハインド」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5526,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING13"
+		}
+	}
+	pg.base.memory_template[5527] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "触手の温度",
+		condition = "イベントで「ゴールデン・ハインド」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5527,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING14"
+		}
+	}
+	pg.base.memory_template[5528] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "あなたの香り",
+		condition = "イベントで「ゴールデン・ハインド」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING15",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5528,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING15"
+		}
+	}
+	pg.base.memory_template[5529] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "白鳳について……",
+		condition = "イベントで「白鳳」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING16",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5529,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING16"
+		}
+	}
+	pg.base.memory_template[5530] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "天気雨",
+		condition = "イベントで「白鳳」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING17",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5530,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING17"
+		}
+	}
+	pg.base.memory_template[5531] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ご縁",
+		condition = "イベントで「白鳳」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING18",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5531,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING18"
+		}
+	}
+	pg.base.memory_template[5532] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "イラストリアスについて……",
+		condition = "イベントで「イラストリアス」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING19",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5532,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING19"
+		}
+	}
+	pg.base.memory_template[5533] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "何かお探し？",
+		condition = "イベントで「イラストリアス」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING20",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5533,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING20"
+		}
+	}
+	pg.base.memory_template[5534] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "寂しい幽霊",
+		condition = "イベントで「イラストリアス」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING21",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5534,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING21"
+		}
+	}
+	pg.base.memory_template[5535] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "チェシャーについて……",
+		condition = "イベントで「チェシャー」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING22",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5535,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING22"
+		}
+	}
+	pg.base.memory_template[5536] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "すごくなる魔法薬",
+		condition = "イベントで「チェシャー」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING23",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5536,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING23"
+		}
+	}
+	pg.base.memory_template[5537] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ふっと出てきて",
+		condition = "イベントで「チェシャー」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING24",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5537,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING24"
+		}
+	}
+	pg.base.memory_template[5538] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ライオンについて……",
+		condition = "イベントで「ライオン」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING25",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5538,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING25"
+		}
+	}
+	pg.base.memory_template[5539] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ウィンドウショッピング",
+		condition = "イベントで「ライオン」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING26",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5539,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING26"
+		}
+	}
+	pg.base.memory_template[5540] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "切り裂くもの",
+		condition = "イベントで「ライオン」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING27",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5540,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING27"
+		}
+	}
+	pg.base.memory_template[5541] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "ホスタイルについて……",
+		condition = "イベントで「ホスタイル」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING28",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5541,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING28"
+		}
+	}
+	pg.base.memory_template[5542] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "身辺警護",
+		condition = "イベントで「ホスタイル」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING29",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5542,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING29"
+		}
+	}
+	pg.base.memory_template[5543] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "入浴安全",
+		condition = "イベントで「ホスタイル」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING30",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5543,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING30"
+		}
+	}
+	pg.base.memory_template[5544] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "翔鶴について……",
+		condition = "イベントで「翔鶴」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING31",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5544,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING31"
+		}
+	}
+	pg.base.memory_template[5545] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "お礼の笛",
+		condition = "イベントで「翔鶴」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING32",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5545,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING32"
+		}
+	}
+	pg.base.memory_template[5546] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "雪の中の温かさ",
+		condition = "イベントで「翔鶴」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING33",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5546,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING33"
+		}
+	}
+	pg.base.memory_template[5547] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "伊14について……",
+		condition = "イベントで「伊14」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING34",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5547,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING34"
+		}
+	}
+	pg.base.memory_template[5548] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "趣味と力",
+		condition = "イベントで「伊14」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING35",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5548,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING35"
+		}
+	}
+	pg.base.memory_template[5549] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "偽装と自我",
+		condition = "イベントで「伊14」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING36",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5549,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING36"
+		}
+	}
+	pg.base.memory_template[5550] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "安土について……",
+		condition = "イベントで「安土」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING37",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5550,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING37"
+		}
+	}
+	pg.base.memory_template[5551] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新しい雰囲気",
+		condition = "イベントで「安土」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING38",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5551,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING38"
+		}
+	}
+	pg.base.memory_template[5552] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "一歩進んで",
+		condition = "イベントで「安土」の共感を上げる",
+		story = "YICHANGDERICHANGDUANJUQING39",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5552,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING39"
+		}
+	}
 	pg.base.memory_template[10000] = {
 		ship_group = 0,
 		subtitle = "",
@@ -82999,6 +83987,8 @@ end)()
 			"TACT10008"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10009] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83935,8 +84925,6 @@ end)()
 			"YINGHUA10"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10061] = {
 		ship_group = 0,
 		subtitle = "",
@@ -84801,6 +85789,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA28"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20028] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85737,8 +86727,6 @@ end)()
 			"LINGHANGYUANTANXIN28"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20080] = {
 		ship_group = 0,
 		subtitle = "",
@@ -86603,6 +87591,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA47"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20128] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87539,8 +88529,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA31"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20181] = {
 		ship_group = 0,
 		subtitle = "",

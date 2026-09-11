@@ -201,6 +201,10 @@ slot0.BundleList = {
 		slot0.FengFanS,
 		slot0.FengFanV,
 		slot0.FengFanM
+	},
+	qianpaiquzhu = {
+		slot0.QuZhu,
+		slot0.DaoQuV
 	}
 }
 
@@ -208,9 +212,10 @@ slot0.BundleType2CNLabel = function(slot0)
 	if not uv0.bundleLabel then
 		uv0.bundleLabel = {
 			zhong = "label_13",
-			qian = "label_8",
+			qianpaiquzhu = "label_1",
 			zhan = "label_11",
 			fanqian = "label_55",
+			qian = "label_8",
 			hang = "label_12",
 			quzhu = "label_1"
 		}
