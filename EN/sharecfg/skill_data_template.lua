@@ -126660,7 +126660,7 @@ Applies [Mark of the Stars] to enemies hit by this special barrage. [Mark of the
 		name = "All-Devouring Inferno",
 		type = 1,
 		max_level = 10,
-		desc = "This ship's Main Gun attacks have a $3 chance to inflict a normal Burn debuff even if this ship does not have an HE Main Gun equipped. During battle, increases this ship's FP by $1￼ and RLD by ￼$2. 2s after the start of battle, and whenever this ship finishes loading her Main Guns: fires a $4 special barrage (DMG is based on the skill's level); enemies hit by this special barrage are inflicted with the [Flame-Devoured] special Burn status, causing them to take 130 DMG per second and decreasing their ACC by 5.0% for 20s ([Flame-Devoured] does not stack; repeated applications reset the duration).",
+		desc = "This ship's Main Gun attacks have a $3 chance to inflict a normal Burn debuff even if this ship does not have an HE Main Gun equipped. During battle, increases this ship's FP by $1 and RLD by $2. 2s after the start of battle, and whenever this ship finishes loading her Main Guns: fires a $4 special barrage (DMG is based on the skill's level); enemies hit by this special barrage are inflicted with the [Flame-Devoured] special Burn status, causing them to take 130 DMG per second and decreasing their ACC by 5.0% for 20s ([Flame-Devoured] does not stack; repeated applications reset the duration).",
 		id = 152830,
 		system_transform = {},
 		world_death_mark = {

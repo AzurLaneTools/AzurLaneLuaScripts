@@ -33,6 +33,7 @@ slot1.attachOrb = function(slot0, slot1)
 		buff_id = slot0._buffID,
 		rant = slot0._rant,
 		level = slot0._level,
-		buff_level = slot0._buffLevel
+		buff_level = slot0._buffLevel,
+		group_level = slot0._level
 	})
 end
