@@ -292,6 +292,28 @@ slot0.updateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 		setActive(slot0, tostring(uv0) == slot0.gameObject.name)
 	end)
 	updateSpWeaponInfo(slot4:Find("attributes/view/content"), slot3, slot2:GetSkillGroup())
+	setActive(slot1:Find("info/unique"), slot2:IsUnique())
+
+	if slot2:IsUnique() then
+		slot0:updateUnique(slot10, slot2)
+	end
+end
+
+slot0.updateUnique = function(slot0, slot1, slot2)
+	slot4 = slot2:GetUniqueShips()
+	slot6 = Ship.New({
+		configId = ShipGroup.getDefaultShipConfig(slot2:GetUniqueGroup()).id
+	})
+
+	setImageSprite(slot1:Find("head/icon"), LoadSprite("SquareIcon/" .. slot6:getPainting()))
+	setText(slot1:Find("title"), i18n("spweapon_unique_title"))
+	setText(slot1:Find("btn_skip/text"), i18n("spweapon_tip_jump"))
+	onButton(slot0, slot1:Find("btn_skip"), function ()
+		uv0:emit(SpWeaponInfoMediator.ON_SKIP_UNIQUE_SHIPS, {
+			shipId = uv1.id,
+			shipVOs = uv2
+		})
+	end)
 end
 
 slot0.cloneSampleTo = function(slot0, slot1, slot2, slot3, slot4)

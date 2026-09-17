@@ -9330,7 +9330,6 @@ end)()
 		main = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		battle = "",
 		login = {
@@ -9349,6 +9348,12 @@ end)()
 			{
 				1100,
 				"顽强坚韧，进攻时又果断大胆…原来如此，你的作战总让我受惠良多呢。"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"呵呵~这样可不够哦，指、挥、官~"
 			}
 		},
 		detail = {
@@ -16027,7 +16032,6 @@ end)()
 		main = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		login = {
 			{
@@ -16051,6 +16055,12 @@ end)()
 			{
 				1100,
 				"等被缠上就晚了哦～♡"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"指挥官大人的触碰，还是这么让人欲罢不能……♡"
 			}
 		},
 		detail = {

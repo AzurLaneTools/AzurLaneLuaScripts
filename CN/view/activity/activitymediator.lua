@@ -344,14 +344,14 @@ slot0.register = function(slot0)
 		uv0:showNextActivity(slot1)
 	end)
 	slot0:bind(uv0.ACTIVITY_PERMANENT, function (slot0, slot1)
-		if PlayerPrefs.GetString("permanent_time", "") ~= pg.gameset.permanent_mark.description then
-			PlayerPrefs.SetString("permanent_time", pg.gameset.permanent_mark.description)
+		if PlayerPrefs.GetInt("permanent_times", 0) ~= #ActivityConst.GetLatestPermanentActivityIds() then
+			PlayerPrefs.SetInt("permanent_times", #slot2)
 			uv0.viewComponent:updateEntrances()
 		end
 
 		if getProxy(ActivityPermanentProxy):getDoingActivity(ActivityPermanentProxy.TYPE_NORMAL_ACTIVITY) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("activity_permanent_tips3"))
-			uv0.viewComponent:verifyTabs(slot2.id)
+			uv0.viewComponent:verifyTabs(slot3.id)
 		else
 			uv0:addSubLayers(Context.New({
 				mediator = ActivityPermanentMediator,

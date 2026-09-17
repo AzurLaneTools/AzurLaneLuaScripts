@@ -205,7 +205,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
-			say = "咔嚓——咔嚓——冰冷而干涩的金属咬合声，从面方的巷子深处传来。",
+			say = "咔嚓——咔嚓——冰冷而干涩的金属咬合声，从前方的巷子深处传来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

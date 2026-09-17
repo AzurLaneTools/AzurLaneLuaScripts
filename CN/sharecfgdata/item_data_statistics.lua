@@ -137125,6 +137125,357 @@ _G.pg.base.item_data_statistics[68357] = {
 }
 
 
+_G.pg.base.item_data_statistics[68358] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(晴雨狐嫁)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:302}</color>换装<color=#92fc63FF>晴雨狐嫁</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88410",
+	id = 68358,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68361,
+			1
+		},
+		{
+			2,
+			68364,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68359] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(柴郡猫的童话书迷宫)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>柴郡</color>换装<color=#92fc63FF>柴郡猫的童话书迷宫</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88411",
+	id = 68359,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68362,
+			1
+		},
+		{
+			2,
+			68365,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68360] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(微笑的白色魅影)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>金鹿号</color>换装<color=#92fc63FF>微笑的白色魅影</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88412",
+	id = 68360,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68363,
+			1
+		},
+		{
+			2,
+			68366,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68361] = {
+	open_directly = 0,
+	name = "换装抵扣券(晴雨狐嫁)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:302}</color>换装<color=#92fc63FF>晴雨狐嫁</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年9月23日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68361,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71405
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68362] = {
+	open_directly = 0,
+	name = "换装抵扣券(柴郡猫的童话书迷宫)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>柴郡</color>换装<color=#92fc63FF>柴郡猫的童话书迷宫</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年9月23日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68362,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71409
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68363] = {
+	open_directly = 0,
+	name = "换装抵扣券(微笑的白色魅影)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>金鹿号</color>换装<color=#92fc63FF>微笑的白色魅影</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年9月23日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68363,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71407
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68364] = {
+	open_directly = 0,
+	name = "换装体验券(晴雨狐嫁)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:302}</color>换装<color=#92fc63FF>晴雨狐嫁</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年9月23日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68364,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90534
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68365] = {
+	open_directly = 0,
+	name = "换装体验券(柴郡猫的童话书迷宫)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>柴郡</color>换装<color=#92fc63FF>柴郡猫的童话书迷宫</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年9月23日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68365,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90535
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68366] = {
+	open_directly = 0,
+	name = "换装体验券(微笑的白色魅影)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>金鹿号</color>换装<color=#92fc63FF>微笑的白色魅影</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年9月23日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68366,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90536
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[68306] = {
 	open_directly = 1,
 	name = "换装抵扣礼包(布偶熊里面的是……？)",
@@ -141279,6 +141630,73 @@ _G.pg.base.item_data_statistics[81238] = {
 		{
 			2,
 			86230,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81239] = {
+	open_directly = 1,
+	name = "幽影迷城换装礼盒II",
+	type = 17,
+	display = "购买礼包可获得随机换装*1，钻石*2026，心智单元*50，心智魔方*20，高级定向蓝图·九期*2，快速完成工具*10，家具币*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai39",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998334",
+	id = 81239,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86231,
 			1
 		},
 		{

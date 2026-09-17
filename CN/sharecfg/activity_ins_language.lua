@@ -8623,7 +8623,42 @@ pg.activity_ins_language.all = {
 	"op_reply_20013_2_2",
 	"op_reply_20013_2_3",
 	"op_reply_20013_2_4",
-	"op_reply_20013_2_5"
+	"op_reply_20013_2_5",
+	"ins_20014",
+	"ins_discuss_20014_1",
+	"ins_reply_20014_1_1",
+	"ins_reply_20014_1_2",
+	"ins_reply_20014_1_3",
+	"ins_reply_20014_1_4",
+	"ins_discuss_20014_2",
+	"ins_discuss_20014_3",
+	"ins_reply_20014_3_1",
+	"ins_reply_20014_3_2",
+	"ins_discuss_20014_4",
+	"ins_reply_20014_4_1",
+	"ins_reply_20014_4_2",
+	"ins_reply_20014_4_3",
+	"ins_reply_20014_4_4",
+	"ins_discuss_20014_5",
+	"ins_reply_20014_5_1",
+	"ins_discuss_20014_6",
+	"ins_discuss_20014_7",
+	"ins_discuss_20014_8",
+	"ins_discuss_20014_9",
+	"ins_reply_20014_9_1",
+	"ins_discuss_20014_10",
+	"ins_reply_20014_10_1",
+	"ins_reply_20014_10_2",
+	"ins_reply_20014_10_3",
+	"ins_op_20014_1_1",
+	"op_reply_20014_1_1",
+	"op_reply_20014_1_2",
+	"op_reply_20014_1_3",
+	"op_reply_20014_1_4",
+	"ins_op_20014_1_2",
+	"op_reply_20014_2_1",
+	"op_reply_20014_2_2",
+	"op_reply_20014_2_3"
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_language = {}
@@ -32620,494 +32655,494 @@ end)()
 		value = "好哇！等散完步一起去吃烤肉大餐吧~"
 	}
 	pg.base.activity_ins_language.ins_658 = {
-		value = ""
+		value = "纸质记录媒介什么的，效率真低。哪有空一张张慢慢看啊"
 	}
 	pg.base.activity_ins_language.ins_discuss_658_1 = {
-		value = ""
+		value = "纸张，承载的不仅仅是文字，还有那些指尖流淌的思绪与情感……"
 	}
 	pg.base.activity_ins_language.ins_reply_658_1_1 = {
-		value = ""
+		value = "除了文字之外，记录着它们的纸张往往也蕴含着别样的信息"
 	}
 	pg.base.activity_ins_language.ins_reply_658_1_2 = {
-		value = ""
+		value = "同样的文字写在不同的载体上……或许会给人不一样的感触呢"
 	}
 	pg.base.activity_ins_language.ins_reply_658_1_3 = {
-		value = ""
+		value = "相同的文字，亦会留下相异的痕迹与情绪……"
 	}
 	pg.base.activity_ins_language.ins_discuss_658_2 = {
-		value = ""
+		value = "没错没错！用纸条书信来传递消息什么的……多慢啊！"
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_1 = {
-		value = ""
+		value = "既然内心怀有这样那样的情绪，就应该直截了当地告诉对方呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_2 = {
-		value = ""
+		value = "当然，采取行动之前也要做好必要的准备才行"
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_3 = {
-		value = ""
+		value = "那种东西根本就不需要！只要你的热情足够……呵呵~"
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_4 = {
-		value = ""
+		value = "呃……我觉得你们和A2讨论的可能不是同一个话题……"
 	}
 	pg.base.activity_ins_language.ins_op_658_1_1 = {
-		value = ""
+		value = "同时看几张不就能提高效率了么？"
 	}
 	pg.base.activity_ins_language.op_reply_658_1_1 = {
-		value = ""
+		value = "效率多少是会变高……但真的要这么做吗……？"
 	}
 	pg.base.activity_ins_language.ins_op_658_1_2 = {
-		value = ""
+		value = "或许换个环境阅读的话，就能有不一样的感觉？"
 	}
 	pg.base.activity_ins_language.op_reply_658_1_2 = {
-		value = ""
+		value = "是这样吗，那我去下指挥室"
 	}
 	pg.base.activity_ins_language.ins_659 = {
-		value = ""
+		value = "发现了许多没见过的新式装备……不知道它们威力如何"
 	}
 	pg.base.activity_ins_language.ins_discuss_659_1 = {
-		value = ""
+		value = "哼哼……这些家伙的威力肯定大得超乎你的想象！"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_1 = {
-		value = ""
+		value = "莫非这个仓库里就放着你的新作品？"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_2 = {
-		value = ""
+		value = "什么新作品？我可不记得奥列格最近有递交过测试申请"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_3 = {
-		value = ""
+		value = "哎呀放心好了！我的发明可是非常安全的！"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_4 = {
-		value = ""
+		value = "……你是指会安全地爆炸吗？"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_5 = {
-		value = ""
+		value = "不会爆炸的发明一定是不成功的！"
 	}
 	pg.base.activity_ins_language.ins_discuss_659_2 = {
-		value = ""
+		value = "那不如趁此机会测试一下吧？我看旁边的炸弹就很不错！"
 	}
 	pg.base.activity_ins_language.ins_reply_659_2_1 = {
-		value = ""
+		value = "既然要测试武器，那果然还得是实战吧！"
 	}
 	pg.base.activity_ins_language.ins_reply_659_2_2 = {
-		value = ""
+		value = "嗯……我嗅到了战斗的气息！"
 	}
 	pg.base.activity_ins_language.ins_reply_659_2_3 = {
-		value = ""
+		value = "没错没错，既然是武器，那它们绽放光彩的地方当然得是战场才行！"
 	}
 	pg.base.activity_ins_language.ins_op_659_1_1 = {
-		value = ""
+		value = "需要查看它们的数据资料吗？我这就发送给你"
 	}
 	pg.base.activity_ins_language.op_reply_659_1_1 = {
-		value = ""
+		value = "有劳了，指挥官"
 	}
 	pg.base.activity_ins_language.ins_op_659_1_2 = {
-		value = ""
+		value = "不如亲手测试一下怎么样？我这就去准备场地"
 	}
 	pg.base.activity_ins_language.op_reply_659_1_2 = {
-		value = ""
+		value = "我这就过去"
 	}
 	pg.base.activity_ins_language.ins_660 = {
-		value = ""
+		value = "我已经完全理解了……？"
 	}
 	pg.base.activity_ins_language.ins_discuss_660_1 = {
-		value = ""
+		value = "这是何等……神奇的画作☆"
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_1 = {
-		value = ""
+		value = "呃……总觉得似乎能感觉到某种情绪，但又说不清……"
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_2 = {
-		value = ""
+		value = "安克雷奇……看不懂……头好晕……呜呜……"
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_3 = {
-		value = ""
+		value = "布什……也看不明白……"
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_4 = {
-		value = ""
+		value = "这个嘛，需要静下心来才能明白其中的含义，嗯！"
 	}
 	pg.base.activity_ins_language.ins_discuss_660_2 = {
-		value = ""
+		value = "哼哼，这幅画可是飞云大人精心绘制的哦！"
 	}
 	pg.base.activity_ins_language.ins_reply_660_2_1 = {
-		value = ""
+		value = "没错没错！这可是我们独创的新派画法！"
 	}
 	pg.base.activity_ins_language.ins_reply_660_2_2 = {
-		value = ""
+		value = "这……大概是我见过最随性的画了……"
 	}
 	pg.base.activity_ins_language.ins_reply_660_2_3 = {
-		value = ""
+		value = "至少这份创新精神值得肯定……啊哈哈……"
 	}
 	pg.base.activity_ins_language.ins_op_660_1_1 = {
-		value = ""
+		value = "嗯嗯，原来是这样，我也完全懂了"
 	}
 	pg.base.activity_ins_language.op_reply_660_1_1 = {
-		value = ""
+		value = "嗯嗯，指挥官的悟性很值得肯定呢~"
 	}
 	pg.base.activity_ins_language.ins_op_660_1_2 = {
-		value = ""
+		value = "看来下次看不懂画展的时候，就可以请你来讲解了"
 	}
 	pg.base.activity_ins_language.op_reply_660_1_2 = {
-		value = ""
+		value = "当然没问题，我随时都能接受指挥官的邀请哦~"
 	}
 	pg.base.activity_ins_language.ins_661 = {
-		value = ""
+		value = "第一件工作，除草，完成；第二件工作，准备下午茶……"
 	}
 	pg.base.activity_ins_language.ins_discuss_661_1 = {
-		value = ""
+		value = "哇……我就说刚才那阵乒乒乓乓的声音不太对劲……"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_1 = {
-		value = ""
+		value = "为大家带来了困扰真是万分抱歉。不过请放心，现场已经处理完毕了"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_2 = {
-		value = ""
+		value = "久违地见到了和天狼星一样相当有“潜力”的新人……"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_3 = {
-		value = ""
+		value = "原来如此，是与我相同类型的女仆呢。我会好好教导她的！"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_4 = {
-		value = ""
+		value = "收到，我现在就前往天狼星所在的位置进行学习"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_5 = {
-		value = ""
+		value = "呃，萨里刚刚是开着除草机冲出去了吗……？"
 	}
 	pg.base.activity_ins_language.ins_discuss_661_2 = {
-		value = ""
+		value = "所以……为什么要开着除草机冲进下午茶场地啊？"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_1 = {
-		value = ""
+		value = "因为除草工作已经完成，而下一项工作是准备下午茶"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_2 = {
-		value = ""
+		value = "不是顺序的问题啦！我是问为什么要开着除草机冲进下午茶场地啦！"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_3 = {
-		value = ""
+		value = "因为除草工作已经完成，而下一项工作是准备下午茶"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_4 = {
-		value = ""
+		value = "看来是工作指令不够明确的原因吧"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_5 = {
-		value = ""
+		value = "在完成除草之后，要放下除草机才能进入下午茶会场哦"
 	}
 end)()
 (function ()
 	pg.base.activity_ins_language.ins_reply_661_2_6 = {
-		value = ""
+		value = "……这不应该是一种“自觉”吗……？"
 	}
 	pg.base.activity_ins_language.ins_op_661_1_1 = {
-		value = ""
+		value = "萨里，你现在还在除草机上吗？"
 	}
 	pg.base.activity_ins_language.op_reply_661_1_1 = {
-		value = ""
+		value = "在女仆长的提醒下，已切换至步行模式"
 	}
 	pg.base.activity_ins_language.ins_op_661_1_2 = {
-		value = ""
+		value = "萨里，没受伤吧？"
 	}
 	pg.base.activity_ins_language.op_reply_661_1_2 = {
-		value = ""
+		value = "请安心指挥官，没有任何人受到伤害"
 	}
 	pg.base.activity_ins_language.ins_662 = {
-		value = ""
+		value = "学会了全新的招式！"
 	}
 	pg.base.activity_ins_language.ins_discuss_662_1 = {
-		value = ""
+		value = "原来盾牌还能这样使用吗？！"
 	}
 	pg.base.activity_ins_language.ins_reply_662_1_1 = {
-		value = ""
+		value = "但是在战斗中把盾牌甩出去的话……该怎么取回来呢？"
 	}
 	pg.base.activity_ins_language.ins_reply_662_1_2 = {
-		value = ""
+		value = "没关系……力量（force）会指引着它回到你的手中的……"
 	}
 	pg.base.activity_ins_language.ins_reply_662_1_3 = {
-		value = ""
+		value = "哈！那我可以一整天都玩这个！"
 	}
 	pg.base.activity_ins_language.ins_discuss_662_2 = {
-		value = ""
+		value = "转啊转啊转啊转啊——"
 	}
 	pg.base.activity_ins_language.ins_reply_662_2_1 = {
-		value = ""
+		value = "犹如花瓣华丽地散落一般——"
 	}
 	pg.base.activity_ins_language.ins_reply_662_2_2 = {
-		value = ""
+		value = "这难道是什么新的称赞方式吗……？"
 	}
 	pg.base.activity_ins_language.ins_discuss_662_3 = {
-		value = ""
+		value = "不过……那三只小家伙看起来还没有习惯这个招式……"
 	}
 	pg.base.activity_ins_language.ins_reply_662_3_1 = {
-		value = ""
+		value = "但它们看起来都很兴奋欸？这不是挺有趣的嘛，呵呵~"
 	}
 	pg.base.activity_ins_language.ins_reply_662_3_2 = {
-		value = ""
+		value = "……怎么看都不像是兴奋吧？"
 	}
 	pg.base.activity_ins_language.ins_op_662_1_1 = {
-		value = ""
+		value = "很酷的新招式！"
 	}
 	pg.base.activity_ins_language.op_reply_662_1_1 = {
-		value = ""
+		value = "嘿嘿，指挥官也一起来尝试一下吧！"
 	}
 	pg.base.activity_ins_language.ins_op_662_1_2 = {
-		value = ""
+		value = "可不要又把盾牌弄丢了哦？"
 	}
 	pg.base.activity_ins_language.op_reply_662_1_2 = {
-		value = ""
+		value = "咳咳……这次绝对不会！"
 	}
 	pg.base.activity_ins_language.ins_668 = {
-		value = ""
+		value = "哼哼~视野很开阔呢~"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_1 = {
-		value = ""
+		value = "呜哇——是威风凛凛的{namecode:23}大人！"
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_1 = {
-		value = ""
+		value = "如此豪华的座驾……这是立下了何等辉煌的功绩？"
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_2 = {
-		value = ""
+		value = "哇哈哈！这番夸耀甚得我心！作为奖励，就赐予你们搭乘这顶轿子的资格吧！"
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_3 = {
-		value = ""
+		value = "如此礼贤下士，这便是武将之风吗……"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_2 = {
-		value = ""
+		value = "喂！那不是我的座驾吗？！你怎么把它给拿出来用了！"
 	}
 	pg.base.activity_ins_language.ins_reply_668_2_1 = {
-		value = ""
+		value = "……但你自己都快忘记这顶座驾了吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_668_2_2 = {
-		value = ""
+		value = "如此华丽的轿子你居然放着不管，真是浪费！放心吧，我会好好爱惜它的！"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_3 = {
-		value = ""
+		value = "欸~这样好像能弥补和指挥官的身高差呢♪"
 	}
 	pg.base.activity_ins_language.ins_reply_668_3_1 = {
-		value = ""
+		value = "直接跳起来抱住指挥官也是一种解法哦？呵呵~"
 	}
 	pg.base.activity_ins_language.ins_op_668_1_1 = {
-		value = ""
+		value = "是威风凛凛的{namecode:23}大人！"
 	}
 	pg.base.activity_ins_language.op_reply_668_1_1 = {
-		value = ""
+		value = "哼哼~我已经为你留好位置了哦？过时不候~"
 	}
 	pg.base.activity_ins_language.ins_op_668_1_2 = {
-		value = ""
+		value = "这是准备去哪？"
 	}
 	pg.base.activity_ins_language.op_reply_668_1_2 = {
-		value = ""
+		value = "指挥官猜一猜怎么样？要是猜中了……就奖励你与我一起出发吧~"
 	}
 	pg.base.activity_ins_language.ins_663 = {
-		value = ""
+		value = "想要酷炫的墨镜吗？我这里有很多哦~绝对有你喜欢的！"
 	}
 	pg.base.activity_ins_language.ins_discuss_663_1 = {
-		value = ""
+		value = "想买……对外出售吗？姐姐又把我的墨镜拿走了"
 	}
 	pg.base.activity_ins_language.ins_reply_663_1_1 = {
-		value = ""
+		value = "你看上哪个了，免费送你！"
 	}
 	pg.base.activity_ins_language.ins_reply_663_1_2 = {
-		value = ""
+		value = "谢谢。既然如此就有点想尝试新款……"
 	}
 	pg.base.activity_ins_language.ins_reply_663_1_3 = {
-		value = ""
+		value = "哼哼哼！让我来帮忙挑选最适合你的款式吧！"
 	}
 	pg.base.activity_ins_language.ins_discuss_663_2 = {
-		value = ""
+		value = "有没有那种能够让别人无法觉察视线的墨镜？"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_1 = {
-		value = ""
+		value = "大部分墨镜应该都有这个功能……？"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_2 = {
-		value = ""
+		value = "我都看到了哦！亚尔薇特会被发现完全是因为贴得太近了！"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_3 = {
-		value = ""
+		value = "……和什么贴得太近了？"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_4 = {
-		value = ""
+		value = "呵呵，我猜是…………"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_5 = {
-		value = ""
+		value = "当然是指挥官啦！她还以为不会被发现，其实都凑到指挥官脸上了！"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_6 = {
-		value = ""
+		value = "这应该不是换墨镜就能解决的问题了吧……"
 	}
 	pg.base.activity_ins_language.ins_op_663_1_1 = {
-		value = ""
+		value = "我全都要！"
 	}
 	pg.base.activity_ins_language.op_reply_663_1_1 = {
-		value = ""
+		value = "嘿嘿嘿……Thank you~"
 	}
 	pg.base.activity_ins_language.ins_op_663_1_2 = {
-		value = ""
+		value = "有适合我的款式么？"
 	}
 	pg.base.activity_ins_language.op_reply_663_1_2 = {
-		value = ""
+		value = "当然有！快来快来，我已经选出了适合你的几款！Let's try~"
 	}
 	pg.base.activity_ins_language.ins_664 = {
-		value = ""
+		value = "演出结束……感觉比上台的时候还紧张……！"
 	}
 	pg.base.activity_ins_language.ins_discuss_664_1 = {
-		value = ""
+		value = "欸？演出结束之后不应该会放松下来吗？"
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_1 = {
-		value = ""
+		value = "我猜维克斯堡是在担心大家的评价吧~"
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_2 = {
-		value = ""
+		value = "哎呀，不用多想，只要努力就没问题了！"
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_3 = {
-		value = ""
+		value = "不如说只要开心就好啦~"
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_4 = {
-		value = ""
+		value = "嗯！谢谢大家！"
 	}
 	pg.base.activity_ins_language.ins_discuss_664_2 = {
-		value = ""
+		value = "只要在手心写人字然后吞下去，就不会紧张了！"
 	}
 	pg.base.activity_ins_language.ins_reply_664_2_1 = {
-		value = ""
+		value = "这难道是重樱的某种秘法吗？我试试……！"
 	}
 	pg.base.activity_ins_language.ins_reply_664_2_2 = {
-		value = ""
+		value = "好像确实没那么紧张了！"
 	}
 	pg.base.activity_ins_language.ins_reply_664_2_3 = {
-		value = ""
+		value = "嗯嗯！不用太担心！{namecode:33}会送你好恰的糖果！"
 	}
 	pg.base.activity_ins_language.ins_op_664_1_1 = {
-		value = ""
+		value = "我会为维克斯堡应援的！"
 	}
 	pg.base.activity_ins_language.op_reply_664_1_1 = {
-		value = ""
+		value = "谢谢指挥官！感觉充满力量了！"
 	}
 	pg.base.activity_ins_language.ins_op_664_1_2 = {
-		value = ""
+		value = "维克斯堡，fight！维克斯堡，fight！"
 	}
 	pg.base.activity_ins_language.op_reply_664_1_2 = {
-		value = ""
+		value = "嘿嘿，我会努力fight的！"
 	}
 	pg.base.activity_ins_language.ins_665 = {
-		value = ""
+		value = "宠物视频，好可爱……关注了"
 	}
 	pg.base.activity_ins_language.ins_discuss_665_1 = {
-		value = ""
+		value = "光是看着它们的模样，就感觉被治愈了……"
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_1 = {
-		value = ""
+		value = "有种想要上手摸一摸的冲动呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_2 = {
-		value = ""
+		value = "唔……我也想刷到这种视频……"
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_3 = {
-		value = ""
+		value = "请求已收到。正在打包发送“喜欢宠物的人一定要关注的100个账号”——"
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_4 = {
-		value = ""
+		value = "……等下这是不是有点多了？"
 	}
 	pg.base.activity_ins_language.ins_discuss_665_2 = {
-		value = ""
+		value = "那我也可以创建一个分享宠物日常的账号！有什么建议吗？"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_1 = {
-		value = ""
+		value = "什么类型的宠物呢？"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_2 = {
-		value = ""
+		value = "是威风凛凛的大老虎哦！嘎哦！"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_3 = {
-		value = ""
+		value = "这么说来，我是不是也可以给我家的小铁也创建一个呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_4 = {
-		value = ""
+		value = "好新奇的赛道……各位要是创建的话我第一个关注"
 	}
 	pg.base.activity_ins_language.ins_op_665_1_1 = {
-		value = ""
+		value = "有没有考虑过自己也养一只？"
 	}
 	pg.base.activity_ins_language.op_reply_665_1_1 = {
-		value = ""
+		value = "总觉得会很麻烦，还是以负责任的态度云养吧……"
 	}
 	pg.base.activity_ins_language.ins_op_665_1_2 = {
-		value = ""
+		value = "去线下近距离接触一下怎么样？"
 	}
 	pg.base.activity_ins_language.op_reply_665_1_2 = {
-		value = ""
+		value = "如果是指挥官邀请的话……倒是能考虑考虑……"
 	}
 	pg.base.activity_ins_language.ins_666 = {
-		value = ""
+		value = "罗杰斯……！穿这么少会着凉的……！"
 	}
 	pg.base.activity_ins_language.ins_discuss_666_1 = {
-		value = ""
+		value = "都说衣服已经足够厚了啦！我都快热死了啦！！"
 	}
 	pg.base.activity_ins_language.ins_discuss_666_2 = {
-		value = ""
+		value = "呵呵，这似曾相识的景象真是让人怀念呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_666_2_1 = {
-		value = ""
+		value = "我们让指挥官好好休息的时候，指挥官也总是用工作之类的理由推脱呢~"
 	}
 	pg.base.activity_ins_language.ins_reply_666_2_2 = {
-		value = ""
+		value = "这或许就是所谓的“叛逆”……或者说成长吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_666_2_3 = {
-		value = ""
+		value = "即便如此，指挥官也依然是我们的好孩子呢~"
 	}
 	pg.base.activity_ins_language.ins_discuss_666_3 = {
-		value = ""
+		value = "哎呀哎呀……真是对关系要好的姐妹呢……"
 	}
 	pg.base.activity_ins_language.ins_reply_666_3_1 = {
-		value = ""
+		value = "呵呵，我也可以用衣服把你好好地埋起来唷，我亲爱的妹妹~"
 	}
 	pg.base.activity_ins_language.ins_reply_666_3_2 = {
-		value = ""
+		value = "呵呵，那我就等着你能追得上我的那一天了呢，我亲爱的姐姐~"
 	}
 	pg.base.activity_ins_language.ins_op_666_1_1 = {
-		value = ""
+		value = "这个季节需要穿这么多衣服么……"
 	}
 	pg.base.activity_ins_language.op_reply_666_1_1 = {
-		value = ""
+		value = "保暖当然是宜多不宜少啦！热了还可以脱，冷了可就麻烦啦！"
 	}
 	pg.base.activity_ins_language.ins_op_666_1_2 = {
-		value = ""
+		value = "我刚才好像看到罗杰斯跑过去了……"
 	}
 	pg.base.activity_ins_language.op_reply_666_1_2 = {
-		value = ""
+		value = "在哪在哪？指挥官快告诉我，我这就过来！"
 	}
 	pg.base.activity_ins_language.ins_667 = {
-		value = ""
+		value = "我已经是大人了！买东西这种小事，不用指挥官帮忙啦！"
 	}
 	pg.base.activity_ins_language.ins_discuss_667_1 = {
-		value = ""
+		value = "“谢谢你至今为止都容忍我的任性——”"
 	}
 	pg.base.activity_ins_language.ins_reply_667_1_1 = {
-		value = ""
+		value = "“你是我的指挥官真是太好了~”"
 	}
 	pg.base.activity_ins_language.ins_reply_667_1_2 = {
-		value = ""
+		value = "虽然不知道你们在说什么，但是莫名地有点火大……"
 	}
 	pg.base.activity_ins_language.ins_discuss_667_2 = {
-		value = ""
+		value = "出门的时候一定要注意安全哦？付钱的时候也要好好计算别数错了哦？"
 	}
 	pg.base.activity_ins_language.ins_reply_667_2_1 = {
-		value = ""
+		value = "呜哇我都说没问题了啦！"
 	}
 	pg.base.activity_ins_language.ins_discuss_667_3 = {
-		value = ""
+		value = "每当说没问题的时候，姐姐也一定会唠唠叨叨地追上我……"
 	}
 	pg.base.activity_ins_language.ins_reply_667_3_1 = {
-		value = ""
+		value = "这不是也蛮好的嘛，我倒是希望我的姐姐们能稍微靠谱一点呢……"
 	}
 end)()
 (function ()
 	pg.base.activity_ins_language.ins_reply_667_3_2 = {
-		value = ""
+		value = "不过呢，姐姐要是太靠谱的话，有时候也容易转不过弯呢"
 	}
 	pg.base.activity_ins_language.ins_reply_667_3_3 = {
-		value = ""
+		value = "支援这样的姐姐，也是我们身为妹妹的工作之一吧"
 	}
 	pg.base.activity_ins_language.ins_op_667_1_1 = {
-		value = ""
+		value = "加油，我相信你没问题的！"
 	}
 	pg.base.activity_ins_language.op_reply_667_1_1 = {
-		value = ""
+		value = "那个……我觉得我可能还需要一点小小的帮助……就一点点！"
 	}
 	pg.base.activity_ins_language.ins_op_667_1_2 = {
-		value = ""
+		value = "真的不需要我去帮你拿东西吗？"
 	}
 	pg.base.activity_ins_language.op_reply_667_1_2 = {
-		value = ""
+		value = "既……既然指挥官都这么说了……"
 	}
 	pg.base.activity_ins_language.ins_669 = {
 		value = ""
@@ -34659,6 +34694,111 @@ end)()
 		value = ""
 	}
 	pg.base.activity_ins_language.op_reply_20013_2_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_20014 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_5_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_7 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_8 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_9 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_9_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_10 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_10_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_10_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_10_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20014_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20014_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_2_3 = {
 		value = ""
 	}
 end)()

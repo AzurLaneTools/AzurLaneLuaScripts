@@ -121,6 +121,8 @@ pg.pay_data_display.all = {
 	9020,
 	9021,
 	9022,
+	9023,
+	9024,
 	1000,
 	1001,
 	1002,
@@ -249,7 +251,8 @@ pg.pay_data_display.all = {
 	5015,
 	5016,
 	5017,
-	70001
+	70001,
+	70002
 }
 pg.pay_data_display.get_id_list_by_extra_service = {
 	[0] = {
@@ -374,6 +377,8 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		9020,
 		9021,
 		9022,
+		9023,
+		9024,
 		2001,
 		2002,
 		2003,
@@ -506,7 +511,8 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		1302
 	},
 	[6] = {
-		70001
+		70001,
+		70002
 	}
 }
 pg.base = pg.base or {}
@@ -14882,6 +14888,276 @@ end)()
 			}
 		}
 	}
+	pg.base.pay_data_display[9023] = {
+		picture = "fudai39",
+		name = "幽影迷城换装礼盒II",
+		type = 1,
+		second_text = "大量奖励",
+		tag = 2,
+		subject = "幽影迷城换装礼盒II",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 198,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		limit_group = 0,
+		id = 9023,
+		type_order = 2,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.zuanshi222",
+		extra_gem = 0,
+		descrip = "可获得一件角色换装，2026钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond210",
+		name_display = "幽影迷城换装礼盒II",
+		first_text = "随机换装和大量钻石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86231,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86231,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81239,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86231,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	}
+	pg.base.pay_data_display[9024] = {
+		picture = "fudai28",
+		name = "忍者之城换装礼盒II复刻",
+		type = 1,
+		second_text = "大量奖励",
+		tag = 2,
+		subject = "忍者之城换装礼盒II复刻",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 198,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		limit_group = 0,
+		id = 9024,
+		type_order = 2,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.zuanshi223",
+		extra_gem = 0,
+		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond211",
+		name_display = "忍者之城换装礼盒II复刻",
+		first_text = "随机换装和大量钻石",
+		akashi_pick = 1,
+		skin_inquire_relation = 86218,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81218,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	}
 	pg.base.pay_data_display[1000] = {
 		picture = "battlepass_1",
 		name = "特许巡游凭证",
@@ -22004,6 +22280,8 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2051] = {
 		picture = "ui5",
 		name = "海滨假日主题礼包(基础版)",
@@ -22192,8 +22470,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2053] = {
 		picture = "tech5_display",
 		name = "最高方案研发礼包(五期)",
@@ -25925,6 +26201,78 @@ end)()
 					2026,
 					9,
 					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[70002] = {
+		picture = "",
+		name = "微笑的白色魅影",
+		ignorePlatform = "",
+		type = 0,
+		second_text = "",
+		tag = 0,
+		subject = "微笑的白色魅影",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 138,
+		descrip_extra = "",
+		limit_group = 0,
+		id = 70002,
+		type_order = 0,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 168,
+		id_str = "com.bilibili.blhx.skin2",
+		extra_gem = 0,
+		descrip = "微笑的白色魅影",
+		airijp_id = "com.yostarjp.azurlane.skin2",
+		display = "",
+		name_display = "微笑的白色魅影",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 6,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				7,
+				9600033,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					23
 				},
 				{
 					23,
