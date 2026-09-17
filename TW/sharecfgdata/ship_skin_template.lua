@@ -251585,7 +251585,7 @@ _G.pg.base.ship_skin_template[802013] = {
 
 
 _G.pg.base.ship_skin_template[802014] = {
-	name = "閃耀的「魔法」",
+	name = "閃耀魔法",
 	shop_offset = "",
 	change_skin = "",
 	illustrator2 = -1,

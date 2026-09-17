@@ -357,7 +357,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "此時，小船忽然輕輕搖晃了一下，原本就傾向我的不撓，紮實實就摔進了我懷裡。",
+			say = "此時，小船忽然輕輕搖晃了一下，原本就傾向我的不撓，紮紮實實就摔進了我懷裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

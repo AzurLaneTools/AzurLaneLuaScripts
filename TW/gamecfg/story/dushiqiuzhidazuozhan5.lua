@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——發現妳的優勢，搭配妳的未來，讓適合妳的工作找到你！",
+			say = "——發現妳的優勢，搭配妳的未來，讓適合妳的工作找到妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -26310,7 +26310,7 @@ _G.pg.base.gametip.world_boss_switch_archives = {
 
 
 _G.pg.base.gametip.world_boss_switch_archives_success = {
-	tip = "開啟成功，可在檔案信標界面進行解析"
+	tip = "開啟成功，可在檔案信標介面進行解析"
 }
 
 
