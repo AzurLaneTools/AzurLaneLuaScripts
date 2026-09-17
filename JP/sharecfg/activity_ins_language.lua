@@ -8604,7 +8604,42 @@ pg.activity_ins_language.all = {
 	"op_reply_20013_2_2",
 	"op_reply_20013_2_3",
 	"op_reply_20013_2_4",
-	"op_reply_20013_2_5"
+	"op_reply_20013_2_5",
+	"ins_20014",
+	"ins_discuss_20014_1",
+	"ins_reply_20014_1_1",
+	"ins_reply_20014_1_2",
+	"ins_reply_20014_1_3",
+	"ins_reply_20014_1_4",
+	"ins_discuss_20014_2",
+	"ins_discuss_20014_3",
+	"ins_reply_20014_3_1",
+	"ins_reply_20014_3_2",
+	"ins_discuss_20014_4",
+	"ins_reply_20014_4_1",
+	"ins_reply_20014_4_2",
+	"ins_reply_20014_4_3",
+	"ins_reply_20014_4_4",
+	"ins_discuss_20014_5",
+	"ins_reply_20014_5_1",
+	"ins_discuss_20014_6",
+	"ins_discuss_20014_7",
+	"ins_discuss_20014_8",
+	"ins_discuss_20014_9",
+	"ins_reply_20014_9_1",
+	"ins_discuss_20014_10",
+	"ins_reply_20014_10_1",
+	"ins_reply_20014_10_2",
+	"ins_reply_20014_10_3",
+	"ins_op_20014_1_1",
+	"op_reply_20014_1_1",
+	"op_reply_20014_1_2",
+	"op_reply_20014_1_3",
+	"op_reply_20014_1_4",
+	"ins_op_20014_1_2",
+	"op_reply_20014_2_1",
+	"op_reply_20014_2_2",
+	"op_reply_20014_2_3"
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_language = {}
@@ -32544,492 +32579,492 @@ end)()
 		value = "いいですね！散歩したら、また焼肉モリモリ食べましょう！"
 	}
 	pg.base.activity_ins_language.ins_658 = {
-		value = ""
+		value = "紙の記録媒体なんて非効率的だな。１枚１枚なんて読んでいられるか"
 	}
 	pg.base.activity_ins_language.ins_discuss_658_1 = {
-		value = ""
+		value = "紙に宿るは文字のみにあらず、指先より紡ぎ出す思考と情念の結びなり……"
 	}
 	pg.base.activity_ins_language.ins_reply_658_1_1 = {
-		value = ""
+		value = "文字そのものだけでなく、それを記した紙にもまた特別なメッセージが込められているんですよ"
 	}
 	pg.base.activity_ins_language.ins_reply_658_1_2 = {
-		value = ""
+		value = "同じ言葉でも、載せる媒体が違えば……人に与える印象もまた変わるかもしれませんね"
 	}
 	pg.base.activity_ins_language.ins_reply_658_1_3 = {
-		value = ""
+		value = "それにたとえ同じ文字であっても、そこに刻まれる痕跡や温度は都度異なるというもの……"
 	}
 	pg.base.activity_ins_language.ins_discuss_658_2 = {
-		value = ""
+		value = "そうだよぉ！付箋や手紙でやりとりするなんて……もどかしすぎるよぉ…！"
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_1 = {
-		value = ""
+		value = "あれこれと想いが募っているのなら、相手にストレートに伝えてしまったほうがいいわ～"
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_2 = {
-		value = ""
+		value = "もちろん、行動に移す前には相応の準備もしておくべきよ"
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_3 = {
-		value = ""
+		value = "そんな回りくどいことをせずとも！十分な情熱さえあれば……うふふ……"
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_4 = {
-		value = ""
+		value = "えっと……みんなA2と話が噛み合ってないかと……"
 	}
 	pg.base.activity_ins_language.ins_op_658_1_1 = {
-		value = ""
+		value = "同時に何枚も目を通せば効率は上がるだろ？"
 	}
 	pg.base.activity_ins_language.op_reply_658_1_1 = {
-		value = ""
+		value = "多少は上がるだろうが……それでいいのか……？"
 	}
 	pg.base.activity_ins_language.ins_op_658_1_2 = {
-		value = ""
+		value = "ほかの場所で読めば、気分も変わるかも？"
 	}
 	pg.base.activity_ins_language.op_reply_658_1_2 = {
-		value = ""
+		value = "そういうものか。それなら執務室に向かうぞ"
 	}
 	pg.base.activity_ins_language.ins_659 = {
-		value = ""
+		value = "見たことのない新型装備がこんなに……性能はどれほどのものだろう"
 	}
 	pg.base.activity_ins_language.ins_discuss_659_1 = {
-		value = ""
+		value = "ふふん……想像も軽く超える威力でございまぁーす！"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_1 = {
-		value = ""
+		value = "もしかしてその倉庫にオレグの新作が置いてあるの？"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_2 = {
-		value = ""
+		value = "新作？最近オレグがテスト申請を出した覚えはないけど"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_3 = {
-		value = ""
+		value = "まあまあ安心して！私の発明は安心安全だから！"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_4 = {
-		value = ""
+		value = "……安全に爆発するって意味か？"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_5 = {
-		value = ""
+		value = "爆発しない発明なんて、失敗作も同然ですからあ～！"
 	}
 	pg.base.activity_ins_language.ins_discuss_659_2 = {
-		value = ""
+		value = "じゃあこれを機に試してみない？ほら、この爆弾とか良さそうだし！"
 	}
 	pg.base.activity_ins_language.ins_reply_659_2_1 = {
-		value = ""
+		value = "武器をテストするなら、やっぱり実戦に限るよね！"
 	}
 	pg.base.activity_ins_language.ins_reply_659_2_2 = {
-		value = ""
+		value = "これは……戦いの気配を感じるわね！"
 	}
 	pg.base.activity_ins_language.ins_reply_659_2_3 = {
-		value = ""
+		value = "その通り！武器は戦場でこそ輝くのだ！"
 	}
 	pg.base.activity_ins_language.ins_op_659_1_1 = {
-		value = ""
+		value = "データはあるけど興味ある？すぐ送れるけど"
 	}
 	pg.base.activity_ins_language.op_reply_659_1_1 = {
-		value = ""
+		value = "助かる、指揮官"
 	}
 	pg.base.activity_ins_language.ins_op_659_1_2 = {
-		value = ""
+		value = "いっそ自分の手で試してみる？場所を用意するけど"
 	}
 	pg.base.activity_ins_language.op_reply_659_1_2 = {
-		value = ""
+		value = "すぐに向かおう"
 	}
 	pg.base.activity_ins_language.ins_660 = {
-		value = ""
+		value = "完全に理解できたような……？"
 	}
 	pg.base.activity_ins_language.ins_discuss_660_1 = {
-		value = ""
+		value = "なんてぇ……神秘的なイラスト☆"
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_1 = {
-		value = ""
+		value = "ええと……何か感情みたいなものが感じ取れますが、うまく言葉にできませんね……"
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_2 = {
-		value = ""
+		value = "アンカレッジ……わかんない……くらくらする……"
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_3 = {
-		value = ""
+		value = "よくわからないです……"
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_4 = {
-		value = ""
+		value = "これは…落ち着いて鑑賞してみれば分かるはず…です！"
 	}
 	pg.base.activity_ins_language.ins_discuss_660_2 = {
-		value = ""
+		value = "ふふん、何と言ってもこの飛雲さまが丹精込めて描いた逸品だからね！"
 	}
 	pg.base.activity_ins_language.ins_reply_660_2_1 = {
-		value = ""
+		value = "そうだそうだ！これはあたしたちが編み出した描き方なんだぞ！"
 	}
 	pg.base.activity_ins_language.ins_reply_660_2_2 = {
-		value = ""
+		value = "これは……今まで見た中で一番自由奔放な絵かもしれない……"
 	}
 	pg.base.activity_ins_language.ins_reply_660_2_3 = {
-		value = ""
+		value = "少なくとも、その発想力は評価すべきですわ……"
 	}
 	pg.base.activity_ins_language.ins_op_660_1_1 = {
-		value = ""
+		value = "完全に理解した"
 	}
 	pg.base.activity_ins_language.op_reply_660_1_1 = {
-		value = ""
+		value = "うんうん、指揮官さんはすーぱーナイスセンス、ですわ♪"
 	}
 	pg.base.activity_ins_language.ins_op_660_1_2 = {
-		value = ""
+		value = "今度解説をお願いするよ"
 	}
 	pg.base.activity_ins_language.op_reply_660_1_2 = {
-		value = ""
+		value = "はい！指揮官さんのご依頼はいつでも喜んでお受けしますわ"
 	}
 	pg.base.activity_ins_language.ins_661 = {
-		value = ""
+		value = "一つ目の仕事、雑草取り、完了です。二つ目の仕事、アフタヌーンティーの準備……"
 	}
 	pg.base.activity_ins_language.ins_discuss_661_1 = {
-		value = ""
+		value = "道理でさっきからガシャンガシャンって音がしたわけね……"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_1 = {
-		value = ""
+		value = "皆様にご迷惑をおかけしてしまい、誠に申し訳ございません。後片付けは既に完了しております。どうかご安心ください"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_2 = {
-		value = ""
+		value = "久しぶりにシリアスに匹敵する逸材を見ましたね"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_3 = {
-		value = ""
+		value = "なるほど、シリアスと同じタイプのロイヤルメイドですね。シリアス、しっかりフォローさせていただきます"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_4 = {
-		value = ""
+		value = "かしこまりました。ではシリアスのところへ向かい、勉強をさせていただきます"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_5 = {
-		value = ""
+		value = "今サリーが芝刈り機に乗ったまま飛び出したような……？"
 	}
 	pg.base.activity_ins_language.ins_discuss_661_2 = {
-		value = ""
+		value = "そもそもどうして草刈り機に乗ったままアフタヌーンティーの会場に入ったんですか…？"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_1 = {
-		value = ""
+		value = "雑草取りが完了し、次の仕事がアフタヌーンティーの準備でしたので"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_2 = {
-		value = ""
+		value = "いや、順番の話じゃなくて、どうして草刈り機に乗っていたかを聞きたくて……"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_3 = {
-		value = ""
+		value = "雑草取りが完了し、次の仕事がアフタヌーンティーの準備でしたので"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_4 = {
-		value = ""
+		value = "指示が少し曖昧だったせいかもしれません"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_5 = {
-		value = ""
+		value = "雑草取りが終わったら、草刈り機から降りてください。会場に入るのはそれからですよ"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_6 = {
-		value = ""
+		value = "それって当たり前のことなんじゃ…？"
 	}
 	pg.base.activity_ins_language.ins_op_661_1_1 = {
-		value = ""
+		value = "今も草刈り機に乗ってるのか？"
 	}
 	pg.base.activity_ins_language.op_reply_661_1_1 = {
-		value = ""
+		value = "メイド長のご指摘を受け、歩行に切り替えました"
 	}
 	pg.base.activity_ins_language.ins_op_661_1_2 = {
-		value = ""
+		value = "サリー、怪我はないか？"
 	}
 	pg.base.activity_ins_language.op_reply_661_1_2 = {
-		value = ""
+		value = "指揮官さま、ご安心ください。怪我人は一人もおりません"
 	}
 	pg.base.activity_ins_language.ins_662 = {
-		value = ""
+		value = "新しい技を覚えたよ！"
 	}
 	pg.base.activity_ins_language.ins_discuss_662_1 = {
-		value = ""
+		value = "盾ってそんな使い方もできるの！？"
 	}
 	pg.base.activity_ins_language.ins_reply_662_1_1 = {
-		value = ""
+		value = "でも、戦闘中に盾を投げてしまいましたら……どうやって回収するんですか？"
 	}
 	pg.base.activity_ins_language.ins_reply_662_1_2 = {
-		value = ""
+		value = "大丈夫……力<†フォース†>が盾を手元まで導いてくれますから……"
 	}
 	pg.base.activity_ins_language.ins_reply_662_1_3 = {
-		value = ""
+		value = "リノ、一日中そうやって遊んでられるよ！"
 	}
 	pg.base.activity_ins_language.ins_discuss_662_2 = {
-		value = ""
+		value = "回れ回れマイグリフォン"
 	}
 	pg.base.activity_ins_language.ins_reply_662_2_1 = {
-		value = ""
+		value = "もう決してコケませんように"
 	}
 	pg.base.activity_ins_language.ins_reply_662_2_2 = {
-		value = ""
+		value = "これって、何か新しい褒め方なの……？"
 	}
 	pg.base.activity_ins_language.ins_discuss_662_3 = {
-		value = ""
+		value = "あのちびっ子たちは、まだこの技に慣れていないみたいだが……"
 	}
 	pg.base.activity_ins_language.ins_reply_662_3_1 = {
-		value = ""
+		value = "でも、みんなノリノリみたいよ？面白いからいいんじゃない？"
 	}
 	pg.base.activity_ins_language.ins_reply_662_3_2 = {
-		value = ""
+		value = "どう見てもノリノリって雰囲気じゃないと思いますけど…"
 	}
 	pg.base.activity_ins_language.ins_op_662_1_1 = {
-		value = ""
+		value = "カッコいい新技だ！"
 	}
 	pg.base.activity_ins_language.op_reply_662_1_1 = {
-		value = ""
+		value = "えへへ、指揮官も一緒にやってみよう！"
 	}
 	pg.base.activity_ins_language.ins_op_662_1_2 = {
-		value = ""
+		value = "また盾をなくしたりしないようにね"
 	}
 end)()
 (function ()
 	pg.base.activity_ins_language.op_reply_662_1_2 = {
-		value = ""
+		value = "……もう絶対になくさないからっ！"
 	}
 	pg.base.activity_ins_language.ins_668 = {
-		value = ""
+		value = "ふっふん、いい見晴らしねー"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_1 = {
-		value = ""
+		value = "うわぁーー威風堂々の天津風さまだ！"
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_1 = {
-		value = ""
+		value = "立派な駕籠ね……いったいどれほどの武勲を立てたのかしら？"
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_2 = {
-		value = ""
+		value = "喜ばせてくれるじゃない！ご褒美にこの乗籠に乗る資格をくれてやる！"
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_3 = {
-		value = ""
+		value = "ここまで分け隔てなく接してくれるとは、これが将の器というものなのね……"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_2 = {
-		value = ""
+		value = "ちょっと！それ私のものよ！なんで勝手に持ち出してるのよ！"
 	}
 	pg.base.activity_ins_language.ins_reply_668_2_1 = {
-		value = ""
+		value = "自分でも忘れかけてたでしょ……？"
 	}
 	pg.base.activity_ins_language.ins_reply_668_2_2 = {
-		value = ""
+		value = "こんな見事な駕籠を放置するなんて宝の持ち腐れよ！大丈夫、あたしが大事に使ってやるから！"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_3 = {
-		value = ""
+		value = "これなら指揮官との身長差も埋められそうですの♪"
 	}
 	pg.base.activity_ins_language.ins_reply_668_3_1 = {
-		value = ""
+		value = "いっそ跳びついて抱きつくのも手よ？"
 	}
 	pg.base.activity_ins_language.ins_op_668_1_1 = {
-		value = ""
+		value = "威風堂々の天津風だ！"
 	}
 	pg.base.activity_ins_language.op_reply_668_1_1 = {
-		value = ""
+		value = "あなたの席はちゃんと空けておいたわ。乗り遅れたらもう知らないから！"
 	}
 	pg.base.activity_ins_language.ins_op_668_1_2 = {
-		value = ""
+		value = "どこへ向かってるんだ？"
 	}
 	pg.base.activity_ins_language.op_reply_668_1_2 = {
-		value = ""
+		value = "当ててみる？当たったら、ご褒美に一緒に連れてってやる♪"
 	}
 	pg.base.activity_ins_language.ins_663 = {
-		value = ""
+		value = "カッコいいサングラスはどう？たくさんあるから、絶対お気に入りが見つかるはず！"
 	}
 	pg.base.activity_ins_language.ins_discuss_663_1 = {
-		value = ""
+		value = "欲しいけど……それ売り物なの？姉貴がまーた私のサングラスを持っていっちゃってさ……"
 	}
 	pg.base.activity_ins_language.ins_reply_663_1_1 = {
-		value = ""
+		value = "どれを気に行ったの？ タダであげるよ！"
 	}
 	pg.base.activity_ins_language.ins_reply_663_1_2 = {
-		value = ""
+		value = "ありがとう！じゃあせっかくなら、最新モデルにしようかな……"
 	}
 	pg.base.activity_ins_language.ins_reply_663_1_3 = {
-		value = ""
+		value = "一番似合うのを選んであげるっす！"
 	}
 	pg.base.activity_ins_language.ins_discuss_663_2 = {
-		value = ""
+		value = "視線がバレないタイプのサングラスはあるかしら？"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_1 = {
-		value = ""
+		value = "たいていのサングラスってそういうもんじゃ……？"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_2 = {
-		value = ""
+		value = "あたしは見てたよ～！アルヴィトがバレたのは完全にくっつきすぎたから☆"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_3 = {
-		value = ""
+		value = "くっつきすぎたって、何に？"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_4 = {
-		value = ""
+		value = "それはもちろん…………"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_5 = {
-		value = ""
+		value = "指揮官に決まってるよ！バレないと思ってたみたいだけど、もう顔にくっつく勢いだったんだよ！"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_6 = {
-		value = ""
+		value = "サングラスを替えたところでどうにかなるものじゃない……"
 	}
 	pg.base.activity_ins_language.ins_op_663_1_1 = {
-		value = ""
+		value = "全部欲しい！"
 	}
 	pg.base.activity_ins_language.op_reply_663_1_1 = {
-		value = ""
+		value = "Heh, heh, heh...Thank you～"
 	}
 	pg.base.activity_ins_language.ins_op_663_1_2 = {
-		value = ""
+		value = "自分に合うのはある？"
 	}
 	pg.base.activity_ins_language.op_reply_663_1_2 = {
-		value = ""
+		value = "もちろん！指揮官にぴったりのを何本か選んであるよ！Let’s try～"
 	}
 	pg.base.activity_ins_language.ins_664 = {
-		value = ""
+		value = "ステージが終わったけど、なんか本番の時よりもドキドキしてるような……！"
 	}
 	pg.base.activity_ins_language.ins_discuss_664_1 = {
-		value = ""
+		value = "ん？普通は終わったらホッとするものじゃないの？"
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_1 = {
-		value = ""
+		value = "たぶんみんなの反応が気になってるからだと思うよ"
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_2 = {
-		value = ""
+		value = "思い悩まなくていいよ～。頑張ったならそれで大丈夫！"
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_3 = {
-		value = ""
+		value = "楽しめたらそれでいいよ～"
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_4 = {
-		value = ""
+		value = "はい！皆さん、ありがとうございます！"
 	}
 	pg.base.activity_ins_language.ins_discuss_664_2 = {
-		value = ""
+		value = "てのひらにひとのじをかいてのんだら、きんちょうしなくなる！"
 	}
 	pg.base.activity_ins_language.ins_reply_664_2_1 = {
-		value = ""
+		value = "重桜に伝わるコツなのですか？やってみます……！"
 	}
 	pg.base.activity_ins_language.ins_reply_664_2_2 = {
-		value = ""
+		value = "さっきより肩の力が抜けた気がします！"
 	}
 	pg.base.activity_ins_language.ins_reply_664_2_3 = {
-		value = ""
+		value = "うん！しんぱいしない！睦月がおいちいアメさんあげる！"
 	}
 	pg.base.activity_ins_language.ins_op_664_1_1 = {
-		value = ""
+		value = "ヴィックスバーグを応援してるよ！"
 	}
 	pg.base.activity_ins_language.op_reply_664_1_1 = {
-		value = ""
+		value = "指揮官、ありがとうございます！おかげさまで元気一杯になりました！"
 	}
 	pg.base.activity_ins_language.ins_op_664_1_2 = {
-		value = ""
+		value = "ヴィックスバーグ、ファイト！"
 	}
 	pg.base.activity_ins_language.op_reply_664_1_2 = {
-		value = ""
+		value = "頑張って～ファイトォ！"
 	}
 	pg.base.activity_ins_language.ins_665 = {
-		value = ""
+		value = "ペットの動画、かわいい……フォローしよっと"
 	}
 	pg.base.activity_ins_language.ins_discuss_665_1 = {
-		value = ""
+		value = "見てるだけで癒やされます……"
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_1 = {
-		value = ""
+		value = "思わず撫でたくなるわ～"
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_2 = {
-		value = ""
+		value = "こっちにもそういう動画が流れてきてほしいものだ……"
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_3 = {
-		value = ""
+		value = "リクエストを受信。「動物好きならフォローすべき100アカウント」を一括送信する"
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_4 = {
-		value = ""
+		value = "待て。さすがに多すぎないか？"
 	}
 	pg.base.activity_ins_language.ins_discuss_665_2 = {
-		value = ""
+		value = "ケント選手もペットの日常をシェアするアカウントを作ろうか！アドバイス募集中！"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_1 = {
-		value = ""
+		value = "どんなペットなの？"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_2 = {
-		value = ""
+		value = "凛々しいタイガーちゃんだよ！ガオー！"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_3 = {
-		value = ""
+		value = "うちのアイゼンくんにもアカウント作ったほうがいいかな～"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_4 = {
-		value = ""
+		value = "なかなか斬新ね……作ったら一番にフォローするよ"
 	}
 	pg.base.activity_ins_language.ins_op_665_1_1 = {
-		value = ""
+		value = "自分で飼ってみるのは？"
 	}
 	pg.base.activity_ins_language.op_reply_665_1_1 = {
-		value = ""
+		value = "なんか大変そうだし、責任重大だから動画で楽しむだけにするよ……"
 	}
 	pg.base.activity_ins_language.ins_op_665_1_2 = {
-		value = ""
+		value = "動物たちと触れ合ってみたら？"
 	}
 	pg.base.activity_ins_language.op_reply_665_1_2 = {
-		value = ""
+		value = "指揮官が誘ってくれるなら……考えなくもないけど……"
 	}
 	pg.base.activity_ins_language.ins_666 = {
-		value = ""
+		value = "ロジャース……！そんな薄着だと風邪ひいちゃうよ……！"
 	}
 	pg.base.activity_ins_language.ins_discuss_666_1 = {
-		value = ""
+		value = "もう十分だってば！これでも暑くて死にそうなんだけど！"
 	}
 	pg.base.activity_ins_language.ins_discuss_666_2 = {
-		value = ""
+		value = "この見覚えのある光景…とても微笑ましいわ"
 	}
 	pg.base.activity_ins_language.ins_reply_666_2_1 = {
-		value = ""
+		value = "指揮官を休ませようとした時も、いつも仕事を口実にはぐらかしてくるし、似てるわね"
 	}
 	pg.base.activity_ins_language.ins_reply_666_2_2 = {
-		value = ""
+		value = "曰く「反抗期」……あるいは、成長と呼ぶべきかしら？"
 	}
 	pg.base.activity_ins_language.ins_reply_666_2_3 = {
-		value = ""
+		value = "それでもボウヤは私たちのいい子よ"
 	}
 	pg.base.activity_ins_language.ins_discuss_666_3 = {
-		value = ""
+		value = "あらあら……仲睦まじい姉妹ですこと……"
 	}
 	pg.base.activity_ins_language.ins_reply_666_3_1 = {
-		value = ""
+		value = "私だって服ですっぽりと埋めてあげられますわよ。可愛い妹～"
 	}
 	pg.base.activity_ins_language.ins_reply_666_3_2 = {
-		value = ""
+		value = "じゃあ白鳳に追いつける日を楽しみにしていますわ。親愛なるお姉さま～"
 	}
 	pg.base.activity_ins_language.ins_op_666_1_1 = {
-		value = ""
+		value = "時期的にそんなに着込む必要が？"
 	}
 	pg.base.activity_ins_language.op_reply_666_1_1 = {
-		value = ""
+		value = "温度調整は薄着より厚着のほうがいいよ！暑かったら脱げば大丈夫だけど、寒かったら大変なんだもの！"
 	}
 	pg.base.activity_ins_language.ins_op_666_1_2 = {
-		value = ""
+		value = "さっきロジャースが走っていったよ"
 	}
 	pg.base.activity_ins_language.op_reply_666_1_2 = {
-		value = ""
+		value = "どこに行ったの？指揮官教えて！すぐ向かうから！"
 	}
 	pg.base.activity_ins_language.ins_667 = {
-		value = ""
+		value = "もうオトナだからね！買い物くらい、指揮官に手伝ってもらわなくてもできるの！"
 	}
 	pg.base.activity_ins_language.ins_discuss_667_1 = {
-		value = ""
+		value = "「今まで私のワガママに付き合ってくれてありがとう——」"
 	}
 	pg.base.activity_ins_language.ins_reply_667_1_1 = {
-		value = ""
+		value = "「あなたが指揮官でよかった〜」"
 	}
 	pg.base.activity_ins_language.ins_reply_667_1_2 = {
-		value = ""
+		value = "何の話か分からないけど、なんかムカつく……"
 	}
 	pg.base.activity_ins_language.ins_discuss_667_2 = {
-		value = ""
+		value = "お出かけする時は安全に気をつけてね？お会計の時もちゃんと数え間違えないようにね？"
 	}
 	pg.base.activity_ins_language.ins_reply_667_2_1 = {
-		value = ""
+		value = "うわーん！大丈夫だって言ったでしょー！"
 	}
 	pg.base.activity_ins_language.ins_discuss_667_3 = {
-		value = ""
+		value = "大丈夫って言っても、結局お姉ちゃんは毎回ぶつぶつしながら追いかけてくるよね……"
 	}
 	pg.base.activity_ins_language.ins_reply_667_3_1 = {
-		value = ""
+		value = "それはそれでいいじゃない。こっちはお姉ちゃんたちにしっかりしてほしいと願うばかりよ……"
 	}
 	pg.base.activity_ins_language.ins_reply_667_3_2 = {
-		value = ""
+		value = "まあしっかりしすぎても、かえって頭が回らなくなる時だってあるよね"
 	}
 	pg.base.activity_ins_language.ins_reply_667_3_3 = {
-		value = ""
+		value = "そんな姉さんを支えるのも、妹である私たちの役目の一つですね"
 	}
 	pg.base.activity_ins_language.ins_op_667_1_1 = {
-		value = ""
+		value = "ロジャースならきっと大丈夫！"
 	}
 	pg.base.activity_ins_language.op_reply_667_1_1 = {
-		value = ""
+		value = "もしかしたら、ちょっとだけ手を貸してもらうかも……ほんのちょっとだけ！"
 	}
 	pg.base.activity_ins_language.ins_op_667_1_2 = {
-		value = ""
+		value = "荷物持ちを手伝わなくて大丈夫？"
 	}
 	pg.base.activity_ins_language.op_reply_667_1_2 = {
-		value = ""
+		value = "指揮官がそこまで言うなら……"
 	}
 	pg.base.activity_ins_language.ins_669 = {
 		value = ""
@@ -34583,6 +34618,111 @@ end)()
 end)()
 (function ()
 	pg.base.activity_ins_language.op_reply_20013_2_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_20014 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_5_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_7 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_8 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_9 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_9_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_10 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_10_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_10_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_10_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20014_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20014_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_2_3 = {
 		value = ""
 	}
 end)()

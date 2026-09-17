@@ -6,6 +6,7 @@ slot0.ON_CHANGE = "SpWeaponInfoMediator.ON_CHANGE"
 slot0.ON_UNEQUIP = "SpWeaponInfoMediator:ON_UNEQUIP"
 slot0.ON_MOVE = "SpWeaponInfoMediator:ON_MOVE"
 slot0.ON_MODIFY = "SpWeaponInfoMediator:ON_MODIFY"
+slot0.ON_SKIP_UNIQUE_SHIPS = "SpWeaponInfoMediator:ON_SKIP_UNIQUE_SHIPS"
 
 slot0.register = function(slot0)
 	slot0:BindEvent()
@@ -113,6 +114,17 @@ slot0.BindEvent = function(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
 			page = 2,
 			shipId = slot1
+		})
+	end)
+	slot0:bind(uv0.ON_SKIP_UNIQUE_SHIPS, function (slot0, slot1)
+		if getProxy(ContextProxy):getCurrentContext() and slot2.scene == SCENE.EQUIPSCENE then
+			slot2.data.warp = StoreHouseConst.WARP_TO_WEAPON
+			slot2.data.mode = StoreHouseConst.SPWEAPON
+		end
+
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+			shipVOs = slot1.shipVOs,
+			mode = DockyardScene.MODE_OVERVIEW
 		})
 	end)
 end

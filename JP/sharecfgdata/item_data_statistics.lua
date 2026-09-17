@@ -125879,6 +125879,73 @@ _G.pg.base.item_data_statistics[81238] = {
 }
 
 
+_G.pg.base.item_data_statistics[81239] = {
+	open_directly = 1,
+	name = "九周年福袋B",
+	type = 17,
+	display = "ランダムな（九周年福袋Bの）着せ替え衣装、上級指向型強化ユニット・九期目×2、ダイヤ×2026、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai39",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998334",
+	id = 81239,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86231,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81407] = {
 	open_directly = 1,
 	name = "選べる迎春パック2025A",

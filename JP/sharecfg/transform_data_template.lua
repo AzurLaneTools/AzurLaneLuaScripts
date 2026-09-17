@@ -7890,7 +7890,7 @@ end)()
 	pg.base.transform_data_template[6011] = {
 		level_limit = 85,
 		name = "近代化改修",
-		descrip = "",
+		descrip = "近代化改修完了。対空+20、装填+25\n改造後、スキル【BIG SEVEN】が【BIG SEVEN·コロラド】に強化されます",
 		max_level = 1,
 		skin_id = 105099,
 		use_ship = 1,
@@ -8357,7 +8357,7 @@ end)()
 	pg.base.transform_data_template[6111] = {
 		level_limit = 85,
 		name = "近代化改修",
-		descrip = "",
+		descrip = "近代化改修完了。対空+20、装填+25\n改造後、スキル【BIG SEVEN】が【BIG SEVEN·メリーランド】に強化されます",
 		max_level = 1,
 		skin_id = 105109,
 		use_ship = 1,
@@ -14556,7 +14556,7 @@ end)()
 	pg.base.transform_data_template[9411] = {
 		level_limit = 85,
 		name = "近代化改修",
-		descrip = "",
+		descrip = "近代化改修完了。雷装+25、回避+20\n改造後<color=#92fc63>【主砲砲座+1】</color>",
 		max_level = 1,
 		skin_id = 201149,
 		use_ship = 1,
@@ -17184,7 +17184,12 @@ end)()
 	pg.base.transform_data_template[11511] = {
 		level_limit = 85,
 		name = "近代化改修",
-		descrip = "",
+		descrip = [[
+改造（近代化改修）完了。対空+60
+改造後、主砲砲座+1、開始時魚雷+1、対空砲砲座+1
+スキル<color=#92fc63>【煙幕散布·軽巡】</color>は<color=#92fc63>【煙幕散布·ベルファスト】</color>に強化、スキル<color=#92fc63>【全弾発射-ベルファストII】</color>は
+<color=#92fc63>【全弾発射-ベルファストIII】</color>に強化されました
+兵装枠威力補正が130%/155%/120%に変更]],
 		max_level = 1,
 		skin_id = 202129,
 		use_ship = 1,

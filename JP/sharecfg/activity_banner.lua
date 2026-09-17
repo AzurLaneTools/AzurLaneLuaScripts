@@ -148,7 +148,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					8
+					17
 				},
 				{
 					0,

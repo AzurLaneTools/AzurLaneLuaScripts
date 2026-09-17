@@ -9316,7 +9316,6 @@ end)()
 		main = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		battle = "",
 		login = {
@@ -9335,6 +9334,12 @@ end)()
 			{
 				1100,
 				"粘り強く、そして攻勢に出る時は果敢に…なるほど、あなたの作戦はいつも勉強になるわね"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"ふふふ。これでは足りないわ～し・き・かん♪"
 			}
 		},
 		detail = {
@@ -16013,7 +16018,6 @@ end)()
 		main = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		login = {
 			{
@@ -16037,6 +16041,12 @@ end)()
 			{
 				1100,
 				"絡みついたらもう遅いわぁ～♡"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"指揮官さまの手つき、癖になりそうだわぁ……♡"
 			}
 		},
 		detail = {
