@@ -25,7 +25,8 @@ pg.world_joint_boss_template.all = {
 	20,
 	21,
 	22,
-	23
+	23,
+	24
 }
 pg.base = pg.base or {}
 pg.base.world_joint_boss_template = {}
@@ -609,6 +610,7 @@ pg.base.world_joint_boss_template = {}
 	pg.base.world_joint_boss_template[18] = {
 		name = "호넷·META",
 		boss_level_id = 256,
+		state = "always",
 		item_id = 100000,
 		painting = "dahuangfeng",
 		meta_id = 970706,
@@ -623,32 +625,6 @@ pg.base.world_joint_boss_template = {}
 				"고스트 오퍼레이션",
 				1,
 				"전투 중 18초마다 자신에게 「광학 위장」을 부여한다(최대 3개까지). 부여된 「광학 위장」 1개당 <color=#92fc63>회피율이 6% 상승</color>한다. \n「광학 위장」이 3개 부여되면 전자 임펄스 공격을 실시하고, <color=#92fc63>5초 동안 아군에게 시야 불량 효과를 부여한다(시야가 좁아지며 주포 공격 및 항공 공격을 사용할 수 없게 됨)</color>. "
-			}
-		},
-		state = {
-			{
-				{
-					2025,
-					3,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -885,6 +861,68 @@ pg.base.world_joint_boss_template = {}
 		p_offset_other = {
 			261,
 			495,
+			0.7,
+			0.7
+		}
+	}
+	pg.base.world_joint_boss_template[24] = {
+		name = "새러토가·META",
+		boss_level_id = 346,
+		item_id = 100000,
+		painting = "salatuojia",
+		meta_id = 970710,
+		id = 24,
+		description = {
+			{
+				"퍼니시★프롬 스카이",
+				3,
+				[[
+전투 중, 궤도 병기에 의한 지원 출현.
+1. 대규모 장거리 포격
+2. 대규모 항공 병기 지원
+3. 목표 록온(8초 동안 아군 <color=#92fc63>선봉함대 선두 함선이 받는 피해량 100% 증가</color>, 이 효과는 15초에 1번만 발동 가능)]]
+			},
+			{
+				"체인지★배틀 뮤직",
+				1,
+				"새러토가·META의 장갑 타입이 25초마다 <color=#92fc63>중형 장갑/중장갑으로 교체된다(우측 상단에 장갑 타입 변경 카운트다운이 출현, 전투 시작 시에는 중형 장갑). 장갑 타입이 교체될 때마다 함재기에 의한 항공 공격을 퍼붓는다. "
+			}
+		},
+		state = {
+			{
+				{
+					2026,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					24
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		p_offset = {
+			-392,
+			483,
+			0.7,
+			0.7
+		},
+		p_offset_other = {
+			261,
+			523,
 			0.7,
 			0.7
 		}

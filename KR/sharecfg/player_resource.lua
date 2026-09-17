@@ -620,6 +620,7 @@ pg.player_resource.all = {
 	3022,
 	3023,
 	3024,
+	3025,
 	3106,
 	3137,
 	4001,
@@ -2344,6 +2345,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	synchronize_luodeni = {
 		3015
+	},
+	synchronize_salatuojia = {
+		3025
 	},
 	synchronize_shaenhuosite = {
 		3007
@@ -5842,6 +5846,11 @@ end)()
 		id = 3024,
 		name = "synchronize_bulisituoer",
 		itemid = 21923
+	}
+	pg.base.player_resource[3025] = {
+		id = 3025,
+		name = "synchronize_salatuojia",
+		itemid = 21924
 	}
 	pg.base.player_resource[3106] = {
 		id = 3106,

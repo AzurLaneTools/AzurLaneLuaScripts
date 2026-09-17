@@ -87521,7 +87521,7 @@ _G.pg.base.bullet_template_1[19852] = {
 	id = 19852,
 	random_damage_rate = 0,
 	damage_type = {
-		1.118,
+		1.068,
 		1.068,
 		1.068
 	},

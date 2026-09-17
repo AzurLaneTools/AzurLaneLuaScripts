@@ -436,7 +436,18 @@ temp = function()
 		["러"] = {
 			["토"] = {
 				["가"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}

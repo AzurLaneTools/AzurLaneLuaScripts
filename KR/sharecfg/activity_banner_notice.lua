@@ -49,7 +49,9 @@ pg.activity_banner_notice.all = {
 	44,
 	45,
 	46,
-	49
+	49,
+	47,
+	48
 }
 pg.base = pg.base or {}
 pg.base.activity_banner_notice = {}
@@ -450,6 +452,24 @@ pg.base.activity_banner_notice = {}
 		id = 49,
 		param = {
 			"act boss battle"
+		}
+	}
+	pg.base.activity_banner_notice[47] = {
+		id = 47,
+		param = {
+			"scene core activity",
+			{
+				coreName = "ShadowCityCoreActivityUI"
+			}
+		}
+	}
+	pg.base.activity_banner_notice[48] = {
+		id = 48,
+		param = {
+			"scene core activity",
+			{
+				coreName = "ShiningMagicCoreActivityUI"
+			}
 		}
 	}
 end)()

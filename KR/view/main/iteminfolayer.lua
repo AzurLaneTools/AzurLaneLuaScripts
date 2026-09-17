@@ -5,6 +5,7 @@ slot3 = 100
 slot4 = 53996
 slot5 = {
 	USE = 3,
+	USE_RE_MAP = 4,
 	RESOLVE = 2,
 	COMPOSE = 1
 }
@@ -48,6 +49,10 @@ slot0.init = function(slot0)
 		},
 		composeBtn = {
 			"compose_button"
+		},
+		reMapUseBtn = {
+			"re_map_use_button",
+			i18n("msgbox_text_use")
 		},
 		resolveBtn = {
 			"resolve_button",
@@ -212,6 +217,12 @@ slot0.setItem = function(slot0, slot1)
 		setActive(slot0.useBtn, true)
 	end
 
+	if slot0.itemVO:getConfig("usage") == ItemUsage.EX_RE_MAP then
+		slot0:setItemInfo(slot1, slot0.operatePanel:Find("item"))
+
+		slot0.operateMax = slot0.itemVO.count
+	end
+
 	slot3 = slot0.itemVO:getConfig("type")
 
 	if slot0.itemVO:IsRepairLoveLetterItem() then
@@ -340,6 +351,12 @@ slot0.setItem = function(slot0, slot1)
 			setActive(slot0.skinShopBtn, true)
 		elseif slot0.itemVO:IsSkinExperienceType() then
 			setActive(slot0.skinExperienceShopBtn, true)
+		elseif slot0.itemVO:getConfig("usage") == ItemUsage.EX_RE_MAP then
+			setActive(slot0.resolveBtn, true)
+			setActive(slot0.reMapUseBtn, true)
+			onButton(slot0, slot0.reMapUseBtn, function ()
+				uv0:UpdateUseReMapPanel()
+			end, SFX_PANEL)
 		else
 			setActive(slot0.okBtn, true)
 		end
@@ -615,7 +632,7 @@ slot0.UpdateResolvePanel = function(slot0)
 
 	setText(slot0.operateCountdesc, i18n("resolve_amount_prefix"))
 
-	if slot0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE then
+	if slot0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE or slot0.itemVO:getConfig("usage") == ItemUsage.EX_RE_MAP then
 		setActive(slot0.keepFateTog, false)
 	else
 		setActive(slot0.keepFateTog, true)
@@ -679,6 +696,16 @@ slot0.UpdateUsePanel = function(slot0)
 
 	setText(slot0.operateCountdesc, i18n("use_amount_prefix"))
 	setActive(slot0.keepFateTog, false)
+end
+
+slot0.UpdateUseReMapPanel = function(slot0)
+	slot0:emit(BaseUI.ON_ADD_SUBLAYER, Context.New({
+		viewComponent = ReMapTransformationScene,
+		mediator = ReMapTransformationMediator,
+		data = {
+			itemVO = slot0.itemVO
+		}
+	}))
 end
 
 slot0.willExit = function(slot0)

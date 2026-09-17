@@ -1160,7 +1160,11 @@ slot0.updateItem = function(slot0, slot1, slot2)
 				})
 			end, SFX_PANEL)
 		elseif slot4:getConfig("type") == Item.ASSIGNED_TYPE or slot4:getConfig("type") == Item.EQUIPMENT_ASSIGNED_TYPE then
-			if underscore.any(pg.gameset.general_blueprint_list.description, function (slot0)
+			if slot4:getConfig("usage") == ItemUsage.EX_RE_MAP then
+				onButton(slot0, slot3.go, function ()
+					uv0:emit(uv1.ON_ITEM, uv2.id)
+				end, SFX_PANEL)
+			elseif underscore.any(pg.gameset.general_blueprint_list.description, function (slot0)
 				return uv0.id == slot0
 			end) then
 				onButton(slot0, slot3.go, function ()

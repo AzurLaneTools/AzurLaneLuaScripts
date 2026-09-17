@@ -65,6 +65,7 @@ pg.item_data_frame.all = {
 	337,
 	341,
 	342,
+	343,
 	401,
 	402,
 	413,
@@ -671,6 +672,15 @@ pg.base.item_data_frame = {}
 		desc = "「아스트라리움에 온 걸 환영해. 혹시 이루고 싶은 꿈 있어?」\n<color=#A7A7AA>「몽광의 아스트라리움」 이벤트 참가</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[343] = {
+		name = "새싹의 왕관",
+		gain_by = "",
+		time_second = 0,
+		id = 343,
+		time_limit_type = 0,
+		desc = "추후 진행 예정인 이벤트에서 획득 가능",
+		scene = {}
+	}
 	pg.base.item_data_frame[401] = {
 		name = "전당 기념: 엔터프라이즈",
 		gain_by = "",
@@ -1013,6 +1023,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>거친 파도 속에서 나부끼는 강철의 깃발, 머리에 얹힌 황금의 왕관으로 지고한 바다의 권능을 드러내나니</color>\n「교류 숙소」에서 에기르의 호감도를 올리면 획득 가능",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1013] = {
 		name = "집전 장치",
 		gain_by = "",
@@ -1022,8 +1034,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>찌릿찌릿한 전류가 춤추고, 전구와 네온 고양이 귀도 반짝반짝 빛난다</color>.\n「교류 숙소」에서 아드미랄 나히모프의 친밀도를 올리면 획득 가능",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[1014] = {
 		name = "사이버네틱 인사",
 		gain_by = "",

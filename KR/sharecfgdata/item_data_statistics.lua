@@ -16935,6 +16935,37 @@ _G.pg.base.item_data_statistics[21063] = {
 }
 
 
+_G.pg.base.item_data_statistics[21064] = {
+	open_directly = 0,
+	name = "결정: 새러토가·META",
+	type = 4,
+	display = "새러토가·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21064",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21064,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -17761,6 +17792,37 @@ _G.pg.base.item_data_statistics[21923] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21923,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21924] = {
+	open_directly = 0,
+	name = "새러토가·META 동기화 수치",
+	type = 4,
+	display = "새러토가·META의 동기화 수치",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21924",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21924,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},

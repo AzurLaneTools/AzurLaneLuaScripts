@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "这是您送给我的茶具……？天狼星真是受宠若惊……我慷慨的主人！",
+			say = "이 티 세트를 시리우스에게…? 정말 몸둘 바를 모르겠습니다… 인심 좋은 {dorm3d}…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "天狼星一定会好好爱惜它，然后用它冲泡美味的红茶来招待主人！",
+			say = "소중히 잘 쓰겠습니다! 시리우스, 맛있는 홍차를 내어드릴 수 있도록 정진하겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

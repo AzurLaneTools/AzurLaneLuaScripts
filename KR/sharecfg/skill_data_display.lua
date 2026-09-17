@@ -3643,6 +3643,10 @@ pg.skill_data_display.all = {
 	802172,
 	802175,
 	802177,
+	802371,
+	802372,
+	802382,
+	802391,
 	802221,
 	802222,
 	802223,
@@ -3919,6 +3923,8 @@ pg.skill_data_display.all = {
 	201878,
 	201879,
 	201883,
+	201895,
+	201898,
 	1011540,
 	1011541,
 	1090010,
@@ -3986,6 +3992,8 @@ pg.skill_data_display.all = {
 	1005082,
 	1005083,
 	1012940,
+	1012951,
+	1012953,
 	1013000,
 	1013001,
 	1010980,
@@ -4105,6 +4113,14 @@ pg.skill_data_display.all = {
 	1012471,
 	1010800,
 	1010801,
+	1014200,
+	1014201,
+	1014202,
+	1014203,
+	1013071,
+	1013072,
+	1019170,
+	1019171,
 	1090020,
 	1090042,
 	1090043,
@@ -4196,7 +4212,8 @@ pg.skill_data_display.all = {
 	1090492,
 	1090493,
 	1090494,
-	1090495
+	1090495,
+	1090511
 }
 pg.base = pg.base or {}
 pg.base.skill_data_display = {}
@@ -18830,6 +18847,22 @@ end)()
 		id = 802177,
 		name = "염추의 재-쾰른Ⅱ"
 	}
+	pg.base.skill_data_display[802371] = {
+		id = 802371,
+		name = "빛나라★아이돌 엔트리!"
+	}
+	pg.base.skill_data_display[802372] = {
+		id = 802372,
+		name = "빛나라★아이돌 엔트리!"
+	}
+	pg.base.skill_data_display[802382] = {
+		id = 802382,
+		name = "반짝여라★퍼펙트 퍼포먼스!"
+	}
+	pg.base.skill_data_display[802391] = {
+		id = 802391,
+		name = "물들여라★컬러풀 스테이지!"
+	}
 	pg.base.skill_data_display[802221] = {
 		id = 802221,
 		name = "더블 스트라이크예요!"
@@ -19058,6 +19091,8 @@ end)()
 		id = 200161,
 		name = "占坑损管LV2"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200163] = {
 		id = 200163,
 		name = "占坑损管LV3"
@@ -19074,8 +19109,6 @@ end)()
 		id = 200171,
 		name = "코어 지원-연소 Lv2"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200172] = {
 		id = 200172,
 		name = "코어 지원-연소 Lv2"
@@ -19460,6 +19493,8 @@ end)()
 		id = 200866,
 		name = "단결과 강인의 가호"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200868] = {
 		id = 200868,
 		name = "평화와 수호의 가호"
@@ -19476,8 +19511,6 @@ end)()
 		id = 200888,
 		name = "기쁨의 가호"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200892] = {
 		id = 200892,
 		name = "브레이브 차지"
@@ -19862,6 +19895,8 @@ end)()
 		id = 201689,
 		name = "타깃 킬"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201709] = {
 		id = 201709,
 		name = "재물운 상승"
@@ -19878,8 +19913,6 @@ end)()
 		id = 201756,
 		name = "흑일의 비상"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201757] = {
 		id = 201757,
 		name = "흑일의 비상"
@@ -19939,6 +19972,14 @@ end)()
 	pg.base.skill_data_display[201883] = {
 		id = 201883,
 		name = "빗속의 꽃바다"
+	}
+	pg.base.skill_data_display[201895] = {
+		id = 201895,
+		name = "퍼니시★프롬 스카이"
+	}
+	pg.base.skill_data_display[201898] = {
+		id = 201898,
+		name = "체인지★배틀 뮤직"
 	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
@@ -20208,6 +20249,14 @@ end)()
 		id = 1012940,
 		name = "For The Queen +"
 	}
+	pg.base.skill_data_display[1012951] = {
+		id = 1012951,
+		name = "The Fighting G +"
+	}
+	pg.base.skill_data_display[1012953] = {
+		id = 1012953,
+		name = "The Fighting G +"
+	}
 	pg.base.skill_data_display[1013000] = {
 		id = 1013000,
 		name = "공허한 백기병 +"
@@ -20248,6 +20297,8 @@ end)()
 		id = 1013551,
 		name = "스마일 헌터 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012990] = {
 		id = 1012990,
 		name = "화력 발사 지도 +"
@@ -20280,8 +20331,6 @@ end)()
 		id = 1011004,
 		name = "영용포격+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[10150570] = {
 		id = 10150570,
 		name = "심연에서 꿈틀거리는 마성+"
@@ -20650,6 +20699,8 @@ end)()
 		id = 1012915,
 		name = "요괴 = 언데드"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1014140] = {
 		id = 1014140,
 		name = "뻔뻔한 스노우볼  +"
@@ -20682,11 +20733,41 @@ end)()
 		id = 1010800,
 		name = "5항전+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1010801] = {
 		id = 1010801,
 		name = "5항전+"
+	}
+	pg.base.skill_data_display[1014200] = {
+		id = 1014200,
+		name = "얼음과 피의 기억+"
+	}
+	pg.base.skill_data_display[1014201] = {
+		id = 1014201,
+		name = "얼음과 피의 기억+"
+	}
+	pg.base.skill_data_display[1014202] = {
+		id = 1014202,
+		name = "얼음과 피의 기억+"
+	}
+	pg.base.skill_data_display[1014203] = {
+		id = 1014203,
+		name = "얼음과 피의 기억+"
+	}
+	pg.base.skill_data_display[1013071] = {
+		id = 1013071,
+		name = "비상하는 전사+"
+	}
+	pg.base.skill_data_display[1013072] = {
+		id = 1013072,
+		name = "비상하는 전사+"
+	}
+	pg.base.skill_data_display[1019170] = {
+		id = 1019170,
+		name = "키타카제류·일절참+"
+	}
+	pg.base.skill_data_display[1019171] = {
+		id = 1019171,
+		name = "키타카제류·일절참+"
 	}
 	pg.base.skill_data_display[1090020] = {
 		id = 1090020,
@@ -21020,6 +21101,8 @@ end)()
 		id = 1090471,
 		name = "쾌속 장전·키사라기"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090481] = {
 		id = 1090481,
 		name = "포켓 전함 - 도이칠란트"
@@ -21055,5 +21138,9 @@ end)()
 	pg.base.skill_data_display[1090495] = {
 		id = 1090495,
 		name = "장전 지령·펜사콜라"
+	}
+	pg.base.skill_data_display[1090511] = {
+		id = 1090511,
+		name = "울프팩 - U-73"
 	}
 end)()
