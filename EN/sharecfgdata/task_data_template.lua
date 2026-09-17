@@ -339589,6 +339589,48 @@ _G.pg.base.task_data_template[27618] = {
 }
 
 
+_G.pg.base.task_data_template[27609] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88413,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『260908虎UR第二弹』登录送皮肤体验券活动",
+	desc = "Log in to the game.",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27609,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			756,
+			3
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

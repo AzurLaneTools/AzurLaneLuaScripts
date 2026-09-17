@@ -116650,7 +116650,7 @@ _G.pg.base.item_data_statistics[81238] = {
 	open_directly = 1,
 	name = "Eerie Talismans Lucky Bag A",
 	type = 17,
-	display = "Contains 1 random skin from the August 13th, 2026 update, Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Special General Blueprint - Series 9 x2, Decor Tokens x100, and Quick Finishers x10.",
+	display = "Contains 1 random skin (Eerie Talismans Lucky Bag A), Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Special General Blueprint - Series 9 x2, Decor Tokens x100, and Quick Finishers x10.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -116672,6 +116672,73 @@ _G.pg.base.item_data_statistics[81238] = {
 		{
 			2,
 			86230,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81239] = {
+	open_directly = 1,
+	name = "Eerie Talismans Lucky Bag B",
+	type = 17,
+	display = "Contains 1 random skin (Eerie Talismans Lucky Bag B), Gems x2026, Cognitive Chips x50, Wisdom Cubes x20, Special General Blueprint - Series 9 x2, Decor Tokens x100, and Quick Finishers x10.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai39",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998334",
+	id = 81239,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86231,
 			1
 		},
 		{

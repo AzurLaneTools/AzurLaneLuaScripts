@@ -96,6 +96,8 @@ pg.pay_data_display.all = {
 	9019,
 	9021,
 	9022,
+	9023,
+	9024,
 	100,
 	101,
 	102,
@@ -284,7 +286,8 @@ pg.pay_data_display.all = {
 	5015,
 	5016,
 	5017,
-	70001
+	70001,
+	70002
 }
 pg.pay_data_display.get_id_list_by_extra_service = {
 	[0] = {
@@ -384,6 +387,8 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		9019,
 		9021,
 		9022,
+		9023,
+		9024,
 		100,
 		101,
 		102,
@@ -576,7 +581,8 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		1301
 	},
 	[6] = {
-		70001
+		70001,
+		70002
 	}
 }
 pg.base = pg.base or {}
@@ -11986,6 +11992,276 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+	pg.base.pay_data_display[9023] = {
+		picture = "fudai39",
+		name = "Eerie Talismans Lucky Bag B",
+		type = 1,
+		second_text = "Many Rewards",
+		tag = 2,
+		subject = "Eerie Talismans Lucky Bag B",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your in-game inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		limit_group = 0,
+		id = 9023,
+		type_order = 2,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.yostaren.azurlane.luckybag95",
+		extra_gem = 0,
+		descrip = "Contains 1 random skin, 2026 Gems, and supplies.",
+		airijp_id = "com.yostaren.azurlane.luckybag95",
+		name_display = "Eerie Talismans Lucky Bag B",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86231,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86231,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81239,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86231,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	}
+	pg.base.pay_data_display[9024] = {
+		picture = "fudai28",
+		name = "Ninja Castle Lucky Box B Rerun",
+		type = 1,
+		second_text = "Many Rewards",
+		tag = 2,
+		subject = "Ninja Castle Lucky Box B Rerun",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 2999,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your in-game inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		limit_group = 0,
+		id = 9024,
+		type_order = 2,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.yostaren.azurlane.luckybag96",
+		extra_gem = 0,
+		descrip = "Contains 1 random skin, 2025 Gems, and supplies.",
+		airijp_id = "com.yostaren.azurlane.luckybag96",
+		name_display = "Ninja Castle Lucky Box B Rerun",
+		first_text = "Random Skin & Abundant Gems",
+		akashi_pick = 1,
+		skin_inquire_relation = 86218,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81218,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	}
 	pg.base.pay_data_display[100] = {
 		picture = "usfudai1",
 		name = "Nep's Lucky Bag ",
@@ -12659,6 +12935,8 @@ pg.base.pay_data_display = {}
 		limit_args = {},
 		drop_item = {}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[106] = {
 		picture = "fudai52",
 		name = "Lunar New Year Lucky Bag (2019)",
@@ -12890,8 +13168,6 @@ pg.base.pay_data_display = {}
 		limit_args = {},
 		drop_item = {}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[108] = {
 		picture = "fudai54",
 		name = "Hanami Lucky Bag ",
@@ -23624,6 +23900,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2005] = {
 		picture = "tech2_display",
 		name = "PR Construction Pack - Series 2",
@@ -23767,8 +24045,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2007] = {
 		picture = "tech2_normal",
 		name = "PR Voucher - Series 2",
@@ -30943,6 +31219,78 @@ end)()
 					2026,
 					9,
 					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[70002] = {
+		picture = "",
+		name = "The Pale Phantom's Smile",
+		ignorePlatform = "",
+		type = 0,
+		second_text = "",
+		tag = 0,
+		subject = "The Pale Phantom's Smile",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 1999,
+		descrip_extra = "Dual-Form Skin Purchase (Golden Hind)",
+		limit_group = 0,
+		id = 70002,
+		type_order = 0,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 2799,
+		id_str = "com.yostaren.azurlane.pack51",
+		extra_gem = 0,
+		descrip = "The Pale Phantom's Smile",
+		airijp_id = "com.yostaren.azurlane.pack51",
+		display = "",
+		name_display = "The Pale Phantom's Smile",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 6,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				7,
+				9600033,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					17
 				},
 				{
 					0,

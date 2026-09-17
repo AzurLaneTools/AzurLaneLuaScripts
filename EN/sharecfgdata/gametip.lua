@@ -4972,12 +4972,22 @@ _G.pg.base.gametip.spweapon_tip_view = {
 
 
 _G.pg.base.gametip.spweapon_tip_ship = {
-	tip = "Equipable By"
+	tip = "Equippable By"
 }
 
 
 _G.pg.base.gametip.spweapon_tip_type = {
 	tip = "Ship Type"
+}
+
+
+_G.pg.base.gametip.spweapon_unique_title = {
+	tip = "Equippable By"
+}
+
+
+_G.pg.base.gametip.spweapon_tip_jump = {
+	tip = "Go"
 }
 
 

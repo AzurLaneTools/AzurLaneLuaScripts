@@ -9,8 +9,9 @@ return {
 		{
 			bgName = "star_level_bg_522",
 			side = 2,
-			bgm = "story-ghostnight-fascinsting",
+			spine = true,
 			withoutActorName = true,
+			bgm = "story-ghostnight-fascinsting",
 			hideRecordIco = true,
 			actor = 403113,
 			nameColor = "#A9F548FF",
@@ -30,13 +31,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 403113,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
-			side = 2,
-			withoutActorName = true,
 			say = "The room, which should have been lined with bookshelves and documents, is suddenly turned into a stage bathed in red moody light.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,9 +46,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
-			bgName = "star_level_bg_522",
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_522",
+			spine = true,
+			side = 2,
 			say = "To think you would manage to keep your sanity as you stand before me.",
 			typewriter = {
 				speed = 0.05,
@@ -57,6 +60,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_522",
+			spine = true,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -68,11 +72,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 403113,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
+			spine = true,
 			side = 2,
-			actor = 403113,
+			expression = 3,
 			say = "Heh, you can think of this as my stage.",
 			typewriter = {
 				speed = 0.05,
@@ -80,24 +85,26 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 403113,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
-			side = 2,
-			withoutActorName = true,
 			say = "Yorck stands on the red spotlight and spins in place. The silken sash attached to her hoop draws perfect arcs in the wake of her motion.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 1,
+			actor = 403113,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
+			spine = true,
 			side = 2,
-			actor = 403113,
+			expression = 1,
 			say = "You've made it here, so surely you want to do something other than just watch, right?",
 			typewriter = {
 				speed = 0.05,
@@ -106,9 +113,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
-			bgName = "star_level_bg_522",
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_522",
+			spine = true,
+			side = 2,
 			say = "I was just thinking about how much of a shame it is I can't find partners that can keep up with my dancing.",
 			typewriter = {
 				speed = 0.05,
@@ -119,6 +127,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_522",
+			spine = true,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -130,11 +139,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 403113,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
+			spine = true,
 			side = 2,
-			actor = 403113,
+			expression = 1,
 			say = "Such unkind words. Wouldn't it be easier to let me set the pace?",
 			typewriter = {
 				speed = 0.05,
@@ -142,11 +152,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 403113,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
+			spine = true,
 			side = 2,
-			actor = 403113,
+			expression = 2,
 			say = "Or perhaps... The courageous Commander is truly hesitating in my presence?",
 			typewriter = {
 				speed = 0.05,
@@ -154,26 +165,28 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 403113,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
-			side = 2,
-			withoutActorName = true,
 			say = "Her taunts have no effect on me, but I still choose to step onto the stage and extend a hand to her.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 403113,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
-			side = 2,
-			withoutActorName = true,
 			say = "The moment our fingers touch, the sash suddenly billows.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,6 +196,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_522",
+			spine = true,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -194,11 +208,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 403113,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
+			spine = true,
 			side = 2,
-			actor = 403113,
+			expression = 1,
 			say = "\"Steal\" is such a harsh word.",
 			typewriter = {
 				speed = 0.05,
@@ -207,9 +222,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
-			bgName = "star_level_bg_522",
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_522",
+			spine = true,
+			side = 2,
 			say = "All I'm doing is taking away all your pesky doubts, choices, or whatever unnecessary resistance you were trying to put up♥",
 			typewriter = {
 				speed = 0.05,
@@ -217,37 +233,40 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 403113,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
-			side = 2,
-			withoutActorName = true,
 			say = "With each step, our surroundings seem to fold up on themselves, before expanding endlessly once again.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
 			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
 			withoutActorName = true,
-			say = "An upside-down old castle, a burning rose... Countless incredible illusions shift in and out of existence as the music plays like reflections racing across the water's surface.",
 			hideRecordIco = true,
+			actor = 403113,
+			nameColor = "#A9F548FF",
+			say = "An upside-down old castle, a burning rose... Countless incredible illusions shift in and out of existence as the music plays like reflections racing across the water's surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 1,
+			actor = 403113,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
+			spine = true,
 			side = 2,
-			actor = 403113,
+			expression = 1,
 			say = "Commander, eyes on me.",
 			typewriter = {
 				speed = 0.05,
@@ -255,11 +274,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 403113,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
+			spine = true,
 			side = 2,
-			actor = 403113,
+			expression = 5,
 			say = "Your gaze, your steps, your will... If you bequeath them to me, you'll feel bliss like never before.",
 			typewriter = {
 				speed = 0.05,
@@ -270,6 +290,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_522",
+			spine = true,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -281,11 +302,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 403113,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
+			spine = true,
 			side = 2,
-			actor = 403113,
+			expression = 3,
 			say = "Heh, heh♥ Finally ready to admit you've been bested?",
 			typewriter = {
 				speed = 0.05,
@@ -296,6 +318,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_522",
+			spine = true,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -307,37 +330,40 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 403113,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
-			side = 2,
-			withoutActorName = true,
 			say = "I use the momentum of the turn step and shift the timing by half a beat on purpose, then transition to a new rhythm in the next bar.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
 			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
 			withoutActorName = true,
-			say = "The scarlet light from the hoop falters, and the illusions begin to crumble around us.",
 			hideRecordIco = true,
+			actor = 403113,
+			nameColor = "#A9F548FF",
+			say = "The scarlet light from the hoop falters, and the illusions begin to crumble around us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 2,
+			actor = 403113,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
+			spine = true,
 			side = 2,
-			actor = 403113,
+			expression = 2,
 			say = "Oh... So you still have some fight in you.",
 			typewriter = {
 				speed = 0.05,
@@ -346,9 +372,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
-			bgName = "star_level_bg_522",
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_522",
+			spine = true,
+			side = 2,
 			say = "How long can you keep it up, though?",
 			typewriter = {
 				speed = 0.05,
@@ -359,6 +386,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_522",
+			spine = true,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -370,37 +398,40 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 403113,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
-			side = 2,
-			withoutActorName = true,
 			say = "Yorck falls backwards due to the momentum, but I catch her in my arms, feeling the full weight of her waist as her center of gravity shifts.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
 			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
 			withoutActorName = true,
-			say = "As the two of us stop, the illusions also freeze in place around us.",
 			hideRecordIco = true,
+			actor = 403113,
+			nameColor = "#A9F548FF",
+			say = "As the two of us stop, the illusions also freeze in place around us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 5,
+			actor = 403113,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
+			spine = true,
 			side = 2,
-			actor = 403113,
+			expression = 5,
 			say = "The song's over. But it would be a waste to just dance with such a wonderful stage, don't you think?",
 			typewriter = {
 				speed = 0.05,
@@ -408,37 +439,40 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 403113,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
-			side = 2,
-			withoutActorName = true,
 			say = "She takes my hand and slowly guides it up, letting it glide through the contours of her curves. I can even feel her rising heartbeat through the fabric.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_522",
 			side = 2,
+			bgName = "star_level_bg_522",
+			spine = true,
 			withoutActorName = true,
-			say = "The elegant melody enveloping us transitions into a sweet, romantic tune.",
 			hideRecordIco = true,
+			actor = 403113,
+			nameColor = "#A9F548FF",
+			say = "The elegant melody enveloping us transitions into a sweet, romantic tune.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 5,
+			actor = 403113,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
+			spine = true,
 			side = 2,
-			actor = 403113,
+			expression = 5,
 			say = "Commander, sometimes it feels better to give in to your desire rather than control everything♥",
 			typewriter = {
 				speed = 0.05,

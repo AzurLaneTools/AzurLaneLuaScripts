@@ -201158,6 +201158,62 @@ You will obtain one of the following random skins (duplicate skins will be conve
 }
 
 
+_G.pg.base.item_virtual_data_statistics[86231] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86231,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			299035,
+			1200
+		},
+		{
+			307162,
+			1200
+		},
+		{
+			307053,
+			1400
+		},
+		{
+			403113,
+			1400
+		},
+		{
+			101267,
+			1800
+		},
+		{
+			231211,
+			1500
+		},
+		{
+			101532,
+			1500
+		}
+	}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[86400] = {
 	drop_gold_max = 0,
 	name = "Random Skin",

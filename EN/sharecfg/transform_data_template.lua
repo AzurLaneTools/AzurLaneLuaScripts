@@ -7892,7 +7892,7 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 	pg.base.transform_data_template[6011] = {
 		level_limit = 85,
 		name = "Modernization",
-		descrip = "",
+		descrip = "Retrofit complete. The following changes have been applied:\nAA +20, RLD +25.\nThe skill Big Seven is upgraded to Big Seven - Colorado.",
 		max_level = 1,
 		skin_id = 105099,
 		use_ship = 1,
@@ -8359,11 +8359,7 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 	pg.base.transform_data_template[6111] = {
 		level_limit = 85,
 		name = "Modernization",
-		descrip = [[
-Retrofit complete. The following changes have been applied:
-
-AA +20, RLD +25.
-This ship's Big Seven skill has been upgraded to Big Seven - Maryland.]],
+		descrip = "Retrofit complete. The following changes have been applied:\nAA +20, RLD +25.\nThe skill Big Seven is upgraded to Big Seven - Maryland.",
 		max_level = 1,
 		skin_id = 105109,
 		use_ship = 1,

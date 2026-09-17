@@ -9312,7 +9312,6 @@ end)()
 		main = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		battle = "",
 		login = {
@@ -9331,6 +9330,12 @@ end)()
 			{
 				1100,
 				"Tenacious and brave in the face of incoming attacks... I see. There's always so much to learn from your strategies."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heheh... You'll have to do better than that~ Com-man-der~♪"
 			}
 		},
 		detail = {
@@ -16009,7 +16014,6 @@ end)()
 		main = "",
 		profile = "",
 		mission_complete = "",
-		headtouch = "",
 		feeling2 = "",
 		login = {
 			{
@@ -16033,6 +16037,12 @@ end)()
 			{
 				1100,
 				"It's too late once I've caught you~♡"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Commander, the way you touch me... I can't get enough of it~♡"
 			}
 		},
 		detail = {

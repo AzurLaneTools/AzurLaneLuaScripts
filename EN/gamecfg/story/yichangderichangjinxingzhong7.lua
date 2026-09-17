@@ -14,6 +14,7 @@ return {
 			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
+			live2d = "login",
 			say = "It's a pleasant afternoon when suddenly, a particular fragrance wafts in from outside the window.",
 			typewriter = {
 				speed = 0.05,
@@ -30,13 +31,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			side = 2,
-			withoutActorName = true,
+			live2d = true,
 			say = "I look out and see Hakuhou taking in the nature, shielded from the sunlight by a fancy looking umbrella with a cherry blossom pattern.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,11 +46,12 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Good day, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -57,11 +60,12 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Do forgive me for interrupting your relaxation on such an important day.",
 			typewriter = {
 				speed = 0.05,
@@ -76,6 +80,7 @@ return {
 			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Important day? What do you mean?",
 			typewriter = {
 				speed = 0.05,
@@ -84,11 +89,12 @@ return {
 		},
 		{
 			expression = 10,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Heheh, no need to look so flustered.",
 			typewriter = {
 				speed = 0.05,
@@ -97,11 +103,12 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Are you familiar with the legend of fox weddings?",
 			typewriter = {
 				speed = 0.05,
@@ -116,6 +123,7 @@ return {
 			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Fox weddings?",
 			typewriter = {
 				speed = 0.05,
@@ -124,10 +132,11 @@ return {
 		},
 		{
 			actor = 307162,
-			side = 2,
-			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
+			bgName = "bg_story_room",
+			live2d = "headtouch",
 			dir = 1,
+			side = 2,
 			say = "Legends say that when a fox gets married, it'll rain even if the sky is clear.",
 			typewriter = {
 				speed = 0.05,
@@ -136,10 +145,11 @@ return {
 		},
 		{
 			actor = 307162,
-			side = 2,
-			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
+			bgName = "bg_story_room",
+			live2d = true,
 			dir = 1,
+			side = 2,
 			say = "What's more, it's not real rain. It's a veil to hide things from people's view.",
 			typewriter = {
 				speed = 0.05,
@@ -148,11 +158,12 @@ return {
 		},
 		{
 			expression = 5,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "The rain ensures the soon-to-be-married fox bride is not seen or disturbed by anyone... just like me right now.",
 			typewriter = {
 				speed = 0.05,
@@ -160,13 +171,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			side = 2,
-			withoutActorName = true,
+			live2d = true,
 			say = "Her voice becomes a low whisper by the end of that sentence.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,11 +186,12 @@ return {
 		},
 		{
 			expression = 11,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = "main3",
 			say = "So yes. Don't you think this clear weather rain signifies the heavens might be urging me?",
 			typewriter = {
 				speed = 0.05,
@@ -193,6 +206,7 @@ return {
 			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "I see. So that's what you mean by...",
 			typewriter = {
 				speed = 0.05,
@@ -201,11 +215,12 @@ return {
 		},
 		{
 			expression = 14,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Shh...",
 			typewriter = {
 				speed = 0.05,
@@ -213,13 +228,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			side = 2,
-			withoutActorName = true,
+			live2d = true,
 			say = "She shushes me and turns over her sleeve, revealing a bottle of sake and three cups of different sizes.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,11 +243,12 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "The San-San-Kudo ritual is a vital part of the wedding ceremony.",
 			typewriter = {
 				speed = 0.05,
@@ -239,26 +256,28 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			side = 2,
-			withoutActorName = true,
+			live2d = "headtouch",
 			say = "Hakuhou presents the three cups one after the other. We both take turns taking little sips from each of them.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			side = 2,
-			withoutActorName = true,
+			live2d = true,
 			say = "The sake is clear and cold, with a faint floral scent. When Hakuhou drinks, a faint blush appears on her cheeks.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,11 +285,12 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "And that's the first ceremony of the fox wedding completed without issue.",
 			typewriter = {
 				speed = 0.05,
@@ -285,6 +305,7 @@ return {
 			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "The first?",
 			typewriter = {
 				speed = 0.05,
@@ -293,10 +314,11 @@ return {
 		},
 		{
 			actor = 307162,
-			side = 2,
-			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
+			bgName = "bg_story_room",
+			live2d = true,
 			dir = 1,
+			side = 2,
 			say = "Yes.",
 			typewriter = {
 				speed = 0.05,
@@ -305,11 +327,12 @@ return {
 		},
 		{
 			expression = 7,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = "touch",
 			say = "This is a marriage ceremony. It'd be a bit underwhelming if it were to end so quickly.",
 			typewriter = {
 				speed = 0.05,
@@ -317,13 +340,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			side = 2,
-			withoutActorName = true,
+			live2d = true,
 			say = "Hakuhou raises her face and silently looks into my eyes.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,10 +355,11 @@ return {
 		},
 		{
 			actor = 307162,
-			side = 2,
-			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
+			bgName = "bg_story_room",
+			live2d = true,
 			dir = 1,
+			side = 2,
 			say = "For this, I'd like you to show me.",
 			typewriter = {
 				speed = 0.05,
@@ -343,11 +368,12 @@ return {
 		},
 		{
 			expression = 5,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Show me if I truly dwell somewhere in your heart.",
 			typewriter = {
 				speed = 0.05,
@@ -355,26 +381,28 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			side = 2,
-			withoutActorName = true,
+			live2d = "main2",
 			say = "Her snow white fox tail brushes against the hem of my clothes.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			side = 2,
-			withoutActorName = true,
+			live2d = true,
 			say = "The feather touch is like a gentle bond that doesn't allow me to leave her presence.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,11 +410,12 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Heheh, no need to look so troubled.",
 			typewriter = {
 				speed = 0.05,
@@ -395,11 +424,12 @@ return {
 		},
 		{
 			expression = 11,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "I just want to make sure that you're not planning to run away from this rain.",
 			typewriter = {
 				speed = 0.05,
@@ -407,13 +437,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			side = 2,
-			withoutActorName = true,
+			live2d = true,
 			say = "She approaches, the sunlight emphasizing the light pink on her fair cheeks.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,10 +452,11 @@ return {
 		},
 		{
 			actor = 307162,
-			side = 2,
-			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
+			bgName = "bg_story_room",
+			live2d = true,
 			dir = 1,
+			side = 2,
 			say = "Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -433,11 +465,12 @@ return {
 		},
 		{
 			expression = 12,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "I'm quite determined to sway your heart and get all your attention today♪",
 			typewriter = {
 				speed = 0.05,
@@ -445,13 +478,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			side = 2,
-			withoutActorName = true,
+			live2d = true,
 			say = "Though her whispers are drowned out by the pitter patter of the rain, I can still hear her.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,10 +493,11 @@ return {
 		},
 		{
 			actor = 307162,
-			side = 2,
-			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
+			bgName = "bg_story_room",
+			live2d = "touch2",
 			dir = 1,
+			side = 2,
 			say = "Come closer, if you would.",
 			typewriter = {
 				speed = 0.05,
@@ -471,11 +506,12 @@ return {
 		},
 		{
 			expression = 12,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Just a little is fine. But please, leave your mark on me today.",
 			typewriter = {
 				speed = 0.05,
@@ -483,13 +519,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			side = 2,
-			withoutActorName = true,
+			live2d = true,
 			say = "Her lips half open, the scent of sake tickling my nose. That vulnerable, shy demeanor tugs at my heartstrings like you wouldn't believe.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,11 +534,12 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "The incense I burned for you is smoldering already.",
 			typewriter = {
 				speed = 0.05,
@@ -510,11 +548,12 @@ return {
 		},
 		{
 			expression = 14,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307162,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "If you wish it so, today's rain will go on for longer... Yes, it'll remain for as long as we need this veil...",
 			typewriter = {
 				speed = 0.05,

@@ -1294,6 +1294,7 @@ pg.activity_template.all = {
 	51156,
 	51157,
 	51161,
+	51162,
 	51160,
 	7001,
 	7011,
@@ -2752,6 +2753,7 @@ pg.activity_template.get_id_list_by_type = {
 		51145,
 		51154,
 		51156,
+		51162,
 		1103,
 		1104,
 		1105,
@@ -64971,6 +64973,48 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[51162] = {
+		mark = 20260917,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51162,
+		page_core = "",
+		config_data = {
+			27609
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51160] = {
 		mark = 20260827,
 		page_info = "",
@@ -65544,6 +65588,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7017] = {
 		mark = 20240530,
 		type = 54,
@@ -65627,8 +65673,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7018] = {
 		mark = 20240730,
 		type = 54,
@@ -70745,6 +70789,8 @@ end)()
 			ui_name = "JiqilifuSkinPermanentPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[6014] = {
 		mark = 20220811,
 		time = "stop",
@@ -70803,8 +70849,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6015] = {
 		mark = 20221027,
 		time = "stop",
@@ -74223,6 +74267,8 @@ end)()
 			13640
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30092] = {
 		mark = 20190314,
 		page_info = "",
@@ -74247,8 +74293,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30093] = {
 		mark = 20190314,
 		page_info = "",
@@ -77338,6 +77382,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30193] = {
 		mark = 20190815,
 		page_info = "",
@@ -77352,8 +77398,6 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30194] = {
 		mark = 20190822,
 		page_info = "",
@@ -80089,6 +80133,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30300] = {
 		mark = 20191226,
 		time = "stop",
@@ -80126,8 +80172,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30301] = {
 		mark = 20191226,
 		page_info = "",
@@ -82704,6 +82748,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30400] = {
 		mark = 20200521,
 		page_info = "",
@@ -82718,8 +82764,6 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30401] = {
 		mark = 20200521,
 		time = "stop",
@@ -85636,6 +85680,8 @@ end)()
 			ui_name = "HMSHardyTaskPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30500] = {
 		mark = 20181030,
 		page_info = "",
@@ -85653,8 +85699,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30501] = {
 		mark = 20181122,
 		page_info = "",
@@ -88269,6 +88313,8 @@ end)()
 			ui_name = "returnawardpage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30828] = {
 		mark = 20210812,
 		page_info = "",
@@ -88313,8 +88359,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30829] = {
 		mark = 20211014,
 		page_info = "",
@@ -95255,6 +95299,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990017] = {
 		mark = 20260507,
 		page_info = "",
@@ -95311,8 +95357,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990018] = {
 		mark = 20260507,
 		page_info = "",

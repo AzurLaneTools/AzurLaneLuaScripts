@@ -189,10 +189,12 @@ slot2.ChangeState = function(slot0, slot1)
 	if slot1 == uv0.BATTLE_STATE_OPENING then
 		slot0._dataProxy:Start()
 
+		slot2 = slot0._dataProxy._dungeonInfo.beginStoy
 		slot4 = getProxy(ChapterProxy) and slot3:GetContinuousData(SYSTEM_SCENARIO)
+		slot5 = not pg.NewStoryMgr.GetInstance():GetPlayedFlag(slot2)
 
-		if slot0._dataProxy._dungeonInfo.beginStoy then
-			if slot4 then
+		if slot2 then
+			if slot4 or slot5 then
 				pg.NewStoryMgr.GetInstance():ForceAutoPlay(slot2, function ()
 					uv0._battleCommand:DoPrologue()
 				end)
