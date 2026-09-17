@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸福是不可计算数\n\n<size=45>四　50.00%的幸福</size>",
+					"幸福是不可計算數\n\n<size=45>4 50.00%的幸福</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下一站……去游乐园怎么样？",
+			say = "下一站……去遊樂園怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那边娱乐设施密集，也是约会常见去处，肯定有很多测试机会。",
+			say = "那邊娛樂設施密集，也是約會常見去處，一定有很多測試機會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，听上去确实不错。",
+			say = "嗯，聽起來確實不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……",
+			say = "不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，感谢您今天陪我这么久。",
+			say = "指揮官，感謝您今天陪我這麼久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但我在想……要不要先结束这场，约会测试？",
+			say = "但我在想……要不要先結束這場，約會測驗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的选择错误率过高，即便偶有正确，也只是误打误撞……",
+			say = "我的選擇錯誤率過高，即便偶有正確，也只是誤打誤撞……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "别灰心，初次尝试遭遇失败也是正常的，慢慢来就好。",
+			say = "別灰心，初次嘗試遭遇失敗也是正常的，慢慢來就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，我稍微能理解了……理解数字与情绪并没有强关联。",
+			say = "不過，我稍微能理解了……理解數字與情緒並沒有強烈關聯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟出发前，我就计算过这次约会测试的成功率。",
+			say = "畢竟出發前，我就計算過這次約會測驗的成功率。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我知道在不依赖情感分析模块的情况下，我有87.06%的概率会遇到很多难以理解的事情。",
+			say = "我知道在不依賴情緒分析模組的情況下，我有86.06%的機率會遇到很多難以理解的事情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对于自身情况，我还是有自知之明的。",
+			say = "對於自身情況，我還是有自知之明的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但在明知概率的情况下，我还是切实且不可避免地感受到了沮丧——就和盲盒业务的顾客们一样。",
+			say = "但在明知機率的情況下，我還是切實且不可避免地感受到了沮喪——就和盲盒業務的顧客們一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我明白，不过像这样继续耽误您的时间可能不太合适。",
+			say = "我明白，不過像這樣繼續耽誤您的時間可能不太合適。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我有在记录自己的正确率，即使您不断陪我测试，也只是让正确率愈发趋近50.00%。",
+			say = "我正在紀錄自己的正確率，即使您不斷陪我測試，也只是讓正確率更加趨近50.00%。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "换句话说，我缺乏得出正确答案的能力，我的反应本质上是在盲选。",
+			say = "換句話說，我缺乏得出正確答案的能力，我的反應本質上是在盲選。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与您约会让我产生了不少正向情绪，您的支持也让我非常感激。",
+			say = "與您約會讓我產生了不少正向情緒，您的支持也讓我非常感激。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我只是感到……我应该做的，或许是重新审视业务方向。",
+			say = "我只是感覺到……我該做的，或許是重新審視業務方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快递业本质是服务业，可我却无法精准洞察大家的情绪与需求……",
+			say = "快遞業本質是服務業，但我卻無法精準洞察大家的情緒與需求……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,18 +289,18 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一味地追求物流效率，停留在账面数字上，是无法真正做好这一行的。",
+			say = "一味地追求物流效率，停留在帳面數字上，是無法真正做好這一行的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "只要有这颗心，你一定能成功",
+					content = "只要有這顆心，一定能成功",
 					flag = 1
 				},
 				{
-					content = "和你相处让我也很开心",
+					content = "和妳相處讓我也很開心",
 					flag = 2
 				}
 			}
@@ -313,7 +313,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢指挥官。但……像这样占用您宝贵的时间……",
+			say = "謝謝指揮官。但……像這樣佔用您寶貴的時間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我能看到你的潜力，相信自己，再试试吧？",
+			say = "我能看到妳的潛力，相信自己，再試試看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我对自己的直觉没有信心，但既然指挥官这么相信我……",
+			say = "雖然我對自己的直覺沒有信心，但既然指揮官這麼相信我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那，我们继续吧。",
+			say = "那，我們繼續吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也想努力为今天的约会，画上一个圆满句号。",
+			say = "我也想努力為今天的約會，畫下一個圓滿的句點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

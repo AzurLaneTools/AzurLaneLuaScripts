@@ -110,11 +110,14 @@ pg.task_data_trigger.all = {
 	107,
 	108,
 	109,
+	110,
 	114,
 	115,
+	117,
 	118,
 	125,
-	124
+	124,
+	126
 }
 pg.task_data_trigger.get_id_list_by_group_id = {
 	[0] = {
@@ -152,6 +155,9 @@ pg.task_data_trigger.get_id_list_by_group_id = {
 	},
 	[10229] = {
 		63
+	},
+	[10233] = {
+		117
 	},
 	[10234] = {
 		125
@@ -258,6 +264,9 @@ pg.task_data_trigger.get_id_list_by_group_id = {
 	[20706] = {
 		10
 	},
+	[20712] = {
+		110
+	},
 	[29905] = {
 		124
 	},
@@ -329,6 +338,9 @@ pg.task_data_trigger.get_id_list_by_group_id = {
 	},
 	[30707] = {
 		23
+	},
+	[30716] = {
+		126
 	},
 	[40146] = {
 		13
@@ -1316,6 +1328,14 @@ end)()
 		id = 109,
 		group_id = 70203
 	}
+	pg.base.task_data_trigger[110] = {
+		task_id = 500121,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 110,
+		group_id = 20712
+	}
 	pg.base.task_data_trigger[114] = {
 		task_id = 500161,
 		activity_id = 0,
@@ -1331,6 +1351,14 @@ end)()
 		type = 2,
 		id = 115,
 		group_id = 960014
+	}
+	pg.base.task_data_trigger[117] = {
+		task_id = 500191,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 117,
+		group_id = 10233
 	}
 	pg.base.task_data_trigger[118] = {
 		task_id = 500201,
@@ -1355,5 +1383,13 @@ end)()
 		type = 2,
 		id = 124,
 		group_id = 29905
+	}
+	pg.base.task_data_trigger[126] = {
+		task_id = 500281,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 126,
+		group_id = 30716
 	}
 end)()

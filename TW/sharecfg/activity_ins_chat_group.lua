@@ -100,6 +100,9 @@ pg.activity_ins_chat_group.all = {
 	111,
 	112,
 	113,
+	114,
+	115,
+	116,
 	117,
 	118,
 	119,
@@ -184,6 +187,9 @@ pg.activity_ins_chat_group.all = {
 	204,
 	205,
 	206,
+	207,
+	208,
+	209,
 	210,
 	211,
 	212,
@@ -336,7 +342,10 @@ pg.activity_ins_chat_group.all = {
 	372,
 	373,
 	374,
-	375
+	375,
+	376,
+	377,
+	378
 }
 pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 	[101] = {
@@ -415,6 +424,11 @@ pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 		369,
 		370,
 		371
+	},
+	[10233] = {
+		207,
+		208,
+		209
 	},
 	[10234] = {
 		96,
@@ -529,6 +543,11 @@ pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 		118,
 		119
 	},
+	[20712] = {
+		114,
+		115,
+		116
+	},
 	[29905] = {
 		341,
 		342,
@@ -583,6 +602,11 @@ pg.activity_ins_chat_group.get_id_list_by_ship_group = {
 		171,
 		172,
 		173
+	},
+	[30707] = {
+		376,
+		377,
+		378
 	},
 	[30716] = {
 		165,
@@ -5459,6 +5483,151 @@ pg.base.activity_ins_chat_group = {}
 			3885
 		}
 	}
+	pg.base.activity_ins_chat_group[114] = {
+		ship_group = 20712,
+		name = "休息的藝術",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
+		id = 114,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			3886,
+			3887,
+			3888,
+			3889,
+			3890,
+			3891,
+			3892,
+			3893,
+			3894,
+			3895,
+			3896,
+			3897,
+			3898,
+			3899,
+			3900,
+			3901,
+			3902,
+			3903,
+			3904,
+			3905,
+			3906,
+			3907,
+			3908,
+			3909,
+			3910,
+			3911,
+			3912,
+			3913,
+			3914,
+			3915,
+			3916,
+			3917,
+			3918,
+			3919,
+			3920,
+			3921,
+			3922,
+			3923
+		}
+	}
+	pg.base.activity_ins_chat_group[115] = {
+		ship_group = 20712,
+		name = "午休",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
+		id = 115,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			3924,
+			3925,
+			3926,
+			3927,
+			3928,
+			3929,
+			3930,
+			3931,
+			3932,
+			3933,
+			3934,
+			3935,
+			3936,
+			3937,
+			3938,
+			3939,
+			3940,
+			3941,
+			3942,
+			3943,
+			3944,
+			3945,
+			3946,
+			3947,
+			3948,
+			3949,
+			3950,
+			3951,
+			3952,
+			3953,
+			3954,
+			3955,
+			3956,
+			3957,
+			3958,
+			3959
+		}
+	}
+	pg.base.activity_ins_chat_group[116] = {
+		ship_group = 20712,
+		name = "睡衣辦公革命",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
+		id = 116,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			3960,
+			3961,
+			3962,
+			3963,
+			3964,
+			3965,
+			3966,
+			3967,
+			3968,
+			3969,
+			3970,
+			3971,
+			3972,
+			3973,
+			3974,
+			3975,
+			3976,
+			3977,
+			3978,
+			3979,
+			3980,
+			3981,
+			3982,
+			3983,
+			3984,
+			3985,
+			3986,
+			3987,
+			3988,
+			3989,
+			3990,
+			3991,
+			3992,
+			3993,
+			3994,
+			3995
+		}
+	}
+end)()
+(function ()
 	pg.base.activity_ins_chat_group[117] = {
 		ship_group = 20516,
 		name = "百密一疏",
@@ -5582,8 +5751,6 @@ pg.base.activity_ins_chat_group = {}
 			4085
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_ins_chat_group[120] = {
 		ship_group = 20138,
 		name = "罪孽深重之人",
@@ -8693,6 +8860,125 @@ end)()
 			6516
 		}
 	}
+	pg.base.activity_ins_chat_group[207] = {
+		ship_group = 10233,
+		name = "驚人的差評率",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
+		id = 207,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			6517,
+			6518,
+			6519,
+			6520,
+			6521,
+			6522,
+			6523,
+			6524,
+			6525,
+			6526,
+			6527,
+			6528,
+			6529,
+			6530,
+			6531,
+			6532,
+			6533,
+			6534,
+			6535,
+			6536,
+			6537,
+			6538,
+			6539,
+			6540,
+			6541,
+			6542
+		}
+	}
+	pg.base.activity_ins_chat_group[208] = {
+		ship_group = 10233,
+		name = "額外服務",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
+		id = 208,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			6543,
+			6544,
+			6545,
+			6546,
+			6547,
+			6548,
+			6549,
+			6550,
+			6551,
+			6552,
+			6553,
+			6554,
+			6555,
+			6556,
+			6557,
+			6558,
+			6559,
+			6560,
+			6561,
+			6562,
+			6563,
+			6564,
+			6565,
+			6566,
+			6567,
+			6568,
+			6569,
+			6570,
+			6571,
+			6572,
+			6573,
+			6574
+		}
+	}
+	pg.base.activity_ins_chat_group[209] = {
+		ship_group = 10233,
+		name = "冒失攻勢",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
+		id = 209,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			6575,
+			6576,
+			6577,
+			6578,
+			6579,
+			6580,
+			6581,
+			6582,
+			6583,
+			6584,
+			6585,
+			6586,
+			6587,
+			6588,
+			6589,
+			6590,
+			6591,
+			6592,
+			6593,
+			6594,
+			6595,
+			6596,
+			6597,
+			6598,
+			6599,
+			6600,
+			6601,
+			6602
+		}
+	}
 	pg.base.activity_ins_chat_group[210] = {
 		ship_group = 110,
 		name = "遊園邀請",
@@ -9211,6 +9497,8 @@ end)()
 			6964
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_ins_chat_group[223] = {
 		ship_group = 10235,
 		name = "快樂嚮導",
@@ -9439,8 +9727,6 @@ end)()
 			7126
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_ins_chat_group[229] = {
 		ship_group = 69903,
 		name = "課題選擇",
@@ -13064,6 +13350,8 @@ end)()
 			10021
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_ins_chat_group[336] = {
 		ship_group = 80106,
 		name = "烤肉暢吃！",
@@ -13318,8 +13606,6 @@ end)()
 			10196
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_ins_chat_group[342] = {
 		ship_group = 29905,
 		name = "幸福的加法",
@@ -14653,6 +14939,116 @@ end)()
 			11129,
 			11130,
 			11131
+		}
+	}
+	pg.base.activity_ins_chat_group[376] = {
+		ship_group = 30707,
+		name = "沒有任何問題的便當",
+		group_ii = 0,
+		unlock_desc = "獲得角色",
+		id = 376,
+		trigger_param = "",
+		trigger_type = 1,
+		content = {
+			11132,
+			11133,
+			11134,
+			11135,
+			11136,
+			11137,
+			11138,
+			11139,
+			11140,
+			11141,
+			11142,
+			11143,
+			11144,
+			11145,
+			11146,
+			11147,
+			11148,
+			11149,
+			11150,
+			11151,
+			11152,
+			11153,
+			11154,
+			11155,
+			11156,
+			11157,
+			11158
+		}
+	}
+	pg.base.activity_ins_chat_group[377] = {
+		ship_group = 30707,
+		name = "猜猜看？",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到100",
+		id = 377,
+		trigger_param = "100",
+		trigger_type = 2,
+		content = {
+			11159,
+			11160,
+			11161,
+			11162,
+			11163,
+			11164,
+			11165,
+			11166,
+			11167,
+			11168,
+			11169,
+			11170,
+			11171,
+			11172,
+			11173,
+			11174,
+			11175,
+			11176,
+			11177,
+			11178,
+			11179,
+			11180,
+			11181,
+			11182,
+			11183,
+			11184,
+			11185
+		}
+	}
+	pg.base.activity_ins_chat_group[378] = {
+		ship_group = 30707,
+		name = "屏蔽詞？",
+		group_ii = 0,
+		unlock_desc = "角色好感度達到150",
+		id = 378,
+		trigger_param = "150",
+		trigger_type = 2,
+		content = {
+			11186,
+			11187,
+			11188,
+			11189,
+			11190,
+			11191,
+			11192,
+			11193,
+			11194,
+			11195,
+			11196,
+			11197,
+			11198,
+			11199,
+			11200,
+			11201,
+			11202,
+			11203,
+			11204,
+			11205,
+			11206,
+			11207,
+			11208
 		}
 	}
 end)()

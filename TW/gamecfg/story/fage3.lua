@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸福是不可计算数\n\n<size=45>三　直觉式判断</size>",
+					"幸福是不可計算數\n\n<size=45>3 直覺式判斷</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			hidePaintObj = true,
 			bgName = "star_level_bg_171",
 			bgm = "story-richang-2",
-			say = "我们踏着石砖路，漫步在约会特有的浪漫氛围里。",
+			say = "我們踏著石磚路，漫步在約會特有的浪漫氛圍中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "根据法戈的说明，此次测试需模拟约会中的各类情境。",
+			say = "根據法戈的說明，此測驗需模擬約會中的各類情境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,20 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "如果她能够准确应对我的情绪，甚至读懂潜台词，就算合格。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_171",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（那么……）",
+			say = "如果她能夠準確地應對我的情緒，甚至讀懂潛台詞，就算合格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +62,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "走得有点累了……法戈，要去前面的咖啡馆休息会儿么？",
+			say = "（那麼……）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_171",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "走得有點累了……法戈，要去前面的咖啡館休息一下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……走累了吗？",
+			say = "唔……走累了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "休息的话，我向您推荐这边的长椅，距离更近，还能节省经费。",
+			say = "休息的話，我向您推薦這邊的長椅，距離更近，還能省經費。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……不，倒也不单是累了。",
+			say = "……不，倒也不只是累了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那……难道是需要遮阳，或者感到口渴？",
+			say = "那……難道是需要遮陽，或是感到口渴？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这段分析倒是没错，不过，咖啡馆能提供给我们的不止这些。",
+			say = "這段分析倒是沒錯，不過，咖啡館能提供給我們的不只這些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们现在是在约会。约会不用太过追求功能性、效率或是省钱。",
+			say = "我們現在是在約會。約會不用太過追求功能性、效率或省錢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "和喜欢的人坐在店里，听着音乐惬意聊天，这即是一种享受。",
+			say = "和喜歡的人坐在店裡，聽著音樂愜意聊天，這就是一種享受。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以指挥官不只是累了、渴了……",
+			say = "所以指揮官不只是累了、渴了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也是希望和我一起享受吗？",
+			say = "也是希望和我一起享受嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "倒不如说这才是第一需求。",
+			say = "倒不如說這才是第一需求。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……获知正确答案后再进行倒推，确实也可以理解这种思路。",
+			say = "嗯……獲知正確答案後再進行倒推，確實也可以理解這種想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但为什么，我没法从一开始就察觉到呢……",
+			say = "但為什麼，我沒辦法從一開始就察覺到呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，让我们体验下约会时的其它情景吧。",
+			say = "指揮官，讓我們體驗下約會時的其它情景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来……就先去你说的这家咖啡馆怎么样？",
+			say = "接下來……就先去你說的這家咖啡館怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我已准备完毕，请出下一题吧。",
+			say = "指揮官，我已準備完畢，請出下一題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "正好饮品和甜点都上齐了，我们边吃边聊。",
+			say = "剛好飲品和甜點都上齊了，我們邊吃邊聊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好的，那我就先开动了。",
+			say = "好的，那我就先開動了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……这份甜点很好吃。",
+			say = "嗯……這份甜點很好吃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我的这份也不错。虽然分量不大，但味道惊艳。",
+			say = "我的這份也不錯。雖然分量不大，但味道驚艷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "要尝尝么？特意为你留了整颗草莓哦。",
+			say = "要試試嗎？特地為妳留了整顆草莓哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在这种场合的话，我应该……",
+			say = "現在這種場合的話，我應該……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我懂了！我应该再追加几份甜点，以免分走指挥官本就不多的草莓。",
+			say = "我懂了！我應該再追加幾份甜點，以免分走指揮官本來就不多的草莓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯？为什么这么认为？",
+			say = "嗯？為什麼這麼認為？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为您之前说过，约会时没必要省钱或在乎效率。",
+			say = "因為您之前說過，約會時沒必要省錢或在乎效率。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然甜点好吃，干脆多点几份，这样我们都能充分享用美味了。",
+			say = "既然甜點好吃，乾脆多點幾份，這樣我們都能充分享用美味了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好吧，原来是这么理解的……",
+			say = "好吧，原來是這麼理解的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下午茶之后来水族馆散步啊，似乎是不错的安排。",
+			say = "下午茶之後來水族館散步啊，似乎是不錯的安排。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，这种时候一般会发生什么对话呢？",
+			say = "指揮官，這種時候通常會發生什麼對話呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "在这样唯美的氛围中，聊天通常会抒情些。",
+			say = "在這樣唯美的氛圍中，聊天通常會抒情些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听起来难度更高了。",
+			say = "聽起來難度更高了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，就让我再试着挑战一下吧。",
+			say = "不過，就讓我再試著挑戰一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……那我要出题了。",
+			say = "嗯……那我要出題了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你看鱼儿们在水中悠哉徜徉的模样，让人有些向往吧？",
+			say = "妳看魚兒們在水中悠哉徜徉的模樣，讓人有些嚮往吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "向往吗……嗯……",
+			say = "嚮往嗎……嗯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,21 +596,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "思考片刻后，法戈突然做出想要褪去衣物的动作，轻薄布料缓缓落下。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_173",
-			dir = 1,
-			actor = 102330,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "……指挥官，为什么要拦住我？你的表情好奇怪。",
+			say = "思考片刻後，法戈突然做出想要褪去衣物的動作，輕薄布料緩緩落下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +610,21 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是……惊讶的表情吧？为什么？",
+			say = "……指揮官，為什麼要攔住我？你的表情好奇怪。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_173",
+			dir = 1,
+			actor = 102330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "這是……驚訝的表情吧？為什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我也很想问这句“为什么”……你怎么突然开始脱衣服了？",
+			say = "我也很想問這句「為什麼」……妳怎麼突然開始脫衣服了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为您说，向往鱼儿们悠哉徜徉的模样……",
+			say = "因為您說，嚮往魚兒們悠哉徜徉的模樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这难道不是指……想要游泳的意思吗？",
+			say = "這不是指……想要游泳的意思嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

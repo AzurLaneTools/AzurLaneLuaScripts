@@ -98304,6 +98304,404 @@ _G.pg.base.aircraft_template[184520] = {
 }
 
 
+_G.pg.base.aircraft_template[184651] = {
+	name = "无畏专武技能SB2C(VB-18)轰炸机Lv1",
+	max_hp = 49,
+	accuracy = 23,
+	model_ID = "sb2c",
+	ACC_growth = 0,
+	crash_DMG = 180,
+	dodge = 3.33,
+	attack_power = 2,
+	dodge_limit = 1,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sb2c",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1870,
+	speed = 45,
+	id = 184651,
+	scale = 1,
+	weapon_ID = {
+		184661,
+		184671
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.44,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[184652] = {
+	max_hp = 55,
+	name = "无畏专武技能SB2C(VB-18)轰炸机Lv2",
+	spawn_brownian = 1,
+	base = 184651,
+	id = 184652,
+	hp_growth = 2114,
+	weapon_ID = {
+		184662,
+		184672
+	}
+}
+
+
+_G.pg.base.aircraft_template[184653] = {
+	max_hp = 61,
+	name = "无畏专武技能SB2C(VB-18)轰炸机Lv3",
+	spawn_brownian = 1,
+	base = 184651,
+	id = 184653,
+	hp_growth = 2358,
+	weapon_ID = {
+		184663,
+		184673
+	}
+}
+
+
+_G.pg.base.aircraft_template[184654] = {
+	max_hp = 68,
+	name = "无畏专武技能SB2C(VB-18)轰炸机Lv4",
+	spawn_brownian = 1,
+	base = 184651,
+	id = 184654,
+	hp_growth = 2602,
+	weapon_ID = {
+		184664,
+		184674
+	}
+}
+
+
+_G.pg.base.aircraft_template[184655] = {
+	max_hp = 74,
+	name = "无畏专武技能SB2C(VB-18)轰炸机Lv5",
+	spawn_brownian = 1,
+	base = 184651,
+	id = 184655,
+	hp_growth = 2846,
+	weapon_ID = {
+		184665,
+		184675
+	}
+}
+
+
+_G.pg.base.aircraft_template[184656] = {
+	max_hp = 80,
+	name = "无畏专武技能SB2C(VB-18)轰炸机Lv6",
+	spawn_brownian = 1,
+	base = 184651,
+	id = 184656,
+	hp_growth = 3090,
+	weapon_ID = {
+		184666,
+		184676
+	}
+}
+
+
+_G.pg.base.aircraft_template[184657] = {
+	max_hp = 87,
+	name = "无畏专武技能SB2C(VB-18)轰炸机Lv7",
+	spawn_brownian = 1,
+	base = 184651,
+	id = 184657,
+	hp_growth = 3334,
+	weapon_ID = {
+		184667,
+		184677
+	}
+}
+
+
+_G.pg.base.aircraft_template[184658] = {
+	max_hp = 93,
+	name = "无畏专武技能SB2C(VB-18)轰炸机Lv8",
+	spawn_brownian = 1,
+	base = 184651,
+	id = 184658,
+	hp_growth = 3578,
+	weapon_ID = {
+		184668,
+		184678
+	}
+}
+
+
+_G.pg.base.aircraft_template[184659] = {
+	max_hp = 99,
+	name = "无畏专武技能SB2C(VB-18)轰炸机Lv9",
+	spawn_brownian = 1,
+	base = 184651,
+	id = 184659,
+	hp_growth = 3822,
+	weapon_ID = {
+		184669,
+		184679
+	}
+}
+
+
+_G.pg.base.aircraft_template[184660] = {
+	max_hp = 106,
+	name = "无畏专武技能SB2C(VB-18)轰炸机Lv10",
+	spawn_brownian = 1,
+	base = 184651,
+	id = 184660,
+	hp_growth = 4066,
+	weapon_ID = {
+		184670,
+		184680
+	}
+}
+
+
+_G.pg.base.aircraft_template[184681] = {
+	name = "无畏专武技能SB2C(VB-18)火箭机Lv1",
+	max_hp = 49,
+	accuracy = 23,
+	model_ID = "sb2c",
+	ACC_growth = 0,
+	crash_DMG = 180,
+	dodge = 3.33,
+	attack_power = 2,
+	dodge_limit = 1,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sb2c",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1870,
+	speed = 45,
+	id = 184681,
+	scale = 1,
+	weapon_ID = {
+		184691
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.44,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[184682] = {
+	max_hp = 55,
+	name = "无畏专武技能SB2C(VB-18)火箭机Lv2",
+	spawn_brownian = 1,
+	base = 184681,
+	id = 184682,
+	hp_growth = 2114,
+	weapon_ID = {
+		184692
+	}
+}
+
+
+_G.pg.base.aircraft_template[184683] = {
+	max_hp = 61,
+	name = "无畏专武技能SB2C(VB-18)火箭机Lv3",
+	spawn_brownian = 1,
+	base = 184681,
+	id = 184683,
+	hp_growth = 2358,
+	weapon_ID = {
+		184693
+	}
+}
+
+
+_G.pg.base.aircraft_template[184684] = {
+	max_hp = 68,
+	name = "无畏专武技能SB2C(VB-18)火箭机Lv4",
+	spawn_brownian = 1,
+	base = 184681,
+	id = 184684,
+	hp_growth = 2602,
+	weapon_ID = {
+		184694
+	}
+}
+
+
+_G.pg.base.aircraft_template[184685] = {
+	max_hp = 74,
+	name = "无畏专武技能SB2C(VB-18)火箭机Lv5",
+	spawn_brownian = 1,
+	base = 184681,
+	id = 184685,
+	hp_growth = 2846,
+	weapon_ID = {
+		184695
+	}
+}
+
+
+_G.pg.base.aircraft_template[184686] = {
+	max_hp = 80,
+	name = "无畏专武技能SB2C(VB-18)火箭机Lv6",
+	spawn_brownian = 1,
+	base = 184681,
+	id = 184686,
+	hp_growth = 3090,
+	weapon_ID = {
+		184696
+	}
+}
+
+
+_G.pg.base.aircraft_template[184687] = {
+	max_hp = 87,
+	name = "无畏专武技能SB2C(VB-18)火箭机Lv7",
+	spawn_brownian = 1,
+	base = 184681,
+	id = 184687,
+	hp_growth = 3334,
+	weapon_ID = {
+		184697
+	}
+}
+
+
+_G.pg.base.aircraft_template[184688] = {
+	max_hp = 93,
+	name = "无畏专武技能SB2C(VB-18)火箭机Lv8",
+	spawn_brownian = 1,
+	base = 184681,
+	id = 184688,
+	hp_growth = 3578,
+	weapon_ID = {
+		184698
+	}
+}
+
+
+_G.pg.base.aircraft_template[184689] = {
+	max_hp = 99,
+	name = "无畏专武技能SB2C(VB-18)火箭机Lv9",
+	spawn_brownian = 1,
+	base = 184681,
+	id = 184689,
+	hp_growth = 3822,
+	weapon_ID = {
+		184699
+	}
+}
+
+
+_G.pg.base.aircraft_template[184690] = {
+	max_hp = 106,
+	name = "无畏专武技能SB2C(VB-18)火箭机Lv10",
+	spawn_brownian = 1,
+	base = 184681,
+	id = 184690,
+	hp_growth = 4066,
+	weapon_ID = {
+		184700
+	}
+}
+
+
 _G.pg.base.aircraft_template[200101] = {
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
 	max_hp = 202,

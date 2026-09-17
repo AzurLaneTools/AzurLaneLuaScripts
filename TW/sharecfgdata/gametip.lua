@@ -49293,6 +49293,26 @@ _G.pg.base.gametip.event_worldboss_0827_title_en = {
 }
 
 
+_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_1 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_2 = {
+	tip = "都市求職大作戰"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
+	tip = "閃耀的「魔法」"
+}
+
+
+_G.pg.base.gametip.shiningmagicsignpage_sign_remain = {
+	tip = "剩餘可簽到次數："
+}
+
+
 _G.pg.base.gametip.auto_battle_unlock_tip = {
 	tip = "通關主線1-3後開放"
 }

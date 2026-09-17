@@ -2963,7 +2963,7 @@ end)()
 		time = 0,
 		room_id = 11,
 		desc = "一對重量適中的啞鈴，完美貼合她的運動需求。\n在汗水折射出的彩虹裡，藏著比昨天更優秀的自己。",
-		text = "dorm3d_xinzexi_bed",
+		text = "dorm3d_xinzexi_chair",
 		id = 1125,
 		icon = "3Ddrom_xinzexi_item26",
 		model = {

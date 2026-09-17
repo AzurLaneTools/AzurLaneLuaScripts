@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸福是不可计算数\n\n<size=45>一　不完美数据</size>",
+					"幸福是不可計算數\n\n<size=45>1 不完美數據</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			hidePaintObj = true,
 			bgName = "bg_story_task_2",
 			bgm = "story-richang-5",
-			say = "工作已处理过半，本该是稍作歇息的时候，法戈却全神贯注埋在文件堆里。",
+			say = "工作已處理過半，本該是稍作歇息的時候，法戈卻全神貫注在文件堆裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……根据计算结果，用户的投入回报比应处在合理范围。",
+			say = "……根據計算結果，用戶的投入回報比應處於合理範圍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但实际得到的用户反馈表明，不满意度远超预期……",
+			say = "但實際得到的用戶回饋表明，不滿意度遠超預期……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "显然，用户彻底怒了。",
+			say = "顯然，用戶徹底怒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "法戈，在研究什么？",
+			say = "法戈，在研究什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，指挥官……分析显示，您现在的困惑情绪占比为72.70%。",
+			say = "啊，指揮官……分析顯示，您現在的困惑情緒佔比為72.70%。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉，我打扰您休息了吗？",
+			say = "抱歉，我打擾您休息了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没有，只是感觉你好像有些严肃？",
+			say = "沒有，只是覺得妳好像有點嚴肅？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "严肃……吗？嗯……情绪占比为81.48%，看来我该上调“轻松”的情绪数值了。",
+			say = "嚴肅……嗎？嗯……情緒佔比為81.48%，看來我該上調「輕鬆」的情緒數值了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，虽然我没有表现严肃的主观意图，但事态确实如此。",
+			say = "不過，雖然我沒有表現嚴肅的主觀意圖，但事態確實如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……起因是，我近期开展了一项新业务——快递盲盒。",
+			say = "……起因是，我近期展開了一項新業務——快遞盲盒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当时我发现，比起固定的商品，随机化商品似乎更引人瞩目。",
+			say = "當時我發現，比起固定的商品，隨機化商品似乎更引人注目。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而为了在盈利之余尽可能照顾用户体验，我还精心计算了一套盲盒概率。",
+			say = "而為了在獲利之餘盡可能照顧使用者體驗，我還精心計算了一套盲盒機率。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这套具有完美平衡的数据可保证多数用户的收益，可结果却是——差评率高达36.49%。",
+			say = "這套具有完美平衡的數據可保證多數用戶的收益，但結果卻是——負評率高達36.49%。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,18 +219,18 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "甚至有评论说，打1分是因为最低只能打1分，根本无法缓解不出货的痛苦。",
+			say = "甚至有評論說，打1分是因為最低只能打1分，根本無法緩解不出貨的痛苦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "评论可能只是气话",
+					content = "評論可能只是氣話",
 					flag = 1
 				},
 				{
-					content = "好像能理解这种情绪……",
+					content = "好像能理解這種情緒……",
 					flag = 2
 				}
 			}
@@ -244,7 +244,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无论如何，这都会对口碑造成影响。",
+			say = "無論如何，這都會對口碑造成影響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊，得想点办法呢。所以你找到原因了么？",
+			say = "是啊，得想點辦法呢。所以妳找到原因了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样吗，指挥官也抱有同感？",
+			say = "這樣嗎，指揮官也抱持同感？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倒也不算。所以你找到原因了么？",
+			say = "倒也不算。所以妳找到原因了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我原本猜测是数值计算有误，但无论怎么重来都是一样的结果。",
+			say = "我原本猜測是數值計算有誤，但無論怎麼重來都是一樣的結果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "并且，盲盒概率始终公示在商品界面，如果存在错误，应该能被不满的用户们发现。",
+			say = "並且，盲盒機率總是公示在商品介面，如果有錯誤，應該能被不滿的使用者發現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那看来不是概率的问题？",
+			say = "那看來不是機率的問題？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许如此，可我暂时想不到其它原因。",
+			say = "或許如此，但我暫時想不到其他原因。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……对了，要不我们现在就进行一次面对面调研吧。",
+			say = "嗯……對了，要不我們現在就進行一次面對面調查吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，冒昧询问，能请您亲自开一个快递盲盒体验下吗？",
+			say = "指揮官，冒昧詢問，能請您親自開一個快遞盲盒體驗下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "里面都是市场上能买到的普通商品。",
+			say = "裡面都是市面上能買到的普通商品。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "是想了解我的反馈？",
+			say = "是想了解我的回饋？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是的。但仔细想想，一个恐怕还不够……先开一百个体验下吧。",
+			say = "是的。但仔細想想，一個恐怕還不夠……先開一百個體驗吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……一百个？",
+			say = "……一百個？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请放心，一百个全部免费。",
+			say = "請放心，一百個全部免費。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比起这些盲盒的成本，您的反馈与建议对我更为重要。",
+			say = "比起這些盲盒的成本，您的回饋與建議對我更為重要。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

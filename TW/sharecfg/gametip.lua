@@ -30560,228 +30560,244 @@ cs.gametip = {
 		1294132,
 		108
 	},
-	auto_battle_unlock_tip = {
+	ShadowCityCoreActivityUI_subtitle_1 = {
 		1294240,
+		111
+	},
+	ShadowCityCoreActivityUI_subtitle_2 = {
+		1294351,
+		120
+	},
+	ShiningMagicCoreActivityUI_subtitle_1 = {
+		1294471,
+		122
+	},
+	shiningmagicsignpage_sign_remain = {
+		1294593,
+		120
+	},
+	auto_battle_unlock_tip = {
+		1294713,
 		110
 	},
 	auto_chapter_unlock_tip = {
-		1294350,
+		1294823,
 		148
 	},
 	auto_battle_headline = {
-		1294498,
+		1294971,
 		96
 	},
 	auto_battle_headline_en = {
-		1294594,
+		1295067,
 		107
 	},
 	auto_battle_book_day = {
-		1294701,
+		1295174,
 		89
 	},
 	auto_battle_book_hour = {
-		1294790,
+		1295263,
 		90
 	},
 	auto_battle_cnt = {
-		1294880,
+		1295353,
 		91
 	},
 	auto_battle_dec_en = {
-		1294971,
+		1295444,
 		91
 	},
 	auto_battle_time_limit_reached = {
-		1295062,
+		1295535,
 		118
 	},
 	auto_battle_cnt_book = {
-		1295180,
+		1295653,
 		99
 	},
 	auto_battle_book_max_reached = {
-		1295279,
+		1295752,
 		113
 	},
 	auto_battle_book_times_reached = {
-		1295392,
+		1295865,
 		118
 	},
 	auto_battle_time_left = {
-		1295510,
+		1295983,
 		103
 	},
 	auto_battle_cost_time = {
-		1295613,
+		1296086,
 		103
 	},
 	auto_battle_cost_extra = {
-		1295716,
+		1296189,
 		104
 	},
 	auto_battle_cost_oil = {
-		1295820,
+		1296293,
 		141
 	},
 	auto_battle_cost_book = {
-		1295961,
+		1296434,
 		163
 	},
 	auto_battle_add_time = {
-		1296124,
+		1296597,
 		102
 	},
 	auto_battle_base_loot = {
-		1296226,
+		1296699,
 		97
 	},
 	auto_battle_class_exp_head = {
-		1296323,
+		1296796,
 		108
 	},
 	auto_battle_extra_loot = {
-		1296431,
+		1296904,
 		107
 	},
 	auto_battle_extra_loot_lock = {
-		1296538,
+		1297011,
 		131
 	},
 	auto_battle_oil_store_tip = {
-		1296669,
+		1297142,
 		164
 	},
 	auto_battle_confirm_button = {
-		1296833,
+		1297306,
 		96
 	},
 	auto_battle_times_zero = {
-		1296929,
+		1297402,
 		107
 	},
 	auto_battle_start_tips = {
-		1297036,
+		1297509,
 		104
 	},
 	auto_battle_not_enough_resource = {
-		1297140,
+		1297613,
 		122
 	},
 	auto_battle_base_exp_warning = {
-		1297262,
+		1297735,
 		156
 	},
 	auto_battle_info_tips = {
-		1297418,
+		1297891,
 		334
 	},
 	auto_battle_time_add_headline = {
-		1297752,
+		1298225,
 		99
 	},
 	auto_battle_time_add_headline_en = {
-		1297851,
+		1298324,
 		102
 	},
 	auto_battle_time_add_info = {
-		1297953,
+		1298426,
 		164
 	},
 	auto_battle_time_add_item_lack = {
-		1298117,
+		1298590,
 		112
 	},
 	auto_battle_time_add_cancel = {
-		1298229,
+		1298702,
 		97
 	},
 	auto_battle_time_add_confirm = {
-		1298326,
+		1298799,
 		98
 	},
 	auto_battle_time_add_zero_item = {
-		1298424,
+		1298897,
 		115
 	},
 	auto_battle_time_add_success = {
-		1298539,
+		1299012,
 		116
 	},
 	auto_battle_ing_headline = {
-		1298655,
+		1299128,
 		103
 	},
 	auto_battle_ing_time = {
-		1298758,
+		1299231,
 		122
 	},
 	auto_battle_ing_cnt = {
-		1298880,
+		1299353,
 		124
 	},
 	auto_battle_ing_base_loot = {
-		1299004,
+		1299477,
 		101
 	},
 	auto_battle_ing_stop = {
-		1299105,
+		1299578,
 		96
 	},
 	auto_battle_ing_finish = {
-		1299201,
+		1299674,
 		98
 	},
 	auto_battle_ing_stop_tips = {
-		1299299,
+		1299772,
 		265
 	},
 	auto_battle_drop_book_expired = {
-		1299564,
+		1300037,
 		160
 	},
 	auto_battle_drop_classEXP_overflow = {
-		1299724,
+		1300197,
 		168
 	},
 	auto_battle_drop_bookEXP_overflow = {
-		1299892,
+		1300365,
 		177
 	},
 	auto_battle_stop = {
-		1300069,
+		1300542,
 		104
 	},
 	auto_battle_finish = {
-		1300173,
+		1300646,
 		106
 	},
 	auto_battle_end_exp = {
-		1300279,
+		1300752,
 		136
 	},
 	auto_battle_end_status = {
-		1300415,
+		1300888,
 		179
 	},
 	auto_battle_book_expire_warning = {
-		1300594,
+		1301067,
 		111
 	},
 	auto_drop_is_activation = {
-		1300705,
+		1301178,
 		176
 	},
 	auto_drop_is_activation_cancle = {
-		1300881,
+		1301354,
 		100
 	},
 	auto_drop_is_activation_go = {
-		1300981,
+		1301454,
 		102
 	},
 	auto_battle_help = {
-		1301083,
+		1301556,
 		2548
 	}
 }

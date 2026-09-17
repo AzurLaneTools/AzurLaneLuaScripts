@@ -158,13 +158,23 @@ slot0.OnToggleName = function(slot0, slot1, slot2)
 	setText(slot1:Find("on/name"), i18n(slot3))
 	setText(slot1:Find("off/name"), i18n(slot3))
 
+	slot7 = checkABExist("coreactivityuitable/" .. slot3 .. "_text")
+	slot8 = checkABExist("coreactivityuitable/" .. slot3 .. "_text_selected")
+
+	setActive(slot1:Find("off/imgName"), slot0:IsImageTgName() and slot7)
+	setActive(slot1:Find("off/name"), not slot6 or not slot7)
+	setActive(slot1:Find("on/imgName"), slot6 and slot8)
+	setActive(slot1:Find("on/name"), not slot6 or not slot8)
+
 	if slot0:IsImageTgName() then
-		if checkABExist("coreactivityuitable/" .. string.lower(slot3) .. "_text") then
-			setImageSprite(slot1:Find("off/imgName"), GetSpriteFromAtlas("coreactivityuitable/" .. slot3 .. "_text", ""), true)
+		slot3 = string.lower(slot3)
+
+		if slot7 then
+			setImageSprite(slot1:Find("off/imgName"), GetSpriteFromAtlas(slot4, ""), true)
 		end
 
-		if checkABExist("coreactivityuitable/" .. slot3 .. "_text_selected") then
-			setImageSprite(slot1:Find("on/imgName"), GetSpriteFromAtlas("coreactivityuitable/" .. slot3 .. "_text_selected", ""), true)
+		if slot8 then
+			setImageSprite(slot1:Find("on/imgName"), GetSpriteFromAtlas(slot5, ""), true)
 		end
 	end
 end

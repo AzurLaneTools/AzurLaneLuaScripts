@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"无效节能\n\n<size=45>四 湖心午餐</size>",
+					"無效節能\n\n<size=45>4 湖心午餐</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-10",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区公园·人工湖边",
+			say = "港區公園·人工湖邊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……终于到了……",
+			say = "呼……終於到了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感觉腿好像已经不是自己的了……",
+			say = "感覺腿好像已經不是自己的了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "经历了一番曲折的骑行，我们终于抵达了游船码头。",
+			say = "經歷了一番曲折的騎行，我們終於抵達了游船碼頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "一艘小巧的游船已经停在那里，船上铺着柔软的垫子，看起来格外温馨。",
+			say = "一艘小巧的游船已經停在那裡，船上鋪著柔軟的墊子，看起來格外溫馨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "餐桌上也已经摆好了精致的食物，果汁、三明治、沙拉，以及水果，是野餐的标准配置。",
+			say = "餐桌上也已經擺好了精緻的食物，果汁、三明治、沙拉，以及水果，是野餐的標準配置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "幸好船和午餐提前预定好了。",
+			say = "幸好船和午餐提前預定好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且，游船是电动船哦，绝对省力。",
+			say = "而且，游船是電動船哦，絕對省力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "希望接下来能一切顺利，我需要好好休息一下，嗯……",
+			say = "希望接下來能一切順利，我需要好好休息一下，嗯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，一起上船吧~",
+			say = "指揮官，一起上船吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "我们登上小船，打开行驶开关，小船立刻缓缓向着湖中心驶去。",
+			say = "我們登上小船，打開行駛開關，小船立刻緩緩向著湖中心駛去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "四周渐渐安静下来，湖水如镜，远处树木的倒影在水面上缓缓摇曳。",
+			say = "四周漸漸安靜下來，湖水如鏡，遠處樹木的倒影在水面上緩緩搖曳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这才是我想要的感觉，真好。",
+			say = "這才是我想要的感覺，真好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "静静地坐在船上，享受悠闲的午餐~",
+			say = "靜靜地坐在船上，享受悠閒的午餐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我们开动吧？",
+			say = "指揮官，我們開動吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "不挠捏起小银叉，叉了一颗草莓递到我嘴边。",
+			say = "不撓捏起小銀叉，叉了一顆草莓遞到我嘴邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "尝尝？",
+			say = "嚐嚐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好！任务完成，接下来换指挥官喂我吧？",
+			say = "好！任務完成，接下來換指揮官餵我吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "连吃饭也懒得自己动手了吗？",
+			say = "連吃飯也懶得自己動手了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，我只是……只是想和指挥官再亲密一些……没错，是这样的。",
+			say = "唔，我只是……只是想和指揮官再親密一些……沒錯，是這樣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "我无奈地拿起三明治，递到不挠嘴边，她心满意足地咬了一口。",
+			say = "我無奈地拿起三明治，遞到不撓嘴邊，她心滿意足地咬了一口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官真是无微不至呢~",
+			say = "指揮官真是無微不至呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先别拿走，我还想吃一口……",
+			say = "先別拿走，我還想吃一口……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "此时，小船忽然轻轻摇晃了一下，原本就倾向我的不挠，扎扎实实摔进了我怀里。",
+			say = "此時，小船忽然輕輕搖晃了一下，原本就傾向我的不撓，紮實實就摔進了我懷裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还好吗？",
+			say = "還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦……指挥官的怀里意外地舒服呢。",
+			say = "咦……指揮官的懷裡意外地舒服呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就保持这个姿势的话，吃饭更方便了……",
+			say = "就保持這個姿勢的話，吃飯更方便了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "不挠一边嘟囔着，一边拉过我的手，又咬了一口三明治。",
+			say = "不撓一邊嘟囔著，一邊拉過我的手，又咬了一口三明治。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "她就这么赖在了我的怀里。",
+			say = "她就這麼賴在了我的懷裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,18 +448,18 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官不吃吗？",
+			say = "指揮官不吃嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "得先喂饱某个人",
+					content = "得先餵飽某個人",
 					flag = 1
 				},
 				{
-					content = "在等着不挠投喂",
+					content = "在等著不撓投餵",
 					flag = 2
 				}
 			}
@@ -472,7 +472,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "得先喂饱某个人才行啊。",
+			say = "得先餵飽某個人才行啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这可是指挥官自愿的哦~",
+			say = "這可是指揮官自願的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能有这种享受的机会，我可就不客气啦。",
+			say = "能有這種享受的機會，我可就不客氣啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在等着不挠投喂。",
+			say = "在等著不撓投餵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？这样吗……",
+			say = "欸？這樣嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好吧，张嘴……那我等下要多休息一会儿才行，毕竟吃饭也耗费了不少体力。",
+			say = "好吧，張開嘴巴……那我等下要多休息一下才行，畢竟吃飯也耗費了不少體力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

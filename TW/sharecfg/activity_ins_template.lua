@@ -664,10 +664,11 @@ pg.activity_ins_template.all = {
 	20006,
 	20005,
 	20008,
+	20011,
+	20012,
 	20009,
 	20010,
-	20011,
-	20012
+	20013
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -27964,6 +27965,60 @@ end)()
 		time_persist = {},
 		npc_discuss_persist = {}
 	}
+	pg.base.activity_ins_template[20011] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港區新聞】濱海極速——全新賽車企劃正式官宣！",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20011,
+		group_id = 20011,
+		time = {
+			{
+				2026,
+				8,
+				20
+			},
+			{
+				11,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20012] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "【時尚港區】轟鳴漸近，各位都選好戰甲了嗎？",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20012,
+		group_id = 20012,
+		time = {
+			{
+				2026,
+				8,
+				27
+			},
+			{
+				15,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
 	pg.base.activity_ins_template[20009] = {
 		ship_group = 0,
 		name = "",
@@ -28018,53 +28073,26 @@ end)()
 		time_persist = {},
 		npc_discuss_persist = {}
 	}
-	pg.base.activity_ins_template[20011] = {
+	pg.base.activity_ins_template[20013] = {
 		ship_group = 0,
 		name = "",
 		type = 2,
 		picture_persist = "",
-		title = "【港區新聞】濱海極速——全新賽車企劃正式官宣！",
+		title = "【港區新聞】港區幸福度大調查火熱進行中！今天，你幸福嗎？",
 		message_persist = "",
 		is_active = 1,
 		oalist_pic_persist = "",
 		sculpture = "",
-		id = 20011,
-		group_id = 20011,
+		id = 20013,
+		group_id = 20013,
 		time = {
 			{
 				2026,
-				8,
-				20
+				9,
+				17
 			},
 			{
-				11,
-				0,
-				0
-			}
-		},
-		time_persist = {},
-		npc_discuss_persist = {}
-	}
-	pg.base.activity_ins_template[20012] = {
-		ship_group = 0,
-		name = "",
-		type = 2,
-		picture_persist = "",
-		title = "【時尚港區】轟鳴漸近，各位都選好戰甲了嗎？",
-		message_persist = "",
-		is_active = 1,
-		oalist_pic_persist = "",
-		sculpture = "",
-		id = 20012,
-		group_id = 20012,
-		time = {
-			{
-				2026,
-				8,
-				27
-			},
-			{
-				15,
+				14,
 				0,
 				0
 			}

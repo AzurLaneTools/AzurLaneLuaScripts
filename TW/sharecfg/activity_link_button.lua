@@ -29,6 +29,8 @@ pg.activity_link_button.all = {
 	108,
 	109,
 	110,
+	115,
+	116,
 	117,
 	122,
 	131
@@ -62,10 +64,12 @@ pg.activity_link_button.get_id_list_by_name = {
 	},
 	event_core = {
 		109,
+		116,
 		117
 	},
 	event_core_2 = {
 		110,
+		115,
 		131
 	},
 	event_dreamland = {
@@ -480,6 +484,34 @@ pg.base.activity_link_button = {}
 		time = {
 			"default",
 			51090
+		}
+	}
+	pg.base.activity_link_button[115] = {
+		param = "ShadowCityCoreActivityUI",
+		name = "event_core_2",
+		text_pic = "text_event_core2",
+		type = 16,
+		pic = "event_core2",
+		id = 115,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			51126
+		}
+	}
+	pg.base.activity_link_button[116] = {
+		param = "ShiningMagicCoreActivityUI",
+		name = "event_core",
+		text_pic = "text_event_core3",
+		type = 16,
+		pic = "event_core3",
+		id = 116,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			51129
 		}
 	}
 	pg.base.activity_link_button[117] = {

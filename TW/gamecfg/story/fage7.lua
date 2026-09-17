@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸福是不可计算数\n\n<size=45>七　零时的魔法</size>",
+					"幸福是不可計算數\n\n<size=45>7 零時的魔法</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……数据统计？",
+			say = "……數據統計？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是的。即使禁用了情绪数据分析模块，我也会习惯性地记录各类数据以掌握事物规律。",
+			say = "是的。即使禁用了情緒資料分析模組，我也會習慣性地紀錄各類資料以掌握事物規律。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但在游乐园，在我做出一些明显不符合常理的选择时……",
+			say = "但在遊樂園，在我做出一些明顯不符合常理的選擇時……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您不仅没有纠正，反而给予了积极的配合和反馈。",
+			say = "您不但沒有糾正，反而給予了正面的配合和回饋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些情境下的正确率，高得异常……",
+			say = "這些情境下的正確率，高得異常……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这份针对特定情境的分析，才让我推测出了您的想法。",
+			say = "這份針對特定情境的分析，才讓我推測出了您的想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然，我还是会下意识依赖理性与数字。",
+			say = "果然，我還是會下意識依賴理性與數字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "理性与数字啊……但这也是唯有法戈才能办到的事。",
+			say = "理性與數字啊……但這也是唯有法戈才能辦到的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唯有我能做到么？",
+			say = "唯有我能做到嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "法戈歪了歪脑袋，若有所思。",
+			say = "法戈歪了歪腦袋，若有所思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "夜色已深，游乐园的烟花表演正是最为绚烂之际。",
+			say = "夜色已深，遊樂園的煙火表演正是最為絢爛之際。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天……和指挥官在一起的时候，都让我非常开心。",
+			say = "今天……和指揮官在一起的時候，都讓我非常開心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样的情绪，似乎也解开了盲盒业务带给我的困扰。",
+			say = "這樣的情緒，似乎也解開了盲盒生意帶給我的困擾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我从您提供的正向情绪里，领悟了这个道理。",
+			say = "我從您提供的正向情緒裡，領悟了這個道理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "数据是客观的，但人的决策往往被主观的“预期”所主导。",
+			say = "數據是客觀的，但人的決策往往被主觀的「預期」所主導。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "人们不太在意实际的数据概率，而更看重自己的直觉，并由此衍生名为“期待”的情绪。",
+			say = "人們不太在意實際的數據機率，而更看重自己的直覺，並由此衍生名為「期待」的情緒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回顾盲盒业务的差评数据，我发现一个规律。",
+			say = "回顧盲盒業務的負評數據，我發現一個規律。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关键不在于她们“亏损”了，而在于“期待落空”。",
+			say = "關鍵不在於她們「虧損」了，而是「期待落空」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大部分盲盒用户都希望收获超出期望的回报，大家都期待好运眷顾自己。",
+			say = "大部分盲盒用戶都希望收穫超越期望的回報，大家都期待好運眷顧自己。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就像我今天实际上的情绪变化一样……",
+			say = "就像我今天實際上的情緒變化一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我会因模拟约会的效果不佳而沮丧，这无关行动的真实成功率。",
+			say = "我會因模擬約會的效果不佳而沮喪，這無關行動的真實成功率。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而我也会因您给予的特别关照而开心，因为这远远超出了我的预期。",
+			say = "而我也會因您給予的特別關照而開心，因為這遠遠超出了我的預期。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，指挥官，请不要对自己的善意耿耿于怀。",
+			say = "所以，指揮官，請不要對自己的善意耿耿於懷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正是因您温柔的关照，才让我有所领悟……",
+			say = "正是因您溫柔的關照，才讓我有所領悟……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让这场实验性质的模拟约会，变成了一次真正的约会。",
+			say = "讓這場實驗性質的模擬約會，變成了一次真正的約會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此时的我，该怎么形容自己的情绪才好呢？",
+			say = "此時的我，該怎麼形容自己的情緒才好呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果开心的情绪指数超过了100.00%，那我应该将这一心情命名为“幸福”吧。",
+			say = "如果開心的情緒指數超過了100.00%，那我應該將這種心情命名為「幸福」吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "不知不觉中，时针已指向零点，轿厢升至云端。",
+			say = "不知不覺中，時針已指向零點，轎廂升至雲端。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么……就按之前说好的那样。",
+			say = "那麼……就照之前說好的那樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我们努力为这场幸福的约会，画上一个圆满的句号吧。",
+			say = "讓我們努力為這場幸福的約會，畫上一個圓滿的句點吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "法戈翩然起身，于轿厢轻微的晃动中向我靠近。",
+			say = "法戈翩然起身，於轎廂輕微的晃動中向我靠近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据我的判断……落幕时的一吻，会开启新的故事。",
+			say = "根據我的判斷……落幕時的一吻，會開啟新的故事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "她纤柔的手指搭上了我的肩，发丝从近处垂落。",
+			say = "她纖柔的手指搭上了我的肩，髮絲從近處垂落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "在离天空最近的地方，又一朵烟花骤然绽放，绚丽的星火仿佛触手可及。",
+			say = "在離天空最近的地方，又一朵煙火驟然綻放，絢麗的星火彷彿觸手可及。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "也许因那光芒过于眩目，也许是为牢记易逝的色彩，我们不约而同闭上双眼。",
+			say = "或許因那光芒過於眩目，也許是為牢記易逝的色彩，我們不約而同閉上雙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "一个轻柔的吻如期落下，为今夜划下确定的终点。",
+			say = "一個輕柔的吻如期落下，為今夜劃下確定的終點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

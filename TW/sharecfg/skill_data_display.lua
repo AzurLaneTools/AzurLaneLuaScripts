@@ -3648,6 +3648,10 @@ pg.skill_data_display.all = {
 	802172,
 	802175,
 	802177,
+	802371,
+	802372,
+	802382,
+	802391,
 	802221,
 	802222,
 	802223,
@@ -3914,6 +3918,8 @@ pg.skill_data_display.all = {
 	201878,
 	201879,
 	201883,
+	201895,
+	201898,
 	1011540,
 	1011541,
 	1090010,
@@ -3981,6 +3987,8 @@ pg.skill_data_display.all = {
 	1005082,
 	1005083,
 	1012940,
+	1012951,
+	1012953,
 	1013000,
 	1013001,
 	1010980,
@@ -4067,6 +4075,11 @@ pg.skill_data_display.all = {
 	1012570,
 	1012571,
 	1012572,
+	1013471,
+	1013473,
+	1013474,
+	1013476,
+	1013477,
 	1014990,
 	1014991,
 	1014992,
@@ -4075,6 +4088,22 @@ pg.skill_data_display.all = {
 	1014996,
 	1013142,
 	1013143,
+	1012912,
+	1012913,
+	1012914,
+	1012915,
+	1014140,
+	1019261,
+	1019262,
+	1019263,
+	1014200,
+	1014201,
+	1014202,
+	1014203,
+	1013071,
+	1013072,
+	1019170,
+	1019171,
 	1090020,
 	1090042,
 	1090043,
@@ -4151,6 +4180,8 @@ pg.skill_data_display.all = {
 	1090421,
 	1090422,
 	1090432,
+	1090441,
+	1090442,
 	1090451,
 	1090452,
 	1090453,
@@ -4158,7 +4189,8 @@ pg.skill_data_display.all = {
 	1090492,
 	1090493,
 	1090494,
-	1090495
+	1090495,
+	1090511
 }
 pg.base = pg.base or {}
 pg.base.skill_data_display = {}
@@ -18812,6 +18844,22 @@ end)()
 		id = 802177,
 		name = "逐光之焰·{namecode:423}II"
 	}
+	pg.base.skill_data_display[802371] = {
+		id = 802371,
+		name = "闪耀★璀璨登场"
+	}
+	pg.base.skill_data_display[802372] = {
+		id = 802372,
+		name = "闪耀★璀璨登场"
+	}
+	pg.base.skill_data_display[802382] = {
+		id = 802382,
+		name = "耀眼★完美演出"
+	}
+	pg.base.skill_data_display[802391] = {
+		id = 802391,
+		name = "炫丽★舞台变幻"
+	}
 	pg.base.skill_data_display[802221] = {
 		id = 802221,
 		name = "雙重打擊·反擊"
@@ -19020,6 +19068,8 @@ end)()
 		id = 200163,
 		name = "佔坑損管LV3"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200167] = {
 		id = 200167,
 		name = "核心支援-點燃Lv1"
@@ -19036,8 +19086,6 @@ end)()
 		id = 200172,
 		name = "核心支援-點燃Lv2"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200175] = {
 		id = 200175,
 		name = "核心支援-點燃Lv3"
@@ -19422,6 +19470,8 @@ end)()
 		id = 200868,
 		name = "平安與守護之加護"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200876] = {
 		id = 200876,
 		name = "復興與浴室的賜福"
@@ -19438,8 +19488,6 @@ end)()
 		id = 200892,
 		name = "英勇之衝鋒！"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[295002] = {
 		id = 295002,
 		name = "開拓與冒險之加護"
@@ -19824,6 +19872,8 @@ end)()
 		id = 201755,
 		name = "黑日凌空"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201756] = {
 		id = 201756,
 		name = "黑日凌空"
@@ -19840,8 +19890,6 @@ end)()
 		id = 201759,
 		name = "神光之網"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201760] = {
 		id = 201760,
 		name = "神光之網"
@@ -19881,6 +19929,14 @@ end)()
 	pg.base.skill_data_display[201883] = {
 		id = 201883,
 		name = "雨中花海"
+	}
+	pg.base.skill_data_display[201895] = {
+		id = 201895,
+		name = "审判★从天而降"
+	}
+	pg.base.skill_data_display[201898] = {
+		id = 201898,
+		name = "变幻★战术音乐 "
 	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
@@ -20150,6 +20206,14 @@ end)()
 		id = 1012940,
 		name = "For The Queen +"
 	}
+	pg.base.skill_data_display[1012951] = {
+		id = 1012951,
+		name = "The Fighting G +"
+	}
+	pg.base.skill_data_display[1012953] = {
+		id = 1012953,
+		name = "The Fighting G +"
+	}
 	pg.base.skill_data_display[1013000] = {
 		id = 1013000,
 		name = "虛空的白騎兵 +"
@@ -20210,6 +20274,8 @@ end)()
 		id = 1011493,
 		name = "甜點製作·馬卡龍"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011496] = {
 		id = 1011496,
 		name = "正面火力+"
@@ -20242,8 +20308,6 @@ end)()
 		id = 10150642,
 		name = "烈酒與秘藥+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[10151761] = {
 		id = 10151761,
 		name = "同航共利+"
@@ -20496,6 +20560,26 @@ end)()
 		id = 1012572,
 		name = "隨伴之翼+"
 	}
+	pg.base.skill_data_display[1013471] = {
+		id = 1013471,
+		name = "砥柱下的應援 +"
+	}
+	pg.base.skill_data_display[1013473] = {
+		id = 1013473,
+		name = "Star Expecto Patronum"
+	}
+	pg.base.skill_data_display[1013474] = {
+		id = 1013474,
+		name = "Blade Sectumsempra"
+	}
+	pg.base.skill_data_display[1013476] = {
+		id = 1013476,
+		name = "Plume Leviosa"
+	}
+	pg.base.skill_data_display[1013477] = {
+		id = 1013477,
+		name = "Redbell Flames"
+	}
 	pg.base.skill_data_display[1014990] = {
 		id = 1014990,
 		name = "火舌飛舞 +"
@@ -20528,6 +20612,72 @@ end)()
 		id = 1013143,
 		name = "I AM RENO！ +"
 	}
+	pg.base.skill_data_display[1012912] = {
+		id = 1012912,
+		name = "不死鳥之羽"
+	}
+	pg.base.skill_data_display[1012913] = {
+		id = 1012913,
+		name = "不死的鬼怪"
+	}
+	pg.base.skill_data_display[1012914] = {
+		id = 1012914,
+		name = "不死鳥之羽"
+	}
+	pg.base.skill_data_display[1012915] = {
+		id = 1012915,
+		name = "不死的鬼怪"
+	}
+	pg.base.skill_data_display[1014140] = {
+		id = 1014140,
+		name = "調皮的小雪球 +"
+	}
+	pg.base.skill_data_display[1019261] = {
+		id = 1019261,
+		name = "精密操作協議 +"
+	}
+	pg.base.skill_data_display[1019262] = {
+		id = 1019262,
+		name = "精密操作協議 +"
+	}
+	pg.base.skill_data_display[1019263] = {
+		id = 1019263,
+		name = "精密操作協議 +"
+	}
+	pg.base.skill_data_display[1014200] = {
+		id = 1014200,
+		name = "冰與血之憶 +"
+	}
+	pg.base.skill_data_display[1014201] = {
+		id = 1014201,
+		name = "冰與血之憶 +"
+	}
+	pg.base.skill_data_display[1014202] = {
+		id = 1014202,
+		name = "冰與血之憶 +"
+	}
+	pg.base.skill_data_display[1014203] = {
+		id = 1014203,
+		name = "冰與血之憶 +"
+	}
+	pg.base.skill_data_display[1013071] = {
+		id = 1013071,
+		name = "翱翔的戰鬥者 +"
+	}
+	pg.base.skill_data_display[1013072] = {
+		id = 1013072,
+		name = "翱翔的戰鬥者 +"
+	}
+	pg.base.skill_data_display[1019170] = {
+		id = 1019170,
+		name = "{namecode:164}流·一致斩 +"
+	}
+	pg.base.skill_data_display[1019171] = {
+		id = 1019171,
+		name = "{namecode:164}流·一致斩 +"
+	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090020] = {
 		id = 1090020,
 		name = "火力全開·{namecode:422}"
@@ -20644,8 +20794,6 @@ end)()
 		id = 1090242,
 		name = "水雷戰隊·{namecode:38}"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090243] = {
 		id = 1090243,
 		name = "水雷戰隊·{namecode:38}"
@@ -20834,6 +20982,14 @@ end)()
 		id = 1090432,
 		name = "吸引火力·{namecode:63}"
 	}
+	pg.base.skill_data_display[1090441] = {
+		id = 1090441,
+		name = "穿甲彈精通·{namecode:405}"
+	}
+	pg.base.skill_data_display[1090442] = {
+		id = 1090442,
+		name = "穿甲彈精通·{namecode:405}"
+	}
 	pg.base.skill_data_display[1090451] = {
 		id = 1090451,
 		name = "集火信号-鱼雷·无敌"
@@ -20865,5 +21021,9 @@ end)()
 	pg.base.skill_data_display[1090495] = {
 		id = 1090495,
 		name = "裝填號令·彭薩科拉"
+	}
+	pg.base.skill_data_display[1090511] = {
+		id = 1090511,
+		name = "狼群戰術-{namecode:417}"
 	}
 end)()

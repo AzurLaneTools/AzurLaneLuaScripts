@@ -580,4 +580,14 @@ switch_chapter_skip_battle = function()
 	pg.TipsMgr.GetInstance():ShowTips(chapter_skip_battle == 1 and "已开启战斗跳略" or "已关闭战斗跳略")
 end
 
+slot0.GetActivityIDByReChapterID = function(slot0)
+	for slot4, slot5 in ipairs(pg.re_map_template.all) do
+		if table.contains(pg.re_map_template[slot5].config_data, chapterID) then
+			return slot6.activity_id
+		end
+	end
+
+	return 0
+end
+
 return slot0

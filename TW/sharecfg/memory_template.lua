@@ -3337,6 +3337,13 @@ pg.memory_template.all = {
 	4316,
 	4317,
 	4318,
+	4321,
+	4322,
+	4323,
+	4324,
+	4325,
+	4326,
+	4327,
 	4331,
 	4332,
 	4333,
@@ -3703,6 +3710,13 @@ pg.memory_template.all = {
 	4857,
 	4858,
 	4859,
+	4861,
+	4862,
+	4863,
+	4864,
+	4865,
+	4866,
+	4867,
 	4871,
 	4872,
 	4873,
@@ -4057,6 +4071,20 @@ pg.memory_template.all = {
 	5413,
 	5414,
 	5415,
+	5421,
+	5422,
+	5423,
+	5424,
+	5425,
+	5426,
+	5427,
+	5431,
+	5432,
+	5433,
+	5434,
+	5435,
+	5436,
+	5437,
 	10011,
 	10012,
 	10013,
@@ -64309,6 +64337,132 @@ end)()
 			"YANGQIYUJINZHIQI8"
 		}
 	}
+	pg.base.memory_template[4321] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "不撓的計劃",
+		condition = "解鎖「無效節能」任務1",
+		story = "BUNAO1",
+		mask = "bg/bg_memory",
+		task = 500121,
+		year = 0,
+		id = 4321,
+		icon = "memory_bunao",
+		is_open = 0,
+		unlock_pre = {
+			"BUNAO1"
+		}
+	}
+	pg.base.memory_template[4322] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "騎行大作戰",
+		condition = "解鎖「無效節能」任務2",
+		story = "BUNAO2",
+		mask = "bg/bg_memory",
+		task = 500122,
+		year = 0,
+		id = 4322,
+		icon = "memory_bunao",
+		is_open = 0,
+		unlock_pre = {
+			"BUNAO2"
+		}
+	}
+	pg.base.memory_template[4323] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "騎行的插曲",
+		condition = "解鎖「無效節能」任務3",
+		story = "BUNAO3",
+		mask = "bg/bg_memory",
+		task = 500123,
+		year = 0,
+		id = 4323,
+		icon = "memory_bunao",
+		is_open = 0,
+		unlock_pre = {
+			"BUNAO3"
+		}
+	}
+	pg.base.memory_template[4324] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "湖心午餐",
+		condition = "解鎖「無效節能」任務4",
+		story = "BUNAO4",
+		mask = "bg/bg_memory",
+		task = 500124,
+		year = 0,
+		id = 4324,
+		icon = "memory_bunao",
+		is_open = 0,
+		unlock_pre = {
+			"BUNAO4"
+		}
+	}
+	pg.base.memory_template[4325] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "同舟共濟",
+		condition = "解鎖「無效節能」任務5",
+		story = "BUNAO5",
+		mask = "bg/bg_memory",
+		task = 500125,
+		year = 0,
+		id = 4325,
+		icon = "memory_bunao",
+		is_open = 0,
+		unlock_pre = {
+			"BUNAO5"
+		}
+	}
+	pg.base.memory_template[4326] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "意料外的決策",
+		condition = "解鎖「無效節能」任務6",
+		story = "BUNAO6",
+		mask = "bg/bg_memory",
+		task = 500126,
+		year = 0,
+		id = 4326,
+		icon = "memory_bunao",
+		is_open = 0,
+		unlock_pre = {
+			"BUNAO6"
+		}
+	}
+	pg.base.memory_template[4327] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "安然的不撓",
+		condition = "解鎖「無效節能」任務7",
+		story = "BUNAO7",
+		mask = "bg/bg_memory",
+		task = 500127,
+		year = 0,
+		id = 4327,
+		icon = "memory_bunao",
+		is_open = 0,
+		unlock_pre = {
+			"BUNAO7"
+		}
+	}
 	pg.base.memory_template[4331] = {
 		ship_group = 0,
 		subtitle = "",
@@ -65389,6 +65543,8 @@ end)()
 			"GAOTASHANGDEQIANGWEI21"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4402] = {
 		ship_group = 0,
 		subtitle = "",
@@ -65515,8 +65671,6 @@ end)()
 			"GAOTASHANGDEQIANGWEI28"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4409] = {
 		ship_group = 0,
 		subtitle = "",
@@ -67191,6 +67345,8 @@ end)()
 			"QIYUANXIADEMIMI29"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4571] = {
 		ship_group = 0,
 		subtitle = "",
@@ -67317,8 +67473,6 @@ end)()
 			"SHISHANGTEKANJIARIYOUXIAN7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4581] = {
 		ship_group = 0,
 		subtitle = "",
@@ -68993,6 +69147,8 @@ end)()
 			"QINGKONGXIADEXIEHOURICHANG2"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4701] = {
 		ship_group = 0,
 		subtitle = "",
@@ -69119,8 +69275,6 @@ end)()
 			"ZHENZHUHAO7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4711] = {
 		ship_group = 0,
 		subtitle = "",
@@ -70795,6 +70949,8 @@ end)()
 			"YIHAILIUSHENG13"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4854] = {
 		ship_group = 0,
 		subtitle = "",
@@ -70903,6 +71059,132 @@ end)()
 			"YIHAILIUSHENG19"
 		}
 	}
+	pg.base.memory_template[4861] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "不完美數據",
+		condition = "解鎖「幸福是不可計算數」任務1",
+		story = "FAGE1",
+		mask = "bg/bg_memory",
+		task = 500191,
+		year = 0,
+		id = 4861,
+		icon = "memory_fage",
+		is_open = 0,
+		unlock_pre = {
+			"FAGE1"
+		}
+	}
+	pg.base.memory_template[4862] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "模組禁用協議",
+		condition = "解鎖「幸福是不可計算數」任務2",
+		story = "FAGE2",
+		mask = "bg/bg_memory",
+		task = 500192,
+		year = 0,
+		id = 4862,
+		icon = "memory_fage",
+		is_open = 0,
+		unlock_pre = {
+			"FAGE2"
+		}
+	}
+	pg.base.memory_template[4863] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "直覺式判斷",
+		condition = "解鎖「幸福是不可計算數」任務3",
+		story = "FAGE3",
+		mask = "bg/bg_memory",
+		task = 500193,
+		year = 0,
+		id = 4863,
+		icon = "memory_fage",
+		is_open = 0,
+		unlock_pre = {
+			"FAGE3"
+		}
+	}
+	pg.base.memory_template[4864] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "50.00%的幸福",
+		condition = "解鎖「幸福是不可計算數」任務4",
+		story = "FAGE4",
+		mask = "bg/bg_memory",
+		task = 500194,
+		year = 0,
+		id = 4864,
+		icon = "memory_fage",
+		is_open = 0,
+		unlock_pre = {
+			"FAGE4"
+		}
+	}
+	pg.base.memory_template[4865] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "邏輯過山車",
+		condition = "解鎖「幸福是不可計算數」任務5",
+		story = "FAGE5",
+		mask = "bg/bg_memory",
+		task = 500195,
+		year = 0,
+		id = 4865,
+		icon = "memory_fage",
+		is_open = 0,
+		unlock_pre = {
+			"FAGE5"
+		}
+	}
+	pg.base.memory_template[4866] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "歸零運算",
+		condition = "解鎖「幸福是不可計算數」任務6",
+		story = "FAGE6",
+		mask = "bg/bg_memory",
+		task = 500196,
+		year = 0,
+		id = 4866,
+		icon = "memory_fage",
+		is_open = 0,
+		unlock_pre = {
+			"FAGE6"
+		}
+	}
+	pg.base.memory_template[4867] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "零時的魔法",
+		condition = "解鎖「幸福是不可計算數」任務7",
+		story = "FAGE7",
+		mask = "bg/bg_memory",
+		task = 500197,
+		year = 0,
+		id = 4867,
+		icon = "memory_fage",
+		is_open = 0,
+		unlock_pre = {
+			"FAGE7"
+		}
+	}
 	pg.base.memory_template[4871] = {
 		ship_group = 0,
 		subtitle = "",
@@ -70921,8 +71203,6 @@ end)()
 			"ZHIMEIHAOSHIJIE1"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[4872] = {
 		ship_group = 0,
 		subtitle = "",
@@ -72475,6 +72755,8 @@ end)()
 			"CHUNYANHUAIYUXIANGMANTING6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[4987] = {
 		ship_group = 0,
 		subtitle = "",
@@ -72727,8 +73009,6 @@ end)()
 			"CHUNMANKEZHAN6"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5017] = {
 		ship_group = 0,
 		subtitle = "",
@@ -74277,6 +74557,8 @@ end)()
 			"SHENGYINQIANDETONGMENG20"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5161] = {
 		ship_group = 0,
 		subtitle = "",
@@ -74529,8 +74811,6 @@ end)()
 			"SHENGYINQIANDETONGMENG34"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5175] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76079,6 +76359,8 @@ end)()
 			"CHENNIYUXINGGUANGZHICHENG9"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5330] = {
 		ship_group = 0,
 		subtitle = "",
@@ -76331,8 +76613,6 @@ end)()
 			"CHENNIYUXINGGUANGZHICHENG23"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5344] = {
 		ship_group = 0,
 		subtitle = "",
@@ -77287,6 +77567,258 @@ end)()
 			"DARENWUDEYUGAOXIN5"
 		}
 	}
+	pg.base.memory_template[5421] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "庭院幽香",
+		condition = "解鎖「駐留的幽香」任務1",
+		story = "BAIFENG1",
+		mask = "bg/bg_memory",
+		task = 500281,
+		year = 0,
+		id = 5421,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG1"
+		}
+	}
+	pg.base.memory_template[5422] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "私密之約",
+		condition = "解鎖「駐留的幽香」任務2",
+		story = "BAIFENG2",
+		mask = "bg/bg_memory",
+		task = 500282,
+		year = 0,
+		id = 5422,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG2"
+		}
+	}
+	pg.base.memory_template[5423] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "試香",
+		condition = "解鎖「駐留的幽香」任務3",
+		story = "BAIFENG3",
+		mask = "bg/bg_memory",
+		task = 500283,
+		year = 0,
+		id = 5423,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG3"
+		}
+	}
+	pg.base.memory_template[5424] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "彼此的氣味",
+		condition = "解鎖「駐留的幽香」任務4",
+		story = "BAIFENG4",
+		mask = "bg/bg_memory",
+		task = 500284,
+		year = 0,
+		id = 5424,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG4"
+		}
+	}
+	pg.base.memory_template[5425] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "三景之香",
+		condition = "解鎖「駐留的幽香」任務5",
+		story = "BAIFENG5",
+		mask = "bg/bg_memory",
+		task = 500285,
+		year = 0,
+		id = 5425,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG5"
+		}
+	}
+	pg.base.memory_template[5426] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "墜入幻景",
+		condition = "解鎖「駐留的幽香」任務6",
+		story = "BAIFENG6",
+		mask = "bg/bg_memory",
+		task = 500286,
+		year = 0,
+		id = 5426,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG6"
+		}
+	}
+	pg.base.memory_template[5427] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "永恒地駐留",
+		condition = "解鎖「駐留的幽香」任務7",
+		story = "BAIFENG7",
+		mask = "bg/bg_memory",
+		task = 500287,
+		year = 0,
+		id = 5427,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"BAIFENG7"
+		}
+	}
+	pg.base.memory_template[5431] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "向著新紀元都市，出發！",
+		condition = "解鎖「Fight！都市求職大作戰！」DAY1",
+		story = "DUSHIQIUZHIDAZUOZHAN1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5431,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN1"
+		}
+	}
+	pg.base.memory_template[5432] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "租房時間！標槍，Fight！！",
+		condition = "解鎖「Fight！都市求職大作戰！」DAY1",
+		story = "DUSHIQIUZHIDAZUOZHAN2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5432,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN2"
+		}
+	}
+	pg.base.memory_template[5433] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "面試開始！標槍，Fight！！",
+		condition = "解鎖「Fight！都市求職大作戰！」DAY2",
+		story = "DUSHIQIUZHIDAZUOZHAN3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5433,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN3"
+		}
+	}
+	pg.base.memory_template[5434] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "入職成功？！標槍，Fight！！",
+		condition = "解鎖「Fight！都市求職大作戰！」DAY3",
+		story = "DUSHIQIUZHIDAZUOZHAN4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5434,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN4"
+		}
+	}
+	pg.base.memory_template[5435] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "妳幸福嗎？標槍，Fight！！",
+		condition = "解鎖「Fight！都市求職大作戰！」DAY4",
+		story = "DUSHIQIUZHIDAZUOZHAN5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5435,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN5"
+		}
+	}
+	pg.base.memory_template[5436] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "危險降臨？！標槍，Fight！！",
+		condition = "解鎖「Fight！都市求職大作戰！」DAY5",
+		story = "DUSHIQIUZHIDAZUOZHAN6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5436,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN6"
+		}
+	}
+	pg.base.memory_template[5437] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "最後一搏！標槍，Fight！！",
+		condition = "解鎖「Fight！都市求職大作戰！」DAY5",
+		story = "DUSHIQIUZHIDAZUOZHAN7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5437,
+		icon = "memory_dushiqiuzhidazuozhan",
+		is_open = 0,
+		unlock_pre = {
+			"DUSHIQIUZHIDAZUOZHAN7"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -77629,6 +78161,8 @@ end)()
 			"YINGHUA4"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10055] = {
 		ship_group = 0,
 		subtitle = "",
@@ -78133,8 +78667,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA9"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20009] = {
 		ship_group = 0,
 		subtitle = "",
@@ -79431,6 +79963,8 @@ end)()
 			"LINGHANGYUANTANXIN29"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20081] = {
 		ship_group = 0,
 		subtitle = "",
@@ -79935,8 +80469,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA28"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20109] = {
 		ship_group = 0,
 		subtitle = "",

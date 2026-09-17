@@ -326,6 +326,16 @@ pg.cartoon.all = {
 	321,
 	322,
 	323,
+	324,
+	325,
+	326,
+	327,
+	328,
+	329,
+	330,
+	331,
+	332,
+	333,
 	369,
 	370,
 	371,
@@ -2289,6 +2299,66 @@ end)()
 		cartoon_id = 323,
 		mark = 47,
 		resource = "323"
+	}
+	pg.base.cartoon[324] = {
+		id = 324,
+		cartoon_id = 324,
+		mark = 48,
+		resource = "324"
+	}
+	pg.base.cartoon[325] = {
+		id = 325,
+		cartoon_id = 325,
+		mark = 48,
+		resource = "325"
+	}
+	pg.base.cartoon[326] = {
+		id = 326,
+		cartoon_id = 326,
+		mark = 48,
+		resource = "326"
+	}
+	pg.base.cartoon[327] = {
+		id = 327,
+		cartoon_id = 327,
+		mark = 48,
+		resource = "327"
+	}
+	pg.base.cartoon[328] = {
+		id = 328,
+		cartoon_id = 328,
+		mark = 48,
+		resource = "328"
+	}
+	pg.base.cartoon[329] = {
+		id = 329,
+		cartoon_id = 329,
+		mark = 49,
+		resource = "329"
+	}
+	pg.base.cartoon[330] = {
+		id = 330,
+		cartoon_id = 330,
+		mark = 49,
+		resource = "330"
+	}
+	pg.base.cartoon[331] = {
+		id = 331,
+		cartoon_id = 331,
+		mark = 49,
+		resource = "331"
+	}
+	pg.base.cartoon[332] = {
+		id = 332,
+		cartoon_id = 332,
+		mark = 49,
+		resource = "332"
+	}
+	pg.base.cartoon[333] = {
+		id = 333,
+		cartoon_id = 333,
+		mark = 49,
+		resource = "333"
 	}
 	pg.base.cartoon[369] = {
 		id = 369,

@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸福是不可计算数\n\n<size=45>二　模块禁用协议</size>",
+					"幸福是不可計算數\n\n<size=45>2 模組禁用協議</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			hidePaintObj = true,
 			bgName = "bg_story_task_2",
 			bgm = "story-richang-8",
-			say = "……又一个盲盒被拆开，战利品堆满了指挥室。",
+			say = "……又一個盲盒被拆開，戰利品堆滿了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "其中不乏随处可见的普通商品，一眼就能扫到不少重复的。",
+			say = "其中不乏隨處可見的普通商品，一眼就能掃到不少重複的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……虽然运气不算好，但还在接受范围内。",
+			say = "嗯……雖然運氣不算好，但還在接受範圍內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，您现在的感受是……60.92%镇定，8.65%遗憾，以及其它各类复杂情绪？",
+			say = "指揮官，您現在的感受是……60.92%鎮定，8.65%遺憾，以及其它各類複雜情緒？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样的情绪，似乎符合我的预期……却和实际情况有很大差距。",
+			say = "這樣的情緒，似乎符合我的預期……卻和實際情況有很大差距。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "毕竟是免费体验，在没有实际投入金钱的情况下，还算是能够接受的结果。",
+			say = "畢竟是免費體驗，在沒有實際投入金錢的情況下，還算是能夠接受的結果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但对于实际花了钱的顾客来说，大概就不会满意这种平庸的结果了。",
+			say = "但對於實際花了錢的顧客來說，大概就不會滿意這種平庸的結果了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此，感谢反馈。",
+			say = "原來如此，感謝回饋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "会出现这么多预期之外的问题，或许说明……我的情感分析模块需要更新了。",
+			say = "會出現這麼多預期之外的問題，或許說明……我的情緒分析模組需要更新了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果能有最新的情绪观测数据，就一定能推演出更加正确的结果。",
+			say = "如果能有最新的情緒觀測數據，就一定能推演出更正確的結果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，指挥官……",
+			say = "所以，指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我临时想到了一种更为直接、也更加真实的数据收集方法——",
+			say = "我臨時想到了一種更直接、也更真實的資料收集方法——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天，我能禁用自己的情绪数据分析模块，与您相处吗？",
+			say = "今天，我能停用自己的情緒數據分析模組，與您相處嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……禁用分析模块？",
+			say = "……禁用分析模組？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是的，也许无法立刻解决问题，但我想先亲身感受情感的深奥之处。",
+			say = "是的，也許無法立刻解決問題，但我想先親身感受情感的深奧之處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对于这种禁用行为，我其实略感难受——这种难受比起“不适”，或许更接近“害羞”。",
+			say = "對於這種禁用行為，我其實略感難受——這種難受比起「不適」，或許更接近「害羞」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为关闭该模块与人接触，对我而言就像赤身裸体一样缺乏安全感。",
+			say = "因為關閉該模組與人接觸，對我而言就像赤身裸體一樣缺乏安全感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我大概会表现得相当笨拙，难以理解许多情绪……",
+			say = "我大概會表現得相當笨拙，難以理解許多情緒……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，只有在您面前，我才敢尝试这么做。",
+			say = "所以，只有在您面前，我才敢嘗試這麼做。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……我明白你的需求了。",
+			say = "嗯……我明白妳的需求了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "是想要一起出去走走么？",
+			say = "是想要一起出去走走嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据过往数据记录，这样的行为是叫做约会无疑。",
+			say = "根據過往數據紀錄，這樣的行為是叫做約會無疑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么指挥官——可以吗？",
+			say = "那麼指揮官——可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可以和您一起去……约会吗？",
+			say = "可以和您一起去……約會嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "出发。",
+			say = "出發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好的，非常感谢指挥官。",
+			say = "好的，非常感謝指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么在关闭模块前，请让我最后再表达一下情绪。",
+			say = "那麼在關閉模組前，請讓我最後再表達一下情緒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此时的法戈，“开心”情绪占比正在飞速上升——",
+			say = "此時的法戈，「開心」情緒佔比正快速上升——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

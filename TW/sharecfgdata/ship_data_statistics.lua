@@ -96572,7 +96572,8 @@ _G.pg.base.ship_data_statistics[201211] = {
 	},
 	tag_list = {
 		"J-Class",
-		"Jersey Skill"
+		"Jersey Skill",
+		"Javelin"
 	},
 	gift_dislike = {
 		180007,
@@ -96703,7 +96704,8 @@ _G.pg.base.ship_data_statistics[201212] = {
 	},
 	tag_list = {
 		"J-Class",
-		"Jersey Skill"
+		"Jersey Skill",
+		"Javelin"
 	},
 	gift_dislike = {
 		180007,
@@ -96834,7 +96836,8 @@ _G.pg.base.ship_data_statistics[201213] = {
 	},
 	tag_list = {
 		"J-Class",
-		"Jersey Skill"
+		"Jersey Skill",
+		"Javelin"
 	},
 	gift_dislike = {
 		180007,
@@ -96965,7 +96968,8 @@ _G.pg.base.ship_data_statistics[201214] = {
 	},
 	tag_list = {
 		"J-Class",
-		"Jersey Skill"
+		"Jersey Skill",
+		"Javelin"
 	},
 	gift_dislike = {
 		180007,

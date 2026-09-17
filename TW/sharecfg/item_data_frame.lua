@@ -63,6 +63,7 @@ pg.item_data_frame.all = {
 	337,
 	341,
 	342,
+	343,
 	401,
 	402,
 	414,
@@ -649,6 +650,15 @@ pg.base.item_data_frame = {}
 		desc = "「歡迎來到星光城，你有想要實現的願望嗎？」\n<color=#A7A7AA>「沉溺於星光之城」活動獲取</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[343] = {
+		name = "萌芽之冠",
+		gain_by = "",
+		time_second = 0,
+		id = 343,
+		time_limit_type = 0,
+		desc = "透過後續活動獲得",
+		scene = {}
+	}
 	pg.base.item_data_frame[401] = {
 		name = "殿堂紀念：企業",
 		gain_by = "",
@@ -1009,6 +1019,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>結晶之中閃爍著獅子座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.08.01-24.08.31）",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10004] = {
 		name = "限界的挑戰者·處女座",
 		gain_by = "",
@@ -1018,8 +1030,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>結晶之中閃爍著處女座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.09.01-24.09.30）",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10005] = {
 		name = "限界的挑戰者·天秤座",
 		gain_by = "",
