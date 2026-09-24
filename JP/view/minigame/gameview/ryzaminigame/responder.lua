@@ -148,9 +148,9 @@ slot0.EventCall = function(slot0, slot1, slot2, slot3, slot4)
 		slot10 = slot4
 
 		for slot9, slot10 in ipairs(slot0:getRangeList(slot9, slot10)) do
-			slot14 = 1
+			slot14 = slot10
 
-			for slot14, slot15 in ipairs(underscore.rest(slot5[tostring(slot10)], slot14)) do
+			for slot14, slot15 in ipairs(underscore.to_array(slot5[tostring(slot14)])) do
 				slot15:React(slot1, slot2)
 			end
 		end

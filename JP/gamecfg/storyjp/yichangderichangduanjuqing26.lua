@@ -4,13 +4,14 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
+			side = 2,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 205162,
 			nameColor = "#A9F548FF",
-			say = "おもちゃ屋のそばを通りかかったとき、ライオンは不意に歩みを緩め、展示棚にあるライオンのぬいぐるみを見やった。",
 			hidePaintObj = true,
-			withoutActorName = true,
-			side = 2,
-			hideRecordIco = true,
+			say = "おもちゃ屋のそばを通りかかったとき、ライオンは不意に歩みを緩め、展示棚にあるライオンのぬいぐるみを見やった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,11 +19,12 @@ return {
 		},
 		{
 			expression = 7,
-			nameColor = "#A9F548FF",
-			actor = 205162,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "……こほん。ただ歩き疲れて、少し足を止めただけだ",
 			typewriter = {
 				speed = 0.05,
@@ -32,9 +34,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "お前も見てみろ。何か買いたいものがあるかもしれないぞ？",
 			typewriter = {
@@ -55,10 +58,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "このライオンのぬいぐるみ……なかなか威厳がある",
 			typewriter = {
@@ -69,10 +73,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ふふん、見る目があるじゃないか♪",
 			typewriter = {
@@ -83,10 +88,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……そうか",
 			typewriter = {
@@ -97,10 +103,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "なら我も買うものはない。行くぞ",
 			typewriter = {

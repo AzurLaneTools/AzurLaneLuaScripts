@@ -4,6 +4,12 @@ slot0.getUIName = function(slot0)
 	return "WorldOverviewUI"
 end
 
+slot0.getResource = function(slot0)
+	return table.insertto({
+		"scenes/worldoverview"
+	}, uv0.super.getResource(slot0))
+end
+
 slot0.preload = function(slot0, slot1)
 	slot0:LoadAtlasOverall(slot1)
 end
@@ -171,7 +177,7 @@ slot0.UpdateTaskPanel = function(slot0)
 
 	if slot2:GetFollowingAreaId() then
 		slot0.isTaskArea = true
-		slot0.entranceIds = underscore.rest(slot1:GetAreaEntranceIds(slot4), 1)
+		slot0.entranceIds = underscore.to_array(slot1:GetAreaEntranceIds(slot4))
 		slot0.areaIds = {
 			slot4
 		}

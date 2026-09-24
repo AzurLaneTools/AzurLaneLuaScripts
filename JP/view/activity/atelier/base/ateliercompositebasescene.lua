@@ -81,6 +81,41 @@ slot0.preload = function(slot0, slot1)
 	end, slot1)
 end
 
+slot0.getResource = function(slot0)
+	slot0:InitStr()
+
+	slot1 = uv0.super.getResource(slot0)
+
+	for slot6, slot7 in ipairs({
+		slot0.bundleName,
+		slot0.commonBundleName,
+		"ui/laisha_ui_huo_o",
+		"ui/laisha_ui_huo_6",
+		"ui/laisha_ui_bing_o",
+		"ui/laisha_ui_bing_6",
+		"ui/laisha_ui_lei_o",
+		"ui/laisha_ui_lei_6",
+		"ui/laisha_ui_feng_o",
+		"ui/laisha_ui_feng_6",
+		"ui/laisha_ui_sairen_o",
+		"ui/laisha_ui_sairen_6",
+		"ui/laisha_ui_wupinshanguang",
+		"ui/laisha_ui_jiesuo",
+		"ui/laisha_ui_lianjie01",
+		"ui/laisha_ui_lianjie02",
+		"ui/laisha_ui_lianjie_qiehuan",
+		"ui/laisha_ui_wupinzhiru",
+		"ui/laisha_ui_baoshi",
+		"ui/" .. slot0:GetAtelierCompositEffect()
+	}) do
+		if noEmptyStr(slot7) and not table.contains(slot1, slot7) then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	return slot1
+end
+
 slot0.init = function(slot0)
 	slot0.top = slot0._tf:Find("Top")
 	slot0.layerFormulaPanel = slot0._tf:Find("FormulaList")

@@ -70,14 +70,15 @@ slot0.GetExtraServiceItem = function(slot0)
 	slot1 = nil
 
 	if slot0:isPassItem() then
-		slot6 = nil
+		slot2, slot3, slot4 = slot0:GetActData()
+		slot5 = nil
 
-		if getProxy(ActivityProxy):getActivityById(slot0:getConfig("sub_display")[1]):getConfig("type") == 130 then
-			slot1 = PlayerConst.MergePassItemDrop(underscore.map(pg.black_friday_battlepass_event_pt[slot3].award_pay, function (slot0)
+		if slot4 == 130 then
+			slot1 = PlayerConst.MergePassItemDrop(underscore.map(pg.black_friday_battlepass_event_pt[slot2].award_pay, function (slot0)
 				return Drop.Create(pg.black_friday_battlepass_event_award[slot0].drop_client)
 			end))
-		elseif slot5 == 54 then
-			slot1 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot3].award_pay, function (slot0)
+		elseif slot4 == 54 then
+			slot1 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot2].award_pay, function (slot0)
 				return Drop.Create(pg.battlepass_event_award[slot0].drop_client)
 			end))
 		end
@@ -127,21 +128,45 @@ slot0.GetChargeTip = function(slot0)
 	return slot1, slot2
 end
 
+slot0.GetActData = function(slot0)
+	slot1, slot2 = unpack(slot0:getConfig("sub_display"))
+	slot4 = nil
+
+	if not getProxy(ActivityProxy):getActivityById(slot1) or slot3:isEnd() then
+		slot5, slot6 = PrevPeriodCrusingActivity.StaticExistPrevPeriodCrusingActivity()
+
+		if slot5 then
+			slot9 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING):GetPreviousPeriodAct()
+			slot1 = slot9.id
+
+			if slot9 and not slot9:isEnd() then
+				slot4 = slot9:getConfig("type")
+			end
+		end
+	else
+		slot4 = slot3:getConfig("type")
+	end
+
+	return slot1, slot2, slot4
+end
+
 slot0.GetExtraDrop = function(slot0)
 	slot1 = nil
 
 	if slot0:isPassItem() then
-		slot2, slot3 = unpack(slot0:getConfig("sub_display"))
+		slot2, slot3, slot4 = slot0:GetActData()
 
-		if getProxy(ActivityProxy):getActivityById(slot2):getConfig("type") == 130 then
-			slot6 = pg.black_friday_battlepass_event_pt[slot2].pt
+		assert(slot4, "activity type is nil")
+
+		if slot4 == 130 then
+			slot5 = pg.black_friday_battlepass_event_pt[slot2].pt
 			slot1 = Drop.New({
 				type = DROP_TYPE_VITEM,
 				id = pg.black_friday_battlepass_event_pt[slot2].pt,
 				count = slot3
 			})
-		elseif slot5 == 54 then
-			slot6 = pg.battlepass_event_pt[slot2].pt
+		elseif slot4 == 54 then
+			slot5 = pg.battlepass_event_pt[slot2].pt
 			slot1 = Drop.New({
 				type = DROP_TYPE_VITEM,
 				id = pg.battlepass_event_pt[slot2].pt,

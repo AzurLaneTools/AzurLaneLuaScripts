@@ -7,9 +7,10 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
+			nameColor = "#A9F548FF",
 			bgm = "story-richang-light",
 			say = "久しぶりの非番日。タイガーの勧めで静かな山荘にやってきた。彼女と二人きりでのんびりと週末を過ごす予定だ。",
 			typewriter = {
@@ -18,6 +19,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			spine = true,
 			withoutActorName = true,
@@ -49,12 +51,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "あら、指揮官さん。あなたの足音、予想より半拍ぶん早いじゃない",
 			typewriter = {
 				speed = 0.05,
@@ -62,6 +65,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -81,8 +85,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "ふふふふ、その顔……この姿がそんなに意外だったかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -90,12 +95,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "天の星でも、身を清めるには下界の水を借りるものよ",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +109,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "ちょうどいいわ。この楽章はまだ途中だし……指揮官さんが加わってくれたら、もっと素敵な合奏になるはずよ",
 			typewriter = {
 				speed = 0.05,
@@ -116,6 +123,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -130,6 +138,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -149,8 +158,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "ねえ、ここにも……指揮官さんはこの雑音…拭ってくれる？",
 			typewriter = {
 				speed = 0.05,
@@ -158,6 +168,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -176,6 +187,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 202381,
@@ -187,12 +199,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "ん……私たち、息がぴったり♪でももう一つ……まだ消えていない雑音があるわ",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +218,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "もっと近くに来て。どこに隠れてるか、教えてあげるから……",
 			typewriter = {
 				speed = 0.05,
@@ -214,6 +228,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -228,6 +243,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -247,8 +263,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "あら……今の一拍は、少し重かったかしら",
 			typewriter = {
 				speed = 0.05,
@@ -256,12 +273,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "でもこれで指揮官さんも濡れてしまったんだもの。急に終止符を打たないで……その疲れも少し、私に流させて",
 			typewriter = {
 				speed = 0.05,
@@ -269,6 +287,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -283,6 +302,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -302,8 +322,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "指揮官さん、息が乱れてるわよ",
 			typewriter = {
 				speed = 0.05,
@@ -311,12 +332,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "でもいいの。たまに変奏があってこそ、楽章はより心を打つもの",
 			typewriter = {
 				speed = 0.05,
@@ -328,6 +350,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 202381,
@@ -339,6 +362,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -358,8 +382,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "だめよ、指揮官さん……羽衣には触れないで",
 			typewriter = {
 				speed = 0.05,
@@ -372,8 +397,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "それはただの羽衣じゃないの。一度羽織ってしまえば、星である私は遥か天の外へ帰らなくてはならなくなる",
 			typewriter = {
 				speed = 0.05,
@@ -386,8 +412,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "星は本来、天の高みでひとり輝いているもの。でも今は……もうあなたから離れたくないわ",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +427,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "あなたと奏でるこの楽章こそ、私がずっと焦がれていた音楽だもの",
 			typewriter = {
 				speed = 0.05,
@@ -414,8 +442,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "ねえ指揮官さん、ぎゅーっと抱きしめて？地上の小川も天の河も……ずっとあなたと一緒に歩いていきたいわ",
 			typewriter = {
 				speed = 0.05,
@@ -428,8 +457,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "もう、離れたりしない",
 			typewriter = {
 				speed = 0.05,

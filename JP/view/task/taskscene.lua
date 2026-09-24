@@ -50,6 +50,57 @@ slot1 = {
 	}
 }
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/taskui_atlas",
+		"ui/iconcolorful",
+		"ui/TaskEmptyListUI",
+		"ui/TaskListPage",
+		"ui/TaskListForWeekPage",
+		"ui/ActivitybonusWindow"
+	}
+
+	table.insertto(slot2, slot0:GetTaskResourceList())
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.GetTaskResourceList = function(slot0)
+	slot1 = {}
+
+	for slot6, slot7 in ipairs(getProxy(TaskProxy):getTasks()) do
+		if slot0:GetTaskResource(slot7) and not table.contains(slot1, slot8) then
+			table.insert(slot1, slot8)
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot2:getFinishTasks()) do
+		if slot0:GetTaskResource(slot7) and not table.contains(slot1, slot8) then
+			table.insert(slot1, slot8)
+		end
+	end
+
+	for slot8, slot9 in ipairs(getProxy(AvatarFrameProxy):getAllAvatarFrame()) do
+		for slot14, slot15 in ipairs(slot9.tasks) do
+			if slot0:GetTaskResource(slot15) and not table.contains(slot1, slot16) then
+				table.insert(slot1, slot16)
+			end
+		end
+	end
+
+	return slot1
+end
+
+slot0.GetTaskResource = function(slot0, slot1)
+	if slot1:getConfig("story_id") and slot2 ~= "" then
+		if not slot1:getConfig("story_icon") or slot3 == "" then
+			return "memoryicon/task_icon_default"
+		else
+			return "shipmodels/" .. slot3
+		end
+	end
+end
+
 slot0.getUIName = function(slot0)
 	return "TaskScene"
 end

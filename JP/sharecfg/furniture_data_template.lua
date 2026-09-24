@@ -31610,7 +31610,7 @@ end)()
 	}
 	pg.base.furniture_data_template[100089] = {
 		can_rotate = 0,
-		describe = "飘飘忽忽，生人勿近~",
+		describe = "ふわふわゆらゆら、見知らぬ者は近づいてはなりませぬぞ",
 		gain_by = "",
 		type = 11,
 		dir = 0,
@@ -31629,7 +31629,7 @@ end)()
 		belong = 1,
 		canputon = 0,
 		count = 1,
-		name = "幽幽祟祟",
+		name = "幽々妖々",
 		advice = 0,
 		id = 100089,
 		tag = 6,

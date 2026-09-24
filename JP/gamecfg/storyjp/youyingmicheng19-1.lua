@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			actorName = "ある普通の後方要員",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			bgm = "story-visioncity-1",
 			actor = 317030,
-			actorName = "ある普通の後方要員",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "「新紀元シティNO.2……」",
 			typewriter = {
@@ -32,8 +33,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異エージェント",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -44,11 +46,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "ある普通の後方要員",
 			side = 2,
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			actor = 317030,
-			actorName = "ある普通の後方要員",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……ごめん。ただの通りすがりで…状況を記録するだけだから、戦闘の方は任せるよ",
 			typewriter = {
@@ -71,8 +74,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			say = "わわっ、前回とは大違い……今回は完全に決戦！って雰囲気です！",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +89,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "妖異が前方にかなりいるわね……。道を塞がれてしまったみたい",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +102,9 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			NextIcon = 1,
 			say = "――こちらも準備はしてある",
 			typewriter = {
 				speed = 0.05,
@@ -106,9 +112,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			say = "収容装置を起動すると、輝きからいくつかの姿が次々と地に降り立った。",
 			typewriter = {
 				speed = 0.05,
@@ -116,12 +123,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 299035,
+			NextIcon = 1,
 			say = "わぁ～今回はこんなに大がかりにゃの？ダンナさま、やーっとチェシャーと派手に遊んでくれる気ににゃったの？",
 			typewriter = {
 				speed = 0.05,
@@ -129,12 +137,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "かつての同僚とあの魔王が相手ですか？……今回ばかりは、悠長にお喋りをしてる余裕もなさそうですわ",
 			typewriter = {
@@ -148,8 +157,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 900561,
 			nameColor = "#A9F548FF",
+			actor = 900561,
+			NextIcon = 1,
 			say = "大丈夫よ。戦場に立とうとも、子どもは子ども……このまま良い子にして眠っていればいいですわ",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +172,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 205162,
 			nameColor = "#A9F548FF",
+			actor = 205162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ふっ……「敵」だった我らのことを助っ人に呼び出すとはな",
 			typewriter = {
@@ -177,8 +188,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 205162,
 			nameColor = "#A9F548FF",
+			actor = 205162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官、ずいぶんと自信があるようだな",
 			typewriter = {
@@ -192,8 +204,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			say = "た、確かに…こっちもヴィランが勢揃いみたいな雰囲気になってません？！",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +219,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異エージェント",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -218,12 +232,13 @@ return {
 			}
 		},
 		{
-			actor = 201191,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +251,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "こんにちは",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +266,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 307053,
 			nameColor = "#FF9B93",
+			actor = 307053,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "よろしくお願いしますね〜",
 			typewriter = {
@@ -265,8 +282,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			say = "こんにちは！よろしくお願いします！",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +297,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異エージェント",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -296,8 +315,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 307053,
 			nameColor = "#FF9B93",
+			actor = 307053,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "アイサツも大事ですよ",
 			typewriter = {
@@ -311,8 +331,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "安土さまが言ってた。「これ以上先へは進ませないからね」と",
 			typewriter = {
 				speed = 0.05,
@@ -325,9 +346,10 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異エージェント",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "おいおい、あたしたちが言うことを聞くとでも？",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -343,8 +365,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "いや、あたしは安土さまの言葉を復唱しただけ。別にみんながそれに従う必要はないから",
 			typewriter = {
 				speed = 0.05,
@@ -352,12 +375,13 @@ return {
 			}
 		},
 		{
-			actor = 201191,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "ただ、安土さまはこうも言ってた。「どうしても進むというのなら入口まで追い出す」と",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +394,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "なるほど、もっともだと思った。入口まで追い出せば、ここまで歩いて戻るだけで結構時間がかかるから",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +409,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "それは困るわ",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +424,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "指揮官さんは進むことを望んでる。ここで退いてもらうわ",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +439,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "……わかった",
 			typewriter = {
 				speed = 0.05,
@@ -426,9 +454,10 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
+			nameColor = "#FF9B93",
 			soundeffect = "event:/battle/boom2",
 			actor = 201191,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "ごめんなさい。じゃあこっちから先に仕掛ける",
 			typewriter = {
 				speed = 0.05,
@@ -480,8 +509,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "うふふ……生真面目な子ですこと",
 			typewriter = {
@@ -495,8 +525,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "指揮官、行くわよ",
 			typewriter = {
 				speed = 0.05,

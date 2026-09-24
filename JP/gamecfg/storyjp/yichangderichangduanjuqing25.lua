@@ -5,9 +5,10 @@ return {
 	scripts = {
 		{
 			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "ライオンと一緒に路地をパトロールしていると、ふいに夜風が吹き抜け、彼女は手で顔を覆った。",
 			typewriter = {
 				speed = 0.05,
@@ -16,10 +17,11 @@ return {
 		},
 		{
 			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "ちっ、風でマスクが飛ばされてしまった……",
 			typewriter = {
 				speed = 0.05,
@@ -27,11 +29,12 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指揮官、今……何か見えたか？",
 			typewriter = {
 				speed = 0.05,
@@ -51,10 +54,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "全く、口が上手いやつだな",
 			typewriter = {
@@ -65,10 +69,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "そこまで言うなら、我が近づいても…逃げるなよ？",
 			typewriter = {
@@ -77,12 +82,13 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "そうか？",
 			typewriter = {
 				speed = 0.05,
@@ -90,12 +96,13 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "ふ……ならばいい",
 			typewriter = {
 				speed = 0.05,

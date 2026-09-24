@@ -7,6 +7,7 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -30,6 +31,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -44,12 +46,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 307053,
+			NextIcon = 1,
 			say = "あの……そちらの旅の御方",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +65,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "風雪で足止めされた一羽の鶴を、どうか匿ってはくださいませんか？",
 			typewriter = {
 				speed = 0.05,
@@ -71,6 +75,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -89,6 +94,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -105,8 +111,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "ふふふ、やっぱりひと目で見抜かれてしまったのですね",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +126,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "この格好なら、少しは迷わせられると思いましたのに",
 			typewriter = {
 				speed = 0.05,
@@ -128,6 +136,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -147,8 +156,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "ええ、演目は……「鶴の恩返し」です♪",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +171,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "伝説では、助けられた鶴は美しい錦をこっそり織り上げ、それを優しい恩人さまに差し上げるのですが…",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +186,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "翔鶴は布を織れませんけど、笛の調べで温かな夢を織ってさしあげられます。指揮官……聴いてくださいますか？",
 			typewriter = {
 				speed = 0.05,
@@ -188,6 +200,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -199,6 +212,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -213,6 +227,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -227,6 +242,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -245,6 +261,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -261,8 +278,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "ふふふ、少しは可憐さがないと、心から匿っていただけないでしょう？",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +293,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "これは私なりの恩返しと、ほんの小さな我が儘ですが…指揮官は翔鶴を嫌いになりませんよね？",
 			typewriter = {
 				speed = 0.05,
@@ -284,6 +303,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -303,8 +323,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "……もしや、翔鶴のことで心が痛んでいるのですか？",
 			typewriter = {
 				speed = 0.05,
@@ -316,6 +337,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -327,6 +349,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -346,8 +369,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "ん……恩人さまの手は、とても温かいのですね♪",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +384,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "でも、手のひらは温まりましたけれど……もう一か所、まだ少し冷たいところがあるんです",
 			typewriter = {
 				speed = 0.05,
@@ -373,6 +398,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -389,8 +415,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "ここ、ですよ♪",
 			typewriter = {
 				speed = 0.05,
@@ -398,6 +425,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -412,6 +440,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -431,8 +460,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "夜はまだまだ長いですよ。翔鶴の恩返しを……もっともっと期待していてくださいませ♪",
 			typewriter = {
 				speed = 0.05,
@@ -440,6 +470,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,

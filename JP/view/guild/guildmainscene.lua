@@ -120,6 +120,84 @@ slot0.preload = function(slot0, slot1)
 	}, slot1)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2 = {
+		"ui/GuildResPanel",
+		"furnitrues/guild/chair",
+		"furnitrues/guild/chair1",
+		"ui/guildmainui_atlas",
+		"dutyicon",
+		"guildpainting/guild_office_blue",
+		"guildpainting/guild_office_red",
+		"guildpainting/guild_event_boss_2",
+		"guildpainting/guild_event_boss_3",
+		"guildpainting/guild_event_boss_4",
+		"guildtechnology",
+		"ui/guildtechnologyredui_atlas",
+		"ui/guildtechnologyblueui_atlas",
+		"ui/guildtechnologyui_atlas",
+		"commonbg/guild_event_bg",
+		"guildevent/1",
+		"guildevent/2",
+		"guildevent/3",
+		"guildevent/4",
+		"guildevent/5",
+		"guildevent/0_0",
+		"guildevent/0",
+		"guildevent/i_1",
+		"guildevent/i_2",
+		"guildevent/i_3",
+		"guildevent/i_4",
+		"guildevent/i_5",
+		"ui/guildeventui_atlas",
+		"guildeventicon",
+		"ui/guildmissionui_atlas",
+		"guildmission/midway",
+		"guildmission/1_4"
+	}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	if getProxy(GuildProxy):getRawData() then
+		slot3(slot4:getBgName())
+
+		slot5 = getProxy(SettingsProxy):IsMellowStyle()
+
+		if slot4:getFaction() == GuildConst.FACTION_TYPE_BLHX then
+			slot3(slot5 and "ui/GuildThemeBlueUI4Mellow" or "ui/GuildThemeBlueUI")
+		elseif slot6 == GuildConst.FACTION_TYPE_CSZZ then
+			slot3(slot5 and "ui/GuildThemeRedUI4Mellow" or "ui/GuildThemeRedUI")
+		end
+	end
+
+	for slot9, slot10 in ipairs(pg.item_data_frame.all) do
+		slot3("iconframe/" .. pg.item_data_frame[slot10].id)
+	end
+
+	if not slot0.memberShips then
+		slot0.memberShips = getProxy(GuildProxy):getData():GetMemberShips(GuildConst.MAX_DISPLAY_MEMBER_SHIP)
+	end
+
+	if slot0.memberShips and #slot0.memberShips > 0 then
+		for slot9, slot10 in ipairs(slot0.memberShips) do
+			slot3("char/" .. slot10:getPainting())
+		end
+	end
+
+	for slot9, slot10 in ipairs(slot2) do
+		if not table.contains(slot1, slot10) then
+			table.insert(slot1, slot10)
+		end
+	end
+
+	return slot1
+end
+
 slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.back, function ()
 		uv0:emit(GuildMainMediator.ON_BACK)
@@ -141,7 +219,11 @@ slot0.didEnter = function(slot0)
 		slot0:emit(GuildMainMediator.ON_FETCH_CAPITAL)
 	end
 
-	slot0.dynamicBg:Init(slot0.guildVO:GetMemberShips(GuildConst.MAX_DISPLAY_MEMBER_SHIP))
+	if not slot0.memberShips then
+		slot0.memberShips = slot0.guildVO:GetMemberShips(GuildConst.MAX_DISPLAY_MEMBER_SHIP)
+	end
+
+	slot0.dynamicBg:Init(slot0.memberShips)
 	slot0:UpdateNotices(uv0.NOTIFY_TYPE_ALL)
 end
 

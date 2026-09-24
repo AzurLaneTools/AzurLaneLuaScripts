@@ -5,9 +5,10 @@ return {
 	scripts = {
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "このダンスはパートナーが必要よ",
 			typewriter = {
 				speed = 0.05,
@@ -16,9 +17,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "正気を保っているあなただけが、私の手を取る資格を持っているわ",
 			typewriter = {
 				speed = 0.05,
@@ -27,9 +29,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "一曲、一緒に踊ってみる？",
 			typewriter = {
 				speed = 0.05,
@@ -48,9 +51,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 1,
 			say = "あーあ、バレてるのね……でも……",
 			typewriter = {
@@ -60,9 +64,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 1,
 			say = "あなただって、私と一曲踊ってみたいと思ってるんじゃなくて？",
 			typewriter = {
@@ -72,9 +77,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 2,
 			say = "話が分かるいい子ね",
 			typewriter = {
@@ -84,9 +90,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 2,
 			say = "さあ、手を預けて。私のステップについてきて……",
 			typewriter = {

@@ -7,10 +7,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "えへへ～。お人形さんのヘイスティ、ご招待に応えて登場だよ～♪",
 			typewriter = {
@@ -22,9 +23,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官は、どこからわたしのこと知りたい？",
 			typewriter = {
@@ -42,9 +44,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "うん、わたしのお人形さんたちを放つだけでいいの",
 			typewriter = {
@@ -62,9 +65,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "うん。もちろんだよ～",
 			typewriter = {
@@ -76,9 +80,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ふらふら～『チュミミーン☆笑顔を見て♪』",
 			typewriter = {
@@ -87,11 +92,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "はい、指揮官はもうわたしの催眠にかかっちゃった！",
 			typewriter = {
@@ -106,12 +112,13 @@ return {
 			}
 		},
 		{
-			actor = 201401,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 201401,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "とりあえず、なにもなかったフリをする",
 			typewriter = {
 				speed = 0.05,
@@ -122,9 +129,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ごまかしきれなくなったら……かわいさで押し切る！",
 			typewriter = {
@@ -133,12 +141,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――ひとまず状況は把握できた",
 			typewriter = {
 				speed = 0.05,
@@ -146,12 +155,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――ヘイスティ、歓迎するよ",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +172,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "やったー～☆指揮官への催眠、大成功♪",
 			typewriter = {

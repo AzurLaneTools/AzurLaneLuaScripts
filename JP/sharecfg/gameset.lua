@@ -4791,4 +4791,25 @@ end)()
 		description = "",
 		key_value = 3600
 	}
+	pg.base.gameset.world_auto_battle_map_limit = {
+		description = "",
+		key_value = 20
+	}
+	pg.base.gameset.last_worldcruise_pay = {
+		description = "",
+		key_value = 30
+	}
+	pg.base.gameset.world_auto_finish_map_limit = {
+		key_value = 0,
+		description = {
+			1101,
+			7201,
+			10601,
+			12101,
+			15301,
+			15501,
+			15601,
+			15701
+		}
+	}
 end)()

@@ -13,6 +13,8 @@ slot0.InitConfig = function(slot0)
 	assert(slot0.posConfig, "CarWash phase2 pos config not found: " .. tostring(slot0.contextData.gameConfig.pos_phase2))
 
 	slot0.tipInfos = {}
+	slot0.displayTipInfos = {}
+	slot0.carTipInfo = nil
 	slot0.clickedTips = {}
 end
 
@@ -28,7 +30,13 @@ slot0.InitUI = function(slot0)
 
 		if slot0 == UIItemList.EventInit then
 			onButton(uv0, slot2, function ()
-				if not uv0.tipInfos[uv1] then
+				if not uv0.displayTipInfos[uv1] then
+					return
+				end
+
+				if slot0.isCar then
+					uv0:emit(CarWashCarSystem.PLAY_PHASE2_REACTION)
+
 					return
 				end
 
@@ -65,6 +73,15 @@ slot0.BindEvent = function(slot0)
 
 		uv0:Flush()
 	end)
+	slot0:bind(CarWashCarSystem.UPDATE_PHASE2_TIP, function (slot0, slot1)
+		if uv0.contextData.gameStatus.currentState ~= CarWashConst.GAME_STATE.PHASE_2 then
+			return
+		end
+
+		uv0.carTipInfo = slot1
+
+		uv0:Flush()
+	end)
 	slot0:bind(CarWashGameFlowSystem.UPDATE_PHASE2_REACTION_PROGRESS, function (slot0, slot1)
 		uv0.clickedTips[slot1.animId] = true
 
@@ -73,11 +90,21 @@ slot0.BindEvent = function(slot0)
 end
 
 slot0.Flush = function(slot0)
-	slot0.tipList:align(#slot0.tipInfos)
+	slot0.displayTipInfos = {}
+
+	for slot4, slot5 in ipairs(slot0.tipInfos) do
+		table.insert(slot0.displayTipInfos, slot5)
+	end
+
+	if slot0.carTipInfo then
+		table.insert(slot0.displayTipInfos, slot0.carTipInfo)
+	end
+
+	slot0.tipList:align(#slot0.displayTipInfos)
 end
 
 slot0.UpdateTipItem = function(slot0, slot1, slot2)
-	slot3 = slot0.tipInfos[slot1]
+	slot3 = slot0.displayTipInfos[slot1]
 
 	assert(slot3, "CarWash phase2 tip info not found: " .. tostring(slot1))
 	setActive(slot2, slot3.visible)
@@ -89,6 +116,8 @@ end
 
 slot0.ResetTips = function(slot0)
 	slot0.tipInfos = {}
+	slot0.displayTipInfos = {}
+	slot0.carTipInfo = nil
 	slot0.clickedTips = {}
 end
 

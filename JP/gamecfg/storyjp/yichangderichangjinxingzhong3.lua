@@ -9,11 +9,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_131",
 			bgm = "theme-hospitalnight-mystic",
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "home",
 			say = "こんな遅い時間に一人でモニターを眺めてるなんて……",
 			typewriter = {
@@ -31,12 +32,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "……もしかしてボクは、私を待っててくれてたの？♥",
 			typewriter = {
 				speed = 0.05,
@@ -44,6 +46,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -58,6 +61,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -72,12 +76,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "ふふふ……ミツケタ♥私の最愛のボク",
 			typewriter = {
 				speed = 0.05,
@@ -85,6 +90,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -99,6 +105,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -116,9 +123,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "login",
 			say = "ん……ふぅ……この通り道、少しだけきついみたい……",
 			typewriter = {
@@ -127,6 +135,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -144,9 +153,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "ボク、手を貸してくれる？",
 			typewriter = {
@@ -158,9 +168,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "もちろん……ボクが今の状態を望むなら、しばらくこのままでいてあげてもいいわよ……♥",
 			typewriter = {
@@ -182,6 +193,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_131",
+			NextIcon = 1,
 			actorName = "{playername}",
 			optionFlag = 1,
 			hideRecordIco = true,
@@ -198,10 +210,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "あら、ボクったら私に気を使ってくれてるの？……優しいわね♥",
 			typewriter = {
@@ -210,12 +223,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
 			optionFlag = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "でも、この溢れんばかりの愛をモニターの向こうに閉じ込めちゃうなんて……指揮官のすることじゃないわよ？",
 			typewriter = {
@@ -227,6 +241,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_131",
+			NextIcon = 1,
 			actorName = "{playername}",
 			optionFlag = 2,
 			hideRecordIco = true,
@@ -243,10 +258,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "ふふふ……ボクなら、私を大変な目に遭わせないって分かってたわ",
 			typewriter = {
@@ -255,12 +271,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "さあ、この冷たいガラスの中から、私を連れ出して♥",
 			typewriter = {
@@ -269,6 +286,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -283,6 +301,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -300,9 +319,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "はぁ……やっとボクの鼓動を直接感じられた♥",
 			typewriter = {
@@ -314,9 +334,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "画面越しからどんなに見つめたり呼びかけたりしても、触れなくって……本当に寂しかったわぁ",
 			typewriter = {
@@ -328,6 +349,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_131",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403143,
@@ -343,9 +365,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "ふふふ……終わらない仕事は明日も大人しくあなたを待っていてくれるけど…",
 			typewriter = {
@@ -354,12 +377,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "疲れた心をずっとそのままにしてたら、誰かにケアされないと……寂しくて迷子になってしまうわよ？",
 			typewriter = {
 				speed = 0.05,
@@ -367,6 +391,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -384,9 +409,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "真夜中は一番寂しい時間だけど……「愛」を詠うのに一番適した時間でもあるわ",
 			typewriter = {
@@ -398,9 +424,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "headtouch",
 			say = "さあボク……この寂しさを少しずつ、私たちだけの「愛」で綴っていきましょ？",
 			typewriter = {
@@ -409,6 +436,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -423,12 +451,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "私の愛しいボク♥",
 			typewriter = {
 				speed = 0.05,
@@ -436,12 +465,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "あなたの熱い「愛」を、余すことなく……私に注いでね♥",
 			typewriter = {
 				speed = 0.05,

@@ -5,6 +5,47 @@ slot0.getUIName = function(slot0)
 	return "LevelStageInfoView"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"ui/levelstageinfoview_atlas",
+		"passstate"
+	}, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.getLevelInfoViewResList = function(slot0, slot1)
+	slot2 = {}
+
+	if slot1 and slot1:getConfigTable() and slot3.icon and slot3.icon[1] then
+		table.insert(slot2, string.format(ResPathSupport.ConstPath.SpineQIcon.Base, slot3.icon[1], ""))
+	end
+
+	slot0:insertLevelInfoViewDropResList(slot2, slot1)
+
+	return slot2
+end
+
+slot0.insertLevelInfoViewDropResList = function(slot0, slot1, slot2)
+	if not slot2 then
+		return
+	end
+
+	_.each(uv0.getChapterAwards(slot2), function (slot0)
+		if noEmptyStr(Drop.Create(slot0):getIcon()) then
+			table.insert(uv0, slot2)
+		end
+	end)
+end
+
+slot0.downloadLevelInfoViewResList = function(slot0, slot1, slot2)
+	SplitPackConst.DownloadByLuaArr(slot0:getLevelInfoViewResList(slot1), function ()
+		if uv0._state == uv1.STATES.DESTROY then
+			return
+		end
+
+		uv2()
+	end)
+end
+
 slot0.OnInit = function(slot0)
 	slot0.loader = AutoLoader.New()
 
@@ -128,9 +169,17 @@ slot1 = 525
 slot2 = 373
 
 slot0.set = function(slot0, slot1, slot2)
+	slot3 = getProxy(ChapterProxy)
+
+	slot0:downloadLevelInfoViewResList(slot3:getChapterById(slot1, true), function ()
+		uv0:setAfterResDownload(uv1, uv2, uv3)
+	end)
+end
+
+slot0.setAfterResDownload = function(slot0, slot1, slot2, slot3)
 	slot0:cancelTween()
 
-	slot0.chapter = getProxy(ChapterProxy):getChapterById(slot1, true)
+	slot0.chapter = slot3
 	slot0.posStart = slot2 or Vector3(0, 0, 0)
 	slot4 = getProxy(ChapterProxy):getMapById(slot3:getConfig("map"))
 	slot6 = string.split(slot3:getConfigTable().name, "|")
@@ -394,13 +443,32 @@ slot0.UpdateChapterAutoBtn = function(slot0)
 	setGray(slot0.btnAuto, not (slot2 and slot0.chapter:isClear() and getProxy(ChapterAutoProxy):GetRecord(ChapterAutoProxy.TYPE.SLG, slot0.chapter.id) > 0), true)
 	onButton(slot0, slot0.btnAuto, function ()
 		if uv0 then
-			uv1:ShowChapterAutoPanel()
+			if not getProxy(ChapterAutoProxy):GetCommissionDoingType() then
+				uv1:ShowChapterAutoPanel()
+			else
+				uv1:CheckChapterAutoOccupied(slot0)
+			end
 		elseif uv2 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_chapter_unlock_tip"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("auto_battle_unlock_tip"))
 		end
 	end, SFX_PANEL)
+end
+
+slot0.CheckChapterAutoOccupied = function(slot0, slot1)
+	switch(slot1, {
+		[ChapterAutoProxy.TYPE.WORLD] = function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("auto_battle_in_world"),
+				onYes = function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
+				end,
+				yesText = i18n("auto_drop_is_activation_go"),
+				noText = i18n("auto_drop_is_activation_cancle")
+			})
+		end
+	})
 end
 
 slot0.cancelTween = function(slot0)

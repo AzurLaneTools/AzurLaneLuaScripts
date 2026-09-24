@@ -6,30 +6,46 @@ slot0.getUIName = function(slot0)
 	return "CombatLoadUI"
 end
 
-slot0.preload = function(slot0, slot1)
-	slot0._preloadPicType = nil
-	slot0._preloadPicPath = nil
-	slot0._preloadPicSprite = nil
-	slot0._preloadBgFitMode = PlayerPrefs.GetInt("bgFitMode", 0)
-	slot2, slot3 = nil
+slot0.getResource = function(slot0, slot1)
+	slot2 = {}
+	slot3, slot4 = nil
 
-	if slot0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE then
-		slot2 = AppreciatePicConst.TYPE_GALLERY
-		slot3 = "bg/star_level_bg_211"
+	if slot1.system == SYSTEM_BOSS_RUSH_COLLABRATE then
+		slot3 = AppreciatePicConst.TYPE_GALLERY
+		slot4 = "bg/star_level_bg_211"
 	elseif AppreciatePicConst.getRandomLoadingPic() then
-		slot2 = slot4.type
-		slot3 = slot4.path
+		slot3 = slot5.type
+		slot4 = slot5.path
 	else
-		slot2 = AppreciatePicConst.TYPE_GALLERY
-		slot3 = "loadingbg/login"
+		slot3 = AppreciatePicConst.TYPE_GALLERY
+		slot4 = "loadingbg/login"
 	end
 
-	slot3 = HXSet.HxPath(slot3)
-	slot0._preloadPicType = slot2
-	slot0._preloadPicPath = slot3
+	if slot4 then
+		table.insert(slot2, slot4)
+	end
 
-	if slot3 then
-		LoadSpriteAsync(slot3, function (slot0)
+	slot0._preloadPicType = slot3
+	slot0._preloadPicPath = HXSet.HxPath(slot4)
+	slot5, slot6, slot7 = CombatLoadUI.GetTotalResourceList(slot1)
+
+	if slot5 and #slot5 > 0 then
+		for slot11, slot12 in ipairs(slot5) do
+			table.insert(slot2, string.lower(slot12))
+		end
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0))
+end
+
+slot0.preload = function(slot0, slot1)
+	slot0._preloadPicType = slot0._preloadPicType or nil
+	slot0._preloadPicPath = slot0._preloadPicPath or nil
+	slot0._preloadPicSprite = nil
+	slot0._preloadBgFitMode = PlayerPrefs.GetInt("bgFitMode", 0)
+
+	if slot0._preloadPicPath then
+		LoadSpriteAsync(slot0._preloadPicPath, function (slot0)
 			uv0._preloadPicSprite = slot0
 
 			uv1()
@@ -153,42 +169,12 @@ slot0.Preload = function(slot0)
 		uv0.addCommanderBuffRes(slot7:buildBattleBuffList())
 	end
 
-	slot5, slot6 = uv0.GetTotalResourceList(slot0.contextData)
+	slot6 = 0
+	slot8 = pg.UIMgr.GetInstance()
 
-	for slot10, slot11 in ipairs(slot5) do
-		slot1:AddPreloadResource(slot11)
-	end
+	setActive(slot8:GetMainCamera(), true)
 
-	for slot10, slot11 in ipairs(slot6) do
-		slot1:AddPreloadCV(slot11)
-	end
-
-	if BATTLE_DEBUG and BATTLE_FREE_SUBMARINE then
-		slot7 = {}
-
-		for slot14, slot15 in ipairs(getProxy(FleetProxy):getFleetById(11):getTeamByName(TeamType.Submarine)) do
-			table.insert(slot7, slot2:getShipById(slot15))
-		end
-
-		slot11, slot12 = slot1.GetPlayerShipResource(slot7, slot0.contextData.system)
-
-		for slot16, slot17 in ipairs(slot11) do
-			slot1:AddPreloadResource(slot17)
-		end
-
-		for slot16, slot17 in ipairs(slot12) do
-			slot1:AddPreloadCV(slot17)
-		end
-
-		uv0.addCommanderBuffRes(slot9:buildBattleBuffList())
-	end
-
-	slot8 = 0
-	slot10 = pg.UIMgr.GetInstance()
-
-	setActive(slot10:GetMainCamera(), true)
-
-	slot8 = slot1:StartPreload(function ()
+	slot6 = slot1:StartPreload(function ()
 		SetActive(uv0._loadingAnima, false)
 		SetActive(uv0._finishAnima, true)
 
@@ -326,36 +312,6 @@ slot0.addCommanderBuffRes = function(slot0)
 			slot1:AddPreloadResource(slot12)
 		end
 	end
-end
-
-slot0.GetExistBGList = function()
-	slot1 = LOADING_HX and PlayerProxy.GetDeviceMaxPlayerLevel() <= pg.gameset.LOADING_HX_LV.key_value and "loadingbg_hx/bg_" or "loadingbg/bg_"
-	slot2 = {}
-
-	for slot6 = 1, BG_RANDOM_RANGE do
-		if checkABExist(slot1 .. slot6) then
-			table.insert(slot2, slot7)
-		end
-	end
-
-	return slot2
-end
-
-slot0.GetRandomBGPath = function()
-	slot0 = uv0.GetExistBGList()
-
-	return slot0[math.random(1, #slot0)]
-end
-
-slot0.EnsureBaseBGList = function()
-	slot0 = {}
-
-	if #uv0.GetExistBGList() <= 0 then
-		table.insert(slot0, "loadingbg_hx/bg_1")
-		table.insert(slot0, "loadingbg/bg_1")
-	end
-
-	return slot0
 end
 
 return slot0

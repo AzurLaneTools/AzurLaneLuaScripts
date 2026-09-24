@@ -4,6 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -15,10 +16,11 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "恩人さま、あなただったのですね……",
 			typewriter = {
 				speed = 0.05,
@@ -26,11 +28,12 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "この曲は、あなたを想って吹かせていただきました",
 			typewriter = {
 				speed = 0.05,
@@ -48,12 +51,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "少しだけです。あなたをここへ導けたのですから、それでちょうどいいでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -61,12 +65,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "この笛の音はほかの人には聞こえません。あなただけのものです♪",
 			typewriter = {
 				speed = 0.05,
@@ -74,12 +79,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "変、ですか……雪のせいで音程が狂ってしまったのかもしれませんね",
 			typewriter = {
 				speed = 0.05,
@@ -87,12 +93,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "あるいは、ただの気のせい……そんな些細なことにはどうかお気になさらず～",
 			typewriter = {
 				speed = 0.05,

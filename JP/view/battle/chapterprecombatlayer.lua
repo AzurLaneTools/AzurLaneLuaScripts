@@ -15,6 +15,20 @@ slot0.ResUISettings = function(slot0)
 	return true
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto(ResList.ChapterPreCombatLayer.GetConstResource(), uv0.super.getResource(slot0, slot1))
+end
+
+slot0.downloadChapterPreCombatRes = function(slot0, slot1, slot2)
+	SplitPackConst.DownloadByLuaArr(ResList.ChapterPreCombatLayer.GetResource(slot1), function ()
+		if uv0.exited or uv0.chapter ~= uv1 then
+			return
+		end
+
+		uv2()
+	end)
+end
+
 slot0.init = function(slot0)
 	slot0._startBtn = slot0.rtAdapt:Find("right/start")
 	slot0._popup = slot0.rtAdapt:Find("right/popup")
@@ -282,6 +296,17 @@ end
 
 slot0.updateChapter = function(slot0, slot1)
 	slot0.chapter = slot1
+
+	slot0:downloadChapterPreCombatRes(slot1, function ()
+		uv0:updateChapterAfterDownload(uv1)
+	end)
+end
+
+slot0.updateChapterAfterDownload = function(slot0, slot1)
+	if slot0.chapter ~= slot1 then
+		return
+	end
+
 	slot2 = slot0.chapter.fleet
 
 	slot0._formationLogic:SetFleetVO(slot2)

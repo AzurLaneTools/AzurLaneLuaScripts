@@ -12,9 +12,10 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			bgm = "story-ghostnight-fascinsting",
 			actor = 9600033,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			say = "うふふふ……うふふふ……",
 			typewriter = {
 				speed = 0.05,
@@ -30,6 +31,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -49,8 +51,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "獲物が迷い込んできたわぁ……さあ、どこに隠れているのかしらぁ？",
 			typewriter = {
 				speed = 0.05,
@@ -58,6 +61,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -72,6 +76,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -91,8 +96,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "うふふ……ミ・ツ・ケ・タ〜♡",
 			typewriter = {
 				speed = 0.05,
@@ -100,6 +106,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -119,8 +126,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "あなただったのねぇ……指揮官さま♡",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +141,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "会いに来てくれて嬉しいわぁ。でも……どうして、私から隠れたのかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -142,6 +151,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -161,8 +171,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "こんなところで隠れんぼだなんて、あまりいい子がすることじゃないわよ？",
 			typewriter = {
 				speed = 0.05,
@@ -174,6 +185,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600033,
@@ -190,8 +202,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "お仕事？なるほどねぇ",
 			typewriter = {
 				speed = 0.05,
@@ -199,6 +212,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -217,6 +231,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600033,
@@ -233,8 +248,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "だから……このまま、見なかったことにしてーって言うつもりじゃないでしょうねぇ？",
 			typewriter = {
 				speed = 0.05,
@@ -242,6 +258,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -261,8 +278,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "いけないわ指揮官さま♡",
 			typewriter = {
 				speed = 0.05,
@@ -270,6 +288,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -289,8 +308,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "私にこんなに捜させた罰として……",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +323,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "たっぷり、おもてなしさせてもらうわぁ♡",
 			typewriter = {
 				speed = 0.05,
@@ -312,6 +333,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -326,9 +348,10 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
+			bgName = "star_level_bg_115",
 			hideRecordIco = true,
 			actor = 9600032,
 			nameColor = "#A9F548FF",
@@ -360,6 +383,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -375,9 +399,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "お風呂よ♡",
 			typewriter = {
@@ -386,6 +411,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -403,6 +429,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -418,9 +445,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "うふふ〜。ねばねばの指揮官さまを味わう前に……きれいに洗ってあげないと♡",
 			typewriter = {
@@ -429,6 +457,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -446,6 +475,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -461,9 +491,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "もちろん分かってるわぁ。だからこの後は私が手で泡を塗りつけてぇ……少しずつ丁寧に洗ってあげる♡",
 			typewriter = {
@@ -472,6 +503,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -486,6 +518,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -503,9 +536,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "main3",
 			say = "少し緊張しているみたいねぇ〜。もう逃げられないって、今になって気づいたからかしら？",
 			typewriter = {
@@ -517,6 +551,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -532,9 +567,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "そう？ならなおさら好都合だわぁ♪",
 			typewriter = {
@@ -543,6 +579,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -557,6 +594,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -574,9 +612,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "指揮官さま、動かないで……私に任せて♡",
 			typewriter = {
@@ -585,6 +624,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -602,9 +642,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "指揮官さまのここ……すごくドキドキしてるわぁ。泡もブルブルってなって伝わってくるくらい♥",
 			typewriter = {
@@ -616,9 +657,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "もしかして怖いのぉ？",
 			typewriter = {
@@ -630,6 +672,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -645,9 +688,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "main1",
 			say = "それってつまり……こうされるのを期待してるってことかしらぁ？",
 			typewriter = {
@@ -656,6 +700,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -673,9 +718,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "まずはきれいに洗ってから、次は……",
 			typewriter = {
@@ -687,9 +733,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "頭のてっぺんから爪先まで、一寸も余さず……少しずついただくわぁ♡",
 			typewriter = {
@@ -698,6 +745,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -715,9 +763,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "home",
 			say = "指揮官さまのことをもぉっと知りたいわ。肌から鼓動まで、その困った表情から言葉にできない想いまで、ぜーんぶ♥",
 			typewriter = {
@@ -729,9 +778,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "安心して。怪我させたりしないから……",
 			typewriter = {
@@ -740,6 +790,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -757,9 +808,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "ただ……あなたを、もっと美味しくするだけ♥",
 			typewriter = {

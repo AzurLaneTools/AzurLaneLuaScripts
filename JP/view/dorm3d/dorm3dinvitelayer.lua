@@ -4,6 +4,71 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dInviteWindow"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {}
+	slot3 = slot1 or slot0.contextData or {}
+
+	slot4 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot6 = {}
+
+	slot7 = function(slot0)
+		if slot0 and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	if slot3.roomId and pg.dorm3d_rooms[slot3.roomId] then
+		if noEmptyStr(slot5.assets_prefix) then
+			slot4("dorm3dselect/room_invite_" .. slot5.assets_prefix)
+		end
+
+		slot8 = ipairs
+		slot9 = slot5.character or {}
+
+		for slot11, slot12 in slot8(slot9) do
+			slot7(slot12)
+		end
+
+		slot8 = ipairs
+		slot9 = slot5.character_pay or {}
+
+		for slot11, slot12 in slot8(slot9) do
+			slot7(slot12)
+		end
+	end
+
+	slot8 = ipairs
+	slot9 = slot3.groupIds or {}
+
+	for slot11, slot12 in slot8(slot9) do
+		slot7(slot12)
+	end
+
+	for slot11, slot12 in ipairs(slot6) do
+		slot14 = pg.dorm3d_resource.get_id_list_by_ship_group[slot12] and slot13[1]
+		slot15 = slot14 and pg.dorm3d_resource[slot14]
+
+		slot4(slot15 and slot15.head_Icon)
+
+		if slot5 then
+			if Apartment.New({
+				ship_group = slot12
+			}):GetSkinModelID(slot5.tag) then
+				slot4(string.format("dorm3dselect/room_card_apartment_%d", slot16))
+			end
+
+			slot4(string.format("dorm3dselect/room_card_apartment_name_%d", slot12))
+		end
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.init = function(slot0)
 	slot0.rtInvitePanel = slot0._tf:Find("invite_panel")
 
@@ -84,7 +149,7 @@ slot0.ShowInvitePanel = function(slot0)
 		seriesAsync(slot0, function ()
 			uv0:emit(Dorm3dInviteMediator.ON_DORM, {
 				roomId = uv0.room.id,
-				groupIds = underscore.rest(uv0.selectIds, 1)
+				groupIds = underscore.to_array(uv0.selectIds)
 			})
 		end)
 	end, SFX_CONFIRM)

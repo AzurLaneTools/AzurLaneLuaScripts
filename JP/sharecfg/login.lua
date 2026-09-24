@@ -93,7 +93,9 @@ pg.login.all = {
 	97,
 	98,
 	99,
-	100
+	100,
+	101,
+	102
 }
 pg.base = pg.base or {}
 pg.base.login = {}
@@ -3249,11 +3251,11 @@ pg.base.login = {}
 			{
 				{
 					2026,
-					9,
-					17
+					10,
+					7
 				},
 				{
-					16,
+					10,
 					0,
 					0
 				}
@@ -3293,7 +3295,7 @@ pg.base.login = {}
 		id = 100,
 		login_static = "login",
 		login_cri = "",
-		bgm = "",
+		bgm = "login-JP9th",
 		date = {
 			"timer",
 			{
@@ -3345,6 +3347,130 @@ pg.base.login = {}
 					16,
 					0,
 					0
+				}
+			}
+		}
+	}
+	pg.base.login[101] = {
+		op_play = 0,
+		effective_channel = 0,
+		id = 101,
+		login_static = "login_260924",
+		login_cri = "",
+		bgm = "login-JP9th",
+		date = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.login[102] = {
+		op_play = 0,
+		effective_channel = 0,
+		id = 102,
+		login_static = "login_qiye",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}

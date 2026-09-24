@@ -267,7 +267,42 @@ pg.dorm3d_subtitle.all = {
 	21039,
 	21040,
 	21041,
-	21042
+	21042,
+	22001,
+	22002,
+	22003,
+	22004,
+	22005,
+	22006,
+	22007,
+	22008,
+	22009,
+	22010,
+	22011,
+	22012,
+	22013,
+	22014,
+	22015,
+	22016,
+	22017,
+	22021,
+	22022,
+	22023,
+	22024,
+	22025,
+	22026,
+	22027,
+	22028,
+	22029,
+	22030,
+	22031,
+	22032,
+	22033,
+	22034,
+	22035,
+	22036,
+	22037,
+	22038
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_subtitle = {}
@@ -1332,5 +1367,145 @@ end)()
 	pg.base.dorm3d_subtitle[21042] = {
 		id = 21042,
 		subtitle = "ずっと……ずっと一緒……"
+	}
+	pg.base.dorm3d_subtitle[22001] = {
+		id = 22001,
+		subtitle = "願わくはこの光が……"
+	}
+	pg.base.dorm3d_subtitle[22002] = {
+		id = 22002,
+		subtitle = "夜に迷える子羊を導かんことを……"
+	}
+	pg.base.dorm3d_subtitle[22003] = {
+		id = 22003,
+		subtitle = "あら、私の許しを待っているのかしら？指揮官"
+	}
+	pg.base.dorm3d_subtitle[22004] = {
+		id = 22004,
+		subtitle = "なら指先で……この声なき祈りを、読み解いて差し上げましょう"
+	}
+	pg.base.dorm3d_subtitle[22005] = {
+		id = 22005,
+		subtitle = "ふふ……こういう告解の仕方が、好みなのね？"
+	}
+	pg.base.dorm3d_subtitle[22006] = {
+		id = 22006,
+		subtitle = "今、あなたが求めているのは救済？それとも……"
+	}
+	pg.base.dorm3d_subtitle[22007] = {
+		id = 22007,
+		subtitle = "私と共に溺れる夜……かしら？ふふふ♡"
+	}
+	pg.base.dorm3d_subtitle[22008] = {
+		id = 22008,
+		subtitle = "目が覚めたの？もう少しまどろむかと思ってたわ"
+	}
+	pg.base.dorm3d_subtitle[22009] = {
+		id = 22009,
+		subtitle = "もう朝よ？ちょうど昨夜のことで、懺悔しようとしてたところだけど…ふふ"
+	}
+	pg.base.dorm3d_subtitle[22010] = {
+		id = 22010,
+		subtitle = "ん…敬虔な祈りを邪魔するなんて…もしかして昨夜の続きでも？"
+	}
+	pg.base.dorm3d_subtitle[22011] = {
+		id = 22011,
+		subtitle = "ふふ…服のシワもまだ取れていないし、この「罪の証」はきちんと隠しておかないと……"
+	}
+	pg.base.dorm3d_subtitle[22012] = {
+		id = 22012,
+		subtitle = "さあ、朝の「懺悔」はここまでにして…続きはまた夜に…ふふ"
+	}
+	pg.base.dorm3d_subtitle[22013] = {
+		id = 22013,
+		subtitle = "どうしたの……寂しくて、相手してほしくなった？"
+	}
+	pg.base.dorm3d_subtitle[22014] = {
+		id = 22014,
+		subtitle = "まぁ、本よりはあなたのほうが「読み応えがある」わね。ふふふ"
+	}
+	pg.base.dorm3d_subtitle[22015] = {
+		id = 22015,
+		subtitle = "……本にはこう書いてあったわ。言葉の意味はその時の状況に左右されると……"
+	}
+	pg.base.dorm3d_subtitle[22016] = {
+		id = 22016,
+		subtitle = "たとえば「縛り付ける」という言葉だと…"
+	}
+	pg.base.dorm3d_subtitle[22017] = {
+		id = 22017,
+		subtitle = "文脈によっては……もっとぎゅーってすることを意味するのよ♪"
+	}
+	pg.base.dorm3d_subtitle[22021] = {
+		id = 22021,
+		subtitle = "果たしてそれが愛と呼べるかどうか……触れ合って確かめていきましょう？"
+	}
+	pg.base.dorm3d_subtitle[22022] = {
+		id = 22022,
+		subtitle = "こんなに優しくして……ふふふ、私への戒めのつもり？"
+	}
+	pg.base.dorm3d_subtitle[22023] = {
+		id = 22023,
+		subtitle = "私が惹かれるのは……強引な方のあなたよ……これも懺悔が必要かしら？"
+	}
+	pg.base.dorm3d_subtitle[22024] = {
+		id = 22024,
+		subtitle = "感じる？心があなたのために……ドクンドクンと……"
+	}
+	pg.base.dorm3d_subtitle[22025] = {
+		id = 22025,
+		subtitle = "ほら、あなたのここも……早鐘を打っている"
+	}
+	pg.base.dorm3d_subtitle[22026] = {
+		id = 22026,
+		subtitle = "どうやら……もっと直接的な「証明」が必要なようね"
+	}
+	pg.base.dorm3d_subtitle[22027] = {
+		id = 22027,
+		subtitle = "……認めて……あなたが心から望んでいることだから、懺悔なんて必要ないわよ"
+	}
+	pg.base.dorm3d_subtitle[22028] = {
+		id = 22028,
+		subtitle = "ふふ……指揮官はこういうので……私を反省させたいようね"
+	}
+	pg.base.dorm3d_subtitle[22029] = {
+		id = 22029,
+		subtitle = "いいわよ……どんなことだろうと、甘んじて受け入れるわ"
+	}
+	pg.base.dorm3d_subtitle[22030] = {
+		id = 22030,
+		subtitle = "そうまでして……私の心を独り占めしたいの？うふふ……"
+	}
+	pg.base.dorm3d_subtitle[22031] = {
+		id = 22031,
+		subtitle = "あぁ……このままでは本当に……指揮官に逆らえなくなってしまうわ……"
+	}
+	pg.base.dorm3d_subtitle[22032] = {
+		id = 22032,
+		subtitle = "こんなところに書きたいの？欲張り屋な指揮官♪"
+	}
+	pg.base.dorm3d_subtitle[22033] = {
+		id = 22033,
+		subtitle = "ん……体の奥がじんじんしてきて……もしかしてこれも…あなたの筆で書かれたせい？"
+	}
+	pg.base.dorm3d_subtitle[22034] = {
+		id = 22034,
+		subtitle = "ここにも……書きたいの？"
+	}
+	pg.base.dorm3d_subtitle[22035] = {
+		id = 22035,
+		subtitle = "ふふ……もっと書き込んでも平気よ。……大切にするから♪"
+	}
+	pg.base.dorm3d_subtitle[22036] = {
+		id = 22036,
+		subtitle = "まさか……これで私が素直に反省するとでも？"
+	}
+	pg.base.dorm3d_subtitle[22037] = {
+		id = 22037,
+		subtitle = "残念ね……愛の筆跡では、ざわめく心を鎮められないわ"
+	}
+	pg.base.dorm3d_subtitle[22038] = {
+		id = 22038,
+		subtitle = "さあ、次は……私があなたに「書き込む」番よ♡"
 	}
 end)()

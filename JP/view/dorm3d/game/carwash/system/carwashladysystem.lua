@@ -188,7 +188,7 @@ slot0.OnCharacterHit = function(slot0, slot1, slot2, slot3)
 	if (slot3 or slot0:GetCharacterHitConfig(slot1.collider.gameObject.name)) and slot0:CanTriggerReactionAnim() and slot0:GetTriggerAnim(slot3) ~= "" then
 		slot0:PlayReactionAnim(slot5, function ()
 			uv0:Emit(CarWashGameFlowSystem.MODIFY_HEART_BEAT_VALUE, uv1.mood_value_plus)
-			uv0:Emit(CarWashMainPage.SHOW_EXPRESSION_HUD, CarWashMainPage.EXPRESSION_TYPE.LIKE)
+			uv0:Emit(CarWashMainPage.SHOW_EXPRESSION_HUD, uv1.mood_value_plus > 0 and CarWashMainPage.EXPRESSION_TYPE.LIKE or CarWashMainPage.EXPRESSION_TYPE.HATE)
 		end)
 
 		return
@@ -273,7 +273,7 @@ slot0.TryHandleHiddenReaction = function(slot0, slot1, slot2)
 		slot0.hiddenReactionHitTime = 0
 		slot0.hiddenReactionTriggered = false
 
-		slot0:Emit(CarWashMainPage.SHOW_EXPRESSION_HUD, CarWashMainPage.EXPRESSION_TYPE.HATE)
+		slot0:Emit(CarWashMainPage.SHOW_EXPRESSION_HUD, slot1.mood_value_plus > 0 and CarWashMainPage.EXPRESSION_TYPE.LIKE or CarWashMainPage.EXPRESSION_TYPE.HATE)
 	end
 
 	if slot0.hiddenReactionTriggered then

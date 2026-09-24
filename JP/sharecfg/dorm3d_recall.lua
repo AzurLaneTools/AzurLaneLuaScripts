@@ -38,7 +38,11 @@ pg.dorm3d_recall.all = {
 	211,
 	212,
 	213,
-	214
+	214,
+	221,
+	222,
+	223,
+	224
 }
 pg.dorm3d_recall.get_id_list_by_story_id = {
 	[10010] = {
@@ -148,6 +152,18 @@ pg.dorm3d_recall.get_id_list_by_story_id = {
 	},
 	[210541] = {
 		214
+	},
+	[220510] = {
+		221
+	},
+	[220520] = {
+		222
+	},
+	[220530] = {
+		223
+	},
+	[220541] = {
+		224
 	}
 }
 pg.base = pg.base or {}
@@ -643,6 +659,61 @@ pg.base.dorm3d_recall = {}
 		unlock = {
 			3,
 			7990201
+		}
+	}
+	pg.base.dorm3d_recall[221] = {
+		story_id = 220510,
+		name = "告解の夜",
+		type = 1,
+		id = 221,
+		image = "recall_221",
+		unlock_text = "インプラカブル親密度Lv4で解放",
+		desc = "あなたが求めているのは救済？それとも……私と共に溺れる夜……かしら？ふふふ♡",
+		unlock = {
+			1,
+			20707,
+			4
+		}
+	}
+	pg.base.dorm3d_recall[222] = {
+		story_id = 220520,
+		name = "隠しきれぬ罪の証",
+		type = 1,
+		id = 222,
+		image = "recall_222",
+		unlock_text = "インプラカブル親密度Lv8で解放",
+		desc = "シワもまだ消えないうちにもう朝ね。懺悔の続きはまた夜にでも……ふふ",
+		unlock = {
+			1,
+			20707,
+			8
+		}
+	}
+	pg.base.dorm3d_recall[223] = {
+		story_id = 220530,
+		name = "「縛り付ける」の意味",
+		type = 1,
+		id = 223,
+		image = "recall_223",
+		unlock_text = "インプラカブル親密度Lv12で解放",
+		desc = "同じ言葉でも、文脈が変われば意味も変わる――どう定義するかはあなた次第よ♪",
+		unlock = {
+			1,
+			20707,
+			12
+		}
+	}
+	pg.base.dorm3d_recall[224] = {
+		story_id = 220541,
+		name = "愛恋のノート",
+		type = 1,
+		id = 224,
+		image = "recall_224",
+		unlock_text = "愛恋のノート購入で開放",
+		desc = "表紙には「懺悔」を、中身には溢れんばかりの渇愛を♡",
+		unlock = {
+			3,
+			2070701
 		}
 	}
 end)()

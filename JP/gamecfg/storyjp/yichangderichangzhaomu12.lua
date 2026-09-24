@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "愛しのボク～会いに来たわ～♥",
 			typewriter = {
@@ -27,9 +28,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "そのとおりよ～。テレビとか鏡とかを使って……",
 			typewriter = {
@@ -38,11 +40,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "いい媒介さえあれば、私は狙った相手の背後にたどり着けるわ",
 			typewriter = {
@@ -60,9 +63,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "あら、チャンネルを合わせて私に会いに来たいの？",
 			typewriter = {
@@ -71,12 +75,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 403143,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "でも私、決まったチャンネルにおとなしく居座るタイプじゃないのよ～",
 			typewriter = {
 				speed = 0.05,
@@ -84,11 +89,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ボクの一番驚くタイミングで現れたいの♪",
 			typewriter = {
@@ -106,9 +112,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ううん。むしろその方がいいの～",
 			typewriter = {
@@ -120,9 +127,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "「現れる」という過程そのものが、プレッシャーになるわ～",
 			typewriter = {
@@ -131,12 +139,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――ひとまず状況は把握できた",
 			typewriter = {
 				speed = 0.05,
@@ -144,12 +153,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――フリードリヒ・カール、歓迎するよ",
 			typewriter = {
 				speed = 0.05,
@@ -157,12 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 403143,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "ふふふ、これからひとりで残業している時は…うんと「気をつけて」ね～♥",
 			typewriter = {
 				speed = 0.05,

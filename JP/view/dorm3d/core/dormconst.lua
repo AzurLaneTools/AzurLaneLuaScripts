@@ -40,9 +40,11 @@ slot0.BONE_TO_TOUCH = {
 
 slot0.GetDefaultSystemClasses = function()
 	return {
+		FurnitureSystem,
 		SlideExtraSystem,
 		Dorm3dStockingMgr,
 		TeleportSystem,
+		CollectionSystem,
 		RoomIKSystem,
 		RoomTouchSystem,
 		AimIKSystem

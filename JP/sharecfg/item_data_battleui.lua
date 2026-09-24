@@ -19,6 +19,7 @@ pg.item_data_battleui.all = {
 	114,
 	115,
 	116,
+	117,
 	201,
 	202,
 	203,
@@ -267,6 +268,21 @@ pg.base.item_data_battleui = {}
 		desc = "旧日の光と影が流転し、ロイヤルの優雅な余音が響き渡る。戦闘に一抹のクラシックとエレガンスを添えて",
 		id = 116,
 		icon = "116",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[117] = {
+		name = "バレット",
+		key = "SkinNormal_20260924",
+		display_icon = "ui_117",
+		unlock = "クルーズパス31期報酬",
+		is_unlock = 1,
+		rare = 3,
+		desc = "旧市街に蔓延る硝煙、弾倉、弾痕が奏でる無音の旋律。戦闘に一抹の優雅、そして危険な気配を添えて",
+		id = 117,
+		icon = "117",
 		scene = {},
 		rare_display = {
 			1

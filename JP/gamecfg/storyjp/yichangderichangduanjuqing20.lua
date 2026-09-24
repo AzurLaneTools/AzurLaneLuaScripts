@@ -5,11 +5,12 @@ return {
 	scripts = {
 		{
 			expression = 3,
-			nameColor = "#A9F548FF",
-			actor = 900561,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "そっと近づいて……驚かせてみましょう……えいっ！",
 			typewriter = {
 				speed = 0.05,
@@ -18,11 +19,12 @@ return {
 		},
 		{
 			expression = 4,
-			nameColor = "#A9F548FF",
-			actor = 900561,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指揮官さまったら全然驚かないんですね…さすがですわ～",
 			typewriter = {
 				speed = 0.05,
@@ -32,9 +34,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "こんな遅い時間に、こんなところで……もしかして探し物ですか？",
 			typewriter = {
@@ -55,10 +58,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "イラストリアスを探してくださっていたのですか？とても嬉しいですわ",
 			typewriter = {
@@ -69,10 +73,11 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官さまは、イラストリアスと一緒に何をなさりたいのですか？",
 			typewriter = {
@@ -83,10 +88,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "でしたら…何かご入り用のときは、いつでもイラストリアスをお呼びくださいませ",
 			typewriter = {

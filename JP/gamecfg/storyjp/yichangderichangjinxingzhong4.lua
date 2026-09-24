@@ -7,10 +7,11 @@ return {
 	},
 	scripts = {
 		{
-			bgName = "star_level_bg_522",
+			NextIcon = 1,
 			side = 2,
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_522",
 			bgm = "story-ghostnight-fascinsting",
 			hideRecordIco = true,
 			actor = 403113,
@@ -31,6 +32,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -50,6 +52,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "正気のまま私の前まで歩いてこられるとはね",
 			typewriter = {
 				speed = 0.05,
@@ -61,6 +64,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -72,12 +76,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 3,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 3,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "ふふふ、私の舞台、と言ってもいいわ",
 			typewriter = {
 				speed = 0.05,
@@ -85,6 +90,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -99,12 +105,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "せっかく来たのだから、眺めているだけじゃつまらないでしょう？",
 			typewriter = {
 				speed = 0.05,
@@ -117,6 +124,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "このダンスで、私のペースについて来られるパートナーがちょうど足りなかったの",
 			typewriter = {
 				speed = 0.05,
@@ -128,6 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -139,12 +148,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "呑まれるとは人聞きが悪いわ。私に委ねたほうがずっと楽にできると思わない？",
 			typewriter = {
 				speed = 0.05,
@@ -152,12 +162,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 2,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 2,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "それとも……いつも果敢な指揮官も、私の前ではためらってしまうのかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -165,6 +176,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -179,6 +191,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -197,6 +210,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -208,12 +222,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "「奪う」なんて乱暴な言い方ね",
 			typewriter = {
 				speed = 0.05,
@@ -226,6 +241,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "私はただ、あなたから迷いも、選択も、余計な抵抗も、ぜんぶ取り除いてあげるだけ♥",
 			typewriter = {
 				speed = 0.05,
@@ -233,6 +249,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -247,6 +264,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -261,12 +279,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "指揮官、私を見て",
 			typewriter = {
 				speed = 0.05,
@@ -274,12 +293,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 5,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 5,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "視線、足取り、あなたの意志……ぜんぶ私に預けてしまえば、ずっと楽になれる",
 			typewriter = {
 				speed = 0.05,
@@ -291,6 +311,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -302,12 +323,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 3,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 3,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "うふふ♥いよいよ負けを認める気になった？",
 			typewriter = {
 				speed = 0.05,
@@ -319,6 +341,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -330,6 +353,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -344,6 +368,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -358,12 +383,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 2,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 2,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "あら……まだ抵抗するつもりなのね？",
 			typewriter = {
 				speed = 0.05,
@@ -376,6 +402,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "でも、それもいつまで保つかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -387,6 +414,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -398,6 +426,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -412,6 +441,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -426,12 +456,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 5,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 5,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "曲は終わりね。でもせっかくの舞台……ただ踊るだけだはもったいないでしょう？",
 			typewriter = {
 				speed = 0.05,
@@ -439,6 +470,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -453,6 +485,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -467,12 +500,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 5,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 5,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "ねえ指揮官、時にはすべてを掌握するよりも、自らの欲望に従うほうが…ずっと心地いいこともあるわ♥",
 			typewriter = {
 				speed = 0.05,

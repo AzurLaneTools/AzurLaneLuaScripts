@@ -217,6 +217,92 @@ slot0.InitPageFooter = function(slot0)
 	setActive(slot0.btnTpl, false)
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(uv0.super.getResource(slot0, slot1)) do
+		slot3[slot8] = true
+	end
+
+	for slot8, slot9 in ipairs(pg.furniture_shop_template.all) do
+		if pg.TimeMgr.GetInstance():inTime(pg.furniture_shop_template[slot9].time) then
+			slot14 = "furnitrues/" .. pg.furniture_data_template[slot9].picture
+
+			if "furnitureicon/" .. pg.furniture_data_template[slot9].icon ~= "furnitureicon/" and not slot3[slot15] then
+				slot3[slot15] = true
+
+				table.insert(slot2, slot15)
+			end
+
+			slot16 = pg.furniture_data_template[slot9].type
+			slot17 = pg.furniture_data_template[slot9].tag
+			slot18 = pg.furniture_data_template[slot9].spine
+
+			if slot14 == "furnitrues/" then
+				-- Nothing
+			elseif slot16 == 1 and slot17 == 3 then
+				for slot22 = 1, 4 do
+					if not slot3[slot14 .. slot22] then
+						slot3[slot14 .. slot22] = true
+
+						table.insert(slot2, slot14 .. slot22)
+					end
+				end
+			elseif slot18 and slot18 ~= "" then
+				slot19, slot20 = nil
+
+				if slot18[1] and #slot18[1] > 0 and type(slot18[1][1]) == "string" then
+					slot19 = "sfurniture/" .. slot18[1][1]
+				end
+
+				if slot18[2] and #slot18[2] > 0 and type(slot18[2][1]) == "string" then
+					slot20 = "sfurniture/" .. slot18[2][1]
+				end
+
+				if slot19 and not slot3[slot19] then
+					slot3[slot19] = true
+
+					table.insert(slot2, slot19)
+				end
+
+				if slot20 and not slot3[slot20] then
+					slot3[slot20] = true
+
+					table.insert(slot2, slot20)
+				end
+			elseif not slot3[slot14] then
+				slot3[slot14] = true
+
+				table.insert(slot2, slot14)
+			end
+		end
+	end
+
+	for slot9, slot10 in ipairs(getProxy(DormProxy):GetSystemThemes()) do
+		if slot10:getConfig("is_view") == 1 and not slot10:IsOverTime() then
+			if not slot3["furnitureicon/" .. pg.backyard_theme_template[slot10.id].icon] then
+				slot3[slot14] = true
+
+				table.insert(slot2, slot14)
+			end
+
+			if not slot3["backyardtheme/theme_" .. slot11] then
+				slot3[slot15] = true
+
+				table.insert(slot2, slot15)
+			end
+
+			if not slot3["backyardtheme/" .. slot11] then
+				slot3[slot16] = true
+
+				table.insert(slot2, slot16)
+			end
+		end
+	end
+
+	return slot2
+end
+
 slot0.UpdateSpecialPageFooter = function(slot0)
 	setActive(slot0.btns[5]:Find("new"), getProxy(SettingsProxy):IsTipNewGemFurniture())
 end

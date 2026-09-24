@@ -7,10 +7,11 @@ return {
 	},
 	scripts = {
 		{
-			bgName = "bg_story_room",
+			NextIcon = 1,
 			side = 2,
-			bgm = "story-newsakura",
+			bgName = "bg_story_room",
 			withoutActorName = true,
+			bgm = "story-newsakura",
 			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
@@ -31,6 +32,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -48,9 +50,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "ごきげんよう、指揮官様",
 			typewriter = {
@@ -62,9 +65,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "このような大切な日に、不躾にもお邪魔する白鳳を……どうかお許しくださいませ♪",
 			typewriter = {
@@ -76,6 +80,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -91,9 +96,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "うふふ、そう焦らないでくださいませ？",
 			typewriter = {
@@ -105,9 +111,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "指揮官様は「狐の嫁入り」の言い伝えをご存じかしら？",
 			typewriter = {
@@ -119,6 +126,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -131,12 +139,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = "headtouch",
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = "headtouch",
 			say = "言い伝えでは、狐が嫁入りするとき、たとえ空が晴れていても、急に雨が降るのですわ",
 			typewriter = {
 				speed = 0.05,
@@ -144,12 +153,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "しかも普通の雨ではなく、人の目を遮るための帳とするのです",
 			typewriter = {
 				speed = 0.05,
@@ -160,9 +170,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "その雨があれば、嫁入りの狐は誰にも見られず、邪魔されることもございません……今の私のようにね",
 			typewriter = {
@@ -171,6 +182,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -188,9 +200,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "main3",
 			say = "ですから指揮官様。この晴れ間に降る雨は、天が白鳳を急かしているようだと……そうは思いませんか？",
 			typewriter = {
@@ -202,6 +215,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -217,9 +231,10 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "しっ……",
 			typewriter = {
@@ -228,6 +243,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -245,9 +261,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "三々九度は、嫁入りの儀に欠かせない一段ですわ",
 			typewriter = {
@@ -256,6 +273,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -270,6 +288,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -287,9 +306,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "「狐の嫁入り」の第一の儀は無事に済みましたわ",
 			typewriter = {
@@ -301,6 +321,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -313,12 +334,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "ええ",
 			typewriter = {
 				speed = 0.05,
@@ -329,9 +351,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "touch",
 			say = "せっかくの嫁入りの儀です。ここで終わってしまっては、あまりにもあっけないですもの……",
 			typewriter = {
@@ -340,6 +363,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -354,12 +378,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "今度は指揮官様にお示しいただきたく",
 			typewriter = {
 				speed = 0.05,
@@ -370,9 +395,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "あなたの心の何処かに、たしかに白鳳がいることを",
 			typewriter = {
@@ -381,6 +407,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -395,6 +422,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -412,9 +440,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "うふふ……そのような顔をなさらないでください",
 			typewriter = {
@@ -426,9 +455,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "指揮官様がこの雨から逃げ出すかつもりでないと、確かめたいだけですのよ",
 			typewriter = {
@@ -437,6 +467,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -451,12 +482,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "指揮官様",
 			typewriter = {
 				speed = 0.05,
@@ -467,9 +499,10 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "今日の白鳳は……普段より可愛がっていただける仕上がりかと♪",
 			typewriter = {
@@ -478,6 +511,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -492,12 +526,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = "touch2",
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = "touch2",
 			say = "どうか、もっと近くに",
 			typewriter = {
 				speed = 0.05,
@@ -508,9 +543,10 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "ほんの少しでいいですわ……この白鳳に…あなた様の印を刻んでくださいませ",
 			typewriter = {
@@ -519,6 +555,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -536,9 +573,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "あなた様のために焚いた香は、もう燻り始めておりますわ",
 			typewriter = {
@@ -550,9 +588,10 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "もしお望みでしたら、今日の雨はまだまだ長く……ええ、とっても長くまとわりついてくださいますわ……",
 			typewriter = {

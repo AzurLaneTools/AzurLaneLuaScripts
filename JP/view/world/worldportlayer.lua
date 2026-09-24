@@ -602,7 +602,7 @@ slot0.UpdateGoods = function(slot0)
 	slot0.dirtyFlags[uv0.PageShop] = false
 	slot1 = slot0.rtShop
 	slot1 = slot1:Find("frame/scrollview/view")
-	slot3 = underscore.rest(slot0.port.goods, 1)
+	slot3 = underscore.to_array(slot0.port.goods)
 
 	table.sort(slot3, CompareFuncs({
 		function (slot0)

@@ -37007,6 +37007,11 @@ _G.pg.base.gametip.cruise_btn_pay = {
 }
 
 
+_G.pg.base.gametip.cruise_btn_pay_prev = {
+	tip = "前期の追加報酬を開放"
+}
+
+
 _G.pg.base.gametip.cruise_btn_all = {
 	tip = "一括受取"
 }
@@ -52182,6 +52187,200 @@ _G.pg.base.gametip.auto_battle_help = {
 }
 
 
+_G.pg.base.gametip.auto_battle_in_world = {
+	tip = "遂行中の委任作戦があるため、作戦を新たに委任できません"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_award = {
+	tip = "委任獲得"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_level = {
+	tip = "委任する侵攻レベル"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_quantity = {
+	tip = "海域数量選択"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_progress = {
+	tip = "完了進捗"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_cancel_tip = {
+	tip = "作戦委任を取り消しますか？"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_in_progress = {
+	tip = "委任作戦遂行中"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip1 = {
+	tip = "遂行中の委任作戦があります"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip2 = {
+	tip = "資源が不足しているため、委任できません"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip3 = {
+	tip = "委任できる海域が存在しません"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip4 = {
+	tip = "セイレーン作戦がリセットされます。まだ受け取っていない委任報酬は倉庫に送られます"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip5 = {
+	tip = "侵攻レベル6の通常海域確保後、ショップで「秘密海域情報記録装置」を購入することで開放できます"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip6 = {
+	tip = "セイレーン作戦がリセットされます。進行中の委任作戦報酬を中止しますか？\n\n一部の委任作戦はまだ遂行中のため、作戦完了後にリセットを行うことをおすすめします。作戦を中止すると、現時点の報酬が清算され、セイレーン作戦がリセットされます"
+}
+
+
+_G.pg.base.gametip.world_auto_buy_unlock = {
+	tip = "<icon name=lock />  <icon name=icon w=0.3 h=0.3 />を購入して開放"
+}
+
+
+_G.pg.base.gametip.world_auto_level_less_3 = {
+	tip = "3以下"
+}
+
+
+_G.pg.base.gametip.world_auto_level_all = {
+	tip = "全て"
+}
+
+
 _G.pg.base.gametip.reverse_pacman_no_char = {
 	tip = "まずは「<color=#92fc63>限定任務</color>」で限定任務を解放し、「<color=#92fc63>仲間開放</color>」で仲間を解放しましょう！"
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2610 = {
+	tip = "2026/10/1-2026/11/30キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ソオブラジーテリヌイ(META)」</color>などを入手可能"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2610 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2026.10.1（木）0:00～2026.11.30（金）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「ソオブラジーテリヌイ(META)」、SP報酬からは駆逐艦「イングラハム」の限定着せ替え「ミニチュアライズ・ワールド」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+ さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+ ①通常報酬
+ 「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+ ②SP報酬
+ 「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+ シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくり返しながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+ ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+ 「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません。
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2610 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません……
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2610 = {
+	tip = "シーズン任務・31期"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_table = {
+	tip = "密室"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_chair = {
+	tip = "リビング"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_bed = {
+	tip = "寝室"
+}
+
+
+_G.pg.base.gametip.auto_download_tip = {
+	tip = "自動アセットDLが開始しました($1)。データ通信量にご注意ください。\n\nアセットDL進捗は「設定」→「アセット」→「アセット管理」にて確認できます"
+}
+
+
+_G.pg.base.gametip.auto_download_btn = {
+	tip = "設定へ"
+}
+
+
+_G.pg.base.gametip.setting_download_basic_assets = {
+	tip = "基礎アセットDL"
+}
+
+
+_G.pg.base.gametip.setting_restart_download_btn = {
+	tip = "DL再開"
+}
+
+
+_G.pg.base.gametip.loading_flow_tip = {
+	tip = "モバイルデータ通信でアセットのDLを行っています。データ通信量にご注意ください"
 }

@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "お招きに応じて参上したわ。指揮官さん",
 			typewriter = {
@@ -18,11 +19,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官さんの妖異になってるのに、こうして募集の手続きを踏まされるなんて……ふふ、これはこれで面白いわね",
 			typewriter = {
@@ -37,12 +39,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "ええ。雑音はいつだって均衡の崩れたところへ流れていくもの。妖異も同じよ",
 			typewriter = {
 				speed = 0.05,
@@ -50,11 +53,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "次の一拍がどこに落ちるか聴き取れれば、あとは先回りして待っていればいいの",
 			typewriter = {
@@ -72,9 +76,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ふふ、タイガーの牙を抜ける者なんてどこにもいないわ",
 			typewriter = {
@@ -83,11 +88,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "演奏スタイルを変えるといっても、周波数を別のやり方で轟かせるだけのことよ",
 			typewriter = {
@@ -102,12 +108,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "別に？私の力は、天の星々がくれる応えそのものなのだから",
 			typewriter = {
 				speed = 0.05,
@@ -115,12 +122,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "暇なときには、あの子たちとよく合奏してるわ……今度聴いていかない？",
 			typewriter = {
 				speed = 0.05,
@@ -128,12 +136,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――ひとまず状況は把握できた",
 			typewriter = {
 				speed = 0.05,
@@ -141,12 +150,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――タイガー、歓迎するよ",
 			typewriter = {
 				speed = 0.05,
@@ -157,9 +167,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官さんはとっくに私の楽章に組み込まれてるから、次の共演を楽しみにしてるわ♪",
 			typewriter = {

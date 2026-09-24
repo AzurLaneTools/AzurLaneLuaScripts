@@ -9,6 +9,116 @@ slot0.getGroupName = function(slot0)
 	return "NewShopMainScene"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/NewRecommendationShopUI"
+	}
+	slot3 = pg.TimeMgr.GetInstance()
+	slot4 = getProxy(ShopsProxy):getChargedList()
+	slot5 = getProxy(ShopsProxy):GetNormalList()
+	slot6 = getProxy(ShopsProxy):GetNormalGroupList()
+	slot7 = getProxy(PlayerProxy):getRawData()
+	slot8 = {
+		{},
+		{},
+		{}
+	}
+
+	for slot12, slot13 in ipairs(uv0.all) do
+		if slot3:inTime(uv0[slot13].time) and slot14.relation_param ~= "" then
+			slot16 = slot14.relation_param[2]
+			slot17 = nil
+
+			if slot14.relation_param[1] == 1 then
+				Goods.Create({
+					id = slot16
+				}, Goods.TYPE_CHARGE):updateBuyCount(ChargeConst.getBuyCount(slot4, slot16))
+			elseif slot15 == 2 then
+				slot17 = Goods.Create({
+					id = slot16
+				}, Goods.TYPE_GIFT_PACKAGE)
+
+				slot17:updateBuyCount(ChargeConst.getBuyCount(slot5, slot16))
+				slot17:updateGroupCount(ChargeConst.getGroupLimit(slot6, slot17:getConfig("group") or 0))
+			elseif slot15 == 3 then
+				slot17 = Goods.Create({
+					id = slot16
+				}, Goods.TYPE_SKIN)
+
+				slot17:updateBuyCount(ChargeConst.getBuyCount(slot5, slot16))
+				slot17:updateGroupCount(ChargeConst.getGroupLimit(slot6, slot17:getConfig("group") or 0))
+			end
+
+			slot8[slot15][slot16] = slot17
+		end
+	end
+
+	slot9 = {}
+	slot10 = {}
+	slot11 = pg.gameset.shop_banner_capacity.key_value
+	slot12 = Clone(uv0.get_id_list_by_name)
+	slot12.banner_big = underscore.filter(slot12.banner_big, function (slot0)
+		return ShopsProxy.SpecialBannerBlockCheck(uv0[slot0], uv1)
+	end)
+
+	for slot16, slot17 in pairs(slot12) do
+		slot21 = {
+			function (slot0)
+				return -uv0[slot0].order
+			end,
+			function (slot0)
+				return slot0
+			end
+		}
+
+		table.sort(slot17, CompareFuncs(slot21))
+
+		for slot21 = #slot17, 1, -1 do
+			if not slot3:inTime(uv0[slot17[slot21]].time) then
+				table.remove(slot17, slot21)
+			elseif slot22.relation_param ~= "" then
+				slot23 = slot22.relation_param[1]
+				slot25 = slot8[slot23][slot22.relation_param[2]]
+
+				if slot23 == 1 then
+					if not slot25 or not slot25:inTime() or not slot25:canPurchase() then
+						table.remove(slot17, slot21)
+					end
+				elseif (slot23 == 2 or slot23 == 3) and (not slot25 or not slot25:inTime() or not slot25:canPurchase() or slot25:IsGroupLimit()) then
+					table.remove(slot17, slot21)
+				end
+			end
+		end
+
+		if #slot17 > 1 then
+			table.remove(slot17, #slot17)
+		end
+
+		if slot11 < #slot17 then
+			for slot21 = #slot17, slot11 + 1, -1 do
+				table.remove(slot17, slot21)
+			end
+		end
+
+		for slot21, slot22 in ipairs(slot17) do
+			if noEmptyStr(uv0[slot22].pic) then
+				table.insert(slot9, slot23.pic)
+			end
+
+			if slot23.relation_param ~= "" then
+				slot24 = slot23.relation_param[1]
+				slot26 = slot8[slot24][slot23.relation_param[2]]
+
+				if slot24 == 1 and slot26 and noEmptyStr(slot26:getConfig("picture")) then
+					table.insert(slot10, ResPathSupport.CombinePath("chargeicon", slot27))
+				end
+			end
+		end
+	end
+
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv1.super.getResource(slot0, slot1), slot2, slot9, slot10))
+end
+
 slot0.init = function(slot0)
 	slot0.resources = slot0._tf:Find("adapt/top/resources")
 	slot0.banners = {

@@ -23,6 +23,10 @@ slot18 = 9998
 slot0.EVT_SHOW_OR_HIDE_PURCHASE_VIEW = "NewSkinShopMainView:EVT_SHOW_OR_HIDE_PURCHASE_VIEW"
 slot0.EVT_ON_PURCHASE = "NewSkinShopMainView:EVT_ON_PURCHASE"
 
+slot0.Ctor = function(slot0)
+	uv0.super.Ctor(slot0)
+end
+
 slot19 = function(slot0)
 	if not uv0.obtainBtnSpriteNames then
 		uv0.obtainBtnSpriteNames = {
@@ -46,6 +50,85 @@ end
 
 slot0.getGroupName = function(slot0)
 	return "NewShopMainScene"
+end
+
+slot0.getResource = function(slot0, slot1)
+	slot3 = pg.ship_skin_template
+
+	slot4 = function(slot0)
+		slot1 = Goods.Create({
+			shop_id = slot0
+		}, Goods.TYPE_CHARGE)
+
+		slot1:updateBuyCount(ChargeConst.getBuyCount(getProxy(ShopsProxy):getChargedList() or {}, slot1.id))
+
+		return slot1
+	end
+
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+		"ui/LatestSkinShopUI",
+		"ui/SkinShopUI_atlas",
+		"skinicon"
+	}, (function (slot0)
+		slot1 = {}
+
+		for slot5, slot6 in ipairs(slot0) do
+			slot7 = slot6:getSkinId()
+			slot8 = uv0[slot7]
+
+			table.insertto(slot1, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot8.prefab))
+			table.insertto(slot1, ResPathSupport.GetSpineQIconListByPrefabName(slot8.painting))
+			table.insertto(slot1, ResPathSupport.GetSpineCharListByPrefabName(slot8.prefab))
+			table.insertto(slot1, ResPathSupport.GetShopPaintingListByPaintingName(slot8.painting))
+			PaintingGroupConst.AddPaintingNameBySkinID(slot1, slot7)
+			table.insertto(slot1, ResPathSupport.GetShipSkinLive2DList(slot7))
+			table.insertto(slot1, ResPathSupport.GetShipSkinSpinePaintingList(slot7))
+			table.insertto(slot1, ResPathSupport.GetShipSkinBgList(slot7))
+
+			if slot6.type == Goods.TYPE_SKIN then
+				table.insert(slot1, Item.getConfigData(id2ItemId(slot6:getConfig("resource_type"))).icon)
+			end
+		end
+
+		return slot1
+	end)((function ()
+		if uv0.skinCommodities then
+			return uv0.skinCommodities
+		end
+
+		if uv0.commodityId or uv0.giftPackCommodity then
+			return getProxy(ShipSkinProxy):GetProbabilitySkins((uv0.giftPackCommodity or uv1(uv0.commodityId)):GetSkinProbability())
+		end
+
+		slot1 = uv0.mode or uv2.MODE_OVERVIEW
+		slot2 = {}
+
+		if (uv0.type or uv2.TYPE_PERMANANT_SKIN) == uv2.TYPE_NEW_SKIN then
+			slot2 = getProxy(ShipSkinProxy):GetInTimeSkins()
+		elseif slot0 == uv2.TYPE_PERMANANT_SKIN then
+			slot2 = getProxy(ShipSkinProxy):GetPermanentSkins()
+		end
+
+		if LOCK_SKIN_US then
+			slot4 = pg.gameset.levellimit_skintype.description
+
+			if getProxy(PlayerProxy):getData().level <= pg.gameset.levellimit_skintype.key_value then
+				slot2 = _.filter(slot2, function (slot0)
+					return table.contains(uv1, uv0[slot0:getSkinId()].shop_type_id)
+				end)
+			end
+		end
+
+		if slot1 == uv2.MODE_OVERVIEW then
+			for slot6 = #slot2, 1, -1 do
+				if slot2[slot6]:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
+					table.remove(slot2, slot6)
+				end
+			end
+		end
+
+		return slot2
+	end)())))
 end
 
 slot0.init = function(slot0)
@@ -2420,6 +2503,7 @@ slot0.CheckDownloadSkinList = function(slot0, slot1)
 	end
 
 	PaintingGroupConst.PaintingDownload({
+		showMask = true,
 		isShowBox = true,
 		paintingNameList = slot2,
 		finishFunc = slot1
@@ -2428,6 +2512,9 @@ end
 
 slot0.willExit = function(slot0)
 	slot0:ClearCards()
+
+	slot0.spriteCache = nil
+
 	ClearLScrollrect(slot0.scrollrect)
 	pg.DynamicBgMgr.GetInstance():ClearBg(slot0:getUIName())
 

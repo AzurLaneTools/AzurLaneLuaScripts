@@ -55,11 +55,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "ある普通の後方要員",
 			side = 2,
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			actor = 317030,
-			actorName = "ある普通の後方要員",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "「今日、新紀元シティNO.5に到着した……」",
 			typewriter = {
@@ -93,8 +94,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_495",
 			nameColor = "#A9F548FF",
-			actor = 317030,
 			actorName = "ある普通の後方要員",
+			actor = 317030,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "「かつて、この街の人々は、目標、計画、ビジョンに満ち足りていた……資本さえ美しく膨らんでいれば……人生は失敗とは呼ばれなかった」",
 			typewriter = {
@@ -103,10 +105,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "白鳳は高い場所から街の光景を静かに見下ろしていた。",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +122,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ふふ……なんとも面白いことですわ",
 			typewriter = {
@@ -129,12 +133,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "あの頼りない柱さえ引っこ抜いてしまえば、この街はしばらく荒れるものと思っておりましたのに",
 			typewriter = {
@@ -148,8 +153,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "もう新しい骨組みを組み上げてしまうなんて手際がいいですこと",
 			typewriter = {
@@ -163,8 +169,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "抵抗勢力をまとめようとしてる者がいるというのに、あなたはちっとも焦ってないみたいね……",
 			typewriter = {
@@ -173,12 +180,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ええ、もちろんですわ♪だって興味がありますもの。ほんの一時の強がりなのか、それとも本当にこの局面を打開する力があるのか",
 			typewriter = {
@@ -192,8 +200,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "でも一時的に状況を安定させるのと、長く守り続けることはまったくの別物ですわ",
 			typewriter = {

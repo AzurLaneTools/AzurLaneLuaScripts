@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "世の中は浮雲みたいに移ろうものね。今度はあなたが私を誘うのかしら",
 			typewriter = {
@@ -18,11 +19,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "言ってごらんなさいな。私に何をさせたいの？",
 			typewriter = {
@@ -37,12 +39,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "あの脳ミソのない連中を相手にするというの？",
 			typewriter = {
 				speed = 0.05,
@@ -53,9 +56,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "私の焔に絡みつかれたら最後、どこまで逃げようが無駄よ♪",
 			typewriter = {
@@ -70,12 +74,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "そうねぇ……ここは古臭くはないけれど、まだ新しくする余地があるわ",
 			typewriter = {
 				speed = 0.05,
@@ -86,9 +91,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "それより、私はあなたのほうに興味があるの",
 			typewriter = {
@@ -106,9 +112,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "分かっていて訊くのね。あなたが驚いたとき、どんな顔をするのか見てみたいの",
 			typewriter = {
@@ -120,9 +127,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "だからぁ…気を抜いたりしないことよ♪",
 			typewriter = {
@@ -131,12 +139,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――ひとまず状況は把握できた",
 			typewriter = {
 				speed = 0.05,
@@ -144,12 +153,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――安土、歓迎するよ",
 			typewriter = {
 				speed = 0.05,
@@ -157,12 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "ふふふ……私のこんな一面まで「許容範囲」だと言うの？面白いじゃない♥",
 			typewriter = {
 				speed = 0.05,

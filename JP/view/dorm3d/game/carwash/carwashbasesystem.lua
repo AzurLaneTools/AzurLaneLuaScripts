@@ -1,4 +1,4 @@
-slot0 = class("CarWashBaseSystem", import("view.dorm3d.Extra.BaseExtraSystem"))
+slot0 = class("CarWashBaseSystem", import("view.dorm3d.Core.BaseSystem"))
 
 slot0.WrapContext = function(slot0, slot1)
 	return {
@@ -26,6 +26,12 @@ slot0.WrapContext = function(slot0, slot1)
 		end,
 		GetLoader = function ()
 			return uv0.loader
+		end,
+		GetHxHelper = function ()
+			return uv0.hxHelper
+		end,
+		GetHolyLightRoot = function ()
+			return uv0.holyLightRoot
 		end
 	}
 end
@@ -60,6 +66,14 @@ end
 
 slot0.GetLoader = function(slot0)
 	return slot0.context:GetLoader()
+end
+
+slot0.GetHxHelper = function(slot0)
+	return slot0.context:GetHxHelper()
+end
+
+slot0.GetHolyLightRoot = function(slot0)
+	return slot0.context:GetHolyLightRoot()
 end
 
 return slot0

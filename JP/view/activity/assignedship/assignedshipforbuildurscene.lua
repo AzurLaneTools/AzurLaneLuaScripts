@@ -33,6 +33,33 @@ slot0.preload = function(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2 = {
+		"RegularExchangeIcon"
+	}
+
+	if slot0.contextData.itemVO or slot0.itemVO then
+		slot7 = "usage_arg"
+
+		for slot7, slot8 in ipairs(slot3:getConfig(slot7)) do
+			if noEmptyStr(Ship.New({
+				configId = pg.item_usage_invitation[slot8].ship_id
+			}):getPainting()) then
+				table.insert(slot2, "painting/" .. slot11)
+			end
+		end
+	end
+
+	for slot7, slot8 in ipairs(slot2) do
+		if not table.contains(slot1, slot8) then
+			table.insert(slot1, slot8)
+		end
+	end
+
+	return slot1
+end
+
 slot0.init = function(slot0)
 	slot0.backBtn = slot0._tf:Find("top/bg/btn_back")
 

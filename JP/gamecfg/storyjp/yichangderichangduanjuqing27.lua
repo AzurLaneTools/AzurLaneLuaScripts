@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "廃棄書類がだいぶ溜まってきた。そろそろ処分しないとな",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "指揮官、お前は……どの刃物がいいと思う？鋏か？剃刀か？それともカッターか？",
 			typewriter = {
 				speed = 0.05,
@@ -30,9 +32,10 @@ return {
 		{
 			expression = 9,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "道具を選び違えると……怪我をさせてしまうものだぞ～",
 			typewriter = {
@@ -53,10 +56,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官は本当に気が利くな",
 			typewriter = {
@@ -65,12 +69,13 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "だが……お前が案じているのは、我が怪我することか……それとも、我が誰かを怪我させてしまうことか？",
 			typewriter = {
 				speed = 0.05,
@@ -80,10 +85,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ふふん……どちらにしてもお前の協力を受け入れてやろう",
 			typewriter = {
@@ -92,12 +98,13 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "む……そう言われれば……",
 			typewriter = {
 				speed = 0.05,
@@ -105,12 +112,13 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "もっと楽な方法があったのに我としたことが、わざわざ話を難しくしていたようだな",
 			typewriter = {
 				speed = 0.05,

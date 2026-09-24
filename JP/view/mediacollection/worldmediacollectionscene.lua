@@ -19,6 +19,107 @@ slot0.getBGM = function(slot0)
 	end
 end
 
+slot0.getResource = function(slot0, slot1)
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+		"ui/worldmediacollectionui",
+		"ui/worldmediacollectionmemoryui_atlas",
+		"ui/worldmediacollectionfileui_atlas",
+		"ui/worldmediacollectionfiledetailui_atlas",
+		"ui/worldmediacollectionrecordui_atlas",
+		"memoryicon/memory_dashijie"
+	}, (function ()
+		slot0 = {}
+		slot2 = pg.memory_group.all
+
+		for slot6, slot7 in ipairs(pg.memory_storyline.all) do
+			if pg.memory_storyline[slot7].icon ~= "" then
+				table.insert(slot0, "memorystoryline/" .. slot8)
+			end
+		end
+
+		for slot6, slot7 in ipairs(slot2) do
+			if pg.memory_group[slot7].icon ~= "" then
+				table.insert(slot0, "memoryicon/" .. slot8)
+			end
+		end
+
+		return ResPathSupport.UniqueLuaArr(slot0)
+	end)(), (function ()
+		_.each(pg.world_collection_file_group.all, function (slot0)
+			if pg.world_collection_file_group[slot0].name_abbreviate then
+				table.insert(uv0, "CollectionFileTitle/" .. slot1)
+			end
+		end)
+		_.each(pg.world_collection_file_template.all, function (slot0)
+			if pg.world_collection_file_template[slot0].pic then
+				table.insert(uv0, "CollectionFileIllustration/" .. slot1)
+			end
+		end)
+
+		return {}
+	end)(), (function ()
+		_.each(pg.memory_template.all, function (slot0)
+			if pg.memory_template[slot0].icon then
+				table.insert(uv0, "memoryicon/" .. slot1)
+			end
+		end)
+
+		return ResPathSupport.UniqueLuaArr({})
+	end)(), (function ()
+		_.each(pg.memory_group.all, function (slot0)
+			if pg.memory_group[slot0] and slot1.type == 3 and slot1.ship_group and slot1.ship_group ~= 0 then
+				slot3 = ShipGroup.getDefaultShipConfig(slot1.ship_group) and pg.ship_skin_template[slot2.skin_id]
+
+				if noEmptyStr(slot3 and slot3.painting) then
+					table.insertto(uv0, ResPathSupport.GetPaintingListByPaintingName(slot4))
+				end
+			end
+		end)
+
+		return ResPathSupport.UniqueLuaArr({})
+	end)(), (function ()
+		slot0 = {}
+		slot1 = {}
+		slot2 = {}
+
+		for slot6, slot7 in ipairs(pg.lover_character_template.all) do
+			slot8 = pg.lover_character_template[slot7]
+			slot10 = slot8.exp_upper_limit
+
+			if slot8.exp_up and slot9 > 0 and slot10 and slot10 > 0 then
+				for slot16 = 1, math.floor((math.floor(slot10 / slot9) - 1) / 10) + 1 do
+					table.insert(slot0, "lovelettermedal/default_" .. slot16)
+				end
+			end
+		end
+
+		for slot6, slot7 in ipairs(getProxy(LoveLetterProxy):GetDisplayGroupList()) do
+			table.insertto(slot1, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot7:getPainting()))
+			table.insert(slot2, string.format(ResPathSupport.ConstPath.BG.ShipCard, slot7:rarity2bgPrint()))
+		end
+
+		return ResPathSupport.MergeLuaArr(slot1, slot0, slot2)
+	end)(), (function ()
+		slot0 = {}
+
+		for slot4, slot5 in ipairs(pg.activity_medal_group.all) do
+			if pg.activity_medal_group[slot5] and slot6.entrance_picture and slot6.entrance_picture ~= "" then
+				table.insert(slot0, slot6.entrance_picture)
+			end
+
+			slot7 = ipairs
+			slot8 = pg.activity_medal_template.get_id_list_by_group[slot5] or {}
+
+			for slot10, slot11 in slot7(slot8) do
+				table.insert(slot0, "activitymedal/" .. slot11)
+				table.insert(slot0, "activitymedal/" .. slot11 .. "_l")
+			end
+		end
+
+		return ResPathSupport.UniqueLuaArr(slot0)
+	end)()))
+end
+
 slot0.init = function(slot0)
 	slot0.top = slot0._tf:Find("Top")
 	slot0.viewContainer = slot0._tf:Find("Main")

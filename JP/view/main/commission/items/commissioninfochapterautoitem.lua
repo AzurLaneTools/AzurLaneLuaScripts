@@ -97,13 +97,24 @@ slot0.GetList = function(slot0)
 end
 
 slot0.OnSkip = function(slot0)
-	slot1 = getProxy(ChapterProxy)
+	slot1 = getProxy(ChapterAutoProxy)
 
-	if slot0.isLeisure then
-		slot0:emit(CommissionInfoMediator.GO_BATTLE)
-	else
-		slot0.detailPanel:ExecuteAction("Enter", slot1:getChapterById(slot1:GetAutoChapterId()))
-	end
+	switch(slot1:GetCommissionDoingType(), {
+		[ChapterAutoProxy.TYPE.SLG] = function ()
+			slot0 = getProxy(ChapterProxy)
+
+			if uv0.isLeisure then
+				uv0:emit(CommissionInfoMediator.GO_BATTLE)
+			else
+				uv0.detailPanel:ExecuteAction("Enter", slot0:getChapterById(slot0:GetAutoChapterId()))
+			end
+		end,
+		[ChapterAutoProxy.TYPE.WORLD] = function ()
+			uv0:emit(CommissionInfoMediator.GO_WORLD)
+		end
+	}, function ()
+		uv0:emit(CommissionInfoMediator.GO_BATTLE)
+	end)
 end
 
 slot0.OnFinishAll = function(slot0)

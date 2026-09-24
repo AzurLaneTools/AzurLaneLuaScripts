@@ -7,6 +7,7 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
@@ -27,9 +28,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			say = "ふと足を止めたところ、聞こえていた微かな風の音もつられたかのように、ぴたりと止んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -40,6 +42,7 @@ return {
 			portrait = "zhihuiguan",
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			side = 2,
 			actorName = "{playername}",
 			say = "（気のせいか……？）",
@@ -49,12 +52,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "login",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = "login",
 			say = "捕まえましたわ。かわいい子羊さん♪",
 			typewriter = {
 				speed = 0.05,
@@ -62,6 +66,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -76,12 +81,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "うふふふ、だーれだ？？",
 			typewriter = {
 				speed = 0.05,
@@ -89,12 +95,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "もし間違えたら……悪い幽霊に、食べられてしまいますわよ♪",
 			typewriter = {
 				speed = 0.05,
@@ -102,6 +109,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -119,6 +127,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 237031,
@@ -131,12 +140,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "あら、指揮官さまったら。一発で当てられてしまいましたわ♪",
 			typewriter = {
 				speed = 0.05,
@@ -147,6 +157,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -159,12 +170,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "main1",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = "main1",
 			say = "もう少しだけ近くで隠れていたかったのですけれど……急に立ち止まられたので、もしかたら気づかれてしまったかと思って",
 			typewriter = {
 				speed = 0.05,
@@ -175,9 +187,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "指揮官さまをこっそり独り占めするのも、なかなか難しいものですわ",
 			typewriter = {
@@ -189,6 +202,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -201,6 +215,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -215,6 +230,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -229,12 +245,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "main2",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = "main2",
 			say = "でも……どうしても知りたかったのですわ。こんな静かな夜に突然指揮官さまの前に現れたら…",
 			typewriter = {
 				speed = 0.05,
@@ -242,12 +259,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "イラストリアスのために、どれぐらい立ち止まってくださるのかと♪",
 			typewriter = {
 				speed = 0.05,
@@ -255,6 +273,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -269,12 +288,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "今宵の逢瀬のために、色々と準備をしました♪",
 			typewriter = {
 				speed = 0.05,
@@ -282,12 +302,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "指揮官さま、イラストリアスはあなたの心に、印象を残せましたか？",
 			typewriter = {
 				speed = 0.05,
@@ -295,10 +316,11 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
-			portrait = "zhihuiguan",
+			expression = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 237031,
@@ -311,12 +333,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "では、そんな頑張ったイラストリアスに…ご褒美をいただけないでしょうか～",
 			typewriter = {
 				speed = 0.05,
@@ -327,6 +350,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -339,6 +363,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -353,6 +378,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -370,6 +396,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 237031,
@@ -382,12 +409,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "うふふ。ようやく、お気づきになりまして？",
 			typewriter = {
 				speed = 0.05,
@@ -398,9 +426,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "home",
 			say = "イラストリアス、指揮官さまを二人だけの世界にお連れしてしまいました♪",
 			typewriter = {
@@ -412,6 +441,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -424,6 +454,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -438,12 +469,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "ふふふ、これから少し…はしたないことをさせていただきますね",
 			typewriter = {
 				speed = 0.05,
@@ -454,9 +486,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "指揮官さま、心の準備はよろしいですか？",
 			typewriter = {
@@ -465,6 +498,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -479,6 +513,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -493,6 +528,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -507,12 +543,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "ふふ、夜が明けるまでには、まだたっぷりと時間がありますから……",
 			typewriter = {
 				speed = 0.05,
@@ -523,9 +560,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "指揮官さま……イラストリアスと……もっともっと♪",
 			typewriter = {

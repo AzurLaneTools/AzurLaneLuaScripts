@@ -1,5 +1,71 @@
 slot0 = class("BuildShipPoolsPage", import("...base.BaseSubView"))
 
+slot0.getResource = function(slot0)
+	slot1 = {
+		"ui/buildshipui_atlas"
+	}
+
+	slot2 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) then
+			table.insertto(uv0, ResPathSupport.GetPaintingListByPaintingName(slot0))
+		end
+	end
+
+	slot4 = function(slot0)
+		if noEmptyStr(slot0) then
+			uv0(ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.BuildPainting, slot0))
+		end
+	end
+
+	slot5 = getProxy(ActivityProxy)
+	slot7 = ipairs
+	slot8 = getProxy(BuildShipProxy):GetPools() or {}
+
+	for slot10, slot11 in slot7(slot8) do
+		slot12 = slot11:getConfigTable()
+		slot13 = slot11:IsActivity() and slot5:getBuildActivityCfgByID(slot12.id) or slot5:getNoneActBuildActivityCfgByID(slot12.id)
+		slot14 = nil
+
+		slot2(slot13 and slot13 and slot13.bg or ResPathSupport.CombinePath(ResPathSupport.ConstPath.BG.LoadingBG, "bg_" .. slot12.icon))
+
+		slot15 = slot5:getBuildPoolActivity(slot11)
+
+		if PLATFORM_CODE == PLATFORM_CH and slot15 then
+			slot4(slot15:getConfig("config_client").build_painting)
+		end
+
+		if slot11:IsActivity() and pg.ship_data_create_exchange[slot11:GetActivityId()] and #slot16.exchange_ship_id > 0 then
+			slot18 = pg.ship_data_statistics[slot16.exchange_ship_id[1]] and pg.ship_skin_template[slot17.skin_id]
+
+			slot3(slot18 and slot18.painting)
+		end
+	end
+
+	slot10 = ActivityConst.ACTIVITY_TYPE_BUILD_FREE
+
+	for slot10, slot11 in ipairs(slot5:getActivitiesByType(slot10)) do
+		if not slot11:isEnd() then
+			slot2(Drop.New({
+				type = DROP_TYPE_VITEM,
+				id = slot11:getConfig("config_client")[1],
+				count = slot11.data1
+			}):getConfig("icon"))
+		end
+	end
+
+	slot7 = slot0.contextData and slot0.contextData.falgShip or getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().character)
+
+	slot3(slot7 and slot7:getPainting())
+
+	return table.insertto(slot1, uv0.super.getResource(slot0))
+end
+
 slot0.getUIName = function(slot0)
 	return "BuildShipPoolsPageUI"
 end

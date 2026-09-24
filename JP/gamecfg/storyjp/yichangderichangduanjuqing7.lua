@@ -5,9 +5,10 @@ return {
 	scripts = {
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "闇に何が潜んでいるか分かっていながら……",
 			typewriter = {
 				speed = 0.05,
@@ -16,9 +17,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "全く物怖じせず踏み込んでくるのね",
 			typewriter = {
 				speed = 0.05,
@@ -27,9 +29,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "ふふ……あなたのすべてをいただくとするわ♥",
 			typewriter = {
 				speed = 0.05,
@@ -48,9 +51,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 1,
 			say = "ふふ……いつまで抗えるか、楽しみにしているわ♪",
 			typewriter = {
@@ -60,9 +64,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 2,
 			say = "まあ……あんな退屈な紙きれになんて興味はないの♪",
 			typewriter = {

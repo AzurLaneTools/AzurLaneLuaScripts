@@ -12,6 +12,10 @@ slot0.getUIName = function(slot0)
 	return "LevelMainScene"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto(ResList.LevelScene.GetResource(slot0, slot1), uv0.super.getResource(slot0, slot1))
+end
+
 slot0.ResUISettings = function(slot0)
 	return {
 		groupDelta = 1,
@@ -97,11 +101,7 @@ slot0.preload = function(slot0, slot1)
 		slot0.contextData.entranceStatus = not slot4
 	end
 
-	if not slot0.contextData.entranceStatus then
-		slot0:PreloadLevelMainUI(slot3, slot1)
-	else
-		slot1()
-	end
+	slot1()
 end
 
 slot0.GetInitializeMap = function(slot0)
@@ -631,6 +631,7 @@ slot0.didEnter = function(slot0)
 	end, SFX_PANEL)
 	setActive(slot0.entranceLayer:Find("enters/enter_world/enter"), not WORLD_ENTER_LOCK)
 	setActive(slot0.entranceLayer:Find("enters/enter_world/nothing"), WORLD_ENTER_LOCK)
+	setActive(slot0.entranceLayer:Find("enters/enter_world/enter/tip"), getProxy(ChapterAutoProxy):IsAllCommissionFinish(ChapterAutoProxy.TYPE.WORLD))
 
 	slot0.entranceActivity = getProxy(ActivityProxy):getEnterReadyActivity()[1]
 

@@ -352,6 +352,7 @@ pg.fleet_tech_ship_class.all = {
 	970110,
 	970111,
 	970112,
+	970113,
 	970201,
 	970202,
 	970203,
@@ -4612,6 +4613,17 @@ end)()
 			970112
 		}
 	}
+	pg.base.fleet_tech_ship_class[970113] = {
+		shiptype = 1,
+		name = "ソオブラジーテリヌイ(META)",
+		t_level = 4,
+		id = 970113,
+		t_level_1 = 6,
+		nation = 97,
+		ships = {
+			970113
+		}
+	}
 	pg.base.fleet_tech_ship_class[970201] = {
 		shiptype = 2,
 		name = "ヘレナ(META)",
@@ -5162,6 +5174,8 @@ end)()
 			970710
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[970801] = {
 		shiptype = 8,
 		name = "U-556(META)",
@@ -5173,8 +5187,6 @@ end)()
 			970801
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[971201] = {
 		shiptype = 12,
 		name = "ヴェスタル(META)",

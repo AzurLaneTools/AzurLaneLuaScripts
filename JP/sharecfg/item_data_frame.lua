@@ -108,6 +108,8 @@ pg.item_data_frame.all = {
 	1012,
 	1013,
 	1014,
+	1015,
+	1016,
 	10001,
 	10002,
 	10003,
@@ -1061,6 +1063,24 @@ end)()
 		id = 1014,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>データストリームに、ネコパンチとネコシッポ現る！ドーモ、サイバー空間のネコアイサツ＝です</color>\n「交流宿舎」でアドミラル・ナヒーモフの親密度を上げると入手可能",
+		scene = {}
+	}
+	pg.base.item_data_frame[1015] = {
+		name = "金雀の花冠",
+		gain_by = "",
+		time_second = 0,
+		id = 1015,
+		time_limit_type = 0,
+		desc = "落ち着いた色合いのリボンは聖なる輝きを包み込み、花色の藤が朝の祈祷に捧げる指先を抱きしめる。\n「交流宿舎」でインプラカブルの親密度を上げると入手可能",
+		scene = {}
+	}
+	pg.base.item_data_frame[1016] = {
+		name = "絢爛なる光",
+		gain_by = "",
+		time_second = 0,
+		id = 1016,
+		time_limit_type = 0,
+		desc = "薔薇色のステンガラスが闇に輝く。絢爛なる光が影とアーチの頂きに溶け合い、一つとなる。 \n「交流宿舎」でインプラカブルの親密度を上げると入手可能",
 		scene = {}
 	}
 	pg.base.item_data_frame[10001] = {

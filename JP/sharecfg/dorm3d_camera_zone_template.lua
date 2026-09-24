@@ -33,7 +33,10 @@ pg.dorm3d_camera_zone_template.all = {
 	21003,
 	26001,
 	26002,
-	26003
+	26003,
+	22001,
+	22002,
+	22003
 }
 pg.dorm3d_camera_zone_template.get_id_list_by_room_id = {
 	{
@@ -81,6 +84,11 @@ pg.dorm3d_camera_zone_template.get_id_list_by_room_id = {
 		21001,
 		21002,
 		21003
+	},
+	[22] = {
+		22001,
+		22002,
+		22003
 	},
 	[26] = {
 		26001,
@@ -2008,6 +2016,16 @@ pg.base.dorm3d_camera_zone_template = {}
 					26004,
 					26005
 				}
+			},
+			{
+				20707,
+				{
+					26006,
+					26007,
+					26008,
+					26009,
+					26010
+				}
 			}
 		},
 		special_furniture = {},
@@ -2105,6 +2123,196 @@ pg.base.dorm3d_camera_zone_template = {}
 			}
 		},
 		special_furniture = {},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	}
+	pg.base.dorm3d_camera_zone_template[22001] = {
+		name = "寝室",
+		record_time = 60,
+		room_id = 22,
+		id = 22001,
+		watch_camera = "Bed",
+		regular_anim = {
+			{
+				20707,
+				{
+					22001,
+					22002,
+					22003,
+					22004,
+					22005,
+					22006,
+					22007,
+					22008,
+					22009,
+					22010,
+					22011,
+					22012,
+					22013,
+					22014,
+					22015
+				}
+			}
+		},
+		special_furniture = {
+			{
+				2201,
+				2220101
+			}
+		},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	}
+	pg.base.dorm3d_camera_zone_template[22002] = {
+		name = "密室",
+		record_time = 60,
+		room_id = 22,
+		id = 22002,
+		watch_camera = "Table",
+		regular_anim = {
+			{
+				20707,
+				{
+					22001,
+					22002,
+					22003,
+					22004,
+					22005,
+					22006,
+					22007,
+					22008,
+					22009,
+					22010,
+					22011,
+					22012,
+					22013,
+					22014,
+					22015
+				}
+			}
+		},
+		special_furniture = {
+			{
+				2202,
+				2220201
+			},
+			{
+				2261,
+				2220202
+			}
+		},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	}
+	pg.base.dorm3d_camera_zone_template[22003] = {
+		name = "リビング",
+		record_time = 60,
+		room_id = 22,
+		id = 22003,
+		watch_camera = "Chair",
+		regular_anim = {
+			{
+				20707,
+				{
+					22001,
+					22002,
+					22003,
+					22004,
+					22005,
+					22006,
+					22007,
+					22008,
+					22009,
+					22010,
+					22011,
+					22012,
+					22013,
+					22014,
+					22015
+				}
+			}
+		},
+		special_furniture = {
+			{
+				2203,
+				2220301
+			}
+		},
 		anim_speeds = {
 			0.2,
 			0.5,

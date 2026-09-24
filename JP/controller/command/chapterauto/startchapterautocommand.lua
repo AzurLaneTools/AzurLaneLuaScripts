@@ -91,25 +91,29 @@ slot0.execute = function(slot0, slot1)
 end
 
 slot0.CheckOccupied = function()
-	if #getProxy(ChapterAutoProxy):GetCommissionList() > 0 then
-		if getProxy(ChapterProxy):GetAutoChapterId() then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("auto_drop_is_activation", slot1:getChapterById(slot2):getConfig("name")),
-				onYes = function ()
-					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-						chapterId = uv0:getActiveChapter() and slot0.id,
-						mapIdx = slot0 and slot0:getConfig("map")
-					})
-				end,
-				yesText = i18n("auto_drop_is_activation_go"),
-				noText = i18n("auto_drop_is_activation_cancle")
-			})
-		end
-
-		return true
+	if not getProxy(ChapterAutoProxy):GetCommissionDoingType() or slot0 == ChapterAutoProxy.TYPE.WORLD then
+		return false
 	end
 
-	return false
+	switch(slot0, {
+		[ChapterAutoProxy.TYPE.SLG] = function ()
+			if getProxy(ChapterProxy):GetAutoChapterId() then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("auto_drop_is_activation", slot0:getChapterById(slot1):getConfig("name")),
+					onYes = function ()
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+							chapterId = uv0:getActiveChapter() and slot0.id,
+							mapIdx = slot0 and slot0:getConfig("map")
+						})
+					end,
+					yesText = i18n("auto_drop_is_activation_go"),
+					noText = i18n("auto_drop_is_activation_cancle")
+				})
+			end
+
+			return true
+		end
+	})
 end
 
 return slot0

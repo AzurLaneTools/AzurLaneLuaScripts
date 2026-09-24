@@ -535,6 +535,7 @@ pg.activity_ins_ship_group_template.all = {
 	201,
 	202,
 	203,
+	204,
 	960007,
 	960008,
 	960009,
@@ -5514,6 +5515,15 @@ end)()
 		type = 2,
 		sculpture_ii = ""
 	}
+	pg.base.activity_ins_ship_group_template[204] = {
+		ship_group = 204,
+		name = "ゲームロビーチャンネル",
+		background = "200",
+		sculpture = "204",
+		nationality = 13,
+		type = 2,
+		sculpture_ii = ""
+	}
 	pg.base.activity_ins_ship_group_template[960007] = {
 		ship_group = 960007,
 		name = "Ganj-i-sawai",
@@ -6117,6 +6127,8 @@ end)()
 		type = 1,
 		sculpture_ii = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_ship_group_template[80303] = {
 		ship_group = 80303,
 		name = "Duquesne ",
@@ -6126,8 +6138,6 @@ end)()
 		type = 1,
 		sculpture_ii = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_ship_group_template[80204] = {
 		ship_group = 80204,
 		name = "Duguay-Trouin ",
@@ -7019,6 +7029,8 @@ end)()
 		type = 1,
 		sculpture_ii = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_ship_group_template[31703] = {
 		ship_group = 31703,
 		name = "I14",
@@ -7028,8 +7040,6 @@ end)()
 		type = 1,
 		sculpture_ii = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_ship_group_template[20140] = {
 		ship_group = 20140,
 		name = "Hasty",

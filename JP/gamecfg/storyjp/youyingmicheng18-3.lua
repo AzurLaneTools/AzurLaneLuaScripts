@@ -4,10 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			bgm = "story-visioncity-1",
 			say = "収容装置の輝きがライオンを捕らえたその瞬間、彼女は一瞬呆然とし、そして笑い始めた。",
 			typewriter = {
@@ -21,8 +22,9 @@ return {
 			bgName = "star_level_bg_148",
 			factiontag = "妖異",
 			dir = 1,
-			actor = 205162,
 			nameColor = "#A9F548FF",
+			actor = 205162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "負けを潔く認めよう……今回はお前たちの勝ちだ",
 			typewriter = {

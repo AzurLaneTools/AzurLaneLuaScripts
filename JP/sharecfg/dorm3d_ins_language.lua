@@ -67,7 +67,17 @@ pg.dorm3d_ins_language.all = {
 	"naximofu_2_1",
 	"naximofu_2_1_1",
 	"naximofu_2_2",
-	"naximofu_2_2_1"
+	"naximofu_2_2_1",
+	"yuanchou_1",
+	"yuanchou_1_1",
+	"yuanchou_1_1_1",
+	"yuanchou_1_2",
+	"yuanchou_1_2_1",
+	"yuanchou_2",
+	"yuanchou_2_1",
+	"yuanchou_2_1_1",
+	"yuanchou_2_2",
+	"yuanchou_2_2_1"
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_language = {}
@@ -396,6 +406,56 @@ pg.base.dorm3d_ins_language = {}
 	pg.base.dorm3d_ins_language.naximofu_2_2_1 = {
 		value = "装備確認、ヨシ。ナヒーモフ、戦闘準備完了",
 		key = "naximofu_2_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1 = {
+		value = "ねえ指揮官、鉢植えはキレイに剪定する派？それともありのままで育てる派？",
+		key = "yuanchou_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_1 = {
+		value = "若干剪定する派だな",
+		key = "yuanchou_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_1_1 = {
+		value = "ほどよい管理も、お世話の一つの形ね～",
+		key = "yuanchou_1_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_2 = {
+		value = "ありのままで育てる派だな",
+		key = "yuanchou_1_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_2_1 = {
+		value = "あるがままにのびのびと育てる……それもまた美しいわね～",
+		key = "yuanchou_1_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2 = {
+		value = "今日はちょっと新しい試みをしてみたの……ふふふ♪",
+		key = "yuanchou_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_1 = {
+		value = "どんなレシピ？",
+		key = "yuanchou_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_1_1 = {
+		value = "上等な茶葉に、ドクダミを合わせて……オリジナリティがあるでしょう？",
+		key = "yuanchou_2_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_2 = {
+		value = "なかなかいいね",
+		key = "yuanchou_2_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_2_1 = {
+		value = "指揮官のために一杯取っておいたの、早く味見しに来てちょうだい♪",
+		key = "yuanchou_2_2_1",
 		is_active = "0"
 	}
 end)()

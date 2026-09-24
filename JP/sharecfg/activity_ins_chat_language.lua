@@ -11656,7 +11656,63 @@ pg.activity_ins_chat_language.all = {
 	11651,
 	11652,
 	11653,
-	11654
+	11654,
+	11655,
+	11656,
+	11657,
+	11658,
+	11659,
+	11660,
+	11661,
+	11662,
+	11663,
+	11664,
+	11665,
+	11666,
+	11667,
+	11668,
+	11669,
+	11670,
+	11671,
+	11672,
+	11673,
+	11674,
+	11675,
+	11676,
+	11677,
+	11678,
+	11679,
+	11680,
+	11681,
+	11682,
+	11683,
+	11684,
+	11685,
+	11686,
+	11687,
+	11688,
+	11689,
+	11690,
+	11691,
+	11692,
+	11693,
+	11694,
+	11695,
+	11696,
+	11697,
+	11698,
+	11699,
+	11700,
+	11701,
+	11702,
+	11703,
+	11704,
+	11705,
+	11706,
+	11707,
+	11708,
+	11709,
+	11710
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -114270,5 +114326,470 @@ end)()
 		type = 1,
 		id = 11654,
 		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11655] = {
+		param = "緊急事態にゃ！饅頭ゲームロビーの今日の売上が……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11655,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11656] = {
+		param = "急減少にゃ！！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11656,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11657] = {
+		param = "せっかく明石が大枚はたいて最新のダンスマシンを入れたのに……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11657,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11658] = {
+		param = "今朝出かける前、入口が人だかりで何重にも囲まれてたから、それを見て安心して買い出しに行ったのに……！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11658,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11659] = {
+		param = "あー、あれはみんな入口に集まって、綾波が『モエマイマニア』をプレイしてるのを見てたんだよー",
+		ship_group = 10131,
+		option = "",
+		type = 1,
+		id = 11659,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11660] = {
+		param = "綾波はすごく上手くてー、綾波と対戦したい人も多かったからー、見物人がどんどん増えてったんだよねー……",
+		ship_group = 10131,
+		option = "",
+		type = 1,
+		id = 11660,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11661] = {
+		param = "見てるだけでプレイしない……立ち読みして本を買わない人と同じにゃ！！みんなで明石を破産させる気にゃ！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11661,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11662] = {
+		param = "それはそれとして、綾波の腕前は実に見事であったぞ",
+		ship_group = 30311,
+		option = "",
+		type = 1,
+		id = 11662,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11663] = {
+		param = "もはや常人の目つきではなく、まるで鬼神が憑いたかのごとき冷徹さだった",
+		ship_group = 30311,
+		type = 1,
+		id = 11663,
+		flag = 0,
+		option = {
+			{
+				1,
+				"それ本当に音ゲーの話……？"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11664] = {
+		param = "それ本当に音ゲーの話……？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11664,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11665] = {
+		param = "本当だとも、モータル！ゲームは遊びじゃないのだ！",
+		ship_group = 40124,
+		option = "",
+		type = 1,
+		id = 11665,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11666] = {
+		param = "その通り……彼女に敗れた後、私の悪魔の力も奪われてしまった……！",
+		ship_group = 40136,
+		option = "",
+		type = 1,
+		id = 11666,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11667] = {
+		param = "綾波が挑戦者を次々となぎ倒して、敗者の力を吸収し続けて、鬼神モードに入っちまったんだぜ！",
+		ship_group = 40206,
+		option = "",
+		type = 1,
+		id = 11667,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11668] = {
+		param = "あの気迫は凄まじくて……周りは誰も近づけず、半径5メートルは立ち入り禁止区域になりました！",
+		ship_group = 30606,
+		option = "",
+		type = 1,
+		id = 11668,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11669] = {
+		param = "半径5メートル……！？誰も入ってこれなくなるにゃ？！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11669,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11670] = {
+		param = "うぅ、綾波の目、そんなに怖かったです……？",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11670,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11671] = {
+		param = "一日中『モエマイマニア』の難易度達人をプレイしてたから、少し疲れて気を張ってただけです",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11671,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11672] = {
+		param = "ん？「鬼神」ってどこかで見たことがあるような……",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11672,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11673] = {
+		param = "思い出した！『モエマイマニア』のプレイヤーランキング1位、『無口無感情無愛想鬼神』じゃん！",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11673,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11674] = {
+		param = "綾波、そんなに有名だったんです？",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11674,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11675] = {
+		param = "ランキング1位を100日以上キープして、しかも2位のスコアを大きく引き離してるレジェンド……そりゃ人が集まるよ！",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11675,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11676] = {
+		param = "人が集まったのは確かにゃ…でもみんな入口で詰まって中に入らないなら、儲かりっこないにゃ……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11676,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11677] = {
+		param = "筐体を店の中に移動すればいいじゃない",
+		ship_group = 10212,
+		option = "",
+		type = 1,
+		id = 11677,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11678] = {
+		param = "そんなことしたら露出が下がっちゃう……！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11678,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11679] = {
+		param = "せっかく人気が集まってるんだから、もっと頑張ってもらわないとにゃ！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11679,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11680] = {
+		param = "『モエマイマニア』は1台買うにも超高いにゃ！プレイの売上だけじゃ全然元が取れないにゃ！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11680,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11681] = {
+		param = "あれで客を呼べなかったら、ゲームロビーは再来年まで持たないかも……ううん、来年には……うぅ…！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11681,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11682] = {
+		param = "320",
+		ship_group = 31201,
+		type = 4,
+		id = 11682,
+		flag = 1,
+		option = {
+			{
+				2,
+				"置き場所で悩むより……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11683] = {
+		param = "置き場所で悩むより、大事なのはどうやって後方腕組み勢を入店させるかじゃない…？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11683,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11684] = {
+		param = "綾波の宣伝効果を活かすのならなおさらじゃ？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11684,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11685] = {
+		param = "む。でも中に置いたら、通りすがりの人は綾波がいることに気づかないにゃ……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11685,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11686] = {
+		param = "通りすがりの人の「偶然」に頼るのはやめましょう",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11686,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11687] = {
+		param = "一つ策があります。ただ、それには綾波の協力が必要ですが……",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11687,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11688] = {
+		param = "みんなの力になれるなら、綾波は構わないです",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11688,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11689] = {
+		param = "ありがとうにゃ！綾波はゲームロビーの救世主にゃ！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11689,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11690] = {
+		param = "喜ぶのはまだ早いですよ。明石にはもう一度、大きな投資をしてもらう必要がありますからね",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11690,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11691] = {
+		param = "303",
+		ship_group = 31201,
+		option = "",
+		type = 4,
+		id = 11691,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11692] = {
+		param = "明石のダイヤが……そ、それは……まずは計画の中身を聞かせてもらうにゃ！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11692,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11693] = {
+		param = "『モエマイマニア』の店舗大会、というのはいかがでしょう",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11693,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11694] = {
+		param = "上位10名には豪華な賞品を、そのうち上位3名にはさらに…",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11694,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11695] = {
+		param = "現チャンピオン『『無口無感情無愛想鬼神』への挑戦権を獲得可能",
+		ship_group = 30213,
+		type = 1,
+		id = 11695,
+		flag = 2,
+		option = {
+			{
+				3,
+				"自分も参加したくなってきた"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11696] = {
+		param = "なるほど……なんだか自分も参加したくなってきたな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11696,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11697] = {
+		param = "ええ、まさにそれが狙いなんです",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11697,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11698] = {
+		param = "『モエマイマニア』ですが、店内に置いても問題ないでしょう",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11698,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11699] = {
+		param = "大会の宣伝さえ上手くいけば、参加者がゲームロビーに殺到するはずです",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11699,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11700] = {
+		param = "ざっと計算したんだけどぉ……今の台数じゃ大会には全然足りないよね～",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 11700,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11701] = {
+		param = "もう何台か導入しないと",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 11701,
+		flag = 3
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[11702] = {
+		param = "なら会場のレイアウトも一緒に調整したほうがいいよね",
+		ship_group = 20513,
+		option = "",
+		type = 1,
+		id = 11702,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11703] = {
+		param = "賛成でございます。せっかく大勢のプレイヤーを集めても、その客足を受け止めきれなければ",
+		ship_group = 30118,
+		option = "",
+		type = 1,
+		id = 11703,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11704] = {
+		param = "これまでの投資も無駄になってしまいますから",
+		ship_group = 30118,
+		option = "",
+		type = 1,
+		id = 11704,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11705] = {
+		param = "というわけで明石、追加投資の覚悟はできていますか？",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11705,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11706] = {
+		param = "大逆転の絶好のチャンスですよ",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11706,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11707] = {
+		param = "新しい筐体の導入、フロアの改装、それにプレイヤーへの豪華賞品の準備……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11707,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11708] = {
+		param = "「虎穴に入らずんば虎子を得ず」…ゲームロビーの発展のために",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11708,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11709] = {
+		param = "こ、ここは全身全霊で……あ……明石……明石、賛成するにゃ……！！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11709,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11710] = {
+		param = "309",
+		ship_group = 31201,
+		option = "",
+		type = 4,
+		id = 11710,
+		flag = 3
 	}
 end)()

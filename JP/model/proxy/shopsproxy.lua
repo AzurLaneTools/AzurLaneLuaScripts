@@ -558,7 +558,7 @@ slot0.GetAllShowGiftPackages = function(slot0, slot1)
 
 			if (slot1 == nil or slot13 == slot1) and (slot12 == Goods.ITEM_BOX or slot12 == Goods.PASS_ITEM) and slot0:filterLimitTypeGoods(Goods.Create({
 				shop_id = slot10
-			}, Goods.TYPE_CHARGE), slot4) then
+			}, Goods.TYPE_CHARGE), slot4) and slot0:IsVaildBattlePass(slot14) then
 				table.insert(slot2, slot14)
 			end
 		end
@@ -629,6 +629,24 @@ slot0.GetAllShowGiftPackages = function(slot0, slot1)
 	end
 
 	return slot6, slot7
+end
+
+slot0.IsVaildBattlePass = function(slot0, slot1)
+	if not slot1:isPassItem() then
+		return true
+	end
+
+	if getProxy(ActivityProxy):RawGetActivityById(slot1:getConfig("sub_display")[1]) and not slot5:isEnd() then
+		return true
+	end
+
+	slot6, slot7 = PrevPeriodCrusingActivity.StaticExistPrevPeriodCrusingActivity()
+
+	if slot6 and slot3 == slot7 then
+		return true
+	end
+
+	return false
 end
 
 slot0.filterLimitTypeGoods = function(slot0, slot1, slot2)

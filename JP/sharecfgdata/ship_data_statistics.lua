@@ -458359,6 +458359,530 @@ _G.pg.base.ship_data_statistics[9701124] = {
 }
 
 
+_G.pg.base.ship_data_statistics[9701131] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "ソオブラジーテリヌイ(META)",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701131,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Soobrazitelny.META",
+	oxy_cost = 0,
+	skin_id = 9701130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		390,
+		31,
+		43,
+		30,
+		0,
+		77,
+		0,
+		55,
+		55,
+		48,
+		84,
+		47
+	},
+	attrs_growth = {
+		7903,
+		394,
+		594,
+		411,
+		0,
+		534,
+		0,
+		746,
+		863,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.1,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SoobrazitelnyMETA",
+		"SoobrazitelnyMETA"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9701132] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "ソオブラジーテリヌイ(META)",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701132,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Soobrazitelny.META",
+	oxy_cost = 0,
+	skin_id = 9701130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		485,
+		39,
+		54,
+		37,
+		0,
+		77,
+		0,
+		55,
+		55,
+		48,
+		84,
+		59
+	},
+	attrs_growth = {
+		7903,
+		394,
+		594,
+		411,
+		0,
+		534,
+		0,
+		746,
+		863,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.1,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SoobrazitelnyMETA",
+		"SoobrazitelnyMETA"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9701133] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "ソオブラジーテリヌイ(META)",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701133,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Soobrazitelny.META",
+	oxy_cost = 0,
+	skin_id = 9701130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		675,
+		54,
+		75,
+		52,
+		0,
+		77,
+		0,
+		55,
+		55,
+		48,
+		84,
+		82
+	},
+	attrs_growth = {
+		7903,
+		394,
+		594,
+		411,
+		0,
+		534,
+		0,
+		746,
+		863,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		1.1,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SoobrazitelnyMETA",
+		"SoobrazitelnyMETA"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9701134] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "ソオブラジーテリヌイ(META)",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701134,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Soobrazitelny.META",
+	oxy_cost = 0,
+	skin_id = 9701130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		960,
+		78,
+		107,
+		74,
+		0,
+		77,
+		0,
+		55,
+		55,
+		48,
+		84,
+		117
+	},
+	attrs_growth = {
+		7903,
+		394,
+		594,
+		411,
+		0,
+		534,
+		0,
+		746,
+		863,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.6,
+		1.15,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"SoobrazitelnyMETA",
+		"SoobrazitelnyMETA"
+	},
+	gift_dislike = {
+		180004,
+		180006
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[9702011] = {
 	nationality = 97,
 	oxy_max = 0,

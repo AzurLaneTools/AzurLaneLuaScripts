@@ -7,9 +7,10 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			bgm = "theme-hospitalnight-mystic",
 			say = "……耳障りな金属の軋みとともに、エレベーターの扉がゆっくりと左右にひらいた。",
 			typewriter = {
@@ -18,9 +19,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			say = "足早に乗り込み一階のボタンを押すと、わずかな浮遊感とともにエレベーターは下降を始めた。",
 			typewriter = {
 				speed = 0.05,
@@ -28,6 +30,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -42,12 +45,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "またこっそり抜け出そうとしているの？指揮官？",
 			typewriter = {
 				speed = 0.05,
@@ -55,6 +59,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -69,12 +74,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "このビルはこんなにも静かで……",
 			typewriter = {
 				speed = 0.05,
@@ -85,9 +91,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "二人っきりにおあつらえ向きなのに……",
 			typewriter = {
@@ -99,9 +106,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "もっと付き合ってくれると思っていたのだけれど……",
 			typewriter = {
@@ -113,9 +121,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "どうしてそんなに急いで帰ろうとするのかしら？",
 			typewriter = {
@@ -124,12 +133,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "この場所が気に入らないの？それとも……私のことが怖くなった？",
 			typewriter = {
 				speed = 0.05,
@@ -137,6 +147,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -151,6 +162,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -165,12 +177,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "ここはね…来たいときに来て、帰りたいときに帰れる場所じゃないの♪",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +194,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "私はまだ、あなたと過ごし足りないわ",
 			typewriter = {
@@ -192,6 +206,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -206,6 +221,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -220,6 +236,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -237,9 +254,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "main1",
 			say = "うふふ……その反応、ほんとうに可愛らしいこと♥",
 			typewriter = {
@@ -248,12 +266,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "指揮官って確か、「妖異」と分かり合えることに長けてるはずだよね？",
 			typewriter = {
 				speed = 0.05,
@@ -261,12 +280,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "だったら、よく分かってるはずでしょ？",
 			typewriter = {
 				speed = 0.05,
@@ -274,12 +294,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "私のような存在は「従順」だとか「まとも」とかって言葉とは無縁なことを…",
 			typewriter = {
 				speed = 0.05,
@@ -287,12 +308,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "まあ、それでも……",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +325,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "あなたは結局、私に近づいてきた……",
 			typewriter = {
@@ -314,6 +337,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -328,6 +352,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -345,9 +370,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "うふふふ、さっきの脅かしはあくまで前菜よ。そろそろメインティッシュと行こうかしら♪",
 			typewriter = {
@@ -359,9 +385,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "あなたのその覚悟、間近でじっくり、味わわせて……♥",
 			typewriter = {
@@ -370,6 +397,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			spine = true,
 			withoutActorName = true,
@@ -401,6 +429,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -415,12 +444,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "指揮官、迎えに来てあげたわ♥",
 			typewriter = {
 				speed = 0.05,
@@ -428,12 +458,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "あら、うっかり転んでしまったの？うふふふ",
 			typewriter = {
 				speed = 0.05,
@@ -441,12 +472,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "そうそう、さっきの話はまだ途中だったわね",
 			typewriter = {
 				speed = 0.05,
@@ -459,8 +491,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "私……あなたに、あんなことやこんなこと、したくてたまらないの♥",
 			typewriter = {
 				speed = 0.05,
@@ -468,12 +501,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "指揮官ならきっと分かってくれるよね？",
 			typewriter = {
 				speed = 0.05,
@@ -481,6 +515,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -495,6 +530,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -509,6 +545,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -528,8 +565,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "隠れないで",
 			typewriter = {
 				speed = 0.05,
@@ -542,8 +580,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "もっとそばに寄らせてもらうわ",
 			typewriter = {
 				speed = 0.05,
@@ -551,12 +590,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "それとも……見せてきた余裕も覚悟も、本当はただのまやかしかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -564,6 +604,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -578,6 +619,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -597,8 +639,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "諦めなさいな。私の許しがなければ、あなたはどこへも行けないのよ♥",
 			typewriter = {
 				speed = 0.05,
@@ -606,6 +649,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -620,12 +664,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "おかしいわね……",
 			typewriter = {
 				speed = 0.05,
@@ -633,12 +678,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "こんな恐ろしい「お仕置き」なら、あなたは怯えて、絶望して、苛まれるはずなのに……",
 			typewriter = {
 				speed = 0.05,
@@ -646,12 +692,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "その顔は……私の想像とは、少し違うような？",
 			typewriter = {
 				speed = 0.05,
@@ -659,12 +706,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "うふふ……本当に新鮮♥",
 			typewriter = {
 				speed = 0.05,
@@ -677,8 +725,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "どうやらあなたを見くびっていたようね。やっぱりあなたは特別よ",
 			typewriter = {
 				speed = 0.05,
@@ -691,8 +740,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "ますます……もっと新しい趣向を試したくなった♥",
 			typewriter = {
 				speed = 0.05,
@@ -700,6 +750,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -719,8 +770,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "いつまで保つのか……見せてみなさいな♪",
 			typewriter = {
 				speed = 0.05,
@@ -733,8 +785,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "どうせ……時間はまだたっぷりあるから♥",
 			typewriter = {
 				speed = 0.05,

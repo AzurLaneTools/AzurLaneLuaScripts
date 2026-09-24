@@ -34,6 +34,9 @@ pg.dorm3d_zone_template.all = {
 	21001,
 	21002,
 	21003,
+	22001,
+	22002,
+	22003,
 	26001,
 	26002,
 	26003
@@ -87,6 +90,11 @@ pg.dorm3d_zone_template.get_id_list_by_room_id = {
 		21001,
 		21002,
 		21003
+	},
+	[22] = {
+		22001,
+		22002,
+		22003
 	},
 	[26] = {
 		26001,
@@ -495,6 +503,36 @@ pg.base.dorm3d_zone_template = {}
 		touch_id = "",
 		id = 21003,
 		room_id = 21,
+		watch_camera = "Chair",
+		special_action = ""
+	}
+	pg.base.dorm3d_zone_template[22001] = {
+		is_global = 0,
+		name = "寝室",
+		type_prioritys = "",
+		touch_id = "",
+		id = 22001,
+		room_id = 22,
+		watch_camera = "Bed",
+		special_action = ""
+	}
+	pg.base.dorm3d_zone_template[22002] = {
+		is_global = 0,
+		name = "密室",
+		type_prioritys = "",
+		touch_id = "",
+		id = 22002,
+		room_id = 22,
+		watch_camera = "Table",
+		special_action = ""
+	}
+	pg.base.dorm3d_zone_template[22003] = {
+		is_global = 0,
+		name = "リビング",
+		type_prioritys = "",
+		touch_id = "",
+		id = 22003,
+		room_id = 22,
 		watch_camera = "Chair",
 		special_action = ""
 	}

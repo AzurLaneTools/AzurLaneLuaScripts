@@ -6,6 +6,39 @@ slot0.getUIName = function(slot0)
 	return "EquipmentTransformTreeUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		uv0,
+		"weaponframes",
+		"ui/iconcolorful"
+	}
+
+	table.insertto(slot2, slot0:getEquipmentResList())
+
+	return table.insertto(slot2, uv1.super.getResource(slot0, slot1))
+end
+
+slot0.getEquipmentResList = function(slot0)
+	slot1 = {}
+	slot2 = pairs
+	slot3 = EquipmentProxy.EquipmentTransformTreeTemplate or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		for slot10, slot11 in pairs(slot6) do
+			slot12 = ipairs
+			slot13 = slot11.equipments or {}
+
+			for slot15, slot16 in slot12(slot13) do
+				if Equipment.getConfigData(slot16[3]) and noEmptyStr(slot17.icon) then
+					table.insert(slot1, ResPathSupport.CombinePath(ResPathSupport.ConstPath.Equipment.Equip, slot17.icon))
+				end
+			end
+		end
+	end
+
+	return slot1
+end
+
 slot0.optionsPath = {
 	"blur_panel/adapt/top/option"
 }

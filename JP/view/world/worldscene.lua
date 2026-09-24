@@ -43,6 +43,354 @@ slot0.getBGM = function(slot0)
 	return uv0.super.getBGM(slot0)
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"scenes/worldmap3d",
+		"model/worldmapmodel",
+		"world/object/world_plane",
+		"ui/darkfog",
+		"ui/sairenfog",
+		"world/cell/base",
+		"world/object/yangliu_shang",
+		"world/object/yangliu_you",
+		"world/object/yangliu_xia",
+		"world/object/yangliu_zuo",
+		"world/object/longjuanfeng_shang",
+		"world/object/longjuanfeng_you",
+		"world/object/longjuanfeng_xia",
+		"world/object/longjuanfeng_zuo",
+		"world/object/ice",
+		"world/object/poison01",
+		"world/object/poison02",
+		"world/object/longjuanfeng",
+		"ui/san_low",
+		"weaponframes",
+		"shiptype"
+	}, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.insertResToList = function(slot0, slot1, slot2)
+	if noEmptyStr(slot2) and not table.contains(slot1, slot2) then
+		table.insert(slot1, slot2)
+	end
+end
+
+slot0.insertResListToList = function(slot0, slot1, slot2)
+	slot3 = ipairs
+	slot4 = slot2 or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot0:insertResToList(slot1, slot7)
+	end
+end
+
+slot0.insertPrefixResToList = function(slot0, slot1, slot2, slot3)
+	if noEmptyStr(slot3) then
+		slot0:insertResToList(slot1, slot2 .. slot3)
+	end
+end
+
+slot0.insertWorldBuffIconRes = function(slot0, slot1, slot2, slot3)
+	if slot2 and slot2.config and noEmptyStr(slot2.config.icon) then
+		slot0:insertPrefixResToList(slot1, slot3, slot2.config.icon)
+	end
+end
+
+slot0.downloadWorldResList = function(slot0, slot1, slot2)
+	SplitPackConst.DownloadByLuaArr(slot1, function ()
+		if uv0.exited then
+			return
+		end
+
+		return existCall(uv1)
+	end)
+end
+
+slot0.getAtlasResList = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(WSEntranceTpl.prefabName) do
+		slot0:insertPrefixResToList(slot1, "world/mark/", slot6)
+	end
+
+	slot0:insertResToList(slot1, "world/mark/dsj_srgr")
+
+	return slot1
+end
+
+slot0.getMapCellResList = function(slot0, slot1)
+	slot2 = {}
+
+	if not slot1 then
+		return slot2
+	end
+
+	if slot1:GetTerrain() == WorldMapCell.TerrainStream or slot3 == WorldMapCell.TerrainWind or slot3 == WorldMapCell.TerrainIce or slot3 == WorldMapCell.TerrainPoison then
+		slot0:insertResToList(slot2, WorldConst.GetTerrainEffectRes(slot3, slot1.terrainDir, slot1.terrainStrong))
+	end
+
+	if noEmptyStr(slot1:GetEmotion()) then
+		slot0:insertResToList(slot2, "ui/" .. slot4)
+	end
+
+	return slot2
+end
+
+slot0.getMapAttachmentResList = function(slot0, slot1, slot2)
+	slot3 = {}
+
+	if not slot2 then
+		return slot3
+	end
+
+	if slot2.type == WorldMapAttachment.TypeArtifact then
+		if slot2:GetArtifaceInfo() and noEmptyStr(slot4[3]) then
+			slot0:insertPrefixResToList(slot3, WorldConst.ResChapterPrefab, slot4[3])
+		end
+
+		return slot3
+	end
+
+	if not slot2.config then
+		return slot3
+	end
+
+	if slot2.type == WorldMapAttachment.TypeEvent then
+		if slot2:GetReplaceDisplayEnemyConfig() then
+			if slot2:IsAvatar() then
+				slot0:insertPrefixResToList(slot3, "char/", slot5.icon)
+			else
+				slot0:insertPrefixResToList(slot3, "enemies/", slot5.icon)
+
+				if noEmptyStr(slot5.icon) then
+					slot0:insertResToList(slot3, "enemies/" .. slot5.icon .. "_d_blue")
+				end
+			end
+		elseif slot2:IsAvatar() then
+			slot0:insertPrefixResToList(slot3, "char/", slot4.icon)
+		elseif math.floor(slot4.enemyicon / 2) == 2 then
+			slot0:insertPrefixResToList(slot3, WorldConst.ResChapterPrefab, slot4.icon)
+		elseif math.floor(slot4.enemyicon / 2) == 0 then
+			slot0:insertPrefixResToList(slot3, WorldConst.ResBoxPrefab, slot4.icon)
+		end
+	elseif slot2.type == WorldMapAttachment.TypeBox then
+		if slot2:IsAvatar() then
+			slot0:insertPrefixResToList(slot3, "char/", slot4.icon)
+		else
+			slot0:insertPrefixResToList(slot3, WorldConst.ResBoxPrefab, slot4.icon)
+		end
+	elseif WorldMapAttachment.IsEnemyType(slot2.type) then
+		if slot2:IsAvatar() then
+			slot0:insertPrefixResToList(slot3, "char/", slot4.icon)
+		else
+			slot0:insertPrefixResToList(slot3, "enemies/", slot4.icon)
+
+			if noEmptyStr(slot4.icon) then
+				slot0:insertResToList(slot3, "enemies/" .. slot4.icon .. "_d_blue")
+			end
+		end
+	elseif slot2.type == WorldMapAttachment.TypeTransportFleet then
+		slot0:insertPrefixResToList(slot3, "enemies/", slot4.icon)
+	elseif slot2.type == WorldMapAttachment.TypeTrap then
+		if slot2:IsAvatar() then
+			slot0:insertPrefixResToList(slot3, "char/", slot4.trap_fx)
+		else
+			slot0:insertPrefixResToList(slot3, WorldConst.ResBoxPrefab, slot4.trap_fx)
+		end
+	end
+
+	for slot8, slot9 in ipairs(slot2:GetBuffList()) do
+		slot0:insertWorldBuffIconRes(slot3, slot9, "world/buff/")
+	end
+
+	if slot1 then
+		if #slot2:GetRadiationBuffs() > 0 then
+			slot6, slot7, slot8 = unpack(slot5[1])
+
+			if pg.world_SLGbuff_data[slot7] then
+				slot0:insertPrefixResToList(slot3, "world/mapbuff/", slot9.icon)
+			end
+		else
+			slot9 = WorldMap.FactionEnemy
+			slot10 = slot2
+
+			for slot9, slot10 in ipairs(slot1:GetBuffList(slot9, slot10)) do
+				slot0:insertWorldBuffIconRes(slot3, slot10, "world/mapbuff/")
+			end
+		end
+	end
+
+	return slot3
+end
+
+slot0.getCarryItemResList = function(slot0, slot1)
+	slot2 = {}
+
+	if slot1 and slot1.config then
+		if slot1:IsAvatar() then
+			slot0:insertPrefixResToList(slot2, "char/", slot1.config.icon)
+		else
+			slot0:insertPrefixResToList(slot2, WorldConst.ResBoxPrefab, slot1.config.icon)
+		end
+	end
+
+	return slot2
+end
+
+slot0.getWorldFleetResList = function(slot0, slot1)
+	slot2 = {}
+
+	if not slot1 then
+		return slot2
+	end
+
+	slot6 = "char/"
+	slot7 = slot1.GetPrefab
+
+	slot0:insertPrefixResToList(slot2, slot6, slot7(slot1))
+
+	for slot6, slot7 in ipairs(slot1:GetBuffFxList()) do
+		if type(slot7) == "table" then
+			for slot11, slot12 in ipairs(slot7) do
+				slot0:insertPrefixResToList(slot2, "ui/", slot12)
+			end
+		else
+			slot0:insertPrefixResToList(slot2, "ui/", slot7)
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot1:GetCarries()) do
+		slot0:insertResListToList(slot2, slot0:getCarryItemResList(slot7))
+	end
+
+	for slot6, slot7 in ipairs(slot1:GetBuffList()) do
+		slot0:insertWorldBuffIconRes(slot2, slot7, "world/buff/")
+	end
+
+	slot0:insertWorldBuffIconRes(slot2, slot1:GetDamageBuff(), "world/buff/")
+	slot0:insertWorldBuffIconRes(slot2, slot1:GetWatchingBuff(), "world/watchingbuff/")
+
+	if slot1:IsCatSalvage() and slot1:GetDisplayCommander() then
+		slot0:insertPrefixResToList(slot2, "commandericon/", slot3:getPainting())
+	end
+
+	for slot6, slot7 in pairs(slot1:getCommanders()) do
+		if slot7 and slot7:getSkills()[1] then
+			slot0:insertPrefixResToList(slot2, "commanderskillicon/", slot8:getConfig("icon"))
+		end
+	end
+
+	for slot6, slot7 in ipairs({
+		TeamType.Main,
+		TeamType.Vanguard
+	}) do
+		slot11 = slot7
+		slot12 = true
+
+		for slot11, slot12 in ipairs(slot1:GetTeamShips(slot11, slot12)) do
+			if WorldConst.FetchShipVO(slot12.id) then
+				slot0:insertPrefixResToList(slot2, "SquareIcon/", slot13:getPainting())
+			end
+		end
+	end
+
+	return slot2
+end
+
+slot0.getMapResList = function(slot0, slot1)
+	slot2 = {
+		"world/object/world_plane",
+		"ui/darkfog",
+		"ui/sairenfog",
+		"world/cell/base",
+		"world/object/yangliu_shang",
+		"world/object/yangliu_you",
+		"world/object/yangliu_xia",
+		"world/object/yangliu_zuo",
+		"world/object/longjuanfeng_shang",
+		"world/object/longjuanfeng_you",
+		"world/object/longjuanfeng_xia",
+		"world/object/longjuanfeng_zuo",
+		"world/object/ice",
+		"world/object/poison01",
+		"world/object/poison02",
+		"world/object/longjuanfeng",
+		"ui/san_low",
+		"weaponframes",
+		"shiptype"
+	}
+
+	if not slot1 then
+		return slot2
+	end
+
+	if slot1.theme and noEmptyStr(slot1.theme.assetSea) then
+		slot0:insertPrefixResToList(slot2, "chapter/pic/", slot1.theme.assetSea)
+	end
+
+	slot3 = ipairs
+	slot4 = checkExist(slot1, {
+		"config"
+	}, {
+		"float_items"
+	}) or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot0:insertPrefixResToList(slot2, WorldConst.ResChapterPrefab, slot7[3])
+	end
+
+	slot3 = pairs
+	slot4 = slot1.cells or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot0:insertResListToList(slot2, slot0:getMapCellResList(slot7))
+
+		slot8 = ipairs
+		slot9 = slot7.attachments or {}
+
+		for slot11, slot12 in slot8(slot9) do
+			slot0:insertResListToList(slot2, slot0:getMapAttachmentResList(slot1, slot12))
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot1:GetNormalFleets()) do
+		slot0:insertResListToList(slot2, slot0:getWorldFleetResList(slot7))
+	end
+
+	for slot6, slot7 in ipairs(nowWorld():GetWorldMapBuffs()) do
+		slot0:insertWorldBuffIconRes(slot2, slot7, "world/buff/")
+	end
+
+	slot3 = WorldBuff.New()
+
+	slot3:Setup({
+		floor = 0,
+		id = WorldConst.MoveLimitBuffId
+	})
+	slot0:insertWorldBuffIconRes(slot2, slot3, "world/buff/")
+
+	return slot2
+end
+
+slot0.getUIAnimResList = function(slot0, slot1)
+	slot2 = {}
+
+	slot0:insertPrefixResToList(slot2, "ui/", slot1)
+
+	return slot2
+end
+
+slot0.getStrikeAnimResList = function(slot0, slot1, slot2)
+	slot3 = slot0:getUIAnimResList(slot1)
+
+	if slot2 then
+		slot0:insertPrefixResToList(slot3, "painting/", slot2:getPainting())
+		slot0:insertPrefixResToList(slot3, "char/", slot2:getPrefab())
+	end
+
+	return slot3
+end
+
 slot0.init = function(slot0)
 	for slot4, slot5 in pairs(uv0.Listeners) do
 		slot0[slot4] = function (...)
@@ -177,8 +525,7 @@ slot0.init = function(slot0)
 end
 
 slot0.InitSubView = function(slot0)
-	slot1 = slot0._tf
-	slot0.rtPanelList = slot1:Find("panel_list")
+	slot0.rtPanelList = slot0._tf:Find("panel_list")
 	slot0.svOrderPanel = SVOrderPanel.New(slot0.rtPanelList, slot0.event, {
 		wsPool = slot0.wsPool
 	})
@@ -218,9 +565,7 @@ slot0.InitSubView = function(slot0)
 	slot0.svFloatPanel = SVFloatPanel.New(slot0.rtTop, slot0.event)
 
 	slot0:bind(SVFloatPanel.ReturnCall, function (slot0, slot1)
-		slot2 = uv0
-
-		slot2:Op("OpCall", function (slot0)
+		uv0:Op("OpCall", function (slot0)
 			slot0()
 
 			if uv0.id == nowWorld():GetActiveEntrance().id then
@@ -230,6 +575,17 @@ slot0.InitSubView = function(slot0)
 				uv1:ClickAtlas(slot1)
 			end
 		end)
+	end)
+	slot0:bind(SVFloatPanel.DelegateCall, function (slot0, slot1)
+		slot2, slot3 = nowWorld():CanDelegate()
+
+		if not slot2 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n(slot3))
+
+			return
+		end
+
+		uv0.svSingleDelegatePanel:ExecuteAction("Show", slot1)
 	end)
 
 	slot0.svPoisonPanel = SVPoisonPanel.New(slot0.rtPanelList, slot0.event)
@@ -246,6 +602,13 @@ slot0.InitSubView = function(slot0)
 	end)
 
 	slot0.svSalvageResult = SVSalvageResult.New(slot0.rtPanelList, slot0.event)
+	slot0.svDelegatePanel = ChapterAutoPanelTypeWorld.New(slot0.rtPanelList, slot0.event)
+
+	slot0.svDelegatePanel:RegisterView(slot0)
+
+	slot0.svSingleDelegatePanel = ChapterAutoPanelTypeWorldSingle.New(slot0.rtPanelList, slot0.event)
+
+	slot0.svSingleDelegatePanel:RegisterView(slot0)
 end
 
 slot0.didEnter = function(slot0)
@@ -253,7 +616,7 @@ slot0.didEnter = function(slot0)
 
 	slot0.warningSairen = not slot0.contextData.inSave
 
-	if slot0.contextData.inWorld then
+	if getProxy(ChapterAutoProxy):HasTypeCommission(ChapterAutoProxy.TYPE.WORLD) or slot0.contextData.inWorld then
 		slot0:Op("OpSetInMap", false, function ()
 			uv0.wsAtlas:UpdateSelect(nowWorld():GetActiveEntrance())
 		end)
@@ -281,12 +644,16 @@ slot0.onBackPressed = function(slot0)
 		slot0:HideSubView("PoisonPanel")
 	elseif slot0.svSalvageResult:isShowing() then
 		slot0:HideSubView("SalvageResult")
+	elseif slot0.svDelegatePanel:isShowing() then
+		slot0:HideSubView("DelegatePanel")
+	elseif slot0.svSingleDelegatePanel:isShowing() then
+		slot0:HideSubView("SingleDelegatePanel")
 	elseif slot0.wsMapLeft and isActive(slot0.wsMapLeft.toggleMask) then
 		slot0.wsMapLeft:HideToggleMask()
-	elseif slot0:GetInMap() then
-		triggerButton(slot0.wsMapTop.btnBack)
-	else
+	elseif not slot0:GetInMap() then
 		triggerButton(slot0.rtTopAtlas:Find("back_button"))
+	else
+		triggerButton(slot0.wsMapTop.btnBack)
 	end
 end
 
@@ -371,6 +738,8 @@ slot0.willExit = function(slot0)
 	slot0.svPoisonPanel:Destroy()
 	slot0.svGlobalBuff:Destroy()
 	slot0.svBossProgress:Destroy()
+	slot0.svDelegatePanel:Destroy()
+	slot0.svSingleDelegatePanel:Destroy()
 	slot0:DisposeAtlas()
 	slot0:DisposeAtlasUI()
 	slot0:DisposeMap()
@@ -470,11 +839,11 @@ slot0.SetInMap = function(slot0, slot1, slot2)
 	table.insert(slot4, function (slot0)
 		uv0:DisplayEnv(slot0)
 	end)
+	table.insert(slot4, function (slot0)
+		uv0:LoadMap(nowWorld():GetActiveMap(), slot0)
+	end)
 
 	if slot1 then
-		table.insert(slot4, function (slot0)
-			uv0:LoadMap(nowWorld():GetActiveMap(), slot0)
-		end)
 		table.insert(slot3, function (slot0)
 			uv0:Op("OpSwitchInMap", slot0)
 		end)
@@ -484,6 +853,9 @@ slot0.SetInMap = function(slot0, slot1, slot2)
 		end)
 		table.insert(slot3, function (slot0)
 			uv0:Op("OpSwitchInWorld", slot0)
+		end)
+		table.insert(slot3, function (slot0)
+			uv0:CheckGuideWorld(slot0)
 		end)
 	end
 
@@ -495,6 +867,28 @@ slot0.SetInMap = function(slot0, slot1, slot2)
 	slot0.inMap = slot1
 
 	seriesAsync(slot3, slot2)
+end
+
+slot0.CheckGuideWorld = function(slot0, slot1)
+	slot2 = nowWorld()
+	slot3 = {}
+
+	table.insert(slot3, {
+		"CHAPTER_AUTO_WORLD_GUIDE",
+		function ()
+			return uv0:CanDelegate()
+		end
+	})
+
+	slot4 = pg.NewStoryMgr.GetInstance()
+
+	for slot8, slot9 in ipairs(slot3) do
+		if not slot4:IsPlayed(slot9[1]) and slot9[2]() then
+			return WorldGuider.GetInstance():PlayGuide(slot9[1], nil, slot1)
+		end
+	end
+
+	existCall(slot1)
 end
 
 slot0.GetInMap = function(slot0)
@@ -629,6 +1023,9 @@ slot0.LoadAtlas = function(slot0, slot1)
 
 	if not slot0.wsAtlas then
 		table.insert(slot2, function (slot0)
+			uv0:downloadWorldResList(uv0:getAtlasResList(), slot0)
+		end)
+		table.insert(slot2, function (slot0)
 			slot2 = uv0
 			uv0.wsAtlas = slot2:NewAtlas()
 			slot1 = uv0.wsAtlas
@@ -686,18 +1083,44 @@ slot0.DisplayAtlasTop = function(slot0)
 	slot0.warningSairen = false
 end
 
+slot0.UpdateDelegateDisplay = function(slot0)
+	if slot0.svDelegatePanel:isShowing() then
+		slot0:HideSubView("DelegatePanel")
+	end
+
+	if slot0.svSingleDelegatePanel:isShowing() then
+		slot0:HideSubView("SingleDelegatePanel")
+	end
+
+	if slot0.wsAtlasRight then
+		slot0.wsAtlasRight:UpdateDelegate()
+	end
+
+	if slot0.svFloatPanel:isShowing() then
+		slot0.svFloatPanel:UpdatePanel()
+	end
+end
+
 slot0.HideAtlasTop = function(slot0)
 	setActive(slot0.rtTopAtlas, false)
 end
 
 slot0.NewAtlasTop = function(slot0, slot1)
 	onButton(slot0, slot1:Find("back_button"), function ()
-		slot0 = uv0
+		if getProxy(ChapterAutoProxy):HasTypeCommission(ChapterAutoProxy.TYPE.WORLD) then
+			slot1 = uv0
 
-		slot0:Op("OpCall", function (slot0)
-			slot0()
-			uv0:BackToMap()
-		end)
+			slot1:Op("OpCall", function (slot0)
+				uv0:ExitWorld(slot0)
+			end)
+		else
+			slot1 = uv0
+
+			slot1:Op("OpCall", function (slot0)
+				slot0()
+				uv0:BackToMap()
+			end)
+		end
 	end, SFX_CANCEL)
 
 	return {
@@ -732,10 +1155,33 @@ slot0.NewAtlasRight = function(slot0, slot1, slot2)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot3.btnSwitch, function ()
+		if getProxy(ChapterAutoProxy):IsCommissionDoing() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_auto_plan_error_tip1"))
+
+			return
+		end
+
 		uv0:Op("OpOpenLayer", Context.New({
 			mediator = WorldSwitchPlanningMediator,
 			viewComponent = WorldSwitchPlanningLayer
 		}))
+	end, SFX_CONFIRM)
+	onButton(slot0, slot3.btnDelegate, function ()
+		slot0, slot1 = nowWorld():CanDelegate()
+
+		if not slot0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n(slot1))
+
+			return
+		end
+
+		uv0.svDelegatePanel:ExecuteAction("Show")
+	end, SFX_PANEL)
+	onButton(slot0, slot3.btnDeleCancel, function ()
+		uv0:emit(WorldMediator.OnFinishDelegate)
+	end, SFX_CANCEL)
+	onButton(slot0, slot3.btnDeleConfirm, function ()
+		uv0:emit(WorldMediator.OnFinishDelegate)
 	end, SFX_CONFIRM)
 
 	return slot3
@@ -981,24 +1427,29 @@ slot0.LoadMap = function(slot0, slot1, slot2)
 		if uv0.wsMap then
 			return existCall(uv1)
 		else
-			slot0 = uv2
+			slot0 = uv0
+			slot2 = uv0
 
-			slot0:AddListener(WorldMap.EventUpdateActive, uv0.onDisposeMap)
+			slot0:downloadWorldResList(slot2:getMapResList(uv2), function ()
+				slot0 = uv0
 
-			slot0 = uv2
+				slot0:AddListener(WorldMap.EventUpdateActive, uv1.onDisposeMap)
 
-			slot0:AddListener(WorldMap.EventUpdateMoveSpeed, uv0.onClearMoveQueue)
+				slot0 = uv0
 
-			slot1 = uv0
-			uv0.wsMap = slot1:NewMap(uv2)
-			slot0 = uv0.wsMap
+				slot0:AddListener(WorldMap.EventUpdateMoveSpeed, uv1.onClearMoveQueue)
 
-			slot0:Load(function ()
-				uv0.wsMap.transform:SetParent(uv0.rtDragLayer, false)
-				setActive(uv0.wsMap.transform, true)
-				uv0:InitMap()
+				slot1 = uv1
+				uv1.wsMap = slot1:NewMap(uv0)
+				slot0 = uv1.wsMap
 
-				return existCall(uv1)
+				slot0:Load(function ()
+					uv0.wsMap.transform:SetParent(uv0.rtDragLayer, false)
+					setActive(uv0.wsMap.transform, true)
+					uv0:InitMap()
+
+					return existCall(uv1)
+				end)
 			end)
 		end
 	end)
@@ -1662,11 +2113,13 @@ slot0.OnAchievementAchieved = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.DoAnim = function(slot0, slot1, slot2)
-	if not slot0.wsAnim:GetAnim(slot1) then
-		slot3:SetAnim(slot1, slot0:NewUIAnim(slot1))
-	end
+	slot0:downloadWorldResList(slot0:getUIAnimResList(slot1), function ()
+		if not uv0.wsAnim:GetAnim(uv1) then
+			slot0:SetAnim(uv1, uv0:NewUIAnim(uv1))
+		end
 
-	slot3:GetAnim(slot1):Play(slot2)
+		slot0:GetAnim(uv1):Play(uv2)
+	end)
 end
 
 slot0.NewUIAnim = function(slot0, slot1)
@@ -1682,13 +2135,15 @@ slot0.NewUIAnim = function(slot0, slot1)
 end
 
 slot0.DoStrikeAnim = function(slot0, slot1, slot2, slot3)
-	if not slot0.wsAnim:GetAnim(slot1) then
-		slot4:SetAnim(slot1, slot0:NewStrikeAnim(slot1, slot2))
-	else
-		slot4:GetAnim(slot1):ReloadShip(slot2)
-	end
+	slot0:downloadWorldResList(slot0:getStrikeAnimResList(slot1, slot2), function ()
+		if not uv0.wsAnim:GetAnim(uv1) then
+			slot0:SetAnim(uv1, uv0:NewStrikeAnim(uv1, uv2))
+		else
+			slot0:GetAnim(uv1):ReloadShip(uv2)
+		end
 
-	slot4:GetAnim(slot1):Play(slot3)
+		slot0:GetAnim(uv1):Play(uv3)
+	end)
 end
 
 slot0.NewStrikeAnim = function(slot0, slot1, slot2)
@@ -1750,6 +2205,7 @@ slot0.UpdateSystemOpen = function(slot0)
 		setActive(slot0.wsAtlasBottom.btnShop, slot1:IsSystemOpen(WorldConst.SystemResetShop))
 		setActive(slot0.wsAtlasBottom.btnDailyTask:Find("mask"), not slot1:IsSystemOpen(WorldConst.SystemDailyTask))
 		setActive(slot0.wsAtlasRight.btnSwitch, slot1:IsSystemOpen(WorldConst.SystemAutoSwitch))
+		setActive(slot0.wsAtlasRight.btnDelegate, slot1:IsSystemOpen(WorldConst.SystemAutoSwitch))
 	end
 
 	setActive(slot0.resAtlas._tf, slot1:IsSystemOpen(WorldConst.SystemResource))
@@ -1840,6 +2296,11 @@ slot0.DisplayEnv = function(slot0, slot1)
 		1
 	}) or "model_bg") then
 		table.insert(slot3, function (slot0)
+			uv0:downloadWorldResList({
+				"world/map/" .. uv1
+			}, slot0)
+		end)
+		table.insert(slot3, function (slot0)
 			GetSpriteFromAtlasAsync("world/map/" .. uv0, uv0, function (slot0)
 				setImageSprite(uv0.rtEnvBG, slot0)
 
@@ -1868,6 +2329,11 @@ slot0.BuildCutInAnim = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	if not slot0.tfAnim then
+		table.insert(slot3, function (slot0)
+			uv0:downloadWorldResList({
+				"ui/" .. uv1
+			}, slot0)
+		end)
 		table.insert(slot3, function (slot0)
 			slot1 = PoolMgr.GetInstance()
 
@@ -2089,6 +2555,66 @@ slot0.GetAllPessingAward = function(slot0, slot1)
 	seriesAsync(slot6, function ()
 		return existCall(uv0)
 	end)
+end
+
+slot0.GetDelegatedAwards = function(slot0, slot1, slot2, slot3, slot4)
+	slot6 = nowWorld():GetAtlas()
+	slot7 = {}
+
+	for slot11, slot12 in ipairs(slot1) do
+		if slot5.pressingAwardDic[slot12].flag then
+			slot5:FlagMapPressingAward(slot12)
+			slot6:MarkMapTransport(slot12)
+
+			if #pg.world_event_complete[slot13.id].event_reward_slgbuff > 0 then
+				slot7[slot15[1]] = defaultValue(slot7[slot15[1]], 0) + slot15[2]
+			end
+		end
+	end
+
+	if slot0.wsAtlas then
+		slot0.wsAtlas:OnUpdatePressingAward()
+	end
+
+	slot8 = {}
+	slot9 = {}
+
+	for slot13, slot14 in pairs(slot7) do
+		table.insert(slot8, function (slot0)
+			slot1 = {
+				id = uv0,
+				floor = uv1,
+				before = uv2:GetGlobalBuff(uv0):GetFloor()
+			}
+
+			table.insert(uv3, slot1)
+			uv4:ShowSubView("GlobalBuff", {
+				slot1,
+				slot0
+			})
+		end)
+		table.insert(slot8, function (slot0)
+			uv0:AddGlobalBuff(uv1, uv2)
+			slot0()
+		end)
+	end
+
+	if #slot2 > 0 then
+		table.insert(slot8, function (slot0)
+			uv0:Op("OpOpenLayer", Context.New({
+				viewComponent = WorldChapterAutoRewardLayer,
+				mediator = WorldChapterAutoRewardMediator,
+				data = {
+					awards = uv1,
+					buffInfos = uv2,
+					proficiency = uv3,
+					onClose = slot0
+				}
+			}))
+		end)
+	end
+
+	seriesAsync(slot8, slot4)
 end
 
 slot0.CheckGuideSLG = function(slot0, slot1, slot2)

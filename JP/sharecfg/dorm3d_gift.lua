@@ -19,7 +19,9 @@ pg.dorm3d_gift.all = {
 	3070702,
 	4990501,
 	7990201,
-	7990261
+	7990261,
+	2070701,
+	2070761
 }
 pg.dorm3d_gift.get_id_list_by_ship_group_id = {
 	[0] = {
@@ -39,6 +41,10 @@ pg.dorm3d_gift.get_id_list_by_ship_group_id = {
 		2022001,
 		2022002,
 		2022003
+	},
+	[20707] = {
+		2070701,
+		2070761
 	},
 	[30221] = {
 		3022101,
@@ -100,6 +106,10 @@ pg.base.dorm3d_gift = {}
 			{
 				79902,
 				210301
+			},
+			{
+				20707,
+				220301
 			}
 		},
 		unlock_tips = {},
@@ -145,6 +155,12 @@ pg.base.dorm3d_gift = {}
 				{
 					"banner_naximofu"
 				}
+			},
+			{
+				20707,
+				{
+					"banner_yuanchou"
+				}
 			}
 		}
 	}
@@ -187,6 +203,10 @@ pg.base.dorm3d_gift = {}
 			{
 				79902,
 				210302
+			},
+			{
+				20707,
+				220302
 			}
 		},
 		shop_id = {
@@ -239,6 +259,12 @@ pg.base.dorm3d_gift = {}
 				{
 					"banner_naximofu"
 				}
+			},
+			{
+				20707,
+				{
+					"banner_yuanchou"
+				}
 			}
 		}
 	}
@@ -281,6 +307,10 @@ pg.base.dorm3d_gift = {}
 			{
 				79902,
 				210303
+			},
+			{
+				20707,
+				220303
 			}
 		},
 		shop_id = {
@@ -329,6 +359,12 @@ pg.base.dorm3d_gift = {}
 				79902,
 				{
 					"banner_naximofu"
+				}
+			},
+			{
+				20707,
+				{
+					"banner_yuanchou"
 				}
 			}
 		}
@@ -793,6 +829,91 @@ pg.base.dorm3d_gift = {}
 					2026,
 					7,
 					23
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_gift[2070701] = {
+		display = "羽根ペンが挟まれたノート。どのページにも、「懺悔」と名付けられた愛が書き記されている。\n ページをめくっていけば、誘惑と咎められた振る舞いの一つ一つが、彼女なりの敬虔な告白だと気付かされるだろう。",
+		name = "愛恋のノート",
+		unlock_dialogue_id = 220541,
+		rarity = 4,
+		ship_group_id = 20707,
+		time = "always",
+		hide_if_not_owned = 0,
+		favor_trigger_id = 1004,
+		id = 2070701,
+		icon = "dorm3dicon/3Ddrom_yuanchou_FancyGift1",
+		reply_dialogue_id = {
+			{
+				20707,
+				220304
+			}
+		},
+		shop_id = {
+			260801
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				20707,
+				{
+					"banner_gift2070701"
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_gift[2070761] = {
+		display = "華やかな意匠のアンティークキャンドルスタンド。火を灯せば、温かく柔らかな光が静謐な雰囲気を醸し出す。部屋を飾るにも夜の照明に使うにも、実用性の高い一品",
+		name = "精巧なキャンドルスタンド",
+		unlock_dialogue_id = 0,
+		rarity = 4,
+		ship_group_id = 20707,
+		hide_if_not_owned = 1,
+		favor_trigger_id = 1099,
+		id = 2070761,
+		icon = "dorm3dicon/3Ddrom_yuanchou_FancyGift9",
+		reply_dialogue_id = {
+			{
+				20707,
+				220302
+			}
+		},
+		shop_id = {},
+		unlock_tips = {},
+		unlock_banners = {
+			{
+				20707,
+				{
+					"banner_yuanchou"
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					22
 				},
 				{
 					16,

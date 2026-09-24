@@ -43,6 +43,25 @@ slot0.preload = function(slot0, slot1)
 	end)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	if getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) then
+		slot4 = {
+			pg.battlepass_event_pt[slot2.id].crusing_map and "crusingmap/" .. slot3.crusing_map,
+			slot3.spine_name and "char/" .. slot3.spine_name
+		}
+
+		for slot8, slot9 in ipairs(slot4) do
+			if noEmptyStr(slot9) and not table.contains(slot1, slot9) then
+				table.insert(slot1, slot9)
+			end
+		end
+	end
+
+	return slot1
+end
+
 slot0.init = function(slot0)
 	slot0.rtBg = slot0._tf:Find("bg")
 	slot0.scrollMap = slot0.rtBg:Find("map_scroll")

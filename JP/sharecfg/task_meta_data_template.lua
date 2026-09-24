@@ -394,6 +394,11 @@ pg.task_meta_data_template.all = {
 	100593,
 	100594,
 	100595,
+	100611,
+	100612,
+	100613,
+	100614,
+	100615,
 	200001,
 	200002,
 	200003,
@@ -597,7 +602,11 @@ pg.task_meta_data_template.all = {
 	200501,
 	200502,
 	200503,
-	200504
+	200504,
+	200521,
+	200522,
+	200523,
+	200524
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3729,6 +3738,46 @@ end)()
 		target_num = 1,
 		desc = "サラトガ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	}
+	pg.base.task_meta_data_template[100611] = {
+		target_id = "",
+		sub_type = 180,
+		target_id_2 = "970113",
+		id = 100611,
+		target_num = 1,
+		desc = "ソオブラジーテリヌイ(META)を編成した艦隊で1回戦闘を勝利する"
+	}
+	pg.base.task_meta_data_template[100612] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970113",
+		id = 100612,
+		target_num = 1,
+		desc = "ソオブラジーテリヌイ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100613] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970113",
+		id = 100613,
+		target_num = 1,
+		desc = "ソオブラジーテリヌイ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100614] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970113",
+		id = 100614,
+		target_num = 1,
+		desc = "ソオブラジーテリヌイ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	}
+	pg.base.task_meta_data_template[100615] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970113",
+		id = 100615,
+		target_num = 1,
+		desc = "ソオブラジーテリヌイ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	}
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3769,6 +3818,8 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊で1回勝利する"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200022] = {
 		target_id = "70",
 		sub_type = 302,
@@ -3809,8 +3860,6 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv70+の敵を撃破"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200033] = {
 		target_id = "90",
 		sub_type = 302,
@@ -4571,6 +4620,8 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦で大鳳(META)を含めた艦隊で1回勝利する"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200272] = {
 		target_id = "70",
 		sub_type = 302,
@@ -4611,8 +4662,6 @@ end)()
 		target_num = 1,
 		desc = "セイレーン作戦でアドミラル・ヒッパー(META)を含めた艦隊でLv70+の敵を撃破"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200283] = {
 		target_id = "90",
 		sub_type = 302,
@@ -5364,5 +5413,39 @@ end)()
 		id = 200504,
 		target_num = 1,
 		desc = "セイレーン作戦でサラトガ(META)を含めた艦隊でLv100+の敵を撃破"
+	}
+	pg.base.task_meta_data_template[200521] = {
+		target_id = "",
+		sub_type = 302,
+		target_id_2 = "970113",
+		id = 200521,
+		target_num = 1,
+		desc = "セイレーン作戦でソオブラジーテリヌイ(META)を含めた艦隊で1回勝利する"
+	}
+end)()
+(function ()
+	pg.base.task_meta_data_template[200522] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970113",
+		id = 200522,
+		target_num = 1,
+		desc = "セイレーン作戦でソオブラジーテリヌイ(META)を含めた艦隊でLv70+の敵を撃破"
+	}
+	pg.base.task_meta_data_template[200523] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970113",
+		id = 200523,
+		target_num = 1,
+		desc = "セイレーン作戦でソオブラジーテリヌイ(META)を含めた艦隊でLv90+の敵を撃破"
+	}
+	pg.base.task_meta_data_template[200524] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970113",
+		id = 200524,
+		target_num = 1,
+		desc = "セイレーン作戦でソオブラジーテリヌイ(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 end)()

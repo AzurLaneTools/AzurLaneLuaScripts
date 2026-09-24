@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 299035,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "消えては……また現れて～♪",
 			typewriter = {
 				speed = 0.05,
@@ -16,11 +17,12 @@ return {
 			}
 		},
 		{
-			actor = 299035,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "えへへ、こういうサプライズはダンナさま、好き？",
 			typewriter = {
 				speed = 0.05,
@@ -38,12 +40,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 299035,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "ダンナさまの戸惑った顔……",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +54,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 299035,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "チェシャー、にゃんだかむずむずしてきた♪",
 			typewriter = {
 				speed = 0.05,
@@ -64,12 +68,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 299035,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "ダンナさまが好きなら、何度でもやってあげるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -77,12 +82,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 299035,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "でも今は……チェシャー、ダンナさまにすりすりさわさわしたいだけ♪",
 			typewriter = {
 				speed = 0.05,

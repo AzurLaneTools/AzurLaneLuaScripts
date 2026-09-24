@@ -7,6 +7,107 @@ slot0.getUIName = function(slot0)
 	return "AttireUI"
 end
 
+slot0.getResource = function(slot0)
+	slot2 = function(slot0, slot1)
+		if noEmptyStr(slot1) and not table.contains(slot0, slot1) then
+			table.insert(slot0, slot1)
+		end
+	end
+
+	return ResPathSupport.MergeLuaArr({
+		"ui/attireui",
+		"ui/attireiconframeui",
+		"ui/attirechatframeui",
+		"ui/attireachievementui",
+		"ui/attirecombatuiui",
+		"ui/attireloadingpicui"
+	}, (function ()
+		slot0 = getProxy(AttireProxy):getAllData()
+		slot1 = {}
+
+		for slot5, slot6 in ipairs(pg.item_data_frame.all) do
+			if slot0.iconFrames[slot6] then
+				uv0(slot1, slot7:getIcon())
+			end
+		end
+
+		for slot5, slot6 in ipairs(pg.item_data_chat.all) do
+			if slot0.chatFrames[slot6] then
+				uv0(slot1, slot7:getIcon())
+			end
+		end
+
+		for slot5, slot6 in ipairs(pg.item_data_battleui.all) do
+			if slot0.combatUIStyles[slot6] and noEmptyStr(slot7:getConfig("icon")) then
+				uv0(slot1, "combatuistyle/" .. slot8)
+			end
+		end
+
+		return slot1
+	end)(), (function ()
+		slot0 = {}
+
+		slot1 = function(slot0)
+			if not slot0 then
+				return
+			end
+
+			if slot0:isLoverLetter() then
+				uv0(uv1, string.lower(slot0:GetPrefabName()))
+				table.insertto(uv1, ResPathSupport.GetPaintingSquareIconListByPaintingName(slot0:GetPainting()))
+			else
+				slot1 = slot0:getConfig("icon")
+
+				uv0(uv1, "medal/" .. slot1)
+				uv0(uv1, "medal/s_" .. slot1)
+			end
+		end
+
+		slot3 = pairs
+		slot4 = getProxy(AttireProxy):getDataAndTrophys().trophys or {}
+
+		for slot6, slot7 in slot3(slot4) do
+			if slot7:isClaimed() and not slot7:isHide() then
+				slot1(slot7)
+			end
+		end
+
+		slot3 = ipairs
+		slot4 = slot2.loveTrophys or {}
+
+		for slot6, slot7 in slot3(slot4) do
+			if slot7:isClaimed() and not slot7:isHide() then
+				slot1(slot7)
+			end
+		end
+
+		slot4 = ipairs
+		slot5 = getProxy(PlayerProxy):getData().displayTrophyList or {}
+
+		for slot7, slot8 in slot4(slot5) do
+			slot1(slot8 > 1000000000 and LoveLetterTrophy.New({
+				id = slot8
+			}) or Trophy.New({
+				id = slot8
+			}))
+		end
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+
+		for slot4, slot5 in ipairs(pg.gallery_config.all) do
+			uv0(slot0, GalleryConst.GetGalleryPicPathByID(slot5))
+		end
+
+		for slot4, slot5 in ipairs(pg.cartoon.all) do
+			uv0(slot0, MangaConst.GetMangaPicPathByID(slot5))
+		end
+
+		return slot0
+	end)(), CombatPreviewLayer.PushAllResource())
+end
+
 slot0.setAttires = function(slot0, slot1)
 	slot0.rawAttireVOs = slot1
 

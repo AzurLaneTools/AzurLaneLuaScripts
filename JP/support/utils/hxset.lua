@@ -291,7 +291,12 @@ slot0.hxPathList = {
 	"shipdesignicon",
 	"herohrzicon",
 	"skinunlockanim",
-	"spinePainting"
+	"spinePainting",
+	"dorm3dins/",
+	"dorm3dbanner/",
+	"livingareacover/",
+	"dorm3dicon/",
+	"dorm3dselect/"
 }
 slot0.folderBundle = {
 	"paintingface"

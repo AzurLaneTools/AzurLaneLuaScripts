@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 317031,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "……偽装の能力を、もう使わないでほしいって？",
 			typewriter = {
 				speed = 0.05,
@@ -18,9 +19,10 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "どうして？",
 			typewriter = {
@@ -41,10 +43,11 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……うん。約束する",
 			typewriter = {
@@ -53,12 +56,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 317031,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "……どっちでもいい。元々、もう使うつもりもなかったし",
 			typewriter = {
 				speed = 0.05,

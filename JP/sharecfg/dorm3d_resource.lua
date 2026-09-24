@@ -21,7 +21,11 @@ pg.dorm3d_resource.all = {
 	799021,
 	799022,
 	799023,
-	799024
+	799024,
+	207071,
+	207072,
+	207073,
+	207074
 }
 pg.dorm3d_resource.get_id_list_by_ship_group = {
 	[10517] = {
@@ -37,6 +41,12 @@ pg.dorm3d_resource.get_id_list_by_ship_group = {
 		202201,
 		202202,
 		202203
+	},
+	[20707] = {
+		207071,
+		207072,
+		207073,
+		207074
 	},
 	[30221] = {
 		302211,
@@ -83,7 +93,13 @@ pg.base.dorm3d_resource = {}
 		id = 202201,
 		head_Icon = "dorm3Dchar/tianlangxing",
 		tags = {},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {
+			{
+				"dorm3d/character/tianlangxing_db/res/tianlangxing_noshoes",
+				"assets/dorm3d/character/tianlangxing_db/res/tianlangxing_noshoes/material_hx/body02_stocking.mat"
+			}
+		}
 	}
 	pg.base.dorm3d_resource[202202] = {
 		ship_group = 20220,
@@ -114,7 +130,8 @@ pg.base.dorm3d_resource = {}
 			4,
 			20220
 		},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[202203] = {
 		ship_group = 20220,
@@ -145,7 +162,8 @@ pg.base.dorm3d_resource = {}
 			16,
 			20220
 		},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[302211] = {
 		ship_group = 30221,
@@ -169,7 +187,8 @@ pg.base.dorm3d_resource = {}
 		id = 302211,
 		head_Icon = "dorm3Dchar/nengdai",
 		tags = {},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[302212] = {
 		ship_group = 30221,
@@ -200,7 +219,8 @@ pg.base.dorm3d_resource = {}
 			4,
 			30221
 		},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[199031] = {
 		ship_group = 19903,
@@ -224,7 +244,8 @@ pg.base.dorm3d_resource = {}
 		id = 199031,
 		head_Icon = "dorm3Dchar/ankeleiqi",
 		tags = {},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[199032] = {
 		ship_group = 19903,
@@ -255,7 +276,8 @@ pg.base.dorm3d_resource = {}
 			4,
 			19903
 		},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[199033] = {
 		ship_group = 19903,
@@ -279,7 +301,8 @@ pg.base.dorm3d_resource = {}
 		id = 199033,
 		head_Icon = "dorm3Dchar/ankeleiqi",
 		tags = {},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[105171] = {
 		ship_group = 10517,
@@ -309,7 +332,8 @@ pg.base.dorm3d_resource = {}
 				"oversleeve",
 				"all/hoodie_geo"
 			}
-		}
+		},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[105173] = {
 		ship_group = 10517,
@@ -340,7 +364,8 @@ pg.base.dorm3d_resource = {}
 			16,
 			10517
 		},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[307071] = {
 		ship_group = 30707,
@@ -376,6 +401,16 @@ pg.base.dorm3d_resource = {}
 		stocking_geo_path = {
 			"all/stocking_geo_l",
 			"all/stocking_geo_r"
+		},
+		hx_material = {
+			{
+				"dorm3d/character/dafeng_db/res/dafeng_noshoes",
+				"assets/dorm3d/character/dafeng_db/res/dafeng_noshoes/material_hx/body_dafeng.mat"
+			},
+			{
+				"dorm3d/character/dafeng_db/res/dafeng_noshoes",
+				"assets/dorm3d/character/dafeng_db/res/dafeng_noshoes/material_hx/cloth_opacity_dafeng1.mat"
+			}
 		}
 	}
 	pg.base.dorm3d_resource[307073] = {
@@ -407,7 +442,8 @@ pg.base.dorm3d_resource = {}
 			16,
 			30707
 		},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[499051] = {
 		ship_group = 49905,
@@ -431,7 +467,8 @@ pg.base.dorm3d_resource = {}
 		id = 499051,
 		head_Icon = "dorm3Dchar/aijier",
 		tags = {},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[499053] = {
 		ship_group = 49905,
@@ -462,7 +499,8 @@ pg.base.dorm3d_resource = {}
 			16,
 			49905
 		},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[799021] = {
 		ship_group = 79902,
@@ -486,7 +524,8 @@ pg.base.dorm3d_resource = {}
 		id = 799021,
 		head_Icon = "dorm3Dchar/naximofu",
 		tags = {},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[799022] = {
 		ship_group = 79902,
@@ -517,7 +556,8 @@ pg.base.dorm3d_resource = {}
 			26,
 			79902
 		},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[799023] = {
 		ship_group = 79902,
@@ -545,7 +585,8 @@ pg.base.dorm3d_resource = {}
 			26,
 			79902
 		},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
 	}
 	pg.base.dorm3d_resource[799024] = {
 		ship_group = 79902,
@@ -573,6 +614,142 @@ pg.base.dorm3d_resource = {}
 			26,
 			79902
 		},
-		hidden_part = {}
+		hidden_part = {},
+		hx_material = {}
+	}
+	pg.base.dorm3d_resource[207071] = {
+		ship_group = 20707,
+		name = "インプラカブル部屋着",
+		model_id = "yuanchou_noshoes",
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 0,
+		unlock = "",
+		unlock_text = "",
+		picture = "regular",
+		type = 1,
+		origin_model = "pre_char_yuanchou_mod",
+		hidden_part_apply_in_timeline = 0,
+		hx_component = "",
+		is_show_change_skin = 1,
+		animator = "",
+		wear_anim = "",
+		switch_anim = "anger_01-start",
+		id = 207071,
+		head_Icon = "dorm3Dchar/yuanchou",
+		tags = {},
+		hidden_part = {},
+		hx_material = {
+			{
+				"dorm3d/character/yuanchou_db/res/yuanchou_noshoes",
+				"assets/dorm3d/character/yuanchou_db/res/yuanchou_noshoes/material_hx/body_yuanchou.mat"
+			}
+		}
+	}
+	pg.base.dorm3d_resource[207072] = {
+		ship_group = 20707,
+		name = "インプラカブルガレージ衣装",
+		model_id = "yuanchou_racing",
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 270122,
+		unlock_text = "ガレージにインプラカブルを配置",
+		picture = "regular",
+		type = 2,
+		origin_model = "pre_char_yuanchou_racing_mod",
+		hidden_part_apply_in_timeline = 0,
+		hx_component = "",
+		is_show_change_skin = 0,
+		animator = "",
+		wear_anim = "",
+		switch_anim = "",
+		id = 207072,
+		head_Icon = "dorm3Dchar/yuanchou",
+		tags = {
+			"carwash",
+			"touch"
+		},
+		unlock = {
+			5,
+			26,
+			20707
+		},
+		hidden_part = {},
+		hx_material = {
+			{
+				"dorm3d/character/yuanchou_db/res/yuanchou_racing",
+				"assets/dorm3d/character/yuanchou_db/res/yuanchou_racing/material_hx/body_yuanchou.mat"
+			}
+		}
+	}
+	pg.base.dorm3d_resource[207073] = {
+		ship_group = 20707,
+		name = "インプラカブルガレージ衣装",
+		model_id = "yuanchou_racing_noshoes",
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 270122,
+		unlock_text = "ガレージにインプラカブルを配置",
+		picture = "regular",
+		type = 2,
+		origin_model = "pre_char_yuanchou_racing_lz_mod",
+		hidden_part_apply_in_timeline = 0,
+		hx_component = "",
+		is_show_change_skin = 1,
+		animator = "",
+		wear_anim = "",
+		switch_anim = "heart_01-start",
+		id = 207073,
+		head_Icon = "dorm3Dchar/yuanchou",
+		tags = {},
+		unlock = {
+			5,
+			26,
+			20707
+		},
+		hidden_part = {},
+		hx_material = {
+			{
+				"dorm3d/character/yuanchou_db/res/yuanchou_racing",
+				"assets/dorm3d/character/yuanchou_db/res/yuanchou_racing/material_hx/body_yuanchou_racing_lz.mat"
+			}
+		}
+	}
+	pg.base.dorm3d_resource[207074] = {
+		ship_group = 20707,
+		name = "インプラカブルガレージ衣装",
+		model_id = "yuanchou_racing_carwash",
+		remarks = "",
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 0,
+		unlock_text = "ガレージにインプラカブルを配置",
+		picture = "regular",
+		type = 2,
+		origin_model = "pre_char_yuanchou_racing_mod",
+		hidden_part_apply_in_timeline = 0,
+		hx_component = "",
+		is_show_change_skin = 0,
+		animator = "",
+		wear_anim = "",
+		switch_anim = "",
+		id = 207074,
+		head_Icon = "dorm3Dchar/yuanchou",
+		tags = {},
+		unlock = {
+			5,
+			26,
+			20707
+		},
+		hidden_part = {},
+		hx_material = {
+			{
+				"dorm3d/character/yuanchou_db/res/yuanchou_racing",
+				"assets/dorm3d/character/yuanchou_db/res/yuanchou_racing/material_hx/body_yuanchou.mat"
+			}
+		}
 	}
 end)()

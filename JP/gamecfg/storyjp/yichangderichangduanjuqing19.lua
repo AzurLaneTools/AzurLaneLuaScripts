@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 900561,
-			nameColor = "#A9F548FF",
 			actorName = "？？？",
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "この辺りに、悪い幽霊が出るという噂が……",
 			typewriter = {
 				speed = 0.05,
@@ -17,12 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 900561,
-			nameColor = "#A9F548FF",
 			actorName = "？？？",
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "もし夜に、可愛い子羊さんがひとりで彷徨っていたら……",
 			typewriter = {
 				speed = 0.05,
@@ -30,11 +32,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900561,
-			actorName = "？？？",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "その悪い幽霊に、食べられてしまいますわ～",
 			typewriter = {
@@ -55,10 +58,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ふふふ、指揮官さまは騙せませんね～",
 			typewriter = {
@@ -67,12 +71,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900561,
-			actorName = "？？？",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ふふ、ではまた今度お会いしましょう",
 			typewriter = {

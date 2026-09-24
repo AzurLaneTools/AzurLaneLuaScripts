@@ -65,15 +65,14 @@ pg.base.activity_banner = {}
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
+			"scene dockyard"
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					8
+					24
 				},
 				{
 					0,
@@ -84,13 +83,13 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					30
+					10,
+					8
 				},
 				{
-					23,
-					59,
-					59
+					16,
+					0,
+					0
 				}
 			}
 		}
@@ -286,14 +285,17 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene court yard"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					8
+					24
 				},
 				{
 					0,
@@ -304,8 +306,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					30
+					10,
+					7
 				},
 				{
 					23,
@@ -320,17 +322,14 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene core activity",
-			{
-				coreName = "ShiningMagicCoreActivityUI"
-			}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2026,
-					9,
-					8
+					10,
+					1
 				},
 				{
 					0,
@@ -341,13 +340,13 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					30
+					10,
+					15
 				},
 				{
-					23,
-					59,
-					59
+					16,
+					0,
+					0
 				}
 			}
 		}
@@ -357,17 +356,14 @@ pg.base.activity_banner = {}
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene get boat",
-			{
-				goToPray = true
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					8
+					24
 				},
 				{
 					0,
@@ -378,13 +374,13 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					30
+					10,
+					8
 				},
 				{
-					23,
-					59,
-					59
+					16,
+					0,
+					0
 				}
 			}
 		}
@@ -450,11 +446,36 @@ pg.base.activity_banner = {}
 		pic = "dumpling"
 	}
 	pg.base.activity_banner[101] = {
-		param = "鏡餅|割ってから食べちゃうぞー<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
-		time = "stop",
+		param = "桂花糯|「桂花糯…もぐもぐ～中秋節、良い祝日！」<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		type = 10,
 		id = 101,
-		pic = "jingbing"
+		pic = "guihuagao",
+		time = {
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
 	}
 	pg.base.activity_banner[102] = {
 		param = "キャンディケイン|美味しくて面白い形をしたクリスマスキャンディ<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",

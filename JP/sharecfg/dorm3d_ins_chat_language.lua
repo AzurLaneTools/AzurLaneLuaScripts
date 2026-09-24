@@ -846,7 +846,129 @@ pg.dorm3d_ins_chat_language.all = {
 	840,
 	841,
 	842,
-	843
+	843,
+	844,
+	845,
+	846,
+	847,
+	848,
+	849,
+	850,
+	851,
+	852,
+	853,
+	854,
+	855,
+	856,
+	857,
+	858,
+	859,
+	860,
+	861,
+	862,
+	863,
+	864,
+	865,
+	866,
+	867,
+	868,
+	869,
+	870,
+	871,
+	872,
+	873,
+	874,
+	875,
+	876,
+	877,
+	878,
+	879,
+	880,
+	881,
+	882,
+	883,
+	884,
+	885,
+	886,
+	887,
+	888,
+	889,
+	890,
+	891,
+	892,
+	893,
+	894,
+	895,
+	896,
+	897,
+	898,
+	899,
+	900,
+	901,
+	902,
+	903,
+	904,
+	905,
+	906,
+	907,
+	908,
+	909,
+	910,
+	911,
+	912,
+	913,
+	914,
+	915,
+	916,
+	917,
+	918,
+	919,
+	920,
+	921,
+	922,
+	923,
+	924,
+	925,
+	926,
+	927,
+	928,
+	929,
+	930,
+	931,
+	932,
+	933,
+	934,
+	935,
+	936,
+	937,
+	938,
+	939,
+	940,
+	941,
+	942,
+	943,
+	944,
+	945,
+	946,
+	947,
+	948,
+	949,
+	950,
+	951,
+	952,
+	953,
+	954,
+	955,
+	956,
+	957,
+	958,
+	959,
+	960,
+	961,
+	962,
+	963,
+	964,
+	965
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_chat_language = {}
@@ -8245,6 +8367,1104 @@ end)()
 		option = "",
 		type = 1,
 		id = 843,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[844] = {
+		param = "指揮官が今日訪ねてくるなんて、ちょっと意外ね",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 844,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[845] = {
+		param = "お茶菓子の用意だってできてないし、お部屋もまだ片付いてないけど……",
+		ship_group = 20707,
+		type = 1,
+		id = 845,
+		flag = 0,
+		option = {
+			{
+				1,
+				"気にしないで"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[846] = {
+		param = "気にしないで。わざわざ準備しなくていいから",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 846,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[847] = {
+		param = "インプラカブルの普段の様子を見たいんだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 847,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[848] = {
+		param = "普段の私……？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 848,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[849] = {
+		param = "お仕事以外の時間は、ほとんど祈りに使ってるわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 849,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[850] = {
+		param = "趣味と言えば、お茶を淹れること以外に特別なものを思いつかないし……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 850,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[851] = {
+		param = "指揮官から見たら、退屈に映るかしら？",
+		ship_group = 20707,
+		type = 1,
+		id = 851,
+		flag = 1,
+		option = {
+			{
+				2,
+				"今度一緒にやってみても？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[852] = {
+		param = "機会があれば、今度は一緒にやってみてもいい？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 852,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[853] = {
+		param = "それがどんな感じなのか、ちょっと気になって",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 853,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[854] = {
+		param = "祈ることは……確かに言葉にしづらいわね",
+		ship_group = 20707,
+		type = 1,
+		id = 854,
+		flag = 2,
+		option = {
+			{
+				3,
+				"不思議な感じだね"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[855] = {
+		param = "不思議な感じだね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 855,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[856] = {
+		param = "ええ、確かにとても素敵な感触よ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 856,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[857] = {
+		param = "次に指揮官が来た時、一緒にやりましょう。ふふふ♪",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 857,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[858] = {
+		param = "指揮官、今日はクマが……ちょっと目立つわね",
+		ship_group = 20707,
+		type = 1,
+		id = 858,
+		flag = 0,
+		option = {
+			{
+				1,
+				"最近仕事が多くて"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[859] = {
+		param = "最近仕事が多くて",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 859,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[860] = {
+		param = "仕事は確かに大事だけど、でも指揮官が倒れるようなことがあれば……みんな不安になるはずよ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 860,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[861] = {
+		param = "仕事の時間が減らせないなら……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 861,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[862] = {
+		param = "一瞬一瞬のリラックスをもっと価値あるものになるよう手伝ってあげるわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 862,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[863] = {
+		param = "ここに来て、休息の時間を私に預けて",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 863,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[864] = {
+		param = "特別な寝かしつけ方を知ってるから、指揮官をすぐに深い眠りへ誘えるわ",
+		ship_group = 20707,
+		type = 1,
+		id = 864,
+		flag = 1,
+		option = {
+			{
+				2,
+				"特別な寝かしつけ方？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[865] = {
+		param = "特別な寝かしつけ方？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 865,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[866] = {
+		param = "ふふふ。今教えてしまったら効果が半減してしまうわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 866,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[867] = {
+		param = "あなたはただ……ここに来て、目を閉じて、あとは私に任せるだけでいいの",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 867,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[868] = {
+		param = "きっと……忘れたくない夜になるはずよ、ふふふ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 868,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[869] = {
+		param = "指揮官、週末は買い物に付き合ってくれないかしら？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 869,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[870] = {
+		param = "着古している服があるでしょう？そろそろ新しいものに替える頃よ",
+		ship_group = 20707,
+		type = 1,
+		id = 870,
+		flag = 0,
+		option = {
+			{
+				1,
+				"わかった"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[871] = {
+		param = "いいよ。いいお店はある？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 871,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[872] = {
+		param = "もちろん、この手の情報交換はお茶会の基本だもの",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 872,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[873] = {
+		param = "オーダーメイドができるお店をいくつか知ってるわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 873,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[874] = {
+		param = "仕立てに時間がかかるけれど、生地もデザインも一流で、とても信頼できるお店よ",
+		ship_group = 20707,
+		type = 1,
+		id = 874,
+		flag = 1,
+		option = {
+			{
+				2,
+				"いい感じだな"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[875] = {
+		param = "よさそうだね。でも自分は普段は制服ばかりで、その辺は詳しくないんだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 875,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[876] = {
+		param = "なら、私に任せて",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 876,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[877] = {
+		param = "その代わり、指揮官が見たい服を私に選んでね？ふふふ",
+		ship_group = 20707,
+		type = 1,
+		id = 877,
+		flag = 2,
+		option = {
+			{
+				3,
+				"わかった"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[878] = {
+		param = "わかった。でも、自分のセンスを笑わないでね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 878,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[879] = {
+		param = "指揮官が選んでくれたものならなんでもいいわよ。ふふふ♪",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 879,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[880] = {
+		param = "今日、ふと不思議な感覚があったわ……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 880,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[881] = {
+		param = "指揮官との距離が、いつもより少し近づいた気がして",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 881,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[882] = {
+		param = "それとも……指揮官が私のことを、もっと知ることができたってところかしら？",
+		ship_group = 20707,
+		type = 1,
+		id = 882,
+		flag = 0,
+		option = {
+			{
+				1,
+				"たぶん両方かも？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[883] = {
+		param = "たぶん両方かも？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 883,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[884] = {
+		param = "今日インプラカブルの部屋で、これまで特に意識してなかった物に気づく機会があったよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 884,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[885] = {
+		param = "ふふふ。指揮官の探求心は、相変わらずすごいわね～",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 885,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[886] = {
+		param = "そんなに興味があるなら、直接私に聞くべきじゃなくて？",
+		ship_group = 20707,
+		type = 1,
+		id = 886,
+		flag = 1,
+		option = {
+			{
+				2,
+				"なかなか聞きにくい話題も…"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[887] = {
+		param = "なかなか聞きにくい話題も…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 887,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[888] = {
+		param = "知ってるでしょう？私はあなたの頼みを断ったりしないわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 888,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[889] = {
+		param = "もっと知りたいなら、いつでも聞いてちょうだい",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 889,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[890] = {
+		param = "私の全てを包み隠さず教えてあげるわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 890,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[891] = {
+		param = "その変わり……指揮官も私に隠しごとはしないでね～",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 891,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[892] = {
+		param = "そんなことされたら私、悲しいわ",
+		ship_group = 20707,
+		type = 1,
+		id = 892,
+		flag = 2,
+		option = {
+			{
+				3,
+				"うん"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[893] = {
+		param = "うん、インプラカブルの前では素直になるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 893,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[894] = {
+		param = "ふふふ。指揮官のことをずっと信じるわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 894,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[895] = {
+		param = "じゃあ、明日も……来てくれる？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 895,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[896] = {
+		param = "お仕事が忙しくないなら……会いたいわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 896,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[897] = {
+		param = "指揮官、日付を確認したけど……あと3日でお休みね～",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 897,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[898] = {
+		param = "何か予定はあるかしら？",
+		ship_group = 20707,
+		type = 1,
+		id = 898,
+		flag = 0,
+		option = {
+			{
+				1,
+				"今のところ特に"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[899] = {
+		param = "今のところ特に",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 899,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[900] = {
+		param = "インプラカブルは行きたい場所はある？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 900,
+		flag = 1
+	}
+end)()
+(function ()
+	pg.base.dorm3d_ins_chat_language[901] = {
+		param = "行きたい場所？特にないわ～ふふふ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 901,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[902] = {
+		param = "でもいくつか準備してるものならあるわ……お茶やアロマ……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 902,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[903] = {
+		param = "あとは、それからずっと考えていた気分転換のやり方とか",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 903,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[904] = {
+		param = "どこにも出かけず、私の部屋で静かに、二人だけの休日を過ごしましょ？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 904,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[905] = {
+		param = "指揮官、どうかしら？",
+		ship_group = 20707,
+		type = 1,
+		id = 905,
+		flag = 1,
+		option = {
+			{
+				2,
+				"いい感じだな"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[906] = {
+		param = "よさそうだね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 906,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[907] = {
+		param = "じゃあ決まりね。3日後のお休みは私に任せて～",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 907,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[908] = {
+		param = "終わってほしくないと思える一日に……してあげる。ふふふ♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 908,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[909] = {
+		param = "指揮官が今日くれた贈り物……とても気に入ったわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 909,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[910] = {
+		param = "でも、いつも受け取ってばかりだと、私も気が引けてしまうの",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 910,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[911] = {
+		param = "指揮官はどんなお返しが欲しい？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 911,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[912] = {
+		param = "それとも…サプライズを用意してみましょうか？",
+		ship_group = 20707,
+		type = 1,
+		id = 912,
+		flag = 0,
+		option = {
+			{
+				1,
+				"気を遣わなくていいよ"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[913] = {
+		param = "気を遣わなくていいよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 913,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[914] = {
+		param = "普段からよくインプラカブルに面倒を見てもらってるから、プレゼントなんて別に大したことでもないよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 914,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[915] = {
+		param = "ふふふ。そう言うと思ってたわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 915,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[916] = {
+		param = "安心して、私からのお返しはお金がかからないわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 916,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[917] = {
+		param = "むしろ……お金では買えない、唯一で特別なものよ",
+		ship_group = 20707,
+		type = 1,
+		id = 917,
+		flag = 1,
+		option = {
+			{
+				2,
+				"ちょっと気になるな"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[918] = {
+		param = "ちょっと気になるな。何だろう？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 918,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[919] = {
+		param = "口にしてしまっては面白くないわ～",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 919,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[920] = {
+		param = "指揮官、受け取りに来てちょうだい",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 920,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[921] = {
+		param = "ここでずっと待ってるわ。ふふふ♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 921,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[922] = {
+		param = "最近、指揮官のために祈ってると、時間が長く感じるわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 922,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[923] = {
+		param = "たぶん……雑念が多すぎるからかしら？",
+		ship_group = 20707,
+		type = 1,
+		id = 923,
+		flag = 0,
+		option = {
+			{
+				1,
+				"どんな雑念？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[924] = {
+		param = "どんな雑念？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 924,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[925] = {
+		param = "はっきり言ってほしいの？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 925,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[926] = {
+		param = "あなたのことを想ってるからよ。ふふふ♡",
+		ship_group = 20707,
+		type = 1,
+		id = 926,
+		flag = 1,
+		option = {
+			{
+				2,
+				"自分が原因なのか"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[927] = {
+		param = "自分が原因なのか",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 927,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[928] = {
+		param = "指揮官ただ一人のために祈りたい、指揮官をずっとそばに置いておきたい……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 928,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[929] = {
+		param = "指揮官の温もりに長く浸っていたせいで、私はちょっと身勝手になってしまったみたい",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 929,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[930] = {
+		param = "でも、責任は取ってくれるわよね？ふふふ♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 930,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[931] = {
+		param = "指揮官、まだ起きてる？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 931,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[932] = {
+		param = "まさかまた夜更かししてるんじゃないわよね～",
+		ship_group = 20707,
+		type = 1,
+		id = 932,
+		flag = 0,
+		option = {
+			{
+				1,
+				"今寝るところ"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[933] = {
+		param = "今寝るところ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 933,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[934] = {
+		param = "それじゃあ、まだ寝てないってことね？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 934,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[935] = {
+		param = "それで……今どこにいるの？",
+		ship_group = 20707,
+		type = 1,
+		id = 935,
+		flag = 1,
+		option = {
+			{
+				2,
+				"執務室にいるよ"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[936] = {
+		param = "執務室にいるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 936,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[937] = {
+		param = "ちょうどミルクを温めたところだから、そっちに持って行ってあげるわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 937,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[938] = {
+		param = "飲み終わったら、おとなしく部屋に戻って寝るのよ",
+		ship_group = 20707,
+		type = 1,
+		id = 938,
+		flag = 2,
+		option = {
+			{
+				3,
+				"わかった"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[939] = {
+		param = "いいよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 939,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[940] = {
+		param = "一人で夜ふかししないことよ？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 940,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[941] = {
+		param = "どうしても夜更かしをするなら、私を呼んでちょうだい",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 941,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[942] = {
+		param = "一人より私がそばにいるほうが絶対にいいでしょう？ふふふ♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 942,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[943] = {
+		param = "指揮官、次のアフタヌーンティーはミルクティーにしない？最近流行ってるみたいよ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 943,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[944] = {
+		param = "きっとあなたも気に入ると思う",
+		ship_group = 20707,
+		type = 1,
+		id = 944,
+		flag = 0,
+		option = {
+			{
+				1,
+				"試してみよう"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[945] = {
+		param = "試してみよう",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 945,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[946] = {
+		param = "でも、ちょっと分からないわ……お茶って何かを加えるものなのに",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 946,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[947] = {
+		param = "どうして私のお茶はウケが悪いのかしら？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 947,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[948] = {
+		param = "それをずっと考えてたの。何か思い当たる節はある？",
+		ship_group = 20707,
+		type = 1,
+		id = 948,
+		flag = 1,
+		option = {
+			{
+				2,
+				"実は……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[949] = {
+		param = "実は、人気のあるお茶のレシピの裏には",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 949,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[950] = {
+		param = "ウケないレシピが無数にあるんだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 950,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[951] = {
+		param = "なるほど、十分な試行錯誤がなければ、成功は運任せの偶然にすぎないということね",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 951,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[952] = {
+		param = "つまり……私はまだ試した回数が足りないだけ？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 952,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[953] = {
+		param = "分かったわ。ミルクティー以外にも、新しいお茶のレシピをいくつか準備するわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 953,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[954] = {
+		param = "ふふ、楽しみにしててね、指揮官",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 954,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[955] = {
+		param = "指揮官、今日はお部屋で何を撮ってたの？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 955,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[956] = {
+		param = "私にも教えてくれる？",
+		ship_group = 20707,
+		type = 1,
+		id = 956,
+		flag = 0,
+		option = {
+			{
+				1,
+				"何となく撮ってただけ"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[957] = {
+		param = "窓辺の花とか、本棚の隅とか、何となく撮ってただけ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 957,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[958] = {
+		param = "ふふふ。どれもありふれた景色ね～",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 958,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[959] = {
+		param = "でも、あなたが撮ると",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 959,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[960] = {
+		param = "その景色は、また違う意味を持つようになったわ",
+		ship_group = 20707,
+		type = 1,
+		id = 960,
+		flag = 1,
+		option = {
+			{
+				2,
+				"どんな意味？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[961] = {
+		param = "どんな意味？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 961,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[962] = {
+		param = "「インプラカブルの部屋にある景色」から、「指揮官に見出された景色」になったわ",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 962,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[963] = {
+		param = "ずっと先に見返した時、きっとあなたが撮っていた時の姿を思い出すでしょうね",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 963,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[964] = {
+		param = "指揮官、今度は私にあなたを撮らせてちょうだい♪",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 964,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[965] = {
+		param = "私も……何度でも見返したくなるような一枚を残しておきたいわ。ふふふ♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 965,
 		flag = 2
 	}
 end)()

@@ -4,9 +4,10 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "theme-akagi-inside",
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
+			bgm = "theme-akagi-inside",
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 301191,
@@ -27,13 +28,14 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_603",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 301191,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			side = 2,
-			withoutActorName = true,
 			say = "ジャベリンが狐火に呑み込まれかけたその瞬間、ステッキが突如として眩い光を放った。",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,8 +47,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "え……？",
 			typewriter = {
@@ -58,6 +61,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_603",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 301191,
@@ -74,8 +78,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……え！一体何がどうなって？！ステッキから光…！？スイッチが入ったとか？！",
 			typewriter = {
@@ -84,26 +89,28 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_603",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 301191,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			side = 2,
-			withoutActorName = true,
 			say = "光は収まるどころか、ますます輝きを増していく。",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_603",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 301191,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			side = 2,
-			withoutActorName = true,
 			say = "その時、ジャベリンは胸に何かあたたかいものが満たされていくのを感じた。",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,8 +122,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "なんだかすごく不思議……さっきまで、怖くて泣きそうだったのに……",
 			typewriter = {
@@ -130,8 +138,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ジャベリンが、これで本当に就職できたんだって思うと……",
 			typewriter = {
@@ -145,8 +154,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "毎月家賃が払えないとか、履歴書に返信が来ないとか、妹たちに「ジャベリン、今日も連絡なかったの？」って聞かれることとか……もうそんな日々を送らなくていいんだって……",
 			typewriter = {
@@ -160,8 +170,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "だからこう思うんです——",
 			typewriter = {
@@ -175,9 +186,10 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			fontsize = 60,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ジャベリンは今、超幸せーー！！！",
 			typewriter = {
@@ -191,10 +203,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "魂からの叫びに応えるように、ステッキの先端から鮮やかなピンクの波紋が一気に広がり、部屋の暗く淀んだ空気を吹き払った。",
 			typewriter = {
 				speed = 0.05,
@@ -202,6 +215,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
 			bgm = "story-richang-visioncity",
@@ -234,10 +248,11 @@ return {
 			say = "どうぞ〜",
 			side = 2,
 			bgName = "star_level_bg_603",
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			dir = 1,
-			actor = 900557,
 			actorName = "？？？",
+			actor = 900557,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -249,10 +264,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "中に入ると、予想通りの光景が広がっていた。",
 			typewriter = {
 				speed = 0.05,
@@ -260,12 +276,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――家具の破損もなし、気絶もしていない。今回の研修は満点だな",
 			typewriter = {
 				speed = 0.05,
@@ -276,10 +293,11 @@ return {
 			say = "指揮官、この新人、なかなか見込みがあるじゃない〜",
 			side = 2,
 			bgName = "star_level_bg_603",
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			dir = 1,
-			actor = 900557,
 			actorName = "？？？",
+			actor = 900557,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -296,8 +314,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "し、新人？ちょっと待ってください……あなたも怪異事件調査センターの？",
 			typewriter = {
@@ -306,12 +325,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――紹介しよう。彼女は天津風。自分がスカウトした妖異で、これから現場勤務班の一員になるジャベリンの同僚だ",
 			typewriter = {
 				speed = 0.05,
@@ -319,12 +339,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――普段は外勤、あとは一部の……そうだな、心理テストを担当している",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +358,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "妖異エージェント",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -350,12 +372,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "きょ、恐縮です！でも、ちょっとまだ頭が追いついていなくて……",
 			typewriter = {
@@ -367,9 +390,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "妖異って、敵じゃないんですか……？",
 			typewriter = {
@@ -381,9 +405,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 202380,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "人に善し悪しがあるのと同じで、妖異の中にも人間と手を組める存在がいるのよ",
 			typewriter = {
@@ -392,12 +417,13 @@ return {
 			}
 		},
 		{
-			actor = 202380,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "私や天津風みたいにね",
 			typewriter = {
 				speed = 0.05,
@@ -410,9 +436,10 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "妖異エージェント",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "そういうこと〜。タイガーの体は実体化できないから、必要な時はあたしが代わりにやってるってわけ",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -429,8 +456,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "そうなんですか……ふぅ、うっかり悪の組織に参加してしまったのかと思いました…そうじゃないならよかったです〜",
 			typewriter = {
@@ -439,12 +467,13 @@ return {
 			}
 		},
 		{
-			actor = 231211,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "それにしても、さっきのは一体何だったんですか？",
 			typewriter = {
 				speed = 0.05,
@@ -452,10 +481,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "ジャベリンは小声でつぶやきながら、手元のステッキに目を落とした。",
 			typewriter = {
 				speed = 0.05,
@@ -463,10 +493,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "さっきまで輝いていた宝石は今や普通に戻り、淡い桃色の光をかすかにまとっていた。",
 			typewriter = {
 				speed = 0.05,
@@ -474,12 +505,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――この武器がジャベリンの感情エネルギーをうまく引き出した……そう思ってくれればいい",
 			typewriter = {
 				speed = 0.05,
@@ -487,12 +519,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――正確に言うと、それは「幸福エネルギー」だ",
 			typewriter = {
 				speed = 0.05,
@@ -500,12 +533,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "幸福……エネルギー？",
 			typewriter = {
@@ -514,12 +548,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――これも怪異事件調査センターが妖異に対抗する手段のひとつだ",
 			typewriter = {
 				speed = 0.05,
@@ -532,8 +567,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "じゃあ……ジャベリンのこのステッキはただ可愛いだけじゃなかったんですね？",
 			typewriter = {
@@ -542,12 +578,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――もちろん。可愛いのはあくまでおまけだ",
 			typewriter = {
 				speed = 0.05,
@@ -560,9 +597,10 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "妖異エージェント",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "もっと派手に決めたいなら、技のかっこいい決め台詞を考えてみるのもありよ",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -574,12 +612,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "え、ええと、どんな感じのセリフがいいんですか？",
 			typewriter = {
@@ -593,8 +632,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "妖異エージェント",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -611,8 +651,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "妖異エージェント",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -624,12 +665,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――他の対抗手段は、妖異で妖異を抑えることだ",
 			typewriter = {
 				speed = 0.05,
@@ -637,10 +679,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "ジャベリンは一瞬きょとんとして、狐耳がある天津風と、ずっと宙に浮いたままのタイガーへ思わず視線を向けた。",
 			typewriter = {
 				speed = 0.05,
@@ -653,8 +696,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……あっ！！",
 			typewriter = {
@@ -678,9 +722,10 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "妖異エージェント",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "うわあ！何よいきなり！びっくりするじゃない！",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -692,12 +737,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "はっ、今気づきました！さっきは天津風先輩が何を言ってるのか全然分からなかったのに、指揮官が来てからは全部分かるようになってて……？",
 			typewriter = {
@@ -706,12 +752,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――それは自分じゃなく、タイガーがいるからだ",
 			typewriter = {
 				speed = 0.05,
@@ -719,12 +766,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――タイガーが持つ能力のひとつが音律の調合だ。そして言葉もまた音律の一種。だから彼女は言葉をみんなが理解できる形に変えられるんだ",
 			typewriter = {
 				speed = 0.05,
@@ -732,12 +780,13 @@ return {
 			}
 		},
 		{
-			actor = 202380,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "ふふ、同じ言葉を話す人間同士でさえ、ときには翻訳が必要になるでしょ？",
 			typewriter = {
 				speed = 0.05,
@@ -748,9 +797,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "えっ？！そうなんですか？！",
 			typewriter = {
@@ -762,9 +812,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 202380,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "例えば、あなたは上司の言葉をちゃんと全部理解できていると言えるかしら？",
 			typewriter = {
@@ -776,9 +827,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "あんまりできて……ううん、できてます！ジャベリン完璧に理解できてますから！",
 			typewriter = {
@@ -797,12 +849,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――こほん……とにかく、タイガーがいてくれるおかげで妖異のことをより深く理解できるようになっている",
 			typewriter = {
 				speed = 0.05,
@@ -810,12 +863,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――さて、基本の説明はここまでにして、ここからが本題だ",
 			typewriter = {
 				speed = 0.05,
@@ -823,10 +877,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "銀白色の金属球を机の上に置いた。その球体は机の上で自動で展開し、内側に環状の光を覗かせた。",
 			typewriter = {
 				speed = 0.05,
@@ -845,8 +900,9 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_603",
-			actor = 0,
 			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "――これが「収容装置」だ",
 			typewriter = {
@@ -866,8 +922,9 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_603",
-			actor = 0,
 			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "――妖異を弱った状態まで追い詰めれば、これを使って一時的にだが収容することができる",
 			typewriter = {
@@ -891,6 +948,7 @@ return {
 			dir = 1,
 			actorName = "天津風",
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ざっくり言えば、まずボコって、それから球を投げればいい",
 			typewriter = {
@@ -907,12 +965,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――ええと、正式名称は「○○ボール」……？",
 			typewriter = {
 				speed = 0.05,
@@ -920,12 +979,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――……いや、とりあえず略称で呼ぼう。うーん、ボール、たま……",
 			typewriter = {
 				speed = 0.05,
@@ -933,12 +993,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――………やっぱり別のにしよう。「仲間玉」？よし……ひとまず、こう呼ぶことにしよう",
 			typewriter = {
 				speed = 0.05,
@@ -946,12 +1007,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――説明は以上だ。次は実戦環境のシミュレーションに入る",
 			typewriter = {
 				speed = 0.05,
@@ -964,8 +1026,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "えっ？！いきなり！？",
 			typewriter = {
@@ -974,12 +1037,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――あくまでシミュレーションだから安心して。うちには新人保護期間ってものがあってね。入社初日の新人をいきなり危険な現場に放り込んだりはしないよ",
 			typewriter = {
 				speed = 0.05,
@@ -987,12 +1051,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――…………緊急事態でも起きない限り",
 			typewriter = {
 				speed = 0.05,
@@ -1005,8 +1070,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "嬉しいです……！",
 			typewriter = {
@@ -1015,12 +1081,13 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			soundeffect = "event:/ui/didi",
 			bgm = "airRaidAlarm",
+			soundeffect = "event:/ui/didi",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ピーッ——ピーッ——ピーッ——",
 			typewriter = {
 				speed = 0.05,
@@ -1028,10 +1095,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "ジャベリンが口を開いたのとほぼ同時に、調査センター内にけたたましい警報が鳴り響いた。",
 			typewriter = {
 				speed = 0.05,
@@ -1039,12 +1107,13 @@ return {
 			}
 		},
 		{
-			actorName = "アナウンス",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			actorName = "アナウンス",
 			sayColor = "#ff5c5c",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "東城区の大通りで怪異空間反応を検知！至急応援へ向かってください！",
 			typewriter = {
 				speed = 0.05,
@@ -1057,9 +1126,10 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "妖異エージェント",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "大通り……まだ昼間よね？",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -1076,9 +1146,10 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "妖異エージェント",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "おかしいね。妖異は普通夜に出るのに……どんどん行儀が悪くなってるじゃない",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -1090,12 +1161,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――怪異事件調査センター、現場執行班メンバー・ジャベリン",
 			typewriter = {
 				speed = 0.05,
@@ -1108,8 +1180,9 @@ return {
 			bgName = "star_level_bg_603",
 			factiontag = "新人エージェント",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "は、はいっ！？",
 			typewriter = {
@@ -1128,12 +1201,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――自分と天津風で組む。ジャベリンも一緒に行動してくれ",
 			typewriter = {
 				speed = 0.05,
@@ -1141,12 +1215,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――それから二つだけ覚えておいてほしい。ひとつ、こっちの視界から絶対に離れないこと",
 			typewriter = {
 				speed = 0.05,
@@ -1154,12 +1229,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――ふたつ、妖異が近づいてきたら、ステッキを握りしめて……自分の幸せへの憧れを決して疑わないように",
 			typewriter = {
 				speed = 0.05,
@@ -1167,12 +1243,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_603",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――怪異事件調査センター・現場勤務班、作戦開始だ！",
 			typewriter = {
 				speed = 0.05,

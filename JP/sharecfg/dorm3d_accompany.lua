@@ -17,7 +17,9 @@ pg.dorm3d_accompany.all = {
 	141,
 	142,
 	211,
-	212
+	212,
+	221,
+	222
 }
 pg.dorm3d_accompany.get_id_list_by_ship_id = {
 	[10517] = {
@@ -32,6 +34,10 @@ pg.dorm3d_accompany.get_id_list_by_ship_id = {
 		1,
 		2,
 		3
+	},
+	[20707] = {
+		221,
+		222
 	},
 	[30221] = {
 		21,
@@ -384,6 +390,50 @@ pg.base.dorm3d_accompany = {}
 			5,
 			26,
 			79902
+		}
+	}
+	pg.base.dorm3d_accompany[221] = {
+		sceneInfo = "map_yuanchou_01|Yuanchou_DB/Yuanchouhostel",
+		name = "ビーチ",
+		performance_time = 20,
+		image = "yuanchou_accompany_room",
+		ship_id = 20707,
+		resource_room = 22,
+		timeline = "Xiangban_personal_20707",
+		id = 221,
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {}
+	}
+	pg.base.dorm3d_accompany[222] = {
+		sceneInfo = "map_carwash_01|Carwash",
+		name = "寝室",
+		performance_time = 20,
+		image = "carwash_accompany",
+		ship_id = 20707,
+		resource_room = 26,
+		timeline = "Xiangban_carwash_20707",
+		id = 222,
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {
+			5,
+			26,
+			20707
 		}
 	}
 end)()

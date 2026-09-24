@@ -28,9 +28,10 @@ return {
 			factiontag = "受付",
 			dir = 1,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			bgm = "story-richang-4",
 			actor = 900558,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Bonjour～怪異事件調査センターの新人研修会へようこそ",
 			typewriter = {
@@ -51,6 +52,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_496",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 802014,
@@ -74,9 +76,10 @@ return {
 			bgName = "star_level_bg_496",
 			factiontag = "受付",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 802014,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "正式に始める前に、まずは携帯電話がマナーモードになっているかを確認してね",
 			typewriter = {
@@ -90,9 +93,10 @@ return {
 			bgName = "star_level_bg_496",
 			factiontag = "受付",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 802014,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "もし途中でベルの音やノックの音、あるいは誰かが耳もとで、あなたの名前をそっと呼ぶ声が聞こえても……",
 			typewriter = {
@@ -106,9 +110,10 @@ return {
 			bgName = "star_level_bg_496",
 			factiontag = "受付",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 802014,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "絶対に反応しないように。研修が終わってから、まとめて対処するから～",
 			typewriter = {
@@ -122,9 +127,10 @@ return {
 			bgName = "star_level_bg_496",
 			factiontag = "受付",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 802014,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "それでは、気楽に楽しく、本題に入っていきましょう♪",
 			typewriter = {
@@ -138,8 +144,9 @@ return {
 			factiontag = "受付",
 			dir = 1,
 			bgName = "star_level_bg_496",
-			actor = 802012,
 			nameColor = "#A9F548FF",
+			actor = 802012,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "まずは、会社紹介から――",
 			typewriter = {
@@ -176,8 +183,9 @@ return {
 			bgName = "star_level_bg_496",
 			factiontag = "受付",
 			dir = 1,
-			actor = 802012,
 			nameColor = "#A9F548FF",
+			actor = 802012,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "私たち怪異事件調査センターは、新紀元シティNO.7で起こる、「普通の部署に任せるにはちょっと不向き」な妖異事件を全部担当することになっているわ",
 			typewriter = {
@@ -191,9 +199,10 @@ return {
 			bgName = "star_level_bg_496",
 			factiontag = "受付",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 802012,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "目標はいたってシンプル。危機を解決し、怪異を収容して、この街に日常の秩序を取り戻すこと。それだけよ",
 			typewriter = {
@@ -207,8 +216,9 @@ return {
 			factiontag = "受付",
 			dir = 1,
 			bgName = "star_level_bg_496",
-			actor = 802013,
 			nameColor = "#A9F548FF",
+			actor = 802013,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "続いては、主な業務について――",
 			typewriter = {
@@ -245,8 +255,9 @@ return {
 			bgName = "star_level_bg_496",
 			factiontag = "受付",
 			dir = 1,
-			actor = 802013,
 			nameColor = "#A9F548FF",
+			actor = 802013,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "必要な時になったら、指揮官に説得済みかつ信頼関係を結んだ妖異の仲間を派遣してもらって、騒ぎを起こしている妖異を探し、諭して、連れ帰ってるわ",
 			typewriter = {
@@ -260,9 +271,10 @@ return {
 			bgName = "star_level_bg_496",
 			factiontag = "受付",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 802013,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "もし相手が協力的じゃない場合は……そのときは、「説得」がもっと得意な同類に任せるわ～",
 			typewriter = {
@@ -276,8 +288,9 @@ return {
 			factiontag = "受付",
 			dir = 1,
 			bgName = "star_level_bg_496",
-			actor = 802011,
 			nameColor = "#A9F548FF",
+			actor = 802011,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "最後に、任務を遂行する際の安全上の注意事項ね～",
 			typewriter = {
@@ -308,8 +321,9 @@ return {
 			bgName = "star_level_bg_496",
 			factiontag = "受付",
 			dir = 1,
-			actor = 802011,
 			nameColor = "#A9F548FF",
+			actor = 802011,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "もし任務の途中で、出発したときより、同行者が一人「増えてる」ことに気づいたら……",
 			typewriter = {
@@ -323,8 +337,9 @@ return {
 			bgName = "star_level_bg_496",
 			factiontag = "受付",
 			dir = 1,
-			actor = 802011,
 			nameColor = "#A9F548FF",
+			actor = 802011,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "ただちに指揮官に助けを求めて、そして疑うことなく指揮官を信じ、その指示のすべてに従ってね",
 			typewriter = {
@@ -337,10 +352,11 @@ return {
 			side = 2,
 			factiontag = "受付",
 			dir = 1,
-			bgName = "star_level_bg_496",
-			paintingNoise = true,
-			actor = 802014,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_496",
+			actor = 802014,
+			NextIcon = 1,
+			paintingNoise = true,
 			hidePaintObj = true,
 			say = "以上。怪異事件調査センター新人研修会でした～",
 			typewriter = {
@@ -371,9 +387,10 @@ return {
 			bgName = "star_level_bg_496",
 			factiontag = "受付",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 802014,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "順調な仕事、精神の安定、そして無事に退勤できることを、心から祈っているわ～。Merci～",
 			typewriter = {
@@ -382,10 +399,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
+			bgName = "bg_yichangderichangjinxingzhong_1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "bg_yichangderichangjinxingzhong_1",
 			say = "録画の再生が終わり、画面がゆっくりと暗くなっていった。",
 			typewriter = {
 				speed = 0.05,
@@ -413,9 +431,10 @@ return {
 			portrait = 802014,
 			side = 2,
 			bgName = "bg_yichangderichangjinxingzhong_1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "エミール・ベルタンの声",
+			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指揮官？再生が終わったから、もう放送室から出てきてもいいわよ～",
 			typewriter = {
 				speed = 0.05,
@@ -423,10 +442,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_yichangderichangjinxingzhong_1",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "その声はすでに消えた画面からではなく、扉の外から聞こえてきた。",
 			typewriter = {
 				speed = 0.05,
@@ -434,10 +454,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_yichangderichangjinxingzhong_1",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "席を立って部屋を出ると、明るく照らされた受付の後ろにある、豪奢な額装の肖像画が目に入った。",
 			typewriter = {
 				speed = 0.05,
@@ -445,10 +466,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_yichangderichangjinxingzhong_1",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "録画とまったく同じ格好の少女は、絵画の中から額縁に手を添えていて、軽やかで、どこか期待に満ちた声でこちらに話かけてきた。",
 			typewriter = {
 				speed = 0.05,
@@ -456,12 +478,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yichangderichangjinxingzhong_1",
 			factiontag = "妖異受付",
 			dir = 1,
 			actor = 802014,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官、私が特別に用意した新人研修ビデオはなかなかでしょう？",
 			typewriter = {
@@ -470,12 +493,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yichangderichangjinxingzhong_1",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "bg_yichangderichangjinxingzhong_1",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――ああ。簡潔で分かりやすいし、しっかり印象に残る",
 			typewriter = {
 				speed = 0.05,
@@ -483,12 +507,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yichangderichangjinxingzhong_1",
 			factiontag = "妖異受付",
 			dir = 1,
 			actor = 802014,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "よかった～。今度また新しいスタッフが来たら、私にまかせてちょうだい♪",
 			typewriter = {
@@ -497,12 +522,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yichangderichangjinxingzhong_1",
 			factiontag = "妖異受付",
 			dir = 1,
 			actor = 802014,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "人間のエージェントも、壁の中や鏡の中とかから出てくる、まだ少し不慣れな新しい仲間も……",
 			typewriter = {
@@ -511,12 +537,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yichangderichangjinxingzhong_1",
 			factiontag = "妖異受付",
 			dir = 1,
 			actor = 802014,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "みんなにとってアットホームな環境になるよう、精いっぱい頑張るから♪",
 			typewriter = {

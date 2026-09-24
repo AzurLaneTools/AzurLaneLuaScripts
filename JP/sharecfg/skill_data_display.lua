@@ -3679,6 +3679,11 @@ pg.skill_data_display.all = {
 	802321,
 	802335,
 	802337,
+	802341,
+	802361,
+	802362,
+	802365,
+	802367,
 	902201,
 	1010140,
 	1010143,
@@ -19021,6 +19026,26 @@ end)()
 		id = 802337,
 		name = "炬火の力-ヴィクトリアスⅡ"
 	}
+	pg.base.skill_data_display[802341] = {
+		id = 802341,
+		name = "バトル増幅デバイス"
+	}
+	pg.base.skill_data_display[802361] = {
+		id = 802361,
+		name = "揺灯の力-ソオブラジーテリヌイⅠ"
+	}
+	pg.base.skill_data_display[802362] = {
+		id = 802362,
+		name = "揺灯の力-ソオブラジーテリヌイⅡ"
+	}
+	pg.base.skill_data_display[802365] = {
+		id = 802365,
+		name = "揺灯の力-ソオブラジーテリヌイⅠ"
+	}
+	pg.base.skill_data_display[802367] = {
+		id = 802367,
+		name = "揺灯の力-ソオブラジーテリヌイⅡ"
+	}
 	pg.base.skill_data_display[902201] = {
 		id = 902201,
 		name = "ファンタスティック・アーク"
@@ -19101,6 +19126,8 @@ end)()
 		id = 1012670,
 		name = "Fuoco di Copertura !+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012671] = {
 		id = 1012671,
 		name = "Fuoco di Copertura !+"
@@ -19121,8 +19148,6 @@ end)()
 		id = 1013051,
 		name = "革命に祝福よッ！ +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1010310] = {
 		id = 1010310,
 		name = "絶対命中のオールドレディ +"
@@ -19503,6 +19528,8 @@ end)()
 		id = 200619,
 		name = "レジェンド旗艦"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200621] = {
 		id = 200621,
 		name = "レジェンド旗艦"
@@ -19523,8 +19550,6 @@ end)()
 		id = 200774,
 		name = "勇敢なる砲撃"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200775] = {
 		id = 200775,
 		name = "突き抜く運命の鉾"
@@ -19905,6 +19930,8 @@ end)()
 		id = 201379,
 		name = "支援・光翼の獅子"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201380] = {
 		id = 201380,
 		name = "支援・光翼の獅子"
@@ -19925,8 +19952,6 @@ end)()
 		id = 201384,
 		name = "支援・クイーンズライト号"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201385] = {
 		id = 201385,
 		name = "支援・クイーンズライト号"
@@ -20307,6 +20332,8 @@ end)()
 		id = 1011441,
 		name = "スカパ・フロー急襲 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011120] = {
 		id = 1011120,
 		name = "勝利の歌 +"
@@ -20327,8 +20354,6 @@ end)()
 		id = 1017251,
 		name = "鹿角の贈り物 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1017252] = {
 		id = 1017252,
 		name = "鹿角の贈り物 +"
@@ -20709,6 +20734,8 @@ end)()
 		id = 1011245,
 		name = "沈まぬ幸運艦 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012430] = {
 		id = 1012430,
 		name = "Lucky A +"
@@ -20729,8 +20756,6 @@ end)()
 		id = 1012640,
 		name = "サディアの威圧 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[10151811] = {
 		id = 10151811,
 		name = "最後の聖裁 +"
@@ -21111,6 +21136,8 @@ end)()
 		id = 1090350,
 		name = "火力全開・夕張"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090351] = {
 		id = 1090351,
 		name = "携行型落雷発生装置"
@@ -21131,8 +21158,6 @@ end)()
 		id = 1090355,
 		name = "試作新型主砲"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090356] = {
 		id = 1090356,
 		name = "爆発式装填機構"

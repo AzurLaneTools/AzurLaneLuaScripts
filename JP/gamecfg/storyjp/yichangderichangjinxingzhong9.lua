@@ -7,10 +7,11 @@ return {
 	},
 	scripts = {
 		{
-			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			side = 2,
-			bgm = "theme-magicalnight-mystic",
+			bgName = "star_level_bg_177",
 			withoutActorName = true,
+			bgm = "theme-magicalnight-mystic",
 			hideRecordIco = true,
 			actor = 299035,
 			nameColor = "#A9F548FF",
@@ -31,6 +32,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -48,6 +50,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 299035,
@@ -60,12 +63,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "ふふふ、ダンナさまつかまえた♪",
 			typewriter = {
 				speed = 0.05,
@@ -73,6 +77,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -90,9 +95,10 @@ return {
 			expression = 8,
 			side = 2,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "touch",
 			say = "チェシャーたちのメルヘンメイズへ、おかえりにゃさい♪",
 			typewriter = {
@@ -118,12 +124,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "えへへ、ダンナさまをここへ連れ戻すのに、チェシャーはすっごく頑張ったの♪",
 			typewriter = {
 				speed = 0.05,
@@ -131,12 +138,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "さあダンナさま、ここにはうっとうしい書類もにゃいし、邪魔する存在もいにゃい……",
 			typewriter = {
 				speed = 0.05,
@@ -147,9 +155,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "ここにいるのは、心の中はダンナさまでいっぱいのチェシャーだけ♪",
 			typewriter = {
@@ -158,12 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "mission",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = "mission",
 			say = "さあダンナさま、チェシャーの特別なおもてにゃしを受けて？",
 			typewriter = {
 				speed = 0.05,
@@ -174,6 +184,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 299035,
@@ -186,6 +197,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -200,6 +212,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -214,12 +227,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "今日のためにチェシャー、面白いおもちゃをたーくさん引っぱり出してきたよ♪",
 			typewriter = {
 				speed = 0.05,
@@ -230,9 +244,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "headtouch",
 			say = "まずは……これ！チェシャーの大好きな毛糸玉！",
 			typewriter = {
@@ -241,6 +256,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -255,6 +271,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -272,6 +289,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 299035,
@@ -287,9 +305,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "home",
 			say = "えへへ、これでダンナさまは、逃げられなくにゃった♪",
 			typewriter = {
@@ -298,12 +317,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "しーっ、暴れちゃだめだからね？",
 			typewriter = {
 				speed = 0.05,
@@ -311,12 +331,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "じゃにゃいと……もっと、きつくなるよ？",
 			typewriter = {
 				speed = 0.05,
@@ -324,6 +345,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -338,6 +360,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -355,9 +378,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "今度は、チェシャーが二番目に好きな…くすぐり羽根！",
 			typewriter = {
@@ -366,12 +390,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "えへへ、ダンナさまにも、この気持ちよさをいっしょに味わってほしかった♪",
 			typewriter = {
 				speed = 0.05,
@@ -379,6 +404,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -393,6 +419,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -407,6 +434,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -424,6 +452,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 299035,
@@ -439,9 +468,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "ダンナさまの体、すごく火照ってるのに？",
 			typewriter = {
@@ -450,12 +480,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "ふふふ、チェシャーの準備したおもちゃをとっても気に入ってくれたみたい♪",
 			typewriter = {
 				speed = 0.05,
@@ -463,6 +494,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -477,6 +509,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -491,12 +524,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "最後は……えへへ、ダンナさまはもしかして、これで終わりだと思ってる？",
 			typewriter = {
 				speed = 0.05,
@@ -507,9 +541,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "ここからが、大トリだよ♪",
 			typewriter = {
@@ -518,12 +553,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "main1",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = "main1",
 			say = "厳密に言えば……これはチェシャーのおもてにゃしではなく、ダンナさまが用意してくれたものだけどね♪",
 			typewriter = {
 				speed = 0.05,
@@ -531,12 +567,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "だってダンナさまはのこのこ会いに来てくれたんだから♡",
 			typewriter = {
 				speed = 0.05,

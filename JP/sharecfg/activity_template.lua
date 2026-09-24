@@ -1103,6 +1103,7 @@ pg.activity_template.all = {
 	7028,
 	7029,
 	7030,
+	7031,
 	7104,
 	7303,
 	7501,
@@ -1110,6 +1111,7 @@ pg.activity_template.all = {
 	7503,
 	7505,
 	7506,
+	7507,
 	8050,
 	8051,
 	8052,
@@ -1136,6 +1138,7 @@ pg.activity_template.all = {
 	970001,
 	970002,
 	970003,
+	998001,
 	50000,
 	50001,
 	50002,
@@ -2324,6 +2327,7 @@ pg.activity_template.get_id_list_by_type = {
 		51129,
 		51153,
 		7506,
+		7507,
 		6042,
 		970002,
 		50000,
@@ -2590,7 +2594,8 @@ pg.activity_template.get_id_list_by_type = {
 		7027,
 		7028,
 		7029,
-		7030
+		7030,
+		7031
 	},
 	[55] = {
 		5010,
@@ -3170,6 +3175,9 @@ pg.activity_template.get_id_list_by_type = {
 	},
 	[140] = {
 		50602
+	},
+	[141] = {
+		998001
 	},
 	[800] = {
 		990009,
@@ -43825,6 +43833,59 @@ end)()
 	}
 end)()
 (function ()
+	pg.base.activity_template[7031] = {
+		mark = 20260924,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 7031,
+		page_core = "",
+		config_data = {
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage2",
+			ui_name = "CrusingDisplayActPage31"
+		}
+	}
 	pg.base.activity_template[7104] = {
 		mark = 20240926,
 		page_info = "",
@@ -43876,7 +43937,9 @@ end)()
 			12047,
 			12048,
 			12049,
-			12050
+			12050,
+			12051,
+			12052
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
@@ -44319,6 +44382,84 @@ end)()
 				},
 				{
 					27406
+				}
+			}
+		}
+	}
+	pg.base.activity_template[7507] = {
+		mark = 20260924,
+		type = 18,
+		login_pop = 99,
+		config_id = 3,
+		is_show = 44,
+		title_res_tag = "DormTaskTwo",
+		id = 7507,
+		page_core = "",
+		config_data = {
+			{
+				27420,
+				27421,
+				27422,
+				27423,
+				27424,
+				27425,
+				27426
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormTaskTwoPage",
+			ui_name = "DormTaskTwoPage"
+		},
+		config_client = {
+			subType = 1,
+			unlock_task = {
+				{
+					27420
+				},
+				{
+					27421
+				},
+				{
+					27422
+				},
+				{
+					27423
+				},
+				{
+					27424
+				},
+				{
+					27425
+				},
+				{
+					27426
 				}
 			}
 		}
@@ -45510,6 +45651,46 @@ end)()
 				7,
 				12,
 				13
+			}
+		}
+	}
+	pg.base.activity_template[998001] = {
+		mark = 20260605,
+		page_info = "",
+		type = 141,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 998001,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					9,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	}
@@ -48346,6 +48527,8 @@ end)()
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50090] = {
 		mark = 20250814,
 		page_info = "",
@@ -48417,8 +48600,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50093] = {
 		mark = 20250814,
 		page_info = "",
@@ -51942,6 +52123,8 @@ end)()
 			65733
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50237] = {
 		mark = 20251113,
 		page_info = "",
@@ -52026,8 +52209,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50245] = {
 		mark = 20251120,
 		time = "stop",
@@ -56431,6 +56612,8 @@ end)()
 			shopItemID = 71294
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50405] = {
 		mark = 20260212,
 		page_info = "",
@@ -56571,8 +56754,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50408] = {
 		mark = 20260212,
 		page_info = "",
@@ -61064,6 +61245,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990026] = {
 		mark = 20260806,
 		page_info = "",
