@@ -227,4 +227,51 @@ slot0.getStudents = function(slot0)
 	return getProxy(NavalAcademyProxy):fillStudens({}), {}
 end
 
+slot0.GetCharResList = function()
+	slot0 = {}
+	slot2 = getProxy(TaskProxy)
+
+	slot5 = function(slot0)
+		slot3 = _.flatten(slot0:getConfig("config_data"))
+		slot4, slot5 = nil
+
+		if type(slot0:getConfig("config_client")) == "table" then
+			for slot9, slot10 in ipairs(slot1) do
+				uv0[slot10.id] = Ship.New(slot10)
+
+				if slot9 == 1 then
+					slot4, slot5 = getActivityTask(slot0, true)
+				end
+
+				if slot10.tasks then
+					uv0[slot10.id].hide = true
+					slot12 = slot5 and table.indexof(slot3, slot5.id) or table.indexof(slot3, slot4)
+
+					for slot16, slot17 in ipairs(slot11) do
+						if slot17 == slot12 then
+							uv0[slot10.id].hide = false
+
+							break
+						end
+					end
+				end
+			end
+		end
+	end
+
+	_.each(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
+		if not slot0:isEnd() then
+			uv0(slot0)
+		end
+	end)
+
+	for slot9, slot10 in pairs(getProxy(NavalAcademyProxy):fillStudens({})) do
+		if slot10 and not slot10.hide then
+			table.insertto(slot0, ResPathSupport.GetSpineCharListByPrefabName(slot10:getPrefab()))
+		end
+	end
+
+	return slot0
+end
+
 return slot0

@@ -2,14 +2,15 @@ slot0 = class("WorldMap", import("...BaseEntity"))
 slot0.Fields = {
 	config = "table",
 	valid = "boolean",
-	gid = "number",
+	isDelegated = "boolean",
 	cells = "table",
+	gid = "number",
 	active = "boolean",
 	findex = "number",
 	top = "number",
 	phaseDisplayList = "table",
-	salvageAutoResult = "boolean",
 	isPressing = "boolean",
+	salvageAutoResult = "boolean",
 	visionFlag = "boolean",
 	isLoss = "boolean",
 	bottom = "number",
@@ -35,7 +36,7 @@ slot0.EventUpdateFleetFOV = "WorldMap.EventUpdateFleetFOV"
 slot0.EventUpdateMoveSpeed = "WorldMap.EventUpdateMoveSpeed"
 
 slot0.DebugPrint = function(slot0)
-	return string.format("地图 [%s] [id: %s] [gid: %s] [危险度: %s] [是否压制：%s]", slot0.config.name, slot0.id, tostring(slot0.gid), slot0:GetDanger(), slot0.isPressing)
+	return string.format("地图 [%s] [id: %s] [gid: %s] [危险度: %s] [是否委派：%s] [是否压制：%s]", slot0.config.name, slot0.id, tostring(slot0.gid), slot0:GetDanger(), slot0.isDelegated, slot0.isPressing)
 end
 
 slot0.Build = function(slot0)
@@ -313,7 +314,7 @@ slot0.UnbindFleets = function(slot0)
 end
 
 slot0.GetFleets = function(slot0)
-	return _.rest(slot0.fleets, 1)
+	return underscore.to_array(slot0.fleets)
 end
 
 slot0.GetFleet = function(slot0, slot1)
@@ -572,6 +573,12 @@ slot0.UpdateVisionFlag = function(slot0, slot1)
 	slot0.visionFlag = slot1
 
 	slot0:OrderAROpenFOV(slot0.visionFlag)
+end
+
+slot0.UpdateDeteagtedMark = function(slot0, slot1)
+	if tobool(slot0.isDelegated) ~= tobool(slot1) then
+		slot0.isDelegated = slot1
+	end
 end
 
 slot0.UpdatePressingMark = function(slot0, slot1)

@@ -4,6 +4,55 @@ slot0.getUIName = function(slot0)
 	return "LevelCommanderView"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"attricon",
+		"weaponframes"
+	}, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.getLevelCMDFormationViewResList = function(slot0, slot1, slot2)
+	slot3 = {}
+
+	slot4 = function(slot0)
+		if not slot0 then
+			return
+		end
+
+		if noEmptyStr(slot0:getPainting()) then
+			table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.Commander.CommanderHrz, slot1))
+		end
+
+		if noEmptyStr(slot0:getSkills()[1] and slot2:getConfig("icon")) then
+			table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.Commander.CommanderSkillIcon, slot3))
+		end
+	end
+
+	if slot1 then
+		_.each(slot1:getCommanders(), slot4)
+	end
+
+	_.each(slot2 or {}, function (slot0)
+		if slot0 then
+			for slot4 = 1, CommanderConst.MAX_FORMATION_POS do
+				uv0(slot0:getCommanderByPos(slot4))
+			end
+		end
+	end)
+
+	return slot3
+end
+
+slot0.downloadLevelCMDFormationViewResList = function(slot0, slot1, slot2, slot3)
+	SplitPackConst.DownloadByLuaArr(slot0:getLevelCMDFormationViewResList(slot1, slot2), function ()
+		if uv0._state == uv1.STATES.DESTROY then
+			return
+		end
+
+		uv2()
+	end)
+end
+
 slot0.OnInit = function(slot0)
 	slot0:InitUI()
 end
@@ -96,8 +145,10 @@ slot0.setCallback = function(slot0, slot1)
 end
 
 slot0.update = function(slot0, slot1, slot2)
-	slot0:updateFleet(slot1)
-	slot0:updatePrefabs(slot2)
+	slot0:downloadLevelCMDFormationViewResList(slot1, slot2, function ()
+		uv0:updateFleet(uv1)
+		uv0:updatePrefabs(uv2)
+	end)
 end
 
 slot0.updateFleet = function(slot0, slot1)

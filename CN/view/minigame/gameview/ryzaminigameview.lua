@@ -400,7 +400,7 @@ end
 
 slot0.initConfig = function(slot0)
 	slot2 = 0
-	slot3 = underscore.rest(RyzaMiniGameConfig.ENEMY_TYPE_LIST, 1)
+	slot3 = underscore.to_array(RyzaMiniGameConfig.ENEMY_TYPE_LIST)
 	slot4 = {}
 	slot5 = pg.MiniGameTileMgr.GetInstance():getDataLayers("BoomGame", "BoomLevel_" .. (slot0.stageIndex == 0 and math.random(7) or slot0.stageIndex))
 	slot0.config = {

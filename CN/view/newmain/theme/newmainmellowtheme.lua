@@ -309,7 +309,7 @@ slot0.RegisterRedDots = function(slot0)
 	slot3(slot9:Find("frame/right/1/battle/root/tip"), {
 		"EVENT"
 	}, function (slot0)
-		setActive(slot0, getProxy(EventProxy):hasFinishState() or LimitChallengeConst.IsShowRedPoint())
+		setActive(slot0, getProxy(EventProxy):hasFinishState() or LimitChallengeConst.IsShowRedPoint() or getProxy(ChapterAutoProxy):IsAllCommissionFinish(ChapterAutoProxy.TYPE.WORLD))
 	end)
 
 	slot9 = slot0._tf

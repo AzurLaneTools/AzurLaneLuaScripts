@@ -14,6 +14,52 @@ slot0.preload = function(slot0, slot1)
 	end
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2 = {
+		"ui/EducateDatePanel",
+		"ui/EducateResPanel",
+		"ui/EducateTopPanel",
+		"ui/EducateTargetPanel",
+		"ui/EducateArchivePanel",
+		"ui/EducateSiteDetailUI",
+		"ui/educatecommonui_atlas"
+	}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot5 = getProxy(EducateProxy) and slot4:GetShowSiteIds() or {}
+
+	for slot9, slot10 in ipairs(slot5) do
+		if pg.child_site[slot10] then
+			slot3("educatesite/" .. slot11.icon)
+			slot3("educatesite/" .. slot11.name_pic)
+			slot3("educatesite/" .. slot11.pic)
+
+			slot12 = ipairs
+			slot13 = slot11.option or {}
+
+			for slot15, slot16 in slot12(slot13) do
+				if pg.child_site_option[slot16] and slot17.type == EducateSiteOption.TYPE_SITE and pg.child_site[slot17.param[1]] then
+					slot3("educatesite/" .. slot19.pic)
+				end
+			end
+		end
+	end
+
+	for slot9, slot10 in ipairs(slot2) do
+		if not table.contains(slot1, slot10) then
+			table.insert(slot1, slot10)
+		end
+	end
+
+	return slot1
+end
+
 slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()

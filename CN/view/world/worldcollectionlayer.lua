@@ -238,7 +238,7 @@ slot0.UpdateEntranceFilter = function(slot0, slot1)
 			return slot3 > slot1 + slot2
 		end)
 	else
-		slot0.achEntranceList = underscore.rest(slot0.baseEntranceList, 1)
+		slot0.achEntranceList = underscore.to_array(slot0.baseEntranceList)
 	end
 
 	slot0:UpdateGetAllAwardBtn()

@@ -64,7 +64,11 @@ slot0.GetIcon = function(slot0)
 	return slot0:getConfig("icon")
 end
 
-slot0.GetModel = function(slot0)
+slot0.GetModel = function(slot0, slot1)
+	if slot1 == 2 and slot0:getConfig("model_night") and slot2 ~= "" then
+		return slot2
+	end
+
 	return slot0:getConfig("model")
 end
 

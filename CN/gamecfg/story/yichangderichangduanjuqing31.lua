@@ -4,13 +4,14 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
+			side = 2,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307053,
 			nameColor = "#A9F548FF",
-			say = "大雪漫天，{namecode:95:翔鹤}打着伞孤单地站在风雪中，貌似在等着什么人。",
 			hidePaintObj = true,
-			withoutActorName = true,
-			side = 2,
-			hideRecordIco = true,
+			say = "大雪漫天，{namecode:95:翔鹤}打着伞孤单地站在风雪中，貌似在等着什么人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,10 +19,11 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "呀……有缘人，能帮帮我吗？",
 			typewriter = {
 				speed = 0.05,
@@ -29,11 +31,12 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "我迷路了……找不到回家的方向。",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +54,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "你真是个好人……",
 			typewriter = {
 				speed = 0.05,
@@ -64,12 +68,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "欠你的恩情，我可能这辈子都还不完了……",
 			typewriter = {
 				speed = 0.05,
@@ -77,12 +82,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "是吗……那你走吧。",
 			typewriter = {
 				speed = 0.05,
@@ -90,12 +96,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "只是我也想从这里出去，跟在你身后的话……你不会介意吧？",
 			typewriter = {
 				speed = 0.05,

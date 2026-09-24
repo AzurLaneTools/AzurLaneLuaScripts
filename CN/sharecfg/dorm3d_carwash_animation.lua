@@ -12,10 +12,22 @@ pg.dorm3d_carwash_animation.all = {
 	7,
 	8,
 	9,
-	12,
 	10,
 	11,
-	99
+	12,
+	99,
+	101,
+	102,
+	104,
+	105,
+	106,
+	107,
+	108,
+	109,
+	110,
+	111,
+	112,
+	199
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_carwash_animation = {}
@@ -184,27 +196,6 @@ pg.base.dorm3d_carwash_animation = {}
 			3
 		}
 	}
-	pg.base.dorm3d_carwash_animation[12] = {
-		anim_r = "XC3_idle_CW_fb01_R",
-		hidden_reaction = "",
-		anim_l = "XC3_idle_CW_fb01_L",
-		anim = "",
-		id = 12,
-		mood_value_plus = 8,
-		collider = {
-			"RightChestAssistA01",
-			"LeftChestAssistA01",
-			"R Thigh1 Collider",
-			"R Thigh2 Collider",
-			"L Thigh1 Collider",
-			"L Thigh2 Collider"
-		},
-		gun_type = {
-			1,
-			2,
-			3
-		}
-	}
 	pg.base.dorm3d_carwash_animation[10] = {
 		anim_r = "",
 		hidden_reaction = "",
@@ -229,6 +220,27 @@ pg.base.dorm3d_carwash_animation = {}
 		},
 		gun_type = {}
 	}
+	pg.base.dorm3d_carwash_animation[12] = {
+		anim_r = "XC3_idle_CW_fb01_R",
+		hidden_reaction = "",
+		anim_l = "XC3_idle_CW_fb01_L",
+		anim = "",
+		id = 12,
+		mood_value_plus = 8,
+		collider = {
+			"RightChestAssistA01",
+			"LeftChestAssistA01",
+			"R Thigh1 Collider",
+			"R Thigh2 Collider",
+			"L Thigh1 Collider",
+			"L Thigh2 Collider"
+		},
+		gun_type = {
+			1,
+			2,
+			3
+		}
+	}
 	pg.base.dorm3d_carwash_animation[99] = {
 		anim_r = "",
 		anim_l = "",
@@ -247,6 +259,228 @@ pg.base.dorm3d_carwash_animation = {}
 		gun_type = {
 			1,
 			2
+		}
+	}
+	pg.base.dorm3d_carwash_animation[101] = {
+		anim_r = "XC1_idle_fb01_R",
+		hidden_reaction = "",
+		anim_l = "XC1_idle_fb01_L",
+		anim = "",
+		id = 101,
+		mood_value_plus = 10,
+		collider = {
+			"Pelvis Collider"
+		},
+		gun_type = {
+			1,
+			3
+		}
+	}
+	pg.base.dorm3d_carwash_animation[102] = {
+		anim_r = "",
+		anim_l = "",
+		anim = "",
+		id = 102,
+		mood_value_plus = 11,
+		collider = {
+			"RightChestAssistA01",
+			"R UpperArm Collider",
+			"Spine3 Collider",
+			"Spine2 Collider",
+			"Spine1 Collider"
+		},
+		hidden_reaction = {
+			enter = "white",
+			exit = "black",
+			sceneName = "XiChe_20707_XC1_idle_fb02",
+			sceneAB = "dorm3d/character/yuanchou_db/timeline/xiche_20707_xc1_idle_fb02/xiche_20707_xc1_idle_fb02_scene"
+		},
+		gun_type = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.dorm3d_carwash_animation[104] = {
+		anim_r = "",
+		anim_l = "",
+		anim = "",
+		id = 104,
+		mood_value_plus = -10,
+		collider = {
+			"Head Collider"
+		},
+		hidden_reaction = {
+			enter = "white",
+			exit = "black",
+			sceneName = "XiChe_20707_TSZS-1",
+			sceneAB = "dorm3d/character/yuanchou_db/timeline/xiche_20707_tszs-1/xiche_20707_tszs-1_scene"
+		},
+		gun_type = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.dorm3d_carwash_animation[105] = {
+		anim_r = "",
+		hidden_reaction = "",
+		anim_l = "",
+		anim = "XC2_idle_fb01",
+		id = 105,
+		mood_value_plus = 10,
+		collider = {
+			"Pelvis Collider",
+			"Spine1 Collider",
+			"Spine Collider"
+		},
+		gun_type = {
+			1,
+			3
+		}
+	}
+	pg.base.dorm3d_carwash_animation[106] = {
+		anim_r = "",
+		hidden_reaction = "",
+		anim_l = "",
+		anim = "XC2_idle_fb02",
+		id = 106,
+		mood_value_plus = 10,
+		collider = {
+			"LeftChestAssistA01",
+			"Spine3 Collider",
+			"Spine2 Collider",
+			"RightChestAssistA01"
+		},
+		gun_type = {
+			1,
+			3
+		}
+	}
+	pg.base.dorm3d_carwash_animation[107] = {
+		anim_r = "",
+		hidden_reaction = "",
+		anim_l = "",
+		anim = "XC2_idle_fb03",
+		id = 107,
+		mood_value_plus = 10,
+		collider = {
+			"R Forearm Collider",
+			"R UpperArm Collider"
+		},
+		gun_type = {
+			1,
+			3
+		}
+	}
+	pg.base.dorm3d_carwash_animation[108] = {
+		anim_r = "",
+		hidden_reaction = "",
+		anim_l = "",
+		anim = "XC2_idle_fb04",
+		id = 108,
+		mood_value_plus = 11,
+		collider = {
+			"R Thigh1 Collider",
+			"R Thigh2 Collider",
+			"R Calf1 Collider",
+			"R Calf2 Collider",
+			"R UpperArm Collider"
+		},
+		gun_type = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.dorm3d_carwash_animation[109] = {
+		anim_r = "",
+		hidden_reaction = "",
+		anim_l = "",
+		anim = "XC3_idle_fb01",
+		id = 109,
+		mood_value_plus = 9,
+		collider = {
+			"Spine Collider",
+			"Spine3 Collider",
+			"Spine2 Collider",
+			"Spine1 Collider"
+		},
+		gun_type = {
+			1,
+			3
+		}
+	}
+	pg.base.dorm3d_carwash_animation[110] = {
+		anim_r = "",
+		hidden_reaction = "",
+		anim_l = "",
+		anim = "XC4_idle_fb01",
+		id = 110,
+		mood_value_plus = 0,
+		collider = {
+			"R Thigh1 Collider"
+		},
+		gun_type = {}
+	}
+	pg.base.dorm3d_carwash_animation[111] = {
+		anim_r = "",
+		hidden_reaction = "",
+		anim_l = "",
+		anim = "XC3_idle_fb01",
+		id = 111,
+		mood_value_plus = 8,
+		collider = {
+			"Spine Collider",
+			"Pelvis Collider"
+		},
+		gun_type = {
+			1,
+			3
+		}
+	}
+	pg.base.dorm3d_carwash_animation[112] = {
+		anim_r = "",
+		hidden_reaction = "",
+		anim_l = "",
+		anim = "XC3_idle_fb02-start",
+		id = 112,
+		mood_value_plus = 8,
+		collider = {
+			"R Thigh1 Collider",
+			"R Thigh2 Collider",
+			"L Thigh1 Collider",
+			"L Thigh2 Collider",
+			"R Calf2 Collider",
+			"R Calf1 Collider",
+			"L Calf2 Collider",
+			"L Calf1 Collider"
+		},
+		gun_type = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.dorm3d_carwash_animation[199] = {
+		anim_r = "",
+		anim_l = "",
+		anim = "",
+		id = 199,
+		mood_value_plus = -10,
+		collider = {
+			"Head Collider"
+		},
+		hidden_reaction = {
+			enter = "white",
+			exit = "black",
+			sceneName = "XiChe_20707_TSZS-2",
+			sceneAB = "dorm3d/character/yuanchou_db/timeline/xiche_20707_tszs-2/xiche_20707_tszs-2_scene"
+		},
+		gun_type = {
+			1,
+			2,
+			3
 		}
 	}
 end)()

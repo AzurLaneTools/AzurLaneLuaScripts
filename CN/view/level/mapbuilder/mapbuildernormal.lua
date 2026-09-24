@@ -240,7 +240,6 @@ end
 slot0.UpdateMapItem = function(slot0, slot1, slot2)
 	slot3 = slot2:getConfigTable()
 
-	warning(1920 * slot3.pos_x, 1080 * slot3.pos_y)
 	setLocalPosition(slot1, {
 		x = 1920 * slot3.pos_x,
 		y = 1080 * slot3.pos_y

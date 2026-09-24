@@ -14,6 +14,7 @@ slot0.GetType2Class = function()
 		[ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2] = BuildingBuff2Activity,
 		[ActivityConst.ACTIVITY_TYPE_ATELIER_LINK] = AtelierActivity,
 		[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = ActivityBossActivity,
+		[ActivityConst.ACTIVITY_TYPE_PT_CRUSING] = CrusingActivity,
 		[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = BossRushActivity,
 		[ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK] = BossRushRankActivity,
 		[ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB] = CollabrateBossRushActivity,
@@ -928,21 +929,7 @@ slot0.isShow = function(slot0)
 		end
 	end
 
-	slot1 = slot0:getConfig("page_info")
-
 	if slot0:getConfig("is_show") <= 0 then
-		return false
-	elseif underscore.any({
-		slot1.ui_name,
-		slot1.ui_name2
-	}, function (slot0)
-		return not checkABExist(string.format("ui/%s", slot0))
-	end) then
-		warning(string.format("activity:%d without ui:%s", slot0.id, table.concat({
-			slot1.ui_name,
-			slot1.ui_name2
-		}, " or ")))
-
 		return false
 	end
 
@@ -950,24 +937,24 @@ slot0.isShow = function(slot0)
 		return slot0.data1 ~= 0
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY then
 		if slot0:getConfig("config_client").display_link then
-			return underscore.any(slot2, function (slot0)
+			return underscore.any(slot1, function (slot0)
 				return slot0[2] == 0 or pg.TimeMgr.GetInstance():inTime(ShopConst.GetShopConfig(slot0[2]).time)
 			end)
 		end
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SURVEY then
-		slot2 = getProxy(ActivityProxy)
+		slot1 = getProxy(ActivityProxy)
 
-		return slot2:isSurveyOpen() and not slot2:isSurveyDone()
+		return slot1:isSurveyOpen() and not slot1:isSurveyDone()
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE then
 		if getProxy(ShopsProxy):getActivityShops() == nil then
 			return false
 		end
 
-		slot2 = slot0:getConfig("config_client")
-		slot3 = getProxy(PlayerProxy):getData():getResource(slot2.uPtId)
-		slot4 = #slot2.goodsId + 1
+		slot1 = slot0:getConfig("config_client")
+		slot2 = getProxy(PlayerProxy):getData():getResource(slot1.uPtId)
+		slot3 = #slot1.goodsId + 1
 
-		return slot4 > slot4 - _.reduce(slot2.goodsId, 0, function (slot0, slot1)
+		return slot3 > slot3 - _.reduce(slot1.goodsId, 0, function (slot0, slot1)
 			return slot0 + getProxy(ShopsProxy):getActivityShopById(uv0.shopId):GetCommodityById(slot1):GetPurchasableCnt()
 		end)
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_RYZA and table.contains({
@@ -1000,6 +987,25 @@ slot0.isAfterShow = function(slot0)
 	end
 
 	return false
+end
+
+slot0.getPageABNames = function(slot0)
+	slot1 = slot0:getConfig("page_info")
+
+	return {
+		slot1.ui_name,
+		slot1.ui_name2
+	}
+end
+
+slot0.checkPageABExist = function(slot0)
+	if not IsUnityEditor then
+		return true
+	end
+
+	return underscore.all(slot0:getPageABNames(), function (slot0)
+		return checkABExist(string.format("ui/%s", slot0))
+	end)
 end
 
 slot0.getShowPriority = function(slot0)
@@ -1118,102 +1124,6 @@ slot0.GetShopTime = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance()
 
 	return slot1:STimeDescS(slot0:getStartTime(), "%y.%m.%d") .. " - " .. slot1:STimeDescS(slot0.stopTime, "%y.%m.%d")
-end
-
-slot0.GetCrusingUnreceiveAward = function(slot0)
-	assert(slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_CRUSING, "type error")
-
-	slot1 = pg.battlepass_event_pt[slot0.id]
-	slot2 = {}
-	slot3 = {}
-
-	for slot7, slot8 in ipairs(slot0.data1_list) do
-		slot3[slot8] = true
-	end
-
-	for slot7, slot8 in ipairs(slot1.target) do
-		if slot0.data1 < slot8 then
-			break
-		elseif not slot3[slot8] then
-			table.insert(slot2, Drop.Create(pg.battlepass_event_award[slot1.award[slot7]].drop_client))
-		end
-	end
-
-	if slot0.data2 ~= 1 then
-		return PlayerConst.MergePassItemDrop(slot2)
-	end
-
-	slot4 = {}
-
-	for slot8, slot9 in ipairs(slot0.data2_list) do
-		slot4[slot9] = true
-	end
-
-	for slot8, slot9 in ipairs(slot1.target) do
-		if slot0.data1 < slot9 then
-			break
-		elseif not slot4[slot9] then
-			table.insert(slot2, Drop.Create(pg.battlepass_event_award[slot1.award_pay[slot8]].drop_client))
-		end
-	end
-
-	return PlayerConst.MergePassItemDrop(slot2)
-end
-
-slot0.GetCrusingInfo = function(slot0)
-	assert(slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_CRUSING, "type error")
-
-	slot2 = pg.battlepass_event_pt[slot0.id].pt
-	slot3 = {}
-	slot4 = {}
-
-	for slot8, slot9 in ipairs(slot1.key_point_display) do
-		slot4[slot9] = true
-	end
-
-	for slot8, slot9 in ipairs(slot1.target) do
-		table.insert(slot3, {
-			id = slot8,
-			pt = slot9,
-			award = pg.battlepass_event_award[slot1.award[slot8]].drop_client,
-			award_pay = pg.battlepass_event_award[slot1.award_pay[slot8]].drop_client,
-			isImportent = slot4[slot8]
-		})
-	end
-
-	slot5 = slot0.data1
-	slot6 = slot0.data2 == 1
-	slot7 = {}
-
-	for slot11, slot12 in ipairs(slot0.data1_list) do
-		slot7[slot12] = true
-	end
-
-	slot8 = {}
-
-	for slot12, slot13 in ipairs(slot0.data2_list) do
-		slot8[slot13] = true
-	end
-
-	slot9 = 0
-
-	for slot13, slot14 in ipairs(slot3) do
-		if slot5 < slot14.pt then
-			break
-		else
-			slot9 = slot13
-		end
-	end
-
-	return {
-		ptId = slot2,
-		awardList = slot3,
-		pt = slot5,
-		isPay = slot6,
-		awardDic = slot7,
-		awardPayDic = slot8,
-		phase = slot9
-	}
 end
 
 slot0.GetHei5Info = function(slot0)

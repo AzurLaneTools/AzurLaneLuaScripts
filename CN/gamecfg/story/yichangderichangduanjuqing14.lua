@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "啊，失礼了。触手们见到指挥官大人总会很兴奋……",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "不过，它们只是好奇。想知道您是什么温度、什么触感。",
 			typewriter = {
 				speed = 0.05,
@@ -28,11 +30,12 @@ return {
 			}
 		},
 		{
-			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 9600032,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指挥官大人，您会害怕它们吗？",
 			typewriter = {
 				speed = 0.05,
@@ -50,12 +53,13 @@ return {
 			}
 		},
 		{
-			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 9600032,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指挥官大人还真是胆大呢~",
 			typewriter = {
 				speed = 0.05,
@@ -63,12 +67,13 @@ return {
 			}
 		},
 		{
-			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 9600032,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "那这下，能换我来感受您的温度和触感了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -76,12 +81,13 @@ return {
 			}
 		},
 		{
-			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 9600032,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "没关系的，了解是需要时间的。",
 			typewriter = {
 				speed = 0.05,
@@ -89,12 +95,13 @@ return {
 			}
 		},
 		{
-			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 9600032,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "让我们慢慢来吧~",
 			typewriter = {
 				speed = 0.05,

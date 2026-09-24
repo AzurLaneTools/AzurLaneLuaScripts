@@ -74,6 +74,21 @@ slot0.preload = function(slot0, slot1)
 	})
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	for slot6, slot7 in ipairs({
+		"ui/GuildEventReportUI_atlas",
+		"ui/GuildBossRankPage"
+	}) do
+		if noEmptyStr(slot7) and not table.contains(slot1, slot7) then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	return slot1
+end
+
 slot0.UpdateReports = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		for slot10, slot11 in pairs(slot0.cards) do

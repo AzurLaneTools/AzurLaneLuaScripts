@@ -7,10 +7,11 @@ return {
 	},
 	scripts = {
 		{
-			bgName = "bg_story_room",
+			NextIcon = 1,
 			side = 2,
-			bgm = "story-newsakura",
+			bgName = "bg_story_room",
 			withoutActorName = true,
+			bgm = "story-newsakura",
 			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
@@ -31,6 +32,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -48,9 +50,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "贵安，指挥官大人。",
 			typewriter = {
@@ -62,9 +65,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "在这样重要的日子不请自来，还请您不要见怪。",
 			typewriter = {
@@ -76,6 +80,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -91,9 +96,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "呵呵~请不要心急。",
 			typewriter = {
@@ -105,9 +111,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "指挥官大人，可曾听闻过“晴雨狐嫁”的传说？",
 			typewriter = {
@@ -119,6 +126,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -131,12 +139,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = "headtouch",
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = "headtouch",
 			say = "传说中，狐妖出嫁之时，即便天色晴朗，也会忽然落下细雨。",
 			typewriter = {
 				speed = 0.05,
@@ -144,12 +153,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "那并非寻常雨水，而是用来遮蔽凡人视线的帘幕。",
 			typewriter = {
 				speed = 0.05,
@@ -160,9 +170,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "如此一来，便不会有人窥见狐妖的嫁仪，也不会有人来打扰……我们了~",
 			typewriter = {
@@ -171,6 +182,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -188,9 +200,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "main3",
 			say = "所以，指挥官大人。今日晴光伴雨，难道不像是天意也在替{namecode:302:白凤}催促您吗？",
 			typewriter = {
@@ -202,6 +215,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -217,9 +231,10 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "嘘——",
 			typewriter = {
@@ -228,6 +243,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -245,9 +261,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "三三九度，是嫁仪中不可缺少的一步。",
 			typewriter = {
@@ -256,6 +273,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -270,6 +288,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -287,9 +306,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "如此，晴雨狐嫁的第一道仪式，便算完成了。",
 			typewriter = {
@@ -301,6 +321,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -313,12 +334,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "是的。",
 			typewriter = {
 				speed = 0.05,
@@ -329,9 +351,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "touch",
 			say = "既然是嫁仪，若是只做到这里，未免不够正式……",
 			typewriter = {
@@ -340,6 +363,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -354,12 +378,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "接下来，就请指挥官大人向{namecode:302:白凤}证明吧。",
 			typewriter = {
 				speed = 0.05,
@@ -370,9 +395,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "证明您的心，确实有一处，是属于{namecode:302:白凤}的。",
 			typewriter = {
@@ -381,6 +407,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -395,6 +422,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -412,9 +440,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "呵呵……您不必露出这样的表情。",
 			typewriter = {
@@ -426,9 +455,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "{namecode:302:白凤}只是想确认，您没有打算从这场雨中逃走而已。",
 			typewriter = {
@@ -437,6 +467,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -451,12 +482,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "指挥官大人。",
 			typewriter = {
 				speed = 0.05,
@@ -467,9 +499,10 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "今日的{namecode:302:白凤}……应该比平时更惹您怜爱吧？",
 			typewriter = {
@@ -478,6 +511,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -492,12 +526,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = "touch2",
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = "touch2",
 			say = "那就请再靠近一点。",
 			typewriter = {
 				speed = 0.05,
@@ -508,9 +543,10 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "只要一点点就好……为{namecode:302:白凤}烙上属于您的印记吧~",
 			typewriter = {
@@ -519,6 +555,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -536,9 +573,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "{namecode:302:白凤}为您备下的香，已经燃起。",
 			typewriter = {
@@ -550,9 +588,10 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "若您愿意，今日的雨，还会缠绵很久……很久……",
 			typewriter = {

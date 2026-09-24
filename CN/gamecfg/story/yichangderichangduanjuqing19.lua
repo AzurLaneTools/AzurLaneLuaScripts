@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 900561,
-			nameColor = "#A9F548FF",
 			actorName = "？？？",
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "传闻这里有坏幽灵出没呢。",
 			typewriter = {
 				speed = 0.05,
@@ -17,12 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 900561,
-			nameColor = "#A9F548FF",
 			actorName = "？？？",
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "如果有晚上独自游荡的可爱小羊羔……",
 			typewriter = {
 				speed = 0.05,
@@ -30,11 +32,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900561,
-			actorName = "？？？",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "可是会被坏幽灵吃掉的哦~",
 			typewriter = {
@@ -55,10 +58,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "还真是骗不过您呢~",
 			typewriter = {
@@ -67,12 +71,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900561,
-			actorName = "？？？",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呵呵，那下次再见咯。",
 			typewriter = {

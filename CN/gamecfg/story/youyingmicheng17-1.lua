@@ -55,11 +55,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "一个普通的后勤人员",
 			side = 2,
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			actor = 317030,
-			actorName = "一个普通的后勤人员",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "“今天，我来到了新纪元都市NO.5……”",
 			typewriter = {
@@ -93,8 +94,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_495",
 			nameColor = "#A9F548FF",
-			actor = 317030,
 			actorName = "一个普通的后勤人员",
+			actor = 317030,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "“这里的人们曾经最不缺的就是目标、方案和愿景，只要增值足够漂亮，人生就不算失败。”",
 			typewriter = {
@@ -103,10 +105,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "高处，名为{namecode:302:白凤}的狐狸少女正安静地俯瞰着这一切。",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +122,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呵呵……真是有趣。",
 			typewriter = {
@@ -129,12 +133,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我原以为，拔掉那根摇摇欲坠的支柱后，这里会先乱上一阵子。",
 			typewriter = {
@@ -148,8 +153,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "没想到她们效率惊人，这么快就把新的骨架搭起来了~",
 			typewriter = {
@@ -163,8 +169,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "对于有人正在组织反抗力量这件事，你好像一点也不着急……",
 			typewriter = {
@@ -173,12 +180,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "当然~我很好奇，这些人到底是一时逞强，还是真的有本事把局面接过去。",
 			typewriter = {
@@ -192,8 +200,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "不过能把场面收回来，和能不能守住它，可是两回事。",
 			typewriter = {

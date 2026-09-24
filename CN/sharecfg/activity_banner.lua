@@ -65,15 +65,14 @@ pg.base.activity_banner = {}
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
+			"scene dockyard"
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					17
+					24
 				},
 				{
 					0,
@@ -84,13 +83,13 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					23
+					10,
+					8
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -286,14 +285,17 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene court yard"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					8
+					24
 				},
 				{
 					0,
@@ -304,8 +306,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					30
+					10,
+					7
 				},
 				{
 					23,
@@ -320,17 +322,14 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene core activity",
-			{
-				coreName = "ShiningMagicCoreActivityUI"
-			}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2026,
-					9,
-					8
+					10,
+					1
 				},
 				{
 					0,
@@ -341,13 +340,13 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					30
+					10,
+					15
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -357,17 +356,14 @@ pg.base.activity_banner = {}
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene get boat",
-			{
-				goToPray = true
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					8
+					24
 				},
 				{
 					0,
@@ -378,13 +374,13 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					30
+					10,
+					8
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -425,11 +421,36 @@ pg.base.activity_banner = {}
 		pic = "dumpling"
 	}
 	pg.base.activity_banner[101] = {
-		param = "镜饼|要开了才能吃哦？<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
-		time = "stop",
+		param = "桂花糕|用相传从月宫里摘下来的桂花制成的糕点，香甜可口！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		type = 10,
 		id = 101,
-		pic = "jingbing"
+		pic = "guihuagao",
+		time = {
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
 	}
 	pg.base.activity_banner[102] = {
 		param = "拐杖糖|据说最原始的拐杖糖是白色的呢。<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",

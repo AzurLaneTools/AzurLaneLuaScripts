@@ -9,6 +9,68 @@ slot0.getUIName = function(slot0)
 	return "BillboardUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"commonbg/bg_fengshan",
+		"billboardframe",
+		"weaponframes",
+		"shiptype",
+		"ui/iconcolorful"
+	}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	for slot7, slot8 in pairs(PowerRank.typeInfo) do
+		if slot8.score_icon and slot9[1] then
+			slot3(slot9[1])
+		end
+	end
+
+	for slot8, slot9 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)) do
+		if not slot9:isEnd() and tonumber(slot9:getConfig("config_data")) > 0 then
+			slot3(Drop.New({
+				type = DROP_TYPE_RESOURCE,
+				id = slot9:getConfig("config_id")
+			}):getIcon())
+		end
+	end
+
+	slot5 = checkExist(slot1, {
+		"page"
+	}) or PowerRank.TYPE_POWER
+	slot8 = ipairs
+	slot9 = getProxy(BillboardProxy):getRankList(slot5, checkExist(slot1, {
+		"act_id"
+	}) or checkExist(PowerRank:getActivityByRankType(slot5), {
+		"id"
+	})) or {}
+
+	for slot11, slot12 in slot8(slot9) do
+		slot3("emblem/" .. slot12.arenaRank)
+		slot3("emblem/n_" .. slot12.arenaRank)
+	end
+
+	if not slot7 then
+		for slot11 = 1, #pg.arena_data_rank.all do
+			slot3("emblem/" .. slot11)
+			slot3("emblem/n_" .. slot11)
+		end
+	end
+
+	if getProxy(MilitaryExerciseProxy):RawGetSeasonInfo() then
+		slot9 = SeasonInfo.getEmblem(slot8.score, slot8.rank)
+
+		slot3("emblem/" .. slot9)
+		slot3("emblem/n_" .. slot9)
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.updateRankList = function(slot0, slot1, slot2, slot3, slot4)
 	if not slot0.rankVOs then
 		slot0.rankVOs = {}
@@ -238,21 +300,37 @@ slot0.filter = function(slot0, slot1, slot2)
 		slot4 = slot0.rankVOs[slot3]
 	end
 
-	slot0.displayRankVOs = {}
+	slot5 = function()
+		uv0.displayRankVOs = {}
 
-	for slot8, slot9 in ipairs(slot4) do
-		table.insert(slot0.displayRankVOs, slot9)
+		for slot3, slot4 in ipairs(uv1) do
+			table.insert(uv0.displayRankVOs, slot4)
+		end
+
+		uv0.rankRect:SetTotalCount(#uv0.displayRankVOs)
+		setActive(uv0.listEmptyTF, #uv0.displayRankVOs <= 0)
+
+		slot0 = uv0.playerRankVOs[uv0.page]
+
+		if PowerRank.TYPE_PT == uv2 then
+			uv0.playerCard:update(uv0.playerPTRankVOMap[uv3], uv3)
+		else
+			uv0.playerCard:update(slot0, uv3)
+		end
 	end
 
-	slot0.rankRect:SetTotalCount(#slot0.displayRankVOs)
-	setActive(slot0.listEmptyTF, #slot0.displayRankVOs <= 0)
+	if slot4 and #slot4 > 0 then
+		slot6 = {}
 
-	slot5 = slot0.playerRankVOs[slot0.page]
+		for slot10, slot11 in ipairs(slot4) do
+			table.insert(slot6, "squareicon/" .. slot11:getPainting())
+		end
 
-	if PowerRank.TYPE_PT == slot1 then
-		slot0.playerCard:update(slot0.playerPTRankVOMap[slot2], slot2)
+		SplitPackConst.DownloadByLuaArr(slot6, function ()
+			uv0()
+		end)
 	else
-		slot0.playerCard:update(slot5, slot2)
+		slot5()
 	end
 end
 

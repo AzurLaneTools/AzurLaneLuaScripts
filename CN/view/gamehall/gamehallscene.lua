@@ -5,7 +5,60 @@ slot0.getUIName = function(slot0)
 	return "GameHallUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"char/mingshi",
+		"weaponframes"
+	}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	if not slot0.charController then
+		slot0:initContainer()
+	end
+
+	slot4 = slot0.charController.shipNames or {}
+
+	for slot8, slot9 in pairs(slot4) do
+		slot3("char/" .. slot9)
+	end
+
+	slot5 = pg.TimeMgr.GetInstance():GetServerTime()
+
+	for slot9, slot10 in ipairs(pg.game_room_template.all) do
+		slot12 = pg.game_room_template[slot10].unlock_time
+
+		if pg.TimeMgr.GetInstance():Table2ServerTime({
+			year = slot12[1][1],
+			month = slot12[1][2],
+			day = slot12[1][3],
+			hour = slot12[2][1],
+			min = slot12[2][2],
+			sec = slot12[2][3]
+		}) < slot5 then
+			slot3("gamehallicon/" .. slot11.icon)
+		end
+	end
+
+	if Item.getConfigData(pg.player_resource[GameRoomProxy.coin_res_id].itemid) then
+		slot3(slot7.icon)
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.init = function(slot0)
+	slot0:initContainer()
+end
+
+slot0.initContainer = function(slot0)
+	if not slot0.charController then
+		slot0.charController = GameHallContainerUI.New()
+	end
 end
 
 slot0.didEnter = function(slot0)
@@ -13,7 +66,9 @@ slot0.didEnter = function(slot0)
 	slot0:initHomeUI()
 
 	slot1 = findTF(slot0._tf, "ad/container")
-	slot0.charController = GameHallContainerUI.New(slot1)
+
+	slot0.charController:InitUI(slot1)
+
 	slot0.freeCoinTf = findTF(slot1, "content/top/free")
 
 	onButton(slot0, slot0.freeCoinTf, function ()

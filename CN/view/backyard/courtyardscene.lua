@@ -8,6 +8,112 @@ slot0.getUIName = function(slot0)
 	return "CourtYardUI"
 end
 
+slot0.getAggressivePreloadResList = function(slot0, slot1)
+	return {
+		"ui/BackYardMsgBox",
+		"ui/CourtyardUI_atlas",
+		"ui/BackyardFeedUI",
+		"ui/BackYardFeedShopPanel",
+		"ui/BackYardFeedExtendPanel",
+		"ui/NewBackYardShipInfoUI",
+		"shipframeb",
+		"shiptype",
+		"ui/proposeShipCard",
+		"ui/NewBackYardShopUI",
+		"ui/NewBackYardShopUI_atlas",
+		"ui/BackYardThemePage",
+		"ui/BackYardThemeInfoPage",
+		"ui/BackYardFurniturePage",
+		"ui/FurnitureMsgboxPage",
+		"ui/ThemeMsgboxPage",
+		"ui/BackYardIndexUI",
+		"BackYardTheme/theme_1",
+		"BackYardTheme/1",
+		"furnitureicon/default_theme",
+		"QIcon/unknown",
+		"weaponframes",
+		"ui/BackYardInterActionPreview",
+		"ui/BackYardDecorationUI",
+		"ui/NewBackYardDecorateUI_atlas",
+		"ui/BackYardDecorationThemePage",
+		"ui/BackYardDecorationFurniturePage",
+		"ui/BackYardPutListPage",
+		"ui/BackYardDecorationMsgBox",
+		"ui/BackYardDecorationDescUI",
+		"ui/BackYardStatisticsUI",
+		"UI/CourtYardStoreyModule",
+		"UI/CourtYardFeastStoreyModule",
+		"UI/CourtYardStoreyPreviewModule",
+		"ui/CourtYardFurniture",
+		"ui/CourtYardGrid",
+		"ui/CourtYardShip",
+		"ui/CourtYardWallGrid",
+		"Effect/Heart"
+	}
+end
+
+slot0.getResource = function(slot0, slot1)
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(uv0.super.getResource(slot0, slot1)) do
+		slot3[slot8] = true
+	end
+
+	slot7 = slot1
+
+	for slot7, slot8 in ipairs(slot0:getAggressivePreloadResList(slot7)) do
+		if not slot3[slot8] then
+			slot3[slot8] = true
+
+			table.insert(slot2, slot8)
+		end
+	end
+
+	for slot10, slot11 in pairs(getProxy(DormProxy):getData():GetPurchasedFurnitures()) do
+		slot13 = "furnitrues/" .. pg.furniture_data_template[slot11.id].picture
+
+		if not slot3["furnitureicon/" .. pg.furniture_data_template[slot11.id].icon] then
+			slot3[slot14] = true
+
+			table.insert(slot2, slot14)
+		end
+
+		slot16 = pg.furniture_data_template[slot11.id].tag
+
+		if pg.furniture_data_template[slot11.id].type == 1 and slot16 == 3 then
+			for slot20 = 1, 4 do
+				if not slot3[slot13 .. slot20] then
+					slot3[slot13 .. slot20] = true
+
+					table.insert(slot2, slot13 .. slot20)
+				end
+			end
+		elseif not slot3[slot13] then
+			slot3[slot13] = true
+
+			table.insert(slot2, slot13)
+		end
+	end
+
+	for slot10 = 1, 4 do
+		slot12 = "furnitrues/base/wall_" .. slot10
+
+		if not slot3["furnitrues/base/road_" .. slot10] then
+			slot3[slot11] = true
+
+			table.insert(slot2, slot11)
+		end
+
+		if not slot3[slot12] then
+			slot3[slot12] = true
+
+			table.insert(slot2, slot12)
+		end
+	end
+
+	return slot2
+end
+
 slot0.PlayBGM = function(slot0)
 	pg.BgmMgr.GetInstance():StopPlay()
 end

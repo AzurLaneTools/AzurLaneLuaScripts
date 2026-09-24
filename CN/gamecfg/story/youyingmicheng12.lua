@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			side = 2,
+			bgName = "bg_highschool_future",
+			NextIcon = 1,
+			bgm = "story-dailyfuture-soft",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "bg_highschool_future",
-			bgm = "story-dailyfuture-soft",
 			say = "临时搭建的发布台在晨光中显得尤为醒目。",
 			typewriter = {
 				speed = 0.05,
@@ -25,10 +26,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "即将在这里开始的，既是针对昨夜事件的公开说明会，也是一场表彰仪式。",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +43,9 @@ return {
 			bgName = "bg_highschool_future",
 			factiontag = "新手行动员",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "好多人啊……！",
 			typewriter = {
@@ -56,8 +59,9 @@ return {
 			bgName = "bg_highschool_future",
 			factiontag = "幽影行动员",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -74,8 +78,9 @@ return {
 			bgName = "bg_highschool_future",
 			factiontag = "新手行动员",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我、我已经很努力不去看旁边那一排镜头了！",
 			typewriter = {
@@ -84,12 +89,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_highschool_future",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "bg_highschool_future",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "放轻松，保持微笑就好。其它的我来应对。",
 			typewriter = {
 				speed = 0.05,
@@ -97,10 +103,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "经历昨夜的动乱后，城市街道还残留着受损的痕迹，但聚集在广场上的人群已经重新酝酿出了足够的热情。",
 			typewriter = {
 				speed = 0.05,
@@ -108,10 +115,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "在一阵热情的讨论声中，那位特使终于登上了发布台——",
 			typewriter = {
 				speed = 0.05,
@@ -119,12 +127,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "各位热心市民，久等了！",
 			typewriter = {
@@ -133,12 +142,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我是来自新纪元都市NO.1的特别使者，克利夫兰！今天，由我向各位传达最高八人议会代表们的正式意见。",
 			typewriter = {
@@ -147,12 +157,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "首先，针对昨日发生在这里的异常入侵事件，我们向所有奋战在第一线的人员致以敬意。",
 			typewriter = {
@@ -161,12 +172,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "尤其是在复杂的局势中，成功控制异常扩散、稳定市区秩序，并为后续收容行动做出决定性贡献的——异常事件调查中心。",
 			typewriter = {
@@ -175,12 +187,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "经最高议会审议通过，即日起，异常事件调查中心由民间合作组织，正式转正为新纪元都市NO.7的官方机构！",
 			typewriter = {
@@ -189,10 +202,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "短暂的安静后，中央广场上爆发出一阵热烈的掌声。",
 			typewriter = {
 				speed = 0.05,
@@ -200,12 +214,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "新手行动员",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "转、转正了？！我们转正了？！",
 			typewriter = {
@@ -214,12 +229,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_highschool_future",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "bg_highschool_future",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "以后出任务，就能走正式报销了。",
 			typewriter = {
 				speed = 0.05,
@@ -232,9 +248,10 @@ return {
 			bgName = "bg_highschool_future",
 			factiontag = "幽影行动员",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "怎么感觉流程变复杂了……",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -246,12 +263,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "此外，对本次行动中的杰出贡献者——",
 			typewriter = {
@@ -260,12 +278,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "异常事件调查中心的指挥官，及其下属的行动组成员，最高议会也给予了公开表彰！",
 			typewriter = {
@@ -274,10 +293,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "几乎同时，聚光灯与镜头一齐转了过来。",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +310,9 @@ return {
 			bgName = "bg_highschool_future",
 			factiontag = "新手行动员",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呜哇哇哇！糟、糟糕，表情都变形了！这样登报就不好看了——",
 			typewriter = {
@@ -305,8 +326,9 @@ return {
 			bgName = "bg_highschool_future",
 			factiontag = "幽影行动员",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -318,13 +340,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
+			stopbgm = true,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "在幽影日益威胁到我们幸福都市计划推进的情况下，我们需要这场胜利来证明一个事实——",
 			typewriter = {
@@ -333,12 +356,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "异常并非无法应对，幽影也不是不可战胜。",
 			typewriter = {
@@ -347,10 +371,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "她向前迈了一步，披风下摆在风中利落扬起。",
 			typewriter = {
 				speed = 0.05,
@@ -358,12 +383,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "幸福都市计划从建立之初，目标就只有一个——让全人类获得幸福。",
 			typewriter = {
@@ -372,13 +398,14 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			bgm = "story-antarctica-serious",
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "秩序、安定、免于恐惧的生活……这些都不是特权，而是每一个人都应该享有的未来。",
 			typewriter = {
@@ -387,12 +414,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "所以，收容并非终点。我们不会满足于仅仅将幽影关起来、贴上编号、记录档案。",
 			typewriter = {
@@ -401,12 +429,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我们会研究它们，理解它们，最终——彻底消灭它们。",
 			typewriter = {
@@ -415,10 +444,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "台下爆发出更大的欢呼声，连一旁维持秩序的警戒人员都收到氛围感染，骄傲地挺直了背。",
 			typewriter = {
 				speed = 0.05,
@@ -431,8 +461,9 @@ return {
 			bgName = "bg_highschool_future",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 9600030,
 			nameColor = "#A9F548FF",
+			actor = 9600030,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
@@ -441,12 +472,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_highschool_future",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "bg_highschool_future",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "很有感染力的演讲，不过……",
 			typewriter = {
 				speed = 0.05,
@@ -459,8 +491,9 @@ return {
 			bgName = "bg_highschool_future",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "要大声说出来吗？你不认同她的话。",
 			typewriter = {
@@ -469,10 +502,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			bgm = "story-visioncity-1",
 			say = "就在这时，发布台上用来呈现转播画面的大屏幕忽然闪烁起来。",
 			typewriter = {
@@ -481,12 +515,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_highschool_future",
 			factiontag = "NO.1特使",
 			dir = 1,
 			actor = 102092,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "嗯……？",
 			typewriter = {
@@ -496,10 +531,11 @@ return {
 		},
 		{
 			actorName = "系统",
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			NextIcon = 1,
 			say = "警告！警告！检测到异常信号插入——",
 			typewriter = {
 				speed = 0.05,
@@ -507,10 +543,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_highschool_future",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "一阵狂暴的雪花噪点之后，再次出现在屏幕上的却是——",
 			typewriter = {
 				speed = 0.05,
@@ -545,12 +582,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "bg_youyingmicheng_cg2",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actorName = "？？",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "喂喂，能听见吗——躲在泥巴盒子里过家家的各位？",
 			typewriter = {
@@ -559,12 +597,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "bg_youyingmicheng_cg2",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actorName = "？？",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "哼……特地转换成人类能够理解的发音，听起来还真是不习惯啊。",
 			typewriter = {
@@ -573,12 +612,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "bg_youyingmicheng_cg2",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actorName = "？？",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "也罢，为了让你们明白这场大火起于何处……必要的导言还是有必要的~",
 			typewriter = {
@@ -587,12 +627,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "bg_youyingmicheng_cg2",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actorName = "？？",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "按你们人类那套陈腐的规矩，敌人登场时似乎总得报上名字、摆好姿势，再念一遍无聊的开场白。 ",
 			typewriter = {
@@ -601,12 +642,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "bg_youyingmicheng_cg2",
-			hidePaintObj = true,
+			actorName = "？？",
 			dir = 1,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "真遗憾，我对这种重复了太多次的旧桥段毫无兴趣。 ",
 			typewriter = {
 				speed = 0.05,
@@ -614,12 +656,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "bg_youyingmicheng_cg2",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actorName = "？？",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我们就直接进入正题吧。",
 			typewriter = {
@@ -628,14 +671,15 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#FF9B93",
 			side = 2,
 			factiontag = "幽影",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			hidePaintObj = true,
 			bgName = "bg_youyingmicheng_cg3",
+			actorName = "？？",
 			say = "看好了——BOOM！",
 			typewriter = {
 				speed = 0.05,
@@ -705,12 +749,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "bg_youyingmicheng_cg3",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actorName = "？？",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我要把你们费尽心思做无用功的幸福都市计划，全部都烧成灰~",
 			typewriter = {
@@ -719,10 +764,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_youyingmicheng_cg3",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "就在她话音落下的瞬间，屏幕画面猛地切换——",
 			typewriter = {
 				speed = 0.05,
@@ -734,9 +780,10 @@ return {
 			side = 2,
 			factiontag = "NO.1特使",
 			dir = 1,
-			bgName = "star_level_bg_495",
 			actorName = "克利夫兰",
+			bgName = "star_level_bg_495",
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "什么……？！",
 			typewriter = {
@@ -766,9 +813,10 @@ return {
 			side = 2,
 			factiontag = "NO.1特使",
 			dir = 1,
-			bgName = "star_level_bg_452",
 			actorName = "克利夫兰",
+			bgName = "star_level_bg_452",
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "都市NO.5、NO.6……NO.3和NO.4……",
 			typewriter = {
@@ -798,9 +846,10 @@ return {
 			side = 2,
 			factiontag = "NO.1特使",
 			dir = 1,
-			bgName = "bg_youyingmicheng_2",
 			actorName = "克利夫兰",
+			bgName = "bg_youyingmicheng_2",
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "连NO.2都发来了警报？！",
 			typewriter = {
@@ -833,6 +882,7 @@ return {
 			dir = 1,
 			actorName = "克利夫兰",
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……抱歉了，各位，我要先返回NO.1确认情况！",
 			typewriter = {
@@ -841,10 +891,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "bg_youyingmicheng_2",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "一片混乱中，我注视着屏幕上笑容肆意的少女，看向身旁明显露出防备姿态的金鹿号。",
 			typewriter = {
 				speed = 0.05,
@@ -852,12 +903,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_youyingmicheng_2",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "bg_youyingmicheng_2",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "她就是你提到的那位？",
 			typewriter = {
 				speed = 0.05,
@@ -870,8 +922,9 @@ return {
 			bgName = "bg_youyingmicheng_2",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 9600030,
 			nameColor = "#A9F548FF",
+			actor = 9600030,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……对。背负「不死火」之名的那位大魔王——{namecode:315:安土}。",
 			typewriter = {
@@ -880,12 +933,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:315:安土}",
+			nameColor = "#FF9B93",
 			side = 2,
 			factiontag = "幽影",
 			dir = 1,
+			actorName = "{namecode:315:安土}",
 			bgName = "bg_youyingmicheng_cg3",
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "“责任、担当、拒绝逃避的勇气……这些都不是负担，而是每一个人都应该直面的未来……”",
 			typewriter = {
@@ -911,12 +965,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:315:安土}",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "bg_youyingmicheng_cg3",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actorName = "{namecode:315:安土}",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "“所以，收容并非终点。我们不会满足于仅仅将人类关起来、贴上编号、送去工作……”",
 			typewriter = {
@@ -925,12 +980,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:315:安土}",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "bg_youyingmicheng_cg3",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actorName = "{namecode:315:安土}",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "“我们会研究你们，分裂你们，最终——使你们彻底屈服。”",
 			typewriter = {
@@ -939,12 +995,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:315:安土}",
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "bg_youyingmicheng_cg3",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actorName = "{namecode:315:安土}",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呵呵，让我们在烈火燃尽后的新世界再会吧~",
 			typewriter = {

@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			side = 2,
+			bgName = "star_level_bg_495",
+			NextIcon = 1,
+			bgm = "battle-visioncity-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_495",
-			bgm = "battle-visioncity-1",
 			say = "几分钟前，这里还是东城区主干道上最热闹的一段商业街。",
 			typewriter = {
 				speed = 0.05,
@@ -25,10 +26,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "可当我们抵达现场时，一切都变了。原本明亮繁华的商业街像是被某种力量从现实里“剥”了出来。",
 			typewriter = {
 				speed = 0.05,
@@ -36,10 +38,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "明明还是白天，街道上方却像压着一层沉沉的铅灰，所有光线都变得阴冷而浑浊。",
 			typewriter = {
 				speed = 0.05,
@@ -52,9 +55,10 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影行动员",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "这里已经和外面的商业街不是一回事了，规则、距离、方向感……都会被扭曲。",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -66,12 +70,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_495",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "导航已经受影响了。",
 			typewriter = {
 				speed = 0.05,
@@ -79,12 +84,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "那……我们现在要做什么？",
 			typewriter = {
@@ -98,8 +104,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影行动员",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -111,12 +118,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_495",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "虎，能感知到前面的情况么？",
 			typewriter = {
 				speed = 0.05,
@@ -127,9 +135,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 202380,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "嗯……异常空间深处有好几道不和谐的声音。",
 			typewriter = {
@@ -141,9 +150,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 202380,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "嘈杂的争吵声……激烈的战斗……",
 			typewriter = {
@@ -157,8 +167,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "真是一场叫人不悦的混乱演出，无法分辨那些声音到底属于人类还是幽影。",
 			typewriter = {
@@ -172,8 +183,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……等等。",
 			typewriter = {
@@ -182,10 +194,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "虎忽然轻轻抬起指挥棒，指向左前方一条被阴影吞没的支路。",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +211,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "一阵急促的旋律……离我们越来越近了。",
 			typewriter = {
@@ -212,9 +226,10 @@ return {
 			side = 2,
 			factiontag = "无辜的受害者",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			actor = 401140,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "哈……哈啊……我、我逃出来了吗，从那些幽影的掌控中……",
 			typewriter = {
@@ -245,8 +260,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "无辜的受害者",
 			dir = 1,
-			actor = 401140,
 			nameColor = "#A9F548FF",
+			actor = 401140,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "但为什么……总感觉背后有什么在监视着……",
 			typewriter = {
@@ -255,10 +271,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "奔跑中，{namecode:560:Z14}还是忍不住回过头去——那道熟悉的漆黑身影，就静静伫立在她身后不远处。",
 			typewriter = {
 				speed = 0.05,
@@ -266,13 +283,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#FF9B93",
+			actorName = "？？？",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			nameColor = "#FF9B93",
 			actor = 900560,
-			actorName = "？？？",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "「…………#&……」",
 			typewriter = {
@@ -286,8 +304,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "无辜的受害者",
 			dir = 1,
-			actor = 401140,
 			nameColor = "#A9F548FF",
+			actor = 401140,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呜……哇啊？！！绊、绊到了……",
 			typewriter = {
@@ -296,10 +315,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "黑影无声无息地靠近了。",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +332,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "无辜的受害者",
 			dir = 1,
-			actor = 401140,
 			nameColor = "#A9F548FF",
+			actor = 401140,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "不、不要过来……！",
 			typewriter = {
@@ -327,8 +348,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "到此为止——！",
 			typewriter = {
@@ -342,10 +364,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "一道明亮的辉光骤然从侧面刺入，将黑影与{namecode:560:Z14}之间生生切开。",
 			typewriter = {
 				speed = 0.05,
@@ -353,10 +376,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "黑影稍稍后撤了几步。它仿佛犹豫般停滞了几秒，随后立刻消失在众人视线中。",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +393,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "行动员标枪，第一次正式执行任务……啊，敌人跑了，我们要追击吗？！",
 			typewriter = {
@@ -384,9 +409,10 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影行动员",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "别急，说不定是陷阱。",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -403,8 +429,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "无辜的受害者",
 			dir = 1,
-			actor = 401140,
 			nameColor = "#A9F548FF",
+			actor = 401140,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……好厉害……",
 			typewriter = {
@@ -413,12 +440,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指挥官，找到幸存者了！",
 			typewriter = {
@@ -427,12 +455,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "现在没事了，我们是来救你的哦！啊……你膝盖都摔破了，我扶你起来吧？",
 			typewriter = {
@@ -446,8 +475,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "无辜的受害者",
 			dir = 1,
-			actor = 401140,
 			nameColor = "#A9F548FF",
+			actor = 401140,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "谢谢……那个……你是，列车上的那个姐姐吗……？",
 			typewriter = {
@@ -461,8 +491,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "咦？欸……",
 			typewriter = {
@@ -471,6 +502,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_170",
 			nameColor = "#A9F548FF",
@@ -510,8 +542,9 @@ return {
 			bgName = "star_level_bg_170",
 			factiontag = "乘客",
 			dir = 1,
-			actor = 401140,
 			nameColor = "#A9F548FF",
+			actor = 401140,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "比起这个……我感觉还是“幽影”更恐怖一些……",
 			typewriter = {
@@ -524,9 +557,10 @@ return {
 			side = 2,
 			factiontag = "新手行动员",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "啊，是你呀！嘿嘿，你竟然能认得出来……我这副样子是不是变化有点大？",
 			typewriter = {
@@ -563,8 +597,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "无辜的受害者",
 			dir = 1,
-			actor = 401140,
 			nameColor = "#A9F548FF",
+			actor = 401140,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "嗯……！变化很大！感觉非常可靠呢~",
 			typewriter = {
@@ -579,10 +614,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "《关于近期少女失踪事件的联合调查委托》文件中附带了近期失踪少女的照片，{namecode:560:Z14}赫然在其中。",
 			typewriter = {
 				speed = 0.05,
@@ -590,12 +626,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_495",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "（……看来这次的异常，也和那起案件有关。）",
 			typewriter = {
 				speed = 0.05,
@@ -603,10 +640,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			shakeTime = 3,
 			say = "异常空间突然剧烈波动起来，嘈杂的电流音将我们包裹。",
 			typewriter = {
@@ -615,10 +653,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "下一秒，街边橱窗、商店门玻璃、车身后视镜，甚至连地面积水里的倒影，都同时播放着同一幅画面。",
 			typewriter = {
 				speed = 0.05,
@@ -626,10 +665,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "漆黑的底色里，浮现出一张苍白而模糊的女人面孔。",
 			typewriter = {
 				speed = 0.05,
@@ -642,8 +682,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			nameColor = "#FF9B93",
-			actor = 403143,
 			actorName = "？？？？",
+			actor = 403143,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "不可以……再往前了哦~",
 			typewriter = {

@@ -7,6 +7,7 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
@@ -27,9 +28,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			say = "我停下脚步，身后的风声也仿佛随之一顿。",
 			typewriter = {
 				speed = 0.05,
@@ -40,6 +42,7 @@ return {
 			portrait = "zhihuiguan",
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			side = 2,
 			actorName = "{playername}",
 			say = "（错觉吗……？）",
@@ -49,12 +52,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "login",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = "login",
 			say = "可爱的小羊羔，我抓住你咯~",
 			typewriter = {
 				speed = 0.05,
@@ -62,6 +66,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -76,12 +81,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "呵呵，来猜猜我是谁吧？",
 			typewriter = {
 				speed = 0.05,
@@ -89,12 +95,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "要是说错了的话，可是会被坏幽灵吃干抹净的哦~",
 			typewriter = {
 				speed = 0.05,
@@ -102,6 +109,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -119,6 +127,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 237031,
@@ -131,12 +140,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "呀，一下就被指挥官猜对了呢~",
 			typewriter = {
 				speed = 0.05,
@@ -147,6 +157,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -159,12 +170,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "main1",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = "main1",
 			say = "本来还想再多跟在您身边一会儿再现身的……您突然停下，我还以为是被发现了呢~",
 			typewriter = {
 				speed = 0.05,
@@ -175,9 +187,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "想悄悄地占有指挥官，还真不是件容易的事呢。",
 			typewriter = {
@@ -189,6 +202,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -201,6 +215,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -215,6 +230,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -229,12 +245,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "main2",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = "main2",
 			say = "不过……我还想知道，如果在这样安静的夜里忽然出现。",
 			typewriter = {
 				speed = 0.05,
@@ -242,12 +259,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "您愿意为我停留多久~",
 			typewriter = {
 				speed = 0.05,
@@ -255,6 +273,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -269,12 +288,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "为了今晚的相遇，我可是花上了不少心思。",
 			typewriter = {
 				speed = 0.05,
@@ -282,12 +302,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "直到现在，有让您印象深刻嘛？",
 			typewriter = {
 				speed = 0.05,
@@ -295,10 +316,11 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
-			portrait = "zhihuiguan",
+			expression = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 237031,
@@ -311,12 +333,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "那对于努力的光辉，指挥官会给予应得的奖赏吧~",
 			typewriter = {
 				speed = 0.05,
@@ -327,6 +350,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -339,6 +363,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -353,6 +378,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -370,6 +396,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 237031,
@@ -382,12 +409,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "呵呵，您终于注意到了~",
 			typewriter = {
 				speed = 0.05,
@@ -398,9 +426,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "home",
 			say = "我已经将您带到只有我们两人的世界了哦~",
 			typewriter = {
@@ -412,6 +441,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -424,6 +454,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -438,12 +469,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "现在，我要做些更过分的事情了。",
 			typewriter = {
 				speed = 0.05,
@@ -454,9 +486,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "您准备好了吗？",
 			typewriter = {
@@ -465,6 +498,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -479,6 +513,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -493,6 +528,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -507,12 +543,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "呵呵，距离天亮看来还有好长的时间呢……",
 			typewriter = {
 				speed = 0.05,
@@ -523,9 +560,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "光辉还要向您索取……许多许多~",
 			typewriter = {

@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指挥官大人，{namecode:302:白凤}依约前来，不知有何吩咐呢？",
 			typewriter = {
@@ -24,12 +25,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "我留在对方身上的香气，可没那么容易消散。",
 			typewriter = {
 				speed = 0.05,
@@ -37,11 +39,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指挥官大人现在……也染上我的味道了呢~",
 			typewriter = {
@@ -56,12 +59,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "雨水会打乱原本清晰的痕迹，同时也会创造高湿、低温、通风减少的环境。",
 			typewriter = {
 				speed = 0.05,
@@ -69,12 +73,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "在这种情况下，气味其实更难以消散哦。",
 			typewriter = {
 				speed = 0.05,
@@ -82,11 +87,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "这对{namecode:302:白凤}来说，反而更方便了呢~",
 			typewriter = {
@@ -101,12 +107,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "呵呵……您想看吗？",
 			typewriter = {
 				speed = 0.05,
@@ -114,12 +121,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "您在意的话，{namecode:302:白凤}可以让您确认一下哦~",
 			typewriter = {
 				speed = 0.05,
@@ -127,12 +135,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "只是看过之后，就要负责了呢~",
 			typewriter = {
 				speed = 0.05,
@@ -140,12 +149,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "你的各方面情况，我已经了解了。",
 			typewriter = {
 				speed = 0.05,
@@ -153,12 +163,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "{namecode:302:白凤}，欢迎加入。",
 			typewriter = {
 				speed = 0.05,
@@ -166,12 +177,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "呵呵……多谢指挥官大人抬爱~",
 			typewriter = {
 				speed = 0.05,

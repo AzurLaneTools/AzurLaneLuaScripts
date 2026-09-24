@@ -28,7 +28,11 @@ pg.dorm3d_ins_player_template.all = {
 	23,
 	24,
 	25,
-	26
+	26,
+	27,
+	28,
+	29,
+	30
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_player_template = {}
@@ -266,6 +270,42 @@ pg.base.dorm3d_ins_player_template = {}
 		},
 		npc_reply = {
 			26
+		}
+	}
+	pg.base.dorm3d_ins_player_template[27] = {
+		id = 27,
+		message = {
+			"yuanchou_1_1"
+		},
+		npc_reply = {
+			27
+		}
+	}
+	pg.base.dorm3d_ins_player_template[28] = {
+		id = 28,
+		message = {
+			"yuanchou_1_2"
+		},
+		npc_reply = {
+			28
+		}
+	}
+	pg.base.dorm3d_ins_player_template[29] = {
+		id = 29,
+		message = {
+			"yuanchou_2_1"
+		},
+		npc_reply = {
+			29
+		}
+	}
+	pg.base.dorm3d_ins_player_template[30] = {
+		id = 30,
+		message = {
+			"yuanchou_2_2"
+		},
+		npc_reply = {
+			30
 		}
 	}
 end)()

@@ -7,10 +7,11 @@ return {
 	},
 	scripts = {
 		{
-			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			side = 2,
-			bgm = "theme-magicalnight-mystic",
+			bgName = "star_level_bg_177",
 			withoutActorName = true,
+			bgm = "theme-magicalnight-mystic",
 			hideRecordIco = true,
 			actor = 299035,
 			nameColor = "#A9F548FF",
@@ -31,6 +32,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -48,6 +50,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 299035,
@@ -60,12 +63,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "哼哼哼，抓到你啦，亲爱的~",
 			typewriter = {
 				speed = 0.05,
@@ -73,6 +77,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -90,9 +95,10 @@ return {
 			expression = 8,
 			side = 2,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "touch",
 			say = "欢迎再次来到我们的童话书迷宫哦，亲爱的~",
 			typewriter = {
@@ -118,12 +124,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "嘿嘿，为了把亲爱的带回这里，我可是费了不少心思呢。",
 			typewriter = {
 				speed = 0.05,
@@ -131,12 +138,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "这里既没有恼人的文件，也没有其他碍事的同伴……",
 			typewriter = {
 				speed = 0.05,
@@ -147,9 +155,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "只有满心都是你的柴郡哦~",
 			typewriter = {
@@ -158,12 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "mission",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = "mission",
 			say = "那么现在……亲爱的准备好接受我的特殊款待了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -174,6 +184,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 299035,
@@ -186,6 +197,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -200,6 +212,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -214,12 +227,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "为了今天，柴郡可是翻出了好多有趣的小玩具呢~",
 			typewriter = {
 				speed = 0.05,
@@ -230,9 +244,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "headtouch",
 			say = "首先是……这个！柴郡最喜欢的毛线球！",
 			typewriter = {
@@ -241,6 +256,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -255,6 +271,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -272,6 +289,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 299035,
@@ -287,9 +305,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "home",
 			say = "嘻嘻，这样亲爱的就跑不掉了呀~",
 			typewriter = {
@@ -298,12 +317,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "嘘——不可以乱动哦？",
 			typewriter = {
 				speed = 0.05,
@@ -311,12 +331,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "不然的话……它可是会越绑越紧的哦~",
 			typewriter = {
 				speed = 0.05,
@@ -324,6 +345,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -338,6 +360,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -355,9 +378,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "接下来，就是柴郡第二喜欢的羽毛棒啦！",
 			typewriter = {
@@ -366,12 +390,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "嘻嘻，我早就想让指挥官也一同体验这种快乐的感觉了呢~",
 			typewriter = {
 				speed = 0.05,
@@ -379,6 +404,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -393,6 +419,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -407,6 +434,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -424,6 +452,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 299035,
@@ -439,9 +468,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "可是，亲爱的身体变得好烫呢？",
 			typewriter = {
@@ -450,12 +480,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "看来，亲爱的非常喜欢我为你准备的这些小花招呢~",
 			typewriter = {
 				speed = 0.05,
@@ -463,6 +494,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -477,6 +509,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -491,12 +524,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "最后……嘿嘿，亲爱的是不是以为这就结束啦？",
 			typewriter = {
 				speed = 0.05,
@@ -507,9 +541,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "不对哦——接下来才是真正的压轴大戏~",
 			typewriter = {
@@ -518,12 +553,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "main1",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = "main1",
 			say = "而且严格来说……这应该是亲爱的专门为我准备的礼物才对。",
 			typewriter = {
 				speed = 0.05,
@@ -531,12 +567,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			live2d = true,
 			say = "毕竟，是亲爱的自己送上门来的嘛~",
 			typewriter = {
 				speed = 0.05,

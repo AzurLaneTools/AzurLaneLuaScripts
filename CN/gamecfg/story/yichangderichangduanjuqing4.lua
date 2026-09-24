@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "深夜的办公室，真是个寂寞的地方呢。",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "看着您疲惫的背影……",
 			typewriter = {
 				speed = 0.05,
@@ -28,11 +30,12 @@ return {
 			}
 		},
 		{
-			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "我心里的爱，可是快要溢出来了哦？",
 			typewriter = {
 				speed = 0.05,
@@ -52,10 +55,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呵呵，因为这是能注视着您的地方啊~",
 			typewriter = {
@@ -66,10 +70,11 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呵呵……看来您似乎忘了比这更重要的工作呢~",
 			typewriter = {

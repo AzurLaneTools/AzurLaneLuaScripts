@@ -4,6 +4,12 @@ slot0.getUIName = function(slot0)
 	return "ClassUI"
 end
 
+slot0.getResource = function(slot0)
+	return {
+		"ui/classui"
+	}
+end
+
 slot0.SetStudents = function(slot0, slot1)
 	slot0.shipGroups = slot1
 end
@@ -83,7 +89,9 @@ slot0.didEnter = function(slot0)
 	slot0.students = slot0:FilterStudents()
 
 	slot0:InitClassInfo()
-	slot0:LoadClassRoom()
+	slot0:DownloadClassRoomResList(function ()
+		uv0:LoadClassRoom()
+	end)
 end
 
 slot0.DisplayChatContent = function(slot0)
@@ -121,6 +129,51 @@ slot0.FilterStudents = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.GetClassRoomResList = function(slot0)
+	slot1 = {}
+	slot2 = slot0.students or {}
+	slot6 = #slot0.studentSeats
+
+	for slot6 = 1, math.min(#slot2, slot6) do
+		if slot2[slot6]:GetSkin() then
+			slot0:InsertClassRoomCharRes(slot1, slot7.prefab)
+		end
+	end
+
+	if slot0.course then
+		slot0:InsertClassRoomCharRes(slot1, Ship.New({
+			configId = slot0.course:getConfig("id")
+		}):getPrefab())
+	end
+
+	return slot1
+end
+
+slot0.InsertClassRoomCharRes = function(slot0, slot1, slot2)
+	if not slot2 or slot2 == "" then
+		return
+	end
+
+	for slot7, slot8 in ipairs({
+		"char/" .. slot2,
+		"char/" .. slot2 .. "_hx"
+	}) do
+		if not table.contains(slot1, string.lower(slot8)) then
+			table.insert(slot1, slot8)
+		end
+	end
+end
+
+slot0.DownloadClassRoomResList = function(slot0, slot1)
+	SplitPackConst.DownloadByLuaArr(slot0:GetClassRoomResList(), function ()
+		if uv0.exited then
+			return
+		end
+
+		uv1()
+	end)
 end
 
 slot0.InitClassInfo = function(slot0)

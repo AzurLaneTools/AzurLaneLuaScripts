@@ -62,7 +62,7 @@ slot0.Ctor = function(slot0)
 	elseif PLATFORM_CODE == PLATFORM_JP then
 		slot1 = require("Mgr.Tracker.YoStarJPTracker")
 	elseif PLATFORM_CODE == PLATFORM_US then
-		slot1 = require("Mgr.Tracker.AiriUSTracker")
+		slot1 = require("Mgr.Tracker.YoStarUSTracker")
 	elseif PLATFORM_CODE == PLATFORM_KR then
 		slot1 = require("Mgr.Tracker.KwxyKrTracker")
 	elseif PLATFORM_CODE == PLATFORM_CHT then

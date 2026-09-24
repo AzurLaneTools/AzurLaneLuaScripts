@@ -93,7 +93,7 @@ slot0.GetGameplaySystemClasses = function()
 		CarWashRaycastSystem,
 		CarWashMuzzleEffect,
 		CarWashDecalSystem,
-		CarWashGlassMaterialFix,
+		CarWashCarSystem,
 		CarWashLadySystem
 	}
 end

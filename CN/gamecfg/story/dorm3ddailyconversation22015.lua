@@ -1,0 +1,175 @@
+return {
+	fadeOut = 1.5,
+	dialogbox = 2,
+	alpha = 0,
+	hideSkip = true,
+	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION22015",
+	placeholder = {
+		"dorm3d"
+	},
+	scripts = {
+		{
+			actorName = 20707,
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "平时怎么化妆的？没想到{dorm3d}会对这种事感兴趣。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "amazed_01-start",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = true,
+							name = "Face_think_start",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 1.5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
+			}
+		},
+		{
+			actorName = 20707,
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "虽然只是修饰外表，但妆容不同，心情也会变得不一样。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "anger_01-start",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = true,
+							name = "Face_smile_start",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 1.5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
+			}
+		},
+		{
+			actorName = 20707,
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "换个心情，或许就会遇见不一样的自己。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "Idle",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = true,
+							name = "Face_common",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 1.5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
+			}
+		},
+		{
+			actorName = 20707,
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "{dorm3d}想看看不一样的我吗？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "happy_01-start",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = true,
+							name = "Face_smile_start",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 1.5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
+			}
+		}
+	}
+}

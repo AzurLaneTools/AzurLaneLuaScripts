@@ -9,11 +9,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_131",
 			bgm = "theme-hospitalnight-mystic",
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "home",
 			say = "这么晚了还一个人盯着屏幕……",
 			typewriter = {
@@ -31,12 +32,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "我的指挥官，难道是在等我吗？",
 			typewriter = {
 				speed = 0.05,
@@ -44,6 +46,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -58,6 +61,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -72,12 +76,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "呵呵……找到您了哦，我最爱的指挥官~",
 			typewriter = {
 				speed = 0.05,
@@ -85,6 +90,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -99,6 +105,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -116,9 +123,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "login",
 			say = "呜……嗯……这条通道，稍微有点紧呢……",
 			typewriter = {
@@ -127,6 +135,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -144,9 +153,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "我的指挥官，能拉我一把吗？",
 			typewriter = {
@@ -158,9 +168,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "当然……如果您更喜欢我现在这副样子，我也可以暂时保持不动哦？",
 			typewriter = {
@@ -182,6 +193,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_131",
+			NextIcon = 1,
 			actorName = "{playername}",
 			optionFlag = 1,
 			hideRecordIco = true,
@@ -198,10 +210,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "哎呀，指挥官这是在拒绝我靠近吗？真温柔呢~",
 			typewriter = {
@@ -210,12 +223,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
 			optionFlag = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "不过，把这份满溢的爱关在屏幕另一边，可不是一位合格指挥官该做的事哦？",
 			typewriter = {
@@ -227,6 +241,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_131",
+			NextIcon = 1,
 			actorName = "{playername}",
 			optionFlag = 2,
 			hideRecordIco = true,
@@ -243,10 +258,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "呵呵……我就知道，您一定舍不得让我在这里受苦。",
 			typewriter = {
@@ -255,12 +271,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "那么，就请您将我从这片冰冷的玻璃中牵出来吧~",
 			typewriter = {
@@ -269,6 +286,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -283,6 +301,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -300,9 +319,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "呼……终于能真切地感受到您的心跳了。",
 			typewriter = {
@@ -314,9 +334,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "隔着屏幕凝望您、呼唤您，却无法触碰您……实在是件非常寂寞的事。",
 			typewriter = {
@@ -328,6 +349,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_131",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403143,
@@ -343,9 +365,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "呵呵……未完成的工作，明天仍会继续等待您。",
 			typewriter = {
@@ -354,12 +377,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "但疲惫的心若是一直无人爱护，可是会在寂静里迷路的哦？",
 			typewriter = {
 				speed = 0.05,
@@ -367,6 +391,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -384,9 +409,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "深夜既是最为寂寥的时刻，也是最适合低声歌唱“爱”的时刻。",
 			typewriter = {
@@ -398,9 +424,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "headtouch",
 			say = "让我们一起……将这份寂寥一点一点谱成只属于我们的旋律吧。",
 			typewriter = {
@@ -409,6 +436,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -423,12 +451,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "来吧，我亲爱的指挥官~",
 			typewriter = {
 				speed = 0.05,
@@ -436,12 +465,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "请务必将您这份滚烫的“爱”，毫无保留地倾注给我哦~♡",
 			typewriter = {
 				speed = 0.05,

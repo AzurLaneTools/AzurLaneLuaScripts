@@ -4,6 +4,19 @@ slot0.getUIName = function(slot0)
 	return "SpWeaponInfoUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/equipmentinfoui_atlas",
+		"equiptype",
+		"weaponframes",
+		"shiptype"
+	}
+
+	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+
+	return slot2
+end
+
 slot0.Left = 1
 slot0.Middle = 2
 slot0.Right = 3
@@ -184,6 +197,22 @@ end
 
 slot0.updateOperation1 = function(slot0)
 	triggerToggle(slot0.toggles.defaultPanel, true)
+
+	if not slot0.equipmentVO and slot0.contextData.spWeaponUid then
+		slot0.equipmentVO = getProxy(EquipmentProxy):GetSpWeaponByUid(slot1)
+
+		if not slot0.equipmentVO then
+			for slot6, slot7 in pairs(getProxy(BayProxy):getRawData()) do
+				if slot7:GetSpWeapon() and slot8:GetUID() == slot1 then
+					slot0.shipVO = slot2:getShipById(slot6)
+					slot0.equipmentVO = slot0.shipVO:GetSpWeapon()
+					slot0.contextData.shipId = slot6
+					slot0.contextData.type = uv0.TYPE_SHIP
+				end
+			end
+		end
+	end
+
 	slot0:updateEquipmentPanel(slot0.defaultEquipTF, slot0.equipmentVO, SpWeaponHelper.TransformNormalInfo(slot0.equipmentVO))
 	setActive(slot0.defaultEnhanceBtn, true)
 	setActive(slot0.defaultReplaceBtn, false)

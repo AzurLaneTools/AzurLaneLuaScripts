@@ -11,6 +11,16 @@ slot0.getUIName = function(slot0)
 	return "ShipEquipView"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ammo"
+	}
+
+	table.insertto(slot2, uv0.super.getResource(slot0))
+
+	return slot2
+end
+
 slot0.OnInit = function(slot0)
 	slot0:InitEquipment()
 end

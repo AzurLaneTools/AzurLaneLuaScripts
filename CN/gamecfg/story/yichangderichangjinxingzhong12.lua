@@ -7,6 +7,7 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -30,6 +31,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -44,12 +46,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 307053,
+			NextIcon = 1,
 			say = "请问……前方的旅人。",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +65,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "可否收留一只被风雪困住的鹤呢？",
 			typewriter = {
 				speed = 0.05,
@@ -71,6 +75,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -89,6 +94,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -105,8 +111,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "啊呀~还是一下子就被看穿了呢~",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +126,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "我本以为，这身打扮至少能让指挥官迟疑一会。",
 			typewriter = {
 				speed = 0.05,
@@ -128,6 +136,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -147,8 +156,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "接下来的剧目是……“白鹤报恩”哦~",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +171,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "传说中，被救下的鹤会悄悄织出美丽的锦缎，献给那位温柔的恩人。",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +186,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "而我嘛……虽然不会织布，却可以用笛声，为恩人织一个温暖的梦……你愿意听吗？",
 			typewriter = {
 				speed = 0.05,
@@ -188,6 +200,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -199,6 +212,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -213,6 +227,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -227,6 +242,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -245,6 +261,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -261,8 +278,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "若不显得可怜一些，又怎么能让恩人心甘情愿地收留我呢？",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +293,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "这是报恩的诚意，也是小小的任性。指挥官不会责怪我吧？",
 			typewriter = {
 				speed = 0.05,
@@ -284,6 +303,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -303,8 +323,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "……恩人这是，心疼我了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -316,6 +337,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -327,6 +349,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -346,8 +369,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "嗯……恩人的掌心，果然很暖呢~",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +384,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "不过，手心是暖和起来了……可有一处，还是有些凉呢。",
 			typewriter = {
 				speed = 0.05,
@@ -373,6 +398,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -389,8 +415,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "这里呀~",
 			typewriter = {
 				speed = 0.05,
@@ -398,6 +425,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -412,6 +440,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -431,8 +460,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "今夜还很长呢，恩人。请再多期待一些……属于{namecode:95:翔鹤}的报答吧~",
 			typewriter = {
 				speed = 0.05,
@@ -440,6 +470,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,

@@ -93,6 +93,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.hideRecordIco = slot1.hideRecordIco
 	slot0.paingtingScale = slot1.actorScale
+	slot0.paingtingZRot = slot1.actor_rotation or 0
 	slot0.paingtingYFlip = slot1.actorYFlip
 	slot0.hidePainting = slot1.withoutPainting
 	slot0.hidePaintingWithName = slot1.hidePainting
@@ -317,6 +318,10 @@ end
 
 slot0.GetPaintingDir = function(slot0)
 	return (slot0.dir or 1) * (slot0.paingtingScale or 1)
+end
+
+slot0.GetPaintingZRotation = function(slot0)
+	return slot0.paingtingZRot
 end
 
 slot0.ShouldFlipPaintingY = function(slot0)

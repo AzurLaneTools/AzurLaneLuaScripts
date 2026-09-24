@@ -24,6 +24,84 @@ slot0.getUIName = function(slot0)
 	return "DockyardUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/dockyardui_atlas",
+		"energy",
+		"shipstatus",
+		"shipframe",
+		"shiptype",
+		"ui/proposeshipcard",
+		"ui/heartshipcard",
+		"shipYardIcon/unknown",
+		"ui/iconcolorful",
+		"ui/recordablesearchbarui"
+	}
+
+	table.insertto(slot2, slot0:getDockyardShipResList(slot1))
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.getDockyardShipResList = function(slot0, slot1)
+	slot2 = {}
+	slot3 = {}
+
+	if slot1 and slot1.shipVOs then
+		for slot7, slot8 in ipairs(slot1.shipVOs) do
+			slot3[slot8.id] = slot8
+		end
+	elseif slot1 and slot1.mode == uv0.MODE_WORLD then
+		for slot7, slot8 in ipairs(nowWorld():GetShipVOs()) do
+			slot3[slot8.id] = slot8
+		end
+	else
+		for slot8, slot9 in pairs(getProxy(BayProxy).data) do
+			slot3[slot8] = slot9
+		end
+	end
+
+	if slot1 and slot1.ignoredIds then
+		for slot7, slot8 in ipairs(slot1.ignoredIds) do
+			slot3[slot8] = nil
+		end
+	end
+
+	for slot7, slot8 in pairs(slot3) do
+		slot0:insertDockyardShipItemRes(slot2, slot8)
+	end
+
+	if slot1 and slot1.mode == uv0.MODE_SHIP_PHANTOM then
+		slot5 = getProxy(BayProxy)
+
+		for slot9, slot10 in ipairs(getProxy(TechnologyProxy):getAllBluePrintShipIds()) do
+			if slot5:getShipById(slot10) and #slot11:getAllShipPhantomMarks() > 1 then
+				slot9.each(slot11:getAllShipPhantom(), function (slot0)
+					table.insertto(uv0, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot0:getPainting()))
+				end)
+			end
+		end
+	end
+
+	return slot2
+end
+
+slot0.insertDockyardShipItemRes = function(slot0, slot1, slot2)
+	table.insert(slot1, string.format(ResPathSupport.ConstPath.BG.ShipCard, slot2:rarity2bgPrint()))
+	table.insertto(slot1, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot2:getPainting()))
+
+	slot5, slot6 = slot2:GetFrameAndEffect()
+
+	table.insert(slot1, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Effect, slot6))
+
+	if slot2.user then
+		table.insertto(slot1, ResPathSupport.GetSpineQIconListByPrefabName(Ship.New({
+			configId = slot8.icon
+		}):getPrefab()))
+		table.insert(slot1, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.IconFrame, AttireFrame.attireFrameRes(slot8, false, AttireConst.TYPE_ICON_FRAME, slot8.propose)))
+	end
+end
+
 slot0.init = function(slot0)
 	slot1 = slot0.contextData
 	slot1.mode = defaultValue(slot1.mode, uv0.MODE_SELECT)

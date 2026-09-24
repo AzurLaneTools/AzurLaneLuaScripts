@@ -668,6 +668,7 @@ pg.player_resource.all = {
 	4028,
 	4029,
 	4030,
+	4031,
 	4186,
 	4276,
 	4599,
@@ -789,6 +790,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	Battlepass_30 = {
 		4030
+	},
+	Battlepass_31 = {
+		4031
 	},
 	Battlepass_9 = {
 		4009
@@ -6138,6 +6142,11 @@ end)()
 		id = 4030,
 		name = "Battlepass_30",
 		itemid = 65118
+	}
+	pg.base.player_resource[4031] = {
+		id = 4031,
+		name = "Battlepass_31",
+		itemid = 65121
 	}
 	pg.base.player_resource[4186] = {
 		id = 4186,

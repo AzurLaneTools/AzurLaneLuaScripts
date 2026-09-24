@@ -155,7 +155,7 @@ slot0.riseTaskFinishCount = function(slot0)
 end
 
 slot0.getDailyTaskIds = function(slot0)
-	return underscore.rest(slot0.dailyTaskIds, 1)
+	return underscore.to_array(slot0.dailyTaskIds)
 end
 
 slot0.UpdateDailyTaskIds = function(slot0, slot1)
@@ -189,7 +189,7 @@ slot0.checkDailyTask = function(slot0, slot1)
 						uv0:checkDailyTask()
 					end, uv0.dailyTimeStemp - pg.TimeMgr.GetInstance():GetServerTime() + 1)
 
-					uv0:UpdateDailyTaskIds(underscore.rest(slot0.task_list, 1))
+					uv0:UpdateDailyTaskIds(underscore.to_array(slot0.task_list))
 				else
 					pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 				end

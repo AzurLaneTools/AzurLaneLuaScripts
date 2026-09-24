@@ -54,6 +54,7 @@ slot0.execute = function(slot0, slot1)
 	ActivityMainScene.FetchReturnersTime = nil
 	ActivityMainScene.Data2Time = nil
 	MainSkinDiscountItemTipSequence.TipFlag = nil
+	MainPrevPeriodCrusingChargeTipSequence.TIP = true
 	COMBAT_SKIN_KEY = nil
 
 	pg.BrightnessMgr.GetInstance():ExitManualMode()

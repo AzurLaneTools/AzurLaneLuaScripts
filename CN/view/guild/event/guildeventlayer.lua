@@ -64,6 +64,73 @@ slot0.preload = function(slot0, slot1)
 	}, slot1)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2 = {
+		"ui/GuildEventPage",
+		"ui/GuildMissionBossPage",
+		"ui/GuildEventUI_atlas",
+		"ui/GuildMissionUI_atlas",
+		"ui/guildmissionui_atlas",
+		"commonbg/guild_event_bg",
+		"guildevent/0",
+		"guildevent/0_0"
+	}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot5 = getProxy(GuildProxy):getRawData() and slot4:GetEvents() or {}
+
+	for slot9, slot10 in ipairs(slot5) do
+		slot3("guildevent/" .. slot10.id)
+
+		if slot10:IsActive() then
+			slot3("GuildMission/" .. slot10:GetTheme())
+
+			slot11 = slot10:GetMissions() or {}
+
+			for slot15, slot16 in pairs(slot11) do
+				for slot20, slot21 in ipairs(slot16) do
+					slot3("GuildMission/" .. slot21:GetIcon())
+				end
+			end
+
+			if slot10:GetBossMission() then
+				slot3("GuildMission/boss_" .. slot12:GetIcon())
+
+				if slot12:IsActive() then
+					if noEmptyStr(slot12:GetPainting()) then
+						slot3("guildpainting/" .. slot13)
+					else
+						slot14 = slot12:GetEmenyId()
+
+						slot3("guildboss/" .. slot14)
+						slot3("guildboss/name_" .. slot14)
+					end
+				end
+			end
+		end
+	end
+
+	for slot9, slot10 in ipairs(slot2) do
+		if not table.contains(slot1, slot10) then
+			table.insert(slot1, slot10)
+		end
+	end
+
+	return slot1
+end
+
+slot0.getResource = function(slot0)
+	slot2 = {}
+
+	return uv0.super.getResource(slot0)
+end
+
 slot0.UpdateGuild = function(slot0, slot1)
 	slot0:SetGuild(slot1)
 

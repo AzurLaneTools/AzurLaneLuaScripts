@@ -2,16 +2,17 @@ slot0 = class("WorldAtlas", import("...BaseEntity"))
 slot0.Fields = {
 	config = "table",
 	sairenEntranceList = "table",
-	replaceDic = "table",
 	entranceDic = "table",
+	replaceDic = "table",
 	costMapDic = "table",
 	mapDic = "table",
+	areaEntranceList = "table",
 	achEntranceList = "table",
-	markPortDic = "table",
 	pressingMapList = "table",
-	nShopGoodsDic = "table",
+	markPortDic = "table",
 	portEntranceList = "table",
 	activeMapId = "number",
+	nShopGoodsDic = "table",
 	taskMarkDic = "table",
 	pressingUnlcokCount = "number",
 	world = "table",
@@ -19,7 +20,7 @@ slot0.Fields = {
 	treasureMarkDic = "table",
 	id = "number",
 	activeEntranceId = "number",
-	areaEntranceList = "table",
+	delegatedMapDic = "table",
 	mapEntrance = "table"
 }
 slot0.EventUpdateProgress = "WorldAtlas.EventUpdateProgress"
@@ -58,6 +59,7 @@ slot0.Build = function(slot0)
 	slot0.treasureMarkDic = {}
 	slot0.sairenEntranceList = {}
 	slot0.costMapDic = {}
+	slot0.delegatedMapDic = {}
 	slot0.pressingMapList = {}
 	slot0.transportDic = {}
 	slot0.markPortDic = {}
@@ -315,6 +317,20 @@ slot0.UpdateTreasure = function(slot0, slot1)
 	end
 end
 
+slot0.SetDelegatedMarkList = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.delegatedMapDic) do
+		slot0:GetMap(slot5):UpdateDeteagtedMark(false)
+	end
+
+	slot0.delegatedMapDic = {}
+
+	for slot5, slot6 in ipairs(slot1) do
+		slot0.delegatedMapDic[slot6] = true
+
+		slot0:GetMap(slot6):UpdateDeteagtedMark(true)
+	end
+end
+
 slot0.SetPressingMarkList = function(slot0, slot1)
 	_.each(slot0.pressingMapList, function (slot0)
 		uv0:GetMap(slot0):UpdatePressingMark(false)
@@ -365,6 +381,20 @@ slot0.MarkMapTransport = function(slot0, slot1)
 	if slot0.mapEntrance[slot1] then
 		slot0.transportDic[slot2.id] = true
 	end
+end
+
+slot0.AddDelegatedMap = function(slot0, slot1)
+	assert(not slot0.delegatedMapDic[slot1], "already delegated map: " .. slot1)
+
+	slot0.delegatedMapDic[slot1] = true
+	slot0.costMapDic[slot1] = true
+	slot2 = slot0:GetMap(slot1)
+
+	slot2:UpdateDeteagtedMark(true)
+
+	slot2.isCost = true
+
+	slot0:AddPressingMap(slot1)
 end
 
 slot0.AddPressingMap = function(slot0, slot1)
@@ -441,7 +471,7 @@ slot0.RemoveSairenEntrance = function(slot0, slot1)
 end
 
 slot0.SetCostMapList = function(slot0, slot1)
-	for slot5 in pairs(slot0.costMapDic) do
+	for slot5, slot6 in pairs(slot0.costMapDic) do
 		slot0:GetMap(slot5).isCost = false
 	end
 

@@ -4,6 +4,32 @@ slot0.getUIName = function(slot0)
 	return "MetaCharacterTacticsUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/metacharactertacticsui",
+		"ui/iconcolorful"
+	}
+	slot3 = {}
+	slot4 = {}
+	slot5 = slot1 and slot1.shipID
+
+	if slot5 and getProxy(BayProxy):getShipById(slot5) then
+		if slot6:getMetaCharacter() then
+			slot8, slot9 = MetaCharacterConst.GetMetaCharacterPaintPath(slot7.id, true)
+
+			table.insert(slot3, slot8)
+		end
+
+		for slot12, slot13 in ipairs(MetaCharacterConst.getTacticsSkillIDListByShipConfigID(slot6.configId)) do
+			if getSkillConfig(slot13) and slot14.icon then
+				table.insert(slot4, ResPathSupport.CombinePath("skillicon", slot14.icon))
+			end
+		end
+	end
+
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), slot2, slot3, slot4)
+end
+
 slot0.init = function(slot0)
 	slot0:initUITextTips()
 	slot0:initData()

@@ -18,6 +18,26 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dInsMainUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot4 = ipairs
+	slot5 = getProxy(Dorm3dInsProxy):GetRoomList() or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		slot3(slot8:GetIcon())
+		slot3(slot8:GetCard())
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.init = function(slot0)
 	slot0.bg = slot0._tf:Find("bg")
 	slot1 = slot0._tf

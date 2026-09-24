@@ -12,9 +12,10 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			bgm = "story-ghostnight-fascinsting",
 			actor = 9600033,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			say = "呵呵呵呵……呵呵呵呵……",
 			typewriter = {
 				speed = 0.05,
@@ -30,6 +31,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -49,8 +51,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "有猎物闯进来……躲在哪里了呢？",
 			typewriter = {
 				speed = 0.05,
@@ -58,6 +61,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -72,6 +76,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -91,8 +96,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "嗯哼……找·到·您·了~",
 			typewriter = {
 				speed = 0.05,
@@ -100,6 +106,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -119,8 +126,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "原来是您啊……指挥官大人。",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +141,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "您能来找我，我很高兴。但是——为什么要躲着我呢？",
 			typewriter = {
 				speed = 0.05,
@@ -142,6 +151,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -161,8 +171,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "这可不是什么值得夸奖的行为哦？",
 			typewriter = {
 				speed = 0.05,
@@ -174,6 +185,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600033,
@@ -190,8 +202,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "工作？原来如此。",
 			typewriter = {
 				speed = 0.05,
@@ -199,6 +212,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -217,6 +231,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600033,
@@ -233,8 +248,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "所以……您准备就这样结束了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -242,6 +258,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -261,8 +278,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "指挥官大人，这可不行哦~",
 			typewriter = {
 				speed = 0.05,
@@ -270,6 +288,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -289,8 +308,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "作为让金鹿找了这么久的惩罚……",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +323,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "我会，好好招待您的~♡",
 			typewriter = {
 				speed = 0.05,
@@ -312,6 +333,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -326,9 +348,10 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
+			bgName = "star_level_bg_115",
 			hideRecordIco = true,
 			actor = 9600032,
 			nameColor = "#A9F548FF",
@@ -360,6 +383,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -375,9 +399,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "是金鹿的浴室哟~",
 			typewriter = {
@@ -386,6 +411,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -403,6 +429,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -418,9 +445,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "呵呵~因为黏黏的指挥官大人，在被享用之前……要先好好清洗一下才行~",
 			typewriter = {
@@ -429,6 +457,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -446,6 +475,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -461,9 +491,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "我当然知道，所以之后将由我亲自为您一点一点抹上泡沫……仔细地将您身上的每一处洗净。",
 			typewriter = {
@@ -472,6 +503,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -486,6 +518,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -503,9 +536,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "main3",
 			say = "您看起来有些紧张呢~是因为现在才意识到——自己已经逃不掉了吗？",
 			typewriter = {
@@ -517,6 +551,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -532,9 +567,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "是吗？那就更好了。",
 			typewriter = {
@@ -543,6 +579,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -557,6 +594,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -574,9 +612,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "指挥官大人，不要动……让我来~",
 			typewriter = {
@@ -585,6 +624,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -602,9 +642,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "心跳声……好响，隔着这么多泡沫都能感觉到呢~",
 			typewriter = {
@@ -616,9 +657,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "指挥官大人，您是害怕吗？",
 			typewriter = {
@@ -630,6 +672,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -645,9 +688,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "main1",
 			say = "那就是说……您其实也期待着，对吗？",
 			typewriter = {
@@ -656,6 +700,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -673,9 +718,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "洗干净只是第一步。而第二步——",
 			typewriter = {
@@ -687,9 +733,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "我会把您一点点吃掉……从头到脚，每一寸都不会浪费。",
 			typewriter = {
@@ -698,6 +745,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -715,9 +763,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "home",
 			say = "让我更透彻地理解您——从头到脚，从皮肤到心跳，从您现在这副困扰的表情，到您说不出口的那些话。",
 			typewriter = {
@@ -729,9 +778,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "请放心，我是不会伤害您的……",
 			typewriter = {
@@ -740,6 +790,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -757,9 +808,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "我只会……将您变得更加美味~♡",
 			typewriter = {

@@ -4,6 +4,17 @@ slot0.getUIName = function(slot0)
 	return "EquipmentInfoUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/equipmentinfoui_atlas",
+		"equiptype"
+	}
+
+	table.insertto(slot2, uv0.super.getResource(slot0))
+
+	return slot2
+end
+
 slot0.PANEL_DESTROY = "Destroy"
 slot0.PANEL_REVERT = "Revert"
 slot0.Left = 1

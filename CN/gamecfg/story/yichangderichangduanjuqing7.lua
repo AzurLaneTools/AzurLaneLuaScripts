@@ -5,9 +5,10 @@ return {
 	scripts = {
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "明知道前方的黑暗里蛰伏着何物……",
 			typewriter = {
 				speed = 0.05,
@@ -16,9 +17,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "却还是毫不犹豫地走了进来呢。",
 			typewriter = {
 				speed = 0.05,
@@ -27,9 +29,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "呵呵……你的一切，就由我收下咯~",
 			typewriter = {
 				speed = 0.05,
@@ -48,9 +51,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 1,
 			say = "呵呵……我很期待你能挣扎到何时哦♪",
 			typewriter = {
@@ -60,9 +64,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 2,
 			say = "哎呀……我对那些无聊的纸片可没什么兴趣呢♪",
 			typewriter = {

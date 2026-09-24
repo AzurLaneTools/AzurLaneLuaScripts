@@ -11656,7 +11656,63 @@ pg.activity_ins_chat_language.all = {
 	11651,
 	11652,
 	11653,
-	11654
+	11654,
+	11655,
+	11656,
+	11657,
+	11658,
+	11659,
+	11660,
+	11661,
+	11662,
+	11663,
+	11664,
+	11665,
+	11666,
+	11667,
+	11668,
+	11669,
+	11670,
+	11671,
+	11672,
+	11673,
+	11674,
+	11675,
+	11676,
+	11677,
+	11678,
+	11679,
+	11680,
+	11681,
+	11682,
+	11683,
+	11684,
+	11685,
+	11686,
+	11687,
+	11688,
+	11689,
+	11690,
+	11691,
+	11692,
+	11693,
+	11694,
+	11695,
+	11696,
+	11697,
+	11698,
+	11699,
+	11700,
+	11701,
+	11702,
+	11703,
+	11704,
+	11705,
+	11706,
+	11707,
+	11708,
+	11709,
+	11710
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -69584,7 +69640,7 @@ end)()
 		flag = 0
 	}
 	pg.base.activity_ins_chat_language[6490] = {
-		param = "嘿嘿，阿尔萨斯刚换了新手机！明石说超级耐热~",
+		param = "嘿嘿，阿尔萨斯刚换了新手机！{namecode:98}说超级耐热~",
 		ship_group = 80503,
 		option = "",
 		type = 1,
@@ -114280,5 +114336,470 @@ end)()
 		type = 1,
 		id = 11654,
 		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11655] = {
+		param = "紧急情况喵！啾啾游戏厅今天的营业额……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11655,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11656] = {
+		param = "暴跌了喵！！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11656,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11657] = {
+		param = "明明我才花大价钱引进了最近的跳舞机……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11657,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11658] = {
+		param = "而且今天出门前，我还看到游戏厅门口为了一圈又一圈的人，这才放心去商店的",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11658,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11659] = {
+		param = "哦，那是大家聚在门口看{namecode:6}打萌舞达人",
+		ship_group = 10131,
+		option = "",
+		type = 1,
+		id = 11659,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11660] = {
+		param = "她太厉害了，有不少人想挑战，所以围观的人越来越多……",
+		ship_group = 10131,
+		option = "",
+		type = 1,
+		id = 11660,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11661] = {
+		param = "只围观不上手……就和白看书不花钱的人一样！！都是想让{namecode:98}破产喵~！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11661,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11662] = {
+		param = "不过，{namecode:6}的表现确实很帅气呢",
+		ship_group = 30311,
+		option = "",
+		type = 1,
+		id = 11662,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11663] = {
+		param = "那已经不是普通玩家会有的眼神了，简直像鬼神附体般冷酷",
+		ship_group = 30311,
+		type = 1,
+		id = 11663,
+		flag = 0,
+		option = {
+			{
+				1,
+				"你们说的应该不是在打音游吧……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11664] = {
+		param = "你们说的应该不是在打音游吧……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11664,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11665] = {
+		param = "是真的，凡人！打游戏可不是闹着玩的！",
+		ship_group = 40124,
+		option = "",
+		type = 1,
+		id = 11665,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11666] = {
+		param = "没错……被她击败之后，我的恶魔之力也被夺走了……！",
+		ship_group = 40136,
+		option = "",
+		type = 1,
+		id = 11666,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11667] = {
+		param = "{namecode:6}击败了一个又一个挑战者，不断吸收败者的力量，最后进入了“鬼神”形态！",
+		ship_group = 40206,
+		option = "",
+		type = 1,
+		id = 11667,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11668] = {
+		param = "那股气场太可怕了……旁人根本不敢靠近，五米之内都是禁区！",
+		ship_group = 30606,
+		option = "",
+		type = 1,
+		id = 11668,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11669] = {
+		param = "五米……那不是正好把游戏厅的大门封印了喵？！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11669,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11670] = {
+		param = "唔，我的眼神很凶吗……？",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11670,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11671] = {
+		param = "只是打了一天的萌舞达人，有点累了在强撑精神而已",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11671,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11672] = {
+		param = "等等，“鬼神”这个词怎么有点眼熟……",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11672,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11673] = {
+		param = "想起来了！萌舞达人节奏榜榜首，“三无鬼神”！",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11673,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11674] = {
+		param = "原来我这么出名吗？",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11674,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11675] = {
+		param = "霸榜超百天，分数远远领先于第二名的传奇，难怪能吸引这么多玩家！",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11675,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11676] = {
+		param = "人是都被吸引来了没错，可大家堵在门口不进来，游戏厅还是赚不到钱喵！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11676,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11677] = {
+		param = "那把机器挪到店里面不就可以了？",
+		ship_group = 10212,
+		option = "",
+		type = 1,
+		id = 11677,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11678] = {
+		param = "那样曝光度就会下降了……！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11678,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11679] = {
+		param = "好不容易能恰上流量，当然要努力喵！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11679,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11680] = {
+		param = "而且那几台萌舞达人的机器超贵的，只靠本身的收益完全没法回本",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11680,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11681] = {
+		param = "如果不能靠它招徕客流，游戏厅或许撑不到后年……不不，明年就……呜喵！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11681,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11682] = {
+		param = "320",
+		ship_group = 31201,
+		type = 4,
+		id = 11682,
+		flag = 1,
+		option = {
+			{
+				2,
+				"那比起纠结机器的位置，重点应该是……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11683] = {
+		param = "那比起纠结机器的位置，把围观的人变成真正进店消费的客流吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11683,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11684] = {
+		param = "在这方面，{namecode:6}带来的广告效果显然比机器更强？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11684,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11685] = {
+		param = "可如果机器不摆在外面，路过的人又怎么知道“三无鬼神”在这里喵？",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11685,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11686] = {
+		param = "那就别靠路过的人“偶然看到”了。",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11686,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11687] = {
+		param = "我有一条计策，不过首先需要{namecode:6}的帮助……",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11687,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11688] = {
+		param = "如果能帮上忙的话，我没问题",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11688,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11689] = {
+		param = "太谢谢{namecode:6}了喵！{namecode:6}是游戏厅的大救星喵！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11689,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11690] = {
+		param = "不要高兴太早了哦，还需要{namecode:98}你再出一大笔投资呢",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11690,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11691] = {
+		param = "303",
+		ship_group = 31201,
+		option = "",
+		type = 4,
+		id = 11691,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11692] = {
+		param = "我的红尖尖……这……那{namecode:98}要先听听你的计划喵！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11692,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11693] = {
+		param = "我们来办一场萌舞达人擂台赛吧",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11693,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11694] = {
+		param = "前十名的玩家都可以获取丰厚奖励，而前三名将额外获得——",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11694,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11695] = {
+		param = "挑战现任擂主“三无鬼神”的资格！",
+		ship_group = 30213,
+		type = 1,
+		id = 11695,
+		flag = 2,
+		option = {
+			{
+				3,
+				"听得我都跃跃欲试了"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11696] = {
+		param = "原来如此……听得我都跃跃欲试了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11696,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11697] = {
+		param = "没错，就要这种效果",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11697,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11698] = {
+		param = "这样一来，把萌舞达人机器摆在游戏厅内部就不成问题了",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11698,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11699] = {
+		param = "只要将这个赛事宣传出去，参赛者就会像罐头里的沙丁鱼一样挤满游戏厅",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11699,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11700] = {
+		param = "我粗略计算了一下……现有的萌舞达人机器数量还不够支持比赛",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 11700,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11701] = {
+		param = "必须要再引进好几台才行",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 11701,
+		flag = 3
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[11702] = {
+		param = "那场地布置也得一起调整才好吧",
+		ship_group = 20513,
+		option = "",
+		type = 1,
+		id = 11702,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11703] = {
+		param = "赞成，如果吸引来了大量玩家却无法承接住客流",
+		ship_group = 30118,
+		option = "",
+		type = 1,
+		id = 11703,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11704] = {
+		param = "那前面的投入也会白费了",
+		ship_group = 30118,
+		option = "",
+		type = 1,
+		id = 11704,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11705] = {
+		param = "所以，{namecode:98}你做好大出血的准备了吗？",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11705,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11706] = {
+		param = "这可是绝地翻盘的好机会呢",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11706,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11707] = {
+		param = "购入新的游戏机、大厅改造、还有提供给玩家的丰厚奖品……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11707,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11708] = {
+		param = "放长线才能钓大鱼，为了游戏厅的发展——",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11708,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11709] = {
+		param = "用尽全身力气说出那句……我……我……我同意喵……！！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11709,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11710] = {
+		param = "309",
+		ship_group = 31201,
+		option = "",
+		type = 4,
+		id = 11710,
+		flag = 3
 	}
 end)()

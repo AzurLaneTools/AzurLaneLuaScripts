@@ -359,9 +359,9 @@ slot0.refreshCodes = function(slot0)
 		}, false))
 	else
 		if #slot0.firstPool < 3 then
-			slot0.filterCodes = underscore.rest(slot0.firstPool, 1)
+			slot0.filterCodes = underscore.to_array(slot0.firstPool)
 		elseif #slot0.firstPool < slot0.refreshCount * 3 then
-			slot1 = underscore.rest(slot0.firstPool, 1)
+			slot1 = underscore.to_array(slot0.firstPool)
 
 			for slot5 = 1, 3 do
 				slot6 = math.random(#slot1)
@@ -374,8 +374,8 @@ slot0.refreshCodes = function(slot0)
 		end
 
 		slot1 = {
-			underscore.rest(slot0.newPool, 1),
-			underscore.rest(slot0.oldPool, 1),
+			underscore.to_array(slot0.newPool),
+			underscore.to_array(slot0.oldPool),
 			underscore.filter(slot0.firstPool, function (slot0)
 				return underscore.all(uv0.filterCodes, function (slot0)
 					return slot0.id ~= uv0.id

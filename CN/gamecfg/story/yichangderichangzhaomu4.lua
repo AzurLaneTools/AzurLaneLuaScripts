@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "嘟……我来赴约了。招募什么的，现在开始吧？",
 			typewriter = {
@@ -24,12 +25,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "呵……轻轻松松。",
 			typewriter = {
 				speed = 0.05,
@@ -37,11 +39,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "只要提前站在它们以为最安全的地方就行。",
 			typewriter = {
@@ -56,12 +59,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "当然不会……",
 			typewriter = {
 				speed = 0.05,
@@ -72,9 +76,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "不，偶尔会吧……",
 			typewriter = {
@@ -92,9 +97,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "是或者不是，你更想听到哪个答案？",
 			typewriter = {
@@ -106,9 +112,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……明明你可以看透我的伪装，却还是要我亲口回答……哼。",
 			typewriter = {
@@ -120,9 +127,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "（幽怨地盯着你）",
 			typewriter = {
@@ -131,12 +139,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "你的各方面情况，我已经了解了。",
 			typewriter = {
 				speed = 0.05,
@@ -144,12 +153,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "{namecode:314:伊14}，欢迎加入。",
 			typewriter = {
 				speed = 0.05,
@@ -160,9 +170,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……这就通过了？比想象中轻松，好欸——（棒读）",
 			typewriter = {

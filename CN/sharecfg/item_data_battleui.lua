@@ -19,6 +19,7 @@ pg.item_data_battleui.all = {
 	114,
 	115,
 	116,
+	117,
 	201,
 	202,
 	203,
@@ -267,6 +268,21 @@ pg.base.item_data_battleui = {}
 		desc = "旧日的光影在界面间流转，皇家的优雅余韵也随之铺展开来，为每一次战斗添上一抹古典而精致的气息。 ",
 		id = 116,
 		icon = "116",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[117] = {
+		name = "枪弹密约",
+		key = "SkinNormal_20260924",
+		display_icon = "ui_117",
+		unlock = "世界巡游三十一期获取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "旧街的硝烟在界面间弥散，弹巢与弹痕交织出无声的邀约，为每一次战斗添上一抹优雅而危险的气息。",
+		id = 117,
+		icon = "117",
 		scene = {},
 		rare_display = {
 			1

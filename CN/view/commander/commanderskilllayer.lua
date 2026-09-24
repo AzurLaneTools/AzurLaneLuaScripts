@@ -4,6 +4,16 @@ slot0.getUIName = function(slot0)
 	return "CommanderSkillUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {}
+
+	if slot1 and slot1.skill then
+		table.insert(slot2, ResPathSupport.CombinePath(ResPathSupport.ConstPath.Commander.CommanderSkillIcon, slot3:getConfig("icon")))
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.init = function(slot0)
 	slot1 = slot0.contextData.skill
 	slot0.backBtn = slot0._tf:Find("top/btnBack")

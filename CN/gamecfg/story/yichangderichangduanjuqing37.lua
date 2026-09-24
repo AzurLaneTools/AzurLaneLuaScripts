@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "指挥官，大楼的电梯突然停住不动了，门也打不开……",
 			typewriter = {
 				speed = 0.05,
@@ -16,11 +17,12 @@ return {
 			}
 		},
 		{
-			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "我该怎么办？",
 			typewriter = {
 				speed = 0.05,
@@ -40,10 +42,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "好的，那我就在里面等你~",
 			typewriter = {
@@ -54,10 +57,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "有指挥官这么说，我感觉安心多了呢~一定要来哦~",
 			typewriter = {
@@ -66,12 +70,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "这栋大楼的物业，恐怕十几年前就已经荒废了……",
 			typewriter = {
 				speed = 0.05,
@@ -79,12 +84,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "我还是想想别的办法吧~",
 			typewriter = {
 				speed = 0.05,

@@ -899,7 +899,8 @@ pg.ship_data_group.all = {
 	30062,
 	30063,
 	30064,
-	30065
+	30065,
+	30066
 }
 pg.ship_data_group.get_id_list_by_group_type = {
 	[10000] = {
@@ -3152,6 +3153,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[970112] = {
 		30062
 	},
+	[970113] = {
+		30066
+	},
 	[970201] = {
 		30003
 	},
@@ -4494,7 +4498,8 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		30062,
 		30063,
 		30064,
-		30065
+		30065,
+		30066
 	}
 }
 pg.base = pg.base or {}
@@ -40099,11 +40104,11 @@ end)()
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"META商店兑换",
 				{
-					"METACHARACTER",
+					"SHOP",
 					{
-						autoOpenShipConfigID = 9701041
+						warp = "meta"
 					}
 				},
 				0
@@ -41335,6 +41340,41 @@ end)()
 				"限时活动：幽影迷城",
 				{
 					""
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[30066] = {
+		nationality = 97,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970113,
+		index_id = 30066,
+		code = 30066,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：世界巡游",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701131
+					}
 				},
 				0
 			}

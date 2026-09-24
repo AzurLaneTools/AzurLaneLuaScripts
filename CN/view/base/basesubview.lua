@@ -30,6 +30,42 @@ slot0.InheritFuncs = {
 	"TempUnOverlayPanelPB"
 }
 
+slot1 = function(slot0)
+	slot1 = nil
+
+	if slot0 and slot0.getUIName then
+		slot2, slot3 = pcall(function ()
+			return uv0:getUIName()
+		end)
+
+		if slot2 then
+			slot1 = slot3
+		end
+	end
+
+	if not noEmptyStr(slot1) and slot0 then
+		slot1 = slot0.__cname
+	end
+
+	return tostring(slot1 or "Unknown")
+end
+
+slot2 = function(slot0)
+	print(string.format("进入界面: BaseSubView - %s", uv0(slot0)))
+
+	slot2, slot3 = pcall(function ()
+		ReflectionHelp.RefCallMethod(typeof(ResourceMgr), "WriteMarkedShortPathLog", ResourceMgr.Inst, {
+			typeof("System.String")
+		}, {
+			uv0
+		})
+	end)
+
+	if not slot2 then
+		warning(string.format("Write base sub view load log failed: %s", tostring(slot3)))
+	end
+end
+
 slot0.RegisterView = function(slot0, slot1)
 	slot0.viewComponent = slot1
 
@@ -45,6 +81,10 @@ slot0.Load = function(slot0, slot1)
 		return
 	end
 
+	if EDITOR_TOOL then
+		uv1(slot0)
+	end
+
 	slot0._state = uv0.STATES.LOADING
 	slot2 = pg.UIMgr.GetInstance()
 
@@ -53,6 +93,9 @@ slot0.Load = function(slot0, slot1)
 	slot2 = PoolMgr.GetInstance()
 
 	seriesAsync({
+		function (slot0)
+			SplitPackConst.DownloadByLuaArr(uv0:getResource(uv0.contextData), slot0)
+		end,
 		function (slot0)
 			if uv0 then
 				uv1.noReturnPrefab = true
@@ -239,6 +282,12 @@ end
 
 slot0.getUIName = function(slot0)
 	return nil
+end
+
+slot0.getResource = function(slot0)
+	return {
+		"ui/" .. slot0:getUIName()
+	}
 end
 
 slot0.OnLoaded = function(slot0)

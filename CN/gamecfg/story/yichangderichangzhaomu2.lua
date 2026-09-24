@@ -4,11 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			bgm = "story-ghostnight-fascinsting",
 			actor = 403113,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "想与我一同起舞吗，指挥官~",
 			typewriter = {
@@ -24,10 +25,11 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			NextIcon = 1,
 			say = "嗯~猎物想逃向哪里、会被什么吸引、又会在何时露出犹豫……",
 			typewriter = {
 				speed = 0.05,
@@ -35,11 +37,12 @@ return {
 			}
 		},
 		{
-			actor = 403113,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
+			actor = 403113,
+			NextIcon = 1,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "这些在舞步落下之前，就已经写在它们的反应里了。",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +57,11 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			NextIcon = 1,
 			say = "不会。幻境从来不是为了藏住我，而是为了让猎物主动走进来。",
 			typewriter = {
 				speed = 0.05,
@@ -65,11 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 403113,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
+			actor = 403113,
+			NextIcon = 1,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "就算被看穿了……只要它们还迟疑一瞬，就已经足够了。",
 			typewriter = {
 				speed = 0.05,
@@ -84,10 +89,11 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			NextIcon = 1,
 			say = "这要看与我共舞的人是谁。",
 			typewriter = {
 				speed = 0.05,
@@ -96,10 +102,11 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			NextIcon = 1,
 			say = "若是节奏太乱，我自然乐意接过领舞的位置。",
 			typewriter = {
 				speed = 0.05,
@@ -108,10 +115,11 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			NextIcon = 1,
 			say = "但如果你的指令足够清晰……我也会甘心为你演到尽兴~",
 			typewriter = {
 				speed = 0.05,
@@ -119,12 +127,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "你的各方面情况，我已经了解了。",
 			typewriter = {
 				speed = 0.05,
@@ -132,12 +141,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "{namecode:457:约克}，欢迎加入。",
 			typewriter = {
 				speed = 0.05,
@@ -146,10 +156,11 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_496",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			NextIcon = 1,
 			say = "呵呵，既然替我留了位置，指挥官也该记得按时入席才是~",
 			typewriter = {
 				speed = 0.05,

@@ -5,6 +5,33 @@ slot0.FONT_SIZE_MIN = 55
 slot0.FONT_SIZE_MID = 44
 slot0.FONT_SIZE_MAX = 34
 
+slot0.getResource = function(slot0)
+	slot1 = {
+		"weaponframes"
+	}
+
+	for slot5, slot6 in ipairs(pg.activity_ship_create.all) do
+		slot8 = ipairs
+		slot9 = pg.activity_ship_create[slot6].pickup_list or {}
+
+		for slot11, slot12 in slot8(slot9) do
+			table.insertto(slot1, ResPathSupport.GetPaintingSquareIconListByPaintingName(Ship.getPaintingName(slot12)))
+		end
+	end
+
+	slot3 = ipairs
+	slot4 = getProxy(PrayProxy):getSelectedShipIDList() or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot8 = Ship.getPaintingName(slot7)
+
+		table.insertto(slot1, ResPathSupport.GetPaintingListByPaintingName(slot8))
+		table.insertto(slot1, ResPathSupport.GetPaintingHeroHrzIconListByPaintingName(slot8))
+	end
+
+	return table.insertto(slot1, uv0.super.getResource(slot0))
+end
+
 slot0.getUIName = function(slot0)
 	return "PrayPoolSelectShipView"
 end
@@ -225,11 +252,24 @@ slot0.updateUI = function(slot0)
 end
 
 slot0.updateSelectedShipList = function(slot0)
-	if slot0:isMinPrefs() then
-		slot0:updateMin()
-	else
-		slot0:updateMax()
+	slot2 = {}
+	slot3 = ipairs
+	slot4 = slot0.prayProxy:getSelectedShipIDList() or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot8 = Ship.getPaintingName(slot7)
+
+		table.insertto(slot2, ResPathSupport.GetPaintingListByPaintingName(slot8))
+		table.insertto(slot2, ResPathSupport.GetPaintingHeroHrzIconListByPaintingName(slot8))
 	end
+
+	SplitPackConst.DownloadByLuaArr(slot2, function ()
+		if uv0:isMinPrefs() then
+			uv0:updateMin()
+		else
+			uv0:updateMax()
+		end
+	end)
 end
 
 slot0.updateMax = function(slot0)

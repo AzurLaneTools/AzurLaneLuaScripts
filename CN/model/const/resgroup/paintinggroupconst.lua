@@ -189,7 +189,8 @@ return {
 								fileNameList = uv1
 							}
 						},
-						onFinish = slot0
+						onFinish = slot0,
+						showMask = uv2.showMask == true
 					})
 				end)
 				table.insert(slot1, function (slot0)

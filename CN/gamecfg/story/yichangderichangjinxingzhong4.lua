@@ -7,10 +7,11 @@ return {
 	},
 	scripts = {
 		{
-			bgName = "star_level_bg_522",
+			NextIcon = 1,
 			side = 2,
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_522",
 			bgm = "story-ghostnight-fascinsting",
 			hideRecordIco = true,
 			actor = 403113,
@@ -31,6 +32,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -50,6 +52,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "没想到，你居然还能清醒地走到我面前呢，指挥官。",
 			typewriter = {
 				speed = 0.05,
@@ -61,6 +64,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -72,12 +76,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 3,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 3,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "呵呵，也可以说是我的舞台。",
 			typewriter = {
 				speed = 0.05,
@@ -85,6 +90,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -99,12 +105,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "既然来了，就别只站在台下看着了。",
 			typewriter = {
 				speed = 0.05,
@@ -117,6 +124,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "这支舞，正好还缺一个能跟上我步调的舞伴~",
 			typewriter = {
 				speed = 0.05,
@@ -128,6 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -139,12 +148,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "把下一步交给我来决定，不是会轻松很多吗？",
 			typewriter = {
 				speed = 0.05,
@@ -152,12 +162,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 2,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 2,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "还是说，一向果敢的指挥官，面对我也会犹豫呢？",
 			typewriter = {
 				speed = 0.05,
@@ -165,6 +176,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -179,6 +191,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -197,6 +210,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -208,12 +222,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "“夺走”这个词太粗鲁了。",
 			typewriter = {
 				speed = 0.05,
@@ -226,6 +241,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "我只是替你省去犹豫、抉择，以及所有不必要的抵抗而已~",
 			typewriter = {
 				speed = 0.05,
@@ -233,6 +249,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -247,6 +264,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -261,12 +279,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "看着我，指挥官。",
 			typewriter = {
 				speed = 0.05,
@@ -274,12 +293,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 5,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 5,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "只要把视线、步伐，还有你的意志都交给我，你就会变得轻松很多。",
 			typewriter = {
 				speed = 0.05,
@@ -291,6 +311,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -302,12 +323,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 3,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 3,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "嗯哼~终于准备认输了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -319,6 +341,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -330,6 +353,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -344,6 +368,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -358,12 +383,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 2,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 2,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "哎呀~你似乎并不打算放弃抵抗呢？",
 			typewriter = {
 				speed = 0.05,
@@ -376,6 +402,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "不过……你又能坚持多久呢？",
 			typewriter = {
 				speed = 0.05,
@@ -387,6 +414,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -398,6 +426,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -412,6 +441,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -426,12 +456,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 5,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 5,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "指挥官，舞曲终了，但仅仅是跳舞，未免有些辜负了这舞台呢……",
 			typewriter = {
 				speed = 0.05,
@@ -439,6 +470,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -453,6 +485,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -467,12 +500,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 5,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 5,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "你看，顺从身体的直觉，有时比掌控全局，要快乐得多哦~♡",
 			typewriter = {
 				speed = 0.05,

@@ -5,11 +5,12 @@ return {
 	scripts = {
 		{
 			expression = 4,
-			nameColor = "#A9F548FF",
-			actor = 403143,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "呼……这个边界，比我想象的更难突破呢。",
 			typewriter = {
 				speed = 0.05,
@@ -19,9 +20,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指挥官，请再等等我哦。",
 			typewriter = {
@@ -42,10 +44,11 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呵呵，既然已经伸出手了……",
 			typewriter = {
@@ -54,12 +57,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403143,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "那就请再用力一点，将我拉进你的怀抱吧~",
 			typewriter = {
 				speed = 0.05,
@@ -69,10 +73,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "哎呀，被看出来了呢……",
 			typewriter = {
@@ -83,10 +88,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "放心吧，这阻碍可难不倒我哦~",
 			typewriter = {

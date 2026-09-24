@@ -37,6 +37,26 @@ slot0.getUIName = function(slot0)
 	return "LevelStageView"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/levelstageview_atlas",
+		"enemycount",
+		"passstate",
+		"strategyicon/submarine_approach",
+		"strategyicon/range_invisible",
+		"strategyicon/range_visible",
+		"strategyicon/sub_dont_auto_attack",
+		"strategyicon/sub_auto_attack",
+		"weaponframes",
+		"shiptype",
+		"ui/iconcolorful"
+	}
+
+	table.insertto(slot2, ResList.LevelStageView.GetResource(slot1))
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.OnInit = function(slot0)
 	slot0:InitUI()
 	slot0:AddListener()

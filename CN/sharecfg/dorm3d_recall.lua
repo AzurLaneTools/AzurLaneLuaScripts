@@ -38,7 +38,11 @@ pg.dorm3d_recall.all = {
 	211,
 	212,
 	213,
-	214
+	214,
+	221,
+	222,
+	223,
+	224
 }
 pg.dorm3d_recall.get_id_list_by_story_id = {
 	[10010] = {
@@ -148,6 +152,18 @@ pg.dorm3d_recall.get_id_list_by_story_id = {
 	},
 	[210541] = {
 		214
+	},
+	[220510] = {
+		221
+	},
+	[220520] = {
+		222
+	},
+	[220530] = {
+		223
+	},
+	[220541] = {
+		224
 	}
 }
 pg.base = pg.base or {}
@@ -643,6 +659,61 @@ pg.base.dorm3d_recall = {}
 		unlock = {
 			3,
 			7990201
+		}
+	}
+	pg.base.dorm3d_recall[221] = {
+		story_id = 220510,
+		name = "告解之夜",
+		type = 1,
+		id = 221,
+		image = "recall_221",
+		unlock_text = "契合度4级后解锁",
+		desc = "你想要祈求的是救赎，还是彼此一同沉溺的夜呢~",
+		unlock = {
+			1,
+			20707,
+			4
+		}
+	}
+	pg.base.dorm3d_recall[222] = {
+		story_id = 220520,
+		name = "未掩的罪证",
+		type = 1,
+		id = 222,
+		image = "recall_222",
+		unlock_text = "契合度8级后解锁",
+		desc = "皱痕未消，晨光已至——有些“忏悔”要留到夜里再继续~",
+		unlock = {
+			1,
+			20707,
+			8
+		}
+	}
+	pg.base.dorm3d_recall[223] = {
+		story_id = 220530,
+		name = "禁锢的含义",
+		type = 1,
+		id = 223,
+		image = "recall_223",
+		unlock_text = "契合度12级后解锁",
+		desc = "同一个词，换个语境意思便截然不同——你来定义它的含义~",
+		unlock = {
+			1,
+			20707,
+			12
+		}
+	}
+	pg.base.dorm3d_recall[224] = {
+		story_id = 220541,
+		name = "眷恋手记",
+		type = 1,
+		id = 224,
+		image = "recall_224",
+		unlock_text = "赠送眷恋手记后解锁",
+		desc = "用忏悔作封皮，内里写满的都是爱意~",
+		unlock = {
+			3,
+			2070701
 		}
 	}
 end)()

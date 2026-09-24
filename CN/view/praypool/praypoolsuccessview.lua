@@ -1,5 +1,17 @@
 slot0 = class("PrayPoolSuccessView", import("..base.BaseSubView"))
 
+slot0.getResource = function(slot0)
+	slot1 = {}
+	slot3 = ipairs
+	slot4 = getProxy(PrayProxy):getSelectedShipIDList() or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		table.insertto(slot1, ResPathSupport.GetPaintingListByPaintingName(Ship.getPaintingName(slot7)))
+	end
+
+	return table.insertto(slot1, uv0.super.getResource(slot0))
+end
+
 slot0.getUIName = function(slot0)
 	return "PrayPoolSuccessView"
 end

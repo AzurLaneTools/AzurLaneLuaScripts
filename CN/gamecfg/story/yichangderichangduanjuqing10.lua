@@ -5,11 +5,12 @@ return {
 	scripts = {
 		{
 			expression = 4,
-			nameColor = "#A9F548FF",
-			actor = 201401,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 201401,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指挥官……找到我了，嘻嘻~",
 			typewriter = {
 				speed = 0.05,
@@ -18,11 +19,12 @@ return {
 		},
 		{
 			expression = 4,
-			nameColor = "#A9F548FF",
-			actor = 201401,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 201401,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "匆忙一直，一直在这里等你……快来陪我们玩吧~",
 			typewriter = {
 				speed = 0.05,
@@ -30,11 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
 			actorName = "人偶们",
-			hidePaintObj = true,
 			side = 2,
+			nameColor = "#A9F548FF",
+			actor = 201401,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "——陪我们玩。",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +57,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "嘻嘻，匆忙准备了好多游戏哦~",
 			typewriter = {
@@ -68,10 +72,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "那匆忙……晚点还能见到你吗？",
 			typewriter = {

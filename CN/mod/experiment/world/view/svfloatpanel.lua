@@ -2,6 +2,7 @@ slot0 = class("SVFloatPanel", import("view.base.BaseSubView"))
 slot0.ShowView = "SVFloatPanel.ShowView"
 slot0.HideView = "SVFloatPanel.HideView"
 slot0.ReturnCall = "SVFloatPanel.ReturnCall"
+slot0.DelegateCall = "SVFloatPanel.DelegateCall"
 
 slot0.getUIName = function(slot0)
 	return "SVFloatPanel"
@@ -81,6 +82,17 @@ slot0.OnInit = function(slot0)
 			end
 		end)
 	end, SFX_CONFIRM)
+
+	slot1 = slot0.btnEnter
+	slot0.btnDelegate = slot1:Find("delegate")
+
+	onButton(slot0, slot0.btnDelegate, function ()
+		uv0:emit(uv1.DelegateCall, uv0.mapList[uv0.destIndex].id)
+	end, SFX_PANEL)
+
+	slot2 = slot0.btnDelegate
+
+	setText(slot2:Find("lock/Text"), i18n("world_auto_buy_unlock"))
 
 	slot1 = slot0.rtInfoPanel
 	slot0.btnLock = slot1:Find("lock")
@@ -238,10 +250,21 @@ slot0.UpdatePanel = function(slot0)
 	end
 
 	slot0:UpdateCost()
+	slot0:UpdateDelegate()
 
 	slot14, slot15 = nowWorld():GetAtlas():GetActiveMap():CkeckTransport()
+	slot16 = false
+	slot17 = getProxy(ChapterAutoProxy):HasTypeCommission(ChapterAutoProxy.TYPE.WORLD)
 
-	setActive(slot0.btnBack, not false and slot12:GetActiveEntrance() == slot0.entrance and slot13 == slot2)
+	setActive(slot0.btnLock, slot17)
+
+	if slot17 then
+		setText(slot0.btnLock:Find("Text"), i18n("world_auto_plan_in_progress"))
+	end
+
+	slot16 = slot16 or isActive(slot0.btnLock)
+
+	setActive(slot0.btnBack, not slot16 and slot12:GetActiveEntrance() == slot0.entrance and slot13 == slot2)
 
 	slot16 = slot16 or isActive(slot0.btnBack)
 
@@ -249,8 +272,10 @@ slot0.UpdatePanel = function(slot0)
 
 	slot16 = slot16 or isActive(slot0.btnEnter)
 
-	setText(slot0.btnLock:Find("Text"), slot6 and i18n("world_map_locked_border") or i18n("world_map_locked_stage"))
-	setActive(slot0.btnLock, not slot16 and slot14)
+	if not slot17 then
+		setText(slot0.btnLock:Find("Text"), slot6 and i18n("world_map_locked_border") or i18n("world_map_locked_stage"))
+		setActive(slot0.btnLock, not slot16 and slot14)
+	end
 
 	slot16 = slot16 or isActive(slot0.btnLock)
 
@@ -268,6 +293,17 @@ slot0.UpdateCost = function(slot0)
 	slot3 = nowWorld().staminaMgr:GetTotalStamina()
 
 	setText(slot2:Find("Text"), setColorStr(slot3, slot3 < slot1.config.enter_cost and COLOR_RED or COLOR_GREEN) .. "/" .. slot4)
+end
+
+slot0.UpdateDelegate = function(slot0)
+	if not nowWorld():IsSystemOpen(WorldConst.SystemAutoSwitch) then
+		setActive(slot0.btnDelegate, false)
+
+		return
+	end
+
+	setActive(slot0.btnDelegate, pg.world_auto_statistics[slot0.mapList[slot0.destIndex].id] and not slot2.isCost)
+	setActive(slot0.btnDelegate:Find("lock"), not slot1:GetGobalFlag("treasure_flag"))
 end
 
 slot0.ShowToggleMask = function(slot0)

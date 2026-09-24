@@ -7,7 +7,7 @@ end
 slot0.init = function(slot0)
 	onButton(slot0, slot0.uiCloseBtn, function ()
 		uv0:closeView()
-	end, SFX_CANCLE)
+	end, SFX_CANCEL)
 	onButton(slot0, slot0.uiCultivatingBtn, function ()
 		uv0:emit(CultivatingPlantMediator.GO_SCENE)
 	end, SFX_PANEL)
@@ -82,24 +82,20 @@ slot0.SelectPage = function(slot0, slot1)
 end
 
 slot0.RefreshTask = function(slot0)
-	updateDrop(slot0.uiRewardItem, Drop.Create(pg.task_data_template[slot0.taskList[slot0.index]].award_display[1]))
-	onButton(slot0, slot0.uiRewardItem, function ()
-		uv0:emit(BaseUI.ON_DROP, uv1)
-	end, SFX_PANEL)
+	slot2 = pg.task_data_template[slot0.taskList[slot0.index]]
+	slot4 = getProxy(TaskProxy):getTaskVO(slot0.taskList[slot0.index]) and slot3:isReceive() or false
+	slot5 = slot3 and slot3:isFinish() or false
 
-	slot5 = getProxy(TaskProxy):getTaskVO(slot0.taskList[slot0.index]) and slot3:isReceive() or false
-	slot6 = slot3 and slot3:isFinish() or false
-
-	setActive(slot0.uiRewardGot, slot5)
-	setActive(slot0.uiRed, slot6 and not slot5)
-	setGray(slot0.uiIslandBtn, not slot6)
+	setActive(slot0.uiRewardGot, slot4)
+	setActive(slot0.uiRed, slot5 and not slot4)
+	setGray(slot0.uiIslandBtn, not slot5)
 	setText(slot0.uiTaskDesc, slot2.desc)
 
-	slot7 = slot3 and slot3:getProgress() or 0
+	slot6 = slot3 and slot3:getProgress() or 0
 
-	setText(slot0.uiTaskCnt, string.format("<color=#268BC5>%s</color>/%s", slot7, slot2.target_num))
+	setText(slot0.uiTaskCnt, string.format("<color=#268BC5>%s</color>/%s", slot6, slot2.target_num))
 
-	slot0.uiSlider.fillAmount = slot7 / slot2.target_num
+	slot0.uiSlider.fillAmount = slot6 / slot2.target_num
 
 	setActive(slot0.uiTask, false)
 	setActive(slot0.uiTask, true)

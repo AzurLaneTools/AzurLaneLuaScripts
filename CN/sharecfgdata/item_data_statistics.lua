@@ -17131,6 +17131,37 @@ _G.pg.base.item_data_statistics[21065] = {
 }
 
 
+_G.pg.base.item_data_statistics[21066] = {
+	open_directly = 0,
+	name = "结晶：灵敏·META",
+	type = 4,
+	display = "灵敏·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21066",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21066,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -32751,7 +32782,7 @@ _G.pg.base.item_data_statistics[30436] = {
 	replace_item = 0,
 	usage = "usage_drop",
 	display_effect = "",
-	link_id = 1,
+	link_id = 0,
 	is_world = 0,
 	icon = "Props/appearanceboxshijiexunyou",
 	order = 0,
@@ -32783,6 +32814,58 @@ _G.pg.base.item_data_statistics[30436] = {
 		{
 			9,
 			2128,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30437] = {
+	open_directly = 1,
+	name = "外观装备箱(世界巡游)",
+	type = 11,
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111231",
+	id = 30437,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2129,
+			1
+		},
+		{
+			9,
+			2130,
+			1
+		},
+		{
+			9,
+			2131,
+			1
+		},
+		{
+			9,
+			2132,
 			1
 		}
 	},

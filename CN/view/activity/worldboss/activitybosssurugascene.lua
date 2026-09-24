@@ -4,6 +4,14 @@ slot0.getUIName = function(slot0)
 	return "ActivityBossUI"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	table.insert(slot1, "ui/cysx_fk")
+
+	return slot1
+end
+
 slot0.preload = function(slot0, slot1)
 	slot2 = PoolMgr.GetInstance()
 

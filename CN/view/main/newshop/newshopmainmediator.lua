@@ -57,6 +57,10 @@ slot0.register = function(slot0)
 	slot5 = getProxy(BagProxy)
 
 	slot3:OnInitItems(slot5:getRawData())
+
+	slot3 = slot0.viewComponent
+
+	slot3:setList()
 	slot0:bind(uv0.VIEW_SKIN_PROBABILITY, function (slot0, slot1, slot2)
 		uv0.contextData.warp = slot2
 
@@ -546,6 +550,11 @@ slot0.initNotificationHandleDic = function(slot0)
 		end,
 		[uv0.ON_SUBLAYER_EVENT] = function (slot0, slot1)
 			slot0.viewComponent:emit(unpackEx(slot1:getBody()))
+		end,
+		[GAME.CRUSING_CMD_DONE] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot2.awards, slot2.callback)
 		end
 	}
 end

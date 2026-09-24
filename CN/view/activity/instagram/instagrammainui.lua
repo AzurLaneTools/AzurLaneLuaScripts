@@ -4,6 +4,35 @@ slot0.getUIName = function(slot0)
 	return "InstagramMainUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/InstagramChatBackgrounds_atlas"
+	}
+
+	for slot6, slot7 in ipairs(getProxy(InstagramChatProxy):GetChatList()) do
+		if slot7.type == 1 then
+			slot8 = "unknown"
+
+			if slot7.skinId == 0 then
+				slot8 = slot7:GetPainting()
+			else
+				for slot12, slot13 in ipairs(slot7.skins) do
+					if slot13.id == slot7.skinId then
+						slot8 = slot13.painting
+					end
+				end
+			end
+
+			table.insert(slot2, "painting/" .. slot8)
+			table.insert(slot2, "paintingface/" .. slot8)
+		end
+	end
+
+	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+
+	return slot2
+end
+
 slot0.preload = function(slot0, slot1)
 	pg.m02:sendNotification(GAME.REQ_OLD_INSTAGRAM_DATA, {
 		callback = function ()

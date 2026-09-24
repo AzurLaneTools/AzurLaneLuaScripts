@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "指挥官，你听见了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -16,11 +17,12 @@ return {
 			}
 		},
 		{
-			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "这台电梯……刚才是不是发出了很奇怪的声音？",
 			typewriter = {
 				speed = 0.05,
@@ -40,10 +42,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我也这么觉得~",
 			typewriter = {
@@ -54,10 +57,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "不对，干脆把整个楼全部翻新吧！",
 			typewriter = {
@@ -68,10 +72,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我早就看这栋破楼不顺眼了~",
 			typewriter = {
@@ -82,10 +87,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "这么想的人，在恐怖片里戏份通常都不多哦？",
 			typewriter = {

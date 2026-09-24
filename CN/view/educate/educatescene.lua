@@ -12,6 +12,81 @@ slot0.preload = function(slot0, slot1)
 	end)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2 = {
+		"ui/EducateDatePanel",
+		"ui/EducateFavorPanel",
+		"ui/EducateResPanel",
+		"ui/EducateTopPanel",
+		"ui/EducateTargetPanel",
+		"ui/EducateBottomPanel",
+		"ui/EducateArchivePanel",
+		"ui/educatecommonui_atlas"
+	}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	if getProxy(EducateProxy) and slot4:GetCharData() then
+		slot6 = ipairs
+		slot7 = slot5:getConfig("background_prefab") or {}
+
+		for slot9, slot10 in slot6(slot7) do
+			slot3("bg/" .. slot10)
+		end
+
+		slot6 = {}
+		slot7 = ipairs
+		slot8 = slot5:getConfig("char_prefab") or {}
+
+		for slot10, slot11 in slot7(slot8) do
+			if noEmptyStr(slot11[3]) and not slot6[slot12] then
+				slot6[slot12] = true
+
+				PaintingGroupConst.AddPaintingNameWithFilteMap(slot2, slot12)
+				slot3("paintingface/" .. slot12)
+				slot3("educateavatar/" .. slot12)
+				slot3("squareicon/" .. slot12)
+			end
+		end
+
+		slot7 = slot5:getConfig("bgm") or {}
+
+		for slot11, slot12 in ipairs(slot7) do
+			if type(slot12) == "string" then
+				slot3("cue/bgm-" .. slot12 .. ".b")
+			elseif type(slot12) == "table" then
+				for slot16, slot17 in ipairs(slot12) do
+					if type(slot17) == "table" then
+						slot3("cue/bgm-" .. slot17[2] .. ".b")
+					end
+				end
+			end
+		end
+	end
+
+	if slot4 then
+		slot6 = ipairs
+		slot7 = slot4:GetBuffList() or {}
+
+		for slot9, slot10 in slot6(slot7) do
+			slot3("educateprops/" .. slot10:getConfig("icon"))
+		end
+	end
+
+	for slot9, slot10 in ipairs(slot2) do
+		if not table.contains(slot1, slot10) then
+			table.insert(slot1, slot10)
+		end
+	end
+
+	return slot1
+end
+
 slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()

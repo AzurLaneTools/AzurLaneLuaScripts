@@ -14,6 +14,47 @@ slot0.preload = function(slot0, slot1)
 	end
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2 = {}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	if getProxy(ActivityProxy) and slot4:getActiveBannerByType(GAMEUI_BANNER_9) then
+		slot3("activitybanner/" .. slot5.pic)
+	end
+
+	if slot4 and slot4:getActiveBannerByType(GAMEUI_BANNER_11) then
+		slot3("activitybanner/" .. slot6.pic)
+	end
+
+	if getProxy(ShopsProxy) then
+		slot8 = ipairs
+		slot9 = slot7:GetRecommendCommodities() or {}
+
+		for slot11, slot12 in slot8(slot9) do
+			slot3(slot12:GetIcon())
+		end
+	end
+
+	slot3("ui/ChargeTipUI")
+	slot3("ui/MonthCardTipWindow")
+	slot3("ui/GiftPackageTipWindow")
+	slot3("ui/CrusingTipWindow")
+
+	for slot11, slot12 in ipairs(slot2) do
+		if not table.contains(slot1, slot12) then
+			table.insert(slot1, slot12)
+		end
+	end
+
+	return slot1
+end
+
 slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()

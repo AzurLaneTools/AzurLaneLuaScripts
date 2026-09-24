@@ -23,6 +23,25 @@ slot0.getUIName = function(slot0)
 	return "LevelFleetSelectView"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"weaponframes",
+		"energy",
+		"shiptype",
+		"ui/iconcolorful"
+	}, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.downloadLevelFleetViewResList = function(slot0, slot1)
+	SplitPackConst.DownloadByLuaArr(ResList.LevelFleetView.GetResource(slot0), function ()
+		if uv0._state == uv1.STATES.DESTROY then
+			return
+		end
+
+		uv2()
+	end)
+end
+
 slot0.OnInit = function(slot0)
 	slot0:InitUI()
 	slot0:bind(LevelUIConst.CONTINUOUS_OPERATION, function (slot0, slot1)
@@ -548,12 +567,14 @@ slot0.set = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.commanderToggle, slot0.openedCommanerSystem)
 	setActive(slot0.dutyToggle, slot0.dutyTabEnabled)
 	setActive(slot0.adjustmentToggle, false)
-	slot0:clearFleets()
-	slot0:updateFleets()
-	slot0:updateLimit()
-	slot0:updateASValue()
-	slot0:UpdateSonarRange()
-	slot0:UpdateInvestigation()
+	slot0:downloadLevelFleetViewResList(function ()
+		uv0:clearFleets()
+		uv0:updateFleets()
+		uv0:updateLimit()
+		uv0:updateASValue()
+		uv0:UpdateSonarRange()
+		uv0:UpdateInvestigation()
+	end)
 end
 
 slot0.getFleetById = function(slot0, slot1)
@@ -1189,7 +1210,9 @@ slot0.setOnHard = function(slot0, slot1)
 	setActive(slot0.commanderToggle, slot0.openedCommanerSystem)
 	setActive(slot0.dutyToggle, slot0.dutyTabEnabled)
 	setActive(slot0.adjustmentToggle, true)
-	slot0:flush()
+	slot0:downloadLevelFleetViewResList(function ()
+		uv0:flush()
+	end)
 end
 
 slot0.flush = function(slot0)

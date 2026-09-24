@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			actorName = "一个普通的后勤人员",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			bgm = "story-visioncity-1",
 			actor = 317030,
-			actorName = "一个普通的后勤人员",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "“新纪元都市NO.2……”",
 			typewriter = {
@@ -32,8 +33,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影行动员",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -44,11 +46,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "一个普通的后勤人员",
 			side = 2,
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			actor = 317030,
-			actorName = "一个普通的后勤人员",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……打扰了，我只是路过记录一下情况。战斗部分就麻烦各位了。",
 			typewriter = {
@@ -71,8 +74,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			say = "呜哇，和上次比起来，这会完全就是“准备开打”的气氛嘛！",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +89,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "前方的幽影数量……很多。她把路封住了。",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +102,9 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			NextIcon = 1,
 			say = "我们也已经做好应对的准备。",
 			typewriter = {
 				speed = 0.05,
@@ -106,9 +112,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			say = "我启动收容装置，几道熟悉的辉光依次落地。",
 			typewriter = {
 				speed = 0.05,
@@ -116,12 +123,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 299035,
+			NextIcon = 1,
 			say = "哇哦~这次场面这么大？亲爱的终于舍得带柴郡玩点刺激的啦？",
 			typewriter = {
 				speed = 0.05,
@@ -129,12 +137,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "要与昔日同僚和那位魔王交战吗？看来这次，没有客套闲聊的余裕了呢~",
 			typewriter = {
@@ -148,8 +157,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 900561,
 			nameColor = "#A9F548FF",
+			actor = 900561,
+			NextIcon = 1,
 			say = "没关系的，踏上了战场的孩子也依旧是孩子，只需要继续乖乖睡着就好了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +172,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 205162,
 			nameColor = "#A9F548FF",
+			actor = 205162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呵……竟然把我们这些“敌人”全都叫出来助阵。",
 			typewriter = {
@@ -177,8 +188,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 205162,
 			nameColor = "#A9F548FF",
+			actor = 205162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指挥官，你对自己还挺有信心。",
 			typewriter = {
@@ -192,8 +204,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			say = "确、确实，我们这边也有种反派集会的感觉欸？！",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +219,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影行动员",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -218,12 +232,13 @@ return {
 			}
 		},
 		{
-			actor = 201191,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +251,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "你们好。",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +266,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 307053,
 			nameColor = "#FF9B93",
+			actor = 307053,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "请多关照~",
 			typewriter = {
@@ -265,8 +282,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "新手行动员",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			say = "你好！请多关照！",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +297,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影行动员",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -296,8 +315,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 307053,
 			nameColor = "#FF9B93",
+			actor = 307053,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "打招呼也是很重要的工作呢。",
 			typewriter = {
@@ -311,8 +331,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "{namecode:315:安土}大人说，你们不能再往前了。",
 			typewriter = {
 				speed = 0.05,
@@ -325,9 +346,10 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影行动员",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "喂喂，难道我们还要听她的话？",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -343,8 +365,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "唔，我只是转达，各位无需照办。",
 			typewriter = {
 				speed = 0.05,
@@ -352,12 +375,13 @@ return {
 			}
 		},
 		{
-			actor = 201191,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "不过，{namecode:315:安土}大人也叮嘱了，如果你们非要过来的话，就让我把你们打回起点。",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +394,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "我觉得很有道理。这样你们光是走回来，都要花很多时间。",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +409,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "那可不行。",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +424,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "既然我的指挥官想要再进一步——就只能请你离开了。",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +439,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "……明白了。",
 			typewriter = {
 				speed = 0.05,
@@ -426,9 +454,10 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
+			nameColor = "#FF9B93",
 			soundeffect = "event:/battle/boom2",
 			actor = 201191,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "不好意思，那我方就先手进攻了。",
 			typewriter = {
 				speed = 0.05,
@@ -480,8 +509,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呵呵……是个相当不会拐弯的孩子呢~",
 			typewriter = {
@@ -495,8 +525,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "指挥官，要上了。",
 			typewriter = {
 				speed = 0.05,

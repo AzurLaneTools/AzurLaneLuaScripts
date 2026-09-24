@@ -1283,6 +1283,7 @@ pg.activity_template.all = {
 	7028,
 	7029,
 	7030,
+	7031,
 	7101,
 	7102,
 	7104,
@@ -1296,6 +1297,7 @@ pg.activity_template.all = {
 	7503,
 	7505,
 	7506,
+	7507,
 	8042,
 	8043,
 	8044,
@@ -2261,6 +2263,7 @@ pg.activity_template.get_id_list_by_type = {
 		51129,
 		51153,
 		7506,
+		7507,
 		6000,
 		6001,
 		6002,
@@ -2533,7 +2536,8 @@ pg.activity_template.get_id_list_by_type = {
 		7027,
 		7028,
 		7029,
-		7030
+		7030,
+		7031
 	},
 	[55] = {
 		5010,
@@ -53237,6 +53241,59 @@ end)()
 			ui_name = "CrusingDisplayActPage30"
 		}
 	}
+	pg.base.activity_template[7031] = {
+		mark = 20260924,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 7031,
+		page_core = "",
+		config_data = {
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage2",
+			ui_name = "CrusingDisplayActPage31"
+		}
+	}
 	pg.base.activity_template[7101] = {
 		mark = 20230511,
 		type = 101,
@@ -53380,7 +53437,9 @@ end)()
 			12047,
 			12048,
 			12049,
-			12050
+			12050,
+			12051,
+			12052
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
@@ -54008,6 +54067,84 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[7507] = {
+		mark = 20260924,
+		type = 18,
+		login_pop = 99,
+		config_id = 3,
+		is_show = 44,
+		title_res_tag = "DormTaskTwo",
+		id = 7507,
+		page_core = "",
+		config_data = {
+			{
+				27420,
+				27421,
+				27422,
+				27423,
+				27424,
+				27425,
+				27426
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormTaskTwoPage",
+			ui_name = "DormTaskTwoPage"
+		},
+		config_client = {
+			subType = 1,
+			unlock_task = {
+				{
+					27420
+				},
+				{
+					27421
+				},
+				{
+					27422
+				},
+				{
+					27423
+				},
+				{
+					27424
+				},
+				{
+					27425
+				},
+				{
+					27426
+				}
+			}
+		}
+	}
 	pg.base.activity_template[8042] = {
 		mark = 20231123,
 		page_info = "",
@@ -54584,6 +54721,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[8047] = {
 		mark = 20231123,
 		page_info = "",
@@ -54665,8 +54804,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[8049] = {
 		mark = 20231123,
 		time = "stop",
@@ -60768,6 +60905,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[2030] = {
 		mark = 20181220,
 		page_info = "",
@@ -60802,8 +60941,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[2032] = {
 		mark = 20181227,
 		page_info = "",

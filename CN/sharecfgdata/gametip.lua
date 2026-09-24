@@ -36419,6 +36419,11 @@ _G.pg.base.gametip.cruise_btn_pay = {
 }
 
 
+_G.pg.base.gametip.cruise_btn_pay_prev = {
+	tip = "解锁上期特许巡游奖励"
+}
+
+
 _G.pg.base.gametip.cruise_btn_all = {
 	tip = "全部领取"
 }
@@ -51702,6 +51707,211 @@ _G.pg.base.gametip.auto_battle_help = {
 }
 
 
+_G.pg.base.gametip.auto_battle_in_world = {
+	tip = "有正在进行的作战委托，无法执行新的作战委托"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_award = {
+	tip = "委托产出"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_level = {
+	tip = "需要委托的侵蚀等级"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_quantity = {
+	tip = "海域数量选择"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_progress = {
+	tip = "完成进度"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_cancel_tip = {
+	tip = "是否取消作战委托"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_in_progress = {
+	tip = "作战委托进行中"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip1 = {
+	tip = "有正在执行的作战委托"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip2 = {
+	tip = "资源不足，无法进行委托"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip3 = {
+	tip = "当前没有更多可以委派的海域"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip4 = {
+	tip = "已完成的委托奖励已转化为相应数量的「战备物资兑换券」"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip5 = {
+	tip = "完成1次侵蚀等级6的普通海域压制后，购买使用隐秘海域信息记录仪解锁"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip6 = {
+	tip = "大型作战将要进行重置，是否结算当前作战委托奖励\n\n当前存在尚未完成的作战委托，可等待当前委托结束后再执行重置。若确认结算，将立刻结算正在进行的作战委托并重置大型作战"
+}
+
+
+_G.pg.base.gametip.world_auto_buy_unlock = {
+	tip = "<icon name=lock /> 购买使用<icon name=icon w=0.3 h=0.3 />后解锁"
+}
+
+
+_G.pg.base.gametip.world_auto_level_less_3 = {
+	tip = "3及以下"
+}
+
+
+_G.pg.base.gametip.world_auto_level_all = {
+	tip = "全部"
+}
+
+
 _G.pg.base.gametip.reverse_pacman_no_char = {
 	tip = "请先前往「<color=#92fc63>调查任务</color>」和「<color=#92fc63>幽影招募</color>」，招募任意幽影后方可继续"
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2610 = {
+	tip = "2026/10/1-2026/11/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「灵敏·META 」</color>在内的丰富奖励"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2610 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2026.10.1-2026.11.30)
+
+·<color=#92fc63>开放时间</color>
+ 2026.10.1 0点 ~ 2026.11.30 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「灵敏·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·九期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>格拉哈姆换装「漫游微缩世界 </color>」、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2610 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+ 2026.10.1 0点 ~ 2026.11.30 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2610 = {
+	tip = "世界巡游·第三十一期"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_table = {
+	tip = "密室"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_chair = {
+	tip = "客厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_bed = {
+	tip = "卧室"
+}
+
+
+_G.pg.base.gametip.auto_download_tip = {
+	tip = "已开启自动下载（$1），请注意流量消耗\n\n可前往设置-资源-资源管理界面查看下载进度"
+}
+
+
+_G.pg.base.gametip.auto_download_btn = {
+	tip = "前往设置"
+}
+
+
+_G.pg.base.gametip.setting_download_basic_assets = {
+	tip = "基础资源下载"
+}
+
+
+_G.pg.base.gametip.setting_restart_download_btn = {
+	tip = "继续下载"
+}
+
+
+_G.pg.base.gametip.loading_flow_tip = {
+	tip = "正在使用移动数据下载资源，请注意流量消耗 "
 }

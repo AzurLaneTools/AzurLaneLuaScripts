@@ -4,6 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -15,10 +16,11 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "果然是你呐……恩人~",
 			typewriter = {
 				speed = 0.05,
@@ -26,11 +28,12 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "刚才的这支曲子，是专门为你吹的。",
 			typewriter = {
 				speed = 0.05,
@@ -48,12 +51,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "会一点点，能引你过来就好。",
 			typewriter = {
 				speed = 0.05,
@@ -61,12 +65,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "这笛声别人听不到，只有你能听到哦~",
 			typewriter = {
 				speed = 0.05,
@@ -74,12 +79,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "奇怪吗……也许是雪太大了，让声音变了调。",
 			typewriter = {
 				speed = 0.05,
@@ -87,12 +93,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "又或者只是错觉……恩人不必在意这些小事~",
 			typewriter = {
 				speed = 0.05,
