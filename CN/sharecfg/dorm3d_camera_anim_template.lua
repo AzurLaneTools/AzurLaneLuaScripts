@@ -8872,7 +8872,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22004,
-		icon = "camera_action10",
+		icon = "camera_action1",
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
@@ -8908,7 +8908,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22006,
-		icon = "camera_action6",
+		icon = "camera_action8",
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
@@ -9088,7 +9088,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22101,
-		icon = "camera_action33",
+		icon = "camera_action13",
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
@@ -9106,7 +9106,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22102,
-		icon = "camera_action25",
+		icon = "camera_action14",
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
@@ -9124,7 +9124,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22103,
-		icon = "camera_action6",
+		icon = "camera_action15",
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
@@ -9142,7 +9142,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22104,
-		icon = "camera_action27",
+		icon = "camera_action16",
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
@@ -9160,7 +9160,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22201,
-		icon = "camera_action2",
+		icon = "camera_action17",
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
@@ -9178,7 +9178,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22202,
-		icon = "camera_action32",
+		icon = "camera_action18",
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
@@ -9198,7 +9198,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22203,
-		icon = "camera_action9",
+		icon = "camera_action19",
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
@@ -9216,7 +9216,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22204,
-		icon = "camera_action25",
+		icon = "camera_action20",
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
@@ -9234,7 +9234,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22301,
-		icon = "camera_action26",
+		icon = "camera_action13",
 		hide_scene_item = "",
 		enter_scene_anim = {
 			{
@@ -9257,7 +9257,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22302,
-		icon = "camera_action27",
+		icon = "camera_action14",
 		hide_scene_item = "",
 		enter_scene_anim = {
 			{
@@ -9280,7 +9280,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22303,
-		icon = "camera_action28",
+		icon = "camera_action15",
 		hide_scene_item = "",
 		enter_scene_anim = {
 			{
@@ -9303,7 +9303,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22304,
-		icon = "camera_action32",
+		icon = "camera_action16",
 		hide_scene_item = "",
 		enter_scene_anim = {
 			{
@@ -9326,7 +9326,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22401,
-		icon = "camera_action33",
+		icon = "camera_action13",
 		hide_scene_item = "",
 		enter_scene_anim = {
 			{
@@ -9361,7 +9361,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22402,
-		icon = "camera_action25",
+		icon = "camera_action20",
 		hide_scene_item = "",
 		enter_scene_anim = {
 			{
@@ -9396,7 +9396,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22403,
-		icon = "camera_action27",
+		icon = "camera_action21",
 		hide_scene_item = "",
 		enter_scene_anim = {
 			{
@@ -9431,7 +9431,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22404,
-		icon = "camera_action13",
+		icon = "camera_action2",
 		enter_scene_anim = {
 			{
 				4002,
@@ -9465,7 +9465,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22405,
-		icon = "camera_action14",
+		icon = "camera_action11",
 		enter_scene_anim = {
 			{
 				4002,
@@ -9499,7 +9499,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22406,
-		icon = "camera_action15",
+		icon = "camera_action12",
 		enter_scene_anim = {
 			{
 				4002,
@@ -9533,7 +9533,7 @@ end)()
 		room = 22,
 		enter_extra_item = "",
 		id = 22407,
-		icon = "camera_action32",
+		icon = "camera_action13",
 		enter_scene_anim = {
 			{
 				4002,
