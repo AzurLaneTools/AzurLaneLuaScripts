@@ -62335,7 +62335,7 @@ end)()
 					0.85
 				}
 			},
-			879
+			907
 		}
 	}
 	pg.base.activity_template[51151] = {
