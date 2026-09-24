@@ -152,7 +152,9 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == GAME.LOAD_LAYERS then
 		-- Nothing
 	elseif slot2 == GAME.REMOVE_LAYERS then
-		slot0.viewComponent:OnRemoveLayer(slot3)
+		if slot0.viewComponent.OnRemoveLayer then
+			slot0.viewComponent:OnRemoveLayer(slot3)
+		end
 	elseif slot2 == CourtYardEvent._NO_POS_TO_ADD_SHIP then
 		slot0:sendNotification(GAME.EXIT_SHIP, {
 			shipId = slot3
@@ -279,7 +281,7 @@ end
 
 slot0.OnExtend = function(slot0)
 	if getProxy(BagProxy):getItemCountById(ITEM_BACKYARD_AREA_EXTEND) <= 0 then
-		slot3 = pg.shop_template[getProxy(DormProxy):getRawData():GetExpandId()]
+		slot3 = ShopConst.GetShopConfig(getProxy(DormProxy):getRawData():GetExpandId())
 
 		_BackyardMsgBoxMgr:Show({
 			content = i18n("backyard_buyExtendItem_question", slot3.resource_num .. Drop.New({
@@ -330,6 +332,9 @@ slot0.GenCourtYardData = function(slot0, slot1)
 	elseif slot2 == CourtYardConst.SYSTEM_EDIT_FEAST then
 		slot3 = getProxy(DormProxy):getRawData()
 		slot4 = CourtYardConst.STYLE_FEAST
+	elseif slot2 == CourtYardConst.SYSTEM_REVERSE_PACMAN then
+		slot3 = getProxy(ReversePacmanDormProxy):getRawData()
+		slot4 = CourtYardConst.STYLE_REVERSE_PACMAN
 	end
 
 	slot5 = slot3:GetMapSize()

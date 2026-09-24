@@ -2342,4 +2342,15 @@ end)()
 			-2
 		}
 	}
+	pg.base.effect_offset.hu_xingxing = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			3,
+			0
+		}
+	}
 end)()

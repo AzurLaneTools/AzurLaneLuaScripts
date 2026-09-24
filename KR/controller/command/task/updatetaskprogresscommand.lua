@@ -55,6 +55,10 @@ slot0.execute = function(slot0, slot1)
 		slot5 = Task.TASK_PROGRESS_UPDATE
 		slot6 = slot2.progress
 		slot10 = true
+	elseif slot9 == TASK_SUB_TYPE_CLIENT_TRIGGER then
+		slot5 = Task.TASK_PROGRESS_UPDATE
+		slot6 = slot2.progress or 1
+		slot10 = true
 	end
 
 	if not slot10 then

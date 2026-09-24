@@ -201,6 +201,10 @@ pg.furniture_data_template.all = {
 	342,
 	343,
 	344,
+	347,
+	348,
+	349,
+	350,
 	100002,
 	100003,
 	100004,
@@ -3606,7 +3610,36 @@ pg.furniture_data_template.all = {
 	342114,
 	342115,
 	342116,
-	342117
+	342117,
+	343001,
+	343002,
+	343101,
+	343102,
+	343103,
+	343104,
+	343105,
+	343106,
+	343107,
+	343108,
+	343109,
+	343110,
+	343111,
+	343112,
+	343113,
+	343114,
+	343115,
+	343116,
+	343117,
+	343118,
+	343119,
+	343120,
+	343121,
+	343122,
+	343123,
+	343124,
+	343301,
+	343302,
+	343303
 }
 pg.furniture_data_template.get_id_list_by_themeId = {
 	[0] = {
@@ -3805,6 +3838,10 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		342,
 		343,
 		344,
+		347,
+		348,
+		349,
+		350,
 		100002,
 		100003,
 		100004,
@@ -3919,7 +3956,12 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		323001,
 		323002,
 		323101,
-		323102
+		323102,
+		343120,
+		343121,
+		343122,
+		343123,
+		343124
 	},
 	{
 		209,
@@ -7465,6 +7507,32 @@ pg.furniture_data_template.get_id_list_by_themeId = {
 		342115,
 		342116,
 		342117
+	},
+	[143] = {
+		343001,
+		343002,
+		343101,
+		343102,
+		343103,
+		343104,
+		343105,
+		343106,
+		343107,
+		343108,
+		343109,
+		343110,
+		343111,
+		343112,
+		343113,
+		343114,
+		343115,
+		343116,
+		343117,
+		343118,
+		343119,
+		343301,
+		343302,
+		343303
 	}
 }
 pg.furniture_data_template.get_id_list_by_tag = {
@@ -9772,7 +9840,30 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		342113,
 		342114,
 		342115,
-		342116
+		342116,
+		343101,
+		343102,
+		343103,
+		343104,
+		343105,
+		343106,
+		343107,
+		343108,
+		343109,
+		343110,
+		343111,
+		343112,
+		343113,
+		343114,
+		343115,
+		343116,
+		343117,
+		343118,
+		343120,
+		343121,
+		343122,
+		343123,
+		343124
 	},
 	{
 		1108,
@@ -10058,7 +10149,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		339002,
 		340002,
 		341002,
-		342002
+		342002,
+		343002
 	},
 	{
 		1001,
@@ -10187,7 +10279,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		339001,
 		340001,
 		341001,
-		342001
+		342001,
+		343001
 	},
 	{
 		1301,
@@ -10578,7 +10671,10 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		341301,
 		341302,
 		341303,
-		341304
+		341304,
+		343301,
+		343302,
+		343303
 	},
 	{
 		1,
@@ -10693,6 +10789,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		330,
 		336,
 		337,
+		349,
+		350,
 		100002,
 		100003,
 		100004,
@@ -11001,7 +11099,8 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		339115,
 		340105,
 		341119,
-		342117
+		342117,
+		343119
 	},
 	{
 		106,
@@ -11085,7 +11184,9 @@ pg.furniture_data_template.get_id_list_by_tag = {
 		341,
 		342,
 		343,
-		344
+		344,
+		347,
+		348
 	}
 }
 pg.furniture_data_template.get_id_list_by_type = {
@@ -11217,7 +11318,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		339002,
 		340002,
 		341002,
-		342002
+		342002,
+		343002
 	},
 	{
 		120,
@@ -13522,7 +13624,28 @@ pg.furniture_data_template.get_id_list_by_type = {
 		342114,
 		342115,
 		342116,
-		342117
+		342117,
+		343101,
+		343102,
+		343103,
+		343104,
+		343106,
+		343107,
+		343108,
+		343109,
+		343110,
+		343111,
+		343112,
+		343113,
+		343114,
+		343115,
+		343117,
+		343118,
+		343119,
+		343121,
+		343122,
+		343123,
+		343124
 	},
 	{
 		1108,
@@ -13808,7 +13931,8 @@ pg.furniture_data_template.get_id_list_by_type = {
 		339001,
 		340001,
 		341001,
-		342001
+		342001,
+		343001
 	},
 	{
 		1101,
@@ -13971,9 +14095,13 @@ pg.furniture_data_template.get_id_list_by_type = {
 		334104,
 		335103,
 		339103,
-		340102
+		340102,
+		343105,
+		343116,
+		343120
 	},
 	{
+		349,
 		1301,
 		1302,
 		1303,
@@ -14350,7 +14478,10 @@ pg.furniture_data_template.get_id_list_by_type = {
 		341301,
 		341302,
 		341303,
-		341304
+		341304,
+		343301,
+		343302,
+		343303
 	},
 	{
 		1,
@@ -14524,6 +14655,9 @@ pg.furniture_data_template.get_id_list_by_type = {
 		342,
 		343,
 		344,
+		347,
+		348,
+		350,
 		100002,
 		100004,
 		100005,
@@ -24594,6 +24728,172 @@ end)()
 		},
 		interAction_group = {}
 	}
+	pg.base.furniture_data_template[347] = {
+		can_rotate = 0,
+		describe = "입사 오리엔테이션 영상을 시청하는 동안에는 미소를 유지하며 화면을 정면으로 바라보고, 화면 속 해설자에게 좋은 인상을 줄 것. ——「이상한 일상 진행 중」 이벤트 참가 보상.",
+		gain_by = "이상한 일상 진행 중",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "신입 오리엔테이션",
+		advice = 0,
+		id = 347,
+		tag = 8,
+		comfortable = 0,
+		icon = "laodianshixunzhangicon",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"laodianshixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[348] = {
+		can_rotate = 0,
+		describe = "신기원 도시 NO.1 연구탑의 미니어처 모형. 행복한 도시 계획의 출발점이기도 하다. ——「유영 미성」 이벤트 참가 보상.",
+		gain_by = "유영 미성",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "연구탑 미니어처",
+		advice = 0,
+		id = 348,
+		tag = 8,
+		comfortable = 0,
+		icon = "yanjiutaxunzhangicon",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"yanjiutaxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[349] = {
+		can_rotate = 1,
+		describe = "엘리베이터로 9층까지…… 어라? 이 엘리베이터 8층까지밖에 없는데?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/9haozhishipai",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		count = 1,
+		name = "층별 안내판",
+		advice = 0,
+		tag = 6,
+		id = 349,
+		icon = "9haozhishipaiicon",
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+end)()
+(function ()
+	pg.base.furniture_data_template[350] = {
+		can_rotate = 0,
+		describe = "엄지를 들어 올린 게 꼭 좋다는 의미일 거라는 보장은 없다. 조준을 잡고 있는 것일지도 모른다.",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/zhihuiguandiaoxiang",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "심플한 지휘관상",
+		advice = 0,
+		tag = 6,
+		id = 350,
+		icon = "zhihuiguandiaoxiangicon",
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
 	pg.base.furniture_data_template[100002] = {
 		advice = 0,
 		name = "우정의 공기 펌프",
@@ -24847,8 +25147,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[100005] = {
 		advice = 0,
 		name = "비밀의 마술상자",
@@ -31673,6 +31971,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[1101] = {
 		can_rotate = 0,
 		describe = "허울 뿐인 바닥 매트. 매트가 바닥보다 더 낡았다는 이야기는 엄금이야.",
@@ -31834,8 +32134,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[1105] = {
 		can_rotate = 0,
 		describe = "낡은 신문. 어디에 쓰는 걸까...",
@@ -35781,6 +36079,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[5105] = {
 		can_rotate = 0,
 		describe = "자는 사이에 몸을 수리해주는 수리작업장. 메탈 블러드 제국의 기술은 세계제이이이이이일!",
@@ -35981,8 +36281,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[5109] = {
 		can_rotate = 0,
 		describe = "마이크테스트~ 마이크테스트~ 자, 1, 2, 3!",
@@ -40181,6 +40479,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[11101] = {
 		can_rotate = 0,
 		describe = "미듐 사이즈의 디자이너스 욕조, 1인용.",
@@ -40383,8 +40683,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[11105] = {
 		can_rotate = 0,
 		describe = "커다란 주전자 풍의 침대. 좋은 꿈을 꿀 수 있을 것 같다.",
@@ -44531,6 +44829,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[14107] = {
 		can_rotate = 0,
 		describe = "별 모양을 한 핑크색 벌룬.",
@@ -44697,8 +44997,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[14111] = {
 		can_rotate = 0,
 		describe = "작은 프로젝터로 비춘 어느 행성계의 경치.",
@@ -49553,6 +49851,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[18201] = {
 		can_rotate = 0,
 		describe = "초록빛을 내뿜는 라이트 스탠드.",
@@ -49705,8 +50005,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[18303] = {
 		can_rotate = 0,
 		describe = "정보가 계속해서 업데이트되는 모니터.",
@@ -54192,6 +54490,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[22118] = {
 		can_rotate = 0,
 		describe = "로열 네이비의 명물, 만쥬 근위병. 교대식은 꼭 구경해봐삐약.",
@@ -54344,8 +54644,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[22202] = {
 		can_rotate = 0,
 		describe = "차를 맛있게 우려내기 위해 사용되는 주전자.",
@@ -59100,6 +59398,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[27201] = {
 		can_rotate = 0,
 		describe = "미성년자는 마시면 안 돼요!",
@@ -59249,8 +59549,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[28002] = {
 		can_rotate = 0,
 		describe = "깔면 방안에서도 초원의 느낌을 낼 수 있다!",
@@ -63643,6 +63941,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[30117] = {
 		can_rotate = 0,
 		describe = "크고 작은 막대사탕!",
@@ -63873,8 +64173,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[30121] = {
 		can_rotate = 0,
 		describe = "커~다란 레인보우 캐슬! 한 번에 세 명까지 들어간다구요!",
@@ -68199,6 +68497,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[36117] = {
 		can_rotate = 0,
 		describe = "\"조금… 졸리군…\"",
@@ -68476,8 +68776,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[36121] = {
 		can_rotate = 0,
 		describe = "여관 객실에 놓이는 집무용 책상",
@@ -72738,6 +73036,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[39119] = {
 		can_rotate = 0,
 		describe = "명절에 맞춰 붉게 칠한 커다란 소파",
@@ -72957,8 +73257,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[39123] = {
 		can_rotate = 0,
 		describe = "\"머, 머리에 써보라고요?!\"",
@@ -77281,6 +77579,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[43106] = {
 		can_rotate = 0,
 		describe = "키즈나 아이를 이미지한 스툴. ……가볍고 튼튼해서 잘 부서지지 않아요!",
@@ -77482,8 +77782,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[43110] = {
 		can_rotate = 0,
 		describe = "키즈나 아이가 머리에 쓰고 있는 '표코표코'를 이미지한 양탄자",
@@ -81645,6 +81943,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[45308] = {
 		can_rotate = 0,
 		describe = "벽에 걸 수 있는 긴 깃발",
@@ -81794,8 +82094,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[46002] = {
 		can_rotate = 0,
 		describe = "사이버 펑크 세계에 온 걸 환영해요!",
@@ -85968,6 +86266,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[50001] = {
 		can_rotate = 0,
 		describe = "바이크와 배낭을 준비하고 하이웨이 투어를 시작하자~",
@@ -86120,8 +86420,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[50103] = {
 		can_rotate = 0,
 		describe = "남은 연료 체크를 하지 않으면 완주할 수 없을지도 몰라…쥬!",
@@ -90396,6 +90694,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[55104] = {
 		can_rotate = 0,
 		describe = "시온의 마법 카페트 (마력은 없다!)",
@@ -90564,8 +90864,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[55108] = {
 		can_rotate = 0,
 		describe = "연모와 충성심, 그리고 침묵의 사랑. 제때 햇빛을 쬐어주고 물을 주는 것을 잊지 마세요!",
@@ -94718,6 +95016,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[58304] = {
 		can_rotate = 0,
 		describe = "함께 새해를 맞이해요!",
@@ -94870,8 +95170,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[59102] = {
 		can_rotate = 0,
 		describe = "야밤에도 낭만을 즐겨요~",
@@ -99068,6 +99366,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[62114] = {
 		can_rotate = 0,
 		describe = "평범한 나무일 뿐이에요. 평범한.",
@@ -99302,8 +99602,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[62118] = {
 		can_rotate = 0,
 		describe = "유유히 돌아가는 풍차, 한가로운 생활쥬~",
@@ -103532,6 +103830,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[69119] = {
 		advice = 0,
 		name = "CT 기계",
@@ -103758,8 +104058,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[69302] = {
 		can_rotate = 0,
 		describe = "어떻게 되든 상관없이, 모두 마지막 최선을 다해요!",
@@ -108189,6 +108487,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[73110] = {
 		can_rotate = 0,
 		describe = "방금 어떤 아이가 여기서 놀고 갔나요?",
@@ -108341,8 +108641,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[73114] = {
 		can_rotate = 0,
 		describe = "푹신푹신한 소파에 따뜻하게 해주는 담요를 깔았어요.",
@@ -112567,6 +112865,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[77109] = {
 		can_rotate = 0,
 		describe = "누가 도끼를 깜박 잊고 두고 갔을까요?",
@@ -112733,8 +113033,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[77113] = {
 		can_rotate = 1,
 		describe = "다음 버스는 얼마나 남았지...",
@@ -116977,6 +117275,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[81301] = {
 		can_rotate = 0,
 		describe = "따스한 바람에 청춘이 나부껴요.",
@@ -117129,8 +117429,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[82001] = {
 		can_rotate = 0,
 		describe = "꿈, 우정, 재물. 여기는 희망찬 웨스턴 타운!",
@@ -121433,6 +121731,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[85106] = {
 		can_rotate = 0,
 		describe = "주문하겠나쥬?",
@@ -121585,8 +121885,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[85113] = {
 		can_rotate = 0,
 		describe = "어서 오세요쥬!",
@@ -125613,6 +125911,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[89107] = {
 		can_rotate = 0,
 		describe = "심플한 무늬의 카펫",
@@ -125765,8 +126065,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[89112] = {
 		can_rotate = 0,
 		describe = "심플한 스타일의 스탠드.",
@@ -129692,6 +129990,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[93104] = {
 		can_rotate = 1,
 		describe = "무슨 맛 줄까쥬?",
@@ -129844,8 +130144,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[93108] = {
 		can_rotate = 0,
 		describe = "스릴있고 짜릿한 여름의 모험!",
@@ -133983,6 +134281,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[96113] = {
 		can_rotate = 0,
 		describe = "좋은 꿈 꾸세요! 내일도 아름다운 휴일이에요!",
@@ -134206,8 +134506,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[96117] = {
 		advice = 0,
 		name = "리조트 샤크 윈도우",
@@ -138528,6 +138826,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[99201] = {
 		can_rotate = 0,
 		describe = "가슴에 스며드는 녹차 한 잔.",
@@ -138680,8 +138980,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[99301] = {
 		can_rotate = 0,
 		describe = "실내 장식용 걸개그림.",
@@ -143316,6 +143614,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[303002] = {
 		can_rotate = 0,
 		describe = "요괴 온천가에서 기묘한 밤이 시작된다!",
@@ -143528,8 +143828,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[303104] = {
 		can_rotate = 0,
 		describe = "그윽한 빛을 뿜어내는…",
@@ -147729,6 +148027,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[306111] = {
 		can_rotate = 0,
 		describe = "야단스러운 거품에 차분한 뒷맛. 참고로 음료는 무제한 제공!",
@@ -147998,8 +148298,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[306115] = {
 		advice = 0,
 		name = "만쥬 클럽 스테이지",
@@ -152472,6 +152770,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[311106] = {
 		can_rotate = 0,
 		describe = "이것만 있으면 자외선 걱정 끝!",
@@ -152664,8 +152964,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[311110] = {
 		can_rotate = 0,
 		describe = "느긋하게 일광욕~",
@@ -157426,6 +157724,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[316121] = {
 		advice = 0,
 		name = "진공 아귀 군",
@@ -157619,8 +157919,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[316302] = {
 		can_rotate = 0,
 		describe = "왕녀들의 소품이 놓여 있는 공간.",
@@ -162047,6 +162345,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[321102] = {
 		can_rotate = 0,
 		describe = "바람이 부는 대로 돌아가는 한가로운 전원 생활의 상징.",
@@ -162234,8 +162534,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[321106] = {
 		can_rotate = 0,
 		describe = "바람에 살랑이는 튤립 화단. 은은한 꽃향기가 풍긴다.",
@@ -166634,6 +166932,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[326109] = {
 		can_rotate = 0,
 		describe = "레시피를 상기할 수 있다.",
@@ -166783,8 +167083,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[327002] = {
 		can_rotate = 0,
 		describe = "한가할 때는 아틀리에의 정원을 산책하자.",
@@ -171322,6 +171620,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[331114] = {
 		can_rotate = 0,
 		describe = "사이드 테이블이 달린 소파. 휴식 중에 음료나 소품을 놓기 좋다.",
@@ -171515,8 +171815,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[331301] = {
 		can_rotate = 0,
 		describe = "스포트라이트 같은 느낌의 원통형 벽등. 실용성과 장식성을 겸비한 디자인.",
@@ -176124,6 +176422,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[336114] = {
 		can_rotate = 0,
 		describe = "삐—— 삐—— 쥬쥬!",
@@ -176334,8 +176634,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[337001] = {
 		can_rotate = 0,
 		describe = "빛나는 물보라와 태양으로 최고로 멋진 휴가를 만들자!",
@@ -180750,6 +181048,8 @@ end)()
 		},
 		interAction_group = {}
 	}
+end)()
+(function ()
 	pg.base.furniture_data_template[342111] = {
 		can_rotate = 0,
 		describe = "다음 랩의 승부를 결정 짓는 것은 바로 여기!",
@@ -180914,8 +181214,6 @@ end)()
 		},
 		interAction_group = {}
 	}
-end)()
-(function ()
 	pg.base.furniture_data_template[342115] = {
 		can_rotate = 0,
 		describe = "눈에 잘 띄는 로드콘. 서킷 코스의 경계를 알기 쉽게 표시해 준다.",
@@ -181089,6 +181387,1171 @@ end)()
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343001] = {
+		can_rotate = 0,
+		describe = "이상 조사 센터에서 숨겨진 이상 현상을 파헤쳐 보자!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/dibanopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 바닥",
+		advice = 0,
+		tag = 4,
+		id = 343001,
+		icon = "dibanopaicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343002] = {
+		can_rotate = 0,
+		describe = "이상 조사 센터에서 숨겨진 이상 현상을 파헤쳐 보자!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/qiangbiopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 벽지",
+		advice = 0,
+		tag = 3,
+		id = 343002,
+		icon = "qiangbiopaicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343101] = {
+		can_rotate = 0,
+		describe = "안심해. 이 유리는 구역을 나누는 역할만 할 뿐, 엉뚱한 걸 비추거나 하진 않으니까.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/boliqiangopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 유리 파티션",
+		advice = 0,
+		tag = 1,
+		id = 343101,
+		icon = "boliqiangopaicon",
+		comfortable = 2,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343102] = {
+		can_rotate = 0,
+		describe = "편하게 앉아. 최고의 안락함을 느낄 수 있을 테니까~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/changyiopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 벤치",
+		advice = 0,
+		id = 343102,
+		tag = 1,
+		comfortable = 1,
+		icon = "changyiopaicon",
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8,
+					23
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343103] = {
+		can_rotate = 1,
+		describe = "헤드라이트가 켜지면, 그건 누군가가 야근한다는 신호.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 순찰차",
+		advice = 0,
+		id = 343103,
+		tag = 1,
+		comfortable = 3,
+		icon = "cheopaicon",
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheopa",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343104] = {
+		can_rotate = 0,
+		describe = "다들 만쥬에 주목——!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/diaoxiangopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 만쥬상",
+		advice = 0,
+		tag = 1,
+		id = 343104,
+		icon = "diaoxiangopaicon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343105] = {
+		can_rotate = 1,
+		describe = "지극히 평범한 카페트. 다만, 너무 조용한게 조금…… 카페트가 시끄러운 게 더 이상할 텐데?",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/ditanopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 모퉁이 카페트",
+		advice = 0,
+		tag = 1,
+		id = 343105,
+		icon = "ditanopaicon",
+		comfortable = 2,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343106] = {
+		can_rotate = 0,
+		describe = "접수처의 저 초상화는 저래 보여도 올해의 우수 직원 중 한 명이야.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/huaxiangqiangopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 초상화",
+		advice = 0,
+		tag = 1,
+		id = 343106,
+		icon = "huaxiangqiangopaicon",
+		comfortable = 3,
+		size = {
+			1,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343107] = {
+		can_rotate = 1,
+		describe = "중요한 결정은 언제나 이 테이블에서 신중하게 논의된 끝에 내려진다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/huiyizhuoopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 회의 테이블",
+		advice = 0,
+		tag = 1,
+		id = 343107,
+		icon = "huiyizhuoopaicon",
+		comfortable = 2,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343108] = {
+		can_rotate = 0,
+		describe = "조사 센터에 오신 것을 환영합니다. 무엇을 도와드릴까요~?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/jiedaitaiopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 안내데스크",
+		advice = 0,
+		tag = 1,
+		id = 343108,
+		icon = "jiedaitaiopaicon",
+		comfortable = 3,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343109] = {
+		can_rotate = 0,
+		describe = "폐기물은 여기 버리면 된다. 다 함께 깨끗하게 사용하자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/lajitongopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 쓰레기통",
+		advice = 0,
+		tag = 1,
+		id = 343109,
+		icon = "lajitongopaicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343110] = {
+		can_rotate = 0,
+		describe = "계단은 생물체가 아니다. 두려워할 필요 없으니 안심하고 지나가도 좋다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/mukuaiopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 계단",
+		advice = 0,
+		tag = 1,
+		id = 343110,
+		icon = "mukuaiopaicon",
+		comfortable = 1,
+		size = {
+			3,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343111] = {
+		can_rotate = 0,
+		describe = "저기…… 이 가위, 예뻐?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 격리 대상 1",
+		advice = 0,
+		id = 343111,
+		tag = 1,
+		comfortable = 3,
+		icon = "shourongwu1opaicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shourongwu1opa",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343112] = {
+		can_rotate = 0,
+		describe = "유령이 나갔다…… 유령이 돌아왔다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 격리 대상 2",
+		advice = 0,
+		id = 343112,
+		tag = 1,
+		comfortable = 3,
+		icon = "shourongwu2opaicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shourongwu2opa",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343113] = {
+		can_rotate = 0,
+		describe = "뚫어지게 쳐다보지 마. 당신 모습으로 변해버릴지도 몰라.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 격리 대상 3",
+		advice = 0,
+		id = 343113,
+		tag = 1,
+		comfortable = 3,
+		icon = "shourongwu3opaicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shourongwu3opa",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343114] = {
+		can_rotate = 0,
+		describe = "망설이지 말고 앉아봐. 갑자기 튀어 달아나지 않을 거라 믿고~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/yiziopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "조사 센터 이상한 의자 1",
+		advice = 0,
+		id = 343114,
+		tag = 1,
+		comfortable = 1,
+		icon = "yiziopaicon",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					15,
+					24
+				},
+				{
+					1,
+					1
+				},
+				"opa/yiziopa_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343115] = {
+		can_rotate = 0,
+		describe = "망설이지 말고 앉아봐. 갑자기 튀어 달아나지 않을 거라 믿고~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/yiziopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 이상한 의자 2",
+		advice = 0,
+		tag = 1,
+		id = 343115,
+		icon = "yiziopaicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343116] = {
+		can_rotate = 1,
+		describe = "소문에 의하면, 이상 조사 센터의 창설자는 사실 만쥬라고 한다……",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/yuanditanopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 만쥬 카페트",
+		advice = 0,
+		tag = 1,
+		id = 343116,
+		icon = "yuanditanopaicon",
+		comfortable = 1,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343117] = {
+		can_rotate = 0,
+		describe = "지극히 평범한 관엽식물. 갑자기 사람을 삼키거나 하진 않음 (진짜임).",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/zhiwuopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "조사 센터 관엽식물",
+		advice = 0,
+		tag = 1,
+		id = 343117,
+		icon = "zhiwuopaicon",
+		comfortable = 1,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343118] = {
+		can_rotate = 0,
+		describe = "자고로 공포란 장비의 미비에서 비롯되는 것…… 무기를, 무기를 더 다오!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/zhuangbeijiaopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 무기 거치대",
+		advice = 0,
+		tag = 1,
+		id = 343118,
+		icon = "zhuangbeijiaopaicon",
+		comfortable = 2,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343119] = {
+		can_rotate = 1,
+		describe = "신경 쓰지 마. 보지 마. 절대…… ￥%#%*&…… 자…… 조금만 더 가까이……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 이상한 엘리베이터",
+		advice = 0,
+		id = 343119,
+		tag = 7,
+		comfortable = 4,
+		icon = "diantiopaicon",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diantiopa",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343120] = {
+		can_rotate = 0,
+		describe = "备注：活动场景用家具，无法获取",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/damukuaiopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "台阶（活动场景用）",
+		advice = 0,
+		tag = 1,
+		id = 343120,
+		icon = "mukuaiopaicon",
+		comfortable = 0,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343121] = {
+		can_rotate = 0,
+		describe = "备注：活动场景用家具，无法获取",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/dahuaxiangopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "画像墙（活动场景用）",
+		advice = 0,
+		tag = 1,
+		id = 343121,
+		icon = "mukuaiopaicon",
+		comfortable = 0,
+		size = {
+			1,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343122] = {
+		can_rotate = 0,
+		describe = "备注：活动场景用家具，无法获取",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/daboliopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "玻璃帷幕（活动场景用）",
+		advice = 0,
+		tag = 1,
+		id = 343122,
+		icon = "mukuaiopaicon",
+		comfortable = 0,
+		size = {
+			1,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343123] = {
+		can_rotate = 0,
+		describe = "备注：活动场景用家具，无法获取",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/xialoutiopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "下楼梯（活动场景用）",
+		advice = 0,
+		tag = 1,
+		id = 343123,
+		icon = "mukuaiopaicon",
+		comfortable = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343124] = {
+		can_rotate = 0,
+		describe = "备注：活动场景用家具，无法获取",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/bikanopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "壁龛（活动场景用）",
+		advice = 0,
+		tag = 1,
+		id = 343124,
+		icon = "mukuaiopaicon",
+		comfortable = 0,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343301] = {
+		can_rotate = 1,
+		describe = "삐빅—— 이 앞은 기밀 작업 구역입니다. ID 인증을 해주십시오.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/damenopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 작업 구역",
+		advice = 0,
+		tag = 5,
+		id = 343301,
+		icon = "damenopaicon",
+		comfortable = 3,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343302] = {
+		can_rotate = 0,
+		describe = "이어서 올해의 우수 직원을 발표하겠습니다——",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/guangboopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "조사 센터 방송 스피커",
+		advice = 0,
+		tag = 5,
+		id = 343302,
+		icon = "guangboopaicon",
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	}
+	pg.base.furniture_data_template[343303] = {
+		can_rotate = 0,
+		describe = "지극히 자연스럽게 행동할 것. 구역 내 녹화 중.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "opa/shexiangtouopa",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 143,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "조사 센터 CCTV",
+		advice = 0,
+		tag = 5,
+		id = 343303,
+		icon = "shexiangtouopaicon",
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

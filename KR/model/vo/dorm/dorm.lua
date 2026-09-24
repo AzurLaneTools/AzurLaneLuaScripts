@@ -27,7 +27,6 @@ slot0.Ctor = function(slot0, slot1)
 		50012,
 		50013
 	}
-	slot0.shopCfg = pg.shop_template
 end
 
 slot0.GetFoodMax = function(slot0)
@@ -38,7 +37,7 @@ slot0.GetExpandId = function(slot0)
 	slot1 = slot0.level - 1
 
 	for slot5, slot6 in ipairs(slot0.expandIds) do
-		if slot0.shopCfg[slot6].limit_args[1][2] == slot1 then
+		if ShopConst.GetShopConfig(slot6).limit_args[1][2] == slot1 then
 			return slot6
 		end
 	end
@@ -78,16 +77,14 @@ slot0.GetName = function(slot0)
 end
 
 slot0.getExtendTrainPosShopId = function(slot0)
-	slot1 = pg.shop_template
-
-	for slot5, slot6 in pairs({
+	for slot4, slot5 in pairs({
 		3,
 		4,
 		18,
 		26
 	}) do
-		if slot1[slot6].effect_args == ShopArgs.EffectDromExpPos and slot1[slot6].limit_args[1][2] <= slot0.exp_pos and slot0.exp_pos <= slot1[slot6].limit_args[1][3] then
-			return slot6
+		if ShopConst.GetShopConfig(slot5).effect_args == ShopArgs.EffectDromExpPos and slot6.limit_args[1][2] <= slot0.exp_pos and slot0.exp_pos <= slot6.limit_args[1][3] then
+			return slot5
 		end
 	end
 end

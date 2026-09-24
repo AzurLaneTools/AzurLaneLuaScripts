@@ -5,6 +5,7 @@ slot0.OnInit = function(slot0)
 	slot0.charge = slot0._tf:Find("charge")
 	slot0.take = slot0._tf:Find("take")
 	slot0.finish = slot0._tf:Find("finish")
+	slot0.tip = slot0.take:Find("tip")
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -28,7 +29,12 @@ slot0.OnUpdateFlush = function(slot0)
 	setActive(slot0.charge, slot0.activity.data2 == 0 and slot0.activity.data1 == 0)
 	setButtonEnabled(slot0.take, slot0.activity.data2 == 0)
 	setActive(slot0.take, slot0.activity.data1 > 0)
+	setActive(slot0.tip, ChargeAwardPage.IsShowTip(slot0.activity))
 	setActive(slot0.finish, slot0.activity.data2 == 1)
+end
+
+slot0.IsShowTip = function(slot0)
+	return slot0.data1 > 0 and slot0.data2 == 0
 end
 
 slot0.OnDestroy = function(slot0)

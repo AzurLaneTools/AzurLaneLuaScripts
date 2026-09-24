@@ -2048,11 +2048,25 @@ pg.skill_data_display.all = {
 	152641,
 	152642,
 	152643,
+	152671,
 	152680,
 	152681,
 	152682,
 	152690,
 	152691,
+	152701,
+	152712,
+	152714,
+	152716,
+	152732,
+	152741,
+	152800,
+	152801,
+	152810,
+	152831,
+	152841,
+	152851,
+	152861,
 	18010,
 	18040,
 	18041,
@@ -2744,6 +2758,8 @@ pg.skill_data_display.all = {
 	30583,
 	30671,
 	30672,
+	30721,
+	30722,
 	39000,
 	39001,
 	39002,
@@ -3650,6 +3666,9 @@ pg.skill_data_display.all = {
 	802221,
 	802222,
 	802223,
+	802321,
+	802335,
+	802337,
 	902201,
 	1010140,
 	1010143,
@@ -3925,6 +3944,7 @@ pg.skill_data_display.all = {
 	201883,
 	201895,
 	201898,
+	201905,
 	1011540,
 	1011541,
 	1090010,
@@ -12435,6 +12455,10 @@ end)()
 		id = 152643,
 		name = "서로 협력해서 대처"
 	}
+	pg.base.skill_data_display[152671] = {
+		id = 152671,
+		name = "Voltus ad Hostem"
+	}
 	pg.base.skill_data_display[152680] = {
 		id = 152680,
 		name = "어디서든 참견쟁이"
@@ -12454,6 +12478,58 @@ end)()
 	pg.base.skill_data_display[152691] = {
 		id = 152691,
 		name = "최고의 랜덤 요리"
+	}
+	pg.base.skill_data_display[152701] = {
+		id = 152701,
+		name = "마법의 효과가 사라졌다…"
+	}
+	pg.base.skill_data_display[152712] = {
+		id = 152712,
+		name = "연마한 이빨의 선율을 연주하라"
+	}
+	pg.base.skill_data_display[152714] = {
+		id = 152714,
+		name = "연마한 이빨의 선율을 연주하라"
+	}
+	pg.base.skill_data_display[152716] = {
+		id = 152716,
+		name = "연마한 이빨의 선율을 연주하라"
+	}
+	pg.base.skill_data_display[152732] = {
+		id = 152732,
+		name = "별들의 오케스트라"
+	}
+	pg.base.skill_data_display[152741] = {
+		id = 152741,
+		name = "별들의 오케스트라"
+	}
+	pg.base.skill_data_display[152800] = {
+		id = 152800,
+		name = "빛날 때는 저돌적"
+	}
+	pg.base.skill_data_display[152801] = {
+		id = 152801,
+		name = "빛날 때는 저돌적"
+	}
+	pg.base.skill_data_display[152810] = {
+		id = 152810,
+		name = "터질 때는 치명적"
+	}
+	pg.base.skill_data_display[152831] = {
+		id = 152831,
+		name = "멸진하는 소훼의 호화"
+	}
+	pg.base.skill_data_display[152841] = {
+		id = 152841,
+		name = "부동하는 쇄려의 금성"
+	}
+	pg.base.skill_data_display[152851] = {
+		id = 152851,
+		name = "갱신하는 제구의 신파"
+	}
+	pg.base.skill_data_display[152861] = {
+		id = 152861,
+		name = "갱신하는 제구의 신파"
 	}
 	pg.base.skill_data_display[18010] = {
 		id = 18010,
@@ -12603,6 +12679,8 @@ end)()
 		id = 18350,
 		name = "보조 기구 「S.P.」 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[18351] = {
 		id = 18351,
 		name = "보조 기구 「S.P.」 +"
@@ -12659,8 +12737,6 @@ end)()
 		id = 18491,
 		name = "강공과 회답의 장막"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[18492] = {
 		id = 18492,
 		name = "강공과 회답의 장막"
@@ -13005,6 +13081,8 @@ end)()
 		id = 19330,
 		name = "탐구자의 현안 "
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19331] = {
 		id = 19331,
 		name = "탐구자의 현안 "
@@ -13061,8 +13139,6 @@ end)()
 		id = 19393,
 		name = "불꽃 칼날"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19400] = {
 		id = 19400,
 		name = "거짓과 진실의 차이"
@@ -13407,6 +13483,8 @@ end)()
 		id = 19740,
 		name = "성도의 지령 \"익장 광림\""
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19741] = {
 		id = 19741,
 		name = "성도의 지령 \"익장 광림\""
@@ -13463,8 +13541,6 @@ end)()
 		id = 19801,
 		name = "일족의 완벽주의"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19802] = {
 		id = 19802,
 		name = "일족의 완벽주의"
@@ -13809,6 +13885,8 @@ end)()
 		id = 21122,
 		name = "전탄 발사 - 다이도급II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[21131] = {
 		id = 21131,
 		name = "전탄 발사 - 아레투사I"
@@ -13865,8 +13943,6 @@ end)()
 		id = 21222,
 		name = "전탄 발사 - 켄트급II"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[21231] = {
 		id = 21231,
 		name = "전탄 발사 - 노포크급I"
@@ -14211,6 +14287,8 @@ end)()
 		id = 24021,
 		name = "전탄 발사-청룡I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[24022] = {
 		id = 24022,
 		name = "전탄 발사-청룡II"
@@ -14267,8 +14345,6 @@ end)()
 		id = 24113,
 		name = "전탄 발사III"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[24114] = {
 		id = 24114,
 		name = "전탄 발사 - 닝하이급Ⅳ"
@@ -14613,6 +14689,8 @@ end)()
 		id = 29232,
 		name = "전탄 발사 - 넵튠 II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[29241] = {
 		id = 29241,
 		name = "전탄 발사 - 론 I"
@@ -14669,8 +14747,6 @@ end)()
 		id = 29341,
 		name = "특수탄막 - 알바코어I"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[29342] = {
 		id = 29342,
 		name = "특수탄막 - 알바코어II"
@@ -15015,6 +15091,8 @@ end)()
 		id = 30112,
 		name = "특수 탄막 - 하츠즈키Ⅱ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[30131] = {
 		id = 30131,
 		name = "특수 탄막 - 메리 셀러스트Ⅰ"
@@ -15071,8 +15149,6 @@ end)()
 		id = 30271,
 		name = "특수 탄막 - 브렌누스Ⅰ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[30272] = {
 		id = 30272,
 		name = "특수 탄막 - 브렌누스Ⅱ"
@@ -15232,6 +15308,14 @@ end)()
 	pg.base.skill_data_display[30672] = {
 		id = 30672,
 		name = "특수 탄막 - 콜렛Ⅱ"
+	}
+	pg.base.skill_data_display[30721] = {
+		id = 30721,
+		name = "특수 탄막 - 이14Ⅰ"
+	}
+	pg.base.skill_data_display[30722] = {
+		id = 30722,
+		name = "특수 탄막 - 이14Ⅱ"
 	}
 	pg.base.skill_data_display[39000] = {
 		id = 39000,
@@ -15409,6 +15493,8 @@ end)()
 		id = 103050,
 		name = "생명의 고동"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[103051] = {
 		id = 103051,
 		name = "생명의 고동"
@@ -15473,8 +15559,6 @@ end)()
 		id = 104014,
 		name = "아이쨩 광선! "
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[104020] = {
 		id = 104020,
 		name = "위기회피! "
@@ -15811,6 +15895,8 @@ end)()
 		id = 106241,
 		name = "노을꽃 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[106260] = {
 		id = 106260,
 		name = "신비의 비너스 +"
@@ -15875,8 +15961,6 @@ end)()
 		id = 106341,
 		name = "lisianthus Halation +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[106343] = {
 		id = 106343,
 		name = "lisianthus Halation +"
@@ -16213,6 +16297,8 @@ end)()
 		id = 108050,
 		name = "Instance Abreaction"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[108060] = {
 		id = 108060,
 		name = "불사의 화염"
@@ -16277,8 +16363,6 @@ end)()
 		id = 108141,
 		name = "바람을 타고"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[108150] = {
 		id = 108150,
 		name = "하늘로 비상하자"
@@ -16615,6 +16699,8 @@ end)()
 		id = 110031,
 		name = "한조류 흐드러지게 피기"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[110032] = {
 		id = 110032,
 		name = "한조류 흐드러지게 피기"
@@ -16679,8 +16765,6 @@ end)()
 		id = 110142,
 		name = "자빙폭쇄"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[110150] = {
 		id = 110150,
 		name = "자빙폭쇄+"
@@ -17017,6 +17101,8 @@ end)()
 		id = 112193,
 		name = "수왕무진"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[112202] = {
 		id = 112202,
 		name = "수왕무진"
@@ -17081,8 +17167,6 @@ end)()
 		id = 112282,
 		name = "아이솔레이션"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[112290] = {
 		id = 112290,
 		name = "알버의 응원+"
@@ -17419,6 +17503,8 @@ end)()
 		id = 190142,
 		name = "선굴의 거미줄"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[190143] = {
 		id = 190143,
 		name = "선굴의 거미줄"
@@ -17483,8 +17569,6 @@ end)()
 		id = 600050,
 		name = "균형 붕괴"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[600060] = {
 		id = 600060,
 		name = "스콜피언 미스트"
@@ -17821,6 +17905,8 @@ end)()
 		id = 800167,
 		name = "일렁이는 불꽃·{namecode:205}II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800181] = {
 		id = 800181,
 		name = "바다로 돌아온 나비"
@@ -17885,8 +17971,6 @@ end)()
 		id = 800281,
 		name = "핏빛 기억의 연회"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800295] = {
 		id = 800295,
 		name = "빛을 쫓는 화염·그나이제나우I"
@@ -18223,6 +18307,8 @@ end)()
 		id = 800777,
 		name = "빛을 쫓는 화염·라 갈리소니에르II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800780] = {
 		id = 800780,
 		name = "혼란스러운 마음"
@@ -18287,8 +18373,6 @@ end)()
 		id = 800885,
 		name = "염추의 재 - 알제리Ⅰ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800887] = {
 		id = 800887,
 		name = "염추의 재 - 알제리Ⅱ"
@@ -18625,6 +18709,8 @@ end)()
 		id = 801741,
 		name = "염추의 재·그렌빌Ⅰ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801742] = {
 		id = 801742,
 		name = "염추의 재·그렌빌Ⅱ"
@@ -18689,8 +18775,6 @@ end)()
 		id = 801973,
 		name = "운명에 대한 주시"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801980] = {
 		id = 801980,
 		name = "과거에 대한 추억"
@@ -18875,6 +18959,18 @@ end)()
 		id = 802223,
 		name = "더블 스트라이크예요!"
 	}
+	pg.base.skill_data_display[802321] = {
+		id = 802321,
+		name = "뜻은 멸하지 않으리"
+	}
+	pg.base.skill_data_display[802335] = {
+		id = 802335,
+		name = "섬멸의 횃불 - 빅토리어스Ⅰ"
+	}
+	pg.base.skill_data_display[802337] = {
+		id = 802337,
+		name = "섬멸의 횃불 - 빅토리어스Ⅱ"
+	}
 	pg.base.skill_data_display[902201] = {
 		id = 902201,
 		name = "환상의 고리"
@@ -19015,6 +19111,8 @@ end)()
 		id = 1018303,
 		name = "버스트 콤비네이션"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1018305] = {
 		id = 1018305,
 		name = "단죄의 불꽃·改+"
@@ -19091,8 +19189,6 @@ end)()
 		id = 200161,
 		name = "占坑损管LV2"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200163] = {
 		id = 200163,
 		name = "占坑损管LV3"
@@ -19417,6 +19513,8 @@ end)()
 		id = 200830,
 		name = "용사 십자참"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200831] = {
 		id = 200831,
 		name = "홀리 라이트"
@@ -19493,8 +19591,6 @@ end)()
 		id = 200866,
 		name = "단결과 강인의 가호"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200868] = {
 		id = 200868,
 		name = "평화와 수호의 가호"
@@ -19819,6 +19915,8 @@ end)()
 		id = 201504,
 		name = "할퀴어 주마"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201525] = {
 		id = 201525,
 		name = "아마하라 가호 - 깃털"
@@ -19895,8 +19993,6 @@ end)()
 		id = 201689,
 		name = "타깃 킬"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201709] = {
 		id = 201709,
 		name = "재물운 상승"
@@ -19980,6 +20076,10 @@ end)()
 	pg.base.skill_data_display[201898] = {
 		id = 201898,
 		name = "체인지★배틀 뮤직"
+	}
+	pg.base.skill_data_display[201905] = {
+		id = 201905,
+		name = "공명의 목소리"
 	}
 	pg.base.skill_data_display[1011540] = {
 		id = 1011540,
@@ -20217,6 +20317,8 @@ end)()
 		id = 1011371,
 		name = "관통 공격 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1005071] = {
 		id = 1005071,
 		name = "슈발리에 부클리에+"
@@ -20297,8 +20399,6 @@ end)()
 		id = 1013551,
 		name = "스마일 헌터 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012990] = {
 		id = 1012990,
 		name = "화력 발사 지도 +"
@@ -20619,6 +20719,8 @@ end)()
 		id = 1012580,
 		name = "기관 금지"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012581] = {
 		id = 1012581,
 		name = "기관 금지"
@@ -20699,8 +20801,6 @@ end)()
 		id = 1012915,
 		name = "요괴 = 언데드"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1014140] = {
 		id = 1014140,
 		name = "뻔뻔한 스노우볼  +"
@@ -21021,6 +21121,8 @@ end)()
 		id = 1090401,
 		name = "전술 기록: 디스트로이"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090402] = {
 		id = 1090402,
 		name = "전술 기록: 하트여, 날아라!"
@@ -21101,8 +21203,6 @@ end)()
 		id = 1090471,
 		name = "쾌속 장전·키사라기"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090481] = {
 		id = 1090481,
 		name = "포켓 전함 - 도이칠란트"

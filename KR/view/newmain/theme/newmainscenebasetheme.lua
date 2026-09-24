@@ -55,9 +55,9 @@ slot0.init = function(slot0, slot1)
 	})
 end
 
-slot0._FoldPanels = function(slot0, slot1, slot2)
-	for slot6, slot7 in ipairs(slot0.panels) do
-		slot7:Fold(slot1, slot2)
+slot0._FoldPanels = function(slot0, slot1, slot2, slot3)
+	for slot7, slot8 in ipairs(slot0.panels) do
+		slot8:Fold(slot1, slot2)
 	end
 
 	slot0.iconView:Fold(slot1, slot2)
@@ -65,13 +65,17 @@ slot0._FoldPanels = function(slot0, slot1, slot2)
 	slot0.bannerView:Fold(slot1, slot2)
 	slot0.actBtnView:Fold(slot1, slot2)
 	slot0.buffView:Fold(slot1, slot2)
-	slot0.wordView:Fold(slot1, slot2)
+
+	if slot3 and slot3.chat and slot1 then
+		slot0.wordView:Fold(slot1, slot2)
+	end
+
 	slot0.tagView:Fold(slot1, slot2)
 	slot0.changeView:Fold(slot1, slot2)
 	slot0.asmrChatView:Fold(slot1, slot2)
 end
 
-slot0.OnFoldPanels = function(slot0, slot1)
+slot0.OnFoldPanels = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0.mainCG.blocksRaycasts = false
 	else
@@ -82,7 +86,7 @@ slot0.OnFoldPanels = function(slot0, slot1)
 		end, 0.5, 1):Start()
 	end
 
-	slot0:_FoldPanels(slot1, 0.5)
+	slot0:_FoldPanels(slot1, 0.5, slot2)
 end
 
 slot0.OnAsmrTurnning = function(slot0, slot1)
@@ -146,6 +150,9 @@ slot0.Disable = function(slot0)
 	slot0.wordView:Disable()
 	slot0.changeView:Disable()
 	setActiveViaLayer(slot0._tf, false)
+end
+
+slot0.ShowOrHideBtnEffect = function(slot0, slot1)
 end
 
 slot0.IsLoaded = function(slot0)

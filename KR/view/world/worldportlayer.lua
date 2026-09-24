@@ -709,7 +709,7 @@ slot0.UpdateNShopGoods = function(slot0, slot1)
 				if slot0 == UIItemList.EventUpdate then
 					slot3 = uv0[uv1][slot1]
 					uv2.rtNGoodsDic[slot3.id] = slot2
-					slot4 = slot3:GetDropInfo()
+					slot4 = slot3:getDropInfo()
 
 					updateDrop(slot2:Find("IconTpl"), slot4)
 					setText(slot2:Find("name_mask/name"), shortenString(slot4:getConfig("name"), 6))

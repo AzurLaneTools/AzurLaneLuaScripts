@@ -57,13 +57,17 @@ slot0.execute = function(slot0, slot1)
 
 				pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE, uv3)
 				getProxy(ShopsProxy):addWaitTimer()
-				uv4:sendNotification(GAME.CHARGE_OPERATION_DONE)
+				uv4:sendNotification(GAME.CHARGE_OPERATION_DONE, {
+					shopId = uv3
+				})
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("charge_trade_no_error"))
 			end
 		else
 			if slot0.result == 9999 then
-				uv4:sendNotification(GAME.CHARGE_OPERATION_DONE)
+				uv4:sendNotification(GAME.CHARGE_OPERATION_DONE, {
+					shopId = uv3
+				})
 			end
 
 			if slot0.result == 6 then

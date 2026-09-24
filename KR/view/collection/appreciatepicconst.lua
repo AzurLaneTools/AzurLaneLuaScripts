@@ -57,6 +57,18 @@ slot0.getDefaultGalleryPicIDList = function()
 	return slot1
 end
 
+slot0.getOldLoadingPicIDList = function()
+	slot0 = {}
+
+	for slot4, slot5 in ipairs(pg.gallery_config.all) do
+		if slot5 > 1000 then
+			table.insert(slot0, slot5)
+		end
+	end
+
+	return slot0
+end
+
 slot0.createPicInfo = function(slot0, slot1)
 	slot2 = {
 		type = slot0,
@@ -77,18 +89,23 @@ slot0.getRandomLoadingPic = function()
 		return nil
 	end
 
-	slot6 = #AppreciatePicConst.filterExistGalleryPicIDList(getProxy(LoadingPicProxy):getGalleryPicIDList()) + #AppreciatePicConst.filterExistMangaPicIDList(getProxy(LoadingPicProxy):getMangaPicIDList())
+	if not slot0:getDiyModeOpenFlag() then
+		return {
+			type = uv0.TYPE_GALLERY,
+			path = "loadingbg/bg_" .. math.random(1, uv0.MAX_COUNT)
+		}
+	end
 
-	if not getProxy(LoadingPicProxy):getDiyModeOpenFlag() or slot6 == 0 then
+	if #AppreciatePicConst.filterExistGalleryPicIDList(slot0:getGalleryPicIDList()) + #AppreciatePicConst.filterExistMangaPicIDList(slot0:getMangaPicIDList()) == 0 then
 		slot3 = uv0.getDefaultGalleryPicIDList()
 		slot4 = {}
 	end
 
 	assert(#slot3 + #slot4 > 0, "loading pic count should be greater than 0")
 
-	slot7 = nil
+	slot6 = nil
 
-	return (math.random(1, slot6) > #slot3 or uv0.createPicInfo(uv0.TYPE_GALLERY, slot3[slot8])) and uv0.createPicInfo(uv0.TYPE_MANGA, slot4[slot8 - #slot3])
+	return (math.random(1, slot5) > #slot3 or uv0.createPicInfo(uv0.TYPE_GALLERY, slot3[slot7])) and uv0.createPicInfo(uv0.TYPE_MANGA, slot4[slot7 - #slot3])
 end
 
 slot0.checkDownloadMissingPic = function(slot0)

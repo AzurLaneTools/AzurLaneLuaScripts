@@ -93,18 +93,6 @@ slot0.GetAttrResultValue = function(slot0, slot1)
 	end) and slot2[3] or 0
 end
 
-slot0.GetDropInfo = function(slot0)
-	underscore.each(slot0:GetResult(), function (slot0)
-		table.insert(uv0, Drop.New({
-			type = slot0[1],
-			id = slot0[2],
-			number = slot0[3]
-		}))
-	end)
-
-	return {}
-end
-
 slot0.GetPerformance = function(slot0)
 	return slot0:getConfig("performance")
 end

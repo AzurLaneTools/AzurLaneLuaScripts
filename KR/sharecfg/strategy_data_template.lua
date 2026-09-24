@@ -380,6 +380,11 @@ pg.strategy_data_template.all = {
 	201826,
 	201831,
 	201832,
+	201901,
+	201905,
+	201909,
+	201910,
+	201911,
 	205001,
 	205002,
 	205003,
@@ -4797,6 +4802,71 @@ META 함선: [침식] 1개당 자신이 <color=#92fc63>받는 피해량과 주�
 		icon = "200908",
 		arg = {}
 	}
+	pg.base.strategy_data_template[201901] = {
+		buff_id = 201901,
+		name = "이상한 공간",
+		desc = "불길한 안개가 자욱하게 깔려 있다. 전투 중 아군의 기동과 명중이 5% 감소한다. 적은 주는 피해량이 5% 증가하며 받는 피해량이 5% 감소한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201901,
+		icon = "201901",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201905] = {
+		buff_id = 201905,
+		name = "공명의 목소리",
+		desc = "전투 중 타이거에 의한 지원 탄막이 출현한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201905,
+		icon = "201905",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201909] = {
+		buff_id = 201909,
+		name = "일치단결",
+		desc = "전투 중 아군의 수가 많을수록 강화 효과를 얻는다. 아군 1척당 아군 전체가 주는 피해량이 1% 증가하고, 받는 피해량은 1% 경감된다(최대 10척분까지).",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201909,
+		icon = "201909",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201910] = {
+		buff_id = 0,
+		name = "챌린지 모드",
+		desc = "전투 중 아즈치의 내구가 처음으로 20%를 밑돌 때 1회만 발동하여 <color=#92fc63>폭주 상태에 빠지고, 15초간 여러 피해를 무효화한다</color>.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201910,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201911] = {
+		buff_id = 0,
+		name = "챌린지 모드",
+		desc = [[
+전투 중 아즈치의 내구가 20%를 밑돌 때 발동하여 <color=#92fc63>폭주 상태에 빠지고, 15초간 여러 피해를 무효화한다</color>. 폭주 상태 종료 후 45초간은 해당 효과를 발동할 수 없다. 
+폭주 상태인 아즈치가 발사하는 탄막은 피해를 주지 못하지만, 탄막이 아군에게 적중할 때마다 아즈치의 <color=#92fc63>내구가 최대치의 3%만큼 회복</color>된다. 
+
+어려움 모드 특징:
+아군 선봉함대의 <color=#92fc63>명중 판정이 선봉함대의 선두 함선만으로 한정되어, 명중 판정 범위가 대폭 감소</color>한다. 
+함선이 피격되면 일정 시간 무적 상태가 된다. 
+
+적이 주는 피해가 <color=#ffc038>극대화</color>되며, 적탄은 항공 공격 등 일부 방법으로 사라지지 않게 된다. 단, 아군이 항공 공격을 발동할 때 선봉함대의 선두 함선에 3초 동안 지속되는 「모든 피해 무효화 강화」를 부여한다. 
+다음 장비 및 스킬은 무효화된다.
+[래빗 라스트 스탠드], [레인보우 프로젝트], [절체절명], [불굴의 의지 ]]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201911,
+		icon = "200908",
+		arg = {}
+	}
 	pg.base.strategy_data_template[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -5006,6 +5076,8 @@ META 함선: [침식] 1개당 자신이 <color=#92fc63>받는 피해량과 주�
 		icon = "buff_yumia_4",
 		arg = {}
 	}
+end)()
+(function ()
 	pg.base.strategy_data_template[300013] = {
 		buff_id = 0,
 		name = "코어 레벨 Lv1",
@@ -5061,8 +5133,6 @@ META 함선: [침식] 1개당 자신이 <color=#92fc63>받는 피해량과 주�
 		icon = "buff_yumia_1",
 		arg = {}
 	}
-end)()
-(function ()
 	pg.base.strategy_data_template[300018] = {
 		buff_id = 0,
 		name = "코어 레벨 Lv2",

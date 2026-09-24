@@ -15,7 +15,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 			slot10 = pg.TimeMgr.GetInstance()
 
 			for slot14, slot15 in ipairs(slot9) do
-				if slot10:inTime(pg.shop_template[slot15].time) then
+				if slot10:inTime(ShopConst.GetShopConfig(slot15).time) then
 					table.insert(slot3, slot15)
 				end
 			end
@@ -40,7 +40,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 		slot0.goods[slot10] = Goods.Create({
 			shop_id = slot10,
 			buy_count = slot4[slot10] or 0,
-			groupCount = slot5[pg.shop_template[slot10].group] or 0
+			groupCount = slot5[ShopConst.GetShopConfig(slot10).group] or 0
 		}, Goods.TYPE_CRUISE)
 	end
 end

@@ -174,7 +174,9 @@ slot0.GetActivityShops = function(slot0, slot1)
 			uv0.shopList[ShopConst.TYPE_ACTIVITY] = {}
 
 			for slot5, slot6 in pairs(slot1) do
-				table.insert(uv0.shopList[ShopConst.TYPE_ACTIVITY], slot6)
+				if not slot6:IsHide() then
+					table.insert(uv0.shopList[ShopConst.TYPE_ACTIVITY], slot6)
+				end
 			end
 
 			slot2 = getProxy(ActivityProxy)

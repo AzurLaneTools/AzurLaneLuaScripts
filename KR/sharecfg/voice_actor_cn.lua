@@ -2024,4 +2024,20 @@ end)()
 		actor_name = "후나토 유리에",
 		code = 520
 	}
+	pg.base.voice_actor_CN[522] = {
+		actor_name = "나카무라 칸나",
+		code = 522
+	}
+	pg.base.voice_actor_CN[523] = {
+		actor_name = "아케치 리코",
+		code = 523
+	}
+	pg.base.voice_actor_CN[524] = {
+		actor_name = "아야세 미라이",
+		code = 524
+	}
+	pg.base.voice_actor_CN[525] = {
+		actor_name = "쿠로사키 시오리",
+		code = 525
+	}
 end)()

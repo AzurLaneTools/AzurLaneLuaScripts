@@ -215,6 +215,7 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 
 			slot0:Stop()
 			slot0:Play("anim_newinstagram_chat_right_in")
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildJuusOfficialAccountsClick(0, uv1.currentTopicId, 1))
 		end, SFX_PANEL)
 	else
 		slot8 = getProxy(InstagramProxy)
@@ -833,6 +834,7 @@ slot0.UpdateOptionPanel = function(slot0, slot1, slot2)
 				setText(slot2:Find("Text"), HXSet.hxLan(uv0[slot1 + 1][2]))
 				onButton(uv1, slot2, function ()
 					uv0:emit(InstagramChatMediator.REPLY, uv1.topicId, uv2[#uv2].id, uv3[1])
+					pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildJuusOfficialAccountsClick(1, uv1.topicId, 1))
 				end, SFX_PANEL)
 			end
 		end)
@@ -1129,6 +1131,7 @@ slot0.SetTopicPanel = function(slot0, slot1)
 
 		slot0:Stop()
 		slot0:Play("anim_newinstagram_chat_right_in")
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildJuusOfficialAccountsClick(0, uv0.currentTopic.topicId, 1))
 	end, SFX_PANEL)
 end
 
@@ -1626,7 +1629,7 @@ slot0.OfficialAccountsUpdateItem = function(slot0, slot1, slot2)
 	onButton(slot0, slot5, function ()
 		uv0.currentOfficalID = uv1.id
 
-		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildJuusOfficialAccountsClick(uv1.id))
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildJuusOfficialAccountsClick(0, uv1.id, 2))
 		uv0:ShowOfficialAccountsInfo(uv1)
 		uv0:ReadOfficialAccountComment()
 
@@ -1797,8 +1800,9 @@ slot0.OpenCommentPanel = function(slot0, slot1)
 
 			setText(slot2:Find("Text"), HXSet.hxLan(uv0[slot3].text))
 			onButton(uv1, slot2, function ()
-				uv0:emit(InstagramChatMediator.ON_OFFICIAL_ACCOUNTS_OPERATE, ActivityConst.INSTAGRAM_OP_COMMENT, uv1, uv2, uv3)
-				uv0:CloseCommentPanel()
+				pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildJuusOfficialAccountsClick(1, uv0, 2))
+				uv1:emit(InstagramChatMediator.ON_OFFICIAL_ACCOUNTS_OPERATE, ActivityConst.INSTAGRAM_OP_COMMENT, uv0, uv2, uv3)
+				uv1:CloseCommentPanel()
 			end, SFX_PANEL)
 		end
 	end)

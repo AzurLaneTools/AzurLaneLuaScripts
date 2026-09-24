@@ -9729,6 +9729,11 @@ _G.pg.base.gametip.ship_remould_warning_403994 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_201534 = {
+	tip = "개조(근대화 개수) 실시 시 <color=#92fc63>[주포 포좌 +1]</color>\n계속하시겠습니까?"
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "보이스 갱신"
 }
@@ -12575,7 +12580,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「베닝턴」, 「빅스버그」 등의 등장 확률 UP!"
+	tip = "기간 한정 건조를 총 200회 실시하면, 「아즈치」 100% 획득 가능! (최대 4척까지)"
 }
 
 
@@ -15224,7 +15229,7 @@ _G.pg.base.gametip.returner_help = {
 「사령부 동원지령」이란, 지휘관의 로그인 상태에 따라 「초청자」, 「초청 대상 지휘관」으로 분류되어, 각각 다른 보상을 획득할 수 있는 이벤트입니다. 
 ■ 「초청자」 및 「초청 대상 지휘관」
 다음 조건을 만족한 지휘관은 「초청자」로 분류되며, 「초청자」 전용 목표를 달성하면 보상을 획득할 수 있습니다. 
-・2025년 5월 20일(화) ~ 7월 4일(금) 점검 전까지 한 번이라도 로그인한 적이 있고, 상기 조건을 만족하지 못한 경우에는 「초청 대상 지휘관」으로 분류되어, 전용 임무를 클리어함으로써 보상을 획득할 수 있습니다. 
+·2026년 9월 11일 ~ 9월 24일 점검 전까지 한 번이라도 로그인한 적이 있음. 상기 조건을 만족하지 못한 경우에는 「초청 대상 지휘관」으로 분류되어, 전용 임무를 클리어함으로써 보상을 획득할 수 있습니다. 
 자신이 「초청자」, 「초청 대상 지휘관」 중 어디에 속하는지 판단하기 어려운 경우에는 사령부 동원지령 배너에 표시된 내용을 확인하시기 바랍니다. 
 ■ 초청자의 목표
 초청자는 최대 2명의 친구를 「사령부 동원지령」에 참여시킬 수 있으며, 친구가 전용 임무를 클리어하면 자신에게 「컴백 Pt」가 가산됩니다. 
@@ -15234,7 +15239,7 @@ _G.pg.base.gametip.returner_help = {
 초청자는 「초청 정보 게시」를 탭하여 초청 대상 지휘관의 「초청자 검색」에 자신의 UID를 표시할 수 있습니다. 
 ■초청 대상 지휘관의 목표
 초청 대상 지휘관은 초청자의 UID를 이벤트 배너에 입력함으로써 「사령부 동원지령」에 참가할 수 있습니다. 사령부 동원지령에 참가하면, 매일 오픈되는 전용 임무를 클리어함으로써 다양한 보상을 획득할 수 있습니다. 
-한 UID는 최대 2회까지 입력할 수 있습니다. 또한, UID는 다른 서버에 소속된 친구의 것도 입력할 수 있습니다. ]]
+하나의 UID는 최대 2회까지 입력할 수 있습니다. 또한, UID는 다른 서버에 소속된 친구의 것도 입력할 수 있습니다.]]
 		}
 	}
 }
@@ -15276,13 +15281,13 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "이벤트 설명:\n"
 		},
 		{
-			info = "「선택 가능한 특별 건조」란, 상시 3종류의 일반 건조 중 하나를 베이스로 삼아, 특정 함선을 선택하여 그 함선을 픽업 상태(출현율 UP)로 만드는 특별 건조 시스템을 말합니다. "
+			info = "「선택 가능한 특별 건조」란, 상시 3종류의 일반 건조 중 하나를 베이스로 삼아, 특정 함선을 선택하여 그 함선을 픽업 상태(출현율 UP)로 만드는 특별 건조 시스템을 말합니다."
 		},
 		{
 			info = "1. 「소형함 건조」, 「대형함 건조」, 「특형함 건조」 중 하나를 골라 특별 건조의 베이스로 만들 수 있습니다. (UR 함선은 「대형함 건조」, 「특형함 건조」에서만 출현합니다."
 		},
 		{
-			info = "2. 같은 건조 내에서 출현하는 함선 중 두 종류를 골라 「픽업 상태」(출현율 UP 상태)로 만들 수 있습니다.<color=#FF5C5C>(※ 2026년 4월 8일까지 상시 건조 상태가 된 함선만 출현합니다. 또한, UR 함선을 선택한 경우, 선택하지 않은 UR 함선은 건조에서 출현하지 않습니다.)</color>"
+			info = "2. 같은 건조 내에서 출현하는 함선 중 두 종류를 골라 「픽업 상태(출현율 UP 상태)」로 만들 수 있습니다.<color=#FF5C5C>(※ 2026년 7월 24일까지 상시 건조 상태가 된 함선만 출현합니다. 또한, UR 함선을 선택한 경우, 선택하지 않은 UR 함선은 건조에서 출현하지 않습니다.)</color>"
 		},
 		{
 			info = "3. 「선택 가능한 특별 건조」에서 「픽업」으로 선택된 함선의 출현율은 레어도에 따라 다음과 같이 분류됩니다.\n<color=#ff5e39>UR</color>: 1.2% <color=#ffde38>SSR</color>: 2%  <color=#d797ff>SR</color>: 2.5%  <color=#3dc6ff>R: 2.5%</color>  N: 2.5%"
@@ -50673,6 +50678,424 @@ _G.pg.base.gametip.event_worldboss_0827_title_en = {
 }
 
 
+_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_1 = {
+	tip = "작전 준비"
+}
+
+
+_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_2 = {
+	tip = "취업 대작전!"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_1 = {
+	tip = "기념장"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_2 = {
+	tip = "테마 가구 "
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_3 = {
+	tip = "장비스킨 상자"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_4 = {
+	tip = "이벤트 보상"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_1 = {
+	tip = "캐릭터"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_2 = {
+	tip = "기타"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_3 = {
+	tip = "장비스킨"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
+	tip = "빛나는 \"마법\""
+}
+
+
+_G.pg.base.gametip.shiningmagicsignpage_sign_remain = {
+	tip = "탭 가능 횟수"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_3 = {
+	tip = "로그인 보너스"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_4 = {
+	tip = "동원지령"
+}
+
+
+_G.pg.base.gametip["20260908gameplay_main_window"] = {
+	tip = {
+		{
+			info = "플레이 방법: "
+		},
+		{
+			info = "1. 「이상한 일상 진행 중」은 <color=#92fc63>「작전 개시」</color> 시 출현하는 각 스테이지 맵에 동료를 배치하고, 출현하는 적 캐릭터를 추적하여 포획하는 방식으로 진행되는 미니 게임입니다. /n 　스테이지를 공략하고 한정 임무를 클리어하면 다양한 보상을 획득할 수 있습니다. /n"
+		},
+		{
+			info = "2. 미니 게임의 각 스테이지에는 다양한 맵과 적이 출현합니다. 동료를 배치하면 해당 동료는 자동으로 적을 추적하여 포획을 시도합니다. 단, 스테이지에는 아군 캐릭터를 최소 1명 이상 배치해야 합니다. /n 　제한시간 내에 적을 모두 포획하면 스테이지 클리어로 처리됩니다. 남아있는 시간이 많을수록 스테이지 평가도 상승합니다. /n 　스테이지는 「이지」와 「하드」 2가지 난이도가 있으며, 「하드」는 「이지」 스테이지를 1회 클리어하면 열립니다. 각 난이도는 9/28(월)까지 매일 2스테이지씩 오픈되며, 최초 클리어 시 이벤트 Pt 「조사 경비」를 획득할 수 있습니다."
+		},
+		{
+			info = "3. 미니 게임에 배치할 수 있는 아군 캐릭터는 총 13종이 존재하며, 저마다 고유한 성능과 행동 패턴을 가집니다. /n 　아군 캐릭터의 미니 게임 배치를 오픈하려면 아래 조건을 모두 만족해야 합니다./n 　　① 한정 해역 스테이지의 스토리 진행/n 　　② 한정 임무를 클리어하여 아이템 <color=#92fc63>「OPA 모집장」</color>획득 (OPA 모집장 1장당 아군 캐릭터 1명 오픈 가능)/n 　조건을 만족하면 <color=#92fc63>「동료 오픈」</color>→<color=#92fc63>「동료 오픈」 </color>메뉴를 통해 해당 동료 배치를 오픈할 수 있습니다."
+		},
+		{
+			info = "4. 미니 게임에서는 아군 캐릭터를 배치하는 것 외에도 화면 하단의 <color=#92fc63>「현장 조정 스킬」</color>에 편성한 스킬을 배치할 수 있습니다. 편성 가능한 스킬은 「이지」에서 1종류, 「하드」에서 최대 2종류까지입니다. /n 　플레이 중 이와 같은 「현장 조정 스킬」을 사용하여 아군을 강화하거나 바리케이드를 설치해 적의 이동을 제한하는 등 동료를 지원할 수 있습니다. /n 　「현장 조정 스킬」은 <color=#92fc63>「사무 관리」</color>→<color=#92fc63>「강화 구매」</color>에서 이벤트 Pt 「조사 경비」를 소비하여 사용 횟수를 늘릴 수 있습니다."
+		},
+		{
+			info = "5. 미니 게임 내 아군 캐릭터의 성능 및 상세 정보는 「사무 관리」→<color=#92fc63>「상세 확인」</color>에서 확인하실 수 있습니다. 또한 「희망의 선율」을 선물하여 해당 캐릭터와의 친밀도를 높일 수 있으며, 한정 스토리를 오픈할 수 있습니다. /n 　「희망의 선율」은 「사무 관리」→「강화 구매」에서 이벤트 Pt 「조사 경비」를 소비하여 구매할 수 있습니다."
+		}
+	}
+}
+
+
+_G.pg.base.gametip["20260908gameplay_hire"] = {
+	tip = {
+		{
+			info = "동료 상세:"
+		},
+		{
+			info = "1. 「이상한 일상 진행 중」에서는 다양한 동료를 오픈하여 미니 게임에 배치할 수 있습니다."
+		},
+		{
+			info = "2. 각 동료를 오픈하려면 「유영 미성」 해역 화면의 스토리에서 해당 스토리를 진행하고, 추가로 「이상한 일상 진행 중」의 「한정 임무」에서 임무 보상인 <color=#92fc63>「OPA 모집장」</color>을 획득해야 합니다. /n 　「동료 오픈」에서 「OPA 모집장」을 소비하여 동료를 오픈해 보세요!"
+		},
+		{
+			info = "3. 동료에게는 각각 「기본 속도」, 「유영 특성」, 「추적 습성」이 있습니다. 미니 게임 맵에 배치할 때 맵의 지형과 적과의 상성을 고려하여 배치해 주세요. /n/n 　기본 속도: 캐릭터의 일반 이동 속도입니다. 단, 맵의 지형이나 효과 강화의 영향을 받습니다./n 　유영 특성: 캐릭터의 이동 시 행동 유형입니다. 직선·모퉁이·교차로에서 가속/감속하거나, 움직임을 멈추는 등의 특성이 있습니다./n 　추적 습성: 캐릭터의 추적 시 이동 로직입니다. 「적의 현재 위치를 향해 추적」, 「적의 이동 경로를 예측해 선점」, 「동료와 연계하여 퇴로 차단」 등 3가지 종류가 존재합니다."
+		},
+		{
+			info = "4. 추적 경로 선택 시 특정 경로를 적극적으로 선택하는 동료가 존재합니다."
+		},
+		{
+			info = "5. 동료를 오픈하면 전용 대사가 재생됩니다. 또한 「희망의 선율」을 선물하여 친밀도를 높일 수 있으며, 관계 레벨이 상승하면 전용 대사가 오픈됩니다."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.reverse_pacman_archive = {
+	tip = "유영 정보"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_support = {
+	tip = "강화 구매"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy = {
+	tip = "현장 조정"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_logistics_sys = {
+	tip = "강화 선택"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_remaining_gifts = {
+	tip = "남은 희망의 선율: $1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_favourite_increased = {
+	tip = "$1의 호감도가 상승했습니다!"
+}
+
+
+_G.pg.base.gametip["reverse_pacman_ not_enough_gifts"] = {
+	tip = "희망의 선율이 부족합니다."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_send_gift = {
+	tip = "선물하기"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_owned = {
+	tip = "보유"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_count = {
+	tip = "$1개"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_buy = {
+	tip = "구매"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_upgrade = {
+	tip = "강화"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_sold_out = {
+	tip = "품절"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_role = {
+	tip = "오픈 대상 선택"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_hired_role = {
+	tip = "입사함"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_hire_tip = {
+	tip = "유영을 모집하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unlock_role = {
+	tip = "「유영 미성」 스토리 감상 시 해당 캐릭터 오픈 가능"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unhire_role = {
+	tip = "캐릭터를 오픈하면 선택 가능"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_speed = {
+	tip = "이동 속도"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_ai_type = {
+	tip = "추적 습성"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_ai_desc = {
+	tip = "유영 특성"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_close = {
+	tip = "X 또는 화면을 탭하여 닫기"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_close_1 = {
+	tip = "닫기"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_chaser_1 = {
+	tip = "추적형"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_ambusher_1 = {
+	tip = "예측형"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_planner_1 = {
+	tip = "기동형"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_speed_level = {
+	tip = "레벨 <color=$1>$2</color>"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_ship_speed = {
+	tip = "속도: $1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy_tip = {
+	tip = "위치를 선택하여 아군 배치"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_level_title = {
+	tip = "스테이지 선택"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_ship_title = {
+	tip = "유영 배치"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_type_1 = {
+	tip = "이지"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_type_2 = {
+	tip = "하드"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_level_lock_tip = {
+	tip = "「이지」 스테이지 클리어 시 「하드」 스테이지 오픈"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_0 = {
+	tip = "전체"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_1 = {
+	tip = "추적"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_2 = {
+	tip = "예측"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_3 = {
+	tip = "기동"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy_empty = {
+	tip = "아군을 1명 이상 배치하세요."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unlock_date_tip = {
+	tip = "$1월 $2일 오픈"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_game_speed_up_tip = {
+	tip = "남은 시간이 30초 미만입니다. 작전 속도 상승!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_cast_block = {
+	tip = "바리케이드!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_pick_speed = {
+	tip = "속도 상승!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_pick_giant = {
+	tip = "거대화!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_award_title = {
+	tip = "첫 클리어 보상"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_fail_tips = {
+	tip = "TIPS: 적의 이동 특성에 대응하는 장점을 가졌거나, 적보다 이동 속도가 빠른 유영을 배치하세요."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_statistics = {
+	tip = "작전 집계"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_time = {
+	tip = "작전 시간: $1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_arrest = {
+	tip = "유영 배치 수: $1\n적 수용 수: $2"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_timeout = {
+	tip = "시간 초과"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_escape = {
+	tip = "적이 추적 범위를 벗어났습니다."
+}
+
+
+_G.pg.base.gametip["260908activity_shop_title"] = {
+	tip = "유영 미성"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk1 = {
+	tip = "목표에 접근했습니다. 지금부터 수용을 개시합니다."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk2 = {
+	tip = "목표 발견. 지금부터 수용을 개시합니다."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk3 = {
+	tip = "보고. 부근 구역에서 목표 확인."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk4 = {
+	tip = "목표 포착!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk5 = {
+	tip = "목표 수용 확인!"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk6 = {
+	tip = "보고. 목표는 무사히 수용했습니다."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk7 = {
+	tip = "목표를 놓쳤습니다……"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk8 = {
+	tip = "목표가 시야에서 벗어났습니다."
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk9 = {
+	tip = "보고. 목표가 추적 범위를 벗어났습니다."
+}
+
+
 _G.pg.base.gametip.auto_battle_unlock_tip = {
 	tip = "메인 해역 1-3 클리어 시 오픈"
 }
@@ -50974,21 +51397,6 @@ _G.pg.base.gametip.auto_battle_help = {
 }
 
 
-_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_1 = {
-	tip = "작전 준비"
-}
-
-
-_G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_2 = {
-	tip = "취업 대작전!"
-}
-
-
-_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
-	tip = "빛나는 \"마법\""
-}
-
-
-_G.pg.base.gametip.shiningmagicsignpage_sign_remain = {
-	tip = "탭 가능 횟수"
+_G.pg.base.gametip.reverse_pacman_no_char = {
+	tip = "먼저 「<color=#92fc63>한정 임무</color>」에서 한정 임무를 오픈하고, 「<color=#92fc63>동료 오픈</color>」에서 동료를 오픈하세요!"
 }

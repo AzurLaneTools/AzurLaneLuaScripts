@@ -21,6 +21,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.alpha = slot1.alpha
 	slot0.mask = defaultValue(slot1.mask, false)
 	slot0.isWorld = defaultValue(slot1.isWorld, true)
+	slot0.forceDormLine = defaultValue(slot1.forceDormLine, false)
 	slot0.styleData = slot0:GenStyleData(slot1.style)
 	slot0.highLightData = slot0:GenHighLightData(slot1.style)
 	slot0.baseUI = slot0:GenSearchData(slot1.baseui)
@@ -140,7 +141,7 @@ slot0.GenStyleData = function(slot0, slot1)
 end
 
 slot0.GetHighlightName = function(slot0)
-	if slot0:GetDialogueType() == uv0.DIALOGUE_DORM then
+	if slot0:GetDialogueType() == uv0.DIALOGUE_DORM or slot0.forceDormLine then
 		return "wShowArea4"
 	elseif slot0.isWorld then
 		return "wShowArea"

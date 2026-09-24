@@ -43,9 +43,9 @@ slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0:UpdateFood(slot1)
 
-	slot3 = pg.shop_template[underscore.detect(getGameset("food_shop_id")[2], function (slot0)
+	slot3 = ShopConst.GetShopConfig(underscore.detect(getGameset("food_shop_id")[2], function (slot0)
 		return slot0[1] == uv0
-	end)[2]]
+	end)[2])
 	slot6 = 1
 	slot0.total.text = slot3.resource_num * slot6
 

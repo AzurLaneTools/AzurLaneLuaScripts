@@ -143,39 +143,27 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot0.viewComponent:SetResource()
 		end,
 		[GAME.SKIN_SHOPPIGN_DONE] = function (slot0, slot1)
-			if pg.shop_template[slot1:getBody().id] and (slot3.genre == ShopArgs.SkinShop or slot3.genre == ShopArgs.SkinShopTimeLimit) then
-				if pg.ship_skin_template[slot3.effect_args[1]].skin_type == ShipSkin.SKIN_TYPE_TB then
-					slot0:addSubLayers(Context.New({
-						mediator = NewSkinTBMediator,
-						viewComponent = NewSkinTBLayer,
-						data = {
-							skinId = slot3.effect_args[1],
-							timeLimit = slot3.genre == ShopArgs.SkinShopTimeLimit
-						}
-					}))
-				elseif PaintingShowScene.GetSkinShowAble(slot4) then
-					slot0:addSubLayers(Context.New({
-						mediator = PaintingShowMediator,
-						viewComponent = PaintingShowNewSkinScene,
-						data = {
-							is_shop = true,
-							skinId = slot4,
-							timeLimit = slot3.genre == ShopArgs.SkinShopTimeLimit
-						}
-					}))
-				else
-					slot0:addSubLayers(Context.New({
-						mediator = NewSkinMediator,
-						viewComponent = NewSkinLayer,
-						data = {
-							skinId = slot3.effect_args[1],
-							timeLimit = slot3.genre == ShopArgs.SkinShopTimeLimit
-						}
-					}))
-				end
+			if ShopConst.GetShopConfig(slot1:getBody().id) and (slot3.genre == ShopArgs.SkinShop or slot3.genre == ShopArgs.SkinShopTimeLimit) then
+				slot0:HandleNewSkin(slot2.id, slot3.effect_args[1], slot3.genre == ShopArgs.SkinShopTimeLimit)
+			end
+		end,
+		[GAME.SKIN_BY_CHARGE_DONE] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+			slot3 = slot0.viewComponent.commodities or {}
+			slot4 = 0
 
-				slot0.viewComponent:OnShopping(slot2.id)
-				pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
+			for slot8, slot9 in ipairs(slot3) do
+				if slot2.skinId == slot9:getSkinId() then
+					slot4 = slot9.id
+
+					break
+				end
+			end
+
+			print(slot2.skinId, slot4)
+
+			if slot4 > 0 then
+				slot0:HandleNewSkin(slot4, slot2.skinId, false)
 			end
 		end,
 		[GAME.SKIN_COUPON_SHOPPING_DONE] = GAME.SKIN_SHOPPIGN_DONE,
@@ -187,9 +175,46 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot0.viewComponent:Refresh(true)
 		end,
 		[GAME.CHARGE_OPERATION_DONE] = function (slot0, slot1)
-			slot0.viewComponent:closeView()
+			if not getProxy(ShopsProxy):IsSkinTypeCharge(slot1:getBody().shopId) then
+				slot0.viewComponent:closeView()
+			end
 		end
 	}
+end
+
+slot0.HandleNewSkin = function(slot0, slot1, slot2, slot3)
+	if pg.ship_skin_template[slot2].skin_type == ShipSkin.SKIN_TYPE_TB then
+		slot0:addSubLayers(Context.New({
+			mediator = NewSkinTBMediator,
+			viewComponent = NewSkinTBLayer,
+			data = {
+				skinId = slot2,
+				timeLimit = slot3
+			}
+		}))
+	elseif PaintingShowScene.GetSkinShowAble(slot2) then
+		slot0:addSubLayers(Context.New({
+			mediator = PaintingShowMediator,
+			viewComponent = PaintingShowNewSkinScene,
+			data = {
+				is_shop = true,
+				skinId = slot2,
+				timeLimit = slot3
+			}
+		}))
+	else
+		slot0:addSubLayers(Context.New({
+			mediator = NewSkinMediator,
+			viewComponent = NewSkinLayer,
+			data = {
+				skinId = slot2,
+				timeLimit = slot3
+			}
+		}))
+	end
+
+	slot0.viewComponent:OnShopping(slot1)
+	pg.EasyRedDotMgr.GetInstance():TriggerMarks("specialShop")
 end
 
 return slot0

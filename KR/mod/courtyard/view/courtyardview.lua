@@ -64,7 +64,8 @@ slot0.GetStoreyModule = function(slot0)
 		[CourtYardConst.STYLE_INNER] = CourtYardStoreyModule,
 		[CourtYardConst.STYLE_OUTSIDE] = CourtYardOutStoreyModule,
 		[CourtYardConst.STYLE_FEAST] = CourtYardFeastStoreyModule,
-		[CourtYardConst.STYLE_PREVIEW] = CourtYardStoreyPreviewModule
+		[CourtYardConst.STYLE_PREVIEW] = CourtYardStoreyPreviewModule,
+		[CourtYardConst.STYLE_REVERSE_PACMAN] = CourtYardReversePacmanStoreyModule
 	})[slot0.storey:GetStyle()]
 end
 
@@ -73,7 +74,8 @@ slot0.InitObjPool = function(slot0, slot1)
 		[CourtYardConst.STYLE_INNER] = CourtYardPoolMgr,
 		[CourtYardConst.STYLE_OUTSIDE] = CourtYardPoolMgr,
 		[CourtYardConst.STYLE_FEAST] = CourtYardFeastPoolMgr,
-		[CourtYardConst.STYLE_PREVIEW] = CourtYardPoolMgr
+		[CourtYardConst.STYLE_PREVIEW] = CourtYardPoolMgr,
+		[CourtYardConst.STYLE_REVERSE_PACMAN] = CourtYardReversePacmanPoolMgr
 	})[slot0.storey:GetStyle()].New()
 
 	slot4:Init(slot0.poolRoot, slot1)

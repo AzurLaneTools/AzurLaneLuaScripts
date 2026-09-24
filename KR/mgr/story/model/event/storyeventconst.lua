@@ -1,4 +1,5 @@
 STORY_EVENT = {
-	TEST_DONE = "story event test done",
-	TEST = "story event test"
+	TEST = "story event test",
+	OPTION_SELECTED = "story option selected",
+	TEST_DONE = "story event test done"
 }

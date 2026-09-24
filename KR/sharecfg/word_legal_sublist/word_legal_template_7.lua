@@ -4,6 +4,106 @@ slot0.word_legal_template_7 = {}
 slot1 = slot0.word_legal_template_7
 
 temp = function()
+	uv0.Z = {
+		["1"] = {
+			this = true,
+			["1"] = {
+				this = true
+			},
+			["3"] = {
+				this = true
+			},
+			["4"] = {
+				this = true
+			},
+			["5"] = {
+				this = true
+			},
+			["6"] = {
+				this = true
+			},
+			["8"] = {
+				this = true
+			},
+			["9"] = {
+				this = true
+			}
+		},
+		["2"] = {
+			this = true,
+			["0"] = {
+				this = true
+			},
+			["1"] = {
+				this = true
+			},
+			["3"] = {
+				this = true
+			},
+			["4"] = {
+				this = true
+			},
+			["5"] = {
+				this = true
+			},
+			["6"] = {
+				this = true
+			},
+			["8"] = {
+				this = true
+			}
+		},
+		["9"] = {
+			this = true
+		},
+		["3"] = {
+			["5"] = {
+				this = true
+			},
+			["6"] = {
+				this = true
+			}
+		},
+		["4"] = {
+			["3"] = {
+				this = true,
+				["—"] = {
+					["幼"] = {
+						["儿"] = {
+							["园"] = {
+								this = true
+							}
+						}
+					}
+				}
+			},
+			["6"] = {
+				this = true
+			},
+			["7"] = {
+				this = true,
+				["—"] = {
+					["幼"] = {
+						["儿"] = {
+							["园"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		},
+		["5"] = {
+			["2"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["쾨"] = {
 		["니"] = {
 			["히"] = {
@@ -638,32 +738,6 @@ temp = function()
 		["지"] = {
 			["아"] = {
 				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["두"] = {
-		["카"] = {
-			[" "] = {
-				["델"] = {
-					["리"] = {
-						[" "] = {
-							["아"] = {
-								["브"] = {
-									["루"] = {
-										["치"] = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				}
 			}
 		}
 	}

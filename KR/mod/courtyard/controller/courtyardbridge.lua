@@ -78,6 +78,8 @@ end
 slot0.System2Controller = function(slot0, slot1, slot2)
 	if slot1 == CourtYardConst.SYSTEM_FEAST then
 		return CourtYardFeastController.New(slot0, slot2)
+	elseif slot1 == CourtYardConst.SYSTEM_REVERSE_PACMAN then
+		return CourtYardReversePacmanController.New(slot0, slot2)
 	else
 		return CourtYardController.New(slot0, slot2)
 	end

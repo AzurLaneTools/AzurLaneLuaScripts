@@ -98,7 +98,7 @@ SCENE = {
 	BOSSRUSH_REMASTER = "bossrush remaster",
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
-	SENRANKAGURA_MEDAL = "senrankagura medal",
+	REVERSE_PACMAN_HOME = "reverse pacman home",
 	OTHERWORLD_MAP = "OTHERWORLD_MAP",
 	CHARGE_MENU = "scene charge_menu",
 	HOTSPRING = "hotSpring",
@@ -184,15 +184,18 @@ SCENE = {
 	SUMMARY = "summary",
 	MUSIC_FESTIVAL2 = "music festival 2",
 	IDOL_MEDAL_COLLECTION_SCENE3 = "IDOL_MEDAL_COLLECTION_SCENE3",
-	AUCTION_GAME_ENTRANCE = "auction game entrance",
+	REVERSE_PACMAN_SELECT = "REVERSE_PACMAN_SELECT",
 	SUMMER_FEAST = "summer feast",
-	US_CASTLE_2023 = "US_CASTLE_2023",
-	MAINUI = "scene mainUI",
+	REVERSE_PACMAN_GAME = "REVERSE_PACMAN_GAME",
+	AUCTION_GAME_ENTRANCE = "auction game entrance",
 	BACKHILL_SUMMERPARK_2022 = "BACKHILL_SUMMERPARK_2022",
-	AUCTION_GAME_MAIN_SETTLEMENT = "auction game settlement",
+	US_CASTLE_2023 = "US_CASTLE_2023",
 	IDOLMASTER_MEDAL_COLLECTION_SCENE = "idolmaster medal collection scent",
 	SSSS_ACADEMY = "SSSS ACADEMY",
+	MAINUI = "scene mainUI",
 	BIANDUI = "scene biandui",
+	AUCTION_GAME_MAIN_SETTLEMENT = "auction game settlement",
+	SENRANKAGURA_MEDAL = "senrankagura medal",
 	SIXTH_ANNIVERSARY_JP = "SIXTH_ANNIVERSARY_JP",
 	COMMANDER_MANUAL = "commander manual",
 	COLORING = "scene coloring",
@@ -1175,6 +1178,14 @@ slot0 = {
 		slot0.mediator = MallMediator
 		slot0.viewComponent = MallScene
 	end,
+	[SCENE.REVERSE_PACMAN_SELECT] = function (slot0, slot1)
+		slot0.mediator = ReversePacmanSelectMediator
+		slot0.viewComponent = ReversePacmanSelectScene
+	end,
+	[SCENE.REVERSE_PACMAN_GAME] = function (slot0, slot1)
+		slot0.mediator = ReversePacmanGameMediator
+		slot0.viewComponent = ReversePacmanGameScene
+	end,
 	[SCENE.AUCTION_GAME_ENTRANCE] = function (slot0, slot1)
 		slot0.mediator = AuctionGameEntranceMediator
 		slot0.viewComponent = AuctionGameEntranceScene
@@ -1194,6 +1205,10 @@ slot0 = {
 	[SCENE.AUCTION_GAME_PREORDER_BOX_SETTLEMENT] = function (slot0, slot1)
 		slot0.mediator = AuctionGamePreorderBoxSettlementMediator
 		slot0.viewComponent = AuctionGamePreorderBoxSettlementScene
+	end,
+	[SCENE.REVERSE_PACMAN_HOME] = function (slot0, slot1)
+		slot0.mediator = ReversePacmanHomeMediator
+		slot0.viewComponent = ReversePacmanHomeScene
 	end
 }
 

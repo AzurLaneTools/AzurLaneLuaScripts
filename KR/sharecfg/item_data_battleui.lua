@@ -27,7 +27,8 @@ pg.item_data_battleui.all = {
 	206,
 	207,
 	208,
-	209
+	209,
+	210
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -417,6 +418,23 @@ pg.base.item_data_battleui = {}
 		desc = "미니멀한 스타일로 구성된 모노톤 UI. 단조로운 기계 문양과 전술 인터페이스가 정돈된 형태로 배치되어, 요르하 부대 특유의 분위기를 연출한다.",
 		id = 209,
 		icon = "209",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[210] = {
+		name = "촉영 화장대",
+		key = "SkinElite_20260908",
+		display_icon = "ui_210",
+		unlock = "상점 구매 (전투 UI·촉영 화장대)",
+		is_unlock = 1,
+		rare = 4,
+		desc = "거울의 방에서 촛불이 흔들리며 유영과 가시가 얽혀든다. 허무와 현실을 헤매는 이야기의 서장이 전투 중에 막을 올린다.",
+		id = 210,
+		icon = "210",
 		scene = {},
 		rare_display = {
 			1,

@@ -20,7 +20,7 @@ slot0.DataToLayout = function(slot0, slot1)
 	if slot1[1] == uv0 then
 		return {
 			type = uv0,
-			text = slot1[2]
+			text = HXSet.hxLan(slot1[2])
 		}
 	elseif slot1[1] == uv1 then
 		return {

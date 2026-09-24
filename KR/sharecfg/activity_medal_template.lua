@@ -175,7 +175,22 @@ pg.activity_medal_template.all = {
 	5111304,
 	5111305,
 	5111306,
-	5111307
+	5111307,
+	5114301,
+	5114302,
+	5114303,
+	5114304,
+	5114305,
+	5114306,
+	5114307,
+	5114308,
+	5115401,
+	5115402,
+	5115403,
+	5115404,
+	5115405,
+	5115406,
+	5115407
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -394,6 +409,25 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5111305,
 		5111306,
 		5111307
+	},
+	[51143] = {
+		5114301,
+		5114302,
+		5114303,
+		5114304,
+		5114305,
+		5114306,
+		5114307,
+		5114308
+	},
+	[51154] = {
+		5115401,
+		5115402,
+		5115403,
+		5115404,
+		5115405,
+		5115406,
+		5115407
 	}
 }
 pg.base = pg.base or {}
@@ -2477,5 +2511,185 @@ end)()
 		activity_medal_name = "기념 스티커: SPEED MAX",
 		id = 5111307,
 		medal_asset = "ActivityMedal/5111307"
+	}
+	pg.base.activity_medal_template[5114301] = {
+		activity_medal_desc = "오늘도 시청은 「사람」들의 목소리로 북적이네~",
+		next_medal = 0,
+		item = 66095,
+		remake_task_id = 0,
+		group = 51143,
+		prefab_node = "1",
+		task_id = 25720,
+		activity_medal_name = "스티커: 시청",
+		id = 5114301,
+		medal_asset = "ActivityMedal/5114301"
+	}
+	pg.base.activity_medal_template[5114302] = {
+		activity_medal_desc = "popopo……",
+		next_medal = 0,
+		item = 66096,
+		remake_task_id = 0,
+		group = 51143,
+		prefab_node = "2",
+		task_id = 25721,
+		activity_medal_name = "스티커: 위험한 실루엣",
+		id = 5114302,
+		medal_asset = "ActivityMedal/5114302"
+	}
+	pg.base.activity_medal_template[5114303] = {
+		activity_medal_desc = "가열 기능 탑재. 여름에 사용 시 주의할 것.",
+		next_medal = 0,
+		item = 66097,
+		remake_task_id = 0,
+		group = 51143,
+		prefab_node = "3",
+		task_id = 25722,
+		activity_medal_name = "스티커: 화염의 부채",
+		id = 5114303,
+		medal_asset = "ActivityMedal/5114303"
+	}
+	pg.base.activity_medal_template[5114304] = {
+		activity_medal_desc = "사랑의 이름으로, 악을 꿰뚫으리라!",
+		next_medal = 0,
+		item = 66098,
+		remake_task_id = 0,
+		group = 51143,
+		prefab_node = "4",
+		task_id = 25723,
+		activity_medal_name = "스티커: Heart Lancer",
+		id = 5114304,
+		medal_asset = "ActivityMedal/5114304"
+	}
+	pg.base.activity_medal_template[5114305] = {
+		activity_medal_desc = "8인 의회가 공식 지정한 사무용품. 똑똑해 보이는 주석을 매끄럽게 적을 수 있다!",
+		next_medal = 0,
+		item = 66099,
+		remake_task_id = 0,
+		group = 51143,
+		prefab_node = "5",
+		task_id = 25724,
+		activity_medal_name = "스티커: 고급 크레용",
+		id = 5114305,
+		medal_asset = "ActivityMedal/5114305"
+	}
+	pg.base.activity_medal_template[5114306] = {
+		activity_medal_desc = "신입 연수 담당자 등장! 너무 놀라지 말라고!",
+		next_medal = 0,
+		item = 66100,
+		remake_task_id = 0,
+		group = 51143,
+		prefab_node = "6",
+		task_id = 25725,
+		activity_medal_name = "스티커: 연수 시작!",
+		id = 5114306,
+		medal_asset = "ActivityMedal/5114306"
+	}
+	pg.base.activity_medal_template[5114307] = {
+		activity_medal_desc = "우주여, 나와 함께 노래하라!",
+		next_medal = 0,
+		item = 66101,
+		remake_task_id = 0,
+		group = 51143,
+		prefab_node = "7",
+		task_id = 25726,
+		activity_medal_name = "스티커: 별들의 교향곡",
+		id = 5114307,
+		medal_asset = "ActivityMedal/5114307"
+	}
+	pg.base.activity_medal_template[5114308] = {
+		activity_medal_desc = "이 아이템의 진정한 이름은 확인할 수 없습니다——",
+		next_medal = 0,
+		item = 66102,
+		remake_task_id = 0,
+		group = 51143,
+		prefab_node = "8",
+		task_id = 25727,
+		activity_medal_name = "스티커: 파트너 볼",
+		id = 5114308,
+		medal_asset = "ActivityMedal/5114308"
+	}
+	pg.base.activity_medal_template[5115401] = {
+		activity_medal_desc = "이상한 사건 조사 센터의 마스코트 만쥬다 쥬쥬!",
+		next_medal = 0,
+		item = 66104,
+		remake_task_id = 0,
+		group = 51154,
+		prefab_node = "1",
+		task_id = 25730,
+		activity_medal_name = "스티커: 만쥬상",
+		id = 5115401,
+		medal_asset = "ActivityMedal/5115401"
+	}
+	pg.base.activity_medal_template[5115402] = {
+		activity_medal_desc = "자, 비보의 정체는…… 세상에! 수건 한 장?!",
+		next_medal = 0,
+		item = 66105,
+		remake_task_id = 0,
+		group = 51154,
+		prefab_node = "2",
+		task_id = 25731,
+		activity_medal_name = "스티커: 비밀의 보물상자",
+		id = 5115402,
+		medal_asset = "ActivityMedal/5115402"
+	}
+	pg.base.activity_medal_template[5115403] = {
+		activity_medal_desc = "희미한 불빛으로 나아갈 길을 밝혀준다",
+		next_medal = 0,
+		item = 66106,
+		remake_task_id = 0,
+		group = 51154,
+		prefab_node = "3",
+		task_id = 25732,
+		activity_medal_name = "스티커: 꺼지지 않는 랜턴",
+		id = 5115403,
+		medal_asset = "ActivityMedal/5115403"
+	}
+	pg.base.activity_medal_template[5115404] = {
+		activity_medal_desc = "우산깃을 따라 방울져 떨어지는 빗방울, 어깨 위로 떨어지는 단풍잎.",
+		next_medal = 0,
+		item = 66107,
+		remake_task_id = 0,
+		group = 51154,
+		prefab_node = "4",
+		task_id = 25733,
+		activity_medal_name = "스티커: 단풍숲의 빗소리",
+		id = 5115404,
+		medal_asset = "ActivityMedal/5115404"
+	}
+	pg.base.activity_medal_template[5115405] = {
+		activity_medal_desc = "시들지 않는 꽃잎, 녹지 않는 눈꽃.",
+		next_medal = 0,
+		item = 66108,
+		remake_task_id = 0,
+		group = 51154,
+		prefab_node = "5",
+		task_id = 25734,
+		activity_medal_name = "스티커: 가랑눈의 화관",
+		id = 5115405,
+		medal_asset = "ActivityMedal/5115405"
+	}
+	pg.base.activity_medal_template[5115406] = {
+		activity_medal_desc = "초상화가 말을 하고 있어…… 잠깐, 이 사람도 여기 직원이야?",
+		next_medal = 0,
+		item = 66109,
+		remake_task_id = 0,
+		group = 51154,
+		prefab_node = "6",
+		task_id = 25735,
+		activity_medal_name = "스티커: 직원 초상화",
+		id = 5115406,
+		medal_asset = "ActivityMedal/5115406"
+	}
+	pg.base.activity_medal_template[5115407] = {
+		activity_medal_desc = "아낌없이 써! 한도는 아주 넉넉하니까!",
+		next_medal = 0,
+		item = 66110,
+		remake_task_id = 0,
+		group = 51154,
+		prefab_node = "7",
+		task_id = 25736,
+		activity_medal_name = "스티커: 조사 경비",
+		id = 5115407,
+		medal_asset = "ActivityMedal/5115407"
 	}
 end)()

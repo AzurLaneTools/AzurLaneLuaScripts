@@ -48,7 +48,7 @@ slot0.update = function(slot0, slot1)
 	setActive(slot0.mask, not slot0.goodsVO:CanPurchase())
 	setActive(slot0.stars, false)
 
-	slot3 = slot1:GetDropInfo()
+	slot3 = slot1:getDropInfo()
 
 	updateDrop(slot0.itemTF, slot3)
 	setScrollText(slot0.nameTxt, slot3:getConfig("name") or "")

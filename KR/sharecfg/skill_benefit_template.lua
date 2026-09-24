@@ -446,6 +446,26 @@ pg.skill_benefit_template.all = {
 	15238008,
 	15238009,
 	15238010,
+	15273001,
+	15273002,
+	15273003,
+	15273004,
+	15273005,
+	15273006,
+	15273007,
+	15273008,
+	15273009,
+	15273010,
+	15285001,
+	15285002,
+	15285003,
+	15285004,
+	15285005,
+	15285006,
+	15285007,
+	15285008,
+	15285009,
+	15285010,
 	19012001,
 	19012002,
 	19012003,
@@ -6566,6 +6586,266 @@ end)()
 		limit = {},
 		effect = {
 			152390
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15273001] = {
+		lv = 1,
+		skill_group_level = 0,
+		type = 5,
+		id = 15273001,
+		skill_id = 152730,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152740
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15273002] = {
+		lv = 2,
+		skill_group_level = 0,
+		type = 5,
+		id = 15273002,
+		skill_id = 152730,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152740
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15273003] = {
+		lv = 3,
+		skill_group_level = 0,
+		type = 5,
+		id = 15273003,
+		skill_id = 152730,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152740
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15273004] = {
+		lv = 4,
+		skill_group_level = 0,
+		type = 5,
+		id = 15273004,
+		skill_id = 152730,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152740
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15273005] = {
+		lv = 5,
+		skill_group_level = 0,
+		type = 5,
+		id = 15273005,
+		skill_id = 152730,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152740
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15273006] = {
+		lv = 6,
+		skill_group_level = 0,
+		type = 5,
+		id = 15273006,
+		skill_id = 152730,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152740
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15273007] = {
+		lv = 7,
+		skill_group_level = 0,
+		type = 5,
+		id = 15273007,
+		skill_id = 152730,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152740
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15273008] = {
+		lv = 8,
+		skill_group_level = 0,
+		type = 5,
+		id = 15273008,
+		skill_id = 152730,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152740
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15273009] = {
+		lv = 9,
+		skill_group_level = 0,
+		type = 5,
+		id = 15273009,
+		skill_id = 152730,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152740
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15273010] = {
+		lv = 10,
+		skill_group_level = 0,
+		type = 5,
+		id = 15273010,
+		skill_id = 152730,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152740
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15285001] = {
+		lv = 1,
+		skill_group_level = 0,
+		type = 5,
+		id = 15285001,
+		skill_id = 152850,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152860
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15285002] = {
+		lv = 2,
+		skill_group_level = 0,
+		type = 5,
+		id = 15285002,
+		skill_id = 152850,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152860
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15285003] = {
+		lv = 3,
+		skill_group_level = 0,
+		type = 5,
+		id = 15285003,
+		skill_id = 152850,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152860
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15285004] = {
+		lv = 4,
+		skill_group_level = 0,
+		type = 5,
+		id = 15285004,
+		skill_id = 152850,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152860
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15285005] = {
+		lv = 5,
+		skill_group_level = 0,
+		type = 5,
+		id = 15285005,
+		skill_id = 152850,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152860
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15285006] = {
+		lv = 6,
+		skill_group_level = 0,
+		type = 5,
+		id = 15285006,
+		skill_id = 152850,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152860
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15285007] = {
+		lv = 7,
+		skill_group_level = 0,
+		type = 5,
+		id = 15285007,
+		skill_id = 152850,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152860
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15285008] = {
+		lv = 8,
+		skill_group_level = 0,
+		type = 5,
+		id = 15285008,
+		skill_id = 152850,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152860
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15285009] = {
+		lv = 9,
+		skill_group_level = 0,
+		type = 5,
+		id = 15285009,
+		skill_id = 152850,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152860
+		},
+		world_extra_effect = {}
+	}
+	pg.base.skill_benefit_template[15285010] = {
+		lv = 10,
+		skill_group_level = 0,
+		type = 5,
+		id = 15285010,
+		skill_id = 152850,
+		skill_group = 0,
+		limit = {},
+		effect = {
+			152860
 		},
 		world_extra_effect = {}
 	}

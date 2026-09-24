@@ -72,7 +72,7 @@ slot0.InitGiftDaily = function(slot0)
 	pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
 		callback = function ()
 			for slot3, slot4 in ipairs(pg.dorm3d_gift.all) do
-				if #pg.dorm3d_gift[slot4].shop_id > 0 and pg.shop_template[slot5.shop_id[1]].group ~= 0 then
+				if #pg.dorm3d_gift[slot4].shop_id > 0 and ShopConst.GetShopConfig(slot5.shop_id[1]).group ~= 0 then
 					uv0.shopCount.dailyGift[slot5.id] = getProxy(ShopsProxy):GetGroupPayCount(slot6)
 				end
 			end
@@ -417,7 +417,7 @@ end
 
 slot0.RefreshGiftDailyTip = function()
 	for slot3, slot4 in ipairs(pg.dorm3d_shop_template.all) do
-		if pg.shop_template[pg.dorm3d_shop_template[slot4].shop_id[1]].group ~= 0 then
+		if ShopConst.GetShopConfig(pg.dorm3d_shop_template[slot4].shop_id[1]).group ~= 0 then
 			slot7 = getProxy(PlayerProxy):getRawData().id
 
 			PlayerPrefs.SetInt(slot7 .. "_dorm3dGiftWeekViewed_" .. slot5.item_id, 0)

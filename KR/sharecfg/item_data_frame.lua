@@ -14,6 +14,7 @@ pg.item_data_frame.all = {
 	108,
 	109,
 	110,
+	111,
 	201,
 	202,
 	203,
@@ -66,6 +67,7 @@ pg.item_data_frame.all = {
 	341,
 	342,
 	343,
+	344,
 	401,
 	402,
 	413,
@@ -211,6 +213,15 @@ pg.base.item_data_frame = {}
 		id = 110,
 		time_limit_type = 0,
 		desc = "8th Anniversary！ \n<color=#A7A7AA>　8주년 기념 이벤트에서 오픈 가능</color>",
+		scene = {}
+	}
+	pg.base.item_data_frame[111] = {
+		name = "九周年纪念",
+		gain_by = "",
+		time_second = 0,
+		id = 111,
+		time_limit_type = 0,
+		desc = "献给所有九年间持续奋斗在港区的指挥官们\n<color=#A7A7AA>通过参与九周年限定活动获取</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[201] = {
@@ -674,11 +685,20 @@ pg.base.item_data_frame = {}
 	}
 	pg.base.item_data_frame[343] = {
 		name = "새싹의 왕관",
-		gain_by = "",
+		gain_by = "유영 미성",
 		time_second = 0,
 		id = 343,
 		time_limit_type = 0,
-		desc = "추후 진행 예정인 이벤트에서 획득 가능",
+		desc = "「희미한 빛이라도 있다면, 우리는 희망을 향해 자라날 수 있어.」",
+		scene = {}
+	}
+	pg.base.item_data_frame[344] = {
+		name = "유영 기습",
+		gain_by = "이상한 일상 진행 중",
+		time_second = 0,
+		id = 344,
+		time_limit_type = 0,
+		desc = "「격리는 끝이 아니야. 언젠가 분명 우리는 서로를 이해할 수 있을 거야.」",
 		scene = {}
 	}
 	pg.base.item_data_frame[401] = {
@@ -1005,6 +1025,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>금빛 날개를 펼치면, 깃털이 빛처럼 반짝인다. 우아하고도 신비로운 자태.</color>\n「교류 숙소」에서의 다이호 친밀도 Lv 보상",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[1011] = {
 		name = "심연의 사슬",
 		gain_by = "",
@@ -1023,8 +1045,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>거친 파도 속에서 나부끼는 강철의 깃발, 머리에 얹힌 황금의 왕관으로 지고한 바다의 권능을 드러내나니</color>\n「교류 숙소」에서 에기르의 호감도를 올리면 획득 가능",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[1013] = {
 		name = "집전 장치",
 		gain_by = "",

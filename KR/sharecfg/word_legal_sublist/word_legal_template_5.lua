@@ -289,6 +289,9 @@ temp = function()
 				["8"] = {
 					this = true
 				}
+			},
+			["4"] = {
+				this = true
 			}
 		},
 		["2"] = {
@@ -463,6 +466,20 @@ temp = function()
 					["改"] = {
 						this = true
 					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["勇"] = {
+		["敢"] = {
+			["."] = {
+				["改"] = {
+					this = true
 				}
 			}
 		}
@@ -688,18 +705,6 @@ temp = function()
 						this = true
 					}
 				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["엑"] = {
-		["세"] = {
-			["터"] = {
-				this = true
 			}
 		}
 	}

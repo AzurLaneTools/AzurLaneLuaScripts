@@ -182,6 +182,7 @@ pg.ship_data_strengthen.all = {
 	20114,
 	20115,
 	20116,
+	20119,
 	20120,
 	20121,
 	20122,
@@ -199,6 +200,7 @@ pg.ship_data_strengthen.all = {
 	20137,
 	20138,
 	20139,
+	20140,
 	20201,
 	20202,
 	20203,
@@ -234,6 +236,7 @@ pg.ship_data_strengthen.all = {
 	20235,
 	20236,
 	20237,
+	20238,
 	20299,
 	20301,
 	20302,
@@ -400,6 +403,7 @@ pg.ship_data_strengthen.all = {
 	30406,
 	30407,
 	30408,
+	30409,
 	30501,
 	30502,
 	30503,
@@ -454,6 +458,7 @@ pg.ship_data_strengthen.all = {
 	31201,
 	31701,
 	31702,
+	31703,
 	31901,
 	40001,
 	40002,
@@ -5159,6 +5164,30 @@ end)()
 			14
 		}
 	}
+	pg.base.ship_data_strengthen[20119] = {
+		id = 20119,
+		durability = {
+			16,
+			71,
+			0,
+			0,
+			56
+		},
+		level_exp = {
+			35,
+			15,
+			0,
+			0,
+			15
+		},
+		attr_exp = {
+			5,
+			24,
+			0,
+			0,
+			14
+		}
+	}
 	pg.base.ship_data_strengthen[20120] = {
 		id = 20120,
 		durability = {
@@ -5567,6 +5596,30 @@ end)()
 			14
 		}
 	}
+	pg.base.ship_data_strengthen[20140] = {
+		id = 20140,
+		durability = {
+			15,
+			68,
+			0,
+			0,
+			57
+		},
+		level_exp = {
+			35,
+			15,
+			0,
+			0,
+			15
+		},
+		attr_exp = {
+			5,
+			23,
+			0,
+			0,
+			14
+		}
+	}
 	pg.base.ship_data_strengthen[20201] = {
 		id = 20201,
 		durability = {
@@ -5615,6 +5668,8 @@ end)()
 			12
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[20203] = {
 		id = 20203,
 		durability = {
@@ -5663,8 +5718,6 @@ end)()
 			13
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[20207] = {
 		id = 20207,
 		durability = {
@@ -6407,6 +6460,30 @@ end)()
 			0,
 			0,
 			13
+		}
+	}
+	pg.base.ship_data_strengthen[20238] = {
+		id = 20238,
+		durability = {
+			36,
+			0,
+			0,
+			0,
+			58
+		},
+		level_exp = {
+			25,
+			0,
+			0,
+			0,
+			20
+		},
+		attr_exp = {
+			15,
+			0,
+			0,
+			0,
+			15
 		}
 	}
 	pg.base.ship_data_strengthen[20299] = {
@@ -7993,6 +8070,8 @@ end)()
 			14
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[30118] = {
 		id = 30118,
 		durability = {
@@ -8065,8 +8144,6 @@ end)()
 			15
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[30121] = {
 		id = 30121,
 		durability = {
@@ -10395,6 +10472,32 @@ end)()
 			11
 		}
 	}
+end)()
+(function ()
+	pg.base.ship_data_strengthen[30409] = {
+		id = 30409,
+		durability = {
+			87,
+			68,
+			0,
+			0,
+			48
+		},
+		level_exp = {
+			35,
+			15,
+			0,
+			0,
+			15
+		},
+		attr_exp = {
+			58,
+			7,
+			0,
+			0,
+			12
+		}
+	}
 	pg.base.ship_data_strengthen[30501] = {
 		id = 30501,
 		durability = {
@@ -10467,8 +10570,6 @@ end)()
 			10
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[30504] = {
 		id = 30504,
 		durability = {
@@ -11693,6 +11794,30 @@ end)()
 			8
 		}
 	}
+	pg.base.ship_data_strengthen[31703] = {
+		id = 31703,
+		durability = {
+			10,
+			97,
+			0,
+			46,
+			30
+		},
+		level_exp = {
+			35,
+			20,
+			0,
+			20,
+			15
+		},
+		attr_exp = {
+			1,
+			39,
+			0,
+			5,
+			8
+		}
+	}
 	pg.base.ship_data_strengthen[31901] = {
 		id = 31901,
 		durability = {
@@ -12749,6 +12874,8 @@ end)()
 			12
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[40308] = {
 		id = 40308,
 		durability = {
@@ -12869,8 +12996,6 @@ end)()
 			12
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[40313] = {
 		id = 40313,
 		durability = {
@@ -15151,6 +15276,8 @@ end)()
 			11
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[60302] = {
 		id = 60302,
 		durability = {
@@ -15271,8 +15398,6 @@ end)()
 			12
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[60501] = {
 		id = 60501,
 		durability = {
@@ -17553,6 +17678,8 @@ end)()
 			12
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[90503] = {
 		id = 90503,
 		durability = {
@@ -17673,8 +17800,6 @@ end)()
 			13
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[960002] = {
 		id = 960002,
 		durability = {
@@ -19955,6 +20080,8 @@ end)()
 			11
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_data_strengthen[1130004] = {
 		id = 1130004,
 		durability = {
@@ -20075,8 +20202,6 @@ end)()
 			10
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_data_strengthen[1150003] = {
 		id = 1150003,
 		durability = {

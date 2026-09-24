@@ -815602,19 +815602,7 @@ _G.pg.base.bullet_template_1[3055005] = {
 	},
 	hit_type = {},
 	attach_buff = {},
-	extra_param = {
-		lastTime = 0.01,
-		fragile = 1,
-		shrapnel = {
-			{
-				bullet_ID = 3049403,
-				inheritAngle = 1,
-				emitterType = "BattleBulletEmitter",
-				barrage_ID = 3049402
-			},
-			FXID = ""
-		}
-	}
+	extra_param = {}
 }
 
 

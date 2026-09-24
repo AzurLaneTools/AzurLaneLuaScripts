@@ -617,7 +617,18 @@ temp = function()
 			["리"] = {
 				["어"] = {
 					["스"] = {
-						this = true
+						this = true,
+						["·"] = {
+							M = {
+								E = {
+									T = {
+										A = {
+											this = true
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			}

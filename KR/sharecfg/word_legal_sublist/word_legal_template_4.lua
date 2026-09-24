@@ -881,6 +881,9 @@ temp = function()
 					}
 				}
 			},
+			["거"] = {
+				this = true
+			},
 			["위"] = {
 				["안"] = {
 					this = true,

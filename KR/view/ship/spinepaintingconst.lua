@@ -1962,6 +1962,179 @@ slot0.ship_drag_datas = {
 				}
 			}
 		}
+	},
+	hu_2_asmr = {
+		change_in_hit = "asmr_001",
+		multiple_face = {},
+		hit_area = {
+			"asmr_001",
+			"asmr_002",
+			"asmr_003",
+			"asmr_004",
+			"asmr_005",
+			"asmr_006",
+			"asmr_007",
+			"asmr_008",
+			"asmr_009",
+			"asmr_010"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_001",
+					is_default = true,
+					action = "asmr_001",
+					hit = "asmr_001"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_002",
+					is_default = true,
+					action = "asmr_002",
+					hit = "asmr_002"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_003",
+					is_default = true,
+					action = "asmr_003",
+					hit = "asmr_003"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_004",
+					is_default = true,
+					action = "asmr_004",
+					hit = "asmr_004"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_005",
+					is_default = true,
+					action = "asmr_005",
+					hit = "asmr_005"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_006",
+					is_default = true,
+					action = "asmr_006",
+					hit = "asmr_006"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_007",
+					is_default = true,
+					action = "asmr_007",
+					hit = "asmr_007"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_008",
+					is_default = true,
+					action = "asmr_008",
+					hit = "asmr_008"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_009",
+					is_default = true,
+					action = "asmr_009",
+					hit = "asmr_009"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					event = "asmr_010",
+					is_default = true,
+					action = "asmr_010",
+					hit = "asmr_010"
+				}
+			}
+		}
+	},
+	antu_3 = {
+		multiple_face = {},
+		hit_area = {
+			"touch_body",
+			"touch_head",
+			"touch_special",
+			"touch_special_2",
+			"touch_special_normal"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "touch_body",
+					event = "TouchBody",
+					is_default = true,
+					hit = "touch_body"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "normal",
+					event = "TouchHead",
+					is_default = true,
+					hit = "touch_head"
+				},
+				{
+					fold_chat = true,
+					click = true,
+					action = "touch_special2",
+					idle = "normal",
+					is_default = true,
+					change_idle = "normal",
+					event = "TouchSpecial",
+					fold = true,
+					hit = "touch_special"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "touch_special_normal",
+					action = "touch_special_2",
+					is_default = false,
+					fold = true,
+					hit = "touch_special_2"
+				},
+				{
+					change_idle = "touch_special_normal",
+					click = true,
+					idle = "normal",
+					action = "touch_special",
+					is_default = true,
+					fold = true,
+					hit = "touch_special_normal"
+				}
+			}
+		}
 	}
 }
 slot0.ship_effect_action_able = {

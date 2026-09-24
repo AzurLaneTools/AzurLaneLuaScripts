@@ -147,29 +147,25 @@ end
 slot0.UpdateCommodity = function(slot0, slot1, slot2)
 	slot0:SetShop(slot1)
 
-	if DROP_TYPE_SHIP == slot1:GetCommodityById(slot2):getConfig("commodity_type") then
+	if DROP_TYPE_SHIP == slot1:GetCommodityById(slot2):getDropInfo().type then
 		slot0:OnUpdateAll()
 	else
 		slot0:OnUpdateCommodity(slot3)
 	end
 
-	slot4, slot5, slot6 = nil
+	slot5, slot6, slot7 = nil
 
 	if slot1:IsPurchaseAll() then
-		slot4, slot5, slot6 = slot0:GetPaintingAllPurchaseVoice()
+		slot5, slot6, slot7 = slot0:GetPaintingAllPurchaseVoice()
 	else
-		slot4, slot5, slot6 = slot0:GetPaintingCommodityUpdateVoice()
+		slot5, slot6, slot7 = slot0:GetPaintingCommodityUpdateVoice()
 	end
 
-	slot0.contextData.paintingView:Chat(slot4, slot5, slot6, true)
+	slot0.contextData.paintingView:Chat(slot5, slot6, slot7, true)
 end
 
 slot0.OnClickCommodity = function(slot0, slot1, slot2)
-	if Drop.New({
-		type = slot1:getConfig("commodity_type"),
-		id = slot1:getConfig("commodity_id"),
-		count = slot1:getConfig("num")
-	}).type == DROP_TYPE_VITEM and slot3:getConfig("virtual_type") == 22 and (not getProxy(ActivityProxy):getActivityById(slot3:getConfig("link_id")) or slot5:isEnd()) then
+	if slot1:getDropInfo().type == DROP_TYPE_VITEM and slot3:getConfig("virtual_type") == 22 and (not getProxy(ActivityProxy):getActivityById(slot3:getConfig("link_id")) or slot5:isEnd()) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", slot3:getName()))
 
 		return
@@ -177,10 +173,10 @@ slot0.OnClickCommodity = function(slot0, slot1, slot2)
 
 	slot4 = nil
 
-	((slot3.type ~= DROP_TYPE_EQUIPMENT_SKIN or slot0.contextData.singleWindowForESkin) and (slot1:getConfig("num_limit") ~= 1 and slot1:getConfig("commodity_type") ~= 4 and (not isa(slot1, QuotaCommodity) or slot1:GetLimitGoodCount() ~= 1) or slot0.contextData.singleWindow) and slot0.contextData.multiWindow):ExecuteAction("Open", slot1, function (slot0, slot1, slot2)
+	((slot3.type ~= DROP_TYPE_EQUIPMENT_SKIN or slot0.contextData.singleWindowForESkin) and (slot1:getConfig("num_limit") ~= 1 and slot3.type ~= DROP_TYPE_SHIP and (not isa(slot1, QuotaCommodity) or slot1:GetLimitGoodCount() ~= 1) or slot0.contextData.singleWindow) and slot0.contextData.multiWindow):ExecuteAction("Open", slot1, function (slot0, slot1, slot2)
 		slot3 = {}
 
-		if slot0:getConfig("commodity_type") == 4 or uv0.shop.type == ShopArgs.ShopActivity then
+		if uv0.type == DROP_TYPE_SHIP or uv1.shop.type == ShopArgs.ShopActivity then
 			table.insert(slot3, function (slot0)
 				uv0:TipPurchase(uv1, uv2, uv3, slot0)
 			end)
@@ -226,10 +222,10 @@ slot0.TipPurchase = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.getSpecialRule = function(slot0, slot1)
-	if slot1:getConfig("commodity_type") == DROP_TYPE_ITEM and slot0.shop.type == ShopArgs.ShopFragment and Item.getConfigData(slot1:getConfig("commodity_id")) and slot3.type == 7 and #slot3.shiptrans_id > 0 then
-		slot4 = getProxy(BayProxy)
+	if slot1:getDropInfo().type == DROP_TYPE_ITEM and slot0.shop.type == ShopArgs.ShopFragment and slot2:getConfig("type") == 7 and #slot2:getConfig("shiptrans_id") > 0 then
+		slot3 = getProxy(BayProxy)
 
-		if getProxy(BagProxy):getItemCountById(slot2) > 0 or underscore.any(slot3.shiptrans_id, function (slot0)
+		if getProxy(BagProxy):getItemCountById(slot2.id) > 0 or underscore.any(slot2:getConfig("shiptrans_id"), function (slot0)
 			return uv0:getConfigShipCount(slot0) > 0
 		end) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("special_transform_limit_reach"))

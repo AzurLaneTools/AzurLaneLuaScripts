@@ -30,6 +30,9 @@ slot0.Refresh = function(slot0)
 	end
 end
 
+slot0.ShowOrHideBtnEffect = function(slot0)
+end
+
 slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 

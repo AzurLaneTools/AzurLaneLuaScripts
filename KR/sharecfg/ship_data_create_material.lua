@@ -224,15 +224,15 @@ pg.base.ship_data_create_material = {}
 			"<color=#ffde38>SSR</color>: 7%",
 			"<color=#d797ff>SR</color>: 12%",
 			"<color=#3dc6ff>R</color>: 51%",
-			"노멀: 28.8%",
+			"N: 28.8%",
 			" ",
-			"<color=#ff5e39>알자스</color>: 1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>아즈치</color>: 1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>브렌누스</color>: 2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>이14</color>: 2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>베아른·META</color>: 0.5%",
+			"<color=#ffde38>빅토리어스·META</color>: 0.5%",
 			" ",
-			"<color=#d797ff>플뢰레</color>: 2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>헤이스티</color>: 2.5%(<color=#92fc63>up!</color>)"
 		}
 	}
 	pg.base.ship_data_create_material[11] = {

@@ -165,9 +165,7 @@ slot0.TipPurchase = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.OnPurchase = function(slot0, slot1, slot2)
-	slot4 = slot1:getConfig("commodity_id")
-
-	if slot1:getConfig("commodity_type") == DROP_TYPE_ITEM and getProxy(BagProxy):RawGetItemById(slot4) and slot5:IsShipExpType() and slot5:IsMaxCnt() then
+	if slot1:getDropInfo().type == DROP_TYPE_ITEM and getProxy(BagProxy):RawGetItemById(slot3.id) and slot4:IsShipExpType() and slot4:IsMaxCnt() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("item_is_max_cnt"))
 
 		return

@@ -482,7 +482,31 @@ pg.activity_sp_story.all = {
 	523,
 	524,
 	525,
-	526
+	526,
+	527,
+	528,
+	529,
+	530,
+	531,
+	532,
+	533,
+	534,
+	535,
+	536,
+	537,
+	538,
+	539,
+	540,
+	541,
+	542,
+	543,
+	544,
+	545,
+	546,
+	547,
+	548,
+	549,
+	550
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -10440,6 +10464,481 @@ end)()
 			{
 				4,
 				525
+			}
+		}
+	}
+	pg.base.activity_sp_story[527] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_496",
+		name = "EP1-1 이상한 사건 조사 센터",
+		story = "YOUYINGMICHENG1",
+		change_bgm = "battle-visioncity-1",
+		id = 527,
+		lock = ""
+	}
+	pg.base.activity_sp_story[528] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-1 클리어",
+		change_background = "star_level_bg_495",
+		name = "EP1-2 현장 근무반",
+		story = "YOUYINGMICHENG2",
+		change_bgm = "battle-visioncity-1",
+		id = 528,
+		pre_event = {
+			527
+		},
+		lock = {
+			{
+				4,
+				527
+			}
+		}
+	}
+	pg.base.activity_sp_story[529] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-2 클리어",
+		change_background = "star_level_bg_495",
+		name = "EP1-3 이상한 공간",
+		story = "YOUYINGMICHENG3",
+		change_bgm = "story-visioncity-1",
+		id = 529,
+		pre_event = {
+			528
+		},
+		lock = {
+			{
+				4,
+				528
+			}
+		}
+	}
+	pg.base.activity_sp_story[530] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-3 클리어",
+		change_background = "star_level_bg_300",
+		name = "EP1-4 수용 성공",
+		story = "2066001",
+		change_bgm = "battle-visioncity-1",
+		id = 530,
+		pre_event = {
+			529
+		},
+		lock = {
+			{
+				4,
+				529
+			}
+		}
+	}
+	pg.base.activity_sp_story[531] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-4 클리어",
+		change_background = "star_level_bg_600",
+		name = "EP1-5 수면 아래의 회담",
+		story = "YOUYINGMICHENG5",
+		change_bgm = "battle-visioncity-1",
+		id = 531,
+		pre_event = {
+			530
+		},
+		lock = {
+			{
+				4,
+				530
+			}
+		}
+	}
+	pg.base.activity_sp_story[532] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-5 클리어",
+		change_background = "bg_youyingmicheng_2",
+		name = "EP1-6 폭주의 전조",
+		story = "YOUYINGMICHENG6",
+		change_bgm = "story-visioncity-1",
+		id = 532,
+		pre_event = {
+			531
+		},
+		lock = {
+			{
+				4,
+				531
+			}
+		}
+	}
+	pg.base.activity_sp_story[533] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-6 클리어",
+		change_background = "star_level_bg_497",
+		name = "EP2-1 재블린을 찾아서",
+		story = "2066002",
+		change_bgm = "battle-visioncity-1",
+		id = 533,
+		pre_event = {
+			532
+		},
+		lock = {
+			{
+				4,
+				532
+			}
+		}
+	}
+	pg.base.activity_sp_story[534] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-1 클리어",
+		change_background = "bg_youyingmicheng_cg1",
+		name = "EP2-2 외로움이 두려운 아이",
+		story = "YOUYINGMICHENG8",
+		change_bgm = "battle-visioncity-1",
+		id = 534,
+		pre_event = {
+			533
+		},
+		lock = {
+			{
+				4,
+				533
+			}
+		}
+	}
+	pg.base.activity_sp_story[535] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-2 클리어",
+		change_background = "bg_youyingmicheng_6",
+		name = "EP2-3 시청",
+		story = "YOUYINGMICHENG9",
+		change_bgm = "battle-visioncity-1",
+		id = 535,
+		pre_event = {
+			534
+		},
+		lock = {
+			{
+				4,
+				534
+			}
+		}
+	}
+	pg.base.activity_sp_story[536] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-3 클리어",
+		change_background = "bg_youyingmicheng_1",
+		name = "EP2-4 인간과 유영",
+		story = "YOUYINGMICHENG10",
+		change_bgm = "battle-visioncity-1",
+		id = 536,
+		pre_event = {
+			535
+		},
+		lock = {
+			{
+				4,
+				535
+			}
+		}
+	}
+	pg.base.activity_sp_story[537] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-4 클리어",
+		change_background = "bg_youyingmicheng_cg3",
+		name = "EP2-5 특별 사자",
+		story = "YOUYINGMICHENG11",
+		change_bgm = "battle-visioncity-1",
+		id = 537,
+		pre_event = {
+			536
+		},
+		lock = {
+			{
+				4,
+				536
+			}
+		}
+	}
+	pg.base.activity_sp_story[538] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-5 클리어",
+		change_background = "bg_guild_blue_n",
+		name = "EP3-1 행복의 이름으로",
+		story = "YOUYINGMICHENG12",
+		change_bgm = "battle-visioncity-1",
+		id = 538,
+		pre_event = {
+			537
+		},
+		lock = {
+			{
+				4,
+				537
+			}
+		}
+	}
+	pg.base.activity_sp_story[539] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-1 클리어",
+		change_background = "bg_youyingmicheng_4",
+		name = "EP3-2 재회한 힘",
+		story = "YOUYINGMICHENG13",
+		change_bgm = "battle-visioncity-1",
+		id = 539,
+		pre_event = {
+			538
+		},
+		lock = {
+			{
+				4,
+				538
+			}
+		}
+	}
+	pg.base.activity_sp_story[540] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-2 클리어",
+		change_background = "bg_youyingmicheng_4",
+		name = "EP3-3 신기원 도시 NO.5",
+		story = "YOUYINGMICHENG14",
+		change_bgm = "battle-visioncity-1",
+		id = 540,
+		pre_event = {
+			539
+		},
+		lock = {
+			{
+				4,
+				539
+			}
+		}
+	}
+	pg.base.activity_sp_story[541] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-3 클리어",
+		change_background = "bg_guild_blue_n",
+		name = "EP3-4 괴물 일행",
+		story = "YOUYINGMICHENG15",
+		change_bgm = "battle-visioncity-1",
+		id = 541,
+		pre_event = {
+			540
+		},
+		lock = {
+			{
+				4,
+				540
+			}
+		}
+	}
+	pg.base.activity_sp_story[542] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-4 클리어",
+		change_background = "bg_youyingmicheng_4",
+		name = "EP3-5 파국",
+		story = "YOUYINGMICHENG16",
+		change_bgm = "story-visioncity-1",
+		id = 542,
+		pre_event = {
+			541
+		},
+		lock = {
+			{
+				4,
+				541
+			}
+		}
+	}
+	pg.base.activity_sp_story[543] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-5 클리어",
+		change_background = "bg_youyingmicheng_4",
+		name = "EP3-6 4도시 토벌전Ⅰ",
+		story = "2066003",
+		change_bgm = "story-visioncity-1",
+		id = 543,
+		pre_event = {
+			542
+		},
+		lock = {
+			{
+				4,
+				542
+			}
+		}
+	}
+	pg.base.activity_sp_story[544] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-6 클리어",
+		change_background = "bg_youyingmicheng_4",
+		name = "EP3-7 4도시 토벌전Ⅱ",
+		story = "2066004",
+		change_bgm = "story-visioncity-1",
+		id = 544,
+		pre_event = {
+			543
+		},
+		lock = {
+			{
+				4,
+				543
+			}
+		}
+	}
+	pg.base.activity_sp_story[545] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-7 클리어",
+		change_background = "star_level_bg_170",
+		name = "EP4-1 아즈치를 향한 도전",
+		story = "2066005",
+		change_bgm = "battle-visioncity-1",
+		id = 545,
+		pre_event = {
+			544
+		},
+		lock = {
+			{
+				4,
+				544
+			}
+		}
+	}
+	pg.base.activity_sp_story[546] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-1 클리어",
+		change_background = "bg_guild_blue_n",
+		name = "EP4-2 안전 착륙",
+		story = "YOUYINGMICHENG20",
+		change_bgm = "battle-visioncity-1",
+		id = 546,
+		pre_event = {
+			545
+		},
+		lock = {
+			{
+				4,
+				545
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.activity_sp_story[547] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-2 클리어",
+		change_background = "bg_youyingmicheng_cg5_hx",
+		name = "EP4-3 아이들의 의회",
+		story = "YOUYINGMICHENG21",
+		change_bgm = "battle-visioncity-1",
+		id = 547,
+		pre_event = {
+			546
+		},
+		lock = {
+			{
+				4,
+				546
+			}
+		}
+	}
+	pg.base.activity_sp_story[548] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-3 클리어",
+		change_background = "star_level_bg_306",
+		name = "EP4-4 용기와 결의",
+		story = "YOUYINGMICHENG22",
+		change_bgm = "story-visioncity-1",
+		id = 548,
+		pre_event = {
+			547
+		},
+		lock = {
+			{
+				4,
+				547
+			}
+		}
+	}
+	pg.base.activity_sp_story[549] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-4 클리어",
+		change_background = "bg_youyingmicheng_3",
+		name = "EP4-5 평범하지 않은 후방 요원",
+		story = "2066006",
+		change_bgm = "battle-visioncity-1",
+		id = 549,
+		pre_event = {
+			548
+		},
+		lock = {
+			{
+				4,
+				548
+			}
+		}
+	}
+	pg.base.activity_sp_story[550] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-5 클리어",
+		change_background = "bg_youyingmicheng_3",
+		name = "EP4-6 신생의 불꽃",
+		story = "YOUYINGMICHENG24",
+		change_bgm = "battle-visioncity-1",
+		id = 550,
+		pre_event = {
+			549
+		},
+		lock = {
+			{
+				4,
+				549
 			}
 		}
 	}

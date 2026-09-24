@@ -69,11 +69,15 @@ end
 
 slot0.RequestManualSignAct = function(slot0)
 	for slot5, slot6 in pairs(getProxy(ActivityProxy):getRawData()) do
-		if slot6:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN and not slot6:TodayIsSigned() then
-			pg.m02:sendNotification(GAME.ACT_MANUAL_SIGN, {
-				activity_id = slot6.id,
-				cmd = ManualSignActivity.OP_SIGN
-			})
+		if slot6:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN then
+			slot8 = slot6:getConfig("config_client") and slot7.manulSign == true
+
+			if not slot6:TodayIsSigned() and not slot8 then
+				pg.m02:sendNotification(GAME.ACT_MANUAL_SIGN, {
+					activity_id = slot6.id,
+					cmd = ManualSignActivity.OP_SIGN
+				})
+			end
 		end
 	end
 end

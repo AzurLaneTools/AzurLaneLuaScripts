@@ -257,7 +257,7 @@ slot0.UpdateShipIcon = function(slot0, slot1)
 
 	assert(slot3)
 
-	slot5 = pg.shop_template[slot3].effect_args[1]
+	slot5 = ShopConst.GetShopConfig(slot3).effect_args[1]
 
 	assert(slot5)
 	LoadSpriteAsync("qicon/" .. pg.ship_skin_template[slot5].prefab, function (slot0)

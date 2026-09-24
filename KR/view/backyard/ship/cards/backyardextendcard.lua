@@ -9,7 +9,7 @@ end
 slot0.Unlock = function(slot0)
 	if getProxy(DormProxy):getRawData():getExtendTrainPosShopId() then
 		_BackyardMsgBoxMgr:Show({
-			content = i18n("backyard_backyardShipInfoLayer_quest_openPos", pg.shop_template[slot2].resource_num),
+			content = i18n("backyard_backyardShipInfoLayer_quest_openPos", ShopConst.GetShopConfig(slot2).resource_num),
 			onYes = function ()
 				if getProxy(PlayerProxy):getRawData() and slot0:getTotalGem() < uv0 then
 					GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)

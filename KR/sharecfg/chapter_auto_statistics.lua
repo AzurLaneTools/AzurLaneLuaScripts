@@ -67,6 +67,18 @@ pg.chapter_auto_statistics.all = {
 	1602,
 	1603,
 	1604,
+	2060001,
+	2060002,
+	2060003,
+	2060004,
+	2060005,
+	2060006,
+	2060021,
+	2060022,
+	2060023,
+	2060024,
+	2060025,
+	2060026,
 	2100581,
 	2100582,
 	2100583,
@@ -993,6 +1005,183 @@ pg.base.chapter_auto_statistics = {}
 			163002,
 			163003,
 			163006
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060001] = {
+		enemy_times = 2,
+		time_correction = 0,
+		base_class_exp = 62,
+		drop_expbook = 0,
+		id = 2060001,
+		oil_limit = 22,
+		time_rate = 1,
+		boss_expedition_id = {
+			2060013,
+			2060301
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060002] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 75,
+		drop_expbook = 0,
+		id = 2060002,
+		oil_limit = 25,
+		time_rate = 1,
+		boss_expedition_id = {
+			2060113,
+			2060302
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060003] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 122,
+		drop_expbook = 0,
+		id = 2060003,
+		oil_limit = 25,
+		time_rate = 1,
+		boss_expedition_id = {
+			2060213,
+			2060303
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060004] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 157,
+		drop_expbook = 0,
+		id = 2060004,
+		oil_limit = 25,
+		time_rate = 1,
+		boss_expedition_id = {
+			2061013,
+			2061301
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060005] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 192,
+		drop_expbook = 0,
+		id = 2060005,
+		oil_limit = 28,
+		time_rate = 1,
+		boss_expedition_id = {
+			2061113,
+			2061303
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060006] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 210,
+		drop_expbook = 0,
+		id = 2060006,
+		oil_limit = 28,
+		time_rate = 1,
+		boss_expedition_id = {
+			2061213,
+			2061305,
+			2061306
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060021] = {
+		enemy_times = 2,
+		time_correction = 0,
+		base_class_exp = 262,
+		drop_expbook = 0,
+		id = 2060021,
+		oil_limit = 25,
+		time_rate = 1,
+		boss_expedition_id = {
+			2062013,
+			2062301,
+			2062301
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060022] = {
+		enemy_times = 2,
+		time_correction = 0,
+		base_class_exp = 360,
+		drop_expbook = 0,
+		id = 2060022,
+		oil_limit = 25,
+		time_rate = 1,
+		boss_expedition_id = {
+			2062113,
+			2062302,
+			2062302
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060023] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 382,
+		drop_expbook = 0,
+		id = 2060023,
+		oil_limit = 28,
+		time_rate = 1,
+		boss_expedition_id = {
+			2062213,
+			2062303,
+			2062303
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060024] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 427,
+		drop_expbook = 0,
+		id = 2060024,
+		oil_limit = 194,
+		time_rate = 1,
+		boss_expedition_id = {
+			2063013,
+			2063301,
+			2063302
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060025] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 450,
+		drop_expbook = 0,
+		id = 2060025,
+		oil_limit = 245,
+		time_rate = 1,
+		boss_expedition_id = {
+			2063113,
+			2063303,
+			2063304,
+			2063303
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2060026] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 577,
+		drop_expbook = 0,
+		id = 2060026,
+		oil_limit = 267,
+		time_rate = 1,
+		boss_expedition_id = {
+			2063213,
+			2063305,
+			2063306,
+			2063305
 		},
 		drop_display_extra = {}
 	}

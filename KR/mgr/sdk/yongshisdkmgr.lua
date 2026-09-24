@@ -146,7 +146,7 @@ end
 
 return {
 	CheckPretest = function ()
-		return NetConst.GATEWAY_HOST == "ts-all-login.azurlane.tw" and (NetConst.GATEWAY_PORT == 11001 or NetConst.GATEWAY_PORT == 11101) or IsUnityEditor
+		return NetConst.getwayType == 2 or IsUnityEditor
 	end,
 	InitSDK = function ()
 		uv0:Init()

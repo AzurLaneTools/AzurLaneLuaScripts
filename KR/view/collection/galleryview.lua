@@ -408,12 +408,13 @@ slot0.filterPicInfoForShowBySet = function(slot0)
 
 	slot2 = {}
 	slot3 = getProxy(LoadingPicProxy):getDiyModeOpenFlag()
+	slot4 = AppreciatePicConst.getOldLoadingPicIDList()
 
-	for slot7, slot8 in ipairs(slot0.picInfoListForShow) do
-		slot9 = nil
+	for slot8, slot9 in ipairs(slot0.picInfoListForShow) do
+		slot10 = nil
 
-		if (not slot3 or AppreciatePicConst.isUsedPicInfo(slot8)) and slot8.id > 1000 then
-			slot2[#slot2 + 1] = slot8
+		if (not slot3 or AppreciatePicConst.isUsedPicInfo(slot9)) and table.contains(slot4, slot9.id) then
+			slot2[#slot2 + 1] = slot9
 		end
 	end
 

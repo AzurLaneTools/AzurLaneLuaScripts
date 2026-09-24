@@ -4283,6 +4283,44 @@ pg.memory_template.all = {
 	5425,
 	5426,
 	5427,
+	5441,
+	5442,
+	5443,
+	5444,
+	5445,
+	5446,
+	5447,
+	5448,
+	5449,
+	5450,
+	5451,
+	5452,
+	5453,
+	5454,
+	5455,
+	5456,
+	5457,
+	5458,
+	5459,
+	5460,
+	5461,
+	5462,
+	5463,
+	5464,
+	5471,
+	5472,
+	5473,
+	5474,
+	5475,
+	5476,
+	5477,
+	5478,
+	5479,
+	5480,
+	5481,
+	5482,
+	5483,
+	5484,
 	5431,
 	5432,
 	5433,
@@ -4290,6 +4328,58 @@ pg.memory_template.all = {
 	5435,
 	5436,
 	5437,
+	5501,
+	5502,
+	5503,
+	5504,
+	5505,
+	5506,
+	5507,
+	5508,
+	5509,
+	5510,
+	5511,
+	5512,
+	5513,
+	5514,
+	5515,
+	5516,
+	5517,
+	5518,
+	5519,
+	5520,
+	5521,
+	5522,
+	5523,
+	5524,
+	5525,
+	5526,
+	5527,
+	5528,
+	5529,
+	5530,
+	5531,
+	5532,
+	5533,
+	5534,
+	5535,
+	5536,
+	5537,
+	5538,
+	5539,
+	5540,
+	5541,
+	5542,
+	5543,
+	5544,
+	5545,
+	5546,
+	5547,
+	5548,
+	5549,
+	5550,
+	5551,
+	5552,
 	10000,
 	10001,
 	10002,
@@ -81692,6 +81782,692 @@ end)()
 			"BAIFENG7"
 		}
 	}
+	pg.base.memory_template[5441] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "이상한 사건 조사 센터",
+		condition = "EP1-1 시작",
+		story = "YOUYINGMICHENG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5441,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG1"
+		}
+	}
+	pg.base.memory_template[5442] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "현장 근무반",
+		condition = "EP1-2 시작",
+		story = "YOUYINGMICHENG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5442,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG2"
+		}
+	}
+	pg.base.memory_template[5443] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "이상한 공간",
+		condition = "EP1-3 시작",
+		story = "YOUYINGMICHENG3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5443,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG3"
+		}
+	}
+	pg.base.memory_template[5444] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "수용 성공",
+		condition = "EP1-4 시작",
+		story = "2066001",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5444,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2066001"
+		}
+	}
+	pg.base.memory_template[5445] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "수면 아래의 회담",
+		condition = "EP1-5 시작",
+		story = "YOUYINGMICHENG5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5445,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG5"
+		}
+	}
+	pg.base.memory_template[5446] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "폭주의 전조",
+		condition = "EP1-6 시작",
+		story = "YOUYINGMICHENG6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5446,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG6"
+		}
+	}
+	pg.base.memory_template[5447] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "재블린을 찾아서",
+		condition = "EP2-1 시작",
+		story = "2066002",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5447,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2066002"
+		}
+	}
+	pg.base.memory_template[5448] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "외로움이 두려운 아이",
+		condition = "EP2-2 시작",
+		story = "YOUYINGMICHENG8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5448,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG8"
+		}
+	}
+	pg.base.memory_template[5449] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "시청",
+		condition = "EP2-3 시작",
+		story = "YOUYINGMICHENG9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5449,
+		icon = "memory_youyingmicheng2",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG9"
+		}
+	}
+	pg.base.memory_template[5450] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "인간과 유영",
+		condition = "EP2-4 시작",
+		story = "YOUYINGMICHENG10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5450,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG10"
+		}
+	}
+	pg.base.memory_template[5451] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "특별 사자",
+		condition = "EP2-5 시작",
+		story = "YOUYINGMICHENG11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5451,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG11"
+		}
+	}
+	pg.base.memory_template[5452] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "행복의 이름으로",
+		condition = "EP3-1 시작",
+		story = "YOUYINGMICHENG12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5452,
+		icon = "memory_youyingmicheng3",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG12"
+		}
+	}
+	pg.base.memory_template[5453] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "재회한 힘",
+		condition = "EP3-2 시작",
+		story = "YOUYINGMICHENG13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5453,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG13"
+		}
+	}
+	pg.base.memory_template[5454] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "신기원 도시 NO.5",
+		condition = "EP3-3 시작",
+		story = "YOUYINGMICHENG14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5454,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG14"
+		}
+	}
+	pg.base.memory_template[5455] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "괴물 일행",
+		condition = "EP3-4 시작",
+		story = "YOUYINGMICHENG15",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5455,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG15"
+		}
+	}
+	pg.base.memory_template[5456] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "파국",
+		condition = "EP3-5 시작",
+		story = "YOUYINGMICHENG16",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5456,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG16"
+		}
+	}
+	pg.base.memory_template[5457] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "4도시 토벌전Ⅰ",
+		condition = "EP3-6 시작",
+		story = "2066003",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5457,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066003"
+		}
+	}
+	pg.base.memory_template[5458] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "4도시 토벌전Ⅱ",
+		condition = "EP3-7 시작",
+		story = "2066004",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5458,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066004"
+		}
+	}
+	pg.base.memory_template[5459] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "아즈치를 향한 도전",
+		condition = "EP4-1 시작",
+		story = "2066005",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5459,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066005"
+		}
+	}
+	pg.base.memory_template[5460] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "안전 착륙",
+		condition = "EP4-2 시작",
+		story = "YOUYINGMICHENG20",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5460,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG20"
+		}
+	}
+	pg.base.memory_template[5461] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "아이들의 의회",
+		condition = "EP4-3 시작",
+		story = "YOUYINGMICHENG21",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5461,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG21"
+		}
+	}
+end)()
+(function ()
+	pg.base.memory_template[5462] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "용기와 결의",
+		condition = "EP4-4 시작",
+		story = "YOUYINGMICHENG22",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5462,
+		icon = "memory_youyingmicheng5",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG22"
+		}
+	}
+	pg.base.memory_template[5463] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "평범하지 않은 후방 요원",
+		condition = "EP4-5 시작",
+		story = "2066006",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5463,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066006"
+		}
+	}
+	pg.base.memory_template[5464] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "신생의 불꽃",
+		condition = "EP4-6 시작",
+		story = "YOUYINGMICHENG24",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5464,
+		icon = "memory_youyingmicheng6",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG24"
+		}
+	}
+	pg.base.memory_template[5471] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "신입 연수 영상.vob",
+		condition = "「이상한 일상 진행 중」 시작",
+		story = "YICHANGDERICHANGJINXINGZHONG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5471,
+		icon = "memory_yichangderichangjinxingzhong1",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG1"
+		}
+	}
+	pg.base.memory_template[5472] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "물가의 별",
+		condition = "「이상한 일상 진행 중」에서 타이거의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5472,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG2"
+		}
+	}
+	pg.base.memory_template[5473] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "미드나이트 채널",
+		condition = "「이상한 일상 진행 중」에서 프리드리히 카를의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5473,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG3"
+		}
+	}
+	pg.base.memory_template[5474] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "욕망 속에서 춤춰라",
+		condition = "「이상한 일상 진행 중」에서 요르크의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5474,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG4"
+		}
+	}
+	pg.base.memory_template[5475] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "인형 컬렉션",
+		condition = "「이상한 일상 진행 중」에서 헤이스티의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5475,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG5"
+		}
+	}
+	pg.base.memory_template[5476] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "손에 넣은 먹잇감",
+		condition = "「이상한 일상 진행 중」에서 골든 하인드의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5476,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG6"
+		}
+	}
+	pg.base.memory_template[5477] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "여우비 속 여우 신부",
+		condition = "「이상한 일상 진행 중」에서 하쿠호의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5477,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG7"
+		}
+	}
+	pg.base.memory_template[5478] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "유령이 떠도는 밤",
+		condition = "「이상한 일상 진행 중」에서 일러스트리어스의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5478,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG8"
+		}
+	}
+	pg.base.memory_template[5479] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "체셔 고양이의 메르헨 메이즈",
+		condition = "「이상한 일상 진행 중」에서 체셔의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5479,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG9"
+		}
+	}
+	pg.base.memory_template[5480] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "골목길의 유혹",
+		condition = "「이상한 일상 진행 중」에서 라이온의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5480,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG10"
+		}
+	}
+	pg.base.memory_template[5481] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "파도 소리의 빛",
+		condition = "「이상한 일상 진행 중」에서 호스타일의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5481,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG11"
+		}
+	}
+	pg.base.memory_template[5482] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "인연을 자아내는 눈",
+		condition = "「이상한 일상 진행 중」에서 쇼카쿠의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5482,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG12"
+		}
+	}
+	pg.base.memory_template[5483] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "가면은 허무일지니",
+		condition = "「이상한 일상 진행 중」에서 이14의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5483,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG13"
+		}
+	}
+	pg.base.memory_template[5484] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "스릴 넘치는 엘리베이터",
+		condition = "「이상한 일상 진행 중」에서 아즈치의 공감 최대치 달성",
+		story = "YICHANGDERICHANGJINXINGZHONG14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5484,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG14"
+		}
+	}
 	pg.base.memory_template[5431] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81816,6 +82592,942 @@ end)()
 		is_open = 0,
 		unlock_pre = {
 			"DUSHIQIUZHIDAZUOZHAN7"
+		}
+	}
+	pg.base.memory_template[5501] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 타이거",
+		condition = "이벤트에서 「타이거」 오픈",
+		story = "YICHANGDERICHANGZHAOMU1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5501,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU1"
+		}
+	}
+	pg.base.memory_template[5502] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 프리드리히 카를",
+		condition = "이벤트에서 「프리드리히 카를」 오픈",
+		story = "YICHANGDERICHANGZHAOMU12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5502,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU12"
+		}
+	}
+	pg.base.memory_template[5503] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 요르크",
+		condition = "이벤트에서 「요르크」 오픈",
+		story = "YICHANGDERICHANGZHAOMU2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5503,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU2"
+		}
+	}
+	pg.base.memory_template[5504] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 헤이스티",
+		condition = "이벤트에서 「헤이스티」 오픈",
+		story = "YICHANGDERICHANGZHAOMU5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5504,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU5"
+		}
+	}
+	pg.base.memory_template[5505] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 골든 하인드",
+		condition = "이벤트에서 「골든 하인드」 오픈",
+		story = "YICHANGDERICHANGZHAOMU13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5505,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU13"
+		}
+	}
+	pg.base.memory_template[5506] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 하쿠호",
+		condition = "이벤트에서 「하쿠호」 오픈",
+		story = "YICHANGDERICHANGZHAOMU6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5506,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU6"
+		}
+	}
+	pg.base.memory_template[5507] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 일러스트리어스",
+		condition = "이벤트에서 「일러스트리어스」 오픈",
+		story = "YICHANGDERICHANGZHAOMU11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5507,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU11"
+		}
+	}
+	pg.base.memory_template[5508] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 체셔",
+		condition = "이벤트에서 「체셔」 오픈",
+		story = "YICHANGDERICHANGZHAOMU7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5508,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU7"
+		}
+	}
+	pg.base.memory_template[5509] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 라이온",
+		condition = "이벤트에서 「라이온」 오픈",
+		story = "YICHANGDERICHANGZHAOMU9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5509,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU9"
+		}
+	}
+	pg.base.memory_template[5510] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 호스타일",
+		condition = "이벤트에서 「호스타일」 오픈",
+		story = "YICHANGDERICHANGZHAOMU8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5510,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU8"
+		}
+	}
+	pg.base.memory_template[5511] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 쇼카쿠",
+		condition = "이벤트에서 「쇼카쿠」 오픈",
+		story = "YICHANGDERICHANGZHAOMU3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5511,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU3"
+		}
+	}
+	pg.base.memory_template[5512] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 이14",
+		condition = "이벤트에서 「이14」 오픈",
+		story = "YICHANGDERICHANGZHAOMU4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5512,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU4"
+		}
+	}
+	pg.base.memory_template[5513] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동료 오픈 - 아즈치",
+		condition = "이벤트에서 「아즈치」 오픈",
+		story = "YICHANGDERICHANGZHAOMU10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5513,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU10"
+		}
+	}
+	pg.base.memory_template[5514] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "타이거에 대해……",
+		condition = "이벤트에서 「타이거」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5514,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING1"
+		}
+	}
+	pg.base.memory_template[5515] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "하늘 너머의 선율",
+		condition = "이벤트에서 「타이거」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5515,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING2"
+		}
+	}
+	pg.base.memory_template[5516] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "날개 손질",
+		condition = "이벤트에서 「타이거」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5516,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING3"
+		}
+	}
+	pg.base.memory_template[5517] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "프리드리히 카를에 대해……",
+		condition = "이벤트에서 「프리드리히 카를」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5517,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING4"
+		}
+	}
+	pg.base.memory_template[5518] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "경계선을 넘어",
+		condition = "이벤트에서 「프리드리히 카를」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5518,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING5"
+		}
+	}
+	pg.base.memory_template[5519] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "당신 곁으로",
+		condition = "이벤트에서 「프리드리히 카를」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5519,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING6"
+		}
+	}
+	pg.base.memory_template[5520] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "요르크에 대해……",
+		condition = "이벤트에서 「요르크」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5520,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING7"
+		}
+	}
+	pg.base.memory_template[5521] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "파트너의 자격",
+		condition = "이벤트에서 「요르크」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5521,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING8"
+		}
+	}
+	pg.base.memory_template[5522] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "버틸 것인가, 타락할 것인가",
+		condition = "이벤트에서 「요르크」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5522,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING9"
+		}
+	}
+	pg.base.memory_template[5523] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "헤이스티에 대해……",
+		condition = "이벤트에서 「헤이스티」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5523,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING10"
+		}
+	}
+	pg.base.memory_template[5524] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "미소를 바라봐",
+		condition = "이벤트에서 「헤이스티」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5524,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING11"
+		}
+	}
+	pg.base.memory_template[5525] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "함께 있어 줘",
+		condition = "이벤트에서 「헤이스티」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5525,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING12"
+		}
+	}
+	pg.base.memory_template[5526] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "골든 하인드에 대해……",
+		condition = "이벤트에서 「골든 하인드」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5526,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING13"
+		}
+	}
+	pg.base.memory_template[5527] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "촉수의 온도",
+		condition = "이벤트에서 「골든 하인드」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5527,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING14"
+		}
+	}
+	pg.base.memory_template[5528] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "당신의 향기",
+		condition = "이벤트에서 「골든 하인드」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING15",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5528,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING15"
+		}
+	}
+	pg.base.memory_template[5529] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "하쿠호에 대해……",
+		condition = "이벤트에서 「하쿠호」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING16",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5529,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING16"
+		}
+	}
+	pg.base.memory_template[5530] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "여우비",
+		condition = "이벤트에서 「하쿠호」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING17",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5530,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING17"
+		}
+	}
+	pg.base.memory_template[5531] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "인연",
+		condition = "이벤트에서 「하쿠호」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING18",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5531,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING18"
+		}
+	}
+	pg.base.memory_template[5532] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "일러스트리어스에 대해……",
+		condition = "이벤트에서 「일러스트리어스」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING19",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5532,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING19"
+		}
+	}
+	pg.base.memory_template[5533] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "찾는 거 있으세요?",
+		condition = "이벤트에서 「일러스트리어스」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING20",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5533,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING20"
+		}
+	}
+	pg.base.memory_template[5534] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "외로운 유령",
+		condition = "이벤트에서 「일러스트리어스」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING21",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5534,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING21"
+		}
+	}
+	pg.base.memory_template[5535] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "체셔에 대해……",
+		condition = "이벤트에서 「체셔」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING22",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5535,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING22"
+		}
+	}
+	pg.base.memory_template[5536] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "강해지는 마법약",
+		condition = "이벤트에서 「체셔」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING23",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5536,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING23"
+		}
+	}
+	pg.base.memory_template[5537] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "불쑥 나타나기",
+		condition = "이벤트에서 「체셔」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING24",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5537,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING24"
+		}
+	}
+	pg.base.memory_template[5538] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "라이온에 대해……",
+		condition = "이벤트에서 「라이온」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING25",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5538,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING25"
+		}
+	}
+	pg.base.memory_template[5539] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "윈도 쇼핑",
+		condition = "이벤트에서 「라이온」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING26",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5539,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING26"
+		}
+	}
+	pg.base.memory_template[5540] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "베어 찢는 도구",
+		condition = "이벤트에서 「라이온」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING27",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5540,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING27"
+		}
+	}
+	pg.base.memory_template[5541] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "호스타일에 대해……",
+		condition = "이벤트에서 「호스타일」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING28",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5541,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING28"
+		}
+	}
+	pg.base.memory_template[5542] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "신변 경호",
+		condition = "이벤트에서 「호스타일」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING29",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5542,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING29"
+		}
+	}
+	pg.base.memory_template[5543] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "입욕 중의 안전",
+		condition = "이벤트에서 「호스타일」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING30",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5543,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING30"
+		}
+	}
+	pg.base.memory_template[5544] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "쇼카쿠에 대해……",
+		condition = "이벤트에서 「쇼카쿠」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING31",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5544,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING31"
+		}
+	}
+	pg.base.memory_template[5545] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "보은의 피리 소리",
+		condition = "이벤트에서 「쇼카쿠」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING32",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5545,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING32"
+		}
+	}
+	pg.base.memory_template[5546] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "눈 속의 따스함",
+		condition = "이벤트에서 「쇼카쿠」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING33",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5546,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING33"
+		}
+	}
+	pg.base.memory_template[5547] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "이14에 대해……",
+		condition = "이벤트에서 「이14」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING34",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5547,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING34"
+		}
+	}
+	pg.base.memory_template[5548] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "취미와 힘",
+		condition = "이벤트에서 「이14」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING35",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5548,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING35"
+		}
+	}
+	pg.base.memory_template[5549] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "위장과 자아",
+		condition = "이벤트에서 「이14」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING36",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5549,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING36"
+		}
+	}
+	pg.base.memory_template[5550] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "아즈치에 대해……",
+		condition = "이벤트에서 「아즈치」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING37",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5550,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING37"
+		}
+	}
+	pg.base.memory_template[5551] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "새로운 분위기",
+		condition = "이벤트에서 「아즈치」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING38",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5551,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING38"
+		}
+	}
+	pg.base.memory_template[5552] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "한 걸음 나아가기",
+		condition = "이벤트에서 「아즈치」의 공감 상승",
+		story = "YICHANGDERICHANGDUANJUQING39",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5552,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING39"
 		}
 	}
 	pg.base.memory_template[10000] = {
@@ -82070,8 +83782,6 @@ end)()
 			"CHANGDAO3"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10014] = {
 		ship_group = 0,
 		subtitle = "",
@@ -82252,6 +83962,8 @@ end)()
 			"TEACHER2"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10031] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83872,8 +85584,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA44"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20044] = {
 		ship_group = 0,
 		subtitle = "",
@@ -84054,6 +85764,8 @@ end)()
 			"LINGHANGYUANTANXIN2"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20054] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85674,8 +87386,6 @@ end)()
 			"LINGYANGZHELAIFANGJISHI7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20145] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85856,6 +87566,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA5"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20155] = {
 		ship_group = 0,
 		subtitle = "",

@@ -69,11 +69,7 @@ slot0.updateGoodsCard = function(slot0, slot1, slot2)
 
 	setActive(slot1:Find("btn_unable"), slot5:getOwnedCount() < slot5.count)
 	setButtonEnabled(slot1, slot3)
-	updateDrop(slot1:Find("icon/IconTpl"), {
-		type = slot2:getConfig("commodity_type"),
-		id = slot2:getConfig("commodity_id"),
-		count = slot2:getConfig("num")
-	})
+	updateDrop(slot1:Find("icon/IconTpl"), slot2:getDropInfo())
 	onNextTick(function ()
 		changeToScrollText(uv0:Find("Text"), uv1:getConfig("name"))
 	end)

@@ -25,7 +25,8 @@ slot1.onAircraftCreate = function(slot0, slot1, slot2, slot3)
 		buffID = slot0._buffID,
 		rant = slot0._rant,
 		level = slot0._level,
-		buff_level = slot0._buffLevel
+		buff_level = slot0._buffLevel,
+		group_level = slot0._level
 	}
 
 	for slot10, slot11 in ipairs(slot3.aircraft:GetWeapon()) do

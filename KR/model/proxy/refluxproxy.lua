@@ -94,4 +94,52 @@ slot0.setAutoActionForbidden = function(slot0, slot1)
 	slot0.autoActionForbidden = slot1
 end
 
+slot0.GetRefluxBgs = function(slot0)
+	slot1 = getProxy(RefluxProxy).returnLastTimestamp
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(pg.cg_display.all) do
+		slot8 = pg.cg_display[slot7]
+
+		if slot1 < pg.TimeMgr.GetInstance():parseTimeFromConfig({
+			{
+				slot8.version_time[1],
+				slot8.version_time[2],
+				slot8.version_time[3]
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}) then
+			table.insert(slot2, {
+				id = slot7,
+				time = slot15
+			})
+		end
+	end
+
+	table.sort(slot2, function (slot0, slot1)
+		slot4 = slot0.time
+		slot5 = slot1.time
+
+		if pg.cg_display[slot0.id].Cgpriority == pg.cg_display[slot1.id].Cgpriority then
+			return slot5 < slot4
+		else
+			return slot7.Cgpriority < slot6.Cgpriority
+		end
+	end)
+
+	slot3 = {}
+
+	for slot7 = 1, 20 do
+		if slot2[slot7] then
+			table.insert(slot3, pg.cg_display[slot2[slot7].id].Cgname)
+		end
+	end
+
+	return slot3
+end
+
 return slot0

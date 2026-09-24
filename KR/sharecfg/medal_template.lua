@@ -134,7 +134,9 @@ pg.medal_template.all = {
 	200181,
 	200191,
 	200201,
-	200211
+	200211,
+	200221,
+	200231
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -3028,6 +3030,48 @@ end)()
 		rank = 1,
 		id = 200211,
 		explain1 = "「플래시 웨이브: 서머 레이스」",
+		explain2 = "이벤트"
+	}
+	pg.base.medal_template[200221] = {
+		target_id = "51143",
+		name = "유영 미성 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "빛과 그림자가 흘러가는 빌딩 숲 사이로 공중 열차가 오간다. 화려한 거리 풍경 뒤편에는 어둠이 조용히 번져나가며 꿈틀거리고 있다. 신기원 도시 NO.7에 오신 것을 환영합니다——",
+		next = 0,
+		icon = "9221",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9221",
+		condition = "「유영 미성」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200221,
+		explain1 = "「유영 미성」",
+		explain2 = "이벤트"
+	}
+	pg.base.medal_template[200231] = {
+		target_id = "51154",
+		name = "이상 출몰 기념 훈장",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "해는 오늘도 떠오르고, 열차는 평소처럼 달리기 시작해. 도시에 녹아든 괴물들도, 열심히 일상을 보내고 있는 것 같아♪",
+		next = 0,
+		icon = "9231",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9231",
+		condition = "「이상한 일상 진행 중」 기념 스티커\n7개 수집",
+		rank = 1,
+		id = 200231,
+		explain1 = "「이상한 일상 진행 중」",
 		explain2 = "이벤트"
 	}
 end)()

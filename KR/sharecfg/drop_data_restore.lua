@@ -580,6 +580,13 @@ pg.drop_data_restore.all = {
 	649,
 	650,
 	651,
+	652,
+	653,
+	654,
+	655,
+	656,
+	657,
+	658,
 	998,
 	1020,
 	1142,
@@ -5942,6 +5949,69 @@ end)()
 		drop_id = "65310",
 		target_id = 901011
 	}
+	pg.base.drop_data_restore[652] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 652,
+		resource_num = 1260,
+		drop_id = "998333",
+		target_id = 403143
+	}
+	pg.base.drop_data_restore[653] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 653,
+		resource_num = 1260,
+		drop_id = "998333",
+		target_id = 237031
+	}
+	pg.base.drop_data_restore[654] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 654,
+		resource_num = 1260,
+		drop_id = "998333",
+		target_id = 205162
+	}
+	pg.base.drop_data_restore[655] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 655,
+		resource_num = 1050,
+		drop_id = "998333",
+		target_id = 202381
+	}
+	pg.base.drop_data_restore[656] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 656,
+		resource_num = 980,
+		drop_id = "998333",
+		target_id = 317031
+	}
+	pg.base.drop_data_restore[657] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 657,
+		resource_num = 780,
+		drop_id = "998333",
+		target_id = 201401
+	}
+	pg.base.drop_data_restore[658] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 658,
+		resource_num = 780,
+		drop_id = "998333",
+		target_id = 201191
+	}
 	pg.base.drop_data_restore[998] = {
 		target_type = 7,
 		resource_type = 1,
@@ -6086,6 +6156,8 @@ end)()
 		drop_id = "4977",
 		target_id = 705061
 	}
+end)()
+(function ()
 	pg.base.drop_data_restore[1184] = {
 		target_type = 7,
 		resource_type = 14,
@@ -6149,8 +6221,6 @@ end)()
 		drop_id = "4987",
 		target_id = 9600051
 	}
-end)()
-(function ()
 	pg.base.drop_data_restore[1267] = {
 		target_type = 7,
 		resource_type = 14,
@@ -6988,6 +7058,8 @@ end)()
 		drop_id = "0",
 		target_id = 211
 	}
+end)()
+(function ()
 	pg.base.drop_data_restore[7012] = {
 		target_type = 14,
 		resource_type = 1,
@@ -7051,8 +7123,6 @@ end)()
 		drop_id = "4982",
 		target_id = 399051
 	}
-end)()
-(function ()
 	pg.base.drop_data_restore[20007] = {
 		target_type = 7,
 		resource_type = 14,

@@ -8523,6 +8523,37 @@ _G.pg.base.item_data_statistics[11058] = {
 }
 
 
+_G.pg.base.item_data_statistics[11059] = {
+	open_directly = 0,
+	name = "152mm 연장포 MK.XXVI T3 설계도",
+	type = 9,
+	display = "152mm 연장포 MK.XXVI T3 설계도",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/22300",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11059,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[12000] = {
 	open_directly = 0,
 	name = "93식 산소어뢰 T3 설계도",
@@ -16955,6 +16986,37 @@ _G.pg.base.item_data_statistics[21064] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21064,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21065] = {
+	open_directly = 0,
+	name = "결정: 빅토리어스·META",
+	type = 4,
+	display = "빅토리어스·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21065",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21065,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -30542,6 +30604,131 @@ _G.pg.base.item_data_statistics[30387] = {
 		{
 			9,
 			4437,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30388] = {
+	open_directly = 1,
+	name = "장비스킨 상자 (유영 기담)",
+	type = 11,
+	display = "랜덤으로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdushiguaitan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30385",
+	id = 30388,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4438,
+			1
+		},
+		{
+			9,
+			4439,
+			1
+		},
+		{
+			9,
+			4440,
+			1
+		},
+		{
+			9,
+			4441,
+			1
+		},
+		{
+			9,
+			4442,
+			1
+		},
+		{
+			9,
+			4443,
+			1
+		},
+		{
+			9,
+			4444,
+			1
+		},
+		{
+			9,
+			4445,
+			1
+		},
+		{
+			9,
+			4446,
+			1
+		},
+		{
+			9,
+			4447,
+			1
+		},
+		{
+			9,
+			4448,
+			1
+		},
+		{
+			9,
+			4449,
+			1
+		},
+		{
+			9,
+			4450,
+			1
+		},
+		{
+			9,
+			4451,
+			1
+		},
+		{
+			9,
+			4452,
+			1
+		},
+		{
+			9,
+			4453,
+			1
+		},
+		{
+			9,
+			4454,
+			1
+		},
+		{
+			9,
+			4455,
 			1
 		}
 	},
@@ -47328,6 +47515,219 @@ _G.pg.base.item_data_statistics[30571] = {
 }
 
 
+_G.pg.base.item_data_statistics[30572] = {
+	open_directly = 0,
+	name = "지향형 장비스킨 상자 (유영 기담)",
+	type = 13,
+	display = "사용하면 장비스킨(유영 기담) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdushiguaitanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30572,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4438,
+			1
+		},
+		{
+			9,
+			4439,
+			1
+		},
+		{
+			9,
+			4440,
+			1
+		},
+		{
+			9,
+			4441,
+			1
+		},
+		{
+			9,
+			4442,
+			1
+		},
+		{
+			9,
+			4443,
+			1
+		},
+		{
+			9,
+			4444,
+			1
+		},
+		{
+			9,
+			4445,
+			1
+		},
+		{
+			9,
+			4446,
+			1
+		},
+		{
+			9,
+			4447,
+			1
+		},
+		{
+			9,
+			4448,
+			1
+		},
+		{
+			9,
+			4449,
+			1
+		},
+		{
+			9,
+			4450,
+			1
+		},
+		{
+			9,
+			4451,
+			1
+		},
+		{
+			9,
+			4452,
+			1
+		},
+		{
+			9,
+			4453,
+			1
+		},
+		{
+			9,
+			4454,
+			1
+		},
+		{
+			9,
+			4455,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4438,
+			1
+		},
+		{
+			9,
+			4439,
+			1
+		},
+		{
+			9,
+			4440,
+			1
+		},
+		{
+			9,
+			4441,
+			1
+		},
+		{
+			9,
+			4442,
+			1
+		},
+		{
+			9,
+			4443,
+			1
+		},
+		{
+			9,
+			4444,
+			1
+		},
+		{
+			9,
+			4445,
+			1
+		},
+		{
+			9,
+			4446,
+			1
+		},
+		{
+			9,
+			4447,
+			1
+		},
+		{
+			9,
+			4448,
+			1
+		},
+		{
+			9,
+			4449,
+			1
+		},
+		{
+			9,
+			4450,
+			1
+		},
+		{
+			9,
+			4451,
+			1
+		},
+		{
+			9,
+			4452,
+			1
+		},
+		{
+			9,
+			4453,
+			1
+		},
+		{
+			9,
+			4454,
+			1
+		},
+		{
+			9,
+			4455,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "지향형 부속T4",
@@ -51781,6 +52181,90 @@ _G.pg.base.item_data_statistics[40088] = {
 			2,
 			42050,
 			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40089] = {
+	open_directly = 1,
+	name = "전투 UI·촉영 화장대 (기초)",
+	type = 17,
+	display = "구매하면 전투 UI 테마·촉영 화장대, 물자×1000 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui11",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4089",
+	id = 40089,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			210,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40090] = {
+	open_directly = 1,
+	name = "전투 UI·촉영 화장대 (럭셔리)",
+	type = 17,
+	display = "구매하면 전투 UI 테마·촉영 화장대, 다이아×3060 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui11",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4090",
+	id = 40090,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			210,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},
@@ -109926,6 +110410,298 @@ _G.pg.base.item_data_statistics[60589] = {
 }
 
 
+_G.pg.base.item_data_statistics[60599] = {
+	open_directly = 0,
+	name = "축제 초대장",
+	type = 21,
+	display = "사용하면 SSR 함선 중 1명을 골라 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60599,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3501,
+		3502,
+		3503,
+		3504,
+		3505,
+		3506,
+		3507,
+		3508
+	},
+	limit = {},
+	open_ui = {
+		"login_year",
+		"t_ninth_jp"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[62000] = {
+	open_directly = 0,
+	name = "일러스트리어스의 답례",
+	type = 1,
+	display = "초대에 대한 일러스트리어스의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62000,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62001] = {
+	open_directly = 0,
+	name = "다이도의 답례",
+	type = 1,
+	display = "초대에 대한 다이도의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62001,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62002] = {
+	open_directly = 0,
+	name = "쇼카쿠의 답례",
+	type = 1,
+	display = "초대에 대한 쇼카쿠의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62002,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62003] = {
+	open_directly = 0,
+	name = "스즈츠키의 답례",
+	type = 1,
+	display = "초대에 대한 스즈츠키의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62003,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62004] = {
+	open_directly = 0,
+	name = "리노의 답례",
+	type = 1,
+	display = "초대에 대한 리노의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62004,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62005] = {
+	open_directly = 0,
+	name = "프린츠 오이겐의 답례",
+	type = 1,
+	display = "초대에 대한 프린츠 오이겐의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62005,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62006] = {
+	open_directly = 0,
+	name = "조프르의 답례",
+	type = 1,
+	display = "초대에 대한 조프르의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62006,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62007] = {
+	open_directly = 0,
+	name = "키로프의 답례",
+	type = 1,
+	display = "초대에 대한 키로프의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62007,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[68063] = {
 	open_directly = 1,
 	name = "换装抵扣礼包(沙滩的慵懒主宰)",
@@ -114101,6 +114877,73 @@ _G.pg.base.item_data_statistics[81237] = {
 		{
 			2,
 			86229,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81238] = {
+	open_directly = 1,
+	name = "유영 미성 스킨 패키지 I",
+	type = 17,
+	display = "랜덤(유영 미성 스킨 패키지 I의) 스킨, 고급 지향형 강화 유닛·9기×2, 다이아×2026, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai38",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998333",
+	id = 81238,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86230,
 			1
 		},
 		{
