@@ -114362,7 +114362,7 @@ end)()
 		flag = 0
 	}
 	pg.base.activity_ins_chat_language[11658] = {
-		param = "而且今天出门前，我还看到游戏厅门口为了一圈又一圈的人，这才放心去商店的",
+		param = "而且今天出门前，我还看到游戏厅门口围了一圈又一圈的人，这才放心去商店的",
 		ship_group = 31201,
 		option = "",
 		type = 1,

@@ -25,8 +25,13 @@ slot0.getResource = function(slot0, slot1)
 		table.insert(slot2, slot4)
 	end
 
+	slot4 = HXSet.HxPath(slot4)
+	slot1._combatLoadPicData = {
+		type = slot3,
+		path = slot4
+	}
 	slot0._preloadPicType = slot3
-	slot0._preloadPicPath = HXSet.HxPath(slot4)
+	slot0._preloadPicPath = slot4
 	slot5, slot6, slot7 = CombatLoadUI.GetTotalResourceList(slot1)
 
 	if slot5 and #slot5 > 0 then
@@ -39,8 +44,9 @@ slot0.getResource = function(slot0, slot1)
 end
 
 slot0.preload = function(slot0, slot1)
-	slot0._preloadPicType = slot0._preloadPicType or nil
-	slot0._preloadPicPath = slot0._preloadPicPath or nil
+	slot2 = slot0.contextData and slot0.contextData._combatLoadPicData
+	slot0._preloadPicType = slot2 and slot2.type or nil
+	slot0._preloadPicPath = slot2 and slot2.path or nil
 	slot0._preloadPicSprite = nil
 	slot0._preloadBgFitMode = PlayerPrefs.GetInt("bgFitMode", 0)
 
