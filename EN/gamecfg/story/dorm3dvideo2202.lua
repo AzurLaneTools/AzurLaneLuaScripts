@@ -76,7 +76,7 @@ return {
 			say = "I was so distracted by the thought, I couldn't fully engage in the task in front of me. So I decided to give you a ring...",
 			options = {
 				{
-					content = "I want to brew tea for you, look at your face as you drink it, and hear you tell me how good it is.",
+					content = "That's very honest of you.",
 					flag = 1
 				}
 			},

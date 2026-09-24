@@ -3,7 +3,6 @@ pg.newserver_shop_template = rawget(pg, "newserver_shop_template") or setmetatab
 	__name = "newserver_shop_template"
 }, confNEO)
 pg.newserver_shop_template.all = {
-	22,
 	301,
 	302,
 	303,
@@ -151,7 +150,6 @@ pg.newserver_shop_template.all = {
 }
 pg.newserver_shop_template.get_id_list_by_unlock_time = {
 	[0] = {
-		22,
 		301,
 		302,
 		303,
@@ -306,23 +304,6 @@ pg.base = pg.base or {}
 pg.base.newserver_shop_template = {}
 
 (function ()
-	pg.base.newserver_shop_template[22] = {
-		unlock_time = 0,
-		resource_category = 1,
-		goods_rarity = 4,
-		type = 2,
-		goods_purchase_limit = 120,
-		num = 1,
-		resource_type = 249,
-		goods_name = "General Blueprint - Series 1",
-		goods_type = 1,
-		id = 22,
-		resource_num = 30,
-		goods_icon = "Props/42000",
-		goods = {
-			42000
-		}
-	}
 	pg.base.newserver_shop_template[301] = {
 		unlock_time = 0,
 		resource_category = 1,
@@ -2208,8 +2189,6 @@ pg.base.newserver_shop_template = {}
 			59900
 		}
 	}
-end)()
-(function ()
 	pg.base.newserver_shop_template[928] = {
 		unlock_time = 604800,
 		resource_category = 1,
@@ -2227,6 +2206,8 @@ end)()
 			20001
 		}
 	}
+end)()
+(function ()
 	pg.base.newserver_shop_template[929] = {
 		unlock_time = 604800,
 		resource_category = 1,

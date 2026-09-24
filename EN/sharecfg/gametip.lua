@@ -32478,38 +32478,38 @@ cs.gametip = {
 	},
 	cruise_title_2610 = {
 		1458742,
-		110
+		104
 	},
 	dorm3d_yuanchou_table = {
-		1458852,
+		1458846,
 		90
 	},
 	dorm3d_yuanchou_chair = {
-		1458942,
+		1458936,
 		96
 	},
 	dorm3d_yuanchou_bed = {
-		1459038,
+		1459032,
 		90
 	},
 	auto_download_tip = {
-		1459128,
+		1459122,
 		243
 	},
 	auto_download_btn = {
-		1459371,
+		1459365,
 		95
 	},
 	setting_download_basic_assets = {
-		1459466,
+		1459460,
 		114
 	},
 	setting_restart_download_btn = {
-		1459580,
+		1459574,
 		107
 	},
 	loading_flow_tip = {
-		1459687,
+		1459681,
 		160
 	}
 }

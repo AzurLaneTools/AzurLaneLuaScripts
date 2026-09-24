@@ -76,7 +76,7 @@ slot0.getDockyardShipResList = function(slot0, slot1)
 
 		for slot9, slot10 in ipairs(getProxy(TechnologyProxy):getAllBluePrintShipIds()) do
 			if slot5:getShipById(slot10) and #slot11:getAllShipPhantomMarks() > 1 then
-				slot9.each(slot11:getAllShipPhantom(), function (slot0)
+				_.each(slot11:getAllShipPhantom(), function (slot0)
 					table.insertto(uv0, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot0:getPainting()))
 				end)
 			end

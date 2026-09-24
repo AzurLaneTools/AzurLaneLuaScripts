@@ -52054,7 +52054,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 
 
 _G.pg.base.gametip.cruise_title_2610 = {
-	tip = "世界巡游·第三十一期"
+	tip = "Cruise Missions – S31"
 }
 
 
