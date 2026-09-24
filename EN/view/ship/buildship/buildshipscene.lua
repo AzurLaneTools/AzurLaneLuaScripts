@@ -12,6 +12,12 @@ slot0.PROJECTS = {
 	LIGHT = "light"
 }
 
+slot0.getResource = function(slot0)
+	return table.insertto({
+		"ui/al_bg01"
+	}, uv0.super.getResource(slot0))
+end
+
 slot0.getUIName = function(slot0)
 	return "BuildShipUI"
 end

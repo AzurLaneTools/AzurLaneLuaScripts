@@ -1,6 +1,7 @@
 slot0 = class("ChapterAutoProxy", import("model.proxy.NetProxy"))
 slot0.FINISH_UPDATE = "ChapterAutoProxy.FINISH_UPDATE"
 slot0.TYPE = {
+	WORLD = 2,
 	SLG = 1
 }
 
@@ -250,6 +251,28 @@ slot0.GetFinishAllCommissionTime = function(slot0)
 	end
 
 	return slot0.commissionList[#slot0.commissionList]:GetFinishTime()
+end
+
+slot0.IsCommissionDoing = function(slot0)
+	return #slot0.commissionList > 0
+end
+
+slot0.GetCommissionDoingType = function(slot0)
+	return #slot0.commissionList > 0 and slot0.commissionList[1]:GetType() or nil
+end
+
+slot0.HasTypeCommission = function(slot0, slot1)
+	return underscore.any(slot0.commissionList, function (slot0)
+		return slot0.type == uv0
+	end)
+end
+
+slot0.IsAllCommissionFinish = function(slot0, slot1)
+	if slot1 and not slot0:HasTypeCommission(slot1) then
+		return false
+	end
+
+	return #slot0.commissionList > 0 and slot0.commissionList[#slot0.commissionList]:GetFinishTime() <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
 slot0.IsShowTip = function(slot0)

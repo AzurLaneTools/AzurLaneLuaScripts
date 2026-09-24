@@ -4,11 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Commander, I want to be by your side right now♥",
 			typewriter = {
 				speed = 0.05,
@@ -28,10 +29,11 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Yes, please do~♥",
 			typewriter = {
@@ -40,12 +42,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403143,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Look at me now..",
 			typewriter = {
 				speed = 0.05,
@@ -53,12 +56,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403143,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I'll go to you, one step at a time♥",
 			typewriter = {
 				speed = 0.05,
@@ -68,10 +72,11 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heheh, time is like water in a sponge. You can always squeeze out a little more.",
 			typewriter = {
@@ -80,12 +85,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403143,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "And I'll squeeze out as much of your time as I can.♥",
 			typewriter = {
 				speed = 0.05,

@@ -14,6 +14,16 @@ slot0.getGroupName = function(slot0)
 	return "ShipMainScene"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"modicon"
+	}
+
+	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+
+	return slot2
+end
+
 slot0.init = function(slot0)
 	slot0.container = slot0._tf:Find("main/bg/container")
 	slot0.gridContainer = slot0.container:Find("grids")

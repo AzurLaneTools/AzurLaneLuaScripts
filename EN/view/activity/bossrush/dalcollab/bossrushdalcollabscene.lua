@@ -4,8 +4,16 @@ slot0.getUIName = function(slot0)
 	return "BossRushDALCollabUI"
 end
 
-slot0.GetAtalsName = function(slot0)
+slot0.getAtalsName = function(slot0)
 	return "ui/BossRushDALCollabUI_atlas"
+end
+
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	table.insert(slot1, slot0:getAtalsName())
+
+	return slot1
 end
 
 slot0.ResUISettings = function(slot0)
@@ -20,7 +28,7 @@ end
 
 slot0.preload = function(slot0, slot1)
 	existCall(slot1)
-	slot0.loader:LoadBundle(slot0:GetAtalsName())
+	slot0.loader:LoadBundle(slot0:getAtalsName())
 end
 
 slot0.OverlayComponent = function(slot0, slot1)

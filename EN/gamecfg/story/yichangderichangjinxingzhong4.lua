@@ -7,10 +7,11 @@ return {
 	},
 	scripts = {
 		{
-			bgName = "star_level_bg_522",
+			NextIcon = 1,
 			side = 2,
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_522",
 			bgm = "story-ghostnight-fascinsting",
 			hideRecordIco = true,
 			actor = 403113,
@@ -31,6 +32,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -50,6 +52,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "To think you would manage to keep your sanity as you stand before me.",
 			typewriter = {
 				speed = 0.05,
@@ -61,6 +64,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -72,12 +76,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 3,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 3,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "Heh, you can think of this as my stage.",
 			typewriter = {
 				speed = 0.05,
@@ -85,6 +90,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -99,12 +105,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "You've made it here, so surely you want to do something other than just watch, right?",
 			typewriter = {
 				speed = 0.05,
@@ -117,6 +124,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "I was just thinking about how much of a shame it is I can't find partners that can keep up with my dancing.",
 			typewriter = {
 				speed = 0.05,
@@ -128,6 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -139,12 +148,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "Such unkind words. Wouldn't it be easier to let me set the pace?",
 			typewriter = {
 				speed = 0.05,
@@ -152,12 +162,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 2,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 2,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "Or perhaps... The courageous Commander is truly hesitating in my presence?",
 			typewriter = {
 				speed = 0.05,
@@ -165,6 +176,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -179,6 +191,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -197,6 +210,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -208,12 +222,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "\"Steal\" is such a harsh word.",
 			typewriter = {
 				speed = 0.05,
@@ -226,6 +241,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "All I'm doing is taking away all your pesky doubts, choices, or whatever unnecessary resistance you were trying to put up♥",
 			typewriter = {
 				speed = 0.05,
@@ -233,6 +249,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -247,6 +264,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -261,12 +279,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 1,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 1,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "Commander, eyes on me.",
 			typewriter = {
 				speed = 0.05,
@@ -274,12 +293,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 5,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 5,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "Your gaze, your steps, your will... If you bequeath them to me, you'll feel bliss like never before.",
 			typewriter = {
 				speed = 0.05,
@@ -291,6 +311,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -302,12 +323,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 3,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 3,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "Heh, heh♥ Finally ready to admit you've been bested?",
 			typewriter = {
 				speed = 0.05,
@@ -319,6 +341,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -330,6 +353,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -344,6 +368,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -358,12 +383,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 2,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 2,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "Oh... So you still have some fight in you.",
 			typewriter = {
 				speed = 0.05,
@@ -376,6 +402,7 @@ return {
 			bgName = "star_level_bg_522",
 			spine = true,
 			side = 2,
+			NextIcon = 1,
 			say = "How long can you keep it up, though?",
 			typewriter = {
 				speed = 0.05,
@@ -387,6 +414,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403113,
@@ -398,6 +426,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -412,6 +441,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -426,12 +456,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 5,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 5,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "The song's over. But it would be a waste to just dance with such a wonderful stage, don't you think?",
 			typewriter = {
 				speed = 0.05,
@@ -439,6 +470,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -453,6 +485,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
@@ -467,12 +500,13 @@ return {
 			}
 		},
 		{
-			actor = 403113,
-			nameColor = "#A9F548FF",
+			expression = 5,
+			side = 2,
 			bgName = "star_level_bg_522",
 			spine = true,
-			side = 2,
-			expression = 5,
+			nameColor = "#A9F548FF",
+			actor = 403113,
+			NextIcon = 1,
 			say = "Commander, sometimes it feels better to give in to your desire rather than control everything♥",
 			typewriter = {
 				speed = 0.05,

@@ -10,8 +10,8 @@ slot0.register = function(slot0)
 
 		uv0:BuildWorld(World.TypeBase)
 
-		uv0.world.baseShipIds = underscore.rest(slot0.ship_id_list, 1)
-		uv0.world.baseCmdIds = underscore.rest(slot0.cmd_id_list, 1)
+		uv0.world.baseShipIds = underscore.to_array(slot0.ship_id_list)
+		uv0.world.baseCmdIds = underscore.to_array(slot0.cmd_id_list)
 
 		uv0.world:UpdateProgress(slot0.progress)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
@@ -186,8 +186,9 @@ slot0.NetUpdateWorld = function(slot0, slot1, slot2, slot3)
 	end)
 	slot5 = slot4:GetAtlas()
 
-	slot5:SetCostMapList(_.rest(slot1.chapter_list, 1))
-	slot5:SetSairenEntranceList(_.rest(slot1.sairen_chapter, 1))
+	slot5:SetCostMapList(underscore.to_array(slot1.chapter_list))
+	slot5:SetSairenEntranceList(underscore.to_array(slot1.sairen_chapter))
+	slot5:SetDelegatedMarkList(underscore.to_array(slot1.random_map_id_list_by_auto))
 	slot5:InitWorldNShopGoods(slot1.goods_list)
 	slot4:SetFleets(slot0:NetBuildMapFleetList(slot1.group_list))
 
@@ -372,7 +373,7 @@ slot0.NetUpdateMapPort = function(slot0, slot1, slot2)
 	slot4 = slot3:GetPort(slot2.port_id)
 
 	assert(slot4, "port not exist: " .. slot2.port_id)
-	slot4:UpdateTaskIds(_.rest(slot2.task_list, 1))
+	slot4:UpdateTaskIds(underscore.to_array(slot2.task_list))
 	slot4:UpdateGoods(_.map(slot2.goods_list, function (slot0)
 		slot1 = WPool:Get(WorldGoods)
 
@@ -609,11 +610,11 @@ slot0.ApplyShipUpdate = function(slot0, slot1)
 end
 
 slot0.NetUpdateWorldSairenChapter = function(slot0, slot1)
-	slot0.world:GetAtlas():SetSairenEntranceList(_.rest(slot1, 1))
+	slot0.world:GetAtlas():SetSairenEntranceList(underscore.to_array(slot1))
 end
 
 slot0.NetUpdateWorldMapPressing = function(slot0, slot1)
-	slot0.world:GetAtlas():SetPressingMarkList(_.rest(slot1, 1))
+	slot0.world:GetAtlas():SetPressingMarkList(underscore.to_array(slot1))
 	slot0.world:GetAtlas():InitPortMarkNShopList()
 end
 
@@ -660,6 +661,20 @@ slot0.ApplySalvageUpdate = function(slot0, slot1)
 		assert(slot1, "fleet not exit: " .. slot0.id)
 		slot1:UpdateCatSalvage(slot0.step, slot0.list, slot0.mapId)
 	end)
+end
+
+slot0.RecordDelegateAward = function(slot0, slot1)
+	assert(not slot0.delegateInfo)
+
+	slot0.delegateInfo = slot1
+end
+
+slot0.RemoveDelegateAward = function(slot0)
+	slot0.delegateInfo = nil
+end
+
+slot0.GetDelegateAward = function(slot0)
+	return slot0.delegateInfo
 end
 
 return slot0

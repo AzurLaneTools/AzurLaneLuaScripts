@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Commander, I'm interested in your territory. Let's have a chat about it.",
 			typewriter = {
@@ -27,9 +28,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Naturally. When they step into my territory, they always leave a scent or footprints.",
 			typewriter = {
@@ -41,9 +43,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "The lion has first-rate tracking skills.",
 			typewriter = {
@@ -58,12 +61,13 @@ return {
 			}
 		},
 		{
-			actor = 205162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Well said. It's a shame I can't give you a proper demonstration...",
 			typewriter = {
 				speed = 0.05,
@@ -71,11 +75,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "If I'd brought it along, security would have confiscated it long ago.",
 			typewriter = {
@@ -93,9 +98,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "I liked it. You've got a good eye.",
 			typewriter = {
@@ -107,9 +113,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Keep it up, friend.",
 			typewriter = {
@@ -118,12 +125,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I think I got what I need.",
 			typewriter = {
 				speed = 0.05,
@@ -131,12 +139,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Lion, you're in.",
 			typewriter = {
 				speed = 0.05,
@@ -147,9 +156,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heheh. Since you've welcomed me personally, I'll accept your invitation and become your guardian.",
 			typewriter = {

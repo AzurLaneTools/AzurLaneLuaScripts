@@ -12,9 +12,10 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			bgm = "story-ghostnight-fascinsting",
 			actor = 9600033,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			say = "Heh heh... Heh heh heh...",
 			typewriter = {
 				speed = 0.05,
@@ -30,6 +31,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -49,8 +51,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "My prey has wandered into my lair... Where are you hiding now, sweet thing?",
 			typewriter = {
 				speed = 0.05,
@@ -58,6 +61,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -72,6 +76,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -91,8 +96,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "Heh heh... Found you~♡",
 			typewriter = {
 				speed = 0.05,
@@ -100,6 +106,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -119,8 +126,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "So it was you, Commander♡",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +141,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "I'm so happy you came to see me. But why would you hide?",
 			typewriter = {
 				speed = 0.05,
@@ -142,6 +151,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -161,8 +171,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "Playing hide-and-seek here is not what a good Commander does, is it?",
 			typewriter = {
 				speed = 0.05,
@@ -174,6 +185,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600033,
@@ -190,8 +202,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "My job? I see.",
 			typewriter = {
 				speed = 0.05,
@@ -199,6 +212,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -217,6 +231,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600033,
@@ -233,8 +248,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "So... Surely you don't expect me to let this slide and pretend I didn't see a thing, right?",
 			typewriter = {
 				speed = 0.05,
@@ -242,6 +258,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -261,8 +278,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "That's no good, Commander♡",
 			typewriter = {
 				speed = 0.05,
@@ -270,6 +288,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -289,8 +308,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "You need punishment for making me search for you...",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +323,9 @@ return {
 			bgName = "star_level_bg_115",
 			spine = true,
 			dir = 1,
-			actor = 9600033,
 			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
 			say = "And I'll make you pay for this transgression with interest♡",
 			typewriter = {
 				speed = 0.05,
@@ -312,6 +333,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			spine = true,
@@ -326,9 +348,10 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
+			bgName = "star_level_bg_115",
 			hideRecordIco = true,
 			actor = 9600032,
 			nameColor = "#A9F548FF",
@@ -360,6 +383,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -375,9 +399,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "We ARE taking a bath, after all~♡",
 			typewriter = {
@@ -386,6 +411,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -403,6 +429,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -418,9 +445,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Heheh~ I must get you all cleaned up before I get a good taste of my sticky, sweet Commander~♡",
 			typewriter = {
@@ -429,6 +457,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -446,6 +475,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -461,9 +491,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "I know! That's why I'll use my own hands to wash you thoroughly and carefully♡",
 			typewriter = {
@@ -472,6 +503,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -486,6 +518,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -503,9 +536,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "main3",
 			say = "You seem a little nervous~ Did you realize there's no escape for you anymore?",
 			typewriter = {
@@ -517,6 +551,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -532,9 +567,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Is that so? All the better, then♪",
 			typewriter = {
@@ -543,6 +579,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -557,6 +594,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -574,9 +612,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Don't move, Commander... You belong to me now~♡",
 			typewriter = {
@@ -585,6 +624,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -602,9 +642,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Commander... Your heart's really pounding. I can feel it even through all the foam♥",
 			typewriter = {
@@ -616,9 +657,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Are you scared?",
 			typewriter = {
@@ -630,6 +672,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_115",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 9600032,
@@ -645,9 +688,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "main1",
 			say = "Oh... So you were looking forward to this?",
 			typewriter = {
@@ -656,6 +700,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -673,9 +718,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "First I need to get you clean, and then...",
 			typewriter = {
@@ -687,9 +733,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "And then I'll savor you thoroughly, from the tips of your toes to the top of your head... Very slowly, of course♡",
 			typewriter = {
@@ -698,6 +745,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -715,9 +763,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "home",
 			say = "I want to know even more about you. From every pore on your skin to your heartbeat. From your most minute expression to the feelings you can't put to words. Every single little thing♥",
 			typewriter = {
@@ -729,9 +778,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Don't worry. I won't hurt you...",
 			typewriter = {
@@ -740,6 +790,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
@@ -757,9 +808,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 9600032,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Now... I'll make you that little bit more delicious♥",
 			typewriter = {

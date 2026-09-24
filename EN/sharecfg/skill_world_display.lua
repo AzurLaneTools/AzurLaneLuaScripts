@@ -100,7 +100,9 @@ pg.skill_world_display.all = {
 	802271,
 	802272,
 	802301,
-	802302
+	802302,
+	802361,
+	802362
 }
 pg.base = pg.base or {}
 pg.base.skill_world_display = {}
@@ -4494,6 +4496,20 @@ Whenever any other ally in the Submarine Fleet hits an enemy with torpedoes: $2 
 		desc_get = "",
 		id = 802302,
 		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_world_display[802361] = {
+		desc_get = "",
+		id = 802361,
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 2.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_world_display[802362] = {
+		desc_get = "",
+		id = 802362,
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	}

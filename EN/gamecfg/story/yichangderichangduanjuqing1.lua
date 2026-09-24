@@ -6,9 +6,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Commander, I can't find my raiment... Have you seen it anywhere?",
 			typewriter = {
@@ -27,12 +28,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Yes, that'd be great.",
 			typewriter = {
 				speed = 0.05,
@@ -40,12 +42,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Thank you, Commander♪",
 			typewriter = {
 				speed = 0.05,
@@ -55,10 +58,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "I see... It's a very important treasure to me. Leaving it outside was not the best idea.",
 			typewriter = {
@@ -67,12 +71,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I'll keep looking for it.",
 			typewriter = {
 				speed = 0.05,

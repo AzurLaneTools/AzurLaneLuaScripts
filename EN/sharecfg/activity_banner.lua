@@ -65,15 +65,14 @@ pg.base.activity_banner = {}
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
+			"scene dockyard"
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					17
+					24
 				},
 				{
 					0,
@@ -84,8 +83,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					30
+					10,
+					7
 				},
 				{
 					23,
@@ -286,14 +285,17 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene court yard"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					8
+					24
 				},
 				{
 					0,
@@ -304,8 +306,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					30
+					10,
+					7
 				},
 				{
 					23,
@@ -320,17 +322,14 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene core activity",
-			{
-				coreName = "ShiningMagicCoreActivityUI"
-			}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2026,
-					9,
-					8
+					10,
+					1
 				},
 				{
 					0,
@@ -341,26 +340,48 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
+					10,
+					15
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[9] = {
+		type = 2,
+		id = 9,
+		pic = "temp9",
+		param = {
+			"dorm 3d select"
+		},
+		time = {
+			{
+				{
+					2026,
 					9,
-					30
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
 				},
 				{
 					23,
 					59,
 					59
 				}
-			}
-		}
-	}
-	pg.base.activity_banner[9] = {
-		time = "stop",
-		type = 2,
-		id = 9,
-		pic = "temp9",
-		param = {
-			"scene get boat",
-			{
-				goToPray = true
 			}
 		}
 	}
@@ -425,11 +446,36 @@ pg.base.activity_banner = {}
 		pic = "dumpling"
 	}
 	pg.base.activity_banner[101] = {
-		param = "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
-		time = "stop",
+		param = "Osmanthus Cake|A sweet and aromatic cake said to have come from the Moon Palace! Delicious!<color=#A9F548>（Increase EXP by 5 for 60 minutes）</color>",
 		type = 10,
 		id = 101,
-		pic = "jingbing"
+		pic = "guihuagao",
+		time = {
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	}
 	pg.base.activity_banner[102] = {
 		param = "Candy Cane|It is said that the first candy canes were pure white like the snow. <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",

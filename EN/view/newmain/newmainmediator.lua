@@ -286,6 +286,11 @@ slot0.initNotificationHandleDic = function(slot0)
 			if slot0.viewComponent.theme and slot0.viewComponent.theme:IsLoaded() then
 				slot0.viewComponent.theme:Refresh(slot2)
 			end
+		end,
+		[GAME.CRUSING_CMD_DONE] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot2.awards, slot2.callback)
 		end
 	}
 end

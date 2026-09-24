@@ -158,19 +158,8 @@ slot0.TryOpenChapterInfo = function(slot0, slot1, slot2, slot3)
 
 	slot4 = getProxy(ChapterProxy):getChapterById(slot1, true)
 
-	if getProxy(ChapterProxy):GetAutoChapterId() then
-		if slot5 == slot4.id then
-			slot0.sceneParent:ShowChapterAutoDetailPanel(slot4)
-		else
-			slot0.sceneParent:HandleShowMsgBox({
-				content = i18n("auto_drop_is_activation", getProxy(ChapterProxy):getChapterById(slot5):getConfig("name")),
-				onYes = function ()
-					uv0.sceneParent:ShowChapterAutoDetailPanel(uv1)
-				end,
-				yesText = i18n("auto_drop_is_activation_go"),
-				noText = i18n("auto_drop_is_activation_cancle")
-			})
-		end
+	if getProxy(ChapterAutoProxy):IsCommissionDoing() and not slot5:HasTypeCommission(ChapterAutoProxy.TYPE.WORLD) then
+		slot0:ChapterAutoOccupied(slot4)
 
 		return
 	end
@@ -219,6 +208,29 @@ slot0.TryOpenChapterInfo = function(slot0, slot1, slot2, slot3)
 	else
 		slot0.sceneParent:DisplayLevelInfoSPPanel(slot1, slot3, slot2)
 	end
+end
+
+slot0.ChapterAutoOccupied = function(slot0, slot1)
+	slot2 = getProxy(ChapterAutoProxy)
+
+	switch(slot2:GetCommissionDoingType(), {
+		[ChapterAutoProxy.TYPE.SLG] = function ()
+			if getProxy(ChapterProxy):GetAutoChapterId() then
+				if slot0 == uv0.id then
+					uv1.sceneParent:ShowChapterAutoDetailPanel(uv0)
+				else
+					uv1.sceneParent:HandleShowMsgBox({
+						content = i18n("auto_drop_is_activation", getProxy(ChapterProxy):getChapterById(slot0):getConfig("name")),
+						onYes = function ()
+							uv0.sceneParent:ShowChapterAutoDetailPanel(uv1)
+						end,
+						yesText = i18n("auto_drop_is_activation_go"),
+						noText = i18n("auto_drop_is_activation_cancle")
+					})
+				end
+			end
+		end
+	})
 end
 
 slot0.OnSubmitTaskDone = function(slot0)

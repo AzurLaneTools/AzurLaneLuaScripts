@@ -846,7 +846,129 @@ pg.dorm3d_ins_chat_language.all = {
 	840,
 	841,
 	842,
-	843
+	843,
+	844,
+	845,
+	846,
+	847,
+	848,
+	849,
+	850,
+	851,
+	852,
+	853,
+	854,
+	855,
+	856,
+	857,
+	858,
+	859,
+	860,
+	861,
+	862,
+	863,
+	864,
+	865,
+	866,
+	867,
+	868,
+	869,
+	870,
+	871,
+	872,
+	873,
+	874,
+	875,
+	876,
+	877,
+	878,
+	879,
+	880,
+	881,
+	882,
+	883,
+	884,
+	885,
+	886,
+	887,
+	888,
+	889,
+	890,
+	891,
+	892,
+	893,
+	894,
+	895,
+	896,
+	897,
+	898,
+	899,
+	900,
+	901,
+	902,
+	903,
+	904,
+	905,
+	906,
+	907,
+	908,
+	909,
+	910,
+	911,
+	912,
+	913,
+	914,
+	915,
+	916,
+	917,
+	918,
+	919,
+	920,
+	921,
+	922,
+	923,
+	924,
+	925,
+	926,
+	927,
+	928,
+	929,
+	930,
+	931,
+	932,
+	933,
+	934,
+	935,
+	936,
+	937,
+	938,
+	939,
+	940,
+	941,
+	942,
+	943,
+	944,
+	945,
+	946,
+	947,
+	948,
+	949,
+	950,
+	951,
+	952,
+	953,
+	954,
+	955,
+	956,
+	957,
+	958,
+	959,
+	960,
+	961,
+	962,
+	963,
+	964,
+	965
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_chat_language = {}
@@ -8245,6 +8367,1109 @@ end)()
 		option = "",
 		type = 1,
 		id = 843,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[844] = {
+		param = "Your visit today took me by surprise, Commander.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 844,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[845] = {
+		param = "I hadn't prepared tea or snacks, and my room is a mess...",
+		ship_group = 20707,
+		type = 1,
+		id = 845,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Don't worry about it."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[846] = {
+		param = "Don't worry about it. You don't have to prepare for my visits.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 846,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[847] = {
+		param = "I just wanted to see your everyday self.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 847,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[848] = {
+		param = "My everyday self...",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 848,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[849] = {
+		param = "Most of my time outside of work is spent in prayer.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 849,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[850] = {
+		param = "As for hobbies, I suppose making tea would be the only one worth speaking of.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 850,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[851] = {
+		param = "I must seem awfully dull.",
+		ship_group = 20707,
+		type = 1,
+		id = 851,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Can we do it together some time?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[852] = {
+		param = "Can we do it together some time?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 852,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[853] = {
+		param = "I'd like to see what it's like.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 853,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[854] = {
+		param = "The feeling of prayer is hard to put into words, I suppose.",
+		ship_group = 20707,
+		type = 1,
+		id = 854,
+		flag = 2,
+		option = {
+			{
+				3,
+				"That sounds amazing."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[855] = {
+		param = "That sounds amazing.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 855,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[856] = {
+		param = "Yes, I think it's a wonderful experience.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 856,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[857] = {
+		param = "Next time you come over, let's try it together.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 857,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[858] = {
+		param = "Commander, your eye bags look a little darker today.",
+		ship_group = 20707,
+		type = 1,
+		id = 858,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I've been busy lately..."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[859] = {
+		param = "I've been busy lately...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 859,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[860] = {
+		param = "Your work is important, but those who put their faith in you would be so worried if anything happened to you.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 860,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[861] = {
+		param = "If you really can't cut down on your work hours...",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 861,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[862] = {
+		param = "Allow me to help you make every moment of relaxation count.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 862,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[863] = {
+		param = "Come over and entrust your rest time to me.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 863,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[864] = {
+		param = "I know a special way to put you to sleep. I'm certain I can help you sleep easily and soundly.",
+		ship_group = 20707,
+		type = 1,
+		id = 864,
+		flag = 1,
+		option = {
+			{
+				2,
+				"A special way?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[865] = {
+		param = "A special way?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 865,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[866] = {
+		param = "Heehee. It won't be as effective if I tell you now.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 866,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[867] = {
+		param = "You should just... come over, close your eyes, and leave the rest to me.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 867,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[868] = {
+		param = "I'm sure it will be an unforgettable night. Hehehe!",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 868,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[869] = {
+		param = "Commander, can you come shopping with me this weekend?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 869,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[870] = {
+		param = "Your clothes are awfully worn, aren't they? It's about time to get some new ones.",
+		ship_group = 20707,
+		type = 1,
+		id = 870,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Okay."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[871] = {
+		param = "Okay. Any places in mind?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 871,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[872] = {
+		param = "Of course. That's the first topic of conversation at any tea party.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 872,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[873] = {
+		param = "I know a few places where we can get clothing tailor made.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 873,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[874] = {
+		param = "It will take time, of course, but their fabric and designs are first-rate.",
+		ship_group = 20707,
+		type = 1,
+		id = 874,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Sounds great."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[875] = {
+		param = "Sounds great. But I usually wear uniforms, so I don't know much about that stuff.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 875,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[876] = {
+		param = "Then leave it to me.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 876,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[877] = {
+		param = "In return, would you please pick out a few for me? Heehee.",
+		ship_group = 20707,
+		type = 1,
+		id = 877,
+		flag = 2,
+		option = {
+			{
+				3,
+				"You've got a deal."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[878] = {
+		param = "You've got a deal. Just don't laugh at my taste.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 878,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[879] = {
+		param = "I'm happy with anything you choose for me. Heehee!",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 879,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[880] = {
+		param = "I had an odd feeling today.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 880,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[881] = {
+		param = "It's as if the distance between us has narrowed a little.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 881,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[882] = {
+		param = "Or maybe... you've just come to learn more about me?",
+		ship_group = 20707,
+		type = 1,
+		id = 882,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Maybe it's both."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[883] = {
+		param = "Maybe it's both.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 883,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[884] = {
+		param = "I noticed something in your room that I'd never seen before.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 884,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[885] = {
+		param = "Heehee. Your thirst for knowledge remains unquenchable, I see.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 885,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[886] = {
+		param = "If you're that interested, why not ask me directly?",
+		ship_group = 20707,
+		type = 1,
+		id = 886,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I wasn't sure if it was appropriate..."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[887] = {
+		param = "I wasn't sure if it was appropriate...",
+		ship_group = 0,
+		type = 1,
+		id = 887,
+		flag = 2,
+		option = {
+			{
+				2,
+				"I wasn't sure if it was appropriate… "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[888] = {
+		param = "You know that I'd never refuse a request of yours.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 888,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[889] = {
+		param = "If you want to know more about me, then just ask.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 889,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[890] = {
+		param = "I'll tell you everything, without exception.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 890,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[891] = {
+		param = "In return... don't hide anything from me, either.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 891,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[892] = {
+		param = "It would make me so sad.",
+		ship_group = 20707,
+		type = 1,
+		id = 892,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Got it."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[893] = {
+		param = "Got it. I'll be honest with you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 893,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[894] = {
+		param = "Heehee. I have absolute faith in you, Commander.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 894,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[895] = {
+		param = "So... Will you be coming over tomorrow?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 895,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[896] = {
+		param = "If you're not too busy with work, I'd love to see you.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 896,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[897] = {
+		param = "I've been counting down the days. Just three more until the holiday~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 897,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[898] = {
+		param = "Do you have any plans?",
+		ship_group = 20707,
+		type = 1,
+		id = 898,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Not in particular, yet."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[899] = {
+		param = "Not in particular, yet.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 899,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[900] = {
+		param = "Is there anywhere you want to go?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 900,
+		flag = 1
+	}
+end)()
+(function ()
+	pg.base.dorm3d_ins_chat_language[901] = {
+		param = "Hmm, is there? I suppose not~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 901,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[902] = {
+		param = "But I do have a few things prepared... Tea and aromatherapy, for example.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 902,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[903] = {
+		param = "I also have a few relaxation techniques in mind.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 903,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[904] = {
+		param = "How about a simple holiday alone in my room? Just the two of us.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 904,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[905] = {
+		param = "Your thoughts?",
+		ship_group = 20707,
+		type = 1,
+		id = 905,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Sounds great."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[906] = {
+		param = "Sounds great.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 906,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[907] = {
+		param = "Then it's a date. Leave your impending holiday to me~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 907,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[908] = {
+		param = "I'll make it one you'll never want to end♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 908,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[909] = {
+		param = "I really enjoyed the gift you brought today.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 909,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[910] = {
+		param = "But it does bother me that I'm only taking your gifts without giving you anything in return.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 910,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[911] = {
+		param = "Is there anything you would like?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 911,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[912] = {
+		param = "Or... would you prefer a surprise?",
+		ship_group = 20707,
+		type = 1,
+		id = 912,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Don't worry about it."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[913] = {
+		param = "Don't worry about it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 913,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[914] = {
+		param = "You let me come over all the time. A present or two is no big deal.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 914,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[915] = {
+		param = "Heehee. I thought you might say that.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 915,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[916] = {
+		param = "Don't worry. My gift won't cost a penny.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 916,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[917] = {
+		param = "In fact... it's one-of-a-kind that money can't buy.",
+		ship_group = 20707,
+		type = 1,
+		id = 917,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Now I'm curious."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[918] = {
+		param = "Now I'm curious. What is it?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 918,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[919] = {
+		param = "Telling you now would spoil the fun~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 919,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[920] = {
+		param = "Come over for it right now.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 920,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[921] = {
+		param = "I'll be waiting for you... Heheh.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 921,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[922] = {
+		param = "Lately, when I pray for you, time seems to stretch on forever.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 922,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[923] = {
+		param = "Maybe... my mind is too cluttered with distractions.",
+		ship_group = 20707,
+		type = 1,
+		id = 923,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Like what?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[924] = {
+		param = "Like what?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 924,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[925] = {
+		param = "Do you want me to say it directly?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 925,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[926] = {
+		param = "Because I'm thinking about you. Heehee!",
+		ship_group = 20707,
+		type = 1,
+		id = 926,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Turns out it's my fault."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[927] = {
+		param = "Turns out it's my fault.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 927,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[928] = {
+		param = "I want to pray for you alone, to keep you by my side forever...",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 928,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[929] = {
+		param = "Basking in your warmth for so long has made me a little selfish, I suppose.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 929,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[930] = {
+		param = "But you'll take responsibility for that, won't you♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 930,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[931] = {
+		param = "Are you still up, Commander?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 931,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[932] = {
+		param = "I trust you aren't staying up too late...",
+		ship_group = 20707,
+		type = 1,
+		id = 932,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I'm going to bed now."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[933] = {
+		param = "I'm going to bed now.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 933,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[934] = {
+		param = "Which means you aren't asleep.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 934,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[935] = {
+		param = "Where are you now?",
+		ship_group = 20707,
+		type = 1,
+		id = 935,
+		flag = 1,
+		option = {
+			{
+				2,
+				"In my office."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[936] = {
+		param = "In my office.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 936,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[937] = {
+		param = "I just warmed up some milk. I'll bring it over for you.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 937,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[938] = {
+		param = "After you drink it, you'd best go to your room and sleep.",
+		ship_group = 20707,
+		type = 1,
+		id = 938,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Yes, ma'am."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[939] = {
+		param = "Yes, ma'am.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 939,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[940] = {
+		param = "Don't stay up all alone every night, okay?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 940,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[941] = {
+		param = "If you must, call me.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 941,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[942] = {
+		param = "I'm sure it'll be a much better time with me around. Heehee♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 942,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[943] = {
+		param = "Commander, what if we tried milk tea for our next afternoon tea? It's all the rage lately.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 943,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[944] = {
+		param = "I'm sure you'll like it.",
+		ship_group = 20707,
+		type = 1,
+		id = 944,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I'm happy to try it."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[945] = {
+		param = "I'm happy to try it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 945,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[946] = {
+		param = "But there's something I don't understand... Milk tea is simply a way of blending something else with the tea.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 946,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[947] = {
+		param = "So why don't people like my special blend?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 947,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[948] = {
+		param = "I've been thinking about it. Do you have any ideas?",
+		ship_group = 20707,
+		type = 1,
+		id = 948,
+		flag = 1,
+		option = {
+			{
+				2,
+				"You know..."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[949] = {
+		param = "You know, the thing about a popular blend is...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 949,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[950] = {
+		param = "Every popular recipe is the result of countless failed experiments.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 950,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[951] = {
+		param = "I see. Without ample trial and error, success is ultimately a game of luck.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 951,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[952] = {
+		param = "Which means... I just need to keep trying?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 952,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[953] = {
+		param = "Understood. I'll prepare a few new recipes with milk tea.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 953,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[954] = {
+		param = "Heehee. Just you wait, Commander.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 954,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[955] = {
+		param = "Commander, what photos did you take today?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 955,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[956] = {
+		param = "Can you tell me?",
+		ship_group = 20707,
+		type = 1,
+		id = 956,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Just some casual shots..."
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[957] = {
+		param = "Just some casual shots. Flowers by the window, a bookshelf, stuff like that.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 957,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[958] = {
+		param = "Heehee. Very ordinary things, indeed.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 958,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[959] = {
+		param = "But when you photograph them...",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 959,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[960] = {
+		param = "Those scenes take on new meaning.",
+		ship_group = 20707,
+		type = 1,
+		id = 960,
+		flag = 1,
+		option = {
+			{
+				2,
+				"What kind of meaning?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[961] = {
+		param = "What kind of meaning?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 961,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[962] = {
+		param = "They're no longer just parts of a room, but scenes you once looked at.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 962,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[963] = {
+		param = "When I look at them again in the distant future, I'll be reminded of how you looked when you took the photos.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 963,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[964] = {
+		param = "Let me take a picture of you next time, too!",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 964,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[965] = {
+		param = "Because I want to capture moments worth looking back on over and over again. Heehee♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 965,
 		flag = 2
 	}
 end)()

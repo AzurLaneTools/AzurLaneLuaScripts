@@ -470,7 +470,8 @@ pg.ship_skin_words_extra.all = {
 	203070,
 	201210,
 	501030,
-	501040
+	501040,
+	101480
 }
 pg.base = pg.base or {}
 pg.base.ship_skin_words_extra = {}
@@ -32937,6 +32938,69 @@ end)()
 			{
 				1100,
 				"I'm not afraid anymore, and I'm done overthinking things... I'm ready to be with you now! So... c-could we go home together?"
+			}
+		}
+	}
+	pg.base.ship_skin_words_extra[101480] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 101480,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"That was a close call today. Having the alarm on repeat doesn't really seem to work, does it? Guess I'll have to go wake you up every morning personally, then."
+			}
+		},
+		home = {
+			{
+				1100,
+				"I arranged the office's equipment to better fit your work process while you were away. I think you'll be able to get through your work more efficiently, so give it a whirl."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"I washed up properly, so I shouldn't smell like oil or anything... Ahem!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"That's weird. Everything I build lately is stuff I think you could use... Maybe it's nothing. I'm just overthinking.|Commander, do you mind if I measure you for a minute? I just had this new idea... There! Now sit tight and look forward to it!|I forgot to put on a sock on one of my feet again... Well, that's a bit embarrassing to admit in front of you of all people... Huh? I'm fine like this?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Want a wrench or a caliper? Oh? You just wanna chill with me? Sure, that's cool."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"So not even getting your nose clipped with the caliper helps you learn your lesson, huh? I'll have to think of something more impactful then. We're going to the workshop as soon as we're back."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Lately, just being with you makes ideas flash in my mind like lightning strikes... And so, I think we need to spend even more time together!"
 			}
 		}
 	}

@@ -3646,6 +3646,11 @@ pg.skill_data_display.all = {
 	802321,
 	802335,
 	802337,
+	802341,
+	802361,
+	802362,
+	802365,
+	802367,
 	902201,
 	1010140,
 	1010143,
@@ -18856,6 +18861,26 @@ end)()
 		id = 802337,
 		name = "Ashen Might - Victorious II"
 	}
+	pg.base.skill_data_display[802341] = {
+		id = 802341,
+		name = "Super Combat Amplifier"
+	}
+	pg.base.skill_data_display[802361] = {
+		id = 802361,
+		name = "Flickering Light - Soobrazitelny I"
+	}
+	pg.base.skill_data_display[802362] = {
+		id = 802362,
+		name = "Flickering Light - Soobrazitelny II"
+	}
+	pg.base.skill_data_display[802365] = {
+		id = 802365,
+		name = "Flickering Light - Soobrazitelny I"
+	}
+	pg.base.skill_data_display[802367] = {
+		id = 802367,
+		name = "Flickering Light - Soobrazitelny II"
+	}
 	pg.base.skill_data_display[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -19068,6 +19093,8 @@ end)()
 		id = 200159,
 		name = "占坑损管LV1"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200161] = {
 		id = 200161,
 		name = "占坑损管LV2"
@@ -19088,8 +19115,6 @@ end)()
 		id = 200171,
 		name = "Core Upgrade - Covering Fire Lv.2"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200172] = {
 		id = 200172,
 		name = "Core Upgrade - Covering Fire Lv.2"
@@ -19470,6 +19495,8 @@ end)()
 		id = 200858,
 		name = "Blessing of Fire and Purity"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200866] = {
 		id = 200866,
 		name = "Blessing of Unity and Toughness"
@@ -19490,8 +19517,6 @@ end)()
 		id = 200888,
 		name = "Blessing of Joy"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200892] = {
 		id = 200892,
 		name = "Brave Charge"
@@ -19872,6 +19897,8 @@ end)()
 		id = 201688,
 		name = "VII=XIV Linkage"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201689] = {
 		id = 201689,
 		name = "Target Down"
@@ -19892,8 +19919,6 @@ end)()
 		id = 201756,
 		name = "Black Sun"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201757] = {
 		id = 201757,
 		name = "Black Sun"
@@ -20274,6 +20299,8 @@ end)()
 		id = 1012322,
 		name = "Poisonous Sting+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012323] = {
 		id = 1012323,
 		name = "Poisonous Sting+"
@@ -20294,8 +20321,6 @@ end)()
 		id = 1011491,
 		name = "Handmade Mont Blancs"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011492] = {
 		id = 1011492,
 		name = "Handmade Donuts"
@@ -20676,6 +20701,8 @@ end)()
 		id = 1012913,
 		name = "Undying Demon"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012914] = {
 		id = 1012914,
 		name = "Phoenix's Plumage!"
@@ -20696,8 +20723,6 @@ end)()
 		id = 1019262,
 		name = "Precision Salvo Protocol+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1019263] = {
 		id = 1019263,
 		name = "Precision Salvo Protocol+"
@@ -21078,6 +21103,8 @@ end)()
 		id = 1090453,
 		name = "Target Designator: Torpedo - Matchless"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090462] = {
 		id = 1090462,
 		name = "Artillery Command: Grenville"
@@ -21098,8 +21125,6 @@ end)()
 		id = 1090483,
 		name = "Pocket Battleship - Deutschland"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090484] = {
 		id = 1090484,
 		name = "Pocket Battleship - Deutschland"

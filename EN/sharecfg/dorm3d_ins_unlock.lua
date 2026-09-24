@@ -75,7 +75,21 @@ pg.dorm3d_ins_unlock.all = {
 	79902201,
 	79902202,
 	79902301,
-	79902302
+	79902302,
+	20707101,
+	20707102,
+	20707103,
+	20707104,
+	20707105,
+	20707106,
+	20707107,
+	20707108,
+	20707109,
+	20707110,
+	20707201,
+	20707202,
+	20707301,
+	20707302
 }
 pg.dorm3d_ins_unlock.get_id_list_by_type = {
 	{
@@ -130,7 +144,17 @@ pg.dorm3d_ins_unlock.get_id_list_by_type = {
 		79902107,
 		79902108,
 		79902109,
-		79902110
+		79902110,
+		20707101,
+		20707102,
+		20707103,
+		20707104,
+		20707105,
+		20707106,
+		20707107,
+		20707108,
+		20707109,
+		20707110
 	},
 	{
 		10517301,
@@ -140,7 +164,9 @@ pg.dorm3d_ins_unlock.get_id_list_by_type = {
 		49905301,
 		49905302,
 		79902301,
-		79902302
+		79902302,
+		20707301,
+		20707302
 	},
 	{
 		19,
@@ -155,7 +181,9 @@ pg.dorm3d_ins_unlock.get_id_list_by_type = {
 		49905201,
 		49905202,
 		79902201,
-		79902202
+		79902202,
+		20707201,
+		20707202
 	}
 }
 pg.base = pg.base or {}
@@ -817,6 +845,132 @@ pg.base.dorm3d_ins_unlock = {}
 		type = 2,
 		id = 79902302,
 		content = 79902302,
+		trigger_type = 101
+	}
+	pg.base.dorm3d_ins_unlock[20707101] = {
+		text = "Visit Implacable's private quarters 1 time.",
+		trigger_num = 1,
+		trigger_id = 0,
+		type = 1,
+		id = 20707101,
+		content = 20707101,
+		trigger_type = 152
+	}
+	pg.base.dorm3d_ins_unlock[20707102] = {
+		text = "Visit Implacable's private quarters over 2 days.",
+		trigger_num = 2,
+		trigger_id = 0,
+		type = 1,
+		id = 20707102,
+		content = 20707102,
+		trigger_type = 151
+	}
+	pg.base.dorm3d_ins_unlock[20707103] = {
+		text = "Visit Implacable's private quarters over 4 days.",
+		trigger_num = 4,
+		trigger_id = 0,
+		type = 1,
+		id = 20707103,
+		content = 20707103,
+		trigger_type = 151
+	}
+	pg.base.dorm3d_ins_unlock[20707104] = {
+		text = "Collect 20 items inside Implacable's private quarters.",
+		trigger_num = 20,
+		trigger_id = 0,
+		type = 1,
+		id = 20707104,
+		content = 20707104,
+		trigger_type = 153
+	}
+	pg.base.dorm3d_ins_unlock[20707105] = {
+		text = "Interact with Implacable 3 times in her private quarters.",
+		trigger_num = 3,
+		trigger_id = 0,
+		type = 1,
+		id = 20707105,
+		content = 20707105,
+		trigger_type = 156
+	}
+	pg.base.dorm3d_ins_unlock[20707106] = {
+		text = "Give Implacable 5 gifts.",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 1,
+		id = 20707106,
+		content = 20707106,
+		trigger_type = 157
+	}
+	pg.base.dorm3d_ins_unlock[20707107] = {
+		text = "Visit Implacable's private quarters over 7 days.",
+		trigger_num = 7,
+		trigger_id = 0,
+		type = 1,
+		id = 20707107,
+		content = 20707107,
+		trigger_type = 151
+	}
+	pg.base.dorm3d_ins_unlock[20707108] = {
+		text = "Talk to Implacable in her private quarters 15 times.",
+		trigger_num = 15,
+		trigger_id = 0,
+		type = 1,
+		id = 20707108,
+		content = 20707108,
+		trigger_type = 155
+	}
+	pg.base.dorm3d_ins_unlock[20707109] = {
+		text = "Interact with Implacable 5 times in her private quarters.",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 1,
+		id = 20707109,
+		content = 20707109,
+		trigger_type = 156
+	}
+	pg.base.dorm3d_ins_unlock[20707110] = {
+		text = "Give Implacable 10 gifts.",
+		trigger_num = 10,
+		trigger_id = 0,
+		type = 1,
+		id = 20707110,
+		content = 20707110,
+		trigger_type = 157
+	}
+	pg.base.dorm3d_ins_unlock[20707201] = {
+		text = "Reach Implacable Intimacy Lv. 5",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 3,
+		id = 20707201,
+		content = 20707201,
+		trigger_type = 101
+	}
+	pg.base.dorm3d_ins_unlock[20707202] = {
+		text = "Reach Implacable Intimacy Lv. 10",
+		trigger_num = 10,
+		trigger_id = 0,
+		type = 3,
+		id = 20707202,
+		content = 20707202,
+		trigger_type = 101
+	}
+	pg.base.dorm3d_ins_unlock[20707301] = {
+		text = "Visit Implacable's private quarters 1 time.",
+		trigger_num = 1,
+		trigger_id = 0,
+		type = 2,
+		id = 20707301,
+		content = 20707301,
+		trigger_type = 152
+	}
+	pg.base.dorm3d_ins_unlock[20707302] = {
+		text = "Reach Implacable Intimacy Lv. 12",
+		trigger_num = 12,
+		trigger_id = 0,
+		type = 2,
+		id = 20707302,
+		content = 20707302,
 		trigger_type = 101
 	}
 end)()

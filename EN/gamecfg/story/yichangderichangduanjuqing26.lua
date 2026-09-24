@@ -4,13 +4,14 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
+			side = 2,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 205162,
 			nameColor = "#A9F548FF",
-			say = "Lion slows down her pace as we walk past a toy store, seemingly curious about the lion plush on the display shelf.",
 			hidePaintObj = true,
-			withoutActorName = true,
-			side = 2,
-			hideRecordIco = true,
+			say = "Lion slows down her pace as we walk past a toy store, seemingly curious about the lion plush on the display shelf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,11 +19,12 @@ return {
 		},
 		{
 			expression = 7,
-			nameColor = "#A9F548FF",
-			actor = 205162,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Ahem! I'm just a little tired from all the walking.",
 			typewriter = {
 				speed = 0.05,
@@ -32,9 +34,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Why don't you take a look? Maybe you'll find something you wanna buy?",
 			typewriter = {
@@ -55,10 +58,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "That lion plush... It has a very imposing presence.",
 			typewriter = {
@@ -69,10 +73,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heheh, you've got a good eye for quality♪",
 			typewriter = {
@@ -83,10 +88,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "...I see.",
 			typewriter = {
@@ -97,10 +103,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Then I won't get anything either. Let's go.",
 			typewriter = {

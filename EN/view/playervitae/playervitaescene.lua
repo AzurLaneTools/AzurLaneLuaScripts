@@ -8,6 +8,64 @@ slot0.getUIName = function(slot0)
 	return "PlayerVitaeUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return ResPathSupport.MergeLuaArr({
+		"ui/playervitaeui",
+		"ui/share/btn_l2d_atlas",
+		"commonbg/bg_admiral",
+		"ui/shareui",
+		"ui/admiralui_atlas",
+		"ui/playervitaeshipspage"
+	}, (function ()
+		slot0 = {}
+		slot1 = getProxy(MilitaryExerciseProxy):RawGetSeasonInfo()
+		slot2 = SeasonInfo.getEmblem(slot1.score, slot1.rank)
+
+		table.insert(slot0, "emblem/" .. slot2)
+		table.insert(slot0, "emblem/n_" .. slot2)
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+		slot1 = uv0
+		slot1 = slot1:GetFlagShip()
+		slot2 = getProxy(ShipSkinProxy)
+		slot2 = slot2:GetAllSkinForShip(slot1)
+		slot3 = getProxy(ShipSkinProxy)
+
+		table.insertto(slot2, _.map(slot3:GetShareSkinsForShip(slot1), function (slot0)
+			return pg.ship_skin_template[slot0.id]
+		end))
+
+		for slot8, slot9 in ipairs(slot2) do
+			if (slot9 and slot9.painting or "unknown") ~= "unknown" then
+				table.insertto(slot0, ResPathSupport.GetPaintingListByPaintingName(slot10))
+			end
+		end
+
+		return slot0
+	end)(), (function ()
+		return {}
+	end)(), (function ()
+		slot0 = {}
+
+		for slot6, slot7 in ipairs(uv0:GetPlayer().displayTrophyList) do
+			if (slot7 > 1000000000 and LoveLetterTrophy.New({
+				id = slot7
+			}) or Trophy.New({
+				id = slot7
+			})):isLoverLetter() then
+				table.insert(slot0, slot8:GetPrefabName())
+				table.insert(slot0, "SquareIcon/" .. slot8:GetPainting())
+			else
+				table.insert(slot0, "medal/s_" .. slot8:getConfig("icon"))
+			end
+		end
+
+		return slot0
+	end)())
+end
+
 slot0.GetBGM = function(slot0)
 	slot2 = getProxy(SettingsProxy):IsBGMEnable()
 

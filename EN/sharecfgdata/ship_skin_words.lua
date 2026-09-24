@@ -4474,6 +4474,43 @@ _G.pg.base.ship_skin_words[101481] = {
 }
 
 
+_G.pg.base.ship_skin_words[101482] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Commander, where did you go? I was so worried... Ahem! I was just trying to ask you to take me along when you go on expeditions, that's all.",
+	unlock = "Commander, this VR game is super neat, isn't it? How does it feel to suddenly be shrunk down? It's quite refreshing to see the world from a new perspective, where even tiny blades of grass look like giant trees!",
+	touch2 = "I-I'll go get some tools to teach you a lesson!",
+	mission = "",
+	vote = "",
+	drop_descrip = "Commander, this VR game is super neat, isn't it? How does it feel to suddenly be shrunk down? It's quite refreshing to see the world from a new perspective, where even tiny blades of grass look like giant trees!",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "We're just holding hands and taking a stroll, but I feel this pure joy and peace that's hard for me to quantify. Is this what love is like? Commander, let me study this feeling just a little longer!",
+	main = "Shh... Commander, I heard something... Oh crud! It's the frogs croaking! We need to make ourselves scarce!|The veins on the leaves look so clear under the sun... So this is how the world looks from the perspective of smaller beings, huh? If I was actually able to shrink down to this size, I wonder if it'd be easier to build machines at the nano-level...|It looks like rain is coming down! Come inside... Err, it's a bit of a tight fit, isn't it? Mind if I hold you a little closer?",
+	touch = "Ah, I was about to fall into that puddle. Thank you for pulling me back.",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 101482,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Just because I'm smaller doesn't mean my brain got smaller, you know?",
+	feeling2 = "",
+	login = "Today's objective is... Ah, Commander! I was just drawing up today's survey plan. Wanna take a look?",
+	detail = "",
+	couple_encourage = {}
+}
+
+
 _G.pg.base.ship_skin_words[101490] = {
 	hp_warning = "Zoinks! Don't put out my light!",
 	feeling3 = "If that'll be all, do you mind if I go for a stroll around port? ...Awesome! Come along, Data 857!",
@@ -27156,6 +27193,43 @@ _G.pg.base.ship_skin_words[202333] = {
 	feeling2 = "",
 	login = "If you want to receive my judgment, then I'm more than happy to oblige. I'll even do it over and over until you're satisfied with the result... Heehee.",
 	detail = "This outfit is very different from what I typically wear. The style of the Nile, I suppose... Master, I noticed you staring. Don't avert your eyes now.",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[202338] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Welcome back, my beloved Master. You spent a fair amount of time away today... I'm afraid that won't do. We agreed you would leave your schedule to me, remember?",
+	unlock = "You've finally awakened, Master? While you were sleeping, I took it upon myself to prepare the ceremony of eternal bliss. Now, Commander, come to my bosom. Today, you and I shall be the happiest people in the whole world~♪",
+	touch2 = "Leave everything to me, my beloved Master. I'll take care of it all for you♡",
+	mission = "",
+	vote = "",
+	drop_descrip = "You've finally awakened, Master? While you were sleeping, I took it upon myself to prepare the ceremony of eternal bliss. Now, Commander, come to my bosom. Today, you and I shall be the happiest people in the whole world~♪",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "Master, we're to exchange vows now. Look into my eyes and speak the words, would you kindly? My full gaze, my heart, and my very future belong to you alone. I love you, and I will keep loving you evermore.",
+	main = "Mwah... Your lips taste a little different compared to when you're asleep. I do like this taste much better, heheh♡|There's no one else here, Master. Just lie down and forget about everything else. Look into my eyes now♪|Heheh, you look so adorably defenseless when you're asleep. And I love the slightly troubled face you make when I change your clothes. It truly speaks to how deep you put your trust in me♡",
+	touch = "My beloved, hold me in your arms for just a little longer. If you ever happen to let go of me... I'll just have to find a ribbon to tie ourselves together♪",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 202338,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Heheh♡ Master, such a modest show of affection won't satisfy me. You need to at least do this... Mwah.",
+	feeling2 = "",
+	login = "What time is it, you ask? Heh, this is hardly the time to worry about work, Master. We need to cherish every second together. Just you and me, enjoying our sweet time♪",
+	detail = "I gathered all the petals adorning the bed from the garden myself. I imbued each and every one of them with a simple wish. And finally, it has come true... I finally got you in my grasp, Master.♪",
 	couple_encourage = {}
 }
 
@@ -51464,6 +51538,43 @@ _G.pg.base.ship_skin_words[305132] = {
 }
 
 
+_G.pg.base.ship_skin_words[305138] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "With my Commander watching, I won't lose to anyone!",
+	home = "Oh, Commander, over here! Today's not just a usual hookup – we're gonna experience somethin' really special, right? So I packed in every bit of romance I could think of. All you gotta do is stand by me!",
+	unlock = "*sigh*... Just thinkin' about bein' with ya at the wedding hall has me so giddy I can't get a wink o' shut-eye... Ugh, how childish am I? Well, guess we're already like two peas in a pod anyway, so maybe it's fine to act like a girly girl once in a while~♪",
+	touch2 = "Whoa! C-Commander... I get the beach has the right atmosphere for this... But let's do this in private, 'kay?♪",
+	mission = "",
+	vote = "",
+	drop_descrip = "*sigh*... Just thinkin' about bein' with ya at the wedding hall has me so giddy I can't get a wink o' shut-eye... Ugh, how childish am I? Well, guess we're already like two peas in a pod anyway, so maybe it's fine to act like a girly girl once in a while~♪",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "Commander, I love you! I finally said it... You wanna hear it again? I'll say it a million times! If you want, I'll say it for the rest of our lives! Commander, I loooove you!",
+	main = "Mm... I can't really wrap my head around like, complicated schedules and stuff. I'll leave all that stuff to you! Yeah! You're all I need to think about!|Who put all these flowers here? It's me! Duh! Yeah, asking someone to do it would be easier, but some things only really mean anything when you do 'em yourself, right?|Are a thousand flowers enough to explain how happy we are? Well, if that's not enough, we can plant more together!",
+	touch = "You wanna hold hands and take a stroll down the beach? I'm totes down for that! Let's go, like, now♪",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 305138,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Awrighty, Commander, how about we press our foreheads together and have a staring contest? Whoever cracks up first loses~",
+	feeling2 = "",
+	login = "Commander, look at my hands! Ahaha, that's your \"love ya heart\" for the day~ You didn't get enough? Awright, I guess I have to satisfy your desires in another way♪",
+	detail = "Feels nice being surrounded by all these pretty flowers. What flower do you think is the prettiest, Commander? Hah, that answer was kinda cheating, but I totally liked it. Ahaha♪",
+	couple_encourage = {}
+}
+
+
 _G.pg.base.ship_skin_words[305140] = {
 	hp_warning = "Oh, for crying out loud! Just my luck!",
 	feeling3 = "P-please! Offer your concern to other girls instead of me! You really don't need to constantly check how I'm doing just because I'm serving as your secretary!",
@@ -54553,6 +54664,43 @@ _G.pg.base.ship_skin_words[307085] = {
 	headtouch = "Mmnh, do you love this place? This one feels your ecstasy...",
 	feeling2 = "",
 	login = "By sharing this liquor, we allow our senses to mingle, our minds to meld... Ah, it is too wonderful for words...",
+	detail = "",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[307088] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Spring is fleeting as the blossoms that bloom and scatter... I am truly happy that you are here when the wisteria flowers are in full bloom... Come sit by my side so that we may commit this scenery to memory.",
+	unlock = "In the season when wisteria flowers in full bloom, you, my destined one, shall come before me, and we shall exchange a vow unto eternity... I have witnessed this dreamlike scene countless times, and now, at last, it has become reality...",
+	touch2 = "Finally, the loneliness in my bosom... has been filled once and for all.",
+	mission = "",
+	vote = "",
+	drop_descrip = "In the season when wisteria flowers in full bloom, you, my destined one, shall come before me, and we shall exchange a vow unto eternity... I have witnessed this dreamlike scene countless times, and now, at last, it has become reality...",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "To bloom fully and fade in the blink of an eye is a flower's lot... Such is the natural order of all life, fated to go back from whence we came. But no matter how fleeting our existence may be or how inconsequential our lives are, I wish to stay by your side... for as long as I draw breath.",
+	main = "This gentle sunlight is perfect for a little break... You have worked incredibly hard today, so you deserve a moment to lay down your burdens. Now rest your weary head and slip into a lovely sleep with me...|Every day spent by your side, watching the passing of the seasons together... There is simply no greater joy in life for me.|This suits me well, you say? Ah, how could I ever change out of this after receiving such praise from my beloved?|The moon rises and dips into the horizon, just as fate in constant flux. This world is riddled with crossroads we all must face, but even so, I haven't doubted for a moment that I would one day be in your arms... And now, the winding roads of destiny have brought us together, and the vow to spend our lives together has finally come true.",
+	touch = "Come closer... I am fully yours, with no reservations...",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 307088,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Mmh... My ear... Even at a solemn time like this, you still tease me so...",
+	feeling2 = "",
+	login = "Up until just now, I had no way to know if you, my destined one, would appear before me just as I saw you in my dreams... But now, I can feel the warmth of your hand on mine... Ah... Are you quite sure this is not yet another sweet dream?",
 	detail = "",
 	couple_encourage = {}
 }
@@ -93313,6 +93461,43 @@ _G.pg.base.ship_skin_words[9701120] = {
 	feeling2 = "Light will shine on your path, whether you want it to or not. I will continue my investigations regardless of whether you choose to join me.",
 	login = "Ah, Commander. Hmm... It seems you've gotten yourself caught up in yet another tricky story. But don't worry, I'm good at sorting out trouble... and I love listening to stories, too.",
 	detail = "Like a moth drawn to a lamp's light... If you're ever lost in the dark, I'll use this lamp to find you, Commander.",
+	couple_encourage = {}
+}
+
+
+_G.pg.base.ship_skin_words[9701130] = {
+	hp_warning = "Kuh... Times like these put machines to the test...!",
+	feeling3 = "You're always welcome at my workshop, Comrade Commander. The best time to visit would be when I'm testing out a new mech, of course. You'll get to see the moment a giant mech takes its first step... It'll be breathtaking!",
+	mail = "You got mail♪ These must be the alloy sheets I ordered the other day! Now I can get to work!",
+	expedition = "Mm? The commission team's back! Mmhm! Maybe some of their haul will be useful when I do maintenance on my mechs...",
+	win_mvp = "Hahahah! That, right there, is what you call the power of sheer mass!",
+	home = "Oh! They're back! Commander, I just built this mega-sized rest pod! What say you, Commander? Shall we give it a try?",
+	unlock = "Comrade Commander! I, the mechanical mastermind, have arrived with my army of machines! ...Huh? They wouldn't fit inside the office? That's no problem at all – we can just knock down the walls! Plus, I can always build you an even bigger office!",
+	touch2 = "Whoaaa?! W-wait... Shouldn't we start by discussing the appeal of giant machines, and escalate from there...? ///",
+	mission = "A new mission! Comrade Commander, how about we take this genius mechanic's latest masterpiece for a spin?!",
+	vote = "",
+	drop_descrip = "Comrade Commander! I, the mechanical mastermind, have arrived with my army of machines! ...Huh? They wouldn't fit inside the office? That's no problem at all – we can just knock down the walls! Plus, I can always build you an even bigger office!",
+	feeling4 = "Comrade Commander! I built a new giant mech! I've optimized its shock absorbers, so it should be much more stable to pilot than the last one! Let's test it together sometime!",
+	lose = "Why...? Wasn't it big enough to beat them? I know! I'll just have to build an even bigger machine that will crush through!",
+	feeling1 = "I can always fix a broken machine, but even I can't help you if you don't learn from your mistakes, Comrade Commander...",
+	skill = "Just watch! I'll hit you with a massive one!",
+	upgrade = "Oooh, this surging power...! I need to build an even bigger mech!",
+	propose = "Comrade Commander, is this... for me? O-ooh... Wait, let me wipe this machine oil off my face... I'm usually one for big things, but this little trinket is nice too... Actually, no, it's amazing! Better than any of my huge creations! Uh, for now... Please put it on my finger!",
+	feeling5 = "Hmm... With me working on machines all the time, these rigs are taking up a lot of space... But in my heart, your presence in my life is bigger than any part, Comrade Commander! ...Huh? That didn't come out quite right... Anyway, I just wanted you to know that!",
+	main = "Small parts definitely have their uses, but it's giant mechs that tickle my mechanic's heart!|Why do people always assume that huge mechs have to be slow and clunky? With a strong enough power source... A mech could even deflect a meteor falling out of the sky!|That rumbling noise you just heard was me testing the Mecha Barricade Breaker! It's true what they say: the louder your machine, the better it performs!",
+	touch = "Hahahah! Now do you see the charm of my massive machines?! ...Huh? It's me you want to touch?",
+	voice_key_2 = -1,
+	mission_complete = "Phew, mission complete! Thanks to this big guy right here, it was easy-peasy! Hahahah!",
+	battle = "Are you prepared to be crushed, you tiny peons?",
+	id = 9701130,
+	gift_dislike = "",
+	gift_prefer = "Oooh... That's the kind of present a genius mechanic loves! Hahahah!",
+	profile = "I am the genius mechanic, Soobrazitelny META! Forget tinkering with little machines, making massive mechs is the only thing that satisfies me! Massive steel behemoths that trample the enemy lines underfoot and dominate the battlefields are true justice!",
+	voice_key = 970113,
+	headtouch = "Mm? You're curious about my goggles? Well, they're equipped with computing abilities, and... Mm? Good work? Th-this is easy as pie for a genius mechanic such as myself!",
+	feeling2 = "See how that cog revolves slowly? Just looking at it makes you feel its heavy, powerful presence... You can feel it too, Comrade Commander, right?",
+	login = "Oh, Comrade Commander! I was just thinking about testing this absolutely stunning mech design at the test site! What say you, Commander? Want to watch? ...A test application? I'll do that later!",
+	detail = "See, Comrade Commander?! This gear has a diameter of two meters! This bearing is thicker than my arm?! The moment it starts up, it'll no doubt rattle the entire port...! Mmhm! Now that's a machine!",
 	couple_encourage = {}
 }
 

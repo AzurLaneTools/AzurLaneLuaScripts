@@ -4,13 +4,14 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
+			side = 2,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 317031,
 			nameColor = "#A9F548FF",
-			say = "I-14 usually stays holed up in her room without interacting with others.",
 			hidePaintObj = true,
-			withoutActorName = true,
-			side = 2,
-			hideRecordIco = true,
+			say = "I-14 usually stays holed up in her room without interacting with others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,10 +19,11 @@ return {
 		},
 		{
 			actor = 317031,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "Commander... You're here.",
 			typewriter = {
 				speed = 0.05,
@@ -29,11 +31,12 @@ return {
 			}
 		},
 		{
-			actor = 317031,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 317031,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Is there anything you want from me?",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +54,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 317031,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "My thoughts?",
 			typewriter = {
 				speed = 0.05,
@@ -66,10 +70,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "I don't know... Where should I begin?",
 			typewriter = {
@@ -78,12 +83,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 317031,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Food... I'm not that hungry...",
 			typewriter = {
 				speed = 0.05,
@@ -93,10 +99,11 @@ return {
 		{
 			expression = 11,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "But thank you for thinking about me.",
 			typewriter = {

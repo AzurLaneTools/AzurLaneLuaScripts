@@ -4,6 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
@@ -24,12 +25,13 @@ return {
 			}
 		},
 		{
-			actor = 304090,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "Welcome back, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +44,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "Things have gotten so much more interesting since our last meeting, don't you think?",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +59,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "I was a little surprised that you were able to gather this much support, I must admit.",
 			typewriter = {
 				speed = 0.05,
@@ -65,9 +69,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			say = "Azuchi spreads her fan open. Not a second later, she's disappeared into thin air.",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +85,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "It's a shame, though. Your efforts have changed nothing.",
 			typewriter = {
 				speed = 0.05,

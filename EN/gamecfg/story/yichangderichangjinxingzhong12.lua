@@ -7,6 +7,7 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -30,6 +31,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -44,12 +46,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 307053,
+			NextIcon = 1,
 			say = "Excuse me, kind traveler.",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +65,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "Would you be so kind as to offer shelter to a crane stranded by this blizzard?",
 			typewriter = {
 				speed = 0.05,
@@ -71,6 +75,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -89,6 +94,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -105,8 +111,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "Heehee, so you saw right through my ruse.",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +126,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "I thought I'd be able to fool you a bit longer with this outfit.",
 			typewriter = {
 				speed = 0.05,
@@ -128,6 +136,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -147,8 +156,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "And yes. I'm performing a story called \"The Crane's Gratitude\"~♪",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +171,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "In the legend, a rescued crane secretly weaves a beautiful brocade to present to her savior.",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +186,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "I may not know how to weave fabrics, but I certainly can weave sweet dreams for you with my flute's melody. Will you stay and listen for a spell?",
 			typewriter = {
 				speed = 0.05,
@@ -188,6 +200,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -199,6 +212,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -213,6 +227,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -227,6 +242,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -245,6 +261,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -261,8 +278,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "Heehee. How could I credibly ask for shelter if I did not feel the bite of the cold at all?",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +293,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "This is just my way of showing you my gratitude. And it may be a little selfish of me to ask... but you don't think less of me for this, do you?",
 			typewriter = {
 				speed = 0.05,
@@ -284,6 +303,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -303,8 +323,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "...Does my pain make your heart ache?",
 			typewriter = {
 				speed = 0.05,
@@ -316,6 +337,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -327,6 +349,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -346,8 +369,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "Mmh, your hands are so warm, my savior♪",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +384,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "But while my hands are warm now, there's another spot that's still rather chilly.",
 			typewriter = {
 				speed = 0.05,
@@ -373,6 +398,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307053,
@@ -389,8 +415,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "Right here♪",
 			typewriter = {
 				speed = 0.05,
@@ -398,6 +425,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -412,6 +440,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,
@@ -431,8 +460,9 @@ return {
 			bgName = "star_level_bg_153",
 			spine = true,
 			dir = 1,
-			actor = 307053,
 			nameColor = "#A9F548FF",
+			actor = 307053,
+			NextIcon = 1,
 			say = "The night is still young. You can look forward to my gratitude even more... And in so many ways too♪",
 			typewriter = {
 				speed = 0.05,
@@ -440,6 +470,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
 			spine = true,

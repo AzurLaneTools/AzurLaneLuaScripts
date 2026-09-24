@@ -7,12 +7,14 @@ slot0.getUIName = function(slot0)
 	return "NewSkinUI"
 end
 
-slot0.preload = function(slot0, slot1)
-	slot3 = pg.ship_skin_template[slot0.contextData.skinId]
-	slot7 = nil
-	slot7 = (not slot3.bg_sp or slot3.bg_sp == "" or slot3.bg_sp) and (slot3.bg and #slot3.bg > 0 and slot3.bg or slot3.rarity_bg and #slot3.rarity_bg > 0 and slot3.rarity_bg)
+slot0.getResource = function(slot0)
+	return table.insertto({
+		ShipSkin.GetBgPrint(slot0.contextData.skinId)
+	}, uv0.super.getResource(slot0))
+end
 
-	GetSpriteFromAtlasAsync(slot7 and "bg/star_level_bg_" .. slot7 or "newshipbg/bg_" .. shipRarity2bgPrint(pg.ship_data_statistics[slot3.ship_group * 10 + 1].rarity, ShipGroup.IsBluePrintGroup(slot4), ShipGroup.IsMetaGroup(slot4)), "", slot1)
+slot0.preload = function(slot0, slot1)
+	GetSpriteFromAtlasAsync(ShipSkin.GetBgPrint(slot0.contextData.skinId), "", slot1)
 end
 
 slot0.init = function(slot0)

@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "Commander, don't go into the bath alone. No matter what.",
 			typewriter = {
 				speed = 0.05,
@@ -16,11 +17,12 @@ return {
 			}
 		},
 		{
-			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 201191,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "It'd be really bad if you lost track of time and got dizzy, so...",
 			typewriter = {
 				speed = 0.05,
@@ -40,10 +42,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 201191,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "True enough. If I stay by your side and protect you at all times, you can bathe safely.",
 			typewriter = {
@@ -54,10 +57,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 201191,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "And so, I'll go together with you.",
 			typewriter = {
@@ -66,12 +70,13 @@ return {
 			}
 		},
 		{
-			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 201191,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "You can't let your guard down even during a shower.",
 			typewriter = {
 				speed = 0.05,
@@ -79,12 +84,13 @@ return {
 			}
 		},
 		{
-			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 201191,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "It'd be dangerous if you slipped and hit your head.",
 			typewriter = {
 				speed = 0.05,
@@ -92,12 +98,13 @@ return {
 			}
 		},
 		{
-			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 201191,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "So just to be safe, I'll wait outside the bathroom.",
 			typewriter = {
 				speed = 0.05,

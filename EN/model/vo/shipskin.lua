@@ -510,4 +510,18 @@ slot0.GetStoreChangeSkinPrefsName = function(...)
 	}, "_"))
 end
 
+slot0.GetBgPrint = function(slot0, slot1)
+	slot2 = pg.ship_skin_template[slot0]
+	slot3 = ShipGroup.getDefaultShipConfig(slot2.ship_group)
+	slot4 = nil
+
+	if noEmptyStr(slot2.bg_sp) or noEmptyStr(slot2.bg) or noEmptyStr(slot2.rarity_bg) then
+		slot4 = "bg/star_level_bg_" .. slot4
+	elseif not slot1 then
+		slot4 = "newshipbg/bg_" .. shipRarity2bgPrint(slot3.rarity, ShipGroup.IsBluePrintGroup(groupId), ShipGroup.IsMetaGroup(groupId))
+	end
+
+	return slot4
+end
+
 return slot0

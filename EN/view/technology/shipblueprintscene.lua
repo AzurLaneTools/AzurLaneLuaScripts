@@ -570,7 +570,7 @@ slot0.createShipItem = function(slot0, slot1)
 					end
 				end)
 
-				slot3 = {
+				slot4 = {
 					tip = false,
 					pursuing = slot1:isPursuing(),
 					fate = slot1:canFateSimulation()
@@ -592,18 +592,18 @@ slot0.createShipItem = function(slot0, slot1)
 					end
 				})
 				setText(slot0.count, slot2.count > 999 and "999+" or slot2.count)
-				setActive(slot0.count:Find("icon"), not slot3.pursuing)
-				setActive(slot0.count:Find("icon_2"), slot3.pursuing)
+				setActive(slot0.count:Find("icon"), not slot4.pursuing)
+				setActive(slot0.count:Find("icon_2"), slot4.pursuing)
 				setText(slot0.state:Find("dev/Text"), slot0.shipBluePrintVO.level)
 
-				if slot3.fate then
+				if slot4.fate then
 					GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "icon_phase_" .. slot0.shipBluePrintVO.fateLevel, slot0.state:Find("fate/Image"), true)
 				end
 
 				eachChild(slot0.state, function (slot0)
 					setActive(slot0, slot0.name == uv0.state)
 				end)
-				setActive(slot0.tip, slot3.tip)
+				setActive(slot0.tip, slot4.tip)
 
 				return
 			end
@@ -742,39 +742,95 @@ slot0.filterBlueprints = function(slot0)
 	}))
 end
 
-slot0.setSelectedBluePrint = function(slot0)
-	assert(slot0.contextData.shipBluePrintVO, "should exist blue print")
-	slot0:updateInfo()
-	slot0:updatePainting()
-	slot0:updateProperty()
+slot0.getSelectedBluePrintResList = function(slot0, slot1)
+	slot3 = slot1:getShipVO():getPainting()
+	slot4 = slot1:getTaskIds()
 
-	slot2 = slot0.contextData.shipBluePrintVO:isUnlock()
+	table.insert({}, "painting/" .. slot3)
 
-	setActive(slot0.taskListPanel, not slot2)
-	setActive(slot0.attrDisableBtn, not slot2)
+	if checkABExist("painting/" .. slot3 .. "_blueprint") then
+		table.insert(slot2, "painting/" .. slot3 .. "_blueprint")
+	end
 
-	if slot2 then
-		if not slot1:canFateSimulation() or not pg.NewStoryMgr.GetInstance():IsPlayed(slot1:getConfig("luck_story")) then
-			slot0.isFate = false
+	if PLATFORM_CODE == PLATFORM_CH then
+		if checkABExist("painting/" .. slot3 .. "_hx") then
+			table.insert(slot2, "painting/" .. slot3 .. "_hx")
 		end
 
-		slot0:updateMod()
-		slot0:updatePhantomQuest()
-	else
-		slot0.isFate = false
+		if checkABExist("painting/" .. slot3 .. "n_hx") then
+			table.insert(slot2, "painting/" .. slot3 .. "n_hx")
+		end
 
-		slot0:updateTaskList()
-		triggerToggle(slot0.initBtn, true)
+		if checkABExist("painting/" .. slot3 .. "n") then
+			table.insert(slot2, "painting/" .. slot3 .. "n")
+		end
 	end
 
-	setActive(slot0.phantomPanel, slot2 and slot0.isPhantom)
-	setActive(slot0.fittingPanel, slot2 and slot0.isFate)
-	setActive(slot0.modPanel, slot2 and not slot0.isFate and not slot0.isPhantom)
-	setActive(slot0.itemUnlockBtn, not slot2 and slot1:getUnlockItem())
+	if slot1:canFateSimulation() then
+		for slot8 = 1, slot1:getMaxFateLevel() do
+			if slot1:getFateStrengthenConfig(slot8) and slot9.special == 1 and type(slot9.special_effect) == "table" then
+				for slot13, slot14 in ipairs(slot9.special_effect) do
+					if slot14[1] == ShipBluePrint.STRENGTHEN_TYPE_CHANGE_SKILL then
+						if slot14[2][2] then
+							table.insert(slot2, "tecfateskillicon/skill_" .. slot15)
+							table.insert(slot2, "tecfateskillicon/skill_on_" .. slot15)
+						end
 
-	if slot1:isDeving() then
-		slot0:emit(ShipBluePrintMediator.ON_CHECK_TAKES, slot1.id)
+						break
+					end
+				end
+			end
+		end
 	end
+
+	return slot2
+end
+
+slot0.downloadSelectedBluePrintResList = function(slot0, slot1, slot2)
+	SplitPackConst.DownloadByLuaArr(slot0:getSelectedBluePrintResList(slot1), function ()
+		if uv0.exited then
+			return
+		end
+
+		uv1()
+	end)
+end
+
+slot0.setSelectedBluePrint = function(slot0)
+	assert(slot0.contextData.shipBluePrintVO, "should exist blue print")
+	slot0:downloadSelectedBluePrintResList(slot0.contextData.shipBluePrintVO, function ()
+		uv0:updateInfo()
+		uv0:updatePainting()
+		uv0:updateProperty()
+
+		slot0 = uv1:isUnlock()
+
+		setActive(uv0.taskListPanel, not slot0)
+		setActive(uv0.attrDisableBtn, not slot0)
+
+		if slot0 then
+			if not uv1:canFateSimulation() or not pg.NewStoryMgr.GetInstance():IsPlayed(uv1:getConfig("luck_story")) then
+				uv0.isFate = false
+			end
+
+			uv0:updateMod()
+			uv0:updatePhantomQuest()
+		else
+			uv0.isFate = false
+
+			uv0:updateTaskList()
+			triggerToggle(uv0.initBtn, true)
+		end
+
+		setActive(uv0.phantomPanel, slot0 and uv0.isPhantom)
+		setActive(uv0.fittingPanel, slot0 and uv0.isFate)
+		setActive(uv0.modPanel, slot0 and not uv0.isFate and not uv0.isPhantom)
+		setActive(uv0.itemUnlockBtn, not slot0 and uv1:getUnlockItem())
+
+		if uv1:isDeving() then
+			uv0:emit(ShipBluePrintMediator.ON_CHECK_TAKES, uv1.id)
+		end
+	end)
 end
 
 slot0.updateMod = function(slot0)
@@ -2408,6 +2464,49 @@ slot0.onBackPressed = function(slot0)
 			slot0:emit(uv0.ON_BACK_PRESSED)
 		end
 	end
+end
+
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/shipblueprintui_atlas",
+		"shipdesignicon/empty",
+		"shiptype",
+		"ui/fateStartWindow"
+	}
+
+	for slot6, slot7 in pairs(uv0.all) do
+		slot8 = uv0[slot7]
+		slot10 = tonumber(slot8.id .. "1")
+		slot11 = nil
+
+		if pg.ship_skin_template[tonumber(slot8.id .. "0")] then
+			slot11 = pg.ship_skin_template[slot9].painting
+		end
+
+		if slot11 then
+			if not table.contains(slot2, "shipdesignicon/" .. slot11) then
+				table.insert(slot2, "shipdesignicon/" .. slot11)
+			end
+
+			if checkABExist("shipdesignicon/" .. slot11 .. "_hx") and not table.contains(slot2, "shipdesignicon/" .. slot11 .. "_hx") then
+				table.insert(slot2, "shipdesignicon/" .. slot11 .. "_hx")
+			end
+
+			if not table.contains(slot2, "shipYardIcon/" .. slot11) then
+				table.insert(slot2, "shipYardIcon/" .. slot11)
+			end
+		end
+
+		if pg.ship_data_template[slot10] and pg.ship_data_template[slot10].buff_list_display then
+			for slot16, slot17 in ipairs(slot12) do
+				if getSkillConfig(slot17) and not table.contains(slot2, "skillicon/" .. slot18.icon) then
+					table.insert(slot2, slot19)
+				end
+			end
+		end
+	end
+
+	return table.insertto(slot2, uv1.super.getResource(slot0, slot1))
 end
 
 slot0.willExit = function(slot0)

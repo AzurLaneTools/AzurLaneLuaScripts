@@ -424,7 +424,33 @@ pg.dorm3d_ik_status.all = {
 	710420,
 	710421,
 	710430,
-	710440
+	710440,
+	800110,
+	800120,
+	800130,
+	800210,
+	800220,
+	800230,
+	800310,
+	800320,
+	800330,
+	800410,
+	800420,
+	800430,
+	800440,
+	810110,
+	810120,
+	810130,
+	810210,
+	810220,
+	810230,
+	810310,
+	810320,
+	810330,
+	810410,
+	810420,
+	810430,
+	810440
 }
 pg.dorm3d_ik_status.get_id_list_by_camera_group = {
 	{
@@ -1174,6 +1200,48 @@ pg.dorm3d_ik_status.get_id_list_by_camera_group = {
 	},
 	[71043] = {
 		710421
+	},
+	[80010] = {
+		800110,
+		800120,
+		800130
+	},
+	[80020] = {
+		800210,
+		800220,
+		800230
+	},
+	[80030] = {
+		800310,
+		800320,
+		800330
+	},
+	[80040] = {
+		800410,
+		800420,
+		800430,
+		800440
+	},
+	[81010] = {
+		810110,
+		810120,
+		810130
+	},
+	[81020] = {
+		810210,
+		810220,
+		810230
+	},
+	[81030] = {
+		810310,
+		810320,
+		810330
+	},
+	[81040] = {
+		810410,
+		810420,
+		810430,
+		810440
 	}
 }
 pg.dorm3d_ik_status.get_id_list_by_base = {
@@ -2012,6 +2080,56 @@ pg.dorm3d_ik_status.get_id_list_by_base = {
 	[700440] = {
 		700440,
 		710440
+	},
+	[800110] = {
+		800110,
+		810110
+	},
+	[800120] = {
+		800120,
+		810120
+	},
+	[800130] = {
+		800130,
+		810130
+	},
+	[800210] = {
+		800210,
+		810210
+	},
+	[800220] = {
+		800220,
+		810220
+	},
+	[800230] = {
+		800230,
+		810230
+	},
+	[800310] = {
+		800310,
+		810310
+	},
+	[800320] = {
+		800320,
+		810320
+	},
+	[800330] = {
+		800330,
+		810330
+	},
+	[800410] = {
+		800410,
+		810410
+	},
+	[800420] = {
+		800420,
+		810420
+	},
+	[800430] = {
+		800430,
+		800440,
+		810430,
+		810440
 	}
 }
 pg.base = pg.base or {}
@@ -38049,6 +38167,1234 @@ end)()
 			{
 				3005,
 				"vfx_desk02_idle02"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800110] = {
+		ik_camera = "Cam800110",
+		character_action = "IK_bed01_idle01",
+		base = 800110,
+		camera_group = 80010,
+		skin_id = 207071,
+		character_position = "Pos800110",
+		id = 800110,
+		character_id = 20707,
+		ik_id = {
+			{
+				80011000,
+				0,
+				{
+					4,
+					0.3,
+					220201
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800120] = {
+		ik_camera = "Cam800120",
+		character_action = "IK_bed01_idle01",
+		base = 800120,
+		camera_group = 80010,
+		skin_id = 207071,
+		character_position = "Pos800120",
+		id = 800120,
+		character_id = 20707,
+		ik_id = {
+			{
+				80012000,
+				0,
+				{
+					4,
+					0.3,
+					220202
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800130] = {
+		ik_camera = "Cam800130",
+		character_action = "IK_bed01_idle01",
+		base = 800130,
+		camera_group = 80010,
+		skin_id = 207071,
+		character_position = "Pos800130",
+		id = 800130,
+		character_id = 20707,
+		ik_id = {},
+		touch_data = {
+			{
+				8001001,
+				0,
+				{
+					4,
+					0.3,
+					220203
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800210] = {
+		ik_camera = "Cam800210",
+		character_action = "IK_desk01_idle01",
+		base = 800210,
+		camera_group = 80020,
+		skin_id = 207071,
+		character_position = "Pos800210",
+		id = 800210,
+		character_id = 20707,
+		ik_id = {
+			{
+				80021000,
+				0,
+				{
+					4,
+					0.3,
+					220204
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800220] = {
+		ik_camera = "Cam800220",
+		character_action = "IK_desk01_idle01",
+		base = 800220,
+		camera_group = 80020,
+		skin_id = 207071,
+		character_position = "Pos800220",
+		id = 800220,
+		character_id = 20707,
+		ik_id = {
+			{
+				80022000,
+				0,
+				{
+					4,
+					0.3,
+					220205
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800230] = {
+		ik_camera = "Cam800230",
+		character_action = "IK_desk01_idle01",
+		base = 800230,
+		camera_group = 80020,
+		skin_id = 207071,
+		character_position = "Pos800230",
+		id = 800230,
+		character_id = 20707,
+		ik_id = {
+			{
+				80023000,
+				0,
+				{
+					4,
+					0.3,
+					220206
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800310] = {
+		ik_camera = "Cam800320",
+		character_action = "IK_living01_idle01",
+		base = 800310,
+		camera_group = 80030,
+		skin_id = 207071,
+		character_position = "Pos800320",
+		id = 800310,
+		character_id = 20707,
+		ik_id = {
+			{
+				80032000,
+				0,
+				{
+					4,
+					0.3,
+					220208
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				4001,
+				"IK_living01_idle01_shafa"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800320] = {
+		ik_camera = "Cam800310",
+		character_action = "IK_living01_idle01",
+		base = 800320,
+		camera_group = 80030,
+		skin_id = 207071,
+		character_position = "Pos800310",
+		id = 800320,
+		character_id = 20707,
+		ik_id = {
+			{
+				80031000,
+				0,
+				{
+					4,
+					0.3,
+					220207
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				4001,
+				"IK_living01_idle01_shafa"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800330] = {
+		ik_camera = "Cam800330",
+		character_action = "IK_living01_idle01",
+		base = 800330,
+		camera_group = 80030,
+		skin_id = 207071,
+		character_position = "Pos800330",
+		id = 800330,
+		character_id = 20707,
+		ik_id = {
+			{
+				80033000,
+				0,
+				{
+					4,
+					0.3,
+					220209
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				4001,
+				"IK_living01_idle01_shafa"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800410] = {
+		ik_camera = "Cam800410",
+		character_action = "IK_desk02_idle01",
+		base = 800410,
+		camera_group = 80040,
+		skin_id = 207071,
+		character_position = "Pos800410",
+		id = 800410,
+		character_id = 20707,
+		ik_id = {
+			{
+				80041000,
+				0,
+				{
+					4,
+					0.3,
+					220220
+				}
+			},
+			{
+				80041001,
+				0,
+				{
+					4,
+					0.3,
+					220221
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.3
+		},
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle01-MYZ"
+			},
+			{
+				4003,
+				"vfx_bomb02_idle1"
+			},
+			{
+				4004,
+				"vfx_bomb02_idle2"
+			},
+			{
+				4006,
+				"vfx_moping01_idle"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800420] = {
+		ik_camera = "Cam800420",
+		character_action = "IK_desk02_idle01",
+		base = 800420,
+		camera_group = 80040,
+		skin_id = 207071,
+		character_position = "Pos800420",
+		id = 800420,
+		character_id = 20707,
+		ik_id = {},
+		touch_data = {
+			{
+				8001002,
+				0,
+				{
+					4,
+					0.3,
+					220222
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.3
+		},
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle01-MYZ"
+			},
+			{
+				4003,
+				"vfx_bomb02_idle1"
+			},
+			{
+				4004,
+				"vfx_bomb02_idle2"
+			},
+			{
+				4006,
+				"vfx_moping01_idle"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800430] = {
+		ik_camera = "Cam800430",
+		character_action = "IK_desk02_idle02",
+		base = 800430,
+		camera_group = 80040,
+		skin_id = 207071,
+		character_position = "Pos800430",
+		id = 800430,
+		character_id = 20707,
+		ik_id = {
+			{
+				80043000,
+				0,
+				{
+					4,
+					0.3,
+					220223
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle02-MYZ"
+			},
+			{
+				4005,
+				"vfx_bomb_g_idle2"
+			},
+			{
+				4007,
+				"vfx_bomb03_idle"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[800440] = {
+		ik_camera = "Cam800440",
+		character_action = "IK_desk02_idle02",
+		base = 800430,
+		camera_group = 80040,
+		skin_id = 207071,
+		character_position = "Pos800440",
+		id = 800440,
+		character_id = 20707,
+		ik_id = {
+			{
+				80044000,
+				0,
+				{
+					4,
+					0.3,
+					220224
+				}
+			},
+			{
+				80044001,
+				0,
+				{
+					4,
+					0.3,
+					220225
+				}
+			},
+			{
+				80044002,
+				0,
+				{
+					4,
+					0.3,
+					220226
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			0,
+			0,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle02-MYZ"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810110] = {
+		ik_camera = "Cam800110",
+		character_action = "IK_bed01_idle01",
+		base = 800110,
+		camera_group = 81010,
+		skin_id = 207073,
+		character_position = "Pos800110",
+		id = 810110,
+		character_id = 20707,
+		ik_id = {
+			{
+				81011000,
+				0,
+				{
+					4,
+					0.3,
+					220201
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810120] = {
+		ik_camera = "Cam800120",
+		character_action = "IK_bed01_idle01",
+		base = 800120,
+		camera_group = 81010,
+		skin_id = 207073,
+		character_position = "Pos800120",
+		id = 810120,
+		character_id = 20707,
+		ik_id = {
+			{
+				81012000,
+				0,
+				{
+					4,
+					0.3,
+					220202
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810130] = {
+		ik_camera = "Cam800130",
+		character_action = "IK_bed01_idle01",
+		base = 800130,
+		camera_group = 81010,
+		skin_id = 207073,
+		character_position = "Pos800130",
+		id = 810130,
+		character_id = 20707,
+		ik_id = {},
+		touch_data = {
+			{
+				8001001,
+				0,
+				{
+					4,
+					0.3,
+					220203
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810210] = {
+		ik_camera = "Cam800210",
+		character_action = "IK_desk01_idle01",
+		base = 800210,
+		camera_group = 81020,
+		skin_id = 207073,
+		character_position = "Pos800210",
+		id = 810210,
+		character_id = 20707,
+		ik_id = {
+			{
+				81021000,
+				0,
+				{
+					4,
+					0.3,
+					220204
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810220] = {
+		ik_camera = "Cam800220",
+		character_action = "IK_desk01_idle01",
+		base = 800220,
+		camera_group = 81020,
+		skin_id = 207073,
+		character_position = "Pos800220",
+		id = 810220,
+		character_id = 20707,
+		ik_id = {
+			{
+				81022000,
+				0,
+				{
+					4,
+					0.3,
+					220205
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810230] = {
+		ik_camera = "Cam800230",
+		character_action = "IK_desk01_idle01",
+		base = 800230,
+		camera_group = 81020,
+		skin_id = 207073,
+		character_position = "Pos800230",
+		id = 810230,
+		character_id = 20707,
+		ik_id = {
+			{
+				81023000,
+				0,
+				{
+					4,
+					0.3,
+					220206
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.1,
+			0.2
+		},
+		enter_scene_anim = {},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810310] = {
+		ik_camera = "Cam800320",
+		character_action = "IK_living01_idle01",
+		base = 800310,
+		camera_group = 81030,
+		skin_id = 207073,
+		character_position = "Pos800320",
+		id = 810310,
+		character_id = 20707,
+		ik_id = {
+			{
+				81032000,
+				0,
+				{
+					4,
+					0.3,
+					220208
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				4001,
+				"IK_living01_idle01_shafa"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810320] = {
+		ik_camera = "Cam800310",
+		character_action = "IK_living01_idle01",
+		base = 800320,
+		camera_group = 81030,
+		skin_id = 207073,
+		character_position = "Pos800310",
+		id = 810320,
+		character_id = 20707,
+		ik_id = {
+			{
+				81031000,
+				0,
+				{
+					4,
+					0.3,
+					220207
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				4001,
+				"IK_living01_idle01_shafa"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810330] = {
+		ik_camera = "Cam800330",
+		character_action = "IK_living01_idle01",
+		base = 800330,
+		camera_group = 81030,
+		skin_id = 207073,
+		character_position = "Pos800330",
+		id = 810330,
+		character_id = 20707,
+		ik_id = {
+			{
+				81033000,
+				0,
+				{
+					4,
+					0.3,
+					220209
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				4001,
+				"IK_living01_idle01_shafa"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810410] = {
+		ik_camera = "Cam800410",
+		character_action = "IK_desk02_idle01",
+		base = 800410,
+		camera_group = 81040,
+		skin_id = 207073,
+		character_position = "Pos800410",
+		id = 810410,
+		character_id = 20707,
+		ik_id = {
+			{
+				81041000,
+				0,
+				{
+					4,
+					0.3,
+					220220
+				}
+			},
+			{
+				81041001,
+				0,
+				{
+					4,
+					0.3,
+					220221
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.3
+		},
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle01-MYZ"
+			},
+			{
+				4003,
+				"vfx_bomb02_idle1"
+			},
+			{
+				4004,
+				"vfx_bomb02_idle2"
+			},
+			{
+				4006,
+				"vfx_moping01_idle"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810420] = {
+		ik_camera = "Cam800420",
+		character_action = "IK_desk02_idle01",
+		base = 800420,
+		camera_group = 81040,
+		skin_id = 207073,
+		character_position = "Pos800420",
+		id = 810420,
+		character_id = 20707,
+		ik_id = {},
+		touch_data = {
+			{
+				8001002,
+				0,
+				{
+					4,
+					0.3,
+					220222
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.3
+		},
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle01-MYZ"
+			},
+			{
+				4003,
+				"vfx_bomb02_idle1"
+			},
+			{
+				4004,
+				"vfx_bomb02_idle2"
+			},
+			{
+				4006,
+				"vfx_moping01_idle"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810430] = {
+		ik_camera = "Cam810430",
+		character_action = "IK_desk02_idle02",
+		base = 800430,
+		camera_group = 81040,
+		skin_id = 207073,
+		character_position = "Pos800430",
+		id = 810430,
+		character_id = 20707,
+		ik_id = {
+			{
+				81043000,
+				0,
+				{
+					4,
+					0.3,
+					220223
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle02-MYZ"
+			},
+			{
+				4005,
+				"vfx_bomb_g_idle2"
+			},
+			{
+				4007,
+				"vfx_bomb03_idle"
+			}
+		},
+		enter_extra_item = {},
+		hide_scene_item = {}
+	}
+	pg.base.dorm3d_ik_status[810440] = {
+		ik_camera = "Cam800440",
+		character_action = "IK_desk02_idle02",
+		base = 800430,
+		camera_group = 81040,
+		skin_id = 207073,
+		character_position = "Pos800440",
+		id = 810440,
+		character_id = 20707,
+		ik_id = {
+			{
+				81044000,
+				0,
+				{
+					4,
+					0.3,
+					220224
+				}
+			},
+			{
+				81044001,
+				0,
+				{
+					4,
+					0.3,
+					220225
+				}
+			},
+			{
+				81044002,
+				0,
+				{
+					4,
+					0.3,
+					220226
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			0,
+			0,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {
+			{
+				4002,
+				"IK_desk02_idle02-MYZ"
 			}
 		},
 		enter_extra_item = {},

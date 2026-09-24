@@ -215,6 +215,30 @@ pg.dorm3d_collection_template.all = {
 	2123,
 	2124,
 	2125,
+	2201,
+	2202,
+	2203,
+	2204,
+	2205,
+	2206,
+	2207,
+	2208,
+	2209,
+	2210,
+	2211,
+	2212,
+	2213,
+	2214,
+	2215,
+	2216,
+	2217,
+	2218,
+	2219,
+	2220,
+	2221,
+	2222,
+	2223,
+	2225,
 	2601,
 	2602,
 	2603,
@@ -455,6 +479,32 @@ pg.dorm3d_collection_template.get_id_list_by_room_id = {
 		2123,
 		2124,
 		2125
+	},
+	[22] = {
+		2201,
+		2202,
+		2203,
+		2204,
+		2205,
+		2206,
+		2207,
+		2208,
+		2209,
+		2210,
+		2211,
+		2212,
+		2213,
+		2214,
+		2215,
+		2216,
+		2217,
+		2218,
+		2219,
+		2220,
+		2221,
+		2222,
+		2223,
+		2225
 	},
 	[26] = {
 		2601,
@@ -4903,6 +4953,510 @@ end)()
 		},
 		vfx_prefab = {
 			"fbx/litmap_03/day/pre_db_bed06_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2201] = {
+		name = "Rest Station",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "This set of one table and two matching stools is perfect for brief rest and quiet conversation.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2201,
+		icon = "3Ddrom_yuanchou_item1",
+		model = {
+			"fbx/litmap_01/pre_db_table23a"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_table23a/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2202] = {
+		name = "Floral Planter",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "Foliage unfurls from this ceramic vessel, adding a splash of vibrancy to the room.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2202,
+		icon = "3Ddrom_yuanchou_item2",
+		model = {
+			"fbx/litmap_01/pre_db_flowers17_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers17_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2203] = {
+		name = "Gilded Pedestal Plate",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "A pedestal plate adorned with a gilded trim. It is said that form follows function, but elegance can easily serve as both.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2203,
+		icon = "3Ddrom_yuanchou_item3",
+		model = {
+			"fbx/litmap_01/pre_db_tableware58"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_tableware58/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2204] = {
+		name = "Night-Hued Lamp",
+		award = 0,
+		time = 2,
+		room_id = 22,
+		desc = "An exquisitely detailed desk lamp that doubles as an elegant decorative feature.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2204,
+		icon = "3Ddrom_yuanchou_item4",
+		model = {
+			"fbx/litmap_01/night/pre_db_desklamp12_on"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_desklamp12_on/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2205] = {
+		name = "Scenic Picture Frame",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "A beautifully framed architectural scene invites the viewer to imagine distant worlds.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2205,
+		icon = "3Ddrom_yuanchou_item5",
+		model = {
+			"fbx/litmap_01/pre_db_billboard38_02"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard38_02/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2206] = {
+		name = "Candlestick",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "This simple candlestick accentuates its candle's soft light, adding a touch of serenity.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2206,
+		icon = "3Ddrom_yuanchou_item6",
+		model = {
+			"fbx/litmap_01/pre_db_decoration26_01_on"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration26_01_on/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2207] = {
+		name = "Quiet Fountain",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "One low, but expansive water feature is enough to cool the surrounding air.",
+		text = "dorm3d_yuanchou_table",
+		id = 2207,
+		icon = "3Ddrom_yuanchou_item7",
+		model = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2208] = {
+		name = "Corridor Cabinet",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "A cabinet that serves both storage and display purposes. It keeps the corner tidy while making the area feel welcoming.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2208,
+		icon = "3Ddrom_yuanchou_item8",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard49"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard49/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2209] = {
+		name = "Matching Ceramics",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "Two ceramic vessels, one tall and one short. Their simple, complementary silhouettes exude a timeless charm.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2209,
+		icon = "3Ddrom_yuanchou_item9",
+		model = {
+			"fbx/litmap_01/pre_db_decoration39"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration39/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2210] = {
+		name = "Cushioned Bench",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "A bench topped with a soft cushion. It's a great place to take a breather.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2210,
+		icon = "3Ddrom_yuanchou_item10",
+		model = {
+			"fbx/litmap_01/pre_db_chair39a_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_chair39a_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2211] = {
+		name = "High Stool",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "This slender, lightweight stool can be used as a display stand, naturally drawing attention to whatever rests on it.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2211,
+		icon = "3Ddrom_yuanchou_item11",
+		model = {
+			"fbx/litmap_01/pre_db_frame31_1"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_frame31_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2212] = {
+		name = "Thick Bench",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "This substantial bench exudes calm stability, grounding the space and creating a sense of security.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2212,
+		icon = "3Ddrom_yuanchou_item12",
+		model = {
+			"fbx/litmap_01/pre_db_chair39"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_chair39/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2213] = {
+		name = "Manjuu Statue",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "A manjuu statue sits atop a pedestal, its familiar form bringing a smile to your face.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2213,
+		icon = "3Ddrom_yuanchou_item13",
+		model = {
+			"fbx/litmap_01/pre_db_yuanchou_sculptures01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_yuanchou_sculptures01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2214] = {
+		name = "Fireplace and Mantelpiece",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "The fireplace provides warmth, while the mantelpiece offers a place to display decorations. Together, they form a practical centerpiece.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2214,
+		icon = "3Ddrom_yuanchou_item14",
+		model = {
+			"fbx/litmap_01/pre_db_fireplace04"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_fireplace04/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2215] = {
+		name = "White Porcelain Vases",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "Two vases of different sizes stand side by side, a harmonious yet dynamic duo.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2215,
+		icon = "3Ddrom_yuanchou_item15",
+		model = {
+			"fbx/litmap_01/pre_db_ceram30a"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_ceram30a/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2216] = {
+		name = "Glass-Doored Cabinet",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "A four-door display cabinet. Despite its solid wood construction, the glass doors lend it a sense of lightness and openness.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2216,
+		icon = "3Ddrom_yuanchou_item16",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard50"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard50/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2217] = {
+		name = "Accent Cabinet",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "An accent cabinet sits along the wall of the corridor, providing discreet yet reliable storage.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2217,
+		icon = "3Ddrom_yuanchou_item17",
+		model = {
+			"fbx/litmap_01/pre_db_table27"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_table27/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2218] = {
+		name = "Long-Necked Gold Pot",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "An ornate metal pot with a strikingly long neck exudes an air of refined elegance.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2218,
+		icon = "3Ddrom_yuanchou_item18",
+		model = {
+			"fbx/litmap_01/pre_db_decoration22_1"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration22_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2219] = {
+		name = "Compote Dish",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "This shallow dish is both practical and decorative, lending extra charm to the presentation of snacks or refreshments.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2219,
+		icon = "3Ddrom_yuanchou_item19",
+		model = {
+			"fbx/litmap_01/pre_db_decoration37b"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration37b/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2220] = {
+		name = "Round-Framed Wall Art",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "The world within is gently wreathed in warm gold, giving off an aura of perfect placidity.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2220,
+		icon = "3Ddrom_yuanchou_item20",
+		model = {
+			"fbx/litmap_01/pre_db_billboard49_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard49_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2221] = {
+		name = "Dark Wood Chest",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "A classic chest of drawers offers a convenient spot for storing assorted objects.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2221,
+		icon = "3Ddrom_yuanchou_item21",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard35"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard35/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2222] = {
+		name = "Soft-Hued Floor Lamp",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "This lamp both illuminates the room and warms its atmosphere.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2222,
+		icon = "3Ddrom_yuanchou_item22",
+		model = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2223] = {
+		name = "Wall-Mounted Candlestick",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "Firmly affixed to the wall, this candlestick casts a warm glow while adding decorative flair.",
+		text = "dorm3d_yuanchou_table",
+		id = 2223,
+		icon = "3Ddrom_yuanchou_item23",
+		model = {
+			"fbx/litmap_01/day/pre_db_walllamp03b_1"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/day/pre_db_walllamp03b_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2225] = {
+		name = "Two-Drawer Chest",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "An understated but reliable chest. It keeps things organized and looks good doing it.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2225,
+		icon = "3Ddrom_yuanchou_item25",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard51"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard51/vfx_wupintishi01"
 		}
 	}
 	pg.base.dorm3d_collection_template[2601] = {

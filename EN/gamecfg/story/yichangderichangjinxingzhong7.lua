@@ -7,10 +7,11 @@ return {
 	},
 	scripts = {
 		{
-			bgName = "bg_story_room",
+			NextIcon = 1,
 			side = 2,
-			bgm = "story-newsakura",
+			bgName = "bg_story_room",
 			withoutActorName = true,
+			bgm = "story-newsakura",
 			hideRecordIco = true,
 			actor = 307162,
 			nameColor = "#A9F548FF",
@@ -31,6 +32,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -48,9 +50,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Good day, Commander.",
 			typewriter = {
@@ -62,9 +65,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Do forgive me for interrupting your relaxation on such an important day.",
 			typewriter = {
@@ -76,6 +80,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -91,9 +96,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Heheh, no need to look so flustered.",
 			typewriter = {
@@ -105,9 +111,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Are you familiar with the legend of fox weddings?",
 			typewriter = {
@@ -119,6 +126,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -131,12 +139,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = "headtouch",
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = "headtouch",
 			say = "Legends say that when a fox gets married, it'll rain even if the sky is clear.",
 			typewriter = {
 				speed = 0.05,
@@ -144,12 +153,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "What's more, it's not real rain. It's a veil to hide things from people's view.",
 			typewriter = {
 				speed = 0.05,
@@ -160,9 +170,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "The rain ensures the soon-to-be-married fox bride is not seen or disturbed by anyone... just like me right now.",
 			typewriter = {
@@ -171,6 +182,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -188,9 +200,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "main3",
 			say = "So yes. Don't you think this clear weather rain signifies the heavens might be urging me?",
 			typewriter = {
@@ -202,6 +215,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -217,9 +231,10 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Shh...",
 			typewriter = {
@@ -228,6 +243,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -245,9 +261,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "The San-San-Kudo ritual is a vital part of the wedding ceremony.",
 			typewriter = {
@@ -256,6 +273,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -270,6 +288,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -287,9 +306,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "And that's the first ceremony of the fox wedding completed without issue.",
 			typewriter = {
@@ -301,6 +321,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_room",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 307162,
@@ -313,12 +334,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "Yes.",
 			typewriter = {
 				speed = 0.05,
@@ -329,9 +351,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "touch",
 			say = "This is a marriage ceremony. It'd be a bit underwhelming if it were to end so quickly.",
 			typewriter = {
@@ -340,6 +363,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -354,12 +378,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "For this, I'd like you to show me.",
 			typewriter = {
 				speed = 0.05,
@@ -370,9 +395,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Show me if I truly dwell somewhere in your heart.",
 			typewriter = {
@@ -381,6 +407,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -395,6 +422,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -412,9 +440,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Heheh, no need to look so troubled.",
 			typewriter = {
@@ -426,9 +455,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "I just want to make sure that you're not planning to run away from this rain.",
 			typewriter = {
@@ -437,6 +467,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -451,12 +482,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = true,
 			say = "Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -467,9 +499,10 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "I'm quite determined to sway your heart and get all your attention today♪",
 			typewriter = {
@@ -478,6 +511,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -492,12 +526,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_room",
-			live2d = "touch2",
-			dir = 1,
 			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			live2d = "touch2",
 			say = "Come closer, if you would.",
 			typewriter = {
 				speed = 0.05,
@@ -508,9 +543,10 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Just a little is fine. But please, leave your mark on me today.",
 			typewriter = {
@@ -519,6 +555,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
@@ -536,9 +573,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "The incense I burned for you is smoldering already.",
 			typewriter = {
@@ -550,9 +588,10 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "If you wish it so, today's rain will go on for longer... Yes, it'll remain for as long as we need this veil...",
 			typewriter = {

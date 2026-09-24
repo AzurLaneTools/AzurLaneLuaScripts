@@ -4,6 +4,48 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dInstagramUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/instagramui_atlas"
+	}
+
+	slot4 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot5 = function(slot0, slot1)
+		if noEmptyStr(slot1) then
+			uv0(slot0 .. slot1)
+		end
+	end
+
+	slot6 = function(slot0)
+		slot1 = ipairs
+		slot2 = slot0 or {}
+
+		for slot4, slot5 in slot1(slot2) do
+			uv0("qicon/", slot5:GetIcon())
+
+			if slot5.GetReplyedList then
+				uv1(slot5:GetReplyedList())
+			end
+		end
+	end
+
+	slot7 = getProxy(Dorm3dInsProxy):GetInstagramList((slot1 or slot0.contextData or {}).apartmentGroupId) or {}
+
+	for slot11, slot12 in ipairs(slot7) do
+		slot5("dorm3dins/", slot12:GetPicture())
+		slot5("dorm3dins/", slot12:GetBackground())
+		slot5("qicon/", slot12:GetIcon())
+		slot6(slot12:GetReplyedList())
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.GetInstagramList = function(slot0)
 	slot1 = slot0.contextData.apartmentGroupId
 

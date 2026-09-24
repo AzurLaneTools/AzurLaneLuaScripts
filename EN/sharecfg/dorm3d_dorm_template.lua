@@ -9,7 +9,8 @@ pg.dorm3d_dorm_template.all = {
 	10517,
 	30707,
 	49905,
-	79902
+	79902,
+	20707
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_dorm_template = {}
@@ -69,6 +70,14 @@ pg.base.dorm3d_dorm_template = {}
 		bind_room = 21,
 		asset_name = "Naximofu_DB",
 		id = 79902,
+		default_appellation = "Commander"
+	}
+	pg.base.dorm3d_dorm_template[20707] = {
+		skin_model = 207071,
+		name = "Implacable",
+		bind_room = 22,
+		asset_name = "Yuanchou_DB",
+		id = 20707,
 		default_appellation = "Commander"
 	}
 end)()

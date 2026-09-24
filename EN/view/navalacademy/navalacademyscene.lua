@@ -7,6 +7,23 @@ slot0.getUIName = function(slot0)
 	end)[1]] and slot3.pic] and slot5.resource_path or "NavalAcademyUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+		"ui/xueyuan02",
+		"ui/resourcefieldui_atlas"
+	}, (function ()
+		slot0 = {}
+
+		for slot5, slot6 in ipairs(pg.activity_banner.get_id_list_by_type[GAMEUI_BANNER_13]) do
+			slot8 = pg.activity_banner[slot6] and slot7.pic
+
+			table.insert(slot0, "ui/" .. (slot7 and slot7.resource_path or "NavalAcademyUI"))
+		end
+
+		return slot0
+	end)(), NavalAcademyShipsView.GetCharResList())
+end
+
 slot0.ResUISettings = function(slot0)
 	return true
 end

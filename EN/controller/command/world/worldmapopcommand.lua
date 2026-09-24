@@ -113,7 +113,7 @@ slot0.BuildFleetMove = function(slot0, slot1, slot2)
 		table.insert(slot3, slot4)
 	end
 
-	slot2.path = _.rest(slot1, 1)
+	slot2.path = underscore.to_array(slot1)
 	slot2.childOps = slot3
 end
 

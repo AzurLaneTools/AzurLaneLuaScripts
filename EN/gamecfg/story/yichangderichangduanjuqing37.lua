@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "Commander, the elevator suddenly got stuck, and the door won't open.",
 			typewriter = {
 				speed = 0.05,
@@ -16,11 +17,12 @@ return {
 			}
 		},
 		{
-			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "What should I do?",
 			typewriter = {
 				speed = 0.05,
@@ -40,10 +42,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "All right. I'll be waiting for you~",
 			typewriter = {
@@ -54,10 +57,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "I'm so relieved to know you're coming. I'll be waiting right here~♥",
 			typewriter = {
@@ -66,12 +70,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I think that kind of company's been obsolete for at least a decade now...",
 			typewriter = {
 				speed = 0.05,
@@ -79,12 +84,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I'll think of some other way to get out of here.",
 			typewriter = {
 				speed = 0.05,

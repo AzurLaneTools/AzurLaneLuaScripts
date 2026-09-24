@@ -55,11 +55,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "Ordinary Rear Service Personnel",
 			side = 2,
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			actor = 317030,
-			actorName = "Ordinary Rear Service Personnel",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "\"Today, I arrived at New Era City No. 5.\"",
 			typewriter = {
@@ -93,8 +94,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_495",
 			nameColor = "#A9F548FF",
-			actor = 317030,
 			actorName = "Ordinary Rear Service Personnel",
+			actor = 317030,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "\"Once upon a time, the people of this city were replete with goals, plans, and vision. If they could only secure capital, they would consider their life a success.\"",
 			typewriter = {
@@ -103,10 +105,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "Hakuhou watched the city quietly from high above.",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +122,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heehee... How interesting.",
 			typewriter = {
@@ -129,12 +133,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "I thought that pulling out that one flimsy pillar would turn this place into utter chaos.",
 			typewriter = {
@@ -148,8 +153,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "How efficient they are, erecting a new framework so swiftly.",
 			typewriter = {
@@ -163,8 +169,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "You don't seem too worried about the fact that people are assembling a resistance force.",
 			typewriter = {
@@ -173,12 +180,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Of course not. I'm curious about them. Is this only a temporary facade of strength? Or do they really have what it takes to escape this mess?",
 			typewriter = {
@@ -192,8 +200,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "After all, temporarily regaining control is one thing – holding onto it is very different.",
 			typewriter = {

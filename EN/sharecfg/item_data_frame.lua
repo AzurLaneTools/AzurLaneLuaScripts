@@ -106,6 +106,8 @@ pg.item_data_frame.all = {
 	1012,
 	1013,
 	1014,
+	1015,
+	1016,
 	10001,
 	10002,
 	10003,
@@ -1043,6 +1045,24 @@ end)()
 		desc = "<color=#ffffff>Paw prints and cat tail have appeared in the data stream! It's a hyperspace kitty's greeting.</color>\nCan be obtained by raising Admiral Nakhimov's Intimacy in the Private Quarters.",
 		scene = {}
 	}
+	pg.base.item_data_frame[1015] = {
+		name = "Cytisus Wreath",
+		gain_by = "",
+		time_second = 0,
+		id = 1015,
+		time_limit_type = 0,
+		desc = "Dark ribbon winds through golden blossoms. Slender stems curve like fingers joined in morning prayer.\nCan be obtained by raising Implacable's Intimacy in the Private Quarters.",
+		scene = {}
+	}
+	pg.base.item_data_frame[1016] = {
+		name = "Ethereal Glow",
+		gain_by = "",
+		time_second = 0,
+		id = 1016,
+		time_limit_type = 0,
+		desc = "Rays from the rose window scatter amidst the shadows, blending light and dark in perfect harmony beneath the vaulted ceiling.\nCan be obtained by raising Implacable's Intimacy in the Private Quarters.",
+		scene = {}
+	}
 	pg.base.item_data_frame[10001] = {
 		name = "Extreme Challenge - Gemini",
 		gain_by = "",
@@ -1094,7 +1114,7 @@ end)()
 		time_second = 0,
 		id = 10006,
 		time_limit_type = 0,
-		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Scorpio. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 11/1/23 - 11/30/23 Season.",
+		desc = "<color=#ffffff>Paw prints and cat tail have appeared in the data stream! It's a hyperspace kitty's greeting.</color>\nCan be obtained by raising Admiral Nakhimov's Intimacy in the Private Quarters.",
 		scene = {}
 	}
 	pg.base.item_data_frame[10007] = {

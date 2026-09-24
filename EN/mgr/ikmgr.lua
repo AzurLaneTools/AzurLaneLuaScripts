@@ -6,6 +6,7 @@ slot0.Ctor = function(slot0)
 	slot0.activeIKLayers = {}
 	slot0.holdingStatus = {}
 	slot0.cacheIKInfos = {}
+	slot0.moveCallback = nil
 end
 
 slot0.RegisterEnv = function(slot0, slot1, slot2)
@@ -345,11 +346,7 @@ slot0.ResetIK = function(slot0, slot1)
 
 	slot0.holdingStatus[slot2] = nil
 
-	if slot0.moveTimer then
-		slot0.moveTimer:Stop()
-
-		slot0.moveTimer = nil
-	end
+	slot0:CancelMove(true)
 end
 
 slot0.ResetIKLayers = function(slot0, slot1)
@@ -402,11 +399,7 @@ slot0.ResetAllIKLayers = function(slot0)
 	slot0.ikHandler = nil
 	slot0.ikRevertHandler = nil
 
-	if slot0.moveTimer then
-		slot0.moveTimer:Stop()
-
-		slot0.moveTimer = nil
-	end
+	slot0:CancelMove(true)
 end
 
 slot0.ResetActiveIKs = function(slot0)
@@ -414,12 +407,7 @@ slot0.ResetActiveIKs = function(slot0)
 	table.clear(slot0.holdingStatus)
 	slot0:ResetIKLayers(slot0.activeIKLayers)
 	table.clear(slot0.activeIKLayers)
-
-	if slot0.moveTimer then
-		slot0.moveTimer:Stop()
-
-		slot0.moveTimer = nil
-	end
+	slot0:CancelMove(true)
 end
 
 slot0.PlayIKAction = function(slot0, slot1)
@@ -437,11 +425,7 @@ slot0.PlayIKAction = function(slot0, slot1)
 end
 
 slot0.PlayIKMove = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	if slot0.moveTimer then
-		slot0.moveTimer:Stop()
-
-		slot0.moveTimer = nil
-	end
+	slot0:CancelMove(true)
 
 	slot0.ikRevertHandler = nil
 
@@ -465,23 +449,26 @@ slot0.PlayIKMove = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot8 = Time.time + slot5
 	slot9 = slot1
 	slot10 = slot0.ikHandler.originScreenPosition + slot0.ikHandler.rect:NormalizedToPoint(slot3) * slot4
+	slot0.moveCallback = slot6
 
 	slot11 = function()
 		if not uv0.ikHandler or uv1 < Time.time then
+			uv0.moveTimer = nil
+			slot1 = uv0.moveCallback
+			uv0.moveCallback = nil
+
 			uv0:ReleaseDrag()
 
 			if uv0.moveTimer then
-				uv0.moveTimer:Stop()
-
-				uv0.moveTimer = nil
+				slot0:Stop()
 			end
 
-			existCall(uv2)
+			existCall(slot1, false)
 
 			return
 		end
 
-		slot1 = Vector2.Lerp(uv4, uv5, math.max(0, uv1 - Time.time) / uv3)
+		slot1 = Vector2.Lerp(uv3, uv4, math.max(0, uv1 - Time.time) / uv2)
 		slot3 = pg.UIMgr.GetInstance().uiCamera:Find("Canvas").rect
 
 		uv0:HandleBodyDrag(Vector2.New(slot1.x / slot3.width * Screen.width, slot1.y / slot3.height * Screen.height))
@@ -491,6 +478,18 @@ slot0.PlayIKMove = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 	slot0.moveTimer:Start()
 	slot11()
+end
+
+slot0.CancelMove = function(slot0, slot1)
+	slot0.moveTimer = nil
+
+	if slot0.moveTimer then
+		slot2:Stop()
+	end
+
+	slot0.moveCallback = nil
+
+	existCall(slot0.moveCallback, slot1)
 end
 
 slot0.TransformMesh = function(slot0)

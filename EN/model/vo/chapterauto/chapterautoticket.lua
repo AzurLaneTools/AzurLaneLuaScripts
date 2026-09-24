@@ -4,6 +4,11 @@ slot0.TYPE = {
 	WORLD = 2,
 	MAIN = 1
 }
+slot0.GET_SHOW_ID = {
+	[slot0.TYPE.MAIN] = 68710,
+	[slot0.TYPE.TIME] = 68711,
+	[slot0.TYPE.WORLD] = 68712
+}
 slot0.FOREVER_TIME = 4294967295.0
 
 slot0.Ctor = function(slot0, slot1)
@@ -39,6 +44,14 @@ end
 
 slot0.ReduceCount = function(slot0, slot1)
 	slot0.count = math.max(0, slot0.count - slot1)
+end
+
+slot0.GetDrop = function(slot0)
+	return Drop.New({
+		count = 0,
+		type = DROP_TYPE_VITEM,
+		id = uv0.GET_SHOW_ID[slot0]
+	})
 end
 
 slot0.CreateByItem = function(slot0, slot1)

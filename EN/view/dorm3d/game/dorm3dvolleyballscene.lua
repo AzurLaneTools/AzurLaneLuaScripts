@@ -44,6 +44,17 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dVolleyballUI"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2 = slot0.contextData.groupId
+	slot7 = pg.dorm3d_volleyball[slot2].scene_name
+
+	table.insert(slot1, string.lower("dorm3d/scenesres/scenes/" .. "beach" .. "/" .. "map_beach_01" .. "_scene"))
+	table.insert(slot1, string.lower("dorm3d/character/" .. pg.dorm3d_dorm_template[slot2].asset_name .. "/timeline/" .. slot7 .. "/" .. slot7 .. "_scene"))
+
+	return slot1
+end
+
 slot9 = nil
 
 slot0.Ctor = function(slot0, ...)

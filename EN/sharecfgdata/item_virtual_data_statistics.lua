@@ -175705,6 +175705,33 @@ _G.pg.base.item_virtual_data_statistics[65120] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65121] = {
+	drop_gold_max = 0,
+	name = "Progress Point",
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign, used to obtain milestone rewards. Will disappear after the campaign season ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7031,
+	drop_arg = "",
+	album_config = "",
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65121,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "Stellar Resistance Medal",
@@ -190047,6 +190074,36 @@ _G.pg.base.item_virtual_data_statistics[68710] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[68712] = {
+	drop_gold_max = 0,
+	name = "Handover Permit (Operation Siren)",
+	display = "不会被看见",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/weituozuozhan",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 32,
+	id = 68712,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	drop_arg = {
+		"month",
+		0
+	}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68755] = {
 	drop_gold_max = 0,
 	name = "Returnee Points",
@@ -201161,7 +201218,57 @@ You will obtain one of the following random skins (duplicate skins will be conve
 _G.pg.base.item_virtual_data_statistics[86231] = {
 	drop_gold_max = 0,
 	name = "Random Skin",
-	display = "不会被看到",
+	display = [[
+You will obtain one of the following random skins (duplicate skins will be converted into a corresponding sum of Gems). The available skins are as follows: Admiral Zenker - Fun with…Interrogations? (L2D)
+ U-552 - Special Sightseeing Service
+ Z13 - Strategic Date Solution (L2D)
+ Azuma - Career Counseling for the Groom (L2D)
+ Impero - Drunken Drowsy Dreamer
+ U-37 - Keeping Peace in the Streets
+ Neptune - Officer Bunneptune Is on the Case!
+ Chao Ho - Azure Ripples, Shimmering Sun (Dynamic)
+ Queen Anne's Revenge - Call of the Creeping Embrace (L2D)
+ Pearl - Fallen Angel in the Dark Castle (L2D+)
+ Lyme - Corrupting Trap (Dynamic)
+ Royal James - The Forbidden Slurp
+ Adventure - Master of the Safe House (Dynamic)
+ Izumo - Tail-Stirred Cocktail (Dynamic)
+ Kronshtadt - Animal Agent (Dynamic)
+ Harutsuki - Little Steamy Sprite
+ Lexington II - The Fluffiest of Maids (L2D)
+ William D. Porter - The Daredevil's Maidly Service
+ Cowpens - Milky Ministrations (L2D)
+ Clarence K. Bronson - Special Functional Testing
+ Pasadena - Surprising Game (Dynamic)
+ Birmingham - Briar Maid
+ Bismarck Zwei - Bathed in Brightness and Spirit (Dynamic)
+ Guichen - Milk and Kisses (Dynamic)
+ Otto von Alvensleben - The Clumsy Maid is in a Bind! (Dynamic)
+ Kuybyshev - Rainy Day Blues
+ Gouden Leeuw - An Intimate Cleaning (L2D+)
+ Kansas - Late-Night Leisure (Dynamic)
+ Mecklenburg - Branding Witchcraft (L2D+)
+ Dmitri Donskoi - Bedside Bunny
+ Vittorio Cuniberti - On the Habits of Cats
+ Prinz Eugen - Between Tipsiness and a Wager (L2D+)
+ Francesco Caracciolo - Confession Under the Spotlight (Dynamic)
+ Alberto di Giussano - A Magnificent Mistake
+ Ugolino Vivaldi - An Unexpected Catch!
+ Fujinami - Secret Fashion Show For You
+ Takao - Inner Cultivation (L2D+)
+ Shimakaze - The Unmoving Rabbit
+ Alabama - Through Your Lens, My Everything (Dynamic)
+ Chien Wu - All-Nighter Masterpiece (Dynamic)
+ Masséna - Sweetly Intoxicating Spring (L2D)
+ Bois Belleau - Steamy Therapy (L2D+)
+ Duquesne - Wetness of a Crimson Night
+ Le Hardi - Sticky Situation
+ Duguay-Trouin - Covetous Bathgoer (Dynamic)
+ Noshiro - A Dip in the Moonlight (Dynamic)
+ Helena - Basking in the Cypress' Warmth (Dynamic)
+ Denver - Steam Dream
+ Anchorage - Sweet Evening Milk (L2D+)
+ Enterprise - Bathing Under Sunny Skies (L2D) ]],
 	type = 98,
 	is_world = 0,
 	shop_id = -1,

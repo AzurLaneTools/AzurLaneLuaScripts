@@ -18,7 +18,9 @@ pg.dorm3d_camera_photo_frame.all = {
 	1012,
 	1013,
 	1014,
-	1015
+	1015,
+	1016,
+	1017
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_camera_photo_frame = {}
@@ -317,6 +319,46 @@ pg.base.dorm3d_camera_photo_frame = {}
 		unlock = {
 			1,
 			79902,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_camera_photo_frame[1016] = {
+		name = "Gateway to the Past",
+		rarity = 3,
+		farme_path = "photo_drawframe",
+		frameTfName = "DrawFrame",
+		desc = "Unlocks the Gateway to the Past frame for the camera feature.",
+		unlock_text = "Reach Implacable Intimacy Lv. 5",
+		id = 1016,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_drawframe_small",
+		unlock = {
+			1,
+			20707,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_camera_photo_frame[1017] = {
+		name = "Undeveloped Film",
+		rarity = 3,
+		farme_path = "photo_Film2Frame",
+		frameTfName = "Film2Frame",
+		desc = "Unlocks the Undeveloped Film frame for the camera feature.",
+		unlock_text = "Reach Implacable Intimacy Lv. 13",
+		id = 1017,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_Film2Frame_small",
+		unlock = {
+			1,
+			20707,
 			13
 		},
 		watermark_location = {

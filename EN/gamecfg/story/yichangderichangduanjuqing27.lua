@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "That's a big pile of documents you got piled up. Better get rid of them soon.",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "Commander, which blade do you think would work best? Scissors? A razor? Just a box cutter?",
 			typewriter = {
 				speed = 0.05,
@@ -30,9 +32,10 @@ return {
 		{
 			expression = 9,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Gotta choose the right tool for the job... Wouldn't want anyone to get hurt, would we?~",
 			typewriter = {
@@ -53,10 +56,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "You're so thoughtful.",
 			typewriter = {
@@ -65,12 +69,13 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "But... What are you worried about? Me getting hurt? Or someone else getting hurt?",
 			typewriter = {
 				speed = 0.05,
@@ -80,10 +85,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heheh... Anyway, I'll take the help.",
 			typewriter = {
@@ -92,12 +98,13 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Hm... I guess that's an option.",
 			typewriter = {
 				speed = 0.05,
@@ -105,12 +112,13 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I sort of made it harder than it had to be with an easier option right there, didn't I?",
 			typewriter = {
 				speed = 0.05,

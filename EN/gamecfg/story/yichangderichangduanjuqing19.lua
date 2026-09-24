@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 900561,
-			nameColor = "#A9F548FF",
 			actorName = "???",
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Rumors say that bad spirits roam these halls...",
 			typewriter = {
 				speed = 0.05,
@@ -17,12 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 900561,
-			nameColor = "#A9F548FF",
 			actorName = "???",
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "If one of those ghosts was to find a lost cute little lamb just like you...",
 			typewriter = {
 				speed = 0.05,
@@ -30,11 +32,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900561,
-			actorName = "???",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "They would eat you right up~",
 			typewriter = {
@@ -55,10 +58,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heheh, there's really no fooling you~",
 			typewriter = {
@@ -67,12 +71,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900561,
-			actorName = "???",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heheh, may we meet another time.",
 			typewriter = {

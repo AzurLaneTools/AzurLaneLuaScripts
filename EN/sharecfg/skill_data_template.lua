@@ -2980,6 +2980,12 @@ pg.skill_data_template.all = {
 	802402,
 	802405,
 	802407,
+	802340,
+	802350,
+	802361,
+	802362,
+	802365,
+	802367,
 	901010,
 	901020,
 	902010,
@@ -201856,6 +201862,363 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 		desc_get_add = {},
 		desc_add = {}
 	}
+	pg.base.skill_data_template[802340] = {
+		desc_get = "",
+		name = "Super Combat Amplifier",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's FP and TRP by $1. Every 20s: 70.0% chance to fire a $2 special barrage, restoring $3 of this ship's Max HP (DMG is based on the skill's level; healing effect can only activate up to twice per battle); increases this ship's DMG dealt to enemies hit by this special barrage by $1.",
+		id = 802340,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802350] = {
+		desc_get = "",
+		name = "Once a Genius Mechanic, Always a Genius Mechanic",
+		type = 2,
+		max_level = 10,
+		desc = "Every 15s: $1 chance to deploy a smokescreen for 5s, increasing the Evasion Rate of ships inside by $2 (does not stack with other smokescreen effects; the greatest effect takes precedence). When this ship is NOT inside a smokescreen: increases this ship's EVA by $3.",
+		id = 802350,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[802361] = {
+		desc_get = "",
+		name = "Flickering Light - Soobrazitelny I",
+		type = 3,
+		max_level = 1,
+		desc = "Every 15 times this ship fires her Main Guns: fires a special barrage.",
+		id = 802361,
+		system_transform = {
+			[51.0] = 802365
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802362] = {
+		desc_get = "",
+		name = "Flickering Light - Soobrazitelny II",
+		type = 3,
+		max_level = 1,
+		desc = "Every 10 times this ship fires her Main Guns: fires a special barrage.",
+		id = 802362,
+		system_transform = {
+			[51.0] = 802367
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802365] = {
+		desc_get = "",
+		name = "Flickering Light - Soobrazitelny I",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: reduces this ship's DMG taken by 2.0%.",
+		id = 802365,
+		system_transform = {
+			[51.0] = 802365
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
+	pg.base.skill_data_template[802367] = {
+		desc_get = "",
+		name = "Flickering Light - Soobrazitelny II",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: reduces this ship's DMG taken by 6.0%.",
+		id = 802367,
+		system_transform = {
+			[51.0] = 802367
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	}
 	pg.base.skill_data_template[901010] = {
 		desc_get = "",
 		name = "Slash Attack - Spread",
@@ -202108,6 +202471,8 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[902170] = {
 		desc_get = "",
 		name = "Sky-Sundering Maya",
@@ -202192,8 +202557,6 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[902230] = {
 		desc_get = "",
 		name = "Tempesta's Protection",
@@ -211971,6 +212334,8 @@ The DMG of both these barrages is based on the skill's level.]],
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1010260] = {
 		desc_get = "",
 		name = "Armageddon Cannon+",
@@ -212753,8 +213118,6 @@ The DMG of both these barrages is based on the skill's level.]],
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1011150] = {
 		desc_get = "",
 		name = "Counterattack of the Barents Sea+",

@@ -15,6 +15,13 @@ slot0.getUIName = function(slot0)
 	return "ShipDetailView"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"ui/RecordableSearchBarUI4ShipDetailView",
+		"template/intimacytpl"
+	}, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.OnInit = function(slot0)
 	slot0:InitDetail()
 	slot0:InitEvent()

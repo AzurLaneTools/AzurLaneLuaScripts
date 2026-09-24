@@ -5,9 +5,10 @@ return {
 	scripts = {
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "I thought it would only be a matter of time until I corrupted you...",
 			typewriter = {
 				speed = 0.05,
@@ -16,9 +17,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "You've done well to last this far.",
 			typewriter = {
 				speed = 0.05,
@@ -37,9 +39,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 1,
 			say = "The determination in your eyes is simply exhilarating...",
 			typewriter = {
@@ -49,9 +52,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 1,
 			say = "I can't wait to see it shattered to a million pieces♥",
 			typewriter = {
@@ -61,9 +65,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 2,
 			say = "Under the gaze of the abyss... and you still daydreaming?",
 			typewriter = {
@@ -73,9 +78,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 2,
 			say = "*sigh*... I could never hope to match that dull intellect of yours.",
 			typewriter = {

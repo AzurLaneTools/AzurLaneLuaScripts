@@ -7,10 +7,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heheh. Your favourite doll is here, right on cue!",
 			typewriter = {
@@ -22,9 +23,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "What do you wanna know about me, Commander?",
 			typewriter = {
@@ -42,9 +44,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Yep. All I have to do is send out my dolls.",
 			typewriter = {
@@ -62,9 +65,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Of course~",
 			typewriter = {
@@ -76,9 +80,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "\"Twinkly-dinkly☆ Look into my smile!\"",
 			typewriter = {
@@ -87,11 +92,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Now you're under my spell, Commander!",
 			typewriter = {
@@ -106,12 +112,13 @@ return {
 			}
 		},
 		{
-			actor = 201401,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 201401,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I just pretend nothing happened.",
 			typewriter = {
 				speed = 0.05,
@@ -122,9 +129,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "If that doesn't work... I charm my way out of trouble!",
 			typewriter = {
@@ -133,12 +141,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I think I got what I need.",
 			typewriter = {
 				speed = 0.05,
@@ -146,12 +155,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Hasty, you're in.",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +172,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Yaaay! I hypnotized the Commander!",
 			typewriter = {

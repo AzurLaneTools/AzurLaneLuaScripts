@@ -1,5 +1,11 @@
 slot0 = class("PrayPoolSelectPoolView", import("..base.BaseSubView"))
 
+slot0.getResource = function(slot0)
+	return table.insertto({
+		"ui/prayselectpoolpage_atlas"
+	}, uv0.super.getResource(slot0))
+end
+
 slot0.getUIName = function(slot0)
 	return "PrayPoolSelectPoolView"
 end

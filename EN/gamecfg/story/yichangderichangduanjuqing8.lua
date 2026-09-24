@@ -5,9 +5,10 @@ return {
 	scripts = {
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "This dance requires a partner.",
 			typewriter = {
 				speed = 0.05,
@@ -16,9 +17,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "Only one who can hold onto sanity like you would be worthy of taking my hand.",
 			typewriter = {
 				speed = 0.05,
@@ -27,9 +29,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "So, would you grace me with a dance?",
 			typewriter = {
 				speed = 0.05,
@@ -48,9 +51,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 1,
 			say = "Ah, so you saw right through me. However...",
 			typewriter = {
@@ -60,9 +64,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 1,
 			say = "Don't you wish to have a dance with me as well?",
 			typewriter = {
@@ -72,9 +77,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 2,
 			say = "Aww, how sweet of you.",
 			typewriter = {
@@ -84,9 +90,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 2,
 			say = "Come, give me your hand. And do try to keep up.",
 			typewriter = {

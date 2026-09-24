@@ -29312,4 +29312,67 @@ end)()
 			}
 		}
 	}
+	pg.base.ship_skin_expression_ex.yinggelahan = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "yinggelahan",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		home = {
+			{
+				1100,
+				"3"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"1|3|4"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"4"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"3"
+			}
+		}
+	}
 end)()

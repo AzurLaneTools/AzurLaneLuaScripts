@@ -4,10 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			bgm = "story-visioncity-1",
 			say = "When the Companion Ball's glow touches Lion, she's startled for a moment – but then, she smirks.",
 			typewriter = {
@@ -21,8 +22,9 @@ return {
 			bgName = "star_level_bg_148",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 205162,
 			nameColor = "#A9F548FF",
+			actor = 205162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "I'm willing to accept when I'm beat. You win.",
 			typewriter = {

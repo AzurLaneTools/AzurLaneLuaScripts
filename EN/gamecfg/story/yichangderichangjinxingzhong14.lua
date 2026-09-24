@@ -7,9 +7,10 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			bgm = "theme-hospitalnight-mystic",
 			say = "The elevator doors slowly slide open with a shrill metallic creak.",
 			typewriter = {
@@ -18,9 +19,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			say = "I quickly get on and press the button to go to the first floor. I feel the familiar slight weightlessness as the elevator begins its descent.",
 			typewriter = {
 				speed = 0.05,
@@ -28,6 +30,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -42,12 +45,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "Trying to sneak out again, Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -55,6 +59,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -69,12 +74,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "This building is so quiet that you could hear a pin drop...",
 			typewriter = {
 				speed = 0.05,
@@ -85,9 +91,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "The perfect place for us to be all alone.",
 			typewriter = {
@@ -99,9 +106,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "I figure we could spend some nice quality time together...",
 			typewriter = {
@@ -113,9 +121,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "So why are you in such a hurry to leave?",
 			typewriter = {
@@ -124,12 +133,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "Do you not like this place? Or... Maybe you're afraid of me?",
 			typewriter = {
 				speed = 0.05,
@@ -137,6 +147,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -151,6 +162,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -165,12 +177,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "Let me enlighten you... This is not a place you can just stumble upon and leave whenever you fancy~♪",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +194,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "I haven't had enough of you just yet.",
 			typewriter = {
@@ -192,6 +206,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -206,6 +221,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -220,6 +236,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -237,9 +254,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "main1",
 			say = "Heheh, you're just so adorable♥",
 			typewriter = {
@@ -248,12 +266,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "Commander, you're supposed to be good at communing with the poltergeist, right?",
 			typewriter = {
 				speed = 0.05,
@@ -261,12 +280,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "So none of this should be a mystery to you.",
 			typewriter = {
 				speed = 0.05,
@@ -274,12 +294,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "I couldn't be farther from the concepts of normalcy or rightness on a basic level.",
 			typewriter = {
 				speed = 0.05,
@@ -287,12 +308,13 @@ return {
 			}
 		},
 		{
-			actor = 304091,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_517",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_517",
+			dir = 1,
+			actor = 304091,
+			NextIcon = 1,
+			live2d = true,
 			say = "And yet...",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +325,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "You decided to get close to me.",
 			typewriter = {
@@ -314,6 +337,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -328,6 +352,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			withoutActorName = true,
@@ -345,9 +370,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Heheheh, that little scare just now was just the appetizer. Shall we get to the main course now?♪",
 			typewriter = {
@@ -359,9 +385,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 304091,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Let me taste that sweet determination of yours from up close♥",
 			typewriter = {
@@ -370,6 +397,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			spine = true,
 			withoutActorName = true,
@@ -401,6 +429,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -415,12 +444,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "I came for you, Commander.♥",
 			typewriter = {
 				speed = 0.05,
@@ -428,12 +458,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "Oh? Did you trip and fall? Heheh.",
 			typewriter = {
 				speed = 0.05,
@@ -441,12 +472,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "Ah, yes. Where were we again?",
 			typewriter = {
 				speed = 0.05,
@@ -459,8 +491,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "There are so, so many things I want to do with you♥",
 			typewriter = {
 				speed = 0.05,
@@ -468,12 +501,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "I'm sure you get where I'm going with this, don't you?",
 			typewriter = {
 				speed = 0.05,
@@ -481,6 +515,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -495,6 +530,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -509,6 +545,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -528,8 +565,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "Don't hide anything.",
 			typewriter = {
 				speed = 0.05,
@@ -542,8 +580,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "We'll be getting as close as two can be from now on.",
 			typewriter = {
 				speed = 0.05,
@@ -551,12 +590,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "Or... Was all the determination you showed thus far just bravado?",
 			typewriter = {
 				speed = 0.05,
@@ -564,6 +604,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -578,6 +619,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -597,8 +639,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "Give it up. You're not going anywhere without my permission♥",
 			typewriter = {
 				speed = 0.05,
@@ -606,6 +649,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -620,12 +664,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "How strange...",
 			typewriter = {
 				speed = 0.05,
@@ -633,12 +678,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "You should be despairing in terror when subjected to such a horrifying punishment.",
 			typewriter = {
 				speed = 0.05,
@@ -646,12 +692,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "And yet... Your expression is not quite what I had in mind.",
 			typewriter = {
 				speed = 0.05,
@@ -659,12 +706,13 @@ return {
 			}
 		},
 		{
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 304092,
+			NextIcon = 1,
 			say = "Heheh. That's rather refreshing.",
 			typewriter = {
 				speed = 0.05,
@@ -677,8 +725,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "It seems I underestimated you. You truly are one of a kind.",
 			typewriter = {
 				speed = 0.05,
@@ -691,8 +740,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "Why... You make me want to try more and more new things♥",
 			typewriter = {
 				speed = 0.05,
@@ -700,6 +750,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
 			spine = true,
@@ -719,8 +770,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "Do show me how long you'll last♪",
 			typewriter = {
 				speed = 0.05,
@@ -733,8 +785,9 @@ return {
 			bgName = "star_level_bg_517",
 			spine = true,
 			dir = 1,
-			actor = 304092,
 			nameColor = "#A9F548FF",
+			actor = 304092,
+			NextIcon = 1,
 			say = "Why... We have all the time in the world to find out♥",
 			typewriter = {
 				speed = 0.05,

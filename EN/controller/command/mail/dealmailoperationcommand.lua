@@ -12,7 +12,7 @@ slot0.execute = function(slot0, slot1)
 			return {
 				{
 					type = 1,
-					arg_list = underscore.rest(uv0.list, 1)
+					arg_list = underscore.to_array(uv0.list)
 				}
 			}
 		end,
@@ -52,7 +52,7 @@ slot0.execute = function(slot0, slot1)
 		}, 30007, function (slot0)
 			if slot0.result == 0 then
 				slot1 = getProxy(MailProxy)
-				slot2 = underscore.rest(slot0.mail_id_list, 1)
+				slot2 = underscore.to_array(slot0.mail_id_list)
 				slot6 = {
 					slot7
 				}
@@ -227,7 +227,7 @@ slot0.execute = function(slot0, slot1)
 	seriesAsync(slot9, function (slot0)
 		uv0:sendNotification(GAME.DEAL_MAIL_OPERATION_DONE, {
 			cmd = uv1,
-			ids = underscore.rest(slot0.mail_id_list, 1),
+			ids = underscore.to_array(slot0.mail_id_list),
 			items = PlayerConst.addTranDrop(slot0.drop_list),
 			ignoreTips = uv2
 		})

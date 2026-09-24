@@ -81,7 +81,16 @@ pg.dorm3d_furniture_template.all = {
 	2113,
 	2114,
 	2115,
-	2161
+	2161,
+	2201,
+	2202,
+	2203,
+	2211,
+	2212,
+	2213,
+	2214,
+	2215,
+	2261
 }
 pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 	{
@@ -178,6 +187,17 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		2114,
 		2115,
 		2161
+	},
+	[22] = {
+		2201,
+		2202,
+		2203,
+		2211,
+		2212,
+		2213,
+		2214,
+		2215,
+		2261
 	}
 }
 pg.base = pg.base or {}
@@ -185,7 +205,7 @@ pg.base.dorm3d_furniture_template = {}
 
 (function ()
 	pg.base.dorm3d_furniture_template[1] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Bar Stool",
 		unlock_tips = "",
 		type = 6,
@@ -193,11 +213,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "An exquisitely crafted bar stool with a black wooden seat and a red leather cushion.The cushion is just plush enough that you could sit on it all day and never feel your butt hurt.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1,
 		target_slots = {
 			100202
@@ -211,7 +232,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Juicer",
 		unlock_tips = "",
 		type = 3,
@@ -220,11 +241,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "Chop up your desired fruit or veggie, throw it inside, and press the start button.Feature-rich and easy to use, it's an indispensable item for any beginner chef.",
 		is_exclusive = 0,
 		model = "Pay_Siriushostel/pre_db_sh_electrical03",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2,
 		target_slots = {
 			100201
@@ -232,7 +254,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[3] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Classic Sofa",
 		unlock_tips = "",
 		type = 5,
@@ -240,11 +262,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "This sofa, made of real leather, is just the right length.Beyond adding a luxurious vibe to your living room, it also provides a comfortable sitting experience.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 3,
 		target_slots = {
 			100301
@@ -258,7 +281,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[4] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Simple Bed",
 		unlock_tips = "",
 		type = 4,
@@ -266,11 +289,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The bed frame is made of sturdy lumber that can easily support its user.Its simple and comfortable design does a fantastic job at giving her sweet dreams.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 4,
 		target_slots = {
 			100102
@@ -284,7 +308,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[5] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Desk Lamp",
 		unlock_tips = "",
 		type = 3,
@@ -293,11 +317,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A desk lamp sitting on Sirius' dresser. She turns it on at night when it's a bit too dark. She is always adjusting her appearance, trying to look her best for the person she adores.",
 		is_exclusive = 0,
 		model = "Pay_Siriushostel/pre_db_sh_chandelier01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 5,
 		target_slots = {
 			100101
@@ -305,7 +330,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[6] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Model Cruise Liner",
 		unlock_tips = "",
 		type = 3,
@@ -314,11 +339,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A model that Sirius had bought and put together after the big cruise trip.In a way, it really shows her sense of devotion.",
 		is_exclusive = 0,
 		model = "Pay_Siriushostel/pre_db_sh_decoration01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 6,
 		target_slots = {
 			100402
@@ -326,17 +352,18 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[121] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Sweet Secret",
 		type = 4,
 		room_id = 1,
 		desc = "The decorative ribbons all over it exude a charming and romantic vibe, as do the red and white pillows.",
 		is_exclusive = 1,
 		model = "Pay_Siriushostel/pre_db_sh_bed01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture4",
 		scene_hides = "",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 121,
 		target_slots = {
 			100102
@@ -358,17 +385,18 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[122] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Afternoon Dreamhome",
 		type = 5,
 		room_id = 1,
 		desc = "A comfortable reclining couch.\n Soft, fluffy, and comes with cushions and a blanket. A relaxing spot to take a nap at any time of the day.",
 		is_exclusive = 1,
 		model = "Pay_Siriushostel/pre_db_sh_chair02",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture2",
 		scene_hides = "",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 122,
 		target_slots = {
 			100301
@@ -390,7 +418,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[201] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Fluffy Futon",
 		unlock_tips = "",
 		type = 4,
@@ -398,11 +426,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A simple futon on the tatami. It's refreshing, soothing, soft, and comfortable.\nAll your fatigue fades away the moment you lie down.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 201,
 		target_slots = {
 			120103
@@ -416,7 +445,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[202] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Gentle Snack Time",
 		unlock_tips = "",
 		type = 6,
@@ -424,11 +453,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "Two people sat across from each other. A carefree conversation. An appetizing smell.\nEven the passage of time seems to mellow in the grace of her smile.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 202,
 		target_slots = {
 			120203
@@ -442,7 +472,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[203] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Breezy Leisure",
 		unlock_tips = "",
 		type = 5,
@@ -450,11 +480,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The comforting, natural material invites you to a leisurely moment of rest.\nA refreshing breeze carries a delicate fragrance and the gentle jingle of wind chimes, weaving together a perfect afternoon.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 203,
 		target_slots = {
 			120303
@@ -468,7 +499,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[204] = {
-		rarity = 2,
+		is_special = 0,
 		name = "A Branch of Spring",
 		unlock_tips = "",
 		type = 3,
@@ -477,11 +508,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "This vase, with its fine porcelain and beautiful lines, is the perfect complement to flowers in bloom.\nThe fragrance of the blossoms and the vase's graceful shape come together brilliantly, exuding vitality and elegance.",
 		is_exclusive = 0,
 		model = "Pay_Noshirohostel/pre_db_nh_vase01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 204,
 		target_slots = {
 			120101
@@ -489,7 +521,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[205] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Manjuu Plushie",
 		unlock_tips = "",
 		type = 3,
@@ -498,11 +530,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "This cuddly creature brings a smile to your face with its detailed craftsmanship that evokes special memories.\nEven when standing silently in a corner, it warms up the room more than anything else.",
 		is_exclusive = 0,
 		model = "Pay_Noshirohostel/pre_db_nh_toy02",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 205,
 		target_slots = {
 			120102
@@ -510,7 +543,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[206] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Tea for the Pinkish Bloom",
 		unlock_tips = "",
 		type = 3,
@@ -519,11 +552,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The pink petals gently touch the tray's rim – a graceful spring sight.\nIt evokes memories of moments shared with her, amidst swirling cherry blossom breezes and the breath of fresh greenery.",
 		is_exclusive = 0,
 		model = "Pay_Noshirohostel/pre_db_nh_tableware02",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 206,
 		target_slots = {
 			120201
@@ -531,7 +565,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[207] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Blue Skies, Stout Pine",
 		unlock_tips = "",
 		type = 3,
@@ -540,11 +574,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "Its barky arms extend toward the sky with grace.\nThe leaves and branches are exquisitely pruned, in the posture of a life yearning for contentment and ease.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture7",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 207,
 		target_slots = {
 			120202
@@ -552,7 +587,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[208] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Tranquil Pause",
 		unlock_tips = "",
 		type = 3,
@@ -561,11 +596,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The understated ceramic and the verdant plant together display the art of simplicity.\nIts reserved vitality contributes a Zen-like serenity to the whole space.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture8",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 208,
 		target_slots = {
 			120301
@@ -573,7 +609,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[209] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Vernal Vase",
 		unlock_tips = "",
 		type = 3,
@@ -582,11 +618,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The vase is vividly colored in the season's palette, and the branches are naturally spread out, flowing like in a picture scroll.\nEvery time flowers are arranged, their beauty is interpreted anew.",
 		is_exclusive = 0,
 		model = "Pay_Noshirohostel/pre_db_nh_vase02",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture9",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 209,
 		target_slots = {
 			120302
@@ -594,7 +631,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[210] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Good Fortjuune Hanging Scroll",
 		unlock_tips = "",
 		type = 3,
@@ -603,11 +640,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "May your wishes come true and good fortune grace you.\nThe manjuu's round, endearing shape warms your heart.",
 		is_exclusive = 0,
 		model = "Pay_Noshirohostel/pre_db_nh_decoration02",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture10",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 210,
 		target_slots = {
 			120202
@@ -615,17 +653,18 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[221] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Tanuki Cushion",
 		type = 4,
 		room_id = 2,
 		desc = "Its soft texture and pleasant warmth gently wrap around your body.\nWhether you choose to cuddle it or hug it, the cushion will accept you.",
 		is_exclusive = 1,
 		model = "Pay_Noshirohostel/pre_db_nh_bed01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture1",
 		scene_hides = "",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 221,
 		target_slots = {
 			120103
@@ -647,16 +686,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[222] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Table for Two",
 		type = 6,
 		room_id = 2,
 		desc = "A spacious table full of joy and anticipation for great conversations.\nAll that remains is for two minds to meet.",
 		is_exclusive = 1,
 		model = "Pay_Noshirohostel/pre_db_nh_diningroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture2",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 222,
 		target_slots = {
 			120203
@@ -681,16 +721,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[223] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Serene Moment",
 		type = 5,
 		room_id = 2,
 		desc = "Let the soft cushions envelop your weary body and gently prop you up.\nThis spot is very difficult to resist after a long day.",
 		is_exclusive = 1,
 		model = "Pay_Noshirohostel/pre_db_nh_livingroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture3",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 223,
 		target_slots = {
 			120303
@@ -715,16 +756,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[151] = {
-		rarity = 5,
+		is_special = 1,
 		name = "Christmas Eve Sleigh Sofa",
 		type = 5,
 		room_id = 1,
 		desc = "The snowflakes dance, the fireplace glows warmly, and the promise of Christmas resounds.\nAn adorable reindeer sleigh sofa featuring soft cushions and blankets. Underneath the starlight, your heart thumps expectantly at the blessings and surprises awaiting you.\nGather 'round with jovial spirits and a full belly from the feast, and who knows? You might just write your very own Christmas miracle.",
 		is_exclusive = 1,
 		model = "Pay_Siriushostel/Sh_Sp_Xmas/pre_db_sp_sh_xmas01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture5",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 151,
 		target_slots = {
 			100301
@@ -753,16 +795,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[251] = {
-		rarity = 5,
+		is_special = 1,
 		name = "Where Warmth Lingers",
 		type = 5,
 		room_id = 2,
 		desc = "The warmth of a kotatsu makes you think of a lazy afternoon in the winter.\nSunlight streams through the window and onto the tatami mat, mingling with the kotatsu's warmth to melt away all your stress.",
 		is_exclusive = 1,
 		model = "Pay_Noshirohostel/Nh_Sp_NewYearsDay/pre_db_nh_sp_nyd_livingroom01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture251",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 251,
 		target_slots = {
 			120303
@@ -787,7 +830,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[301] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Beary Comfy Bed",
 		unlock_tips = "",
 		type = 4,
@@ -795,11 +838,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The headboard, shaped like a teddy bear cookie, is simple yet cute.\nWhen you lie down in this bed, you can practically smell sea salt cookies, forgetting your fatigue and falling into the sweetest of dreams.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 301,
 		target_slots = {
 			130103
@@ -813,7 +857,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[302] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Blue Corner",
 		unlock_tips = "",
 		type = 6,
@@ -821,11 +865,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The colorful decorations and imaginative design fill this little corner with wonder and adventure.\nEven if it rained outside, this would put you in a sunny mood.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 302,
 		target_slots = {
 			130202
@@ -839,7 +884,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[303] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Warm Sofa",
 		unlock_tips = "",
 		type = 5,
@@ -847,11 +892,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A couch with an aroma reminiscent of fresh-baked cookies.\nEvery nook and cranny is as adorable as can be, providing a truly comforting rest.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 303,
 		target_slots = {
 			130302
@@ -865,7 +911,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[304] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Sacabambaspis Plushies",
 		unlock_tips = "",
 		type = 3,
@@ -874,11 +920,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "Soft plushies modeled after an adorable aquatic creature.\nWhat could be more comforting?",
 		is_exclusive = 0,
 		model = "Pay_Anchoragehostel/pre_db_ah_toy05",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 304,
 		target_slots = {
 			130101
@@ -886,7 +933,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[305] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Breath of Fresh Air",
 		unlock_tips = "",
 		type = 3,
@@ -895,11 +942,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "Layers on layers of little foliage.\nAnywhere you put it, natural comfort follows.",
 		is_exclusive = 0,
 		model = "Pay_Anchoragehostel/pre_db_ah_pottedplant01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 305,
 		target_slots = {
 			130102
@@ -907,7 +955,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[306] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Records of Time",
 		unlock_tips = "",
 		type = 3,
@@ -916,11 +964,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "Stylish picture frames hold whimsical artwork.\nSomeday, these frames may display the most precious memories of all.",
 		is_exclusive = 0,
 		model = "Pay_Anchoragehostel/pre_db_ah_billboard01_group01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 306,
 		target_slots = {
 			130201
@@ -928,7 +977,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[307] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Marine Adventure",
 		unlock_tips = "",
 		type = 3,
@@ -937,11 +986,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "More than just a decoration, it's like a switch.\nOne touch turns the window into a magical portal into the sea.",
 		is_exclusive = 0,
 		model = "Pay_Anchoragehostel/pre_db_ah_decoration02",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture7",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 307,
 		target_slots = {
 			130301
@@ -949,16 +999,17 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[321] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Teatime Indulgence",
 		type = 6,
 		room_id = 3,
 		desc = "This coffee cup holds the contentment and comfort of indulging in a moment of fantasy.\nAnyone here can experience what it would be like to have a fairy-tale tea party.",
 		is_exclusive = 1,
 		model = "Pay_Anchoragehostel/pre_db_ah_entertainmentarea01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture1",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 321,
 		target_slots = {
 			130202
@@ -983,16 +1034,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[322] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Boat of the Starry Night",
 		type = 4,
 		room_id = 3,
 		desc = "This soft bed features beautiful curves and an ocean blue color scheme. \nIt floats off into the night sky, guiding you into exciting and romantic dreams.",
 		is_exclusive = 1,
 		model = "Pay_Anchoragehostel/pre_db_ah_bedroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture2",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 322,
 		target_slots = {
 			130103
@@ -1017,7 +1069,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[401] = {
-		rarity = 5,
+		is_special = 1,
 		name = "Seaside Slide",
 		type = 3,
 		touch_id = "",
@@ -1025,10 +1077,11 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "Vacation time starts now! Sunlight under the palm tree, a view by the refreshing coast, and water splashes and sea breezes. Your mind is instantly wrapped up in the joys of a tropical vacation.",
 		is_exclusive = 0,
 		model = "pay_publicplace/slide",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_beach_PremiumFurniture1",
 		scene_hides = "",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 401,
 		target_slots = {
 			140101
@@ -1044,16 +1097,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[323] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Dream in the Clouds",
 		type = 5,
 		room_id = 3,
 		desc = "Waving clouds, a soft sensation, a comfiness reminiscent of marshmallows. Get together and relax in the sweet fragrance.",
 		is_exclusive = 1,
 		model = "Pay_Anchoragehostel/pre_db_ah_livingroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture8",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 323,
 		target_slots = {
 			130302
@@ -1078,16 +1132,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[324] = {
-		rarity = 5,
+		is_special = 1,
 		name = "Haven of Innocence",
 		type = 4,
 		room_id = 3,
 		desc = "Soft, heart-shaped cushions and twinkling toy lights adorn this bed. Welcome to an ocean-blue haven of innocence.",
 		is_exclusive = 1,
 		model = "Pay_Anchoragehostel/Ah_Sp_ValentinesDay/pre_db_aklq_sp_vd01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture9",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 324,
 		target_slots = {
 			130103
@@ -1114,7 +1169,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1101] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Rabbit's Cradle",
 		unlock_tips = "",
 		type = 4,
@@ -1122,11 +1177,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A bed designed for comfortable sleep. Its sturdy structure and stability are top-notch.\nIf you sleep here holding a soft, bunny-shaped cushion, you might just dream of a carrot farm under the stars…",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1101,
 		target_slots = {
 			1110102
@@ -1140,7 +1196,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1102] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Ice Age",
 		unlock_tips = "",
 		type = 6,
@@ -1148,11 +1204,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "Sleek and next-gen in design, this unit features a powerful cooling system.\nChill some Oxy-cola in it, and it will bring refreshment and comfort to your life.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1102,
 		target_slots = {
 			1110203
@@ -1166,7 +1223,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1103] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Sunlight Island",
 		unlock_tips = "",
 		type = 5,
@@ -1174,11 +1231,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A classic fabric sofa with a soft, fluffy texture.\nWhen the afternoon sunlight shines in, it becomes the perfect island for napping.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1103,
 		target_slots = {
 			1110303
@@ -1192,7 +1250,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1104] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Planet Nightlight",
 		unlock_tips = "",
 		type = 3,
@@ -1201,11 +1259,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A lamp inspired by the shape of a planet. At night, it emits dim light.\nSomewhere in the starry sky, there must be some planet out there quietly watching over you.",
 		is_exclusive = 0,
 		model = "Pay_Newjerseyhostel/pre_db_njh_electrical03",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1104,
 		target_slots = {
 			1110101
@@ -1213,7 +1272,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1105] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Decorative Art",
 		unlock_tips = "",
 		type = 3,
@@ -1222,11 +1281,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A minimalist painting featuring overlapping geometric shapes that create a unique beauty. It adds a lively touch to the room.",
 		is_exclusive = 0,
 		model = "Pay_Newjerseyhostel/pre_db_njh_billboard01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1105,
 		target_slots = {
 			1110301
@@ -1234,7 +1294,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1106] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Silent Blue",
 		unlock_tips = "",
 		type = 3,
@@ -1243,11 +1303,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "Gently flip the switch, and a soft glow spills out. Jellyfish float in a dreamy blue void.\nHow long... has your imagination been immersed in this little ocean?",
 		is_exclusive = 0,
 		model = "Pay_Newjerseyhostel/pre_db_njh_fishtank01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture7",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1106,
 		target_slots = {
 			1110302
@@ -1255,7 +1316,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1107] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Microwave",
 		unlock_tips = "",
 		type = 3,
@@ -1264,11 +1325,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A quick and convenient heating tool, perfect for breakfast, afternoon tea, and more.",
 		is_exclusive = 0,
 		model = "Pay_Newjerseyhostel/pre_db_njh_electrical04",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture8",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1107,
 		target_slots = {
 			1110201
@@ -1276,7 +1338,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1108] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Potted Plant",
 		unlock_tips = "",
 		type = 3,
@@ -1285,11 +1347,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "It doesn't just make the place prettier – it purifies the air, too!",
 		is_exclusive = 0,
 		model = "Pay_Newjerseyhostel/pre_db_njh_pottedplant01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture9",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1108,
 		target_slots = {
 			1110202
@@ -1297,16 +1360,17 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1151] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Starry Corner",
 		type = 5,
 		room_id = 11,
 		desc = "This cutting-edge seat has a futuristic aura and features smart temperature control.\nIt also comes with a 24/7 chilled drink supply, giving you a truly comfortable service experience.",
 		is_exclusive = 1,
 		model = "Pay_Newjerseyhostel/pre_db_njh_livingroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture1",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1151,
 		target_slots = {
 			1110303
@@ -1331,16 +1395,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1152] = {
-		rarity = 5,
+		is_special = 1,
 		name = "Exercise Bike",
 		type = 5,
 		room_id = 11,
 		desc = "A serious exercise machine that even puts thought into the user's emotional and recreational needs.\nSimply put your feet on the pedals and go on a heart-racing journey from the comfort of your own home!",
 		is_exclusive = 1,
 		model = "Pay_Newjerseyhostel/pre_db_njh_entertainment01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture4",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 1152,
 		target_slots = {
 			1110303
@@ -1365,16 +1430,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1153] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Sanctuary Beyond Heavens",
 		type = 4,
 		room_id = 11,
 		desc = "A quiet place to relax that is the synthesis of technology and artistic beauty. It feels almost like a warm safehouse at the edge of the galaxy.\nSurrender yourself to it, forget your daily troubles, and let the dreams of the cosmos embrace you.",
 		is_exclusive = 1,
 		model = "Pay_Newjerseyhostel/pre_db_njh_bedroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture2",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1153,
 		target_slots = {
 			1110102
@@ -1399,17 +1465,18 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1154] = {
-		rarity = 4,
+		is_special = 0,
 		name = "IB-7 Smart Refrigerator",
 		type = 6,
 		room_id = 11,
 		desc = "Hello. This is the IB-7 smart refrigerator.\nYour strawberry ice cream is ready. It's your favorite flavor.\n...You'd like more personalized recommendations? That feature is currently in development. Please stay tuned!",
 		is_exclusive = 1,
 		model = "Pay_Newjerseyhostel/pre_db_njh_kitchen01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture3",
 		scene_hides = "",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1154,
 		target_slots = {
 			1110204
@@ -1431,7 +1498,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1201] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Fluffy Bed",
 		unlock_tips = "",
 		type = 4,
@@ -1439,10 +1506,11 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A soft double bed with a complete set of bedding: comfy mattress, blanket, and pillows. Slip under the blanket and sleep off the day's troubles.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture1",
 		scene_hides = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1201,
 		target_slots = {
 			1120103
@@ -1459,7 +1527,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1202] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Wooden Dining Table",
 		unlock_tips = "",
 		type = 6,
@@ -1467,10 +1535,11 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "This table is made of quality, long-lasting wood. Its top is smooth and easy to clean, and its dark surface is resistant to stains while showcasing the natural texture of red sandalwood.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture2",
 		scene_hides = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1202,
 		target_slots = {
 			1120203
@@ -1487,7 +1556,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1203] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Comfy Chair",
 		unlock_tips = "",
 		type = 5,
@@ -1495,10 +1564,11 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A simple tatami chair – basically just a seat and a backrest. It's comfy enough that you can sit for a long time without feeling any muscle fatigue.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture3",
 		scene_hides = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1203,
 		target_slots = {
 			1120303
@@ -1515,7 +1585,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1211] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Classical Wall Scroll",
 		unlock_tips = "",
 		type = 3,
@@ -1524,11 +1594,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The refined art has a zen vibe to it, harmonizing with the rest of the room. It gives a sense of tranquility and elegance.",
 		is_exclusive = 0,
 		model = "Pay_Dafenghostel/pre_db_df_wallscrolls01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1211,
 		target_slots = {
 			1120301
@@ -1536,7 +1607,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1212] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Beloved Companion",
 		unlock_tips = "",
 		type = 3,
@@ -1545,11 +1616,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The fabric of the black bikini was exceptionally light and soft against the skin. It almost feels like you're wearing nothing at all!",
 		is_exclusive = 0,
 		model = "Pay_Dafenghostel/pre_db_df_cloth01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1212,
 		target_slots = {
 			1120101
@@ -1557,7 +1629,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1213] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Floor Lamp",
 		unlock_tips = "",
 		type = 3,
@@ -1566,11 +1638,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The tall wooden floor lamp casts a gentle glow in the room. It was a piece Taihou had picked out herself.",
 		is_exclusive = 0,
 		model = "Pay_Dafenghostel/pre_db_df_floorlamp01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1213,
 		target_slots = {
 			1120302
@@ -1578,7 +1651,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1214] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Translucent Screen",
 		unlock_tips = "",
 		type = 3,
@@ -1587,10 +1660,11 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The translucent screen features an intricate pattern. Taihou likes to place it by her bed to lend that corner of the room a mysterious allure.",
 		is_exclusive = 0,
 		model = "Pay_Dafenghostel/pre_db_df_frame01",
-		is_special = 0,
-		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture7",
 		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture7",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1214,
 		target_slots = {
 			1120102
@@ -1601,7 +1675,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1215] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Night Light",
 		unlock_tips = "",
 		type = 3,
@@ -1610,11 +1684,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A cute night light, with delicate rattan branches intertwined inside. Its gentle glow fills the room with a comforting warmth.",
 		is_exclusive = 0,
 		model = "Pay_Dafenghostel/pre_db_df_desklamp01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture8",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1215,
 		target_slots = {
 			1120104
@@ -1622,7 +1697,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1221] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Love Nest",
 		unlock_tips = "",
 		type = 4,
@@ -1630,9 +1705,10 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A minimalist double bed made of durable materials. Its sturdy metal frame can withstand heavy strain, and when paired with a premium memory foam mattress, it ensures a deeply comfortable and secure rest.",
 		is_exclusive = 1,
 		model = "Pay_Dafenghostel/pre_db_df_bedroom_01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture1",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1221,
 		target_slots = {
 			1120103
@@ -1654,16 +1730,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1222] = {
-		rarity = 5,
+		is_special = 1,
 		name = "Floralized Rhythm",
 		type = 99,
 		room_id = 12,
 		desc = "Gentle light caresses the petals, and brings forth her silhouette. Music and flowers intermingle amidst the flowing whispers of nature.",
 		is_exclusive = 1,
 		model = "Pay_Dafenghostel/pre_db_df_tedian01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture2",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 1222,
 		target_slots = {
 			1120304
@@ -1688,16 +1765,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1223] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Elegant Cherry Blossom Seating",
 		type = 5,
 		room_id = 12,
 		desc = "A classic paper lantern lights up the crimson silk, while exquisite tea utensils catch the eye amidst the faint, rising fragrance of tea. Cushions styled like cherry blossoms flank the table, creating an elegant space for receiving guests.",
 		is_exclusive = 1,
 		model = "Pay_Dafenghostel/pre_db_df_livingroom_01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture3",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1223,
 		target_slots = {
 			1120303
@@ -1722,7 +1800,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1401] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Velvet Bed",
 		unlock_tips = "",
 		type = 4,
@@ -1730,11 +1808,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A double bed with a time-tested design, featuring a black headboard and red velvet bedding. Its soft mattress and pillows provide warmth and peace for a weary body and mind.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1401,
 		target_slots = {
 			1140101
@@ -1748,7 +1827,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1402] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Ebony Desk",
 		unlock_tips = "",
 		type = 6,
@@ -1756,11 +1835,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A black wooden desk accompanied by a simple red chair. This piece offers both practicality and traditional charm.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1402,
 		target_slots = {
 			1140201
@@ -1774,7 +1854,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1403] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Leather Chair",
 		unlock_tips = "",
 		type = 5,
@@ -1782,11 +1862,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A soft, comfortable leather chair. Paired with the round tea table, it's the ideal spot for solo relaxation.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1403,
 		target_slots = {
 			1140301
@@ -1800,7 +1881,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1411] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Long Candles",
 		unlock_tips = "",
 		type = 3,
@@ -1809,11 +1890,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "These ivory-white candles give warmth to a quiet, romantic night.",
 		is_exclusive = 0,
 		model = "Pay_Aijierhostel/pre_db_aje_decoration01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1411,
 		target_slots = {
 			1140303
@@ -1821,7 +1903,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1412] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Large Plant",
 		unlock_tips = "",
 		type = 3,
@@ -1830,11 +1912,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "This large potted plant does more than just add life to a room with its broad leaves – it helps purify the air, too!",
 		is_exclusive = 0,
 		model = "Pay_Aijierhostel/pre_db_aje_bonsai01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1412,
 		target_slots = {
 			1140202
@@ -1842,7 +1925,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1413] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Elegant Desk Lamp",
 		unlock_tips = "",
 		type = 3,
@@ -1851,11 +1934,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A small desk lamp that casts a comfortable glow for reading or working at night.",
 		is_exclusive = 0,
 		model = "Pay_Aijierhostel/pre_db_aje_desklamp01_on",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1413,
 		target_slots = {
 			1140103
@@ -1863,7 +1947,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1414] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Vintage Camera",
 		unlock_tips = "",
 		type = 3,
@@ -1872,11 +1956,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "This device retains the unique design of antique cameras. It's widely loved by enthusiasts and collectors.",
 		is_exclusive = 0,
 		model = "Pay_Aijierhostel/pre_db_aje_camera01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture7",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1414,
 		target_slots = {
 			1140102
@@ -1884,7 +1969,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1415] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Portrait",
 		unlock_tips = "",
 		type = 3,
@@ -1893,11 +1978,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "An abstract portrait painted with a classical touch; with its contrasting yet complementing chiaroscuro of bright and dark colors, it somehow perfectly matches the ambience of the room.",
 		is_exclusive = 0,
 		model = "Pay_Aijierhostel/pre_db_aje_billboard01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture8",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1415,
 		target_slots = {
 			1140302
@@ -1905,16 +1991,17 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1461] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Crimson Tranquility",
 		type = 4,
 		room_id = 14,
 		desc = "A secret space for privacy and romance. The red velvet bedding and pull-out curtains make it easy to enjoy tranquility and warmth at night.",
 		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture1",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1461,
 		target_slots = {
 			1140101
@@ -1939,16 +2026,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1462] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Quiet Contemplation",
 		type = 6,
 		room_id = 14,
 		desc = "A desk with a classic design and smooth surface. Its sturdy frame provides plenty of storage space, making it ideal for study and work.",
 		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_study01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture2",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1462,
 		target_slots = {
 			1140201
@@ -1973,16 +2061,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1463] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Burgundy Leisure",
 		type = 5,
 		room_id = 14,
 		desc = "This sofa, crafted from genuine leather, exudes a luxurious yet understated elegance. Paired with an exquisite coffee table, it truly embodies the passion for life and comfort.",
 		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_living01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture3",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1463,
 		target_slots = {
 			1140301
@@ -2007,16 +2096,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1468] = {
-		rarity = 5,
+		is_special = 1,
 		name = "Melting Affections",
 		type = 99,
 		room_id = 14,
 		desc = "Seduction, passion, and romance. Feel your emotions quicken beneath the surging waves.",
 		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_special01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture4",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 1468,
 		target_slots = {
 			1140104
@@ -2041,7 +2131,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[2101] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Cardboard Abode",
 		unlock_tips = "",
 		type = 4,
@@ -2049,11 +2139,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A bed made out of a cardboard box. It's light, portable, simple, and comfortable all at once. What better bed for a girl who likes to curl up at night?",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 2101,
 		target_slots = {
 			2210101
@@ -2067,7 +2158,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2102] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Multipurpose Storage Rack",
 		unlock_tips = "",
 		type = 6,
@@ -2075,11 +2166,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "The five-tier open shelf has books, tools, and other essentials sorted neatly within. Adorned with the traces of everyday life, it keeps all of one's needs readily within reach.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 2102,
 		target_slots = {
 			2210201
@@ -2093,7 +2185,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2103] = {
-		rarity = 3,
+		is_special = 0,
 		name = "Sun-Warmed Spot",
 		unlock_tips = "",
 		type = 5,
@@ -2101,11 +2193,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A warm, white sofa decorated with the sunny, orange cushions. The matching low table and blanket make it a perfectly inviting place to relax.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 2103,
 		target_slots = {
 			2210301
@@ -2119,7 +2212,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2111] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Windowside Plant",
 		unlock_tips = "",
 		type = 3,
@@ -2128,11 +2221,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A potted plant by the window, with upright branches and unfurled leaves, breathing life and a touch of nature into the space.",
 		is_exclusive = 0,
 		model = "Pay_Naximofuhostel/pre_db_nxmf_flowerpot01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2111,
 		target_slots = {
 			2210303
@@ -2140,7 +2234,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2112] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Kitty Cushion",
 		unlock_tips = "",
 		type = 3,
@@ -2149,11 +2243,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A hefty, but soft cushion. No matter where it's placed, it becomes the perfect place of rest for any kitty.",
 		is_exclusive = 0,
 		model = "Pay_Naximofuhostel/pre_db_nxmf_cushion01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2112,
 		target_slots = {
 			2210304
@@ -2161,7 +2256,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2113] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Ball-and-Stick Model",
 		unlock_tips = "",
 		type = 3,
@@ -2170,11 +2265,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "This science-themed art piece is inspired by atomic models and crystal structures. It serves as a collectible for lovers of physics and a unique desktop decoration.",
 		is_exclusive = 0,
 		model = "Pay_Naximofuhostel/pre_db_nxmf_decoration01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2113,
 		target_slots = {
 			2210302
@@ -2182,7 +2278,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2114] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Glazed Porcelain",
 		unlock_tips = "",
 		type = 3,
@@ -2191,11 +2287,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "A plump, yellow porcelain item. It has a lustrous glaze and charming, plump shape... much like a donut.",
 		is_exclusive = 0,
 		model = "Pay_Naximofuhostel/pre_db_nxmf_ceram01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture7",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2114,
 		target_slots = {
 			2210103
@@ -2203,7 +2300,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2115] = {
-		rarity = 2,
+		is_special = 0,
 		name = "Aroma Diffuser",
 		unlock_tips = "",
 		type = 3,
@@ -2212,11 +2309,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "This ceramic vessel holds slender incense sticks. They carry a lovely fragrance throughout the room.",
 		is_exclusive = 0,
 		model = "Pay_Naximofuhostel/pre_db_nxmf_cosmetic01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture8",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2115,
 		target_slots = {
 			2210102
@@ -2224,16 +2322,17 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2161] = {
-		rarity = 4,
+		is_special = 0,
 		name = "Revolving Data Inspector",
 		type = 6,
 		room_id = 21,
 		desc = "The circular scanner slowly rotates as data flows across the screen like stars in the sky. Who knows what scientific mysteries will be unveiled when the start button is pressed?",
 		is_exclusive = 1,
 		model = "Pay_Naximofuhostel/pre_db_naximofu_basement01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_naximofu_PremiumFurniture1",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 2161,
 		target_slots = {
 			2210201
@@ -2255,6 +2354,233 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/basement/pre_db_naximofu_basement01_0"
+		}
+	}
+	pg.base.dorm3d_furniture_template[2201] = {
+		is_special = 0,
+		name = "Cozy Bed",
+		unlock_tips = "",
+		type = 4,
+		room_id = 22,
+		desc = "This spacious, comfortable bed is made all the more relaxing by its lack of bells and whistles. You'd love to lie there after a long day.",
+		is_exclusive = 0,
+		model = "",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture1",
+		scene_hides = "",
+		rarity = 3,
+		acesses = "",
+		model_night = "",
+		id = 2201,
+		target_slots = {
+			2220101
+		},
+		touch_id = {
+			{
+				20707,
+				2070710
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2202] = {
+		is_special = 0,
+		name = "Contemplative Prayer Altar",
+		unlock_tips = "",
+		type = 6,
+		room_id = 22,
+		desc = "A small space set up for prayer. It's quiet, orderly, and solemn, also serving as a place for solitary contemplation.",
+		is_exclusive = 0,
+		model = "",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture2",
+		scene_hides = "",
+		rarity = 3,
+		acesses = "",
+		model_night = "Pay_Yuanchouhostel/pre_db_yuanchou01_chamber01_0_night",
+		id = 2202,
+		target_slots = {
+			2220201
+		},
+		touch_id = {
+			{
+				20707,
+				2070720
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2203] = {
+		is_special = 0,
+		name = "Afternoon Chat Sofa",
+		unlock_tips = "",
+		type = 5,
+		room_id = 22,
+		desc = "Its understated design complements the soft ambiance, creating an ideal spot for relaxation. Whether you're unwinding alone or entertaining guests, it feels just right.",
+		is_exclusive = 0,
+		model = "",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture3",
+		scene_hides = "",
+		rarity = 3,
+		acesses = "",
+		model_night = "",
+		id = 2203,
+		target_slots = {
+			2220301
+		},
+		touch_id = {
+			{
+				20707,
+				2070730
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2211] = {
+		is_special = 0,
+		name = "Golden Potted Plant",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "An eye-catching potted plant effortlessly fills the empty space. Yet its presence is soft enough to complement a tranquil interior design.",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_flowerpot01",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture4",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2211,
+		target_slots = {
+			2220102
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2212] = {
+		is_special = 0,
+		name = "Manjuu Keepsake",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "Sturdy materials underscore the significance of this keepsake. Its innate qualities are clear to see, without any need for embellishment.",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_billboard02",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture5",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2212,
+		target_slots = {
+			2220303
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2213] = {
+		is_special = 0,
+		name = "Foliage in Gold",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "A small yet refined decoration. When placed in the corner, it manages to bring the whole room together.",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_flowerpot02",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture6",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2213,
+		target_slots = {
+			2220103
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2214] = {
+		is_special = 0,
+		name = "Seascape",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "A neatly framed photo of the sea opens up a vista on the wall. Just looking at it soothes the heart.",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_billboard01",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture7",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2214,
+		target_slots = {
+			2220104
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2215] = {
+		is_special = 0,
+		name = "Glass Desk Lamp",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "A lighting fixture with a translucent luster brightens the room with cool hues.",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_decoration02",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture8",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2215,
+		target_slots = {
+			2220302
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2261] = {
+		is_special = 0,
+		name = "A Lifetime of Learning",
+		type = 6,
+		room_id = 22,
+		desc = "A long table covered in various instruments and reading materials, displaying both the quiet focus of study and the genuine traces of everyday life.",
+		is_exclusive = 1,
+		model = "Pay_Yuanchouhostel/pre_db_yuanchou01_chamber02",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_PremiumFurniture1",
+		rarity = 4,
+		acesses = "",
+		model_night = "",
+		id = 2261,
+		target_slots = {
+			2220202
+		},
+		touch_id = {
+			{
+				20707,
+				2070740
+			}
+		},
+		shop_id = {
+			270801
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture2261"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0",
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0_night"
 		}
 	}
 end)()

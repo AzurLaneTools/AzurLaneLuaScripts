@@ -11656,7 +11656,63 @@ pg.activity_ins_chat_language.all = {
 	11651,
 	11652,
 	11653,
-	11654
+	11654,
+	11655,
+	11656,
+	11657,
+	11658,
+	11659,
+	11660,
+	11661,
+	11662,
+	11663,
+	11664,
+	11665,
+	11666,
+	11667,
+	11668,
+	11669,
+	11670,
+	11671,
+	11672,
+	11673,
+	11674,
+	11675,
+	11676,
+	11677,
+	11678,
+	11679,
+	11680,
+	11681,
+	11682,
+	11683,
+	11684,
+	11685,
+	11686,
+	11687,
+	11688,
+	11689,
+	11690,
+	11691,
+	11692,
+	11693,
+	11694,
+	11695,
+	11696,
+	11697,
+	11698,
+	11699,
+	11700,
+	11701,
+	11702,
+	11703,
+	11704,
+	11705,
+	11706,
+	11707,
+	11708,
+	11709,
+	11710
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -114270,5 +114326,470 @@ end)()
 		type = 1,
 		id = 11654,
 		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11655] = {
+		param = "Emergency, nya! The Manjuu Arcade's sales...",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11655,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11656] = {
+		param = "They've dropped hard today, nya!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11656,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11657] = {
+		param = "I just spent a fortune on that new dancing game, nya...",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11657,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11658] = {
+		param = "And before I left the arcade earlier, I saw a huge line outside, so I THOUGHT I was safe to go shopping, nya!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11658,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11659] = {
+		param = "Oh, we were all just watching Ayanami play MyMai DX...",
+		ship_group = 10131,
+		option = "",
+		type = 1,
+		id = 11659,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11660] = {
+		param = "She's really good at it, and a lot of people wanted to play against her. Before we knew it, the crowd was huge...",
+		ship_group = 10131,
+		option = "",
+		type = 1,
+		id = 11660,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11661] = {
+		param = "Watching instead of playing... That's like reading a book without buying it, nya! You're gonna bankrupt me, nya!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11661,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11662] = {
+		param = "You should have seen her go, though.",
+		ship_group = 30311,
+		option = "",
+		type = 1,
+		id = 11662,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11663] = {
+		param = "That wasn't the face of an ordinary gamer. She looked like she'd been possessed by the spirit of dance.",
+		ship_group = 30311,
+		type = 1,
+		id = 11663,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Sorry, are we still talking about rhythm games?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11664] = {
+		param = "Sorry, are we still talking about rhythm games?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11664,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11665] = {
+		param = "Clearly, mortal! Rhythm games are no mere games!",
+		ship_group = 40124,
+		option = "",
+		type = 1,
+		id = 11665,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11666] = {
+		param = "That's right... Losing to her made me lose my devilish powers!",
+		ship_group = 40136,
+		option = "",
+		type = 1,
+		id = 11666,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11667] = {
+		param = "Ayanami crushed challenger after challenger, absorbing the powers of the fallen to truly enter her demon-god form!",
+		ship_group = 40206,
+		option = "",
+		type = 1,
+		id = 11667,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11668] = {
+		param = "Her aura was terrifying... Nobody could even get close to her. There was a no-woman's land in a five-meter radius around her!",
+		ship_group = 30606,
+		option = "",
+		type = 1,
+		id = 11668,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11669] = {
+		param = "Five meters?! No wonder nobody could come in, nya!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11669,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11670] = {
+		param = "Oh, no... Was I that scary?",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11670,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11671] = {
+		param = "I was just a little tense from playing MyMai DX on the hardest difficulty all day.",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11671,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11672] = {
+		param = "Hm? The phrase \"demon god\" sounds familiar...",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11672,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11673] = {
+		param = "I remember now! \"Taciturn Demon GOD\" was the name of the number-one-ranked player!",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11673,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11674] = {
+		param = "I didn't know I was famous.",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11674,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11675] = {
+		param = "You've dominated the top ranking for over 100 days straight, and by a mile, at that... Of course you're famous!",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11675,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11676] = {
+		param = "She did draw a big crowd, nya... But it doesn't make me any money if nobody can come in, nya.",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11676,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11677] = {
+		param = "Why not move the machine further into the building?",
+		ship_group = 10212,
+		option = "",
+		type = 1,
+		id = 11677,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11678] = {
+		param = "But then it would reduce exposure, nya!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11678,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11679] = {
+		param = "If it's gathering traffic, then I'll have to work harder, nya!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11679,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11680] = {
+		param = "MyMai DX machines are super expensive, nya! Play revenue just from those won't return my investment, nya!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11680,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11681] = {
+		param = "If I can't attract customers, then the arcade might not survive another year, nya...",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11681,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11682] = {
+		param = "320",
+		ship_group = 31201,
+		type = 4,
+		id = 11682,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Instead of worrying about where to put it..."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11683] = {
+		param = "Instead of worrying about where to put it, why not turn spectators into actual customers?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11683,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11684] = {
+		param = "Turn Ayanami into a marketing vehicle.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11684,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11685] = {
+		param = "Hmm. But if I put it inside, how will people know she's in there, nya?",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11685,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11686] = {
+		param = "Forget having people see her by pure chance.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11686,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11687] = {
+		param = "I have an idea, but it's going to take Ayanami's help.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11687,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11688] = {
+		param = "I'm happy to do anything as long as it helps everybody.",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11688,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11689] = {
+		param = "Thanks, nya! You're the savior of the arcade, nya!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11689,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11690] = {
+		param = "Don't get too excited. You've got another big investment ahead of you.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11690,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11691] = {
+		param = "303",
+		ship_group = 31201,
+		option = "",
+		type = 4,
+		id = 11691,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11692] = {
+		param = "No... My gems... L-let's hear it before I decide, nya!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11692,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11693] = {
+		param = "Let's hold a MyMai DX tournament at the arcade.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11693,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11694] = {
+		param = "The top ten players get big rewards, and the top three get an extra bonus...",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11694,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11695] = {
+		param = "The opportunity to challenge the reigning champion, the Taciturn Demon GOD!",
+		ship_group = 30213,
+		type = 1,
+		id = 11695,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Now I'm tempted to join in."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11696] = {
+		param = "Now I'm tempted to join in.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11696,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11697] = {
+		param = "That's exactly what I wanted to hear.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11697,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11698] = {
+		param = "That way, it doesn't matter how far into the arcade the machine is.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11698,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11699] = {
+		param = "Promote the tournament well enough, and people will swarm the place no matter what.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11699,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11700] = {
+		param = "I did some napkin math, and I don't think there are enough machines to support a tournament.",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 11700,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11701] = {
+		param = "You'll have to buy a few more.",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 11701,
+		flag = 3
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[11702] = {
+		param = "Then the venue layout will have to be adjusted, as well.",
+		ship_group = 20513,
+		option = "",
+		type = 1,
+		id = 11702,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11703] = {
+		param = "Agreed. Attracting a large number of players is meaningless if you cannot support the customer flow.",
+		ship_group = 30118,
+		option = "",
+		type = 1,
+		id = 11703,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11704] = {
+		param = "It would put all of your investment to waste.",
+		ship_group = 30118,
+		option = "",
+		type = 1,
+		id = 11704,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11705] = {
+		param = "There you have it. Ready to spend the big bucks, Akashi?",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11705,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11706] = {
+		param = "It's your golden opportunity for a comeback!",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11706,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11707] = {
+		param = "New machines, renovating the arcade, preparing prizes for the contestants...",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11707,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11708] = {
+		param = "Gotta take big risks for big rewards, nya! For the sake of the arcade's future...",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11708,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11709] = {
+		param = "I-I have to force myself to say... I... I'm in, nya!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11709,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11710] = {
+		param = "309",
+		ship_group = 31201,
+		option = "",
+		type = 4,
+		id = 11710,
+		flag = 3
 	}
 end)()

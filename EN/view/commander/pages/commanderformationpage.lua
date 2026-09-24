@@ -4,6 +4,41 @@ slot0.getUIName = function(slot0)
 	return "CommanderFormationUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"attricon",
+		"weaponframes"
+	}, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.getCommanderResList = function(slot0, slot1, slot2)
+	slot3 = {}
+
+	slot4 = function(slot0)
+		if slot0 then
+			table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.Commander.CommanderHrz, slot0:getPainting()))
+
+			if slot0:getSkills()[1] then
+				table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.Commander.CommanderSkillIcon, slot2:getConfig("icon")))
+			end
+		end
+	end
+
+	if slot1 then
+		_.each(slot1:getCommanders(), function (slot0)
+			uv0(slot0)
+		end)
+	end
+
+	_.each(slot2 or {}, function (slot0)
+		for slot4 = 1, CommanderConst.MAX_FORMATION_POS do
+			uv0(slot0:getCommanderByPos(slot4))
+		end
+	end)
+
+	return slot3
+end
+
 slot0.OnInit = function(slot0)
 	setActive(slot0.samllTF, true)
 
@@ -64,11 +99,22 @@ end
 slot0.Update = function(slot0, slot1, slot2)
 	slot0.fleet = slot1
 	slot0.prefabFleets = slot2
-	slot3 = slot0.fleet:getCommanders()
 
-	for slot7 = 1, CommanderConst.MAX_FORMATION_POS do
-		assert(slot0["pos" .. slot7], "pos tf can not nil")
-		slot0:updateCommander(slot0["pos" .. slot7], slot7, slot3[slot7])
+	SplitPackConst.DownloadByLuaArr(slot0:getCommanderResList(slot1, slot2), function ()
+		if uv0._state == uv1.STATES.DESTROY then
+			return
+		end
+
+		uv0:updateAfterResDownload()
+	end)
+end
+
+slot0.updateAfterResDownload = function(slot0)
+	slot1 = slot0.fleet:getCommanders()
+
+	for slot5 = 1, CommanderConst.MAX_FORMATION_POS do
+		assert(slot0["pos" .. slot5], "pos tf can not nil")
+		slot0:updateCommander(slot0["pos" .. slot5], slot5, slot1[slot5])
 	end
 
 	slot0:updateDesc()

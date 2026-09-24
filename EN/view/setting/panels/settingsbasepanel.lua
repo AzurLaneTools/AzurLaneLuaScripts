@@ -25,26 +25,35 @@ end
 
 slot0.Load = function(slot0, slot1)
 	slot0.state = uv0
-	slot2 = PoolMgr.GetInstance()
 
-	slot2:GetUI(slot0:GetUIName(), true, function (slot0)
-		if uv0.exited then
-			PoolMgr.GetInstance():ReturnUI(uv0:GetUIName(), slot0)
+	seriesAsync({
+		function (slot0)
+			SplitPackConst.DownloadByLuaArr(uv0:getResource(), slot0)
+		end,
+		function (slot0)
+			slot1 = PoolMgr.GetInstance()
+			slot3 = uv0
 
-			return
+			slot1:GetUI(slot3:GetUIName(), true, function (slot0)
+				if uv0.exited then
+					PoolMgr.GetInstance():ReturnUI(uv0:GetUIName(), slot0)
+
+					return
+				end
+
+				uv0.state = uv1
+				uv0._go = slot0
+				uv0._tf = slot0.transform
+
+				setParent(uv0._tf, uv0.parentTF)
+				uv0:InitTitle()
+				uv0:OnInit()
+				uv0:OnUpdate()
+				setActive(uv0._tf, true)
+				uv2()
+			end)
 		end
-
-		uv0.state = uv1
-		uv0._go = slot0
-		uv0._tf = slot0.transform
-
-		setParent(uv0._tf, uv0.parentTF)
-		uv0:InitTitle()
-		uv0:OnInit()
-		uv0:OnUpdate()
-		setActive(uv0._tf, true)
-		uv2()
-	end)
+	}, slot1)
 end
 
 slot0.InitTitle = function(slot0)
@@ -64,6 +73,12 @@ end
 
 slot0.GetUIName = function(slot0)
 	assert(false, "overwrite me !!!")
+end
+
+slot0.getResource = function(slot0)
+	return {
+		"ui/" .. slot0:GetUIName()
+	}
 end
 
 slot0.GetTitle = function(slot0)

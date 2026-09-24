@@ -88,12 +88,12 @@ slot0.ChangeStamina = function(slot0, slot1, slot2)
 	slot0:DispatchEvent(uv0.EventUpdateStamina)
 end
 
-slot0.UpdateStamina = function(slot0)
+slot0.UpdateStamina = function(slot0, slot1)
 	if math.floor((pg.TimeMgr.GetInstance():GetServerTime() - slot0.staminaLastRecoverTime) / pg.gameset.world_movepower_recovery_interval.key_value) > 0 then
-		slot0.staminaLastRecoverTime = slot0.staminaLastRecoverTime + slot3 * slot1
+		slot0.staminaLastRecoverTime = slot0.staminaLastRecoverTime + slot4 * slot2
 
 		if slot0.stamina < slot0:GetMaxStamina() then
-			slot0.stamina = math.min(slot0.stamina + slot3, slot0:GetMaxStamina())
+			slot0.stamina = math.min(slot0.stamina + slot4, slot0:GetMaxStamina())
 
 			slot0:DispatchEvent(uv0.EventUpdateStamina)
 		end
@@ -251,6 +251,14 @@ slot0.ConsumeStamina = function(slot0, slot1)
 	end
 
 	assert(slot0.stamina >= 0, "out of stamina.")
+	slot0:DispatchEvent(uv0.EventUpdateStamina)
+end
+
+slot0.PlusStamina = function(slot0, slot1)
+	slot0.stamina = slot0.stamina + slot0.staminaExtra + slot1
+	slot0.staminaExtra = math.max(slot0.stamina - slot0:GetMaxStamina(), 0)
+	slot0.stamina = math.min(slot0.stamina, slot0:GetMaxStamina())
+
 	slot0:DispatchEvent(uv0.EventUpdateStamina)
 end
 

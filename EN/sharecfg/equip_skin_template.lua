@@ -1586,6 +1586,10 @@ pg.equip_skin_template.all = {
 	2126,
 	2127,
 	2128,
+	2129,
+	2130,
+	2131,
+	2132,
 	3001,
 	3002,
 	3004,
@@ -67265,6 +67269,187 @@ end)()
 			"wash"
 		}
 	}
+	pg.base.equip_skin_template[2129] = {
+		orbit_slg = "",
+		name = "Chamber of Fate Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96853",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 117,
+		bullet_name = "zidan_shouqiangdanchao",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2129,
+		hit_sfx = "",
+		desc = "With a click, the bullet of fate is loaded.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_shouqiangdanchao_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	}
+	pg.base.equip_skin_template[2130] = {
+		orbit_slg = "",
+		name = "Old-Fashioned Pistol Torpedo",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96854",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 117,
+		bullet_name = "yulei_fugushouqiang",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2130,
+		hit_sfx = "",
+		desc = "Though light, it lends immense gravitas to each gesture you make.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_fugushouqiang_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	}
+	pg.base.equip_skin_template[2131] = {
+		orbit_slg = "",
+		name = "Vinyl Record Shell",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96855",
+		orbit_rotate = "",
+		orbit_combat = "",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 117,
+		bullet_name = "paodan_heijiaochangpian",
+		orbit_hidden_action = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2131,
+		hit_sfx = "",
+		desc = "True classics only get better with age.",
+		derivate_boom = "",
+		orbit_ui = "",
+		mirror = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	}
+	pg.base.equip_skin_template[2132] = {
+		orbit_slg = "",
+		name = "Staff of the Night Raven",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96856",
+		orbit_rotate = false,
+		orbit_combat = "shebei_wuyaquanzhang",
+		ship_config_id = 100011,
+		double_char_bone = "",
+		orbit_rotate_ui = "",
+		orbit_combat_anima_change = "",
+		themeid = 117,
+		bullet_name = "",
+		miss_sfx = "",
+		rarity = 4,
+		id = 2132,
+		hit_sfx = "",
+		desc = "Quoth the Raven, Nevermore.",
+		derivate_boom = "",
+		orbit_ui = "shebei_wuyaquanzhangui",
+		mirror = 0,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.02,
+				-1.72,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-10,
+				100
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	}
 	pg.base.equip_skin_template[3001] = {
 		orbit_slg = "",
 		name = "Observer's Touch",
@@ -67870,6 +68055,8 @@ end)()
 			107
 		}
 	}
+end)()
+(function ()
 	pg.base.equip_skin_template[3020] = {
 		orbit_slg = "",
 		name = "Precious Gift Shell",
@@ -68032,8 +68219,6 @@ end)()
 			54014
 		}
 	}
-end)()
-(function ()
 	pg.base.equip_skin_template[3030] = {
 		orbit_slg = "",
 		name = "Echo of the Eternal Stars",

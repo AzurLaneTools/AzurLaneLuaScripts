@@ -11,12 +11,18 @@ pg.dorm3d_ins_telephone_group.all = {
 	49905301,
 	49905302,
 	79902301,
-	79902302
+	79902302,
+	20707301,
+	20707302
 }
 pg.dorm3d_ins_telephone_group.get_id_list_by_ship_group = {
 	[10517] = {
 		10517301,
 		10517302
+	},
+	[20707] = {
+		20707301,
+		20707302
 	},
 	[30707] = {
 		30707301,
@@ -129,6 +135,30 @@ pg.base.dorm3d_ins_telephone_group = {}
 		content = {
 			21,
 			210602
+		}
+	}
+	pg.base.dorm3d_ins_telephone_group[20707301] = {
+		ship_group = 20707,
+		name = "Video Call - Implacable",
+		background = "voice_placeholder",
+		type = 1,
+		id = 20707301,
+		unlock_desc = "Visit Implacable's private quarters.",
+		content = {
+			22,
+			220601
+		}
+	}
+	pg.base.dorm3d_ins_telephone_group[20707302] = {
+		ship_group = 20707,
+		name = "Video Call - Implacable",
+		background = "voice_placeholder",
+		type = 1,
+		id = 20707302,
+		unlock_desc = "Reach Implacable Intimacy Lv. 12",
+		content = {
+			22,
+			220602
 		}
 	}
 end)()

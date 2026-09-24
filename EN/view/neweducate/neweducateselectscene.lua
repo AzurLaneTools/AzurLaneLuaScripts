@@ -4,6 +4,139 @@ slot0.getUIName = function(slot0)
 	return "NewEducateSelectUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/PerformUI",
+		"cue/qe-ova-10.b",
+		"painting/linghangyuan1_1",
+		"storyicon/zhihuiguan",
+		"ui/neweducatecommonui_atlas",
+		"ui/neweducatescheduleui_atlas",
+		"cue/story-richang-quiet.b"
+	}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	for slot7, slot8 in ipairs(pg.secretary_special_ship.all) do
+		if noEmptyStr(pg.secretary_special_ship[slot8].prefab) and not table.contains(slot2, "painting/" .. slot9) then
+			slot3("painting/" .. slot9)
+			slot3("paintingface/" .. slot9)
+			slot3("squareicon/" .. slot9)
+			slot3("qicon/" .. slot9)
+		end
+	end
+
+	for slot7, slot8 in ipairs(pg.child2_benefit_list.all) do
+		slot10 = pg.child2_benefit_list[slot8].item_icon_little
+
+		if noEmptyStr(pg.child2_benefit_list[slot8].item_icon) and not table.contains(slot2, "neweducateicon/" .. slot9) then
+			slot3("neweducateicon/" .. slot9)
+		end
+
+		if noEmptyStr(slot10) and not table.contains(slot2, "neweducateicon/" .. slot10) then
+			slot3("neweducateicon/" .. slot10)
+		end
+	end
+
+	for slot7, slot8 in ipairs(pg.child2_resource.all) do
+		slot10 = pg.child2_resource[slot8].item_icon
+
+		if noEmptyStr(pg.child2_resource[slot8].icon) and not table.contains(slot2, "neweducateicon/" .. slot9) then
+			slot3("neweducateicon/" .. slot9)
+		end
+
+		if noEmptyStr(slot10) and not table.contains(slot2, "neweducateicon/" .. slot10) then
+			slot3("neweducateicon/" .. slot10)
+		end
+	end
+
+	for slot7, slot8 in ipairs(pg.child2_attr.all) do
+		slot10 = pg.child2_attr[slot8].item_icon
+
+		if noEmptyStr(pg.child2_attr[slot8].icon) and not table.contains(slot2, "neweducateicon/" .. slot9) then
+			slot3("neweducateicon/" .. slot9)
+		end
+
+		if noEmptyStr(slot10) and not table.contains(slot2, "neweducateicon/" .. slot10) then
+			slot3("neweducateicon/" .. slot10)
+		end
+	end
+
+	for slot7, slot8 in ipairs(pg.child2_memory.all) do
+		if noEmptyStr(pg.child2_memory[slot8].pic) and not table.contains(slot2, "neweducateicon/" .. slot9) then
+			slot3("neweducateicon/" .. slot9)
+		end
+	end
+
+	for slot7, slot8 in ipairs(pg.child2_plan.all) do
+		slot10 = pg.child2_plan[slot8].plan_rectangle_2
+
+		if noEmptyStr(pg.child2_plan[slot8].icon_square) and not table.contains(slot2, "neweducateicon/" .. slot9) then
+			slot3("neweducateicon/" .. slot9)
+		end
+
+		if noEmptyStr(slot10) and not table.contains(slot2, "neweducateicon/" .. slot10) then
+			slot3("neweducateicon/" .. slot10)
+		end
+	end
+
+	for slot7, slot8 in ipairs(pg.child2_site_display.all) do
+		slot10 = pg.child2_site_display[slot8].event_title
+
+		if noEmptyStr(pg.child2_site_display[slot8].event_icon) and not table.contains(slot2, "neweducateicon/" .. slot9) then
+			slot3("neweducateicon/" .. slot9)
+		end
+
+		if noEmptyStr(slot10) and not table.contains(slot2, "neweducateicon/" .. slot10) then
+			slot3("neweducateicon/" .. slot10)
+		end
+	end
+
+	if getProxy(EducateProxy):GetSelectInfo() and slot4.bg then
+		slot3("bg/" .. slot4.bg)
+	end
+
+	slot5 = getProxy(NewEducateProxy)
+
+	for slot9, slot10 in ipairs(pg.child2_data.all) do
+		if slot5:GetChar(slot10) and slot11:GetSelectInfo() and slot12.bg then
+			slot3("bg/" .. slot12.bg)
+		end
+
+		if pg.child2_data[slot10] then
+			if slot12.child2_data_personality_icon and #slot12.child2_data_personality_icon > 0 then
+				for slot16, slot17 in ipairs(slot12.child2_data_personality_icon) do
+					slot3("neweducateicon/" .. slot17)
+				end
+			end
+
+			if noEmptyStr(slot12.personality_bar_icon) then
+				slot3("neweducateicon/" .. slot12.personality_bar_icon)
+			end
+
+			if slot12.personality_tag_icon and #slot12.personality_tag_icon > 0 then
+				for slot16, slot17 in ipairs(slot12.personality_tag_icon) do
+					for slot21, slot22 in ipairs(slot17) do
+						slot3("neweducateicon/" .. slot22)
+					end
+				end
+			end
+
+			if slot12.spine_char then
+				for slot16, slot17 in pairs(slot12.spine_char) do
+					slot3("char/" .. slot17)
+				end
+			end
+		end
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.preload = function(slot0, slot1)
 	slot2 = pg.PerformMgr.GetInstance()
 

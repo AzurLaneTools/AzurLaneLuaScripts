@@ -4,6 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
@@ -29,8 +30,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "Ahahah... That's not nearly enough!",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +45,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "Your attacks are not enough to make even a dent on me.",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +60,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "She revived?",
 			typewriter = {
 				speed = 0.05,
@@ -66,12 +70,13 @@ return {
 			}
 		},
 		{
-			actor = 304090,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "That's right. I am the Undying Flame, after all.",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +89,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "Your paltry power is nothing but a light warm-up for one such as myself!",
 			typewriter = {
 				speed = 0.05,
@@ -93,9 +99,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			say = "Azuchi raises her fan, and raging flames come rushing towards us.",
 			typewriter = {
 				speed = 0.05,
@@ -103,9 +110,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			say = "Even after all our efforts, she turns the tables on us in a matter of seconds.",
 			typewriter = {
 				speed = 0.05,
@@ -118,9 +126,10 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "Ugh... We didn't make it this far just to lose!",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -131,12 +140,13 @@ return {
 			}
 		},
 		{
-			actor = 304070,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_495",
-			side = 2,
-			dir = 1,
 			actorName = "???",
+			side = 2,
+			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 304070,
+			NextIcon = 1,
 			say = "Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -144,9 +154,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			say = "But right then, a roar tears across the skies above us. I look up and see a sleek airship gracefully cutting through the clouds and heading towards us.",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +170,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "Hmph! So you finally make your move... City No. 1.",
 			typewriter = {
 				speed = 0.05,
@@ -168,9 +180,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			say = "The airship's hatch opens, and several small figures descend from it. As soon as they come down, they shoot a powerful blast that pushes back Azuchi's fire ever so slightly.",
 			typewriter = {
 				speed = 0.05,
@@ -178,12 +191,13 @@ return {
 			}
 		},
 		{
-			actor = 304070,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "City No. 1 Supporter",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 304070,
+			NextIcon = 1,
 			say = "Amagi from City No. 1, here to help!",
 			typewriter = {
 				speed = 0.05,
@@ -191,12 +205,13 @@ return {
 			}
 		},
 		{
-			actor = 304070,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "City No. 1 Supporter",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 304070,
+			NextIcon = 1,
 			say = "I'm very sorry, Commander of City No. 7... *cough*... I know I'm a little late.",
 			typewriter = {
 				speed = 0.05,
@@ -204,12 +219,13 @@ return {
 			}
 		},
 		{
-			actor = 304070,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "City No. 1 Supporter",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 304070,
+			NextIcon = 1,
 			say = "We can't afford to go down here, everyone! Let's retreat for now!",
 			typewriter = {
 				speed = 0.05,

@@ -199,6 +199,7 @@ pg.pay_data_display.all = {
 	1027,
 	1028,
 	1029,
+	1030,
 	1301,
 	2001,
 	2002,
@@ -578,6 +579,7 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		1027,
 		1028,
 		1029,
+		1030,
 		1301
 	},
 	[6] = {
@@ -23543,6 +23545,92 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+	pg.base.pay_data_display[1030] = {
+		picture = "battlepass_1",
+		name = "Fair Winds Cruise Pass (2026.10)",
+		type = 0,
+		second_text = "Unlock Special Rewards",
+		tag = 2,
+		subject = "Fair Winds Cruise Pass",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 999,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		limit_group = 0,
+		id = 1030,
+		type_order = 6,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.yostaren.azurlane.passport34",
+		extra_gem = 0,
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		airijp_id = "com.yostaren.azurlane.passport34",
+		name_display = "Fair Winds Cruise Pass",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4031,
+				1500
+			},
+			{
+				8,
+				65121,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7031,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
 	pg.base.pay_data_display[1301] = {
 		picture = "battlepass_blackfriday_1",
 		name = "Black Friday Cruise Pass",
@@ -23836,6 +23924,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2004] = {
 		picture = "tech1_promotion",
 		name = "PR Blueprint Pack - Series 1",
@@ -23900,8 +23990,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2005] = {
 		picture = "tech2_display",
 		name = "PR Construction Pack - Series 2",

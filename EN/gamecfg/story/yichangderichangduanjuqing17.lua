@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "Just as I was about to spend a moment enjoying the view, it started raining.",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "But this gentle drizzle is quite charming in its own way, right?",
 			typewriter = {
 				speed = 0.05,
@@ -28,11 +30,12 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Commander, would you care to share an umbrella with me and take a stroll in the rain?",
 			typewriter = {
 				speed = 0.05,
@@ -50,12 +53,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Lovely. Let's go.",
 			typewriter = {
 				speed = 0.05,
@@ -63,12 +67,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "If I were to lose my footing and fall right into your arms, make sure you catch me♥",
 			typewriter = {
 				speed = 0.05,
@@ -76,12 +81,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Hee hee, that's fine too. It'd be a shame to get this lovely yukata dirty.",
 			typewriter = {
 				speed = 0.05,

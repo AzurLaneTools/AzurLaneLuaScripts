@@ -10,6 +10,26 @@ slot5 = {
 	"resources/1"
 }
 
+slot0.getResource = function(slot0)
+	slot1 = {
+		"ui/building"
+	}
+
+	for slot5, slot6 in ipairs(pg.ship_data_create_material.all) do
+		if pg.ship_data_create_material[slot6] then
+			if noEmptyStr(slot7.ship_icon) then
+				table.insert(slot1, ResPathSupport.ConstPath.UI.ShipModelBuliding .. slot7.ship_icon)
+			end
+
+			if noEmptyStr(slot7.build_anim) then
+				table.insert(slot1, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Base, slot7.build_anim))
+			end
+		end
+	end
+
+	return table.insertto(slot1, uv0.super.getResource(slot0))
+end
+
 slot0.getUIName = function(slot0)
 	return "BuildShipDetailUI1"
 end

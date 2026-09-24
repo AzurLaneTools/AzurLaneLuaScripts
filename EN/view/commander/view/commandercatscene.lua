@@ -336,6 +336,75 @@ slot0.onBackPressed = function(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = uv0.super.getResource(slot0, slot1)
+
+	for slot6 = 1, 4 do
+		table.insert(slot2, "char/NekoBox" .. slot6)
+		table.insert(slot2, "char/SRNekoBox" .. slot6)
+		table.insert(slot2, "char/SSRNekoBox" .. slot6)
+	end
+
+	for slot6, slot7 in pairs(pg.commander_home_style.all) do
+		if pg.commander_home_style[slot7].name and slot8.name ~= "" and not table.contains(slot2, "catterystyle/" .. slot8.name) then
+			table.insert(slot2, "catterystyle/" .. slot8.name)
+			table.insert(slot2, "catterystyle/" .. slot8.name .. "_d")
+		end
+	end
+
+	for slot6, slot7 in pairs(pg.commander_skill_template.all) do
+		if pg.commander_skill_template[slot7].icon and slot8.icon ~= "" and not table.contains(slot2, "commanderskillicon/" .. slot8.icon) then
+			table.insert(slot2, "commanderskillicon/" .. slot8.icon)
+		end
+	end
+
+	for slot6, slot7 in pairs(pg.commander_ability_template.all) do
+		if pg.commander_ability_template[slot7].icon and slot8.icon ~= "" and not table.contains(slot2, "commandertalenticon/" .. slot8.icon) then
+			table.insert(slot2, "commandertalenticon/" .. slot8.icon)
+		end
+	end
+
+	for slot6, slot7 in pairs(pg.commander_data_template.all) do
+		if pg.commander_data_template[slot7].painting and slot8.painting ~= "" and not table.contains(slot2, "commandericon/" .. slot8.painting) then
+			table.insert(slot2, "commandericon/" .. slot8.painting)
+		end
+
+		if slot8.painting and slot8.painting ~= "" and not table.contains(slot2, "commanderpainting/" .. slot8.painting) then
+			table.insert(slot2, "commanderpainting/" .. slot8.painting)
+		end
+	end
+
+	table.insert(slot2, "props/20010")
+	table.insert(slot2, "props/20011")
+	table.insert(slot2, "props/20012")
+	table.insert(slot2, "props/20013")
+	table.insert(slot2, "bg/commander_bg_1")
+	table.insert(slot2, "bg/commander_bg_2")
+	table.insert(slot2, "commanderrarity/n")
+	table.insert(slot2, "commanderrarity/r")
+	table.insert(slot2, "commanderrarity/sr")
+	table.insert(slot2, "commanderrarity/ssr")
+	table.insert(slot2, "char/ai_manjuuu")
+	table.insert(slot2, "painting/mingshi")
+	table.insert(slot2, "ui/CommanderCatPlayui")
+	table.insert(slot2, "ui/CommanderCatTalentui")
+	table.insert(slot2, "ui/CommanderCatDockui")
+	table.insert(slot2, "ui/CommanderDetailUI")
+	table.insert(slot2, "ui/CommanderMsgBoxUI")
+	table.insert(slot2, "ui/CommanderTreeUI")
+	table.insert(slot2, "ui/CommanderReserveUI")
+	table.insert(slot2, "ui/CommanderBoxesUI")
+	table.insert(slot2, "ui/CommanderIndexUI")
+	table.insert(slot2, "ui/CommandeRenameUI")
+	table.insert(slot2, "ui/CommanderQuicklyFinishBoxUI")
+	table.insert(slot2, "ui/CommanderBuildPoolUI")
+	table.insert(slot2, "ui/GetCommanderResultUI")
+	table.insert(slot2, "attricon")
+	table.insert(slot2, "ui/CommanderBuildResultUI_atlas")
+
+	return slot2
+end
+
 slot0.willExit = function(slot0)
 	slot0:ReturnCommanderPainting()
 

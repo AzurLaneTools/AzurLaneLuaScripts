@@ -129,7 +129,7 @@ slot2 = {
 	end,
 	inWorld = function ()
 		if nowWorld().type == World.TypeBase then
-			return underscore.rest(slot0.baseShipIds, 1)
+			return underscore.to_array(slot0.baseShipIds)
 		else
 			return _.map(slot0:GetShips(), function (slot0)
 				return slot0.id

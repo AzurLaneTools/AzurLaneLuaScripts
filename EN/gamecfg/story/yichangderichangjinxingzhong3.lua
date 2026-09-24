@@ -9,11 +9,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_131",
 			bgm = "theme-hospitalnight-mystic",
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "home",
 			say = "I can't believe it's this late and you're just here staring at a monitor...",
 			typewriter = {
@@ -31,12 +32,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "...Or maybe, you're just waiting for me?♥",
 			typewriter = {
 				speed = 0.05,
@@ -44,6 +46,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -58,6 +61,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -72,12 +76,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "Heheheh... I found you now, my beloved little one~♥",
 			typewriter = {
 				speed = 0.05,
@@ -85,6 +90,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -99,6 +105,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -116,9 +123,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "login",
 			say = "Mmh, hah... This is a bit of a tight fit, it seems.",
 			typewriter = {
@@ -127,6 +135,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -144,9 +153,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Could you lend me a hand?",
 			typewriter = {
@@ -158,9 +168,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Though... If you prefer me to stay like this, I wouldn't mind humoring you for a while♥",
 			typewriter = {
@@ -182,6 +193,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_131",
+			NextIcon = 1,
 			actorName = "{playername}",
 			optionFlag = 1,
 			hideRecordIco = true,
@@ -198,10 +210,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Oh, are you worried about me? How kind of you♥",
 			typewriter = {
@@ -210,12 +223,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
 			optionFlag = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "But are you sure? You wouldn't keep this love so strong that it overflows out of your screen locked inside the monitor, would you?",
 			typewriter = {
@@ -227,6 +241,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_131",
+			NextIcon = 1,
 			actorName = "{playername}",
 			optionFlag = 2,
 			hideRecordIco = true,
@@ -243,10 +258,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Heheheh, I knew you wouldn't leave me in such a helpless state for long.",
 			typewriter = {
@@ -255,12 +271,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Now, help me out of this cold glass♥",
 			typewriter = {
@@ -269,6 +286,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -283,6 +301,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -300,9 +319,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Haah... I can finally feel your heartbeat♥",
 			typewriter = {
@@ -314,9 +334,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "No matter how long I gazed at you through the screen or called your name, I never could feel your touch. Oh, how lonely it was...",
 			typewriter = {
@@ -328,6 +349,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_131",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 403143,
@@ -343,9 +365,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Heh heh... Worry not. Your never ending work will be waiting for you tomorrow.",
 			typewriter = {
@@ -354,12 +377,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "But you can't leave your weary heart in this state. You might end up lonely and lost without someone to look after you.",
 			typewriter = {
 				speed = 0.05,
@@ -367,6 +391,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -384,9 +409,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "Midnight is the loneliest of hours, but it's also the best time to sing of love.",
 			typewriter = {
@@ -398,9 +424,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_131",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "headtouch",
 			say = "Now, come... Let's keep that loneliness at bay with our love song.",
 			typewriter = {
@@ -409,6 +436,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_131",
 			withoutActorName = true,
@@ -423,12 +451,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "My sweet little one♥",
 			typewriter = {
 				speed = 0.05,
@@ -436,12 +465,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_131",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_131",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			live2d = true,
 			say = "Pour all of your hot love... right into me♥",
 			typewriter = {
 				speed = 0.05,

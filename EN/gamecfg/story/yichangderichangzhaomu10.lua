@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "The world is as fleeting as clouds adrift. The tables have turned, and now, you hold the upper hand.",
 			typewriter = {
@@ -18,11 +19,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Tell me. What is it you want me to do?",
 			typewriter = {
@@ -37,12 +39,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Dancing with those brainless wretches?",
 			typewriter = {
 				speed = 0.05,
@@ -53,9 +56,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Once my flames have licked them, there is no escape.",
 			typewriter = {
@@ -70,12 +74,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Hmm... It isn't particularly outdated, but there is room to revitalize it, I think.",
 			typewriter = {
 				speed = 0.05,
@@ -86,9 +91,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "But I'm more interested in you.",
 			typewriter = {
@@ -106,9 +112,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "You know what I mean. I want to see the look on your face when you're surprised.",
 			typewriter = {
@@ -120,9 +127,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "So just... don't let your guard down. That's all.",
 			typewriter = {
@@ -131,12 +139,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I think I got what I need.",
 			typewriter = {
 				speed = 0.05,
@@ -144,12 +153,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Azuchi, you're in.",
 			typewriter = {
 				speed = 0.05,
@@ -157,12 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Heehee... So this is acceptable to you? How interesting!",
 			typewriter = {
 				speed = 0.05,

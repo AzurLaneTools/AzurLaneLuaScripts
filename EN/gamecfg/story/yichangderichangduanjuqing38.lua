@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "This building is so drab and dimly lit all year round. I'm so fed up with it.",
 			typewriter = {
 				speed = 0.05,
@@ -16,11 +17,12 @@ return {
 			}
 		},
 		{
-			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I'd like to change the atmosphere a little. Do you have any ideas?",
 			typewriter = {
 				speed = 0.05,
@@ -40,10 +42,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Now that's an unusual idea... But yes! It'd really make for a fresh atmosphere!",
 			typewriter = {
@@ -54,10 +57,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "I'll go get some right away!",
 			typewriter = {
@@ -66,12 +70,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Are you sure?",
 			typewriter = {
 				speed = 0.05,
@@ -81,10 +86,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Very well. I'll think of something on my own.",
 			typewriter = {

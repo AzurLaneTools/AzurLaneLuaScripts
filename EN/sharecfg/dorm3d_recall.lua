@@ -38,7 +38,11 @@ pg.dorm3d_recall.all = {
 	211,
 	212,
 	213,
-	214
+	214,
+	221,
+	222,
+	223,
+	224
 }
 pg.dorm3d_recall.get_id_list_by_story_id = {
 	[10010] = {
@@ -148,6 +152,18 @@ pg.dorm3d_recall.get_id_list_by_story_id = {
 	},
 	[210541] = {
 		214
+	},
+	[220510] = {
+		221
+	},
+	[220520] = {
+		222
+	},
+	[220530] = {
+		223
+	},
+	[220541] = {
+		224
 	}
 }
 pg.base = pg.base or {}
@@ -643,6 +659,61 @@ pg.base.dorm3d_recall = {}
 		unlock = {
 			3,
 			7990201
+		}
+	}
+	pg.base.dorm3d_recall[221] = {
+		story_id = 220510,
+		name = "Night of Confessions",
+		type = 1,
+		id = 221,
+		image = "recall_221",
+		unlock_text = "Reach Implacable Intimacy Lv. 4",
+		desc = "Is it salvation that you seek? Or... A night of indulgence with me? Heehee♥",
+		unlock = {
+			1,
+			20707,
+			4
+		}
+	}
+	pg.base.dorm3d_recall[222] = {
+		story_id = 220520,
+		name = "Sin Unconcealed",
+		type = 1,
+		id = 222,
+		image = "recall_222",
+		unlock_text = "Reach Implacable Intimacy Lv. 8",
+		desc = "Morning comes before the rustling of sheets has settled. This confession may have to continue anew tonight...",
+		unlock = {
+			1,
+			20707,
+			8
+		}
+	}
+	pg.base.dorm3d_recall[223] = {
+		story_id = 220530,
+		name = "The Meaning of Binding",
+		type = 1,
+		id = 223,
+		image = "recall_223",
+		unlock_text = "Reach Implacable Intimacy Lv. 12",
+		desc = "Words can take on vastly different meanings depending on context. It's up to you how you define it...",
+		unlock = {
+			1,
+			20707,
+			12
+		}
+	}
+	pg.base.dorm3d_recall[224] = {
+		story_id = 220541,
+		name = "Heart-Pounding Note",
+		type = 1,
+		id = 224,
+		image = "recall_224",
+		unlock_text = "Unlocked after gifting Heart-Pounding Note.",
+		desc = "Though the cover reads \"confession,\" the contents are but an outpouring of love.",
+		unlock = {
+			3,
+			2070701
 		}
 	}
 end)()

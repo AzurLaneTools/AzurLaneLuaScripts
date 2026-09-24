@@ -36908,6 +36908,11 @@ _G.pg.base.gametip.cruise_btn_pay = {
 }
 
 
+_G.pg.base.gametip.cruise_btn_pay_prev = {
+	tip = "Unlock rewards from previous seasons"
+}
+
+
 _G.pg.base.gametip.cruise_btn_all = {
 	tip = "Claim All"
 }
@@ -51900,6 +51905,194 @@ The Operational Handover feature allows you to automatically complete stages tha
 }
 
 
+_G.pg.base.gametip.auto_battle_in_world = {
+	tip = "Unable to start new handover; another operational handover is already in progress."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_award = {
+	tip = "Handover Rewards"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_level = {
+	tip = "Req. Corrosion Level"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_quantity = {
+	tip = "Number of Sectors"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_progress = {
+	tip = "Completion Progress"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_cancel_tip = {
+	tip = "Are you sure you want to abort operational handover?"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_in_progress = {
+	tip = "Handover in progress"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip1 = {
+	tip = "Operational handover is currently in progress."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip2 = {
+	tip = "You do not have sufficient resources to conduct operational handover."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip3 = {
+	tip = "No sectors available for operational handover."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip4 = {
+	tip = "Rewards already obtained from this operational handover will be converted into Supply Shop Vouchers."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip5 = {
+	tip = "After clearing a normal sector with a Corrosion Level of 6, you may unlock it by purchasing a \"Hidden Zone Data Logger\" from the Exchange Shop."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip6 = {
+	tip = "Operation Siren is about to be reset, and any potential rewards from ongoing handovers will be lost. Are you sure you wish to continue?\n\nIt is recommended to wait for any ongoing handovers to be completed before resetting. If you proceed, rewards will be settled as-is for this handover, and Operation Siren will be reset."
+}
+
+
+_G.pg.base.gametip.world_auto_buy_unlock = {
+	tip = "<icon name=lock /> Unlocked after purchasing and using <icon name=icon w=0.15 h=0.15 />"
+}
+
+
+_G.pg.base.gametip.world_auto_level_less_3 = {
+	tip = "≤3"
+}
+
+
+_G.pg.base.gametip.world_auto_level_all = {
+	tip = "All"
+}
+
+
 _G.pg.base.gametip.reverse_pacman_no_char = {
 	tip = "Go to <color=#92fc63>Manual</color> and <color=#92fc63>Recruitment</color> to select which companion you'd like to recruit!"
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2610 = {
+	tip = "Complete Cruise Missions between 10/1/2026 - 11/30/2026, accumulate <icon name=pt w=0.5 h=0.5/>, and receive <color=#854747>Soobrazitelny META</color> and other rewards!"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2610 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+10/1/2026 00:00 – 11/30/2026 23:59
+
+- Overview -
+""Cruise Missions"" is a seasonal campaign where you can complete special missions, collect Progress Pts, and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of ""Fair Winds Cruise"" rewards by purchasing the ""Fair Winds Cruise Pass"" item from Akashi's shop.
+Soobrazitelny META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for DD Ingraham, ""Wanderer in a Miniature World"".
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2610 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2610 = {
+	tip = "世界巡游·第三十一期"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_table = {
+	tip = "Study"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_chair = {
+	tip = "Living Room"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_bed = {
+	tip = "Bedroom"
+}
+
+
+_G.pg.base.gametip.auto_download_tip = {
+	tip = "Automatic asset download has started ($1). Please be mindful of your data usage.\n\nYou can check asset download progress in Settings > Assets > Asset Management."
+}
+
+
+_G.pg.base.gametip.auto_download_btn = {
+	tip = "Go to Settings"
+}
+
+
+_G.pg.base.gametip.setting_download_basic_assets = {
+	tip = "Download Basic Assets"
+}
+
+
+_G.pg.base.gametip.setting_restart_download_btn = {
+	tip = "Resume Download"
+}
+
+
+_G.pg.base.gametip.loading_flow_tip = {
+	tip = "Assets will be downloaded on mobile data. Please be mindful of your data usage."
 }

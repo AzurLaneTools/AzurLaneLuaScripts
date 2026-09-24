@@ -4,10 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			bgm = "story-visioncity-1",
 			say = "This time, Tiger doesn't use her full strength. As the containment device closes, Illustrious looks down slowly, as if letting go of a mental burden.",
 			typewriter = {
@@ -21,8 +22,9 @@ return {
 			bgName = "star_level_bg_523",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 900561,
 			nameColor = "#A9F548FF",
+			actor = 900561,
+			NextIcon = 1,
 			say = "I willingly accept defeat at your hands. Heehee.",
 			typewriter = {
 				speed = 0.05,
@@ -35,8 +37,9 @@ return {
 			bgName = "star_level_bg_523",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 900561,
 			nameColor = "#A9F548FF",
+			actor = 900561,
+			NextIcon = 1,
 			say = "Because I know that you truly understand me.",
 			typewriter = {
 				speed = 0.05,

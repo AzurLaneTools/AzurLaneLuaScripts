@@ -44,6 +44,59 @@ slot0.getUIName = function(slot0)
 	return "TechnologyUI"
 end
 
+slot0.getResource = function(slot0)
+	return ResPathSupport.MergeLuaArr({
+		"ui/technologyui",
+		"technologycard",
+		"ui/TechnologyUI_atlas",
+		"ui/iconcolorful",
+		"ui/technologysettingsui_atlas",
+		"ui/TechnologySettingsUI"
+	}, (function ()
+		slot0 = {}
+
+		for slot5, slot6 in ipairs(pg.activity_event_blueprint_catchup.all) do
+			table.insert(slot0, "TecCatchup/QChar" .. pg.activity_event_blueprint_catchup[slot6].char_choice)
+		end
+
+		return slot0
+	end)(), (function ()
+		slot0 = getProxy(TechnologyProxy)
+		slot2 = slot0:getPlanningTechnologys()
+		slot3 = {}
+
+		slot4 = function(slot0)
+			slot4 = "drop_client"
+
+			for slot4, slot5 in ipairs(slot0:getConfig(slot4)) do
+				if slot5 ~= nil then
+					table.insert(uv0, Drop.Create(slot5):getIcon())
+				end
+			end
+
+			slot4 = "consume"
+
+			for slot4, slot5 in ipairs(slot0:getConfig(slot4)) do
+				if slot5 ~= nil then
+					table.insert(uv0, Drop.Create(slot5):getIcon())
+				end
+			end
+		end
+
+		for slot8, slot9 in ipairs(slot0:getTechnologys()) do
+			slot4(slot9)
+			table.insert(slot3, "technologyshipicon/" .. slot9:getConfig("bg_icon"))
+		end
+
+		for slot8, slot9 in ipairs(slot2) do
+			slot4(slot9)
+			table.insert(slot3, "technologyshipicon/" .. slot9:getConfig("bg_icon"))
+		end
+
+		return slot3
+	end)(), technologySetting)
+end
+
 slot0.onBackPressed = function(slot0)
 	if slot0.contextData.selectedIndex then
 		slot0:cancelSelected()

@@ -5,11 +5,12 @@ return {
 	scripts = {
 		{
 			expression = 4,
-			nameColor = "#A9F548FF",
-			actor = 403143,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 403143,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Hah... This boundary is harder to cross than I imagined, huh?",
 			typewriter = {
 				speed = 0.05,
@@ -19,9 +20,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Commander, wait for me right there♥",
 			typewriter = {
@@ -42,10 +44,11 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heheh, how kind of you to give me a helping hand.",
 			typewriter = {
@@ -54,12 +57,13 @@ return {
 			}
 		},
 		{
-			actor = 403143,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403143,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Pull a little harder and you'll have me right in your arms♥",
 			typewriter = {
 				speed = 0.05,
@@ -69,10 +73,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Oh, did I make you concerned?",
 			typewriter = {
@@ -83,10 +88,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 403143,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "It's fine. This is nothing for me♥",
 			typewriter = {

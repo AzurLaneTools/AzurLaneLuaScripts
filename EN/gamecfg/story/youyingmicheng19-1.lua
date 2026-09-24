@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			actorName = "Ordinary Rear Service Personnel",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			bgm = "story-visioncity-1",
 			actor = 317030,
-			actorName = "Ordinary Rear Service Personnel",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "\"New Era City No. 2...\"",
 			typewriter = {
@@ -32,8 +33,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -44,11 +46,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "Ordinary Rear Service Personnel",
 			side = 2,
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			actor = 317030,
-			actorName = "Ordinary Rear Service Personnel",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "...Sorry. I'm just passing by... I'm only recording the situation, so I'll leave the fighting to you.",
 			typewriter = {
@@ -71,8 +74,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Newbie Operative",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			say = "Whoa, this feels way different than last time! Like a real last battle and stuff!",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +89,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "There are quite a few poltergeists ahead. They're blocking our path.",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +102,9 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			NextIcon = 1,
 			say = "We're prepared for this.",
 			typewriter = {
 				speed = 0.05,
@@ -106,9 +112,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			say = "The containment device activates, and several figures descend as they emerge from the light.",
 			typewriter = {
 				speed = 0.05,
@@ -116,12 +123,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 299035,
+			NextIcon = 1,
 			say = "Whoa, we're pulling out the big guns? Are we gonna have some real fun for once, Owner?",
 			typewriter = {
 				speed = 0.05,
@@ -129,12 +137,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "So we're up against a former comrade and the Dark Lord herself? It doesn't look like we have much leeway for chit-chat.",
 			typewriter = {
@@ -148,8 +157,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 900561,
 			nameColor = "#A9F548FF",
+			actor = 900561,
+			NextIcon = 1,
 			say = "It's fine. Even on a battlefield, a child is still a child... Be good for once and take your nap.",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +172,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 205162,
 			nameColor = "#A9F548FF",
+			actor = 205162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heh... To think you'd call upon your old enemies for help.",
 			typewriter = {
@@ -177,8 +188,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 205162,
 			nameColor = "#A9F548FF",
+			actor = 205162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "You must be really confident, Commander.",
 			typewriter = {
@@ -192,8 +204,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Newbie Operative",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			say = "Y-yeah... It kind of feels like we got a bunch of villains on our side, doesn't it?!",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +219,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -218,12 +232,13 @@ return {
 			}
 		},
 		{
-			actor = 201191,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +251,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "Hello.",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +266,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 307053,
 			nameColor = "#FF9B93",
+			actor = 307053,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Pleased to make your acquaintance~",
 			typewriter = {
@@ -265,8 +282,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Newbie Operative",
 			dir = 1,
-			actor = 231211,
 			nameColor = "#A9F548FF",
+			actor = 231211,
+			NextIcon = 1,
 			say = "Hello! Let's do our best!",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +297,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -296,8 +315,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 307053,
 			nameColor = "#FF9B93",
+			actor = 307053,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Greetings are important.",
 			typewriter = {
@@ -311,8 +331,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "Lord Azuchi said she won't let you go any further.",
 			typewriter = {
 				speed = 0.05,
@@ -325,9 +346,10 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "Come on now. Would you try listening to us for once?",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -343,8 +365,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "No. I was just repeating what Lord Azuchi said. There's no need for you to take her word as law.",
 			typewriter = {
 				speed = 0.05,
@@ -352,12 +375,13 @@ return {
 			}
 		},
 		{
-			actor = 201191,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "But she did say something else. If you insist on going forward, she'll have me drive you back to the entrance.",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +394,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "I thought it made sense. It takes a long time to get this far from the entrance on foot.",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +409,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "Well, that won't do.",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +424,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "The Commander wants to move forward. Step aside, or we might just have to make you.",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +439,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201191,
 			nameColor = "#FF9B93",
+			actor = 201191,
+			NextIcon = 1,
 			say = "...Alright, then.",
 			typewriter = {
 				speed = 0.05,
@@ -426,9 +454,10 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
+			nameColor = "#FF9B93",
 			soundeffect = "event:/battle/boom2",
 			actor = 201191,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "I'm sorry. I will have to make the first move.",
 			typewriter = {
 				speed = 0.05,
@@ -480,8 +509,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heheh. Wasting no time with pleasantries, I see.",
 			typewriter = {
@@ -495,8 +525,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			say = "Commander, let's go.",
 			typewriter = {
 				speed = 0.05,

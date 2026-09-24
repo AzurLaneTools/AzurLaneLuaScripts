@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			side = 2,
+			bgName = "star_level_bg_154",
+			NextIcon = 1,
+			bgm = "bsm-6",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_154",
-			bgm = "bsm-6",
 			say = "As night fell, a cool breeze swept through the city. Lights gradually illuminated the buildings and streets.",
 			typewriter = {
 				speed = 0.05,
@@ -25,10 +26,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "The team had decided to throw a small party to celebrate Javelin's first successful mission.",
 			typewriter = {
 				speed = 0.05,
@@ -36,10 +38,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "With the time fast approaching, Javelin finished donning her cute dress and rushed toward the restaurant.",
 			typewriter = {
 				speed = 0.05,
@@ -47,12 +50,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Newbie Operative",
 			dir = 1,
 			actor = 231210,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Things got scary, but I'm glad we managed to defeat that poltergeist in the end!",
 			typewriter = {
@@ -61,12 +65,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Newbie Operative",
 			dir = 1,
 			actor = 231210,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "If my sisters knew about this, they'd think I was so cool.",
 			typewriter = {
@@ -80,8 +85,9 @@ return {
 			bgName = "star_level_bg_154",
 			factiontag = "Newbie Operative",
 			dir = 1,
-			actor = 231210,
 			nameColor = "#A9F548FF",
+			actor = 231210,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Oh, no. I'm gonna be late... Maybe I should take this shortcut.",
 			typewriter = {
@@ -90,10 +96,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "The alley was much quieter than the main street. Its broken streetlights left it sparsely lit.",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +113,9 @@ return {
 			bgName = "star_level_bg_154",
 			factiontag = "Newbie Operative",
 			dir = 1,
-			actor = 231210,
 			nameColor = "#A9F548FF",
+			actor = 231210,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Ah... Achoo! Wh-why am I suddenly cold? Maybe I didn't dress up enough...",
 			typewriter = {
@@ -121,8 +129,9 @@ return {
 			bgName = "star_level_bg_154",
 			factiontag = "Newbie Operative",
 			dir = 1,
-			actor = 231210,
 			nameColor = "#A9F548FF",
+			actor = 231210,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "...Huh?",
 			typewriter = {
@@ -131,6 +140,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_495",
 			bgm = "story-darkplan",
@@ -165,8 +175,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Newbie Operative",
 			dir = 1,
-			actor = 231210,
 			nameColor = "#A9F548FF",
+			actor = 231210,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "No way...",
 			typewriter = {
@@ -180,8 +191,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Newbie Operative",
 			dir = 1,
-			actor = 231210,
 			nameColor = "#A9F548FF",
+			actor = 231210,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "That's not fair. I'm supposed to be off work now!",
 			typewriter = {
@@ -190,10 +202,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "She turned back toward the alley entrance, but she only found herself surrounded by endless darkness.",
 			typewriter = {
 				speed = 0.05,
@@ -201,10 +214,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "A cold, metallic clanging came from the depths of that dark.",
 			typewriter = {
 				speed = 0.05,
@@ -212,10 +226,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "Her breathing quickened as she frantically searched her bag.",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +243,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Newbie Operative",
 			dir = 1,
-			actor = 231210,
 			nameColor = "#A9F548FF",
+			actor = 231210,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Oh, no! I left my weapon back at the office because it wouldn't fit in my bag...",
 			typewriter = {
@@ -243,8 +259,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Newbie Operative",
 			dir = 1,
-			actor = 231210,
 			nameColor = "#A9F548FF",
+			actor = 231210,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Ugh, I really messed up this time... I should've been more serious about my job.",
 			typewriter = {
@@ -253,10 +270,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "The eerie sound came ever closer. Black shadows lunged in from the darkness and engulfed Javelin.",
 			typewriter = {
 				speed = 0.05,
@@ -264,13 +282,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#FF9B93",
+			actorName = "???",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "Poltergeist",
 			dir = 1,
+			nameColor = "#FF9B93",
 			actor = 900559,
-			actorName = "???",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "BZZT&... %￥#...",
 			typewriter = {
@@ -284,8 +303,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "Newbie Operative",
 			dir = 1,
-			actor = 231210,
 			nameColor = "#A9F548FF",
+			actor = 231210,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Couldn't we just... Couldn't we talk this out?! Ugh, without Tiger and the Commander here, there's nothing I can...",
 			typewriter = {
@@ -304,10 +324,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "Darkness closed in. The hustle and bustle of the city could be heard in the distance, but it was too late.",
 			typewriter = {
 				speed = 0.05,
@@ -315,6 +336,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_599",
 			bgm = "bsm-7",
@@ -349,9 +371,10 @@ return {
 			bgName = "star_level_bg_599",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "Javelin's awfully late... She said she'd be here soon thirty whole minutes ago.",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -368,8 +391,9 @@ return {
 			bgName = "star_level_bg_599",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -386,9 +410,10 @@ return {
 			bgName = "star_level_bg_599",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "She's motivated and good at her job. I hear she's got family back at home... That girl's got all the qualities of the perfect employee.",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -405,9 +430,10 @@ return {
 			bgName = "star_level_bg_599",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "I'd better call her. I want her to know just how sweet and loving I am.",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -419,12 +445,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_599",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_599",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I already called her, and she didn't answer...",
 			typewriter = {
 				speed = 0.05,
@@ -432,10 +459,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			bgm = "airraidalarm",
 			say = "Before I can finish speaking, an earsplitting alarm suddenly blares from all directions.",
 			typewriter = {
@@ -444,12 +472,13 @@ return {
 			}
 		},
 		{
-			actorName = "PA System",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_599",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			actorName = "PA System",
 			sayColor = "#ff5c5c",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "This is a citywide alert! Large-scale poltergeist attack detected! All citizens, please proceed to the nearest safe shelter!",
 			typewriter = {
 				speed = 0.05,
@@ -462,9 +491,10 @@ return {
 			bgName = "star_level_bg_599",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "An attack?! I've never seen such a large-scale attack from them before!",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -476,10 +506,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "Beneath the cover of night, countless black shadows begin to emerge throughout the city.",
 			typewriter = {
 				speed = 0.05,

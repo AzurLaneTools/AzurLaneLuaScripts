@@ -7,6 +7,7 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -30,12 +31,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "What did you come here for today?",
 			typewriter = {
 				speed = 0.05,
@@ -43,6 +45,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -61,6 +64,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -72,12 +76,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "I did go out, though...",
 			typewriter = {
 				speed = 0.05,
@@ -85,6 +90,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -104,8 +110,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "I've been looking at you from a distance. Just blending in with the crowd.",
 			typewriter = {
 				speed = 0.05,
@@ -113,12 +120,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "It's only natural that you didn't notice. I was hiding myself.",
 			typewriter = {
 				speed = 0.05,
@@ -130,6 +138,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -146,8 +155,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "Well... If I don't put on a mask, you'll see my real face.",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +170,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "That'd feel weird... I don't know how to face others like that...",
 			typewriter = {
 				speed = 0.05,
@@ -169,6 +180,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -183,12 +195,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "As long as I wear the mask, no one will be disappointed in the real me. I won't have to try and figure out what others think of me, either.",
 			typewriter = {
 				speed = 0.05,
@@ -200,6 +213,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -216,8 +230,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "...The way I am?",
 			typewriter = {
 				speed = 0.05,
@@ -229,6 +244,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -240,6 +256,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -259,8 +276,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "I'm a poltergeist. Even if I can blend in, I'm nothing more than an abnormality inside of a shell.",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +291,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "What is there to \"like\" about that...?",
 			typewriter = {
 				speed = 0.05,
@@ -282,11 +301,12 @@ return {
 			}
 		},
 		{
-			expression = 10,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
-			portrait = "zhihuiguan",
+			expression = 10,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -298,11 +318,12 @@ return {
 			}
 		},
 		{
-			expression = 10,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
-			portrait = "zhihuiguan",
+			expression = 10,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -319,6 +340,7 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			withoutActorName = true,
+			NextIcon = 1,
 			hideRecordIco = true,
 			actor = 317031,
 			nameColor = "#A9F548FF",
@@ -334,6 +356,7 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			withoutActorName = true,
+			NextIcon = 1,
 			hideRecordIco = true,
 			actor = 317031,
 			nameColor = "#A9F548FF",
@@ -344,11 +367,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
-			portrait = "zhihuiguan",
+			expression = 1,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -365,8 +389,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "Y-you can't just say that...",
 			typewriter = {
 				speed = 0.05,
@@ -379,6 +404,7 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			withoutActorName = true,
+			NextIcon = 1,
 			hideRecordIco = true,
 			actor = 317031,
 			nameColor = "#A9F548FF",
@@ -389,11 +415,12 @@ return {
 			}
 		},
 		{
-			expression = 7,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
-			portrait = "zhihuiguan",
+			expression = 7,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -410,8 +437,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "If... If you're with me, maybe I could give it a try.",
 			typewriter = {
 				speed = 0.05,
@@ -424,6 +452,7 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			withoutActorName = true,
+			NextIcon = 1,
 			hideRecordIco = true,
 			actor = 317031,
 			nameColor = "#A9F548FF",
@@ -434,12 +463,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "I'll try it... We can go out tomorrow, and I won't wear the mask.",
 			typewriter = {
 				speed = 0.05,
@@ -447,6 +477,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -461,11 +492,12 @@ return {
 			}
 		},
 		{
-			expression = 9,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
-			portrait = "zhihuiguan",
+			expression = 9,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -482,8 +514,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "Please, can we stay like this a little longer?",
 			typewriter = {
 				speed = 0.05,
@@ -491,12 +524,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "It feels nice... To know that you care so much...",
 			typewriter = {
 				speed = 0.05,

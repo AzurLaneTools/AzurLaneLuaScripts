@@ -5,11 +5,12 @@ return {
 	scripts = {
 		{
 			expression = 4,
-			nameColor = "#A9F548FF",
-			actor = 201401,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 201401,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Commander, look~",
 			typewriter = {
 				speed = 0.05,
@@ -18,11 +19,12 @@ return {
 		},
 		{
 			expression = 4,
-			nameColor = "#A9F548FF",
-			actor = 201401,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 201401,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Hee hee! What do you think? Is my smile sweet?",
 			typewriter = {
 				speed = 0.05,
@@ -30,11 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 201401,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "If you lie, you'll be in a world of trouble~",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +57,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Aww, commander knows what to say~♪ Now, close your eyes. Here is a reward♪ Mwah~",
 			typewriter = {
@@ -68,10 +72,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Huh? Come here, I'm gonna make you look at me smile until you get it~",
 			typewriter = {

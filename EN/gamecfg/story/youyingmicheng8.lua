@@ -7,11 +7,12 @@ return {
 	},
 	scripts = {
 		{
-			side = 2,
-			bgName = "star_level_bg_497",
-			actorName = "PA System",
-			bgm = "story-visioncity-1",
 			nameColor = "#A9F548FF",
+			side = 2,
+			actorName = "PA System",
+			bgName = "star_level_bg_497",
+			bgm = "story-visioncity-1",
+			NextIcon = 1,
 			say = "Containment Zone... Danger... D-don't come any closer... Please...",
 			typewriter = {
 				speed = 0.05,
@@ -37,9 +38,10 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "Well, something's gone wrong. As expected.",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -55,9 +57,10 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "It looks like a few of our \"friends\" have broken loose.",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -71,8 +74,9 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_497",
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			NextIcon = 1,
 			say = "We can clean this mess up after. First things first, let's head to the armory to get Javelin's weapon.",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +84,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_497",
+			nameColor = "#A9F548FF",
 			say = "We rush through the lobby. However, the deeper we go, the more unfamiliar our surroundings become.",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +95,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_497",
+			nameColor = "#A9F548FF",
 			say = "The walls, usually marked with safety signs, are now lined with glass display cases filled with dolls.",
 			typewriter = {
 				speed = 0.05,
@@ -105,9 +111,10 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "Hey, what the heck is with these dolls?!",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -123,8 +130,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -135,6 +143,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_497",
 			withoutActorName = true,
@@ -171,8 +180,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "Commander, you meanie...",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +195,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "Leaving me all alone here so you can have fun without me...",
 			typewriter = {
 				speed = 0.05,
@@ -199,11 +210,12 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist Operative",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			portrait = 301191,
+			NextIcon = 1,
+			actorName = "Amatsukaze",
 			hideRecordIco = true,
 			actor = 201401,
-			actorName = "Amatsukaze",
+			nameColor = "#A9F548FF",
+			portrait = 301191,
 			say = "Hmph. She's complaining awfully fast after being captured. Isn't she the reason you and Javelin met in the first place?",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +228,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "I just wanted to find someone in this city to play with... Then, I found you...",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +243,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "But after that, you kept me locked inside that cold, cold ball...",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +258,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "It's a good thing that sweet new girl let all of us out~",
 			typewriter = {
 				speed = 0.05,
@@ -257,6 +272,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_497",
 			actorName = "{playername}",
+			NextIcon = 1,
 			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
@@ -268,11 +284,12 @@ return {
 		},
 		{
 			expression = 6,
-			nameColor = "#FF9B93",
-			bgName = "star_level_bg_497",
 			side = 2,
+			bgName = "star_level_bg_497",
+			nameColor = "#FF9B93",
 			dir = 1,
 			actor = 201401,
+			NextIcon = 1,
 			say = "Now we can play again~",
 			typewriter = {
 				speed = 0.05,
@@ -280,39 +297,42 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_497",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_497",
-			side = 2,
-			withoutActorName = true,
 			say = "After Hasty finishes speaking, faint whispers begin to drift from the glass showcases.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_497",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_497",
-			side = 2,
-			withoutActorName = true,
 			say = "dOn't go... sTaY HERE... it's coLd AlL AlOne... SMiLE, AND You wOn't be leFt all aLoNE...",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_497",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_497",
-			side = 2,
-			withoutActorName = true,
 			say = "They overlap, as if they're all fragments of one poor child's loneliness.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,8 +344,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "Hehe~ Let's play a game together, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -333,12 +354,13 @@ return {
 			}
 		},
 		{
-			actor = 201401,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "The rules are simple. You can move when the light is on, but when it's off, you can't.",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +373,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "Poltergeist",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "If you lose, you have to stay here and be my new friend!",
 			typewriter = {
 				speed = 0.05,
@@ -360,6 +383,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			blackBg = true,
@@ -378,6 +402,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			blackBg = true,
@@ -394,8 +419,9 @@ return {
 			factiontag = "Poltergeist Operative",
 			dir = 1,
 			blackBg = true,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -408,6 +434,7 @@ return {
 		{
 			actor = 0,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			portrait = "zhihuiguan",
 			side = 2,
 			blackBg = true,
@@ -418,6 +445,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
@@ -442,11 +470,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "Wow, you managed to clear stage 1~ Let's go on to stage 2!",
 			typewriter = {
 				speed = 0.05,
@@ -456,6 +485,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -470,6 +500,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -484,11 +515,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "I have to wait until you come home...?",
 			typewriter = {
 				speed = 0.05,
@@ -496,13 +528,14 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "She looks down sadly and pinches the hem of her skirt.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "She looks down sadly and pinches the hem of her skirt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,11 +544,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "I don't wanna.",
 			typewriter = {
 				speed = 0.05,
@@ -525,11 +559,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "You say you'll be right back, you close the door, and you never come back...",
 			typewriter = {
 				speed = 0.05,
@@ -539,11 +574,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "Dolls are the only ones who never leave. They stay here with me.",
 			typewriter = {
 				speed = 0.05,
@@ -551,13 +587,14 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "Hasty's voice gradually trails off. The grinning faces in the displays multiply, filling each case to bursting.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "Hasty's voice gradually trails off. The grinning faces in the displays multiply, filling each case to bursting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,6 +603,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -580,11 +618,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "...Huh?",
 			typewriter = {
 				speed = 0.05,
@@ -594,6 +633,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -608,11 +648,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "You won't get mad at me or call me annoying...?",
 			typewriter = {
 				speed = 0.05,
@@ -622,6 +663,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -636,11 +678,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "Aren't you supposed to say no at times like this?",
 			typewriter = {
 				speed = 0.05,
@@ -650,6 +693,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -662,26 +706,28 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "Hasty gazes at me for a moment in shock. Afterward, she claps her hands together once and jumps out of her chair excitedly.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "Hasty gazes at me for a moment in shock. Afterward, she claps her hands together once and jumps out of her chair excitedly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "The threads clinging to me gradually unravel.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "The threads clinging to me gradually unravel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,11 +736,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			say = "Dollhouse is closed for the day, everybody~",
 			typewriter = {
 				speed = 0.05,
@@ -702,12 +749,13 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
+			actor = 201401,
+			NextIcon = 1,
 			say = "Because I've found people to hang out with!",
 			typewriter = {
 				speed = 0.05,
@@ -715,26 +763,28 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "The glass displays and warm golden light disappear.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "The glass displays and warm golden light disappear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "Finally, the door to the armory appears.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "Finally, the door to the armory appears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,11 +793,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			say = "Sorry~ I thought you'd grab your weapons and run away if I didn't hide it.",
 			typewriter = {
 				speed = 0.05,
@@ -755,25 +806,27 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "Hasty runs over to me, takes my hand, and looks up at me expectantly.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "Hasty runs over to me, takes my hand, and looks up at me expectantly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 201401,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			factiontag = "Poltergeist",
 			dir = 1,
 			blackBg = true,
+			actor = 201401,
+			NextIcon = 1,
 			say = "I'll go with you wherever you go, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -783,6 +836,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -797,6 +851,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,

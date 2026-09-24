@@ -104,6 +104,13 @@ slot0.PlayTransition = function(slot0, slot1)
 	assert(slot1.type, "CarWash transition type is nil")
 	assert(uv0.DEFAULT_TRANSITION_ASSETS[slot1.type], "CarWash transition asset config not found: " .. tostring(slot1.type))
 	assert(not slot0.isTransitionPlaying, "CarWash transition is already playing: " .. tostring(slot1.type))
+
+	slot0.isTransitionPlaying = true
+
+	slot0:Emit(uv0.TRANSITION_BEGIN, {
+		type = slot1.type,
+		data = slot1
+	})
 	slot0:LoadTransitionAsset(slot1, function (slot0)
 		assert(not uv0.exited, "CarWash transition asset loaded after system disposed")
 
@@ -113,12 +120,7 @@ slot0.PlayTransition = function(slot0, slot1)
 			type = uv1.type,
 			data = uv1
 		}
-		uv0.isTransitionPlaying = true
 
-		uv0:Emit(uv2.TRANSITION_BEGIN, {
-			type = uv1.type,
-			data = uv1
-		})
 		slot1:SetTime(0)
 		slot1:Start()
 	end)
@@ -235,10 +237,11 @@ slot0.PlayArtTimeline = function(slot0, slot1)
 		type = slot0.artContext.data.enter,
 		onHold = function (slot0)
 			uv0:LoadArtScene(uv1, function ()
-				uv0:Emit(uv1.TIMELINE_SEQUENCE_BEGIN, {
-					data = uv2
+				uv0:InitArtHX(uv1.sceneName)
+				uv0:Emit(uv2.TIMELINE_SEQUENCE_BEGIN, {
+					data = uv1
 				})
-				uv0:StartArtPlayer(uv2)
+				uv0:StartArtPlayer(uv1)
 				uv3()
 			end)
 		end
@@ -259,6 +262,21 @@ slot0.LoadArtScene = function(slot0, slot1, slot2)
 		assert(not uv0.exited, "CarWash art timeline scene loaded after system disposed")
 		existCall(uv1, slot0, slot1)
 	end)
+end
+
+slot0.InitArtHX = function(slot0, slot1)
+	table.IpairsCArray(SceneManager.GetSceneByName(slot1):GetRootGameObjects(), function (slot0, slot1)
+		table.IpairsCArray(slot1:GetComponentsInChildren(typeof("BLHXCharacterPropertiesController"), true), function (slot0, slot1)
+			if not Dorm3dHxHelper.GetSkinIdByModelName(slot1.transform.name) then
+				return
+			end
+
+			uv0:GetHxHelper():Apply(slot2)
+			Dorm3dHxHelper.HideCharacterPart(slot2, nil, true)
+			table.insert(uv1, slot2)
+		end)
+	end)
+	Dorm3dHxHelper.ShowHolyLight({}, slot0:GetHolyLightRoot())
 end
 
 slot0.StartArtPlayer = function(slot0, slot1)
@@ -371,7 +389,10 @@ slot0.UnloadArtScene = function(slot0, slot1)
 	slot3 = SceneOpMgr.Inst
 
 	slot3:UnloadSceneAsync(slot2.path, slot2.name, function ()
-		existCall(uv0)
+		Dorm3dHxHelper.ShowHolyLight({
+			uv0:GetLadyGO().transform
+		}, uv0:GetHolyLightRoot(), true)
+		existCall(uv1)
 	end)
 end
 

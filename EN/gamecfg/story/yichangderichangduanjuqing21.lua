@@ -5,11 +5,12 @@ return {
 	scripts = {
 		{
 			expression = 1,
-			nameColor = "#A9F548FF",
-			actor = 900561,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Ghosts don't need to sleep, so they get very lonely at night.",
 			typewriter = {
 				speed = 0.05,
@@ -18,11 +19,12 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#A9F548FF",
-			actor = 900561,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Forced to wander all alone until dawn breaks...",
 			typewriter = {
 				speed = 0.05,
@@ -30,11 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 900561,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Commander, can I stay by your side tonight?",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +57,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Heehee, promise not to get spooked if I get a little frisky and sneak under the covers♪",
 			typewriter = {
@@ -68,10 +72,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "I see... I understand. Getting rest is a very important thing.",
 			typewriter = {

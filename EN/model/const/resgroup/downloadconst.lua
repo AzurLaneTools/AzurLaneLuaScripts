@@ -11,9 +11,10 @@ slot0.VerifyFile = function(slot0)
 end
 
 slot0.IsNeedCheck = function()
+	slot0 = Application.isEditor
 	slot1 = SplitPackHelper.Inst:IsSplitPackMode()
 
-	if Application.isEditor and not slot1 then
+	if EDITOR_TOOL or slot0 and not slot1 then
 		return false
 	end
 
@@ -91,10 +92,11 @@ slot0.Download = function(slot0)
 			table.insert(slot1, function (slot0)
 				slot1 = {
 					dataList = {},
-					onFinish = slot0
+					onFinish = slot0,
+					showMask = uv0.showMask == true
 				}
 
-				for slot5, slot6 in pairs(uv0) do
+				for slot5, slot6 in pairs(uv1) do
 					table.insert(slot1.dataList, {
 						groupName = slot5,
 						fileNameList = slot6

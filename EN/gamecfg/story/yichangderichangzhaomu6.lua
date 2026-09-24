@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "I'm here as promised, Commander. What do you require?",
 			typewriter = {
@@ -24,12 +25,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "The scent that I leave on a target does not fade easily.",
 			typewriter = {
 				speed = 0.05,
@@ -37,11 +39,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "In fact... you bear my scent right now~",
 			typewriter = {
@@ -56,12 +59,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Rain does disrupt clear traces, but it also creates an environment of higher humidity, lower temperature, and reduced airflow.",
 			typewriter = {
 				speed = 0.05,
@@ -69,12 +73,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Scents linger even longer under such circumstances.",
 			typewriter = {
 				speed = 0.05,
@@ -82,11 +87,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "It's almost too perfect for me~",
 			typewriter = {
@@ -101,12 +107,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Heehee... Would you like to see?",
 			typewriter = {
 				speed = 0.05,
@@ -114,12 +121,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "If you would, I'd be happy to let you take a look.",
 			typewriter = {
 				speed = 0.05,
@@ -127,12 +135,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "But if you do... you'll have to take responsibility~",
 			typewriter = {
 				speed = 0.05,
@@ -140,12 +149,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I think I got what I need.",
 			typewriter = {
 				speed = 0.05,
@@ -153,12 +163,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Hakuhou, you're in.",
 			typewriter = {
 				speed = 0.05,
@@ -166,12 +177,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Heehee. Thank you for your favor, Commander.",
 			typewriter = {
 				speed = 0.05,

@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 9600033,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Found yooou, Commander~",
 			typewriter = {
@@ -24,11 +25,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 9600033,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "That's right~ My tentacles move fast.",
 			typewriter = {
@@ -43,12 +45,13 @@ return {
 			}
 		},
 		{
-			actor = 9600033,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "They aren't just for catching prey.",
 			typewriter = {
 				speed = 0.05,
@@ -56,12 +59,13 @@ return {
 			}
 		},
 		{
-			actor = 9600033,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "If my prey struggles, I'm happy to toy with them for a while.",
 			typewriter = {
 				speed = 0.05,
@@ -69,11 +73,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 9600033,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Wouldn't you... like to experience that, Commander?",
 			typewriter = {
@@ -88,12 +93,13 @@ return {
 			}
 		},
 		{
-			actor = 9600033,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Isn't it just so much more fun when you give your prey room to maneuver?",
 			typewriter = {
 				speed = 0.05,
@@ -101,12 +107,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I think I got what I need.",
 			typewriter = {
 				speed = 0.05,
@@ -114,12 +121,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Golden Hind, you're in.",
 			typewriter = {
 				speed = 0.05,
@@ -127,12 +135,13 @@ return {
 			}
 		},
 		{
-			actor = 9600033,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "If it's a personal invitation from you, then I'll be sure to put on a good show~",
 			typewriter = {
 				speed = 0.05,

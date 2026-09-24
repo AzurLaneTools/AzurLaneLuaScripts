@@ -267,7 +267,42 @@ pg.dorm3d_subtitle.all = {
 	21039,
 	21040,
 	21041,
-	21042
+	21042,
+	22001,
+	22002,
+	22003,
+	22004,
+	22005,
+	22006,
+	22007,
+	22008,
+	22009,
+	22010,
+	22011,
+	22012,
+	22013,
+	22014,
+	22015,
+	22016,
+	22017,
+	22021,
+	22022,
+	22023,
+	22024,
+	22025,
+	22026,
+	22027,
+	22028,
+	22029,
+	22030,
+	22031,
+	22032,
+	22033,
+	22034,
+	22035,
+	22036,
+	22037,
+	22038
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_subtitle = {}
@@ -1332,5 +1367,145 @@ end)()
 	pg.base.dorm3d_subtitle[21042] = {
 		id = 21042,
 		subtitle = "We'll be together forever..."
+	}
+	pg.base.dorm3d_subtitle[22001] = {
+		id = 22001,
+		subtitle = "May this light..."
+	}
+	pg.base.dorm3d_subtitle[22002] = {
+		id = 22002,
+		subtitle = "Guide the lambs lost in the night..."
+	}
+	pg.base.dorm3d_subtitle[22003] = {
+		id = 22003,
+		subtitle = "Oh, are you waiting for my permission, Commander?"
+	}
+	pg.base.dorm3d_subtitle[22004] = {
+		id = 22004,
+		subtitle = "Then allow me to read this voiceless prayer with my fingers..."
+	}
+	pg.base.dorm3d_subtitle[22005] = {
+		id = 22005,
+		subtitle = "Heehee... Is this how you like to confess?"
+	}
+	pg.base.dorm3d_subtitle[22006] = {
+		id = 22006,
+		subtitle = "Is it salvation that you seek? Or..."
+	}
+	pg.base.dorm3d_subtitle[22007] = {
+		id = 22007,
+		subtitle = "A night of indulgence with me? Heehee♥"
+	}
+	pg.base.dorm3d_subtitle[22008] = {
+		id = 22008,
+		subtitle = "Awake, are we? I thought you'd doze for a little longer."
+	}
+	pg.base.dorm3d_subtitle[22009] = {
+		id = 22009,
+		subtitle = "The sun has risen. I was just about to make my confession for what happened last night... Heehee."
+	}
+	pg.base.dorm3d_subtitle[22010] = {
+		id = 22010,
+		subtitle = "Mmh... Trying to get in the way of my prayer? Or perhaps you're looking to continue where we left off?"
+	}
+	pg.base.dorm3d_subtitle[22011] = {
+		id = 22011,
+		subtitle = "Heehee, you haven't even smoothed the creases out of your clothes. We must hide the evidence of our sin."
+	}
+	pg.base.dorm3d_subtitle[22012] = {
+		id = 22012,
+		subtitle = "Now, that will do for the morning confession. The rest can wait till tonight... Heehee."
+	}
+	pg.base.dorm3d_subtitle[22013] = {
+		id = 22013,
+		subtitle = "What's the matter? Are you lonely and wanting my company?"
+	}
+	pg.base.dorm3d_subtitle[22014] = {
+		id = 22014,
+		subtitle = "Well, I suppose you're more worth reading than my books. Heehee."
+	}
+	pg.base.dorm3d_subtitle[22015] = {
+		id = 22015,
+		subtitle = "I read in my book that the meaning of a word can change depending on context."
+	}
+	pg.base.dorm3d_subtitle[22016] = {
+		id = 22016,
+		subtitle = "Like the word \"bind.\""
+	}
+	pg.base.dorm3d_subtitle[22017] = {
+		id = 22017,
+		subtitle = "It can mean... to tighten something up sometimes♪"
+	}
+	pg.base.dorm3d_subtitle[22021] = {
+		id = 22021,
+		subtitle = "I wonder if this can be described as \"love\"... Shall we find out through each other's touch?"
+	}
+	pg.base.dorm3d_subtitle[22022] = {
+		id = 22022,
+		subtitle = "Oh, you are being so gentle... Heeheehee. Are you trying to keep me in check?"
+	}
+	pg.base.dorm3d_subtitle[22023] = {
+		id = 22023,
+		subtitle = "I am attracted to assertive types like you... Perhaps I need to confess for this?"
+	}
+	pg.base.dorm3d_subtitle[22024] = {
+		id = 22024,
+		subtitle = "Can you feel it? How my heart throbs for you?"
+	}
+	pg.base.dorm3d_subtitle[22025] = {
+		id = 22025,
+		subtitle = "See, you are throbbing in the same way... right here."
+	}
+	pg.base.dorm3d_subtitle[22026] = {
+		id = 22026,
+		subtitle = "It seems we require a more direct proof."
+	}
+	pg.base.dorm3d_subtitle[22027] = {
+		id = 22027,
+		subtitle = "Accept it... This is what you want... There is no need to repent for this."
+	}
+	pg.base.dorm3d_subtitle[22028] = {
+		id = 22028,
+		subtitle = "Heehee... So this is your way to make me behave, isn't it?"
+	}
+	pg.base.dorm3d_subtitle[22029] = {
+		id = 22029,
+		subtitle = "Very well. I am happy to accept it, no matter what it is..."
+	}
+	pg.base.dorm3d_subtitle[22030] = {
+		id = 22030,
+		subtitle = "Mmm... Are you willing to go that far to have my heart? Heehee..."
+	}
+	pg.base.dorm3d_subtitle[22031] = {
+		id = 22031,
+		subtitle = "Ahh... If you keep going like this, I won't be able to say no to you anymore..."
+	}
+	pg.base.dorm3d_subtitle[22032] = {
+		id = 22032,
+		subtitle = "You want to write here, too, Commander? Aren't you greedy~♪"
+	}
+	pg.base.dorm3d_subtitle[22033] = {
+		id = 22033,
+		subtitle = "Mmh, my body's starting to tingle deep within... Is this because of your brush?"
+	}
+	pg.base.dorm3d_subtitle[22034] = {
+		id = 22034,
+		subtitle = "You want to... write here too?"
+	}
+	pg.base.dorm3d_subtitle[22035] = {
+		id = 22035,
+		subtitle = "Heehee. Write as much as you want. I'll treasure every bit of it♪"
+	}
+	pg.base.dorm3d_subtitle[22036] = {
+		id = 22036,
+		subtitle = "Already done? You don't think... this would be enough for me to show remorse, do you?"
+	}
+	pg.base.dorm3d_subtitle[22037] = {
+		id = 22037,
+		subtitle = "What a shame... Marks of love alone aren't enough to quiet this restless heart."
+	}
+	pg.base.dorm3d_subtitle[22038] = {
+		id = 22038,
+		subtitle = "And now... it's my turn to write on you♥"
 	}
 end)()

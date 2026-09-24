@@ -14,6 +14,28 @@ slot0.getUIName = function(slot0)
 	return "TechnologyTreeUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/Technologytreeui",
+		"ui/technologytreeui_atlas",
+		"tecclasslevelicon",
+		"tecnation",
+		"shipraritybaseicon",
+		"tecnation"
+	}
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(pg.fleet_tech_ship_class.all) do
+		for slot13, slot14 in ipairs(pg.fleet_tech_ship_class[slot8].ships) do
+			if ShipGroup.getDefaultSkin(slot14) then
+				table.insertto(slot3, ResPathSupport.GetShipSkinSpineShipModelList(slot15.id))
+			end
+		end
+	end
+
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), slot2, slot3)
+end
+
 slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()

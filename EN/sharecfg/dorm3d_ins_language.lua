@@ -67,7 +67,17 @@ pg.dorm3d_ins_language.all = {
 	"naximofu_2_1",
 	"naximofu_2_1_1",
 	"naximofu_2_2",
-	"naximofu_2_2_1"
+	"naximofu_2_2_1",
+	"yuanchou_1",
+	"yuanchou_1_1",
+	"yuanchou_1_1_1",
+	"yuanchou_1_2",
+	"yuanchou_1_2_1",
+	"yuanchou_2",
+	"yuanchou_2_1",
+	"yuanchou_2_1_1",
+	"yuanchou_2_2",
+	"yuanchou_2_2_1"
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_language = {}
@@ -396,6 +406,56 @@ pg.base.dorm3d_ins_language = {}
 	pg.base.dorm3d_ins_language.naximofu_2_2_1 = {
 		value = "Checking equipment status... Done. I'm ready for combat any time.",
 		key = "naximofu_2_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1 = {
+		value = "Commander, do you prefer your potted plants to be carefully pruned? Or do you like to let them grow as they please?",
+		key = "yuanchou_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_1 = {
+		value = "I like trimming them.",
+		key = "yuanchou_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_1_1 = {
+		value = "Tender management is just another part of care, isn't it?",
+		key = "yuanchou_1_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_2 = {
+		value = "I like letting it all hang out.",
+		key = "yuanchou_1_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_2_1 = {
+		value = "Letting one flourish as they please is beautiful, in its own way~",
+		key = "yuanchou_1_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2 = {
+		value = "I tried something new today... Heehee.",
+		key = "yuanchou_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_1 = {
+		value = "What's the recipe?",
+		key = "yuanchou_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_1_1 = {
+		value = "Premium tea leaves with chameleon plant. Creative, isn't it?",
+		key = "yuanchou_2_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_2 = {
+		value = "Looks pretty good.",
+		key = "yuanchou_2_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_2_1 = {
+		value = "I set aside a cup just for you. Hurry over and give it a try!",
+		key = "yuanchou_2_2_1",
 		is_active = "0"
 	}
 end)()

@@ -4,6 +4,18 @@ slot0.getUIName = function(slot0)
 	return "NewShipDocumentView"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {}
+
+	if slot1.ship then
+		_.each(pg.ship_data_template[slot3:getMaxConfigId()].buff_list_display, function (slot0)
+			table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.ShipSkillIcon, getSkillConfig(slot0).icon))
+		end)
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0))
+end
+
 slot0.OnInit = function(slot0)
 	slot0:InitUI()
 	slot0:AddListener()

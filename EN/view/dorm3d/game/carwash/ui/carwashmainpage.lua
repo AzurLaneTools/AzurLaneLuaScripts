@@ -68,20 +68,62 @@ slot0.BindEvent = function(slot0)
 			return
 		end
 
-		uv0:Hide()
+		uv0:SetTimelineUIVisible(false)
 	end)
 	slot0:bind(CarWashTimelineSystem.TIMELINE_SEQUENCE_END, function (slot0, slot1)
 		if slot1 and slot1.data and slot1.data.hideUI == false then
 			return
 		end
 
-		uv0:Show()
+		uv0:SetTimelineUIVisible(true)
 	end)
 	slot0:bind(CarWashTimelineSystem.TRANSITION_BEGIN, function ()
 		uv0:EnableBlock(true)
 	end)
 	slot0:bind(CarWashTimelineSystem.TRANSITION_END, function ()
 		uv0:EnableBlock(false)
+	end)
+end
+
+slot0.SetTimelineUIVisible = function(slot0, slot1)
+	if slot1 then
+		slot2 = ipairs
+		slot3 = slot0.timelineUIGroups or {}
+
+		for slot5, slot6 in slot2(slot3) do
+			slot6.group.alpha = slot6.alpha
+			slot6.group.interactable = slot6.interactable
+			slot6.group.blocksRaycasts = slot6.blocksRaycasts
+		end
+
+		slot0.timelineUIGroups = nil
+
+		return
+	end
+
+	if slot0.timelineUIGroups then
+		return
+	end
+
+	slot0.timelineUIGroups = {}
+
+	eachChild(slot0._tf, function (slot0)
+		if slot0.name == "HolyLightRoot" or slot0.name == "block" then
+			return
+		end
+
+		slot1 = GetOrAddComponent(slot0, typeof(CanvasGroup))
+
+		table.insert(uv0.timelineUIGroups, {
+			group = slot1,
+			alpha = slot1.alpha,
+			interactable = slot1.interactable,
+			blocksRaycasts = slot1.blocksRaycasts
+		})
+
+		slot1.alpha = 0
+		slot1.interactable = false
+		slot1.blocksRaycasts = false
 	end)
 end
 

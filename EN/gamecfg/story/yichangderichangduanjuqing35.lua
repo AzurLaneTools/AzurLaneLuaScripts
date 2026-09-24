@@ -4,13 +4,14 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
+			side = 2,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 317031,
 			nameColor = "#A9F548FF",
-			say = "I-14 stares at the mask in her hand with an inscrutable expression on her face.",
 			hidePaintObj = true,
-			withoutActorName = true,
-			side = 2,
-			hideRecordIco = true,
+			say = "I-14 stares at the mask in her hand with an inscrutable expression on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,11 +19,12 @@ return {
 		},
 		{
 			expression = 10,
-			nameColor = "#A9F548FF",
-			actor = 317031,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 317031,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "*Bubble* *Bubble*... You're here.",
 			typewriter = {
 				speed = 0.05,
@@ -30,11 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 317031,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 317031,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "What do you wanna talk about today?",
 			typewriter = {
 				speed = 0.05,
@@ -52,12 +55,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 317031,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -67,10 +71,11 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Wanna blow bubbles together?",
 			typewriter = {
@@ -79,12 +84,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 317031,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "A disguise tool. That's all...",
 			typewriter = {
 				speed = 0.05,
@@ -94,10 +100,11 @@ return {
 		{
 			expression = 9,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "Wearing it only makes you feel empty...",
 			typewriter = {

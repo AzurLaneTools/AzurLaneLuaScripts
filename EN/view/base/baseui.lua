@@ -57,6 +57,25 @@ slot0.preloadUIList = function(slot0)
 	}
 end
 
+slot0.getResource = function(slot0, slot1)
+	_.each({
+		slot0:getBGM()
+	}, function (slot0)
+		if noEmptyStr(slot0) then
+			_.each(ResPathSupport.GetSoundResList(slot0), function (slot0)
+				table.insert(uv0, slot0)
+			end)
+		end
+	end)
+	_.each(slot0:preloadUIList(), function (slot0)
+		if noEmptyStr(slot0) then
+			table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Base, slot0))
+		end
+	end)
+
+	return {}
+end
+
 slot0.needCache = function(slot0)
 	return false
 end

@@ -58,6 +58,29 @@ slot0.preload = function(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2 = {
+		"UI/UIIsland"
+	}
+	slot3 = ipairs
+	slot4 = slot0.cacheAbList or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		if not table.contains(slot1, slot7) then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot2) do
+		if noEmptyStr(slot7) and not table.contains(slot1, slot7) then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	return slot1
+end
+
 slot0.LoadUIContainer = function(slot0, slot1)
 	slot2 = ResourceMgr.Inst
 

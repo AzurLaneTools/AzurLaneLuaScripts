@@ -590,6 +590,14 @@ pg.base.battlepass_event_award = {}
 			1
 		}
 	}
+	pg.base.battlepass_event_award[10031] = {
+		id = 10031,
+		drop_client = {
+			2,
+			30347,
+			1
+		}
+	}
 	pg.base.battlepass_event_award[11015] = {
 		id = 11015,
 		drop_client = {
@@ -718,6 +726,14 @@ pg.base.battlepass_event_award = {}
 			1
 		}
 	}
+	pg.base.battlepass_event_award[11031] = {
+		id = 11031,
+		drop_client = {
+			2,
+			30528,
+			1
+		}
+	}
 	pg.base.battlepass_event_award[12015] = {
 		id = 12015,
 		drop_client = {
@@ -790,6 +806,8 @@ pg.base.battlepass_event_award = {}
 			1
 		}
 	}
+end)()
+(function ()
 	pg.base.battlepass_event_award[12024] = {
 		id = 12024,
 		drop_client = {
@@ -806,8 +824,6 @@ pg.base.battlepass_event_award = {}
 			1
 		}
 	}
-end)()
-(function ()
 	pg.base.battlepass_event_award[12026] = {
 		id = 12026,
 		drop_client = {
@@ -848,6 +864,14 @@ end)()
 			1
 		}
 	}
+	pg.base.battlepass_event_award[12031] = {
+		id = 12031,
+		drop_client = {
+			2,
+			30437,
+			1
+		}
+	}
 	pg.base.battlepass_event_award[13015] = {
 		id = 13015,
 		drop_client = {
@@ -856,11 +880,19 @@ end)()
 			1
 		}
 	}
+	pg.base.battlepass_event_award[13016] = {
+		id = 13016,
+		drop_client = {
+			9,
+			2071,
+			1
+		}
+	}
 	pg.base.battlepass_event_award[13017] = {
 		id = 13017,
 		drop_client = {
 			9,
-			2071,
+			2075,
 			1
 		}
 	}
@@ -868,7 +900,7 @@ end)()
 		id = 13018,
 		drop_client = {
 			9,
-			2075,
+			2079,
 			1
 		}
 	}
@@ -876,7 +908,7 @@ end)()
 		id = 13019,
 		drop_client = {
 			9,
-			2079,
+			2087,
 			1
 		}
 	}
@@ -884,7 +916,7 @@ end)()
 		id = 13020,
 		drop_client = {
 			9,
-			2087,
+			2091,
 			1
 		}
 	}
@@ -892,7 +924,7 @@ end)()
 		id = 13021,
 		drop_client = {
 			9,
-			2091,
+			2095,
 			1
 		}
 	}
@@ -900,7 +932,7 @@ end)()
 		id = 13022,
 		drop_client = {
 			9,
-			2095,
+			2099,
 			1
 		}
 	}
@@ -908,7 +940,7 @@ end)()
 		id = 13023,
 		drop_client = {
 			9,
-			2099,
+			2103,
 			1
 		}
 	}
@@ -916,7 +948,7 @@ end)()
 		id = 13024,
 		drop_client = {
 			9,
-			2103,
+			2107,
 			1
 		}
 	}
@@ -924,20 +956,12 @@ end)()
 		id = 13025,
 		drop_client = {
 			9,
-			2107,
+			2111,
 			1
 		}
 	}
 	pg.base.battlepass_event_award[13026] = {
 		id = 13026,
-		drop_client = {
-			9,
-			2111,
-			1
-		}
-	}
-	pg.base.battlepass_event_award[13027] = {
-		id = 13027,
 		drop_client = {
 			9,
 			2115,
@@ -965,6 +989,14 @@ end)()
 		drop_client = {
 			9,
 			2127,
+			1
+		}
+	}
+	pg.base.battlepass_event_award[13031] = {
+		id = 13031,
+		drop_client = {
+			9,
+			2131,
 			1
 		}
 	}
@@ -1096,6 +1128,14 @@ end)()
 			1
 		}
 	}
+	pg.base.battlepass_event_award[14031] = {
+		id = 14031,
+		drop_client = {
+			9,
+			2129,
+			1
+		}
+	}
 	pg.base.battlepass_event_award[15015] = {
 		id = 15015,
 		drop_client = {
@@ -1224,6 +1264,14 @@ end)()
 			1
 		}
 	}
+	pg.base.battlepass_event_award[15031] = {
+		id = 15031,
+		drop_client = {
+			9,
+			2130,
+			1
+		}
+	}
 	pg.base.battlepass_event_award[16015] = {
 		id = 16015,
 		drop_client = {
@@ -1341,6 +1389,14 @@ end)()
 		drop_client = {
 			9,
 			2128,
+			1
+		}
+	}
+	pg.base.battlepass_event_award[16031] = {
+		id = 16031,
+		drop_client = {
+			9,
+			2132,
 			1
 		}
 	}
@@ -1488,6 +1544,14 @@ end)()
 			1
 		}
 	}
+	pg.base.battlepass_event_award[20031] = {
+		id = 20031,
+		drop_client = {
+			4,
+			9701131,
+			1
+		}
+	}
 	pg.base.battlepass_event_award[21015] = {
 		id = 21015,
 		drop_client = {
@@ -1544,6 +1608,8 @@ end)()
 			1
 		}
 	}
+end)()
+(function ()
 	pg.base.battlepass_event_award[21022] = {
 		id = 21022,
 		drop_client = {
@@ -1608,13 +1674,19 @@ end)()
 			1
 		}
 	}
-end)()
-(function ()
 	pg.base.battlepass_event_award[21030] = {
 		id = 21030,
 		drop_client = {
 			7,
 			103092,
+			1
+		}
+	}
+	pg.base.battlepass_event_award[21031] = {
+		id = 21031,
+		drop_client = {
+			7,
+			101482,
 			1
 		}
 	}
@@ -1919,6 +1991,14 @@ end)()
 		drop_client = {
 			31,
 			116,
+			1
+		}
+	}
+	pg.base.battlepass_event_award[40031] = {
+		id = 40031,
+		drop_client = {
+			31,
+			117,
 			1
 		}
 	}

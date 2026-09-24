@@ -14,8 +14,16 @@ slot0.bindConfigTable = function(slot0)
 	return pg.chapter_auto_statistics
 end
 
+slot0.GetType = function(slot0)
+	return slot0.type
+end
+
 slot0.GetFinishTime = function(slot0)
 	return slot0.finishTime
+end
+
+slot0.GetStartTime = function(slot0)
+	return slot0.finishTime - slot0.costTime
 end
 
 slot0.IsFinished = function(slot0)
@@ -46,6 +54,9 @@ slot0.GetOnceOil = function(slot0, slot1)
 	return switch(slot0, {
 		[ChapterAutoProxy.TYPE.SLG] = function ()
 			return pg.chapter_auto_statistics[uv0].oil_limit
+		end,
+		[ChapterAutoProxy.TYPE.WORLD] = function ()
+			return pg.world_auto_statistics[uv0].oil_limit
 		end
 	}, function ()
 		assert(false, "invalid chapter auto type: " .. tostring(uv0))

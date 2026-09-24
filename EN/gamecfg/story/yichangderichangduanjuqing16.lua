@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "I've been waiting for you, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -16,11 +17,12 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Don't be scared, please. I'm not a man-eating fox. I was just hoping we could have some tea together♪",
 			typewriter = {
 				speed = 0.05,
@@ -38,12 +40,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Go right ahead and take a seat next to me.",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +54,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "I prepared some sweets to go with the tea. I hope you like them.",
 			typewriter = {
 				speed = 0.05,
@@ -64,12 +68,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "Oh... That's a shame...",
 			typewriter = {
 				speed = 0.05,

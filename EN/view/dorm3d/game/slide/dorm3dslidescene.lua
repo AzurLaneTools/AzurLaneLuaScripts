@@ -41,6 +41,22 @@ slot0.preload = function(slot0, slot1)
 	}, slot1)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot0.gameConfig = pg.dorm3d_minigame_slide[slot0.contextData.groupId]
+
+	for slot7, slot8 in ipairs({
+		slot0.gameConfig.peform_scene_info[1],
+		slot0.gameConfig.peform_scene_info[2]
+	}) do
+		if not table.contains(slot1, slot8) then
+			table.insert(slot1, slot8)
+		end
+	end
+
+	return slot1
+end
+
 slot0.init = function(slot0)
 	slot0:InitScene()
 	slot0:InitUI()

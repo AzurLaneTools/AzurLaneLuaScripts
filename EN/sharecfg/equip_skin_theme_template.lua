@@ -2238,7 +2238,11 @@ pg.base.equip_skin_theme_template = {}
 			2125,
 			2126,
 			2127,
-			2128
+			2128,
+			2129,
+			2130,
+			2131,
+			2132
 		}
 	}
 	pg.base.equip_skin_theme_template[199] = {
