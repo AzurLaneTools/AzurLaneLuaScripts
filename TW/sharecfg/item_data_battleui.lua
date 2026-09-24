@@ -25,7 +25,8 @@ pg.item_data_battleui.all = {
 	206,
 	207,
 	208,
-	209
+	209,
+	210
 }
 pg.base = pg.base or {}
 pg.base.item_data_battleui = {}
@@ -385,6 +386,23 @@ pg.base.item_data_battleui = {}
 		desc = "單調色彩構築的極簡風格指揮介面，機械紋路與戰術視窗有序展開，彷彿接入寄葉部隊的作戰協定之中。",
 		id = 209,
 		icon = "209",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	}
+	pg.base.item_data_battleui[210] = {
+		name = "燭影鏡台",
+		key = "SkinElite_20260908",
+		display_icon = "ui_210",
+		unlock = "燭影鏡台戰鬥主題禮包獲取",
+		is_unlock = 1,
+		rare = 4,
+		desc = "燭火在鏡面間搖曳，幽影與荊棘相交織，讓每一次戰鬥都揭開一段徘徊於虛實之間的劇目序章。",
+		id = 210,
+		icon = "210",
 		scene = {},
 		rare_display = {
 			1,

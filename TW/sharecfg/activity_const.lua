@@ -37,7 +37,7 @@ pg.base.activity_const = {}
 		act_id = 270
 	}
 	pg.base.activity_const.ACTIVITY_PRAY_POOL = {
-		act_id = 50618
+		act_id = 51151
 	}
 	pg.base.activity_const.ACTIVITY_BOSS_PT_ID = {
 		act_id = 4916

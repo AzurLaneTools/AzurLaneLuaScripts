@@ -26,6 +26,21 @@ temp = function()
 			this = true
 		},
 		["敢"] = {
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["敵"] = {
+		["對"] = {
 			this = true
 		}
 	}
@@ -71,11 +86,6 @@ temp = function()
 		},
 		["狼"] = {
 			["星"] = {
-				this = true
-			}
-		},
-		["津"] = {
-			["風"] = {
 				this = true
 			}
 		},
@@ -271,6 +281,16 @@ temp = function()
 			["亞"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["匆"] = {
+		["忙"] = {
+			this = true
 		}
 	}
 end
@@ -502,40 +522,6 @@ temp = function()
 	uv0["壯"] = {
 		["麗"] = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["倫"] = {
-		["敦"] = {
-			this = true,
-			["‧"] = {
-				["改"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["什"] = {
-		["羅"] = {
-			["普"] = {
-				["郡"] = {
-					this = true,
-					["."] = {
-						["改"] = {
-							this = true
-						}
-					}
-				}
-			}
 		}
 	}
 end

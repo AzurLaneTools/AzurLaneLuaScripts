@@ -217,7 +217,7 @@ return {
 		return NetConst.getwayType == 1
 	end,
 	CheckPreAudit = function ()
-		return NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+		return NetConst.GATEWAY_PORT == 30001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com" or NetConst.GATEWAY_PORT == 41001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
 	end,
 	CheckPretest = function ()
 		return IsUnityEditor or uv0.CheckPreAudit()

@@ -4,6 +4,157 @@ slot0.word_legal_template_11 = {}
 slot1 = slot0.word_legal_template_11
 
 temp = function()
+	uv0["弗"] = {
+		["里"] = {
+			["茨"] = {
+				["·"] = {
+					["魯"] = {
+						["梅"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["朗"] = {
+			["切"] = {
+				["斯"] = {
+					["科"] = {
+						["·"] = {
+							["卡"] = {
+								["拉"] = {
+									["喬"] = {
+										["洛"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0.U = {
+		["-"] = {
+			["8"] = {
+				["1"] = {
+					this = true
+				}
+			},
+			["4"] = {
+				["7"] = {
+					this = true
+				},
+				["1"] = {
+					["0"] = {
+						this = true
+					}
+				}
+			},
+			["5"] = {
+				["5"] = {
+					["7"] = {
+						this = true
+					},
+					["6"] = {
+						this = true,
+						["·"] = {
+							M = {
+								E = {
+									T = {
+										A = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					},
+					["2"] = {
+						this = true
+					}
+				},
+				["2"] = {
+					["2"] = {
+						this = true
+					}
+				}
+			},
+			["7"] = {
+				["3"] = {
+					this = true
+				}
+			},
+			["1"] = {
+				["0"] = {
+					["1"] = {
+						this = true
+					}
+				},
+				["1"] = {
+					["0"] = {
+						this = true
+					}
+				},
+				["2"] = {
+					["0"] = {
+						["6"] = {
+							this = true
+						}
+					}
+				}
+			},
+			["9"] = {
+				["6"] = {
+					this = true
+				}
+			},
+			["3"] = {
+				["7"] = {
+					this = true
+				},
+				["1"] = {
+					this = true
+				}
+			},
+			["2"] = {
+				["5"] = {
+					["0"] = {
+						["1"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鞍"] = {
+		["山"] = {
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["撫"] = {
 		["順"] = {
 			this = true,
@@ -43,16 +194,6 @@ temp = function()
 					this = true
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["虎"] = {
-		["賁"] = {
-			this = true
 		}
 	}
 end
@@ -431,51 +572,6 @@ temp = function()
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["基"] = {
-		["輔"] = {
-			this = true
-		},
-		["洛"] = {
-			["夫"] = {
-				this = true,
-				["·"] = {
-					M = {
-						E = {
-							T = {
-								A = {
-									this = true,
-									["（"] = {
-										["后"] = {
-											["排"] = {
-												["）"] = {
-													this = true
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["兇"] = {
-		["猛"] = {
-			this = true
 		}
 	}
 end

@@ -152,12 +152,12 @@ slot0.updateGoods = function(slot0, slot1, slot2, slot3)
 	slot8 = {}
 
 	for slot12, slot13 in pairs(slot3) do
-		if slot4:inTime(pg.shop_template[slot12].time) then
-			if not slot4:inTime(pg.shop_template[slot12].time, slot6 - 1) then
+		if slot4:inTime(ShopConst.GetShopConfig(slot12).time) then
+			if not slot4:inTime(slot14.time, slot6 - 1) then
 				-- Nothing
 			elseif slot12 == 100000 and not nowWorld():IsReseted() then
 				-- Nothing
-			elseif pg.shop_template[slot12].genre ~= ShopArgs.WorldCollection or slot13 ~= 0 or not slot7:getRecycleTask(pg.shop_template[slot12].effect_args[2]) then
+			elseif slot14.genre ~= ShopArgs.WorldCollection or slot13 ~= 0 or not slot7:getRecycleTask(slot14.effect_args[2]) then
 				table.insert(slot8, {
 					id = slot12,
 					count = slot13
@@ -168,7 +168,7 @@ slot0.updateGoods = function(slot0, slot1, slot2, slot3)
 
 	table.sort(slot8, CompareFuncs({
 		function (slot0)
-			return pg.shop_template[slot0.id].order
+			return ShopConst.GetShopConfig(slot0.id).order
 		end,
 		function (slot0)
 			return slot0.id

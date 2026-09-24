@@ -4,6 +4,51 @@ slot0.word_legal_template_12 = {}
 slot1 = slot0.word_legal_template_12
 
 temp = function()
+	uv0["基"] = {
+		["輔"] = {
+			this = true
+		},
+		["洛"] = {
+			["夫"] = {
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true,
+									["（"] = {
+										["后"] = {
+											["排"] = {
+												["）"] = {
+													this = true
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["兇"] = {
+		["猛"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["頑"] = {
 		["皮"] = {
 			this = true
@@ -395,54 +440,6 @@ temp = function()
 			["蘿"] = {
 				["絲"] = {
 					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["冒"] = {
-		["險"] = {
-			["加"] = {
-				["利"] = {
-					["號"] = {
-						this = true
-					}
-				}
-			},
-			["號"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["樸"] = {
-		["茨"] = {
-			["茅"] = {
-				["斯"] = {
-					["冒"] = {
-						["險"] = {
-							["號"] = {
-								this = true,
-								["（"] = {
-									["後"] = {
-										["排"] = {
-											["）"] = {
-												this = true
-											}
-										}
-									}
-								}
-							}
-						}
-					}
 				}
 			}
 		}

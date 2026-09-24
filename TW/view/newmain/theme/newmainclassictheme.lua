@@ -17,7 +17,7 @@ slot0.PlayEnterAnimation = function(slot0, slot1, slot2)
 	uv0.super.PlayEnterAnimation(slot0, slot1, slot2)
 end
 
-slot0._FoldPanels = function(slot0, slot1, slot2)
+slot0._FoldPanels = function(slot0, slot1, slot2, slot3)
 	uv0.super._FoldPanels(slot0, slot1, slot2)
 	slot0.adapterView:Fold(slot1, slot2)
 end

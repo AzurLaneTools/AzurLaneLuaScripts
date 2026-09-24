@@ -106,7 +106,9 @@ slot0.didEnter = function(slot0)
 		slot0:updateOperation4()
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+		staticBlur = true
+	})
 end
 
 slot1 = {

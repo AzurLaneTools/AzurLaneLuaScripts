@@ -85,6 +85,7 @@ pg.equip_skin_theme_template.all = {
 	86,
 	87,
 	88,
+	89,
 	101,
 	102,
 	103,
@@ -1967,6 +1968,30 @@ pg.base.equip_skin_theme_template = {}
 			4435,
 			4436,
 			4437
+		}
+	}
+	pg.base.equip_skin_theme_template[89] = {
+		id = 89,
+		name = "幽影奇談",
+		ids = {
+			4438,
+			4439,
+			4440,
+			4441,
+			4442,
+			4443,
+			4444,
+			4445,
+			4446,
+			4447,
+			4448,
+			4449,
+			4450,
+			4451,
+			4452,
+			4453,
+			4454,
+			4455
 		}
 	}
 	pg.base.equip_skin_theme_template[101] = {

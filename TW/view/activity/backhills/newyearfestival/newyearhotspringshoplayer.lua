@@ -124,11 +124,7 @@ slot0.UpdateGoods = function(slot0)
 		slot3 = uv0[slot1 + 1]
 
 		setActive(slot2:Find("mask"), not slot3:canPurchase())
-		updateDrop(slot2:Find("Icon"), {
-			type = slot3:getConfig("commodity_type"),
-			id = slot3:getConfig("commodity_id"),
-			count = slot3:getConfig("num")
-		})
+		updateDrop(slot2:Find("Icon"), slot3:getDropInfo())
 		onButton(uv1, slot2, function ()
 			slot0 = uv0
 
@@ -178,10 +174,7 @@ slot0.OnClickCommodity = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot0:Purchase(slot1, 1, Drop.New({
-		id = slot1:getConfig("commodity_id"),
-		type = slot1:getConfig("commodity_type")
-	}):getConfig("name"), slot2)
+	slot0:Purchase(slot1, 1, slot1:getDropInfo():getConfig("name"), slot2)
 end
 
 slot0.OnPurchase = function(slot0, slot1, slot2)

@@ -455,72 +455,84 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 	slot22 = findTF(slot4, "circle/narrative")
 
 	setText(findTF(slot22, "Text"), i18n("tag_level_narrative"))
+
+	slot23 = findTF(slot4, "circle/auto")
+
+	setText(findTF(slot23, "Text"), i18n("tag_level_autoing"))
 	setActive(slot20, false)
 	setActive(slot21, false)
 	setActive(slot22, false)
+	setActive(slot23, false)
 
-	slot23, slot24 = nil
+	slot24, slot25 = nil
 
 	if slot2:getConfig("chapter_tag") == 1 then
-		slot23 = slot22
+		slot24 = slot22
 	end
 
 	if slot2.active then
-		slot23 = slot2:existOni() and slot21 or slot20
+		slot24 = slot2:existOni() and slot21 or slot20
 	end
 
-	if slot23 then
-		setActive(slot23, true)
+	if getProxy(ChapterProxy):GetAutoChapterId() and slot26 == slot2.id then
+		slot24 = slot23
+		slot27, slot28 = getProxy(ChapterAutoProxy):GetCntInfo()
 
-		slot24 = GetOrAddComponent(slot23, "CanvasGroup")
-		slot24.alpha = 1
-
-		slot0:RecordTween("fighting" .. slot2.id, LeanTween.alphaCanvas(slot24, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
+		setText(findTF(slot23, "Text"), slot27 < slot28 and i18n("tag_level_autoing") or i18n("tag_level_auto_finish"))
 	end
 
-	slot26 = slot2:isTriesLimit()
+	if slot24 then
+		setActive(slot24, true)
 
-	setActive(findTF(slot4, "triesLimit"), slot26)
+		slot25 = GetOrAddComponent(slot24, "CanvasGroup")
+		slot25.alpha = 1
 
-	if slot26 then
-		slot27 = slot2:getConfig("count")
-
-		setText(slot25:Find("label"), i18n("levelScene_chapter_count_tip"))
-		setText(slot25:Find("Text"), setColorStr(slot27 - slot2:getTodayDefeatCount() .. "/" .. slot27, slot27 <= slot2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
-		setActive(slot25:Find("TipRect"), getProxy(ChapterProxy):IsActivitySPChapterActive(pg.expedition_data_by_map[slot2:getConfig("map")].on_activity) and SettingsProxy.IsShowActivityMapSPTip())
+		slot0:RecordTween("fighting" .. slot2.id, LeanTween.alphaCanvas(slot25, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
 	end
 
-	slot27 = slot2:GetDailyBonusQuota()
-	slot28 = findTF(slot4, "mark")
-	slot29 = slot28:Find("bonus")
-	slot31 = findTF(slot29, "icon/Image")
+	slot28 = slot2:isTriesLimit()
 
-	setActive(slot29, slot27)
-	setActive(slot28, slot27)
+	setActive(findTF(slot4, "triesLimit"), slot28)
 
-	if slot29:Find("icon") then
-		setActive(slot30, slot27 and slot0.bonusPtIconPath)
+	if slot28 then
+		slot29 = slot2:getConfig("count")
+
+		setText(slot27:Find("label"), i18n("levelScene_chapter_count_tip"))
+		setText(slot27:Find("Text"), setColorStr(slot29 - slot2:getTodayDefeatCount() .. "/" .. slot29, slot29 <= slot2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
+		setActive(slot27:Find("TipRect"), getProxy(ChapterProxy):IsActivitySPChapterActive(pg.expedition_data_by_map[slot2:getConfig("map")].on_activity) and SettingsProxy.IsShowActivityMapSPTip())
 	end
 
-	if slot27 then
-		slot32 = slot28:GetComponent(typeof(CanvasGroup))
+	slot29 = slot2:GetDailyBonusQuota()
+	slot30 = findTF(slot4, "mark")
+	slot31 = slot30:Find("bonus")
+	slot33 = findTF(slot31, "icon/Image")
 
-		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot2:GetDailyBonusIconName(), slot29)
+	setActive(slot31, slot29)
+	setActive(slot30, slot29)
 
-		if slot30 and slot0.bonusPtIconPath then
-			if slot31 then
-				GetImageSpriteFromAtlasAsync(slot0.bonusPtIconPath, "", slot31, true)
+	if slot31:Find("icon") then
+		setActive(slot32, slot29 and slot0.bonusPtIconPath)
+	end
+
+	if slot29 then
+		slot34 = slot30:GetComponent(typeof(CanvasGroup))
+
+		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot2:GetDailyBonusIconName(), slot31)
+
+		if slot32 and slot0.bonusPtIconPath then
+			if slot33 then
+				GetImageSpriteFromAtlasAsync(slot0.bonusPtIconPath, "", slot33, true)
 			else
-				GetImageSpriteFromAtlasAsync(slot0.bonusPtIconPath, "", slot30, true)
+				GetImageSpriteFromAtlasAsync(slot0.bonusPtIconPath, "", slot32, true)
 			end
 		end
 
-		LeanTween.cancel(go(slot28), true)
+		LeanTween.cancel(go(slot30), true)
 
-		slot34 = slot28.anchoredPosition.y
-		slot32.alpha = 0
+		slot36 = slot30.anchoredPosition.y
+		slot34.alpha = 0
 
-		LeanTween.value(go(slot28), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
+		LeanTween.value(go(slot30), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
 			uv0.alpha = slot0
 			slot1 = uv1.anchoredPosition
 			slot1.y = uv2 * slot0
@@ -533,7 +545,7 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 		end)):setEase(LeanTweenType.easeOutSine):setDelay(0.7)
 	end
 
-	slot32 = slot2.id
+	slot34 = slot2.id
 
 	onButton(slot0, slot4, function ()
 		uv0:TryOpenChapterInfo(uv1, nil, uv2.list)

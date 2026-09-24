@@ -8058,6 +8058,92 @@ pg.activity_ins_language.all = {
 	"op_reply_667_1_1",
 	"ins_op_667_1_2",
 	"op_reply_667_1_2",
+	"ins_669",
+	"ins_discuss_669_1",
+	"ins_reply_669_1_1",
+	"ins_reply_669_1_2",
+	"ins_reply_669_1_3",
+	"ins_discuss_669_2",
+	"ins_reply_669_2_1",
+	"ins_reply_669_2_2",
+	"ins_reply_669_2_3",
+	"ins_op_669_1_1",
+	"op_reply_669_1_1",
+	"ins_op_669_1_2",
+	"op_reply_669_1_2",
+	"ins_670",
+	"ins_discuss_670_1",
+	"ins_reply_670_1_1",
+	"ins_reply_670_1_2",
+	"ins_reply_670_1_3",
+	"ins_reply_670_1_4",
+	"ins_reply_670_1_5",
+	"ins_reply_670_1_6",
+	"ins_discuss_670_2",
+	"ins_reply_670_2_1",
+	"ins_reply_670_2_2",
+	"ins_discuss_670_3",
+	"ins_reply_670_3_1",
+	"ins_reply_670_3_2",
+	"ins_reply_670_3_3",
+	"ins_reply_670_3_4",
+	"ins_op_670_1_1",
+	"op_reply_670_1_1",
+	"ins_op_670_1_2",
+	"op_reply_670_1_2",
+	"ins_671",
+	"ins_discuss_671_1",
+	"ins_reply_671_1_1",
+	"ins_discuss_671_2",
+	"ins_reply_671_2_1",
+	"ins_reply_671_2_2",
+	"ins_reply_671_2_3",
+	"ins_reply_671_2_4",
+	"ins_reply_671_2_5",
+	"ins_reply_671_2_6",
+	"ins_discuss_671_3",
+	"ins_reply_671_3_1",
+	"ins_reply_671_3_2",
+	"ins_reply_671_3_3",
+	"ins_reply_671_3_4",
+	"ins_op_671_1_1",
+	"op_reply_671_1_1",
+	"ins_op_671_1_2",
+	"op_reply_671_1_2",
+	"ins_672",
+	"ins_discuss_672_1",
+	"ins_reply_672_1_1",
+	"ins_reply_672_1_2",
+	"ins_reply_672_1_3",
+	"ins_reply_672_1_4",
+	"ins_reply_672_1_5",
+	"ins_discuss_672_2",
+	"ins_reply_672_2_1",
+	"ins_reply_672_2_2",
+	"ins_reply_672_2_3",
+	"ins_reply_672_2_4",
+	"ins_op_672_1_1",
+	"op_reply_672_1_1",
+	"ins_op_672_1_2",
+	"op_reply_672_1_2",
+	"ins_673",
+	"ins_discuss_673_1",
+	"ins_reply_673_1_1",
+	"ins_reply_673_1_2",
+	"ins_reply_673_1_3",
+	"ins_discuss_673_2",
+	"ins_reply_673_2_1",
+	"ins_reply_673_2_2",
+	"ins_reply_673_2_3",
+	"ins_discuss_673_3",
+	"ins_reply_673_3_1",
+	"ins_reply_673_3_2",
+	"ins_reply_673_3_3",
+	"ins_reply_673_3_4",
+	"ins_op_673_1_1",
+	"op_reply_673_1_1",
+	"ins_op_673_1_2",
+	"op_reply_673_1_2",
 	"ins_20001",
 	"ins_discuss_20001_1",
 	"ins_reply_20001_1_1",
@@ -32523,46 +32609,46 @@ end)()
 		value = "咳咳……這次絕對不會！"
 	}
 	pg.base.activity_ins_language.ins_668 = {
-		value = ""
+		value = "哼哼~視野很開闊呢~"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_1 = {
-		value = ""
+		value = "嗚哇——是威風凜凜的天津風大人！"
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_1 = {
-		value = ""
+		value = "如此豪華的座駕……這是立下了何等輝煌的功績？"
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_2 = {
-		value = ""
+		value = "哇哈哈！這番誇耀甚得我心！作為獎勵，就賜予妳們搭乘這頂轎子的資格吧！"
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_3 = {
-		value = ""
+		value = "如此禮賢下士，這便是武將之風嗎……"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_2 = {
-		value = ""
+		value = "喂！那不是我的座駕嗎？！妳怎麼把它拿出來用了！"
 	}
 	pg.base.activity_ins_language.ins_reply_668_2_1 = {
-		value = ""
+		value = "……但妳自己都快忘記這頂座駕了吧？"
 	}
 	pg.base.activity_ins_language.ins_reply_668_2_2 = {
-		value = ""
+		value = "如此華麗的轎子妳居然放著不管，真是浪費！放心吧，我會好好愛惜它的！"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_3 = {
-		value = ""
+		value = "欸~這樣好像能彌補和指揮官的身高差呢♪"
 	}
 	pg.base.activity_ins_language.ins_reply_668_3_1 = {
-		value = ""
+		value = "直接跳起來抱住指揮官也是一種解法？呵呵~"
 	}
 	pg.base.activity_ins_language.ins_op_668_1_1 = {
-		value = ""
+		value = "是威風凜凜的天津風大人！"
 	}
 	pg.base.activity_ins_language.op_reply_668_1_1 = {
-		value = ""
+		value = "哼哼~我已經為你留好位置了哦？逾時不候~"
 	}
 	pg.base.activity_ins_language.ins_op_668_1_2 = {
-		value = ""
+		value = "這是準備去哪裡？"
 	}
 	pg.base.activity_ins_language.op_reply_668_1_2 = {
-		value = ""
+		value = "指揮官猜一猜怎麼樣？要是猜中了……就獎勵你跟我一起出發吧~"
 	}
 	pg.base.activity_ins_language.ins_663 = {
 		value = "想要酷炫的墨鏡嗎？我這裡有很多哦~絕對有你喜歡的！"
@@ -32782,6 +32868,266 @@ end)()
 	pg.base.activity_ins_language.op_reply_667_1_2 = {
 		value = "既……既然指揮官都這麼說了……"
 	}
+	pg.base.activity_ins_language.ins_669 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_669_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_669_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_669_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_669_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_669_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_669_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_669_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_669_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_669_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_669_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_669_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_669_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_670 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_670_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_1_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_1_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_670_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_670_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_670_3_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_670_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_670_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_670_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_670_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_671 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_671_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_671_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_671_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_671_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_671_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_671_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_671_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_671_2_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_671_2_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_671_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_671_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_671_3_2 = {
+		value = ""
+	}
+end)()
+(function ()
+	pg.base.activity_ins_language.ins_reply_671_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_671_3_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_671_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_671_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_671_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_671_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_672 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_672_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_672_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_672_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_672_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_672_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_672_1_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_672_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_672_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_672_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_672_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_672_2_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_672_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_672_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_672_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_672_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_673 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_673_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_673_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_673_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_673_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_673_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_673_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_673_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_673_2_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_673_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_673_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_673_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_673_3_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_673_3_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_673_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_673_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_673_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_673_1_2 = {
+		value = ""
+	}
 	pg.base.activity_ins_language.ins_20001 = {
 		value = ""
 	}
@@ -32920,8 +33266,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20002_8_1 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20002_9 = {
 		value = ""
 	}
@@ -32964,6 +33308,8 @@ end)()
 	pg.base.activity_ins_language.op_reply_20002_2_2 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.op_reply_20002_2_3 = {
 		value = ""
 	}
@@ -33222,8 +33568,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20006_8_1 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_reply_20006_8_2 = {
 		value = ""
 	}
@@ -33266,6 +33610,8 @@ end)()
 	pg.base.activity_ins_language.ins_discuss_20005_4 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.ins_discuss_20005_5 = {
 		value = ""
 	}
@@ -33524,8 +33870,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20011_6_5 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20011_7 = {
 		value = ""
 	}
@@ -33568,6 +33912,8 @@ end)()
 	pg.base.activity_ins_language.op_reply_20011_1_1 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.op_reply_20011_1_2 = {
 		value = ""
 	}
@@ -33826,8 +34172,6 @@ end)()
 	pg.base.activity_ins_language.ins_reply_20010_8_2 = {
 		value = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_language.ins_discuss_20010_9 = {
 		value = ""
 	}
@@ -33870,6 +34214,8 @@ end)()
 	pg.base.activity_ins_language.op_reply_20010_2_3 = {
 		value = ""
 	}
+end)()
+(function ()
 	pg.base.activity_ins_language.op_reply_20010_2_4 = {
 		value = ""
 	}

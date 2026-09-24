@@ -10,6 +10,7 @@ pg.item_data_chat.all = {
 	104,
 	105,
 	106,
+	107,
 	300,
 	301,
 	602,
@@ -91,6 +92,14 @@ pg.base.item_data_chat = {}
 		id = 106,
 		time_limit_type = 0,
 		desc = "獻給所有六年間持續奮鬥在港區的指揮官們\n<color=#A7A7AAFF>透過參與六週年限定活動獲取</color>",
+		scene = {}
+	}
+	pg.base.item_data_chat[107] = {
+		name = "七週年紀念",
+		time_second = 0,
+		id = 107,
+		time_limit_type = 0,
+		desc = "獻給所有七年間持續奮鬥在港區的指揮官們\n<color=#A7A7AAFF>通過參與七週年限定活動獲得</color>",
 		scene = {}
 	}
 	pg.base.item_data_chat[300] = {

@@ -64,6 +64,7 @@ slot0.Ctor = function(slot0, slot1)
 		slot0.dir = 1
 	end
 
+	slot0.nextIcon = slot1.NextIcon or 0
 	slot0.expression = slot1.expression
 	slot0.typewriter = slot1.typewriter
 	slot0.painting = slot1.painting
@@ -140,6 +141,10 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.paintRwIndex = slot1.paintRwIndex or 0
 	slot0.action = slot1.action or {}
+end
+
+slot0.GetNextIcon = function(slot0)
+	return slot0.nextIcon
 end
 
 slot0.GetSpinePosition = function(slot0)

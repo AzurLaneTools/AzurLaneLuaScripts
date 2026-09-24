@@ -282,6 +282,8 @@ pg.name_code.all = {
 	311,
 	312,
 	313,
+	314,
+	315,
 	400,
 	401,
 	402,
@@ -2418,6 +2420,20 @@ end)()
 		code = "高梁",
 		nation = 0
 	}
+	pg.base.name_code[314] = {
+		name = "伊14",
+		type = 1,
+		id = 314,
+		code = "伊14",
+		nation = 0
+	}
+	pg.base.name_code[315] = {
+		name = "安土 ",
+		type = 1,
+		id = 315,
+		code = "安土 ",
+		nation = 0
+	}
 	pg.base.name_code[400] = {
 		name = "Z1",
 		type = 1,
@@ -2551,6 +2567,8 @@ end)()
 		code = "U-101",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[419] = {
 		name = "U-522",
 		type = 1,
@@ -2565,8 +2583,6 @@ end)()
 		code = "U-110",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[421] = {
 		name = "柯尼斯堡",
 		type = 1,
@@ -3253,6 +3269,8 @@ end)()
 		code = "菲利克斯·舒爾茨",
 		nation = 0
 	}
+end)()
+(function ()
 	pg.base.name_code[519] = {
 		name = "菲利克斯",
 		type = 1,
@@ -3267,8 +3285,6 @@ end)()
 		code = "舒爾茨",
 		nation = 0
 	}
-end)()
-(function ()
 	pg.base.name_code[521] = {
 		name = "興登堡",
 		type = 1,

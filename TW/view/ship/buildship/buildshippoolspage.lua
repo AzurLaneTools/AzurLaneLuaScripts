@@ -113,8 +113,10 @@ end
 
 slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.quickCount, function ()
-		shoppingBatch(61008, {
-			id = pg.shop_template[61008].effect_args[1]
+		slot0 = 61008
+
+		shoppingBatch(slot0, {
+			id = ShopConst.GetShopConfig(slot0).effect_args[1]
 		}, 9, "build_ship_quickly_buy_stone")
 	end)
 	onButton(slot0, slot0.helpBtn, function ()

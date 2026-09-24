@@ -628,7 +628,7 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:updateRecordEquipments(slot3.index)
 		end
 	elseif slot2 == GAME.SKIN_SHOPPIGN_DONE or slot2 == GAME.SKIN_COUPON_SHOPPING_DONE then
-		if pg.shop_template[slot3.id] and slot4.genre == ShopArgs.SkinShop then
+		if ShopConst.GetShopConfig(slot3.id) and slot4.genre == ShopArgs.SkinShop then
 			slot0.viewComponent:StopPreVoice()
 			slot0:addSubLayers(Context.New({
 				mediator = NewSkinMediator,

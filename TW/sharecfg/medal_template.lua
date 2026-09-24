@@ -134,7 +134,9 @@ pg.medal_template.all = {
 	200181,
 	200191,
 	200201,
-	200211
+	200211,
+	200221,
+	200231
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -3028,6 +3030,48 @@ end)()
 		rank = 1,
 		id = 200211,
 		explain1 = "「濱海極速」",
+		explain2 = "活動紀念"
+	}
+	pg.base.medal_template[200221] = {
+		target_id = "51143",
+		name = "幽影迷城紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "高樓間光影流轉，空中列車往來穿梭，看似繁華的表像下，看不見的黑暗正在緩慢滋生。歡迎來到新紀元都市NO.7",
+		next = 0,
+		icon = "9221",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9221",
+		condition = "收集8個「幽影迷城」紀念貼紙。",
+		rank = 1,
+		id = 200221,
+		explain1 = "「幽影迷城」",
+		explain2 = "活動紀念"
+	}
+	pg.base.medal_template[200231] = {
+		target_id = "51154",
+		name = "異常出沒紀念勳章",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "陽光照常升起，列車照常開動。融於都市的異常們，今天也在努力地過著日常生活呢~",
+		next = 0,
+		icon = "9231",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9231",
+		condition = "收集7個「異常的日常進行中」紀念貼紙。",
+		rank = 1,
+		id = 200231,
+		explain1 = "異常的日常進行中",
 		explain2 = "活動紀念"
 	}
 end)()

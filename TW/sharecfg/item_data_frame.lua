@@ -12,6 +12,7 @@ pg.item_data_frame.all = {
 	105,
 	107,
 	108,
+	109,
 	201,
 	202,
 	203,
@@ -64,6 +65,7 @@ pg.item_data_frame.all = {
 	341,
 	342,
 	343,
+	344,
 	401,
 	402,
 	414,
@@ -189,6 +191,15 @@ pg.base.item_data_frame = {}
 		id = 108,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>獻給所有六年間持續奮鬥在港區的指揮官們</color>\n透過參與六週年限定活動獲取",
+		scene = {}
+	}
+	pg.base.item_data_frame[109] = {
+		name = "七週年紀念",
+		gain_by = "",
+		time_second = 0,
+		id = 109,
+		time_limit_type = 0,
+		desc = "獻給所有七年間持續奮鬥在港區的指揮官們\n<color=#A7A7AA>通過參與七週年限定活動獲得</color>",
 		scene = {}
 	}
 	pg.base.item_data_frame[201] = {
@@ -652,11 +663,20 @@ pg.base.item_data_frame = {}
 	}
 	pg.base.item_data_frame[343] = {
 		name = "萌芽之冠",
-		gain_by = "",
+		gain_by = "幽影迷城",
 		time_second = 0,
 		id = 343,
 		time_limit_type = 0,
-		desc = "透過後續活動獲得",
+		desc = "「就算只有一縷微光，我們也會向著希望生長」",
+		scene = {}
+	}
+	pg.base.item_data_frame[344] = {
+		name = "幽影來襲",
+		gain_by = "異常的日常進行中",
+		time_second = 0,
+		id = 344,
+		time_limit_type = 0,
+		desc = "「收容並非終點，我們終將理解彼此。」",
 		scene = {}
 	}
 	pg.base.item_data_frame[401] = {
@@ -1001,6 +1021,8 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>結晶之中閃爍著雙子座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.06.06-24.06.30）",
 		scene = {}
 	}
+end)()
+(function ()
 	pg.base.item_data_frame[10002] = {
 		name = "限界的挑戰者·巨蟹座",
 		gain_by = "",
@@ -1019,8 +1041,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>結晶之中閃爍著獅子座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.08.01-24.08.31）",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10004] = {
 		name = "限界的挑戰者·處女座",
 		gain_by = "",

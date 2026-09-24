@@ -23,7 +23,7 @@ slot0.update = function(slot0, slot1)
 end
 
 slot0.Init = function(slot0)
-	updateDrop(slot0.itemTF, slot0.goods:GetDropInfo())
+	updateDrop(slot0.itemTF, slot0.goods:getDropInfo())
 	setScrollText(slot0.nameTxt, slot0.goods:getConfig("goods_name"))
 	setText(slot0.countTF, slot0.goods:getConfig("price"))
 	GetImageSpriteFromAtlasAsync("props/medal", "", slot0.resIconTF)

@@ -105,11 +105,7 @@ end
 slot0.updateTpl = function(slot0, slot1, slot2)
 	slot6 = slot2:Find("BuyCount")
 	slot7 = slot0.goodVOListForShow[slot1]
-	slot8 = Drop.New({
-		type = slot7:getConfig("commodity_type"),
-		id = slot7:getConfig("commodity_id"),
-		count = slot7:getConfig("num")
-	})
+	slot8 = slot7:getDropInfo()
 
 	updateDrop(slot2:Find("Item"), slot8)
 	setScrollText(slot2:Find("Name/Name"), slot8:getName())

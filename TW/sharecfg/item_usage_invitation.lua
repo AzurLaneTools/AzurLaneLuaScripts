@@ -194,6 +194,14 @@ pg.item_usage_invitation.all = {
 	3306,
 	3307,
 	3308,
+	3501,
+	3502,
+	3503,
+	3504,
+	3505,
+	3506,
+	3507,
+	3508,
 	40001,
 	40002,
 	40003,
@@ -1180,11 +1188,53 @@ end)()
 		coin_id = 60589,
 		ship_id = 103161
 	}
+	pg.base.item_usage_invitation[3501] = {
+		id = 3501,
+		coin_id = 62000,
+		ship_id = 207031
+	}
+	pg.base.item_usage_invitation[3502] = {
+		id = 3502,
+		coin_id = 62001,
+		ship_id = 202041
+	}
+	pg.base.item_usage_invitation[3503] = {
+		id = 3503,
+		coin_id = 62002,
+		ship_id = 307051
+	}
+	pg.base.item_usage_invitation[3504] = {
+		id = 3504,
+		coin_id = 62003,
+		ship_id = 301841
+	}
+	pg.base.item_usage_invitation[3505] = {
+		id = 3505,
+		coin_id = 62004,
+		ship_id = 102261
+	}
+	pg.base.item_usage_invitation[3506] = {
+		id = 3506,
+		coin_id = 62005,
+		ship_id = 403091
+	}
+	pg.base.item_usage_invitation[3507] = {
+		id = 3507,
+		coin_id = 62006,
+		ship_id = 907011
+	}
+	pg.base.item_usage_invitation[3508] = {
+		id = 3508,
+		coin_id = 62007,
+		ship_id = 702041
+	}
 	pg.base.item_usage_invitation[40001] = {
 		id = 40001,
 		coin_id = 80102,
 		ship_id = 307071
 	}
+end)()
+(function ()
 	pg.base.item_usage_invitation[40002] = {
 		id = 40002,
 		coin_id = 80103,
@@ -1225,8 +1275,6 @@ end)()
 		coin_id = 80122,
 		ship_id = 102141
 	}
-end)()
-(function ()
 	pg.base.item_usage_invitation[40103] = {
 		id = 40103,
 		coin_id = 80123,

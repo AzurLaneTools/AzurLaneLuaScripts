@@ -4,6 +4,50 @@ slot0.word_legal_template_9 = {}
 slot1 = slot0.word_legal_template_9
 
 temp = function()
+	uv0["古"] = {
+		["鷹"] = {
+			this = true
+		},
+		["比"] = {
+			["雪"] = {
+				["夫"] = {
+					this = true
+				}
+			}
+		},
+		["手"] = {
+			["川"] = {
+				["唯"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["青"] = {
+		["葉"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["衣"] = {
+		["笠"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["築"] = {
 		["摩"] = {
 			this = true
@@ -338,76 +382,6 @@ temp = function()
 						T = {
 							A = {
 								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["瑞"] = {
-		["鳳"] = {
-			this = true
-		},
-		["鶴"] = {
-			this = true
-		},
-		["吉"] = {
-			["娜"] = {
-				["·"] = {
-					M = {
-						E = {
-							T = {
-								A = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["祥"] = {
-		["鳳"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["龍"] = {
-		["驤"] = {
-			this = true
-		},
-		["鳳"] = {
-			this = true
-		},
-		["武"] = {
-			this = true
-		},
-		["騎"] = {
-			["兵"] = {
-				this = true,
-				["·"] = {
-					M = {
-						E = {
-							T = {
-								A = {
-									this = true
-								}
 							}
 						}
 					}

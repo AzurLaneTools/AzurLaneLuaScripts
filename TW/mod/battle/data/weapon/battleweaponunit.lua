@@ -956,7 +956,9 @@ slot9.setBulletOrb = function(slot0, slot1)
 	slot1:AppendAttachBuff({
 		buff_id = slot0._orbID,
 		rant = slot0._orbRant,
-		level = slot0._orbLevel
+		level = slot0._orbLevel,
+		buff_level = slot0._orbBuffLevel,
+		group_level = slot0._orbGroupLevel
 	})
 end
 
@@ -964,6 +966,8 @@ slot9.SetBulletOrbData = function(slot0, slot1)
 	slot0._orbID = slot1.buffID
 	slot0._orbRant = slot1.rant
 	slot0._orbLevel = slot1.level
+	slot0._orbBuffLevel = slot1.buff_level
+	slot0._orbGroupLevel = slot1.group_level
 end
 
 slot9.ShiftBarrage = function(slot0, slot1)
@@ -1028,7 +1032,7 @@ slot9.DispatchBulletEvent = function(slot0, slot1, slot2)
 	end
 
 	if type(slot4.spawn_bound) == "table" then
-		slot3 = slot3 or (not slot0._dataProxy:GetStageInfo().mainUnitPosition or not slot6[slot0._hostIFF] or Clone(slot6[slot0._hostIFF][slot4.spawn_bound[1]])) and Clone(uv0.MAIN_UNIT_POS[slot0._hostIFF][slot4.spawn_bound[1]])
+		slot3 = slot3 or Vector3.New(slot3.x + (slot7[1] or 0), slot3.y + (slot7[2] or 0), slot3.z + (slot7[3] or 0))
 	end
 
 	slot0:DispatchEvent(uv1.Event.New(uv1.Battle.BattleUnitEvent.CREATE_BULLET, {

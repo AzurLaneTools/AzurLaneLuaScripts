@@ -3,7 +3,8 @@ slot0.DropType2Name = {
 	[DROP_TYPE_EQUIP] = "equip",
 	[DROP_TYPE_FURNITURE] = "furniture",
 	[DROP_TYPE_EQUIPMENT_SKIN] = "equip_skin",
-	[DROP_TYPE_SPWEAPON] = "special_weapon"
+	[DROP_TYPE_SPWEAPON] = "special_weapon",
+	[DROP_TYPE_SHIP] = "ship"
 }
 
 slot0.OnInit = function(slot0)
@@ -124,16 +125,16 @@ slot0.AddTogglesListener = function(slot0)
 	assert(#slot0:GetTogglesDropTypes() == slot0.togglesTF.childCount, "dropType数量与togglesTF子节点数不匹配")
 
 	for slot5, slot6 in ipairs(slot1) do
-		slot7 = slot0.togglesTF
-		slot7 = slot7:Find(uv0.DropType2Name[slot6])
+		slot7 = type(slot6) == "table" and slot6[1] or slot6
+		slot8 = slot0.togglesTF:Find(uv0.DropType2Name[slot7])
 
-		onToggle(slot0, slot7, function (slot0)
+		onToggle(slot0, slot8, function (slot0)
 			if slot0 then
 				uv0:UpdatePage(uv1)
 			end
 		end, SFX_PANEL)
 
-		slot0.toggles[slot6] = slot7
+		slot0.toggles[slot7] = slot8
 	end
 end
 
@@ -224,12 +225,14 @@ slot0.OnClickItem = function(slot0, slot1)
 end
 
 slot0.UpdatePage = function(slot0, slot1)
-	slot0.curPage = slot1
+	slot0.curPage = (type(slot1) ~= "table" and {
+		slot1
+	} or slot1)[1]
 	slot0.showDataList = {}
 
-	for slot5, slot6 in ipairs(slot0.dataList) do
-		if slot0.guideConfig[slot6.id].type == slot1 then
-			table.insert(slot0.showDataList, slot6)
+	for slot6, slot7 in ipairs(slot0.dataList) do
+		if table.contains(slot2, slot0.guideConfig[slot7.id].type) then
+			table.insert(slot0.showDataList, slot7)
 		end
 	end
 

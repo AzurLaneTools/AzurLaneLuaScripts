@@ -9339,6 +9339,11 @@ _G.pg.base.gametip.ship_remould_warning_403994 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_201534 = {
+	tip = "此改造作業後<color=#92fc63>【主炮底座+1】</color>\n是否確認繼續操作？"
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "語音包下載"
 }
@@ -12152,7 +12157,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "班寧頓、維克斯堡 等角色建造機率UP！"
+	tip = "每累計建造200次可獲得海上傳奇艦船{namecode:315}(最多4次)"
 }
 
 
@@ -14716,13 +14721,13 @@ _G.pg.base.gametip.returner_help = {
 
 被邀請者：
 回歸指揮官：
-在2025年9月1日至9月19日維護期間沒有過登入行為的
+在2026年9月11日至9月24日維護期間沒有過登入行為的
 指揮官
 新人指揮官：
-在2025年9月1日至10月9日23:59期間新註冊的指揮官
+在2026年9月24日至10月15日23:59期間新註冊的指揮官
 滿足被邀請資格的指揮官在活動期間登入可在特別活動頁內輸入邀請者的UID參與活動
 邀請者：
-2025年9月1日至9月19日維護前有過登入行為的指揮官
+2026年9月11日至9月24日維護前有過登入行為的指揮官
 邀請者可以使用自己的UID邀請滿足被邀請資格的指揮官參與活動
 召集指揮官：
 單個邀請者最多可邀請兩位指揮官，在其完成專屬任務後可獲得集結積分。召集訊號發布後還可以解鎖邀請者專屬任務，完成任務後也可獲得集結積分。集結積分達到指定數值後可以獲得豐富獎勵。
@@ -14802,7 +14807,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4.指揮官可以從中選擇2個角色作為祈願角色，其中僅能最多選擇1名<color=#ff5e39>海上傳奇艦船</color>角色"
 		},
 		{
-			info = "5.可選名單僅包含3月26日前常駐加入對應建造的角色"
+			info = "5.可選名單僅包含7月9日前常駐加入對應建造的角色"
 		},
 		{
 			info = "6.有建造解鎖條件的角色無法被選為祈願角色，\n不會在祈願建造中出現。"
@@ -36909,7 +36914,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活動進行時，指揮官可在<color=#92fc63>活動頁面或回憶介面</color>通過指定入口進入「紀念貼紙」收集頁面；
  ※ 活動結束後指揮官將只能通過<color=#92fc63>回憶介面</color>指定入口進入「紀念貼紙」收集頁面；
  ※ 「紀念貼紙」可以通過完成對應活動任務獲取；
- ※ 獎勵領取介面將延長至9月16日24時；]]
+ ※ 獎勵領取介面將延長至10月21日24時；]]
 		}
 	}
 }
@@ -49303,6 +49308,41 @@ _G.pg.base.gametip.ShadowCityCoreActivityUI_subtitle_2 = {
 }
 
 
+_G.pg.base.gametip.shadowcitycollectpage_title_1 = {
+	tip = "紀念章"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_2 = {
+	tip = "主題傢俱"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_3 = {
+	tip = "外觀裝備箱"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_title_4 = {
+	tip = "活動期間限定獎勵"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_1 = {
+	tip = "角色"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_2 = {
+	tip = "其他"
+}
+
+
+_G.pg.base.gametip.shadowcitycollectpage_toggle_3 = {
+	tip = "外觀裝備"
+}
+
+
 _G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
 	tip = "閃耀的「魔法」"
 }
@@ -49310,6 +49350,390 @@ _G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_1 = {
 
 _G.pg.base.gametip.shiningmagicsignpage_sign_remain = {
 	tip = "剩餘可簽到次數："
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_3 = {
+	tip = "紀念簽到"
+}
+
+
+_G.pg.base.gametip.ShiningMagicCoreActivityUI_subtitle_4 = {
+	tip = "動員指令"
+}
+
+
+_G.pg.base.gametip["20260908gameplay_main_window"] = {
+	tip = {
+		{
+			info = "玩法說明："
+		},
+		{
+			info = "1.在<color=#92fc63>「幽影面試」</color>中消耗<color=#92fc63>「OPA招募函」</color>招募已解鎖的幽影，可通過完成任務獲取「OPA招募函」；部分幽影需先閱讀「幽影迷城」指定劇情後解鎖。"
+		},
+		{
+			info = "2.收容玩法關卡分為「可控」與「危險」兩種難度。首次通關任意「可控」關卡後解鎖「危險」關卡；活動開始後前7日，兩種難度每日各解鎖2關，共28關。"
+		},
+		{
+			info = "3.行動前需部署至少1名已入職的我方幽影並選擇空投。「可控」關卡可選擇1種空投，「危險」關卡可選擇2種空投。"
+		},
+		{
+			info = "4.行動中可選擇位置投放空投，為我方幽影提供增益或部署路障；在時限內收容全部敵方幽影即可通關，剩餘時間越多，通關評價越高。"
+		},
+		{
+			info = "5.在<color=#92fc63>「現場調度」</color>中消耗「調查經費」升級空投；每次升級都會增加對應空投在每場行動中的可使用次數。"
+		},
+		{
+			info = "6.在<color=#92fc63>「後勤補給」</color>中可補充「希望的旋律」或購買「速行補給」；每次購買「速行補給」都會永久提高本活動中我方幽影的移動速度。"
+		},
+		{
+			info = "7.在<color=#92fc63>「幽影檔案」</color>中向已入職幽影贈送「希望的旋律」可提升共感。每贈送2份「希望的旋律」，共感提升1級，最高5級，每次升級均會解鎖一段對應劇情。"
+		},
+		{
+			info = "8.首次通關關卡及完成活動任務可獲得「調查經費」，並可在活動商店兌換獎勵。"
+		}
+	}
+}
+
+
+_G.pg.base.gametip["20260908gameplay_hire"] = {
+	tip = {
+		{
+			info = "幽影面試："
+		},
+		{
+			info = "1.消耗1張<color=#92fc63>「OPA招募函」</color>可招募1名已解鎖的幽影，可通過完成任務獲取「OPA招募函」。"
+		},
+		{
+			info = "2.部分幽影需先閱讀「幽影迷城」指定劇情，解鎖後才可參加面試。"
+		},
+		{
+			info = "3.不同幽影在「幽影速度」「幽影特性」和「追擊習慣」上各有差異，可點擊幽影查看簡歷後再決定招募。"
+		},
+		{
+			info = "4.「幽影速度」由基礎速度決定；基礎速度越高，通常移動越快，但實際速度還會受到幽影所處地形與強化效果影響。"
+		},
+		{
+			info = "5.「幽影特性」會改變移動方式，例如在直線、轉角或路口加速或減速，部分幽影還會保持靜止或間歇行動。"
+		},
+		{
+			info = "6.「追擊習慣」分為三類：追擊型偏向敵方當前位置，適合持續追蹤；預判型偏向敵方前進路線，適合提前堵截；機動型偏向截擊位置，適合繞後包抄。"
+		},
+		{
+			info = "7.同類型幽影也可能擁有不同的路線、地形或空投拾取偏好，具體以簡歷中的特性說明為準。"
+		},
+		{
+			info = "8.成功招募後會播放該幽影的面試劇情，並可在收容玩法關卡中部署該幽影。"
+		},
+		{
+			info = "9.可在「幽影檔案」中贈送「希望的旋律」提升共感並解鎖後續劇情。"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.reverse_pacman_archive = {
+	tip = "幽影檔案"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_support = {
+	tip = "後勤補給"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy = {
+	tip = "現場調度"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_logistics_sys = {
+	tip = "選擇後勤系統"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_remaining_gifts = {
+	tip = "希望的旋律：$1個"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_favourite_increased = {
+	tip = "與$1的共感增加了！"
+}
+
+
+_G.pg.base.gametip["reverse_pacman_ not_enough_gifts"] = {
+	tip = "希望的旋律不足"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_send_gift = {
+	tip = "贈送"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_owned = {
+	tip = "擁有"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_count = {
+	tip = "$1個"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_buy = {
+	tip = "購買"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_upgrade = {
+	tip = "升級"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_sold_out = {
+	tip = "已售罄"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_role = {
+	tip = "選擇要面試的幽影"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_hired_role = {
+	tip = "已入職"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_hire_tip = {
+	tip = "是否確認招募該幽影？"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unlock_role = {
+	tip = "幽影尚未解鎖，請先前往「幽影迷城」劇情模式閱讀對應劇情"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unhire_role = {
+	tip = "該幽影尚未入職，請先完成面試"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_speed = {
+	tip = "幽影速度"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_ai_type = {
+	tip = "追擊習慣"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_ai_desc = {
+	tip = "幽影特性"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_close = {
+	tip = "點擊X或空白處可關閉跳窗"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_resume_close_1 = {
+	tip = "收起簡歷"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_chaser_1 = {
+	tip = "追擊型"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_ambusher_1 = {
+	tip = "預判型"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_type_planner_1 = {
+	tip = "機動型"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_speed_level = {
+	tip = "<color=$1>$2</color>級"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_ship_speed = {
+	tip = "速度：$1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy_tip = {
+	tip = "選擇位置，部署我方幽影"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_level_title = {
+	tip = "選擇關卡"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_ship_title = {
+	tip = "部署我方幽影"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_type_1 = {
+	tip = "可控制"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_level_type_2 = {
+	tip = "危險"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_select_level_lock_tip = {
+	tip = "首次通關任意「可控」關卡後解鎖「危險」關卡"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_0 = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_1 = {
+	tip = "追擊"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_2 = {
+	tip = "預判"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_ship_type_3 = {
+	tip = "機動"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_deploy_empty = {
+	tip = "請至少部署一名我方幽影"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_unlock_date_tip = {
+	tip = "$1月$2日解鎖"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_game_speed_up_tip = {
+	tip = "剩餘時間不足30秒，行動速度提升！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_cast_block = {
+	tip = "路障佈置！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_pick_speed = {
+	tip = "速度加快！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_pick_giant = {
+	tip = "體型增大！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_award_title = {
+	tip = "首次通關獎勵"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_fail_tips = {
+	tip = "TIPS：嘗試根據敵人的行動偏好選擇應對幽影，或派遣速度更快的幽影"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_statistics = {
+	tip = "任務統計"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_time = {
+	tip = "任務耗時：$1"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_arrest = {
+	tip = "出動我方幽影數量：$1\n收容敵方幽影數量：$2"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_timeout = {
+	tip = "時間耗盡"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_settle_escape = {
+	tip = "敵方幽影已逃離包圍"
+}
+
+
+_G.pg.base.gametip["260908activity_shop_title"] = {
+	tip = "幽影迷城"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk1 = {
+	tip = "已接近目標，收容行動即將開始"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk2 = {
+	tip = "發現目標，準備實施收容"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk3 = {
+	tip = "報告，目標就在附近區域"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk4 = {
+	tip = "抓住目標了！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk5 = {
+	tip = "目標已收容！"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk6 = {
+	tip = "報告，已順利執行收容"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk7 = {
+	tip = "好像要跟丟了……"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk8 = {
+	tip = "目標已從視野內消失"
+}
+
+
+_G.pg.base.gametip.reverse_pacman_char_talk9 = {
+	tip = "報告，目標已離開我方控制範圍"
 }
 
 
@@ -49611,4 +50035,9 @@ _G.pg.base.gametip.auto_battle_help = {
 6 作戰全權委託書也可在「兌換可用時間」介面中用於<color=#92fc63>增加當日的作戰委託可用時間</color>，每本作戰全權委託書可增加<color=#92fc63>1小時</color>的委託可用時間。]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.reverse_pacman_no_char = {
+	tip = "請先前往「<color=#92fc63>調查手冊</color>」和「<color=#92fc63>幽影招募</color>」，招募任意幽影後方可繼續"
 }

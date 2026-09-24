@@ -478,6 +478,8 @@ end
 slot0.DataToShip = function(slot0, slot1, slot2, slot3)
 	if slot0.system == CourtYardConst.SYSTEM_FEAST then
 		return CourtYardFeastShip.New(slot0, slot1)
+	elseif slot0.system == CourtYardConst.SYSTEM_REVERSE_PACMAN then
+		return CourtYardReversePacmanShip.New(slot0, slot1)
 	else
 		return CourtYardShip.New(slot0, slot1, slot2, slot3)
 	end

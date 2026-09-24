@@ -8213,6 +8213,37 @@ _G.pg.base.item_data_statistics[11058] = {
 }
 
 
+_G.pg.base.item_data_statistics[11059] = {
+	open_directly = 0,
+	name = "雙聯裝152mm主炮Mk.XXVIT3設計圖",
+	type = 9,
+	display = "雙聯裝152mm主炮Mk.XXVIT3設計圖",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/22300",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11059,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[12000] = {
 	open_directly = 0,
 	name = "九三式純氧魚雷T3設計圖",
@@ -16515,6 +16546,37 @@ _G.pg.base.item_data_statistics[21061] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21061,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21065] = {
+	open_directly = 0,
+	name = "結晶：勝利·META",
+	type = 4,
+	display = "勝利·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21065",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21065,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -29547,6 +29609,131 @@ _G.pg.base.item_data_statistics[30387] = {
 		{
 			9,
 			4437,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30388] = {
+	open_directly = 1,
+	name = "外觀裝備箱(幽影奇談)",
+	type = 11,
+	display = "可以獲得一件隨機的幽影奇談風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdushiguaitan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30385",
+	id = 30388,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4438,
+			1
+		},
+		{
+			9,
+			4439,
+			1
+		},
+		{
+			9,
+			4440,
+			1
+		},
+		{
+			9,
+			4441,
+			1
+		},
+		{
+			9,
+			4442,
+			1
+		},
+		{
+			9,
+			4443,
+			1
+		},
+		{
+			9,
+			4444,
+			1
+		},
+		{
+			9,
+			4445,
+			1
+		},
+		{
+			9,
+			4446,
+			1
+		},
+		{
+			9,
+			4447,
+			1
+		},
+		{
+			9,
+			4448,
+			1
+		},
+		{
+			9,
+			4449,
+			1
+		},
+		{
+			9,
+			4450,
+			1
+		},
+		{
+			9,
+			4451,
+			1
+		},
+		{
+			9,
+			4452,
+			1
+		},
+		{
+			9,
+			4453,
+			1
+		},
+		{
+			9,
+			4454,
+			1
+		},
+		{
+			9,
+			4455,
 			1
 		}
 	},
@@ -46229,6 +46416,219 @@ _G.pg.base.item_data_statistics[30571] = {
 }
 
 
+_G.pg.base.item_data_statistics[30572] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(幽影奇談)",
+	type = 13,
+	display = "使用後可從「幽影奇談」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdushiguaitanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30572,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4438,
+			1
+		},
+		{
+			9,
+			4439,
+			1
+		},
+		{
+			9,
+			4440,
+			1
+		},
+		{
+			9,
+			4441,
+			1
+		},
+		{
+			9,
+			4442,
+			1
+		},
+		{
+			9,
+			4443,
+			1
+		},
+		{
+			9,
+			4444,
+			1
+		},
+		{
+			9,
+			4445,
+			1
+		},
+		{
+			9,
+			4446,
+			1
+		},
+		{
+			9,
+			4447,
+			1
+		},
+		{
+			9,
+			4448,
+			1
+		},
+		{
+			9,
+			4449,
+			1
+		},
+		{
+			9,
+			4450,
+			1
+		},
+		{
+			9,
+			4451,
+			1
+		},
+		{
+			9,
+			4452,
+			1
+		},
+		{
+			9,
+			4453,
+			1
+		},
+		{
+			9,
+			4454,
+			1
+		},
+		{
+			9,
+			4455,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4438,
+			1
+		},
+		{
+			9,
+			4439,
+			1
+		},
+		{
+			9,
+			4440,
+			1
+		},
+		{
+			9,
+			4441,
+			1
+		},
+		{
+			9,
+			4442,
+			1
+		},
+		{
+			9,
+			4443,
+			1
+		},
+		{
+			9,
+			4444,
+			1
+		},
+		{
+			9,
+			4445,
+			1
+		},
+		{
+			9,
+			4446,
+			1
+		},
+		{
+			9,
+			4447,
+			1
+		},
+		{
+			9,
+			4448,
+			1
+		},
+		{
+			9,
+			4449,
+			1
+		},
+		{
+			9,
+			4450,
+			1
+		},
+		{
+			9,
+			4451,
+			1
+		},
+		{
+			9,
+			4452,
+			1
+		},
+		{
+			9,
+			4453,
+			1
+		},
+		{
+			9,
+			4454,
+			1
+		},
+		{
+			9,
+			4455,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "定向部件T4",
@@ -50646,6 +51046,90 @@ _G.pg.base.item_data_statistics[40088] = {
 			2,
 			42050,
 			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40089] = {
+	open_directly = 1,
+	name = "燭影鏡台主題禮包(基礎版)",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題 燭影鏡台*1,1000物資",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui11",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4089",
+	id = 40089,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			210,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40090] = {
+	open_directly = 1,
+	name = "燭影鏡台主題禮包(豪華版)",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題 燭影鏡台*1,3060鉆石",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui11",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4090",
+	id = 40090,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			210,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},
@@ -84884,6 +85368,37 @@ _G.pg.base.item_data_statistics[59851] = {
 }
 
 
+_G.pg.base.item_data_statistics[59852] = {
+	open_directly = 0,
+	name = "七週年紀念幣",
+	type = 1,
+	display = "七週年活動「TH7紀念簽到」獲得——碧海如初，共赴佳七",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/qizhounian",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59852,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59853] = {
 	open_directly = 0,
 	name = "電氣增幅裝置",
@@ -93301,6 +93816,298 @@ _G.pg.base.item_data_statistics[60589] = {
 }
 
 
+_G.pg.base.item_data_statistics[60599] = {
+	open_directly = 0,
+	name = "慶典邀請函",
+	type = 21,
+	display = "使用後可以邀請一名特定對象參加宴會（獲得指定角色）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60599,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3501,
+		3502,
+		3503,
+		3504,
+		3505,
+		3506,
+		3507,
+		3508
+	},
+	limit = {},
+	open_ui = {
+		"login_year",
+		"t_ninth_jp"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[62000] = {
+	open_directly = 0,
+	name = "光輝的回禮",
+	type = 1,
+	display = "由光輝處收到的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62000,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62001] = {
+	open_directly = 0,
+	name = "黛朵的回禮",
+	type = 1,
+	display = "由黛朵處收到的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62001,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62002] = {
+	open_directly = 0,
+	name = "{namecode:95}的回禮",
+	type = 1,
+	display = "由{namecode:95}處收到的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62002,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62003] = {
+	open_directly = 0,
+	name = "{namecode:27}的回禮",
+	type = 1,
+	display = "由{namecode:27}處收到的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62003,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62004] = {
+	open_directly = 0,
+	name = "雷諾的回禮",
+	type = 1,
+	display = "由雷諾處收到的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62004,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62005] = {
+	open_directly = 0,
+	name = "{namecode:453}的回禮",
+	type = 1,
+	display = "由{namecode:453}處收到的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62005,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62006] = {
+	open_directly = 0,
+	name = "霞飛的回禮",
+	type = 1,
+	display = "由霞飛處收到的，作為宴會邀請的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62006,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[62007] = {
+	open_directly = 0,
+	name = "基洛夫的回禮",
+	type = 1,
+	display = "由基洛夫處收到的，作為宴會邀約的回禮",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 62007,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[70051] = {
 	open_directly = 1,
 	name = "隨機T4裝備箱",
@@ -100398,6 +101205,73 @@ _G.pg.base.item_data_statistics[81237] = {
 		{
 			2,
 			86229,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81238] = {
+	open_directly = 1,
+	name = "幽影迷城換裝禮盒I",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2026，心智單元*50，心智魔方*20，高級定向藍圖·九期*2，快速完成工具*10，傢俱幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai38",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998333",
+	id = 81238,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86230,
 			1
 		},
 		{

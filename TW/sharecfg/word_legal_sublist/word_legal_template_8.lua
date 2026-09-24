@@ -4,6 +4,39 @@ slot0.word_legal_template_8 = {}
 slot1 = slot0.word_legal_template_8
 
 temp = function()
+	uv0["春"] = {
+		["月"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["宵"] = {
+		["月"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["浦"] = {
+		["風"] = {
+			this = true
+		},
+		["波"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["磯"] = {
 		["風"] = {
 			this = true
@@ -297,50 +330,6 @@ temp = function()
 			["瀨"] = {
 				this = true
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["古"] = {
-		["鷹"] = {
-			this = true
-		},
-		["比"] = {
-			["雪"] = {
-				["夫"] = {
-					this = true
-				}
-			}
-		},
-		["手"] = {
-			["川"] = {
-				["唯"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["青"] = {
-		["葉"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["衣"] = {
-		["笠"] = {
-			this = true
 		}
 	}
 end

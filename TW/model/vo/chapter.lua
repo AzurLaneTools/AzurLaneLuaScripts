@@ -468,7 +468,7 @@ slot0.IsEliteFleetLegal = function(slot0)
 		end
 	end
 
-	if slot1 == 0 then
+	if defaultValue(slot1[FleetType.Normal], 0) == 0 then
 		return false, i18n("elite_disable_no_fleet")
 	end
 

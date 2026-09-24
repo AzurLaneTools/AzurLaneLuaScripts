@@ -323,12 +323,8 @@ slot0.UpdateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 			uv0:emit(BaseUI.ON_EQUIPMENT, {
 				type = EquipmentInfoMediator.TYPE_SHIP,
 				shipId = uv1.id,
-				pos = uv2,
-				onRemoved = function ()
-					uv0:setEquipDescVisible(true)
-				end
+				pos = uv2
 			})
-			uv0:setEquipDescVisible(false)
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	else
 		onButton(slot0, slot4, function ()
@@ -518,12 +514,8 @@ slot0.UpdateSpWeaponPanel = function(slot0, slot1)
 		onButton(slot0, slot2, function ()
 			uv0:emit(BaseUI.ON_SPWEAPON, {
 				type = SpWeaponInfoLayer.TYPE_SHIP,
-				shipId = uv1.id,
-				onRemoved = function ()
-					uv0:setEquipDescVisible(true)
-				end
+				shipId = uv1.id
 			})
-			uv0:setEquipDescVisible(false)
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 
 		return

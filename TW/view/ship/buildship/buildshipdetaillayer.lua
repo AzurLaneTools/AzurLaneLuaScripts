@@ -106,8 +106,10 @@ slot0.didEnter = function(slot0)
 		end
 	end, SFX_UI_BUILDING_FASTBUILDING)
 	onButton(slot0, slot0.quickCount, function ()
-		shoppingBatch(61009, {
-			id = pg.shop_template[61009].effect_args[1]
+		slot0 = 61009
+
+		shoppingBatch(slot0, {
+			id = ShopConst.GetShopConfig(slot0).effect_args[1]
 		}, 9, "build_ship_quickly_buy_tool")
 	end)
 

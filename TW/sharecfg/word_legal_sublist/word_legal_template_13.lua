@@ -4,6 +4,54 @@ slot0.word_legal_template_13 = {}
 slot1 = slot0.word_legal_template_13
 
 temp = function()
+	uv0["冒"] = {
+		["險"] = {
+			["加"] = {
+				["利"] = {
+					["號"] = {
+						this = true
+					}
+				}
+			},
+			["號"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["樸"] = {
+		["茨"] = {
+			["茅"] = {
+				["斯"] = {
+					["冒"] = {
+						["險"] = {
+							["號"] = {
+								this = true,
+								["（"] = {
+									["後"] = {
+										["排"] = {
+											["）"] = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["岡"] = {
 		["依"] = {
 			["沙"] = {
@@ -444,26 +492,6 @@ temp = function()
 			["號"] = {
 				this = true
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["穗"] = {
-		["香"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["凪"] = {
-		["咲"] = {
-			this = true
 		}
 	}
 end

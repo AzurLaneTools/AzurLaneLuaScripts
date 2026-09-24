@@ -369,6 +369,11 @@ pg.task_meta_data_template.all = {
 	100563,
 	100564,
 	100565,
+	100601,
+	100602,
+	100603,
+	100604,
+	100605,
 	200001,
 	200002,
 	200003,
@@ -552,7 +557,11 @@ pg.task_meta_data_template.all = {
 	200471,
 	200472,
 	200473,
-	200474
+	200474,
+	200511,
+	200512,
+	200513,
+	200514
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3484,6 +3493,46 @@ end)()
 		target_num = 1,
 		desc = "使用{namecode:556}擊破等級＞100的敵方1次"
 	}
+	pg.base.task_meta_data_template[100601] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970709",
+		id = 100601,
+		target_num = 1,
+		desc = "使用勝利·META獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[100602] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970709",
+		id = 100602,
+		target_num = 1,
+		desc = "使用勝利·META擊破等級>30的敵方1次"
+	}
+	pg.base.task_meta_data_template[100603] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970709",
+		id = 100603,
+		target_num = 1,
+		desc = "使用勝利·META擊破等級>55的敵方1次"
+	}
+	pg.base.task_meta_data_template[100604] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970709",
+		id = 100604,
+		target_num = 1,
+		desc = "使用勝利·META擊破等級>80的敵方1次"
+	}
+	pg.base.task_meta_data_template[100605] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970709",
+		id = 100605,
+		target_num = 1,
+		desc = "使用勝利·META擊破等級>100的敵方1次"
+	}
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3724,6 +3773,8 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用女灶神.META擊破等級>70的敵方1次"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200083] = {
 		target_id = "90",
 		sub_type = 302,
@@ -3764,8 +3815,6 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用阿爾及利亞·META擊破等級＞90的敵方1次"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200094] = {
 		target_id = "100",
 		sub_type = 302,
@@ -4526,6 +4575,8 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用格倫維爾·META擊破等級＞70的敵方1次"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200333] = {
 		target_id = "90",
 		sub_type = 302,
@@ -4566,8 +4617,6 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用光榮·META擊破等級＞90的敵方1次"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200344] = {
 		target_id = "100",
 		sub_type = 302,
@@ -4959,5 +5008,37 @@ end)()
 		id = 200474,
 		target_num = 1,
 		desc = "大型作戰內使用{namecode:556}擊破等級＞100的敵方1次"
+	}
+	pg.base.task_meta_data_template[200511] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970709",
+		id = 200511,
+		target_num = 1,
+		desc = "大型作戰內使用勝利·META獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[200512] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970709",
+		id = 200512,
+		target_num = 1,
+		desc = "大型作戰內使用勝利·META擊破等級＞70的敵方1次"
+	}
+	pg.base.task_meta_data_template[200513] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970709",
+		id = 200513,
+		target_num = 1,
+		desc = "大型作戰內使用勝利·META擊破等級＞90的敵方1次"
+	}
+	pg.base.task_meta_data_template[200514] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970709",
+		id = 200514,
+		target_num = 1,
+		desc = "大型作戰內使用勝利·META擊破等級＞100的敵方1次"
 	}
 end)()

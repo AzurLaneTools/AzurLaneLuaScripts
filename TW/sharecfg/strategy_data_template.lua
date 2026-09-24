@@ -381,6 +381,11 @@ pg.strategy_data_template.all = {
 	201826,
 	201831,
 	201832,
+	201901,
+	201905,
+	201909,
+	201910,
+	201911,
 	205001,
 	205002,
 	205003,
@@ -4831,6 +4836,70 @@ META單位受到的效果有所不同，每有一層【污染】，其<color=#92
 		icon = "200908",
 		arg = {}
 	}
+	pg.base.strategy_data_template[201901] = {
+		buff_id = 201901,
+		name = "異常空間",
+		desc = "空間內詭異霧氣瀰漫，戰鬥中我方單位機動與命中下降5%，敵方單位額外獲得5%的增傷與減傷效果提升。 ",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201901,
+		icon = "201901",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201905] = {
+		buff_id = 201905,
+		name = "共鳴之聲",
+		desc = "戰鬥中得到來自虎的支援彈幕。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201905,
+		icon = "201905",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201909] = {
+		buff_id = 201909,
+		name = "萬眾一心",
+		desc = "戰鬥中我方單位數量越多，整體便越是強大，每個單位的存在都會使我方全體提升1%的增傷與減傷效果，最多生效10層。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201909,
+		icon = "201909",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201910] = {
+		buff_id = 0,
+		name = "挑戰說明",
+		desc = "安土在戰鬥中第一次耐久小於20%時會<color=#92fc63>進入暴走狀態，期間免疫一切傷害，持續15秒</color>。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201910,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201911] = {
+		buff_id = 0,
+		name = "挑戰說明",
+		desc = [[
+安土在戰鬥中耐久小於20%時會<color=#92fc63>進入暴走狀態，期間免疫一切傷害，持續15秒</color>，結束後進入45秒冷卻，冷卻時間內不會再次觸發暴走狀態。
+暴走狀態下安土發射的子彈無傷害，但每次子彈命中都將使安土<color=#92fc63>恢復3%的耐久</color>。
+
+困難模式特性：
+我方先鋒艦隊角色<color=#92fc63>受擊判定大幅度縮小，且同一時間只有處於領艦位置的角色擁有受擊判定</color>，其餘角色為無敵狀態，同時角色獲得受擊判定時也會附帶短暫無敵效果。
+敵方傷害<color=#ffc038>極大幅度提高</color>，且子彈無法被主動消除，不過相應的，我方發動空襲時會額外為先鋒領艦添加<color=#92fc63>持續3秒的傷害免疫護盾</color>。
+
+以下裝備或技能中的<color=#92fc63>減傷/迴避及其衍生效果</color>無法在本挑戰中生效：
+【背水之戰】、【彩虹計劃】、【絕體絕命】、【不屈意志】]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201911,
+		icon = "200908",
+		arg = {}
+	}
 	pg.base.strategy_data_template[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -5029,6 +5098,8 @@ META單位受到的效果有所不同，每有一層【污染】，其<color=#92
 		icon = "buff_yumia_3",
 		arg = {}
 	}
+end)()
+(function ()
 	pg.base.strategy_data_template[300012] = {
 		buff_id = 0,
 		name = "核心等級LV4",
@@ -5084,8 +5155,6 @@ META單位受到的效果有所不同，每有一層【污染】，其<color=#92
 		icon = "buff_yumia_4",
 		arg = {}
 	}
-end)()
-(function ()
 	pg.base.strategy_data_template[300017] = {
 		buff_id = 0,
 		name = "核心等級LV1",

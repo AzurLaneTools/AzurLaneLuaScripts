@@ -60,6 +60,10 @@ pg.activity_banner.get_id_list_by_type = {
 	[2] = {
 		1,
 		2,
+		3,
+		4,
+		5,
+		6,
 		7,
 		8,
 		9,
@@ -89,10 +93,6 @@ pg.activity_banner.get_id_list_by_type = {
 		1025
 	},
 	[3] = {
-		3,
-		4,
-		5,
-		6,
 		1003
 	},
 	[8] = {
@@ -143,7 +143,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					10
+					24
 				},
 				{
 					0,
@@ -154,8 +154,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					23
+					10,
+					14
 				},
 				{
 					23,
@@ -181,39 +181,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					9,
 					24
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[3] = {
-		param = "51127",
-		type = 3,
-		id = 3,
-		pic = "temp3",
-		time = {
-			{
-				{
-					2026,
-					9,
-					17
 				},
 				{
 					0,
@@ -235,17 +203,22 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[4] = {
-		param = "51126",
-		type = 3,
-		id = 4,
-		pic = "temp4",
+	pg.base.activity_banner[3] = {
+		type = 2,
+		id = 3,
+		pic = "temp3",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					17
+					24
 				},
 				{
 					0,
@@ -257,7 +230,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					21
+					14
 				},
 				{
 					23,
@@ -267,17 +240,59 @@ pg.base.activity_banner = {}
 			}
 		}
 	}
-	pg.base.activity_banner[5] = {
-		param = "51129",
-		type = 3,
-		id = 5,
-		pic = "temp5",
+	pg.base.activity_banner[4] = {
+		type = 2,
+		id = 4,
+		pic = "temp4",
+		param = {
+			"scene core activity",
+			{
+				coreName = "ShadowCityCoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					17
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[5] = {
+		type = 2,
+		id = 5,
+		pic = "temp5",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					24
 				},
 				{
 					0,
@@ -300,16 +315,21 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[6] = {
-		param = "51002",
-		type = 3,
+		type = 2,
 		id = 6,
 		pic = "temp6",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					17
+					24
 				},
 				{
 					0,
@@ -336,18 +356,14 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
+			"scene court yard"
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					17
+					24
 				},
 				{
 					0,
@@ -358,11 +374,11 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					23
+					10,
+					14
 				},
 				{
-					24,
+					23,
 					59,
 					59
 				}
@@ -374,14 +390,17 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene dailylevel"
+			"scene core activity",
+			{
+				coreName = "ShiningMagicCoreActivityUI"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					17
+					24
 				},
 				{
 					0,
@@ -392,11 +411,11 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					23
+					10,
+					14
 				},
 				{
-					24,
+					23,
 					59,
 					59
 				}
@@ -408,18 +427,17 @@ pg.base.activity_banner = {}
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene level",
+			"scene get boat",
 			{
-				open_remaster = true,
-				isSP = true
+				goToPray = true
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					8,
-					27
+					9,
+					24
 				},
 				{
 					0,
@@ -430,13 +448,13 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					8
+					10,
+					15
 				},
 				{
-					12,
-					0,
-					0
+					14,
+					59,
+					59
 				}
 			}
 		}
@@ -472,7 +490,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					10
+					24
 				},
 				{
 					0,
@@ -483,8 +501,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					23
+					10,
+					14
 				},
 				{
 					23,
@@ -535,10 +553,35 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[102] = {
 		param = "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
-		time = "stop",
 		type = 10,
 		id = 102,
-		pic = "guihuagao"
+		pic = "guihuagao",
+		time = {
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	}
 	pg.base.activity_banner[103] = {
 		param = "鏡餅|要開了才能吃哦？<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
@@ -584,7 +627,7 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[201] = {
 		param = "",
-		time = "stop",
+		time = "always",
 		type = 13,
 		id = 201,
 		pic = "autumn"
@@ -598,7 +641,7 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[203] = {
 		param = "",
-		time = "always",
+		time = "stop",
 		type = 13,
 		id = 203,
 		pic = "spring"

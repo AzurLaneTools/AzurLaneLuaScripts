@@ -372,20 +372,20 @@ slot0.RevertSleepTimeout = function(slot0)
 	slot0.defaultSleepTimeout = nil
 end
 
-slot0.FoldPanels = function(slot0, slot1)
+slot0.FoldPanels = function(slot0, slot1, slot2)
 	if not slot0.theme then
 		return
 	end
 
 	slot0.foldFlag = slot1
 
-	slot0.theme:OnFoldPanels(slot1)
+	slot0.theme:OnFoldPanels(slot1, slot2)
 	slot0.paintingView:Fold(slot1, 0.5)
 	pg.playerResUI:Fold(slot1, 0.5)
 	slot0:SetEffectPanelVisible(not slot1)
 end
 
-slot0.HidePanel = function(slot0, slot1)
+slot0.HidePanel = function(slot0, slot1, slot2)
 	if not slot0.theme then
 		return
 	end
@@ -394,9 +394,13 @@ slot0.HidePanel = function(slot0, slot1)
 		return
 	end
 
+	if slot0.calibrationPage and slot0.calibrationPage:GetLoaded() and slot0.calibrationPage:isShowing() then
+		return
+	end
+
 	slot0.foldFlag = slot1
 
-	slot0.theme:OnFoldPanels(slot1)
+	slot0.theme:OnFoldPanels(slot1, slot2)
 
 	if slot0._asmrTurnning then
 		if slot0.foldFlag == true then
@@ -617,6 +621,12 @@ end
 slot0.OnPlayerUpdated = function(slot0)
 	if slot0.theme and slot0.theme:GetLoaded() then
 		slot0.theme:OnPlayerUpdated()
+	end
+end
+
+slot0.ShowOrHideBtnEffect = function(slot0, slot1)
+	if slot0.theme then
+		slot0.theme:ShowOrHideBtnEffect(slot1)
 	end
 end
 

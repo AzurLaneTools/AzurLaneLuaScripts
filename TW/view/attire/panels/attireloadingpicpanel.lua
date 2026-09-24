@@ -528,9 +528,11 @@ slot0.getCurPicInfoListForShow = function(slot0)
 			end
 		end
 	elseif slot0.curFilterMode == uv0.FilterMode.Gallery then
-		for slot5, slot6 in ipairs(slot0.picInfoList) do
-			if slot0:isGalleryPic(slot6) and not slot0:isDefaultPicInfo(slot6) then
-				table.insert(slot1, slot6)
+		slot2 = AppreciatePicConst.getOldLoadingPicIDList()
+
+		for slot6, slot7 in ipairs(slot0.picInfoList) do
+			if slot0:isGalleryPic(slot7) and not table.contains(slot2, slot7.id) then
+				table.insert(slot1, slot7)
 			end
 		end
 	elseif slot0.curFilterMode == uv0.FilterMode.Manga then
@@ -540,7 +542,13 @@ slot0.getCurPicInfoListForShow = function(slot0)
 			end
 		end
 	elseif slot0.curFilterMode == uv0.FilterMode.Default then
-		slot1 = slot0:getDefaultPicInfoList()
+		slot2 = AppreciatePicConst.getOldLoadingPicIDList()
+
+		for slot6, slot7 in ipairs(slot0.picInfoList) do
+			if slot0:isGalleryPic(slot7) and table.contains(slot2, slot7.id) then
+				table.insert(slot1, slot7)
+			end
+		end
 	end
 
 	slot1 = slot0:sortPicInfoList(slot1)

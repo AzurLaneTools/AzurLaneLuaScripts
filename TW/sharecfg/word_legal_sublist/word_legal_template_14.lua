@@ -4,6 +4,26 @@ slot0.word_legal_template_14 = {}
 slot1 = slot0.word_legal_template_14
 
 temp = function()
+	uv0["穗"] = {
+		["香"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["凪"] = {
+		["咲"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["露"] = {
 		["娜"] = {
 			this = true

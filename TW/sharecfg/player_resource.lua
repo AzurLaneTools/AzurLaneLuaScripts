@@ -559,6 +559,16 @@ pg.player_resource.all = {
 	747,
 	748,
 	749,
+	750,
+	751,
+	752,
+	753,
+	754,
+	755,
+	756,
+	757,
+	758,
+	759,
 	950,
 	951,
 	952,
@@ -857,6 +867,12 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	activity_xunzhang22 = {
 		743
+	},
+	activity_xunzhang23 = {
+		758
+	},
+	activity_xunzhang24 = {
+		759
 	},
 	activity_xunzhang3 = {
 		477
@@ -1331,6 +1347,15 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	limit_skinticket114 = {
 		748
+	},
+	limit_skinticket115 = {
+		753
+	},
+	limit_skinticket116 = {
+		754
+	},
+	limit_skinticket117 = {
+		755
 	},
 	limit_skinticket12 = {
 		469
@@ -1941,6 +1966,9 @@ pg.player_resource.get_id_list_by_name = {
 	skinTicket124 = {
 		749
 	},
+	skinTicket125 = {
+		756
+	},
 	skinTicket13 = {
 		184
 	},
@@ -2418,6 +2446,9 @@ pg.player_resource.get_id_list_by_name = {
 	union15_pt = {
 		711
 	},
+	union16_pt = {
+		757
+	},
 	union2_pt = {
 		135
 	},
@@ -2729,6 +2760,15 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	youmiya_pt = {
 		528
+	},
+	youyingmicheng_pt1 = {
+		750
+	},
+	youyingmicheng_pt2 = {
+		751
+	},
+	youyingmicheng_pt3 = {
+		752
 	},
 	yunxian_pt = {
 		368
@@ -5540,6 +5580,56 @@ end)()
 		name = "skinTicket124",
 		itemid = 65120
 	}
+	pg.base.player_resource[750] = {
+		id = 750,
+		name = "youyingmicheng_pt1",
+		itemid = 68691
+	}
+	pg.base.player_resource[751] = {
+		id = 751,
+		name = "youyingmicheng_pt2",
+		itemid = 68692
+	}
+	pg.base.player_resource[752] = {
+		id = 752,
+		name = "youyingmicheng_pt3",
+		itemid = 68693
+	}
+	pg.base.player_resource[753] = {
+		id = 753,
+		name = "limit_skinticket115",
+		itemid = 68355
+	}
+	pg.base.player_resource[754] = {
+		id = 754,
+		name = "limit_skinticket116",
+		itemid = 68356
+	}
+	pg.base.player_resource[755] = {
+		id = 755,
+		name = "limit_skinticket117",
+		itemid = 68357
+	}
+	pg.base.player_resource[756] = {
+		id = 756,
+		name = "skinTicket125",
+		itemid = 66093
+	}
+	pg.base.player_resource[757] = {
+		id = 757,
+		name = "union16_pt",
+		itemid = 68755
+	}
+	pg.base.player_resource[758] = {
+		id = 758,
+		name = "activity_xunzhang23",
+		itemid = 66094
+	}
+	pg.base.player_resource[759] = {
+		id = 759,
+		name = "activity_xunzhang24",
+		itemid = 66103
+	}
 	pg.base.player_resource[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -5710,6 +5800,8 @@ end)()
 		name = "worldboss260212_ticket",
 		itemid = 65832
 	}
+end)()
+(function ()
 	pg.base.player_resource[2026] = {
 		id = 2026,
 		name = "contribution_worldboss260827",
@@ -5760,8 +5852,6 @@ end)()
 		name = "synchronize_shaenhuosite",
 		itemid = 21906
 	}
-end)()
-(function ()
 	pg.base.player_resource[3008] = {
 		id = 3008,
 		name = "synchronize_fanji",

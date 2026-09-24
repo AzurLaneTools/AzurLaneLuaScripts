@@ -78,8 +78,12 @@ slot0.init = function(slot0)
 	slot0.dynamicResToggle = slot0.adapt:Find("right/functionsAndTags/dynamic/l2d_res_state")
 	slot0.tagList = UIItemList.New(slot0.adapt:Find("right/functionsAndTags/tags"), slot0.adapt:Find("right/functionsAndTags/tags/tag"))
 	slot0.giftPackBtn = slot0.adapt:Find("right/giftPackBtn")
-	slot0.price = slot0.adapt:Find("right/price")
-	slot0.btns = slot0.price:Find("btns")
+	slot1 = slot0.adapt
+	slot0.price = slot1:Find("right/price")
+	slot0.btnsList = {
+		slot0.price:Find("normal/btns"),
+		slot0.price:Find("charge/btns")
+	}
 	slot0.filterUI = slot0.adapt:Find("subPage/filterUI")
 	slot0.filterContent = slot0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content")
 	slot0.painting = slot0._tf:Find("painting")
@@ -107,23 +111,31 @@ slot0.init = function(slot0)
 	slot0.isToggleDynamic = false
 	slot0.isToggleShowBg = true
 	slot0.isPreviewFurniture = false
-	slot0.interactionPreview = BackYardInteractionPreview.New(slot0.furnitureContainer, Vector3(0, 0, 0))
+	slot5 = 0
+	slot0.interactionPreview = BackYardInteractionPreview.New(slot0.furnitureContainer, Vector3(0, slot5, 0))
 	slot0.voucherMsgBox = SkinVoucherMsgBox.New(pg.UIMgr.GetInstance().OverlayMain)
 	slot0.purchaseView = NewSkinShopPurchaseView.New(slot0._tf, slot0.event)
 
 	slot0:RegisterEvent()
-	setGray(slot0.btns:Find("yigoumai_button"), true, true)
 	setText(slot0._tf:Find("bgs/empty/Text"), i18n("shop_new_unfound"))
 	setText(slot0.adapt:Find("top/mainTitle/Text"), i18n("shop_new_shop"))
 	setText(slot0.filterBtn:Find("Text"), i18n("shop_new_sort"))
-	setText(slot0.search:Find("holder"), i18n("shop_new_search"))
-	setText(slot0.btns:Find("yigoumai_button/Text"), i18n("shop_new_purchased"))
-	setText(slot0.btns:Find("goumai_button/Text"), i18n("shop_new_purchase"))
-	setText(slot0.btns:Find("qianwanghuoqu_button/Text"), i18n("shop_new_claim"))
-	setText(slot0.btns:Find("furniture_shop/Text"), i18n("shop_new_furniture"))
-	setText(slot0.btns:Find("item_buy/Text"), i18n("shop_new_discount"))
-	setText(slot0.btns:Find("tiyan_btn/Text"), i18n("shop_new_try"))
-	setText(slot0.btns:Find("buy_with_gift/Text"), i18n("shop_new_purchase"))
+
+	slot4 = "shop_new_search"
+
+	setText(slot0.search:Find("holder"), i18n(slot4))
+
+	for slot4, slot5 in ipairs(slot0.btnsList) do
+		setText(slot5:Find("yigoumai_button/Text"), i18n("shop_new_purchased"))
+		setText(slot5:Find("goumai_button/Text"), i18n("shop_new_purchase"))
+		setText(slot5:Find("qianwanghuoqu_button/Text"), i18n("shop_new_claim"))
+		setText(slot5:Find("furniture_shop/Text"), i18n("shop_new_furniture"))
+		setText(slot5:Find("item_buy/Text"), i18n("shop_new_discount"))
+		setText(slot5:Find("tiyan_btn/Text"), i18n("shop_new_try"))
+		setText(slot5:Find("buy_with_gift/Text"), i18n("shop_new_purchase"))
+	end
+
+	setText(slot0.btnsList[2]:Find("buy_charge/Text"), i18n("shop_new_purchase"))
 	setText(slot0.price:Find("btn/tag/Text"), i18n("shop_new_gift"))
 	setText(slot0.giftPack:Find("panel/desc"), i18n("shop_new_gem_transform"))
 	setText(slot0.giftPack:Find("price/btns/yigoumai_button/Text"), i18n("shop_new_purchased"))
@@ -180,7 +192,7 @@ slot0.Overlay = function(slot0)
 			slot0.filterBtn,
 			slot0.search,
 			slot0.charContainer:Find("bg"),
-			slot0.price:Find("consume"),
+			slot0.price:Find("normal/consume"),
 			slot0.filterUI:Find("panelMask/panel")
 		}
 	})
@@ -764,6 +776,12 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 
 	slot3:Update(slot4, slot0.selectedId == slot4.id, table.contains(slot0.returnSkins, slot4.id))
 
+	if slot0.pendingSelectId and slot0.pendingSelectId == slot4.id then
+		slot0.pendingSelectId = nil
+
+		triggerButton(slot3._go)
+	end
+
 	if slot0.triggerFirstCard and slot1 == 0 then
 		slot0.triggerFirstCard = false
 
@@ -1145,6 +1163,7 @@ slot0.FlushTag = function(slot0)
 			end)
 		end
 	end)
+	setActive(slot0.adapt:Find("right/functionsAndTags/tags"), #slot3 > 0)
 	slot0.tagList:align(#slot3)
 end
 
@@ -1520,7 +1539,7 @@ slot0.FlushPrice = function(slot0, slot1)
 	end
 
 	setActive(slot0.price:Find("timeLimit"), slot2 and not slot3)
-	setActive(slot0.price:Find("consume"), slot1.type == Goods.TYPE_SKIN and not slot2 and not slot3)
+	setActive(slot0.price:Find("normal/consume"), slot1.type == Goods.TYPE_SKIN and not slot2 and not slot3)
 end
 
 slot0.UpdateExperiencePrice4Item = function(slot0, slot1)
@@ -1540,9 +1559,9 @@ slot0.UpdateCommodityPrice = function(slot0, slot1)
 	slot2 = slot1:GetPrice()
 	slot3 = slot1:getConfig("resource_num")
 
-	setText(slot0.price:Find("consume/Text"), slot2)
-	setText(slot0.price:Find("consume/originalprice/Text"), slot3)
-	setActive(slot0.price:Find("consume/originalprice"), slot2 ~= slot3)
+	setText(slot0.price:Find("normal/consume/Text"), slot2)
+	setText(slot0.price:Find("normal/consume/originalprice/Text"), slot3)
+	setActive(slot0.price:Find("normal/consume/originalprice"), slot2 ~= slot3)
 end
 
 slot0.UpdateFurniturePrice = function(slot0, slot1)
@@ -1551,33 +1570,87 @@ slot0.UpdateFurniturePrice = function(slot0, slot1)
 	})
 	slot4 = slot3:getConfig("gem_price")
 
-	setText(slot0.price:Find("consume/originalprice/Text"), slot4)
+	setText(slot0.price:Find("normal/consume/originalprice/Text"), slot4)
 
 	slot5 = slot3:getPrice(PlayerConst.ResDiamond)
 
-	setText(slot0.price:Find("consume/Text"), slot5)
-	setActive(slot0.price:Find("consume/originalprice"), slot4 ~= slot5)
+	setText(slot0.price:Find("normal/consume/Text"), slot5)
+	setActive(slot0.price:Find("normal/consume/originalprice"), slot4 ~= slot5)
+end
+
+slot21 = function(slot0, slot1)
+	if slot0 == uv0 or slot0 == uv1 or slot0 == uv2 then
+		return false
+	end
+
+	return getProxy(ShopsProxy):CanPurchasedByCharge(slot1:getSkinId())
+end
+
+slot0.UpdateChargeView = function(slot0, slot1, slot2, slot3)
+	slot5 = slot0.btnsList[2]
+
+	setActive(slot5:Find("buy_charge"), not (slot1 == uv0))
+
+	slot6 = pg.pay_data_display[slot3]
+
+	assert(slot6, "pay_data_display>>>>>>>>>>>>>" .. slot3)
+
+	slot7 = GetMoneySymbol() .. GetChargePrice(slot6.money)
+
+	setText(slot0.btnsList[2]:Find("buy_charge/value"), slot7)
+
+	slot8 = slot5.parent:Find("consume")
+	slot9 = slot5.parent:Find("rmb")
+
+	setText(slot9:Find("Text"), slot7)
+	setActive(slot9:Find("originalprice"), slot6.money < slot6.cash_show)
+	setText(slot9:Find("originalprice/Text"), GetChargePrice(slot6.cash_show))
+	setActive(slot8:Find("originalprice"), slot2:GetPrice() ~= slot2:getConfig("resource_num"))
+	setText(slot8:Find("Text"), slot10)
+	setText(slot8:Find("originalprice/Text"), slot11)
 end
 
 slot0.FlushObtainBtn = function(slot0, slot1)
-	slot3 = uv0(slot0:GetObtainBtnState(slot1))
+	slot2 = slot0:GetObtainBtnState(slot1)
+	slot3 = uv0(slot2)
+	slot4, slot5 = uv1(slot2, slot1)
 
-	for slot7 = 0, slot0.btns.childCount - 1 do
-		slot8 = slot0.btns:GetChild(slot7)
+	setActive(slot0.btnsList[1].parent, not slot4)
+	setActive(slot0.btnsList[2].parent, slot4)
 
-		setActive(slot8, slot8.name == slot3)
+	slot6 = slot4 and slot0.btnsList[2] or slot0.btnsList[1]
+
+	for slot10 = 0, slot6.childCount - 1 do
+		slot11 = slot6:GetChild(slot10)
+
+		setActive(slot11, slot11.name == slot3)
 	end
 
-	setActive(slot0.price:Find("btn/item"), slot2 == uv1)
-	setActive(slot0.price:Find("btn/tag"), slot2 == uv1)
+	if slot4 then
+		slot0:UpdateChargeView(slot2, slot1, slot5)
+	end
 
-	if slot2 == uv1 then
+	setActive(slot0.price:Find("btn_charge"), slot4 and slot2 ~= uv2)
+	setActive(slot0.price:Find("btn/item"), slot2 == uv3)
+	setActive(slot0.price:Find("btn/tag"), slot2 == uv3)
+
+	if slot2 == uv3 then
 		slot0:FlushGift(slot1)
 	end
 
-	slot6 = slot0.price
+	slot9 = slot0.price
 
-	onButton(slot0, slot6:Find("btn"), function ()
+	onButton(slot0, slot9:Find("btn_charge"), function ()
+		if not uv0 then
+			return
+		end
+
+		uv1:OpenChargePanel(uv2)
+	end, SFX_PANEL)
+
+	slot9 = slot0.price
+
+	onButton(slot0, slot9:Find("btn"), function ()
 		slot0 = {}
 
 		if tobool(SkinCouponActivity.StaticEncoreActTip(uv0.id)) then
@@ -1611,6 +1684,20 @@ slot0.FlushObtainBtn = function(slot0, slot1)
 			end
 		end)
 	end, SFX_PANEL)
+end
+
+slot0.OpenChargePanel = function(slot0, slot1)
+	slot2 = Goods.Create({
+		shop_id = slot1
+	}, Goods.TYPE_CHARGE)
+
+	if ChargeConst.isNeedSetBirth() then
+		slot0:emit(LatestSkinShopMediator.OPEN_CHARGE_BIRTHDAY)
+	else
+		pg.m02:sendNotification(GAME.CHARGE_OPERATION, {
+			shopId = slot2.id
+		})
+	end
 end
 
 slot0.GetObtainBtnState = function(slot0, slot1)
@@ -2307,8 +2394,10 @@ slot0.OnShopping = function(slot0, slot1)
 	end
 
 	if slot0.showingCommodity.id == slot1 then
+		slot0.pendingSelectId = slot0:GetNextCommodityIndex(slot1)
+
 		slot0:GetAllCommodities()
-		slot0:Refresh(true)
+		slot0:Refresh(false)
 	end
 end
 
@@ -2378,6 +2467,18 @@ slot0.willExit = function(slot0)
 	slot0:ClearTimer()
 	slot0:ReturnChar()
 	slot0:UnOverlay()
+end
+
+slot0.GetNextCommodityIndex = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.displays) do
+		if slot6.id == slot1 then
+			if slot5 == #slot0.displays then
+				return slot1
+			end
+
+			return slot0.displays[slot5 + 1].id
+		end
+	end
 end
 
 slot0.onBackPressed = function(slot0)

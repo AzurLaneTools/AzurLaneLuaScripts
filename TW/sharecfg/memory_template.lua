@@ -4078,6 +4078,44 @@ pg.memory_template.all = {
 	5425,
 	5426,
 	5427,
+	5441,
+	5442,
+	5443,
+	5444,
+	5445,
+	5446,
+	5447,
+	5448,
+	5449,
+	5450,
+	5451,
+	5452,
+	5453,
+	5454,
+	5455,
+	5456,
+	5457,
+	5458,
+	5459,
+	5460,
+	5461,
+	5462,
+	5463,
+	5464,
+	5471,
+	5472,
+	5473,
+	5474,
+	5475,
+	5476,
+	5477,
+	5478,
+	5479,
+	5480,
+	5481,
+	5482,
+	5483,
+	5484,
 	5431,
 	5432,
 	5433,
@@ -4085,6 +4123,58 @@ pg.memory_template.all = {
 	5435,
 	5436,
 	5437,
+	5501,
+	5502,
+	5503,
+	5504,
+	5505,
+	5506,
+	5507,
+	5508,
+	5509,
+	5510,
+	5511,
+	5512,
+	5513,
+	5514,
+	5515,
+	5516,
+	5517,
+	5518,
+	5519,
+	5520,
+	5521,
+	5522,
+	5523,
+	5524,
+	5525,
+	5526,
+	5527,
+	5528,
+	5529,
+	5530,
+	5531,
+	5532,
+	5533,
+	5534,
+	5535,
+	5536,
+	5537,
+	5538,
+	5539,
+	5540,
+	5541,
+	5542,
+	5543,
+	5544,
+	5545,
+	5546,
+	5547,
+	5548,
+	5549,
+	5550,
+	5551,
+	5552,
 	10011,
 	10012,
 	10013,
@@ -77693,6 +77783,692 @@ end)()
 			"BAIFENG7"
 		}
 	}
+	pg.base.memory_template[5441] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "異常事件調查中心",
+		condition = "進入EP1-1",
+		story = "YOUYINGMICHENG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5441,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG1"
+		}
+	}
+	pg.base.memory_template[5442] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "現場執行組",
+		condition = "異常空間",
+		story = "YOUYINGMICHENG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5442,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG2"
+		}
+	}
+	pg.base.memory_template[5443] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "異常空間",
+		condition = "進入EP1-3",
+		story = "YOUYINGMICHENG3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5443,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG3"
+		}
+	}
+	pg.base.memory_template[5444] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "收容成功",
+		condition = "進入EP1-4",
+		story = "2066001",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5444,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2066001"
+		}
+	}
+	pg.base.memory_template[5445] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "私下邀約",
+		condition = "進入EP1-5",
+		story = "YOUYINGMICHENG5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5445,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG5"
+		}
+	}
+	pg.base.memory_template[5446] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "失控前奏",
+		condition = "進入 EP1-6",
+		story = "YOUYINGMICHENG6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5446,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG6"
+		}
+	}
+	pg.base.memory_template[5447] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "尋找標槍",
+		condition = "進入EP2-1",
+		story = "2066002",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5447,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"2066002"
+		}
+	}
+	pg.base.memory_template[5448] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "害怕孤獨的孩子",
+		condition = "進入EP2-2",
+		story = "YOUYINGMICHENG8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5448,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG8"
+		}
+	}
+	pg.base.memory_template[5449] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "市政廳",
+		condition = "進入EP2-3",
+		story = "YOUYINGMICHENG9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5449,
+		icon = "memory_youyingmicheng2",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG9"
+		}
+	}
+	pg.base.memory_template[5450] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "人類與幽影",
+		condition = "進入EP2-4",
+		story = "YOUYINGMICHENG10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5450,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG10"
+		}
+	}
+	pg.base.memory_template[5451] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "特別來使",
+		condition = "進入EP2-5",
+		story = "YOUYINGMICHENG11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5451,
+		icon = "memory_youyingmicheng1",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG11"
+		}
+	}
+	pg.base.memory_template[5452] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "以幸福之名",
+		condition = "進入EP3-1",
+		story = "YOUYINGMICHENG12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5452,
+		icon = "memory_youyingmicheng3",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG12"
+		}
+	}
+	pg.base.memory_template[5453] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "重逢的力量",
+		condition = "進入EP3-2",
+		story = "YOUYINGMICHENG13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5453,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG13"
+		}
+	}
+	pg.base.memory_template[5454] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新紀元都市NO.5",
+		condition = "進入EP3-3",
+		story = "YOUYINGMICHENG14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5454,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG14"
+		}
+	}
+	pg.base.memory_template[5455] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "「我們」是怪物",
+		condition = "進入EP3-4",
+		story = "YOUYINGMICHENG15",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5455,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG15"
+		}
+	}
+	pg.base.memory_template[5456] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "破局",
+		condition = "進入 EP3-5",
+		story = "YOUYINGMICHENG16",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5456,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG16"
+		}
+	}
+	pg.base.memory_template[5457] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "四城討伐戰Ⅰ",
+		condition = "進入 EP3-6",
+		story = "2066003",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5457,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066003"
+		}
+	}
+	pg.base.memory_template[5458] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "四城討伐戰Ⅱ",
+		condition = "進入 EP3-7",
+		story = "2066004",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5458,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066004"
+		}
+	}
+	pg.base.memory_template[5459] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "直面{namecode:315}",
+		condition = "進入EP4-1",
+		story = "2066005",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5459,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066005"
+		}
+	}
+	pg.base.memory_template[5460] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "安全降落",
+		condition = "進入EP4-2",
+		story = "YOUYINGMICHENG20",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5460,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG20"
+		}
+	}
+	pg.base.memory_template[5461] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "孩子的議會",
+		condition = "進入EP4-3",
+		story = "YOUYINGMICHENG21",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5461,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG21"
+		}
+	}
+	pg.base.memory_template[5462] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "勇氣與決心",
+		condition = "進入EP4-4",
+		story = "YOUYINGMICHENG22",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5462,
+		icon = "memory_youyingmicheng5",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG22"
+		}
+	}
+	pg.base.memory_template[5463] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "一個不普通的後勤人員",
+		condition = "進入EP4-5",
+		story = "2066006",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5463,
+		icon = "memory_youyingmicheng4",
+		is_open = 0,
+		unlock_pre = {
+			"2066006"
+		}
+	}
+	pg.base.memory_template[5464] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "重生之火",
+		condition = "進入 EP4-6",
+		story = "YOUYINGMICHENG24",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5464,
+		icon = "memory_youyingmicheng6",
+		is_open = 0,
+		unlock_pre = {
+			"YOUYINGMICHENG24"
+		}
+	}
+	pg.base.memory_template[5471] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新人培訓錄影.vob",
+		condition = "開始「異常的日常進行中」活動",
+		story = "YICHANGDERICHANGJINXINGZHONG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5471,
+		icon = "memory_yichangderichangjinxingzhong1",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG1"
+		}
+	}
+	pg.base.memory_template[5472] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "臨水的晨星",
+		condition = "活動中將虎的共感升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5472,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG2"
+		}
+	}
+end)()
+(function ()
+	pg.base.memory_template[5473] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "午夜頻道",
+		condition = "在活動中將{namecode:531}的共感上升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5473,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG3"
+		}
+	}
+	pg.base.memory_template[5474] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幻夜綺舞",
+		condition = "在活動中將{namecode:457}的共感上升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5474,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG4"
+		}
+	}
+	pg.base.memory_template[5475] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "無法入睡的人偶館",
+		condition = "在活動中將匆忙的共感升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5475,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG5"
+		}
+	}
+	pg.base.memory_template[5476] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "被覓食的獵物",
+		condition = "在活動中將金鹿號的共感升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5476,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG6"
+		}
+	}
+	pg.base.memory_template[5477] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "晴雨狐嫁",
+		condition = "在活動中將{namecode:302}的共感上升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5477,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG7"
+		}
+	}
+	pg.base.memory_template[5478] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "徘迴夜色的光輝",
+		condition = "在活動中將光輝的共感升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5478,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG8"
+		}
+	}
+	pg.base.memory_template[5479] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "柴郡貓的童話迷宮",
+		condition = "在活動中將柴都的共感升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5479,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG9"
+		}
+	}
+	pg.base.memory_template[5480] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "夜巷中的誘惑者",
+		condition = "在活動中將獅的共感升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5480,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG10"
+		}
+	}
+	pg.base.memory_template[5481] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "潮汐間的微光",
+		condition = "在活動中將敵對的共感升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5481,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG11"
+		}
+	}
+	pg.base.memory_template[5482] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "飛鶴織緣",
+		condition = "在活動中將{namecode:95}的共感上升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5482,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG12"
+		}
+	}
+	pg.base.memory_template[5483] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "千面皆虛無",
+		condition = "在活動中將{namecode:314}的共感上升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5483,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG13"
+		}
+	}
+	pg.base.memory_template[5484] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "瑰色電梯",
+		condition = "在活動中將{namecode:315}的共感上升至最高",
+		story = "YICHANGDERICHANGJINXINGZHONG14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5484,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGJINXINGZHONG14"
+		}
+	}
 	pg.base.memory_template[5431] = {
 		ship_group = 0,
 		subtitle = "",
@@ -77817,6 +78593,942 @@ end)()
 		is_open = 0,
 		unlock_pre = {
 			"DUSHIQIUZHIDAZUOZHAN7"
+		}
+	}
+	pg.base.memory_template[5501] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-虎",
+		condition = "在活動中招募幽影：虎",
+		story = "YICHANGDERICHANGZHAOMU1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5501,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU1"
+		}
+	}
+	pg.base.memory_template[5502] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-{namecode:531}",
+		condition = "在活動中招募幽影：{namecode:531}",
+		story = "YICHANGDERICHANGZHAOMU12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5502,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU12"
+		}
+	}
+	pg.base.memory_template[5503] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-{namecode:457}",
+		condition = "在活動中招募幽影：{namecode:457}",
+		story = "YICHANGDERICHANGZHAOMU2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5503,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU2"
+		}
+	}
+	pg.base.memory_template[5504] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-匆忙",
+		condition = "在活動中招募幽影：匆忙",
+		story = "YICHANGDERICHANGZHAOMU5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5504,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU5"
+		}
+	}
+	pg.base.memory_template[5505] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-金鹿號",
+		condition = "在活動中招募幽影：金鹿號",
+		story = "YICHANGDERICHANGZHAOMU13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5505,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU13"
+		}
+	}
+	pg.base.memory_template[5506] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-{namecode:302}",
+		condition = "在活動中招募幽影：{namecode:302}",
+		story = "YICHANGDERICHANGZHAOMU6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5506,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU6"
+		}
+	}
+	pg.base.memory_template[5507] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-光輝",
+		condition = "在活動中招募幽影：光輝",
+		story = "YICHANGDERICHANGZHAOMU11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5507,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU11"
+		}
+	}
+	pg.base.memory_template[5508] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-柴郡",
+		condition = "在活動中招募幽影：柴郡",
+		story = "YICHANGDERICHANGZHAOMU7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5508,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU7"
+		}
+	}
+	pg.base.memory_template[5509] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-獅",
+		condition = "在活動中招募幽影：獅",
+		story = "YICHANGDERICHANGZHAOMU9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5509,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU9"
+		}
+	}
+	pg.base.memory_template[5510] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-敵對",
+		condition = "在活動中招募幽影：敵對",
+		story = "YICHANGDERICHANGZHAOMU8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5510,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU8"
+		}
+	}
+	pg.base.memory_template[5511] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-{namecode:95}",
+		condition = "在活動中招募幽影：{namecode:95}",
+		story = "YICHANGDERICHANGZHAOMU3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5511,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU3"
+		}
+	}
+	pg.base.memory_template[5512] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-{namecode:314}",
+		condition = "在活動中招募幽影：{namecode:314}",
+		story = "YICHANGDERICHANGZHAOMU4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5512,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU4"
+		}
+	}
+	pg.base.memory_template[5513] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "幽影招募-{namecode:315}",
+		condition = "在活動中招募幽影：{namecode:315}",
+		story = "YICHANGDERICHANGZHAOMU10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5513,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGZHAOMU10"
+		}
+	}
+	pg.base.memory_template[5514] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於虎……",
+		condition = "在活動中提升與虎的共感",
+		story = "YICHANGDERICHANGDUANJUQING1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5514,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING1"
+		}
+	}
+	pg.base.memory_template[5515] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "天外旋律",
+		condition = "在活動中提升與虎的共感",
+		story = "YICHANGDERICHANGDUANJUQING2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5515,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING2"
+		}
+	}
+	pg.base.memory_template[5516] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "翅膀保養",
+		condition = "在活動中提升與虎的共感",
+		story = "YICHANGDERICHANGDUANJUQING3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5516,
+		icon = "memory_yichangderichangjinxingzhong2",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING3"
+		}
+	}
+	pg.base.memory_template[5517] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於{namecode:531}……",
+		condition = "在活動中提升與{namecode:531}的共感",
+		story = "YICHANGDERICHANGDUANJUQING4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5517,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING4"
+		}
+	}
+	pg.base.memory_template[5518] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "突破邊界",
+		condition = "在活動中提升與{namecode:531}的共感",
+		story = "YICHANGDERICHANGDUANJUQING5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5518,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING5"
+		}
+	}
+	pg.base.memory_template[5519] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "想去你身邊",
+		condition = "在活動中提升與{namecode:531}的共感",
+		story = "YICHANGDERICHANGDUANJUQING6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5519,
+		icon = "memory_yichangderichangjinxingzhong3",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING6"
+		}
+	}
+	pg.base.memory_template[5520] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於{namecode:457}……",
+		condition = "在活動中提升與{namecode:457}的共感",
+		story = "YICHANGDERICHANGDUANJUQING7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5520,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING7"
+		}
+	}
+	pg.base.memory_template[5521] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "合格的舞伴",
+		condition = "在活動中提升與{namecode:457}的共感",
+		story = "YICHANGDERICHANGDUANJUQING8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5521,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING8"
+		}
+	}
+	pg.base.memory_template[5522] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "堅持還是淪陷？",
+		condition = "在活動中提升與{namecode:457}的共感",
+		story = "YICHANGDERICHANGDUANJUQING9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5522,
+		icon = "memory_yichangderichangjinxingzhong4",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING9"
+		}
+	}
+	pg.base.memory_template[5523] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於匆忙……",
+		condition = "在活動中提升與匆忙的共感",
+		story = "YICHANGDERICHANGDUANJUQING10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5523,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING10"
+		}
+	}
+	pg.base.memory_template[5524] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "欣賞笑容",
+		condition = "在活動中提升與匆忙的共感",
+		story = "YICHANGDERICHANGDUANJUQING11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5524,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING11"
+		}
+	}
+	pg.base.memory_template[5525] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "陪伴",
+		condition = "在活動中提升與匆忙的共感",
+		story = "YICHANGDERICHANGDUANJUQING12",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5525,
+		icon = "memory_yichangderichangjinxingzhong5",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING12"
+		}
+	}
+	pg.base.memory_template[5526] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於金鹿號……",
+		condition = "在活動中提升與金鹿號的共感",
+		story = "YICHANGDERICHANGDUANJUQING13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5526,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING13"
+		}
+	}
+	pg.base.memory_template[5527] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "觸手的溫度",
+		condition = "在活動中提升與金鹿號的共感",
+		story = "YICHANGDERICHANGDUANJUQING14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5527,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING14"
+		}
+	}
+	pg.base.memory_template[5528] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "您的味道",
+		condition = "在活動中提升與金鹿號的共感",
+		story = "YICHANGDERICHANGDUANJUQING15",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5528,
+		icon = "memory_yichangderichangjinxingzhong6",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING15"
+		}
+	}
+	pg.base.memory_template[5529] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於{namecode:302}……",
+		condition = "在活動中提升與{namecode:302}的共感",
+		story = "YICHANGDERICHANGDUANJUQING16",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5529,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING16"
+		}
+	}
+	pg.base.memory_template[5530] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "晴雨",
+		condition = "在活動中提升與{namecode:302}的共感",
+		story = "YICHANGDERICHANGDUANJUQING17",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5530,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING17"
+		}
+	}
+	pg.base.memory_template[5531] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "因緣",
+		condition = "在活動中提升與{namecode:302}的共感",
+		story = "YICHANGDERICHANGDUANJUQING18",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5531,
+		icon = "memory_yichangderichangjinxingzhong7",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING18"
+		}
+	}
+	pg.base.memory_template[5532] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於光輝……",
+		condition = "在活動中提升與光輝的共感",
+		story = "YICHANGDERICHANGDUANJUQING19",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5532,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING19"
+		}
+	}
+	pg.base.memory_template[5533] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "在尋找什麼？",
+		condition = "在活動中提升與光輝的共感",
+		story = "YICHANGDERICHANGDUANJUQING20",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5533,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING20"
+		}
+	}
+	pg.base.memory_template[5534] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "寂寞的幽靈",
+		condition = "在活動中提升與光輝的共感",
+		story = "YICHANGDERICHANGDUANJUQING21",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5534,
+		icon = "memory_yichangderichangjinxingzhong8",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING21"
+		}
+	}
+	pg.base.memory_template[5535] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於柴郡……",
+		condition = "在活動中提升與柴郡的共感",
+		story = "YICHANGDERICHANGDUANJUQING22",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5535,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING22"
+		}
+	}
+	pg.base.memory_template[5536] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "變厲害的魔藥",
+		condition = "在活動中提升與柴郡的共感",
+		story = "YICHANGDERICHANGDUANJUQING23",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5536,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING23"
+		}
+	}
+	pg.base.memory_template[5537] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "忽然出現",
+		condition = "在活動中提升與柴郡的共感",
+		story = "YICHANGDERICHANGDUANJUQING24",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5537,
+		icon = "memory_yichangderichangjinxingzhong9",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING24"
+		}
+	}
+	pg.base.memory_template[5538] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於獅……",
+		condition = "在活動中提升與獅的共感",
+		story = "YICHANGDERICHANGDUANJUQING25",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5538,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING25"
+		}
+	}
+	pg.base.memory_template[5539] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "獅子櫥窗",
+		condition = "在活動中提升與獅的共感",
+		story = "YICHANGDERICHANGDUANJUQING26",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5539,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING26"
+		}
+	}
+	pg.base.memory_template[5540] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "碎紙的工具",
+		condition = "在活動中提升與獅的共感",
+		story = "YICHANGDERICHANGDUANJUQING27",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5540,
+		icon = "memory_yichangderichangjinxingzhong10",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING27"
+		}
+	}
+	pg.base.memory_template[5541] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於敵對……",
+		condition = "在活動中提升與敵對的共感",
+		story = "YICHANGDERICHANGDUANJUQING28",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5541,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING28"
+		}
+	}
+	pg.base.memory_template[5542] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "貼身保鏢",
+		condition = "在活動中提升與敵對的共感",
+		story = "YICHANGDERICHANGDUANJUQING29",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5542,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING29"
+		}
+	}
+	pg.base.memory_template[5543] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "洗浴安全",
+		condition = "在活動中提升與敵對的共感",
+		story = "YICHANGDERICHANGDUANJUQING30",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5543,
+		icon = "memory_yichangderichangjinxingzhong11",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING30"
+		}
+	}
+	pg.base.memory_template[5544] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於{namecode:95}……",
+		condition = "在活動中提升與{namecode:95}的共感",
+		story = "YICHANGDERICHANGDUANJUQING31",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5544,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING31"
+		}
+	}
+	pg.base.memory_template[5545] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "報恩的笛聲",
+		condition = "在活動中提升與{namecode:95}的共感",
+		story = "YICHANGDERICHANGDUANJUQING32",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5545,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING32"
+		}
+	}
+	pg.base.memory_template[5546] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "雪中暖意",
+		condition = "在活動中提升與{namecode:95}的共感",
+		story = "YICHANGDERICHANGDUANJUQING33",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5546,
+		icon = "memory_yichangderichangjinxingzhong12",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING33"
+		}
+	}
+	pg.base.memory_template[5547] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於{namecode:314}……",
+		condition = "在活動中提升與{namecode:314}的共感",
+		story = "YICHANGDERICHANGDUANJUQING34",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5547,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING34"
+		}
+	}
+	pg.base.memory_template[5548] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "興趣與能力",
+		condition = "在活動中提升與{namecode:314}的共感",
+		story = "YICHANGDERICHANGDUANJUQING35",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5548,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING35"
+		}
+	}
+	pg.base.memory_template[5549] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "偽裝與自我",
+		condition = "在活動中提升與{namecode:314}的共感",
+		story = "YICHANGDERICHANGDUANJUQING36",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5549,
+		icon = "memory_yichangderichangjinxingzhong13",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING36"
+		}
+	}
+	pg.base.memory_template[5550] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "關於{namecode:315}",
+		condition = "在活動中提升與{namecode:315}的共感",
+		story = "YICHANGDERICHANGDUANJUQING37",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5550,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING37"
+		}
+	}
+	pg.base.memory_template[5551] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "全新氛圍",
+		condition = "在活動中提升與{namecode:315}的共感",
+		story = "YICHANGDERICHANGDUANJUQING38",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5551,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING38"
+		}
+	}
+	pg.base.memory_template[5552] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "更進一步",
+		condition = "在活動中提升與{namecode:315}的共感",
+		story = "YICHANGDERICHANGDUANJUQING39",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5552,
+		icon = "memory_yichangderichangjinxingzhong14",
+		is_open = 0,
+		unlock_pre = {
+			"YICHANGDERICHANGDUANJUQING39"
 		}
 	}
 	pg.base.memory_template[10011] = {
@@ -78161,8 +79873,6 @@ end)()
 			"YINGHUA4"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10055] = {
 		ship_group = 0,
 		subtitle = "",
@@ -78343,6 +80053,8 @@ end)()
 			"YINGHUA14"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10072] = {
 		ship_group = 0,
 		subtitle = "",
@@ -79963,8 +81675,6 @@ end)()
 			"LINGHANGYUANTANXIN29"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20081] = {
 		ship_group = 0,
 		subtitle = "",
@@ -80145,6 +81855,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA10"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20091] = {
 		ship_group = 0,
 		subtitle = "",

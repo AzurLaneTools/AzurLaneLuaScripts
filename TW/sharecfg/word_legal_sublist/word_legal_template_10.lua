@@ -4,6 +4,76 @@ slot0.word_legal_template_10 = {}
 slot1 = slot0.word_legal_template_10
 
 temp = function()
+	uv0["瑞"] = {
+		["鳳"] = {
+			this = true
+		},
+		["鶴"] = {
+			this = true
+		},
+		["吉"] = {
+			["娜"] = {
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["祥"] = {
+		["鳳"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["龍"] = {
+		["驤"] = {
+			this = true
+		},
+		["鳳"] = {
+			this = true
+		},
+		["武"] = {
+			this = true
+		},
+		["騎"] = {
+			["兵"] = {
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["赤"] = {
 		["城"] = {
 			this = true,
@@ -538,157 +608,6 @@ temp = function()
 							}
 						}
 					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["弗"] = {
-		["里"] = {
-			["茨"] = {
-				["·"] = {
-					["魯"] = {
-						["梅"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["朗"] = {
-			["切"] = {
-				["斯"] = {
-					["科"] = {
-						["·"] = {
-							["卡"] = {
-								["拉"] = {
-									["喬"] = {
-										["洛"] = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0.U = {
-		["-"] = {
-			["8"] = {
-				["1"] = {
-					this = true
-				}
-			},
-			["4"] = {
-				["7"] = {
-					this = true
-				},
-				["1"] = {
-					["0"] = {
-						this = true
-					}
-				}
-			},
-			["5"] = {
-				["5"] = {
-					["7"] = {
-						this = true
-					},
-					["6"] = {
-						this = true,
-						["·"] = {
-							M = {
-								E = {
-									T = {
-										A = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					},
-					["2"] = {
-						this = true
-					}
-				},
-				["2"] = {
-					["2"] = {
-						this = true
-					}
-				}
-			},
-			["7"] = {
-				["3"] = {
-					this = true
-				}
-			},
-			["1"] = {
-				["0"] = {
-					["1"] = {
-						this = true
-					}
-				},
-				["1"] = {
-					["0"] = {
-						this = true
-					}
-				},
-				["2"] = {
-					["0"] = {
-						["6"] = {
-							this = true
-						}
-					}
-				}
-			},
-			["9"] = {
-				["6"] = {
-					this = true
-				}
-			},
-			["3"] = {
-				["7"] = {
-					this = true
-				},
-				["1"] = {
-					this = true
-				}
-			},
-			["2"] = {
-				["5"] = {
-					["0"] = {
-						["1"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["鞍"] = {
-		["山"] = {
-			this = true,
-			["."] = {
-				["改"] = {
-					this = true
 				}
 			}
 		}

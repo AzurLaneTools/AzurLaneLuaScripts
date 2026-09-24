@@ -35,7 +35,8 @@ slot0.Make = function(slot0, slot1)
 	return (slot1:GetShipType() ~= CourtYardConst.SHIP_TYPE_OTHER or CourtYardOtherPlayerShipModule.New(slot1, slot2, slot3)) and ({
 		CourtYardShipModule,
 		CourtYardVisitorShipModule,
-		CourtYardFeastShipModule
+		CourtYardFeastShipModule,
+		CourtYardReversePacmanShipModule
 	})[slot1:GetShipType()].New(slot1, slot2, slot3)
 end
 
@@ -49,6 +50,18 @@ slot0.MakeAttachments = function(slot0, slot1, slot2, slot3)
 			end
 
 			Object.Instantiate(slot0, uv1.transform).name = "feastAttachments"
+
+			uv2()
+		end), true, true)
+	elseif slot2:GetShipType() == CourtYardConst.SHIP_TYPE_REVERSE_PACMAN then
+		slot4 = ResourceMgr.Inst
+
+		slot4:getAssetAsync("ui/CourtYardReversePacmanAttachments", "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			if uv0.exited then
+				return
+			end
+
+			Object.Instantiate(slot0, uv1.transform).name = "reversePacmanAttachments"
 
 			uv2()
 		end), true, true)

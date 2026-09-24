@@ -428,6 +428,12 @@ pg.expedition_data_by_map.all = {
 	2050012,
 	2050025,
 	2050026,
+	2060001,
+	2060002,
+	2060011,
+	2060012,
+	2060025,
+	2060026,
 	2100000,
 	2100001,
 	2100010,
@@ -27053,6 +27059,523 @@ end)()
 			526
 		}
 	}
+	pg.base.expedition_data_by_map[2060001] = {
+		map = 2060001,
+		name = "幽影迷城·上篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2060001",
+		ani_controller = "",
+		default_background = "star_level_bg_495",
+		on_activity = 51141,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "battle-visioncity-1",
+		ui_type = 10,
+		bg = "Map_2060001",
+		destory_icon_suffix = "blue",
+		default_bgm = "battle-visioncity-1",
+		uifx = "",
+		bind_map = 2060011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2060001,
+				2060021
+			},
+			{
+				2060002,
+				2060022
+			},
+			{
+				2060003,
+				2060023
+			}
+		},
+		story_id = {
+			527,
+			528,
+			529,
+			530,
+			531,
+			532,
+			533,
+			534,
+			535,
+			536,
+			537,
+			538,
+			539,
+			540,
+			541,
+			542,
+			543,
+			544,
+			545,
+			546,
+			547,
+			548,
+			549,
+			550
+		}
+	}
+	pg.base.expedition_data_by_map[2060002] = {
+		map = 2060002,
+		name = "幽影迷城·下篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2060003",
+		ani_controller = "",
+		default_background = "star_level_bg_495",
+		on_activity = 51141,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "story-visioncity-1",
+		ui_type = 10,
+		bg = "Map_2060003",
+		destory_icon_suffix = "blue",
+		default_bgm = "battle-visioncity-1",
+		uifx = "",
+		bind_map = 2060012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2060004,
+				2060024
+			},
+			{
+				2060005,
+				2060025
+			},
+			{
+				2060006,
+				2060026
+			}
+		},
+		story_id = {
+			527,
+			528,
+			529,
+			530,
+			531,
+			532,
+			533,
+			534,
+			535,
+			536,
+			537,
+			538,
+			539,
+			540,
+			541,
+			542,
+			543,
+			544,
+			545,
+			546,
+			547,
+			548,
+			549,
+			550
+		}
+	}
+	pg.base.expedition_data_by_map[2060011] = {
+		map = 2060011,
+		name = "幽影迷城·上篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2060001",
+		ani_controller = "",
+		default_background = "star_level_bg_495",
+		on_activity = 51141,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "battle-visioncity-1",
+		ui_type = 10,
+		bg = "Map_2060001",
+		destory_icon_suffix = "blue",
+		default_bgm = "battle-visioncity-1",
+		uifx = "",
+		bind_map = 2060001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2060001,
+				2060021
+			},
+			{
+				2060002,
+				2060022
+			},
+			{
+				2060003,
+				2060023
+			}
+		},
+		story_id = {
+			527,
+			528,
+			529,
+			530,
+			531,
+			532,
+			533,
+			534,
+			535,
+			536,
+			537,
+			538,
+			539,
+			540,
+			541,
+			542,
+			543,
+			544,
+			545,
+			546,
+			547,
+			548,
+			549,
+			550
+		}
+	}
+	pg.base.expedition_data_by_map[2060012] = {
+		map = 2060012,
+		name = "幽影迷城·下篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2060003",
+		ani_controller = "",
+		default_background = "star_level_bg_495",
+		on_activity = 51141,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "story-visioncity-1",
+		ui_type = 10,
+		bg = "Map_2060003",
+		destory_icon_suffix = "blue",
+		default_bgm = "battle-visioncity-1",
+		uifx = "",
+		bind_map = 2060002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2060004,
+				2060024
+			},
+			{
+				2060005,
+				2060025
+			},
+			{
+				2060006,
+				2060026
+			}
+		},
+		story_id = {
+			527,
+			528,
+			529,
+			530,
+			531,
+			532,
+			533,
+			534,
+			535,
+			536,
+			537,
+			538,
+			539,
+			540,
+			541,
+			542,
+			543,
+			544,
+			545,
+			546,
+			547,
+			548,
+			549,
+			550
+		}
+	}
+	pg.base.expedition_data_by_map[2060025] = {
+		map = 2060025,
+		name = "幽影迷城·SP|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2060002",
+		ani_controller = "",
+		default_background = "star_level_bg_495",
+		on_activity = 51141,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "battle-visioncity-1",
+		ui_type = 10,
+		bg = "Map_2060002",
+		destory_icon_suffix = "blue",
+		default_bgm = "battle-visioncity-1",
+		uifx = "",
+		bind_map = 2060011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2060041
+			}
+		},
+		story_id = {
+			527,
+			528,
+			529,
+			530,
+			531,
+			532,
+			533,
+			534,
+			535,
+			536,
+			537,
+			538,
+			539,
+			540,
+			541,
+			542,
+			543,
+			544,
+			545,
+			546,
+			547,
+			548,
+			549,
+			550
+		}
+	}
+	pg.base.expedition_data_by_map[2060026] = {
+		map = 2060026,
+		name = "幽影迷城·EX|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_2060004",
+		ani_controller = "",
+		default_background = "star_level_bg_495",
+		on_activity = 51141,
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		bgm = "story-visioncity-1",
+		ui_type = 10,
+		bg = "Map_2060004",
+		destory_icon_suffix = "blue",
+		default_bgm = "battle-visioncity-1",
+		uifx = "",
+		bind_map = 2060012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				2060051,
+				2060052
+			}
+		},
+		story_id = {
+			527,
+			528,
+			529,
+			530,
+			531,
+			532,
+			533,
+			534,
+			535,
+			536,
+			537,
+			538,
+			539,
+			540,
+			541,
+			542,
+			543,
+			544,
+			545,
+			546,
+			547,
+			548,
+			549,
+			550
+		}
+	}
 	pg.base.expedition_data_by_map[2100000] = {
 		map = 2100000,
 		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
@@ -30539,6 +31062,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.expedition_data_by_map[2100351] = {
 		map = 2100351,
 		name = "鏡位螺旋·上篇|| ||CHAPTER EX||E.X.",
@@ -30845,8 +31370,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.expedition_data_by_map[2100381] = {
 		map = 2100381,
 		name = "碧海光粼·上篇|| ||CHAPTER EX||EX",

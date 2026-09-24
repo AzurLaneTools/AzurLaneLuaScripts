@@ -76,7 +76,7 @@ slot0.didEnter = function(slot0)
 	slot8 = nil
 
 	_.each(slot1:getConfig("shop_id"), function (slot0)
-		if pg.shop_template[slot0].group_type == 2 then
+		if ShopConst.GetShopConfig(slot0).group_type == 2 then
 			uv0 = math.max(slot1.group_limit, uv0)
 		end
 	end)
@@ -164,7 +164,7 @@ slot0.didEnter = function(slot0)
 	slot15 = slot0._tf
 
 	onButton(slot0, slot15:Find("Window/Confirm"), function ()
-		if getProxy(PlayerProxy):getData()[id2res(pg.shop_template[uv0.itemList[1]].resource_type)] < uv0.sumPrice then
+		if getProxy(PlayerProxy):getData()[id2res(ShopConst.GetShopConfig(uv0.itemList[1]).resource_type)] < uv0.sumPrice then
 			slot2 = Drop.New({
 				type = DROP_TYPE_RESOURCE,
 				id = slot1.resource_type
@@ -250,7 +250,7 @@ end
 
 slot0.GetShopId = function(slot0, slot1)
 	for slot6 = 1, #slot0.shopCfg.shop_id - 1 do
-		if not pg.shop_template[slot2[slot6]].limit_args[1] and slot8.group_type == 0 then
+		if not ShopConst.GetShopConfig(slot2[slot6]).limit_args[1] and slot8.group_type == 0 then
 			return slot7
 		elseif slot9 and (slot9[1] == "dailycount" or slot9[1] == "count") then
 			if slot1 < slot9[3] then

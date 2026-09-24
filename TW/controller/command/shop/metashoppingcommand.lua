@@ -21,26 +21,24 @@ slot0.execute = function(slot0, slot1)
 
 	slot7 = getProxy(PlayerProxy):getRawData()
 	slot8 = slot2.arg2
-	slot10 = slot5:getConfig("commodity_id")
-	slot11 = slot5:getConfig("num")
 
-	if slot5:getConfig("commodity_type") == 1 then
-		if slot10 == 1 and slot7:GoldMax(slot11 * slot8) then
+	if slot5:getDropInfo().type == DROP_TYPE_RESOURCE then
+		if slot9.id == PlayerConst.ResGold and slot7:GoldMax(slot9.count * slot8) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 			return
 		end
 
-		if slot10 == 2 and slot7:OilMax(slot11 * slot8) then
+		if slot9.id == PlayerConst.ResOil and slot7:OilMax(slot9.count * slot8) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 			return
 		end
 	end
 
-	slot12 = pg.ConnectionMgr.GetInstance()
+	slot10 = pg.ConnectionMgr.GetInstance()
 
-	slot12:Send(11202, {
+	slot10:Send(11202, {
 		activity_id = slot2.activity_id,
 		cmd = slot2.cmd,
 		arg1 = slot2.arg1,

@@ -5,23 +5,10 @@ slot0.Ctor = function(slot0)
 	slot0.goods = {}
 
 	for slot5, slot6 in ipairs(pg.quota_shop_template[1].shop_goods) do
-		slot7 = slot0:getOwnedGoodCount(slot6)
 		slot0.goods[slot6] = Goods.Create({
 			shop_id = slot6
 		}, Goods.TYPE_QUOTA)
 	end
-end
-
-slot0.getOwnedGoodCount = function(slot0, slot1)
-	slot2 = pg.activity_shop_template[slot1]
-
-	assert(slot2, "config is missing in activity_shop_template, id: " .. slot1)
-
-	return Drop.New({
-		id = slot2.commodity_id,
-		type = slot2.commodity_type,
-		count = slot2.num
-	}):getOwnedCount()
 end
 
 slot0.IsSameKind = function(slot0, slot1)

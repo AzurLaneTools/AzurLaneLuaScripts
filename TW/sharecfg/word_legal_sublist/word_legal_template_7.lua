@@ -4,6 +4,42 @@ slot0.word_legal_template_7 = {}
 slot1 = slot0.word_legal_template_7
 
 temp = function()
+	uv0["恐"] = {
+		["怖"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["吹"] = {
+		["雪"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["白"] = {
+		["雪"] = {
+			this = true
+		},
+		["露"] = {
+			this = true
+		},
+		["龍"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["深"] = {
 		["雪"] = {
 			this = true
@@ -413,39 +449,6 @@ temp()
 
 temp = function()
 	uv0["清"] = {
-		["波"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["春"] = {
-		["月"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["宵"] = {
-		["月"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["浦"] = {
-		["風"] = {
-			this = true
-		},
 		["波"] = {
 			this = true
 		}

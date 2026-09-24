@@ -91,7 +91,7 @@ pg.base.activity_event_chapter_award = {}
 			{
 				{
 					3,
-					5226,
+					45206,
 					1
 				},
 				{
@@ -103,7 +103,7 @@ pg.base.activity_event_chapter_award = {}
 			{
 				{
 					3,
-					1346,
+					4146,
 					1
 				},
 				{
@@ -127,7 +127,7 @@ pg.base.activity_event_chapter_award = {}
 			{
 				{
 					3,
-					43026,
+					3026,
 					1
 				},
 				{
@@ -151,7 +151,7 @@ pg.base.activity_event_chapter_award = {}
 			{
 				{
 					3,
-					28126,
+					45426,
 					1
 				},
 				{

@@ -4,6 +4,62 @@ slot0.word_legal_template_6 = {}
 slot1 = slot0.word_legal_template_6
 
 temp = function()
+	uv0["虎"] = {
+		this = {
+			this = true
+		},
+		["賁"] = {
+			this = true
+		},
+		["（"] = {
+			["后"] = {
+				["排"] = {
+					["）"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["倫"] = {
+		["敦"] = {
+			this = true,
+			["‧"] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["什"] = {
+		["羅"] = {
+			["普"] = {
+				["郡"] = {
+					this = true,
+					["."] = {
+						["改"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["肯"] = {
 		["特"] = {
 			this = true
@@ -410,7 +466,18 @@ temp()
 temp = function()
 	uv0["勝"] = {
 		["利"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -462,42 +529,6 @@ temp = function()
 			}
 		},
 		["屈"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["恐"] = {
-		["怖"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["吹"] = {
-		["雪"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["白"] = {
-		["雪"] = {
-			this = true
-		},
-		["露"] = {
-			this = true
-		},
-		["龍"] = {
 			this = true
 		}
 	}

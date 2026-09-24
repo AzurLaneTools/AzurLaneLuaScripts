@@ -32,7 +32,7 @@ slot0.OnFirstFlush = function(slot0)
 		setText(slot0.build:Find("time/Text"), i18n("tolovemainpage_build_countdown"))
 	end
 
-	slot3, slot4 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0.skinLinkId].time)
+	slot3, slot4 = pg.TimeMgr.GetInstance():inTime(ShopConst.GetShopConfig(slot0.skinLinkId).time)
 
 	if slot3 then
 		setActive(slot0.skinShop:Find("time"), pg.TimeMgr.GetInstance():Table2ServerTime(slot4) - pg.TimeMgr.GetInstance():GetServerTime() < 86400)

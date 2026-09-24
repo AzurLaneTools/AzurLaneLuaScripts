@@ -232,6 +232,10 @@ pg.ship_meta_breakout.all = {
 	9707082,
 	9707083,
 	9707084,
+	9707091,
+	9707092,
+	9707093,
+	9707094,
 	9708011,
 	9708012,
 	9708013,
@@ -3976,6 +3980,75 @@ end)()
 		item2_num = 0,
 		id = 9707084,
 		item1 = 21054,
+		level = 0,
+		weapon_ids = {}
+	}
+	pg.base.ship_meta_breakout[9707091] = {
+		breakout_view = "習得技能【破敵之炬·勝利】/所有魚雷機+1/艦載機效率提高2%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9707092,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707091,
+		item1 = 21065,
+		level = 10,
+		weapon_ids = {
+			60271,
+			54014
+		}
+	}
+	pg.base.ship_meta_breakout[9707092] = {
+		breakout_view = "機庫容量+1/所有轟炸機+1/艦載機效率提高3%",
+		item2 = 21001,
+		pre_id = 9707091,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9707093,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707092,
+		item1 = 21065,
+		level = 30,
+		weapon_ids = {
+			60272,
+			54014,
+			60272,
+			54014
+		}
+	}
+	pg.base.ship_meta_breakout[9707093] = {
+		breakout_view = "【破敵之炬·勝利】升級/所有艦載機+1/艦載機效率提高5%",
+		item2 = 21001,
+		pre_id = 9707092,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9707094,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9707093,
+		item1 = 21065,
+		level = 70,
+		weapon_ids = {
+			60273,
+			54015,
+			60273,
+			54015
+		}
+	}
+	pg.base.ship_meta_breakout[9707094] = {
+		breakout_view = "無",
+		item2 = 21001,
+		pre_id = 9707093,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9707094,
+		item1 = 21065,
 		level = 0,
 		weapon_ids = {}
 	}

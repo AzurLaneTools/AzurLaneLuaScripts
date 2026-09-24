@@ -250,7 +250,9 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot0.viewComponent:FoldPanels(slot1:getBody())
 		end,
 		[NewMainMediator.HIDE_PANEL] = function (slot0, slot1)
-			slot0.viewComponent:HidePanel(slot1:getBody())
+			slot2 = slot1:getBody()
+
+			slot0.viewComponent:HidePanel(slot2.flag, slot2.content)
 		end,
 		[GAME.SERIES_GUIDE_END] = function (slot0, slot1)
 			slot2 = MainAwakeGuideSequence.New()
@@ -269,6 +271,12 @@ slot0.initNotificationHandleDic = function(slot0)
 		[PlayerProxy.UPDATED] = function (slot0, slot1)
 			slot0.viewComponent:OnPlayerUpdated()
 		end,
+		[GAME.END_REFLUX_CG] = function (slot0, slot1)
+			slot0.viewComponent:ShowOrHideBtnEffect(true)
+		end,
+		[GAME.START_REFLUX_CG] = function (slot0, slot1)
+			slot0.viewComponent:ShowOrHideBtnEffect(false)
+		end,
 		[ActivityProxy.UPDATED_TIP] = function (slot0, slot1)
 			slot0.viewComponent:emit(MainBaseActivityBtn.UPDATED_TIP)
 		end,
@@ -277,8 +285,6 @@ slot0.initNotificationHandleDic = function(slot0)
 
 			if slot0.viewComponent.theme and slot0.viewComponent.theme:IsLoaded() then
 				slot0.viewComponent.theme:Refresh(slot2)
-			else
-				warning("界面没加载好，不进行刷新")
 			end
 		end
 	}

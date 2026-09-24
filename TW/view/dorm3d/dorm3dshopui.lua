@@ -1,7 +1,13 @@
 slot0 = class("Dorm3dShopUI", import("view.base.BaseUI"))
 slot1 = pg.dorm3d_set
 slot2 = pg.dorm3d_shop_template
-slot3 = pg.shop_template
+slot3 = setmetatable({}, {
+	__index = function (slot0, slot1)
+		slot0[slot1] = ShopConst.GetShopConfig(slot1)
+
+		return slot0[slot1]
+	end
+})
 slot4 = pg.dorm3d_rooms
 slot5 = pg.dorm3d_gift
 slot6 = pg.dorm3d_furniture_template

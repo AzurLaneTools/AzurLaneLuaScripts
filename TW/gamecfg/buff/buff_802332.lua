@@ -7,7 +7,7 @@ return {
 	desc = "",
 	stack = 1,
 	color = "red",
-	icon = 802332,
+	icon = 802330,
 	last_effect = "",
 	effect_list = {}
 }

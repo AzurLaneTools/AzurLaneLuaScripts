@@ -34,7 +34,7 @@ end
 slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
-	slot3 = pg.shop_template[slot1]
+	slot3 = ShopConst.GetShopConfig(slot1)
 
 	LoadSpriteAtlasAsync("props/" .. id2res(slot3.resource_type), "", function (slot0)
 		uv0.icon.sprite = slot0

@@ -437,7 +437,7 @@ slot0.checkBuyDone = function(slot0, slot1)
 		else
 			slot2 = slot1
 		end
-	elseif pg.shop_template[slot1] and slot3.effect_args and type(slot3.effect_args) == "table" then
+	elseif ShopConst.GetShopConfig(slot1) and slot3.effect_args and type(slot3.effect_args) == "table" then
 		for slot7, slot8 in ipairs(slot3.effect_args) do
 			if slot8 == 1 then
 				slot2 = "gold"

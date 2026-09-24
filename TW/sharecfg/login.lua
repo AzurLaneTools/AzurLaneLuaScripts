@@ -66,6 +66,7 @@ pg.login.all = {
 	96,
 	97,
 	98,
+	99,
 	1001,
 	1002,
 	1003,
@@ -2848,6 +2849,68 @@ pg.base.login = {}
 		login_static = "login",
 		login_cri = "",
 		bgm = ""
+	}
+	pg.base.login[99] = {
+		op_play = 1,
+		effective_channel = 0,
+		id = 99,
+		login_static = "login",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
 	}
 	pg.base.login[1001] = {
 		op_play = 1,
