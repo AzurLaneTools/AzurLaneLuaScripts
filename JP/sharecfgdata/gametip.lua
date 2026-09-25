@@ -36943,7 +36943,7 @@ _G.pg.base.gametip.dorm3d_purchase_outtime = {
 
 
 _G.pg.base.gametip.dorm3d_collect_block_by_furniture = {
-	tip = "アイテムは家具$1に入れ替えられたため、現在入手できません"
+	tip = "アイテムは家具$1に入れ\n替えられたため、現在入手できません"
 }
 
 

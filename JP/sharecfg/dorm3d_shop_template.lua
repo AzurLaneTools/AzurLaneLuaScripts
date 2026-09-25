@@ -1146,7 +1146,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 26,
 		id = 50,
 		realroom_id = 0,
-		order = "3",
+		order = "1",
 		panel = {
 			2
 		},
