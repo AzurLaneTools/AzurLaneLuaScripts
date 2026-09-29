@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_ik_gfit1_tone7/drom3d_Taiho_ik_gfit1_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "Heehee... Closer, now. Come closer...♡",
+			say = "Don't be this sweet with anyone else, or the consequences may be dire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1114,7 +1114,7 @@ end)()
 		time_second = 0,
 		id = 10006,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>Paw prints and cat tail have appeared in the data stream! It's a hyperspace kitty's greeting.</color>\nCan be obtained by raising Admiral Nakhimov's Intimacy in the Private Quarters.",
+		desc = "<color=#A7A7AA>Commemorates your triumph over the Incarnation of Scorpio. Presented to Commanders who demonstrated the courage to challenge their limits.</color>\nObtained from [Extreme Challenge] during the 11/1/23 - 11/30/23 Season.",
 		scene = {}
 	}
 	pg.base.item_data_frame[10007] = {

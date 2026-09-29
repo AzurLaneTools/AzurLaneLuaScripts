@@ -64755,7 +64755,7 @@ end)()
 								warp = "shopstreet"
 							}
 						},
-						"Merit Shop"
+						"Shop"
 					}
 				}
 			}
