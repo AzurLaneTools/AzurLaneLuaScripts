@@ -4,10 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			bgm = "story-visioncity-1",
 			say = "수용 장치의 빛이 라이온을 포착한 순간, 그녀는 잠시 멍하니 있다가 웃기 시작했다.",
 			typewriter = {
@@ -21,8 +22,9 @@ return {
 			bgName = "star_level_bg_148",
 			factiontag = "유영",
 			dir = 1,
-			actor = 205162,
 			nameColor = "#A9F548FF",
+			actor = 205162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "깨끗이 패배를 인정하지…… 이번에는 너희의 승리다.",
 			typewriter = {

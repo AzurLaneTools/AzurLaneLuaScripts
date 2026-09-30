@@ -677,7 +677,8 @@ pg.activity_ins_template.all = {
 	20012,
 	20009,
 	20010,
-	20013
+	20013,
+	20014
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -27458,10 +27459,10 @@ end)()
 		ship_group = 71379,
 		name = "A2",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/260716_a2za1cuZaaulpx42mt.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_658",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "A2",
 		id = 658,
@@ -27478,17 +27479,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				7,
+				30
+			},
+			{
+				10,
+				20,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7281,
+			7285
+		}
 	}
 	pg.base.activity_ins_template[659] = {
 		ship_group = 71380,
 		name = "2B",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/260716_2bigfCRJz24jFrHmBG.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_659",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "2B",
 		id = 659,
@@ -27505,17 +27520,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				7,
+				31
+			},
+			{
+				17,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7295,
+			7301
+		}
 	}
 	pg.base.activity_ins_template[660] = {
 		ship_group = 20237,
 		name = "Superb",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/260723_hualiPCmT8d1gdUOboPE8.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_660",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "huali",
 		id = 660,
@@ -27532,17 +27561,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				8,
+				6
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7310,
+			7315
+		}
 	}
 	pg.base.activity_ins_template[661] = {
 		ship_group = 20314,
 		name = "Surrey",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/260723_salikMmqSy4oZ0VK2QZl.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_661",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "Sali",
 		id = 661,
@@ -27559,17 +27602,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				8,
+				7
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7324,
+			7330
+		}
 	}
 	pg.base.activity_ins_template[662] = {
 		ship_group = 20115,
 		name = "Griffin",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/260723_gelifenHykxwnvTj0d8l8Uv.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_662",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "gelifen",
 		id = 662,
@@ -27586,17 +27643,32 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				8,
+				8
+			},
+			{
+				11,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7342,
+			7346,
+			7349
+		}
 	}
 	pg.base.activity_ins_template[668] = {
 		ship_group = 30119,
 		name = "Amatsukaze",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/260813_SN3i3r1CstRm1Oug.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_668",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "tianjinfeng",
 		id = 668,
@@ -27613,17 +27685,32 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				9,
+				10
+			},
+			{
+				14,
+				20,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7429,
+			7433,
+			7436
+		}
 	}
 	pg.base.activity_ins_template[663] = {
 		ship_group = 10720,
 		name = "Bennington",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/260813_vLshC6JBNtrIB7Up.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_663",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "benningdun",
 		id = 663,
@@ -27640,17 +27727,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				8,
+				27
+			},
+			{
+				16,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7357,
+			7361
+		}
 	}
 	pg.base.activity_ins_template[664] = {
 		ship_group = 10236,
 		name = "Vicksburg",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/260813_uIIdptXLd6QGwiJa.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_664",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "weikesibao",
 		id = 664,
@@ -27667,17 +27768,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				8,
+				28
+			},
+			{
+				11,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7373,
+			7378
+		}
 	}
 	pg.base.activity_ins_template[665] = {
 		ship_group = 10156,
 		name = "Collett",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/260813_tfwGGL4TsqrJgvnt.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_665",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "kelaite",
 		id = 665,
@@ -27694,17 +27809,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				8,
+				29
+			},
+			{
+				19,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7387,
+			7392
+		}
 	}
 	pg.base.activity_ins_template[666] = {
 		ship_group = 10157,
 		name = "Harrison",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/260813_8ZNZxUrsTOEj1r7D.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_666",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "halisen",
 		id = 666,
@@ -27721,17 +27850,32 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				8,
+				30
+			},
+			{
+				8,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7402,
+			7403,
+			7407
+		}
 	}
 	pg.base.activity_ins_template[667] = {
 		ship_group = 10158,
 		name = "John Rodgers",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "http://blcdn.imtxwy.com/pic/260813_qeDJ7UAYL0WGZq4S.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_667",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "yuehanluojiesi",
 		id = 667,
@@ -27748,8 +27892,23 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				8,
+				31
+			},
+			{
+				20,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7415,
+			7418,
+			7420
+		}
 	}
 	pg.base.activity_ins_template[669] = {
 		ship_group = 20238,
@@ -28227,6 +28386,33 @@ end)()
 				2026,
 				9,
 				17
+			},
+			{
+				14,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20014] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "「모항 이야기」에 유령 출몰?! 사쿠라 엠파이어 온천 대욕장에 심령 현상이?!",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20014,
+		group_id = 20014,
+		time = {
+			{
+				2026,
+				9,
+				30
 			},
 			{
 				14,

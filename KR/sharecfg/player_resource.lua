@@ -569,6 +569,9 @@ pg.player_resource.all = {
 	757,
 	758,
 	759,
+	760,
+	761,
+	762,
 	950,
 	951,
 	952,
@@ -665,6 +668,7 @@ pg.player_resource.all = {
 	4028,
 	4029,
 	4030,
+	4031,
 	4186,
 	4276,
 	4599,
@@ -786,6 +790,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	Battlepass_30 = {
 		4030
+	},
+	Battlepass_31 = {
+		4031
 	},
 	Battlepass_9 = {
 		4009
@@ -1357,8 +1364,17 @@ pg.player_resource.get_id_list_by_name = {
 	limit_skinticket117 = {
 		755
 	},
+	limit_skinticket118 = {
+		760
+	},
+	limit_skinticket119 = {
+		761
+	},
 	limit_skinticket12 = {
 		469
+	},
+	limit_skinticket120 = {
+		762
 	},
 	limit_skinticket13 = {
 		472
@@ -5630,6 +5646,21 @@ end)()
 		name = "activity_xunzhang24",
 		itemid = 66103
 	}
+	pg.base.player_resource[760] = {
+		id = 760,
+		name = "limit_skinticket118",
+		itemid = 68364
+	}
+	pg.base.player_resource[761] = {
+		id = 761,
+		name = "limit_skinticket119",
+		itemid = 68365
+	}
+	pg.base.player_resource[762] = {
+		id = 762,
+		name = "limit_skinticket120",
+		itemid = 68366
+	}
 	pg.base.player_resource[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -5785,6 +5816,8 @@ end)()
 		name = "contribution_worldboss250116",
 		itemid = 60487
 	}
+end)()
+(function ()
 	pg.base.player_resource[2023] = {
 		id = 2023,
 		name = "worldboss250116_ticket",
@@ -5800,8 +5833,6 @@ end)()
 		name = "worldboss260212_ticket",
 		itemid = 65832
 	}
-end)()
-(function ()
 	pg.base.player_resource[2026] = {
 		id = 2026,
 		name = "contribution_worldboss260827",
@@ -6111,6 +6142,11 @@ end)()
 		id = 4030,
 		name = "Battlepass_30",
 		itemid = 65118
+	}
+	pg.base.player_resource[4031] = {
+		id = 4031,
+		name = "Battlepass_31",
+		itemid = 65121
 	}
 	pg.base.player_resource[4186] = {
 		id = 4186,

@@ -7,6 +7,7 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -30,12 +31,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "오늘은…… 무슨 일로 왔어?",
 			typewriter = {
 				speed = 0.05,
@@ -43,6 +45,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -61,6 +64,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -72,12 +76,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "나가기는…… 했어……",
 			typewriter = {
 				speed = 0.05,
@@ -85,6 +90,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -104,8 +110,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "멀찍이 인파 속에 섞여, 몰래 보고 있었던 게 다지만.",
 			typewriter = {
 				speed = 0.05,
@@ -113,12 +120,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "지휘관이 눈치채지 못한 것도 당연해. 숨어 있었거든.",
 			typewriter = {
 				speed = 0.05,
@@ -130,6 +138,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -146,8 +155,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "그야…… 가면을 쓰지 않으면, 진짜 얼굴로 마주해야 하잖아.",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +170,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "그러면, 이상한 기분이 들어…… 시선을 어떻게 받아내야 할지, 모르겠어……",
 			typewriter = {
 				speed = 0.05,
@@ -169,6 +180,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -183,12 +195,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "가면만 쓰면 아무도 진짜 나에게 실망하지 않고, 나도 상대가 무슨 생각을 하는지 살피지 않아도 돼.",
 			typewriter = {
 				speed = 0.05,
@@ -200,6 +213,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -216,8 +230,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "……지금의 나?",
 			typewriter = {
 				speed = 0.05,
@@ -229,6 +244,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -240,6 +256,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -259,8 +276,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "나는 「유영」이야. 사람들 사이에 섞여 있어도, 껍데기를 뒤집어쓴 이물질일 뿐이라고……",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +291,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "게다가 「신경 쓰인다」니…… 잘 모르겠어",
 			typewriter = {
 				speed = 0.05,
@@ -282,11 +301,12 @@ return {
 			}
 		},
 		{
-			expression = 10,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
-			portrait = "zhihuiguan",
+			expression = 10,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -298,11 +318,12 @@ return {
 			}
 		},
 		{
-			expression = 10,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
-			portrait = "zhihuiguan",
+			expression = 10,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -319,6 +340,7 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			withoutActorName = true,
+			NextIcon = 1,
 			hideRecordIco = true,
 			actor = 317031,
 			nameColor = "#A9F548FF",
@@ -334,6 +356,7 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			withoutActorName = true,
+			NextIcon = 1,
 			hideRecordIco = true,
 			actor = 317031,
 			nameColor = "#A9F548FF",
@@ -344,11 +367,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
-			portrait = "zhihuiguan",
+			expression = 1,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -365,8 +389,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "가, 갑자기 무슨 소리를……",
 			typewriter = {
 				speed = 0.05,
@@ -379,6 +404,7 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			withoutActorName = true,
+			NextIcon = 1,
 			hideRecordIco = true,
 			actor = 317031,
 			nameColor = "#A9F548FF",
@@ -389,11 +415,12 @@ return {
 			}
 		},
 		{
-			expression = 7,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
-			portrait = "zhihuiguan",
+			expression = 7,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -410,8 +437,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "만약…… 지휘관이 곁에 있어 준다면…… 한번 해 볼게.",
 			typewriter = {
 				speed = 0.05,
@@ -424,6 +452,7 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			withoutActorName = true,
+			NextIcon = 1,
 			hideRecordIco = true,
 			actor = 317031,
 			nameColor = "#A9F548FF",
@@ -434,12 +463,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "내일은 가면을 쓰지 않고…… 같이 나가 볼게.",
 			typewriter = {
 				speed = 0.05,
@@ -447,6 +477,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
@@ -461,11 +492,12 @@ return {
 			}
 		},
 		{
-			expression = 9,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
-			portrait = "zhihuiguan",
+			expression = 9,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 317031,
@@ -482,8 +514,9 @@ return {
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			say = "그러니까 지금은 조금만 더, 이대로……",
 			typewriter = {
 				speed = 0.05,
@@ -491,12 +524,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_205",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 317031,
+			NextIcon = 1,
 			say = "이렇게 나를 신경 써 주는 느낌…… 너무 편안해.",
 			typewriter = {
 				speed = 0.05,

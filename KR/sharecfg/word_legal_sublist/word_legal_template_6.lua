@@ -968,7 +968,18 @@ temp = function()
 				["지"] = {
 					["텔"] = {
 						["니"] = {
-							this = true
+							this = true,
+							["·"] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}

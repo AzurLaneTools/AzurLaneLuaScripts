@@ -7,9 +7,10 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
+			nameColor = "#A9F548FF",
 			bgm = "story-richang-light",
 			say = "오랜만에 휴일을 맞이하여, 타이거의 초대로 조용한 산장에 찾아왔다. 그녀와 단둘이 느긋하게 주말을 보낼 예정이었다.",
 			typewriter = {
@@ -18,6 +19,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			spine = true,
 			withoutActorName = true,
@@ -49,12 +51,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "어머, 지휘관. 당신 발소리가 예상보다 반 박자 빠르네.",
 			typewriter = {
 				speed = 0.05,
@@ -62,6 +65,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -81,8 +85,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "후후후후, 표정 좀 봐…… 이 모습에 그렇게 놀랐어?",
 			typewriter = {
 				speed = 0.05,
@@ -90,12 +95,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "하늘의 별이라 해도 몸을 깨끗이 하려면 지상의 물을 빌려야 하거든.",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +109,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "마침 잘됐네. 이 악장은 아직 진행 중이니까…… 지휘관이 함께해 준다면 더 멋진 합주가 될 거야",
 			typewriter = {
 				speed = 0.05,
@@ -116,6 +123,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -130,6 +138,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -149,8 +158,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "저기, 여기에도…… 지휘관, 이 잡음을…… 닦아내 줄래?",
 			typewriter = {
 				speed = 0.05,
@@ -158,6 +168,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -176,6 +187,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 202381,
@@ -187,12 +199,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "음…… 우리, 호흡이 딱 맞네♪ 하지만 하나 더…… 아직 사라지지 않은 잡음이 있어",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +218,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "좀 더 가까이 와. 어디에 숨어 있는지 알려 줄 테니까……",
 			typewriter = {
 				speed = 0.05,
@@ -214,6 +228,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -228,6 +243,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -247,8 +263,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "어머…… 방금 그 박자는 조금 무거웠나?",
 			typewriter = {
 				speed = 0.05,
@@ -256,12 +273,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "이제 지휘관도 젖어 버렸으니, 갑자기 마침표를 찍지는 말아 줘…… 그 피로도 조금은, 나에게 흘려보내 줘.",
 			typewriter = {
 				speed = 0.05,
@@ -269,6 +287,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -283,6 +302,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -302,8 +322,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "지휘관, 호흡이 흐트러졌어.",
 			typewriter = {
 				speed = 0.05,
@@ -311,12 +332,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 202381,
+			NextIcon = 1,
 			say = "그래도 괜찮아. 변주가 있어야 악장이 더 마음을 울리는 법이니까.",
 			typewriter = {
 				speed = 0.05,
@@ -328,6 +350,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 202381,
@@ -339,6 +362,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
 			spine = true,
@@ -358,8 +382,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "안 돼, 지휘관…… 날개옷에 손대지 마.",
 			typewriter = {
 				speed = 0.05,
@@ -372,8 +397,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "그건 그냥 날개옷이 아니야. 일단 걸쳐 버리면, 별인 나는 아득한 하늘 너머로 돌아가야 하거든.",
 			typewriter = {
 				speed = 0.05,
@@ -386,8 +412,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "별은 원래 하늘 높은 곳에서 홀로 빛나는 존재지만, 지금은…… 당신에게서 떨어지고 싶지 않아.",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +427,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "당신과 함께 연주하는 이 악장이야말로, 내가 줄곧 애타게 바라던 음악인걸.",
 			typewriter = {
 				speed = 0.05,
@@ -414,8 +442,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "지휘관, 꼭 안아 줘. 지상의 시냇물도 은하수도…… 계속 당신과 함께 걸어가고 싶어.",
 			typewriter = {
 				speed = 0.05,
@@ -428,8 +457,9 @@ return {
 			bgName = "star_level_bg_500",
 			spine = true,
 			dir = 1,
-			actor = 202381,
 			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
 			say = "이제 떨어지지 않을 거야.",
 			typewriter = {
 				speed = 0.05,

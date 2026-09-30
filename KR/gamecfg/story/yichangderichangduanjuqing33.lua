@@ -4,13 +4,14 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
+			side = 2,
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 307053,
 			nameColor = "#A9F548FF",
-			say = "쇼카쿠가 설원에 서 있다. 나는 품에 안고 있던 핫팩을 그녀에게 살며시 내밀었다.",
 			hidePaintObj = true,
-			withoutActorName = true,
-			side = 2,
-			hideRecordIco = true,
+			say = "쇼카쿠가 설원에 서 있다. 나는 품에 안고 있던 핫팩을 그녀에게 살며시 내밀었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,10 +19,11 @@ return {
 		},
 		{
 			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "은인님…… 마음까지 따뜻해져요.",
 			typewriter = {
 				speed = 0.05,
@@ -29,11 +31,12 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "이렇게까지 잘해 주시다니…… 어떻게 보답해드려야 할까요~?",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +54,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "은인님…… 그렇게 말씀하시면 이 쇼카쿠, 평생 들러붙어 버릴 지도 몰라요~♥",
 			typewriter = {
 				speed = 0.05,
@@ -64,12 +68,13 @@ return {
 			}
 		},
 		{
-			actor = 307053,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307053,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "그게 다인가요? 아아, 은인님. 정말 무정한 일벌레시군요……",
 			typewriter = {
 				speed = 0.05,

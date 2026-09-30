@@ -394,6 +394,11 @@ pg.task_meta_data_template.all = {
 	100593,
 	100594,
 	100595,
+	100611,
+	100612,
+	100613,
+	100614,
+	100615,
 	200001,
 	200002,
 	200003,
@@ -597,7 +602,11 @@ pg.task_meta_data_template.all = {
 	200501,
 	200502,
 	200503,
-	200504
+	200504,
+	200521,
+	200522,
+	200523,
+	200524
 }
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {}
@@ -3729,6 +3738,46 @@ end)()
 		target_num = 1,
 		desc = "새러토가·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	}
+	pg.base.task_meta_data_template[100611] = {
+		target_id = "",
+		sub_type = 180,
+		target_id_2 = "970113",
+		id = 100611,
+		target_num = 1,
+		desc = "소브라지텔니·META를 편성한 함대로 전투에서 1회 승리"
+	}
+	pg.base.task_meta_data_template[100612] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970113",
+		id = 100612,
+		target_num = 1,
+		desc = "소브라지텔니·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100613] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970113",
+		id = 100613,
+		target_num = 1,
+		desc = "소브라지텔니·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100614] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970113",
+		id = 100614,
+		target_num = 1,
+		desc = "소브라지텔니·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	}
+	pg.base.task_meta_data_template[100615] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970113",
+		id = 100615,
+		target_num = 1,
+		desc = "소브라지텔니·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	}
 	pg.base.task_meta_data_template[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3769,6 +3818,8 @@ end)()
 		target_num = 1,
 		desc = "대형 작전에서 포춘·META를 사용해 1회 승리"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200022] = {
 		target_id = "70",
 		sub_type = 302,
@@ -3809,8 +3860,6 @@ end)()
 		target_num = 1,
 		desc = "대형 작전에서 애리조나·META를 사용해 70 이상 레벨의 적 1회 격파"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200033] = {
 		target_id = "90",
 		sub_type = 302,
@@ -4571,6 +4620,8 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 다이호·META를 포함한 함대로 1회 승리"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200272] = {
 		target_id = "70",
 		sub_type = 302,
@@ -4611,8 +4662,6 @@ end)()
 		target_num = 1,
 		desc = "대형작전에서 아드미랄 히퍼·META를 포함한 함대로 Lv70 이상의 적 격파"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200283] = {
 		target_id = "90",
 		sub_type = 302,
@@ -5364,5 +5413,39 @@ end)()
 		id = 200504,
 		target_num = 1,
 		desc = "대형작전에서 새러토가·META를 포함한 함대로 Lv100 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200521] = {
+		target_id = "",
+		sub_type = 302,
+		target_id_2 = "970113",
+		id = 200521,
+		target_num = 1,
+		desc = "대형작전에서 소브라지텔니·META를 포함한 함대로 1회 승리"
+	}
+end)()
+(function ()
+	pg.base.task_meta_data_template[200522] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970113",
+		id = 200522,
+		target_num = 1,
+		desc = "대형작전에서 소브라지텔니·META를 포함한 함대로 Lv70 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200523] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970113",
+		id = 200523,
+		target_num = 1,
+		desc = "대형작전에서 소브라지텔니·META를 포함한 함대로 Lv90 이상의 적 격파"
+	}
+	pg.base.task_meta_data_template[200524] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970113",
+		id = 200524,
+		target_num = 1,
+		desc = "대형작전에서 소브라지텔니·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 end)()

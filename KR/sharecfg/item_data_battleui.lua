@@ -19,6 +19,7 @@ pg.item_data_battleui.all = {
 	114,
 	115,
 	116,
+	117,
 	201,
 	202,
 	203,
@@ -267,6 +268,21 @@ pg.base.item_data_battleui = {}
 		desc = "오래된 날의 빛과 그림자가 교차하고, 로열 네이비의 우아한 여운이 울려 퍼진다. 전장에 한 자락의 고풍스러움과 우아함을 더해 준다.",
 		id = 116,
 		icon = "116",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[117] = {
+		name = "탄환",
+		key = "SkinNormal_20260924",
+		display_icon = "ui_117",
+		unlock = "특허 투어 패스 31기 보상",
+		is_unlock = 1,
+		rare = 3,
+		desc = "옛 거리 곳곳에 번지는 화약 냄새, 탄창과 탄흔이 무언의 선율을 연주한다. 전투에 한 줄기 우아함과 위험한 기운을 더한다.",
+		id = 117,
+		icon = "117",
 		scene = {},
 		rare_display = {
 			1

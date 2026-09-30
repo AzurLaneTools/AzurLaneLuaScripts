@@ -77,7 +77,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					24
+					30
 				},
 				{
 					0,
@@ -88,8 +88,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					29
+					10,
+					16
 				},
 				{
 					23,
@@ -126,8 +126,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					29
+					10,
+					16
 				},
 				{
 					23,
@@ -152,7 +152,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					24
+					30
 				},
 				{
 					0,
@@ -163,8 +163,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					29
+					10,
+					16
 				},
 				{
 					23,
@@ -200,8 +200,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					29
+					10,
+					16
 				},
 				{
 					23,
@@ -237,8 +237,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					29
+					10,
+					16
 				},
 				{
 					23,
@@ -274,8 +274,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					29
+					10,
+					16
 				},
 				{
 					23,
@@ -290,14 +290,14 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene court yard"
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2026,
-					9,
-					24
+					10,
+					8
 				},
 				{
 					0,
@@ -308,8 +308,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					29
+					10,
+					16
 				},
 				{
 					23,
@@ -345,8 +345,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					29
+					10,
+					16
 				},
 				{
 					23,
@@ -382,8 +382,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					9,
-					29
+					10,
+					16
 				},
 				{
 					23,
@@ -433,7 +433,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					9,
-					24
+					30
 				},
 				{
 					0,

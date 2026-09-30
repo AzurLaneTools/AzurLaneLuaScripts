@@ -4,6 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
@@ -24,12 +25,13 @@ return {
 			}
 		},
 		{
-			actor = 304090,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "유영",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "어서 와. 지휘관.",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +44,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "유영",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "지난번보다 훨씬 흥미로워졌네.",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +59,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "유영",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "이렇게 지원 전력을 많이 모으다니…… 살짝 놀라울 정도야.",
 			typewriter = {
 				speed = 0.05,
@@ -65,9 +69,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			say = "아즈치가 부채를 스르르 펼치는가 싶더니, 갑자기 그 자리에서 모습을 감추었다.",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +85,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "유영",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			say = "하지만 아쉽게 됐네. 달라지는 건 아무것도 없어.",
 			typewriter = {
 				speed = 0.05,

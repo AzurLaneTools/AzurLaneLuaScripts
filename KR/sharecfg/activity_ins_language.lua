@@ -8604,7 +8604,42 @@ pg.activity_ins_language.all = {
 	"op_reply_20013_2_2",
 	"op_reply_20013_2_3",
 	"op_reply_20013_2_4",
-	"op_reply_20013_2_5"
+	"op_reply_20013_2_5",
+	"ins_20014",
+	"ins_discuss_20014_1",
+	"ins_reply_20014_1_1",
+	"ins_reply_20014_1_2",
+	"ins_reply_20014_1_3",
+	"ins_reply_20014_1_4",
+	"ins_discuss_20014_2",
+	"ins_discuss_20014_3",
+	"ins_reply_20014_3_1",
+	"ins_reply_20014_3_2",
+	"ins_discuss_20014_4",
+	"ins_reply_20014_4_1",
+	"ins_reply_20014_4_2",
+	"ins_reply_20014_4_3",
+	"ins_reply_20014_4_4",
+	"ins_discuss_20014_5",
+	"ins_reply_20014_5_1",
+	"ins_discuss_20014_6",
+	"ins_discuss_20014_7",
+	"ins_discuss_20014_8",
+	"ins_discuss_20014_9",
+	"ins_reply_20014_9_1",
+	"ins_discuss_20014_10",
+	"ins_reply_20014_10_1",
+	"ins_reply_20014_10_2",
+	"ins_reply_20014_10_3",
+	"ins_op_20014_1_1",
+	"op_reply_20014_1_1",
+	"op_reply_20014_1_2",
+	"op_reply_20014_1_3",
+	"op_reply_20014_1_4",
+	"ins_op_20014_1_2",
+	"op_reply_20014_2_1",
+	"op_reply_20014_2_2",
+	"op_reply_20014_2_3"
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_language = {}
@@ -32544,492 +32579,492 @@ end)()
 		value = "좋네요! 산책하고 나면 또 고기를 배불리 먹으러 가요!"
 	}
 	pg.base.activity_ins_language.ins_658 = {
-		value = ""
+		value = "종이로 된 기록 매체라니 비효율적이군. 이걸 언제 다 읽고 있어."
 	}
 	pg.base.activity_ins_language.ins_discuss_658_1 = {
-		value = ""
+		value = "종이에 깃드는 것은 문자뿐만이 아니니, 손끝이 자아내는 사고와 정념의 결속이나니……"
 	}
 	pg.base.activity_ins_language.ins_reply_658_1_1 = {
-		value = ""
+		value = "문자 그 자체뿐만 아니라, 그것을 기록한 종이에도 특별한 메시지가 담겨 있답니다."
 	}
 	pg.base.activity_ins_language.ins_reply_658_1_2 = {
-		value = ""
+		value = "같은 말이라도 싣는 매체가 다르면…… 사람에게 주는 인상 또한 달라질지 몰라요."
 	}
 	pg.base.activity_ins_language.ins_reply_658_1_3 = {
-		value = ""
+		value = "비록 같은 글자라 할지라도, 거기에 새겨지는 흔적이나 온도는 매번 다른 법……"
 	}
 	pg.base.activity_ins_language.ins_discuss_658_2 = {
-		value = ""
+		value = "맞아~! 포스트잇이나 편지로 연락을 주고받는 건…… 너무 감질나아…!"
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_1 = {
-		value = ""
+		value = "이런저런 감정을 품고 있을 땐, 아무래도 직접 전하는 편이 좋지~"
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_2 = {
-		value = ""
+		value = "물론 행동으로 옮기려면 그에 걸맞은 준비도 해두어야 해."
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_3 = {
-		value = ""
+		value = "그런 번거로운 건 필요 없어요! 뜨거운 열정만 있다면…… 우후후……"
 	}
 	pg.base.activity_ins_language.ins_reply_658_2_4 = {
-		value = ""
+		value = "저기…… 다들 A2랑 다른 이야기를 하고 있는 것 같은데……"
 	}
 	pg.base.activity_ins_language.ins_op_658_1_1 = {
-		value = ""
+		value = "여러 장을 동시에 읽으면 효율적이지 않아?"
 	}
 	pg.base.activity_ins_language.op_reply_658_1_1 = {
-		value = ""
+		value = "다소 오르긴 하겠지만…… 그래도 되는 건가……?"
 	}
 	pg.base.activity_ins_language.ins_op_658_1_2 = {
-		value = ""
+		value = "다른 곳에서 읽으면 다른 느낌이 들지도?"
 	}
 	pg.base.activity_ins_language.op_reply_658_1_2 = {
-		value = ""
+		value = "그런가? 그렇다면 집무실로 향하지."
 	}
 	pg.base.activity_ins_language.ins_659 = {
-		value = ""
+		value = "처음 보는 신형 장비가 이렇게나…… 성능은 어느 정도일까?"
 	}
 	pg.base.activity_ins_language.ins_discuss_659_1 = {
-		value = ""
+		value = "후후…… 상상을 가볍게 뛰어넘을 정도의 위력입니다~!"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_1 = {
-		value = ""
+		value = "혹시 그 창고에 올레그의 신작이 들어 있는 거야?"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_2 = {
-		value = ""
+		value = "신작이라고? 최근에 올레그한테 테스트 신청서를 받은 기억은 없는데."
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_3 = {
-		value = ""
+		value = "걱정하실 거 없습니다! 제 발명품은 안전하니까 말입니다!"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_4 = {
-		value = ""
+		value = "……안전하게 폭발한다는 뜻은 아니지?"
 	}
 	pg.base.activity_ins_language.ins_reply_659_1_5 = {
-		value = ""
+		value = "폭발하지 않는 발명 따위, 실패작이나 다름없습니다~!"
 	}
 	pg.base.activity_ins_language.ins_discuss_659_2 = {
-		value = ""
+		value = "이참에 한번 시험해 보는 건 어때? 저기 폭탄 같은 것도 괜찮아 보이고."
 	}
 	pg.base.activity_ins_language.ins_reply_659_2_1 = {
-		value = ""
+		value = "무기 성능을 시험하려면 실전이 최고지!"
 	}
 	pg.base.activity_ins_language.ins_reply_659_2_2 = {
-		value = ""
+		value = "음…… 전투의 기운이 느껴져!"
 	}
 	pg.base.activity_ins_language.ins_reply_659_2_3 = {
-		value = ""
+		value = "그렇다마다! 무기는 전장에서야말로 빛나는 법이지!"
 	}
 	pg.base.activity_ins_language.ins_op_659_1_1 = {
-		value = ""
+		value = "혹시 데이터 자료 필요해? 바로 보내줄 수 있어."
 	}
 	pg.base.activity_ins_language.op_reply_659_1_1 = {
-		value = ""
+		value = "부탁 좀 할게, 지휘관."
 	}
 	pg.base.activity_ins_language.ins_op_659_1_2 = {
-		value = ""
+		value = "직접 테스트해 볼래? 장소는 내가 마련해줄게."
 	}
 	pg.base.activity_ins_language.op_reply_659_1_2 = {
-		value = ""
+		value = "지금 당장 가지."
 	}
 	pg.base.activity_ins_language.ins_660 = {
-		value = ""
+		value = "이제야 완벽히 이해한 것 같기도……?"
 	}
 	pg.base.activity_ins_language.ins_discuss_660_1 = {
-		value = ""
+		value = "이것 참…… 신비로운 그림이네☆"
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_1 = {
-		value = ""
+		value = "음…… 뭔가 감정은 느껴지는 것 같은데, 뭐라고 설명해야 할지 모르겠어요……"
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_2 = {
-		value = ""
+		value = "앵커리지는…… 모르겠어…… 어지러워…… "
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_3 = {
-		value = ""
+		value = "잘 모르겠어요……"
 	}
 	pg.base.activity_ins_language.ins_reply_660_1_4 = {
-		value = ""
+		value = "이런 건… 마음을 차분히 하고 감상하면 의미를 이해할 수 있…답니다!"
 	}
 	pg.base.activity_ins_language.ins_discuss_660_2 = {
-		value = ""
+		value = "후후, 이 그림은 이 페이윈 님께서 심혈을 기울여 그린 작품이지!"
 	}
 	pg.base.activity_ins_language.ins_reply_660_2_1 = {
-		value = ""
+		value = "맞아, 맞아! 우리가 직접 만들어 낸 새로운 화풍이야!"
 	}
 	pg.base.activity_ins_language.ins_reply_660_2_2 = {
-		value = ""
+		value = "이건…… 내가 본 그림 중에서 가장 자유분방한 작품인 것 같아……"
 	}
 	pg.base.activity_ins_language.ins_reply_660_2_3 = {
-		value = ""
+		value = "적어도 창의성만큼은 높이 평가할 만하네요……"
 	}
 	pg.base.activity_ins_language.ins_op_660_1_1 = {
-		value = ""
+		value = "아~ 완벽히 이해했어!"
 	}
 	pg.base.activity_ins_language.op_reply_660_1_1 = {
-		value = ""
+		value = "후후, 좋아요. 역시 지휘관님은 센스가 뛰어나시네요~"
 	}
 	pg.base.activity_ins_language.ins_op_660_1_2 = {
-		value = ""
+		value = "다음에 설명 좀 부탁할게."
 	}
 	pg.base.activity_ins_language.op_reply_660_1_2 = {
-		value = ""
+		value = "물론이죠! 지휘관님의 초대라면 언제든 기꺼이 응할게요~"
 	}
 	pg.base.activity_ins_language.ins_661 = {
-		value = ""
+		value = "첫 번째 업무, 제초 완료했습니다. 두 번째 업무는 애프터눈 티 준비……"
 	}
 	pg.base.activity_ins_language.ins_discuss_661_1 = {
-		value = ""
+		value = "그래서 아까부터 덜컹거리는 소리가 들렸던 거구나……"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_1 = {
-		value = ""
+		value = "여러분께 불편을 끼쳐 드려 정말 죄송합니다. 현장은 이미 정리되었으니, 다들 안심하세요."
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_2 = {
-		value = ""
+		value = "오랜만에 시리우스 못지않게 잠재력이 넘치는 인재가 들어왔군요."
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_3 = {
-		value = ""
+		value = "그렇군요. 저와 같은 유형의 로열 메이드셨군요. 이 시리우스가 제대로 가르쳐 드리겠습니다!"
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_4 = {
-		value = ""
+		value = "알겠습니다. 지금 바로 시리우스 씨가 있는 곳으로 가서 열심히 배우겠습니다."
 	}
 	pg.base.activity_ins_language.ins_reply_661_1_5 = {
-		value = ""
+		value = "방금 서리… 제초기를 타고 그대로 날아간 것 같은데……"
 	}
 	pg.base.activity_ins_language.ins_discuss_661_2 = {
-		value = ""
+		value = "아니, 애초에 왜 제초기를 타고 애프터눈 티 장소로 돌진한 건가요…?"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_1 = {
-		value = ""
+		value = "제초 작업이 끝나고 그 다음 업무가 애프터눈 티 준비였기 때문입니다."
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_2 = {
-		value = ""
+		value = "아니, 순서가 문제가 아니잖아요. 왜 제초기를 타고 들어갔냐는……"
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_3 = {
-		value = ""
+		value = "제초 작업이 끝나고 그 다음 업무가 애프터눈 티 준비였기 때문입니다."
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_4 = {
-		value = ""
+		value = "작업 지시가 조금 애매했나 봐요."
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_5 = {
-		value = ""
+		value = "제초가 끝난 다음에는 꼭 제초기를 내려놓고 애프터눈 티 장소로 이동해야 한답니다."
 	}
 	pg.base.activity_ins_language.ins_reply_661_2_6 = {
-		value = ""
+		value = "그걸 굳이 말로 해야 알아…?"
 	}
 	pg.base.activity_ins_language.ins_op_661_1_1 = {
-		value = ""
+		value = "아직도 제초기 위에 있는 거야?"
 	}
 	pg.base.activity_ins_language.op_reply_661_1_1 = {
-		value = ""
+		value = "메이드장님의 지시에 따라 보행 모드로 전환했습니다."
 	}
 	pg.base.activity_ins_language.ins_op_661_1_2 = {
-		value = ""
+		value = "서리, 다친 곳은 없어?"
 	}
 	pg.base.activity_ins_language.op_reply_661_1_2 = {
-		value = ""
+		value = "지휘관님, 안심하세요. 부상자는 단 한 명도 없습니다."
 	}
 	pg.base.activity_ins_language.ins_662 = {
-		value = ""
+		value = "새로운 기술을 익혔어!"
 	}
 	pg.base.activity_ins_language.ins_discuss_662_1 = {
-		value = ""
+		value = "방패를 저렇게도 쓸 수 있다니…!"
 	}
 	pg.base.activity_ins_language.ins_reply_662_1_1 = {
-		value = ""
+		value = "하지만 전투 중에 방패를 던져 버리면…… 무슨 수로 다시 가지고 오죠?"
 	}
 	pg.base.activity_ins_language.ins_reply_662_1_2 = {
-		value = ""
+		value = "걱정하지 마세요…… 힘<†포스†>이 방패를 다시 가져다 줄 테니까요……"
 	}
 	pg.base.activity_ins_language.ins_reply_662_1_3 = {
-		value = ""
+		value = "그 정도, 리노는 하루 종일도 할 수 있어!"
 	}
 	pg.base.activity_ins_language.ins_discuss_662_2 = {
-		value = ""
+		value = "돌아라 돌아라 마이 그리핀"
 	}
 	pg.base.activity_ins_language.ins_reply_662_2_1 = {
-		value = ""
+		value = "이제 다시는 넘어지지 않도록"
 	}
 	pg.base.activity_ins_language.ins_reply_662_2_2 = {
-		value = ""
+		value = "다들… 지금 칭찬하는 거 맞지……?"
 	}
 	pg.base.activity_ins_language.ins_discuss_662_3 = {
-		value = ""
+		value = "저 꼬마들은 아직 그 기술이 익숙하지 않은 모양이군……"
 	}
 	pg.base.activity_ins_language.ins_reply_662_3_1 = {
-		value = ""
+		value = "그래도 다들 신나 보이는데? 재밌어 보이니 된 거 아니야?"
 	}
 	pg.base.activity_ins_language.ins_reply_662_3_2 = {
-		value = ""
+		value = "아무리 봐도 신나 보이는 분위기가 아닌데요…"
 	}
 	pg.base.activity_ins_language.ins_op_662_1_1 = {
-		value = ""
+		value = "기술이 너무 멋지다!"
 	}
 	pg.base.activity_ins_language.op_reply_662_1_1 = {
-		value = ""
+		value = "에헤헤~ 지휘관도 같이 하자!"
 	}
 	pg.base.activity_ins_language.ins_op_662_1_2 = {
-		value = ""
+		value = "또 방패 잃어버리지 않게 조심해!"
 	}
 end)()
 (function ()
 	pg.base.activity_ins_language.op_reply_662_1_2 = {
-		value = ""
+		value = "……다시는 그런 일 없을 거야!"
 	}
 	pg.base.activity_ins_language.ins_668 = {
-		value = ""
+		value = "후후, 전망이 아주 좋네~"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_1 = {
-		value = ""
+		value = "우와아―― 위풍당당한 아마츠카제 님이시다!"
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_1 = {
-		value = ""
+		value = "가마가 훌륭하네…… 대체 얼마나 대단한 공을 세웠길래."
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_2 = {
-		value = ""
+		value = "다들 나를 기쁘게 해주는군! 포상으로 이 가마에 탈 자격을 주도록 하지!"
 	}
 	pg.base.activity_ins_language.ins_reply_668_1_3 = {
-		value = ""
+		value = "이렇게 차별 없이 대해주다니, 이게 바로 장군의 풍모라는 거겠지……"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_2 = {
-		value = ""
+		value = "잠깐만! 그거 내 거잖아! 왜 마음대로 가져가!"
 	}
 	pg.base.activity_ins_language.ins_reply_668_2_1 = {
-		value = ""
+		value = "자기도 까먹고 있었으면서……"
 	}
 	pg.base.activity_ins_language.ins_reply_668_2_2 = {
-		value = ""
+		value = "이런 멋진 가마를 방치하다니, 그야말로 보물을 썩히는 격이잖아! 괜찮아, 내가 요긴하게 써줄 테니까!"
 	}
 	pg.base.activity_ins_language.ins_discuss_668_3 = {
-		value = ""
+		value = "이거라면 지휘관과의 키 차이도 메울 수 있겠네요♪"
 	}
 	pg.base.activity_ins_language.ins_reply_668_3_1 = {
-		value = ""
+		value = "그냥 확 뛰어들어서 안기는 것도 방법이겠지~"
 	}
 	pg.base.activity_ins_language.ins_op_668_1_1 = {
-		value = ""
+		value = "위풍당당한 아마츠카제다!"
 	}
 	pg.base.activity_ins_language.op_reply_668_1_1 = {
-		value = ""
+		value = "네가 탈 자리는 비워뒀어. 늦게 타면 자리가 없을 수도 있어!"
 	}
 	pg.base.activity_ins_language.ins_op_668_1_2 = {
-		value = ""
+		value = "어디로 가는 거야?"
 	}
 	pg.base.activity_ins_language.op_reply_668_1_2 = {
-		value = ""
+		value = "맞춰볼래? 맞히면 상으로 같이 데려가 줄게♪"
 	}
 	pg.base.activity_ins_language.ins_663 = {
-		value = ""
+		value = "멋진 선글라스 어때? 많이 있으니까 분명 마음에 드는 걸 찾을 수 있을 거야!"
 	}
 	pg.base.activity_ins_language.ins_discuss_663_1 = {
-		value = ""
+		value = "갖고 싶긴 한데…… 그거 파는 거야? 언니가 또 내 선글라스를 가져가 버려서 말이지……"
 	}
 	pg.base.activity_ins_language.ins_reply_663_1_1 = {
-		value = ""
+		value = "어떤 게 마음에 들어? 공짜로 줄게!"
 	}
 	pg.base.activity_ins_language.ins_reply_663_1_2 = {
-		value = ""
+		value = "고마워! 이왕이면 최신 모델로 골라볼까……"
 	}
 	pg.base.activity_ins_language.ins_reply_663_1_3 = {
-		value = ""
+		value = "제일 잘 어울리는 걸로 골라주겠슴다!"
 	}
 	pg.base.activity_ins_language.ins_discuss_663_2 = {
-		value = ""
+		value = "어딜 보는지 안 들키는, 그런 선글라스도 있어?"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_1 = {
-		value = ""
+		value = "선글라스는 거의 다 그렇지 않아……?"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_2 = {
-		value = ""
+		value = "난 봤지롱~! 알비트가 들통난 건, 너무 딱 붙어서 그런 거야☆"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_3 = {
-		value = ""
+		value = "너무 붙어있었다니, 어디에?"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_4 = {
-		value = ""
+		value = "그야 당연히…………"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_5 = {
-		value = ""
+		value = "지휘관한테지! 안 들킬 줄 알았던 것 같은데, 거의 얼굴에 들러붙을 기세였다고!"
 	}
 	pg.base.activity_ins_language.ins_reply_663_2_6 = {
-		value = ""
+		value = "선글라스를 바꾼다고 해결될 문제가 아니군……"
 	}
 	pg.base.activity_ins_language.ins_op_663_1_1 = {
-		value = ""
+		value = "다 갖고 싶어!"
 	}
 	pg.base.activity_ins_language.op_reply_663_1_1 = {
-		value = ""
+		value = "Heh, heh, heh... Thank you~"
 	}
 	pg.base.activity_ins_language.ins_op_663_1_2 = {
-		value = ""
+		value = "나한테 어울리는 것도 있어?"
 	}
 	pg.base.activity_ins_language.op_reply_663_1_2 = {
-		value = ""
+		value = "당연하지! 지휘관한테 딱 어울리는 걸로 몇 개 골라뒀어! Let’s try~"
 	}
 	pg.base.activity_ins_language.ins_664 = {
-		value = ""
+		value = "무대는 끝났는데, 본공연 때보다 더 두근거리는 것 같아요……!"
 	}
 	pg.base.activity_ins_language.ins_discuss_664_1 = {
-		value = ""
+		value = "응? 보통은 끝나면 마음이 놓이지 않아?"
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_1 = {
-		value = ""
+		value = "다들 어땠는지 반응이 신경 쓰여서 그런 걸 거야."
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_2 = {
-		value = ""
+		value = "너무 고민하지 않아도 돼~ 열심히 했으면 그걸로 충분해!"
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_3 = {
-		value = ""
+		value = "즐거웠으면 그걸로 된 거야~"
 	}
 	pg.base.activity_ins_language.ins_reply_664_1_4 = {
-		value = ""
+		value = "네! 다들, 감사합니다!"
 	}
 	pg.base.activity_ins_language.ins_discuss_664_2 = {
-		value = ""
+		value = "손바닥에 사람 인 자를 쓰고 꿀꺽 삼키면 긴장이 싹 풀려!"
 	}
 	pg.base.activity_ins_language.ins_reply_664_2_1 = {
-		value = ""
+		value = "사쿠라 엠파이어에 전해지는 비법인가요? 해볼게요……!"
 	}
 	pg.base.activity_ins_language.ins_reply_664_2_2 = {
-		value = ""
+		value = "아까보다는 긴장이 좀 풀린 것 같아요!"
 	}
 	pg.base.activity_ins_language.ins_reply_664_2_3 = {
-		value = ""
+		value = "응! 걱정하지 마! 무츠키가 맛있는 사탕 주께!"
 	}
 	pg.base.activity_ins_language.ins_op_664_1_1 = {
-		value = ""
+		value = "항상 응원하고 있어!"
 	}
 	pg.base.activity_ins_language.op_reply_664_1_1 = {
-		value = ""
+		value = "지휘관님, 감사합니다! 덕분에 기운이 듬뿍 났어요!"
 	}
 	pg.base.activity_ins_language.ins_op_664_1_2 = {
-		value = ""
+		value = "빅스버그, 화이팅!"
 	}
 	pg.base.activity_ins_language.op_reply_664_1_2 = {
-		value = ""
+		value = "힘내야죠~ 화이팅!"
 	}
 	pg.base.activity_ins_language.ins_665 = {
-		value = ""
+		value = "애완동물 영상, 귀엽다…… 팔로우해야지."
 	}
 	pg.base.activity_ins_language.ins_discuss_665_1 = {
-		value = ""
+		value = "보고 있는 것만으로도 힐링돼요……"
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_1 = {
-		value = ""
+		value = "나도 모르게 쓰다듬고 싶어져~"
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_2 = {
-		value = ""
+		value = "내 피드에도 그런 영상이 좀 뜨면 좋겠는데……"
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_3 = {
-		value = ""
+		value = "요청 확인. 「동물을 좋아한다면 팔로우해야 할 계정 100개」 일괄 전송."
 	}
 	pg.base.activity_ins_language.ins_reply_665_1_4 = {
-		value = ""
+		value = "기다려. 아무리 그래도 그건 너무 많잖아."
 	}
 	pg.base.activity_ins_language.ins_discuss_665_2 = {
-		value = ""
+		value = "애완동물의 일상을 공유하는 계정이라도 만들어 볼까? 조언 줄 사람 모집 중!"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_1 = {
-		value = ""
+		value = "어떤 애완동물?"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_2 = {
-		value = ""
+		value = "늠름한 호랑이지! 어흥~!"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_3 = {
-		value = ""
+		value = "우리 아이젠용 계정도 만들어야 하나~"
 	}
 	pg.base.activity_ins_language.ins_reply_665_2_4 = {
-		value = ""
+		value = "그거 꽤 신선한데…… 만들면 제일 먼저 팔로우할게."
 	}
 	pg.base.activity_ins_language.ins_op_665_1_1 = {
-		value = ""
+		value = "직접 키워보는 건 어때?"
 	}
 	pg.base.activity_ins_language.op_reply_665_1_1 = {
-		value = ""
+		value = "힘들 것 같고 책임감도 가져야 하니까, 그냥 영상으로 즐기기만 할래……"
 	}
 	pg.base.activity_ins_language.ins_op_665_1_2 = {
-		value = ""
+		value = "동물들과 직접 교감해 보는 건 어때?"
 	}
 	pg.base.activity_ins_language.op_reply_665_1_2 = {
-		value = ""
+		value = "지휘관이 불러 주면…… 한번 고민해 볼 수도 있고……"
 	}
 	pg.base.activity_ins_language.ins_666 = {
-		value = ""
+		value = "로저스……! 그렇게 얇게 입으면 감기 걸려……!"
 	}
 	pg.base.activity_ins_language.ins_discuss_666_1 = {
-		value = ""
+		value = "괜찮아! 이러고도 더워서 죽을 지경이란 말이야!"
 	}
 	pg.base.activity_ins_language.ins_discuss_666_2 = {
-		value = ""
+		value = "어디선가 본 듯한 이 광경… 뭔가 흐뭇하네요."
 	}
 	pg.base.activity_ins_language.ins_reply_666_2_1 = {
-		value = ""
+		value = "지휘관한테 이제 그만 쉬라고 해도, 늘 일 때문이라고 슬쩍 넘어가지… 닮았네~"
 	}
 	pg.base.activity_ins_language.ins_reply_666_2_2 = {
-		value = ""
+		value = "이른바 「반항기」…… 아니면 성장이라 불러야 하나?"
 	}
 	pg.base.activity_ins_language.ins_reply_666_2_3 = {
-		value = ""
+		value = "그래도 꼬마는 우리의 착한 아이란다~"
 	}
 	pg.base.activity_ins_language.ins_discuss_666_3 = {
-		value = ""
+		value = "우후후…… 자매끼리 사이가 좋네요……"
 	}
 	pg.base.activity_ins_language.ins_reply_666_3_1 = {
-		value = ""
+		value = "저도 언제든 옷으로 감싸줄 수 있답니다~ 내 귀여운 동생~"
 	}
 	pg.base.activity_ins_language.ins_reply_666_3_2 = {
-		value = ""
+		value = "이 하쿠호를 따라 잡을 날이 오기만을 고대하고 있을게요, 친애하는 언니~"
 	}
 	pg.base.activity_ins_language.ins_op_666_1_1 = {
-		value = ""
+		value = "지금 꼭 그렇게 두껍게 입어야 해?"
 	}
 	pg.base.activity_ins_language.op_reply_666_1_1 = {
-		value = ""
+		value = "체온 조절은 얇게 입는 것보다 두껍게 입는 게 좋아! 더우면 벗으면 그만이지만, 추우면 큰일 나는걸!"
 	}
 	pg.base.activity_ins_language.ins_op_666_1_2 = {
-		value = ""
+		value = "방금 로저스가 달려가던데?"
 	}
 	pg.base.activity_ins_language.op_reply_666_1_2 = {
-		value = ""
+		value = "어디로 갔어? 알려줘! 얼른 따라가야 해!"
 	}
 	pg.base.activity_ins_language.ins_667 = {
-		value = ""
+		value = "이젠 어른이니까, 쇼핑쯤은 지휘관 도움 없이도 할 수 있어!"
 	}
 	pg.base.activity_ins_language.ins_discuss_667_1 = {
-		value = ""
+		value = "「지금까지 내가 떼쓰는 거 받아줘서 고마워――」"
 	}
 	pg.base.activity_ins_language.ins_reply_667_1_1 = {
-		value = ""
+		value = "「당신이 내 지휘관이라 다행이야~」"
 	}
 	pg.base.activity_ins_language.ins_reply_667_1_2 = {
-		value = ""
+		value = "뭔 소린지는 모르겠지만, 왠지 열받네……"
 	}
 	pg.base.activity_ins_language.ins_discuss_667_2 = {
-		value = ""
+		value = "외출할 때는 늘 조심하면서 다녀. 계산할 때도 잘 따져보고 실수하지 않도록 하고, 알았지?"
 	}
 	pg.base.activity_ins_language.ins_reply_667_2_1 = {
-		value = ""
+		value = "으아악! 괜찮다고 했잖아~!"
 	}
 	pg.base.activity_ins_language.ins_discuss_667_3 = {
-		value = ""
+		value = "아무리 괜찮다고 해도, 언니는 항상 잔소리하면서 쫒아다니지……"
 	}
 	pg.base.activity_ins_language.ins_reply_667_3_1 = {
-		value = ""
+		value = "그건 나름 괜찮지 않아? 난 오히려 언니들이 제발 정신 좀 차렸으면 하는데……"
 	}
 	pg.base.activity_ins_language.ins_reply_667_3_2 = {
-		value = ""
+		value = "뭐, 너무 믿음직스러워서 오히려 융통성이 부족할 때도 있기는 해."
 	}
 	pg.base.activity_ins_language.ins_reply_667_3_3 = {
-		value = ""
+		value = "그런 언니를 보필하는 것도 동생인 저희의 역할 중 하나죠."
 	}
 	pg.base.activity_ins_language.ins_op_667_1_1 = {
-		value = ""
+		value = "이제 어른이니까 괜찮을 거야!"
 	}
 	pg.base.activity_ins_language.op_reply_667_1_1 = {
-		value = ""
+		value = "어쩌면 아주 조금은 손을 빌릴지도 몰라…… 정말 아주 조금만 말이야!"
 	}
 	pg.base.activity_ins_language.ins_op_667_1_2 = {
-		value = ""
+		value = "짐 안 들어줘도 정말 괜찮겠어?"
 	}
 	pg.base.activity_ins_language.op_reply_667_1_2 = {
-		value = ""
+		value = "지휘관이 그렇게 원한다면야……"
 	}
 	pg.base.activity_ins_language.ins_669 = {
 		value = ""
@@ -34583,6 +34618,111 @@ end)()
 end)()
 (function ()
 	pg.base.activity_ins_language.op_reply_20013_2_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_20014 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_3_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_3_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_4_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_5 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_5_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_6 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_7 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_8 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_9 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_9_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_discuss_20014_10 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_10_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_10_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_reply_20014_10_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20014_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_3 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_1_4 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.ins_op_20014_1_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_2_1 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_2_2 = {
+		value = ""
+	}
+	pg.base.activity_ins_language.op_reply_20014_2_3 = {
 		value = ""
 	}
 end)()

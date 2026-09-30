@@ -277,4 +277,16 @@ slot0.IslandPageIdLinks = {
 	}
 }
 
+slot0.GetLatestPermanentActivityIds = function()
+	slot0 = {}
+
+	for slot4, slot5 in ipairs(pg.activity_task_permanent.all) do
+		if pg.activity_task_permanent[slot5].activity_group == 1000 then
+			table.insert(slot0, slot5)
+		end
+	end
+
+	return slot0
+end
+
 return slot0

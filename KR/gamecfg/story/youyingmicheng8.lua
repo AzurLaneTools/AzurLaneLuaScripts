@@ -7,11 +7,12 @@ return {
 	},
 	scripts = {
 		{
-			side = 2,
-			bgName = "star_level_bg_497",
-			actorName = "방송",
-			bgm = "story-visioncity-1",
 			nameColor = "#A9F548FF",
+			side = 2,
+			actorName = "방송",
+			bgName = "star_level_bg_497",
+			bgm = "story-visioncity-1",
+			NextIcon = 1,
 			say = "[수용 구역…… 위험……], [제…… 제발 가까이 오지 마…… 가까이 오지 마……]",
 			typewriter = {
 				speed = 0.05,
@@ -37,9 +38,10 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영 요원",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "역시, 무슨 일이 있었네.",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -55,9 +57,10 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영 요원",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "아무래도 우리 『세입자』들이 꽤 많이 탈출한 모양이네.",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -71,8 +74,9 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_497",
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			NextIcon = 1,
 			say = "――여기 수습은 나중에 하자. 지금은 장비 보관실로 가서 재블린의 무기를 찾아야 해.",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +84,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_497",
+			nameColor = "#A9F548FF",
 			say = "서둘러 로비를 빠져나갔다. 하지만 복도를 따라 나아갈수록 주변 풍경은 낯선 모습으로 변해 갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +95,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_497",
+			nameColor = "#A9F548FF",
 			say = "안전 표지판이 붙어 있어야 할 벽에는 어느새 인형이 빼곡히 늘어선 유리 쇼케이스가 잔뜩 나타나기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -105,9 +111,10 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영 요원",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "……잠깐. 이 인형들은 대체 뭐야?!",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -123,8 +130,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영 요원",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -135,6 +143,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_497",
 			withoutActorName = true,
@@ -171,8 +180,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "지휘관, 나빴어.",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +195,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "헤이스티를 여기에 두고 자기만 놀러 가고……",
 			typewriter = {
 				speed = 0.05,
@@ -199,11 +210,12 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영 요원",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			portrait = 301191,
+			NextIcon = 1,
+			actorName = "아마츠카제",
 			hideRecordIco = true,
 			actor = 201401,
-			actorName = "아마츠카제",
+			nameColor = "#A9F548FF",
+			portrait = 301191,
 			say = "흥, 수용된지 얼마나 됐다고 벌써부터 불만이야. 이 아이, 지휘관한테 재블린을 만나게 된 계기를 준 걔 맞지?",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +228,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "헤이스티는 그냥 거리에서 같이 놀 사람을 찾았을 뿐인데…… 그러다 지휘관을 발견했고……",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +243,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "그런데 그때부터 계속 나를 그 차가운 구슬 안에만 가둬 두잖아……",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +258,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "그래도 새로 온 언니가 우리를 전부 꺼내 줬어~",
 			typewriter = {
 				speed = 0.05,
@@ -257,6 +272,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_497",
 			actorName = "{playername}",
+			NextIcon = 1,
 			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
@@ -268,11 +284,12 @@ return {
 		},
 		{
 			expression = 6,
-			nameColor = "#FF9B93",
-			bgName = "star_level_bg_497",
 			side = 2,
+			bgName = "star_level_bg_497",
+			nameColor = "#FF9B93",
 			dir = 1,
 			actor = 201401,
+			NextIcon = 1,
 			say = "그래서 헤이스티, 다시 지휘관이랑 놀 수 있게 됐어~",
 			typewriter = {
 				speed = 0.05,
@@ -280,39 +297,42 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_497",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_497",
-			side = 2,
-			withoutActorName = true,
 			say = "헤이스티의 목소리가 사라지자, 이번에는 유리 쇼케이스에서 자그마한 속삭임이 새어 나왔다.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_497",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_497",
-			side = 2,
-			withoutActorName = true,
 			say = "「가지 마……」, 「여기 있어……」, 「혼자 있으면 추워……」, 「웃어, 그러면 두고 가지 않을게……」",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_497",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_497",
-			side = 2,
-			withoutActorName = true,
 			say = "여러 목소리가 겹쳐졌다. 인형 하나하나가 한 사람의 분신인 듯 느껴졌다.",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,8 +344,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "에헤헤~ 지휘관, 같이 게임하자!",
 			typewriter = {
 				speed = 0.05,
@@ -333,12 +354,13 @@ return {
 			}
 		},
 		{
-			actor = 201401,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_497",
 			factiontag = "유영",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "규칙은 간단해. 불이 켜져 있는 동안에는 움직여도 돼. 하지만 불이 꺼지면 움직이면 안 돼.",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +373,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "유영",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "만약 움직이면, 여기에 남아서 내 새로운 친구가 되는 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -360,6 +383,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			blackBg = true,
@@ -378,6 +402,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			blackBg = true,
@@ -394,8 +419,9 @@ return {
 			factiontag = "유영 요원",
 			dir = 1,
 			blackBg = true,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -408,6 +434,7 @@ return {
 		{
 			actor = 0,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			portrait = "zhihuiguan",
 			side = 2,
 			blackBg = true,
@@ -418,6 +445,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
@@ -442,11 +470,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "와아, 무사히 스테이지 1을 클리어했네~ 그럼 스테이지 2로 넘어가자!",
 			typewriter = {
 				speed = 0.05,
@@ -456,6 +485,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -470,6 +500,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -484,11 +515,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "돌아올 때까지 기다리라고……?",
 			typewriter = {
 				speed = 0.05,
@@ -496,13 +528,14 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "헤이스티는 시선을 내리깔더니 손끝으로 살며시 치맛자락을 잡았다.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "헤이스티는 시선을 내리깔더니 손끝으로 살며시 치맛자락을 잡았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,11 +544,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "싫어.",
 			typewriter = {
 				speed = 0.05,
@@ -525,11 +559,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "「금방 돌아올게」라고 말하곤 문을 닫고 불도 끄고 결국은 떠나 버리잖아……",
 			typewriter = {
 				speed = 0.05,
@@ -539,11 +574,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "그래도 인형만큼은 갑자기 사라지지 않아. 여기에 앉아서 나랑 함께 있어 줘.",
 			typewriter = {
 				speed = 0.05,
@@ -551,13 +587,14 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "점점 잦아드는 헤이스티의 목소리와는 반대로, 그 뒤의 쇼케이스에서는 「미소」가 점점 늘어나 유리를 빼곡히 메워 갔다.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "점점 잦아드는 헤이스티의 목소리와는 반대로, 그 뒤의 쇼케이스에서는 「미소」가 점점 늘어나 유리를 빼곡히 메워 갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,6 +603,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -580,11 +618,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "……뭐?",
 			typewriter = {
 				speed = 0.05,
@@ -594,6 +633,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -608,11 +648,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "시끄러워서 싫어하는 거 아니었어……?",
 			typewriter = {
 				speed = 0.05,
@@ -622,6 +663,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -636,11 +678,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "……이럴 때는 아니라고 해야 하는 거 아니야?",
 			typewriter = {
 				speed = 0.05,
@@ -650,6 +693,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -662,26 +706,28 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "헤이스티는 멍하니 나를 바라보다가 이내 손뼉을 짝 치더니, 기쁜 듯 의자에서 뛰어내렸다.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "헤이스티는 멍하니 나를 바라보다가 이내 손뼉을 짝 치더니, 기쁜 듯 의자에서 뛰어내렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "방금 전까지 나를 휘감고 있던 실이 한 가닥씩 풀려나가는 느낌이 들었다.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "방금 전까지 나를 휘감고 있던 실이 한 가닥씩 풀려나가는 느낌이 들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,11 +736,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			say = "다들, 오늘은 폐관이야~",
 			typewriter = {
 				speed = 0.05,
@@ -702,12 +749,13 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
+			actor = 201401,
+			NextIcon = 1,
 			say = "나, 같이 외출할 사람을 찾았거든!",
 			typewriter = {
 				speed = 0.05,
@@ -715,26 +763,28 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "유리 쇼케이스도, 따뜻한 노란빛 조명도 어느새 사라져 있었다.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "유리 쇼케이스도, 따뜻한 노란빛 조명도 어느새 사라져 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "쇼케이스 뒤에 숨겨져 있던 장비 보관실의 문이 모습을 드러냈다.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "쇼케이스 뒤에 숨겨져 있던 장비 보관실의 문이 모습을 드러냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,11 +793,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			say = "미안해~ 숨겨 두지 않으면 장비만 챙기고 또 어디론가 가 버릴 것 같았거든.",
 			typewriter = {
 				speed = 0.05,
@@ -755,25 +806,27 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "헤이스티가 내쪽으로 다가오더니, 그대로 손을 잡고 나를 기대에 찬 눈빛으로 올려다봤다.",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "헤이스티가 내쪽으로 다가오더니, 그대로 손을 잡고 나를 기대에 찬 눈빛으로 올려다봤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 201401,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			factiontag = "유영",
 			dir = 1,
 			blackBg = true,
+			actor = 201401,
+			NextIcon = 1,
 			say = "지휘관, 어디로 가든 내가 따라가 줄게.",
 			typewriter = {
 				speed = 0.05,
@@ -783,6 +836,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -797,6 +851,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,

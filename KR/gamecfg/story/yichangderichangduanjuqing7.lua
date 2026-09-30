@@ -5,9 +5,10 @@ return {
 	scripts = {
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "어둠 속에 무엇이 숨어 있는지 알면서……",
 			typewriter = {
 				speed = 0.05,
@@ -16,9 +17,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "전혀 겁먹지도 않고 발을 들여놓는구나.",
 			typewriter = {
 				speed = 0.05,
@@ -27,9 +29,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "후후…… 당신의 모든 것을 가져가 주겠어♥",
 			typewriter = {
 				speed = 0.05,
@@ -48,9 +51,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 1,
 			say = "후후…… 언제까지 버틸 수 있을지 기대할게♪",
 			typewriter = {
@@ -60,9 +64,10 @@ return {
 		},
 		{
 			actor = 403113,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			optionFlag = 2,
 			say = "어머…… 그런 지루한 종잇조각 따위에는 관심 없어♪",
 			typewriter = {

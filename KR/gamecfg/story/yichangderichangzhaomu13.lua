@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 9600033,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "찾・았・다♪ 지휘관님~",
 			typewriter = {
@@ -24,11 +25,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 9600033,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "그래~ 내 촉수들은 움직임이 아주 빠르거든~",
 			typewriter = {
@@ -43,12 +45,13 @@ return {
 			}
 		},
 		{
-			actor = 9600033,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "먹잇감을 「붙잡는」 데만 쓰는 건 아니야.",
 			typewriter = {
 				speed = 0.05,
@@ -56,12 +59,13 @@ return {
 			}
 		},
 		{
-			actor = 9600033,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "먹잇감이 발버둥 치면, 기꺼이 놀아 줘야지~",
 			typewriter = {
 				speed = 0.05,
@@ -69,11 +73,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 9600033,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "지휘관님도…… 직접 경험해 보고 싶은 거야~?",
 			typewriter = {
@@ -88,12 +93,13 @@ return {
 			}
 		},
 		{
-			actor = 9600033,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "먹잇감에게 적당히 움직일 여지를 남겨 주는 편이 훨씬 재미있잖아?",
 			typewriter = {
 				speed = 0.05,
@@ -101,12 +107,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――일단 상황은 파악했어.",
 			typewriter = {
 				speed = 0.05,
@@ -114,12 +121,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――골든 하인드, 합류한 걸 환영해.",
 			typewriter = {
 				speed = 0.05,
@@ -127,12 +135,13 @@ return {
 			}
 		},
 		{
-			actor = 9600033,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 9600033,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "지휘관님이 직접 불러 줬으니, 제대로 일해줄게~",
 			typewriter = {
 				speed = 0.05,

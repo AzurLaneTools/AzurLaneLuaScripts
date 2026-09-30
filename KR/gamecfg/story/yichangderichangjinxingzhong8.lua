@@ -7,6 +7,7 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
@@ -27,9 +28,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			say = "발걸음을 멈추자, 들려오던 희미한 바람 소리마저 따라 멈춘 듯 뚝 끊겼다.",
 			typewriter = {
 				speed = 0.05,
@@ -40,6 +42,7 @@ return {
 			portrait = "zhihuiguan",
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			side = 2,
 			actorName = "{playername}",
 			say = "(기분 탓인가……?)",
@@ -49,12 +52,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "login",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = "login",
 			say = "잡았어요, 귀여운 어린 양♪",
 			typewriter = {
 				speed = 0.05,
@@ -62,6 +66,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -76,12 +81,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "우후후후, 누굴까요~?",
 			typewriter = {
 				speed = 0.05,
@@ -89,12 +95,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "못 맞히면…… 나쁜 유령에게 잡아먹히고 말 거예요♪",
 			typewriter = {
 				speed = 0.05,
@@ -102,6 +109,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -119,6 +127,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 237031,
@@ -131,12 +140,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "어머, 지휘관님도 참. 한 번에 맞혀 버리셨네요♪",
 			typewriter = {
 				speed = 0.05,
@@ -147,6 +157,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -159,12 +170,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "main1",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = "main1",
 			say = "조금만 더 가까이 숨어 있고 싶었는데…… 갑자기 멈추셔서, 혹시 들킨 건가 싶었답니다",
 			typewriter = {
 				speed = 0.05,
@@ -175,9 +187,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "지휘관님을 몰래 독차지하는 것도 꽤 어렵네요.",
 			typewriter = {
@@ -189,6 +202,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -201,6 +215,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -215,6 +230,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -229,12 +245,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = "main2",
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = "main2",
 			say = "하지만…… 알고 싶었거든요. 이렇게 고요한 밤에 갑자기 지휘관님 앞에 나타나면……",
 			typewriter = {
 				speed = 0.05,
@@ -242,12 +259,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "일러스트리어스를 위해 얼마나 오래 발걸음을 멈춰 주실까 하고요♪",
 			typewriter = {
 				speed = 0.05,
@@ -255,6 +273,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -269,12 +288,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "오늘 밤의 만남을 위해 여러 가지로 준비했답니다♪",
 			typewriter = {
 				speed = 0.05,
@@ -282,12 +302,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "지휘관님 마음에 깊은 인상이 남겨졌으려나요?",
 			typewriter = {
 				speed = 0.05,
@@ -295,10 +316,11 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
-			portrait = "zhihuiguan",
+			expression = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 237031,
@@ -311,12 +333,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "그렇다면 열심히 노력한 일러스트리어스에게…… 상을 주실 수 없을까요~?",
 			typewriter = {
 				speed = 0.05,
@@ -327,6 +350,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -339,6 +363,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -353,6 +378,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -370,6 +396,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			actorName = "{playername}",
 			hideRecordIco = true,
 			actor = 237031,
@@ -382,12 +409,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "우후후. 이제야 눈치채셨나요?",
 			typewriter = {
 				speed = 0.05,
@@ -398,9 +426,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = "home",
 			say = "일러스트리어스가 지휘관님을 둘만의 세계로 데려와 버렸답니다♪",
 			typewriter = {
@@ -412,6 +441,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			NextIcon = 1,
 			withoutActorName = true,
 			hideRecordIco = true,
 			actor = 237031,
@@ -424,6 +454,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -438,12 +469,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "후후후, 지금부터는 조금…… 발칙한 걸 할 거예요.",
 			typewriter = {
 				speed = 0.05,
@@ -454,9 +486,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "지휘관님, 마음의 준비는 되셨나요?",
 			typewriter = {
@@ -465,6 +498,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -479,6 +513,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -493,6 +528,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
 			withoutActorName = true,
@@ -507,12 +543,13 @@ return {
 			}
 		},
 		{
-			actor = 237031,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			live2d = true,
-			dir = 1,
 			side = 2,
+			bgName = "star_level_bg_177",
+			dir = 1,
+			actor = 237031,
+			NextIcon = 1,
+			live2d = true,
 			say = "후후, 날이 밝을 때까지는 아직 시간이 넉넉하니……",
 			typewriter = {
 				speed = 0.05,
@@ -523,9 +560,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 237031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			live2d = true,
 			say = "지휘관님…… 일러스트리어스와…… 더 많이 시간을 보내요♪",
 			typewriter = {

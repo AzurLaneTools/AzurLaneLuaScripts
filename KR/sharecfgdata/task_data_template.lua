@@ -218361,7 +218361,7 @@ _G.pg.base.task_data_template[23078] = {
 	desc = [[
 <color=#e7b000>「메인 화면」</color> - <color=#e7b000>「상점」</color> - <color=#e7b000>「보급 상점」</color> - <color=#e7b000>「월간 상점」</color>에서 화면 중앙 상단의 <color=#e7b000>「원형」</color> 탭을 선택하면 특장 원형 교환 상점으로 이동할 수 있습니다.
 
-  <color=#e7b000>「메인 화면」</color> - <color=#e7b000>「이벤트」</color> - <color=#e7b000>좌측 하단의 <color=#e7b000>「특장 원형」</color>탭에서는 이번 달에 획득한 특장 원형의 누적 수량을 확인할 수 있습니다.
+  <color=#e7b000>「메인 화면」</color> - <color=#e7b000>「이벤트」</color> - <color=#e7b000>좌측 하단의</color> <color=#e7b000>「특장 원형」</color>탭에서는 이번 달에 획득한 특장 원형의 누적 수량을 확인할 수 있습니다.
 
 또한, 「메인 화면」 좌측의 버튼으로 열리는 사이드 메뉴에서도 이번 달의 특장 원형 획득 상황을 빠르게 확인할 수 있습니다.
 
@@ -303298,6 +303298,48 @@ _G.pg.base.task_data_template[27618] = {
 		"REVERSE_PACMAN_SELECT",
 		{
 			unlockActivityID = 51131
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27609] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 88413,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『260908虎UR第二弹』登录送皮肤体验券活动",
+	desc = "게임에 로그인",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27609,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			756,
+			3
 		}
 	}
 }

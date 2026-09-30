@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "여기서 지휘관님을 계속 기다리고 있었어요.",
 			typewriter = {
 				speed = 0.05,
@@ -16,11 +17,12 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "무서워하지 마세요. 하쿠호는 사람을 잡아먹는 여우가 아니랍니다. 그저…… 함께 차를 마실 수 있을까 해서요♪",
 			typewriter = {
 				speed = 0.05,
@@ -38,12 +40,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "자, 하쿠호 곁에 앉으세요.",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +54,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "다과도 조금 준비했답니다. 입에 맞으시면 좋겠네요.",
 			typewriter = {
 				speed = 0.05,
@@ -64,12 +68,13 @@ return {
 			}
 		},
 		{
-			actor = 307162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "그건…… 조금 아쉽네요……",
 			typewriter = {
 				speed = 0.05,

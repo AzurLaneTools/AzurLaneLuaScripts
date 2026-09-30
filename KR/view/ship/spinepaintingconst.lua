@@ -2135,6 +2135,83 @@ slot0.ship_drag_datas = {
 				}
 			}
 		}
+	},
+	yueke_ger_4 = {
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "ex",
+					click = false,
+					action = "drag",
+					idle = "normal",
+					is_default = true
+				},
+				{
+					change_idle = "normal",
+					click = false,
+					action = "drag_ex",
+					idle = "ex",
+					is_default = false
+				}
+			}
+		}
+	},
+	jinluhao_4 = {
+		multiple_face = {},
+		hit_area = {
+			"touch_body",
+			"touch_head",
+			"touch_special",
+			"touch_special_2"
+		},
+		drag_data = {
+			type = slot0.drag_type_normal,
+			config_client = {
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "touch_body",
+					event = "TouchBody",
+					is_default = true,
+					hit = "touch_body"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "normal",
+					action = "touch_head",
+					event = "TouchHead",
+					is_default = true,
+					hit = "touch_head"
+				},
+				{
+					fold_chat = true,
+					click = true,
+					action = "touch_special",
+					idle = "normal",
+					is_default = true,
+					change_idle = "touch_special_normal",
+					event = "TouchSpecial",
+					fold = true,
+					hit = "touch_special"
+				},
+				{
+					change_idle = "normal",
+					click = true,
+					idle = "touch_special_normal",
+					action = "touch_special_2",
+					is_default = false,
+					fold = true,
+					hit = "touch_special_2"
+				}
+			}
+		}
 	}
 }
 slot0.ship_effect_action_able = {

@@ -7,12 +7,13 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
-			hidePaintObj = true,
 			bgm = "battle-visioncity-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아즈치는 조용히 부채를 접고, 눈빛에 처음으로 놀라움과 감탄을 내비쳤다.",
 			typewriter = {
 				speed = 0.05,
@@ -25,8 +26,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……정말, 상상을 뛰어넘네.",
 			typewriter = {
@@ -40,8 +42,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "이 연극이 가장 지루한 대목에서 끝나는 건 아닐까 걱정했거든.",
 			typewriter = {
@@ -55,8 +58,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "아무래도 「서로 이해한다」는 점에 관해서는…… 내가 조금 잘못 판단했던 모양이야.",
 			typewriter = {
@@ -65,12 +69,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
 			actor = 304090,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "당신 같은 사람이라면 내 존경을 받을 자격이 있어. 그래, 입에 발린 아첨 따위가 아니라 진심으로.",
 			typewriter = {
@@ -79,12 +84,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
 			actor = 304090,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "그러니 하나 더 호의를 베풀어 주지.",
 			typewriter = {
@@ -93,10 +99,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "아즈치의 시선이 품에 안긴 타이거에게 향했다.",
 			typewriter = {
 				speed = 0.05,
@@ -104,10 +111,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "간신히 형태만을 유지하고 있는 그녀의 모습은 금방이라도 소멸할 것처럼 점차 투명해지고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +128,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#A9F548FF",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "내 불꽃은 「재생의 불꽃」이야.",
 			typewriter = {
@@ -130,10 +139,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "붉은색과 금색이 뒤섞인 불꽃이 타이거의 발밑에서 소리 없이 피어올라 순식간에 그녀의 온몸을 감쌌다.",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +156,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "윽…… 실체화가 안정됐어……?",
 			typewriter = {
@@ -161,8 +172,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "불꽃에 그을린 곳의 통증도 조금씩 가라앉고 있고……",
 			typewriter = {
@@ -176,8 +188,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "아즈치 님……",
 			typewriter = {
@@ -191,8 +204,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#A9F548FF",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "감상적인 인사는 사양할게. 다들…… 나를 실망시키지 말아 줘.",
 			typewriter = {
@@ -201,10 +215,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "활활 타오르는 불꽃이 소용돌이치며, 사라져 가던 타이거의 윤곽을 조금씩 다시 그려 나갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -212,10 +227,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "나는 무의식적으로 타이거를 세게 끌어안았다. 그녀의 존재가 확실하게 느껴지자, 팽팽했던 긴장이 느슨하게 풀려나갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -223,10 +239,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "그 순간, 극심한 피로로 인한 현기증이 한꺼번에 밀려들었고――",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +256,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "지휘관……!",
 			typewriter = {
@@ -254,8 +272,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#A9F548FF",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "후후후, 지금은 편히 잠들도록 해.",
 			typewriter = {
@@ -264,12 +283,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
 			actor = 304090,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "눈을 뜨면 당신이 모두를 새로운 내일로 이끌어 가야 하니까.",
 			typewriter = {
@@ -283,8 +303,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#A9F548FF",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……하지만 방심하지 마. 언젠가 이 세계가 다시 썩어 문드러져 차마 눈 뜨고 볼 수 없는 모습으로 전락한다면……",
 			typewriter = {
@@ -298,8 +319,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "유영",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#A9F548FF",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "그때는 다시 내 방식으로…… 활활 타오르는 불꽃으로 모든 것을 새롭게 태어나게 해 줄 테니까.",
 			typewriter = {
@@ -308,6 +330,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_308",
 			bgm = "story-hospital-light",
@@ -337,10 +360,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_308",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "희미한 소독약 냄새와…… 맛있는 감자튀김 냄새가 풍겨 왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -348,10 +372,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_308",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "침대 옆 흰 커튼 너머에서 소녀의 활기찬 목소리가 들려왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -359,12 +384,13 @@ return {
 			}
 		},
 		{
-			actorName = "??",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			hidePaintObj = true,
+			actorName = "??",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "와, 지휘관! 벌써 일어나셨네요!",
 			typewriter = {
 				speed = 0.05,
@@ -372,12 +398,13 @@ return {
 			}
 		},
 		{
-			actorName = "??",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			hidePaintObj = true,
+			actorName = "??",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "『낭만 각성 어른 세트』와 『계속 설레는 어린이 세트』…… 어느 쪽으로 하실래요?",
 			typewriter = {
 				speed = 0.05,
@@ -385,12 +412,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_308",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_308",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――……어른 세트로 부탁해.",
 			typewriter = {
 				speed = 0.05,
@@ -398,12 +426,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_308",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_308",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――아니, 덤으로 장난감이 따라온다면…… 어린이 세트도 나쁘지 않겠는데.",
 			typewriter = {
 				speed = 0.05,
@@ -773,8 +802,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "유영 요원",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -786,12 +816,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "유영",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "그렇게 많지는 않아……",
 			typewriter = {
@@ -805,9 +836,10 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "유영 요원",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "구체적으로 말해봐.",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -819,12 +851,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "유영",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "정말 알고 싶어? 전부…… 지휘관에 관한 거야.",
 			typewriter = {
@@ -838,9 +871,10 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "유영 요원",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "당장 말해!!",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -902,8 +936,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "기업연합회 임시대표",
 			dir = 1,
-			actor = 899050,
 			nameColor = "#A9F548FF",
+			actor = 899050,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "다들 축하해! 위기는 지나갔어!",
 			typewriter = {
@@ -917,8 +952,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "기업연합회 임시대표",
 			dir = 1,
-			actor = 899050,
 			nameColor = "#A9F548FF",
+			actor = 899050,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "그럼 지난 며칠간의 피해 상황 집계와 작전안, 그리고 다음 분기 계획을…… 함께 정리해 볼까?",
 			typewriter = {
@@ -927,12 +963,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "무고한 접수원",
 			dir = 1,
 			actor = 105040,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "저기…… 업무량을 보니…… 위기 상황인 건 여전한 것 같은데요…?",
 			typewriter = {
@@ -976,12 +1013,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "배우",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "지휘관, 지휘관~! 재블린의 어린이 세트 장난감이에요! 자, 선물!",
 			typewriter = {
@@ -990,12 +1028,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_308",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_308",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "――진짜 있었네……",
 			typewriter = {
 				speed = 0.05,
@@ -1008,8 +1047,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "배우",
 			dir = 1,
-			actor = 307130,
 			nameColor = "#A9F548FF",
+			actor = 307130,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "다이호 장난감이 훨씬 더 좋아요~ 지휘관님, 받아 주세요~♡",
 			typewriter = {
@@ -1018,12 +1058,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "배우",
 			dir = 1,
 			actor = 305170,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "지휘관――나도 장난감 들고 놀러 왔다!",
 			typewriter = {
@@ -1037,8 +1078,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "배우",
 			dir = 1,
-			actor = 403120,
 			nameColor = "#A9F548FF",
+			actor = 403120,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "나도 끼워 줘♪ 한 명 정도 늘어도 괜찮지?",
 			typewriter = {
@@ -1047,12 +1089,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "배우",
 			dir = 1,
 			actor = 103290,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "선생님……! 선생님, 앵커리지도 같이~!",
 			typewriter = {
@@ -1061,12 +1104,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "배우",
 			dir = 1,
 			actor = 102190,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "헬레나도… 지휘관이랑 귀여운 장난감으로 같이 놀고 싶어……",
 			typewriter = {
@@ -1080,8 +1124,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "배우",
 			dir = 1,
-			actor = 307140,
 			nameColor = "#A9F548FF",
+			actor = 307140,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "시나노는 놀지 않아도 좋으니…… 잠깐만 그대에게 기대어 자도 될까……",
 			typewriter = {
@@ -1095,8 +1140,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "배우",
 			dir = 1,
-			actor = 204040,
 			nameColor = "#A9F548FF",
+			actor = 204040,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "다들 줄 서세요! 한 줄로!",
 			typewriter = {
@@ -1105,12 +1151,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "배우",
 			dir = 1,
 			actor = 403130,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "사람이 많네……",
 			typewriter = {
@@ -1119,12 +1166,13 @@ return {
 			}
 		},
 		{
-			actorName = "??",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			hidePaintObj = true,
+			actorName = "??",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "으아아! 왜 다들 한꺼번에 지휘관 방으로 몰려오는 거야! 환자는 지금 안정을 취해야 해! 조용히 해~!",
 			typewriter = {
 				speed = 0.05,
@@ -1137,8 +1185,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "배우",
 			dir = 1,
-			actor = 403120,
 			nameColor = "#A9F548FF",
+			actor = 403120,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "감독, 설마 지휘관을 독차지하려는 거야?",
 			typewriter = {
@@ -1147,12 +1196,13 @@ return {
 			}
 		},
 		{
-			actorName = "??",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			hidePaintObj = true,
+			actorName = "??",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "아, 아니거든!",
 			typewriter = {
 				speed = 0.05,
@@ -1160,12 +1210,13 @@ return {
 			}
 		},
 		{
-			actorName = "??",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			hidePaintObj = true,
+			actorName = "??",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "그냥, 엄청나게 달달한 러브 로맨스를 기대하고 있을 뿐♪",
 			typewriter = {
 				speed = 0.05,

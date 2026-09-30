@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "어머, 지휘관님. 조금만 기다려.",
 			typewriter = {
 				speed = 0.05,
@@ -16,11 +17,12 @@ return {
 			}
 		},
 		{
-			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 9600032,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "여기 문은 드나들 때마다 허리를 숙여야 하거든…… 좀 더 편하게 지나갈 방법 없을까……",
 			typewriter = {
 				speed = 0.05,
@@ -38,12 +40,13 @@ return {
 			}
 		},
 		{
-			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 9600032,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "좋은 생각이네~",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +54,13 @@ return {
 			}
 		},
 		{
-			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 9600032,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "당신 손으로 벗겨 줘. 후후후~",
 			typewriter = {
 				speed = 0.05,
@@ -64,12 +68,13 @@ return {
 			}
 		},
 		{
-			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 9600032,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "그렇게 말해도…… 쉽지가 않아~",
 			typewriter = {
 				speed = 0.05,
@@ -77,12 +82,13 @@ return {
 			}
 		},
 		{
-			actor = 9600032,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 9600032,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "시청 예산에도 한계가 있거든~",
 			typewriter = {
 				speed = 0.05,

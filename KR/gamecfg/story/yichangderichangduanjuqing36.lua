@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 317031,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "……위장 능력을 더는 쓰지 않았으면 한다고?",
 			typewriter = {
 				speed = 0.05,
@@ -18,9 +19,10 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "왜?",
 			typewriter = {
@@ -41,10 +43,11 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……응. 약속할게.",
 			typewriter = {
@@ -53,12 +56,13 @@ return {
 			}
 		},
 		{
-			actor = 317031,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 317031,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "……맘대로 해. 어차피 이제 쓸 생각도 없었어.",
 			typewriter = {
 				speed = 0.05,

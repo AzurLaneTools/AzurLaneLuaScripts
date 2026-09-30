@@ -177487,6 +177487,33 @@ _G.pg.base.item_virtual_data_statistics[65120] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65121] = {
+	drop_gold_max = 0,
+	name = "투어 PT",
+	display = "이벤트 「월드 투어」에서 획득 합계 보상을 획득하기 위한 임무 PT 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7031,
+	drop_arg = "",
+	album_config = "",
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65121,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "저항의 별 기념 훈장",
@@ -201746,6 +201773,62 @@ _G.pg.base.item_virtual_data_statistics[86230] = {
 		{
 			201191,
 			2000
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86231] = {
+	drop_gold_max = 0,
+	name = "랜덤 스킨",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86231,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			299035,
+			1200
+		},
+		{
+			307162,
+			1200
+		},
+		{
+			307053,
+			1400
+		},
+		{
+			403113,
+			1400
+		},
+		{
+			101267,
+			1800
+		},
+		{
+			231211,
+			1500
+		},
+		{
+			101532,
+			1500
 		}
 	}
 }

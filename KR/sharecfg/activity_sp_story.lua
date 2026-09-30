@@ -10867,7 +10867,7 @@ end)()
 		label_key = "",
 		change_prefab = "",
 		unlock_conditions = "EP4-2 클리어",
-		change_background = "bg_youyingmicheng_cg5_hx",
+		change_background = "bg_youyingmicheng_cg5",
 		name = "EP4-3 아이들의 의회",
 		story = "YOUYINGMICHENG21",
 		change_bgm = "battle-visioncity-1",

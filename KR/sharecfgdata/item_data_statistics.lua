@@ -17028,6 +17028,37 @@ _G.pg.base.item_data_statistics[21065] = {
 }
 
 
+_G.pg.base.item_data_statistics[21066] = {
+	open_directly = 0,
+	name = "결정: 소브라지텔니·META",
+	type = 4,
+	display = "소브라지텔니·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21066",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21066,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -32624,6 +32655,58 @@ _G.pg.base.item_data_statistics[30436] = {
 		{
 			9,
 			2128,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30437] = {
+	open_directly = 1,
+	name = "랜덤 장비 스킨",
+	type = 11,
+	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111231",
+	id = 30437,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2129,
+			1
+		},
+		{
+			9,
+			2130,
+			1
+		},
+		{
+			9,
+			2131,
+			1
+		},
+		{
+			9,
+			2132,
 			1
 		}
 	},
@@ -114944,6 +115027,73 @@ _G.pg.base.item_data_statistics[81238] = {
 		{
 			2,
 			86230,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81239] = {
+	open_directly = 1,
+	name = "유영 미성 스킨 패키지 II",
+	type = 17,
+	display = "랜덤(유영 미성 스킨 패키지 II의) 스킨, 상급 지향형 강화 유닛·9기×2, 다이아×2026, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai39",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998334",
+	id = 81239,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86231,
 			1
 		},
 		{

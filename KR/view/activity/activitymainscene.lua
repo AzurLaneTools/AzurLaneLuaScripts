@@ -254,10 +254,52 @@ slot0.GetOnShowEntranceData = function()
 	assert(uv0, "Missing EntranceData.lua!")
 
 	uv0 = uv0 or {}
-
-	return _.select(uv0, function (slot0)
+	slot0 = _.select(uv0, function (slot0)
 		return slot0.isShow and slot0.isShow()
 	end)
+
+	table.insertto(slot0, uv1.createEntranceData())
+
+	return slot0
+end
+
+slot0.createEntranceData = function()
+	slot0 = {}
+
+	for slot4, slot5 in ipairs(pg.activity_entrance.all) do
+		if pg.TimeMgr.GetInstance():inTime(pg.activity_entrance[slot5].time) then
+			table.insert(slot0, {
+				event = ActivityMediator.EVENT_GO_SCENE,
+				data = {
+					SCENE.ACTIVITY,
+					{
+						id = slot6.act_ids[1]
+					}
+				},
+				banner = slot6.banner,
+				isShow = function ()
+					for slot3, slot4 in ipairs(uv0.act_ids) do
+						if getProxy(ActivityProxy):getActivityById(slot4) and not slot5:isEnd() then
+							return true
+						end
+					end
+
+					return false
+				end,
+				isTip = function ()
+					for slot3, slot4 in ipairs(uv0.act_ids) do
+						if Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(slot4)) then
+							return true
+						end
+					end
+
+					return false
+				end
+			})
+		end
+	end
+
+	return slot0
 end
 
 slot0.updateEntrances = function(slot0)

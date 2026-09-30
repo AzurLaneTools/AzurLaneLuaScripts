@@ -3669,6 +3669,11 @@ pg.skill_data_display.all = {
 	802321,
 	802335,
 	802337,
+	802341,
+	802361,
+	802362,
+	802365,
+	802367,
 	902201,
 	1010140,
 	1010143,
@@ -18971,6 +18976,26 @@ end)()
 		id = 802337,
 		name = "섬멸의 횃불 - 빅토리어스Ⅱ"
 	}
+	pg.base.skill_data_display[802341] = {
+		id = 802341,
+		name = "배틀 증폭 디바이스"
+	}
+	pg.base.skill_data_display[802361] = {
+		id = 802361,
+		name = "흔들리는 불빛의 힘-소브라지텔니 I"
+	}
+	pg.base.skill_data_display[802362] = {
+		id = 802362,
+		name = "흔들리는 불빛의 힘-소브라지텔니 II"
+	}
+	pg.base.skill_data_display[802365] = {
+		id = 802365,
+		name = "흔들리는 불빛의 힘-소브라지텔니 I"
+	}
+	pg.base.skill_data_display[802367] = {
+		id = 802367,
+		name = "흔들리는 불빛의 힘-소브라지텔니 II"
+	}
 	pg.base.skill_data_display[902201] = {
 		id = 902201,
 		name = "환상의 고리"
@@ -19091,6 +19116,8 @@ end)()
 		id = 1011871,
 		name = "절대 명중의 숙녀·改+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011872] = {
 		id = 1011872,
 		name = "절대 명중의 숙녀·改+"
@@ -19111,8 +19138,6 @@ end)()
 		id = 1018303,
 		name = "버스트 콤비네이션"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1018305] = {
 		id = 1018305,
 		name = "단죄의 불꽃·改+"
@@ -19493,6 +19518,8 @@ end)()
 		id = 200779,
 		name = "원한을 갚는다는 신조"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200782] = {
 		id = 200782,
 		name = "가르디안느의 수호 - DOY"
@@ -19513,8 +19540,6 @@ end)()
 		id = 200830,
 		name = "용사 십자참"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200831] = {
 		id = 200831,
 		name = "홀리 라이트"
@@ -19895,6 +19920,8 @@ end)()
 		id = 201454,
 		name = "세계 초월·리미터 해제"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201462] = {
 		id = 201462,
 		name = "코어 레벨 Lv3"
@@ -19915,8 +19942,6 @@ end)()
 		id = 201504,
 		name = "할퀴어 주마"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201525] = {
 		id = 201525,
 		name = "아마하라 가호 - 깃털"
@@ -20297,6 +20322,8 @@ end)()
 		id = 1011940,
 		name = "하늘과 바다의 관측자+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011941] = {
 		id = 1011941,
 		name = "하늘과 바다의 관측자+"
@@ -20317,8 +20344,6 @@ end)()
 		id = 1011371,
 		name = "관통 공격 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1005071] = {
 		id = 1005071,
 		name = "슈발리에 부클리에+"
@@ -20699,6 +20724,8 @@ end)()
 		id = 1012571,
 		name = "팔로워 윙+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012572] = {
 		id = 1012572,
 		name = "팔로워 윙+"
@@ -20719,8 +20746,6 @@ end)()
 		id = 1012580,
 		name = "기관 금지"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012581] = {
 		id = 1012581,
 		name = "기관 금지"
@@ -21101,6 +21126,8 @@ end)()
 		id = 1090380,
 		name = "어뢰 연사·아타고"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090381] = {
 		id = 1090381,
 		name = "어뢰 연사·아타고"
@@ -21121,8 +21148,6 @@ end)()
 		id = 1090401,
 		name = "전술 기록: 디스트로이"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090402] = {
 		id = 1090402,
 		name = "전술 기록: 하트여, 날아라!"

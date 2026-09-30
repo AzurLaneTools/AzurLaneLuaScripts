@@ -116,6 +116,8 @@ pg.pay_data_display.all = {
 	9020,
 	9021,
 	9022,
+	9023,
+	9024,
 	1000,
 	1001,
 	1002,
@@ -146,6 +148,7 @@ pg.pay_data_display.all = {
 	1027,
 	1028,
 	1029,
+	1030,
 	1304,
 	2001,
 	2002,
@@ -232,7 +235,8 @@ pg.pay_data_display.all = {
 	5015,
 	5016,
 	5017,
-	70001
+	70001,
+	70002
 }
 pg.pay_data_display.get_id_list_by_extra_service = {
 	[0] = {
@@ -352,6 +356,8 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		9020,
 		9021,
 		9022,
+		9023,
+		9024,
 		2001,
 		2002,
 		2003,
@@ -469,10 +475,12 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		1027,
 		1028,
 		1029,
+		1030,
 		1304
 	},
 	[6] = {
-		70001
+		70001,
+		70002
 	}
 }
 pg.base = pg.base or {}
@@ -14325,6 +14333,276 @@ end)()
 			}
 		}
 	}
+	pg.base.pay_data_display[9023] = {
+		picture = "fudai39",
+		name = "유영 미성 스킨 패키지 II",
+		type = 1,
+		second_text = "대량의 보상",
+		tag = 2,
+		subject = "유영 미성 스킨 패키지 II",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 37000,
+		descrip_extra = "※ 복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		id = 9023,
+		type_order = 2,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "alkrgift205",
+		extra_gem = 0,
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond210",
+		name_display = "유영 미성 스킨 패키지 II",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86231,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86231,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81239,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86231,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	}
+	pg.base.pay_data_display[9024] = {
+		picture = "fudai28",
+		name = "닌자의성 스킨 패키지 II 복각",
+		type = 1,
+		second_text = "대량의 보상",
+		tag = 2,
+		subject = "닌자의성 스킨 패키지 II 복각",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 37000,
+		descrip_extra = "※ 복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		limit_group = 0,
+		id = 9024,
+		type_order = 2,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "alkrgift206",
+		extra_gem = 0,
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.diamond211",
+		name_display = "닌자의성 스킨 패키지 II 복각",
+		first_text = "랜덤 스킨",
+		akashi_pick = 1,
+		skin_inquire_relation = 86218,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81218,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86218,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	}
 	pg.base.pay_data_display[1000] = {
 		picture = "battlepass_1",
 		name = "특허 투어 패스",
@@ -16899,6 +17177,92 @@ end)()
 		},
 		sub_display = {
 			7030,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[1030] = {
+		picture = "battlepass_1",
+		name = "특허 투어 패스(26 가을)",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "특허 투어 패스(26 가을)",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 12000,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		limit_group = 0,
+		id = 1030,
+		type_order = 6,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "alkrgift207",
+		extra_gem = 0,
+		descrip = "구매 시 월드 투어의 투어 PT 1,500 획득 및 SP 보상 오픈",
+		airijp_id = "com.yostarjp.azurlane.seasonpass31",
+		name_display = "특허 투어 패스(26 가을)",
+		first_text = "",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 4,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				4031,
+				1500
+			},
+			{
+				8,
+				65121,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7031,
 			1500
 		},
 		ignorePlatform = {},
@@ -21668,6 +22032,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2057] = {
 		picture = "ui6",
 		name = "전투 UI·닌자",
@@ -21934,8 +22300,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2063] = {
 		picture = "huteng_package",
 		name = "선택 가능한 UR 스킨 복주머니F",
@@ -24452,6 +24816,78 @@ end)()
 					2026,
 					9,
 					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		drop_item = {}
+	}
+	pg.base.pay_data_display[70002] = {
+		picture = "",
+		name = "미소 짓는 괴담의 금사슴",
+		ignorePlatform = "",
+		type = 0,
+		second_text = "",
+		tag = 0,
+		subject = "미소 짓는 괴담의 금사슴",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 30000,
+		descrip_extra = "이중 형태 스킨 직구 최적화",
+		limit_group = 0,
+		id = 70002,
+		type_order = 0,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 35000,
+		id_str = "alkrgift208",
+		extra_gem = 0,
+		descrip = "미소 짓는 괴담의 금사슴",
+		airijp_id = "com.yostarjp.azurlane.skin2",
+		display = "",
+		name_display = "미소 짓는 괴담의 금사슴",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 6,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				7,
+				9600033,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					9,
+					30
 				},
 				{
 					0,

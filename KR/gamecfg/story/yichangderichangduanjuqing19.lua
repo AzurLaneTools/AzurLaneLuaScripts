@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 900561,
-			nameColor = "#A9F548FF",
 			actorName = "???",
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "이 근처에 나쁜 유령이 나온다는 소문이……",
 			typewriter = {
 				speed = 0.05,
@@ -17,12 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 900561,
-			nameColor = "#A9F548FF",
 			actorName = "???",
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "밤에 귀여운 어린 양이 혼자 헤매고 있다면……",
 			typewriter = {
 				speed = 0.05,
@@ -30,11 +32,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900561,
-			actorName = "???",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "그 나쁜 유령에게 잡아먹히고 말 거예요~",
 			typewriter = {
@@ -55,10 +58,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "후후후, 지휘관님은 속일 수 없네요~",
 			typewriter = {
@@ -67,12 +71,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900561,
-			actorName = "???",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "후후, 그럼 다음에 다시 뵙도록 할게요.",
 			typewriter = {

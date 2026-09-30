@@ -55,11 +55,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "평범한 후방 요원",
 			side = 2,
 			bgName = "star_level_bg_495",
+			nameColor = "#A9F548FF",
 			actor = 317030,
-			actorName = "평범한 후방 요원",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "「오늘은 신기원 시티 NO.5에 도착했다……」",
 			typewriter = {
@@ -93,8 +94,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_495",
 			nameColor = "#A9F548FF",
-			actor = 317030,
 			actorName = "평범한 후방 요원",
+			actor = 317030,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "「한때 이 도시 사람들은 목표와 계획, 비전으로 가득 차 있었다…… 자본만 아름답게 불어나고 있다면…… 실패한 인생이라 부르지 않았다.」",
 			typewriter = {
@@ -103,10 +105,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_495",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "하쿠호는 높은 곳에서 도시의 모습을 조용히 내려다보고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +122,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "유영",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "후후…… 정말 재밌네요.",
 			typewriter = {
@@ -129,12 +133,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "유영",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "그 미덥지 못한 기둥만 뽑아 버리면, 이 도시는 당분간 혼란에 빠질 거라 생각했는데 말이죠.",
 			typewriter = {
@@ -148,8 +153,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "유영",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "벌써 새로운 뼈대를 세워 버리다니, 일 처리가 참 빠르기도 하네요.",
 			typewriter = {
@@ -163,8 +169,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "유영",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "저항 세력을 규합하려는 자가 있는데, 전혀 초조해하지 않는 것 같네……",
 			typewriter = {
@@ -173,12 +180,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_495",
 			factiontag = "유영",
 			dir = 1,
 			actor = 307162,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "네, 물론이지요♪ 저도 흥미가 있거든요. 그저 잠깐 허세를 부리는 건지, 아니면 정말로 이 국면을 타개할 힘이 있는 건지 말이에요.",
 			typewriter = {
@@ -192,8 +200,9 @@ return {
 			bgName = "star_level_bg_495",
 			factiontag = "유영",
 			dir = 1,
-			actor = 307162,
 			nameColor = "#FF9B93",
+			actor = 307162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "하지만 일시적으로 상황을 안정시키는 것과 오랫동안 지켜 내는 건 전혀 다른 문제랍니다.",
 			typewriter = {
