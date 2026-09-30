@@ -63,6 +63,10 @@ slot0.InitSceneRefs = function(slot0)
 end
 
 slot0.EnableDecalRoot = function(slot0, slot1)
+	if slot0.randomDecalGenerator then
+		slot0.randomDecalGenerator:SetGeneratedActive(slot1)
+	end
+
 	if slot0.decalParent then
 		setActive(slot0.decalParent, slot1)
 	end
@@ -135,29 +139,41 @@ slot0.OnShootLogic = function(slot0, slot1)
 	if slot3 and slot7 and slot9 < slot10 then
 		assert(slot4, "CarWash decal hitInfo is nil")
 
+		if slot0:FindDecalFaceFilter(slot4.collider) and not slot11:IsAllowed(slot4.normal) then
+			return
+		end
+
 		if not _.any(slot8, function (slot0)
 			return slot0.decalType == uv0.selectedCarDecalType
 		end) then
 			slot0:GenerateDecalAtScreenCenter(slot0.selectedCarDecalType, slot4)
 		end
 
-		for slot14, slot15 in ipairs(slot8) do
-			if CarWashConst.GetStainsConfig(slot15.decalType) then
-				slot18 = slot0.currentGunType == slot16.targetGunType
+		for slot15, slot16 in ipairs(slot8) do
+			if CarWashConst.GetStainsConfig(slot16.decalType) then
+				slot19 = slot0.currentGunType == slot17.targetGunType
 
-				if 0 + (slot18 and slot16.fadePerSec or 0) + (slot18 and (slot16.coverDecal and _.any(slot8, function (slot0)
+				if 0 + (slot19 and slot17.fadePerSec or 0) + (slot19 and (slot17.coverDecal and _.any(slot8, function (slot0)
 					return slot0.decalType == uv0.coverDecal
-				end)) and slot16.coverBuff or 0) > 0 then
-					slot15:SetAlpha(slot15.Alpha - slot17 * uv0.ON_SHOOT_INTERVAL)
+				end)) and slot17.coverBuff or 0) > 0 then
+					slot16:SetAlpha(slot16.Alpha - slot18 * uv0.ON_SHOOT_INTERVAL)
 				end
 
-				if slot15.Alpha <= 0 then
-					StaticDecalSpawner.Despawn(slot15)
+				if slot16.Alpha <= 0 then
+					StaticDecalSpawner.Despawn(slot16)
 					slot0:Emit(CarWashGameFlowSystem.DECREASE_STAINS_COUNT, 1)
 				end
 			end
 		end
 	end
+end
+
+slot0.FindDecalFaceFilter = function(slot0, slot1)
+	if not slot1 then
+		return nil
+	end
+
+	return slot1:GetComponentInChildren(typeof(DecalFaceFilter), true)
 end
 
 slot0.GetColliderBone = function(slot0, slot1)
@@ -178,7 +194,7 @@ slot0.GenerateDecalAtScreenCenter = function(slot0, slot1, slot2, slot3, slot4)
 	assert(slot1, "CarWash decal type is nil")
 	assert(CarWashConst.GetDecalConfig(slot1), "CarWash decal config not found: " .. tostring(slot1))
 
-	slot8, slot9 = DecalRaycastUtil.TryComputeDecalPlacement(slot2.point, slot2.normal, math.floor((slot4 or math.random() * (CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[2] - CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[1]) + CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[1]) * 100) / 100, slot5.aspectRatio, CarWashConst.LAYER_MASK, math.random() * (CarWashConst.ROTATE_RANGE[2] - CarWashConst.ROTATE_RANGE[1]) + CarWashConst.ROTATE_RANGE[1], nil)
+	slot8, slot9 = DecalRaycastUtil.TryComputeDecalPlacement(slot2.point, slot2.normal, math.floor((slot4 or math.random() * (CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[2] - CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[1]) + CarWashConst.ORTHOGRAPHIC_SIZE_RANGE[1]) * 100) / 100, slot5.aspectRatio, CarWashConst.LAYER_MASK, math.random() * (CarWashConst.ROTATE_RANGE[2] - CarWashConst.ROTATE_RANGE[1]) + CarWashConst.ROTATE_RANGE[1], slot0:FindDecalFaceFilter(slot2.collider), nil)
 
 	if not slot8 then
 		return nil
@@ -188,7 +204,7 @@ slot0.GenerateDecalAtScreenCenter = function(slot0, slot1, slot2, slot3, slot4)
 		return nil
 	end
 
-	return DecalControllerPoolMgr.Inst:Acquire(slot9.position, slot9.rotation, slot3 or slot0.decalParent, slot10, slot6, slot5.aspectRatio, slot9.nearClip, slot9.farClip, slot5.renderQueue, slot5.decalType or slot1, slot5.useAutoFade, slot5.autoFadeStartTime, slot5.autoFadeTime)
+	return DecalControllerPoolMgr.Inst:Acquire(slot9.position, slot9.rotation, slot3 or slot0.decalParent, slot10, slot9.orthographicSize, slot5.aspectRatio, slot9.nearClip, slot9.farClip, slot5.renderQueue, slot5.decalType or slot1, slot5.useAutoFade, slot5.autoFadeStartTime, slot5.autoFadeTime)
 end
 
 slot0.GetSourceMaterial = function(slot0, slot1)

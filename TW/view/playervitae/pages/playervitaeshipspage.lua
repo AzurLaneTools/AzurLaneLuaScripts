@@ -48,6 +48,63 @@ slot0.getUIName = function(slot0)
 	return "PlayerVitaeShipsPage"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/proposeShipCard"
+	}
+	slot3 = uv0.super.getResource(slot0)
+	slot4 = slot1 and slot1.showTrans
+
+	slot5 = function(slot0)
+		slot1 = getProxy(BayProxy):GetShipPhantom(slot0)
+		slot2 = getProxy(ShipSkinProxy):GetAllSkinForShip(slot1)
+
+		table.insertto(slot2, _.map(getProxy(ShipSkinProxy):GetShareSkinsForShip(slot1), function (slot0)
+			return pg.ship_skin_template[slot0.id]
+		end))
+
+		for slot8, slot9 in ipairs(slot2) do
+			if (slot9 and slot9.painting or "unknown") ~= "unknown" then
+				table.insertto(uv0, ResPathSupport.GetPaintingListByPaintingName(slot10))
+			end
+		end
+	end
+
+	slot6 = function(slot0)
+		if not slot0 then
+			return
+		end
+
+		table.insert(uv1, string.format(ResPathSupport.ConstPath.BG.ShipCard, slot0:rarity2bgPrint(uv0)))
+
+		slot2, slot3 = slot0:GetFrameAndEffect(true)
+
+		if noEmptyStr(slot3) then
+			table.insert(uv1, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Effect, slot3))
+		end
+	end
+
+	slot7 = function(slot0)
+		uv0(getProxy(BayProxy):GetShipPhantom(slot0))
+	end
+
+	for slot11, slot12 in ipairs(getProxy(PlayerProxy):getRawData():GetShipPhantomMarks()) do
+		slot7(slot12)
+		slot5(slot12)
+	end
+
+	for slot11, slot12 in ipairs(getProxy(SettingsProxy):GetRandomFlagShipList()) do
+		slot7(slot12)
+		slot5(slot12)
+	end
+
+	if getProxy(PlayerProxy):getRawData():ExistEducateChar() then
+		table.insert(slot3, "painting/" .. VirtualEducateCharShip.New(slot8:GetEducateCharacter()):getPainting())
+	end
+
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(slot3, slot2))
+end
+
 slot0.UpdateCard = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.cards[uv0]) do
 		if isActive(slot7._tf) and slot7.displayShip and slot7.displayShip:GetShipPhantomMark() == slot1 then

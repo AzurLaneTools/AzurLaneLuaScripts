@@ -1290,6 +1290,7 @@ pg.activity_template.all = {
 	51156,
 	51157,
 	51161,
+	51162,
 	51160,
 	7104,
 	7305,
@@ -2485,6 +2486,7 @@ pg.activity_template.all = {
 	45925,
 	45926,
 	45927,
+	45928,
 	970000,
 	970001,
 	970002,
@@ -3163,6 +3165,7 @@ pg.activity_template.get_id_list_by_type = {
 		51145,
 		51154,
 		51156,
+		51162,
 		1103,
 		1104,
 		1105,
@@ -4334,7 +4337,8 @@ pg.activity_template.get_id_list_by_type = {
 		45924,
 		45925,
 		45926,
-		45927
+		45927,
+		45928
 	},
 	[55] = {
 		4875,
@@ -62742,6 +62746,48 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[51162] = {
+		mark = 20260930,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51162,
+		page_core = "",
+		config_data = {
+			27609
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.activity_template[51160] = {
 		mark = 20260910,
 		page_info = "",
@@ -62827,6 +62873,8 @@ end)()
 			12041,
 			12042,
 			12043,
+			12044,
+			12045,
 			12048
 		},
 		config_client = {
@@ -63512,6 +63560,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[8040] = {
 		mark = 20241214,
 		time = "stop",
@@ -63529,8 +63579,6 @@ end)()
 			ui_name = "NewServerLoginPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[8041] = {
 		mark = 20241214,
 		page_info = "",
@@ -67303,6 +67351,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40157] = {
 		mark = 20200813,
 		time = "stop",
@@ -67344,8 +67394,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40158] = {
 		mark = 20200813,
 		page_info = "",
@@ -70033,6 +70081,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40258] = {
 		mark = 20210225,
 		page_info = "",
@@ -70059,8 +70109,6 @@ end)()
 			15378
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40259] = {
 		mark = 20210225,
 		page_info = "",
@@ -73168,6 +73216,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40359] = {
 		mark = 20210708,
 		page_info = "",
@@ -73189,8 +73239,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40360] = {
 		mark = 20210708,
 		time = "stop",
@@ -77266,6 +77314,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40463] = {
 		mark = 20211028,
 		page_info = "",
@@ -77308,8 +77358,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40464] = {
 		mark = 20211028,
 		page_info = "",
@@ -80990,6 +81038,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40566] = {
 		mark = 20220224,
 		page_info = "",
@@ -81006,8 +81056,6 @@ end)()
 			16419
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40567] = {
 		mark = 20220224,
 		page_info = "",
@@ -84158,6 +84206,8 @@ end)()
 			linkPTActID = 40709
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40713] = {
 		mark = 20220714,
 		page_info = "",
@@ -84174,8 +84224,6 @@ end)()
 			16080
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40714] = {
 		mark = 20220714,
 		page_info = "",
@@ -86438,6 +86486,8 @@ end)()
 			ui_name = "USSkirmishRePage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40905] = {
 		mark = 20221027,
 		page_info = "",
@@ -86454,8 +86504,6 @@ end)()
 			80363
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40906] = {
 		mark = 20221027,
 		time = "stop",
@@ -89513,6 +89561,8 @@ end)()
 			ui_name = "Monopoly3thRePage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41038] = {
 		mark = 20230118,
 		page_info = "",
@@ -89542,8 +89592,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41039] = {
 		mark = 20230118,
 		page_info = "",
@@ -92827,6 +92875,8 @@ end)()
 			ui_name = "For2022DaysLoginPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41186] = {
 		mark = 20230601,
 		type = 13,
@@ -92870,8 +92920,6 @@ end)()
 			ui_name = "SixAnniversaryPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41187] = {
 		mark = 20230601,
 		time = "stop",
@@ -96638,6 +96686,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41322] = {
 		mark = 20230914,
 		type = 12,
@@ -96690,8 +96740,6 @@ end)()
 			entrance_bg = "activitybanner/temp10"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41323] = {
 		mark = 20230914,
 		page_info = "",
@@ -100819,6 +100867,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[45045] = {
 		mark = 20241219,
 		time = "stop",
@@ -100849,8 +100899,6 @@ end)()
 			ui_name = "ShipTaskLotteryPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[45046] = {
 		mark = 20241219,
 		page_info = "",
@@ -105257,6 +105305,59 @@ end)()
 			ui_name = "CrusingDisplayActPage28"
 		}
 	}
+	pg.base.activity_template[45928] = {
+		mark = 20260930,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 45928,
+		page_core = "",
+		config_data = {
+			280,
+			281,
+			282,
+			283,
+			284,
+			285,
+			286,
+			287,
+			288
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage2",
+			ui_name = "CrusingDisplayActPage29"
+		}
+	}
 	pg.base.activity_template[970000] = {
 		mark = 20260730,
 		page_info = "",
@@ -106032,6 +106133,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990015] = {
 		mark = 20260319,
 		page_info = "",
@@ -106114,8 +106217,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990017] = {
 		mark = 20260507,
 		page_info = "",

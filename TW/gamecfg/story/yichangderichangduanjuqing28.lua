@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "最近一直和指揮官待在一起，離開水面的時間好像有點久，皮膚也變乾了……",
 			typewriter = {
 				speed = 0.05,
@@ -16,11 +17,12 @@ return {
 			}
 		},
 		{
-			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 201191,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指揮官，要不要跟我一起去游泳？",
 			typewriter = {
 				speed = 0.05,
@@ -40,10 +42,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 201191,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "那太好了，我們現在就出發吧。",
 			typewriter = {
@@ -54,10 +57,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 201191,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "放心，我會保護好你的安全，不會讓你溺水的。",
 			typewriter = {
@@ -66,12 +70,13 @@ return {
 			}
 		},
 		{
-			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 201191,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "溫泉……也可以。",
 			typewriter = {
 				speed = 0.05,
@@ -79,12 +84,13 @@ return {
 			}
 		},
 		{
-			actor = 201191,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 201191,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "只是那邊稍微有點熱……去之前，我們先去買些冰棒吧。",
 			typewriter = {
 				speed = 0.05,

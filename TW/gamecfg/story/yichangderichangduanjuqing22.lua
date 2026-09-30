@@ -5,10 +5,11 @@ return {
 	scripts = {
 		{
 			actor = 299035,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "親~愛~的~看上面哦~",
 			typewriter = {
 				speed = 0.05,
@@ -17,10 +18,11 @@ return {
 		},
 		{
 			actor = 299035,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "歡迎來到柴郡的童話書迷宮！",
 			typewriter = {
 				speed = 0.05,
@@ -28,11 +30,12 @@ return {
 			}
 		},
 		{
-			actor = 299035,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 299035,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "不陪我玩個盡興的話，可是沒辦法離開的哦？",
 			typewriter = {
 				speed = 0.05,
@@ -50,12 +53,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 299035,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "嘿嘿，太好！親愛的果然最寵我了~",
 			typewriter = {
 				speed = 0.05,
@@ -65,10 +69,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "工作？哼！",
 			typewriter = {
@@ -79,10 +84,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 299035,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "現在難道還有比「讓柴郡開心」更重要的工作嗎？",
 			typewriter = {

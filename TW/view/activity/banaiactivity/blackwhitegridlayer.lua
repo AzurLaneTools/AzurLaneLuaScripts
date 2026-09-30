@@ -912,6 +912,15 @@ slot0.getUIName = function(slot0)
 	return "BlackWhiteGridUI"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	table.insert(slot1, "ui/blackwhitegrid_atlas")
+	table.insert(slot1, "clutter/blackwhite_bg")
+
+	return slot1
+end
+
 slot0.preload = function(slot0, slot1)
 	slot2 = {}
 

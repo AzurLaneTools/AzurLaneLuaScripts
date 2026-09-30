@@ -95,11 +95,7 @@ slot0.update = function(slot0, slot1)
 	setActive(slot0.storyIconFrame, slot1:getConfig("story_id") and slot4 ~= "" and not slot5)
 
 	if slot4 and slot4 ~= "" then
-		if not slot1:getConfig("story_icon") or slot6 == "" then
-			slot6 = "task_icon_default"
-		end
-
-		LoadSpriteAsync("shipmodels/" .. slot6, function (slot0)
+		LoadSpriteAsync((not slot1:getConfig("story_icon") or slot6 == "") and "memoryicon/task_icon_default" or "shipmodels/" .. slot6, function (slot0)
 			if slot0 then
 				setImageSprite(uv0.storyIcon, slot0, true)
 				uv0:UpdateStoryIconPosition(uv1)

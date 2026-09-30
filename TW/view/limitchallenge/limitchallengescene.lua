@@ -5,6 +5,71 @@ slot0.getUIName = function(slot0)
 	return "LimitChallengeUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"weaponframes"
+	}
+
+	table.insertto(slot2, slot0:getLimitChallengeResList())
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.getLimitChallengeResList = function(slot0)
+	slot1 = {}
+
+	if not (pg.constellation_challenge_month and uv0.GetCurMonthConfig()) then
+		return slot1
+	end
+
+	slot3 = ipairs
+	slot4 = slot2.stage or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		if pg.expedition_constellation_challenge_template[slot7] then
+			table.insert(slot1, "limitchallenge/boss/" .. slot8.painting)
+			table.insert(slot1, "limitchallenge/name/" .. slot8.information_icon)
+
+			slot12 = slot8.button_style
+
+			table.insert(slot1, "limitchallenge/btn/" .. slot12 .. "_btn_start")
+
+			for slot12 = 1, 3 do
+				table.insert(slot1, "limitchallenge/btn/" .. string.format("%d_level_%d_selected", slot8.button_style, slot12))
+			end
+
+			slot9 = ipairs
+			slot10 = slot8.description or {}
+
+			for slot12, slot13 in slot9(slot10) do
+				if slot13 then
+					table.insert(slot1, slot0:getBuffIconPath(slot7, slot12))
+				end
+			end
+
+			table.insertto(slot1, slot0:getAwardResList(slot8.award_display and slot8.award_display[1]))
+		end
+	end
+
+	return slot1
+end
+
+slot0.getAwardResList = function(slot0, slot1)
+	slot2 = {}
+
+	if not slot1 or #slot1 == 0 then
+		return slot2
+	end
+
+	if slot1[1] == DROP_TYPE_ICON_FRAME then
+		table.insert(slot2, "Props/icon_frame")
+	elseif slot3 == DROP_TYPE_CHAT_FRAME then
+		table.insert(slot2, "Props/chat_frame")
+	end
+
+	return slot2
+end
+
 slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()

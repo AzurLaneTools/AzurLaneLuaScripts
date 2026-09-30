@@ -3,14 +3,22 @@ slot0 = ResPathSupport
 slot0.ConstPath = {
 	BG = {}
 }
+slot0.ConstPath.BG.Base = "bg"
 slot0.ConstPath.BG.CommonBG = "commonbg"
 slot0.ConstPath.BG.ShipRarityBG = "bg/star_level_bg_%s%s"
 slot0.ConstPath.BG.ShipRarityUI = "ui/star_level_bg_%s%s"
+slot0.ConstPath.BG.ShipRarityEffect = "ui/al_bg02_%s"
+slot0.ConstPath.BG.ShipCard = "bg/star_level_card_%s"
 slot0.ConstPath.BG.ShipBGFixList = {
 	"",
 	"_0",
 	"_1"
 }
+slot0.ConstPath.BG.LoadingBGList = {
+	"loadingbg",
+	"loadingbg_hx"
+}
+slot0.ConstPath.BG.LoadingBG = "loadingbg"
 slot0.ConstPath.Sound = {
 	Default = "cue/%s.b",
 	BGM = "cue/bgm-%s.b"
@@ -31,6 +39,11 @@ slot0.ConstPath.Painting = {
 		"_shophx",
 		"_wjz",
 		"_wjz_hx"
+	},
+	ShopFixList = {
+		"",
+		"_hx",
+		"_shophx"
 	}
 }
 slot0.ConstPath.PaintingFace = {
@@ -102,12 +115,57 @@ slot0.ConstPath.SpineModel = {
 		"_r"
 	}
 }
+slot0.ConstPath.Ship = {
+	Rarity = {}
+}
+slot0.ConstPath.Ship.Rarity.NewShipBG = "newshipbg/bg_%s"
+slot0.ConstPath.Ship.Rarity.EffectDesign = "raritydesign/%s"
+slot0.ConstPath.Ship.Rarity.EffectMeta = "raritymeta/%s"
+slot0.ConstPath.Ship.Rarity.ShipRarity = "shiprarity/%s%s%s"
+slot0.ConstPath.Ship.Rarity.ShipRarityFixList1 = {
+	"",
+	"0",
+	"1"
+}
+slot0.ConstPath.Ship.Rarity.ShipRarityFixList2 = {
+	"m",
+	"s"
+}
+slot0.ConstPath.Ship.Rarity.GetRole = "ui/getrole_%s%s"
+slot0.ConstPath.Ship.Rarity.GetRoleFixList = {
+	"",
+	"_1",
+	"_2"
+}
+slot0.ConstPath.Ship.Nation = {
+	Prints = "prints/%s%s",
+	PrintsFixList = {
+		"_0"
+	}
+}
+slot0.ConstPath.Commander = {
+	CommanderHrz = "commanderhrz",
+	CommanderSkillIcon = "commanderskillicon"
+}
+slot0.ConstPath.Equipment = {
+	Equip = "equips"
+}
+slot0.ConstPath.LevelMap = "levelmap"
+slot0.ConstPath.ChapterPic = "chapter/pic"
+slot0.ConstPath.Enemies = "enemies"
+slot0.ConstPath.StrategyIcon = "strategyicon"
+slot0.ConstPath.FurnitureIcon = "furnitureicon"
 slot0.ConstPath.UI = {
 	Base = "ui",
+	Atlas = "_atlas",
 	LivingAreaCover = "livingareacover",
 	ActivityBanner = "activitybanner",
 	LinkButton = "linkbutton",
-	ShipSkillIcon = "skillicon"
+	ShipSkillIcon = "skillicon",
+	Effect = "effect",
+	ShipModelBuliding = "ui/shipmodelbuliding",
+	BuildPainting = "ui/buildpainting",
+	IconFrame = "iconframe"
 }
 
 slot0.MergeLuaArr = function(...)
@@ -124,6 +182,22 @@ slot0.MergeLuaArr = function(...)
 	end
 
 	return slot0
+end
+
+slot0.UniqueLuaArr = function(slot0)
+	slot1 = {}
+	slot2 = {}
+
+	if slot0 then
+		for slot6 = 1, #slot0 do
+			if slot0[slot6] and slot7 ~= "" and not slot2[slot7] then
+				slot2[slot7] = true
+				slot1[#slot1 + 1] = slot7
+			end
+		end
+	end
+
+	return slot1
 end
 
 slot0.CombinePath = function(...)
@@ -150,10 +224,6 @@ end
 
 slot0.GetShipRarityBgList = function(slot0)
 	slot2 = pg.ship_data_statistics[slot0].rarity
-	slot3 = {
-		slot2,
-		slot2 + 1
-	}
 	slot4 = uv0.ConstPath.BG.ShipBGFixList
 
 	_.each({
@@ -161,10 +231,20 @@ slot0.GetShipRarityBgList = function(slot0)
 		uv0.ConstPath.BG.ShipRarityUI
 	}, function (slot0)
 		_.each(uv0, function (slot0)
+			slot1 = shipRarity2bgPrint(slot0, false, false)
+
 			_.each(uv0, function (slot0)
 				table.insert(uv0, string.lower(string.format(uv1, uv2, slot0)))
 			end)
 		end)
+	end)
+	_.each({
+		slot2,
+		slot2 + 1
+	}, function (slot0)
+		if slot0 > 2 then
+			table.insert(uv0, string.lower(string.format(uv1.ConstPath.BG.ShipRarityEffect, slot0 - 1)))
+		end
 	end)
 
 	return {}
@@ -253,7 +333,21 @@ slot0.GetPaintingListByPaintingName = function(slot0)
 
 	if slot0 and #slot0 > 0 then
 		_.each(slot2, function (slot0)
-			table.insert(uv0, string.lower(string.format(uv1, uv2, slot0)))
+			table.insert(uv2, string.lower(string.format(uv0, uv1, slot0)))
+		end)
+	end
+
+	return slot3
+end
+
+slot0.GetShopPaintingListByPaintingName = function(slot0)
+	slot1 = uv0.ConstPath.Painting.Base
+	slot2 = uv0.ConstPath.Painting.ShopFixList
+	slot3 = {}
+
+	if slot0 and #slot0 > 0 then
+		_.each(slot2, function (slot0)
+			table.insert(uv2, string.lower(string.format(uv0, uv1, slot0)))
 		end)
 	end
 
@@ -369,15 +463,22 @@ slot0.GetShipSkinSpineCharList = function(slot0)
 	return {}
 end
 
-slot0.GetShipSkinLive2DList = function(slot0)
+slot0.GetShipSkinLive2DListByPaintingName = function(slot0)
 	slot1 = uv0.ConstPath.Live2D.Base
-	slot4 = pg.ship_skin_template[slot0].painting
+	slot2 = uv0.ConstPath.Live2D.FixList
+	slot3 = {}
 
-	_.each(uv0.ConstPath.Live2D.FixList, function (slot0)
-		table.insert(uv0, string.format(uv1, uv2, slot0))
-	end)
+	if slot0 and #slot0 > 0 then
+		_.each(slot2, function (slot0)
+			table.insert(uv0, string.format(uv1, uv2, slot0))
+		end)
+	end
 
-	return {}
+	return slot3
+end
+
+slot0.GetShipSkinLive2DList = function(slot0)
+	return uv0.GetShipSkinLive2DListByPaintingName(pg.ship_skin_template[slot0].painting)
 end
 
 slot0.GetShipSkinSpinePaintingList = function(slot0)
@@ -421,5 +522,5 @@ slot0.GetShipAllRes = function(slot0)
 		"ui/lihui_qiehuan01",
 		"ui/lihui_qiehuan02",
 		"effect/jiehuntexiao"
-	}, uv0.GetShipRarityBgList(slot1), uv0.GetShipSkinBgList(slot2), uv0.GetSkillIconList(slot1), uv0.GetShipSkinSoundList(slot2), uv0.GetShipSkinSpineQIconList(slot2), uv0.GetShipSkinSpineShipModelList(slot2), uv0.GetShipSkinSpineCharList(slot2), uv0.GetShipSkinSpinePaintingList(slot2), uv0.GetShipSkinPaintingList(slot2), uv0.GetShipSkinPaintingFaceList(slot2), uv0.GetShipSkinPaintingShipYardIconList(slot2), uv0.GetShipSkinPaintingSquareIconList(slot2), uv0.GetShipSkinPaintingHeroHrzIconList(slot2), uv0.GetShipSkinEffectList(slot2))
+	}, uv0.GetShipRarityBgList(slot1), uv0.GetShipSkinBgList(slot2), uv0.GetSkillIconList(slot1), uv0.GetShipSkinSoundList(slot2), uv0.GetShipSkinSpineQIconList(slot2), uv0.GetShipSkinSpineShipModelList(slot2), uv0.GetShipSkinSpineCharList(slot2), uv0.GetShipSkinSpinePaintingList(slot2), uv0.GetShipSkinPaintingList(slot2), uv0.GetShipSkinPaintingFaceList(slot2), uv0.GetShipSkinPaintingShipYardIconList(slot2), uv0.GetShipSkinPaintingSquareIconList(slot2), uv0.GetShipSkinPaintingHeroHrzIconList(slot2), uv0.GetShipSkinEffectList(slot2), uv0.GetShipSkinLive2DList(slot2))
 end

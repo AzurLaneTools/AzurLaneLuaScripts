@@ -2000,6 +2000,16 @@ pg.base.dorm3d_camera_zone_template = {}
 					26004,
 					26005
 				}
+			},
+			{
+				20707,
+				{
+					26006,
+					26007,
+					26008,
+					26009,
+					26010
+				}
 			}
 		},
 		special_furniture = {},

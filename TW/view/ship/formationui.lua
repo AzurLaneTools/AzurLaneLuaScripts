@@ -31,6 +31,46 @@ slot0.preloadUIList = function(slot0)
 	}
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"shiptype",
+		"energy",
+		"shipframeb",
+		"ui/proposeshipcard"
+	}, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.getFleetShipResList = function(slot0, slot1)
+	slot2 = {}
+	slot3 = slot0.shipVOs or {}
+
+	if slot1 then
+		_.each(slot1:getShipIds(), function (slot0)
+			if uv0[slot0] then
+				table.insertto(uv1, ResPathSupport.GetSpineCharListByPrefabName(slot1:getPrefab()))
+
+				if pg.ship_skin_expression[slot1:getPrefab()] then
+					table.insert(uv1, "paintingface/" .. slot1:getPrefab())
+				end
+
+				table.insertto(uv1, ResPathSupport.GetPaintingListByPaintingName(slot1:getPainting()))
+				table.insert(uv1, string.format(ResPathSupport.ConstPath.BG.ShipCard, slot1:rarity2bgPrint()))
+
+				slot5, slot6 = slot1:GetFrameAndEffect(true)
+
+				table.insert(uv1, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Effect, slot6))
+				_.each(slot1:getAttachmentPrefab(), function (slot0)
+					if noEmptyStr(slot0.config and slot1.orbit_ui) then
+						table.insert(uv0, ys.Battle.BattleResourceManager.GetOrbitPath(slot2))
+					end
+				end)
+			end
+		end)
+	end
+
+	return slot2
+end
+
 slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
@@ -174,6 +214,16 @@ slot0.getFleetById = function(slot0, slot1)
 end
 
 slot0.UpdateFleetView = function(slot0, slot1)
+	SplitPackConst.DownloadByLuaArr(slot0:getFleetShipResList(slot0._currentFleetVO), function ()
+		if uv0.exited then
+			return
+		end
+
+		uv0:updateFleetViewAfterResDownload(uv1)
+	end)
+end
+
+slot0.updateFleetViewAfterResDownload = function(slot0, slot1)
 	slot0:displayFleetInfo()
 	slot0:updateFleetBg()
 	slot0._formationLogic:UpdateGridVisibility()
@@ -238,6 +288,12 @@ slot0.quickExitFunc = function(slot0)
 
 		uv0:emit(uv1.ON_HOME)
 	end)
+end
+
+slot0.OnVisible = function(slot0)
+	if slot0._currentFleetVO then
+		slot0:UpdateFleetView(true)
+	end
 end
 
 slot0.didEnter = function(slot0)

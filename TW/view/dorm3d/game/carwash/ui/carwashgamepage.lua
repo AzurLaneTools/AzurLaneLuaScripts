@@ -25,8 +25,6 @@ end
 slot0.InitUI = function(slot0)
 	onButton(slot0, slot0._tf:Find("bottom/btn_shoot"), function ()
 		uv0:emit(CarWashGameFlowSystem.SWITCH_SHOOTING)
-		setActive(uv0._tf:Find("bottom/btn_shoot/on"), uv0.contextData.gameStatus.isShooting)
-		setActive(uv0._tf:Find("bottom/btn_shoot/off"), not uv0.contextData.gameStatus.isShooting)
 	end)
 
 	slot0.gunList = UIItemList.New(slot0._tf:Find("bottom/guns"), slot0._tf:Find("bottom/guns/gun1"))
@@ -114,6 +112,15 @@ slot0.InitUI = function(slot0)
 end
 
 slot0.BindEvent = function(slot0)
+	slot0:bind(CarWashGameFlowSystem.GAME_RESET, function ()
+		uv0:InitConfig()
+		uv0:Flush()
+
+		uv0.needsRelock = true
+	end)
+	slot0:bind(CarWashGameFlowSystem.UPDATE_IS_SHOOTING, function ()
+		uv0:FlushShooting()
+	end)
 	slot0:bind(CarWashGameFlowSystem.UPDATE_COUNTDOWN, function (slot0, slot1)
 		uv0:UpdateTimeText(slot1.remainingSeconds)
 	end)
@@ -139,10 +146,26 @@ slot0.BindEvent = function(slot0)
 	slot0:bind(CarWashGameFlowSystem.UPDATE_GAME_STATE, function (slot0, slot1)
 		if slot1.newValue == CarWashConst.GAME_STATE.PHASE_1 then
 			uv0:Show()
+
+			if uv0.needsRelock then
+				uv0.needsRelock = false
+
+				uv0:PlayRelockAnim()
+			end
 		elseif slot1.newValue == CarWashConst.GAME_STATE.PHASE_2 or slot1.newValue == CarWashConst.GAME_STATE.END then
 			uv0:Hide()
 		end
 	end)
+end
+
+slot0.PlayRelockAnim = function(slot0)
+	slot1 = slot0._tf:Find("left/cams")
+
+	for slot5, slot6 in ipairs(slot0.posUnlock) do
+		if not slot6 then
+			slot1:GetChild(slot5 - 1):GetComponent(typeof(Animation)):Play("anim_Dorm3dCarWashUI_relock")
+		end
+	end
 end
 
 slot0.UpdateTimeText = function(slot0, slot1)
@@ -155,7 +178,13 @@ slot0.FormatTime = function(slot0, slot1)
 	return string.format("%02d:%02d", math.floor(slot1 / 60), slot1 % 60)
 end
 
+slot0.FlushShooting = function(slot0)
+	setActive(slot0._tf:Find("bottom/btn_shoot/on"), slot0.contextData.gameStatus.isShooting)
+	setActive(slot0._tf:Find("bottom/btn_shoot/off"), not slot0.contextData.gameStatus.isShooting)
+end
+
 slot0.Flush = function(slot0)
+	slot0:FlushShooting()
 	slot0.gunList:align(uv0.GUN_COUNT)
 	slot0.camsList:align(#slot0.posConfig)
 	slot0.favorList:align(#slot0.heartBeatDotVals - 1)

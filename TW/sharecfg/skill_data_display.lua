@@ -3656,6 +3656,14 @@ pg.skill_data_display.all = {
 	802121,
 	802131,
 	802132,
+	802181,
+	802182,
+	802183,
+	802191,
+	802201,
+	802202,
+	802205,
+	802207,
 	802141,
 	802142,
 	802145,
@@ -18896,6 +18904,38 @@ end)()
 		id = 802132,
 		name = "狩獵者的警覺"
 	}
+	pg.base.skill_data_display[802181] = {
+		id = 802181,
+		name = "訓誡之鞭"
+	}
+	pg.base.skill_data_display[802182] = {
+		id = 802182,
+		name = "訓誡之鞭"
+	}
+	pg.base.skill_data_display[802183] = {
+		id = 802183,
+		name = "訓誡之鞭"
+	}
+	pg.base.skill_data_display[802191] = {
+		id = 802191,
+		name = "防護器械"
+	}
+	pg.base.skill_data_display[802201] = {
+		id = 802201,
+		name = "逐光之焰·{namecode:421}I"
+	}
+	pg.base.skill_data_display[802202] = {
+		id = 802202,
+		name = "逐光之焰·{namecode:421}II"
+	}
+	pg.base.skill_data_display[802205] = {
+		id = 802205,
+		name = "逐光之焰·{namecode:421}I"
+	}
+	pg.base.skill_data_display[802207] = {
+		id = 802207,
+		name = "逐光之焰·{namecode:421}II"
+	}
 	pg.base.skill_data_display[802141] = {
 		id = 802141,
 		name = "逐光之焰·{namecode:516}I"
@@ -19056,6 +19096,8 @@ end)()
 		id = 1012400,
 		name = "大魚突擊！ +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012401] = {
 		id = 1012401,
 		name = "大魚突擊！ +"
@@ -19088,8 +19130,6 @@ end)()
 		id = 1011871,
 		name = "神射手·改 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1011872] = {
 		id = 1011872,
 		name = "神射手·改 +"
@@ -19458,6 +19498,8 @@ end)()
 		id = 200777,
 		name = "英勇炮擊"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200778] = {
 		id = 200778,
 		name = "命運的槍火"
@@ -19490,8 +19532,6 @@ end)()
 		id = 200831,
 		name = "神聖之光"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200832] = {
 		id = 200832,
 		name = "優醬來我身邊"
@@ -19860,6 +19900,8 @@ end)()
 		id = 201454,
 		name = "超越世界·限制解除"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201462] = {
 		id = 201462,
 		name = "核心等級Lv3"
@@ -19892,8 +19934,6 @@ end)()
 		id = 201527,
 		name = "天原加護-羽"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201528] = {
 		id = 201528,
 		name = "天原加護-羽"
@@ -20262,6 +20302,8 @@ end)()
 		id = 1011942,
 		name = "天與海的觀測者 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012160] = {
 		id = 1012160,
 		name = "日不落的輝光 +"
@@ -20294,8 +20336,6 @@ end)()
 		id = 1005081,
 		name = "騎士之劍 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1005082] = {
 		id = 1005082,
 		name = "騎士之劍 +"
@@ -20664,6 +20704,8 @@ end)()
 		id = 1013471,
 		name = "砥柱下的應援 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1013473] = {
 		id = 1013473,
 		name = "Star Expecto Patronum"
@@ -20696,8 +20738,6 @@ end)()
 		id = 1014993,
 		name = "火舌飛舞III +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1014995] = {
 		id = 1014995,
 		name = "火舌飛舞 +"
@@ -21066,6 +21106,8 @@ end)()
 		id = 1090410,
 		name = "战术记录:噬啮之颚"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090420] = {
 		id = 1090420,
 		name = "火力全开·威严"
@@ -21098,8 +21140,6 @@ end)()
 		id = 1090452,
 		name = "无敌？烟雾弹"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090453] = {
 		id = 1090453,
 		name = "集火信号-鱼雷·无敌"

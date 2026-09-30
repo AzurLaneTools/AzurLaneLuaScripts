@@ -92,6 +92,10 @@ pg.ship_meta_breakout.all = {
 	9702112,
 	9702113,
 	9702114,
+	9702121,
+	9702122,
+	9702123,
+	9702124,
 	9703011,
 	9703012,
 	9703013,
@@ -1639,6 +1643,69 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
+	pg.base.ship_meta_breakout[9702121] = {
+		breakout_view = "習得技能【逐光之焰·{namecode:421}】/全武器效率提高2%",
+		item2 = 21060,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9702122,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702121,
+		item1 = 21060,
+		level = 10,
+		weapon_ids = {
+			80631
+		}
+	}
+	pg.base.ship_meta_breakout[9702122] = {
+		breakout_view = "魚雷底座+1/魚雷預裝填+1/全武器效率提高3%",
+		item2 = 21060,
+		pre_id = 9702121,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9702123,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9702122,
+		item1 = 21060,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	}
+	pg.base.ship_meta_breakout[9702123] = {
+		breakout_view = "【逐光之焰·{namecode:421}】升級/全武器效率提高5%",
+		item2 = 21060,
+		pre_id = 9702122,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9702124,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9702123,
+		item1 = 21060,
+		level = 70,
+		weapon_ids = {
+			80632
+		}
+	}
+	pg.base.ship_meta_breakout[9702124] = {
+		breakout_view = "無",
+		item2 = 21060,
+		pre_id = 9702123,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9702124,
+		item1 = 21060,
+		level = 0,
+		weapon_ids = {}
+	}
 	pg.base.ship_meta_breakout[9703011] = {
 		breakout_view = "習得技能【搖曳之火·特倫托】/主炮效率提高5%",
 		item2 = 21001,
@@ -1765,6 +1832,8 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9703031] = {
 		breakout_view = "習得技能【逐光之焰·福煦】/主炮效率提高5%",
 		item2 = 21001,
@@ -1828,8 +1897,6 @@ pg.base.ship_meta_breakout = {}
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9703041] = {
 		breakout_view = "習得技能【破敵之炬·威奇塔】/主炮效率提高5%",
 		item2 = 21001,
@@ -3429,6 +3496,8 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
+end)()
+(function ()
 	pg.base.ship_meta_breakout[9707011] = {
 		breakout_view = "習得技能【破敵之炬·{namecode:94}】/所有魚雷機+1/魚雷機效率提高5%",
 		item2 = 21001,
@@ -3498,8 +3567,6 @@ end)()
 		level = 0,
 		weapon_ids = {}
 	}
-end)()
-(function ()
 	pg.base.ship_meta_breakout[9707021] = {
 		breakout_view = "習得技能【破敵之炬·皇家方舟】/所有魚雷機+1/魚雷機效率提高3%",
 		item2 = 21002,

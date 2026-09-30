@@ -5,9 +5,10 @@ return {
 	scripts = {
 		{
 			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
+			side = 2,
 			say = "一同在小巷中巡邏時，忽然有夜風穿過，獅抬手摀住了臉。",
 			typewriter = {
 				speed = 0.05,
@@ -16,10 +17,11 @@ return {
 		},
 		{
 			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "嘖，這風把我的口罩吹走了……",
 			typewriter = {
 				speed = 0.05,
@@ -27,11 +29,12 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指揮官，你剛才……看到什麼了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -51,10 +54,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "真會說話~",
 			typewriter = {
@@ -65,10 +69,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 205162,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "既然你都這麼說了——那等到我靠近你的時候，可不許躲開哦？",
 			typewriter = {
@@ -77,12 +82,13 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "是嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -90,12 +96,13 @@ return {
 			}
 		},
 		{
-			actor = 205162,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 205162,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "呵呵……那就好。",
 			typewriter = {
 				speed = 0.05,

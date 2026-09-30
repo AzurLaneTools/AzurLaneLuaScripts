@@ -5,11 +5,12 @@ return {
 	scripts = {
 		{
 			expression = 3,
-			nameColor = "#A9F548FF",
-			actor = 900561,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "悄悄靠近……嚇你一跳，嘿！",
 			typewriter = {
 				speed = 0.05,
@@ -18,11 +19,12 @@ return {
 		},
 		{
 			expression = 4,
-			nameColor = "#A9F548FF",
-			actor = 900561,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指揮官完全沒有沒嚇到哦，好厲害~",
 			typewriter = {
 				speed = 0.05,
@@ -32,9 +34,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "這麼晚了，您還在這裡徘徊……是在找什麼嗎？",
 			typewriter = {
@@ -55,10 +58,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "原來是在找我嗎？好高興~",
 			typewriter = {
@@ -69,10 +73,11 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官想跟我一起做些什麼呢？",
 			typewriter = {
@@ -83,10 +88,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "要是您需要什麼的話，可以隨時呼喚我哦~",
 			typewriter = {

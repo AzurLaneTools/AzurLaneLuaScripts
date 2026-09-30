@@ -17,6 +17,7 @@ pg.item_data_battleui.all = {
 	112,
 	113,
 	114,
+	115,
 	201,
 	202,
 	203,
@@ -235,6 +236,21 @@ pg.base.item_data_battleui = {}
 		desc = "翠綠藤蔓在介面邊生長，精靈微光於葉片間明滅，讓每一次交鋒都染上古老森林的神秘與生機。",
 		id = 114,
 		icon = "114",
+		scene = {},
+		rare_display = {
+			1
+		}
+	}
+	pg.base.item_data_battleui[115] = {
+		name = "蒼核回響",
+		key = "SkinNormal_20260528",
+		display_icon = "ui_115",
+		unlock = "世界巡遊二十九期獲取",
+		is_unlock = 1,
+		rare = 3,
+		desc = "鏽蝕的機械心臟再次搏動，蒼核的餘音回蕩在介面之間，讓每一次出擊都攜帶著古老文明的回響。",
+		id = 115,
+		icon = "115",
 		scene = {},
 		rare_display = {
 			1

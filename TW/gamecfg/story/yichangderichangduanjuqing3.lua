@@ -5,11 +5,12 @@ return {
 	scripts = {
 		{
 			expression = 2,
-			nameColor = "#A9F548FF",
-			actor = 202381,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指揮官，你有沒有發現，最近我的翅膀，好像沒有從前那樣明亮了……",
 			typewriter = {
 				speed = 0.05,
@@ -19,9 +20,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "你知道這是為什麼嗎？",
 			typewriter = {
@@ -40,12 +42,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "最近的確有些睡眠不足……",
 			typewriter = {
 				speed = 0.05,
@@ -53,12 +56,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "星辰的光輝，也會因為疲勞而變得黯淡呢。",
 			typewriter = {
 				speed = 0.05,
@@ -68,10 +72,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "為了讓羽翼重新煥發光彩，來陪我一起補眠吧？",
 			typewriter = {
@@ -80,12 +85,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "原來如此……",
 			typewriter = {
 				speed = 0.05,
@@ -93,12 +99,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "也許真的是我多心了呢。",
 			typewriter = {
 				speed = 0.05,

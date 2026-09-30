@@ -35,6 +35,35 @@ slot0.preload = function(slot0, slot1)
 	parallelAsync(slot3, slot1)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2 = {}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	if getProxy(ActivityProxy):getActivityById(slot0.contextData.actId) and not slot4:isEnd() then
+		slot5 = ipairs
+		slot6 = slot4:getConfig("config_data")[1] or {}
+
+		for slot8, slot9 in slot5(slot6) do
+			slot3("actgiftpackages/skin_card_name_" .. slot9)
+			slot3("actgiftpackages/skin_card_" .. slot9)
+		end
+	end
+
+	for slot8, slot9 in ipairs(slot2) do
+		if not table.contains(slot1, slot9) then
+			table.insert(slot1, slot9)
+		end
+	end
+
+	return slot1
+end
+
 slot0.init = function(slot0)
 	setText(slot0.rtTip:Find("Text"), i18n("black5_bundle_desc"))
 	setText(slot0.rtAward:Find("word/Text"), i18n("black5_bundle_tip"))

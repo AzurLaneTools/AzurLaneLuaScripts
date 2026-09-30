@@ -28,7 +28,11 @@ pg.dorm3d_ins_npc_template.all = {
 	23,
 	24,
 	25,
-	26
+	26,
+	27,
+	28,
+	29,
+	30
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_npc_template = {}
@@ -215,5 +219,33 @@ pg.base.dorm3d_ins_npc_template = {}
 		time = 10,
 		npc_reply = "",
 		id = 26
+	}
+	pg.base.dorm3d_ins_npc_template[27] = {
+		ship_group = 20707,
+		message = "yuanchou_1_1_1",
+		time = 30,
+		npc_reply = "",
+		id = 27
+	}
+	pg.base.dorm3d_ins_npc_template[28] = {
+		ship_group = 20707,
+		message = "yuanchou_1_2_1",
+		time = 10,
+		npc_reply = "",
+		id = 28
+	}
+	pg.base.dorm3d_ins_npc_template[29] = {
+		ship_group = 20707,
+		message = "yuanchou_2_1_1",
+		time = 30,
+		npc_reply = "",
+		id = 29
+	}
+	pg.base.dorm3d_ins_npc_template[30] = {
+		ship_group = 20707,
+		message = "yuanchou_2_2_1",
+		time = 10,
+		npc_reply = "",
+		id = 30
 	}
 end)()

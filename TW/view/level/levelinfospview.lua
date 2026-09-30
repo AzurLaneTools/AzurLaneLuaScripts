@@ -4,6 +4,12 @@ slot0.getUIName = function(slot0)
 	return "LevelInfoSPUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"ui/levelmainscene_atlas"
+	}, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.InitUI = function(slot0)
 	uv0.super.InitUI(slot0)
 
@@ -74,10 +80,9 @@ slot0.Show = function(slot0)
 	quickPlayAnimation(slot0._tf, "Anim_LevelInfoSPUI_in")
 end
 
-slot0.set = function(slot0, slot1, slot2)
-	uv0.super.set(slot0, slot1, slot2)
+slot0.setAfterResDownload = function(slot0, slot1, slot2, slot3)
+	uv0.super.setAfterResDownload(slot0, slot1, slot2, slot3)
 
-	slot3 = getProxy(ChapterProxy):getChapterById(slot1, true)
 	slot4 = slot0.groupInfo
 
 	assert(slot4)

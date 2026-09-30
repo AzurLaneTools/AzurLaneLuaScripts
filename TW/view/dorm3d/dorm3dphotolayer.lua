@@ -1028,7 +1028,7 @@ slot0.UpdateCameraPanel = function(slot0)
 end
 
 slot0.RefreshCamera = function(slot0)
-	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SettingCamera", slot0.cameraSettings)
+	slot0.scene:emit(Dorm3dLightingSystem.SET_CAMERA_SETTINGS, slot0.cameraSettings)
 end
 
 slot0.SetAllAnimSpeed = function(slot0, slot1)
@@ -1126,12 +1126,12 @@ slot0.UpdateLightingPanel = function(slot0)
 
 	slot2 = function()
 		if not uv0.settingFilterIndex then
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
+			uv0.scene:emit(Dorm3dLightingSystem.REVERT_VOLUME_PROFILE)
 
 			return
 		end
 
-		uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetVolumeProfile", pg.dorm3d_camera_volume_template[uv1[uv0.settingFilterIndex]].volume, uv0.settingFilterStrength)
+		uv0.scene:emit(Dorm3dLightingSystem.SET_VOLUME_PROFILE, pg.dorm3d_camera_volume_template[uv1[uv0.settingFilterIndex]].volume, uv0.settingFilterStrength)
 	end
 
 	UIItemList.StaticAlign(slot0.panelLightning:Find("Layout/Filter/List"), slot0.panelLightning:Find("Layout/Filter/List"):GetChild(0), #slot1, function (slot0, slot1, slot2)
@@ -1276,9 +1276,9 @@ slot0.willExit = function(slot0)
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetSceneItemAnimators")
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharacterExtraItem")
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetTempHideSceneItems")
-	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterLight")
-	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
-	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCameraSettings")
+	slot0.scene:emit(Dorm3dLightingSystem.REVERT_CHARACTER_LIGHT)
+	slot0.scene:emit(Dorm3dLightingSystem.REVERT_VOLUME_PROFILE)
+	slot0.scene:emit(Dorm3dLightingSystem.REVERT_CAMERA_SETTINGS)
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ExitPhotoMode")
 end
 

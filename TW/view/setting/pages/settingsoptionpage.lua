@@ -102,17 +102,25 @@ end
 slot0.OnInitPanle = function(slot0)
 	if slot0.contextData.scroll then
 		slot1 = nil
-		slot1 = (slot0.contextData.scroll ~= "world_settings" or slot0:GetPanel(SettingsWorldPanle)) and slot0:GetPanel(slot0.contextData.scroll)
+		slot2 = slot0.contextData.extraOffset
 
-		if slot0:GetPanel(slot0.contextData.scroll) then
-			slot0:ScrollToPanel(slot1)
+		if (slot0.contextData.scroll ~= "world_settings" or slot0:GetPanel(SettingsWorldPanle)) and slot0:GetPanel(slot0.contextData.scroll) then
+			slot0:RebuildLayout(function ()
+				uv0:ScrollToPanel(uv1, uv2)
+			end)
 		end
 	end
 end
 
-slot0.ScrollToPanel = function(slot0, slot1)
+slot0.ScrollToPanel = function(slot0, slot1, slot2)
+	slot4 = slot0.panelContainer:InverseTransformPoint(slot1._tf.position).y
+
+	if slot2 then
+		slot4 = slot4 - slot2
+	end
+
 	setAnchoredPosition(slot0.panelContainer, {
-		y = -slot0.panelContainer:InverseTransformPoint(slot1._tf.position).y
+		y = -slot4
 	})
 end
 

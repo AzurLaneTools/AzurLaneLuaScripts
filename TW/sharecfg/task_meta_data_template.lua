@@ -364,6 +364,11 @@ pg.task_meta_data_template.all = {
 	100533,
 	100534,
 	100535,
+	100551,
+	100552,
+	100553,
+	100554,
+	100555,
 	100561,
 	100562,
 	100563,
@@ -554,6 +559,10 @@ pg.task_meta_data_template.all = {
 	200442,
 	200443,
 	200444,
+	200461,
+	200462,
+	200463,
+	200464,
 	200471,
 	200472,
 	200473,
@@ -3453,6 +3462,46 @@ end)()
 		target_num = 1,
 		desc = "使用{namecode:552}擊破等級＞100的敵方1次"
 	}
+	pg.base.task_meta_data_template[100551] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100551,
+		target_num = 1,
+		desc = "使用{namecode:555}獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[100552] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100552,
+		target_num = 1,
+		desc = "使用{namecode:555}擊破等級＞30的敵方1次"
+	}
+	pg.base.task_meta_data_template[100553] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100553,
+		target_num = 1,
+		desc = "使用{namecode:555}擊破等級＞55的敵方1次"
+	}
+	pg.base.task_meta_data_template[100554] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100554,
+		target_num = 1,
+		desc = "使用{namecode:555}擊破等級＞80的敵方1次"
+	}
+	pg.base.task_meta_data_template[100555] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970212",
+		id = 100555,
+		target_num = 1,
+		desc = "使用{namecode:555}擊破等級＞100的敵方1次"
+	}
 	pg.base.task_meta_data_template[100561] = {
 		target_id = "0",
 		sub_type = 180,
@@ -3733,6 +3782,8 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用U-556·META獲得1次勝利"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200072] = {
 		target_id = "70",
 		sub_type = 302,
@@ -3773,8 +3824,6 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用女灶神.META擊破等級>70的敵方1次"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200083] = {
 		target_id = "90",
 		sub_type = 302,
@@ -4535,6 +4584,8 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用內華達·META獲得1次勝利"
 	}
+end)()
+(function ()
 	pg.base.task_meta_data_template[200322] = {
 		target_id = "70",
 		sub_type = 302,
@@ -4575,8 +4626,6 @@ end)()
 		target_num = 1,
 		desc = "大型作戰內使用格倫維爾·META擊破等級＞70的敵方1次"
 	}
-end)()
-(function ()
 	pg.base.task_meta_data_template[200333] = {
 		target_id = "90",
 		sub_type = 302,
@@ -4976,6 +5025,38 @@ end)()
 		id = 200444,
 		target_num = 1,
 		desc = "大型作戰內使用{namecode:552}擊破等級＞100的敵方1次"
+	}
+	pg.base.task_meta_data_template[200461] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200461,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:555}獲得1次勝利"
+	}
+	pg.base.task_meta_data_template[200462] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200462,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:555}擊破等級＞70的敵方1次"
+	}
+	pg.base.task_meta_data_template[200463] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200463,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:555}擊破等級＞90的敵方1次"
+	}
+	pg.base.task_meta_data_template[200464] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970212",
+		id = 200464,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:555}擊破等級＞100的敵方1次"
 	}
 	pg.base.task_meta_data_template[200471] = {
 		target_id = "0",

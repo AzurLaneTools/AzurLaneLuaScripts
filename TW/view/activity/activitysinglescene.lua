@@ -5,6 +5,20 @@ slot0.preload = function(slot0, slot1)
 	slot1()
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	if not slot0.contextData.activity and slot0.contextData.id then
+		slot2 = getProxy(ActivityProxy):getActivityById(slot0.contextData.id)
+	end
+
+	if slot2 and not slot2:isEnd() then
+		table.insertto(slot1, slot2:getPageABNames())
+	end
+
+	return slot1
+end
+
 slot0.getUIName = function(slot0)
 	return "ActivitySingleUI"
 end

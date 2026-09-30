@@ -9,13 +9,52 @@ slot1.Ctor = function(slot0)
 	slot0._gcCounter = 0
 end
 
+slot2 = function(slot0, slot1)
+	if not noEmptyStr(nil) and slot0 then
+		slot2 = slot0.__cname
+	end
+
+	if not noEmptyStr(slot2) and slot1 then
+		slot2 = slot1.scene or slot1.mediator and slot1.mediator.__cname or slot1.viewComponent and slot1.viewComponent.__cname
+	end
+
+	return tostring(slot2 or "Unknown")
+end
+
+slot3 = function(slot0, slot1)
+	print(string.format("进入界面: %s", uv0(slot0, slot1)))
+
+	slot3, slot4 = pcall(function ()
+		ReflectionHelp.RefCallMethod(typeof(ResourceMgr), "WriteMarkedShortPathLog", ResourceMgr.Inst, {
+			typeof("System.String")
+		}, {
+			uv0
+		})
+		ReflectionHelp.RefCallMethod(typeof(ResourceMgr), "WriteExtraShortPathFilterLog", ResourceMgr.Inst, {
+			typeof("System.String")
+		}, {
+			uv0
+		})
+	end)
+
+	if not slot3 then
+		warning(string.format("Write ui load log failed: %s", tostring(slot4)))
+	end
+end
+
 slot1.prepare = function(slot0, slot1, slot2, slot3)
 	slot5 = slot2.viewComponent
 	slot6, slot7 = nil
 
 	if slot0._cacheUI[slot2.mediator.__cname] ~= nil then
+		slot7 = slot0._cacheUI[slot4.__cname]
 		slot0._cacheUI[slot4.__cname] = nil
-		slot6 = slot4.New(slot0._cacheUI[slot4.__cname])
+
+		if EDITOR_TOOL then
+			uv0(slot7, slot2)
+		end
+
+		slot6 = slot4.New(slot7)
 
 		slot6:setContextData(slot2.data)
 		slot1:registerMediator(slot6)
@@ -25,6 +64,10 @@ slot1.prepare = function(slot0, slot1, slot2, slot3)
 
 		assert(isa(slot7, BaseUI), "should be an instance of BaseUI: " .. slot7.__cname)
 		slot7:setContextData(slot2.data)
+
+		if EDITOR_TOOL then
+			uv0(slot7, slot2)
+		end
 
 		slot8 = nil
 

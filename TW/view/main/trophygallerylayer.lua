@@ -10,6 +10,60 @@ slot0.getUIName = function(slot0)
 	return "TrophyGalleryUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+		"ui/trophygalleryui",
+		"ui/iconcolorful",
+		"ui/newstyleloveletterrewardmsgboxui"
+	}, (function ()
+		slot0 = {}
+
+		for slot4, slot5 in ipairs(pg.medal_template.all) do
+			slot6 = pg.medal_template[slot5]
+			slot8 = slot6.label
+
+			if slot6.icon and slot7 ~= "" then
+				table.insert(slot0, ResPathSupport.CombinePath("medal", slot7))
+				table.insert(slot0, ResPathSupport.CombinePath("medal", "s_" .. slot7))
+
+				if tonumber(slot7) < 9000 then
+					table.insert(slot0, ResPathSupport.CombinePath("artresource/effect/xunzhang/materials", "xunzhang" .. slot9 - slot9 % 10))
+				else
+					table.insert(slot0, ResPathSupport.CombinePath("artresource/effect/xunzhang/materials", "xunzhang" .. slot9 - slot9 % 10 + 1))
+				end
+			end
+
+			if slot8 and slot8 ~= "" then
+				table.insert(slot0, ResPathSupport.CombinePath("medal", slot8))
+			end
+		end
+
+		return ResPathSupport.UniqueLuaArr(slot0)
+	end)(), (function ()
+		slot0 = {}
+		slot1 = {}
+		slot2 = {}
+
+		for slot6, slot7 in ipairs(pg.lover_character_template.all) do
+			slot8 = pg.lover_character_template[slot7]
+			slot10 = slot8.exp_upper_limit
+
+			if slot8.exp_up and slot9 > 0 and slot10 and slot10 > 0 then
+				for slot16 = 1, math.floor((math.floor(slot10 / slot9) - 1) / 10) + 1 do
+					table.insert(slot0, "lovelettermedal/default_" .. slot16)
+				end
+			end
+		end
+
+		for slot6, slot7 in ipairs(getProxy(LoveLetterProxy):GetDisplayGroupList()) do
+			table.insertto(slot1, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot7:getPainting()))
+			table.insert(slot2, string.format(ResPathSupport.ConstPath.BG.ShipCard, slot7:rarity2bgPrint()))
+		end
+
+		return ResPathSupport.MergeLuaArr(slot1, slot0, slot2)
+	end)())
+end
+
 slot0.setTrophyGroups = function(slot0, slot1)
 	slot0.trophyGroups = slot1
 end

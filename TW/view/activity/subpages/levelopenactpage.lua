@@ -67,7 +67,7 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 
 	setText(slot1:Find("canvas/Text"), slot5)
 
-	slot6 = underscore.rest(slot2:getConfig("award_display"), 1)
+	slot6 = underscore.to_array(slot2:getConfig("award_display"))
 
 	while #slot6 > 3 do
 		table.remove(slot6)

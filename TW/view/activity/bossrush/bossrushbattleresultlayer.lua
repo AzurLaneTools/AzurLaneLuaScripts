@@ -18,6 +18,14 @@ slot0.GetAtalsName = function(slot0)
 	return "ui/battleresult_atlas"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	table.insert(slot1, slot0:GetAtalsName())
+
+	return slot1
+end
+
 slot0.preload = function(slot0, slot1)
 	slot0.loader:LoadBundle(slot0:GetAtalsName())
 	existCall(slot1)
@@ -222,6 +230,8 @@ slot0.didEnter = function(slot0)
 				end
 
 				setText(slot12, "+" .. slot14 + slot3:getExp() - slot4:getExp())
+			elseif slot4.level == slot4:getMaxLevel() then
+				setText(slot12, "+" .. 0)
 			else
 				setText(slot12, "+" .. (slot4.expAdd or 0))
 			end
@@ -350,6 +360,7 @@ slot0.didEnter = function(slot0)
 			slot3 = uv0[slot1 + 1]
 
 			uv2(slot2, slot3, uv1[slot3.index], slot3.index)
+			warning("yzh----RefreshExps--")
 			uv3(slot2:Find("BG/Ships"), slot3.ships, slot3.oldShips, slot3.mvp)
 		end)
 	end

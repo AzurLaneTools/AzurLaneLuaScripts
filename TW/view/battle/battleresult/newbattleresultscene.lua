@@ -8,6 +8,126 @@ slot0.getGroupName = function(slot0)
 	return "BattleScene"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/battleresult_atlas",
+		"battleresultitems/resulteffect",
+		"ui/newbattleresultstatisticspage",
+		"ui/zhandoujiesuan_xingxing",
+		"battleresultitems/ship",
+		"battleresultitems/mvpbg",
+		"battleresultitems/ship",
+		"battleresultitems/mvp",
+		"battleresultitems/metabtn",
+		"battleresultitems/levelup",
+		"battleresultitems/bommander",
+		"battleresultitems/failedpainting"
+	}
+
+	if NewBattleResultYumiaMaterialPage.NeedShowYumiaMaterailDrop(slot0.contextData.drops) then
+		table.insertto(slot2, slot0:GetYumiaMaterialRes(slot1))
+	else
+		table.insertto(slot2, slot0:GetNormalRes(slot1))
+	end
+
+	table.insertto(slot2, uv0.super.getResource(slot0))
+
+	return slot2
+end
+
+slot0.GetYumiaMaterialRes = function(slot0, slot1)
+	slot2 = {}
+
+	table.insertto(slot2, slot0:GetGradePageRes())
+	table.insertto(slot2, slot0:GetDisplayAwardPageRes())
+	table.insertto(slot2, slot0:GetDisplayPaintingsPageRes(slot1))
+	table.insertto(slot2, slot0:GetStatisticsPageRes(slot1))
+	table.insertto(slot2, slot0:GetYumiaMaterialPageRes())
+
+	return slot2
+end
+
+slot0.GetNormalRes = function(slot0, slot1)
+	slot2 = {}
+
+	table.insertto(slot2, slot0:GetGradePageRes())
+	table.insertto(slot2, slot0:GetDisplayAwardPageRes())
+	table.insertto(slot2, slot0:GetDisplayPaintingsPageRes(slot1))
+	table.insertto(slot2, slot0:GetStatisticsPageRes(slot1))
+
+	return slot2
+end
+
+slot0.GetGradePageRes = function(slot0)
+	slot1 = {
+		"ui/newbattleresultgradepage",
+		"battleresultitems/victory",
+		"battleresultitems/failed"
+	}
+
+	for slot6, slot7 in ipairs({
+		"d",
+		"c",
+		"b",
+		"a",
+		"s"
+	}) do
+		table.insert(slot1, "battlescore/battle_score_" .. slot7 .. "/letter_" .. slot7)
+		table.insert(slot1, "battlescore/battle_score_" .. slot7 .. "/label_" .. slot7)
+	end
+
+	table.insert(slot1, "battlescore/battle_score_" .. slot2[2] .. "/label_" .. "flag_destroy")
+
+	return slot1
+end
+
+slot0.GetDisplayAwardPageRes = function(slot0)
+	return {}
+end
+
+slot0.GetDisplayPaintingsPageRes = function(slot0, slot1)
+	slot2 = {
+		"ui/newbattleresultdisplaypaintingspages"
+	}
+
+	for slot7, slot8 in ipairs(slot1.oldMainShips) do
+		slot9 = slot8:getPainting()
+
+		table.insert(slot2, "painting/" .. slot9 .. "_n")
+		table.insert(slot2, "paintingface/" .. slot9)
+		table.insert(slot2, "squareicon/" .. slot9)
+	end
+
+	return slot2
+end
+
+slot0.GetStatisticsPageRes = function(slot0, slot1)
+	slot2 = {
+		"ui/newbattleresultstatisticspage",
+		"battleresultitems/commander",
+		"ui/BattleResultMetaExpUI"
+	}
+
+	for slot7, slot8 in ipairs(slot1.oldMainShips) do
+		table.insert(slot2, "herohrzicon/" .. slot8:getPainting())
+	end
+
+	slot4 = slot1.commanderExps or {}
+	slot5 = slot4.surfaceCMD or slot4.submarineCMD or {}
+
+	for slot9 = 1, #slot5 do
+		table.insert(slot2, "commandericon/" .. getProxy(CommanderProxy):getCommanderById(slot5[slot9].commander_id):getPainting())
+	end
+
+	return slot2
+end
+
+slot0.GetYumiaMaterialPageRes = function(slot0)
+	return {
+		"ui/newbattleresultyumiarewardpages"
+	}
+end
+
 slot0.didEnter = function(slot0)
 	slot0._parentTf = slot0._tf.parent
 

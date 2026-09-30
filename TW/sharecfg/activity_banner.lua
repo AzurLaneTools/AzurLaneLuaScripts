@@ -170,11 +170,8 @@ pg.base.activity_banner = {}
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
@@ -356,14 +353,17 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene court yard"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2026,
 					9,
-					24
+					30
 				},
 				{
 					0,
@@ -390,17 +390,14 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene core activity",
-			{
-				coreName = "ShiningMagicCoreActivityUI"
-			}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2026,
-					9,
-					24
+					10,
+					1
 				},
 				{
 					0,
@@ -412,7 +409,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					14
+					15
 				},
 				{
 					23,

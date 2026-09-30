@@ -4,9 +4,10 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_108",
+			nameColor = "#A9F548FF",
 			bgm = "theme-magicalnight-mystic",
 			actor = 317030,
 			actorName = "一個普通的後勤人員",
@@ -34,8 +35,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			nameColor = "#A9F548FF",
-			actor = 317030,
 			actorName = "一個普通的後勤人員",
+			actor = 317030,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "「人們可以在這裡短暫地忘記痛苦、擁抱快樂，在閉園之前。」",
 			typewriter = {
@@ -44,10 +46,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "夜色中，摩天輪緩緩轉動，彩燈依舊閃耀。但在熱鬧的表像下，尖叫聲正在蔓延。",
 			typewriter = {
 				speed = 0.05,
@@ -55,10 +58,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "貓耳少女坐在園區最高的招牌雕像上，悠閒地晃著腿觀察這片失控的樂園。",
 			typewriter = {
 				speed = 0.05,
@@ -66,13 +70,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#FF9B93",
+			actorName = "？？",
 			side = 2,
 			bgName = "star_level_bg_108",
 			factiontag = "幽影",
 			dir = 1,
+			nameColor = "#FF9B93",
 			actor = 299035,
-			actorName = "？？",
+			NextIcon = 1,
 			say = "你們終於來啦~",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +90,9 @@ return {
 			bgName = "star_level_bg_108",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 299035,
 			nameColor = "#FF9B93",
+			actor = 299035,
+			NextIcon = 1,
 			say = "柴郡還以為，要把氣氛再炒熱一點，你們才會喜歡這裡呢喵！",
 			typewriter = {
 				speed = 0.05,
@@ -99,9 +105,10 @@ return {
 			bgName = "star_level_bg_108",
 			factiontag = "幽影行動員",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "氣氛？這裡都快變成大型事故現場了！",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -118,8 +125,9 @@ return {
 			bgName = "star_level_bg_108",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 299035,
 			nameColor = "#FF9B93",
+			actor = 299035,
+			NextIcon = 1,
 			say = "遊樂園本來就該熱鬧的呀~",
 			typewriter = {
 				speed = 0.05,
@@ -127,12 +135,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_108",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 299035,
+			NextIcon = 1,
 			say = "笑聲也好，尖叫也好，跑來跑去也好——大家都在動，不是很有趣嗎~",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +154,9 @@ return {
 			bgName = "star_level_bg_108",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "她就是嫌這裡之前太無聊了。",
 			typewriter = {
@@ -155,12 +165,13 @@ return {
 			}
 		},
 		{
-			actor = 299035,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_108",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 299035,
+			NextIcon = 1,
 			say = "對嘛對嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +184,9 @@ return {
 			bgName = "star_level_bg_108",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 299035,
 			nameColor = "#FF9B93",
+			actor = 299035,
+			NextIcon = 1,
 			say = "商家老老實實製作含鹽量翻倍的食物，客人們老老實實購買價格翻倍的飲料~大家都太老實啦！",
 			typewriter = {
 				speed = 0.05,
@@ -182,12 +194,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			portrait = "zhihuiguan",
 			side = 2,
+			bgName = "star_level_bg_108",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "所以妳才把這裡弄亂……因為妳覺得，真正的遊樂園本來就應該有點「失控」？",
 			typewriter = {
 				speed = 0.05,
@@ -195,12 +208,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			portrait = "zhihuiguan",
 			side = 2,
+			bgName = "star_level_bg_108",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "也算有趣的想法。",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +227,9 @@ return {
 			bgName = "star_level_bg_108",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 299035,
 			nameColor = "#FF9B93",
+			actor = 299035,
+			NextIcon = 1,
 			say = "咦，親愛的竟然不是來對柴郡說教的嘛？",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +242,9 @@ return {
 			bgName = "star_level_bg_108",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 299035,
 			nameColor = "#FF9B93",
+			actor = 299035,
+			NextIcon = 1,
 			say = "嘿嘿，這下柴郡有點開心了~",
 			typewriter = {
 				speed = 0.05,
@@ -236,10 +252,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "她從高處一躍而下，如同一抹抓不住的影子，在扭曲的光影之間嬉笑著忽隱忽現——",
 			typewriter = {
 				speed = 0.05,

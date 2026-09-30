@@ -1,5 +1,17 @@
 slot0 = class("ActivityPermanentLayer", import("..base.BaseUI"))
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {}
+
+	for slot7, slot8 in ipairs(getProxy(ActivityPermanentProxy):getActivityIdsByType(ActivityPermanentProxy.TYPE_NORMAL_ACTIVITY)) do
+		table.insert(slot2, "activitybanner/" .. pg.activity_task_permanent[slot8].banner_route)
+	end
+
+	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+
+	return slot2
+end
+
 slot0.getUIName = function(slot0)
 	return "ActivitySelectUI"
 end

@@ -4,10 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			bgm = "story-visioncity-1",
 			say = "當收容裝置的輝光最終鎖住獅時，她先是一愣，隨後竟低低笑了起來。",
 			typewriter = {
@@ -21,8 +22,9 @@ return {
 			bgName = "star_level_bg_148",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 205162,
 			nameColor = "#A9F548FF",
+			actor = 205162,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "願賭服輸……這次，是你們贏了。",
 			typewriter = {

@@ -4,6 +4,22 @@ slot0.getUIName = function(slot0)
 	return "LevelStrategyView"
 end
 
+slot0.downloadLevelStrategyRes = function(slot0, slot1, slot2)
+	slot4 = {}
+
+	if pg.strategy_data_template[slot1.id] and noEmptyStr(slot3.icon) then
+		table.insert(slot4, ResPathSupport.CombinePath(ResPathSupport.ConstPath.StrategyIcon, slot3.icon))
+	end
+
+	SplitPackConst.DownloadByLuaArr(slot4, function ()
+		if uv0._state == uv1.STATES.DESTROY then
+			return
+		end
+
+		uv2(uv3)
+	end)
+end
+
 slot0.OnInit = function(slot0)
 	slot0:InitUI()
 	setActive(slot0._tf, true)
@@ -37,8 +53,13 @@ end
 
 slot0.set = function(slot0, slot1)
 	slot0.strategy = slot1
-	slot2 = pg.strategy_data_template[slot1.id]
 
+	slot0:downloadLevelStrategyRes(slot1, function (slot0)
+		uv0:setAfterDownload(uv1, slot0)
+	end)
+end
+
+slot0.setAfterDownload = function(slot0, slot1, slot2)
 	GetImageSpriteFromAtlasAsync("strategyicon/" .. slot2.icon, "", slot0.icon)
 
 	if slot2.type == 1 then

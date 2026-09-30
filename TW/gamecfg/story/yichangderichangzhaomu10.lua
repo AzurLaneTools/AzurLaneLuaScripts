@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "世事如浮雲般無常呢，這次換成你來招攬我了。",
 			typewriter = {
@@ -18,11 +19,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "說吧，要我做什麼？",
 			typewriter = {
@@ -37,12 +39,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "對付那些沒腦子的傢伙？",
 			typewriter = {
 				speed = 0.05,
@@ -53,9 +56,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "只要被我的火焰纏上，任憑對方逃到天涯海角也沒用~",
 			typewriter = {
@@ -70,12 +74,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "嗯……這裡倒不算陳舊，但還有更新的空間。",
 			typewriter = {
 				speed = 0.05,
@@ -86,9 +91,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "比起那個，我對你更感興趣。",
 			typewriter = {
@@ -106,9 +112,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "明知故問，我很想看你被嚇到是什麼反應~",
 			typewriter = {
@@ -120,9 +127,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900562,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "所以你呀，可不要鬆懈了~",
 			typewriter = {
@@ -131,12 +139,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "妳的各方面情況，我已經了解了。",
 			typewriter = {
 				speed = 0.05,
@@ -144,12 +153,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "安土，歡迎加入。",
 			typewriter = {
 				speed = 0.05,
@@ -157,12 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 900562,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 900562,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "呵呵……連我這一面也算在「可以接受」的範圍裡嗎？真有趣~",
 			typewriter = {
 				speed = 0.05,

@@ -1,8 +1,4 @@
 slot0 = class("ChapterAutoAddTimePanel", import("view.base.BaseSubView"))
-slot0.GET_SHOW_ID = {
-	[ChapterAutoTicket.TYPE.MAIN] = 68710,
-	[ChapterAutoTicket.TYPE.TIME] = 68711
-}
 
 slot0.getUIName = function(slot0)
 	return "ChapterAutoAddTimePanel"
@@ -117,7 +113,7 @@ slot0.InitTpl = function(slot0, slot1, slot2)
 	slot3 = slot0.showTypes[slot1 + 1]
 	slot4 = Drop.New({
 		type = DROP_TYPE_VITEM,
-		id = uv0.GET_SHOW_ID[slot3],
+		id = ChapterAutoTicket.GET_SHOW_ID[slot3],
 		count = slot0.allCntByType[slot3]
 	})
 

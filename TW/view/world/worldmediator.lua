@@ -12,6 +12,7 @@ slot0.OnStart = "WorldMediator.OnStart"
 slot0.OnStartPerform = "WorldMediator.OnStartPerform"
 slot0.OnStartAutoSwitch = "WorldMediator.OnStartAutoSwitch"
 slot0.OnMoveAndOpenLayer = "WorldMediator.OnMoveAndOpenLayer"
+slot0.OnFinishDelegate = "WorldMediator.OnFinishDelegate"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.OnMapOp, function (slot0, slot1)
@@ -98,6 +99,9 @@ slot0.register = function(slot0)
 			taskId = slot1.id
 		})
 	end)
+	slot0:bind(uv0.OnFinishDelegate, function (slot0)
+		pg.m02:sendNotification(GAME.END_CHAPTER_AUTO, {})
+	end)
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
 end
 
@@ -127,7 +131,9 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.WORLD_TRIGGER_AUTO_FIGHT,
 		GAME.WORLD_TRIGGER_AUTO_SWITCH,
 		uv0.OnStartAutoSwitch,
-		uv0.OnMoveAndOpenLayer
+		uv0.OnMoveAndOpenLayer,
+		GAME.END_CHAPTER_AUTO_DONE,
+		GAME.START_WORLD_CHAPTER_AUTO_DONE
 	}
 end
 
@@ -396,6 +402,27 @@ slot0.handleNotification = function(slot0, slot1)
 		end,
 		[uv0.OnMoveAndOpenLayer] = function ()
 			uv0.viewComponent:MoveAndOpenLayer(uv1)
+		end,
+		[GAME.END_CHAPTER_AUTO_DONE] = function ()
+			if uv0.type ~= ChapterAutoProxy.TYPE.WORLD then
+				return
+			end
+
+			slot0 = getProxy(WorldProxy)
+
+			slot0:RemoveDelegateAward()
+
+			slot0 = {}
+
+			table.insert(slot0, function (slot0)
+				uv0.viewComponent:GetDelegatedAwards(uv1.mapList, uv1.awards, uv1.proficiency, slot0)
+			end)
+			seriesAsync(slot0, function ()
+				uv0.viewComponent:UpdateDelegateDisplay()
+			end)
+		end,
+		[GAME.START_WORLD_CHAPTER_AUTO_DONE] = function ()
+			uv0.viewComponent:UpdateDelegateDisplay()
 		end
 	})
 end

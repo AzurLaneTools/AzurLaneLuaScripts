@@ -223,6 +223,9 @@ slot0.InitBattleSea = function(slot0)
 	end
 
 	table.insert(slot1, function (slot0)
+		uv0:downloadBattleShipResList(uv1, uv2, slot0)
+	end)
+	table.insert(slot1, function (slot0)
 		slot1 = uv0.battleView
 
 		slot1:LoadShip(uv1, uv2, uv3, function ()
@@ -335,6 +338,80 @@ slot0.RemoveCdTimer = function(slot0)
 
 		slot0.cdTimer = nil
 	end
+end
+
+slot0.getResource = function(slot0, slot1)
+	slot2 = uv0.super.getResource(slot0, slot1)
+
+	slot3 = function(slot0)
+		if not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot3("guildnode/box")
+	slot3("guildnode/battle")
+	slot3("ui/guildmissioninfoui_atlas")
+	slot3("ui/guildformationui_atlas")
+
+	slot4 = ys.Battle.BattleResourceManager
+
+	table.insertto(slot2, slot4.GetDisplayCommonResource())
+	table.insertto(slot2, slot4.GetMapResource(uv1))
+	slot3(slot4.GetCharacterPath(pg.enemy_data_statistics[10].prefab))
+	slot3(slot4.GetCharacterPath(pg.enemy_data_statistics[1028].prefab))
+
+	for slot13, slot14 in ipairs(getProxy(GuildProxy):getData():GetActiveEvent():GetMissions()) do
+		for slot18, slot19 in ipairs(slot14) do
+			for slot24, slot25 in ipairs(slot19:GetMyShips()) do
+				if getProxy(BayProxy):getShipById(slot25) then
+					slot27 = slot26:getPrefab()
+
+					table.insert(slot2, "char/" .. slot27)
+					table.insert(slot2, "herohrzicon/" .. slot27)
+				end
+			end
+		end
+	end
+
+	return slot2
+end
+
+slot0.downloadBattleShipResList = function(slot0, slot1, slot2, slot3)
+	slot4 = ys.Battle.BattleResourceManager
+	slot5 = {}
+
+	if slot1 then
+		table.insert(slot5, slot4.GetCharacterPath(slot1:getPrefab()))
+
+		if slot1:getShipType() ~= ShipType.WeiXiu then
+			for slot9, slot10 in ipairs(slot2) do
+				if slot10 ~= 0 then
+					for slot15, slot16 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot10).weapon_id) do
+						for slot21, slot22 in ipairs(slot4.GetWeaponResource(slot16)) do
+							if not table.contains(slot5, slot22) and string.sub(slot22, -(#"/")) ~= "/" then
+								table.insert(slot5, slot22)
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	if #slot5 == 0 then
+		slot3()
+
+		return
+	end
+
+	SplitPackConst.DownloadByLuaArr(slot5, function ()
+		if not uv0.loading then
+			return
+		end
+
+		uv1()
+	end)
 end
 
 slot0.ShowOrHideLogPanel = function(slot0, slot1, slot2)

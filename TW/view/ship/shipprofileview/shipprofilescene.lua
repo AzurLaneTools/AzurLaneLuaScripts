@@ -12,8 +12,30 @@ slot0.getUIName = function(slot0)
 	return "ShipProfileUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = getProxy(CollectionProxy):getShipGroup(slot1.groupId)
+	slot3 = {
+		"bg/star_level_bg_" .. slot2:rarity2bgPrintForGet(slot7),
+		"ui/share/btn_l2d_atlas"
+	}
+	slot7 = slot1.showTrans
+
+	for slot7, slot8 in ipairs(ShipGroup.GetDisplayableSkinList(slot2.id)) do
+		table.insertto(slot3, ResPathSupport.GetPaintingListByPaintingName(slot8.painting))
+	end
+
+	slot4 = slot2:getShipConfigId()
+
+	table.insertto(slot3, ResPathSupport.GetSkillIconList(slot4))
+	table.insertto(slot3, ResPathSupport.GetSpineCharListByPrefabName(Ship.New({
+		configId = slot4
+	}):getPrefab()))
+
+	return table.insertto(slot3, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.preload = function(slot0, slot1)
-	LoadSpriteAtlasAsync("bg/star_level_bg_" .. getProxy(CollectionProxy):getShipGroup(slot0.contextData.groupId):rarity2bgPrintForGet(slot0.showTrans), "", slot1)
+	LoadSpriteAtlasAsync("bg/star_level_bg_" .. getProxy(CollectionProxy):getShipGroup(slot0.contextData.groupId):rarity2bgPrintForGet(slot0.contextData.showTrans), "", slot1)
 end
 
 slot0.setShipGroup = function(slot0, slot1)

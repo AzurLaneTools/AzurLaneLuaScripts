@@ -4,6 +4,101 @@ slot0.getUIName = function(slot0)
 	return "WorldFleetSelect"
 end
 
+slot0.getResource = function(slot0, slot1)
+	table.insertto({
+		"weaponframes",
+		"shiptype"
+	}, slot0:getFleetSelectResList(slot1 and slot1.fleets))
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.insertFleetSelectRes = function(slot0, slot1, slot2)
+	if noEmptyStr(slot2) and not table.contains(slot1, slot2) then
+		table.insert(slot1, slot2)
+	end
+end
+
+slot0.insertFleetSelectPrefixRes = function(slot0, slot1, slot2, slot3)
+	if noEmptyStr(slot3) then
+		slot0:insertFleetSelectRes(slot1, slot2 .. slot3)
+	end
+end
+
+slot0.getShipIconResList = function(slot0, slot1)
+	slot2 = {}
+	slot3 = getProxy(BayProxy)
+	slot4 = pairs
+	slot5 = slot1 or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		for slot12, slot13 in ipairs(slot8) do
+			for slot17, slot18 in ipairs({
+				TeamType.Main,
+				TeamType.Vanguard,
+				TeamType.Submarine
+			}) do
+				slot19 = pairs
+				slot20 = slot13[slot18] or {}
+
+				for slot22, slot23 in slot19(slot20) do
+					if slot3:getShipById(slot23) then
+						slot0:insertFleetSelectPrefixRes(slot2, "SquareIcon/", slot24:getPainting())
+					end
+				end
+			end
+		end
+	end
+
+	return slot2
+end
+
+slot0.getCommanderIconResList = function(slot0, slot1)
+	slot2 = {}
+	slot3 = pairs
+	slot4 = slot1 or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		for slot11, slot12 in ipairs(slot7) do
+			for slot17, slot18 in pairs(Fleet.New({
+				ship_list = {},
+				commanders = slot12.commanders
+			}):getCommanders()) do
+				slot0:insertFleetSelectPrefixRes(slot2, "CommanderHrz/", slot18:getPainting())
+			end
+		end
+	end
+
+	return slot2
+end
+
+slot0.getFleetSelectResList = function(slot0, slot1)
+	slot2 = {}
+	slot6 = slot1
+
+	for slot6, slot7 in ipairs(slot0:getShipIconResList(slot6)) do
+		slot0:insertFleetSelectRes(slot2, slot7)
+	end
+
+	slot6 = slot1
+
+	for slot6, slot7 in ipairs(slot0:getCommanderIconResList(slot6)) do
+		slot0:insertFleetSelectRes(slot2, slot7)
+	end
+
+	return slot2
+end
+
+slot0.downloadFleetSelectResList = function(slot0, slot1, slot2)
+	SplitPackConst.DownloadByLuaArr(slot0:getFleetSelectResList(slot1), function ()
+		if uv0.exited then
+			return
+		end
+
+		return existCall(uv1)
+	end)
+end
+
 slot0.init = function(slot0)
 	slot0.rtBg = slot0._tf:Find("bg")
 	slot1 = nowWorld():GetRealm()
@@ -87,7 +182,15 @@ slot0.didEnter = function(slot0)
 	slot0.contextData.showCommander = defaultValue(slot0.contextData.showCommander, true)
 
 	triggerToggle(slot0.contextData.showCommander and slot0.commanderToggle or slot0.formationToggle, true)
-	slot0:CheckWorldResetAward()
+	seriesAsync({
+		function (slot0)
+			uv0:CheckWorldDelegateAward(slot0)
+		end,
+		function (slot0)
+			uv0:CheckWorldResetAward(slot0)
+		end
+	}, function ()
+	end)
 end
 
 slot0.willExit = function(slot0)
@@ -105,7 +208,15 @@ slot0.onBackPressed = function(slot0)
 	end
 end
 
-slot0.UpdateFleets = function(slot0)
+slot0.UpdateFleets = function(slot0, slot1)
+	slot0:downloadFleetSelectResList(slot0.contextData.fleets, function ()
+		uv0:UpdateFleetsAfterResDownload()
+
+		return existCall(uv1)
+	end)
+end
+
+slot0.UpdateFleetsAfterResDownload = function(slot0)
 	for slot5, slot6 in pairs(slot0.contextData.fleets) do
 		slot7 = slot0.rtFleets[slot5]
 		slot8 = UIItemList.New(slot7, slot7:GetChild(0))
@@ -243,9 +354,16 @@ slot0.UpdateFleet = function(slot0, slot1, slot2, slot3)
 	end
 
 	onButton(slot0, slot1:Find("btn_recom"), function ()
-		uv0:RecommendFormation(uv1, uv2)
-		uv0:UpdateFleet(uv3, uv1, uv2)
-		uv0:updateEliteLimit()
+		slot0 = uv0
+
+		slot0:RecommendFormation(uv1, uv2)
+
+		slot0 = uv0
+
+		slot0:downloadFleetSelectResList(uv0.contextData.fleets, function ()
+			uv0:UpdateFleet(uv1, uv2, uv3)
+			uv0:updateEliteLimit()
+		end)
 	end, SFX_PANEL)
 	onButton(slot0, slot1:Find("btn_clear"), function ()
 		if uv0:GetTeamShipCount(uv1[TeamType.Main]) > 0 or uv0:GetTeamShipCount(uv1[TeamType.Vanguard]) > 0 or uv0:GetTeamShipCount(uv1[TeamType.Submarine]) > 0 then
@@ -493,17 +611,26 @@ slot0.RecommendFormation = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.CheckWorldResetAward = function(slot0)
-	slot1 = {}
+slot0.CheckWorldDelegateAward = function(slot0, slot1)
+	if getProxy(WorldProxy):GetDelegateAward() then
+		getProxy(WorldProxy):RemoveDelegateAward()
+		pg.TipsMgr.GetInstance():ShowTips(i18n("world_auto_plan_error_tip4"))
+	end
 
-	if nowWorld().resetAward and #slot3 > 0 then
+	slot1()
+end
+
+slot0.CheckWorldResetAward = function(slot0, slot1)
+	slot2 = {}
+
+	if nowWorld().resetAward and #slot4 > 0 then
 		if #pg.gameset.world_resetting_story.description[1] > 0 then
-			table.insert(slot1, function (slot0)
+			table.insert(slot2, function (slot0)
 				pg.NewStoryMgr.GetInstance():Play(uv0, slot0, true)
 			end)
 		end
 
-		table.insert(slot1, function (slot0)
+		table.insert(slot2, function (slot0)
 			slot1 = nil
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -522,8 +649,8 @@ slot0.CheckWorldResetAward = function(slot0)
 		end)
 	end
 
-	if slot2.resetLimitTip then
-		table.insert(slot1, function (slot0)
+	if slot3.resetLimitTip then
+		table.insert(slot2, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
 				content = i18n("world_resource_fill")
@@ -531,8 +658,9 @@ slot0.CheckWorldResetAward = function(slot0)
 		end)
 	end
 
-	seriesAsync(slot1, function ()
+	seriesAsync(slot2, function ()
 		uv0:ClearResetAward()
+		uv1()
 	end)
 end
 

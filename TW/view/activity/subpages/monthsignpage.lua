@@ -10,6 +10,19 @@ slot0.MONTH_SIGN_SP_DAYS = {
 	300
 }
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/MonthSignReSignUI",
+		"weaponframes",
+		"shiptype",
+		"ui/iconcolorful"
+	}
+
+	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+
+	return slot2
+end
+
 slot0.OnInit = function(slot0)
 	slot0.bg = slot0._tf:Find("bg")
 	slot0.items = slot0._tf:Find("items")

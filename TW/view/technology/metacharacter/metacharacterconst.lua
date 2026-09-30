@@ -289,6 +289,16 @@ slot0.addReMetaTransItem = function(slot0, slot1)
 	end
 end
 
+slot0.getReMetaTransItem = function(slot0)
+	slot1 = Player.metaShip2Res(slot0.configId)
+
+	return Drop.New({
+		type = slot1[1].type,
+		id = slot1[1].id,
+		count = slot1[1].count
+	})
+end
+
 slot0.isMetaTaskSkillID = function(slot0)
 	for slot4, slot5 in ipairs(pg.ship_meta_skilltask.all) do
 		if pg.ship_meta_skilltask[slot5].skill_ID == slot0 then

@@ -4,6 +4,25 @@ slot0.getUIName = function(slot0)
 	return "EquipmentDesignUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/equipmentdesignui",
+		"ui/equipmentdesignui_atlas",
+		"ui/equipmenttransformui_atlas",
+		"equiptype",
+		"bg/equipment_bg_1",
+		"bg/equipment_bg_2",
+		"bg/equipment_bg_3",
+		"bg/equipment_bg_4",
+		"bg/equipment_bg_5",
+		"bg/equipment_bg_6"
+	}
+
+	table.insertto(slot2, uv0.super.getResource(slot0))
+
+	return slot2
+end
+
 slot0.setItems = function(slot0, slot1)
 	slot0.itemVOs = slot1
 end

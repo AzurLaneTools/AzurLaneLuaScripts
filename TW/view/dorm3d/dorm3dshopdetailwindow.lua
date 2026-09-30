@@ -7,6 +7,49 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dShopDetailWindow"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"weaponframes",
+		"ui/shoptip_atlas"
+	}
+
+	slot5 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot6 = function(slot0)
+		slot1 = ipairs
+		slot2 = slot0 or {}
+
+		for slot4, slot5 in slot1(slot2) do
+			uv0("dorm3dbanner/" .. slot5)
+		end
+	end
+
+	if (slot1 or slot0.contextData or {}).shopCfg then
+		slot6(slot4.banners)
+
+		if pg.dorm3d_gift[slot4.item_id] then
+			slot8 = ipairs
+			slot9 = slot7.unlock_banners or {}
+
+			for slot11, slot12 in slot8(slot9) do
+				slot6(slot12[2])
+			end
+		end
+
+		slot5(Drop.New({
+			count = 0,
+			type = DROP_TYPE_DORM3D_GIFT,
+			id = slot4.item_id
+		}):getIcon())
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.init = function(slot0)
 	slot0.previewTf = slot0._tf:Find("Window/Preview")
 	slot0.bubbleContent = slot0._tf:Find("Window/Bubbles/content")

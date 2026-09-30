@@ -627,13 +627,13 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 						slot9 = string.gsub(slot9, slot13, "<color=#93e9ff>" .. uv2[tonumber(string.sub(slot13, 2, #slot13 - 1))].name .. "</color>")
 					end
 
-					setText(slot2:Find("charaMessageCard/systemTip/panel/Text"), slot9)
+					setText(slot2:Find("charaMessageCard/systemTip/systemTipPanel/panel/Text"), slot9)
 
 					if uv3 and uv4 and uv4 < slot1 + 1 then
 						SetActive(slot2, false)
 						uv11:StartTimer(function ()
 							SetActive(uv0, true)
-							uv0:Find("charaMessageCard/systemTip"):GetComponent(typeof(Animation)):Play("anim_newinstagram_tip_in")
+							uv0:Find("charaMessageCard/systemTip/systemTipPanel"):GetComponent(typeof(Animation)):Play("anim_newinstagram_tip_in")
 
 							if uv1 + 1 ~= #uv2 then
 								uv3:ChangeCharaTextFunc(uv4, uv5)
@@ -645,7 +645,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 							Canvas.ForceUpdateCanvases()
 							LeanTween.value(go(uv3.rightPanel:Find("chat/messageScroll")), uv7.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv8)):setEase(LeanTweenType.easeInOutCubic)
-							uv3:SetEndAniEvent(uv0:Find("charaMessageCard/systemTip"), function ()
+							uv3:SetEndAniEvent(uv0:Find("charaMessageCard/systemTip/systemTipPanel"), function ()
 								if uv0.shouldShowOption and uv1 + 1 == #uv2 then
 									uv0:SetOptionPanelActive(true)
 								end
@@ -1654,7 +1654,7 @@ slot0.ShowOfficialAccountsInfo = function(slot0, slot1)
 
 	slot3 = slot0.officialAccountsInfoItem
 
-	setText(slot3:Find("content"), slot1.text)
+	setText(slot3:Find("content"), slot1:GetContent())
 
 	slot5 = slot0.officialAccountsInfoItem
 	slot5 = slot5:Find("Image/Image")

@@ -118,6 +118,7 @@ pg.activity_shop_extra.all = {
 	142,
 	143,
 	144,
+	145,
 	147,
 	5001,
 	5002,
@@ -248,6 +249,7 @@ pg.activity_shop_extra.get_id_list_by_commodity_type = {
 		142,
 		143,
 		144,
+		145,
 		147,
 		5001,
 		5002,
@@ -4608,6 +4610,47 @@ end)()
 				{
 					2026,
 					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_shop_extra[145] = {
+		num_limit = 1,
+		activity = 45928,
+		commodity_type = 7,
+		shop_tag = 2,
+		num = 1,
+		commodity_id = 301043,
+		end_by_maintenance = 0,
+		id = 145,
+		order = 5,
+		scene = {
+			"crusing",
+			{}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
 					30
 				},
 				{

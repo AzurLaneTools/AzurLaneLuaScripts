@@ -169338,7 +169338,7 @@ _G.pg.base.item_virtual_data_statistics[59598] = {
 _G.pg.base.item_virtual_data_statistics[59599] = {
 	drop_gold_max = 0,
 	name = "巡遊點數",
-	display = "參與「世界巡遊」(2024.12.1~2025.1.31)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	display = "參與「世界巡遊」獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -193046,6 +193046,36 @@ _G.pg.base.item_virtual_data_statistics[68711] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[68712] = {
+	drop_gold_max = 0,
+	name = "作戰全權委托書（大型作戰）",
+	display = "不会被看见",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/weituozuozhan",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 32,
+	id = 68712,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	drop_arg = {
+		"month",
+		0
+	}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68755] = {
 	drop_gold_max = 0,
 	name = "集結點",
@@ -205073,6 +205103,72 @@ _G.pg.base.item_virtual_data_statistics[86230] = {
 		{
 			201191,
 			2000
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86231] = {
+	drop_gold_max = 0,
+	name = "隨機換裝",
+	display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>13.0%</color>）羅恩換裝 蒼翠的安眠曲<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>15.0%</color>）豪換裝 奢華之夜宴；
+（<color=#92fc63>15.0%</color>）鐵必制換裝 獨秀的冰華；
+（<color=#92fc63>15.0%</color>）華盛頓換裝 微笑嘉年華；
+（<color=#92fc63>14.0%</color>）波夕換裝 翠玉的海人魚；
+（<color=#92fc63>14.0%</color>）{namecode:103}換裝 水墨麗色；
+（<color=#92fc63>14.0%</color>）威嚴換裝 別樣的品茶時光；
+ ]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86231,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			299035,
+			1200
+		},
+		{
+			307162,
+			1200
+		},
+		{
+			307053,
+			1400
+		},
+		{
+			403113,
+			1400
+		},
+		{
+			101267,
+			1800
+		},
+		{
+			231211,
+			1500
+		},
+		{
+			101532,
+			1500
 		}
 	}
 }

@@ -265,6 +265,16 @@ slot0.getTasks = function(slot0)
 	return Clone(slot1)
 end
 
+slot0.getFinishTasks = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.finishData) do
+		table.insert(slot1, slot6)
+	end
+
+	return Clone(slot1)
+end
+
 slot0.getTaskById = function(slot0, slot1)
 	if slot0.data[slot1] then
 		return slot0.data[slot1]:clone()

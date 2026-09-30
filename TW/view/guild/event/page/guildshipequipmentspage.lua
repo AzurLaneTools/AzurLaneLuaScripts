@@ -4,6 +4,24 @@ slot0.getUIName = function(slot0)
 	return "GuildShipEquipmentsPage"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"shiptype",
+		"weaponframes",
+		"ui/iconcolorful"
+	}, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.getEquipmentResList = function(slot0, slot1)
+	_.each(slot1 and slot1:getActiveEquipments() or {}, function (slot0)
+		if slot0 then
+			table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.Equipment.Equip, slot0:getConfig("icon")))
+		end
+	end)
+
+	return {}
+end
+
 slot0.OnLoaded = function(slot0)
 	slot0.shipNameTxt = slot0._tf:Find("frame/ship_info/shipname"):GetComponent(typeof(Text))
 	slot0.userNameTxt = slot0._tf:Find("frame/ship_info/username"):GetComponent(typeof(Text))
@@ -37,19 +55,31 @@ slot0.SetCallBack = function(slot0, slot1, slot2)
 	slot0.onNext = slot2
 end
 
+slot0.downloadEquipmentResList = function(slot0, slot1, slot2)
+	SplitPackConst.DownloadByLuaArr(slot0:getEquipmentResList(slot1), function ()
+		if uv0._state == uv1.STATES.DESTROY then
+			return
+		end
+
+		uv2()
+	end)
+end
+
 slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
-	uv0.super.Show(slot0)
+	slot0:downloadEquipmentResList(slot1, function ()
+		uv0.super.Show(uv1)
 
-	slot0.OnHide = slot3
+		uv1.OnHide = uv2
 
-	if slot4 then
-		slot4()
-	end
+		if uv3 then
+			uv3()
+		end
 
-	slot0:Flush(slot1, slot2)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
-	setActive(slot0.nextBtn, slot0.onNext ~= nil)
-	SetActive(slot0.prevBtn, slot0.onPrev ~= nil)
+		uv1:Flush(uv4, uv5)
+		pg.UIMgr.GetInstance():BlurPanel(uv1._tf)
+		setActive(uv1.nextBtn, uv1.onNext ~= nil)
+		SetActive(uv1.prevBtn, uv1.onPrev ~= nil)
+	end)
 end
 
 slot0.Flush = function(slot0, slot1, slot2)
@@ -61,7 +91,9 @@ slot0.Flush = function(slot0, slot1, slot2)
 end
 
 slot0.Refresh = function(slot0, slot1, slot2)
-	slot0:Flush(slot1, slot2)
+	slot0:downloadEquipmentResList(slot1, function ()
+		uv0:Flush(uv1, uv2)
+	end)
 end
 
 slot0.UpdateShipInfo = function(slot0)

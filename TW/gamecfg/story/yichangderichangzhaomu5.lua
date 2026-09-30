@@ -7,10 +7,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "嘻嘻~人偶小姐匆忙，受邀登場♪",
 			typewriter = {
@@ -22,9 +23,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "你想從哪裡開始了解我呢，指揮官？",
 			typewriter = {
@@ -42,9 +44,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "嗯，只需要把我的人偶們放出去就好~",
 			typewriter = {
@@ -62,9 +65,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "要呀，當然要~",
 			typewriter = {
@@ -76,9 +80,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呼啦呼☆啾咪☆微笑催眠魔法~♪",
 			typewriter = {
@@ -87,11 +92,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "好啦，你已經被我催眠了！",
 			typewriter = {
@@ -106,12 +112,13 @@ return {
 			}
 		},
 		{
-			actor = 201401,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 201401,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "先裝無事發生~",
 			typewriter = {
 				speed = 0.05,
@@ -122,9 +129,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "如果瞞不過去了，就……靠可愛蒙混過關！",
 			typewriter = {
@@ -133,12 +141,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "妳的各方面情況，我已經了解了。",
 			typewriter = {
 				speed = 0.05,
@@ -146,12 +155,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "匆忙，歡迎加入。",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +172,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "耶~催眠指揮官大成功♪",
 			typewriter = {

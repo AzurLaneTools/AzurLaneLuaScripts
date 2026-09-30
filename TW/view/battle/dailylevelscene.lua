@@ -7,6 +7,58 @@ slot0.getUIName = function(slot0)
 	return "DailyLevelUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"weaponframes",
+		"cue/level.b"
+	}
+	slot3 = {}
+
+	slot4 = function(slot0)
+		if noEmptyStr(slot0) and not uv0[slot0] then
+			uv0[slot0] = true
+
+			table.insert(uv1, slot0)
+		end
+	end
+
+	slot6 = ipairs
+	slot7 = pg.expedition_daily_template.all or {}
+
+	for slot9, slot10 in slot6(slot7) do
+		if slot5[slot10] then
+			slot4("dailyui/" .. slot11.pic)
+
+			slot12 = ipairs
+			slot13 = slot11.expedition_and_lv_limit_list or {}
+
+			for slot15, slot16 in slot12(slot13) do
+				if pg.expedition_data_template[slot16[1]] then
+					slot18 = ipairs
+					slot19 = slot17.award_display or {}
+
+					for slot21, slot22 in slot18(slot19) do
+						slot4(Drop.Create(slot22):getIcon())
+					end
+				end
+			end
+		end
+	end
+
+	if slot0.bonusActivity and not slot0.bonusActivity:isEnd() then
+		slot6 = ipairs
+		slot7 = slot0.bonusActivity:getConfig("config_data") or {}
+
+		for slot9, slot10 in slot6(slot7) do
+			if slot10[2] then
+				slot4(Drop.Create(slot11):getIcon())
+			end
+		end
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.ResUISettings = function(slot0)
 	return true
 end

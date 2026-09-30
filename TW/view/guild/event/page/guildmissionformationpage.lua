@@ -124,8 +124,17 @@ slot0.OnInit = function(slot0)
 			end
 
 			uv0.contextData.missionShips = slot0
+			slot1 = {}
 
-			uv0:UpdateFleet(uv0.contextData.index)
+			for slot5, slot6 in ipairs(slot0) do
+				if getProxy(BayProxy):getShipById(slot6) then
+					table.insert(slot1, "char/" .. slot7:getPrefab())
+				end
+			end
+
+			SplitPackConst.DownloadByLuaArr(slot1, function ()
+				uv0:UpdateFleet(uv0.contextData.index)
+			end)
 		end)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clearBtn, function ()
@@ -522,6 +531,25 @@ slot0.CalcScoreAddition = function(slot0, slot1)
 	end
 
 	return slot6, slot7, slot8
+end
+
+slot0.getResource = function(slot0, slot1)
+	slot2 = uv0.super.getResource(slot0, slot1)
+
+	for slot9, slot10 in ipairs(getProxy(GuildProxy):getData():GetActiveEvent():GetMissions()) do
+		for slot14, slot15 in ipairs(slot10) do
+			for slot20, slot21 in ipairs(slot15:GetMyShips()) do
+				if getProxy(BayProxy):getShipById(slot21) then
+					slot23 = slot22:getPrefab()
+
+					table.insert(slot2, "char/" .. slot23)
+					table.insert(slot2, "herohrzicon/" .. slot23)
+				end
+			end
+		end
+	end
+
+	return slot2
 end
 
 slot0.CalcEffectAddition = function(slot0, slot1)

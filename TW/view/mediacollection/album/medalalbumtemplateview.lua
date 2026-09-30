@@ -2,6 +2,45 @@ slot0 = class("StarLightMedalAlbumView", import("view.base.BaseUI"))
 slot0.ICON_SCALE = 1.35
 slot0.MEDAL_COUNT = 8
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {}
+
+	if slot0.GROUP_ID and pg.activity_medal_group[slot3] and slot4.item_show then
+		slot5 = {}
+
+		slot6 = function(slot0)
+			if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+				table.insert(uv0, slot0)
+			end
+		end
+
+		for slot10, slot11 in ipairs(slot4.item_show) do
+			if slot11 and #slot11 > 0 then
+				slot12 = Drop.New({
+					type = slot11[1],
+					id = slot11[2],
+					count = slot11[3] or 1
+				})
+				slot13 = slot12:getIcon()
+
+				if slot12.type == DROP_TYPE_FURNITURE then
+					slot13 = "furnitureicon/" .. slot13
+				end
+
+				slot6(slot13)
+			end
+		end
+
+		for slot10, slot11 in ipairs(slot5) do
+			table.insert(slot2, slot11)
+		end
+	end
+
+	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+
+	return slot2
+end
+
 slot0.SetMedalGroupData = function(slot0, slot1)
 	slot0.medalGroupList = slot1
 	slot0.currentMedalGroup = slot0.medalGroupList[slot0.GROUP_ID] or ActivityMedalGroup.New(slot0.GROUP_ID)

@@ -28,6 +28,11 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot3:Find("Text"), i18n("cruise_btn_pay"))
 
+	slot0.btnPayPrev = slot1:Find("btns/btn_pay_prev")
+	slot3 = slot0.btnPayPrev
+
+	setText(slot3:Find("Text"), i18n("cruise_btn_pay_prev"))
+
 	slot0.scrollCom = GetComponent(slot1:Find("view/content"), "LScrollRect")
 
 	slot0.scrollCom.onUpdateItem = function(slot0, slot1)
@@ -41,6 +46,9 @@ slot0.OnInit = function(slot0)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.btnPay, function ()
 		uv0.contextData.windowForCharge:ExecuteAction("ShowBuyWindow")
+	end, SFX_CONFIRM)
+	onButton(slot0, slot0.btnPayPrev, function ()
+		uv0.contextData.prevChargePage:ExecuteAction("ShowBuyWindow")
 	end, SFX_CONFIRM)
 
 	slot1 = slot0.scrollCom.onValueChanged
@@ -59,6 +67,7 @@ slot0.Flush = function(slot0, slot1)
 		slot0:UpdateActivity(slot1)
 	end
 
+	slot0:UpdateBtnPayPrev()
 	slot0.scrollCom:SetTotalCount(#slot0.awardList - 1)
 	slot0:BuildPhaseAwardScrollPos()
 
@@ -80,6 +89,10 @@ slot0.Flush = function(slot0, slot1)
 	end
 
 	slot0:UpdateNextAward(slot0.scrollCom.value)
+end
+
+slot0.UpdateBtnPayPrev = function(slot0)
+	setActive(slot0.btnPayPrev, PrevPeriodCrusingActivity.StaticExistPrevPeriodCrusingActivity())
 end
 
 slot0.BuildPhaseAwardScrollPos = function(slot0)

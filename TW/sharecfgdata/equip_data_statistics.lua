@@ -145010,6 +145010,61 @@ _G.pg.base.equip_data_statistics[80622] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80631] = {
+	name = "专属弹幕-柯尼斯堡METAI",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 2,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80631,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		171001
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80632] = {
+	name = "专属弹幕-柯尼斯堡METAII",
+	base = 80631,
+	id = 80632,
+	weapon_id = {
+		171002
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[80651] = {
 	name = "专属弹幕-暴风雨I",
 	tech = 1,
@@ -187594,6 +187649,61 @@ _G.pg.base.equip_data_statistics[171092] = {
 	id = 171092,
 	weapon_id = {
 		171092
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[171161] = {
+	name = "专属弹幕-灵敏METAI",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 171161,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		171161
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[171162] = {
+	name = "专属弹幕-灵敏METAII",
+	base = 171161,
+	id = 171162,
+	weapon_id = {
+		171162
 	},
 	hidden_skill_id = {}
 }

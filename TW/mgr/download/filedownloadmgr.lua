@@ -21,13 +21,33 @@ slot1.Init = function(slot0, slot1)
 end
 
 slot1.Main = function(slot0, slot1)
-	slot0:initData()
+	slot0.requestQueue = slot0.requestQueue or {}
+
+	table.insert(slot0.requestQueue, slot1)
+	slot0:processNext()
+end
+
+slot1.processNext = function(slot0)
+	if slot0.currentRequest then
+		return
+	end
+
+	slot0.requestQueue = slot0.requestQueue or {}
+
+	if not table.remove(slot0.requestQueue, 1) then
+		slot0:hide()
+
+		return
+	end
+
+	slot0.currentRequest = slot1
+
 	slot0:setData(slot1)
 	slot0:startDownload()
 end
 
 slot1.IsRunning = function(slot0)
-	return isActive(slot0._go)
+	return slot0.currentRequest ~= nil or #(slot0.requestQueue or {}) > 0 or isActive(slot0._go)
 end
 
 slot1.KEY_STOP_REMIND = "File_Download_Remind_Time"
@@ -45,6 +65,7 @@ slot1.IsNeedRemind = function(slot0)
 end
 
 slot1.show = function(slot0)
+	setActive(slot0.maskTF, slot0.showMask)
 	slot0._go:SetActive(true)
 end
 
@@ -54,9 +75,12 @@ end
 
 slot1.initUI = function(slot0)
 	slot0.mainTF = slot0._tf:Find("Main")
+	slot0.maskTF = slot0._tf:Find("Mask")
 	slot0.titleText = slot0.mainTF:Find("Title")
 	slot0.progressText = slot0.mainTF:Find("ProgressText")
 	slot0.progressBar = slot0.mainTF:Find("ProgressBar")
+
+	setActive(slot0.maskTF, false)
 end
 
 slot1.initUITextTips = function(slot0)
@@ -68,11 +92,13 @@ slot1.initData = function(slot0)
 	slot0.curGroupMgr = nil
 	slot0.dataList = nil
 	slot0.onFinish = nil
+	slot0.showMask = false
 end
 
 slot1.setData = function(slot0, slot1)
 	slot0.dataList = slot1.dataList
 	slot0.onFinish = slot1.onFinish
+	slot0.showMask = slot1.showMask == true
 end
 
 slot1.fileProgress = function(slot0, slot1, slot2)
@@ -80,13 +106,18 @@ slot1.fileProgress = function(slot0, slot1, slot2)
 	setSlider(slot0.progressBar, 0, tonumber(tostring(slot2)), tonumber(tostring(slot1)))
 end
 
-slot1.allComplete = function(slot0, slot1, slot2)
-	if slot0.onFinish then
-		slot0.onFinish()
+slot1.allComplete = function(slot0, slot1)
+	slot0:initData()
+
+	slot0.currentRequest = nil
+
+	slot0:hide()
+
+	if slot1 or slot0.onFinish then
+		slot2()
 	end
 
-	slot0:initData()
-	slot0:hide()
+	slot0:processNext()
 end
 
 slot1.error = function(slot0, slot1, slot2)
@@ -108,9 +139,11 @@ slot1.error = function(slot0, slot1, slot2)
 end
 
 slot1.download = function(slot0)
+	slot2 = slot0.onFinish
+
 	BundleWizardUpdater.Inst:StartUpdate(slot0.info, nil, function (slot0, slot1)
 		if slot0 then
-			uv0:allComplete()
+			uv0:allComplete(uv1)
 		else
 			uv0:error("", "")
 		end

@@ -6,9 +6,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官，我那件羽衣找不到了……你看過嗎？",
 			typewriter = {
@@ -27,12 +28,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "嗯，這樣真是幫了大忙呢。",
 			typewriter = {
 				speed = 0.05,
@@ -40,12 +42,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "謝謝你，指揮官~",
 			typewriter = {
 				speed = 0.05,
@@ -55,10 +58,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "是嗎……那是很重要的寶物，放在外面不太安全。",
 			typewriter = {
@@ -67,12 +71,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "我再去找一遍看看。",
 			typewriter = {
 				speed = 0.05,

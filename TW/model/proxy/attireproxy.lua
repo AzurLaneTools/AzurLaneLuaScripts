@@ -305,4 +305,36 @@ slot0.IsShowRedDot = function(slot0)
 	end)
 end
 
+slot0.getAllData = function(slot0)
+	slot1 = {
+		iconFrames = {},
+		chatFrames = {},
+		combatUIStyles = {},
+		trophys = getProxy(CollectionProxy):getTrophys(),
+		loveTrophys = getProxy(LoveLetterProxy):GetTrophyList()
+	}
+
+	for slot5, slot6 in ipairs(uv0.all) do
+		slot1.iconFrames[slot6] = IconFrame.New({
+			id = slot6,
+			end_time = slot6 == 0 and 0 or nil
+		})
+	end
+
+	for slot5, slot6 in ipairs(uv1.all) do
+		slot1.chatFrames[slot6] = ChatFrame.New({
+			id = slot6,
+			end_time = slot6 == 0 and 0 or nil
+		})
+	end
+
+	for slot5, slot6 in ipairs(uv2.all) do
+		slot1.combatUIStyles[slot6] = CombatUIStyle.New({
+			id = slot6
+		})
+	end
+
+	return slot1
+end
+
 return slot0

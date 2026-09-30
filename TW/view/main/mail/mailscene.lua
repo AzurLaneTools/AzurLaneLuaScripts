@@ -269,7 +269,7 @@ slot0.init = function(slot0)
 				cmd = "move",
 				filter = {
 					type = "ids",
-					list = underscore.rest(uv0.proxy.importantIds, 1)
+					list = underscore.to_array(uv0.proxy.importantIds)
 				}
 			})
 		end)
@@ -281,9 +281,9 @@ slot0.init = function(slot0)
 		slot0 = {}
 
 		if uv0.mailToggle == "important" then
-			slot0 = underscore.rest(uv0.proxy.importantIds, 1)
+			slot0 = underscore.to_array(uv0.proxy.importantIds)
 		elseif uv0.mailToggle == "rare" then
-			slot0 = underscore.rest(uv0.proxy.rareIds, 1)
+			slot0 = underscore.to_array(uv0.proxy.rareIds)
 		else
 			assert(false)
 		end

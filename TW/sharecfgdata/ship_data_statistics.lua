@@ -463288,6 +463288,538 @@ _G.pg.base.ship_data_statistics[9702114] = {
 }
 
 
+_G.pg.base.ship_data_statistics[9702121] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "柯尼斯堡·META",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9702121,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Königsberg.META",
+	oxy_cost = 0,
+	skin_id = 9702120,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		607,
+		32,
+		53,
+		69,
+		0,
+		67,
+		0,
+		43,
+		34,
+		32,
+		42,
+		34
+	},
+	attrs_growth = {
+		10521,
+		444,
+		713,
+		875,
+		0,
+		466,
+		0,
+		581,
+		540,
+		0,
+		0,
+		475
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		231
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.6,
+		1.2,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KonigsbergMETA"
+	},
+	gift_dislike = {
+		180009,
+		180005
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9702122] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "柯尼斯堡·META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9702122,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Königsberg.META",
+	oxy_cost = 0,
+	skin_id = 9702120,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		755,
+		40,
+		66,
+		86,
+		0,
+		67,
+		0,
+		43,
+		34,
+		32,
+		42,
+		43
+	},
+	attrs_growth = {
+		10521,
+		444,
+		713,
+		875,
+		0,
+		466,
+		0,
+		581,
+		540,
+		0,
+		0,
+		475
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		232
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.12,
+		1.62,
+		1.22,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KonigsbergMETA"
+	},
+	gift_dislike = {
+		180009,
+		180005
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9702123] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "柯尼斯堡·META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9702123,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Königsberg.META",
+	oxy_cost = 0,
+	skin_id = 9702120,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1051,
+		56,
+		92,
+		120,
+		0,
+		67,
+		0,
+		43,
+		34,
+		32,
+		42,
+		60
+	},
+	attrs_growth = {
+		10521,
+		444,
+		713,
+		875,
+		0,
+		466,
+		0,
+		581,
+		540,
+		0,
+		0,
+		475
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		233
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.65,
+		1.25,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KonigsbergMETA"
+	},
+	gift_dislike = {
+		180009,
+		180005
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9702124] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "柯尼斯堡·META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9702124,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Königsberg.META",
+	oxy_cost = 0,
+	skin_id = 9702120,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1495,
+		80,
+		131,
+		171,
+		0,
+		67,
+		0,
+		43,
+		34,
+		32,
+		42,
+		85
+	},
+	attrs_growth = {
+		10521,
+		444,
+		713,
+		875,
+		0,
+		466,
+		0,
+		581,
+		540,
+		0,
+		0,
+		475
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		234
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.7,
+		1.3,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KonigsbergMETA"
+	},
+	gift_dislike = {
+		180009,
+		180005
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[9703011] = {
 	nationality = 97,
 	oxy_max = 0,

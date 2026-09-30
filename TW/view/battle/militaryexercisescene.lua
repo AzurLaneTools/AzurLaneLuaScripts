@@ -5,6 +5,92 @@ slot0.getUIName = function(slot0)
 	return "MilitaryExerciseUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"weaponframes",
+		"shiptype",
+		"bg/star_level_card_1",
+		"bg/star_level_card_2",
+		"bg/star_level_card_3",
+		"bg/star_level_card_3_1",
+		"bg/star_level_card_4",
+		"bg/star_level_card_4_0",
+		"bg/star_level_card_4_1",
+		"bg/star_level_card_5",
+		"bg/star_level_card_5_0",
+		"bg/star_level_card_5_1"
+	}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot4 = function(slot0, slot1)
+		if noEmptyStr(SeasonInfo.getEmblem(slot0, slot1)) then
+			uv0("emblem/" .. slot2)
+			uv0("emblem/n_" .. slot2)
+		end
+	end
+
+	if getProxy(MilitaryExerciseProxy):RawGetSeasonInfo() then
+		slot4(slot5.score, slot5.rank)
+
+		slot6 = getProxy(BayProxy)
+
+		slot7 = function(slot0)
+			slot1 = ipairs
+			slot2 = slot0 or {}
+
+			for slot4, slot5 in slot1(slot2) do
+				if uv0:RawGetShipById(slot5) then
+					uv1("SquareIcon/" .. slot6:getPainting())
+				end
+			end
+		end
+
+		slot7(checkExist(slot5, {
+			"fleet",
+			"mainShips"
+		}))
+		slot7(checkExist(slot5, {
+			"fleet",
+			"vanguardShips"
+		}))
+
+		slot8 = ipairs
+		slot9 = slot5.rivals or {}
+
+		for slot11, slot12 in slot8(slot9) do
+			slot4(slot12.score, slot12.rank)
+
+			if checkExist(pg.ship_skin_template, {
+				slot12.skinId,
+				"painting"
+			}) then
+				slot3("SquareIcon/" .. slot13.painting)
+			end
+		end
+	end
+
+	slot6 = ipairs
+	slot7 = pg.arena_data_rank.all or {}
+
+	for slot9, slot10 in slot6(slot7) do
+		slot11 = ipairs
+		slot12 = pg.arena_data_rank[slot10].award_list or {}
+
+		for slot14, slot15 in slot11(slot12) do
+			if slot15[1] ~= nil then
+				slot3(Drop.Create(slot15):getIcon())
+			end
+		end
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.ResUISettings = function(slot0)
 	return true
 end

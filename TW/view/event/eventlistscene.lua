@@ -20,6 +20,62 @@ slot0.getUIName = function(slot0)
 	return "EventUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"weaponframes",
+		"shiptype",
+		"ui/iconcolorful"
+	}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot4 = function(slot0)
+		if not slot0 or not slot0.type or not slot0.id then
+			return
+		end
+
+		slot1 = Drop.Create({
+			slot0.type,
+			slot0.id,
+			slot0.nums or slot0.count or 1
+		})
+
+		uv0(slot1:getIcon())
+		uv0(slot1:getDefaultIcon())
+	end
+
+	slot5 = getProxy(EventProxy):getEventList() or {}
+	slot6 = getProxy(BayProxy)
+
+	for slot10, slot11 in ipairs(slot5) do
+		slot3("eventtype/" .. slot11.template.icon)
+
+		slot12 = ipairs
+		slot13 = slot11.template.drop_display or {}
+
+		for slot15, slot16 in slot12(slot13) do
+			slot4(slot16)
+		end
+
+		slot4(slot11.template.special_drop)
+
+		slot12 = ipairs
+		slot13 = slot11.shipIds or {}
+
+		for slot15, slot16 in slot12(slot13) do
+			if slot6:RawGetShipById(slot16) then
+				slot3("SquareIcon/" .. slot17:getPainting())
+			end
+		end
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.init = function(slot0)
 	slot0.dispatch = function(...)
 		uv0:emit(...)

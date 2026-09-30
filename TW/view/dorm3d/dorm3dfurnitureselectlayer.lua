@@ -41,7 +41,7 @@ slot0.didEnter = function(slot0)
 	slot2 = slot0.normalZones
 	slot0.zoneIndex = 1
 
-	if slot0.scene:GetAttachedFurnitureName() then
+	if slot0.scene:GetCurrentZoneNodeName() then
 		table.Ipairs(slot2, function (slot0, slot1)
 			if slot1:GetWatchCameraName() == uv0 then
 				uv1.zoneIndex = slot0

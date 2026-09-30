@@ -97,10 +97,11 @@ end
 slot0.OnInitPanle = function(slot0)
 	if slot0.contextData.scroll then
 		slot1 = nil
-		slot1 = (slot0.contextData.scroll ~= "world_settings" or slot0:GetPanel(SettingsWorldPanle)) and slot0:GetPanel(slot0.contextData.scroll)
 
 		if slot0:GetPanel(slot0.contextData.scroll) then
-			slot0:ScrollToPanel(slot1)
+			slot0:RebuildLayout(function ()
+				uv0:ScrollToPanel(uv1)
+			end)
 		end
 	end
 end

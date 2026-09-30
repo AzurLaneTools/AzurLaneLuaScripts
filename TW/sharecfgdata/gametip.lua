@@ -4301,6 +4301,16 @@ _G.pg.base.gametip.spweapon_tip_type = {
 }
 
 
+_G.pg.base.gametip.spweapon_unique_title = {
+	tip = "適用角色"
+}
+
+
+_G.pg.base.gametip.spweapon_tip_jump = {
+	tip = "跳轉"
+}
+
+
 _G.pg.base.gametip.stage_beginStage_error = {
 	tip = "開始關卡失敗:"
 }
@@ -35519,6 +35529,11 @@ _G.pg.base.gametip.cruise_btn_pay = {
 }
 
 
+_G.pg.base.gametip.cruise_btn_pay_prev = {
+	tip = "解鎖上期特許巡遊獎勵"
+}
+
+
 _G.pg.base.gametip.cruise_btn_all = {
 	tip = "全部領取"
 }
@@ -47444,31 +47459,116 @@ _G.pg.base.gametip.exchange_code_skin_tip = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2606 = {
+	tip = "2026/10/1-2026/11/30期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲取<color=#854747>「柯尼斯堡·META」</color>在內的豐富獎勵"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2606 = {
+	tip = {
+		{
+			info = [[
+世界巡遊(2026.10.1-2026.11.30)
+
+·<color=#92fc63>開放時間</color>
+ 2026.10.1 0點 ~ 2026.11.30 23:59:59
+
+·<color=#92fc63>巡遊進度說明</color>
+（1）活動期間，指揮官通過完成巡遊任務，可獲取「巡遊點數」。
+（2）巡遊任務隨時間開放解鎖。
+（3）每獲取100點「巡遊點數」即可增加1巡遊進度
+（4）巡遊進度提升後可以獲取相應等級的獎勵，巡遊進度最高可達100。
+
+·<color=#92fc63>獎勵規則</color>
+巡遊進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「柯尼斯堡·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·九期</color>等獎勵；
+ 當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。
+（2）特許巡遊獎勵：包含<color=#ff5c5c>深雪換裝「甜蜜的意外序曲 </color>」、<color=#ff5c5c>鉆石</color>等獎勵；
+ 購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
+ 注：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。
+
+·<color=#92fc63>「特許巡遊憑證」說明</color>
+（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點</color>「巡遊點數」同時解鎖特許巡遊獎勵。
+（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即11.30 22:59:59停止)，請指揮官注意購買時間。
+
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每週任務 
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵。
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鉆石進行補齊
+（3）每個巡遊任務需要消耗的完成券數量固定，與當前任務進度無關
+（4）「巡遊任務快速完成券」不會隨本期活動結束而消失
+
+·<color=#ff5c5c>特別提示</color>
+（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。
+（2）巡遊進度、[特許巡遊憑證]僅對本期世界巡遊活動生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2606 = {
+	tip = {
+		{
+			info = [[
+巡遊任務說明
+
+·<color=#92fc63>開放時間</color>
+ 2026.10.1 0點 ~ 2026.11.30 23:59:59
+
+·<color=#92fc63>巡遊任務分為兩種</color>
+（1）每週任務
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務。
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後將自動接取，滿足任務完成條件時，會自動完成並獲取對應獎勵
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成每週巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鉆石進行補齊
+（3）每個巡遊任務需要消耗的「巡遊任務快速完成券」數量和其提供的「巡遊點數」相關，與當前任務進度無關
+（4）「巡遊任務快速完成券」<color=#92fc63>不會隨本期活動結束而消失</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_title_2606 = {
+	tip = "世界巡遊·第二十九期"
+}
+
+
 _G.pg.base.gametip.littleyunxian_npc = {
 	tip = {
 		{
-			info = "獨立小仙尋寶中說明："
+			info = "独立小仙寻宝中说明："
 		},
 		{
-			info = "1.活動期間，玩家可獲得臨時npc角色「{namecode:563}」，臨時角色不可誓約、不可退役、不可被選為強化突破材料。"
+			info = "1.活动期间，玩家可获得临时npc角色「{namecode:563}」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
 		},
 		{
-			info = "2.活動期間，完成活動任務，可獲得臨時npc角色「{namecode:563}」的友好度。"
+			info = "2.活动期间，完成活动任务，可获得临时npc角色「{namecode:563}」的友好度。"
 		},
 		{
-			info = "3.6月17日為止，每日解鎖1個可達成的友好度階段。"
+			info = "3.6月3日为止，每日解锁1个可达成的友好度阶段。"
 		},
 		{
-			info = "4.在活動結束前累計獲得10000點友好度，可領取獎勵並將臨時角色「{namecode:563}」轉化為永久角色。"
+			info = "4.在活动结束前累计获得10000点友好度，可领取奖励并将临时角色「{namecode:563}」转化为永久角色。"
 		},
 		{
-			info = "5.在活動結束後，未完成轉化的臨時角色「{namecode:563}」將離開港區，不返還已經消耗的強化、突破等培養材料。"
+			info = "5.在活动结束后，未完成转化的临时角色「{namecode:563}」将离开港区，不返还已经消耗的强化、突破等培养材料。"
 		},
 		{
-			info = "6.npc角色無法參與大型作戰。"
+			info = "6.npc角色无法参与大型作战。"
 		},
 		{
-			info = "7.npc角色無法參與大艦隊作戰中的事件派遣、攻堅隊和首領戰。"
+			info = "7.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战。"
 		}
 	}
 }
@@ -50038,6 +50138,111 @@ _G.pg.base.gametip.auto_battle_help = {
 }
 
 
+_G.pg.base.gametip.auto_battle_in_world = {
+	tip = "有正在進行的作戰委託，無法執行新的作戰委託"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_award = {
+	tip = "委託產出"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_level = {
+	tip = "需要委託的侵蝕等級"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_quantity = {
+	tip = "海域數量選擇"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_progress = {
+	tip = "完成進度"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_cancel_tip = {
+	tip = "是否取消作戰委託"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_in_progress = {
+	tip = "作戰委託進行中"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip1 = {
+	tip = "有正在執行的作戰委託"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip2 = {
+	tip = "資源不足，無法進行委託"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip3 = {
+	tip = "目前沒有更多可以委派的海域"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip4 = {
+	tip = "已完成的委託獎勵已轉化為相應數量的「戰備物資兌換券」"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip5 = {
+	tip = "完成1次侵蝕等級6的普通海域壓制後，購買使用隱密海域資訊紀錄器解鎖"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip6 = {
+	tip = "大型作戰將要進行重置，是否結算目前作戰委托獎勵\n\n目前存在尚未完成的作戰委托，可等待目前委托結束後再執行重置。若確認結算，將立刻結算正在進行的作戰委托並重置大型作戰"
+}
+
+
+_G.pg.base.gametip.world_auto_buy_unlock = {
+	tip = "<icon name=lock /> 購買使用<icon name=icon w=0.3 h=0.3 />後解鎖"
+}
+
+
+_G.pg.base.gametip.world_auto_level_less_3 = {
+	tip = "3及以下"
+}
+
+
+_G.pg.base.gametip.world_auto_level_all = {
+	tip = "全部"
+}
+
+
 _G.pg.base.gametip.reverse_pacman_no_char = {
 	tip = "請先前往「<color=#92fc63>調查手冊</color>」和「<color=#92fc63>幽影招募</color>」，招募任意幽影後方可繼續"
+}
+
+
+_G.pg.base.gametip.auto_download_tip = {
+	tip = "已開啟自動下載（$1），請注意流量消耗\n\n可前往設定-資源-資源管理介面查看下載進度"
+}
+
+
+_G.pg.base.gametip.auto_download_btn = {
+	tip = "前往設定"
+}
+
+
+_G.pg.base.gametip.setting_download_basic_assets = {
+	tip = "基礎資源下載"
+}
+
+
+_G.pg.base.gametip.setting_restart_download_btn = {
+	tip = "繼續下載"
+}
+
+
+_G.pg.base.gametip.loading_flow_tip = {
+	tip = "正在使用移動數據下載資源，請注意流量消耗 "
 }

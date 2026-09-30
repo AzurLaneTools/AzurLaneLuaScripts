@@ -87,6 +87,134 @@ slot0.getUIName = function(slot0)
 	return "CollectionUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+		"ui/collectionui",
+		"ui/share/index_atlas"
+	}, (function ()
+		slot0 = {}
+
+		for slot4, slot5 in ipairs(pg.storeup_data_template.all) do
+			slot7 = ipairs
+			slot8 = pg.storeup_data_template[slot5].char_list or {}
+
+			for slot10, slot11 in slot7(slot8) do
+				if ShipGroup.getDefaultSkin(slot11) then
+					table.insertto(slot0, ResPathSupport.GetShipSkinSpineShipModelList(slot12.id))
+				end
+			end
+		end
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+
+		for slot4, slot5 in ipairs(pg.ship_data_group.all) do
+			slot7 = pg.ship_data_group[slot5].group_type
+			slot9 = ShipGroup.New({
+				id = slot7
+			})
+
+			if ShipGroup.getDefaultSkin(slot7) then
+				table.insertto(slot0, ResPathSupport.GetShipSkinPaintingShipYardIconList(slot8.id))
+			end
+
+			table.insert(slot0, string.format(ResPathSupport.ConstPath.BG.ShipCard, slot9:rarity2bgPrint(false)))
+
+			if pg.ship_data_trans[slot7] then
+				if ShipGroup.getModSkin(slot7) then
+					table.insertto(slot0, ResPathSupport.GetShipSkinPaintingShipYardIconList(slot10.id))
+				end
+
+				slot9.trans = true
+
+				table.insert(slot0, string.format(ResPathSupport.ConstPath.BG.ShipCard, slot9:rarity2bgPrint(true)))
+			end
+		end
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+
+		slot1 = function(slot0)
+			if Drop.New({
+				type = slot0[1],
+				id = slot0[2],
+				count = slot0[3]
+			}).type == DROP_TYPE_SHIP then
+				slot2 = Ship.New({
+					configId = slot1.id
+				})
+
+				table.insertto(uv0, ResPathSupport.GetPaintingSquareIconListByPaintingName(slot2:getPainting()))
+				table.insertto(uv0, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot2:getPainting()))
+				table.insert(uv0, string.format(ResPathSupport.ConstPath.BG.ShipCard, slot2:rarity2bgPrint()))
+			elseif slot1.type == DROP_TYPE_EQUIP then
+				table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.Equipment.Equip, slot1:getSubClass():getConfig("icon")))
+			elseif slot1.type == DROP_TYPE_FURNITURE then
+				table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.FurnitureIcon, slot1:getIcon()))
+			elseif slot1.type == DROP_TYPE_ITEM or slot1.type == DROP_TYPE_VITEM or slot1.type == DROP_TYPE_META_PT or slot1.type == DROP_TYPE_LOVE_LETTER then
+				if noEmptyStr(slot1:getSubClass().icon or slot2:getConfig("icon")) then
+					table.insert(uv0, slot3)
+				end
+			elseif slot1.type == DROP_TYPE_RESOURCE and id2ItemId(slot1.id) then
+				uv1({
+					DROP_TYPE_ITEM,
+					slot2,
+					slot1.count
+				})
+			end
+		end
+
+		for slot5, slot6 in ipairs(pg.storeup_data_template.all) do
+			slot8 = ipairs
+			slot9 = pg.storeup_data_template[slot6].award_display or {}
+
+			for slot11, slot12 in slot8(slot9) do
+				slot1(slot12)
+			end
+		end
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+
+		for slot4, slot5 in ipairs(pg.cartoon.all) do
+			if MangaConst.GetMangaPicPathByID(slot5) then
+				table.insert(slot0, slot6)
+			end
+		end
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+
+		for slot4, slot5 in ipairs(pg.gallery_config.all) do
+			slot7 = GalleryConst.GetGalleryPreviewPicPathByID(slot5)
+
+			if GalleryConst.GetGalleryPicPathByID(slot5) then
+				table.insert(slot0, slot6)
+			end
+
+			if slot7 then
+				table.insert(slot0, slot7)
+			end
+		end
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+
+		for slot4, slot5 in ipairs(pg.music_album.all) do
+			if pg.music_album[slot5].cover and slot7 ~= "" then
+				table.insert(slot0, MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot7)
+			end
+		end
+
+		return slot0
+	end)()))
+end
+
 slot0.setShipGroups = function(slot0, slot1)
 	slot0.shipGroups = slot1
 end

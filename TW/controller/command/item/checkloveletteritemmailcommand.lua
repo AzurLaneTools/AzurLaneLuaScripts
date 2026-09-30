@@ -8,7 +8,7 @@ slot0.execute = function(slot0, slot1)
 		item_id = slot2.item_id,
 		groupid = slot2.group_id
 	}, 30017, function (slot0)
-		slot1 = underscore.rest(slot0.years, 1)
+		slot1 = underscore.to_array(slot0.years)
 
 		getProxy(BagProxy):SetLoveLetterRepairInfo(uv0 .. "_" .. uv1, slot1)
 

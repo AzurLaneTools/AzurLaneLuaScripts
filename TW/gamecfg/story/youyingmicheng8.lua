@@ -7,11 +7,12 @@ return {
 	},
 	scripts = {
 		{
-			side = 2,
-			bgName = "star_level_bg_497",
-			actorName = "廣播",
-			bgm = "story-visioncity-1",
 			nameColor = "#A9F548FF",
+			side = 2,
+			actorName = "廣播",
+			bgName = "star_level_bg_497",
+			bgm = "story-visioncity-1",
+			NextIcon = 1,
 			say = "【收容區……危險……】 【請……請勿靠近……請勿靠近……】",
 			typewriter = {
 				speed = 0.05,
@@ -37,9 +38,10 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影行動員",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "果然出事了。",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -55,9 +57,10 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影行動員",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "看起來，我們有不少「房客」越獄了呢。",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -71,8 +74,9 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_497",
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			NextIcon = 1,
 			say = "晚點再收拾這裡的殘局吧。先去裝備庫，找標槍的武器。",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +84,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_497",
+			nameColor = "#A9F548FF",
 			say = "我們快步穿過大廳，可越往裡走，周圍的景象就越陌生。",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +95,10 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_497",
+			nameColor = "#A9F548FF",
 			say = "走廊兩旁原本貼著安全標示的牆面上，不知何時多出了一扇又一扇擺滿人偶的玻璃櫥窗。",
 			typewriter = {
 				speed = 0.05,
@@ -105,9 +111,10 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影行動員",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "……我說，這些玩偶是怎麼回事。",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -123,8 +130,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影行動員",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -135,6 +143,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_497",
 			withoutActorName = true,
@@ -171,8 +180,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "指揮官，大壞蛋。",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +195,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "把匆忙丟在這裡，自己跑出去玩……",
 			typewriter = {
 				speed = 0.05,
@@ -199,11 +210,12 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影行動員",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			portrait = 301191,
+			NextIcon = 1,
+			actorName = "天津風",
 			hideRecordIco = true,
 			actor = 201401,
-			actorName = "天津風",
+			nameColor = "#A9F548FF",
+			portrait = 301191,
 			say = "喔~前不久被你收容的小妹妹好像有意見了呢？沒記錯的話，她就是你和標槍相遇的契機吧。",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +228,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "那天，匆忙只想在街上找人一起玩……然後就找到了指揮官……",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +243,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "但被找到之後，指揮官就一直把我留在那個冰冷的球裡……",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +258,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "還好那個新來的大姐姐把我們都放出來啦~",
 			typewriter = {
 				speed = 0.05,
@@ -257,6 +272,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_497",
 			actorName = "{playername}",
+			NextIcon = 1,
 			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
@@ -268,11 +284,12 @@ return {
 		},
 		{
 			expression = 6,
-			nameColor = "#FF9B93",
-			bgName = "star_level_bg_497",
 			side = 2,
+			bgName = "star_level_bg_497",
+			nameColor = "#FF9B93",
 			dir = 1,
 			actor = 201401,
+			NextIcon = 1,
 			say = "所以，匆忙現在又可以找指揮官玩了呢~",
 			typewriter = {
 				speed = 0.05,
@@ -280,39 +297,42 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_497",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_497",
-			side = 2,
-			withoutActorName = true,
 			say = "話音落下，玻璃櫥窗裡傳來細碎的低語。",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_497",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_497",
-			side = 2,
-			withoutActorName = true,
 			say = "「別走……」「留下來……」 「一個人好冷……」「笑一笑，笑起來就不會被丟下了……」",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			NextIcon = 1,
+			side = 2,
+			bgName = "star_level_bg_497",
+			withoutActorName = true,
+			hideRecordIco = true,
 			actor = 201401,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_497",
-			side = 2,
-			withoutActorName = true,
 			say = "那些聲音層層疊疊，像是同一個孩子把孤獨拆成了無數份，藏進了每個人偶身體裡。",
-			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,8 +344,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "嘻嘻~指揮官，我們一起來玩遊戲吧！",
 			typewriter = {
 				speed = 0.05,
@@ -333,12 +354,13 @@ return {
 			}
 		},
 		{
-			actor = 201401,
+			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_497",
 			factiontag = "幽影",
 			dir = 1,
-			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "規則很簡單——燈亮的時候可以走，燈滅的時候不許動。",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +373,9 @@ return {
 			bgName = "star_level_bg_497",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 201401,
 			nameColor = "#FF9B93",
+			actor = 201401,
+			NextIcon = 1,
 			say = "如果動了，就要留在這裡，變成我的新朋友。",
 			typewriter = {
 				speed = 0.05,
@@ -360,6 +383,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			blackBg = true,
@@ -378,6 +402,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
 			blackBg = true,
@@ -394,8 +419,9 @@ return {
 			factiontag = "幽影行動員",
 			dir = 1,
 			blackBg = true,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			actorPosition = {
 				x = -200,
 				y = 0
@@ -408,6 +434,7 @@ return {
 		{
 			actor = 0,
 			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			portrait = "zhihuiguan",
 			side = 2,
 			blackBg = true,
@@ -418,6 +445,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
@@ -442,11 +470,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "哇，指揮官過關了呢~那我們來玩第二輪吧！",
 			typewriter = {
 				speed = 0.05,
@@ -456,6 +485,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -470,6 +500,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -484,11 +515,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "等你回來……？",
 			typewriter = {
 				speed = 0.05,
@@ -496,13 +528,14 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "匆忙垂下眼，手指輕輕捏住裙擺。",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "匆忙垂下眼，手指輕輕捏住裙擺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,11 +544,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "不要嘛。",
 			typewriter = {
 				speed = 0.05,
@@ -525,11 +559,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "說著「馬上回來」，然後門關上，燈關上，腳步聲越來越遠……",
 			typewriter = {
 				speed = 0.05,
@@ -539,11 +574,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "最後只有人偶不會急著走，只有人偶還坐在原地陪我。",
 			typewriter = {
 				speed = 0.05,
@@ -551,13 +587,14 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "她的聲音越來越輕，身後櫥窗裡的笑臉卻越來越多，密密麻麻地擠滿了玻璃。",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "她的聲音越來越輕，身後櫥窗裡的笑臉卻越來越多，密密麻麻地擠滿了玻璃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,6 +603,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -580,11 +618,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "……欸？",
 			typewriter = {
 				speed = 0.05,
@@ -594,6 +633,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -608,11 +648,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "你不會嫌我吵嗎……？",
 			typewriter = {
 				speed = 0.05,
@@ -622,6 +663,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -636,11 +678,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#FF9B93",
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#FF9B93",
+			NextIcon = 1,
 			say = "……這種時候該反駁吧？",
 			typewriter = {
 				speed = 0.05,
@@ -650,6 +693,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -662,26 +706,28 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "匆忙怔怔地看著我。許久之後，她忽然拍了拍掌心，開心地跳下座椅。",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "匆忙怔怔地看著我。許久之後，她忽然拍了拍掌心，開心地跳下座椅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "纏住我的絲線一根根鬆開，束縛感隨之消失。",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "纏住我的絲線一根根鬆開，束縛感隨之消失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,11 +736,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			say = "大家，今天閉館~",
 			typewriter = {
 				speed = 0.05,
@@ -702,12 +749,13 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
+			actor = 201401,
+			NextIcon = 1,
 			say = "我已經找到可以一起出門的人啦！",
 			typewriter = {
 				speed = 0.05,
@@ -715,26 +763,28 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "玻璃櫥窗、暖黃色聚光燈，都像被捲入風中的紙片般一點碎散。",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "玻璃櫥窗、暖黃色聚光燈，都像被捲入風中的紙片般一點碎散。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "原本被藏在櫥窗深處的裝備室顯露出來。",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "原本被藏在櫥窗深處的裝備室顯露出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,11 +793,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			say = "對不起啦~不藏起來的話，你們拿了東西就會走掉。",
 			typewriter = {
 				speed = 0.05,
@@ -755,25 +806,27 @@ return {
 			}
 		},
 		{
-			actor = 201401,
-			nameColor = "#A9F548FF",
-			say = "她走到我身邊，輕輕牽住了我的手，仰頭期待地看著我。",
+			NextIcon = 1,
 			side = 2,
 			withoutActorName = true,
 			blackBg = true,
 			hideRecordIco = true,
+			actor = 201401,
+			nameColor = "#A9F548FF",
+			say = "她走到我身邊，輕輕牽住了我的手，仰頭期待地看著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 201401,
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			factiontag = "幽影",
 			dir = 1,
 			blackBg = true,
+			actor = 201401,
+			NextIcon = 1,
 			say = "指揮官，無論你想去哪裡，我都會陪著你的哦。",
 			typewriter = {
 				speed = 0.05,
@@ -783,6 +836,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,
@@ -797,6 +851,7 @@ return {
 		{
 			portrait = "zhihuiguan",
 			side = 2,
+			NextIcon = 1,
 			actorName = "{playername}",
 			blackBg = true,
 			hideRecordIco = true,

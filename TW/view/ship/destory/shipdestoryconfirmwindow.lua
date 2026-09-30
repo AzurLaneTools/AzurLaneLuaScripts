@@ -4,6 +4,34 @@ slot0.getUIName = function(slot0)
 	return "DestoryConfirmWindow"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"weaponframes",
+		"shiptype",
+		"ui/iconcolorful"
+	}, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.getShipResList = function(slot0, slot1)
+	_.each(slot1 or {}, function (slot0)
+		if slot0 then
+			table.insertto(uv0, ResPathSupport.GetPaintingSquareIconListByPaintingName(slot0:getPainting()))
+		end
+	end)
+
+	return {}
+end
+
+slot0.downloadShipResList = function(slot0, slot1, slot2)
+	SplitPackConst.DownloadByLuaArr(slot0:getShipResList(slot1), function ()
+		if uv0._state == uv1.STATES.DESTROY then
+			return
+		end
+
+		uv2()
+	end)
+end
+
 slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
 
@@ -68,6 +96,12 @@ slot0.Confirm = function(slot0)
 end
 
 slot0.ShowOneShipProtect = function(slot0, slot1, slot2)
+	slot0:downloadShipResList(slot1, function ()
+		uv0:ShowOneShipProtectAfterResDownload(uv1, uv2)
+	end)
+end
+
+slot0.ShowOneShipProtectAfterResDownload = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
 	slot3 = pg.UIMgr.GetInstance()
@@ -133,6 +167,12 @@ slot0.ShowOneShipProtect = function(slot0, slot1, slot2)
 end
 
 slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
+	slot0:downloadShipResList(table.mergeArray(slot2 or {}, slot1 or {}), function ()
+		uv0:ShowAfterResDownload(uv1, uv2, uv3, uv4)
+	end)
+end
+
+slot0.ShowAfterResDownload = function(slot0, slot1, slot2, slot3, slot4)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
@@ -147,6 +187,12 @@ slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.ShowEliteTag = function(slot0, slot1, slot2)
+	slot0:downloadShipResList(slot1, function ()
+		uv0:ShowEliteTagAfterResDownload(uv1, uv2)
+	end)
+end
+
+slot0.ShowEliteTagAfterResDownload = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:SetCallBack(slot2)

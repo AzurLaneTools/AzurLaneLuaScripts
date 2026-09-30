@@ -866,6 +866,7 @@ pg.ship_data_group.all = {
 	30056,
 	30057,
 	30059,
+	30060,
 	30061,
 	30065
 }
@@ -3147,6 +3148,9 @@ pg.ship_data_group.get_id_list_by_group_type = {
 	[970210] = {
 		30059
 	},
+	[970212] = {
+		30060
+	},
 	[970301] = {
 		30013
 	},
@@ -4333,6 +4337,7 @@ pg.ship_data_group.get_id_list_by_handbook_type = {
 		30056,
 		30057,
 		30059,
+		30060,
 		30061,
 		30065
 	}
@@ -39165,6 +39170,41 @@ end)()
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9702101
+					}
+				},
+				0
+			}
+		}
+	}
+	pg.base.ship_data_group[30060] = {
+		nationality = 97,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970212,
+		index_id = 30060,
+		code = 30060,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9702121
 					}
 				},
 				0

@@ -6,9 +6,8 @@ slot0.ON_STICK_VIEW = "CarWashPovControlSystem.ON_STICK_VIEW"
 slot0.SWITCH_CAMERA = "CarWashPovControlSystem.SWITCH_CAMERA"
 slot0.MOVE_SPEED = 2
 slot0.MOVE_STICK_RANGE = 200
-slot0.VIEW_STICK_RATIO = 0.03
+slot0.VIEW_STICK_RATIO = 0.05
 slot0.FP_CAMERA = "FP Camera"
-slot0.INSIDE_CAR_CAMERA = "InsideCarCamera"
 
 slot0.OnInit = function(slot0)
 	slot0:InitSceneRefs()
@@ -35,8 +34,11 @@ slot0.RegisterEvents = function(slot0)
 		if slot1.newValue == CarWashConst.GAME_STATE.PHASE_1 then
 			uv0:SwitchCameraByName(uv1.FP_CAMERA)
 		elseif slot1.newValue == CarWashConst.GAME_STATE.PHASE_2 then
-			uv0:SwitchCameraByName(uv1.INSIDE_CAR_CAMERA)
+			uv0:SwitchCameraByName(uv0.posConfig.phase2_camera)
 		end
+	end)
+	slot0:Bind(CarWashGameFlowSystem.UPDATE_LADY_POS, function (slot0, slot1)
+		uv0.posConfig = slot1.newValue
 	end)
 	slot0:Bind(CarWashTimelineSystem.TIMELINE_SEQUENCE_BEGIN, function ()
 		setActive(uv0.mainCameraTF, false)
@@ -58,6 +60,7 @@ slot0.OnDispose = function(slot0)
 	slot0.currentCamera = nil
 	slot0.currentCameraTF = nil
 	slot0.currentCameraName = nil
+	slot0.posConfig = nil
 	slot0.cameras = nil
 	slot0.cameraNames = nil
 	slot0.cameraRoot = nil

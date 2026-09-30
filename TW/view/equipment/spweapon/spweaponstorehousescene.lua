@@ -4,6 +4,55 @@ slot0.getUIName = function(slot0)
 	return "SpWeaponStoreHouseUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/equipmentui_atlas",
+		"ui/share/index_atlas",
+		"weaponframes",
+		"ui/iconcolorful",
+		"ui/CustomIndexUI",
+		"ui/MsgBox",
+		"ui/SpWeaponUpgradeUI"
+	}
+
+	slot3 = function(slot0)
+		if not slot0 then
+			return
+		end
+
+		table.insert(uv0, slot0:GetIconPath())
+
+		if slot0:GetShipId() and slot1 > 0 and getProxy(BayProxy):RawGetShipById(slot1) then
+			table.insert(uv0, "qicon/" .. slot2:getPainting())
+		end
+	end
+
+	slot5 = slot1 and slot1.shipId
+	slot10 = slot5 and getProxy(BayProxy):RawGetShipById(slot5)
+
+	for slot10, slot11 in ipairs(slot4:GetSpWeaponsInShips(slot10)) do
+		slot3(slot11)
+	end
+
+	for slot10, slot11 in pairs(getProxy(EquipmentProxy):GetSpWeapons()) do
+		if not slot6 or not slot6:IsSpWeaponForbidden(slot11) then
+			slot3(slot11)
+		end
+	end
+
+	for slot10, slot11 in ipairs(SpWeapon.bindConfigTable().all) do
+		if SpWeapon.New({
+			id = slot11
+		}):IsCraftable() and (not slot6 or not slot6:IsSpWeaponForbidden(slot12)) then
+			slot3(slot12)
+		end
+	end
+
+	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+
+	return slot2
+end
+
 slot0.setEquipments = function(slot0, slot1)
 	slot0.equipmentVOs = slot1
 end

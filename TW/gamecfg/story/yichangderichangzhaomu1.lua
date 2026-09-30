@@ -4,12 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			bgm = "story-ghostnight-fascinsting",
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "應你邀請而來，指揮官。",
 			typewriter = {
@@ -18,11 +19,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "雖然我已經是你的幽影，但像這樣補個招募流程……也挺有趣。",
 			typewriter = {
@@ -37,12 +39,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "是的。雜音總會流向失衡之處，幽影也一樣……",
 			typewriter = {
 				speed = 0.05,
@@ -50,11 +53,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "只要聽見它下一拍要落在哪裡，提前等著便可。",
 			typewriter = {
@@ -72,9 +76,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呵呵，沒有誰能拔掉我的利齒。",
 			typewriter = {
@@ -83,11 +88,12 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "換一種演奏風格，不過是讓頻率以另一種方式轟鳴。",
 			typewriter = {
@@ -102,12 +108,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "不會。我的力量，正來自天外群星給予的回應。",
 			typewriter = {
 				speed = 0.05,
@@ -115,12 +122,13 @@ return {
 			}
 		},
 		{
-			actor = 202381,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_496",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actor = 202381,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "閒暇之餘，我也時常與它們合奏……指揮官願意的話，也一起來聽聽吧。",
 			typewriter = {
 				speed = 0.05,
@@ -128,12 +136,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "妳的各方面情況，我已經了解了。",
 			typewriter = {
 				speed = 0.05,
@@ -141,12 +150,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_496",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "虎，歡迎加入。",
 			typewriter = {
 				speed = 0.05,
@@ -157,9 +167,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_496",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 202381,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "你早就被納入了我的樂章，期待我們的下一場並肩演奏。",
 			typewriter = {

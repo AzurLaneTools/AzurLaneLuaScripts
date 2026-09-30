@@ -16526,6 +16526,37 @@ _G.pg.base.item_data_statistics[21059] = {
 }
 
 
+_G.pg.base.item_data_statistics[21060] = {
+	open_directly = 0,
+	name = "結晶：{namecode:555}",
+	type = 4,
+	display = "{namecode:555}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21060",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21061] = {
 	open_directly = 0,
 	name = "結晶：{namecode:556}",
@@ -31525,6 +31556,58 @@ _G.pg.base.item_data_statistics[30434] = {
 		{
 			9,
 			2120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30435] = {
+	open_directly = 1,
+	name = "外觀裝備箱(世界巡遊)",
+	type = 11,
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111229",
+	id = 30435,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2121,
+			1
+		},
+		{
+			9,
+			2122,
+			1
+		},
+		{
+			9,
+			2123,
+			1
+		},
+		{
+			9,
+			2124,
 			1
 		}
 	},
@@ -101272,6 +101355,73 @@ _G.pg.base.item_data_statistics[81238] = {
 		{
 			2,
 			86230,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81239] = {
+	open_directly = 1,
+	name = "幽影迷城換裝禮盒II",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2026，心智單元*50，心智魔方*20，高級定向藍圖·九期*2，快速完成工具*10，傢俱幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai39",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998334",
+	id = 81239,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86231,
 			1
 		},
 		{

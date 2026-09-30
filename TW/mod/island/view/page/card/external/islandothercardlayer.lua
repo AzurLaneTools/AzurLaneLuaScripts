@@ -42,6 +42,22 @@ slot0.preload = function(slot0, slot1)
 	end)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot3 = ipairs
+	slot4 = {
+		"ui/islandcardui_atlas"
+	} or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		if not table.contains(slot1, slot7) then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	return slot1
+end
+
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
 	setText(slot0._tf:Find("panel/achvs/tpl/empty/Text"), i18n("island_card_no_achv_other"))

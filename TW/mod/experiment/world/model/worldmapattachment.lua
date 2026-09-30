@@ -195,8 +195,8 @@ slot0.Setup = function(slot0, slot1)
 	slot0.id = slot1.item_id
 	slot0.flag = slot1.item_flag
 	slot0.data = slot1.item_data
-	slot0.effects = underscore.rest(slot1.effect_list, 1)
-	slot0.buffList = underscore.rest(slot1.buff_list, 1)
+	slot0.effects = underscore.to_array(slot1.effect_list)
+	slot0.buffList = underscore.to_array(slot1.buff_list)
 	slot0.hp = slot1.boss_hp
 
 	slot0:InitConfig()
@@ -283,7 +283,7 @@ slot0.UpdateData = function(slot0, slot1, slot2)
 	slot0.data = slot1
 
 	if slot0.type == uv0.TypeEvent then
-		slot0.effects = underscore.rest(slot2, 1)
+		slot0.effects = underscore.to_array(slot2)
 	end
 
 	slot0:DispatchEvent(uv0.EventUpdateData)

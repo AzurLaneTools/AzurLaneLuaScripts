@@ -57,6 +57,10 @@ slot0.GetUniqueGroup = function(slot0)
 	return slot0:getConfig("unique")
 end
 
+slot0.GetUniqueShips = function(slot0)
+	return getProxy(BayProxy):findShipsByGroup(slot0:GetUniqueGroup())
+end
+
 slot0.GetType = function(slot0)
 	return slot0:getConfig("type")
 end

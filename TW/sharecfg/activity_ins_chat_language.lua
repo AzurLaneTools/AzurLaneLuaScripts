@@ -10536,7 +10536,63 @@ pg.activity_ins_chat_language.all = {
 	11651,
 	11652,
 	11653,
-	11654
+	11654,
+	11655,
+	11656,
+	11657,
+	11658,
+	11659,
+	11660,
+	11661,
+	11662,
+	11663,
+	11664,
+	11665,
+	11666,
+	11667,
+	11668,
+	11669,
+	11670,
+	11671,
+	11672,
+	11673,
+	11674,
+	11675,
+	11676,
+	11677,
+	11678,
+	11679,
+	11680,
+	11681,
+	11682,
+	11683,
+	11684,
+	11685,
+	11686,
+	11687,
+	11688,
+	11689,
+	11690,
+	11691,
+	11692,
+	11693,
+	11694,
+	11695,
+	11696,
+	11697,
+	11698,
+	11699,
+	11700,
+	11701,
+	11702,
+	11703,
+	11704,
+	11705,
+	11706,
+	11707,
+	11708,
+	11709,
+	11710
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -103295,5 +103351,468 @@ end)()
 		type = 1,
 		id = 11654,
 		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11655] = {
+		param = "緊急情況喵！啾啾遊戲廳今天的營業額……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11655,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11656] = {
+		param = "暴跌了喵！！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11656,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11657] = {
+		param = "明明我才花大錢引進了最近的跳舞機……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11657,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11658] = {
+		param = "而且今天出門前，我還看到遊戲廳門口圍了一圈又一圈的人，這才放心去商店的",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11658,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11659] = {
+		param = "哦，那是大家聚在門口看綾波打萌舞達人",
+		ship_group = 10131,
+		option = "",
+		type = 1,
+		id = 11659,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11660] = {
+		param = "她太厲害了，有不少人想挑戰，所以圍觀的人越來越多……",
+		ship_group = 10131,
+		option = "",
+		type = 1,
+		id = 11660,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11661] = {
+		param = "只圍觀不上手……就跟白看書不花錢的人一樣！！都是想讓明石破產喵~！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11661,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11662] = {
+		param = "不過，綾波的表現確實很帥呢",
+		ship_group = 30311,
+		option = "",
+		type = 1,
+		id = 11662,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11663] = {
+		param = "那已經不是普通玩家會有的眼神了，簡直像鬼神附身般冷酷",
+		ship_group = 30311,
+		type = 1,
+		id = 11663,
+		flag = 0,
+		option = {
+			{
+				1,
+				"妳們說的應該不是在打音遊吧……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11664] = {
+		param = "妳們說的應該不是在打音遊吧…… ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11664,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11665] = {
+		param = "是真的，凡人！打遊戲可不是鬧著玩的！",
+		ship_group = 40124,
+		option = "",
+		type = 1,
+		id = 11665,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11666] = {
+		param = "沒錯……被她擊敗之後，我的惡魔之力也被奪走了……！",
+		ship_group = 40136,
+		option = "",
+		type = 1,
+		id = 11666,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11667] = {
+		param = "綾波擊敗了一個又一個挑戰者，不斷吸收敗者的力量，最後進入了「鬼神」形態！",
+		ship_group = 40206,
+		option = "",
+		type = 1,
+		id = 11667,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11668] = {
+		param = "那股氣場太可怕了……旁人根本不敢靠近，五公尺之內都是禁區！",
+		ship_group = 30606,
+		option = "",
+		type = 1,
+		id = 11668,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11669] = {
+		param = "五公尺……那不是正好把遊戲廳的大門封印了喵？！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11669,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11670] = {
+		param = "唔，我的眼神很兇嗎……？",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11670,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11671] = {
+		param = "只是打了一天的萌舞達人，有點累了在強撐精神而已",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11671,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11672] = {
+		param = "等等，「鬼神」這個詞怎麼有點眼熟……",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11672,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11673] = {
+		param = "想起來了！萌舞達人節奏榜榜首，「三無鬼神」！",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11673,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11674] = {
+		param = "原來我這麼出名嗎？",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11674,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11675] = {
+		param = "霸榜超百天，分數遠遠領先第二名的傳奇，難怪能吸引這麼多玩家！",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11675,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11676] = {
+		param = "人是都被吸引來了沒錯，但大家堵在門口不進來，遊戲廳還是賺不到錢喵！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11676,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11677] = {
+		param = "那把機器挪到店裡面不就可以了？",
+		ship_group = 10212,
+		option = "",
+		type = 1,
+		id = 11677,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11678] = {
+		param = "那樣曝光度就會下降了……！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11678,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11679] = {
+		param = "好不容易能蹭到流量，當然要努力喵！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11679,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11680] = {
+		param = "而且那幾台萌舞達人的機器超貴的，只靠本身的收益完全沒法回本",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11680,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11681] = {
+		param = "如果不能靠它招來客流，遊戲廳或許撐不到後年……不不，明年就……嗚喵！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11681,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11682] = {
+		param = "320",
+		ship_group = 31201,
+		type = 4,
+		id = 11682,
+		flag = 1,
+		option = {
+			{
+				2,
+				"那比起糾結機器的位置，重點應該是……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11683] = {
+		param = "那比起糾結機器的位置，把圍觀的人變成真正進店消費的客流吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11683,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11684] = {
+		param = "在這方面，綾波帶來的廣告效果顯然比機器更強？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11684,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11685] = {
+		param = "但如果機器不擺在外面，路過的人又怎麼知道「三無鬼神」在這裡喵？",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11685,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11686] = {
+		param = "那就別靠路過的人「偶然看到」了。",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11686,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11687] = {
+		param = "我有一條計策，不過首先需要綾波的幫助……",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11687,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11688] = {
+		param = "如果能幫上忙的話，我沒問題",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11688,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11689] = {
+		param = "太謝謝綾波了喵！綾波是遊戲廳的大救星喵！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11689,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11690] = {
+		param = "不要高興太早了哦，還需要明石妳再出一大筆投資呢",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11690,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11691] = {
+		param = "303",
+		ship_group = 31201,
+		option = "",
+		type = 4,
+		id = 11691,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11692] = {
+		param = "我的紅尖尖……這……那明石要先聽聽妳的計劃喵！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11692,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11693] = {
+		param = "我們來辦一場萌舞達人擂台賽吧",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11693,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11694] = {
+		param = "前十名的玩家都可以獲得豐厚獎勵，而前三名將額外獲得——",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11694,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11695] = {
+		param = "挑戰現任擂主「三無鬼神」的資格！",
+		ship_group = 30213,
+		type = 1,
+		id = 11695,
+		flag = 2,
+		option = {
+			{
+				3,
+				"聽得我都躍躍欲試了"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11696] = {
+		param = "原來如此……聽得我都躍躍欲試了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11696,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11697] = {
+		param = "沒錯，就要這種效果",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11697,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11698] = {
+		param = "這樣一來，把萌舞達人機器擺在遊戲廳裡面就不成問題了",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11698,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11699] = {
+		param = "只要將這場賽事宣傳出去，參賽者就會像罐頭裡的沙丁魚一樣擠滿遊戲廳",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11699,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11700] = {
+		param = "我粗略計算了一下……現有的萌舞達人機器數量還不夠支援比賽",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 11700,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11701] = {
+		param = "必須再引進好幾台才行",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 11701,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11702] = {
+		param = "那場地佈置也得一起調整才好",
+		ship_group = 20513,
+		option = "",
+		type = 1,
+		id = 11702,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11703] = {
+		param = "贊成，如果吸引來了大量玩家卻無法承接住客流",
+		ship_group = 30118,
+		option = "",
+		type = 1,
+		id = 11703,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11704] = {
+		param = "那前面的投入也會白費了",
+		ship_group = 30118,
+		option = "",
+		type = 1,
+		id = 11704,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11705] = {
+		param = "所以，明石你做好大出血的準備了嗎？",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11705,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11706] = {
+		param = "這可是絕地翻盤的好機會呢",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11706,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11707] = {
+		param = "購入新的遊戲機、大廳改造、還有提供給玩家的豐厚獎品……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11707,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11708] = {
+		param = "放長線才能釣大魚，為了遊戲廳的發展——",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11708,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11709] = {
+		param = "用盡全身力氣說出那句話……我……我……我同意喵……！！！",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11709,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11710] = {
+		param = "309",
+		ship_group = 31201,
+		option = "",
+		type = 4,
+		id = 11710,
+		flag = 3
 	}
 end)()

@@ -9,6 +9,34 @@ slot0.getGroupName = function(slot0)
 	return "ShipMainScene"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = getProxy(BayProxy):getShipById(slot1.shipId)
+	slot3 = ys.Battle.BattleResourceManager.GetInstance()
+	slot4 = slot3.GetMapResource(40000)
+
+	table.insertto(slot4, slot3.GetDisplayCommonResource())
+	table.insertto(slot4, slot3.GetShipResource(slot2.configId, slot2.skinId))
+
+	slot5 = {}
+	slot6 = math.floor(slot2.configId / 10)
+
+	for slot10 = 1, 4 do
+		table.insert(slot5, tonumber(slot6 .. slot10))
+	end
+
+	for slot10, slot11 in ipairs(slot5) do
+		for slot15, slot16 in ipairs(pg.ship_data_breakout[slot11].weapon_ids) do
+			if slot16 ~= 0 then
+				for slot21, slot22 in ipairs(ys.Battle.BattleDataFunction.GetWeaponDataFromID(slot16).weapon_id) do
+					table.insertto(slot4, slot3.GetWeaponResource(slot22))
+				end
+			end
+		end
+	end
+
+	return table.insertto(slot4, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.setItems = function(slot0, slot1)
 	slot0.items = slot1
 end

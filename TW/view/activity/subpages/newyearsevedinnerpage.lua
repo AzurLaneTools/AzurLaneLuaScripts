@@ -104,7 +104,7 @@ end
 slot0.UpdateCookData = function(slot0)
 	slot1 = 0
 	slot0.receivedTasks = {}
-	slot2 = underscore.rest(slot0.cookTaskIds, 1)
+	slot2 = underscore.to_array(slot0.cookTaskIds)
 
 	for slot6, slot7 in ipairs(slot0.cookTaskIds) do
 		if slot0.taskProxy:getTaskVO(slot7):isReceive() then

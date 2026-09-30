@@ -7,6 +7,49 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dShopWindow"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"weaponframes",
+		"ui/shoptip_atlas"
+	}
+
+	slot5 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot6 = function(slot0)
+		slot1 = ipairs
+		slot2 = slot0 or {}
+
+		for slot4, slot5 in slot1(slot2) do
+			uv0("dorm3dbanner/" .. slot5)
+		end
+	end
+
+	if (slot1 or slot0.contextData or {}).drop then
+		slot5(slot4:GetIcon())
+
+		if slot4.__cname == "Dorm3dGift" then
+			if pg.dorm3d_gift[slot4.configId] then
+				slot8 = ipairs
+				slot9 = slot7.unlock_banners or {}
+
+				for slot11, slot12 in slot8(slot9) do
+					slot6(slot12[2])
+				end
+			end
+		elseif slot4.__cname == "Dorm3dFurniture" then
+			slot6(pg.dorm3d_furniture_template[slot4.configId] and slot7.unlock_banners)
+		elseif slot4.__cname == "Dorm3dSkin" then
+			slot6(pg.dorm3d_resource[slot4.configId] and slot7.unlock_banners)
+		end
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.init = function(slot0)
 	slot1 = slot0._tf
 	slot0.previewTf = slot1:Find("Window/Preview")

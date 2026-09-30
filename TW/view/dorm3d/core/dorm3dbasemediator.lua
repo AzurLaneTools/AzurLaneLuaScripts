@@ -18,14 +18,14 @@ end
 slot0.listNotificationInterests = function(slot0)
 	slot1 = underscore.keys(slot0.handleDic or {})
 
+	for slot6, slot7 in ipairs(slot0.GetDefaultSystemClasses()) do
+		if slot7.GetInterests then
+			slot1 = table.mergeArray(slot1, slot7.GetInterests(), true)
+		end
+	end
+
 	if slot0.viewComponent and slot0.viewComponent.systemManager then
 		slot1 = table.mergeArray(slot1, slot0.viewComponent.systemManager:GetAllInterests(), true)
-	else
-		for slot6, slot7 in ipairs(slot0.GetDefaultSystemClasses()) do
-			if slot7.GetInterests then
-				slot1 = table.mergeArray(slot1, slot7.GetInterests())
-			end
-		end
 	end
 
 	return slot1

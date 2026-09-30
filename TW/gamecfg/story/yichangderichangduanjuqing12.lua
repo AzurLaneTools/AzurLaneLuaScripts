@@ -5,11 +5,12 @@ return {
 	scripts = {
 		{
 			expression = 1,
-			nameColor = "#A9F548FF",
-			actor = 201401,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 201401,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指揮官，要不要留下來？",
 			typewriter = {
 				speed = 0.05,
@@ -19,9 +20,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "在這裡陪著匆忙，直到永遠……永遠……",
 			typewriter = {
@@ -42,10 +44,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "嘻嘻，開玩笑的啦，匆忙不會那麼自私的~",
 			typewriter = {
@@ -56,10 +59,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 201401,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "看來，匆忙還是不夠可愛呢……",
 			typewriter = {

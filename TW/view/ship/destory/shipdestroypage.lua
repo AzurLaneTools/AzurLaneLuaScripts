@@ -4,6 +4,60 @@ slot0.getUIName = function(slot0)
 	return "DestoryInfoUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"energy",
+		"shipstatus",
+		"shipframe",
+		"shiptype",
+		"ui/proposeshipcard",
+		"ui/heartshipcard",
+		"shipyardicon/unknown",
+		"ui/iconcolorful"
+	}, uv0.super.getResource(slot0, slot1))
+end
+
+slot0.getRefreshResList = function(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = ipairs
+	slot5 = slot1 or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		if slot2[slot8] then
+			slot0:insertDockyardShipItemRes(slot3, slot9)
+		end
+	end
+
+	slot4, slot5, slot6 = uv0.CalcShipsReturnRes(slot1, slot2)
+
+	table.insert(slot6, 1, Drop.New({
+		type = DROP_TYPE_RESOURCE,
+		id = PlayerConst.ResOil,
+		count = slot5
+	}))
+	table.insert(slot6, 1, Drop.New({
+		type = DROP_TYPE_RESOURCE,
+		id = PlayerConst.ResGold,
+		count = slot4
+	}))
+	_.each(slot6, function (slot0)
+		if slot0.count > 0 then
+			table.insert(uv0, slot0:getIcon())
+		end
+	end)
+
+	return slot3
+end
+
+slot0.insertDockyardShipItemRes = function(slot0, slot1, slot2)
+	table.insert(slot1, string.format(ResPathSupport.ConstPath.BG.ShipCard, slot2:rarity2bgPrint()))
+	table.insertto(slot1, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot2:getPainting()))
+
+	slot5, slot6 = slot2:GetFrameAndEffect()
+
+	table.insert(slot1, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Effect, slot6))
+end
+
 slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf
 	slot1 = slot1:Find("frame/sliders/content")
@@ -79,9 +133,15 @@ slot0.Refresh = function(slot0, slot1, slot2)
 	slot0.shipIds = slot1
 	slot0.shipVOs = slot2
 
-	slot0:DisplayShipList()
-	slot0:RefreshRes()
-	slot0:Show()
+	SplitPackConst.DownloadByLuaArr(slot0:getRefreshResList(slot1, slot2), function ()
+		if uv0._state == uv1.STATES.DESTROY then
+			return
+		end
+
+		uv0:DisplayShipList()
+		uv0:RefreshRes()
+		uv0:Show()
+	end)
 end
 
 slot0.DisplayShipList = function(slot0)

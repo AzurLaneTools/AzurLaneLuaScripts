@@ -16,9 +16,13 @@ slot0.FINISH_CLASS_ALL = "CommissionInfoMediator:FINISH_CLASS_ALL"
 slot0.GO_META_BOSS = "CommissionInfoMediator:GO_META_BOSS"
 slot0.GO_BATTLE = "CommissionInfoMediator.GO_BATTLE"
 slot0.ON_END_CHAPTER_AUTO = "CommissionInfoMediator.ON_END_CHAPTER_AUTO"
+slot0.GO_WORLD = "CommissionInfoMediator.GO_WORLD"
 
 slot0.register = function(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+	slot0:bind(uv0.GO_WORLD, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLD)
+	end)
 	slot0:bind(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
 			chapterId = slot1,
@@ -265,19 +269,7 @@ slot0.handleNotification = function(slot0, slot1)
 				end
 			end)
 		elseif slot2 == GAME.END_CHAPTER_AUTO_DONE then
-			slot0:addSubLayers(Context.New({
-				viewComponent = ChapterAutoTotalRewardLayer,
-				mediator = ChapterAutoTotalRewardMediator,
-				data = {
-					rewards = slot3.awards,
-					totalTimes = slot3.allCnt,
-					finishTimes = slot3.finishCnt,
-					proficiency = slot3.proficiency,
-					onClose = function ()
-						uv0.viewComponent:OnUpdateChapterAuto()
-					end
-				}
-			}), true)
+			slot0:HandleChapterAutoDone(slot3)
 		elseif slot2 == START_CHAPTER_AUTO_DONE then
 			slot0.viewComponent:OnUpdateChapterAuto()
 		elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
@@ -315,6 +307,67 @@ slot0.HandleClassMaxLevel = function(slot0, slot1, slot2, slot3, slot4)
 			end
 		})
 	end
+end
+
+slot0.HandleChapterAutoDone = function(slot0, slot1)
+	switch(slot1.type, {
+		[ChapterAutoProxy.TYPE.SLG] = function ()
+			uv0:addSubLayers(Context.New({
+				viewComponent = ChapterAutoTotalRewardLayer,
+				mediator = ChapterAutoTotalRewardMediator,
+				data = {
+					rewards = uv1.awards,
+					totalTimes = uv1.allCnt,
+					finishTimes = uv1.finishCnt,
+					proficiency = uv1.proficiency,
+					onClose = function ()
+						uv0.viewComponent:OnUpdateChapterAuto()
+					end
+				}
+			}), true)
+		end,
+		[ChapterAutoProxy.TYPE.WORLD] = function ()
+			slot1 = nowWorld():GetAtlas()
+			slot2 = {}
+
+			for slot6, slot7 in ipairs(uv0.mapList) do
+				if slot0.pressingAwardDic[slot7].flag then
+					slot0:FlagMapPressingAward(slot7)
+					slot1:MarkMapTransport(slot7)
+
+					if #pg.world_event_complete[slot8.id].event_reward_slgbuff > 0 then
+						slot2[slot10[1]] = defaultValue(slot2[slot10[1]], 0) + slot10[2]
+					end
+				end
+			end
+
+			slot3 = {}
+
+			for slot7, slot8 in pairs(slot2) do
+				table.insert(slot3, {
+					id = slot7,
+					floor = slot8,
+					before = slot0:GetGlobalBuff(slot7):GetFloor()
+				})
+				slot0:AddGlobalBuff(slot7, slot8)
+			end
+
+			uv1:addSubLayers(Context.New({
+				viewComponent = WorldChapterAutoRewardLayer,
+				mediator = WorldChapterAutoRewardMediator,
+				data = {
+					awards = uv0.awards,
+					buffInfos = slot3,
+					proficiency = uv0.proficiency,
+					onClose = function ()
+						uv0.viewComponent:OnUpdateChapterAuto()
+					end
+				}
+			}), true)
+		end
+	}, function ()
+		assert(false, "Unknown commission type: " .. uv0.type)
+	end)
 end
 
 return slot0

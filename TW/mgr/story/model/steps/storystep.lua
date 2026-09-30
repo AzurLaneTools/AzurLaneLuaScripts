@@ -596,92 +596,74 @@ slot0.GetResList = function(slot0)
 	end
 
 	slot3 = _.map(slot1, function (slot0)
-		return "bg/" .. slot0
+		return ResPathSupport.CombinePath(ResPathSupport.ConstPath.BG.Base, slot0)
 	end)
 	slot4 = {}
-	slot5, slot6, slot7 = slot0:GetBgmData()
+	slot5 = {}
+	slot6, slot7, slot8 = slot0:GetBgmData()
 
-	if slot5 then
-		table.insert(slot4, slot5)
+	if slot6 then
+		table.insert(slot4, slot6)
 	end
-
-	slot8 = {}
-
-	_.each(slot4, function (slot0)
-		table.insert(uv0, "cue/" .. slot0 .. ".b")
-		table.insert(uv0, "cue/bgm-" .. slot0 .. ".b")
-	end)
-
-	slot9 = {}
 
 	if slot0:ShouldPlaySoundEffect() then
-		slot10, slot11 = slot0:GetSoundeffect()
+		slot9, slot10 = slot0:GetSoundeffect()
 
-		if slot10 then
-			table.insert(slot9, slot10)
+		if slot9 then
+			slot11 = pg.CriMgr.GetInstance()
+
+			if slot11:CheckFModeEvent(slot9, function ()
+			end, function ()
+			end) then
+				table.insert(slot4, slot11)
+			end
 		end
 	end
-
-	slot10 = {}
-
-	_.each(slot9, function (slot0)
-		slot1 = pg.CriMgr.GetInstance()
-
-		if slot1:CheckFModeEvent(slot0, function ()
-		end, function ()
-		end) then
-			table.insert(uv0, "cue/" .. slot1 .. ".b")
-		end
-	end)
-
-	slot11 = {}
 
 	if slot0:ShouldPlayVoice() then
-		slot12, slot13 = slot0:GetVoice()
+		slot9, slot10 = slot0:GetVoice()
 
-		if slot12 then
-			table.insert(slot11, slot12)
+		if slot9 then
+			slot11 = pg.CriMgr.GetInstance()
+
+			if slot11:CheckFModeEvent(slot9, function ()
+			end, function ()
+			end) then
+				table.insert(slot4, slot11)
+			end
 		end
 	end
 
-	slot12 = {}
-
-	_.each(slot11, function (slot0)
-		slot1 = pg.CriMgr.GetInstance()
-
-		if slot1:CheckFModeEvent(slot0, function ()
-		end, function ()
-		end) then
-			table.insert(uv0, "cue/" .. slot1 .. ".b")
-		end
+	_.each(slot4, function (slot0)
+		table.insertto(uv0, ResPathSupport.GetSoundResList(slot0))
 	end)
 	_.each(slot0:GetEffects(), function (slot0)
 		table.insert(uv0, slot0.name)
 	end)
 
-	slot15 = {}
+	slot11 = {}
 
 	_.each({}, function (slot0)
-		table.insert(uv0, "ui/" .. slot0)
-		table.insert(uv0, "effect/" .. slot0)
+		table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Base, slot0))
+		table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Effect, slot0))
 	end)
 
-	slot16 = {}
+	slot12 = {}
 
-	if slot0:ExistIcon() and slot0:GetIconData() and slot17.image then
-		table.insert(slot16, slot17.image)
+	if slot0:ExistIcon() and slot0:GetIconData() and slot13.image then
+		table.insert(slot12, slot13.image)
 	end
 
-	slot18 = StoryRecorder.New()
+	slot14 = StoryRecorder.New()
 
-	slot18:Add(slot0)
-	_.each(slot18:GetContentList(), function (slot0)
+	slot14:Add(slot0)
+	_.each(slot14:GetContentList(), function (slot0)
 		if slot0.icon then
-			table.insert(uv0, "squareicon/" .. slot0.icon)
+			table.insertto(uv0, ResPathSupport.GetPaintingSquareIconListByPaintingName(slot0.icon))
 		end
 	end)
 
-	return SplitPackMediatorResMap.MergeLuaArr(slot3, slot8, slot10, slot12, slot15, slot16, {})
+	return ResPathSupport.MergeLuaArr(slot3, slot5, slot11, slot12, {})
 end
 
 return slot0

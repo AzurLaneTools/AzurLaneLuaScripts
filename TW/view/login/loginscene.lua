@@ -43,6 +43,22 @@ slot0.preload = function(slot0, slot1)
 	}, slot1)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = {
+		"ui/loginui2",
+		"ui/opening",
+		"ui/useragreementui"
+	}
+	slot2, slot3 = getLoginConfig()
+
+	table.insert(slot1, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Effect, slot3))
+	_.each(ResPathSupport.ConstPath.BG.LoadingBGList, function (slot0)
+		table.insert(uv1, ResPathSupport.CombinePath(slot0, uv0))
+	end)
+
+	return table.insertto(slot1, uv0.super.getResource(slot0))
+end
+
 slot0.init = function(slot0)
 	slot0:setBg()
 

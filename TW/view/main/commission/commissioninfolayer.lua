@@ -8,6 +8,134 @@ slot0.getUIName = function(slot0)
 	end
 end
 
+slot0.getResource = function(slot0)
+	slot2 = function(slot0, slot1)
+		if noEmptyStr(slot1) and not table.contains(slot0, slot1) then
+			table.insert(slot0, slot1)
+		end
+	end
+
+	return ResPathSupport.MergeLuaArr({
+		"ui/commissioninfoui4mellow",
+		"ui/commissioninfoui",
+		"ui/CommissionInfoUI4Mellow_atlas",
+		"ui/commissioninfoui_atlas"
+	}, (function ()
+		slot0 = {}
+
+		table.insert(slot0, Item.getConfigData(getProxy(NavalAcademyProxy):GetClassVO():GetResourceType()).icon)
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+		slot1 = {}
+
+		slot2 = function(slot0)
+			uv0(uv1, slot0)
+		end
+
+		slot3 = function(slot0)
+			slot1 = ipairs
+			slot2 = slot0 or {}
+
+			for slot4, slot5 in slot1(slot2) do
+				uv0(slot5)
+			end
+		end
+
+		slot4 = function(slot0)
+			uv0(ResPathSupport.GetPaintingSquareIconListByPaintingName(slot0:getPainting()))
+			uv0(ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot0:getPainting()))
+			uv1(string.format(ResPathSupport.ConstPath.BG.ShipCard, slot0:rarity2bgPrint()))
+
+			slot1, slot2 = slot0:GetFrameAndEffect()
+
+			uv1(ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Effect, slot2))
+		end
+
+		slot5 = function(slot0)
+			Drop.Change(slot0)
+
+			if slot0.type == DROP_TYPE_SHIP then
+				uv0(Ship.New({
+					configId = slot0.id,
+					skin_id = slot0.skinId,
+					propose = slot0.propose
+				}))
+			else
+				uv1(slot0:getIcon())
+			end
+		end
+
+		slot6 = function(slot0)
+			slot1 = slot0.template
+
+			uv0("eventtype/" .. slot1.icon)
+
+			slot2 = ipairs
+			slot3 = slot1.ship_type or {}
+
+			for slot5, slot6 in slot2(slot3) do
+				uv1[slot6] = true
+			end
+
+			slot2 = ipairs
+			slot3 = slot1.drop_display or {}
+
+			for slot5, slot6 in slot2(slot3) do
+				uv2({
+					type = slot6.type,
+					id = slot6.id,
+					count = slot6.nums
+				})
+			end
+
+			if slot1.special_drop and slot1.special_drop.type then
+				uv2({
+					type = slot1.special_drop.type,
+					id = slot1.special_drop.id,
+					count = slot1.special_drop.nums
+				})
+			end
+
+			slot2 = ipairs
+			slot3 = slot0:getShipList() or {}
+
+			for slot5, slot6 in slot2(slot3) do
+				uv3(slot6)
+			end
+		end
+
+		slot2("ui/EventUI")
+		slot2("ui/eventui_atlas")
+		slot2("ui/ShipExpUI")
+		slot2("ui/proposeshipcard")
+		slot2("battlescore/grade_label_task_complete")
+
+		slot8 = ipairs
+		slot9 = getProxy(EventProxy):getEventList() or {}
+
+		for slot11, slot12 in slot8(slot9) do
+			slot6(slot12)
+		end
+
+		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot8:isEnd() then
+			slot6(slot7:GetEventByActivityId(slot8.id))
+		end
+
+		slot10 = pairs
+		slot11 = getProxy(BayProxy):getRawData() or {}
+
+		for slot13, slot14 in slot10(slot11) do
+			if slot1[slot14:getShipType()] and not slot14:isActivityNpc() then
+				slot4(slot14)
+			end
+		end
+
+		return slot0
+	end)())
+end
+
 slot0.init = function(slot0)
 	slot0.frame = slot0._tf:Find("frame")
 	slot0.parentTr = slot0._tf.parent

@@ -83,7 +83,7 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:UpdateView()
 		end
 	elseif slot2 == GAME.CRUSING_CMD_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 		slot0.viewComponent:UpdateAwardPage()
 		slot0.viewComponent:UpdateView()
 	elseif slot2 == PlayerProxy.UPDATED then
@@ -92,7 +92,10 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == GAME.CHARGE_SUCCESS then
 		slot0.viewComponent:OnChargeSuccess(Goods.Create({
 			shop_id = slot3.shopId
-		}, Goods.TYPE_CHARGE))
+		}, Goods.TYPE_CHARGE), function ()
+			MainFetchPrevPeriodCrusingSequence.New():Execute(function ()
+			end)
+		end)
 		slot0.viewComponent:UpdateRes()
 	elseif slot2 == BagProxy.ITEM_UPDATED then
 		if slot3.id == Item.QUICK_TASK_PASS_TICKET_ID then

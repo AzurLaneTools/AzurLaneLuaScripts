@@ -45,6 +45,25 @@ slot0.preload = function(slot0, slot1)
 	}, slot1)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2 = slot0.contextData.groupId
+	slot3 = pg.dorm3d_dance[slot2]
+	slot9 = "/timeline/"
+	slot10 = slot3.timeline_scene
+
+	for slot9, slot10 in ipairs({
+		string.lower("dorm3d/scenesres/scenes/publiccafe/map_publiccafe_01_blue_scene"),
+		string.lower("dorm3d/character/" .. pg.dorm3d_dorm_template[slot2].asset_name .. slot9 .. slot10 .. "/" .. slot3.timeline_scene .. "_scene")
+	}) do
+		if not table.contains(slot1, slot10) then
+			table.insert(slot1, slot10)
+		end
+	end
+
+	return slot1
+end
+
 slot0.init = function(slot0)
 	slot0:InitScene()
 	slot0:InitUI()

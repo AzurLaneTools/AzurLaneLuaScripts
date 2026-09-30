@@ -1,5 +1,240 @@
 slot0 = class("Dorm3dHxHelper")
 
+slot0.Ctor = function(slot0, slot1)
+	slot0.loader = slot1
+	slot0.materialsBySkin = {}
+	slot0.loadedGroups = {}
+	slot0.loadingGroups = {}
+	slot0.appliedMaterials = setmetatable({}, {
+		__mode = "k"
+	})
+end
+
+slot1 = function(slot0)
+	return type(pg.dorm3d_resource[slot0].hx_material) == "table" and slot1 or {}
+end
+
+slot2 = function(slot0)
+	return string.lower(string.gsub(slot0, "%s*%(Instance%)$", ""))
+end
+
+slot3 = function(slot0)
+	return string.lower(string.gsub(slot0, "\\", "/"))
+end
+
+slot4 = function(slot0, slot1)
+	slot2 = string.match(uv0(slot1), "[^/]+$")
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot0) do
+		if string.match(uv0(slot8), "[^/]+$") == slot2 then
+			table.insert(slot3, slot8)
+		end
+	end
+
+	return #slot3 > 0 and table.concat(slot3, ", ") or "<none>"
+end
+
+slot0.GetMaterialResources = function(slot0)
+	slot1 = {}
+
+	if not HXSet.isHx() then
+		return slot1
+	end
+
+	slot2 = ipairs
+	slot3 = pg.dorm3d_resource.get_id_list_by_ship_group[slot0] or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		for slot10, slot11 in ipairs(uv0(slot6)) do
+			if not table.contains(slot1, slot11[1]) then
+				table.insert(slot1, slot11[1])
+			end
+		end
+	end
+
+	return slot1
+end
+
+slot0.LoadMaterials = function(slot0, slot1, slot2)
+	if not HXSet.isHx() or slot0.loadedGroups[slot1] then
+		existCall(slot2)
+
+		return
+	end
+
+	if slot0.loadingGroups[slot1] then
+		table.insert(slot0.loadingGroups[slot1], slot2)
+
+		return
+	end
+
+	slot0.loadingGroups[slot1] = {
+		slot2
+	}
+	slot3 = {}
+	slot4 = {}
+	slot5 = ipairs
+	slot6 = pg.dorm3d_resource.get_id_list_by_ship_group[slot1] or {}
+
+	for slot8, slot9 in slot5(slot6) do
+		slot3[slot9] = {}
+
+		for slot13, slot14 in ipairs(uv0(slot9)) do
+			slot15, slot16 = unpack(slot14)
+			slot4[slot15] = slot4[slot15] or {}
+
+			table.insert(slot4[slot15], {
+				slot9,
+				slot16
+			})
+		end
+	end
+
+	slot5 = {}
+
+	for slot9, slot10 in pairs(slot4) do
+		table.insert(slot5, function (slot0)
+			slot1 = uv0.loader
+
+			slot1:LoadBundle(uv1, function (slot0)
+				if not slot0 or not EDITOR_TOOL and IsNil(slot0.ab) then
+					error("Missing Dorm3D HX material bundle: " .. uv0)
+				end
+
+				slot2 = {}
+
+				for slot6, slot7 in ipairs(slot0:GetAllAssetNames()) do
+					slot2[uv1(slot7)] = slot7
+				end
+
+				slot3 = {}
+
+				for slot7, slot8 in ipairs(uv2) do
+					slot9, slot10 = unpack(slot8)
+
+					if not slot3[slot10] then
+						if not slot2[uv1(slot10)] then
+							error(string.format("Missing Dorm3D HX material asset in bundle: skin=%s bundle=%s asset=%s same-name assets=[%s]", slot9, uv0, slot10, uv3(slot1, slot10)))
+						end
+
+						if IsNil(slot0:LoadAssetSync(slot12, typeof(Material), false, false)) then
+							error(string.format("Failed to load Dorm3D HX material: skin=%s bundle=%s asset=%s resolved=%s", slot9, uv0, slot10, slot12))
+						end
+
+						slot3[slot10] = slot11
+					end
+
+					if uv5[slot9][uv4(slot11.name)] and (slot13.bundle ~= uv0 or slot13.asset ~= slot10) then
+						error(string.format("Duplicate Dorm3D HX material name: skin=%s name=%s assets=%s / %s", slot9, slot12, slot13.asset, slot10))
+					end
+
+					uv5[slot9][slot12] = {
+						material = slot11,
+						bundle = uv0,
+						asset = slot10
+					}
+				end
+
+				uv6()
+			end)
+		end)
+	end
+
+	parallelAsync(slot5, function ()
+		for slot3, slot4 in pairs(uv0) do
+			uv1.materialsBySkin[slot3] = slot4
+		end
+
+		uv1.loadedGroups[uv2] = true
+		uv1.loadingGroups[uv2] = nil
+
+		for slot4, slot5 in ipairs(uv1.loadingGroups[uv2]) do
+			slot5()
+		end
+	end)
+end
+
+slot0.ReplaceMaterials = function(slot0, slot1, slot2)
+	if not HXSet.isHx() or IsNil(slot1) then
+		return false
+	end
+
+	if not (slot2 or uv0.GetSkinIdByModelName(slot1.name)) then
+		return false
+	end
+
+	if not slot0.materialsBySkin[slot2] then
+		if #uv1(slot2) > 0 then
+			error("Dorm3D HX materials are not loaded for skin: " .. tostring(slot2))
+		end
+
+		return false
+	end
+
+	if not next(slot3) then
+		return false
+	end
+
+	table.IpairsCArray(slot1:GetComponentsInChildren(typeof(Renderer), true), function (slot0, slot1)
+		slot3 = uv0.appliedMaterials[slot1]
+
+		table.IpairsCArray(slot1.sharedMaterials, function (slot0, slot1)
+			if IsNil(slot1) then
+				return
+			end
+
+			if not uv0[uv1(slot1.name)] or slot1 == slot2.material then
+				return
+			end
+
+			if uv2 and uv2.skinId == uv3 and uv2.materials[slot0] == slot1 then
+				return
+			end
+
+			uv4[slot0] = slot2.material
+			uv5 = true
+
+			warning("DORM3D HX REPLACE MATERIAL", slot1.name)
+		end)
+
+		if false then
+			slot1.sharedMaterials = slot2
+
+			table.insert(uv4, slot1)
+		end
+	end)
+
+	if #{} == 0 then
+		return false
+	end
+
+	slot9 = slot1
+
+	GraphicsInterface.Instance:UpdateCharacterMaterialLst(go(slot9))
+
+	for slot9, slot10 in ipairs(slot4) do
+		slot0.appliedMaterials[slot10] = {
+			skinId = slot2,
+			materials = slot10.sharedMaterials
+		}
+	end
+
+	return true
+end
+
+slot0.Apply = function(slot0, slot1, slot2)
+	if not HXSet.isHx() or IsNil(slot1) then
+		return false
+	end
+
+	if uv0.ReplaceCharacterParts(slot1, slot2) then
+		return true
+	end
+
+	return slot0:ReplaceMaterials(slot1, slot2)
+end
+
 slot0.GetTimelineMainCharacter = function()
 	slot0 = GameObject.Find("[actor]").transform
 
@@ -25,12 +260,12 @@ slot0.GetSkinIdByModelName = function(slot0)
 	return nil
 end
 
-slot0.ReplaceCharacterParts = function(slot0)
+slot0.ReplaceCharacterParts = function(slot0, slot1)
 	if not HXSet.isHx() then
 		return false
 	end
 
-	if not uv0.GetSkinIdByModelName(slot0.name) then
+	if not (slot1 or uv0.GetSkinIdByModelName(slot0.name)) then
 		return false
 	end
 

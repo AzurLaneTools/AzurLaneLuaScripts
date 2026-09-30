@@ -26,6 +26,58 @@ slot0.getUIName = function(slot0)
 	return "TechnologySettingsUI"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = {}
+	slot2 = {}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not uv0[slot0] then
+			uv0[slot0] = true
+
+			table.insert(uv1, slot0)
+		end
+	end
+
+	slot3("ui/TechnologySettingsUI")
+	slot3("ui/technologysettingsui_atlas")
+
+	for slot7 = 1, uv0.CATCHUP_VERSION do
+		slot3("ui/TargetCatchupPanel" .. slot7)
+	end
+
+	slot4 = getProxy(TechnologyProxy)
+
+	slot5 = function(slot0)
+		if slot0 then
+			uv0("TecCatchup/QChar" .. slot0)
+			uv0("TecCatchup/selbg" .. slot0)
+		end
+	end
+
+	for slot9 = 1, uv0.CATCHUP_VERSION do
+		if pg.technology_catchup_template[slot9] then
+			slot11 = ipairs
+			slot12 = slot10.char_choice or {}
+
+			for slot14, slot15 in slot11(slot12) do
+				slot5(slot15)
+			end
+		end
+	end
+
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLUEPRINT_CATCHUP) and not slot6:isEnd() then
+		if slot6:getConfig("page_info") and noEmptyStr(slot7.ui_name) then
+			slot3("ui/" .. slot7.ui_name)
+		end
+
+		if pg.activity_event_blueprint_catchup[slot6:getConfig("config_id")] then
+			slot5(slot9.char_choice)
+		end
+	end
+
+	return slot1
+end
+
 slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()

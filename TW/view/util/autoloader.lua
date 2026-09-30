@@ -169,6 +169,8 @@ slot0.GetSpriteQuiet = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.GetSpriteDirect = function(slot0, slot1, slot2, slot3, slot4)
+	slot1, slot2 = HXSet.autoHxShiftPath(slot1, slot2)
+
 	slot0:ClearRequest(slot4)
 
 	slot4 = slot4 or slot0:GenerateUID4LoadingRequest()

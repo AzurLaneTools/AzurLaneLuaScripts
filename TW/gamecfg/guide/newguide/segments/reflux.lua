@@ -7,7 +7,7 @@ return {
 			delay = 0.6,
 			forceDormLine = true,
 			style = {
-				text = "点击banner可以了解游戏内容！",
+				text = "點選banner可以了解遊戲內容！",
 				mode = 2,
 				char = "char",
 				posY = -104.49,
@@ -33,7 +33,7 @@ return {
 			alpha = 0.4,
 			forceDormLine = true,
 			style = {
-				text = "点击入口可以了解游戏活动！",
+				text = "點擊入口可以了解遊戲活動！",
 				mode = 2,
 				char = "char",
 				posY = 152.3,
@@ -59,7 +59,7 @@ return {
 			alpha = 0.4,
 			forceDormLine = true,
 			style = {
-				text = "点击出击可以了解击败敌舰！",
+				text = "點擊出擊可以了解擊敗敵艦！",
 				mode = 2,
 				char = "char",
 				posY = 0,

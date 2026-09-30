@@ -673,7 +673,8 @@ pg.activity_ins_template.all = {
 	20012,
 	20009,
 	20010,
-	20013
+	20013,
+	20014
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_template = {}
@@ -27827,10 +27828,10 @@ end)()
 		ship_group = 20238,
 		name = "Tiger",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_669.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_669",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "hu",
 		id = 669,
@@ -27847,17 +27848,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				9,
+				24
+			},
+			{
+				15,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7443,
+			7447
+		}
 	}
 	pg.base.activity_ins_template[670] = {
 		ship_group = 30409,
 		name = "Azuchi",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_670.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_670",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "antu",
 		id = 670,
@@ -27874,17 +27889,32 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				9,
+				25
+			},
+			{
+				14,
+				25,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7456,
+			7463,
+			7466
+		}
 	}
 	pg.base.activity_ins_template[671] = {
 		ship_group = 31703,
 		name = "I14",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_671.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_671",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "I14",
 		id = 671,
@@ -27901,17 +27931,32 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				9,
+				26
+			},
+			{
+				12,
+				50,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7476,
+			7478,
+			7485
+		}
 	}
 	pg.base.activity_ins_template[672] = {
 		ship_group = 20140,
 		name = "Hasty",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_672.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_672",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "congmang",
 		id = 672,
@@ -27928,17 +27973,31 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				9,
+				27
+			},
+			{
+				9,
+				36,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7495,
+			7501
+		}
 	}
 	pg.base.activity_ins_template[673] = {
 		ship_group = 20119,
 		name = "Hostile",
 		type = 1,
-		picture_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_673.png",
 		title = "",
-		message_persist = "",
-		is_active = 1,
+		message_persist = "ins_673",
+		is_active = 0,
 		oalist_pic_persist = "",
 		sculpture = "didui",
 		id = 673,
@@ -27955,8 +28014,23 @@ end)()
 				0
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2026,
+				9,
+				28
+			},
+			{
+				20,
+				0,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			7511,
+			7515,
+			7519
+		}
 	}
 	pg.base.activity_ins_template[20001] = {
 		ship_group = 0,
@@ -28245,6 +28319,33 @@ end)()
 				2026,
 				9,
 				17
+			},
+			{
+				14,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20014] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港區故事】幽靈現身？重櫻溫泉浴場突發靈異事件！",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20014,
+		group_id = 20014,
+		time = {
+			{
+				2026,
+				9,
+				30
 			},
 			{
 				14,

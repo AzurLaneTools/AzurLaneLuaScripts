@@ -9,7 +9,7 @@ slot0.Fields = {
 slot0.Setup = function(slot0, slot1)
 	slot0.id = slot1.group_id
 	slot0.step = slot1.cmd_collection.progress
-	slot0.list = underscore.rest(slot1.cmd_collection.progress_list, 1)
+	slot0.list = underscore.to_array(slot1.cmd_collection.progress_list)
 	slot0.mapId = slot1.cmd_collection.random_id
 end
 

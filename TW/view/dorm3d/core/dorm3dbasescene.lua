@@ -6,7 +6,7 @@ end
 
 slot0.InitExtraSystem = function(slot0, slot1)
 	if not slot0.systemManager then
-		slot0.systemManager = ExtraSystemManager.New(slot0.event, slot0)
+		slot0.systemManager = SystemManager.New(slot0.event, slot0)
 	end
 
 	slot1 = slot1 or slot0.GetDefaultSystemClasses()

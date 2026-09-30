@@ -5,11 +5,12 @@ return {
 	scripts = {
 		{
 			expression = 1,
-			nameColor = "#A9F548FF",
-			actor = 900561,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "不需要睡覺的幽靈，晚上總是很寂寞。",
 			typewriter = {
 				speed = 0.05,
@@ -18,11 +19,12 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#A9F548FF",
-			actor = 900561,
-			hidePaintObj = true,
-			dir = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "只能獨自徘徊到天亮……",
 			typewriter = {
 				speed = 0.05,
@@ -30,11 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 900561,
-			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 900561,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "指揮官，今晚我想留在您身邊，可以嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +57,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呵呵，要是我沒忍住鑽進您被窩的話，可不要被嚇到了哦~",
 			typewriter = {
@@ -68,10 +72,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900561,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "這樣嗎……我明白了~還是您的休息最重要哦。",
 			typewriter = {

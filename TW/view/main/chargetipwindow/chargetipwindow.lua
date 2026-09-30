@@ -30,10 +30,11 @@ slot1 = function(slot0)
 	end
 end
 
-slot0.Show = function(slot0, slot1)
+slot0.Show = function(slot0, slot1, slot2)
 	assert(slot1:isChargeType())
 	uv0.super.Show(slot0)
 
+	slot0.onClose = slot2
 	slot0.chargeCommodity = slot1
 
 	if not uv1(slot1) then
@@ -165,6 +166,12 @@ slot0.Hide = function(slot0)
 	end
 
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
+
+	if slot0.onClose then
+		slot0.onClose()
+
+		slot0.onClose = nil
+	end
 end
 
 slot0.OnDestroy = function(slot0)

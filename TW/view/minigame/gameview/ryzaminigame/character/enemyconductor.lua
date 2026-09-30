@@ -14,7 +14,7 @@ slot1 = {
 }
 
 slot0.InitUI = function(slot0, slot1)
-	slot0.shieldCount = underscore.rest(slot0.ConfigShildList, 1)
+	slot0.shieldCount = underscore.to_array(slot0.ConfigShildList)
 	slot5 = "front/Shield_W"
 	slot0.rtShieldDic = {
 		S = slot0.rtScale:Find("front/Shield_S"),

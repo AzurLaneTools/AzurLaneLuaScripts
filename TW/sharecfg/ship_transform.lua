@@ -67,7 +67,8 @@ pg.ship_transform.all = {
 	970605,
 	970112,
 	970710,
-	970709
+	970709,
+	970113
 }
 pg.base = pg.base or {}
 pg.base.ship_transform = {}
@@ -1167,6 +1168,23 @@ pg.base.ship_transform = {}
 			{
 				2,
 				21065,
+				1
+			}
+		},
+		common_item = {
+			{
+				2,
+				21000,
+				10
+			}
+		}
+	}
+	pg.base.ship_transform[970113] = {
+		id = 970113,
+		exclusive_item = {
+			{
+				2,
+				21066,
 				1
 			}
 		},

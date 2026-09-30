@@ -7,12 +7,13 @@ return {
 	},
 	scripts = {
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
-			hidePaintObj = true,
 			bgm = "battle-visioncity-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "安土輕輕收起扇子，眼神中第一次流露出驚奇和欣賞。",
 			typewriter = {
 				speed = 0.05,
@@ -25,8 +26,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……真是超出預期。",
 			typewriter = {
@@ -40,8 +42,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我本來還擔心，這齣戲會在最無聊的地方收場。",
 			typewriter = {
@@ -55,8 +58,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#FF9B93",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "看來，關於這個「互相理解」的議題，我先前的判斷確實有瑕疵。",
 			typewriter = {
@@ -65,12 +69,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
 			actor = 304090,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "像你這樣的人，值得贏下我的尊敬——這可不是嘴上說說而已。",
 			typewriter = {
@@ -79,12 +84,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
 			actor = 304090,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我就順手幫你們一個忙吧。",
 			typewriter = {
@@ -93,10 +99,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "她的視線落在我懷中的虎身上。",
 			typewriter = {
 				speed = 0.05,
@@ -104,10 +111,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "那具原本還勉強維持輪廓的身影，此刻已經變得愈發透明，彷彿下一秒就會徹底消散。",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +128,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#A9F548FF",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我的火焰，可是「重生之火」。",
 			typewriter = {
@@ -130,10 +139,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "一簇赤金色的火焰自虎的腳下悄然騰起，轉瞬便將她整個人包裹其中。",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +156,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "唔……實體化，穩定了……？",
 			typewriter = {
@@ -161,8 +172,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "被火焰燒過的位置，疼痛也在消退……",
 			typewriter = {
@@ -176,8 +188,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 317031,
 			nameColor = "#A9F548FF",
+			actor = 317031,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "安土大人……",
 			typewriter = {
@@ -191,8 +204,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#A9F548FF",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "煽情的話就免了。你們啊，可別讓我失望。",
 			typewriter = {
@@ -201,10 +215,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "烈焰翻湧著，將虎那幾近消散的輪廓重新一點點勾勒出來。",
 			typewriter = {
 				speed = 0.05,
@@ -212,10 +227,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "我下意識將她抱得更緊了些，直到這個懷抱可以切實地感受到她的存在，一直緊繃的弦才終於鬆開。",
 			typewriter = {
 				speed = 0.05,
@@ -223,10 +239,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "就在這一刻，強烈的眩暈與疲憊終於跨越了意志的防線。",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +256,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 202380,
 			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官……！",
 			typewriter = {
@@ -254,8 +272,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#A9F548FF",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "呵呵呵，趁現在好好睡一覺。",
 			typewriter = {
@@ -264,12 +283,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
 			actor = 304090,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "等你醒來——就該帶領所有人走向全新的明天了。",
 			typewriter = {
@@ -283,8 +303,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#A9F548FF",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……可不要鬆懈啊~如果在未來的某一天，這個世界又變得腐朽難看——",
 			typewriter = {
@@ -298,8 +319,9 @@ return {
 			bgName = "star_level_bg_306",
 			factiontag = "幽影",
 			dir = 1,
-			actor = 304090,
 			nameColor = "#A9F548FF",
+			actor = 304090,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "——我照樣會用我的方式，以一場大火，賦予一切新生。",
 			typewriter = {
@@ -308,6 +330,7 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_308",
 			bgm = "story-hospital-light",
@@ -337,10 +360,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_308",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "空氣裡飄著淡淡的消毒水味，以及……炸薯條的香味。",
 			typewriter = {
 				speed = 0.05,
@@ -348,10 +372,11 @@ return {
 			}
 		},
 		{
+			NextIcon = 1,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_308",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "少女充滿活力的聲音從床邊的白色拉簾後傳來。",
 			typewriter = {
 				speed = 0.05,
@@ -359,12 +384,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			hidePaintObj = true,
+			actorName = "？？",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "呀，指揮官這麼快就醒啦！",
 			typewriter = {
 				speed = 0.05,
@@ -372,12 +398,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			hidePaintObj = true,
+			actorName = "？？",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "你想吃浪漫覺醒成人套餐，還是想吃趣味永存兒童套餐？",
 			typewriter = {
 				speed = 0.05,
@@ -385,12 +412,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_308",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_308",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "……成人餐吧。",
 			typewriter = {
 				speed = 0.05,
@@ -398,12 +426,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_308",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_308",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "不過，如果有附玩具，感覺也不錯。",
 			typewriter = {
 				speed = 0.05,
@@ -713,7 +742,7 @@ return {
 				},
 				{
 					1,
-					"投資人安土女士"
+					"投资人{namecode:315:安土}女士"
 				},
 				{
 					3,
@@ -773,8 +802,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "幽影行動員",
 			dir = 1,
-			actor = 900557,
 			nameColor = "#A9F548FF",
+			actor = 900557,
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -786,12 +816,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "幽影",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "不多。",
 			typewriter = {
@@ -805,9 +836,10 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "幽影行動員",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "具體一點？",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -819,12 +851,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "幽影",
 			dir = 1,
 			actor = 317031,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "妳真的想知道嗎？都和指揮官有關。",
 			typewriter = {
@@ -838,9 +871,10 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "幽影行動員",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "願聞其詳！！",
 			actor = 900557,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			actorPosition = {
 				x = -200,
@@ -902,8 +936,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "企業聯合會臨時代表",
 			dir = 1,
-			actor = 899050,
 			nameColor = "#A9F548FF",
+			actor = 899050,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "恭喜同事們——危機解除了！",
 			typewriter = {
@@ -917,8 +952,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "企業聯合會臨時代表",
 			dir = 1,
-			actor = 899050,
 			nameColor = "#A9F548FF",
+			actor = 899050,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "接下來就讓我們一起處理這幾天裡的損害統計、作戰方案和下季規劃吧！",
 			typewriter = {
@@ -927,12 +963,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "無辜的前台接待員",
 			dir = 1,
 			actor = 105040,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "……唔，從這些工作量來說，感覺危機並未解決呢？",
 			typewriter = {
@@ -976,12 +1013,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "演員",
 			dir = 1,
 			actor = 231211,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官指揮官~我這裡有兒童餐的玩具！送給你！",
 			typewriter = {
@@ -990,12 +1028,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_308",
-			hidePaintObj = true,
-			side = 2,
 			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_308",
+			nameColor = "#A9F548FF",
+			actor = 0,
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "……竟然真的有。",
 			typewriter = {
 				speed = 0.05,
@@ -1008,8 +1047,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "演員",
 			dir = 1,
-			actor = 307130,
 			nameColor = "#A9F548FF",
+			actor = 307130,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "大鳳的玩具比較好哦指揮官，請收下吧~♡",
 			typewriter = {
@@ -1018,12 +1058,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "演員",
 			dir = 1,
 			actor = 305170,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "指揮官——我也帶著玩具來找你玩啦！",
 			typewriter = {
@@ -1037,8 +1078,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "演員",
 			dir = 1,
-			actor = 403120,
 			nameColor = "#A9F548FF",
+			actor = 403120,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "我也想玩~應該不差我一個吧~",
 			typewriter = {
@@ -1047,12 +1089,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "演員",
 			dir = 1,
 			actor = 103290,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "老師……！老師，一起~",
 			typewriter = {
@@ -1061,12 +1104,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "演員",
 			dir = 1,
 			actor = 102190,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "人家也要和指揮官分享可愛的玩具……",
 			typewriter = {
@@ -1080,8 +1124,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "演員",
 			dir = 1,
-			actor = 307140,
 			nameColor = "#A9F548FF",
+			actor = 307140,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "妾身就不玩了……可以靠著指揮官睡一下子嗎……",
 			typewriter = {
@@ -1095,8 +1140,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "演員",
 			dir = 1,
-			actor = 204040,
 			nameColor = "#A9F548FF",
+			actor = 204040,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "大家排好隊，一個個找指揮官，不要亂！",
 			typewriter = {
@@ -1105,12 +1151,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
 			factiontag = "演員",
 			dir = 1,
 			actor = 403130,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "好多人啊……",
 			typewriter = {
@@ -1119,12 +1166,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			hidePaintObj = true,
+			actorName = "？？",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "嗚哇——怎麼都一窩蜂跑到指揮官房間裡啦！病人現在要清淨啦清淨~！",
 			typewriter = {
 				speed = 0.05,
@@ -1137,8 +1185,9 @@ return {
 			bgName = "star_level_bg_308",
 			factiontag = "演員",
 			dir = 1,
-			actor = 403120,
 			nameColor = "#A9F548FF",
+			actor = 403120,
+			NextIcon = 1,
 			hidePaintObj = true,
 			say = "主編姊姊不會是想獨佔指揮官吧~？",
 			typewriter = {
@@ -1147,12 +1196,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			hidePaintObj = true,
+			actorName = "？？",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "才、才沒有啦！",
 			typewriter = {
 				speed = 0.05,
@@ -1160,12 +1210,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			hidePaintObj = true,
+			actorName = "？？",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			NextIcon = 1,
+			hidePaintObj = true,
 			say = "我只是在期待一場非常羅曼蒂克的——浪漫愛情而已~",
 			typewriter = {
 				speed = 0.05,

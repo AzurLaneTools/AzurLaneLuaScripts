@@ -11,6 +11,117 @@ slot0.getUIName = function(slot0)
 	return "WorldCruiseUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot3 = getProxy(ActivityProxy)
+	slot3 = slot3:getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
+
+	slot5 = function(slot0)
+		if not slot0 or slot0.type ~= DROP_TYPE_SKIN then
+			return {}
+		end
+
+		return ResPathSupport.GetPaintingSquareIconListByPaintingName(pg.ship_skin_template[slot0.id].painting)
+	end
+
+	slot6 = function(slot0)
+		if not slot0 or slot0.type ~= DROP_TYPE_SKIN then
+			return {}
+		end
+
+		slot1 = pg.ship_skin_template[slot0.id]
+
+		return ResPathSupport.MergeLuaArr(ResPathSupport.GetPaintingListByPaintingName(slot1.painting), ResPathSupport.GetPaintingFaceListByPaintingName(slot1.painting))
+	end
+
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+		"ui/WorldCruiseUI",
+		"ui/WorldCruiseAwardPage",
+		"ui/WorldCruiseTaskPage",
+		"ui/WorldCruiseShopPage",
+		"ui/iconcolorful",
+		"ui/worldcruiseui_atlas",
+		"ui/item_duang5",
+		"weaponframes"
+	}, (function ()
+		slot0 = {}
+
+		if pg.battlepass_event_pt[uv0.id] then
+			if noEmptyStr(slot1.bg) then
+				table.insert(slot0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.BG.Base, slot1.bg))
+			end
+
+			if noEmptyStr(slot1.bg_tips) then
+				table.insert(slot0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.BG.Base, slot1.bg_tips))
+			end
+		end
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+		slot2 = ipairs
+		slot3 = uv0:GetCrusingInfo().awardList or {}
+
+		for slot5, slot6 in slot2(slot3) do
+			for slot11, slot12 in ipairs({
+				slot6.award,
+				slot6.award_pay
+			}) do
+				if slot12 and Drop.Create(slot12).type == DROP_TYPE_SKIN then
+					table.insertto(slot0, uv1(slot13))
+				end
+			end
+		end
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+		slot1 = ipairs
+		slot2 = uv0:getConfig("config_data") or {}
+
+		for slot4, slot5 in slot1(slot2) do
+			if pg.battlepass_task_group[slot5] then
+				slot7 = ipairs
+				slot8 = slot6.task_group or {}
+
+				for slot10, slot11 in slot7(slot8) do
+					slot12 = ipairs
+					slot13 = slot11 or {}
+
+					for slot15, slot16 in slot12(slot13) do
+						if Drop.Create(pg.task_data_template[slot16] and slot17.award_display and slot17.award_display[1]).type == DROP_TYPE_SKIN then
+							table.insertto(slot0, uv1(slot19))
+						end
+					end
+				end
+			end
+		end
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+		slot2 = pg.TimeMgr.GetInstance()
+
+		for slot6, slot7 in ipairs({
+			ShopArgs.CruiseSkin
+		}) do
+			slot8 = ipairs
+			slot9 = pg.shop_template.get_id_list_by_genre[slot7] or {}
+
+			for slot11, slot12 in slot8(slot9) do
+				if pg.shop_template[slot12] and slot2:inTime(slot13.time) and Goods.Create({
+					groupCount = 0,
+					buy_count = 0,
+					shop_id = slot12
+				}, Goods.TYPE_CRUISE):getDropInfo() and slot14.type == DROP_TYPE_SKIN then
+					table.insertto(slot0, uv0(slot14))
+				end
+			end
+		end
+
+		return slot0
+	end)())
+end
+
 slot0.preload = function(slot0, slot1)
 	slot3 = function()
 		uv1.shop = CruiseShop.New(uv0:GetNormalList(), uv0:GetNormalGroupList())
@@ -86,6 +197,7 @@ slot0.init = function(slot0)
 	setText(slot2:Find("lock/Text"), i18n("cruise_shop_no_open"))
 
 	slot0.contextData.windowForCharge = WorldCruiseChargePage.New(slot0._tf, slot0.event)
+	slot0.contextData.prevChargePage = WorldCruiseChargePage4PrevPeriod.New(slot0._tf, slot0.event)
 
 	slot0:Hx4Channel()
 end
@@ -153,8 +265,12 @@ slot0.UpdatePhase = function(slot0)
 	slot0.contextData.phase = slot0.phase
 end
 
-slot0.OnChargeSuccess = function(slot0, slot1)
-	slot0.contextData.windowForCharge:ExecuteAction("ShowUnlockWindow", slot1)
+slot0.OnChargeSuccess = function(slot0, slot1, slot2)
+	if slot0.contextData.prevChargePage:GetLoaded() then
+		slot0.contextData.prevChargePage:ExecuteAction("ShowUnlockWindow", slot1, slot2)
+	else
+		slot0.contextData.windowForCharge:ExecuteAction("ShowUnlockWindow", slot1, slot2)
+	end
 end
 
 slot0.UpdateAwardTip = function(slot0)
@@ -207,6 +323,12 @@ slot0.onBackPressed = function(slot0)
 		return
 	end
 
+	if slot0.contextData.prevChargePage and slot0.contextData.prevChargePage:GetLoaded() and slot0.contextData.prevChargePage:isShowing() then
+		slot0.contextData.prevChargePage:Hide()
+
+		return
+	end
+
 	uv0.super.onBackPressed(slot0)
 end
 
@@ -215,6 +337,12 @@ slot0.willExit = function(slot0)
 		slot0.contextData.windowForCharge:Destroy()
 
 		slot0.contextData.windowForCharge = nil
+	end
+
+	if slot0.contextData.prevChargePage then
+		slot0.contextData.prevChargePage:Destroy()
+
+		slot0.contextData.prevChargePage = nil
 	end
 
 	for slot4, slot5 in pairs(slot0.pages) do
