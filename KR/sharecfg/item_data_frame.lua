@@ -108,6 +108,8 @@ pg.item_data_frame.all = {
 	1012,
 	1013,
 	1014,
+	1015,
+	1016,
 	10001,
 	10002,
 	10003,
@@ -1061,6 +1063,24 @@ end)()
 		id = 1014,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>데이터 스트림 속에 고양이 펀치와 고양이 꼬리 등장! 안녕하세요! 사이버 공간의 고양이가 인사드립니다</color>.\n「교류 숙소」에서 아드미랄 나히모프의 친밀도를 올리면 획득 가능",
+		scene = {}
+	}
+	pg.base.item_data_frame[1015] = {
+		name = "금작화 화관",
+		gain_by = "",
+		time_second = 0,
+		id = 1015,
+		time_limit_type = 0,
+		desc = "차분한 색감의 리본이 성스러운 빛을 감싸고 있고, 꽃이 핀 등나무가 아침 기도를 바치는 손끝을 포근히 감싼다. \n「교류 숙소」에서 임플래커블의 친밀도를 올리면 획득 가능",
+		scene = {}
+	}
+	pg.base.item_data_frame[1016] = {
+		name = "찬란한 유광",
+		gain_by = "",
+		time_second = 0,
+		id = 1016,
+		time_limit_type = 0,
+		desc = "장밋빛 스테인드글라스가 어둠 속에서 빛난다. 찬란한 빛이 그림자와 아치의 꼭대기에 녹아들어 하나가 된다. \n「교류 숙소」에서 임플래커블의 친밀도를 올리면 획득 가능",
 		scene = {}
 	}
 	pg.base.item_data_frame[10001] = {

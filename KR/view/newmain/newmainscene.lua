@@ -30,7 +30,6 @@ slot0.getResource = function(slot0)
 		"commonbg/bg_main_night",
 		"commonbg/bg_main_twilight",
 		"commonbg/bg_main_day",
-		"ui/mainbgview",
 		"ui/lihui_qiehuan01",
 		"ui/lihui_qiehuan02",
 		"spinematerials",
@@ -51,7 +50,9 @@ slot0.getResource = function(slot0)
 		"ui/newmainmellowtheme",
 		"clutter/mainui_calibration_mellow",
 		"ui/respanel",
-		"ui/goldexchangewindow"
+		"ui/goldexchangewindow",
+		"ui/l2dboundsui",
+		"ui/worldstaminarecoverui"
 	}, (function ()
 		slot1, slot2 = MainBGView.GetBgAndBgm()
 
@@ -78,7 +79,7 @@ slot0.getResource = function(slot0)
 		slot1 = getProxy(ActivityProxy)
 
 		_.each(slot1:getBannerDisplays(), function (slot0)
-			table.insert(uv1, ResPathSupport.CombinePath(uv0.ConstPath.UI.ActivityBanner, slot0.pic))
+			table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.ActivityBanner, slot0.pic))
 		end)
 
 		return {}
@@ -130,7 +131,7 @@ slot0.getResource = function(slot0)
 		end
 
 		return _.flatten(slot0)
-	end)())
+	end)(), uv0.super.getResource(slot0))
 end
 
 slot0.needCache = function(slot0)

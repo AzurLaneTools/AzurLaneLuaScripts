@@ -21,3 +21,7 @@ StringHelper = require("Support/Helpers/StringHelper")
 
 require("Support/Helpers/GraphApiHelper")
 require("Support/Helpers/ResPathSupport")
+require("Support/SplitPack/ResList/LevelFleetView")
+require("Support/SplitPack/ResList/LevelScene")
+require("Support/SplitPack/ResList/LevelStageView")
+require("Support/SplitPack/ResList/ChapterPreCombatLayer")

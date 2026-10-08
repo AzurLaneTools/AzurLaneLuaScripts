@@ -147,7 +147,7 @@ slot0.doMove = function(slot0)
 	slot4 = nil
 
 	if #slot0.data.move_path > 0 then
-		slot4 = _.map(_.rest(slot2.move_path, 1), function (slot0)
+		slot4 = _.map(underscore.to_array(slot2.move_path), function (slot0)
 			return {
 				row = slot0.row,
 				column = slot0.column

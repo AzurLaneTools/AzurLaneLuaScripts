@@ -11656,7 +11656,63 @@ pg.activity_ins_chat_language.all = {
 	11651,
 	11652,
 	11653,
-	11654
+	11654,
+	11655,
+	11656,
+	11657,
+	11658,
+	11659,
+	11660,
+	11661,
+	11662,
+	11663,
+	11664,
+	11665,
+	11666,
+	11667,
+	11668,
+	11669,
+	11670,
+	11671,
+	11672,
+	11673,
+	11674,
+	11675,
+	11676,
+	11677,
+	11678,
+	11679,
+	11680,
+	11681,
+	11682,
+	11683,
+	11684,
+	11685,
+	11686,
+	11687,
+	11688,
+	11689,
+	11690,
+	11691,
+	11692,
+	11693,
+	11694,
+	11695,
+	11696,
+	11697,
+	11698,
+	11699,
+	11700,
+	11701,
+	11702,
+	11703,
+	11704,
+	11705,
+	11706,
+	11707,
+	11708,
+	11709,
+	11710
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -114280,5 +114336,470 @@ end)()
 		type = 1,
 		id = 11654,
 		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11655] = {
+		param = "긴급 사태다냥! 만쥬 게임 로비의 오늘 매출이……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11655,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11656] = {
+		param = "급감했다냥!!!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11656,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11657] = {
+		param = "아카시가 거금을 들여 최신 댄스 게임기를 들여놨는데……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11657,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11658] = {
+		param = "오늘 아침 외출하기 전에 입구가 사람들로 몇 겹이나 둘러싸여 있길래 안심하고 장을 보러 갔는데……!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11658,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11659] = {
+		param = "아~ 그건 다들 입구에 모여서 아야나미가 『모에마이 매니아』를 플레이하는 걸 보고 있었던 거야~",
+		ship_group = 10131,
+		option = "",
+		type = 1,
+		id = 11659,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11660] = {
+		param = "굉장히 잘하기도 했고~ 대결하고 싶어 하는 사람도 많아서~ 구경꾼이 계속 늘어난 거야~",
+		ship_group = 10131,
+		option = "",
+		type = 1,
+		id = 11660,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11661] = {
+		param = "보기만 하고 플레이 안 하는 건…… 서서 책만 읽고 책은 안 사는 사람이랑 똑같다냥!! 아카시를 파산시킬 셈이다냥!!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11661,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11662] = {
+		param = "그건 그렇고, 아야나미의 실력은 실로 훌륭했지.",
+		ship_group = 30311,
+		option = "",
+		type = 1,
+		id = 11662,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[11663] = {
+		param = "이미 범인의 눈빛이 아니었다. 마치 귀신이라도 들린 듯 냉혹했지.",
+		ship_group = 30311,
+		type = 1,
+		id = 11663,
+		flag = 0,
+		option = {
+			{
+				1,
+				"그거 정말 리듬 게임 맞아……?"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11664] = {
+		param = "그거 정말 리듬 게임 맞아……?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11664,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11665] = {
+		param = "그래, 필멸자여! 게임은 단순한 놀이가 아니다!",
+		ship_group = 40124,
+		option = "",
+		type = 1,
+		id = 11665,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11666] = {
+		param = "그 말이 맞아…… 패배한 뒤, 내 악마의 힘마저 빼앗겨 버렸어……!",
+		ship_group = 40136,
+		option = "",
+		type = 1,
+		id = 11666,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11667] = {
+		param = "아야나미가 도전자들을 차례로 쓰러뜨리고, 패배자들의 힘을 계속 흡수하다가 「귀신 모드」로 들어가 버렸지!",
+		ship_group = 40206,
+		option = "",
+		type = 1,
+		id = 11667,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11668] = {
+		param = "그 기세가 어찌나 무시무시한지…… 주변에는 아무도 접근하지 못해서 반경 5미터가 출입 금지 구역이 됐습니다!",
+		ship_group = 30606,
+		option = "",
+		type = 1,
+		id = 11668,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11669] = {
+		param = "반경 5미터……?! 아무도 들어오지 못하게 되었던 거냥?!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11669,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11670] = {
+		param = "으음, 아야나미의 눈이 그렇게 무서웠나요……?",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11670,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11671] = {
+		param = "하루 종일 『모에마이 매니아』의 달인 난이도를 플레이해서, 조금 피곤해서 정신을 차리려고 한 것뿐인데.",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11671,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11672] = {
+		param = "응? 「귀신」이라는 거 어디서 들어본 것 같은데……",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11672,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11673] = {
+		param = "생각났다! 『모에마이 매니아』 플레이어 랭킹 1위, 「말없고 무감정하고 무뚝뚝한 귀신」이잖아!",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11673,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11674] = {
+		param = "아야나미, 그렇게 유명했나요?",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11674,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11675] = {
+		param = "랭킹 1위를 100일 넘게 유지한 데다 2위와의 점수 차이도 엄청난 전설적인 플레이어…… 사람이 몰릴 만하지!",
+		ship_group = 30194,
+		option = "",
+		type = 1,
+		id = 11675,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11676] = {
+		param = "사람이 모인 건 확실하다냥…… 하지만 다들 입구에 몰려서 안으로 들어오지 않는다면 돈을 벌 수가 없다냥……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11676,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11677] = {
+		param = "게임기를 가게 안으로 옮기면 되잖아.",
+		ship_group = 10212,
+		option = "",
+		type = 1,
+		id = 11677,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11678] = {
+		param = "그러면 노출도가 떨어진다냥……!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11678,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11679] = {
+		param = "모처럼 인기가 몰리고 있으니, 더 열심히 활용해야 한다냥!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11679,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11680] = {
+		param = "『모에마이 매니아』는 한 대만 사도 엄청나게 비싸다냥! 플레이 매출만으로는 절대 본전을 뽑을 수 없다냥!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11680,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11681] = {
+		param = "그걸로 손님을 끌어모으지 못하면 게임 로비는 내후년까지 버티지 못할지도 모른다냥…… 아니, 내년이면…… 으으…!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11681,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[11682] = {
+		param = "320",
+		ship_group = 31201,
+		type = 4,
+		id = 11682,
+		flag = 1,
+		option = {
+			{
+				2,
+				"어디에 놓을지 고민하기보다는……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11683] = {
+		param = "어디에 놓을지보다 중요한 건 어떻게 팔짱만 끼고 구경만 하는 사람들을 가게 안으로 들어오게 하느냐 아닐까……?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11683,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11684] = {
+		param = "아야나미의 홍보 효과를 살리려면 더더욱 그렇잖아?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11684,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11685] = {
+		param = "음. 하지만 안에 놓으면 지나가던 사람들이 아야나미가 있다는 걸 눈치채지 못한다냥……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11685,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11686] = {
+		param = "지나가던 사람이 어쩌다 보게 되는 그 가능성에만 기대는 건 그만두죠.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11686,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11687] = {
+		param = "한 가지 방법이 있습니다. 다만 그러려면 아야나미의 협력이 필요해요……",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11687,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11688] = {
+		param = "모두에게 도움이 될 수 있다면, 아야나미는 괜찮아요.",
+		ship_group = 30105,
+		option = "",
+		type = 1,
+		id = 11688,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11689] = {
+		param = "고맙다냥! 아야나미는 게임 로비의 구세주다냥!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11689,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11690] = {
+		param = "기뻐하기엔 아직 일러요. 아카시가 다시 한번 큰 투자를 해 줘야 하거든요.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11690,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11691] = {
+		param = "303",
+		ship_group = 31201,
+		option = "",
+		type = 4,
+		id = 11691,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11692] = {
+		param = "아카시의 다이아가…… 그, 그건…… 일단 계획부터 들어 보겠다냥!!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11692,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11693] = {
+		param = "가게에서 『모에마이 매니아』 대회를 여는 건 어떨까요?",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11693,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11694] = {
+		param = "상위 10명에게는 푸짐한 상품을, 그중 상위 3명에게는 추가로……",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11694,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[11695] = {
+		param = "현 챔피언 「말없고 무감정하고 무뚝뚝한 귀신」에게 도전할 권리를 주는 겁니다.",
+		ship_group = 30213,
+		type = 1,
+		id = 11695,
+		flag = 2,
+		option = {
+			{
+				3,
+				"나도 참가하고 싶어지는데"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[11696] = {
+		param = "그렇구나…… 왠지 나도 참가하고 싶어지는데.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 11696,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11697] = {
+		param = "네, 바로 그게 목적입니다.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11697,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11698] = {
+		param = "그러면 가게 안에 설치해도 문제없겠죠.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11698,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11699] = {
+		param = "대회 홍보만 잘된다면 참가자들이 게임 로비로 몰려들 테니까요.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11699,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11700] = {
+		param = "대충 계산해 봤는데~ 지금 있는 기계 수로는 대회를 치르기에는 턱없이 부족하겠네~",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 11700,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11701] = {
+		param = "몇 대 더 들여와야겠어.",
+		ship_group = 40113,
+		option = "",
+		type = 1,
+		id = 11701,
+		flag = 3
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[11702] = {
+		param = "그럼 행사장 배치도 같이 조정하는 게 좋겠네.",
+		ship_group = 20513,
+		option = "",
+		type = 1,
+		id = 11702,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11703] = {
+		param = "찬성이옵니다. 모처럼 많은 플레이어를 모아도 그 인파를 감당하지 못한다면",
+		ship_group = 30118,
+		option = "",
+		type = 1,
+		id = 11703,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11704] = {
+		param = "지금까지의 투자도 물거품이 되고 말 테니까요.",
+		ship_group = 30118,
+		option = "",
+		type = 1,
+		id = 11704,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11705] = {
+		param = "그런 의미에서 아카시, 추가로 투자할 각오는 되어 있나요?",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11705,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11706] = {
+		param = "전세를 역전시킬 절호의 기회예요.",
+		ship_group = 30213,
+		option = "",
+		type = 1,
+		id = 11706,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11707] = {
+		param = "새로운 게임기 도입, 매장 리모델링, 그리고 플레이어들에게 줄 푸짐한 상품 준비……",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11707,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11708] = {
+		param = "「호랑이 굴에 가야 호랑이 새끼를 잡는 법」…… 이건 다 게임 로비의 발전을 위해서다냥.",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11708,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11709] = {
+		param = "지, 지금은 온 힘을 다해서…… 아…… 아카시…… 아카시는 찬성한다냥……!!!",
+		ship_group = 31201,
+		option = "",
+		type = 1,
+		id = 11709,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[11710] = {
+		param = "309",
+		ship_group = 31201,
+		option = "",
+		type = 4,
+		id = 11710,
+		flag = 3
 	}
 end)()

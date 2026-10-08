@@ -4,6 +4,19 @@ slot0.getUIName = function(slot0)
 	return "SpWeaponInfoUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/equipmentinfoui_atlas",
+		"equiptype",
+		"weaponframes",
+		"shiptype"
+	}
+
+	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+
+	return slot2
+end
+
 slot0.Left = 1
 slot0.Middle = 2
 slot0.Right = 3

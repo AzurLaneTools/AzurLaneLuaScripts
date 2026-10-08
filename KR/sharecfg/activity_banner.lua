@@ -69,15 +69,14 @@ pg.base.activity_banner = {}
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
+			"scene dockyard"
 		},
 		time = {
 			{
 				{
 					2026,
-					9,
-					30
+					10,
+					8
 				},
 				{
 					0,
@@ -89,12 +88,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					16
+					22
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -290,6 +289,43 @@ pg.base.activity_banner = {}
 		id = 7,
 		pic = "temp7",
 		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[8] = {
+		type = 2,
+		id = 8,
+		pic = "temp8",
+		param = {
 			"crusing"
 		},
 		time = {
@@ -309,49 +345,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					16
+					22
 				},
 				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[8] = {
-		type = 2,
-		id = 8,
-		pic = "temp8",
-		param = {
-			"scene core activity",
-			{
-				coreName = "ShiningMagicCoreActivityUI"
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					9,
-					24
-				},
-				{
-					0,
+					12,
 					0,
 					0
-				}
-			},
-			{
-				{
-					2026,
-					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
 				}
 			}
 		}
@@ -361,17 +360,14 @@ pg.base.activity_banner = {}
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene get boat",
-			{
-				goToPray = true
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2026,
-					9,
-					24
+					10,
+					8
 				},
 				{
 					0,
@@ -383,12 +379,12 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					16
+					22
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}

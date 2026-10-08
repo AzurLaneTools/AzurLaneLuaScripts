@@ -191775,6 +191775,36 @@ _G.pg.base.item_virtual_data_statistics[68710] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[68712] = {
+	drop_gold_max = 0,
+	name = "작전 전권 위임장(대형 작전)",
+	display = "不会被看见",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	album_config = "",
+	icon = "Props/weituozuozhan",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 32,
+	id = 68712,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	drop_arg = {
+		"month",
+		0
+	}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68755] = {
 	drop_gold_max = 0,
 	name = "동원지령 Pt",

@@ -14,9 +14,25 @@ slot0.ResUISettings = function(slot0)
 	return true
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = getProxy(BayProxy):getShipById(slot1.shipId)
+	slot3 = {
+		"ui/ShipDetailView",
+		"bg/star_level_bg_" .. slot2:rarity2bgPrintForGet(),
+		"ui/star_level_bg_" .. slot2:rarity2bgPrintForGet()
+	}
+	slot6 = pg.ship_skin_template[slot2:getSkinId()].rarity_bg and slot5.rarity_bg ~= ""
+
+	if slot2:getRarity() > 2 and not slot6 then
+		table.insert(slot3, "ui/al_bg02_" .. slot4 - 1)
+	end
+
+	return table.insertto(slot3, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.preload = function(slot0, slot1)
 	slot2 = getProxy(BayProxy)
-	slot3 = slot2:getShipById(slot0.contextData.shipId)
+	slot2 = slot2:getShipById(slot0.contextData.shipId)
 
 	parallelAsync({
 		function (slot0)
@@ -55,19 +71,25 @@ slot0.setShip = function(slot0, slot1)
 
 	slot0.shipVO = slot1
 
-	setActive(slot0.npcFlagTF, slot1:isActivityNpc())
-	slot0:setToggleEnable()
+	SplitPackConst.DownloadByLuaArr(ResPathSupport.GetShipAllRes(slot1), function ()
+		if uv0.exited or uv0.shipVO ~= uv1 then
+			return
+		end
 
-	slot0.isSpBg = pg.ship_skin_template[slot0.shipVO:getSkinId()].rarity_bg and slot3.rarity_bg ~= ""
+		setActive(uv0.npcFlagTF, uv1:isActivityNpc())
+		uv0:setToggleEnable()
 
-	slot0:updatePreference(slot1)
-	slot0.shipDetailView:ActionInvokeExclusive("UpdateUI")
-	slot0.shipFashionView:ActionInvokeExclusive("UpdateUI")
-	slot0.shipEquipView:ActionInvokeExclusive("UpdateUI")
+		uv0.isSpBg = pg.ship_skin_template[uv0.shipVO:getSkinId()].rarity_bg and slot0.rarity_bg ~= ""
 
-	if slot2 and not slot0:checkToggleActive(ShipViewConst.currentPage) then
-		triggerToggle(slot0.detailToggle, true)
-	end
+		uv0:updatePreference(uv1)
+		uv0.shipDetailView:ActionInvokeExclusive("UpdateUI")
+		uv0.shipFashionView:ActionInvokeExclusive("UpdateUI")
+		uv0.shipEquipView:ActionInvokeExclusive("UpdateUI")
+
+		if uv2 and not uv0:checkToggleActive(ShipViewConst.currentPage) then
+			triggerToggle(uv0.detailToggle, true)
+		end
+	end)
 end
 
 slot0.equipmentChange = function(slot0)
@@ -183,6 +205,7 @@ slot0.init = function(slot0)
 	slot0:initPages()
 	slot0:initEvents()
 
+	slot0.bgEffect = slot0.bgEffect or {}
 	slot0.mainCanvasGroup = slot0._tf:GetComponent(typeof(CanvasGroup))
 	slot0.commonCanvasGroup = slot0._tf:Find("blur_panel/adapt"):GetComponent(typeof(CanvasGroup))
 	Input.multiTouchEnabled = false
@@ -864,7 +887,7 @@ slot0.switchToPage = function(slot0, slot1, slot2)
 
 		slot2 = not ShipViewConst.IsSubLayerPage(slot0)
 
-		if uv0.bgEffect[uv0.shipVO:getRarity()] then
+		if uv0.bgEffect and uv0.bgEffect[uv0.shipVO:getRarity()] then
 			setActive(slot3, slot0 ~= ShipViewConst.PAGE.REMOULD and uv0.shipVO.bluePrintFlag and uv0.shipVO.bluePrintFlag == 0)
 			uv0:changePaintingSortLayer(true)
 		end

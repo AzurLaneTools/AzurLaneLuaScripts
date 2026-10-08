@@ -13,6 +13,14 @@ slot0.GetAtalsName = function(slot0)
 	return "ui/BossRushKurskUI_atlas"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	table.insert(slot1, slot0:GetAtalsName())
+
+	return slot1
+end
+
 slot0.ResUISettings = function(slot0)
 	return true
 end

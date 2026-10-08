@@ -60,7 +60,16 @@ pg.dorm3d_furniture_slot_template.all = {
 	2210301,
 	2210302,
 	2210303,
-	2210304
+	2210304,
+	2220101,
+	2220102,
+	2220103,
+	2220104,
+	2220201,
+	2220202,
+	2220301,
+	2220302,
+	2220303
 }
 pg.dorm3d_furniture_slot_template.get_id_list_by_room_id = {
 	{
@@ -136,6 +145,17 @@ pg.dorm3d_furniture_slot_template.get_id_list_by_room_id = {
 		2210302,
 		2210303,
 		2210304
+	},
+	[22] = {
+		2220101,
+		2220102,
+		2220103,
+		2220104,
+		2220201,
+		2220202,
+		2220301,
+		2220302,
+		2220303
 	}
 }
 pg.dorm3d_furniture_slot_template.get_id_list_by_zone_id = {
@@ -242,6 +262,21 @@ pg.dorm3d_furniture_slot_template.get_id_list_by_zone_id = {
 		2210302,
 		2210303,
 		2210304
+	},
+	[22001] = {
+		2220101,
+		2220102,
+		2220103,
+		2220104
+	},
+	[22002] = {
+		2220201,
+		2220202
+	},
+	[22003] = {
+		2220301,
+		2220302,
+		2220303
 	}
 }
 pg.base = pg.base or {}
@@ -769,5 +804,86 @@ pg.base.dorm3d_furniture_slot_template = {}
 		room_id = 21,
 		furniture_name = "pre_db_nxmf_cushion01",
 		zone_id = 21003
+	}
+	pg.base.dorm3d_furniture_slot_template[2220101] = {
+		default_furniture = 2201,
+		name = "安眠睡床 ",
+		type = 4,
+		id = 2220101,
+		room_id = 22,
+		furniture_name = "pre_db_yuanchou01_bedroom01_0",
+		zone_id = 22001
+	}
+	pg.base.dorm3d_furniture_slot_template[2220102] = {
+		default_furniture = 0,
+		name = "金辉植栽",
+		type = 3,
+		id = 2220102,
+		room_id = 22,
+		furniture_name = "pre_db_yc_flowerpot01",
+		zone_id = 22001
+	}
+	pg.base.dorm3d_furniture_slot_template[2220103] = {
+		default_furniture = 0,
+		name = "金尊绿叶摆件",
+		type = 3,
+		id = 2220103,
+		room_id = 22,
+		furniture_name = "pre_db_yc_flowerpot02",
+		zone_id = 22001
+	}
+	pg.base.dorm3d_furniture_slot_template[2220104] = {
+		default_furniture = 0,
+		name = "海景装饰画框",
+		type = 3,
+		id = 2220104,
+		room_id = 22,
+		furniture_name = "pre_db_yc_billboard01",
+		zone_id = 22001
+	}
+	pg.base.dorm3d_furniture_slot_template[2220201] = {
+		default_furniture = 2202,
+		name = "静心祷告台",
+		type = 6,
+		id = 2220201,
+		room_id = 22,
+		furniture_name = "pre_db_yuanchou01_chamber01_0",
+		zone_id = 22002
+	}
+	pg.base.dorm3d_furniture_slot_template[2220202] = {
+		default_furniture = 0,
+		name = "研习长桌",
+		type = 6,
+		id = 2220202,
+		room_id = 22,
+		furniture_name = "pre_db_yuanchou01_chamber02_0",
+		zone_id = 22002
+	}
+	pg.base.dorm3d_furniture_slot_template[2220301] = {
+		default_furniture = 2203,
+		name = "午后闲谈沙发",
+		type = 5,
+		id = 2220301,
+		room_id = 22,
+		furniture_name = "pre_db_yc_livingroom01_0",
+		zone_id = 22003
+	}
+	pg.base.dorm3d_furniture_slot_template[2220302] = {
+		default_furniture = 0,
+		name = "琉璃台灯",
+		type = 3,
+		id = 2220302,
+		room_id = 22,
+		furniture_name = "pre_db_yc_decoration02",
+		zone_id = 22003
+	}
+	pg.base.dorm3d_furniture_slot_template[2220303] = {
+		default_furniture = 0,
+		name = "啾啾纪念饰件",
+		type = 3,
+		id = 2220303,
+		room_id = 22,
+		furniture_name = "pre_db_yc_billboard02",
+		zone_id = 22003
 	}
 end)()

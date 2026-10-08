@@ -81,7 +81,16 @@ pg.dorm3d_furniture_template.all = {
 	2113,
 	2114,
 	2115,
-	2161
+	2161,
+	2201,
+	2202,
+	2203,
+	2211,
+	2212,
+	2213,
+	2214,
+	2215,
+	2261
 }
 pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 	{
@@ -178,6 +187,17 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		2114,
 		2115,
 		2161
+	},
+	[22] = {
+		2201,
+		2202,
+		2203,
+		2211,
+		2212,
+		2213,
+		2214,
+		2215,
+		2261
 	}
 }
 pg.base = pg.base or {}
@@ -185,7 +205,7 @@ pg.base.dorm3d_furniture_template = {}
 
 (function ()
 	pg.base.dorm3d_furniture_template[1] = {
-		rarity = 3,
+		is_special = 0,
 		name = "카운터 체어",
 		unlock_tips = "",
 		type = 6,
@@ -193,11 +213,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "검은 목제 좌석과 붉은 가죽 쿠션으로 정교하게 만들어진 카운터 체어.쿠션 두께는 딱 좋아서 오래 앉아 있어도 피곤하지 않다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1,
 		target_slots = {
 			100202
@@ -211,7 +232,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2] = {
-		rarity = 2,
+		is_special = 0,
 		name = "착즙기",
 		unlock_tips = "",
 		type = 3,
@@ -220,11 +241,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "과일이나 야채를 잘게 썰어 넣고, 스타트 버튼을 누르기만 하면 끝.기능이 다양해 사용하기 편하며, 요리 초보자에게는 필수 아이템이다.",
 		is_exclusive = 0,
 		model = "Pay_Siriushostel/pre_db_sh_electrical03",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2,
 		target_slots = {
 			100201
@@ -232,7 +254,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[3] = {
-		rarity = 3,
+		is_special = 0,
 		name = "클래식 소파",
 		unlock_tips = "",
 		type = 5,
@@ -240,11 +262,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "고전적인 디자인의 적당한 길이의 천연 가죽 소파.거실에 고급스러운 분위기를 더해줄 뿐만 아니라, 안정감도 제공해 준다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 3,
 		target_slots = {
 			100301
@@ -258,7 +281,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[4] = {
-		rarity = 3,
+		is_special = 0,
 		name = "심플한 침대",
 		unlock_tips = "",
 		type = 4,
@@ -266,11 +289,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "튼튼한 목재로 만들어진 침대 프레임이 사용자의 체중을 든든하게 지탱한다.단순하고도 쾌적한 디자인은 보고만 있어도 좋은 꿈을 꿀 수 있을 것 같다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 4,
 		target_slots = {
 			100102
@@ -284,7 +308,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[5] = {
-		rarity = 2,
+		is_special = 0,
 		name = "데스크 램프",
 		unlock_tips = "",
 		type = 3,
@@ -293,11 +317,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "시리우스의 화장대에 놓여있는 데스크 램프.밤에 어두울 때는 늘 이 램프를 켜고 있다.항상 자신의 차림새를 체크하는 그녀는늘 최고의 모습으로 사랑하는 사람을 맞이하려고 한다.",
 		is_exclusive = 0,
 		model = "Pay_Siriushostel/pre_db_sh_chandelier01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 5,
 		target_slots = {
 			100101
@@ -305,7 +330,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[6] = {
-		rarity = 2,
+		is_special = 0,
 		name = "크루저 모형",
 		unlock_tips = "",
 		type = 3,
@@ -314,11 +339,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "크루즈 여행이 끝난 뒤 시리우스가 직접 사서 조립한 모델.거기에는 그녀 나름대로의 생각이 있을 수도 있습니다.",
 		is_exclusive = 0,
 		model = "Pay_Siriushostel/pre_db_sh_decoration01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 6,
 		target_slots = {
 			100402
@@ -326,17 +352,18 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[121] = {
-		rarity = 4,
+		is_special = 0,
 		name = "스위트 시크릿",
 		type = 4,
 		room_id = 1,
 		desc = "곳곳에 귀여운 리본 장식이 장식되어 있으며, 레드과 화이트의 베개와 이불이 달콤하고 로맨틱한 분위기를 자아내고 있습니다",
 		is_exclusive = 1,
 		model = "Pay_Siriushostel/pre_db_sh_bed01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture4",
 		scene_hides = "",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 121,
 		target_slots = {
 			100102
@@ -358,17 +385,18 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[122] = {
-		rarity = 4,
+		is_special = 0,
 		name = "오후의 고향",
 		type = 5,
 		room_id = 1,
 		desc = "쾌적한 리클라이닝 소파.\n 폭신하고도 부드러우며, 쿠션과 이불이 딸려있다. 언제든 잠깐 눈을 붙일 수 있는 보드라운 감촉,",
 		is_exclusive = 1,
 		model = "Pay_Siriushostel/pre_db_sh_chair02",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture2",
 		scene_hides = "",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 122,
 		target_slots = {
 			100301
@@ -390,7 +418,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[201] = {
-		rarity = 3,
+		is_special = 0,
 		name = "푹신한 이불",
 		unlock_tips = "",
 		type = 4,
@@ -398,11 +426,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "단출하고도 우아한 배색의 다다미 위에 깔린 부드럽고 편안한 이불.\n눕는 순간, 피로가 씻은 듯이 사라진다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 201,
 		target_slots = {
 			120103
@@ -416,7 +445,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[202] = {
-		rarity = 3,
+		is_special = 0,
 		name = "평온한 간식",
 		unlock_tips = "",
 		type = 6,
@@ -424,11 +453,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "마주 보고 앉는 두 사람. 특별한 것 없는 대화. 먹음직스러운 음식 냄새.\n그녀의 미소와 함께 시간이 평온히 흘러간다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 202,
 		target_slots = {
 			120203
@@ -442,7 +472,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[203] = {
-		rarity = 3,
+		is_special = 0,
 		name = "산들바람 카펫",
 		unlock_tips = "",
 		type = 5,
@@ -450,11 +480,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "편안함을 주는 식물 소재 카펫이 느긋한 시간을 선사한다.\n상쾌한 향기를 풍기며 들이치는 산들바람이 청량한 소리와 함께 완벽한 오후를 만들어 준다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 203,
 		target_slots = {
 			120303
@@ -468,7 +499,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[204] = {
-		rarity = 2,
+		is_special = 0,
 		name = "봄의 꽃병",
 		unlock_tips = "",
 		type = 3,
@@ -477,11 +508,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "아름다운 곡선을 그리는 고급스러운 자기가 꽃에 아름다움을 더하고 있다.\n꽃향기와 꽃병 모양이 훌륭히 어우러져, 생명력과 우아함이 느껴진다.",
 		is_exclusive = 0,
 		model = "Pay_Noshirohostel/pre_db_nh_vase01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 204,
 		target_slots = {
 			120101
@@ -489,7 +521,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[205] = {
-		rarity = 2,
+		is_special = 0,
 		name = "만쥬 인형",
 		unlock_tips = "",
 		type = 3,
@@ -498,11 +530,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "귀여운 모양새로 웃음을 주고, 섬세한 만듦새로 따뜻한 느낌을 준다.\n구석에 조용히 자리 잡고 있지만, 이 공간에서 가장 따뜻한 존재다.",
 		is_exclusive = 0,
 		model = "Pay_Noshirohostel/pre_db_nh_toy02",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 205,
 		target_slots = {
 			120102
@@ -510,7 +543,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[206] = {
-		rarity = 2,
+		is_special = 0,
 		name = "꽃놀이 다기 세트",
 		unlock_tips = "",
 		type = 3,
@@ -519,11 +552,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "쟁반 가장자리에 꽃잎이 살짝 놓인 봄의 다정한 풍경.\n벚꽃 속에서 그녀와 신록의 숨결을 즐긴 추억이 떠오른다.",
 		is_exclusive = 0,
 		model = "Pay_Noshirohostel/pre_db_nh_tableware02",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 206,
 		target_slots = {
 			120201
@@ -531,7 +565,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[207] = {
-		rarity = 2,
+		is_special = 0,
 		name = "푸른 하늘의 소나무",
 		unlock_tips = "",
 		type = 3,
@@ -540,11 +574,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "늠름하게 자라난 가지가 구름 위에서 시를 읊는 듯하다.\n절묘한 가지의 배치가 「유유자적」의 미학을 잘 표현하고 있다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture7",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 207,
 		target_slots = {
 			120202
@@ -552,7 +587,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[208] = {
-		rarity = 2,
+		is_special = 0,
 		name = "정적의 여백",
 		unlock_tips = "",
 		type = 3,
@@ -561,11 +596,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "심플한 도자기와 녹색 식물이 여백 미를 연출하고 있다.\n절제된 생명력이 공간 전체에 고요함을 가져다준다.\n",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture8",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 208,
 		target_slots = {
 			120301
@@ -573,7 +609,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[209] = {
-		rarity = 2,
+		is_special = 0,
 		name = "계절 꽃병",
 		unlock_tips = "",
 		type = 3,
@@ -582,11 +618,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "영롱하게 수 놓인 계절의 색채, 자연스럽게 뻗은 가지들은 마치 움직이는 그림 두루마리와도 같다.\n꽃을 꽂을 때마다 그 아름다움에 새로운 해석이 생긴다.",
 		is_exclusive = 0,
 		model = "Pay_Noshirohostel/pre_db_nh_vase02",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture9",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 209,
 		target_slots = {
 			120302
@@ -594,7 +631,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[210] = {
-		rarity = 2,
+		is_special = 0,
 		name = "행운 만쥬 족자",
 		unlock_tips = "",
 		type = 3,
@@ -603,11 +640,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "가져다 주고, 소원을 이뤄주는 족자.\n둥글고 귀여운 모습이 마음을 따뜻하게 해준다.",
 		is_exclusive = 0,
 		model = "Pay_Noshirohostel/pre_db_nh_decoration02",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture10",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 210,
 		target_slots = {
 			120202
@@ -615,17 +653,18 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[221] = {
-		rarity = 4,
+		is_special = 0,
 		name = "너구리 쿠션",
 		type = 4,
 		room_id = 2,
 		desc = "부드러운 감촉과 편안한 온기가 온몸을 부드럽게 감싸안는다.\n기대어도, 품에 꼭 안아도 쿠션은 변함없이 당신을 받아들여 줄 것이다.",
 		is_exclusive = 1,
 		model = "Pay_Noshirohostel/pre_db_nh_bed01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture1",
 		scene_hides = "",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 221,
 		target_slots = {
 			120103
@@ -647,16 +686,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[222] = {
-		rarity = 3,
+		is_special = 0,
 		name = "마주보는 대화",
 		type = 6,
 		room_id = 2,
 		desc = "넓다란 테이블에 기쁨과 기대감이 가득하다.\n자리 준비는 끝났으니 남은 건 두 사람의 밀회를 조용히 기다리는 것뿐.",
 		is_exclusive = 1,
 		model = "Pay_Noshirohostel/pre_db_nh_diningroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture2",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 222,
 		target_slots = {
 			120203
@@ -681,16 +721,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[223] = {
-		rarity = 4,
+		is_special = 0,
 		name = "편안한 시간",
 		type = 5,
 		room_id = 2,
 		desc = "부드러운 쿠션이 지친 몸을 감싸고, 자세를 부드럽게 받쳐 준다. \n 바쁜 하루 중 가장 상냥한 이 장소에 사람들은 빠져 버린다. ",
 		is_exclusive = 1,
 		model = "Pay_Noshirohostel/pre_db_nh_livingroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture3",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 223,
 		target_slots = {
 			120303
@@ -715,16 +756,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[151] = {
-		rarity = 5,
+		is_special = 1,
 		name = "성야의 썰매 소파",
 		type = 5,
 		room_id = 1,
 		desc = "겨울밤에 내리는 눈, 따뜻하게 흔들리는 촛불, 크리스마스의 약속. \n  사랑스러운 순록이 끄는 썰매 소파. 폭신한 쿠션과 이불이 세트로 딸려있다. 축복과 기대감이 자아내는 별빛 아래, 설레는 자그마한 깜짝 선물. \n  성야의 저녁 식사를 마친 뒤에는 이 따뜻하고도 편안한 공간에서 멋진 이야기가 펼쳐질지도 모른다.",
 		is_exclusive = 1,
 		model = "Pay_Siriushostel/Sh_Sp_Xmas/pre_db_sp_sh_xmas01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture5",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 151,
 		target_slots = {
 			100301
@@ -753,16 +795,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[251] = {
-		rarity = 5,
+		is_special = 1,
 		name = "따끈따끈 코타츠 ",
 		type = 5,
 		room_id = 2,
 		desc = "코타츠의 온기가 겨울의 느긋한 오후를 떠올리게 해준다. \n창문에서 들이치는 햇빛이 바닥에 내리쬐며, 코타츠의 온기에 녹아들어, 일상의 모든 피로를 풀어준다.",
 		is_exclusive = 1,
 		model = "Pay_Noshirohostel/Nh_Sp_NewYearsDay/pre_db_nh_sp_nyd_livingroom01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture251",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 251,
 		target_slots = {
 			120303
@@ -787,7 +830,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[301] = {
-		rarity = 3,
+		is_special = 0,
 		name = "쿠키 소파",
 		unlock_tips = "",
 		type = 4,
@@ -795,11 +838,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "마치 갓구운 쿠키처럼 따뜻한 향기가 풍기는 소파. \n곡선 하나하나에 아기자기함이 가득 담겨져 있어, 공간을 편안하게 만들어 준다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 301,
 		target_slots = {
 			130103
@@ -813,7 +857,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[302] = {
-		rarity = 3,
+		is_special = 0,
 		name = "솔트우드 베드",
 		unlock_tips = "",
 		type = 6,
@@ -821,11 +865,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "곰모양 쿠키를 모티브로 한 헤드 부분은 심플하면서도 귀엽다. \n누우면 씨솔트 쿠키의 향기가 풍기는 듯하다. 피로를 잊고, 달콤한 꿈나라로 떠날 수 있게 해준다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 302,
 		target_slots = {
 			130202
@@ -839,7 +884,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[303] = {
-		rarity = 3,
+		is_special = 0,
 		name = "푸른 모퉁이",
 		unlock_tips = "",
 		type = 5,
@@ -847,11 +892,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "다채로운 장식과 풍부한 상상력이 푸르고 자그마한 공간을 신비로운 분위기로 채우고 있다. \n설령 비가 내리더라도, 마음만은 화창할 것이다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 303,
 		target_slots = {
 			130302
@@ -865,7 +911,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[304] = {
-		rarity = 2,
+		is_special = 0,
 		name = "사카밤바스피스",
 		unlock_tips = "",
 		type = 3,
@@ -874,11 +920,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "부드러운 재료로 만들어진, 귀여운 바다 생물 모양 인형. \n껴안고 있으면 굉장히 폭신하다.",
 		is_exclusive = 0,
 		model = "Pay_Anchoragehostel/pre_db_ah_toy05",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 304,
 		target_slots = {
 			130101
@@ -886,7 +933,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[305] = {
-		rarity = 2,
+		is_special = 0,
 		name = "내추럴 브레스",
 		unlock_tips = "",
 		type = 3,
@@ -895,11 +942,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "작은 녹색 잎사귀가 층층히 어우러져 있다. \n어디 두어도 공간에 자연스러운 편안함을 더해 준다.",
 		is_exclusive = 0,
 		model = "Pay_Anchoragehostel/pre_db_ah_pottedplant01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 305,
 		target_slots = {
 			130102
@@ -907,7 +955,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[306] = {
-		rarity = 2,
+		is_special = 0,
 		name = "시간의 기억",
 		unlock_tips = "",
 		type = 3,
@@ -916,11 +964,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "산뜻한 디자인의 액자에 귀여운 그림이 장식되어 있다. \n언젠가 이 액자에는 가장 소중한 추억이 담길지도 모른다.",
 		is_exclusive = 0,
 		model = "Pay_Anchoragehostel/pre_db_ah_billboard01_group01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 306,
 		target_slots = {
 			130201
@@ -928,7 +977,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[307] = {
-		rarity = 2,
+		is_special = 0,
 		name = "바다와의 만남",
 		unlock_tips = "",
 		type = 3,
@@ -937,11 +986,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "단순한 장식품이 아닌, 스위치와도 같은 존재. \n가볍게 누르기만 해도 창문이 바다로 이어지는 마법의 창문으로 변할 것이다.",
 		is_exclusive = 0,
 		model = "Pay_Anchoragehostel/pre_db_ah_decoration02",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture7",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 307,
 		target_slots = {
 			130301
@@ -949,16 +999,17 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[321] = {
-		rarity = 4,
+		is_special = 0,
 		name = "퓨어 티타임",
 		type = 6,
 		room_id = 3,
 		desc = "공상을 즐기는 만족감과 편안함으로 가득한 커피컵. \n동화 속에 나오는 애프터눈 티는 이 공간에 있는 모든 사람의 것이다.",
 		is_exclusive = 1,
 		model = "Pay_Anchoragehostel/pre_db_ah_entertainmentarea01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture1",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 321,
 		target_slots = {
 			130202
@@ -983,16 +1034,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[322] = {
-		rarity = 4,
+		is_special = 0,
 		name = "은하수 유람선",
 		type = 4,
 		room_id = 3,
 		desc = "곡선을 활용한 디자인과 오션블루 컬러의 조합,\n밤하늘에 뜬 푹신한 침대로 당신을 낭만이 넘치는 모험의 꿈나라로 이끌어 준다.",
 		is_exclusive = 1,
 		model = "Pay_Anchoragehostel/pre_db_ah_bedroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture2",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 322,
 		target_slots = {
 			130103
@@ -1017,7 +1069,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[401] = {
-		rarity = 5,
+		is_special = 1,
 		name = "시사이드 레저",
 		type = 3,
 		touch_id = "",
@@ -1025,10 +1077,11 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "드디어 바캉스가 시작될 시간! 야자수 아래로 비치는 햇살과 시원한 해안가, 물보라와 바닷바람. 당신의 마음도 곧 바캉스의 즐거움으로 가득찰 것이다.",
 		is_exclusive = 0,
 		model = "pay_publicplace/slide",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_beach_PremiumFurniture1",
 		scene_hides = "",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 401,
 		target_slots = {
 			140101
@@ -1044,16 +1097,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[323] = {
-		rarity = 4,
+		is_special = 0,
 		name = "클라우드 드림",
 		type = 5,
 		room_id = 3,
 		desc = "하늘거리는 구름과 부드러운 감촉, 마시멜로를 방불케하는 푹신한 느낌까지. 달콤한 향기 속에서 여유로운 시간을 보내자.",
 		is_exclusive = 1,
 		model = "Pay_Anchoragehostel/pre_db_ah_livingroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture8",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 323,
 		target_slots = {
 			130302
@@ -1078,16 +1132,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[324] = {
-		rarity = 5,
+		is_special = 1,
 		name = "퓨어 랜드",
 		type = 4,
 		room_id = 3,
 		desc = "폭신폭신한 하트 쿠션과 반짝이는 장난감 램프. 오션 블루빛 꿈으로 물든 퓨어 랜드에 오신 것을 환영합니다.",
 		is_exclusive = 1,
 		model = "Pay_Anchoragehostel/Ah_Sp_ValentinesDay/pre_db_aklq_sp_vd01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture9",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 324,
 		target_slots = {
 			130103
@@ -1114,7 +1169,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1101] = {
-		rarity = 3,
+		is_special = 0,
 		name = "토끼 요람",
 		unlock_tips = "",
 		type = 4,
@@ -1122,11 +1177,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "편안한 수면을 추구하는 침대. 견고한 구조로 안정감도 뛰어나다. \n복슬복슬한 토끼 쿠션을 안고 잠들면\n당근 농장 꿈을 꿀 수 있을지도… 모른다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1101,
 		target_slots = {
 			1110102
@@ -1140,7 +1196,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1102] = {
-		rarity = 3,
+		is_special = 0,
 		name = "아이스 에이지",
 		unlock_tips = "",
 		type = 6,
@@ -1148,11 +1204,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "심플한 실루엣의 미래형 디자인. 강력한 냉각 시스템 탑재. \n산소 콜라를 차갑게 식혀 마시면,\n일상에 상쾌함과 쾌적함이 더해진다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1102,
 		target_slots = {
 			1110203
@@ -1166,7 +1223,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1103] = {
-		rarity = 3,
+		is_special = 0,
 		name = "선라이트 아일랜드",
 		unlock_tips = "",
 		type = 5,
@@ -1174,11 +1231,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "부드럽고 푹신한 질감의 클래식한 패브릭 소파. \n오후 햇살이 비추면 이곳은 낮잠을 자기에\n아주 완벽한 섬이 된다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1103,
 		target_slots = {
 			1110303
@@ -1192,7 +1250,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1104] = {
-		rarity = 2,
+		is_special = 0,
 		name = "플래닛 야간등",
 		unlock_tips = "",
 		type = 3,
@@ -1201,11 +1259,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "행성을 모티브로 한 램프. 밤이 되면 은은하고 부드러운 빛을 내뿜는다. \n깊은 우주 어딘가에서 당신을 지켜보는,\n사라지지 않는 별이 있다.",
 		is_exclusive = 0,
 		model = "Pay_Newjerseyhostel/pre_db_njh_electrical03",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1104,
 		target_slots = {
 			1110101
@@ -1213,7 +1272,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1105] = {
-		rarity = 2,
+		is_special = 0,
 		name = "라인 아트 패널",
 		unlock_tips = "",
 		type = 3,
@@ -1222,11 +1281,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "선이 그려내는 미니멀리즘, 겹쳐지는 기하학이 자아내는 독특한 아름다움. 인테리어에 생동감 있는 분위기를 더해준다.",
 		is_exclusive = 0,
 		model = "Pay_Newjerseyhostel/pre_db_njh_billboard01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1105,
 		target_slots = {
 			1110301
@@ -1234,7 +1294,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1106] = {
-		rarity = 2,
+		is_special = 0,
 		name = "사일런트 블루",
 		unlock_tips = "",
 		type = 3,
@@ -1243,11 +1303,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "스위치를 천천히 돌리면 부드러운 빛이 흐르듯 흘러나온다. \n해파리 떼가 깊고 푸른 허공을 둥실둥실 떠다니는 환상적인 풍경. \n이 꿈같은 바다에…… 얼마나 오래 잠겨있던 걸까?",
 		is_exclusive = 0,
 		model = "Pay_Newjerseyhostel/pre_db_njh_fishtank01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture7",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1106,
 		target_slots = {
 			1110302
@@ -1255,7 +1316,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1107] = {
-		rarity = 2,
+		is_special = 0,
 		name = "전자레인지",
 		unlock_tips = "",
 		type = 3,
@@ -1264,11 +1325,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "편리하고 간편한 조리 기구. 아침 식사뿐만 아니라 애프터눈 티도 따뜻하게 데워준다.",
 		is_exclusive = 0,
 		model = "Pay_Newjerseyhostel/pre_db_njh_electrical04",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture8",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1107,
 		target_slots = {
 			1110201
@@ -1276,7 +1338,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1108] = {
-		rarity = 2,
+		is_special = 0,
 		name = "초록 분재",
 		unlock_tips = "",
 		type = 3,
@@ -1285,11 +1347,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "시각적으로 환경을 개선할 뿐만 아니라, 공기까지 정화해 준다.",
 		is_exclusive = 0,
 		model = "Pay_Newjerseyhostel/pre_db_njh_pottedplant01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture9",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1108,
 		target_slots = {
 			1110202
@@ -1297,16 +1360,17 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1151] = {
-		rarity = 4,
+		is_special = 0,
 		name = "별빛 코너",
 		type = 5,
 		room_id = 11,
 		desc = "미래 스타일의 최신식 시트. 실내 온도 자동 조절 기능 탑재. \n언제든 차가운 음료를 즐길 수 있어, 쾌적한 서비스를 극한까지 느낄 수 있다.",
 		is_exclusive = 1,
 		model = "Pay_Newjerseyhostel/pre_db_njh_livingroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture1",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1151,
 		target_slots = {
 			1110303
@@ -1331,16 +1395,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1152] = {
-		rarity = 5,
+		is_special = 1,
 		name = "다이나믹 휠",
 		type = 5,
 		room_id = 11,
 		desc = "사용자의 멘탈 케어까지 고려한 본격적인 운동 기구. \n페달을 밟기만 해도 집 안에서 짜릿한 모험을 즐길 수 있다!",
 		is_exclusive = 1,
 		model = "Pay_Newjerseyhostel/pre_db_njh_entertainment01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture4",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 1152,
 		target_slots = {
 			1110303
@@ -1365,16 +1430,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1153] = {
-		rarity = 4,
+		is_special = 0,
 		name = "별 밖의 은신처",
 		type = 4,
 		room_id = 11,
 		desc = "기술과 미적 감각이 융합된 은밀한 휴식 공간. 마치 은하의 끝에 있는 따뜻한 쉘터와도 같은 느낌이다. \n 몸을 맡기면 일상을 잊고 우주의 꿈에 빠져들 수 있다.",
 		is_exclusive = 1,
 		model = "Pay_Newjerseyhostel/pre_db_njh_bedroom01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture2",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1153,
 		target_slots = {
 			1110102
@@ -1399,17 +1465,18 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1154] = {
-		rarity = 4,
+		is_special = 0,
 		name = "스마트 냉장고 IB-7",
 		type = 6,
 		room_id = 11,
 		desc = "안녕하세요. 스마트 냉장고 IB-7에 오신 것을 환영합니다. \n주문하신 딸기 아이스크림이 완성되었습니다. 당신이 가장 좋아하는 맛입니다. \n…………추가 맞춤 제안을 원하시나요? 해당 기능은 현재 개발 중입니다. 기대해 주세요!",
 		is_exclusive = 1,
 		model = "Pay_Newjerseyhostel/pre_db_njh_kitchen01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture3",
 		scene_hides = "",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1154,
 		target_slots = {
 			1110204
@@ -1431,7 +1498,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1201] = {
-		rarity = 3,
+		is_special = 0,
 		name = "폭신한 침대",
 		unlock_tips = "",
 		type = 4,
@@ -1439,10 +1506,11 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "부드러운 더블 침대. 푹신한 매트리스와 이불, 베개가 완비되어 있다. 이불 속에 들어가면, 하루의 피로가 말끔히 풀린다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture1",
 		scene_hides = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1201,
 		target_slots = {
 			1120103
@@ -1459,7 +1527,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1202] = {
-		rarity = 3,
+		is_special = 0,
 		name = "목제 식탁",
 		unlock_tips = "",
 		type = 6,
@@ -1467,10 +1535,11 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "좌판과 등받이만 있는 단순한 구조의 좌식 의자. 다다미용으로, 푹신한 방석과 함께 쓰면 오래 앉아도 근육에 무리가 가지 않아 매우 편안하다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture2",
 		scene_hides = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1202,
 		target_slots = {
 			1120203
@@ -1487,7 +1556,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1203] = {
-		rarity = 3,
+		is_special = 0,
 		name = "심플한 좌식 의자",
 		unlock_tips = "",
 		type = 5,
@@ -1495,10 +1564,11 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "튼튼하고 내구성 좋은 고급 원목으로 만든 식탁. 상판은 매끄러워 청소가 쉬우며, 짙은 색감이 오염을 잘 가려주고, 자단나무 특유의 질감을 그대로 살렸다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture3",
 		scene_hides = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1203,
 		target_slots = {
 			1120303
@@ -1515,7 +1585,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1211] = {
-		rarity = 2,
+		is_special = 0,
 		name = "고풍스러운 족자",
 		unlock_tips = "",
 		type = 3,
@@ -1524,11 +1594,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "은은한 고풍미가 흐르는 족자. 절제미와 고요한 운치가 있어 방의 정취와 조화를 이루고 있다. 방에 고요함과 우아함을 더한다.",
 		is_exclusive = 0,
 		model = "Pay_Dafenghostel/pre_db_df_wallscrolls01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1211,
 		target_slots = {
 			1120301
@@ -1536,7 +1607,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1212] = {
-		rarity = 2,
+		is_special = 0,
 		name = "사랑의 파트너",
 		unlock_tips = "",
 		type = 3,
@@ -1545,11 +1616,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "가볍고 부드러운 소재로 만든 특별한 의상. 몸에 걸치면 마치 아무것도 입지 않은 듯한 편안함을 느낄 수 있다.",
 		is_exclusive = 0,
 		model = "Pay_Dafenghostel/pre_db_df_cloth01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1212,
 		target_slots = {
 			1120101
@@ -1557,7 +1629,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1213] = {
-		rarity = 2,
+		is_special = 0,
 		name = "플로어 램프",
 		unlock_tips = "",
 		type = 3,
@@ -1566,11 +1638,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "바닥에 놓는 기다란 목재 스탠드. 부드러운 빛을 발하는 이 스탠드는 다이호가 정성을 들여 고른 인테리어용 조명이다.",
 		is_exclusive = 0,
 		model = "Pay_Dafenghostel/pre_db_df_floorlamp01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1213,
 		target_slots = {
 			1120302
@@ -1578,7 +1651,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1214] = {
-		rarity = 2,
+		is_special = 0,
 		name = "반투명 병풍",
 		unlock_tips = "",
 		type = 3,
@@ -1587,10 +1660,11 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "정교한 무늬가 새겨진 반투명 병풍. 다이호는 이걸 침대 옆에 두는 걸 좋아하며, 반투명 특유의 디자인이 방 안에 은은히 매혹적인 분위기를 더해준다.",
 		is_exclusive = 0,
 		model = "Pay_Dafenghostel/pre_db_df_frame01",
-		is_special = 0,
-		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture7",
 		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture7",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1214,
 		target_slots = {
 			1120102
@@ -1601,7 +1675,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1215] = {
-		rarity = 2,
+		is_special = 0,
 		name = "무드등",
 		unlock_tips = "",
 		type = 3,
@@ -1610,11 +1684,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "귀여운 디자인의 취침등. 안에는 등나무 가지를 형상화한 장식이 있어, 따뜻하고 부드러운 빛이 방 안을 포근히 감싸준다.",
 		is_exclusive = 0,
 		model = "Pay_Dafenghostel/pre_db_df_desklamp01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture8",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1215,
 		target_slots = {
 			1120104
@@ -1622,7 +1697,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1221] = {
-		rarity = 4,
+		is_special = 0,
 		name = "사랑의 둥지",
 		unlock_tips = "",
 		type = 4,
@@ -1630,9 +1705,10 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "심플한 디자인의 더블 침대. 고강도 소재와 견고한 금속 프레임으로, 높은 하중도 견딜 수 있다. 엄선된 저반발 매트리스와의 조합이 안전하고 편안한 수면을 보장한다.",
 		is_exclusive = 1,
 		model = "Pay_Dafenghostel/pre_db_df_bedroom_01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture1",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1221,
 		target_slots = {
 			1120103
@@ -1654,16 +1730,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1222] = {
-		rarity = 5,
+		is_special = 1,
 		name = "화악여운",
 		type = 99,
 		room_id = 12,
 		desc = "부드러운 빛이 꽃잎을 쓰다듬으며, 그녀의 실루엣을 비쳐낸다. 꽃과 음색이 녹아들며, 자연의 속삭임이 흘러간다.",
 		is_exclusive = 1,
 		model = "Pay_Dafenghostel/pre_db_df_tedian01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture2",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 1222,
 		target_slots = {
 			1120304
@@ -1688,16 +1765,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1223] = {
-		rarity = 4,
+		is_special = 0,
 		name = "벚꽃이 있는 자리",
 		type = 5,
 		room_id = 12,
 		desc = "고풍스러운 종이 등의 붉은 빛과 은은한 차 향이 피어오르는 가운데, 정교한 다기가 놓여 있다. 벚꽃 장식이 더해진 방석과 어우러져, 품격 있는 손님맞이 풍경을 자아낸다.",
 		is_exclusive = 1,
 		model = "Pay_Dafenghostel/pre_db_df_livingroom_01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture3",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1223,
 		target_slots = {
 			1120303
@@ -1722,7 +1800,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1401] = {
-		rarity = 3,
+		is_special = 0,
 		name = "푹신한 실크 침대",
 		unlock_tips = "",
 		type = 4,
@@ -1730,11 +1808,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "클래식한 디자인의 더블 침대. 검은색 헤드보드와 붉은 벨벳 담요, 부드러운 매트리스와 베개가 지친 몸과 마음에 따뜻한 안식을 선사한다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1401,
 		target_slots = {
 			1140101
@@ -1748,7 +1827,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1402] = {
-		rarity = 3,
+		is_special = 0,
 		name = "심플 데스크",
 		unlock_tips = "",
 		type = 6,
@@ -1756,11 +1835,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "검은색 목재와 심플한 붉은 의자가 조화를 이루는 책상. 실용성과 고전적인 분위기를 모두 갖추고 있다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1402,
 		target_slots = {
 			1140201
@@ -1774,7 +1854,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1403] = {
-		rarity = 3,
+		is_special = 0,
 		name = "천연가죽 소파",
 		unlock_tips = "",
 		type = 5,
@@ -1782,11 +1862,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "부드럽고 편안한 착석감을 자랑하는 천연가죽 소파. 둥근 티 테이블과 함께 배치하면 혼자만의 시간을 여유롭게 보낼 수 있는 이상적인 공간으로 변신한다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 1403,
 		target_slots = {
 			1140301
@@ -1800,7 +1881,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1411] = {
-		rarity = 2,
+		is_special = 0,
 		name = "롱 캔들",
 		unlock_tips = "",
 		type = 3,
@@ -1809,11 +1890,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "아이보리 화이트 색상의 기다란 촛불. 부드럽고 따뜻한 빛으로 밤에 고요함과 로맨틱한 분위기를 더해 준다.",
 		is_exclusive = 0,
 		model = "Pay_Aijierhostel/pre_db_aje_decoration01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1411,
 		target_slots = {
 			1140303
@@ -1821,7 +1903,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1412] = {
-		rarity = 2,
+		is_special = 0,
 		name = "초록 분재",
 		unlock_tips = "",
 		type = 3,
@@ -1830,11 +1912,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "대형 관엽식물. 크고 푸른 잎이 공간에 생기를 불어넣을 뿐 아니라 공기 정화 효과도 있다.",
 		is_exclusive = 0,
 		model = "Pay_Aijierhostel/pre_db_aje_bonsai01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1412,
 		target_slots = {
 			1140202
@@ -1842,7 +1925,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1413] = {
-		rarity = 2,
+		is_special = 0,
 		name = "데스크 라이트",
 		unlock_tips = "",
 		type = 3,
@@ -1851,11 +1934,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "책상 위에 놓인 미니 조명. 따뜻한 빛으로 밤 시간의 독서나 작업을 쾌적하게 해 준다.",
 		is_exclusive = 0,
 		model = "Pay_Aijierhostel/pre_db_aje_desklamp01_on",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1413,
 		target_slots = {
 			1140103
@@ -1863,7 +1947,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1414] = {
-		rarity = 2,
+		is_special = 0,
 		name = "레트로 카메라",
 		unlock_tips = "",
 		type = 3,
@@ -1872,11 +1956,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "옛 정취가 살아 있는 레트로 카메라. 세월의 흔적이 느껴지는 독특한 디자인으로 사진 애호가의 컬렉션에 제격이다.",
 		is_exclusive = 0,
 		model = "Pay_Aijierhostel/pre_db_aje_camera01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture7",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1414,
 		target_slots = {
 			1140102
@@ -1884,7 +1969,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1415] = {
-		rarity = 2,
+		is_special = 0,
 		name = "초상화",
 		unlock_tips = "",
 		type = 3,
@@ -1893,11 +1978,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "클래식한 터치로 그려진 추상파 스타일의 초상화. 선명하고 깊이감 있는 상반되는 색채의 공존으로, 의외로 방의 분위기와 잘 어울린다.",
 		is_exclusive = 0,
 		model = "Pay_Aijierhostel/pre_db_aje_billboard01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_aijier_CommonFurniture8",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 1415,
 		target_slots = {
 			1140302
@@ -1905,16 +1991,17 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[1461] = {
-		rarity = 4,
+		is_special = 0,
 		name = "진홍의 고요",
 		type = 4,
 		room_id = 14,
 		desc = "프라이빗하고 로맨틱한 비밀 공간. 붉은 벨벳 침구와 슬라이드식 캐노피 커튼이 밤에 고요함과 따뜻함을 더해 준다.",
 		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_bed01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture1",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1461,
 		target_slots = {
 			1140101
@@ -1939,16 +2026,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1462] = {
-		rarity = 4,
+		is_special = 0,
 		name = "지적인 사색",
 		type = 6,
 		room_id = 14,
 		desc = "매끄럽고 평평한 상판을 가진 클래식한 디자인의 책상. 튼튼하고 수납 기능도 갖추고 있어 학습이나 업무에 안성맞춤.",
 		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_study01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture2",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1462,
 		target_slots = {
 			1140201
@@ -1973,16 +2061,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1463] = {
-		rarity = 4,
+		is_special = 0,
 		name = "심홍의 운치",
 		type = 5,
 		room_id = 14,
 		desc = "천연가죽 소재를 사용하여 화려하면서도 절제된 인상을 주는 소파. 일상 속의 안락함과 운치를 한껏 즐길 수 있다.",
 		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_living01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture3",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 1463,
 		target_slots = {
 			1140301
@@ -2007,16 +2096,17 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[1468] = {
-		rarity = 5,
+		is_special = 1,
 		name = "두근거리는 순간",
 		type = 99,
 		room_id = 14,
 		desc = "화려하고 매혹적인, 열정과 로맨스로 가득한 욕조. 격렬한 물결 속에 숨은 감정의 고조를 온몸으로 느껴보자.",
 		is_exclusive = 1,
 		model = "Pay_Aijierhostel/pre_db_aijier_special01",
-		is_special = 1,
 		icon = "dorm3dIcon/3Ddrom_aijier_PremiumFurniture4",
+		rarity = 5,
 		acesses = "",
+		model_night = "",
 		id = 1468,
 		target_slots = {
 			1140104
@@ -2041,7 +2131,7 @@ pg.base.dorm3d_furniture_template = {}
 		}
 	}
 	pg.base.dorm3d_furniture_template[2101] = {
-		rarity = 3,
+		is_special = 0,
 		name = "골판지 하우스",
 		unlock_tips = "",
 		type = 4,
@@ -2049,11 +2139,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "골판지를 이어 붙여 만든 잠자리. 가볍고 옮기기 쉬우며, 단순한 구조지만 편안함은 충분하다. 둥글게 몸을 말고 자는 그녀의 습성에 잘 맞는다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture1",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 2101,
 		target_slots = {
 			2210101
@@ -2067,7 +2158,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2102] = {
-		rarity = 3,
+		is_special = 0,
 		name = "멀티 수납 선반",
 		unlock_tips = "",
 		type = 6,
@@ -2075,11 +2166,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "5단 오픈 선반에 책과 공구 등이 제자리에 가지런히 놓여 있다. 생활의 흔적이 그대로 장식처럼 녹아들어, 모든 선반이 손에 닿는 일상의 일부이다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture2",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 2102,
 		target_slots = {
 			2210201
@@ -2093,7 +2185,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2103] = {
-		rarity = 3,
+		is_special = 0,
 		name = "햇살의 온기 소파",
 		unlock_tips = "",
 		type = 5,
@@ -2101,11 +2193,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "따스한 느낌의 순백색 소파와 햇살 조각을 닮은 주황색 쿠션. 같은 색상의 로우 테이블과 담요까지 갖춰져 있어, 어디에 앉든 편안한 휴식 공간이 된다.",
 		is_exclusive = 0,
 		model = "",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture3",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 3,
 		acesses = "",
+		model_night = "",
 		id = 2103,
 		target_slots = {
 			2210301
@@ -2119,7 +2212,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2111] = {
-		rarity = 2,
+		is_special = 0,
 		name = "창가의 관엽식물",
 		unlock_tips = "",
 		type = 3,
@@ -2128,11 +2221,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "창가에 놓인 초록빛 화분. 가지는 곧게 뻗고 잎은 풍성하게 퍼져, 방 안에 생명력과 자연의 숨결을 가득 채워 준다.",
 		is_exclusive = 0,
 		model = "Pay_Naximofuhostel/pre_db_nxmf_flowerpot01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture4",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2111,
 		target_slots = {
 			2210303
@@ -2140,7 +2234,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2112] = {
-		rarity = 2,
+		is_special = 0,
 		name = "고양이 쿠션",
 		unlock_tips = "",
 		type = 3,
@@ -2149,11 +2243,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "도톰하고 부드러운 원형 쿠션. 어디에 두든 그곳은 고양이에게 떠나기 싫은 최고의 휴식처가 된다.",
 		is_exclusive = 0,
 		model = "Pay_Naximofuhostel/pre_db_nxmf_cushion01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture5",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2112,
 		target_slots = {
 			2210304
@@ -2161,7 +2256,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2113] = {
-		rarity = 2,
+		is_special = 0,
 		name = "원자 모형",
 		unlock_tips = "",
 		type = 3,
@@ -2170,11 +2265,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "원자와 결정 구조를 모티브로 한 과학 예술품. 물리를 좋아하는 사람에게는 훌륭한 수집품이자, 개성 넘치는 책상 장식이 될 것이다.",
 		is_exclusive = 0,
 		model = "Pay_Naximofuhostel/pre_db_nxmf_decoration01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture6",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2113,
 		target_slots = {
 			2210302
@@ -2182,7 +2278,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2114] = {
-		rarity = 2,
+		is_special = 0,
 		name = "노란 유약 도자기",
 		unlock_tips = "",
 		type = 3,
@@ -2191,11 +2287,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "통통하고 둥근 노란색 도자기. 유약에는 매끄럽고 윤기가 흐르며, 귀여운 모습은 길게 늘어난 도넛을 떠올리게 한다.",
 		is_exclusive = 0,
 		model = "Pay_Naximofuhostel/pre_db_nxmf_ceram01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture7",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2114,
 		target_slots = {
 			2210103
@@ -2203,7 +2300,7 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2115] = {
-		rarity = 2,
+		is_special = 0,
 		name = "아로마 병",
 		unlock_tips = "",
 		type = 3,
@@ -2212,11 +2309,12 @@ pg.base.dorm3d_furniture_template = {}
 		desc = "가느다란 아로마 스틱이 꽂혀 있는 선명한 노란색의 작은 도자기 병. 불을 켜지 않아도 은은한 향이 천천히 방 안 가득 퍼져 나간다.",
 		is_exclusive = 0,
 		model = "Pay_Naximofuhostel/pre_db_nxmf_cosmetic01",
-		is_special = 0,
+		unlock_banners = "",
 		icon = "dorm3dIcon/3Ddrom_naximofu_CommonFurniture8",
 		scene_hides = "",
-		unlock_banners = "",
+		rarity = 2,
 		acesses = "",
+		model_night = "",
 		id = 2115,
 		target_slots = {
 			2210102
@@ -2224,16 +2322,17 @@ pg.base.dorm3d_furniture_template = {}
 		shop_id = {}
 	}
 	pg.base.dorm3d_furniture_template[2161] = {
-		rarity = 4,
+		is_special = 0,
 		name = "큐브 검출기",
 		type = 6,
 		room_id = 21,
 		desc = "원형 탐지기가 천천히 회전하며, 화면에 흐르는 데이터가 은하수처럼 펼쳐진다. 기동 버튼을 누르면, 어떤 과학적 비밀이 밝혀질지도 모른다.",
 		is_exclusive = 1,
 		model = "Pay_Naximofuhostel/pre_db_naximofu_basement01",
-		is_special = 0,
 		icon = "dorm3dIcon/3Ddrom_naximofu_PremiumFurniture1",
+		rarity = 4,
 		acesses = "",
+		model_night = "",
 		id = 2161,
 		target_slots = {
 			2210201
@@ -2255,6 +2354,233 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/basement/pre_db_naximofu_basement01_0"
+		}
+	}
+	pg.base.dorm3d_furniture_template[2201] = {
+		is_special = 0,
+		name = "편안한 침대",
+		unlock_tips = "",
+		type = 4,
+		room_id = 22,
+		desc = "평온하고 편안한 시간을 선사하는 넉넉한 침대. 군더더기 없는 장식 덕분인지 왠지 모르게 몸의 긴장이 풀린다. 긴 하루의 끝에 몸을 맡기고 싶은 침대다.",
+		is_exclusive = 0,
+		model = "",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture1",
+		scene_hides = "",
+		rarity = 3,
+		acesses = "",
+		model_night = "",
+		id = 2201,
+		target_slots = {
+			2220101
+		},
+		touch_id = {
+			{
+				20707,
+				2070710
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2202] = {
+		is_special = 0,
+		name = "고요한 기도대",
+		unlock_tips = "",
+		type = 6,
+		room_id = 22,
+		desc = "기도 시간을 위해 마련된 작은 공간. 고요하고 격식이 있으면서도 어딘가 의식이 치러지는 장소 같은 분위기가 감돈다. 묵상에 잠기면 흐트러진 생각도 조금씩 차분해질 것이다.",
+		is_exclusive = 0,
+		model = "",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture2",
+		scene_hides = "",
+		rarity = 3,
+		acesses = "",
+		model_night = "Pay_Yuanchouhostel/pre_db_yuanchou01_chamber01_0_night",
+		id = 2202,
+		target_slots = {
+			2220201
+		},
+		touch_id = {
+			{
+				20707,
+				2070720
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2203] = {
+		is_special = 0,
+		name = "오후의 담소 소파",
+		unlock_tips = "",
+		type = 5,
+		room_id = 22,
+		desc = "차분한 가구와 부드러운 분위기가 조화를 이루어, 편안하면서도 품격을 잃지 않는 공간을 만들어 준다. 혼자 쉴 때도 손님을 맞이할 때도 요긴하게 활용할 수 있다.",
+		is_exclusive = 0,
+		model = "",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture3",
+		scene_hides = "",
+		rarity = 3,
+		acesses = "",
+		model_night = "",
+		id = 2203,
+		target_slots = {
+			2220301
+		},
+		touch_id = {
+			{
+				20707,
+				2070730
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2211] = {
+		is_special = 0,
+		name = "금빛 관엽식물",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "빈 공간을 풍성하게 채워 주는 존재감 넘치는 관엽식물. 부드러운 색감이 지나치게 튀지 않아 차분한 인테리어와 잘 어울린다.",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_flowerpot01",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture4",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2211,
+		target_slots = {
+			2220102
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2212] = {
+		is_special = 0,
+		name = "만쥬 기념 소품",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "묵직한 질감이 소품의 존재감을 돋보이게 한다. 화려함으로 시선을 끌지 않아도 그 안에 담긴 특별한 의미가 충분히 전해진다.",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_billboard02",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture5",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2212,
+		target_slots = {
+			2220303
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2213] = {
+		is_special = 0,
+		name = "골든 리프",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "작지만 세심한 디자인이 돋보이는 소품. 방 한구석에 살짝 두기만 해도 전체적인 분위기를 깔끔하게 정돈해 준다.",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_flowerpot02",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture6",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2213,
+		target_slots = {
+			2220103
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2214] = {
+		is_special = 0,
+		name = "씨스케이프",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "벽에 고요한 분위기를 더해 주는 액자 속 바다 풍경. 바라보고 있는 것만으로도 마음이 차분해진다.",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_billboard01",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture7",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2214,
+		target_slots = {
+			2220104
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2215] = {
+		is_special = 0,
+		name = "유리 데스크 램프",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "투명하고 맑은 색감의 유리 램프. 방을 우아하고 산뜻하게 밝혀 준다.",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_decoration02",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture8",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2215,
+		target_slots = {
+			2220302
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2261] = {
+		is_special = 0,
+		name = "연구의 워크 테이블",
+		type = 6,
+		room_id = 22,
+		desc = "온갖 도구와 책으로 가득한 작업 테이블. 연구에 몰두하는 긴장감과 일상의 흔적이 한데 어우러져 있다.",
+		is_exclusive = 1,
+		model = "Pay_Yuanchouhostel/pre_db_yuanchou01_chamber02",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_PremiumFurniture1",
+		rarity = 4,
+		acesses = "",
+		model_night = "",
+		id = 2261,
+		target_slots = {
+			2220202
+		},
+		touch_id = {
+			{
+				20707,
+				2070740
+			}
+		},
+		shop_id = {
+			270801
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture2261"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0",
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0_night"
 		}
 	}
 end)()

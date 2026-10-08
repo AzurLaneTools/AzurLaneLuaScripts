@@ -24,6 +24,26 @@ slot0.getUIName = function(slot0)
 	return "NewPlayerUI"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = {}
+	slot2 = {}
+	slot3 = {}
+
+	for slot7, slot8 in pairs(uv0) do
+		table.insertto(slot1, ResPathSupport.GetPaintingListByPaintingName(slot8))
+		table.insertto(slot2, ResPathSupport.GetSkillIconList(slot7))
+
+		slot11 = Ship.New({
+			configId = slot7
+		})
+
+		table.insertto(slot3, ResPathSupport.GetSpineCharListByPrefabName(slot11:getPrefab()))
+		table.insertto(slot3, ResPathSupport.GetShipSkinLive2DList(slot11:getSkinId()))
+	end
+
+	return table.insertto(ResPathSupport.MergeLuaArr(slot1, slot2, slot3), uv1.super.getResource(slot0))
+end
+
 slot0.init = function(slot0)
 	slot0.eventTriggers = {}
 	slot0.characters = slot0._tf:Find("select_character/characters")

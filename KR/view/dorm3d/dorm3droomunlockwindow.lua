@@ -4,6 +4,35 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dRoomUnlockWindow"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {}
+	slot3 = slot1 or slot0.contextData or {}
+
+	slot4 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot5 = slot3.roomId and ApartmentRoom.New({
+		id = slot3.roomId
+	})
+
+	if slot3.groupId then
+		slot4("ui/shoptip_atlas")
+
+		slot6 = slot5 and Apartment.getGroupConfig(slot3.groupId, slot5:getConfig("invite_banner")) or {}
+
+		for slot10, slot11 in ipairs(slot6) do
+			slot4("dorm3dbanner/" .. slot11)
+		end
+	elseif slot5 then
+		slot4("dorm3dbanner/" .. string.lower(slot5:getConfig("assets_prefix")))
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+end
+
 slot0.init = function(slot0)
 	slot0.bubbleContent = slot0._tf:Find("Window/Bubbles/content")
 	slot0.bubbleTpl = slot0._tf:Find("Window/Bubbles/tpl")

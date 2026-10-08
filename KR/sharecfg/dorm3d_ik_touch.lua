@@ -39,7 +39,9 @@ pg.dorm3d_ik_touch.all = {
 	6004007,
 	7001001,
 	7001002,
-	7001003
+	7001003,
+	8001001,
+	8001002
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ik_touch = {}
@@ -629,5 +631,37 @@ pg.base.dorm3d_ik_touch = {}
 		vibrate = "",
 		action_emote = "",
 		id = 7001003
+	}
+	pg.base.dorm3d_ik_touch[8001001] = {
+		hold_time = 0,
+		body = "Chest",
+		scene_item = "",
+		trigger_type = 1,
+		ik_move = "",
+		char_id = 20707,
+		action_emote = "",
+		id = 8001001,
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		},
+		tip_offset = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_ik_touch[8001002] = {
+		hold_time = 0,
+		body = "",
+		tip_offset = "",
+		scene_item = "FurnitureSlots/2220202/pre_db_yuanchou01_chamber02(Clone)/pre_db_yc_table01/all/fbx_db_yc_cup01",
+		trigger_type = 1,
+		ik_move = "",
+		char_id = 20707,
+		vibrate = "",
+		action_emote = "",
+		id = 8001002
 	}
 end)()

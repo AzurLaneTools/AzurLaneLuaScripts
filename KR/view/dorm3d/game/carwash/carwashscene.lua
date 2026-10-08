@@ -4,6 +4,16 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dCarWashUI"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	for slot5, slot6 in ipairs(Dorm3dHxHelper.GetMaterialResources(slot0.contextData.groupId)) do
+		table.insert(slot1, slot6)
+	end
+
+	return slot1
+end
+
 slot0.forceGC = function(slot0)
 	return true
 end
@@ -34,8 +44,12 @@ slot0.preload = function(slot0, slot1)
 		}
 	}
 	slot0.loader = AutoLoader.New()
+	slot0.hxHelper = Dorm3dHxHelper.New(slot0.loader)
 
 	seriesAsync({
+		function (slot0)
+			uv0.hxHelper:LoadMaterials(uv0.contextData.groupId, slot0)
+		end,
 		function (slot0)
 			slot1 = SceneOpMgr.Inst
 
@@ -75,6 +89,9 @@ slot0.willExit = function(slot0)
 	slot1 = slot0.loader
 
 	slot1:Clear()
+
+	slot0.hxHelper = nil
+
 	seriesAsync(underscore.map(slot0.sceneInfo, function (slot0)
 		return function (slot0)
 			SceneOpMgr.Inst:UnloadSceneAsync(uv0.path, uv0.name, slot0)
@@ -96,7 +113,7 @@ end
 slot0.InitHX = function(slot0)
 	slot0.holyLightRoot = slot0._tf:Find("HolyLightRoot")
 
-	Dorm3dHxHelper.ReplaceCharacterParts(slot0.ladyGO.transform)
+	slot0.hxHelper:Apply(slot0.ladyGO.transform)
 	Dorm3dHxHelper.HideCharacterPart(slot0.ladyGO.transform, nil, true)
 	Dorm3dHxHelper.ShowHolyLight({
 		slot0.ladyGO.transform

@@ -4,6 +4,74 @@ slot0.getUIName = function(slot0)
 	return "LevelRemasterView"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot3 = function(slot0, slot1)
+		if noEmptyStr(Drop.New({
+			type = slot0,
+			id = slot1
+		}):getIcon()) then
+			table.insert(uv0, slot3)
+		end
+	end
+
+	slot4 = function(slot0, slot1)
+		if slot0 ~= DROP_TYPE_SHIP then
+			return
+		end
+
+		table.insertto(uv0, ResPathSupport.GetPaintingSquareIconListByPaintingName(Ship.getPaintingName(slot1)))
+	end
+
+	slot5 = function(slot0)
+		if slot0 == nil then
+			return
+		end
+
+		table.insert(uv0, ResPathSupport.ConstPath.LevelMap .. "/" .. slot0)
+	end
+
+	slot6 = function(slot0)
+		if slot0 == nil then
+			return
+		end
+
+		table.insert(uv0, "ui/" .. slot0)
+	end
+
+	_.each(pg.re_map_template.all, function (slot0)
+		if pg.re_map_template[slot0] and noEmptyStr(slot1.bg) then
+			table.insert(uv0, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.ActivityBanner, slot1.bg))
+		end
+
+		_.each(slot1.drop_gain or {}, function (slot0)
+			if #slot0 > 0 then
+				uv0(slot0[2], slot0[3])
+				uv1(slot0[2], slot0[3])
+			end
+		end)
+		_.each(slot1.drop_display or {}, function (slot0)
+			if slot0[1] then
+				uv0(slot0[1][1], slot0[1][2])
+				uv1(slot0[1][1], slot0[1][2])
+			end
+		end)
+		_.each(slot1.drop_display_sp or {}, function (slot0)
+			if slot0[1] then
+				uv0(slot0[1][1], slot0[1][2])
+				uv1(slot0[1][1], slot0[1][2])
+			end
+		end)
+		_.each(slot1.config_data, function (slot0)
+			if pg.chapter_template[slot0] and pg.expedition_data_by_map[slot1.map] then
+				uv0(slot2.bg)
+				uv1(slot2.ani_name)
+			end
+		end)
+	end)
+
+	return ResPathSupport.UniqueLuaArr(table.insertto({}, uv0.super.getResource(slot0, slot1)))
+end
+
 slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.content = slot1:Find("list/content")
@@ -96,7 +164,7 @@ slot0.OnInit = function(slot0)
 					end
 				end, SFX_PANEL)
 
-				slot11 = underscore.rest(slot3.drop_display, 1)
+				slot11 = underscore.to_array(slot3.drop_display)
 
 				if BossRushChapterRemasterHelper.ChapterAwardInfo(slot3.id) then
 					table.insert(slot11, 1, slot10)

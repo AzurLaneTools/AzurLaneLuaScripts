@@ -10,11 +10,11 @@ return {
 			NextIcon = 1,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			bgm = "battle-visioncity-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "아즈치는 조용히 부채를 접고, 눈빛에 처음으로 놀라움과 감탄을 내비쳤다.",
+			say = "{namecode:315:安土}轻轻收起扇子，眼神中第一次流露出惊奇和欣赏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,13 +24,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 304090,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "……정말, 상상을 뛰어넘네.",
+			say = "……真是超出预期。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,13 +40,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 304090,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "이 연극이 가장 지루한 대목에서 끝나는 건 아닐까 걱정했거든.",
+			say = "我本来还担心，这出戏会在最无聊的地方收场呢。 ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,13 +56,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 304090,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "아무래도 「서로 이해한다」는 점에 관해서는…… 내가 조금 잘못 판단했던 모양이야.",
+			say = "看来，关于这个“互相理解”的议题，我先前的判断确实存在瑕疵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,12 +72,12 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			actor = 304090,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "당신 같은 사람이라면 내 존경을 받을 자격이 있어. 그래, 입에 발린 아첨 따위가 아니라 진심으로.",
+			say = "像你这样的人，值得赢下我的尊重——这可不是嘴上说说而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,12 +87,12 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			actor = 304090,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "그러니 하나 더 호의를 베풀어 주지.",
+			say = "我就顺手帮你们一个忙吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "아즈치의 시선이 품에 안긴 타이거에게 향했다.",
+			say = "她的视线落在我怀中的虎身上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "간신히 형태만을 유지하고 있는 그녀의 모습은 금방이라도 소멸할 것처럼 점차 투명해지고 있었다.",
+			say = "那具原本还勉强维持轮廓的身影，此刻已经变得愈发透明，仿佛下一秒就会彻底消散。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,13 +126,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304090,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "내 불꽃은 「재생의 불꽃」이야.",
+			say = "我的火焰，可是「重生之火」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,23 +144,7 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "붉은색과 금색이 뒤섞인 불꽃이 타이거의 발밑에서 소리 없이 피어올라 순식간에 그녀의 온몸을 감쌌다.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_306",
-			factiontag = "유영",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 202380,
-			NextIcon = 1,
-			hidePaintObj = true,
-			say = "윽…… 실체화가 안정됐어……?",
+			say = "一簇赤金色的火焰自虎的脚下悄然腾起，转瞬便将她整个人包裹其中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,13 +154,29 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202380,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "불꽃에 그을린 곳의 통증도 조금씩 가라앉고 있고……",
+			say = "唔……实体化，稳定了……？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_306",
+			factiontag = "幽影",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 202380,
+			NextIcon = 1,
+			hidePaintObj = true,
+			say = "被火焰烧灼过的位置，疼痛也在消退……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,13 +186,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 317031,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "아즈치 님……",
+			say = "{namecode:315:安土}大人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,13 +202,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304090,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "감상적인 인사는 사양할게. 다들…… 나를 실망시키지 말아 줘.",
+			say = "煽情的话就免了。你们啊，可别让我失望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "활활 타오르는 불꽃이 소용돌이치며, 사라져 가던 타이거의 윤곽을 조금씩 다시 그려 나갔다.",
+			say = "烈焰翻涌着，将虎那几近消散的轮廓重新一点点勾勒出来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "나는 무의식적으로 타이거를 세게 끌어안았다. 그녀의 존재가 확실하게 느껴지자, 팽팽했던 긴장이 느슨하게 풀려나갔다.",
+			say = "我下意识将她抱得更紧了些，直到这个怀抱可以切实地感受到她的存在，一直紧绷的弦才终于松开。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "그 순간, 극심한 피로로 인한 현기증이 한꺼번에 밀려들었고――",
+			say = "就在这一刻，强烈的眩晕与疲惫终于越过了意志的防线。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,13 +254,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202380,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "지휘관……!",
+			say = "指挥官……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,13 +270,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304090,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "후후후, 지금은 편히 잠들도록 해.",
+			say = "呵呵呵，趁现在好好睡一觉吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,12 +286,12 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			actor = 304090,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "눈을 뜨면 당신이 모두를 새로운 내일로 이끌어 가야 하니까.",
+			say = "等你醒来——就该带领所有人走向全新的明天了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,13 +301,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304090,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "……하지만 방심하지 마. 언젠가 이 세계가 다시 썩어 문드러져 차마 눈 뜨고 볼 수 없는 모습으로 전락한다면……",
+			say = "……可不要松懈啊~如果在未来的某一天，这个世界再次变得腐朽难看——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,13 +317,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304090,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "그때는 다시 내 방식으로…… 활활 타오르는 불꽃으로 모든 것을 새롭게 태어나게 해 줄 테니까.",
+			say = "——我照样会用我的方式，以一场大火，赋予一切新生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgm = "story-hospital-light",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "눈을 뜨자 눈앞에 낯선 천장이 보였다.",
+			say = "再次睁开眼时，映入眼帘的是一尘不染的天花板。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "star_level_bg_308",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "희미한 소독약 냄새와…… 맛있는 감자튀김 냄새가 풍겨 왔다.",
+			say = "空气里飘着淡淡的消毒水味，以及……炸薯条的香味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "star_level_bg_308",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "침대 옆 흰 커튼 너머에서 소녀의 활기찬 목소리가 들려왔다.",
+			say = "少女充满活力的声音从床旁的白色拉帘后传来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,11 +387,11 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			actorName = "??",
+			actorName = "？？",
 			dir = 1,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "와, 지휘관! 벌써 일어나셨네요!",
+			say = "呀，指挥官这么快就醒啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,11 +401,11 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			actorName = "??",
+			actorName = "？？",
 			dir = 1,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "『낭만 각성 어른 세트』와 『계속 설레는 어린이 세트』…… 어느 쪽으로 하실래요?",
+			say = "你想吃浪漫觉醒成人套餐，还是想吃趣味永存儿童套餐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 0,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "――……어른 세트로 부탁해.",
+			say = "……成人餐吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actor = 0,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "――아니, 덤으로 장난감이 따라온다면…… 어린이 세트도 나쁘지 않겠는데.",
+			say = "不过，如果有附送玩具，感觉也不错。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,11 +478,11 @@ return {
 			},
 			sequence = {
 				{
-					"크레딧 후에",
+					"CAST之后",
 					0
 				},
 				{
-					"흥미진진한 쿠키 영상 있음!",
+					"还有精彩花絮哦！",
 					1
 				}
 			},
@@ -514,89 +514,89 @@ return {
 				},
 				{
 					1,
-					"캐스팅"
+					"演员表 CAST"
 				},
 				{
 					3,
 					{
-						"지휘관",
+						"指挥官",
 						"{playername}",
-						"신입 요원",
-						"재블린",
-						"유영 요원",
-						"아마츠카제",
-						"NO.1 특사",
-						"클리블랜드 & 꼬마 클리블랜드",
-						"NO.1 지원자",
-						"꼬마 아마기",
-						"NO.1 사무관",
-						"꼬마 벨파스트",
-						"8인 의회 의원",
-						"꼬마 다이호",
-						"8인 의회 의원",
-						"꼬마 무사시",
-						"8인 의회 의원",
-						"꼬마 프린츠 오이겐",
-						"8인 의회 의원",
-						"꼬마 앵커리지",
-						"8인 의회 의원",
-						"꼬마 헬레나",
-						"8인 의회 의원",
-						"꼬마 시나노",
-						"8인 의회 의원",
-						"꼬마 리나운",
-						"8인 의회 의원",
-						"꼬마 그라프 슈피",
-						"17호 비서 & 기업연합회 임시대표",
-						"오라주",
-						"참모단원",
-						"바르톨로메오 콜레오니",
-						"참모단원",
-						"아드미랄 젠커",
-						"참모단원",
-						"브루클린",
-						"참모단원",
-						"에이잭스",
-						"참모단원",
-						"시라누이",
-						"보좌 참모",
-						"Z23",
-						"유영",
-						"타이거",
-						"유영",
-						"아즈치",
-						"유영",
-						"호스타일",
-						"유영",
-						"프리드리히 카를",
-						"유영",
-						"골든 하인드",
-						"유영",
-						"헤이스티",
-						"유영",
-						"요르크",
-						"유영",
-						"체셔",
-						"유영",
-						"일러스트리어스",
-						"유영",
-						"라이온",
-						"유영",
-						"하쿠호",
-						"유영",
-						"이14",
-						"재블린의 여동생",
-						"주피터 & 저지",
-						"무고한 피해자",
-						"Z14",
-						"무고한 행인",
-						"U-552 & 니콜라스",
-						"무고한 접수원",
-						"애리조나",
-						"NO.1 시민",
-						"꼬마 포미더블",
-						"NO.1 시민",
-						"꼬마 샌디에이고"
+						"新手行动员",
+						"标枪",
+						"幽影行动员",
+						"{namecode:23:天津风}",
+						"NO.1特使",
+						"克利夫兰&小克利夫兰",
+						"NO.1支援者",
+						"{namecode:193:小天城}",
+						"NO.1事务官",
+						"小贝法",
+						"八人议会成员",
+						"{namecode:291:小大凤}",
+						"八人议会成员",
+						"{namecode:554:小武藏}",
+						"八人议会成员",
+						"{namecode:458:小欧根}",
+						"八人议会成员",
+						"小安克雷奇",
+						"八人议会成员",
+						"小海伦娜",
+						"八人议会成员",
+						"{namecode:534:小信浓}",
+						"八人议会成员",
+						"小声望",
+						"八人议会成员",
+						"{namecode:459:小斯佩}",
+						"17号秘书&企业联合会临时代表",
+						"暴风雨",
+						"参谋团成员",
+						"巴托洛梅奥·科莱奥尼",
+						"参谋团成员",
+						"{namecode:546:曾克海军上将}",
+						"参谋团成员",
+						"布鲁克林",
+						"参谋团成员",
+						"阿贾克斯",
+						"参谋团成员",
+						"{namecode:20:不知火}",
+						"助理参谋",
+						"{namecode:408:Z23}",
+						"幽影",
+						"虎",
+						"幽影",
+						"{namecode:315:安土}",
+						"幽影",
+						"敌对",
+						"幽影",
+						"{namecode:531:腓特烈·卡尔}",
+						"幽影",
+						"金鹿号",
+						"幽影",
+						"匆忙",
+						"幽影",
+						"约克DE",
+						"幽影",
+						"柴郡",
+						"幽影",
+						"光辉",
+						"幽影",
+						"狮",
+						"幽影",
+						"{namecode:302:白凤}",
+						"幽影",
+						"{namecode:314:伊14}",
+						"标枪的妹妹",
+						"丘比特&泽西",
+						"无辜的受害者",
+						"{namecode:560:Z14}",
+						"无辜的路人",
+						"U-552&尼古拉斯",
+						"无辜的前台接待员",
+						"亚利桑那",
+						"NO.1市民",
+						"小可畏",
+						"NO.1市民",
+						"{namecode:527:小圣地亚哥}"
 					},
 					2
 				},
@@ -610,13 +610,13 @@ return {
 				},
 				{
 					1,
-					"목소리 출연"
+					"配音表 CAST"
 				},
 				{
 					3,
 					{
-						"음향",
-						"U-2501"
+						"配音导演",
+						"{namecode:558:U-2501}"
 					},
 					2
 				},
@@ -630,35 +630,35 @@ return {
 				},
 				{
 					1,
-					"제공 Present"
+					"出品方 Present"
 				},
 				{
 					1,
-					"조금 로맨틱한 프로덕션"
+					"有点浪漫出版社"
 				},
 				{
 					1,
-					"새러토가 영화 제작소"
+					"萨拉托加电影制片厂"
 				},
 				{
 					3,
 					{
-						"감독",
-						"베닝턴",
-						"제1조감독",
-						"괌",
-						"제2조감독",
-						"빅스버그",
-						"각본",
-						"브리스톨",
-						"콘셉트 디자인",
-						"카스미",
-						"시나리오 감수",
-						"조금 로맨틱한 프로덕션",
-						"재무 자문",
-						"아즈치",
-						"프로듀서",
-						"새러토가"
+						"导演",
+						"本宁顿",
+						"第一副导演",
+						"关岛",
+						"第二副导演",
+						"维克斯堡",
+						"编剧",
+						"布里斯托尔",
+						"概念设计",
+						"{namecode:180:霞}",
+						"剧本指导",
+						"有点浪漫出版社",
+						"财务顾问",
+						"{namecode:315:安土}",
+						"制片人",
+						"萨拉托加"
 					},
 					2
 				},
@@ -672,29 +672,29 @@ return {
 				},
 				{
 					1,
-					"VFX팀"
+					"特效团队"
 				},
 				{
 					3,
 					{
-						"VFX팀 팀장",
-						"셰르부르",
-						"VFX 엔지니어",
-						"콜렛"
+						"特效组长",
+						"瑟堡",
+						"特效工程师",
+						"柯莱特"
 					},
 					2
 				},
 				{
 					1,
-					"조명팀"
+					"灯光团队"
 				},
 				{
 					3,
 					{
-						"조명팀 팀장",
-						"하우덴 리우이",
-						"조명 감독",
-						"라파엘로"
+						"灯光组组长",
+						"金狮",
+						"灯光组指导",
+						"拉斐尔"
 					},
 					2
 				},
@@ -708,7 +708,7 @@ return {
 				},
 				{
 					1,
-					"Special thanks"
+					"特别鸣谢"
 				},
 				{
 					2,
@@ -718,7 +718,7 @@ return {
 				},
 				{
 					1,
-					"조금 로맨틱한 프로덕션"
+					"有点浪漫出版社"
 				},
 				{
 					3,
@@ -730,7 +730,7 @@ return {
 				},
 				{
 					1,
-					"이글 유니온 선봉 건축 설계 사무소"
+					"白鹰先锋建筑设计院"
 				},
 				{
 					3,
@@ -742,7 +742,7 @@ return {
 				},
 				{
 					1,
-					"투자자 아즈치"
+					"投资人{namecode:315:安土}女士"
 				},
 				{
 					3,
@@ -791,16 +791,16 @@ return {
 			},
 			sequence = {
 				{
-					"막간 이야기",
+					"幕后花絮1",
 					0
 				}
 			}
 		},
 		{
-			say = "그나저나…… 이14, 지금까지 우리 정보를 얼마나 기록해 둔 거야?",
+			say = "所以说……{namecode:314:伊14}，你之前到底记了多少我们的情报？",
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "유영 요원",
+			factiontag = "幽影行动员",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900557,
@@ -819,12 +819,12 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			actor = 317031,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "그렇게 많지는 않아……",
+			say = "不多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,10 +834,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "유영 요원",
+			factiontag = "幽影行动员",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "구체적으로 말해봐.",
+			say = "具体一点？",
 			actor = 900557,
 			NextIcon = 1,
 			hidePaintObj = true,
@@ -854,12 +854,12 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "유영",
+			factiontag = "幽影",
 			dir = 1,
 			actor = 317031,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "정말 알고 싶어? 전부…… 지휘관에 관한 거야.",
+			say = "你真的想知道吗？都和指挥官有关。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,10 +869,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "유영 요원",
+			factiontag = "幽影行动员",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "당장 말해!!",
+			say = "愿闻其详！！",
 			actor = 900557,
 			NextIcon = 1,
 			hidePaintObj = true,
@@ -925,7 +925,7 @@ return {
 			},
 			sequence = {
 				{
-					"막간 이야기",
+					"幕后花絮2",
 					0
 				}
 			}
@@ -934,13 +934,13 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "기업연합회 임시대표",
+			factiontag = "企业联合会临时代表",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 899050,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "다들 축하해! 위기는 지나갔어!",
+			say = "恭喜同事们——危机解除了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,13 +950,13 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "기업연합회 임시대표",
+			factiontag = "企业联合会临时代表",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 899050,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "그럼 지난 며칠간의 피해 상황 집계와 작전안, 그리고 다음 분기 계획을…… 함께 정리해 볼까?",
+			say = "接下来就让我们一起处理这几天里的损害统计、作战方案和下季度规划吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,12 +966,12 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "무고한 접수원",
+			factiontag = "无辜的前台接待员",
 			dir = 1,
 			actor = 105040,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "저기…… 업무량을 보니…… 위기 상황인 건 여전한 것 같은데요…?",
+			say = "……唔，从这些工作量来说，感觉危机并未解决呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1007,7 +1007,7 @@ return {
 			},
 			sequence = {
 				{
-					"막간 이야기",
+					"场外花絮",
 					0
 				}
 			}
@@ -1016,12 +1016,12 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "배우",
+			factiontag = "演员",
 			dir = 1,
 			actor = 231211,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "지휘관, 지휘관~! 재블린의 어린이 세트 장난감이에요! 자, 선물!",
+			say = "指挥官指挥官~我这里有儿童餐的玩具！送给你！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1035,7 +1035,7 @@ return {
 			actor = 0,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "――진짜 있었네……",
+			say = "……竟然真的有。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,13 +1045,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "배우",
+			factiontag = "演员",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307130,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "다이호 장난감이 훨씬 더 좋아요~ 지휘관님, 받아 주세요~♡",
+			say = "{namecode:97:大凤}的玩具更好哦指挥官，请收下吧~♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,12 +1061,12 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "배우",
+			factiontag = "演员",
 			dir = 1,
 			actor = 305170,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "지휘관――나도 장난감 들고 놀러 왔다!",
+			say = "指挥官——我也带着玩具来找你玩啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,13 +1076,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "배우",
+			factiontag = "演员",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403120,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "나도 끼워 줘♪ 한 명 정도 늘어도 괜찮지?",
+			say = "我也想玩~应该不多我一个吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1092,12 +1092,12 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "배우",
+			factiontag = "演员",
 			dir = 1,
 			actor = 103290,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "선생님……! 선생님, 앵커리지도 같이~!",
+			say = "老师……！老师，一起~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1107,12 +1107,12 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "배우",
+			factiontag = "演员",
 			dir = 1,
 			actor = 102190,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "헬레나도… 지휘관이랑 귀여운 장난감으로 같이 놀고 싶어……",
+			say = "人家也要和指挥官分享可爱的玩具……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1122,13 +1122,13 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "배우",
+			factiontag = "演员",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307140,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "시나노는 놀지 않아도 좋으니…… 잠깐만 그대에게 기대어 자도 될까……",
+			say = "妾身就不玩了……可以靠着指挥官睡一会儿吗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1138,13 +1138,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "배우",
+			factiontag = "演员",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 204040,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "다들 줄 서세요! 한 줄로!",
+			say = "大家排好队，一个个找指挥官，不要乱啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1154,12 +1154,12 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "배우",
+			factiontag = "演员",
 			dir = 1,
 			actor = 403130,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "사람이 많네……",
+			say = "好多人啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1169,11 +1169,11 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			actorName = "??",
+			actorName = "？？",
 			dir = 1,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "으아아! 왜 다들 한꺼번에 지휘관 방으로 몰려오는 거야! 환자는 지금 안정을 취해야 해! 조용히 해~!",
+			say = "呜哇——怎么都一窝蜂涌到指挥官房间里啦！病人现在需要清净啦清净~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1183,13 +1183,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_308",
-			factiontag = "배우",
+			factiontag = "演员",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403120,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "감독, 설마 지휘관을 독차지하려는 거야?",
+			say = "主编姐姐不会是想独占指挥官吧~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1199,11 +1199,11 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			actorName = "??",
+			actorName = "？？",
 			dir = 1,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "아, 아니거든!",
+			say = "才、才没有啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1213,11 +1213,11 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_308",
-			actorName = "??",
+			actorName = "？？",
 			dir = 1,
 			NextIcon = 1,
 			hidePaintObj = true,
-			say = "그냥, 엄청나게 달달한 러브 로맨스를 기대하고 있을 뿐♪",
+			say = "我只是在期待一场非常罗曼蒂克的——浪漫爱情而已~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

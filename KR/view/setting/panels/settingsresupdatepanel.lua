@@ -16,6 +16,7 @@ slot0.OnInit = function(slot0)
 	slot0.tpl = slot0._tf:Find("Tpl")
 	slot0.iconTF = slot0._tf:Find("Icon")
 	slot0.fullTF = slot0._tf:Find("options_full")
+	slot0.splitPackTF = slot0._tf:Find("options_splitpack")
 	slot0.mainTF = slot0._tf:Find("options_main")
 	slot0.fullTitleText = slot0._tf:Find("options_full/Title/Text")
 	slot0.mainTitleText = slot0._tf:Find("options_main/Title/Text")
@@ -28,16 +29,24 @@ slot0.OnInit = function(slot0)
 	slot0.fullGroupTF = slot0._tf:Find("options_full/MainGroup")
 	slot0.mainContainerTF = slot0._tf:Find("options_main/list")
 	slot0.specialContainerTF = slot0._tf:Find("options_special/list")
-	slot1 = not GroupMainHelper.IsVerSameWithServer()
+	slot0.isFullPanelVisible = not GroupMainHelper.IsVerSameWithServer()
 
-	setActive(slot0.fullTF, slot1)
+	setActive(slot0.fullTF, slot0.isFullPanelVisible)
 
-	if slot1 then
+	if slot0.isFullPanelVisible then
 		slot0.mainGroupBtn = SettingsMainGroupBtn.New(slot0.fullGroupTF)
-		GetComponent(slot0.mainTF, typeof(VerticalLayoutGroup)).padding.top = 0
-	else
-		GetComponent(slot0.mainTF, typeof(VerticalLayoutGroup)).padding.top = GetComponent(slot0.fullTF, typeof(VerticalLayoutGroup)).padding.top
 	end
+
+	slot0.downloadSectionTopPadding = GetComponent(slot0.fullTF, typeof(VerticalLayoutGroup)).padding.top
+	slot0.isSplitPackPanelVisible = SplitPackHelper.Inst:IsSplitPackMode() and pg.SplitPackDownloadMgr.GetInstance():GetState() ~= pg.SplitPackDownloadMgr.State.Success
+
+	setActive(slot0.splitPackTF, slot0.isSplitPackPanelVisible)
+
+	if slot0.isSplitPackPanelVisible then
+		slot0.splitPackBtn = SettingsSplitPackBtn.New(slot0.splitPackTF)
+	end
+
+	slot0:UpdateMainPanelPadding()
 
 	slot0.galleryBtn = SettingsGalleryBtn.New({
 		isDel = true,
@@ -90,6 +99,16 @@ slot0.OnInit = function(slot0)
 	end
 end
 
+slot0.UpdateMainPanelPadding = function(slot0)
+	slot1 = slot0.isFullPanelVisible or slot0.isSplitPackPanelVisible
+
+	if slot0.splitPackTF then
+		GetComponent(slot0.splitPackTF, typeof(VerticalLayoutGroup)).padding.top = slot0.isFullPanelVisible and 0 or slot0.downloadSectionTopPadding
+	end
+
+	GetComponent(slot0.mainTF, typeof(VerticalLayoutGroup)).padding.top = slot1 and 0 or slot0.downloadSectionTopPadding
+end
+
 slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 
@@ -130,6 +149,12 @@ slot0.Dispose = function(slot0)
 			slot0.mainGroupBtn:Dispose()
 
 			slot0.mainGroupBtn = nil
+		end
+
+		if slot0.splitPackBtn then
+			slot0.splitPackBtn:Dispose()
+
+			slot0.splitPackBtn = nil
 		end
 	end
 end

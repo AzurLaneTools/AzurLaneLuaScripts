@@ -18,6 +18,28 @@ slot0.getUIName = function(slot0)
 	return "Dorm3DARUI"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2, slot3 = unpack(string.split(uv1, "|"))
+
+	table.insert(slot1, string.lower("dorm3d/scenesres/scenes/" .. slot3 .. "/" .. slot2 .. "_scene"))
+	table.insert(slot1, string.lower(string.format("ui/dorm3dloading")))
+	table.insert(slot1, string.lower(string.format("dorm3dholylight/eff_smoke_114")))
+
+	slot5 = getProxy(ApartmentProxy):getApartment(slot0.contextData.groupId)
+	slot6 = slot5:getConfig("asset_name")
+
+	assert(pg.dorm3d_resource[slot5:GetSkinModelID(getProxy(ApartmentProxy):getRoom(slot0.contextData.roomId):getConfig("tag"))].model_id)
+
+	for slot12, slot13 in ipairs(Dorm3dHxHelper.GetMaterialResources(slot0.contextData.groupId)) do
+		table.insert(slot1, slot13)
+	end
+
+	table.insert(slot1, string.lower(string.format("dorm3d/character/%s/prefabs/%s", slot6, slot8)))
+
+	return slot1
+end
+
 slot0.forceGC = function(slot0)
 	return true
 end
@@ -36,6 +58,7 @@ slot0.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0.loader = AutoLoader.New()
+	slot0.hxHelper = Dorm3dHxHelper.New(slot0.loader)
 end
 
 slot0.preload = function(slot0, slot1)
@@ -75,44 +98,23 @@ slot0.preload = function(slot0, slot1)
 end
 
 slot0.LoadCharacter = function(slot0, slot1, slot2)
-	slot0.hxMatDict = {}
 	slot0.ladyDict = {}
 	slot0.skinDict = {}
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1) do
-		slot0.ladyDict[slot8] = slot0
-		slot10 = getProxy(ApartmentProxy):getApartment(slot8)
+		slot9 = slot0
+		slot0.ladyDict[slot8] = slot9
+		slot10 = getProxy(ApartmentProxy)
+		slot10 = slot10:getApartment(slot8)
 		slot11 = slot10:getConfig("asset_name")
-		slot13 = pg.dorm3d_resource[slot10:GetSkinModelID(slot0.room:getConfig("tag"))].model_id
+		slot14 = slot0.room
+		slot12 = slot10:GetSkinModelID(slot14:getConfig("tag"))
 
-		assert(slot13)
-
-		for slot17, slot18 in ipairs({
-			"common",
-			slot13
-		}) do
-			if checkABExist(string.format("dorm3d/character/%s/res/%s", slot11, slot18)) then
-				table.insert(slot3, function (slot0)
-					slot1 = uv0.loader
-
-					slot1:LoadBundle(uv1, function (slot0)
-						for slot4, slot5 in ipairs(slot0:GetAllAssetNames()) do
-							slot6, slot7, slot8 = string.find(slot5, "material_hx[/\\](.*).mat")
-
-							if slot6 then
-								uv0.hxMatDict[slot8] = {
-									slot0,
-									slot5
-								}
-							end
-						end
-
-						uv1()
-					end)
-				end)
-			end
-		end
+		assert(pg.dorm3d_resource[slot12].model_id)
+		table.insert(slot3, function (slot0)
+			uv0.hxHelper:LoadMaterials(uv1, slot0)
+		end)
 
 		slot9.skinId = slot12
 		slot9.skinIdList = {
@@ -168,7 +170,7 @@ slot0.InitCharacter = function(slot0, slot1)
 			uv0.ladyHeadCenter = slot1
 		end
 	end)
-	slot0:HXCharacter(slot0.lady)
+	slot0:HXCharacter(slot0.lady, slot0.skinId)
 
 	slot3 = slot0.ladyAnimator
 	slot3 = slot3:GetComponent("DftAniEvent")
@@ -200,7 +202,7 @@ slot0.InitCharacter = function(slot0, slot1)
 	slot0.animCallbacks = {}
 end
 
-slot0.HXCharacter = function(slot0, slot1)
+slot0.HXCharacter = function(slot0, slot1, slot2)
 	if not HXSet.isHx() then
 		return
 	end
@@ -208,28 +210,7 @@ slot0.HXCharacter = function(slot0, slot1)
 	Dorm3dHxHelper.ShowHolyLight({
 		slot1
 	}, slot0.holyLightRoot)
-
-	if Dorm3dHxHelper.ReplaceCharacterParts(slot1) then
-		return
-	end
-
-	table.IpairsCArray(slot1:GetComponentsInChildren(typeof(SkinnedMeshRenderer)), function (slot0, slot1)
-		table.IpairsCArray(slot1.sharedMaterials, function (slot0, slot1)
-			if not uv0.hxMatDict[slot1.name] then
-				return
-			end
-
-			uv1 = true
-			slot3, slot4 = unpack(uv0.hxMatDict[slot2])
-			uv2[slot0] = slot3:LoadAssetSync(slot4, typeof(Material), false, false)
-
-			warning("Replace HX Material", uv0.hxMatDict[slot2][2])
-		end)
-
-		if false then
-			slot1.sharedMaterials = slot2
-		end
-	end)
+	slot0.hxHelper:Apply(slot1, slot2)
 end
 
 slot0.OnAnimationEvent = function(slot0, slot1)
@@ -399,6 +380,8 @@ end
 
 slot0.willExit = function(slot0)
 	slot0.loader:Clear()
+
+	slot0.hxHelper = nil
 
 	if slot0.ARCheck then
 		slot0.aiHelperSC:ResetAll()

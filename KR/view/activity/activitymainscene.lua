@@ -4,8 +4,49 @@ slot0.UPDATE_ACTIVITY = "ActivityMainScene:UPDATE_ACTIVITY"
 slot0.GET_PAGE_BGM = "ActivityMainScene.GET_PAGE_BGM"
 slot0.FLUSH_TABS = "ActivityMainScene.FLUSH_TABS"
 
-slot0.preload = function(slot0, slot1)
-	slot1()
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"activitybanner",
+		"activityuitable",
+		"ui/ActivitybonusWindow",
+		"ui/ActivitybonusWindow_nonPt",
+		"ui/ChargeTipUI",
+		"ui/MonthCardTipWindow",
+		"ui/GiftPackageTipWindow",
+		"ui/CrusingTipWindow",
+		"ui/iconcolorful",
+		"activitybanner/empty",
+		"activityuitable/activity_text",
+		"activityuitable/activity_text_selected"
+	}
+
+	slot3 = function(slot0)
+		if not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	for slot7, slot8 in ipairs(getProxy(ActivityProxy):getPanelActivities()) do
+		if noEmptyStr(slot8:getConfig("title_res_tag")) then
+			slot3("activityuitable/" .. slot9 .. "_text")
+			slot3("activityuitable/" .. slot9 .. "_text_selected")
+		end
+	end
+
+	for slot8, slot9 in ipairs(getProxy(ActivityPermanentProxy):getActivityIdsByType(ActivityPermanentProxy.TYPE_NORMAL_ACTIVITY)) do
+		if noEmptyStr(pg.activity_template[pg.activity_task_permanent[slot9].id].title_res_tag) then
+			slot3("activityuitable/" .. slot11 .. "_text")
+			slot3("activityuitable/" .. slot11 .. "_text_selected")
+		end
+	end
+
+	for slot8, slot9 in ipairs(uv0.GetOnShowEntranceData()) do
+		slot3("activitybanner/" .. slot9.banner)
+	end
+
+	table.insertto(slot2, uv0.super.getResource(slot0))
+
+	return slot2
 end
 
 slot0.getUIName = function(slot0)
@@ -168,7 +209,9 @@ slot0.instanceActivityPage = function(slot0, slot1)
 end
 
 slot0.setActivities = function(slot0, slot1)
-	slot0.activities = slot1 or {}
+	slot0.activities = underscore.filter(slot1 or {}, function (slot0)
+		return slot0:checkPageABExist()
+	end)
 	slot0.shareData = slot0.shareData or ActivityShareData.New()
 	slot0.pageDic = slot0.pageDic or {}
 
@@ -204,7 +247,7 @@ slot0.updateActivity = function(slot0, slot1)
 		slot1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[slot1.id])
 	end
 
-	if slot1:isShow() and slot1:isCorePage(slot0.contextData.coreName or "") and not slot1:isEnd() then
+	if slot1:isShow() and slot1:isCorePage(slot0.contextData.coreName or "") and not slot1:isEnd() and slot1:checkPageABExist() then
 		slot0.activities[slot0:getActivityIndex(slot1.id) or #slot0.activities + 1] = slot1
 
 		table.sort(slot0.activities, CompareFuncs({

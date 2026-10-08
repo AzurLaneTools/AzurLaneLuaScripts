@@ -16,6 +16,73 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dShopUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"weaponframes",
+		"ui/shoptip_atlas"
+	}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot4 = function(slot0, slot1)
+		if slot1 then
+			uv0(Drop.New({
+				count = 0,
+				type = slot0,
+				id = slot1
+			}):getIcon())
+		end
+	end
+
+	slot5 = ipairs
+	slot6 = uv0.all or {}
+
+	for slot8, slot9 in slot5(slot6) do
+		if uv0[slot9] and slot10.type == 2 and noEmptyStr(slot10.assets_prefix) then
+			slot3("dorm3dselect/room_icon_" .. string.lower(slot10.assets_prefix))
+		end
+	end
+
+	slot5 = ipairs
+	slot6 = uv1.all or {}
+
+	for slot8, slot9 in slot5(slot6) do
+		if uv1[slot9] then
+			if noEmptyStr(slot10.banners and slot10.banners[1]) then
+				slot3("dorm3dbanner/" .. slot11 .. "_shopCard1")
+				slot3("dorm3dbanner/" .. slot11 .. "_shopCard2")
+			end
+
+			if slot10.type == 1 then
+				slot4(DROP_TYPE_DORM3D_FURNITURE, slot10.item_id)
+
+				if uv2[slot10.item_id] and #(slot12.unlock_tips or {}) > 0 then
+					slot3("ui/shoptip_atlas")
+				end
+			elseif slot10.type == 2 then
+				slot4(DROP_TYPE_DORM3D_GIFT, slot10.item_id)
+
+				if uv3[slot10.item_id] and #(slot12.unlock_tips or {}) > 0 then
+					slot3("ui/shoptip_atlas")
+				end
+			elseif slot10.type == 3 then
+				slot13 = ipairs
+				slot14 = uv0[slot10.item_id] and slot12.invite_icon or {}
+
+				for slot16, slot17 in slot13(slot14) do
+					slot3(slot17[2])
+				end
+			end
+		end
+	end
+
+	return table.insertto(slot2, uv4.super.getResource(slot0, slot1))
+end
+
 slot0.init = function(slot0)
 	slot0.closeBtn = slot0.rtAdapt:Find("closeBtn")
 	slot0.res = slot0.rtAdapt:Find("resourceBg/res")

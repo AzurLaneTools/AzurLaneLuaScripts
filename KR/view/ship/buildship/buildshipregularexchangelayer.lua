@@ -4,23 +4,37 @@ slot0.getUIName = function(slot0)
 	return "BuildShipRegularExchangeUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"regularexchangeicon",
+		"shiptype"
+	}
+	slot4 = ipairs
+	slot5 = pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_ship_id or {}
+
+	for slot7, slot8 in slot4(slot5) do
+		if pg.ship_data_statistics[slot8] and pg.ship_skin_template[slot9.skin_id] and noEmptyStr(slot10.painting) then
+			table.insertto(slot2, ResPathSupport.GetPaintingListByPaintingName(slot10.painting))
+		end
+	end
+
+	return table.insertto(slot2, uv0.super.getResource(slot0))
+end
+
 slot0.preload = function(slot0, slot1)
 	slot0.cfg = pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID]
 	slot0.ids = slot0.cfg.exchange_ship_id
 	slot0.iconSprites = {}
-	slot2 = {}
 
-	for slot6, slot7 in ipairs(slot0.ids) do
-		table.insert(slot2, function (slot0)
-			GetSpriteFromAtlasAsync("RegularExchangeIcon", tostring(uv0), function (slot0)
-				uv0.iconSprites[uv1] = slot0
+	AssetBundleHelper.LoadManyAssets("RegularExchangeIcon", underscore.map(slot0.ids, function (slot0)
+		return tostring(slot0)
+	end), nil, true, function (slot0)
+		for slot4, slot5 in pairs(slot0) do
+			uv0.iconSprites[tonumber(slot4)] = slot5
+		end
 
-				uv2()
-			end)
-		end)
-	end
-
-	seriesAsync(slot2, slot1)
+		existCall(uv1)
+	end, true)
 end
 
 slot0.setCount = function(slot0, slot1)

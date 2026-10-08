@@ -20,8 +20,9 @@ end
 
 slot0.initData = function(slot0)
 	slot0.mgr = pg.SettingsGroupMgr.GetInstance()
-	slot0.infoName = "MainGroup"
+	slot0.infoName = PaintingGroupConst.PaintingGroupName
 	slot0.groupNameList = {
+		GroupMainHelper.DefaultGroupName,
 		PaintingGroupConst.PaintingGroupName
 	}
 end
@@ -42,7 +43,7 @@ end
 
 slot0.addListener = function(slot0)
 	onButton(slot0, slot0._tf, function ()
-		if uv0.mgr:GetState(uv0.infoName) ~= pg.SettingsGroupMgr.State.Updating then
+		if uv0.mgr:GetState(uv0.infoName) ~= pg.SettingsGroupMgr.State.Updating and slot0 ~= pg.SettingsGroupMgr.State.Success then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_NORMAL,
 				content = string.format(i18n("main_group_msgbox_content", HashUtil.BytesToString(uv0.mgr:GetTotalSize(uv0.groupNameList)))),

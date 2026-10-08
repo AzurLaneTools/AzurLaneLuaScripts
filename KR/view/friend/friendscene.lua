@@ -8,6 +8,53 @@ slot0.getUIName = function(slot0)
 	return "FriendUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"ui/friendsui_atlas"
+	}
+	slot3 = {}
+
+	slot4 = function(slot0)
+		if not slot0 then
+			return
+		end
+
+		if AttireFrame.attireFrameRes(slot0, slot0.id == getProxy(PlayerProxy):getRawData().id, AttireConst.TYPE_ICON_FRAME, slot0.propose) and slot1 ~= "" then
+			table.insert(uv0, "IconFrame/" .. slot1)
+		end
+
+		if slot0.score and slot0.rank then
+			slot2 = SeasonInfo.getEmblem(slot0.score, slot0.rank)
+
+			table.insert(uv0, "emblem/" .. slot2)
+			table.insert(uv0, "emblem/n_" .. slot2)
+		end
+	end
+
+	slot5 = ipairs
+	slot6 = getProxy(FriendProxy):getAllFriends() or {}
+
+	for slot8, slot9 in slot5(slot6) do
+		slot4(slot9)
+	end
+
+	slot5 = ipairs
+	slot6 = getProxy(NotificationProxy):getRequests() or {}
+
+	for slot8, slot9 in slot5(slot6) do
+		slot4(slot9.player)
+	end
+
+	slot5 = pairs
+	slot6 = getProxy(FriendProxy):getBlackList() or {}
+
+	for slot8, slot9 in slot5(slot6) do
+		slot4(slot9)
+	end
+
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), slot2, slot3))
+end
+
 slot0.setFriendVOs = function(slot0, slot1)
 	slot0.friendVOs = slot1
 end

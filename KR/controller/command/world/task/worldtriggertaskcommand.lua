@@ -20,7 +20,7 @@ slot0.execute = function(slot0, slot1)
 		if slot0.result == 0 then
 			if uv0 then
 				slot1 = uv1:GetActiveMap():GetPort()
-				slot2 = underscore.rest(slot1.taskIds, 1)
+				slot2 = underscore.to_array(slot1.taskIds)
 
 				table.removebyvalue(slot2, uv2)
 				slot1:UpdateTaskIds(slot2)

@@ -243,11 +243,6 @@ slot0.InitCharacterAnimationDispatcher = function(slot0)
 	slot0.animationEventDispatcher.listenLayer = slot0.ladyAnimBaseLayerIndex
 end
 
-slot0.SetZone = function(slot0, slot1, slot2)
-	slot0.ladyBaseZone = slot1
-	slot0.ladyActiveZone = slot2 or slot1
-end
-
 slot0.SwitchCharacterSkin = function(slot0, slot1, slot2, slot3)
 	assert(table.contains(slot0.skinIdList, slot2))
 
@@ -263,6 +258,7 @@ slot0.SwitchCharacterSkin = function(slot0, slot1, slot2, slot3)
 	slot0.ladyCollider = nil
 
 	slot0:InitCharacter(slot1)
+	slot0:Func("HXCharacter", slot0.lady, slot0.skinId)
 	pg.NodeCanvasMgr.GetInstance():CopyAllBlackBoardValue(slot0.ladyBlackboard, slot0.ladyBlackboard)
 	slot0.ladyAnimator:Play(slot0:GetCurrentAnim(), slot0.ladyAnimBaseLayerIndex)
 	slot0.ladyAnimator:Update(0)
@@ -416,7 +412,7 @@ slot0.PlayFaceAnim = function(slot0, slot1, slot2)
 	existCall(slot2)
 end
 
-slot0.SwitchAnim = function(slot0, slot1, slot2)
+slot0.SwitchAnim = function(slot0, slot1, slot2, slot3)
 	if tobool(string.find(slot1, "^Face_")) then
 		slot0:PlayFaceAnim(slot1, slot2)
 
@@ -426,21 +422,21 @@ slot0.SwitchAnim = function(slot0, slot1, slot2)
 	existCall(slot0.animExtraItemCallback)
 
 	slot0.animExtraItemCallback = nil
-	slot5 = {}
+	slot6 = {}
 
-	table.insert(slot5, function (slot0)
+	table.insert(slot6, function (slot0)
 		uv0.nowState = uv1
 		uv0.stateCallback = slot0
 
-		uv0.ladyAnimator:PlayInFixedTime(uv1, uv0.ladyAnimBaseLayerIndex)
+		uv0.ladyAnimator:PlayInFixedTime(uv1, uv0.ladyAnimBaseLayerIndex, uv2 and 0 or -math.huge)
 	end)
-	table.insert(slot5, function (slot0)
+	table.insert(slot6, function (slot0)
 		uv0.nowState = nil
 		uv0.stateCallback = nil
 
 		slot0()
 	end)
-	seriesAsync(slot5, slot2)
+	seriesAsync(slot6, slot2)
 end
 
 slot0.RevertClothComps = function(slot0)
@@ -474,18 +470,6 @@ slot0.MoveToTarget = function(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.characterController:Move(slot4.normalized * slot2 * Time.deltaTime)
-end
-
-slot0.SetCurrentIkTimelineStatus = function(slot0, slot1)
-	slot0.currentIkTimelineStatus = slot1
-end
-
-slot0.CheckIkTimelineStatus = function(slot0, slot1)
-	if not slot0.currentIkTimelineStatus then
-		return true
-	end
-
-	return slot0.currentIkTimelineStatus ~= slot1
 end
 
 slot0.SetCollisible = function(slot0, slot1)

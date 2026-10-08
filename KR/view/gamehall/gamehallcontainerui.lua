@@ -52,7 +52,22 @@ slot12 = {
 	}
 }
 
-slot0.Ctor = function(slot0, slot1)
+slot0.Ctor = function(slot0)
+	slot0.shipNames = {}
+
+	for slot6 = 1, #getProxy(BayProxy):getShips() do
+		if not table.contains(slot0.shipNames, slot2[slot6].name) then
+			table.insert(slot0.shipNames, slot2[slot6]:getPrefab())
+		end
+	end
+
+	if uv0 > #slot0.shipNames then
+		uv0 = #slot0.shipNames
+	end
+end
+
+slot0.InitUI = function(slot0, slot1)
+	slot0.container = slot1
 	uv2 = {
 		uv0 - uv1 + pg.UIMgr.GetInstance().uiCamera.gameObject.transform:Find("Canvas").sizeDelta.x - uv0,
 		0
@@ -88,26 +103,14 @@ slot0.Ctor = function(slot0, slot1)
 		})
 	end
 
-	slot7 = {}
-
-	for slot11 = 1, #getProxy(BayProxy):getShips() do
-		if not table.contains(slot7, slot6[slot11].name) then
-			table.insert(slot7, slot6[slot11]:getPrefab())
-		end
-	end
-
-	if uv5 > #slot7 then
-		uv5 = #slot7
-	end
-
 	slot0.chars = {}
 
-	for slot11 = 1, uv5 do
-		slot12 = slot11
-		slot14 = SpineAnimChar.New()
+	for slot8 = 1, uv5 do
+		slot9 = slot8
+		slot11 = SpineAnimChar.New()
 
-		slot14:SetPaint(table.remove(slot7, math.random(1, #slot7)))
-		slot14:Load(true, function (slot0)
+		slot11:SetPaint(table.remove(slot0.shipNames, math.random(1, #slot0.shipNames)))
+		slot11:Load(true, function (slot0)
 			slot0:SetAction("stand2", 0)
 			slot0:SetParent(uv0.pos)
 			slot0:SetLocalScale(uv1)
@@ -138,9 +141,9 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.bataiTf = findTF(slot0.pos, "batai")
 	slot0.coinChar = nil
-	slot8 = PoolMgr.GetInstance()
+	slot5 = PoolMgr.GetInstance()
 
-	slot12 = function(slot0)
+	slot9 = function(slot0)
 		uv0.coinChar = tf(slot0)
 
 		tf(slot0):GetComponent(typeof(SpineAnimUI)):SetAction("stand2", 0)
@@ -148,20 +151,20 @@ slot0.Ctor = function(slot0, slot1)
 		setLocalScale(slot0, uv1)
 	end
 
-	slot8:GetSpineChar(uv7, true, slot12)
+	slot5:GetSpineChar(uv7, true, slot9)
 
 	slot0.content.anchoredPosition = Vector2(0, 0)
-	slot8 = GetOrAddComponent(slot0.content, typeof(EventTriggerListener))
+	slot5 = GetOrAddComponent(slot0.content, typeof(EventTriggerListener))
 	slot0.velocityXSmoothing = Vector2(0, 0)
 	slot0.offsetPosition = slot0.content.anchoredPosition
 
-	slot8:AddBeginDragFunc(function (slot0, slot1)
+	slot5:AddBeginDragFunc(function (slot0, slot1)
 		uv0.prevPosition = slot1.position
 		uv0.scenePosition = uv0.content.anchoredPosition
 		uv0.velocityXSmoothing = Vector2(0, 0)
 		uv0.offsetPosition = uv0.content.anchoredPosition
 	end)
-	slot8:AddDragFunc(function (slot0, slot1)
+	slot5:AddDragFunc(function (slot0, slot1)
 		uv0.offsetPosition.x = slot1.position.x - uv0.prevPosition.x + uv0.scenePosition.x
 		uv0.offsetPosition.y = slot1.position.y - uv0.prevPosition.y + uv0.scenePosition.y
 		uv0.offsetPosition.x = uv1[2] < uv0.offsetPosition.x and uv1[2] or uv0.offsetPosition.x
@@ -169,20 +172,20 @@ slot0.Ctor = function(slot0, slot1)
 		uv0.offsetPosition.y = uv2[2] < uv0.offsetPosition.y and uv2[2] or uv0.offsetPosition.y
 		uv0.offsetPosition.y = uv0.offsetPosition.y < uv2[1] and uv2[1] or uv0.offsetPosition.y
 	end)
-	slot8:AddDragEndFunc(function (slot0, slot1)
+	slot5:AddDragEndFunc(function (slot0, slot1)
 	end)
 
 	slot0.clickItems = {}
 
-	for slot12 = 1, #uv8 do
-		slot13 = findTF(slot0.pos, uv8[slot12][1])
+	for slot9 = 1, #uv8 do
+		slot10 = findTF(slot0.pos, uv8[slot9][1])
 
 		table.insert(slot0.clickItems, {
 			time = 0,
-			tf = slot13,
-			anim = GetComponent(findTF(slot0.pos, uv8[slot12][2]), typeof(SpineAnimUI))
+			tf = slot10,
+			anim = GetComponent(findTF(slot0.pos, uv8[slot9][2]), typeof(SpineAnimUI))
 		})
-		onButton(slot0._event, slot13, function ()
+		onButton(slot0._event, slot10, function ()
 			if uv0:checkClickTime(uv1) then
 				uv0:setAnimAction(uv1, "action", 1, "normal")
 			end

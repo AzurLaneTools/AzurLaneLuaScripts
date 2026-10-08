@@ -77,7 +77,7 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:updateMapWay()
 		end
 	elseif slot2 == GAME.CRUSING_CMD_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 	elseif slot2 == uv0.UNFROZEN_MAP_UPDATE then
 		slot0.contextData.frozenMapUpdate = false
 

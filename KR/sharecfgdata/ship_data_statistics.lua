@@ -459123,7 +459123,10 @@ _G.pg.base.ship_data_statistics[9701131] = {
 		"SoobrazitelnyMETA",
 		"SoobrazitelnyMETA"
 	},
-	gift_dislike = {}
+	gift_dislike = {
+		180004,
+		180006
+	}
 }
 
 
@@ -459251,7 +459254,10 @@ _G.pg.base.ship_data_statistics[9701132] = {
 		"SoobrazitelnyMETA",
 		"SoobrazitelnyMETA"
 	},
-	gift_dislike = {}
+	gift_dislike = {
+		180004,
+		180006
+	}
 }
 
 
@@ -459379,7 +459385,10 @@ _G.pg.base.ship_data_statistics[9701133] = {
 		"SoobrazitelnyMETA",
 		"SoobrazitelnyMETA"
 	},
-	gift_dislike = {}
+	gift_dislike = {
+		180004,
+		180006
+	}
 }
 
 
@@ -459507,7 +459516,10 @@ _G.pg.base.ship_data_statistics[9701134] = {
 		"SoobrazitelnyMETA",
 		"SoobrazitelnyMETA"
 	},
-	gift_dislike = {}
+	gift_dislike = {
+		180004,
+		180006
+	}
 }
 
 

@@ -7852,7 +7852,7 @@ end)()
 			},
 			{
 				"antiaircraft",
-				4
+				5
 			},
 			{
 				"hit",

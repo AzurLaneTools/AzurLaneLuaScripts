@@ -4,6 +4,14 @@ slot0.getUIName = function(slot0)
 	return "AnniversaryIsland2023UI"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	table.insert(slot1, "ui/" .. slot0:getUIName() .. "_level" .. slot0:CalculateSceneLevel())
+
+	return slot1
+end
+
 slot0.edge2area = {
 	default = "_SDPlace"
 }

@@ -215,6 +215,30 @@ pg.dorm3d_collection_template.all = {
 	2123,
 	2124,
 	2125,
+	2201,
+	2202,
+	2203,
+	2204,
+	2205,
+	2206,
+	2207,
+	2208,
+	2209,
+	2210,
+	2211,
+	2212,
+	2213,
+	2214,
+	2215,
+	2216,
+	2217,
+	2218,
+	2219,
+	2220,
+	2221,
+	2222,
+	2223,
+	2225,
 	2601,
 	2602,
 	2603,
@@ -455,6 +479,32 @@ pg.dorm3d_collection_template.get_id_list_by_room_id = {
 		2123,
 		2124,
 		2125
+	},
+	[22] = {
+		2201,
+		2202,
+		2203,
+		2204,
+		2205,
+		2206,
+		2207,
+		2208,
+		2209,
+		2210,
+		2211,
+		2212,
+		2213,
+		2214,
+		2215,
+		2216,
+		2217,
+		2218,
+		2219,
+		2220,
+		2221,
+		2222,
+		2223,
+		2225
 	},
 	[26] = {
 		2601,
@@ -4928,6 +4978,510 @@ end)()
 		},
 		vfx_prefab = {
 			"fbx/litmap_03/day/pre_db_bed06_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2201] = {
+		name = "휴식용 테이블 세트",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "아담한 테이블과 스툴 세트. 잠시 쉬거나 조용히 이야기를 나누기에 안성맞춤이다.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2201,
+		icon = "3Ddrom_yuanchou_item1",
+		model = {
+			"fbx/litmap_01/pre_db_table23a"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_table23a/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2202] = {
+		name = "꽃이 핀 화병",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "도자기 화병에 꽂힌 꽃과 잎이 겹겹이 펼쳐져 실내에 화사한 색채를 더해 준다.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2202,
+		icon = "3Ddrom_yuanchou_item2",
+		model = {
+			"fbx/litmap_01/pre_db_flowers17_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers17_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2203] = {
+		name = "고족 접시",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "금빛 무늬가 새겨진 고족 접시. 장식으로 놓아두기만 해도 공간에 화려한 분위기를 더해준다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2203,
+		icon = "3Ddrom_yuanchou_item3",
+		model = {
+			"fbx/litmap_01/pre_db_tableware58"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_tableware58/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2204] = {
+		name = "어스름의 탁상 램프",
+		award = 0,
+		time = 2,
+		room_id = 22,
+		desc = "섬세한 장식이 돋보이는 탁상 램프. 조명 역할뿐만 아니라 방 한구석을 장식하는 인테리어로도 손색이 없다.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2204,
+		icon = "3Ddrom_yuanchou_item4",
+		model = {
+			"fbx/litmap_01/night/pre_db_desklamp12_on"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_desklamp12_on/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2205] = {
+		name = "건축 풍경화",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "정갈한 프레임에 담긴 건축 풍경화. 바라보고 있으면 어딘가 먼 곳을 떠올리게 된다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2205,
+		icon = "3Ddrom_yuanchou_item5",
+		model = {
+			"fbx/litmap_01/pre_db_billboard38_02"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard38_02/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2206] = {
+		name = "캔들 스탠드",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "심플한 실루엣의 캔들 스탠드. 촛불이 밝히는 작은 불꽃을 차분하고 장엄한 분위기로 돋보이게 한다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2206,
+		icon = "3Ddrom_yuanchou_item6",
+		model = {
+			"fbx/litmap_01/pre_db_decoration26_01_on"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration26_01_on/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2207] = {
+		name = "고요한 분수",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "얕게 펼쳐진 수경이 고요한 분위기를 자아내 주변의 공기마저 시원하게 느껴진다.",
+		text = "dorm3d_yuanchou_table",
+		id = 2207,
+		icon = "3Ddrom_yuanchou_item7",
+		model = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2208] = {
+		name = "복도의 콘솔 캐비닛",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "수납과 장식을 겸한 콘솔 캐비닛. 복도 한구석을 깔끔하게 정돈하면서 생활에 따스함을 더해 준다.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2208,
+		icon = "3Ddrom_yuanchou_item8",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard49"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard49/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2209] = {
+		name = "도자기 장식 한 쌍",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "서로 기대듯 나란히 놓인 크고 작은 두 개의 도자기 장식. 소박한 모습 속에 어딘가 깊은 멋이 배어 있다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2209,
+		icon = "3Ddrom_yuanchou_item9",
+		model = {
+			"fbx/litmap_01/pre_db_decoration39"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration39/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2210] = {
+		name = "쿠션 벤치",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "푹신한 쿠션이 깔린 벤치. 잠시 쉬어 가기 좋다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2210,
+		icon = "3Ddrom_yuanchou_item10",
+		model = {
+			"fbx/litmap_01/pre_db_chair39a_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_chair39a_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2211] = {
+		name = "하이 스툴",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "날씬하고 가벼운 느낌의 하이 스툴. 전시대로 사용하면 위에 올려둔 소품도 자연스럽게 시선을 끌 것이다.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2211,
+		icon = "3Ddrom_yuanchou_item11",
+		model = {
+			"fbx/litmap_01/pre_db_frame31_1"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_frame31_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2212] = {
+		name = "중후한 벤치",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "묵직한 실루엣의 벤치. 차분한 모습으로 확실한 휴식을 선사한다.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2212,
+		icon = "3Ddrom_yuanchou_item12",
+		model = {
+			"fbx/litmap_01/pre_db_chair39"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_chair39/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2213] = {
+		name = "만쥬 조각상",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "받침대가 딸린 만쥬 조각상. 유독 눈길을 끄는 모습이 포근한 친근감을 선사한다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2213,
+		icon = "3Ddrom_yuanchou_item13",
+		model = {
+			"fbx/litmap_01/pre_db_yuanchou_sculptures01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_yuanchou_sculptures01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2214] = {
+		name = "벽난로와 맨틀피스",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "따뜻함을 선사할 뿐 아니라 다양한 소품을 장식하는 공간으로도 활용할 수 있다. 실용성이 뛰어난 공간의 중심적인 존재다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2214,
+		icon = "3Ddrom_yuanchou_item14",
+		model = {
+			"fbx/litmap_01/pre_db_fireplace04"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_fireplace04/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2215] = {
+		name = "백자 화병",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "크고 작은 두 개의 흰색 화병. 통일감 속에 적당한 변화를 더해 준다.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2215,
+		icon = "3Ddrom_yuanchou_item15",
+		model = {
+			"fbx/litmap_01/pre_db_ceram30a"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_ceram30a/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2216] = {
+		name = "유리문 캐비닛",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "네 개의 유리문을 갖춘 전시용 캐비닛. 묵직한 나무의 질감에 가벼움과 탁 트인 느낌을 더했다.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2216,
+		icon = "3Ddrom_yuanchou_item16",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard50"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard50/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2217] = {
+		name = "복도의 로우보드",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "복도 벽을 따라 놓는 전형적인 목제 로우보드. 은은하면서도 편안한 존재감으로 일상용품을 수납해 준다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2217,
+		icon = "3Ddrom_yuanchou_item17",
+		model = {
+			"fbx/litmap_01/pre_db_table27"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_table27/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2218] = {
+		name = "긴 목의 금빛 항아리",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "길게 뻗은 주둥이가 특징인 화려한 금속제 항아리. 단정하고 품격 있는 존재감을 뽐낸다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2218,
+		icon = "3Ddrom_yuanchou_item18",
+		model = {
+			"fbx/litmap_01/pre_db_decoration22_1"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration22_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2219] = {
+		name = "얕은 콤포트 그릇",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "실용성과 예술성을 겸비한 얕은 콤포트 그릇. 음료나 디저트를 담으면 또 다른 멋을 느낄 수 있다.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2219,
+		icon = "3Ddrom_yuanchou_item19",
+		model = {
+			"fbx/litmap_01/pre_db_decoration37b"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration37b/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2220] = {
+		name = "라운드 아트",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "둥근 프레임이 그림을 부드럽게 감싸며, 그 안에 담긴 세계를 더욱 우아하게 연출한다. 벽에 걸어 두면 공간의 분위기를 부드럽게 만들어 준다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2220,
+		icon = "3Ddrom_yuanchou_item20",
+		model = {
+			"fbx/litmap_01/pre_db_billboard49_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard49_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2221] = {
+		name = "2단 봄베 체스트",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "심플한 구조의 2단 서랍장. 손이 닿기 편한 곳에 소품을 깔끔하게 수납할 수 있다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2221,
+		icon = "3Ddrom_yuanchou_item21",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard35"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard35/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2222] = {
+		name = "소프트 라이트 플로어 램프",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "방 안을 밝히는 것은 물론, 공간 전체를 따뜻한 분위기로 감싸 준다.",
+		text = "dorm3d_yuanchou_chair",
+		id = 2222,
+		icon = "3Ddrom_yuanchou_item22",
+		model = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2223] = {
+		name = "벽걸이 촛대",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "벽에 단단히 고정된 촛대. 광원으로서의 역할뿐 아니라 세심한 배려까지 느껴지는 디자인이다.",
+		text = "dorm3d_yuanchou_table",
+		id = 2223,
+		icon = "3Ddrom_yuanchou_item23",
+		model = {
+			"fbx/litmap_01/day/pre_db_walllamp03b_1"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/day/pre_db_walllamp03b_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2225] = {
+		name = "베드사이드 체스트",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "소박하면서도 편리한 체스트. 차분한 디자인의 수납 가구다.",
+		text = "dorm3d_yuanchou_bed",
+		id = 2225,
+		icon = "3Ddrom_yuanchou_item25",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard51"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard51/vfx_wupintishi01"
 		}
 	}
 	pg.base.dorm3d_collection_template[2601] = {

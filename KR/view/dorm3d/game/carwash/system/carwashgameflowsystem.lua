@@ -1,5 +1,6 @@
 slot0 = class("CarWashGameFlowSystem", import("view.dorm3d.Game.CarWash.CarWashBaseSystem"))
 slot0.START_GAME = "CarWashGameFlowSystem.START_GAME"
+slot0.GAME_RESET = "CarWashGameFlowSystem.GAME_RESET"
 slot0.REQUEST_RESTART_GAME = "CarWashGameFlowSystem.REQUEST_RESTART_GAME"
 slot0.MODIFY_GAME_STATUS = "CarWashGameFlowSystem.MODIFY_GAME_STATUS"
 slot0.UPDATE_GAME_STATE = "CarWashGameFlowSystem.UPDATE_GAME_STATE"
@@ -29,6 +30,7 @@ slot0.OnInit = function(slot0)
 	slot0.remainingTime = 0
 	slot0.lastCountdownSeconds = nil
 	slot0.isEnding = false
+	slot0.isRestarting = false
 	slot0.isTimelineSequencePlaying = false
 	slot0.isTransitionPlaying = false
 
@@ -97,6 +99,7 @@ slot0.OnDispose = function(slot0)
 	slot0.remainingTime = nil
 	slot0.lastCountdownSeconds = nil
 	slot0.isEnding = nil
+	slot0.isRestarting = nil
 	slot0.isTimelineSequencePlaying = nil
 	slot0.isTransitionPlaying = nil
 end
@@ -114,9 +117,11 @@ end
 
 slot0.StartGame = function(slot0, slot1)
 	slot0:ResetRuntimeState()
+	slot0:Emit(uv0.GAME_RESET)
 	seriesAsync({
 		function (slot0)
 			uv0:SetCurrentGunType(CarWashConst.GUN_TYPE.WASHER)
+			uv0:SetShooting(false)
 			uv0:SetLadyPos(pg.dorm3d_carwash_pos[uv0.contextData.gameConfig.pos[1]])
 			uv0:Emit(CarWashDecalSystem.GENERATE_DECALS)
 			slot0()
@@ -429,12 +434,19 @@ slot0.RestartGame = function(slot0)
 		return
 	end
 
+	if slot0.isRestarting or slot0.isTransitionPlaying then
+		return
+	end
+
+	slot0.isRestarting = true
+
 	slot0:Emit(CarWashTimelineSystem.EXIT_ART_TIMELINE, {
 		onHold = function (slot0, slot1)
 			uv0:InitGameStatus()
 			uv0:StartGame(slot0)
 		end,
 		onFinish = function (slot0)
+			uv0.isRestarting = false
 		end
 	})
 end
@@ -444,8 +456,15 @@ slot0.TriggerHiddenReaction = function(slot0, slot1)
 		return
 	end
 
-	slot0:ModifyHeartBeatValue(slot1.mood_value_plus)
-	slot0:Emit(CarWashTimelineSystem.PLAY_ART_TIMELINE, slot1.hidden_reaction)
+	slot2 = table.shallowCopy(slot1.hidden_reaction)
+	slot3 = slot2.onFinish
+
+	slot2.onFinish = function(slot0)
+		existCall(uv0, slot0)
+		uv1:ModifyHeartBeatValue(uv2.mood_value_plus)
+	end
+
+	slot0:Emit(CarWashTimelineSystem.PLAY_ART_TIMELINE, slot2)
 end
 
 return slot0

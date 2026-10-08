@@ -18,6 +18,17 @@ slot0.Ctor = function(slot0, slot1)
 	end)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = nil
+	slot2, slot3 = getLoginConfig()
+
+	return table.insertto((not slot2 or {
+		"effect/" .. slot3
+	}) and {
+		(LOGIN_HX and PlayerProxy.GetDeviceMaxPlayerLevel() <= pg.gameset.LOGIN_HX_LV.key_value and "loadingbg_hx/" or "loadingbg/") .. slot3
+	}, uv0.super.getResource(slot0))
+end
+
 slot0.preload = function(slot0, slot1)
 	slot0.isCri, slot0.bgPath = getLoginConfig()
 

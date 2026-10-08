@@ -267,7 +267,42 @@ pg.dorm3d_subtitle.all = {
 	21039,
 	21040,
 	21041,
-	21042
+	21042,
+	22001,
+	22002,
+	22003,
+	22004,
+	22005,
+	22006,
+	22007,
+	22008,
+	22009,
+	22010,
+	22011,
+	22012,
+	22013,
+	22014,
+	22015,
+	22016,
+	22017,
+	22021,
+	22022,
+	22023,
+	22024,
+	22025,
+	22026,
+	22027,
+	22028,
+	22029,
+	22030,
+	22031,
+	22032,
+	22033,
+	22034,
+	22035,
+	22036,
+	22037,
+	22038
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_subtitle = {}
@@ -1332,5 +1367,145 @@ end)()
 	pg.base.dorm3d_subtitle[21042] = {
 		id = 21042,
 		subtitle = "계속…… 늘 함께 있자……"
+	}
+	pg.base.dorm3d_subtitle[22001] = {
+		id = 22001,
+		subtitle = "부디 이 빛이……"
+	}
+	pg.base.dorm3d_subtitle[22002] = {
+		id = 22002,
+		subtitle = "어둠 속을 헤매는 어린 양을 이끌어 주기를……"
+	}
+	pg.base.dorm3d_subtitle[22003] = {
+		id = 22003,
+		subtitle = "어머, 내 허락을 기다리는 거야? 지휘관."
+	}
+	pg.base.dorm3d_subtitle[22004] = {
+		id = 22004,
+		subtitle = "그렇다면 손끝으로…… 이 소리 없는 기도문을 읽어내릴게."
+	}
+	pg.base.dorm3d_subtitle[22005] = {
+		id = 22005,
+		subtitle = "후후…… 이렇게 고해하는 쪽이 더 취향에 맞는 모양이네?"
+	}
+	pg.base.dorm3d_subtitle[22006] = {
+		id = 22006,
+		subtitle = "지금 당신이 원하는 건 구원일까? 아니면……"
+	}
+	pg.base.dorm3d_subtitle[22007] = {
+		id = 22007,
+		subtitle = "나와 함께 빠져드는 밤……일까? 후후후♡"
+	}
+	pg.base.dorm3d_subtitle[22008] = {
+		id = 22008,
+		subtitle = "깼어? 좀 더 느긋하게 꿈속을 헤매고 있을 줄 알았는데."
+	}
+	pg.base.dorm3d_subtitle[22009] = {
+		id = 22009,
+		subtitle = "벌써 아침이야. 마침 어젯밤 일에 대해 참회하려고 하던 참인데…… 후후."
+	}
+	pg.base.dorm3d_subtitle[22010] = {
+		id = 22010,
+		subtitle = "음…… 내 경건한 기도를 방해하다니…… 혹시 어젯밤을 계속 이어가고 싶은 거야?"
+	}
+	pg.base.dorm3d_subtitle[22011] = {
+		id = 22011,
+		subtitle = "후후… 옷 주름도 아직 펴질 못했는데… 이 「죄의 증거」는 잘 숨겨둬야겠어……"
+	}
+	pg.base.dorm3d_subtitle[22012] = {
+		id = 22012,
+		subtitle = "자, 아침 「참회」는 여기까지 하고…… 다음은 다시 밤에…… 후후."
+	}
+	pg.base.dorm3d_subtitle[22013] = {
+		id = 22013,
+		subtitle = "왜 그래……? 외로워서 내 관심이 필요해진 거야?"
+	}
+	pg.base.dorm3d_subtitle[22014] = {
+		id = 22014,
+		subtitle = "뭐, 책보다는 확실히 당신 쪽이 「읽는 맛」이 있겠어. 후후후."
+	}
+	pg.base.dorm3d_subtitle[22015] = {
+		id = 22015,
+		subtitle = "……책에 이렇게 적혀 있더라. 말의 의미는 그때의 상황에 따라 달라진다고……"
+	}
+	pg.base.dorm3d_subtitle[22016] = {
+		id = 22016,
+		subtitle = "예를 들어 「속박」이라는 말도……"
+	}
+	pg.base.dorm3d_subtitle[22017] = {
+		id = 22017,
+		subtitle = "문맥에 따라서는…… 더 꽉 끌어안는다는 뜻이 되기도 하지♪"
+	}
+	pg.base.dorm3d_subtitle[22021] = {
+		id = 22021,
+		subtitle = "과연 이걸 사랑이라고 부를 수 있을지…… 서로 살을 부비며 확인해 볼까?"
+	}
+	pg.base.dorm3d_subtitle[22022] = {
+		id = 22022,
+		subtitle = "이렇게나 자상하게 대해 주다니…… 후후후, 나한테 벌이라도 주려는 거야?"
+	}
+	pg.base.dorm3d_subtitle[22023] = {
+		id = 22023,
+		subtitle = "내가 끌리는 건…… 강렬하게 밀어붙이는 당신이야…… 이것도 참회해야 하려나?"
+	}
+	pg.base.dorm3d_subtitle[22024] = {
+		id = 22024,
+		subtitle = "느껴져? 내 마음이 당신 때문에…… 이렇게 두근거려……"
+	}
+	pg.base.dorm3d_subtitle[22025] = {
+		id = 22025,
+		subtitle = "봐, 당신의 여기도…… 세차게 뛰고 있잖아."
+	}
+	pg.base.dorm3d_subtitle[22026] = {
+		id = 22026,
+		subtitle = "아무래도…… 좀 더 직접적인 「증명」이 필요한 듯하네."
+	}
+	pg.base.dorm3d_subtitle[22027] = {
+		id = 22027,
+		subtitle = "인정해…… 당신이 진심으로 바라는 거니까, 참회 같은 건 필요 없다는 걸."
+	}
+	pg.base.dorm3d_subtitle[22028] = {
+		id = 22028,
+		subtitle = "후후…… 지휘관, 이런 식으로…… 나를 반성하게 만들 생각인가 봐."
+	}
+	pg.base.dorm3d_subtitle[22029] = {
+		id = 22029,
+		subtitle = "좋아…… 어떤 일이든 기꺼이 받아들일게."
+	}
+	pg.base.dorm3d_subtitle[22030] = {
+		id = 22030,
+		subtitle = "음…… 그렇게까지 해서…… 내 마음을 독차지하고 싶어? 우후후……"
+	}
+	pg.base.dorm3d_subtitle[22031] = {
+		id = 22031,
+		subtitle = "아아…… 이대로라면 정말로…… 지휘관을 거역할 수 없게 되겠어……"
+	}
+	pg.base.dorm3d_subtitle[22032] = {
+		id = 22032,
+		subtitle = "이런 곳에도 쓰려고? 정말 지휘관은 욕심쟁이라니까♪"
+	}
+	pg.base.dorm3d_subtitle[22033] = {
+		id = 22033,
+		subtitle = "음…… 몸속 깊은 곳이 찌릿찌릿한데…… 이것도 당신의 붓이 닿은 탓일까?"
+	}
+	pg.base.dorm3d_subtitle[22034] = {
+		id = 22034,
+		subtitle = "여기에도…… 쓰려고?"
+	}
+	pg.base.dorm3d_subtitle[22035] = {
+		id = 22035,
+		subtitle = "후후…… 더 적어도 괜찮아. ……소중히 간직할게♪"
+	}
+	pg.base.dorm3d_subtitle[22036] = {
+		id = 22036,
+		subtitle = "설마…… 이 정도로 내가 순순히 반성할 거라고 생각한 거야?"
+	}
+	pg.base.dorm3d_subtitle[22037] = {
+		id = 22037,
+		subtitle = "아쉽네…… 사랑의 필적만으로는 이 요동치는 마음을 가라앉힐 수 없는걸."
+	}
+	pg.base.dorm3d_subtitle[22038] = {
+		id = 22038,
+		subtitle = "자, 다음은…… 내가 당신에게 「써 내려갈」 차례야♡"
 	}
 end)()

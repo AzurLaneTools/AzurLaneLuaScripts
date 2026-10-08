@@ -4,6 +4,24 @@ slot0.getUIName = function(slot0)
 	return "EducateCharProfileUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	return ResPathSupport.MergeLuaArr({
+		"ui/educatecharprofileui",
+		"cue/story-richang-8.b"
+	}, (function ()
+		slot0 = {}
+
+		for slot4, slot5 in ipairs(pg.secretary_special_ship.all) do
+			if pg.secretary_special_ship[slot5].painting then
+				table.insert(slot0, "painting/" .. slot6)
+				table.insert(slot0, "paintingface/" .. slot6)
+			end
+		end
+
+		return slot0
+	end)())
+end
+
 slot0.init = function(slot0)
 	slot0.backBtn = slot0._tf:Find("adapt/top/back")
 	slot0.homeBtn = slot0._tf:Find("adapt/top/home")

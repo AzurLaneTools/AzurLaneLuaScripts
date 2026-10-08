@@ -38,7 +38,11 @@ pg.dorm3d_recall.all = {
 	211,
 	212,
 	213,
-	214
+	214,
+	221,
+	222,
+	223,
+	224
 }
 pg.dorm3d_recall.get_id_list_by_story_id = {
 	[10010] = {
@@ -148,6 +152,18 @@ pg.dorm3d_recall.get_id_list_by_story_id = {
 	},
 	[210541] = {
 		214
+	},
+	[220510] = {
+		221
+	},
+	[220520] = {
+		222
+	},
+	[220530] = {
+		223
+	},
+	[220541] = {
+		224
 	}
 }
 pg.base = pg.base or {}
@@ -643,6 +659,61 @@ pg.base.dorm3d_recall = {}
 		unlock = {
 			3,
 			7990201
+		}
+	}
+	pg.base.dorm3d_recall[221] = {
+		story_id = 220510,
+		name = "고해의 밤",
+		type = 1,
+		id = 221,
+		image = "recall_221",
+		unlock_text = "임플래커블 친밀도 Lv4 달성 시 오픈",
+		desc = "당신이 바라는 건 구원이야? 아니면…… 나와 함께 빠져드는 밤……이야? 후후후♡",
+		unlock = {
+			1,
+			20707,
+			4
+		}
+	}
+	pg.base.dorm3d_recall[222] = {
+		story_id = 220520,
+		name = "감출 수 없는 죄의 증거",
+		type = 1,
+		id = 222,
+		image = "recall_222",
+		unlock_text = "임플래커블 친밀도 Lv8 달성 시 오픈",
+		desc = "옷 주름도 아직 펴질 못했는데 벌써 아침이네. 나머지 참회는 다시 밤에 이어서…… 후후.",
+		unlock = {
+			1,
+			20707,
+			8
+		}
+	}
+	pg.base.dorm3d_recall[223] = {
+		story_id = 220530,
+		name = "「구속」의 의미",
+		type = 1,
+		id = 223,
+		image = "recall_223",
+		unlock_text = "임플래커블 친밀도 Lv12 달성 시 오픈",
+		desc = "같은 말이라도 문맥이 달라지면 의미도 달라지지――어떻게 정의할지는 당신에게 달렸어♪",
+		unlock = {
+			1,
+			20707,
+			12
+		}
+	}
+	pg.base.dorm3d_recall[224] = {
+		story_id = 220541,
+		name = "사랑의 노트",
+		type = 1,
+		id = 224,
+		image = "recall_224",
+		unlock_text = "사랑의 노트 구매 시 오픈",
+		desc = "표지에는 「참회」를, 속에는 흘러넘칠 만큼 짙은 갈망을♡",
+		unlock = {
+			3,
+			2070701
 		}
 	}
 end)()

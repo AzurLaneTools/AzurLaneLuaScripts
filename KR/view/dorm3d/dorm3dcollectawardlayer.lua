@@ -4,6 +4,14 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dCollectAwardUI"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	table.insert(slot1, "dorm3dcollection/" .. pg.dorm3d_collection_template[slot0.contextData.itemId].icon)
+
+	return slot1
+end
+
 slot0.preload = function(slot0, slot1)
 	GetSpriteFromAtlasAsync("dorm3dcollection/" .. pg.dorm3d_collection_template[slot0.contextData.itemId].icon, "", function (slot0)
 		uv0.iconSprite = slot0
@@ -49,7 +57,7 @@ slot0.didEnter = function(slot0)
 
 	slot3 = slot0._tf
 
-	setImageSprite(slot3:Find("panel/icon"), slot0.iconSprite, true)
+	setImageSprite(slot3:Find("panel/icon"), GetSpriteFromAtlas("dorm3dcollection/" .. slot1.icon, ""), true)
 	LeanTween.delayedCall(1.5, System.Action(function ()
 		uv0.isBlock = false
 	end))

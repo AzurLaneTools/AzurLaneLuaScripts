@@ -28,6 +28,14 @@ slot0.getUIName = function(slot0)
 	return "NewBackYardTemplateUI"
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	table.insert(slot1, "ui/BackYardMsgBox")
+
+	return slot1
+end
+
 slot0.preload = function(slot0, slot1)
 	_backYardThemeTemplateMsgbox = BackyardMsgBoxMgr.New()
 

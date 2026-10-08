@@ -28,6 +28,10 @@ slot0.EachGroupTrack = function(slot0, slot1)
 end
 
 slot0.DynamicBinding = function(slot0)
+	if TimelineHelper.ApplyManifestBindings(slot0) then
+		return
+	end
+
 	slot1 = _.reduce(pg.dorm3d_timeline_dynamic_binding.all, {}, function (slot0, slot1)
 		if pg.dorm3d_timeline_dynamic_binding[slot1].track_name then
 			slot0[slot2.track_name] = slot2.object_name

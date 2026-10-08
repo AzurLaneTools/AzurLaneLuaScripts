@@ -283,7 +283,7 @@ slot0.SetFleets = function(slot0, slot1)
 end
 
 slot0.GetFleets = function(slot0)
-	return _.rest(slot0.fleets, 1)
+	return underscore.to_array(slot0.fleets)
 end
 
 slot0.GetFleet = function(slot0, slot1)
@@ -341,7 +341,7 @@ slot0.SetDefaultFleets = function(slot0, slot1)
 end
 
 slot0.GetDefaultFleets = function(slot0)
-	return underscore.rest(slot0.defaultFleets, 1)
+	return underscore.to_array(slot0.defaultFleets)
 end
 
 slot0.TransDefaultFleets = function(slot0)
@@ -538,6 +538,26 @@ slot0.ReplacementMapType = function(slot0, slot1)
 	end
 
 	return "test_chapter", i18n("area_unkown")
+end
+
+slot0.GetDelegateMapDic = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(pg.world_auto_statistics.all) do
+		slot7 = slot0:GetMap(slot6)
+		slot8 = slot0.atlas.mapEntrance[slot7.id]
+
+		assert(not slot8:HasPort())
+		assert(uv0.ReplacementMapType(slot8, slot7) == "base_chapter")
+
+		if not slot7.isCost and slot0.atlas.transportDic[slot8.id] then
+			slot1[slot9] = slot1[slot7:GetDanger()] or {}
+
+			table.insert(slot1[slot9], slot7)
+		end
+	end
+
+	return slot1
 end
 
 slot0.FindTreasureEntrance = function(slot0, slot1)
@@ -1175,6 +1195,28 @@ end
 
 slot0.GetGobalFlag = function(slot0, slot1)
 	return slot0.gobalFlag[uv0[slot1]]
+end
+
+slot0.CanDelegate = function(slot0)
+	if getProxy(ChapterAutoProxy):IsCommissionDoing() then
+		return false, "world_auto_plan_error_tip1"
+	end
+
+	if not slot0:GetGobalFlag("treasure_flag") then
+		return false, "world_auto_plan_error_tip5"
+	end
+
+	if #underscore.keys(slot0:GetDelegateMapDic()) == 0 then
+		return false, "world_auto_plan_error_tip3"
+	end
+
+	if underscore.all(getGameset("world_auto_finish_map_limit")[2], function (slot0)
+		return not uv0:GetAchievement(slot0):IsAchieved()
+	end) then
+		return false, "world_auto_plan_error_tip5"
+	end
+
+	return true
 end
 
 return slot0

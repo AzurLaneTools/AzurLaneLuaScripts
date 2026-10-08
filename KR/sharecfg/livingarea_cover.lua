@@ -25,7 +25,10 @@ pg.livingarea_cover.all = {
 	101403,
 	102101,
 	102102,
-	102103
+	102103,
+	102201,
+	102202,
+	102203
 }
 pg.base = pg.base or {}
 pg.base.livingarea_cover = {}
@@ -294,5 +297,41 @@ pg.base.livingarea_cover = {}
 		id = 102103,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "102103_icon"
+	}
+	pg.base.livingarea_cover[102201] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "귓가의 속삭임",
+		nighttime_res = "102201_bg_night",
+		daytime_res = "102201_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「귓가의 속삭임」으로 적용 가능",
+		unlock_text = "임플래커블의 숙소 친밀도 Lv2 달성 시 오픈",
+		id = 102201,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102201_icon"
+	}
+	pg.base.livingarea_cover[102202] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "머리맡의 휴식",
+		nighttime_res = "102202_bg_night",
+		daytime_res = "102202_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「머리맡의 휴식」으로 적용 가능",
+		unlock_text = "임플래커블의 숙소 친밀도 Lv7 달성 시 오픈",
+		id = 102202,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102202_icon"
+	}
+	pg.base.livingarea_cover[102203] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "물가의 초대",
+		nighttime_res = "102203_bg_night",
+		daytime_res = "102203_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「물가의 초대」로 적용 가능",
+		unlock_text = "임플래커블의 숙소 친밀도 Lv1 달성 시 오픈",
+		id = 102203,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102203_icon"
 	}
 end)()

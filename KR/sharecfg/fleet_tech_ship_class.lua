@@ -5166,7 +5166,7 @@ end)()
 	pg.base.fleet_tech_ship_class[970710] = {
 		shiptype = 7,
 		name = "새러토가·META",
-		t_level = 2,
+		t_level = 1,
 		id = 970710,
 		t_level_1 = 1,
 		nation = 97,

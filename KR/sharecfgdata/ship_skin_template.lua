@@ -13922,7 +13922,7 @@ _G.pg.base.ship_skin_template[101482] = {
 	skin_type = 0,
 	shop_type_id = 19,
 	l2d_ignore_drag = 0,
-	hand_id = 13,
+	hand_id = 5,
 	lip_smoothing = 0,
 	l2d_animations = "",
 	lover_kiss = "lip02",
@@ -84575,6 +84575,134 @@ _G.pg.base.ship_skin_template[202333] = {
 		-1004.3,
 		0,
 		0.634
+	}
+}
+
+
+_G.pg.base.ship_skin_template[202338] = {
+	name = "퓨어리 플라워리 프로미스",
+	change_skin = "",
+	desc = "드디어 눈을 뜨셨군요, 주인님. 주무시는 동안 행복의 의식 준비를 모두 마쳐두었답니다. 자, 스킬라의 품속으로 오세요. 주인님과 스킬라는 오늘, 세상에서 가장 행복한 사람이 될 테니까요♪",
+	illustrator2 = -1,
+	ship_group = 20233,
+	group_index = 8,
+	purchase_offset = "",
+	painting = "sikula_h",
+	lover_hand = "hand_1_02",
+	skin_type = 1,
+	shop_type_id = 9998,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "530",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 202338,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "sikula_h",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 357,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.781,
+				0.811,
+				0
+			}
+		},
+		vicegun = {
+			{
+				0.849,
+				0.967,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.651,
+				2.267,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			40,
+			{
+				{
+					"smoke",
+					{
+						-0.651,
+						2.478,
+						0
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -161105,6 +161233,134 @@ _G.pg.base.ship_skin_template[305132] = {
 }
 
 
+_G.pg.base.ship_skin_template[305138] = {
+	name = "지금, 넘쳐흐를 듯한 마음을",
+	change_skin = "",
+	desc = "하아… 지휘관이랑 같이 식장에 들어간다고 생각하니까, 대박 설레서 밤에 잠도 안 오더라고…… 좀 애 같나? 에이, 우리 사이에 가끔은 좀 어리광 부려도 괜찮잖아♪",
+	illustrator2 = -1,
+	ship_group = 30513,
+	group_index = 8,
+	purchase_offset = "",
+	painting = "weizhang_h",
+	lover_hand = "hand_1_02",
+	skin_type = 1,
+	shop_type_id = 9998,
+	l2d_ignore_drag = 0,
+	hand_id = 4,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "322",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 305138,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "weizhang_h",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 295,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand2",
+	l2d_voice_calibrate = "",
+	tag = {
+		2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.446,
+				0.979,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.447,
+				0.772,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.866,
+				2.294,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.51,
+						2.417,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
 _G.pg.base.ship_skin_template[305140] = {
 	name = "스루가 ",
 	change_skin = "",
@@ -170579,6 +170835,120 @@ _G.pg.base.ship_skin_template[307085] = {
 				145,
 				0,
 				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[307088] = {
+	name = "화려한 꽃꿈의 맹약",
+	change_skin = "",
+	desc = "수국이 흐드러지게 피어나는 계절, 운명의 상대인 그대가 내 앞에 나타나 영원히 변치 않을 가약을 맺으리…… 수없이 보아온 꿈과 환상의 광경이 마침내 현실이 되었구나……",
+	illustrator2 = -1,
+	ship_group = 30708,
+	group_index = 8,
+	purchase_offset = "",
+	painting = "xinnong_h",
+	lover_hand = "hand_1_02",
+	skin_type = 1,
+	shop_type_id = 9998,
+	l2d_ignore_drag = 0,
+	hand_id = 2,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "322",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 307088,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "xinnong_h",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 192,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		antiaircraft = {
+			{
+				0.982,
+				2.142,
+				0
+			}
+		},
+		plane = {
+			{
+				1.15,
+				1.132,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.45,
+						2.31,
+						0
+					}
+				}
 			}
 		}
 	}

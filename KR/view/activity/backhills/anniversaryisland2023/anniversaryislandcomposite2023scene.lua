@@ -14,6 +14,15 @@ end
 slot1 = "ui/AnniversaryIslandComposite2023UI_atlas"
 slot2 = "ui/AtelierCommonUI_atlas"
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+
+	table.insert(slot1, uv1)
+	table.insert(slot1, uv2)
+
+	return slot1
+end
+
 slot0.preload = function(slot0, slot1)
 	table.ParallelIpairsAsync({
 		uv0,

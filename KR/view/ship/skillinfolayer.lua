@@ -4,6 +4,14 @@ slot0.getUIName = function(slot0)
 	return "SkillInfoUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {}
+
+	table.insert(slot2, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.ShipSkillIcon, getSkillConfig(slot1.skillId).icon))
+
+	return table.insertto(slot2, uv0.super.getResource(slot0))
+end
+
 slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 

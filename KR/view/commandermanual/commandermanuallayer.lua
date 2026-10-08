@@ -4,6 +4,19 @@ slot0.getUIName = function(slot0)
 	return "CommanderManualUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {
+		"weaponframes",
+		"shiptype",
+		"ui/iconcolorful",
+		"ui/MsgBox"
+	}
+
+	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+
+	return slot2
+end
+
 slot0.init = function(slot0)
 	slot0.backBtn = slot0._tf:Find("blur_panel/top/CommonTitleAndBack/back_btn")
 	slot0.helpBtn = slot0._tf:Find("blur_panel/top/helpBtn")

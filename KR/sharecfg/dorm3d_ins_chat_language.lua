@@ -846,7 +846,129 @@ pg.dorm3d_ins_chat_language.all = {
 	840,
 	841,
 	842,
-	843
+	843,
+	844,
+	845,
+	846,
+	847,
+	848,
+	849,
+	850,
+	851,
+	852,
+	853,
+	854,
+	855,
+	856,
+	857,
+	858,
+	859,
+	860,
+	861,
+	862,
+	863,
+	864,
+	865,
+	866,
+	867,
+	868,
+	869,
+	870,
+	871,
+	872,
+	873,
+	874,
+	875,
+	876,
+	877,
+	878,
+	879,
+	880,
+	881,
+	882,
+	883,
+	884,
+	885,
+	886,
+	887,
+	888,
+	889,
+	890,
+	891,
+	892,
+	893,
+	894,
+	895,
+	896,
+	897,
+	898,
+	899,
+	900,
+	901,
+	902,
+	903,
+	904,
+	905,
+	906,
+	907,
+	908,
+	909,
+	910,
+	911,
+	912,
+	913,
+	914,
+	915,
+	916,
+	917,
+	918,
+	919,
+	920,
+	921,
+	922,
+	923,
+	924,
+	925,
+	926,
+	927,
+	928,
+	929,
+	930,
+	931,
+	932,
+	933,
+	934,
+	935,
+	936,
+	937,
+	938,
+	939,
+	940,
+	941,
+	942,
+	943,
+	944,
+	945,
+	946,
+	947,
+	948,
+	949,
+	950,
+	951,
+	952,
+	953,
+	954,
+	955,
+	956,
+	957,
+	958,
+	959,
+	960,
+	961,
+	962,
+	963,
+	964,
+	965
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_chat_language = {}
@@ -8245,6 +8367,1104 @@ end)()
 		option = "",
 		type = 1,
 		id = 843,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[844] = {
+		param = "지휘관이 오늘 찾아오다니, 살짝 놀랐어.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 844,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[845] = {
+		param = "다과도 준비하지 못했고, 방도 아직 정리하지 않았는데……",
+		ship_group = 20707,
+		type = 1,
+		id = 845,
+		flag = 0,
+		option = {
+			{
+				1,
+				"신경 쓰지 마"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[846] = {
+		param = "신경 쓰지 마. 일부러 준비할 필요 없어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 846,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[847] = {
+		param = "임플래커블이 평소에 어떻게 지내는지 보고 싶어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 847,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[848] = {
+		param = "평소의 나……?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 848,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[849] = {
+		param = "일하지 않는 시간은 대부분 기도하면서 보내.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 849,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[850] = {
+		param = "취미라고 해도 차를 내리는 것 말고는 딱히 떠오르는 게 없고……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 850,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[851] = {
+		param = "지휘관이 보기엔 지루해 보이려나?",
+		ship_group = 20707,
+		type = 1,
+		id = 851,
+		flag = 1,
+		option = {
+			{
+				2,
+				"다음에는 같이 해 봐도 돼?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[852] = {
+		param = "기회가 되면 다음에는 같이 해 봐도 돼?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 852,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[853] = {
+		param = "어떤 느낌인지 조금 궁금하거든.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 853,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[854] = {
+		param = "기도는…… 확실히 말로 설명하기는 어렵지.",
+		ship_group = 20707,
+		type = 1,
+		id = 854,
+		flag = 2,
+		option = {
+			{
+				3,
+				"신기한 느낌이네"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[855] = {
+		param = "신기한 느낌이네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 855,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[856] = {
+		param = "응, 확실히 무척이나 신비로운 느낌이야.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 856,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[857] = {
+		param = "다음에 오면 같이 해 보자. 후후후♪",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 857,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[858] = {
+		param = "지휘관, 오늘은 다크서클이…… 조금 도드라져 보이네.",
+		ship_group = 20707,
+		type = 1,
+		id = 858,
+		flag = 0,
+		option = {
+			{
+				1,
+				"요즘 일이 많아서…"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[859] = {
+		param = "요즘 일이 많아서…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 859,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[860] = {
+		param = "일이 중요한 건 맞지만, 지휘관이 쓰러지면…… 다들 불안해 할 거야.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 860,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[861] = {
+		param = "일하는 시간을 줄이기 어려우면……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 861,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[862] = {
+		param = "매 순간의 휴식이 더욱 값진 시간이 되도록 내가 도와줄게.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 862,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[863] = {
+		param = "이리 와서 쉬는 시간은 모두 내게 맡겨줘.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 863,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[864] = {
+		param = "특별한 수면 유도 방법을 알고 있거든. 지휘관을 금방 깊은 잠에 빠뜨려 줄 수 있어.",
+		ship_group = 20707,
+		type = 1,
+		id = 864,
+		flag = 1,
+		option = {
+			{
+				2,
+				"특별한 수면 유도 방법?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[865] = {
+		param = "특별한 수면 유도 방법?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 865,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[866] = {
+		param = "후후후. 지금 알려 주면 효과가 반감될 거야.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 866,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[867] = {
+		param = "당신은 그저…… 여기 와서 눈을 감고, 나머지는 내게 맡기면 돼.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 867,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[868] = {
+		param = "분명…… 잊고 싶지 않은 밤이 될 거야. 후후후.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 868,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[869] = {
+		param = "지휘관, 주말에 같이 쇼핑하러 가자.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 869,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[870] = {
+		param = "오래 입은 옷이 몇 벌 있잖아? 슬슬 새것으로 바꿀 때가 됐어.",
+		ship_group = 20707,
+		type = 1,
+		id = 870,
+		flag = 0,
+		option = {
+			{
+				1,
+				"좋아"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[871] = {
+		param = "좋아. 괜찮은 가게 알아?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 871,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[872] = {
+		param = "물론이지. 이런 정보 교환은 다과회의 기본이거든.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 872,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[873] = {
+		param = "맞춤 제작이 가능한 가게를 몇 군데 알고 있어.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 873,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[874] = {
+		param = "만드는 데 시간은 좀 걸리지만, 원단도 디자인도 일류여서 아주 믿을 만한 곳이야.",
+		ship_group = 20707,
+		type = 1,
+		id = 874,
+		flag = 1,
+		option = {
+			{
+				2,
+				"좋네"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[875] = {
+		param = "좋네. 그런데 난 평소에 제복만 입어서 그런 쪽은 잘 몰라.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 875,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[876] = {
+		param = "그럼, 내게 맡겨.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 876,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[877] = {
+		param = "대신 지휘관도 내가 입어줬으면 하는 옷을 몇 벌 골라줘야 해. 후후후.",
+		ship_group = 20707,
+		type = 1,
+		id = 877,
+		flag = 2,
+		option = {
+			{
+				3,
+				"알겠어"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[878] = {
+		param = "알겠어. 내 취향을 비웃지만 않는다면야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 878,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[879] = {
+		param = "지휘관이 골라 준 거라면 뭐든 좋아. 후후후♪",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 879,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[880] = {
+		param = "오늘 문득 신기한 기분이 들었어……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 880,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[881] = {
+		param = "지휘관과의 거리가 평소보다 조금 가까워진 느낌이랄까.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 881,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[882] = {
+		param = "아니면…… 지휘관이 나에 대한 이해도가 더 깊어져서 그런 건가?",
+		ship_group = 20707,
+		type = 1,
+		id = 882,
+		flag = 0,
+		option = {
+			{
+				1,
+				"아마 둘 다 아닐까?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[883] = {
+		param = "아마 둘 다 아닐까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 883,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[884] = {
+		param = "오늘 임플래커블의 방에서 이제까지는 의식하지 못했던 것들을 새롭게 발견했거든.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 884,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[885] = {
+		param = "후후후. 지휘관의 탐구심은 여전하네~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 885,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[886] = {
+		param = "그렇게 궁금하면, 직접 나한테 물어보는 편이 낫지 않아?",
+		ship_group = 20707,
+		type = 1,
+		id = 886,
+		flag = 1,
+		option = {
+			{
+				2,
+				"직접 물어보긴 어려워서……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[887] = {
+		param = "직접 물어보긴 어려워서……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 887,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[888] = {
+		param = "알고 있잖아? 나는 당신의 부탁을 거절하지 않아.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 888,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[889] = {
+		param = "더 알고 싶을 때는 언제든 물어봐.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 889,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[890] = {
+		param = "내 모든 걸 숨김없이 알려 줄게.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 890,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[891] = {
+		param = "그 대신…… 지휘관도 나한테 숨기는 게 없어야 해~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 891,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[892] = {
+		param = "그랬다간 나, 슬플 거야.",
+		ship_group = 20707,
+		type = 1,
+		id = 892,
+		flag = 2,
+		option = {
+			{
+				3,
+				"응"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[893] = {
+		param = "응, 임플래커블 앞에서는 솔직해질게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 893,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[894] = {
+		param = "후후후. 지휘관을 믿어. 언제나 그래왔듯이.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 894,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[895] = {
+		param = "그럼 내일도…… 와 줄 거지?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 895,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[896] = {
+		param = "일이 안 바쁘면…… 꼭 보고 싶어.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 896,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[897] = {
+		param = "지휘관, 날짜를 확인해 봤는데…… 3일 후면 휴일이네~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 897,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[898] = {
+		param = "무슨 계획이라도 있어?",
+		ship_group = 20707,
+		type = 1,
+		id = 898,
+		flag = 0,
+		option = {
+			{
+				1,
+				"지금은 딱히 없어"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[899] = {
+		param = "지금은 딱히 없어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 899,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[900] = {
+		param = "임플래커블은 가고 싶은 곳 있어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 900,
+		flag = 1
+	}
+end)()
+(function ()
+	pg.base.dorm3d_ins_chat_language[901] = {
+		param = "가고 싶은 곳? 딱히 없어~ 후후후.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 901,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[902] = {
+		param = "그래도 준비해 둔 건 몇 가지 있어…… 차나 아로마……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 902,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[903] = {
+		param = "그리고 계속 생각해 둔 기분 전환 방법도 있지.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 903,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[904] = {
+		param = "아무 데도 나가지 말고, 내 방에서 조용히 둘만의 휴일을 보내는 거야.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 904,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[905] = {
+		param = "지휘관은 어때?",
+		ship_group = 20707,
+		type = 1,
+		id = 905,
+		flag = 1,
+		option = {
+			{
+				2,
+				"괜찮은데"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[906] = {
+		param = "괜찮은데.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 906,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[907] = {
+		param = "그럼 약속한 거야. 3일 뒤 휴일은 내게 맡겨~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 907,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[908] = {
+		param = "끝나지 않았으면 좋겠다고 생각할 만큼…… 특별한 하루로 만들어 줄게. 후후후♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 908,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[909] = {
+		param = "지휘관이 오늘 준 선물…… 정말 마음에 들어.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 909,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[910] = {
+		param = "하지만 늘 받기만 하면 나도 마음이 불편해져.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 910,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[911] = {
+		param = "지휘관은 어떤 답례를 원해?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 911,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[912] = {
+		param = "아니면…… 깜짝 선물을 준비해 볼까?",
+		ship_group = 20707,
+		type = 1,
+		id = 912,
+		flag = 0,
+		option = {
+			{
+				1,
+				"신경 쓰지 않아도 돼"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[913] = {
+		param = "신경 쓰지 않아도 돼.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 913,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[914] = {
+		param = "평소에 도움을 많이 받고 있으니, 이런 선물쯤은 별것도 아니야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 914,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[915] = {
+		param = "후후후. 그렇게 말할 줄 알았어.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 915,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[916] = {
+		param = "걱정 마. 내 답례에는 돈이 들지 않거든.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 916,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[917] = {
+		param = "오히려…… 돈으로는 살 수 없는, 단 하나뿐인 특별한 거야.",
+		ship_group = 20707,
+		type = 1,
+		id = 917,
+		flag = 1,
+		option = {
+			{
+				2,
+				"조금 궁금하네"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[918] = {
+		param = "조금 궁금하네. 뭐야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 918,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[919] = {
+		param = "말해 버리면 재미없지~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 919,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[920] = {
+		param = "지휘관이 직접 받으러 와 줘.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 920,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[921] = {
+		param = "여기서 계속 기다리고 있을게. 후후후♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 921,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[922] = {
+		param = "요즘 지휘관을 위해 기도하다 보면 시간이 유난히 길게 느껴져.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 922,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[923] = {
+		param = "아마…… 잡념이 너무 많아서 그런 건가?",
+		ship_group = 20707,
+		type = 1,
+		id = 923,
+		flag = 0,
+		option = {
+			{
+				1,
+				"어떤 잡념인데?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[924] = {
+		param = "어떤 잡념인데?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 924,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[925] = {
+		param = "확실하게 말해 줬으면 해?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 925,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[926] = {
+		param = "머릿속이 당신 생각으로 가득하거든. 후후후♡",
+		ship_group = 20707,
+		type = 1,
+		id = 926,
+		flag = 1,
+		option = {
+			{
+				2,
+				"내가 원인이라는 거야?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[927] = {
+		param = "내가 원인이라는 거야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 927,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[928] = {
+		param = "오직 지휘관 한 사람만을 위해 기도하고 싶고, 지휘관을 계속 곁에 두고 싶고……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 928,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[929] = {
+		param = "지휘관의 온기에 너무 오래 젖어 있었던 탓인지, 나도 제멋대로가 되어 버린 모양이야.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 929,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[930] = {
+		param = "그래도 책임 져 줄 거지? 후후후♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 930,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[931] = {
+		param = "지휘관, 아직 안 자고 있어?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 931,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[932] = {
+		param = "설마 또 밤 새우는 중은 아니지~?",
+		ship_group = 20707,
+		type = 1,
+		id = 932,
+		flag = 0,
+		option = {
+			{
+				1,
+				"지금 자려던 참이야"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[933] = {
+		param = "지금 자려던 참이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 933,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[934] = {
+		param = "그럼 아직 안 자고 있었다는 거네.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 934,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[935] = {
+		param = "그래서…… 지금 어디에 있어?",
+		ship_group = 20707,
+		type = 1,
+		id = 935,
+		flag = 1,
+		option = {
+			{
+				2,
+				"집무실에 있어"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[936] = {
+		param = "집무실에 있어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 936,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[937] = {
+		param = "마침 우유를 데운 참이니까, 그쪽으로 가져다줄게.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 937,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[938] = {
+		param = "다 마시면 얌전히 방으로 돌아가서 자도록 해.",
+		ship_group = 20707,
+		type = 1,
+		id = 938,
+		flag = 2,
+		option = {
+			{
+				3,
+				"알겠어"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[939] = {
+		param = "알겠어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 939,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[940] = {
+		param = "혼자서 밤새우면 안 돼.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 940,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[941] = {
+		param = "꼭 밤을 새워야 할 때는 나를 불러.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 941,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[942] = {
+		param = "혼자 있는 것보다는 내가 곁에 있는 게 훨씬 좋잖아? 후후후♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 942,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[943] = {
+		param = "지휘관, 다음 애프터눈 티에는 밀크티를 마셔 볼래? 요즘 유행하는 것 같아.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 943,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[944] = {
+		param = "분명 당신도 마음에 들 거야.",
+		ship_group = 20707,
+		type = 1,
+		id = 944,
+		flag = 0,
+		option = {
+			{
+				1,
+				"한번 마셔 보자"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[945] = {
+		param = "한번 마셔 보자.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 945,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[946] = {
+		param = "그런데 이해가 안 가…… 차라는 건 뭔가를 더해서 만드는 거잖아.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 946,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[947] = {
+		param = "그런데 왜 내가 만든 차는 반응이 안 좋은 거지?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 947,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[948] = {
+		param = "그게 계속 고민이야. 뭔가 짚이는 거 없어?",
+		ship_group = 20707,
+		type = 1,
+		id = 948,
+		flag = 1,
+		option = {
+			{
+				2,
+				"사실……"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[949] = {
+		param = "사실 모두의 사랑을 받는 인기 레시피 뒤에는",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 949,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[950] = {
+		param = "반응이 좋지 않았던 실패작 레시피가 무수히 있는 법이지.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 950,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[951] = {
+		param = "그렇구나. 충분한 시행착오를 거치지 않으면, 성공이란 운에 따른 우연에 불과하다는 거지?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 951,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[952] = {
+		param = "그러니까…… 내 시도가 불충분했을 뿐이라는 거잖아?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 952,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[953] = {
+		param = "알겠어. 밀크티 말고도 새로운 차 레시피를 몇 가지 준비해 볼게.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 953,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[954] = {
+		param = "후후, 기대하고 있어, 지휘관.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 954,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[955] = {
+		param = "지휘관, 오늘 방에서 뭘 찍은 거야?",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 955,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[956] = {
+		param = "나한테도 알려 줄래?",
+		ship_group = 20707,
+		type = 1,
+		id = 956,
+		flag = 0,
+		option = {
+			{
+				1,
+				"그냥 별생각 없이 찍었어"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[957] = {
+		param = "창가의 꽃이나 책장 한구석 같은 걸, 그냥 별생각 없이 찍었어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 957,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[958] = {
+		param = "후후후. 다 평범한 일상의 풍경이네~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 958,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[959] = {
+		param = "그래도 당신이 찍으니까",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 959,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[960] = {
+		param = "그 풍경이 또 다른 의미를 갖게 됐어.",
+		ship_group = 20707,
+		type = 1,
+		id = 960,
+		flag = 1,
+		option = {
+			{
+				2,
+				"어떤 의미?"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[961] = {
+		param = "어떤 의미?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 961,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[962] = {
+		param = "「임플래커블의 방에 있는 풍경」에서 「지휘관이 발견해 낸 풍경」이 되었잖아.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 962,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[963] = {
+		param = "훗날 다시 이 사진을 보면, 당신이 사진을 찍던 그 순간의 모습을 떠올리게 되겠지.",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 963,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[964] = {
+		param = "지휘관, 다음에는 나도 당신의 모습을 담아볼게♪",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 964,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[965] = {
+		param = "나도…… 여러 번 다시 보고 싶어질 만한 사진을 남겨 두고 싶어. 후후후♡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 965,
 		flag = 2
 	}
 end)()

@@ -67,7 +67,17 @@ pg.dorm3d_ins_language.all = {
 	"naximofu_2_1",
 	"naximofu_2_1_1",
 	"naximofu_2_2",
-	"naximofu_2_2_1"
+	"naximofu_2_2_1",
+	"yuanchou_1",
+	"yuanchou_1_1",
+	"yuanchou_1_1_1",
+	"yuanchou_1_2",
+	"yuanchou_1_2_1",
+	"yuanchou_2",
+	"yuanchou_2_1",
+	"yuanchou_2_1_1",
+	"yuanchou_2_2",
+	"yuanchou_2_2_1"
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_language = {}
@@ -396,6 +406,56 @@ pg.base.dorm3d_ins_language = {}
 	pg.base.dorm3d_ins_language.naximofu_2_2_1 = {
 		value = "장비 확인, 이상 없음. 나히모프, 전투 준비 완료.",
 		key = "naximofu_2_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1 = {
+		value = "저기, 지휘관. 화분의 식물을 깔끔하게 가지치기하는 편이야? 아니면 자연스러운 모습 그대로 키우는 편이야?",
+		key = "yuanchou_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_1 = {
+		value = "조금은 가지치기하는 편",
+		key = "yuanchou_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_1_1 = {
+		value = "적당히 손질해 주는 것도 돌보는 방법 중 하나니까~",
+		key = "yuanchou_1_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_2 = {
+		value = "자연스러운 모습 그대로 키우는 편",
+		key = "yuanchou_1_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_2_1 = {
+		value = "있는 그대로 마음껏 자라게 두는 것…… 그것도 참 근사한 방식이네~",
+		key = "yuanchou_1_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2 = {
+		value = "오늘은 조금 새로운 시도를 해 봤어…… 후후후♪",
+		key = "yuanchou_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_1 = {
+		value = "무슨 레시피야?",
+		key = "yuanchou_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_1_1 = {
+		value = "최상품 찻잎에 어성초를 섞어 봤어…… 꽤 독창적이지?",
+		key = "yuanchou_2_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_2 = {
+		value = "꽤 괜찮은데",
+		key = "yuanchou_2_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_2_1 = {
+		value = "지휘관을 위해 한 잔 따로 남겨 뒀어. 어서 와서 마셔 봐♪",
+		key = "yuanchou_2_2_1",
 		is_active = "0"
 	}
 end)()

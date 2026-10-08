@@ -1339,6 +1339,7 @@ pg.activity_template.all = {
 	7503,
 	7505,
 	7506,
+	7507,
 	8009,
 	8010,
 	8029,
@@ -2438,6 +2439,7 @@ pg.activity_template.get_id_list_by_type = {
 		51129,
 		51153,
 		7506,
+		7507,
 		6000,
 		6001,
 		6002,
@@ -57794,6 +57796,84 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[7507] = {
+		mark = 20260924,
+		type = 18,
+		login_pop = 99,
+		config_id = 3,
+		is_show = 44,
+		title_res_tag = "DormTaskTwo",
+		id = 7507,
+		page_core = "",
+		config_data = {
+			{
+				27420,
+				27421,
+				27422,
+				27423,
+				27424,
+				27425,
+				27426
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					22
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormTaskTwoPage",
+			ui_name = "DormTaskTwoPage"
+		},
+		config_client = {
+			subType = 1,
+			unlock_task = {
+				{
+					27420
+				},
+				{
+					27421
+				},
+				{
+					27422
+				},
+				{
+					27423
+				},
+				{
+					27424
+				},
+				{
+					27425
+				},
+				{
+					27426
+				}
+			}
+		}
+	}
 	pg.base.activity_template[8009] = {
 		mark = 20220414,
 		type = 3,
@@ -61136,6 +61216,8 @@ end)()
 			ui_name = "ManChaoSkinPermanentPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[6021] = {
 		mark = 20240222,
 		time = "stop",
@@ -61182,8 +61264,6 @@ end)()
 			ui_name = "NagaraSkinPermanentPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6022] = {
 		mark = 20240418,
 		time = "stop",
@@ -65814,6 +65894,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[25008] = {
 		mark = 20181011,
 		page_info = "",
@@ -65831,8 +65913,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[25009] = {
 		mark = 20181018,
 		page_info = "",

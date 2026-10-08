@@ -7,6 +7,16 @@ slot5 = 1
 slot6 = 2
 slot7 = 3
 
+slot0.getResource = function(slot0, slot1)
+	return table.insertto({
+		"ui/share/index_atlas",
+		"ui/storehouseui",
+		"ui/equipmentui_atlas",
+		"ui/recordablesearchbarui",
+		"ui/iconcolorful"
+	}, uv0.super.getResource(slot0))
+end
+
 slot0.getUIName = function(slot0)
 	return "StoreHouseUI"
 end

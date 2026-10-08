@@ -14,6 +14,41 @@ slot0.preload = function(slot0, slot1)
 	end)
 end
 
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
+	slot2 = {}
+
+	slot3 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	slot3("LoveLetterStyle/" .. slot0.contextData.prefab)
+	slot3("loveletteranim/loveletteranim")
+	slot3("bg/" .. slot0.contextData.bg)
+	slot3("loveletterstyleatlas/mail_" .. slot0.contextData.prefab)
+
+	if getProxy(LoveLetterProxy) and slot4:GetGroupData(slot0.contextData.groupId) then
+		if slot5:GetDisplayInfo() then
+			slot3("loveletterstyleatlas/" .. slot6.hand)
+			slot3("loveletterstyleatlas/" .. slot6.kiss)
+		end
+
+		if noEmptyStr(slot5:GetPainting()) then
+			PaintingGroupConst.AddPaintingNameWithFilteMap(slot2, slot7)
+		end
+	end
+
+	for slot9, slot10 in ipairs(slot2) do
+		if noEmptyStr(slot10) and not table.contains(slot1, slot10) then
+			table.insert(slot1, slot10)
+		end
+	end
+
+	return slot1
+end
+
 slot0.optionsPath = {}
 
 slot0.SetLoveLetter = function(slot0, slot1)

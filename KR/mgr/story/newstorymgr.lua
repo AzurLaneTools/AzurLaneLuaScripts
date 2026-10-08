@@ -1052,25 +1052,22 @@ slot0.Fix = function(slot0)
 end
 
 slot0._GetResList = function(slot0, slot1)
-	slot6 = slot0:_GetStoryPaintingsByName(slot1)
+	slot3 = slot0:_GetStoryPaintingsByName(slot1)
 
-	_.each(slot6, function (slot0)
-		PaintingGroupConst.AddPaintingNameWithFilteMap(uv0, slot0)
+	_.each(slot3, function (slot0)
+		table.insertto(uv0, ResPathSupport.GetPaintingListByPaintingName(slot0))
 	end)
-	_.each(slot6, function (slot0)
-		table.insert(uv0, "paintingface/" .. slot0)
+	_.each(slot3, function (slot0)
+		table.insertto(uv0, ResPathSupport.GetPaintingFaceListByPaintingName(slot0))
 	end)
 	_.each(slot1.steps, function (slot0)
-		_.each(slot0:GetResList(), function (slot0)
-			table.insert(uv0, slot0)
-		end)
+		table.insertto(uv0, slot0:GetResList())
 	end)
 
-	slot10 = SplitPackMediatorResMap.MergeLuaArr({}, {}, {})
-
-	table.insert(slot10, "ui/newstoryui")
-	table.insert(slot10, "ui/newstorydialogue" .. slot1:GetDialogueStyleName())
-	table.insert(slot10, "ui/newstoryrecordui")
-
-	return slot10
+	return ResPathSupport.MergeLuaArr({
+		"ui/newstoryui",
+		"ui/newstorydialogue" .. slot1:GetDialogueStyleName(),
+		"ui/newstoryrecordui",
+		"ui/story_atlas"
+	}, {}, {}, {})
 end

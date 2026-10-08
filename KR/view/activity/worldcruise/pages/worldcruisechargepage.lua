@@ -72,18 +72,22 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 end
 
+slot0.GetPassId = function(slot0)
+	return uv0.GetPassID()
+end
+
 slot0.ShowBuyWindow = function(slot0)
 	setActive(slot0.buyWindow, true)
 	setActive(slot0.unlcokWindow, false)
 	slot0:Show()
 
-	slot1 = uv0.GetPassID()
+	slot1 = slot0:GetPassId()
 
 	if slot0.passId and slot0.passId == slot1 then
 		return
 	end
 
-	slot0.passId = uv0.GetPassID()
+	slot0.passId = slot0:GetPassId()
 	slot2 = Goods.Create({
 		shop_id = slot0.passId
 	}, Goods.TYPE_CHARGE)
@@ -116,7 +120,7 @@ slot0.GetPassID = function()
 	end
 end
 
-slot0.ShowUnlockWindow = function(slot0, slot1)
+slot0.ShowUnlockWindow = function(slot0, slot1, slot2)
 	setActive(slot0.buyWindow, false)
 	setActive(slot0.unlcokWindow, true)
 	slot0:Show()
@@ -126,6 +130,8 @@ slot0.ShowUnlockWindow = function(slot0, slot1)
 			drop = uv1
 		})
 	end, SFX_CONFIRM)
+
+	slot0.onHide = slot2
 end
 
 slot0.Show = function(slot0)
@@ -136,9 +142,18 @@ end
 slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	uv0.super.Hide(slot0)
+
+	if slot0.onHide then
+		slot0.onHide()
+
+		slot0.onHide = nil
+	end
 end
 
 slot0.OnDestroy = function(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
 end
 
 return slot0

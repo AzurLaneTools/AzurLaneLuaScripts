@@ -11,37 +11,145 @@ slot0.getUIName = function(slot0)
 	return "NewShopUI"
 end
 
-slot0.preload = function(slot0, slot1)
-	slot3 = function()
-		slot1 = uv0:getChargedList()
-		slot2 = uv0:GetNormalList()
-		slot3 = uv0:GetNormalGroupList()
+slot0.getResource = function(slot0, slot1)
+	slot5 = function(slot0)
+		slot1 = {}
 
-		if uv0:getFirstChargeList() then
-			uv1:setFirstChargeIds(slot0)
+		for slot6, slot7 in ipairs(getProxy(ShopsProxy):GetAllShowGiftPackages(slot0)) do
+			if slot7:isChargeType() then
+				table.insert(slot1, "chargeicon/" .. slot7:getConfig("picture"))
+			else
+				table.insert(slot1, Item.getConfigData(slot7:getConfig("effect_args")[1]).icon)
+			end
 		end
 
-		if slot1 then
-			uv1:setChargedList(slot1)
-		end
-
-		if slot2 then
-			uv1:setNormalList(slot2)
-		end
-
-		if slot3 then
-			uv1:setNormalGroupList(slot3)
-		end
-
-		uv2()
+		return slot1
 	end
 
-	if getProxy(ShopsProxy):ShouldRefreshChargeList() then
-		pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
-			callback = slot3
-		})
-	else
-		slot3()
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+		(function ()
+			return "live2d/" .. Ship.New({
+				configId = 312011
+			}):getPainting()
+		end)(),
+		"ui/ChargeDiamondShopUI",
+		"ui/ChargeGiftShopUI",
+		"ui/ChargeItemShopUI",
+		"ui/ChargePickShopUI",
+		"ui/ShopSupplyShopUI",
+		"ui/iconcolorful",
+		"ui/ShopsUI_atlas",
+		"weaponframes",
+		"props/medal",
+		"shoppainting/buzhihuo_shop"
+	}, (function ()
+		slot0 = {}
+
+		slot2 = function(slot0)
+			if slot0 and slot0 ~= "" and not table.contains(uv0, slot0) then
+				table.insert(uv0, slot0)
+			end
+		end
+
+		for slot6, slot7 in ipairs(pg.pay_data_display.all) do
+			slot2("chargeicon/" .. pg.pay_data_display[slot7].picture)
+		end
+
+		return slot0
+	end)(), slot5(true), slot5(false), (function ()
+		slot0 = {}
+		slot1 = getProxy(PlayerProxy):getData()
+		slot2 = uv0 and uv0.normalGroupList or getProxy(ShopsProxy):GetNormalGroupList()
+
+		slot3 = function(slot0, slot1, slot2, slot3)
+			slot4, slot5, slot6 = ChargeConst.getGoodsLimitInfo(slot0)
+			slot8 = false
+
+			if not (slot1.effect_args == "ship_bag_size" and slot5 and slot6 and slot5 <= uv0:getMaxShipBagExcludeGuild() and slot9 <= slot6 or slot7 == "equip_bag_max" and slot5 and slot6 and slot5 <= uv0:getMaxEquipmentBag() and slot9 <= slot6 or slot7 == "commander_bag_size" and slot5 and slot6 and slot5 <= uv0.commanderBagMax and slot9 <= slot6 or true) then
+				return false
+			end
+
+			slot9 = Goods.Create({
+				count = 0,
+				shop_id = slot0
+			}, Goods.TYPE_MILITARY)
+
+			return slot9:IsShowWhenGroupSale(ChargeConst.getGroupLimit(slot3, slot9:getConfig("group")))
+		end
+
+		for slot7, slot8 in pairs(pg.shop_template.all) do
+			if pg.shop_template[slot8].genre == "gem_shop" and slot3(slot8, slot9, slot1, slot2) then
+				table.insert(slot0, uv1.GetShopTemplateDropIcon(slot9))
+			end
+		end
+
+		return slot0
+	end)(), (function ()
+		slot0 = {}
+		slot2 = pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SHOP_SELECTABLE]
+
+		for slot6, slot7 in ipairs(pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SHOP]) do
+			if pg.activity_template[slot7].config_client.painting then
+				if type(slot8) == "table" then
+					for slot12, slot13 in ipairs(slot8) do
+						table.insert(slot0, "shoppainting/" .. slot13)
+					end
+				elseif type(slot8) == "string" then
+					table.insert(slot0, "shoppainting/" .. slot8)
+				end
+			end
+		end
+
+		return ResPathSupport.UniqueLuaArr(slot0)
+	end)())
+end
+
+slot0.GetShopTemplateDropIcon = function(slot0)
+	slot2 = {}
+
+	return Drop.New((slot0.effect_args ~= "ship_bag_size" or {
+		count = 1,
+		type = DROP_TYPE_ITEM,
+		id = Goods.SHIP_BAG_SIZE_ITEM
+	}) and (slot1 ~= "equip_bag_size" or {
+		count = 1,
+		type = DROP_TYPE_ITEM,
+		id = Goods.EQUIP_BAG_SIZE_ITEM
+	}) and (slot1 ~= "commander_bag_size" or {
+		count = 1,
+		type = DROP_TYPE_ITEM,
+		id = Goods.COMMANDER_BAG_SIZE_ITEM
+	}) and (slot1 ~= "spweapon_bag_size" or {
+		count = 1,
+		type = DROP_TYPE_ITEM,
+		id = Goods.SPWEAPON_BAG_SIZE_ITEM
+	}) and {
+		type = slot0.type,
+		id = slot0.effect_args[1],
+		count = slot0.num
+	}):getIcon()
+end
+
+slot0.setList = function(slot0)
+	slot1 = getProxy(ShopsProxy)
+	slot3 = slot1:getChargedList()
+	slot4 = slot1:GetNormalList()
+	slot5 = slot1:GetNormalGroupList()
+
+	if slot1:getFirstChargeList() then
+		slot0:setFirstChargeIds(slot2)
+	end
+
+	if slot3 then
+		slot0:setChargedList(slot3)
+	end
+
+	if slot4 then
+		slot0:setNormalList(slot4)
+	end
+
+	if slot5 then
+		slot0:setNormalGroupList(slot5)
 	end
 end
 
@@ -479,7 +587,14 @@ slot0.ShowOrHideUI2 = function(slot0, slot1)
 end
 
 slot0.OnChargeSuccess = function(slot0, slot1)
-	slot0.chargeTipWindow:ExecuteAction("Show", slot1)
+	slot2 = slot0.chargeTipWindow
+
+	slot2:ExecuteAction("Show", slot1, function ()
+		slot0 = MainFetchPrevPeriodCrusingSequence.New()
+
+		slot0:Execute(function ()
+		end)
+	end)
 end
 
 slot0.LoadMingshi = function(slot0)

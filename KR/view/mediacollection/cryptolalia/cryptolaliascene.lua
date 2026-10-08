@@ -7,6 +7,47 @@ slot0.getUIName = function(slot0)
 	return "CryptolaliaUI"
 end
 
+slot0.GetAllCryptolaliaShipRes = function()
+	slot0 = {}
+
+	for slot5, slot6 in ipairs(pg.soundstory_template.all) do
+		if pg.soundstory_template[slot6] and slot7.ship_id then
+			table.insert(slot0, "CryptolaliaShip/" .. slot8)
+		end
+	end
+
+	return slot0
+end
+
+slot0.GetAllCryptolaliaAuditionRes = function()
+	slot0 = {}
+
+	for slot5, slot6 in ipairs(pg.soundstory_template.all) do
+		if pg.soundstory_template[slot6] then
+			slot9 = slot7.audition_resource_JP
+
+			if slot7.audition_resource_CN and slot8 ~= "" then
+				table.insert(slot0, "cue/" .. slot8 .. ".b")
+			end
+
+			if slot9 and slot9 ~= "" then
+				table.insert(slot0, "cue/" .. slot9 .. ".b")
+			end
+		end
+	end
+
+	return slot0
+end
+
+slot0.getResource = function(slot0, slot1)
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+		"ui/CryptolaliaUI_atlas",
+		"ui/CryptolaliaListui",
+		"ui/CryptolaliaPurchaseWindowui",
+		"ui/CryptolaliaResDeleteWindowui"
+	}, uv0.GetAllCryptolaliaShipRes(), uv0.GetAllCryptolaliaAuditionRes()))
+end
+
 slot0.SetCryptolaliaList = function(slot0, slot1)
 	slot0.cryptolaliaList = slot1
 end

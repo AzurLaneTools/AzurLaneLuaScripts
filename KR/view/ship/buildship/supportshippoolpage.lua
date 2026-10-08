@@ -1,5 +1,19 @@
 slot0 = class("SupportShipPoolPage", import("...base.BaseSubView"))
 
+slot0.getResource = function(slot0)
+	slot1 = {}
+
+	if pg.gametip.honor_medal_support_tips_display.tip and noEmptyStr(slot2.bg) then
+		table.insert(slot1, slot2.bg)
+	end
+
+	if slot0.contextData and slot0.contextData.falgShip or getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().character) then
+		table.insertto(slot1, ResPathSupport.GetPaintingListByPaintingName(slot3:getPainting()))
+	end
+
+	return table.insertto(slot1, uv0.super.getResource(slot0))
+end
+
 slot0.getUIName = function(slot0)
 	return "SupportShipPoolPageUI"
 end

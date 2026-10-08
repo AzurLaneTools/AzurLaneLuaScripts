@@ -55,7 +55,7 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:UpdateView()
 		end
 	elseif slot2 == GAME.CRUSING_CMD_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 		slot0.viewComponent:UpdateAwardPage()
 		slot0.viewComponent:UpdateView()
 	elseif slot2 == GAME.CHARGE_SUCCESS then

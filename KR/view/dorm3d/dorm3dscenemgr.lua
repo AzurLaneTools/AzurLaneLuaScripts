@@ -131,77 +131,48 @@ slot0.ChangeArtScene = function(slot0, slot1, slot2)
 	end
 
 	slot3 = {}
-	slot4 = false
-	slot5 = nil
-
-	if uv0.IsSameSceneInfo(slot1, slot0.sceneInfo) then
-		table.insert(slot3, function (slot0)
-			slot1, slot2 = uv0.ParseInfo(uv1.sceneInfo)
-
-			SceneManager.SetActiveScene(SceneManager.GetSceneByName(slot1))
-			uv1:EnableSceneDisplay(slot1, true)
-			slot0()
-		end)
-	else
-		slot4 = true
-
-		table.insert(slot3, function (slot0)
-			slot1 = pg.SceneAnimMgr.GetInstance()
-
-			slot1:Dorm3DSceneChange(function (slot0)
-				uv0 = slot0
-
-				uv1()
-			end)
-		end)
-
-		slot6, slot7 = uv0.ParseInfo(slot1)
-
-		table.insert(slot3, function (slot0)
-			slot1 = SceneOpMgr.Inst
-
-			slot1:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, LoadSceneMode.Additive, function (slot0, slot1)
-				SceneManager.SetActiveScene(slot0)
-
-				if getSceneRootTFDic(slot0).MainCamera then
-					setActive(slot2, false)
-				end
-
-				uv0()
-			end)
-		end)
-	end
-
-	if uv0.IsSameSceneInfo(slot0.artSceneInfo, slot0.sceneInfo) then
-		table.insert(slot3, function (slot0)
-			slot1, slot2 = uv0.ParseInfo(uv1.sceneInfo)
-
-			uv1:EnableSceneDisplay(slot1, false)
-			slot0()
-		end)
-	else
-		slot6, slot7 = uv0.ParseInfo(slot0.artSceneInfo)
-
-		table.insert(slot3, function (slot0)
-			slot1 = SceneOpMgr.Inst
-
-			slot1:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, function ()
-				existCall(uv0)
-			end)
-		end)
-	end
+	slot4 = nil
 
 	table.insert(slot3, function (slot0)
-		slot0()
+		slot1 = pg.SceneAnimMgr.GetInstance()
 
-		if uv0 then
+		slot1:Dorm3DSceneChange(function (slot0)
+			uv0 = slot0
+
 			uv1()
-		end
+		end)
 	end)
 
-	slot0.artSceneInfo = slot1
+	slot6, slot7 = uv0.ParseInfo(slot1)
 
-	seriesAsync(slot3, slot2)
+	table.insert(slot3, function (slot0)
+		slot1 = SceneOpMgr.Inst
+
+		slot1:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, LoadSceneMode.Additive, function (slot0, slot1)
+			SceneManager.SetActiveScene(slot0)
+
+			if getSceneRootTFDic(slot0).MainCamera then
+				setActive(slot2, false)
+			end
+
+			uv0()
+		end)
+	end)
+
+	slot8, slot9 = uv0.ParseInfo(slot0.artSceneInfo)
+
+	table.insert(slot3, function (slot0)
+		SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, slot0)
+	end)
+	table.insert(slot3, function (slot0)
+		uv0.artSceneInfo = uv1
+
+		slot0()
+	end)
+	seriesAsync(slot3, function ()
+		existCall(uv0)
+		existCall(uv1)
+	end)
 end
 
 slot0.ChangeSubScene = function(slot0, slot1, slot2)
@@ -244,15 +215,14 @@ slot0.ChangeSubScene = function(slot0, slot1, slot2)
 	end
 
 	table.insert(slot3, function (slot0)
+		uv0.subSceneInfo = uv1
+
 		slot0()
 
-		if uv0 then
-			uv1()
+		if uv2 then
+			uv3()
 		end
 	end)
-
-	slot0.subSceneInfo = slot1
-
 	seriesAsync(slot3, slot2)
 end
 

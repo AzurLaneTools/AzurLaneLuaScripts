@@ -4,6 +4,17 @@ slot0.getUIName = function(slot0)
 	return "ShipFashionView"
 end
 
+slot0.getFashionResList = function(slot0, slot1)
+	slot2 = {}
+	slot3 = slot0.isShareSkinFlag and slot0:GetShareSkins(slot1) or slot0.shareData:GetGroupSkinList(slot1.groupId)
+
+	for slot7, slot8 in ipairs(slot3) do
+		table.insertto(slot2, ResPathSupport.GetPaintingListByPaintingName(slot8.painting))
+	end
+
+	return slot2
+end
+
 slot0.OnInit = function(slot0)
 	slot0:InitFashion()
 end
@@ -100,6 +111,16 @@ slot0.GetShareSkins = function(slot0, slot1)
 end
 
 slot0.UpdateAllFashion = function(slot0, slot1)
+	SplitPackConst.DownloadByLuaArr(slot0:getFashionResList(slot0:GetShipVO()), function ()
+		if uv0.exited then
+			return
+		end
+
+		uv0:updateAllFashion(uv1)
+	end)
+end
+
+slot0.updateAllFashion = function(slot0, slot1)
 	slot3 = slot0:GetShipVO().groupId
 	slot0.fashionSkins = slot0.isShareSkinFlag and slot0:GetShareSkins(slot2) or slot0.shareData:GetGroupSkinList(slot3)
 

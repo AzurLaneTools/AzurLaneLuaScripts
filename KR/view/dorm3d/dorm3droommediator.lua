@@ -30,7 +30,6 @@ slot0.ENTER_CARWASH = "Dorm3dRoomMediator.ENTER_CARWASH"
 slot0.ON_DROP_CLIENT = "Dorm3dRoomMediator.ON_DROP_CLIENT"
 slot0.UPDATE_FAVOR_DISPLAY = "Dorm3dRoomMediator.UPDATE_FAVOR_DISPLAY"
 slot0.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE = "Dorm3dRoomMediator.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE"
-slot0.REFRESH_FURNITURE_AND_SLOTS_DONE = "Dorm3dRoomMediator.REFRESH_FURNITURE_AND_SLOTS_DONE"
 slot0.REMOVE_EXTRA_SYSTEM = "Dorm3dRoomMediator.REMOVE_EXTRA_SYSTEM"
 
 slot0.register = function(slot0)
@@ -203,9 +202,6 @@ slot0.register = function(slot0)
 			data = slot1
 		}))
 	end)
-	slot0:bind(uv0.REFRESH_FURNITURE_AND_SLOTS_DONE, function (slot0)
-		uv0:sendNotification(uv1.REFRESH_FURNITURE_AND_SLOTS_DONE)
-	end)
 	slot0:bind(uv0.REMOVE_EXTRA_SYSTEM, function (slot0, slot1)
 		uv0:removeSubLayers(slot1)
 	end)
@@ -329,7 +325,7 @@ slot0.initNotificationHandleDic = function(slot0)
 			onNextTick(function ()
 				uv0.viewComponent:RefreshSlots()
 			end)
-			slot0.viewComponent:UpdateContactState()
+			slot0.viewComponent:emit(CollectionSystem.UPDATE_CONTACT_STATE, slot0.contextData.timeIndex)
 		end,
 		[GAME.APARTMENT_GIVE_GIFT_DONE] = function (slot0, slot1)
 			slot0.viewComponent:PlayHeartFX(slot1:getBody().groupId)

@@ -1276,6 +1276,16 @@ slot1 = {
 				WorldConst.ReqWorldCheck(slot0)
 			end)
 			table.insert(slot3, function (slot0)
+				if nowWorld():CheckReset() and getProxy(ChapterAutoProxy):HasTypeCommission(ChapterAutoProxy.TYPE.WORLD) then
+					pg.m02:sendNotification(GAME.END_CHAPTER_AUTO, {
+						isReset = true,
+						callback = slot0
+					})
+				else
+					slot0()
+				end
+			end)
+			table.insert(slot3, function (slot0)
 				if nowWorld():CheckReset(true) then
 					slot2 = pg.ConnectionMgr.GetInstance()
 
@@ -1412,14 +1422,28 @@ slot1 = {
 		})
 	end,
 	NewShopMainMediator = function (slot0, slot1)
-		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
-			callback = function (slot0)
-				uv0.context:extendData({
-					supplyShopList = slot0
+		slot2 = {}
+
+		table.insert(slot2, function (slot0)
+			pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
+				callback = function (slot0)
+					uv0.context:extendData({
+						supplyShopList = slot0
+					})
+					uv1()
+				end
+			})
+		end)
+		table.insert(slot2, function (slot0)
+			if getProxy(ShopsProxy):ShouldRefreshChargeList() then
+				pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
+					callback = slot0
 				})
-				uv1()
+			else
+				slot0()
 			end
-		})
+		end)
+		seriesAsync(slot2, slot1)
 	end,
 	SixthAnniversaryIslandShopMediator = function (slot0, slot1)
 		slot3 = getProxy(ActivityProxy)
@@ -1779,6 +1803,19 @@ slot1 = {
 			})
 		end)
 		seriesAsync(slot2, slot1)
+	end,
+	RefluxMediator = function (slot0, slot1)
+		slot2 = {}
+
+		if getProxy(ShopsProxy):ShouldRefreshChargeList() then
+			table.insert(slot2, function (slot0)
+				pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
+					callback = slot0
+				})
+			end)
+		end
+
+		seriesAsync(slot2, slot1)
 	end
 }
 
@@ -1802,5 +1839,28 @@ SCENE.CheckPreloadData = function(slot0, slot1)
 		end)
 	end
 
+	table.insert(slot2, function (slot0)
+		slot1 = uv0.context.data
+		slot3 = setmetatable({
+			contextData = slot1
+		}, {
+			__index = uv0.context.viewComponent
+		})
+		slot3 = slot3:getResource(slot1)
+		slot4, slot5 = pcall(function ()
+			SplitPackConst.DownloadByLuaArr(uv0, uv1, {
+				showMask = true
+			})
+		end)
+
+		if not slot4 then
+			warning(string.format([[
+Split pack resource download failed: 
+%s 
+in %s
+]], tostring(slot5), slot2.__cname))
+			slot0()
+		end
+	end)
 	seriesAsync(slot2, slot1)
 end

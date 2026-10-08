@@ -36,7 +36,14 @@ pg.dorm3d_scene_animator.all = {
 	3002,
 	3003,
 	3004,
-	3005
+	3005,
+	4001,
+	4002,
+	4003,
+	4004,
+	4005,
+	4006,
+	4007
 }
 pg.dorm3d_scene_animator.get_id_list_by_room_id = {
 	{
@@ -90,6 +97,15 @@ pg.dorm3d_scene_animator.get_id_list_by_room_id = {
 		3003,
 		3004,
 		3005
+	},
+	[22] = {
+		4001,
+		4002,
+		4003,
+		4004,
+		4005,
+		4006,
+		4007
 	}
 }
 pg.base = pg.base or {}
@@ -265,5 +281,40 @@ pg.base.dorm3d_scene_animator = {}
 		id = 3005,
 		room_id = 21,
 		item_name = "FurnitureSlots/2210201/pre_db_naximofu_basement01(Clone)/all/fbx_db_nxmf_equipment01/vfx_desk02"
+	}
+	pg.base.dorm3d_scene_animator[4001] = {
+		id = 4001,
+		room_id = 22,
+		item_name = "no_bake_pay_prop/livingroom/pre_db_yc_livingroom01_0/pre_db_yc_chair01_0"
+	}
+	pg.base.dorm3d_scene_animator[4002] = {
+		id = 4002,
+		room_id = 22,
+		item_name = "FurnitureSlots/2220202/pre_db_yuanchou01_chamber02(Clone)/pre_db_yc_table01"
+	}
+	pg.base.dorm3d_scene_animator[4003] = {
+		id = 4003,
+		room_id = 22,
+		item_name = "FurnitureSlots/2220202/pre_db_yuanchou01_chamber02(Clone)/pre_db_yc_table01/vfx_bomb01"
+	}
+	pg.base.dorm3d_scene_animator[4004] = {
+		id = 4004,
+		room_id = 22,
+		item_name = "FurnitureSlots/2220202/pre_db_yuanchou01_chamber02(Clone)/pre_db_yc_table01/vfx_bomb02"
+	}
+	pg.base.dorm3d_scene_animator[4005] = {
+		id = 4005,
+		room_id = 22,
+		item_name = "FurnitureSlots/2220202/pre_db_yuanchou01_chamber02(Clone)/pre_db_yc_table01/vfx_bomb_g"
+	}
+	pg.base.dorm3d_scene_animator[4006] = {
+		id = 4006,
+		room_id = 22,
+		item_name = "FurnitureSlots/2220202/pre_db_yuanchou01_chamber02(Clone)/pre_db_yc_table01/all/Bone_PZ1/vfx_moping"
+	}
+	pg.base.dorm3d_scene_animator[4007] = {
+		id = 4007,
+		room_id = 22,
+		item_name = "FurnitureSlots/2220202/pre_db_yuanchou01_chamber02(Clone)/pre_db_yc_table01/all/bone_all/bone_yc_cup_01/bone_yc_cup_02/bone_yc_cup_03/vfx_bomb03"
 	}
 end)()

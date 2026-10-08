@@ -4,6 +4,29 @@ slot0.getUIName = function(slot0)
 	return "SpWeaponDesignUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	_.each(pg.spweapon_data_statistics.all, function (slot0)
+		if SpWeapon.New({
+			id = slot0
+		}):IsCraftable() then
+			table.insert(uv0, slot1:GetIconPath())
+		end
+	end)
+
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+		"ui/SpWeaponDesignUI",
+		"bg/equipment_bg_1",
+		"bg/equipment_bg_2",
+		"bg/equipment_bg_3",
+		"bg/equipment_bg_4",
+		"bg/equipment_bg_5",
+		"bg/equipment_bg_6",
+		"ui/equipmentdesignui_atlas",
+		"ui/share/index_atlas",
+		"weaponframes"
+	}, {})
+end
+
 slot0.SetCraftList = function(slot0, slot1)
 	slot0.craftList = slot1
 end

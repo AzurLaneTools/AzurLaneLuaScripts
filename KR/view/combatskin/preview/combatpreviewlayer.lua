@@ -7,6 +7,26 @@ slot0.getUIName = function(slot0)
 	return "CombatPreviewUI"
 end
 
+slot0.PushAllResource = function()
+	slot0 = {}
+
+	slot1 = function(slot0)
+		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+			table.insert(uv0, slot0)
+		end
+	end
+
+	for slot5, slot6 in ipairs(pg.item_data_battleui.all) do
+		if pg.item_data_battleui[slot6] and noEmptyStr(slot7.key) then
+			slot1("ui/CombatUI" .. slot7.key)
+			slot1("ui/CombatHPBar" .. slot7.key)
+			slot1(ys.Battle.BattleResourceManager.GetUIPath("CombatHPPop" .. slot7.key))
+		end
+	end
+
+	return slot0
+end
+
 slot0.OnInit = function(slot0)
 	slot0.OverlayMain = pg.UIMgr.GetInstance().OverlayMain
 

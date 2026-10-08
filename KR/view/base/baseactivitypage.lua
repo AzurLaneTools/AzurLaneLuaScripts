@@ -57,6 +57,23 @@ slot0.SwitchOut = function(slot0, slot1)
 	slot1()
 end
 
+slot0.getResource = function(slot0)
+	slot1 = {
+		"ui/" .. slot0:getUIName()
+	}
+	slot2 = {}
+
+	slot0:emit(ActivityMainScene.GET_PAGE_BGM, slot0.__cname, slot2)
+
+	if slot2.bgm then
+		_.each(ResPathSupport.GetSoundResList(slot2.bgm), function (slot0)
+			table.insert(uv0, slot0)
+		end)
+	end
+
+	return slot1
+end
+
 slot0.OnInit = function(slot0)
 end
 

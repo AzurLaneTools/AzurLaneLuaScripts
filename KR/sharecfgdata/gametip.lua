@@ -36337,6 +36337,11 @@ _G.pg.base.gametip.cruise_btn_pay = {
 }
 
 
+_G.pg.base.gametip.cruise_btn_pay_prev = {
+	tip = "解锁上期特许巡游奖励"
+}
+
+
 _G.pg.base.gametip.cruise_btn_all = {
 	tip = "일괄 수령"
 }
@@ -51407,6 +51412,86 @@ _G.pg.base.gametip.auto_battle_help = {
 }
 
 
+_G.pg.base.gametip.auto_battle_in_world = {
+	tip = "수행 중인 위임 작전이 있으므로 작전을 새로 위임할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_award = {
+	tip = "위임 획득"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_level = {
+	tip = "위임할 침공 레벨"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_quantity = {
+	tip = "해역 수량 선택"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_progress = {
+	tip = "완료 진척도"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_cancel_tip = {
+	tip = "작업 위임을 취소하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_in_progress = {
+	tip = "위임 작전 수행 중"
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip1 = {
+	tip = "수행 중인 위임 작전이 있습니다."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip2 = {
+	tip = "자원이 부족해서 위임할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip3 = {
+	tip = "위임할 수 있는 해역이 없습니다."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip4 = {
+	tip = "대형 작전이 초기화됩니다. 아직 수령하지 않은 위임 보상은 창고로 발송됩니다."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip5 = {
+	tip = "침공 레벨 6의 일반 해역을 확보한 후, 상점에서 「비밀 해역 정보 기록 장치」를 구매하면 오픈할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.world_auto_plan_error_tip6 = {
+	tip = "대형 작전이 초기화됩니다. 수행 중인 위임 작전을 중지하고 보상을 정산하시겠습니까? \n\n일부 위임 작전이 아직 진행 중이므로, 작전이 완료된 후에 초기화하는 것을 권장합니다. 작전이 중지되면 현 시점의 보상이 정산되며, 대형 작전이 초기화됩니다."
+}
+
+
+_G.pg.base.gametip.world_auto_buy_unlock = {
+	tip = "<icon name=lock />  <icon name=icon w=0.3 h=0.3 /> 구매 시 오픈"
+}
+
+
+_G.pg.base.gametip.world_auto_level_less_3 = {
+	tip = "3 이하"
+}
+
+
+_G.pg.base.gametip.world_auto_level_all = {
+	tip = "전체"
+}
+
+
 _G.pg.base.gametip.reverse_pacman_no_char = {
 	tip = "먼저 「<color=#92fc63>한정 임무</color>」에서 한정 임무를 오픈하고, 「<color=#92fc63>동료 오픈</color>」에서 동료를 오픈하세요!"
 }
@@ -51483,4 +51568,44 @@ _G.pg.base.gametip.cruise_task_help_2610 = {
 
 _G.pg.base.gametip.cruise_title_2610 = {
 	tip = "월드 투어·31기"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_table = {
+	tip = "밀실"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_chair = {
+	tip = "거실"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_bed = {
+	tip = "침실"
+}
+
+
+_G.pg.base.gametip.auto_download_tip = {
+	tip = "자동 리소스 다운로드가 시작되었습니다($1). 데이터 통신량에 주의하시기 바랍니다. \n\n리소스 다운로드 진행 상황은 「설정」→「리소스」→「리소스 관리」에서 확인할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.auto_download_btn = {
+	tip = "설정으로 이동"
+}
+
+
+_G.pg.base.gametip.setting_download_basic_assets = {
+	tip = "기본 리소스 다운로드"
+}
+
+
+_G.pg.base.gametip.setting_restart_download_btn = {
+	tip = "다운로드 재개"
+}
+
+
+_G.pg.base.gametip.loading_flow_tip = {
+	tip = "모바일 데이터로 리소스를 다운로드하고 있습니다. 데이터 통신량에 주의하시기 바랍니다."
 }

@@ -819,25 +819,26 @@ slot0.UpdateMeshPainting = function(slot0, slot1, slot2, slot3, slot4, slot5)
 			slot11 = -slot11
 		end
 
+		slot2.localEulerAngles = Vector3(0, 0, slot1:GetPaintingZRotation())
 		slot2.localScale = Vector3(slot10, slot11, 1)
-		slot12 = findTF(slot2, "fitter"):GetChild(0)
-		slot12.name = slot6
+		slot13 = findTF(slot2, "fitter"):GetChild(0)
+		slot13.name = slot6
 
 		slot0:UpdateActorPostion(slot2, slot1)
-		slot0:UpdateExpression(slot12, slot1)
-		slot0:AddGlitchArtEffectForPating(slot2, slot12, slot1)
+		slot0:UpdateExpression(slot13, slot1)
+		slot0:AddGlitchArtEffectForPating(slot2, slot13, slot1)
 		slot2:SetAsLastSibling()
 
 		if slot1:ShouldGrayPainting() then
-			setGray(slot12, true, true)
+			setGray(slot13, true, true)
 		end
 
-		if findTF(slot12, "shadow") then
-			setActive(slot13, slot1:ShouldFaceBlack())
+		if findTF(slot13, "shadow") then
+			setActive(slot14, slot1:ShouldFaceBlack())
 		end
 
 		if slot1:GetPaintingAlpha() then
-			slot0:setPaintingAlpha(slot2, slot14)
+			slot0:setPaintingAlpha(slot2, slot15)
 		end
 	end
 

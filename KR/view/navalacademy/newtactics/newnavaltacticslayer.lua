@@ -10,6 +10,64 @@ slot0.getUIName = function(slot0)
 	return "NewNavalTacticsUI"
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot3 = function(slot0, slot1)
+		if noEmptyStr(slot1) and not table.contains(slot0, slot1) then
+			table.insert(slot0, slot1)
+		end
+	end
+
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+		"ui/newnavaltacticsui"
+	}, (function ()
+		slot0 = {}
+
+		slot1 = function(slot0)
+			slot1 = ipairs
+			slot2 = slot0:getSkillList() or {}
+
+			for slot4, slot5 in slot1(slot2) do
+				uv0(uv1, "skillicon/" .. ShipSkill.New(slot0.skills[slot5], slot0.id):GetIcon())
+			end
+		end
+
+		slot2 = function(slot0)
+			uv0(uv1, Item.getConfigData(slot0.id).icon)
+		end
+
+		slot4 = getProxy(BayProxy)
+		slot5 = pairs
+		slot6 = getProxy(NavalAcademyProxy):RawGetStudentList() or {}
+
+		for slot8, slot9 in slot5(slot6) do
+			if slot4:RawGetShipById(slot9.shipId) then
+				slot1(slot10)
+				table.insertto(slot0, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot10:getPainting()))
+				table.insert(slot0, string.format(ResPathSupport.ConstPath.BG.ShipCard, slot10:rarity2bgPrint()))
+			end
+		end
+
+		slot5 = pairs
+		slot6 = slot4:getRawData() or {}
+
+		for slot8, slot9 in slot5(slot6) do
+			slot1(slot9)
+		end
+
+		slot5 = ipairs
+		slot6 = getProxy(BagProxy):getItemsByType(Item.LESSON_TYPE) or {}
+
+		for slot8, slot9 in slot5(slot6) do
+			slot2(slot9)
+		end
+
+		uv0(slot0, "template/shipcardtpl")
+		uv0(slot0, "clutter/class_painting")
+
+		return slot0
+	end)())
+end
+
 slot0.OnUnlockSlot = function(slot0)
 	if slot0.studentsPage:GetLoaded() then
 		slot0.studentsPage:OnUnlockSlot()
