@@ -40617,6 +40617,332 @@ _G.pg.base.spweapon_data_statistics[15530] = {
 }
 
 
+_G.pg.base.spweapon_data_statistics[15680] = {
+	attribute_1 = "cannon",
+	name = "航海家的秘典",
+	type = 10,
+	tech = 0,
+	value_1_random = 5,
+	rarity = 4,
+	effect_id_display = 902230,
+	value_2_random = 5,
+	effect_id = 902230,
+	attribute_2 = "hit",
+	next = 15681,
+	upgrade_id = 101,
+	value_2 = 5,
+	icon = "15680",
+	value_1 = 20,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	uncraftable = 0,
+	unique = 960001,
+	important = 2,
+	prev = 0,
+	id = 15680,
+	usability = {
+		22
+	},
+	skill_upgrade = {
+		{
+			0,
+			1016180
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15681] = {
+	upgrade_id = 102,
+	prev = 15680,
+	next = 15682,
+	base = 15680,
+	id = 15681,
+	value_2 = 6,
+	value_1 = 21,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15682] = {
+	upgrade_id = 103,
+	prev = 15681,
+	next = 15683,
+	base = 15680,
+	id = 15682,
+	value_2 = 7,
+	value_1 = 22,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15683] = {
+	upgrade_id = 104,
+	prev = 15682,
+	next = 15684,
+	base = 15680,
+	id = 15683,
+	value_2 = 8,
+	value_1 = 23,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15684] = {
+	upgrade_id = 105,
+	prev = 15683,
+	next = 15685,
+	base = 15680,
+	id = 15684,
+	value_2 = 9,
+	value_1 = 24,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15685] = {
+	upgrade_id = 106,
+	prev = 15684,
+	next = 15686,
+	base = 15680,
+	id = 15685,
+	value_2 = 10,
+	value_1 = 25,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15686] = {
+	upgrade_id = 107,
+	prev = 15685,
+	next = 15687,
+	base = 15680,
+	id = 15686,
+	value_2 = 11,
+	value_1 = 26,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15687] = {
+	upgrade_id = 108,
+	prev = 15686,
+	next = 15688,
+	base = 15680,
+	id = 15687,
+	value_2 = 12,
+	value_1 = 27,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15688] = {
+	upgrade_id = 109,
+	prev = 15687,
+	next = 15689,
+	base = 15680,
+	id = 15688,
+	value_2 = 13,
+	value_1 = 28,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15689] = {
+	upgrade_id = 110,
+	prev = 15688,
+	next = 15690,
+	base = 15680,
+	id = 15689,
+	value_2 = 14,
+	value_1 = 29,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15690] = {
+	id = 15690,
+	upgrade_id = 111,
+	base = 15680,
+	next = 0,
+	prev = 15689,
+	value_2 = 15,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			16180,
+			1016180
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15700] = {
+	attribute_1 = "cannon",
+	name = "GB的淑女帽",
+	type = 1,
+	tech = 0,
+	value_1_random = 5,
+	rarity = 4,
+	effect_id_display = 901010,
+	value_2_random = 20,
+	effect_id = 901010,
+	attribute_2 = "durability",
+	next = 15701,
+	upgrade_id = 101,
+	value_2 = 100,
+	icon = "15700",
+	value_1 = 20,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	uncraftable = 0,
+	unique = 60103,
+	important = 2,
+	prev = 0,
+	id = 15700,
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1014030
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15701] = {
+	upgrade_id = 102,
+	prev = 15700,
+	next = 15702,
+	base = 15700,
+	id = 15701,
+	value_2 = 105,
+	value_1 = 21,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15702] = {
+	upgrade_id = 103,
+	prev = 15701,
+	next = 15703,
+	base = 15700,
+	id = 15702,
+	value_2 = 110,
+	value_1 = 22,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15703] = {
+	upgrade_id = 104,
+	prev = 15702,
+	next = 15704,
+	base = 15700,
+	id = 15703,
+	value_2 = 115,
+	value_1 = 23,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15704] = {
+	upgrade_id = 105,
+	prev = 15703,
+	next = 15705,
+	base = 15700,
+	id = 15704,
+	value_2 = 120,
+	value_1 = 24,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15705] = {
+	upgrade_id = 106,
+	prev = 15704,
+	next = 15706,
+	base = 15700,
+	id = 15705,
+	value_2 = 125,
+	value_1 = 25,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15706] = {
+	upgrade_id = 107,
+	prev = 15705,
+	next = 15707,
+	base = 15700,
+	id = 15706,
+	value_2 = 130,
+	value_1 = 26,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15707] = {
+	upgrade_id = 108,
+	prev = 15706,
+	next = 15708,
+	base = 15700,
+	id = 15707,
+	value_2 = 135,
+	value_1 = 27,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15708] = {
+	upgrade_id = 109,
+	prev = 15707,
+	next = 15709,
+	base = 15700,
+	id = 15708,
+	value_2 = 140,
+	value_1 = 28,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15709] = {
+	upgrade_id = 110,
+	prev = 15708,
+	next = 15710,
+	base = 15700,
+	id = 15709,
+	value_2 = 145,
+	value_1 = 29,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15710] = {
+	id = 15710,
+	upgrade_id = 111,
+	base = 15700,
+	next = 0,
+	prev = 15709,
+	value_2 = 150,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			14030,
+			1014030
+		}
+	}
+}
+
+
 _G.pg.base.spweapon_data_statistics[15580] = {
 	attribute_1 = "air",
 	name = "粒子存储器",

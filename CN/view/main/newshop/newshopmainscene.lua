@@ -1180,22 +1180,46 @@ slot0.DisposeSkinToggleList = function(slot0)
 end
 
 slot0.GetSkinShopList = function(slot0)
-	slot1 = Clone(pg.shop_skin_subsheet.get_id_list_by_type[0])
+	for slot5 = #Clone(pg.shop_skin_subsheet.get_id_list_by_type[0]), 1, -1 do
+		slot7 = {}
 
-	if #getProxy(ShipSkinProxy):GetInTimeSkins() <= 0 then
-		table.remove(slot1, 1)
+		if slot1[slot5] == ShopConst.NEW_SKIN_SHOP_ID then
+			slot7 = getProxy(ShipSkinProxy):GetInTimeSkins()
+		elseif slot6 == ShopConst.PERMANANT_SKIN_SHOP_ID then
+			slot7 = getProxy(ShipSkinProxy):GetPermanentSkins()
+		end
+
+		if LOCK_SKIN_US then
+			slot9 = pg.gameset.levellimit_skintype.description
+
+			if getProxy(PlayerProxy):getData().level <= pg.gameset.levellimit_skintype.key_value then
+				slot7 = _.filter(slot7, function (slot0)
+					return table.contains(uv0, pg.ship_skin_template[slot0:getSkinId()].shop_type_id)
+				end)
+			end
+		end
+
+		for slot11 = #slot7, 1, -1 do
+			if slot7[slot11]:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
+				table.remove(slot7, slot11)
+			end
+		end
+
+		if #slot7 <= 0 then
+			table.remove(slot1, 1)
+		end
 	end
 
-	slot3 = pg.TimeMgr.GetInstance()
-	slot4 = getProxy(ShipSkinProxy):GetAllSkins()
-	slot5 = ipairs
-	slot6 = pg.shop_skin_subsheet.get_id_list_by_type[1] or {}
+	slot2 = pg.TimeMgr.GetInstance()
+	slot3 = getProxy(ShipSkinProxy):GetAllSkins()
+	slot4 = ipairs
+	slot5 = pg.shop_skin_subsheet.get_id_list_by_type[1] or {}
 
-	for slot8, slot9 in slot5(slot6) do
-		if slot3:inTime(pg.shop_skin_subsheet[slot9].time) then
-			for slot14, slot15 in ipairs(slot4) do
-				if table.keyof(slot10.param, slot15.id) then
-					table.insert(slot1, slot9)
+	for slot7, slot8 in slot4(slot5) do
+		if slot2:inTime(pg.shop_skin_subsheet[slot8].time) then
+			for slot13, slot14 in ipairs(slot3) do
+				if table.keyof(slot9.param, slot14.id) then
+					table.insert(slot1, slot8)
 
 					break
 				end

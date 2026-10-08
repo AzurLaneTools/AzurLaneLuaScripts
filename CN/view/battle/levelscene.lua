@@ -337,6 +337,39 @@ slot0.initUI = function(slot0)
 	slot0:SwitchMapBuilder(MapBuilder.TYPENORMAL)
 end
 
+slot0.LoadEntranceActivityBg = function(slot0)
+	if not slot0.entranceActivity:getConfig("config_client").entrance_bg then
+		return
+	end
+
+	slot2 = "activitybanner"
+
+	if string.sub(slot1, 1, #slot2) == slot2 then
+		slot1 = "MainUIBanner" .. string.sub(slot1, #slot2 + 1)
+	end
+
+	slot0.entranceActivityBgPath = slot1
+	slot3 = pg.PoolMgr.GetInstance()
+
+	slot3:GetPrefab(slot1, "", true, function (slot0)
+		if uv0.exited then
+			pg.PoolMgr.GetInstance():ReturnPrefab(uv1, "", slot0)
+
+			return
+		end
+
+		uv0.entranceActivityBg = slot0
+
+		setParent(slot0.transform, uv0.entranceLayer:Find("enters/enter_ready/activity"))
+		setText(slot0.transform:Find("Text"), uv0.entranceActivity:GetActivityTimeStr(true))
+
+		slot0.transform.anchorMin = Vector2.zero
+		slot0.transform.anchorMax = Vector2.one
+		slot0.transform.offsetMin = Vector2.zero
+		slot0.transform.offsetMax = Vector2.zero
+	end)
+end
+
 slot0.initEvents = function(slot0)
 	slot0:bind(LevelUIConst.OPEN_COMMANDER_PANEL, function (slot0, slot1, slot2, slot3)
 		uv0:openCommanderPanel(slot1, slot2, slot3)
@@ -437,10 +470,11 @@ slot0.updateActivityRes = function(slot0)
 
 	if findTF(slot0.ptTotal, "Text") and slot2 and slot0.ptActivity then
 		setText(slot1, "x" .. slot0.ptActivity.data1)
-		GetImageSpriteFromAtlasAsync(Drop.New({
-			type = DROP_TYPE_RESOURCE,
-			id = tonumber(slot0.ptActivity:getConfig("config_id"))
-		}):getIcon(), "", slot2, true)
+
+		slot3 = slot0.ptActivity:GetPTDrop():getIcon()
+
+		GetImageSpriteFromAtlasAsync(slot3, "", slot2, true)
+		GetImageSpriteFromAtlasAsync(slot3, "", slot0.actExchangeShopBtn:Find("icon"), true)
 	end
 end
 
@@ -638,8 +672,8 @@ slot0.didEnter = function(slot0)
 	setActive(slot0.entranceLayer:Find("enters/enter_ready/nothing"), not tobool(slot0.entranceActivity))
 	setActive(slot0.entranceLayer:Find("enters/enter_ready/activity"), tobool(slot0.entranceActivity))
 
-	if tobool(slot0.entranceActivity) and slot0.entranceActivity:getConfig("config_client").entrance_bg then
-		GetImageSpriteFromAtlasAsync(slot1, "", slot0.entranceLayer:Find("enters/enter_ready/activity"), true)
+	if tobool(slot0.entranceActivity) then
+		slot0:LoadEntranceActivityBg()
 	end
 
 	slot0:updateRightPanel()
@@ -1239,11 +1273,8 @@ slot0.updateActivityBtns = function(slot0)
 		setActive(slot0.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not slot4 and slot3 and slot0:IsActShopActive())
 
 		slot13 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
-		slot14 = slot13 and not slot13:isEnd() and slot13:GetConfigClientSetting("PTID")
 
-		slot0:updatePtActivity(underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
-			return slot0:getConfig("config_id") == uv0
-		end))
+		slot0:updatePtActivity(slot13 and slot13:GetConfigClientPTActivity() or nil)
 		setActive(slot0.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot4 and slot3 and slot0.ptActivity and not slot0.ptActivity:isEnd())
 	else
 		setActive(slot0.actExtraBtn, false)
@@ -3575,11 +3606,9 @@ slot0.IsActShopActive = function(slot0)
 		return true
 	end
 
-	slot5 = getProxy(ActivityProxy)
+	slot4 = slot1 and slot1:GetConfigClientPTActivity() or nil
 
-	if _.detect(slot5:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
-		return not slot0:isEnd() and slot0:getConfig("config_client").pt_id == uv0
-	end) then
+	if slot4 and getProxy(ActivityProxy):GetShopActivityByRes(slot4:GetPTDrop()) or nil then
 		return true
 	end
 end
@@ -3629,6 +3658,13 @@ end
 slot0.willExit = function(slot0)
 	slot0:ClearMapTransitions()
 	slot0.loader:Clear()
+
+	if slot0.entranceActivityBg then
+		pg.PoolMgr.GetInstance():ReturnPrefab(slot0.entranceActivityBgPath, "", slot0.entranceActivityBg)
+
+		slot0.entranceActivityBg = nil
+		slot0.entranceActivityBgPath = nil
+	end
 
 	if slot0.contextData.chapterVO then
 		slot0:UnOverlayPanel(slot0.topPanel, slot0._tf)

@@ -2,6 +2,39 @@ slot0 = class("StarLightMedalAlbumView", import("view.base.BaseUI"))
 slot0.ICON_SCALE = 1.35
 slot0.MEDAL_COUNT = 8
 
+slot1 = function(slot0)
+	return _.any(pg.activity_template[slot0.id].config_data, function (slot0)
+		return Task.New({
+			id = slot0
+		}):HasActMedalAward()
+	end)
+end
+
+slot2 = function()
+	for slot4, slot5 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASKS)) do
+		if uv0(slot5) then
+			return slot5
+		end
+	end
+
+	return nil
+end
+
+slot0.GetHelpTips = function(slot0)
+	if not uv0() then
+		return ""
+	end
+
+	slot3 = string.split(slot1:GetActivityTimeStr(), "-")
+	slot4 = pg.gametip.help_starLightAlbum.tip
+
+	_.each(slot4, function (slot0)
+		slot0.info = string.gsub(slot0.info, "$1", uv0[2])
+	end)
+
+	return slot4
+end
+
 slot0.getResource = function(slot0, slot1)
 	slot2 = {}
 
@@ -130,9 +163,13 @@ slot0.AddListener = function(slot0)
 		uv0:closeView()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
+		if not uv0:GetHelpTips() or slot0 == "" then
+			return
+		end
+
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip[uv0.HELP_TIPS].tip
+			helps = slot0
 		})
 	end)
 	onButton(slot0, slot0.medalLock, function ()

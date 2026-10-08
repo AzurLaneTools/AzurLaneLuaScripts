@@ -948,6 +948,10 @@ slot0.updateMedalList = function(slot0, slot1)
 	end
 end
 
+slot0.getActivityMedalExist = function(slot0, slot1)
+	return slot0.activityMedalGroupList[pg.activity_medal_template[slot1].group] and slot0.activityMedalGroupList[slot2]:OwnMedel(slot1)
+end
+
 slot0.getActivityMedalGroup = function(slot0)
 	return slot0.activityMedalGroupList
 end

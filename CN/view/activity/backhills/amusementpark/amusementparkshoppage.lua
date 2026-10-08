@@ -52,22 +52,16 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.msgbox:Find("BG"), function ()
 		setActive(uv0.msgbox, false)
 	end)
-
-	slot3 = slot0.msgbox
-
-	onButton(slot0, slot3:Find("window/button_container/Button1"), function ()
+	onButton(slot0, slot0.msgbox:Find("window/button_container/Button1"), function ()
 		setActive(uv0.msgbox, false)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.chatClick, function ()
 		uv0:SetActiveBubble(not uv0.chatActive)
 	end)
 
-	slot2 = Drop.New({
-		type = DROP_TYPE_RESOURCE,
-		id = slot0.shop:getResId()
-	}):getIcon()
+	slot1 = slot0.shop:GetResList()[1]:getIcon()
 
-	slot0.contentText:AddSprite(slot2, LoadSprite(slot2, ""))
+	slot0.contentText:AddSprite(slot1, LoadSprite(slot1, ""))
 	slot0:UpdateView()
 	slot0:ShowEnterMsg()
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
@@ -86,7 +80,7 @@ slot0.ShowEnterMsg = function(slot0)
 end
 
 slot0.UpdateView = function(slot0)
-	setText(slot0._tf:Find("Box/TicketText"), "X" .. (getProxy(PlayerProxy):getRawData()[id2res(slot0.shop:getResId())] or 0))
+	setText(slot0._tf:Find("Box/TicketText"), "X" .. slot0.shop:GetResList()[1]:getOwnedCount())
 	slot0:UpdateGoods()
 end
 

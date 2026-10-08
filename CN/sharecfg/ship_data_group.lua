@@ -39827,6 +39827,17 @@ end)()
 		trans_skill = {},
 		description = {
 			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"限时活动：空相交汇点",
 				{
 					""

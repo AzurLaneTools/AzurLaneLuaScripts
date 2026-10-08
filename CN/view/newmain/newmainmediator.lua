@@ -25,8 +25,12 @@ slot0.FOLD_PANEL = "NewMainMediator.FOLD_PANEL"
 slot0.HIDE_PANEL = "NewMainMediator.HIDE_PANEL"
 slot0.REMOVE_LAYERS = "NewMainMediator.REMOVE_LAYERS"
 slot0.DEBUG_BATTLE_LOOP = "NewMainMediator.DEBUG_BATTLE_LOOP"
+slot0.OPEN_ACT_REMASTER_SCENE = "NewMainMediator.OPEN_ACT_REMASTER_SCENE"
 
 slot0.register = function(slot0)
+	slot0:bind(uv0.OPEN_ACT_REMASTER_SCENE, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTREMASTE)
+	end)
 	slot0:bind(uv0.SKIP_LOTTERY, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			viewComponent = LotteryLayer,

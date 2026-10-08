@@ -156,7 +156,7 @@ slot0.init = function(slot0)
 	slot2 = getProxy(ActivityProxy)
 
 	if #_.filter(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
-		return not slot0:isEnd() and tonumber(slot0:getConfig("config_data")) > 0
+		return not slot0:isEnd() and slot0:IsShowRank()
 	end) > 1 then
 		slot2 = slot0.toggles[3]
 

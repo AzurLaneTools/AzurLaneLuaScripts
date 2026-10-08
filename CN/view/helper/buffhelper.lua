@@ -73,6 +73,7 @@ slot0.GenBuffsForActivity = function(slot0)
 				table.insert(uv1, ActivityBuff.New(uv0.id, slot5))
 			end
 		end,
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = ActivityConst.ACTIVITY_TYPE_PT_BUFF,
 		[ActivityConst.ACTIVITY_TYPE_ATELIER_LINK] = function ()
 			for slot4, slot5 in ipairs(uv0:GetSlots()) do
 				slot7 = slot5[2]

@@ -409,9 +409,10 @@ pg.memory_group.all = {
 	621,
 	622,
 	623,
-	625,
 	624,
+	625,
 	626,
+	627,
 	1000,
 	1001,
 	1002,
@@ -10401,28 +10402,6 @@ end)()
 			10000
 		}
 	}
-	pg.base.memory_group[625] = {
-		ship_group = 10234,
-		icon = "title_chara_shengtafei",
-		type = 3,
-		link_event = 0,
-		title = "我们的第八大不可思议",
-		auto_unlock = "",
-		subtype = 0,
-		id = 625,
-		memories = {
-			5291,
-			5292,
-			5293,
-			5294,
-			5295,
-			5296,
-			5297
-		},
-		group_id = {
-			10000
-		}
-	}
 	pg.base.memory_group[624] = {
 		ship_group = 29905,
 		icon = "title_chara_pulimaosi",
@@ -10445,6 +10424,28 @@ end)()
 			10000
 		}
 	}
+	pg.base.memory_group[625] = {
+		ship_group = 10234,
+		icon = "title_chara_shengtafei",
+		type = 3,
+		link_event = 0,
+		title = "我们的第八大不可思议",
+		auto_unlock = "",
+		subtype = 0,
+		id = 625,
+		memories = {
+			5291,
+			5292,
+			5293,
+			5294,
+			5295,
+			5296,
+			5297
+		},
+		group_id = {
+			10000
+		}
+	}
 	pg.base.memory_group[626] = {
 		ship_group = 30716,
 		icon = "title_chara_baifeng",
@@ -10462,6 +10463,28 @@ end)()
 			5425,
 			5426,
 			5427
+		},
+		group_id = {
+			10000
+		}
+	}
+	pg.base.memory_group[627] = {
+		ship_group = 70701,
+		icon = "title_chara_fuerjia",
+		type = 3,
+		link_event = 0,
+		title = "伏尔加的“健康任务”",
+		auto_unlock = "",
+		subtype = 0,
+		id = 627,
+		memories = {
+			5491,
+			5492,
+			5493,
+			5494,
+			5495,
+			5496,
+			5497
 		},
 		group_id = {
 			10000

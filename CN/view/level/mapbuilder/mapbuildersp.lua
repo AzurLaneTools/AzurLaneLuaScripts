@@ -121,11 +121,8 @@ slot0.UpdateButtons = function(slot0)
 	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and slot4 and not slot3 and slot2 and slot0.sceneParent:IsActShopActive())
 
 	slot5 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
-	slot6 = slot5 and not slot5:isEnd() and slot5:GetConfigClientSetting("PTID")
 
-	slot0.sceneParent:updatePtActivity(underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
-		return slot0:getConfig("config_id") == uv0
-	end))
+	slot0.sceneParent:updatePtActivity(slot5 and slot5:GetConfigClientPTActivity() or nil)
 	setActive(slot0.sceneParent.rightChapter:Find("event_btns/tickets"), slot3)
 	slot0.sceneParent:updateRemasterTicket()
 	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot3 and slot2 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd() and slot4)
@@ -181,24 +178,11 @@ slot0.UpdateBonusPtIconPath = function(slot0)
 		return
 	end
 
-	if not slot4:GetConfigClientSetting("PTID") then
+	if not slot4:GetConfigClientPTActivity() then
 		return
 	end
 
-	if not underscore.detect(slot3:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
-		return slot0 and not slot0:isEnd() and slot0:getConfig("config_id") == uv0
-	end) then
-		return
-	end
-
-	if not tonumber(slot6:getConfig("config_id")) then
-		return
-	end
-
-	slot0.bonusPtIconPath = Drop.New({
-		type = DROP_TYPE_RESOURCE,
-		id = slot7
-	}):getIcon()
+	slot0.bonusPtIconPath = slot5:GetPTDrop():getIcon()
 end
 
 slot0.BuildStoryTree = function(slot0)
@@ -320,7 +304,6 @@ slot0.UpdateView = function(slot0)
 		slot0:UpdateBonusPtIconPath()
 		slot0:UpdateBattle()
 		slot0.sceneParent:SwitchMapBG(slot0.contextData.map)
-		pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 		slot0.sceneParent:PlayBGM()
 	else
 		slot0:UpdateStoryNodeStatus()
@@ -1114,6 +1097,8 @@ slot0.UpdateStory = function(slot0)
 			slot1 = uv3
 
 			slot1:PlayStory(slot0:GetStoryName(), function ()
+				uv0:UpdateView()
+
 				uv0.needFocusStory = true
 
 				uv0:Move2UnlockStory()
@@ -1196,7 +1181,6 @@ slot0.SwitchStoryMapAndBGM = function(slot0)
 			Animator = slot3
 		}
 	})
-	pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 	pg.BgmMgr.GetInstance():Push(slot0.__cname, slot2)
 end
 
@@ -1242,7 +1226,6 @@ slot0.PlayStory = function(slot0, slot1, slot2, slot3)
 		end,
 		function (slot0, ...)
 			existCall(uv0, ...)
-			uv1:UpdateView()
 		end
 	})
 end

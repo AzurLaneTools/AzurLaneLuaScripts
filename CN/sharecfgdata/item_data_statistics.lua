@@ -136857,6 +136857,357 @@ _G.pg.base.item_data_statistics[68348] = {
 }
 
 
+_G.pg.base.item_data_statistics[68367] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(斟酒女郎的赌局)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>匹兹堡</color>换装<color=#92fc63FF>斟酒女郎的赌局</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88414",
+	id = 68367,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68370,
+			1
+		},
+		{
+			2,
+			68373,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68368] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(清凉的甜蜜滋味)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>伴尔维</color>换装<color=#92fc63FF>清凉的甜蜜滋味</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88415",
+	id = 68368,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68371,
+			1
+		},
+		{
+			2,
+			68374,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68369] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(相会于盛夏之夜)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:440}</color>换装<color=#92fc63FF>相会于盛夏之夜</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "88416",
+	id = 68369,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68372,
+			1
+		},
+		{
+			2,
+			68375,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68370] = {
+	open_directly = 0,
+	name = "换装抵扣券(斟酒女郎的赌局)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>匹兹堡</color>换装<color=#92fc63FF>斟酒女郎的赌局</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年10月14日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68370,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71033
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68371] = {
+	open_directly = 0,
+	name = "换装抵扣券(清凉的甜蜜滋味)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>伴尔维</color>换装<color=#92fc63FF>清凉的甜蜜滋味</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年10月14日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68371,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71041
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68372] = {
+	open_directly = 0,
+	name = "换装抵扣券(相会于盛夏之夜)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:440}</color>换装<color=#92fc63FF>相会于盛夏之夜</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2026年10月14日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68372,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71042
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68373] = {
+	open_directly = 0,
+	name = "换装体验券(斟酒女郎的赌局)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>匹兹堡</color>换装<color=#92fc63FF>斟酒女郎的赌局</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年10月14日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68373,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90540
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68374] = {
+	open_directly = 0,
+	name = "换装体验券(清凉的甜蜜滋味)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>伴尔维</color>换装<color=#92fc63FF>清凉的甜蜜滋味</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年10月14日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68374,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90541
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68375] = {
+	open_directly = 0,
+	name = "换装体验券(相会于盛夏之夜)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:440}</color>换装<color=#92fc63FF>相会于盛夏之夜</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2026年10月14日 23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68375,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90542
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[68349] = {
 	open_directly = 1,
 	name = "换装抵扣礼包(幽影徘徊之夜)",

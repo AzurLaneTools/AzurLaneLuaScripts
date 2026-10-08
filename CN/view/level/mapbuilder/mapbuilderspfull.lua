@@ -163,11 +163,8 @@ slot0.UpdateSwitchMapButtons = function(slot0)
 	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not inRemasterMap and slot0.sceneParent:IsActShopActive())
 
 	slot7 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
-	slot8 = slot7 and not slot7:isEnd() and slot7:GetConfigClientSetting("PTID")
 
-	slot0.sceneParent:updatePtActivity(underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
-		return slot0:getConfig("config_id") == uv0
-	end))
+	slot0.sceneParent:updatePtActivity(slot7 and slot7:GetConfigClientPTActivity() or nil)
 	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not inRemasterMap and slot3 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd() and slot1)
 	slot0.sceneParent:updateCountDown()
 end

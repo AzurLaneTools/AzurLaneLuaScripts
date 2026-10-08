@@ -4322,6 +4322,13 @@ pg.memory_template.all = {
 	5413,
 	5414,
 	5415,
+	5491,
+	5492,
+	5493,
+	5494,
+	5495,
+	5496,
+	5497,
 	5421,
 	5422,
 	5423,
@@ -82518,6 +82525,132 @@ end)()
 			"DARENWUDEYUGAOXIN5"
 		}
 	}
+	pg.base.memory_template[5491] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "不一样的清晨",
+		condition = "解锁「伏尔加的“健康任务”」任务1",
+		story = "FUERJIA1",
+		mask = "bg/bg_memory",
+		task = 500291,
+		year = 0,
+		id = 5491,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA1"
+		}
+	}
+	pg.base.memory_template[5492] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "“微妙”的健康餐",
+		condition = "解锁「伏尔加的“健康任务”」任务2",
+		story = "FUERJIA2",
+		mask = "bg/bg_memory",
+		task = 500292,
+		year = 0,
+		id = 5492,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA2"
+		}
+	}
+	pg.base.memory_template[5493] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "健康理疗",
+		condition = "解锁「伏尔加的“健康任务”」任务3",
+		story = "FUERJIA3",
+		mask = "bg/bg_memory",
+		task = 500293,
+		year = 0,
+		id = 5493,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA3"
+		}
+	}
+	pg.base.memory_template[5494] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "寻找放松之处",
+		condition = "解锁「伏尔加的“健康任务”」任务4",
+		story = "FUERJIA4",
+		mask = "bg/bg_memory",
+		task = 500294,
+		year = 0,
+		id = 5494,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA4"
+		}
+	}
+	pg.base.memory_template[5495] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "无法抗拒的幸福美味",
+		condition = "解锁「伏尔加的“健康任务”」任务5",
+		story = "FUERJIA5",
+		mask = "bg/bg_memory",
+		task = 500295,
+		year = 0,
+		id = 5495,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA5"
+		}
+	}
+	pg.base.memory_template[5496] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "膝枕上的温暖时光",
+		condition = "解锁「伏尔加的“健康任务”」任务6",
+		story = "FUERJIA6",
+		mask = "bg/bg_memory",
+		task = 500296,
+		year = 0,
+		id = 5496,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA6"
+		}
+	}
+	pg.base.memory_template[5497] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "暮色下的归宿",
+		condition = "解锁「伏尔加的“健康任务”」任务7",
+		story = "FUERJIA7",
+		mask = "bg/bg_memory",
+		task = 500297,
+		year = 0,
+		id = 5497,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA7"
+		}
+	}
 	pg.base.memory_template[5421] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83868,6 +84001,8 @@ end)()
 			"YICHANGDERICHANGDUANJUQING10"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5524] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83994,8 +84129,6 @@ end)()
 			"YICHANGDERICHANGDUANJUQING17"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5531] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85670,6 +85803,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA14"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20014] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85796,8 +85931,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA21"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20021] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87472,6 +87605,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA33"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20114] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87598,8 +87733,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA40"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20121] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89274,6 +89407,8 @@ end)()
 			"TANSUOZHELAIFANGJISHI10"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20216] = {
 		ship_group = 0,
 		subtitle = "",

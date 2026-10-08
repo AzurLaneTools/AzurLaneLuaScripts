@@ -50,7 +50,10 @@ pg.ship_l2d_tips.all = {
 	307162,
 	9600032,
 	299035,
+	137060,
+	102053,
 	303191,
+	307083,
 	118021,
 	305102,
 	202204,
@@ -4284,9 +4287,16 @@ pg.base.ship_l2d_tips = {}
 		},
 		idle_black_list = {
 			{
-				drawable = {},
+				drawable = {
+					"TouchIdle2",
+					"TouchIdle5"
+				},
 				idle = {
-					0
+					2,
+					3,
+					5,
+					6,
+					7
 				}
 			}
 		},
@@ -7053,6 +7063,117 @@ pg.base.ship_l2d_tips = {}
 			}
 		}
 	}
+	pg.base.ship_l2d_tips[137060] = {
+		id = 137060,
+		tips_icon = {
+			{
+				icon = "l2dui",
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag2",
+					"TouchDrag3",
+					"TouchDrag4"
+				}
+			}
+		},
+		tips_offset = {
+			{
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag2",
+					"TouchDrag3",
+					"TouchDrag4"
+				},
+				offset = {
+					0,
+					0
+				}
+			}
+		},
+		tips_scale = {
+			{
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag2",
+					"TouchDrag3",
+					"TouchDrag4"
+				},
+				scale = {
+					1,
+					1,
+					1
+				}
+			}
+		},
+		idle_black_list = {
+			{
+				drawable = {},
+				idle = {
+					0
+				}
+			}
+		},
+		anim_white_list = {
+			{
+				drawable = {},
+				white_list = {}
+			}
+		}
+	}
+	pg.base.ship_l2d_tips[102053] = {
+		id = 102053,
+		tips_icon = {
+			{
+				icon = "l2dui",
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag2",
+					"TouchDrag3"
+				}
+			}
+		},
+		tips_offset = {
+			{
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag2",
+					"TouchDrag3"
+				},
+				offset = {
+					0,
+					0
+				}
+			}
+		},
+		tips_scale = {
+			{
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag2",
+					"TouchDrag3"
+				},
+				scale = {
+					1,
+					1,
+					1
+				}
+			}
+		},
+		idle_black_list = {
+			{
+				drawable = {},
+				idle = {
+					0
+				}
+			}
+		},
+		anim_white_list = {
+			{
+				drawable = {},
+				white_list = {}
+			}
+		}
+	}
 	pg.base.ship_l2d_tips[303191] = {
 		id = 303191,
 		tips_icon = {
@@ -7115,9 +7236,143 @@ pg.base.ship_l2d_tips = {}
 		},
 		idle_black_list = {
 			{
-				drawable = {},
+				drawable = {
+					"TouchIdle2"
+				},
 				idle = {
+					1
+				}
+			}
+		},
+		anim_white_list = {
+			{
+				drawable = {},
+				white_list = {}
+			}
+		}
+	}
+	pg.base.ship_l2d_tips[307083] = {
+		id = 307083,
+		tips_icon = {
+			{
+				icon = "l2dui",
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag7",
+					"TouchDrag3",
+					"TouchDrag2",
+					"TouchDrag5",
+					"TouchIdle1",
+					"TouchIdle11",
+					"TouchIdle2",
+					"TouchIdle12",
+					"TouchIdle3",
+					"TouchIdle13",
+					"TouchIdle4",
+					"TouchIdle14",
+					"TouchIdle5",
+					"TouchIdle15",
+					"TouchIdle6",
+					"TouchIdle16",
+					"TouchIdle7",
+					"TouchIdle17",
+					"TouchDrag4",
+					"TouchDrag6"
+				}
+			}
+		},
+		tips_offset = {
+			{
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag7",
+					"TouchDrag3",
+					"TouchDrag2",
+					"TouchDrag5",
+					"TouchIdle1",
+					"TouchIdle11",
+					"TouchIdle2",
+					"TouchIdle12",
+					"TouchIdle3",
+					"TouchIdle13",
+					"TouchIdle4",
+					"TouchIdle14",
+					"TouchIdle5",
+					"TouchIdle15",
+					"TouchIdle6",
+					"TouchIdle16",
+					"TouchIdle7",
+					"TouchIdle17",
+					"TouchDrag4",
+					"TouchDrag6"
+				},
+				offset = {
+					0,
 					0
+				}
+			}
+		},
+		tips_scale = {
+			{
+				drawable = {
+					"TouchDrag1",
+					"TouchDrag7",
+					"TouchDrag3",
+					"TouchDrag2",
+					"TouchDrag5",
+					"TouchIdle1",
+					"TouchIdle11",
+					"TouchIdle2",
+					"TouchIdle12",
+					"TouchIdle3",
+					"TouchIdle13",
+					"TouchIdle4",
+					"TouchIdle14",
+					"TouchIdle5",
+					"TouchIdle15",
+					"TouchIdle6",
+					"TouchIdle16",
+					"TouchIdle7",
+					"TouchIdle17",
+					"TouchDrag4",
+					"TouchDrag6"
+				},
+				scale = {
+					1,
+					1,
+					1
+				}
+			}
+		},
+		idle_black_list = {
+			{
+				drawable = {
+					"TouchIdle1",
+					"TouchIdle2",
+					"TouchIdle3",
+					"TouchIdle4",
+					"TouchIdle6",
+					"TouchIdle7"
+				},
+				idle = {
+					4,
+					5,
+					6,
+					7
+				}
+			},
+			{
+				drawable = {
+					"TouchDrag3",
+					"TouchDrag2",
+					"TouchDrag6",
+					"TouchDrag1",
+					"TouchDrag5"
+				},
+				idle = {
+					1,
+					2,
+					3
 				}
 			}
 		},

@@ -153,24 +153,11 @@ slot0.UpdateBonusPtIconPath = function(slot0)
 		return
 	end
 
-	if not slot4:GetConfigClientSetting("PTID") then
+	if not slot4:GetConfigClientPTActivity() then
 		return
 	end
 
-	if not underscore.detect(slot3:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
-		return slot0 and not slot0:isEnd() and slot0:getConfig("config_id") == uv0
-	end) then
-		return
-	end
-
-	if not tonumber(slot6:getConfig("config_id")) then
-		return
-	end
-
-	slot0.bonusPtIconPath = Drop.New({
-		type = DROP_TYPE_RESOURCE,
-		id = slot7
-	}):getIcon()
+	slot0.bonusPtIconPath = slot5:GetPTDrop():getIcon()
 end
 
 slot0.UpdateCustomButtons = function(slot0)
