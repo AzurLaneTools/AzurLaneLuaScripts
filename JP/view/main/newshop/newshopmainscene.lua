@@ -1199,9 +1199,11 @@ slot0.GetSkinShopList = function(slot0)
 			end
 		end
 
-		for slot11 = #slot7, 1, -1 do
-			if slot7[slot11]:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
-				table.remove(slot7, slot11)
+		if slot0.contextData.mode == nil or slot0.contextData.mode == LatestSkinShopLayer.MODE_OVERVIEW then
+			for slot11 = #slot7, 1, -1 do
+				if slot7[slot11]:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
+					table.remove(slot7, slot11)
+				end
 			end
 		end
 

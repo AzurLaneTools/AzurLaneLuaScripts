@@ -121,11 +121,7 @@ slot0.GetEsOwnStr = function(slot0)
 	slot4 = getProxy(EquipmentProxy)
 
 	for slot8, slot9 in ipairs(slot1) do
-		slot10 = slot9:GetRawDropData()
-		slot11 = slot10[1]
-		slot13 = slot10[3]
-
-		if slot4:getEquipmnentSkinById(slot10[2]) then
+		if Drop.Create(slot9:GetRawDropData()):getOwnedCount() > 0 then
 			slot3 = slot3 + 1
 		end
 	end
