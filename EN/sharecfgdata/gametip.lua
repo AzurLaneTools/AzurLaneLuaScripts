@@ -52109,12 +52109,12 @@ _G.pg.base.gametip.outpost_20250904_Sidebar6 = {
 
 
 _G.pg.base.gametip.ActivityRemasterCore_re6_1 = {
-	tip = "Main Event"
+	tip = "Milestone"
 }
 
 
 _G.pg.base.gametip.ActivityRemasterCore_re6_2 = {
-	tip = "Milestone"
+	tip = "Main Event"
 }
 
 
@@ -52164,12 +52164,12 @@ _G.pg.base.gametip.ActivityRemasterCore_re5_5 = {
 
 
 _G.pg.base.gametip.ActivityRemasterCore_re4_1 = {
-	tip = "Main Event"
+	tip = "Milestone"
 }
 
 
 _G.pg.base.gametip.ActivityRemasterCore_re4_2 = {
-	tip = "Milestone"
+	tip = "Main Event"
 }
 
 
@@ -52194,12 +52194,12 @@ _G.pg.base.gametip.ActivityRemasterCore_re4_6 = {
 
 
 _G.pg.base.gametip.ActivityRemasterCore_re3_1 = {
-	tip = "Main Event"
+	tip = "Milestone "
 }
 
 
 _G.pg.base.gametip.ActivityRemasterCore_re3_2 = {
-	tip = "Milestone"
+	tip = "Main Event"
 }
 
 
@@ -52219,12 +52219,12 @@ _G.pg.base.gametip.ActivityRemasterCore_re3_5 = {
 
 
 _G.pg.base.gametip.ActivityRemasterCore_re2_1 = {
-	tip = "Main Event"
+	tip = "Milestone"
 }
 
 
 _G.pg.base.gametip.ActivityRemasterCore_re2_2 = {
-	tip = "Milestone"
+	tip = "Main Event"
 }
 
 

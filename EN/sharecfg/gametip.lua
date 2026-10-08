@@ -32522,11 +32522,11 @@ cs.gametip = {
 	},
 	ActivityRemasterCore_re6_1 = {
 		1460305,
-		100
+		99
 	},
 	ActivityRemasterCore_re6_2 = {
-		1460405,
-		99
+		1460404,
+		100
 	},
 	ActivityRemasterCore_re6_3 = {
 		1460504,
@@ -32566,11 +32566,11 @@ cs.gametip = {
 	},
 	ActivityRemasterCore_re4_1 = {
 		1461410,
-		100
+		99
 	},
 	ActivityRemasterCore_re4_2 = {
-		1461510,
-		99
+		1461509,
+		100
 	},
 	ActivityRemasterCore_re4_3 = {
 		1461609,
@@ -32594,114 +32594,114 @@ cs.gametip = {
 	},
 	ActivityRemasterCore_re3_2 = {
 		1462113,
-		99
+		100
 	},
 	ActivityRemasterCore_re3_3 = {
-		1462212,
+		1462213,
 		102
 	},
 	ActivityRemasterCore_re3_4 = {
-		1462314,
+		1462315,
 		103
 	},
 	ActivityRemasterCore_re3_5 = {
-		1462417,
+		1462418,
 		98
 	},
 	ActivityRemasterCore_re2_1 = {
-		1462515,
-		100
+		1462516,
+		99
 	},
 	ActivityRemasterCore_re2_2 = {
 		1462615,
-		99
+		100
 	},
 	ActivityRemasterCore_re2_3 = {
-		1462714,
+		1462715,
 		102
 	},
 	ActivityRemasterCore_re2_4 = {
-		1462816,
+		1462817,
 		103
 	},
 	ActivityRemasterCore_re2_5 = {
-		1462919,
+		1462920,
 		98
 	},
 	ActivityRemasterCore_re7_1 = {
-		1463017,
+		1463018,
 		98
 	},
 	ActivityRemasterCore_re7_2 = {
-		1463115,
+		1463116,
 		98
 	},
 	ActivityRemasterCore_award_preview_btn = {
-		1463213,
+		1463214,
 		109
 	},
 	ActivityRemasterCore_award_preview_title = {
-		1463322,
+		1463323,
 		119
 	},
 	ActivityRemasterCore_award_preview_ship = {
-		1463441,
+		1463442,
 		118
 	},
 	ActivityRemasterCore_award_preview_es = {
-		1463559,
+		1463560,
 		116
 	},
 	ActivityRemasterCore_award_preview_other = {
-		1463675,
+		1463676,
 		114
 	},
 	ActivityRemasterCore_award_own_desc = {
-		1463789,
+		1463790,
 		140
 	},
 	dorm3d_yuanchou_table = {
-		1463929,
+		1463930,
 		90
 	},
 	dorm3d_yuanchou_chair = {
-		1464019,
+		1464020,
 		96
 	},
 	dorm3d_yuanchou_bed = {
-		1464115,
+		1464116,
 		90
 	},
 	auto_download_tip = {
-		1464205,
+		1464206,
 		243
 	},
 	auto_download_btn = {
-		1464448,
+		1464449,
 		95
 	},
 	setting_download_basic_assets = {
-		1464543,
+		1464544,
 		114
 	},
 	setting_restart_download_btn = {
-		1464657,
+		1464658,
 		107
 	},
 	loading_flow_tip = {
-		1464764,
+		1464765,
 		160
 	},
 	ActivityRemasterCoreActivityAdaptUI_TITLE = {
-		1464924,
+		1464925,
 		110
 	},
 	ActivityRemasterCoreActivityAdaptUI_TITLE_EN = {
-		1465034,
+		1465035,
 		116
 	},
 	ActivityRemaster_NoticeJump_AlreadySelected = {
-		1465150,
+		1465151,
 		200
 	}
 }
