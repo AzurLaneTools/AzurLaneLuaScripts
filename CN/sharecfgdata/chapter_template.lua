@@ -254699,6 +254699,9 @@ _G.pg.base.chapter_template[1850002] = {
 	pre_chapter = {
 		{
 			1850001
+		},
+		{
+			1850021
 		}
 	},
 	scale = {
@@ -255432,6 +255435,9 @@ _G.pg.base.chapter_template[1850003] = {
 	pre_chapter = {
 		{
 			1850002
+		},
+		{
+			1850022
 		}
 	},
 	scale = {
@@ -256097,6 +256103,9 @@ _G.pg.base.chapter_template[1850004] = {
 	pre_chapter = {
 		{
 			1850003
+		},
+		{
+			1850023
 		}
 	},
 	scale = {
@@ -256941,6 +256950,9 @@ _G.pg.base.chapter_template[1850005] = {
 	pre_chapter = {
 		{
 			1850004
+		},
+		{
+			1850024
 		}
 	},
 	scale = {
@@ -257792,6 +257804,9 @@ _G.pg.base.chapter_template[1850006] = {
 	pre_chapter = {
 		{
 			1850005
+		},
+		{
+			1850025
 		}
 	},
 	scale = {
@@ -259279,6 +259294,9 @@ _G.pg.base.chapter_template[1850022] = {
 	avoid_require = 0,
 	pre_chapter = {
 		{
+			1850001
+		},
+		{
 			1850021
 		}
 	},
@@ -260053,6 +260071,9 @@ _G.pg.base.chapter_template[1850023] = {
 	avoid_require = 0,
 	pre_chapter = {
 		{
+			1850002
+		},
+		{
 			1850022
 		}
 	},
@@ -260758,6 +260779,9 @@ _G.pg.base.chapter_template[1850024] = {
 	submarine_num = 1,
 	avoid_require = 0,
 	pre_chapter = {
+		{
+			1850003
+		},
 		{
 			1850023
 		}
@@ -261647,6 +261671,9 @@ _G.pg.base.chapter_template[1850025] = {
 	submarine_num = 1,
 	avoid_require = 0,
 	pre_chapter = {
+		{
+			1850004
+		},
 		{
 			1850024
 		}
@@ -262545,6 +262572,9 @@ _G.pg.base.chapter_template[1850026] = {
 	submarine_num = 1,
 	avoid_require = 0,
 	pre_chapter = {
+		{
+			1850005
+		},
 		{
 			1850025
 		}

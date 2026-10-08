@@ -53655,7 +53655,8 @@ end)()
 			12049,
 			12050,
 			12051,
-			12052
+			12052,
+			12053
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",

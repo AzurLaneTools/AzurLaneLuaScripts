@@ -24,7 +24,7 @@ end
 slot0.GetTotalPtCount = function(slot0)
 	assert(slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2)
 
-	return slot0.data4
+	return slot0.data1
 end
 
 return slot0

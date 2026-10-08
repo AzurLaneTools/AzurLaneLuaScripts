@@ -3200,6 +3200,7 @@ pg.activity_shop_template.all = {
 	12050,
 	12051,
 	12052,
+	12053,
 	100001,
 	100002,
 	100003,
@@ -6036,6 +6037,7 @@ pg.activity_shop_template.get_id_list_by_commodity_type = {
 		12048,
 		12050,
 		12052,
+		12053,
 		100004,
 		100005,
 		100006,
@@ -56210,6 +56212,42 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_shop_template[12053] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 30,
+		num_limit = 4,
+		activity = 7104,
+		num = 1,
+		commodity_id = 21065,
+		commodity_type = 2,
+		resource_type = 21000,
+		id = 12053,
+		commodity_id_list_show = 0,
+		order = 4,
+		limit_args = {
+			{
+				1,
+				970709,
+				1
+			},
+			{
+				2,
+				{
+					{
+						2026,
+						10,
+						8
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	}
 	pg.base.activity_shop_template[100001] = {
 		commodity_id_list = "",
 		resource_category = 8,
@@ -56240,6 +56278,8 @@ end)()
 		commodity_id_list_show = 0,
 		order = 0
 	}
+end)()
+(function ()
 	pg.base.activity_shop_template[100003] = {
 		commodity_id_list = "",
 		resource_category = 8,
@@ -56255,8 +56295,6 @@ end)()
 		commodity_id_list_show = 0,
 		order = 0
 	}
-end)()
-(function ()
 	pg.base.activity_shop_template[100004] = {
 		commodity_id_list = "",
 		resource_category = 8,
@@ -57775,6 +57813,8 @@ end)()
 		commodity_id_list_show = 0,
 		order = 0
 	}
+end)()
+(function ()
 	pg.base.activity_shop_template[100118] = {
 		commodity_id_list = "",
 		resource_category = 8,
@@ -57790,8 +57830,6 @@ end)()
 		commodity_id_list_show = 0,
 		order = 0
 	}
-end)()
-(function ()
 	pg.base.activity_shop_template[100119] = {
 		commodity_id_list = "",
 		resource_category = 8,
@@ -59288,6 +59326,8 @@ end)()
 		commodity_id_list_show = 0,
 		order = 0
 	}
+end)()
+(function ()
 	pg.base.activity_shop_template[100238] = {
 		commodity_id_list = "",
 		resource_category = 8,
@@ -59303,8 +59343,6 @@ end)()
 		commodity_id_list_show = 0,
 		order = 0
 	}
-end)()
-(function ()
 	pg.base.activity_shop_template[100239] = {
 		commodity_id_list = "",
 		resource_category = 8,

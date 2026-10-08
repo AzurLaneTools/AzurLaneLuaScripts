@@ -566,7 +566,7 @@ slot0.InitSwitch = function()
 
 					return switch(slot0:getConfig("type"), {
 						[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = function ()
-							return uv0:GetTotalPtCount()
+							return uv0.data4
 						end
 					}, function ()
 						assert(false)
