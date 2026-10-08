@@ -85,7 +85,7 @@ slot0.OnFirstFlush = function(slot0)
 		end)
 	end, SFX_PANEL)
 
-	slot2 = getProxy(ActivityProxy):getActivityById(slot0.activity:getConfig("config_client").shopLinkActID)
+	slot1 = getProxy(ActivityProxy):GetShopActivityByRes(slot0.activity:GetPTDrop())
 
 	onButton(slot0, slot0.shopBtn, function ()
 		if not uv0 or uv0:isEnd() then

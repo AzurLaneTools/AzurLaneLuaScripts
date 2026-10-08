@@ -683,6 +683,11 @@ _G.pg.base.gametip.ad_3 = {
 }
 
 
+_G.pg.base.gametip.word_obtain_way = {
+	tip = "入手方法"
+}
+
+
 _G.pg.base.gametip.word_back = {
 	tip = "戻る"
 }
@@ -35875,7 +35880,7 @@ _G.pg.base.gametip.UrExchange_Pt_charges = {
 _G.pg.base.gametip.UrExchange_Pt_help = {
 	tip = {
 		{
-			info = "イベントバナーでの交換とイベントショップと同様にカウントされます。\n合計で2回のみ交換できます。\n1回目：URチケット×200；2回目：300URチケット×300。"
+			info = "イベントバナーでの交換とイベントショップと同様にカウントされます。\n合計で2回のみ交換できます。\n1回目：URチケット×200；2回目：URチケット×300。"
 		}
 	}
 }
@@ -45620,16 +45625,6 @@ _G.pg.base.gametip.grapihcs3d_setting_flare = {
 }
 
 
-_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
-	tip = "前哨戦"
-}
-
-
-_G.pg.base.gametip.Outpost_20250904_Sidebar5 = {
-	tip = "重桜の招待"
-}
-
-
 _G.pg.base.gametip.Outpost_20250904_Title1 = {
 	tip = "前哨戦"
 }
@@ -52383,4 +52378,249 @@ _G.pg.base.gametip.setting_restart_download_btn = {
 
 _G.pg.base.gametip.loading_flow_tip = {
 	tip = "モバイルデータ通信でアセットのDLを行っています。データ通信量にご注意ください"
+}
+
+
+_G.pg.base.gametip.act_remaster_colllect_progress = {
+	tip = "入手状況"
+}
+
+
+_G.pg.base.gametip.act_remaster_title = {
+	tip = "軽量化復刻"
+}
+
+
+_G.pg.base.gametip.act_remaster_open_tip = {
+	tip = "イベント「<color=#39bfff>$1</color>」の軽量化復刻を開放しますか？選べる軽量化復刻は開催期間中に1回しか開放できず、また開放されたイベント海域は<color=#39bfff>$2</color>メンテまでに終了します"
+}
+
+
+_G.pg.base.gametip.act_remaster_active_erro = {
+	tip = "1回しか開放できません"
+}
+
+
+_G.pg.base.gametip.act_remaster_tip_1 = {
+	tip = "イベント期間中、「選べる軽量化復刻」で開放したことがないイベントを1個選択して、<b><color=#faba55>軽量化復刻を開放</color></b>することができます"
+}
+
+
+_G.pg.base.gametip.act_remaster_tip_2 = {
+	tip = "$1 メンテ"
+}
+
+
+_G.pg.base.gametip.act_remaster_extend_time = {
+	tip = "報酬入手期間は$1時まで"
+}
+
+
+_G.pg.base.gametip.act_remaster_time_desc = {
+	tip = "$1月$2日-$3月$4日 メンテ"
+}
+
+
+_G.pg.base.gametip.act_remaster_time_desc_with_hours = {
+	tip = "$1月$2日-$3月$4日 $5時"
+}
+
+
+_G.pg.base.gametip.act_remaster_time_desc_with_hours_without_ch = {
+	tip = "$1.$2-$3.$4 $5:$6:$7"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar6 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_1 = {
+	tip = "高い塔の薔薇"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_2 = {
+	tip = "高い塔の薔薇"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_3 = {
+	tip = "作戦準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_4 = {
+	tip = "太陽未だ沈まぬ"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_5 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_6 = {
+	tip = "UR交換"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_1 = {
+	tip = "籠檻に囚われし神光"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_2 = {
+	tip = "籠檻に囚われし神光"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_3 = {
+	tip = "作戦準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_4 = {
+	tip = "被選者の道"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_5 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_1 = {
+	tip = "星降る夕影の残光"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_2 = {
+	tip = "星降る夕影の残光"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_3 = {
+	tip = "作戦準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_4 = {
+	tip = "領域外からの帰還"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_5 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_6 = {
+	tip = "UR交換"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_1 = {
+	tip = "絳染む丹華の詠歌"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_2 = {
+	tip = "絳染む丹華の詠歌"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_3 = {
+	tip = "作戦準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_4 = {
+	tip = "風塵積もる此岸"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_5 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_1 = {
+	tip = "錬翼空翔"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_2 = {
+	tip = "錬翼空翔"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_3 = {
+	tip = "作戦準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_4 = {
+	tip = "朱染断章"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_5 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re7_1 = {
+	tip = "林間休暇準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re7_2 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_btn = {
+	tip = "報酬一覧"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_title = {
+	tip = "イベント限定報酬"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_ship = {
+	tip = "キャラ($1)"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_es = {
+	tip = "装備外装($1)"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_other = {
+	tip = "その他($1)"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_own_desc = {
+	tip = "入手済み：<color=#39bfff>$1</color>"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE = {
+	tip = "イベント"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE_EN = {
+	tip = "EVENT"
+}
+
+
+_G.pg.base.gametip.ActivityRemaster_NoticeJump_AlreadySelected = {
+	tip = "開放中の軽量化復刻イベントがあります。ホーム画面のアイコンからご確認ください"
 }

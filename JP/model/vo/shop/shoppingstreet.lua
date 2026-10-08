@@ -116,13 +116,22 @@ slot0.GetResList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.goods) do
-		slot1[slot6:getConfig("resource_type")] = true
+		slot7 = Drop.New({
+			count = 0,
+			type = DROP_TYPE_RESOURCE,
+			id = slot6:getConfig("resource_type")
+		})
+		slot7.count = slot7:getOwnedCount()
+
+		if not slot1[slot7.type .. "_" .. slot7.id] then
+			slot1[slot7.type .. "_" .. slot7.id] = slot7
+		end
 	end
 
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot1) do
-		table.insert(slot2, slot6)
+		table.insert(slot2, slot7)
 	end
 
 	return slot2

@@ -4291,6 +4291,13 @@ pg.memory_template.all = {
 	5413,
 	5414,
 	5415,
+	5491,
+	5492,
+	5493,
+	5494,
+	5495,
+	5496,
+	5497,
 	5421,
 	5422,
 	5423,
@@ -81951,6 +81958,132 @@ end)()
 			"DARENWUDEYUGAOXIN5"
 		}
 	}
+	pg.base.memory_template[5491] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "いつもと違う朝",
+		condition = "「ヴォルガの「健康任務」1」開始",
+		story = "FUERJIA1",
+		mask = "bg/bg_memory",
+		task = 500291,
+		year = 0,
+		id = 5491,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA1"
+		}
+	}
+	pg.base.memory_template[5492] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "「微妙」な健康食",
+		condition = "「ヴォルガの「健康任務」2」開始",
+		story = "FUERJIA2",
+		mask = "bg/bg_memory",
+		task = 500292,
+		year = 0,
+		id = 5492,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA2"
+		}
+	}
+	pg.base.memory_template[5493] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "健康療法",
+		condition = "「ヴォルガの「健康任務」3」開始",
+		story = "FUERJIA3",
+		mask = "bg/bg_memory",
+		task = 500293,
+		year = 0,
+		id = 5493,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA3"
+		}
+	}
+	pg.base.memory_template[5494] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "心が休まる場所",
+		condition = "「ヴォルガの「健康任務」4」開始",
+		story = "FUERJIA4",
+		mask = "bg/bg_memory",
+		task = 500294,
+		year = 0,
+		id = 5494,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA4"
+		}
+	}
+	pg.base.memory_template[5495] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "抗えない幸せな味",
+		condition = "「ヴォルガの「健康任務」5」開始",
+		story = "FUERJIA5",
+		mask = "bg/bg_memory",
+		task = 500295,
+		year = 0,
+		id = 5495,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA5"
+		}
+	}
+	pg.base.memory_template[5496] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "膝の上の温かな時間",
+		condition = "「ヴォルガの「健康任務」6」開始",
+		story = "FUERJIA6",
+		mask = "bg/bg_memory",
+		task = 500296,
+		year = 0,
+		id = 5496,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA6"
+		}
+	}
+	pg.base.memory_template[5497] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "夕暮れの帰り道",
+		condition = "「ヴォルガの「健康任務」7」開始",
+		story = "FUERJIA7",
+		mask = "bg/bg_memory",
+		task = 500297,
+		year = 0,
+		id = 5497,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA7"
+		}
+	}
 	pg.base.memory_template[5421] = {
 		ship_group = 0,
 		subtitle = "",
@@ -82059,6 +82192,8 @@ end)()
 			"BAIFENG6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5427] = {
 		ship_group = 0,
 		subtitle = "",
@@ -82185,8 +82320,6 @@ end)()
 			"YOUYINGMICHENG6"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5447] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83861,6 +83994,8 @@ end)()
 			"TACT10001"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10002] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83987,8 +84122,6 @@ end)()
 			"TACT10008"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10009] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85663,6 +85796,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA21"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20021] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85789,8 +85924,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA28"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20028] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87465,6 +87598,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA40"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20121] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87591,8 +87726,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA47"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20128] = {
 		ship_group = 0,
 		subtitle = "",

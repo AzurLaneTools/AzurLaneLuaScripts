@@ -7726,7 +7726,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1830001",
 		default_background = "",
-		on_activity = 5521,
+		on_activity = 1000003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -7734,7 +7734,6 @@ end)()
 		ui_type = 1,
 		bg = "Map_1830001",
 		story_id = "",
-		chapterGroups = "",
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
@@ -7782,6 +7781,20 @@ end)()
 					"effect_1830005"
 				}
 			}
+		},
+		chapterGroups = {
+			{
+				1830001,
+				1830021
+			},
+			{
+				1830002,
+				1830022
+			},
+			{
+				1830003,
+				1830023
+			}
 		}
 	}
 	pg.base.expedition_data_by_map[1830002] = {
@@ -7798,7 +7811,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1830002",
 		default_background = "",
-		on_activity = 5521,
+		on_activity = 1000003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -7806,7 +7819,6 @@ end)()
 		ui_type = 1,
 		bg = "Map_1830002",
 		story_id = "",
-		chapterGroups = "",
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
@@ -7854,6 +7866,20 @@ end)()
 					"effect_1830003"
 				}
 			}
+		},
+		chapterGroups = {
+			{
+				1830004,
+				1830024
+			},
+			{
+				1830005,
+				1830025
+			},
+			{
+				1830006,
+				1830026
+			}
 		}
 	}
 	pg.base.expedition_data_by_map[1830011] = {
@@ -7870,7 +7896,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1830001",
 		default_background = "",
-		on_activity = 5521,
+		on_activity = 1000003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -7878,7 +7904,6 @@ end)()
 		ui_type = 1,
 		bg = "Map_1830001",
 		story_id = "",
-		chapterGroups = "",
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
@@ -7926,6 +7951,20 @@ end)()
 					"effect_1830005"
 				}
 			}
+		},
+		chapterGroups = {
+			{
+				1830001,
+				1830021
+			},
+			{
+				1830002,
+				1830022
+			},
+			{
+				1830003,
+				1830023
+			}
 		}
 	}
 	pg.base.expedition_data_by_map[1830012] = {
@@ -7942,7 +7981,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1830002",
 		default_background = "",
-		on_activity = 5521,
+		on_activity = 1000003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -7950,7 +7989,6 @@ end)()
 		ui_type = 1,
 		bg = "Map_1830002",
 		story_id = "",
-		chapterGroups = "",
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
@@ -7998,6 +8036,20 @@ end)()
 					"effect_1830003"
 				}
 			}
+		},
+		chapterGroups = {
+			{
+				1830004,
+				1830024
+			},
+			{
+				1830005,
+				1830025
+			},
+			{
+				1830006,
+				1830026
+			}
 		}
 	}
 	pg.base.expedition_data_by_map[1830025] = {
@@ -8015,7 +8067,7 @@ end)()
 		ani_name = "Map_1830005",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 5521,
+		on_activity = 1000003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -8023,7 +8075,6 @@ end)()
 		ui_type = 1,
 		bg = "Map_1830005",
 		story_id = "",
-		chapterGroups = "",
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
@@ -8049,6 +8100,11 @@ end)()
 				0,
 				-465
 			}
+		},
+		chapterGroups = {
+			{
+				1830041
+			}
 		}
 	}
 	pg.base.expedition_data_by_map[1830026] = {
@@ -8066,7 +8122,7 @@ end)()
 		ani_name = "Map_1830004",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 5521,
+		on_activity = 1000003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -8074,7 +8130,6 @@ end)()
 		ui_type = 1,
 		bg = "Map_1830004",
 		story_id = "",
-		chapterGroups = "",
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
@@ -8099,6 +8154,11 @@ end)()
 			{
 				0,
 				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1830051
 			}
 		}
 	}
@@ -8273,7 +8333,7 @@ end)()
 		ani_name = "Map_1850001",
 		ani_controller = "",
 		default_background = "bg_story_tower",
-		on_activity = 5562,
+		on_activity = 1000023,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -8308,13 +8368,16 @@ end)()
 		},
 		chapterGroups = {
 			{
-				1850001
+				1850001,
+				1850021
 			},
 			{
-				1850002
+				1850002,
+				1850022
 			},
 			{
-				1850003
+				1850003,
+				1850023
 			}
 		},
 		story_id = {
@@ -8372,7 +8435,7 @@ end)()
 		ani_name = "Map_1850002",
 		ani_controller = "",
 		default_background = "bg_story_tower",
-		on_activity = 5562,
+		on_activity = 1000023,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -8407,13 +8470,16 @@ end)()
 		},
 		chapterGroups = {
 			{
-				1850004
+				1850004,
+				1850024
 			},
 			{
-				1850005
+				1850005,
+				1850025
 			},
 			{
-				1850006
+				1850006,
+				1850026
 			}
 		},
 		story_id = {
@@ -8471,7 +8537,7 @@ end)()
 		ani_name = "Map_1850001",
 		ani_controller = "",
 		default_background = "bg_story_tower",
-		on_activity = 5562,
+		on_activity = 1000023,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -8506,12 +8572,15 @@ end)()
 		},
 		chapterGroups = {
 			{
+				1850001,
 				1850021
 			},
 			{
+				1850002,
 				1850022
 			},
 			{
+				1850003,
 				1850023
 			}
 		},
@@ -8570,7 +8639,7 @@ end)()
 		ani_name = "Map_1850002",
 		ani_controller = "",
 		default_background = "bg_story_tower",
-		on_activity = 5562,
+		on_activity = 1000023,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -8605,12 +8674,15 @@ end)()
 		},
 		chapterGroups = {
 			{
+				1850004,
 				1850024
 			},
 			{
+				1850005,
 				1850025
 			},
 			{
+				1850006,
 				1850026
 			}
 		},
@@ -8669,7 +8741,7 @@ end)()
 		ani_name = "Map_1850003",
 		ani_controller = "",
 		default_background = "bg_story_tower",
-		on_activity = 5562,
+		on_activity = 1000023,
 		map_name = "levelscene_mapselect_sp",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -8762,7 +8834,7 @@ end)()
 		ani_name = "Map_1850004",
 		ani_controller = "",
 		default_background = "bg_story_tower",
-		on_activity = 5562,
+		on_activity = 1000023,
 		map_name = "levelscene_mapselect_ex",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -9497,7 +9569,7 @@ end)()
 		ani_name = "Map_1880001",
 		ani_controller = "",
 		default_background = "star_level_bg_595",
-		on_activity = 5711,
+		on_activity = 1000043,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -9595,7 +9667,7 @@ end)()
 		ani_name = "Map_1880003",
 		ani_controller = "",
 		default_background = "star_level_bg_595",
-		on_activity = 5711,
+		on_activity = 1000043,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -9693,7 +9765,7 @@ end)()
 		ani_name = "Map_1880001",
 		ani_controller = "",
 		default_background = "star_level_bg_595",
-		on_activity = 5711,
+		on_activity = 1000043,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -9791,7 +9863,7 @@ end)()
 		ani_name = "Map_1880003",
 		ani_controller = "",
 		default_background = "star_level_bg_595",
-		on_activity = 5711,
+		on_activity = 1000043,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -9889,7 +9961,7 @@ end)()
 		ani_name = "Map_1880004",
 		ani_controller = "",
 		default_background = "star_level_bg_595",
-		on_activity = 5711,
+		on_activity = 1000043,
 		map_name = "levelscene_mapselect_sp",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -9978,7 +10050,7 @@ end)()
 		ani_name = "Map_1880002",
 		ani_controller = "",
 		default_background = "star_level_bg_595",
-		on_activity = 5711,
+		on_activity = 1000043,
 		map_name = "levelscene_mapselect_ex",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -10068,7 +10140,7 @@ end)()
 		ani_name = "Map_1890001",
 		ani_controller = "",
 		default_background = "bg_shenguang_6",
-		on_activity = 5821,
+		on_activity = 1000063,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -10169,7 +10241,7 @@ end)()
 		ani_name = "Map_1890003",
 		ani_controller = "",
 		default_background = "bg_shenguang_6",
-		on_activity = 5821,
+		on_activity = 1000063,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -10270,7 +10342,7 @@ end)()
 		ani_name = "Map_1890001",
 		ani_controller = "",
 		default_background = "bg_shenguang_6",
-		on_activity = 5821,
+		on_activity = 1000063,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -10371,7 +10443,7 @@ end)()
 		ani_name = "Map_1890003",
 		ani_controller = "",
 		default_background = "bg_shenguang_6",
-		on_activity = 5821,
+		on_activity = 1000063,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -10472,7 +10544,7 @@ end)()
 		ani_name = "Map_1890002",
 		ani_controller = "",
 		default_background = "bg_shenguang_6",
-		on_activity = 5821,
+		on_activity = 1000063,
 		map_name = "levelscene_mapselect_sp",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -10564,7 +10636,7 @@ end)()
 		ani_name = "Map_1890004",
 		ani_controller = "",
 		default_background = "bg_shenguang_6",
-		on_activity = 5821,
+		on_activity = 1000063,
 		map_name = "levelscene_mapselect_ex",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -10889,7 +10961,7 @@ end)()
 		ani_name = "Map_1920001",
 		ani_controller = "",
 		default_background = "bg_gaotaqiangwei_cg1",
-		on_activity = 5941,
+		on_activity = 1000083,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -10990,7 +11062,7 @@ end)()
 		ani_name = "Map_1920002",
 		ani_controller = "",
 		default_background = "bg_gaotaqiangwei_cg1",
-		on_activity = 5941,
+		on_activity = 1000083,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -11091,7 +11163,7 @@ end)()
 		ani_name = "Map_1920001",
 		ani_controller = "",
 		default_background = "bg_gaotaqiangwei_cg1",
-		on_activity = 5941,
+		on_activity = 1000083,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -11192,7 +11264,7 @@ end)()
 		ani_name = "Map_1920002",
 		ani_controller = "",
 		default_background = "bg_gaotaqiangwei_cg1",
-		on_activity = 5941,
+		on_activity = 1000083,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -11293,7 +11365,7 @@ end)()
 		ani_name = "Map_1920003",
 		ani_controller = "",
 		default_background = "bg_gaotaqiangwei_cg1",
-		on_activity = 5941,
+		on_activity = 1000083,
 		map_name = "levelscene_mapselect_sp",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -11385,7 +11457,7 @@ end)()
 		ani_name = "Map_1920004",
 		ani_controller = "",
 		default_background = "bg_gaotaqiangwei_cg1",
-		on_activity = 5941,
+		on_activity = 1000083,
 		map_name = "levelscene_mapselect_ex",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -11901,7 +11973,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1950001",
 		default_background = "bg_masaina_story_mode_1",
-		on_activity = 50081,
+		on_activity = 1000103,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -12023,7 +12095,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1950002",
 		default_background = "bg_masaina_story_mode_1",
-		on_activity = 50081,
+		on_activity = 1000103,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -12145,7 +12217,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1950001",
 		default_background = "bg_masaina_story_mode_1",
-		on_activity = 50081,
+		on_activity = 1000103,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -12267,7 +12339,7 @@ end)()
 		guide_id = "",
 		ani_name = "Map_1950002",
 		default_background = "bg_masaina_story_mode_1",
-		on_activity = 50081,
+		on_activity = 1000103,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -12390,7 +12462,7 @@ end)()
 		ani_name = "Map_1950003",
 		ani_controller = "",
 		default_background = "bg_masaina_story_mode_1",
-		on_activity = 50081,
+		on_activity = 1000103,
 		map_name = "levelscene_mapselect_sp",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -12482,7 +12554,7 @@ end)()
 		ani_name = "Map_1950003",
 		ani_controller = "",
 		default_background = "bg_masaina_story_mode_1",
-		on_activity = 50081,
+		on_activity = 1000103,
 		map_name = "levelscene_mapselect_ex",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -12575,7 +12647,7 @@ end)()
 		ani_name = "Map_1960001",
 		ani_controller = "",
 		default_background = "bg_daofeng_2",
-		on_activity = 50114,
+		on_activity = 1000123,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -12679,7 +12751,7 @@ end)()
 		ani_name = "Map_1960003",
 		ani_controller = "",
 		default_background = "bg_daofeng_2",
-		on_activity = 50114,
+		on_activity = 1000123,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -12783,7 +12855,7 @@ end)()
 		ani_name = "Map_1960001",
 		ani_controller = "",
 		default_background = "bg_daofeng_2",
-		on_activity = 50114,
+		on_activity = 1000123,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -12887,7 +12959,7 @@ end)()
 		ani_name = "Map_1960003",
 		ani_controller = "",
 		default_background = "bg_daofeng_2",
-		on_activity = 50114,
+		on_activity = 1000123,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -12991,7 +13063,7 @@ end)()
 		ani_name = "Map_1960004",
 		ani_controller = "",
 		default_background = "bg_daofeng_2",
-		on_activity = 50114,
+		on_activity = 1000123,
 		map_name = "levelscene_mapselect_sp",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -13086,7 +13158,7 @@ end)()
 		ani_name = "Map_1960002",
 		ani_controller = "",
 		default_background = "bg_daofeng_2",
-		on_activity = 50114,
+		on_activity = 1000123,
 		map_name = "levelscene_mapselect_ex",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -13182,7 +13254,7 @@ end)()
 		ani_name = "Map_1970001",
 		ani_controller = "",
 		default_background = "bg_jufengv3_1",
-		on_activity = 50181,
+		on_activity = 51601,
 		map_name = "levelscene_mapselect_part1",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -13273,7 +13345,7 @@ end)()
 		ani_name = "Map_1970002",
 		ani_controller = "",
 		default_background = "bg_jufengv3_1",
-		on_activity = 50181,
+		on_activity = 51601,
 		map_name = "levelscene_mapselect_part2",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -13364,7 +13436,7 @@ end)()
 		ani_name = "Map_1970001",
 		ani_controller = "",
 		default_background = "bg_jufengv3_1",
-		on_activity = 50181,
+		on_activity = 51601,
 		map_name = "levelscene_mapselect_sp",
 		cloud_suffix = "",
 		story_inactive_color = "162443",
@@ -13449,7 +13521,7 @@ end)()
 		ani_name = "Map_1970002",
 		ani_controller = "",
 		default_background = "bg_jufengv3_1",
-		on_activity = 50181,
+		on_activity = 51601,
 		map_name = "levelscene_mapselect_ex",
 		cloud_suffix = "",
 		story_inactive_color = "162443",

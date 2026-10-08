@@ -41,7 +41,11 @@ slot0.GetType2Class = function()
 		[ActivityConst.ACTIVITY_TYPE_LOVE_LETTER_UP] = LoveLetterActivity,
 		[ActivityConst.ACTIVITY_TYPE_MALL] = MallActivity,
 		[ActivityConst.ACTIVITY_TYPE_AUCTION_GAME] = AuctionGameActivity,
-		[ActivityConst.ACTIVITY_TYPE_REVERSE_PACMAN] = ReversePacmanActivity
+		[ActivityConst.ACTIVITY_TYPE_REVERSE_PACMAN] = ReversePacmanActivity,
+		[ActivityConst.ACTIVITY_TYPE_PT_RANK] = PTRankActivity,
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = PTBuffActivity,
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = PTBuffActivity,
+		[ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE] = URExchangeActivity
 	}
 
 	return uv0
@@ -208,7 +212,7 @@ slot0.getDataConfigTable = function(slot0)
 
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
 		return pg.activity_event_monopoly[tonumber(slot2)]
-	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PIZZA_PT or slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF or slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2 then
 		return pg.activity_event_pt[tonumber(slot2)]
 	elseif slot1 == ActivityConst.ACTIVITY_TYPE_VOTE then
 		return pg.activity_vote[tonumber(slot2)]
@@ -330,9 +334,7 @@ slot0.readyToAchieve = function(slot0)
 
 			return false
 		end,
-		[ActivityConst.ACTIVITY_TYPE_TASK_LIST] = function (...)
-			return uv0.readyToAchieveDic[ActivityConst.ACTIVITY_TYPE_TASKS](...)
-		end,
+		[ActivityConst.ACTIVITY_TYPE_TASK_LIST] = ActivityConst.ACTIVITY_TYPE_TASKS,
 		[ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN] = function (slot0)
 			return not (slot0:GetDataConfig("hp") <= slot0.data3) and slot0:GetCountForHitMonster() > 0
 		end,
@@ -373,9 +375,8 @@ slot0.readyToAchieve = function(slot0)
 
 			return slot2 and slot3 or slot4 or type(slot0:getConfig("config_client")[2]) == "number" and ManualSignActivity.IsManualSignActAndAnyAwardCanGet(slot6)
 		end,
-		[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = function (...)
-			return uv0.readyToAchieveDic[ActivityConst.ACTIVITY_TYPE_PIZZA_PT](...)
-		end,
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = ActivityConst.ACTIVITY_TYPE_PIZZA_PT,
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = ActivityConst.ACTIVITY_TYPE_PIZZA_PT,
 		[ActivityConst.ACTIVITY_TYPE_RETURN_AWARD] = function (slot0)
 			if slot0.data1 == 1 then
 				slot3 = pg.activity_template_headhunting[slot0.id].target
@@ -690,16 +691,20 @@ slot0.readyToAchieve = function(slot0)
 			end):value()
 		end,
 		[ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE] = function (slot0)
-			if getProxy(ShopsProxy):getActivityShops() == nil then
-				return false
+			slot1 = getProxy(ShopsProxy):getActivityShopById(slot0:GetConfigClientSetting("shopId"))
+			slot5 = "goodsId"
+
+			for slot5, slot6 in ipairs(slot0:GetConfigClientSetting(slot5)) do
+				if slot1:GetCommodityById(slot6):canPurchase() then
+					slot8 = slot7:GetConsume()
+
+					if slot8.count <= slot8:getOwnedCount() then
+						return true
+					end
+				end
 			end
 
-			slot1 = slot0:getConfig("config_client")
-			slot3 = #slot1.goodsId + 1
-
-			return slot4 < slot3 and (slot3 > slot3 - _.reduce(slot1.goodsId, 0, function (slot0, slot1)
-				return slot0 + getProxy(ShopsProxy):getActivityShopById(uv0.shopId):GetCommodityById(slot1):GetPurchasableCnt()
-			end) and pg.activity_shop_template[slot1.goodsId[slot4]] or nil).resource_num <= getProxy(PlayerProxy):getData():getResource(slot1.uPtId)
+			return false
 		end,
 		[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING] = function (slot0)
 			return slot0:getData1() > 0
@@ -946,17 +951,16 @@ slot0.isShow = function(slot0)
 
 		return slot1:isSurveyOpen() and not slot1:isSurveyDone()
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE then
-		if getProxy(ShopsProxy):getActivityShops() == nil then
-			return false
+		slot1 = getProxy(ShopsProxy):getActivityShopById(slot0:GetConfigClientSetting("shopId"))
+		slot5 = "goodsId"
+
+		for slot5, slot6 in ipairs(slot0:GetConfigClientSetting(slot5)) do
+			if slot1:GetCommodityById(slot6):canPurchase() then
+				return true
+			end
 		end
 
-		slot1 = slot0:getConfig("config_client")
-		slot2 = getProxy(PlayerProxy):getData():getResource(slot1.uPtId)
-		slot3 = #slot1.goodsId + 1
-
-		return slot3 > slot3 - _.reduce(slot1.goodsId, 0, function (slot0, slot1)
-			return slot0 + getProxy(ShopsProxy):getActivityShopById(uv0.shopId):GetCommodityById(slot1):GetPurchasableCnt()
-		end)
+		return false
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_RYZA and table.contains({
 		ActivityConst.DORM_SIGN_ID,
 		ActivityConst.DORM_SIGN_ID_2,
@@ -1071,12 +1075,16 @@ slot0.getDayIndex = function(slot0)
 end
 
 slot0.getStartTime = function(slot0)
-	slot1, slot2 = parseTimeConfig(slot0:getConfig("time"))
-
-	if slot2 and slot2[1] == "newuser" then
-		return slot0.stopTime - slot2[3] * 86400
+	if slot0:getConfig("time") == "stop" then
+		return pg.TimeMgr.GetInstance():GetServerTime()
 	else
-		return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[2])
+		slot1, slot2 = parseTimeConfig(slot0:getConfig("time"))
+
+		if slot2 and slot2[1] == "newuser" then
+			return slot0.stopTime - slot2[3] * 86400
+		else
+			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[2])
+		end
 	end
 end
 
@@ -1111,7 +1119,7 @@ slot0.canPermanentFinish = function(slot0)
 		}), function (slot0)
 			return uv0:getFinishTaskById(slot0) ~= nil
 		end)
-	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF then
+	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF or slot1 == ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2 then
 		slot2 = ActivityPtData.New(slot0)
 
 		return slot2.level >= #slot2.targets
@@ -1121,9 +1129,13 @@ slot0.canPermanentFinish = function(slot0)
 end
 
 slot0.GetShopTime = function(slot0)
-	slot1 = pg.TimeMgr.GetInstance()
+	slot2 = slot0:getStartTime()
 
-	return slot1:STimeDescS(slot0:getStartTime(), "%y.%m.%d") .. " - " .. slot1:STimeDescS(slot0.stopTime, "%y.%m.%d")
+	if pg.TimeMgr.GetInstance():STimeDescS(slot0.stopTime, "*t").hour == 0 and slot4.min == 0 and slot4.sec == 0 then
+		return slot1:STimeDescS(slot2, "%y.%m.%d") .. " - " .. string.format("%s.%s.%s", slot4.year, slot4.month, slot4.day - 1)
+	else
+		return slot1:STimeDescS(slot2, "%y.%m.%d") .. " - " .. slot1:STimeDescS(slot3, "%y.%m.%d")
+	end
 end
 
 slot0.GetHei5Info = function(slot0)
@@ -1253,6 +1265,61 @@ end
 
 slot0.GetPlayerActivyIDKey = function(slot0)
 	return "Activity_PlayerPrefs_PlayerId_" .. getProxy(PlayerProxy):getPlayerId() .. "ActivityID_" .. slot0
+end
+
+slot0.GetConfigClientPTDrop = function(slot0)
+	if slot0:isEnd() then
+		return nil
+	end
+
+	if slot0:GetConfigClientSetting("PT_ACT") then
+		return getProxy(ActivityProxy):getActivityById(slot0:GetConfigClientSetting("PT_ACT")) and slot1:GetPTDrop() or nil
+	elseif slot0:GetConfigClientSetting("PTID") then
+		return Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = slot0:GetConfigClientSetting("PTID")
+		})
+	elseif slot0:GetConfigClientSetting("ptId") then
+		return Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = slot0:GetConfigClientSetting("ptId")
+		})
+	end
+
+	return nil
+end
+
+slot0.GetConfigClientPTActivity = function(slot0)
+	if slot0:isEnd() then
+		return nil
+	end
+
+	if slot0:GetConfigClientSetting("PT_ACT") then
+		return getProxy(ActivityProxy):getActivityById(slot0:GetConfigClientSetting("PT_ACT"))
+	else
+		return slot0:GetConfigClientPTDrop() and getProxy(ActivityProxy):GetPTActivityByRes(slot1) or nil
+	end
+end
+
+slot2 = function(slot0)
+	slot2 = string.split(pg.TimeMgr.GetInstance():STimeDescC(slot0.stopTime, "%Y/%m/%d/%H/%M/%S"), "/")
+	slot4 = string.split(pg.TimeMgr.GetInstance():STimeDescC(slot0:getStartTime(), "%Y/%m/%d/%H/%M/%S"), "/")
+
+	return GetActTimeDesc(false, (slot0:getConfig("config_client").is_maintain or 0) == ActivityRemasterData.MAINTAIN, slot4[2], slot4[3], slot2[2], slot2[3], slot2[4], slot2[5], slot2[6])
+end
+
+slot0.GetActivityTimeStr = function(slot0, slot1)
+	if slot0:getConfig("time") == "stop" then
+		if not getProxy(ActivityRemasterProxy):GetActivaingReamsterData() then
+			return ""
+		end
+
+		return slot3:GetActivityTimeDesc(slot2.id)
+	elseif slot1 then
+		return ""
+	else
+		return uv0(slot2)
+	end
 end
 
 return slot0

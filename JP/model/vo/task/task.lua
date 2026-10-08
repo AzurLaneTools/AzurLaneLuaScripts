@@ -22,6 +22,8 @@ slot1 = {
 }
 slot0.TASK_PROGRESS_UPDATE = 0
 slot0.TASK_PROGRESS_APPEND = 1
+slot0.MEDAL_TYPE_TROPHY = 1
+slot0.MEDAL_TYPE_ACT = 2
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
@@ -97,7 +99,13 @@ slot0.getProgress = function(slot0)
 			return getProxy(BagProxy):getItemCountById(tonumber(tonumber(uv0:getConfig("target_id"))))
 		end,
 		[TASK_SUB_TYPE_PT] = function ()
-			return getProxy(ActivityProxy):getActivityById(tonumber(uv0:getConfig("target_id_2"))) and slot0.data1 or 0
+			return getProxy(ActivityProxy):GetPTActivityByRes(Drop.New({
+				type = DROP_TYPE_RESOURCE,
+				id = tonumber(uv0:getConfig("target_id"))
+			})) and slot1:GetTotalPtCount() or 0
+		end,
+		[TASK_SUB_TYPE_PT_PLUS] = function ()
+			return getProxy(ActivityProxy):getActivityById(tonumber(uv0:getConfig("target_id"))) and slot0:GetTotalPtCount() or 0
 		end,
 		[TASK_SUB_TYPE_PLAYER_RES] = function ()
 			return getProxy(PlayerProxy):getData():getResById(tonumber(uv0:getConfig("target_id")))
@@ -460,13 +468,7 @@ slot0.OwnSpAward = function(slot0)
 	end
 
 	slot3 = function(slot0)
-		for slot6, slot7 in pairs(getProxy(PlayerProxy):getRawData():getActivityMedalGroup()) do
-			if slot7:OwnMedel(slot0) then
-				return true
-			end
-		end
-
-		return false
+		return getProxy(PlayerProxy):getRawData():getActivityMedalExist(slot0)
 	end
 
 	if ({
@@ -478,14 +480,28 @@ slot0.OwnSpAward = function(slot0)
 	elseif slot4.type == DROP_TYPE_VITEM and type(pg.item_virtual_data_statistics[slot4.id].album_config) == "table" then
 		slot7 = slot5[2]
 
-		if slot5[1] == 1 then
+		if slot5[1] == uv0.MEDAL_TYPE_TROPHY then
 			return slot2(slot7)
-		elseif slot6 == 2 then
+		elseif slot6 == uv0.MEDAL_TYPE_ACT then
 			return slot3(slot7)
 		end
 	end
 
 	return false
+end
+
+slot0.HasActMedalAward = function(slot0)
+	slot1 = function(slot0)
+		if slot0[1] == DROP_TYPE_VITEM then
+			return type(pg.item_virtual_data_statistics[slot0[2]].album_config) == "table" and slot3[1] == uv0.MEDAL_TYPE_ACT
+		end
+
+		return false
+	end
+
+	return _.any(slot0:getConfig("award_display"), function (slot0)
+		return uv0(slot0)
+	end)
 end
 
 return slot0

@@ -4,16 +4,12 @@ pg.shop_skin_subsheet = rawget(pg, "shop_skin_subsheet") or setmetatable({
 }, confNEO)
 pg.shop_skin_subsheet.all = {
 	1,
-	2,
-	3
+	2
 }
 pg.shop_skin_subsheet.get_id_list_by_type = {
 	[0] = {
 		1,
 		2
-	},
-	{
-		3
 	}
 }
 pg.base = pg.base or {}
@@ -37,18 +33,5 @@ pg.base.shop_skin_subsheet = {}
 		enter_subsheet = 2,
 		sort = 2,
 		param = {}
-	}
-	pg.base.shop_skin_subsheet[3] = {
-		time = "",
-		site_tag_text = "tag_text",
-		type = 1,
-		id = 3,
-		enter_subsheet = 3,
-		sort = 3,
-		param = {
-			70033,
-			70034,
-			70035
-		}
 	}
 end)()

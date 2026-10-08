@@ -44,14 +44,17 @@ slot0.OnFirstFlush = function(slot0)
 
 		uv0:Switch(slot0)
 	end, SFX_PANEL)
-
-	slot0.inPhase2 = slot0.timeStamp and pg.TimeMgr.GetInstance():GetServerTime() - slot0.timeStamp > 0
-
-	triggerToggle(slot0.switchBtn, slot0.inPhase2)
+	slot0:CheckSwitch2Phase2()
 
 	if not IsNil(slot0.gotTag:Find("Text")) then
 		setText(slot0.gotTag:Find("Text"), i18n("avatarframe_got"))
 	end
+end
+
+slot0.CheckSwitch2Phase2 = function(slot0)
+	slot0.inPhase2 = slot0.timeStamp and pg.TimeMgr.GetInstance():GetServerTime() - slot0.timeStamp > 0
+
+	triggerToggle(slot0.switchBtn, slot0.inPhase2)
 end
 
 slot0.OnUpdateFlush = function(slot0)

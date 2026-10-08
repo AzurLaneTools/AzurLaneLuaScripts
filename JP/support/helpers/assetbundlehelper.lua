@@ -137,14 +137,17 @@ slot0.GetTotalRefList = function(slot0)
 	end
 
 	slot2 = {}
+	slot3 = {}
 
-	for slot6 = 0, ResourceMgr.Inst:GetFullDependencies(slot0).Length - 1 do
-		if not table.contains(slot2, slot1[slot6]) then
-			table.insert(slot2, slot1[slot6])
+	for slot7, slot8 in ipairs(ResourceMgr.Inst:GetFullDependencies(slot0):ToTable()) do
+		if not slot2[slot8] then
+			slot2[slot8] = true
+
+			table.insert(slot3, slot8)
 		end
 	end
 
-	return slot2
+	return slot3
 end
 
 return slot0

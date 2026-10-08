@@ -48,19 +48,11 @@ slot0.getProgress = function(slot0)
 
 			slot1 = 0
 		end
-	elseif slot0.type == 6 and slot0.subType == TASK_SUB_TYPE_PT then
-		if getProxy(ActivityProxy):getActivityById(tonumber(slot0:getConfig("target_id_2"))) then
-			slot1 = slot3.data1 or 0
-		else
-			warning("找不到活动数据中物品得的数量", slot0.id)
 
-			slot1 = 0
-		end
-	elseif slot0:getConfig("target_num") < slot0.progress then
-		slot1 = slot0:getConfig("target_num")
+		return slot1 or 0
+	else
+		return uv0.super.getProgress(slot0)
 	end
-
-	return slot1 or 0
 end
 
 slot0.getTarget = function(slot0)

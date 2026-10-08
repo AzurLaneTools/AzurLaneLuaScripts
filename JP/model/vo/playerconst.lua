@@ -47,6 +47,29 @@ slot2 = function(slot0)
 					slot2:RemoveItem(slot0.id, -slot0.count)
 				end
 			end
+		end,
+		[DROP_TYPE_VITEM] = function (slot0)
+			assert(({
+				[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = true,
+				[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = true
+			})[getProxy(ActivityProxy):getActivityById(slot0:getConfig("link_id")):getConfig("type")], "error activity type for vitem drop")
+			assert(slot0:getConfig("virtual_type") == 103, "error virtual_type for vitem drop")
+
+			if slot1 and not slot1:isEnd() then
+				if slot1:getDataConfig("type") == 9 then
+					slot1.data1 = slot1.data1 + math.abs(slot0.count)
+				end
+
+				if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2 then
+					slot1.data4 = slot1.data4 + slot0.count
+
+					getProxy(ActivityProxy):UpdatePTRank({
+						slot0
+					})
+				end
+
+				getProxy(ActivityProxy):updateActivity(slot1)
+			end
 		end
 	}
 

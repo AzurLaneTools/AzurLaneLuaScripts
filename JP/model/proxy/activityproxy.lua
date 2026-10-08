@@ -387,13 +387,19 @@ end
 slot0.getActivitiesByTypes = function(slot0, slot1)
 	slot2 = {}
 
-	for slot6, slot7 in pairs(slot0.data) do
-		if table.contains(slot1, slot7:getConfig("type")) then
-			table.insert(slot2, slot7)
+	for slot6, slot7 in ipairs(slot1) do
+		slot2[slot7] = true
+	end
+
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot0.data) do
+		if slot2[slot8:getConfig("type")] then
+			table.insert(slot3, slot8)
 		end
 	end
 
-	return slot2
+	return slot3
 end
 
 slot0.getMilitaryExerciseActivity = function(slot0)
@@ -517,11 +523,19 @@ slot0.checkHxActivity = function(slot0, slot1)
 end
 
 slot0.getBannerDisplays = function(slot0)
-	return _(pg.activity_banner.all):chain():map(function (slot0)
+	slot1 = _(pg.activity_banner.all):chain():map(function (slot0)
 		return pg.activity_banner[slot0]
 	end):filter(function (slot0)
 		return pg.TimeMgr.GetInstance():inTime(slot0.time) and slot0.type ~= GAMEUI_BANNER_9 and slot0.type ~= GAMEUI_BANNER_11 and slot0.type ~= GAMEUI_BANNER_10 and slot0.type ~= GAMEUI_BANNER_12 and slot0.type ~= GAMEUI_BANNER_13
 	end):value()
+
+	for slot6, slot7 in ipairs(getProxy(ActivityRemasterProxy):GetBanners()) do
+		if not table.contains(slot1, pg.activity_banner[slot7]) then
+			table.insert(slot1, slot8)
+		end
+	end
+
+	return slot1
 end
 
 slot0.getActiveBannerByType = function(slot0, slot1)
@@ -1092,7 +1106,10 @@ end
 
 slot0.GetActBossLinkPTActID = function(slot0, slot1)
 	return table.Find(slot0.data, function (slot0, slot1)
-		if slot1:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_PT_BUFF then
+		if not ({
+			[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = true,
+			[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = true
+		})[slot1:getConfig("type")] then
 			return
 		end
 
@@ -1185,6 +1202,66 @@ slot0.GetFakeGiftPackActivity = function(slot0, slot1)
 			return slot6
 		end
 	end
+end
+
+slot0.UpdatePTRank = function(slot0, slot1)
+	slot2 = {}
+	slot6 = ActivityConst.ACTIVITY_TYPE_PT_RANK
+
+	for slot6, slot7 in ipairs(slot0:getActivitiesByType(slot6)) do
+		slot8 = slot7:GetPTDrop()
+
+		if slot7 and not slot7:isEnd() then
+			assert(not slot2[slot8.type .. "_" .. slot8.id])
+
+			slot2[slot8.type .. "_" .. slot8.id] = slot7
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot1) do
+		if slot2[slot7.type .. "_" .. slot7.id] then
+			slot8.data1 = slot8.data1 + slot7.count
+
+			slot0:updateActivity(slot8)
+		end
+	end
+end
+
+slot0.GetShopActivityByRes = function(slot0, slot1)
+	slot2 = getProxy(ShopsProxy)
+	slot6 = ActivityConst.ACTIVITY_TYPE_SHOP
+
+	for slot6, slot7 in ipairs(slot0:getActivitiesByType(slot6)) do
+		slot8 = slot2:getActivityShopById(slot7.id)
+
+		if underscore.any(slot8:GetResList(), function (slot0)
+			return slot0.type == uv0.type and slot0.id == uv0.id
+		end) then
+			return slot7
+		end
+	end
+
+	return nil
+end
+
+slot0.GetPTActivityByRes = function(slot0, slot1)
+	if slot1.type == DROP_TYPE_VITEM then
+		return slot1:getConfig("link_id") and slot0:getActivityById(slot2) or nil
+	else
+		slot5 = {
+			ActivityConst.ACTIVITY_TYPE_PT_RANK,
+			slot6
+		}
+		slot6 = ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2
+
+		for slot5, slot6 in ipairs(slot0:getActivitiesByTypes(slot5)) do
+			if slot6:GetPTDrop() and slot7.type == slot1.type and slot7.id == slot1.id then
+				return slot6
+			end
+		end
+	end
+
+	return nil
 end
 
 return slot0

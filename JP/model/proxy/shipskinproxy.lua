@@ -579,7 +579,10 @@ slot0.GetEncoreSkins = function(slot0)
 		end
 	end
 
-	for slot7, slot8 in ipairs(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)) do
+	for slot7, slot8 in ipairs(slot2:getActivitiesByTypes({
+		ActivityConst.ACTIVITY_TYPE_PT_BUFF,
+		ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2
+	})) do
 		if slot8:getDataConfig("type") == 5 and not slot3(slot8) then
 			slot12 = "config_data"
 
@@ -703,6 +706,10 @@ slot0.GetInTimeSkins = function(slot0)
 		elseif slot6.type == Goods.TYPE_ACTIVITY_EXTRA and pg.activity_shop_extra[slot6.id].shop_tag ~= 1 then
 			table.remove(slot1, slot5)
 		end
+	end
+
+	for slot5, slot6 in pairs(slot1) do
+		print("=====================", slot6.id, slot6:getSkinId())
 	end
 
 	return slot1

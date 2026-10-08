@@ -79,12 +79,12 @@ slot0.UpdateList = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.Show = function(slot0, slot1)
-	slot6 = slot1.resId
+	slot6 = slot1.resDrop
 	slot0.blur = slot1.blur
 	slot0.resIcon = nil
 
 	slot0:UpdateTitle(slot1.type)
-	slot0:updateResIcon(slot1.resId, slot1.resIcon, slot1.type)
+	slot0:updateResIcon(slot1.resDrop, slot1.type)
 	slot0:UpdateList(slot1.dropList, slot1.targets, slot1.level, slot1.unlockStamps)
 
 	slot0.totalTxt.text = slot1.count
@@ -101,48 +101,60 @@ end
 slot0.UpdateTitle = function(slot0, slot1)
 	slot2 = ""
 
-	if slot1 == 2 then
-		slot0.cntTitle = i18n("pt_total_count", i18n("pt_cosume", slot2))
-		slot0.resTitle = i18n("pt_cosume", slot2)
-		slot0.cntTitle = string.gsub(slot0.cntTitle, "：", "")
-	elseif slot1 == 3 then
-		slot0.cntTitle = i18n("pt_ship_now")
-		slot0.resTitle = i18n("pt_ship_goal")
-	elseif slot1 == 4 then
-		slot0.cntTitle = i18n("cumulative_victory_now_tip")
-		slot0.resTitle = i18n("cumulative_victory_target_tip")
-	elseif slot1 == 5 then
-		slot0.cntTitle = i18n("npcfriendly_total_count")
-		slot0.resTitle = i18n("npcfriendly_count")
-	elseif slot1 == 6 then
-		slot0.cntTitle = i18n("activity_yanhua_tip3")
-		slot0.resTitle = i18n("activity_yanhua_tip2")
-	else
-		slot0.cntTitle = i18n("pt_total_count", slot2)
-		slot0.resTitle = i18n("target_get_tip")
-		slot0.cntTitle = string.gsub(slot0.cntTitle, "：", "")
-	end
+	switch(slot1, {
+		function ()
+			uv0.cntTitle = i18n("pt_total_count", uv1)
+			uv0.resTitle = i18n("target_get_tip")
+			uv0.cntTitle = string.gsub(uv0.cntTitle, "：", "")
+		end,
+		function ()
+			uv0.cntTitle = i18n("pt_total_count", i18n("pt_cosume", uv1))
+			uv0.resTitle = i18n("pt_cosume", uv1)
+			uv0.cntTitle = string.gsub(uv0.cntTitle, "：", "")
+		end,
+		function ()
+			uv0.cntTitle = i18n("pt_ship_now")
+			uv0.resTitle = i18n("pt_ship_goal")
+		end,
+		function ()
+			uv0.cntTitle = i18n("cumulative_victory_now_tip")
+			uv0.resTitle = i18n("cumulative_victory_target_tip")
+		end,
+		function ()
+			uv0.cntTitle = i18n("npcfriendly_total_count")
+			uv0.resTitle = i18n("npcfriendly_count")
+		end,
+		function ()
+			uv0.cntTitle = i18n("activity_yanhua_tip3")
+			uv0.resTitle = i18n("activity_yanhua_tip2")
+		end,
+		[9.0] = 2,
+		[8.0] = 1
+	}, function ()
+		uv0.cntTitle = i18n("pt_total_count", uv1)
+		uv0.resTitle = i18n("target_get_tip")
+		uv0.cntTitle = string.gsub(uv0.cntTitle, "：", "")
+	end)
 end
 
-slot0.updateResIcon = function(slot0, slot1, slot2, slot3)
-	if slot3 == 2 or slot3 ~= 3 and slot3 ~= 4 and slot3 ~= 5 and slot3 ~= 6 then
-		if slot1 then
-			slot0.resIcon = Drop.New({
-				type = DROP_TYPE_RESOURCE,
-				id = slot1
-			}):getIcon()
-		elseif slot2 then
-			slot0.resIcon = slot2
-		end
+slot1 = {
+	nil,
+	true,
+	false,
+	false,
+	false,
+	false
+}
 
-		if slot0.ptIcon and slot0.resIcon and slot0.resIcon ~= "" then
-			setActive(slot0.ptIcon, true)
-			LoadImageSpriteAsync(slot0.resIcon, slot0.totalTitleIcon, false)
-		else
-			setActive(slot0.ptIcon, false)
-		end
-	else
-		setActive(slot0.ptIcon, false)
+slot0.updateResIcon = function(slot0, slot1, slot2)
+	if defaultValue(uv0[slot2], true) then
+		slot0.resIcon = slot1:getIcon()
+	end
+
+	setActive(slot0.ptIcon, slot0.resIcon)
+
+	if slot0.resIcon then
+		LoadImageSpriteAsync(slot0.resIcon, slot0.totalTitleIcon, false)
 	end
 end
 

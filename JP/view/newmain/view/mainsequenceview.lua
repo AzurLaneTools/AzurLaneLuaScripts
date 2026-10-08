@@ -40,6 +40,7 @@ slot0.Ctor = function(slot0)
 		MainRequestNewInstagramDataSequence.New(),
 		MainRequestReversePacmanActDataSequence.New(),
 		MainFetchPrevPeriodCrusingSequence.New(),
+		MainTipActivityRemasterSequence.New(),
 		MainPrevPeriodCrusingChargeTipSequence.New(),
 		MainCalcHxSequence.New(),
 		MainGuideSequence.New(),

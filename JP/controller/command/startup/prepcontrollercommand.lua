@@ -314,7 +314,6 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.EVENT_GIVEUP, EventGiveUpCommand)
 	slot0.facade:registerCommand(GAME.ACTIVITY_OPERATION, ActivityOperationCommand)
 	slot0.facade:registerCommand(GAME.ACTIVITY_BOSS_PAGE_UPDATE, ActivityBossPageUpdateCommond)
-	slot0.facade:registerCommand(GAME.GET_ACTIVITY_SHOP, GetActivityShopCommand)
 	slot0.facade:registerCommand(GAME.MONOPOLY_OP, MonopolyOPCommand)
 	slot0.facade:registerCommand(GAME.EDIT_ACTIVITY_FLEET, EditActivityFleetCommand)
 	slot0.facade:registerCommand(GAME.BLACK_WHITE_GRID_OP, BlackWhiteGridOPCommand)
@@ -735,6 +734,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.REVERSE_PACMAN_GIFT_ROLE, ReversePacmanGiftRoleCommand)
 	slot0.facade:registerCommand(GAME.REVERSE_PACMAN_ADD_FAVORABILITY, ReversePacmanAddFavorabilityCommand)
 	slot0.facade:registerCommand(GAME.REVERSE_PACMAN_PASS_LEVEL, ReversePacmanPassLevelCommand)
+	slot0.facade:registerCommand(GAME.ACT_REMASTER_ACTIVE, ActiveActReamsterCommand)
 end
 
 return slot0

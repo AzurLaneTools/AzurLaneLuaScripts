@@ -235,7 +235,7 @@ slot0.RefreshResItemList = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0.shopResItemList[slot5] = slot0.shopResItemList[slot5] or ShopResItem.New(go(slot0.shopResItem), slot0.shopResParent)
 
-		slot0.shopResItemList[slot5]:SetData(slot6.type, slot6.resID, slot6.cnt)
+		slot0.shopResItemList[slot5]:SetData(slot6)
 	end
 
 	for slot5 = #slot1 + 1, #slot0.shopResItemList do

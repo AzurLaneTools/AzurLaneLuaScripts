@@ -1083,6 +1083,7 @@ pg.activity_template.all = {
 	51161,
 	51162,
 	51160,
+	51163,
 	7011,
 	7012,
 	7013,
@@ -1504,7 +1505,114 @@ pg.activity_template.all = {
 	990024,
 	990025,
 	990026,
-	999901
+	999901,
+	1000000,
+	1000001,
+	1000002,
+	1000003,
+	1000004,
+	1000005,
+	1000006,
+	1000007,
+	1000008,
+	1000009,
+	1000010,
+	1000011,
+	1000012,
+	1000021,
+	1000022,
+	1000023,
+	1000024,
+	1000025,
+	1000026,
+	1000027,
+	1000028,
+	1000029,
+	1000030,
+	1000031,
+	1000032,
+	1000035,
+	1000041,
+	1000042,
+	1000043,
+	1000044,
+	1000045,
+	1000046,
+	1000047,
+	1000048,
+	1000049,
+	1000050,
+	1000051,
+	1000052,
+	1000053,
+	1000054,
+	1000055,
+	1000056,
+	1000057,
+	1000058,
+	1000061,
+	1000062,
+	1000063,
+	1000064,
+	1000065,
+	1000066,
+	1000067,
+	1000068,
+	1000069,
+	1000070,
+	1000071,
+	1000072,
+	1000075,
+	1000076,
+	1000081,
+	1000082,
+	1000083,
+	1000084,
+	1000085,
+	1000086,
+	1000087,
+	1000088,
+	1000089,
+	1000090,
+	1000091,
+	1000092,
+	1000093,
+	1000094,
+	1000095,
+	1000096,
+	1000097,
+	1000098,
+	1000101,
+	1000102,
+	1000103,
+	1000104,
+	1000105,
+	1000106,
+	1000107,
+	1000108,
+	1000109,
+	1000110,
+	1000111,
+	1000112,
+	1000121,
+	1000122,
+	1000123,
+	1000124,
+	1000125,
+	1000126,
+	1000127,
+	1000128,
+	1000129,
+	1000130,
+	1000131,
+	1000132,
+	1000133,
+	1000134,
+	1000135,
+	1000136,
+	1000137,
+	1000138,
+	1000140
 }
 pg.activity_template.get_id_list_by_type = {
 	[0] = {
@@ -1576,7 +1684,14 @@ pg.activity_template.get_id_list_by_type = {
 		50381,
 		50433,
 		50467,
-		50491
+		50491,
+		1000007,
+		1000027,
+		1000047,
+		1000067,
+		1000087,
+		1000107,
+		1000127
 	},
 	{
 		100003
@@ -1625,7 +1740,14 @@ pg.activity_template.get_id_list_by_type = {
 		50325,
 		50383,
 		50413,
-		50473
+		50473,
+		1000011,
+		1000031,
+		1000051,
+		1000071,
+		1000091,
+		1000109,
+		1000131
 	},
 	{
 		4
@@ -1665,7 +1787,12 @@ pg.activity_template.get_id_list_by_type = {
 		50286,
 		50336,
 		50436,
-		50476
+		50476,
+		1000035,
+		1000055,
+		1000075,
+		1000095,
+		1000135
 	},
 	[11] = {
 		5078,
@@ -1759,7 +1886,21 @@ pg.activity_template.get_id_list_by_type = {
 		50427,
 		50461,
 		50462,
-		50481
+		50481,
+		1000003,
+		1000004,
+		1000023,
+		1000024,
+		1000043,
+		1000044,
+		1000063,
+		1000064,
+		1000083,
+		1000084,
+		1000103,
+		1000104,
+		1000123,
+		1000124
 	},
 	[13] = {
 		710,
@@ -1965,6 +2106,7 @@ pg.activity_template.get_id_list_by_type = {
 		51154,
 		51156,
 		51162,
+		51163,
 		10138,
 		980001,
 		970001,
@@ -2041,7 +2183,23 @@ pg.activity_template.get_id_list_by_type = {
 		50487,
 		50489,
 		50503,
-		100001
+		100001,
+		1000005,
+		1000025,
+		1000045,
+		1000054,
+		1000058,
+		1000065,
+		1000076,
+		1000085,
+		1000094,
+		1000097,
+		1000105,
+		1000111,
+		1000125,
+		1000134,
+		1000138,
+		1000140
 	},
 	[14] = {
 		4877,
@@ -2103,7 +2261,14 @@ pg.activity_template.get_id_list_by_type = {
 		50362,
 		50430,
 		50464,
-		50486
+		50486,
+		1000002,
+		1000022,
+		1000042,
+		1000062,
+		1000082,
+		1000102,
+		1000122
 	},
 	[15] = {
 		18,
@@ -2347,7 +2512,14 @@ pg.activity_template.get_id_list_by_type = {
 		50444,
 		50471,
 		50480,
-		990021
+		990021,
+		1000009,
+		1000029,
+		1000049,
+		1000069,
+		1000089,
+		1000108,
+		1000129
 	},
 	[19] = {
 		1093,
@@ -2459,7 +2631,14 @@ pg.activity_template.get_id_list_by_type = {
 		50407,
 		50428,
 		50466,
-		50484
+		50484,
+		1000006,
+		1000026,
+		1000046,
+		1000066,
+		1000086,
+		1000106,
+		1000126
 	},
 	[29] = {
 		5201,
@@ -2687,7 +2866,13 @@ pg.activity_template.get_id_list_by_type = {
 		50232,
 		50265,
 		50322,
-		50472
+		50472,
+		1000010,
+		1000030,
+		1000050,
+		1000070,
+		1000090,
+		1000130
 	},
 	[59] = {
 		368
@@ -2900,7 +3085,8 @@ pg.activity_template.get_id_list_by_type = {
 		50463,
 		50477,
 		50483,
-		50502
+		50502,
+		1000000
 	},
 	[76] = {
 		50801
@@ -2927,7 +3113,14 @@ pg.activity_template.get_id_list_by_type = {
 		50236,
 		50324,
 		50384,
-		50474
+		50474,
+		1000012,
+		1000032,
+		1000052,
+		1000072,
+		1000092,
+		1000110,
+		1000132
 	},
 	[86] = {
 		4919,
@@ -2986,7 +3179,13 @@ pg.activity_template.get_id_list_by_type = {
 		50230,
 		50264,
 		50321,
-		50470
+		50470,
+		1000008,
+		1000028,
+		1000048,
+		1000068,
+		1000088,
+		1000128
 	},
 	[88] = {
 		50043
@@ -3077,7 +3276,10 @@ pg.activity_template.get_id_list_by_type = {
 		51155,
 		50120,
 		50291,
-		50344
+		50344,
+		1000053,
+		1000093,
+		1000133
 	},
 	[111] = {
 		5260,
@@ -3088,7 +3290,8 @@ pg.activity_template.get_id_list_by_type = {
 	[112] = {
 		5265,
 		50094,
-		50375
+		50375,
+		1000112
 	},
 	[113] = {
 		5322,
@@ -3106,7 +3309,10 @@ pg.activity_template.get_id_list_by_type = {
 		51134,
 		50111,
 		50284,
-		50337
+		50337,
+		1000056,
+		1000096,
+		1000136
 	},
 	[116] = {
 		5523
@@ -3178,6 +3384,18 @@ pg.activity_template.get_id_list_by_type = {
 	},
 	[141] = {
 		998001
+	},
+	[174] = {
+		1000001,
+		1000021,
+		1000041,
+		1000057,
+		1000061,
+		1000081,
+		1000098,
+		1000101,
+		1000121,
+		1000137
 	},
 	[800] = {
 		990009,
@@ -42639,6 +42857,48 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[51163] = {
+		mark = 20261008,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51163,
+		page_core = "",
+		config_data = {
+			27619
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.activity_template[7011] = {
 		mark = 20230525,
 		time = "stop",
@@ -43778,6 +44038,8 @@ end)()
 			ui_name = "CrusingDisplayActPage29"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7030] = {
 		mark = 20260730,
 		type = 54,
@@ -43831,8 +44093,6 @@ end)()
 			ui_name = "CrusingDisplayActPage30"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7031] = {
 		mark = 20260924,
 		type = 54,
@@ -43939,7 +44199,8 @@ end)()
 			12049,
 			12050,
 			12051,
-			12052
+			12052,
+			12053
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
@@ -48506,6 +48767,8 @@ end)()
 			painting = "dadan_pt"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50089] = {
 		mark = 20250814,
 		page_info = "",
@@ -48527,8 +48790,6 @@ end)()
 			10
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50090] = {
 		mark = 20250814,
 		page_info = "",
@@ -52105,6 +52366,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50236] = {
 		mark = 20251113,
 		page_info = "",
@@ -52123,8 +52386,6 @@ end)()
 			65733
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50237] = {
 		mark = 20251113,
 		page_info = "",
@@ -56567,6 +56828,8 @@ end)()
 			535
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50404] = {
 		mark = 20260212,
 		type = 13,
@@ -56612,8 +56875,6 @@ end)()
 			shopItemID = 71294
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50405] = {
 		mark = 20260212,
 		page_info = "",
@@ -61196,6 +61457,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990025] = {
 		mark = 20260806,
 		page_info = "",
@@ -61245,8 +61508,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990026] = {
 		mark = 20260806,
 		page_info = "",
@@ -61326,5 +61587,3334 @@ end)()
 				}
 			}
 		}
+	}
+	pg.base.activity_template[1000000] = {
+		mark = 20261008,
+		time = "stop",
+		type = 74,
+		login_pop = 0,
+		config_id = 51031,
+		is_show = 49,
+		title_res_tag = "aersasi_pt",
+		id = 1000000,
+		page_core = "",
+		config_data = {},
+		page_info = {
+			class_name = "LuminousPtPage",
+			ui_name = "LuminousPtPage"
+		},
+		config_client = {
+			shopLinkActID = 51032,
+			highValueItemSort = {
+				13,
+				21,
+				23,
+				25,
+				28
+			}
+		}
+	}
+	pg.base.activity_template[1000001] = {
+		mark = 20261008,
+		time = "stop",
+		type = 174,
+		login_pop = 0,
+		config_id = 1000001,
+		is_show = 2,
+		title_res_tag = "ActivityRemasterCore_re2_1",
+		id = 1000001,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "PittsburghPtRePage",
+			ui_name = "PittsburghPtRePage"
+		},
+		config_client = {
+			shopLinkActID = 1000002,
+			highValueItemSort = {
+				13,
+				21,
+				23,
+				25,
+				28
+			}
+		}
+	}
+	pg.base.activity_template[1000002] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000002,
+		page_core = "",
+		config_data = {
+			100001,
+			100002,
+			100003,
+			100004,
+			100005,
+			100006,
+			100007,
+			100008,
+			100009,
+			100010,
+			100011,
+			100012,
+			100013,
+			100014,
+			100015,
+			100016,
+			100017,
+			100018,
+			100019,
+			100020,
+			100021,
+			100022,
+			100023,
+			100024,
+			100025,
+			100026,
+			100027
+		},
+		config_client = {
+			"commonbg/bg_pt_pizibao",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			PT_ACT = 1000001,
+			use_secretary = false,
+			painting = "fage_pt"
+		}
+	}
+	pg.base.activity_template[1000003] = {
+		mark = 20261008,
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "ActivityRemasterCore_re2_2",
+		id = 1000003,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {
+			1830001,
+			1830002,
+			1830003,
+			1830021,
+			1830022,
+			1830023
+		},
+		page_info = {
+			class_name = "MetalWingMainRePage",
+			ui_name = "MetalWingMainRePage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp1004",
+			PT_ACT = 1000001
+		}
+	}
+	pg.base.activity_template[1000004] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000004,
+		page_core = "",
+		config_data = {
+			1830004,
+			1830005,
+			1830006,
+			1830024,
+			1830025,
+			1830026,
+			1830041,
+			1830051
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp1004",
+			PT_ACT = 1000001
+		}
+	}
+	pg.base.activity_template[1000005] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000005,
+		page_core = "",
+		config_data = {
+			10000015,
+			10000016,
+			10000017,
+			10000018,
+			10000019,
+			10000020,
+			10000021,
+			10000022,
+			10000023,
+			10000024,
+			10000025,
+			10000026,
+			10000027,
+			10000028,
+			10000029,
+			10000030,
+			10000031,
+			10000032,
+			10000033,
+			10000034
+		}
+	}
+	pg.base.activity_template[1000006] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000006,
+		page_core = "",
+		config_data = {
+			{
+				31944,
+				100
+			}
+		}
+	}
+	pg.base.activity_template[1000007] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 1,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000007,
+		page_core = "",
+		config_data = {
+			{
+				103281,
+				200
+			},
+			{
+				105151,
+				200
+			},
+			{
+				102331,
+				50
+			},
+			{
+				101521,
+				250
+			}
+		},
+		config_client = {
+			id = 15,
+			bg = "buildingbg/bg_build_re_1000007",
+			buildship_tip = "「ピッツバーグ」「インディアナ」など出現確率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%",
+				"<color=#ffde38>ピッツバーグ</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>インディアナ</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>ファーゴ</color>：0.5%",
+				" ",
+				"<color=#d797ff>ベル</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	}
+	pg.base.activity_template[1000008] = {
+		mark = 20261008,
+		time = "stop",
+		type = 87,
+		login_pop = 0,
+		config_id = 100001,
+		is_show = 3,
+		config_client = "",
+		title_res_tag = "ActivityRemasterCore_re2_3",
+		id = 1000008,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "MeixiV5FrameRePage",
+			ui_name = "MeixiV5FrameRePage"
+		}
+	}
+	pg.base.activity_template[1000009] = {
+		mark = 20261008,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 4,
+		title_res_tag = "ActivityRemasterCore_re2_4",
+		id = 1000009,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {
+			{
+				10000001,
+				10000002
+			},
+			{
+				10000003,
+				10000004
+			},
+			{
+				10000005,
+				10000006
+			},
+			{
+				10000007,
+				10000008
+			},
+			{
+				10000009,
+				10000010
+			},
+			{
+				10000011,
+				10000012
+			},
+			{
+				10000013,
+				10000014
+			}
+		},
+		page_info = {
+			class_name = "OutPostTaskRePage",
+			ui_name = "OutPostTaskRePage"
+		},
+		config_client = {
+			story = {
+				{
+					"ZHUHONGMIJU1"
+				},
+				{
+					"ZHUHONGMIJU2"
+				},
+				{
+					"ZHUHONGMIJU3"
+				},
+				{
+					"ZHUHONGMIJU4"
+				},
+				{
+					"ZHUHONGMIJU5"
+				},
+				{
+					"ZHUHONGMIJU6"
+				},
+				{
+					"ZHUHONGMIJU7"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[1000010] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 58,
+		login_pop = 0,
+		config_id = 31,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000010,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000011] = {
+		mark = 20261008,
+		time = "stop",
+		type = 3,
+		login_pop = 0,
+		config_id = 1001,
+		is_show = 5,
+		title_res_tag = "ActivityRemasterCore_re2_5",
+		id = 1000011,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "ActivityRemasterLoginPage",
+			ui_name = "ActivityRemasterLoginPage"
+		},
+		config_client = {
+			bg = 1
+		}
+	}
+	pg.base.activity_template[1000012] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000012,
+		page_core = "",
+		config_data = {
+			15
+		},
+		config_client = {
+			220001
+		}
+	}
+	pg.base.activity_template[1000021] = {
+		mark = 20261008,
+		time = "stop",
+		type = 174,
+		login_pop = 0,
+		config_id = 1000021,
+		is_show = 2,
+		title_res_tag = "ActivityRemasterCore_re3_1",
+		id = 1000021,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "Jp7thPtRePage",
+			ui_name = "Jp7thPtRePage"
+		},
+		config_client = {
+			shopLinkActID = 1000022,
+			highValueItemSort = {
+				13,
+				21,
+				23,
+				25,
+				28
+			}
+		}
+	}
+	pg.base.activity_template[1000022] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000022,
+		page_core = "",
+		config_data = {
+			100031,
+			100032,
+			100033,
+			100034,
+			100035,
+			100036,
+			100037,
+			100038,
+			100039,
+			100040,
+			100041,
+			100042,
+			100043,
+			100044,
+			100045,
+			100046,
+			100047,
+			100048,
+			100049,
+			100050,
+			100051,
+			100052,
+			100053,
+			100054,
+			100055,
+			100056,
+			100057,
+			100058,
+			100059,
+			100060,
+			100061,
+			100062
+		},
+		config_client = {
+			"commonbg/bg_pt_tiancheng_cv",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			PT_ACT = 1000021,
+			use_secretary = false,
+			painting = "birui_alter_pt"
+		}
+	}
+	pg.base.activity_template[1000023] = {
+		mark = 20261008,
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "ActivityRemasterCore_re3_2",
+		id = 1000023,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {
+			1850001,
+			1850002,
+			1850003,
+			1850021,
+			1850022,
+			1850023
+		},
+		page_info = {
+			class_name = "Japan2024AnniversaryMainRePage",
+			ui_name = "Japan2024AnniversaryMainRePage"
+		},
+		config_client = {
+			PT_ACT = 1000021,
+			task_id = 10000078,
+			entrance_bg = "activitybanner/temp1014"
+		}
+	}
+	pg.base.activity_template[1000024] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000024,
+		page_core = "",
+		config_data = {
+			1850004,
+			1850005,
+			1850006,
+			1850024,
+			1850025,
+			1850026,
+			1850041,
+			1850051,
+			1850052
+		},
+		config_client = {
+			PT_ACT = 1000021,
+			task_id = 10000078,
+			entrance_bg = "activitybanner/temp1014"
+		}
+	}
+	pg.base.activity_template[1000025] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000025,
+		page_core = "",
+		config_data = {
+			10000055,
+			10000056,
+			10000057,
+			10000058,
+			10000059,
+			10000060,
+			10000061,
+			10000062,
+			10000063,
+			10000064,
+			10000065,
+			10000066,
+			10000067,
+			10000068,
+			10000069,
+			10000070,
+			10000071,
+			10000072,
+			10000073,
+			10000074,
+			10000078
+		}
+	}
+	pg.base.activity_template[1000026] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000026,
+		page_core = "",
+		config_data = {
+			{
+				31943,
+				100
+			}
+		}
+	}
+	pg.base.activity_template[1000027] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 1,
+		login_pop = 0,
+		config_id = 16,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000027,
+		page_core = "",
+		config_data = {
+			{
+				307151,
+				10000
+			},
+			{
+				302251,
+				200
+			},
+			{
+				9704051,
+				50
+			},
+			{
+				301911,
+				250
+			}
+		},
+		config_client = {
+			id = 16,
+			bg = "buildingbg/bg_build_re_1000027",
+			buildship_tip = "期間限定建造を累計200回行うと「天城(空母)」を確定で入手可能！（最大4隻まで）",
+			rate_tip = {
+				"<color=#ff5e39>Uレア</color>：1.2%",
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：28.8%",
+				" ",
+				"<color=#ff5e39>天城(空母)</color>：1.2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>渡良瀬</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>比叡(META)</color>：0.5%",
+				" ",
+				"<color=#d797ff>涼波</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	}
+	pg.base.activity_template[1000028] = {
+		mark = 20261008,
+		time = "stop",
+		type = 87,
+		login_pop = 0,
+		config_id = 100002,
+		is_show = 3,
+		config_client = "",
+		title_res_tag = "ActivityRemasterCore_re3_3",
+		id = 1000028,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "AnniV5FrameRePage",
+			ui_name = "AnniV5FrameRePage"
+		}
+	}
+	pg.base.activity_template[1000029] = {
+		mark = 20261008,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 4,
+		title_res_tag = "ActivityRemasterCore_re3_4",
+		id = 1000029,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {
+			{
+				10000041,
+				10000042
+			},
+			{
+				10000043,
+				10000044
+			},
+			{
+				10000045,
+				10000046
+			},
+			{
+				10000047,
+				10000048
+			},
+			{
+				10000049,
+				10000050
+			},
+			{
+				10000051,
+				10000052
+			},
+			{
+				10000053,
+				10000054
+			}
+		},
+		page_info = {
+			class_name = "AmagiACTaskRePage",
+			ui_name = "AmagiACTaskRePage"
+		},
+		config_client = {
+			story = {
+				{
+					"HUIJUYUCIANZHICHEN1"
+				},
+				{
+					"HUIJUYUCIANZHICHEN2"
+				},
+				{
+					"HUIJUYUCIANZHICHEN3"
+				},
+				{
+					"HUIJUYUCIANZHICHEN4"
+				},
+				{
+					"HUIJUYUCIANZHICHEN5"
+				},
+				{
+					"HUIJUYUCIANZHICHEN6"
+				},
+				{
+					"HUIJUYUCIANZHICHEN7"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[1000030] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 58,
+		login_pop = 0,
+		config_id = 32,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000030,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000031] = {
+		mark = 20261008,
+		time = "stop",
+		type = 3,
+		login_pop = 0,
+		config_id = 1002,
+		is_show = 5,
+		title_res_tag = "ActivityRemasterCore_re3_5",
+		id = 1000031,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "ActivityRemasterLoginPage",
+			ui_name = "ActivityRemasterLoginPage"
+		},
+		config_client = {
+			bg = 2
+		}
+	}
+	pg.base.activity_template[1000032] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000032,
+		page_core = "",
+		config_data = {
+			16
+		},
+		config_client = {
+			220002
+		}
+	}
+	pg.base.activity_template[1000035] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 10,
+		login_pop = 0,
+		config_id = 1000027,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000035,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000041] = {
+		mark = 20261008,
+		time = "stop",
+		type = 174,
+		login_pop = 0,
+		config_id = 1000041,
+		is_show = 2,
+		title_res_tag = "ActivityRemasterCore_re4_1",
+		id = 1000041,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "StarlightAccumulateRePage",
+			ui_name = "StarlightAccumulateRePage"
+		},
+		config_client = {
+			shopLinkActID = 1000042,
+			highValueItemSort = {
+				13,
+				21,
+				23,
+				25,
+				28
+			}
+		}
+	}
+	pg.base.activity_template[1000042] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000042,
+		page_core = "",
+		config_data = {
+			100071,
+			100072,
+			100073,
+			100074,
+			100075,
+			100076,
+			100077,
+			100078,
+			100079,
+			100080,
+			100081,
+			100082,
+			100083,
+			100084,
+			100085,
+			100086,
+			100087,
+			100088,
+			100089,
+			100090,
+			100091,
+			100092,
+			100093,
+			100094,
+			100095,
+			100096,
+			100097,
+			100098,
+			100099,
+			100100,
+			100101,
+			100102,
+			100103,
+			100104,
+			100105,
+			100106
+		},
+		config_client = {
+			"commonbg/bg_pt_lumei",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			PT_ACT = 1000041,
+			use_secretary = false,
+			painting = "xipeier_pt"
+		}
+	}
+	pg.base.activity_template[1000043] = {
+		mark = 20261008,
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "ActivityRemasterCore_re4_2",
+		id = 1000043,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {
+			1880001,
+			1880002,
+			1880003,
+			1880021,
+			1880022,
+			1880023
+		},
+		page_info = {
+			class_name = "ActiveStarlightHomeRepage",
+			ui_name = "ActiveStarlightHomeRepage"
+		},
+		config_client = {
+			PT_ACT = 1000041,
+			task_id = 10000138,
+			entrance_bg = "activitybanner/temp1024"
+		}
+	}
+	pg.base.activity_template[1000044] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000044,
+		page_core = "",
+		config_data = {
+			1880004,
+			1880005,
+			1880006,
+			1880024,
+			1880025,
+			1880026,
+			1880041,
+			1880051,
+			1880052
+		},
+		config_client = {
+			PT_ACT = 1000041,
+			task_id = 10000138,
+			entrance_bg = "activitybanner/temp1024"
+		}
+	}
+	pg.base.activity_template[1000045] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000045,
+		page_core = "",
+		config_data = {
+			10000095,
+			10000096,
+			10000097,
+			10000098,
+			10000099,
+			10000100,
+			10000101,
+			10000102,
+			10000103,
+			10000104,
+			10000105,
+			10000107,
+			10000108,
+			10000109,
+			10000110,
+			10000111,
+			10000112,
+			10000113,
+			10000114,
+			10000115,
+			10000116,
+			10000117,
+			10000138
+		}
+	}
+	pg.base.activity_template[1000046] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000046,
+		page_core = "",
+		config_data = {
+			{
+				31940,
+				100
+			}
+		}
+	}
+	pg.base.activity_template[1000047] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 1,
+		login_pop = 0,
+		config_id = 16,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000047,
+		page_core = "",
+		config_data = {
+			{
+				407041,
+				10000
+			},
+			{
+				402111,
+				200
+			},
+			{
+				9703051,
+				50
+			},
+			{
+				401111,
+				250
+			}
+		},
+		config_client = {
+			id = 16,
+			bg = "buildingbg/bg_build_re_1000047",
+			buildship_tip = "期間限定建造を累計200回行うと「フリッツ・ルメイ」を確定で入手可能！（最大4隻まで）",
+			rate_tip = {
+				"<color=#ff5e39>Uレア</color>：1.2%",
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：28.8%",
+				" ",
+				"<color=#ff5e39>フリッツ・ルメイ</color>：1.2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>デュイスブルク</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>アドミラル・ヒッパー(META)</color>：0.5%",
+				" ",
+				"<color=#d797ff>Z11</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	}
+	pg.base.activity_template[1000048] = {
+		mark = 20261008,
+		time = "stop",
+		type = 87,
+		login_pop = 0,
+		config_id = 100003,
+		is_show = 3,
+		config_client = "",
+		title_res_tag = "ActivityRemasterCore_re4_3",
+		id = 1000048,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "DexiV6FrameRePage",
+			ui_name = "DexiV6FrameRePage"
+		}
+	}
+	pg.base.activity_template[1000049] = {
+		mark = 20261008,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 4,
+		title_res_tag = "ActivityRemasterCore_re4_4",
+		id = 1000049,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {
+			{
+				10000081,
+				10000082
+			},
+			{
+				10000083,
+				10000084
+			},
+			{
+				10000085,
+				10000086
+			},
+			{
+				10000087,
+				10000088
+			},
+			{
+				10000089,
+				10000090
+			},
+			{
+				10000091,
+				10000092
+			},
+			{
+				10000093,
+				10000094
+			}
+		},
+		page_info = {
+			class_name = "DeXiV6TaskRePage",
+			ui_name = "DeXiV6TaskRePage"
+		},
+		config_client = {
+			story = {
+				"LINGYUWAIDEGUITU1",
+				"LINGYUWAIDEGUITU3",
+				"LINGYUWAIDEGUITU4",
+				"LINGYUWAIDEGUITU5",
+				"LINGYUWAIDEGUITU6",
+				"LINGYUWAIDEGUITU7",
+				"LINGYUWAIDEGUITU8"
+			},
+			specialstory = {
+				"LINGYUWAIDEGUITU2",
+				"LINGYUWAIDEGUITU9"
+			}
+		}
+	}
+	pg.base.activity_template[1000050] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 58,
+		login_pop = 0,
+		config_id = 34,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000050,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000051] = {
+		mark = 20261008,
+		time = "stop",
+		type = 3,
+		login_pop = 0,
+		config_id = 1003,
+		is_show = 5,
+		title_res_tag = "ActivityRemasterCore_re4_5",
+		id = 1000051,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "ActivityRemasterLoginPage",
+			ui_name = "ActivityRemasterLoginPage"
+		},
+		config_client = {
+			bg = 3
+		}
+	}
+	pg.base.activity_template[1000052] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000052,
+		page_core = "",
+		config_data = {
+			16
+		},
+		config_client = {
+			220003
+		}
+	}
+	pg.base.activity_template[1000053] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 110,
+		login_pop = 0,
+		config_id = 12,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000053,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000054] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000054,
+		page_core = "",
+		config_data = {
+			10000133,
+			10000134,
+			10000135,
+			10000136,
+			10000137
+		}
+	}
+	pg.base.activity_template[1000055] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 10,
+		login_pop = 0,
+		config_id = 1000047,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000055,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000056] = {
+		mark = 20261008,
+		time = "stop",
+		type = 115,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 6,
+		title_res_tag = "ActivityRemasterCore_re4_6",
+		id = 1000056,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "UrExchangeZ52RePage",
+			ui_name = "UrExchangeZ52RePage"
+		},
+		config_client = {
+			expedition = 9803,
+			activitytime = 1000045,
+			PT_ACT_UR = 1000057,
+			PT_ACT = 1000041,
+			shopId = 1000042,
+			taskConfig = {
+				{
+					1,
+					"SP初回クリア",
+					{
+						10000105
+					}
+				},
+				{
+					2,
+					"毎日SPクリア",
+					{
+						1880041
+					}
+				},
+				{
+					3,
+					"毎日ランダム任務",
+					{
+						10000118,
+						10000119,
+						10000120,
+						10000121,
+						10000122,
+						10000123,
+						10000124,
+						10000125,
+						10000126,
+						10000127,
+						10000128,
+						10000129,
+						10000130,
+						10000131,
+						10000132
+					}
+				},
+				{
+					4,
+					"チャレンジ任務",
+					{
+						10000133,
+						10000134,
+						10000135,
+						10000136,
+						10000137
+					}
+				},
+				{
+					6,
+					"Ptショップ交換",
+					{
+						100074
+					}
+				}
+			},
+			goodsId = {
+				100071,
+				100072
+			}
+		}
+	}
+	pg.base.activity_template[1000057] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 174,
+		login_pop = 0,
+		config_id = 1000057,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000057,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000058] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000058,
+		page_core = "",
+		config_data = {
+			10000431,
+			10000432,
+			10000433,
+			10000434,
+			10000435,
+			10000436,
+			10000437,
+			10000438,
+			10000439
+		}
+	}
+	pg.base.activity_template[1000061] = {
+		mark = 20261008,
+		time = "stop",
+		type = 174,
+		login_pop = 0,
+		config_id = 1000061,
+		is_show = 2,
+		title_res_tag = "ActivityRemasterCore_re5_2",
+		id = 1000061,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "RaphaelSPPtRePage",
+			ui_name = "RaphaelSPPtRePage"
+		},
+		config_client = {
+			shopLinkActID = 1000062,
+			highValueItemSort = {
+				13,
+				21,
+				23,
+				25,
+				28
+			}
+		}
+	}
+	pg.base.activity_template[1000062] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000062,
+		page_core = "",
+		config_data = {
+			100111,
+			100112,
+			100113,
+			100114,
+			100115,
+			100116,
+			100117,
+			100118,
+			100119,
+			100120,
+			100121,
+			100122,
+			100123,
+			100124,
+			100125,
+			100126,
+			100127,
+			100128,
+			100129,
+			100130,
+			100131,
+			100132,
+			100133,
+			100134,
+			100135,
+			100136,
+			100137,
+			100138
+		},
+		config_client = {
+			"commonbg/bg_pt_raffaello",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			PT_ACT = 1000061,
+			use_secretary = false,
+			painting = "andelieyam_pt"
+		}
+	}
+	pg.base.activity_template[1000063] = {
+		mark = 20261008,
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "ActivityRemasterCore_re5_1",
+		id = 1000063,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {
+			1890001,
+			1890002,
+			1890003,
+			1890021,
+			1890022,
+			1890023
+		},
+		page_info = {
+			class_name = "CageRePage",
+			ui_name = "CageRePage"
+		},
+		config_client = {
+			PT_ACT = 1000061,
+			task_id = 10000178,
+			entrance_bg = "activitybanner/temp1034"
+		}
+	}
+	pg.base.activity_template[1000064] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000064,
+		page_core = "",
+		config_data = {
+			1890004,
+			1890005,
+			1890006,
+			1890024,
+			1890025,
+			1890026,
+			1890041,
+			1890051,
+			1890052
+		},
+		config_client = {
+			PT_ACT = 1000061,
+			task_id = 10000178,
+			entrance_bg = "activitybanner/temp1034"
+		}
+	}
+	pg.base.activity_template[1000065] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000065,
+		page_core = "",
+		config_data = {
+			10000155,
+			10000156,
+			10000157,
+			10000158,
+			10000159,
+			10000160,
+			10000161,
+			10000162,
+			10000163,
+			10000164,
+			10000165,
+			10000167,
+			10000168,
+			10000169,
+			10000170,
+			10000171,
+			10000172,
+			10000173,
+			10000174,
+			10000178
+		}
+	}
+	pg.base.activity_template[1000066] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000066,
+		page_core = "",
+		config_data = {
+			{
+				31938,
+				100
+			}
+		}
+	}
+	pg.base.activity_template[1000067] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 1,
+		login_pop = 0,
+		config_id = 17,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000067,
+		page_core = "",
+		config_data = {
+			{
+				605081,
+				10000
+			},
+			{
+				608031,
+				200
+			},
+			{
+				9705081,
+				50
+			},
+			{
+				602031,
+				250
+			}
+		},
+		config_client = {
+			id = 17,
+			bg = "buildingbg/bg_build_re_1000067",
+			buildship_tip = "期間限定建造を累計200回行うと「ラファエロ」を確定で入手可能！（最大4隻まで）",
+			rate_tip = {
+				"<color=#ff5e39>Uレア</color>：1.2%",
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：28.8%",
+				" ",
+				"<color=#ff5e39>ラファエロ</color>：1.2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>マッジョーレ・バラッカ</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>アンドレア・ドーリア(META)</color>：0.5%",
+				" ",
+				"<color=#d797ff>バルトロメオ・コレオーニ</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	}
+	pg.base.activity_template[1000068] = {
+		mark = 20261008,
+		time = "stop",
+		type = 87,
+		login_pop = 0,
+		config_id = 100004,
+		is_show = 3,
+		config_client = "",
+		title_res_tag = "ActivityRemasterCore_re5_3",
+		id = 1000068,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "YidaliV4FrameRePage",
+			ui_name = "YidaliV4FrameRePage"
+		}
+	}
+	pg.base.activity_template[1000069] = {
+		mark = 20261008,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 4,
+		title_res_tag = "ActivityRemasterCore_re5_4",
+		id = 1000069,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {
+			{
+				10000141,
+				10000142
+			},
+			{
+				10000143,
+				10000144
+			},
+			{
+				10000145,
+				10000146
+			},
+			{
+				10000147,
+				10000148
+			},
+			{
+				10000149,
+				10000150
+			},
+			{
+				10000151,
+				10000152
+			},
+			{
+				10000153,
+				10000154
+			}
+		},
+		page_info = {
+			class_name = "YidaliV4SkinRePage",
+			ui_name = "YidaliV4SkinRePage"
+		},
+		config_client = {
+			story = {
+				{
+					"SHOUXUANZHEZHILU1"
+				},
+				{
+					"SHOUXUANZHEZHILU2"
+				},
+				{
+					"SHOUXUANZHEZHILU3"
+				},
+				{
+					"SHOUXUANZHEZHILU4"
+				},
+				{
+					"SHOUXUANZHEZHILU5"
+				},
+				{
+					"SHOUXUANZHEZHILU6"
+				},
+				{
+					"SHOUXUANZHEZHILU7"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[1000070] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 58,
+		login_pop = 0,
+		config_id = 35,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000070,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000071] = {
+		mark = 20261008,
+		time = "stop",
+		type = 3,
+		login_pop = 0,
+		config_id = 1004,
+		is_show = 5,
+		title_res_tag = "ActivityRemasterCore_re5_5",
+		id = 1000071,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "ActivityRemasterLoginPage",
+			ui_name = "ActivityRemasterLoginPage"
+		},
+		config_client = {
+			bg = 4
+		}
+	}
+	pg.base.activity_template[1000072] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000072,
+		page_core = "",
+		config_data = {
+			17
+		},
+		config_client = {
+			220004
+		}
+	}
+	pg.base.activity_template[1000075] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 10,
+		login_pop = 0,
+		config_id = 1000067,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000075,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000076] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000076,
+		page_core = "",
+		config_data = {
+			10000441,
+			10000442,
+			10000443,
+			10000444,
+			10000445,
+			10000446,
+			10000447,
+			10000448,
+			10000449
+		}
+	}
+	pg.base.activity_template[1000081] = {
+		mark = 20261008,
+		time = "stop",
+		type = 174,
+		login_pop = 0,
+		config_id = 1000081,
+		is_show = 2,
+		title_res_tag = "ActivityRemasterCore_re6_1",
+		id = 1000081,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "RosePtRePage",
+			ui_name = "RosePtRePage"
+		},
+		config_client = {
+			shopLinkActID = 1000082,
+			highValueItemSort = {
+				13,
+				21,
+				23,
+				25,
+				28
+			}
+		}
+	}
+	pg.base.activity_template[1000082] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000082,
+		page_core = "",
+		config_data = {
+			100141,
+			100142,
+			100143,
+			100144,
+			100145,
+			100146,
+			100147,
+			100148,
+			100149,
+			100150,
+			100151,
+			100152,
+			100153,
+			100154,
+			100155,
+			100156,
+			100157,
+			100158,
+			100159,
+			100160,
+			100161,
+			100162,
+			100163,
+			100164,
+			100165,
+			100166,
+			100167,
+			100168,
+			100169,
+			100170,
+			100171,
+			100172
+		},
+		config_client = {
+			"commonbg/bg_pt_guangrong_meta",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			PT_ACT = 1000081,
+			use_secretary = false,
+			painting = "guangrong_meta_pt"
+		}
+	}
+	pg.base.activity_template[1000083] = {
+		mark = 20261008,
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "ActivityRemasterCore_re6_2",
+		id = 1000083,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {
+			1920001,
+			1920002,
+			1920003,
+			1920021,
+			1920022,
+			1920023
+		},
+		page_info = {
+			class_name = "TrinidadMainRePage",
+			ui_name = "TrinidadMainRePage"
+		},
+		config_client = {
+			PT_ACT = 1000081,
+			task_id = 10000238,
+			entrance_bg = "activitybanner/temp1044"
+		}
+	}
+	pg.base.activity_template[1000084] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000084,
+		page_core = "",
+		config_data = {
+			1920004,
+			1920005,
+			1920006,
+			1920024,
+			1920025,
+			1920026,
+			1920041,
+			1920051,
+			1920052
+		},
+		config_client = {
+			PT_ACT = 1000081,
+			task_id = 10000238,
+			entrance_bg = "activitybanner/temp1044"
+		}
+	}
+	pg.base.activity_template[1000085] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000085,
+		page_core = "",
+		config_data = {
+			10000195,
+			10000196,
+			10000197,
+			10000198,
+			10000199,
+			10000200,
+			10000201,
+			10000202,
+			10000203,
+			10000204,
+			10000205,
+			10000207,
+			10000208,
+			10000209,
+			10000210,
+			10000211,
+			10000212,
+			10000213,
+			10000214,
+			10000215,
+			10000216,
+			10000217,
+			10000238
+		}
+	}
+	pg.base.activity_template[1000086] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000086,
+		page_core = "",
+		config_data = {
+			{
+				31935,
+				100
+			}
+		}
+	}
+	pg.base.activity_template[1000087] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 1,
+		login_pop = 0,
+		config_id = 17,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000087,
+		page_core = "",
+		config_data = {
+			{
+				205161,
+				10000
+			},
+			{
+				202351,
+				200
+			},
+			{
+				9707071,
+				50
+			},
+			{
+				201391,
+				250
+			}
+		},
+		config_client = {
+			id = 17,
+			bg = "buildingbg/bg_build_re_1000087",
+			buildship_tip = "期間限定建造を累計200回行うと「ライオン」を確定で入手可能！（最大4隻まで）",
+			rate_tip = {
+				"<color=#ff5e39>Uレア</color>：1.2%",
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：28.8%",
+				" ",
+				"<color=#ff5e39>ライオン</color>：1.2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>クレオパトラ</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>グロリアス(META)</color>：0.5%",
+				" ",
+				"<color=#d797ff>ギャラント</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	}
+	pg.base.activity_template[1000088] = {
+		mark = 20261008,
+		time = "stop",
+		type = 87,
+		login_pop = 0,
+		config_id = 100005,
+		is_show = 3,
+		config_client = "",
+		title_res_tag = "ActivityRemasterCore_re6_3",
+		id = 1000088,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "HMSFrameRePage",
+			ui_name = "HMSFrameRePage"
+		}
+	}
+	pg.base.activity_template[1000089] = {
+		mark = 20261008,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 4,
+		title_res_tag = "ActivityRemasterCore_re6_4",
+		id = 1000089,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {
+			{
+				10000181,
+				10000182
+			},
+			{
+				10000183,
+				10000184
+			},
+			{
+				10000185,
+				10000186
+			},
+			{
+				10000187,
+				10000188
+			},
+			{
+				10000189,
+				10000190
+			},
+			{
+				10000191,
+				10000192
+			},
+			{
+				10000193,
+				10000194
+			}
+		},
+		page_info = {
+			class_name = "ExpeditionSkinRePage",
+			ui_name = "ExpeditionSkinRePage"
+		},
+		config_client = {
+			firstStory = "RIBULUODEYUANZHENG1",
+			story = {
+				{
+					"RIBULUODEYUANZHENG2"
+				},
+				{
+					"RIBULUODEYUANZHENG3"
+				},
+				{
+					"RIBULUODEYUANZHENG4"
+				},
+				{
+					"RIBULUODEYUANZHENG5"
+				},
+				{
+					"RIBULUODEYUANZHENG6"
+				},
+				{
+					"RIBULUODEYUANZHENG7"
+				}
+			}
+		}
+	}
+	pg.base.activity_template[1000090] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 58,
+		login_pop = 0,
+		config_id = 36,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000090,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000091] = {
+		mark = 20261008,
+		time = "stop",
+		type = 3,
+		login_pop = 0,
+		config_id = 1005,
+		is_show = 5,
+		title_res_tag = "ActivityRemasterCore_re6_5",
+		id = 1000091,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "ActivityRemasterLoginPage",
+			ui_name = "ActivityRemasterLoginPage"
+		},
+		config_client = {
+			bg = 5
+		}
+	}
+	pg.base.activity_template[1000092] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000092,
+		page_core = "",
+		config_data = {
+			17
+		},
+		config_client = {
+			220005
+		}
+	}
+	pg.base.activity_template[1000093] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 110,
+		login_pop = 0,
+		config_id = 13,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000093,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000094] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000094,
+		page_core = "",
+		config_data = {
+			10000233,
+			10000234,
+			10000235,
+			10000236,
+			10000237
+		}
+	}
+	pg.base.activity_template[1000095] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 10,
+		login_pop = 0,
+		config_id = 1000087,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000095,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000096] = {
+		mark = 20261008,
+		time = "stop",
+		type = 115,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 6,
+		title_res_tag = "ActivityRemasterCore_re6_6",
+		id = 1000096,
+		page_core = "ActivityRemasterCoreActivityAdaptUI",
+		config_data = {},
+		page_info = {
+			class_name = "UrExTrafalgarRePage",
+			ui_name = "UrExTrafalgarRePage"
+		},
+		config_client = {
+			expedition = 9804,
+			activitytime = 1000085,
+			PT_ACT_UR = 1000098,
+			PT_ACT = 1000081,
+			shopId = 1000082,
+			taskConfig = {
+				{
+					1,
+					"SP初回クリア",
+					{
+						10000205
+					}
+				},
+				{
+					2,
+					"毎日SPクリア",
+					{
+						1920041
+					}
+				},
+				{
+					3,
+					"毎日ランダム任務",
+					{
+						10000218,
+						10000219,
+						10000220,
+						10000221,
+						10000222,
+						10000223,
+						10000224,
+						10000225,
+						10000226,
+						10000227,
+						10000228,
+						10000229,
+						10000230,
+						10000231,
+						10000232
+					}
+				},
+				{
+					4,
+					"チャレンジ任務",
+					{
+						10000233,
+						10000234,
+						10000235,
+						10000236,
+						10000237
+					}
+				},
+				{
+					6,
+					"Ptショップ交換",
+					{
+						100144
+					}
+				}
+			},
+			goodsId = {
+				100141,
+				100142
+			}
+		}
+	}
+	pg.base.activity_template[1000097] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000097,
+		page_core = "",
+		config_data = {
+			10000401,
+			10000402,
+			10000403,
+			10000404,
+			10000405,
+			10000406,
+			10000407,
+			10000408,
+			10000409
+		}
+	}
+	pg.base.activity_template[1000098] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 174,
+		login_pop = 0,
+		config_id = 1000098,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000098,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000101] = {
+		mark = 20261008,
+		time = "stop",
+		type = 174,
+		login_pop = 0,
+		config_id = 1000101,
+		is_show = 2,
+		title_res_tag = "aersasi_pt",
+		id = 1000101,
+		page_core = "SecretsAbyssCoreActivityReUI",
+		config_data = {},
+		page_info = {
+			class_name = "SecretsAbyssPtRePage",
+			ui_name = "SecretsAbyssPtRePage"
+		},
+		config_client = {
+			shopLinkActID = 1000102,
+			highValueItemSort = {
+				13,
+				21,
+				23,
+				25,
+				28
+			}
+		}
+	}
+	pg.base.activity_template[1000102] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000102,
+		page_core = "",
+		config_data = {
+			100181,
+			100182,
+			100183,
+			100184,
+			100185,
+			100186,
+			100187,
+			100188,
+			100189,
+			100190,
+			100191,
+			100192,
+			100193,
+			100194,
+			100195,
+			100196,
+			100197,
+			100198,
+			100199,
+			100200,
+			100201,
+			100202,
+			100203,
+			100204,
+			100205,
+			100206,
+			100207,
+			100208,
+			100209,
+			100210
+		},
+		config_client = {
+			"commonbg/bg_pt_bsmz",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			PT_ACT = 1000101,
+			use_secretary = false,
+			painting = "dadan_pt"
+		}
+	}
+	pg.base.activity_template[1000103] = {
+		mark = 20261008,
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "aersasi_main",
+		id = 1000103,
+		page_core = "SecretsAbyssCoreActivityReUI",
+		config_data = {
+			1950001,
+			1950002,
+			1950003,
+			1950021,
+			1950022,
+			1950023
+		},
+		page_info = {
+			class_name = "SecretsAbyssMainRePage",
+			ui_name = "SecretsAbyssMainRePage"
+		},
+		config_client = {
+			first_story = "QIYUANXIADEMIMI1",
+			order = 1,
+			PT_ACT = 1000101,
+			task_id = 10000278,
+			entrance_bg = "activitybanner/temp1054",
+			roll_task = 21819,
+			AwardPreviewPos = {
+				-500,
+				-68,
+				0
+			},
+			storys = {
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166
+			}
+		}
+	}
+	pg.base.activity_template[1000104] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000104,
+		page_core = "",
+		config_data = {
+			1950004,
+			1950005,
+			1950006,
+			1950024,
+			1950025,
+			1950026,
+			1950041,
+			1950051,
+			1950052
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp1054",
+			task_id = 10000278
+		}
+	}
+	pg.base.activity_template[1000105] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000105,
+		page_core = "",
+		config_data = {
+			10000255,
+			10000256,
+			10000257,
+			10000258,
+			10000259,
+			10000260,
+			10000261,
+			10000262,
+			10000263,
+			10000264,
+			10000265,
+			10000267,
+			10000268,
+			10000269,
+			10000270,
+			10000271,
+			10000272,
+			10000273,
+			10000274,
+			10000278,
+			21819
+		}
+	}
+	pg.base.activity_template[1000106] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000106,
+		page_core = "",
+		config_data = {
+			{
+				31932,
+				100
+			}
+		}
+	}
+	pg.base.activity_template[1000107] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 1,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000107,
+		page_core = "",
+		config_data = {
+			{
+				804011,
+				200
+			},
+			{
+				806011,
+				200
+			},
+			{
+				801051,
+				50
+			},
+			{
+				803031,
+				250
+			}
+		},
+		config_client = {
+			id = 15,
+			bg = "buildingbg/bg_build_re_1000107",
+			buildship_tip = "「マッセナ」「ボア・ベロー」など出現確率UP！",
+			rate_tip = {
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：30%",
+				"<color=#ffde38>マッセナ</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>ボア・ベロー</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>ル・アルディ</color>：0.5%",
+				" ",
+				"<color=#d797ff>デュケーヌ</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	}
+	pg.base.activity_template[1000108] = {
+		mark = 20261008,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 3,
+		config_client = "",
+		title_res_tag = "ActivityRemasterCore_re7_1",
+		id = 1000108,
+		page_core = "SecretsAbyssCoreActivityReUI",
+		config_data = {
+			{
+				10000241,
+				10000242
+			},
+			{
+				10000243,
+				10000244
+			},
+			{
+				10000245,
+				10000246
+			},
+			{
+				10000247,
+				10000248
+			},
+			{
+				10000249,
+				10000250
+			},
+			{
+				10000251,
+				10000252
+			},
+			{
+				10000253,
+				10000254
+			}
+		},
+		page_info = {
+			class_name = "ForestVacationSkinRePage",
+			ui_name = "ForestVacationSkinRePage"
+		}
+	}
+	pg.base.activity_template[1000109] = {
+		mark = 20261008,
+		time = "stop",
+		type = 3,
+		login_pop = 0,
+		config_id = 1006,
+		is_show = 4,
+		title_res_tag = "ActivityRemasterCore_re7_2",
+		id = 1000109,
+		page_core = "SecretsAbyssCoreActivityReUI",
+		config_data = {},
+		page_info = {
+			class_name = "ActivityRemasterLoginPage",
+			ui_name = "ActivityRemasterLoginPage"
+		},
+		config_client = {
+			bg = 6
+		}
+	}
+	pg.base.activity_template[1000110] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000110,
+		page_core = "",
+		config_data = {
+			15
+		},
+		config_client = {
+			220006
+		}
+	}
+	pg.base.activity_template[1000111] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000111,
+		page_core = "",
+		config_data = {
+			10000411,
+			10000412,
+			10000413,
+			10000414,
+			10000415,
+			10000416,
+			10000417,
+			10000418,
+			10000419
+		}
+	}
+	pg.base.activity_template[1000112] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 112,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000112,
+		page_core = "",
+		config_data = {
+			3001,
+			3002,
+			3003,
+			3004,
+			3005,
+			3006,
+			3007,
+			3008,
+			3009,
+			3010,
+			3011,
+			3012,
+			3013,
+			3014,
+			3015,
+			3016,
+			3017,
+			3018,
+			3019,
+			3020,
+			3021,
+			3022,
+			3023,
+			3024,
+			3025,
+			3026,
+			3027,
+			3028
+		}
+	}
+	pg.base.activity_template[1000121] = {
+		mark = 20261008,
+		time = "stop",
+		type = 174,
+		login_pop = 0,
+		config_id = 1000121,
+		is_show = 2,
+		title_res_tag = "aersasi_pt",
+		id = 1000121,
+		page_core = "TianYuTianYuanCoreActivityReUI",
+		config_data = {},
+		page_info = {
+			class_name = "TianYuTianYuanPtRePage",
+			ui_name = "TianYuTianYuanPtRePage"
+		},
+		config_client = {
+			shopLinkActID = 1000122,
+			highValueItemSort = {
+				13,
+				21,
+				23,
+				25,
+				28
+			}
+		}
+	}
+	pg.base.activity_template[1000122] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000122,
+		page_core = "",
+		config_data = {
+			100221,
+			100222,
+			100223,
+			100224,
+			100225,
+			100226,
+			100227,
+			100228,
+			100229,
+			100230,
+			100231,
+			100232,
+			100233,
+			100234,
+			100235,
+			100236,
+			100237,
+			100238,
+			100239,
+			100240,
+			100241,
+			100242,
+			100243,
+			100244,
+			100245,
+			100246,
+			100247,
+			100248,
+			100249,
+			100250,
+			100251
+		},
+		config_client = {
+			"commonbg/bg_pt_aersasi",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			PT_ACT = 1000121,
+			use_secretary = false,
+			painting = "qianjian_pt"
+		}
+	}
+	pg.base.activity_template[1000123] = {
+		mark = 20261008,
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "aersasi_main",
+		id = 1000123,
+		page_core = "TianYuTianYuanCoreActivityReUI",
+		config_data = {
+			1960001,
+			1960002,
+			1960003,
+			1960021,
+			1960022,
+			1960023
+		},
+		page_info = {
+			class_name = "TianYuTianYuanMainRePage",
+			ui_name = "TianYuTianYuanMainRePage"
+		},
+		config_client = {
+			task_id = 10000338,
+			entrance_bg = "activitybanner/temp1064",
+			PT_ACT = 1000121,
+			AwardPreviewPos = {
+				-500,
+				-68,
+				0
+			}
+		}
+	}
+	pg.base.activity_template[1000124] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000124,
+		page_core = "",
+		config_data = {
+			1960004,
+			1960005,
+			1960006,
+			1960024,
+			1960025,
+			1960026,
+			1960041,
+			1960051,
+			1960052
+		},
+		config_client = {
+			PT_ACT = 1000121,
+			task_id = 10000338,
+			entrance_bg = "activitybanner/temp1064"
+		}
+	}
+	pg.base.activity_template[1000125] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000125,
+		page_core = "",
+		config_data = {
+			10000295,
+			10000296,
+			10000297,
+			10000298,
+			10000299,
+			10000300,
+			10000301,
+			10000302,
+			10000303,
+			10000304,
+			10000305,
+			10000307,
+			10000308,
+			10000309,
+			10000310,
+			10000311,
+			10000312,
+			10000313,
+			10000314,
+			10000315,
+			10000316,
+			10000317,
+			10000338
+		}
+	}
+	pg.base.activity_template[1000126] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000126,
+		page_core = "",
+		config_data = {
+			{
+				31931,
+				100
+			}
+		}
+	}
+	pg.base.activity_template[1000127] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 1,
+		login_pop = 0,
+		config_id = 16,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000127,
+		page_core = "",
+		config_data = {
+			{
+				307161,
+				10000
+			},
+			{
+				305161,
+				200
+			},
+			{
+				303201,
+				50
+			},
+			{
+				302271,
+				250
+			}
+		},
+		config_client = {
+			id = 16,
+			bg = "buildingbg/bg_build_re_1000127",
+			buildship_tip = "期間限定建造を累計200回行うと「白鳳」を確定で入手可能！（最大4隻まで）",
+			rate_tip = {
+				"<color=#ff5e39>Uレア</color>：1.2%",
+				"<color=#ffde38>SSレア</color>：7%",
+				"<color=#d797ff>Sレア</color>：12%",
+				"<color=#3dc6ff>レア</color>：51%",
+				"ノーマル：28.8%",
+				" ",
+				"<color=#ff5e39>白鳳</color>：1.2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>近江</color>：2.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>浅間</color>：0.5%",
+				" ",
+				"<color=#d797ff>水無瀬</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	}
+	pg.base.activity_template[1000128] = {
+		mark = 20261008,
+		time = "stop",
+		type = 87,
+		login_pop = 0,
+		config_id = 100006,
+		is_show = 4,
+		config_client = "",
+		title_res_tag = "activity",
+		id = 1000128,
+		page_core = "TianYuTianYuanCoreActivityReUI",
+		config_data = {},
+		page_info = {
+			class_name = "TianYuTianYuanFrameRePage",
+			ui_name = "TianYuTianYuanFrameRePage"
+		}
+	}
+	pg.base.activity_template[1000129] = {
+		mark = 20261008,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 5,
+		title_res_tag = "bifangzhiyin",
+		id = 1000129,
+		page_core = "TianYuTianYuanCoreActivityReUI",
+		config_data = {
+			{
+				10000281,
+				10000282
+			},
+			{
+				10000283,
+				10000284
+			},
+			{
+				10000285,
+				10000286
+			},
+			{
+				10000287,
+				10000288
+			},
+			{
+				10000289,
+				10000290
+			},
+			{
+				10000291,
+				10000292
+			},
+			{
+				10000293,
+				10000294
+			}
+		},
+		page_info = {
+			class_name = "TianYuTianYuanLoginRePage",
+			ui_name = "TianYuTianYuanLoginRePage"
+		},
+		config_client = {
+			story = {
+				{
+					"CHONGYINGDEYAOYUE1"
+				},
+				{
+					"CHONGYINGDEYAOYUE2"
+				},
+				{
+					"CHONGYINGDEYAOYUE3"
+				},
+				{
+					"CHONGYINGDEYAOYUE4"
+				},
+				{
+					"CHONGYINGDEYAOYUE5"
+				},
+				{
+					"CHONGYINGDEYAOYUE6"
+				},
+				{
+					"CHONGYINGDEYAOYUE7"
+				}
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.activity_template[1000130] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 58,
+		login_pop = 0,
+		config_id = 37,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000130,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000131] = {
+		mark = 20261008,
+		time = "stop",
+		type = 3,
+		login_pop = 0,
+		config_id = 1007,
+		is_show = 6,
+		title_res_tag = "YidaliV2_login",
+		id = 1000131,
+		page_core = "TianYuTianYuanCoreActivityReUI",
+		config_data = {},
+		page_info = {
+			class_name = "ActivityRemasterLoginPage",
+			ui_name = "ActivityRemasterLoginPage"
+		},
+		config_client = {
+			bg = 7
+		}
+	}
+	pg.base.activity_template[1000132] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 1000132,
+		page_core = "",
+		config_data = {
+			16
+		},
+		config_client = {
+			220007
+		}
+	}
+	pg.base.activity_template[1000133] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 110,
+		login_pop = 0,
+		config_id = 14,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000133,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000134] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000134,
+		page_core = "",
+		config_data = {
+			10000333,
+			10000334,
+			10000335,
+			10000336,
+			10000337
+		}
+	}
+	pg.base.activity_template[1000135] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 10,
+		login_pop = 0,
+		config_id = 1000127,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000135,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000136] = {
+		mark = 20261008,
+		time = "stop",
+		type = 115,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 3,
+		title_res_tag = "urexchange",
+		id = 1000136,
+		page_core = "TianYuTianYuanCoreActivityReUI",
+		config_data = {},
+		page_info = {
+			class_name = "TianYuTianYuanURExchangeRePage",
+			ui_name = "TianYuTianYuanURExchangeRePage"
+		},
+		config_client = {
+			expedition = 9805,
+			activitytime = 1000122,
+			PT_ACT_UR = 1000137,
+			PT_ACT = 1000121,
+			shopId = 1000122,
+			taskConfig = {
+				{
+					1,
+					"SP初回クリア",
+					{
+						10000305
+					}
+				},
+				{
+					2,
+					"每日SPクリア",
+					{
+						1960041
+					}
+				},
+				{
+					3,
+					"每日ランダム任務",
+					{
+						10000318,
+						10000319,
+						10000320,
+						10000321,
+						10000322,
+						10000323,
+						10000324,
+						10000325,
+						10000326,
+						10000327,
+						10000328,
+						10000329,
+						10000330,
+						10000331,
+						10000332
+					}
+				},
+				{
+					4,
+					"チャレンジ任務",
+					{
+						10000333,
+						10000334,
+						10000335,
+						10000336,
+						10000337
+					}
+				},
+				{
+					6,
+					"Ptショップ交換",
+					{
+						100224
+					}
+				}
+			},
+			goodsId = {
+				100221,
+				100222
+			}
+		}
+	}
+	pg.base.activity_template[1000137] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 174,
+		login_pop = 0,
+		config_id = 1000137,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000137,
+		page_core = "",
+		config_data = {}
+	}
+	pg.base.activity_template[1000138] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000138,
+		page_core = "",
+		config_data = {
+			10000421,
+			10000422,
+			10000423,
+			10000424,
+			10000425,
+			10000426,
+			10000427,
+			10000428,
+			10000429,
+			10000430
+		}
+	}
+	pg.base.activity_template[1000140] = {
+		mark = 20261008,
+		page_info = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 1000140,
+		page_core = "",
+		config_data = {}
 	}
 end)()

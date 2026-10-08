@@ -156,42 +156,33 @@ end
 
 slot0.GetActivityShops = function(slot0, slot1)
 	slot2 = {}
+	slot3 = {}
+	slot7 = ActivityConst.ACTIVITY_TYPE_SHOP
 
-	if not slot0.shopsProxy:getActivityShops() or #slot3 == 0 then
-		table.insert(slot2, function (slot0)
-			uv0:sendNotification(GAME.GET_ACTIVITY_SHOP, {
-				callback = slot0
-			})
-		end)
-	else
-		table.insert(slot2, function (slot0)
-			slot0(uv0)
-		end)
+	for slot7, slot8 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot7)) do
+		table.insert(slot2, slot0.shopsProxy:getActivityShopById(slot8.id))
+
+		slot3[slot8.id] = slot8:getStartTime()
 	end
 
-	table.insert(slot2, function (slot0, slot1)
-		if slot1 and table.getCount(slot1) > 0 then
-			uv0.shopList[ShopConst.TYPE_ACTIVITY] = {}
+	if #slot2 > 0 then
+		slot0.shopList[ShopConst.TYPE_ACTIVITY] = {}
 
-			for slot5, slot6 in pairs(slot1) do
-				if not slot6:IsHide() then
-					table.insert(uv0.shopList[ShopConst.TYPE_ACTIVITY], slot6)
-				end
-			end
-
-			slot2 = getProxy(ActivityProxy)
-			slot2 = slot2:getRawData()
-
-			table.sort(uv0.shopList[ShopConst.TYPE_ACTIVITY], CompareFuncs({
-				function (slot0)
-					return uv0[slot0.activityId]:getStartTime()
-				end
-			}))
+		for slot7, slot8 in ipairs(slot2) do
+			table.insert(slot0.shopList[ShopConst.TYPE_ACTIVITY], slot8)
 		end
 
-		slot0()
-	end)
-	seriesAsync(slot2, slot1)
+		slot4 = getProxy(ActivityProxy)
+		slot4 = slot4:getRawData()
+
+		table.sort(slot0.shopList[ShopConst.TYPE_ACTIVITY], CompareFuncs({
+			function (slot0)
+				return uv0[slot0.activityId]
+			end
+		}))
+	end
+
+	slot1()
 end
 
 slot0.GetMetaShops = function(slot0, slot1)

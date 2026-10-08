@@ -15,7 +15,11 @@ pg.ship_data_create_material.all = {
 	10,
 	11,
 	12,
-	13
+	13,
+	14,
+	15,
+	16,
+	17
 }
 pg.base = pg.base or {}
 pg.base.ship_data_create_material = {}
@@ -285,6 +289,84 @@ pg.base.ship_data_create_material = {}
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%"
+		}
+	}
+	pg.base.ship_data_create_material[14] = {
+		use_gold = 1500,
+		name = "限时建造",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "1",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 2,
+		id = 14,
+		icon = "build_4",
+		exchange_count = 2,
+		rate_tip = {
+			"<color=#ffde38>SSレア</color>：7%",
+			"<color=#d797ff>Sレア</color>：12%",
+			"<color=#3dc6ff>レア</color>：51%",
+			"ノーマル：30%"
+		}
+	}
+	pg.base.ship_data_create_material[15] = {
+		use_gold = 1500,
+		name = "限时建造",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "1",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 2,
+		id = 15,
+		icon = "build_4",
+		exchange_count = 2,
+		rate_tip = {
+			"<color=#ffde38>SSレア</color>：7%",
+			"<color=#d797ff>Sレア</color>：12%",
+			"<color=#3dc6ff>レア</color>：51%",
+			"ノーマル：30%"
+		}
+	}
+	pg.base.ship_data_create_material[16] = {
+		use_gold = 1500,
+		name = "限时建造",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "1",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 2,
+		id = 16,
+		icon = "build_4",
+		exchange_count = 0,
+		rate_tip = {
+			"<color=#ff5e39>Uレア</color>：1.2%",
+			"<color=#ffde38>SSレア</color>：7%",
+			"<color=#d797ff>Sレア</color>：12%",
+			"<color=#3dc6ff>レア</color>：51%",
+			"ノーマル：28.8%"
+		}
+	}
+	pg.base.ship_data_create_material[17] = {
+		use_gold = 1500,
+		name = "限时建造",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "1",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 2,
+		id = 17,
+		icon = "build_4",
+		exchange_count = 0,
+		rate_tip = {
+			"<color=#ff5e39>Uレア</color>：1.2%",
+			"<color=#ffde38>SSレア</color>：7%",
+			"<color=#d797ff>Sレア</color>：12%",
+			"<color=#3dc6ff>レア</color>：51%",
+			"ノーマル：28.8%"
 		}
 	}
 end)()

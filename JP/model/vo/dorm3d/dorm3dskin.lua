@@ -73,9 +73,9 @@ slot0.GetActiveAndHiddenPartNames = function(slot0, slot1)
 
 	for slot8, slot9 in ipairs(slot0:getConfig("hidden_part")) do
 		if table.contains(slot1, slot9[1]) then
-			table.insert(slot4, slot9[3])
+			table.insertto(slot4, slot9[3])
 		else
-			table.insert(slot3, slot9[3])
+			table.insertto(slot3, slot9[3])
 		end
 	end
 

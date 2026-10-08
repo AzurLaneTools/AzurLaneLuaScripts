@@ -558,6 +558,26 @@ slot0.InitSwitch = function()
 				end,
 				[101] = function ()
 					return getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")) and slot0.data1 or 0
+				end,
+				[103] = function ()
+					slot0 = getProxy(ActivityProxy)
+					slot2 = uv0
+					slot0 = slot0:getActivityById(slot2:getConfig("link_id"))
+
+					return switch(slot0:getConfig("type"), {
+						[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = function ()
+							return uv0:GetTotalPtCount()
+						end
+					}, function ()
+						assert(false)
+					end)
+				end,
+				[104] = function ()
+					if getProxy(CollectionProxy):GetTrophyById(uv0:getConfig("link_id")) and (slot0:canClaimed() or slot0:isClaimed()) then
+						return 1
+					else
+						return 0
+					end
 				end
 			}, function ()
 				return nil
@@ -682,6 +702,9 @@ slot0.InitSwitch = function()
 			end
 
 			return 0
+		end,
+		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0)
+			return getProxy(PlayerProxy):getRawData() and slot1:getActivityMedalExist(slot0.id) and 1 or 0
 		end
 	}
 
@@ -958,16 +981,6 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_SKIN] = function (slot0)
 			slot0.isNew = not getProxy(ShipSkinProxy):hasNonLimitSkin(slot0.id)
-
-			return slot0
-		end,
-		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0)
-			getProxy(PlayerProxy):getRawData():updateMedalList({
-				{
-					key = slot0.id,
-					value = pg.TimeMgr.GetInstance():GetServerTime()
-				}
-			})
 
 			return slot0
 		end,
@@ -1329,10 +1342,39 @@ slot0.InitSwitch = function()
 						[ActivityConst.ACTIVITY_TYPE_REVERSE_PACMAN] = function ()
 							uv0:AddVitemNumber(uv1.id, uv1.count)
 							getProxy(ActivityProxy):updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = function ()
+							assert(uv0:getDataConfig("pt") == uv1.id, "error drop id for pt_buff")
+
+							if uv0:getDataConfig("type") == 8 then
+								uv0.data1 = uv0.data1 + uv1.count
+
+								getProxy(ActivityProxy):updateActivity(uv0)
+							end
+						end,
+						[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = function ()
+							assert(uv0:getDataConfig("pt") == uv1.id, "error drop id for pt_buff_mark2")
+
+							if uv0:getDataConfig("type") == 8 then
+								uv0.data1 = uv0.data1 + uv1.count
+							end
+
+							uv0.data4 = uv0.data4 + uv1.count
+
+							getProxy(ActivityProxy):UpdatePTRank({
+								Drop.New({
+									type = DROP_TYPE_VITEM,
+									id = uv1.id,
+									count = uv1.count
+								})
+							})
+							getProxy(ActivityProxy):updateActivity(uv0)
 						end
 					}, function ()
 						assert(uv0 .. "对应" .. uv1 .. "错误")
 					end)
+				end,
+				[104] = function ()
 				end
 			})
 		end,
@@ -1456,6 +1498,14 @@ slot0.InitSwitch = function()
 				id = slot0.id,
 				num = slot0.count
 			}))
+		end,
+		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0)
+			getProxy(PlayerProxy):getRawData():updateMedalList({
+				{
+					key = slot0.id,
+					value = pg.TimeMgr.GetInstance():GetServerTime()
+				}
+			})
 		end
 	}
 

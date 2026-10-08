@@ -14,6 +14,10 @@ slot0.init = function(slot0)
 	slot0.getall = slot0.bg:Find("get_all")
 end
 
+slot0.findTF = function(slot0, slot1, slot2)
+	return findTF(slot2 or slot0._tf, slot1)
+end
+
 slot0.didEnter = function(slot0)
 	slot0:InitData()
 	setActive(slot0.frame, false)

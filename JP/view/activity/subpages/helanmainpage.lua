@@ -18,6 +18,10 @@ slot0.OnInit = function(slot0)
 	SetActive(slot0.shop_bgtime, false)
 end
 
+slot0.findTF = function(slot0, slot1, slot2)
+	return findTF(slot2 or slot0._tf, slot1)
+end
+
 slot0.OnDataSetting = function(slot0)
 	slot0.timeMgr = pg.TimeMgr.GetInstance()
 end

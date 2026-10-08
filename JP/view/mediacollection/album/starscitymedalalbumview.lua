@@ -1,6 +1,5 @@
 slot0 = class("StarsCityMedalAlbumView", import(".MedalAlbumTemplateView"))
 slot0.GROUP_ID = 51110
-slot0.HELP_TIPS = "help_starLightAlbum"
 
 slot0.getUIName = function(slot0)
 	return "MedalAlbumStarsCityPage"

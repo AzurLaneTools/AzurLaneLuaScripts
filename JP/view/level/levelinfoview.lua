@@ -535,48 +535,47 @@ slot0.getChapterAwards = function(slot0)
 	slot5 = {}
 	slot6 = {}
 
-	slot7 = function(slot0)
-		for slot4, slot5 in ipairs(uv0) do
-			if slot5 == slot0 then
-				return false
-			end
-		end
-
-		return true
-	end
-
-	slot8 = {}
-
-	for slot12, slot13 in ipairs(_.flatten(slot3)) do
-		if checkExist(pg.expedition_activity_template[slot13], {
+	for slot10, slot11 in ipairs(_.flatten(slot3)) do
+		if checkExist(pg.expedition_activity_template[slot11], {
 			"pt_drop_display"
-		}) and type(slot14) == "table" then
-			for slot18, slot19 in ipairs(slot14) do
-				slot20 = slot19[1]
-				slot22 = slot19[3]
+		}) and type(slot12) == "table" then
+			for slot16, slot17 in ipairs(slot12) do
+				slot18, slot19, slot20, slot21 = unpack(slot17)
 
-				if slot7(slot19[2]) then
-					table.insert(slot5, slot21)
+				if not slot6[slot19 .. "_" .. slot20] then
+					slot6[slot22] = {}
 
-					slot6[slot21] = {}
+					table.insert(slot5, slot22)
 				end
 
-				slot6[slot21][slot20] = true
-				slot8[slot21] = slot8[slot21] or {}
-				slot8[slot21][slot20] = slot22
+				slot6[slot22][slot18] = slot21
 			end
 		end
 	end
 
-	slot9 = getProxy(ActivityProxy)
+	slot7 = getProxy(ActivityProxy)
 
-	for slot13 = #slot5, 1, -1 do
-		for slot17, slot18 in pairs(slot6[slot5[slot13]]) do
-			if slot9:getActivityById(slot17) and not slot19:isEnd() then
+	for slot11 = #slot5, 1, -1 do
+		slot12, slot13 = unpack(underscore.map(string.split(slot5[slot11], "_"), function (slot0)
+			return tonumber(slot0)
+		end))
+
+		for slot17, slot18 in pairs(slot6[slot5[slot11]]) do
+			if slot7:getActivityById(slot17) and not slot19:isEnd() then
+				if slot12 == DROP_TYPE_RESOURCE then
+					table.insert(slot1, 1, {
+						DROP_TYPE_ITEM,
+						id2ItemId(slot13),
+						slot18
+					})
+
+					break
+				end
+
 				table.insert(slot1, 1, {
-					DROP_TYPE_ITEM,
-					id2ItemId(slot5[slot13]),
-					slot8[slot5[slot13]][slot17]
+					slot12,
+					slot13,
+					slot18
 				})
 
 				break
