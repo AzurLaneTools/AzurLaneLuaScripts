@@ -129,7 +129,7 @@ slot0.initBtn = function(slot0)
 					targets = uv0.ptData.targets,
 					level = uv0.ptData.level,
 					count = uv0.ptData.count,
-					resId = uv0.ptData.resId,
+					resDrop = Drop.New(uv0.ptData:GetRes()),
 					unlockStamps = uv0.ptData:GetDayUnlockStamps()
 				})
 			end, SFX_PANEL)

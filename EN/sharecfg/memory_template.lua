@@ -4232,6 +4232,13 @@ pg.memory_template.all = {
 	5413,
 	5414,
 	5415,
+	5491,
+	5492,
+	5493,
+	5494,
+	5495,
+	5496,
+	5497,
 	5421,
 	5422,
 	5423,
@@ -80806,6 +80813,132 @@ end)()
 			"DARENWUDEYUGAOXIN5"
 		}
 	}
+	pg.base.memory_template[5491] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "One Unusual Morning",
+		condition = "Begin \"Volga's Healthy Missions\" Chapter 1",
+		story = "FUERJIA1",
+		mask = "bg/bg_memory",
+		task = 500291,
+		year = 0,
+		id = 5491,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA1"
+		}
+	}
+	pg.base.memory_template[5492] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Questionable Meal",
+		condition = "Begin \"Volga's Healthy Missions\" Chapter 2",
+		story = "FUERJIA2",
+		mask = "bg/bg_memory",
+		task = 500292,
+		year = 0,
+		id = 5492,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA2"
+		}
+	}
+	pg.base.memory_template[5493] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Healthy Therapy",
+		condition = "Begin \"Volga's Healthy Missions\" Chapter 3",
+		story = "FUERJIA3",
+		mask = "bg/bg_memory",
+		task = 500293,
+		year = 0,
+		id = 5493,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA3"
+		}
+	}
+	pg.base.memory_template[5494] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Place to Relax",
+		condition = "Begin \"Volga's Healthy Missions\" Chapter 4",
+		story = "FUERJIA4",
+		mask = "bg/bg_memory",
+		task = 500294,
+		year = 0,
+		id = 5494,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA4"
+		}
+	}
+	pg.base.memory_template[5495] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Irresistible Bliss",
+		condition = "Begin \"Volga's Healthy Missions\" Chapter 5",
+		story = "FUERJIA5",
+		mask = "bg/bg_memory",
+		task = 500295,
+		year = 0,
+		id = 5495,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA5"
+		}
+	}
+	pg.base.memory_template[5496] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Warm Moment in Her Lap",
+		condition = "Begin \"Volga's Healthy Missions\" Chapter 6",
+		story = "FUERJIA6",
+		mask = "bg/bg_memory",
+		task = 500296,
+		year = 0,
+		id = 5496,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA6"
+		}
+	}
+	pg.base.memory_template[5497] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Homeward in the Late Sun",
+		condition = "Begin \"Volga's Healthy Missions\" Chapter 7",
+		story = "FUERJIA7",
+		mask = "bg/bg_memory",
+		task = 500297,
+		year = 0,
+		id = 5497,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA7"
+		}
+	}
 	pg.base.memory_template[5421] = {
 		ship_group = 0,
 		subtitle = "",
@@ -81976,6 +82109,8 @@ end)()
 			"YICHANGDERICHANGZHAOMU10"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5514] = {
 		ship_group = 0,
 		subtitle = "",
@@ -82102,8 +82237,6 @@ end)()
 			"YICHANGDERICHANGDUANJUQING7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5521] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83778,6 +83911,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA4"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20004] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83904,8 +84039,6 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA11"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85580,6 +85713,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA23"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20104] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85706,8 +85841,6 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA30"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20111] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87382,6 +87515,8 @@ end)()
 			"TANSUOZHEXINZHIXUYU10"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20206] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87508,8 +87643,6 @@ end)()
 			"TANSUOZHELAIFANGJISHI7"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20213] = {
 		ship_group = 0,
 		subtitle = "",

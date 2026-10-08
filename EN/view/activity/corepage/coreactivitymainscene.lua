@@ -111,7 +111,7 @@ slot0.updateActivity = function(slot0, slot1)
 
 		table.sort(slot0.activities, CompareFuncs({
 			function (slot0)
-				return -slot0:getShowPriority()
+				return slot0:getShowPriority()
 			end,
 			function (slot0)
 				return -slot0.id
@@ -242,7 +242,11 @@ slot0.selectActivity = function(slot0, slot1)
 
 		slot0:ActionInvoke("ShowOrHide", true)
 		slot0:ActionInvoke("Flush", uv0.activity)
+		uv0:OnPageSwitchDone(slot0, table.indexof(uv0.activities, uv0.activity))
 	end)
+end
+
+slot0.OnPageSwitchDone = function(slot0, slot1, slot2)
 end
 
 slot0.verifyTabs = function(slot0, slot1)

@@ -994267,9 +994267,9 @@ _G.pg.base.bullet_template_1[3185004] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -994323,9 +994323,9 @@ _G.pg.base.bullet_template_1[3185005] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -994379,9 +994379,9 @@ _G.pg.base.bullet_template_1[3185006] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -994435,9 +994435,9 @@ _G.pg.base.bullet_template_1[3185007] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -994491,9 +994491,9 @@ _G.pg.base.bullet_template_1[3185008] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -994681,9 +994681,9 @@ _G.pg.base.bullet_template_1[3185011] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -994737,9 +994737,9 @@ _G.pg.base.bullet_template_1[3185012] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -995474,9 +995474,9 @@ _G.pg.base.bullet_template_1[3185023] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -995530,9 +995530,9 @@ _G.pg.base.bullet_template_1[3185024] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -995654,9 +995654,9 @@ _G.pg.base.bullet_template_1[3185026] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -995710,9 +995710,9 @@ _G.pg.base.bullet_template_1[3185027] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -995912,9 +995912,9 @@ _G.pg.base.bullet_template_1[3185030] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -996035,9 +996035,9 @@ _G.pg.base.bullet_template_1[3185032] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -996354,9 +996354,9 @@ _G.pg.base.bullet_template_1[3185037] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -996408,9 +996408,9 @@ _G.pg.base.bullet_template_1[3185038] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -996530,9 +996530,9 @@ _G.pg.base.bullet_template_1[3185040] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -996584,9 +996584,9 @@ _G.pg.base.bullet_template_1[3185041] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -996784,9 +996784,9 @@ _G.pg.base.bullet_template_1[3185044] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -996905,9 +996905,9 @@ _G.pg.base.bullet_template_1[3185046] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1013522,14 +1013522,14 @@ _G.pg.base.bullet_template_1[3205103] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205103,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1013547,9 +1013547,9 @@ _G.pg.base.bullet_template_1[3205103] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1013559,6 +1013559,7 @@ _G.pg.base.bullet_template_1[3205103] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1013578,14 +1013579,14 @@ _G.pg.base.bullet_template_1[3205104] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205104,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1013603,9 +1013604,9 @@ _G.pg.base.bullet_template_1[3205104] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1013615,6 +1013616,7 @@ _G.pg.base.bullet_template_1[3205104] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1013755,14 +1013757,14 @@ _G.pg.base.bullet_template_1[3205106] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205106,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1013780,9 +1013782,9 @@ _G.pg.base.bullet_template_1[3205106] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1013792,6 +1013794,7 @@ _G.pg.base.bullet_template_1[3205106] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1013811,14 +1013814,14 @@ _G.pg.base.bullet_template_1[3205107] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205107,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1013836,9 +1013839,9 @@ _G.pg.base.bullet_template_1[3205107] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1013848,6 +1013851,7 @@ _G.pg.base.bullet_template_1[3205107] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1013867,14 +1013871,14 @@ _G.pg.base.bullet_template_1[3205108] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205108,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1013892,9 +1013896,9 @@ _G.pg.base.bullet_template_1[3205108] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1013904,6 +1013908,7 @@ _G.pg.base.bullet_template_1[3205108] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1013923,14 +1013928,14 @@ _G.pg.base.bullet_template_1[3205109] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205109,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1013948,9 +1013953,9 @@ _G.pg.base.bullet_template_1[3205109] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1013960,6 +1013965,7 @@ _G.pg.base.bullet_template_1[3205109] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1013979,14 +1013985,14 @@ _G.pg.base.bullet_template_1[3205110] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205110,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014004,9 +1014010,9 @@ _G.pg.base.bullet_template_1[3205110] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1014016,6 +1014022,7 @@ _G.pg.base.bullet_template_1[3205110] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014035,14 +1014042,14 @@ _G.pg.base.bullet_template_1[3205111] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205111,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014060,9 +1014067,9 @@ _G.pg.base.bullet_template_1[3205111] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1014072,6 +1014079,7 @@ _G.pg.base.bullet_template_1[3205111] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014091,14 +1014099,14 @@ _G.pg.base.bullet_template_1[3205112] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205112,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014116,9 +1014124,9 @@ _G.pg.base.bullet_template_1[3205112] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1014128,6 +1014136,7 @@ _G.pg.base.bullet_template_1[3205112] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014147,14 +1014156,14 @@ _G.pg.base.bullet_template_1[3205113] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205113,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014172,9 +1014181,9 @@ _G.pg.base.bullet_template_1[3205113] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1014184,6 +1014193,7 @@ _G.pg.base.bullet_template_1[3205113] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014203,14 +1014213,14 @@ _G.pg.base.bullet_template_1[3205114] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205114,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014228,9 +1014238,9 @@ _G.pg.base.bullet_template_1[3205114] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1014240,6 +1014250,7 @@ _G.pg.base.bullet_template_1[3205114] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014259,14 +1014270,14 @@ _G.pg.base.bullet_template_1[3205115] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205115,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014284,9 +1014295,9 @@ _G.pg.base.bullet_template_1[3205115] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1014296,6 +1014307,7 @@ _G.pg.base.bullet_template_1[3205115] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014412,14 +1014424,14 @@ _G.pg.base.bullet_template_1[3205117] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205117,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014437,9 +1014449,9 @@ _G.pg.base.bullet_template_1[3205117] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1014449,6 +1014461,7 @@ _G.pg.base.bullet_template_1[3205117] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014468,14 +1014481,14 @@ _G.pg.base.bullet_template_1[3205118] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205118,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014493,9 +1014506,9 @@ _G.pg.base.bullet_template_1[3205118] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1014505,6 +1014518,7 @@ _G.pg.base.bullet_template_1[3205118] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014524,14 +1014538,14 @@ _G.pg.base.bullet_template_1[3205119] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205119,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014549,9 +1014563,9 @@ _G.pg.base.bullet_template_1[3205119] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1014561,6 +1014575,7 @@ _G.pg.base.bullet_template_1[3205119] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014580,14 +1014595,14 @@ _G.pg.base.bullet_template_1[3205120] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205120,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014605,9 +1014620,9 @@ _G.pg.base.bullet_template_1[3205120] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1014617,6 +1014632,7 @@ _G.pg.base.bullet_template_1[3205120] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014636,14 +1014652,14 @@ _G.pg.base.bullet_template_1[3205121] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205121,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014661,9 +1014677,9 @@ _G.pg.base.bullet_template_1[3205121] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1014673,6 +1014689,7 @@ _G.pg.base.bullet_template_1[3205121] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014771,14 +1014788,14 @@ _G.pg.base.bullet_template_1[3205123] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205123,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014796,9 +1014813,9 @@ _G.pg.base.bullet_template_1[3205123] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1014808,6 +1014825,7 @@ _G.pg.base.bullet_template_1[3205123] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014827,14 +1014845,14 @@ _G.pg.base.bullet_template_1[3205124] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205124,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014852,9 +1014870,9 @@ _G.pg.base.bullet_template_1[3205124] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1014864,6 +1014882,7 @@ _G.pg.base.bullet_template_1[3205124] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1014883,14 +1014902,14 @@ _G.pg.base.bullet_template_1[3205125] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205125,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1014908,9 +1014927,9 @@ _G.pg.base.bullet_template_1[3205125] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1014920,6 +1014939,7 @@ _G.pg.base.bullet_template_1[3205125] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1015012,8 +1015032,8 @@ _G.pg.base.bullet_template_1[3205127] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1015031,9 +1015051,9 @@ _G.pg.base.bullet_template_1[3205127] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1,
-		1,
-		1
+		3,
+		3,
+		3
 	},
 	cld_offset = {
 		0,
@@ -1015043,6 +1015063,7 @@ _G.pg.base.bullet_template_1[3205127] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1015115,6 +1015136,7 @@ _G.pg.base.bullet_template_1[3205128] = {
 	},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		diveFilter = {
 			2
 		}
@@ -1015405,14 +1015427,14 @@ _G.pg.base.bullet_template_1[3205133] = {
 	hit_fx = "None",
 	range = 25,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205133,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1015430,9 +1015452,9 @@ _G.pg.base.bullet_template_1[3205133] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1015442,8 +1015464,9 @@ _G.pg.base.bullet_template_1[3205133] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
-		lastTime = 1,
+		ignoreB = true,
 		ignoreShield = true,
+		lastTime = 1,
 		shrapnel = {
 			{
 				bullet_ID = 3205134,
@@ -1015477,14 +1015500,14 @@ _G.pg.base.bullet_template_1[3205134] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205134,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1015515,9 +1015538,9 @@ _G.pg.base.bullet_template_1[3205134] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1015527,6 +1015550,7 @@ _G.pg.base.bullet_template_1[3205134] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1015613,14 +1015637,14 @@ _G.pg.base.bullet_template_1[3205136] = {
 	hit_fx = "None",
 	range = 25,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205136,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1015638,9 +1015662,9 @@ _G.pg.base.bullet_template_1[3205136] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1015650,8 +1015674,9 @@ _G.pg.base.bullet_template_1[3205136] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
-		lastTime = 1,
+		ignoreB = true,
 		ignoreShield = true,
+		lastTime = 1,
 		shrapnel = {
 			{
 				emitterType = "BattleBulletEmitter",
@@ -1015679,14 +1015704,14 @@ _G.pg.base.bullet_template_1[3205137] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205137,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1015717,9 +1015742,9 @@ _G.pg.base.bullet_template_1[3205137] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1015729,6 +1015754,7 @@ _G.pg.base.bullet_template_1[3205137] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1015815,7 +1015841,7 @@ _G.pg.base.bullet_template_1[3205139] = {
 	hit_fx = "None",
 	range = 0.01,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205139,
 	random_damage_rate = 0,
@@ -1015840,9 +1015866,9 @@ _G.pg.base.bullet_template_1[3205139] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		100,
@@ -1015882,14 +1015908,14 @@ _G.pg.base.bullet_template_1[3205140] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205140,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1015920,9 +1015946,9 @@ _G.pg.base.bullet_template_1[3205140] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1015932,6 +1015958,7 @@ _G.pg.base.bullet_template_1[3205140] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1016018,14 +1016045,14 @@ _G.pg.base.bullet_template_1[3205142] = {
 	hit_fx = "None",
 	range = 25,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205142,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1016043,9 +1016070,9 @@ _G.pg.base.bullet_template_1[3205142] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1016055,8 +1016082,9 @@ _G.pg.base.bullet_template_1[3205142] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
-		lastTime = 1,
+		ignoreB = true,
 		ignoreShield = true,
+		lastTime = 1,
 		shrapnel = {
 			{
 				bullet_ID = 3205143,
@@ -1016090,14 +1016118,14 @@ _G.pg.base.bullet_template_1[3205143] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205143,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1016128,9 +1016156,9 @@ _G.pg.base.bullet_template_1[3205143] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1016140,6 +1016168,7 @@ _G.pg.base.bullet_template_1[3205143] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1016159,14 +1016188,14 @@ _G.pg.base.bullet_template_1[3205144] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205144,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1016197,9 +1016226,9 @@ _G.pg.base.bullet_template_1[3205144] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1016209,6 +1016238,7 @@ _G.pg.base.bullet_template_1[3205144] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1016295,14 +1016325,14 @@ _G.pg.base.bullet_template_1[3205146] = {
 	hit_fx = "None",
 	range = 25,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205146,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1016320,9 +1016350,9 @@ _G.pg.base.bullet_template_1[3205146] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1016332,8 +1016362,9 @@ _G.pg.base.bullet_template_1[3205146] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
-		lastTime = 1,
+		ignoreB = true,
 		ignoreShield = true,
+		lastTime = 1,
 		shrapnel = {
 			{
 				emitterType = "BattleBulletEmitter",
@@ -1016361,14 +1016392,14 @@ _G.pg.base.bullet_template_1[3205147] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205147,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1016399,9 +1016430,9 @@ _G.pg.base.bullet_template_1[3205147] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1016411,6 +1016442,7 @@ _G.pg.base.bullet_template_1[3205147] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1016564,14 +1016596,14 @@ _G.pg.base.bullet_template_1[3205150] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205150,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1016589,9 +1016621,9 @@ _G.pg.base.bullet_template_1[3205150] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1016601,6 +1016633,7 @@ _G.pg.base.bullet_template_1[3205150] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1016620,14 +1016653,14 @@ _G.pg.base.bullet_template_1[3205151] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205151,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1016645,9 +1016678,9 @@ _G.pg.base.bullet_template_1[3205151] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1016657,6 +1016690,7 @@ _G.pg.base.bullet_template_1[3205151] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1016676,14 +1016710,14 @@ _G.pg.base.bullet_template_1[3205152] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205152,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1016701,9 +1016735,9 @@ _G.pg.base.bullet_template_1[3205152] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1016713,6 +1016747,7 @@ _G.pg.base.bullet_template_1[3205152] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1016732,14 +1016767,14 @@ _G.pg.base.bullet_template_1[3205153] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205153,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1016757,9 +1016792,9 @@ _G.pg.base.bullet_template_1[3205153] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1016769,6 +1016804,7 @@ _G.pg.base.bullet_template_1[3205153] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1016788,14 +1016824,14 @@ _G.pg.base.bullet_template_1[3205154] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205154,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1016813,9 +1016849,9 @@ _G.pg.base.bullet_template_1[3205154] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1016825,6 +1016861,7 @@ _G.pg.base.bullet_template_1[3205154] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1016844,14 +1016881,14 @@ _G.pg.base.bullet_template_1[3205155] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205155,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1016869,9 +1016906,9 @@ _G.pg.base.bullet_template_1[3205155] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1016881,6 +1016918,7 @@ _G.pg.base.bullet_template_1[3205155] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017002,8 +1017040,8 @@ _G.pg.base.bullet_template_1[3205157] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017046,6 +1017084,7 @@ _G.pg.base.bullet_template_1[3205157] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017071,8 +1017110,8 @@ _G.pg.base.bullet_template_1[3205158] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017115,6 +1017154,7 @@ _G.pg.base.bullet_template_1[3205158] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017140,8 +1017180,8 @@ _G.pg.base.bullet_template_1[3205159] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017184,6 +1017224,7 @@ _G.pg.base.bullet_template_1[3205159] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017209,8 +1017250,8 @@ _G.pg.base.bullet_template_1[3205160] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017253,6 +1017294,7 @@ _G.pg.base.bullet_template_1[3205160] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017278,8 +1017320,8 @@ _G.pg.base.bullet_template_1[3205161] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017322,6 +1017364,7 @@ _G.pg.base.bullet_template_1[3205161] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017443,8 +1017486,8 @@ _G.pg.base.bullet_template_1[3205163] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017487,6 +1017530,7 @@ _G.pg.base.bullet_template_1[3205163] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017512,8 +1017556,8 @@ _G.pg.base.bullet_template_1[3205164] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017556,6 +1017600,7 @@ _G.pg.base.bullet_template_1[3205164] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017581,8 +1017626,8 @@ _G.pg.base.bullet_template_1[3205165] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017625,6 +1017670,7 @@ _G.pg.base.bullet_template_1[3205165] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017650,8 +1017696,8 @@ _G.pg.base.bullet_template_1[3205166] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017694,6 +1017740,7 @@ _G.pg.base.bullet_template_1[3205166] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017719,8 +1017766,8 @@ _G.pg.base.bullet_template_1[3205167] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017763,6 +1017810,7 @@ _G.pg.base.bullet_template_1[3205167] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017855,8 +1017903,8 @@ _G.pg.base.bullet_template_1[3205169] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017886,6 +1017934,7 @@ _G.pg.base.bullet_template_1[3205169] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017911,8 +1017960,8 @@ _G.pg.base.bullet_template_1[3205170] = {
 	random_damage_rate = 0,
 	damage_type = {
 		3,
-		4.5,
-		6
+		3.9,
+		4.5
 	},
 	DMG_font = {
 		{
@@ -1017955,6 +1018004,7 @@ _G.pg.base.bullet_template_1[3205170] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1017974,14 +1018024,14 @@ _G.pg.base.bullet_template_1[3205171] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205171,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1017999,9 +1018049,9 @@ _G.pg.base.bullet_template_1[3205171] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1018011,6 +1018061,7 @@ _G.pg.base.bullet_template_1[3205171] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1018030,14 +1018081,14 @@ _G.pg.base.bullet_template_1[3205172] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205172,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1018055,9 +1018106,9 @@ _G.pg.base.bullet_template_1[3205172] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1018067,6 +1018118,7 @@ _G.pg.base.bullet_template_1[3205172] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1018159,14 +1018211,14 @@ _G.pg.base.bullet_template_1[3205174] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3205174,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1018184,9 +1018236,9 @@ _G.pg.base.bullet_template_1[3205174] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1018196,6 +1018248,7 @@ _G.pg.base.bullet_template_1[3205174] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1018255,10 +1018308,11 @@ _G.pg.base.bullet_template_1[3205175] = {
 	},
 	attach_buff = {},
 	extra_param = {
-		gravity = -0.05,
+		ignoreB = true,
 		targetOffsetX = -1,
-		airdrop = true,
+		gravity = -0.05,
 		offsetY = 70,
+		airdrop = true,
 		launchVrtSpeed = -4,
 		diveFilter = {
 			2
@@ -1018321,6 +1018375,7 @@ _G.pg.base.bullet_template_1[3205176] = {
 	},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		diveFilter = {
 			2
 		}
@@ -1065041,8 +1065096,8 @@ _G.pg.base.bullet_template_1[3235201] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1065073,9 +1065128,9 @@ _G.pg.base.bullet_template_1[3235201] = {
 		}
 	},
 	cld_box = {
-		2,
-		2,
-		2
+		4,
+		4,
+		4
 	},
 	cld_offset = {
 		0,
@@ -1065088,6 +1065143,7 @@ _G.pg.base.bullet_template_1[3235201] = {
 	},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		diveFilter = {
 			2
 		}
@@ -1065109,14 +1065165,14 @@ _G.pg.base.bullet_template_1[3235202] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235202,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1065134,9 +1065190,9 @@ _G.pg.base.bullet_template_1[3235202] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1065146,6 +1065202,7 @@ _G.pg.base.bullet_template_1[3235202] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1065232,14 +1065289,14 @@ _G.pg.base.bullet_template_1[3235204] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235204,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1065257,9 +1065314,9 @@ _G.pg.base.bullet_template_1[3235204] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1065269,6 +1065326,7 @@ _G.pg.base.bullet_template_1[3235204] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1065489,14 +1065547,14 @@ _G.pg.base.bullet_template_1[3235209] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235209,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1065514,9 +1065572,9 @@ _G.pg.base.bullet_template_1[3235209] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1065526,6 +1065584,7 @@ _G.pg.base.bullet_template_1[3235209] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1065545,14 +1065604,14 @@ _G.pg.base.bullet_template_1[3235210] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235210,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1065570,9 +1065629,9 @@ _G.pg.base.bullet_template_1[3235210] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1065582,6 +1065641,7 @@ _G.pg.base.bullet_template_1[3235210] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1065692,14 +1065752,14 @@ _G.pg.base.bullet_template_1[3235212] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235212,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1065717,9 +1065777,9 @@ _G.pg.base.bullet_template_1[3235212] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		2,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -1065729,6 +1065789,7 @@ _G.pg.base.bullet_template_1[3235212] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1065748,14 +1065809,14 @@ _G.pg.base.bullet_template_1[3235213] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235213,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1065773,9 +1065834,9 @@ _G.pg.base.bullet_template_1[3235213] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		2,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -1065785,6 +1065846,7 @@ _G.pg.base.bullet_template_1[3235213] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1065804,14 +1065866,14 @@ _G.pg.base.bullet_template_1[3235214] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235214,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1065829,9 +1065891,9 @@ _G.pg.base.bullet_template_1[3235214] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		2,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -1065841,6 +1065903,7 @@ _G.pg.base.bullet_template_1[3235214] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1065860,14 +1065923,14 @@ _G.pg.base.bullet_template_1[3235215] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235215,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1065885,9 +1065948,9 @@ _G.pg.base.bullet_template_1[3235215] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		2,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -1065897,6 +1065960,7 @@ _G.pg.base.bullet_template_1[3235215] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1065916,14 +1065980,14 @@ _G.pg.base.bullet_template_1[3235216] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235216,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1065941,9 +1066005,9 @@ _G.pg.base.bullet_template_1[3235216] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		2,
+		2,
+		2
 	},
 	cld_offset = {
 		0,
@@ -1065953,6 +1066017,7 @@ _G.pg.base.bullet_template_1[3235216] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1066064,9 +1066129,9 @@ _G.pg.base.bullet_template_1[3235218] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1,
 		2,
-		1
+		3,
+		2
 	},
 	cld_offset = {
 		0,
@@ -1066076,6 +1066141,7 @@ _G.pg.base.bullet_template_1[3235218] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1066162,14 +1066228,14 @@ _G.pg.base.bullet_template_1[3235220] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235220,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1066187,9 +1066253,9 @@ _G.pg.base.bullet_template_1[3235220] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1066352,14 +1066418,14 @@ _G.pg.base.bullet_template_1[3235223] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235223,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1066390,9 +1066456,9 @@ _G.pg.base.bullet_template_1[3235223] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1066421,14 +1066487,14 @@ _G.pg.base.bullet_template_1[3235224] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235224,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1066459,9 +1066525,9 @@ _G.pg.base.bullet_template_1[3235224] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1066624,14 +1066690,14 @@ _G.pg.base.bullet_template_1[3235227] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235227,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1066662,9 +1066728,9 @@ _G.pg.base.bullet_template_1[3235227] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1066693,14 +1066759,14 @@ _G.pg.base.bullet_template_1[3235228] = {
 	hit_fx = "None",
 	range = 100,
 	effect_type = 1,
-	pierce_count = 50,
+	pierce_count = 0,
 	ammo_type = 1,
 	id = 3235228,
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1066731,9 +1066797,9 @@ _G.pg.base.bullet_template_1[3235228] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1067371,8 +1067437,8 @@ _G.pg.base.bullet_template_1[3235238] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1067403,9 +1067469,9 @@ _G.pg.base.bullet_template_1[3235238] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1067440,8 +1067506,8 @@ _G.pg.base.bullet_template_1[3235239] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1067472,9 +1067538,9 @@ _G.pg.base.bullet_template_1[3235239] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1067509,8 +1067575,8 @@ _G.pg.base.bullet_template_1[3235240] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1067541,9 +1067607,9 @@ _G.pg.base.bullet_template_1[3235240] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1067578,8 +1067644,8 @@ _G.pg.base.bullet_template_1[3235241] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1067610,9 +1067676,9 @@ _G.pg.base.bullet_template_1[3235241] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1067647,8 +1067713,8 @@ _G.pg.base.bullet_template_1[3235242] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1067666,9 +1067732,9 @@ _G.pg.base.bullet_template_1[3235242] = {
 	},
 	acceleration = {},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1067703,8 +1067769,8 @@ _G.pg.base.bullet_template_1[3235243] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1067735,9 +1067801,9 @@ _G.pg.base.bullet_template_1[3235243] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1067772,8 +1067838,8 @@ _G.pg.base.bullet_template_1[3235244] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1067804,9 +1067870,9 @@ _G.pg.base.bullet_template_1[3235244] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1067841,8 +1067907,8 @@ _G.pg.base.bullet_template_1[3235245] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1067873,9 +1067939,9 @@ _G.pg.base.bullet_template_1[3235245] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1067910,8 +1067976,8 @@ _G.pg.base.bullet_template_1[3235246] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1067942,9 +1068008,9 @@ _G.pg.base.bullet_template_1[3235246] = {
 		}
 	},
 	cld_box = {
-		0.1,
-		0.1,
-		0.1
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1086509,8 +1086575,8 @@ _G.pg.base.bullet_template_1[3245201] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1086528,9 +1086594,9 @@ _G.pg.base.bullet_template_1[3245201] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1086540,6 +1086606,7 @@ _G.pg.base.bullet_template_1[3245201] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1086565,8 +1086632,8 @@ _G.pg.base.bullet_template_1[3245202] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1086584,9 +1086651,9 @@ _G.pg.base.bullet_template_1[3245202] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1086596,6 +1086663,7 @@ _G.pg.base.bullet_template_1[3245202] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1086706,8 +1086774,8 @@ _G.pg.base.bullet_template_1[3245204] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1086725,9 +1086793,9 @@ _G.pg.base.bullet_template_1[3245204] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1086737,6 +1086805,7 @@ _G.pg.base.bullet_template_1[3245204] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1086762,8 +1086831,8 @@ _G.pg.base.bullet_template_1[3245205] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1086781,9 +1086850,9 @@ _G.pg.base.bullet_template_1[3245205] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1086793,6 +1086862,7 @@ _G.pg.base.bullet_template_1[3245205] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1086818,8 +1086888,8 @@ _G.pg.base.bullet_template_1[3245206] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1086837,9 +1086907,9 @@ _G.pg.base.bullet_template_1[3245206] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1086849,6 +1086919,7 @@ _G.pg.base.bullet_template_1[3245206] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1086874,8 +1086945,8 @@ _G.pg.base.bullet_template_1[3245207] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1086893,9 +1086964,9 @@ _G.pg.base.bullet_template_1[3245207] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1086905,6 +1086976,7 @@ _G.pg.base.bullet_template_1[3245207] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1086970,9 +1087042,10 @@ _G.pg.base.bullet_template_1[3245208] = {
 		}
 	},
 	extra_param = {
-		targetOffsetX = 0,
+		ignoreB = true,
 		targetOffsetZ = 0,
 		gravity = -0.03,
+		targetOffsetX = 0,
 		diveFilter = {
 			2
 		}
@@ -1087000,8 +1087073,8 @@ _G.pg.base.bullet_template_1[3245209] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087031,6 +1087104,7 @@ _G.pg.base.bullet_template_1[3245209] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087056,8 +1087130,8 @@ _G.pg.base.bullet_template_1[3245210] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087075,9 +1087149,9 @@ _G.pg.base.bullet_template_1[3245210] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1087087,6 +1087161,7 @@ _G.pg.base.bullet_template_1[3245210] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087112,64 +1087187,8 @@ _G.pg.base.bullet_template_1[3245211] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
-	},
-	DMG_font = {
-		{
-			1,
-			1
-		},
-		{
-			1,
-			1
-		},
-		{
-			1,
-			1
-		}
-	},
-	acceleration = {},
-	cld_box = {
-		2,
-		2,
-		2
-	},
-	cld_offset = {
-		0,
-		0,
-		0
-	},
-	hit_type = {},
-	attach_buff = {},
-	extra_param = {
-		ignoreShield = true
-	}
-}
-
-
-_G.pg.base.bullet_template_1[3245212] = {
-	range_offset = 0,
-	modle_ID = "cave_bullet08",
-	type = 1,
-	velocity = 1.5,
-	antisub_enhancement = 0,
-	out_bound = 0,
-	hit_sfx = "",
-	miss_fx = "None",
-	miss_sfx = "",
-	alert_fx = "",
-	hit_fx = "None",
-	range = 100,
-	effect_type = 1,
-	pierce_count = 0,
-	ammo_type = 1,
-	id = 3245212,
-	random_damage_rate = 0,
-	damage_type = {
-		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087199,6 +1087218,64 @@ _G.pg.base.bullet_template_1[3245212] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
+		ignoreShield = true
+	}
+}
+
+
+_G.pg.base.bullet_template_1[3245212] = {
+	range_offset = 0,
+	modle_ID = "cave_bullet08",
+	type = 1,
+	velocity = 1.5,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 100,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3245212,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1.3,
+		1.5
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087291,8 +1087368,8 @@ _G.pg.base.bullet_template_1[3245214] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087310,9 +1087387,9 @@ _G.pg.base.bullet_template_1[3245214] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1087322,6 +1087399,7 @@ _G.pg.base.bullet_template_1[3245214] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087414,8 +1087492,8 @@ _G.pg.base.bullet_template_1[3245216] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087433,9 +1087511,9 @@ _G.pg.base.bullet_template_1[3245216] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1087445,6 +1087523,7 @@ _G.pg.base.bullet_template_1[3245216] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087537,8 +1087616,8 @@ _G.pg.base.bullet_template_1[3245218] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087556,9 +1087635,9 @@ _G.pg.base.bullet_template_1[3245218] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1087568,6 +1087647,7 @@ _G.pg.base.bullet_template_1[3245218] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087652,8 +1087732,8 @@ _G.pg.base.bullet_template_1[3245220] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087671,9 +1087751,9 @@ _G.pg.base.bullet_template_1[3245220] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1087683,6 +1087763,7 @@ _G.pg.base.bullet_template_1[3245220] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087708,8 +1087789,8 @@ _G.pg.base.bullet_template_1[3245221] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087727,9 +1087808,9 @@ _G.pg.base.bullet_template_1[3245221] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1087739,6 +1087820,7 @@ _G.pg.base.bullet_template_1[3245221] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087764,8 +1087846,8 @@ _G.pg.base.bullet_template_1[3245222] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087783,9 +1087865,9 @@ _G.pg.base.bullet_template_1[3245222] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1087795,6 +1087877,7 @@ _G.pg.base.bullet_template_1[3245222] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087820,8 +1087903,8 @@ _G.pg.base.bullet_template_1[3245223] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087839,9 +1087922,9 @@ _G.pg.base.bullet_template_1[3245223] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1087851,6 +1087934,7 @@ _G.pg.base.bullet_template_1[3245223] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087876,8 +1087960,8 @@ _G.pg.base.bullet_template_1[3245224] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087895,9 +1087979,9 @@ _G.pg.base.bullet_template_1[3245224] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1087907,6 +1087991,7 @@ _G.pg.base.bullet_template_1[3245224] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087932,8 +1088017,8 @@ _G.pg.base.bullet_template_1[3245225] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1087951,9 +1088036,9 @@ _G.pg.base.bullet_template_1[3245225] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1087963,6 +1088048,7 @@ _G.pg.base.bullet_template_1[3245225] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1087988,8 +1088074,8 @@ _G.pg.base.bullet_template_1[3245226] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1088007,9 +1088093,9 @@ _G.pg.base.bullet_template_1[3245226] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1088019,6 +1088105,7 @@ _G.pg.base.bullet_template_1[3245226] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1088044,8 +1088131,8 @@ _G.pg.base.bullet_template_1[3245227] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1088063,9 +1088150,9 @@ _G.pg.base.bullet_template_1[3245227] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1088075,6 +1088162,7 @@ _G.pg.base.bullet_template_1[3245227] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1088100,8 +1088188,8 @@ _G.pg.base.bullet_template_1[3245228] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1088119,9 +1088207,9 @@ _G.pg.base.bullet_template_1[3245228] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1088131,6 +1088219,7 @@ _G.pg.base.bullet_template_1[3245228] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1088156,8 +1088245,8 @@ _G.pg.base.bullet_template_1[3245229] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1088175,9 +1088264,9 @@ _G.pg.base.bullet_template_1[3245229] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1088187,6 +1088276,7 @@ _G.pg.base.bullet_template_1[3245229] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1088212,8 +1088302,8 @@ _G.pg.base.bullet_template_1[3245230] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1088231,9 +1088321,9 @@ _G.pg.base.bullet_template_1[3245230] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1088243,6 +1088333,7 @@ _G.pg.base.bullet_template_1[3245230] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1088268,8 +1088359,8 @@ _G.pg.base.bullet_template_1[3245231] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1088287,9 +1088378,9 @@ _G.pg.base.bullet_template_1[3245231] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1088299,6 +1088390,7 @@ _G.pg.base.bullet_template_1[3245231] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1088324,8 +1088416,8 @@ _G.pg.base.bullet_template_1[3245232] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1088343,9 +1088435,9 @@ _G.pg.base.bullet_template_1[3245232] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1088355,6 +1088447,7 @@ _G.pg.base.bullet_template_1[3245232] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1088514,8 +1088607,8 @@ _G.pg.base.bullet_template_1[3245235] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1088533,9 +1088626,9 @@ _G.pg.base.bullet_template_1[3245235] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1088545,6 +1088638,7 @@ _G.pg.base.bullet_template_1[3245235] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1088570,8 +1088664,8 @@ _G.pg.base.bullet_template_1[3245236] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1088589,9 +1088683,9 @@ _G.pg.base.bullet_template_1[3245236] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1088601,6 +1088695,7 @@ _G.pg.base.bullet_template_1[3245236] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1088760,8 +1088855,8 @@ _G.pg.base.bullet_template_1[3245239] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1088779,9 +1088874,9 @@ _G.pg.base.bullet_template_1[3245239] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1.5,
+		1.5,
+		1.5
 	},
 	cld_offset = {
 		0,
@@ -1088791,6 +1088886,7 @@ _G.pg.base.bullet_template_1[3245239] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1088816,8 +1088912,8 @@ _G.pg.base.bullet_template_1[3245240] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1088835,9 +1088931,9 @@ _G.pg.base.bullet_template_1[3245240] = {
 	},
 	acceleration = {},
 	cld_box = {
-		2,
-		2,
-		2
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1088847,6 +1088943,7 @@ _G.pg.base.bullet_template_1[3245240] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1114286,8 +1114383,8 @@ _G.pg.base.bullet_template_1[3275202] = {
 	random_damage_rate = 0,
 	damage_type = {
 		3,
-		4.5,
-		6
+		3.9,
+		4.5
 	},
 	DMG_font = {
 		{
@@ -1114305,9 +1114402,9 @@ _G.pg.base.bullet_template_1[3275202] = {
 	},
 	acceleration = {},
 	cld_box = {
-		5,
-		5,
-		5
+		4,
+		4,
+		4
 	},
 	cld_offset = {
 		0,
@@ -1114409,8 +1114506,8 @@ _G.pg.base.bullet_template_1[3275204] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1114465,8 +1114562,8 @@ _G.pg.base.bullet_template_1[3275205] = {
 	random_damage_rate = 0,
 	damage_type = {
 		3,
-		4.5,
-		6
+		3.9,
+		4.5
 	},
 	DMG_font = {
 		{
@@ -1114484,9 +1114581,9 @@ _G.pg.base.bullet_template_1[3275205] = {
 	},
 	acceleration = {},
 	cld_box = {
-		5,
-		5,
-		5
+		4,
+		4,
+		4
 	},
 	cld_offset = {
 		0,
@@ -1114538,8 +1114635,8 @@ _G.pg.base.bullet_template_1[3275206] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1114570,9 +1114667,9 @@ _G.pg.base.bullet_template_1[3275206] = {
 		}
 	},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1114608,8 +1114705,8 @@ _G.pg.base.bullet_template_1[3275207] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1114640,9 +1114737,9 @@ _G.pg.base.bullet_template_1[3275207] = {
 		}
 	},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1114799,8 +1114896,8 @@ _G.pg.base.bullet_template_1[3275209] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1114856,8 +1114953,8 @@ _G.pg.base.bullet_template_1[3275210] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1114913,8 +1115010,8 @@ _G.pg.base.bullet_template_1[3275211] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1114970,8 +1115067,8 @@ _G.pg.base.bullet_template_1[3275212] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115027,8 +1115124,8 @@ _G.pg.base.bullet_template_1[3275213] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115084,8 +1115181,8 @@ _G.pg.base.bullet_template_1[3275214] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115141,8 +1115238,8 @@ _G.pg.base.bullet_template_1[3275215] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115198,8 +1115295,8 @@ _G.pg.base.bullet_template_1[3275216] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115255,8 +1115352,8 @@ _G.pg.base.bullet_template_1[3275217] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115312,8 +1115409,8 @@ _G.pg.base.bullet_template_1[3275218] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115490,8 +1115587,8 @@ _G.pg.base.bullet_template_1[3275220] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115547,8 +1115644,8 @@ _G.pg.base.bullet_template_1[3275221] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115604,8 +1115701,8 @@ _G.pg.base.bullet_template_1[3275222] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115661,8 +1115758,8 @@ _G.pg.base.bullet_template_1[3275223] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115718,8 +1115815,8 @@ _G.pg.base.bullet_template_1[3275224] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115775,8 +1115872,8 @@ _G.pg.base.bullet_template_1[3275225] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115832,8 +1115929,8 @@ _G.pg.base.bullet_template_1[3275226] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115889,8 +1115986,8 @@ _G.pg.base.bullet_template_1[3275227] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1115946,8 +1116043,8 @@ _G.pg.base.bullet_template_1[3275228] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1116003,8 +1116100,8 @@ _G.pg.base.bullet_template_1[3275229] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1117505,8 +1117602,8 @@ _G.pg.base.bullet_template_1[3275252] = {
 	random_damage_rate = 0,
 	damage_type = {
 		3,
-		4.5,
-		6
+		3.9,
+		4.5
 	},
 	DMG_font = {
 		{
@@ -1117549,8 +1117646,9 @@ _G.pg.base.bullet_template_1[3275252] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
-		lastTime = 0.01,
+		ignoreB = true,
 		ignoreShield = true,
+		lastTime = 0.01,
 		shrapnel = {
 			{
 				initialSplit = true,
@@ -1117592,8 +1117690,8 @@ _G.pg.base.bullet_template_1[3275253] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1117611,9 +1117709,9 @@ _G.pg.base.bullet_template_1[3275253] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1117623,6 +1117721,7 @@ _G.pg.base.bullet_template_1[3275253] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1117648,8 +1117747,8 @@ _G.pg.base.bullet_template_1[3275254] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1117667,9 +1117766,9 @@ _G.pg.base.bullet_template_1[3275254] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1117679,6 +1117778,7 @@ _G.pg.base.bullet_template_1[3275254] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1117704,8 +1117804,8 @@ _G.pg.base.bullet_template_1[3275255] = {
 	random_damage_rate = 0,
 	damage_type = {
 		3,
-		4.5,
-		6
+		3.9,
+		4.5
 	},
 	DMG_font = {
 		{
@@ -1117779,8 +1117879,8 @@ _G.pg.base.bullet_template_1[3275256] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1117798,9 +1117898,9 @@ _G.pg.base.bullet_template_1[3275256] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1117810,6 +1117910,7 @@ _G.pg.base.bullet_template_1[3275256] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1117835,8 +1117936,8 @@ _G.pg.base.bullet_template_1[3275257] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1117854,9 +1117955,9 @@ _G.pg.base.bullet_template_1[3275257] = {
 	},
 	acceleration = {},
 	cld_box = {
-		1.5,
-		1.5,
-		1.5
+		1,
+		1,
+		1
 	},
 	cld_offset = {
 		0,
@@ -1117866,6 +1117967,7 @@ _G.pg.base.bullet_template_1[3275257] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1117990,6 +1118092,7 @@ _G.pg.base.bullet_template_1[3275259] = {
 		}
 	},
 	extra_param = {
+		ignoreB = true,
 		gravity = -0.05,
 		randomOffsetX = 5,
 		randomOffsetZ = 5,
@@ -1118156,8 +1118259,8 @@ _G.pg.base.bullet_template_1[3275262] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1118187,6 +1118290,7 @@ _G.pg.base.bullet_template_1[3275262] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1118212,8 +1118316,8 @@ _G.pg.base.bullet_template_1[3275263] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1118243,6 +1118347,7 @@ _G.pg.base.bullet_template_1[3275263] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1118268,8 +1118373,8 @@ _G.pg.base.bullet_template_1[3275264] = {
 	random_damage_rate = 0,
 	damage_type = {
 		1,
-		1.5,
-		2
+		1.3,
+		1.5
 	},
 	DMG_font = {
 		{
@@ -1118299,6 +1118404,7 @@ _G.pg.base.bullet_template_1[3275264] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1160443,6 +1160549,7 @@ _G.pg.base.bullet_template_1[3305209] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1160499,6 +1160606,7 @@ _G.pg.base.bullet_template_1[3305210] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1160690,6 +1160798,7 @@ _G.pg.base.bullet_template_1[3305213] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1160813,6 +1160922,7 @@ _G.pg.base.bullet_template_1[3305215] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1160940,8 +1161050,9 @@ _G.pg.base.bullet_template_1[3305217] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
-		lastTime = 0.01,
+		ignoreB = true,
 		ignoreShield = true,
+		lastTime = 0.01,
 		fragile = 1,
 		shrapnel = {
 			{
@@ -1161022,6 +1161133,7 @@ _G.pg.base.bullet_template_1[3305218] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1161739,6 +1161851,7 @@ _G.pg.base.bullet_template_1[3305228] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1161795,6 +1161908,7 @@ _G.pg.base.bullet_template_1[3305229] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1161851,6 +1161965,7 @@ _G.pg.base.bullet_template_1[3305230] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1161907,6 +1162022,7 @@ _G.pg.base.bullet_template_1[3305231] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1161963,6 +1162079,7 @@ _G.pg.base.bullet_template_1[3305232] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1162019,6 +1162136,7 @@ _G.pg.base.bullet_template_1[3305233] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1162075,6 +1162193,7 @@ _G.pg.base.bullet_template_1[3305234] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1162211,6 +1162330,7 @@ _G.pg.base.bullet_template_1[3305236] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1162405,6 +1162525,7 @@ _G.pg.base.bullet_template_1[3305239] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1162461,6 +1162582,7 @@ _G.pg.base.bullet_template_1[3305240] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1162662,6 +1162784,7 @@ _G.pg.base.bullet_template_1[3305243] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1162718,6 +1162841,7 @@ _G.pg.base.bullet_template_1[3305244] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1162774,6 +1162898,7 @@ _G.pg.base.bullet_template_1[3305245] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1162989,6 +1163114,7 @@ _G.pg.base.bullet_template_1[3305248] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1163070,6 +1163196,7 @@ _G.pg.base.bullet_template_1[3305249] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1163199,6 +1163326,7 @@ _G.pg.base.bullet_template_1[3305251] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1163255,6 +1163383,7 @@ _G.pg.base.bullet_template_1[3305252] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1163515,6 +1163644,7 @@ _G.pg.base.bullet_template_1[3305256] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1163584,6 +1163714,7 @@ _G.pg.base.bullet_template_1[3305257] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1172154,6 +1172285,283 @@ _G.pg.base.bullet_template_1[3314021] = {
 }
 
 
+_G.pg.base.bullet_template_1[3315001] = {
+	range_offset = 0,
+	modle_ID = "bullet_dayu01_alert",
+	type = 5,
+	velocity = 3,
+	antisub_enhancement = 0,
+	out_bound = 1,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 150,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3315001,
+	random_damage_rate = 0,
+	damage_type = {
+		0,
+		0,
+		0
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {
+		tracker = {
+			angular = 2.4,
+			range = 120
+		}
+	},
+	cld_box = {
+		13,
+		13,
+		26
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		hitSplitOnly = true,
+		lastTime = 0.01,
+		shrapnel = {
+			{
+				bullet_ID = 3315002,
+				inheritAngle = 1,
+				emitterType = "BattleBulletEmitter",
+				barrage_ID = 1
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_1[3315002] = {
+	range_offset = 0,
+	modle_ID = "bullet_dayu01",
+	type = 5,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3315002,
+	random_damage_rate = 0,
+	damage_type = {
+		0,
+		0,
+		0
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		13,
+		13,
+		26
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.01,
+		shrapnel = {
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3315003,
+				barrage_ID = 1
+			},
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 730154,
+				barrage_ID = 3315103
+			},
+			FXID = ""
+		}
+	}
+}
+
+
+_G.pg.base.bullet_template_1[3315003] = {
+	range_offset = 0,
+	modle_ID = "None",
+	type = 9,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 0,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 0,
+	ammo_type = 1,
+	id = 3315003,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1.2
+		},
+		{
+			2,
+			1.2
+		},
+		{
+			2,
+			1.2
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		6,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = 8,
+		range = 13.5
+	},
+	attach_buff = {
+		{
+			buff_id = 201520,
+			effect_id = "smoke_baifeng"
+		}
+	},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		ellipse_range = 27
+	}
+}
+
+
+_G.pg.base.bullet_template_1[3315004] = {
+	range_offset = 0,
+	modle_ID = "AlertArea_circle_looping",
+	type = 5,
+	velocity = 0.1,
+	antisub_enhancement = 0,
+	out_bound = 3,
+	hit_sfx = "",
+	miss_fx = "None",
+	miss_sfx = "",
+	alert_fx = "",
+	hit_fx = "None",
+	range = 0.01,
+	effect_type = 1,
+	pierce_count = 50,
+	ammo_type = 1,
+	id = 3315004,
+	random_damage_rate = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		2,
+		2,
+		2
+	},
+	cld_offset = {
+		100,
+		0,
+		100
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 1.5,
+		directHit = true,
+		shrapnel = {
+			{
+				emitterType = "BattleBulletEmitter",
+				bullet_ID = 3315002,
+				barrage_ID = 1
+			},
+			FXID = ""
+		}
+	}
+}
+
+
 _G.pg.base.bullet_template_1[3315005] = {
 	range_offset = 0,
 	modle_ID = "None",
@@ -1174951,8 +1175359,8 @@ _G.pg.base.bullet_template_1[3315106] = {
 	random_damage_rate = 0,
 	damage_type = {
 		3,
-		4.5,
-		6
+		3.9,
+		4.5
 	},
 	DMG_font = {
 		{
@@ -1174982,6 +1175390,7 @@ _G.pg.base.bullet_template_1[3315106] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1175038,6 +1175447,7 @@ _G.pg.base.bullet_template_1[3315107] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1175125,6 +1175535,7 @@ _G.pg.base.bullet_template_1[3315108] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1175212,6 +1175623,7 @@ _G.pg.base.bullet_template_1[3315109] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1175316,8 +1175728,8 @@ _G.pg.base.bullet_template_1[3315111] = {
 	random_damage_rate = 0,
 	damage_type = {
 		3,
-		4.5,
-		6
+		3.9,
+		4.5
 	},
 	DMG_font = {
 		{
@@ -1175607,8 +1176019,8 @@ _G.pg.base.bullet_template_1[3315115] = {
 	random_damage_rate = 0,
 	damage_type = {
 		3,
-		4.5,
-		6
+		3.9,
+		4.5
 	},
 	DMG_font = {
 		{
@@ -1175999,6 +1176411,7 @@ _G.pg.base.bullet_template_1[3315120] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1176055,6 +1176468,7 @@ _G.pg.base.bullet_template_1[3315121] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1176111,6 +1176525,7 @@ _G.pg.base.bullet_template_1[3315122] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1176167,6 +1176582,7 @@ _G.pg.base.bullet_template_1[3315123] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1176223,6 +1176639,7 @@ _G.pg.base.bullet_template_1[3315124] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1176279,6 +1176696,7 @@ _G.pg.base.bullet_template_1[3315125] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1176335,6 +1176753,7 @@ _G.pg.base.bullet_template_1[3315126] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1176454,6 +1176873,7 @@ _G.pg.base.bullet_template_1[3315128] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1177051,6 +1177471,7 @@ _G.pg.base.bullet_template_1[3315136] = {
 	hit_type = {},
 	attach_buff = {},
 	extra_param = {
+		ignoreB = true,
 		ignoreShield = true
 	}
 }
@@ -1177145,8 +1177566,8 @@ _G.pg.base.bullet_template_1[3315138] = {
 	random_damage_rate = 0,
 	damage_type = {
 		3,
-		4.5,
-		6
+		3.9,
+		4.5
 	},
 	DMG_font = {
 		{

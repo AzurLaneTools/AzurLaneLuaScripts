@@ -678,6 +678,7 @@ pg.activity_ins_template.all = {
 	20012,
 	20009,
 	20010,
+	20015,
 	20013,
 	20014
 }
@@ -28405,6 +28406,33 @@ end)()
 			{
 				13,
 				15,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20015] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "[Port Tales] We Want to Know! What's Your Idea of Romance?",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20015,
+		group_id = 20015,
+		time = {
+			{
+				2026,
+				10,
+				8
+			},
+			{
+				14,
+				0,
 				0
 			}
 		},

@@ -330,7 +330,9 @@ pg.base.dorm3d_resource = {}
 			{
 				1,
 				"oversleeve",
-				"all/hoodie_geo"
+				{
+					"all/hoodie_geo"
+				}
 			}
 		},
 		hx_material = {}
@@ -391,7 +393,9 @@ pg.base.dorm3d_resource = {}
 			{
 				1,
 				"oversleeve",
-				"all/cloth_2_geo"
+				{
+					"all/cloth_2_geo"
+				}
 			}
 		},
 		stocking_pos = {
@@ -639,7 +643,15 @@ pg.base.dorm3d_resource = {}
 		id = 207071,
 		head_Icon = "dorm3Dchar/yuanchou",
 		tags = {},
-		hidden_part = {},
+		hidden_part = {
+			{
+				1,
+				"tsuno",
+				{
+					"all/hair_acc_geo"
+				}
+			}
+		},
 		hx_material = {
 			{
 				"dorm3d/character/yuanchou_db/res/yuanchou_noshoes",
@@ -676,7 +688,16 @@ pg.base.dorm3d_resource = {}
 			26,
 			20707
 		},
-		hidden_part = {},
+		hidden_part = {
+			{
+				1,
+				"tsuno",
+				{
+					"all/hair_acc",
+					"all/hair_acc_transparent"
+				}
+			}
+		},
 		hx_material = {
 			{
 				"dorm3d/character/yuanchou_db/res/yuanchou_racing",
@@ -710,7 +731,16 @@ pg.base.dorm3d_resource = {}
 			26,
 			20707
 		},
-		hidden_part = {},
+		hidden_part = {
+			{
+				1,
+				"tsuno",
+				{
+					"all/hair_acc",
+					"all/hair_acc_transparent"
+				}
+			}
+		},
 		hx_material = {
 			{
 				"dorm3d/character/yuanchou_db/res/yuanchou_racing",
@@ -728,6 +758,7 @@ pg.base.dorm3d_resource = {}
 		shop_id = 0,
 		unlock_text = "Place Implacable in the Garage",
 		picture = "regular",
+		hidden_part = "",
 		type = 2,
 		origin_model = "pre_char_yuanchou_racing_mod",
 		hidden_part_apply_in_timeline = 0,
@@ -744,7 +775,6 @@ pg.base.dorm3d_resource = {}
 			26,
 			20707
 		},
-		hidden_part = {},
 		hx_material = {
 			{
 				"dorm3d/character/yuanchou_db/res/yuanchou_racing",

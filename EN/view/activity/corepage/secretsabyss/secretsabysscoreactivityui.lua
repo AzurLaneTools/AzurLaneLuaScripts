@@ -35,8 +35,7 @@ slot0.init = function(slot0, ...)
 			elseif not uv0.pageDic[slot3.id] then
 				warning(string.format("without page in act:", slot3.id))
 			else
-				setText(slot2:Find("off/name"), i18n("masaina_main_sheet" .. slot3:getConfig("is_show")))
-				setText(slot2:Find("on/name"), i18n("masaina_main_sheet" .. slot3:getConfig("is_show")))
+				uv0:UpdateBtnText(slot3, slot2)
 
 				if uv0.pageDic[slot3.id] ~= nil then
 					setActive(slot2:Find("tip"), slot3:readyToAchieve())
@@ -68,6 +67,18 @@ slot0.init = function(slot0, ...)
 	onButton(slot0, slot4:Find("adapt/TopPage/top/btn_back"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)
+end
+
+slot0.UpdateBtnText = function(slot0, slot1, slot2)
+	if pg.gametip[slot1:getConfig("title_res_tag")] then
+		slot4 = i18n(slot3)
+
+		setText(slot2:Find("off/name"), slot4)
+		setText(slot2:Find("on/name"), slot4)
+	else
+		setText(slot2:Find("off/name"), i18n("masaina_main_sheet" .. slot1:getConfig("is_show")))
+		setText(slot2:Find("on/name"), i18n("masaina_main_sheet" .. slot1:getConfig("is_show")))
+	end
 end
 
 slot0.UpdateAdapt = function(slot0)

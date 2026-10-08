@@ -1937,7 +1937,7 @@ end)()
 	}
 	pg.base.gameset.skin_ticket = {
 		description = "",
-		key_value = 756
+		key_value = 766
 	}
 	pg.base.gameset.order_pt_max = {
 		key_value = 0,
@@ -2544,6 +2544,10 @@ end)()
 	}
 	pg.base.gameset.main_hard_chapter_list = {
 		description = "[10101,10102,10103,10104,10201,10202,10203,10204,10301,10302,10303,10304,10401,10402,10403,10404,10501,10502,10503,10504,10601,10602,10603,10604,10701,10702,10703,10704,10801,10802,10803,10804,10901,10902,10903,10904,11001,11002,11003,11004,11101,11102,11103,11104,11201,11202,11203,11204,11301,11302,11303,11304,11401,11402,11403,11404]",
+		key_value = 0
+	}
+	pg.base.gameset.permanent_mark = {
+		description = "20220513",
 		key_value = 0
 	}
 	pg.base.gameset.vow_prop_conversion = {
@@ -3545,6 +3549,8 @@ end)()
 			7
 		}
 	}
+end)()
+(function ()
 	pg.base.gameset.child_attr3_unlock = {
 		key_value = 0,
 		description = {
@@ -3553,8 +3559,6 @@ end)()
 			7
 		}
 	}
-end)()
-(function ()
 	pg.base.gameset.child_item_unlock = {
 		key_value = 0,
 		description = {
@@ -4350,6 +4354,8 @@ end)()
 			2
 		}
 	}
+end)()
+(function ()
 	pg.base.gameset.barbot_ranktime = {
 		key_value = 0,
 		description = {
@@ -4357,8 +4363,6 @@ end)()
 			25
 		}
 	}
-end)()
-(function ()
 	pg.base.gameset.bar_refreshcard_time = {
 		description = "",
 		key_value = 4

@@ -9,6 +9,7 @@ end
 slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
+	slot0.cg = slot0._tf:GetComponent(typeof(CanvasGroup))
 	slot0._parent = slot2
 
 	pg.DelegateInfo.New(slot0)
@@ -115,6 +116,8 @@ slot0.UpdateMedal = function(slot0)
 end
 
 slot0.SetActive = function(slot0, slot1)
+	slot0.cg.alpha = 1
+
 	SetActive(slot0._go, slot1)
 
 	slot0._active = slot1

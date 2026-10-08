@@ -579,7 +579,10 @@ slot0.GetEncoreSkins = function(slot0)
 		end
 	end
 
-	for slot7, slot8 in ipairs(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)) do
+	for slot7, slot8 in ipairs(slot2:getActivitiesByTypes({
+		ActivityConst.ACTIVITY_TYPE_PT_BUFF,
+		ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2
+	})) do
 		if slot8:getDataConfig("type") == 5 and not slot3(slot8) then
 			slot12 = "config_data"
 

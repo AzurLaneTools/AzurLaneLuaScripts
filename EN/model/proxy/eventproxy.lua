@@ -84,6 +84,12 @@ slot0.updateInfoList = function(slot0, slot1)
 		end
 	end
 
+	for slot6 = #slot0.countDownList, 1, -1 do
+		if slot0.eventDic[slot0.countDownList[slot6]] == nil then
+			table.remove(slot0.countDownList, slot6)
+		end
+	end
+
 	if slot2 then
 		table.sort(slot0.countDownList, CompareFuncs({
 			function (slot0)

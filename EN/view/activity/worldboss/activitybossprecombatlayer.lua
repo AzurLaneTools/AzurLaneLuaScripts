@@ -194,11 +194,20 @@ slot0.SetStageID = function(slot0, slot1)
 		slot5 = getProxy(ActivityProxy)
 
 		for slot9 = #slot4, 1, -1 do
-			if slot5:getActivityById(slot4[slot9][1]) and not slot10:isEnd() then
-				table.insert(slot3, 1, {
-					2,
-					id2ItemId(slot4[slot9][2])
-				})
+			slot10, slot11, slot12, slot13 = unpack(slot4)
+
+			if slot5:getActivityById(slot10) and not slot14:isEnd() then
+				if slot11 == DROP_TYPE_RESOURCE then
+					table.insert(slot3, 1, {
+						DROP_TYPE_ITEM,
+						id2ItemId(slot12)
+					})
+				else
+					table.insert(slot3, 1, {
+						slot11,
+						slot12
+					})
+				end
 			end
 		end
 	end

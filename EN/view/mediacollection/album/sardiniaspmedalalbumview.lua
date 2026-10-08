@@ -1,7 +1,6 @@
 slot0 = class("SardiniaSPMedalAlbumView", import(".MedalAlbumTemplateView"))
 slot0.GROUP_ID = 50359
 slot0.MEDAL_COUNT = 8
-slot0.HELP_TIPS = "help_starLightAlbum"
 slot0.setColorstateText = "#b1b1b1"
 slot0.setColorstate = "#b1b1b1"
 

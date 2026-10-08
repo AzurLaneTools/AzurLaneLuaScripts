@@ -38,7 +38,7 @@ slot0.OnFirstFlush = function(slot0)
 end
 
 slot0.OnUpdateFlush = function(slot0)
-	slot0.resNum.text = getProxy(PlayerProxy):getData():getResource(pg.activity_template[slot0.shopId].config_client.pt_id)
+	slot0.resNum.text = getProxy(ShopsProxy):getActivityShopById(slot0.shopId):GetResList()[1]:getOwnedCount()
 end
 
 return slot0

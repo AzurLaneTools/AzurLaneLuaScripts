@@ -68,11 +68,7 @@ slot0.OnFirstFlush = function(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot1 = {
-		count = 0,
-		type = DROP_TYPE_RESOURCE,
-		id = slot0.ptData.resId
-	}
+	slot1 = resDrop
 
 	onButton(slot0, slot0.ptBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

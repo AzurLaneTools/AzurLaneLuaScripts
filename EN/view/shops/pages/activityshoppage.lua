@@ -70,17 +70,7 @@ slot0.OnUpdatePlayer = function(slot0)
 end
 
 slot0.GetResDataList = function(slot0)
-	slot1 = {}
-
-	for slot6, slot7 in ipairs(slot0.shop:GetResList()) do
-		table.insert(slot1, {
-			type = DROP_TYPE_RESOURCE,
-			resID = slot7,
-			cnt = slot0.player:getResource(slot7)
-		})
-	end
-
-	return slot1
+	return slot0.shop:GetResList()
 end
 
 slot0.OnSetUp = function(slot0)
@@ -90,6 +80,7 @@ end
 
 slot0.OnUpdateAll = function(slot0)
 	slot0:InitCommodities()
+	slot0:RefreshResItemList()
 end
 
 slot0.OnUpdateCommodity = function(slot0, slot1)
@@ -108,6 +99,8 @@ slot0.OnUpdateCommodity = function(slot0, slot1)
 
 		slot2:update(slot1, nil, slot4, slot5)
 	end
+
+	slot0:RefreshResItemList()
 end
 
 slot0.SetResIcon = function(slot0, slot1)

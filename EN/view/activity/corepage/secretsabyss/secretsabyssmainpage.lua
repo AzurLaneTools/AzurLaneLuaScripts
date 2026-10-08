@@ -19,6 +19,10 @@ slot0.OnInit = function(slot0)
 	SetActive(slot0.shop_bgtime, false)
 end
 
+slot0.findTF = function(slot0, slot1, slot2)
+	return findTF(slot2 or slot0._tf, slot1)
+end
+
 slot0.OnDataSetting = function(slot0)
 	slot0.timeMgr = pg.TimeMgr.GetInstance()
 end
@@ -48,14 +52,9 @@ slot0.updateUI = function(slot0)
 	setActive(slot0.shop_bgtime, slot3 and slot3 ~= 0)
 	setText(slot0.shop_time, slot3)
 
-	slot4, slot5 = slot0.timeMgr:inTime(pg.activity_template[uv2].time)
-	slot6 = nil
+	buildLastTime = uv1:skinCommdityTimeStamps(slot0.activity.stopTime)
 
-	if slot5 then
-		slot6 = uv1:skinCommdityTimeStamps(slot0.timeMgr:Table2ServerTime(slot5))
-	end
-
-	setActive(slot0.build_bgtime, slot6 and slot6 ~= 0)
+	setActive(slot0.build_bgtime, buildLastTime and buildLastTime ~= 0)
 	setText(slot0.build_time, i18n("tolovemainpage_build_countdown"))
 	onButton(slot0, slot0.shop, function ()
 		if uv0 == nil then
@@ -67,13 +66,13 @@ slot0.updateUI = function(slot0)
 		uv1:emit(ActivityMediator.GO_CHANGE_SHOP)
 	end)
 	onButton(slot0, slot0.build, function ()
-		if uv0 == nil then
+		if buildLastTime == nil then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
 
-		uv1:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
 			page = BuildShipScene.PAGE_BUILD,
 			projectName = BuildShipScene.PROJECTS.ACTIVITY
 		})

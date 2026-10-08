@@ -1,4 +1,5 @@
 slot0 = class("NewRecommendationShopLayer", import("...base.BaseUI"))
+slot0.ACT_REMASTER_BANNER_ID = -1
 slot1 = pg.shop_banner_template
 
 slot0.getUIName = function(slot0)
@@ -187,19 +188,23 @@ slot0.InitData = function(slot0)
 
 	slot4 = pg.gameset.shop_banner_capacity.key_value
 	slot0.bnIds = Clone(uv0.get_id_list_by_name)
-	slot5 = getProxy(PlayerProxy)
-	slot5 = slot5:getRawData()
-
-	slot9 = function(slot0)
+	slot5 = getProxy(PlayerProxy):getRawData()
+	slot0.bnIds.banner_big = underscore.filter(slot0.bnIds.banner_big, function (slot0)
 		return ShopsProxy.SpecialBannerBlockCheck(uv0[slot0], uv1)
-	end
+	end)
 
-	slot0.bnIds.banner_big = underscore.filter(slot0.bnIds.banner_big, slot9)
+	if getProxy(ActivityRemasterProxy):ExistShopBanner() then
+		if not slot0.bnIds.banner_small3 then
+			slot0.bnIds.banner_small3 = {}
+		end
+
+		table.insert(slot0.bnIds.banner_small3, uv1.ACT_REMASTER_BANNER_ID)
+	end
 
 	for slot9, slot10 in pairs(slot0.bnIds) do
 		slot14 = {
 			function (slot0)
-				return -uv0[slot0].order
+				return -uv0:GetBannerConfig(slot0).order
 			end,
 			function (slot0)
 				return slot0
@@ -209,7 +214,7 @@ slot0.InitData = function(slot0)
 		table.sort(slot10, CompareFuncs(slot14))
 
 		for slot14 = #slot10, 1, -1 do
-			if not pg.TimeMgr.GetInstance():inTime(uv0[slot10[slot14]].time) then
+			if not pg.TimeMgr.GetInstance():inTime(slot0:GetBannerConfig(slot10[slot14]).time) then
 				table.remove(slot10, slot14)
 			elseif slot15.relation_param ~= "" then
 				slot16 = slot15.relation_param[1]
@@ -276,10 +281,22 @@ slot0.ShowResUI = function(slot0)
 	end, SFX_PANEL)
 end
 
+slot0.GetBannerConfig = function(slot0, slot1)
+	if slot1 == uv0.ACT_REMASTER_BANNER_ID then
+		return getProxy(ActivityRemasterProxy):GetShopBanner()
+	end
+
+	assert(uv1[slot1], "no config >>>>>>>>>>>>>>>>>" .. slot1)
+
+	if uv1[slot1] then
+		return uv1[slot1]
+	end
+end
+
 slot0.SetPanel = function(slot0)
 	for slot4, slot5 in pairs(slot0.banners) do
 		for slot9, slot10 in ipairs(slot0.bnIds[slot4]) do
-			slot11 = uv0[slot10]
+			slot11 = slot0:GetBannerConfig(slot10)
 			slot12 = slot5:AddChild()
 
 			GetImageSpriteFromAtlasAsync(slot11.pic, "", slot12:Find("picture"))

@@ -16,9 +16,8 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnDataSetting = function(slot0)
-	slot0.time = slot0.activity:getConfig("time")
 	slot0.timeMgr = pg.TimeMgr.GetInstance()
-	slot0.js_time = slot0.timeMgr:parseTimeFromConfig(slot0.time[3])
+	slot0.js_time = slot0.activity.stopTime
 	slot0.fw_time = slot0.timeMgr:GetServerTime()
 	slot0.xc_time = slot0.timeMgr:DiffDay(slot0.fw_time, slot0.js_time)
 end

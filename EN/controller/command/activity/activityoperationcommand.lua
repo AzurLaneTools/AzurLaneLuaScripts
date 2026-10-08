@@ -23,9 +23,15 @@ slot0.execute = function(slot0, slot1)
 		[ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY] = ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1,
 		[ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD] = ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1,
 		[ActivityConst.ACTIVITY_TYPE_SHOP] = function ()
+			slot0 = getProxy(PlayerProxy):getData()
 			slot2 = getProxy(ShopsProxy):getActivityShopById(uv0.id):bindConfigTable()[uv1.arg1]
+			slot4 = Drop.New({
+				type = slot2.resource_category,
+				id = slot2.resource_type,
+				count = slot2.resource_num * (uv1.arg2 or 1)
+			})
 
-			if getProxy(PlayerProxy):getData()[id2res(slot2.resource_type)] < slot2.resource_num * (uv1.arg2 or 1) then
+			if slot4:getOwnedCount() < slot4.count then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 				return true
@@ -222,14 +228,19 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 		[ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD] = ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1,
 		[ActivityConst.ACTIVITY_TYPE_SHOP] = function ()
 			slot0 = getProxy(ShopsProxy)
-			slot1 = slot0:getActivityShopById(uv0.id)
+			slot2 = slot0:getActivityShopById(uv0.id):bindConfigTable()[uv1.arg1]
 
+			reducePlayerOwn(Drop.New({
+				type = slot2.resource_category,
+				id = slot2.resource_type,
+				count = slot2.resource_num * uv1.arg2
+			}))
 			slot0:UpdateActivityGoods(uv0.id, uv1.arg1, uv1.arg2)
 
 			if table.contains(uv0.data1_list, uv1.arg1) then
-				for slot5, slot6 in ipairs(uv0.data1_list) do
-					if slot6 == uv1.arg1 then
-						uv0.data2_list[slot5] = uv0.data2_list[slot5] + uv1.arg2
+				for slot7, slot8 in ipairs(uv0.data1_list) do
+					if slot8 == uv1.arg1 then
+						uv0.data2_list[slot7] = uv0.data2_list[slot7] + uv1.arg2
 
 						break
 					end
@@ -238,14 +249,6 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 				table.insert(uv0.data1_list, uv1.arg1)
 				table.insert(uv0.data2_list, uv1.arg2)
 			end
-
-			slot2 = slot1:bindConfigTable()[uv1.arg1]
-			slot4 = uv2:getData()
-
-			slot4:consume({
-				[id2res(slot2.resource_type)] = slot2.resource_num * uv1.arg2
-			})
-			uv2:updatePlayer(slot4)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_TASK_LIST] = function ()
 			if uv0.cmd == 1 then

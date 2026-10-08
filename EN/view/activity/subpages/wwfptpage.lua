@@ -132,7 +132,7 @@ slot0.OnFirstFlush = function(slot0)
 			targets = uv0.subPtDate[uv0.curSubActID].targets,
 			level = uv0.subPtDate[uv0.curSubActID].level,
 			count = uv0.subPtDate[uv0.curSubActID].count,
-			resId = uv0.subPtDate[uv0.curSubActID].resId
+			resDrop = Drop.New(uv0.subPtDate[uv0.curSubActID]:GetRes())
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()

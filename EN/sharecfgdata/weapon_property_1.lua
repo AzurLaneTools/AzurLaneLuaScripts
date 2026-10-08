@@ -1206238,7 +1206238,7 @@ _G.pg.base.weapon_property_1[3205026] = {
 
 _G.pg.base.weapon_property_1[3205101] = {
 	aim_type = 1,
-	damage = 20,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 1,
@@ -1206258,7 +1206258,7 @@ _G.pg.base.weapon_property_1[3205101] = {
 
 _G.pg.base.weapon_property_1[3205102] = {
 	aim_type = 1,
-	damage = 20,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 1,
@@ -1206278,7 +1206278,7 @@ _G.pg.base.weapon_property_1[3205102] = {
 
 _G.pg.base.weapon_property_1[3205103] = {
 	aim_type = 0,
-	damage = 20,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1206298,7 +1206298,7 @@ _G.pg.base.weapon_property_1[3205103] = {
 
 _G.pg.base.weapon_property_1[3205104] = {
 	aim_type = 0,
-	damage = 20,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1206322,7 +1206322,7 @@ _G.pg.base.weapon_property_1[3205104] = {
 
 _G.pg.base.weapon_property_1[3205105] = {
 	aim_type = 0,
-	damage = 60,
+	damage = 90,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1206372,7 +1206372,7 @@ _G.pg.base.weapon_property_1[3205107] = {
 	expose = 0,
 	angle = 180,
 	range = 120,
-	damage = 250,
+	damage = 400,
 	corrected = 100,
 	min_range = 0,
 	id = 3205107,
@@ -1206407,7 +1206407,7 @@ _G.pg.base.weapon_property_1[3205107] = {
 _G.pg.base.weapon_property_1[3205108] = {
 	aim_type = 1,
 	range = 120,
-	damage = 50,
+	damage = 80,
 	base = 1009,
 	type = 19,
 	suppress = 1,
@@ -1206454,7 +1206454,7 @@ _G.pg.base.weapon_property_1[3205109] = {
 
 _G.pg.base.weapon_property_1[3205110] = {
 	aim_type = 0,
-	damage = 250,
+	damage = 400,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1206473,7 +1206473,7 @@ _G.pg.base.weapon_property_1[3205110] = {
 
 _G.pg.base.weapon_property_1[3205111] = {
 	aim_type = 0,
-	damage = 20,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1206493,7 +1206493,7 @@ _G.pg.base.weapon_property_1[3205111] = {
 
 _G.pg.base.weapon_property_1[3205112] = {
 	aim_type = 0,
-	damage = 20,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1206513,7 +1206513,7 @@ _G.pg.base.weapon_property_1[3205112] = {
 
 _G.pg.base.weapon_property_1[3205113] = {
 	aim_type = 0,
-	damage = 30,
+	damage = 50,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1206535,7 +1206535,7 @@ _G.pg.base.weapon_property_1[3205113] = {
 
 _G.pg.base.weapon_property_1[3205114] = {
 	aim_type = 0,
-	damage = 30,
+	damage = 50,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1206557,7 +1206557,7 @@ _G.pg.base.weapon_property_1[3205114] = {
 
 _G.pg.base.weapon_property_1[3205115] = {
 	aim_type = 1,
-	damage = 60,
+	damage = 90,
 	base = 1009,
 	action_index = "",
 	suppress = 1,
@@ -1206575,7 +1206575,7 @@ _G.pg.base.weapon_property_1[3205115] = {
 
 _G.pg.base.weapon_property_1[3205116] = {
 	aim_type = 1,
-	damage = 60,
+	damage = 90,
 	base = 1009,
 	action_index = "",
 	suppress = 1,
@@ -1206593,7 +1206593,7 @@ _G.pg.base.weapon_property_1[3205116] = {
 
 _G.pg.base.weapon_property_1[3205117] = {
 	aim_type = 0,
-	damage = 30,
+	damage = 50,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1206613,7 +1206613,7 @@ _G.pg.base.weapon_property_1[3205117] = {
 
 _G.pg.base.weapon_property_1[3205118] = {
 	aim_type = 0,
-	damage = 20,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1206703,7 +1206703,7 @@ _G.pg.base.weapon_property_1[3205122] = {
 
 _G.pg.base.weapon_property_1[3205123] = {
 	aim_type = 1,
-	damage = 20,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	fire_fx = "",
@@ -1206725,7 +1206725,7 @@ _G.pg.base.weapon_property_1[3205123] = {
 
 _G.pg.base.weapon_property_1[3205124] = {
 	aim_type = 0,
-	damage = 250,
+	damage = 400,
 	base = 1009,
 	range = 10,
 	action_index = "",
@@ -1206761,7 +1206761,7 @@ _G.pg.base.weapon_property_1[3205125] = {
 
 _G.pg.base.weapon_property_1[3205126] = {
 	aim_type = 0,
-	damage = 250,
+	damage = 400,
 	base = 1009,
 	range = 10,
 	action_index = "",
@@ -1223705,7 +1223705,7 @@ _G.pg.base.weapon_property_1[3235010] = {
 
 _G.pg.base.weapon_property_1[3235201] = {
 	aim_type = 1,
-	damage = 40,
+	damage = 60,
 	base = 1009,
 	range = 120,
 	action_index = "attack",
@@ -1223730,7 +1223730,7 @@ _G.pg.base.weapon_property_1[3235201] = {
 
 _G.pg.base.weapon_property_1[3235202] = {
 	aim_type = 1,
-	damage = 20,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1223749,7 +1223749,7 @@ _G.pg.base.weapon_property_1[3235202] = {
 
 _G.pg.base.weapon_property_1[3235203] = {
 	aim_type = 0,
-	damage = 20,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1223782,7 +1223782,7 @@ _G.pg.base.weapon_property_1[3235203] = {
 
 _G.pg.base.weapon_property_1[3235204] = {
 	aim_type = 0,
-	damage = 10,
+	damage = 20,
 	base = 1003,
 	range = 120,
 	suppress = 0,
@@ -1223810,7 +1223810,7 @@ _G.pg.base.weapon_property_1[3235204] = {
 
 _G.pg.base.weapon_property_1[3235205] = {
 	aim_type = 0,
-	damage = 10,
+	damage = 20,
 	base = 1003,
 	range = 120,
 	suppress = 0,
@@ -1223838,7 +1223838,7 @@ _G.pg.base.weapon_property_1[3235205] = {
 
 _G.pg.base.weapon_property_1[3235206] = {
 	aim_type = 0,
-	damage = 20,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1223871,7 +1223871,7 @@ _G.pg.base.weapon_property_1[3235206] = {
 
 _G.pg.base.weapon_property_1[3235207] = {
 	aim_type = 1,
-	damage = 15,
+	damage = 25,
 	base = 1009,
 	range = 120,
 	action_index = "attack",
@@ -1223894,7 +1223894,7 @@ _G.pg.base.weapon_property_1[3235207] = {
 
 _G.pg.base.weapon_property_1[3235208] = {
 	aim_type = 0,
-	damage = 20,
+	damage = 40,
 	base = 1003,
 	range = 120,
 	suppress = 0,
@@ -1223918,7 +1223918,7 @@ _G.pg.base.weapon_property_1[3235208] = {
 
 _G.pg.base.weapon_property_1[3235209] = {
 	aim_type = 1,
-	damage = 25,
+	damage = 50,
 	base = 1009,
 	range = 120,
 	action_index = "attack",
@@ -1223939,7 +1223939,7 @@ _G.pg.base.weapon_property_1[3235209] = {
 
 _G.pg.base.weapon_property_1[3235210] = {
 	aim_type = 0,
-	damage = 25,
+	damage = 50,
 	base = 1009,
 	range = 120,
 	action_index = "attack",
@@ -1227642,7 +1227642,7 @@ _G.pg.base.weapon_property_1[3245015] = {
 
 _G.pg.base.weapon_property_1[3245201] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1227667,7 +1227667,7 @@ _G.pg.base.weapon_property_1[3245201] = {
 
 _G.pg.base.weapon_property_1[3245202] = {
 	aim_type = 1,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1227717,7 +1227717,7 @@ _G.pg.base.weapon_property_1[3245203] = {
 
 _G.pg.base.weapon_property_1[3245204] = {
 	aim_type = 1,
-	damage = 80,
+	damage = 50,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1227738,7 +1227738,7 @@ _G.pg.base.weapon_property_1[3245204] = {
 
 _G.pg.base.weapon_property_1[3245205] = {
 	aim_type = 1,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1227761,7 +1227761,7 @@ _G.pg.base.weapon_property_1[3245205] = {
 
 _G.pg.base.weapon_property_1[3245206] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1227782,7 +1227782,7 @@ _G.pg.base.weapon_property_1[3245206] = {
 
 _G.pg.base.weapon_property_1[3245207] = {
 	aim_type = 0,
-	damage = 40,
+	damage = 20,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1227811,7 +1227811,7 @@ _G.pg.base.weapon_property_1[3245207] = {
 
 _G.pg.base.weapon_property_1[3245208] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1227832,7 +1227832,7 @@ _G.pg.base.weapon_property_1[3245208] = {
 
 _G.pg.base.weapon_property_1[3245209] = {
 	aim_type = 0,
-	damage = 30,
+	damage = 20,
 	base = 1003,
 	range = 120,
 	action_index = "",
@@ -1227865,7 +1227865,7 @@ _G.pg.base.weapon_property_1[3245209] = {
 
 _G.pg.base.weapon_property_1[3245210] = {
 	aim_type = 1,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1227884,7 +1227884,7 @@ _G.pg.base.weapon_property_1[3245210] = {
 
 _G.pg.base.weapon_property_1[3245211] = {
 	aim_type = 1,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1227984,7 +1227984,7 @@ _G.pg.base.weapon_property_1[3245212] = {
 
 _G.pg.base.weapon_property_1[3245213] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1228005,7 +1228005,7 @@ _G.pg.base.weapon_property_1[3245213] = {
 
 _G.pg.base.weapon_property_1[3245214] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1228026,7 +1228026,7 @@ _G.pg.base.weapon_property_1[3245214] = {
 
 _G.pg.base.weapon_property_1[3245215] = {
 	aim_type = 1,
-	damage = 30,
+	damage = 20,
 	base = 1003,
 	range = 120,
 	action_index = "",
@@ -1241247,7 +1241247,7 @@ _G.pg.base.weapon_property_1[3275012] = {
 
 _G.pg.base.weapon_property_1[3275201] = {
 	aim_type = 1,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "attack",
@@ -1241268,7 +1241268,7 @@ _G.pg.base.weapon_property_1[3275201] = {
 
 _G.pg.base.weapon_property_1[3275202] = {
 	aim_type = 1,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1241287,7 +1241287,7 @@ _G.pg.base.weapon_property_1[3275202] = {
 
 _G.pg.base.weapon_property_1[3275203] = {
 	aim_type = 0,
-	damage = 80,
+	damage = 50,
 	base = 1009,
 	range = 120,
 	action_index = "attack",
@@ -1241371,7 +1241371,7 @@ _G.pg.base.weapon_property_1[3275204] = {
 
 _G.pg.base.weapon_property_1[3275205] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1241390,7 +1241390,7 @@ _G.pg.base.weapon_property_1[3275205] = {
 
 _G.pg.base.weapon_property_1[3275206] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "attack",
@@ -1241409,7 +1241409,7 @@ _G.pg.base.weapon_property_1[3275206] = {
 
 _G.pg.base.weapon_property_1[3275207] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "attack",
@@ -1241484,7 +1241484,7 @@ _G.pg.base.weapon_property_1[3275208] = {
 _G.pg.base.weapon_property_1[3275209] = {
 	aim_type = 1,
 	range = 80,
-	damage = 100,
+	damage = 80,
 	base = 1009,
 	type = 19,
 	suppress = 1,
@@ -1241508,7 +1241508,7 @@ _G.pg.base.weapon_property_1[3275209] = {
 
 _G.pg.base.weapon_property_1[3275210] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "attack",
@@ -1241527,7 +1241527,7 @@ _G.pg.base.weapon_property_1[3275210] = {
 
 _G.pg.base.weapon_property_1[3275211] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1241546,7 +1241546,7 @@ _G.pg.base.weapon_property_1[3275211] = {
 
 _G.pg.base.weapon_property_1[3275212] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	range = 120,
 	action_index = "",
@@ -1252734,7 +1252734,7 @@ _G.pg.base.weapon_property_1[3305113] = {
 
 _G.pg.base.weapon_property_1[3305201] = {
 	aim_type = 1,
-	damage = 30,
+	damage = 20,
 	base = 1009,
 	action_index = "",
 	suppress = 1,
@@ -1252766,7 +1252766,7 @@ _G.pg.base.weapon_property_1[3305201] = {
 
 _G.pg.base.weapon_property_1[3305202] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1252786,7 +1252786,7 @@ _G.pg.base.weapon_property_1[3305202] = {
 
 _G.pg.base.weapon_property_1[3305203] = {
 	aim_type = 1,
-	damage = 80,
+	damage = 50,
 	base = 1009,
 	action_index = "",
 	suppress = 1,
@@ -1252804,7 +1252804,7 @@ _G.pg.base.weapon_property_1[3305203] = {
 
 _G.pg.base.weapon_property_1[3305204] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1252822,7 +1252822,7 @@ _G.pg.base.weapon_property_1[3305204] = {
 
 _G.pg.base.weapon_property_1[3305205] = {
 	aim_type = 0,
-	damage = 30,
+	damage = 20,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1252840,7 +1252840,7 @@ _G.pg.base.weapon_property_1[3305205] = {
 
 _G.pg.base.weapon_property_1[3305206] = {
 	aim_type = 1,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 1,
@@ -1252866,7 +1252866,7 @@ _G.pg.base.weapon_property_1[3305206] = {
 
 _G.pg.base.weapon_property_1[3305207] = {
 	aim_type = 0,
-	damage = 80,
+	damage = 50,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1252886,7 +1252886,7 @@ _G.pg.base.weapon_property_1[3305207] = {
 
 _G.pg.base.weapon_property_1[3305208] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1252906,7 +1252906,7 @@ _G.pg.base.weapon_property_1[3305208] = {
 
 _G.pg.base.weapon_property_1[3305209] = {
 	aim_type = 0,
-	damage = 50,
+	damage = 30,
 	base = 1009,
 	action_index = "",
 	suppress = 0,
@@ -1252936,7 +1252936,7 @@ _G.pg.base.weapon_property_1[3305209] = {
 
 _G.pg.base.weapon_property_1[3305210] = {
 	aim_type = 0,
-	damage = 100,
+	damage = 50,
 	base = 1003,
 	range = 120,
 	action_index = "",
@@ -1252965,7 +1252965,7 @@ _G.pg.base.weapon_property_1[3305210] = {
 
 _G.pg.base.weapon_property_1[3305211] = {
 	aim_type = 1,
-	damage = 100,
+	damage = 50,
 	base = 1003,
 	range = 120,
 	action_index = "",
@@ -1252986,7 +1252986,7 @@ _G.pg.base.weapon_property_1[3305211] = {
 
 _G.pg.base.weapon_property_1[3305212] = {
 	aim_type = 1,
-	damage = 100,
+	damage = 50,
 	base = 1003,
 	range = 120,
 	action_index = "",
@@ -1253007,7 +1253007,7 @@ _G.pg.base.weapon_property_1[3305212] = {
 
 _G.pg.base.weapon_property_1[3305213] = {
 	aim_type = 1,
-	damage = 100,
+	damage = 50,
 	base = 1003,
 	range = 120,
 	action_index = "",
@@ -1256404,8 +1256404,8 @@ _G.pg.base.weapon_property_1[3315105] = {
 	queue = 3,
 	id = 3315105,
 	bullet_ID = {
-		3315101,
-		3315101
+		3315001,
+		3315001
 	},
 	barrage_ID = {
 		3315001,
@@ -1256470,7 +1256470,7 @@ _G.pg.base.weapon_property_1[3315108] = {
 	queue = 4,
 	id = 3315108,
 	bullet_ID = {
-		3315104
+		3315004
 	},
 	barrage_ID = {
 		3315104

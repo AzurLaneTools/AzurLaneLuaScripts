@@ -2,43 +2,37 @@ slot0 = class("StarLightMedalAlbumView", import("view.base.BaseUI"))
 slot0.ICON_SCALE = 1.35
 slot0.MEDAL_COUNT = 8
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {}
+slot1 = function(slot0)
+	return _.any(pg.activity_template[slot0.id].config_data, function (slot0)
+		return Task.New({
+			id = slot0
+		}):HasActMedalAward()
+	end)
+end
 
-	if slot0.GROUP_ID and pg.activity_medal_group[slot3] and slot4.item_show then
-		slot5 = {}
-
-		slot6 = function(slot0)
-			if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
-				table.insert(uv0, slot0)
-			end
-		end
-
-		for slot10, slot11 in ipairs(slot4.item_show) do
-			if slot11 and #slot11 > 0 then
-				slot12 = Drop.New({
-					type = slot11[1],
-					id = slot11[2],
-					count = slot11[3] or 1
-				})
-				slot13 = slot12:getIcon()
-
-				if slot12.type == DROP_TYPE_FURNITURE then
-					slot13 = "furnitureicon/" .. slot13
-				end
-
-				slot6(slot13)
-			end
-		end
-
-		for slot10, slot11 in ipairs(slot5) do
-			table.insert(slot2, slot11)
+slot2 = function()
+	for slot4, slot5 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASKS)) do
+		if uv0(slot5) then
+			return slot5
 		end
 	end
 
-	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return nil
+end
 
-	return slot2
+slot0.GetHelpTips = function(slot0)
+	if not uv0() then
+		return ""
+	end
+
+	slot3 = string.split(slot1:GetActivityTimeStr(), "-")
+	slot4 = pg.gametip.help_starLightAlbum.tip
+
+	_.each(slot4, function (slot0)
+		slot0.info = string.gsub(slot0.info, "$1", uv0[2])
+	end)
+
+	return slot4
 end
 
 slot0.SetMedalGroupData = function(slot0, slot1)
@@ -130,9 +124,13 @@ slot0.AddListener = function(slot0)
 		uv0:closeView()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
+		if not uv0:GetHelpTips() or slot0 == "" then
+			return
+		end
+
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip[uv0.HELP_TIPS].tip
+			helps = slot0
 		})
 	end)
 	onButton(slot0, slot0.medalLock, function ()

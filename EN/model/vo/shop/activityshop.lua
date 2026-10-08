@@ -110,12 +110,19 @@ slot0.isEnd = function(slot0)
 end
 
 slot0.getOpenTime = function(slot0)
-	slot2 = pg.activity_template[slot0.activityId].time
-	slot3 = slot2[2][1]
-	slot4 = slot2[3][1]
-	slot5 = slot2[3][2]
+	if pg.activity_template[slot0.activityId].time == "stop" then
+		if not getProxy(ActivityRemasterProxy):GetActivaingReamsterData() then
+			return ""
+		end
 
-	return string.format("%d.%d.%d~%d.%d.%d %d:%d:%d", slot3[1], slot3[2], slot3[3], slot4[1], slot4[2], slot4[3], slot5[1], slot5[2], slot5[3])
+		return slot3:GetActivityTimeDesc(slot0.activityId, true)
+	else
+		slot3 = slot2[2][1]
+		slot4 = slot2[3][1]
+		slot5 = slot2[3][2]
+
+		return string.format("%d.%d.%d~%d.%d.%d %d:%d:%d", slot3[1], slot3[2], slot3[3], slot4[1], slot4[2], slot4[3], slot5[1], slot5[2], slot5[3])
+	end
 end
 
 slot0.getStartTime = function(slot0)
@@ -147,29 +154,22 @@ slot0.getToggleImage = function(slot0)
 	return pg.activity_template[slot0.activityId].config_client.toggle or "huodongdduihuan_butten"
 end
 
-slot0.getResId = function(slot0)
-	slot1 = nil
-
-	for slot5, slot6 in pairs(slot0.goods) do
-		slot1 = slot6
-
-		break
-	end
-
-	return slot1:getConfig("resource_type")
-end
-
 slot0.GetResList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.goods) do
-		slot1[slot6:getConfig("resource_type")] = true
+		slot7 = slot6:GetConsume()
+		slot7.count = slot7:getOwnedCount()
+
+		if not slot1[slot7.type .. "_" .. slot7.id] then
+			slot1[slot7.type .. "_" .. slot7.id] = slot7
+		end
 	end
 
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot1) do
-		table.insert(slot2, slot6)
+		table.insert(slot2, slot7)
 	end
 
 	return slot2
