@@ -182,6 +182,10 @@ slot0.GetFurnitureTotalCnt = function(slot0)
 	return 1
 end
 
+slot0.GetStartTime = function(slot0, slot1)
+	return pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.activity_re_timer[getProxy(ActivityRemasterProxy).actTimeID].timer[2])
+end
+
 slot0.GetActivityTimeDesc = function(slot0, slot1, slot2)
 	if not pg.activity_re_timer[getProxy(ActivityRemasterProxy).actTimeID] then
 		return ""

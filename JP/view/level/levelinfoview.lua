@@ -523,59 +523,65 @@ slot0.getChapterAwards = function(slot0)
 		end
 	end
 
-	slot3 = {
+	slot3 = function(slot0)
+		return _.all(slot0, function (slot0)
+			return #slot0 >= 3
+		end)
+	end
+
+	slot4 = {
 		slot0:getConfig("boss_expedition_id"),
 		slot0:getConfig("ai_expedition_list")
 	}
 
 	if slot0:getPlayType() == ChapterConst.TypeMultiStageBoss then
-		table.insert(slot3, pg.chapter_model_multistageboss[slot0.id].boss_expedition_id)
+		table.insert(slot4, pg.chapter_model_multistageboss[slot0.id].boss_expedition_id)
 	end
 
-	slot5 = {}
 	slot6 = {}
+	slot7 = {}
 
-	for slot10, slot11 in ipairs(_.flatten(slot3)) do
-		if checkExist(pg.expedition_activity_template[slot11], {
+	for slot11, slot12 in ipairs(_.flatten(slot4)) do
+		if checkExist(pg.expedition_activity_template[slot12], {
 			"pt_drop_display"
-		}) and type(slot12) == "table" then
-			for slot16, slot17 in ipairs(slot12) do
-				slot18, slot19, slot20, slot21 = unpack(slot17)
+		}) and type(slot13) == "table" and slot3(slot13) then
+			for slot17, slot18 in ipairs(slot13) do
+				slot19, slot20, slot21, slot22 = unpack(slot18)
 
-				if not slot6[slot19 .. "_" .. slot20] then
-					slot6[slot22] = {}
+				if not slot7[slot20 .. "_" .. slot21] then
+					slot7[slot23] = {}
 
-					table.insert(slot5, slot22)
+					table.insert(slot6, slot23)
 				end
 
-				slot6[slot22][slot18] = slot21
+				slot7[slot23][slot19] = slot22
 			end
 		end
 	end
 
-	slot7 = getProxy(ActivityProxy)
+	slot8 = getProxy(ActivityProxy)
 
-	for slot11 = #slot5, 1, -1 do
-		slot12, slot13 = unpack(underscore.map(string.split(slot5[slot11], "_"), function (slot0)
+	for slot12 = #slot6, 1, -1 do
+		slot13, slot14 = unpack(underscore.map(string.split(slot6[slot12], "_"), function (slot0)
 			return tonumber(slot0)
 		end))
 
-		for slot17, slot18 in pairs(slot6[slot5[slot11]]) do
-			if slot7:getActivityById(slot17) and not slot19:isEnd() then
-				if slot12 == DROP_TYPE_RESOURCE then
+		for slot18, slot19 in pairs(slot7[slot6[slot12]]) do
+			if slot8:getActivityById(slot18) and not slot20:isEnd() then
+				if slot13 == DROP_TYPE_RESOURCE then
 					table.insert(slot1, 1, {
 						DROP_TYPE_ITEM,
-						id2ItemId(slot13),
-						slot18
+						id2ItemId(slot14),
+						slot19
 					})
 
 					break
 				end
 
 				table.insert(slot1, 1, {
-					slot12,
 					slot13,
-					slot18
+					slot14,
+					slot19
 				})
 
 				break

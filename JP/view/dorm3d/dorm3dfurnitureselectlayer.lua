@@ -419,16 +419,15 @@ slot0.UpdateView = function(slot0)
 	slot9 = false
 
 	if slot0.selectSlotId then
-		if Dorm3dFurnitureSlot.New({
+		slot10 = Dorm3dFurnitureSlot.New({
 			configId = slot0.selectSlotId
-		}):GetType() == Dorm3dFurniture.TYPE.DECORATION or slot10:GetType() == Dorm3dFurniture.TYPE.SPECIAL then
-			slot11 = slot0.room
+		})
+		slot11 = slot0.room
 
-			if _.detect(slot11:GetFurnitures(), function (slot0)
-				return slot0:GetSlotID() == uv0:GetConfigID()
-			end) then
-				slot0:CleanSlot()
-			end
+		if _.detect(slot11:GetFurnitures(), function (slot0)
+			return slot0:GetSlotID() == uv0:GetConfigID()
+		end) and (slot10:GetType() == Dorm3dFurniture.TYPE.DECORATION or slot10:GetType() == Dorm3dFurniture.TYPE.SPECIAL or slot12:CanRemove()) then
+			slot0:CleanSlot()
 		end
 	end
 

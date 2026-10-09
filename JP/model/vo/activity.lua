@@ -1076,7 +1076,11 @@ end
 
 slot0.getStartTime = function(slot0)
 	if slot0:getConfig("time") == "stop" then
-		return pg.TimeMgr.GetInstance():GetServerTime()
+		if not getProxy(ActivityRemasterProxy):GetActivaingReamsterData() then
+			return ""
+		end
+
+		return slot1:GetStartTime(slot0.id)
 	else
 		slot1, slot2 = parseTimeConfig(slot0:getConfig("time"))
 
