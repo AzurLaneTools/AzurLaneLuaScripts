@@ -45,6 +45,10 @@ slot0.update = function(slot0, slot1, slot2)
 end
 
 slot0.addData = function(slot0, slot1, slot2)
+	if not slot0:getAvatarFrameById(slot1) then
+		slot0:initListData(slot1, {}, {})
+	end
+
 	for slot6, slot7 in ipairs(slot2) do
 		slot0:addAvatarTask(slot1, slot0:createAvatarFrameTask(slot1, slot7))
 	end

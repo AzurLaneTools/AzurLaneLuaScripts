@@ -47840,7 +47840,7 @@ end)()
 	pg.base.furniture_shop_template[323101] = {
 		not_for_sale = 0,
 		gem_price = 150,
-		time = "always",
+		time = "stop",
 		id = 323101,
 		collaboration_furniture_time = "",
 		discount = 0,
@@ -47851,7 +47851,7 @@ end)()
 	pg.base.furniture_shop_template[323102] = {
 		not_for_sale = 0,
 		gem_price = 150,
-		time = "always",
+		time = "stop",
 		id = 323102,
 		collaboration_furniture_time = "",
 		discount = 0,

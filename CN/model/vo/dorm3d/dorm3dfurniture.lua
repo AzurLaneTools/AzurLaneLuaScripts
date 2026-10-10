@@ -92,6 +92,10 @@ slot0.IsSpecial = function(slot0)
 	return slot0:getConfig("is_special") == 1
 end
 
+slot0.CanRemove = function(slot0)
+	return slot0:getConfig("can_remove") == 1
+end
+
 slot0.InShopTime = function(slot0)
 	if slot0:GetShopID() == 0 then
 		return true
