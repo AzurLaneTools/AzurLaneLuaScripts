@@ -469,7 +469,7 @@ slot0.updateActivityRes = function(slot0)
 	slot2 = findTF(slot0.ptTotal, "icon/Image")
 
 	if findTF(slot0.ptTotal, "Text") and slot2 and slot0.ptActivity then
-		setText(slot1, "x" .. slot0.ptActivity.data1)
+		setText(slot1, "x" .. slot0.ptActivity:GetTotalPtCount())
 
 		slot3 = slot0.ptActivity:GetPTDrop():getIcon()
 

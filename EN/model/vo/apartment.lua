@@ -23,11 +23,11 @@ slot0.Ctor = function(slot0, slot1)
 	end
 
 	slot2 = ipairs
-	slot3 = slot1.hidden_parts or {}
+	slot3 = slot1.hidden_info or {}
 
 	for slot5, slot6 in slot2(slot3) do
 		table.insert(slot0.hiddenInfo, {
-			skin_id = slot6.id,
+			skin_id = slot6.skin_id,
 			hidden_parts = {}
 		})
 
