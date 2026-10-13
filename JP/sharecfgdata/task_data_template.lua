@@ -365992,7 +365992,8 @@ _G.pg.base.task_data_template[10000018] = {
 		1830005,
 		1830025,
 		1830006,
-		1830026
+		1830026,
+		1830041
 	},
 	open_need = {},
 	award_display = {
