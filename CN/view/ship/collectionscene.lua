@@ -185,6 +185,10 @@ slot0.getResource = function(slot0)
 			end
 		end
 
+		for slot4, slot5 in ipairs(pg.music_collect_config.all) do
+			table.insert(slot0, MusicCollectionConst.MUSIC_SONG_PATH_PREFIX .. pg.music_collect_config[slot5].music .. ".b")
+		end
+
 		return slot0
 	end)()))
 end

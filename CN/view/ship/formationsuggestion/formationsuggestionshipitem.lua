@@ -15,7 +15,7 @@ slot0.Init = function(slot0)
 	slot0.paintingDefaultAngle = slot0.uiPaintingTf.localEulerAngles
 	slot0.UIlist = UIItemList.New(slot0.uiStartsTf, slot0.uiStartItem)
 
-	setActive(slot0.uiUnownedText, i18n("word_not_get"))
+	setText(slot0.uiUnownedText, i18n("word_not_get"))
 end
 
 slot0.didEnter = function(slot0)

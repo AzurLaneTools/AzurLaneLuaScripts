@@ -90,6 +90,10 @@ slot0.didEnter = function(slot0)
 				end
 
 				for slot11, slot12 in ipairs(uv4) do
+					if uv0.remoulded == 0 and slot12.skills[pg.ship_data_template[slot12.configId].buff_list_display[table.keyof(pg.ship_data_template[uv2.configId].buff_list_display, slot4)]] and slot7 < slot12.skills[slot14].level then
+						slot7 = slot15 or slot7
+					end
+
 					if slot12.skills[slot4] and slot7 < slot12.skills[slot4].level then
 						slot7 = slot13 or slot7
 					end

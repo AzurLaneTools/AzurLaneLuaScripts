@@ -43318,11 +43318,12 @@ end)()
 			ui_name = "WindFogCorridorSkinPage"
 		},
 		config_client = {
+			subType = 1,
 			once_task = 27816,
 			sub_act_id = 51203,
 			ptActId = 51203,
 			daily_task = 27815,
-			show_task = {
+			unlock_task = {
 				{
 					27801,
 					27802

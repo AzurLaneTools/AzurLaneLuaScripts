@@ -142,6 +142,7 @@ pg.activity_shop_extra.all = {
 	144,
 	145,
 	148,
+	149,
 	5007,
 	5008,
 	5009
@@ -287,6 +288,7 @@ pg.activity_shop_extra.get_id_list_by_commodity_type = {
 		144,
 		145,
 		148,
+		149,
 		5007,
 		5008,
 		5009
@@ -5431,6 +5433,44 @@ end)()
 					23,
 					59,
 					59
+				}
+			}
+		}
+	}
+	pg.base.activity_shop_extra[149] = {
+		num_limit = 1,
+		activity = 51201,
+		commodity_type = 7,
+		shop_tag = 2,
+		num = 1,
+		commodity_id = 903023,
+		end_by_maintenance = 1,
+		scene = "",
+		id = 149,
+		order = 14,
+		time = {
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
 				}
 			}
 		}

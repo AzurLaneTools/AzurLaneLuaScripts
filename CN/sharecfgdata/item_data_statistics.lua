@@ -144096,7 +144096,7 @@ _G.pg.base.item_data_statistics[180099] = {
 
 
 _G.pg.base.item_data_statistics[99985] = {
-	open_directly = 0,
+	open_directly = 1,
 	name = "作战奖励补给箱",
 	type = 17,
 	display = "用于补发2026年9月大型作战委托作战部分奖励异常所涉及的奖励。开启后可随机获得特别兑换凭证、海域坐标记录仪或塞壬坐标记录仪。 ",
@@ -144117,7 +144117,28 @@ _G.pg.base.item_data_statistics[99985] = {
 	id = 99985,
 	compose_number = 0,
 	target_id = 0,
-	display_icon = {},
+	display_icon = {
+		{
+			12,
+			101,
+			10
+		},
+		{
+			12,
+			2100001,
+			1
+		},
+		{
+			12,
+			2100002,
+			1
+		},
+		{
+			12,
+			2100003,
+			1
+		}
+	},
 	price = {},
 	index = {},
 	shiptrans_id = {},

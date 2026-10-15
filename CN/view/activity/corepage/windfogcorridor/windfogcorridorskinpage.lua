@@ -15,7 +15,7 @@ slot0.OnDataSetting = function(slot0)
 	slot0.nday = 0
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.clientConfig = slot0.activity:getConfig("config_client")
-	slot0.taskGroup = slot0.clientConfig.show_task
+	slot0.taskGroup = slot0.clientConfig.unlock_task
 	slot0.ptData = ActivityPtData.New(getProxy(ActivityProxy):getActivityById(slot0.clientConfig.ptActId))
 
 	return updateActivityTaskStatus(slot0.activity)
@@ -124,6 +124,8 @@ slot0.isTaskFinished = function(slot0, slot1)
 	end
 
 	slot2 = slot0.taskProxy:getTaskById(slot1) or slot0.taskProxy:getFinishTaskById(slot1)
+
+	originalPrint(" >>>>>>>>>> taskId = ", slot1, ", isFinished = ", slot2 and slot2:getTaskStatus() == 2)
 
 	return slot2 and slot2:getTaskStatus() == 2
 end

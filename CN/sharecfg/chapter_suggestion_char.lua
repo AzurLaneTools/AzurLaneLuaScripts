@@ -496,13 +496,13 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					2440,
+					1340,
 					10
 				}
 			},
 			{
 				{
-					1030100,
+					1030120,
 					10
 				}
 			}
@@ -652,7 +652,7 @@ pg.base.chapter_suggestion_char = {}
 			},
 			{
 				{
-					1070220,
+					14740,
 					10
 				}
 			}
@@ -752,7 +752,7 @@ pg.base.chapter_suggestion_char = {}
 		wepaon_2 = {
 			{
 				{
-					14340,
+					34300,
 					10
 				},
 				{
@@ -902,7 +902,7 @@ pg.base.chapter_suggestion_char = {}
 		wepaon = {
 			{
 				{
-					33120,
+					43160,
 					10
 				},
 				{
@@ -1012,7 +1012,7 @@ pg.base.chapter_suggestion_char = {}
 			},
 			{
 				{
-					1030120,
+					13140,
 					10
 				}
 			}
@@ -1846,13 +1846,13 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					2440,
+					1340,
 					10
 				}
 			},
 			{
 				{
-					1030100,
+					1030120,
 					10
 				}
 			}
@@ -2362,7 +2362,7 @@ pg.base.chapter_suggestion_char = {}
 			},
 			{
 				{
-					1030120,
+					13140,
 					10
 				}
 			}
@@ -2814,7 +2814,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					4140,
+					1340,
 					10
 				}
 			},
@@ -2844,13 +2844,13 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					4140,
+					1340,
 					10
 				}
 			},
 			{
 				{
-					1030100,
+					1030120,
 					10
 				}
 			}
@@ -2994,7 +2994,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					1340,
+					3200,
 					10
 				}
 			},
@@ -3192,7 +3192,7 @@ pg.base.chapter_suggestion_char = {}
 		wepaon_2 = {
 			{
 				{
-					14340,
+					34300,
 					10
 				},
 				{
@@ -3342,7 +3342,7 @@ pg.base.chapter_suggestion_char = {}
 		wepaon = {
 			{
 				{
-					33120,
+					43160,
 					10
 				},
 				{
