@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "海边的帐篷，日出时分的海风，第一缕阳光落在你脸上的样子……",
+			say = "海邊的帳篷，日出時分的海風，第一縷陽光落在你臉上的樣子…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "至于日出之后的事……",
+			say = "至於日出之後的事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在想什么？",
+			say = "在想什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "是适合与你共度的出游计划。",
+			say = "是適合與你共度的旅遊計劃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你只需要说“去”或“不去”。剩下的……交给我来安排就好，呵呵~",
+			say = "你只需要說「去」或「不去」。剩下的……交給我來安排就好，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

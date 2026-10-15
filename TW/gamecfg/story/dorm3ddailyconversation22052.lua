@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "赛车头盔……还真是密不透风呢~",
+			say = "賽車頭盔……還真是密不透風呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}开车的时候戴上，就看不见您的表情了，真可惜。",
+			say = "{dorm3d}開車的時候戴上，就看不見您的表情了，真可惜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不过换个角度想——这样就算一直盯着您看，也不会被发现了对吧？",
+			say = "不過換個角度想——這樣就算一直盯著您看，也不會被發現了對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

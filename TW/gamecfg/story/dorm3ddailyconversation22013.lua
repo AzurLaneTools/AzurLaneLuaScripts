@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "最近在看一本很有意思的书呢~",
+			say = "最近在看一本很有趣的書呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "简单来说……是关于迷途者如何寻得内心安宁的故事，很适合静下心来读。",
+			say = "簡單來說……是關於迷途者如何尋得內心安寧的故事，很適合靜下心來讀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "想听我讲讲么？那就过来，躺在这边听吧。",
+			say = "想聽我講講嗎？那就過來，躺在這邊聽吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不过，要是中途睡着了……可是会有小小惩罚的哦，呵呵~",
+			say = "不過，如果中途睡著了……可是會有小小懲罰的哦，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

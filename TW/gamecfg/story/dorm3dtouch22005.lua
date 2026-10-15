@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_ik_tone20/drom3d_implacable_ik_tone20",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "视线从我身上移开的话，可是有惩罚的哦~",
+			say = "視線從我身上移開的話，可是有懲罰的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

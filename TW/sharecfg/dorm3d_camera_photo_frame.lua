@@ -18,7 +18,9 @@ pg.dorm3d_camera_photo_frame.all = {
 	1012,
 	1013,
 	1014,
-	1015
+	1015,
+	1016,
+	1017
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_camera_photo_frame = {}
@@ -317,6 +319,46 @@ pg.base.dorm3d_camera_photo_frame = {}
 		unlock = {
 			1,
 			79902,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_camera_photo_frame[1016] = {
+		name = "舊日門扉",
+		rarity = 3,
+		farme_path = "photo_drawframe",
+		frameTfName = "DrawFrame",
+		desc = "取得後可在相機功能中解鎖舊日門扉相框",
+		unlock_text = "怨仇契合度5級解鎖",
+		id = 1016,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_drawframe_small",
+		unlock = {
+			1,
+			20707,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	}
+	pg.base.dorm3d_camera_photo_frame[1017] = {
+		name = "未顯之卷",
+		rarity = 3,
+		farme_path = "photo_Film2Frame",
+		frameTfName = "Film2Frame",
+		desc = "獲得後可在相機功能中解鎖未顯之捲相框",
+		unlock_text = "怨仇契合度13級解鎖",
+		id = 1017,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_Film2Frame_small",
+		unlock = {
+			1,
+			20707,
 			13
 		},
 		watermark_location = {

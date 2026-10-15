@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_freegift_voice3/drom3d_implacable_freegift_voice3",
 			actorName = 20707,
 			nameColor = "#FFFFFF",
-			say = "我收到了你的礼物……让我又多了一份念想你的理由，呵呵呵~",
+			say = "我收到了你的禮物……讓我又多了一份思念你的理由，呵呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

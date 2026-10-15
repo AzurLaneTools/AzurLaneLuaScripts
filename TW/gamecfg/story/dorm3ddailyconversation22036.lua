@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}~这间屋子现在已经被诅咒了哦……",
+			say = "{dorm3d}~這間房子現在已經被詛咒了哦…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "是非常可怕的诅咒……所有踏入的人都无法离开了呢~",
+			say = "是非常可怕的詛咒……所有踏入的人都無法離開了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "解除的办法是乖乖躺在我怀里，维持十分钟才可以解除哦~",
+			say = "解除的辦法是乖乖躺在我懷裡，維持十分鐘才可以解除哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

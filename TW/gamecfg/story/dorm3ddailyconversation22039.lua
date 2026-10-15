@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "平时总是喝茶，偶尔也换换口味吧~",
+			say = "平常總是喝茶，偶爾也換換口味吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "红酒，还是咖啡……你更倾向哪一个？",
+			say = "紅酒，還是咖啡……你比較傾向哪一個？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "微醺的夜色，还是清醒的晨光……不论哪一个，我都想与你一同度过。",
+			say = "微醺的夜色，還是清醒的晨光……不論哪一個，我都想與你一同度過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

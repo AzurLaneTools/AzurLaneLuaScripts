@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "绝不满足，行以吾所信……这就是“怨仇”哦~",
+			say = "絕不滿足，行以吾所信……這既是「怨仇」喔~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "只要待在你身边……我就忍不住希望，时间能走得再慢一些。",
+			say = "只要待在你身邊……我就忍不住希望，時間能走得再慢一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "每一次心跳，每一次呼吸，都变得值得细细去感受。",
+			say = "每一次心跳，每一次呼吸，都變得值得細細去感受。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这样贪心的我……你一定不会介意吧？呵呵~",
+			say = "這樣貪心的我……你一定不會介意吧？呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

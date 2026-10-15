@@ -77,7 +77,16 @@ pg.dorm3d_furniture_template.all = {
 	2113,
 	2114,
 	2115,
-	2161
+	2161,
+	2201,
+	2202,
+	2203,
+	2211,
+	2212,
+	2213,
+	2214,
+	2215,
+	2261
 }
 pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 	{
@@ -168,6 +177,17 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		2114,
 		2115,
 		2161
+	},
+	[22] = {
+		2201,
+		2202,
+		2203,
+		2211,
+		2212,
+		2213,
+		2214,
+		2215,
+		2261
 	}
 }
 pg.base = pg.base or {}
@@ -2191,6 +2211,233 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/basement/pre_db_naximofu_basement01_0"
+		}
+	}
+	pg.base.dorm3d_furniture_template[2201] = {
+		is_special = 0,
+		name = "安眠睡床",
+		unlock_tips = "",
+		type = 4,
+		room_id = 22,
+		desc = "寬大舒適的居家床鋪營造出安穩平和的休憩氛圍，沒有多餘點綴，卻自有令人放鬆下來的溫柔。 很適合在漫長一天後安心躺下。",
+		is_exclusive = 0,
+		model = "",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture1",
+		scene_hides = "",
+		rarity = 3,
+		acesses = "",
+		model_night = "",
+		id = 2201,
+		target_slots = {
+			2220101
+		},
+		touch_id = {
+			{
+				20707,
+				2070710
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2202] = {
+		is_special = 0,
+		name = "靜心禱告台",
+		unlock_tips = "",
+		type = 6,
+		room_id = 22,
+		desc = "為沉澱思緒而留出的一方小空間，安靜、端正，又帶著些許儀式感。 適合在此閱讀、默想，讓紛亂的念頭慢慢歸於平靜。",
+		is_exclusive = 0,
+		model = "",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture2",
+		scene_hides = "",
+		rarity = 3,
+		acesses = "",
+		model_night = "Pay_Yuanchouhostel/pre_db_yuanchou01_chamber01_0_night",
+		id = 2202,
+		target_slots = {
+			2220201
+		},
+		touch_id = {
+			{
+				20707,
+				2070720
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2203] = {
+		is_special = 0,
+		name = "午後閒談沙發",
+		unlock_tips = "",
+		type = 5,
+		room_id = 22,
+		desc = "沉穩的陳設與柔和的氛圍彼此映襯，讓這處角落兼具放鬆與分寸感。 無論獨自休息還是招待來客，都顯得恰如其分。",
+		is_exclusive = 0,
+		model = "",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture3",
+		scene_hides = "",
+		rarity = 3,
+		acesses = "",
+		model_night = "",
+		id = 2203,
+		target_slots = {
+			2220301
+		},
+		touch_id = {
+			{
+				20707,
+				2070730
+			}
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2211] = {
+		is_special = 0,
+		name = "金輝植栽",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "頗具存在感的觀賞植物輕鬆填補空間的空隙，柔亮的色調不張揚，卻很適合點綴沉靜的居室。",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_flowerpot01",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture4",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2211,
+		target_slots = {
+			2220102
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2212] = {
+		is_special = 0,
+		name = "啾啾紀念飾件",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "質樸的材質襯托出紀念飾件本身的分量，不必刻意強調，也足够讓人察覺其中的特別。",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_billboard02",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture5",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2212,
+		target_slots = {
+			2220303
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2213] = {
+		is_special = 0,
+		name = "金尊綠葉擺件",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "小巧而講究的觀賞擺設，總能在不經意間提升空間的精緻感，哪怕只佔據小小一角，也能讓整體氛圍更完整。",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_flowerpot02",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture6",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2213,
+		target_slots = {
+			2220103
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2214] = {
+		is_special = 0,
+		name = "海景裝飾畫框",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "被畫框妥帖收攏的海景一角，為牆面留下一處安靜的遠方。 無須過多言語，只要抬頭看去，心緒便會自然舒緩下來。",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_billboard01",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture7",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2214,
+		target_slots = {
+			2220104
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2215] = {
+		is_special = 0,
+		name = "琉璃台燈",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 22,
+		desc = "帶著透亮色澤的玻璃燈具，為室內增添了一絲清冷而優雅的光感。",
+		is_exclusive = 0,
+		model = "Pay_Yuanchouhostel/pre_db_yc_decoration02",
+		unlock_banners = "",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_CommonFurniture8",
+		scene_hides = "",
+		rarity = 2,
+		acesses = "",
+		model_night = "",
+		id = 2215,
+		target_slots = {
+			2220302
+		},
+		shop_id = {}
+	}
+	pg.base.dorm3d_furniture_template[2261] = {
+		is_special = 0,
+		name = "研習長案",
+		type = 6,
+		room_id = 22,
+		desc = "被各類器具與書卷填滿的長案，既有研究時的專注感，也保留著生活化的真實痕迹。  ",
+		is_exclusive = 1,
+		model = "Pay_Yuanchouhostel/pre_db_yuanchou01_chamber02",
+		icon = "dorm3dIcon/3Ddrom_yuanchou_PremiumFurniture1",
+		rarity = 4,
+		acesses = "",
+		model_night = "",
+		id = 2261,
+		target_slots = {
+			2220202
+		},
+		touch_id = {
+			{
+				20707,
+				2070740
+			}
+		},
+		shop_id = {
+			270801
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture2261"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0",
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0_night"
 		}
 	}
 end)()

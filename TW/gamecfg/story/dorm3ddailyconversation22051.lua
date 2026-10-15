@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，我把座椅重新调整了一下。",
+			say = "{dorm3d}，我把座椅重新調整了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "坐垫的角度、靠背的弧度……都按您的习惯校准过了。",
+			say = "坐墊的角度、靠背的弧度……都照您的習慣校準過了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……上面似乎有股淡淡的香气？",
+			say = "嗯……上面似乎有股淡淡的香氣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "呵呵，那可是我特意为您留下的呢~~",
+			say = "呵呵，那可是我特地為您留下的呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这样您坐下去的时候，就像被我轻轻环住了一样♡",
+			say = "這樣您坐下去的時候，就像被我輕輕環住了一樣♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

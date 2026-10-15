@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_gift_timeline01_voice1/drom3d_implacable_gift_timeline01_voice1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}~这上面所记载的每一份渴望……可都是因您而生的痕迹。",
+			say = "{dorm3d}~這上面所記載的每一份渴望……可都是因您而生的痕跡。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {

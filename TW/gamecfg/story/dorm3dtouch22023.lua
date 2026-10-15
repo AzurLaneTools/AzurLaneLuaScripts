@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_ik_furniture3_tone4/drom3d_implacable_ik_furniture3_tone4",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "呀……弄洒了呢……真是的~",
+			say = "呀……弄灑了呢……真是的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

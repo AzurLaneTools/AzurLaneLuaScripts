@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这是……耳塞？是用来做什么的？",
+			say = "這是……耳塞？是用來做什麼的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "减少噪音干扰，帮助车手集中注意力。",
+			say = "減少噪音干擾，幫助車手集中注意力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "虽然很想试试……但我果然还是更想听清您说的每一个字呢~",
+			say = "雖然很想試試……但我果然還是更想聽清楚您說的每一個字~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "多陪我聊聊吧~我会用耳朵、用心……将它们一字不落地收下，呵呵~",
+			say = "多陪我聊聊吧~我會用耳朵、用心……將它們一字不落地收下，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

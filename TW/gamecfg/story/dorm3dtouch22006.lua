@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_ik_tone18/drom3d_implacable_ik_tone18",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不坦率一点的话，可是没法被满足的哦~",
+			say = "不坦率一點的話，可是沒法被滿足的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

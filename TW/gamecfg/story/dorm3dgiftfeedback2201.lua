@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_freegift_voice1/drom3d_implacable_freegift_voice1",
 			actorName = 20707,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}越来越懂我了呢……这份心意，真令人感动~",
+			say = "{dorm3d}越來越懂我了呢……這份心意，真令人感動~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

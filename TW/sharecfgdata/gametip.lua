@@ -12172,17 +12172,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "亞爾薇特 建造追加！"
+	tip = "武藏、羽黑 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:494} 建造追加！"
+	tip = "若月、酒匂 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "{namecode:536} 建造追加！"
+	tip = "武藏 建造追加！"
 }
 
 
@@ -50220,6 +50220,21 @@ _G.pg.base.gametip.world_auto_level_all = {
 
 _G.pg.base.gametip.reverse_pacman_no_char = {
 	tip = "請先前往「<color=#92fc63>調查手冊</color>」和「<color=#92fc63>幽影招募</color>」，招募任意幽影後方可繼續"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_table = {
+	tip = "密室"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_chair = {
+	tip = "客廳"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_bed = {
+	tip = "臥室"
 }
 
 

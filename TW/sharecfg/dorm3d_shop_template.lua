@@ -44,7 +44,10 @@ pg.dorm3d_shop_template.all = {
 	44,
 	45,
 	46,
-	47
+	47,
+	48,
+	49,
+	50
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_shop_template = {}
@@ -948,6 +951,71 @@ pg.base.dorm3d_shop_template = {}
 		},
 		banners = {
 			"banner_furniture1468"
+		}
+	}
+	pg.base.dorm3d_shop_template[48] = {
+		rarity = 4,
+		name = "研習長案",
+		type = 1,
+		room_id = 20707,
+		unlock = "",
+		item_id = 2261,
+		id = 48,
+		realroom_id = 0,
+		order = "1",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270801
+		},
+		banners = {
+			"banner_furniture2261"
+		}
+	}
+	pg.base.dorm3d_shop_template[49] = {
+		rarity = 4,
+		name = "眷戀手記",
+		type = 2,
+		room_id = 20707,
+		unlock = "",
+		item_id = 2070701,
+		id = 49,
+		realroom_id = 0,
+		order = "2",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260801
+		},
+		banners = {
+			"banner_gift2070701"
+		}
+	}
+	pg.base.dorm3d_shop_template[50] = {
+		rarity = 4,
+		name = "怨仇維修區工作站邀請函",
+		type = 3,
+		room_id = 20707,
+		unlock = "",
+		item_id = 26,
+		id = 50,
+		realroom_id = 0,
+		order = "1",
+		panel = {
+			2
+		},
+		shop_id = {
+			270122
+		},
+		banners = {
+			"banner_carwash2"
 		}
 	}
 end)()

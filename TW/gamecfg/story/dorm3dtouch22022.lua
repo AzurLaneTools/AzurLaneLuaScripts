@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_ik_furniture3_tone1/drom3d_implacable_ik_furniture3_tone1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "等待的过程……也是一种调味哦~",
+			say = "等待的過程……也是一種調味~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

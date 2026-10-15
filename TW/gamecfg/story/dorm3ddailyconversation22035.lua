@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "你想先用餐，先沐浴，还是……其他什么都可以哦，尊敬的主人。",
+			say = "你想先用餐，先沐浴，還是……其他什麼都可以哦，尊敬的主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯，是这样说的没错吧？",
+			say = "嗯，是這樣說的沒錯吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "只是心血来潮，想体验一下“侍奉”你的感觉呢~",
+			say = "只是心血來潮，想體驗一下「侍奉」你的感覺呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那么，尊敬的主人……你的选择是？",
+			say = "那麼，尊敬的主人……你的選擇是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

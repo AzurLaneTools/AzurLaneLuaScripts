@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello15/drom3d_implacable_hello15",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "请放松……无论是寻求慰藉，还是单纯想虚度光阴，我都愿意……陪你到尽兴为止。",
+			say = "請放鬆……無論是尋求慰藉，還是單純想虛度光陰，我都願意……陪你到盡興為止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1299,6 +1299,7 @@ pg.activity_template.all = {
 	7503,
 	7505,
 	7506,
+	7507,
 	8009,
 	8010,
 	8019,
@@ -3768,6 +3769,7 @@ pg.activity_template.get_id_list_by_type = {
 		51129,
 		51153,
 		7506,
+		7507,
 		6000,
 		6001,
 		6002,
@@ -61984,7 +61986,7 @@ end)()
 				{
 					2026,
 					10,
-					15
+					22
 				},
 				{
 					14,
@@ -62875,7 +62877,8 @@ end)()
 			12043,
 			12044,
 			12045,
-			12048
+			12048,
+			12053
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
@@ -63322,6 +63325,84 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[7507] = {
+		mark = 20261015,
+		type = 18,
+		login_pop = 99,
+		config_id = 3,
+		is_show = 44,
+		title_res_tag = "DormTaskTwo",
+		id = 7507,
+		page_core = "",
+		config_data = {
+			{
+				27420,
+				27421,
+				27422,
+				27423,
+				27424,
+				27425,
+				27426
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					29
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormTaskTwoPage",
+			ui_name = "DormTaskTwoPage"
+		},
+		config_client = {
+			subType = 1,
+			unlock_task = {
+				{
+					27420
+				},
+				{
+					27421
+				},
+				{
+					27422
+				},
+				{
+					27423
+				},
+				{
+					27424
+				},
+				{
+					27425
+				},
+				{
+					27426
+				}
+			}
+		}
+	}
 	pg.base.activity_template[8009] = {
 		mark = 20220414,
 		type = 3,
@@ -63501,6 +63582,8 @@ end)()
 			ui_name = "NewServerLoginPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[8020] = {
 		mark = 20220915,
 		page_info = "",
@@ -63560,8 +63643,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[8040] = {
 		mark = 20241214,
 		time = "stop",
@@ -67311,6 +67392,8 @@ end)()
 			ui_name = "storyawardpage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40030] = {
 		mark = 20251016,
 		page_info = "",
@@ -67351,8 +67434,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40157] = {
 		mark = 20200813,
 		time = "stop",
@@ -70067,6 +70148,8 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40257] = {
 		mark = 20210225,
 		page_info = "",
@@ -70081,8 +70164,6 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40258] = {
 		mark = 20210225,
 		page_info = "",
@@ -73176,6 +73257,8 @@ end)()
 			14212
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40358] = {
 		mark = 20210708,
 		page_info = "",
@@ -73216,8 +73299,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40359] = {
 		mark = 20210708,
 		page_info = "",
@@ -77272,6 +77353,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40462] = {
 		mark = 20211028,
 		page_info = "",
@@ -77314,8 +77397,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40463] = {
 		mark = 20211028,
 		page_info = "",
@@ -81024,6 +81105,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40565] = {
 		mark = 20220224,
 		page_info = "",
@@ -81038,8 +81121,6 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40566] = {
 		mark = 20220224,
 		page_info = "",
@@ -84190,6 +84271,8 @@ end)()
 			10
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40712] = {
 		mark = 20220714,
 		page_info = "",
@@ -84206,8 +84289,6 @@ end)()
 			linkPTActID = 40709
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40713] = {
 		mark = 20220714,
 		page_info = "",
@@ -86446,6 +86527,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[40922] = {
 		mark = 20221103,
 		time = "stop",
@@ -86486,8 +86569,6 @@ end)()
 			ui_name = "USSkirmishRePage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[40905] = {
 		mark = 20221027,
 		page_info = "",
@@ -89544,6 +89625,8 @@ end)()
 			ui_name = "WorldInPicturePage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41037] = {
 		mark = 20230118,
 		time = "stop",
@@ -89561,8 +89644,6 @@ end)()
 			ui_name = "Monopoly3thRePage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41038] = {
 		mark = 20230118,
 		page_info = "",
@@ -92858,6 +92939,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41185] = {
 		mark = 20220601,
 		time = "stop",
@@ -92875,8 +92958,6 @@ end)()
 			ui_name = "For2022DaysLoginPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41186] = {
 		mark = 20230601,
 		type = 13,
@@ -96646,6 +96727,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[41321] = {
 		mark = 20230914,
 		page_info = "",
@@ -96686,8 +96769,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[41322] = {
 		mark = 20230914,
 		type = 12,
@@ -100825,6 +100906,8 @@ end)()
 			ui_name = "SpecialWeaponActPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[45044] = {
 		mark = 20240815,
 		page_info = "",
@@ -100867,8 +100950,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[45045] = {
 		mark = 20241219,
 		time = "stop",
@@ -106077,6 +106158,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990014] = {
 		mark = 20260319,
 		page_info = "",
@@ -106133,8 +106216,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990015] = {
 		mark = 20260319,
 		page_info = "",

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_ik_furniture3_tone7/drom3d_implacable_ik_furniture3_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "只要肯尝一口……就会给你“特别”的奖励哦~",
+			say = "只要肯嚐一口……就會給你「特別」的獎勵哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

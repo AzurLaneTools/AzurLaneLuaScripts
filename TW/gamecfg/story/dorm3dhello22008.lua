@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello8/drom3d_implacable_hello8",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "想休息一会？可以哦~我的膝枕、肩窝，或是怀抱……你想在哪里沉溺呢？",
+			say = "想休息一下？可以哦~我的膝枕、肩窩，或是懷抱……你想在哪裡沉溺呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

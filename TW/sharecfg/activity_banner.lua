@@ -135,15 +135,14 @@ pg.base.activity_banner = {}
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2026,
-					9,
-					24
+					10,
+					15
 				},
 				{
 					0,
@@ -155,10 +154,10 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					14
+					22
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -170,15 +169,18 @@ pg.base.activity_banner = {}
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene skinshop",
-			{}
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
 		},
 		time = {
 			{
 				{
 					2026,
-					9,
-					24
+					10,
+					15
 				},
 				{
 					0,
@@ -190,7 +192,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					15
+					22
 				},
 				{
 					14,
@@ -205,17 +207,18 @@ pg.base.activity_banner = {}
 		id = 3,
 		pic = "temp3",
 		param = {
-			"scene charge",
+			"scene level",
 			{
-				wrap = 4
+				open_remaster = true,
+				isSP = false
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					9,
-					24
+					10,
+					15
 				},
 				{
 					0,
@@ -227,10 +230,10 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					10,
-					14
+					22
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}

@@ -15,7 +15,9 @@ pg.dorm3d_ins_template.all = {
 	49905201,
 	49905202,
 	79902201,
-	79902202
+	79902202,
+	20707201,
+	20707202
 }
 pg.dorm3d_ins_template.get_id_list_by_ship_group = {
 	[10517] = {
@@ -29,6 +31,10 @@ pg.dorm3d_ins_template.get_id_list_by_ship_group = {
 	},
 	[20220] = {
 		20220201
+	},
+	[20707] = {
+		20707201,
+		20707202
 	},
 	[30221] = {
 		30221201
@@ -243,6 +249,36 @@ pg.base.dorm3d_ins_template = {}
 		discuss = {
 			25,
 			26
+		}
+	}
+	pg.base.dorm3d_ins_template[20707201] = {
+		ship_group = 20707,
+		name = "Implacable",
+		sculpture = "yuanchou",
+		picture = "Ins_207071",
+		message = "yuanchou_1",
+		background = "ins_199032_bg",
+		id = 20707201,
+		group_id = 1,
+		npc_discuss = "",
+		discuss = {
+			27,
+			28
+		}
+	}
+	pg.base.dorm3d_ins_template[20707202] = {
+		ship_group = 20707,
+		name = "Implacable",
+		sculpture = "yuanchou",
+		picture = "Ins_207072",
+		message = "yuanchou_2",
+		background = "ins_199032_bg",
+		id = 20707202,
+		group_id = 1,
+		npc_discuss = "",
+		discuss = {
+			29,
+			30
 		}
 	}
 end)()

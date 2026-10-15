@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_ik_tone11/drom3d_implacable_ik_tone11",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你杯中的甜，现在也沾上我的气息了呢~",
+			say = "你杯裡的甜，現在也沾上我的氣息了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

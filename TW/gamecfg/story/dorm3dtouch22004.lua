@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_ik_tone17/drom3d_implacable_ik_tone17",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "是想要寻找些“刺激”吗？",
+			say = "是想要尋找一些「刺激」嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

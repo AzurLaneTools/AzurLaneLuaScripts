@@ -846,7 +846,129 @@ pg.dorm3d_ins_chat_language.all = {
 	840,
 	841,
 	842,
-	843
+	843,
+	844,
+	845,
+	846,
+	847,
+	848,
+	849,
+	850,
+	851,
+	852,
+	853,
+	854,
+	855,
+	856,
+	857,
+	858,
+	859,
+	860,
+	861,
+	862,
+	863,
+	864,
+	865,
+	866,
+	867,
+	868,
+	869,
+	870,
+	871,
+	872,
+	873,
+	874,
+	875,
+	876,
+	877,
+	878,
+	879,
+	880,
+	881,
+	882,
+	883,
+	884,
+	885,
+	886,
+	887,
+	888,
+	889,
+	890,
+	891,
+	892,
+	893,
+	894,
+	895,
+	896,
+	897,
+	898,
+	899,
+	900,
+	901,
+	902,
+	903,
+	904,
+	905,
+	906,
+	907,
+	908,
+	909,
+	910,
+	911,
+	912,
+	913,
+	914,
+	915,
+	916,
+	917,
+	918,
+	919,
+	920,
+	921,
+	922,
+	923,
+	924,
+	925,
+	926,
+	927,
+	928,
+	929,
+	930,
+	931,
+	932,
+	933,
+	934,
+	935,
+	936,
+	937,
+	938,
+	939,
+	940,
+	941,
+	942,
+	943,
+	944,
+	945,
+	946,
+	947,
+	948,
+	949,
+	950,
+	951,
+	952,
+	953,
+	954,
+	955,
+	956,
+	957,
+	958,
+	959,
+	960,
+	961,
+	962,
+	963,
+	964,
+	965
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_chat_language = {}
@@ -8245,6 +8367,1104 @@ end)()
 		option = "",
 		type = 1,
 		id = 843,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[844] = {
+		param = "指揮官今天來訪，還真讓我有些意外呢~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 844,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[845] = {
+		param = "沒有提前備好茶點，房間也還沒收拾……",
+		ship_group = 20707,
+		type = 1,
+		id = 845,
+		flag = 0,
+		option = {
+			{
+				1,
+				"沒關係"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[846] = {
+		param = "沒關係，不用特意準備的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 846,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[847] = {
+		param = "我更想看看怨仇平常的樣子",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 847,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[848] = {
+		param = "平時的我……？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 848,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[849] = {
+		param = "工作以外的大部分時間，都用來靜坐與默禱了",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 849,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[850] = {
+		param = "要說嗜好，除了泡茶，好像也沒什麼特別的……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 850,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[851] = {
+		param = "在指揮官看來，大概會有些無聊吧？",
+		ship_group = 20707,
+		type = 1,
+		id = 851,
+		flag = 1,
+		option = {
+			{
+				2,
+				"下次一起？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[852] = {
+		param = "有機會的話，下次讓我也一起試試吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 852,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[853] = {
+		param = "有點好奇那是什麼感覺",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 853,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[854] = {
+		param = "禱告時的感覺……確實不太容易說清楚呢~",
+		ship_group = 20707,
+		type = 1,
+		id = 854,
+		flag = 2,
+		option = {
+			{
+				3,
+				"聽起來很奇妙"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[855] = {
+		param = "聽起來很奇妙",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 855,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[856] = {
+		param = "嗯，確實是很奇妙的體驗呢~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 856,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[857] = {
+		param = "下次指揮官來的時候，不妨一起感受那份靜謐吧，呵呵~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 857,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[858] = {
+		param = "指揮官，今天的黑眼圈……比平常又重了一些呢~",
+		ship_group = 20707,
+		type = 1,
+		id = 858,
+		flag = 0,
+		option = {
+			{
+				1,
+				"最近工作比較多 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[859] = {
+		param = "最近工作比較多",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 859,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[860] = {
+		param = "工作固然重要，但若是指揮官倒下了……那些信賴你的人，心裡也會不安的吧",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 860,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[861] = {
+		param = "既然工作的時間無法減少……不如把休息的時間交給我",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 861,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[862] = {
+		param = "讓我來幫你，讓每一刻的放鬆都變得更有價值",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 862,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[863] = {
+		param = "那就請你來到這裡，把休息時間交給我",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 863,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[864] = {
+		param = "我有特殊的助眠技巧，可以讓指揮官很快進入深度睡眠",
+		ship_group = 20707,
+		type = 1,
+		id = 864,
+		flag = 1,
+		option = {
+			{
+				2,
+				"特殊助眠技巧？那是什麼？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[865] = {
+		param = "特殊助眠技巧？那是什麼？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 865,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[866] = {
+		param = "呵呵~現在透露的話，效果可就要大打折扣了哦~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 866,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[867] = {
+		param = "你只要知道……到我這裡來，閉上眼睛，剩下的交給我就好",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 867,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[868] = {
+		param = "一定會是個……讓你捨不得忘記的夜晚呢，呵呵~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 868,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[869] = {
+		param = "指揮官，週末陪我去逛街吧",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 869,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[870] = {
+		param = "你有些衣服穿很久了，該換一些新的了",
+		ship_group = 20707,
+		type = 1,
+		id = 870,
+		flag = 0,
+		option = {
+			{
+				1,
+				"好 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[871] = {
+		param = "好，有推薦的店嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 871,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[872] = {
+		param = "當然，這方面的資訊交流可是茶會中的基礎",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 872,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[873] = {
+		param = "港區有一些店家可以訂製服裝",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 873,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[874] = {
+		param = "雖然需要等待一段製作時間，但用料和設計都是極佳，值得信賴",
+		ship_group = 20707,
+		type = 1,
+		id = 874,
+		flag = 1,
+		option = {
+			{
+				2,
+				"聽起來很不錯 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[875] = {
+		param = "聽起來不錯，不過我平常都穿制服，對這些沒什麼研究",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 875,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[876] = {
+		param = "那就交給我吧~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 876,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[877] = {
+		param = "不過作為交換－你也要為我挑幾套你喜歡的衣服，呵呵~",
+		ship_group = 20707,
+		type = 1,
+		id = 877,
+		flag = 2,
+		option = {
+			{
+				3,
+				"沒問題 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[878] = {
+		param = "沒問題，別怪我沒眼光就行",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 878,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[879] = {
+		param = "只要是指揮官選的，我都喜歡，呵呵~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 879,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[880] = {
+		param = "今天忽然有種奇妙的感覺……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 880,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[881] = {
+		param = "好像和指揮官之間的距離，比平常更近了一些",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 881,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[882] = {
+		param = "還是說……你對我的了解，又深入了一點？",
+		ship_group = 20707,
+		type = 1,
+		id = 882,
+		flag = 0,
+		option = {
+			{
+				1,
+				"可能兩者都有？ "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[883] = {
+		param = "可能兩者都有？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 883,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[884] = {
+		param = "今天在怨仇的房間裡，發現了一些以前沒注意到的東西",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 884,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[885] = {
+		param = "呵呵~指揮官的求知欲，還是一如既往地旺盛呢~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 885,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[886] = {
+		param = "既然這麼有興趣，不如當面問我如何？",
+		ship_group = 20707,
+		type = 1,
+		id = 886,
+		flag = 1,
+		option = {
+			{
+				2,
+				"有些話題可能不太好問出口"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[887] = {
+		param = "有些話題可能不太好問出口",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 887,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[888] = {
+		param = "你知道的，我從來不會拒絕你",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 888,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[889] = {
+		param = "如果想了解得更深，隨時都可以",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 889,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[890] = {
+		param = "我會把自己的一點一滴，都毫無保留地告訴你",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 890,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[891] = {
+		param = "不過……指揮官也要一樣，不要對我有所隱瞞哦~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 891,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[892] = {
+		param = "那樣的話我會很傷心的",
+		ship_group = 20707,
+		type = 1,
+		id = 892,
+		flag = 2,
+		option = {
+			{
+				3,
+				"嗯 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[893] = {
+		param = "嗯，我也會對你坦誠",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 893,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[894] = {
+		param = "呵呵~我相信指揮官，一直都相信著哦~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 894,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[895] = {
+		param = "那你，明天……還來嗎？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 895,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[896] = {
+		param = "工作不多的話……我想見你。",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 896,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[897] = {
+		param = "指揮官，我算了算日子……還有三天就是假期了哦~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 897,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[898] = {
+		param = "你有什麼安排嗎？",
+		ship_group = 20707,
+		type = 1,
+		id = 898,
+		flag = 0,
+		option = {
+			{
+				1,
+				"暫時還沒有 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[899] = {
+		param = "暫時還沒有",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 899,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[900] = {
+		param = "怨仇有什麼想去的地方嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 900,
+		flag = 1
+	}
+end)()
+(function ()
+	pg.base.dorm3d_ins_chat_language[901] = {
+		param = "想去的地方？呵呵……沒有呢~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 901,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[902] = {
+		param = "不過我準備了一些東西……茶、香薰，還有一套琢磨了很久的放鬆手法",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 902,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[903] = {
+		param = "不如我們一起，哪裡都不去",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 903,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[904] = {
+		param = "就在我房間裡，安安靜靜地，度過只屬於我們兩人的假日",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 904,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[905] = {
+		param = "指揮官覺得如何？",
+		ship_group = 20707,
+		type = 1,
+		id = 905,
+		flag = 1,
+		option = {
+			{
+				2,
+				"聽起來很不錯 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[906] = {
+		param = "聽起來很不錯",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 906,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[907] = {
+		param = "那就說定了。三天後，把整個假期都交給我吧~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 907,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[908] = {
+		param = "我會讓它……變成你捨不得結束的一天，呵呵~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 908,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[909] = {
+		param = "指揮官今天帶來的禮物……我很喜歡",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 909,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[910] = {
+		param = "不過，總是單方面收你的禮物，我也會不好意思的。",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 910,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[911] = {
+		param = "指揮官想要什麼回禮？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 911,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[912] = {
+		param = "還是說，你比較喜歡讓我猜，然後準備一個驚喜？",
+		ship_group = 20707,
+		type = 1,
+		id = 912,
+		flag = 0,
+		option = {
+			{
+				1,
+				"不用破費 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[913] = {
+		param = "不用破費",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 913,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[914] = {
+		param = "平常經常去妳那裡，帶點禮物是應該的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 914,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[915] = {
+		param = "呵呵~就知道你會這麼說",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 915,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[916] = {
+		param = "放心，我準備的這份回禮，不用花一分錢",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 916,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[917] = {
+		param = "應該說……是花錢也買不到的東西，唯一的，很特別的那種",
+		ship_group = 20707,
+		type = 1,
+		id = 917,
+		flag = 1,
+		option = {
+			{
+				2,
+				"有點好奇 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[918] = {
+		param = "有點好奇，所以是什麼？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 918,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[919] = {
+		param = "由我說出來，就沒意思了呢~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 919,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[920] = {
+		param = "請指揮官親自來取吧",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 920,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[921] = {
+		param = "我會一直在這裡等你的，呵呵~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 921,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[922] = {
+		param = "最近為你祈禱的時候，總覺得時間格外漫長呢~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 922,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[923] = {
+		param = "大概是……心裡的雜念太多了",
+		ship_group = 20707,
+		type = 1,
+		id = 923,
+		flag = 0,
+		option = {
+			{
+				1,
+				"是什麼樣的雜念？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[924] = {
+		param = "是什麼樣的雜念？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 924,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[925] = {
+		param = "需要說得更加直接一點麼？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 925,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[926] = {
+		param = "因為我在想你啊，呵呵~",
+		ship_group = 20707,
+		type = 1,
+		id = 926,
+		flag = 1,
+		option = {
+			{
+				2,
+				"原來我才是雜念的根源 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[927] = {
+		param = "原來我才是雜念的根源",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 927,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[928] = {
+		param = "想只為指揮官一個人祈福，想把你一直留在身邊……",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 928,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[929] = {
+		param = "在你的溫度裡沉溺太久，連我都變得有些自私了呢~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 929,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[930] = {
+		param = "但你會負起責任來的，對吧？呵呵~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 930,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[931] = {
+		param = "指揮官，睡了嗎？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 931,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[932] = {
+		param = "不會又在熬夜了吧~",
+		ship_group = 20707,
+		type = 1,
+		id = 932,
+		flag = 0,
+		option = {
+			{
+				1,
+				"準備睡了 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[933] = {
+		param = "準備睡了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 933,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[934] = {
+		param = "那就是還沒睡呢~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 934,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[935] = {
+		param = "所以……你現在在哪裡？",
+		ship_group = 20707,
+		type = 1,
+		id = 935,
+		flag = 1,
+		option = {
+			{
+				2,
+				"在指揮室 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[936] = {
+		param = "在指揮室",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 936,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[937] = {
+		param = "剛好熱了杯牛奶，等我過來陪你坐一下~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 937,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[938] = {
+		param = "等喝完了，就乖乖回去睡覺吧~",
+		ship_group = 20707,
+		type = 1,
+		id = 938,
+		flag = 2,
+		option = {
+			{
+				3,
+				"好 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[939] = {
+		param = "好",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 939,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[940] = {
+		param = "下次別一個人撐到這麼晚了",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 940,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[941] = {
+		param = "要熬夜的話，可以叫我陪你",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 941,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[942] = {
+		param = "有我在身邊，總比一個人好，呵呵~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 942,
+		flag = 3
+	}
+	pg.base.dorm3d_ins_chat_language[943] = {
+		param = "指揮官，下次下午茶我們喝奶茶怎麼樣？最近很流行",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 943,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[944] = {
+		param = "我想你應該也會喜歡",
+		ship_group = 20707,
+		type = 1,
+		id = 944,
+		flag = 0,
+		option = {
+			{
+				1,
+				"可以試試 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[945] = {
+		param = "可以試試",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 945,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[946] = {
+		param = "不過我不太懂……明明都是在茶裡加料",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 946,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[947] = {
+		param = "為什麼我的改良茶不受歡迎呢？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 947,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[948] = {
+		param = "我想很久了，指揮官有什麼見解嗎？",
+		ship_group = 20707,
+		type = 1,
+		id = 948,
+		flag = 1,
+		option = {
+			{
+				2,
+				"其實…… "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[949] = {
+		param = "其實每一款受歡迎的茶飲配方背後",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 949,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[950] = {
+		param = "都會有無數不受歡迎的配方",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 950,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[951] = {
+		param = "原來如此，沒有足夠的試錯，成功便只是基於運氣的偶然嗎",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 951,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[952] = {
+		param = "所以……是我試得不夠多？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 952,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[953] = {
+		param = "明白了，那除了奶茶，我會再準備幾款新的改良茶配方",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 953,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[954] = {
+		param = "呵呵，好好期待吧，指揮官~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 954,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[955] = {
+		param = "指揮官，今天在房間裡拍了什麼？",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 955,
+		flag = 0
+	}
+	pg.base.dorm3d_ins_chat_language[956] = {
+		param = "能跟我說說嗎？",
+		ship_group = 20707,
+		type = 1,
+		id = 956,
+		flag = 0,
+		option = {
+			{
+				1,
+				"只是隨便拍了拍 "
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[957] = {
+		param = "只是隨便拍了拍，窗台的花，還有書架一角",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 957,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[958] = {
+		param = "呵呵~都是一些尋常的角落呢~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 958,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[959] = {
+		param = "不過，被你拍下來之後",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 959,
+		flag = 1
+	}
+	pg.base.dorm3d_ins_chat_language[960] = {
+		param = "這些畫面就有了不同的意義",
+		ship_group = 20707,
+		type = 1,
+		id = 960,
+		flag = 1,
+		option = {
+			{
+				2,
+				"什麼意義？"
+			}
+		}
+	}
+	pg.base.dorm3d_ins_chat_language[961] = {
+		param = "什麼意義？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 961,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[962] = {
+		param = "它們不再是「我房間裡的某個角落」，而是「指揮官曾經注視過的風景」",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 962,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[963] = {
+		param = "等很久以後再翻出來看，大概還是會記得拍攝時的樣子吧~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 963,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[964] = {
+		param = "指揮官，下次也讓我來拍你吧~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 964,
+		flag = 2
+	}
+	pg.base.dorm3d_ins_chat_language[965] = {
+		param = "我也想留下一些……值得反覆回看的畫面，呵呵~",
+		ship_group = 20707,
+		option = "",
+		type = 1,
+		id = 965,
 		flag = 2
 	}
 end)()

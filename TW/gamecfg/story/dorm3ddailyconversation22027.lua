@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我这里有部最近新出的恐怖电影，要不要一起看看？",
+			say = "我這裡有部最近新出的恐怖電影，要不要一起看看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯，据说是相当刺激的那种……会害怕吗？",
+			say = "嗯，據說是相當刺激的那種……會害怕嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不用勉强自己。要是害怕了，随时都可以躲进我怀里哦~",
+			say = "不用勉強自己。要是害怕了，隨時都可以躲進我懷裡哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

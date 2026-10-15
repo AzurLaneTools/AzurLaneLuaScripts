@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "扳手这种东西……既可以将螺丝拧紧，也可以将其松开。",
+			say = "扳手這種東西……既可以將螺絲擰緊，也可以將其鬆開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，就像人与人之间的关系一样~",
+			say = "{dorm3d}，就像人與人之間的關係一樣~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "是收紧还是放松，往往只取决于主动那一方的选择。",
+			say = "是收緊還是放鬆，往往只取決於主動那一方的選擇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "所以……{dorm3d}希望我对您，是更紧一些好，还是松一点好呢？呵呵~",
+			say = "所以……{dorm3d}希望我對您，是更緊一點好，還是鬆一點好呢？呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

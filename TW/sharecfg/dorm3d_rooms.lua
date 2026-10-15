@@ -13,6 +13,7 @@ pg.dorm3d_rooms.all = {
 	14,
 	16,
 	21,
+	22,
 	26
 }
 pg.dorm3d_rooms.get_id_list_by_in_map = {
@@ -31,6 +32,7 @@ pg.dorm3d_rooms.get_id_list_by_in_map = {
 	},
 	floor_3 = {
 		21,
+		22,
 		26
 	}
 }
@@ -973,6 +975,76 @@ pg.base.dorm3d_rooms = {}
 			}
 		}
 	}
+	pg.base.dorm3d_rooms[22] = {
+		assets_prefix = "Yuanchou",
+		resource_name = "Yuanchou_DB",
+		type = 2,
+		id = 22,
+		invite_cost = "",
+		in_map = "floor_3",
+		room = "怨仇",
+		invite_mark = "",
+		tag = "",
+		room_bgm = "story-room-implacable",
+		invite_icon = "",
+		invite_banner = "",
+		room_des = "",
+		scene_info = "map_yuanchou_01|Yuanchou_DB/Yuanchouhostel",
+		is_common = 0,
+		character = {
+			20707
+		},
+		character_pay = {},
+		character_welcome = {
+			{
+				20707,
+				0
+			}
+		},
+		character_range = {
+			1
+		},
+		unlock_item = {},
+		default_zone = {
+			{
+				20707,
+				"Chair"
+			}
+		},
+		furniture_zones = {
+			22001,
+			22002,
+			22003
+		},
+		recall_list = {
+			221,
+			222,
+			223,
+			224
+		},
+		ar_anim = {
+			{
+				20707,
+				{
+					22001,
+					22002,
+					22003,
+					22004,
+					22005,
+					22006,
+					22007,
+					22008,
+					22009,
+					22010,
+					22011,
+					22012,
+					22013,
+					22014,
+					22015
+				}
+			}
+		}
+	}
 	pg.base.dorm3d_rooms[26] = {
 		assets_prefix = "Carwash",
 		resource_name = "Carwash",
@@ -987,11 +1059,16 @@ pg.base.dorm3d_rooms = {}
 		is_common = 0,
 		character = {},
 		character_pay = {
-			79902
+			79902,
+			20707
 		},
 		character_welcome = {
 			{
 				79902,
+				0
+			},
+			{
+				20707,
 				0
 			}
 		},
@@ -1010,6 +1087,10 @@ pg.base.dorm3d_rooms = {}
 			{
 				79902,
 				"Parking"
+			},
+			{
+				20707,
+				"Relax"
 			}
 		},
 		furniture_zones = {},
@@ -1018,6 +1099,10 @@ pg.base.dorm3d_rooms = {}
 			{
 				79902,
 				270121
+			},
+			{
+				20707,
+				270122
 			}
 		},
 		invite_banner = {
@@ -1026,17 +1111,34 @@ pg.base.dorm3d_rooms = {}
 				{
 					"banner_carwash1"
 				}
+			},
+			{
+				20707,
+				{
+					"banner_carwash2"
+				}
 			}
 		},
 		invite_icon = {
 			{
 				79902,
 				"dorm3dicon/3Ddrom_invitation"
+			},
+			{
+				20707,
+				"dorm3dicon/3Ddrom_invitation"
 			}
 		},
 		invite_mark = {
 			{
 				79902,
+				{
+					5,
+					6
+				}
+			},
+			{
+				20707,
 				{
 					5,
 					6
@@ -1052,6 +1154,16 @@ pg.base.dorm3d_rooms = {}
 					26003,
 					26004,
 					26005
+				}
+			},
+			{
+				20707,
+				{
+					26006,
+					26007,
+					26008,
+					26009,
+					26010
 				}
 			}
 		}

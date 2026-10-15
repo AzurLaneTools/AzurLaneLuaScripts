@@ -94,6 +94,7 @@ pg.pay_data_display.all = {
 	2057,
 	2058,
 	2059,
+	2063,
 	2068,
 	2069,
 	2070,
@@ -329,6 +330,7 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		2057,
 		2058,
 		2059,
+		2063,
 		2068,
 		2069,
 		2070,
@@ -10021,6 +10023,115 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+	pg.base.pay_data_display[2063] = {
+		picture = "huteng_package",
+		name = "海上傳奇支援組合包（武藏）",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "海上傳奇支援組合包（武藏）",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 670,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 0,
+		id = 2063,
+		type_order = 5,
+		package_tag = "超值\n推薦",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.hkmanjuu.azurlane.package65",
+		extra_gem = 0,
+		descrip = "可獲得換裝自選券、心智魔方、艦艇演習數據T2和物資獎勵！",
+		airijp_id = "com.yostarjp.azurlane.package126",
+		name_display = "海上傳奇支援組合包（武藏）",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 1,
+		extra_service_item = {
+			{
+				2,
+				59565,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59565,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40070,
+				1
+			}
+		}
+	}
 	pg.base.pay_data_display[2068] = {
 		picture = "ui7",
 		name = "甜點女僕屋主題禮包",
@@ -10844,6 +10955,8 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[2081] = {
 		picture = "ui9",
 		name = "奢夢浮金主題禮包（豪華版）",
@@ -10938,8 +11051,6 @@ pg.base.pay_data_display = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[2085] = {
 		picture = "ui10",
 		name = "寄葉協議主題禮包",
@@ -21311,6 +21422,8 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
+end)()
+(function ()
 	pg.base.pay_data_display[4915] = {
 		picture = "battlepass_1",
 		name = "特許巡遊憑證（十六期）",
@@ -21397,8 +21510,6 @@ end)()
 		limit_args = {},
 		drop_item = {}
 	}
-end)()
-(function ()
 	pg.base.pay_data_display[4916] = {
 		picture = "battlepass_1",
 		name = "特許巡遊憑證（十七期）",

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello7/drom3d_implacable_hello7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "工作都结束了？那接下来，就是只属于我们两人的时间~",
+			say = "工作都結束了？那接下來，就是只屬於我們兩人的時間~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

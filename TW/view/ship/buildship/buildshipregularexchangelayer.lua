@@ -28,7 +28,7 @@ slot0.preload = function(slot0, slot1)
 
 	AssetBundleHelper.LoadManyAssets("RegularExchangeIcon", underscore.map(slot0.ids, function (slot0)
 		return tostring(slot0)
-	end), nil, true, function (slot0)
+	end), typeof(Sprite), true, function (slot0)
 		for slot4, slot5 in pairs(slot0) do
 			uv0.iconSprites[tonumber(slot4)] = slot5
 		end

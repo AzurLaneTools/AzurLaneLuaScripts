@@ -3715,6 +3715,12 @@ pg.skill_data_display.all = {
 	1011872,
 	1011873,
 	1011874,
+	1018301,
+	1018303,
+	1018305,
+	1019301,
+	1019302,
+	1019303,
 	200002,
 	200005,
 	200008,
@@ -4124,6 +4130,9 @@ pg.skill_data_display.all = {
 	1019261,
 	1019262,
 	1019263,
+	1012471,
+	1010800,
+	1010801,
 	1014200,
 	1014201,
 	1014202,
@@ -4213,6 +4222,11 @@ pg.skill_data_display.all = {
 	1090451,
 	1090452,
 	1090453,
+	1090471,
+	1090481,
+	1090482,
+	1090483,
+	1090484,
 	1090491,
 	1090492,
 	1090493,
@@ -19142,6 +19156,30 @@ end)()
 		id = 1011874,
 		name = "神射手·改 +"
 	}
+	pg.base.skill_data_display[1018301] = {
+		id = 1018301,
+		name = "劍光斷罪"
+	}
+	pg.base.skill_data_display[1018303] = {
+		id = 1018303,
+		name = "槍火裁決"
+	}
+	pg.base.skill_data_display[1018305] = {
+		id = 1018305,
+		name = "斷罪之炎.改 +"
+	}
+	pg.base.skill_data_display[1019301] = {
+		id = 1019301,
+		name = "劍光斷罪"
+	}
+	pg.base.skill_data_display[1019302] = {
+		id = 1019302,
+		name = "斷罪之炎.改"
+	}
+	pg.base.skill_data_display[1019303] = {
+		id = 1019303,
+		name = "斷罪之炎.改"
+	}
 	pg.base.skill_data_display[200002] = {
 		id = 200002,
 		name = "飛空戰艦支援"
@@ -19474,6 +19512,8 @@ end)()
 		id = 200623,
 		name = "傳奇旗艦"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200632] = {
 		id = 200632,
 		name = "流星轟炸"
@@ -19498,8 +19538,6 @@ end)()
 		id = 200777,
 		name = "英勇炮擊"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200778] = {
 		id = 200778,
 		name = "命運的槍火"
@@ -19876,6 +19914,8 @@ end)()
 		id = 201383,
 		name = "女王之光號"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201384] = {
 		id = 201384,
 		name = "女王之光號"
@@ -19900,8 +19940,6 @@ end)()
 		id = 201454,
 		name = "超越世界·限制解除"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201462] = {
 		id = 201462,
 		name = "核心等級Lv3"
@@ -20278,6 +20316,8 @@ end)()
 		id = 1017252,
 		name = "深海的恩典 +"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012620] = {
 		id = 1012620,
 		name = "特爾尼之盾 +"
@@ -20302,8 +20342,6 @@ end)()
 		id = 1011942,
 		name = "天與海的觀測者 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012160] = {
 		id = 1012160,
 		name = "日不落的輝光 +"
@@ -20680,6 +20718,8 @@ end)()
 		id = 10151811,
 		name = "最終聖裁+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011911] = {
 		id = 1011911,
 		name = "鷹擊長空 +"
@@ -20704,8 +20744,6 @@ end)()
 		id = 1013471,
 		name = "砥柱下的應援 +"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1013473] = {
 		id = 1013473,
 		name = "Star Expecto Patronum"
@@ -20785,6 +20823,18 @@ end)()
 	pg.base.skill_data_display[1019263] = {
 		id = 1019263,
 		name = "精密操作協議 +"
+	}
+	pg.base.skill_data_display[1012471] = {
+		id = 1012471,
+		name = "隕翼雙鯊 +"
+	}
+	pg.base.skill_data_display[1010800] = {
+		id = 1010800,
+		name = "五航戰 +"
+	}
+	pg.base.skill_data_display[1010801] = {
+		id = 1010801,
+		name = "五航戰 +"
 	}
 	pg.base.skill_data_display[1014200] = {
 		id = 1014200,
@@ -21070,6 +21120,8 @@ end)()
 		id = 1090401,
 		name = "火力全開·{namecode:423}"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090402] = {
 		id = 1090402,
 		name = "火力全開·{namecode:423}"
@@ -21106,8 +21158,6 @@ end)()
 		id = 1090410,
 		name = "战术记录:噬啮之颚"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090420] = {
 		id = 1090420,
 		name = "火力全开·威严"
@@ -21143,6 +21193,26 @@ end)()
 	pg.base.skill_data_display[1090453] = {
 		id = 1090453,
 		name = "集火信号-鱼雷·无敌"
+	}
+	pg.base.skill_data_display[1090471] = {
+		id = 1090471,
+		name = "快速裝填·{namecode:34}"
+	}
+	pg.base.skill_data_display[1090481] = {
+		id = 1090481,
+		name = "袖珍戰列艦·{namecode:429}"
+	}
+	pg.base.skill_data_display[1090482] = {
+		id = 1090482,
+		name = "袖珍戰列艦·{namecode:429}"
+	}
+	pg.base.skill_data_display[1090483] = {
+		id = 1090483,
+		name = "袖珍戰列艦·{namecode:429}"
+	}
+	pg.base.skill_data_display[1090484] = {
+		id = 1090484,
+		name = "袖珍戰列艦·{namecode:429}"
 	}
 	pg.base.skill_data_display[1090491] = {
 		id = 1090491,

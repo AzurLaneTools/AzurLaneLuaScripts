@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "现在还是热的，要尝一口么？",
+			say = "現在還是熱的，要嚐一口呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "“仰望”主题？",
+			say = "「仰望」主題？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯，我把鱼摆成了仰望星空的姿势，风味很丰富的。",
+			say = "嗯，我把魚擺成了仰望星空的姿勢，風味很豐富的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不想试试么？呵呵……那还真是有些可惜。",
+			say = "不想試試嗎？呵呵……那還真是有些可惜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

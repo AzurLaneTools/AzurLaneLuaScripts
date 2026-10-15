@@ -25,7 +25,10 @@ pg.livingarea_cover.all = {
 	101403,
 	102101,
 	102102,
-	102103
+	102103,
+	102201,
+	102202,
+	102203
 }
 pg.base = pg.base or {}
 pg.base.livingarea_cover = {}
@@ -294,5 +297,41 @@ pg.base.livingarea_cover = {}
 		id = 102103,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "102103_icon"
+	}
+	pg.base.livingarea_cover[102201] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "唇邊密語",
+		nighttime_res = "102201_bg_night",
+		daytime_res = "102201_bg_day",
+		rarity = 3,
+		desc = "獲得後可在生活區封面功能中解鎖唇邊密語封面",
+		unlock_text = "怨仇宿舍契合度2級解鎖",
+		id = 102201,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102201_icon"
+	}
+	pg.base.livingarea_cover[102202] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "枕邊小憩",
+		nighttime_res = "102202_bg_night",
+		daytime_res = "102202_bg_day",
+		rarity = 3,
+		desc = "獲得後可在生活區封面功能中解鎖枕邊小憩封面",
+		unlock_text = "怨仇宿舍契合度7級解鎖",
+		id = 102202,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102202_icon"
+	}
+	pg.base.livingarea_cover[102203] = {
+		get_tips = "獲得了新的契合度封面",
+		name = "水畔相約",
+		nighttime_res = "102203_bg_night",
+		daytime_res = "102203_bg_day",
+		rarity = 3,
+		desc = "獲得後可在生活區封面功能中解鎖水畔相約封面",
+		unlock_text = "怨仇宿舍契合度10級解鎖",
+		id = 102203,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "102203_icon"
 	}
 end)()

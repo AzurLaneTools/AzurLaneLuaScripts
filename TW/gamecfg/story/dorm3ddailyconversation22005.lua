@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "指挥官，想要来一场……特殊的告解么？",
+			say = "指揮官，想要來一場……特殊的告解嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "请把手给我。对，就这样，放在这里。",
+			say = "請把手給我。對，就這樣，放在這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "让呼吸平静下来……我会从您的心跳中，聆听那些未曾说出口的话语。",
+			say = "讓呼吸平靜下來……我會從您的心跳中，聆聽那些未曾說出口的話語喔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……我听到了哦，呵呵~",
+			say = "嗯……我聽到了哦，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

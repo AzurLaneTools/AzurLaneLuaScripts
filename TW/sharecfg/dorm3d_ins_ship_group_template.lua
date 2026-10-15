@@ -9,7 +9,8 @@ pg.dorm3d_ins_ship_group_template.all = {
 	10517,
 	30707,
 	49905,
-	79902
+	79902,
+	20707
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_ship_group_template = {}
@@ -68,6 +69,14 @@ pg.base.dorm3d_ins_ship_group_template = {}
 		name = "Admiral_Nakhimov",
 		background = "",
 		sculpture = "naximofu",
+		nationality = 0,
+		type = 1
+	}
+	pg.base.dorm3d_ins_ship_group_template[20707] = {
+		ship_group = 20707,
+		name = "Implacable",
+		background = "",
+		sculpture = "yuanchou",
 		nationality = 0,
 		type = 1
 	}

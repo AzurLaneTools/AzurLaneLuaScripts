@@ -17,14 +17,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，三天后会有一场流星雨。据说是难得一见的绝景。",
+			say = "{dorm3d}，三天後會有一場流星雨。據說是難得一見的絕景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "许愿的机会？",
+					content = "許願的機會？",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "许愿……呵呵，也可以这么说。",
+			say = "許願……呵呵，也可以這麼說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我已经想好了，要趁那个时候，向你说一句平时不太会说的话。",
+			say = "我已經想好了，要趁那個時候，跟你說一句平常不太會說的話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "什么话？等到流星划过的时候，你就知道了，呵呵~ ",
+			say = "什麼話？等到流星劃過的時候，你就知道了，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

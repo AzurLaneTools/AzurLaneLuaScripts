@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello4/drom3d_implacable_hello4",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "衣领有些歪了哦~请靠过来些，让我为你理好……",
+			say = "衣領有些歪了哦~請靠過來些，讓我為你理好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

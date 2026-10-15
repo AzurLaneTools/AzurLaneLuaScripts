@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "一点味精，再一点芥末……",
+			say = "一點味精，再一點芥末……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……似乎还差了些什么。",
+			say = "嗯……似乎還差了些什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "怨仇在做什么料理？",
+			say = "怨仇在做什麼料理？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊，有灵感了——再加些青椒碎……这样就完成了。",
+			say = "啊，有靈感了——再加些青椒碎……這樣就完成了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "指挥官，要来一杯么？呵呵~",
+			say = "指揮官，要來一杯嗎？呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

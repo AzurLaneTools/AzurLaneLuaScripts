@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_ik_furniture3_tone5/drom3d_implacable_ik_furniture3_tone5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "想先尝哪一道？还是说……你全都要？",
+			say = "想先嚐哪一道？還是說……你全都要？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

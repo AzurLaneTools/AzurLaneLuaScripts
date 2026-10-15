@@ -50541,6 +50541,58 @@ _G.pg.base.item_data_statistics[40066] = {
 }
 
 
+_G.pg.base.item_data_statistics[40070] = {
+	open_directly = 1,
+	name = "海上傳奇支援組合包（武藏）",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/huteng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4071",
+	id = 40070,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59565,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40071] = {
 	open_directly = 1,
 	name = "建造綜合補給包",
@@ -84143,6 +84195,57 @@ _G.pg.base.item_data_statistics[59564] = {
 		{},
 		{
 			205131
+		},
+		0,
+		59552
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[59565] = {
+	open_directly = 0,
+	name = "換裝自選券（武藏）",
+	type = 26,
+	display = "在「倉庫」中使用，可以從指定清單中選擇一件換裝兌換\n（<color=#ff5c5c>換裝兌換券僅能兌換指定清單中的換裝。若目前已全部擁有，兌換券將可轉換為換裝折扣券</color>）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_huteng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59565,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			305101,
+			1
+		},
+		{
+			7,
+			305102,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			305101,
+			305102
 		},
 		0,
 		59552

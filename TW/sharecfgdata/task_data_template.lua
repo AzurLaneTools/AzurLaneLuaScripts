@@ -382386,6 +382386,300 @@ _G.pg.base.task_data_template[27408] = {
 }
 
 
+_G.pg.base.task_data_template[27420] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700510,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260924』宿舍活跃任务1",
+	desc = "艦隊出擊，獲得15次勝利",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27420,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			2070761,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27421] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700511,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260924』宿舍活跃任务2",
+	desc = "通關3次任意困難關卡",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27421,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			2070761,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27422] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700512,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260924』宿舍活跃任务3",
+	desc = "完成3次每日挑戰",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27422,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			2070761,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27423] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700513,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260924』宿舍活跃任务4",
+	desc = "擊沉任意敵人20艘",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27423,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			2070761,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27424] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700514,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260924』宿舍活跃任务5",
+	desc = "進行2次戰術訓練",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27424,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			2070761,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27425] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700515,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260924』宿舍活跃任务6",
+	desc = "完成軍事委託2次",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27425,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			2070761,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[27426] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 1700516,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『20260924』宿舍活跃任务7",
+	desc = "艦隊出擊，消滅敵方旗艦3次",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	tutorial_handbook_pic = "",
+	activity_client_config = "",
+	id = 27426,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			2070761,
+			2
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[27450] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

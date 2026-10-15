@@ -538,6 +538,10 @@ pg.expedition_data_by_map.all = {
 	2100502,
 	2100511,
 	2100512,
+	2100521,
+	2100522,
+	2100531,
+	2100532,
 	2100541,
 	2100542,
 	2100551,
@@ -32956,6 +32960,210 @@ end)()
 		anchor = {
 			0.5,
 			0.5
+		}
+	}
+	pg.base.expedition_data_by_map[2100521] = {
+		map = 2100521,
+		name = "紫絳槿嵐·上篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZIJIANGJINLAN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1680001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-musashi-inside",
+		ui_type = 1,
+		bg = "Map_1680001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100531,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100522] = {
+		map = 2100522,
+		name = "紫絳槿嵐·下篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZIJIANGJINLAN19",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1680002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "musashi-1",
+		ui_type = 1,
+		bg = "Map_1680002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100532,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100531] = {
+		map = 2100531,
+		name = "紫絳槿嵐·上篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZIJIANGJINLAN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1680003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-musashi-inside",
+		ui_type = 1,
+		bg = "Map_1680003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100521,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100532] = {
+		map = 2100532,
+		name = "紫絳槿嵐·下篇|| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZIJIANGJINLAN19",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1680004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "musashi-1",
+		ui_type = 1,
+		bg = "Map_1680004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100522,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
 		}
 	}
 	pg.base.expedition_data_by_map[2100541] = {

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "车手在发车前的那几秒，心里会想些什么呢？",
+			say = "車手在發車前的那幾秒，心裡會想些什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "是摒弃一切杂念，只留下前方的赛道……还是任由思绪飘向某个重要的人？",
+			say = "是摒棄一切雜念，只留下前方的賽道……還是任由思緒飄向某個重要的人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "或许两者都有吧。~",
+			say = "或許兩者都有",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "原来如此……那{dorm3d}——",
+			say = "原來如此……那{dorm3d}——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "您重要的那个人……会是我吗？",
+			say = "您重要的那個人……會是我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

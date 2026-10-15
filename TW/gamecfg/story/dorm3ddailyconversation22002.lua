@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "空闲时会做什么？{dorm3d}是在好奇我的私生活么？",
+			say = "空閒時會做什麼？{dorm3d}是在好奇我的私生活嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "无非是翻阅juus，或者去街上逛逛……",
+			say = "無非是看看Juus，或去街上逛逛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "了解世间的欲望与烦恼，也算是一种必修课呢~",
+			say = "了解世間的慾望與煩惱，也算是一種必修課~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

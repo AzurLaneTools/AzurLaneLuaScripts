@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "呵呵~每当注视着{dorm3d}，心中便会涌起一种奇妙的感觉呢。",
+			say = "呵呵~每當注視著{dorm3d}，心中便會湧起一種奇妙的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "什么感觉？",
+			say = "什麼感覺？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "像是被时间短暂遗忘了的感觉……",
+			say = "像是被時間短暫遺忘了的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "但内心深处又有些躁动……会是错觉么？呵呵~",
+			say = "但內心深處又有些躁動……會是錯覺嗎？呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

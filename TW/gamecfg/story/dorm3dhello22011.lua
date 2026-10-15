@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello11/drom3d_implacable_hello11",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "今日的你，似乎有些不同呢……没有？呵呵，人对自己总是最后才看清呢~",
+			say = "今日的你，似乎有些不同呢……沒有？呵呵，人對自己總是最後才看清楚呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

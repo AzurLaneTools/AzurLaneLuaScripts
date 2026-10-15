@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_ik_furniture3_tone2/drom3d_implacable_ik_furniture3_tone2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这里……还不能碰呢~",
+			say = "這裡……還不能碰呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

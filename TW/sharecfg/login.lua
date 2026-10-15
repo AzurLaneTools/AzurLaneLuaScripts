@@ -2854,189 +2854,33 @@ pg.base.login = {}
 	}
 	pg.base.login[99] = {
 		op_play = 1,
+		op_time = "stop",
 		effective_channel = 0,
+		date = "stop",
 		id = 99,
 		login_static = "login",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2026,
-					9,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					10,
-					15
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			"timer",
-			{
-				{
-					2026,
-					9,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					10,
-					15
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	}
 	pg.base.login[100] = {
 		op_play = 1,
+		op_time = "stop",
 		effective_channel = 0,
+		date = "stop",
 		id = 100,
 		login_static = "login",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2026,
-					9,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					10,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			"timer",
-			{
-				{
-					2026,
-					9,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					10,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	}
 	pg.base.login[101] = {
 		op_play = 1,
+		op_time = "stop",
 		effective_channel = 0,
+		date = "stop",
 		id = 101,
 		login_static = "login_260924",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2026,
-					10,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					10,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			"timer",
-			{
-				{
-					2026,
-					10,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					10,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	}
 	pg.base.login[1001] = {
 		op_play = 1,

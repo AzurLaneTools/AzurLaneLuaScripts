@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_ik_tone12/drom3d_implacable_ik_tone12",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "茶要凉了哦~还是说，想让我帮你暖暖？",
+			say = "茶要涼了呢~還是說，想讓我幫你暖暖？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

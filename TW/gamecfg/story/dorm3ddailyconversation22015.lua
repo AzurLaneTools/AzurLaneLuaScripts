@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "平时怎么化妆的？没想到{dorm3d}会对这种事感兴趣。",
+			say = "平時怎麼化妝的？沒想到{dorm3d}會對這種事感興趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "虽然只是修饰外表，但妆容不同，心情也会变得不一样。",
+			say = "雖然只是修飾外表，但妝容不同，心情也會變得不一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "换个心情，或许就会遇见不一样的自己。",
+			say = "換個心情，或許就會遇見不一樣的自己。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}想看看不一样的我吗？",
+			say = "{dorm3d}想看看不一樣的我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello13/drom3d_implacable_hello13",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我似乎听见了你心中的声音，但还保持着这样距离的话，可有点难以听清哦，呵呵~",
+			say = "我似乎聽見了你心中的聲音，但還保持著這樣距離的話，可有點難以聽清哦，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_gift1_voice1/drom3d_implacable_gift1_voice1",
 			actorName = 20707,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}~我一笔笔记下……对你长久的眷恋哦~",
+			say = "{dorm3d}~我一筆筆記下……對你長久的眷戀哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_gift1_voice2/drom3d_implacable_gift1_voice2",
 			actorName = 20707,
 			nameColor = "#FFFFFF",
-			say = "那些需要“忏悔”的行为……可都是我对您的爱呢~",
+			say = "那些需要「懺悔」的行為……可都是我對您的愛呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

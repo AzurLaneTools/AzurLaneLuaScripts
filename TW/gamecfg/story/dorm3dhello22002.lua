@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello2/drom3d_implacable_hello2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "茶刚沏好，你就回来了呢~",
+			say = "茶剛沏好，你就回來了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

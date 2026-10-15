@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "说起来，今天的祈福时间到了呢~",
+			say = "說起來，今天的祈福時間到了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "有什么烦恼、愿望……或是不敢对他人言说的念头，都可以在此刻倾倒出来。",
+			say = "有什麼煩惱、願望……或是不敢對他人言說的念頭，都可以在此刻傾倒出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我的祈福，可比您想象的更有效力哦，呵呵~",
+			say = "我的祈福，可比您想像的更有效力哦，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

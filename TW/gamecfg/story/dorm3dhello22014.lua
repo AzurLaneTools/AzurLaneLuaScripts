@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello14/drom3d_implacable_hello14",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，我会包容你的一切——无论是依赖，还是……更深处的索求。",
+			say = "{dorm3d}，我會包容你的一切——無論是依賴，還是……更深處的要求。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello12/drom3d_implacable_hello12",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "您的呼吸、心跳……比任何祷词都更让我平静。所以，再靠近一点吧~",
+			say = "您的呼吸、心跳……比任何禱詞都更讓我平靜。所以，再靠近一點吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

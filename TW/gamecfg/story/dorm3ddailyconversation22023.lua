@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我的头发很漂亮？谢谢……想亲手试试触感吗？",
+			say = "我的頭髮很漂亮？謝謝……想親手試試觸感嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}有喜欢的发型吗？",
+			say = "{dorm3d}有喜歡的髮型嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "是更偏温婉些的，还是更有个性一点的？",
+			say = "是更偏溫婉些的，還是更有個性一點的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "呵呵，只要你喜欢，我都可以打扮给你看。",
+			say = "呵呵，只要你喜歡，我都可以打扮給你看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

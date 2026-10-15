@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello6/drom3d_implacable_hello6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "祷告刚结束，您就出现了……这是否意味着，我的愿望已被聆听？",
+			say = "禱告剛結束，您就出現了……這是否意味著，我的願望已被聆聽？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

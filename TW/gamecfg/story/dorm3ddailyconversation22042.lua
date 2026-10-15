@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}要来玩对视游戏吗？",
+			say = "{dorm3d}要來玩對視遊戲嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "规则很简单，只需要紧盯着对方的眼睛，先移开的那一方算输。",
+			say = "規則很簡單，只需要緊盯著對方的眼睛，先移開的那一方算輸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "败者的惩罚是……要陪着赢家一整天哦~",
+			say = "敗者的懲罰是……要陪贏家一整天喔~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

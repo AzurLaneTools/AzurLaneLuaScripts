@@ -17,7 +17,9 @@ pg.dorm3d_gift.all = {
 	3070702,
 	4990501,
 	7990201,
-	7990261
+	7990261,
+	2070701,
+	2070761
 }
 pg.dorm3d_gift.get_id_list_by_ship_group_id = {
 	[0] = {
@@ -35,6 +37,10 @@ pg.dorm3d_gift.get_id_list_by_ship_group_id = {
 	[20220] = {
 		2022001,
 		2022002
+	},
+	[20707] = {
+		2070701,
+		2070761
 	},
 	[30221] = {
 		3022101,
@@ -91,6 +97,14 @@ pg.base.dorm3d_gift = {}
 			{
 				49905,
 				140301
+			},
+			{
+				79902,
+				210301
+			},
+			{
+				20707,
+				220301
 			}
 		},
 		shop_id = {},
@@ -137,6 +151,12 @@ pg.base.dorm3d_gift = {}
 				{
 					"banner_naximofu"
 				}
+			},
+			{
+				20707,
+				{
+					"banner_yuanchou"
+				}
 			}
 		}
 	}
@@ -175,6 +195,14 @@ pg.base.dorm3d_gift = {}
 			{
 				49905,
 				140302
+			},
+			{
+				79902,
+				210302
+			},
+			{
+				20707,
+				220302
 			}
 		},
 		shop_id = {
@@ -227,6 +255,12 @@ pg.base.dorm3d_gift = {}
 				{
 					"banner_naximofu"
 				}
+			},
+			{
+				20707,
+				{
+					"banner_yuanchou"
+				}
 			}
 		}
 	}
@@ -265,6 +299,14 @@ pg.base.dorm3d_gift = {}
 			{
 				49905,
 				140303
+			},
+			{
+				79902,
+				210303
+			},
+			{
+				20707,
+				220303
 			}
 		},
 		shop_id = {
@@ -313,6 +355,12 @@ pg.base.dorm3d_gift = {}
 				79902,
 				{
 					"banner_naximofu"
+				}
+			},
+			{
+				20707,
+				{
+					"banner_yuanchou"
 				}
 			}
 		}
@@ -713,6 +761,91 @@ pg.base.dorm3d_gift = {}
 					2026,
 					8,
 					20
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_gift[2070701] = {
+		display = "夾著羽毛筆的手記，每一頁都記載著名為「懺悔」的愛意。\n翻開它時，那些被指控為誘惑的行為，其實都是她另類而虔誠的告白。",
+		name = "眷戀手記",
+		unlock_dialogue_id = 220541,
+		rarity = 4,
+		ship_group_id = 20707,
+		time = "always",
+		hide_if_not_owned = 0,
+		favor_trigger_id = 1004,
+		id = 2070701,
+		icon = "dorm3dicon/3Ddrom_yuanchou_FancyGift1",
+		reply_dialogue_id = {
+			{
+				20707,
+				220304
+			}
+		},
+		shop_id = {
+			260801
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				20707,
+				{
+					"banner_gift2070701"
+				}
+			}
+		}
+	}
+	pg.base.dorm3d_gift[2070761] = {
+		display = "造型華麗的復古燭台，點亮後燭光溫暖柔和，營造出寧靜的氛圍。不管是用來裝飾房間，還是在夜晚照明，都十分實用。",
+		name = "精緻燭台",
+		unlock_dialogue_id = 0,
+		rarity = 4,
+		ship_group_id = 20707,
+		hide_if_not_owned = 1,
+		favor_trigger_id = 1099,
+		id = 2070761,
+		icon = "dorm3dicon/3Ddrom_yuanchou_FancyGift9",
+		reply_dialogue_id = {
+			{
+				20707,
+				220302
+			}
+		},
+		shop_id = {},
+		unlock_tips = {},
+		unlock_banners = {
+			{
+				20707,
+				{
+					"banner_yuanchou"
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					12
 				},
 				{
 					14,

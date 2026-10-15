@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_ik_tone10/drom3d_implacable_ik_tone10",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这是……额外的祝福哦♡",
+			say = "這是……額外的祝福哦♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

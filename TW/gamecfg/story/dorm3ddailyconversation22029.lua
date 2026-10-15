@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "算算时间，热水应该已经准备好了。",
+			say = "算算時間，熱水應該已經準備好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，做好让我为你清洗的准备了吗？",
+			say = "{dorm3d}，做好讓我為你清洗的準備了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我会从身到心，把你的每个角落都清洁得干干净净的~",
+			say = "我會從身到心，把你的每個角落都清潔得乾乾淨淨的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

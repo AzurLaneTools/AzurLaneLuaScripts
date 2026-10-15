@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}觉得要做什么……才比较有家的感觉呢？",
+			say = "{dorm3d}覺得要做什麼……才比較有家的感覺呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,14 +57,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "只是待在一起，好像还少了点什么……",
+			say = "只是待在一起，好像還少了點什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "做些需要两个人合作的事？",
+					content = "做些需要兩個人合作的事？",
 					flag = 1
 				}
 			},
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那么……一起下厨如何？各司其职的厨房……光是想象就觉得温馨呢，呵呵~",
+			say = "那麼……一起下廚如何呢？各司其職的廚房……光是想像就覺得溫馨呢，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello9/drom3d_implacable_hello9",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "有心事？来——无论是烦恼，还是不敢告人的念头……都可以尽情向我倾诉。",
+			say = "有心事？來——無論是煩惱，還是不敢告人的念頭……都可以盡情向我傾訴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -215,6 +215,30 @@ pg.dorm3d_collection_template.all = {
 	2123,
 	2124,
 	2125,
+	2201,
+	2202,
+	2203,
+	2204,
+	2205,
+	2206,
+	2207,
+	2208,
+	2209,
+	2210,
+	2211,
+	2212,
+	2213,
+	2214,
+	2215,
+	2216,
+	2217,
+	2218,
+	2219,
+	2220,
+	2221,
+	2222,
+	2223,
+	2225,
 	2601,
 	2602,
 	2603,
@@ -455,6 +479,32 @@ pg.dorm3d_collection_template.get_id_list_by_room_id = {
 		2123,
 		2124,
 		2125
+	},
+	[22] = {
+		2201,
+		2202,
+		2203,
+		2204,
+		2205,
+		2206,
+		2207,
+		2208,
+		2209,
+		2210,
+		2211,
+		2212,
+		2213,
+		2214,
+		2215,
+		2216,
+		2217,
+		2218,
+		2219,
+		2220,
+		2221,
+		2222,
+		2223,
+		2225
 	},
 	[26] = {
 		2601,
@@ -4874,6 +4924,510 @@ end)()
 		},
 		vfx_prefab = {
 			"fbx/litmap_03/day/pre_db_bed06_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2201] = {
+		name = "小憩桌椅",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "一組小巧的桌椅陳設，為短暫休憩與輕聲交談留出恰到好處的空間。",
+		text = "dorm3d_yuanchou_bed",
+		id = 2201,
+		icon = "3Ddrom_yuanchou_item1",
+		model = {
+			"fbx/litmap_01/pre_db_table23a"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_table23a/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2202] = {
+		name = "繁花陶盆",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "陶質器皿中舒展而出的花葉層層鋪開，為室內添上一抹鮮活亮色。",
+		text = "dorm3d_yuanchou_bed",
+		id = 2202,
+		icon = "3Ddrom_yuanchou_item2",
+		model = {
+			"fbx/litmap_01/pre_db_flowers17_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers17_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2203] = {
+		name = "鎏光高腳盤",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "金紋環飾的高腳盤，靜置時自成風景，為空間添上幾分華貴氣息。 ",
+		text = "dorm3d_yuanchou_chair",
+		id = 2203,
+		icon = "3Ddrom_yuanchou_item3",
+		model = {
+			"fbx/litmap_01/pre_db_tableware58"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_tableware58/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2204] = {
+		name = "夜色台燈",
+		award = 0,
+		time = 2,
+		room_id = 22,
+		desc = "精緻裝飾的台燈靜靜矗立，在照明之外更兼點綴空間之效。",
+		text = "dorm3d_yuanchou_bed",
+		id = 2204,
+		icon = "3Ddrom_yuanchou_item4",
+		model = {
+			"fbx/litmap_01/night/pre_db_desklamp12_on"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_desklamp12_on/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2205] = {
+		name = "景致畫框",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "被妥善裝裱起來的建築景致，讓目光停留時也多了幾分悠遠意味。",
+		text = "dorm3d_yuanchou_chair",
+		id = 2205,
+		icon = "3Ddrom_yuanchou_item5",
+		model = {
+			"fbx/litmap_01/pre_db_billboard38_02"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard38_02/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2206] = {
+		name = "立式燭台",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "線條簡潔的單支燭台，將微弱燭光襯得格外寧靜而莊重。",
+		text = "dorm3d_yuanchou_chair",
+		id = 2206,
+		icon = "3Ddrom_yuanchou_item6",
+		model = {
+			"fbx/litmap_01/pre_db_decoration26_01_on"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration26_01_on/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2207] = {
+		name = "淺池水景",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "低矮開闊的水池自帶靜謐氣氛，彷彿連周圍的空氣都變得清涼了些。",
+		text = "dorm3d_yuanchou_table",
+		id = 2207,
+		icon = "3Ddrom_yuanchou_item7",
+		model = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/chamber/pre_db_yuanchou01_chamber02_0/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2208] = {
+		name = "廊側櫃桌",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "兼具收納與陳設功能的櫃桌，讓過道角落也顯得整潔而不失生活氣息。",
+		text = "dorm3d_yuanchou_bed",
+		id = 2208,
+		icon = "3Ddrom_yuanchou_item8",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard49"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard49/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2209] = {
+		name = "雙生陶飾",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "一高一矮的兩只陶罐彼此映襯，樸素的輪廓中透出幾分耐人尋味的裝飾感。",
+		text = "dorm3d_yuanchou_chair",
+		id = 2209,
+		icon = "3Ddrom_yuanchou_item9",
+		model = {
+			"fbx/litmap_01/pre_db_decoration39"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration39/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2210] = {
+		name = "軟墊長凳",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "橫向擺放的長凳鋪著柔軟坐墊，是適合短暫停留的實用小陳設。",
+		text = "dorm3d_yuanchou_chair",
+		id = 2210,
+		icon = "3Ddrom_yuanchou_item10",
+		model = {
+			"fbx/litmap_01/pre_db_chair39a_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_chair39a_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2211] = {
+		name = "托花高腳凳",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "纖細輕巧的高腳凳非常適合作為展示台，讓擺件更容易成為視線焦點。",
+		text = "dorm3d_yuanchou_bed",
+		id = 2211,
+		icon = "3Ddrom_yuanchou_item11",
+		model = {
+			"fbx/litmap_01/pre_db_frame31_1"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_frame31_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2212] = {
+		name = "厚座長椅",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "輪廓厚重的長椅散發出沉穩安定的氣息，為空間增添了一份踏實感。",
+		text = "dorm3d_yuanchou_bed",
+		id = 2212,
+		icon = "3Ddrom_yuanchou_item12",
+		model = {
+			"fbx/litmap_01/pre_db_chair39"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_chair39/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2213] = {
+		name = "啾啾雕像",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "矗立在基座上的啾啾雕像格外醒目，自带幾分讓人會心一笑的親近感。",
+		text = "dorm3d_yuanchou_chair",
+		id = 2213,
+		icon = "3Ddrom_yuanchou_item13",
+		model = {
+			"fbx/litmap_01/pre_db_yuanchou_sculptures01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_yuanchou_sculptures01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2214] = {
+		name = "壁爐櫃台",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "既能聚集暖意，也能承載各種日常擺設，是相當實用的室內中心。",
+		text = "dorm3d_yuanchou_chair",
+		id = 2214,
+		icon = "3Ddrom_yuanchou_item14",
+		model = {
+			"fbx/litmap_01/pre_db_fireplace04"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_fireplace04/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2215] = {
+		name = "白瓷花瓶",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "一高一矮的白色花瓶並列擺放，在統一之中顯出恰到好處的層次變化。",
+		text = "dorm3d_yuanchou_bed",
+		id = 2215,
+		icon = "3Ddrom_yuanchou_item15",
+		model = {
+			"fbx/litmap_01/pre_db_ceram30a"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_ceram30a/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2216] = {
+		name = "鏡飾立櫃",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "四門立櫃以玻璃鏡面增添輕盈感，令厚重木質也多了幾分通透氣息。",
+		text = "dorm3d_yuanchou_bed",
+		id = 2216,
+		icon = "3Ddrom_yuanchou_item16",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard50"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard50/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2217] = {
+		name = "廊邊矮櫃",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "經典款木製矮櫃安置於過道側方，以低調穩健的姿態承擔日常收納功能。",
+		text = "dorm3d_yuanchou_chair",
+		id = 2217,
+		icon = "3Ddrom_yuanchou_item17",
+		model = {
+			"fbx/litmap_01/pre_db_table27"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_table27/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2218] = {
+		name = "金尊長頸壺",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "造型修長而華美的金屬長頸壺，自帶一份典雅講究的貴氣。",
+		text = "dorm3d_yuanchou_chair",
+		id = 2218,
+		icon = "3Ddrom_yuanchou_item18",
+		model = {
+			"fbx/litmap_01/pre_db_decoration22_1"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration22_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2219] = {
+		name = "淺口果盞",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "杯身寬敞的器皿兼具實用與裝飾意涵，無論盛放飲料或點心都別有一番風味。",
+		text = "dorm3d_yuanchou_bed",
+		id = 2219,
+		icon = "3Ddrom_yuanchou_item19",
+		model = {
+			"fbx/litmap_01/pre_db_decoration37b"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration37b/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2220] = {
+		name = "柔光圓框掛畫",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "圓潤的邊框將畫面包裹得更加柔和，使整件裝飾多了一份輕盈而優雅的意味。用於點綴牆面時，能讓周圍的氛圍也隨之變得柔和。",
+		text = "dorm3d_yuanchou_chair",
+		id = 2220,
+		icon = "3Ddrom_yuanchou_item20",
+		model = {
+			"fbx/litmap_01/pre_db_billboard49_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard49_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2221] = {
+		name = "雙層抽屜櫃",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "結構簡潔的雙層抽屜櫃，為零碎物件提供了整齊而順手的安放之處。",
+		text = "dorm3d_yuanchou_chair",
+		id = 2221,
+		icon = "3Ddrom_yuanchou_item21",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard35"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard35/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2222] = {
+		name = "柔光落地燈",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "穩穩立起的燈具不僅照亮室內，更為環境增添一層溫潤氣氛。",
+		text = "dorm3d_yuanchou_chair",
+		id = 2222,
+		icon = "3Ddrom_yuanchou_item22",
+		model = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_01"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_01/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2223] = {
+		name = "壁掛燭台",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "依附牆面的燭台安靜穩固，是兼具照明與觀賞性的細節陳設。",
+		text = "dorm3d_yuanchou_table",
+		id = 2223,
+		icon = "3Ddrom_yuanchou_item23",
+		model = {
+			"fbx/litmap_01/day/pre_db_walllamp03b_1"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/day/pre_db_walllamp03b_1/vfx_wupintishi01"
+		}
+	}
+	pg.base.dorm3d_collection_template[2225] = {
+		name = "簡式抽屜櫃",
+		award = 0,
+		time = 0,
+		room_id = 22,
+		desc = "樸實穩妥的抽屜櫃延續了一貫風格，讓收納與陳設都顯得井井有條。",
+		text = "dorm3d_yuanchou_bed",
+		id = 2225,
+		icon = "3Ddrom_yuanchou_item25",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard51"
+		},
+		unlock = {
+			1,
+			20707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard51/vfx_wupintishi01"
 		}
 	}
 	pg.base.dorm3d_collection_template[2601] = {

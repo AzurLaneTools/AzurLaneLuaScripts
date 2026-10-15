@@ -267,7 +267,42 @@ pg.dorm3d_subtitle.all = {
 	21039,
 	21040,
 	21041,
-	21042
+	21042,
+	22001,
+	22002,
+	22003,
+	22004,
+	22005,
+	22006,
+	22007,
+	22008,
+	22009,
+	22010,
+	22011,
+	22012,
+	22013,
+	22014,
+	22015,
+	22016,
+	22017,
+	22021,
+	22022,
+	22023,
+	22024,
+	22025,
+	22026,
+	22027,
+	22028,
+	22029,
+	22030,
+	22031,
+	22032,
+	22033,
+	22034,
+	22035,
+	22036,
+	22037,
+	22038
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_subtitle = {}
@@ -1332,5 +1367,145 @@ end)()
 	pg.base.dorm3d_subtitle[21042] = {
 		id = 21042,
 		subtitle = "要這樣……一直、一直在一起喵……"
+	}
+	pg.base.dorm3d_subtitle[22001] = {
+		id = 22001,
+		subtitle = "願此光……"
+	}
+	pg.base.dorm3d_subtitle[22002] = {
+		id = 22002,
+		subtitle = "能指引夜裡迷途的羔羊……"
+	}
+	pg.base.dorm3d_subtitle[22003] = {
+		id = 22003,
+		subtitle = "您是在等我的允許嗎？指揮官~"
+	}
+	pg.base.dorm3d_subtitle[22004] = {
+		id = 22004,
+		subtitle = "那麼，就讓我用指尖……為您領讀這段無聲的禱文吧~"
+	}
+	pg.base.dorm3d_subtitle[22005] = {
+		id = 22005,
+		subtitle = "呵呵~原來您喜歡這樣的告解方式嗎？"
+	}
+	pg.base.dorm3d_subtitle[22006] = {
+		id = 22006,
+		subtitle = "那麼，您此刻祈求的是救贖，還是……"
+	}
+	pg.base.dorm3d_subtitle[22007] = {
+		id = 22007,
+		subtitle = "與我一同沉溺的夜呢~呵呵呵♡"
+	}
+	pg.base.dorm3d_subtitle[22008] = {
+		id = 22008,
+		subtitle = "醒了嗎？我還以為您會多睡一會兒。"
+	}
+	pg.base.dorm3d_subtitle[22009] = {
+		id = 22009,
+		subtitle = "現在可是早上哦~我正準備為昨夜的某些片段稍作忏悔呢，呵呵~"
+	}
+	pg.base.dorm3d_subtitle[22010] = {
+		id = 22010,
+		subtitle = "嗯……這樣攪擾我虔誠的心……是想繼續昨夜的美夢？"
+	}
+	pg.base.dorm3d_subtitle[22011] = {
+		id = 22011,
+		subtitle = "呵呵~衣服皺痕都還沒消……這些「罪證」可要好好掩藏才行哦~"
+	}
+	pg.base.dorm3d_subtitle[22012] = {
+		id = 22012,
+		subtitle = "好了……晨間的「懺悔」到此為止，我們晚上再繼續吧~"
+	}
+	pg.base.dorm3d_subtitle[22013] = {
+		id = 22013,
+		subtitle = "怎麼……耐不住寂寞，想來尋求我的陪伴了？"
+	}
+	pg.base.dorm3d_subtitle[22014] = {
+		id = 22014,
+		subtitle = "不過比起書籍，您確實更值得研讀，呵呵~"
+	}
+	pg.base.dorm3d_subtitle[22015] = {
+		id = 22015,
+		subtitle = "嗯~剛才的書上有說……一個詞的意義其實會受情境影響……"
+	}
+	pg.base.dorm3d_subtitle[22016] = {
+		id = 22016,
+		subtitle = "例如禁錮……"
+	}
+	pg.base.dorm3d_subtitle[22017] = {
+		id = 22017,
+		subtitle = "在某些語境下其實意味著……更加緊密的相擁~"
+	}
+	pg.base.dorm3d_subtitle[22021] = {
+		id = 22021,
+		subtitle = "這是否能稱為愛……就用我們彼此的觸碰來確認吧~"
+	}
+	pg.base.dorm3d_subtitle[22022] = {
+		id = 22022,
+		subtitle = "如此溫柔的撫觸……這便是您給予的勸戒嗎？"
+	}
+	pg.base.dorm3d_subtitle[22023] = {
+		id = 22023,
+		subtitle = "呵呵~其實我眷戀的……是這樣強勢的您呢~這種事……也需要懺悔嗎？ "
+	}
+	pg.base.dorm3d_subtitle[22024] = {
+		id = 22024,
+		subtitle = "感受到了嗎？這顆心正因您……跳動得如此喧嚣……"
+	}
+	pg.base.dorm3d_subtitle[22025] = {
+		id = 22025,
+		subtitle = "聽，您這裡……不也一樣悸動不止嗎~"
+	}
+	pg.base.dorm3d_subtitle[22026] = {
+		id = 22026,
+		subtitle = "看來……您還需要一些更直接的「證明」呢~"
+	}
+	pg.base.dorm3d_subtitle[22027] = {
+		id = 22027,
+		subtitle = "承認吧……這也是您心中所願，本就該欣然接受才對~"
+	}
+	pg.base.dorm3d_subtitle[22028] = {
+		id = 22028,
+		subtitle = "呵呵~看來$dorm3d是想用這樣的辦法……逼我強制反省呢~"
+	}
+	pg.base.dorm3d_subtitle[22029] = {
+		id = 22029,
+		subtitle = "可以哦……無論您想畫下什麼，我都願虔誠地領受~"
+	}
+	pg.base.dorm3d_subtitle[22030] = {
+		id = 22030,
+		subtitle = "嗯……這麼想要……佔據我的心嗎？呵呵……"
+	}
+	pg.base.dorm3d_subtitle[22031] = {
+		id = 22031,
+		subtitle = "嗯啊……這樣下去，我或許真的再也無法違逆您了呢……"
+	}
+	pg.base.dorm3d_subtitle[22032] = {
+		id = 22032,
+		subtitle = "連這裡也要留下您的記號嗎？真是貪心的$dorm3d~"
+	}
+	pg.base.dorm3d_subtitle[22033] = {
+		id = 22033,
+		subtitle = "唔……深處湧起暖意……這也是被您的記號所喚醒的嗎？ "
+	}
+	pg.base.dorm3d_subtitle[22034] = {
+		id = 22034,
+		subtitle = "這裡……也要沾染您的痕跡？ "
+	}
+	pg.base.dorm3d_subtitle[22035] = {
+		id = 22035,
+		subtitle = "呵呵……再寫幾筆也可以哦……我會好好保存的~"
+	}
+	pg.base.dorm3d_subtitle[22036] = {
+		id = 22036,
+		subtitle = "已經結束了？您難道以為……這樣就能讓我乖乖反省了嗎？ "
+	}
+	pg.base.dorm3d_subtitle[22037] = {
+		id = 22037,
+		subtitle = "真可惜……由愛凝聚的印記，無法束縛同樣熾熱的真心～"
+	}
+	pg.base.dorm3d_subtitle[22038] = {
+		id = 22038,
+		subtitle = "那麼接下來……就輪到我來為您「書寫」了哦～♡"
 	}
 end)()

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，我来帮你量一量身体数据~",
+			say = "{dorm3d}，我來幫你量身體數據~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "用来做什么？",
+			say = "用來做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯，我想做一个“{dorm3d}主题”的抱枕。",
+			say = "嗯，我想做一個「{dorm3d}主題」的抱枕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "身体怎么僵住了？放轻松些……这样做出来，才会更像你，也更好看哦~",
+			say = "身體怎麼僵住了？放輕鬆……這樣做出來，才會更像你，也更好看~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

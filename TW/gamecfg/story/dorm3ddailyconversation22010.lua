@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，这四下安静得……仿佛能听见我们彼此的呼吸与心跳呢~",
+			say = "{dorm3d}，這四下安靜得……彷彿能聽見我們彼此的呼吸與心跳呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "来陪我跳一支舞怎么样？不必在意步伐，随心所欲就好。",
+			say = "來陪我跳一支舞怎麼樣？不必在意步伐，隨心所欲就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "让我来做你的引导者。",
+			say = "讓我來做你的引導者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

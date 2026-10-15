@@ -67,7 +67,17 @@ pg.dorm3d_ins_language.all = {
 	"naximofu_2_1",
 	"naximofu_2_1_1",
 	"naximofu_2_2",
-	"naximofu_2_2_1"
+	"naximofu_2_2_1",
+	"yuanchou_1",
+	"yuanchou_1_1",
+	"yuanchou_1_1_1",
+	"yuanchou_1_2",
+	"yuanchou_1_2_1",
+	"yuanchou_2",
+	"yuanchou_2_1",
+	"yuanchou_2_1_1",
+	"yuanchou_2_2",
+	"yuanchou_2_2_1"
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_language = {}
@@ -396,6 +406,56 @@ pg.base.dorm3d_ins_language = {}
 	pg.base.dorm3d_ins_language.naximofu_2_2_1 = {
 		value = "裝備的確認無誤，準備戰鬥。",
 		key = "naximofu_2_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1 = {
+		value = "指揮官覺得，喜歡的盆栽，是修剪得精緻些比較好，還是順著它自己的性子生長比較好？",
+		key = "yuanchou_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_1 = {
+		value = "稍微修剪一下吧",
+		key = "yuanchou_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_1_1 = {
+		value = "嗯……適當的約束，也是溫柔照顧的一種方式呢~",
+		key = "yuanchou_1_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_2 = {
+		value = "讓它自由生長吧",
+		key = "yuanchou_1_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_1_2_1 = {
+		value = "呵呵，保留原本的姿態，自然舒展長大……確實也很美呢~",
+		key = "yuanchou_1_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2 = {
+		value = "今天做了點新的嘗試……呵呵~",
+		key = "yuanchou_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_1 = {
+		value = "透露一下配方？",
+		key = "yuanchou_2_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_1_1 = {
+		value = "嗯……上好的茶葉，配上魚腥草，是不是很有創意？",
+		key = "yuanchou_2_1_1",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_2 = {
+		value = "感覺還不錯",
+		key = "yuanchou_2_2",
+		is_active = "0"
+	}
+	pg.base.dorm3d_ins_language.yuanchou_2_2_1 = {
+		value = "我專門為你留了一杯，快來我這嚐嚐吧~",
+		key = "yuanchou_2_2_1",
 		is_active = "0"
 	}
 end)()

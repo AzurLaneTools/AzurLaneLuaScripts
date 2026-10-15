@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_implacable_hello10/drom3d_implacable_hello10",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "今天想如何度过呢？是你的话，想做什么都可以哦~呵呵呵♡",
+			say = "今天想如何度過呢？是你的話，想做什麼都可以喔~呵呵呵♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

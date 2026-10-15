@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "在家待久了，偶尔也会想出去透透气呢~",
+			say = "在家待久了，偶爾也會想出去透透氣呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,14 +57,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过……没什么特别想去的地方。{dorm3d}有什么好主意么？",
+			say = "不過……沒什麼特別想去的地方。{dorm3d}有什麼好主意？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那就一起去兜风吧。",
+					content = "那就一起去兜風吧。",
 					flag = 1
 				}
 			},
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "随心所欲，没有目的地的出行……很浪漫呢，呵呵~",
+			say = "隨心所欲，沒有目的地的出遊……很浪漫呢，呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

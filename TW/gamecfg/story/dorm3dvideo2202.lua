@@ -7,7 +7,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone18/dorm3d_implacable_telephone18",
 			wait = 1,
-			say = "嗯……终于接通了呢~",
+			say = "嗯……終於接通了呢~",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -40,7 +40,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone19/dorm3d_implacable_telephone19",
 			wait = 1,
-			say = "刚才一直在想，{dorm3d}此刻会在做什么。",
+			say = "剛才一直在想，{dorm3d}此刻會在做什麼。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -73,10 +73,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone20/dorm3d_implacable_telephone20",
 			wait = 1,
-			say = "想着想着，连手边的事都做不专心了，就直接拨通了你的电话。",
+			say = "想著想著，連手邊的事都做不專心了，就直接撥了你的電話。",
 			options = {
 				{
-					content = "还真是直接。",
+					content = "還真是直接。",
 					flag = 1
 				}
 			},
@@ -112,7 +112,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone21/dorm3d_implacable_telephone21",
 			wait = 1,
-			say = "呵呵~我一向忠实于自己的欲望哦~",
+			say = "呵呵~我一向忠於自己的慾望哦~",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -145,7 +145,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone22/dorm3d_implacable_telephone22",
 			wait = 1,
-			say = "与其让心思在沉默中变质，不如好好说出来，你说对吗？",
+			say = "與其讓心思在沉默中變質，不如好好說出來，你說對嗎？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -178,7 +178,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone23/dorm3d_implacable_telephone23",
 			wait = 1,
-			say = "比如现在……",
+			say = "比如現在……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -211,7 +211,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone24/dorm3d_implacable_telephone24",
 			wait = 1,
-			say = "我想为你煮一壶茶，想看着你喝下时的表情，想听你说一句“好喝”……",
+			say = "我想為你煮一壺茶，想看著你喝下時的表情，想聽你說一句「好喝」……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -244,7 +244,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone25/dorm3d_implacable_telephone25",
 			wait = 2,
-			say = "这样的念头，一个接着一个冒出来，好像永远也做不完呢~",
+			say = "這樣的念頭，一個接著一個冒出來，好像永遠做不完呢~",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -277,10 +277,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone26/dorm3d_implacable_telephone26",
 			wait = 2,
-			say = "这样贪心的我……{dorm3d}会觉得困扰吗？",
+			say = "這樣貪心的我……{dorm3d}會覺得困擾嗎？",
 			options = {
 				{
-					content = "当然不会。",
+					content = "當然不會。",
 					flag = 1
 				}
 			},
@@ -316,7 +316,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone27/dorm3d_implacable_telephone27",
 			wait = 1,
-			say = "你总是这样纵容我……",
+			say = "你總是這樣縱容我……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -349,7 +349,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone28/dorm3d_implacable_telephone28",
 			wait = 1,
-			say = "再这样下去，我大概会变得越来越依赖你吧。",
+			say = "再這樣下去，我大概會變得越來越依賴你吧。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -382,7 +382,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone29/dorm3d_implacable_telephone29",
 			wait = 1,
-			say = "明明应该是由我来引导你、陪伴你才对……",
+			say = "明明應該是由我來引導你、陪伴你才對……",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -415,7 +415,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone30/dorm3d_implacable_telephone30",
 			wait = 1,
-			say = "可不知不觉，却总想待在你身边，向你索取温暖。",
+			say = "但不知不覺，卻總想待在你身邊，向你索取溫暖。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -448,10 +448,10 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone31/dorm3d_implacable_telephone31",
 			wait = 2,
-			say = "这样是不是……有点不太好呢？",
+			say = "這樣是不是……有點不太好呢？",
 			options = {
 				{
-					content = "没关系，你可以尽情地依赖我。",
+					content = "沒關係，你可以盡情地依賴我。",
 					flag = 1
 				}
 			},
@@ -487,7 +487,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone32/dorm3d_implacable_telephone32",
 			wait = 1,
-			say = "可是啊……单方面的依赖可是没法满足我的哦~",
+			say = "可是啊……單方面的依賴可是沒辦法滿足我的哦~",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -520,7 +520,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone33/dorm3d_implacable_telephone33",
 			wait = 1,
-			say = "怎样才能让{dorm3d}也对我……毫无保留呢？",
+			say = "怎樣才能讓{dorm3d}也對我……毫無保留呢？",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -586,7 +586,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone35/dorm3d_implacable_telephone35",
 			wait = 1,
-			say = "直到你愿意把所有的欢喜与叹息，都交托给我为止。",
+			say = "直到你願意把所有的歡喜與嘆息，都交託給我為止。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -619,7 +619,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone36/dorm3d_implacable_telephone36",
 			wait = 1,
-			say = "嗯……光是隔着屏幕说话可无法向你传递我身体的灼热呢~",
+			say = "嗯……光是隔著螢幕說話可無法傳給你我身體的灼熱呢~",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -652,7 +652,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone37/dorm3d_implacable_telephone37",
 			wait = 1,
-			say = "有些心情果然还是要面对面才能传达。",
+			say = "有些心情果然還是要面對面才能傳達。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -685,7 +685,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone38/dorm3d_implacable_telephone38",
 			wait = 1,
-			say = "所以……剩下的那些话，就等见面时再说吧。",
+			say = "所以……剩下的那些話，就等見面時再說吧。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {
@@ -718,7 +718,7 @@ return {
 		{
 			voice = "event:/dorm/dorm3d_implacable_telephone39/dorm3d_implacable_telephone39",
 			wait = 1,
-			say = "我会一直在这里等着你。",
+			say = "我會一直在這裡等你。",
 			dispatcher = {
 				name = STORY_EVENT.TEST,
 				data = {

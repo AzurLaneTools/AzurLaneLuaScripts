@@ -103,6 +103,8 @@ pg.item_data_frame.all = {
 	1012,
 	1013,
 	1014,
+	1015,
+	1016,
 	10001,
 	10002,
 	10003,
@@ -1012,6 +1014,26 @@ pg.base.item_data_frame = {}
 		desc = "爪印與尾巴在數據流中浮現，那是來自賽博空間的貓貓問候。\n<color=#A7A7AA>通過提升「宿舍計劃」中納希莫夫海軍上將的契合度等級獲取</color>",
 		scene = {}
 	}
+	pg.base.item_data_frame[1015] = {
+		name = "金雀花冠",
+		gain_by = "",
+		time_second = 0,
+		id = 1015,
+		time_limit_type = 0,
+		desc = "深色緞帶包裹著聖潔的光澤，花藤蜿蜒的弧度恰似晨禱時指尖劃過的軌跡。 \n<color=#A7A7AA>透過提升「宿舍計畫」中怨仇的契合度等級取得</color>",
+		scene = {}
+	}
+end)()
+(function ()
+	pg.base.item_data_frame[1016] = {
+		name = "絢爛幽光",
+		gain_by = "",
+		time_second = 0,
+		id = 1016,
+		time_limit_type = 0,
+		desc = "玫瑰窗的彩光嵌在暗影裡，絢爛與幽暗正在穹頂深處和諧相融。 \n<color=#A7A7AA>透過提升「宿舍計畫」中怨仇的契合度等級取得</color>",
+		scene = {}
+	}
 	pg.base.item_data_frame[10001] = {
 		name = "限界的挑戰者·雙子座",
 		gain_by = "",
@@ -1021,8 +1043,6 @@ pg.base.item_data_frame = {}
 		desc = "<color=#ffffff>結晶之中閃爍著雙子座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.06.06-24.06.30）",
 		scene = {}
 	}
-end)()
-(function ()
 	pg.base.item_data_frame[10002] = {
 		name = "限界的挑戰者·巨蟹座",
 		gain_by = "",
