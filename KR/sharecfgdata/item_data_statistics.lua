@@ -110694,9 +110694,9 @@ _G.pg.base.item_data_statistics[62004] = {
 
 _G.pg.base.item_data_statistics[62005] = {
 	open_directly = 0,
-	name = "프린츠 오이겐의 답례",
+	name = "프린츠 하인리히의 답례",
 	type = 1,
-	display = "초대에 대한 프린츠 오이겐의 답례",
+	display = "초대에 대한 프린츠 하인리히의 답례",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",

@@ -616,7 +616,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[122] = {
-		param = "ShadowCityCoreActivityUI",
+		param = "ShiningMagicCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core3",
 		type = 16,
