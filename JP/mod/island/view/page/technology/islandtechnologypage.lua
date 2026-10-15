@@ -6,7 +6,7 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf
-	slot0.rtTop = slot1:Find("top")
+	slot0.rtTop = slot1:Find("adapt/top")
 	slot2 = slot0.rtTop
 
 	setText(slot2:Find("title/Text"), i18n("island_technology_title"))

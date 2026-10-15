@@ -44,7 +44,7 @@ slot0.init = function(slot0)
 			setActive(slot2:Find("active/active_on"), slot4)
 			setText(slot2:Find("active/Text"), i18n("loveactivity_ui_6"))
 
-			slot5 = not slot4 and uv0.heap:GetLength() > 0 and slot3 == uv0.heap:GetTop().element
+			slot5 = not slot4 and uv0.heap:GetLength() > 0 and table.contains(uv0.heapDic[uv0.heap:GetTop().element], slot3)
 
 			setActive(slot2:Find("icon/tip"), slot5)
 			setButtonEnabled(slot2:Find("icon"), slot5)
@@ -104,6 +104,7 @@ end
 slot0.InitGift = function(slot0)
 	slot0.giftItemList = underscore.to_array(slot0.contextData.items)
 	slot0.giftGroupList = {}
+	slot0.heapDic = {}
 	slot1 = getProxy(LoveLetterProxy):GetLoveLetterItemDic()
 	slot2 = {}
 
@@ -112,28 +113,28 @@ slot0.InitGift = function(slot0)
 
 		assert(tobool(slot9) == (pg.item_data_statistics[slot8].type == Item.LOVE_LETTER_TYPE))
 
-		slot10 = pairs
-		slot11 = slot8
-		slot12 = "_"
-		slot13 = slot9 or 0
+		slot10 = slot8
+		slot11 = "_"
+		slot12 = slot9 or 0
 
-		for slot13, slot14 in slot10(slot1[slot11 .. slot12 .. slot13]) do
-			assert(not slot0.giftGroupList[slot6] or slot0.giftGroupList[slot6] == slot14)
+		for slot14, slot15 in pairs(slot1[slot10 .. slot11 .. slot12]) do
+			assert(not slot0.giftGroupList[slot6] or slot0.giftGroupList[slot6] == slot15)
 
-			slot0.giftGroupList[slot6] = slot14
-			slot2[slot13] = slot2[slot13] or {}
+			slot0.giftGroupList[slot6] = slot15
+			slot0.heapDic[slot6] = slot0.heapDic[slot6] or {}
 
-			table.insert(slot2[slot13], slot6)
+			table.insert(slot0.heapDic[slot6], slot14)
+
+			slot2[slot14] = true
 		end
 	end
 
 	slot0.itemDic = slot1
-	slot0.yearDic = slot2
 	slot0.confirmDic = {}
-	slot0.heap = Heap.New(underscore.keys(slot2), function (slot0)
-		return #uv0[slot0]
+	slot0.heap = Heap.New(underscore.keys(slot0.heapDic), function (slot0)
+		return #uv0.heapDic[slot0]
 	end)
-	slot0.tempList = underscore(slot0.yearDic):chain():keys():sort():value()
+	slot0.tempList = underscore(slot2):chain():keys():sort():value()
 
 	assert(#slot0.giftItemList <= #slot0.tempList)
 end
@@ -141,9 +142,9 @@ end
 slot0.ConfirmItem = function(slot0, slot1, slot2)
 	slot0.confirmDic[slot1] = slot2
 
-	for slot6, slot7 in pairs(slot0.yearDic) do
-		if table.removebyvalue(slot0.yearDic[slot6], slot2) > 0 then
-			slot0.heap:UpdateValue(slot6)
+	for slot6, slot7 in pairs(slot0.heapDic) do
+		if table.removebyvalue(slot7, slot1) > 0 then
+			slot0.heap:UpdateValue(slot1)
 		end
 	end
 end
@@ -151,8 +152,9 @@ end
 slot0.DropHump = function(slot0)
 	while slot0.heap:GetLength() > 0 and slot0.heap:GetTop().value == 1 do
 		slot1, slot2 = slot0.heap:POP()
+		slot0.heapDic[slot1] = nil
 
-		slot0:ConfirmItem(slot1, slot0.yearDic[slot1][1])
+		slot0:ConfirmItem(slot0.heapDic[slot1][1], slot1)
 	end
 end
 
@@ -161,17 +163,27 @@ slot0.UpdateDisplay = function(slot0)
 end
 
 slot0.OpenSelectWindow = function(slot0, slot1)
-	setText(slot0.textSelectTitile, i18n("loveactivity_ui_9", slot1))
+	slot6 = slot1
+
+	setText(slot0.textSelectTitile, i18n("loveactivity_ui_9", slot6))
 	setActive(slot0.rtPanel, false)
 	setActive(slot0.rtSelectWindow, true)
 
-	slot2 = nil
+	slot2 = {}
 
-	UIItemList.StaticAlign(slot0.rtSelectScrollContent, slot0.rtSelectScrollTpl, #slot0.yearDic[slot1], function (slot0, slot1, slot2)
+	for slot6, slot7 in pairs(slot0.heapDic) do
+		if table.contains(slot7, slot1) then
+			table.insert(slot2, slot6)
+		end
+	end
+
+	slot3 = nil
+
+	UIItemList.StaticAlign(slot0.rtSelectScrollContent, slot0.rtSelectScrollTpl, #slot2, function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
-			slot4, slot5 = unpack(uv0.giftItemList[uv0.yearDic[uv1][slot1]])
+			slot4, slot5 = unpack(uv1.giftItemList[uv0[slot1]])
 
 			updateDrop(slot2:Find("mask/IconTpl"), Drop.New({
 				count = 1,
@@ -179,7 +191,7 @@ slot0.OpenSelectWindow = function(slot0, slot1)
 				id = slot4,
 				extra = slot5
 			}))
-			onToggle(uv0, slot2, function (slot0)
+			onToggle(uv1, slot2, function (slot0)
 				if slot0 then
 					uv0 = uv1
 				end
@@ -187,9 +199,9 @@ slot0.OpenSelectWindow = function(slot0, slot1)
 		end
 	end)
 
-	slot4 = slot0.rtSelectScrollContent
+	slot5 = slot0.rtSelectScrollContent
 
-	triggerToggle(slot4:GetChild(0), true)
+	triggerToggle(slot5:GetChild(0), true)
 	onButton(slot0, slot0.btnSelectConfirm, function ()
 		uv0.heap:POP(uv1)
 		uv0:ConfirmItem(uv1, uv2)

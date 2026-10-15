@@ -5,14 +5,14 @@ slot0.getUIName = function(slot0)
 	return "LimitChallengeUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"weaponframes"
 	}
 
-	table.insertto(slot2, slot0:getLimitChallengeResList())
+	table.insertto(slot1, slot0:getLimitChallengeResList())
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.getLimitChallengeResList = function(slot0)

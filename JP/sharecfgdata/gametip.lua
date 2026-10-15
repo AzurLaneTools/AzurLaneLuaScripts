@@ -12940,17 +12940,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「アルヴィト」常設実装！"
+	tip = "「クイーン・アンズ・リベンジ」など常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「Z47」常設実装！"
+	tip = "「ライム」「ファンシー」など常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「U-31」常設実装！"
+	tip = "「アミティ」常設実装！"
 }
 
 
@@ -52341,46 +52341,6 @@ _G.pg.base.gametip.cruise_title_2610 = {
 }
 
 
-_G.pg.base.gametip.dorm3d_yuanchou_table = {
-	tip = "密室"
-}
-
-
-_G.pg.base.gametip.dorm3d_yuanchou_chair = {
-	tip = "リビング"
-}
-
-
-_G.pg.base.gametip.dorm3d_yuanchou_bed = {
-	tip = "寝室"
-}
-
-
-_G.pg.base.gametip.auto_download_tip = {
-	tip = "自動アセットDLが開始しました($1)。データ通信量にご注意ください。\n\nアセットDL進捗は「設定」→「アセット」→「アセット管理」にて確認できます"
-}
-
-
-_G.pg.base.gametip.auto_download_btn = {
-	tip = "設定へ"
-}
-
-
-_G.pg.base.gametip.setting_download_basic_assets = {
-	tip = "基礎アセットDL"
-}
-
-
-_G.pg.base.gametip.setting_restart_download_btn = {
-	tip = "DL再開"
-}
-
-
-_G.pg.base.gametip.loading_flow_tip = {
-	tip = "モバイルデータ通信でアセットのDLを行っています。データ通信量にご注意ください"
-}
-
-
 _G.pg.base.gametip.act_remaster_colllect_progress = {
 	tip = "入手状況"
 }
@@ -52608,6 +52568,136 @@ _G.pg.base.gametip.ActivityRemasterCore_award_preview_other = {
 
 _G.pg.base.gametip.ActivityRemasterCore_award_own_desc = {
 	tip = "入手済み：<color=#39bfff>$1</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_table = {
+	tip = "密室"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_chair = {
+	tip = "リビング"
+}
+
+
+_G.pg.base.gametip.dorm3d_yuanchou_bed = {
+	tip = "寝室"
+}
+
+
+_G.pg.base.gametip.auto_download_tip = {
+	tip = "自動アセットDLが開始しました($1)。データ通信量にご注意ください。\n\nアセットDL進捗は「設定」→「アセット」→「アセット管理」にて確認できます"
+}
+
+
+_G.pg.base.gametip.auto_download_btn = {
+	tip = "設定へ"
+}
+
+
+_G.pg.base.gametip.setting_download_basic_assets = {
+	tip = "基礎アセットDL"
+}
+
+
+_G.pg.base.gametip.setting_restart_download_btn = {
+	tip = "DL再開"
+}
+
+
+_G.pg.base.gametip.loading_flow_tip = {
+	tip = "モバイルデータ通信でアセットのDLを行っています。データ通信量にご注意ください"
+}
+
+
+_G.pg.base.gametip.formation_suggestion = {
+	tip = "編成ガイド"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_tip = {
+	tip = "キャラをタップすると参考用の推奨装備を確認可能。所持艦船の艦種・ステータスを鑑みて、自由に編成や装備を調整してみましょう"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_tip_title = {
+	tip = "推奨編成"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_any_type_ship = {
+	tip = "任意の$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_title = {
+	tip = "育成アドバイス"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_level = {
+	tip = "レベル：Lv.$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_not_get = {
+	tip = "未入手"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_got = {
+	tip = "入手済"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_go_dock = {
+	tip = "ドックへ"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_recommend = {
+	tip = "推奨装備"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_transitional = {
+	tip = "代替装備"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_copy = {
+	tip = "コードコピー"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_tip = {
+	tip = "一部入手難度の高い装備は、下記装備を代用することも可能です"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_back = {
+	tip = "編成ガイドに戻る"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_obtain = {
+	tip = "入手方法：$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_level_recommend = {
+	tip = "推奨レベル：Lv.$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_prev_chapter = {
+	tip = "前の章"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_next_chapter = {
+	tip = "次の章"
 }
 
 

@@ -74,6 +74,8 @@ slot0.timeCall = function(slot0)
 					getProxy(BagProxy):ClearLimitCnt(pg.gameset.urpt_chapter_max.description[1])
 				end
 			end
+
+			pg.m02:sendNotification(GAME.GET_CHARGE_LIST)
 		end
 	}
 end

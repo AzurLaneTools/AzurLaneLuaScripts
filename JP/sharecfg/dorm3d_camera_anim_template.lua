@@ -372,6 +372,12 @@ pg.dorm3d_camera_anim_template.all = {
 	21403,
 	21404,
 	21405,
+	21501,
+	21502,
+	21503,
+	21504,
+	21505,
+	21506,
 	26001,
 	26002,
 	26003,
@@ -901,6 +907,14 @@ pg.dorm3d_camera_anim_template.get_id_list_by_furniture_id = {
 		21403,
 		21404,
 		21405
+	},
+	[2162] = {
+		21501,
+		21502,
+		21503,
+		21504,
+		21505,
+		21506
 	},
 	[2201] = {
 		22101,
@@ -8498,7 +8512,7 @@ end)()
 		ship_group = 79902,
 		furniture_id = 2161,
 		desc = "待機",
-		zone = "21001",
+		zone = "21002",
 		staypoint = "Pos700410",
 		room = 21,
 		enter_extra_item = "",
@@ -8525,7 +8539,7 @@ end)()
 		ship_group = 79902,
 		furniture_id = 2161,
 		desc = "思考",
-		zone = "21001",
+		zone = "21002",
 		staypoint = "Pos700410",
 		room = 21,
 		enter_extra_item = "",
@@ -8552,7 +8566,7 @@ end)()
 		ship_group = 79902,
 		furniture_id = 2161,
 		desc = "待機",
-		zone = "21001",
+		zone = "21002",
 		staypoint = "Pos700410",
 		room = 21,
 		enter_extra_item = "",
@@ -8579,7 +8593,7 @@ end)()
 		ship_group = 79902,
 		furniture_id = 2161,
 		desc = "驚愕",
-		zone = "21001",
+		zone = "21002",
 		staypoint = "Pos700410",
 		room = 21,
 		enter_extra_item = "",
@@ -8606,7 +8620,7 @@ end)()
 		ship_group = 79902,
 		furniture_id = 2161,
 		desc = "喜び",
-		zone = "21001",
+		zone = "21002",
 		staypoint = "Pos700410",
 		room = 21,
 		enter_extra_item = "",
@@ -8621,6 +8635,144 @@ end)()
 			{
 				3005,
 				"vfx_desk02_idle02_fb03"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[21501] = {
+		anim_time = 0,
+		finish_anim = 21501,
+		pre_anim = 0,
+		state = "IK_bed02_idle01",
+		unlock = "",
+		ship_group = 79902,
+		furniture_id = 2162,
+		desc = "立つ",
+		zone = "21001",
+		staypoint = "Pos700510",
+		room = 21,
+		enter_extra_item = "",
+		id = 21501,
+		icon = "camera_action32",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				3006,
+				"IK_bed02_idle01_MW"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[21502] = {
+		anim_time = 24.167,
+		finish_anim = 21501,
+		pre_anim = 21501,
+		state = "IK_bed02_idle01_fb01",
+		unlock = "",
+		ship_group = 79902,
+		furniture_id = 2162,
+		desc = "ストレッチ",
+		zone = "21001",
+		staypoint = "Pos700510",
+		room = 21,
+		enter_extra_item = "",
+		id = 21502,
+		icon = "camera_action25",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				3006,
+				"IK_bed02_idle01_fb01_MW"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[21503] = {
+		anim_time = 0,
+		finish_anim = 21503,
+		pre_anim = 0,
+		state = "IK_bed02_idle02",
+		unlock = "",
+		ship_group = 79902,
+		furniture_id = 2162,
+		desc = "立つ",
+		zone = "21001",
+		staypoint = "Pos700510",
+		room = 21,
+		enter_extra_item = "",
+		id = 21503,
+		icon = "camera_action3",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				3006,
+				"IK_bed02_idle02_MW"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[21504] = {
+		anim_time = 16.867,
+		finish_anim = 21503,
+		pre_anim = 21503,
+		state = "IK_bed02_idle02_fb01",
+		unlock = "",
+		ship_group = 79902,
+		furniture_id = 2162,
+		desc = "ストレッチ",
+		zone = "21001",
+		staypoint = "Pos700510",
+		room = 21,
+		enter_extra_item = "",
+		id = 21504,
+		icon = "camera_action1",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				3006,
+				"IK_bed02_idle02_fb01_MW"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[21505] = {
+		anim_time = 17.7,
+		finish_anim = 21503,
+		pre_anim = 21503,
+		state = "IK_bed02_idle02_fb02",
+		unlock = "",
+		ship_group = 79902,
+		furniture_id = 2162,
+		desc = "誇らしげ",
+		zone = "21001",
+		staypoint = "Pos700510",
+		room = 21,
+		enter_extra_item = "",
+		id = 21505,
+		icon = "camera_action14",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				3006,
+				"IK_bed02_idle02_fb02_MW"
+			}
+		}
+	}
+	pg.base.dorm3d_camera_anim_template[21506] = {
+		anim_time = 14.767,
+		finish_anim = 21503,
+		pre_anim = 21503,
+		state = "IK_bed02_idle02_fb03",
+		unlock = "",
+		ship_group = 79902,
+		furniture_id = 2162,
+		desc = "のんびり",
+		zone = "21001",
+		staypoint = "Pos700510",
+		room = 21,
+		enter_extra_item = "",
+		id = 21506,
+		icon = "camera_action6",
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				3006,
+				"IK_bed02_idle02_fb03_MW"
 			}
 		}
 	}
@@ -9074,6 +9226,8 @@ end)()
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
+end)()
+(function ()
 	pg.base.dorm3d_camera_anim_template[22101] = {
 		anim_time = 0,
 		finish_anim = 22101,
@@ -9182,8 +9336,6 @@ end)()
 		hide_scene_item = "",
 		enter_scene_anim = ""
 	}
-end)()
-(function ()
 	pg.base.dorm3d_camera_anim_template[22203] = {
 		anim_time = 14.333,
 		finish_anim = 22201,

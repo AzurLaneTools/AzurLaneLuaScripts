@@ -8,13 +8,13 @@ slot0.getUIName = function(slot0)
 	return "FriendUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/friendsui_atlas"
 	}
-	slot3 = {}
+	slot2 = {}
 
-	slot4 = function(slot0)
+	slot3 = function(slot0)
 		if not slot0 then
 			return
 		end
@@ -31,28 +31,28 @@ slot0.getResource = function(slot0, slot1)
 		end
 	end
 
-	slot5 = ipairs
-	slot6 = getProxy(FriendProxy):getAllFriends() or {}
+	slot4 = ipairs
+	slot5 = getProxy(FriendProxy):getAllFriends() or {}
 
-	for slot8, slot9 in slot5(slot6) do
-		slot4(slot9)
+	for slot7, slot8 in slot4(slot5) do
+		slot3(slot8)
 	end
 
-	slot5 = ipairs
-	slot6 = getProxy(NotificationProxy):getRequests() or {}
+	slot4 = ipairs
+	slot5 = getProxy(NotificationProxy):getRequests() or {}
 
-	for slot8, slot9 in slot5(slot6) do
-		slot4(slot9.player)
+	for slot7, slot8 in slot4(slot5) do
+		slot3(slot8.player)
 	end
 
-	slot5 = pairs
-	slot6 = getProxy(FriendProxy):getBlackList() or {}
+	slot4 = pairs
+	slot5 = getProxy(FriendProxy):getBlackList() or {}
 
-	for slot8, slot9 in slot5(slot6) do
-		slot4(slot9)
+	for slot7, slot8 in slot4(slot5) do
+		slot3(slot8)
 	end
 
-	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), slot2, slot3))
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), slot1, slot2))
 end
 
 slot0.setFriendVOs = function(slot0, slot1)

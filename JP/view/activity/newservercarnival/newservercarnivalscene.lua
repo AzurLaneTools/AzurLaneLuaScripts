@@ -7,50 +7,50 @@ slot0.getUIName = function(slot0)
 	return "NewServerCarnivalUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/newservershopui_atlas",
 		"ui/iconcolorful",
 		"weaponframes",
 		"chargeicon/1"
 	}
-	slot3 = {}
+	slot2 = {}
 
-	slot4 = function(slot0)
+	slot3 = function(slot0)
 		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
 			table.insert(uv0, slot0)
 		end
 	end
 
 	if pg.newserver_shop_template then
-		slot6 = ipairs
-		slot7 = slot5.all or {}
+		slot5 = ipairs
+		slot6 = slot4.all or {}
 
-		for slot9, slot10 in slot6(slot7) do
-			if slot5[slot10] then
-				slot4(slot11.goods_icon)
+		for slot8, slot9 in slot5(slot6) do
+			if slot4[slot9] then
+				slot3(slot10.goods_icon)
 
-				if slot11.resource_category and slot11.resource_type then
-					slot4(Drop.New({
-						type = slot11.resource_category,
-						id = slot11.resource_type
+				if slot10.resource_category and slot10.resource_type then
+					slot3(Drop.New({
+						type = slot10.resource_category,
+						id = slot10.resource_type
 					}):getIcon())
 				end
 
-				slot4("chargeicon/" .. (slot11.picture or ""))
+				slot3("chargeicon/" .. (slot10.picture or ""))
 			end
 		end
 	end
 
-	for slot9, slot10 in ipairs(slot3) do
-		if not table.contains(slot2, slot10) then
-			table.insert(slot2, slot10)
+	for slot8, slot9 in ipairs(slot2) do
+		if not table.contains(slot1, slot9) then
+			table.insert(slot1, slot9)
 		end
 	end
 
-	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	table.insertto(slot1, uv0.super.getResource(slot0))
 
-	return slot2
+	return slot1
 end
 
 slot0.preload = function(slot0, slot1)

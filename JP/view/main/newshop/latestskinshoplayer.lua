@@ -52,10 +52,131 @@ slot0.getGroupName = function(slot0)
 	return "NewShopMainScene"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot3 = pg.ship_skin_template
+slot20 = function(slot0, slot1)
+	slot2 = {}
 
-	slot4 = function(slot0)
+	if slot0 == ShopConst.NEW_SKIN_SHOP_ID then
+		slot2 = getProxy(ShipSkinProxy):GetInTimeSkins()
+	elseif slot0 == ShopConst.PERMANANT_SKIN_SHOP_ID then
+		slot2 = getProxy(ShipSkinProxy):GetPermanentSkins()
+	else
+		slot3 = pg.shop_skin_subsheet[slot0]
+
+		for slot7, slot8 in ipairs(getProxy(ShipSkinProxy):GetAllSkins()) do
+			if slot3 and table.keyof(slot3.param, slot8.id) then
+				table.insert(slot2, slot8)
+			end
+		end
+	end
+
+	if LOCK_SKIN_US then
+		slot4 = pg.gameset.levellimit_skintype.description
+
+		if getProxy(PlayerProxy):getData().level <= pg.gameset.levellimit_skintype.key_value then
+			slot2 = _.filter(slot2, function (slot0)
+				return table.contains(uv0, pg.ship_skin_template[slot0:getSkinId()].shop_type_id)
+			end)
+		end
+	end
+
+	if slot1 == uv0.MODE_OVERVIEW then
+		for slot6 = #slot2, 1, -1 do
+			if slot2[slot6]:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
+				table.remove(slot2, slot6)
+			end
+		end
+	end
+
+	return slot2
+end
+
+slot21 = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0) do
+		if pg.ship_skin_template[slot6:getSkinId()] then
+			table.insertto(slot1, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot7.prefab))
+			table.insertto(slot1, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot7.painting))
+		end
+
+		if slot6.type == Goods.TYPE_SKIN and Item.getConfigData(id2ItemId(slot6:getConfig("resource_type"))) and slot9.icon then
+			table.insert(slot1, slot9.icon)
+		end
+	end
+
+	return slot1
+end
+
+slot22 = function(slot0)
+	slot1 = {
+		slot0
+	}
+
+	if not ShipSkin.IsChangeSkin(slot0) then
+		return slot1
+	end
+
+	slot2 = {
+		[slot0] = true
+	}
+	slot3 = slot0
+
+	for slot7 = 1, 10 do
+		if not ShipSkin.GetChangeSkinData(slot3) or not slot8.next or slot2[slot9] or not pg.ship_skin_template[slot9] then
+			break
+		end
+
+		slot2[slot9] = true
+
+		table.insert(slot1, slot9)
+
+		slot3 = slot9
+	end
+
+	return slot1
+end
+
+slot23 = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(uv0(slot0)) do
+		if pg.ship_skin_template[slot6] then
+			if slot7.skin_type ~= ShipSkin.SKIN_TYPE_TB then
+				table.insertto(slot1, ResPathSupport.GetSpineCharListByPrefabName(slot7.prefab))
+				table.insertto(slot1, ResPathSupport.GetSpineQIconListByPrefabName(slot7.painting))
+			end
+
+			table.insertto(slot1, ResPathSupport.GetPaintingListByPaintingName(slot7.painting))
+
+			if slot7.painting and #slot7.painting > 0 then
+				for slot11, slot12 in ipairs({
+					"_shop",
+					"_n_shop"
+				}) do
+					table.insert(slot1, string.lower(string.format(ResPathSupport.ConstPath.Painting.Base, slot7.painting, slot12)))
+				end
+			end
+
+			table.insertto(slot1, ResPathSupport.GetShipSkinPaintingFaceList(slot6))
+			table.insertto(slot1, ResPathSupport.GetShipSkinBgList(slot6))
+
+			if slot7.ship_group and slot7.skin_type ~= ShipSkin.SKIN_TYPE_TB and ShipGroup.getDefaultShipConfig(slot7.ship_group) and pg.ship_data_statistics[slot8.id] then
+				table.insertto(slot1, ResPathSupport.GetShipRarityBgList(slot8.id))
+			end
+
+			if PaintingGroupConst.IsPaintingNeedCheck() and slot7.painting and #slot7.painting > 0 then
+				PaintingGroupConst.AddPaintingNameWithFilteMap(slot1, slot7.painting)
+			end
+		end
+	end
+
+	return ResPathSupport.UniqueLuaArr(slot1)
+end
+
+slot0.getResource = function(slot0)
+	slot2 = slot0.contextData
+
+	slot3 = function(slot0)
 		slot1 = Goods.Create({
 			shop_id = slot0
 		}, Goods.TYPE_CHARGE)
@@ -65,33 +186,11 @@ slot0.getResource = function(slot0, slot1)
 		return slot1
 	end
 
-	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv1.super.getResource(slot0), {
 		"ui/LatestSkinShopUI",
 		"ui/SkinShopUI_atlas",
 		"skinicon"
-	}, (function (slot0)
-		slot1 = {}
-
-		for slot5, slot6 in ipairs(slot0) do
-			slot7 = slot6:getSkinId()
-			slot8 = uv0[slot7]
-
-			table.insertto(slot1, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot8.prefab))
-			table.insertto(slot1, ResPathSupport.GetSpineQIconListByPrefabName(slot8.painting))
-			table.insertto(slot1, ResPathSupport.GetSpineCharListByPrefabName(slot8.prefab))
-			table.insertto(slot1, ResPathSupport.GetShopPaintingListByPaintingName(slot8.painting))
-			PaintingGroupConst.AddPaintingNameBySkinID(slot1, slot7)
-			table.insertto(slot1, ResPathSupport.GetShipSkinLive2DList(slot7))
-			table.insertto(slot1, ResPathSupport.GetShipSkinSpinePaintingList(slot7))
-			table.insertto(slot1, ResPathSupport.GetShipSkinBgList(slot7))
-
-			if slot6.type == Goods.TYPE_SKIN then
-				table.insert(slot1, Item.getConfigData(id2ItemId(slot6:getConfig("resource_type"))).icon)
-			end
-		end
-
-		return slot1
-	end)((function ()
+	}, uv2((function ()
 		if uv0.skinCommodities then
 			return uv0.skinCommodities
 		end
@@ -100,34 +199,7 @@ slot0.getResource = function(slot0, slot1)
 			return getProxy(ShipSkinProxy):GetProbabilitySkins((uv0.giftPackCommodity or uv1(uv0.commodityId)):GetSkinProbability())
 		end
 
-		slot1 = uv0.mode or uv2.MODE_OVERVIEW
-		slot2 = {}
-
-		if (uv0.type or uv2.TYPE_PERMANANT_SKIN) == uv2.TYPE_NEW_SKIN then
-			slot2 = getProxy(ShipSkinProxy):GetInTimeSkins()
-		elseif slot0 == uv2.TYPE_PERMANANT_SKIN then
-			slot2 = getProxy(ShipSkinProxy):GetPermanentSkins()
-		end
-
-		if LOCK_SKIN_US then
-			slot4 = pg.gameset.levellimit_skintype.description
-
-			if getProxy(PlayerProxy):getData().level <= pg.gameset.levellimit_skintype.key_value then
-				slot2 = _.filter(slot2, function (slot0)
-					return table.contains(uv1, uv0[slot0:getSkinId()].shop_type_id)
-				end)
-			end
-		end
-
-		if slot1 == uv2.MODE_OVERVIEW then
-			for slot6 = #slot2, 1, -1 do
-				if slot2[slot6]:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
-					table.remove(slot2, slot6)
-				end
-			end
-		end
-
-		return slot2
+		return uv2(uv0.type or ShopConst.PERMANANT_SKIN_SHOP_ID, uv0.mode or uv3.MODE_OVERVIEW)
 	end)())))
 end
 
@@ -402,37 +474,7 @@ slot0.InitData = function(slot0)
 end
 
 slot0.GetAllCommodities = function(slot0)
-	if slot0.type == ShopConst.NEW_SKIN_SHOP_ID then
-		slot0.commodities = getProxy(ShipSkinProxy):GetInTimeSkins()
-	elseif slot0.type == ShopConst.PERMANANT_SKIN_SHOP_ID then
-		slot0.commodities = getProxy(ShipSkinProxy):GetPermanentSkins()
-	else
-		slot0.commodities = {}
-
-		for slot5, slot6 in ipairs(getProxy(ShipSkinProxy):GetAllSkins()) do
-			if table.keyof(pg.shop_skin_subsheet[slot0.type].param, slot6.id) then
-				table.insert(slot0.commodities, slot6)
-			end
-		end
-	end
-
-	if LOCK_SKIN_US then
-		slot2 = pg.gameset.levellimit_skintype.description
-
-		if getProxy(PlayerProxy):getData().level <= pg.gameset.levellimit_skintype.key_value then
-			slot0.commodities = _.filter(slot0.commodities, function (slot0)
-				return table.contains(uv0, pg.ship_skin_template[slot0:getSkinId()].shop_type_id)
-			end)
-		end
-	end
-
-	if slot0.mode == uv0.MODE_OVERVIEW then
-		for slot4 = #slot0.commodities, 1, -1 do
-			if slot0.commodities[slot4]:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
-				table.remove(slot0.commodities, slot4)
-			end
-		end
-	end
+	slot0.commodities = uv0(slot0.type, slot0.mode)
 end
 
 slot0.GetGiftPackCommodities = function(slot0)
@@ -529,7 +571,7 @@ slot0.IsSearchType = function(slot0, slot1, slot2)
 	}):IsMatchKey(slot1)
 end
 
-slot20 = function(slot0, slot1, slot2)
+slot24 = function(slot0, slot1, slot2)
 	if slot2[slot0.id] == slot2[slot1.id] then
 		return slot0.id < slot1.id
 	else
@@ -873,6 +915,19 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 end
 
 slot0.UpdateMainView = function(slot0, slot1)
+	slot0.mainViewToken = (slot0.mainViewToken or 0) + 1
+	slot2 = slot0.mainViewToken
+
+	SplitPackConst.DownloadByLuaArr(uv0(slot1:getSkinId()), function ()
+		if uv0.exited or uv1 ~= uv0.mainViewToken then
+			return
+		end
+
+		uv0:RefreshMainView(uv2)
+	end)
+end
+
+slot0.RefreshMainView = function(slot0, slot1)
 	slot0.skinId = slot1:getSkinId()
 	slot2 = ShipSkin.IsChangeSkin(slot0.skinId)
 
@@ -1661,7 +1716,7 @@ slot0.UpdateFurniturePrice = function(slot0, slot1)
 	setActive(slot0.price:Find("normal/consume/originalprice"), slot4 ~= slot5)
 end
 
-slot21 = function(slot0, slot1)
+slot25 = function(slot0, slot1)
 	if slot0 == uv0 or slot0 == uv1 or slot0 == uv2 then
 		return false
 	end

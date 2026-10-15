@@ -128523,3 +128523,55 @@ _G.pg.base.item_data_statistics[99984] = {
 	},
 	limit = {}
 }
+
+
+_G.pg.base.item_data_statistics[99985] = {
+	open_directly = 1,
+	name = "セイレーン作戦報酬補填",
+	type = 17,
+	display = "2026年9月の「セイレーン作戦」において「作戦委任」機能において一部の報酬が正常に入手できなかった不具合に対する補填アイテム。特別交換トークン・海域座標・セイレーン座標のいずれかがランダムで入手できます。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "7900",
+	id = 99985,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			12,
+			101,
+			10
+		},
+		{
+			12,
+			2100001,
+			1
+		},
+		{
+			12,
+			2100002,
+			1
+		},
+		{
+			12,
+			2100003,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}

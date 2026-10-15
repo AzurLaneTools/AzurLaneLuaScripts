@@ -434,3 +434,33 @@ temp = function()
 end
 
 temp()
+
+temp = function()
+	uv0["藤"] = {
+		["波"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["木"] = {
+		["津"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["安"] = {
+		["土"] = {
+			this = true
+		}
+	}
+end
+
+temp()

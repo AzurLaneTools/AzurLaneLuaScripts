@@ -25,7 +25,7 @@ return {
 				dir = 1,
 				posX = -370,
 				trigger = {
-					path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/btnPlay"
+					path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/adapt/btnPlay"
 				},
 				uiset = {
 					{
@@ -34,7 +34,7 @@ return {
 					},
 					{
 						lineMode = 1,
-						path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/btnPlay"
+						path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/adapt/btnPlay"
 					}
 				}
 			}

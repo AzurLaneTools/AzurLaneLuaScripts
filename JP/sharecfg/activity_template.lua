@@ -899,6 +899,12 @@ pg.activity_template.all = {
 	6041,
 	50521,
 	50522,
+	51201,
+	51202,
+	51203,
+	51204,
+	51205,
+	51206,
 	50801,
 	50803,
 	50804,
@@ -2058,6 +2064,8 @@ pg.activity_template.get_id_list_by_type = {
 		6025,
 		6028,
 		6037,
+		51202,
+		51206,
 		50805,
 		50817,
 		50826,
@@ -2239,6 +2247,7 @@ pg.activity_template.get_id_list_by_type = {
 		5964,
 		5967,
 		6035,
+		51205,
 		50807,
 		50829,
 		50611,
@@ -2480,6 +2489,8 @@ pg.activity_template.get_id_list_by_type = {
 		6020,
 		6021,
 		6023,
+		51201,
+		51204,
 		50846,
 		50610,
 		50630,
@@ -3040,6 +3051,7 @@ pg.activity_template.get_id_list_by_type = {
 		6022,
 		6026,
 		6031,
+		51203,
 		50806,
 		50821,
 		50833,
@@ -33270,6 +33282,380 @@ end)()
 			mediator = "BossRushAlvitMediator"
 		}
 	}
+	pg.base.activity_template[51201] = {
+		mark = 20261015,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 1,
+		title_res_tag = "WindFogCorridorCoreActivityUI_subtitle_1",
+		id = 51201,
+		page_core = "WindFogCorridorCoreActivityUI",
+		config_data = {
+			{
+				27801,
+				27802,
+				27803,
+				27804,
+				27805,
+				27806,
+				27807,
+				27808,
+				27809,
+				27810,
+				27811,
+				27812,
+				27813,
+				27814,
+				27816
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "WindFogCorridorSkinPage",
+			ui_name = "WindFogCorridorSkinPage"
+		},
+		config_client = {
+			subType = 1,
+			once_task = 27816,
+			sub_act_id = 51203,
+			ptActId = 51203,
+			daily_task = 27815,
+			unlock_task = {
+				{
+					27801,
+					27802
+				},
+				{
+					27803,
+					27804
+				},
+				{
+					27805,
+					27806
+				},
+				{
+					27807,
+					27808
+				},
+				{
+					27809,
+					27810
+				},
+				{
+					27811,
+					27812
+				},
+				{
+					27813,
+					27814
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51202] = {
+		mark = 20261015,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51202,
+		page_core = "",
+		config_data = {
+			27815
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51203] = {
+		mark = 20261015,
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 51203,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51203,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51204] = {
+		mark = 20261015,
+		type = 18,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 1,
+		title_res_tag = "niconico_subtitle",
+		id = 51204,
+		page_core = "",
+		config_data = {
+			{
+				27788,
+				27789
+			},
+			{
+				27790,
+				27791
+			},
+			{
+				27792,
+				27793
+			},
+			{
+				27794
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					22
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "NicoMainPage",
+			ui_name = "NicoMainPage"
+		},
+		config_client = {
+			shopLinkActID = 51205,
+			taskLinkActID = 51206,
+			story = {
+				{
+					"NICONICO1",
+					"NICONICO2"
+				},
+				{
+					"NICONICO3",
+					"NICONICO4"
+				},
+				{
+					"NICONICO5",
+					"NICONICO6"
+				},
+				{
+					"NICONICO7"
+				}
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.activity_template[51205] = {
+		mark = 20261015,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51205,
+		page_core = "",
+		config_data = {
+			4211,
+			4212,
+			4213,
+			4214,
+			4215,
+			4216,
+			4217,
+			4218,
+			4219,
+			4220,
+			4221,
+			4222,
+			4223,
+			4224,
+			4225
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_helanSP",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 778,
+			use_secretary = false,
+			painting = "lingbo_3_pt"
+		}
+	}
+	pg.base.activity_template[51206] = {
+		mark = 20261015,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51206,
+		page_core = "",
+		config_data = {
+			27795,
+			27796,
+			27797,
+			27798,
+			27799,
+			27800
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					22
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	}
 	pg.base.activity_template[50801] = {
 		mark = 20260423,
 		page_info = "",
@@ -33493,8 +33879,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50806] = {
 		mark = 20260423,
 		type = 74,
@@ -38604,6 +38988,8 @@ end)()
 			ui_name = "LuminousFramePage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[51041] = {
 		mark = 20260618,
 		type = 18,
@@ -38903,8 +39289,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[51047] = {
 		mark = 20260618,
 		page_info = "",
@@ -43720,6 +44104,8 @@ end)()
 			ui_name = "CrusingDisplayActPage23"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7024] = {
 		mark = 20250724,
 		type = 54,
@@ -44038,8 +44424,6 @@ end)()
 			ui_name = "CrusingDisplayActPage29"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7030] = {
 		mark = 20260730,
 		type = 54,
@@ -48579,6 +48963,8 @@ end)()
 			task_id = 21818
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50083] = {
 		mark = 20250814,
 		time = "stop",
@@ -48767,8 +49153,6 @@ end)()
 			painting = "dadan_pt"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50089] = {
 		mark = 20250814,
 		page_info = "",
@@ -52142,6 +52526,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50230] = {
 		mark = 20251113,
 		type = 87,
@@ -52366,8 +52752,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50236] = {
 		mark = 20251113,
 		page_info = "",
@@ -56562,6 +56946,8 @@ end)()
 			ui_name = "OtherWorldLoginRePage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[50384] = {
 		mark = 20260205,
 		page_info = "",
@@ -56828,8 +57214,6 @@ end)()
 			535
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[50404] = {
 		mark = 20260212,
 		type = 13,
@@ -61181,6 +61565,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990019] = {
 		mark = 20260507,
 		page_info = "",
@@ -61457,8 +61843,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990025] = {
 		mark = 20260806,
 		page_info = "",
@@ -64459,6 +64843,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1000124] = {
 		mark = 20261008,
 		page_info = "",
@@ -64681,8 +65067,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[1000130] = {
 		mark = 20261008,
 		page_info = "",

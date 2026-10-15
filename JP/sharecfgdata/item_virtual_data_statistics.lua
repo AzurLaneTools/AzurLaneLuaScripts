@@ -192295,6 +192295,33 @@ _G.pg.base.item_virtual_data_statistics[68710] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[68754] = {
+	drop_gold_max = 0,
+	name = "ムチメイドのご褒美",
+	display = "指揮官はこういうご褒美が好きかしら？「ムチメイドは甘やかしたがり」のイベントPt、一定数獲得するときせかえを獲得可能",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/aerjiliya_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 68754,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68712] = {
 	drop_gold_max = 0,
 	name = "作戦全権委任状（セイレーン作戦）",
@@ -192344,6 +192371,33 @@ _G.pg.base.item_virtual_data_statistics[68755] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 68755,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68756] = {
+	drop_gold_max = 0,
+	name = "ニココイン",
+	display = "ニココイン",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/battery",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 68756,
 	display_icon = {},
 	price = {},
 	index = {},

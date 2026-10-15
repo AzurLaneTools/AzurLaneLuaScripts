@@ -4,8 +4,8 @@ slot0.getUIName = function(slot0)
 	return "LevelRemasterView"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot3 = function(slot0, slot1)
+slot0.getResource = function(slot0)
+	slot2 = function(slot0, slot1)
 		if noEmptyStr(Drop.New({
 			type = slot0,
 			id = slot1
@@ -14,7 +14,7 @@ slot0.getResource = function(slot0, slot1)
 		end
 	end
 
-	slot4 = function(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		if slot0 ~= DROP_TYPE_SHIP then
 			return
 		end
@@ -22,7 +22,7 @@ slot0.getResource = function(slot0, slot1)
 		table.insertto(uv0, ResPathSupport.GetPaintingSquareIconListByPaintingName(Ship.getPaintingName(slot1)))
 	end
 
-	slot5 = function(slot0)
+	slot4 = function(slot0)
 		if slot0 == nil then
 			return
 		end
@@ -30,7 +30,7 @@ slot0.getResource = function(slot0, slot1)
 		table.insert(uv0, ResPathSupport.ConstPath.LevelMap .. "/" .. slot0)
 	end
 
-	slot6 = function(slot0)
+	slot5 = function(slot0)
 		if slot0 == nil then
 			return
 		end
@@ -69,7 +69,7 @@ slot0.getResource = function(slot0, slot1)
 		end)
 	end)
 
-	return ResPathSupport.UniqueLuaArr(table.insertto({}, uv0.super.getResource(slot0, slot1)))
+	return ResPathSupport.UniqueLuaArr(table.insertto({}, uv0.super.getResource(slot0)))
 end
 
 slot0.OnInit = function(slot0)

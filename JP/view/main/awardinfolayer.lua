@@ -11,14 +11,14 @@ slot1 = 0.15
 slot2 = 340
 slot3 = 564
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/item_duang5"
 	}
 
-	table.insertto(slot2, uv0.super.getResource(slot0))
+	table.insertto(slot1, uv0.super.getResource(slot0))
 
-	return slot2
+	return slot1
 end
 
 slot0.getUIName = function(slot0)

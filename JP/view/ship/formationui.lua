@@ -31,13 +31,13 @@ slot0.preloadUIList = function(slot0)
 	}
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	return table.insertto({
 		"shiptype",
 		"energy",
 		"shipframeb",
 		"ui/proposeshipcard"
-	}, uv0.super.getResource(slot0, slot1))
+	}, uv0.super.getResource(slot0))
 end
 
 slot0.getFleetShipResList = function(slot0, slot1)
@@ -185,6 +185,10 @@ slot0.init = function(slot0)
 	setText(slot0._adapt:Find("gear_score/main/line/Image/text1"), i18n("pre_combat_main"))
 	setText(slot0._adapt:Find("gear_score/vanguard/line/Image/text1"), i18n("pre_combat_vanguard"))
 	setText(slot0._adapt:Find("gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
+
+	slot0.uiSuggestionBtn = slot0._tf:Find("blur_panel/suggestionBtn")
+
+	setText(slot0.uiSuggestionBtn:Find("Text"), i18n("formation_suggestion"))
 end
 
 slot0.setShips = function(slot0, slot1)
@@ -475,6 +479,10 @@ slot0.didEnter = function(slot0)
 			helps = pg.gametip.fleet_antisub_range_tip.tip
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot0.uiSuggestionBtn, function ()
+		uv0:emit(BaseUI.ON_GO_SCENE, SCENE.FORMATION_SUGGESTION)
+	end, SFX_PANEL)
+	setActive(slot0.uiSuggestionBtn, LevelTools.HasUnlockSuggestionMap())
 end
 
 slot0.SetCurrentFleetID = function(slot0, slot1)

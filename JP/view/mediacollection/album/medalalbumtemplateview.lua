@@ -35,43 +35,43 @@ slot0.GetHelpTips = function(slot0)
 	return slot4
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {}
+slot0.getResource = function(slot0)
+	slot1 = {}
 
-	if slot0.GROUP_ID and pg.activity_medal_group[slot3] and slot4.item_show then
-		slot5 = {}
+	if slot0.GROUP_ID and pg.activity_medal_group[slot2] and slot3.item_show then
+		slot4 = {}
 
-		slot6 = function(slot0)
+		slot5 = function(slot0)
 			if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
 				table.insert(uv0, slot0)
 			end
 		end
 
-		for slot10, slot11 in ipairs(slot4.item_show) do
-			if slot11 and #slot11 > 0 then
-				slot12 = Drop.New({
-					type = slot11[1],
-					id = slot11[2],
-					count = slot11[3] or 1
+		for slot9, slot10 in ipairs(slot3.item_show) do
+			if slot10 and #slot10 > 0 then
+				slot11 = Drop.New({
+					type = slot10[1],
+					id = slot10[2],
+					count = slot10[3] or 1
 				})
-				slot13 = slot12:getIcon()
+				slot12 = slot11:getIcon()
 
-				if slot12.type == DROP_TYPE_FURNITURE then
-					slot13 = "furnitureicon/" .. slot13
+				if slot11.type == DROP_TYPE_FURNITURE then
+					slot12 = "furnitureicon/" .. slot12
 				end
 
-				slot6(slot13)
+				slot5(slot12)
 			end
 		end
 
-		for slot10, slot11 in ipairs(slot5) do
-			table.insert(slot2, slot11)
+		for slot9, slot10 in ipairs(slot4) do
+			table.insert(slot1, slot10)
 		end
 	end
 
-	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	table.insertto(slot1, uv0.super.getResource(slot0))
 
-	return slot2
+	return slot1
 end
 
 slot0.SetMedalGroupData = function(slot0, slot1)

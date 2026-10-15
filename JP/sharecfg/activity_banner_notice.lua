@@ -51,7 +51,8 @@ pg.activity_banner_notice.all = {
 	46,
 	47,
 	48,
-	49
+	49,
+	50
 }
 pg.base = pg.base or {}
 pg.base.activity_banner_notice = {}
@@ -470,6 +471,15 @@ pg.base.activity_banner_notice = {}
 		id = 49,
 		param = {
 			"act boss battle"
+		}
+	}
+	pg.base.activity_banner_notice[50] = {
+		id = 50,
+		param = {
+			"scene core activity",
+			{
+				coreName = "WindFogCorridorCoreActivityUI"
+			}
 		}
 	}
 end)()

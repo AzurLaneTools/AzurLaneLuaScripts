@@ -9,7 +9,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	setText(slot0._tf:Find("top/title/Text"), i18n("island_post_manage"))
+	setText(slot0._tf:Find("Adapt/top/title/Text"), i18n("island_post_manage"))
 
 	slot1 = slot0._tf:Find("Adapt/pages")
 	slot0.pages = {
@@ -64,16 +64,16 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.bookBtn, function ()
 		uv0:OpenPage(IslandSetMealHandbookPage)
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("top/title/help"), function ()
+	onButton(slot0, slot0._tf:Find("Adapt/top/title/help"), function ()
 		uv0:ShowMsgBox({
 			type = IslandMsgBox.TYPE_WHITOUT_BTN,
 			content = i18n("island_helpbtn_commission")
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("top/back"), function ()
+	onButton(slot0, slot0._tf:Find("Adapt/top/back"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("top/home"), function ()
+	onButton(slot0, slot0._tf:Find("Adapt/top/home"), function ()
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf:Find("Adapt/signInBtn"), function ()

@@ -50,8 +50,8 @@ slot1 = {
 	}
 }
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/taskui_atlas",
 		"ui/iconcolorful",
 		"ui/TaskEmptyListUI",
@@ -60,9 +60,9 @@ slot0.getResource = function(slot0, slot1)
 		"ui/ActivitybonusWindow"
 	}
 
-	table.insertto(slot2, slot0:GetTaskResourceList())
+	table.insertto(slot1, slot0:GetTaskResourceList())
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.GetTaskResourceList = function(slot0)
