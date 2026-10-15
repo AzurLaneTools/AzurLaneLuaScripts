@@ -87,8 +87,8 @@ slot0.getUIName = function(slot0)
 	return "CollectionUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+slot0.getResource = function(slot0)
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), {
 		"ui/collectionui",
 		"ui/share/index_atlas"
 	}, (function ()
@@ -172,32 +172,6 @@ slot0.getResource = function(slot0, slot1)
 
 			for slot11, slot12 in slot8(slot9) do
 				slot1(slot12)
-			end
-		end
-
-		return slot0
-	end)(), (function ()
-		slot0 = {}
-
-		for slot4, slot5 in ipairs(pg.cartoon.all) do
-			if MangaConst.GetMangaPicPathByID(slot5) then
-				table.insert(slot0, slot6)
-			end
-		end
-
-		return slot0
-	end)(), (function ()
-		slot0 = {}
-
-		for slot4, slot5 in ipairs(pg.gallery_config.all) do
-			slot7 = GalleryConst.GetGalleryPreviewPicPathByID(slot5)
-
-			if GalleryConst.GetGalleryPicPathByID(slot5) then
-				table.insert(slot0, slot6)
-			end
-
-			if slot7 then
-				table.insert(slot0, slot7)
 			end
 		end
 
@@ -290,14 +264,21 @@ slot0.init = function(slot0)
 		slot0.cardToggleGroup:Find("meta")
 	}
 	slot0.cardList.decelerationRate = 0.07
+	slot1 = slot0.cardContent:GetComponentInChildren(typeof(GridLayoutGroup))
+	slot5 = tf(slot0.cardList).rect.width - slot1.padding.left - slot1.padding.right
+
+	if slot1.cellSize.x + slot1.spacing.x > 0 then
+		slot1.constraintCount = math.max(6, math.floor((slot5 + slot4) / slot6))
+	end
+
 	slot0.bonusPanel = slot0._tf:Find("bonus_panel")
 	slot0.charTpl = slot0:getTpl("chartpl")
 	slot0.tip = slot0.toggles[2]:Find("tip")
 	slot0.favoriteVOs = {}
 
-	for slot5, slot6 in ipairs(pg.storeup_data_template.all) do
+	for slot11, slot12 in ipairs(pg.storeup_data_template.all) do
 		table.insert(slot0.favoriteVOs, Favorite.New({
-			id = slot5
+			id = slot11
 		}))
 	end
 
@@ -327,8 +308,8 @@ slot0.init = function(slot0)
 	setActive(tf(slot0.memoryList):Find("memory"), false)
 	setActive(slot0.memoryMask, false)
 
-	slot3 = slot0.top
-	slot0.memoryTogGroup = slot3:Find("memory")
+	slot9 = slot0.top
+	slot0.memoryTogGroup = slot9:Find("memory")
 
 	setActive(slot0.memoryTogGroup, false)
 

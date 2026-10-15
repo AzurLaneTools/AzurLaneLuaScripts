@@ -12577,17 +12577,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "亚尔薇特 建造追加！"
+	tip = "安妮女王复仇号、冈依沙瓦号 等角色 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:494} 建造追加！"
+	tip = "莱姆号、幻想号 等角色 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "{namecode:536} 建造追加！"
+	tip = "和睦号 建造追加！"
 }
 
 
@@ -52139,6 +52139,96 @@ _G.pg.base.gametip.setting_restart_download_btn = {
 
 _G.pg.base.gametip.loading_flow_tip = {
 	tip = "正在使用移动数据下载资源，请注意流量消耗 "
+}
+
+
+_G.pg.base.gametip.formation_suggestion = {
+	tip = "编队指引"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_tip = {
+	tip = "点击角色可查看推荐配装。编队仅供参考，指挥官可根据已获取舰船类型及参数，自行调整阵容与装备"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_tip_title = {
+	tip = "推荐编队"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_any_type_ship = {
+	tip = "任意$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_title = {
+	tip = "养成建议"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_level = {
+	tip = "等级：Lv.$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_not_get = {
+	tip = "未获取"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_got = {
+	tip = "已获取"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_go_dock = {
+	tip = "前往船坞"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_recommend = {
+	tip = "推荐装备"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_transitional = {
+	tip = "下位替代"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_copy = {
+	tip = "复制装备码"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_tip = {
+	tip = "部分装备获取难度较高，可更换对应下位装备作为临时配装使用"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_back = {
+	tip = "返回编队指引"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_obtain = {
+	tip = "获取途径：$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_level_recommend = {
+	tip = "推荐等级：$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_prev_chapter = {
+	tip = "上一章"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_next_chapter = {
+	tip = "下一章"
 }
 
 

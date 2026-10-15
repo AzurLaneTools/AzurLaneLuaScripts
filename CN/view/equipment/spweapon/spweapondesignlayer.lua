@@ -4,7 +4,7 @@ slot0.getUIName = function(slot0)
 	return "SpWeaponDesignUI"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	_.each(pg.spweapon_data_statistics.all, function (slot0)
 		if SpWeapon.New({
 			id = slot0
@@ -13,7 +13,7 @@ slot0.getResource = function(slot0, slot1)
 		end
 	end)
 
-	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), {
 		"ui/SpWeaponDesignUI",
 		"bg/equipment_bg_1",
 		"bg/equipment_bg_2",

@@ -32,7 +32,7 @@ slot0.attach = function(slot0, slot1)
 
 	slot0.bind = function(slot0, ...)
 		if slot0.parent then
-			slot0.parent:bind(...)
+			return slot0.parent:bind(...)
 		end
 	end
 

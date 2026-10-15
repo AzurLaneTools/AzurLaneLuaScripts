@@ -52,8 +52,9 @@ slot0.getGroupName = function(slot0)
 	return "NewShopMainScene"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot3 = pg.ship_skin_template
+slot0.getResource = function(slot0)
+	slot2 = pg.ship_skin_template
+	slot3 = slot0.contextData
 
 	slot4 = function(slot0)
 		slot1 = Goods.Create({
@@ -65,7 +66,7 @@ slot0.getResource = function(slot0, slot1)
 		return slot1
 	end
 
-	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), {
 		"ui/LatestSkinShopUI",
 		"ui/SkinShopUI_atlas",
 		"skinicon"

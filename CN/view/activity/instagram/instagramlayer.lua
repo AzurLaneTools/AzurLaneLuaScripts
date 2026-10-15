@@ -4,17 +4,17 @@ slot0.getUIName = function(slot0)
 	return "InstagramUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {}
+slot0.getResource = function(slot0)
+	slot1 = {}
 
-	for slot7, slot8 in pairs(getProxy(InstagramProxy):GetData()) do
-		table.insert(slot2, "qicon/" .. slot8:GetIcon())
-		table.insert(slot2, slot8:GetImage())
+	for slot6, slot7 in pairs(getProxy(InstagramProxy):GetData()) do
+		table.insert(slot1, "qicon/" .. slot7:GetIcon())
+		table.insert(slot1, slot7:GetImage())
 	end
 
-	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	table.insertto(slot1, uv0.super.getResource(slot0))
 
-	return slot2
+	return slot1
 end
 
 slot0.preload = function(slot0, slot1)

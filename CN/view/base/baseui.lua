@@ -25,6 +25,7 @@ slot0.ON_SPWEAPON = "BaseUI:ON_SPWEAPON"
 slot0.ON_SHIP_EXP = "BaseUI.ON_SHIP_EXP"
 slot0.ON_BACK_PRESSED = "BaseUI:ON_BACK_PRESS"
 slot0.ON_ADD_SUBLAYER = "BaseUI:ON_ADD_SUBLAYER"
+slot0.ON_GO_SCENE = "BaseUI:ON_GO_SCENE"
 
 slot0.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
@@ -57,7 +58,7 @@ slot0.preloadUIList = function(slot0)
 	}
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	_.each({
 		slot0:getBGM()
 	}, function (slot0)

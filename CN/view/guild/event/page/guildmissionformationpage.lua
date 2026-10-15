@@ -533,23 +533,23 @@ slot0.CalcScoreAddition = function(slot0, slot1)
 	return slot6, slot7, slot8
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = uv0.super.getResource(slot0, slot1)
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
 
-	for slot9, slot10 in ipairs(getProxy(GuildProxy):getData():GetActiveEvent():GetMissions()) do
-		for slot14, slot15 in ipairs(slot10) do
-			for slot20, slot21 in ipairs(slot15:GetMyShips()) do
-				if getProxy(BayProxy):getShipById(slot21) then
-					slot23 = slot22:getPrefab()
+	for slot8, slot9 in ipairs(getProxy(GuildProxy):getData():GetActiveEvent():GetMissions()) do
+		for slot13, slot14 in ipairs(slot9) do
+			for slot19, slot20 in ipairs(slot14:GetMyShips()) do
+				if getProxy(BayProxy):getShipById(slot20) then
+					slot22 = slot21:getPrefab()
 
-					table.insert(slot2, "char/" .. slot23)
-					table.insert(slot2, "herohrzicon/" .. slot23)
+					table.insert(slot1, "char/" .. slot22)
+					table.insert(slot1, "herohrzicon/" .. slot22)
 				end
 			end
 		end
 	end
 
-	return slot2
+	return slot1
 end
 
 slot0.CalcEffectAddition = function(slot0, slot1)

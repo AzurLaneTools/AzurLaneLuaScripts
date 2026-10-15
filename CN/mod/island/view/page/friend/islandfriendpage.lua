@@ -40,8 +40,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0._tf:Find("top/back")
-	slot0.giftTipTxt = slot0._tf:Find("top/gift_tip/Text"):GetComponent(typeof(Text))
+	slot0.backBtn = slot0._tf:Find("adapt/top/back")
+	slot0.giftTipTxt = slot0._tf:Find("adapt/top/gift_tip/Text"):GetComponent(typeof(Text))
 	slot0.uiToggleList = UIItemList.New(slot0._tf:Find("adapt/toggles/content"), slot0._tf:Find("adapt/toggles/content/tpl"))
 	slot1 = slot0._tf
 	slot0.mainTr = slot1:Find("adapt/main")
@@ -56,7 +56,7 @@ slot0.OnLoaded = function(slot0)
 		[uv7] = IslandFriendSettingPage.New(slot0.mainTr, slot0.event)
 	}
 
-	setText(slot0._tf:Find("top/title/Text"), i18n("island_btn_label_visit"))
+	setText(slot0._tf:Find("adapt/top/title/Text"), i18n("island_btn_label_visit"))
 end
 
 slot0.AddListeners = function(slot0)
@@ -141,7 +141,7 @@ slot0.OnShowMsg = function(slot0, slot1)
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0._tf:Find("top/title/help"), function ()
+	onButton(slot0, slot0._tf:Find("adapt/top/title/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.island_help_friends.tip

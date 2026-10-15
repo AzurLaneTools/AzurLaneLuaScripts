@@ -27,6 +27,10 @@ slot0.IsMotGroup = function(slot0)
 	return uv0.getDefaultShipConfig(slot0).nationality == Nation.MOT
 end
 
+slot0.LockCv1 = function(slot0)
+	return table.contains(pg.gameset.profile_cv1_button_block.description, slot0)
+end
+
 slot0.STATE_LOCK = 0
 slot0.STATE_NOTGET = 1
 slot0.STATE_UNLOCK = 2

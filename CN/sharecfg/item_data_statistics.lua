@@ -3219,7 +3219,8 @@ pg.item_data_statistics.all = {
 	180008,
 	180009,
 	180010,
-	180099
+	180099,
+	99985
 }
 pg.item_data_statistics.get_id_list_by_type = {
 	[0] = {
@@ -6376,7 +6377,8 @@ pg.item_data_statistics.get_id_list_by_type = {
 		99992,
 		99993,
 		99994,
-		99995
+		99995,
+		99985
 	},
 	[18] = {
 		20101,
@@ -19355,5 +19357,9 @@ cs.item_data_statistics = {
 	[180099] = {
 		2003728,
 		929
+	},
+	[99985] = {
+		2004657,
+		668
 	}
 }

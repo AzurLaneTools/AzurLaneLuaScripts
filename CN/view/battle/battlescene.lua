@@ -45,13 +45,13 @@ slot0.getBGM = function(slot0)
 	return uv0.super.getBGM(slot0)
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	slot2 = {}
 	slot3 = ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.Base, slot0:getUIName())
 
 	table.insert(slot2, slot3)
 	table.insert(slot2, slot3 .. ResPathSupport.ConstPath.UI.Atlas)
-	table.insert({}, slot1.system == SYSTEM_WORLD and checkExist(pg.world_expedition_data[slot0.contextData.stageId], {
+	table.insert({}, slot0.contextData.system == SYSTEM_WORLD and checkExist(pg.world_expedition_data[slot0.contextData.stageId], {
 		"bgm"
 	}) or "")
 	table.insert(slot5, pg.expedition_data_template[slot1.stageId].bgm)

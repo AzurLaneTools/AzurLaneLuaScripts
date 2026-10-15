@@ -5,11 +5,11 @@ slot0.getUIName = function(slot0)
 	return "LevelStageInfoView"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	return table.insertto({
 		"ui/levelstageinfoview_atlas",
 		"passstate"
-	}, uv0.super.getResource(slot0, slot1))
+	}, uv0.super.getResource(slot0))
 end
 
 slot0.getLevelInfoViewResList = function(slot0, slot1)
@@ -78,12 +78,22 @@ end
 slot0.CheckGuide = function(slot0)
 	slot2 = pg.chapter_auto_statistics[slot0.chapter.id]
 
-	if ChapterAutoProxy.IsSystemOpen() and slot2 and not pg.NewStoryMgr.GetInstance():IsPlayed(uv0.CHAPTER_GUIDE_NAME) then
-		pg.NewGuideMgr.GetInstance():Play(uv0.CHAPTER_GUIDE_NAME)
-		pg.m02:sendNotification(GAME.STORY_UPDATE, {
-			storyId = uv0.CHAPTER_GUIDE_NAME
-		})
+	if not ChapterAutoProxy.IsSystemOpen() or not slot2 or pg.NewStoryMgr.GetInstance():IsPlayed(uv0.CHAPTER_GUIDE_NAME) then
+		return
 	end
+
+	onNextTick(function ()
+		if uv0._state == uv1.STATES.DESTROY or not uv0:isShowing() then
+			return
+		end
+
+		if not pg.NewStoryMgr.GetInstance():IsPlayed(uv1.CHAPTER_GUIDE_NAME) then
+			pg.NewGuideMgr.GetInstance():Play(uv1.CHAPTER_GUIDE_NAME)
+			pg.m02:sendNotification(GAME.STORY_UPDATE, {
+				storyId = uv1.CHAPTER_GUIDE_NAME
+			})
+		end
+	end)
 end
 
 slot0.Hide = function(slot0)

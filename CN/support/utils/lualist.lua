@@ -76,6 +76,13 @@ slot0.GetItemByIndex = function(slot0, slot1)
 end
 
 slot0.ItemRecycleHandler = function(slot0, slot1, slot2)
+	if slot0.itemRecycleHandler_ then
+		slot0.itemRecycleHandler_(slot1, slot2)
+	end
+end
+
+slot0.SetItemRecycleHandler = function(slot0, slot1)
+	slot0.itemRecycleHandler_ = slot1
 end
 
 slot0.SetPageChangeHandler = function(slot0, slot1)
@@ -209,6 +216,7 @@ slot0.Dispose = function(slot0)
 	end
 
 	slot0.pageChangeHandler_ = nil
+	slot0.itemRecycleHandler_ = nil
 end
 
 slot0.SetOrientation = function(slot0, slot1)

@@ -4,8 +4,8 @@ slot0.UPDATE_ACTIVITY = "ActivityMainScene:UPDATE_ACTIVITY"
 slot0.GET_PAGE_BGM = "ActivityMainScene.GET_PAGE_BGM"
 slot0.FLUSH_TABS = "ActivityMainScene.FLUSH_TABS"
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"activitybanner",
 		"activityuitable",
 		"ui/ActivitybonusWindow",
@@ -20,33 +20,33 @@ slot0.getResource = function(slot0, slot1)
 		"activityuitable/activity_text_selected"
 	}
 
-	slot3 = function(slot0)
+	slot2 = function(slot0)
 		if not table.contains(uv0, slot0) then
 			table.insert(uv0, slot0)
 		end
 	end
 
-	for slot7, slot8 in ipairs(getProxy(ActivityProxy):getPanelActivities()) do
-		if noEmptyStr(slot8:getConfig("title_res_tag")) then
-			slot3("activityuitable/" .. slot9 .. "_text")
-			slot3("activityuitable/" .. slot9 .. "_text_selected")
+	for slot6, slot7 in ipairs(getProxy(ActivityProxy):getPanelActivities()) do
+		if noEmptyStr(slot7:getConfig("title_res_tag")) then
+			slot2("activityuitable/" .. slot8 .. "_text")
+			slot2("activityuitable/" .. slot8 .. "_text_selected")
 		end
 	end
 
-	for slot8, slot9 in ipairs(getProxy(ActivityPermanentProxy):getActivityIdsByType(ActivityPermanentProxy.TYPE_NORMAL_ACTIVITY)) do
-		if noEmptyStr(pg.activity_template[pg.activity_task_permanent[slot9].id].title_res_tag) then
-			slot3("activityuitable/" .. slot11 .. "_text")
-			slot3("activityuitable/" .. slot11 .. "_text_selected")
+	for slot7, slot8 in ipairs(getProxy(ActivityPermanentProxy):getActivityIdsByType(ActivityPermanentProxy.TYPE_NORMAL_ACTIVITY)) do
+		if noEmptyStr(pg.activity_template[pg.activity_task_permanent[slot8].id].title_res_tag) then
+			slot2("activityuitable/" .. slot10 .. "_text")
+			slot2("activityuitable/" .. slot10 .. "_text_selected")
 		end
 	end
 
-	for slot8, slot9 in ipairs(uv0.GetOnShowEntranceData()) do
-		slot3("activitybanner/" .. slot9.banner)
+	for slot7, slot8 in ipairs(uv0.GetOnShowEntranceData()) do
+		slot2("activitybanner/" .. slot8.banner)
 	end
 
-	table.insertto(slot2, uv0.super.getResource(slot0))
+	table.insertto(slot1, uv0.super.getResource(slot0))
 
-	return slot2
+	return slot1
 end
 
 slot0.getUIName = function(slot0)

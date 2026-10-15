@@ -9,7 +9,8 @@ slot0.getUIName = function(slot0)
 	return "BillboardUI"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
+	slot1 = slot0.contextData
 	slot2 = {
 		"commonbg/bg_fengshan",
 		"billboardframe",
@@ -68,7 +69,7 @@ slot0.getResource = function(slot0, slot1)
 		slot3("emblem/n_" .. slot9)
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot2, uv0.super.getResource(slot0))
 end
 
 slot0.updateRankList = function(slot0, slot1, slot2, slot3, slot4)

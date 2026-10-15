@@ -4,13 +4,13 @@ slot0.getUIName = function(slot0)
 	return "PublicGuildMainUI"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	return table.insertto({
 		"guildtechnology",
 		"ui/guildrespanel",
 		"ui/guildmainui_atlas",
 		"guildpainting/guild_office_blue"
-	}, uv0.super.getResource(slot0, slot1))
+	}, uv0.super.getResource(slot0))
 end
 
 slot0.OnUpdateDonateList = function(slot0)

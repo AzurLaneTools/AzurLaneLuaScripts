@@ -135,12 +135,12 @@ slot0.init = function(slot0)
 	slot0.basePage = slot0._tf:Find("main/base_page")
 	slot0.srcollView = slot0.basePage:Find("srcoll_rect/content")
 	slot0.srcollViewCG = slot0.srcollView:GetComponent(typeof(CanvasGroup))
-	slot0.helpBtn = slot0.basePage:Find("help_btn")
-	slot0.refreshBtn = slot0.basePage:Find("refresh_btn")
+	slot0.helpBtn = slot0.basePage:Find("adapt/help_btn")
+	slot0.refreshBtn = slot0.basePage:Find("adapt/refresh_btn")
 
 	setText(slot0.refreshBtn:Find("Text"), i18n("technology_daily_refresh"))
 
-	slot0.settingsBtn = slot0.basePage:Find("settings_btn")
+	slot0.settingsBtn = slot0.basePage:Find("adapt/settings_btn")
 	slot0.selectetPanel = slot0.basePage:Find("selecte_panel")
 
 	setActive(slot0.selectetPanel, false)

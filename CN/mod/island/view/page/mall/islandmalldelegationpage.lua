@@ -6,10 +6,10 @@ end
 
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
-	onButton(slot0, slot0._tf:Find("handbookBtn"), function ()
+	onButton(slot0, slot0._tf:Find("adapt/handbookBtn"), function ()
 		uv0:OpenPage(IslandSetMealHandbookPage)
 	end)
-	setActive(slot0._tf:Find("handbookBtn"), getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(29001))
+	setActive(slot0._tf:Find("adapt/handbookBtn"), getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(29001))
 end
 
 return slot0

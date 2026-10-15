@@ -16,19 +16,19 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dShopUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"weaponframes",
 		"ui/shoptip_atlas"
 	}
 
-	slot3 = function(slot0)
+	slot2 = function(slot0)
 		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
 			table.insert(uv0, slot0)
 		end
 	end
 
-	slot4 = function(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		if slot1 then
 			uv0(Drop.New({
 				count = 0,
@@ -38,49 +38,49 @@ slot0.getResource = function(slot0, slot1)
 		end
 	end
 
-	slot5 = ipairs
-	slot6 = uv0.all or {}
+	slot4 = ipairs
+	slot5 = uv0.all or {}
 
-	for slot8, slot9 in slot5(slot6) do
-		if uv0[slot9] and slot10.type == 2 and noEmptyStr(slot10.assets_prefix) then
-			slot3("dorm3dselect/room_icon_" .. string.lower(slot10.assets_prefix))
+	for slot7, slot8 in slot4(slot5) do
+		if uv0[slot8] and slot9.type == 2 and noEmptyStr(slot9.assets_prefix) then
+			slot2("dorm3dselect/room_icon_" .. string.lower(slot9.assets_prefix))
 		end
 	end
 
-	slot5 = ipairs
-	slot6 = uv1.all or {}
+	slot4 = ipairs
+	slot5 = uv1.all or {}
 
-	for slot8, slot9 in slot5(slot6) do
-		if uv1[slot9] then
-			if noEmptyStr(slot10.banners and slot10.banners[1]) then
-				slot3("dorm3dbanner/" .. slot11 .. "_shopCard1")
-				slot3("dorm3dbanner/" .. slot11 .. "_shopCard2")
+	for slot7, slot8 in slot4(slot5) do
+		if uv1[slot8] then
+			if noEmptyStr(slot9.banners and slot9.banners[1]) then
+				slot2("dorm3dbanner/" .. slot10 .. "_shopCard1")
+				slot2("dorm3dbanner/" .. slot10 .. "_shopCard2")
 			end
 
-			if slot10.type == 1 then
-				slot4(DROP_TYPE_DORM3D_FURNITURE, slot10.item_id)
+			if slot9.type == 1 then
+				slot3(DROP_TYPE_DORM3D_FURNITURE, slot9.item_id)
 
-				if uv2[slot10.item_id] and #(slot12.unlock_tips or {}) > 0 then
-					slot3("ui/shoptip_atlas")
+				if uv2[slot9.item_id] and #(slot11.unlock_tips or {}) > 0 then
+					slot2("ui/shoptip_atlas")
 				end
-			elseif slot10.type == 2 then
-				slot4(DROP_TYPE_DORM3D_GIFT, slot10.item_id)
+			elseif slot9.type == 2 then
+				slot3(DROP_TYPE_DORM3D_GIFT, slot9.item_id)
 
-				if uv3[slot10.item_id] and #(slot12.unlock_tips or {}) > 0 then
-					slot3("ui/shoptip_atlas")
+				if uv3[slot9.item_id] and #(slot11.unlock_tips or {}) > 0 then
+					slot2("ui/shoptip_atlas")
 				end
-			elseif slot10.type == 3 then
-				slot13 = ipairs
-				slot14 = uv0[slot10.item_id] and slot12.invite_icon or {}
+			elseif slot9.type == 3 then
+				slot12 = ipairs
+				slot13 = uv0[slot9.item_id] and slot11.invite_icon or {}
 
-				for slot16, slot17 in slot13(slot14) do
-					slot3(slot17[2])
+				for slot15, slot16 in slot12(slot13) do
+					slot2(slot16[2])
 				end
 			end
 		end
 	end
 
-	return table.insertto(slot2, uv4.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv4.super.getResource(slot0))
 end
 
 slot0.init = function(slot0)

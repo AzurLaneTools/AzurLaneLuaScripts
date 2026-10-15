@@ -192972,6 +192972,33 @@ _G.pg.base.item_virtual_data_statistics[68710] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[68754] = {
+	drop_gold_max = 0,
+	name = "严厉女仆的奖赏",
+	display = "喜欢这样的奖赏吗？指挥官~ 参与「严厉女仆不严厉」获得的点数，累计一定程度可以领取报酬",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/aerjiliya_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 68754,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68712] = {
 	drop_gold_max = 0,
 	name = "作战全权委托书（大世界）",
@@ -193021,6 +193048,33 @@ _G.pg.base.item_virtual_data_statistics[68755] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 68755,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68756] = {
+	drop_gold_max = 0,
+	name = "Bili电池",
+	display = "用于Bili周年庆活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/battery",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 68756,
 	display_icon = {},
 	price = {},
 	index = {},

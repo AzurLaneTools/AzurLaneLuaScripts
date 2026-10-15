@@ -4,8 +4,8 @@ slot0.getUIName = function(slot0)
 	return "SpWeaponStoreHouseUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/equipmentui_atlas",
 		"ui/share/index_atlas",
 		"weaponframes",
@@ -15,7 +15,7 @@ slot0.getResource = function(slot0, slot1)
 		"ui/SpWeaponUpgradeUI"
 	}
 
-	slot3 = function(slot0)
+	slot2 = function(slot0)
 		if not slot0 then
 			return
 		end
@@ -27,30 +27,29 @@ slot0.getResource = function(slot0, slot1)
 		end
 	end
 
-	slot5 = slot1 and slot1.shipId
-	slot10 = slot5 and getProxy(BayProxy):RawGetShipById(slot5)
+	slot9 = slot0.contextData.shipId and getProxy(BayProxy):RawGetShipById(slot4)
 
-	for slot10, slot11 in ipairs(slot4:GetSpWeaponsInShips(slot10)) do
-		slot3(slot11)
+	for slot9, slot10 in ipairs(slot3:GetSpWeaponsInShips(slot9)) do
+		slot2(slot10)
 	end
 
-	for slot10, slot11 in pairs(getProxy(EquipmentProxy):GetSpWeapons()) do
-		if not slot6 or not slot6:IsSpWeaponForbidden(slot11) then
-			slot3(slot11)
+	for slot9, slot10 in pairs(getProxy(EquipmentProxy):GetSpWeapons()) do
+		if not slot5 or not slot5:IsSpWeaponForbidden(slot10) then
+			slot2(slot10)
 		end
 	end
 
-	for slot10, slot11 in ipairs(SpWeapon.bindConfigTable().all) do
+	for slot9, slot10 in ipairs(SpWeapon.bindConfigTable().all) do
 		if SpWeapon.New({
-			id = slot11
-		}):IsCraftable() and (not slot6 or not slot6:IsSpWeaponForbidden(slot12)) then
-			slot3(slot12)
+			id = slot10
+		}):IsCraftable() and (not slot5 or not slot5:IsSpWeaponForbidden(slot11)) then
+			slot2(slot11)
 		end
 	end
 
-	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	table.insertto(slot1, uv0.super.getResource(slot0))
 
-	return slot2
+	return slot1
 end
 
 slot0.setEquipments = function(slot0, slot1)

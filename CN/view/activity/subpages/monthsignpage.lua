@@ -18,7 +18,7 @@ slot0.getResource = function(slot0, slot1)
 		"ui/iconcolorful"
 	}
 
-	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	table.insertto(slot2, uv0.super.getResource(slot0))
 
 	return slot2
 end

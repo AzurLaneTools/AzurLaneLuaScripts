@@ -10,8 +10,8 @@ slot0.getUIName = function(slot0)
 	return "TrophyGalleryUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+slot0.getResource = function(slot0)
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), {
 		"ui/trophygalleryui",
 		"ui/iconcolorful",
 		"ui/newstyleloveletterrewardmsgboxui"

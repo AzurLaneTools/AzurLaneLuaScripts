@@ -33,11 +33,11 @@ slot0.getUIName = function(slot0)
 	return "ProposeUI"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	slot2 = {}
 	slot3 = nil
 
-	if slot1.shipId then
+	if slot0.contextData.shipId then
 		slot3 = getProxy(BayProxy):getShipById(slot1.shipId):getConfigTable().nationality
 	elseif slot1.group then
 		slot3 = slot1.group:getNation()
@@ -49,7 +49,7 @@ slot0.getResource = function(slot0, slot1)
 		table.insert(slot2, string.lower("ui/Propose" .. Nation.Nation2Side(slot3) .. "UI"))
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot2, uv0.super.getResource(slot0))
 end
 
 slot0.setShip = function(slot0, slot1)

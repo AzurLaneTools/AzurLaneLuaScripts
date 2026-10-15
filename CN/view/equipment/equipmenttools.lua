@@ -29,5 +29,32 @@ return {
 				end
 			end
 		end
+	end,
+	HasEquipByGroup = function (slot0)
+		for slot5, slot6 in ipairs(getProxy(EquipmentProxy):GetEquipmentsRaw()) do
+			if slot6.getConfig(slot6, "group") == slot0 then
+				return true
+			end
+		end
+
+		return false
+	end,
+	HasBaseSpWeapon = function (slot0)
+		slot2 = uv0.GetBaseSpWeaponID(slot0)
+
+		for slot6, slot7 in pairs(getProxy(EquipmentProxy):GetSpWeapons()) do
+			if uv0.GetBaseSpWeaponID(slot7.id) == slot2 then
+				return true
+			end
+		end
+
+		return false
+	end,
+	GetBaseSpWeaponID = function (slot0)
+		if pg.spweapon_data_statistics[slot0].prev == 0 then
+			return slot0
+		end
+
+		return uv0.GetBaseSpWeaponID(slot1.prev)
 	end
 }

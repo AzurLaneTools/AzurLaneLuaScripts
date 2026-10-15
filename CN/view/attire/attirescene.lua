@@ -93,18 +93,6 @@ slot0.getResource = function(slot0)
 		end
 
 		return slot0
-	end)(), (function ()
-		slot0 = {}
-
-		for slot4, slot5 in ipairs(pg.gallery_config.all) do
-			uv0(slot0, GalleryConst.GetGalleryPicPathByID(slot5))
-		end
-
-		for slot4, slot5 in ipairs(pg.cartoon.all) do
-			uv0(slot0, MangaConst.GetMangaPicPathByID(slot5))
-		end
-
-		return slot0
 	end)(), CombatPreviewLayer.PushAllResource())
 end
 

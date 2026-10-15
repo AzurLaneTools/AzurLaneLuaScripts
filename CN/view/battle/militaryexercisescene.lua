@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 	return "MilitaryExerciseUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"weaponframes",
 		"shiptype",
 		"bg/star_level_card_1",
@@ -21,13 +21,13 @@ slot0.getResource = function(slot0, slot1)
 		"bg/star_level_card_5_1"
 	}
 
-	slot3 = function(slot0)
+	slot2 = function(slot0)
 		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
 			table.insert(uv0, slot0)
 		end
 	end
 
-	slot4 = function(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		if noEmptyStr(SeasonInfo.getEmblem(slot0, slot1)) then
 			uv0("emblem/" .. slot2)
 			uv0("emblem/n_" .. slot2)
@@ -35,11 +35,11 @@ slot0.getResource = function(slot0, slot1)
 	end
 
 	if getProxy(MilitaryExerciseProxy):RawGetSeasonInfo() then
-		slot4(slot5.score, slot5.rank)
+		slot3(slot4.score, slot4.rank)
 
-		slot6 = getProxy(BayProxy)
+		slot5 = getProxy(BayProxy)
 
-		slot7 = function(slot0)
+		slot6 = function(slot0)
 			slot1 = ipairs
 			slot2 = slot0 or {}
 
@@ -50,45 +50,45 @@ slot0.getResource = function(slot0, slot1)
 			end
 		end
 
-		slot7(checkExist(slot5, {
+		slot6(checkExist(slot4, {
 			"fleet",
 			"mainShips"
 		}))
-		slot7(checkExist(slot5, {
+		slot6(checkExist(slot4, {
 			"fleet",
 			"vanguardShips"
 		}))
 
-		slot8 = ipairs
-		slot9 = slot5.rivals or {}
+		slot7 = ipairs
+		slot8 = slot4.rivals or {}
 
-		for slot11, slot12 in slot8(slot9) do
-			slot4(slot12.score, slot12.rank)
+		for slot10, slot11 in slot7(slot8) do
+			slot3(slot11.score, slot11.rank)
 
 			if checkExist(pg.ship_skin_template, {
-				slot12.skinId,
+				slot11.skinId,
 				"painting"
 			}) then
-				slot3("SquareIcon/" .. slot13.painting)
+				slot2("SquareIcon/" .. slot12.painting)
 			end
 		end
 	end
 
-	slot6 = ipairs
-	slot7 = pg.arena_data_rank.all or {}
+	slot5 = ipairs
+	slot6 = pg.arena_data_rank.all or {}
 
-	for slot9, slot10 in slot6(slot7) do
-		slot11 = ipairs
-		slot12 = pg.arena_data_rank[slot10].award_list or {}
+	for slot8, slot9 in slot5(slot6) do
+		slot10 = ipairs
+		slot11 = pg.arena_data_rank[slot9].award_list or {}
 
-		for slot14, slot15 in slot11(slot12) do
-			if slot15[1] ~= nil then
-				slot3(Drop.Create(slot15):getIcon())
+		for slot13, slot14 in slot10(slot11) do
+			if slot14[1] ~= nil then
+				slot2(Drop.Create(slot14):getIcon())
 			end
 		end
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.ResUISettings = function(slot0)

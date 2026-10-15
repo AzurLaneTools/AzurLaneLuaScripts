@@ -41,7 +41,7 @@ slot0.GetPage = function(slot0, slot1)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0._tf:Find("top/closeBtn")
+	slot0.backBtn = slot0._tf:Find("adapt/top/closeBtn")
 	slot1 = slot0._tf:Find("pages")
 	slot0.pages = {
 		IslandSettings3DPage.New(slot1, slot0.event, {}),
@@ -62,8 +62,8 @@ slot0.OnLoaded = function(slot0)
 	slot2(slot0._tf:Find("adapt/left_length/imageQuality"), i18n("grapihcs3d_setting_3Dquality"))
 	slot2(slot0._tf:Find("adapt/left_length/operation"), i18n("grapihcs3d_setting_control"))
 	slot2(slot0._tf:Find("adapt/left_length/common"), i18n("grapihcs3d_setting_general"))
-	setText(slot0._tf:Find("top/title/Text"), i18n("island_settings"))
-	setText(slot0._tf:Find("top/title/Text/en"), i18n("island_settings_en"))
+	setText(slot0._tf:Find("adapt/top/title/Text"), i18n("island_settings"))
+	setText(slot0._tf:Find("adapt/top/title/Text/en"), i18n("island_settings_en"))
 end
 
 slot0.OnShow = function(slot0)

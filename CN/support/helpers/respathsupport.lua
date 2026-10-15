@@ -522,5 +522,5 @@ slot0.GetShipAllRes = function(slot0)
 		"ui/lihui_qiehuan01",
 		"ui/lihui_qiehuan02",
 		"effect/jiehuntexiao"
-	}, uv0.GetShipRarityBgList(slot1), uv0.GetShipSkinBgList(slot2), uv0.GetSkillIconList(slot1), uv0.GetShipSkinSoundList(slot2), uv0.GetShipSkinSpineQIconList(slot2), uv0.GetShipSkinSpineShipModelList(slot2), uv0.GetShipSkinSpineCharList(slot2), uv0.GetShipSkinSpinePaintingList(slot2), uv0.GetShipSkinPaintingList(slot2), uv0.GetShipSkinPaintingFaceList(slot2), uv0.GetShipSkinPaintingShipYardIconList(slot2), uv0.GetShipSkinPaintingSquareIconList(slot2), uv0.GetShipSkinPaintingHeroHrzIconList(slot2), uv0.GetShipSkinEffectList(slot2), uv0.GetShipSkinLive2DList(slot2))
+	}, uv0.GetShipRarityBgList(slot1), uv0.GetShipSkinBgList(slot2), uv0.GetSkillIconList(slot1), uv0.GetShipSkinSoundList(slot2), uv0.GetShipSkinSpineQIconList(slot2), uv0.GetShipSkinSpineShipModelList(slot2), uv0.GetShipSkinSpineCharList(slot2), uv0.GetShipSkinSpinePaintingList(slot2), uv0.GetShipSkinPaintingList(slot2), uv0.GetShipSkinPaintingFaceList(slot2), uv0.GetShipSkinPaintingShipYardIconList(slot2), uv0.GetShipSkinPaintingSquareIconList(slot2), uv0.GetShipSkinPaintingHeroHrzIconList(slot2), uv0.GetShipSkinEffectList(slot2))
 end

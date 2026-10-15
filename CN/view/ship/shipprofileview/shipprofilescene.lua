@@ -12,7 +12,8 @@ slot0.getUIName = function(slot0)
 	return "ShipProfileUI"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
+	slot1 = slot0.contextData
 	slot2 = getProxy(CollectionProxy):getShipGroup(slot1.groupId)
 	slot3 = {
 		"bg/star_level_bg_" .. slot2:rarity2bgPrintForGet(slot7),
@@ -31,7 +32,7 @@ slot0.getResource = function(slot0, slot1)
 		configId = slot4
 	}):getPrefab()))
 
-	return table.insertto(slot3, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot3, uv0.super.getResource(slot0))
 end
 
 slot0.preload = function(slot0, slot1)
