@@ -90,6 +90,7 @@ end
 slot0.unpdateUnreadCount = function(slot0, slot1)
 	slot0._existUnreadCount = slot1
 
+	warning("yzh---_existUnreadCount", slot1)
 	slot0:sendNotification(uv0.UPDATE_ATTACHMENT_COUNT)
 end
 

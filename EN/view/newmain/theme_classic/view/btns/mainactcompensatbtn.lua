@@ -5,6 +5,8 @@ slot0.GetContainer = function(slot0)
 end
 
 slot0.InShowTime = function(slot0)
+	warning("InShowTime", getProxy(CompensateProxy):hasRewardCount())
+
 	return getProxy(CompensateProxy):hasRewardCount()
 end
 

@@ -71,6 +71,7 @@ slot0.InitBtns = function(slot0)
 
 	for slot4, slot5 in ipairs(uv0.GetSpecailBtns()) do
 		table.insert(slot0.specailBtns, slot5.New(slot0._tf, slot0.event))
+		warning("yzhspecailBtns", slot4)
 	end
 
 	if pg.SdkMgr.GetInstance():CheckAudit() then
