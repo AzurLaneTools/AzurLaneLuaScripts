@@ -83,10 +83,10 @@ slot0.findUI = function(slot0)
 		[uv0.Shop] = slot0.shopToggle:Find("Red")
 	}
 	slot0.backBtn = slot1:Find("back")
-	slot0.dayText = slot0._tf:Find("time/text")
+	slot0.dayText = slot0._tf:Find("left/time/text")
 
-	setText(slot0._tf:Find("time/icon"), i18n("reflux_word_1"))
-	setText(slot0._tf:Find("time/icon1"), i18n("word_date"))
+	setText(slot0._tf:Find("left/time/icon"), i18n("reflux_word_1"))
+	setText(slot0._tf:Find("left/time/icon1"), i18n("word_date"))
 end
 
 slot0.initData = function(slot0)

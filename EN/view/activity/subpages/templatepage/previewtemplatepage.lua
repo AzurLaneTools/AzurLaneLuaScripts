@@ -39,7 +39,7 @@ slot0.initBtn = function(slot0)
 		end,
 		shop = function (slot0)
 			onButton(uv0, slot0, function ()
-				if not uv0.shopLinkActID or not getProxy(ActivityProxy):getActivitiesById(uv0.shopLinkActID) then
+				if not uv0.shopLinkActID or not getProxy(ActivityProxy):getActivityById(uv0.shopLinkActID) then
 					slot1 = getProxy(ActivityProxy)
 					slot0 = underscore.detect(slot1:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
 						return not slot0:isEnd()
@@ -107,6 +107,11 @@ slot0.initBtn = function(slot0)
 		skinshop = function (slot0)
 			onButton(uv0, slot0, function ()
 				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
+			end)
+		end,
+		dorm = function (slot0)
+			onButton(uv0, slot0, function ()
+				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.COURTYARD)
 			end)
 		end
 	}

@@ -37,6 +37,7 @@ pg.dorm3d_scene_animator.all = {
 	3003,
 	3004,
 	3005,
+	3006,
 	4001,
 	4002,
 	4003,
@@ -96,7 +97,8 @@ pg.dorm3d_scene_animator.get_id_list_by_room_id = {
 		3002,
 		3003,
 		3004,
-		3005
+		3005,
+		3006
 	},
 	[22] = {
 		4001,
@@ -281,6 +283,11 @@ pg.base.dorm3d_scene_animator = {}
 		id = 3005,
 		room_id = 21,
 		item_name = "FurnitureSlots/2210201/pre_db_naximofu_basement01(Clone)/all/fbx_db_nxmf_equipment01/vfx_desk02"
+	}
+	pg.base.dorm3d_scene_animator[3006] = {
+		id = 3006,
+		room_id = 21,
+		item_name = "FurnitureSlots/2210101/pre_db_naximofu_bed01(Clone)/pre_db_nxmf_bed01"
 	}
 	pg.base.dorm3d_scene_animator[4001] = {
 		id = 4001,

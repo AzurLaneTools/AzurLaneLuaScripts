@@ -49,9 +49,10 @@ pg.activity_banner_notice.all = {
 	44,
 	45,
 	46,
-	49,
 	47,
-	48
+	48,
+	49,
+	50
 }
 pg.base = pg.base or {}
 pg.base.activity_banner_notice = {}
@@ -448,12 +449,6 @@ pg.base.activity_banner_notice = {}
 			}
 		}
 	}
-	pg.base.activity_banner_notice[49] = {
-		id = 49,
-		param = {
-			"act boss battle"
-		}
-	}
 	pg.base.activity_banner_notice[47] = {
 		id = 47,
 		param = {
@@ -469,6 +464,21 @@ pg.base.activity_banner_notice = {}
 			"scene core activity",
 			{
 				coreName = "ShiningMagicCoreActivityUI"
+			}
+		}
+	}
+	pg.base.activity_banner_notice[49] = {
+		id = 49,
+		param = {
+			"act boss battle"
+		}
+	}
+	pg.base.activity_banner_notice[50] = {
+		id = 50,
+		param = {
+			"scene core activity",
+			{
+				coreName = "WindFogCorridorCoreActivityUI"
 			}
 		}
 	}

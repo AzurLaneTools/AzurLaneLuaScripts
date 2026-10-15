@@ -35,6 +35,45 @@ slot0.GetHelpTips = function(slot0)
 	return slot4
 end
 
+slot0.getResource = function(slot0)
+	slot1 = {}
+
+	if slot0.GROUP_ID and pg.activity_medal_group[slot2] and slot3.item_show then
+		slot4 = {}
+
+		slot5 = function(slot0)
+			if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
+				table.insert(uv0, slot0)
+			end
+		end
+
+		for slot9, slot10 in ipairs(slot3.item_show) do
+			if slot10 and #slot10 > 0 then
+				slot11 = Drop.New({
+					type = slot10[1],
+					id = slot10[2],
+					count = slot10[3] or 1
+				})
+				slot12 = slot11:getIcon()
+
+				if slot11.type == DROP_TYPE_FURNITURE then
+					slot12 = "furnitureicon/" .. slot12
+				end
+
+				slot5(slot12)
+			end
+		end
+
+		for slot9, slot10 in ipairs(slot4) do
+			table.insert(slot1, slot10)
+		end
+	end
+
+	table.insertto(slot1, uv0.super.getResource(slot0))
+
+	return slot1
+end
+
 slot0.SetMedalGroupData = function(slot0, slot1)
 	slot0.medalGroupList = slot1
 	slot0.currentMedalGroup = slot0.medalGroupList[slot0.GROUP_ID] or ActivityMedalGroup.New(slot0.GROUP_ID)

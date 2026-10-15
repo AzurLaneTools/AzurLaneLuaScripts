@@ -40,6 +40,9 @@ pg.dorm3d_ik_touch.all = {
 	7001001,
 	7001002,
 	7001003,
+	7001004,
+	7001005,
+	7001006,
 	8001001,
 	8001002
 }
@@ -631,6 +634,52 @@ pg.base.dorm3d_ik_touch = {}
 		vibrate = "",
 		action_emote = "",
 		id = 7001003
+	}
+	pg.base.dorm3d_ik_touch[7001004] = {
+		hold_time = 0,
+		body = "",
+		tip_offset = "",
+		scene_item = "FurnitureSlots/2210101/pre_db_naximofu_bed01(Clone)/pre_db_nxmf_bed01/all/DMB000",
+		trigger_type = 1,
+		ik_move = "",
+		char_id = 79902,
+		vibrate = "",
+		action_emote = "",
+		id = 7001004
+	}
+	pg.base.dorm3d_ik_touch[7001005] = {
+		hold_time = 0,
+		body = "Back",
+		tip_offset = "",
+		scene_item = "",
+		trigger_type = 1,
+		ik_move = "",
+		char_id = 79902,
+		action_emote = "",
+		id = 7001005,
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		}
+	}
+	pg.base.dorm3d_ik_touch[7001006] = {
+		hold_time = 0,
+		body = "RightThigh",
+		tip_offset = "",
+		scene_item = "",
+		trigger_type = 1,
+		ik_move = "",
+		char_id = 79902,
+		action_emote = "",
+		id = 7001006,
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		}
 	}
 	pg.base.dorm3d_ik_touch[8001001] = {
 		hold_time = 0,

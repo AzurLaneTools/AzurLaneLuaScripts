@@ -43,7 +43,7 @@ slot0.getBGM = function(slot0)
 	return uv0.super.getBGM(slot0)
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	return table.insertto({
 		"scenes/worldmap3d",
 		"model/worldmapmodel",
@@ -66,7 +66,7 @@ slot0.getResource = function(slot0, slot1)
 		"ui/san_low",
 		"weaponframes",
 		"shiptype"
-	}, uv0.super.getResource(slot0, slot1))
+	}, uv0.super.getResource(slot0))
 end
 
 slot0.insertResToList = function(slot0, slot1, slot2)

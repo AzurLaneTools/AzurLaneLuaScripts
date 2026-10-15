@@ -7,19 +7,19 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dShopDetailWindow"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"weaponframes",
 		"ui/shoptip_atlas"
 	}
 
-	slot5 = function(slot0)
+	slot4 = function(slot0)
 		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
 			table.insert(uv0, slot0)
 		end
 	end
 
-	slot6 = function(slot0)
+	slot5 = function(slot0)
 		slot1 = ipairs
 		slot2 = slot0 or {}
 
@@ -28,26 +28,26 @@ slot0.getResource = function(slot0, slot1)
 		end
 	end
 
-	if (slot1 or slot0.contextData or {}).shopCfg then
-		slot6(slot4.banners)
+	if (slot0.contextData or {}).shopCfg then
+		slot5(slot3.banners)
 
-		if pg.dorm3d_gift[slot4.item_id] then
-			slot8 = ipairs
-			slot9 = slot7.unlock_banners or {}
+		if pg.dorm3d_gift[slot3.item_id] then
+			slot7 = ipairs
+			slot8 = slot6.unlock_banners or {}
 
-			for slot11, slot12 in slot8(slot9) do
-				slot6(slot12[2])
+			for slot10, slot11 in slot7(slot8) do
+				slot5(slot11[2])
 			end
 		end
 
-		slot5(Drop.New({
+		slot4(Drop.New({
 			count = 0,
 			type = DROP_TYPE_DORM3D_GIFT,
-			id = slot4.item_id
+			id = slot3.item_id
 		}):getIcon())
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.init = function(slot0)

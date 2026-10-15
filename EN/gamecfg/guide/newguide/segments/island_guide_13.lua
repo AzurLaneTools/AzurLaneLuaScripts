@@ -49,7 +49,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "/OverlayCamera/Overlay/UIMain/Island3dTaskUI(Clone)/top/back"
+				path = "/OverlayCamera/Overlay/UIMain/Island3dTaskUI(Clone)/adapt/top/back"
 			}
 		},
 		{

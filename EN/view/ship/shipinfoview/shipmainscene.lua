@@ -14,20 +14,20 @@ slot0.ResUISettings = function(slot0)
 	return true
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = getProxy(BayProxy):getShipById(slot1.shipId)
-	slot3 = {
+slot0.getResource = function(slot0)
+	slot1 = getProxy(BayProxy):getShipById(slot0.contextData.shipId)
+	slot2 = {
 		"ui/ShipDetailView",
-		"bg/star_level_bg_" .. slot2:rarity2bgPrintForGet(),
-		"ui/star_level_bg_" .. slot2:rarity2bgPrintForGet()
+		"bg/star_level_bg_" .. slot1:rarity2bgPrintForGet(),
+		"ui/star_level_bg_" .. slot1:rarity2bgPrintForGet()
 	}
-	slot6 = pg.ship_skin_template[slot2:getSkinId()].rarity_bg and slot5.rarity_bg ~= ""
+	slot5 = pg.ship_skin_template[slot1:getSkinId()].rarity_bg and slot4.rarity_bg ~= ""
 
-	if slot2:getRarity() > 2 and not slot6 then
-		table.insert(slot3, "ui/al_bg02_" .. slot4 - 1)
+	if slot1:getRarity() > 2 and not slot5 then
+		table.insert(slot2, "ui/al_bg02_" .. slot3 - 1)
 	end
 
-	return table.insertto(slot3, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot2, uv0.super.getResource(slot0))
 end
 
 slot0.preload = function(slot0, slot1)

@@ -39,8 +39,8 @@ slot0.GetAllCryptolaliaAuditionRes = function()
 	return slot0
 end
 
-slot0.getResource = function(slot0, slot1)
-	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+slot0.getResource = function(slot0)
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), {
 		"ui/CryptolaliaUI_atlas",
 		"ui/CryptolaliaListui",
 		"ui/CryptolaliaPurchaseWindowui",

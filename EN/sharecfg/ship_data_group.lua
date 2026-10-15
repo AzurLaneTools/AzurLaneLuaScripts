@@ -34447,6 +34447,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -34477,6 +34488,17 @@ end)()
 				"Event: Tempesta and the Sleeping Sea",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -34511,6 +34533,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -34541,6 +34574,17 @@ end)()
 				"Event: Tempesta and the Sleeping Sea",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -34575,6 +34619,16 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	}
@@ -34605,6 +34659,17 @@ end)()
 				"Event: Tempesta and Islas de Libertád",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -34639,6 +34704,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"Light Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -34669,6 +34745,17 @@ end)()
 				"Event: Tempesta and Islas de Libertád",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -34703,6 +34790,17 @@ end)()
 					""
 				},
 				0
+			},
+			{
+				"Light Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	}
@@ -34733,6 +34831,16 @@ end)()
 				"Event: Tempesta and Islas de Libertád",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}

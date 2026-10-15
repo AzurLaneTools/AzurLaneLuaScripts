@@ -11,7 +11,9 @@ slot0.getUIName = function(slot0)
 	return "NewShopUI"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
+	slot1 = slot0.contextData
+
 	slot5 = function(slot0)
 		slot1 = {}
 
@@ -26,7 +28,7 @@ slot0.getResource = function(slot0, slot1)
 		return slot1
 	end
 
-	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), {
 		(function ()
 			return "live2d/" .. Ship.New({
 				configId = 312011
@@ -424,13 +426,9 @@ slot0.didEnter = function(slot0)
 				uv0.contextData.shop2 = nil
 				uv0.shop1 = nil
 				uv0.shop2 = nil
-
-				originalPrint(string.format("Begin: toggleType=%s, goName=%s", uv2.type, uv2.go.parent.name))
-
 				uv0.contextData.type = ShopConst.SHOP_TYPE.CHARGE
 				uv0.contextData.warp = uv2.type
 
-				originalPrint(string.format("End: warp=%s", uv0.contextData.warp))
 				uv0:switchSubView(uv0:GetShopID(ShopConst.SHOP_TYPE.CHARGE, uv2.type))
 			end
 
@@ -564,11 +562,36 @@ slot0.GetDefaultSupplyShopName = function(slot0)
 
 	slot2 = ""
 
-	return slot0.contextData.warp == ShopConst.CATEGORY_MONTH and "monthShop" or slot0.contextData.warp == ShopConst.CATEGORY_SUPPLY and "supplyShop" or slot0.contextData.warp == ShopConst.CATEGORY_ACTIVITY and "activityShop" or "supplyShop"
+	return slot0.contextData.warp == ShopConst.CATEGORY_MONTH and "monthShop" or slot0.contextData.warp == ShopConst.CATEGORY_SUPPLY and "supplyShop" or slot0.contextData.warp == ShopConst.CATEGORY_ACTIVITY and #slot0.supplyShopList[ShopConst.TYPE_ACTIVITY] > 0 and "activityShop" or "supplyShop"
 end
 
 slot0.RefreshActivityShop = function(slot0)
 	setActive(slot0.buttonList:Find("shop1List/supplyShop/shop2List/activityShop"), #(slot0.supplyShopList[ShopConst.TYPE_ACTIVITY] or {}) > 0)
+end
+
+slot0.RefreshActivityEnd = function(slot0, slot1)
+	slot2 = slot0.supplyShopList[ShopConst.TYPE_ACTIVITY] or {}
+	slot3 = false
+
+	for slot7, slot8 in pairs(slot2) do
+		if slot8.id == slot1 then
+			table.remove(slot0.supplyShopList[ShopConst.TYPE_ACTIVITY], slot7)
+
+			slot3 = true
+
+			break
+		end
+	end
+
+	if slot3 == false then
+		return
+	end
+
+	slot0:RefreshActivityShop()
+
+	if slot0.contextData.type == ShopConst.SHOP_TYPE.SUPPLY then
+		triggerToggle(slot0.buttonList:Find("shop1List/supplyShop/shop2List/" .. slot0:GetDefaultSupplyShopName()), true)
+	end
 end
 
 slot0.ShowOrHideUI = function(slot0, slot1)
@@ -794,8 +817,6 @@ slot0.GetShopID = function(slot0, slot1, slot2)
 end
 
 slot0.switchSubView = function(slot0, slot1)
-	originalPrint(string.format("End: shopID=%s curShopID=%s", slot1, slot0.curSubViewNum))
-
 	if slot1 == slot0.curSubViewNum then
 		return
 	end
@@ -856,8 +877,8 @@ slot0.updateCurSubView = function(slot0)
 		return
 	end
 
-	slot1:setGoodData(slot0.firstChargeIds, slot0.chargedList, slot0.normalList, slot0.normalGroupList)
-	slot1:reUpdateAll()
+	slot1:ActionInvoke("setGoodData", slot0.firstChargeIds, slot0.chargedList, slot0.normalList, slot0.normalGroupList)
+	slot1:ActionInvoke("reUpdateAll")
 end
 
 slot0.updateNoRes = function(slot0, slot1)

@@ -19,7 +19,7 @@ slot0.OnInit = function(slot0)
 		slot0._tf:Find("tip2"),
 		slot0._tf:Find("tip3")
 	}
-	slot0.goBtn = slot0._tf:Find("go_btn")
+	slot0.goBtn = slot0._tf:Find("adpter/go_btn")
 	slot0.helpBtn = slot0._tf:Find("adpter/help")
 	slot0.rawImage = slot0._tf:Find("preview_raw"):GetComponent(typeof(RawImage))
 	slot0.listRect = slot0._tf:Find("list/frame")

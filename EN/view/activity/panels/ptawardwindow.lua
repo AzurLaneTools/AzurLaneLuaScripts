@@ -23,12 +23,45 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.closeBtn = slot3:Find("window/top/btnBack")
 	slot3 = slot0._tf
 	slot0.ptIcon = slot3:Find("window/pt/icon")
+	slot3 = slot0._tf
+	slot0.getBtn = slot3:Find("window/btn_get")
 
 	onButton(slot0.binder, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0.binder, slot0.closeBtn, function ()
 		uv0:Hide()
+	end, SFX_PANEL)
+	onButton(slot0.binder, slot0.getBtn, function ()
+		if not uv0.ptData or uv0.ptData:GetMaxAvailableTargetIndex() == uv0.ptData:GetLevel() then
+			return
+		end
+
+		slot0 = {}
+		slot2 = getProxy(PlayerProxy):getRawData()
+		slot6, slot7 = Task.StaticJudgeOverflow(slot2.gold, slot2.oil, LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]), true, true, uv0.ptData:GetAllAvailableAwards())
+
+		if slot6 then
+			table.insert(slot0, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					type = MSGBOX_TYPE_ITEM_BOX,
+					content = i18n("award_max_warning"),
+					items = uv0,
+					onYes = slot0
+				})
+			end)
+		end
+
+		seriesAsync(slot0, function ()
+			uv0.binder:emit(ActivityMediator.EVENT_PT_OPERATION, {
+				cmd = 4,
+				activity_id = uv0.ptData:GetId(),
+				arg1 = uv0.ptData:GetCurrTarget(),
+				callback = function ()
+					uv0:Refresh()
+				end
+			})
+		end)
 	end, SFX_PANEL)
 end
 
@@ -81,6 +114,7 @@ end
 slot0.Show = function(slot0, slot1)
 	slot6 = slot1.resDrop
 	slot0.blur = slot1.blur
+	slot0.ptActId = slot1.ptActId
 	slot0.resIcon = nil
 
 	slot0:UpdateTitle(slot1.type)
@@ -96,6 +130,8 @@ slot0.Show = function(slot0, slot1)
 	if slot0.blur then
 		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	end
+
+	slot0:Refresh()
 end
 
 slot0.UpdateTitle = function(slot0, slot1)
@@ -155,6 +191,21 @@ slot0.updateResIcon = function(slot0, slot1, slot2)
 
 	if slot0.resIcon then
 		LoadImageSpriteAsync(slot0.resIcon, slot0.totalTitleIcon, false)
+	end
+end
+
+slot0.Refresh = function(slot0)
+	if slot0.ptActId then
+		slot1 = getProxy(ActivityProxy):getActivityById(slot0.ptActId)
+
+		if not slot0.ptData then
+			slot0.ptData = ActivityPtData.New(slot1)
+		else
+			slot0.ptData:Update(slot1)
+		end
+
+		setActive(slot0.getBtn:Find("off"), slot0.ptData:GetMaxAvailableTargetIndex() == slot0.ptData:GetLevel())
+		setActive(slot0.getBtn:Find("on"), slot0.ptData:GetMaxAvailableTargetIndex() ~= slot0.ptData:GetLevel())
 	end
 end
 

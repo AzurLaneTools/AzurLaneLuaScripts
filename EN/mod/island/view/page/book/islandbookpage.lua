@@ -5,23 +5,23 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	setText(slot0._tf:Find("top/title/Text"), i18n("island_guide"))
-	setText(slot0._tf:Find("top/title/Text/en"), i18n("island_guide_en"))
+	setText(slot0._tf:Find("adapt/top/title/Text"), i18n("island_guide"))
+	setText(slot0._tf:Find("adapt/top/title/Text/en"), i18n("island_guide_en"))
 
-	slot0.charBtn = slot0._tf:Find("view/content/char")
+	slot0.charBtn = slot0._tf:Find("adapt/view/content/char")
 	slot0.charTip = slot0.charBtn:Find("tip")
-	slot0.npcBtn = slot0._tf:Find("view/content/npc")
+	slot0.npcBtn = slot0._tf:Find("adapt/view/content/npc")
 	slot0.npcTip = slot0.npcBtn:Find("tip")
-	slot0.itemBtn = slot0._tf:Find("view/content/item")
+	slot0.itemBtn = slot0._tf:Find("adapt/view/content/item")
 	slot0.itemTip = slot0.itemBtn:Find("tip")
-	slot0.fishBtn = slot0._tf:Find("view/content/fish")
+	slot0.fishBtn = slot0._tf:Find("adapt/view/content/fish")
 	slot0.fishTip = slot0.fishBtn:Find("tip")
 end
 
 slot0.OnInit = function(slot0)
 	slot3 = slot0._tf
 
-	onButton(slot0, slot3:Find("top/back"), function ()
+	onButton(slot0, slot3:Find("adapt/top/back"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.charBtn, function ()

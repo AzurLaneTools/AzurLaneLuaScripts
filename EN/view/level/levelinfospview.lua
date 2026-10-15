@@ -4,10 +4,10 @@ slot0.getUIName = function(slot0)
 	return "LevelInfoSPUI"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	return table.insertto({
 		"ui/levelmainscene_atlas"
-	}, uv0.super.getResource(slot0, slot1))
+	}, uv0.super.getResource(slot0))
 end
 
 slot0.InitUI = function(slot0)
@@ -78,6 +78,7 @@ slot0.Show = function(slot0)
 	})
 	setActive(slot0._tf, true)
 	quickPlayAnimation(slot0._tf, "Anim_LevelInfoSPUI_in")
+	slot0:CheckGuide()
 end
 
 slot0.setAfterResDownload = function(slot0, slot1, slot2, slot3)

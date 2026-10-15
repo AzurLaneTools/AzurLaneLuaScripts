@@ -340,41 +340,41 @@ slot0.RemoveCdTimer = function(slot0)
 	end
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = uv0.super.getResource(slot0, slot1)
+slot0.getResource = function(slot0)
+	slot1 = uv0.super.getResource(slot0)
 
-	slot3 = function(slot0)
+	slot2 = function(slot0)
 		if not table.contains(uv0, slot0) then
 			table.insert(uv0, slot0)
 		end
 	end
 
-	slot3("guildnode/box")
-	slot3("guildnode/battle")
-	slot3("ui/guildmissioninfoui_atlas")
-	slot3("ui/guildformationui_atlas")
+	slot2("guildnode/box")
+	slot2("guildnode/battle")
+	slot2("ui/guildmissioninfoui_atlas")
+	slot2("ui/guildformationui_atlas")
 
-	slot4 = ys.Battle.BattleResourceManager
+	slot3 = ys.Battle.BattleResourceManager
 
-	table.insertto(slot2, slot4.GetDisplayCommonResource())
-	table.insertto(slot2, slot4.GetMapResource(uv1))
-	slot3(slot4.GetCharacterPath(pg.enemy_data_statistics[10].prefab))
-	slot3(slot4.GetCharacterPath(pg.enemy_data_statistics[1028].prefab))
+	table.insertto(slot1, slot3.GetDisplayCommonResource())
+	table.insertto(slot1, slot3.GetMapResource(uv1))
+	slot2(slot3.GetCharacterPath(pg.enemy_data_statistics[10].prefab))
+	slot2(slot3.GetCharacterPath(pg.enemy_data_statistics[1028].prefab))
 
-	for slot13, slot14 in ipairs(getProxy(GuildProxy):getData():GetActiveEvent():GetMissions()) do
-		for slot18, slot19 in ipairs(slot14) do
-			for slot24, slot25 in ipairs(slot19:GetMyShips()) do
-				if getProxy(BayProxy):getShipById(slot25) then
-					slot27 = slot26:getPrefab()
+	for slot12, slot13 in ipairs(getProxy(GuildProxy):getData():GetActiveEvent():GetMissions()) do
+		for slot17, slot18 in ipairs(slot13) do
+			for slot23, slot24 in ipairs(slot18:GetMyShips()) do
+				if getProxy(BayProxy):getShipById(slot24) then
+					slot26 = slot25:getPrefab()
 
-					table.insert(slot2, "char/" .. slot27)
-					table.insert(slot2, "herohrzicon/" .. slot27)
+					table.insert(slot1, "char/" .. slot26)
+					table.insert(slot1, "herohrzicon/" .. slot26)
 				end
 			end
 		end
 	end
 
-	return slot2
+	return slot1
 end
 
 slot0.downloadBattleShipResList = function(slot0, slot1, slot2, slot3)

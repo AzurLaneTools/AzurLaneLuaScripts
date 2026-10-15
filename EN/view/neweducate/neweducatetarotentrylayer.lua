@@ -10,8 +10,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	slot0.progressPart = NewEducateTopProgress.New(slot0._tf:Find("progress"), slot0)
-	slot0.resPart = NewEducateTopRes.New(slot0._tf:Find("res"), slot0)
+	slot0.progressPart = NewEducateTopProgress.New(slot0._tf:Find("adapt/progress"), slot0)
+	slot0.resPart = NewEducateTopRes.New(slot0._tf:Find("adapt/res"), slot0)
 	slot0.toggleTF = slot0._tf:Find("toggle")
 
 	setText(slot0.toggleTF:Find("Text"), i18n("child2_show_detail_desc"))
@@ -85,7 +85,7 @@ slot0.didEnter = function(slot0)
 			openShop = true
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("tip"), function ()
+	onButton(slot0, slot0._tf:Find("adapt/tip"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.child2_choose_help.tip

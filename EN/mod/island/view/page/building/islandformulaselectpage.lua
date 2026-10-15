@@ -5,8 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0._tf:Find("top/back")
-	slot0.title = slot0._tf:Find("top/title")
+	slot0.backBtn = slot0._tf:Find("adapt/top/back")
+	slot0.title = slot0._tf:Find("adapt/top/title")
 	slot0.rightInfo = slot0._tf:Find("rightInfo")
 	slot0.rightInfoEmpty = slot0._tf:Find("rightInfo_empty")
 	slot0.currentformulaIcon = slot0._tf:Find("rightInfo/formula/currentformula")
@@ -29,7 +29,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.uiList = UIItemList.New(slot0._tf:Find("formulaView/content"), slot0._tf:Find("formulaView/content/tpl"))
 	slot0.costuiList = UIItemList.New(slot0._tf:Find("rightInfo/formula/needItem/content"), slot0._tf:Find("rightInfo/formula/needItem/content/IslandItemTpl"))
 
-	setText(slot0._tf:Find("top/title/Text"), i18n("island_select_product"))
+	setText(slot0._tf:Find("adapt/top/title/Text"), i18n("island_select_product"))
 	setText(slot0.formulaItem:Find("tips"), i18n("island_production_count"))
 
 	slot0.baseEffectSpeed = pg.island_set.base_efficiency.key_value_int
@@ -62,7 +62,7 @@ end
 slot0.OnInit = function(slot0)
 	slot3 = slot0._tf
 
-	onButton(slot0, slot3:Find("top/title/help"), function ()
+	onButton(slot0, slot3:Find("adapt/top/title/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.island_help_commission.tip

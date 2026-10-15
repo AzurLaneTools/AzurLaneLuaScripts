@@ -11,11 +11,11 @@ slot0.getUIName = function(slot0)
 	return "WorldCruiseUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot3 = getProxy(ActivityProxy)
-	slot3 = slot3:getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
+slot0.getResource = function(slot0)
+	slot2 = getProxy(ActivityProxy)
+	slot2 = slot2:getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
 
-	slot5 = function(slot0)
+	slot4 = function(slot0)
 		if not slot0 or slot0.type ~= DROP_TYPE_SKIN then
 			return {}
 		end
@@ -23,7 +23,7 @@ slot0.getResource = function(slot0, slot1)
 		return ResPathSupport.GetPaintingSquareIconListByPaintingName(pg.ship_skin_template[slot0.id].painting)
 	end
 
-	slot6 = function(slot0)
+	slot5 = function(slot0)
 		if not slot0 or slot0.type ~= DROP_TYPE_SKIN then
 			return {}
 		end
@@ -33,7 +33,7 @@ slot0.getResource = function(slot0, slot1)
 		return ResPathSupport.MergeLuaArr(ResPathSupport.GetPaintingListByPaintingName(slot1.painting), ResPathSupport.GetPaintingFaceListByPaintingName(slot1.painting))
 	end
 
-	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), {
 		"ui/WorldCruiseUI",
 		"ui/WorldCruiseAwardPage",
 		"ui/WorldCruiseTaskPage",

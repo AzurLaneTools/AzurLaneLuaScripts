@@ -26,8 +26,7 @@ slot0.InitSubViews = function(slot0)
 	}, {
 		__index = slot0.contextData
 	}))
-	slot2 = slot0._tf
-	slot0.aimIKView = Dorm3dAimIKView.New(slot2:Find("AimIKControl"), slot0.event, setmetatable({}, {
+	slot0.aimIKView = Dorm3dAimIKView.New(slot0._tf, slot0.event, setmetatable({}, {
 		__index = slot0.contextData
 	}))
 	slot0.ikView = Dorm3dIKView.New(slot0._tf, slot0.event, {
@@ -2378,6 +2377,12 @@ slot0.willExit = function(slot0)
 	slot0.canTriggerAccompanyPerformance = nil
 
 	slot0.videoPlayer:Destroy()
+
+	if slot0.aimIKView then
+		slot0.aimIKView:Dispose()
+
+		slot0.aimIKView = nil
+	end
 
 	if slot0.ikView then
 		slot0.ikView:Dispose()

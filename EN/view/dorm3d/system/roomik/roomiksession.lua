@@ -8,6 +8,7 @@ slot0.Ctor = function(slot0)
 	slot0.currentIkConfig = nil
 	slot0.currentIkTimelineStatus = nil
 	slot0.stockingCachedIkStatus = nil
+	slot0.aimIKCachedIkStatus = nil
 	slot0.ikSpecialCall = nil
 	slot0.ikActionDict = nil
 	slot0.readyIKLayers = nil
@@ -126,6 +127,7 @@ slot0.Invalidate = function(slot0)
 	slot0:ClearRuntime()
 
 	slot0.stockingCachedIkStatus = nil
+	slot0.aimIKCachedIkStatus = nil
 	slot0.ikSpecialCall = nil
 	slot0.ikTimelineColliderStates = nil
 	slot0.ikSwitchSkinId = nil

@@ -8,7 +8,7 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	slot0.backBtn = slot0._tf:Find("back")
+	slot0.backBtn = slot0._tf:Find("adapt/back")
 	slot0.uiSlots = UIItemList.New(slot0._tf:Find("frame/list"), slot0._tf:Find("frame/list/tpl"))
 	slot0.onekeySlots = UIItemList.New(slot0._tf:Find("list_1"), slot0._tf:Find("list_1/onekey"))
 	slot0.switchBtn = slot0._tf:Find("frame/switch")

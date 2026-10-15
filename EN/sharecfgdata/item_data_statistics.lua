@@ -121636,3 +121636,55 @@ _G.pg.base.item_data_statistics[180010] = {
 	combination_display = {},
 	limit = {}
 }
+
+
+_G.pg.base.item_data_statistics[99985] = {
+	open_directly = 1,
+	name = "Operation Siren Reward Compensation",
+	type = 17,
+	display = "Included is compensation for a bug that occurred in the Operational Handover feature of Operation Siren that took place during September 2026, which prevented certain rewards from being obtained correctly. The following items can be obtained at random: Special Item Tokens, Coordinate Logger, Siren Coordinate Logger.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "7900",
+	id = 99985,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			12,
+			101,
+			10
+		},
+		{
+			12,
+			2100001,
+			1
+		},
+		{
+			12,
+			2100002,
+			1
+		},
+		{
+			12,
+			2100003,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}

@@ -84876,6 +84876,43 @@ _G.pg.base.ship_skin_words[903022] = {
 }
 
 
+_G.pg.base.ship_skin_words[903023] = {
+	hp_warning = "",
+	feeling3 = "",
+	mail = "",
+	expedition = "",
+	win_mvp = "",
+	home = "Well done on another victory. Come and let me give you the reward you deserve.",
+	unlock = "Welcome back, Commander. You've kept me waiting... Don't you think that calls for a little punishment? Heehee, I'm kidding. Come and sit with me, please.",
+	touch2 = "You're awfully bold, when I'm the one holding the whip... If you're so comfortable, then maybe I'd best serve you in a more \"mature\" way♡",
+	mission = "You have tasks that need doing. Are you only able to focus when I crack my whip, Commander?",
+	vote = "",
+	drop_descrip = "Welcome back, Commander. You've kept me waiting... Don't you think that calls for a little punishment? Heehee, I'm kidding. Come and sit with me, please.",
+	feeling4 = "",
+	lose = "",
+	feeling1 = "",
+	skill = "",
+	upgrade = "",
+	propose = "",
+	feeling5 = "Using a whip to restrain somebody's heart is an evil act. A truly gentle maid can captivate her beloved with but a glance... What do you think, Commander?",
+	main = "Oh? Commander, you've been staring at my feet for a while now. Do you want to get stepped on?|Once your work is done, would you like a glass of wine? I wouldn't mind pouring you a drink in an... unusual way, to fit this unique mood.|This is not an easy role to play, but I'm surprised how simple it was to become so irresistible to you~",
+	touch = "Oh? Is this how you prefer your maids serve you, Commander? You're just full of surprises~",
+	voice_key_2 = -1,
+	mission_complete = "",
+	battle = "",
+	id = 903023,
+	gift_dislike = "",
+	gift_prefer = "",
+	profile = "",
+	voice_key = 0,
+	headtouch = "Phew... You know, letting you take control isn't so bad either.",
+	feeling2 = "",
+	login = "Welcome home, Master. If you still can't get your mind off of work, I could help you refocus with this whip... Hm? Wait, do you actually want that?",
+	detail = "Why do I have a whip? Well, you know... Somebody needs to remind you to stick to a proper work-life balance. As for how I'll use it... You'll just have to wait and find out.",
+	couple_encourage = {}
+}
+
+
 _G.pg.base.ship_skin_words[903030] = {
 	hp_warning = "I'm really not cut out for this stuff!",
 	feeling3 = "When I'm with you, I can't help but relax and end up depending on you... Ugh, I can't be like this! I need to be the kind of woman you can depend on!",

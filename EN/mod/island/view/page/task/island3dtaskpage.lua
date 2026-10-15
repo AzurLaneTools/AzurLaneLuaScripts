@@ -41,8 +41,8 @@ slot0.OnLoaded = function(slot0)
 	slot0.tracedBtn = slot0.detailBtns:Find("traced")
 
 	setText(slot0.tracedBtn:Find("Text"), i18n("island_task_tracked"))
-	setText(slot0._tf:Find("top/title/Text"), i18n("island_task_title"))
-	setText(slot0._tf:Find("top/title/Text/en"), i18n("island_task_title_en"))
+	setText(slot0._tf:Find("adapt/top/title/Text"), i18n("island_task_title"))
+	setText(slot0._tf:Find("adapt/top/title/Text/en"), i18n("island_task_title_en"))
 
 	slot0.richtext = slot0.descTF:GetComponent("RichText")
 end
@@ -50,7 +50,7 @@ end
 slot0.OnInit = function(slot0)
 	slot3 = slot0._tf
 
-	onButton(slot0, slot3:Find("top/back"), function ()
+	onButton(slot0, slot3:Find("adapt/top/back"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 

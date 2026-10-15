@@ -27,7 +27,8 @@ slot0.OnLoaded = function(slot0)
 	setActive(slot0.hideuiMask, false)
 
 	slot0.ysScreenShoter = slot0._tf:Find("Shoter"):GetComponent(typeof(YSTool.YSScreenShoter))
-	slot0.stopRecBtn = slot0._tf:Find("stopRec")
+	slot0.stopRecTf = slot0._tf:Find("stopRec")
+	slot0.stopRecBtn = slot0._tf:Find("stopRec/stopRec")
 	slot0.videoTipPanel = slot0._tf:Find("videoTipPanel")
 
 	setActive(slot0.videoTipPanel, false)
@@ -204,7 +205,7 @@ slot0.OnInit = function(slot0)
 			end
 
 			slot2 = function()
-				setActive(uv0.stopRecBtn, true)
+				setActive(uv0.stopRecTf, true)
 
 				slot0 = LeanTween.moveX(uv0.stopRecBtn, 0, 0.15)
 
@@ -282,7 +283,7 @@ slot0.OnInit = function(slot0)
 			slot2 = LeanTween.moveX(uv0.stopRecBtn, uv0.stopRecBtn.rect.width, 0.15)
 
 			slot2:setOnComplete(System.Action(function ()
-				setActive(uv0.stopRecBtn, false)
+				setActive(uv0.stopRecTf, false)
 				seriesAsync({
 					function (slot0)
 						YSNormalTool.RecordTool.StopRecording(uv0)
@@ -293,7 +294,7 @@ slot0.OnInit = function(slot0)
 			end))
 		end
 	end)
-	setActive(slot0.stopRecBtn, false)
+	setActive(slot0.stopRecTf, false)
 end
 
 slot0.ChangeSliderValue = function(slot0, slot1)

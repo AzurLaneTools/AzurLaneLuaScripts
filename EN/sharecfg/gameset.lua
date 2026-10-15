@@ -4796,6 +4796,12 @@ end)()
 		description = "",
 		key_value = 3600
 	}
+	pg.base.gameset.profile_cv1_button_block = {
+		key_value = 0,
+		description = {
+			20403
+		}
+	}
 	pg.base.gameset.world_auto_battle_map_limit = {
 		description = "",
 		key_value = 20

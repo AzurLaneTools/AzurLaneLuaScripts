@@ -24,8 +24,8 @@ slot0.getUIName = function(slot0)
 	return "DockyardUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/dockyardui_atlas",
 		"energy",
 		"shipstatus",
@@ -38,16 +38,16 @@ slot0.getResource = function(slot0, slot1)
 		"ui/recordablesearchbarui"
 	}
 
-	table.insertto(slot2, slot0:getDockyardShipResList(slot1))
+	table.insertto(slot1, slot0:getDockyardShipResList())
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
-slot0.getDockyardShipResList = function(slot0, slot1)
+slot0.getDockyardShipResList = function(slot0)
 	slot2 = {}
 	slot3 = {}
 
-	if slot1 and slot1.shipVOs then
+	if slot0.contextData and slot1.shipVOs then
 		for slot7, slot8 in ipairs(slot1.shipVOs) do
 			slot3[slot8.id] = slot8
 		end
@@ -175,7 +175,8 @@ slot0.init = function(slot0)
 	slot0.modLeveFilter = slot0.topPanel:Find("mod_flter_level")
 	slot0.energyDescTF = slot0._tf:Find("energy_desc")
 	slot0.energyDescTextTF = slot0.energyDescTF:Find("Text")
-	slot0.selectPanel = slot0.blurPanel:Find("select_panel")
+	slot0.selectPanel = slot0.blurPanel:Find("select_panel_adapt/select_panel")
+	slot0.selectPanelBg = slot0.blurPanel:Find("select_panel_bg")
 	slot0.bottomTipsText = slot0.selectPanel:Find("tip")
 	slot0.bottomTipsWithFrame = slot0.selectPanel:Find("tipwithframe")
 
@@ -224,23 +225,27 @@ slot0.init = function(slot0)
 	}, function ()
 		uv0.selecteEnabled = true
 	end)
-	setActive(slot0.selectPanel, slot0.selecteEnabled and slot0.contextData.mode ~= uv0.MODE_WORLD)
+
+	slot2 = slot0.selecteEnabled and slot0.contextData.mode ~= uv0.MODE_WORLD
+
+	setActive(slot0.selectPanel, slot2)
+	setActive(slot0.selectPanelBg, slot2)
 	setActive(slot0.worldPanel, slot0.contextData.mode == uv0.MODE_WORLD)
 
-	slot2 = slot0.contextData.mode == uv0.MODE_DESTROY
+	slot3 = slot0.contextData.mode == uv0.MODE_DESTROY
 
-	setActive(slot0.settingBtn, slot2)
-	setActive(slot0.selectPanel:Find("quick_select"), slot2)
+	setActive(slot0.settingBtn, slot3)
+	setActive(slot0.selectPanel:Find("quick_select"), slot3)
 
 	if slot0.contextData.priorEquipUpShipIDList and slot0.contextData.priorMode then
 		setActive(slot0.tipPanel, true)
 
-		slot3 = slot0.tipPanel:Find("EquipUP")
+		slot4 = slot0.tipPanel:Find("EquipUP")
 
-		setText(slot3, i18n("fightfail_choiceequip"))
+		setText(slot4, i18n("fightfail_choiceequip"))
 		setText(slot0.tipPanel:Find("ShipUP"), i18n("fightfail_choicestrengthen"))
-		setActive(slot3, slot0.contextData.priorMode == uv0.PRIOR_MODE_EQUIP_UP)
-		setActive(slot4, slot0.contextData.priorMode == uv0.PRIOR_MODE_SHIP_UP)
+		setActive(slot4, slot0.contextData.priorMode == uv0.PRIOR_MODE_EQUIP_UP)
+		setActive(slot5, slot0.contextData.priorMode == uv0.PRIOR_MODE_SHIP_UP)
 	end
 
 	slot0.togglePhantom = slot0._tf:Find("blur_panel/adapt/left_length/frame/toggle_phantom")
@@ -263,7 +268,7 @@ slot0.init = function(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot3 = slot0.contextData.mode == uv0.MODE_SHIP_PHANTOM and "phantom" or "dockyard"
+	slot4 = slot0.contextData.mode == uv0.MODE_SHIP_PHANTOM and "phantom" or "dockyard"
 
 	eachChild(slot0.topPanel:Find("titles"), function (slot0, slot1)
 		setActive(slot0, slot0.name == uv0)
@@ -554,7 +559,12 @@ slot0.SwitchContainerDisplay = function(slot0)
 				end)
 			end
 
-			uv0.shipContainer:GetComponentInChildren(typeof(GridLayoutGroup)).constraintCount = 7
+			slot3 = uv0.shipContainer:GetComponentInChildren(typeof(GridLayoutGroup))
+			slot8 = uv0._tf:Find("main/ship_container").rect.width - slot3.padding.left - slot3.padding.right
+
+			if slot3.cellSize.x + slot3.spacing.x > 0 then
+				slot3.constraintCount = math.max(7, math.floor((slot8 + slot7) / slot9) - 1)
+			end
 
 			uv0:filter()
 		end

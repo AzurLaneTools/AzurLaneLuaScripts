@@ -19,8 +19,8 @@ slot0.getBGM = function(slot0)
 	end
 end
 
-slot0.getResource = function(slot0, slot1)
-	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+slot0.getResource = function(slot0)
+	return ResPathSupport.UniqueLuaArr(ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), {
 		"ui/worldmediacollectionui",
 		"ui/worldmediacollectionmemoryui_atlas",
 		"ui/worldmediacollectionfileui_atlas",

@@ -7,7 +7,7 @@ end
 slot0.OnLoaded = function(slot0)
 	slot2 = slot0._tf
 
-	setText(slot2:Find("top/title/Text"), i18n("island_achievement_title"))
+	setText(slot2:Find("adapt/top/title/Text"), i18n("island_achievement_title"))
 
 	slot2 = slot0._tf
 
@@ -46,7 +46,7 @@ end
 slot0.OnInit = function(slot0)
 	slot3 = slot0._tf
 
-	onButton(slot0, slot3:Find("top/back"), function ()
+	onButton(slot0, slot3:Find("adapt/top/back"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 

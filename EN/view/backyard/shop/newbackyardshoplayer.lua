@@ -218,90 +218,90 @@ slot0.InitPageFooter = function(slot0)
 	setActive(slot0.btnTpl, false)
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot3 = {}
+slot0.getResource = function(slot0)
+	slot2 = {}
 
-	for slot7, slot8 in ipairs(uv0.super.getResource(slot0, slot1)) do
-		slot3[slot8] = true
+	for slot6, slot7 in ipairs(uv0.super.getResource(slot0)) do
+		slot2[slot7] = true
 	end
 
-	for slot8, slot9 in ipairs(pg.furniture_shop_template.all) do
-		if pg.TimeMgr.GetInstance():inTime(pg.furniture_shop_template[slot9].time) then
-			slot14 = "furnitrues/" .. pg.furniture_data_template[slot9].picture
+	for slot7, slot8 in ipairs(pg.furniture_shop_template.all) do
+		if pg.TimeMgr.GetInstance():inTime(pg.furniture_shop_template[slot8].time) then
+			slot13 = "furnitrues/" .. pg.furniture_data_template[slot8].picture
 
-			if "furnitureicon/" .. pg.furniture_data_template[slot9].icon ~= "furnitureicon/" and not slot3[slot15] then
-				slot3[slot15] = true
+			if "furnitureicon/" .. pg.furniture_data_template[slot8].icon ~= "furnitureicon/" and not slot2[slot14] then
+				slot2[slot14] = true
 
-				table.insert(slot2, slot15)
+				table.insert(slot1, slot14)
 			end
 
-			slot16 = pg.furniture_data_template[slot9].type
-			slot17 = pg.furniture_data_template[slot9].tag
-			slot18 = pg.furniture_data_template[slot9].spine
+			slot15 = pg.furniture_data_template[slot8].type
+			slot16 = pg.furniture_data_template[slot8].tag
+			slot17 = pg.furniture_data_template[slot8].spine
 
-			if slot14 == "furnitrues/" then
+			if slot13 == "furnitrues/" then
 				-- Nothing
-			elseif slot16 == 1 and slot17 == 3 then
-				for slot22 = 1, 4 do
-					if not slot3[slot14 .. slot22] then
-						slot3[slot14 .. slot22] = true
+			elseif slot15 == 1 and slot16 == 3 then
+				for slot21 = 1, 4 do
+					if not slot2[slot13 .. slot21] then
+						slot2[slot13 .. slot21] = true
 
-						table.insert(slot2, slot14 .. slot22)
+						table.insert(slot1, slot13 .. slot21)
 					end
 				end
-			elseif slot18 and slot18 ~= "" then
-				slot19, slot20 = nil
+			elseif slot17 and slot17 ~= "" then
+				slot18, slot19 = nil
 
-				if slot18[1] and #slot18[1] > 0 and type(slot18[1][1]) == "string" then
-					slot19 = "sfurniture/" .. slot18[1][1]
+				if slot17[1] and #slot17[1] > 0 and type(slot17[1][1]) == "string" then
+					slot18 = "sfurniture/" .. slot17[1][1]
 				end
 
-				if slot18[2] and #slot18[2] > 0 and type(slot18[2][1]) == "string" then
-					slot20 = "sfurniture/" .. slot18[2][1]
+				if slot17[2] and #slot17[2] > 0 and type(slot17[2][1]) == "string" then
+					slot19 = "sfurniture/" .. slot17[2][1]
 				end
 
-				if slot19 and not slot3[slot19] then
-					slot3[slot19] = true
+				if slot18 and not slot2[slot18] then
+					slot2[slot18] = true
 
-					table.insert(slot2, slot19)
+					table.insert(slot1, slot18)
 				end
 
-				if slot20 and not slot3[slot20] then
-					slot3[slot20] = true
+				if slot19 and not slot2[slot19] then
+					slot2[slot19] = true
 
-					table.insert(slot2, slot20)
+					table.insert(slot1, slot19)
 				end
-			elseif not slot3[slot14] then
-				slot3[slot14] = true
+			elseif not slot2[slot13] then
+				slot2[slot13] = true
 
-				table.insert(slot2, slot14)
+				table.insert(slot1, slot13)
 			end
 		end
 	end
 
-	for slot9, slot10 in ipairs(getProxy(DormProxy):GetSystemThemes()) do
-		if slot10:getConfig("is_view") == 1 and not slot10:IsOverTime() then
-			if not slot3["furnitureicon/" .. pg.backyard_theme_template[slot10.id].icon] then
-				slot3[slot14] = true
+	for slot8, slot9 in ipairs(getProxy(DormProxy):GetSystemThemes()) do
+		if slot9:getConfig("is_view") == 1 and not slot9:IsOverTime() then
+			if not slot2["furnitureicon/" .. pg.backyard_theme_template[slot9.id].icon] then
+				slot2[slot13] = true
 
-				table.insert(slot2, slot14)
+				table.insert(slot1, slot13)
 			end
 
-			if not slot3["backyardtheme/theme_" .. slot11] then
-				slot3[slot15] = true
+			if not slot2["backyardtheme/theme_" .. slot10] then
+				slot2[slot14] = true
 
-				table.insert(slot2, slot15)
+				table.insert(slot1, slot14)
 			end
 
-			if not slot3["backyardtheme/" .. slot11] then
-				slot3[slot16] = true
+			if not slot2["backyardtheme/" .. slot10] then
+				slot2[slot15] = true
 
-				table.insert(slot2, slot16)
+				table.insert(slot1, slot15)
 			end
 		end
 	end
 
-	return slot2
+	return slot1
 end
 
 slot0.UpdateSpecialPageFooter = function(slot0)

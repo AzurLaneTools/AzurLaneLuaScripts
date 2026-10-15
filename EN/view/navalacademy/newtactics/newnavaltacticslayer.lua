@@ -10,14 +10,14 @@ slot0.getUIName = function(slot0)
 	return "NewNavalTacticsUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot3 = function(slot0, slot1)
+slot0.getResource = function(slot0)
+	slot2 = function(slot0, slot1)
 		if noEmptyStr(slot1) and not table.contains(slot0, slot1) then
 			table.insert(slot0, slot1)
 		end
 	end
 
-	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), {
 		"ui/newnavaltacticsui"
 	}, (function ()
 		slot0 = {}

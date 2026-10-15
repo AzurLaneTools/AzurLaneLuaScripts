@@ -394,7 +394,12 @@ pg.cartoon.all = {
 	389,
 	390,
 	391,
-	392
+	392,
+	393,
+	394,
+	395,
+	396,
+	397
 }
 pg.base = pg.base or {}
 pg.base.cartoon = {}
@@ -2757,5 +2762,35 @@ end)()
 		cartoon_id = 392,
 		mark = 61,
 		resource = "392"
+	}
+	pg.base.cartoon[393] = {
+		id = 393,
+		cartoon_id = 393,
+		mark = 62,
+		resource = "393"
+	}
+	pg.base.cartoon[394] = {
+		id = 394,
+		cartoon_id = 394,
+		mark = 62,
+		resource = "394"
+	}
+	pg.base.cartoon[395] = {
+		id = 395,
+		cartoon_id = 395,
+		mark = 62,
+		resource = "395"
+	}
+	pg.base.cartoon[396] = {
+		id = 396,
+		cartoon_id = 396,
+		mark = 62,
+		resource = "396"
+	}
+	pg.base.cartoon[397] = {
+		id = 397,
+		cartoon_id = 397,
+		mark = 62,
+		resource = "397"
 	}
 end)()

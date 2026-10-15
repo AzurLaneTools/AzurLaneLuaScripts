@@ -3403,7 +3403,12 @@ end)()
 		special_bgm = "",
 		bgm = "story-musicanniversary-gorgeous"
 	}
-	pg.base.voice_bgm["ActivityRemasterScene "] = {
+	pg.base.voice_bgm.WindFogCorridorSkinPage = {
+		default_bgm = "story-richang-rosy-short",
+		special_bgm = "",
+		bgm = "story-richang-rosy-short"
+	}
+	pg.base.voice_bgm.ActivityRemasterScene = {
 		default_bgm = "story-richang",
 		special_bgm = "",
 		bgm = "story-richang"

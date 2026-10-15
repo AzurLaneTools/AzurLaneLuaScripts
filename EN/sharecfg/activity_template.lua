@@ -1117,6 +1117,9 @@ pg.activity_template.all = {
 	50500,
 	50521,
 	50522,
+	51201,
+	51202,
+	51203,
 	50801,
 	50803,
 	50804,
@@ -2849,6 +2852,7 @@ pg.activity_template.get_id_list_by_type = {
 		50482,
 		50487,
 		50489,
+		51202,
 		50805,
 		50817,
 		50826,
@@ -3370,6 +3374,7 @@ pg.activity_template.get_id_list_by_type = {
 		50323,
 		50471,
 		50480,
+		51201,
 		50846,
 		50610,
 		50630,
@@ -4245,6 +4250,7 @@ pg.activity_template.get_id_list_by_type = {
 		50477,
 		50502,
 		50483,
+		51203,
 		50806,
 		50821,
 		50833,
@@ -55909,6 +55915,185 @@ end)()
 			mediator = "BossRushAlvitMediator"
 		}
 	}
+	pg.base.activity_template[51201] = {
+		mark = 20261015,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 1,
+		title_res_tag = "WindFogCorridorCoreActivityUI_subtitle_1",
+		id = 51201,
+		page_core = "WindFogCorridorCoreActivityUI",
+		config_data = {
+			{
+				27801,
+				27802,
+				27803,
+				27804,
+				27805,
+				27806,
+				27807,
+				27808,
+				27809,
+				27810,
+				27811,
+				27812,
+				27813,
+				27814,
+				27816
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "WindFogCorridorSkinPage",
+			ui_name = "WindFogCorridorSkinPage"
+		},
+		config_client = {
+			subType = 1,
+			once_task = 27816,
+			sub_act_id = 51203,
+			ptActId = 51203,
+			daily_task = 27815,
+			unlock_task = {
+				{
+					27801,
+					27802
+				},
+				{
+					27803,
+					27804
+				},
+				{
+					27805,
+					27806
+				},
+				{
+					27807,
+					27808
+				},
+				{
+					27809,
+					27810
+				},
+				{
+					27811,
+					27812
+				},
+				{
+					27813,
+					27814
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51202] = {
+		mark = 20261015,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51202,
+		page_core = "",
+		config_data = {
+			27815
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51203] = {
+		mark = 20261015,
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 51203,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51203,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.activity_template[50801] = {
 		mark = 20260423,
 		page_info = "",
@@ -60457,6 +60642,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[51013] = {
 		mark = 20260528,
 		type = 74,
@@ -60621,8 +60808,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[51007] = {
 		mark = 20260528,
 		page_info = "",
@@ -65520,6 +65705,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7013] = {
 		mark = 20230928,
 		type = 54,
@@ -65769,8 +65956,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7016] = {
 		mark = 20240328,
 		type = 54,
@@ -70833,6 +71018,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[6008] = {
 		mark = 20211223,
 		time = "stop",
@@ -70989,8 +71176,6 @@ end)()
 			ui_name = "SaratogaPermanentSkinPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6011] = {
 		mark = 20220513,
 		time = "stop",
@@ -74551,6 +74736,8 @@ end)()
 		id = 30085,
 		page_core = ""
 	}
+end)()
+(function ()
 	pg.base.activity_template[30086] = {
 		mark = 20190221,
 		page_info = "",
@@ -74605,8 +74792,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30089] = {
 		mark = 20190314,
 		page_info = "",
@@ -77563,6 +77748,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30187] = {
 		mark = 20190807,
 		page_info = "",
@@ -77662,8 +77849,6 @@ end)()
 		page_core = "",
 		config_data = {}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30190] = {
 		mark = 20190815,
 		page_info = "",
@@ -80357,6 +80542,8 @@ end)()
 			1300051
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30294] = {
 		mark = 20191226,
 		page_info = "",
@@ -80424,8 +80611,6 @@ end)()
 		id = 30296,
 		page_core = ""
 	}
-end)()
-(function ()
 	pg.base.activity_template[30297] = {
 		mark = 20191226,
 		page_info = "",
@@ -83025,6 +83210,8 @@ end)()
 			ui_name = "TianChengReMainPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30394] = {
 		mark = 20200423,
 		page_info = "",
@@ -83080,8 +83267,6 @@ end)()
 			15570
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30397] = {
 		mark = 20200507,
 		time = "stop",
@@ -85904,6 +86089,8 @@ end)()
 			15886
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30494] = {
 		mark = 20200820,
 		time = "stop",
@@ -86021,8 +86208,6 @@ end)()
 			14212
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30497] = {
 		mark = 20200903,
 		page_info = "",
@@ -88478,6 +88663,8 @@ end)()
 			entrance_bg = "activitybanner/temp10"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[30822] = {
 		mark = 20210610,
 		page_info = "",
@@ -88608,8 +88795,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[30825] = {
 		mark = 20210722,
 		page_info = "",
@@ -95463,6 +95648,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990009] = {
 		mark = 20260205,
 		page_info = "",
@@ -95559,8 +95746,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990014] = {
 		mark = 20260319,
 		page_info = "",
@@ -98788,6 +98973,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1000108] = {
 		mark = 20261008,
 		time = "stop",
@@ -98871,8 +99058,6 @@ end)()
 			220006
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[1000111] = {
 		mark = 20261008,
 		page_info = "",

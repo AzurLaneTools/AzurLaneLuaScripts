@@ -6,11 +6,11 @@ slot0.getUIName = function(slot0)
 	return "CombatLoadUI"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	slot2 = {}
 	slot3, slot4 = nil
 
-	if slot1.system == SYSTEM_BOSS_RUSH_COLLABRATE then
+	if slot0.contextData.system == SYSTEM_BOSS_RUSH_COLLABRATE then
 		slot3 = AppreciatePicConst.TYPE_GALLERY
 		slot4 = "bg/star_level_bg_211"
 	elseif AppreciatePicConst.getRandomLoadingPic() then

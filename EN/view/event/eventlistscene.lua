@@ -20,20 +20,20 @@ slot0.getUIName = function(slot0)
 	return "EventUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"weaponframes",
 		"shiptype",
 		"ui/iconcolorful"
 	}
 
-	slot3 = function(slot0)
+	slot2 = function(slot0)
 		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
 			table.insert(uv0, slot0)
 		end
 	end
 
-	slot4 = function(slot0)
+	slot3 = function(slot0)
 		if not slot0 or not slot0.type or not slot0.id then
 			return
 		end
@@ -48,32 +48,32 @@ slot0.getResource = function(slot0, slot1)
 		uv0(slot1:getDefaultIcon())
 	end
 
-	slot5 = getProxy(EventProxy):getEventList() or {}
-	slot6 = getProxy(BayProxy)
+	slot4 = getProxy(EventProxy):getEventList() or {}
+	slot5 = getProxy(BayProxy)
 
-	for slot10, slot11 in ipairs(slot5) do
-		slot3("eventtype/" .. slot11.template.icon)
+	for slot9, slot10 in ipairs(slot4) do
+		slot2("eventtype/" .. slot10.template.icon)
 
-		slot12 = ipairs
-		slot13 = slot11.template.drop_display or {}
+		slot11 = ipairs
+		slot12 = slot10.template.drop_display or {}
 
-		for slot15, slot16 in slot12(slot13) do
-			slot4(slot16)
+		for slot14, slot15 in slot11(slot12) do
+			slot3(slot15)
 		end
 
-		slot4(slot11.template.special_drop)
+		slot3(slot10.template.special_drop)
 
-		slot12 = ipairs
-		slot13 = slot11.shipIds or {}
+		slot11 = ipairs
+		slot12 = slot10.shipIds or {}
 
-		for slot15, slot16 in slot12(slot13) do
-			if slot6:RawGetShipById(slot16) then
-				slot3("SquareIcon/" .. slot17:getPainting())
+		for slot14, slot15 in slot11(slot12) do
+			if slot5:RawGetShipById(slot15) then
+				slot2("SquareIcon/" .. slot16:getPainting())
 			end
 		end
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.init = function(slot0)
