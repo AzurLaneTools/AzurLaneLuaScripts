@@ -32514,26 +32514,26 @@ cs.gametip = {
 	},
 	formation_suggestion_info_level_recommend = {
 		1582885,
-		128
+		125
 	},
 	formation_suggestion_prev_chapter = {
-		1583013,
+		1583010,
 		106
 	},
 	formation_suggestion_next_chapter = {
-		1583119,
+		1583116,
 		106
 	},
 	ActivityRemasterCoreActivityAdaptUI_TITLE = {
-		1583225,
+		1583222,
 		117
 	},
 	ActivityRemasterCoreActivityAdaptUI_TITLE_EN = {
-		1583342,
+		1583339,
 		113
 	},
 	ActivityRemaster_NoticeJump_AlreadySelected = {
-		1583455,
+		1583452,
 		222
 	}
 }

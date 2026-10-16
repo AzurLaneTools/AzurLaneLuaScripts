@@ -18,18 +18,6 @@ pg.chapter_suggestion_char.all = {
 	1331,
 	1332,
 	1333,
-	1341,
-	1342,
-	1343,
-	1344,
-	1345,
-	1346,
-	1351,
-	1352,
-	1353,
-	1354,
-	1355,
-	1356,
 	1401,
 	1402,
 	1403,
@@ -61,10 +49,11 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "special",
 						page = 1
 					}
 				},
-				"建造"
+				"特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -153,10 +142,11 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "special",
 						page = 1
 					}
 				},
-				"建造"
+				"特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -245,10 +235,11 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "special",
 						page = 1
 					}
 				},
-				"建造"
+				"特型艦建造"
 			},
 			{
 				{
@@ -335,96 +326,8 @@ pg.base.chapter_suggestion_char = {}
 	pg.base.chapter_suggestion_char[1304] = {
 		remoulded = 0,
 		char_lv = 125,
-		char_id = 299054,
-		id = 1304,
-		star = 6,
-		source = {
-			{
-				{
-					"shipblueprint",
-					{
-						shipGroupId = 29905
-					}
-				},
-				"特別計画艦Ⅴ期"
-			}
-		},
-		skill_lv = {
-			{
-				19530,
-				10
-			},
-			{
-				19540,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					22280,
-					10
-				},
-				{
-					45140,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					2440,
-					10
-				}
-			},
-			{
-				{
-					1020120,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					42080,
-					10
-				},
-				{
-					45140,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					2440,
-					10
-				}
-			},
-			{
-				{
-					1020100,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1305] = {
-		remoulded = 0,
-		char_lv = 125,
 		char_id = 399064,
-		id = 1305,
+		id = 1304,
 		star = 6,
 		source = {
 			{
@@ -466,7 +369,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					2440,
+					1340,
 					10
 				}
 			},
@@ -502,7 +405,104 @@ pg.base.chapter_suggestion_char = {}
 			},
 			{
 				{
-					1030120,
+					1030100,
+					10
+				}
+			}
+		}
+	}
+	pg.base.chapter_suggestion_char[1305] = {
+		remoulded = 0,
+		char_lv = 125,
+		char_id = 301864,
+		id = 1305,
+		star = 6,
+		source = {
+			{
+				{
+					"scene get boat",
+					{
+						page = 3
+					}
+				},
+				"支援要請（ランダムで出現）"
+			},
+			{
+				{
+					"scene shop",
+					{
+						warp = "medal"
+					}
+				},
+				"勲章交換（ランダムで出現）"
+			}
+		},
+		skill_lv = {
+			{
+				14670,
+				10
+			},
+			{
+				14680,
+				10
+			}
+		},
+		wepaon = {
+			{
+				{
+					21620,
+					10
+				},
+				{
+					45140,
+					10
+				},
+				{
+					26540,
+					10
+				},
+				{
+					1340,
+					10
+				},
+				{
+					2440,
+					10
+				}
+			},
+			{
+				{
+					1010220,
+					10
+				}
+			}
+		},
+		wepaon_2 = {
+			{
+				{
+					21620,
+					10
+				},
+				{
+					45140,
+					10
+				},
+				{
+					26540,
+					10
+				},
+				{
+					1340,
+					10
+				},
+				{
+					2440,
+					10
+				}
+			},
+			{
+				{
+					1010200,
 					10
 				}
 			}
@@ -554,7 +554,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					3200,
+					2440,
 					10
 				}
 			},
@@ -572,7 +572,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					21620,
+					90140,
 					10
 				},
 				{
@@ -584,7 +584,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					3200,
+					2440,
 					10
 				}
 			},
@@ -605,12 +605,12 @@ pg.base.chapter_suggestion_char = {}
 		source = {
 			{
 				{
-					"scene get boat",
+					"scene shop",
 					{
-						page = 1
+						warp = "sham"
 					}
 				},
-				"建造"
+				"コアショップ"
 			}
 		},
 		skill_lv = {
@@ -682,7 +682,7 @@ pg.base.chapter_suggestion_char = {}
 			},
 			{
 				{
-					1070200,
+					1070220,
 					10
 				}
 			}
@@ -699,10 +699,31 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "heavy",
 						page = 1
 					}
 				},
-				"建造"
+				"大型艦建造"
+			},
+			{
+				{
+					"scene get boat",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				"特型艦建造"
+			},
+			{
+				{
+					"scene get boat",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				"常設UR交換"
 			}
 		},
 		skill_lv = {
@@ -791,10 +812,11 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "special",
 						page = 1
 					}
 				},
-				"建造"
+				"特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -971,10 +993,29 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "light",
 						page = 1
 					}
 				},
-				"建造"
+				"小型艦建造"
+			},
+			{
+				{
+					"scene get boat",
+					{
+						page = 3
+					}
+				},
+				"支援要請（ランダムで出現）"
+			},
+			{
+				{
+					"scene shop",
+					{
+						warp = "medal"
+					}
+				},
+				"勲章交換（ランダムで出現）"
 			}
 		},
 		skill_lv = {
@@ -1042,7 +1083,7 @@ pg.base.chapter_suggestion_char = {}
 			},
 			{
 				{
-					1030100,
+					1030120,
 					10
 				}
 			}
@@ -1147,10 +1188,11 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "special",
 						page = 1
 					}
 				},
-				"建造"
+				"特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -1235,10 +1277,19 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
-						page = 1
+						page = 3
 					}
 				},
-				"建造"
+				"支援要請（ランダムで出現）"
+			},
+			{
+				{
+					"scene shop",
+					{
+						warp = "medal"
+					}
+				},
+				"勲章交換（ランダムで出現）"
 			}
 		},
 		skill_lv = {
@@ -1323,10 +1374,11 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "special",
 						page = 1
 					}
 				},
-				"建造"
+				"特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -1400,1092 +1452,6 @@ pg.base.chapter_suggestion_char = {}
 			}
 		}
 	}
-	pg.base.chapter_suggestion_char[1341] = {
-		remoulded = 0,
-		char_lv = 125,
-		char_id = 707014,
-		id = 1341,
-		star = 6,
-		source = {
-			{
-				{
-					"scene get boat",
-					{
-						page = 1
-					}
-				},
-				"建造"
-			}
-		},
-		skill_lv = {
-			{
-				15320,
-				10
-			},
-			{
-				15330,
-				10
-			},
-			{
-				15340,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					17420,
-					10
-				},
-				{
-					39340,
-					10
-				},
-				{
-					91240,
-					10
-				},
-				{
-					1440,
-					10
-				},
-				{
-					680,
-					10
-				}
-			},
-			{
-				{
-					1070120,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					17340,
-					10
-				},
-				{
-					19140,
-					10
-				},
-				{
-					91240,
-					10
-				},
-				{
-					1440,
-					10
-				},
-				{
-					680,
-					10
-				}
-			},
-			{
-				{
-					1070100,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1342] = {
-		remoulded = 0,
-		char_lv = 125,
-		char_id = 107094,
-		id = 1342,
-		star = 6,
-		source = {
-			{
-				{
-					"scene get boat",
-					{
-						page = 1
-					}
-				},
-				"建造"
-			}
-		},
-		skill_lv = {
-			{
-				11640,
-				10
-			},
-			{
-				11650,
-				10
-			},
-			{
-				11660,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					85600,
-					10
-				},
-				{
-					39340,
-					10
-				},
-				{
-					28400,
-					10
-				},
-				{
-					1440,
-					10
-				},
-				{
-					1440,
-					10
-				}
-			},
-			{
-				{
-					1070120,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					17340,
-					10
-				},
-				{
-					19140,
-					10
-				},
-				{
-					91240,
-					10
-				},
-				{
-					1440,
-					10
-				},
-				{
-					1440,
-					10
-				}
-			},
-			{
-				{
-					1070100,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1343] = {
-		remoulded = 1,
-		char_lv = 125,
-		char_id = 206134,
-		id = 1343,
-		star = 6,
-		source = {
-			{
-				{
-					"scene get boat",
-					{
-						page = 1
-					}
-				},
-				"建造"
-			},
-			{
-				{
-					"scene level",
-					{
-						mapIdx = 4,
-						chapterId = 404
-					}
-				},
-				"ドロップ"
-			}
-		},
-		skill_lv = {
-			{
-				15670,
-				10
-			},
-			{
-				1034,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					17260,
-					10
-				},
-				{
-					91240,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1440,
-					10
-				},
-				{
-					680,
-					10
-				}
-			},
-			{
-				{
-					1070220,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					17340,
-					10
-				},
-				{
-					91240,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1440,
-					10
-				},
-				{
-					680,
-					10
-				}
-			},
-			{
-				{
-					1070200,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1344] = {
-		remoulded = 0,
-		char_lv = 125,
-		char_id = 301864,
-		id = 1344,
-		star = 6,
-		source = {
-			{
-				{
-					"scene get boat",
-					{
-						page = 1
-					}
-				},
-				"建造"
-			}
-		},
-		skill_lv = {
-			{
-				14670,
-				10
-			},
-			{
-				14680,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					21620,
-					10
-				},
-				{
-					45140,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					25800,
-					10
-				},
-				{
-					2440,
-					10
-				}
-			},
-			{
-				{
-					1010220,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					21620,
-					10
-				},
-				{
-					45140,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					25800,
-					10
-				},
-				{
-					2440,
-					10
-				}
-			},
-			{
-				{
-					1010200,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1345] = {
-		remoulded = 0,
-		char_lv = 125,
-		char_id = 399064,
-		id = 1345,
-		star = 6,
-		source = {
-			{
-				{
-					"shipblueprint",
-					{
-						shipGroupId = 39906
-					}
-				},
-				"特別計画艦Ⅵ期"
-			}
-		},
-		skill_lv = {
-			{
-				19750,
-				10
-			},
-			{
-				19760,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					32360,
-					10
-				},
-				{
-					45140,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					2440,
-					10
-				}
-			},
-			{
-				{
-					1030120,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					42080,
-					10
-				},
-				{
-					45140,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					1340,
-					10
-				}
-			},
-			{
-				{
-					1030120,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1346] = {
-		remoulded = 0,
-		char_lv = 125,
-		char_id = 899034,
-		id = 1346,
-		star = 6,
-		source = {
-			{
-				{
-					"shipblueprint",
-					{
-						shipGroupId = 89903
-					}
-				},
-				"特別計画艦Ⅴ期"
-			}
-		},
-		skill_lv = {
-			{
-				19630,
-				10
-			},
-			{
-				19640,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					85520,
-					10
-				},
-				{
-					90140,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					3200,
-					10
-				}
-			},
-			{
-				{
-					1050120,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					85520,
-					10
-				},
-				{
-					21620,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					3200,
-					10
-				}
-			},
-			{
-				{
-					1050100,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1351] = {
-		remoulded = 1,
-		char_lv = 125,
-		char_id = 107984,
-		id = 1351,
-		star = 6,
-		source = {
-			{
-				{
-					"scene get boat",
-					{
-						page = 1
-					}
-				},
-				"建造"
-			}
-		},
-		skill_lv = {
-			{
-				11910,
-				10
-			},
-			{
-				11920,
-				10
-			},
-			{
-				14630,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					17420,
-					10
-				},
-				{
-					28400,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1440,
-					10
-				},
-				{
-					680,
-					10
-				}
-			},
-			{
-				{
-					1070220,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					17340,
-					10
-				},
-				{
-					91240,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1440,
-					10
-				},
-				{
-					680,
-					10
-				}
-			},
-			{
-				{
-					1070200,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1352] = {
-		remoulded = 0,
-		char_lv = 125,
-		char_id = 305104,
-		id = 1352,
-		star = 6,
-		source = {
-			{
-				{
-					"scene get boat",
-					{
-						page = 1
-					}
-				},
-				"建造"
-			}
-		},
-		skill_lv = {
-			{
-				16030,
-				10
-			},
-			{
-				16040,
-				10
-			},
-			{
-				16050,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					34300,
-					10
-				},
-				{
-					22280,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					3580,
-					10
-				},
-				{
-					1160,
-					10
-				}
-			},
-			{
-				{
-					1060120,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					14340,
-					10
-				},
-				{
-					42080,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					3580,
-					10
-				},
-				{
-					1160,
-					10
-				}
-			},
-			{
-				{
-					1060100,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1353] = {
-		remoulded = 0,
-		char_lv = 125,
-		char_id = 607014,
-		id = 1353,
-		star = 6,
-		source = {
-			{
-				{
-					"scene get boat",
-					{
-						page = 1
-					}
-				},
-				"建造"
-			}
-		},
-		skill_lv = {
-			{
-				14370,
-				10
-			},
-			{
-				14380,
-				10
-			},
-			{
-				14390,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					17420,
-					10
-				},
-				{
-					17260,
-					10
-				},
-				{
-					28400,
-					10
-				},
-				{
-					1440,
-					10
-				},
-				{
-					680,
-					10
-				}
-			},
-			{
-				{
-					1070120,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					17340,
-					10
-				},
-				{
-					17340,
-					10
-				},
-				{
-					91240,
-					10
-				},
-				{
-					1440,
-					10
-				},
-				{
-					680,
-					10
-				}
-			},
-			{
-				{
-					1070100,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1354] = {
-		remoulded = 0,
-		char_lv = 125,
-		char_id = 199034,
-		id = 1354,
-		star = 6,
-		source = {
-			{
-				{
-					"shipblueprint",
-					{
-						shipGroupId = 19903
-					}
-				},
-				"特別計画艦Ⅳ期"
-			}
-		},
-		skill_lv = {
-			{
-				19440,
-				10
-			},
-			{
-				19450,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					33120,
-					10
-				},
-				{
-					5340,
-					6
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					2440,
-					10
-				}
-			},
-			{
-				{
-					1050120,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					43040,
-					10
-				},
-				{
-					5340,
-					6
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					2440,
-					10
-				}
-			},
-			{
-				{
-					1050100,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1355] = {
-		remoulded = 1,
-		char_lv = 125,
-		char_id = 102174,
-		id = 1355,
-		star = 6,
-		source = {
-			{
-				{
-					"scene get boat",
-					{
-						page = 1
-					}
-				},
-				"建造"
-			}
-		},
-		skill_lv = {
-			{
-				10090,
-				10
-			},
-			{
-				11720,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					31080,
-					10
-				},
-				{
-					45140,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					1160,
-					10
-				}
-			},
-			{
-				{
-					13140,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					21620,
-					10
-				},
-				{
-					45140,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					1160,
-					10
-				}
-			},
-			{
-				{
-					1030100,
-					10
-				}
-			}
-		}
-	}
-	pg.base.chapter_suggestion_char[1356] = {
-		remoulded = 0,
-		char_lv = 125,
-		char_id = 299054,
-		id = 1356,
-		star = 6,
-		source = {
-			{
-				{
-					"shipblueprint",
-					{
-						shipGroupId = 29905
-					}
-				},
-				"特別計画艦Ⅴ期"
-			}
-		},
-		skill_lv = {
-			{
-				19530,
-				10
-			},
-			{
-				19540,
-				10
-			}
-		},
-		wepaon = {
-			{
-				{
-					22280,
-					10
-				},
-				{
-					45140,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					2440,
-					10
-				}
-			},
-			{
-				{
-					1020120,
-					10
-				}
-			}
-		},
-		wepaon_2 = {
-			{
-				{
-					42080,
-					10
-				},
-				{
-					45140,
-					10
-				},
-				{
-					26540,
-					10
-				},
-				{
-					1760,
-					10
-				},
-				{
-					2440,
-					10
-				}
-			},
-			{
-				{
-					1020100,
-					10
-				}
-			}
-		}
-	}
 	pg.base.chapter_suggestion_char[1401] = {
 		remoulded = 0,
 		char_lv = 125,
@@ -2497,10 +1463,11 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "special",
 						page = 1
 					}
 				},
-				"建造"
+				"特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -2589,10 +1556,31 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "heavy",
 						page = 1
 					}
 				},
-				"建造"
+				"大型艦建造"
+			},
+			{
+				{
+					"scene get boat",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				"特型艦建造"
+			},
+			{
+				{
+					"scene get boat",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				"常設UR交換"
 			}
 		},
 		skill_lv = {
@@ -2681,10 +1669,11 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "special",
 						page = 1
 					}
 				},
-				"建造"
+				"特型艦建造"
 			},
 			{
 				{
@@ -2814,7 +1803,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					1340,
+					4140,
 					10
 				}
 			},
@@ -2828,7 +1817,7 @@ pg.base.chapter_suggestion_char = {}
 		wepaon_2 = {
 			{
 				{
-					42080,
+					32360,
 					10
 				},
 				{
@@ -2844,13 +1833,13 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					1340,
+					4140,
 					10
 				}
 			},
 			{
 				{
-					1030120,
+					1030100,
 					10
 				}
 			}
@@ -2867,10 +1856,19 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
-						page = 1
+						page = 3
 					}
 				},
-				"建造"
+				"支援要請（ランダムで出現）"
+			},
+			{
+				{
+					"scene shop",
+					{
+						warp = "medal"
+					}
+				},
+				"勲章交換（ランダムで出現）"
 			}
 		},
 		skill_lv = {
@@ -2928,7 +1926,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					25800,
+					1340,
 					10
 				},
 				{
@@ -2994,7 +1992,7 @@ pg.base.chapter_suggestion_char = {}
 					10
 				},
 				{
-					3200,
+					1340,
 					10
 				}
 			},
@@ -3139,10 +2137,31 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "heavy",
 						page = 1
 					}
 				},
-				"建造"
+				"大型艦建造"
+			},
+			{
+				{
+					"scene get boat",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				"特型艦建造"
+			},
+			{
+				{
+					"scene get boat",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				"常設UR交換"
 			}
 		},
 		skill_lv = {
@@ -3231,10 +2250,11 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "special",
 						page = 1
 					}
 				},
-				"建造"
+				"特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -3591,10 +2611,11 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "special",
 						page = 1
 					}
 				},
-				"建造"
+				"特型艦建造"
 			}
 		},
 		skill_lv = {
@@ -3679,10 +2700,19 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
-						page = 1
+						page = 3
 					}
 				},
-				"建造"
+				"支援要請（ランダムで出現）"
+			},
+			{
+				{
+					"scene shop",
+					{
+						warp = "medal"
+					}
+				},
+				"勲章交換（ランダムで出現）"
 			}
 		},
 		skill_lv = {
@@ -3767,10 +2797,11 @@ pg.base.chapter_suggestion_char = {}
 				{
 					"scene get boat",
 					{
+						projectName = "special",
 						page = 1
 					}
 				},
-				"建造"
+				"特型艦建造"
 			}
 		},
 		skill_lv = {

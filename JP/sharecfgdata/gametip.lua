@@ -52687,7 +52687,7 @@ _G.pg.base.gametip.formation_suggestion_info_obtain = {
 
 
 _G.pg.base.gametip.formation_suggestion_info_level_recommend = {
-	tip = "推奨レベル：Lv.$1"
+	tip = "推奨レベル：$1"
 }
 
 
