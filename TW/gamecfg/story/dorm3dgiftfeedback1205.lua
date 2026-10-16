@@ -50,7 +50,7 @@ return {
 			voice = "event:/dorm/drom3d_Taiho_gift3_voice2/drom3d_Taiho_gift3_voice2",
 			actorName = 30707,
 			nameColor = "#FFFFFF",
-			say = "原来如此……{namecode:97}明白{dorm3d}的心意了，{namecode:97}会好好报答您的~",
+			say = "原來如此……{namecode:97}明白{dorm3d}的心意了，{namecode:97}會好好報答您的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
