@@ -17,7 +17,7 @@ return {
 			},
 			sequence = {
 				{
-					"伏尔加的“健康任务”\n\n<size=45>三 健康理疗</size>",
+					"窩瓦的「健康任務」\n\n<size=45>3 健康理療</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			bgName = "bg_story_task_2",
 			bgm = "story-richang-6",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "吃完所有“健康餐”后，我们一起坐在沙发上休息了一会。 ",
+			say = "吃完所有「健康餐」後，我們一起坐在沙發上休息了一會兒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼，指挥官真厉害，没想到你居然全都吃光了呢！ ",
+			say = "呼呼，指揮官真厲害，沒想到你居然全都吃光了呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……感觉还不错，胃部有种暖洋洋的舒适感……",
+			say = "嗯……感覺還不錯，胃部有種暖洋洋的舒適感……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错吧？伏尔加亲手准备的健康餐，虽然味道稍微有一点点独特，但效果还是很可靠的哦！",
+			say = "沒錯吧？窩瓦親手準備的健康餐，雖然味道稍微有一點點獨特，但效果還是很可靠的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么接下来，指挥官就和我一起来进行第二项“健康任务”吧！",
+			say = "那麼接下來，指揮官就跟我一起來進行第二項「健康任務」吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……还有第二项？",
+			say = "……還有第二項？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然~都说了今天要好好照顾指挥官嘛！",
+			say = "當然~都說了今天要好好照顧指揮官嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来，指挥官，现在请转过身去。",
+			say = "來，指揮官，現在請轉過身去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "转身？要做什么？",
+			say = "轉身？要做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然是理疗按摩~我最近学习了新的按摩手法，专门针对像指挥官这样长期伏案工作积累的疲惫哦！",
+			say = "當然是物理治療按摩~我最近學習了新的按摩手法，專門針對像指揮官這樣長期伏案工作積累的疲憊哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官就乖乖转过身，放心把身体交给伏尔加吧♪",
+			say = "指揮官就乖乖轉過身，放心把身體交給窩瓦吧♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好吧……那就拜托了。",
+			say = "好吧……那就拜託了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "见伏尔加兴致勃勃搓着手的样子，我按照她的要求，来到一旁的沙发上坐下。",
+			say = "見窩瓦興致勃勃搓著手的樣子，我照她的要求，來到一旁的沙發坐下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,32 +220,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "很快，一阵温热的吐息伴随着暖洋洋的香气逐渐靠近，伏尔加用双手搭上了我的双肩。 ",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task_2",
-			dir = 1,
-			actor = 707010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "那么，我要开始咯~稍微有点疼的话，一定要告诉我哦。 ",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "不得不说，伏尔加的力道确实不小，但她控制得很好，并没有让我产生不适的感觉。",
+			say = "很快，一陣溫熱的吐息伴隨著暖洋洋的香氣逐漸靠近，窩瓦用雙手搭上了我的雙肩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +234,18 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，这里……好硬啊，指挥官平时真的积累了好多疲劳呢。 ",
+			say = "那麼，我要開始了~稍微有點痛的話，一定要告訴我喔。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			say = "不得不說，窩瓦的力量確實不小，但她控制得很好，並沒有讓我產生不適的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +259,21 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样揉一下，有稍微感觉好点吗？ ",
+			say = "唔，這裡……好硬啊，指揮官平常真的累積了很多疲勞。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task_2",
+			dir = 1,
+			actor = 707010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "這樣揉一下，有稍微感覺好一點嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……稍微有点酸，不过很舒服。",
+			say = "嗯……稍微有點酸，不過很舒服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "肩膀上的力道规律地起伏着，周围一时安静了下来，环绕着我的只有伏尔加柔和的呼吸声。 ",
+			say = "肩膀上的力道規律地起伏著，周圍一時安靜了下來，環繞著我的只有窩瓦柔和的呼吸聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好很好……就这样，慢慢放松。伏尔加会在这里看着你的，指挥官可以安心睡一会儿哦~",
+			say = "很好很好……就這樣，慢慢放鬆。窩瓦會在這裡看著你的，指揮官可以安心睡一下哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我试着闭上眼睛。",
+			say = "我試著閉上眼睛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,20 +346,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "然而，刚刚安静下来的脑海中，很快又浮现出一行行未处理的批复。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "对了，伏尔加……能不能拜托你帮我把刚才最上面的几份文件拿来？",
+			say = "然而，剛剛安靜下來的腦海中，很快又浮現出一行行未處理的批復。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +359,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我想趁这个时间，把下周的物资分配表批复好。 ",
+			say = "對了，窩瓦……能不能拜託妳幫我把剛才最上面的幾份文件拿來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +372,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还有……",
+			say = "我想趁這個時間，把下週的物資分配表批復好。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "還有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "肩膀上的动作突然停了下来。 ",
+			say = "肩膀上的動作突然停了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我转过头，却看到伏尔加有些无奈地正盯着我，眼睛里写满了“不可以”。",
+			say = "我轉過頭，卻看到窩瓦有些無奈地正盯著我，眼睛裡寫滿了「不可以」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……我们现在可是在进行“放松任务”哦？",
+			say = "指揮官……我們現在可是在進行「放鬆任務」哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么闭上眼睛以后，脑子里反而全都是工作的事情呢？",
+			say = "為什麼閉上眼睛以後，腦子裡反而全都是工作的事情？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "啊，抱歉，习惯了…… ",
+			say = "啊，抱歉，習慣了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "行不行，这样的话，就算身体被按摩放松了，神经也会一直紧绷着的。",
+			say = "行不行，這樣的話，就算身體被按摩放鬆了，神經也會一直緊繃著的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官明明已经很困了，却还是睡不着，对吧？",
+			say = "指揮官明明已經很睏了，卻還是睡不著，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……大概是有点。",
+			say = "……大概是有點吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "伏尔加叹了口气，伸出食指，轻轻地点了点我的太阳穴。 ",
+			say = "窩瓦嘆了口氣，伸出食指，輕輕地點了點我的太陽穴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官的这里，绷得太紧了呢。 ",
+			say = "指揮官的這裡，繃得太緊了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "弓弦如果拉得太满，哪怕只是物理上的按摩，也没有办法让它彻底松开吧？ ",
+			say = "弓弦如果拉得太滿，就算只是物理上的按摩，也沒辦法讓它徹底鬆開吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没关系的，说不定待会就……",
+			say = "沒關係的，說不定待會就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "适时地释放掉堆积的压力是持续工作窍门哦~",
+			say = "適時地釋放掉堆積的壓力是持續工作訣竅~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官也同意这一点吧？把神经放松下来，才能好好享受生活。",
+			say = "指揮官也同意這一點吧？把神經放鬆下來，才能好好享受生活。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "决定了！接下来的任务路线，要稍微变更一下了呢~",
+			say = "決定了！接下來的任務路線，要稍微變更一下了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "伏尔加思索片刻，拉着我站起身来。",
+			say = "窩瓦思索片刻，拉著我站起身來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "是要出门么？",
+			say = "是要出門嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她点点头，脸上露出灿烂而期待的笑容。",
+			say = "她點點頭，臉上露出燦爛而期待的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们一起——去找一个能让指挥官的精神彻底放松下来的地方吧！ ",
+			say = "我們一起——去找一個能讓指揮官的精神徹底放鬆下來的地方吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

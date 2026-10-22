@@ -17,7 +17,7 @@ return {
 			},
 			sequence = {
 				{
-					"伏尔加的“健康任务”\n\n<size=45>五 无法抗拒的幸福美味</size>",
+					"窩瓦的「健康任務」\n\n<size=45>5 無法抗拒的幸福美味</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			bgName = "star_level_bg_104",
 			bgm = "story-1",
-			say = "买好了面包，我和伏尔加在靠窗的位置坐了下来。 ",
+			say = "買好了麵包，我和窩瓦在靠窗的位置坐了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = " 伏尔加手里的篮子被塞得满满当当，各种面包堆得像座小山。金黄色的阳光洒在刚出炉的面包上，泛着诱人的光泽。",
+			say = "窩瓦手中的籃子塞得滿滿的，各種麵包堆得像座小山。金黃色的陽光灑在剛出爐的麵包上，泛著誘人的光澤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼…一不小心就买太多了…",
+			say = "呼呼……一不小心就買太多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过只要看到它们整整齐齐地码在篮子里，就会觉得超级幸福了呢~",
+			say = "不過只要看到它們整齊地疊在籃子裡，就會覺得超級幸福了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "只是买了很多面包，就会觉得幸福么？",
+			say = "只是買了很多麵包，就會覺得幸福嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然不只是面包啦……还因为这些是和指挥官一起买的面包哦！",
+			say = "當然不只是麵包啦……還因為這些是跟指揮官一起買的麵包喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "伏尔加开心地把面包放进纸袋，浓郁的香气在我们鼻尖萦绕不散。",
+			say = "窩瓦開心地把麵包放進紙袋，濃鬱的香氣在我們鼻尖縈繞不散。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "“咕噜——”",
+			say = "「咕嚕——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "绵长的肚子叫声，在安静的角落里响起。",
+			say = "綿長的肚子叫聲，在安靜的角落響起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "伏尔加有些不好意思地捂住肚子，脸颊瞬间涨得通红。 ",
+			say = "窩瓦有些不好意思地摀住肚子，臉頰瞬間漲紅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那、那个……",
+			say = "那、那個………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,18 +185,18 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然刚才吃过早饭了，但是闻到这个味道，肚子就不争气地…… ",
+			say = "雖然剛才吃過早餐了，但是聞到這個味道，肚子就不爭氣地……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "都是因为面包太香了",
+					content = "都是因為麵包太香了",
 					flag = 1
 				},
 				{
-					content = "伏尔加还真是贪吃呢",
+					content = "窩瓦還真是貪吃呢",
 					flag = 2
 				}
 			}
@@ -209,7 +209,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没关系，都是因为面包太香了。",
+			say = "沒關係，都是因為麵包太香了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对、对吧？哈哈哈……",
+			say = "對、對吧？哈哈哈……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过虽然指挥官这么说……但还是让人很难为情啊……呜……",
+			say = "不過雖然指揮官這麼說……但還是讓人很難為情啊……嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伏尔加还真是贪吃呢。",
+			say = "窩瓦還真是貪吃呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶，怎么连指挥官也这么说…！",
+			say = "欸，怎麼連指揮官也這麼說……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "才、才不是单纯贪吃啦……要吃饱了才能好好保护指挥官嘛！",
+			say = "才、才不是單純貪吃啦……要吃飽了才能好好保護指揮官嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那么……既然买都买了，要不要现在就尝尝？",
+			say = "那麼……既然買都買了，要不要現在就嚐嚐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？可以吗？",
+			say = "咦？可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……这么诱人的味道，实在是让人难以抗拒呢。",
+			say = "嗯……這麼誘人的味道，實在是讓人難以抗拒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "伏尔加看了看我，又看了眼前的面包，克制地吞了吞口水。",
+			say = "窩瓦看了看我，又看了眼前的麵包，克制地吞了吞口水。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那…那就不客气了哦！ ",
+			say = "那……那就不客氣了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "伏尔加小心翼翼地夹起一个带着酥皮的面包，把它一分为二。",
+			say = "窩瓦小心翼翼地夾起一個帶著酥皮的麵包，把它一分為二。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喏，指挥官也来尝尝看！",
+			say = "喏，指揮官也來嚐嚐看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "接过面包的同时，伏尔加已经对着自己手中的那一半咬了一大口。",
+			say = "接過麵包的同時，窩瓦已經對著手中的那一半咬了一大口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "柔软的奶油从断面溢出，伏尔加的眼睛也幸福地眯成了两条缝。",
+			say = "柔軟的奶油從斷面溢出，窩瓦的眼睛也幸福地瞇成了兩條縫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（嚼嚼）……好好吃！外皮好酥脆，里面的奶油像云朵一样软绵绵的！ ",
+			say = "（嚼嚼）……好好吃！外皮好酥脆，裡面的奶油像雲朵一樣軟綿綿的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，还有这个…！看起来也很不错的样子！",
+			say = "啊，還有這個……！看起來也很不錯的樣子！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "看着伏尔加满足的样子，我也咬了一口自己手上的面包。外皮酥脆得掉渣，浓郁的黄油香气瞬间在口腔中弥漫开来。 ",
+			say = "看著窩瓦滿足的樣子，我也咬了一口自己手上的麵包。外皮酥脆得掉渣，濃鬱的奶油香氣瞬間在口腔中瀰漫開來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "的确是意想不到的美味……",
+			say = "的確是意想不到的美味……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对吧！我就说面包是世界上最棒的发明了！ ",
+			say = "對吧！我就說麵包是世界上最棒的發明了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "得到肯定后，伏尔加像是彻底放下了矜持。",
+			say = "得到肯定後，窩瓦像是徹底放下了矜持。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "“这个红豆包也超赞！”、“唔唔，这个芝士大列巴好有嚼劲！”、“这个小牛角包……我还可以再吃三个！”",
+			say = "「這個紅豆麵包也超讚！」、「唔唔，這個起司大列巴好有嚼勁！」、「這個小牛角包……我還可以再吃三個！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "她的嘴角沾上了一点雪白的奶油，却浑然不知，只是大口大口地消灭着篮子里的面包。 ",
+			say = "她的嘴角沾上了一點雪白的奶油，卻渾然不知，只是大口大口地消滅著籃子裡的麵包。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "或许，这就是她所说的“适时释放压力”的感觉吧。",
+			say = "或許，這就是她所說的「適時釋放壓力」的感覺吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……慢点吃，小心不要噎到了。",
+			say = "……慢點吃，小心不要噎到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "我扯出一张纸巾，递给伏尔加。",
+			say = "我扯出一張紙巾，遞給窩瓦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯嗯！谢谢指挥官~不过指挥官也不能只看着我吃哦？来，这个泡芙你还没尝过吧？这是我最喜欢的口味哦！",
+			say = "嗯嗯！謝謝指揮官~不過指揮官也不能只看著我吃哦？來，這個泡芙你還沒嚐過吧？這是我最喜歡的口味喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "伏尔加不吃么？",
+			say = "窩瓦不吃嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经吃掉一个了，这个是特意给指挥官留的，嘿嘿♪",
+			say = "我已經吃掉一個了，這個是特意留給指揮官的，嘿嘿♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那我就带回去当明天的早饭好了。刚才的酥皮面包实在让人有点饱……",
+			say = "那我就帶回去當明天的早餐好了。剛才的酥皮麵包實在讓人有點飽……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我看看，面包还剩下……一、二、三……",
+			say = "我看看，麵包還剩下……一、二、三……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦——？怎么只剩下三个了？！",
+			say = "咦——？怎麼只剩下三個了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "伏尔加难以置信地又数了一遍，但面包的数量并没有因此而变多。",
+			say = "窩瓦難以置信地又數了一遍，但麵包的數量並沒有因此而變多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "她想起了自己刚刚大快朵颐的样子，难为情地捂住了脸。",
+			say = "她想起了自己剛剛大快朵頤的樣子，難為情地摀住了臉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟了……明明是要带指挥官出来放松的……结果最后却变成我自己在大吃放松…… ",
+			say = "糟了……明明是要帶指揮官出來放鬆的……結果最後卻變成我自己在大吃放鬆……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "哈哈哈，没关系的。看着你大口吃东西的样子，我也觉得很开心哦。",
+			say = "哈哈哈，沒關係的。看著妳大口吃東西的樣子，我也覺得很開心喔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的吗？",
+			say = "真的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "当然了，怎么样，要不要一起出去走走“消化一下”？",
+			say = "當然了，怎麼樣，要不要一起出去走走「消化一下」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			actor = 707010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼~就把接下来的散步，当作第三项“健康任务”吧♪",
+			say = "呼呼~就把接下來的散步，當作第三項「健康任務」♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
