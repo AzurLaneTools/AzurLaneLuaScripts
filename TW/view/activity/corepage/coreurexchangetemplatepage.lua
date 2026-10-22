@@ -10,7 +10,6 @@ slot0.MINI_GAME_ACT = 8
 
 slot0.OnInit = function(slot0)
 	slot0.shopProxy = getProxy(ShopsProxy)
-	slot0.playerProxy = getProxy(PlayerProxy)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.shopProxy = getProxy(ShopsProxy)
 	slot0._tasksTF = slot0._tf:Find("AD/tasks")
@@ -37,8 +36,8 @@ end
 slot0.OnDataSetting = function(slot0)
 	slot0.config = slot0.activity:getConfig("config_client")
 	slot0.taskConfig = slot0.config.taskConfig
-	slot0.ptId = slot0.config.ptId
-	slot0.uPtId = slot0.config.uPtId
+	slot0.ptDrop = slot0.activity:GetConfigClientPTDrop()
+	slot0.uptDrop = slot0.activity:GetConfigClientURPTDrop()
 	slot0.goodsId = slot0.config.goodsId
 	slot0.shopId = slot0.config.shopId
 	slot0.length = #slot0.goodsId + 1
@@ -273,8 +272,7 @@ slot0.GetGoodsResCnt = function(slot0, slot1)
 end
 
 slot0.UpdateExchangeStatus = function(slot0)
-	slot0.player = slot0.playerProxy:getData()
-	slot0.ptCount = slot0.player:getResource(slot0.uPtId)
+	slot0.ptCount = slot0.uptDrop:getOwnedCount()
 	slot0.restExchange = _.reduce(slot0.goodsId, 0, function (slot0, slot1)
 		return slot0 + uv0.actShop:GetCommodityById(slot1):GetPurchasableCnt()
 	end)

@@ -66,6 +66,7 @@ pg.login.all = {
 	96,
 	97,
 	98,
+	103,
 	99,
 	100,
 	101,
@@ -2852,35 +2853,253 @@ pg.base.login = {}
 		login_cri = "",
 		bgm = ""
 	}
+	pg.base.login[103] = {
+		op_play = 0,
+		effective_channel = 0,
+		id = 103,
+		login_static = "login_qiye",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					10,
+					0,
+					0
+				}
+			}
+		},
+		op_time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
 	pg.base.login[99] = {
 		op_play = 1,
-		op_time = "stop",
 		effective_channel = 0,
-		date = "stop",
 		id = 99,
 		login_static = "login",
 		login_cri = "",
-		bgm = ""
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
 	}
 	pg.base.login[100] = {
 		op_play = 1,
-		op_time = "stop",
 		effective_channel = 0,
-		date = "stop",
 		id = 100,
 		login_static = "login",
 		login_cri = "",
-		bgm = ""
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	}
 	pg.base.login[101] = {
 		op_play = 1,
-		op_time = "stop",
 		effective_channel = 0,
-		date = "stop",
 		id = 101,
 		login_static = "login_260924",
 		login_cri = "",
-		bgm = ""
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	}
 	pg.base.login[1001] = {
 		op_play = 1,

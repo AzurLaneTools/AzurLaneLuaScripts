@@ -8,7 +8,6 @@ slot0.NORMAL_GROUP_LIST_UPDATED = "ShopsProxy:NORMAL_GROUP_LIST_UPDATED"
 slot0.ACTIVITY_SHOP_UPDATED = "ShopsProxy:ACTIVITY_SHOP_UPDATED"
 slot0.GUILD_SHOP_ADDED = "ShopsProxy:GUILD_SHOP_ADDED"
 slot0.GUILD_SHOP_UPDATED = "ShopsProxy:GUILD_SHOP_UPDATED"
-slot0.ACTIVITY_SHOPS_UPDATED = "ShopsProxy:ACTIVITY_SHOPS_UPDATED"
 slot0.SHAM_SHOP_UPDATED = "ShopsProxy:SHAM_SHOP_UPDATED"
 slot0.FRAGMENT_SHOP_UPDATED = "ShopsProxy:FRAGMENT_SHOP_UPDATED"
 slot0.ACTIVITY_SHOP_GOODS_UPDATED = "ShopsProxy:ACTIVITY_SHOP_GOODS_UPDATED"
@@ -48,6 +47,7 @@ slot0.register = function(slot0)
 	end
 
 	slot0.newServerShopList = {}
+	slot0.activityShops = {}
 end
 
 slot0.timeCall = function(slot0)
@@ -208,14 +208,10 @@ slot0.getGroupLimit = function(slot0, slot1)
 	return 0
 end
 
-slot0.addActivityShops = function(slot0, slot1)
-	slot0.activityShops = slot1
-
-	slot0:sendNotification(uv0.ACTIVITY_SHOPS_UPDATED)
-end
-
 slot0.getActivityShopById = function(slot0, slot1)
-	assert(slot0.activityShops[slot1], "activity shop should exist" .. slot1)
+	if not slot0.activityShops[slot1] then
+		slot0.activityShops[slot1] = getProxy(ActivityProxy):getActivityById(slot1) and not slot2:isEnd() and ActivityShop.New(slot2)
+	end
 
 	return slot0.activityShops[slot1]
 end
@@ -223,9 +219,7 @@ end
 slot0.updateActivityShop = function(slot0, slot1, slot2)
 	assert(slot0.activityShops, "activityShops can not be nil")
 
-	slot0.activityShops[slot1] = slot2
-
-	slot0:sendNotification(uv0.ACTIVITY_SHOP_UPDATED, {
+	slot0.activityShops[slot1] = slot2:sendselfNotification(uv0.ACTIVITY_SHOP_UPDATED, {
 		activityId = slot1,
 		shop = slot2:clone()
 	})
@@ -242,10 +236,6 @@ slot0.UpdateActivityGoods = function(slot0, slot1, slot2, slot3)
 		activityId = slot1,
 		goodsId = slot2
 	})
-end
-
-slot0.getActivityShops = function(slot0)
-	return slot0.activityShops
 end
 
 slot0.setFirstChargeList = function(slot0, slot1)

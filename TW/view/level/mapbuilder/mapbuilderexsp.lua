@@ -1,7 +1,7 @@
 slot0 = class("MapBuilderEXSP", import(".MapBuilderSPSeriesFull"))
 
 slot0.GetType = function(slot0)
-	return MapBuilder.TYPEATELIERYUMIA
+	return MapBuilder.TYPEEXSP
 end
 
 slot0.getUIName = function(slot0)
@@ -18,6 +18,14 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.personalBtn, function ()
 		uv0.personalPage:ExecuteAction("Show")
 	end)
+end
+
+slot0.OnDestroy = function(slot0)
+	slot0.personalPage:Destroy()
+
+	slot0.personalBtn = nil
+
+	uv0.super.OnDestroy(slot0)
 end
 
 slot0.UpdateMapVO = function(slot0, slot1)
@@ -143,8 +151,10 @@ slot0.UpdateStory = function(slot0)
 				location = function (slot0)
 					setText(slot0:Find("name/Text"), uv0:GetName())
 
-					if PLATFORM_CODE ~= PLATFORM_US then
-						setActive(slot0:Find("en"), true)
+					slot1 = slot0:Find("en")
+
+					if slot0:Find("en") then
+						setActive(slot0:Find("en"), PLATFORM_CODE ~= PLATFORM_US)
 						setText(slot0:Find("en"), uv0:getConfig("en_name"))
 					end
 				end

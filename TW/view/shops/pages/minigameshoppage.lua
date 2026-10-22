@@ -21,17 +21,7 @@ slot0.Hide = function(slot0)
 end
 
 slot0.GetResDataList = function(slot0)
-	slot1 = {}
-
-	for slot6, slot7 in ipairs(slot0.shop:GetResList()) do
-		table.insert(slot1, {
-			type = DROP_TYPE_RESOURCE,
-			resID = slot7,
-			cnt = getProxy(GameRoomProxy):getTicket()
-		})
-	end
-
-	return slot1
+	return slot0.shop:GetResList()
 end
 
 slot0.OnUpdateAll = function(slot0)

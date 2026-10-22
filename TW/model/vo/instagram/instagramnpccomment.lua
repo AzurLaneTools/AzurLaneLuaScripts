@@ -23,7 +23,11 @@ slot0.bindConfigTable = function(slot0)
 end
 
 slot0.GetName = function(slot0)
-	return slot0.config.name
+	if type(slot0.config.name) == "table" then
+		return getProxy(PlayerProxy):getData() and slot2.name or ""
+	end
+
+	return slot1
 end
 
 slot0.GetPainting = function(slot0)

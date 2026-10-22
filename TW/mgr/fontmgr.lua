@@ -1,8 +1,10 @@
 pg = pg or {}
 slot0 = pg
 slot0.FontMgr = singletonClass("FontMgr")
+slot1 = slot0.FontMgr
+slot1.FONT_NAME_IMPACT = "impact"
 
-slot0.FontMgr.Init = function(slot0, slot1)
+slot1.Init = function(slot0, slot1)
 	print("initializing font manager...")
 
 	slot2 = {}

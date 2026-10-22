@@ -196,6 +196,7 @@ SCENE = {
 	BIANDUI = "scene biandui",
 	AUCTION_GAME_MAIN_SETTLEMENT = "auction game settlement",
 	SENRANKAGURA_MEDAL = "senrankagura medal",
+	ACTREMASTE = "ACTREMASTER",
 	SIXTH_ANNIVERSARY_JP = "SIXTH_ANNIVERSARY_JP",
 	COMMANDER_MANUAL = "commander manual",
 	COLORING = "scene coloring",
@@ -233,6 +234,10 @@ slot0 = {
 	[SCENE.DREAMLAND] = function (slot0, slot1)
 		slot0.mediator = DreamlandMediator
 		slot0.viewComponent = DreamlandScene
+	end,
+	[SCENE.ACTREMASTE] = function (slot0, slot1)
+		slot0.mediator = ActivityRemasterMediator
+		slot0.viewComponent = ActivityRemasterScene
 	end,
 	[SCENE.EDUCATE_PROFILE] = function (slot0, slot1)
 		slot0.mediator = EducateCharProfileMediator
@@ -1816,6 +1821,13 @@ slot1 = {
 		end
 
 		seriesAsync(slot2, slot1)
+	end,
+	ActivityRemasterMediator = function (slot0, slot1)
+		if getProxy(ActivityRemasterProxy):IsActivating() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ActivityRemaster_NoticeJump_AlreadySelected"))
+		else
+			slot1()
+		end
 	end
 }
 

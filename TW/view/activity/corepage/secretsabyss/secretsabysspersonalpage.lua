@@ -1,6 +1,6 @@
 slot0 = class("SecretsAbyssPersonalPage", import("view.activity.BackHills.OtherWorld.TerminalPersonalPage"))
 slot1 = "otherworld_personal_name"
-slot0.BIND_EVENT_ACT_ID = 50094
+slot0.BIND_EVENT_ACT_ID = 1000112
 slot0.config = pg.roll_attr
 slot0.NAME_ID = 1001
 slot0.LV_ID = 1002

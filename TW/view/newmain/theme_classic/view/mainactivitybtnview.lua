@@ -34,7 +34,10 @@ slot0.GetActivityBtnList = function()
 		MainActBlackFridaySalesBtn,
 		MainActToLoveBtn,
 		MainActHolidayVillaBtn,
-		MainCoreActivityBtn2
+		MainCoreActivityBtn2,
+		MainActRemasterBtn,
+		MainActRemasterActivaingBtn,
+		MainActRemasterMapBtn
 	}
 end
 

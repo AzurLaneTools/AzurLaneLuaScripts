@@ -429,7 +429,7 @@ slot0.clearChapterCell = function(slot0, slot1, slot2)
 end
 
 slot0.GetChapterCellAttachemnts = function(slot0)
-	return slot0.cellAttachments
+	return slot0.cellAttachments or {}
 end
 
 slot0.GetRawChapterAttachemnt = function(slot0, slot1, slot2)

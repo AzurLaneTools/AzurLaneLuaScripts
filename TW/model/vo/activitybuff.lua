@@ -34,7 +34,10 @@ slot0.isActivate = function(slot0)
 		return false
 	end
 
-	if slot1:getActivityById(slot0.activityId):getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF and not ActivityPtData.New(slot2):isInBuffTime() then
+	if ({
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = true,
+		[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = true
+	})[slot1:getActivityById(slot0.activityId):getConfig("type")] and not ActivityPtData.New(slot2):isInBuffTime() then
 		return false
 	end
 
@@ -42,7 +45,7 @@ slot0.isActivate = function(slot0)
 		return true
 	end
 
-	return switch(slot3[1], {
+	return switch(slot4[1], {
 		pt = function ()
 			slot0, slot1, slot2, slot3 = unpack(uv0)
 			slot5 = getProxy(PlayerProxy):getData()[pg.player_resource[slot1].name] or 0

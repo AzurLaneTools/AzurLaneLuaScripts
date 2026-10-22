@@ -18,6 +18,11 @@ _G.pg.base.gametip.ad_3 = {
 }
 
 
+_G.pg.base.gametip.word_obtain_way = {
+	tip = "獲得途徑"
+}
+
+
 _G.pg.base.gametip.word_back = {
 	tip = "返回"
 }
@@ -12172,17 +12177,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "武藏、羽黑 建造追加！"
+	tip = "亞爾薇特 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "若月、酒匂 建造追加！"
+	tip = "{namecode:494} 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "武藏 建造追加！"
+	tip = "{namecode:536} 建造追加！"
 }
 
 
@@ -44128,16 +44133,6 @@ _G.pg.base.gametip.grapihcs3d_setting_flare = {
 }
 
 
-_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
-	tip = "作戰準備"
-}
-
-
-_G.pg.base.gametip.Outpost_20250904_Sidebar5 = {
-	tip = "重櫻的邀約"
-}
-
-
 _G.pg.base.gametip.Outpost_20250904_Title1 = {
 	tip = "作戰準備"
 }
@@ -50223,6 +50218,236 @@ _G.pg.base.gametip.reverse_pacman_no_char = {
 }
 
 
+_G.pg.base.gametip.act_remaster_colllect_progress = {
+	tip = "收藏進度"
+}
+
+
+_G.pg.base.gametip.act_remaster_title = {
+	tip = "輕量化復刻"
+}
+
+
+_G.pg.base.gametip.act_remaster_open_tip = {
+	tip = "是否開啟<color=#39bfff>$1</color>的輕量化復刻\n每個活動僅有一次開啟機會開啟活動後，活動關卡、兌換商店等內容將同步開啟開啟後活動將於<color=#39bfff>$2</color>日維護結束"
+}
+
+
+_G.pg.base.gametip.act_remaster_active_erro = {
+	tip = "每個活動僅可啟動一次"
+}
+
+
+_G.pg.base.gametip.act_remaster_tip_1 = {
+	tip = "活動期間，可以任選一個之前未完成的活動<b><color=#faba55>開啟輕量化復刻</color></b>"
+}
+
+
+_G.pg.base.gametip.act_remaster_tip_2 = {
+	tip = "$1 維護"
+}
+
+
+_G.pg.base.gametip.act_remaster_extend_time = {
+	tip = "獎勵領取時間截至$1時"
+}
+
+
+_G.pg.base.gametip.act_remaster_time_desc = {
+	tip = "$1月$2日-$3月$4日 維護"
+}
+
+
+_G.pg.base.gametip.act_remaster_time_desc_with_hours = {
+	tip = "$1月$2日-$3月$4日 $5時"
+}
+
+
+_G.pg.base.gametip.act_remaster_time_desc_with_hours_without_ch = {
+	tip = "$1.$2-$3.$4 $5:$6:$7"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar6 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_1 = {
+	tip = "高塔上的薔薇"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_2 = {
+	tip = "高塔上的薔薇"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_3 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_4 = {
+	tip = "日不落的遠征"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_5 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_6 = {
+	tip = "UR兌換"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_1 = {
+	tip = "樊籠內的神光"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_2 = {
+	tip = "樊籠內的神光"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_3 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_4 = {
+	tip = "受選者之路"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_5 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_1 = {
+	tip = "星光下的餘暉"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_2 = {
+	tip = "星光下的餘暉"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_3 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_4 = {
+	tip = "領域外的歸途"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_5 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_6 = {
+	tip = "UR兌換"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_1 = {
+	tip = "喚醒蒼紅之炎"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_2 = {
+	tip = "喚醒蒼紅之炎"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_3 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_4 = {
+	tip = "匯聚於此案之塵"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_5 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_1 = {
+	tip = "鐵翼擎風"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_2 = {
+	tip = "鐵翼擎風"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_3 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_4 = {
+	tip = "朱紅迷局"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_5 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re7_1 = {
+	tip = "林間渡假準備"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re7_2 = {
+	tip = "建造支援"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_btn = {
+	tip = "獎勵匯總"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_title = {
+	tip = "活動期間限定獎勵"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_ship = {
+	tip = "角色($1)"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_es = {
+	tip = "外觀裝備($1)"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_other = {
+	tip = "其他($1)"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_own_desc = {
+	tip = "已獲得：<color=#39bfff>$1</color>"
+}
+
+
 _G.pg.base.gametip.dorm3d_yuanchou_table = {
 	tip = "密室"
 }
@@ -50260,4 +50485,19 @@ _G.pg.base.gametip.setting_restart_download_btn = {
 
 _G.pg.base.gametip.loading_flow_tip = {
 	tip = "正在使用移動數據下載資源，請注意流量消耗 "
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE = {
+	tip = "活動匯總"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE_EN = {
+	tip = "ACTIVITY"
+}
+
+
+_G.pg.base.gametip.ActivityRemaster_NoticeJump_AlreadySelected = {
+	tip = "目前已有開啟中的輕量化復刻活動，請通過主介面活動入口進入"
 }

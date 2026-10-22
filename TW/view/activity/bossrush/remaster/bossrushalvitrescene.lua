@@ -38,9 +38,8 @@ slot0.init = function(slot0)
 	slot0.ticketText = slot0._tf:Find("tickets/Text")
 end
 
-slot0.SetActivity = function(slot0, slot1)
-	uv0.super.SetActivity(slot0, slot1)
-	slot0:SetPtActivity(slot0:CreateVirtualPtActivity(slot1))
+slot0.SetPtActivity = function(slot0, slot1)
+	uv0.super.SetPtActivity(slot0, slot1 or slot0:CreateVirtualPtActivity(slot0.activity))
 end
 
 slot0.UpdateBattle = function(slot0)

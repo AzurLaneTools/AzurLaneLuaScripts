@@ -883,7 +883,12 @@ pg.drop_data_restore.all = {
 	10309,
 	15000,
 	15001,
-	15002
+	15002,
+	30001,
+	30002,
+	30003,
+	30005,
+	30006
 }
 pg.base = pg.base or {}
 pg.base.drop_data_restore = {}
@@ -8833,5 +8838,50 @@ end)()
 		resource_num = 2000,
 		drop_id = "998011",
 		target_id = 502041
+	}
+	pg.base.drop_data_restore[30001] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 30001,
+		resource_num = 2000,
+		drop_id = "0",
+		target_id = 331
+	}
+	pg.base.drop_data_restore[30002] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 30002,
+		resource_num = 2000,
+		drop_id = "0",
+		target_id = 332
+	}
+	pg.base.drop_data_restore[30003] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 30003,
+		resource_num = 2000,
+		drop_id = "0",
+		target_id = 333
+	}
+	pg.base.drop_data_restore[30005] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 30005,
+		resource_num = 2000,
+		drop_id = "0",
+		target_id = 335
+	}
+	pg.base.drop_data_restore[30006] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 30006,
+		resource_num = 2000,
+		drop_id = "0",
+		target_id = 336
 	}
 end)()

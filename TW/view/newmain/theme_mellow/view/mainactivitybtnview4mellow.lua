@@ -5,6 +5,8 @@ slot0.Ctor = function(slot0, slot1, slot2)
 
 	slot0.mapEventTr = slot1:Find("right/1/act/act_battle")
 	slot0.mapBtn = MainActivityBtnMellowAdapt.New(MainActMapBtn.New(slot0.mapEventTr, slot0.event, true, true))
+	slot0.mapRemasterEventTr = slot1:Find("right/1/act/act_battle_remaster")
+	slot0.mapRemasterBtn = MainActivityRemasterBtnMellowAdapt.New(MainActRemasterMapBtn.New(slot0.mapRemasterEventTr, slot0.event, true, true))
 	slot0.mapSubEventTr = slot1:Find("right/1/act/act_sub_battle")
 	slot0.mapSubBtn = MainActivityBtnMellowAdapt.New(MainActSubMapBtn.New(slot0.mapSubEventTr, slot0.event, true, true))
 	slot0.voteEventTr = slot1:Find("right/1/act/act_vote")
@@ -20,7 +22,7 @@ slot0.InitBtns = function(slot0)
 	uv0.super.InitBtns(slot0)
 
 	slot0.activityBtns = _.map(_.select(slot0.activityBtns, function (slot0)
-		return not isa(slot0, MainActMapBtn)
+		return not isa(slot0, MainActMapBtn) and not isa(slot0, MainActRemasterMapBtn)
 	end), function (slot0)
 		return MainActivityBtnMellowAdapt.New(slot0)
 	end)
@@ -91,6 +93,12 @@ slot0.Flush = function(slot0)
 	else
 		slot0.subActBtn:Clear()
 	end
+
+	if slot0.mapRemasterBtn:InShowTime() then
+		slot0.mapRemasterBtn:Init()
+	else
+		slot0.mapRemasterBtn:Clear()
+	end
 end
 
 slot0.GetDirection = function(slot0)
@@ -114,6 +122,10 @@ slot0.Dispose = function(slot0)
 	slot0.subActBtn:Dispose()
 
 	slot0.subActBtn = nil
+
+	slot0.mapRemasterBtn:Dispose()
+
+	slot0.mapRemasterBtn = nil
 end
 
 return slot0

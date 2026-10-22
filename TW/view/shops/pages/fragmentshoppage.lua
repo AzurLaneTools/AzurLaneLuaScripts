@@ -42,22 +42,22 @@ slot0.OnUpdateItems = function(slot0)
 end
 
 slot0.GetResDataList = function(slot0)
-	slot1 = {
-		{
-			type = DROP_TYPE_RESOURCE,
-			resID = PlayerConst.ResBlueprintFragment,
-			cnt = slot0.player:getResource(PlayerConst.ResBlueprintFragment)
-		}
-	}
+	table.insert({}, Drop.New({
+		count = 0,
+		type = DROP_TYPE_RESOURCE,
+		id = PlayerConst.ResBlueprintFragment
+	}))
 
-	if not LOCK_UR_SHIP and slot0.items then
-		table.insert(slot1, {
+	if not LOCK_UR_SHIP then
+		table.insert(slot1, Drop.New({
+			count = 0,
 			type = DROP_TYPE_ITEM,
-			resID = slot3,
-			cnt = (slot0.items[pg.gameset.urpt_chapter_max.description[1]] or {
-				count = 0
-			}).count
-		})
+			id = pg.gameset.urpt_chapter_max.description[1]
+		}))
+	end
+
+	for slot5, slot6 in ipairs(slot1) do
+		slot6.count = slot6:getOwnedCount()
 	end
 
 	return slot1

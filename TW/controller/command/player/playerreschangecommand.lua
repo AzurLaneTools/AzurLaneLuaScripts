@@ -37,13 +37,15 @@ slot0.UpdateActivies = function(slot0, slot1, slot2)
 	slot7 = ActivityConst.ACTIVITY_TYPE_PT_RANK
 
 	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
-		slot9 = slot8:getConfig("config_id")
+		if slot8:GetPTDrop() == DROP_TYPE_RESOURCE then
+			slot10 = slot9.id
 
-		assert(slot9)
+			assert(slot10)
 
-		slot3[slot9] = slot3[slot9] or slot2:getResource(slot9) - slot1:getResource(slot9)
+			slot3[slot10] = slot3[slot10] or slot2:getResource(slot10) - slot1:getResource(slot10)
 
-		uv0.UpdateActivity(slot8, slot3[slot9])
+			uv0.UpdateActivity(slot8, slot3[slot10])
+		end
 	end
 
 	slot7 = ActivityConst.ACTIVITY_TYPE_BOSS_RANK

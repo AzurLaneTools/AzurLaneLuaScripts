@@ -2613,7 +2613,7 @@ end)()
 		name = "聖翼神光紀念勳章",
 		target_num = 8,
 		type = 0,
-		is_out_of_print = 1,
+		is_out_of_print = 0,
 		count_inherit = 0,
 		desc = "薩丁尼亞聯盟頒發的紀念勳章，紀念這場對抗審判機戰車的偉大勝利。\n——突破樊籠後，等在前方的是希望與更偉大的光輝。",
 		next = 0,

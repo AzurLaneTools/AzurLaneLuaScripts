@@ -440,12 +440,15 @@ slot0.SwitchPool = function(slot0, slot1)
 	slot6 = slot1:getConfigTable()
 	slot7, slot8 = nil
 	slot7 = (not slot1:IsActivity() or slot2:getBuildActivityCfgByID(slot6.id)) and slot2:getNoneActBuildActivityCfgByID(slot6.id)
-	slot10 = slot7 and slot7.bg or "loadingbg/bg_" .. slot6.icon
-	slot10 = slot7 and slot7.buildship_tip
 
-	slot0.tipSTxt:SetText(slot10 and HXSet.hxLan(slot10) or i18n("buildship_" .. slot4 .. "_tip"))
+	setText(slot0._tf:Find("gallery/bg/act_time"), slot1:IsActivity() and not slot1:IsNewServerBuild() and slot1:GetActivityTimeStr() or "")
 
-	slot0._tf:Find("gallery/bg"):GetComponent(typeof(Image)).sprite = LoadSprite(HXSet.HxPath(slot10))
+	slot11 = slot7 and slot7.bg or "loadingbg/bg_" .. slot6.icon
+	slot11 = slot7 and slot7.buildship_tip
+
+	slot0.tipSTxt:SetText(slot11 and HXSet.hxLan(slot11) or i18n("buildship_" .. slot4 .. "_tip"))
+
+	slot0._tf:Find("gallery/bg"):GetComponent(typeof(Image)).sprite = LoadSprite(HXSet.HxPath(slot11))
 
 	setText(slot0._tf:Find("gallery/item_bg/item/Text"), slot6.number_1)
 	setText(slot0._tf:Find("gallery/item_bg/gold/Text"), slot6.use_gold)
@@ -455,10 +458,10 @@ slot0.SwitchPool = function(slot0, slot1)
 	slot0:UpdateTestBtn(slot1)
 	slot0:UpdateBuildPoolPaiting(slot1)
 
-	slot14 = {}
+	slot15 = {}
 
 	if slot1:getConfig("exchange_count") > 0 then
-		table.insert(slot14, function (slot0)
+		table.insert(slot15, function (slot0)
 			if getProxy(BuildShipProxy):getRegularExchangeCount() < pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_request or PlayerPrefs.GetString("REGULAR_BUILD_MAX_TIP", "") == pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d") then
 				slot0()
 			else

@@ -1,5 +1,30 @@
 slot0 = class("SaratogaWFSkinPage", import(".TemplatePage.PtTemplatePage"))
 
+slot0.OnFirstFlush = function(slot0)
+	onButton(slot0, slot0.displayBtn, function ()
+		uv0:emit(ActivityMediator.SHOW_AWARD_WINDOW, PtAwardWindow, {
+			type = uv0.ptData.type,
+			dropList = uv0.ptData.dropList,
+			targets = uv0.ptData.targets,
+			level = uv0.ptData.level,
+			count = uv0.ptData.count,
+			resDrop = Drop.New(uv0.ptData:GetRes())
+		})
+	end, SFX_PANEL)
+	onButton(slot0, slot0.battleBtn, function ()
+		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.getBtn, function ()
+		slot0, slot1 = uv0.ptData:GetResProgress()
+
+		uv0:emit(ActivityMediator.EVENT_PT_OPERATION, {
+			cmd = 1,
+			activity_id = uv0.ptData:GetId(),
+			arg1 = slot1
+		})
+	end, SFX_PANEL)
+end
+
 slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 

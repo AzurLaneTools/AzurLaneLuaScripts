@@ -27,9 +27,7 @@ slot0.GetMedalIds = function(slot0)
 end
 
 slot0.IsMedalGroupCollectionGrey = function(slot0)
-	player = getProxy(PlayerProxy):getData()
-
-	return not player:getActivityMedalGroup()[slot0]
+	return not getProxy(PlayerProxy):getData():getActivityMedalGroup()[slot0]
 end
 
 slot0.GetMedalGroupStateByID = function(slot0)

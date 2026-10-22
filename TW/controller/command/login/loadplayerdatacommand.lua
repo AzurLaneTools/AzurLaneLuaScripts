@@ -314,6 +314,10 @@ slot0.execute = function(slot0, slot1)
 		{
 			ReversePacmanDormProxy,
 			true
+		},
+		{
+			ActivityRemasterProxy,
+			true
 		}
 	})
 

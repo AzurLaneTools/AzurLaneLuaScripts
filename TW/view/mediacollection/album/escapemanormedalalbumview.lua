@@ -1,6 +1,5 @@
 slot0 = class("EscapeManorMedalAlbumView", import(".MedalAlbumTemplateView"))
 slot0.GROUP_ID = 51078
-slot0.HELP_TIPS = "help_starLightAlbum"
 slot0.setColorstateText = "#817678"
 
 slot0.getUIName = function(slot0)

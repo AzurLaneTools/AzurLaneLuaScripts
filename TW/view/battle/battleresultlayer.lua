@@ -423,7 +423,7 @@ slot0.showRewardInfo = function(slot0)
 			slot3 = slot2:getConfig("config_client").pt_id
 
 			if _.detect(slot1:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
-				return slot0:getConfig("config_id") == uv0
+				return slot0:GetPTDrop().type == DROP_TYPE_RESOURCE and slot1.id == uv0
 			end):getData1() >= 1500 then
 				slot4 = slot4 - 1500
 				slot0 = _.filter(slot0, function (slot0)

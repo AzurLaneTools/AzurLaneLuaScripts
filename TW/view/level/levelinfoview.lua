@@ -523,60 +523,65 @@ slot0.getChapterAwards = function(slot0)
 		end
 	end
 
-	slot3 = {
+	slot3 = function(slot0)
+		return _.all(slot0, function (slot0)
+			return #slot0 >= 3
+		end)
+	end
+
+	slot4 = {
 		slot0:getConfig("boss_expedition_id"),
 		slot0:getConfig("ai_expedition_list")
 	}
 
 	if slot0:getPlayType() == ChapterConst.TypeMultiStageBoss then
-		table.insert(slot3, pg.chapter_model_multistageboss[slot0.id].boss_expedition_id)
+		table.insert(slot4, pg.chapter_model_multistageboss[slot0.id].boss_expedition_id)
 	end
 
-	slot5 = {}
 	slot6 = {}
+	slot7 = {}
 
-	slot7 = function(slot0)
-		for slot4, slot5 in ipairs(uv0) do
-			if slot5 == slot0 then
-				return false
-			end
-		end
-
-		return true
-	end
-
-	slot8 = {}
-
-	for slot12, slot13 in ipairs(_.flatten(slot3)) do
-		if checkExist(pg.expedition_activity_template[slot13], {
+	for slot11, slot12 in ipairs(_.flatten(slot4)) do
+		if checkExist(pg.expedition_activity_template[slot12], {
 			"pt_drop_display"
-		}) and type(slot14) == "table" then
-			for slot18, slot19 in ipairs(slot14) do
-				slot20 = slot19[1]
-				slot22 = slot19[3]
+		}) and type(slot13) == "table" and slot3(slot13) then
+			for slot17, slot18 in ipairs(slot13) do
+				slot19, slot20, slot21, slot22 = unpack(slot18)
 
-				if slot7(slot19[2]) then
-					table.insert(slot5, slot21)
+				if not slot7[slot20 .. "_" .. slot21] then
+					slot7[slot23] = {}
 
-					slot6[slot21] = {}
+					table.insert(slot6, slot23)
 				end
 
-				slot6[slot21][slot20] = true
-				slot8[slot21] = slot8[slot21] or {}
-				slot8[slot21][slot20] = slot22
+				slot7[slot23][slot19] = slot22
 			end
 		end
 	end
 
-	slot9 = getProxy(ActivityProxy)
+	slot8 = getProxy(ActivityProxy)
 
-	for slot13 = #slot5, 1, -1 do
-		for slot17, slot18 in pairs(slot6[slot5[slot13]]) do
-			if slot9:getActivityById(slot17) and not slot19:isEnd() then
+	for slot12 = #slot6, 1, -1 do
+		slot13, slot14 = unpack(underscore.map(string.split(slot6[slot12], "_"), function (slot0)
+			return tonumber(slot0)
+		end))
+
+		for slot18, slot19 in pairs(slot7[slot6[slot12]]) do
+			if slot8:getActivityById(slot18) and not slot20:isEnd() then
+				if slot13 == DROP_TYPE_RESOURCE then
+					table.insert(slot1, 1, {
+						DROP_TYPE_ITEM,
+						id2ItemId(slot14),
+						slot19
+					})
+
+					break
+				end
+
 				table.insert(slot1, 1, {
-					DROP_TYPE_ITEM,
-					id2ItemId(slot5[slot13]),
-					slot8[slot5[slot13]][slot17]
+					slot13,
+					slot14,
+					slot19
 				})
 
 				break

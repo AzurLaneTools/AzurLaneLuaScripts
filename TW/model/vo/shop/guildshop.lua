@@ -70,8 +70,15 @@ slot0.UpdateGoodsCnt = function(slot0, slot1, slot2)
 end
 
 slot0.GetResList = function(slot0)
+	slot1 = Drop.New({
+		id = 8,
+		count = 0,
+		type = DROP_TYPE_RESOURCE
+	})
+	slot1.count = slot1:getOwnedCount()
+
 	return {
-		8
+		slot1
 	}
 end
 

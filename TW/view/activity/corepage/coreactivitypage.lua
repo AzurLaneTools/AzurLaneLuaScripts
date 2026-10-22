@@ -33,6 +33,14 @@ slot0.Flush = function(slot0, slot1)
 	slot0:OnUpdateFlush()
 end
 
+slot0.GetAwardPreviewPos = function(slot0)
+	if not slot0.activity then
+		return nil
+	end
+
+	return slot0.activity:getConfig("config_client").AwardPreviewPos
+end
+
 slot0.ShowOrHide = function(slot0, slot1)
 	SetActive(slot0._go, slot1)
 

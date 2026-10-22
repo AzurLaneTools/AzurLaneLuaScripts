@@ -77,16 +77,18 @@ slot0.OnFinish = function(slot0, slot1, slot2)
 	slot6 = PlayerConst.addTranDrop(slot1.drop_list)
 
 	if getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_EVENT) and slot7:getConfig("config_client").shopActID then
-		slot9 = pg.activity_template[slot8].config_client.pt_id
+		slot9 = getProxy(ShopsProxy)
+		slot9 = slot9:getActivityShopById(slot8)
+		slot9 = slot9:GetResList()[1]
 
 		_.each(slot6, function (slot0)
-			if slot0.id == uv0 then
+			if slot0.type == uv0.type and slot0.id == uv0.id then
 				slot0.catchupActTag = true
 			end
 		end)
 		table.sort(slot6, CompareFuncs({
 			function (slot0)
-				return slot0.id == uv0 and 1 or 0
+				return slot0.catchupActTag and 1 or 0
 			end
 		}))
 	end

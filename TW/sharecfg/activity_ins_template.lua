@@ -673,6 +673,7 @@ pg.activity_ins_template.all = {
 	20012,
 	20009,
 	20010,
+	20015,
 	20013,
 	20014
 }
@@ -28295,6 +28296,33 @@ end)()
 			},
 			{
 				16,
+				0,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	}
+	pg.base.activity_ins_template[20015] = {
+		ship_group = 0,
+		name = "",
+		type = 2,
+		picture_persist = "",
+		title = "【港區故事】徵稿：何為浪漫？",
+		message_persist = "",
+		is_active = 1,
+		oalist_pic_persist = "",
+		sculpture = "",
+		id = 20015,
+		group_id = 20015,
+		time = {
+			{
+				2026,
+				10,
+				22
+			},
+			{
+				14,
 				0,
 				0
 			}

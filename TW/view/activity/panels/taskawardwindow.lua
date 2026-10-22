@@ -68,12 +68,12 @@ end
 
 slot0.Show = function(slot0, slot1)
 	slot0.tasklist = slot1.tasklist
-	slot0.ptId = slot1.ptId
+	slot0.ptDrop = slot1.ptDrop
 	slot0.totalPt = slot1.totalPt
 	slot0.index = slot1.index or 1
 	slot0.blur = slot1.blur
 
-	slot0:updateResIcon(slot1.resId, slot1.resIcon, slot1.type)
+	slot0:updateResIcon(slot1.ptDrop, slot1.type)
 	uv0(slot0)
 
 	slot0.totalTxt.text = slot0.totalPt

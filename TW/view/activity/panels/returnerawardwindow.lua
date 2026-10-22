@@ -35,15 +35,12 @@ end
 
 slot0.Show = function(slot0, slot1)
 	slot0.blur = slot1.blur
-	slot7 = Drop.New({
-		type = DROP_TYPE_RESOURCE,
-		id = slot1.resId
-	}):getName()
+	slot7 = slot1.ptDrop:getName()
 	slot0.cntTitle = i18n("pt_total_count", slot7)
 	slot0.resTitle = i18n("pt_count", slot7)
 	slot0.cntTitle = string.gsub(slot0.cntTitle, "：", "")
 
-	slot0:updateResIcon(slot1.resId, slot1.resIcon, slot1.type)
+	slot0:updateResIcon(slot1.ptDrop, slot1.type)
 	uv0(slot0, slot1.dropList, slot1.targets, slot1.fetchList)
 
 	slot0.totalTxt.text = slot1.count

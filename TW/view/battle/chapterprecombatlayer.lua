@@ -353,11 +353,20 @@ slot0.updateStageView = function(slot0, slot1)
 		slot8 = getProxy(ActivityProxy)
 
 		for slot12 = #slot7, 1, -1 do
-			if slot8:getActivityById(slot7[slot12][1]) and not slot13:isEnd() then
-				table.insert(slot6, 1, {
-					2,
-					id2ItemId(slot7[slot12][2])
-				})
+			slot13, slot14, slot15, slot16 = unpack(slot7)
+
+			if slot8:getActivityById(slot13) and not slot17:isEnd() then
+				if slot14 == DROP_TYPE_RESOURCE then
+					table.insert(slot6, 1, {
+						DROP_TYPE_ITEM,
+						id2ItemId(slot15)
+					})
+				else
+					table.insert(slot6, 1, {
+						slot14,
+						slot15
+					})
+				end
 			end
 		end
 	end

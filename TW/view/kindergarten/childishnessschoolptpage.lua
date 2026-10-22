@@ -34,7 +34,7 @@ end
 
 slot0.Show = function(slot0)
 	slot0:UpdatePtData()
-	slot0:updateResIcon(slot0.ptData.resId, slot0.ptData.resIcon, slot0.ptData.type)
+	slot0:updateResIcon(Drop.New(slot0.ptData:GetRes()), slot0.ptData.type)
 	slot0:UpdateList(slot0.ptData.dropList, slot0.ptData.targets, slot0.ptData.level)
 
 	slot0.totalTxt.text = slot0.ptData.count
@@ -149,16 +149,24 @@ slot0.UpdateList = function(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.updateResIcon = function(slot0, slot1, slot2, slot3)
-	if slot3 == 2 or slot3 ~= 3 and slot3 ~= 4 and slot3 ~= 5 and slot3 ~= 6 then
-		if slot1 then
-			slot0.resIcon = Drop.New({
-				type = DROP_TYPE_RESOURCE,
-				id = slot1
-			}):getIcon()
-		elseif slot2 then
-			slot0.resIcon = slot2
-		end
+slot1 = {
+	nil,
+	true,
+	false,
+	false,
+	false,
+	false
+}
+
+slot0.updateResIcon = function(slot0, slot1, slot2)
+	if defaultValue(uv0[slot2], true) then
+		slot0.resIcon = slot1:getIcon()
+	end
+
+	setActive(slot0.ptIcon, slot0.resIcon)
+
+	if slot0.resIcon then
+		LoadImageSpriteAsync(slot0.resIcon, slot0.totalTitleIcon, false)
 	end
 end
 

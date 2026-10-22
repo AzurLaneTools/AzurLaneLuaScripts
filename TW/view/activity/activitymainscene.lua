@@ -191,7 +191,17 @@ slot0.updateTaskLayers = function(slot0)
 end
 
 slot0.getActClass = function(slot0, slot1)
-	return import("view.activity.subPages." .. slot1)
+	slot2, slot3 = pcall(import, "view.activity.subPages." .. slot1)
+
+	if not slot2 then
+		slot4, slot3 = pcall(import, "view.activity.Remaster.re." .. slot1)
+
+		if not slot4 then
+			error("模块未找到: " .. slot1)
+		end
+	end
+
+	return slot3
 end
 
 slot0.instanceActivityPage = function(slot0, slot1)

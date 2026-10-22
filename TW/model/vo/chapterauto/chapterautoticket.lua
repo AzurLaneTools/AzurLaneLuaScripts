@@ -114,6 +114,13 @@ slot0.GetExpireTimeByArg = function(slot0)
 					day = 1,
 					year = tonumber(uv0:STimeDescS(slot3:GetServerTime(), "%Y")) + uv1 + 1
 				})
+			end,
+			act = function ()
+				if not getProxy(ActivityProxy):getActivityById(uv0) or slot0:isEnd() then
+					return 0
+				else
+					return slot0.stopTime
+				end
 			end
 		}, function ()
 			return uv0.FOREVER_TIME

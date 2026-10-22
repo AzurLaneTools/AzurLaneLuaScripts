@@ -4284,9 +4284,16 @@ pg.base.ship_l2d_tips = {}
 		},
 		idle_black_list = {
 			{
-				drawable = {},
+				drawable = {
+					"TouchIdle2",
+					"TouchIdle5"
+				},
 				idle = {
-					0
+					2,
+					3,
+					5,
+					6,
+					7
 				}
 			}
 		},
@@ -7115,9 +7122,11 @@ pg.base.ship_l2d_tips = {}
 		},
 		idle_black_list = {
 			{
-				drawable = {},
+				drawable = {
+					"TouchIdle2"
+				},
 				idle = {
-					0
+					1
 				}
 			}
 		},

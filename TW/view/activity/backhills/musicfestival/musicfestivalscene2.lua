@@ -62,7 +62,10 @@ slot0.didEnter = function(slot0)
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 16)
 	end)
 
-	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)
+	slot2 = getProxy(ActivityProxy):getActivitiesByTypes({
+		ActivityConst.ACTIVITY_TYPE_PT_BUFF,
+		ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2
+	})[1]
 
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "leijipt", function ()
 		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.ACTIVITY, {
@@ -99,7 +102,10 @@ slot0.UpdateView = function(slot0)
 
 	setActive(slot0.upper_jichangwutai:Find("tip"), getProxy(MiniGameProxy):GetHubByHubId(getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID_2):getConfig("config_id")).count > 0)
 	setActive(slot0.modelTip, slot5:getConfig("reward_need") <= slot5.usedtime and slot5.ultimate == 0)
-	setActive(slot0.upper_leijipt:Find("tip"), slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF):readyToAchieve())
+	setActive(slot0.upper_leijipt:Find("tip"), slot1:getActivitiesByTypes({
+		ActivityConst.ACTIVITY_TYPE_PT_BUFF,
+		ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2
+	})[1]:readyToAchieve())
 	setActive(slot0.upper_jinianzhang:Find("tip"), uv0.MedalTip())
 end
 
@@ -167,7 +173,10 @@ slot0.IsShowMainTip = function(slot0)
 	assert(getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID_2))
 
 	return (function ()
-		return uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF) and not slot0:isEnd() and slot0:readyToAchieve()
+		return uv0:getActivitiesByTypes({
+			ActivityConst.ACTIVITY_TYPE_PT_BUFF,
+			ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2
+		})[1] and not slot0:isEnd() and slot0:readyToAchieve()
 	end)() or uv0.MedalTip() or (function ()
 		slot0 = getProxy(MiniGameProxy):GetHubByHubId(uv0:getConfig("config_id"))
 
