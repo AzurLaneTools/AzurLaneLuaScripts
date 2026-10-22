@@ -26,7 +26,8 @@ pg.activity_medal_group.all = {
 	51110,
 	51113,
 	51143,
-	51154
+	51154,
+	51611
 }
 pg.base = pg.base or {}
 pg.base.activity_medal_group = {}
@@ -1140,6 +1141,50 @@ pg.base.activity_medal_group = {}
 		task_show = {
 			25737,
 			25729
+		}
+	}
+	pg.base.activity_medal_group[51611] = {
+		id = 51611,
+		entrance_picture = "MedalAlbum/51611",
+		group_name = "飓风与雾霭回廊",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				51611,
+				{
+					25738,
+					25739,
+					25740,
+					25741,
+					25742,
+					25743,
+					25744,
+					25745,
+					25746,
+					25747
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "WindFogCorridorMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				351,
+				1
+			},
+			{
+				8,
+				66113,
+				1
+			}
+		},
+		task_show = {
+			25747,
+			25738
 		}
 	}
 end)()

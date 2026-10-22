@@ -8306,6 +8306,37 @@ _G.pg.base.item_data_statistics[11059] = {
 }
 
 
+_G.pg.base.item_data_statistics[11060] = {
+	open_directly = 0,
+	name = "ダブル球型砲丸T0設計図",
+	type = 9,
+	display = "ダブル球型砲丸T0設計図",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/151280",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[13000] = {
 	open_directly = 0,
 	name = "381mm連装砲.改T0設計図",
@@ -30513,6 +30544,131 @@ _G.pg.base.item_data_statistics[30388] = {
 }
 
 
+_G.pg.base.item_data_statistics[30389] = {
+	open_directly = 1,
+	name = "装備外装箱(光闇の夜想曲)",
+	type = 11,
+	display = "ランダムな装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxfengfanv4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30386",
+	id = 30389,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -47779,6 +47935,219 @@ _G.pg.base.item_data_statistics[30572] = {
 }
 
 
+_G.pg.base.item_data_statistics[30573] = {
+	open_directly = 0,
+	name = "選択装備外装箱（光闇の夜想曲）",
+	type = 13,
+	display = "使用すると、装備外装（光闇の夜想曲）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxfengfanv4zixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30573,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "指向性強化パーツT4",
@@ -55911,6 +56280,328 @@ _G.pg.base.item_data_statistics[40728] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40736] = {
+	open_directly = 1,
+	name = "船団の財宝返礼Ⅰ",
+	type = 17,
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40736,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4139,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40737] = {
+	open_directly = 1,
+	name = "船団の財宝返礼Ⅱ",
+	type = 17,
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40737,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4140,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40738] = {
+	open_directly = 1,
+	name = "船団の財宝返礼Ⅲ",
+	type = 17,
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40738,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4141,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40739] = {
+	open_directly = 1,
+	name = "船団の財宝返礼Ⅳ",
+	type = 17,
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40739,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4142,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40740] = {
+	open_directly = 1,
+	name = "船団の財宝返礼Ⅴ",
+	type = 17,
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40740,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4143,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40741] = {
+	open_directly = 1,
+	name = "船団の財宝返礼Ⅵ",
+	type = 17,
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40741,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4144,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40742] = {
+	open_directly = 1,
+	name = "船団の財宝返礼Ⅶ",
+	type = 17,
+	display = "購入すると大作戦指令書×3、燃料×150を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40742,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4145,
+		0,
+		150
+	},
 	limit = {}
 }
 
@@ -126768,6 +127459,290 @@ _G.pg.base.item_data_statistics[81440] = {
 			7,
 			204035,
 			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81446] = {
+	open_directly = 1,
+	name = "船団建設パックⅠ",
+	type = 17,
+	display = "ダイヤ×60と、上級指向型強化ユニット・Ⅷ期目×2を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911101",
+	id = 81446,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81447] = {
+	open_directly = 1,
+	name = "船団建設パックⅡ",
+	type = 17,
+	display = "ダイヤ×200を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911102",
+	id = 81447,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81448] = {
+	open_directly = 1,
+	name = "船団建設パックⅢ",
+	type = 17,
+	display = "指向性強化パーツT4×5、メンタルユニット×200を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911103",
+	id = 81448,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			30114,
+			5
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81449] = {
+	open_directly = 1,
+	name = "船団建設パックⅣ",
+	type = 17,
+	display = "ダイヤ×60と、試作型ブリMkⅡを入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911104",
+	id = 81449,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81450] = {
+	open_directly = 1,
+	name = "船団建設パックⅤ",
+	type = 17,
+	display = "艦船経験値パックT2×60を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day5",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911105",
+	id = 81450,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			16502,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81451] = {
+	open_directly = 1,
+	name = "船団建設パックⅥ",
+	type = 17,
+	display = "キューブ×10と、高速建造材×5を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911106",
+	id = 81451,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81452] = {
+	open_directly = 1,
+	name = "船団建設パックⅦ",
+	type = 17,
+	display = "ダイヤ×60と、上級指向型強化ユニット・Ⅸ期目×2を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911107",
+	id = 81452,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			1,
+			14,
+			60
 		}
 	},
 	price = {},

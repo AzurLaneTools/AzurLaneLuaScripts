@@ -90,6 +90,7 @@ slot3.Cast = function(slot0, slot1, slot2)
 	end
 
 	if slot0._tempData.action then
+		slot1:SendAttackTrigger()
 		slot1:StateChange(uv0.Battle.UnitState.STATE_SKILL_START)
 	end
 end

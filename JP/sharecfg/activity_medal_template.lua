@@ -190,7 +190,15 @@ pg.activity_medal_template.all = {
 	5115404,
 	5115405,
 	5115406,
-	5115407
+	5115407,
+	5161101,
+	5161102,
+	5161103,
+	5161104,
+	5161105,
+	5161106,
+	5161107,
+	5161108
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -428,6 +436,16 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5115405,
 		5115406,
 		5115407
+	},
+	[51611] = {
+		5161101,
+		5161102,
+		5161103,
+		5161104,
+		5161105,
+		5161106,
+		5161107,
+		5161108
 	}
 }
 pg.base = pg.base or {}
@@ -2691,5 +2709,101 @@ end)()
 		activity_medal_name = "ステッカー：調査経費",
 		id = 5115407,
 		medal_asset = "ActivityMedal/5115407"
+	}
+	pg.base.activity_medal_template[5161101] = {
+		activity_medal_desc = "「星空の倒影の中に、往きし日の答えを求めてはならない」",
+		next_medal = 0,
+		item = 66114,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "1",
+		task_id = 25739,
+		activity_medal_name = "ステッカー：霧海天文台",
+		id = 5161101,
+		medal_asset = "ActivityMedal/5161101"
+	}
+	pg.base.activity_medal_template[5161102] = {
+		activity_medal_desc = "標識を灯し、天文台に向けて突き進め",
+		next_medal = 0,
+		item = 66115,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "2",
+		task_id = 25740,
+		activity_medal_name = "ステッカー：星軌標識",
+		id = 5161102,
+		medal_asset = "ActivityMedal/5161102"
+	}
+	pg.base.activity_medal_template[5161103] = {
+		activity_medal_desc = "星々の間に隠された燦めく航路を見た？",
+		next_medal = 0,
+		item = 66116,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "3",
+		task_id = 25741,
+		activity_medal_name = "ステッカー：導引の杖",
+		id = 5161103,
+		medal_asset = "ActivityMedal/5161103"
+	}
+	pg.base.activity_medal_template[5161104] = {
+		activity_medal_desc = "占い用の水晶玉……これにも年間限定ってものがあるの？",
+		next_medal = 0,
+		item = 66117,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "4",
+		task_id = 25742,
+		activity_medal_name = "ステッカー：年間限定水晶玉",
+		id = 5161104,
+		medal_asset = "ActivityMedal/5161104"
+	}
+	pg.base.activity_medal_template[5161105] = {
+		activity_medal_desc = "シャーッ",
+		next_medal = 0,
+		item = 66118,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "5",
+		task_id = 25743,
+		activity_medal_name = "ステッカー：海魔の蛇",
+		id = 5161105,
+		medal_asset = "ActivityMedal/5161105"
+	}
+	pg.base.activity_medal_template[5161106] = {
+		activity_medal_desc = "話したいことがあったら、この刃に聞くといいわ",
+		next_medal = 0,
+		item = 66119,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "6",
+		task_id = 25744,
+		activity_medal_name = "ステッカー：ジャイアントサイズ",
+		id = 5161106,
+		medal_asset = "ActivityMedal/5161106"
+	}
+	pg.base.activity_medal_template[5161107] = {
+		activity_medal_desc = "折れた槍が鋳直される、その時――",
+		next_medal = 0,
+		item = 66120,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "7",
+		task_id = 25745,
+		activity_medal_name = "ステッカー：折れた槍",
+		id = 5161107,
+		medal_asset = "ActivityMedal/5161107"
+	}
+	pg.base.activity_medal_template[5161108] = {
+		activity_medal_desc = "「天穹は倒転し、星軌は移ろう」",
+		next_medal = 0,
+		item = 66121,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "8",
+		task_id = 25746,
+		activity_medal_name = "ステッカー：星空逆廻り",
+		id = 5161108,
+		medal_asset = "ActivityMedal/5161108"
 	}
 end)()

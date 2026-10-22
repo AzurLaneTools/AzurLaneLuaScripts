@@ -59,9 +59,6 @@ temp = function()
 	uv0["名"] = {
 		["取"] = {
 			this = true
-		},
-		["寄"] = {
-			this = true
 		}
 	}
 end
@@ -349,16 +346,6 @@ temp()
 temp = function()
 	uv0["雲"] = {
 		["仙"] = {
-			this = true,
-			["ち"] = {
-				["ゃ"] = {
-					["ん"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["龍"] = {
 			this = true
 		}
 	}

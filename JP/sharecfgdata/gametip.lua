@@ -37888,7 +37888,7 @@ _G.pg.base.gametip.BoatAdGame_minigame_help = {
 
 
 _G.pg.base.gametip.activity_1024_memory = {
-	tip = "「ハロウィンページ」が不足しています。限定任務をクリアして集めましょう！"
+	tip = "「光闇の1ページ」が不足しています。限定任務をクリアして集めましょう！ "
 }
 
 
@@ -45625,6 +45625,16 @@ _G.pg.base.gametip.grapihcs3d_setting_flare = {
 }
 
 
+_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
+	tip = "作戦準備"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar5 = {
+	tip = "重桜の招待"
+}
+
+
 _G.pg.base.gametip.Outpost_20250904_Title1 = {
 	tip = "前哨戦"
 }
@@ -52713,4 +52723,14 @@ _G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE_EN = {
 
 _G.pg.base.gametip.ActivityRemaster_NoticeJump_AlreadySelected = {
 	tip = "開放中の軽量化復刻イベントがあります。ホーム画面のアイコンからご確認ください"
+}
+
+
+_G.pg.base.gametip.HurricaneTreasureCoreActivityUI_subtitle_1 = {
+	tip = "テンペスタの宝"
+}
+
+
+_G.pg.base.gametip.windfog_skin_stroy_finish = {
+	tip = "ストーリー全部確認して入手 "
 }

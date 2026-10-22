@@ -4,6 +4,50 @@ slot0.word_legal_template_9 = {}
 slot1 = slot0.word_legal_template_9
 
 temp = function()
+	uv0["皇"] = {
+		["家"] = {
+			["财"] = {
+				["富"] = {
+					["号"] = {
+						["（"] = {
+							["前"] = {
+								["排"] = {
+									["）"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["铁"] = {
+		["角"] = {
+			["号"] = {
+				["（"] = {
+					["前"] = {
+						["排"] = {
+							["）"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["拉"] = {
 		["菲"] = {
 			I = {
@@ -428,36 +472,6 @@ temp()
 temp = function()
 	uv0["吾"] = {
 		["妻"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["藤"] = {
-		["波"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["木"] = {
-		["津"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["安"] = {
-		["土"] = {
 			this = true
 		}
 	}

@@ -79,6 +79,16 @@ slot0.Register = function(slot0)
 
 		uv0.painting:ResetState()
 	end)
+	slot0:bind(NewMainScene.STORY_BEGIN, function ()
+		if uv0.painting then
+			uv0.painting:Pause()
+		end
+	end)
+	slot0:bind(NewMainScene.STORY_END, function ()
+		if uv0.painting then
+			uv0.painting:Resume()
+		end
+	end)
 
 	Live2dConst.UnLoadL2dPating = function()
 		if not uv0.reloadOnResume and uv0.painting and isa(uv0.painting, MainLive2dPainting) then

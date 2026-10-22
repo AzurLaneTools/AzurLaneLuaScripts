@@ -340,6 +340,11 @@ pg.fleet_tech_ship_class.all = {
 	960014,
 	960015,
 	960016,
+	960017,
+	960018,
+	960019,
+	960020,
+	960021,
 	970101,
 	970102,
 	970103,
@@ -4481,6 +4486,61 @@ end)()
 			960016
 		}
 	}
+	pg.base.fleet_tech_ship_class[960017] = {
+		shiptype = 23,
+		name = "メルクーリィ ",
+		t_level = 2,
+		id = 960017,
+		t_level_1 = 1,
+		nation = 96,
+		ships = {
+			960017
+		}
+	}
+	pg.base.fleet_tech_ship_class[960018] = {
+		shiptype = 22,
+		name = "ヤーンバアデン",
+		t_level = 2,
+		id = 960018,
+		t_level_1 = 1,
+		nation = 96,
+		ships = {
+			960018
+		}
+	}
+	pg.base.fleet_tech_ship_class[960019] = {
+		shiptype = 24,
+		name = "セリミエ",
+		t_level = 2,
+		id = 960019,
+		t_level_1 = 1,
+		nation = 96,
+		ships = {
+			960019
+		}
+	}
+	pg.base.fleet_tech_ship_class[960020] = {
+		shiptype = 23,
+		name = "オーメン・ランゲ",
+		t_level = 1,
+		id = 960020,
+		t_level_1 = 16,
+		nation = 96,
+		ships = {
+			960020
+		}
+	}
+	pg.base.fleet_tech_ship_class[960021] = {
+		shiptype = 24,
+		name = "リヤラ・ベイ",
+		t_level = 2,
+		id = 960021,
+		t_level_1 = 1,
+		nation = 96,
+		ships = {
+			960021
+		}
+	}
 	pg.base.fleet_tech_ship_class[970101] = {
 		shiptype = 1,
 		name = "ハンター(META)",
@@ -5119,6 +5179,8 @@ end)()
 			970705
 		}
 	}
+end)()
+(function ()
 	pg.base.fleet_tech_ship_class[970706] = {
 		shiptype = 7,
 		name = "ホーネット(META)",
@@ -5174,8 +5236,6 @@ end)()
 			970710
 		}
 	}
-end)()
-(function ()
 	pg.base.fleet_tech_ship_class[970801] = {
 		shiptype = 8,
 		name = "U-556(META)",

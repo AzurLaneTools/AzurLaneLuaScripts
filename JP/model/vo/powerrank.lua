@@ -169,7 +169,9 @@ slot0.getActivityByRankType = function(slot0, slot1)
 	slot3 = getProxy(ActivityProxy)
 
 	return _.detect(slot3:getActivitiesByType(uv0.typeInfo[slot1].act_type), function (slot0)
-		return not slot0:isEnd() and (uv0 ~= uv1.TYPE_PT or tonumber(slot0:getConfig("config_data")) > 0)
+		slot2 = type(slot0:getConfig("config_data")) == "number" and tonumber(slot1) > 0
+
+		return not slot0:isEnd() and (uv0 ~= uv1.TYPE_PT or type(slot1) == "number" and tonumber(slot1) > 0) or type(slot1) == "table" and #slot1 > 0
 	end)
 end
 

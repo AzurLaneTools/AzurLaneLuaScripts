@@ -385,6 +385,10 @@ pg.strategy_data_template.all = {
 	201909,
 	201910,
 	201911,
+	201924,
+	201928,
+	201935,
+	201940,
 	205001,
 	205002,
 	205003,
@@ -4871,6 +4875,50 @@ META艦船：【侵食】1個につき、自身が<color=#92fc63>受けるダメ
 		icon = "200908",
 		arg = {}
 	}
+	pg.base.strategy_data_template[201924] = {
+		buff_id = 201924,
+		name = "雾霭回廊",
+		desc = "霧靄回廊の影響により、味方の命中が5%ダウンし、敵の速力・回避が10％アップ",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201924,
+		icon = "201924",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201928] = {
+		buff_id = 0,
+		name = "沉星之渊",
+		desc = "戦闘中、戦場に移動する渦が出現する。敵味方問わず、渦の範囲内にいると速力が大幅ダウンし、持続ダメージを受ける",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201928,
+		icon = "201928",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201935] = {
+		buff_id = 0,
+		name = "挑战说明",
+		desc = "戦闘開始時、オーメン・ランゲは星沈みの巨獣-オルムに守られ、味方は星沈みの巨獣-オルムにしかダメージを与えることができない。星沈みの巨獣-オルムは耐久が20％を下回ると、永続で虚影状態に入り攻撃を受けなくなるが、<color=#92fc63>オーメン・ランゲにダメージを与えられるようになる</color>。\n星沈みの巨獣-オルムは通常炎上状態にはならないが、<color=#92fc63>炎上状態では受けるダメージが50％アップ</color>。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201935,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201940] = {
+		buff_id = 0,
+		name = "挑战说明",
+		desc = "戦闘開始時、オーメン・ランゲは星沈みの巨獣-オルムに守られ、味方は星沈みの巨獣-オルムにしかダメージを与えることができない。星沈みの巨獣-オルムは耐久が20％を下回ると、虚影状態に入り攻撃を受けなくなるが、<color=#92fc63>オーメン・ランゲにダメージを与えられるようになる</color>；虚影状態の星沈みの巨獣-オルムは毎秒耐久が上限の5％分回復し、上限の60％まで回復した場合、虚影状態を解除し再びオーメン・ランゲへのダメージを防ぐようになる\n星沈みの巨獣-オルムは通常炎上状態にはならない",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201940,
+		icon = "200908",
+		arg = {}
+	}
 	pg.base.strategy_data_template[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -5036,6 +5084,8 @@ META艦船：【侵食】1個につき、自身が<color=#92fc63>受けるダメ
 		icon = "buff_yumia_4",
 		arg = {}
 	}
+end)()
+(function ()
 	pg.base.strategy_data_template[300009] = {
 		buff_id = 0,
 		name = "コアレベルLv1",
@@ -5080,8 +5130,6 @@ META艦船：【侵食】1個につき、自身が<color=#92fc63>受けるダメ
 		icon = "buff_yumia_4",
 		arg = {}
 	}
-end)()
-(function ()
 	pg.base.strategy_data_template[300013] = {
 		buff_id = 0,
 		name = "コアレベルLv1",

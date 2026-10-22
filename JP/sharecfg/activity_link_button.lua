@@ -171,7 +171,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51141
+			51601
 		}
 	}
 	pg.base.activity_link_button[11] = {
@@ -457,21 +457,21 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51201
+			51601
 		}
 	}
 	pg.base.activity_link_button[110] = {
-		param = "RapidSeasideCoreActivityUI",
+		param = "HurricaneTreasureCoreActivityUI",
 		name = "event_core_2",
 		text_pic = "text_event_core3",
 		type = 16,
 		pic = "event_core3",
 		id = 110,
-		group_id = 2,
-		order = 2,
+		group_id = 1,
+		order = 1,
 		time = {
 			"default",
-			51090
+			51616
 		}
 	}
 	pg.base.activity_link_button[111] = {

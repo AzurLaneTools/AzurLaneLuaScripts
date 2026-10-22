@@ -95485,6 +95485,178 @@ _G.pg.base.ship_skin_template[205074] = {
 }
 
 
+_G.pg.base.ship_skin_template[205075] = {
+	name = "妖帷のファムファタール",
+	change_skin = "",
+	desc = "ハロウィンの饗宴に最も映えそうな装いを選んでるところなんだけど……教えてくれないかしら？そなたはどんな麗しい幻に心を奪われ、どんな危うさに溺れたい？",
+	illustrator2 = 19,
+	ship_group = 20507,
+	group_index = 5,
+	purchase_offset = "",
+	painting = "yuekegongjue_5",
+	lover_hand = "hand_1_02",
+	skin_type = 0,
+	shop_type_id = 24,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "132",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 205075,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "yuekegongjue_5",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71418,
+	voice_actor = 79,
+	shop_dynamic_hx = 0,
+	illustrator = 14,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		7,
+		4
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		-66,
+		-22,
+		0,
+		0.55
+	},
+	spine_offset_profile = {
+		0,
+		-40,
+		0,
+		0.55
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.196,
+				1.061,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.21,
+				0.923,
+				0
+			}
+		},
+		torpedo = {
+			{
+				-0.258,
+				0.033,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.836,
+				2.371,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.721,
+						2.471,
+						0.53
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		0,
+		-68.5,
+		0,
+		0.65
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-612,
+				1558,
+				2,
+				159,
+				0,
+				2
+			},
+			{
+				-453,
+				282,
+				2,
+				0,
+				-107,
+				2
+			},
+			{
+				-256,
+				-465,
+				2,
+				-110,
+				0,
+				2
+			}
+		}
+	}
+}
+
+
 _G.pg.base.ship_skin_template[205090] = {
 	name = "ハウ",
 	change_skin = "",
@@ -270455,7 +270627,7 @@ _G.pg.base.ship_skin_template[907013] = {
 _G.pg.base.ship_skin_template[900001] = {
 	name = "ケーニヒスベルク",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900001,
 	group_index = 0,
@@ -270599,7 +270771,7 @@ _G.pg.base.ship_skin_template[900001] = {
 _G.pg.base.ship_skin_template[900002] = {
 	name = "カールスルーエ",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900002,
 	group_index = 0,
@@ -270738,7 +270910,7 @@ _G.pg.base.ship_skin_template[900002] = {
 _G.pg.base.ship_skin_template[900003] = {
 	name = "ケルン",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900003,
 	group_index = 0,
@@ -270877,7 +271049,7 @@ _G.pg.base.ship_skin_template[900003] = {
 _G.pg.base.ship_skin_template[900004] = {
 	name = "サフォーク",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900004,
 	group_index = 0,
@@ -271016,7 +271188,7 @@ _G.pg.base.ship_skin_template[900004] = {
 _G.pg.base.ship_skin_template[900005] = {
 	name = "ノーフォーク",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900005,
 	group_index = 0,
@@ -271155,7 +271327,7 @@ _G.pg.base.ship_skin_template[900005] = {
 _G.pg.base.ship_skin_template[900006] = {
 	name = "フッド",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900006,
 	group_index = 0,
@@ -271287,7 +271459,7 @@ _G.pg.base.ship_skin_template[900006] = {
 _G.pg.base.ship_skin_template[900007] = {
 	name = "プリンス・オブ・ウェールズ",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900007,
 	group_index = 0,
@@ -271424,7 +271596,7 @@ _G.pg.base.ship_skin_template[900007] = {
 _G.pg.base.ship_skin_template[900008] = {
 	name = "アーク・ロイヤル",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900008,
 	group_index = 0,
@@ -271549,7 +271721,7 @@ _G.pg.base.ship_skin_template[900008] = {
 _G.pg.base.ship_skin_template[900009] = {
 	name = "プリンツ・オイゲン",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900009,
 	group_index = 0,
@@ -271698,7 +271870,7 @@ _G.pg.base.ship_skin_template[900009] = {
 _G.pg.base.ship_skin_template[900010] = {
 	name = "ビスマルク",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900010,
 	group_index = 0,
@@ -271847,7 +272019,7 @@ _G.pg.base.ship_skin_template[900010] = {
 _G.pg.base.ship_skin_template[900011] = {
 	name = "？？？？？",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900011,
 	group_index = 0,
@@ -271986,7 +272158,7 @@ _G.pg.base.ship_skin_template[900011] = {
 _G.pg.base.ship_skin_template[900012] = {
 	name = "？？？？？",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900012,
 	group_index = 0,
@@ -272125,7 +272297,7 @@ _G.pg.base.ship_skin_template[900012] = {
 _G.pg.base.ship_skin_template[900013] = {
 	name = "利根",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900013,
 	group_index = 0,
@@ -272264,7 +272436,7 @@ _G.pg.base.ship_skin_template[900013] = {
 _G.pg.base.ship_skin_template[900014] = {
 	name = "霧島",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900014,
 	group_index = 0,
@@ -272403,7 +272575,7 @@ _G.pg.base.ship_skin_template[900014] = {
 _G.pg.base.ship_skin_template[900015] = {
 	name = "最上",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900015,
 	group_index = 0,
@@ -272542,7 +272714,7 @@ _G.pg.base.ship_skin_template[900015] = {
 _G.pg.base.ship_skin_template[900016] = {
 	name = "爱宕",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900016,
 	group_index = 0,
@@ -272681,7 +272853,7 @@ _G.pg.base.ship_skin_template[900016] = {
 _G.pg.base.ship_skin_template[900017] = {
 	name = "金剛",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900017,
 	group_index = 0,
@@ -272800,7 +272972,7 @@ _G.pg.base.ship_skin_template[900017] = {
 _G.pg.base.ship_skin_template[900020] = {
 	name = "逸仙",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900020,
 	group_index = 0,
@@ -272939,7 +273111,7 @@ _G.pg.base.ship_skin_template[900020] = {
 _G.pg.base.ship_skin_template[900021] = {
 	name = "？？？？？",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900021,
 	group_index = 0,
@@ -273078,7 +273250,7 @@ _G.pg.base.ship_skin_template[900021] = {
 _G.pg.base.ship_skin_template[900022] = {
 	name = "宁海",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900022,
 	group_index = 0,
@@ -273217,7 +273389,7 @@ _G.pg.base.ship_skin_template[900022] = {
 _G.pg.base.ship_skin_template[900023] = {
 	name = "平海",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900023,
 	group_index = 0,
@@ -273356,7 +273528,7 @@ _G.pg.base.ship_skin_template[900023] = {
 _G.pg.base.ship_skin_template[900024] = {
 	name = "逸仙",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900024,
 	group_index = 0,
@@ -273719,7 +273891,7 @@ _G.pg.base.ship_skin_template[900028] = {
 _G.pg.base.ship_skin_template[900032] = {
 	name = "逸仙",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900032,
 	group_index = 0,
@@ -273845,7 +274017,7 @@ _G.pg.base.ship_skin_template[900032] = {
 _G.pg.base.ship_skin_template[900033] = {
 	name = "明石",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900033,
 	group_index = 0,
@@ -273984,7 +274156,7 @@ _G.pg.base.ship_skin_template[900033] = {
 _G.pg.base.ship_skin_template[900040] = {
 	name = "绫波",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900040,
 	group_index = 0,
@@ -274109,7 +274281,7 @@ _G.pg.base.ship_skin_template[900040] = {
 _G.pg.base.ship_skin_template[900041] = {
 	name = "高雄",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900041,
 	group_index = 0,
@@ -274256,7 +274428,7 @@ _G.pg.base.ship_skin_template[900041] = {
 _G.pg.base.ship_skin_template[900042] = {
 	name = "爱宕",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900042,
 	group_index = 0,
@@ -274403,7 +274575,7 @@ _G.pg.base.ship_skin_template[900042] = {
 _G.pg.base.ship_skin_template[900043] = {
 	name = "翔鹤",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900043,
 	group_index = 0,
@@ -274515,7 +274687,7 @@ _G.pg.base.ship_skin_template[900043] = {
 _G.pg.base.ship_skin_template[900044] = {
 	name = "瑞鹤",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900044,
 	group_index = 0,
@@ -274640,7 +274812,7 @@ _G.pg.base.ship_skin_template[900044] = {
 _G.pg.base.ship_skin_template[900045] = {
 	name = "三笠",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900045,
 	group_index = 0,
@@ -274787,7 +274959,7 @@ _G.pg.base.ship_skin_template[900045] = {
 _G.pg.base.ship_skin_template[900046] = {
 	name = "比叡",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900046,
 	group_index = 0,
@@ -274912,7 +275084,7 @@ _G.pg.base.ship_skin_template[900046] = {
 _G.pg.base.ship_skin_template[900050] = {
 	name = "三笠",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900050,
 	group_index = 0,
@@ -275059,7 +275231,7 @@ _G.pg.base.ship_skin_template[900050] = {
 _G.pg.base.ship_skin_template[900051] = {
 	name = "比叡",
 	change_skin = "",
-	desc = "0",
+	desc = "",
 	illustrator2 = 0,
 	ship_group = 900051,
 	group_index = 0,
@@ -292739,7 +292911,7 @@ _G.pg.base.ship_skin_template[900311] = {
 _G.pg.base.ship_skin_template[900312] = {
 	name = "サフォーク",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900312,
 	group_index = 0,
@@ -292878,7 +293050,7 @@ _G.pg.base.ship_skin_template[900312] = {
 _G.pg.base.ship_skin_template[900313] = {
 	name = "？？？？？",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900313,
 	group_index = 0,
@@ -299164,7 +299336,7 @@ _G.pg.base.ship_skin_template[900401] = {
 _G.pg.base.ship_skin_template[900402] = {
 	name = "瑞鳳",
 	change_skin = "",
-	desc = "瑞鳳",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900402,
 	group_index = 0,
@@ -299290,7 +299462,7 @@ _G.pg.base.ship_skin_template[900402] = {
 _G.pg.base.ship_skin_template[900403] = {
 	name = "「ギンギツネ」",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900403,
 	group_index = 0,
@@ -299416,7 +299588,7 @@ _G.pg.base.ship_skin_template[900403] = {
 _G.pg.base.ship_skin_template[900404] = {
 	name = "プロトコルウォーフェア「フォートレス」",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900404,
 	group_index = 0,
@@ -299542,7 +299714,7 @@ _G.pg.base.ship_skin_template[900404] = {
 _G.pg.base.ship_skin_template[900405] = {
 	name = "プロトコルウォーフェア「フォートレス」",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900405,
 	group_index = 0,
@@ -299668,7 +299840,7 @@ _G.pg.base.ship_skin_template[900405] = {
 _G.pg.base.ship_skin_template[900406] = {
 	name = "エセックス(META)",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900406,
 	group_index = 0,
@@ -299794,7 +299966,7 @@ _G.pg.base.ship_skin_template[900406] = {
 _G.pg.base.ship_skin_template[900407] = {
 	name = "「ギンギツネ」",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900407,
 	group_index = 0,
@@ -299920,7 +300092,7 @@ _G.pg.base.ship_skin_template[900407] = {
 _G.pg.base.ship_skin_template[900408] = {
 	name = "コレット",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900408,
 	group_index = 0,
@@ -300046,7 +300218,7 @@ _G.pg.base.ship_skin_template[900408] = {
 _G.pg.base.ship_skin_template[900409] = {
 	name = "拉菲-传说级魔法师",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900409,
 	group_index = 0,
@@ -300165,7 +300337,7 @@ _G.pg.base.ship_skin_template[900409] = {
 _G.pg.base.ship_skin_template[900410] = {
 	name = "标枪-传说级勇者",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900410,
 	group_index = 0,
@@ -300284,7 +300456,7 @@ _G.pg.base.ship_skin_template[900410] = {
 _G.pg.base.ship_skin_template[900411] = {
 	name = "Z23- 传说级战士",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900411,
 	group_index = 0,
@@ -300410,7 +300582,7 @@ _G.pg.base.ship_skin_template[900411] = {
 _G.pg.base.ship_skin_template[900412] = {
 	name = "绫波-传说级格斗家",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900412,
 	group_index = 0,
@@ -300536,7 +300708,7 @@ _G.pg.base.ship_skin_template[900412] = {
 _G.pg.base.ship_skin_template[900413] = {
 	name = "抚顺-勇者",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900413,
 	group_index = 0,
@@ -300662,7 +300834,7 @@ _G.pg.base.ship_skin_template[900413] = {
 _G.pg.base.ship_skin_template[900414] = {
 	name = "利物浦-神官",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900414,
 	group_index = 0,
@@ -300788,7 +300960,7 @@ _G.pg.base.ship_skin_template[900414] = {
 _G.pg.base.ship_skin_template[900415] = {
 	name = "独角兽-见习神官",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900415,
 	group_index = 0,
@@ -300914,7 +301086,7 @@ _G.pg.base.ship_skin_template[900415] = {
 _G.pg.base.ship_skin_template[900416] = {
 	name = "努比亚人-药剂师",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900416,
 	group_index = 0,
@@ -301040,7 +301212,7 @@ _G.pg.base.ship_skin_template[900416] = {
 _G.pg.base.ship_skin_template[900417] = {
 	name = "鲁莽-王国军二级魔法师",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900417,
 	group_index = 0,
@@ -301166,7 +301338,7 @@ _G.pg.base.ship_skin_template[900417] = {
 _G.pg.base.ship_skin_template[900418] = {
 	name = "倔强-王国军二级魔法师",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900418,
 	group_index = 0,
@@ -301292,7 +301464,7 @@ _G.pg.base.ship_skin_template[900418] = {
 _G.pg.base.ship_skin_template[900419] = {
 	name = "阿尔及利亚-王国军方旗骑士",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900419,
 	group_index = 0,
@@ -301418,7 +301590,7 @@ _G.pg.base.ship_skin_template[900419] = {
 _G.pg.base.ship_skin_template[900420] = {
 	name = "不屈-王国军守护骑士",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900420,
 	group_index = 0,
@@ -301544,7 +301716,7 @@ _G.pg.base.ship_skin_template[900420] = {
 _G.pg.base.ship_skin_template[900421] = {
 	name = "圣女贞德-王国军圣女",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900421,
 	group_index = 0,
@@ -301670,7 +301842,7 @@ _G.pg.base.ship_skin_template[900421] = {
 _G.pg.base.ship_skin_template[900422] = {
 	name = "前卫-王国军方旗骑士",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900422,
 	group_index = 0,
@@ -301796,7 +301968,7 @@ _G.pg.base.ship_skin_template[900422] = {
 _G.pg.base.ship_skin_template[900423] = {
 	name = "霞飞-战斗天使",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900423,
 	group_index = 0,
@@ -301915,7 +302087,7 @@ _G.pg.base.ship_skin_template[900423] = {
 _G.pg.base.ship_skin_template[900427] = {
 	name = "腓特烈·卡尔-钢铁教会机械师",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900427,
 	group_index = 0,
@@ -302041,7 +302213,7 @@ _G.pg.base.ship_skin_template[900427] = {
 _G.pg.base.ship_skin_template[900424] = {
 	name = "金布里机甲",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900424,
 	group_index = 0,
@@ -302167,7 +302339,7 @@ _G.pg.base.ship_skin_template[900424] = {
 _G.pg.base.ship_skin_template[900425] = {
 	name = "金布里机甲",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900425,
 	group_index = 0,
@@ -302293,7 +302465,7 @@ _G.pg.base.ship_skin_template[900425] = {
 _G.pg.base.ship_skin_template[900426] = {
 	name = "金布里机甲",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900426,
 	group_index = 0,
@@ -302419,7 +302591,7 @@ _G.pg.base.ship_skin_template[900426] = {
 _G.pg.base.ship_skin_template[900428] = {
 	name = "デスシャドウ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900428,
 	group_index = 0,
@@ -302545,7 +302717,7 @@ _G.pg.base.ship_skin_template[900428] = {
 _G.pg.base.ship_skin_template[900429] = {
 	name = "{namecode:448}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900429,
 	group_index = 0,
@@ -302671,7 +302843,7 @@ _G.pg.base.ship_skin_template[900429] = {
 _G.pg.base.ship_skin_template[900430] = {
 	name = "ミスD",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900430,
 	group_index = 0,
@@ -302923,7 +303095,7 @@ _G.pg.base.ship_skin_template[900431] = {
 _G.pg.base.ship_skin_template[900432] = {
 	name = "ウィチタ(META)",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900432,
 	group_index = 0,
@@ -303049,7 +303221,7 @@ _G.pg.base.ship_skin_template[900432] = {
 _G.pg.base.ship_skin_template[900433] = {
 	name = "チェシャー",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900433,
 	group_index = 0,
@@ -303175,7 +303347,7 @@ _G.pg.base.ship_skin_template[900433] = {
 _G.pg.base.ship_skin_template[900434] = {
 	name = "土佐",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900434,
 	group_index = 0,
@@ -303301,7 +303473,7 @@ _G.pg.base.ship_skin_template[900434] = {
 _G.pg.base.ship_skin_template[900435] = {
 	name = "プリンツ・アーダルベルト",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900435,
 	group_index = 0,
@@ -303427,7 +303599,7 @@ _G.pg.base.ship_skin_template[900435] = {
 _G.pg.base.ship_skin_template[900436] = {
 	name = "タシュケント",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900436,
 	group_index = 0,
@@ -303553,7 +303725,7 @@ _G.pg.base.ship_skin_template[900436] = {
 _G.pg.base.ship_skin_template[900437] = {
 	name = "シラ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900437,
 	group_index = 0,
@@ -303679,7 +303851,7 @@ _G.pg.base.ship_skin_template[900437] = {
 _G.pg.base.ship_skin_template[900438] = {
 	name = "名取",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900438,
 	group_index = 0,
@@ -303805,7 +303977,7 @@ _G.pg.base.ship_skin_template[900438] = {
 _G.pg.base.ship_skin_template[900439] = {
 	name = "サラトガ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900439,
 	group_index = 0,
@@ -303931,7 +304103,7 @@ _G.pg.base.ship_skin_template[900439] = {
 _G.pg.base.ship_skin_template[900440] = {
 	name = "クルスク",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900440,
 	group_index = 0,
@@ -304057,7 +304229,7 @@ _G.pg.base.ship_skin_template[900440] = {
 _G.pg.base.ship_skin_template[900441] = {
 	name = "アルザス",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900441,
 	group_index = 0,
@@ -304183,7 +304355,7 @@ _G.pg.base.ship_skin_template[900441] = {
 _G.pg.base.ship_skin_template[900442] = {
 	name = "セントルイス",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900442,
 	group_index = 0,
@@ -304309,7 +304481,7 @@ _G.pg.base.ship_skin_template[900442] = {
 _G.pg.base.ship_skin_template[900443] = {
 	name = "ル・マラン",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900443,
 	group_index = 0,
@@ -304435,7 +304607,7 @@ _G.pg.base.ship_skin_template[900443] = {
 _G.pg.base.ship_skin_template[900444] = {
 	name = "モガドール",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900444,
 	group_index = 0,
@@ -304561,7 +304733,7 @@ _G.pg.base.ship_skin_template[900444] = {
 _G.pg.base.ship_skin_template[900445] = {
 	name = "{namecode:161}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900445,
 	group_index = 0,
@@ -304687,7 +304859,7 @@ _G.pg.base.ship_skin_template[900445] = {
 _G.pg.base.ship_skin_template[900446] = {
 	name = "赤城",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900446,
 	group_index = 0,
@@ -304813,7 +304985,7 @@ _G.pg.base.ship_skin_template[900446] = {
 _G.pg.base.ship_skin_template[900447] = {
 	name = "加賀",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900447,
 	group_index = 0,
@@ -304939,7 +305111,7 @@ _G.pg.base.ship_skin_template[900447] = {
 _G.pg.base.ship_skin_template[900448] = {
 	name = "{namecode:91}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900448,
 	group_index = 0,
@@ -305065,7 +305237,7 @@ _G.pg.base.ship_skin_template[900448] = {
 _G.pg.base.ship_skin_template[900449] = {
 	name = "{namecode:91}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900449,
 	group_index = 0,
@@ -305191,7 +305363,7 @@ _G.pg.base.ship_skin_template[900449] = {
 _G.pg.base.ship_skin_template[900450] = {
 	name = "{namecode:91}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900450,
 	group_index = 0,
@@ -305317,7 +305489,7 @@ _G.pg.base.ship_skin_template[900450] = {
 _G.pg.base.ship_skin_template[900451] = {
 	name = "{namecode:91}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900451,
 	group_index = 0,
@@ -305443,7 +305615,7 @@ _G.pg.base.ship_skin_template[900451] = {
 _G.pg.base.ship_skin_template[900452] = {
 	name = "アーク・ロイヤル",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900452,
 	group_index = 0,
@@ -305569,7 +305741,7 @@ _G.pg.base.ship_skin_template[900452] = {
 _G.pg.base.ship_skin_template[900453] = {
 	name = "樫野",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900453,
 	group_index = 0,
@@ -305695,7 +305867,7 @@ _G.pg.base.ship_skin_template[900453] = {
 _G.pg.base.ship_skin_template[900454] = {
 	name = "ブレマートン",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900454,
 	group_index = 0,
@@ -305821,7 +305993,7 @@ _G.pg.base.ship_skin_template[900454] = {
 _G.pg.base.ship_skin_template[900455] = {
 	name = "プリンツ・ループレヒト",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900455,
 	group_index = 0,
@@ -305947,7 +306119,7 @@ _G.pg.base.ship_skin_template[900455] = {
 _G.pg.base.ship_skin_template[900456] = {
 	name = "龍驤",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900456,
 	group_index = 0,
@@ -306073,7 +306245,7 @@ _G.pg.base.ship_skin_template[900456] = {
 _G.pg.base.ship_skin_template[900457] = {
 	name = "グロスター",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900457,
 	group_index = 0,
@@ -306199,7 +306371,7 @@ _G.pg.base.ship_skin_template[900457] = {
 _G.pg.base.ship_skin_template[900458] = {
 	name = "武蔵",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900458,
 	group_index = 0,
@@ -306325,7 +306497,7 @@ _G.pg.base.ship_skin_template[900458] = {
 _G.pg.base.ship_skin_template[900459] = {
 	name = "シリアス",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900459,
 	group_index = 0,
@@ -306451,7 +306623,7 @@ _G.pg.base.ship_skin_template[900459] = {
 _G.pg.base.ship_skin_template[900460] = {
 	name = "ガンズウェイ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900460,
 	group_index = 0,
@@ -306577,7 +306749,7 @@ _G.pg.base.ship_skin_template[900460] = {
 _G.pg.base.ship_skin_template[900461] = {
 	name = "ファンシー",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900461,
 	group_index = 0,
@@ -306703,7 +306875,7 @@ _G.pg.base.ship_skin_template[900461] = {
 _G.pg.base.ship_skin_template[900462] = {
 	name = "ポーツマウス・アドベンチャー",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900462,
 	group_index = 0,
@@ -306829,7 +307001,7 @@ _G.pg.base.ship_skin_template[900462] = {
 _G.pg.base.ship_skin_template[900463] = {
 	name = "ドルフィン",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900463,
 	group_index = 0,
@@ -306955,7 +307127,7 @@ _G.pg.base.ship_skin_template[900463] = {
 _G.pg.base.ship_skin_template[900464] = {
 	name = "尾張",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900464,
 	group_index = 0,
@@ -307081,7 +307253,7 @@ _G.pg.base.ship_skin_template[900464] = {
 _G.pg.base.ship_skin_template[900465] = {
 	name = "マダムM",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900465,
 	group_index = 0,
@@ -307207,7 +307379,7 @@ _G.pg.base.ship_skin_template[900465] = {
 _G.pg.base.ship_skin_template[900466] = {
 	name = "？？？",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900466,
 	group_index = 0,
@@ -307333,7 +307505,7 @@ _G.pg.base.ship_skin_template[900466] = {
 _G.pg.base.ship_skin_template[900467] = {
 	name = "TB",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900467,
 	group_index = 0,
@@ -307459,7 +307631,7 @@ _G.pg.base.ship_skin_template[900467] = {
 _G.pg.base.ship_skin_template[900468] = {
 	name = "星の獣",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900468,
 	group_index = 0,
@@ -307711,7 +307883,7 @@ _G.pg.base.ship_skin_template[900469] = {
 _G.pg.base.ship_skin_template[900470] = {
 	name = "{namecode:199}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900470,
 	group_index = 0,
@@ -307837,7 +308009,7 @@ _G.pg.base.ship_skin_template[900470] = {
 _G.pg.base.ship_skin_template[900471] = {
 	name = "{namecode:523}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900471,
 	group_index = 0,
@@ -307963,7 +308135,7 @@ _G.pg.base.ship_skin_template[900471] = {
 _G.pg.base.ship_skin_template[900472] = {
 	name = "マインツ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900472,
 	group_index = 0,
@@ -308089,7 +308261,7 @@ _G.pg.base.ship_skin_template[900472] = {
 _G.pg.base.ship_skin_template[900473] = {
 	name = "アンドレア・ドーリア(META)",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900473,
 	group_index = 0,
@@ -309097,7 +309269,7 @@ _G.pg.base.ship_skin_template[900480] = {
 _G.pg.base.ship_skin_template[900481] = {
 	name = "？？",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900481,
 	group_index = 0,
@@ -309223,7 +309395,7 @@ _G.pg.base.ship_skin_template[900481] = {
 _G.pg.base.ship_skin_template[900485] = {
 	name = "马可波罗 王座",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900485,
 	group_index = 0,
@@ -309349,7 +309521,7 @@ _G.pg.base.ship_skin_template[900485] = {
 _G.pg.base.ship_skin_template[900486] = {
 	name = "レディE",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900486,
 	group_index = 0,
@@ -309475,7 +309647,7 @@ _G.pg.base.ship_skin_template[900486] = {
 _G.pg.base.ship_skin_template[900487] = {
 	name = "グロリアス(META)",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900487,
 	group_index = 0,
@@ -309601,7 +309773,7 @@ _G.pg.base.ship_skin_template[900487] = {
 _G.pg.base.ship_skin_template[900488] = {
 	name = "グレンヴィル(META)",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900488,
 	group_index = 0,
@@ -309727,7 +309899,7 @@ _G.pg.base.ship_skin_template[900488] = {
 _G.pg.base.ship_skin_template[900489] = {
 	name = "？？？",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900489,
 	group_index = 0,
@@ -309853,7 +310025,7 @@ _G.pg.base.ship_skin_template[900489] = {
 _G.pg.base.ship_skin_template[900490] = {
 	name = "アビータ・Magician・Ⅰ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900490,
 	group_index = 0,
@@ -309979,7 +310151,7 @@ _G.pg.base.ship_skin_template[900490] = {
 _G.pg.base.ship_skin_template[900491] = {
 	name = "エレバス(META)",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900491,
 	group_index = 0,
@@ -310105,7 +310277,7 @@ _G.pg.base.ship_skin_template[900491] = {
 _G.pg.base.ship_skin_template[900492] = {
 	name = "ハンター(META)",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900492,
 	group_index = 0,
@@ -310231,7 +310403,7 @@ _G.pg.base.ship_skin_template[900492] = {
 _G.pg.base.ship_skin_template[900506] = {
 	name = "コンパイラー",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900506,
 	group_index = 0,
@@ -310350,7 +310522,7 @@ _G.pg.base.ship_skin_template[900506] = {
 _G.pg.base.ship_skin_template[900507] = {
 	name = "フォーミダブル",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900507,
 	group_index = 0,
@@ -310462,7 +310634,7 @@ _G.pg.base.ship_skin_template[900507] = {
 _G.pg.base.ship_skin_template[900508] = {
 	name = "モナーク",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900508,
 	group_index = 0,
@@ -310588,7 +310760,7 @@ _G.pg.base.ship_skin_template[900508] = {
 _G.pg.base.ship_skin_template[900509] = {
 	name = "フリードリヒ・カール",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900509,
 	group_index = 0,
@@ -310714,7 +310886,7 @@ _G.pg.base.ship_skin_template[900509] = {
 _G.pg.base.ship_skin_template[900510] = {
 	name = "メリーランド",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900510,
 	group_index = 0,
@@ -310840,7 +311012,7 @@ _G.pg.base.ship_skin_template[900510] = {
 _G.pg.base.ship_skin_template[900511] = {
 	name = "初月",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900511,
 	group_index = 0,
@@ -311209,7 +311381,7 @@ _G.pg.base.ship_skin_template[900513] = {
 _G.pg.base.ship_skin_template[900514] = {
 	name = "？？？",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900514,
 	group_index = 0,
@@ -311328,7 +311500,7 @@ _G.pg.base.ship_skin_template[900514] = {
 _G.pg.base.ship_skin_template[900515] = {
 	name = "フラミィ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900515,
 	group_index = 0,
@@ -311447,7 +311619,7 @@ _G.pg.base.ship_skin_template[900515] = {
 _G.pg.base.ship_skin_template[900516] = {
 	name = "ユミア・リースフェルト",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900516,
 	group_index = 0,
@@ -311571,7 +311743,7 @@ _G.pg.base.ship_skin_template[900516] = {
 _G.pg.base.ship_skin_template[900517] = {
 	name = "アイラ・フォン・デューラー",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900517,
 	group_index = 0,
@@ -311690,7 +311862,7 @@ _G.pg.base.ship_skin_template[900517] = {
 _G.pg.base.ship_skin_template[900518] = {
 	name = "ニーナ・フリーデ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900518,
 	group_index = 0,
@@ -311809,7 +311981,7 @@ _G.pg.base.ship_skin_template[900518] = {
 _G.pg.base.ship_skin_template[900519] = {
 	name = "レイニャ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900519,
 	group_index = 0,
@@ -311928,7 +312100,7 @@ _G.pg.base.ship_skin_template[900519] = {
 _G.pg.base.ship_skin_template[900520] = {
 	name = "？？？?",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900520,
 	group_index = 0,
@@ -312047,7 +312219,7 @@ _G.pg.base.ship_skin_template[900520] = {
 _G.pg.base.ship_skin_template[900521] = {
 	name = "アルザス",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900521,
 	group_index = 0,
@@ -312166,7 +312338,7 @@ _G.pg.base.ship_skin_template[900521] = {
 _G.pg.base.ship_skin_template[900522] = {
 	name = "ブレンヌス",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900522,
 	group_index = 0,
@@ -312285,7 +312457,7 @@ _G.pg.base.ship_skin_template[900522] = {
 _G.pg.base.ship_skin_template[900523] = {
 	name = "グアム",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900523,
 	group_index = 0,
@@ -312404,7 +312576,7 @@ _G.pg.base.ship_skin_template[900523] = {
 _G.pg.base.ship_skin_template[900524] = {
 	name = "ガスコーニュ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900524,
 	group_index = 0,
@@ -312523,7 +312695,7 @@ _G.pg.base.ship_skin_template[900524] = {
 _G.pg.base.ship_skin_template[900525] = {
 	name = "ラフィーⅡ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900525,
 	group_index = 0,
@@ -312642,7 +312814,7 @@ _G.pg.base.ship_skin_template[900525] = {
 _G.pg.base.ship_skin_template[900526] = {
 	name = "ウォースパイト",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900526,
 	group_index = 0,
@@ -312761,7 +312933,7 @@ _G.pg.base.ship_skin_template[900526] = {
 _G.pg.base.ship_skin_template[900527] = {
 	name = "雲仙",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900527,
 	group_index = 0,
@@ -312880,7 +313052,7 @@ _G.pg.base.ship_skin_template[900527] = {
 _G.pg.base.ship_skin_template[900528] = {
 	name = "ヘスティア",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900528,
 	group_index = 0,
@@ -312999,7 +313171,7 @@ _G.pg.base.ship_skin_template[900528] = {
 _G.pg.base.ship_skin_template[900529] = {
 	name = "リュー・リオン",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900529,
 	group_index = 0,
@@ -313118,7 +313290,7 @@ _G.pg.base.ship_skin_template[900529] = {
 _G.pg.base.ship_skin_template[900530] = {
 	name = "unknown_undefined",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900530,
 	group_index = 0,
@@ -313237,7 +313409,7 @@ _G.pg.base.ship_skin_template[900530] = {
 _G.pg.base.ship_skin_template[900531] = {
 	name = "オーディナー・エル",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900531,
 	group_index = 0,
@@ -313356,7 +313528,7 @@ _G.pg.base.ship_skin_template[900531] = {
 _G.pg.base.ship_skin_template[900532] = {
 	name = "星の獣？",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900532,
 	group_index = 0,
@@ -313482,7 +313654,7 @@ _G.pg.base.ship_skin_template[900532] = {
 _G.pg.base.ship_skin_template[900533] = {
 	name = "リョウコ・アマハラ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900533,
 	group_index = 0,
@@ -313601,7 +313773,7 @@ _G.pg.base.ship_skin_template[900533] = {
 _G.pg.base.ship_skin_template[900534] = {
 	name = "ボノム・リシャール",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900534,
 	group_index = 0,
@@ -313727,7 +313899,7 @@ _G.pg.base.ship_skin_template[900534] = {
 _G.pg.base.ship_skin_template[900535] = {
 	name = "マリア",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900535,
 	group_index = 0,
@@ -313846,7 +314018,7 @@ _G.pg.base.ship_skin_template[900535] = {
 _G.pg.base.ship_skin_template[900536] = {
 	name = "马可波罗 王座",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900536,
 	group_index = 0,
@@ -313972,7 +314144,7 @@ _G.pg.base.ship_skin_template[900536] = {
 _G.pg.base.ship_skin_template[900538] = {
 	name = "アビータ・Chariots・Ⅶ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900538,
 	group_index = 0,
@@ -314091,7 +314263,7 @@ _G.pg.base.ship_skin_template[900538] = {
 _G.pg.base.ship_skin_template[900539] = {
 	name = "{namecode:311}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900539,
 	group_index = 0,
@@ -314210,7 +314382,7 @@ _G.pg.base.ship_skin_template[900539] = {
 _G.pg.base.ship_skin_template[900540] = {
 	name = "{namecode:556}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900540,
 	group_index = 0,
@@ -314329,7 +314501,7 @@ _G.pg.base.ship_skin_template[900540] = {
 _G.pg.base.ship_skin_template[900541] = {
 	name = "{namecode:555}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900541,
 	group_index = 0,
@@ -314448,7 +314620,7 @@ _G.pg.base.ship_skin_template[900541] = {
 _G.pg.base.ship_skin_template[900542] = {
 	name = "{namecode:481}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900542,
 	group_index = 0,
@@ -314574,7 +314746,7 @@ _G.pg.base.ship_skin_template[900542] = {
 _G.pg.base.ship_skin_template[900543] = {
 	name = "ジェーナス",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900543,
 	group_index = 0,
@@ -314693,7 +314865,7 @@ _G.pg.base.ship_skin_template[900543] = {
 _G.pg.base.ship_skin_template[900544] = {
 	name = "{namecode:448}",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900544,
 	group_index = 0,
@@ -314819,7 +314991,7 @@ _G.pg.base.ship_skin_template[900544] = {
 _G.pg.base.ship_skin_template[900545] = {
 	name = "サン・ルイ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900545,
 	group_index = 0,
@@ -314938,7 +315110,7 @@ _G.pg.base.ship_skin_template[900545] = {
 _G.pg.base.ship_skin_template[900546] = {
 	name = "アビータ・Emperor・IV",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900546,
 	group_index = 0,
@@ -315057,7 +315229,7 @@ _G.pg.base.ship_skin_template[900546] = {
 _G.pg.base.ship_skin_template[900547] = {
 	name = "サリー",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900547,
 	group_index = 0,
@@ -315176,7 +315348,7 @@ _G.pg.base.ship_skin_template[900547] = {
 _G.pg.base.ship_skin_template[900548] = {
 	name = "ボノム・リシャール",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900548,
 	group_index = 0,
@@ -315295,7 +315467,7 @@ _G.pg.base.ship_skin_template[900548] = {
 _G.pg.base.ship_skin_template[900549] = {
 	name = "ソオブラジーテリヌイ(META)",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900549,
 	group_index = 0,
@@ -315421,7 +315593,7 @@ _G.pg.base.ship_skin_template[900549] = {
 _G.pg.base.ship_skin_template[900550] = {
 	name = "サラトガ(META)",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900550,
 	group_index = 0,
@@ -315553,7 +315725,7 @@ _G.pg.base.ship_skin_template[900550] = {
 _G.pg.base.ship_skin_template[900551] = {
 	name = "エラーⅩⅢ世",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900551,
 	group_index = 0,
@@ -315672,7 +315844,7 @@ _G.pg.base.ship_skin_template[900551] = {
 _G.pg.base.ship_skin_template[900553] = {
 	name = "ヴィックスバーグ",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900553,
 	group_index = 0,
@@ -315798,7 +315970,7 @@ _G.pg.base.ship_skin_template[900553] = {
 _G.pg.base.ship_skin_template[900554] = {
 	name = "コレット",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900554,
 	group_index = 0,
@@ -315930,7 +316102,7 @@ _G.pg.base.ship_skin_template[900554] = {
 _G.pg.base.ship_skin_template[900555] = {
 	name = "ベニントン",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900555,
 	group_index = 0,
@@ -316049,7 +316221,7 @@ _G.pg.base.ship_skin_template[900555] = {
 _G.pg.base.ship_skin_template[900556] = {
 	name = "？？？",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900556,
 	group_index = 0,
@@ -316168,7 +316340,7 @@ _G.pg.base.ship_skin_template[900556] = {
 _G.pg.base.ship_skin_template[900557] = {
 	name = "天津風",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900557,
 	group_index = 0,
@@ -316287,7 +316459,7 @@ _G.pg.base.ship_skin_template[900557] = {
 _G.pg.base.ship_skin_template[900558] = {
 	name = "エミール·ベルタン",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900558,
 	group_index = 0,
@@ -316406,7 +316578,7 @@ _G.pg.base.ship_skin_template[900558] = {
 _G.pg.base.ship_skin_template[900559] = {
 	name = "？？",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900559,
 	group_index = 0,
@@ -316525,7 +316697,7 @@ _G.pg.base.ship_skin_template[900559] = {
 _G.pg.base.ship_skin_template[900560] = {
 	name = "？？？",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900560,
 	group_index = 0,
@@ -316644,7 +316816,7 @@ _G.pg.base.ship_skin_template[900560] = {
 _G.pg.base.ship_skin_template[900561] = {
 	name = "イラストリアス",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900561,
 	group_index = 0,
@@ -316763,7 +316935,7 @@ _G.pg.base.ship_skin_template[900561] = {
 _G.pg.base.ship_skin_template[900562] = {
 	name = "安土",
 	change_skin = "",
-	desc = "无描述",
+	desc = "",
 	illustrator2 = -1,
 	ship_group = 900562,
 	group_index = 0,
@@ -316791,6 +316963,244 @@ _G.pg.base.ship_skin_template[900562] = {
 	ship_l2d_id = "",
 	l2d_drag_rate = "",
 	prefab = "npcantu_2",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = -1,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.17,
+				5,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.04,
+				0.89,
+				0
+			}
+		},
+		plane = {
+			{
+				-1.02,
+				3.05,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			70,
+			{
+				{
+					"smokebig",
+					{
+						-0.62,
+						2.54,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[900563] = {
+	name = "？？？",
+	change_skin = "",
+	desc = "",
+	illustrator2 = -1,
+	ship_group = 900563,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "changshehao_hei",
+	lover_hand = "hand_1_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 900563,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "changshehao_hei",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = -1,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.17,
+				5,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.04,
+				0.89,
+				0
+			}
+		},
+		plane = {
+			{
+				-1.02,
+				3.05,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			70,
+			{
+				{
+					"smokebig",
+					{
+						-0.62,
+						2.54,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[900564] = {
+	name = "？？？",
+	change_skin = "",
+	desc = "",
+	illustrator2 = -1,
+	ship_group = 900564,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "nichao_hei",
+	lover_hand = "hand_1_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 900564,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "nichao_hei",
 	l2d_se = "",
 	part_scale = "",
 	get_showing = "",
@@ -317554,6 +317964,235 @@ _G.pg.base.ship_skin_template[1102011] = {
 		110201117,
 		110201118,
 		110201119
+	}
+}
+
+
+_G.pg.base.ship_skin_template[1102012] = {
+	name = "穢翼のアルケー",
+	change_skin = "",
+	desc = "天使の姿で舞い降りた、デ・ゼーヴェン・プロヴィンシェンです。泣いている花の海の穢れを浄化しようとしたら、力不足で逆に侵食されてしまい……指揮官さん、こんな汚れた天使でも…手を差し伸べてくださいますか？",
+	illustrator2 = -1,
+	ship_group = 110201,
+	group_index = 2,
+	purchase_offset = "",
+	painting = "qisheng_3",
+	lover_hand = "hand_1_02",
+	skin_type = 0,
+	shop_type_id = 24,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "156",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 1102012,
+	voice_actor_2 = -1,
+	gyro = 0,
+	l2d_drag_rate = "",
+	prefab = "qisheng_3",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71420,
+	voice_actor = 447,
+	shop_dynamic_hx = 0,
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	lip_sync_gain = 0,
+	show_skin = "stand",
+	tag = {
+		6,
+		12,
+		2
+	},
+	live2d_offset = {
+		-14,
+		25,
+		0
+	},
+	shop_offset = {
+		130.1,
+		-1222.3,
+		0,
+		0.62
+	},
+	live2d_offset_profile = {
+		164,
+		87,
+		0
+	},
+	spine_offset_profile = {
+		190,
+		-1180,
+		0,
+		0.6
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.24,
+				0.95,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.17,
+				0.92,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.73,
+				2.34,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.66,
+						2.36,
+						0
+					}
+				}
+			}
+		}
+	},
+	l2d_animations = {
+		"idle",
+		"main_1",
+		"main_2",
+		"main_3",
+		"mission",
+		"mission_complete",
+		"complete",
+		"login",
+		"home",
+		"mail",
+		"touch_body",
+		"touch_head"
+	},
+	l2d_voice_calibrate = {
+		use_event = true
+	},
+	l2d_para_range = {
+		ParamAngleX = {
+			-30,
+			30
+		},
+		ParamAngleY = {
+			-30,
+			30
+		},
+		ParamEyeBallX = {
+			-0.5,
+			0.5
+		},
+		ParamEyeBallY = {
+			-0.5,
+			0.5
+		}
+	},
+	spine_offset = {
+		-285,
+		-1404,
+		0,
+		0.69
+	},
+	ship_l2d_id = {
+		110201101,
+		110201102,
+		110201103,
+		110201104,
+		110201105,
+		110201106,
+		110201107,
+		110201108,
+		110201109,
+		110201110,
+		110201111,
+		110201112,
+		110201113,
+		110201114,
+		110201115,
+		110201116,
+		110201117,
+		110201118,
+		110201119
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-7,
+				1488,
+				2,
+				-170,
+				0,
+				2
+			},
+			{
+				-701,
+				715,
+				2,
+				0,
+				-184,
+				2
+			},
+			{
+				675,
+				-216,
+				2,
+				170,
+				0,
+				2
+			}
+		}
 	}
 }
 
@@ -321914,6 +322553,235 @@ _G.pg.base.ship_skin_template[9600121] = {
 }
 
 
+_G.pg.base.ship_skin_template[9600122] = {
+	name = "誘い込む堕落の黒き翼",
+	change_skin = "",
+	desc = "この翼は……？うっ、妙な魔法の罠にかかったせいか……体が…火照って……はぁ、はぁ……あんたから…急にいい匂いをしてきたけど……",
+	illustrator2 = -1,
+	ship_group = 960012,
+	group_index = 2,
+	painting = "anninvwang_3",
+	lover_hand = "hand_2_02",
+	skin_type = 0,
+	shop_type_id = 24,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "156",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 9600122,
+	voice_actor_2 = -1,
+	gyro = 0,
+	l2d_drag_rate = "",
+	prefab = "anninvwang_3",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71419,
+	voice_actor = 477,
+	shop_dynamic_hx = 0,
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	show_skin = "stand",
+	tag = {
+		6,
+		2
+	},
+	live2d_offset = {
+		96,
+		0,
+		0,
+		73
+	},
+	shop_offset = {
+		-66,
+		-538,
+		0,
+		0.65
+	},
+	purchase_offset = {
+		96,
+		0,
+		0,
+		73
+	},
+	live2d_offset_profile = {
+		96,
+		0,
+		0,
+		73
+	},
+	spine_offset_profile = {
+		18,
+		-555,
+		0,
+		0.65
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.39,
+				0.97,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.66,
+				1.38,
+				0
+			}
+		},
+		torpedo = {
+			{
+				-0.22,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.59,
+				2.35,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.73,
+						2.53,
+						0
+					}
+				}
+			}
+		}
+	},
+	l2d_animations = {
+		"idle",
+		"main_1",
+		"main_2",
+		"main_3",
+		"mission",
+		"mission_complete",
+		"complete",
+		"login",
+		"home",
+		"mail",
+		"touch_body",
+		"touch_head"
+	},
+	l2d_voice_calibrate = {
+		use_event = true
+	},
+	spine_offset = {
+		166.4,
+		-848.6,
+		0,
+		0.9
+	},
+	ship_l2d_id = {
+		960012101,
+		960012102,
+		960012103,
+		960012104,
+		960012105,
+		960012106,
+		960012107,
+		960012108,
+		960012109,
+		960012110,
+		960012111,
+		960012112,
+		960012113,
+		960012114,
+		960012115,
+		960012116,
+		960012117,
+		960012118,
+		960012119,
+		960012120,
+		960012121,
+		960012122,
+		960012123,
+		960012124,
+		960012125,
+		960012126,
+		960012127,
+		960012128,
+		960012129,
+		960012130
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				432,
+				168,
+				2,
+				0,
+				157,
+				2
+			},
+			{
+				-1071,
+				736,
+				2,
+				-172,
+				0,
+				2
+			},
+			{
+				-395,
+				-347,
+				2,
+				0,
+				-134,
+				2
+			}
+		}
+	}
+}
+
+
 _G.pg.base.ship_skin_template[9600130] = {
 	name = "ライム",
 	change_skin = "",
@@ -323129,6 +323997,1652 @@ _G.pg.base.ship_skin_template[9600161] = {
 				2.5,
 				0,
 				-123,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9600170] = {
+	name = "メルクーリィ",
+	change_skin = "",
+	desc = "風帆艦—メルクーリィ",
+	illustrator2 = -1,
+	ship_group = 960017,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "shuixinghao",
+	lover_hand = "hand_2_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 9600170,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "shuixinghao",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 526,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.729,
+				0.895,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.532,
+				1.037,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.941,
+				2.189,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.746,
+						2.321,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9600171] = {
+	name = "愛恋天使メルクーリィ",
+	change_skin = "",
+	desc = "……？迷える人の子よ、あなたが恋を呼んでいるのですか？わたくしは恋の天使メルクーリィ、あなたの心に芽生えた想いを感じ取って、お手伝いに参りました……あっ、待ってください。この恋心の向く先は……わたくし？",
+	illustrator2 = -1,
+	ship_group = 960017,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "shuixinghao_2",
+	lover_hand = "hand_2_02",
+	skin_type = 0,
+	shop_type_id = 24,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "156",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	special_effects = "",
+	id = 9600171,
+	voice_actor_2 = -1,
+	gyro = 0,
+	prefab = "shuixinghao_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71413,
+	voice_actor = 526,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	tag = {
+		9,
+		2
+	},
+	live2d_offset = {
+		95,
+		-87,
+		0,
+		93
+	},
+	shop_offset = {
+		-20,
+		-55,
+		0,
+		80
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.39,
+				0.862,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.373,
+				1.121,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.006,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.951,
+				2.269,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.678,
+						2.23,
+						0
+					}
+				}
+			}
+		}
+	},
+	l2d_animations = {
+		"idle",
+		"main_1",
+		"main_2",
+		"main_3",
+		"mission",
+		"mission_complete",
+		"complete",
+		"login",
+		"home",
+		"mail",
+		"touch_body",
+		"touch_special",
+		"touch_head"
+	},
+	l2d_voice_calibrate = {
+		use_event = true
+	},
+	ship_l2d_id = {
+		960017101,
+		960017102,
+		960017103,
+		960017104,
+		960017105,
+		960017106,
+		960017107,
+		960017108,
+		960017109,
+		960017110,
+		960017111,
+		960017112,
+		960017113,
+		960017114,
+		960017115,
+		960017116,
+		960017117,
+		960017118,
+		960017119,
+		960017120,
+		960017121,
+		960017122,
+		960017123,
+		960017124,
+		960017125,
+		960017126,
+		960017127,
+		960017128,
+		960017129,
+		960017130,
+		960017131,
+		960017132,
+		960017133,
+		960017134,
+		960017135,
+		960017136,
+		960017137,
+		960017138,
+		960017139,
+		960017140,
+		960017141,
+		960017142,
+		960017143,
+		960017144,
+		960017145,
+		960017146,
+		960017147,
+		960017148,
+		960017149,
+		960017150,
+		960017151,
+		960017152,
+		960017153,
+		960017154,
+		960017155,
+		960017156,
+		960017157,
+		960017158,
+		960017159,
+		960017160,
+		960017161,
+		960017162,
+		960017163
+	},
+	l2d_drag_rate = {
+		0.25,
+		0.25,
+		0.25
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-1186,
+				-390,
+				2,
+				0,
+				154,
+				2
+			},
+			{
+				-379,
+				563,
+				2,
+				161,
+				0,
+				2
+			},
+			{
+				-210,
+				-199,
+				2,
+				0,
+				-112,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9600180] = {
+	name = "ヤーンバアデン",
+	change_skin = "",
+	desc = "風帆艦—ヤーンバアデン",
+	illustrator2 = -1,
+	ship_group = 960018,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "tiejiaohao",
+	lover_hand = "hand_1_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 9600180,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "tiejiaohao",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 527,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.2,
+				1.04,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1,
+				0.995,
+				0
+			}
+		},
+		torpedo = {
+			{
+				-0.13,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.7,
+				2.12,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.77,
+						2.33,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9600181] = {
+	name = "迷いし堕天使",
+	change_skin = "",
+	desc = "おかしい。…怪我なんてしてないのに、妙にじれったい…指揮官、いいところに。もっと近くで……見てもらっても？",
+	illustrator2 = -1,
+	ship_group = 960018,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "tiejiaohao_2",
+	lover_hand = "hand_2_02",
+	skin_type = 0,
+	shop_type_id = 24,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "507",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	special_effects = "",
+	id = 9600181,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "tiejiaohao_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71414,
+	voice_actor = 527,
+	shop_dynamic_hx = 0,
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		6,
+		2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	shop_offset = {
+		90,
+		-30,
+		0,
+		0.38
+	},
+	spine_offset_profile = {
+		136,
+		-5,
+		0,
+		0.35
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.71,
+				1.41,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.52,
+				0.96,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.006,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.83,
+				2.17,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.53,
+						2.29,
+						0
+					}
+				}
+			}
+		}
+	},
+	spine_offset = {
+		127,
+		6,
+		0,
+		0.42
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-1183,
+				-560,
+				2,
+				0,
+				165,
+				2
+			},
+			{
+				-317,
+				579,
+				2,
+				156,
+				0,
+				2
+			},
+			{
+				481,
+				-492,
+				2,
+				0,
+				-129,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9600190] = {
+	name = "セリミエ",
+	change_skin = "",
+	desc = "風帆艦—セリミエ",
+	illustrator2 = -1,
+	ship_group = 960019,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "sailimiye",
+	lover_hand = "hand_1_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 9600190,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "sailimiye",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 528,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.14,
+				1.1,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.2,
+				1.02,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.93,
+				2.23,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.76,
+						2.35,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9600191] = {
+	name = "予見者は網にずぼーんと",
+	change_skin = "",
+	desc = "あんなに優勢だったのに結局負けるなんて…と、とっくに分かってたし！でも……こんな風に網にかかって、しかも指揮官の前に吊り下げられるなんてぇ……ぴえーん！",
+	illustrator2 = -1,
+	ship_group = 960019,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "sailimiye_2",
+	lover_hand = "hand_2_02",
+	skin_type = 0,
+	shop_type_id = 24,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "525",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	special_effects = "",
+	id = 9600191,
+	voice_actor_2 = -1,
+	gyro = 0,
+	l2d_drag_rate = "",
+	prefab = "sailimiye_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71415,
+	voice_actor = 528,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	tag = {
+		9,
+		2
+	},
+	live2d_offset = {
+		0,
+		15,
+		0,
+		68
+	},
+	shop_offset = {
+		-14,
+		32,
+		0,
+		60.6
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.3,
+				0.9,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.19,
+				0.76,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.006,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.774,
+				2.21,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.58,
+						2.29,
+						0
+					}
+				}
+			}
+		}
+	},
+	l2d_animations = {
+		"idle",
+		"main_1",
+		"main_2",
+		"main_3",
+		"mission",
+		"mission_complete",
+		"complete",
+		"login",
+		"home",
+		"mail",
+		"touch_body",
+		"touch_special",
+		"touch_head"
+	},
+	l2d_voice_calibrate = {
+		use_event = true
+	},
+	l2d_para_range = {
+		ParamAngleX = {
+			-15,
+			15
+		},
+		ParamAngleY = {
+			-15,
+			15
+		},
+		ParamEyeBallX = {
+			-0.5,
+			0.5
+		},
+		ParamEyeBallY = {
+			-0.5,
+			0.5
+		}
+	},
+	ship_l2d_id = {
+		960019101,
+		960019102,
+		960019103,
+		960019104,
+		960019105,
+		960019106,
+		960019107,
+		960019108,
+		960019109,
+		960019110,
+		960019111,
+		960019112,
+		960019113,
+		960019114,
+		960019115,
+		960019116,
+		960019117,
+		960019118,
+		960019119,
+		960019120,
+		960019121,
+		960019122,
+		960019123,
+		960019124,
+		960019125,
+		960019126,
+		960019127,
+		960019128,
+		960019129,
+		960019130,
+		960019131,
+		960019132,
+		960019133,
+		960019134,
+		960019135,
+		960019136,
+		960019137,
+		960019138,
+		960019139,
+		960019140,
+		960019141,
+		960019142,
+		960019143,
+		960019144,
+		960019145,
+		960019146,
+		960019147,
+		960019148,
+		960019149,
+		960019150,
+		960019151,
+		960019152,
+		960019153,
+		960019154,
+		960019155,
+		960019156,
+		960019157,
+		960019158,
+		960019159,
+		960019160,
+		960019161,
+		960019162,
+		960019163,
+		960019164,
+		960019165,
+		960019166,
+		960019167,
+		960019168,
+		960019169,
+		960019170,
+		960019171,
+		960019172,
+		960019173,
+		960019174,
+		960019175,
+		960019176,
+		960019177,
+		960019178,
+		960019179,
+		960019180,
+		960019181,
+		960019182,
+		960019183,
+		960019184,
+		960019185,
+		960019186,
+		960019187,
+		960019188
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				949,
+				127,
+				2,
+				0,
+				160,
+				2
+			},
+			{
+				-19,
+				462,
+				2,
+				-100,
+				0,
+				2
+			},
+			{
+				-119,
+				-298,
+				2,
+				0,
+				-143,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9600200] = {
+	name = "オーメン・ランゲ",
+	change_skin = "",
+	desc = "風帆艦—オーメン・ランゲ",
+	illustrator2 = -1,
+	ship_group = 960020,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "changshehao",
+	lover_hand = "hand_2_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 9600200,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "changshehao",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 529,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.38,
+				1.57,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.2,
+				1.11,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.57,
+				2.35,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.77,
+						2.26,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9600201] = {
+	name = "純白の捕食者",
+	change_skin = "",
+	desc = "禁じられた地へようこそ、飼い主。叶えたい願いはある？あたしのやり方で満足させてあげる……",
+	illustrator2 = -1,
+	ship_group = 960020,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "changshehao_2",
+	lover_hand = "hand_2_02",
+	skin_type = 0,
+	shop_type_id = 24,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "450",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 9600201,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "changshehao_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71416,
+	voice_actor = 529,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.47,
+				1.19,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.24,
+				0.73,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.006,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.6,
+				2.3,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.81,
+						2.32,
+						0
+					}
+				}
+			}
+		}
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				1147,
+				335,
+				2,
+				0,
+				172,
+				2
+			},
+			{
+				-120,
+				1131,
+				2,
+				-129,
+				0,
+				2
+			},
+			{
+				-256,
+				-344,
+				2,
+				0,
+				-109,
+				2
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9600210] = {
+	name = "リヤラ・ベイ",
+	change_skin = "",
+	desc = "風帆艦—リヤラ・ベイ",
+	illustrator2 = -1,
+	ship_group = 960021,
+	group_index = 0,
+	purchase_offset = "",
+	painting = "leiyierbei",
+	lover_hand = "hand_1_02",
+	skin_type = -1,
+	shop_type_id = 0,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 9600210,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "leiyierbei",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 530,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.79,
+				0.76,
+				0
+			}
+		},
+		vicegun = {
+			{
+				0.75,
+				1.02,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.78,
+				2.18,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.73,
+						2.51,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
+_G.pg.base.ship_skin_template[9600211] = {
+	name = "特別試練☆アイドル天使",
+	change_skin = "",
+	desc = "指揮官、ごきげん……じゃなくて、リヤラ・ベイのステージにようこそ！今回の「特別試練・アイドル天使」は全力で挑みたいんです！だから……指揮官、特別トレーナーになって、一緒に輝くステージを作りましょう！",
+	illustrator2 = -1,
+	ship_group = 960021,
+	group_index = 1,
+	purchase_offset = "",
+	painting = "leiyierbei_2",
+	lover_hand = "hand_2_02",
+	skin_type = 0,
+	shop_type_id = 24,
+	l2d_ignore_drag = 0,
+	hand_id = 13,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip02",
+	bg_sp = "",
+	bg = "120",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 9600211,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "leiyierbei_2",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71417,
+	voice_actor = 530,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		4
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				0.73,
+				0.83,
+				0
+			}
+		},
+		vicegun = {
+			{
+				0.76,
+				0.97,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0.006,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.69,
+				2.23,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.76,
+						2.29,
+						0
+					}
+				}
+			}
+		}
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				938,
+				99,
+				2,
+				0,
+				144,
+				2
+			},
+			{
+				-120,
+				1664,
+				2,
+				-145,
+				0,
+				2
+			},
+			{
+				-401,
+				-363,
+				2,
+				0,
+				-145,
 				2
 			}
 		}
@@ -375598,6 +378112,155 @@ _G.pg.base.ship_skin_template[399071] = {
 		-95.4,
 		0,
 		0.715
+	}
+}
+
+
+_G.pg.base.ship_skin_template[399072] = {
+	name = "デビルオアエンジェル？",
+	change_skin = "",
+	desc = "強き悪魔の使いなら、こんなちっぽけな真実の鏡など、恐れるはずがありません……ん？か、鏡に天使の姿が……まさか私の本当の姿を照らし出したなんて……あらら、正体がバレてしまいましたぁ……",
+	illustrator2 = -1,
+	ship_group = 39907,
+	group_index = 2,
+	purchase_offset = "",
+	painting = "dashan_3",
+	lover_hand = "hand_1_02",
+	skin_type = 0,
+	shop_type_id = 24,
+	l2d_ignore_drag = 0,
+	hand_id = 2,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "177",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 399072,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "dashan_3",
+	l2d_se = "",
+	part_scale = "",
+	main_UI_FX = "",
+	shop_id = 71421,
+	voice_actor = 417,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = 1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.63,
+				1.44,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.63,
+				2.3,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			40,
+			{
+				{
+					"smoke",
+					{
+						-0.6,
+						2.52,
+						0
+					}
+				}
+			}
+		}
+	},
+	get_showing = {
+		show = 1,
+		data = {
+			{
+				-1384,
+				-226,
+				2,
+				0,
+				154,
+				2
+			},
+			{
+				-398,
+				788,
+				2,
+				154,
+				0,
+				2
+			},
+			{
+				-9,
+				-460,
+				2,
+				0,
+				-136,
+				2
+			}
+		}
 	}
 }
 

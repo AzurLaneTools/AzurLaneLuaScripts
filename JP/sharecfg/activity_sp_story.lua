@@ -506,7 +506,33 @@ pg.activity_sp_story.all = {
 	547,
 	548,
 	549,
-	550
+	550,
+	551,
+	552,
+	553,
+	554,
+	555,
+	556,
+	557,
+	558,
+	559,
+	560,
+	561,
+	562,
+	563,
+	564,
+	565,
+	566,
+	567,
+	568,
+	569,
+	570,
+	571,
+	572,
+	573,
+	574,
+	575,
+	576
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -10939,6 +10965,519 @@ end)()
 			{
 				4,
 				549
+			}
+		}
+	}
+	pg.base.activity_sp_story[551] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_524",
+		name = "EPS-1 星渡りの導き手",
+		story = "JUFENGYUWUAIHUILANG1",
+		change_bgm = "theme-crownpolis",
+		id = 551,
+		lock = ""
+	}
+	pg.base.activity_sp_story[552] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EPS-1をクリア",
+		change_background = "star_level_bg_539",
+		name = "EP1-1 星空逆廻りの日",
+		story = "JUFENGYUWUAIHUILANG2",
+		change_bgm = "theme-tempest-up",
+		id = 552,
+		pre_event = {
+			551
+		},
+		lock = {
+			{
+				4,
+				551
+			}
+		}
+	}
+	pg.base.activity_sp_story[553] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-1をクリア",
+		change_background = "star_level_bg_504",
+		name = "EP1-2 祝うべき一日にて",
+		story = "JUFENGYUWUAIHUILANG3",
+		change_bgm = "theme-tempest-light",
+		id = 553,
+		pre_event = {
+			552
+		},
+		lock = {
+			{
+				4,
+				552
+			}
+		}
+	}
+	pg.base.activity_sp_story[554] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-2をクリア",
+		change_background = "star_level_bg_504",
+		name = "EP1-3 パジャマで異世界転移",
+		story = "JUFENGYUWUAIHUILANG4",
+		change_bgm = "theme-crownpolis",
+		id = 554,
+		pre_event = {
+			553
+		},
+		lock = {
+			{
+				4,
+				553
+			}
+		}
+	}
+	pg.base.activity_sp_story[555] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-3をクリア",
+		change_background = "star_level_bg_504",
+		name = "EP1-4 お嬢様と護衛役",
+		story = "JUFENGYUWUAIHUILANG5",
+		change_bgm = "battle-temepest-2",
+		id = 555,
+		pre_event = {
+			554
+		},
+		lock = {
+			{
+				4,
+				554
+			}
+		}
+	}
+	pg.base.activity_sp_story[556] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP1-4をクリア",
+		change_background = "star_level_bg_525",
+		name = "EP2-1 迷える占い師",
+		story = "2078001",
+		change_bgm = "story-tempest-marching",
+		id = 556,
+		pre_event = {
+			555
+		},
+		lock = {
+			{
+				4,
+				555
+			}
+		}
+	}
+	pg.base.activity_sp_story[557] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-1をクリア",
+		change_background = "star_level_bg_528",
+		name = "EP2-2 星軌標識",
+		story = "JUFENGYUWUAIHUILANG7",
+		change_bgm = "story-tempest-oldpast",
+		id = 557,
+		pre_event = {
+			556
+		},
+		lock = {
+			{
+				4,
+				556
+			}
+		}
+	}
+	pg.base.activity_sp_story[558] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-2をクリア",
+		change_background = "star_level_bg_598",
+		name = "EP2-3 昔の倒影",
+		story = "JUFENGYUWUAIHUILANG8",
+		change_bgm = "story-tempest-freedom",
+		id = 558,
+		pre_event = {
+			557
+		},
+		lock = {
+			{
+				4,
+				557
+			}
+		}
+	}
+	pg.base.activity_sp_story[559] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-3をクリア",
+		change_background = "bg_underwater",
+		name = "EP2-4 迷子のアン",
+		story = "JUFENGYUWUAIHUILANG9",
+		change_bgm = "story-tempest-oldpast",
+		id = 559,
+		pre_event = {
+			558
+		},
+		lock = {
+			{
+				4,
+				558
+			}
+		}
+	}
+	pg.base.activity_sp_story[560] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP2-4をクリア",
+		change_background = "bg_jufengv2_cg2",
+		name = "EP3-1 倒影再び",
+		story = "JUFENGYUWUAIHUILANG10",
+		change_bgm = "story-fogsea-light",
+		id = 560,
+		pre_event = {
+			559
+		},
+		lock = {
+			{
+				4,
+				559
+			}
+		}
+	}
+	pg.base.activity_sp_story[561] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-1をクリア",
+		change_background = "star_level_bg_504",
+		name = "EP3-2 天文台からの警報",
+		story = "JUFENGYUWUAIHUILANG11",
+		change_bgm = "theme-fogsea",
+		id = 561,
+		pre_event = {
+			560
+		},
+		lock = {
+			{
+				4,
+				560
+			}
+		}
+	}
+	pg.base.activity_sp_story[562] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-2をクリア",
+		change_background = "star_level_bg_598",
+		name = "EP3-3 海魔の蛇",
+		story = "2078002",
+		change_bgm = "theme-fogsea",
+		id = 562,
+		pre_event = {
+			561
+		},
+		lock = {
+			{
+				4,
+				561
+			}
+		}
+	}
+	pg.base.activity_sp_story[563] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP3-3をクリア",
+		change_background = "bg_wuaihuilang_cg1",
+		name = "EP4-1 回り道を",
+		story = "JUFENGYUWUAIHUILANG13",
+		change_bgm = "theme-tempest-light",
+		id = 563,
+		pre_event = {
+			562
+		},
+		lock = {
+			{
+				4,
+				562
+			}
+		}
+	}
+	pg.base.activity_sp_story[564] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-1をクリア",
+		change_background = "bg_wuaihuilang_cg2",
+		name = "EP4-2 何食べる？",
+		story = "JUFENGYUWUAIHUILANG14",
+		change_bgm = "theme-amahara-core",
+		id = 564,
+		pre_event = {
+			563
+		},
+		lock = {
+			{
+				4,
+				563
+			}
+		}
+	}
+	pg.base.activity_sp_story[565] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-2をクリア",
+		change_background = "bg_wuaihuilang_1",
+		name = "EP4-3 逆に見てみよう",
+		story = "JUFENGYUWUAIHUILANG15",
+		change_bgm = "story-fogsea-light",
+		id = 565,
+		pre_event = {
+			564
+		},
+		lock = {
+			{
+				4,
+				564
+			}
+		}
+	}
+	pg.base.activity_sp_story[566] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-3をクリア",
+		change_background = "star_level_bg_525",
+		name = "EP4-4 星沈む深淵",
+		story = "2078003",
+		change_bgm = "theme-fogsea",
+		id = 566,
+		pre_event = {
+			565
+		},
+		lock = {
+			{
+				4,
+				565
+			}
+		}
+	}
+	pg.base.activity_sp_story[567] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-4をクリア",
+		change_background = "bg_wuaihuilang_cg2",
+		name = "EP4-5 別の道を",
+		story = "JUFENGYUWUAIHUILANG17",
+		change_bgm = "theme-amahara-core",
+		id = 567,
+		pre_event = {
+			566
+		},
+		lock = {
+			{
+				4,
+				566
+			}
+		}
+	}
+	pg.base.activity_sp_story[568] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP4-5をクリア",
+		change_background = "bg_wuaihuilang_cg3",
+		name = "EP5-1 導き手の夢",
+		story = "JUFENGYUWUAIHUILANG18",
+		change_bgm = "theme-crownpolis",
+		id = 568,
+		pre_event = {
+			567
+		},
+		lock = {
+			{
+				4,
+				567
+			}
+		}
+	}
+	pg.base.activity_sp_story[569] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP5-1をクリア",
+		change_background = "bg_wuaihuilang_2",
+		name = "EP5-2 対峙",
+		story = "2078004",
+		change_bgm = "theme-fogsea",
+		id = 569,
+		pre_event = {
+			568
+		},
+		lock = {
+			{
+				4,
+				568
+			}
+		}
+	}
+	pg.base.activity_sp_story[570] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP5-2をクリア",
+		change_background = "star_level_bg_524",
+		name = "EP6-1 女神教会の計画",
+		story = "JUFENGYUWUAIHUILANG20",
+		change_bgm = "theme-ganjisawai",
+		id = 570,
+		pre_event = {
+			569
+		},
+		lock = {
+			{
+				4,
+				569
+			}
+		}
+	}
+	pg.base.activity_sp_story[571] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP6-1をクリア",
+		change_background = "bg_wuaihuilang_3",
+		name = "EP6-2 最後の障害",
+		story = "2078005",
+		change_bgm = "theme-tempest",
+		id = 571,
+		pre_event = {
+			570
+		},
+		lock = {
+			{
+				4,
+				570
+			}
+		}
+	}
+	pg.base.activity_sp_story[572] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP6-2をクリア",
+		change_background = "star_level_bg_598",
+		name = "EP6-3 甘いエピローグ",
+		story = "JUFENGYUWUAIHUILANG22",
+		change_bgm = "story-tempest-light",
+		id = 572,
+		pre_event = {
+			571
+		},
+		lock = {
+			{
+				4,
+				571
+			}
+		}
+	}
+	pg.base.activity_sp_story[573] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EP6-3をクリア",
+		change_background = "star_level_bg_548",
+		name = "EX-1 世界と未来のために",
+		story = "JUFENGYUWUAIHUILANG23",
+		change_bgm = "story-temepest-2",
+		id = 573,
+		pre_event = {
+			572
+		},
+		lock = {
+			{
+				4,
+				572
+			}
+		}
+	}
+	pg.base.activity_sp_story[574] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EX-1をクリア",
+		change_background = "star_level_bg_594",
+		name = "EX-2 同類交流",
+		story = "JUFENGYUWUAIHUILANG24",
+		change_bgm = "theme-amahara-core",
+		id = 574,
+		pre_event = {
+			573
+		},
+		lock = {
+			{
+				4,
+				573
+			}
+		}
+	}
+	pg.base.activity_sp_story[575] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "EX-2をクリア",
+		change_background = "bg_tianqiong_3",
+		name = "EX-3 水星の約束",
+		story = "JUFENGYUWUAIHUILANG25",
+		change_bgm = "theme-DOS",
+		id = 575,
+		pre_event = {
+			574
+		},
+		lock = {
+			{
+				4,
+				574
+			}
+		}
+	}
+	pg.base.activity_sp_story[576] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "map_2070002",
+		unlock_conditions = "EX-3をクリア",
+		change_background = "bg_wuaihuilang_2",
+		name = "EX-4 1/6の光",
+		story = "JUFENGYUWUAIHUILANG26",
+		change_bgm = "theme-fogsea",
+		id = 576,
+		pre_event = {
+			575
+		},
+		lock = {
+			{
+				4,
+				575
 			}
 		}
 	}

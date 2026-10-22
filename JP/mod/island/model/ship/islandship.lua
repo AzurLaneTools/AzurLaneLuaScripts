@@ -186,34 +186,14 @@ slot0.GetCurrentEnergy = function(slot0)
 		return math.min(slot0.maxEnerey, slot0.energy)
 	end
 
-	slot2 = math.floor(slot0.energy + (pg.TimeMgr.GetInstance():GetServerTime() - slot0.recorverTime) / slot0.recoverSpeed)
-
-	if slot0:GetSkillAddRecoverSpeed() > 0 then
-		slot2 = slot2 + math.floor(math.floor((slot1 - slot0.recorverTime) / slot0.recoverSpeed) * slot3 * 0.01)
-	end
-
-	if #slot0:GetVaildStatusByType(IslandBuffType.SHIP_POWER_RECOVER) == 0 then
-		return math.min(slot0.maxEnerey, slot2)
-	end
-
-	return math.min(slot0.maxEnerey, slot2 + math.floor((function (slot0, slot1, slot2, slot3)
-		if math.max(slot0, slot2) < math.min(slot1, slot3) then
-			return slot5 - slot4
-		else
-			return 0
-		end
-	end)(slot0.recorverTime, slot1, slot4:GetStartTime(), slot4:GetEndTime()) / slot0.recoverSpeed * slot4:GetBuffEffect()[1] * 0.01))
+	return math.floor(slot0:GetCurrentEnergyDecimal())
 end
 
 slot0.GetCurrentEnergyDecimal = function(slot0)
-	slot2 = slot0.energy + (pg.TimeMgr.GetInstance():GetServerTime() - slot0.recorverTime) / slot0.recoverSpeed
-	slot3 = slot0:GetVaildStatusByType(IslandBuffType.SHIP_POWER_RECOVER)
+	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
+	slot2 = slot0.energy + (slot1 - slot0.recorverTime) / slot0.recoverSpeed + (slot1 - slot0.recorverTime) / slot0.recoverSpeed * slot0:GetSkillAddRecoverSpeed() * 0.01
 
-	if slot0:GetSkillAddRecoverSpeed() > 0 then
-		slot2 = slot2 + (slot1 - slot0.recorverTime) / slot0.recoverSpeed * slot4 * 0.01
-	end
-
-	if #slot3 == 0 then
+	if #slot0:GetVaildStatusByType(IslandBuffType.SHIP_POWER_RECOVER) == 0 then
 		return math.min(slot0.maxEnerey, slot2)
 	end
 

@@ -32,7 +32,8 @@ pg.soundstory_template.all = {
 	27,
 	28,
 	29,
-	30
+	30,
+	31
 }
 pg.base = pg.base or {}
 pg.base.soundstory_template = {}
@@ -184,6 +185,7 @@ pg.base.soundstory_template = {}
 		overview = "柄にもないイタズラをしようとする、素直じゃない彼女によるアクシデント？！",
 		order = 2,
 		audition_text = "それにしても遅いわね…もうハムマンをいつまで待たせる気？",
+		time = "always",
 		ship_id = 10125,
 		id = 6,
 		captions_color = "#763d1f",
@@ -197,33 +199,6 @@ pg.base.soundstory_template = {}
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.soundstory_template[7] = {
@@ -552,7 +527,7 @@ pg.base.soundstory_template = {}
 					30
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -600,21 +575,21 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2024,
-					7,
-					25
+					2026,
+					10,
+					22
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
 			},
 			{
 				{
-					2024,
-					7,
-					31
+					2026,
+					10,
+					28
 				},
 				{
 					23,
@@ -1437,6 +1412,59 @@ pg.base.soundstory_template = {}
 					2026,
 					8,
 					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.soundstory_template[31] = {
+		story_pic = "",
+		name = "スペシャル占いタイム",
+		story_resource_JP = "soundStory31_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "涼花みなせ",
+		audition_resource_JP = "ss-960019-1",
+		overview = "指揮官と約束した、セリミエの「スペシャル占いタイム」。\n彼女はこの水晶玉を使って、指揮官の心の全てを見通していく……",
+		order = 2,
+		audition_text = "あたしを想像して、あたしを感じて、そしてその感触を……水晶玉に映させてぇ……",
+		ship_id = 960019,
+		id = 31,
+		captions_color = "#2c2952",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					22
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					28
 				},
 				{
 					23,

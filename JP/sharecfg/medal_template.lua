@@ -136,7 +136,8 @@ pg.medal_template.all = {
 	200201,
 	200211,
 	200221,
-	200231
+	200231,
+	200241
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -3072,6 +3073,27 @@ end)()
 		rank = 1,
 		id = 200231,
 		explain1 = "「今日も異常な日常」",
+		explain2 = "イベント"
+	}
+	pg.base.medal_template[200241] = {
+		target_id = "51611",
+		name = "霧靄回廊記念勲章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "星逆周りし日に霧靄回廊を抜け、天文台の危機を救い偉大な勝利を収めた。「しかし心得よ。星空の倒影の中に、往きし日の答えを求めてはならない」",
+		next = 0,
+		icon = "9241",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9241",
+		condition = "「テンペスタと霧靄回廊」のステッカーを8個集める",
+		rank = 1,
+		id = 200241,
+		explain1 = "「テンペスタと霧靄回廊」",
 		explain2 = "イベント"
 	}
 end)()

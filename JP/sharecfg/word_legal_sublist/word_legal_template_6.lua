@@ -101,15 +101,6 @@ temp = function()
 						this = true
 					}
 				}
-			},
-			["("] = {
-				["空"] = {
-					["母"] = {
-						[")"] = {
-							this = true
-						}
-					}
-				}
 			}
 		},
 		["海"] = {
@@ -117,11 +108,6 @@ temp = function()
 				["香"] = {
 					this = true
 				}
-			}
-		},
-		["津"] = {
-			["風"] = {
-				this = true
 			}
 		}
 	}
@@ -173,9 +159,6 @@ temp = function()
 				}
 			},
 			["3"] = {
-				this = true
-			},
-			["4"] = {
 				this = true
 			}
 		},
@@ -257,14 +240,7 @@ temp()
 temp = function()
 	uv0["武"] = {
 		["蔵"] = {
-			this = true,
-			["ち"] = {
-				["ゃ"] = {
-					["ん"] = {
-						this = true
-					}
-				}
-			}
+			this = true
 		}
 	}
 end
