@@ -24,19 +24,7 @@ slot0.OnUpdateItems = function(slot0)
 end
 
 slot0.GetResDataList = function(slot0)
-	slot1 = {}
-
-	for slot6, slot7 in ipairs(slot0.shop:GetResList()) do
-		slot8 = nil
-
-		table.insert(slot1, {
-			type = DROP_TYPE_ITEM,
-			resID = slot7,
-			cnt = not slot0.items[ChapterConst.ShamMoneyItem] and 0 or slot10.count
-		})
-	end
-
-	return slot1
+	return slot0.shop:GetResList()
 end
 
 slot0.OnUpdateCommodity = function(slot0, slot1)

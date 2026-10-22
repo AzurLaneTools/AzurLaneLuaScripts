@@ -701,6 +701,10 @@ pg.activity_ins_ship_group_template.all = {
 	10236,
 	10158,
 	30159,
+	10301,
+	20302,
+	49911,
+	99999,
 	20238,
 	30409,
 	31703,
@@ -3689,7 +3693,7 @@ end)()
 		name = "Волга",
 		background = "",
 		sculpture = "fuerjia",
-		nationality = 0,
+		nationality = 7,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4744,7 +4748,7 @@ end)()
 		name = "Golden Hind",
 		background = "",
 		sculpture = "jinluhao",
-		nationality = 0,
+		nationality = 10,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -7011,6 +7015,46 @@ end)()
 		type = 1,
 		sculpture_ii = ""
 	}
+	pg.base.activity_ins_ship_group_template[10301] = {
+		ship_group = 10301,
+		name = "Pensacola",
+		background = "",
+		sculpture = "pengsakela",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[20302] = {
+		ship_group = 20302,
+		name = "Shropshire",
+		background = "",
+		sculpture = "shiluopujun",
+		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
+end)()
+(function ()
+	pg.base.activity_ins_ship_group_template[49911] = {
+		ship_group = 49911,
+		name = "Max Immelmann",
+		background = "",
+		sculpture = "makesi",
+		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[99999] = {
+		ship_group = 99999,
+		background = "",
+		sculpture = "zhihuiguan",
+		nationality = 0,
+		type = 1,
+		sculpture_ii = "",
+		name = {
+			playername
+		}
+	}
 	pg.base.activity_ins_ship_group_template[20238] = {
 		ship_group = 20238,
 		name = "Tiger",
@@ -7029,8 +7073,6 @@ end)()
 		type = 1,
 		sculpture_ii = ""
 	}
-end)()
-(function ()
 	pg.base.activity_ins_ship_group_template[31703] = {
 		ship_group = 31703,
 		name = "I14",

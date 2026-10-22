@@ -559,6 +559,10 @@ pg.player_resource.all = {
 	747,
 	748,
 	749,
+	763,
+	764,
+	765,
+	766,
 	750,
 	751,
 	752,
@@ -1376,6 +1380,15 @@ pg.player_resource.get_id_list_by_name = {
 	limit_skinticket120 = {
 		762
 	},
+	limit_skinticket121 = {
+		763
+	},
+	limit_skinticket122 = {
+		764
+	},
+	limit_skinticket123 = {
+		765
+	},
 	limit_skinticket13 = {
 		472
 	},
@@ -1984,6 +1997,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	skinTicket125 = {
 		756
+	},
+	skinTicket126 = {
+		766
 	},
 	skinTicket13 = {
 		184
@@ -2829,7 +2845,7 @@ pg.base.player_resource = {}
 	pg.base.player_resource[5] = {
 		id = 5,
 		name = "oilField",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[6] = {
 		id = 6,
@@ -2839,7 +2855,7 @@ pg.base.player_resource = {}
 	pg.base.player_resource[7] = {
 		id = 7,
 		name = "goldField",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[8] = {
 		id = 8,
@@ -2854,7 +2870,7 @@ pg.base.player_resource = {}
 	pg.base.player_resource[10] = {
 		id = 10,
 		name = "expField",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[11] = {
 		id = 11,
@@ -5596,6 +5612,26 @@ end)()
 		name = "skinTicket124",
 		itemid = 65120
 	}
+	pg.base.player_resource[763] = {
+		id = 763,
+		name = "limit_skinticket121",
+		itemid = 68373
+	}
+	pg.base.player_resource[764] = {
+		id = 764,
+		name = "limit_skinticket122",
+		itemid = 68374
+	}
+	pg.base.player_resource[765] = {
+		id = 765,
+		name = "limit_skinticket123",
+		itemid = 68375
+	}
+	pg.base.player_resource[766] = {
+		id = 766,
+		name = "skinTicket126",
+		itemid = 67002
+	}
 	pg.base.player_resource[750] = {
 		id = 750,
 		name = "youyingmicheng_pt1",
@@ -5796,6 +5832,8 @@ end)()
 		name = "contribution_worldboss230629",
 		itemid = 59463
 	}
+end)()
+(function ()
 	pg.base.player_resource[2019] = {
 		id = 2019,
 		name = "worldboss230629_ticket",
@@ -5816,8 +5854,6 @@ end)()
 		name = "contribution_worldboss250116",
 		itemid = 60487
 	}
-end)()
-(function ()
 	pg.base.player_resource[2023] = {
 		id = 2023,
 		name = "worldboss250116_ticket",
@@ -6151,47 +6187,47 @@ end)()
 	pg.base.player_resource[4186] = {
 		id = 4186,
 		name = "skin_rerun_pt1",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[4276] = {
 		id = 4276,
 		name = "skin_rerun_pt1jp",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[4599] = {
 		id = 4599,
 		name = "skin_rerun_pt_2022",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[4699] = {
 		id = 4699,
 		name = "skin_rerun_pt_jp2023",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[5081] = {
 		id = 5081,
 		name = "skin_rerun_pt_us2023",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[5082] = {
 		id = 5082,
 		name = "skin_rerun_pt_2023",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[5653] = {
 		id = 5653,
 		name = "skin_rerun_pt_2024",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[5704] = {
 		id = 5704,
 		name = "skin_rerun_pt_2024_cn",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[100004] = {
 		id = 100004,
 		name = "skin_rerun_pt",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[40275] = {
 		id = 40275,
@@ -6201,7 +6237,7 @@ end)()
 	pg.base.player_resource[30853] = {
 		id = 30853,
 		name = "skin_rerun_pt_us2022",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[40296] = {
 		id = 40296,
@@ -6298,10 +6334,12 @@ end)()
 		name = "tw_2023yaoqing",
 		itemid = 80035
 	}
+end)()
+(function ()
 	pg.base.player_resource[41375] = {
 		id = 41375,
 		name = "skin_rerun_pt_tw2024",
-		itemid = 0
+		itemid = 59099
 	}
 	pg.base.player_resource[45101] = {
 		id = 45101,

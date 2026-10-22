@@ -1,7 +1,6 @@
 slot0 = class("MassenaMedalAlbumView", import(".MedalAlbumTemplateView"))
 slot0.GROUP_ID = 50087
 slot0.MEDAL_COUNT = 8
-slot0.HELP_TIPS = "help_starLightAlbum"
 slot0.TASK_CLOSE_ANIM = "Anim_MedalAlbumMassenaPage_TaskView_Out"
 slot0.TASK_CLOSE_ANIM_Time = 0.12
 slot0.TASK_ANIM = "Anim_MedalAlbumMassenaPage_TaskView_TaskTpl_In"

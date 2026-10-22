@@ -36,12 +36,9 @@ slot0.register = function(slot0)
 
 	slot4:SetUpgradeActvity(slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF))
 
-	slot4 = slot2:getConfig("config_client").PTID
 	slot5 = slot0.viewComponent
 
-	slot5:SetPTActivity(underscore.detect(slot1:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK), function (slot0)
-		return slot0:getConfig("config_id") == uv0
-	end))
+	slot5:SetPTActivity(slot2:GetConfigClientPTActivity())
 	slot0:sendNotification(GAME.COLLABRATE_BOSS_RUSH_REQUEST_DATA, {
 		actId = slot2.id
 	})

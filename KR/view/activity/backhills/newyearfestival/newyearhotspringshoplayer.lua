@@ -103,7 +103,7 @@ slot0.ShowEnterMsg = function(slot0)
 end
 
 slot0.UpdateView = function(slot0)
-	setText(slot0._tf:Find("Top/Ticket/TicketText"), getProxy(PlayerProxy):getRawData()[id2res(slot0.shop:getResId())] or 0)
+	setText(slot0._tf:Find("Top/Ticket/TicketText"), slot0.shop:GetResList()[1]:getOwnedCount())
 	slot0:UpdateGoods()
 end
 

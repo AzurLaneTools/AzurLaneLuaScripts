@@ -4276,6 +4276,13 @@ pg.memory_template.all = {
 	5413,
 	5414,
 	5415,
+	5491,
+	5492,
+	5493,
+	5494,
+	5495,
+	5496,
+	5497,
 	5421,
 	5422,
 	5423,
@@ -81656,6 +81663,132 @@ end)()
 			"DARENWUDEYUGAOXIN5"
 		}
 	}
+	pg.base.memory_template[5491] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "평소와 다른 아침",
+		condition = "「볼가의 「건강 임무」 1」 시작",
+		story = "FUERJIA1",
+		mask = "bg/bg_memory",
+		task = 500291,
+		year = 0,
+		id = 5491,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA1"
+		}
+	}
+	pg.base.memory_template[5492] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "「미묘」한 건강식",
+		condition = "「볼가의 「건강 임무」 2」 시작",
+		story = "FUERJIA2",
+		mask = "bg/bg_memory",
+		task = 500292,
+		year = 0,
+		id = 5492,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA2"
+		}
+	}
+	pg.base.memory_template[5493] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "건강 요법",
+		condition = "「볼가의 「건강 임무」 3」 시작",
+		story = "FUERJIA3",
+		mask = "bg/bg_memory",
+		task = 500293,
+		year = 0,
+		id = 5493,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA3"
+		}
+	}
+	pg.base.memory_template[5494] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "마음이 편안해지는 장소",
+		condition = "「볼가의 「건강 임무」 4」 시작",
+		story = "FUERJIA4",
+		mask = "bg/bg_memory",
+		task = 500294,
+		year = 0,
+		id = 5494,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA4"
+		}
+	}
+	pg.base.memory_template[5495] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "거부할 수 없는 행복한 맛",
+		condition = "「볼가의 「건강 임무」 5」 시작",
+		story = "FUERJIA5",
+		mask = "bg/bg_memory",
+		task = 500295,
+		year = 0,
+		id = 5495,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA5"
+		}
+	}
+	pg.base.memory_template[5496] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "무릎 위의 따뜻한 시간",
+		condition = "「볼가의 「건강 임무」 6」 시작",
+		story = "FUERJIA6",
+		mask = "bg/bg_memory",
+		task = 500296,
+		year = 0,
+		id = 5496,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA6"
+		}
+	}
+	pg.base.memory_template[5497] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "해 질 녘의 귀갓길",
+		condition = "「볼가의 「건강 임무」 7」 시작",
+		story = "FUERJIA7",
+		mask = "bg/bg_memory",
+		task = 500297,
+		year = 0,
+		id = 5497,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"FUERJIA7"
+		}
+	}
 	pg.base.memory_template[5421] = {
 		ship_group = 0,
 		subtitle = "",
@@ -82034,6 +82167,8 @@ end)()
 			"YOUYINGMICHENG14"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5455] = {
 		ship_group = 0,
 		subtitle = "",
@@ -82160,8 +82295,6 @@ end)()
 			"YOUYINGMICHENG21"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[5462] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83836,6 +83969,8 @@ end)()
 			"CHANGDAO6"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10017] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83962,8 +84097,6 @@ end)()
 			"TEACHER2"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10031] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85638,6 +85771,8 @@ end)()
 			"LINGHANGYUANHAOGANDU3"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20047] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85764,8 +85899,6 @@ end)()
 			"LINGHANGYUANTANXIN2"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20054] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87440,6 +87573,8 @@ end)()
 			"LINGYANGZHELAIFANGJISHI10"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20148] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87566,8 +87701,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA5"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20155] = {
 		ship_group = 0,
 		subtitle = "",

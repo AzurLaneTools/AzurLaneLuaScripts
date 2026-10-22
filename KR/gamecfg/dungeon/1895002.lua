@@ -4,10 +4,8 @@ return {
 	stages = {
 		{
 			stageIndex = 1,
-			failCondition = 1,
-			timeCount = 300,
 			backGroundStageID = 1,
-			passCondition = 1,
+			timeCount = 300,
 			totalArea = {
 				-80,
 				20,
@@ -25,6 +23,20 @@ return {
 				-80,
 				0,
 				75
+			},
+			stageBuff = {
+				{
+					id = 201250,
+					level = 1
+				},
+				{
+					id = 295023,
+					level = 1
+				},
+				{
+					id = 295028,
+					level = 1
+				}
 			},
 			waves = {
 				{
@@ -72,7 +84,6 @@ return {
 							buffList = {
 								200825,
 								200974,
-								201138,
 								201297
 							},
 							phase = {

@@ -27,20 +27,7 @@ slot0.OnUpdateItems = function(slot0)
 end
 
 slot0.GetResDataList = function(slot0)
-	slot1 = {}
-
-	for slot6, slot7 in ipairs(slot0.shop:GetResList()) do
-		table.insert(slot1, {
-			type = DROP_TYPE_ITEM,
-			resID = slot7,
-			cnt = (slot0.items[slot7] or Item.New({
-				count = 0,
-				id = slot7
-			})).count
-		})
-	end
-
-	return slot1
+	return slot0.shop:GetResList()
 end
 
 slot0.RefreshUI = function(slot0)

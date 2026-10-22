@@ -34,4 +34,8 @@ slot0.IsNewServerBuild = function(slot0)
 	return slot0:GetActivity():getConfig("type") == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
 end
 
+slot0.GetActivityTimeStr = function(slot0)
+	return slot0:GetActivity() and slot1:GetActivityTimeStr() or ""
+end
+
 return slot0

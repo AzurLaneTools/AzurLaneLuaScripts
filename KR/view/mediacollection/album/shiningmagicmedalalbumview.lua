@@ -2,7 +2,6 @@ slot0 = class("ShiningMagicMedalAlbumView", import(".MedalAlbumTemplateView"))
 slot0.GROUP_ID = 51154
 slot0.ICON_SCALE = 1
 slot0.MEDAL_COUNT = 7
-slot0.HELP_TIPS = "help_starLightAlbum"
 
 slot0.getUIName = function(slot0)
 	return "MedalAlbumShiningMagicPage"

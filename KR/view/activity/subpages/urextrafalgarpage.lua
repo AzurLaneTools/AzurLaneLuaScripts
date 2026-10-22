@@ -23,16 +23,4 @@ slot0.OnInit = function(slot0)
 	})
 end
 
-slot0.OnFirstFlush = function(slot0)
-	uv0.super.OnFirstFlush(slot0)
-	setActive(slot0._tasksTF, false)
-	setActive(slot0.icon, false)
-	setActive(slot0._btnHelp, false)
-end
-
-slot0.OnUpdateFlush = function(slot0)
-	uv0.super.OnUpdateFlush(slot0)
-	setGray(slot0._btnExchange, true, true)
-end
-
 return slot0

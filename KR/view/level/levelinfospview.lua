@@ -122,7 +122,11 @@ slot0.setAfterResDownload = function(slot0, slot1, slot2, slot3)
 			setActive(slot8:Find("Bonus" .. slot12), slot15)
 
 			if slot15 then
-				slot0.loader:GetSprite("ui/levelmainscene_atlas", getProxy(ChapterProxy):getMapById(slot14:getConfig("map")):getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot13:Find("Image"))
+				GetImageSpriteFromAtlasAsync("ui/levelmainscene_atlas", "bonusX" .. slot14:GetDailyBonusRate(), slot13:Find("Image"), true)
+
+				slot18 = getProxy(ActivityProxy):getActivityById(getProxy(ChapterProxy):getMapById(slot14:getConfig("map")):getConfig("on_activity")) and slot17:GetConfigClientPTActivity() or nil
+
+				GetImageSpriteFromAtlasAsync((slot18 and slot18:GetPTDrop()):getIcon(), "", slot13:Find("Image/icon"), true)
 			end
 		end
 	end

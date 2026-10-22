@@ -1,8 +1,6 @@
 slot0 = class("YunLongSPMedalAlbumView", import(".MedalAlbumTemplateView"))
 slot0.GROUP_ID = 50482
 slot0.MEDAL_COUNT = 8
-slot0.HELP_TIPS = "help_tianqiongAlbum"
-slot0.HELP_TIPS = "help_starLightAlbum"
 slot0.ICON_SCALE = 1
 
 slot0.getUIName = function(slot0)

@@ -24,7 +24,6 @@ slot0.OnFirstFlush = function(slot0)
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
 			setActive(slot2:Find("got"), slot1 < uv0.nday)
-			setText(slot2:Find("day/Text"), slot1 < uv0.nday and i18n("word_status_inEventFinished") or i18n("which_day_2", slot1 + 1))
 		end
 	end)
 end

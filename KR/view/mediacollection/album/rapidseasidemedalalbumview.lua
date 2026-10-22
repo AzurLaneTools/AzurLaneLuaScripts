@@ -2,7 +2,6 @@ slot0 = class("RapidSeasideMedalAlbumView", import(".MedalAlbumTemplateView"))
 slot0.GROUP_ID = 51113
 slot0.MEDAL_COUNT = 7
 slot0.ICON_SCALE = 1
-slot0.HELP_TIPS = "help_starLightAlbum"
 
 slot0.getUIName = function(slot0)
 	return "MedalAlbumRapidSeasidePage"

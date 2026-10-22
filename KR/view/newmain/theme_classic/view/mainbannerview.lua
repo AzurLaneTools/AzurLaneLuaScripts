@@ -6,6 +6,8 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.scrollSnap = BannerScrollRect.New(findTF(slot1, "mask/content"), findTF(slot1, "dots"))
 	slot0.downloadmgr = BulletinBoardMgr.Inst
 	slot0.rawImages = {}
+	slot0.prefabCaches = {}
+	slot0.imageTrs = {}
 end
 
 slot0.Init = function(slot0)
@@ -80,8 +82,87 @@ slot0.UpdateItemImage = function(slot0, slot1, slot2)
 			table.insert(uv0.rawImages, slot1)
 		end))
 	else
-		LoadImageSpriteAsync("activitybanner/" .. slot5, slot4)
+		slot0:ReturnItemPrefabCache(slot4)
+
+		slot7 = pg.PoolMgr.GetInstance()
+
+		slot7:GetPrefab("MainUIBanner/" .. slot5, "", true, function (slot0)
+			setParent(slot0.transform, uv0)
+			onNextTick(function ()
+				uv0:LayoutBannerItem(uv1)
+			end)
+
+			slot1 = slot0.transform:Find("Text")
+
+			setText(slot1, uv1:GetBannerShowTimeStr(uv2, uv1:IsImpactFont(slot1)))
+
+			uv1.prefabCaches[slot0] = uv3
+		end)
 	end
+
+	slot0.imageTrs[slot4] = true
+end
+
+slot0.IsImpactFont = function(slot0, slot1)
+	return slot1:GetComponent(typeof(Text)).font.name == pg.FontMgr.FONT_NAME_IMPACT
+end
+
+slot0.LayoutBannerItem = function(slot0, slot1)
+	slot1.transform.localScale = Vector3(1, 1, 1)
+	slot1.transform.anchorMin = Vector2.zero
+	slot1.transform.anchorMax = Vector2.one
+	slot1.transform.offsetMin = Vector2.zero
+	slot1.transform.offsetMax = Vector2.zero
+end
+
+slot0.WhenRecycleBanner = function(slot0, slot1)
+end
+
+slot0.ReturnItemPrefabCache = function(slot0, slot1)
+	if IsNil(slot1) then
+		return
+	end
+
+	eachChild(slot1, function (slot0)
+		if uv0.prefabCaches[slot0.gameObject] then
+			uv0:WhenRecycleBanner(slot0.gameObject)
+			pg.PoolMgr.GetInstance():ReturnPrefab("MainUIBanner/" .. slot1, "", slot0.gameObject)
+
+			uv0.prefabCaches[slot0.gameObject] = nil
+		else
+			Destroy(slot0.gameObject)
+		end
+	end)
+end
+
+slot1 = function(slot0)
+	if slot0.time == "stop" then
+		return true
+	end
+
+	if slot0.param[1] == "scene get boat" and slot0.param[2].projectName == "new" then
+		return true
+	end
+
+	if slot0.param[1] == "scene charge" and slot0.param[2].wrap == 2 then
+		return true
+	end
+
+	if slot0.param[1] == "scene shop" and slot0.param[2].wrap == "shopstreet" then
+		return true
+	end
+
+	return false
+end
+
+slot0.GetBannerShowTimeStr = function(slot0, slot1, slot2)
+	slot3 = ""
+
+	if uv0(slot1) and getProxy(ActivityRemasterProxy):GetActivaingReamsterData() then
+		slot3 = slot4:GetActivityTimeDescByBanner(slot1.id, slot2)
+	end
+
+	return slot3
 end
 
 slot0.Tracking = function(slot0, slot1)
@@ -108,6 +189,12 @@ slot0.Dispose = function(slot0)
 	end
 
 	slot0.rawImages = nil
+
+	for slot4, slot5 in pairs(slot0.imageTrs) do
+		slot0:ReturnItemPrefabCache(slot4)
+	end
+
+	slot0.imageTrs = nil
 
 	slot0:Clear()
 	slot0.scrollSnap:Dispose()

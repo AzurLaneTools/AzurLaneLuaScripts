@@ -6,10 +6,12 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnFirstFlush = function(slot0)
-	slot2 = getProxy(ActivityProxy)
-	slot1 = _.detect(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
-		return slot0:getConfig("config_client").pt_id == uv0.activity:getConfig("config_client").pt_id
-	end)
+	slot1 = getProxy(ActivityProxy)
+	slot5 = slot0.activity
+	slot1 = slot1:GetShopActivityByRes(Drop.New({
+		type = DROP_TYPE_RESOURCE,
+		id = slot5:getConfig("config_client").pt_id
+	}))
 
 	onButton(slot0, slot0.shop, function ()
 		uv0:emit(ActivityMediator.GO_SHOPS_LAYER, {

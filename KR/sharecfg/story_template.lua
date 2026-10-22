@@ -229,8 +229,8 @@ pg.base.story_template = {}
 		icon = "story-wurenji",
 		story = "TIEYIQINGFENG10",
 		pos = {
-			0.65,
-			0.49
+			0.148,
+			0.156
 		}
 	}
 	pg.base.story_template[6181] = {
@@ -240,8 +240,8 @@ pg.base.story_template = {}
 		icon = "story-wurenji",
 		story = "TIEYIQINGFENG11",
 		pos = {
-			0.56,
-			0.1
+			0.05,
+			-0.373
 		}
 	}
 	pg.base.story_template[6182] = {
@@ -251,8 +251,8 @@ pg.base.story_template = {}
 		icon = "story-wurenji",
 		story = "TIEYIQINGFENG12",
 		pos = {
-			0.73,
-			0.25
+			0.225,
+			-0.169
 		}
 	}
 	pg.base.story_template[6183] = {
@@ -262,8 +262,8 @@ pg.base.story_template = {}
 		icon = "story-xinghaizhuangzhi",
 		story = "TIEYIQINGFENG13",
 		pos = {
-			0.85,
-			0.4
+			0.348,
+			0.04
 		}
 	}
 	pg.base.story_template[6184] = {
@@ -273,8 +273,8 @@ pg.base.story_template = {}
 		icon = "story-zhihuimao",
 		story = "TIEYIQINGFENG14",
 		pos = {
-			0.2,
-			0.4
+			-0.3,
+			0.028
 		}
 	}
 	pg.base.story_template[6959] = {

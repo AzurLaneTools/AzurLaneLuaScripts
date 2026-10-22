@@ -43,7 +43,12 @@ pg.ship_data_create_exchange.all = {
 	30863,
 	30900,
 	41249,
-	41328
+	41328,
+	1000027,
+	1000047,
+	1000067,
+	1000087,
+	1000127
 }
 pg.base = pg.base or {}
 pg.base.ship_data_create_exchange = {}
@@ -384,6 +389,46 @@ pg.base.ship_data_create_exchange = {}
 		id = 41328,
 		exchange_ship_id = {
 			305101
+		}
+	}
+	pg.base.ship_data_create_exchange[1000027] = {
+		exchange_request = 200,
+		exchange_available_times = 4,
+		id = 1000027,
+		exchange_ship_id = {
+			307151
+		}
+	}
+	pg.base.ship_data_create_exchange[1000047] = {
+		exchange_request = 200,
+		exchange_available_times = 4,
+		id = 1000047,
+		exchange_ship_id = {
+			407041
+		}
+	}
+	pg.base.ship_data_create_exchange[1000067] = {
+		exchange_request = 200,
+		exchange_available_times = 4,
+		id = 1000067,
+		exchange_ship_id = {
+			605081
+		}
+	}
+	pg.base.ship_data_create_exchange[1000087] = {
+		exchange_request = 200,
+		exchange_available_times = 4,
+		id = 1000087,
+		exchange_ship_id = {
+			205161
+		}
+	}
+	pg.base.ship_data_create_exchange[1000127] = {
+		exchange_request = 200,
+		exchange_available_times = 4,
+		id = 1000127,
+		exchange_ship_id = {
+			307161
 		}
 	}
 end)()

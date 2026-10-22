@@ -66,7 +66,7 @@ end
 slot0.init = function(slot0)
 	slot0.blurPanel = slot0._tf:Find("blur_panel")
 	slot0.topPanel = slot0._tf:Find("blur_panel/adapt/top")
-	slot0.backBtn = slot0.topPanel:Find("back_button")
+	slot0.backBtn = slot0.topPanel:Find("back_btn")
 	slot0.listPanel = slot0._tf:Find("list_panel")
 	slot0.content = slot0.listPanel:Find("list")
 

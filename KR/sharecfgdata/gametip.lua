@@ -393,6 +393,11 @@ _G.pg.base.gametip.ad_3 = {
 }
 
 
+_G.pg.base.gametip.word_obtain_way = {
+	tip = "획득 방법"
+}
+
+
 _G.pg.base.gametip.word_back = {
 	tip = "뒤로"
 }
@@ -51571,6 +51576,236 @@ _G.pg.base.gametip.cruise_title_2610 = {
 }
 
 
+_G.pg.base.gametip.act_remaster_colllect_progress = {
+	tip = "획득 상황"
+}
+
+
+_G.pg.base.gametip.act_remaster_title = {
+	tip = "경량화 복각"
+}
+
+
+_G.pg.base.gametip.act_remaster_open_tip = {
+	tip = "이벤트 「<color=#39bfff>$1</color>」의 경량화 복각을 오픈하시겠습니까? \n선택 가능한 경량화 복각은 진행 기간 중에 1회만 오픈할 수 있으며, 오픈한 이벤트 해역은 <color=#39bfff>$2</color> 점검 전에 종료됩니다."
+}
+
+
+_G.pg.base.gametip.act_remaster_active_erro = {
+	tip = "1회만 오픈할 수 있습니다"
+}
+
+
+_G.pg.base.gametip.act_remaster_tip_1 = {
+	tip = "이벤트 기간 중 「선택 가능한 경량화 복각」으로 오픈하지 않은 이벤트를 1개 골라 <b><color=#faba55>경량화 복각을 오픈</color></b>할 수 있습니다"
+}
+
+
+_G.pg.base.gametip.act_remaster_tip_2 = {
+	tip = "$1 점검"
+}
+
+
+_G.pg.base.gametip.act_remaster_extend_time = {
+	tip = "보상 획득 기간은 $1시까지"
+}
+
+
+_G.pg.base.gametip.act_remaster_time_desc = {
+	tip = "$1월 $2일 ~ $3월 $4일 점검"
+}
+
+
+_G.pg.base.gametip.act_remaster_time_desc_with_hours = {
+	tip = "$1월 $2일 ~ $3월 $4일 $5시"
+}
+
+
+_G.pg.base.gametip.act_remaster_time_desc_with_hours_without_ch = {
+	tip = "$1.$2-$3.$4 $5:$6:$7"
+}
+
+
+_G.pg.base.gametip.outpost_20250904_Sidebar6 = {
+	tip = "건조 지원"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_1 = {
+	tip = "높은 탑의 장미"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_2 = {
+	tip = "높은 탑의 장미"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_3 = {
+	tip = "작전 준비"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_4 = {
+	tip = "영주의 원정"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_5 = {
+	tip = "건조 지원"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re6_6 = {
+	tip = "UR 교환"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_1 = {
+	tip = "새장에 갇힌 신의 빛"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_2 = {
+	tip = "새장에 갇힌 신의 빛"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_3 = {
+	tip = "작전 준비"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_4 = {
+	tip = "선택받은 자의 길"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re5_5 = {
+	tip = "건조 지원"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_1 = {
+	tip = "별빛 아래의 석양"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_2 = {
+	tip = "별빛 아래의 석양"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_3 = {
+	tip = "작전 준비"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_4 = {
+	tip = "영역 밖의 귀로"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_5 = {
+	tip = "건조 지원"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re4_6 = {
+	tip = "UR 교환"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_1 = {
+	tip = "깨워라, 창홍의 바람"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_2 = {
+	tip = "깨워라, 창홍의 바람"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_3 = {
+	tip = "작전 준비"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_4 = {
+	tip = "차안에 모여드는 먼지"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re3_5 = {
+	tip = "건조 지원"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_1 = {
+	tip = "강철의 날개와 바람"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_2 = {
+	tip = "강철의 날개와 바람"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_3 = {
+	tip = "작전 준비"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_4 = {
+	tip = "주염단장"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re2_5 = {
+	tip = "건조 지원"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re7_1 = {
+	tip = "임간 휴가 준비"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_re7_2 = {
+	tip = "건조 지원"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_btn = {
+	tip = "보상 목록"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_title = {
+	tip = "이벤트 한정 보상"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_ship = {
+	tip = "캐릭터($1)"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_es = {
+	tip = "장비스킨($1)"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_preview_other = {
+	tip = "기타($1)"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCore_award_own_desc = {
+	tip = "획득 완료: <color=#39bfff>$1</color>"
+}
+
+
 _G.pg.base.gametip.dorm3d_yuanchou_table = {
 	tip = "밀실"
 }
@@ -51608,4 +51843,19 @@ _G.pg.base.gametip.setting_restart_download_btn = {
 
 _G.pg.base.gametip.loading_flow_tip = {
 	tip = "모바일 데이터로 리소스를 다운로드하고 있습니다. 데이터 통신량에 주의하시기 바랍니다."
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE = {
+	tip = "이벤트"
+}
+
+
+_G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE_EN = {
+	tip = "ACTIVITY"
+}
+
+
+_G.pg.base.gametip.ActivityRemaster_NoticeJump_AlreadySelected = {
+	tip = "현재 진행 중인 경량화 복각 이벤트가 있습니다. 메인 화면의 이벤트 버튼을 통해 입장해 주세요"
 }

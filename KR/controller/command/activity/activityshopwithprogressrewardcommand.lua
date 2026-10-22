@@ -6,12 +6,18 @@ slot0.execute = function(slot0, slot1)
 
 	if slot4 == ActivityConst.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD then
 		if slot2.cmd == 1 then
+			slot5 = getProxy(PlayerProxy):getData()
 			slot6 = pg.activity_shop_template[slot2.arg1]
+			slot8 = Drop.New({
+				type = slot6.resource_category,
+				id = slot6.resource_type,
+				count = slot6.resource_num * (slot2.arg2 or 1)
+			})
 
-			if getProxy(PlayerProxy):getData()[id2res(slot6.resource_type)] < slot6.resource_num * (slot2.arg2 or 1) then
+			if slot8:getOwnedCount() < slot8.count then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
-				return
+				return true
 			end
 
 			if slot6.commodity_type == 1 then
@@ -129,12 +135,19 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			slot8 = pg.activity_shop_template[slot1.arg1]
-			slot10 = slot6:getData()
-
-			slot10:consume({
-				[id2res(slot8.resource_type)] = slot8.resource_num * slot1.arg2
+			slot9 = Drop.New({
+				type = slot8.resource_category,
+				id = slot8.resource_type,
+				count = slot8.resource_num * slot1.arg2
 			})
-			slot6:updatePlayer(slot10)
+
+			if slot9:getOwnedCount() < slot9.count then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
+
+				return true
+			end
+
+			reducePlayerOwn(slot9)
 		elseif slot1.cmd == 2 then
 			table.insert(slot3.data3_list, slot1.arg1)
 		end

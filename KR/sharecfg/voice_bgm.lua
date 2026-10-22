@@ -3403,4 +3403,9 @@ end)()
 		special_bgm = "",
 		bgm = "story-musicanniversary-gorgeous"
 	}
+	pg.base.voice_bgm["ActivityRemasterScene "] = {
+		default_bgm = "story-richang",
+		special_bgm = "",
+		bgm = "story-richang"
+	}
 end)()

@@ -208,7 +208,7 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 end
 
 slot0.RefreshCountText = function(slot0, slot1, slot2)
-	setText(slot2:Find("owner/number"), slot1.count .. "/" .. slot1.config.count)
+	setText(slot2:Find("owner/number"), slot1.count .. (slot1.config.count > 0 and "/" .. slot1.config.count or ""))
 end
 
 slot0.OnClickItem = function(slot0, slot1)
@@ -299,7 +299,7 @@ end
 slot0.DoSkip = function(slot0, slot1, slot2)
 	if slot1 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
 		pg.m02:sendNotification(GAME.GO_SCENE, slot2[1], slot2[2] or {})
-	elseif slot1 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
+	elseif slot1 == Msgbox4LinkCollectGuide.SKIP_TYPE_ACTIVITY then
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = slot2
 		})

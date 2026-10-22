@@ -875,7 +875,7 @@ pg.base.dorm3d_ins_unlock = {}
 		trigger_type = 151
 	}
 	pg.base.dorm3d_ins_unlock[20707104] = {
-		text = "收集物品解锁20个",
+		text = "수집 아이템 20개 오픈",
 		trigger_num = 20,
 		trigger_id = 0,
 		type = 1,
@@ -884,7 +884,7 @@ pg.base.dorm3d_ins_unlock = {}
 		trigger_type = 153
 	}
 	pg.base.dorm3d_ins_unlock[20707105] = {
-		text = "累计互动3次",
+		text = "상호작용 누적 3회",
 		trigger_num = 3,
 		trigger_id = 0,
 		type = 1,
@@ -911,7 +911,7 @@ pg.base.dorm3d_ins_unlock = {}
 		trigger_type = 151
 	}
 	pg.base.dorm3d_ins_unlock[20707108] = {
-		text = "累计对话15次 ",
+		text = "대화 누적 15회",
 		trigger_num = 15,
 		trigger_id = 0,
 		type = 1,
@@ -920,7 +920,7 @@ pg.base.dorm3d_ins_unlock = {}
 		trigger_type = 155
 	}
 	pg.base.dorm3d_ins_unlock[20707109] = {
-		text = "累计互动5次 ",
+		text = "상호작용 누적 5회",
 		trigger_num = 5,
 		trigger_id = 0,
 		type = 1,
@@ -929,7 +929,7 @@ pg.base.dorm3d_ins_unlock = {}
 		trigger_type = 156
 	}
 	pg.base.dorm3d_ins_unlock[20707110] = {
-		text = "累计赠礼10次 ",
+		text = "선물 누적 10회",
 		trigger_num = 10,
 		trigger_id = 0,
 		type = 1,

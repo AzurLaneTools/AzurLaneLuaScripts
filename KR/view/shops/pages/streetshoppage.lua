@@ -52,12 +52,14 @@ end
 
 slot0.GetResDataList = function(slot0)
 	slot1 = {}
-
-	table.insert(slot1, {
+	slot2 = Drop.New({
+		count = 0,
 		type = DROP_TYPE_RESOURCE,
-		resID = PlayerConst.ResGold,
-		cnt = slot0.player:getResource(PlayerConst.ResGold)
+		id = PlayerConst.ResGold
 	})
+	slot2.count = slot2:getOwnedCount()
+
+	table.insert(slot1, slot2)
 
 	return slot1
 end

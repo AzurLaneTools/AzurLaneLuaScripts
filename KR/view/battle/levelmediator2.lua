@@ -356,12 +356,14 @@ slot0.register = function(slot0)
 					activityId = slot3.id
 				}
 			}), false)
-		else
+
+			return
+		end
+
+		if slot1:GetConfigClientPTActivity() and getProxy(ActivityProxy):GetShopActivityByRes(slot4:GetPTDrop()) or nil then
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
 				warp = NewShopsScene.TYPE_ACTIVITY,
-				actId = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
-					return slot0:getConfig("config_client").pt_id == uv0
-				end) and slot4.id
+				actId = slot5.id
 			})
 		end
 	end)

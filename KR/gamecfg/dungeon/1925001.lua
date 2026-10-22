@@ -79,11 +79,10 @@ return {
 									setAI = 20006
 								},
 								{
-									switchParam = 5,
+									switchType = 1,
 									switchTo = 2,
 									index = 1,
-									switchType = 1,
-									setAI = 70252,
+									switchParam = 5,
 									addWeapon = {
 										3275001
 									}
@@ -102,11 +101,10 @@ return {
 									}
 								},
 								{
+									index = 3,
 									switchType = 1,
 									switchTo = 4,
-									index = 3,
-									switchParam = 3,
-									setAI = 75016
+									switchParam = 3
 								},
 								{
 									switchParam = 5,
