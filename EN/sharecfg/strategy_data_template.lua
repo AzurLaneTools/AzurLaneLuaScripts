@@ -386,6 +386,10 @@ pg.strategy_data_template.all = {
 	201909,
 	201910,
 	201911,
+	201924,
+	201928,
+	201935,
+	201940,
 	205001,
 	205002,
 	205003,
@@ -4874,6 +4878,61 @@ The ￼<color=#92fc63>DMG reduction/evasion effects</color> of following gear or
 		icon = "200908",
 		arg = {}
 	}
+	pg.base.strategy_data_template[201924] = {
+		buff_id = 201924,
+		name = "Corridor of Fog",
+		desc = "Under the interference of the Corridor of Fog. Reduces allies' ACC by 5.0%, and increases enemies' SPD and EVA by 10.0%.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201924,
+		icon = "201924",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201928] = {
+		buff_id = 0,
+		name = "Star-Sinking Abyss",
+		desc = "During battle, whirlpools will move around the battlefield. Allies and enemies caught in the whirlpool will have heavily reduced SPD and take DMG over time.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201928,
+		icon = "201928",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201935] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = "At the start of battle, Ormrinn Langi is protected by the Star-Sinking Beast, Orm, and allies will only be able to damage the Star-Sinking Beast, Orm. When Star-Sinking Beast, Orm's HP falls below 20.0%, it will permanently enter an Ethereal state and become invulnerable to attacks; at that point, <color=#92fc63>Ormrinn Langi can be damaged</color>. Star-Sinking Beast, Orm is immune to normal Burn effects, but <color=#92fc63>takes 50.0% increased DMG while afflicted with Burn</color>.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201935,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201940] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+At the start of battle, Ormrinn Langi is protected by the Star-Sinking Beast, Orm, and allies will only be able to damage the Star-Sinking Beast, Orm. When Star-Sinking Beast, Orm's HP falls below 20.0%, it will enter an Ethereal state and become invulnerable to attacks; at that point, <color=#92fc63>Ormrinn Langi can be damaged</color>. While in the Ethereal state, Star-Sinking Beast, Orm restores 5.0% HP per second; upon reaching 60.0% HP, Star-Sinking Beast, Orm loses the Ethereal state, and Ormrinn Langi can no longer be damaged.
+Star-Sinking Beast, Orm is immune to normal Burn effects, but <color=#92fc63>takes 50.0% increased DMG and cannot restore HP while afflicted with Burn</color>.
+
+- Hard Mode Details -
+The hitbox of your Vanguard fleet is <color=#92fc63>limited to only the frontmost ship, and the size of the hitbox is also significantly reduced</color>.
+When your ship is hit, it will become invulnerable for a short period of time.
+
+Enemy DMG dealt is <color=#ffc038>significantly increased</color>. Enemy projectiles cannot be nullified by airstrikes; however, when an ally launches an airstrike, the frontmost ship of the Vanguard fleet becomes invulnerable for 3s.
+
+The <color=#92fc63>DMG reduction/evasion effects</color> of the following gear or skills are rendered ineffective:
+[Fiercer When Cornered], [Operation Rainbow], [Eleventh Hour], [I Will Not Yield!]]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201940,
+		icon = "200908",
+		arg = {}
+	}
 	pg.base.strategy_data_template[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -5028,6 +5087,8 @@ The ￼<color=#92fc63>DMG reduction/evasion effects</color> of following gear or
 		icon = "buff_yumia_3",
 		arg = {}
 	}
+end)()
+(function ()
 	pg.base.strategy_data_template[300008] = {
 		buff_id = 0,
 		name = "Core Level 4",
@@ -5072,8 +5133,6 @@ The ￼<color=#92fc63>DMG reduction/evasion effects</color> of following gear or
 		icon = "buff_yumia_3",
 		arg = {}
 	}
-end)()
-(function ()
 	pg.base.strategy_data_template[300012] = {
 		buff_id = 0,
 		name = "Core Level 4",

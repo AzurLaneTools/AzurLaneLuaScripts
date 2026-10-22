@@ -8399,6 +8399,37 @@ _G.pg.base.item_data_statistics[11059] = {
 }
 
 
+_G.pg.base.item_data_statistics[11060] = {
+	open_directly = 0,
+	name = "Double-shot Cannonballs T0 Design",
+	type = 9,
+	display = "Double-shot Cannonballs T0 Design",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/151280",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[13000] = {
 	open_directly = 0,
 	name = "T0 Twin 381mm Main Gun - Variant Design",
@@ -30466,6 +30497,131 @@ _G.pg.base.item_data_statistics[30388] = {
 }
 
 
+_G.pg.base.item_data_statistics[30389] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Fantaisie of Heaven and Hell)",
+	type = 11,
+	display = "Use to obtain a random gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxfengfanv4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30386",
+	id = 30389,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -47732,6 +47888,219 @@ _G.pg.base.item_data_statistics[30572] = {
 }
 
 
+_G.pg.base.item_data_statistics[30573] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Fantaisie of Heaven and Hell)",
+	type = 13,
+	display = "Use to receive 1 Fantaisie of Heaven and Hell-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxfengfanv4zixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30573,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "Universal T4 Part",
@@ -55417,6 +55786,328 @@ _G.pg.base.item_data_statistics[40728] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40736] = {
+	open_directly = 1,
+	name = "Tempesta's Treasure (Day 1)",
+	type = 17,
+	display = "Contains High-Efficiency Combat Logistics Plan x3 and Oil x150.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40736,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4139,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40737] = {
+	open_directly = 1,
+	name = "Tempesta's Treasure (Day 2)",
+	type = 17,
+	display = "Contains High-Efficiency Combat Logistics Plan x3 and Oil x150.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40737,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4140,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40738] = {
+	open_directly = 1,
+	name = "Tempesta's Treasure (Day 3)",
+	type = 17,
+	display = "Contains High-Efficiency Combat Logistics Plan x3 and Oil x150.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40738,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4141,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40739] = {
+	open_directly = 1,
+	name = "Tempesta's Treasure (Day 4)",
+	type = 17,
+	display = "Contains High-Efficiency Combat Logistics Plan x3 and Oil x150.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40739,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4142,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40740] = {
+	open_directly = 1,
+	name = "Tempesta's Treasure (Day 5)",
+	type = 17,
+	display = "Contains High-Efficiency Combat Logistics Plan x3 and Oil x150.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40740,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4143,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40741] = {
+	open_directly = 1,
+	name = "Tempesta's Treasure (Day 6)",
+	type = 17,
+	display = "Contains High-Efficiency Combat Logistics Plan x3 and Oil x150.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40741,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4144,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40742] = {
+	open_directly = 1,
+	name = "Tempesta's Treasure (Day 7)",
+	type = 17,
+	display = "Contains High-Efficiency Combat Logistics Plan x3 and Oil x150.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40742,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4145,
+		0,
+		150
+	},
 	limit = {}
 }
 
@@ -113026,7 +113717,7 @@ _G.pg.base.item_data_statistics[60560] = {
 	open_directly = 0,
 	name = "{namecode:470}的回礼",
 	type = 1,
-	display = "由{namecode:470}赠与的，作为宴会邀约的回礼",
+	display = "由{namecode:470}赠予的，作为宴会邀约的回礼",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -120204,6 +120895,357 @@ _G.pg.base.item_data_statistics[81445] = {
 }
 
 
+_G.pg.base.item_data_statistics[81446] = {
+	open_directly = 1,
+	name = "Tempesta Building Pack (Day 1)",
+	type = 17,
+	display = "Contains Gems x60 and Special General Blueprint - Series 8 x2.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911101",
+	id = 81446,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81447] = {
+	open_directly = 1,
+	name = "Tempesta Building Pack (Day 2)",
+	type = 17,
+	display = "Contains Gems x200.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911102",
+	id = 81447,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81448] = {
+	open_directly = 1,
+	name = "Tempesta Building Pack (Day 3)",
+	type = 17,
+	display = "Contains Universal T4 Parts x5 and Cognitive Chips x200.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911103",
+	id = 81448,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			30114,
+			5
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81449] = {
+	open_directly = 1,
+	name = "Tempesta Building Pack (Day 4)",
+	type = 17,
+	display = "Contains Gems x60 and a Prototype Bulin MKII.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911104",
+	id = 81449,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81450] = {
+	open_directly = 1,
+	name = "Tempesta Building Pack (Day 5)",
+	type = 17,
+	display = "Contains T2 EXP Data Pack x60.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day5",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911105",
+	id = 81450,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			16502,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81451] = {
+	open_directly = 1,
+	name = "Tempesta Building Pack (Day 6)",
+	type = 17,
+	display = "Contains Wisdom Cube x10 and Quick Finisher x5.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911106",
+	id = 81451,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81452] = {
+	open_directly = 1,
+	name = "Tempesta Building Pack (Day 7)",
+	type = 17,
+	display = "Contains Gems x60 and Special General Blueprint - Series 9 x2.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911107",
+	id = 81452,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81461] = {
+	open_directly = 1,
+	name = "Angelic Wings Lucky Box",
+	type = 17,
+	display = "Contains 1x random skin, 2x Special General Blueprints - Series 9, 2026x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai106",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998584",
+	id = 81461,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86428,
+			1
+		},
+		{
+			1,
+			14,
+			2026
+		},
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[99958] = {
 	open_directly = 0,
 	name = "5th Anniversary Invitation",
@@ -120832,6 +121874,109 @@ _G.pg.base.item_data_statistics[99997] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[99998] = {
+	open_directly = 0,
+	name = "Capsule Rerun Selection Gear Skin Box",
+	type = 13,
+	display = "Can be used to obtain one of the following Gear Skin Boxes.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 99998,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			30544,
+			1
+		},
+		{
+			2,
+			30545,
+			1
+		},
+		{
+			2,
+			30550,
+			1
+		},
+		{
+			2,
+			30552,
+			1
+		},
+		{
+			2,
+			30555,
+			1
+		},
+		{
+			2,
+			30558,
+			1
+		},
+		{
+			2,
+			30559,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			30544,
+			1
+		},
+		{
+			2,
+			30545,
+			1
+		},
+		{
+			2,
+			30550,
+			1
+		},
+		{
+			2,
+			30552,
+			1
+		},
+		{
+			2,
+			30555,
+			1
+		},
+		{
+			2,
+			30558,
+			1
+		},
+		{
+			2,
+			30559,
+			1
+		}
+	},
 	limit = {}
 }
 

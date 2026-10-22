@@ -32,7 +32,8 @@ pg.soundstory_template.all = {
 	27,
 	28,
 	29,
-	30
+	30,
+	31
 }
 pg.base = pg.base or {}
 pg.base.soundstory_template = {}
@@ -184,6 +185,7 @@ pg.base.soundstory_template = {}
 		overview = "Hammann tries to play a prank on you, only for it to backfire in your favor.",
 		order = 2,
 		audition_text = "Anyway, that dummy sure is taking long... How long am I gonna have to wait here?",
+		time = "always",
 		ship_id = 10125,
 		id = 6,
 		captions_color = "#763d1f",
@@ -197,33 +199,6 @@ pg.base.soundstory_template = {}
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					11,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.soundstory_template[7] = {
@@ -600,9 +575,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2025,
-					11,
-					13
+					2026,
+					10,
+					22
 				},
 				{
 					0,
@@ -612,9 +587,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2025,
-					12,
-					3
+					2026,
+					10,
+					28
 				},
 				{
 					23,
@@ -1437,6 +1412,59 @@ pg.base.soundstory_template = {}
 					2026,
 					8,
 					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.soundstory_template[31] = {
+		story_pic = "",
+		name = "Personal Fortune-Telling Session",
+		story_resource_JP = "soundStory31_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Minase Suzuka",
+		audition_resource_JP = "ss-960019-1",
+		overview = "Selimiye's promised personal fortune-telling session has arrived.\nUsing her crystal ball, she will see through every last bit of your heart...",
+		order = 2,
+		audition_text = "Picture me, feel my presence, and then... reveal that sensation into my crystal ball.",
+		ship_id = 960019,
+		id = 31,
+		captions_color = "#2c2952",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					28
 				},
 				{
 					23,

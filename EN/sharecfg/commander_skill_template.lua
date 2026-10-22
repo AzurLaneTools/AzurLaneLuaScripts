@@ -104,7 +104,13 @@ pg.commander_skill_template.all = {
 	960063,
 	960071,
 	960072,
-	960073
+	960073,
+	960081,
+	960082,
+	960083,
+	960091,
+	960092,
+	960093
 }
 pg.base = pg.base or {}
 pg.base.commander_skill_template = {}
@@ -2093,6 +2099,138 @@ end)()
 			99600711,
 			9600712,
 			9600713
+		}
+	}
+	pg.base.commander_skill_template[960081] = {
+		name = "Swift and Brave",
+		desc_world = "When assigned: increases the EVA of that fleet's CLs, DDs, and IXVs by a moderate amount based on the Logistics stat.",
+		next_id = 960082,
+		exp = 0,
+		prev_id = 0,
+		desc = "When assigned: increases the EVA of that fleet's CLs, DDs, and IXVs by a moderate amount based on the Logistics stat.",
+		id = 960081,
+		icon = "96008",
+		lv = 1,
+		effect_tactic = {
+			9600811,
+			9600812,
+			9600813,
+			9600814
+		},
+		effect_tactic_world = {
+			9600811,
+			9600812,
+			9600813,
+			9600814
+		}
+	}
+	pg.base.commander_skill_template[960082] = {
+		name = "Swift and Brave",
+		desc_world = "When assigned: increases the ACC of that fleet's CLs, DDs, and IXVs by a moderate amount based on the Directives stat.",
+		next_id = 960083,
+		exp = 0,
+		prev_id = 960081,
+		desc = "When assigned: increases the ACC of that fleet's CLs, DDs, and IXVs by a moderate amount based on the Directives stat.",
+		id = 960082,
+		icon = "96008",
+		lv = 1,
+		effect_tactic = {
+			9600811,
+			9600812,
+			9600813,
+			9600814
+		},
+		effect_tactic_world = {
+			9600811,
+			9600812,
+			9600813,
+			9600814
+		}
+	}
+	pg.base.commander_skill_template[960083] = {
+		name = "Swift and Brave",
+		desc_world = "When assigned to a fleet that has an IX, or if the Vanguard consists of only 1 ship: reduces the Vanguard fleet's DMG taken based on the Logistics stat.",
+		next_id = 0,
+		exp = 0,
+		prev_id = 960082,
+		desc = "When assigned to a fleet that has an IX, or if the Vanguard consists of only 1 ship: reduces the Vanguard fleet's DMG taken based on the Logistics stat.",
+		id = 960083,
+		icon = "96008",
+		lv = 1,
+		effect_tactic = {
+			9600811,
+			9600812,
+			9600813,
+			9600814
+		},
+		effect_tactic_world = {
+			9600811,
+			9600812,
+			9600813,
+			9600814
+		}
+	}
+	pg.base.commander_skill_template[960091] = {
+		name = "Heed the Prophecy",
+		desc_world = "When assigned to a fleet that has an IX: fires a special barrage at the start of battle.",
+		next_id = 960092,
+		exp = 0,
+		prev_id = 0,
+		desc = "When assigned to a fleet that has an IX: fires a special barrage at the start of battle.",
+		id = 960091,
+		icon = "96009",
+		lv = 1,
+		effect_tactic = {
+			9600911,
+			9600912,
+			9600913
+		},
+		effect_tactic_world = {
+			9600911,
+			9600912,
+			9600913
+		}
+	}
+	pg.base.commander_skill_template[960092] = {
+		name = "Heed the Prophecy",
+		desc_world = "When assigned as the Command Cat: increases the FP of that fleet's Vanguard by a small amount based on the Directives stat.",
+		next_id = 960093,
+		exp = 0,
+		prev_id = 960091,
+		desc = "When assigned as the Command Cat: increases the FP of that fleet's Vanguard by a small amount based on the Directives stat.",
+		id = 960092,
+		icon = "96009",
+		lv = 1,
+		effect_tactic = {
+			9600911,
+			9600912,
+			9600913
+		},
+		effect_tactic_world = {
+			9600911,
+			9600912,
+			9600913
+		}
+	}
+	pg.base.commander_skill_template[960093] = {
+		name = "Heed the Prophecy",
+		desc_world = "When assigned as the Command Cat: increases the ACC of that fleet's IXs by a small amount based on the Directives stat.",
+		next_id = 0,
+		exp = 0,
+		prev_id = 960092,
+		desc = "When assigned as the Command Cat: increases the ACC of that fleet's IXs by a small amount based on the Directives stat.",
+		id = 960093,
+		icon = "96009",
+		lv = 1,
+		effect_tactic = {
+			9600911,
+			9600912,
+			9600913
+		},
+		effect_tactic_world = {
+			9600911,
+			9600912,
+			9600913
 		}
 	}
 end)()

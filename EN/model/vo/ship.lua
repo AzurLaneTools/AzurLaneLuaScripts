@@ -767,6 +767,10 @@ slot0.isBluePrintShip = function(slot0)
 	return slot0.bluePrintFlag
 end
 
+slot0.isLightSkin = function(slot0, slot1)
+	return ShipSkin.IsLightSkin(slot0:getPhantomSkin(slot1 or 0))
+end
+
 slot0.getSkinId = function(slot0, slot1)
 	slot2 = slot0:getPhantomSkin(slot1 or 0)
 

@@ -90,19 +90,23 @@ slot0.GetId = function(slot0)
 end
 
 slot0.GetRes = function(slot0)
+	if slot0.resId == 0 then
+		return nil
+	end
+
 	if ({
 		[ActivityConst.ACTIVITY_TYPE_PT_BUFF] = true,
 		[ActivityConst.ACTIVITY_TYPE_PT_BUFF_MARK2] = true
 	})[slot0.activity:getConfig("type")] and (slot0.type == 8 or slot0.type == 9) then
-		return {
+		return Drop.New({
 			type = DROP_TYPE_VITEM,
 			id = slot0.resId
-		}
+		})
 	else
-		return {
+		return Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = slot0.resId
-		}
+		})
 	end
 end
 

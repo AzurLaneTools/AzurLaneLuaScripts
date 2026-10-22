@@ -2047,6 +2047,7 @@ pg.skill_data_display.all = {
 	152716,
 	152732,
 	152741,
+	152771,
 	152800,
 	152801,
 	152810,
@@ -2054,6 +2055,22 @@ pg.skill_data_display.all = {
 	152841,
 	152851,
 	152861,
+	152891,
+	152901,
+	152922,
+	152931,
+	152963,
+	152971,
+	152972,
+	152983,
+	153051,
+	153011,
+	153021,
+	153022,
+	153023,
+	153031,
+	153032,
+	153033,
 	18010,
 	18040,
 	18041,
@@ -2749,8 +2766,12 @@ pg.skill_data_display.all = {
 	30583,
 	30671,
 	30672,
+	30711,
+	30712,
 	30721,
 	30722,
+	30741,
+	30742,
 	39000,
 	39001,
 	39002,
@@ -12433,6 +12454,10 @@ end)()
 		id = 152741,
 		name = "Orchestra of the Stars"
 	}
+	pg.base.skill_data_display[152771] = {
+		id = 152771,
+		name = "Broken Bow"
+	}
 	pg.base.skill_data_display[152800] = {
 		id = 152800,
 		name = "Burst of Light"
@@ -12460,6 +12485,70 @@ end)()
 	pg.base.skill_data_display[152861] = {
 		id = 152861,
 		name = "Wash Away the Old, Usher in the New"
+	}
+	pg.base.skill_data_display[152891] = {
+		id = 152891,
+		name = "Plumes of Retribution"
+	}
+	pg.base.skill_data_display[152901] = {
+		id = 152901,
+		name = "Plumes of Retribution+"
+	}
+	pg.base.skill_data_display[152922] = {
+		id = 152922,
+		name = "The Iron Ram's Charge"
+	}
+	pg.base.skill_data_display[152931] = {
+		id = 152931,
+		name = "The Wavebreaking Longship+"
+	}
+	pg.base.skill_data_display[152963] = {
+		id = 152963,
+		name = "Mercurial Path"
+	}
+	pg.base.skill_data_display[152971] = {
+		id = 152971,
+		name = "The Miracle Named Merkuriy"
+	}
+	pg.base.skill_data_display[152972] = {
+		id = 152972,
+		name = "The Miracle Named Merkuriy"
+	}
+	pg.base.skill_data_display[152983] = {
+		id = 152983,
+		name = "Lodestar of the Mercurial Path+"
+	}
+	pg.base.skill_data_display[153051] = {
+		id = 153051,
+		name = "By Mercury's Name"
+	}
+	pg.base.skill_data_display[153011] = {
+		id = 153011,
+		name = "Superheavy Firepower Network"
+	}
+	pg.base.skill_data_display[153021] = {
+		id = 153021,
+		name = "Selimiye's Siege"
+	}
+	pg.base.skill_data_display[153022] = {
+		id = 153022,
+		name = "Selimiye's Siege"
+	}
+	pg.base.skill_data_display[153023] = {
+		id = 153023,
+		name = "Selimiye's Siege"
+	}
+	pg.base.skill_data_display[153031] = {
+		id = 153031,
+		name = "Superheavy Firepower Network+"
+	}
+	pg.base.skill_data_display[153032] = {
+		id = 153032,
+		name = "Superheavy Firepower Network+"
+	}
+	pg.base.skill_data_display[153033] = {
+		id = 153033,
+		name = "Superheavy Firepower Network+"
 	}
 	pg.base.skill_data_display[18010] = {
 		id = 18010,
@@ -12593,6 +12682,8 @@ end)()
 		id = 18301,
 		name = "Flintlock Burst+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[18320] = {
 		id = 18320,
 		name = "Ausgewogen+"
@@ -12661,8 +12752,6 @@ end)()
 		id = 18490,
 		name = "Legendary Voyage"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[18491] = {
 		id = 18491,
 		name = "Legendary Voyage"
@@ -12995,6 +13084,8 @@ end)()
 		id = 19312,
 		name = "Retaliatory Shield "
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19320] = {
 		id = 19320,
 		name = "Ausgewogen "
@@ -13063,8 +13154,6 @@ end)()
 		id = 19392,
 		name = "Flame-Anointed Conquest"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19393] = {
 		id = 19393,
 		name = "Flame-Anointed Conquest"
@@ -13397,6 +13486,8 @@ end)()
 		id = 19721,
 		name = "Doombringer's Euphoria"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[19722] = {
 		id = 19722,
 		name = "Doombringer's Euphoria"
@@ -13465,8 +13556,6 @@ end)()
 		id = 19800,
 		name = "Pedigree of Perfection"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[19801] = {
 		id = 19801,
 		name = "Pedigree of Perfection"
@@ -13799,6 +13888,8 @@ end)()
 		id = 21092,
 		name = "All Out Assault Ⅱ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[21111] = {
 		id = 21111,
 		name = "All Out Assault Ⅰ"
@@ -13867,8 +13958,6 @@ end)()
 		id = 21221,
 		name = "All Out Assault Ⅰ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[21222] = {
 		id = 21222,
 		name = "All Out Assault Ⅱ"
@@ -14201,6 +14290,8 @@ end)()
 		id = 24011,
 		name = "All Out Assault Ⅰ"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[24012] = {
 		id = 24012,
 		name = "All Out Assault Ⅱ"
@@ -14269,8 +14360,6 @@ end)()
 		id = 24112,
 		name = "All Out Assault Ⅱ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[24113] = {
 		id = 24113,
 		name = "All Out Assault III"
@@ -14603,6 +14692,8 @@ end)()
 		id = 29214,
 		name = "EX Barrage: Z46 II"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[29221] = {
 		id = 29221,
 		name = "EX Barrage: {namecode:152} Ⅰ"
@@ -14671,8 +14762,6 @@ end)()
 		id = 29321,
 		name = "All Out Assault Ⅰ"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[29322] = {
 		id = 29322,
 		name = "All Out Assault Ⅱ"
@@ -15005,6 +15094,8 @@ end)()
 		id = 30023,
 		name = "All Out Assault II+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[30043] = {
 		id = 30043,
 		name = "All Out Assault I"
@@ -15073,8 +15164,6 @@ end)()
 		id = 30203,
 		name = "Cute Firepower Boost!"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[30221] = {
 		id = 30221,
 		name = "All Out Assault - Prinz Eugen μ"
@@ -15255,6 +15344,14 @@ end)()
 		id = 30672,
 		name = "All Out Assault II"
 	}
+	pg.base.skill_data_display[30711] = {
+		id = 30711,
+		name = "All Out Assault I"
+	}
+	pg.base.skill_data_display[30712] = {
+		id = 30712,
+		name = "All Out Assault II"
+	}
 	pg.base.skill_data_display[30721] = {
 		id = 30721,
 		name = "All Out Assault - I-14 I"
@@ -15262,6 +15359,14 @@ end)()
 	pg.base.skill_data_display[30722] = {
 		id = 30722,
 		name = "All Out Assault - I-14 II"
+	}
+	pg.base.skill_data_display[30741] = {
+		id = 30741,
+		name = "All Out Assault I"
+	}
+	pg.base.skill_data_display[30742] = {
+		id = 30742,
+		name = "All Out Assault II"
 	}
 	pg.base.skill_data_display[39000] = {
 		id = 39000,
@@ -15391,6 +15496,8 @@ end)()
 		id = 101090,
 		name = "Lacy Dance"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[101100] = {
 		id = 101100,
 		name = "Tänzerin Trombe"
@@ -15475,8 +15582,6 @@ end)()
 		id = 104070,
 		name = "Super AIming Adjustments"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[104071] = {
 		id = 104071,
 		name = "Super AIming Adjustments"
@@ -15793,6 +15898,8 @@ end)()
 		id = 106261,
 		name = "Venus' Unpredictability+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[106280] = {
 		id = 106280,
 		name = "Hanakagura+"
@@ -15877,8 +15984,6 @@ end)()
 		id = 106391,
 		name = "Foxy Cosplay+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[106393] = {
 		id = 106393,
 		name = "Foxy Cosplay+"
@@ -16195,6 +16300,8 @@ end)()
 		id = 108061,
 		name = "Ever-Burning Flame"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[108070] = {
 		id = 108070,
 		name = "Calibur End"
@@ -16279,8 +16386,6 @@ end)()
 		id = 108252,
 		name = "Something Beam+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[108280] = {
 		id = 108280,
 		name = "Sounderous Full Blast+"
@@ -16597,6 +16702,8 @@ end)()
 		id = 110033,
 		name = "Followup - Hanzō-Style Full Bloom"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[110034] = {
 		id = 110034,
 		name = "Followup - Hanzō-Style Full Bloom"
@@ -16681,8 +16788,6 @@ end)()
 		id = 110172,
 		name = "Root of Calamity's Wrath"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[110174] = {
 		id = 110174,
 		name = "Root of Calamity Storm"
@@ -16999,6 +17104,8 @@ end)()
 		id = 112203,
 		name = "Throwing Dagger Gained"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[112204] = {
 		id = 112204,
 		name = "Throwing Dagger Gained"
@@ -17083,8 +17190,6 @@ end)()
 		id = 114111,
 		name = "Luvia"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[114118] = {
 		id = 114118,
 		name = "Luminous Wind"
@@ -17401,6 +17506,8 @@ end)()
 		id = 190152,
 		name = "Ruby's Refrain of Restoration"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200026] = {
 		id = 200026,
 		name = "Paralyzing Advance "
@@ -17485,8 +17592,6 @@ end)()
 		id = 600080,
 		name = "Blinding Burst"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[600084] = {
 		id = 600084,
 		name = "Surefire Shot"
@@ -17803,6 +17908,8 @@ end)()
 		id = 800205,
 		name = "Ashen Might - Fusou"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800207] = {
 		id = 800207,
 		name = "Ashen Might - Fusou"
@@ -17887,8 +17994,6 @@ end)()
 		id = 800335,
 		name = "Ashen Might – JunyouI"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[800337] = {
 		id = 800337,
 		name = "Ashen Might – JunyouII"
@@ -18205,6 +18310,8 @@ end)()
 		id = 800781,
 		name = "Beyond the Lost Vales"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[800790] = {
 		id = 800790,
 		name = "Free-Spirited Parzival"
@@ -18289,8 +18396,6 @@ end)()
 		id = 800991,
 		name = "Descend Upon a Nightmare"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[801000] = {
 		id = 801000,
 		name = "Fade into Darkness"
@@ -18607,6 +18712,8 @@ end)()
 		id = 801745,
 		name = "Cinders of Hope - Grenville I"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[801747] = {
 		id = 801747,
 		name = "Cinders of Hope - Grenville II"
@@ -18691,8 +18798,6 @@ end)()
 		id = 802031,
 		name = "Aero Barricade"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[802032] = {
 		id = 802032,
 		name = "Aero Barricade"
@@ -19009,6 +19114,8 @@ end)()
 		id = 1011873,
 		name = "Divine Marksman (R)+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1011874] = {
 		id = 1011874,
 		name = "Divine Marksman (R)+"
@@ -19093,8 +19200,6 @@ end)()
 		id = 200159,
 		name = "占坑损管LV1"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200161] = {
 		id = 200161,
 		name = "占坑损管LV2"
@@ -19411,6 +19516,8 @@ end)()
 		id = 200785,
 		name = "Experimental Bomber Support"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[200791] = {
 		id = 200791,
 		name = "Rodney's Demise"
@@ -19495,8 +19602,6 @@ end)()
 		id = 200858,
 		name = "Blessing of Fire and Purity"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[200866] = {
 		id = 200866,
 		name = "Blessing of Unity and Toughness"
@@ -19813,6 +19918,8 @@ end)()
 		id = 201496,
 		name = "Cannon Volley"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[201497] = {
 		id = 201497,
 		name = "Torpedo Barrage"
@@ -19897,8 +20004,6 @@ end)()
 		id = 201688,
 		name = "VII=XIV Linkage"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[201689] = {
 		id = 201689,
 		name = "Target Down"
@@ -20215,6 +20320,8 @@ end)()
 		id = 1011942,
 		name = "Observer of the Sky and Sea+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1012160] = {
 		id = 1012160,
 		name = "The Glory of the Never-Setting Sun+"
@@ -20299,8 +20406,6 @@ end)()
 		id = 1012322,
 		name = "Poisonous Sting+"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012323] = {
 		id = 1012323,
 		name = "Poisonous Sting+"
@@ -20617,6 +20722,8 @@ end)()
 		id = 1014660,
 		name = "Strike Orders Received!+"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1014661] = {
 		id = 1014661,
 		name = "Strike Orders Received!+"
@@ -20701,8 +20808,6 @@ end)()
 		id = 1012913,
 		name = "Undying Demon"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1012914] = {
 		id = 1012914,
 		name = "Phoenix's Plumage!"
@@ -21019,6 +21124,8 @@ end)()
 		id = 1090390,
 		name = "Anti-Air Mode - Columbia"
 	}
+end)()
+(function ()
 	pg.base.skill_data_display[1090391] = {
 		id = 1090391,
 		name = "Anti-Air Mode - Columbia"
@@ -21103,8 +21210,6 @@ end)()
 		id = 1090453,
 		name = "Target Designator: Torpedo - Matchless"
 	}
-end)()
-(function ()
 	pg.base.skill_data_display[1090462] = {
 		id = 1090462,
 		name = "Artillery Command: Grenville"

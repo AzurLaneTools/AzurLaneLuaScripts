@@ -136,7 +136,8 @@ pg.medal_template.all = {
 	200201,
 	200211,
 	200221,
-	200231
+	200231,
+	200241
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -3072,6 +3073,27 @@ A medal based on the Anchorage National Observatory.
 		rank = 1,
 		id = 200231,
 		explain1 = "\"A Slightly Paranormal State of Affairs\"",
+		explain2 = "Event"
+	}
+	pg.base.medal_template[200241] = {
+		target_id = "51611",
+		name = "Corridor of Fog Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "On the day the stars inverted, you braved the Corridor of Fog to save the imperiled Fogbound Observatory, achieving yet another great victory. \"But, beware. Seek not the answers of days gone by in the reflections of the stars.\"",
+		next = 0,
+		icon = "9241",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9241",
+		condition = "Collect 8 stickers in Tempesta and the Corridor of Fog.",
+		rank = 1,
+		id = 200241,
+		explain1 = "Tempesta and the Corridor of Fog",
 		explain2 = "Event"
 	}
 end)()

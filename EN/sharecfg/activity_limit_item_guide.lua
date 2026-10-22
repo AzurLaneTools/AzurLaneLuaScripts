@@ -211,7 +211,37 @@ pg.activity_limit_item_guide.all = {
 	237,
 	238,
 	239,
-	240
+	240,
+	251,
+	252,
+	253,
+	254,
+	255,
+	256,
+	257,
+	258,
+	259,
+	260,
+	261,
+	262,
+	263,
+	264,
+	265,
+	266,
+	267,
+	268,
+	269,
+	270,
+	271,
+	272,
+	273,
+	274,
+	275,
+	276,
+	277,
+	278,
+	279,
+	280
 }
 pg.activity_limit_item_guide.get_id_list_by_activity = {
 	[4937] = {
@@ -448,6 +478,38 @@ pg.activity_limit_item_guide.get_id_list_by_activity = {
 		235,
 		236,
 		237
+	},
+	[51615] = {
+		251,
+		252,
+		253,
+		254,
+		255,
+		256,
+		257,
+		258,
+		259,
+		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
+		268,
+		269,
+		270,
+		271,
+		272,
+		273,
+		274,
+		275,
+		276,
+		277,
+		278,
+		279,
+		280
 	}
 }
 pg.base = pg.base or {}
@@ -4411,6 +4473,620 @@ end)()
 					"REVERSE_PACMAN_SELECT"
 				},
 				"A Slightly Paranormal State of Affairs event reward"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[251] = {
+		is_new = 1,
+		activity = 51615,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 251,
+		drop_id = 9600171,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"Limited Construction"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[252] = {
+		is_new = 1,
+		activity = 51615,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 252,
+		drop_id = 9600181,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						warp = "activity"
+					}
+				},
+				"Event Exchange"
+			},
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"Limited Construction"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[253] = {
+		is_new = 1,
+		activity = 51615,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 253,
+		drop_id = 9600191,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"Limited Construction"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[254] = {
+		is_new = 1,
+		activity = 51615,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 254,
+		drop_id = 9600201,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene get boat",
+					{
+						projectName = "new",
+						page = 1
+					}
+				},
+				"Limited Construction"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[255] = {
+		is_new = 1,
+		activity = 51615,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 255,
+		drop_id = 9600211,
+		count_storage = 1,
+		link_params = {
+			{
+				3,
+				51607,
+				"Tempesta and the Corridor of Fog - Foggy Supply Station event reward"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[256] = {
+		is_new = 1,
+		activity = 51615,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 256,
+		drop_id = 351,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene level"
+				},
+				"Tempesta and the Corridor of Fog T6 clear reward"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[257] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 257,
+		drop_id = 4456,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[258] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 258,
+		drop_id = 4457,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[259] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 259,
+		drop_id = 4458,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[260] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 260,
+		drop_id = 4459,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[261] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 261,
+		drop_id = 4460,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[262] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 262,
+		drop_id = 4461,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[263] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 263,
+		drop_id = 4462,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[264] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 264,
+		drop_id = 4463,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[265] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 265,
+		drop_id = 4464,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[266] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 266,
+		drop_id = 4465,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[267] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 267,
+		drop_id = 4466,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[268] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 268,
+		drop_id = 4467,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[269] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 269,
+		drop_id = 4468,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[270] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 270,
+		drop_id = 4469,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[271] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 271,
+		drop_id = 4470,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[272] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 272,
+		drop_id = 4471,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[273] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 273,
+		drop_id = 4472,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[274] = {
+		is_new = 1,
+		activity = 51615,
+		count = 0,
+		type = 9,
+		order = 0,
+		id = 274,
+		drop_id = 4473,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop"
+				},
+				"Event Exchange"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[275] = {
+		is_new = 1,
+		activity = 51615,
+		count = 1,
+		type = 1,
+		order = 0,
+		id = 275,
+		drop_id = 767,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"Tempesta and the Corridor of Fog event mission reward"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[276] = {
+		is_new = 1,
+		activity = 51615,
+		count = 2,
+		type = 3,
+		order = 0,
+		id = 276,
+		drop_id = 151300,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 51608,
+						warp = 1
+					}
+				},
+				"Exchange in the shop"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[277] = {
+		is_new = 1,
+		activity = 51615,
+		count = 2,
+		type = 3,
+		order = 0,
+		id = 277,
+		drop_id = 151280,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 51608,
+						warp = 1
+					}
+				},
+				"Exchange in the shop"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[278] = {
+		is_new = 0,
+		activity = 51615,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 278,
+		drop_id = 150080,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 51608,
+						warp = 1
+					}
+				},
+				"Exchange in the shop"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[279] = {
+		is_new = 1,
+		activity = 51615,
+		count = 1,
+		type = 25,
+		order = 0,
+		id = 279,
+		drop_id = 960081,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 51608,
+						warp = 1
+					}
+				},
+				"Exchange in the shop"
+			}
+		}
+	}
+	pg.base.activity_limit_item_guide[280] = {
+		is_new = 1,
+		activity = 51615,
+		count = 1,
+		type = 25,
+		order = 0,
+		id = 280,
+		drop_id = 960091,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 51608,
+						warp = 1
+					}
+				},
+				"Exchange in the shop"
 			}
 		}
 	}

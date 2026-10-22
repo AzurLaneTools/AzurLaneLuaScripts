@@ -1937,7 +1937,7 @@ end)()
 	}
 	pg.base.gameset.skin_ticket = {
 		description = "",
-		key_value = 766
+		key_value = 770
 	}
 	pg.base.gameset.order_pt_max = {
 		key_value = 0,
@@ -4799,7 +4799,7 @@ end)()
 	pg.base.gameset.profile_cv1_button_block = {
 		key_value = 0,
 		description = {
-			20403
+			204035
 		}
 	}
 	pg.base.gameset.world_auto_battle_map_limit = {

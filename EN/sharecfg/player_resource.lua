@@ -572,7 +572,13 @@ pg.player_resource.all = {
 	756,
 	757,
 	758,
+	771,
+	772,
+	769,
+	770,
 	759,
+	767,
+	768,
 	777,
 	778,
 	760,
@@ -887,6 +893,9 @@ pg.player_resource.get_id_list_by_name = {
 	activity_xunzhang24 = {
 		759
 	},
+	activity_xunzhang25 = {
+		767
+	},
 	activity_xunzhang3 = {
 		477
 	},
@@ -1184,6 +1193,9 @@ pg.player_resource.get_id_list_by_name = {
 	fengfanv3_pt = {
 		577
 	},
+	fengfanv4_pt = {
+		768
+	},
 	freeGem = {
 		14
 	},
@@ -1396,6 +1408,15 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	limit_skinticket123 = {
 		765
+	},
+	limit_skinticket124 = {
+		771
+	},
+	limit_skinticket125 = {
+		772
+	},
+	limit_skinticket126 = {
+		769
 	},
 	limit_skinticket13 = {
 		472
@@ -2008,6 +2029,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	skinTicket126 = {
 		766
+	},
+	skinTicket127 = {
+		770
 	},
 	skinTicket13 = {
 		184
@@ -5685,10 +5709,40 @@ end)()
 		name = "activity_xunzhang23",
 		itemid = 66094
 	}
+	pg.base.player_resource[771] = {
+		id = 771,
+		name = "limit_skinticket124",
+		itemid = 68382
+	}
+	pg.base.player_resource[772] = {
+		id = 772,
+		name = "limit_skinticket125",
+		itemid = 68383
+	}
+	pg.base.player_resource[769] = {
+		id = 769,
+		name = "limit_skinticket126",
+		itemid = 68384
+	}
+	pg.base.player_resource[770] = {
+		id = 770,
+		name = "skinTicket127",
+		itemid = 67003
+	}
 	pg.base.player_resource[759] = {
 		id = 759,
 		name = "activity_xunzhang24",
 		itemid = 66103
+	}
+	pg.base.player_resource[767] = {
+		id = 767,
+		name = "activity_xunzhang25",
+		itemid = 66113
+	}
+	pg.base.player_resource[768] = {
+		id = 768,
+		name = "fengfanv4_pt",
+		itemid = 66111
 	}
 	pg.base.player_resource[777] = {
 		id = 777,
@@ -5810,6 +5864,8 @@ end)()
 		name = "contribution_worldboss127",
 		itemid = 59265
 	}
+end)()
+(function ()
 	pg.base.player_resource[2011] = {
 		id = 2011,
 		name = "worldboss127_ticket",
@@ -5840,8 +5896,6 @@ end)()
 		name = "contribution_worldboss118",
 		itemid = 59380
 	}
-end)()
-(function ()
 	pg.base.player_resource[2017] = {
 		id = 2017,
 		name = "worldboss118_ticket",
@@ -6312,6 +6366,8 @@ end)()
 		name = "skinTicket40713",
 		itemid = 80010
 	}
+end)()
+(function ()
 	pg.base.player_resource[40730] = {
 		id = 40730,
 		name = "skinTicket40730",
@@ -6342,8 +6398,6 @@ end)()
 		name = "tw_2022wanshengjie",
 		itemid = 80031
 	}
-end)()
-(function ()
 	pg.base.player_resource[40934] = {
 		id = 40934,
 		name = "skinTicket40934",

@@ -18,6 +18,7 @@ slot0.WITH_CHANGE = 8
 slot0.WITH_LIVE2D_PLUS = 9
 slot0.WITH_DOUBLE_VIOCE = 10
 slot0.WITH_ASMR = 11
+slot0.WITH_LIGHT = 12
 slot0.VOICE_LANG_JP = 1
 slot0.VOICE_LANG_CN = 2
 
@@ -34,7 +35,8 @@ slot0.Tag2Name = function(slot0)
 			[uv0.WITH_CHANGE] = "change",
 			[uv0.WITH_LIVE2D_PLUS] = "live2d_plus",
 			[uv0.WITH_DOUBLE_VIOCE] = "double_voice",
-			[uv0.WITH_ASMR] = "asmr_skin"
+			[uv0.WITH_ASMR] = "asmr_skin",
+			[uv0.WITH_LIGHT] = "light_skin"
 		}
 	end
 
@@ -277,6 +279,10 @@ slot0.IsTransSkin = function(slot0)
 	return slot0:getConfig("skin_type") == uv0.SKIN_TYPE_REMAKE
 end
 
+slot0.LockCv1 = function(slot0)
+	return table.contains(pg.gameset.profile_cv1_button_block.description, slot0)
+end
+
 slot0.IsProposeSkin = function(slot0)
 	return slot0:getConfig("skin_type") == uv0.SKIN_TYPE_PROPOSE
 end
@@ -428,6 +434,10 @@ slot0.IsChangeSkin = function(slot0)
 		warning("skin not exist " .. slot0)
 	end
 
+	if type(slot1.tag) ~= "table" then
+		return false
+	end
+
 	return table.contains(slot1.tag, uv0.WITH_CHANGE) or table.contains(slot1.tag, uv0.WITH_DOUBLE_VIOCE) or table.contains(slot1.tag, uv0.WITH_ASMR)
 end
 
@@ -453,6 +463,14 @@ slot0.GetChangeSkinData = function(slot0)
 	end
 
 	return nil
+end
+
+slot0.IsLightSkin = function(slot0)
+	if not pg.ship_skin_template[slot0] then
+		warning("skin not exist " .. slot0)
+	end
+
+	return table.contains(slot1.tag, uv0.WITH_LIGHT)
 end
 
 slot0.IsSameChangeSkinGroup = function(slot0, slot1)

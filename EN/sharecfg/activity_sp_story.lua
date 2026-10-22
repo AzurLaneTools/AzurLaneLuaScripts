@@ -506,7 +506,33 @@ pg.activity_sp_story.all = {
 	547,
 	548,
 	549,
-	550
+	550,
+	551,
+	552,
+	553,
+	554,
+	555,
+	556,
+	557,
+	558,
+	559,
+	560,
+	561,
+	562,
+	563,
+	564,
+	565,
+	566,
+	567,
+	568,
+	569,
+	570,
+	571,
+	572,
+	573,
+	574,
+	575,
+	576
 }
 pg.base = pg.base or {}
 pg.base.activity_sp_story = {}
@@ -10939,6 +10965,519 @@ end)()
 			{
 				4,
 				549
+			}
+		}
+	}
+	pg.base.activity_sp_story[551] = {
+		story_type = 1,
+		pre_event = "",
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_524",
+		name = "EPS-1 Interstellar Guidance",
+		story = "JUFENGYUWUAIHUILANG1",
+		change_bgm = "theme-crownpolis",
+		id = 551,
+		lock = ""
+	}
+	pg.base.activity_sp_story[552] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS-1",
+		change_background = "star_level_bg_539",
+		name = "EP1-1 The Day the Stars Inverted",
+		story = "JUFENGYUWUAIHUILANG2",
+		change_bgm = "theme-tempest-up",
+		id = 552,
+		pre_event = {
+			551
+		},
+		lock = {
+			{
+				4,
+				551
+			}
+		}
+	}
+	pg.base.activity_sp_story[553] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-1",
+		change_background = "star_level_bg_504",
+		name = "EP1-2 On a Day Worth Celebrating",
+		story = "JUFENGYUWUAIHUILANG3",
+		change_bgm = "theme-tempest-light",
+		id = 553,
+		pre_event = {
+			552
+		},
+		lock = {
+			{
+				4,
+				552
+			}
+		}
+	}
+	pg.base.activity_sp_story[554] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-2",
+		change_background = "star_level_bg_504",
+		name = "EP1-3 In My Pajamas in Another World",
+		story = "JUFENGYUWUAIHUILANG4",
+		change_bgm = "theme-crownpolis",
+		id = 554,
+		pre_event = {
+			553
+		},
+		lock = {
+			{
+				4,
+				553
+			}
+		}
+	}
+	pg.base.activity_sp_story[555] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-3",
+		change_background = "star_level_bg_504",
+		name = "EP1-4 A Lady and Her Escort",
+		story = "JUFENGYUWUAIHUILANG5",
+		change_bgm = "battle-temepest-2",
+		id = 555,
+		pre_event = {
+			554
+		},
+		lock = {
+			{
+				4,
+				554
+			}
+		}
+	}
+	pg.base.activity_sp_story[556] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-4",
+		change_background = "star_level_bg_525",
+		name = "EP2-1 The Lost Fortune Teller",
+		story = "2078001",
+		change_bgm = "story-tempest-marching",
+		id = 556,
+		pre_event = {
+			555
+		},
+		lock = {
+			{
+				4,
+				555
+			}
+		}
+	}
+	pg.base.activity_sp_story[557] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-1",
+		change_background = "star_level_bg_528",
+		name = "EP2-2 Startrace Beacon",
+		story = "JUFENGYUWUAIHUILANG7",
+		change_bgm = "story-tempest-oldpast",
+		id = 557,
+		pre_event = {
+			556
+		},
+		lock = {
+			{
+				4,
+				556
+			}
+		}
+	}
+	pg.base.activity_sp_story[558] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-2",
+		change_background = "star_level_bg_598",
+		name = "EP2-3 Reflections of the Past",
+		story = "JUFENGYUWUAIHUILANG8",
+		change_bgm = "story-tempest-freedom",
+		id = 558,
+		pre_event = {
+			557
+		},
+		lock = {
+			{
+				4,
+				557
+			}
+		}
+	}
+	pg.base.activity_sp_story[559] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-3",
+		change_background = "bg_underwater",
+		name = "EP2-4 Lost Anne",
+		story = "JUFENGYUWUAIHUILANG9",
+		change_bgm = "story-tempest-oldpast",
+		id = 559,
+		pre_event = {
+			558
+		},
+		lock = {
+			{
+				4,
+				558
+			}
+		}
+	}
+	pg.base.activity_sp_story[560] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-4",
+		change_background = "bg_jufengv2_cg2",
+		name = "EP3-1 Reflections Resurface",
+		story = "JUFENGYUWUAIHUILANG10",
+		change_bgm = "story-fogsea-light",
+		id = 560,
+		pre_event = {
+			559
+		},
+		lock = {
+			{
+				4,
+				559
+			}
+		}
+	}
+	pg.base.activity_sp_story[561] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-1",
+		change_background = "star_level_bg_504",
+		name = "EP3-2 A Warning From the Observatory",
+		story = "JUFENGYUWUAIHUILANG11",
+		change_bgm = "theme-fogsea",
+		id = 561,
+		pre_event = {
+			560
+		},
+		lock = {
+			{
+				4,
+				560
+			}
+		}
+	}
+	pg.base.activity_sp_story[562] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-2",
+		change_background = "star_level_bg_598",
+		name = "EP3-3 The Sea Serpent",
+		story = "2078002",
+		change_bgm = "theme-fogsea",
+		id = 562,
+		pre_event = {
+			561
+		},
+		lock = {
+			{
+				4,
+				561
+			}
+		}
+	}
+	pg.base.activity_sp_story[563] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-3",
+		change_background = "bg_wuaihuilang_cg1",
+		name = "EP4-1 Detours",
+		story = "JUFENGYUWUAIHUILANG13",
+		change_bgm = "theme-tempest-light",
+		id = 563,
+		pre_event = {
+			562
+		},
+		lock = {
+			{
+				4,
+				562
+			}
+		}
+	}
+	pg.base.activity_sp_story[564] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-1",
+		change_background = "bg_wuaihuilang_cg2",
+		name = "EP4-2 What to Eat?",
+		story = "JUFENGYUWUAIHUILANG14",
+		change_bgm = "theme-amahara-core",
+		id = 564,
+		pre_event = {
+			563
+		},
+		lock = {
+			{
+				4,
+				563
+			}
+		}
+	}
+	pg.base.activity_sp_story[565] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-2",
+		change_background = "bg_wuaihuilang_1",
+		name = "EP4-3 Looking in Reverse",
+		story = "JUFENGYUWUAIHUILANG15",
+		change_bgm = "story-fogsea-light",
+		id = 565,
+		pre_event = {
+			564
+		},
+		lock = {
+			{
+				4,
+				564
+			}
+		}
+	}
+	pg.base.activity_sp_story[566] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-3",
+		change_background = "star_level_bg_525",
+		name = "EP4-4 Star-Sinking Abyss",
+		story = "2078003",
+		change_bgm = "theme-fogsea",
+		id = 566,
+		pre_event = {
+			565
+		},
+		lock = {
+			{
+				4,
+				565
+			}
+		}
+	}
+	pg.base.activity_sp_story[567] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-4",
+		change_background = "bg_wuaihuilang_cg2",
+		name = "EP4-5 Another Way",
+		story = "JUFENGYUWUAIHUILANG17",
+		change_bgm = "theme-amahara-core",
+		id = 567,
+		pre_event = {
+			566
+		},
+		lock = {
+			{
+				4,
+				566
+			}
+		}
+	}
+	pg.base.activity_sp_story[568] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-5",
+		change_background = "bg_wuaihuilang_cg3",
+		name = "EP5-1 The Guide's Dream",
+		story = "JUFENGYUWUAIHUILANG18",
+		change_bgm = "theme-crownpolis",
+		id = 568,
+		pre_event = {
+			567
+		},
+		lock = {
+			{
+				4,
+				567
+			}
+		}
+	}
+	pg.base.activity_sp_story[569] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-1",
+		change_background = "bg_wuaihuilang_2",
+		name = "EP5-2 Confrontation",
+		story = "2078004",
+		change_bgm = "theme-fogsea",
+		id = 569,
+		pre_event = {
+			568
+		},
+		lock = {
+			{
+				4,
+				568
+			}
+		}
+	}
+	pg.base.activity_sp_story[570] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-2",
+		change_background = "star_level_bg_524",
+		name = "EP6-1 The Church's Plans",
+		story = "JUFENGYUWUAIHUILANG20",
+		change_bgm = "theme-ganjisawai",
+		id = 570,
+		pre_event = {
+			569
+		},
+		lock = {
+			{
+				4,
+				569
+			}
+		}
+	}
+	pg.base.activity_sp_story[571] = {
+		story_type = 2,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP6-1",
+		change_background = "bg_wuaihuilang_3",
+		name = "EP6-2 The Final Obstacle",
+		story = "2078005",
+		change_bgm = "theme-tempest",
+		id = 571,
+		pre_event = {
+			570
+		},
+		lock = {
+			{
+				4,
+				570
+			}
+		}
+	}
+	pg.base.activity_sp_story[572] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP6-2",
+		change_background = "star_level_bg_598",
+		name = "EP6-3 A Happy Ending",
+		story = "JUFENGYUWUAIHUILANG22",
+		change_bgm = "story-tempest-light",
+		id = 572,
+		pre_event = {
+			571
+		},
+		lock = {
+			{
+				4,
+				571
+			}
+		}
+	}
+	pg.base.activity_sp_story[573] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EP6-3",
+		change_background = "star_level_bg_548",
+		name = "EX-1 For the World and Its Future",
+		story = "JUFENGYUWUAIHUILANG23",
+		change_bgm = "story-temepest-2",
+		id = 573,
+		pre_event = {
+			572
+		},
+		lock = {
+			{
+				4,
+				572
+			}
+		}
+	}
+	pg.base.activity_sp_story[574] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EX-1",
+		change_background = "star_level_bg_594",
+		name = "EX-2 Two Alike",
+		story = "JUFENGYUWUAIHUILANG24",
+		change_bgm = "theme-amahara-core",
+		id = 574,
+		pre_event = {
+			573
+		},
+		lock = {
+			{
+				4,
+				573
+			}
+		}
+	}
+	pg.base.activity_sp_story[575] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "",
+		unlock_conditions = "Clear EX-2",
+		change_background = "bg_tianqiong_3",
+		name = "EX-3 Merkuriy's Promise",
+		story = "JUFENGYUWUAIHUILANG25",
+		change_bgm = "theme-DOS",
+		id = 575,
+		pre_event = {
+			574
+		},
+		lock = {
+			{
+				4,
+				574
+			}
+		}
+	}
+	pg.base.activity_sp_story[576] = {
+		story_type = 1,
+		label_key = "",
+		change_prefab = "map_2070002",
+		unlock_conditions = "Clear EX-3",
+		change_background = "bg_wuaihuilang_2",
+		name = "EX-4 One Sixth of the Light",
+		story = "JUFENGYUWUAIHUILANG26",
+		change_bgm = "theme-fogsea",
+		id = 576,
+		pre_event = {
+			575
+		},
+		lock = {
+			{
+				4,
+				575
 			}
 		}
 	}

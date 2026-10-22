@@ -53,9 +53,9 @@ pg.base.chapter_suggestion_formation = {}
 			1303
 		},
 		teamid1 = {
-			1404,
-			1405,
-			1406
+			1304,
+			1305,
+			1306
 		}
 	}
 	pg.base.chapter_suggestion_formation[2] = {

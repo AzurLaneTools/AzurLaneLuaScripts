@@ -2044,4 +2044,24 @@ end)()
 		actor_name = "Shiori Kurosaki",
 		code = 525
 	}
+	pg.base.voice_actor_CN[526] = {
+		actor_name = "Shiki Asagi",
+		code = 526
+	}
+	pg.base.voice_actor_CN[527] = {
+		actor_name = "Hana Tamegai",
+		code = 527
+	}
+	pg.base.voice_actor_CN[528] = {
+		actor_name = "Minase Suzuka",
+		code = 528
+	}
+	pg.base.voice_actor_CN[529] = {
+		actor_name = "Nana Kawaishi",
+		code = 529
+	}
+	pg.base.voice_actor_CN[530] = {
+		actor_name = "Nana Mikitani",
+		code = 530
+	}
 end)()

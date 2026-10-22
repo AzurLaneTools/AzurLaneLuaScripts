@@ -4,6 +4,33 @@ slot0.getUIName = function(slot0)
 	return nil
 end
 
+slot0.getResource = function(slot0, slot1)
+	slot2 = {}
+
+	if slot0:IsImageTgName() then
+		slot3 = getProxy(ActivityProxy):getCorePanelActivities(slot0.contextData.coreName)
+
+		warning(PrintTable(slot3))
+
+		for slot7, slot8 in ipairs(slot3) do
+			slot9 = string.lower(slot8:getConfig("title_res_tag"))
+			slot13 = checkABExist("coreactivityuitable/" .. slot9 .. "_text_selected")
+
+			if checkABExist("coreactivityuitable/" .. slot9 .. "_text") then
+				table.insert(slot2, slot10)
+			end
+
+			if slot13 then
+				table.insert(slot2, slot11)
+			end
+		end
+	end
+
+	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+
+	return slot2
+end
+
 slot0.optionsPath = {
 	"adapt/top/btn_home"
 }

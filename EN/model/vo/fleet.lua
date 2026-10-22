@@ -925,7 +925,7 @@ slot0.ChangeToElite = function(slot0)
 		}
 	}
 
-	for slot6, slot7 in ipairs(slot0.commanderIds) do
+	for slot6, slot7 in pairs(slot0.commanderIds) do
 		slot2[TeamType.FormCommander][slot6] = slot7
 	end
 

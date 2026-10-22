@@ -81,6 +81,7 @@ slot4.DoAttack = function(slot0, slot1)
 		end
 	end
 
+	slot0._host:CloakExpose(slot0._tmpData.expose)
 	uv2.Battle.PlayBattleSFX(slot0._tmpData.fire_sfx)
 	slot0:TriggerBuffOnFire()
 	slot0:CheckAndShake()
