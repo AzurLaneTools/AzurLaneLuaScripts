@@ -8,7 +8,8 @@ slot0.GetBtns = function(slot0)
 		MainWordBtn.New(findTF(slot0._tf, "btns/word"), slot0.event),
 		MainChangeSkinBtn.New(findTF(slot0._tf, "btns/change"), slot0.event),
 		MainResetL2dBtn.New(findTF(slot0._tf, "btns/l2d"), slot0.event),
-		MainL2dBoundBtn.New(findTF(slot0._tf, "btns/l2d_bound"), slot0.event)
+		MainL2dBoundBtn.New(findTF(slot0._tf, "btns/l2d_bound"), slot0.event),
+		MainPaintingLiteBtn.New(findTF(slot0._tf, "btns/painting_lit"), slot0.event)
 	}
 end
 

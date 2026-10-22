@@ -136,7 +136,8 @@ pg.medal_template.all = {
 	200201,
 	200211,
 	200221,
-	200231
+	200231,
+	200241
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -3068,6 +3069,27 @@ end)()
 		rank = 1,
 		id = 200231,
 		explain1 = "「异常的日常进行中」",
+		explain2 = "活动纪念"
+	}
+	pg.base.medal_template[200241] = {
+		target_id = "51611",
+		name = "雾霭回廊纪念勋章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "你于群星倒转之日，穿越雾霭回廊，拯救了危在旦夕的雾海观星台——又一次伟大胜利。「只是，切记」「不要从星空的倒影中，寻找往昔的答案」",
+		next = 0,
+		icon = "9241",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9241",
+		condition = "收集8个「飓风与雾霭回廊」纪念贴纸。",
+		rank = 1,
+		id = 200241,
+		explain1 = "「飓风与雾霭回廊」",
 		explain2 = "活动纪念"
 	}
 end)()

@@ -149,9 +149,10 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	}):getName())
 	setText(slot2:Find("owner/number"), slot3.count .. "/" .. slot3.config.count)
 
-	GetOrAddComponent(slot2:Find("owner"), typeof(CanvasGroup)).alpha = slot3.count == slot3.config.count and 0.5 or 1
+	slot6 = slot3.count > 0 and slot3.config.count <= slot3.count
+	GetOrAddComponent(slot2:Find("owner"), typeof(CanvasGroup)).alpha = slot6 and 0.5 or 1
 
-	setActive(slot2:Find("got"), slot3.count == slot3.config.count)
+	setActive(slot2:Find("got"), slot6)
 	setActive(slot2:Find("new"), slot3.config.is_new == "1")
 end
 

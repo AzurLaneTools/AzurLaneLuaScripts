@@ -715,7 +715,15 @@ pg.activity_ins_ship_group_template.all = {
 	30120,
 	39908,
 	30139,
-	30602
+	30602,
+	960017,
+	960018,
+	960019,
+	960020,
+	960021,
+	20109,
+	10312,
+	20111
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_ship_group_template = {}
@@ -4676,7 +4684,7 @@ end)()
 		name = "São Martinho",
 		background = "",
 		sculpture = "shengmading",
-		nationality = 0,
+		nationality = 10,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4685,7 +4693,7 @@ end)()
 		name = "Royal Fortune",
 		background = "",
 		sculpture = "huangjiacaifu",
-		nationality = 0,
+		nationality = 10,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4694,7 +4702,7 @@ end)()
 		name = "Mary Celeste",
 		background = "",
 		sculpture = "mali",
-		nationality = 0,
+		nationality = 10,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -4757,7 +4765,7 @@ end)()
 		name = "Adventure Galley",
 		background = "",
 		sculpture = "jialimaoxian",
-		nationality = 0,
+		nationality = 10,
 		type = 1,
 		sculpture_ii = ""
 	}
@@ -7151,6 +7159,78 @@ end)()
 		background = "",
 		sculpture = "sunying",
 		nationality = 3,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[960017] = {
+		ship_group = 960017,
+		name = "Mercury",
+		background = "",
+		sculpture = "shuixinghao",
+		nationality = 10,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[960018] = {
+		ship_group = 960018,
+		name = "Jernbarden",
+		background = "",
+		sculpture = "tiejiaohao",
+		nationality = 10,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[960019] = {
+		ship_group = 960019,
+		name = "Selimiye",
+		background = "",
+		sculpture = "sailimiye",
+		nationality = 10,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[960020] = {
+		ship_group = 960020,
+		name = "Ormen Lange",
+		background = "",
+		sculpture = "changshehao",
+		nationality = 10,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[960021] = {
+		ship_group = 960021,
+		name = "Real bey",
+		background = "",
+		sculpture = "leiyierbei",
+		nationality = 10,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[20109] = {
+		ship_group = 20109,
+		name = "Crescent",
+		background = "",
+		sculpture = "xinyue",
+		nationality = 2,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[10312] = {
+		ship_group = 10312,
+		name = "New Orleans",
+		background = "",
+		sculpture = "xinaoerliang",
+		nationality = 1,
+		type = 1,
+		sculpture_ii = ""
+	}
+	pg.base.activity_ins_ship_group_template[20111] = {
+		ship_group = 20111,
+		name = "Foxhound",
+		background = "",
+		sculpture = "huti",
+		nationality = 2,
 		type = 1,
 		sculpture_ii = ""
 	}

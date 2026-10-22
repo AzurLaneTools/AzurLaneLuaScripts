@@ -1,0 +1,48 @@
+return {
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	desc_get = "",
+	name = "",
+	init_effect = "",
+	id = 153021,
+	time = 0,
+	picture = "",
+	desc = "",
+	stack = 1,
+	color = "",
+	icon = 153020,
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				skill_id = 153021,
+				time = 15,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				quota = 1,
+				time = 25,
+				target = "TargetSelf",
+				skill_id = 153022
+			}
+		}
+	}
+}

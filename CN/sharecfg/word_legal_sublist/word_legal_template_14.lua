@@ -26,6 +26,9 @@ temp = function()
 						}
 					}
 				}
+			},
+			["号"] = {
+				this = true
 			}
 		},
 		["濑"] = {

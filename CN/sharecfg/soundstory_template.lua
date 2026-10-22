@@ -32,7 +32,8 @@ pg.soundstory_template.all = {
 	27,
 	28,
 	29,
-	30
+	30,
+	31
 }
 pg.base = pg.base or {}
 pg.base.soundstory_template = {}
@@ -210,6 +211,7 @@ pg.base.soundstory_template = {}
 		overview = "想要恶作剧的少女，因为自己的笨拙反而送出了一份特殊的“礼物”。",
 		order = 2,
 		audition_text = "话说回来怎么指挥官还没来啊……到底要让哈曼等多久？",
+		time = "always",
 		ship_id = 10125,
 		id = 6,
 		captions_color = "#763d1f",
@@ -223,33 +225,6 @@ pg.base.soundstory_template = {}
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.soundstory_template[7] = {
@@ -626,9 +601,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2024,
-					7,
-					25
+					2026,
+					10,
+					22
 				},
 				{
 					12,
@@ -638,9 +613,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2024,
-					7,
-					31
+					2026,
+					10,
+					28
 				},
 				{
 					23,
@@ -1463,6 +1438,59 @@ pg.base.soundstory_template = {}
 					2026,
 					8,
 					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.soundstory_template[31] = {
+		story_pic = "",
+		name = "专属占卜时间",
+		story_resource_JP = "soundStory31_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "凉花水濑",
+		audition_resource_JP = "ss-960019-1",
+		overview = "今天是指挥官许诺留给塞利米耶号的“专属占卜时间”，\n塞利米耶将用自己的水晶球去探索指挥官心中的一切……",
+		order = 2,
+		audition_text = "想象我，感知我，然后将这种触感……投射到水晶球中……",
+		ship_id = 960019,
+		id = 31,
+		captions_color = "#2c2952",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					22
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					10,
+					28
 				},
 				{
 					23,

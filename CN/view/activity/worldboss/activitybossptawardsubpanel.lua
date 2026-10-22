@@ -49,7 +49,7 @@ slot0.UpdateView = function(slot0, slot1)
 	slot3 = slot1.targets
 	slot4 = slot1.level
 	slot5 = slot1.count
-	slot7 = Drop.New(slot1:GetRes()):getName()
+	slot7 = slot1:GetRes():getName()
 
 	if slot1.type == 2 then
 		slot0.cntTitle = i18n("pt_total_count", i18n("pt_cosume", slot7))

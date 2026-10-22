@@ -4,6 +4,16 @@ slot0.word_legal_template_16 = {}
 slot1 = slot0.word_legal_template_16
 
 temp = function()
+	uv0["久"] = {
+		["远"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["猫"] = {
 		["音"] = {
 			this = true

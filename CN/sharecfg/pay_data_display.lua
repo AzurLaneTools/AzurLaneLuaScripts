@@ -252,6 +252,13 @@ pg.pay_data_display.all = {
 	5015,
 	5016,
 	5017,
+	5021,
+	5022,
+	5023,
+	5024,
+	5025,
+	5026,
+	5027,
 	70001,
 	70002
 }
@@ -476,7 +483,14 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		5014,
 		5015,
 		5016,
-		5017
+		5017,
+		5021,
+		5022,
+		5023,
+		5024,
+		5025,
+		5026,
+		5027
 	},
 	[4] = {
 		1000,
@@ -26224,6 +26238,644 @@ end)()
 			{
 				2,
 				81416,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5021] = {
+		picture = "fengfanv4_day1",
+		name = "船团建设礼包I",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "船团建设礼包I",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 6,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		limit_group = 0,
+		id = 5021,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.libao218",
+		extra_gem = 0,
+		descrip = "购买礼包可获得钻石*60，高级定向蓝图·八期*2",
+		airijp_id = "com.yostarjp.azurlane.package218",
+		name_display = "船团建设礼包I",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81446,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5022] = {
+		picture = "fengfanv4_day2",
+		name = "船团建设礼包II",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "船团建设礼包II",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 6,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		limit_group = 0,
+		id = 5022,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.libao219",
+		extra_gem = 0,
+		descrip = "购买礼包可获得钻石*200",
+		airijp_id = "com.yostarjp.azurlane.package219",
+		name_display = "船团建设礼包II",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81447,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5023] = {
+		picture = "fengfanv4_day3",
+		name = "船团建设礼包III",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "船团建设礼包III",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 6,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		limit_group = 0,
+		id = 5023,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.libao220",
+		extra_gem = 0,
+		descrip = "购买礼包可获得定向部件T4*5，心智单元*200",
+		airijp_id = "com.yostarjp.azurlane.package220",
+		name_display = "船团建设礼包III",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				30114,
+				5
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				30114,
+				5
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81448,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5024] = {
+		picture = "fengfanv4_day4",
+		name = "船团建设礼包IV",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "船团建设礼包IV",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 6,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		limit_group = 0,
+		id = 5024,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.libao221",
+		extra_gem = 0,
+		descrip = "购买礼包可获得钻石*60，试作型布里MKII*1",
+		airijp_id = "com.yostarjp.azurlane.package221",
+		name_display = "船团建设礼包IV",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81449,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5025] = {
+		picture = "fengfanv4_day5",
+		name = "船团建设礼包V",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "船团建设礼包V",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 6,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		limit_group = 0,
+		id = 5025,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.libao222",
+		extra_gem = 0,
+		descrip = "购买礼包可获得舰艇演习数据T2*60",
+		airijp_id = "com.yostarjp.azurlane.package222",
+		name_display = "船团建设礼包V",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81450,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5026] = {
+		picture = "fengfanv4_day6",
+		name = "船团建设礼包VI",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "船团建设礼包VI",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 6,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		limit_group = 0,
+		id = 5026,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.libao223",
+		extra_gem = 0,
+		descrip = "购买礼包可获得心智魔方*10，快速完成工具*5",
+		airijp_id = "com.yostarjp.azurlane.package223",
+		name_display = "船团建设礼包VI",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81451,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5027] = {
+		picture = "fengfanv4_day7",
+		name = "船团建设礼包VII",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "船团建设礼包VII",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 6,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		limit_group = 0,
+		id = 5027,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "com.bilibili.blhx.libao224",
+		extra_gem = 0,
+		descrip = "购买礼包可获得钻石*60，高级定向蓝图·九期*2",
+		airijp_id = "com.yostarjp.azurlane.package224",
+		name_display = "船团建设礼包VII",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					10,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81452,
 				1
 			}
 		}

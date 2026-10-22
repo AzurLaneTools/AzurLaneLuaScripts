@@ -1,4 +1,6 @@
 slot0 = class("Activity", import(".BaseVO"))
+slot0.MAINTAIN = 0
+slot0.NATURAL_EXPIRE = 1
 slot1 = nil
 
 slot0.GetType2Class = function()
@@ -257,9 +259,14 @@ end
 
 slot0.readyToAchieve = function(slot0)
 	slot1, slot2 = slot0:IsShowTipById()
+	slot3 = slot0:IsShowTipByClient()
 
 	if slot1 then
 		return slot2
+	end
+
+	if slot3 then
+		return slot3
 	end
 
 	uv0.readyToAchieveDic = uv0.readyToAchieveDic or {
@@ -770,14 +777,16 @@ slot0.readyToAchieve = function(slot0)
 		end
 	}
 
-	if switch(slot0:getConfig("type"), uv0.readyToAchieveDic, nil, slot0) then
-		return true
-	elseif slot0:getConfig("config_client").sub_act_id then
-		return getProxy(ActivityProxy):getActivityById(slot0:getConfig("config_client").sub_act_id) and not slot3:isEnd() and slot3:readyToAchieve()
-	elseif slot0:getConfig("config_client").is_showMedal then
-		return ActivityMedalGroup.showTip(slot0:getConfig("config_client").medal_group_id)
-	elseif slot0:getConfig("config_client").is_clickOnce then
-		slot3 = slot0:getConfig("id")
+	return switch(slot0:getConfig("type"), uv0.readyToAchieveDic, nil, slot0)
+end
+
+slot0.IsShowTipByClient = function(slot0)
+	if slot0:getConfig("config_client").sub_act_id then
+		return getProxy(ActivityProxy):getActivityById(slot1.sub_act_id) and not slot2:isEnd() and slot2:readyToAchieve()
+	elseif slot1.is_showMedal then
+		return ActivityMedalGroup.showTip(slot1.medal_group_id)
+	elseif slot1.is_clickOnce then
+		slot2 = slot0:getConfig("id")
 
 		return PlayerPrefs.GetInt(Activity.GetPlayerActivyIDKey(slot0:getConfig("id")), 0) == 0
 	else
@@ -1075,21 +1084,45 @@ slot0.getDayIndex = function(slot0)
 end
 
 slot0.getStartTime = function(slot0)
+	return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0:getStartTimeTable())
+end
+
+slot0.getStartTimeTable = function(slot0)
+	slot1, slot2 = nil
+
 	if slot0:getConfig("time") == "stop" then
-		if not getProxy(ActivityRemasterProxy):GetActivaingReamsterData() then
-			return ""
+		if getProxy(ActivityRemasterProxy):GetActivaingReamsterData() then
+			slot1 = slot3:GetStartTimeTable(slot0.id)
 		end
-
-		return slot1:GetStartTime(slot0.id)
 	else
-		slot1, slot2 = parseTimeConfig(slot0:getConfig("time"))
+		slot3, slot4 = parseTimeConfig(slot0:getConfig("time"))
 
-		if slot2 and slot2[1] == "newuser" then
-			return slot0.stopTime - slot2[3] * 86400
+		if slot4 and slot4[1] == "newuser" then
+			slot2 = slot0.stopTime - slot4[3] * 86400
 		else
-			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[2])
+			slot1 = slot3[2]
 		end
 	end
+
+	if slot1 and slot1 ~= "" then
+		return slot1
+	end
+
+	slot3 = pg.TimeMgr.GetInstance()
+	slot4 = slot3:STimeDescS(slot2 or slot3:GetServerTime(), "*t")
+
+	return {
+		{
+			slot4.year,
+			slot4.month,
+			slot4.day
+		},
+		{
+			slot4.hour,
+			slot4.min,
+			slot4.sec
+		}
+	}
 end
 
 slot0.getNDay = function(slot0, slot1)
@@ -1307,9 +1340,9 @@ end
 
 slot2 = function(slot0)
 	slot2 = string.split(pg.TimeMgr.GetInstance():STimeDescC(slot0.stopTime, "%Y/%m/%d/%H/%M/%S"), "/")
-	slot4 = string.split(pg.TimeMgr.GetInstance():STimeDescC(slot0:getStartTime(), "%Y/%m/%d/%H/%M/%S"), "/")
+	slot3 = slot0:getStartTimeTable()
 
-	return GetActTimeDesc(false, (slot0:getConfig("config_client").is_maintain or 0) == ActivityRemasterData.MAINTAIN, slot4[2], slot4[3], slot2[2], slot2[3], slot2[4], slot2[5], slot2[6])
+	return GetActTimeDesc(false, (slot0:getConfig("config_client").natural_expire or 0) == uv0.MAINTAIN, slot3[1][2], slot3[1][3], slot2[2], slot2[3], slot2[4], slot2[5], slot2[6])
 end
 
 slot0.GetActivityTimeStr = function(slot0, slot1)

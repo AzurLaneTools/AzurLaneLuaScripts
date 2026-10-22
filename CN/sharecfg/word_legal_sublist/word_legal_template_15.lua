@@ -233,6 +233,27 @@ end
 temp()
 
 temp = function()
+	uv0["铁"] = {
+		["角"] = {
+			["号"] = {
+				this = true,
+				["（"] = {
+					["前"] = {
+						["排"] = {
+							["）"] = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["兴"] = {
 		["登"] = {
 			["堡"] = {
@@ -434,16 +455,6 @@ temp()
 temp = function()
 	uv0["3"] = {
 		["3"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["久"] = {
-		["远"] = {
 			this = true
 		}
 	}

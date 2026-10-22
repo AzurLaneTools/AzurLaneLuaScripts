@@ -386,6 +386,10 @@ pg.strategy_data_template.all = {
 	201909,
 	201910,
 	201911,
+	201924,
+	201928,
+	201935,
+	201940,
 	205001,
 	205002,
 	205003,
@@ -3778,7 +3782,7 @@ META角色只会根据侵蚀等级提升自身造成的伤害，不受负面效�
 	pg.base.strategy_data_template[201155] = {
 		buff_id = 201155,
 		name = "女神的怜悯",
-		desc = "战斗开始25秒后，我方舰队将会受到一次支援弹幕，并在接下来15秒内获得缓慢回复效果。",
+		desc = "战斗开始25秒后，我方舰队将会获得一次弹幕支援，并在接下来15秒内获得缓慢回复效果。",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -4899,6 +4903,59 @@ META单位受到的效果有所不同，每有一层【污染】，其<color=#92
 		icon = "200908",
 		arg = {}
 	}
+	pg.base.strategy_data_template[201924] = {
+		buff_id = 201924,
+		name = "雾霭回廊",
+		desc = "受雾霭回廊影响，我方角色命中降低5%，敌方单位航速、机动提升10%。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201924,
+		icon = "201924",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201928] = {
+		buff_id = 0,
+		name = "沉星之渊",
+		desc = "战斗中水面上会出现移动的旋涡，处于旋涡范围内的敌我双方单位均会被大幅度减速，并持续受到伤害。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201928,
+		icon = "201928",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201935] = {
+		buff_id = 0,
+		name = "挑战说明",
+		desc = "长蛇号初始处于沉星领主-奥尔姆的守护之中，玩家此时只能对奥尔姆造成伤害；奥尔姆耐久小于20%时永久进入虚影状态无法被攻击，并<color=#92fc63>解除对长蛇号的守护</color>。\n沉星领主-奥尔姆免疫常规点燃，同时<color=#92fc63>在被点燃状态下会额外受到50%伤害</color>。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201935,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201940] = {
+		buff_id = 0,
+		name = "挑战说明",
+		desc = [[
+长蛇号初始处于沉星领主-奥尔姆的守护之中，玩家此时只能对奥尔姆造成伤害；奥尔姆耐久小于20%时进入虚影状态无法被攻击，并<color=#92fc63>解除对长蛇号的守护</color>，虚影状态下每秒恢复5%耐久，耐久<color=#92fc63>恢复至60%后会再度进入守护状态</color>。
+沉星领主-奥尔姆免疫常规点燃，同时<color=#92fc63>在被点燃状态下会额外受到50%伤害，且无法恢复耐久</color>。
+
+困难模式特性：
+我方先锋舰队角色<color=#92fc63>受击判定大幅度缩小，且同一时间只有处于领舰位置的角色拥有受击判定</color>，其余角色为无敌状态，同时角色获得受击判定时也会附带短暂无敌效果。
+敌方伤害<color=#ffc038>极大幅度提高</color>，且子弹无法被主动消除，不过相应的，我方发动空袭时会额外为先锋领舰添加<color=#92fc63>持续3秒的伤害免疫护盾</color>。
+
+以下装备或技能中的<color=#92fc63>减伤/回避及其派生效果</color>无法在本挑战中生效：
+【背水之战】、【彩虹计划】、【绝体绝命】、【不屈意志】]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201940,
+		icon = "200908",
+		arg = {}
+	}
 	pg.base.strategy_data_template[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -5053,6 +5110,8 @@ META单位受到的效果有所不同，每有一层【污染】，其<color=#92
 		icon = "buff_yumia_3",
 		arg = {}
 	}
+end)()
+(function ()
 	pg.base.strategy_data_template[300008] = {
 		buff_id = 0,
 		name = "核心等级LV4",
@@ -5097,8 +5156,6 @@ META单位受到的效果有所不同，每有一层【污染】，其<color=#92
 		icon = "buff_yumia_3",
 		arg = {}
 	}
-end)()
-(function ()
 	pg.base.strategy_data_template[300012] = {
 		buff_id = 0,
 		name = "核心等级LV4",
