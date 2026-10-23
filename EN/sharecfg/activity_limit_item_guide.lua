@@ -4627,7 +4627,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4646,7 +4649,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4665,7 +4671,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4684,7 +4693,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4703,7 +4715,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4722,7 +4737,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4741,7 +4759,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4760,7 +4781,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4779,7 +4803,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4798,7 +4825,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4817,7 +4847,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4836,7 +4869,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4855,7 +4891,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4874,7 +4913,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4893,7 +4935,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4912,7 +4957,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4931,7 +4979,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}
@@ -4950,7 +5001,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"Event Exchange"
 			}

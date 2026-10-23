@@ -151,7 +151,7 @@ slot0.getTitleWord = function(slot0, slot1, slot2)
 	end
 
 	if slot1 == uv0.TYPE_PT then
-		slot3[4] = Item.getConfigData(id2ItemId(getProxy(ActivityProxy):getActivityById(slot2):getConfig("config_id"))).name
+		slot3[4] = getProxy(ActivityProxy):getActivityById(slot2):GetPTDrop():getName()
 	end
 
 	return slot3
