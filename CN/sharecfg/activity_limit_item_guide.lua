@@ -4629,7 +4629,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4648,7 +4651,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4667,7 +4673,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4686,7 +4695,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4705,7 +4717,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4724,7 +4739,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4743,7 +4761,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4762,7 +4783,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4781,7 +4805,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4800,7 +4827,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4819,7 +4849,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4838,7 +4871,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4857,7 +4893,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4876,7 +4915,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4895,7 +4937,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4914,7 +4959,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4933,7 +4981,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}
@@ -4952,7 +5003,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"商店兑换获得"
 			}

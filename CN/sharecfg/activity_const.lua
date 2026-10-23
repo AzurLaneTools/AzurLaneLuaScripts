@@ -1232,4 +1232,7 @@ end)()
 	pg.base.activity_const.WIND_FOG_SKIN_PAGE = {
 		act_id = 51605
 	}
+	pg.base.activity_const.WindFogCorridor_SkinStory_MainPage = {
+		act_id = 51605
+	}
 end)()

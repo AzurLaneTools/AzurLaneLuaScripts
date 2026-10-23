@@ -691,6 +691,22 @@ slot0.readyToAchieve = function(slot0)
 			return LaunchBallActivityMgr.GetInvitationAble(slot0.id)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_GIFT_UP] = function (slot0)
+			if getProxy(ShopsProxy):ShouldRefreshChargeList() then
+				if not slot0.requestingChargeList then
+					slot0.requestingChargeList = true
+
+					pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
+						callback = function ()
+							uv0.requestingChargeList = nil
+
+							pg.m02:sendNotification(ActivityProxy.ACTIVITY_UPDATED, uv0)
+						end
+					})
+				end
+
+				return false
+			end
+
 			slot1 = slot0:getConfig("config_client").gifts[2]
 
 			return underscore(slot1):chain():first(math.min(#slot1, slot0:getNDay())):any(function (slot0)
@@ -883,6 +899,17 @@ slot0.IsShowTipById = function(slot0)
 			end
 
 			return false
+		end,
+		[ActivityConst.WindFogCorridor_SkinStory_MainPage] = function (slot0)
+			slot1 = pg.NewStoryMgr.GetInstance()
+
+			if slot0.data1 > 0 and underscore.any(slot0:GetConfigClientSetting("story"), function (slot0)
+				return not uv0:IsPlayed(slot0[1])
+			end) then
+				return true
+			end
+
+			return WindFogCorridorSkinPageLayer.IsShowRed()
 		end
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]

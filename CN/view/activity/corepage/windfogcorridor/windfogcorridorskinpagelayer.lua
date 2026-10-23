@@ -91,7 +91,7 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot8 = slot6:getProgress()
 	slot9 = slot6:getConfig("target_num")
 
-	if slot0.allCompleteCount == uv0.FinishCount then
+	if uv0.FinishCount <= slot0.allCompleteCount then
 		slot8 = slot9
 	end
 
@@ -106,7 +106,7 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot15 = slot2:Find("got_btn")
 	slot16 = slot6:getTaskStatus()
 
-	if slot0.allCompleteCount == uv0.FinishCount then
+	if uv0.FinishCount <= slot0.allCompleteCount then
 		slot16 = 2
 	end
 
@@ -333,6 +333,34 @@ slot0.onBackPressed = function(slot0)
 	end
 
 	slot0.super.onBackPressed(slot0)
+end
+
+slot0.IsShowRed = function()
+	slot0 = getProxy(TaskProxy)
+	slot3 = 0
+	slot4 = false
+
+	for slot8, slot9 in ipairs(getProxy(ActivityProxy):getActivityById(ActivityConst.WindFogCorridor_SkinStory_MainPage):getConfig("config_client").group_1) do
+		if slot0:getTaskById(slot9) or slot0:getFinishTaskById(slot9) then
+			if slot10:getTaskStatus() == 2 then
+				slot3 = slot3 + 1
+			elseif slot11 == 1 then
+				slot4 = true
+			end
+		end
+	end
+
+	for slot8, slot9 in ipairs(slot2.group_2) do
+		if slot0:getTaskById(slot9) or slot0:getFinishTaskById(slot9) then
+			if slot10:getTaskStatus() == 2 then
+				slot3 = slot3 + 1
+			elseif slot11 == 1 then
+				slot4 = true
+			end
+		end
+	end
+
+	return slot3 < uv0.FinishCount and slot4
 end
 
 return slot0
