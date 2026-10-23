@@ -4609,7 +4609,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4628,7 +4631,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4647,7 +4653,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4666,7 +4675,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4685,7 +4697,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4704,7 +4719,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4723,7 +4741,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4742,7 +4763,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4761,7 +4785,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4780,7 +4807,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4799,7 +4829,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4818,7 +4851,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4837,7 +4873,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4856,7 +4895,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4875,7 +4917,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4894,7 +4939,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4913,7 +4961,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}
@@ -4932,7 +4983,10 @@ end)()
 			{
 				2,
 				{
-					"scene shop"
+					"scene shop",
+					{
+						warp = "shopstreet"
+					}
 				},
 				"ショップ交換"
 			}

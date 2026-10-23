@@ -192621,8 +192621,8 @@ _G.pg.base.item_virtual_data_statistics[68703] = {
 
 _G.pg.base.item_virtual_data_statistics[68704] = {
 	drop_gold_max = 0,
-	name = "作战全权委托书(活动)",
-	display = "用于作战委托的全权委托书，在部分常规关卡的作战委托下可以使用，11月11日结束后将会消失",
+	name = "作戦全権委任状(イベント)",
+	display = "作戦委任機能の消費アイテム。一部常設ステージでは「作戦委任」で使用可能。11/11（水）23:59に削除されます",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,

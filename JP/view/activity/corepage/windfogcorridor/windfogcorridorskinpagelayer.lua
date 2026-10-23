@@ -90,17 +90,29 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 
 	slot8 = slot6:getProgress()
 	slot9 = slot6:getConfig("target_num")
+
+	if uv0.FinishCount <= slot0.allCompleteCount then
+		slot8 = slot9
+	end
+
 	slot10, slot11 = slot0:GetProgressColor()
 
 	setActive(slot2:Find("progressText"), false)
 	setText(slot2:Find("description"), slot6:getConfig("desc") .. " (" .. (slot10 and setColorStr(slot8, slot10) or slot8) .. (slot11 and setColorStr("/" .. slot9, slot11) or "/" .. slot9) .. ")")
 	setSlider(slot2:Find("progress"), 0, slot9, slot8)
 
+	slot13 = slot2:Find("go_btn")
 	slot14 = slot2:Find("get_btn")
+	slot15 = slot2:Find("got_btn")
+	slot16 = slot6:getTaskStatus()
 
-	setActive(slot2:Find("go_btn"), slot6:getTaskStatus() == 0)
+	if uv0.FinishCount <= slot0.allCompleteCount then
+		slot16 = 2
+	end
+
+	setActive(slot13, slot16 == 0)
 	setActive(slot14, slot16 == 1)
-	setActive(slot2:Find("got_btn"), slot16 == 2)
+	setActive(slot15, slot16 == 2)
 	onButton(slot0, slot13, function ()
 		uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 	end, SFX_PANEL)
@@ -124,7 +136,7 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 			uv0:emit(GhostSkinMediator.ON_TASK_SUBMIT, uv1)
 		end)
 	end, SFX_PANEL)
-	setActive(slot2:Find("reddot"), slot16 == 1)
+	setActive(slot2:Find("reddot"), slot0.allCompleteCount < uv0.FinishCount and slot16 == 1)
 end
 
 slot0.DisplayBigTask = function(slot0)
@@ -321,6 +333,34 @@ slot0.onBackPressed = function(slot0)
 	end
 
 	slot0.super.onBackPressed(slot0)
+end
+
+slot0.IsShowRed = function()
+	slot0 = getProxy(TaskProxy)
+	slot3 = 0
+	slot4 = false
+
+	for slot8, slot9 in ipairs(getProxy(ActivityProxy):getActivityById(ActivityConst.WindFogCorridor_SkinStory_MainPage):getConfig("config_client").group_1) do
+		if slot0:getTaskById(slot9) or slot0:getFinishTaskById(slot9) then
+			if slot10:getTaskStatus() == 2 then
+				slot3 = slot3 + 1
+			elseif slot11 == 1 then
+				slot4 = true
+			end
+		end
+	end
+
+	for slot8, slot9 in ipairs(slot2.group_2) do
+		if slot0:getTaskById(slot9) or slot0:getFinishTaskById(slot9) then
+			if slot10:getTaskStatus() == 2 then
+				slot3 = slot3 + 1
+			elseif slot11 == 1 then
+				slot4 = true
+			end
+		end
+	end
+
+	return slot3 < uv0.FinishCount and slot4
 end
 
 return slot0
