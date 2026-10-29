@@ -53,7 +53,8 @@ pg.dorm3d_shop_template.all = {
 	47,
 	48,
 	49,
-	50
+	50,
+	51
 }
 pg.base = pg.base or {}
 pg.base.dorm3d_shop_template = {}
@@ -1101,7 +1102,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 2261,
 		id = 48,
 		realroom_id = 0,
-		order = "1",
+		order = "4",
 		panel = {
 			1,
 			2,
@@ -1124,7 +1125,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 2070701,
 		id = 49,
 		realroom_id = 0,
-		order = "2",
+		order = "4",
 		panel = {
 			2,
 			3,
@@ -1155,6 +1156,29 @@ pg.base.dorm3d_shop_template = {}
 		},
 		banners = {
 			"banner_carwash2"
+		}
+	}
+	pg.base.dorm3d_shop_template[51] = {
+		rarity = 4,
+		name = "복슬복슬 고양이 털 둥지",
+		type = 1,
+		room_id = 79902,
+		unlock = "",
+		item_id = 2162,
+		id = 51,
+		realroom_id = 0,
+		order = "1",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270702
+		},
+		banners = {
+			"banner_furniture2162"
 		}
 	}
 end)()

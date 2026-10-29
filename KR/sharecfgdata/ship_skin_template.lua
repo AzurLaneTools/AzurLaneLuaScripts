@@ -267138,6 +267138,134 @@ _G.pg.base.ship_skin_template[903022] = {
 }
 
 
+_G.pg.base.ship_skin_template[903023] = {
+	name = "응석을 받아주는 채찍 메이드",
+	change_skin = "",
+	desc = "어서 와, 지휘관. 나를 이렇게 기다리게 하다니…… 벌을 좀 줘야 하나? 후후후, 농담이야. 어서 이리 와서 앉아♪",
+	illustrator2 = -1,
+	ship_group = 90302,
+	group_index = 3,
+	purchase_offset = "",
+	painting = "aerjiliya_4",
+	lover_hand = "hand_1_02",
+	skin_type = 0,
+	shop_type_id = 17,
+	l2d_ignore_drag = 0,
+	hand_id = 1,
+	lip_smoothing = 0,
+	l2d_animations = "",
+	lover_kiss = "lip03",
+	bg_sp = "",
+	bg = "501",
+	bgm = "",
+	spine_use_live2d = 0,
+	spine_action_offset = false,
+	spine_offset_profile = "",
+	shop_offset = "",
+	special_effects = "",
+	id = 903023,
+	voice_actor_2 = -1,
+	gyro = 0,
+	ship_l2d_id = "",
+	l2d_drag_rate = "",
+	prefab = "aerjiliya_4",
+	l2d_se = "",
+	part_scale = "",
+	get_showing = "",
+	main_UI_FX = "",
+	shop_id = 0,
+	voice_actor = 142,
+	shop_dynamic_hx = 0,
+	spine_offset = "",
+	illustrator = -1,
+	rarity_bg = "",
+	double_char = 0,
+	skeleton_default_skin = "",
+	voice_lang = "",
+	time = "",
+	l2d_para_range = "",
+	lip_sync_gain = 0,
+	live2d_offset_profile = "",
+	show_skin = "stand",
+	l2d_voice_calibrate = "",
+	tag = {
+		2
+	},
+	live2d_offset = {
+		0,
+		0,
+		0
+	},
+	fx_container = {
+		{
+			0,
+			1.99185,
+			1.15
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0.75,
+			-1.299
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	bound_bone = {
+		cannon = {
+			{
+				1.507,
+				0.968,
+				0
+			}
+		},
+		vicegun = {
+			{
+				1.105,
+				0.892,
+				0
+			}
+		},
+		torpedo = {
+			{
+				0,
+				0.019,
+				0
+			}
+		},
+		antiaircraft = {
+			{
+				0.686,
+				2.428,
+				0
+			}
+		}
+	},
+	smoke = {
+		{
+			50,
+			{
+				{
+					"smoke",
+					{
+						-0.526,
+						2.387,
+						0
+					}
+				}
+			}
+		}
+	}
+}
+
+
 _G.pg.base.ship_skin_template[903030] = {
 	name = "듀플렉스",
 	change_skin = "",

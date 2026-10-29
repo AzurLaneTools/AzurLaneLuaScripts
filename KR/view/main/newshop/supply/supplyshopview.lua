@@ -110,6 +110,10 @@ slot0.SetAllShopData = function(slot0, slot1)
 end
 
 slot0.GetDefaultShopIndex = function(slot0)
+	if table.getCount(slot0.packageSortList[slot0.supplyShopType]) <= 0 then
+		slot0.supplyShopType = ShopConst.CATEGORY_SUPPLY
+	end
+
 	if slot0.supplyShopType == ShopConst.CATEGORY_ACTIVITY then
 		slot1 = slot0.contextData.actId
 

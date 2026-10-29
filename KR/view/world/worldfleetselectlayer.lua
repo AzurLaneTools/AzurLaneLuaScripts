@@ -4,13 +4,15 @@ slot0.getUIName = function(slot0)
 	return "WorldFleetSelect"
 end
 
-slot0.getResource = function(slot0, slot1)
-	table.insertto({
+slot0.getResource = function(slot0)
+	slot1 = {
 		"weaponframes",
 		"shiptype"
-	}, slot0:getFleetSelectResList(slot1 and slot1.fleets))
+	}
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	table.insertto(slot1, slot0:getFleetSelectResList(slot0.contextData.fleets))
+
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.insertFleetSelectRes = function(slot0, slot1, slot2)

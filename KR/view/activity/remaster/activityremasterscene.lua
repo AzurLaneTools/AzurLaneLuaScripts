@@ -15,15 +15,15 @@ slot0.init = function(slot0)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
-	setText(slot0._tf:Find("top/title/Text"), i18n("act_remaster_title"))
+	setText(slot0._tf:Find("adapt/top/title/Text"), i18n("act_remaster_title"))
 	changeToScrollText(slot0._tf:Find("prints/tip/Text"), i18n("act_remaster_tip_1"))
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0._tf:Find("top/closeBtn"), function ()
+	onButton(slot0, slot0._tf:Find("adapt/top/closeBtn"), function ()
 		uv0:emit(BaseUI.ON_BACK)
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("top/homeBtn"), function ()
+	onButton(slot0, slot0._tf:Find("adapt/top/homeBtn"), function ()
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
 
@@ -96,7 +96,7 @@ slot0.InitList = function(slot0)
 	slot1 = {}
 	slot2 = {}
 
-	for slot6, slot7 in ipairs(slot0.activityRemasterDataList) do
+	for slot6, slot7 in pairs(slot0.activityRemasterDataList) do
 		if slot7:IsSpecial() then
 			table.insert(slot1, slot7)
 		else

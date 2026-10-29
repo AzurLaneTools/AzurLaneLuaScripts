@@ -7,14 +7,14 @@ slot0.getUIName = function(slot0)
 	return "DailyLevelUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"weaponframes",
 		"cue/level.b"
 	}
-	slot3 = {}
+	slot2 = {}
 
-	slot4 = function(slot0)
+	slot3 = function(slot0)
 		if noEmptyStr(slot0) and not uv0[slot0] then
 			uv0[slot0] = true
 
@@ -22,23 +22,23 @@ slot0.getResource = function(slot0, slot1)
 		end
 	end
 
-	slot6 = ipairs
-	slot7 = pg.expedition_daily_template.all or {}
+	slot5 = ipairs
+	slot6 = pg.expedition_daily_template.all or {}
 
-	for slot9, slot10 in slot6(slot7) do
-		if slot5[slot10] then
-			slot4("dailyui/" .. slot11.pic)
+	for slot8, slot9 in slot5(slot6) do
+		if slot4[slot9] then
+			slot3("dailyui/" .. slot10.pic)
 
-			slot12 = ipairs
-			slot13 = slot11.expedition_and_lv_limit_list or {}
+			slot11 = ipairs
+			slot12 = slot10.expedition_and_lv_limit_list or {}
 
-			for slot15, slot16 in slot12(slot13) do
-				if pg.expedition_data_template[slot16[1]] then
-					slot18 = ipairs
-					slot19 = slot17.award_display or {}
+			for slot14, slot15 in slot11(slot12) do
+				if pg.expedition_data_template[slot15[1]] then
+					slot17 = ipairs
+					slot18 = slot16.award_display or {}
 
-					for slot21, slot22 in slot18(slot19) do
-						slot4(Drop.Create(slot22):getIcon())
+					for slot20, slot21 in slot17(slot18) do
+						slot3(Drop.Create(slot21):getIcon())
 					end
 				end
 			end
@@ -46,17 +46,17 @@ slot0.getResource = function(slot0, slot1)
 	end
 
 	if slot0.bonusActivity and not slot0.bonusActivity:isEnd() then
-		slot6 = ipairs
-		slot7 = slot0.bonusActivity:getConfig("config_data") or {}
+		slot5 = ipairs
+		slot6 = slot0.bonusActivity:getConfig("config_data") or {}
 
-		for slot9, slot10 in slot6(slot7) do
-			if slot10[2] then
-				slot4(Drop.Create(slot11):getIcon())
+		for slot8, slot9 in slot5(slot6) do
+			if slot9[2] then
+				slot3(Drop.Create(slot10):getIcon())
 			end
 		end
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.ResUISettings = function(slot0)

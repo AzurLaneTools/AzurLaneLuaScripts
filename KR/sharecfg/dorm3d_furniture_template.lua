@@ -82,6 +82,7 @@ pg.dorm3d_furniture_template.all = {
 	2114,
 	2115,
 	2161,
+	2162,
 	2201,
 	2202,
 	2203,
@@ -186,7 +187,8 @@ pg.dorm3d_furniture_template.get_id_list_by_room_id = {
 		2113,
 		2114,
 		2115,
-		2161
+		2161,
+		2162
 	},
 	[22] = {
 		2201,
@@ -2433,6 +2435,42 @@ pg.base.dorm3d_furniture_template = {}
 		},
 		scene_hides = {
 			"no_bake_pay_prop/basement/pre_db_naximofu_basement01_0"
+		}
+	}
+	pg.base.dorm3d_furniture_template[2162] = {
+		is_special = 0,
+		name = "복슬복슬 고양이 털 둥지",
+		type = 4,
+		room_id = 21,
+		desc = "순백의 벨벳 원단으로 감싸인 원형 침대. 쫑긋 선 고양이 귀와 둥글게 말린 꼬리가 포인트로, 안에 들어가면 폭신한 꿈속으로 빠져들 것만 같다.",
+		can_remove = 0,
+		model = "Pay_Naximofuhostel/pre_db_naximofu_bed01",
+		is_exclusive = 1,
+		icon = "dorm3dIcon/3Ddrom_naximofu_PremiumFurniture2",
+		rarity = 4,
+		acesses = "",
+		model_night = "",
+		id = 2162,
+		target_slots = {
+			2210101
+		},
+		touch_id = {
+			{
+				79902,
+				7990250
+			}
+		},
+		shop_id = {
+			270702
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture2162"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
 		}
 	}
 	pg.base.dorm3d_furniture_template[2201] = {

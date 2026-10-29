@@ -490,7 +490,7 @@ pg.base.activity_link_button = {}
 		}
 	}
 	pg.base.activity_link_button[109] = {
-		param = "StarsCityCoreActivityUI",
+		param = "WindFogCorridorCoreActivityUI",
 		name = "event_core",
 		text_pic = "text_event_core",
 		type = 16,
@@ -500,7 +500,7 @@ pg.base.activity_link_button = {}
 		order = 1,
 		time = {
 			"default",
-			51109
+			51201
 		}
 	}
 	pg.base.activity_link_button[110] = {

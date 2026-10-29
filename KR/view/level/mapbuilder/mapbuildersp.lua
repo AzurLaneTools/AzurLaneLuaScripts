@@ -116,13 +116,15 @@ slot0.UpdateButtons = function(slot0)
 		slot0.sceneParent:updateRemasterInfo()
 	end
 
-	slot4 = slot0.contextData.displayMode == uv0.DISPLAY.BATTLE
+	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and slot0.contextData.displayMode == uv0.DISPLAY.BATTLE and not slot3 and slot2 and slot0.sceneParent:IsActShopActive())
 
-	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and slot4 and not slot3 and slot2 and slot0.sceneParent:IsActShopActive())
+	slot6 = nil
 
-	slot5 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
+	if (slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil) and not slot5:isEnd() then
+		slot6 = slot5:GetConfigClientPTActivity()
+	end
 
-	slot0.sceneParent:updatePtActivity(slot5 and slot5:GetConfigClientPTActivity() or nil)
+	slot0.sceneParent:updatePtActivity(slot6)
 	setActive(slot0.sceneParent.rightChapter:Find("event_btns/tickets"), slot3)
 	slot0.sceneParent:updateRemasterTicket()
 	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot3 and slot2 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd() and slot4)

@@ -21,7 +21,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.blurTF = slot1:Find("blur")
 	slot2 = slot0.blurTF
 
-	setText(slot2:Find("top/title/Text"), i18n("island_season_title"))
+	setText(slot2:Find("adapt/top/title/Text"), i18n("island_season_title"))
 
 	slot1 = slot0.blurTF
 	slot0.ptTitleTF = slot1:Find("pt_title")
@@ -100,10 +100,10 @@ slot0.Close = function(slot0, slot1)
 end
 
 slot0.OnInit = function(slot0)
-	onButton(slot0, slot0.blurTF:Find("top/back"), function ()
+	onButton(slot0, slot0.blurTF:Find("adapt/top/back"), function ()
 		uv0:Close(true)
 	end, SFX_PANEL)
-	onButton(slot0, slot0.blurTF:Find("top/help"), function ()
+	onButton(slot0, slot0.blurTF:Find("adapt/top/help"), function ()
 		uv0:ShowMsgBox({
 			type = IslandMsgBox.TYPE_WHITOUT_BTN,
 			content = i18n("island_season_help")

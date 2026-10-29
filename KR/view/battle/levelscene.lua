@@ -12,8 +12,32 @@ slot0.getUIName = function(slot0)
 	return "LevelMainScene"
 end
 
-slot0.getResource = function(slot0, slot1)
-	return table.insertto(ResList.LevelScene.GetResource(slot0, slot1), uv0.super.getResource(slot0, slot1))
+slot0.getResource = function(slot0)
+	return table.insertto(ResList.LevelSceneResConst.GetResource(slot0), uv0.super.getResource(slot0))
+end
+
+slot0.downloadChapterRes = function(slot0, slot1, slot2)
+	if slot0.exited or not ResList.ChapterResConst.IsActive(slot1) then
+		return
+	end
+
+	SplitPackConst.DownloadByLuaArr(ResList.ChapterResConst.GetResList(slot1), function ()
+		slot0 = uv0.contextData.chapterVO
+
+		if uv0.exited or not ResList.ChapterResConst.IsActive(slot0) or slot0.id ~= uv1.id then
+			return
+		end
+
+		if slot0 ~= uv1 then
+			uv0:downloadChapterRes(slot0, uv2)
+
+			return
+		end
+
+		uv2()
+	end, {
+		showMask = true
+	})
 end
 
 slot0.ResUISettings = function(slot0)
@@ -204,6 +228,10 @@ slot0.initUI = function(slot0)
 	slot0.escortBar = slot0.leftChapter:Find("escort_bar")
 	slot0.eliteQuota = slot0.leftChapter:Find("elite_quota")
 	slot0.skirmishBar = slot0.leftChapter:Find("left_times")
+	slot0.suggestionBtn = slot0.leftChapter:Find("suggestionBtn")
+
+	setText(slot0.leftChapter:Find("suggestionBtn/Text"), i18n("formation_suggestion"))
+
 	slot0.mainLayer = slot0._tf:Find("main")
 
 	setActive(slot0.mainLayer:Find("title_chapter_lines"), false)
@@ -706,6 +734,14 @@ slot0.didEnter = function(slot0)
 	setActive(slot0.entranceLayer:Find("btns/btn_challenge/tip"), LimitChallengeConst.IsShowRedPoint())
 	slot0:initMapBtn(slot0.btnPrev, -1)
 	slot0:initMapBtn(slot0.btnNext, 1)
+	onButton(slot0, slot0.suggestionBtn, function ()
+		slot0 = uv0.contextData.mapIdx
+
+		uv0:emit(BaseUI.ON_GO_SCENE, SCENE.FORMATION_SUGGESTION, {
+			selectedIndex = table.keyof(LevelTools.GetSuggestionMapIDList(slot0), slot0),
+			mapID = slot0
+		})
+	end)
 	slot0:registerActBtn()
 
 	if slot0.contextData.editEliteChapter then
@@ -1272,9 +1308,13 @@ slot0.updateActivityBtns = function(slot0)
 		slot13(slot14, slot15)
 		setActive(slot0.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not slot4 and slot3 and slot0:IsActShopActive())
 
-		slot13 = slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil
+		slot14 = nil
 
-		slot0:updatePtActivity(slot13 and slot13:GetConfigClientPTActivity() or nil)
+		if (slot0.contextData.map and getProxy(ActivityProxy):getActivityById(slot0.contextData.map:getConfig("on_activity")) or nil) and not slot13:isEnd() then
+			slot14 = slot13:GetConfigClientPTActivity()
+		end
+
+		slot0:updatePtActivity(slot14)
 		setActive(slot0.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot4 and slot3 and slot0.ptActivity and not slot0.ptActivity:isEnd())
 	else
 		setActive(slot0.actExtraBtn, false)
@@ -1700,10 +1740,7 @@ slot0.updateMap = function(slot0, slot1)
 
 	slot0:SwitchMapBG(slot2, slot1)
 	slot0:PlayBGM()
-
-	slot6 = slot0.contextData.map
-
-	slot0:SwitchMapBuilder(slot6:getConfig("ui_type"))
+	slot0:SwitchMapBuilder(slot0.contextData.map:getConfig("ui_type"))
 	seriesAsync({
 		function (slot0)
 			uv0.mapBuilder:CallbackInvoke(slot0)
@@ -1715,6 +1752,7 @@ slot0.updateMap = function(slot0, slot1)
 			uv0.mapBuilder:PlayEnterAnim()
 		end
 	})
+	setActive(slot0.suggestionBtn, table.keyof(LevelTools.GetSuggestionMapIDList(slot2.id), slot2.id) ~= nil)
 end
 
 slot0.UpdateSwitchMapButton = function(slot0)
@@ -1760,7 +1798,7 @@ slot0.tryPlayMapStory = function(slot0)
 			slot0()
 		end,
 		function (slot0)
-			if isActive(uv0.actAtelierBuffBtn) and getProxy(ActivityProxy):AtelierActivityAllSlotIsEmpty() and getProxy(ActivityProxy):OwnAtelierActivityItemCnt(34, 1) then
+			if uv0.actAtelierBuffBtn ~= nil and isActive(uv0.actAtelierBuffBtn) and getProxy(ActivityProxy):AtelierActivityAllSlotIsEmpty() and getProxy(ActivityProxy):OwnAtelierActivityItemCnt(34, 1) then
 				slot2 = nil
 
 				pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0034", (not (PlayerPrefs.GetInt("first_enter_ryza_buff_" .. getProxy(PlayerProxy):getRawData().id, 0) == 0) or {
@@ -2093,6 +2131,10 @@ slot0.setChapter = function(slot0, slot1)
 end
 
 slot0.switchToChapter = function(slot0, slot1)
+	if not ResList.ChapterResConst.IsActive(slot1) then
+		return
+	end
+
 	if slot0.contextData.mapIdx ~= slot1:getConfig("map") then
 		slot0:setMap(slot1:getConfig("map"))
 	end
@@ -2116,6 +2158,9 @@ slot0.switchToChapter = function(slot0, slot1)
 	slot0:frozen()
 	slot0.levelStageView:ActionInvoke("SetSeriesOperation", function ()
 		seriesAsync({
+			function (slot0)
+				uv0:downloadChapterRes(uv1, slot0)
+			end,
 			function (slot0)
 				uv0.mapBuilder:CallbackInvoke(slot0)
 			end,
@@ -3606,7 +3651,7 @@ slot0.IsActShopActive = function(slot0)
 		return true
 	end
 
-	slot4 = slot1 and slot1:GetConfigClientPTActivity() or nil
+	slot4 = slot1 and not slot1:isEnd() and slot1:GetConfigClientPTActivity()
 
 	if slot4 and getProxy(ActivityProxy):GetShopActivityByRes(slot4:GetPTDrop()) or nil then
 		return true

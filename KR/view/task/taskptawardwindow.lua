@@ -31,6 +31,11 @@ slot0.UpdateList = function(slot0, slot1, slot2, slot3)
 	slot0.UIlist:align(#slot1)
 end
 
+slot0.Show = function(slot0, slot1)
+	uv0.super.Show(slot0, slot1)
+	setActive(slot0.getBtn, false)
+end
+
 slot0.UpdateDrop = function(slot0, slot1, slot2)
 	if slot2 then
 		setActive(slot1, true)

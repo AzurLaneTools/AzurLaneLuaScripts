@@ -4,69 +4,69 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dInviteWindow"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {}
-	slot3 = slot1 or slot0.contextData or {}
+slot0.getResource = function(slot0)
+	slot1 = {}
+	slot2 = slot0.contextData or {}
 
-	slot4 = function(slot0)
+	slot3 = function(slot0)
 		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
 			table.insert(uv0, slot0)
 		end
 	end
 
-	slot6 = {}
+	slot5 = {}
 
-	slot7 = function(slot0)
+	slot6 = function(slot0)
 		if slot0 and not table.contains(uv0, slot0) then
 			table.insert(uv0, slot0)
 		end
 	end
 
-	if slot3.roomId and pg.dorm3d_rooms[slot3.roomId] then
-		if noEmptyStr(slot5.assets_prefix) then
-			slot4("dorm3dselect/room_invite_" .. slot5.assets_prefix)
+	if slot2.roomId and pg.dorm3d_rooms[slot2.roomId] then
+		if noEmptyStr(slot4.assets_prefix) then
+			slot3("dorm3dselect/room_invite_" .. slot4.assets_prefix)
 		end
 
-		slot8 = ipairs
-		slot9 = slot5.character or {}
+		slot7 = ipairs
+		slot8 = slot4.character or {}
 
-		for slot11, slot12 in slot8(slot9) do
-			slot7(slot12)
+		for slot10, slot11 in slot7(slot8) do
+			slot6(slot11)
 		end
 
-		slot8 = ipairs
-		slot9 = slot5.character_pay or {}
+		slot7 = ipairs
+		slot8 = slot4.character_pay or {}
 
-		for slot11, slot12 in slot8(slot9) do
-			slot7(slot12)
+		for slot10, slot11 in slot7(slot8) do
+			slot6(slot11)
 		end
 	end
 
-	slot8 = ipairs
-	slot9 = slot3.groupIds or {}
+	slot7 = ipairs
+	slot8 = slot2.groupIds or {}
 
-	for slot11, slot12 in slot8(slot9) do
-		slot7(slot12)
+	for slot10, slot11 in slot7(slot8) do
+		slot6(slot11)
 	end
 
-	for slot11, slot12 in ipairs(slot6) do
-		slot14 = pg.dorm3d_resource.get_id_list_by_ship_group[slot12] and slot13[1]
-		slot15 = slot14 and pg.dorm3d_resource[slot14]
+	for slot10, slot11 in ipairs(slot5) do
+		slot13 = pg.dorm3d_resource.get_id_list_by_ship_group[slot11] and slot12[1]
+		slot14 = slot13 and pg.dorm3d_resource[slot13]
 
-		slot4(slot15 and slot15.head_Icon)
+		slot3(slot14 and slot14.head_Icon)
 
-		if slot5 then
+		if slot4 then
 			if Apartment.New({
-				ship_group = slot12
-			}):GetSkinModelID(slot5.tag) then
-				slot4(string.format("dorm3dselect/room_card_apartment_%d", slot16))
+				ship_group = slot11
+			}):GetSkinModelID(slot4.tag) then
+				slot3(string.format("dorm3dselect/room_card_apartment_%d", slot15))
 			end
 
-			slot4(string.format("dorm3dselect/room_card_apartment_name_%d", slot12))
+			slot3(string.format("dorm3dselect/room_card_apartment_name_%d", slot11))
 		end
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.init = function(slot0)

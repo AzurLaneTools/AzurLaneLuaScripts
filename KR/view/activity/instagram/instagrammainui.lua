@@ -4,33 +4,33 @@ slot0.getUIName = function(slot0)
 	return "InstagramMainUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/InstagramChatBackgrounds_atlas"
 	}
 
-	for slot6, slot7 in ipairs(getProxy(InstagramChatProxy):GetChatList()) do
-		if slot7.type == 1 then
-			slot8 = "unknown"
+	for slot5, slot6 in ipairs(getProxy(InstagramChatProxy):GetChatList()) do
+		if slot6.type == 1 then
+			slot7 = "unknown"
 
-			if slot7.skinId == 0 then
-				slot8 = slot7:GetPainting()
+			if slot6.skinId == 0 then
+				slot7 = slot6:GetPainting()
 			else
-				for slot12, slot13 in ipairs(slot7.skins) do
-					if slot13.id == slot7.skinId then
-						slot8 = slot13.painting
+				for slot11, slot12 in ipairs(slot6.skins) do
+					if slot12.id == slot6.skinId then
+						slot7 = slot12.painting
 					end
 				end
 			end
 
-			table.insert(slot2, "painting/" .. slot8)
-			table.insert(slot2, "paintingface/" .. slot8)
+			table.insert(slot1, "painting/" .. slot7)
+			table.insert(slot1, "paintingface/" .. slot7)
 		end
 	end
 
-	table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	table.insertto(slot1, uv0.super.getResource(slot0))
 
-	return slot2
+	return slot1
 end
 
 slot0.preload = function(slot0, slot1)

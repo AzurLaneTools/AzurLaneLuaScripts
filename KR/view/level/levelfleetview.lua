@@ -23,17 +23,17 @@ slot0.getUIName = function(slot0)
 	return "LevelFleetSelectView"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	return table.insertto({
 		"weaponframes",
 		"energy",
 		"shiptype",
 		"ui/iconcolorful"
-	}, uv0.super.getResource(slot0, slot1))
+	}, uv0.super.getResource(slot0))
 end
 
 slot0.downloadLevelFleetViewResList = function(slot0, slot1)
-	SplitPackConst.DownloadByLuaArr(ResList.LevelFleetView.GetResource(slot0), function ()
+	SplitPackConst.DownloadByLuaArr(ResList.LevelFleetViewResConst.GetResource(slot0), function ()
 		if uv0._state == uv1.STATES.DESTROY then
 			return
 		end

@@ -191859,6 +191859,33 @@ _G.pg.base.item_virtual_data_statistics[68710] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[68754] = {
+	drop_gold_max = 0,
+	name = "채찍 메이드의 포상",
+	display = "지휘관은 이런 포상이 좋아? 「응석을 받아주는 채찍 메이드」의 이벤트 Pt. 일정 수를 획득하면 스킨 획득 가능.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	drop_arg = "",
+	album_config = "",
+	icon = "Props/aerjiliya_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 68754,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[68712] = {
 	drop_gold_max = 0,
 	name = "작전 전권 위임장(대형 작전)",

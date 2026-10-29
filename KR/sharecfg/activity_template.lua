@@ -1118,6 +1118,9 @@ pg.activity_template.all = {
 	50493,
 	50521,
 	50522,
+	51201,
+	51202,
+	51203,
 	50801,
 	50803,
 	50804,
@@ -2221,6 +2224,7 @@ pg.activity_template.get_id_list_by_type = {
 		50482,
 		50487,
 		50489,
+		51202,
 		50805,
 		50817,
 		50826,
@@ -2592,6 +2596,7 @@ pg.activity_template.get_id_list_by_type = {
 		50296,
 		50323,
 		50471,
+		51201,
 		50846,
 		50610,
 		50630,
@@ -3238,6 +3243,7 @@ pg.activity_template.get_id_list_by_type = {
 		50477,
 		50502,
 		50483,
+		51203,
 		50806,
 		50821,
 		50833,
@@ -46048,6 +46054,185 @@ end)()
 			mediator = "BossRushAlvitMediator"
 		}
 	}
+	pg.base.activity_template[51201] = {
+		mark = 20261015,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 1,
+		title_res_tag = "WindFogCorridorCoreActivityUI_subtitle_1",
+		id = 51201,
+		page_core = "WindFogCorridorCoreActivityUI",
+		config_data = {
+			{
+				27801,
+				27802,
+				27803,
+				27804,
+				27805,
+				27806,
+				27807,
+				27808,
+				27809,
+				27810,
+				27811,
+				27812,
+				27813,
+				27814,
+				27816
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "WindFogCorridorSkinPage",
+			ui_name = "WindFogCorridorSkinPage"
+		},
+		config_client = {
+			subType = 1,
+			once_task = 27816,
+			sub_act_id = 51203,
+			ptActId = 51203,
+			daily_task = 27815,
+			unlock_task = {
+				{
+					27801,
+					27802
+				},
+				{
+					27803,
+					27804
+				},
+				{
+					27805,
+					27806
+				},
+				{
+					27807,
+					27808
+				},
+				{
+					27809,
+					27810
+				},
+				{
+					27811,
+					27812
+				},
+				{
+					27813,
+					27814
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51202] = {
+		mark = 20261015,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51202,
+		page_core = "",
+		config_data = {
+			27815
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51203] = {
+		mark = 20261015,
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 51203,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51203,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
 	pg.base.activity_template[50801] = {
 		mark = 20260423,
 		page_info = "",
@@ -50461,6 +50646,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[51011] = {
 		mark = 20260528,
 		type = 18,
@@ -50646,8 +50833,6 @@ end)()
 			task_act_id = 51014
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[51014] = {
 		mark = 20260528,
 		page_info = "",
@@ -55511,6 +55696,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[51160] = {
 		mark = 20260827,
 		page_info = "",
@@ -55628,8 +55815,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7004] = {
 		mark = 20220324,
 		type = 54,
@@ -61311,6 +61496,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[6017] = {
 		mark = 20221215,
 		time = "stop",
@@ -61431,8 +61618,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6020] = {
 		mark = 20221019,
 		time = "stop",
@@ -66087,6 +66272,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[25004] = {
 		mark = 20180914,
 		page_info = "",
@@ -66138,8 +66325,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[25007] = {
 		mark = 20180928,
 		page_info = "",
@@ -68685,6 +68870,8 @@ end)()
 			ui_name = "MeixiV5FrameRePage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1000009] = {
 		mark = 20261008,
 		time = "stop",
@@ -68788,8 +68975,6 @@ end)()
 			bg = 1
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[1000012] = {
 		mark = 20261008,
 		page_info = "",

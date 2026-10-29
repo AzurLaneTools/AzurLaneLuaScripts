@@ -11,38 +11,38 @@ slot0.getUIName = function(slot0)
 	return "NewShipUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot3 = slot1.ship
+slot0.getResource = function(slot0)
+	slot2 = slot0.contextData.ship
 
 	table.insert({
 		"clutter/new",
 		"shiptype"
-	}, string.format(ResPathSupport.ConstPath.Ship.Rarity.NewShipBG, slot3:rarity2bgPrintForGet()))
+	}, string.format(ResPathSupport.ConstPath.Ship.Rarity.NewShipBG, slot2:rarity2bgPrintForGet()))
 
-	if slot3:isBluePrintShip() then
-		table.insert(slot2, string.format(ResPathSupport.ConstPath.Ship.Rarity.EffectDesign, slot3:getRarity()))
+	if slot2:isBluePrintShip() then
+		table.insert(slot1, string.format(ResPathSupport.ConstPath.Ship.Rarity.EffectDesign, slot2:getRarity()))
 	end
 
-	if slot3:isMetaShip() then
-		table.insert(slot2, string.format(ResPathSupport.ConstPath.Ship.Rarity.EffectMeta, slot3:getRarity()))
+	if slot2:isMetaShip() then
+		table.insert(slot1, string.format(ResPathSupport.ConstPath.Ship.Rarity.EffectMeta, slot2:getRarity()))
 	end
 
-	if slot5 then
-		table.insert(slot2, MetaCharacterConst.getReMetaTransItem(slot3):getConfig("icon"))
+	if slot4 then
+		table.insert(slot1, MetaCharacterConst.getReMetaTransItem(slot2):getConfig("icon"))
 	end
 
-	slot6 = Ship.getPaintingName(slot3.configId)
+	slot5 = Ship.getPaintingName(slot2.configId)
 
-	table.insertto(slot2, ResPathSupport.GetPaintingListByPaintingName(slot6))
-	table.insertto(slot2, ResPathSupport.GetPaintingFaceListByPaintingName(slot6))
+	table.insertto(slot1, ResPathSupport.GetPaintingListByPaintingName(slot5))
+	table.insertto(slot1, ResPathSupport.GetPaintingFaceListByPaintingName(slot5))
 
-	slot9 = slot3:getNation()
+	slot8 = slot2:getNation()
 
 	_.each(ResPathSupport.ConstPath.Ship.Nation.PrintsFixList, function (slot0)
 		table.insert(uv1, string.format(ResPathSupport.ConstPath.Ship.Nation.Prints, nation2print(uv0), slot0))
 	end)
 
-	slot10 = slot3:getRarity()
+	slot9 = slot2:getRarity()
 
 	_.each(ResPathSupport.ConstPath.Ship.Rarity.ShipRarityFixList1, function (slot0)
 		_.each(ResPathSupport.ConstPath.Ship.Rarity.ShipRarityFixList2, function (slot0)
@@ -53,16 +53,16 @@ slot0.getResource = function(slot0, slot1)
 		table.insert(uv1, string.format(ResPathSupport.ConstPath.Ship.Rarity.GetRole, uv0, slot0))
 	end)
 
-	slot11 = slot3:getGroupId()
+	slot10 = slot2:getGroupId()
 
 	_.each({
-		ShipGroup.GetGroupConfig(slot11).trans_skin,
-		ShipGroup.getDefaultSkin(slot11).id
+		ShipGroup.GetGroupConfig(slot10).trans_skin,
+		ShipGroup.getDefaultSkin(slot10).id
 	}, function (slot0)
 		table.insert(uv0, "ui/skinunlockanim/star_level_unlock_anim_" .. slot0)
 	end)
 
-	return table.insertto(slot2, uv0.super.getResource(slot0))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.preload = function(slot0, slot1)

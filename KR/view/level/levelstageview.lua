@@ -37,8 +37,8 @@ slot0.getUIName = function(slot0)
 	return "LevelStageView"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/levelstageview_atlas",
 		"enemycount",
 		"passstate",
@@ -52,9 +52,33 @@ slot0.getResource = function(slot0, slot1)
 		"ui/iconcolorful"
 	}
 
-	table.insertto(slot2, ResList.LevelStageView.GetResource(slot1))
+	table.insertto(slot1, ResList.LevelStageViewResConst.GetResource(slot0.contextData))
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
+end
+
+slot0.downloadStageRes = function(slot0, slot1)
+	slot2 = slot0.contextData.chapterVO
+
+	if slot0._state == uv0.STATES.DESTROY or not ResList.ChapterResConst.IsActive(slot2) then
+		return
+	end
+
+	SplitPackConst.DownloadByLuaArr(ResList.LevelStageViewResConst.GetResource(slot0.contextData), function ()
+		slot0 = uv0.contextData.chapterVO
+
+		if uv0._state == uv1.STATES.DESTROY or not ResList.ChapterResConst.IsActive(slot0) or slot0.id ~= uv2.id then
+			return
+		end
+
+		if slot0 ~= uv2 then
+			uv0:downloadStageRes(uv3)
+
+			return
+		end
+
+		uv3()
+	end)
 end
 
 slot0.OnInit = function(slot0)
@@ -652,6 +676,12 @@ slot0.updateBombPanel = function(slot0, slot1)
 end
 
 slot0.updateFleetBuff = function(slot0)
+	slot0:downloadStageRes(function ()
+		uv0:updateFleetBuffAfterDownload()
+	end)
+end
+
+slot0.updateFleetBuffAfterDownload = function(slot0)
 	slot1 = slot0.contextData.chapterVO
 	slot2 = slot1.fleet
 	slot3 = slot1:GetShowingStrategies()
@@ -1012,6 +1042,12 @@ slot2 = Vector2(396, 128)
 slot3 = Vector2(128, 128)
 
 slot0.updateStageStrategy = function(slot0)
+	slot0:downloadStageRes(function ()
+		uv0:updateStageStrategyAfterDownload()
+	end)
+end
+
+slot0.updateStageStrategyAfterDownload = function(slot0)
 	slot3 = findTF(findTF(slot0.rightStage, "event"), "detail")
 	findTF(slot3, "items"):GetComponent(typeof(GridLayoutGroup)).cellSize = slot0._showStrategyDetail and uv0 or uv1
 	slot7 = findTF(slot5, "item")

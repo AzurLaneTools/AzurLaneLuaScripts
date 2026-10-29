@@ -22,7 +22,7 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.FloatAni = function(slot0)
-	LeanTween.moveLocalY(go(slot0.bubble), slot0.heigh + 20, 2):setFrom(slot0.heigh):setLoopPingPong()
+	LeanTween.moveLocalY(go(slot0.bubble), slot0.heigh + 10, 2):setFrom(slot0.heigh):setLoopPingPong()
 end
 
 slot0.UpdateBubble = function(slot0)

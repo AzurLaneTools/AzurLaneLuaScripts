@@ -110,7 +110,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
+				path = "OverlayCamera/Overlay/UIMain/blur_panel/select_panel_adapt/select_panel/confirm_button",
 				triggerType = {
 					1
 				},

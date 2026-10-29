@@ -48,12 +48,12 @@ slot0.getUIName = function(slot0)
 	return "PlayerVitaeShipsPage"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	slot2 = {
 		"ui/proposeShipCard"
 	}
 	slot3 = uv0.super.getResource(slot0)
-	slot4 = slot1 and slot1.showTrans
+	slot4 = slot0.contextData.showTrans
 
 	slot5 = function(slot0)
 		slot1 = getProxy(BayProxy):GetShipPhantom(slot0)

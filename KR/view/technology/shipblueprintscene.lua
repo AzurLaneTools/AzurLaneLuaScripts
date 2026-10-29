@@ -2466,47 +2466,47 @@ slot0.onBackPressed = function(slot0)
 	end
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/shipblueprintui_atlas",
 		"shipdesignicon/empty",
 		"shiptype",
 		"ui/fateStartWindow"
 	}
 
-	for slot6, slot7 in pairs(uv0.all) do
-		slot8 = uv0[slot7]
-		slot10 = tonumber(slot8.id .. "1")
-		slot11 = nil
+	for slot5, slot6 in pairs(uv0.all) do
+		slot7 = uv0[slot6]
+		slot9 = tonumber(slot7.id .. "1")
+		slot10 = nil
 
-		if pg.ship_skin_template[tonumber(slot8.id .. "0")] then
-			slot11 = pg.ship_skin_template[slot9].painting
+		if pg.ship_skin_template[tonumber(slot7.id .. "0")] then
+			slot10 = pg.ship_skin_template[slot8].painting
 		end
 
-		if slot11 then
-			if not table.contains(slot2, "shipdesignicon/" .. slot11) then
-				table.insert(slot2, "shipdesignicon/" .. slot11)
+		if slot10 then
+			if not table.contains(slot1, "shipdesignicon/" .. slot10) then
+				table.insert(slot1, "shipdesignicon/" .. slot10)
 			end
 
-			if checkABExist("shipdesignicon/" .. slot11 .. "_hx") and not table.contains(slot2, "shipdesignicon/" .. slot11 .. "_hx") then
-				table.insert(slot2, "shipdesignicon/" .. slot11 .. "_hx")
+			if checkABExist("shipdesignicon/" .. slot10 .. "_hx") and not table.contains(slot1, "shipdesignicon/" .. slot10 .. "_hx") then
+				table.insert(slot1, "shipdesignicon/" .. slot10 .. "_hx")
 			end
 
-			if not table.contains(slot2, "shipYardIcon/" .. slot11) then
-				table.insert(slot2, "shipYardIcon/" .. slot11)
+			if not table.contains(slot1, "shipYardIcon/" .. slot10) then
+				table.insert(slot1, "shipYardIcon/" .. slot10)
 			end
 		end
 
-		if pg.ship_data_template[slot10] and pg.ship_data_template[slot10].buff_list_display then
-			for slot16, slot17 in ipairs(slot12) do
-				if getSkillConfig(slot17) and not table.contains(slot2, "skillicon/" .. slot18.icon) then
-					table.insert(slot2, slot19)
+		if pg.ship_data_template[slot9] and pg.ship_data_template[slot9].buff_list_display then
+			for slot15, slot16 in ipairs(slot11) do
+				if getSkillConfig(slot16) and not table.contains(slot1, "skillicon/" .. slot17.icon) then
+					table.insert(slot1, slot18)
 				end
 			end
 		end
 	end
 
-	return table.insertto(slot2, uv1.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv1.super.getResource(slot0))
 end
 
 slot0.willExit = function(slot0)

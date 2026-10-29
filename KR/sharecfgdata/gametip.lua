@@ -12600,17 +12600,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「쿠르스크」, 「세바스토폴」 상시 건조 추가!"
+	tip = "「퀸 앤즈 리벤지」 등 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「보로실로프」 상시 건조 추가!"
+	tip = "「라임」, 「팬시」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「비스마르크 Zwei」, 「U-556·META」 상시 건조 추가!"
+	tip = "「아미티」 상시 건조 추가!"
 }
 
 
@@ -44884,16 +44884,6 @@ _G.pg.base.gametip.grapihcs3d_setting_flare = {
 }
 
 
-_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
-	tip = "전초전"
-}
-
-
-_G.pg.base.gametip.Outpost_20250904_Sidebar5 = {
-	tip = "사쿠라 엠파이어의 초대"
-}
-
-
 _G.pg.base.gametip.Outpost_20250904_Title1 = {
 	tip = "전초전"
 }
@@ -51843,6 +51833,96 @@ _G.pg.base.gametip.setting_restart_download_btn = {
 
 _G.pg.base.gametip.loading_flow_tip = {
 	tip = "모바일 데이터로 리소스를 다운로드하고 있습니다. 데이터 통신량에 주의하시기 바랍니다."
+}
+
+
+_G.pg.base.gametip.formation_suggestion = {
+	tip = "편성 가이드"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_tip = {
+	tip = "캐릭터를 탭하면 참고용 추천 장비를 확인할 수 있습니다. 소지 중인 함선의 함종·능력치를 고려하여 자유롭게 편성 및 장비를 조정해 보세요."
+}
+
+
+_G.pg.base.gametip.formation_suggestion_tip_title = {
+	tip = "추천 편성"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_any_type_ship = {
+	tip = "임의의 $1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_title = {
+	tip = "육성 팁"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_level = {
+	tip = "레벨: Lv.$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_not_get = {
+	tip = "미획득"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_got = {
+	tip = "획득 완료"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_go_dock = {
+	tip = "도크로 이동"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_recommend = {
+	tip = "추천 장비"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_transitional = {
+	tip = "대체 장비"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_copy = {
+	tip = "코드 복사"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_tip = {
+	tip = "획득 난이도가 높은 일부 장비는 다음 장비로 대체할 수도 있습니다."
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_back = {
+	tip = "편성 가이드로 돌아가기"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_obtain = {
+	tip = "획득 방법: $1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_level_recommend = {
+	tip = "권장 레벨: Lv.$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_prev_chapter = {
+	tip = "이전 장"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_next_chapter = {
+	tip = "다음 장"
 }
 
 

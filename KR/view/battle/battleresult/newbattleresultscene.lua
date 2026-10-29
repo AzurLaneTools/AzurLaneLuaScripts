@@ -8,8 +8,8 @@ slot0.getGroupName = function(slot0)
 	return "BattleScene"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/battleresult_atlas",
 		"battleresultitems/resulteffect",
 		"ui/newbattleresultstatisticspage",
@@ -25,37 +25,37 @@ slot0.getResource = function(slot0, slot1)
 	}
 
 	if NewBattleResultYumiaMaterialPage.NeedShowYumiaMaterailDrop(slot0.contextData.drops) then
-		table.insertto(slot2, slot0:GetYumiaMaterialRes(slot1))
+		table.insertto(slot1, slot0:GetYumiaMaterialRes())
 	else
-		table.insertto(slot2, slot0:GetNormalRes(slot1))
+		table.insertto(slot1, slot0:GetNormalRes())
 	end
 
-	table.insertto(slot2, uv0.super.getResource(slot0))
+	table.insertto(slot1, uv0.super.getResource(slot0))
 
-	return slot2
+	return slot1
 end
 
-slot0.GetYumiaMaterialRes = function(slot0, slot1)
-	slot2 = {}
+slot0.GetYumiaMaterialRes = function(slot0)
+	slot1 = {}
 
-	table.insertto(slot2, slot0:GetGradePageRes())
-	table.insertto(slot2, slot0:GetDisplayAwardPageRes())
-	table.insertto(slot2, slot0:GetDisplayPaintingsPageRes(slot1))
-	table.insertto(slot2, slot0:GetStatisticsPageRes(slot1))
-	table.insertto(slot2, slot0:GetYumiaMaterialPageRes())
+	table.insertto(slot1, slot0:GetGradePageRes())
+	table.insertto(slot1, slot0:GetDisplayAwardPageRes())
+	table.insertto(slot1, slot0:GetDisplayPaintingsPageRes())
+	table.insertto(slot1, slot0:GetStatisticsPageRes())
+	table.insertto(slot1, slot0:GetYumiaMaterialPageRes())
 
-	return slot2
+	return slot1
 end
 
-slot0.GetNormalRes = function(slot0, slot1)
-	slot2 = {}
+slot0.GetNormalRes = function(slot0)
+	slot1 = {}
 
-	table.insertto(slot2, slot0:GetGradePageRes())
-	table.insertto(slot2, slot0:GetDisplayAwardPageRes())
-	table.insertto(slot2, slot0:GetDisplayPaintingsPageRes(slot1))
-	table.insertto(slot2, slot0:GetStatisticsPageRes(slot1))
+	table.insertto(slot1, slot0:GetGradePageRes())
+	table.insertto(slot1, slot0:GetDisplayAwardPageRes())
+	table.insertto(slot1, slot0:GetDisplayPaintingsPageRes())
+	table.insertto(slot1, slot0:GetStatisticsPageRes())
 
-	return slot2
+	return slot1
 end
 
 slot0.GetGradePageRes = function(slot0)
@@ -85,12 +85,12 @@ slot0.GetDisplayAwardPageRes = function(slot0)
 	return {}
 end
 
-slot0.GetDisplayPaintingsPageRes = function(slot0, slot1)
+slot0.GetDisplayPaintingsPageRes = function(slot0)
 	slot2 = {
 		"ui/newbattleresultdisplaypaintingspages"
 	}
 
-	for slot7, slot8 in ipairs(slot1.oldMainShips) do
+	for slot7, slot8 in ipairs(slot0.contextData.oldMainShips) do
 		slot9 = slot8:getPainting()
 
 		table.insert(slot2, "painting/" .. slot9 .. "_n")
@@ -101,14 +101,14 @@ slot0.GetDisplayPaintingsPageRes = function(slot0, slot1)
 	return slot2
 end
 
-slot0.GetStatisticsPageRes = function(slot0, slot1)
+slot0.GetStatisticsPageRes = function(slot0)
 	slot2 = {
 		"ui/newbattleresultstatisticspage",
 		"battleresultitems/commander",
 		"ui/BattleResultMetaExpUI"
 	}
 
-	for slot7, slot8 in ipairs(slot1.oldMainShips) do
+	for slot7, slot8 in ipairs(slot0.contextData.oldMainShips) do
 		table.insert(slot2, "herohrzicon/" .. slot8:getPainting())
 	end
 

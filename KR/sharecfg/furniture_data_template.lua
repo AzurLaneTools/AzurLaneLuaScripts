@@ -31148,7 +31148,7 @@ end)()
 	}
 	pg.base.furniture_data_template[100090] = {
 		can_rotate = 0,
-		describe = "快跟上，宝藏要逃走了！",
+		describe = "얼른 따라와! 보물이 도망간다구!",
 		gain_by = "",
 		type = 11,
 		dir = 0,
@@ -31167,7 +31167,7 @@ end)()
 		belong = 1,
 		canputon = 0,
 		count = 1,
-		name = "藏宝旋风",
+		name = "보물 사이클론",
 		advice = 0,
 		id = 100090,
 		tag = 6,

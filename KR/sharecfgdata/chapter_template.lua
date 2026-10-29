@@ -753725,6 +753725,9453 @@ _G.pg.base.chapter_template[2200176] = {
 }
 
 
+_G.pg.base.chapter_template[2200181] = {
+	profiles = "폭풍 속에서 트레저 헌터와 조우한 템페스타 선단. 그들이 제시한 투항 조건은……",
+	map = 2200180,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 50,
+	bg = "",
+	bgm = "theme-tempest",
+	chapter_tag = 0,
+	id = 2200181,
+	pop_pic = "",
+	best_air_dominance = 150,
+	pos_x = "-0.248437",
+	formation = 2200180,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "0.023611",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 7,
+	unlocklevel = 0,
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "트레저 헌터",
+	chapter_name = "T1",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 4,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 5,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 5,
+	avoid_ratio = 8,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			0
+		}
+	},
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	chapter_fx = {
+		pizibao_wind_SLG = {
+			offset = {
+				200,
+				350,
+				0
+			}
+		}
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1860001,
+			15,
+			0
+		},
+		{
+			1860002,
+			20,
+			0
+		},
+		{
+			1860003,
+			30,
+			1
+		},
+		{
+			1860004,
+			15,
+			0
+		},
+		{
+			1860005,
+			20,
+			0
+		},
+		{
+			1860006,
+			30,
+			1
+		},
+		{
+			1860007,
+			15,
+			0
+		},
+		{
+			1860008,
+			20,
+			0
+		},
+		{
+			1860009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1860005,
+		1860008
+	},
+	ai_expedition_list = {
+		1860301,
+		1860302
+	},
+	boss_expedition_id = {
+		1860013
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		1,
+		0
+	},
+	ai_refresh = {
+		1
+	},
+	use_oil_limit = {},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_xl"
+	},
+	awards = {
+		{
+			2,
+			58997
+		},
+		{
+			2,
+			200300
+		},
+		{
+			2,
+			200286
+		},
+		{
+			2,
+			54011
+		},
+		{
+			2,
+			54022
+		}
+	},
+	grids = {
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			false,
+			0
+		},
+		{
+			7,
+			6,
+			false,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			6
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			0,
+			true,
+			6
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			false,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			6
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			8
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			6
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			false,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			6
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			4
+		},
+		{
+			4,
+			3,
+			false,
+			0
+		},
+		{
+			4,
+			2,
+			false,
+			0
+		},
+		{
+			4,
+			1,
+			false,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			false,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			16
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			12
+		},
+		{
+			3,
+			1,
+			true,
+			12
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			6
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			4
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			4
+		},
+		{
+			1,
+			8,
+			false,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			6
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			6
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			6
+		},
+		{
+			0,
+			3,
+			false,
+			0
+		},
+		{
+			0,
+			2,
+			true,
+			1
+		},
+		{
+			0,
+			1,
+			true,
+			1
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			6,
+			"haidao_2x2_2",
+			60,
+			-44
+		},
+		{
+			5,
+			2,
+			"haidao_1x1_2",
+			0,
+			0
+		},
+		{
+			4,
+			1,
+			"haidao_3x1_1",
+			107,
+			-7
+		},
+		{
+			3,
+			6,
+			"haidao_2x1_1",
+			56,
+			0
+		},
+		{
+			1,
+			8,
+			"haidao_1x1_3",
+			0,
+			0
+		},
+		{
+			0,
+			3,
+			"haidao_1x1_2",
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			"haidao_1x1_1",
+			0,
+			0
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_haidao",
+		45,
+		20,
+		-266,
+		-338,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		2,
+		21,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			5,
+			4
+		},
+		{
+			3,
+			2
+		},
+		{
+			1,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		200618,
+		201149
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
+_G.pg.base.chapter_template[2200182] = {
+	profiles = "파도 소리를 뒤덮는 포화의 굉음. 해무에서 모습을 드러낸 것은 「보물선」이라 불리는 건스웨이였다.",
+	map = 2200180,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 295,
+	bg = "",
+	bgm = "theme-tempest",
+	chapter_tag = 0,
+	id = 2200182,
+	pop_pic = "",
+	best_air_dominance = 385,
+	pos_x = "-0.117969",
+	formation = 2200180,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "-0.430556",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 8,
+	unlocklevel = 0,
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "보물선의 순항",
+	chapter_name = "T2",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 4,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 5,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 6,
+	avoid_ratio = 9,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			2200181
+		}
+	},
+	scale = {
+		0.49,
+		0.35,
+		1.5
+	},
+	chapter_fx = {
+		pizibao_wind_SLG = {
+			offset = {
+				200,
+				350,
+				0
+			}
+		}
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1861001,
+			15,
+			0
+		},
+		{
+			1861002,
+			20,
+			0
+		},
+		{
+			1861003,
+			30,
+			1
+		},
+		{
+			1861004,
+			15,
+			0
+		},
+		{
+			1861005,
+			20,
+			0
+		},
+		{
+			1861006,
+			30,
+			1
+		},
+		{
+			1861007,
+			15,
+			0
+		},
+		{
+			1861008,
+			20,
+			0
+		},
+		{
+			1861009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1861005,
+		1861008
+	},
+	ai_expedition_list = {
+		1861301,
+		1861302,
+		1861303
+	},
+	boss_expedition_id = {
+		1861013
+	},
+	enemy_refresh = {
+		2,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		1,
+		0
+	},
+	ai_refresh = {
+		1
+	},
+	use_oil_limit = {},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_haigu_quzhu"
+	},
+	awards = {
+		{
+			2,
+			58997
+		},
+		{
+			2,
+			200301
+		},
+		{
+			2,
+			200287
+		},
+		{
+			2,
+			54012
+		},
+		{
+			2,
+			54022
+		}
+	},
+	grids = {
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			6
+		},
+		{
+			7,
+			6,
+			false,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			6
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			6
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			6
+		},
+		{
+			6,
+			2,
+			false,
+			0
+		},
+		{
+			6,
+			1,
+			false,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			4
+		},
+		{
+			5,
+			7,
+			true,
+			16
+		},
+		{
+			5,
+			6,
+			true,
+			4
+		},
+		{
+			5,
+			5,
+			false,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			6
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			4
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			false,
+			0
+		},
+		{
+			4,
+			1,
+			false,
+			0
+		},
+		{
+			4,
+			0,
+			false,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			12
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			12
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			8
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			6
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			12
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			false,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			6
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			false,
+			0
+		},
+		{
+			1,
+			4,
+			false,
+			0
+		},
+		{
+			1,
+			3,
+			false,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			6
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			1
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			1
+		},
+		{
+			0,
+			5,
+			false,
+			0
+		},
+		{
+			0,
+			4,
+			false,
+			0
+		},
+		{
+			0,
+			3,
+			false,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			6,
+			"haidao_1x1_3",
+			0,
+			0
+		},
+		{
+			6,
+			1,
+			"haidao_2x1_1",
+			50,
+			0
+		},
+		{
+			5,
+			5,
+			"haidao_1x1_1",
+			0,
+			0
+		},
+		{
+			4,
+			0,
+			"haidao_3x1_1",
+			104,
+			-4
+		},
+		{
+			3,
+			7,
+			"haidao_1x1_2",
+			0,
+			0
+		},
+		{
+			0,
+			3,
+			"haidao_3x3_1",
+			81,
+			-63
+		},
+		{
+			0,
+			1,
+			"haidao_2x1_2",
+			46,
+			-3
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_haidao",
+		45,
+		20,
+		-284,
+		-336,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		4,
+		22,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			5,
+			4
+		},
+		{
+			3,
+			2
+		},
+		{
+			1,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		200618,
+		201149
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
+_G.pg.base.chapter_template[2200183] = {
+	profiles = "황폐해진 유적을 발견한 동료들. 과연 이곳에서 단서를 찾을 수 있을까…?",
+	map = 2200180,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 605,
+	bg = "",
+	bgm = "theme-tempest",
+	chapter_tag = 0,
+	id = 2200183,
+	pop_pic = "",
+	best_air_dominance = 790,
+	pos_x = "0.165625",
+	formation = 2200180,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "-0.040278",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 9,
+	unlocklevel = 0,
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "젊어지는 샘물 유적",
+	chapter_name = "T3",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 5,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 5,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 7,
+	avoid_ratio = 10,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			2200182
+		}
+	},
+	scale = {
+		0.61,
+		0.41,
+		1.5
+	},
+	chapter_fx = {
+		pizibao_wind_SLG = {
+			offset = {
+				200,
+				350,
+				0
+			}
+		}
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1862001,
+			15,
+			0
+		},
+		{
+			1862002,
+			20,
+			0
+		},
+		{
+			1862003,
+			30,
+			1
+		},
+		{
+			1862004,
+			15,
+			0
+		},
+		{
+			1862005,
+			20,
+			0
+		},
+		{
+			1862006,
+			30,
+			1
+		},
+		{
+			1862007,
+			15,
+			0
+		},
+		{
+			1862008,
+			20,
+			0
+		},
+		{
+			1862009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1862005,
+		1862008
+	},
+	ai_expedition_list = {
+		1862301
+	},
+	boss_expedition_id = {
+		1862013
+	},
+	enemy_refresh = {
+		2,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		1,
+		0
+	},
+	ai_refresh = {
+		2
+	},
+	use_oil_limit = {},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_ghost_xl"
+	},
+	awards = {
+		{
+			2,
+			58997
+		},
+		{
+			2,
+			200302
+		},
+		{
+			2,
+			200288
+		},
+		{
+			2,
+			54012
+		},
+		{
+			2,
+			54023
+		}
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			false,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			false,
+			0
+		},
+		{
+			7,
+			3,
+			false,
+			0
+		},
+		{
+			7,
+			2,
+			false,
+			0
+		},
+		{
+			7,
+			1,
+			false,
+			0
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			8
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			6
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			false,
+			0
+		},
+		{
+			6,
+			3,
+			false,
+			0
+		},
+		{
+			6,
+			2,
+			false,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			1
+		},
+		{
+			6,
+			0,
+			true,
+			1
+		},
+		{
+			5,
+			9,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			false,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			false,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			6
+		},
+		{
+			5,
+			4,
+			false,
+			0
+		},
+		{
+			5,
+			3,
+			false,
+			0
+		},
+		{
+			5,
+			2,
+			false,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			6
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			6
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			12
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			6
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			12
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			12
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			false,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			6
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			6
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			16
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			false,
+			0
+		},
+		{
+			1,
+			9,
+			true,
+			6
+		},
+		{
+			1,
+			8,
+			true,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			6
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			false,
+			0
+		},
+		{
+			1,
+			4,
+			false,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			4
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			4
+		},
+		{
+			1,
+			0,
+			false,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			false,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			true,
+			4
+		},
+		{
+			0,
+			1,
+			true,
+			0
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			6,
+			"haidao_1x1_2",
+			0,
+			0
+		},
+		{
+			7,
+			0,
+			"haidao_2x1_2",
+			53,
+			0
+		},
+		{
+			5,
+			8,
+			"haidao_1x1_1",
+			0,
+			0
+		},
+		{
+			5,
+			6,
+			"haidao_1x1_2",
+			0,
+			0
+		},
+		{
+			5,
+			2,
+			"haidao_3x3_1",
+			73,
+			-80
+		},
+		{
+			2,
+			8,
+			"haidao_1x1_3",
+			0,
+			0
+		},
+		{
+			1,
+			4,
+			"haidao_2x2_1",
+			57,
+			-42
+		},
+		{
+			1,
+			0,
+			"haidao_1x2_1",
+			0,
+			-50
+		},
+		{
+			0,
+			7,
+			"haidao_3x1_1",
+			99,
+			-2
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_haidao",
+		45,
+		20,
+		-146,
+		-70,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		6,
+		22,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			5,
+			4
+		},
+		{
+			3,
+			2
+		},
+		{
+			1,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		200620,
+		201149
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
+_G.pg.base.chapter_template[2200184] = {
+	profiles = "바람 한 점도, 암류조차 느껴지지 않는 바다. 이곳이 바로 「잠자는 바다」인가?",
+	map = 2200181,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 600,
+	bg = "",
+	bgm = "battle-nightmare-theme",
+	chapter_tag = 0,
+	id = 2200184,
+	pop_pic = "",
+	best_air_dominance = 780,
+	pos_x = "-0.26875",
+	formation = 2200181,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "-0.197222",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 10,
+	unlocklevel = 0,
+	chapter_fx = "",
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "잠자는 바다",
+	chapter_name = "T4",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 5,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 8,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 8,
+	avoid_ratio = 11,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			2200183
+		}
+	},
+	scale = {
+		0.49,
+		0.35,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1863001,
+			50,
+			0
+		},
+		{
+			1863002,
+			80,
+			0
+		},
+		{
+			1863003,
+			60,
+			0
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {},
+	ai_expedition_list = {
+		1863301
+	},
+	boss_expedition_id = {
+		1863013
+	},
+	enemy_refresh = {
+		3,
+		2,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		0
+	},
+	ai_refresh = {
+		2
+	},
+	use_oil_limit = {},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_haigu_zhongxun"
+	},
+	awards = {
+		{
+			2,
+			58997
+		},
+		{
+			2,
+			200303
+		},
+		{
+			2,
+			200289
+		},
+		{
+			2,
+			54012
+		},
+		{
+			2,
+			54024
+		}
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			6
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			6
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			false,
+			0
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			8
+		},
+		{
+			6,
+			4,
+			true,
+			8
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			false,
+			0
+		},
+		{
+			6,
+			0,
+			false,
+			0
+		},
+		{
+			5,
+			9,
+			false,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			6
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			6
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			false,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			6
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			6
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			16
+		},
+		{
+			4,
+			4,
+			true,
+			16
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			6
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			6
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			6
+		},
+		{
+			3,
+			4,
+			true,
+			6
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			false,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			6
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			false,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			12
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			12
+		},
+		{
+			2,
+			2,
+			false,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			6
+		},
+		{
+			1,
+			9,
+			true,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			true,
+			0
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			false,
+			0
+		},
+		{
+			0,
+			6,
+			false,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			1
+		},
+		{
+			0,
+			4,
+			true,
+			1
+		},
+		{
+			0,
+			3,
+			false,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			8,
+			"fengfanv2_1x1_1",
+			0,
+			7
+		},
+		{
+			6,
+			0,
+			"fengfanv2_2x2_2",
+			57,
+			-35
+		},
+		{
+			5,
+			9,
+			"fengfanv2_1x1_2",
+			0,
+			0
+		},
+		{
+			5,
+			0,
+			"fengfanv2_1x1_3",
+			0,
+			0
+		},
+		{
+			2,
+			7,
+			"fengfanv2_1x2_2",
+			0,
+			-37
+		},
+		{
+			2,
+			2,
+			"fengfanv2_1x2_1",
+			-4,
+			-41
+		},
+		{
+			0,
+			6,
+			"fengfanv2_3x1_2",
+			101,
+			0
+		},
+		{
+			0,
+			1,
+			"fengfanv2_3x1_1",
+			110,
+			4
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_fengfanv2",
+		45,
+		20,
+		-333,
+		-364,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		8,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			8,
+			6
+		},
+		{
+			5,
+			3
+		},
+		{
+			2,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		200620,
+		201152
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
+_G.pg.base.chapter_template[2200185] = {
+	profiles = "고요한 영혼은 골격 괴수들의 혼이자, 그 몸체를 움직이는 원동력이었다.",
+	map = 2200181,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 600,
+	bg = "",
+	bgm = "battle-nightmare-theme",
+	chapter_tag = 0,
+	id = 2200185,
+	pop_pic = "",
+	best_air_dominance = 780,
+	pos_x = "0.039062",
+	formation = 2200181,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "-0.430556",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 11,
+	unlocklevel = 0,
+	chapter_fx = "",
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "고요한 영혼",
+	chapter_name = "T5",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 6,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 8,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 8,
+	avoid_ratio = 12,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			2200184
+		}
+	},
+	scale = {
+		0.49,
+		0.35,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1864001,
+			50,
+			0
+		},
+		{
+			1864002,
+			80,
+			0
+		},
+		{
+			1864003,
+			60,
+			0
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {},
+	ai_expedition_list = {
+		1864301
+	},
+	boss_expedition_id = {
+		1864013
+	},
+	enemy_refresh = {
+		3,
+		2,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		0
+	},
+	ai_refresh = {
+		2,
+		1
+	},
+	use_oil_limit = {
+		20,
+		30,
+		15
+	},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_haigu_boss01"
+	},
+	awards = {
+		{
+			2,
+			58997
+		},
+		{
+			2,
+			200304
+		},
+		{
+			2,
+			200290
+		},
+		{
+			2,
+			54013
+		},
+		{
+			2,
+			54024
+		}
+	},
+	grids = {
+		{
+			7,
+			11,
+			true,
+			0
+		},
+		{
+			7,
+			10,
+			true,
+			0
+		},
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			6
+		},
+		{
+			7,
+			7,
+			false,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			6
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			false,
+			0
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			11,
+			true,
+			0
+		},
+		{
+			6,
+			10,
+			true,
+			6
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			false,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			6
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			6
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			11,
+			true,
+			0
+		},
+		{
+			5,
+			10,
+			false,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			6
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			false,
+			0
+		},
+		{
+			5,
+			1,
+			false,
+			0
+		},
+		{
+			5,
+			0,
+			false,
+			0
+		},
+		{
+			4,
+			11,
+			true,
+			0
+		},
+		{
+			4,
+			10,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			8
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			6
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			12
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			0,
+			false,
+			0
+		},
+		{
+			3,
+			11,
+			true,
+			0
+		},
+		{
+			3,
+			10,
+			false,
+			0
+		},
+		{
+			3,
+			9,
+			false,
+			0
+		},
+		{
+			3,
+			8,
+			false,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			6
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			12
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			1
+		},
+		{
+			2,
+			11,
+			true,
+			0
+		},
+		{
+			2,
+			10,
+			false,
+			0
+		},
+		{
+			2,
+			9,
+			false,
+			0
+		},
+		{
+			2,
+			8,
+			false,
+			0
+		},
+		{
+			2,
+			7,
+			false,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			true,
+			16
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			12
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			1
+		},
+		{
+			1,
+			11,
+			true,
+			0
+		},
+		{
+			1,
+			10,
+			false,
+			0
+		},
+		{
+			1,
+			9,
+			false,
+			0
+		},
+		{
+			1,
+			8,
+			false,
+			0
+		},
+		{
+			1,
+			7,
+			false,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			6
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			6
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			12
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			11,
+			true,
+			0
+		},
+		{
+			0,
+			10,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			true,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			6
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			false,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			1,
+			"fengfanv2_1x1_3",
+			0,
+			6
+		},
+		{
+			6,
+			6,
+			"fengfanv2_2x2_1",
+			56,
+			-37
+		},
+		{
+			5,
+			10,
+			"fengfanv2_1x1_3",
+			0,
+			5
+		},
+		{
+			5,
+			0,
+			"fengfanv2_3x1_2",
+			101,
+			0
+		},
+		{
+			4,
+			0,
+			"fengfanv2_1x1_2",
+			0,
+			0
+		},
+		{
+			3,
+			4,
+			"fengfanv2_1x1_1",
+			0,
+			13
+		},
+		{
+			1,
+			7,
+			"fengfanv2_sp",
+			149,
+			-63
+		},
+		{
+			0,
+			1,
+			"fengfanv2_3x1_1",
+			103,
+			0
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_fengfanv2",
+		45,
+		20,
+		-210,
+		-185,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			8,
+			6
+		},
+		{
+			5,
+			3
+		},
+		{
+			2,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		201152,
+		201157
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
+_G.pg.base.chapter_template[2200186] = {
+	profiles = "비바람이 내리는 가운데, 여신의 가호가 내린 화포가 찬가를 노래한다.",
+	map = 2200181,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 600,
+	bg = "",
+	bgm = "battle-nightmare-theme",
+	chapter_tag = 0,
+	id = 2200186,
+	pop_pic = "",
+	best_air_dominance = 780,
+	pos_x = "0.171094",
+	formation = 2200181,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "0.011111",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 11,
+	unlocklevel = 0,
+	chapter_fx = "",
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "비바람의 교향곡",
+	chapter_name = "T6",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 6,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 8,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 8,
+	avoid_ratio = 12,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			2200185
+		}
+	},
+	scale = {
+		0.49,
+		0.35,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1865001,
+			50,
+			0
+		},
+		{
+			1865002,
+			80,
+			0
+		},
+		{
+			1865003,
+			60,
+			0
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {},
+	ai_expedition_list = {
+		1865301
+	},
+	boss_expedition_id = {
+		1865013
+	},
+	enemy_refresh = {
+		10
+	},
+	elite_refresh = {
+		0
+	},
+	ai_refresh = {
+		3
+	},
+	use_oil_limit = {
+		32,
+		43,
+		16
+	},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_lingti_boss01"
+	},
+	awards = {
+		{
+			2,
+			58997
+		},
+		{
+			2,
+			200305
+		},
+		{
+			2,
+			200291
+		},
+		{
+			2,
+			54013
+		},
+		{
+			2,
+			54024
+		}
+	},
+	grids = {
+		{
+			9,
+			10,
+			true,
+			0
+		},
+		{
+			9,
+			9,
+			true,
+			0
+		},
+		{
+			9,
+			8,
+			true,
+			0
+		},
+		{
+			9,
+			7,
+			false,
+			0
+		},
+		{
+			9,
+			6,
+			true,
+			0
+		},
+		{
+			9,
+			5,
+			true,
+			0
+		},
+		{
+			9,
+			4,
+			true,
+			0
+		},
+		{
+			9,
+			3,
+			false,
+			0
+		},
+		{
+			9,
+			2,
+			true,
+			0
+		},
+		{
+			9,
+			1,
+			true,
+			0
+		},
+		{
+			9,
+			0,
+			true,
+			0
+		},
+		{
+			8,
+			10,
+			true,
+			0
+		},
+		{
+			8,
+			9,
+			false,
+			0
+		},
+		{
+			8,
+			8,
+			false,
+			0
+		},
+		{
+			8,
+			7,
+			false,
+			0
+		},
+		{
+			8,
+			6,
+			false,
+			0
+		},
+		{
+			8,
+			5,
+			true,
+			0
+		},
+		{
+			8,
+			4,
+			false,
+			0
+		},
+		{
+			8,
+			3,
+			false,
+			0
+		},
+		{
+			8,
+			2,
+			false,
+			0
+		},
+		{
+			8,
+			1,
+			false,
+			0
+		},
+		{
+			8,
+			0,
+			true,
+			0
+		},
+		{
+			7,
+			10,
+			true,
+			0
+		},
+		{
+			7,
+			9,
+			false,
+			0
+		},
+		{
+			7,
+			8,
+			false,
+			0
+		},
+		{
+			7,
+			7,
+			false,
+			0
+		},
+		{
+			7,
+			6,
+			false,
+			0
+		},
+		{
+			7,
+			5,
+			false,
+			0
+		},
+		{
+			7,
+			4,
+			false,
+			0
+		},
+		{
+			7,
+			3,
+			false,
+			0
+		},
+		{
+			7,
+			2,
+			false,
+			0
+		},
+		{
+			7,
+			1,
+			false,
+			0
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			10,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			false,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			false,
+			0
+		},
+		{
+			6,
+			3,
+			false,
+			0
+		},
+		{
+			6,
+			2,
+			false,
+			0
+		},
+		{
+			6,
+			1,
+			false,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			10,
+			false,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			1
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			1
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			false,
+			0
+		},
+		{
+			4,
+			10,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			6
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			16
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			6
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			10,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			6
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			6
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			12
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			6
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			6
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			10,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			6
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			12
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			12
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			6
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			0
+		},
+		{
+			1,
+			10,
+			false,
+			0
+		},
+		{
+			1,
+			9,
+			true,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			6
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			8
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			6
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			false,
+			0
+		},
+		{
+			0,
+			10,
+			false,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			false,
+			0
+		},
+		{
+			0,
+			5,
+			false,
+			0
+		},
+		{
+			0,
+			4,
+			false,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			true,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			9,
+			7,
+			"fengfanv2_1x1_3",
+			0,
+			3
+		},
+		{
+			9,
+			3,
+			"fengfanv2_1x1_3",
+			0,
+			3
+		},
+		{
+			7,
+			5,
+			"fengfanv2_1x1_1",
+			9,
+			9
+		},
+		{
+			6,
+			6,
+			"fengfanv2_sp",
+			139,
+			-71
+		},
+		{
+			6,
+			1,
+			"fengfanv2_sp",
+			130,
+			-71
+		},
+		{
+			5,
+			10,
+			"fengfanv2_1x1_2",
+			0,
+			0
+		},
+		{
+			5,
+			0,
+			"fengfanv2_1x1_2",
+			0,
+			0
+		},
+		{
+			0,
+			9,
+			"fengfanv2_2x2_1",
+			59,
+			-40
+		},
+		{
+			0,
+			4,
+			"fengfanv2_3x1_1",
+			108,
+			2
+		},
+		{
+			0,
+			1,
+			"fengfanv2_1x1_3",
+			0,
+			9
+		},
+		{
+			0,
+			0,
+			"fengfanv2_1x2_2",
+			-7,
+			-34
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_fengfanv2",
+		45,
+		20,
+		-330,
+		-126,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			8,
+			6
+		},
+		{
+			5,
+			3
+		},
+		{
+			2,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		201152,
+		201155
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
+_G.pg.base.chapter_template[2200191] = {
+	profiles = "어느 날, 별장에서 연회를 즐기고 있던 템페스타 함대에 한 통의 초대장이 도착하는데……",
+	map = 2200190,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 50,
+	bg = "",
+	bgm = "theme-tempest-light",
+	chapter_tag = 0,
+	id = 2200191,
+	pop_pic = "",
+	best_air_dominance = 150,
+	pos_x = "-0.248437",
+	formation = 2200190,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "0.023611",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 7,
+	unlocklevel = 0,
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "초대장",
+	chapter_name = "T1",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 4,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 5,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 5,
+	avoid_ratio = 8,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			0
+		}
+	},
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	chapter_fx = {
+		pizibao_wind_SLG = {
+			offset = {
+				200,
+				350,
+				0
+			}
+		}
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1970001,
+			15,
+			0
+		},
+		{
+			1970002,
+			20,
+			0
+		},
+		{
+			1970003,
+			30,
+			1
+		},
+		{
+			1970004,
+			15,
+			0
+		},
+		{
+			1970005,
+			20,
+			0
+		},
+		{
+			1970006,
+			30,
+			1
+		},
+		{
+			1970007,
+			15,
+			0
+		},
+		{
+			1970008,
+			20,
+			0
+		},
+		{
+			1970009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1970002,
+		1970005,
+		1970008
+	},
+	ai_expedition_list = {
+		1970301
+	},
+	boss_expedition_id = {
+		1970013
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		1,
+		0
+	},
+	ai_refresh = {
+		1
+	},
+	use_oil_limit = {},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_haigu_zhongxun"
+	},
+	awards = {
+		{
+			2,
+			200597
+		},
+		{
+			2,
+			200612
+		},
+		{
+			2,
+			200598
+		},
+		{
+			2,
+			54011
+		},
+		{
+			2,
+			54022
+		}
+	},
+	grids = {
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			false,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			false,
+			0
+		},
+		{
+			7,
+			3,
+			false,
+			0
+		},
+		{
+			7,
+			2,
+			false,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			6
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			6
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			4
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			false,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			6
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			6
+		},
+		{
+			4,
+			4,
+			false,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			12
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			1
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			6
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			12
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			1
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			8
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			16
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			false,
+			0
+		},
+		{
+			1,
+			8,
+			false,
+			0
+		},
+		{
+			1,
+			7,
+			false,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			8
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			4
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			4
+		},
+		{
+			1,
+			0,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			false,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			false,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			true,
+			6
+		},
+		{
+			0,
+			1,
+			true,
+			0
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			7,
+			"fengfanv3_1_1x1_2",
+			0,
+			0
+		},
+		{
+			7,
+			2,
+			"fengfanv3_1_3x1_2",
+			106,
+			0
+		},
+		{
+			7,
+			0,
+			"fengfanv3_1_1x1_2",
+			0,
+			0
+		},
+		{
+			5,
+			6,
+			"fengfanv3_1_1x1_3",
+			0,
+			0
+		},
+		{
+			3,
+			4,
+			"fengfanv3_1_1x2_1",
+			0,
+			-42
+		},
+		{
+			1,
+			0,
+			"fengfanv3_1_1x2_2",
+			4,
+			-42
+		},
+		{
+			0,
+			7,
+			"fengfanv3_1_2x2_2",
+			36,
+			-48
+		},
+		{
+			0,
+			4,
+			"fengfanv3_1_1x1_1",
+			15,
+			5
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_fengfanv3_1",
+		45,
+		20,
+		-147,
+		-44,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		2,
+		21,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			5,
+			4
+		},
+		{
+			3,
+			2
+		},
+		{
+			1,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		201149
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
+_G.pg.base.chapter_template[2200192] = {
+	profiles = "노랫소리로 선원들을 유혹해 바다에 빠뜨린다는 괴물이 존재한다는 마물의 바다. 그저 소문으로 치부했지만……",
+	map = 2200190,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 295,
+	bg = "",
+	bgm = "theme-tempest-light",
+	chapter_tag = 0,
+	id = 2200192,
+	pop_pic = "",
+	best_air_dominance = 385,
+	pos_x = "-0.117969",
+	formation = 2200190,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "-0.430556",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 8,
+	unlocklevel = 0,
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "마물의 바다",
+	chapter_name = "T2",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 4,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 5,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 6,
+	avoid_ratio = 9,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			2200191
+		}
+	},
+	scale = {
+		0.49,
+		0.35,
+		1.5
+	},
+	chapter_fx = {
+		pizibao_wind_SLG = {
+			offset = {
+				200,
+				350,
+				0
+			}
+		}
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1971001,
+			15,
+			0
+		},
+		{
+			1971002,
+			20,
+			0
+		},
+		{
+			1971003,
+			30,
+			1
+		},
+		{
+			1971004,
+			15,
+			0
+		},
+		{
+			1971005,
+			20,
+			0
+		},
+		{
+			1971006,
+			30,
+			1
+		},
+		{
+			1971007,
+			15,
+			0
+		},
+		{
+			1971008,
+			20,
+			0
+		},
+		{
+			1971009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1971002,
+		1971005,
+		1971008
+	},
+	ai_expedition_list = {
+		1971301
+	},
+	boss_expedition_id = {
+		1971013
+	},
+	enemy_refresh = {
+		2,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		1,
+		0
+	},
+	ai_refresh = {
+		1
+	},
+	use_oil_limit = {},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_haigu_zhanlie"
+	},
+	awards = {
+		{
+			2,
+			200597
+		},
+		{
+			2,
+			200613
+		},
+		{
+			2,
+			200599
+		},
+		{
+			2,
+			54012
+		},
+		{
+			2,
+			54022
+		}
+	},
+	grids = {
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			6
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			6
+		},
+		{
+			7,
+			2,
+			false,
+			0
+		},
+		{
+			7,
+			1,
+			false,
+			0
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			8
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			6
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			6
+		},
+		{
+			5,
+			7,
+			false,
+			0
+		},
+		{
+			5,
+			6,
+			false,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			6
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			6
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			6
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			4
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			false,
+			0
+		},
+		{
+			4,
+			2,
+			false,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			12
+		},
+		{
+			4,
+			0,
+			false,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			6
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			4
+		},
+		{
+			3,
+			3,
+			false,
+			0
+		},
+		{
+			3,
+			2,
+			false,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			false,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			4
+		},
+		{
+			2,
+			5,
+			true,
+			16
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			12
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			false,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			12
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			1
+		},
+		{
+			1,
+			0,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			false,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			true,
+			1
+		},
+		{
+			0,
+			1,
+			true,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			0,
+			"fengfanv3_1_3x1_1",
+			97,
+			11
+		},
+		{
+			5,
+			6,
+			"fengfanv3_1_2x2_1",
+			49,
+			-33
+		},
+		{
+			4,
+			0,
+			"fengfanv3_1_1x1_2",
+			0,
+			0
+		},
+		{
+			3,
+			2,
+			"fengfanv3_1_2x2_3",
+			54,
+			0
+		},
+		{
+			2,
+			8,
+			"fengfanv3_1_1x1_1",
+			6,
+			6
+		},
+		{
+			0,
+			6,
+			"fengfanv3_1_1x2_1",
+			0,
+			-39
+		},
+		{
+			0,
+			0,
+			"fengfanv3_1_1x2_2",
+			0,
+			-32
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_fengfanv3_1",
+		45,
+		20,
+		-205,
+		-368,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		4,
+		22,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			5,
+			4
+		},
+		{
+			3,
+			2
+		},
+		{
+			1,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		201149
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
+_G.pg.base.chapter_template[2200193] = {
+	profiles = "별빛의 인도를 받아, 템페스타는 마침내 목적지인 자유 군도에 도착했다.",
+	map = 2200190,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 605,
+	bg = "",
+	bgm = "theme-tempest-light",
+	chapter_tag = 0,
+	id = 2200193,
+	pop_pic = "",
+	best_air_dominance = 790,
+	pos_x = "0.165625",
+	formation = 2200190,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "-0.040278",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 9,
+	unlocklevel = 0,
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "군도 첫 방문",
+	chapter_name = "T3",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 5,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 5,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 7,
+	avoid_ratio = 10,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			2200192
+		}
+	},
+	scale = {
+		0.61,
+		0.41,
+		1.5
+	},
+	chapter_fx = {
+		pizibao_wind_SLG = {
+			offset = {
+				200,
+				350,
+				0
+			}
+		}
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1972001,
+			15,
+			0
+		},
+		{
+			1972002,
+			20,
+			0
+		},
+		{
+			1972003,
+			30,
+			1
+		},
+		{
+			1972004,
+			15,
+			0
+		},
+		{
+			1972005,
+			20,
+			0
+		},
+		{
+			1972006,
+			30,
+			1
+		},
+		{
+			1972007,
+			15,
+			0
+		},
+		{
+			1972008,
+			20,
+			0
+		},
+		{
+			1972009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1972002,
+		1972005,
+		1972008
+	},
+	ai_expedition_list = {
+		1972301,
+		1972302
+	},
+	boss_expedition_id = {
+		1972013
+	},
+	enemy_refresh = {
+		2,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		1,
+		0
+	},
+	ai_refresh = {
+		2
+	},
+	use_oil_limit = {},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_haigu_hangmu"
+	},
+	awards = {
+		{
+			2,
+			200597
+		},
+		{
+			2,
+			200614
+		},
+		{
+			2,
+			200600
+		},
+		{
+			2,
+			54012
+		},
+		{
+			2,
+			54023
+		}
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			false,
+			0
+		},
+		{
+			7,
+			6,
+			false,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			false,
+			0
+		},
+		{
+			7,
+			2,
+			false,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			false,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			1
+		},
+		{
+			6,
+			4,
+			true,
+			1
+		},
+		{
+			6,
+			3,
+			false,
+			0
+		},
+		{
+			6,
+			2,
+			false,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			6
+		},
+		{
+			5,
+			0,
+			false,
+			0
+		},
+		{
+			4,
+			9,
+			false,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			12
+		},
+		{
+			4,
+			5,
+			true,
+			8
+		},
+		{
+			4,
+			4,
+			true,
+			8
+		},
+		{
+			4,
+			3,
+			true,
+			12
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			4
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			16
+		},
+		{
+			3,
+			5,
+			true,
+			12
+		},
+		{
+			3,
+			4,
+			true,
+			12
+		},
+		{
+			3,
+			3,
+			true,
+			16
+		},
+		{
+			3,
+			2,
+			false,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			6
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			6
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			6
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			6
+		},
+		{
+			1,
+			9,
+			false,
+			0
+		},
+		{
+			1,
+			8,
+			false,
+			0
+		},
+		{
+			1,
+			7,
+			false,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			4
+		},
+		{
+			1,
+			5,
+			false,
+			0
+		},
+		{
+			1,
+			4,
+			false,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			4
+		},
+		{
+			1,
+			2,
+			false,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			6
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			true,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			true,
+			0
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			6,
+			"fengfanv3_1_2x2_2",
+			45,
+			-47
+		},
+		{
+			6,
+			2,
+			"fengfanv3_1_2x2_2",
+			41,
+			-50
+		},
+		{
+			5,
+			0,
+			"fengfanv3_1_1x1_3",
+			0,
+			0
+		},
+		{
+			4,
+			9,
+			"fengfanv3_1_1x1_1",
+			8,
+			5
+		},
+		{
+			3,
+			2,
+			"fengfanv3_1_1x1_2",
+			0,
+			0
+		},
+		{
+			1,
+			7,
+			"fengfanv3_1_3x1_2",
+			103,
+			0
+		},
+		{
+			1,
+			4,
+			"fengfanv3_1_2x2_3",
+			53,
+			-9
+		},
+		{
+			0,
+			2,
+			"fengfanv3_1_1x2_1",
+			-1,
+			-40
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_fengfanv3_1",
+		45,
+		20,
+		-269,
+		-22,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		6,
+		22,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			5,
+			4
+		},
+		{
+			3,
+			2
+		},
+		{
+			1,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		201149
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
+_G.pg.base.chapter_template[2200194] = {
+	profiles = "파도처럼 몰려오는 골격 괴수들. 벽운의 수호자와 여신 교회의 협력도 이제 불가피한 상황……",
+	map = 2200191,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 600,
+	bg = "",
+	bgm = "story-temepest-2",
+	chapter_tag = 0,
+	id = 2200194,
+	pop_pic = "",
+	best_air_dominance = 780,
+	pos_x = "-0.26875",
+	formation = 2200191,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "-0.197222",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 10,
+	unlocklevel = 0,
+	chapter_fx = "",
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "임기응변",
+	chapter_name = "T4",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 5,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 8,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 8,
+	avoid_ratio = 11,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			2200193
+		}
+	},
+	scale = {
+		0.49,
+		0.35,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1973001,
+			15,
+			0
+		},
+		{
+			1973002,
+			20,
+			0
+		},
+		{
+			1973003,
+			30,
+			1
+		},
+		{
+			1973004,
+			15,
+			0
+		},
+		{
+			1973005,
+			20,
+			0
+		},
+		{
+			1973006,
+			30,
+			1
+		},
+		{
+			1973007,
+			15,
+			0
+		},
+		{
+			1973008,
+			20,
+			0
+		},
+		{
+			1973009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1973002,
+		1973005,
+		1973008
+	},
+	ai_expedition_list = {
+		1973301,
+		1973302
+	},
+	boss_expedition_id = {
+		1973013
+	},
+	enemy_refresh = {
+		2,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		1,
+		0
+	},
+	ai_refresh = {
+		2
+	},
+	use_oil_limit = {},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_lingti_hangmu"
+	},
+	awards = {
+		{
+			2,
+			200597
+		},
+		{
+			2,
+			200615
+		},
+		{
+			2,
+			200601
+		},
+		{
+			2,
+			54012
+		},
+		{
+			2,
+			54024
+		}
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			false,
+			0
+		},
+		{
+			7,
+			6,
+			false,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			8
+		},
+		{
+			7,
+			4,
+			true,
+			8
+		},
+		{
+			7,
+			3,
+			false,
+			0
+		},
+		{
+			7,
+			2,
+			false,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			false,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			12
+		},
+		{
+			6,
+			4,
+			true,
+			12
+		},
+		{
+			6,
+			3,
+			false,
+			0
+		},
+		{
+			6,
+			2,
+			false,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			12
+		},
+		{
+			5,
+			5,
+			true,
+			16
+		},
+		{
+			5,
+			4,
+			true,
+			16
+		},
+		{
+			5,
+			3,
+			true,
+			12
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			6
+		},
+		{
+			5,
+			0,
+			false,
+			0
+		},
+		{
+			4,
+			9,
+			false,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			4
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			1
+		},
+		{
+			3,
+			4,
+			true,
+			1
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			false,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			6
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			6
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			6
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			6
+		},
+		{
+			1,
+			9,
+			false,
+			0
+		},
+		{
+			1,
+			8,
+			false,
+			0
+		},
+		{
+			1,
+			7,
+			false,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			4
+		},
+		{
+			1,
+			5,
+			false,
+			0
+		},
+		{
+			1,
+			4,
+			false,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			4
+		},
+		{
+			1,
+			2,
+			false,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			6
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			true,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			true,
+			0
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			6,
+			"fengfanv3_2_2x2_2",
+			45,
+			-47
+		},
+		{
+			6,
+			2,
+			"fengfanv3_2_2x2_2",
+			41,
+			-50
+		},
+		{
+			5,
+			0,
+			"fengfanv3_2_1x1_3",
+			0,
+			0
+		},
+		{
+			4,
+			9,
+			"fengfanv3_2_1x1_1",
+			8,
+			5
+		},
+		{
+			3,
+			2,
+			"fengfanv3_2_1x1_2",
+			0,
+			0
+		},
+		{
+			1,
+			7,
+			"fengfanv3_2_3x1_2",
+			91,
+			0
+		},
+		{
+			1,
+			4,
+			"fengfanv3_2_2x2_3",
+			53,
+			16
+		},
+		{
+			0,
+			2,
+			"fengfanv3_2_1x2_1",
+			-1,
+			-40
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_fengfanv3_2",
+		45,
+		20,
+		-269,
+		-22,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		8,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			8,
+			6
+		},
+		{
+			5,
+			3
+		},
+		{
+			2,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		201547
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
+_G.pg.base.chapter_template[2200195] = {
+	profiles = "불을 밝힌 등대가 괴수들을 광기로 몰아넣었다. 이제 정면으로 맞서는 수밖에 없다!",
+	map = 2200191,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 600,
+	bg = "",
+	bgm = "story-temepest-2",
+	chapter_tag = 0,
+	id = 2200195,
+	pop_pic = "",
+	best_air_dominance = 780,
+	pos_x = "0.039062",
+	formation = 2200191,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "-0.430556",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 11,
+	unlocklevel = 0,
+	chapter_fx = "",
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "별밤의 격전",
+	chapter_name = "T5",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 6,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 8,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 8,
+	avoid_ratio = 12,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			2200194
+		}
+	},
+	scale = {
+		0.49,
+		0.35,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1974001,
+			15,
+			0
+		},
+		{
+			1974002,
+			20,
+			0
+		},
+		{
+			1974003,
+			30,
+			1
+		},
+		{
+			1974004,
+			15,
+			0
+		},
+		{
+			1974005,
+			20,
+			0
+		},
+		{
+			1974006,
+			30,
+			1
+		},
+		{
+			1974007,
+			15,
+			0
+		},
+		{
+			1974008,
+			20,
+			0
+		},
+		{
+			1974009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1974002,
+		1974005,
+		1974008
+	},
+	ai_expedition_list = {
+		1974301,
+		1974302
+	},
+	boss_expedition_id = {
+		1974013
+	},
+	enemy_refresh = {
+		2,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		1,
+		0
+	},
+	ai_refresh = {
+		2,
+		1
+	},
+	use_oil_limit = {
+		20,
+		30,
+		15
+	},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_lingti_boss01"
+	},
+	awards = {
+		{
+			2,
+			200597
+		},
+		{
+			2,
+			200616
+		},
+		{
+			2,
+			200602
+		},
+		{
+			2,
+			54013
+		},
+		{
+			2,
+			54024
+		}
+	},
+	grids = {
+		{
+			9,
+			7,
+			true,
+			0
+		},
+		{
+			9,
+			6,
+			false,
+			0
+		},
+		{
+			9,
+			5,
+			false,
+			0
+		},
+		{
+			9,
+			4,
+			false,
+			0
+		},
+		{
+			9,
+			3,
+			true,
+			0
+		},
+		{
+			9,
+			2,
+			false,
+			0
+		},
+		{
+			9,
+			1,
+			false,
+			0
+		},
+		{
+			9,
+			0,
+			true,
+			0
+		},
+		{
+			8,
+			7,
+			true,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			4
+		},
+		{
+			8,
+			5,
+			true,
+			0
+		},
+		{
+			8,
+			4,
+			true,
+			4
+		},
+		{
+			8,
+			3,
+			true,
+			0
+		},
+		{
+			8,
+			2,
+			false,
+			0
+		},
+		{
+			8,
+			1,
+			false,
+			0
+		},
+		{
+			8,
+			0,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			1
+		},
+		{
+			7,
+			1,
+			true,
+			1
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			6
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			16
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			6
+		},
+		{
+			5,
+			7,
+			true,
+			6
+		},
+		{
+			5,
+			6,
+			false,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			4
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			12
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			false,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			false,
+			0
+		},
+		{
+			4,
+			5,
+			false,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			false,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			12
+		},
+		{
+			4,
+			1,
+			true,
+			12
+		},
+		{
+			4,
+			0,
+			false,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			6
+		},
+		{
+			3,
+			5,
+			true,
+			6
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			6
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			6
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			6
+		},
+		{
+			2,
+			0,
+			true,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			8
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			6
+		},
+		{
+			1,
+			3,
+			false,
+			0
+		},
+		{
+			1,
+			2,
+			false,
+			0
+		},
+		{
+			1,
+			1,
+			false,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			false,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			false,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			true,
+			0
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			9,
+			4,
+			"fengfanv3_2_3x1_2",
+			89,
+			-4
+		},
+		{
+			8,
+			1,
+			"fengfanv3_2_2x2_3",
+			48,
+			0
+		},
+		{
+			4,
+			5,
+			"fengfanv3_2_2x2_1",
+			49,
+			-35
+		},
+		{
+			4,
+			3,
+			"fengfanv3_2_1x1_1",
+			14,
+			7
+		},
+		{
+			4,
+			0,
+			"fengfanv3_2_1x2_2",
+			1,
+			-55
+		},
+		{
+			1,
+			1,
+			"fengfanv3_2_1x1_3",
+			0,
+			0
+		},
+		{
+			0,
+			7,
+			"fengfanv3_2_1x1_2",
+			0,
+			0
+		},
+		{
+			0,
+			2,
+			"fengfanv3_2_2x2_2",
+			36,
+			-47
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_fengfanv3_2",
+		45,
+		20,
+		-183,
+		116,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			8,
+			6
+		},
+		{
+			5,
+			3
+		},
+		{
+			2,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		201547
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
+_G.pg.base.chapter_template[2200196] = {
+	profiles = "괴수들의 공세가 이어지는 가운데, 대등대에서 봉인 의식이 시작되었다. 승리가 코앞까지 다가왔다!",
+	map = 2200191,
+	num_3 = 1,
+	oil = 10,
+	progress_boss = 100,
+	is_limit_move = 1,
+	ammo_submarine = 0,
+	special_operation_list = "",
+	icon_outline = 0,
+	story_refresh_boss = "",
+	is_ambush = 0,
+	count = 0,
+	air_dominance = 600,
+	bg = "",
+	bgm = "story-temepest-2",
+	chapter_tag = 0,
+	id = 2200196,
+	pop_pic = "",
+	best_air_dominance = 780,
+	pos_x = "0.171094",
+	formation = 2200191,
+	is_ai = 1,
+	star_require_1 = 1,
+	pos_y = "0.011111",
+	num_1 = 1,
+	model = 2,
+	investigation_ratio = 0,
+	levelstage_bar = "",
+	num_2 = 11,
+	unlocklevel = 0,
+	chapter_fx = "",
+	uifx = "",
+	ItemTransformPattern = "",
+	name = "승리의 일격",
+	chapter_name = "T6",
+	type = 1,
+	act_id = 100001,
+	enter_story = "",
+	boss_refresh = 6,
+	event_skip = 0,
+	lose_condition_display = "lose_condition_display_quanmie",
+	is_air_attack = 0,
+	friendly_id = 0,
+	pre_story = 0,
+	mitigation_rate = 2,
+	mitigation_level = 8,
+	ammo_total = 5,
+	group_num = 2,
+	collection_team = 0,
+	enter_story_limit = "",
+	star_require_3 = 3,
+	support_group_num = 0,
+	difficulty = 8,
+	avoid_ratio = 12,
+	star_require_2 = 2,
+	time = 43200,
+	win_condition_display = "win_condition_display_qijian",
+	submarine_num = 1,
+	avoid_require = 0,
+	pre_chapter = {
+		{
+			2200195
+		}
+	},
+	scale = {
+		0.49,
+		0.35,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1975001,
+			15,
+			0
+		},
+		{
+			1975002,
+			20,
+			0
+		},
+		{
+			1975003,
+			30,
+			1
+		},
+		{
+			1975004,
+			15,
+			0
+		},
+		{
+			1975005,
+			20,
+			0
+		},
+		{
+			1975006,
+			30,
+			1
+		},
+		{
+			1975007,
+			15,
+			0
+		},
+		{
+			1975008,
+			20,
+			0
+		},
+		{
+			1975009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1975002,
+		1975005,
+		1975008
+	},
+	ai_expedition_list = {
+		1975301,
+		1975302
+	},
+	boss_expedition_id = {
+		1975013
+	},
+	enemy_refresh = {
+		2,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		1,
+		0
+	},
+	ai_refresh = {
+		2,
+		1
+	},
+	use_oil_limit = {
+		32,
+		43,
+		16
+	},
+	win_condition = {
+		{
+			1,
+			1
+		}
+	},
+	lose_condition = {
+		{
+			1,
+			0
+		}
+	},
+	icon = {
+		"fengfan_haigu_boss02"
+	},
+	awards = {
+		{
+			2,
+			200597
+		},
+		{
+			2,
+			200617
+		},
+		{
+			2,
+			200603
+		},
+		{
+			2,
+			54013
+		},
+		{
+			2,
+			54024
+		}
+	},
+	grids = {
+		{
+			6,
+			10,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			false,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			false,
+			0
+		},
+		{
+			6,
+			0,
+			false,
+			0
+		},
+		{
+			5,
+			10,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			4
+		},
+		{
+			5,
+			8,
+			false,
+			0
+		},
+		{
+			5,
+			7,
+			false,
+			0
+		},
+		{
+			5,
+			6,
+			false,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			4
+		},
+		{
+			5,
+			4,
+			false,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			12
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			false,
+			0
+		},
+		{
+			5,
+			0,
+			false,
+			0
+		},
+		{
+			4,
+			10,
+			true,
+			6
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			6
+		},
+		{
+			4,
+			7,
+			true,
+			6
+		},
+		{
+			4,
+			6,
+			true,
+			6
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			12
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			1
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			10,
+			false,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			8
+		},
+		{
+			3,
+			3,
+			true,
+			16
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			10,
+			true,
+			6
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			6
+		},
+		{
+			2,
+			7,
+			true,
+			6
+		},
+		{
+			2,
+			6,
+			true,
+			6
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			12
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			1
+		},
+		{
+			2,
+			0,
+			true,
+			0
+		},
+		{
+			1,
+			10,
+			true,
+			0
+		},
+		{
+			1,
+			9,
+			true,
+			4
+		},
+		{
+			1,
+			8,
+			false,
+			0
+		},
+		{
+			1,
+			7,
+			false,
+			0
+		},
+		{
+			1,
+			6,
+			false,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			4
+		},
+		{
+			1,
+			4,
+			false,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			12
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			false,
+			0
+		},
+		{
+			1,
+			0,
+			false,
+			0
+		},
+		{
+			0,
+			10,
+			false,
+			0
+		},
+		{
+			0,
+			9,
+			true,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			false,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			true,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			10,
+			"fengfanv3_2_1x1_2",
+			0,
+			0
+		},
+		{
+			5,
+			6,
+			"fengfanv3_2_3x1_2",
+			93,
+			-1
+		},
+		{
+			5,
+			4,
+			"fengfanv3_2_1x2_2",
+			0,
+			-51
+		},
+		{
+			5,
+			0,
+			"fengfanv3_2_2x2_3",
+			55,
+			1
+		},
+		{
+			3,
+			10,
+			"fengfanv3_2_1x1_1",
+			14,
+			10
+		},
+		{
+			1,
+			6,
+			"fengfanv3_2_3x1_2",
+			91,
+			-4
+		},
+		{
+			0,
+			10,
+			"fengfanv3_2_1x1_2",
+			0,
+			0
+		},
+		{
+			0,
+			4,
+			"fengfanv3_2_1x2_2",
+			1,
+			-53
+		},
+		{
+			0,
+			0,
+			"fengfanv3_2_2x2_3",
+			59,
+			-1
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_fengfanv3_2",
+		45,
+		20,
+		-196,
+		-217,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	box_auto_pick = {},
+	story_refresh = {},
+	defeat_story = {},
+	defeat_story_count = {},
+	npc_data = {},
+	risk_levels = {
+		{
+			8,
+			6
+		},
+		{
+			5,
+			3
+		},
+		{
+			2,
+			1
+		},
+		{
+			0,
+			0
+		}
+	},
+	land_based = {},
+	chapter_strategy = {
+		201550
+	},
+	wall_prefab = {},
+	alarm_cell = {},
+	weather_grids = {},
+	misc_arg = {}
+}
+
+
 _G.pg.base.chapter_template[9920001] = {
 	profiles = "<<SysLog.Id256>>전술 모듈 초기화.「백」플레이어 확인.「흑」「마이너 피스〈Minor pieces〉」이동 개시. 행동 매칭률 : 100%",
 	map = 9920001,

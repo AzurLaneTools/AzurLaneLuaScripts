@@ -6,16 +6,16 @@ slot0.getUIName = function(slot0)
 	return "EquipmentTransformTreeUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		uv0,
 		"weaponframes",
 		"ui/iconcolorful"
 	}
 
-	table.insertto(slot2, slot0:getEquipmentResList())
+	table.insertto(slot1, slot0:getEquipmentResList())
 
-	return table.insertto(slot2, uv1.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv1.super.getResource(slot0))
 end
 
 slot0.getEquipmentResList = function(slot0)
