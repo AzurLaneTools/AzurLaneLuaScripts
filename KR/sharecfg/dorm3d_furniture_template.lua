@@ -2439,7 +2439,7 @@ pg.base.dorm3d_furniture_template = {}
 	}
 	pg.base.dorm3d_furniture_template[2162] = {
 		is_special = 0,
-		name = "복슬복슬 고양이 털 둥지",
+		name = "고양이 털 몽실몽실 둥지",
 		type = 4,
 		room_id = 21,
 		desc = "순백의 벨벳 원단으로 감싸인 원형 침대. 쫑긋 선 고양이 귀와 둥글게 말린 꼬리가 포인트로, 안에 들어가면 폭신한 꿈속으로 빠져들 것만 같다.",

@@ -1160,7 +1160,7 @@ pg.base.dorm3d_shop_template = {}
 	}
 	pg.base.dorm3d_shop_template[51] = {
 		rarity = 4,
-		name = "복슬복슬 고양이 털 둥지",
+		name = "고양이 털 몽실몽실 둥지",
 		type = 1,
 		room_id = 79902,
 		unlock = "",

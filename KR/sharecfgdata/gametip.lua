@@ -35249,7 +35249,7 @@ _G.pg.base.gametip.words_lock_ship_label = {
 
 
 _G.pg.base.gametip.one_click_retire_subtitle = {
-	tip = "퇴역 실수 방지 확인"
+	tip = "일괄 퇴역 설정"
 }
 
 

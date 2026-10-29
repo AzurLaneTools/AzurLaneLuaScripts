@@ -641,7 +641,7 @@ pg.base.commander_data_template = {}
 	}
 	pg.base.commander_data_template[960041] = {
 		tactic_value = 67,
-		name = "에브리",
+		name = "에버 ",
 		painting = "aifumiao",
 		max_level = 30,
 		exp = 500,
@@ -669,7 +669,7 @@ pg.base.commander_data_template = {}
 	}
 	pg.base.commander_data_template[960051] = {
 		tactic_value = 42,
-		name = "로버츠",
+		name = "로베르 ",
 		painting = "luobomiao",
 		max_level = 30,
 		exp = 300,
