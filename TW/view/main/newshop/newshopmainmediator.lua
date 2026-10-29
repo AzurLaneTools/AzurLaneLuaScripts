@@ -555,6 +555,11 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot2 = slot1:getBody()
 
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot2.awards, slot2.callback)
+		end,
+		[ActivityProxy.ACTIVITY_END] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			slot0.viewComponent:RefreshActivityEnd()
 		end
 	}
 end

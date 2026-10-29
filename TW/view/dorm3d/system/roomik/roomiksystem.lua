@@ -4,6 +4,8 @@ slot0.REPLACE_IK_STATUS = "RoomIKSystem.REPLACE_IK_STATUS"
 slot0.EXIT_IK_WITH_RETURN = "RoomIKSystem.EXIT_IK_WITH_RETURN"
 slot0.ENTER_STOCKING_IK_MODE = "RoomIKSystem.ENTER_STOCKING_IK_MODE"
 slot0.EXIT_STOCKING_IK_MODE = "RoomIKSystem.EXIT_STOCKING_IK_MODE"
+slot0.ENTER_AIMIK_IK_MODE = "RoomIKSystem.ENTER_AIMIK_IK_MODE"
+slot0.EXIT_AIMIK_IK_MODE = "RoomIKSystem.EXIT_AIMIK_IK_MODE"
 slot0.ON_CONTROL_POINTER_DOWN = "RoomIKSystem.ON_CONTROL_POINTER_DOWN"
 slot0.ON_CONTROL_POINTER_UP = "RoomIKSystem.ON_CONTROL_POINTER_UP"
 slot0.ON_CONTROL_BEGIN_DRAG = "RoomIKSystem.ON_CONTROL_BEGIN_DRAG"
@@ -63,6 +65,12 @@ slot0.RegisterEvents = function(slot0)
 	end)
 	slot0:Bind(uv0.EXIT_STOCKING_IK_MODE, function (slot0, slot1)
 		uv0:ExitStockingIKMode(slot1)
+	end)
+	slot0:Bind(uv0.ENTER_AIMIK_IK_MODE, function (slot0, slot1)
+		uv0:EnterAimIKMode(slot1)
+	end)
+	slot0:Bind(uv0.EXIT_AIMIK_IK_MODE, function (slot0, slot1)
+		uv0:ExitAimIKMode(slot1)
 	end)
 	slot0:Bind(uv0.ON_CONTROL_POINTER_DOWN, function (slot0, slot1)
 		uv0.input:OnControlPointerDown(slot1)
@@ -441,6 +449,30 @@ slot0.ExitStockingIKMode = function(slot0, slot1)
 	slot0.session.stockingCachedIkStatus = nil
 
 	slot0:EnterIK(slot3, slot1)
+end
+
+slot0.EnterAimIKMode = function(slot0, slot1)
+	assert(slot0.modeState == uv0.MODE_STATE.ACTIVE, "Touch AimIK mode requires active IK")
+	assert(slot0.session.currentIkStatus, "Missing current IK status when enter touch AimIK mode")
+	assert(not slot0.session.aimIKCachedIkStatus, "Touch AimIK mode is already active")
+
+	slot0.session.aimIKCachedIkStatus = slot0.session.currentIkStatus
+
+	slot0:ExitIK(slot1, {
+		ignoreResetExtraItem = true
+	})
+end
+
+slot0.ExitAimIKMode = function(slot0, slot1)
+	assert(slot0.modeState == uv0.MODE_STATE.IDLE, "Exit touch AimIK mode requires idle IK")
+
+	slot2 = slot0.session.aimIKCachedIkStatus
+
+	assert(slot2, "Missing cached IK status when exit touch AimIK mode")
+
+	slot0.session.aimIKCachedIkStatus = nil
+
+	slot0:EnterIK(slot2, slot1)
 end
 
 slot0.GetSession = function(slot0)

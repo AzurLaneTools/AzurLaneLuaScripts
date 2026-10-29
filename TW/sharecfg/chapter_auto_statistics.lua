@@ -151,6 +151,12 @@ pg.chapter_auto_statistics.all = {
 	2060024,
 	2060025,
 	2060026,
+	2070001,
+	2070002,
+	2070003,
+	2070004,
+	2070005,
+	2070006,
 	2100001,
 	2100002,
 	2100003,
@@ -2739,6 +2745,96 @@ end)()
 		},
 		drop_display_extra = {}
 	}
+	pg.base.chapter_auto_statistics[2070001] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 50,
+		drop_expbook = 0,
+		id = 2070001,
+		oil_limit = 25,
+		time_rate = 1,
+		boss_expedition_id = {
+			2070013,
+			2070301
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2070002] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 75,
+		drop_expbook = 0,
+		id = 2070002,
+		oil_limit = 25,
+		time_rate = 1,
+		boss_expedition_id = {
+			2071013,
+			2071301
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2070003] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 140,
+		drop_expbook = 0,
+		id = 2070003,
+		oil_limit = 28,
+		time_rate = 1,
+		boss_expedition_id = {
+			2072013,
+			2072301,
+			2072302
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2070004] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 210,
+		drop_expbook = 0,
+		id = 2070004,
+		oil_limit = 28,
+		time_rate = 1,
+		boss_expedition_id = {
+			2073013,
+			2073301,
+			2073301
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2070005] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 360,
+		drop_expbook = 0,
+		id = 2070005,
+		oil_limit = 160,
+		time_rate = 1,
+		boss_expedition_id = {
+			2074013,
+			2074301,
+			2074301,
+			2074301
+		},
+		drop_display_extra = {}
+	}
+	pg.base.chapter_auto_statistics[2070006] = {
+		enemy_times = 3,
+		time_correction = 0,
+		base_class_exp = 450,
+		drop_expbook = 0,
+		id = 2070006,
+		oil_limit = 245,
+		time_rate = 1,
+		boss_expedition_id = {
+			2075013,
+			2075301,
+			2075301,
+			2075301
+		},
+		drop_display_extra = {}
+	}
 	pg.base.chapter_auto_statistics[2100001] = {
 		enemy_times = 5,
 		time_correction = 0,
@@ -3374,6 +3470,8 @@ end)()
 		},
 		drop_display_extra = {}
 	}
+end)()
+(function ()
 	pg.base.chapter_auto_statistics[2100071] = {
 		enemy_times = 4,
 		time_correction = 0,
@@ -3463,8 +3561,6 @@ end)()
 		},
 		drop_display_extra = {}
 	}
-end)()
-(function ()
 	pg.base.chapter_auto_statistics[2100081] = {
 		enemy_times = 3,
 		time_correction = 0,
@@ -4857,6 +4953,8 @@ end)()
 		},
 		drop_display_extra = {}
 	}
+end)()
+(function ()
 	pg.base.chapter_auto_statistics[2100235] = {
 		enemy_times = 3,
 		time_correction = 0,
@@ -4945,8 +5043,6 @@ end)()
 		},
 		drop_display_extra = {}
 	}
-end)()
-(function ()
 	pg.base.chapter_auto_statistics[2100245] = {
 		enemy_times = 4,
 		time_correction = 0,
@@ -6335,6 +6431,8 @@ end)()
 		},
 		drop_display_extra = {}
 	}
+end)()
+(function ()
 	pg.base.chapter_auto_statistics[2100403] = {
 		enemy_times = 3,
 		time_correction = 0,
@@ -6422,8 +6520,6 @@ end)()
 		},
 		drop_display_extra = {}
 	}
-end)()
-(function ()
 	pg.base.chapter_auto_statistics[2100413] = {
 		enemy_times = 3,
 		time_correction = 0,
@@ -7816,6 +7912,8 @@ end)()
 		},
 		drop_display_extra = {}
 	}
+end)()
+(function ()
 	pg.base.chapter_auto_statistics[2100571] = {
 		enemy_times = 2,
 		time_correction = 0,
@@ -7908,8 +8006,6 @@ end)()
 		},
 		drop_display_extra = {}
 	}
-end)()
-(function ()
 	pg.base.chapter_auto_statistics[2100581] = {
 		enemy_times = 2,
 		time_correction = 0,

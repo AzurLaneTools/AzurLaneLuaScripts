@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "要是可以的話，真想用砲彈吹散這一切，這樣也許就會暢快了，你覺得呢，Honey？",
+			say = "要是可以的話，真想用炮彈吹散這一切，這樣也許就會暢快了，你覺得呢，Honey？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -85,10 +85,7 @@ slot0.update = function(slot0, slot1, slot2)
 	if slot6 then
 		if slot1.type == PowerRank.TYPE_PT then
 			if slot2 then
-				setImageSprite(slot0.scoreIconTF, LoadSprite(Drop.New({
-					type = DROP_TYPE_RESOURCE,
-					id = getProxy(ActivityProxy):getActivityById(slot2):getConfig("config_id")
-				}):getIcon()))
+				setImageSprite(slot0.scoreIconTF, LoadSprite(getProxy(ActivityProxy):getActivityById(slot2):GetPTDrop():getIcon()))
 			end
 		else
 			setImageSprite(slot0.scoreIconTF, GetSpriteFromAtlas(slot6[1], slot6[2]), true)

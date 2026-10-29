@@ -4,7 +4,7 @@ slot0.getUIName = function(slot0)
 	return "DestoryInfoUI"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	return table.insertto({
 		"energy",
 		"shipstatus",
@@ -14,7 +14,7 @@ slot0.getResource = function(slot0, slot1)
 		"ui/heartshipcard",
 		"shipyardicon/unknown",
 		"ui/iconcolorful"
-	}, uv0.super.getResource(slot0, slot1))
+	}, uv0.super.getResource(slot0))
 end
 
 slot0.getRefreshResList = function(slot0, slot1, slot2)

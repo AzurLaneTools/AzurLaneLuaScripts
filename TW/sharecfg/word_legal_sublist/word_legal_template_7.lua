@@ -331,6 +331,9 @@ temp = function()
 						}
 					}
 				}
+			},
+			["號"] = {
+				this = true
 			}
 		},
 		["瀨"] = {

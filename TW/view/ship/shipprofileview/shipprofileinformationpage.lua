@@ -187,6 +187,11 @@ slot0.UpdateLanguage = function(slot0)
 	end
 
 	setActive(slot0.voiceBtn, slot5)
+
+	if slot5 and ShipSkin.LockCv1(slot0.skin.id) then
+		slot0:UpdateLang2()
+		setActive(slot0.voiceBtn, false)
+	end
 end
 
 slot0.SetAuthorInfo = function(slot0)

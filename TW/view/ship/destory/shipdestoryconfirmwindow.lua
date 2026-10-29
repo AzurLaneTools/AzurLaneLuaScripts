@@ -4,12 +4,12 @@ slot0.getUIName = function(slot0)
 	return "DestoryConfirmWindow"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
 	return table.insertto({
 		"weaponframes",
 		"shiptype",
 		"ui/iconcolorful"
-	}, uv0.super.getResource(slot0, slot1))
+	}, uv0.super.getResource(slot0))
 end
 
 slot0.getShipResList = function(slot0, slot1)

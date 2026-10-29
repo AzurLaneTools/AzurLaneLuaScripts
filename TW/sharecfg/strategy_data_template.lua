@@ -386,6 +386,10 @@ pg.strategy_data_template.all = {
 	201909,
 	201910,
 	201911,
+	201924,
+	201928,
+	201935,
+	201940,
 	205001,
 	205002,
 	205003,
@@ -4900,6 +4904,59 @@ META單位受到的效果有所不同，每有一層【污染】，其<color=#92
 		icon = "200908",
 		arg = {}
 	}
+	pg.base.strategy_data_template[201924] = {
+		buff_id = 201924,
+		name = "霧靄迴廊",
+		desc = "受霧靄迴廊影響，我方角色命中降低5%，敵方單位航速、機動提升10%。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201924,
+		icon = "201924",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201928] = {
+		buff_id = 0,
+		name = "沈星之淵",
+		desc = "戰鬥中水面上會出現移動的旋渦，處於旋渦範圍內的敵我雙方單位均會被大幅度減速，並持續受到傷害。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201928,
+		icon = "201928",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201935] = {
+		buff_id = 0,
+		name = "挑戰說明",
+		desc = "長蛇號初始處於沈星領主-奧爾姆的守護之中，玩家此時只能對黑維茲造成傷害；黑維茲耐久小於20%時永久進入虛影狀態無法被攻擊，並<color=#92fc63>解除對長蛇號的守護</color>。\n沈星領主-黑維茲免疫常規點燃，同時<color=#92fc63>在被點燃狀態下會額外受到50%傷害</color>。",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201935,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201940] = {
+		buff_id = 0,
+		name = "挑戰說明",
+		desc = [[
+長蛇號初始處於沈星領主-奧爾姆的守護之中，玩家此時只能對奧爾姆造成傷害；奧爾姆耐久小於20%時進入虛影狀態無法被攻擊，並<color=#92fc63>解除對長蛇號的守護</color>，虛影狀態下每秒恢復5%耐久，耐久<color=#92fc63>恢復至60%後會再度進入守護狀態</color>。
+沈星領主-奧爾姆免疫常規點燃，同時<color=#92fc63>在被點燃狀態下會額外受到50%傷害，且無法恢復耐久</color>。
+
+困難模式特性：
+我方先鋒艦隊角色<color=#92fc63>受擊判定大幅度縮小，且同一時間只有處於領艦位置的角色擁有受擊判定</color>，其餘角色為無敵狀態，同時角色獲得受擊判定時也會附帶短暫無敵效果。
+敵方傷害<color=#ffc038>極大幅度提高</color>，且子彈無法被主動消除，不過相應的，我方發動空襲時會額外為先鋒領艦添加<color=#92fc63>持續3秒的傷害免疫護盾</color>。
+
+以下裝備或技能中的<color=#92fc63>減傷/回避及其派生效果</color>無法在本挑戰中生效：
+【背水之戰】、【彩虹計劃】、【絕體絕命】、【不屈意志】]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201940,
+		icon = "200908",
+		arg = {}
+	}
 	pg.base.strategy_data_template[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -5054,6 +5111,8 @@ META單位受到的效果有所不同，每有一層【污染】，其<color=#92
 		icon = "buff_yumia_3",
 		arg = {}
 	}
+end)()
+(function ()
 	pg.base.strategy_data_template[300008] = {
 		buff_id = 0,
 		name = "核心等級LV4",
@@ -5098,8 +5157,6 @@ META單位受到的效果有所不同，每有一層【污染】，其<color=#92
 		icon = "buff_yumia_3",
 		arg = {}
 	}
-end)()
-(function ()
 	pg.base.strategy_data_template[300012] = {
 		buff_id = 0,
 		name = "核心等級LV4",

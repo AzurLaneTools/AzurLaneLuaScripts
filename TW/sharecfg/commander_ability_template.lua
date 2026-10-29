@@ -18,6 +18,8 @@ pg.commander_ability_template.all = {
 	142,
 	151,
 	152,
+	161,
+	162,
 	201,
 	202,
 	203,
@@ -110,6 +112,9 @@ pg.commander_ability_template.all = {
 	921,
 	922,
 	923,
+	931,
+	932,
+	933,
 	2001,
 	2002,
 	2003,
@@ -166,7 +171,9 @@ pg.commander_ability_template.all = {
 	5151,
 	5161,
 	5171,
-	5181
+	5181,
+	5191,
+	5201
 }
 pg.base = pg.base or {}
 pg.base.commander_ability_template = {}
@@ -788,6 +795,78 @@ pg.base.commander_ability_template = {}
 			{
 				"航空",
 				6
+			}
+		}
+	}
+	pg.base.commander_ability_template[161] = {
+		cost = 0,
+		name = "海況觀測·入門",
+		group_id = 16,
+		worth = 2,
+		desc = "艦隊成員炮擊提高6點、機動提高3點",
+		next = 162,
+		id = 161,
+		icon = "xunyang_paoji_1",
+		add = {
+			{
+				1,
+				{},
+				{},
+				2,
+				6
+			},
+			{
+				1,
+				{},
+				{},
+				9,
+				3
+			}
+		},
+		add_desc = {
+			{
+				"炮擊",
+				6
+			},
+			{
+				"機動",
+				3
+			}
+		}
+	}
+	pg.base.commander_ability_template[162] = {
+		cost = 0,
+		name = "海況觀測·精銳",
+		group_id = 16,
+		worth = 3,
+		desc = "艦隊成員炮擊提高12點、機動提高5點",
+		next = 0,
+		id = 162,
+		icon = "xunyang_paoji_2",
+		add = {
+			{
+				1,
+				{},
+				{},
+				2,
+				12
+			},
+			{
+				1,
+				{},
+				{},
+				9,
+				5
+			}
+		},
+		add_desc = {
+			{
+				"炮擊",
+				12
+			},
+			{
+				"機動",
+				5
 			}
 		}
 	}
@@ -3519,6 +3598,8 @@ pg.base.commander_ability_template = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.commander_ability_template[901] = {
 		cost = 0,
 		name = "操舵手·小型艦",
@@ -3587,8 +3668,6 @@ pg.base.commander_ability_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.commander_ability_template[903] = {
 		cost = 0,
 		name = "航海長·小型艦",
@@ -3809,6 +3888,102 @@ end)()
 			{
 				"<大型艦>機動",
 				3
+			}
+		}
+	}
+	pg.base.commander_ability_template[931] = {
+		cost = 0,
+		name = "操舵手·先鋒",
+		group_id = 93,
+		worth = 1,
+		desc = "<color=#3dc6ff>先鋒</color>機動提高4點",
+		next = 932,
+		id = 931,
+		icon = "quzhu_one_1",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					2,
+					3,
+					18,
+					20,
+					23
+				},
+				9,
+				4
+			}
+		},
+		add_desc = {
+			{
+				"<先鋒>機動",
+				4
+			}
+		}
+	}
+	pg.base.commander_ability_template[932] = {
+		cost = 0,
+		name = "熟練舵手·先鋒",
+		group_id = 93,
+		worth = 2,
+		desc = "<color=#3dc6ff>先鋒</color>機動提高6點",
+		next = 933,
+		id = 932,
+		icon = "quzhu_one_2",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					2,
+					3,
+					18,
+					20,
+					23
+				},
+				9,
+				6
+			}
+		},
+		add_desc = {
+			{
+				"<先鋒>機動",
+				6
+			}
+		}
+	}
+	pg.base.commander_ability_template[933] = {
+		cost = 0,
+		name = "航海長·先鋒",
+		group_id = 93,
+		worth = 3,
+		desc = "<color=#3dc6ff>先鋒</color>機動提高8點",
+		next = 0,
+		id = 933,
+		icon = "quzhu_one_3",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					2,
+					3,
+					18,
+					20,
+					23
+				},
+				9,
+				8
+			}
+		},
+		add_desc = {
+			{
+				"<先鋒>機動",
+				8
 			}
 		}
 	}
@@ -6302,7 +6477,6 @@ end)()
 				{
 					4,
 					5,
-					22,
 					24
 				},
 				2,
@@ -6556,6 +6730,112 @@ end)()
 			{
 				"<風帆V>裝填",
 				10
+			}
+		}
+	}
+	pg.base.commander_ability_template[5191] = {
+		cost = 0,
+		name = "勇戰之幟",
+		group_id = 519,
+		worth = 1,
+		desc = "艦隊炮擊、雷擊、航空提高8點",
+		next = 0,
+		id = 5191,
+		icon = "special_one",
+		add = {
+			{
+				1,
+				{},
+				{},
+				2,
+				8
+			},
+			{
+				1,
+				{},
+				{},
+				3,
+				8
+			},
+			{
+				1,
+				{},
+				{},
+				5,
+				8
+			}
+		},
+		add_desc = {
+			{
+				"炮擊",
+				8
+			},
+			{
+				"雷擊",
+				8
+			},
+			{
+				"航空",
+				8
+			}
+		}
+	}
+	pg.base.commander_ability_template[5201] = {
+		cost = 0,
+		name = "緊固堅陣",
+		group_id = 520,
+		worth = 1,
+		desc = "<color=#3dc6ff>戰巡、戰列、風帆V</color>炮擊提高15點，受到傷害降低1.5%",
+		next = 0,
+		id = 5201,
+		icon = "special_one",
+		add = {
+			{
+				1,
+				{},
+				{
+					4,
+					5,
+					23
+				},
+				2,
+				15
+			},
+			{
+				3,
+				{},
+				{},
+				40670,
+				0
+			}
+		},
+		add_desc = {
+			{
+				"<戰巡>炮擊",
+				15
+			},
+			{
+				"<戰列>炮擊",
+				15
+			},
+			{
+				"<風帆V>炮擊",
+				15
+			},
+			{
+				"<戰巡>受傷",
+				-1.5,
+				"%"
+			},
+			{
+				"<戰列>受傷",
+				-1.5,
+				"%"
+			},
+			{
+				"<風帆V>受傷",
+				-1.5,
+				"%"
 			}
 		}
 	}

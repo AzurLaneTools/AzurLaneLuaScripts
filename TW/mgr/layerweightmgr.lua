@@ -267,15 +267,17 @@ slot1.SetSpecificParent = function(slot0, slot1, slot2, slot3)
 	if slot3 then
 		slot0.indexDic[slot2] = slot0.indexDic[slot2] or {}
 
-		table.insert(slot0.indexDic[slot2], 1, slot1)
+		table.insert(slot0.indexDic[slot2], slot1)
 	else
+		slot0:ChangeOriginSortingOrder(slot1, slot2)
 		SetParent(slot1, slot2, false)
 	end
 end
 
 slot1.SequentizationUIIndex = function(slot0)
 	for slot4, slot5 in pairs(slot0.indexDic) do
-		for slot9, slot10 in ipairs(slot5) do
+		for slot9, slot10 in ipairs(underscore.reverse(slot5)) do
+			slot0:ChangeOriginSortingOrder(slot10, slot4)
 			SetParent(slot10, slot4, false)
 
 			if slot10:GetSiblingIndex() ~= slot9 - 1 then
@@ -314,6 +316,7 @@ slot1.CheckRecycleAdaptObj = function(slot0, slot1, slot2)
 	slot3 = slot0:GetAdaptObjFromUI(slot1)
 
 	if slot2 ~= nil then
+		slot0:ChangeOriginSortingOrder(slot1, slot2)
 		SetParent(slot1, slot2, false)
 	end
 
@@ -341,6 +344,35 @@ end
 
 slot1.GetAdatpObjName = function(slot0, slot1)
 	return slot1.name .. uv0.ADAPT_TAG
+end
+
+slot1.GetOriginSortingOrder = function(slot0, slot1)
+	return switch(slot1, {
+		[slot0.uiOrigin] = function ()
+			return 200
+		end,
+		[slot0.lvOrigin] = function ()
+			return 5000
+		end
+	}, function ()
+		return 0
+	end)
+end
+
+slot1.ChangeOriginSortingOrder = function(slot0, slot1, slot2)
+	if IsNil(slot1) or slot1.parent == slot2 then
+		return
+	end
+
+	slot3 = 0 - slot0:GetOriginSortingOrder(slot1.parent)
+
+	if slot2 then
+		slot3 = slot3 + slot0:GetOriginSortingOrder(slot2)
+	end
+
+	if slot3 ~= 0 then
+		WorldConst.ArrayEffectOrder(slot1, slot3)
+	end
 end
 
 slot1.Log = function(slot0, slot1)

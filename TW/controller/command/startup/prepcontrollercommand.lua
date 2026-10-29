@@ -735,6 +735,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.REVERSE_PACMAN_ADD_FAVORABILITY, ReversePacmanAddFavorabilityCommand)
 	slot0.facade:registerCommand(GAME.REVERSE_PACMAN_PASS_LEVEL, ReversePacmanPassLevelCommand)
 	slot0.facade:registerCommand(GAME.ACT_REMASTER_ACTIVE, ActiveActReamsterCommand)
+	slot0.facade:registerCommand(GAME.JUMP_TO_SCENE, JumpToSceneCommand)
 end
 
 return slot0

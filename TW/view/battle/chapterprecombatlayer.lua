@@ -15,12 +15,12 @@ slot0.ResUISettings = function(slot0)
 	return true
 end
 
-slot0.getResource = function(slot0, slot1)
-	return table.insertto(ResList.ChapterPreCombatLayer.GetConstResource(), uv0.super.getResource(slot0, slot1))
+slot0.getResource = function(slot0)
+	return table.insertto(ResList.ChapterPreCombatLayerResConst.GetConstResource(), uv0.super.getResource(slot0))
 end
 
 slot0.downloadChapterPreCombatRes = function(slot0, slot1, slot2)
-	SplitPackConst.DownloadByLuaArr(ResList.ChapterPreCombatLayer.GetResource(slot1), function ()
+	SplitPackConst.DownloadByLuaArr(ResList.ChapterPreCombatLayerResConst.GetResource(slot1), function ()
 		if uv0.exited or uv0.chapter ~= uv1 then
 			return
 		end
@@ -353,7 +353,7 @@ slot0.updateStageView = function(slot0, slot1)
 		slot8 = getProxy(ActivityProxy)
 
 		for slot12 = #slot7, 1, -1 do
-			slot13, slot14, slot15, slot16 = unpack(slot7)
+			slot13, slot14, slot15, slot16 = unpack(slot7[slot12])
 
 			if slot8:getActivityById(slot13) and not slot17:isEnd() then
 				if slot14 == DROP_TYPE_RESOURCE then

@@ -36934,7 +36934,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活動進行時，指揮官可在<color=#92fc63>活動頁面或回憶介面</color>通過指定入口進入「紀念貼紙」收集頁面；
  ※ 活動結束後指揮官將只能通過<color=#92fc63>回憶介面</color>指定入口進入「紀念貼紙」收集頁面；
  ※ 「紀念貼紙」可以通過完成對應活動任務獲取；
- ※ 獎勵領取介面將延長至10月21日24時；]]
+ ※ 獎勵領取介面將延長至11月18日24時；]]
 		}
 	}
 }
@@ -44133,6 +44133,16 @@ _G.pg.base.gametip.grapihcs3d_setting_flare = {
 }
 
 
+_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
+	tip = "作戰準備"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar5 = {
+	tip = "重櫻的邀約"
+}
+
+
 _G.pg.base.gametip.Outpost_20250904_Title1 = {
 	tip = "作戰準備"
 }
@@ -50488,6 +50498,96 @@ _G.pg.base.gametip.loading_flow_tip = {
 }
 
 
+_G.pg.base.gametip.formation_suggestion = {
+	tip = "编队指引"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_tip = {
+	tip = "点击角色可查看推荐配装。编队仅供参考，指挥官可根据已获取舰船类型及参数，自行调整阵容与装备"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_tip_title = {
+	tip = "推荐编队"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_any_type_ship = {
+	tip = "任意$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_title = {
+	tip = "养成建议"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_level = {
+	tip = "等级：Lv.$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_not_get = {
+	tip = "未获取"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_got = {
+	tip = "已获取"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_go_dock = {
+	tip = "前往船坞"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_recommend = {
+	tip = "推荐装备"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_transitional = {
+	tip = "下位替代"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_copy = {
+	tip = "复制装备码"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_equip_tip = {
+	tip = "部分装备获取难度较高，可更换对应下位装备作为临时配装使用"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_back = {
+	tip = "返回编队指引"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_obtain = {
+	tip = "获取途径：$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_info_level_recommend = {
+	tip = "推荐等级：$1"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_prev_chapter = {
+	tip = "上一章"
+}
+
+
+_G.pg.base.gametip.formation_suggestion_next_chapter = {
+	tip = "下一章"
+}
+
+
 _G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE = {
 	tip = "活動匯總"
 }
@@ -50500,4 +50600,14 @@ _G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE_EN = {
 
 _G.pg.base.gametip.ActivityRemaster_NoticeJump_AlreadySelected = {
 	tip = "目前已有開啟中的輕量化復刻活動，請通過主介面活動入口進入"
+}
+
+
+_G.pg.base.gametip.HurricaneTreasureCoreActivityUI_subtitle_1 = {
+	tip = "颶風的藏寶地"
+}
+
+
+_G.pg.base.gametip.windfog_skin_stroy_finish = {
+	tip = "完成所有故事可獲得"
 }

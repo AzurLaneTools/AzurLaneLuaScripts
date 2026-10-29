@@ -4,40 +4,40 @@ slot0.getUIName = function(slot0)
 	return "SelectDorm3DUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {}
+slot0.getResource = function(slot0)
+	slot1 = {}
 
-	slot3 = function(slot0)
+	slot2 = function(slot0)
 		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
 			table.insert(uv0, slot0)
 		end
 	end
 
-	slot4 = pairs
-	slot5 = pg.dorm3d_rooms.get_id_list_by_in_map or {}
+	slot3 = pairs
+	slot4 = pg.dorm3d_rooms.get_id_list_by_in_map or {}
 
-	for slot7, slot8 in slot4(slot5) do
-		for slot12, slot13 in ipairs(slot8) do
-			if pg.dorm3d_rooms[slot13] and slot14.assets_prefix then
-				slot3(string.format("dorm3dselect/room_icon_%s", string.lower(slot14.assets_prefix)))
+	for slot6, slot7 in slot3(slot4) do
+		for slot11, slot12 in ipairs(slot7) do
+			if pg.dorm3d_rooms[slot12] and slot13.assets_prefix then
+				slot2(string.format("dorm3dselect/room_icon_%s", string.lower(slot13.assets_prefix)))
 			end
 		end
 	end
 
-	slot3("weaponframes")
-	slot3("ui/dormstyledropmsgboxui")
+	slot2("weaponframes")
+	slot2("ui/dormstyledropmsgboxui")
 
-	slot5 = getDorm3dGameset("drom3d_weekly_task")[1] and getProxy(TaskProxy):getTaskVO(slot4)
+	slot4 = getDorm3dGameset("drom3d_weekly_task")[1] and getProxy(TaskProxy):getTaskVO(slot3)
 
-	if slot5 and slot5:getConfig("award_display") and slot5:getConfig("award_display")[1] then
-		if Drop.Create(slot6).type == DROP_TYPE_DORM3D_GIFT then
-			slot3(pg.dorm3d_gift[slot7.id] and slot8.icon)
+	if slot4 and slot4:getConfig("award_display") and slot4:getConfig("award_display")[1] then
+		if Drop.Create(slot5).type == DROP_TYPE_DORM3D_GIFT then
+			slot2(pg.dorm3d_gift[slot6.id] and slot7.icon)
 		else
-			slot3(slot7:getIcon())
+			slot2(slot6:getIcon())
 		end
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.init = function(slot0)

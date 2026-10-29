@@ -572,7 +572,15 @@ pg.player_resource.all = {
 	756,
 	757,
 	758,
+	771,
+	772,
+	769,
+	770,
 	759,
+	767,
+	768,
+	777,
+	778,
 	760,
 	761,
 	762,
@@ -885,6 +893,9 @@ pg.player_resource.get_id_list_by_name = {
 	activity_xunzhang24 = {
 		759
 	},
+	activity_xunzhang25 = {
+		767
+	},
 	activity_xunzhang3 = {
 		477
 	},
@@ -906,6 +917,9 @@ pg.player_resource.get_id_list_by_name = {
 	activity_xunzhang9 = {
 		533
 	},
+	aerjiliya_pt = {
+		777
+	},
 	auction_pt_1 = {
 		970002
 	},
@@ -926,6 +940,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	battery3 = {
 		953
+	},
+	battery_nico = {
+		778
 	},
 	battlepass_1 = {
 		4001
@@ -1176,6 +1193,9 @@ pg.player_resource.get_id_list_by_name = {
 	fengfanv3_pt = {
 		577
 	},
+	fengfanv4_pt = {
+		768
+	},
 	freeGem = {
 		14
 	},
@@ -1388,6 +1408,15 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	limit_skinticket123 = {
 		765
+	},
+	limit_skinticket124 = {
+		771
+	},
+	limit_skinticket125 = {
+		772
+	},
+	limit_skinticket126 = {
+		769
 	},
 	limit_skinticket13 = {
 		472
@@ -2000,6 +2029,9 @@ pg.player_resource.get_id_list_by_name = {
 	},
 	skinTicket126 = {
 		766
+	},
+	skinTicket127 = {
+		770
 	},
 	skinTicket13 = {
 		184
@@ -5677,10 +5709,50 @@ end)()
 		name = "activity_xunzhang23",
 		itemid = 66094
 	}
+	pg.base.player_resource[771] = {
+		id = 771,
+		name = "limit_skinticket124",
+		itemid = 68382
+	}
+	pg.base.player_resource[772] = {
+		id = 772,
+		name = "limit_skinticket125",
+		itemid = 68383
+	}
+	pg.base.player_resource[769] = {
+		id = 769,
+		name = "limit_skinticket126",
+		itemid = 68384
+	}
+	pg.base.player_resource[770] = {
+		id = 770,
+		name = "skinTicket127",
+		itemid = 67003
+	}
 	pg.base.player_resource[759] = {
 		id = 759,
 		name = "activity_xunzhang24",
 		itemid = 66103
+	}
+	pg.base.player_resource[767] = {
+		id = 767,
+		name = "activity_xunzhang25",
+		itemid = 66113
+	}
+	pg.base.player_resource[768] = {
+		id = 768,
+		name = "fengfanv4_pt",
+		itemid = 66111
+	}
+	pg.base.player_resource[777] = {
+		id = 777,
+		name = "aerjiliya_pt",
+		itemid = 68754
+	}
+	pg.base.player_resource[778] = {
+		id = 778,
+		name = "battery_nico",
+		itemid = 68756
 	}
 	pg.base.player_resource[760] = {
 		id = 760,
@@ -5792,6 +5864,8 @@ end)()
 		name = "contribution_worldboss127",
 		itemid = 59265
 	}
+end)()
+(function ()
 	pg.base.player_resource[2011] = {
 		id = 2011,
 		name = "worldboss127_ticket",
@@ -5832,8 +5906,6 @@ end)()
 		name = "contribution_worldboss230629",
 		itemid = 59463
 	}
-end)()
-(function ()
 	pg.base.player_resource[2019] = {
 		id = 2019,
 		name = "worldboss230629_ticket",
@@ -6294,6 +6366,8 @@ end)()
 		name = "skinTicket40713",
 		itemid = 80010
 	}
+end)()
+(function ()
 	pg.base.player_resource[40730] = {
 		id = 40730,
 		name = "skinTicket40730",
@@ -6334,8 +6408,6 @@ end)()
 		name = "tw_2023yaoqing",
 		itemid = 80035
 	}
-end)()
-(function ()
 	pg.base.player_resource[41375] = {
 		id = 41375,
 		name = "skin_rerun_pt_tw2024",

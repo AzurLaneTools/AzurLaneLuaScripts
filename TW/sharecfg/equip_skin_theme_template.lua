@@ -86,6 +86,7 @@ pg.equip_skin_theme_template.all = {
 	87,
 	88,
 	89,
+	90,
 	101,
 	102,
 	103,
@@ -1992,6 +1993,30 @@ pg.base.equip_skin_theme_template = {}
 			4453,
 			4454,
 			4455
+		}
+	}
+	pg.base.equip_skin_theme_template[90] = {
+		id = 90,
+		name = "光暗夜想曲 ",
+		ids = {
+			4456,
+			4457,
+			4458,
+			4459,
+			4460,
+			4461,
+			4462,
+			4463,
+			4464,
+			4465,
+			4466,
+			4467,
+			4468,
+			4469,
+			4470,
+			4471,
+			4472,
+			4473
 		}
 	}
 	pg.base.equip_skin_theme_template[101] = {

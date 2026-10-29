@@ -32,7 +32,7 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:UpdateView()
 		end
 	elseif slot2 == GAME.ACT_NEW_PT_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 	end
 end
 

@@ -21,33 +21,33 @@ slot0.getUIName = function(slot0)
 	return "MetaCharacterUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/metacharacterui",
 		"ui/metacharactertacticsui",
 		"ui/metacharacterenergyui",
 		"ui/metacharacterrepairui",
 		"ui/metacharactersynui"
 	}
-	slot3 = {}
+	slot2 = {}
 
-	for slot8, slot9 in ipairs(getProxy(MetaCharacterProxy):getMetaProgressVOList()) do
-		if slot9 and slot9:isShow() then
-			slot10, slot11 = slot9:getBannerPathAndName()
+	for slot7, slot8 in ipairs(getProxy(MetaCharacterProxy):getMetaProgressVOList()) do
+		if slot8 and slot8:isShow() then
+			slot9, slot10 = slot8:getBannerPathAndName()
 
-			table.insert(slot3, slot10)
+			table.insert(slot2, slot9)
 
-			slot12, slot13 = slot9:getPaintPathAndName()
+			slot11, slot12 = slot8:getPaintPathAndName()
 
-			table.insert(slot3, slot12)
+			table.insert(slot2, slot11)
 
-			slot14, slot15 = slot9:getBGNamePathAndName()
+			slot13, slot14 = slot8:getBGNamePathAndName()
 
-			table.insert(slot3, slot14)
+			table.insert(slot2, slot13)
 		end
 	end
 
-	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), slot2, slot3)
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), slot1, slot2)
 end
 
 slot0.init = function(slot0)

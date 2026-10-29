@@ -9,7 +9,8 @@ slot0.getUIName = function(slot0)
 	return "BillboardUI"
 end
 
-slot0.getResource = function(slot0, slot1)
+slot0.getResource = function(slot0)
+	slot1 = slot0.contextData
 	slot2 = {
 		"commonbg/bg_fengshan",
 		"billboardframe",
@@ -31,11 +32,10 @@ slot0.getResource = function(slot0, slot1)
 	end
 
 	for slot8, slot9 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)) do
-		if not slot9:isEnd() and tonumber(slot9:getConfig("config_data")) > 0 then
-			slot3(Drop.New({
-				type = DROP_TYPE_RESOURCE,
-				id = slot9:getConfig("config_id")
-			}):getIcon())
+		slot10 = slot9:getConfig("config_data")
+
+		if not slot9:isEnd() and slot9:GetPTDrop() then
+			slot3(slot11:getIcon())
 		end
 	end
 
@@ -68,7 +68,7 @@ slot0.getResource = function(slot0, slot1)
 		slot3("emblem/n_" .. slot9)
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot2, uv0.super.getResource(slot0))
 end
 
 slot0.updateRankList = function(slot0, slot1, slot2, slot3, slot4)

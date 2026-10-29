@@ -4,30 +4,29 @@ slot0.getUIName = function(slot0)
 	return "MetaCharacterTacticsUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/metacharactertacticsui",
 		"ui/iconcolorful"
 	}
+	slot2 = {}
 	slot3 = {}
-	slot4 = {}
-	slot5 = slot1 and slot1.shipID
 
-	if slot5 and getProxy(BayProxy):getShipById(slot5) then
-		if slot6:getMetaCharacter() then
-			slot8, slot9 = MetaCharacterConst.GetMetaCharacterPaintPath(slot7.id, true)
+	if slot0.contextData.shipID and getProxy(BayProxy):getShipById(slot4) then
+		if slot5:getMetaCharacter() then
+			slot7, slot8 = MetaCharacterConst.GetMetaCharacterPaintPath(slot6.id, true)
 
-			table.insert(slot3, slot8)
+			table.insert(slot2, slot7)
 		end
 
-		for slot12, slot13 in ipairs(MetaCharacterConst.getTacticsSkillIDListByShipConfigID(slot6.configId)) do
-			if getSkillConfig(slot13) and slot14.icon then
-				table.insert(slot4, ResPathSupport.CombinePath("skillicon", slot14.icon))
+		for slot11, slot12 in ipairs(MetaCharacterConst.getTacticsSkillIDListByShipConfigID(slot5.configId)) do
+			if getSkillConfig(slot12) and slot13.icon then
+				table.insert(slot3, ResPathSupport.CombinePath("skillicon", slot13.icon))
 			end
 		end
 	end
 
-	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), slot2, slot3, slot4)
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), slot1, slot2, slot3)
 end
 
 slot0.init = function(slot0)

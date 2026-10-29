@@ -272,6 +272,8 @@ pg.memory_group.all = {
 	377,
 	378,
 	379,
+	380,
+	381,
 	501,
 	502,
 	503,
@@ -7283,6 +7285,64 @@ end)()
 			5552
 		}
 	}
+	pg.base.memory_group[380] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51601,
+		title = "颶風與霧靄迴廊 ",
+		auto_unlock = "",
+		subtype = 2,
+		id = 380,
+		group_id = "",
+		memories = {
+			5561,
+			5562,
+			5563,
+			5564,
+			5565,
+			5566,
+			5567,
+			5568,
+			5569,
+			5570,
+			5571,
+			5572,
+			5573,
+			5574,
+			5575,
+			5576,
+			5577,
+			5578,
+			5579,
+			5580,
+			5581,
+			5582,
+			5583,
+			5584,
+			5585,
+			5586
+		}
+	}
+	pg.base.memory_group[381] = {
+		ship_group = 0,
+		icon = "title_event",
+		type = 2,
+		link_event = 51605,
+		title = "光與暗的邀約 ",
+		auto_unlock = "",
+		subtype = 3,
+		id = 381,
+		group_id = "",
+		memories = {
+			5591,
+			5592,
+			5593,
+			5594,
+			5595,
+			5596
+		}
+	}
 	pg.base.memory_group[501] = {
 		ship_group = 31201,
 		icon = "title_chara_mingshi",
@@ -7954,6 +8014,8 @@ end)()
 			10000
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_group[532] = {
 		ship_group = 30164,
 		icon = "title_chara_dachao",
@@ -7998,8 +8060,6 @@ end)()
 			10000
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_group[534] = {
 		ship_group = 30703,
 		icon = "title_chara_canglong",

@@ -7,8 +7,8 @@ slot0.getUIName = function(slot0)
 	end)[1]] and slot3.pic] and slot5.resource_path or "NavalAcademyUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+slot0.getResource = function(slot0)
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), {
 		"ui/xueyuan02",
 		"ui/resourcefieldui_atlas"
 	}, (function ()

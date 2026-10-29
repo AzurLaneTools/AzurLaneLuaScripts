@@ -4,14 +4,14 @@ slot0.getUIName = function(slot0)
 	return "CommanderSkillUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {}
+slot0.getResource = function(slot0)
+	slot1 = {}
 
-	if slot1 and slot1.skill then
-		table.insert(slot2, ResPathSupport.CombinePath(ResPathSupport.ConstPath.Commander.CommanderSkillIcon, slot3:getConfig("icon")))
+	if slot0.contextData.skill then
+		table.insert(slot1, ResPathSupport.CombinePath(ResPathSupport.ConstPath.Commander.CommanderSkillIcon, slot2:getConfig("icon")))
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.init = function(slot0)

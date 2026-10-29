@@ -8874,16 +8874,7 @@ end)()
 				}
 			}
 		},
-		touch_data = {
-			{
-				2002501,
-				0,
-				{
-					6,
-					"vfx_hualan01"
-				}
-			}
-		},
+		touch_data = {},
 		use_cloth = {
 			0,
 			0,
@@ -8932,16 +8923,7 @@ end)()
 				}
 			}
 		},
-		touch_data = {
-			{
-				2002501,
-				0,
-				{
-					6,
-					"vfx_hualan01"
-				}
-			}
-		},
+		touch_data = {},
 		use_cloth = {
 			0,
 			0,
@@ -9000,16 +8982,7 @@ end)()
 				}
 			}
 		},
-		touch_data = {
-			{
-				2002501,
-				0,
-				{
-					6,
-					"vfx_hualan01"
-				}
-			}
-		},
+		touch_data = {},
 		use_cloth = {
 			0,
 			0,
@@ -9068,16 +9041,7 @@ end)()
 				}
 			}
 		},
-		touch_data = {
-			{
-				2002501,
-				0,
-				{
-					6,
-					"vfx_hualan01"
-				}
-			}
-		},
+		touch_data = {},
 		use_cloth = {
 			0,
 			0,

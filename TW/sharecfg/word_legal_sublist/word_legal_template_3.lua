@@ -791,6 +791,11 @@ temp = function()
 		},
 		["風"] = {
 			this = true
+		},
+		["蛇"] = {
+			["號"] = {
+				this = true
+			}
 		}
 	}
 end

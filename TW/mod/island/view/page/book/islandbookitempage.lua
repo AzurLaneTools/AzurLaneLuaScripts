@@ -13,8 +13,8 @@ slot0.GetHelpTip = function(slot0)
 end
 
 slot0.OnLoaded = function(slot0)
-	setText(slot0._tf:Find("top/title/Text"), i18n("island_guide"))
-	setText(slot0._tf:Find("top/title/Text/en"), i18n("island_guide_en"))
+	setText(slot0._tf:Find("adapt/top/title/Text"), i18n("island_guide"))
+	setText(slot0._tf:Find("adapt/top/title/Text/en"), i18n("island_guide_en"))
 
 	slot0.viewTF = slot0._tf:Find("view")
 
@@ -43,7 +43,7 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot0.getPointBtn:Find("Text"), i18n("island_guide_collectionpoint"))
 
-	slot0.pointPanel = slot0._tf:Find("point_panel")
+	slot0.pointPanel = slot0._tf:Find("adapt/point_panel")
 	slot0.pointLevelTF = slot0.pointPanel:Find("Text")
 	slot0.pointAwardTF = slot0.pointPanel:Find("award")
 	slot0.pointAwardIcon = slot0.pointPanel:Find("award/icon")
@@ -65,7 +65,7 @@ end
 slot0.OnInit = function(slot0)
 	slot3 = slot0._tf
 
-	onButton(slot0, slot3:Find("top/back"), function ()
+	onButton(slot0, slot3:Find("adapt/top/back"), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.unlockBtn, function ()
@@ -88,7 +88,7 @@ slot0.OnInit = function(slot0)
 
 	slot3 = slot0._tf
 
-	onButton(slot0, slot3:Find("top/help"), function ()
+	onButton(slot0, slot3:Find("adapt/top/help"), function ()
 		uv0:ShowMsgBox({
 			type = IslandMsgBox.TYPE_WHITOUT_BTN,
 			content = uv0:GetHelpTip(),

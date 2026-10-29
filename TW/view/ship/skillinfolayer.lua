@@ -4,12 +4,12 @@ slot0.getUIName = function(slot0)
 	return "SkillInfoUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {}
+slot0.getResource = function(slot0)
+	slot1 = {}
 
-	table.insert(slot2, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.ShipSkillIcon, getSkillConfig(slot1.skillId).icon))
+	table.insert(slot1, ResPathSupport.CombinePath(ResPathSupport.ConstPath.UI.ShipSkillIcon, getSkillConfig(slot0.contextData.skillId).icon))
 
-	return table.insertto(slot2, uv0.super.getResource(slot0))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.init = function(slot0)

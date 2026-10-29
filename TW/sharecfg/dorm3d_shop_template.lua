@@ -962,7 +962,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 2261,
 		id = 48,
 		realroom_id = 0,
-		order = "1",
+		order = "4",
 		panel = {
 			1,
 			2,
@@ -985,7 +985,7 @@ pg.base.dorm3d_shop_template = {}
 		item_id = 2070701,
 		id = 49,
 		realroom_id = 0,
-		order = "2",
+		order = "4",
 		panel = {
 			2,
 			3,

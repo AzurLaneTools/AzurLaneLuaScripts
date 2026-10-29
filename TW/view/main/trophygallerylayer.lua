@@ -10,8 +10,8 @@ slot0.getUIName = function(slot0)
 	return "TrophyGalleryUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0, slot1), {
+slot0.getResource = function(slot0)
+	return ResPathSupport.MergeLuaArr(uv0.super.getResource(slot0), {
 		"ui/trophygalleryui",
 		"ui/iconcolorful",
 		"ui/newstyleloveletterrewardmsgboxui"
@@ -244,7 +244,7 @@ slot0.didEnter = function(slot0)
 		"love_letter_level_up",
 		"love_letter_level_reward"
 	}, function (slot0)
-		setActive(slot0, getProxy(LoveLetterProxy):IsTipLevelUp() or slot1:IsTipAllLevelReward())
+		setActive(slot0, getProxy(LoveLetterProxy):IsTipRealizeGift() or slot1:IsTipLevelUp() or slot1:IsTipAllLevelReward())
 	end)
 	pg.EasyRedDotMgr.GetInstance():RegisterRedDot(slot0.rtCountLevelPanel:Find("info/icon/tip"), {
 		"love_letter_level_up",

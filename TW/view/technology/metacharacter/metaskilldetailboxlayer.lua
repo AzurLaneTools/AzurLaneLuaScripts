@@ -4,16 +4,16 @@ slot0.getUIName = function(slot0)
 	return "MetaSkillDetailBoxUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {}
+slot0.getResource = function(slot0)
+	slot1 = {}
 
-	for slot8 = 1, #MetaCharacterConst.getTacticsSkillIDListByShipConfigID(getProxy(BayProxy):getShipById(slot1.metaShipID).configId) do
-		table.insert(slot2, "skillicon/" .. getSkillConfig(slot4[slot8]).icon)
+	for slot7 = 1, #MetaCharacterConst.getTacticsSkillIDListByShipConfigID(getProxy(BayProxy):getShipById(slot0.contextData.metaShipID).configId) do
+		table.insert(slot1, "skillicon/" .. getSkillConfig(slot3[slot7]).icon)
 	end
 
-	table.insertto(slot2, uv0.super.getResource(slot0))
+	table.insertto(slot1, uv0.super.getResource(slot0))
 
-	return slot2
+	return slot1
 end
 
 slot0.init = function(slot0)

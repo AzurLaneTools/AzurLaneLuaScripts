@@ -8,19 +8,20 @@ slot0.getUIName = function(slot0)
 	return "EvaluationUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"shipyardicon/unknown",
 		"shiptype",
 		"shipframe"
 	}
-	slot4 = slot1.showTrans
-	slot5 = getProxy(CollectionProxy):getShipGroup(slot1.groupId)
+	slot2 = slot0.contextData
+	slot4 = slot2.showTrans
+	slot5 = getProxy(CollectionProxy):getShipGroup(slot2.groupId)
 
-	table.insert(slot2, "bg/star_level_card_" .. slot5:rarity2bgPrint(slot4))
-	table.insertto(slot2, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot5:getPainting(slot4)))
+	table.insert(slot1, "bg/star_level_card_" .. slot5:rarity2bgPrint(slot4))
+	table.insertto(slot1, ResPathSupport.GetPaintingShipYardIconListByPaintingName(slot5:getPainting(slot4)))
 
-	return table.insertto(slot2, uv0.super.getResource(slot0))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.init = function(slot0)

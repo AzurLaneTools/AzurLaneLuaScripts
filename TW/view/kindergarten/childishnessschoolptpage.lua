@@ -34,7 +34,7 @@ end
 
 slot0.Show = function(slot0)
 	slot0:UpdatePtData()
-	slot0:updateResIcon(Drop.New(slot0.ptData:GetRes()), slot0.ptData.type)
+	slot0:updateResIcon(slot0.ptData:GetRes(), slot0.ptData.type)
 	slot0:UpdateList(slot0.ptData.dropList, slot0.ptData.targets, slot0.ptData.level)
 
 	slot0.totalTxt.text = slot0.ptData.count

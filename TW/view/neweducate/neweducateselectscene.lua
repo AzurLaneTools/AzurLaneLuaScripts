@@ -4,8 +4,8 @@ slot0.getUIName = function(slot0)
 	return "NewEducateSelectUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"ui/PerformUI",
 		"cue/qe-ova-10.b",
 		"painting/linghangyuan1_1",
@@ -15,126 +15,126 @@ slot0.getResource = function(slot0, slot1)
 		"cue/story-richang-quiet.b"
 	}
 
-	slot3 = function(slot0)
+	slot2 = function(slot0)
 		if noEmptyStr(slot0) and not table.contains(uv0, slot0) then
 			table.insert(uv0, slot0)
 		end
 	end
 
-	for slot7, slot8 in ipairs(pg.secretary_special_ship.all) do
-		if noEmptyStr(pg.secretary_special_ship[slot8].prefab) and not table.contains(slot2, "painting/" .. slot9) then
-			slot3("painting/" .. slot9)
-			slot3("paintingface/" .. slot9)
-			slot3("squareicon/" .. slot9)
-			slot3("qicon/" .. slot9)
+	for slot6, slot7 in ipairs(pg.secretary_special_ship.all) do
+		if noEmptyStr(pg.secretary_special_ship[slot7].prefab) and not table.contains(slot1, "painting/" .. slot8) then
+			slot2("painting/" .. slot8)
+			slot2("paintingface/" .. slot8)
+			slot2("squareicon/" .. slot8)
+			slot2("qicon/" .. slot8)
 		end
 	end
 
-	for slot7, slot8 in ipairs(pg.child2_benefit_list.all) do
-		slot10 = pg.child2_benefit_list[slot8].item_icon_little
+	for slot6, slot7 in ipairs(pg.child2_benefit_list.all) do
+		slot9 = pg.child2_benefit_list[slot7].item_icon_little
 
-		if noEmptyStr(pg.child2_benefit_list[slot8].item_icon) and not table.contains(slot2, "neweducateicon/" .. slot9) then
-			slot3("neweducateicon/" .. slot9)
+		if noEmptyStr(pg.child2_benefit_list[slot7].item_icon) and not table.contains(slot1, "neweducateicon/" .. slot8) then
+			slot2("neweducateicon/" .. slot8)
 		end
 
-		if noEmptyStr(slot10) and not table.contains(slot2, "neweducateicon/" .. slot10) then
-			slot3("neweducateicon/" .. slot10)
-		end
-	end
-
-	for slot7, slot8 in ipairs(pg.child2_resource.all) do
-		slot10 = pg.child2_resource[slot8].item_icon
-
-		if noEmptyStr(pg.child2_resource[slot8].icon) and not table.contains(slot2, "neweducateicon/" .. slot9) then
-			slot3("neweducateicon/" .. slot9)
-		end
-
-		if noEmptyStr(slot10) and not table.contains(slot2, "neweducateicon/" .. slot10) then
-			slot3("neweducateicon/" .. slot10)
+		if noEmptyStr(slot9) and not table.contains(slot1, "neweducateicon/" .. slot9) then
+			slot2("neweducateicon/" .. slot9)
 		end
 	end
 
-	for slot7, slot8 in ipairs(pg.child2_attr.all) do
-		slot10 = pg.child2_attr[slot8].item_icon
+	for slot6, slot7 in ipairs(pg.child2_resource.all) do
+		slot9 = pg.child2_resource[slot7].item_icon
 
-		if noEmptyStr(pg.child2_attr[slot8].icon) and not table.contains(slot2, "neweducateicon/" .. slot9) then
-			slot3("neweducateicon/" .. slot9)
+		if noEmptyStr(pg.child2_resource[slot7].icon) and not table.contains(slot1, "neweducateicon/" .. slot8) then
+			slot2("neweducateicon/" .. slot8)
 		end
 
-		if noEmptyStr(slot10) and not table.contains(slot2, "neweducateicon/" .. slot10) then
-			slot3("neweducateicon/" .. slot10)
-		end
-	end
-
-	for slot7, slot8 in ipairs(pg.child2_memory.all) do
-		if noEmptyStr(pg.child2_memory[slot8].pic) and not table.contains(slot2, "neweducateicon/" .. slot9) then
-			slot3("neweducateicon/" .. slot9)
+		if noEmptyStr(slot9) and not table.contains(slot1, "neweducateicon/" .. slot9) then
+			slot2("neweducateicon/" .. slot9)
 		end
 	end
 
-	for slot7, slot8 in ipairs(pg.child2_plan.all) do
-		slot10 = pg.child2_plan[slot8].plan_rectangle_2
+	for slot6, slot7 in ipairs(pg.child2_attr.all) do
+		slot9 = pg.child2_attr[slot7].item_icon
 
-		if noEmptyStr(pg.child2_plan[slot8].icon_square) and not table.contains(slot2, "neweducateicon/" .. slot9) then
-			slot3("neweducateicon/" .. slot9)
+		if noEmptyStr(pg.child2_attr[slot7].icon) and not table.contains(slot1, "neweducateicon/" .. slot8) then
+			slot2("neweducateicon/" .. slot8)
 		end
 
-		if noEmptyStr(slot10) and not table.contains(slot2, "neweducateicon/" .. slot10) then
-			slot3("neweducateicon/" .. slot10)
-		end
-	end
-
-	for slot7, slot8 in ipairs(pg.child2_site_display.all) do
-		slot10 = pg.child2_site_display[slot8].event_title
-
-		if noEmptyStr(pg.child2_site_display[slot8].event_icon) and not table.contains(slot2, "neweducateicon/" .. slot9) then
-			slot3("neweducateicon/" .. slot9)
-		end
-
-		if noEmptyStr(slot10) and not table.contains(slot2, "neweducateicon/" .. slot10) then
-			slot3("neweducateicon/" .. slot10)
+		if noEmptyStr(slot9) and not table.contains(slot1, "neweducateicon/" .. slot9) then
+			slot2("neweducateicon/" .. slot9)
 		end
 	end
 
-	if getProxy(EducateProxy):GetSelectInfo() and slot4.bg then
-		slot3("bg/" .. slot4.bg)
+	for slot6, slot7 in ipairs(pg.child2_memory.all) do
+		if noEmptyStr(pg.child2_memory[slot7].pic) and not table.contains(slot1, "neweducateicon/" .. slot8) then
+			slot2("neweducateicon/" .. slot8)
+		end
 	end
 
-	slot5 = getProxy(NewEducateProxy)
+	for slot6, slot7 in ipairs(pg.child2_plan.all) do
+		slot9 = pg.child2_plan[slot7].plan_rectangle_2
 
-	for slot9, slot10 in ipairs(pg.child2_data.all) do
-		if slot5:GetChar(slot10) and slot11:GetSelectInfo() and slot12.bg then
-			slot3("bg/" .. slot12.bg)
+		if noEmptyStr(pg.child2_plan[slot7].icon_square) and not table.contains(slot1, "neweducateicon/" .. slot8) then
+			slot2("neweducateicon/" .. slot8)
 		end
 
-		if pg.child2_data[slot10] then
-			if slot12.child2_data_personality_icon and #slot12.child2_data_personality_icon > 0 then
-				for slot16, slot17 in ipairs(slot12.child2_data_personality_icon) do
-					slot3("neweducateicon/" .. slot17)
+		if noEmptyStr(slot9) and not table.contains(slot1, "neweducateicon/" .. slot9) then
+			slot2("neweducateicon/" .. slot9)
+		end
+	end
+
+	for slot6, slot7 in ipairs(pg.child2_site_display.all) do
+		slot9 = pg.child2_site_display[slot7].event_title
+
+		if noEmptyStr(pg.child2_site_display[slot7].event_icon) and not table.contains(slot1, "neweducateicon/" .. slot8) then
+			slot2("neweducateicon/" .. slot8)
+		end
+
+		if noEmptyStr(slot9) and not table.contains(slot1, "neweducateicon/" .. slot9) then
+			slot2("neweducateicon/" .. slot9)
+		end
+	end
+
+	if getProxy(EducateProxy):GetSelectInfo() and slot3.bg then
+		slot2("bg/" .. slot3.bg)
+	end
+
+	slot4 = getProxy(NewEducateProxy)
+
+	for slot8, slot9 in ipairs(pg.child2_data.all) do
+		if slot4:GetChar(slot9) and slot10:GetSelectInfo() and slot11.bg then
+			slot2("bg/" .. slot11.bg)
+		end
+
+		if pg.child2_data[slot9] then
+			if slot11.child2_data_personality_icon and #slot11.child2_data_personality_icon > 0 then
+				for slot15, slot16 in ipairs(slot11.child2_data_personality_icon) do
+					slot2("neweducateicon/" .. slot16)
 				end
 			end
 
-			if noEmptyStr(slot12.personality_bar_icon) then
-				slot3("neweducateicon/" .. slot12.personality_bar_icon)
+			if noEmptyStr(slot11.personality_bar_icon) then
+				slot2("neweducateicon/" .. slot11.personality_bar_icon)
 			end
 
-			if slot12.personality_tag_icon and #slot12.personality_tag_icon > 0 then
-				for slot16, slot17 in ipairs(slot12.personality_tag_icon) do
-					for slot21, slot22 in ipairs(slot17) do
-						slot3("neweducateicon/" .. slot22)
+			if slot11.personality_tag_icon and #slot11.personality_tag_icon > 0 then
+				for slot15, slot16 in ipairs(slot11.personality_tag_icon) do
+					for slot20, slot21 in ipairs(slot16) do
+						slot2("neweducateicon/" .. slot21)
 					end
 				end
 			end
 
-			if slot12.spine_char then
-				for slot16, slot17 in pairs(slot12.spine_char) do
-					slot3("char/" .. slot17)
+			if slot11.spine_char then
+				for slot15, slot16 in pairs(slot11.spine_char) do
+					slot2("char/" .. slot16)
 				end
 			end
 		end
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0, slot1))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.preload = function(slot0, slot1)
@@ -165,7 +165,7 @@ slot0.init = function(slot0)
 	slot0.nameTF = slot1:Find("name")
 	slot0.progressTF = slot1:Find("progress")
 	slot0.gameTF = slot1:Find("game")
-	slot0.topTF = slot0.rootTF:Find("top")
+	slot0.topTF = slot0.rootTF:Find("adapt/top")
 	slot0.contentTF = slot0.rootTF:Find("window/view/content")
 end
 

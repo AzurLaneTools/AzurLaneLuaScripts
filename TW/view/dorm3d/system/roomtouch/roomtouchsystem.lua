@@ -222,9 +222,16 @@ slot0.ExitTouchMode = function(slot0)
 	end
 
 	slot2 = slot0:BeginTouchTransition(uv0.MODE_STATE.EXITING)
-	slot3 = {}
+	slot4 = slot0.touchTriggerRunner
 
-	slot0.touchTriggerRunner:CancelAllTouchPress()
+	slot4:CancelAllTouchPress()
+	table.insert({}, function (slot0)
+		if not uv0:IsTouchTransitionActive(uv1, uv2.MODE_STATE.EXITING) then
+			return
+		end
+
+		uv0:Emit(AimIKSystem.ON_EXIT_TOUCH_MODE, slot0)
+	end)
 
 	if slot0.inTouchGame then
 		table.insert(slot3, function (slot0)
@@ -446,6 +453,11 @@ slot0.TouchModeAction = function(slot0, slot1, slot2, slot3, ...)
 				uv0:Emit(RoomIKSystem.SET_IK_SWITCH_SKIN_ID, uv0:GetApartment():GetCurSkinId())
 				uv1:SwitchCharacterSkin(uv0:GetApartment():GetConfigID(), uv2)
 				uv0:Emit(RoomIKSystem.REPLACE_IK_STATUS, uv3)
+			end
+		end,
+		function (slot0)
+			return function ()
+				uv0:Emit(AimIKSystem.ENTER_TOUCH_AIMIK_STATUS, uv1)
 			end
 		end
 	}, function ()

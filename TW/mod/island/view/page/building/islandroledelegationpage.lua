@@ -24,9 +24,9 @@ slot2 = Vector3(0, 0, 0)
 
 slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf
-	slot0.backBtn = slot1:Find("top/back")
+	slot0.backBtn = slot1:Find("adapt/top/back")
 	slot1 = slot0._tf
-	slot0.title = slot1:Find("top/title")
+	slot0.title = slot1:Find("adapt/top/title")
 	slot1 = slot0._tf
 	slot0.content = slot1:Find("content")
 	slot3 = slot0.content
@@ -76,7 +76,7 @@ slot0.OnInit = function(slot0)
 
 	slot3 = slot0._tf
 
-	onButton(slot0, slot3:Find("top/title/help"), function ()
+	onButton(slot0, slot3:Find("adapt/top/title/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.island_help_commission.tip
@@ -212,8 +212,8 @@ slot0.OnShow = function(slot0, slot1, slot2)
 
 	slot0:StopTimer()
 	slot0:StartTimer()
-	setText(slot0._tf:Find("top/title/Text"), slot0.placeCfg.name)
-	setText(slot0._tf:Find("top/title/Text/en"), "PRODUCTING")
+	setText(slot0._tf:Find("adapt/top/title/Text"), slot0.placeCfg.name)
+	setText(slot0._tf:Find("adapt/top/title/Text/en"), "PRODUCTING")
 end
 
 slot0.DefaultTargetTabIndex = function(slot0)

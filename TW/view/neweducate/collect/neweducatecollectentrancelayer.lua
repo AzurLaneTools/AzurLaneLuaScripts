@@ -32,6 +32,8 @@ slot0.init = function(slot0)
 	}
 	slot0.ids = table.mergeArray(slot0.ids, pg.child2_data.all)
 	slot0.toggleList = UIItemList.New(slot0.togglesTF, slot0.togglesTF:Find("tpl"))
+
+	setText(slot0._tf:Find("anim_root/closeText"), i18n("world_collection_back"))
 end
 
 slot0.didEnter = function(slot0)

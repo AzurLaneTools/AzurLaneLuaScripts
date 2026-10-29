@@ -4,21 +4,21 @@ slot0.getUIName = function(slot0)
 	return "BuildShipRegularExchangeUI"
 end
 
-slot0.getResource = function(slot0, slot1)
-	slot2 = {
+slot0.getResource = function(slot0)
+	slot1 = {
 		"regularexchangeicon",
 		"shiptype"
 	}
-	slot4 = ipairs
-	slot5 = pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_ship_id or {}
+	slot3 = ipairs
+	slot4 = pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_ship_id or {}
 
-	for slot7, slot8 in slot4(slot5) do
-		if pg.ship_data_statistics[slot8] and pg.ship_skin_template[slot9.skin_id] and noEmptyStr(slot10.painting) then
-			table.insertto(slot2, ResPathSupport.GetPaintingListByPaintingName(slot10.painting))
+	for slot6, slot7 in slot3(slot4) do
+		if pg.ship_data_statistics[slot7] and pg.ship_skin_template[slot8.skin_id] and noEmptyStr(slot9.painting) then
+			table.insertto(slot1, ResPathSupport.GetPaintingListByPaintingName(slot9.painting))
 		end
 	end
 
-	return table.insertto(slot2, uv0.super.getResource(slot0))
+	return table.insertto(slot1, uv0.super.getResource(slot0))
 end
 
 slot0.preload = function(slot0, slot1)

@@ -8244,6 +8244,37 @@ _G.pg.base.item_data_statistics[11059] = {
 }
 
 
+_G.pg.base.item_data_statistics[11060] = {
+	open_directly = 0,
+	name = "雙發實心彈T0設計圖",
+	type = 9,
+	display = "雙發實心彈T0設計圖",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/151280",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[12000] = {
 	open_directly = 0,
 	name = "九三式純氧魚雷T3設計圖",
@@ -29779,6 +29810,131 @@ _G.pg.base.item_data_statistics[30388] = {
 }
 
 
+_G.pg.base.item_data_statistics[30389] = {
+	open_directly = 1,
+	name = "外觀裝備箱(光暗夜想曲)",
+	type = 11,
+	display = "可以獲得一件隨機的光暗夜想曲風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxfengfanv4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30386",
+	id = 30389,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外觀裝備箱(世界巡遊)",
@@ -46712,6 +46868,219 @@ _G.pg.base.item_data_statistics[30572] = {
 }
 
 
+_G.pg.base.item_data_statistics[30573] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(光暗夜想曲)",
+	type = 13,
+	display = "使用後可從「光暗夜想曲」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxfengfanv4zixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30573,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "定向部件T4",
@@ -54496,6 +54865,328 @@ _G.pg.base.item_data_statistics[40728] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40736] = {
+	open_directly = 1,
+	name = "船團寶藏回饋I",
+	type = 17,
+	display = "免費領取禮包獲得高效作戰指令書X3，石油X150",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40736,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4139,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40737] = {
+	open_directly = 1,
+	name = "船團寶藏回饋II",
+	type = 17,
+	display = "免費領取禮包獲得高效作戰指令書X3，石油X150",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40737,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4140,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40738] = {
+	open_directly = 1,
+	name = "船團寶藏回饋III",
+	type = 17,
+	display = "免費領取禮包獲得高效作戰指令書X3，石油X150",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40738,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4141,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40739] = {
+	open_directly = 1,
+	name = "船團寶藏回饋IV",
+	type = 17,
+	display = "免費領取禮包獲得高效作戰指令書X3，石油X150",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40739,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4142,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40740] = {
+	open_directly = 1,
+	name = "船團寶藏回饋V",
+	type = 17,
+	display = "免費領取禮包獲得高效作戰指令書X3，石油X150",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40740,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4143,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40741] = {
+	open_directly = 1,
+	name = "船團寶藏回饋VI",
+	type = 17,
+	display = "免費領取禮包獲得高效作戰指令書X3，石油X150",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40741,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4144,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40742] = {
+	open_directly = 1,
+	name = "船團寶藏回饋VII",
+	type = 17,
+	display = "免費領取禮包獲得高效作戰指令書X3，石油X150",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40742,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4145,
+		0,
+		150
+	},
 	limit = {}
 }
 
@@ -102326,6 +103017,290 @@ _G.pg.base.item_data_statistics[81440] = {
 }
 
 
+_G.pg.base.item_data_statistics[81446] = {
+	open_directly = 1,
+	name = "船團建設禮包I",
+	type = 17,
+	display = "購買禮包可獲得60鑽，高級定向藍圖·八期*2",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911101",
+	id = 81446,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81447] = {
+	open_directly = 1,
+	name = "船團建設禮包II",
+	type = 17,
+	display = "購買禮包可獲得200鑽",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911102",
+	id = 81447,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81448] = {
+	open_directly = 1,
+	name = "船團建設禮包III",
+	type = 17,
+	display = "購買禮包可獲得定向部件T4*5，心智單元*200",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911103",
+	id = 81448,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			30114,
+			5
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81449] = {
+	open_directly = 1,
+	name = "船團建設禮包IV",
+	type = 17,
+	display = "購買禮包可獲得60鑽，試作型布里MKII*1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911104",
+	id = 81449,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81450] = {
+	open_directly = 1,
+	name = "船團建設禮包V",
+	type = 17,
+	display = "購買禮包可獲得艦艇演習數據T2*60",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day5",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911105",
+	id = 81450,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			16502,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81451] = {
+	open_directly = 1,
+	name = "船團建設禮包VI",
+	type = 17,
+	display = "購買禮包可獲得心智魔方*10，快速完成工具*5",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911106",
+	id = 81451,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81452] = {
+	open_directly = 1,
+	name = "船團建設禮包VII",
+	type = 17,
+	display = "購買禮包可獲得60鑽，高級定向藍圖·九期*2",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911107",
+	id = 81452,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[89001] = {
 	open_directly = 0,
 	name = "三週年紀念幣",
@@ -103183,6 +104158,58 @@ _G.pg.base.item_data_statistics[180010] = {
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[99985] = {
+	open_directly = 1,
+	name = "作战奖励补给箱",
+	type = 17,
+	display = "用于补发2026年9月大型作战委托作战部分奖励异常所涉及的奖励。开启后可随机获得特别兑换凭证、海域坐标记录仪或塞壬坐标记录仪。 ",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "7900",
+	id = 99985,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			12,
+			101,
+			10
+		},
+		{
+			12,
+			2100001,
+			1
+		},
+		{
+			12,
+			2100002,
+			1
+		},
+		{
+			12,
+			2100003,
+			1
+		}
+	},
+	price = {},
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
