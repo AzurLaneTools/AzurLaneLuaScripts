@@ -174146,7 +174146,7 @@ end)()
 		canputon = 0,
 		id = 344119,
 		comfortable = 4,
-		describe = "委托、懸賞、尋物啟事，全都貼在這里啦！",
+		describe = "委托、懸賞、尋物啟事，全都貼在這裡啦！",
 		dorm_id = 0,
 		tag = 7,
 		spine_extra = "",
