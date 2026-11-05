@@ -319,10 +319,10 @@ pg.base.island_speedup_ticket = {}
 			{
 				2026,
 				11,
-				5
+				19
 			},
 			{
-				12,
+				15,
 				0,
 				0
 			}
