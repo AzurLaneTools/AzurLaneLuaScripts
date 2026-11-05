@@ -123,15 +123,21 @@ slot0.MakePaintingFadeIn = function(slot0)
 		return
 	end
 
-	slot4 = slot0._paintingManager
+	slot0._paintingManager:SetOpacityPainting(slot3, slot2)
 
-	slot4:SetOpacityPainting(slot3, slot2)
+	if slot0._firstPaintingLoading then
+		slot0._firstPaintingLoading = false
 
-	slot4 = slot0._paintingManager
+		slot0._paintingManager:RevertPaintingContainer()
+		slot0._paintingManager:SetPaintingAlpha(1)
+		slot0.painting:OnPaintingFade(false)
+	else
+		slot4 = slot0._paintingManager
 
-	slot4:SetPaintingFadeIn(function ()
-		uv0.painting:OnPaintingFade(false)
-	end)
+		slot4:SetPaintingFadeIn(function ()
+			uv0.painting:OnPaintingFade(false)
+		end)
+	end
 end
 
 slot0.IsLive2DState = function(slot0)
@@ -155,6 +161,8 @@ slot0.Init = function(slot0, slot1, slot2, slot3)
 		for slot7, slot8 in pairs(slot0.paintings) do
 			slot8:SetTargetContainer(slot0._paintingManager:GetPaintingContainer())
 		end
+
+		slot0._firstPaintingLoading = true
 	end
 
 	print("初始化舰船 = " .. slot1:getPainting())
@@ -199,6 +207,10 @@ slot0.Reload = function(slot0, slot1)
 		print("开始加载舰船 = " .. uv0.ship:getPainting())
 
 		if uv0._loadingPainting then
+			if uv0._paintingManager then
+				uv0._paintingManager:DisablePainting()
+			end
+
 			uv0._loadingPainting:Unload()
 		end
 
@@ -236,15 +248,14 @@ slot0.Refresh = function(slot0, slot1, slot2)
 end
 
 slot0.Disable = function(slot0)
+	if slot0._paintingManager then
+		slot0._paintingManager:Dispose()
+
+		slot0._paintingManager = nil
+		slot0._paintingFadeFlag = false
+	end
+
 	if slot0.painting then
-		if slot0._paintingManager then
-			slot0._paintingManager:DisablePainting()
-			slot0._paintingManager:Dispose()
-
-			slot0._paintingManager = nil
-			slot0._paintingFadeFlag = false
-		end
-
 		slot0.painting:Pause()
 	end
 end
@@ -479,6 +490,11 @@ end
 
 slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
+
+	if slot0._paintingManager then
+		slot0._paintingManager:Dispose()
+	end
+
 	slot0:DisableDragAndZoom()
 
 	if slot0.painting then
@@ -486,13 +502,10 @@ slot0.Dispose = function(slot0)
 	end
 
 	slot0.painting = nil
+	slot0._loadingPainting = nil
 
 	for slot4, slot5 in ipairs(slot0.paintings) do
 		slot5:Dispose()
-	end
-
-	if slot0._paintingManager then
-		slot0._paintingManager:Dispose()
 	end
 
 	slot0.paintings = nil

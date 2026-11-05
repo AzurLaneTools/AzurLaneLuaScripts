@@ -25,14 +25,17 @@ slot0.step = function(slot0)
 		slot0._delayCallbackTime = slot0._delayCallbackTime - Time.deltaTime
 
 		if slot0._delayCallbackTime <= 0 then
-			if slot0._delayCallback then
-				slot0._delayCallback = nil
-
-				slot0._delayCallback()
-			end
-
-			slot0._delayCallbackTime = nil
+			slot0:InvokeDelayCallback()
 		end
+	end
+end
+
+slot0.InvokeDelayCallback = function(slot0)
+	slot0._delayCallback = nil
+	slot0._delayCallbackTime = nil
+
+	if slot0._delayCallback then
+		slot1()
 	end
 end
 
@@ -71,20 +74,26 @@ slot0.GetSpinePaintingContainer = function(slot0)
 end
 
 slot0.DisablePainting = function(slot0)
-	if slot0._paintingTF then
-		SetParent(slot0._paintingTF, slot0._paintingPreParent, false)
+	print("disable painting")
 
-		slot0._paintingTF = nil
-		slot0._paintingPreParent = nil
+	if not IsNil(slot0._paintingTF) and not IsNil(slot0._paintingPreParent) then
+		SetParent(slot0._paintingTF, slot0._paintingPreParent, false)
 	end
+
+	slot0._paintingTF = nil
+	slot0._paintingPreParent = nil
+	slot0._paintingContent = nil
 end
 
 slot0.SetPaintingAlphaTween = function(slot0, slot1, slot2, slot3)
-	if slot0._delayCallback then
-		slot0._delayCallback()
+	slot0:InvokeDelayCallback()
 
-		slot0._delayCallback = nil
-		slot0._delayCallbackTime = nil
+	if slot0._isDispose then
+		if slot3 then
+			slot3()
+		end
+
+		return
 	end
 
 	print("set painting alpha tween value = " .. slot1 .. " time = " .. slot2)
@@ -95,41 +104,31 @@ slot0.SetPaintingAlphaTween = function(slot0, slot1, slot2, slot3)
 
 	slot0:ClearAlphaTween()
 	slot0:SetPaitningAlphaContent()
-
-	slot5 = LeanTween.value(slot0._go, slot0._rawImage.color.a, slot1, slot2)
-	slot5 = slot5:setEase(LeanTweenType.linear)
-	slot5 = slot5:setOnUpdate(System.Action_float(function (slot0)
+	LeanTween.value(slot0._go, IsNil(slot0._rawImage) and slot1 or slot0._rawImage.color.a, slot1, slot2):setEase(LeanTweenType.linear):setOnUpdate(System.Action_float(function (slot0)
 		if uv0 > 0 then
 			uv1:SetRawImageAlpha(slot0)
 		end
 
 		uv0 = uv0 + 1
-	end))
-
-	slot5:setOnComplete(System.Action(function ()
+	end)):setOnComplete(System.Action(function ()
 		uv0:SetRawImageAlpha(uv1)
 
 		if uv1 == 1 then
 			uv0:RevertPaintingContent()
 		end
 
-		if uv0._delayCallback then
-			uv0._delayCallback()
-
-			uv0._delayCallback = nil
-			uv0._delayCallbackTime = nil
-		end
+		uv0:InvokeDelayCallback()
 	end))
 end
 
 slot0.SetPaitningAlphaContent = function(slot0)
-	if slot0._paintingTF and slot0._paintingContent then
+	if not IsNil(slot0._paintingTF) and not IsNil(slot0._paintingContent) then
 		SetParent(slot0._paintingTF, slot0._paintingContent, false)
 	end
 end
 
 slot0.RevertPaintingContent = function(slot0)
-	if slot0._paintingTF and slot0._paintingPreParent then
+	if not IsNil(slot0._paintingTF) and not IsNil(slot0._paintingPreParent) then
 		SetParent(slot0._paintingTF, slot0._paintingPreParent, false)
 	end
 end
@@ -140,6 +139,10 @@ slot0.SetRawImage = function(slot0, slot1)
 end
 
 slot0.SetRawImageAlpha = function(slot0, slot1)
+	if IsNil(slot0._rawImage) then
+		return
+	end
+
 	slot2 = slot0._rawImage.color
 	slot2.a = Mathf.Clamp01(slot1)
 	slot0._rawImage.color = slot2
@@ -219,11 +222,16 @@ slot0.GetCanvasTF = function(slot0)
 end
 
 slot0.Dispose = function(slot0)
-	if slot0._delayCallback then
-		slot0._delayCallback = nil
-
-		slot0._delayCallback()
+	if slot0._isDispose then
+		return
 	end
+
+	print("dispose opacity")
+
+	slot0._isDispose = true
+
+	slot0:DisablePainting()
+	slot0:InvokeDelayCallback()
 
 	if slot0.timer then
 		slot0.timer:Stop()

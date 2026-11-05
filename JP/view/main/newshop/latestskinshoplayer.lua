@@ -1424,7 +1424,7 @@ slot0.LoadMeshPainting = function(slot0, slot1, slot2)
 		uv2:CheckShowShopHx(slot0.transform:Find("shop_hx"))
 		uv2:CheckShowShopHx(slot0.transform:Find("shop_hx_ch" .. pg.SdkMgr.GetInstance():GetChannelUIDIncludeHarmony()))
 		uv2._paintingManager:SetOpacityPainting(tf(slot0), PaintingFadeManager.PAINTING_TYPE.MESH)
-		uv2._paintingManager:RevertPaintingContainer(1)
+		uv2._paintingManager:RevertPaintingContainer()
 		uv2._paintingManager:SetPaintingAlpha(1)
 	end)
 end

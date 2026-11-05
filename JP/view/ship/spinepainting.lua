@@ -78,7 +78,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 				uv0._loadSpineDic[uv1] = slot0
 
 				uv0:init(slot0)
-				uv0:SetVisible(false)
+				uv0:applyVisible(false)
 				uv2()
 			end)
 		end,
@@ -111,7 +111,10 @@ slot0.Ctor = function(slot0, slot1, slot2)
 		uv0._initCallback = {}
 
 		onNextTick(function ()
-			uv0:SetVisible(true)
+			uv0._pendingVisible = nil
+			uv0._visibleReady = true
+
+			uv0:applyVisible(uv0._pendingVisible ~= false)
 
 			if uv1 then
 				uv1(uv0)
@@ -287,6 +290,24 @@ slot0.UpdateGraphic = function(slot0)
 end
 
 slot0.SetVisible = function(slot0, slot1)
+	if slot0._isDisposed then
+		return
+	end
+
+	if not slot0._visibleReady then
+		slot0._pendingVisible = slot1
+
+		return
+	end
+
+	slot0:applyVisible(slot1)
+end
+
+slot0.applyVisible = function(slot0, slot1)
+	if slot0._isDisposed then
+		return
+	end
+
 	if slot1 then
 		slot0._tf.localPosition = slot0._spinePaintingData.pos
 	else
@@ -312,8 +333,10 @@ slot0.SetVisible = function(slot0, slot1)
 	SpinePaintingConst.spine_painting_action = false
 
 	if slot1 then
-		slot0._slotAlphaTimer:Start()
-	else
+		if slot0._slotAlphaTimer and not slot0._slotAlphaTimer.running then
+			slot0._slotAlphaTimer:Start()
+		end
+	elseif slot0._slotAlphaTimer and slot0._slotAlphaTimer.running then
 		slot0._slotAlphaTimer:Stop()
 	end
 
@@ -1246,11 +1269,11 @@ slot0.Dispose = function(slot0)
 		slot0.spineAnim:SetActionCallBack(nil)
 	end
 
-	if slot0._slotAlphaTimer then
+	if slot0._slotAlphaTimer and slot0._slotAlphaTimer.running then
 		slot0._slotAlphaTimer:Stop()
-
-		slot0._slotAlphaTimer = nil
 	end
+
+	slot0._slotAlphaTimer = nil
 
 	if slot0.stepSlotAlpha and #slot0.stepSlotAlpha > 0 then
 		for slot4, slot5 in ipairs(slot0.stepSlotAlpha) do

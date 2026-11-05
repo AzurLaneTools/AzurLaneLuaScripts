@@ -42639,7 +42639,6 @@ _G.pg.base.task_data_template[7204] = {
 	sub_type = 186,
 	task_fold = 0,
 	story_icon = "",
-	scene = "",
 	quick_finish = 0,
 	level = 10,
 	award_choice = "",
@@ -42675,6 +42674,9 @@ _G.pg.base.task_data_template[7204] = {
 			54049,
 			2
 		}
+	},
+	scene = {
+		"LEVEL"
 	}
 }
 
@@ -42691,7 +42693,6 @@ _G.pg.base.task_data_template[7205] = {
 	sub_type = 185,
 	task_fold = 0,
 	story_icon = "",
-	scene = "",
 	quick_finish = 0,
 	level = 10,
 	award_choice = "",
@@ -42727,6 +42728,9 @@ _G.pg.base.task_data_template[7205] = {
 			59900,
 			5
 		}
+	},
+	scene = {
+		"LEVEL"
 	}
 }
 

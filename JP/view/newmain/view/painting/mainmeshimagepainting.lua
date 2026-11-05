@@ -37,8 +37,15 @@ slot0.GetPaintingName = function(slot0)
 end
 
 slot0.OnLoad = function(slot0, slot1)
+	slot2 = slot0:GetPaintingName()
+
 	slot0:ClearScalePart()
-	LoadPaintingPrefabAsync(slot0.container, slot0.paintingName, slot0:GetPaintingName(), "mainNormal", function (slot0)
+
+	if IsNil(slot0.container) then
+		return
+	end
+
+	LoadPaintingPrefabAsync(slot0.container, slot0.paintingName, slot2, "mainNormal", function (slot0)
 		if uv0:IsExited() then
 			uv0:Unload()
 

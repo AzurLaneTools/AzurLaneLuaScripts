@@ -108,7 +108,7 @@ pg.base.island_shop_normal_template = {}
 					3
 				},
 				{
-					16,
+					0,
 					0,
 					1
 				}
@@ -142,7 +142,7 @@ pg.base.island_shop_normal_template = {}
 					7
 				},
 				{
-					16,
+					0,
 					0,
 					1
 				}

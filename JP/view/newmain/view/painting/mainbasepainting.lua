@@ -36,7 +36,6 @@ slot0.IsLoaded = function(slot0)
 end
 
 slot0.SetOnceLoadedCall = function(slot0, slot1)
-	slot0.loadedCallback = slot1
 end
 
 slot0.Load = function(slot0, slot1)
@@ -61,6 +60,10 @@ slot0.Load = function(slot0, slot1)
 end
 
 slot0.Unload = function(slot0)
+	if slot0.state == uv0 then
+		return
+	end
+
 	slot0.state = uv0
 
 	removeOnButton(slot0.container)
