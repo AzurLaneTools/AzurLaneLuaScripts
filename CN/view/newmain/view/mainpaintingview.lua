@@ -130,6 +130,7 @@ slot0.MakePaintingFadeIn = function(slot0)
 
 		slot0._paintingManager:RevertPaintingContainer()
 		slot0._paintingManager:SetPaintingAlpha(1)
+		slot0.painting:OnPaintingFade(false)
 	else
 		slot4 = slot0._paintingManager
 

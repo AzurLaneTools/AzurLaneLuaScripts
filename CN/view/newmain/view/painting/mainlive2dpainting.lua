@@ -324,7 +324,7 @@ slot0.RemoveSeTimer = function(slot0)
 end
 
 slot0.PlayChangeSkinActionIn = function(slot0, slot1)
-	if slot0.live2dChar:IsLoaded() then
+	if slot0.live2dChar and slot0.live2dChar:IsLoaded() then
 		if slot0.live2dChar:checkActionExist("change_in") then
 			slot0:TriggerEvent("event_change_in")
 		else

@@ -52972,7 +52972,8 @@ end)()
 				1
 			},
 			PT_ACT = 51607,
-			use_secretary = false
+			use_secretary = false,
+			painting = "tiejiaohao_pt"
 		}
 	}
 	pg.base.activity_template[51610] = {

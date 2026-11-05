@@ -1163,7 +1163,7 @@ slot0.offsetL2dPositonDelay = function(slot0, slot1, slot2, slot3)
 		LeanTween.cancel(go(slot0._tf))
 	end
 
-	slot0._tf.localPosition = Vector3(30000, 0, 0)
+	slot0._tf.localPosition = Vector3(60000, 0, 0)
 	slot0._animator.speed = slot2
 
 	LeanTween.delayedCall(go(slot0._tf), slot1, System.Action(function ()
