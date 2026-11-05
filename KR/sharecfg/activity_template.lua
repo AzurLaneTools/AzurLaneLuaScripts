@@ -1302,8 +1302,23 @@ pg.activity_template.all = {
 	51156,
 	51157,
 	51161,
-	51162,
 	51160,
+	51162,
+	51164,
+	51601,
+	51602,
+	51603,
+	51604,
+	51605,
+	51606,
+	51607,
+	51608,
+	51610,
+	51611,
+	51612,
+	51614,
+	51615,
+	51616,
 	51163,
 	7001,
 	7004,
@@ -1774,6 +1789,7 @@ pg.activity_template.get_id_list_by_type = {
 		51070,
 		51103,
 		51147,
+		51612,
 		1000007,
 		1000027,
 		1000047,
@@ -1989,6 +2005,7 @@ pg.activity_template.get_id_list_by_type = {
 		51102,
 		51141,
 		51142,
+		51601,
 		1000003,
 		1000004,
 		1000023,
@@ -2272,6 +2289,10 @@ pg.activity_template.get_id_list_by_type = {
 		51154,
 		51156,
 		51162,
+		51164,
+		51602,
+		51606,
+		51611,
 		51163,
 		1103,
 		1104,
@@ -2384,6 +2405,7 @@ pg.activity_template.get_id_list_by_type = {
 		51104,
 		51132,
 		51136,
+		51608,
 		20704,
 		1000002,
 		1000022,
@@ -2468,6 +2490,7 @@ pg.activity_template.get_id_list_by_type = {
 		51106,
 		51138,
 		51157,
+		51603,
 		20682
 	},
 	[17] = {
@@ -2767,6 +2790,8 @@ pg.activity_template.get_id_list_by_type = {
 		51077,
 		51108,
 		51140,
+		51610,
+		51614,
 		1000006,
 		1000026,
 		1000046,
@@ -2854,7 +2879,8 @@ pg.activity_template.get_id_list_by_type = {
 		50600,
 		51038,
 		51107,
-		51139
+		51139,
+		51604
 	},
 	[37] = {
 		20387,
@@ -3435,7 +3461,8 @@ pg.activity_template.get_id_list_by_type = {
 		50844,
 		51079,
 		51117,
-		51152
+		51152,
+		51615
 	},
 	[104] = {
 		4963
@@ -3450,7 +3477,8 @@ pg.activity_template.get_id_list_by_type = {
 		5099
 	},
 	[108] = {
-		5706
+		5706,
+		51616
 	},
 	[109] = {
 		5705
@@ -3510,7 +3538,8 @@ pg.activity_template.get_id_list_by_type = {
 		5535,
 		5623,
 		50202,
-		50360
+		50360,
+		51605
 	},
 	[118] = {
 		5560
@@ -3574,6 +3603,7 @@ pg.activity_template.get_id_list_by_type = {
 		50602
 	},
 	[174] = {
+		51607,
 		1000001,
 		1000021,
 		1000041,
@@ -46059,7 +46089,7 @@ end)()
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 1,
+		is_show = 5,
 		title_res_tag = "WindFogCorridorCoreActivityUI_subtitle_1",
 		id = 51201,
 		page_core = "WindFogCorridorCoreActivityUI",
@@ -55654,6 +55684,48 @@ end)()
 			}
 		}
 	}
+	pg.base.activity_template[51160] = {
+		mark = 20260827,
+		page_info = "",
+		type = 46,
+		login_pop = 0,
+		config_id = 2026,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 51160,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					9,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+(function ()
 	pg.base.activity_template[51162] = {
 		mark = 20260917,
 		page_info = "",
@@ -55696,27 +55768,27 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
-	pg.base.activity_template[51160] = {
-		mark = 20260827,
+	pg.base.activity_template[51164] = {
+		mark = 20261022,
 		page_info = "",
-		type = 46,
+		type = 13,
 		login_pop = 0,
-		config_id = 2026,
+		config_id = 0,
 		is_show = 0,
-		config_data = "100",
 		config_client = "",
 		title_res_tag = "",
-		id = 51160,
+		id = 51164,
 		page_core = "",
+		config_data = {
+			27620
+		},
 		time = {
 			"timer",
 			{
 				{
 					2026,
-					9,
-					10
+					11,
+					5
 				},
 				{
 					0,
@@ -55727,13 +55799,837 @@ end)()
 			{
 				{
 					2026,
-					9,
-					30
+					11,
+					18
 				},
 				{
 					23,
 					59,
 					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51601] = {
+		mark = 20261022,
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "WindFogCorridorCoreActivityUI_subtitle_3",
+		id = 51601,
+		page_core = "WindFogCorridorCoreActivityUI",
+		config_data = {
+			2070001,
+			2070002,
+			2070003,
+			2070004,
+			2070005,
+			2070006,
+			2070041,
+			2070051,
+			2070052
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "WindFogCorridorMainPage",
+			ui_name = "WindFogCorridorMainPage"
+		},
+		config_client = {
+			is_showMedal = true,
+			medal_group_id = 51611,
+			shopItemID = 71413,
+			PT_ACT = 51607,
+			task_id = 29038,
+			entrance_bg = "activitybanner/temp10"
+		}
+	}
+	pg.base.activity_template[51602] = {
+		mark = 20261022,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51602,
+		page_core = "",
+		config_data = {
+			29018,
+			29019,
+			29020,
+			29021,
+			29022,
+			29023,
+			29024,
+			29025,
+			29026,
+			29027,
+			29028,
+			29029,
+			29030,
+			29031,
+			29032,
+			29033,
+			29034,
+			29035,
+			29036,
+			29037,
+			29038,
+			29039,
+			29040
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51603] = {
+		mark = 20261022,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 66111,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51603,
+		page_core = "",
+		config_data = {
+			8,
+			100
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51604] = {
+		mark = 20261022,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51604,
+		page_core = "",
+		config_data = {
+			2077002,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51605] = {
+		mark = 20261022,
+		type = 117,
+		login_pop = 0,
+		config_id = 66112,
+		is_show = 3,
+		title_res_tag = "WindFogCorridorCoreActivityUI_subtitle_5",
+		id = 51605,
+		page_core = "WindFogCorridorCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "WindFogCorridorSkinStoryMainPage",
+			ui_name = "WindFogCorridorSkinStoryMainPage"
+		},
+		config_client = {
+			sub_act_id = 51606,
+			story = {
+				{
+					"GUANGYUANDEYAOYUE1"
+				},
+				{
+					"GUANGYUANDEYAOYUE2"
+				},
+				{
+					"GUANGYUANDEYAOYUE3"
+				},
+				{
+					"GUANGYUANDEYAOYUE4"
+				},
+				{
+					"GUANGYUANDEYAOYUE5"
+				},
+				{
+					"GUANGYUANDEYAOYUE6"
+				}
+			},
+			group_1 = {
+				29001,
+				29002,
+				29003,
+				29004,
+				29005,
+				29006
+			},
+			group_2 = {
+				29009,
+				29010,
+				29011,
+				29012,
+				29013,
+				29014
+			},
+			group_3 = {
+				29017
+			}
+		}
+	}
+	pg.base.activity_template[51606] = {
+		mark = 20261022,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51606,
+		page_core = "",
+		config_data = {
+			29001,
+			29002,
+			29003,
+			29004,
+			29005,
+			29006,
+			29009,
+			29010,
+			29011,
+			29012,
+			29013,
+			29014,
+			29017
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51607] = {
+		mark = 20261022,
+		type = 174,
+		login_pop = 0,
+		config_id = 51607,
+		is_show = 2,
+		title_res_tag = "WindFogCorridorCoreActivityUI_subtitle_4",
+		id = 51607,
+		page_core = "WindFogCorridorCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "WindFogCorridorPtPage",
+			ui_name = "WindFogCorridorPtPage"
+		},
+		config_client = {
+			shopLinkActID = 51608,
+			highValueItemSort = {
+				23,
+				30,
+				36,
+				40
+			}
+		}
+	}
+	pg.base.activity_template[51608] = {
+		mark = 20261022,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51608,
+		page_core = "",
+		config_data = {
+			4401,
+			4403,
+			4404,
+			4405,
+			4406,
+			4407,
+			4408,
+			4409,
+			4410,
+			4411,
+			4412,
+			4413,
+			4414,
+			4415,
+			4416,
+			4417,
+			4418,
+			4419,
+			4420,
+			4421,
+			4422,
+			4423,
+			4424,
+			4425,
+			4426,
+			4427,
+			4428,
+			4429,
+			4430,
+			4431,
+			4432
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_aersasi",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			PT_ACT = 51607,
+			use_secretary = false,
+			painting = "tiejiaohao_pt"
+		}
+	}
+	pg.base.activity_template[51610] = {
+		mark = 20261022,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51610,
+		page_core = "",
+		config_data = {
+			{
+				31917,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51611] = {
+		mark = 20261022,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51611,
+		page_core = "",
+		config_data = {
+			25738,
+			25739,
+			25740,
+			25741,
+			25742,
+			25743,
+			25744,
+			25745,
+			25746,
+			25747
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51612] = {
+		mark = 20261022,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		id = 51612,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "「메르쿠리」, 「셀리미예」 등의 등장 확률 UP! ",
+			rate_tip = {
+				"<color=#ffde38>SSR</color>: 7%",
+				"<color=#d797ff>SR</color>: 12%",
+				"<color=#3dc6ff>R</color>: 51%",
+				"노멀: 30%",
+				"<color=#ffde38>메르쿠리</color>: 2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>셀리미예</color>: 2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>예른바르덴</color>: 0.5%",
+				" ",
+				"<color=#d797ff>오름린 랑기</color>: 2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	}
+	pg.base.activity_template[51614] = {
+		mark = 20261022,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 51614,
+		page_core = "",
+		config_data = {
+			{
+				31930,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51615] = {
+		mark = 20261022,
+		type = 103,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 4,
+		title_res_tag = "WindFogCorridorCoreActivityUI_subtitle_6",
+		id = 51615,
+		page_core = "WindFogCorridorCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "WindFogCorridorCollectPage",
+			ui_name = "WindFogCorridorCollectPage",
+			sub_ui = {
+				"WindFogCorridorCollectMsgBox"
+			}
+		},
+		config_client = {
+			furniture_theme_link = {
+				2,
+				{
+					"scene court yard",
+					{}
+				}
+			},
+			medal_link = {
+				2,
+				{
+					"scene task"
+				}
+			},
+			equipskin_box_link = {
+				drop_type = 2,
+				drop_id = 30389,
+				list = {
+					{
+						2,
+						{
+							"scene shop",
+							{
+								warp = "shopstreet"
+							}
+						},
+						"상점에서 교환"
+					}
+				}
+			}
+		}
+	}
+	pg.base.activity_template[51616] = {
+		mark = 20261022,
+		type = 108,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		title_res_tag = "HurricaneTreasureCoreActivityUI_subtitle_1",
+		id = 51616,
+		page_core = "HurricaneTreasureCoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "HurricaneTreasureGiftPage",
+			ui_name = "HurricaneTreasureGiftPage"
+		},
+		config_client = {
+			gifts = {
+				{
+					5021,
+					5022,
+					5023,
+					5024,
+					5025,
+					5026,
+					5027
+				},
+				{
+					60882,
+					60883,
+					60884,
+					60885,
+					60886,
+					60887,
+					60888
 				}
 			}
 		}
@@ -60550,6 +61446,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[6002] = {
 		mark = 20210708,
 		time = "stop",
@@ -61496,8 +62394,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[6017] = {
 		mark = 20221215,
 		time = "stop",
@@ -65061,6 +65957,8 @@ end)()
 			ui_name = "returnawardpage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[21006] = {
 		mark = 20250313,
 		page_info = "",
@@ -66272,8 +67170,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[25004] = {
 		mark = 20180914,
 		page_info = "",
@@ -68343,6 +69239,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990022] = {
 		mark = 20260806,
 		page_info = "",
@@ -68870,8 +69768,6 @@ end)()
 			ui_name = "MeixiV5FrameRePage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[1000009] = {
 		mark = 20261008,
 		time = "stop",
@@ -71551,6 +72447,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1000127] = {
 		mark = 20261008,
 		page_info = "",

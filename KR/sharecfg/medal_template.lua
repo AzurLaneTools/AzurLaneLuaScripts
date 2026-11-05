@@ -136,7 +136,8 @@ pg.medal_template.all = {
 	200201,
 	200211,
 	200221,
-	200231
+	200231,
+	200241
 }
 pg.base = pg.base or {}
 pg.base.medal_template = {}
@@ -3072,6 +3073,27 @@ end)()
 		rank = 1,
 		id = 200231,
 		explain1 = "「이상한 일상 진행 중」",
+		explain2 = "이벤트"
+	}
+	pg.base.medal_template[200241] = {
+		target_id = "51611",
+		name = "안개 회랑 기념 훈장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "별이 역행하는 날에 안개 회랑을 빠져나와, 천문대의 위기를 구하고 위대한 승리를 거두었다. 「하지만 명심하라. 밤하늘의 잔상에서 지나간 날의 답을 찾으려 하지 마라.」",
+		next = 0,
+		icon = "9241",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9241",
+		condition = "「템페스타와 안개 회랑」 스티커 8개 수집",
+		rank = 1,
+		id = 200241,
+		explain1 = "「템페스타와 안개 회랑」",
 		explain2 = "이벤트"
 	}
 end)()

@@ -60,8 +60,8 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.InitPtUI = function(slot0)
-	slot3 = slot0.ptData
-	slot2 = Drop.New(slot3:GetRes())
+	slot2 = slot0.ptData
+	slot2 = slot2:GetRes()
 
 	LoadImageSpriteAsync(slot2:getIcon(), slot0.ptIconTF, false)
 

@@ -385,6 +385,10 @@ pg.strategy_data_template.all = {
 	201909,
 	201910,
 	201911,
+	201924,
+	201928,
+	201935,
+	201940,
 	205001,
 	205002,
 	205003,
@@ -4867,6 +4871,50 @@ META 함선: [침식] 1개당 자신이 <color=#92fc63>받는 피해량과 주�
 		icon = "200908",
 		arg = {}
 	}
+	pg.base.strategy_data_template[201924] = {
+		buff_id = 201924,
+		name = "안개 회랑",
+		desc = "안개 회랑의 영향으로 아군의 명중이 5% 감소하고, 적의 항속과 기동이 10% 상승한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201924,
+		icon = "201924",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201928] = {
+		buff_id = 0,
+		name = "별이 가라앉는 심연",
+		desc = "전투 중 전장에 이동하는 소용돌이가 출현한다. 적과 아군 모두 소용돌이 범위 안에 있으면 항속이 크게 감소하고 지속 피해를 받는다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201928,
+		icon = "201928",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201935] = {
+		buff_id = 0,
+		name = "챌린지 설명",
+		desc = "전투 시작 시 오름린 랑기는 별을 가라앉히는 거수 - 오름의 보호를 받으며, 아군은 오름에게만 피해를 줄 수 있다. 오름은 내구가 20% 미만이 되면 영구적으로 허상 상태에 진입해 공격 받지 않게 되고, 그때부터 <color=#92fc63>오름린 랑기에게 피해를 줄 수 있게 된다</color>. \n오름은 일반적인 점화 상태에는 빠지지 않으며, <color=#92fc63>점화 상태에서는 받는 피해량이 50% 증가</color>한다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201935,
+		icon = "200908",
+		arg = {}
+	}
+	pg.base.strategy_data_template[201940] = {
+		buff_id = 0,
+		name = "챌린지 설명",
+		desc = "전투 시작 시 오름린 랑기는 별을 가라앉히는 거수 - 오름의 보호를 받으며, 아군은 오름에게만 피해를 줄 수 있다. 오름은 내구가 20% 미만이 되면 영구적으로 허상 상태에 진입해 공격 받지 않게 되고, 그때부터 <color=#92fc63>오름린 랑기에게 피해를 줄 수 있게 된다</color>. 허상 상태의 오름은 매초 내구를 최대치의 5%만큼 회복하며, 내구가 최대치의 60%까지 회복되면 허상 상태를 해제하고 다시 오름린 랑기에게 가해지는 피해를 막는다.\n오름은 일반적인 점화 상태에 빠지지 않는다.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201940,
+		icon = "200908",
+		arg = {}
+	}
 	pg.base.strategy_data_template[205001] = {
 		buff_id = 205001,
 		name = "活动关卡标志A",
@@ -5032,6 +5080,8 @@ META 함선: [침식] 1개당 자신이 <color=#92fc63>받는 피해량과 주�
 		icon = "buff_yumia_4",
 		arg = {}
 	}
+end)()
+(function ()
 	pg.base.strategy_data_template[300009] = {
 		buff_id = 0,
 		name = "코어 레벨 Lv1",
@@ -5076,8 +5126,6 @@ META 함선: [침식] 1개당 자신이 <color=#92fc63>받는 피해량과 주�
 		icon = "buff_yumia_4",
 		arg = {}
 	}
-end)()
-(function ()
 	pg.base.strategy_data_template[300013] = {
 		buff_id = 0,
 		name = "코어 레벨 Lv1",

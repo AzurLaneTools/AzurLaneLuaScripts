@@ -272,6 +272,12 @@ slot0.initNotificationHandleDic = function(slot0)
 
 			slot0.viewComponent:emit(NewMainMediator.REMOVE_LAYERS, slot1:getBody())
 		end,
+		[GAME.STORY_BEGIN] = function (slot0, slot1)
+			slot0.viewComponent:emit(NewMainScene.STORY_BEGIN)
+		end,
+		[GAME.STORY_END] = function (slot0, slot1)
+			slot0.viewComponent:emit(NewMainScene.STORY_END)
+		end,
 		[PlayerProxy.UPDATED] = function (slot0, slot1)
 			slot0.viewComponent:OnPlayerUpdated()
 		end,

@@ -7579,7 +7579,8 @@ pg.aircraft_template.all = {
 	3436611,
 	3436612,
 	3436711,
-	3436712
+	3436712,
+	3440107
 }
 pg.base = pg.base or {}
 pg.base.aircraft_template = pg.base.aircraft_template or {}
@@ -37888,5 +37889,9 @@ cs.aircraft_template = {
 	[3436712] = {
 		2954243,
 		705
+	},
+	[3440107] = {
+		2954948,
+		729
 	}
 }

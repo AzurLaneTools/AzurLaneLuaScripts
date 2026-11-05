@@ -190,7 +190,15 @@ pg.activity_medal_template.all = {
 	5115404,
 	5115405,
 	5115406,
-	5115407
+	5115407,
+	5161101,
+	5161102,
+	5161103,
+	5161104,
+	5161105,
+	5161106,
+	5161107,
+	5161108
 }
 pg.activity_medal_template.get_id_list_by_group = {
 	[5711] = {
@@ -428,6 +436,16 @@ pg.activity_medal_template.get_id_list_by_group = {
 		5115405,
 		5115406,
 		5115407
+	},
+	[51611] = {
+		5161101,
+		5161102,
+		5161103,
+		5161104,
+		5161105,
+		5161106,
+		5161107,
+		5161108
 	}
 }
 pg.base = pg.base or {}
@@ -2691,5 +2709,101 @@ end)()
 		activity_medal_name = "스티커: 조사 경비",
 		id = 5115407,
 		medal_asset = "ActivityMedal/5115407"
+	}
+	pg.base.activity_medal_template[5161101] = {
+		activity_medal_desc = "「밤하늘의 잔상에서 지나간 날의 답을 찾으려 하지 마라.」",
+		next_medal = 0,
+		item = 66114,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "1",
+		task_id = 25739,
+		activity_medal_name = "스티커: 안개 바다 천문대",
+		id = 5161101,
+		medal_asset = "ActivityMedal/5161101"
+	}
+	pg.base.activity_medal_template[5161102] = {
+		activity_medal_desc = "표식을 밝히고 천문대를 향해 나아가라.",
+		next_medal = 0,
+		item = 66115,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "2",
+		task_id = 25740,
+		activity_medal_name = "스티커: 성궤의 표식",
+		id = 5161102,
+		medal_asset = "ActivityMedal/5161102"
+	}
+	pg.base.activity_medal_template[5161103] = {
+		activity_medal_desc = "별들 사이에 숨겨진 찬란한 항로가 보여?",
+		next_medal = 0,
+		item = 66116,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "3",
+		task_id = 25741,
+		activity_medal_name = "스티커: 인도의 지팡이",
+		id = 5161103,
+		medal_asset = "ActivityMedal/5161103"
+	}
+	pg.base.activity_medal_template[5161104] = {
+		activity_medal_desc = "점술용 수정구…… 이런 것에도 연간 한정판이 있어?",
+		next_medal = 0,
+		item = 66117,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "4",
+		task_id = 25742,
+		activity_medal_name = "스티커: 연간 한정판 수정구",
+		id = 5161104,
+		medal_asset = "ActivityMedal/5161104"
+	}
+	pg.base.activity_medal_template[5161105] = {
+		activity_medal_desc = "샤아아!",
+		next_medal = 0,
+		item = 66118,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "5",
+		task_id = 25743,
+		activity_medal_name = "스티커: 뱀 괴수",
+		id = 5161105,
+		medal_asset = "ActivityMedal/5161105"
+	}
+	pg.base.activity_medal_template[5161106] = {
+		activity_medal_desc = "하고 싶은 말이 있다면, 이 칼날에 대고 얘기해 보시지.",
+		next_medal = 0,
+		item = 66119,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "6",
+		task_id = 25744,
+		activity_medal_name = "스티커: 거대한 낫",
+		id = 5161106,
+		medal_asset = "ActivityMedal/5161106"
+	}
+	pg.base.activity_medal_template[5161107] = {
+		activity_medal_desc = "부러진 창이 다시 제련될 바로 그 순간――",
+		next_medal = 0,
+		item = 66120,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "7",
+		task_id = 25745,
+		activity_medal_name = "스티커: 부러진 창",
+		id = 5161107,
+		medal_asset = "ActivityMedal/5161107"
+	}
+	pg.base.activity_medal_template[5161108] = {
+		activity_medal_desc = "「하늘은 뒤바뀌고, 별의 궤도는 움직인다.」",
+		next_medal = 0,
+		item = 66121,
+		remake_task_id = 0,
+		group = 51611,
+		prefab_node = "8",
+		task_id = 25746,
+		activity_medal_name = "스티커: 밤하늘 역전 현상",
+		id = 5161108,
+		medal_asset = "ActivityMedal/5161108"
 	}
 end)()

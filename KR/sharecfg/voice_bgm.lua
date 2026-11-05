@@ -3403,6 +3403,41 @@ end)()
 		special_bgm = "",
 		bgm = "story-musicanniversary-gorgeous"
 	}
+	pg.base.voice_bgm.WindFogCorridorMainPage = {
+		default_bgm = "theme-fogsea",
+		special_bgm = "",
+		bgm = "theme-fogsea"
+	}
+	pg.base.voice_bgm.WindFogCorridorPtPage = {
+		default_bgm = "theme-crownpolis",
+		special_bgm = "",
+		bgm = "theme-crownpolis"
+	}
+	pg.base.voice_bgm.WindFogCorridorMedalAlbumView = {
+		default_bgm = "theme-amahara-core",
+		special_bgm = "",
+		bgm = "theme-amahara-core"
+	}
+	pg.base.voice_bgm.MedalAlbumWindFogCorridorPage = {
+		default_bgm = "theme-amahara-core",
+		special_bgm = "",
+		bgm = "theme-amahara-core"
+	}
+	pg.base.voice_bgm.WindFogCorridorSkinPageUI = {
+		default_bgm = "story-ghostnight-fascinsting",
+		special_bgm = "",
+		bgm = "story-ghostnight-fascinsting"
+	}
+	pg.base.voice_bgm.WindFogCorridorSkinStoryMainPage = {
+		default_bgm = "story-ghostnight-fascinsting",
+		special_bgm = "",
+		bgm = "story-ghostnight-fascinsting"
+	}
+	pg.base.voice_bgm.WindFogCorridorCollectPage = {
+		default_bgm = "story-fogsea-light",
+		special_bgm = "",
+		bgm = "story-fogsea-light"
+	}
 	pg.base.voice_bgm.WindFogCorridorSkinPage = {
 		default_bgm = "story-richang-rosy-short",
 		special_bgm = "",

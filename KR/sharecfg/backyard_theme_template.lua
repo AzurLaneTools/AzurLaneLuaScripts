@@ -130,7 +130,8 @@ pg.backyard_theme_template.all = {
 	140,
 	141,
 	142,
-	143
+	143,
+	144
 }
 pg.base = pg.base or {}
 pg.base.backyard_theme_template = {}
@@ -5546,6 +5547,50 @@ end)()
 			343301,
 			343302,
 			343303
+		}
+	}
+	pg.base.backyard_theme_template[144] = {
+		Cfg_1 = 5,
+		name = "모험가 길드",
+		desc = "길드의 문을 열고 들어가, 용사의 모험을 시작해 보자!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 144,
+		id = 144,
+		icon = "tegthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			344001,
+			344002,
+			344101,
+			344102,
+			344103,
+			344104,
+			344105,
+			344106,
+			344107,
+			344108,
+			344109,
+			344110,
+			344111,
+			344112,
+			344113,
+			344114,
+			344115,
+			344116,
+			344117,
+			344118,
+			344301,
+			344302,
+			344303,
+			344304,
+			344305,
+			344306
 		}
 	}
 end)()

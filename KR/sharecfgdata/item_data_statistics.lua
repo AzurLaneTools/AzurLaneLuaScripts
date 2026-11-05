@@ -8554,6 +8554,37 @@ _G.pg.base.item_data_statistics[11059] = {
 }
 
 
+_G.pg.base.item_data_statistics[11060] = {
+	open_directly = 0,
+	name = "더블 구형 포환 T0 설계도",
+	type = 9,
+	display = "더블 구형 포환 T0 설계도",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/151280",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[12000] = {
 	open_directly = 0,
 	name = "93식 산소어뢰 T3 설계도",
@@ -30774,6 +30805,131 @@ _G.pg.base.item_data_statistics[30388] = {
 }
 
 
+_G.pg.base.item_data_statistics[30389] = {
+	open_directly = 1,
+	name = "장비 스킨 상자 (빛과 어둠의 야상곡)",
+	type = 11,
+	display = "무작위로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxfengfanv4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30386",
+	id = 30389,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -47811,6 +47967,219 @@ _G.pg.base.item_data_statistics[30572] = {
 }
 
 
+_G.pg.base.item_data_statistics[30573] = {
+	open_directly = 0,
+	name = "선택 장비 스킨 상자 (빛과 어둠의 야상곡)",
+	type = 13,
+	display = "사용하면 장비 스킨(빛과 어둠의 야상곡) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxfengfanv4zixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30573,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4456,
+			1
+		},
+		{
+			9,
+			4457,
+			1
+		},
+		{
+			9,
+			4458,
+			1
+		},
+		{
+			9,
+			4459,
+			1
+		},
+		{
+			9,
+			4460,
+			1
+		},
+		{
+			9,
+			4461,
+			1
+		},
+		{
+			9,
+			4462,
+			1
+		},
+		{
+			9,
+			4463,
+			1
+		},
+		{
+			9,
+			4464,
+			1
+		},
+		{
+			9,
+			4465,
+			1
+		},
+		{
+			9,
+			4466,
+			1
+		},
+		{
+			9,
+			4467,
+			1
+		},
+		{
+			9,
+			4468,
+			1
+		},
+		{
+			9,
+			4469,
+			1
+		},
+		{
+			9,
+			4470,
+			1
+		},
+		{
+			9,
+			4471,
+			1
+		},
+		{
+			9,
+			4472,
+			1
+		},
+		{
+			9,
+			4473,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "지향형 부속T4",
@@ -55573,6 +55942,328 @@ _G.pg.base.item_data_statistics[40728] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40736] = {
+	open_directly = 1,
+	name = "선단의 보물 답례Ⅰ",
+	type = 17,
+	display = "구매하면 고효율 작전 명령서×3, 연료×150 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40736,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4139,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40737] = {
+	open_directly = 1,
+	name = "선단의 보물 답례Ⅱ",
+	type = 17,
+	display = "구매하면 고효율 작전 명령서×3, 연료×150 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40737,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4140,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40738] = {
+	open_directly = 1,
+	name = "선단의 보물 답례Ⅲ",
+	type = 17,
+	display = "구매하면 고효율 작전 명령서×3, 연료×150 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40738,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4141,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40739] = {
+	open_directly = 1,
+	name = "선단의 보물 답례Ⅳ",
+	type = 17,
+	display = "구매하면 고효율 작전 명령서×3, 연료×150 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40739,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4142,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40740] = {
+	open_directly = 1,
+	name = "선단의 보물 답례Ⅴ",
+	type = 17,
+	display = "구매하면 고효율 작전 명령서×3, 연료×150 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40740,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4143,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40741] = {
+	open_directly = 1,
+	name = "선단의 보물 답례Ⅵ",
+	type = 17,
+	display = "구매하면 고효율 작전 명령서×3, 연료×150 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40741,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4144,
+		0,
+		150
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40742] = {
+	open_directly = 1,
+	name = "선단의 보물 답례Ⅶ",
+	type = 17,
+	display = "구매하면 고효율 작전 명령서×3, 연료×150 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/fengfanv4_free",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40742,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			61001,
+			3
+		},
+		{
+			1,
+			2,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4145,
+		0,
+		150
+	},
 	limit = {}
 }
 
@@ -115873,6 +116564,290 @@ _G.pg.base.item_data_statistics[81440] = {
 }
 
 
+_G.pg.base.item_data_statistics[81446] = {
+	open_directly = 1,
+	name = "선단 건설 패키지Ⅰ",
+	type = 17,
+	display = "다이아×60, 지향형 강화 유닛·8기×2 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911101",
+	id = 81446,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42076,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81447] = {
+	open_directly = 1,
+	name = "선단 건설 패키지Ⅱ",
+	type = 17,
+	display = "다이아×200 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911102",
+	id = 81447,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81448] = {
+	open_directly = 1,
+	name = "선단 건설 패키지Ⅲ",
+	type = 17,
+	display = "강화 부속 T4×5, 성정 유닛×200 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911103",
+	id = 81448,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			30114,
+			5
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81449] = {
+	open_directly = 1,
+	name = "선단 건설 패키지Ⅳ",
+	type = 17,
+	display = "다이아×60, 특장형 부린 MKⅡ 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911104",
+	id = 81449,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81450] = {
+	open_directly = 1,
+	name = "선단 건설 패키지Ⅴ",
+	type = 17,
+	display = "함선 연습 데이터 T2×60 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day5",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911105",
+	id = 81450,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			16502,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81451] = {
+	open_directly = 1,
+	name = "선단 건설 패키지Ⅵ",
+	type = 17,
+	display = "성정 큐브×10, 고속건조재×5 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911106",
+	id = 81451,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81452] = {
+	open_directly = 1,
+	name = "선단 건설 패키지Ⅶ",
+	type = 17,
+	display = "다이아×60, 상급 지향형 강화 유닛·9기×2 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fengfanv4_day7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "911107",
+	id = 81452,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42086,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[99952] = {
 	open_directly = 0,
 	name = "SP 해역 드랍 관련 우편",
@@ -115931,6 +116906,109 @@ _G.pg.base.item_data_statistics[99953] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[99998] = {
+	open_directly = 0,
+	name = "Capsule Rerun Selection Gear Skin Box",
+	type = 13,
+	display = "Can be used to obtain one of the following Gear Skin Boxes.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 99998,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			30544,
+			1
+		},
+		{
+			2,
+			30545,
+			1
+		},
+		{
+			2,
+			30550,
+			1
+		},
+		{
+			2,
+			30552,
+			1
+		},
+		{
+			2,
+			30555,
+			1
+		},
+		{
+			2,
+			30558,
+			1
+		},
+		{
+			2,
+			30559,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			30544,
+			1
+		},
+		{
+			2,
+			30545,
+			1
+		},
+		{
+			2,
+			30550,
+			1
+		},
+		{
+			2,
+			30552,
+			1
+		},
+		{
+			2,
+			30555,
+			1
+		},
+		{
+			2,
+			30558,
+			1
+		},
+		{
+			2,
+			30559,
+			1
+		}
+	},
 	limit = {}
 }
 
@@ -116846,5 +117924,57 @@ _G.pg.base.item_data_statistics[180099] = {
 			1
 		}
 	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[99985] = {
+	open_directly = 1,
+	name = "작전 보상 보급 상자",
+	type = 17,
+	display = "2026년 9월 대형 작전의 작전 위임 보상 일부가 비정상적으로 지급된 데 대한 보충 물자. 오픈 시 특별 교환 증빙, 해역 좌표 기록기, 세이렌 좌표 기록기 중 하나를 랜덤으로 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 10000,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "7900",
+	id = 99985,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			12,
+			101,
+			10
+		},
+		{
+			12,
+			2100001,
+			1
+		},
+		{
+			12,
+			2100002,
+			1
+		},
+		{
+			12,
+			2100003,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
 	limit = {}
 }

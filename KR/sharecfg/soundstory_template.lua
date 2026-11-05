@@ -32,7 +32,8 @@ pg.soundstory_template.all = {
 	27,
 	28,
 	29,
-	30
+	30,
+	31
 }
 pg.base = pg.base or {}
 pg.base.soundstory_template = {}
@@ -175,7 +176,7 @@ pg.base.soundstory_template = {}
 	}
 	pg.base.soundstory_template[6] = {
 		story_pic = "",
-		name = "특별 선물?!",
+		name = "허먼의 선물?!",
 		story_resource_JP = "soundStory6_JP",
 		story_resource_CN = "",
 		audition_resource_CN = "",
@@ -184,6 +185,7 @@ pg.base.soundstory_template = {}
 		overview = "짓궂은 장난을 치려는, 솔직하지 못한 그녀에 의한 사고?!",
 		order = 2,
 		audition_text = "그나저나 너무 늦네… 대체 언제까지 허먼을 기다리게 할 셈이야?",
+		time = "always",
 		ship_id = 10125,
 		id = 6,
 		captions_color = "#763d1f",
@@ -197,33 +199,6 @@ pg.base.soundstory_template = {}
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					5,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.soundstory_template[7] = {
@@ -600,9 +575,9 @@ pg.base.soundstory_template = {}
 			"timer",
 			{
 				{
-					2024,
-					8,
-					8
+					2026,
+					11,
+					5
 				},
 				{
 					0,
@@ -612,9 +587,9 @@ pg.base.soundstory_template = {}
 			},
 			{
 				{
-					2024,
-					8,
-					14
+					2026,
+					11,
+					11
 				},
 				{
 					23,
@@ -1437,6 +1412,59 @@ pg.base.soundstory_template = {}
 					2026,
 					8,
 					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+	pg.base.soundstory_template[31] = {
+		story_pic = "",
+		name = "전용 점술 시간",
+		story_resource_JP = "soundStory31_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "스즈카 미나세",
+		audition_resource_JP = "ss-960019-1",
+		overview = "지휘관과 약속한 세리미에의 「특별한 점술 시간」. \n그녀는 이 수정구를 통해 지휘관의 마음속을 샅샅이 들여다보는데……",
+		order = 2,
+		audition_text = "나를 상상하고, 나를 느끼고, 그 감각을…… 수정구슬에 투영시켜……",
+		ship_id = 960019,
+		id = 31,
+		captions_color = "#2c2952",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					11
 				},
 				{
 					23,

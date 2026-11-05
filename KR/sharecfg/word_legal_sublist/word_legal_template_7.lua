@@ -4,228 +4,6 @@ slot0.word_legal_template_7 = {}
 slot1 = slot0.word_legal_template_7
 
 temp = function()
-	uv0.Z = {
-		["1"] = {
-			this = true,
-			["1"] = {
-				this = true
-			},
-			["3"] = {
-				this = true
-			},
-			["4"] = {
-				this = true
-			},
-			["5"] = {
-				this = true
-			},
-			["6"] = {
-				this = true
-			},
-			["8"] = {
-				this = true
-			},
-			["9"] = {
-				this = true
-			}
-		},
-		["2"] = {
-			this = true,
-			["0"] = {
-				this = true
-			},
-			["1"] = {
-				this = true
-			},
-			["3"] = {
-				this = true
-			},
-			["4"] = {
-				this = true
-			},
-			["5"] = {
-				this = true
-			},
-			["6"] = {
-				this = true
-			},
-			["8"] = {
-				this = true
-			}
-		},
-		["9"] = {
-			this = true
-		},
-		["3"] = {
-			["5"] = {
-				this = true
-			},
-			["6"] = {
-				this = true
-			}
-		},
-		["4"] = {
-			["3"] = {
-				this = true,
-				["—"] = {
-					["幼"] = {
-						["儿"] = {
-							["园"] = {
-								this = true
-							}
-						}
-					}
-				}
-			},
-			["6"] = {
-				this = true
-			},
-			["7"] = {
-				this = true,
-				["—"] = {
-					["幼"] = {
-						["儿"] = {
-							["园"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["5"] = {
-			["2"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["쾨"] = {
-		["니"] = {
-			["히"] = {
-				["스"] = {
-					["베"] = {
-						["르"] = {
-							["크"] = {
-								this = true,
-								["·"] = {
-									M = {
-										E = {
-											T = {
-												A = {
-													this = true
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["쾰"] = {
-		["른"] = {
-			this = true,
-			["·"] = {
-				["改"] = {
-					this = true
-				},
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["뉘"] = {
-		["른"] = {
-			["베"] = {
-				["르"] = {
-					["크"] = {
-						this = true,
-						["·"] = {
-							M = {
-								E = {
-									T = {
-										A = {
-											this = true
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["엠"] = {
-		["덴"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["뒤"] = {
-		["스"] = {
-			["부"] = {
-				["르"] = {
-					["크"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["게"] = {
-			[" "] = {
-				["트"] = {
-					["루"] = {
-						["앵"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["켄"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["론"] = {
 		["("] = {
 			["μ"] = {
@@ -737,6 +515,171 @@ temp = function()
 		},
 		["지"] = {
 			["아"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["두"] = {
+		["카"] = {
+			[" "] = {
+				["델"] = {
+					["리"] = {
+						[" "] = {
+							["아"] = {
+								["브"] = {
+									["루"] = {
+										["치"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["폴"] = {
+		["라"] = {
+			this = true
+		},
+		["타"] = {
+			["바"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["고"] = {
+		["리"] = {
+			["치"] = {
+				["아"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["줄"] = {
+		["리"] = {
+			["오"] = {
+				[" "] = {
+					["체"] = {
+						["사"] = {
+							["레"] = {
+								this = true,
+								["·"] = {
+									M = {
+										E = {
+											T = {
+												A = {
+													this = true
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["토"] = {
+		["리"] = {
+			["첼"] = {
+				["리"] = {
+					this = true
+				}
+			}
+		},
+		["키"] = {
+			["노"] = {
+				[" "] = {
+					["소"] = {
+						["라"] = {
+							this = true
+						}
+					}
+				}
+			},
+			["사"] = {
+				["키"] = {
+					[" "] = {
+						["쿠"] = {
+							["루"] = {
+								["미"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["비"] = {
+			["이"] = {
+				["치"] = {
+					[" "] = {
+						["오"] = {
+							["리"] = {
+								["가"] = {
+									["미"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["민"] = {
+		["스"] = {
+			["크"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["올"] = {
+		["레"] = {
+			["그"] = {
 				this = true
 			}
 		}

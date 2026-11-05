@@ -4,60 +4,6 @@ slot0.word_legal_template_3 = {}
 slot1 = slot0.word_legal_template_3
 
 temp = function()
-	uv0["세"] = {
-		["인"] = {
-			["트"] = {
-				["루"] = {
-					["이"] = {
-						["스"] = {
-							this = true
-						}
-					}
-				}
-			}
-		},
-		["바"] = {
-			["스"] = {
-				["토"] = {
-					["폴"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["리"] = {
-			[" "] = {
-				["글"] = {
-					["로"] = {
-						["스"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["몬"] = {
-		["트"] = {
-			["필"] = {
-				["리"] = {
-					["어"] = {
-						this = true
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["덴"] = {
 		["버"] = {
 			this = true
@@ -1166,6 +1112,61 @@ temp = function()
 						["션"] = {
 							this = true
 						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["네"] = {
+		["바"] = {
+			["다"] = {
+				this = true
+			}
+		},
+		["코"] = {
+			["네"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["테"] = {
+		["네"] = {
+			["시"] = {
+				this = true
+			}
+		},
+		["세"] = {
+			["우"] = {
+				["스"] = {
+					this = true
+				}
+			}
+		},
+		["러"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["캘"] = {
+		["리"] = {
+			["포"] = {
+				["니"] = {
+					["아"] = {
+						this = true
 					}
 				}
 			}

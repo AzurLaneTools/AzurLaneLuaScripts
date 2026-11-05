@@ -2040,4 +2040,24 @@ end)()
 		actor_name = "쿠로사키 시오리",
 		code = 525
 	}
+	pg.base.voice_actor_CN[526] = {
+		actor_name = "아사기 시키",
+		code = 526
+	}
+	pg.base.voice_actor_CN[527] = {
+		actor_name = "타메가이 하나",
+		code = 527
+	}
+	pg.base.voice_actor_CN[528] = {
+		actor_name = "스즈카 미나세",
+		code = 528
+	}
+	pg.base.voice_actor_CN[529] = {
+		actor_name = "카와이시 나나",
+		code = 529
+	}
+	pg.base.voice_actor_CN[530] = {
+		actor_name = "미키타니 나나",
+		code = 530
+	}
 end)()

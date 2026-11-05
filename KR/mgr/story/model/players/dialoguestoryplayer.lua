@@ -689,7 +689,7 @@ slot7 = function(slot0, slot1, slot2)
 		end
 	end
 
-	return slot10
+	return slot10 + 10
 end
 
 slot8 = function(slot0, slot1, slot2)
@@ -738,7 +738,7 @@ slot8 = function(slot0, slot1, slot2)
 		end
 	end
 
-	return slot7
+	return slot7 + 10
 end
 
 slot0.UpdateSpinePainting = function(slot0, slot1, slot2, slot3, slot4)

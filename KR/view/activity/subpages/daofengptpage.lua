@@ -6,7 +6,7 @@ slot0.OnUpdateFlush = function(slot0)
 	slot1, slot2, slot3 = slot0.ptData:GetResProgress()
 
 	setText(slot0.progress, setColorStr(slot1, "#915167") .. "/" .. slot2)
-	LoadImageSpriteAsync(Drop.New(slot0.ptData:GetRes()):getIcon(), slot0._tf:Find("AD/icon"), false)
+	LoadImageSpriteAsync(slot0.ptData:GetRes():getIcon(), slot0._tf:Find("AD/icon"), false)
 end
 
 return slot0

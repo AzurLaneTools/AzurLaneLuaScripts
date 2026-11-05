@@ -10,6 +10,11 @@ end
 
 slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
+
+	if PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0 then
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_AUTO_BATTLE)
+		LuaHelper.Vibrate()
+	end
 end
 
 slot0.UpdateView = function(slot0)

@@ -26,13 +26,8 @@ slot0.GetHelpTips = function(slot0)
 	end
 
 	slot3 = string.split(slot1:GetActivityTimeStr(), "-")
-	slot4 = pg.gametip.help_starLightAlbum.tip
 
-	_.each(slot4, function (slot0)
-		slot0.info = string.gsub(slot0.info, "$1", uv0[2])
-	end)
-
-	return slot4
+	return pg.gametip.help_starLightAlbum.tip
 end
 
 slot0.getResource = function(slot0)

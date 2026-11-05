@@ -120,6 +120,13 @@ pg.commander_skill_effect_template.all = {
 	9600711,
 	9600712,
 	9600713,
+	9600811,
+	9600812,
+	9600813,
+	9600814,
+	9600911,
+	9600912,
+	9600913,
 	9100111,
 	9100112,
 	9100113,
@@ -1950,6 +1957,107 @@ end)()
 			40600
 		},
 		condition = {}
+	}
+	pg.base.commander_skill_effect_template[9600811] = {
+		id = 9600811,
+		name = "迅捷与勇气",
+		effect_type = "battle_buff",
+		args = {
+			40610
+		},
+		condition = {}
+	}
+	pg.base.commander_skill_effect_template[9600812] = {
+		id = 9600812,
+		name = "迅捷与勇气",
+		effect_type = "battle_buff",
+		args = {
+			40620
+		},
+		condition = {}
+	}
+	pg.base.commander_skill_effect_template[9600813] = {
+		id = 9600813,
+		name = "迅捷与勇气",
+		effect_type = "battle_buff",
+		args = {
+			40630
+		},
+		condition = {
+			{
+				"vang_count",
+				1,
+				1
+			}
+		}
+	}
+	pg.base.commander_skill_effect_template[9600814] = {
+		id = 9600814,
+		name = "迅捷与勇气",
+		effect_type = "battle_buff",
+		args = {
+			40630
+		},
+		condition = {
+			{
+				"count",
+				{
+					22,
+					23,
+					24
+				},
+				1,
+				6
+			}
+		}
+	}
+	pg.base.commander_skill_effect_template[9600911] = {
+		id = 9600911,
+		name = "聆听预言",
+		effect_type = "battle_buff",
+		args = {
+			40640
+		},
+		condition = {
+			{
+				"count",
+				{
+					22,
+					23,
+					24
+				},
+				1,
+				6
+			}
+		}
+	}
+	pg.base.commander_skill_effect_template[9600912] = {
+		id = 9600912,
+		name = "聆听预言",
+		effect_type = "battle_buff",
+		args = {
+			40650
+		},
+		condition = {
+			{
+				"pos",
+				1
+			}
+		}
+	}
+	pg.base.commander_skill_effect_template[9600913] = {
+		id = 9600913,
+		name = "聆听预言",
+		effect_type = "battle_buff",
+		args = {
+			40660
+		},
+		condition = {
+			{
+				"pos",
+				1
+			}
+		}
 	}
 	pg.base.commander_skill_effect_template[9100111] = {
 		id = 9100111,

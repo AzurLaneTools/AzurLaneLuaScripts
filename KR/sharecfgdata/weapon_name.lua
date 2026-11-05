@@ -11004,7 +11004,7 @@ _G.pg.base.weapon_name[53493] = {
 
 _G.pg.base.weapon_name[53500] = {
 	id = 53500,
-	name = "2 x 폭탄 (스킵 폭격)"
+	name = "3 x 폭탄 (스킵 폭격)"
 }
 
 

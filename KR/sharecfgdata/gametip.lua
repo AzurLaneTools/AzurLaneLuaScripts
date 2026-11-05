@@ -31133,7 +31133,7 @@ _G.pg.base.gametip.activityboss_sp_score_not_update = {
 
 
 _G.pg.base.gametip.collect_page_got = {
-	tip = "입수 완료:"
+	tip = "입수 완료:   "
 }
 
 
@@ -37218,7 +37218,7 @@ _G.pg.base.gametip.BoatAdGame_minigame_help = {
 
 
 _G.pg.base.gametip.activity_1024_memory = {
-	tip = "「도깨비 스토리」가 부족합니다. 한정 임무를 클리어하여 모아보세요!"
+	tip = "「휴일 스토리 페이지」가 부족합니다. 한정 임무를 클리어하여 모아보세요! "
 }
 
 
@@ -44884,6 +44884,16 @@ _G.pg.base.gametip.grapihcs3d_setting_flare = {
 }
 
 
+_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
+	tip = "작전 준비"
+}
+
+
+_G.pg.base.gametip.Outpost_20250904_Sidebar5 = {
+	tip = "사쿠라 엠파이어의 초대"
+}
+
+
 _G.pg.base.gametip.Outpost_20250904_Title1 = {
 	tip = "전초전"
 }
@@ -51938,4 +51948,14 @@ _G.pg.base.gametip.ActivityRemasterCoreActivityAdaptUI_TITLE_EN = {
 
 _G.pg.base.gametip.ActivityRemaster_NoticeJump_AlreadySelected = {
 	tip = "현재 진행 중인 경량화 복각 이벤트가 있습니다. 메인 화면의 이벤트 버튼을 통해 입장해 주세요"
+}
+
+
+_G.pg.base.gametip.HurricaneTreasureCoreActivityUI_subtitle_1 = {
+	tip = "템페스타의 보물"
+}
+
+
+_G.pg.base.gametip.windfog_skin_stroy_finish = {
+	tip = "스토리를 전부 확인하여 획득 "
 }

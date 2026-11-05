@@ -1292,7 +1292,7 @@ slot0.UpdateEffectInterLayer = function(slot0, slot1, slot2)
 	slot5.sortingOrder = slot3
 	slot6 = GetOrAddComponent(slot0.frontTr, typeof(Canvas))
 	slot6.overrideSorting = true
-	slot6.sortingOrder = slot3 + 1
+	slot6.sortingOrder = slot3 + 10
 	slot0.activeInterLayer = slot1
 
 	GetOrAddComponent(slot0.frontTr, typeof(GraphicRaycaster))

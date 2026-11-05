@@ -235,6 +235,13 @@ pg.pay_data_display.all = {
 	5015,
 	5016,
 	5017,
+	5021,
+	5022,
+	5023,
+	5024,
+	5025,
+	5026,
+	5027,
 	70001,
 	70002
 }
@@ -442,7 +449,14 @@ pg.pay_data_display.get_id_list_by_extra_service = {
 		5014,
 		5015,
 		5016,
-		5017
+		5017,
+		5021,
+		5022,
+		5023,
+		5024,
+		5025,
+		5026,
+		5027
 	},
 	[4] = {
 		1000,
@@ -24763,6 +24777,644 @@ end)()
 			{
 				2,
 				81416,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5021] = {
+		picture = "fengfanv4_day1",
+		name = "선단 건설 패키지Ⅰ",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "선단 건설 패키지Ⅰ",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 1500,
+		descrip_extra = "※ 구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 0,
+		id = 5021,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "alkrgift209",
+		extra_gem = 0,
+		descrip = "다이아×60, 지향형 강화 유닛·8기×2 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package218",
+		name_display = "선단 건설 패키지Ⅰ",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81446,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5022] = {
+		picture = "fengfanv4_day2",
+		name = "선단 건설 패키지Ⅱ",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "선단 건설 패키지Ⅱ",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 1500,
+		descrip_extra = "※ 구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 0,
+		id = 5022,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "alkrgift210",
+		extra_gem = 0,
+		descrip = "다이아×200 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package219",
+		name_display = "선단 건설 패키지Ⅱ",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81447,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5023] = {
+		picture = "fengfanv4_day3",
+		name = "선단 건설 패키지Ⅲ",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "선단 건설 패키지Ⅲ",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 1500,
+		descrip_extra = "※ 구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 0,
+		id = 5023,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "alkrgift211",
+		extra_gem = 0,
+		descrip = "강화 부속 T4×5, 성정 유닛×200 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package220",
+		name_display = "선단 건설 패키지Ⅲ",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				30114,
+				5
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				30114,
+				5
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81448,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5024] = {
+		picture = "fengfanv4_day4",
+		name = "선단 건설 패키지Ⅳ",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "선단 건설 패키지Ⅳ",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 1500,
+		descrip_extra = "※ 구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 0,
+		id = 5024,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "alkrgift212",
+		extra_gem = 0,
+		descrip = "다이아×60, 특장형 부린 MKⅡ 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package221",
+		name_display = "선단 건설 패키지Ⅳ",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81449,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5025] = {
+		picture = "fengfanv4_day5",
+		name = "선단 건설 패키지Ⅴ",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "선단 건설 패키지Ⅴ",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 1500,
+		descrip_extra = "※ 구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 0,
+		id = 5025,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "alkrgift213",
+		extra_gem = 0,
+		descrip = "함선 연습 데이터 T2×60 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package222",
+		name_display = "선단 건설 패키지Ⅴ",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81450,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5026] = {
+		picture = "fengfanv4_day6",
+		name = "선단 건설 패키지Ⅵ",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "선단 건설 패키지Ⅵ",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 1500,
+		descrip_extra = "※ 구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 0,
+		id = 5026,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "alkrgift214",
+		extra_gem = 0,
+		descrip = "성정 큐브×10, 고속건조재×5 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package223",
+		name_display = "선단 건설 패키지Ⅵ",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81451,
+				1
+			}
+		}
+	}
+	pg.base.pay_data_display[5027] = {
+		picture = "fengfanv4_day7",
+		name = "선단 건설 패키지Ⅶ",
+		type = 0,
+		second_text = "",
+		tag = 2,
+		subject = "선단 건설 패키지Ⅶ",
+		gem = 0,
+		first_pay_double = 0,
+		show_group = "",
+		money = 1500,
+		descrip_extra = "※ 구매한 아이템은 우편함으로 발송됩니다.",
+		limit_group = 0,
+		id = 5027,
+		type_order = 5,
+		package_tag = "",
+		limit_type = 2,
+		package_sort_id = 0,
+		first_icon = "",
+		tip = "",
+		tip_open = 0,
+		cash_show = 0,
+		id_str = "alkrgift215",
+		extra_gem = 0,
+		descrip = "다이아×60, 상급 지향형 강화 유닛·9기×2 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package224",
+		name_display = "선단 건설 패키지Ⅶ",
+		first_text = "",
+		akashi_pick = 1,
+		sub_display = "",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		limit_arg = 1,
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42086,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81452,
 				1
 			}
 		}

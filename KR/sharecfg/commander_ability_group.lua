@@ -9,6 +9,7 @@ pg.commander_ability_group.all = {
 	13,
 	14,
 	15,
+	16,
 	20,
 	21,
 	22,
@@ -40,6 +41,7 @@ pg.commander_ability_group.all = {
 	90,
 	91,
 	92,
+	93,
 	200,
 	201,
 	202,
@@ -70,7 +72,9 @@ pg.commander_ability_group.all = {
 	515,
 	516,
 	517,
-	518
+	518,
+	519,
+	520
 }
 pg.base = pg.base or {}
 pg.base.commander_ability_group = {}
@@ -119,6 +123,13 @@ pg.base.commander_ability_group = {}
 		ability_list = {
 			151,
 			152
+		}
+	}
+	pg.base.commander_ability_group[16] = {
+		id = 16,
+		ability_list = {
+			161,
+			162
 		}
 	}
 	pg.base.commander_ability_group[20] = {
@@ -368,6 +379,14 @@ pg.base.commander_ability_group = {}
 			923
 		}
 	}
+	pg.base.commander_ability_group[93] = {
+		id = 93,
+		ability_list = {
+			931,
+			932,
+			933
+		}
+	}
 	pg.base.commander_ability_group[200] = {
 		id = 200,
 		ability_list = {
@@ -578,6 +597,18 @@ pg.base.commander_ability_group = {}
 		id = 518,
 		ability_list = {
 			5181
+		}
+	}
+	pg.base.commander_ability_group[519] = {
+		id = 519,
+		ability_list = {
+			5191
+		}
+	}
+	pg.base.commander_ability_group[520] = {
+		id = 520,
+		ability_list = {
+			5201
 		}
 	}
 end)()

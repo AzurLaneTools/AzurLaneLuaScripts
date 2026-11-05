@@ -4335,6 +4335,38 @@ pg.memory_template.all = {
 	5435,
 	5436,
 	5437,
+	5561,
+	5562,
+	5563,
+	5564,
+	5565,
+	5566,
+	5567,
+	5568,
+	5569,
+	5570,
+	5571,
+	5572,
+	5573,
+	5574,
+	5575,
+	5576,
+	5577,
+	5578,
+	5579,
+	5580,
+	5581,
+	5582,
+	5583,
+	5584,
+	5585,
+	5586,
+	5591,
+	5592,
+	5593,
+	5594,
+	5595,
+	5596,
 	5501,
 	5502,
 	5503,
@@ -82727,6 +82759,582 @@ end)()
 			"DUSHIQIUZHIDAZUOZHAN7"
 		}
 	}
+	pg.base.memory_template[5561] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "별을 건너는 인도자",
+		condition = "EPS-1 시작",
+		story = "JUFENGYUWUAIHUILANG1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5561,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG1"
+		}
+	}
+	pg.base.memory_template[5562] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "밤하늘이 거꾸로 도는 날",
+		condition = "EP1-1 시작",
+		story = "JUFENGYUWUAIHUILANG2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5562,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG2"
+		}
+	}
+	pg.base.memory_template[5563] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "축하해야 마땅한 이 날에",
+		condition = "EP1-2 시작",
+		story = "JUFENGYUWUAIHUILANG3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5563,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG3"
+		}
+	}
+	pg.base.memory_template[5564] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "잠옷 차림으로 이세계 전이",
+		condition = "EP1-3 시작",
+		story = "JUFENGYUWUAIHUILANG4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5564,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG4"
+		}
+	}
+	pg.base.memory_template[5565] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "아가씨와 호위 담당",
+		condition = "EP1-4 시작",
+		story = "JUFENGYUWUAIHUILANG5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5565,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG5"
+		}
+	}
+	pg.base.memory_template[5566] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "방황하는 점술가",
+		condition = "EP2-1 시작",
+		story = "2078001",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5566,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"2078001"
+		}
+	}
+	pg.base.memory_template[5567] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "성궤의 표식",
+		condition = "EP2-2 시작",
+		story = "JUFENGYUWUAIHUILANG7",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5567,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG7"
+		}
+	}
+	pg.base.memory_template[5568] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "과거의 잔영",
+		condition = "EP2-3 시작",
+		story = "JUFENGYUWUAIHUILANG8",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5568,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG8"
+		}
+	}
+	pg.base.memory_template[5569] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "길 잃은 앤",
+		condition = "EP2-4 시작",
+		story = "JUFENGYUWUAIHUILANG9",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5569,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG9"
+		}
+	}
+	pg.base.memory_template[5570] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "다시 나타난 잔영",
+		condition = "EP3-1 시작",
+		story = "JUFENGYUWUAIHUILANG10",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5570,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG10"
+		}
+	}
+	pg.base.memory_template[5571] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "천문대의 경보",
+		condition = "EP3-2 시작",
+		story = "JUFENGYUWUAIHUILANG11",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5571,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG11"
+		}
+	}
+	pg.base.memory_template[5572] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "뱀 괴수",
+		condition = "EP3-3 시작",
+		story = "2078002",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5572,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"2078002"
+		}
+	}
+	pg.base.memory_template[5573] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "우회",
+		condition = "EP4-1 시작",
+		story = "JUFENGYUWUAIHUILANG13",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5573,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG13"
+		}
+	}
+	pg.base.memory_template[5574] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "뭐 먹을까?",
+		condition = "EP4-2 시작",
+		story = "JUFENGYUWUAIHUILANG14",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5574,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG14"
+		}
+	}
+	pg.base.memory_template[5575] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "거꾸로 보기",
+		condition = "EP4-3 시작",
+		story = "JUFENGYUWUAIHUILANG15",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5575,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG15"
+		}
+	}
+	pg.base.memory_template[5576] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "별이 가라앉는 심연",
+		condition = "EP4-4 시작",
+		story = "2078003",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5576,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"2078003"
+		}
+	}
+	pg.base.memory_template[5577] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "다른 길을 찾아서",
+		condition = "EP4-5 시작",
+		story = "JUFENGYUWUAIHUILANG17",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5577,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG17"
+		}
+	}
+	pg.base.memory_template[5578] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "길잡이의 꿈",
+		condition = "EP5-1 시작",
+		story = "JUFENGYUWUAIHUILANG18",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5578,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG18"
+		}
+	}
+	pg.base.memory_template[5579] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "대치",
+		condition = "EP5-2 시작",
+		story = "2078004",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5579,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"2078004"
+		}
+	}
+	pg.base.memory_template[5580] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "여신 교회의 계획",
+		condition = "EP6-1 시작",
+		story = "JUFENGYUWUAIHUILANG20",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5580,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG20"
+		}
+	}
+	pg.base.memory_template[5581] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 2,
+		number = 0,
+		title = "마지막 장애물",
+		condition = "EP6-2 시작",
+		story = "2078005",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5581,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"2078005"
+		}
+	}
+	pg.base.memory_template[5582] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "달콤한 에필로그",
+		condition = "EP6-3 시작",
+		story = "JUFENGYUWUAIHUILANG22",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5582,
+		icon = "memory_jufengyuwuaihuilang1",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG22"
+		}
+	}
+	pg.base.memory_template[5583] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "세상과 미래를 위해",
+		condition = "EX-1 시작",
+		story = "JUFENGYUWUAIHUILANG23",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5583,
+		icon = "memory_jufengyuwuaihuilang2",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG23"
+		}
+	}
+	pg.base.memory_template[5584] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "동류 간의 교류",
+		condition = "EX-2 시작",
+		story = "JUFENGYUWUAIHUILANG24",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5584,
+		icon = "memory_jufengyuwuaihuilang2",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG24"
+		}
+	}
+	pg.base.memory_template[5585] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "수성의 약속",
+		condition = "EX-3 시작",
+		story = "JUFENGYUWUAIHUILANG25",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5585,
+		icon = "memory_jufengyuwuaihuilang2",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG25"
+		}
+	}
+	pg.base.memory_template[5586] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "6분의 1의 빛",
+		condition = "EX-4 시작",
+		story = "JUFENGYUWUAIHUILANG26",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5586,
+		icon = "memory_jufengyuwuaihuilang2",
+		is_open = 0,
+		unlock_pre = {
+			"JUFENGYUWUAIHUILANG26"
+		}
+	}
+	pg.base.memory_template[5591] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "사랑의 천사 메르쿠리",
+		condition = "스킨 스토리 「빛과 어둠의 이야기」 감상",
+		story = "GUANGYUANDEYAOYUE1",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5591,
+		icon = "memory_guangyuandeyaoyue",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYUANDEYAOYUE1"
+		}
+	}
+	pg.base.memory_template[5592] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "그물에 걸린 사냥꾼",
+		condition = "스킨 스토리 「빛과 어둠의 이야기」 감상",
+		story = "GUANGYUANDEYAOYUE2",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5592,
+		icon = "memory_guangyuandeyaoyue",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYUANDEYAOYUE2"
+		}
+	}
+	pg.base.memory_template[5593] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "매혹적인 밤의 사냥꾼",
+		condition = "스킨 스토리 「빛과 어둠의 이야기」 감상",
+		story = "GUANGYUANDEYAOYUE3",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5593,
+		icon = "memory_guangyuandeyaoyue",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYUANDEYAOYUE3"
+		}
+	}
+	pg.base.memory_template[5594] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "또 다른 정화",
+		condition = "스킨 스토리 「빛과 어둠의 이야기」 감상",
+		story = "GUANGYUANDEYAOYUE4",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5594,
+		icon = "memory_guangyuandeyaoyue",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYUANDEYAOYUE4"
+		}
+	}
+	pg.base.memory_template[5595] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "어두운 둥지 속에서",
+		condition = "스킨 스토리 「빛과 어둠의 이야기」 감상",
+		story = "GUANGYUANDEYAOYUE5",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5595,
+		icon = "memory_guangyuandeyaoyue",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYUANDEYAOYUE5"
+		}
+	}
+	pg.base.memory_template[5596] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "꽃의 바다에 떨어진 날개",
+		condition = "스킨 스토리 「빛과 어둠의 이야기」 감상",
+		story = "GUANGYUANDEYAOYUE6",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5596,
+		icon = "memory_guangyuandeyaoyue",
+		is_open = 0,
+		unlock_pre = {
+			"GUANGYUANDEYAOYUE6"
+		}
+	}
 	pg.base.memory_template[5501] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83393,6 +84001,8 @@ end)()
 			"YICHANGDERICHANGDUANJUQING24"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[5538] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83969,8 +84579,6 @@ end)()
 			"CHANGDAO6"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10017] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85195,6 +85803,8 @@ end)()
 			"LINGHANGYUANYANGCHENGJIHUA15"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20015] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85771,8 +86381,6 @@ end)()
 			"LINGHANGYUANHAOGANDU3"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20047] = {
 		ship_group = 0,
 		subtitle = "",
@@ -86997,6 +87605,8 @@ end)()
 			"LINGYANGZHEYANGCHENGJIHUA34"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20115] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87573,8 +88183,6 @@ end)()
 			"LINGYANGZHELAIFANGJISHI10"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20148] = {
 		ship_group = 0,
 		subtitle = "",
@@ -88799,6 +89407,8 @@ end)()
 			"TANSUOZHELAIFANGJISHI10"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20216] = {
 		ship_group = 0,
 		subtitle = "",

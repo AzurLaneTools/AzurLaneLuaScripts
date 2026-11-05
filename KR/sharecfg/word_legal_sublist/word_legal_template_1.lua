@@ -987,3 +987,34 @@ temp = function()
 end
 
 temp()
+
+temp = function()
+	uv0["헤"] = {
+		["이"] = {
+			["즐"] = {
+				["우"] = {
+					["드"] = {
+						this = true
+					}
+				}
+			},
+			["스"] = {
+				["티"] = {
+					this = true
+				}
+			}
+		},
+		["링"] = {
+			this = true
+		},
+		["스"] = {
+			["티"] = {
+				["아"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()

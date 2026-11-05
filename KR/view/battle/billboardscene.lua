@@ -32,11 +32,10 @@ slot0.getResource = function(slot0)
 	end
 
 	for slot8, slot9 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)) do
-		if not slot9:isEnd() and tonumber(slot9:getConfig("config_data")) > 0 then
-			slot3(Drop.New({
-				type = DROP_TYPE_RESOURCE,
-				id = slot9:getConfig("config_id")
-			}):getIcon())
+		slot10 = slot9:getConfig("config_data")
+
+		if not slot9:isEnd() and slot9:GetPTDrop() then
+			slot3(slot11:getIcon())
 		end
 	end
 
