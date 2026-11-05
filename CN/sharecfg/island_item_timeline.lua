@@ -35,7 +35,12 @@ pg.island_item_timeline.all = {
 	30,
 	31,
 	32,
-	33
+	33,
+	34,
+	35,
+	36,
+	37,
+	38
 }
 pg.base = pg.base or {}
 pg.base.island_item_timeline = {}
@@ -462,12 +467,10 @@ pg.base.island_item_timeline = {}
 		is_loop = 1,
 		id = 32,
 		binding_path = {
-			"",
 			"vfx_item_05_50306"
 		},
 		binding_track = {
-			1,
-			2
+			1
 		},
 		control_binding = {}
 	}
@@ -477,8 +480,79 @@ pg.base.island_item_timeline = {}
 		is_loop = 1,
 		id = 33,
 		binding_path = {
-			"",
 			"fbx_item_05_50314"
+		},
+		binding_track = {
+			1
+		},
+		control_binding = {}
+	}
+	pg.base.island_item_timeline[34] = {
+		name = "island/timeline/04/interactive_50351/pla_interactive_50351_01",
+		model = "Assets/Island/Item/05/50351/Prefab/pre_item_05_50351.prefab",
+		is_loop = 1,
+		id = 34,
+		binding_path = {
+			"fbx_item_05_50351",
+			"vfx_item_05_50351_1"
+		},
+		binding_track = {
+			1,
+			2
+		},
+		control_binding = {}
+	}
+	pg.base.island_item_timeline[35] = {
+		name = "island/timeline/04/interactive_50352/pla_interactive_50352_01",
+		model = "Assets/Island/Item/05/50352/Prefab/pre_item_05_50352.prefab",
+		is_loop = 1,
+		id = 35,
+		binding_path = {
+			"vfx_item_05_50352"
+		},
+		binding_track = {
+			1
+		},
+		control_binding = {}
+	}
+	pg.base.island_item_timeline[36] = {
+		name = "island/timeline/04/interactive_50370/pla_interactive_50370_01",
+		model = "Assets/Island/Item/05/50370/Prefab/pre_item_05_50370.prefab",
+		is_loop = 1,
+		id = 36,
+		binding_path = {
+			"fbx_item_05_50370",
+			"vfx_item_05_50370_1"
+		},
+		binding_track = {
+			1,
+			2
+		},
+		control_binding = {}
+	}
+	pg.base.island_item_timeline[37] = {
+		name = "island/timeline/04/interactive_50370/pla_interactive_50370_02",
+		model = "Assets/Island/Item/05/50370/Prefab/pre_item_05_50370.prefab",
+		is_loop = 1,
+		id = 37,
+		binding_path = {
+			"fbx_item_05_50370",
+			"vfx_item_05_50370_2"
+		},
+		binding_track = {
+			1,
+			2
+		},
+		control_binding = {}
+	}
+	pg.base.island_item_timeline[38] = {
+		name = "island/timeline/04/interactive_50371/pla_interactive_50371_01",
+		model = "Assets/Island/Item/05/50371/Prefab/pre_item_05_50371.prefab",
+		is_loop = 1,
+		id = 38,
+		binding_path = {
+			"fbx_item_05_50371",
+			"vfx_item_05_50371"
 		},
 		binding_track = {
 			1,

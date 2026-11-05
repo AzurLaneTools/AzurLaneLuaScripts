@@ -4465,6 +4465,14 @@ pg.memory_template.all = {
 	5550,
 	5551,
 	5552,
+	5601,
+	5611,
+	5612,
+	5613,
+	5614,
+	5615,
+	5616,
+	5617,
 	10011,
 	10012,
 	10013,
@@ -85133,6 +85141,150 @@ end)()
 			"YICHANGDERICHANGDUANJUQING39"
 		}
 	}
+	pg.base.memory_template[5601] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "新的旅程-{namecode:480:埃吉尔}",
+		condition = "对应舰船科研等级达到30级",
+		story = "LUCK49905",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5601,
+		icon = "memory_jhaijier",
+		is_open = 0,
+		unlock_pre = {
+			"LUCK49905"
+		}
+	}
+	pg.base.memory_template[5611] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "诗与倒影",
+		condition = "解锁「此刻即永恒」任务1",
+		story = "XIANGBIN1",
+		mask = "bg/bg_memory",
+		task = 500301,
+		year = 0,
+		id = 5611,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN1"
+		}
+	}
+	pg.base.memory_template[5612] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "梦境与现实",
+		condition = "解锁「此刻即永恒」任务2",
+		story = "XIANGBIN2",
+		mask = "bg/bg_memory",
+		task = 500302,
+		year = 0,
+		id = 5612,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN2"
+		}
+	}
+	pg.base.memory_template[5613] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "过往与未来",
+		condition = "解锁「此刻即永恒」任务3",
+		story = "XIANGBIN3",
+		mask = "bg/bg_memory",
+		task = 500303,
+		year = 0,
+		id = 5613,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN3"
+		}
+	}
+	pg.base.memory_template[5614] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "当下即历史",
+		condition = "解锁「此刻即永恒」任务4",
+		story = "XIANGBIN4",
+		mask = "bg/bg_memory",
+		task = 500304,
+		year = 0,
+		id = 5614,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN4"
+		}
+	}
+	pg.base.memory_template[5615] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "诗的舞步",
+		condition = "解锁「此刻即永恒」任务5",
+		story = "XIANGBIN5",
+		mask = "bg/bg_memory",
+		task = 500305,
+		year = 0,
+		id = 5615,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN5"
+		}
+	}
+	pg.base.memory_template[5616] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "暂借之眠",
+		condition = "解锁「此刻即永恒」任务6",
+		story = "XIANGBIN6",
+		mask = "bg/bg_memory",
+		task = 500306,
+		year = 0,
+		id = 5616,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN6"
+		}
+	}
+	pg.base.memory_template[5617] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "共醉此刻",
+		condition = "解锁「此刻即永恒」任务7",
+		story = "XIANGBIN7",
+		mask = "bg/bg_memory",
+		task = 500307,
+		year = 0,
+		id = 5617,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN7"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85691,6 +85843,8 @@ end)()
 			"YINGHUA1"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10052] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85835,8 +85989,6 @@ end)()
 			"YINGHUA9"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10060] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87493,6 +87645,8 @@ end)()
 			"LINGHANGYUANTANXIN22"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20074] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87637,8 +87791,6 @@ end)()
 			"LINGHANGYUANTANXIN30"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20082] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89295,6 +89447,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA25"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20175] = {
 		ship_group = 0,
 		subtitle = "",
@@ -89439,8 +89593,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA33"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20183] = {
 		ship_group = 0,
 		subtitle = "",

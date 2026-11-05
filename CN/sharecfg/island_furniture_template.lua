@@ -30,6 +30,7 @@ pg.island_furniture_template.all = {
 	101,
 	102,
 	103,
+	104,
 	10101,
 	10201,
 	10301,
@@ -188,7 +189,37 @@ pg.island_furniture_template.all = {
 	50325,
 	50347,
 	50348,
-	50349
+	50349,
+	50350,
+	50351,
+	50352,
+	50353,
+	50354,
+	50355,
+	50356,
+	50357,
+	50358,
+	50359,
+	50360,
+	50361,
+	50362,
+	50364,
+	50365,
+	50366,
+	50367,
+	50368,
+	50369,
+	50370,
+	50371,
+	50372,
+	50373,
+	50374,
+	50375,
+	50376,
+	50377,
+	50380,
+	50381,
+	50382
 }
 pg.base = pg.base or {}
 pg.base.island_furniture_template = {}
@@ -792,6 +823,32 @@ pg.base.island_furniture_template = {}
 		jump_page = {
 			{
 				"秋季特产经营",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[104] = {
+		setNum = 1,
+		describe = "奖杯上，一朵剔透的冰花悄然盛放，晶莹的花瓣映着细雪，透出一缕清冷而柔和的冬日气息。",
+		name = "冬季开发奖杯",
+		type = 7,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_104",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50005/prefab/pre_item_05_50005",
+		bt = "",
+		id = 104,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"冬季特产经营",
 				{}
 			}
 		}
@@ -2656,6 +2713,8 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_furniture_template[30303] = {
 		setNum = 999,
 		describe = "由茂密绿植修剪而成的拱门，顶部悬挂一盏古典吊灯，用于照亮并装饰花园的入口。",
@@ -2682,8 +2741,6 @@ pg.base.island_furniture_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_furniture_template[30304] = {
 		setNum = 999,
 		describe = "华丽的世界正向着所有人敞开！",
@@ -4888,5 +4945,796 @@ end)()
 			5
 		},
 		jump_page = {}
+	}
+	pg.base.island_furniture_template[50350] = {
+		setNum = 1,
+		describe = "以熊猫纹样和竹林装饰打造的会馆，是岛上颇具辨识度的休憩据点。",
+		name = "熊猫竹苑馆",
+		type = 1,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50350",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50350/prefab/pre_item_05_50350",
+		bt = "",
+		id = 50350,
+		tech_id = 0,
+		size = {
+			22,
+			19
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50351] = {
+		setNum = 1,
+		describe = "融入熊猫爪印与竹伞装饰的比武台，适合举办一场气氛轻松的切磋赛。",
+		name = "熊猫比武台",
+		type = 2,
+		hierarchy = 5,
+		rarity = 4,
+		icon = "furniture_50351",
+		prosperity = 0,
+		capacityCost = 0,
+		model = "island/item/05/50351/prefab/pre_item_05_50351",
+		bt = "",
+		id = 50351,
+		tech_id = 0,
+		size = {
+			13,
+			13
+		},
+		interact_point = {
+			29
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50352] = {
+		setNum = 999,
+		describe = "铺着熊猫软垫的琴榻，随手拨几下，也许就能弹出一段软乎乎的旋律~",
+		name = "熊猫琴榻",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50352",
+		prosperity = 0,
+		capacityCost = 20,
+		model = "island/item/05/50352/prefab/pre_item_05_50352",
+		bt = "",
+		id = 50352,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		interact_point = {
+			30
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50353] = {
+		setNum = 999,
+		describe = "带有熊猫元素的练功木桩，可用来活动筋骨、测试招式力度。",
+		name = "练功木桩",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50353",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50353/prefab/pre_item_05_50353",
+		bt = "",
+		id = 50353,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50354] = {
+		setNum = 999,
+		describe = "古朴的石灯透出柔和的光晕，为庭院添上一点沉静气氛。",
+		name = "青石小灯",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50354",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50354/prefab/pre_item_05_50354",
+		bt = "",
+		id = 50354,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50355] = {
+		setNum = 999,
+		describe = "高低错落的竹筒组成桩阵，可借此练习步法、平衡感和反应速度。",
+		name = "修行桩阵",
+		type = 3,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50355",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50370/prefab/pre_item_05_50370",
+		bt = "",
+		id = 50355,
+		tech_id = 0,
+		size = {
+			7,
+			7
+		},
+		interact_point = {
+			31,
+			32
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50356] = {
+		setNum = 999,
+		describe = "圆润可爱的石狮装饰，威风里带着一点亲切感。",
+		name = "福气石狮",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50356",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50367/prefab/pre_item_05_50367",
+		bt = "",
+		id = 50356,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50357] = {
+		setNum = 999,
+		describe = "融入熊猫爪印和竹叶造型的迎宾门，走过时总觉得会被热情欢迎~",
+		name = "熊猫迎宾门",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50357",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50368/prefab/pre_item_05_50368",
+		bt = "",
+		id = 50357,
+		tech_id = 0,
+		size = {
+			5,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50358] = {
+		setNum = 999,
+		describe = "花枝、画卷与浅池组合成的小型造景，清新可爱的氛围十分醒目。",
+		name = "花池小景",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50358",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50369/prefab/pre_item_05_50369",
+		bt = "",
+		id = 50358,
+		tech_id = 0,
+		size = {
+			4,
+			5
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50359] = {
+		setNum = 999,
+		describe = "外形可爱的丹炉装饰，升起的轻烟让人忍不住好奇里面有什么~",
+		name = "青玄丹炉",
+		type = 4,
+		hierarchy = 5,
+		rarity = 3,
+		icon = "furniture_50359",
+		prosperity = 0,
+		capacityCost = 60,
+		model = "island/item/05/50371/prefab/pre_item_05_50371",
+		bt = "",
+		id = 50359,
+		tech_id = 0,
+		size = {
+			9,
+			9
+		},
+		interact_point = {
+			33
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50360] = {
+		setNum = 999,
+		describe = "圆滚滚的熊猫主题摆件，憨态可掬，十分讨喜。",
+		name = "团团摆件",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50360",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50372/prefab/pre_item_05_50372",
+		bt = "",
+		id = 50360,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50361] = {
+		setNum = 999,
+		describe = "绘有竹影纹样的屏风，可用来分隔空间，也能作为雅致背景。",
+		name = "竹影屏风",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50361",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50373/prefab/pre_item_05_50373",
+		bt = "",
+		id = 50361,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50362] = {
+		setNum = 999,
+		describe = "摆在庭院中的未完成棋局，适合在休息时与同伴慢慢对弈。",
+		name = "半分棋阵",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50362",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50375/prefab/pre_item_05_50375",
+		bt = "",
+		id = 50362,
+		tech_id = 0,
+		size = {
+			8,
+			8
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+end)()
+(function ()
+	pg.base.island_furniture_template[50364] = {
+		setNum = 999,
+		describe = "熊猫爪印样式的令旗，为演武和活动区域增添几分仪式感。",
+		name = "熊猫令旗",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50363",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50357/prefab/pre_item_05_50357",
+		bt = "",
+		id = 50364,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50365] = {
+		setNum = 999,
+		describe = "色泽清亮的水缸装饰，朴素实用的造型中带着一点生活气。",
+		name = "青釉水缸",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50365",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50355/prefab/pre_item_05_50355",
+		bt = "",
+		id = 50365,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50366] = {
+		setNum = 999,
+		describe = "熊猫小团子在水池中嬉闹，水面波光晃动，看起来清爽又可爱~",
+		name = "熊猫戏水池",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50366",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50356/prefab/pre_item_05_50356",
+		bt = "",
+		id = 50366,
+		tech_id = 0,
+		size = {
+			3,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50367] = {
+		setNum = 999,
+		describe = "青竹造型的装饰摆件，能为整体布置增添一抹自然绿意。",
+		name = "青竹摆件",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50367",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50358/prefab/pre_item_05_50358",
+		bt = "",
+		id = 50367,
+		tech_id = 0,
+		size = {
+			3,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50368] = {
+		setNum = 999,
+		describe = "熊猫造型的街灯，灯光亮起时像一颗暖乎乎的团子。",
+		name = "团团街灯",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50368",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50359/prefab/pre_item_05_50359",
+		bt = "",
+		id = 50368,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50369] = {
+		setNum = 999,
+		describe = "戴斗笠、系披风，圆滚滚的身形带着几分侠气。",
+		name = "熊猫侠客 ",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50369",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50362/prefab/pre_item_05_50362",
+		bt = "",
+		id = 50369,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"开发季V-累积PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50370] = {
+		setNum = 999,
+		describe = "石材雕成的象棋装饰，厚重质感中带着几分闲趣。",
+		name = "石制象棋",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50370",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50360/prefab/pre_item_05_50360",
+		bt = "",
+		id = 50370,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50371] = {
+		setNum = 999,
+		describe = "封存佳酿的酒坛，靠近时仿佛能闻到淡淡竹香。",
+		name = "竹香酒坛",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50371",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50361/prefab/pre_item_05_50361",
+		bt = "",
+		id = 50371,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50372] = {
+		setNum = 999,
+		describe = "四季常青的竹子，为庭院带来清幽自然的气息。",
+		name = "四季青竹",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50372",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50377/prefab/pre_item_05_50377",
+		bt = "",
+		id = 50372,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50373] = {
+		setNum = 999,
+		describe = "刚冒出头的竹笋，是熊猫们相当中意的食物。",
+		name = "新鲜竹笋",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50373",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50363/prefab/pre_item_05_50363",
+		bt = "",
+		id = 50373,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50374] = {
+		setNum = 999,
+		describe = "由青竹与绳结组合成的围栏装饰，清爽配色让整体更有自然气息。",
+		name = "竹节围栏",
+		type = 3,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50374",
+		prosperity = 0,
+		capacityCost = 40,
+		interact_point = "",
+		model = "island/item/05/50364/prefab/pre_item_05_50364",
+		bt = "",
+		id = 50374,
+		tech_id = 0,
+		size = {
+			1,
+			1
+		},
+		jump_page = {
+			{
+				"开发季V-累积PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50375] = {
+		setNum = 999,
+		describe = "带有浅色苔痕的青石装饰，圆润石形显得自然又耐看。",
+		name = "青石摆件",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50375",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50365/prefab/pre_item_05_50365",
+		bt = "",
+		id = 50375,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"开发季V-累积PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50376] = {
+		setNum = 999,
+		describe = "几块青石错落组合而成的装饰，苔色点缀让造型更添生趣。",
+		name = "叠石摆件",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50376",
+		prosperity = 0,
+		capacityCost = 20,
+		interact_point = "",
+		model = "island/item/05/50366/prefab/pre_item_05_50366",
+		bt = "",
+		id = 50376,
+		tech_id = 0,
+		size = {
+			2,
+			1
+		},
+		jump_page = {
+			{
+				"开发季V-累积PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50377] = {
+		setNum = 999,
+		describe = "趴成一团的熊猫造型装饰，慵懒姿态看起来格外松弛。",
+		name = "趴趴熊猫",
+		type = 4,
+		hierarchy = 5,
+		rarity = 2,
+		icon = "furniture_50377",
+		prosperity = 0,
+		capacityCost = 60,
+		interact_point = "",
+		model = "island/item/05/50376/prefab/pre_item_05_50376",
+		bt = "",
+		id = 50377,
+		tech_id = 0,
+		size = {
+			6,
+			4
+		},
+		jump_page = {
+			{
+				"开发季V-累积PT",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50380] = {
+		setNum = 999,
+		describe = "细密竹叶铺成的清新地砖，仿佛把一小片竹林绿意留在了脚下~ ",
+		name = "竹林地砖（小）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50380",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50380/prefab/pre_item_05_50380",
+		bt = "",
+		id = 50380,
+		tech_id = 0,
+		size = {
+			2,
+			2
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50381] = {
+		setNum = 999,
+		describe = "细密竹叶铺成的清新地砖，仿佛把一小片竹林绿意留在了脚下~ ",
+		name = "竹林地砖（中）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50381",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50381/prefab/pre_item_05_50381",
+		bt = "",
+		id = 50381,
+		tech_id = 0,
+		size = {
+			3,
+			3
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_furniture_template[50382] = {
+		setNum = 999,
+		describe = "细密竹叶铺成的清新地砖，仿佛把一小片竹林绿意留在了脚下~ ",
+		name = "竹林地砖（大）",
+		type = 8,
+		hierarchy = 6,
+		rarity = 2,
+		icon = "furniture_50382",
+		prosperity = 0,
+		capacityCost = 0,
+		interact_point = "",
+		model = "island/item/05/50382/prefab/pre_item_05_50382",
+		bt = "",
+		id = 50382,
+		tech_id = 0,
+		size = {
+			5,
+			5
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
 	}
 end)()

@@ -67,7 +67,7 @@ pg.base.settings_other_template = {}
 		type = 0,
 		id = 4,
 		title = "重复角色获得提示",
-		desc = "功能关闭后，重复获得已解锁图鉴的普通及稀有角色时不会弹出角色获取界面 "
+		desc = "功能关闭后，重复获得已解锁图鉴的精锐及以下稀有度的舰船时（仅限海域掉落）不会弹出角色获取界面 "
 	}
 	pg.base.settings_other_template[5] = {
 		default = 1,

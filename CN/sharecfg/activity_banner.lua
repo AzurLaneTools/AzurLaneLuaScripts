@@ -119,41 +119,17 @@ pg.base.activity_banner = {}
 
 (function ()
 	pg.base.activity_banner[1] = {
+		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					10,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[2] = {
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -163,36 +139,10 @@ pg.base.activity_banner = {}
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					5
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[3] = {
-		param = "51616",
+		param = "51688",
 		type = 3,
 		id = 3,
 		pic = "temp3",
@@ -200,8 +150,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					10,
-					22
+					11,
+					5
 				},
 				{
 					0,
@@ -213,7 +163,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					5
+					12
 				},
 				{
 					12,
@@ -224,6 +174,7 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[4] = {
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -232,35 +183,10 @@ pg.base.activity_banner = {}
 			{
 				coreName = "WindFogCorridorCoreActivityUI"
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					5
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[5] = {
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -269,144 +195,30 @@ pg.base.activity_banner = {}
 			{
 				wrap = 2
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[6] = {
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene Cryptolalia",
-			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					10,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"dorm 3d select"
 		}
 	}
 	pg.base.activity_banner[7] = {
+		time = "stop",
 		type = 2,
 		id = 7,
 		pic = "temp7",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[8] = {
 		type = 2,
 		id = 8,
 		pic = "temp8",
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	}
-	pg.base.activity_banner[9] = {
-		type = 2,
-		id = 9,
-		pic = "temp9",
 		param = {
 			"scene equip",
 			{
@@ -418,8 +230,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					10,
-					22
+					11,
+					5
 				},
 				{
 					0,
@@ -431,7 +243,45 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
+					12
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_banner[9] = {
+		type = 2,
+		id = 9,
+		pic = "temp9",
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isEX = true
+			}
+		},
+		time = {
+			{
+				{
+					2026,
+					11,
 					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					11,
+					12
 				},
 				{
 					12,

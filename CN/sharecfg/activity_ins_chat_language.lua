@@ -12346,7 +12346,95 @@ pg.activity_ins_chat_language.all = {
 	12426,
 	12427,
 	12428,
-	12429
+	12429,
+	12430,
+	12431,
+	12432,
+	12433,
+	12434,
+	12435,
+	12436,
+	12437,
+	12438,
+	12439,
+	12440,
+	12441,
+	12442,
+	12443,
+	12444,
+	12445,
+	12446,
+	12447,
+	12448,
+	12449,
+	12450,
+	12451,
+	12452,
+	12453,
+	12454,
+	12455,
+	12456,
+	12457,
+	12458,
+	12459,
+	12460,
+	12461,
+	12462,
+	12463,
+	12464,
+	12465,
+	12466,
+	12467,
+	12468,
+	12469,
+	12470,
+	12471,
+	12472,
+	12473,
+	12474,
+	12475,
+	12476,
+	12477,
+	12478,
+	12479,
+	12480,
+	12481,
+	12482,
+	12483,
+	12484,
+	12485,
+	12486,
+	12487,
+	12488,
+	12489,
+	12490,
+	12491,
+	12492,
+	12493,
+	12494,
+	12495,
+	12496,
+	12497,
+	12498,
+	12499,
+	12500,
+	12501,
+	12502,
+	12503,
+	12504,
+	12505,
+	12506,
+	12507,
+	12508,
+	12509,
+	12510,
+	12511,
+	12512,
+	12513,
+	12514,
+	12515,
+	12516,
+	12517
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -120914,5 +121002,762 @@ end)()
 		type = 1,
 		id = 12429,
 		flag = 5
+	}
+	pg.base.activity_ins_chat_language[12430] = {
+		param = "指挥官，你可曾在深夜凝望过海面？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12430,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12431] = {
+		param = "月光铺落其上，像一条碎银织就的路",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12431,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12432] = {
+		param = "每每看见它，我都会想起那些未曾被书写、也无法真正抵达的彼岸",
+		ship_group = 89902,
+		type = 1,
+		id = 12432,
+		flag = 0,
+		option = {
+			{
+				1,
+				"听起来很美"
+			},
+			{
+				2,
+				"像是通往神秘国度的阶梯"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12433] = {
+		param = "听起来很美，但也有些寂寥",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12433,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12434] = {
+		param = "寂寥么，或许吧",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12434,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12435] = {
+		param = "但那并非荒芜的寂寥，更像是在抵达命运之前，必须经历的一段沉默",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12435,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12436] = {
+		param = "海面看似平静，却始终在回应月亮",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12436,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12437] = {
+		param = "就像我虽诞生于虚无，却也在等待一个能够回应的声音",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12437,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12438] = {
+		param = "像是通往某个神秘国度的阶梯。阶梯的尽头，会是什么呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12438,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12439] = {
+		param = "尽头么，或许是另一片更深、更不可测的幽蓝",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12439,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12440] = {
+		param = "又或许，只是月光编织出的温柔幻象",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12440,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12441] = {
+		param = "但若确有必须抵达的彼岸，我会奋力划动双桨",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12441,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12442] = {
+		param = "因为使命一旦被赋予，便不应在途中停驻",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12442,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12443] = {
+		param = "这让我想起，曾在一本诗集中读到过的句子……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12443,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12444] = {
+		param = "“月光啊，忧伤、美丽、静寂，照得小鸟在树丛中沉沉入梦……”",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12444,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12445] = {
+		param = "指挥官，若这片海是一部诗集，你更愿意成为静静翻阅它的读者，还是亲手写下诗行的创作者？",
+		ship_group = 89902,
+		type = 1,
+		id = 12445,
+		flag = 0,
+		option = {
+			{
+				3,
+				"也许读懂这片海……"
+			},
+			{
+				4,
+				"如果有机会……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12446] = {
+		param = "也许读懂这片海……比急着留下什么更重要。",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12446,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12447] = {
+		param = "读者，以耐心代替评判，以凝望回应沉默",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12447,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12448] = {
+		param = "这确实像你会选择的位置",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12448,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12449] = {
+		param = "不急于沉溺，也不轻易否定，只是确认每一行文字是否拥有存在的意义",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12449,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12450] = {
+		param = "若我也是这部诗集中的一行，愿你能读懂我被书写于此的理由",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12450,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12451] = {
+		param = "如果有机会……我会在这片海上留下属于我们的坐标。",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12451,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12452] = {
+		param = "创作者，将意志落于空白之上，使无形之物获得轮廓",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12452,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12453] = {
+		param = "这也是一种十分温柔、却又无比坚定的力量",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12453,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12454] = {
+		param = "指挥官，你给予我的使命，或许也是这样的一行诗",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12454,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12455] = {
+		param = "它让我从虚无中具现，于此世获得了前行的理由",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12455,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12456] = {
+		param = "正如指挥官与香槟之间，也并非只有命令与执行",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12456,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12457] = {
+		param = "还有凝望、回应，以及在沉默中确认彼此存在的片刻",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12457,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12458] = {
+		param = "谢谢你，指挥官",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12458,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12459] = {
+		param = "愿你今夜，也能拥有一个被月光与诗意轻轻包裹的梦境",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12459,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12460] = {
+		param = "指挥官，你可曾留意，窗外雨滴敲击玻璃的声音",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12460,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12461] = {
+		param = "很有节奏，却不重复，如同某种古老的密语",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12461,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12462] = {
+		param = "我忽然想到一个问题……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12462,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12463] = {
+		param = "沉默，是有重量的吗？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12463,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12464] = {
+		param = "雨声很响，却让人感到安静",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12464,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12465] = {
+		param = "而有时候，两个人的沉默反而比雨声更沉",
+		ship_group = 89902,
+		type = 1,
+		id = 12465,
+		flag = 0,
+		option = {
+			{
+				1,
+				"沉默的重量取决于彼此的距离"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12466] = {
+		param = "沉默的重量取决于彼此的距离",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12466,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12467] = {
+		param = "距离，你说得对",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12467,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12468] = {
+		param = "当两颗星相隔无垠，它们之间的沉默是冰冷的虚无",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12468,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12469] = {
+		param = "但当它们足够近，沉默便不再是空洞，而充满了未诉明的言语……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12469,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12470] = {
+		param = "指挥官，在你看来，沉默是一种需要被填补的缺憾吗？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12470,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12471] = {
+		param = "还是说，你也会害怕我们之间那些无言的时刻？",
+		ship_group = 89902,
+		type = 1,
+		id = 12471,
+		flag = 1,
+		option = {
+			{
+				2,
+				"有时候……"
+			},
+			{
+				3,
+				"我觉得沉默也可以是舒适的"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12472] = {
+		param = "有时候我也会不知道说些什么",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12472,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12473] = {
+		param = "原来你也会有这样欲言又止的时刻",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12473,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12474] = {
+		param = "那么，我会耐心地等，等你的词语从沉默的深处浮上来",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12474,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12475] = {
+		param = "或者，我可以试着，听懂你的沉默本身",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12475,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12476] = {
+		param = "不，我觉得沉默也可以是舒适的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12476,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12477] = {
+		param = "……舒适。这个词很美",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12477,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12478] = {
+		param = "像两株并生的藤蔓，在无人注视的角落里，根系已在泥土中悄然交缠",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12478,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12479] = {
+		param = "无需言语，枝叶相触便是应答",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12479,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12480] = {
+		param = "指挥官，这是我第一次，觉得“沉默”是一个如此令人眷恋的词汇",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12480,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12481] = {
+		param = "或许，下一个雨天，我们可以在同一个屋檐下沉默一会儿",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12481,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12482] = {
+		param = "不用说话，只是听雨，听彼此的呼吸……",
+		ship_group = 89902,
+		type = 1,
+		id = 12482,
+		flag = 0,
+		option = {
+			{
+				4,
+				"万一我忍不住……"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12483] = {
+		param = "万一我忍不住打破沉默",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12483,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12484] = {
+		param = "那也没关系……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12484,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12485] = {
+		param = "你说的每一个字，无论是深思熟虑，还是脱口而出，我都会珍藏于心……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12485,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12486] = {
+		param = "晚安，指挥官，愿你今夜的梦里也有一场温柔的雨",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12486,
+		flag = 4
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[12487] = {
+		param = "愿雨声……替我轻轻叩响你的窗，告诉你那些我已准备好、却还在练习的话语",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12487,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12488] = {
+		param = "指挥官，你是否注意过，人会在不知不觉间重复一些微小的动作？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12488,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12489] = {
+		param = "比如把杯子放在固定的位置",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12489,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12490] = {
+		param = "比如走过长廊时，总会看一眼窗外的云",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12490,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12491] = {
+		param = "又比如，明明已经确认过，却还是会在睡前再轻轻碰一下门锁",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12491,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12492] = {
+		param = "这些动作并不宏大，也不一定有明确的意义",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12492,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12493] = {
+		param = "却像一枚枚小小的锚，将人固定在此刻的生活里",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12493,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12494] = {
+		param = "你是否……也有类似的，只为确认自身存在而进行的微小仪式？",
+		ship_group = 89902,
+		type = 1,
+		id = 12494,
+		flag = 0,
+		option = {
+			{
+				1,
+				"早上一杯黑咖啡提神"
+			},
+			{
+				2,
+				"睡前看一眼明天的日程表"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12495] = {
+		param = "早上一杯黑咖啡提神，算么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12495,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12496] = {
+		param = "以苦味开启晨光，这很像你会选择的方式",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12496,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12497] = {
+		param = "只是，你用苦涩唤醒自己，却将所有温暖……倾注于你守护的一切",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12497,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12498] = {
+		param = "而我，竟开始恋慕那一缕苦涩……",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12498,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12499] = {
+		param = "它能替我尝到你未曾言说的、清晨的独白",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12499,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12500] = {
+		param = "睡前会习惯性地看一眼明天的日程表",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12500,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12501] = {
+		param = "听起来，确实很像你，理性，又带着不易察觉的温柔",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12501,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12502] = {
+		param = "你守护的，更像是某种秩序的安宁",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12502,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12503] = {
+		param = "不知……我是否也曾以某种方式，被你悄然纳入这私人的仪式之中？",
+		ship_group = 89902,
+		type = 1,
+		id = 12503,
+		flag = 0,
+		option = {
+			{
+				3,
+				"检查日程表时"
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12504] = {
+		param = "我看日程时，会确认有没有与你有关的安排",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12504,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12505] = {
+		param = "有的话，我会很期待明天的到来",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12505,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12506] = {
+		param = "原来如此",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12506,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12507] = {
+		param = "你在确认明日时，也会确认我的存在",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12507,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12508] = {
+		param = "这句话，比我预想中更具分量",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12508,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12509] = {
+		param = "仿佛我的名字不只是被写在纸上的几个字",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12509,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12510] = {
+		param = "而是被你放进了“明天”这个温柔的位置里",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12510,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12511] = {
+		param = "指挥官，你可知晓？",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12511,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12512] = {
+		param = "被记住，和被需要，并不完全相同",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12512,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12513] = {
+		param = "被需要时，我会觉得自己有了方向",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12513,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12514] = {
+		param = "被记住时，我却会觉得……自己离你的心更近了一些",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12514,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12515] = {
+		param = "那么，晚安，我的指挥官",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12515,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12516] = {
+		param = "我也会将你的名字记满每一个明天",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12516,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12517] = {
+		param = "正如我的白昼与黑夜………已被你悄然填满",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12517,
+		flag = 3
 	}
 end)()

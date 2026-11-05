@@ -48,14 +48,14 @@ pg.base.chapter_suggestion_formation = {}
 		describe = "推荐使用轮型阵。主力推荐3航母阵容，先锋使用有较强防空能力的角色",
 		page_title = "编队指引-13章",
 		teamid = {
-			1301,
 			1302,
+			1301,
 			1303
 		},
 		teamid1 = {
-			1304,
+			1306,
 			1305,
-			1306
+			1304
 		}
 	}
 	pg.base.chapter_suggestion_formation[2] = {
@@ -66,14 +66,14 @@ pg.base.chapter_suggestion_formation = {}
 		describe = "推荐使用轮型阵。主力推荐1战列+2航母的组合阵容，先锋推荐两艘生存能力与防空能力兼顾的角色和一艘防空能力优秀的角色",
 		page_title = "编队指引-13章",
 		teamid = {
-			1311,
 			1312,
+			1311,
 			1313
 		},
 		teamid1 = {
-			1314,
+			1316,
 			1315,
-			1316
+			1314
 		}
 	}
 	pg.base.chapter_suggestion_formation[3] = {
@@ -85,8 +85,8 @@ pg.base.chapter_suggestion_formation = {}
 		page_title = "编队指引-13章",
 		teamid1 = "",
 		teamid = {
-			1331,
 			1332,
+			1331,
 			1333
 		}
 	}
@@ -98,14 +98,14 @@ pg.base.chapter_suggestion_formation = {}
 		describe = "推荐使用复纵阵。主力舰队推荐为1战列+2航母的组合阵容，战列推荐有较强连续作战能力的角色，航母推荐带2名有治疗能力的角色。先锋舰队领舰位推荐生存能力较强的角色，推荐重巡/超巡，其余两名角色推荐轻巡、驱逐角色进行反潜以及为团队提供辅助的功能性角色",
 		page_title = "编队指引-14章",
 		teamid = {
-			1401,
 			1402,
+			1401,
 			1403
 		},
 		teamid1 = {
-			1404,
+			1406,
 			1405,
-			1406
+			1404
 		}
 	}
 	pg.base.chapter_suggestion_formation[5] = {
@@ -116,14 +116,14 @@ pg.base.chapter_suggestion_formation = {}
 		describe = "推荐使用复纵阵。主力舰队：推荐为2战列+1航母的组合阵容，航母为拥有治疗能力的角色，战列推荐有优秀输出能力的角色。先锋舰队推荐3名生存能力优秀的角色。",
 		page_title = "编队指引-14章",
 		teamid = {
-			1411,
 			1412,
+			1411,
 			1413
 		},
 		teamid1 = {
-			1414,
+			1416,
 			1415,
-			1416
+			1414
 		}
 	}
 	pg.base.chapter_suggestion_formation[6] = {
@@ -135,8 +135,8 @@ pg.base.chapter_suggestion_formation = {}
 		page_title = "编队指引-14章",
 		teamid1 = "",
 		teamid = {
-			1431,
 			1432,
+			1431,
 			1433
 		}
 	}

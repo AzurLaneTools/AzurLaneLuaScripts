@@ -24,7 +24,11 @@ pg.island_activity_template.all = {
 	990022,
 	990023,
 	990024,
-	990025
+	990025,
+	990027,
+	990028,
+	990029,
+	990030
 }
 pg.base = pg.base or {}
 pg.base.island_activity_template = {}
@@ -295,6 +299,49 @@ pg.base.island_activity_template = {}
 		page_info = "",
 		title_res_tag = "",
 		id = 990025,
+		config_id = 0,
+		ability_id = 36001,
+		config_data = ""
+	}
+	pg.base.island_activity_template[990027] = {
+		config_client = "",
+		is_show = 99,
+		title_res_tag = "冬季特产经营",
+		id = 990027,
+		config_id = 0,
+		ability_id = 33001,
+		config_data = "",
+		page_info = {
+			class_name = "IslandActivitySpecialOrderS5Page",
+			ui_name = "IslandActivitySpecialOrderS5Page"
+		}
+	}
+	pg.base.island_activity_template[990028] = {
+		config_client = "",
+		is_show = 0,
+		page_info = "",
+		title_res_tag = "",
+		id = 990028,
+		config_id = 0,
+		ability_id = 34001,
+		config_data = ""
+	}
+	pg.base.island_activity_template[990029] = {
+		config_client = "",
+		is_show = 0,
+		page_info = "",
+		title_res_tag = "",
+		id = 990029,
+		config_id = 0,
+		ability_id = 35001,
+		config_data = ""
+	}
+	pg.base.island_activity_template[990030] = {
+		config_client = "",
+		is_show = 0,
+		page_info = "",
+		title_res_tag = "",
+		id = 990030,
 		config_id = 0,
 		ability_id = 36001,
 		config_data = ""

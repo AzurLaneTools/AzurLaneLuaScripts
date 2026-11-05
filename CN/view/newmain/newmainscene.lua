@@ -20,6 +20,7 @@ slot0.EXIT_SILENT_VIEW = "NewMainScene.EXIT_SILENT_VIEW"
 slot0.L2D_BOUND_CHANGE = "NewMainScene.L2D_BOUND_CHANGE"
 slot0.STORY_BEGIN = "NewMainScene.STORY_BEGIN"
 slot0.STORY_END = "NewMainScene.STORY_END"
+slot0.PAINTING_LOAD_COMPLETE = "NewMainScene.PAINTING_LOAD_COMPLETE"
 slot0.RESET_L2D = "NewMainScene.RESET_L2D"
 
 slot0.getUIName = function(slot0)

@@ -12577,17 +12577,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "安妮女王复仇号、冈依沙瓦号 等角色 建造追加！"
+	tip = "克莱蒙梭、里昂、絮弗伦 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "莱姆号、幻想号 等角色 建造追加！"
+	tip = "吉尚 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "和睦号 建造追加！"
+	tip = "伴尔维 建造追加！"
 }
 
 
@@ -40547,6 +40547,36 @@ _G.pg.base.gametip.shop_new_gift = {
 }
 
 
+_G.pg.base.gametip.shop_new_lower_price = {
+	tip = "最低"
+}
+
+
+_G.pg.base.gametip.shop_new_cannot_use_coupon = {
+	tip = "在商店折扣下，您所拥有的折扣券暂无法使用"
+}
+
+
+_G.pg.base.gametip.shop_new_only_use_one_coupon = {
+	tip = "仅可选择一张折扣券使用"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip1 = {
+	tip = "\n包含的换装   如下：\n"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip2 = {
+	tip = "$1换装$2\n"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip3 = {
+	tip = "获得该折扣券后，需优先使用该折扣券购买皮肤，请谨慎领取。"
+}
+
+
 _G.pg.base.gametip.shop_new_gem_transform = {
 	tip = "如果该换装已拥有，则会转化为等价钻石"
 }
@@ -44390,6 +44420,56 @@ _G.pg.base.gametip.island_spoperation_item_2605_4 = {
 }
 
 
+_G.pg.base.gametip.island_spoperation_tip_2611_1 = {
+	tip = "活动期间，佩芮会连续发布特产订单，完成特产订单可获得开发季PT等奖励。\n*特产订单不占用岛屿订单完成上限、也不提升好评等级\t"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_1 = {
+	tip = "特产采集"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_2 = {
+	tip = "特产制作"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_3 = {
+	tip = "活动管理员"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2611_3 = {
+	tip = "活动期间，在【坠香果园】【有鱼餐馆】【啾啾简餐】【手工制作设备】中可生产对应特产\t"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_1 = {
+	tip = "梅花"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_2 = {
+	tip = "水仙花"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_3 = {
+	tip = "冬菇"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_4 = {
+	tip = "马蹄"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2611_2 = {
+	tip = "活动期间，岛屿特定区域中每天都会生长出新的活动采集物，快去寻找吧！"
+}
+
+
 _G.pg.base.gametip.island_follow_success = {
 	tip = "跟随成功"
 }
@@ -45008,6 +45088,11 @@ _G.pg.base.gametip.graphi_api_switch_opengl = {
 
 _G.pg.base.gametip.graphi_api_switch_vulkan = {
 	tip = "渲染兼容模式暂不支持AR功能，切换模式后需要重新进入游戏，是否立即切换？"
+}
+
+
+_G.pg.base.gametip.openGLerror_warning = {
+	tip = "当前机型不支持Vulkan渲染，请前往设置开启兼容渲染模式，切换模式后需要重新进入游戏"
 }
 
 
@@ -51712,6 +51797,11 @@ _G.pg.base.gametip.auto_battle_help = {
 }
 
 
+_G.pg.base.gametip.island_furniture_interaction_tip1 = {
+	tip = "该家具当前已被岛主占用，请稍后再试"
+}
+
+
 _G.pg.base.gametip.auto_battle_in_world = {
 	tip = "有正在进行的作战委托，无法执行新的作战委托"
 }
@@ -52262,6 +52352,131 @@ _G.pg.base.gametip.HurricaneTreasureCoreActivityUI_subtitle_1 = {
 }
 
 
+_G.pg.base.gametip.skin_double_coupon_confirm = {
+	tip = "是否消耗<color=#92fc63>$1*1</color>购买折扣价\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的<color=#92fc63>$3</color>皮肤？折扣券不可同时使用。 "
+}
+
+
+_G.pg.base.gametip.skin_double_coupon_tip = {
+	tip = "仅可选择一张折扣券使用 "
+}
+
+
+_G.pg.base.gametip.display_ship_get_repeat = {
+	tip = "重复获得提示 "
+}
+
+
+_G.pg.base.gametip.trun_on_display_ship_get_repeat = {
+	tip = "重复获得提示已开启"
+}
+
+
+_G.pg.base.gametip.trun_off_display_ship_get_repeat = {
+	tip = "重复获得提示已关闭（仅限海域掉落）"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips1 = {
+	tip = "点击确认开始修复，修复过程需要一定时间"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips2 = {
+	tip = "<color=#c5cfdf>期间无法进行其他操作，请耐心等待</color>"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips3 = {
+	tip = "请至少选择一项需要修复的资源"
+}
+
+
+_G.pg.base.gametip.resource_repair_op1 = {
+	tip = "默认资源"
+}
+
+
+_G.pg.base.gametip.resource_repair_op2 = {
+	tip = "L2D资源"
+}
+
+
+_G.pg.base.gametip.resource_repair_op3 = {
+	tip = "立绘资源"
+}
+
+
+_G.pg.base.gametip.resource_repair_op4 = {
+	tip = "密语资源"
+}
+
+
+_G.pg.base.gametip.resource_repair_op5 = {
+	tip = "语音资源"
+}
+
+
+_G.pg.base.gametip.resource_repair_check = {
+	tip = "正在校验资源组：$1 （$2）：$3%"
+}
+
+
+_G.pg.base.gametip.resource_repairing = {
+	tip = "正在修复资源组：$1 （$2）：$3%"
+}
+
+
+_G.pg.base.gametip.resource_repair_report1 = {
+	tip = "没有异常文件的资源组：$1"
+}
+
+
+_G.pg.base.gametip.resource_repair_report2 = {
+	tip = "修复成功的资源组：$1"
+}
+
+
+_G.pg.base.gametip.resource_repair_report3 = {
+	tip = "修复失败的资源组：$1"
+}
+
+
+_G.pg.base.gametip.resource_repair_finish_tips = {
+	tip = "修复完毕，需要重启游戏"
+}
+
+
 _G.pg.base.gametip.windfog_skin_stroy_finish = {
 	tip = "完成所有故事可获得"
+}
+
+
+_G.pg.base.gametip.entrance_maintain = {
+	tip = "当前功能正在维护中……"
+}
+
+
+_G.pg.base.gametip.world_task_get = {
+	tip = "领取"
+}
+
+
+_G.pg.base.gametip.world_task_view = {
+	tip = "查看"
+}
+
+
+_G.pg.base.gametip.world_task_all = {
+	tip = "任务汇总"
+}
+
+
+_G.pg.base.gametip.world_task_main = {
+	tip = "主线历程"
+}
+
+
+_G.pg.base.gametip.world_task_notask = {
+	tip = "指挥官，当前还没有接到任务哦"
 }

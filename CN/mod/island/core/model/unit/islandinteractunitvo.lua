@@ -25,50 +25,6 @@ slot0.InitTimlineInfo = function(slot0)
 	end
 end
 
-slot0.GetEmptySlot = function(slot0)
-	for slot4, slot5 in ipairs(slot0.slots) do
-		if slot5:IsEmpty() then
-			return slot5
-		end
-	end
-
-	return nil
-end
-
-slot0.GetSlotById = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.slots) do
-		if slot6.id == slot1 then
-			return slot6
-		end
-	end
-
-	return nil
-end
-
-slot0.GetUsingSlot = function(slot0, slot1)
-	if slot1 then
-		for slot5, slot6 in ipairs(slot0.slots) do
-			if not slot6:IsEmpty() and slot6:IsUsing(slot1) then
-				return slot6
-			end
-		end
-
-		return nil
-	else
-		return slot0.slots[1]
-	end
-end
-
-slot0.AnySlotUsing = function(slot0)
-	for slot4, slot5 in ipairs(slot0.slots) do
-		if not slot5:IsEmpty() then
-			return true
-		end
-	end
-
-	return false
-end
-
 slot0.GetTimeline = function(slot0)
 	return slot0.timelineInfo
 end
@@ -78,7 +34,7 @@ slot0.HasTimeline = function(slot0)
 end
 
 slot0.GetSlot = function(slot0)
-	return slot0.config.slotCnt
+	return #slot0.slots
 end
 
 slot0.GetBlackboardParam = function(slot0)

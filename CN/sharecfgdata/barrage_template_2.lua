@@ -4658,6 +4658,46 @@ _G.pg.base.barrage_template_2[184058] = {
 }
 
 
+_G.pg.base.barrage_template_2[184059] = {
+	offset_prioritise = false,
+	delta_offset_x = 1,
+	offset_x = 0,
+	delta_delay = 0,
+	delay = 0.05,
+	delta_offset_z = -3,
+	delta_angle = 0,
+	primal_repeat = 4,
+	offset_z = 0,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 2,
+	id = 184059,
+	senior_delay = 0.5,
+	angle = 0,
+	trans_ID = -1
+}
+
+
+_G.pg.base.barrage_template_2[184060] = {
+	offset_prioritise = false,
+	delta_offset_x = 1,
+	offset_x = 0,
+	delta_delay = 0,
+	delay = 0.05,
+	delta_offset_z = 3,
+	delta_angle = 0,
+	primal_repeat = 4,
+	offset_z = 0,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 2,
+	id = 184060,
+	senior_delay = 0.5,
+	angle = 0,
+	trans_ID = -1
+}
+
+
 _G.pg.base.barrage_template_2[184621] = {
 	offset_prioritise = false,
 	delta_offset_x = -3,

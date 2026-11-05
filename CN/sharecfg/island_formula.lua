@@ -354,7 +354,15 @@ pg.island_formula.all = {
 	9900021,
 	9900022,
 	9900023,
-	9900024
+	9900024,
+	9900025,
+	9900026,
+	9900027,
+	9900028,
+	9900029,
+	9900030,
+	9900031,
+	9900032
 }
 pg.base = pg.base or {}
 pg.base.island_formula = {}
@@ -14720,7 +14728,7 @@ end)()
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
-		stamina_cost = 6,
+		stamina_cost = 24,
 		item_id = 4005,
 		hitpoint = 0,
 		is_condition = 0,
@@ -14751,13 +14759,13 @@ end)()
 		commission_cost = {
 			{
 				4006,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				4005,
-				8
+				32
 			}
 		},
 		second_product_display = {},
@@ -14787,7 +14795,7 @@ end)()
 		vfx_offset = "",
 		affected_vfx_offset = "",
 		harvest_vfx = 60021,
-		stamina_cost = 6,
+		stamina_cost = 24,
 		item_id = 4007,
 		hitpoint = 0,
 		is_condition = 0,
@@ -14818,13 +14826,13 @@ end)()
 		commission_cost = {
 			{
 				4008,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				4007,
-				4
+				16
 			}
 		},
 		second_product_display = {},
@@ -14859,7 +14867,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -14899,7 +14907,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -14943,7 +14951,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 9,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -15027,7 +15035,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -15071,7 +15079,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -15245,7 +15253,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -15285,7 +15293,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 40,
@@ -15329,7 +15337,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 15,
@@ -15373,7 +15381,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 20,
@@ -15417,7 +15425,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 80,
@@ -15457,7 +15465,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -15567,7 +15575,7 @@ end)()
 		item_id = 4035,
 		hitpoint = 0,
 		is_condition = 0,
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 60,
@@ -15635,7 +15643,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -15675,7 +15683,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -15715,7 +15723,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -15759,7 +15767,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 15,
@@ -15803,7 +15811,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 80,
@@ -15843,7 +15851,7 @@ end)()
 		hitpoint = 0,
 		is_condition = 0,
 		unitid = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -15870,6 +15878,396 @@ end)()
 		commission_product = {
 			{
 				4042,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	}
+	pg.base.island_formula[9900025] = {
+		workload = 90000,
+		name = "砂糖橘",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 60021,
+		stamina_cost = 30,
+		item_id = 4047,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 5,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 150,
+		pt_award = 0,
+		id = 9900025,
+		collectable_vfx = 60002,
+		attribute = 1,
+		task_filiter = {
+			1,
+			2
+		},
+		cost = {
+			{
+				4048,
+				1
+			}
+		},
+		drop_display = {
+			{
+				4047,
+				2
+			}
+		},
+		commission_cost = {
+			{
+				4048,
+				4
+			}
+		},
+		commission_product = {
+			{
+				4047,
+				8
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				0,
+				20100
+			},
+			{
+				0.7,
+				20130
+			},
+			{
+				0.9,
+				20131
+			},
+			{
+				1,
+				20173
+			}
+		}
+	}
+	pg.base.island_formula[9900026] = {
+		workload = 30000,
+		name = "青枣",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 60021,
+		stamina_cost = 10,
+		item_id = 4049,
+		hitpoint = 0,
+		is_condition = 0,
+		production_limit = 9,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 50,
+		pt_award = 0,
+		id = 9900026,
+		collectable_vfx = 60002,
+		attribute = 1,
+		task_filiter = {
+			1,
+			2
+		},
+		cost = {
+			{
+				4050,
+				1
+			}
+		},
+		drop_display = {
+			{
+				4049,
+				3
+			}
+		},
+		commission_cost = {
+			{
+				4050,
+				4
+			}
+		},
+		commission_product = {
+			{
+				4049,
+				12
+			}
+		},
+		second_product_display = {},
+		second_product = {},
+		unitid = {
+			{
+				0,
+				20100
+			},
+			{
+				0.7,
+				20130
+			},
+			{
+				0.9,
+				20131
+			},
+			{
+				1,
+				20174
+			}
+		}
+	}
+	pg.base.island_formula[9900027] = {
+		workload = 24000,
+		name = "冬菇炖鸡",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 8,
+		item_id = 4051,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 12,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 40,
+		pt_award = 0,
+		id = 9900027,
+		collectable_vfx = 0,
+		attribute = 4,
+		task_filiter = {
+			1,
+			3
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4045,
+				2
+			},
+			{
+				2602,
+				1
+			}
+		},
+		commission_product = {
+			{
+				4051,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	}
+	pg.base.island_formula[9900028] = {
+		workload = 9000,
+		name = "青枣粥",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 3,
+		item_id = 4052,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 12,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 15,
+		pt_award = 0,
+		id = 9900028,
+		collectable_vfx = 0,
+		attribute = 4,
+		task_filiter = {
+			1,
+			3
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4049,
+				2
+			},
+			{
+				2002,
+				5
+			}
+		},
+		commission_product = {
+			{
+				4052,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	}
+	pg.base.island_formula[9900029] = {
+		workload = 12000,
+		name = "马蹄糕",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 4,
+		item_id = 4053,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 12,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 20,
+		pt_award = 0,
+		id = 9900029,
+		collectable_vfx = 0,
+		attribute = 4,
+		task_filiter = {
+			1,
+			3
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4046,
+				2
+			}
+		},
+		commission_product = {
+			{
+				4053,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	}
+	pg.base.island_formula[9900030] = {
+		workload = 12000,
+		name = "砂糖橘大福",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 4,
+		item_id = 4054,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 12,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 20,
+		pt_award = 0,
+		id = 9900030,
+		collectable_vfx = 0,
+		attribute = 4,
+		task_filiter = {
+			1,
+			3
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4047,
+				2
+			},
+			{
+				3004,
+				3
+			}
+		},
+		commission_product = {
+			{
+				4054,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	}
+	pg.base.island_formula[9900031] = {
+		workload = 48000,
+		name = "梅花香包",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 16,
+		item_id = 4055,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 6,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 80,
+		pt_award = 0,
+		id = 9900031,
+		collectable_vfx = 0,
+		attribute = 6,
+		task_filiter = {
+			1,
+			4
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4043,
+				3
+			}
+		},
+		commission_product = {
+			{
+				4055,
+				1
+			}
+		},
+		second_product_display = {},
+		second_product = {}
+	}
+	pg.base.island_formula[9900032] = {
+		workload = 6000,
+		name = "冬季花束",
+		vfx_offset = "",
+		affected_vfx_offset = "",
+		harvest_vfx = 0,
+		stamina_cost = 2,
+		item_id = 4056,
+		hitpoint = 0,
+		is_condition = 0,
+		unitid = "",
+		production_limit = 12,
+		unlock_type = 0,
+		affected_vfx = "",
+		ship_exp = 10,
+		pt_award = 0,
+		id = 9900032,
+		collectable_vfx = 0,
+		attribute = 6,
+		task_filiter = {
+			1,
+			4
+		},
+		cost = {},
+		drop_display = {},
+		commission_cost = {
+			{
+				4043,
+				1
+			},
+			{
+				4044,
+				4
+			}
+		},
+		commission_product = {
+			{
+				4056,
 				1
 			}
 		},

@@ -318,6 +318,10 @@ slot0.execute = function(slot0, slot1)
 		{
 			ActivityRemasterProxy,
 			true
+		},
+		{
+			ActivityBanProxy,
+			true
 		}
 	})
 

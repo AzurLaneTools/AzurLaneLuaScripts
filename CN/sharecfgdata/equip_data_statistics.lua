@@ -46970,7 +46970,8 @@ _G.pg.base.equip_data_statistics[17300] = {
 		"USS",
 		"CV",
 		"FT",
-		"F6F"
+		"F6F",
+		"BDZW"
 	}
 }
 
@@ -47181,7 +47182,8 @@ _G.pg.base.equip_data_statistics[17320] = {
 		"USS",
 		"CV",
 		"FT",
-		"F6F"
+		"F6F",
+		"BDZW"
 	}
 }
 
@@ -47492,7 +47494,8 @@ _G.pg.base.equip_data_statistics[17340] = {
 		"USS",
 		"CV",
 		"FT",
-		"F6F"
+		"F6F",
+		"BDZW"
 	}
 }
 
@@ -49164,7 +49167,8 @@ _G.pg.base.equip_data_statistics[17440] = {
 		"USS",
 		"CV",
 		"FT",
-		"HERK"
+		"HERK",
+		"BDZW"
 	}
 }
 

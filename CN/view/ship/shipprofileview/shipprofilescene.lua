@@ -622,10 +622,6 @@ slot0.CreateLive2D = function(slot0)
 			y = -40
 		})
 	end
-
-	if Live2dConst.UnLoadL2dPating then
-		Live2dConst.UnLoadL2dPating()
-	end
 end
 
 slot0.GetModelAction = function(slot0, slot1)

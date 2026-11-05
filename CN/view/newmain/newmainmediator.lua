@@ -128,6 +128,7 @@ slot0.register = function(slot0)
 		}))
 	end)
 	slot0:bind(uv0.OPEN_COMMISION, function (slot0)
+		getProxy(ChapterAutoProxy):MarkCommssionExpiredTip()
 		uv0:addSubLayers(Context.New({
 			viewComponent = CommissionInfoLayer,
 			mediator = CommissionInfoMediator

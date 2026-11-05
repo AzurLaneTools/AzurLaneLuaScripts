@@ -2158,7 +2158,7 @@ end)()
 		name = "Champagne",
 		background = "",
 		sculpture = "xiangbin",
-		nationality = 0,
+		nationality = 8,
 		type = 1,
 		sculpture_ii = ""
 	}

@@ -16,6 +16,7 @@ slot0.register = function(slot0)
 	slot0:on(11210, function (slot0)
 		uv0.finishActivity = {}
 		uv0.doingActivities = {}
+		uv0.activityProgressList = {}
 
 		underscore.each(slot0.permanent_activity, function (slot0)
 			uv0.finishActivity[slot0] = true
@@ -28,7 +29,23 @@ slot0.register = function(slot0)
 				table.insert(uv0.doingActivities, slot5)
 			end
 		end
+
+		_.each(slot0.progress, function (slot0)
+			uv0.activityProgressList[slot0.key] = slot0.value
+		end)
 	end)
+end
+
+slot0.UpdateActivityProgress = function(slot0, slot1, slot2)
+	if not slot0.activityProgressList then
+		return
+	end
+
+	slot0.activityProgressList[slot1] = slot2
+end
+
+slot0.GetActivityProgress = function(slot0, slot1)
+	return slot0.activityProgressList[slot1] or 0
 end
 
 slot0.startSelectActivity = function(slot0, slot1)

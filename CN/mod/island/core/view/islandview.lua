@@ -1491,24 +1491,38 @@ slot0.OnSetVisitorSyncData = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.OnWorldObjectStartInteraction = function(slot0, slot1, slot2, slot3)
-	slot6 = slot0:GetUnitModule(slot2:GetHostId())
+slot0.OnWorldObjectStartInteraction = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot7 = slot0:GetPlayerUnitModule(slot3)
 
-	if slot0.player == slot0:GetPlayerUnitModule(slot2:GetUserId()) then
+	if not slot0:GetUnitModule(slot1.id) or not slot7 then
+		return
+	end
+
+	if not slot1:GetTimeline()[slot4] then
+		warning(string.format("wo view start dropped: timeline config missing unit=%s param=%s", tostring(slot1.id), tostring(slot4)))
+
+		return
+	end
+
+	if slot0.player == slot7 then
 		slot0:GetSubView(IslandOpView):StartInteraction()
 	end
 
-	slot6:StartInteract(slot7, slot2.id, slot3, slot1:GetTimeline()[slot3], slot1:GetBlackboardParam()[slot3], slot1:AnySlotUsing(), slot8)
+	slot6:StartInteract(slot7, slot2, slot4, slot5, slot9)
 end
 
-slot0.OnWorldObjectEndInteraction = function(slot0, slot1, slot2)
-	slot5 = slot0:GetUnitModule(slot2:GetHostId())
+slot0.OnWorldObjectEndInteraction = function(slot0, slot1, slot2, slot3, slot4)
+	slot6 = slot0:GetPlayerUnitModule(slot3)
 
-	if slot0.player == slot0:GetPlayerUnitModule(slot2:GetUserId()) then
+	if not slot0:GetUnitModule(slot1.id) or not slot6 then
+		return
+	end
+
+	if slot0.player == slot6 then
 		slot0:GetSubView(IslandOpView):EndInteraction()
 	end
 
-	slot5:EndInteract(slot6, slot2.id, not slot1:AnySlotUsing(), slot7)
+	slot5:EndInteract(slot6, slot2, slot4, slot7)
 end
 
 slot0.OnWorldObjectInitStatus = function(slot0, slot1, slot2)

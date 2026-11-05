@@ -5,10 +5,18 @@ slot0.getResource = function(slot0)
 
 	if pg.gametip.honor_medal_support_tips_display.tip and noEmptyStr(slot2.bg) then
 		table.insert(slot1, slot2.bg)
+
+		if HXSet.isHx() then
+			table.insert(slot1, slot2.bg .. "_hx")
+		end
 	end
 
 	if slot0.contextData and slot0.contextData.falgShip or getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().character) then
 		table.insertto(slot1, ResPathSupport.GetPaintingListByPaintingName(slot3:getPainting()))
+	end
+
+	if HXSet.isHx() then
+		table.insertto(slot1, pg.ship_skin_template[900284].painting)
 	end
 
 	return table.insertto(slot1, uv0.super.getResource(slot0))
@@ -85,7 +93,13 @@ slot0.UpdateMedal = function(slot0)
 end
 
 slot0.UpdateBuildPoolPaiting = function(slot0)
-	if slot0.painting ~= slot0.contextData.falgShip:getPainting() then
+	slot1 = slot0.contextData.falgShip:getPainting()
+
+	if HXSet.isHx() then
+		slot1 = pg.ship_skin_template[900284].painting
+	end
+
+	if slot0.painting ~= slot1 then
 		slot2 = pg.UIMgr.GetInstance()
 
 		slot2:LoadingOn()

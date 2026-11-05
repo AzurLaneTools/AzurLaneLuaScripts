@@ -1280,6 +1280,7 @@ pg.activity_template.all = {
 	51614,
 	51615,
 	51616,
+	51688,
 	7011,
 	7012,
 	7013,
@@ -1514,6 +1515,11 @@ pg.activity_template.all = {
 	990024,
 	990025,
 	990026,
+	990027,
+	990028,
+	990029,
+	990030,
+	990031,
 	999901,
 	1000000,
 	1000001,
@@ -2922,7 +2928,8 @@ pg.activity_template.get_id_list_by_type = {
 		50263,
 		51002,
 		51085,
-		51119
+		51119,
+		51688
 	},
 	[70] = {
 		5246,
@@ -3435,6 +3442,7 @@ pg.activity_template.get_id_list_by_type = {
 		990009,
 		990020,
 		990026,
+		990031,
 		999901
 	},
 	[801] = {
@@ -3451,25 +3459,29 @@ pg.activity_template.get_id_list_by_type = {
 		990005,
 		990011,
 		990016,
-		990022
+		990022,
+		990027
 	},
 	[5002] = {
 		990002,
 		990006,
 		990017,
-		990023
+		990023,
+		990028
 	},
 	[5003] = {
 		990003,
 		990007,
 		990018,
-		990024
+		990024,
+		990029
 	},
 	[5004] = {
 		990004,
 		990008,
 		990019,
-		990025
+		990025,
+		990030
 	}
 }
 pg.base = pg.base or {}
@@ -52960,8 +52972,7 @@ end)()
 				1
 			},
 			PT_ACT = 51607,
-			use_secretary = false,
-			painting = "tiejiaohao_pt"
+			use_secretary = false
 		}
 	}
 	pg.base.activity_template[51610] = {
@@ -53300,6 +53311,51 @@ end)()
 					60888
 				}
 			}
+		}
+	}
+	pg.base.activity_template[51688] = {
+		mark = 20261105,
+		type = 69,
+		login_pop = 0,
+		config_id = 38,
+		is_show = 48,
+		title_res_tag = "Georgia_catchup",
+		id = 51688,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					12,
+					3
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "BayardTecCatchupPage",
+			ui_name = "BayardTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42065
 		}
 	}
 	pg.base.activity_template[7011] = {
@@ -54593,6 +54649,8 @@ end)()
 			ui_name = "SurveyPage"
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[7102] = {
 		mark = 20240222,
 		type = 101,
@@ -54639,8 +54697,6 @@ end)()
 			ui_name = "SurveyPage"
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[7104] = {
 		mark = 20240926,
 		page_info = "",
@@ -61853,6 +61909,8 @@ end)()
 			{}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[2011] = {
 		mark = 20180628,
 		page_info = "",
@@ -61870,8 +61928,6 @@ end)()
 			{}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[2013] = {
 		mark = 20180726,
 		page_info = "",
@@ -65105,6 +65161,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[990015] = {
 		mark = 20260319,
 		page_info = "",
@@ -65145,8 +65203,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[990016] = {
 		mark = 20260507,
 		page_info = "",
@@ -65650,6 +65706,242 @@ end)()
 					2026,
 					11,
 					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[990027] = {
+		mark = 20261105,
+		page_info = "",
+		type = 5001,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990027,
+		page_core = "",
+		config_data = {
+			6
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					2,
+					1
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[990028] = {
+		mark = 20261105,
+		page_info = "",
+		type = 5002,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990028,
+		page_core = "",
+		config_data = {
+			100061,
+			100062,
+			100063,
+			100064,
+			100065,
+			100066,
+			100067,
+			100068,
+			100069,
+			100070,
+			100071,
+			100072,
+			100073,
+			100074,
+			100075
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					2,
+					1
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[990029] = {
+		mark = 20261105,
+		page_info = "",
+		type = 5003,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990029,
+		page_core = "",
+		config_data = {
+			1025,
+			1026,
+			1027,
+			1028,
+			1029,
+			1030,
+			1031,
+			1032
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					2,
+					1
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[990030] = {
+		mark = 20261105,
+		page_info = "",
+		type = 5004,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990030,
+		page_core = "",
+		config_data = {
+			9900025,
+			9900026,
+			9900027,
+			9900028,
+			9900029,
+			9900030,
+			9900031,
+			9900032
+		},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					2,
+					1
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	}
+	pg.base.activity_template[990031] = {
+		mark = 20261105,
+		page_info = "",
+		type = 800,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 990031,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2026,
+					11,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2027,
+					2,
+					1
 				},
 				{
 					12,
@@ -68256,6 +68548,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.activity_template[1000107] = {
 		mark = 20261008,
 		page_info = "",
@@ -68454,8 +68748,6 @@ end)()
 			3028
 		}
 	}
-end)()
-(function ()
 	pg.base.activity_template[1000121] = {
 		mark = 20261008,
 		time = "stop",

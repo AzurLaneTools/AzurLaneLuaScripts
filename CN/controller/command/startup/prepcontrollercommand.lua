@@ -616,6 +616,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.ISLAND_EXCHANGE_ITEM, IslandExchangeItemCommand)
 	slot0.facade:registerCommand(GAME.ISLAND_SYNC_DATA, IslandSyncCommand)
 	slot0.facade:registerCommand(GAME.ISLAND_SYNC_CONTROL, IslandSyncControlCommand)
+	slot0.facade:registerCommand(GAME.ISLAND_HEART_BEAT, IslandHeartBeatCommand)
 	slot0.facade:registerCommand(GAME.ISLAND_RECONNECT, IslandReconnectCommand)
 	slot0.facade:registerCommand(GAME.ISLAND_ENTER, EnterIslandCommand)
 	slot0.facade:registerCommand(GAME.ISLAND_CHANGE_ENTER, ChangeToIslandCommand)
@@ -736,6 +737,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.REVERSE_PACMAN_PASS_LEVEL, ReversePacmanPassLevelCommand)
 	slot0.facade:registerCommand(GAME.ACT_REMASTER_ACTIVE, ActiveActReamsterCommand)
 	slot0.facade:registerCommand(GAME.JUMP_TO_SCENE, JumpToSceneCommand)
+	slot0.facade:registerCommand(GAME.RECORD_ACTIVITY_PERMANENT_PROGRESS, RecordActivityPermanentProgressCommand)
 end
 
 return slot0

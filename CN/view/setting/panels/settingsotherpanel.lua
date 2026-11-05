@@ -171,6 +171,11 @@ slot0.OnCommonLocalItemSwitch = function(slot0, slot1, slot2)
 	PlayerPrefs.Save()
 end
 
+slot0.OnCommonSwitchByKey = function(slot0, slot1)
+	PlayerPrefs.SetInt(slot0, slot1 and 1 or 0)
+	PlayerPrefs.Save()
+end
+
 slot0.OnGraphApiItemSwitch = function(slot0, slot1, slot2)
 	slot3 = function()
 		triggerToggle(uv0.uilist.container:GetChild(#uv0.list - 1):Find("off"), true)

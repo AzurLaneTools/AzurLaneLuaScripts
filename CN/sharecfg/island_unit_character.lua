@@ -90,6 +90,9 @@ pg.island_unit_character.all = {
 	2021200,
 	2021201,
 	2021202,
+	2060200,
+	2060201,
+	2060202,
 	2060300,
 	2060301,
 	2060302,
@@ -109,6 +112,9 @@ pg.island_unit_character.all = {
 	3040700,
 	3040701,
 	3040702,
+	3050500,
+	3050501,
+	3050502,
 	3070700,
 	3120100,
 	3120101,
@@ -120,6 +126,9 @@ pg.island_unit_character.all = {
 	4990200,
 	4990201,
 	4990202,
+	4990500,
+	4990501,
+	4990502,
 	4990600,
 	4990601,
 	4990602,
@@ -137,8 +146,14 @@ pg.island_unit_character.all = {
 	5060100,
 	5060101,
 	5060102,
+	5060200,
+	5060201,
+	5060202,
 	6080200,
 	7010400,
+	7011100,
+	7011101,
+	7011102,
 	9010700,
 	9010701,
 	9010702,
@@ -1658,6 +1673,57 @@ pg.base.island_unit_character = {}
 		CollisionParam = "",
 		personality = 2
 	}
+	pg.base.island_unit_character[2060200] = {
+		describe_illustrated_guid = "「承载皇家荣光的百眼巨人，将在此引导——」呜……这样说会不会太夸张了？总、总之……请多关照，指挥官！",
+		english_name = "HMS Argus",
+		name = "百眼巨人",
+		rendering = "2060200",
+		group = 20602,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "baiyanjuren",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/20602/20602_00/prefab/pre_char_20602_00",
+		personal_ani = "",
+		id = 2060200,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[2060201] = {
+		describe_illustrated_guid = "",
+		english_name = "HMS Argus",
+		name = "百眼巨人",
+		rendering = "2060201",
+		group = 20602,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "baiyanjuren",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/20602/20602_01/prefab/pre_char_20602_01",
+		personal_ani = "personal_20602_1",
+		id = 2060201,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[2060202] = {
+		describe_illustrated_guid = "",
+		english_name = "HMS Argus",
+		name = "百眼巨人",
+		rendering = "2060202",
+		group = 20602,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "baiyanjuren",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/20602/20602_02/prefab/pre_char_20602_02",
+		personal_ani = "personal_20602_1",
+		id = 2060202,
+		CollisionParam = "",
+		personality = 2
+	}
 	pg.base.island_unit_character[2060300] = {
 		describe_illustrated_guid = "哥、哥哥……能像现在这样帮上大家的忙，独角兽真的很开心！之后，我也会继续加油的……因为……最喜欢哥哥了！",
 		english_name = "HMS Unicorn",
@@ -1845,6 +1911,8 @@ pg.base.island_unit_character = {}
 		CollisionParam = "",
 		personality = 1
 	}
+end)()
+(function ()
 	pg.base.island_unit_character[3031101] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Takao",
@@ -1896,8 +1964,6 @@ pg.base.island_unit_character = {}
 		CollisionParam = "",
 		personality = 1
 	}
-end)()
-(function ()
 	pg.base.island_unit_character[3031201] = {
 		describe_illustrated_guid = "",
 		english_name = "IJN Atago",
@@ -1980,6 +2046,57 @@ end)()
 		model = "island/character/30407/30407_02/prefab/pre_char_30407_02",
 		personal_ani = "personal_30407_1",
 		id = 3040702,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[3050500] = {
+		describe_illustrated_guid = "此处便是汝的岛屿么……大家脸上的笑容，吾会好好守护。若、若汝愿意，也可以带吾四处看看。",
+		english_name = "IJN Nagato",
+		name = "{namecode:74}",
+		rendering = "3050500",
+		group = 30505,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "changmen",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/30505/30505_00/prefab/pre_char_30505_00",
+		personal_ani = "",
+		id = 3050500,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[3050501] = {
+		describe_illustrated_guid = "",
+		english_name = "IJN Nagato",
+		name = "{namecode:74}",
+		rendering = "3050501",
+		group = 30505,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "changmen",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/30505/30505_01/prefab/pre_char_30505_01",
+		personal_ani = "personal_30505_1",
+		id = 3050501,
+		CollisionParam = "",
+		personality = 2
+	}
+	pg.base.island_unit_character[3050502] = {
+		describe_illustrated_guid = "",
+		english_name = "IJN Nagato",
+		name = "{namecode:74}",
+		rendering = "3050502",
+		group = 30505,
+		animator = "island/animator/ani_role_all_01_02",
+		IslandShipIcon = "changmen",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/30505/30505_02/prefab/pre_char_30505_02",
+		personal_ani = "personal_30505_1",
+		id = 3050502,
 		CollisionParam = "",
 		personality = 2
 	}
@@ -2167,6 +2284,57 @@ end)()
 		model = "island/character/49902/49902_02/prefab/pre_char_49902_02",
 		personal_ani = "personal_49902_1",
 		id = 4990202,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[4990500] = {
+		describe_illustrated_guid = "呵呵~这片岛屿倒是比想象中有趣。指挥官，就让我看看，你准备如何招待驾临此处的荒海之神吧？",
+		english_name = "KMS Ägir",
+		name = "{namecode:480}",
+		rendering = "4990500",
+		group = 49905,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "aijier",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/49905/49905_00/prefab/pre_char_49905_00",
+		personal_ani = "",
+		id = 4990500,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[4990501] = {
+		describe_illustrated_guid = "",
+		english_name = "KMS Ägir",
+		name = "{namecode:480}",
+		rendering = "4990501",
+		group = 49905,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "aijier",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/49905/49905_01/prefab/pre_char_49905_01",
+		personal_ani = "personal_49905_1",
+		id = 4990501,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[4990502] = {
+		describe_illustrated_guid = "",
+		english_name = "KMS Ägir",
+		name = "{namecode:480}",
+		rendering = "4990502",
+		group = 49905,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "aijier",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/49905/49905_02/prefab/pre_char_49905_02",
+		personal_ani = "personal_49905_1",
+		id = 4990502,
 		CollisionParam = "",
 		personality = 1
 	}
@@ -2459,6 +2627,57 @@ end)()
 		CollisionParam = "",
 		personality = 2
 	}
+	pg.base.island_unit_character[5060200] = {
+		describe_illustrated_guid = "指挥官，既然来到了这么有意思的地方，想必不会只有工作吧？呵呵，接下来就请带我去做些开心的事吧~",
+		english_name = "Hwah Jah",
+		name = "华甲",
+		rendering = "5060200",
+		group = 50602,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huajia",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/50602/50602_00/prefab/pre_char_50602_00",
+		personal_ani = "",
+		id = 5060200,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[5060201] = {
+		describe_illustrated_guid = "",
+		english_name = "Hwah Jah",
+		name = "华甲",
+		rendering = "5060201",
+		group = 50602,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huajia",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/50602/50602_01/prefab/pre_char_50602_01",
+		personal_ani = "personal_50602_1",
+		id = 5060201,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[5060202] = {
+		describe_illustrated_guid = "",
+		english_name = "Hwah Jah",
+		name = "华甲",
+		rendering = "5060202",
+		group = 50602,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huajia",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/50602/50602_02/prefab/pre_char_50602_02",
+		personal_ani = "personal_50602_1",
+		id = 5060202,
+		CollisionParam = "",
+		personality = 1
+	}
 	pg.base.island_unit_character[6080200] = {
 		describe_illustrated_guid = "指挥官，这地方给我提供了不少有趣的灵感呢~我的大脑已经在全速运转啦！有任何需求都尽管来找我吧~",
 		english_name = "RN Leonardo da Vinci",
@@ -2492,6 +2711,57 @@ end)()
 		id = 7010400,
 		CollisionParam = "",
 		personality = 2
+	}
+	pg.base.island_unit_character[7011100] = {
+		describe_illustrated_guid = "指挥官同志！这座岛上一定有好多可爱的东西吧？火力已经准备好了，和火力一起去找找看吧~！",
+		english_name = "SN Ognevoy",
+		name = "火力",
+		rendering = "7011100",
+		group = 70111,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huoli",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/70111/70111_00/prefab/pre_char_70111_00",
+		personal_ani = "",
+		id = 7011100,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[7011101] = {
+		describe_illustrated_guid = "",
+		english_name = "SN Ognevoy",
+		name = "火力",
+		rendering = "7011101",
+		group = 70111,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huoli",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/70111/70111_01/prefab/pre_char_70111_01",
+		personal_ani = "personal_70111_1",
+		id = 7011101,
+		CollisionParam = "",
+		personality = 1
+	}
+	pg.base.island_unit_character[7011102] = {
+		describe_illustrated_guid = "",
+		english_name = "SN Ognevoy",
+		name = "火力",
+		rendering = "7011102",
+		group = 70111,
+		animator = "island/animator/ani_role_all_01_01",
+		IslandShipIcon = "huoli",
+		is_active = 0,
+		navAgentParam = "",
+		shipId = 0,
+		model = "island/character/70111/70111_02/prefab/pre_char_70111_02",
+		personal_ani = "personal_70111_1",
+		id = 7011102,
+		CollisionParam = "",
+		personality = 1
 	}
 	pg.base.island_unit_character[9010700] = {
 		describe_illustrated_guid = "指挥官~这里的风吹着好舒服，就是稍微有点小，不够过瘾呢~所以……一起去寻找风最大的地方吧，指挥官~♡",

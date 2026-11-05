@@ -54,7 +54,8 @@ pg.re_map_template.all = {
 	50,
 	51,
 	52,
-	53
+	53,
+	54
 }
 pg.base = pg.base or {}
 pg.base.re_map_template = {}
@@ -3157,6 +3158,78 @@ pg.base.re_map_template = {}
 					11055
 				},
 				"T6"
+			}
+		},
+		tickets = {}
+	}
+	pg.base.re_map_template[54] = {
+		name = "愚者的天平常驻复刻",
+		memory_group = 254,
+		bg = "temp_kelaimengsuo",
+		activity_id = 0,
+		id = 54,
+		activity_type = 1,
+		order = 54,
+		config_data = {
+			2100601,
+			2100602,
+			2100603,
+			2100604,
+			2100605,
+			2100606,
+			2100611,
+			2100612,
+			2100613,
+			2100614,
+			2100615,
+			2100616
+		},
+		chapter_progress = {
+			16,
+			33,
+			50,
+			66,
+			78,
+			100,
+			16,
+			33,
+			50,
+			66,
+			78,
+			100
+		},
+		drop_gain = {
+			{
+				2100616,
+				4,
+				807021,
+				60
+			},
+			{}
+		},
+		drop_display_sp = {
+			{
+				{
+					4,
+					807021
+				},
+				"B3、D3"
+			}
+		},
+		drop_display = {
+			{
+				{
+					2,
+					11039
+				},
+				"D3"
+			},
+			{
+				{
+					2,
+					11046
+				},
+				"D2"
 			}
 		},
 		tickets = {}

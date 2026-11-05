@@ -1,4 +1,6 @@
 slot0 = class("IslandVisitorUnit", import(".IslandNavigableUnit"))
+slot1 = 3
+slot2 = 6
 
 slot0.OnUpdate = function(slot0)
 	if slot0.delayTime == 0 then
@@ -22,6 +24,7 @@ slot0.OnLaterAttach = function(slot0, slot1)
 
 	slot0.delayTime = 0
 	slot0.syncData = nil
+	slot0.animSpeed = 0
 end
 
 slot0.UpdateSyncData = function(slot0, slot1)
@@ -42,7 +45,7 @@ slot0.MoveHandle = function(slot0)
 	slot3, slot4 = nil
 
 	if slot0.delayTime - Time.deltaTime > 0 then
-		slot3 = Vector3.Lerp(slot0:GetLocalPosition(), slot0.syncData.pos, slot2)
+		slot3 = Vector3.Lerp(slot0:GetPosition(), slot0.syncData.pos, slot2)
 		slot4 = Quaternion.Lerp(slot0:GetRotation(), slot0:GetSyncDataRotation(), slot2)
 		slot0.delayTime = slot1
 	else
@@ -51,26 +54,31 @@ slot0.MoveHandle = function(slot0)
 		slot0.delayTime = 0
 	end
 
-	slot5 = (slot3 - slot0:GetLocalPosition()) / Time.deltaTime
-	slot0.speed = Vector2(slot5.x, slot5.z).magnitude
+	if Time.deltaTime > 0 then
+		slot5 = (slot3 - slot0:GetPosition()) / Time.deltaTime
+		slot0.speed = Vector2(slot5.x, slot5.z).magnitude
+	end
 
-	slot0:SetLocalPosition(slot3)
+	slot0:SetPosition(slot3)
 	slot0:SetRotation(slot4)
 end
 
 slot0.AnimHandle = function(slot0)
-	if slot0.speed > 0.1 then
-		slot0.speed = 5
+	if (slot0.speed or 0) < 0.1 then
+		slot1 = 0
 	end
 
-	slot1 = slot0:GetAnimator()
-	slot5 = slot0.speed
+	slot0.animSpeed = Mathf.Lerp(slot0.animSpeed, slot1, (slot0.animSpeed < slot1 and uv0 or uv1) * Time.deltaTime)
 
-	slot1:SetFloat(IslandConst.SPEED_FLAG_HASH, slot5)
+	slot0:GetAnimator():SetFloat(IslandConst.SPEED_FLAG_HASH, slot0.animSpeed)
 
-	for slot5 = 1, slot1.layerCount do
-		if not slot1:IsInTransition(slot5 - 1) and slot1:GetCurrentAnimatorStateInfo(slot6).shortNameHash ~= slot0.syncData.status[slot5] then
-			slot1:CrossFadeInFixedTime(slot7, 0.25, slot6)
+	for slot7 = 1, slot3.layerCount do
+		if not slot3:IsInTransition(slot7 - 1) then
+			slot10 = slot3:GetCurrentAnimatorStateInfo(slot8)
+
+			if slot0.syncData.status[slot7] and slot10.shortNameHash ~= slot9 then
+				slot3:CrossFadeInFixedTime(slot9, 0.25, slot8)
+			end
 		end
 	end
 end
@@ -79,16 +87,16 @@ slot0.GetSyncDataRotation = function(slot0)
 	return slot0.syncData.dir
 end
 
-slot0.GetLocalPosition = function(slot0)
-	return slot0._go.transform.localPosition
+slot0.GetPosition = function(slot0)
+	return slot0._go.transform.position
 end
 
 slot0.GetRotation = function(slot0)
 	return slot0._go.transform.rotation
 end
 
-slot0.SetLocalPosition = function(slot0, slot1)
-	slot0._go.transform.localPosition = slot1
+slot0.SetPosition = function(slot0, slot1)
+	slot0._go.transform.position = slot1
 end
 
 slot0.SetRotation = function(slot0, slot1)

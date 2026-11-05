@@ -21,6 +21,9 @@ pg.island_dress_template.all = {
 	1010016,
 	1010017,
 	1010018,
+	1010019,
+	1010020,
+	1010021,
 	1020001,
 	1020002,
 	1020003,
@@ -38,6 +41,9 @@ pg.island_dress_template.all = {
 	1020015,
 	1020016,
 	1020017,
+	1020018,
+	1020019,
+	1020020,
 	1030001,
 	1030002,
 	1030003,
@@ -55,6 +61,9 @@ pg.island_dress_template.all = {
 	1030015,
 	1030016,
 	1030017,
+	1030018,
+	1030019,
+	1030020,
 	1040001,
 	1040002,
 	1040003,
@@ -82,6 +91,9 @@ pg.island_dress_template.all = {
 	1060016,
 	1060017,
 	1060018,
+	1060019,
+	1060020,
+	1060021,
 	1070001,
 	1070002,
 	1070003,
@@ -96,6 +108,8 @@ pg.island_dress_template.all = {
 	1070012,
 	1070015,
 	1070016,
+	1070017,
+	1070018,
 	2010001,
 	2010002,
 	2010003,
@@ -104,6 +118,8 @@ pg.island_dress_template.all = {
 	2010006,
 	2010007,
 	2010008,
+	2010009,
+	2010010,
 	2020001,
 	2020002,
 	2020003,
@@ -113,6 +129,8 @@ pg.island_dress_template.all = {
 	2020007,
 	2020008,
 	2020009,
+	2020010,
+	2020011,
 	2030001,
 	2030002,
 	2030003,
@@ -122,7 +140,9 @@ pg.island_dress_template.all = {
 	2030007,
 	2030008,
 	2030009,
-	2030010
+	2030010,
+	2030011,
+	2030012
 }
 pg.island_dress_template.get_id_list_by_type = {
 	{
@@ -144,6 +164,9 @@ pg.island_dress_template.get_id_list_by_type = {
 		1010016,
 		1010017,
 		1010018,
+		1010019,
+		1010020,
+		1010021,
 		2010001,
 		2010002,
 		2010003,
@@ -151,7 +174,9 @@ pg.island_dress_template.get_id_list_by_type = {
 		2010005,
 		2010006,
 		2010007,
-		2010008
+		2010008,
+		2010009,
+		2010010
 	},
 	{
 		1020001,
@@ -171,6 +196,9 @@ pg.island_dress_template.get_id_list_by_type = {
 		1020015,
 		1020016,
 		1020017,
+		1020018,
+		1020019,
+		1020020,
 		2020001,
 		2020002,
 		2020003,
@@ -179,7 +207,9 @@ pg.island_dress_template.get_id_list_by_type = {
 		2020006,
 		2020007,
 		2020008,
-		2020009
+		2020009,
+		2020010,
+		2020011
 	},
 	{
 		1030001,
@@ -199,6 +229,9 @@ pg.island_dress_template.get_id_list_by_type = {
 		1030015,
 		1030016,
 		1030017,
+		1030018,
+		1030019,
+		1030020,
 		2030001,
 		2030002,
 		2030003,
@@ -208,7 +241,9 @@ pg.island_dress_template.get_id_list_by_type = {
 		2030007,
 		2030008,
 		2030009,
-		2030010
+		2030010,
+		2030011,
+		2030012
 	},
 	{
 		1040001,
@@ -241,7 +276,10 @@ pg.island_dress_template.get_id_list_by_type = {
 		1060015,
 		1060016,
 		1060017,
-		1060018
+		1060018,
+		1060019,
+		1060020,
+		1060021
 	},
 	{
 		1070001,
@@ -257,7 +295,9 @@ pg.island_dress_template.get_id_list_by_type = {
 		1070011,
 		1070012,
 		1070015,
-		1070016
+		1070016,
+		1070017,
+		1070018
 	}
 }
 pg.island_dress_template.get_id_list_by_related_dress = {
@@ -280,6 +320,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1010016,
 		1010017,
 		1010018,
+		1010019,
+		1010020,
+		1010021,
 		1020001,
 		1020002,
 		1020003,
@@ -297,6 +340,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1020015,
 		1020016,
 		1020017,
+		1020018,
+		1020019,
+		1020020,
 		1030001,
 		1030002,
 		1030003,
@@ -314,6 +360,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1030015,
 		1030016,
 		1030017,
+		1030018,
+		1030019,
+		1030020,
 		1040001,
 		1040002,
 		1040003,
@@ -341,6 +390,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		1060016,
 		1060017,
 		1060018,
+		1060019,
+		1060020,
+		1060021,
 		2010001,
 		2010002,
 		2010003,
@@ -349,6 +401,8 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		2010006,
 		2010007,
 		2010008,
+		2010009,
+		2010010,
 		2020001,
 		2020002,
 		2020003,
@@ -358,6 +412,8 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		2020007,
 		2020008,
 		2020009,
+		2020010,
+		2020011,
 		2030001,
 		2030002,
 		2030003,
@@ -367,7 +423,9 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 		2030007,
 		2030008,
 		2030009,
-		2030010
+		2030010,
+		2030011,
+		2030012
 	},
 	[1060001] = {
 		1070001
@@ -410,6 +468,12 @@ pg.island_dress_template.get_id_list_by_related_dress = {
 	},
 	[1060016] = {
 		1070016
+	},
+	[1060019] = {
+		1070017
+	},
+	[1060021] = {
+		1070018
 	}
 }
 pg.base = pg.base or {}
@@ -1202,6 +1266,138 @@ pg.base.island_dress_template = {}
 			}
 		}
 	}
+	pg.base.island_dress_template[1010019] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "满当当竹篓",
+		remove = 1,
+		desc = "满载青笋的竹篓背在身后，背上它整个人都多了几分圆滚滚的可爱。",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30143/prefab/pre_item_03_30143",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1010019",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1010019,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.187,
+			-0.569,
+			0.063
+		},
+		rotation = {
+			9.217,
+			-0.513,
+			90
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1010020] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "行侠佩剑",
+		remove = 1,
+		desc = "负剑而行的装饰简洁利落，自带一份行走江湖的气场~",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30153/prefab/pre_item_03_30153",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1010020",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1010020,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.684,
+			-0.305,
+			-0.207
+		},
+		rotation = {
+			-85.677,
+			-45.938,
+			148.911
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1010021] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "隐锋双刃",
+		remove = 1,
+		desc = "双刃交错负于身后，锋芒收敛却仍带着不容小觑的存在感~",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30163/prefab/pre_item_03_30163",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1010021",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1010021,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.045,
+			-0.308,
+			-0.014
+		},
+		rotation = {
+			82.279,
+			-103,
+			-12.902
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[1020001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -1925,6 +2121,138 @@ pg.base.island_dress_template = {}
 			}
 		}
 	}
+	pg.base.island_dress_template[1020018] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "青竹小筒",
+		remove = 1,
+		desc = "一截青竹悠悠漂浮，几片竹叶轻轻环绕，光是看着就透着清爽气息~",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30141/prefab/pre_item_03_30141",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1020018",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1020018,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.565,
+			1.264,
+			0.055
+		},
+		rotation = {
+			3.155,
+			0.182,
+			6.598
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1020019] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "江湖秘笈",
+		remove = 1,
+		desc = "神秘秘笈漂浮身侧，书页微微翻动，似乎藏着不得了的招式。",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30151/prefab/pre_item_03_30151",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1020019",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1020019,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.587,
+			1.395,
+			-0.219
+		},
+		rotation = {
+			-41.128,
+			2.163,
+			26.953
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1020020] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "随行影刃",
+		remove = 1,
+		desc = "利落的刃影悄然随行，让沉默的气息多了几分锋芒~",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30161/prefab/pre_item_03_30161",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1020020",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1020020,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.649,
+			1.388,
+			-0.092
+		},
+		rotation = {
+			-179.045,
+			90,
+			-89.84302
+		},
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
 	pg.base.island_dress_template[1030001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -2507,6 +2835,114 @@ pg.base.island_dress_template = {}
 		exclusive_skin = "",
 		is_hide = 0,
 		id = 1030017,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1030018] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "片叶轻痕",
+		remove = 1,
+		rotation = "",
+		desc = "每一步都会留下轻巧竹叶，像把一阵微风悄悄留在了身后。",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30142/prefab/pre_item_03_30142",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1030018",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1030018,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1030019] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "踏云流痕",
+		remove = 1,
+		rotation = "",
+		desc = "云纹在脚边轻轻掠过，留下几分来去自如的洒脱~",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30152/prefab/pre_item_03_30152",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1030019",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1030019,
+		footprint_type = 1,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1030020] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "忍字无声",
+		remove = 1,
+		rotation = "",
+		desc = "忍字印记在片刻间浮现，像是下一秒便会消失在视线之外。",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/30162/prefab/pre_item_03_30162",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1030020",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1030020,
 		footprint_type = 0,
 		scale = "",
 		face_clip = "",
@@ -3375,7 +3811,7 @@ pg.base.island_dress_template = {}
 		rotation = "",
 		desc = "穿上可爱童趣的小恐龙雨衣，走路时摇晃着小角和尾巴，像极了一只呆萌的史前幼崽。",
 		exclusive_default_skin = "",
-		sub_type = 0,
+		sub_type = 2,
 		model = "island/character/9001/prefab/9001_17_body_component_desc",
 		special_animator = "",
 		tag = "",
@@ -3427,6 +3863,114 @@ pg.base.island_dress_template = {}
 		exclusive_skin = "",
 		is_hide = 0,
 		id = 1060018,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1060019] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 6,
+		name = "团团熊猫装",
+		remove = 0,
+		rotation = "",
+		desc = "毛茸茸的熊猫连体服裹住全身，小领巾轻轻垂在胸前，走起路来像一颗慢吞吞的糯米团子。",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_19_body_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060019",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1060019,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1060020] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 6,
+		name = "云游侠客",
+		remove = 0,
+		rotation = "",
+		desc = "衣摆与披风随风翻动，随身行囊轻轻晃响，举手投足间透着几分初入江湖的潇洒气。",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_20_body_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060020",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1060020,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1060021] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 6,
+		name = "影行忍装",
+		remove = 0,
+		rotation = "",
+		desc = "贴身装束收拢出利落轮廓，轻巧身形在无声处掠过，仿佛能在转瞬之间潜入阴影之下。",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_21_body_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060021",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1060021,
 		footprint_type = 0,
 		scale = "",
 		face_clip = "",
@@ -3751,6 +4295,8 @@ pg.base.island_dress_template = {}
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.island_dress_template[1070010] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 1060010,
@@ -3916,6 +4462,78 @@ pg.base.island_dress_template = {}
 		exclusive_skin = "",
 		is_hide = 0,
 		id = 1070016,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1070017] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 1060019,
+		attachmentPoint = "",
+		type = 7,
+		name = "团团兜帽",
+		remove = 1,
+		rotation = "",
+		desc = "设计精致而不失舒适，轻松搭配造型穿着。",
+		exclusive_default_skin = "",
+		sub_type = 2,
+		model = "island/character/9001/prefab/9001_19_headware_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060019",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1070017,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩奖",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[1070018] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 1060021,
+		attachmentPoint = "",
+		type = 7,
+		name = "影匿面罩",
+		remove = 1,
+		rotation = "",
+		desc = "设计精致而不失舒适，轻松搭配造型穿着。",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_21_headware_component_desc",
+		special_animator = "",
+		tag = "",
+		icon = "dress_1060021",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 1070018,
 		footprint_type = 0,
 		scale = "",
 		face_clip = "",
@@ -4316,8 +4934,6 @@ pg.base.island_dress_template = {}
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.island_dress_template[2010008] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -4366,6 +4982,89 @@ end)()
 				{}
 			}
 		}
+	}
+	pg.base.island_dress_template[2010009] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "缎带餐叉",
+		remove = 1,
+		desc = "缀着缎带的大餐叉背在身后，俏皮之中还藏着一点精致感~",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/39036/prefab/pre_item_03_39036",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2010009",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2010009,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.079,
+			-0.398,
+			-0.061
+		},
+		rotation = {
+			95.83398,
+			-0.7879944,
+			110.922
+		},
+		jump_page = {
+			{
+				"开发季V-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[2010010] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "Bip001 Spine1",
+		type = 1,
+		name = "元气盆友",
+		remove = 1,
+		desc = "小盆栽精神满满地贴在背后，探头探脑的样子元气得刚刚好~",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/38012/prefab/pre_item_03_38012",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2010010",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2010010,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.193,
+			-0.538,
+			0.025
+		},
+		rotation = {
+			89.324,
+			-334.946,
+			-244.818
+		},
+		jump_page = {}
 	}
 	pg.base.island_dress_template[2020001] = {
 		takeoff_btn_is_hide = 0,
@@ -4724,6 +5423,89 @@ end)()
 			}
 		}
 	}
+	pg.base.island_dress_template[2020010] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "弹弹布丁",
+		remove = 1,
+		desc = "软乎乎的布丁悠悠漂在身侧，晃来晃去让人忍不住想咬一口~",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/37011/prefab/pre_item_03_37011",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2020010",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2020010,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.788,
+			1.3,
+			-0.267
+		},
+		rotation = {
+			0,
+			0,
+			0
+		},
+		jump_page = {
+			{
+				"开发季V-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[2020011] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 2,
+		name = "晴天小太阳",
+		remove = 1,
+		desc = "圆滚滚的小太阳跟在身旁，走到哪里都像自带着晴天滤镜~",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/37012/prefab/pre_item_03_37012",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2020011",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2020011,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.741,
+			1.334,
+			-0.135
+		},
+		rotation = {
+			0,
+			0,
+			0
+		},
+		jump_page = {}
+	}
 	pg.base.island_dress_template[2030001] = {
 		takeoff_btn_is_hide = 0,
 		related_dress = 0,
@@ -5058,5 +5840,72 @@ end)()
 				{}
 			}
 		}
+	}
+	pg.base.island_dress_template[2030011] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "甜梦餐碟",
+		remove = 1,
+		rotation = "",
+		desc = "盛着布丁的餐碟随步浮现，像把一场甜甜的梦留在身后。",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/38011/prefab/pre_item_03_38011",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2030011",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2030011,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"开发季V-开发商店",
+				{}
+			}
+		}
+	}
+	pg.base.island_dress_template[2030012] = {
+		takeoff_btn_is_hide = 0,
+		related_dress = 0,
+		attachmentPoint = "",
+		type = 3,
+		name = "步步生花",
+		remove = 1,
+		rotation = "",
+		desc = "行走的每一步都洒下花瓣与叶影，连路过的风都变得春意十足~",
+		exclusive_default_skin = "",
+		sub_type = 0,
+		model = "island/item/03/39037/prefab/pre_item_03_39037",
+		special_animator = "",
+		tag = "",
+		icon = "dress_2030012",
+		head_hide = 0,
+		cloth_related = 0,
+		defalut_cloth = 0,
+		quality = 4,
+		cut_out_state = "",
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		is_hide = 0,
+		id = 2030012,
+		footprint_type = 0,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
 	}
 end)()

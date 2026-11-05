@@ -84,6 +84,10 @@ slot0.UpdateItemImage = function(slot0, slot1, slot2)
 	else
 		slot0:ReturnItemPrefabCache(slot4)
 
+		if HXSet.isHx() and checkABExist(slot5 .. "_hx") then
+			slot5 = slot5 .. "_hx"
+		end
+
 		slot7 = pg.PoolMgr.GetInstance()
 
 		slot7:GetPrefab("MainUIBanner/" .. slot5, "", true, function (slot0)
