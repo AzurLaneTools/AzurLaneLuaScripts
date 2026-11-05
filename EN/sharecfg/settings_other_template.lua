@@ -67,7 +67,7 @@ pg.base.settings_other_template = {}
 		type = 0,
 		id = 4,
 		title = "Duplicate Ship Display",
-		desc = "When toggled OFF, skips the acquisition screen when obtaining a Rare or Common ship already registered in your collection."
+		desc = "When this setting is OFF, the acquisition animation will be skipped for ships obtained as stage drops if they are of Elite rarity or lower and are already registered in your collection."
 	}
 	pg.base.settings_other_template[5] = {
 		default = 1,

@@ -33,13 +33,20 @@ pg.island_action.all = {
 	1028,
 	1029,
 	1030,
+	1031,
+	1032,
+	1033,
+	1034,
+	1035,
+	1036,
 	2000,
 	2001,
 	2002,
 	2003,
 	2004,
 	2005,
-	2006
+	2006,
+	2007
 }
 pg.island_action.get_id_list_by_type = {
 	{
@@ -72,7 +79,13 @@ pg.island_action.get_id_list_by_type = {
 		1027,
 		1028,
 		1029,
-		1030
+		1030,
+		1031,
+		1032,
+		1033,
+		1034,
+		1035,
+		1036
 	},
 	{
 		2000,
@@ -81,7 +94,8 @@ pg.island_action.get_id_list_by_type = {
 		2003,
 		2004,
 		2005,
-		2006
+		2006,
+		2007
 	}
 }
 pg.base = pg.base or {}
@@ -96,6 +110,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "hi",
 		desc = "Character action to [Greet], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1000,
 		responder_feedback = "",
@@ -114,6 +129,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "bye",
 		desc = "Character action to [Goodbye], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1001,
 		responder_feedback = "",
@@ -130,6 +146,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "nod",
 		desc = "Character action to [Nod], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1002,
 		responder_feedback = "",
@@ -147,6 +164,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "shakehead",
 		desc = "Character action to [Shake Head], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1003,
 		responder_feedback = "",
@@ -164,6 +182,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "clap",
 		desc = "Character action to [Clap], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1004,
 		responder_feedback = "",
@@ -181,6 +200,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "handsup",
 		desc = "Character action to [Praise the Sun], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1005,
 		responder_feedback = "",
@@ -203,6 +223,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "akimbo",
 		desc = "Character action to [Hands on Hips], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1006,
 		responder_feedback = "",
@@ -219,6 +240,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "bow",
 		desc = "Character action to [Bow], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1007,
 		responder_feedback = "",
@@ -241,6 +263,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "vjump",
 		desc = "Character action to [Excited Jump], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1008,
 		responder_feedback = "",
@@ -263,6 +286,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "stomp",
 		desc = "Character action to [Stamp Feet], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1009,
 		responder_feedback = "",
@@ -280,6 +304,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "muscle",
 		desc = "Character action to [Flaunt Muscles], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1011,
 		responder_feedback = "",
@@ -302,6 +327,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "dance",
 		desc = "Character action to [Dance], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1012,
 		responder_feedback = "",
@@ -324,6 +350,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "herocoming",
 		desc = "The hero is here! Express your style and enthusiasm to the world.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1013,
 		responder_feedback = "",
@@ -346,6 +373,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "stretch",
 		desc = "Action - Stretch",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1014,
 		responder_feedback = "",
@@ -367,6 +395,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "fearshake",
 		desc = "Action - Cower",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1015,
 		responder_feedback = "",
@@ -389,6 +418,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "holdfist",
 		desc = "Action - Clench Fists",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1016,
 		responder_feedback = "",
@@ -411,6 +441,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "vouch",
 		desc = "Action - Smug",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1017,
 		responder_feedback = "",
@@ -433,6 +464,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "float",
 		desc = "Action - Meditate",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1018,
 		responder_feedback = "",
@@ -455,6 +487,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "refuse",
 		desc = "Action - Refuse",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1019,
 		responder_feedback = "",
@@ -477,6 +510,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "yawn",
 		desc = "Action - Yawn",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1020,
 		responder_feedback = "",
@@ -499,6 +533,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "wipingsweat",
 		desc = "Action - Wipe Sweat",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1021,
 		responder_feedback = "",
@@ -520,6 +555,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "scratchinghead",
 		desc = "Action - Scratch Head",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1022,
 		responder_feedback = "",
@@ -542,6 +578,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "shootingbasketball",
 		desc = "Action - Shoot Hoops",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1023,
 		responder_feedback = "",
@@ -564,6 +601,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "blowkisses",
 		desc = "Action - Blow Kiss",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1024,
 		responder_feedback = "",
@@ -587,6 +625,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "point",
 		desc = "Action - Point",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1025,
 		responder_feedback = "",
@@ -609,6 +648,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "welcome",
 		desc = "Action - Greet",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1026,
 		responder_feedback = "",
@@ -631,6 +671,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "lookover",
 		desc = "Action - Stare",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1027,
 		responder_feedback = "",
@@ -653,6 +694,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "slapbelly",
 		desc = "Action - Stuffed",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1028,
 		responder_feedback = "",
@@ -675,6 +717,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "doze",
 		desc = "Action - Sleepy",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1029,
 		responder_feedback = "",
@@ -697,12 +740,151 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 2,
 		resource = "jumpinplace",
 		desc = "Action - Jump",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 1030,
 		responder_feedback = "",
 		chara_sigle_action_reply = {
 			103,
 			104
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1031] = {
+		name = "Kung-fu",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "kungfu",
+		desc = "Interactive Action: Kung-fu",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1031,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			104,
+			106
+		},
+		jump_page = {
+			{
+				"Season V - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1032] = {
+		name = "Belly Rub",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "rub",
+		desc = "Interactive Action: Belly Rub",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1032,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			108,
+			203
+		},
+		jump_page = {
+			{
+				"Season V - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1033] = {
+		name = "Dodge",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "dodge",
+		desc = "Interactive Action: Dodge",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1033,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			202,
+			103
+		},
+		jump_page = {
+			{
+				"Season V - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1034] = {
+		name = "Handstand",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "handstand",
+		desc = "Interactive Action: Handstand",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1034,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			107
+		},
+		jump_page = {
+			{
+				"Season V - Island Seasonal Shop",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1035] = {
+		name = "Salute",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "salute",
+		desc = "Interactive Action: Salute",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1035,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			102,
+			107
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[1036] = {
+		name = "Show Off",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		sigle_action_reply_type = 2,
+		resource = "show",
+		desc = "Interactive Action: Show Off",
+		respond_dir = 0,
+		tech_id = 0,
+		id = 1036,
+		responder_feedback = "",
+		chara_sigle_action_reply = {
+			103,
+			107
 		},
 		jump_page = {
 			{
@@ -719,6 +901,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "givemefive",
 		desc = "Character action to [High Five], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2000,
 		responder_feedback = "givemefive_end",
@@ -737,6 +920,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "handshake",
 		desc = "Character action to [Shake Hands], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2001,
 		responder_feedback = "handshake_end",
@@ -760,6 +944,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "hug",
 		desc = "Character action to [Hug], it shows the character's emotion and attitude.",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2002,
 		responder_feedback = "hug_end",
@@ -783,6 +968,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "claphands",
 		desc = "Action - Celebrate",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2003,
 		responder_feedback = "claphands_end",
@@ -806,6 +992,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "handheart",
 		desc = "Action - Hand Heart",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2004,
 		responder_feedback = "handheart_end",
@@ -829,6 +1016,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "curtaincall",
 		desc = "Action - Take a Bow",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2005,
 		responder_feedback = "curtaincall_end_sp",
@@ -852,6 +1040,7 @@ pg.base.island_action = {}
 		sigle_action_reply_type = 0,
 		resource = "mutidance",
 		desc = "Action - Group Dance",
+		respond_dir = 0,
 		tech_id = 0,
 		id = 2006,
 		responder_feedback = "mutidance_end",
@@ -859,6 +1048,30 @@ pg.base.island_action = {}
 			0,
 			0,
 			1.41529
+		},
+		jump_page = {
+			{
+				"Stellar Prize Draw",
+				{}
+			}
+		}
+	}
+	pg.base.island_action[2007] = {
+		chara_sigle_action_reply = "",
+		name = "Mighty Morphin'",
+		type = 2,
+		feedback_type = 0,
+		sigle_action_reply_type = 0,
+		resource = "combine",
+		desc = "Interactive Action: Mighty Morphin'",
+		respond_dir = 1,
+		tech_id = 0,
+		id = 2007,
+		responder_feedback = "combine_end_sp",
+		respond_point = {
+			-2.181,
+			0,
+			0
 		},
 		jump_page = {
 			{

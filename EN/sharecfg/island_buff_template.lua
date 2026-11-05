@@ -338,6 +338,26 @@ pg.island_buff_template.all = {
 	10327,
 	10328,
 	10329,
+	10340,
+	10341,
+	10342,
+	10343,
+	10344,
+	10345,
+	10346,
+	10347,
+	10348,
+	10349,
+	10350,
+	10351,
+	10352,
+	10353,
+	10354,
+	10355,
+	10356,
+	10357,
+	10358,
+	10359,
 	100001,
 	100002,
 	100003,
@@ -5931,7 +5951,7 @@ end)()
 		buff_duel = {}
 	}
 	pg.base.island_buff_template[10270] = {
-		name = "木工技艺",
+		name = "Woodwork Expertise",
 		buff_group = 1027,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -5951,7 +5971,7 @@ end)()
 		buff_duel = {}
 	}
 	pg.base.island_buff_template[10271] = {
-		name = "木工技艺",
+		name = "Woodwork Expertise",
 		buff_group = 1027,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -5971,7 +5991,7 @@ end)()
 		buff_duel = {}
 	}
 	pg.base.island_buff_template[10272] = {
-		name = "木工技艺",
+		name = "Woodwork Expertise",
 		buff_group = 1027,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -5991,7 +6011,7 @@ end)()
 		buff_duel = {}
 	}
 	pg.base.island_buff_template[10273] = {
-		name = "木工技艺",
+		name = "Woodwork Expertise",
 		buff_group = 1027,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -6011,7 +6031,7 @@ end)()
 		buff_duel = {}
 	}
 	pg.base.island_buff_template[10274] = {
-		name = "木工技艺",
+		name = "Woodwork Expertise",
 		buff_group = 1027,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -6031,7 +6051,7 @@ end)()
 		buff_duel = {}
 	}
 	pg.base.island_buff_template[10275] = {
-		name = "木工技艺",
+		name = "Woodwork Expertise",
 		buff_group = 1027,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -6051,7 +6071,7 @@ end)()
 		buff_duel = {}
 	}
 	pg.base.island_buff_template[10276] = {
-		name = "木工技艺",
+		name = "Woodwork Expertise",
 		buff_group = 1027,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -6071,7 +6091,7 @@ end)()
 		buff_duel = {}
 	}
 	pg.base.island_buff_template[10277] = {
-		name = "木工技艺",
+		name = "Woodwork Expertise",
 		buff_group = 1027,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -6091,7 +6111,7 @@ end)()
 		buff_duel = {}
 	}
 	pg.base.island_buff_template[10278] = {
-		name = "木工技艺",
+		name = "Woodwork Expertise",
 		buff_group = 1027,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -6111,7 +6131,7 @@ end)()
 		buff_duel = {}
 	}
 	pg.base.island_buff_template[10279] = {
-		name = "木工技艺",
+		name = "Woodwork Expertise",
 		buff_group = 1027,
 		buff_desc = "无需本地化，角色技能读skill表",
 		buff_color = 0,
@@ -7139,6 +7159,416 @@ end)()
 		},
 		type_duel = {
 			1032
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10340] = {
+		name = "Fishing Expertise",
+		buff_group = 1034,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10340,
+		type_use = {
+			{
+				201
+			},
+			6
+		},
+		type_duel = {
+			1034
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10341] = {
+		name = "Fishing Expertise",
+		buff_group = 1034,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10341,
+		type_use = {
+			{
+				201
+			},
+			6.5
+		},
+		type_duel = {
+			1034
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10342] = {
+		name = "Fishing Expertise",
+		buff_group = 1034,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10342,
+		type_use = {
+			{
+				201
+			},
+			7
+		},
+		type_duel = {
+			1034
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10343] = {
+		name = "Fishing Expertise",
+		buff_group = 1034,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10343,
+		type_use = {
+			{
+				201
+			},
+			7.5
+		},
+		type_duel = {
+			1034
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10344] = {
+		name = "Fishing Expertise",
+		buff_group = 1034,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10344,
+		type_use = {
+			{
+				201
+			},
+			8
+		},
+		type_duel = {
+			1034
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10345] = {
+		name = "Fishing Expertise",
+		buff_group = 1034,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10345,
+		type_use = {
+			{
+				201
+			},
+			8.5
+		},
+		type_duel = {
+			1034
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10346] = {
+		name = "Fishing Expertise",
+		buff_group = 1034,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10346,
+		type_use = {
+			{
+				201
+			},
+			9
+		},
+		type_duel = {
+			1034
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10347] = {
+		name = "Fishing Expertise",
+		buff_group = 1034,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10347,
+		type_use = {
+			{
+				201
+			},
+			10
+		},
+		type_duel = {
+			1034
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10348] = {
+		name = "Fishing Expertise",
+		buff_group = 1034,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10348,
+		type_use = {
+			{
+				201
+			},
+			11
+		},
+		type_duel = {
+			1034
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10349] = {
+		name = "Fishing Expertise",
+		buff_group = 1034,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 102,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10349,
+		type_use = {
+			{
+				201
+			},
+			12
+		},
+		type_duel = {
+			1034
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10350] = {
+		name = "Woodwork Expertise",
+		buff_group = 1035,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 1,
+		id = 10350,
+		type_use = {
+			{
+				703
+			},
+			1,
+			6
+		},
+		type_duel = {
+			1035
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10351] = {
+		name = "Woodwork Expertise",
+		buff_group = 1035,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 2,
+		id = 10351,
+		type_use = {
+			{
+				703
+			},
+			1,
+			6.5
+		},
+		type_duel = {
+			1035
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10352] = {
+		name = "Woodwork Expertise",
+		buff_group = 1035,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 3,
+		id = 10352,
+		type_use = {
+			{
+				703
+			},
+			1,
+			7
+		},
+		type_duel = {
+			1035
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10353] = {
+		name = "Woodwork Expertise",
+		buff_group = 1035,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 4,
+		id = 10353,
+		type_use = {
+			{
+				703
+			},
+			1,
+			7.5
+		},
+		type_duel = {
+			1035
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10354] = {
+		name = "Woodwork Expertise",
+		buff_group = 1035,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 5,
+		id = 10354,
+		type_use = {
+			{
+				703
+			},
+			1,
+			8
+		},
+		type_duel = {
+			1035
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10355] = {
+		name = "Woodwork Expertise",
+		buff_group = 1035,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 6,
+		id = 10355,
+		type_use = {
+			{
+				703
+			},
+			1,
+			8.5
+		},
+		type_duel = {
+			1035
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10356] = {
+		name = "Woodwork Expertise",
+		buff_group = 1035,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 7,
+		id = 10356,
+		type_use = {
+			{
+				703
+			},
+			1,
+			9
+		},
+		type_duel = {
+			1035
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10357] = {
+		name = "Woodwork Expertise",
+		buff_group = 1035,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 8,
+		id = 10357,
+		type_use = {
+			{
+				703
+			},
+			1,
+			10
+		},
+		type_duel = {
+			1035
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10358] = {
+		name = "Woodwork Expertise",
+		buff_group = 1035,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 9,
+		id = 10358,
+		type_use = {
+			{
+				703
+			},
+			1,
+			11
+		},
+		type_duel = {
+			1035
+		},
+		buff_duel = {}
+	}
+	pg.base.island_buff_template[10359] = {
+		name = "Woodwork Expertise",
+		buff_group = 1035,
+		buff_desc = "无需本地化，角色技能读skill表",
+		buff_color = 0,
+		buff_type = 101,
+		buff_time = 0,
+		buff_level = 10,
+		id = 10359,
+		type_use = {
+			{
+				703
+			},
+			1,
+			12
+		},
+		type_duel = {
+			1035
 		},
 		buff_duel = {}
 	}

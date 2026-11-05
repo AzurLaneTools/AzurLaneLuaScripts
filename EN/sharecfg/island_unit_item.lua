@@ -128,6 +128,12 @@ pg.island_unit_item.all = {
 	20166,
 	20167,
 	20168,
+	20169,
+	20170,
+	20171,
+	20172,
+	20173,
+	20174,
 	60001,
 	60002,
 	60003,
@@ -809,6 +815,36 @@ end)()
 		id = 20168,
 		navAgentParam = "",
 		model = "island/item/02/20168/prefab/pre_item_02_20168"
+	}
+	pg.base.island_unit_item[20169] = {
+		id = 20169,
+		navAgentParam = "",
+		model = "island/item/02/20169/prefab/pre_item_02_20169"
+	}
+	pg.base.island_unit_item[20170] = {
+		id = 20170,
+		navAgentParam = "",
+		model = "island/item/02/20170/prefab/pre_item_02_20170"
+	}
+	pg.base.island_unit_item[20171] = {
+		id = 20171,
+		navAgentParam = "",
+		model = "island/item/02/20171/prefab/pre_item_02_20171"
+	}
+	pg.base.island_unit_item[20172] = {
+		id = 20172,
+		navAgentParam = "",
+		model = "island/item/02/20172/prefab/pre_item_02_20172"
+	}
+	pg.base.island_unit_item[20173] = {
+		id = 20173,
+		navAgentParam = "",
+		model = "island/item/02/20173/prefab/pre_item_02_20173"
+	}
+	pg.base.island_unit_item[20174] = {
+		id = 20174,
+		navAgentParam = "",
+		model = "island/item/02/20174/prefab/pre_item_02_20174"
 	}
 	pg.base.island_unit_item[60001] = {
 		id = 60001,

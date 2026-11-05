@@ -201,6 +201,17 @@ slot0.GetAllAward = function(slot0)
 			end)
 		end
 
+		if _.any(slot1, function (slot0)
+			return slot0:IsSkinCoupon(slot0)
+		end) then
+			table.insert(slot2, function (slot0)
+				pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_MSGBOX, {
+					contentText = i18n("shop_new_coupon_tip3"),
+					onConfirm = slot0
+				})
+			end)
+		end
+
 		seriesAsync(slot2, function ()
 			uv0:emit(WorldCruiseMediator.EVENT_GET_AWARD_ALL)
 		end)

@@ -7,6 +7,11 @@ slot0.Enter = function(slot0, slot1)
 end
 
 slot0.Update = function(slot0, slot1, slot2, slot3)
+	if HXSet.isHx() then
+		slot1 = pg.ship_skin_template[107030].painting
+		slot3 = true
+	end
+
 	slot0.isShipPainting = slot3
 
 	slot0:Show()

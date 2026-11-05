@@ -2,6 +2,8 @@ slot0 = class("IslandCoupleActionPlayer", import("..IslandBaseUnit"))
 slot1 = 0
 slot2 = 1
 slot3 = 2
+slot4 = 0
+slot5 = 1
 
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
@@ -95,7 +97,7 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 				return
 			end
 
-			uv0:Face2Face(uv3, uv4, uv1, slot0)
+			uv0:Face2Face(uv3, uv4, uv5, uv1, slot0)
 		end,
 		function (slot0)
 			if not uv0.playing then
@@ -207,21 +209,27 @@ slot0.OnNavigateToPointFailed = function(slot0)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("island_no_position_to_reponse_action"))
 end
 
-slot0.Face2Face = function(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot3._go.transform
-	slot6 = slot2._go.transform
-	slot5.rotation = Quaternion.Euler(0, Quaternion.LookRotation(slot6.position - slot5.position).eulerAngles.y, 0)
-	slot6.rotation = slot1 * slot6.rotation
+slot0.Face2Face = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = slot4._go.transform
+	slot7 = slot3._go.transform
+
+	if slot1.respond_dir == uv0 then
+		slot6.rotation = Quaternion.Euler(0, Quaternion.LookRotation(slot7.position - slot6.position).eulerAngles.y, 0)
+	elseif slot1.respond_dir == uv1 then
+		slot6.rotation = Quaternion.Euler(0, slot7.eulerAngles.y, 0)
+	end
+
+	slot7.rotation = slot2 * slot7.rotation
+
+	if isa(slot4, IslandPlayerUnit) then
+		slot4.targetRotation = slot6.rotation
+	end
 
 	if isa(slot3, IslandPlayerUnit) then
-		slot3.targetRotation = slot5.rotation
+		slot3.targetRotation = slot7.rotation
 	end
 
-	if isa(slot2, IslandPlayerUnit) then
-		slot2.targetRotation = slot6.rotation
-	end
-
-	slot4()
+	slot5()
 end
 
 slot0.PlayCoupleActions = function(slot0, slot1, slot2, slot3, slot4)

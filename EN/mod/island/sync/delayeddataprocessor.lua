@@ -1,4 +1,4 @@
-slot0 = class("DelayedDataProcesseor")
+slot0 = class("DelayedDataProcessor")
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.delayedDataDic = {}
@@ -9,21 +9,17 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.Add = function(slot0, slot1, slot2)
-	slot3 = nil
-
-	if slot0.preTimeStampDic[slot1] then
-		slot3 = math.min(slot0.preTimeStampDic[slot1] + slot0.intervalTime, pg.TimeMgr.GetInstance():GetServerTimeMs() + slot0.delayedTime)
-	else
-		slot0.delayedDataDic[slot1] = {}
-		slot3 = pg.TimeMgr.GetInstance():GetServerTimeMs() + slot0.delayedTime
-	end
+	slot0.delayedDataDic[slot1] = slot0.delayedDataDic[slot1] or {}
+	slot3 = pg.TimeMgr.GetInstance():GetServerTimeMs()
+	slot4 = nil
+	slot4 = (not slot0.preTimeStampDic[slot1] or math.min(slot0.preTimeStampDic[slot1] + slot0.intervalTime, slot3 + slot0.delayedTime)) and slot3 + slot0.delayedTime
 
 	table.insert(slot0.delayedDataDic[slot1], {
 		data = slot2,
-		timeStamp = slot3
+		timeStamp = slot4
 	})
 
-	slot0.preTimeStampDic[slot1] = slot3
+	slot0.preTimeStampDic[slot1] = slot4
 end
 
 slot0.Update = function(slot0)
@@ -52,6 +48,8 @@ slot0.RemoveDataById = function(slot0, slot1)
 end
 
 slot0.Dispose = function(slot0)
+	slot0.delayedDataDic = {}
+	slot0.preTimeStampDic = {}
 end
 
 return slot0

@@ -34,21 +34,47 @@ slot0.AutoUnloadAssetBundle = function(slot0, slot1)
 end
 
 slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = slot0
+	slot7 = slot1
+
+	if HXSet.isHx() then
+		if slot1 == "" or slot1 == nil then
+			if checkABExist(slot6 .. "_hx") then
+				slot6 = slot6 .. "_hx"
+			end
+		elseif slot7 ~= nil then
+			slot7 = slot7 .. "_hx"
+		end
+	end
+
 	if slot3 then
-		AssetBundleHelper.LoadAssetBundle(slot0, slot3, true, function (slot0)
-			slot0:LoadAssetAsync(uv0, uv1, function (slot0)
+		AssetBundleHelper.LoadAssetBundle(slot6, slot3, true, function (slot0)
+			slot1 = AssetBundleHelper.LoadAssetBundle(uv0, uv1, true)
+			slot2 = true
+
+			if uv2 ~= "" then
+				slot2 = table.contains(slot1:GetAllAssetNames(), slot1:ChangeAssetName(uv3))
+			end
+
+			slot1:LoadAssetAsync(slot2 and uv3 or uv2, uv4, function (slot0)
 				uv0(slot0)
 				uv1.AutoUnloadAssetBundle(uv2, uv3)
 			end, false, false)
 		end)
 	else
-		slot6 = AssetBundleHelper.LoadAssetBundle(slot0, slot3, true)
-		slot7 = slot6:LoadAssetSync(slot1, slot2, false, false)
+		slot8 = AssetBundleHelper.LoadAssetBundle(slot6, slot3, true)
+		slot9 = true
 
-		existCall(slot4, slot7)
-		uv0.AutoUnloadAssetBundle(slot6, slot5)
+		if slot1 ~= "" then
+			slot9 = table.contains(slot8:GetAllAssetNames(), slot8:ChangeAssetName(slot7))
+		end
 
-		return slot7
+		slot10 = slot8:LoadAssetSync(slot9 and slot7 or slot1, slot2, false, false)
+
+		existCall(slot4, slot10)
+		uv0.AutoUnloadAssetBundle(slot8, slot5)
+
+		return slot10
 	end
 end
 

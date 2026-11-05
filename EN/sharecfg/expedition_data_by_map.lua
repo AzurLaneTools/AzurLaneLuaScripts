@@ -595,6 +595,10 @@ pg.expedition_data_by_map.all = {
 	2100582,
 	2100591,
 	2100592,
+	2100601,
+	2100602,
+	2100611,
+	2100612,
 	2200000,
 	2200010,
 	2200020,
@@ -901,6 +905,8 @@ pg.expedition_data_by_map.get_id_list_by_type = {
 		2100562,
 		2100581,
 		2100582,
+		2100601,
+		2100602,
 		2200040,
 		2200070,
 		2200130,
@@ -1101,6 +1107,8 @@ pg.expedition_data_by_map.get_id_list_by_type = {
 		2100572,
 		2100591,
 		2100592,
+		2100611,
+		2100612,
 		2200171,
 		9920011,
 		9920012
@@ -37049,6 +37057,448 @@ end)()
 			}
 		}
 	}
+	pg.base.expedition_data_by_map[2100601] = {
+		map = 2100601,
+		name = "The Fool's Scales – Pt. 1| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "YUZHEDETIANPING1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1740001",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-underheaven",
+		ui_type = 1,
+		bg = "Map_1740005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100611,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100602
+					},
+					"phase1"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100602
+					},
+					"phase2"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100602
+					},
+					"phase3"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100603
+					},
+					"phase4"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100602
+					},
+					"map_1740003"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100603
+					},
+					"map_1740004"
+				}
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100602] = {
+		map = 2100602,
+		name = "The Fool's Scales – Pt. 2| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "YUZHEDETIANPING22",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1740002",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-thehierophantV",
+		ui_type = 1,
+		bg = "Map_1740011",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100612,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100604
+					},
+					"phase1"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100605
+					},
+					"phase2"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100605
+					},
+					"phase3"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100605
+					},
+					"phase4"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100605
+					},
+					"phase5"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100604
+					},
+					"map_1740006"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100605
+					},
+					"map_1740007"
+				}
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100611] = {
+		map = 2100611,
+		name = "The Fool's Scales – Pt. 1| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "YUZHEDETIANPING1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1740001",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-underheaven",
+		ui_type = 1,
+		bg = "Map_1740005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100601,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100612
+					},
+					"phase1"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100612
+					},
+					"phase2"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100612
+					},
+					"phase3"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100613
+					},
+					"phase4"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100612
+					},
+					"map_1740003"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100613
+					},
+					"map_1740004"
+				}
+			}
+		}
+	}
+	pg.base.expedition_data_by_map[2100612] = {
+		map = 2100612,
+		name = "The Fool's Scales – Pt. 2| ||CHAPTER EX||E.X.",
+		pos_type = 0,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "YUZHEDETIANPING22",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1740002",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		bgm = "theme-thehierophantV",
+		ui_type = 1,
+		bg = "Map_1740011",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100602,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100614
+					},
+					"phase1"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100615
+					},
+					"phase2"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100615
+					},
+					"phase3"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100615
+					},
+					"phase4"
+				}
+			},
+			{
+				1,
+				{
+					{
+						2100615
+					},
+					"phase5"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100614
+					},
+					"map_1740006"
+				}
+			},
+			{
+				2,
+				{
+					{
+						2100615
+					},
+					"map_1740007"
+				}
+			}
+		}
+	}
 	pg.base.expedition_data_by_map[2200000] = {
 		map = 2200000,
 		name = "Strive, Wish, and Strategize || || Chapter SP || S.P.",
@@ -37304,6 +37754,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.expedition_data_by_map[2200050] = {
 		map = 2200050,
 		name = "The Solomon Ranger|| ||CHAPTER SP||S.P.",
@@ -37487,8 +37939,6 @@ end)()
 		bind_map = 0,
 		clouds_pos = {}
 	}
-end)()
-(function ()
 	pg.base.expedition_data_by_map[2200090] = {
 		map = 2200090,
 		name = "The Way Home in the Night|| ||CHAPTER SP||S.P.",

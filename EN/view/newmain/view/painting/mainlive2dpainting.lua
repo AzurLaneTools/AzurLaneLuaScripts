@@ -33,9 +33,6 @@ slot0.OnLoad = function(slot0, slot1)
 	end
 
 	slot0.actionWaiting = false
-
-	slot0:SetContainerVisible(true)
-
 	slot0.cg.blocksRaycasts = true
 	slot0.live2dChar = Live2DPainting.New(Live2DPainting.GenerateData({
 		loadPrefs = true,
@@ -43,6 +40,16 @@ slot0.OnLoad = function(slot0, slot1)
 		position = Vector3(0, 0, 100),
 		parent = slot0.live2dContainer
 	}), function (slot0)
+		if slot0:IsDispose() then
+			print("live2d已经被释放,不再初始化")
+
+			return
+		end
+
+		if not uv0.live2dChar then
+			uv0.live2dChar = slot0
+		end
+
 		uv0:AdJustOrderInLayer(slot0)
 
 		if Live2dConst.l2d_bound_open then
@@ -63,10 +70,14 @@ slot0.OnLoad = function(slot0, slot1)
 			uv0._initTriggerAction = nil
 		end
 
-		uv1()
+		if uv1 then
+			uv1()
+
+			uv1 = nil
+		end
 	end)
-	slot3 = getProxy(CollectionProxy)
-	slot0.shipGroup = slot3:getShipGroup(slot0.ship.groupId)
+	slot4 = getProxy(CollectionProxy)
+	slot0.shipGroup = slot4:getShipGroup(slot0.ship.groupId)
 
 	slot0:UpdateContainerPosition()
 	slot0:AddScreenChangeTimer()
@@ -187,6 +198,7 @@ end
 
 slot0.OnUnload = function(slot0)
 	if slot0.live2dChar then
+		print("释放live2d")
 		slot0:RemoveScreenChangeTimer()
 		slot0:ResetContainerPosition()
 
@@ -312,7 +324,7 @@ slot0.RemoveSeTimer = function(slot0)
 end
 
 slot0.PlayChangeSkinActionIn = function(slot0, slot1)
-	if slot0.live2dChar:IsLoaded() then
+	if slot0.live2dChar and slot0.live2dChar:IsLoaded() then
 		if slot0.live2dChar:checkActionExist("change_in") then
 			slot0:TriggerEvent("event_change_in")
 		else
@@ -399,9 +411,6 @@ slot0.OnUpdateShip = function(slot0, slot1)
 	end
 end
 
-slot0.SetContainerVisible = function(slot0, slot1)
-end
-
 slot0.IsLoaded = function(slot0)
 	if not slot0.live2dChar then
 		return false
@@ -411,7 +420,6 @@ slot0.IsLoaded = function(slot0)
 end
 
 slot0.OnResume = function(slot0)
-	slot0:SetContainerVisible(true)
 	slot0:AddScreenChangeTimer()
 	slot0:UpdateContainerPosition()
 	onNextTick(function ()
@@ -435,6 +443,14 @@ slot0.Dispose = function(slot0)
 	if slot0.eventTrigger then
 		ClearEventTrigger(slot0.eventTrigger)
 	end
+end
+
+slot0.GetPaintingTransform = function(slot0)
+	if slot0.live2dChar then
+		return slot0.live2dChar:GetLive2dTransform()
+	end
+
+	return nil
 end
 
 slot0.GetOffset = function(slot0)

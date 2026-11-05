@@ -698,6 +698,11 @@ pg.ship_strengthen_blueprint.all = {
 	2028,
 	2029,
 	2030,
+	2031,
+	2032,
+	2033,
+	2034,
+	2035,
 	2101,
 	2102,
 	2103,
@@ -21010,6 +21015,164 @@ end)()
 			"Main Gun efficiency +15%"
 		}
 	}
+	pg.base.ship_strengthen_blueprint[2031] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2031,
+		need_exp = 200,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[2032] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2032,
+		need_exp = 300,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[2033] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +5|Upgrades Engulfer of the Golden Vortex to Engulfer of the Golden Vortex+",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2033,
+		need_exp = 400,
+		lv = 33,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19410,
+			18410
+		}
+	}
+	pg.base.ship_strengthen_blueprint[2034] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +6",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2034,
+		need_exp = 500,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				6
+			}
+		}
+	}
+	pg.base.ship_strengthen_blueprint[2035] = {
+		effect_breakout = 0,
+		effect_desc = "LCK +7|Upgrades Jöttun's Jaws to Jöttun's Jaws+",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2035,
+		need_exp = 750,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				7
+			}
+		},
+		change_skill = {
+			19430,
+			18430
+		}
+	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[2101] = {
 		effect_breakout = 0,
 		effect_desc = "Unlock playback for: Log in, Return to port, Biography",
@@ -21159,8 +21322,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[2106] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -23791,6 +23952,8 @@ end)()
 			"Improves All Out Assault I"
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[2401] = {
 		effect_breakout = 0,
 		effect_desc = "Unlocks playback for: Log in, Return to port, Biography",
@@ -23936,8 +24099,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[2406] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -26565,6 +26726,8 @@ end)()
 			"Torpedo Bomber efficiency +15%"
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[2631] = {
 		effect_breakout = 0,
 		effect_desc = "LCK +1",
@@ -26718,8 +26881,6 @@ end)()
 			18610
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[2701] = {
 		effect_breakout = 0,
 		effect_desc = "Unlocks playback for: Log in, Return to port, Biography",
@@ -29350,6 +29511,8 @@ end)()
 			18760
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[3001] = {
 		effect_breakout = 0,
 		effect_desc = "Unlocks playback for: Log in, Return to port, Biography",
@@ -29496,8 +29659,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[3006] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -32133,6 +32294,8 @@ end)()
 			18730
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[3301] = {
 		effect_breakout = 0,
 		effect_desc = "Unlocks playback for: Log in, Return to port, Biography",
@@ -32278,8 +32441,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[3306] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -34912,6 +35073,8 @@ end)()
 			"All weapons' efficiency +5%"
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[3601] = {
 		effect_breakout = 0,
 		effect_desc = "Unlocks playback for: Log in, Return to port, Biography",
@@ -35058,8 +35221,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[3606] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -37693,6 +37854,8 @@ end)()
 			18980
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[3901] = {
 		effect_breakout = 0,
 		effect_desc = "Unlocks playback for: Log in, Return to port, Biography",
@@ -37838,8 +38001,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[3906] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -40464,6 +40625,8 @@ end)()
 			180000
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[4201] = {
 		effect_breakout = 0,
 		effect_desc = "Unlocks playback for: Log in, Return to port, Biography",
@@ -40614,8 +40777,6 @@ end)()
 			"mission"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[4206] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -43224,6 +43385,8 @@ end)()
 			"Torpedo bomber efficiency +5%"
 		}
 	}
+end)()
+(function ()
 	pg.base.ship_strengthen_blueprint[4511] = {
 		effect_breakout = 0,
 		effect_desc = "",
@@ -43369,8 +43532,6 @@ end)()
 			"mission_complete"
 		}
 	}
-end)()
-(function ()
 	pg.base.ship_strengthen_blueprint[4516] = {
 		effect_breakout = 0,
 		effect_desc = "",

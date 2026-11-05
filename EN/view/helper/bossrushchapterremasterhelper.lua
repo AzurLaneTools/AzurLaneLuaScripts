@@ -244,7 +244,7 @@ slot0.GetProgress = function(slot0)
 
 	if uv0.IsRemasterByActivity(slot0) then
 		if not (pg.re_map_template[slot0] and getProxy(ActivityProxy):getActivityById(slot1.activity_id)) then
-			return 0
+			return getProxy(ActivityPermanentProxy):GetActivityProgress(slot1.activity_id)
 		end
 
 		slot3 = 0

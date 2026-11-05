@@ -346,6 +346,10 @@ slot0.SetCommanderHairBlendShape = function(slot0, slot1)
 		return
 	end
 
+	if slot2.type == uv0.DressType.Body and pg.island_dress_template.get_id_list_by_related_dress[slot1] then
+		return
+	end
+
 	slot3 = slot2.sub_type - 1
 
 	GraphicsInterface.Instance:SetCharacterBlendShape(slot0, uv0.ComponentType.Hair, slot3, 100)
@@ -415,8 +419,11 @@ slot0.BuildCommanderCustomParts = function(slot0, slot1, slot2, slot3)
 		uv0 = uv0 + 1
 
 		if uv0 == #uv1.CommanderCustom then
+			slot1 = uv2(uv1.DressType.Body) or 0
+
 			uv1.RefreshCommanderHatState(uv3, uv2(uv1.DressType.Hat) or 0)
-			existCall(uv4, uv5, uv2(uv1.DressType.Body) or 0)
+			uv1.SetCommanderHairBlendShape(uv3, slot1)
+			existCall(uv4, uv5, slot1)
 		end
 	end
 
@@ -464,6 +471,7 @@ slot0.ChangeCommanderPart = function(slot0, slot1, slot2, slot3)
 			uv5.RefreshCommanderHatState(uv3, uv6)
 		elseif uv2 == uv5.DressType.Hair then
 			uv5.RefreshCommanderHatState(uv3, uv1.commanderDressDic[uv5.DressType.Hat] or 0)
+			uv5.SetCommanderHairBlendShape(uv3, uv1.commanderDressDic[uv5.DressType.Body] or 0)
 		elseif uv2 == uv5.DressType.Face then
 			slot1 = pg.island_dress_template[uv6].face_clip == "" and "idle" or slot0.face_clip
 
@@ -471,6 +479,7 @@ slot0.ChangeCommanderPart = function(slot0, slot1, slot2, slot3)
 				slot2:Play(slot1, 4)
 			end
 		elseif uv2 == uv5.DressType.Body then
+			uv5.SetCommanderHairBlendShape(uv3, uv6)
 			uv1:ApplyAnimatorOverride(uv6, uv4)
 		end
 	end
@@ -486,6 +495,7 @@ slot0.ChangeCommanderPart = function(slot0, slot1, slot2, slot3)
 			existCall(slot3)
 		end
 	elseif slot1 == uv0.DressType.Body and slot4 == 0 then
+		uv0.SetCommanderHairBlendShape(slot6, slot4)
 		slot0:ApplyAnimatorOverride(0, slot3)
 	end
 end

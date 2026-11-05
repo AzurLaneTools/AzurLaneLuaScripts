@@ -11,19 +11,24 @@ pg.island_skin_template.all = {
 	1990301,
 	2012101,
 	2021201,
+	2060201,
 	2060301,
 	2990301,
 	3031101,
 	3031201,
 	3040701,
+	3050501,
 	3120101,
 	4030301,
 	4990201,
+	4990501,
 	4990601,
 	5010701,
 	5010801,
 	5020101,
 	5060101,
+	5060201,
+	7011101,
 	9010701,
 	96000101,
 	99000201,
@@ -58,6 +63,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[20212] = {
 		2021201
 	},
+	[20602] = {
+		2060201
+	},
 	[20603] = {
 		2060301
 	},
@@ -73,6 +81,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	[30407] = {
 		3040701
 	},
+	[30505] = {
+		3050501
+	},
 	[31201] = {
 		3120101
 	},
@@ -81,6 +92,9 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	},
 	[49902] = {
 		4990201
+	},
+	[49905] = {
+		4990501
 	},
 	[49906] = {
 		4990601
@@ -96,6 +110,12 @@ pg.island_skin_template.get_id_list_by_ship_group = {
 	},
 	[50601] = {
 		5060101
+	},
+	[50602] = {
+		5060201
+	},
+	[70111] = {
+		7011101
 	},
 	[90107] = {
 		9010701
@@ -232,6 +252,20 @@ pg.base.island_skin_template = {}
 		icon = "skin_2021201",
 		icon_normal = ""
 	}
+	pg.base.island_skin_template[2060201] = {
+		ship_group = 20602,
+		name = "Morning Rhythm",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "In the chilly morning breeze, she has found her rhythm, ready to let today begin at a leisurely pace.",
+		shop_goods_id = 0,
+		model = 2060201,
+		id = 2060201,
+		icon = "skin_2060201",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[2060301] = {
 		ship_group = 20603,
 		name = "Dreamy Starlight",
@@ -302,6 +336,20 @@ pg.base.island_skin_template = {}
 		icon_normal = "props/skin_3040701",
 		jump_page = {}
 	}
+	pg.base.island_skin_template[3050501] = {
+		ship_group = 30505,
+		name = "Moment of Preparation",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "She faces all preparations earnestly, as if every departure is worthy of a home in her memories.",
+		shop_goods_id = 0,
+		model = 3050501,
+		id = 3050501,
+		icon = "skin_3050501",
+		icon_normal = ""
+	}
 	pg.base.island_skin_template[3120101] = {
 		ship_group = 31201,
 		name = "Night of the Empty Bell",
@@ -342,6 +390,20 @@ pg.base.island_skin_template = {}
 		model = 4990201,
 		id = 4990201,
 		icon = "skin_4990201",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[4990501] = {
+		ship_group = 49905,
+		name = "Steps to Victory",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "Form-fitting sportswear only sharpens her aura. Each casual stride exudes a commanding presence.",
+		shop_goods_id = 0,
+		model = 4990501,
+		id = 4990501,
+		icon = "skin_4990501",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[4990601] = {
@@ -412,6 +474,34 @@ pg.base.island_skin_template = {}
 		model = 5060101,
 		id = 5060101,
 		icon = "skin_5060101",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[5060201] = {
+		ship_group = 50602,
+		name = "An Airy Pace",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "Her breaths set a clear rhythm, lending each movement such composure that even the briefest silence feels perfect.",
+		shop_goods_id = 0,
+		model = 5060201,
+		id = 5060201,
+		icon = "skin_5060201",
+		icon_normal = ""
+	}
+	pg.base.island_skin_template[7011101] = {
+		ship_group = 70111,
+		name = "Energetic Entrant",
+		jump_page = "",
+		tech_id = 0,
+		tag = "",
+		shop_id = 0,
+		desc = "Wind sweeps forth. Just before the countdown ends, excitement is already surging from the starting line.",
+		shop_goods_id = 0,
+		model = 7011101,
+		id = 7011101,
+		icon = "skin_7011101",
 		icon_normal = ""
 	}
 	pg.base.island_skin_template[9010701] = {

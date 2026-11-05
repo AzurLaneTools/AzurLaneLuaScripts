@@ -1595,7 +1595,11 @@ slot0.InitSwitch = function()
 			end), ","))
 		end,
 		[DROP_TYPE_VITEM] = function (slot0, slot1, slot2)
-			setText(slot2, slot0:getConfig("display"))
+			if slot0:getConfig("virtual_type") == VIRTUAL_DROP_TYPE_SKIN_COUPON then
+				setText(slot2, slot0:GetSkinCouponDesc(slot0))
+			else
+				setText(slot2, slot0:getConfig("display"))
+			end
 		end,
 		[DROP_TYPE_WORLD_ITEM] = function (slot0, slot1, slot2)
 			setText(slot2, slot0:getConfig("display"))
@@ -1843,6 +1847,22 @@ slot0.InitSwitch = function()
 			warning(string.format("without dropType %d in updateCustomDrop", slot0.type))
 		end
 	end
+end
+
+slot0.GetSkinCouponDesc = function(slot0, slot1)
+	slot2 = slot1:getConfig("display") .. i18n("shop_new_coupon_tip1")
+	slot3 = slot1.id
+
+	for slot9, slot10 in ipairs(pg.activity_event_shop_discount[slot1:getConfig("link_id")].shop_list) do
+		slot13 = nil
+		slot2 = slot2 .. i18n("shop_new_coupon_tip2", (pg.ship_skin_template[pg.shop_template[slot10].effect_args[1]].skin_type ~= ShipSkin.SKIN_TYPE_TB or NewEducateHelper.GetShipNameBySecId(NewEducateHelper.GetSecIdBySkinId(slot11))) and ShipGroup.getDefaultShipConfig(slot12.ship_group).name, slot12.name)
+	end
+
+	return slot2
+end
+
+slot0.IsSkinCoupon = function(slot0, slot1)
+	return slot1.type == DROP_TYPE_VITEM and slot1:getConfig("virtual_type") == VIRTUAL_DROP_TYPE_SKIN_COUPON
 end
 
 return slot0

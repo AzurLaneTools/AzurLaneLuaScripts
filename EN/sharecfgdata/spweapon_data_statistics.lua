@@ -41757,6 +41757,332 @@ _G.pg.base.spweapon_data_statistics[15670] = {
 }
 
 
+_G.pg.base.spweapon_data_statistics[15720] = {
+	attribute_1 = "cannon",
+	name = "Knight's Shining Star",
+	type = 2,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 901010,
+	value_2_random = 5,
+	effect_id = 901010,
+	attribute_2 = "hit",
+	next = 15721,
+	upgrade_id = 101,
+	value_2 = 1,
+	icon = "15720",
+	value_1 = 13,
+	level = 1,
+	descrip = "A custom-designed piece of gear made from an Augment Module core.",
+	uncraftable = 0,
+	unique = 20223,
+	important = 2,
+	prev = 0,
+	id = 15720,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1012310
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15721] = {
+	upgrade_id = 102,
+	prev = 15720,
+	next = 15722,
+	base = 15720,
+	id = 15721,
+	value_2 = 1,
+	value_1 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15722] = {
+	upgrade_id = 103,
+	prev = 15721,
+	next = 15723,
+	base = 15720,
+	id = 15722,
+	value_2 = 2,
+	value_1 = 15,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15723] = {
+	upgrade_id = 104,
+	prev = 15722,
+	next = 15724,
+	base = 15720,
+	id = 15723,
+	value_2 = 3,
+	value_1 = 16,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15724] = {
+	upgrade_id = 105,
+	prev = 15723,
+	next = 15725,
+	base = 15720,
+	id = 15724,
+	value_2 = 4,
+	value_1 = 17,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15725] = {
+	upgrade_id = 106,
+	prev = 15724,
+	next = 15726,
+	base = 15720,
+	id = 15725,
+	value_2 = 5,
+	value_1 = 18,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15726] = {
+	upgrade_id = 107,
+	prev = 15725,
+	next = 15727,
+	base = 15720,
+	id = 15726,
+	value_2 = 6,
+	value_1 = 19,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15727] = {
+	upgrade_id = 108,
+	prev = 15726,
+	next = 15728,
+	base = 15720,
+	id = 15727,
+	value_2 = 7,
+	value_1 = 20,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15728] = {
+	upgrade_id = 109,
+	prev = 15727,
+	next = 15729,
+	base = 15720,
+	id = 15728,
+	value_2 = 8,
+	value_1 = 21,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15729] = {
+	upgrade_id = 110,
+	prev = 15728,
+	next = 15730,
+	base = 15720,
+	id = 15729,
+	value_2 = 9,
+	value_1 = 23,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15730] = {
+	id = 15730,
+	upgrade_id = 111,
+	base = 15720,
+	next = 0,
+	prev = 15729,
+	value_2 = 10,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			12310,
+			1012310
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15740] = {
+	attribute_1 = "air",
+	name = "VF-50 Devil Cat",
+	type = 7,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 902060,
+	value_2_random = 5,
+	effect_id = 902060,
+	attribute_2 = "reload",
+	next = 15741,
+	upgrade_id = 101,
+	value_2 = 6,
+	icon = "15740",
+	value_1 = 22,
+	level = 1,
+	descrip = "A custom-designed piece of gear made from an Augment Module core.",
+	uncraftable = 0,
+	unique = 10729,
+	important = 2,
+	prev = 0,
+	id = 15740,
+	usability = {
+		6
+	},
+	skill_upgrade = {
+		{
+			0,
+			1012500
+		}
+	},
+	hide_buff_upgrade = {},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[15741] = {
+	upgrade_id = 102,
+	prev = 15740,
+	next = 15742,
+	base = 15740,
+	id = 15741,
+	value_2 = 6,
+	value_1 = 22,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[15742] = {
+	upgrade_id = 103,
+	prev = 15741,
+	next = 15743,
+	base = 15740,
+	id = 15742,
+	value_2 = 7,
+	value_1 = 23,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[15743] = {
+	upgrade_id = 104,
+	prev = 15742,
+	next = 15744,
+	base = 15740,
+	id = 15743,
+	value_2 = 8,
+	value_1 = 23,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[15744] = {
+	upgrade_id = 105,
+	prev = 15743,
+	next = 15745,
+	base = 15740,
+	id = 15744,
+	value_2 = 9,
+	value_1 = 24,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[15745] = {
+	upgrade_id = 106,
+	prev = 15744,
+	next = 15746,
+	base = 15740,
+	id = 15745,
+	value_2 = 10,
+	value_1 = 25,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[15746] = {
+	upgrade_id = 107,
+	prev = 15745,
+	next = 15747,
+	base = 15740,
+	id = 15746,
+	value_2 = 11,
+	value_1 = 26,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[15747] = {
+	upgrade_id = 108,
+	prev = 15746,
+	next = 15748,
+	base = 15740,
+	id = 15747,
+	value_2 = 12,
+	value_1 = 27,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[15748] = {
+	upgrade_id = 109,
+	prev = 15747,
+	next = 15749,
+	base = 15740,
+	id = 15748,
+	value_2 = 13,
+	value_1 = 28,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[15749] = {
+	upgrade_id = 110,
+	prev = 15748,
+	next = 15750,
+	base = 15740,
+	id = 15749,
+	value_2 = 14,
+	value_1 = 29,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[15750] = {
+	id = 15750,
+	upgrade_id = 111,
+	base = 15740,
+	next = 0,
+	prev = 15749,
+	value_2 = 15,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			12500,
+			1012500
+		}
+	}
+}
+
+
 _G.pg.base.spweapon_data_statistics[15860] = {
 	attribute_1 = "cannon",
 	name = "Greatstaff of the Lodestar",

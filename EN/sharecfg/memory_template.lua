@@ -4375,6 +4375,14 @@ pg.memory_template.all = {
 	5550,
 	5551,
 	5552,
+	5601,
+	5611,
+	5612,
+	5613,
+	5614,
+	5615,
+	5616,
+	5617,
 	10011,
 	10012,
 	10013,
@@ -83421,6 +83429,150 @@ end)()
 			"YICHANGDERICHANGDUANJUQING39"
 		}
 	}
+	pg.base.memory_template[5601] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Ägir's New Journey",
+		condition = "Get Daisen to Dev. Level 30.",
+		story = "LUCK49905",
+		mask = "bg/bg_memory",
+		task = 0,
+		year = 0,
+		id = 5601,
+		icon = "memory_jhaijier",
+		is_open = 0,
+		unlock_pre = {
+			"LUCK49905"
+		}
+	}
+	pg.base.memory_template[5611] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Poems and Reflections",
+		condition = "Begin \"The Eternal Now\" Chapter 1.",
+		story = "XIANGBIN1",
+		mask = "bg/bg_memory",
+		task = 500301,
+		year = 0,
+		id = 5611,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN1"
+		}
+	}
+	pg.base.memory_template[5612] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Dreams and Reality",
+		condition = "Begin \"The Eternal Now\" Chapter 2.",
+		story = "XIANGBIN2",
+		mask = "bg/bg_memory",
+		task = 500302,
+		year = 0,
+		id = 5612,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN2"
+		}
+	}
+	pg.base.memory_template[5613] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Past and Future",
+		condition = "Begin \"The Eternal Now\" Chapter 3.",
+		story = "XIANGBIN3",
+		mask = "bg/bg_memory",
+		task = 500303,
+		year = 0,
+		id = 5613,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN3"
+		}
+	}
+	pg.base.memory_template[5614] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Today is Tomorrow's History",
+		condition = "Begin \"The Eternal Now\" Chapter 4.",
+		story = "XIANGBIN4",
+		mask = "bg/bg_memory",
+		task = 500304,
+		year = 0,
+		id = 5614,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN4"
+		}
+	}
+	pg.base.memory_template[5615] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "The Steps to Poetry",
+		condition = "Begin \"The Eternal Now\" Chapter 5.",
+		story = "XIANGBIN5",
+		mask = "bg/bg_memory",
+		task = 500305,
+		year = 0,
+		id = 5615,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN5"
+		}
+	}
+	pg.base.memory_template[5616] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "A Moment of Respite",
+		condition = "Begin \"The Eternal Now\" Chapter 6.",
+		story = "XIANGBIN6",
+		mask = "bg/bg_memory",
+		task = 500306,
+		year = 0,
+		id = 5616,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN6"
+		}
+	}
+	pg.base.memory_template[5617] = {
+		ship_group = 0,
+		subtitle = "",
+		type = 1,
+		number = 0,
+		title = "Let us Revel Together",
+		condition = "Begin \"The Eternal Now\" Chapter 7.",
+		story = "XIANGBIN7",
+		mask = "bg/bg_memory",
+		task = 500307,
+		year = 0,
+		id = 5617,
+		icon = "",
+		is_open = 0,
+		unlock_pre = {
+			"XIANGBIN7"
+		}
+	}
 	pg.base.memory_template[10011] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83799,6 +83951,8 @@ end)()
 			"NEPU_DAILY3"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[10039] = {
 		ship_group = 0,
 		subtitle = "",
@@ -83943,8 +84097,6 @@ end)()
 			"NEPU_STAGE202"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[10047] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85601,6 +85753,8 @@ end)()
 			"LINGHANGYUANTANXIN12"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20064] = {
 		ship_group = 0,
 		subtitle = "",
@@ -85745,8 +85899,6 @@ end)()
 			"LINGHANGYUANTANXIN20"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20072] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87403,6 +87555,8 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA15"
 		}
 	}
+end)()
+(function ()
 	pg.base.memory_template[20165] = {
 		ship_group = 0,
 		subtitle = "",
@@ -87547,8 +87701,6 @@ end)()
 			"TANSUOZHEYANGCHENGJIHUA23"
 		}
 	}
-end)()
-(function ()
 	pg.base.memory_template[20173] = {
 		ship_group = 0,
 		subtitle = "",

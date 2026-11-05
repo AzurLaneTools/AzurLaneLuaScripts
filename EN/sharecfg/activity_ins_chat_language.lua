@@ -12346,7 +12346,95 @@ pg.activity_ins_chat_language.all = {
 	12426,
 	12427,
 	12428,
-	12429
+	12429,
+	12430,
+	12431,
+	12432,
+	12433,
+	12434,
+	12435,
+	12436,
+	12437,
+	12438,
+	12439,
+	12440,
+	12441,
+	12442,
+	12443,
+	12444,
+	12445,
+	12446,
+	12447,
+	12448,
+	12449,
+	12450,
+	12451,
+	12452,
+	12453,
+	12454,
+	12455,
+	12456,
+	12457,
+	12458,
+	12459,
+	12460,
+	12461,
+	12462,
+	12463,
+	12464,
+	12465,
+	12466,
+	12467,
+	12468,
+	12469,
+	12470,
+	12471,
+	12472,
+	12473,
+	12474,
+	12475,
+	12476,
+	12477,
+	12478,
+	12479,
+	12480,
+	12481,
+	12482,
+	12483,
+	12484,
+	12485,
+	12486,
+	12487,
+	12488,
+	12489,
+	12490,
+	12491,
+	12492,
+	12493,
+	12494,
+	12495,
+	12496,
+	12497,
+	12498,
+	12499,
+	12500,
+	12501,
+	12502,
+	12503,
+	12504,
+	12505,
+	12506,
+	12507,
+	12508,
+	12509,
+	12510,
+	12511,
+	12512,
+	12513,
+	12514,
+	12515,
+	12516,
+	12517
 }
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {}
@@ -120904,5 +120992,762 @@ end)()
 		type = 1,
 		id = 12429,
 		flag = 5
+	}
+	pg.base.activity_ins_chat_language[12430] = {
+		param = "Commander, have you ever looked at the sea at night?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12430,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12431] = {
+		param = "With the moonlight dancing on the waves like a blanket of shimmering silver.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12431,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12432] = {
+		param = "Every time I see it, I think of nirvana. That distant, otherworldly shore, unreachable and unknowable.",
+		ship_group = 89902,
+		type = 1,
+		id = 12432,
+		flag = 0,
+		option = {
+			{
+				1,
+				"That's beautiful."
+			},
+			{
+				2,
+				"Sounds kind of like a staircase to a mysterious world."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12433] = {
+		param = "That's beautiful. But it sounds a little lonely, too.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12433,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12434] = {
+		param = "Lonely... Maybe...",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12434,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12435] = {
+		param = "But, it is not a desolate loneliness. It is more akin to the silence that we must all experience before reaching our ultimate destination.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12435,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12436] = {
+		param = "The sea may appear calm, yet it constantly waxes and wanes in pursuit of the moon.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12436,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12437] = {
+		param = "Just like me, a being born from the void, awaiting a voice that can call out to me.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12437,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12438] = {
+		param = "Sounds kind of like a staircase to a mysterious world. I wonder what awaits us at the other end.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12438,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12439] = {
+		param = "At the end... Perhaps a deeper, more immeasurable expanse of blue.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12439,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12440] = {
+		param = "Or, perhaps, nothing more than a gentle illusion woven by the moonlight.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12440,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12441] = {
+		param = "Should there truly be a nirvana to be reached, then I would like to chart the way.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12441,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12442] = {
+		param = "With this mission set into motion, I shall not rest until I accomplish it.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12442,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12443] = {
+		param = "Actually, this reminds me of something I read in a poetry book once.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12443,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12444] = {
+		param = "\"With the calm moonlight, sad and beautiful... That sets the birds dreaming in the trees...\"",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12444,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12445] = {
+		param = "If the sea were a book of poems, would you prefer to be the reader turning the pages, or the poet shaping its words with your own hands?",
+		ship_group = 89902,
+		type = 1,
+		id = 12445,
+		flag = 0,
+		option = {
+			{
+				3,
+				"The reader, I think."
+			},
+			{
+				4,
+				"The poet, maybe."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12446] = {
+		param = "The reader, I think. I'd like to learn from those who knew the sea better rather than leaving a record of my own.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12446,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12447] = {
+		param = "So you would rather witness. Observe silently without passing judgement as the waves tell you their stories.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12447,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12448] = {
+		param = "I think your choice is a reflection of your true being.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12448,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12449] = {
+		param = "Without rushing to indulge or dismiss what you see. Seeing the worth in each line engraved upon the waves.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12449,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12450] = {
+		param = "If I am also among them... I would wish for you to understand their reason to be...",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12450,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12451] = {
+		param = "The poet, maybe. I'd like to write a record for the both of us. Like a personal travel log for ourselves.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12451,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12452] = {
+		param = "So you would be a creator. One who casts their will to the depths to give shape to the waves.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12452,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12453] = {
+		param = "There is power in that. Gentle, yet unwavering and constant in nature.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12453,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12454] = {
+		param = "Maybe the mission given to me by you is nothing more than a verse in that poem.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12454,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12455] = {
+		param = "You materialized me from the void, and gave me reason to walk upon this world.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12455,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12456] = {
+		param = "What we share is more than just a master giving orders to a pawn.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12456,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12457] = {
+		param = "The glances, every touch. And the fleeting moments between the silence that let us know we're alive.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12457,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12458] = {
+		param = "I thank you.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12458,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12459] = {
+		param = "May your night be a blessed one, cradled in moonlight and verses.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12459,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12460] = {
+		param = "Commander, have you ever taken notice of the sound of the raindrops falling onto the glass of your window when it rains?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12460,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12461] = {
+		param = "They have a certain rhythm, but no drop ever makes the same sound... It's like a lost, ancient language.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12461,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12462] = {
+		param = "And then, a question came to me.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12462,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12463] = {
+		param = "Does silence have any weight?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12463,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12464] = {
+		param = "Rain is usually loud, but it brings a sense of calm to people's hearts.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12464,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12465] = {
+		param = "But sometimes silence can weigh heavier than hard rain.",
+		ship_group = 89902,
+		type = 1,
+		id = 12465,
+		flag = 0,
+		option = {
+			{
+				1,
+				"The weight of silence..."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12466] = {
+		param = "The weight of silence... Maybe it depends on our distance to each other?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12466,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12467] = {
+		param = "Distance... I think you're right there.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12467,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12468] = {
+		param = "If we use stars as examples, the distance of silence between them would be the cosmos. A cold, gaping void.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12468,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12469] = {
+		param = "But if they come close enough, the silence is not empty anymore. It's filled with words that went unsaid before.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12469,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12470] = {
+		param = "So that silence is a void that must be filled?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12470,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12471] = {
+		param = "Perhaps you fear those silent moments between us?",
+		ship_group = 89902,
+		type = 1,
+		id = 12471,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Sometimes..."
+			},
+			{
+				3,
+				"Silence can be nice, too."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12472] = {
+		param = "Sometimes... I just don't know the right thing to say, you know?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12472,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12473] = {
+		param = "So you also have times when you teeter between saying things or not?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12473,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12474] = {
+		param = "Whenever that happens, I'll be patient. I'll wait until the words spring forth from that abyss of silence.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12474,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12475] = {
+		param = "Or maybe... I could try to read what's behind your silence.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12475,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12476] = {
+		param = "Silence can be nice, too. I think so, at least.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12476,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12477] = {
+		param = "Nice... A beautiful respite.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12477,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12478] = {
+		param = "Like two vines growing side by side. Silent in a corner of the garden. Beyond anyone's notice, their roots entwining under the ground.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12478,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12479] = {
+		param = "Without words, their branches touching in true communion.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12479,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12480] = {
+		param = "It's my first time considering silence so much like longing.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12480,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12481] = {
+		param = "Maybe one rainy day, we may find each other resting under the same cover, sharing a small moment of silence.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12481,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12482] = {
+		param = "Without saying a word. With the sound of the rain and our breathing to do the talking for us.",
+		ship_group = 89902,
+		type = 1,
+		id = 12482,
+		flag = 0,
+		option = {
+			{
+				4,
+				"Maybe..."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12483] = {
+		param = "Maybe I'll end up talking to you, though.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12483,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12484] = {
+		param = "There is beauty in that too.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12484,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12485] = {
+		param = "Every word that leaves your lips, whether born of careful consideration or uttered without thought... All of them I will treasure in my heart.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12485,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12486] = {
+		param = "Have lovely dreams, Commander. May a gentle rain grace your dreams tonight.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12486,
+		flag = 4
+	}
+end)()
+(function ()
+	pg.base.activity_ins_chat_language[12487] = {
+		param = "May the sound of the raindrops become as me, tapping gently on your window. Conveying all that dwells in my heart as a sweet whisper in your ears.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12487,
+		flag = 4
+	}
+	pg.base.activity_ins_chat_language[12488] = {
+		param = "People tend to repeat small mannerisms without even thinking about it. Are you aware of this?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12488,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12489] = {
+		param = "Like when you set down a cup in a consistent spot.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12489,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12490] = {
+		param = "Or how you may glance out the window to look at the clouds as you walk down a long corridor.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12490,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12491] = {
+		param = "Perhaps even the way you would check your lock before going to sleep, even though you may have double checked it already.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12491,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12492] = {
+		param = "It's nothing grand. Or anything that carries meaning in and of itself.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12492,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12493] = {
+		param = "But it's like a small anchor that keeps you grounded to your most basic human needs.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12493,
+		flag = 0
+	}
+	pg.base.activity_ins_chat_language[12494] = {
+		param = "Do you also have one such small ritual? Something you do because it feels like it is who you are?",
+		ship_group = 89902,
+		type = 1,
+		id = 12494,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I like a cup of black coffee in the morning."
+			},
+			{
+				2,
+				"Checking tomorrow's schedule."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12495] = {
+		param = "I like a cup of black coffee in the morning. Does that count?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12495,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12496] = {
+		param = "So you meet the morning light with a touch of bitterness. A ritual fitting for a commander.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12496,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12497] = {
+		param = "You use that bitter taste to bring yourself awake. Then you use the warmth of that cup to pour it back onto those you seek to protect.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12497,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12498] = {
+		param = "I'm a little envious of that bitter cup.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12498,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12499] = {
+		param = "Because it gets to savor your silent resolve at the crack of dawn instead of me.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12499,
+		flag = 1
+	}
+	pg.base.activity_ins_chat_language[12500] = {
+		param = "Checking tomorrow's schedule before going to sleep. I guess.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12500,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12501] = {
+		param = "So you anchor yourself before drifting off. A kind gesture fit for a commander.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12501,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12502] = {
+		param = "You wish to protect that peace brought about by the order you help upkeep.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12502,
+		flag = 2
+	}
+	pg.base.activity_ins_chat_language[12503] = {
+		param = "I guess it's not surprising none such acts would involve m–",
+		ship_group = 89902,
+		type = 1,
+		id = 12503,
+		flag = 0,
+		option = {
+			{
+				3,
+				"You know..."
+			}
+		}
+	}
+	pg.base.activity_ins_chat_language[12504] = {
+		param = "You know... I always check my schedule to see if there's any plans with you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12504,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12505] = {
+		param = "Seeing you in my schedule makes me look forward to the next day.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 12505,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12506] = {
+		param = "...Commander.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12506,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12507] = {
+		param = "Just like you hold on to the promise of tomorrow, you keep a place for me in your heart.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12507,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12508] = {
+		param = "That sentiment alone moves me more than I imagined.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12508,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12509] = {
+		param = "My name means more to you than just words on a page.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12509,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12510] = {
+		param = "It's as if you yourself placed me with your gentle hand on that tomorrow you envision.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12510,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12511] = {
+		param = "Did you know?",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12511,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12512] = {
+		param = "Being remembered and being needed are not the same.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12512,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12513] = {
+		param = "When I'm needed, I find my reason to be.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12513,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12514] = {
+		param = "But being remembered... It brings me one step closer to your heart.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12514,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12515] = {
+		param = "May you have sweet dreams, Commander.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12515,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12516] = {
+		param = "I will also inscribe your name into every one of my tomorrows.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12516,
+		flag = 3
+	}
+	pg.base.activity_ins_chat_language[12517] = {
+		param = "Just so my days and nights are filled with your grace to the same degree.",
+		ship_group = 89902,
+		option = "",
+		type = 1,
+		id = 12517,
+		flag = 3
 	}
 end)()

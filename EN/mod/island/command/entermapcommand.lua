@@ -10,13 +10,12 @@ slot0.execute = function(slot0, slot1)
 		map_id = slot2.mapId
 	}, 21214, function (slot0)
 		if slot0.result == 0 then
-			getProxy(IslandProxy):SetSyncObjInitData(slot0.object_list)
-
 			slot2 = uv0:IsSelf(uv1.islandId) and getProxy(IslandProxy):GetIsland() or getProxy(IslandProxy):GetSharedIsland()
 
 			slot2:GetWildCollectAgency():InitGatherData(slot0, uv1.islandId, slot1)
 			slot2:GetVisitorAgency():InitMapVisitorList(uv1.mapId)
 			slot2:GetActivityNpcAgency():InitNpcList(slot0.npc_list or {})
+			slot2:GetInteractSyncAgency():ApplyMapSnapshot(slot0.object_list, uv1.mapId)
 			existCall(uv2)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

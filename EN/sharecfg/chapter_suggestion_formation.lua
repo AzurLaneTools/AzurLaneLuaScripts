@@ -48,14 +48,14 @@ pg.base.chapter_suggestion_formation = {}
 		describe = "Recommended Formation: Circular Defense. The Vanguard fleet should include ships with high AA, while the Main Fleet should consist of 3 CVs. ",
 		page_title = "Fleetbuilding Guide - Chapter 13",
 		teamid = {
-			1301,
 			1302,
+			1301,
 			1303
 		},
 		teamid1 = {
-			1304,
+			1306,
 			1305,
-			1306
+			1304
 		}
 	}
 	pg.base.chapter_suggestion_formation[2] = {
@@ -66,14 +66,14 @@ pg.base.chapter_suggestion_formation = {}
 		describe = "Recommended Formation: Circular Defense. The Vanguard fleet should include 2 ships with high AA and survival capabilities, and one ship with superior AA capabilities. The Main Fleet should consist of 1 BB and 2 CVs.",
 		page_title = "Fleetbuilding Guide - Chapter 13",
 		teamid = {
-			1311,
 			1312,
+			1311,
 			1313
 		},
 		teamid1 = {
-			1314,
+			1316,
 			1315,
-			1316
+			1314
 		}
 	}
 	pg.base.chapter_suggestion_formation[3] = {
@@ -85,8 +85,8 @@ pg.base.chapter_suggestion_formation = {}
 		page_title = "Fleetbuilding Guide - Chapter 13",
 		teamid1 = "",
 		teamid = {
-			1331,
 			1332,
+			1331,
 			1333
 		}
 	}
@@ -98,14 +98,14 @@ pg.base.chapter_suggestion_formation = {}
 		describe = "Recommended Formation: Double Line Advance. The Vanguard fleet should consist of a highly survivable ship such as a CA or CB in the frontmost position, followed by 2 supporting ships (CL or DD) capable of handling ASW. The Main Fleet should consist of a highly-durable BB and 2 CVs with healing capabilities.",
 		page_title = "Fleetbuilding Guide - Chapter 14",
 		teamid = {
-			1401,
 			1402,
+			1401,
 			1403
 		},
 		teamid1 = {
-			1404,
+			1406,
 			1405,
-			1406
+			1404
 		}
 	}
 	pg.base.chapter_suggestion_formation[5] = {
@@ -116,14 +116,14 @@ pg.base.chapter_suggestion_formation = {}
 		describe = "Recommended Formation: Double Line Advance. The Vanguard fleet should consist of 3 highly survivable ships. The Main Fleet should consist of 1 CV with healing capabilities, and 2 BBs with high damage output.",
 		page_title = "Fleetbuilding Guide - Chapter 14",
 		teamid = {
-			1411,
 			1412,
+			1411,
 			1413
 		},
 		teamid1 = {
-			1414,
+			1416,
 			1415,
-			1416
+			1414
 		}
 	}
 	pg.base.chapter_suggestion_formation[6] = {
@@ -135,8 +135,8 @@ pg.base.chapter_suggestion_formation = {}
 		page_title = "Fleetbuilding Guide - Chapter 14",
 		teamid1 = "",
 		teamid = {
-			1431,
 			1432,
+			1431,
 			1433
 		}
 	}

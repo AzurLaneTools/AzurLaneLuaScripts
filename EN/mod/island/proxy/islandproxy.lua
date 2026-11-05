@@ -18,7 +18,7 @@ slot0.register = function(slot0)
 	slot0.cahce = {}
 	slot0.giftCache = {}
 	slot0.chatMsgs = {}
-	slot0.islandHeartBeatMgr = IslandHearBeatMgr.New()
+	slot0.islandHeartBeatMgr = IslandHeartBeatMgr.New()
 
 	slot0:on(21216, function (slot0)
 		if not uv0:GetIsland() then
@@ -56,10 +56,6 @@ end
 
 slot0.GetIsland = function(slot0)
 	return slot0.island
-end
-
-slot0.remove = function(slot0)
-	slot0.island = nil
 end
 
 slot0.ShouldTip = function(slot0)
@@ -112,14 +108,6 @@ end
 
 slot0.GetSharedIsland = function(slot0)
 	return slot0.sharedIsland
-end
-
-slot0.SetSyncObjInitData = function(slot0, slot1)
-	slot0.syncObjInitData = slot1
-end
-
-slot0.GetSyncObjInitData = function(slot0)
-	return slot0.syncObjInitData and slot0.syncObjInitData or {}
 end
 
 slot0.timeCall = function(slot0)
@@ -189,6 +177,8 @@ slot0.ExitIsland = function(slot0)
 end
 
 slot0.remove = function(slot0)
+	slot0.island = nil
+
 	slot0.islandHeartBeatMgr:Dispose()
 
 	slot0.islandHeartBeatMgr = nil

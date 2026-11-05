@@ -140,6 +140,18 @@ slot0.StaticExistActivityAndCoupon = function(slot0)
 	end)
 end
 
+slot0.GetSkinCouponTotalCnt = function(slot0)
+	slot1 = 0
+
+	for slot5, slot6 in ipairs(uv0.GetSkinCouponActivities(slot0)) do
+		if slot6:GetCanUsageCnt() > 0 then
+			slot1 = slot1 + slot6:GetCanUsageCnt()
+		end
+	end
+
+	return slot1
+end
+
 slot0.GetSkinCouponActFromEncoreAct = function(slot0)
 	if not slot0 then
 		return

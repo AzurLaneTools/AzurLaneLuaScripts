@@ -44,6 +44,10 @@ slot0.isDisCount = function(slot0)
 	end
 end
 
+slot0.isShopDiscount = function(slot0)
+	return slot0:getConfig("discount") ~= 0 and uv0.InCommodityDiscountTime(slot0.id)
+end
+
 slot0.GetDiscountEndTime = function(slot0)
 	slot2, slot3 = unpack(slot0:getConfig("discount_time"))
 	slot5, slot6, slot7 = unpack(slot3[1])
@@ -85,12 +89,10 @@ slot0.GetPrice = function(slot0)
 	slot2 = slot0:getConfig("resource_num")
 	slot3 = 0
 
-	if slot0:isDisCount() then
-		if slot0:IsItemDiscountType() then
-			slot3 = (slot2 - SkinCouponActivity.GetBestReadySkinCouponAct(slot0.id):GetNewPrice(slot2)) * 100 / slot2
-		else
-			slot1 = slot2 * (100 - slot0:getConfig("discount")) / 100
-		end
+	if slot0:isShopDiscount() then
+		slot1 = slot2 * (100 - slot0:getConfig("discount")) / 100
+	elseif slot0:isDisCount() and slot0:IsItemDiscountType() then
+		slot3 = (slot2 - SkinCouponActivity.GetBestReadySkinCouponAct(slot0.id):GetNewPrice(slot2)) * 100 / slot2
 	end
 
 	return slot1, slot3, slot2

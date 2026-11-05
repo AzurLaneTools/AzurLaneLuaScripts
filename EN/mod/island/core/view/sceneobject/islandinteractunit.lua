@@ -28,18 +28,21 @@ slot0.GetTargetRoot = function(slot0)
 	return slot0._go.transform
 end
 
-slot0.GetPlayerParent = function(slot0)
+slot0.GetPlayerParent = function(slot0, slot1)
 	return slot0:GetTargetRoot()
 end
 
-slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-	if slot6 then
+slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = slot0.data:GetTimeline()[slot3]
+	slot7 = slot0.data:GetBlackboardParam()[slot3]
+
+	if slot4 then
 		slot0.director:Stop()
 	end
 
 	slot1:ActiveOrDisactive(false)
 
-	if slot7 then
+	if slot5 then
 		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue("inProgress", true)
 
 		slot0.ignoreSignal = false
@@ -47,17 +50,17 @@ slot0.StartInteract = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 		slot0.ignoreSignal = true
 	end
 
-	slot0:SetPlayerTransform(slot1, slot0:GetPlayerParent())
+	slot0:SetPlayerTransform(slot1, slot0:GetPlayerParent(slot2))
 
-	if slot5 and #slot5 > 1 then
-		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue(slot5[1], slot5[2])
+	if slot7 and #slot7 > 1 then
+		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue(slot7[1], slot7[2])
 	end
 
 	slot0.director.playableAsset = slot0.timelineDic[slot3]
-	slot0.director.extrapolationMode = slot4.is_loop == 1 and UnityEngine.Playables.DirectorWrapMode.Loop or UnityEngine.Playables.DirectorWrapMode.None
+	slot0.director.extrapolationMode = slot6.is_loop == 1 and UnityEngine.Playables.DirectorWrapMode.Loop or UnityEngine.Playables.DirectorWrapMode.None
 
 	slot0:BindPlayer(slot2, slot1)
-	slot0:BindSelf(slot4)
+	slot0:BindSelf(slot6)
 
 	slot0.director.enabled = true
 
@@ -81,15 +84,10 @@ slot0.EndInteract = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	if slot4 then
-		slot5 = slot0.behaviourTreeOwner.graph.blackboard
-
-		slot5:SetVariableValue("inProgress", false)
-		onNextTick(function ()
-			uv0:RevertPlayerTransform(uv1)
-		end)
-	else
-		slot0:RevertPlayerTransform(slot1)
+		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue("inProgress", false)
 	end
+
+	slot0:RevertPlayerTransform(slot1)
 end
 
 slot0.InitStatus = function(slot0, slot1, slot2, slot3)
@@ -139,18 +137,155 @@ slot0.BindSelf = function(slot0, slot1)
 end
 
 slot0.BindPlayer = function(slot0, slot1, slot2)
-	slot4 = slot2 and go(slot2._go.transform:GetChild(0))
-	slot5 = slot2 and slot2._go
+	slot0:BindCharacterTracks(slot0:GetRootGroup(uv0.ROOT_GROUP_COMMANDER), slot1, slot2)
+end
 
-	if slot1 < #TimelineHelper.GetGroupTracks(slot0.director):ToTable() then
-		for slot10, slot11 in ipairs(TimelineHelper.GetChildTracks(slot3[slot1 + 1]):ToTable()) do
-			if slot10 == 1 then
-				TimelineHelper.SetAutoBinding(slot0.director, slot11, slot5)
-			else
-				TimelineHelper.SetAutoBinding(slot0.director, slot11, slot4)
-			end
+slot0.ROOT_GROUP_ITEM = 1
+slot0.ROOT_GROUP_COMMANDER = 2
+slot0.ROOT_GROUP_EXTROVERT = 3
+slot0.ROOT_GROUP_INTROVERT = 4
+
+slot0.GetRootGroup = function(slot0, slot1)
+	if not TimelineHelper.GetGroupTracks(slot0.director):ToTable()[slot1] then
+		warning(string.format("timeline missing root group index=%d (unit=%s)", slot1, tostring(slot0.id)))
+	end
+
+	return slot3
+end
+
+slot0.BindCharacterTracks = function(slot0, slot1, slot2, slot3)
+	if not slot1 then
+		return
+	end
+
+	if not TimelineHelper.GetChildTracks(slot1):ToTable()[slot2] then
+		return
+	end
+
+	slot6 = TimelineHelper.GetChildTracks(slot5):ToTable()
+	slot7 = slot3 and slot3._go
+	slot8 = slot3 and go(slot3._go.transform:GetChild(0))
+
+	for slot12, slot13 in ipairs(slot6) do
+		if slot12 == 1 then
+			TimelineHelper.SetAutoBinding(slot0.director, slot13, slot7)
+		else
+			TimelineHelper.SetAutoBinding(slot0.director, slot13, slot8)
 		end
 	end
+end
+
+slot0.SetShipTransform = function(slot0, slot1, slot2)
+	slot0.cacheShipTransformInfoDic = slot0.cacheShipTransformInfoDic or {}
+	slot0.cacheShipTransformInfoDic[slot1.id] = {
+		position = slot1._tf.position,
+		rotation = slot1._tf.rotation
+	}
+
+	setParent(slot1._tf, slot0:GetPlayerParent(slot2))
+
+	slot1._tf.localPosition = Vector3.zero
+	slot1._tf.localRotation = Quaternion.identity
+end
+
+slot0.RevertShipTransform = function(slot0, slot1)
+	if not slot0.view or not slot1 or not slot1._tf then
+		return
+	end
+
+	if not (slot0.cacheShipTransformInfoDic and slot0.cacheShipTransformInfoDic[slot1.id]) then
+		return
+	end
+
+	setParent(slot1._tf, slot0.view.root)
+
+	slot1._tf.position = slot2.position
+	slot1._tf.rotation = slot2.rotation
+	slot0.cacheShipTransformInfoDic[slot1.id] = nil
+end
+
+slot0.StartShipInteract = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot0.data:GetTimeline()[slot3]
+	slot6 = slot0.data:GetBlackboardParam()[slot3]
+
+	slot1:ActiveOrDisactive(false)
+
+	if slot4 then
+		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue("inProgress", true)
+
+		slot0.ignoreSignal = false
+	else
+		slot0.ignoreSignal = true
+	end
+
+	slot11 = slot0
+	slot10 = slot0.GetPlayerParent
+
+	slot0:SetPlayerTransform(slot1, slot10(slot11, 1))
+
+	for slot10, slot11 in ipairs(slot2) do
+		slot11:ActiveOrDisactive(false)
+		slot11:PauseBt()
+		slot0:SetShipTransform(slot11, slot10 + 1)
+	end
+
+	if slot6 and #slot6 > 1 then
+		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue(slot6[1], slot6[2])
+	end
+
+	slot0.director.playableAsset = slot0.timelineDic[slot3]
+	slot0.director.extrapolationMode = slot5.is_loop == 1 and UnityEngine.Playables.DirectorWrapMode.Loop or UnityEngine.Playables.DirectorWrapMode.None
+
+	slot0:BindCharacterTracks(slot0:GetRootGroup(uv0.ROOT_GROUP_COMMANDER), 1, slot1)
+
+	for slot10, slot11 in ipairs(slot2) do
+		slot13 = slot11.data:GetPersonality() == 1 and uv0.ROOT_GROUP_EXTROVERT or slot12 == 2 and uv0.ROOT_GROUP_INTROVERT
+
+		assert(slot13, "ship personality invalid: " .. tostring(slot12))
+		slot0:BindCharacterTracks(slot0:GetRootGroup(slot13), slot10 + 1, slot11)
+	end
+
+	slot0:BindSelf(slot5)
+
+	slot0.director.enabled = true
+
+	slot0.director:Play()
+end
+
+slot0.EndShipInteract = function(slot0, slot1, slot2, slot3, slot4)
+	if slot3 then
+		slot0.director.time = slot0.director.extrapolationMode == UnityEngine.Playables.DirectorWrapMode.None and slot0.director.duration or 0
+
+		slot0.director:Evaluate()
+		slot0.director:Stop()
+
+		slot0.director.enabled = false
+	end
+
+	slot8 = 1
+	slot9 = nil
+
+	slot0:BindCharacterTracks(slot0:GetRootGroup(uv0.ROOT_GROUP_COMMANDER), slot8, slot9)
+
+	for slot8, slot9 in ipairs(slot2) do
+		slot10 = slot9.data and slot9.data.GetPersonality and slot9.data:GetPersonality()
+
+		if slot10 == 1 and uv0.ROOT_GROUP_EXTROVERT or slot10 == 2 and uv0.ROOT_GROUP_INTROVERT then
+			slot0:BindCharacterTracks(slot0:GetRootGroup(slot11), slot8 + 1, nil)
+		end
+
+		slot9:ActiveOrDisactive(true)
+		slot9:RestartBt()
+		slot0:RevertShipTransform(slot9)
+	end
+
+	slot1:ActiveOrDisactive(true)
+
+	if slot4 then
+		slot0.behaviourTreeOwner.graph.blackboard:SetVariableValue("inProgress", false)
+	end
+
+	slot0:RevertPlayerTransform(slot1)
 end
 
 slot0.SetPlayerTransform = function(slot0, slot1, slot2)
@@ -167,7 +302,7 @@ slot0.SetPlayerTransform = function(slot0, slot1, slot2)
 end
 
 slot0.RevertPlayerTransform = function(slot0, slot1)
-	if not slot1 or not slot0.cachePlayerTransformInfoDic[slot1.id] then
+	if not slot0.view or not slot1 or not slot1._tf or not slot0.cachePlayerTransformInfoDic[slot1.id] then
 		return
 	end
 

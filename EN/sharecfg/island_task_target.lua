@@ -23,6 +23,7 @@ pg.island_task_target.all = {
 	500000021,
 	500000031,
 	500000041,
+	500000051,
 	510010001,
 	510010011,
 	510010012,
@@ -66,6 +67,13 @@ pg.island_task_target.all = {
 	50001026,
 	50001027,
 	50001028,
+	50001029,
+	50001030,
+	50001031,
+	50001032,
+	50001033,
+	50001034,
+	50001035,
 	50002001,
 	50002002,
 	50002003,
@@ -94,6 +102,13 @@ pg.island_task_target.all = {
 	50002026,
 	50002027,
 	50002028,
+	50002029,
+	50002030,
+	50002031,
+	50002032,
+	50002033,
+	50002034,
+	50002035,
 	50003001,
 	50003002,
 	50003003,
@@ -110,6 +125,10 @@ pg.island_task_target.all = {
 	50003014,
 	50003015,
 	50003016,
+	50003017,
+	50003018,
+	50003019,
+	50003020,
 	80010001,
 	80010002,
 	80010003,
@@ -260,6 +279,36 @@ pg.island_task_target.all = {
 	80014028,
 	80014029,
 	80014030,
+	80015001,
+	80015002,
+	80015003,
+	80015004,
+	80015005,
+	80015006,
+	80015007,
+	80015008,
+	80015009,
+	80015010,
+	80015011,
+	80015012,
+	80015013,
+	80015014,
+	80015015,
+	80015016,
+	80015017,
+	80015018,
+	80015019,
+	80015020,
+	80015021,
+	80015022,
+	80015023,
+	80015024,
+	80015025,
+	80015026,
+	80015027,
+	80015028,
+	80015029,
+	80015030,
 	100010001,
 	100010101,
 	100010201,
@@ -763,6 +812,17 @@ pg.base.island_task_target = {}
 			5882
 		}
 	}
+	pg.base.island_task_target[500000051] = {
+		tips = "10020025",
+		jump_ui = "",
+		name = "Talk to Peary.",
+		type = 1,
+		id = 500000051,
+		target_num = 1,
+		target_param = {
+			58000
+		}
+	}
 	pg.base.island_task_target[510010001] = {
 		tips = "",
 		jump_ui = "",
@@ -1228,6 +1288,83 @@ pg.base.island_task_target = {}
 		target_num = 240,
 		target_param = {
 			990024
+		}
+	}
+	pg.base.island_task_target[50001029] = {
+		tips = "",
+		jump_ui = "",
+		name = "Collect winter gatherables.",
+		type = 40,
+		id = 50001029,
+		target_num = 8,
+		target_param = {
+			990029
+		}
+	}
+	pg.base.island_task_target[50001030] = {
+		tips = "",
+		jump_ui = "",
+		name = "Collect winter gatherables.",
+		type = 40,
+		id = 50001030,
+		target_num = 24,
+		target_param = {
+			990029
+		}
+	}
+	pg.base.island_task_target[50001031] = {
+		tips = "",
+		jump_ui = "",
+		name = "Collect winter gatherables.",
+		type = 40,
+		id = 50001031,
+		target_num = 48,
+		target_param = {
+			990029
+		}
+	}
+	pg.base.island_task_target[50001032] = {
+		tips = "",
+		jump_ui = "",
+		name = "Collect winter gatherables.",
+		type = 40,
+		id = 50001032,
+		target_num = 96,
+		target_param = {
+			990029
+		}
+	}
+	pg.base.island_task_target[50001033] = {
+		tips = "",
+		jump_ui = "",
+		name = "Collect winter gatherables.",
+		type = 40,
+		id = 50001033,
+		target_num = 120,
+		target_param = {
+			990029
+		}
+	}
+	pg.base.island_task_target[50001034] = {
+		tips = "",
+		jump_ui = "",
+		name = "Collect winter gatherables.",
+		type = 40,
+		id = 50001034,
+		target_num = 160,
+		target_param = {
+			990029
+		}
+	}
+	pg.base.island_task_target[50001035] = {
+		tips = "",
+		jump_ui = "",
+		name = "Collect winter gatherables.",
+		type = 40,
+		id = 50001035,
+		target_num = 240,
+		target_param = {
+			990029
 		}
 	}
 	pg.base.island_task_target[50002001] = {
@@ -1734,6 +1871,134 @@ pg.base.island_task_target = {}
 			4014
 		}
 	}
+	pg.base.island_task_target[50002029] = {
+		tips = "",
+		jump_ui = "",
+		name = "Make winter specialties.",
+		type = 26,
+		id = 50002029,
+		target_num = 40,
+		target_param = {
+			4047,
+			4049,
+			4051,
+			4052,
+			4053,
+			4054,
+			4055,
+			4056
+		}
+	}
+	pg.base.island_task_target[50002030] = {
+		tips = "",
+		jump_ui = "",
+		name = "Make winter specialties.",
+		type = 26,
+		id = 50002030,
+		target_num = 80,
+		target_param = {
+			4047,
+			4049,
+			4051,
+			4052,
+			4053,
+			4054,
+			4055,
+			4056
+		}
+	}
+end)()
+(function ()
+	pg.base.island_task_target[50002031] = {
+		tips = "",
+		jump_ui = "",
+		name = "Make winter specialties.",
+		type = 26,
+		id = 50002031,
+		target_num = 100,
+		target_param = {
+			4047,
+			4049,
+			4051,
+			4052,
+			4053,
+			4054,
+			4055,
+			4056
+		}
+	}
+	pg.base.island_task_target[50002032] = {
+		tips = "",
+		jump_ui = "",
+		name = "Make winter specialties.",
+		type = 26,
+		id = 50002032,
+		target_num = 200,
+		target_param = {
+			4047,
+			4049,
+			4051,
+			4052,
+			4053,
+			4054,
+			4055,
+			4056
+		}
+	}
+	pg.base.island_task_target[50002033] = {
+		tips = "",
+		jump_ui = "",
+		name = "Make winter specialties.",
+		type = 26,
+		id = 50002033,
+		target_num = 400,
+		target_param = {
+			4047,
+			4049,
+			4051,
+			4052,
+			4053,
+			4054,
+			4055,
+			4056
+		}
+	}
+	pg.base.island_task_target[50002034] = {
+		tips = "",
+		jump_ui = "",
+		name = "Make winter specialties.",
+		type = 26,
+		id = 50002034,
+		target_num = 600,
+		target_param = {
+			4047,
+			4049,
+			4051,
+			4052,
+			4053,
+			4054,
+			4055,
+			4056
+		}
+	}
+	pg.base.island_task_target[50002035] = {
+		tips = "",
+		jump_ui = "",
+		name = "Make winter specialties.",
+		type = 26,
+		id = 50002035,
+		target_num = 800,
+		target_param = {
+			4047,
+			4049,
+			4051,
+			4052,
+			4053,
+			4054,
+			4055,
+			4056
+		}
+	}
 	pg.base.island_task_target[50003001] = {
 		tips = "",
 		jump_ui = "",
@@ -1844,8 +2109,6 @@ pg.base.island_task_target = {}
 			990017
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task_target[50003011] = {
 		tips = "",
 		jump_ui = "",
@@ -1910,6 +2173,50 @@ end)()
 		target_num = 15,
 		target_param = {
 			990023
+		}
+	}
+	pg.base.island_task_target[50003017] = {
+		tips = "",
+		jump_ui = "",
+		name = "Complete winter requests.",
+		type = 39,
+		id = 50003017,
+		target_num = 1,
+		target_param = {
+			990028
+		}
+	}
+	pg.base.island_task_target[50003018] = {
+		tips = "",
+		jump_ui = "",
+		name = "Complete winter requests.",
+		type = 39,
+		id = 50003018,
+		target_num = 5,
+		target_param = {
+			990028
+		}
+	}
+	pg.base.island_task_target[50003019] = {
+		tips = "",
+		jump_ui = "",
+		name = "Complete winter requests.",
+		type = 39,
+		id = 50003019,
+		target_num = 10,
+		target_param = {
+			990028
+		}
+	}
+	pg.base.island_task_target[50003020] = {
+		tips = "",
+		jump_ui = "",
+		name = "Complete winter requests.",
+		type = 39,
+		id = 50003020,
+		target_num = 15,
+		target_param = {
+			990028
 		}
 	}
 	pg.base.island_task_target[80010001] = {
@@ -2681,6 +2988,8 @@ end)()
 			3117
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[80012016] = {
 		tips = "",
 		jump_ui = "",
@@ -2862,8 +3171,6 @@ end)()
 			2022
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task_target[80013005] = {
 		tips = "",
 		jump_ui = "",
@@ -3424,6 +3731,310 @@ end)()
 		target_num = 300,
 		target_param = ""
 	}
+	pg.base.island_task_target[80015001] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 500 Tea Leaves.",
+		type = 4,
+		id = 80015001,
+		target_num = 500,
+		target_param = {
+			2014
+		}
+	}
+	pg.base.island_task_target[80015002] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 500 Citrus Fruits.",
+		type = 4,
+		id = 80015002,
+		target_num = 500,
+		target_param = {
+			2017
+		}
+	}
+	pg.base.island_task_target[80015003] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 250 Mangos.",
+		type = 4,
+		id = 80015003,
+		target_num = 250,
+		target_param = {
+			2019
+		}
+	}
+	pg.base.island_task_target[80015004] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 100 Avocados.",
+		type = 4,
+		id = 80015004,
+		target_num = 100,
+		target_param = {
+			2021
+		}
+	}
+	pg.base.island_task_target[80015005] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 100 Freshwater Fish Meat.",
+		type = 4,
+		id = 80015005,
+		target_num = 100,
+		target_param = {
+			2521
+		}
+	}
+	pg.base.island_task_target[80015006] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 100 Saltwater Fish Meat.",
+		type = 4,
+		id = 80015006,
+		target_num = 100,
+		target_param = {
+			2522
+		}
+	}
+	pg.base.island_task_target[80015007] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 100 Chicken and Potato Hors d'Oeuvres.",
+		type = 4,
+		id = 80015007,
+		target_num = 100,
+		target_param = {
+			3030
+		}
+	}
+	pg.base.island_task_target[80015008] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 50 Sticky Rice with Mango.",
+		type = 4,
+		id = 80015008,
+		target_num = 50,
+		target_param = {
+			3025
+		}
+	}
+	pg.base.island_task_target[80015009] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 25 Strawberry Charlottes.",
+		type = 4,
+		id = 80015009,
+		target_num = 25,
+		target_param = {
+			3028
+		}
+	}
+	pg.base.island_task_target[80015010] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 25 Silver Ore.",
+		type = 4,
+		id = 80015010,
+		target_num = 25,
+		target_param = {
+			2705
+		}
+	}
+	pg.base.island_task_target[80015011] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 25 Elegant Wood.",
+		type = 4,
+		id = 80015011,
+		target_num = 25,
+		target_param = {
+			2803
+		}
+	}
+	pg.base.island_task_target[80015012] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 10 Aroma Sachets.",
+		type = 4,
+		id = 80015012,
+		target_num = 10,
+		target_param = {
+			3039
+		}
+	}
+	pg.base.island_task_target[80015013] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 10 Utensils.",
+		type = 4,
+		id = 80015013,
+		target_num = 10,
+		target_param = {
+			3047
+		}
+	}
+	pg.base.island_task_target[80015014] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 10 Ink Cartridges.",
+		type = 4,
+		id = 80015014,
+		target_num = 10,
+		target_param = {
+			3053
+		}
+	}
+	pg.base.island_task_target[80015015] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 10 Clocks.",
+		type = 4,
+		id = 80015015,
+		target_num = 10,
+		target_param = {
+			3054
+		}
+	}
+	pg.base.island_task_target[80015016] = {
+		tips = "",
+		jump_ui = "",
+		name = "Deliver 10 Batteries.",
+		type = 4,
+		id = 80015016,
+		target_num = 10,
+		target_param = {
+			3055
+		}
+	}
+	pg.base.island_task_target[80015017] = {
+		tips = "",
+		jump_ui = "",
+		name = "Accept 1 Daily Supply.",
+		type = 13,
+		id = 80015017,
+		target_num = 1,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015018] = {
+		tips = "",
+		jump_ui = "",
+		name = "Accept 5 Daily Supplies.",
+		type = 13,
+		id = 80015018,
+		target_num = 5,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015019] = {
+		tips = "",
+		jump_ui = "",
+		name = "Accept 10 Daily Supplies.",
+		type = 13,
+		id = 80015019,
+		target_num = 10,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015020] = {
+		tips = "",
+		jump_ui = "",
+		name = "Accept 20 Daily Supplies.",
+		type = 13,
+		id = 80015020,
+		target_num = 20,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015021] = {
+		tips = "",
+		jump_ui = "",
+		name = "Accept 30 Daily Supplies.",
+		type = 13,
+		id = 80015021,
+		target_num = 30,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015022] = {
+		tips = "",
+		jump_ui = "",
+		name = "Accept 45 Daily Supplies.",
+		type = 13,
+		id = 80015022,
+		target_num = 45,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015023] = {
+		tips = "",
+		jump_ui = "",
+		name = "Accept 60 Daily Supplies.",
+		type = 13,
+		id = 80015023,
+		target_num = 60,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015024] = {
+		tips = "",
+		jump_ui = "",
+		name = "Complete 10 Island Requests.",
+		type = 3,
+		id = 80015024,
+		target_num = 10,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015025] = {
+		tips = "",
+		jump_ui = "",
+		name = "Complete 30 Island Requests.",
+		type = 3,
+		id = 80015025,
+		target_num = 30,
+		target_param = ""
+	}
+end)()
+(function ()
+	pg.base.island_task_target[80015026] = {
+		tips = "",
+		jump_ui = "",
+		name = "Complete 50 Island Requests.",
+		type = 3,
+		id = 80015026,
+		target_num = 50,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015027] = {
+		tips = "",
+		jump_ui = "",
+		name = "Complete 100 Island Requests.",
+		type = 3,
+		id = 80015027,
+		target_num = 100,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015028] = {
+		tips = "",
+		jump_ui = "",
+		name = "Complete 150 Island Requests.",
+		type = 3,
+		id = 80015028,
+		target_num = 150,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015029] = {
+		tips = "",
+		jump_ui = "",
+		name = "Complete 200 Island Requests.",
+		type = 3,
+		id = 80015029,
+		target_num = 200,
+		target_param = ""
+	}
+	pg.base.island_task_target[80015030] = {
+		tips = "",
+		jump_ui = "",
+		name = "Complete 300 Island Requests.",
+		type = 3,
+		id = 80015030,
+		target_num = 300,
+		target_param = ""
+	}
 	pg.base.island_task_target[100010001] = {
 		tips = "10040044",
 		jump_ui = "",
@@ -3902,8 +4513,6 @@ end)()
 			1202
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task_target[100021701] = {
 		tips = "10090008",
 		jump_ui = "",
@@ -4457,6 +5066,8 @@ end)()
 			2700
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[100040301] = {
 		tips = "10070031",
 		jump_ui = "",
@@ -4994,8 +5605,6 @@ end)()
 			7011
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task_target[200070061] = {
 		tips = "10050002",
 		jump_ui = "",
@@ -5555,6 +6164,8 @@ end)()
 			7
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[200140014] = {
 		tips = "",
 		jump_ui = "",
@@ -6091,8 +6702,6 @@ end)()
 			4514
 		}
 	}
-end)()
-(function ()
 	pg.base.island_task_target[305020321] = {
 		tips = "10030008",
 		jump_ui = "",
@@ -6654,6 +7263,8 @@ end)()
 			101
 		}
 	}
+end)()
+(function ()
 	pg.base.island_task_target[900010201] = {
 		tips = "",
 		jump_ui = "",

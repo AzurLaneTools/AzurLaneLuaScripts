@@ -130,8 +130,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					10,
-					22
+					11,
+					5
 				},
 				{
 					0,
@@ -143,7 +143,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					4
+					11
 				},
 				{
 					23,
@@ -154,6 +154,7 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[2] = {
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -163,36 +164,10 @@ pg.base.activity_banner = {}
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[3] = {
-		param = "51616",
+		param = "51688",
 		type = 3,
 		id = 3,
 		pic = "temp3",
@@ -200,8 +175,8 @@ pg.base.activity_banner = {}
 			{
 				{
 					2026,
-					10,
-					22
+					11,
+					5
 				},
 				{
 					0,
@@ -213,7 +188,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					4
+					11
 				},
 				{
 					23,
@@ -224,6 +199,7 @@ pg.base.activity_banner = {}
 		}
 	}
 	pg.base.activity_banner[4] = {
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -232,35 +208,10 @@ pg.base.activity_banner = {}
 			{
 				coreName = "WindFogCorridorCoreActivityUI"
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[5] = {
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
@@ -269,101 +220,24 @@ pg.base.activity_banner = {}
 			{
 				wrap = 2
 			}
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[6] = {
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene Cryptolalia",
-			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					10,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"dorm 3d select"
 		}
 	}
 	pg.base.activity_banner[7] = {
+		time = "stop",
 		type = 2,
 		id = 7,
 		pic = "temp7",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	}
 	pg.base.activity_banner[8] = {
@@ -371,17 +245,18 @@ pg.base.activity_banner = {}
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene shop",
+			"scene equip",
 			{
-				warp = "shopstreet"
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					10,
-					22
+					11,
+					5
 				},
 				{
 					0,
@@ -393,7 +268,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					4
+					11
 				},
 				{
 					23,
@@ -408,18 +283,18 @@ pg.base.activity_banner = {}
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene equip",
+			"scene level",
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				open_remaster = true,
+				isEX = true
 			}
 		},
 		time = {
 			{
 				{
 					2026,
-					10,
-					22
+					11,
+					5
 				},
 				{
 					0,
@@ -431,7 +306,7 @@ pg.base.activity_banner = {}
 				{
 					2026,
 					11,
-					4
+					11
 				},
 				{
 					23,
@@ -464,35 +339,10 @@ pg.base.activity_banner = {}
 	}
 	pg.base.activity_banner[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
-		time = {
-			{
-				{
-					2026,
-					10,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					11,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "limit_skin"
 	}
 	pg.base.activity_banner[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",

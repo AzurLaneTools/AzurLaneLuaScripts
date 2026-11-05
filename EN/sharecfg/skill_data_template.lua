@@ -1522,6 +1522,8 @@ pg.skill_data_template.all = {
 	18350,
 	18380,
 	18400,
+	18410,
+	18430,
 	18440,
 	18460,
 	18500,
@@ -3180,6 +3182,8 @@ pg.skill_data_template.all = {
 	1014200,
 	1013070,
 	1019170,
+	1012310,
+	1012500,
 	1090010,
 	1090020,
 	1090030,
@@ -131681,6 +131685,164 @@ end)()
 			}
 		}
 	}
+	pg.base.skill_data_template[18410] = {
+		desc_get = "",
+		name = "Engulfer of the Golden Vortex+",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship fires her torpedoes: applies [Engulfing Vortex] to all enemies on the battlefield for 5s; enemies affected by [Engulfing Vortex] are pulled in over effect's duration and have their SPD reduced by $1. As long as this ship is not Out of Ammo: increases this ship's EVA by $2.",
+		id = 18410,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[18430] = {
+		desc_get = "",
+		name = "Jöttun's Jaws+",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship hits an enemy with her Main Guns: applies Armor Break to that enemy. Every 4 times this ship fires her Main Guns: fires a $1 enhanced special barrage (DMG is based on the skill's level); if equipped with a large-caliber Main Gun, the number of attacks needed to activate this enhanced special barrage is reduced to 2.",
+		id = 18430,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[18440] = {
 		desc_get = "",
 		name = "Riddle Me This+",
@@ -139961,6 +140123,8 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[19659] = {
 		desc_get = "",
 		name = "布雷斯特展示关卡用",
@@ -140209,8 +140373,6 @@ When this ship fires her Main Guns: spends all Charge and increases this ship's 
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[19670] = {
 		desc_get = "",
 		name = "Functional Amplification Mechanism",
@@ -145565,6 +145727,8 @@ Once per battle, this ship gains the following effects upon falling below 40.0% 
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[21032] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -145593,8 +145757,6 @@ Once per battle, this ship gains the following effects upon falling below 40.0% 
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[21042] = {
 		desc_get = "",
 		name = "All Out Assault II",
@@ -146967,6 +147129,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[23041] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -146995,8 +147159,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[23051] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -148369,6 +148531,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[28271] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -148397,8 +148561,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[28281] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -149775,6 +149937,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29451] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -149803,8 +149967,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29461] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -151181,6 +151343,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[29971] = {
 		desc_get = "",
 		name = "All-Out Assault I",
@@ -151209,8 +151373,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[29981] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -152583,6 +152745,8 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[30491] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -152611,8 +152775,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[30501] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -157726,6 +157888,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[106110] = {
 		desc_get = "",
 		name = "Joker Card",
@@ -157839,8 +158003,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[106130] = {
 		desc_get = "",
 		name = "Dance of the Heavens",
@@ -166628,6 +166790,8 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[108420] = {
 		desc_get = "",
 		name = "Confinement Program",
@@ -166656,8 +166820,6 @@ At the start of battle and every 20s after that: performs a feat of mixology and
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[108440] = {
 		desc_get = "",
 		name = "Buster Borr Upgrade",
@@ -175148,6 +175310,8 @@ Once per battle, when this ship's HP falls below 80.0% as a result of DMG taken,
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[112090] = {
 		desc_get = "",
 		name = "Alchemy of Taboo and Hope",
@@ -175261,8 +175425,6 @@ Once per battle, when this ship's HP falls below 80.0% as a result of DMG taken,
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[112110] = {
 		desc_get = "",
 		name = "One Step Toward Tomorrow",
@@ -183297,6 +183459,8 @@ At the start of battle, this ship gains the following effects if equipping any p
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800165] = {
 		desc_get = "",
 		name = "Flickering Light - Souryuu I",
@@ -183329,8 +183493,6 @@ At the start of battle, this ship gains the following effects if equipping any p
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800170] = {
 		desc_get = "",
 		name = "Cinderflame Curse",
@@ -187795,6 +187957,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[800730] = {
 		desc_get = "",
 		name = "Answerer of Prayers",
@@ -187917,8 +188081,6 @@ end)()
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[800742] = {
 		desc_get = "",
 		name = "Cinders of Hope - Queen Elizabeth",
@@ -193115,6 +193277,8 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801265] = {
 		desc_get = "",
 		name = "Cinders of Hope - Foch",
@@ -193147,8 +193311,6 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801270] = {
 		desc_get = "",
 		name = "Honed Through Adversity",
@@ -198604,6 +198766,8 @@ Additionally, once per battle each, the following effects activate based on the 
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[801837] = {
 		desc_get = "",
 		name = "Smoldering Core - Kawakaze II",
@@ -198719,8 +198883,6 @@ Additionally, once per battle each, the following effects activate based on the 
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[801850] = {
 		desc_get = "",
 		name = "Templar's Presence",
@@ -204046,6 +204208,8 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 		desc_get_add = {},
 		desc_add = {}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[802402] = {
 		desc_get = "",
 		name = "Ashen Might - Saratoga II",
@@ -204078,8 +204242,6 @@ Whenever this ship launches an airstrike: launches an additional $1 special airs
 		desc_get_add = {},
 		desc_add = {}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[802407] = {
 		desc_get = "",
 		name = "Ashen Might - Saratoga II",
@@ -210927,6 +211089,8 @@ end)()
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1012950] = {
 		desc_get = "",
 		name = "The Fighting G+",
@@ -211166,8 +211330,6 @@ end)()
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1005080] = {
 		desc_get = "",
 		name = "Chevalier's Sabre+",
@@ -222324,6 +222486,299 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
+	pg.base.skill_data_template[1012310] = {
+		desc_get = "",
+		name = "Swift Analysis+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's Crit Rate and Crit DMG by $1, and her Hit Rate against enemy DDs and CLs by $2. When this ship hits an enemy with her Main Guns: 30% chance to reduce that enemy's Evasion Rate by $2 for 6s. Every 15s after the start of battle: fires a $3 special barrage (DMG is based on the skill's level).",
+		id = 1012310,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"LV1",
+				"LV10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
+	pg.base.skill_data_template[1012500] = {
+		desc_get = "",
+		name = "Hellcat's Roar+",
+		type = 1,
+		max_level = 10,
+		desc = "At the start of battle, increases this ship's AVI and ACC by $2. If this ship is equipped with an F6F Hellcat or an F6F Hellcat (HVAR-Mounted): \n1) Increases this ship's Fighter efficiency by $1;\n2) When this ship launches an airstrike, launches an additional $3 aerial barrage with F6F Hellcats and F6F Hellcats (HVAR-Mounted) (DMG is based on the skill's level).",
+		id = 1012500,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"30.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+2.2%"
+				},
+				{
+					"12.2%",
+					"+2.2%"
+				},
+				{
+					"14.4%",
+					"+2.2%"
+				},
+				{
+					"16.6%",
+					"+2.2%"
+				},
+				{
+					"18.8%",
+					"+2.2%"
+				},
+				{
+					"21.0%",
+					"+2.2%"
+				},
+				{
+					"23.2%",
+					"+2.2%"
+				},
+				{
+					"25.4%",
+					"+2.2%"
+				},
+				{
+					"27.6%",
+					"+2.4%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	}
 	pg.base.skill_data_template[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -224772,6 +225227,8 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
+end)()
+(function ()
 	pg.base.skill_data_template[1090210] = {
 		desc_get = "",
 		name = "Emergency Maneuvers - Fortune",
@@ -225268,8 +225725,6 @@ Increases this ship's AVI and ACC by $2. When this ship has Royal Navy gear equi
 			}
 		}
 	}
-end)()
-(function ()
 	pg.base.skill_data_template[1090250] = {
 		desc_get = "",
 		name = "Torpedo Command - Comet",

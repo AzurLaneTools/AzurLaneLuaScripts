@@ -1842,7 +1842,43 @@ slot1 = {
 }
 
 SCENE.CheckPreloadData = function(slot0, slot1)
-	table.insert({}, function (slot0)
+	slot2 = {}
+
+	if (getProxy(ActivityBanProxy) and getProxy(ActivityBanProxy):GetBanMediatorDic() or {})[slot0.context.mediator.__cname] then
+		slot4 = function(slot0, slot1)
+			if table.getCount(slot0) == 0 then
+				return true
+			end
+
+			for slot5, slot6 in pairs(slot0) do
+				if not slot1[slot5] or slot1[slot5] ~= slot6 then
+					return false
+				end
+			end
+
+			return true
+		end
+
+		table.insert(slot2, function (slot0)
+			if #uv0[uv1.context.mediator.__cname] == 0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("entrance_maintain"))
+
+				return
+			end
+
+			if underscore.any(slot1, function (slot0)
+				return uv0(slot0, uv1.context.data)
+			end) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("entrance_maintain"))
+
+				return
+			end
+
+			slot0()
+		end)
+	end
+
+	table.insert(slot2, function (slot0)
 		switch(uv0.context.mediator.__cname, uv1, function (slot0, slot1)
 			slot1()
 		end, uv0, slot0)

@@ -13039,17 +13039,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Queen Anne's Revenge added to standard build pool!"
+	tip = "Clemenceau, Lyon, and Suffren added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Lyme and Fancy added to standard build pool!"
+	tip = "Guichen added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Amity added to standard build pool!"
+	tip = "Painlevé added to standard build pool!"
 }
 
 
@@ -40873,6 +40873,36 @@ _G.pg.base.gametip.shop_new_gift = {
 }
 
 
+_G.pg.base.gametip.shop_new_lower_price = {
+	tip = "Best Deal"
+}
+
+
+_G.pg.base.gametip.shop_new_cannot_use_coupon = {
+	tip = "Unable to use voucher; this item is already discounted."
+}
+
+
+_G.pg.base.gametip.shop_new_only_use_one_coupon = {
+	tip = "Only one voucher can be used at a time."
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip1 = {
+	tip = "\nSelected Skin:\n"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip2 = {
+	tip = "$1's Skin, $2\n"
+}
+
+
+_G.pg.base.gametip.shop_new_coupon_tip3 = {
+	tip = "Upon claiming this voucher, it will be used first when purchasing a skin. Would you like to continue?"
+}
+
+
 _G.pg.base.gametip.shop_new_gem_transform = {
 	tip = "Duplicate skin is converted to Gems."
 }
@@ -44722,6 +44752,56 @@ _G.pg.base.gametip.island_spoperation_item_2605_4 = {
 }
 
 
+_G.pg.base.gametip.island_spoperation_tip_2611_1 = {
+	tip = "During the event, Peary will issue requests for specialty products. Complete these orders to earn rewards such as Season Points.\nNote: Specialty products do not count toward your request completion limit, and they do not affect your rating level."
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_1 = {
+	tip = "Gather"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_2 = {
+	tip = "Produce"
+}
+
+
+_G.pg.base.gametip.island_spoperation_btn_2611_3 = {
+	tip = "Manage"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2611_3 = {
+	tip = "During the event, you can produce corresponding specialty products at Sweetscent Orchard, the Golden Koi Restaurant, the Manjuu Eatery, and the Base Factory."
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_1 = {
+	tip = "Plum Blossoms"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_2 = {
+	tip = "Daffodils"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_3 = {
+	tip = "Winter Shiitake"
+}
+
+
+_G.pg.base.gametip.island_spoperation_item_2611_4 = {
+	tip = "Water Chestnut"
+}
+
+
+_G.pg.base.gametip.island_spoperation_tip_2611_2 = {
+	tip = "During the event, unique items will appear within specific areas. Search the areas and gather the items quickly!"
+}
+
+
 _G.pg.base.gametip.island_follow_success = {
 	tip = "Followed"
 }
@@ -45337,6 +45417,11 @@ _G.pg.base.gametip.graphi_api_switch_opengl = {
 
 _G.pg.base.gametip.graphi_api_switch_vulkan = {
 	tip = "Rendering compatibility mode limits the use of the AR function. You will need to restart the game when changing this setting. Would you like to change this setting?"
+}
+
+
+_G.pg.base.gametip.openGLerror_warning = {
+	tip = "Your device is unable to use Vulkan rendering. Please turn on compatibility rendering mode in Settings.*You will need to restart the game after switching rendering modes. Continue?"
 }
 
 
@@ -51910,6 +51995,11 @@ The Operational Handover feature allows you to automatically complete stages tha
 }
 
 
+_G.pg.base.gametip.island_furniture_interaction_tip1 = {
+	tip = "This furniture is currently in use by the island's owner. Please try again later."
+}
+
+
 _G.pg.base.gametip.auto_battle_in_world = {
 	tip = "Unable to start new handover; another operational handover is already in progress."
 }
@@ -52443,6 +52533,131 @@ _G.pg.base.gametip.HurricaneTreasureCoreActivityUI_subtitle_1 = {
 }
 
 
+_G.pg.base.gametip.skin_double_coupon_confirm = {
+	tip = "Spend 1 <color=#92fc63>$1</color> to purchase <color=#92fc63>$3</color> for a discounted price of <icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>?\nOnly one voucher can be used at a time."
+}
+
+
+_G.pg.base.gametip.skin_double_coupon_tip = {
+	tip = "Only one voucher can be used at a time."
+}
+
+
+_G.pg.base.gametip.display_ship_get_repeat = {
+	tip = "Display acquisition animation for already-registered ships"
+}
+
+
+_G.pg.base.gametip.trun_on_display_ship_get_repeat = {
+	tip = "Acquisition animation for already-registered ships is toggled ON."
+}
+
+
+_G.pg.base.gametip.trun_off_display_ship_get_repeat = {
+	tip = "Acquisition animation for already-registered ships is toggled OFF (applies only to stage drops)."
+}
+
+
+_G.pg.base.gametip.resource_repair_tips1 = {
+	tip = "Please tap \"Confirm\" to begin repairing assets.*This process may take some time."
+}
+
+
+_G.pg.base.gametip.resource_repair_tips2 = {
+	tip = "<color=#c5cfdf>Please wait while assets are being repaired.</color>"
+}
+
+
+_G.pg.base.gametip.resource_repair_tips3 = {
+	tip = "Please select at least 1 asset category you would like to repair."
+}
+
+
+_G.pg.base.gametip.resource_repair_op1 = {
+	tip = "Basic Resources"
+}
+
+
+_G.pg.base.gametip.resource_repair_op2 = {
+	tip = "L2D"
+}
+
+
+_G.pg.base.gametip.resource_repair_op3 = {
+	tip = "Illustrations"
+}
+
+
+_G.pg.base.gametip.resource_repair_op4 = {
+	tip = "Secrets"
+}
+
+
+_G.pg.base.gametip.resource_repair_op5 = {
+	tip = "Voice Lines"
+}
+
+
+_G.pg.base.gametip.resource_repair_check = {
+	tip = "Verifying asset group $1 ($2): $3%"
+}
+
+
+_G.pg.base.gametip.resource_repairing = {
+	tip = "Repairing asset group $1 ($2): $3%"
+}
+
+
+_G.pg.base.gametip.resource_repair_report1 = {
+	tip = "No abnormalities detected: $1"
+}
+
+
+_G.pg.base.gametip.resource_repair_report2 = {
+	tip = "Successfully repaired: $1"
+}
+
+
+_G.pg.base.gametip.resource_repair_report3 = {
+	tip = "Unable to repair: $1"
+}
+
+
+_G.pg.base.gametip.resource_repair_finish_tips = {
+	tip = "Repair complete. Please restart the game."
+}
+
+
 _G.pg.base.gametip.windfog_skin_stroy_finish = {
 	tip = "Complete all stories to obtain."
+}
+
+
+_G.pg.base.gametip.entrance_maintain = {
+	tip = "Under development..."
+}
+
+
+_G.pg.base.gametip.world_task_get = {
+	tip = "Collect"
+}
+
+
+_G.pg.base.gametip.world_task_view = {
+	tip = "View"
+}
+
+
+_G.pg.base.gametip.world_task_all = {
+	tip = "Missions"
+}
+
+
+_G.pg.base.gametip.world_task_main = {
+	tip = "Missions"
+}
+
+
+_G.pg.base.gametip.world_task_notask = {
+	tip = "You don't have any missions yet, Commander."
 }
